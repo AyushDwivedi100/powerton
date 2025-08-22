@@ -290,10 +290,10 @@ export default function Header() {
                                 className="block px-3 py-2 rounded-sm hover:bg-accent hover:text-accent-foreground cursor-pointer transition-colors border border-border/50 min-w-0"
                               >
                                 <div className="flex flex-col">
-                                  <div className="font-medium text-foreground text-sm line-clamp-2">
+                                  <div className="font-semibold text-foreground text-sm lg:text-base line-clamp-2">
                                     {service.title}
                                   </div>
-                                  <div className="text-xs text-muted-foreground line-clamp-2 mt-1">
+                                  <div className="text-xs lg:text-sm text-muted-foreground line-clamp-2 mt-1">
                                     {service.description.slice(0, 60)}...
                                   </div>
                                 </div>
