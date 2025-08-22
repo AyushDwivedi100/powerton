@@ -14,3 +14,4 @@
 [x] 14. Matched services dropdown font sizes to products dropdown (text-sm lg:text-base for titles, text-xs lg:text-sm for descriptions)
 [x] 15. Made services dropdown even wider (98vw to 88vw, max-w-none for unlimited width)
 [x] 16. Matched services dropdown width exactly to products dropdown (w-max max-w-[95vw] max-h-[70vh])
+[x] 17. Matched services dropdown height and padding to products dropdown (max-h-[70vh], p-4 lg:p-6)
