@@ -376,7 +376,7 @@ export default function Chatbot() {
         {isOpen && (
           <motion.div
             ref={chatWindowRef}
-            className="fixed bottom-24 right-6 z-40 w-80 sm:w-96 max-h-[calc(100vh-200px)]"
+            className="fixed bottom-20 right-4 left-4 sm:left-auto sm:right-6 z-40 w-full sm:w-80 md:w-96 max-w-sm sm:max-w-none max-h-[calc(100vh-120px)] sm:max-h-[calc(100vh-180px)]"
             initial={{ opacity: 0, y: 100, scale: 0.8 }}
             animate={{ opacity: 1, y: 0, scale: 1 }}
             exit={{ opacity: 0, y: 100, scale: 0.8 }}
@@ -392,7 +392,7 @@ export default function Chatbot() {
               
               <CardContent className="flex-1 flex flex-col p-0">
                 {/* Messages Area */}
-                <div className="flex-1 overflow-y-auto p-4 space-y-4 max-h-80">
+                <div className="flex-1 overflow-y-auto p-4 space-y-4 max-h-60 sm:max-h-80">
                   {messages.map((message) => (
                     <div
                       key={message.id}
