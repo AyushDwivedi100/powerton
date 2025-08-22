@@ -129,6 +129,7 @@ export default function Footer() {
               &copy; 2024 Powerton Engineering Pvt. Ltd. All rights reserved.
             </p>
             <div className="flex items-center space-x-6 text-sm text-slate-400 md:mr-24">
+              <ThemeToggle />
               <a href="/sitemap" className="hover:text-orange-400 transition-colors">Sitemap</a>
             </div>
           </div>
