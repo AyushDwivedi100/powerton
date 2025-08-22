@@ -22,6 +22,7 @@ import {
 } from "lucide-react";
 import { Link } from "wouter";
 import { useScrollAnimation, getAnimationClass } from "@/hooks/use-scroll-animation";
+import { getHeroImage } from '@/assets/images';
 
 // Company news and updates data
 const LATEST_NEWS = [
@@ -262,7 +263,13 @@ export default function News() {
 
       {/* Hero Section */}
       <section className={`relative hero-fullscreen overflow-hidden ${getAnimationClass('fade-in-up', true)}`}>
-        <div className="absolute inset-0 hero-bg-news"></div>
+        <div 
+          className="absolute inset-0 bg-cover bg-center bg-no-repeat" 
+          style={{ 
+            backgroundImage: `url(${getHeroImage('news')?.src})`,
+            filter: 'blur(1px)'
+          }}
+        ></div>
         <div className="absolute inset-0 bg-primary/20"></div>
         <div className="relative max-w-7xl mx-auto px-4 md:px-6 lg:px-8 text-white">
           <div className="max-w-4xl mx-auto text-center">

@@ -19,6 +19,15 @@ import safetyProtectiveDevicesImage from '@assets/generated_images/Safety_protec
 import pumpsMotorsImage from '@assets/generated_images/Pumps_and_motors_showcase_798de33e.png';
 import industrialToolsImage from '@assets/generated_images/Industrial_tools_and_equipment_showcase_bf6580b0.png';
 
+// Hero background images (ID-846+)
+import industrialAutomationFacilityHero from '@assets/generated_images/Industrial_Automation_Facility_Interior_32e6d2d7.png';
+import engineeringServicesHero from '@assets/generated_images/Engineering_Services_Professional_Environment_d0cae776.png';
+import bldcMotorSystemsHero from '@assets/generated_images/BLDC_Motor_Systems_Showcase_3379f405.png';
+import industrialProjectHero from '@assets/generated_images/Industrial_Project_Construction_Site_1ae76aba.png';
+import corporateOfficeHero from '@assets/generated_images/Corporate_Office_Meeting_Environment_5f01f890.png';
+import technicalNewsHero from '@assets/generated_images/Technical_News_Communication_Center_d783a467.png';
+import processAnalyzersHero from '@assets/generated_images/Process_Analyzers_Laboratory_Environment_e98f5ca6.png';
+
 // Image ID mapping system following AI-AGENT-RULES.md
 export const IMAGE_IDS = {
   // ID-001-002: Logo images ✓ ASSIGNED
@@ -43,7 +52,16 @@ export const IMAGE_IDS = {
   SAFETY_PROTECTIVE_DEVICES: 'ID-842',
   PUMPS_MOTORS: 'ID-843',
   INDUSTRIAL_TOOLS: 'ID-844',
-  BLDC_MOTORS: 'ID-845'
+  BLDC_MOTORS: 'ID-845',
+  
+  // ID-846+: Hero background images
+  HERO_ABOUT: 'ID-846',
+  HERO_SERVICES: 'ID-847', 
+  HERO_BLDC: 'ID-848',
+  HERO_PROJECTS: 'ID-849',
+  HERO_CONTACT: 'ID-850',
+  HERO_NEWS: 'ID-851',
+  HERO_ANALYZERS: 'ID-852'
 } as const;
 
 // Product images mapping
@@ -206,6 +224,50 @@ export const getProductImageAlt = (productId: string, productName: string, descr
   return `${image.id}: ${productName}${description ? ' - ' + description : ''}`;
 };
 
+// Hero background images mapping
+export const HERO_IMAGES = {
+  about: {
+    src: industrialAutomationFacilityHero,
+    alt: `${IMAGE_IDS.HERO_ABOUT}: About Powerton Engineering - Industrial automation facility interior`,
+    id: IMAGE_IDS.HERO_ABOUT
+  },
+  services: {
+    src: engineeringServicesHero,
+    alt: `${IMAGE_IDS.HERO_SERVICES}: Engineering Services - Professional engineering environment`,
+    id: IMAGE_IDS.HERO_SERVICES
+  },
+  bldc: {
+    src: bldcMotorSystemsHero,
+    alt: `${IMAGE_IDS.HERO_BLDC}: BLDC Motor Systems - Modern motor technology showcase`,
+    id: IMAGE_IDS.HERO_BLDC
+  },
+  projects: {
+    src: industrialProjectHero,
+    alt: `${IMAGE_IDS.HERO_PROJECTS}: Industrial Projects - Construction and implementation`,
+    id: IMAGE_IDS.HERO_PROJECTS
+  },
+  contact: {
+    src: corporateOfficeHero,
+    alt: `${IMAGE_IDS.HERO_CONTACT}: Contact Us - Corporate office meeting environment`,
+    id: IMAGE_IDS.HERO_CONTACT
+  },
+  news: {
+    src: technicalNewsHero,
+    alt: `${IMAGE_IDS.HERO_NEWS}: News & Updates - Technical communication center`,
+    id: IMAGE_IDS.HERO_NEWS
+  },
+  analyzers: {
+    src: processAnalyzersHero,
+    alt: `${IMAGE_IDS.HERO_ANALYZERS}: Process Analyzers - Laboratory measurement environment`,
+    id: IMAGE_IDS.HERO_ANALYZERS
+  }
+} as const;
+
+// Helper function to get hero background image
+export const getHeroImage = (pageType: keyof typeof HERO_IMAGES) => {
+  return HERO_IMAGES[pageType] || null;
+};
+
 // Export all images for easy access
 export {
   // Existing imports
@@ -224,5 +286,14 @@ export {
   automationControlSystemsImage,
   safetyProtectiveDevicesImage,
   pumpsMotorsImage,
-  industrialToolsImage
+  industrialToolsImage,
+  
+  // Hero background images
+  industrialAutomationFacilityHero,
+  engineeringServicesHero,
+  bldcMotorSystemsHero,
+  industrialProjectHero,
+  corporateOfficeHero,
+  technicalNewsHero,
+  processAnalyzersHero
 };

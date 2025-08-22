@@ -4,7 +4,7 @@ import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { ArrowLeft, Wind, Fan, Zap } from 'lucide-react';
-import { getProductImageSrc, getProductImageAlt } from '@/assets/images';
+import { getProductImageSrc, getProductImageAlt, getHeroImage } from '@/assets/images';
 
 const BLDCCoolerExhaustMotorPage = () => {
   const products = [
@@ -30,8 +30,15 @@ image: getProductImageSrc('bldc-cooler-exhaust-motor')
 
   return (
     <div className="min-h-screen bg-background">
-      <div className="relative bg-gradient-to-br from-primary/10 via-primary/5 to-background py-20">
-        <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHZpZXdCb3g9IjAgMCA2MCA2MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGcgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj4KPGcgZmlsbD0iIzAwMCIgZmlsbC1vcGFjaXR5PSIwLjAyIj4KPGNpcmNsZSBjeD0iNyIgY3k9IjciIHI9IjMiLz4KPC9nPgo8L2c+Cjwvc3ZnPg==')] opacity-20" />
+      <section className="relative py-12 md:py-16 lg:py-20 overflow-hidden">
+        <div 
+          className="absolute inset-0 bg-cover bg-center bg-no-repeat" 
+          style={{ 
+            backgroundImage: `url(${getHeroImage('bldc')?.src})`,
+            filter: 'blur(1px)'
+          }}
+        ></div>
+        <div className="absolute inset-0 bg-primary/20"></div>
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <Link href="/products/bldc">

@@ -5,6 +5,7 @@ import { Badge } from "@/components/ui/badge";
 import { CheckCircle, Users, Award, Globe, Target, Eye, Heart } from "lucide-react";
 import { Link } from "wouter";
 import { COMPANY_INFO } from "@/data/constants";
+import { getHeroImage } from '@/assets/images';
 import { AnimatedSection, useScrollAnimations } from "@/hooks/use-scroll-animation";
 import industryFacilityImage from "@assets/generated_images/Industrial_automation_facility_interior_3c4562ec.png";
 
@@ -61,7 +62,13 @@ export default function About() {
 
       {/* Hero Section */}
       <section className="relative hero-fullscreen overflow-hidden">
-        <div className="absolute inset-0 hero-bg-about"></div>
+        <div 
+          className="absolute inset-0 bg-cover bg-center bg-no-repeat" 
+          style={{ 
+            backgroundImage: `url(${getHeroImage('about')?.src})`,
+            filter: 'blur(1px)'
+          }}
+        ></div>
         <div className="absolute inset-0 bg-primary/20"></div>
         <div className="relative max-w-7xl mx-auto px-4 md:px-6 lg:px-8 text-white">
           <div className="max-w-4xl mx-auto text-center">

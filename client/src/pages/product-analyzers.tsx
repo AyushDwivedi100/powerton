@@ -18,6 +18,7 @@ import {
 } from "lucide-react";
 import analyzersBgImage from '@assets/generated_images/Measurement_Instruments_Laboratory_a811e77b.png';
 import { Link } from "wouter";
+import { getHeroImage } from '@/assets/images';
 
 export default function ProductAnalyzers() {
   useScrollAnimations();
@@ -38,7 +39,13 @@ export default function ProductAnalyzers() {
 
       {/* Hero Section */}
       <section className="relative hero-fullscreen overflow-hidden">
-        <div className="absolute inset-0 hero-bg-analyzers"></div>
+        <div 
+          className="absolute inset-0 bg-cover bg-center bg-no-repeat" 
+          style={{ 
+            backgroundImage: `url(${getHeroImage('analyzers')?.src})`,
+            filter: 'blur(1px)'
+          }}
+        ></div>
         <div className="absolute inset-0 bg-primary/20"></div>
         <div className="relative max-w-7xl mx-auto px-4 md:px-6 lg:px-8 text-white">
           <div className="max-w-4xl mx-auto text-center">
