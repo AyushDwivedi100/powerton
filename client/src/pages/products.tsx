@@ -1,0 +1,342 @@
+import { SEO } from "@/lib/seo";
+import { Button } from "@/components/ui/button";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { Badge } from "@/components/ui/badge";
+import { AnimatedSection, useScrollAnimations } from "@/hooks/use-scroll-animation";
+import { PRODUCTS } from "@/data/constants";
+import { 
+  Download,
+  ArrowRight,
+  Star,
+  CheckCircle,
+  Thermometer,
+  Radio,
+  Cpu,
+  ToggleLeft,
+  Gauge,
+  FlaskConical,
+  Zap,
+  Phone,
+  Mail
+} from "lucide-react";
+import { Link } from "wouter";
+
+export default function Products() {
+  useScrollAnimations();
+
+  const getIconComponent = (iconName: string) => {
+    const icons = {
+      Thermometer,
+      Radio,
+      Cpu,
+      ToggleLeft,
+      Gauge,
+      FlaskConical,
+      Zap
+    };
+    return icons[iconName as keyof typeof icons] || Thermometer;
+  };
+
+  // Map feature names to their corresponding product routes
+  const getFeatureRoute = (feature: string) => {
+    const featureRoutes: { [key: string]: string } = {
+      // Instrumentation Components features
+      "Pressure Transmitters": "/products/transmitters",
+      "Temperature Sensors": "/products/sensors",
+      "Flow Meters": "/products/analyzers",
+      "Level Indicators": "/products/switches",
+      
+      // Electrical Components features
+      "Circuit Breakers": "/products/circuit-breakers-fuses",
+      "Contactors": "/products/electrical-components",
+      "Relays": "/products/electrical-components",
+      "Power Supplies": "/products/power-supplies",
+      
+      // Measurement Instruments features
+      "Digital Multimeters": "/products/multimeters",
+      "Oscilloscopes": "/products/oscilloscopes",
+      "Signal Analyzers": "/products/spectrum-analyzers",
+      "Calibrators": "/products/calibration-equipment",
+      
+      // Solar Products features
+      "Solar Panels": "/products/solar-panels",
+      "Solar Inverters": "/products/solar-inverters",
+      "Mounting Systems": "/products/mounting-structures-racking",
+      "Monitoring Systems": "/products/solar-products",
+      
+      // Automation Control Systems features
+      "PLCs": "/products/plcs",
+      "SCADA Systems": "/products/scada",
+      "HMI Panels": "/products/hmi",
+      "DCS Systems": "/products/dcs",
+      
+      // Safety & Protective Devices features
+      "Emergency Stops": "/products/safety-relays-switches",
+      "Safety Relays": "/products/safety-relays-switches",
+      "Protective Equipment": "/products/intrinsically-safe-equipment",
+      "Fire Safety": "/products/safety-protective-devices",
+      
+      // Mechanical Pumps & Spares features
+      "Centrifugal Pumps": "/products/centrifugal-pumps",
+      "Diaphragm Pumps": "/products/diaphragm-pumps",
+      "Gear Pumps": "/products/gear-pumps",
+      "Pump Spares": "/products/pump-parts-spares",
+      
+      // Industrial Tools & Tackles features
+      "Hand Tools": "/products/hand-tools",
+      "Power Tools": "/products/power-tools",
+      "Cutting Tools": "/products/cutting-tools",
+      "Lifting Equipment": "/products/lifting-equipment",
+      
+      // BLDC Products features
+      "BLDC Motors": "/products/bldc",
+      "Ceiling Fans": "/products/bldc-ceiling-fan",
+      "Submersible Pumps": "/products/bldc-submersible-surface-pump",
+      "Exhaust Motors": "/products/bldc-cooler-exhaust-motor"
+    };
+    
+    return featureRoutes[feature] || `/products/${feature.toLowerCase().replace(/\s+/g, '-').replace(/[^\w-]/g, '')}`;
+  };
+
+  const productDetails = {
+    "instrumentation": {
+      fullDescription: "Comprehensive range of precision instrumentation components for industrial monitoring and control applications.",
+      specifications: [
+        "High accuracy: ±0.1% to ±0.5%",
+        "Operating temperature: -40°C to +85°C",
+        "IP65/IP67 protection rating",
+        "4-20mA, 0-10V, HART, Profibus outputs",
+        "Explosion-proof variants available"
+      ],
+      applications: ["Process Control", "Quality Monitoring", "Safety Systems", "Environmental Monitoring"],
+      features: ["Smart Diagnostics", "Digital Communication", "Easy Calibration", "Long-term Stability"]
+    },
+    "electrical": {
+      fullDescription: "Complete range of electrical components including switches, relays, contactors, and power distribution equipment for industrial applications.",
+      specifications: [
+        "Voltage range: 24V DC to 690V AC",
+        "Current ratings: 1A to 1000A",
+        "IP54 to IP67 protection",
+        "IEC/IS standards compliant",
+        "Temperature rated: -25°C to +70°C"
+      ],
+      applications: ["Motor Control", "Power Distribution", "Switching Applications", "Protection Systems"],
+      features: ["High Reliability", "Modular Design", "Easy Installation", "Maintenance-Free"]
+    },
+    "measurement": {
+      fullDescription: "Advanced digital meters, analyzers, and calibration equipment for precise measurement and monitoring of electrical and process parameters.",
+      specifications: [
+        "Accuracy class: 0.1 to 1.0",
+        "Display: Digital LCD/LED",
+        "Communication: RS485, Ethernet, Wireless",
+        "Data logging capability",
+        "Multiple parameter measurement"
+      ],
+      applications: ["Power Quality Analysis", "Energy Management", "Process Monitoring", "Compliance Measurement"],
+      features: ["Real-time Monitoring", "Data Analytics", "Alarm Management", "Remote Access"]
+    },
+    "solar": {
+      fullDescription: "Complete solar energy solutions including panels, inverters, monitoring systems, and grid-tie equipment for sustainable energy generation.",
+      specifications: [
+        "Panel efficiency: 19-22%",
+        "Power range: 300W to 500W per panel",
+        "Inverter efficiency: >98%",
+        "25-year warranty on panels",
+        "Grid-tie and off-grid solutions"
+      ],
+      applications: ["Rooftop Solar", "Ground Mount Systems", "Solar Farms", "Hybrid Systems"],
+      features: ["High Efficiency", "Weather Resistant", "Smart Monitoring", "Grid Synchronization"]
+    },
+    "automation": {
+      fullDescription: "Advanced automation and control systems including PLCs, HMIs, SCADA solutions, and industrial communication devices.",
+      specifications: [
+        "I/O capacity: 16 to 2048 points",
+        "Communication: Ethernet, Profibus, Modbus",
+        "Programming: IEC 61131-3 compliant",
+        "Operating temperature: 0°C to +60°C",
+        "Redundancy options available"
+      ],
+      applications: ["Manufacturing Automation", "Process Control", "Building Management", "Machine Control"],
+      features: ["Flexible Programming", "Scalable Architecture", "Diagnostic Tools", "Remote Monitoring"]
+    },
+    "safety": {
+      fullDescription: "Comprehensive safety and protection equipment including circuit breakers, safety relays, emergency stop systems, and protective devices.",
+      specifications: [
+        "Breaking capacity: 6kA to 100kA",
+        "Safety integrity level: SIL 2/3",
+        "Response time: <10ms",
+        "Multiple protection functions",
+        "Arc fault protection available"
+      ],
+      applications: ["Personnel Safety", "Equipment Protection", "Fire Safety", "Emergency Systems"],
+      features: ["Fail-Safe Operation", "Self-Monitoring", "Quick Response", "Easy Testing"]
+    },
+    "pumps": {
+      fullDescription: "High-quality mechanical pumps, spare parts, and maintenance kits for various industrial and commercial applications.",
+      specifications: [
+        "Flow rate: 10 LPM to 5000 LPM",
+        "Head: 10m to 500m",
+        "Material: Cast iron, SS316, Bronze",
+        "Temperature: -20°C to +180°C",
+        "Efficiency: up to 85%"
+      ],
+      applications: ["Water Supply", "Chemical Processing", "HVAC Systems", "Industrial Processes"],
+      features: ["Energy Efficient", "Corrosion Resistant", "Low Maintenance", "Reliable Operation"]
+    },
+    "tools": {
+      fullDescription: "Professional grade industrial tools, tackles, and maintenance equipment for various engineering and maintenance applications.",
+      specifications: [
+        "Material: High-grade steel/alloy",
+        "Precision: ±0.1mm accuracy",
+        "Operating range: Various sizes",
+        "Ergonomic design",
+        "Certified to international standards"
+      ],
+      applications: ["Maintenance Work", "Installation", "Calibration", "Testing & Commissioning"],
+      features: ["Durable Construction", "Ergonomic Design", "Precision Engineering", "Multi-Purpose Use"]
+    }
+  };
+
+
+
+  return (
+    <>
+      <SEO
+        title="Industrial Products Catalog - Automation & Electrical Equipment | Powerton Engineering"
+        description="Comprehensive catalog of industrial automation products, electrical components, instrumentation, solar systems, pumps, and tools. Quality equipment for industrial applications."
+        keywords="industrial products, automation equipment, electrical components, instrumentation products, solar panels, industrial pumps, measurement instruments, safety equipment"
+        canonicalUrl="https://powertonengineering.in/products"
+      />
+
+      {/* Hero Section */}
+      <section className="relative hero-fullscreen overflow-hidden">
+        <div className="absolute inset-0 hero-bg-products"></div>
+        <div className="absolute inset-0 bg-primary/20"></div>
+        <div className="relative max-w-7xl mx-auto px-4 md:px-6 lg:px-8 text-white">
+          <div className="max-w-4xl mx-auto text-center">
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
+              <span className="text-secondary">Industrial</span> Products
+            </h1>
+            <p className="text-lg md:text-xl mb-8 opacity-90 max-w-3xl mx-auto">
+              Comprehensive range of industrial automation products, electrical components, instrumentation, solar systems, pumps, and tools. Quality equipment for industrial applications.
+            </p>
+            <div className="flex flex-col sm:flex-row justify-center gap-4 max-w-md mx-auto">
+              <Button className="bg-secondary hover:bg-secondary/90 text-secondary-foreground px-8 py-3 text-lg font-semibold w-full sm:w-auto">
+                <Download className="mr-2 w-5 h-5" />
+                Download Catalog
+              </Button>
+              <Link href="/quote">
+                <Button 
+                  variant="outline" 
+                  className="border-2 border-white text-white hover:bg-background hover:text-foreground px-8 py-3 text-lg font-semibold w-full sm:w-auto"
+                >
+                  Request Quote
+                </Button>
+              </Link>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Product Categories */}
+      <section className="py-20 bg-background">
+        <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8">
+          <AnimatedSection animation="fade-in-up">
+            <div className="text-center mb-16">
+              <h2 className="text-3xl md:text-4xl font-bold text-primary mb-6">
+                Industrial Product Categories
+              </h2>
+              <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
+                Comprehensive range of industrial automation products, electrical components, instrumentation, solar systems, pumps, and tools for all your engineering needs.
+              </p>
+            </div>
+          </AnimatedSection>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {PRODUCTS.map((product, index) => {
+              const IconComponent = getIconComponent(product.icon);
+              
+              return (
+                <AnimatedSection key={product.id} animation="fade-in-up">
+                  <Card className="h-full hover:shadow-xl transition-all duration-300 group">
+                    <CardContent className="p-8 h-full flex flex-col">
+                      <div className="w-16 h-16 bg-secondary rounded-lg flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-300">
+                        <IconComponent className="w-8 h-8 text-white" />
+                      </div>
+                      <Link href={`/products/${product.id}`} className="block">
+                        <h3 className="text-xl font-bold text-foreground mb-3 text-center hover:text-primary transition-colors cursor-pointer">{product.title}</h3>
+                      </Link>
+                      <p className="text-muted-foreground text-center mb-6 flex-grow">{product.description}</p>
+                      
+                      <div className="space-y-4 mt-auto">
+                        <div className="flex flex-wrap gap-2 justify-center min-h-[80px] items-center">
+                          {product.features.slice(0, 4).map((feature, idx) => (
+                            <Link 
+                              key={idx} 
+                              href={getFeatureRoute(feature)}
+                              className="inline-block"
+                            >
+                              <Badge 
+                                variant="secondary" 
+                                className="bg-secondary/10 text-secondary border border-secondary/20 hover:bg-secondary hover:text-secondary-foreground transition-all duration-200 cursor-pointer text-sm px-3 py-1"
+                                data-testid={`badge-${feature.toLowerCase().replace(/\s+/g, '-')}`}
+                              >
+                                {feature}
+                              </Badge>
+                            </Link>
+                          ))}
+                        </div>
+                        
+                        <div className="pt-4 border-t border-border">
+                          <div className="flex items-center justify-center">
+                            <Link href={`/products/${product.id}`}>
+                              <Button variant="ghost" className="text-secondary hover:text-secondary/80 p-0">
+                                View Details <ArrowRight className="ml-2 w-4 h-4" />
+                              </Button>
+                            </Link>
+                          </div>
+                        </div>
+                      </div>
+                    </CardContent>
+                  </Card>
+                </AnimatedSection>
+              );
+            })}
+          </div>
+        </div>
+      </section>
+
+
+      {/* Contact CTA */}
+      <section className="py-20 bg-primary text-white">
+        <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8 text-center">
+          <AnimatedSection animation="fade-in-up">
+            <h2 className="text-3xl md:text-4xl font-bold mb-6">
+              Need Expert Industrial Solutions?
+            </h2>
+            <p className="text-xl mb-8 opacity-90 max-w-2xl mx-auto">
+              Our technical experts are ready to help you select the perfect industrial products and engineering solutions for your automation and electrical needs.
+            </p>
+            <div className="flex flex-col sm:flex-row justify-center gap-4 max-w-md mx-auto">
+              <Link href="/contact">
+                <Button className="bg-secondary hover:bg-secondary/90 text-secondary-foreground px-8 py-3 text-lg font-semibold w-full sm:w-auto">
+                  <Phone className="mr-2 w-5 h-5" />
+                  Contact Expert
+                </Button>
+              </Link>
+              <Link href="/quote">
+                <Button 
+                  variant="outline" 
+                  className="border-2 border-white text-white hover:bg-background hover:text-foreground px-8 py-3 text-lg font-semibold w-full sm:w-auto"
+                >
+                  <Mail className="mr-2 w-5 h-5" />
+                  Get Quote
+                </Button>
+              </Link>
+            </div>
+          </AnimatedSection>
+        </div>
+      </section>
+    </>
+  );
+}

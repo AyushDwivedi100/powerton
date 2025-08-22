@@ -1,0 +1,151 @@
+import FrontendContactForm from "@/components/forms/frontend-contact-form";
+import { Phone, Mail, MapPin, Clock } from "lucide-react";
+import { COMPANY_INFO } from "@/data/constants";
+import { motion } from "framer-motion";
+
+export default function ContactSection() {
+  return (
+    <section 
+      id="contact" 
+      className="relative py-12 md:py-16 lg:py-20 text-white overflow-hidden" 
+      role="main"
+    >
+      {/* Theme-aware professional background */}
+      <div className="absolute inset-0">
+        {/* Primary gradient - adapts to theme */}
+        <div className="absolute inset-0 bg-gradient-to-br from-primary via-blue-700 to-blue-800 dark:from-primary/90 dark:via-blue-700/90 dark:to-blue-800/90"></div>
+        
+        {/* Professional geometric pattern - theme responsive */}
+        <div className="absolute inset-0 opacity-20 dark:opacity-10" style={{
+          backgroundImage: `
+            radial-gradient(circle at 25% 25%, rgba(59, 130, 246, 0.4) 1px, transparent 1px),
+            radial-gradient(circle at 75% 75%, rgba(16, 185, 129, 0.4) 1px, transparent 1px),
+            linear-gradient(45deg, rgba(255, 255, 255, 0.1) 25%, transparent 25%),
+            linear-gradient(-45deg, rgba(255, 255, 255, 0.1) 25%, transparent 25%)
+          `,
+          backgroundSize: '40px 40px, 40px 40px, 80px 80px, 80px 80px',
+          backgroundPosition: '0 0, 20px 20px, 0 0, 40px 40px'
+        }}></div>
+        
+        {/* Subtle circuit board pattern for tech feel */}
+        <div className="absolute inset-0 opacity-10 dark:opacity-5" style={{
+          backgroundImage: `
+            linear-gradient(90deg, rgba(59, 130, 246, 0.3) 1px, transparent 1px),
+            linear-gradient(rgba(59, 130, 246, 0.3) 1px, transparent 1px)
+          `,
+          backgroundSize: '100px 100px'
+        }}></div>
+      </div>
+
+      {/* Theme-aware overlay */}
+      <div className="absolute inset-0 bg-black/30 dark:bg-black/50"></div>
+      
+      {/* Content */}
+      <div className="relative z-10">
+        <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8">
+        <div className="text-center mb-16">
+          <span className="text-secondary font-semibold text-lg">Contact Us</span>
+          <h2 className="text-responsive-title font-bold mt-4 mb-6">
+            Let's Discuss Your Engineering Needs
+          </h2>
+          <p className="text-lg md:text-xl opacity-90 max-w-3xl mx-auto">
+            Ready to start your next project? Get in touch with our expert team for customized solutions and professional consultation.
+          </p>
+        </div>
+
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12">
+          <div>
+            <h3 className="text-2xl font-bold mb-8">Get in Touch</h3>
+            
+            <div className="space-y-6 mb-8">
+              <div className="flex items-start space-x-4">
+                <div className="flex-shrink-0 w-12 h-12 bg-secondary rounded-lg flex items-center justify-center">
+                  <Phone className="w-6 h-6 text-white" aria-hidden="true" />
+                </div>
+                <div>
+                  <h4 className="font-semibold mb-2">Phone</h4>
+                  <p className="opacity-90">{COMPANY_INFO.phone}</p>
+                  <p className="text-sm opacity-70">Available 24/7 for emergency support</p>
+                </div>
+              </div>
+
+              <div className="flex items-start space-x-4">
+                <div className="flex-shrink-0 w-12 h-12 bg-secondary rounded-lg flex items-center justify-center">
+                  <Mail className="w-6 h-6 text-white" aria-hidden="true" />
+                </div>
+                <div>
+                  <h4 className="font-semibold mb-2">Email</h4>
+                  <p className="opacity-90">{COMPANY_INFO.email}</p>
+                  <p className="text-sm opacity-70">We'll respond within 24 hours</p>
+                </div>
+              </div>
+
+              <div className="flex items-start space-x-4">
+                <div className="flex-shrink-0 w-12 h-12 bg-secondary rounded-lg flex items-center justify-center">
+                  <MapPin className="w-6 h-6 text-white" aria-hidden="true" />
+                </div>
+                <div>
+                  <h4 className="font-semibold mb-2">Address</h4>
+                  <a
+                    href="https://maps.app.goo.gl/jiap3sBYbM3r8Pn68"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="hover:text-secondary transition-colors cursor-pointer block"
+                    aria-label="Open office location in Google Maps"
+                  >
+                    <p className="opacity-90 hover:opacity-100">{COMPANY_INFO.address.street}</p>
+                    <p className="opacity-90 hover:opacity-100">{COMPANY_INFO.address.city}, {COMPANY_INFO.address.state} {COMPANY_INFO.address.pincode}</p>
+                  </a>
+                  <p className="text-sm opacity-70">Nearest Metro: {COMPANY_INFO.address.landmark}</p>
+                </div>
+              </div>
+            </div>
+
+            <motion.div 
+              className="relative overflow-hidden rounded-xl p-6 bg-gradient-to-br from-white/95 to-blue-50/80 dark:from-slate-800/95 dark:to-slate-700/90 shadow-lg border border-white/20 dark:border-slate-600/30"
+              whileHover={{ scale: 1.02, y: -4 }}
+              transition={{ duration: 0.3, ease: "easeOut" }}
+            >
+              {/* Elegant background pattern */}
+              <div className="absolute inset-0 opacity-20 dark:opacity-10" style={{
+                backgroundImage: `
+                  radial-gradient(circle at 20% 20%, rgba(59, 130, 246, 0.3) 1px, transparent 1px),
+                  radial-gradient(circle at 80% 80%, rgba(16, 185, 129, 0.3) 1px, transparent 1px)
+                `,
+                backgroundSize: '30px 30px'
+              }}></div>
+              
+              {/* Subtle glow effect */}
+              <div className="absolute inset-0 bg-gradient-to-r from-blue-400/5 to-emerald-400/5 dark:from-blue-400/10 dark:to-emerald-400/10 rounded-xl"></div>
+              
+              {/* Content */}
+              <div className="relative z-10">
+                <div className="flex items-center mb-4">
+                  <div className="w-8 h-8 bg-gradient-to-br from-primary to-secondary rounded-lg flex items-center justify-center mr-3 shadow-lg">
+                    <Clock className="w-4 h-4 text-white" />
+                  </div>
+                  <h4 className="font-bold text-primary dark:text-white">Business Hours</h4>
+                </div>
+                <div className="space-y-3 text-sm">
+                  <div className="flex justify-between items-center py-2 px-3 bg-white/50 dark:bg-slate-700/50 rounded-lg backdrop-blur-sm">
+                    <span className="font-medium text-gray-700 dark:text-gray-300">Monday - Saturday:</span>
+                    <span className="font-semibold text-primary dark:text-emerald-400">9:00 AM - 6:00 PM</span>
+                  </div>
+                  <div className="flex justify-between items-center py-2 px-3 bg-gradient-to-r from-orange-50 to-red-50 dark:from-orange-900/30 dark:to-red-900/30 rounded-lg">
+                    <span className="font-medium text-gray-700 dark:text-gray-300">Sunday:</span>
+                    <span className="font-semibold text-orange-600 dark:text-orange-400">Emergency Support Only</span>
+                  </div>
+                </div>
+              </div>
+            </motion.div>
+          </div>
+
+          <div>
+            <FrontendContactForm />
+          </div>
+        </div>
+        </div>
+      </div>
+    </section>
+  );
+}

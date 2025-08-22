@@ -1,0 +1,189 @@
+import React from 'react';
+import { Link } from 'wouter';
+import { Button } from '@/components/ui/button';
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
+import { Badge } from '@/components/ui/badge';
+import { ArrowLeft, Cpu, Settings, Database } from 'lucide-react';
+import plcBgImage from '@assets/generated_images/Industrial_PLC_Control_Panel_54555fe9.png';
+
+const PLCsPage = () => {
+  const products = [
+    {
+      name: "Siemens SIMATIC S7-1200",
+      description: "Compact PLC for small to medium automation applications",
+      features: ["Integrated I/O", "Ethernet Communication", "TIA Portal Programming", "Fail-Safe Options"],
+      image: getProductImageSrc(getFileBaseName())
+    },
+    {
+      name: "Allen-Bradley CompactLogix 5380",
+      description: "High-performance PLC with integrated safety",
+      features: ["GuardLogix Safety", "Dual Ethernet Ports", "Studio 5000 Software", "Motion Control"],
+      image: getProductImageSrc(getFileBaseName())
+    },
+    {
+      name: "Schneider Electric Modicon M580",
+      description: "High-end PLC for complex industrial processes",
+      features: ["Hot Standby CPU", "Ethernet Ring Topology", "Unity Pro Software", "Cyber Security"],
+      image: getProductImageSrc(getFileBaseName())
+    }
+  ];
+
+  return (
+    <div className="min-h-screen bg-background">
+      {/* Hero Section */}
+      <div className="relative bg-gradient-to-br from-primary/10 via-primary/5 to-background py-20">
+        <div 
+          className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-20"
+          style={{ backgroundImage: `url(${plcBgImage})` }}
+        />
+        <div className="absolute inset-0 bg-primary/20" />
+        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center">
+            <Link href="/products/automation-control-systems">
+              <Button variant="ghost" className="mb-6 hover:bg-primary/10">
+                <ArrowLeft className="mr-2 h-4 w-4" />
+                Back to Automation & Control Systems
+              </Button>
+            </Link>
+            <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
+              PLCs (Programmable Logic Controllers)
+            </h1>
+            <p className="text-xl text-muted-foreground max-w-3xl mx-auto mb-8">
+              Industrial automation controllers for reliable process control and manufacturing systems
+            </p>
+            <div className="flex flex-wrap justify-center gap-2 mb-8">
+              <Badge variant="secondary">Digital I/O</Badge>
+              <Badge variant="secondary">Analog Processing</Badge>
+              <Badge variant="secondary">Communication</Badge>
+              <Badge variant="secondary">Programming</Badge>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Products Section */}
+      <div className="py-16 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
+        <h2 className="text-3xl font-bold text-foreground text-center mb-12">
+          PLC Solutions
+        </h2>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          {products.map((product, index) => (
+            <Card key={index} className="hover:shadow-lg transition-shadow duration-300 hover:scale-[1.02] group cursor-pointer border border-border/50 hover:border-primary/50">
+              <CardHeader className="pb-4">
+                <div className="w-full h-48 bg-muted rounded-lg mb-4 flex items-center justify-center">
+                  <Cpu className="w-16 h-16 text-primary opacity-50" />
+                </div>
+                <CardTitle className="text-xl font-semibold text-foreground group-hover:text-primary transition-colors">
+                  {product.name}
+                </CardTitle>
+                <CardDescription className="text-muted-foreground">
+                  {product.description}
+                </CardDescription>
+              </CardHeader>
+              <CardContent>
+                <div className="space-y-2">
+                  <h4 className="font-medium text-sm text-foreground mb-3">Key Features:</h4>
+                  <ul className="space-y-1">
+                    {product.features.map((feature, featureIndex) => (
+                      <li key={featureIndex} className="text-sm text-muted-foreground flex items-center">
+                        <div className="w-1.5 h-1.5 bg-secondary rounded-full mr-2" />
+                        {feature}
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              </CardContent>
+            </Card>
+          ))}
+        </div>
+      </div>
+
+      {/* Technical Specifications */}
+      <div className="bg-muted/50 py-16 px-4 sm:px-6 lg:px-8">
+        <div className="max-w-7xl mx-auto">
+          <h2 className="text-3xl font-bold text-foreground text-center mb-12">
+            PLC Capabilities
+          </h2>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <Card className="border border-border/50">
+              <CardHeader className="text-center pb-4">
+                <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <Cpu className="w-8 h-8 text-primary" />
+                </div>
+                <CardTitle>Processing Power</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <ul className="space-y-2 text-sm text-muted-foreground">
+                  <li>• CPU Speed: up to 1GHz</li>
+                  <li>• Memory: up to 20MB</li>
+                  <li>• I/O Points: up to 8000</li>
+                  <li>• Scan Time: &lt;1ms</li>
+                </ul>
+              </CardContent>
+            </Card>
+            
+            <Card className="border border-border/50">
+              <CardHeader className="text-center pb-4">
+                <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <Settings className="w-8 h-8 text-primary" />
+                </div>
+                <CardTitle>Communication</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <ul className="space-y-2 text-sm text-muted-foreground">
+                  <li>• Ethernet/IP</li>
+                  <li>• Profinet</li>
+                  <li>• Modbus TCP/RTU</li>
+                  <li>• Serial Communications</li>
+                </ul>
+              </CardContent>
+            </Card>
+            
+            <Card className="border border-border/50">
+              <CardHeader className="text-center pb-4">
+                <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <Database className="w-8 h-8 text-primary" />
+                </div>
+                <CardTitle>Programming</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <ul className="space-y-2 text-sm text-muted-foreground">
+                  <li>• Ladder Logic</li>
+                  <li>• Function Block</li>
+                  <li>• Structured Text</li>
+                  <li>• Sequential Function Chart</li>
+                </ul>
+              </CardContent>
+            </Card>
+          </div>
+        </div>
+      </div>
+
+      {/* CTA Section */}
+      <div className="py-16 px-4 sm:px-6 lg:px-8">
+        <div className="max-w-4xl mx-auto text-center">
+          <h2 className="text-3xl font-bold text-foreground mb-6">
+            Need PLC Automation Solutions?
+          </h2>
+          <p className="text-lg text-muted-foreground mb-8">
+            Our automation engineers can design and implement PLC systems for your manufacturing processes.
+          </p>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <Link href="/contact">
+              <Button size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground">
+                Contact PLC Experts
+              </Button>
+            </Link>
+            <Link href="/quote">
+              <Button size="lg" variant="outline" className="border-primary text-primary hover:bg-primary hover:text-primary-foreground">
+                Request Quote
+              </Button>
+            </Link>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default PLCsPage;

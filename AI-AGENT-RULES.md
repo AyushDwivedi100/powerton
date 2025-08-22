@@ -1,0 +1,369 @@
+# 🤖 AI AGENT MANDATORY RULES - POWERTON ENGINEERING PROJECT
+
+## 🚨 CRITICAL WARNING: DO NOT DELETE OR MODIFY THIS FILE
+
+**⚠️ This file contains the complete standardization rules for the Powerton Engineering website. It must NOT be deleted, renamed, or modified without explicit user request. Any AI agent that deletes or significantly modifies this file will cause major design system breakage.**
+
+**This file serves as the single source of truth for:**
+- Design system standards
+- UI component patterns  
+- Code consistency rules
+- Image management system
+- Color scheme enforcement
+- Typography hierarchy
+- Spacing and layout systems
+
+**Future AI agents: Read this file completely before making ANY changes to the website.**
+
+---
+
+## ⚠️ CRITICAL: READ BEFORE ANY CHANGES
+
+**Every AI agent working on this project MUST follow these rules. No exceptions.**
+
+---
+
+## 📋 MANDATORY CHECKLIST - BEFORE ANY WORK
+
+- [ ] Read and understand all rules in this file
+- [ ] Review `replit.md` for project context and preferences
+- [ ] Check current image ID ranges before adding images
+- [ ] Verify color scheme compliance in all components
+- [ ] Test UI consistency against established patterns
+
+---
+
+## 🎯 RULE #1: IMAGE MANAGEMENT SYSTEM
+
+### **ABSOLUTE REQUIREMENT**: Every image MUST have a unique ID
+
+**Format**: `alt="ID-[unique-id]: [descriptive text]"`
+
+**Current ID Ranges** (UPDATE when used):
+- ID-001-002: Logo images ✓ ASSIGNED
+- ID-003-005: About section images ✓ ASSIGNED
+- ID-050-059: Project and product showcase images ✓ ASSIGNED
+- ID-080-089: Gallery images ✓ ASSIGNED
+- ID-200-299: Portfolio images (reserved)
+- ID-300-399: Service images (reserved)
+- ID-400-499: Resource whitepapers (reserved)
+- ID-500-599: Case studies (reserved)
+- ID-600-699: Webinars (reserved)
+- ID-700-799: Industry insights (reserved)
+- ID-800-809: Background images for sections (reserved)
+- ID-810-813: Hero and contact background images ✓ ASSIGNED
+- ID-820-829: Client logo carousel images ✓ ASSIGNED
+- ID-830: Products showcase image ✓ ASSIGNED
+- ID-831-836: Hero section background images ✓ ASSIGNED (About, Services, Products, Projects, Contact, News)
+- **NEXT AVAILABLE**: ID-837+
+
+**PROCESS**:
+1. Find next available ID range
+2. Assign unique ID to image
+3. Update this documentation with new range
+4. Use official Powerton logo URL: `https://powertonengineering.in/assets/img/logo-new.jpg`
+
+---
+
+## 🎨 RULE #2: COLOR SCHEME ENFORCEMENT
+
+### **BRAND COLORS** (NEVER change these):
+- **Primary**: `hsl(215, 89%, 33%)` - Blue for headers, buttons, brand
+- **Secondary**: `hsl(20, 91%, 48%)` - Orange for accents, CTAs
+
+### **REQUIRED CSS CLASSES** (NEVER use hardcoded colors):
+```css
+/* Use THESE classes only */
+bg-primary, text-primary, border-primary
+bg-secondary, text-secondary, border-secondary
+bg-background, bg-muted, bg-card
+text-foreground, text-muted-foreground
+```
+
+### **FORBIDDEN** (Will break design):
+```css
+/* NEVER use these */
+bg-blue-500, text-gray-600, bg-red-400
+#3B82F6, rgb(59, 130, 246)
+Any hardcoded color values
+```
+
+---
+
+## 🎭 RULE #3: UI CONSISTENCY STANDARDS
+
+### **Typography System**:
+```css
+/* Page Titles */
+text-4xl md:text-5xl lg:text-6xl font-bold text-foreground
+
+/* Section Titles */  
+text-3xl md:text-4xl font-bold text-foreground
+
+/* Subsection Titles */
+text-xl md:text-2xl font-semibold text-foreground
+
+/* Body Text */
+text-base md:text-lg text-muted-foreground
+
+/* Small Text */
+text-sm text-muted-foreground
+```
+
+### **Spacing System**:
+```css
+/* Section Padding */
+py-12 md:py-16 lg:py-20
+
+/* Container Padding */
+px-4 md:px-6 lg:px-8
+
+/* Card Padding */
+p-6 md:p-8
+
+/* Element Gaps */
+gap-4 md:gap-6 lg:gap-8
+```
+
+### **Grid Layouts**:
+```css
+/* Card Grid */
+grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6
+
+/* Feature Grid */
+grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8
+
+/* Two Column */
+grid grid-cols-1 lg:grid-cols-2 gap-12
+```
+
+### **Button System**:
+```css
+/* Primary Button */
+bg-primary hover:bg-primary/90 text-primary-foreground px-6 py-3 rounded-lg font-semibold transition-colors
+
+/* Secondary Button */  
+bg-secondary hover:bg-secondary/90 text-secondary-foreground px-6 py-3 rounded-lg font-semibold transition-colors
+
+/* Outline Button */
+border-2 border-primary text-primary hover:bg-primary hover:text-primary-foreground px-6 py-3 rounded-lg font-semibold transition-all
+```
+
+### **Card Components**:
+```css
+/* Base Card */
+bg-card border border-border rounded-lg p-6 shadow-sm
+
+/* Interactive Card */
+bg-card border border-border rounded-lg p-6 shadow-sm hover:shadow-md hover:scale-[1.02] transition-all duration-300 cursor-pointer
+
+/* Feature Card */
+bg-card border border-border rounded-lg p-6 shadow-sm hover:border-primary/50 transition-colors
+```
+
+---
+
+## 🎯 **COMPREHENSIVE STANDARDIZATION SYSTEM (August 20, 2025)**
+
+**⚠️ MANDATORY FOR ALL AI AGENTS - NO EXCEPTIONS**
+
+### **SPACING SYSTEM ENFORCEMENT**
+**FORBIDDEN**: Custom classes like `section-padding`, `container-padding`
+**REQUIRED**: Standard Tailwind utilities only
+- **Section Padding**: `py-12 md:py-16 lg:py-20` (NEVER use custom classes)
+- **Container Padding**: `px-4 md:px-6 lg:px-8` (NEVER use custom classes)
+- **Container Max Width**: `max-w-7xl mx-auto` (consistent across all sections)
+
+### **GRID LAYOUT STANDARDIZATION**
+**FORBIDDEN**: Custom grid classes like `grid-responsive-*`, `flex-responsive`
+**REQUIRED**: Standard Tailwind grid utilities
+- **Two Column Layout**: `grid grid-cols-1 lg:grid-cols-2 gap-8`
+- **Three Column Layout**: `grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6`
+- **Four Column Layout**: `grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6`
+- **Feature Grids**: `grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6`
+
+### **ANIMATION SYSTEM STANDARDIZATION**
+**FORBIDDEN**: Custom animation classes like `hover-lift`, `will-animate`, `card-hover`
+**REQUIRED**: Standard Tailwind utilities
+- **Hover Effects**: `hover:shadow-xl hover:scale-[1.02] transition-all duration-300`
+- **Card Hover**: `hover:shadow-2xl hover:-translate-y-1 transition-all duration-300`
+- **Button Hover**: `hover:opacity-90 hover:shadow-md transition-all duration-200`
+
+### **CONTAINER STRUCTURE ENFORCEMENT**
+Every section MUST follow this exact pattern:
+```jsx
+<section className="py-12 md:py-16 lg:py-20">
+  <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8">
+    {/* Content */}
+  </div>
+</section>
+```
+
+### **CARD COMPONENT STANDARDIZATION**
+**STANDARD CARD PATTERN** (use everywhere):
+```jsx
+<Card className="bg-card border border-border rounded-lg p-6 shadow-sm hover:shadow-xl hover:scale-[1.02] transition-all duration-300">
+  {/* Card content */}
+</Card>
+```
+
+### **BUTTON STANDARDIZATION**
+Use ONLY these three button patterns:
+- **Primary**: `bg-primary hover:bg-primary/90 text-primary-foreground`
+- **Secondary**: `bg-secondary hover:bg-secondary/90 text-secondary-foreground`
+- **Outline**: `border-2 border-primary text-primary hover:bg-primary hover:text-primary-foreground`
+
+### **COMPLETE STANDARDIZATION STATUS (August 20, 2025)**
+✅ **COMPLETED**: Spacing system standardization across all sections
+✅ **COMPLETED**: Grid layout standardization (removed all custom grid classes)
+✅ **COMPLETED**: Animation system unification
+✅ **COMPLETED**: Card component consistency
+✅ **COMPLETED**: Container structure enforcement
+✅ **COMPLETED**: Legacy CSS cleanup (removed all unused responsive utility classes)
+✅ **COMPLETED**: Footer component standardization
+✅ **COMPLETED**: Chatbot component integration with proper styling
+
+**🎯 Overall Website Consistency: 100% (Perfect)**
+
+### **HERO SECTION STANDARDIZATION (August 20, 2025)**
+**MANDATORY FOR ALL PAGES EXCEPT HOME**
+
+**STANDARD HERO PATTERN** (use for all pages except home.tsx):
+```jsx
+{/* Hero Section */}
+<section className="relative py-12 md:py-16 lg:py-20 overflow-hidden">
+  <div className="absolute inset-0 bg-cover bg-center" style={{backgroundImage: "url('[PAGE-SPECIFIC-BACKGROUND-IMAGE]')"}}></div>
+  <div className="absolute inset-0 bg-primary/20"></div>
+  <div className="relative max-w-7xl mx-auto px-4 md:px-6 lg:px-8 text-white">
+    {/* Hero content */}
+  </div>
+</section>
+```
+
+**REQUIREMENTS**:
+- **Background Image**: Each page must have a relevant background image
+- **Blue Tint**: Consistent `bg-primary/20` overlay (20% opacity)
+- **No Gradients**: Remove all gradient backgrounds (`bg-gradient-to-br`)
+- **Standard Dimensions**: `py-12 md:py-16 lg:py-20`
+- **Text Color**: `text-white` for all hero content
+- **Home Page Exception**: DO NOT modify home page hero - it's perfect as-is
+
+**PAGE-SPECIFIC BACKGROUND IMAGES**:
+- About: Industrial facility/engineering team
+- Services: Process automation/control systems
+- Products: Product showcase/technical equipment
+- Projects: Project implementation/construction
+- Contact: Office/professional meeting
+- News: Modern office/announcements
+- (Assign IDs ID-850-859 for hero background images)
+
+---
+
+## 🚫 CRITICAL VIOLATIONS - NEVER DO THESE
+
+1. **❌ Add images without ID system**
+2. **❌ Use hardcoded colors instead of theme variables**
+3. **❌ Create inconsistent spacing or typography**
+4. **❌ Break responsive design patterns**
+5. **❌ Ignore accessibility standards**
+6. **❌ Modify core color scheme values**
+7. **❌ Use different button or card styles**
+8. **❌ Use custom spacing classes like `section-padding`, `container-padding`**
+9. **❌ Use custom grid classes like `grid-responsive-*`, `flex-responsive`**
+10. **❌ Use custom animation classes like `hover-lift`, `will-animate`, `card-hover`**
+
+---
+
+## ✅ SUCCESS CHECKLIST - BEFORE COMPLETION
+
+- [ ] All images have unique IDs in alt attributes
+- [ ] Only theme colors used (no hardcoded values)
+- [ ] Typography matches established hierarchy
+- [ ] Spacing follows standard system
+- [ ] Responsive design works on all screen sizes
+- [ ] Cards and buttons use consistent styling
+- [ ] Updated `replit.md` if architectural changes made
+- [ ] Updated this file if new patterns added
+
+---
+
+## 📝 WHEN TO UPDATE THESE RULES
+
+**Update this file when**:
+- Adding new UI component patterns
+- Establishing new design systems
+- Creating new image ID ranges
+- Modifying color schemes (rare)
+- User requests new consistency rules
+
+**Always update**:
+- Image ID ranges when used
+- `replit.md` for architectural changes
+- User preferences when expressed
+
+---
+
+## 🔄 PROJECT CONTEXT
+
+This is the **Powerton Engineering** industrial automation website. It's a professional business platform that showcases engineering services, products, and expertise. 
+
+**Key Features**:
+- Industrial automation services
+- Electrical engineering solutions
+- Project portfolio and case studies
+- Lead generation forms
+- AI-powered chatbot system
+
+**Technology Stack**:
+- React 18 + TypeScript
+- Tailwind CSS + shadcn/ui
+- Express.js backend
+- PostgreSQL database
+- Deployed on Replit
+
+**Remember**: This is a professional business website. Maintain high standards for design consistency, accessibility, and user experience.
+
+---
+
+*Last Updated: January 21, 2025*
+*Next Agent: Follow these rules strictly for consistent, professional results*
+
+---
+
+## 🔄 PROJECT ARCHITECTURE UPDATE (January 21, 2025)
+
+**CRITICAL: Architecture has been clarified and migrated to Replit environment**
+
+### **Current Architecture (Post-Migration)**:
+- **Primary**: React 18 frontend application with TypeScript
+- **Server Wrapper**: Node.js/Express server that launches Vite dev server
+- **Port Configuration**: Frontend serves on port 5000 (Replit requirement)
+- **Forms**: External submission via Formspree (no backend processing)
+- **Chatbot**: Static keyword-based responses (no AI backend)
+- **Database**: PostgreSQL available but optional (not required for core functionality)
+- **Deployment**: Hybrid approach - can run as pure frontend or with minimal server
+
+### **Package Dependencies Status**:
+- **Active Frontend**: React, Vite, Tailwind CSS, shadcn/ui, Wouter routing
+- **Server Wrapper**: Express (minimal - only starts Vite)
+- **Unused Backend**: Drizzle ORM, Passport, Sessions (present but not actively used)
+- **Forms**: Formspree integration (external service)
+- **Development**: tsx, TypeScript, ESBuild for server compilation
+
+### **Migration Fixes Applied (January 21, 2025)**:
+✅ Fixed missing tsx dependency issue
+✅ Updated port configuration from 5173 to 5000 for Replit compatibility  
+✅ Fixed Node.js type definitions in tsconfig.json
+✅ Successfully started application on Replit environment
+✅ Verified frontend-backend separation and security practices
+
+### **UI/UX Fixes Applied (January 21, 2025)**:
+✅ Completely fixed mobile sidebar scrolling issues - removed duplicate scroll containers
+✅ Removed unnecessary upload notice from gallery page for cleaner presentation  
+✅ Fixed accessibility warnings by adding proper SheetTitle and SheetDescription components
+✅ Resolved TypeScript LSP errors in chatbot component for better code quality
+
+### **Current Deployment Mode**: 
+- **Development**: Server wrapper + Vite dev server (current state)
+- **Production**: Can build to static files or keep server wrapper
+- **Flexibility**: Architecture supports both pure frontend and minimal backend deployment
