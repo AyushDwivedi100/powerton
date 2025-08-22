@@ -262,7 +262,7 @@ export default function News() {
       />
 
       {/* Hero Section */}
-      <section className={`relative hero-fullscreen overflow-hidden ${getAnimationClass('fade-in-up', true)}`}>
+      <section className={`relative py-12 md:py-16 lg:py-20 overflow-hidden ${getAnimationClass('fade-in-up', true)}`}>
         <div 
           className="absolute inset-0 bg-cover bg-center bg-no-repeat" 
           style={{ 
@@ -270,7 +270,7 @@ export default function News() {
             filter: 'blur(1px)'
           }}
         ></div>
-        <div className="absolute inset-0 bg-primary/20"></div>
+        <div className="absolute inset-0 bg-primary/70"></div>
         <div className="relative max-w-7xl mx-auto px-4 md:px-6 lg:px-8 text-white">
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4 sm:mb-6">

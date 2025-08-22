@@ -4,6 +4,7 @@ import { Link } from "wouter";
 import { motion } from "framer-motion";
 import { StaggeredList } from "@/hooks/use-scroll-animation";
 import { useState, useEffect, useRef } from "react";
+import { getHeroImage } from '@/assets/images';
 
 // Counter Component for animated counting with intersection observer
 function AnimatedCounter({ 
@@ -128,24 +129,20 @@ export default function HeroSection() {
   return (
     <section 
       id="home" 
-      className="relative py-12 md:py-16 lg:py-20 bg-gradient-to-br from-primary via-blue-700 to-blue-800 dark:from-primary/80 dark:via-blue-700/80 dark:to-blue-800/80 text-foreground overflow-hidden"
+      className="relative py-12 md:py-16 lg:py-20 overflow-hidden"
       role="banner"
     >
-      {/* Clean geometric background pattern - theme responsive */}
-      <div className="absolute inset-0">
-        <div className="absolute inset-0 opacity-20 dark:opacity-10" style={{
-          backgroundImage: 'radial-gradient(circle at 2px 2px, rgba(255,255,255,0.4) 1px, transparent 0)',
-          backgroundSize: '40px 40px'
-        }}></div>
-        <div className="absolute inset-0 opacity-10 dark:opacity-5" style={{
-          backgroundImage: 'linear-gradient(45deg, rgba(255,255,255,0.1) 25%, transparent 25%), linear-gradient(-45deg, rgba(255,255,255,0.1) 25%, transparent 25%), linear-gradient(45deg, transparent 75%, rgba(255,255,255,0.1) 75%), linear-gradient(-45deg, transparent 75%, rgba(255,255,255,0.1) 75%)',
-          backgroundSize: '60px 60px',
-          backgroundPosition: '0 0, 0 30px, 30px -30px, -30px 0px'
-        }}></div>
-      </div>
+      {/* Hero Background Image */}
+      <div 
+        className="absolute inset-0 bg-cover bg-center bg-no-repeat" 
+        style={{ 
+          backgroundImage: `url(${getHeroImage('home')?.src})`,
+          filter: 'blur(1px)'
+        }}
+      ></div>
       
-      {/* Theme-aware overlay */}
-      <div className="absolute inset-0 bg-black/30 dark:bg-black/50"></div>
+      {/* Theme-aware overlay with primary color tint */}
+      <div className="absolute inset-0 bg-primary/70 dark:bg-primary/60"></div>
       
       <div className="relative max-w-7xl mx-auto px-4 md:px-6 lg:px-8 py-12 sm:py-16 md:py-20 lg:py-32">
         <motion.div 

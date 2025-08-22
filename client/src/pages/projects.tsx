@@ -28,6 +28,7 @@ import {
 } from "lucide-react";
 import { Link } from "wouter";
 import { useScrollAnimation, useStaggeredAnimation, getAnimationClass } from "@/hooks/use-scroll-animation";
+import { getHeroImage } from '@/assets/images';
 
 // Enhanced project data combining basic projects with detailed portfolio information
 const PORTFOLIO_PROJECTS = [
@@ -229,15 +230,15 @@ export default function Projects() {
       />
 
       {/* Hero Section */}
-      <section className={`relative hero-fullscreen overflow-hidden ${getAnimationClass('fade-in-up', true)}`}>
-        <div className="absolute inset-0">
-          <img 
-            src={projectsHeroImage} 
-            alt="ID-833: Engineering projects and automation showcase background" 
-            className="w-full h-full object-cover filter blur-sm"
-          />
-        </div>
-        <div className="absolute inset-0 bg-black/60"></div>
+      <section className={`relative py-12 md:py-16 lg:py-20 overflow-hidden ${getAnimationClass('fade-in-up', true)}`}>
+        <div 
+          className="absolute inset-0 bg-cover bg-center bg-no-repeat" 
+          style={{ 
+            backgroundImage: `url(${getHeroImage('projects')?.src})`,
+            filter: 'blur(1px)'
+          }}
+        ></div>
+        <div className="absolute inset-0 bg-primary/70"></div>
         <div className="relative max-w-7xl mx-auto px-4 md:px-6 lg:px-8 text-white">
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4 sm:mb-6">
