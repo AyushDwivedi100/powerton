@@ -296,7 +296,7 @@ export default function Header() {
                       </div>
 
                       {/* Hover Dropdown Content */}
-                      <div className="opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 fixed left-1/2 -translate-x-1/2 z-50" style={{top: 'calc(100% + 1.5rem)'}}>
+                      <div className="opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 fixed left-1/2 -translate-x-1/2 z-50" style={{top: '120px'}}>
                         <div className="w-max max-w-[95vw] bg-popover border border-border rounded-md shadow-lg">
                           <div className="p-4 lg:p-6">
                             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 2xl:grid-cols-6 3xl:grid-cols-7 4xl:grid-cols-8 5xl:grid-cols-9 gap-3 lg:gap-4 max-w-none">
