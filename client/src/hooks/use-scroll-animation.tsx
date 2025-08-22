@@ -56,8 +56,8 @@ export const useScrollAnimation = (options: ScrollAnimationOptions = {}) => {
         }
       },
       {
-        threshold: options.threshold || 0.15,
-        rootMargin: options.rootMargin || '0px 0px -100px 0px',
+        threshold: options.threshold || 0.2,
+        rootMargin: options.rootMargin || '0px 0px -80px 0px',
       }
     );
 
@@ -119,7 +119,7 @@ export const useMotionAnimation = () => {
   const controls = useAnimation();
   const ref = useRef(null);
   const inView = useInView(ref, { 
-    margin: '0px 0px -100px 0px',
+    margin: '0px 0px -80px 0px',
     once: true  // This ensures animation triggers only once
   } as any);
 
@@ -154,8 +154,8 @@ export const AnimatedSection: React.FC<AnimatedSectionProps> = ({
 }) => {
   const [ref, controls] = useMotionAnimation();
 
-  // Use consistent duration for smoother animations
-  const optimizedDuration = Math.min(Math.max(duration, 0.4), 1.2);
+  // Use shorter, consistent duration for smoother animations
+  const optimizedDuration = 0.5;
 
   const animations = {
     fadeInUp: {

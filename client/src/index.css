@@ -8,38 +8,22 @@
 html {
   overflow-y: scroll !important;
   scrollbar-gutter: stable;
-  /* Smooth scrolling for better animation performance */
-  scroll-behavior: smooth;
 }
 
 body {
   overflow-x: hidden !important;
   width: 100vw !important;
   position: relative;
-  /* Hardware acceleration for smooth scrolling */
-  transform: translateZ(0);
-  backface-visibility: hidden;
 }
 
-/* Performance optimizations for animations */
-.motion-div, 
-[data-framer-motion],
-.animated-element {
-  /* Force hardware acceleration for animated elements only */
-  transform: translateZ(0);
-  backface-visibility: hidden;
-  /* Optimize compositing */
-  will-change: transform, opacity;
-}
-
-/* Smooth animations with better performance */
-[data-scroll-animation] {
-  /* Use GPU acceleration */
-  transform: translate3d(0, 0, 0);
-  backface-visibility: hidden;
-  /* Smooth transitions */
-  transition: opacity 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94),
-              transform 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+/* Reduce motion for users who prefer it */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
 }
 
 /* Completely isolate dropdown content from page layout */
