@@ -344,34 +344,18 @@ export default function Header() {
                                   {/* Show subcategories for products that have them */}
                                   {product.subcategories && (
                                     <div className="ml-2 lg:ml-4 space-y-1">
-                                      {product.subcategories
-                                        .slice(0, 4)
-                                        .map((subcategory) => (
-                                          <Link
-                                            key={subcategory.id}
-                                            href={`/products/${subcategory.id}`}
-                                            className="block px-2 lg:px-3 py-1 lg:py-2 rounded-sm hover:bg-muted hover:text-foreground cursor-pointer transition-colors text-xs lg:text-sm border-l-2 border-secondary/30 hover:border-secondary"
-                                            onClick={() => setIsProductsDropdownOpen(false)}
-                                          >
-                                            <div className="font-medium text-foreground line-clamp-1">
-                                              {subcategory.title}
-                                            </div>
-                                          </Link>
-                                        ))}
-                                      {product.subcategories &&
-                                        product.subcategories.length > 4 && (
-                                          <Link
-                                            href={`/products/${product.id}`}
-                                            className="block px-2 lg:px-3 py-1 lg:py-2 rounded-sm hover:bg-muted hover:text-primary cursor-pointer transition-colors text-xs lg:text-sm text-primary"
-                                            onClick={() => setIsProductsDropdownOpen(false)}
-                                          >
-                                            <div className="font-medium">
-                                              View all{" "}
-                                              {product.subcategories.length}{" "}
-                                              categories...
-                                            </div>
-                                          </Link>
-                                        )}
+                                      {product.subcategories.map((subcategory) => (
+                                        <Link
+                                          key={subcategory.id}
+                                          href={`/products/${subcategory.id}`}
+                                          className="block px-2 lg:px-3 py-1 lg:py-2 rounded-sm hover:bg-muted hover:text-foreground cursor-pointer transition-colors text-xs lg:text-sm border-l-2 border-secondary/30 hover:border-secondary"
+                                          onClick={() => setIsProductsDropdownOpen(false)}
+                                        >
+                                          <div className="font-medium text-foreground line-clamp-1">
+                                            {subcategory.title}
+                                          </div>
+                                        </Link>
+                                      ))}
                                     </div>
                                   )}
                                 </div>
