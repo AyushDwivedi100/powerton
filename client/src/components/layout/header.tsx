@@ -18,6 +18,7 @@ export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
   const [isMobileServicesOpen, setIsMobileServicesOpen] = useState(false);
   const [isMobileProductsOpen, setIsMobileProductsOpen] = useState(false);
+  const [isProductsDropdownOpen, setIsProductsDropdownOpen] = useState(false);
 
   // Hide body scrollbar when mobile sidebar is open
   useEffect(() => {
@@ -40,6 +41,24 @@ export default function Header() {
       if (rootElement) rootElement.classList.remove("sidebar-open");
     };
   }, [isOpen]);
+
+  // Handle click outside to close products dropdown
+  useEffect(() => {
+    const handleClickOutside = (event: MouseEvent) => {
+      const target = event.target as Element;
+      if (!target.closest('.products-dropdown-container')) {
+        setIsProductsDropdownOpen(false);
+      }
+    };
+
+    if (isProductsDropdownOpen) {
+      document.addEventListener('mousedown', handleClickOutside);
+    }
+
+    return () => {
+      document.removeEventListener('mousedown', handleClickOutside);
+    };
+  }, [isProductsDropdownOpen]);
 
   const navigation = [
     { name: "About", href: "/about" },
@@ -273,12 +292,14 @@ export default function Header() {
                         duration: 0.4,
                         delay: 0.5 + (index + 1) * 0.1,
                       }}
-                      className="relative group"
+                      className="relative products-dropdown-container"
                     >
                       <div
                         className={`text-foreground hover:text-primary transition-colors font-medium relative flex items-center gap-1 cursor-pointer ${
                           isActive("/products") ? "text-primary" : ""
                         }`}
+                        onMouseEnter={() => setIsProductsDropdownOpen(true)}
+                        onClick={() => setIsProductsDropdownOpen(!isProductsDropdownOpen)}
                       >
                         <Link href="/products" className="hover:text-primary">
                           Products
@@ -295,8 +316,13 @@ export default function Header() {
                         )}
                       </div>
 
-                      {/* Hover Dropdown Content */}
-                      <div className="opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 fixed left-1/2 -translate-x-1/2 z-50" style={{top: '120px'}}>
+                      {/* Dropdown Content */}
+                      <div 
+                        className={`transition-all duration-200 fixed left-1/2 -translate-x-1/2 z-50 ${
+                          isProductsDropdownOpen ? 'opacity-100 visible' : 'opacity-0 invisible'
+                        }`} 
+                        style={{top: '120px'}}
+                      >
                         <div className="w-max max-w-[95vw] max-h-[70vh] bg-popover border border-border rounded-md shadow-lg overflow-y-auto">
                           <div className="p-4 lg:p-6">
                             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 2xl:grid-cols-6 3xl:grid-cols-7 4xl:grid-cols-8 5xl:grid-cols-9 gap-3 lg:gap-4 max-w-none">
@@ -308,6 +334,7 @@ export default function Header() {
                                   <Link
                                     href={`/products/${product.id}`}
                                     className="block px-3 lg:px-4 py-2 lg:py-3 rounded-md hover:bg-accent hover:text-accent-foreground cursor-pointer transition-colors border border-border/50 mb-2"
+                                    onClick={() => setIsProductsDropdownOpen(false)}
                                   >
                                     <div className="font-semibold text-foreground text-sm lg:text-base line-clamp-2">
                                       {product.title}
@@ -324,6 +351,7 @@ export default function Header() {
                                             key={subcategory.id}
                                             href={`/products/${subcategory.id}`}
                                             className="block px-2 lg:px-3 py-1 lg:py-2 rounded-sm hover:bg-muted hover:text-foreground cursor-pointer transition-colors text-xs lg:text-sm border-l-2 border-secondary/30 hover:border-secondary"
+                                            onClick={() => setIsProductsDropdownOpen(false)}
                                           >
                                             <div className="font-medium text-foreground line-clamp-1">
                                               {subcategory.title}
@@ -335,6 +363,7 @@ export default function Header() {
                                           <Link
                                             href={`/products/${product.id}`}
                                             className="block px-2 lg:px-3 py-1 lg:py-2 rounded-sm hover:bg-muted hover:text-primary cursor-pointer transition-colors text-xs lg:text-sm text-primary"
+                                            onClick={() => setIsProductsDropdownOpen(false)}
                                           >
                                             <div className="font-medium">
                                               View all{" "}
