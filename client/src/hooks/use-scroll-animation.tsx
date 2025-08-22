@@ -152,39 +152,126 @@ export const AnimatedSection: React.FC<AnimatedSectionProps> = ({
   stagger = 0.1,
   ...props 
 }) => {
-  const [ref, isVisible] = useScrollAnimation({ threshold: 0.2, once: true });
+  const [ref, controls] = useMotionAnimation();
 
-  // Use CSS classes for better performance
-  const getAnimationClass = () => {
-    if (!isVisible) return 'opacity-0 translate-y-8';
-    
-    const baseClasses = 'opacity-100 translate-y-0 transition-all duration-500 ease-out';
-    const delayClass = delay > 0 ? `delay-[${Math.round(delay * 1000)}ms]` : '';
-    
-    switch (animation) {
-      case 'fadeInUp':
-        return `${baseClasses} ${delayClass}`;
-      case 'fadeInDown':
-        return `${baseClasses} ${delayClass}`;
-      case 'fadeInLeft':
-        return `${baseClasses} translate-x-0 ${delayClass}`;
-      case 'fadeInRight':
-        return `${baseClasses} translate-x-0 ${delayClass}`;
-      case 'scaleIn':
-        return `${baseClasses} scale-100 ${delayClass}`;
-      default:
-        return `${baseClasses} ${delayClass}`;
+  // Optimized animation variants with GPU acceleration
+  const animations = {
+    fadeInUp: {
+      hidden: { 
+        opacity: 0, 
+        y: 40,
+        willChange: 'transform, opacity'
+      },
+      visible: { 
+        opacity: 1, 
+        y: 0,
+        willChange: 'auto',
+        transition: { 
+          duration: 0.6,
+          delay,
+          ease: [0.21, 1.11, 0.81, 0.99]
+        }
+      }
+    },
+    fadeInDown: {
+      hidden: { 
+        opacity: 0, 
+        y: -40,
+        willChange: 'transform, opacity'
+      },
+      visible: { 
+        opacity: 1, 
+        y: 0,
+        willChange: 'auto',
+        transition: { 
+          duration: 0.6,
+          delay,
+          ease: [0.21, 1.11, 0.81, 0.99]
+        }
+      }
+    },
+    fadeInLeft: {
+      hidden: { 
+        opacity: 0, 
+        x: -40,
+        willChange: 'transform, opacity'
+      },
+      visible: { 
+        opacity: 1, 
+        x: 0,
+        willChange: 'auto',
+        transition: { 
+          duration: 0.6,
+          delay,
+          ease: [0.21, 1.11, 0.81, 0.99]
+        }
+      }
+    },
+    fadeInRight: {
+      hidden: { 
+        opacity: 0, 
+        x: 40,
+        willChange: 'transform, opacity'
+      },
+      visible: { 
+        opacity: 1, 
+        x: 0,
+        willChange: 'auto',
+        transition: { 
+          duration: 0.6,
+          delay,
+          ease: [0.21, 1.11, 0.81, 0.99]
+        }
+      }
+    },
+    scaleIn: {
+      hidden: { 
+        opacity: 0, 
+        scale: 0.95,
+        willChange: 'transform, opacity'
+      },
+      visible: { 
+        opacity: 1, 
+        scale: 1,
+        willChange: 'auto',
+        transition: { 
+          duration: 0.6,
+          delay,
+          ease: [0.21, 1.11, 0.81, 0.99]
+        }
+      }
+    },
+    slideInUp: {
+      hidden: { 
+        opacity: 0, 
+        y: 60,
+        willChange: 'transform, opacity'
+      },
+      visible: { 
+        opacity: 1, 
+        y: 0,
+        willChange: 'auto',
+        transition: { 
+          duration: 0.6,
+          delay,
+          ease: [0.21, 1.11, 0.81, 0.99]
+        }
+      }
     }
   };
 
   return (
-    <div
+    <motion.div
       ref={ref as any}
-      className={`${getAnimationClass()} ${className}`}
+      initial="hidden"
+      animate={controls as any}
+      variants={animations[animation as keyof typeof animations] || animations.fadeInUp}
+      className={className}
+      style={{ transformOrigin: 'center center' }}
       {...props}
     >
       {children}
-    </div>
+    </motion.div>
   );
 };
 
@@ -204,42 +291,55 @@ export const StaggeredList: React.FC<StaggeredListProps> = ({
   stagger = 0.1,
   ...props 
 }) => {
-  const [ref, isVisible] = useScrollAnimation({ threshold: 0.2, once: true });
+  const [ref, controls] = useMotionAnimation();
+
+  const containerVariants = {
+    hidden: {},
+    visible: {
+      transition: {
+        staggerChildren: Math.min(stagger, 0.2),
+        delayChildren: delay
+      }
+    }
+  };
+
+  const itemVariants = {
+    hidden: { 
+      opacity: 0, 
+      y: 20,
+      willChange: 'transform, opacity'
+    },
+    visible: { 
+      opacity: 1, 
+      y: 0,
+      willChange: 'auto',
+      transition: { 
+        duration: 0.5,
+        ease: [0.21, 1.11, 0.81, 0.99]
+      }
+    }
+  };
 
   return (
-    <div
+    <motion.div
       ref={ref as any}
+      initial="hidden"
+      animate={controls as any}
+      variants={containerVariants}
       className={className}
       {...props}
     >
       {Array.isArray(children) ? 
         children.map((child, index) => (
-          <div 
-            key={index} 
-            className={`${isVisible 
-              ? 'opacity-100 translate-y-0' 
-              : 'opacity-0 translate-y-4'
-            } transition-all duration-300 ease-out`}
-            style={{
-              transitionDelay: isVisible ? `${(delay + index * stagger) * 1000}ms` : '0ms'
-            }}
-          >
+          <motion.div key={index} variants={itemVariants}>
             {child}
-          </div>
+          </motion.div>
         )) : 
-        <div 
-          className={`${isVisible 
-            ? 'opacity-100 translate-y-0' 
-            : 'opacity-0 translate-y-4'
-          } transition-all duration-300 ease-out`}
-          style={{
-            transitionDelay: isVisible ? `${delay * 1000}ms` : '0ms'
-          }}
-        >
+        <motion.div variants={itemVariants}>
           {children}
-        </div>
+        </motion.div>
       }
-    </div>
+    </motion.div>
   );
 };
 

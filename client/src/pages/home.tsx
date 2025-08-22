@@ -10,8 +10,8 @@ import ProjectsSection from "@/components/sections/projects-section";
 import ContactSection from "@/components/sections/contact-section";
 
 export default function Home() {
-  // Disabled useScrollAnimations to reduce animation conflicts
-  // useScrollAnimations();
+  // Re-enabled optimized scroll animations
+  useScrollAnimations();
   
   const structuredData = {
     "@context": "https://schema.org",
