@@ -198,7 +198,7 @@ export default function Header() {
             transition={{ duration: 0.6, delay: 0.2 }}
           >
             <Link href="/" className="flex items-center">
-              <div className="relative w-[140px] sm:w-[160px] md:w-[180px] xl:w-[220px] h-8 sm:h-10 md:h-12 xl:h-14 overflow-hidden mr-4 xl:mr-8">
+              <div className="relative w-[160px] sm:w-[180px] md:w-[200px] h-10 sm:h-12 md:h-13 overflow-hidden mr-4">
                 <img
                   src={logoImage}
                   alt="ID-001: Powerton Engineering Pvt. Ltd. logo"
@@ -211,7 +211,7 @@ export default function Header() {
 
           {/* Desktop navigation */}
           <motion.div
-            className="hidden xl:flex items-center space-x-4 xl:space-x-6"
+            className="hidden lg:flex items-center space-x-3"
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.3 }}
@@ -227,7 +227,7 @@ export default function Header() {
                     >
                       <Link
                         href={item.href}
-                        className={`text-foreground hover:text-primary transition-colors font-medium relative text-sm xl:text-base ${
+                        className={`text-foreground hover:text-primary transition-colors font-medium relative ${
                           isActive(item.href) ? "text-primary" : ""
                         }`}
                       >
@@ -260,7 +260,7 @@ export default function Header() {
                       className="relative group"
                     >
                       <div
-                        className={`text-foreground hover:text-primary transition-colors font-medium relative flex items-center gap-1 cursor-pointer text-sm xl:text-base ${
+                        className={`text-foreground hover:text-primary transition-colors font-medium relative flex items-center gap-1 cursor-pointer ${
                           isActive("/services") ? "text-primary" : ""
                         }`}
                       >
@@ -315,7 +315,7 @@ export default function Header() {
                       className="relative products-dropdown-container"
                     >
                       <div
-                        className={`text-foreground hover:text-primary transition-colors font-medium relative flex items-center gap-1 cursor-pointer text-sm xl:text-base ${
+                        className={`text-foreground hover:text-primary transition-colors font-medium relative flex items-center gap-1 cursor-pointer ${
                           isActive("/products") ? "text-primary" : ""
                         }`}
                         onMouseEnter={() => setIsProductsDropdownOpen(true)}
@@ -401,7 +401,7 @@ export default function Header() {
                 >
                   <Link
                     href={item.href}
-                    className={`text-foreground hover:text-primary transition-colors font-medium relative text-sm xl:text-base ${
+                    className={`text-foreground hover:text-primary transition-colors font-medium relative ${
                       isActive(item.href) ? "text-primary" : ""
                     }`}
                   >
@@ -428,10 +428,10 @@ export default function Header() {
               initial={{ opacity: 0, scale: 0.8 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.4, delay: 0.8 }}
-              className="ml-1 xl:ml-2"
+              className="ml-2"
             >
               <Link href="/quote">
-                <Button className="btn-secondary hover-lift text-sm xl:text-base px-3 xl:px-4 py-2">Get Quote</Button>
+                <Button className="btn-secondary hover-lift">Get Quote</Button>
               </Link>
             </motion.div>
           </motion.div>
@@ -447,7 +447,7 @@ export default function Header() {
                 <Button
                   variant="ghost"
                   size="icon"
-                  className="xl:hidden hover-scale"
+                  className="lg:hidden hover-scale"
                 >
                   <motion.div
                     animate={{ rotate: isOpen ? 90 : 0 }}
