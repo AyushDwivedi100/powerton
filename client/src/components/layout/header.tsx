@@ -187,7 +187,7 @@ export default function Header() {
 
       {/* Main navigation */}
       <nav
-        className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8"
+        className="max-w-7xl mx-auto px-2 md:px-4 lg:px-6 xl:px-8"
         role="navigation"
         aria-label="Main navigation"
       >
@@ -197,8 +197,8 @@ export default function Header() {
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.6, delay: 0.2 }}
           >
-            <Link href="/" className="flex items-center ml-4">
-              <div className="relative w-[160px] sm:w-[180px] md:w-[220px] h-10 sm:h-12 md:h-14 overflow-hidden mr-8">
+            <Link href="/" className="flex items-center ml-2 lg:ml-4">
+              <div className="relative w-[140px] sm:w-[160px] md:w-[180px] lg:w-[200px] xl:w-[220px] h-8 sm:h-10 md:h-12 lg:h-13 xl:h-14 overflow-hidden mr-4 lg:mr-6 xl:mr-8">
                 <img
                   src={logoImage}
                   alt="ID-001: Powerton Engineering Pvt. Ltd. logo"
@@ -211,7 +211,7 @@ export default function Header() {
 
           {/* Desktop navigation */}
           <motion.div
-            className="hidden lg:flex items-center space-x-3 xl:space-x-6"
+            className="hidden lg:flex items-center space-x-2 xl:space-x-4 2xl:space-x-6 text-sm xl:text-base"
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.3 }}
@@ -227,7 +227,7 @@ export default function Header() {
                     >
                       <Link
                         href={item.href}
-                        className={`text-foreground hover:text-primary transition-colors font-medium relative ${
+                        className={`text-foreground hover:text-primary transition-colors font-medium relative whitespace-nowrap ${
                           isActive(item.href) ? "text-primary" : ""
                         }`}
                       >
@@ -235,7 +235,15 @@ export default function Header() {
                           whileHover={{ y: -2 }}
                           transition={{ duration: 0.2 }}
                         >
-                          {item.name}
+                          <span className="lg:hidden xl:inline">
+                            {item.name === "News & Updates" ? "News" : item.name}
+                          </span>
+                          <span className="hidden lg:inline xl:hidden">
+                            {item.name === "News & Updates" ? "News" : item.name}
+                          </span>
+                          <span className="hidden xl:inline">
+                            {item.name}
+                          </span>
                         </motion.span>
                         {isActive(item.href) && (
                           <motion.div
@@ -431,7 +439,7 @@ export default function Header() {
               className="ml-2"
             >
               <Link href="/quote">
-                <Button className="btn-secondary hover-lift">Get Quote</Button>
+                <Button className="btn-secondary hover-lift text-sm lg:text-base px-3 lg:px-4">Get Quote</Button>
               </Link>
             </motion.div>
           </motion.div>
