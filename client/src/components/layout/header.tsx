@@ -724,8 +724,11 @@ export default function Header() {
                     className="flex flex-col gap-3"
                   >
                     {/* Theme Toggle in Mobile Menu */}
-                    <div className="flex justify-center mt-2">
-                      <ThemeToggle />
+                    <div className="flex justify-center mt-2 mb-2 p-2 bg-accent/20 rounded-md">
+                      <div className="flex items-center gap-2">
+                        <span className="text-sm font-medium text-foreground">Theme:</span>
+                        <ThemeToggle />
+                      </div>
                     </div>
                     
                     <Link href="/quote" onClick={() => setIsOpen(false)}>
