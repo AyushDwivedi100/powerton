@@ -265,38 +265,39 @@ export default function FrontendContactForm() {
         </Form>
 
         {/* Contact Information - Enhanced Layout */}
-        <div className="mt-8 pt-6 border-t border-border/50">
-          <div className="space-y-4 sm:space-y-0 sm:grid sm:grid-cols-1 lg:grid-cols-3 sm:gap-6 text-sm">
+        <div className="mt-10 pt-8 border-t border-border/50">
+          <h3 className="text-lg font-semibold text-foreground mb-6 text-center">Quick Contact</h3>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {/* Phone */}
-            <div className="flex items-center gap-3 p-3 rounded-lg bg-muted/30 dark:bg-muted/20 hover:bg-muted/50 dark:hover:bg-muted/30 transition-colors">
-              <div className="flex-shrink-0 w-8 h-8 bg-primary/10 dark:bg-primary/20 rounded-full flex items-center justify-center">
-                <Phone className="h-4 w-4 text-primary" />
+            <div className="flex items-center gap-4 p-5 rounded-xl bg-gradient-to-br from-primary/5 to-primary/10 hover:from-primary/10 hover:to-primary/15 transition-all duration-300 border border-primary/20">
+              <div className="flex-shrink-0 w-12 h-12 bg-primary/15 rounded-xl flex items-center justify-center">
+                <Phone className="h-5 w-5 text-primary" />
               </div>
               <div className="flex-1">
-                <p className="font-medium text-foreground">Phone</p>
-                <p className="text-muted-foreground">+91-94627-71662</p>
+                <p className="font-semibold text-foreground text-base">Phone</p>
+                <p className="text-muted-foreground text-sm font-medium">+91-94627-71662</p>
               </div>
             </div>
             
             {/* Email */}
-            <div className="flex items-center gap-3 p-3 rounded-lg bg-muted/30 dark:bg-muted/20 hover:bg-muted/50 dark:hover:bg-muted/30 transition-colors">
-              <div className="flex-shrink-0 w-8 h-8 bg-primary/10 dark:bg-primary/20 rounded-full flex items-center justify-center">
-                <Mail className="h-4 w-4 text-primary" />
+            <div className="flex items-center gap-4 p-5 rounded-xl bg-gradient-to-br from-primary/5 to-primary/10 hover:from-primary/10 hover:to-primary/15 transition-all duration-300 border border-primary/20">
+              <div className="flex-shrink-0 w-12 h-12 bg-primary/15 rounded-xl flex items-center justify-center">
+                <Mail className="h-5 w-5 text-primary" />
               </div>
               <div className="flex-1">
-                <p className="font-medium text-foreground">Email</p>
-                <p className="text-muted-foreground break-all">info.powerton@gmail.com</p>
+                <p className="font-semibold text-foreground text-base">Email</p>
+                <p className="text-muted-foreground text-sm font-medium break-all">info.powerton@gmail.com</p>
               </div>
             </div>
             
             {/* Response Time */}
-            <div className="flex items-center gap-3 p-3 rounded-lg bg-secondary/10 dark:bg-secondary/20 hover:bg-secondary/20 dark:hover:bg-secondary/30 transition-colors">
-              <div className="flex-shrink-0 w-8 h-8 bg-secondary/20 dark:bg-secondary/30 rounded-full flex items-center justify-center">
-                <div className="w-3 h-3 bg-secondary rounded-full animate-pulse"></div>
+            <div className="flex items-center gap-4 p-5 rounded-xl bg-gradient-to-br from-secondary/5 to-secondary/10 hover:from-secondary/10 hover:to-secondary/15 transition-all duration-300 border border-secondary/20">
+              <div className="flex-shrink-0 w-12 h-12 bg-secondary/15 rounded-xl flex items-center justify-center">
+                <div className="w-4 h-4 bg-secondary rounded-full animate-pulse"></div>
               </div>
               <div className="flex-1">
-                <p className="font-medium text-foreground">Response Time</p>
-                <p className="text-secondary font-semibold">Within 24 hours</p>
+                <p className="font-semibold text-foreground text-base">Response Time</p>
+                <p className="text-secondary font-semibold text-sm">Within 24 hours</p>
               </div>
             </div>
           </div>
