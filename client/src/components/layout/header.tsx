@@ -100,14 +100,14 @@ export default function Header() {
     >
       {/* Top bar */}
       <motion.div
-        className="bg-primary text-white header-top-bar"
+        className="bg-primary text-white header-top-bar py-2"
         initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5, ease: [0.25, 0.46, 0.45, 0.94] }}
       >
         <div className="max-w-7xl mx-auto px-2 sm:px-4 md:px-6 lg:px-8 flex flex-row justify-between items-center gap-2 text-sm sm:text-base">
           <motion.div
-            className="flex items-center gap-2 sm:gap-3 md:gap-4 flex-wrap justify-start"
+            className="flex items-center gap-4 sm:gap-6 md:gap-8 flex-wrap justify-start"
             initial="hidden"
             animate="visible"
             variants={{
@@ -161,7 +161,7 @@ export default function Header() {
               <span className="md:hidden">Email</span>
             </motion.a>
           </motion.div>
-          <div className="flex items-center gap-3 lg:gap-4 mr-3">
+          <div className="flex items-center gap-3 lg:gap-4 mr-6">
             {/* Theme Toggle in Top Bar */}
             <motion.div
               initial={{ opacity: 0, scale: 0.8 }}
