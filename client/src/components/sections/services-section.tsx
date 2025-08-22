@@ -39,8 +39,8 @@ export default function ServicesSection() {
       {/* Different geometric pattern to distinguish from About section */}
       <div className="absolute inset-0 opacity-20 dark:opacity-10" style={{
         backgroundImage: `
-          linear-gradient(90deg, rgba(59, 130, 246, 0.1) 1px, transparent 1px),
-          linear-gradient(rgba(59, 130, 246, 0.1) 1px, transparent 1px)
+          linear-gradient(90deg, hsl(var(--primary) / 0.1) 1px, transparent 1px),
+          linear-gradient(hsl(var(--primary) / 0.1) 1px, transparent 1px)
         `,
         backgroundSize: '60px 60px'
       }}></div>
@@ -59,7 +59,7 @@ export default function ServicesSection() {
               Our Services
             </motion.span>
             <motion.h2 
-              className="text-responsive-xl font-bold text-primary mt-2 sm:mt-4 mb-4 sm:mb-6"
+              className="text-3xl md:text-4xl font-bold text-foreground mt-2 sm:mt-4 mb-4 sm:mb-6"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.7, delay: 0.3 }}
@@ -67,7 +67,7 @@ export default function ServicesSection() {
               Expert solutions for all needs, delivered with exceptional care
             </motion.h2>
             <motion.p 
-              className="text-responsive-sm text-muted-foreground max-w-3xl mx-auto"
+              className="text-base md:text-lg text-muted-foreground max-w-3xl mx-auto"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.7, delay: 0.4 }}
@@ -158,7 +158,7 @@ export default function ServicesSection() {
         <AnimatedSection animation="fadeInUp" delay={0.5} duration={0.6}>
           <div className="text-center mt-12">
             <Link href="/services">
-              <Button className="btn-primary text-lg px-8 py-4 hover-lift">
+              <Button className="bg-primary hover:bg-primary/90 text-primary-foreground text-lg px-8 py-4 hover:shadow-xl hover:scale-[1.02] transition-all duration-300">
                 View All Services
               </Button>
             </Link>

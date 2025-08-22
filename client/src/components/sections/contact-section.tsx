@@ -13,13 +13,13 @@ export default function ContactSection() {
       {/* Theme-aware professional background */}
       <div className="absolute inset-0">
         {/* Primary gradient - adapts to theme */}
-        <div className="absolute inset-0 bg-gradient-to-br from-primary via-blue-700 to-blue-800 dark:from-primary/90 dark:via-blue-700/90 dark:to-blue-800/90"></div>
+        <div className="absolute inset-0 bg-gradient-to-br from-primary to-primary/80 dark:from-primary/90 dark:to-primary/70"></div>
         
         {/* Professional geometric pattern - theme responsive */}
         <div className="absolute inset-0 opacity-20 dark:opacity-10" style={{
           backgroundImage: `
-            radial-gradient(circle at 25% 25%, rgba(59, 130, 246, 0.4) 1px, transparent 1px),
-            radial-gradient(circle at 75% 75%, rgba(16, 185, 129, 0.4) 1px, transparent 1px),
+            radial-gradient(circle at 25% 25%, hsl(var(--primary) / 0.4) 1px, transparent 1px),
+            radial-gradient(circle at 75% 75%, hsl(var(--secondary) / 0.4) 1px, transparent 1px),
             linear-gradient(45deg, rgba(255, 255, 255, 0.1) 25%, transparent 25%),
             linear-gradient(-45deg, rgba(255, 255, 255, 0.1) 25%, transparent 25%)
           `,
@@ -30,8 +30,8 @@ export default function ContactSection() {
         {/* Subtle circuit board pattern for tech feel */}
         <div className="absolute inset-0 opacity-10 dark:opacity-5" style={{
           backgroundImage: `
-            linear-gradient(90deg, rgba(59, 130, 246, 0.3) 1px, transparent 1px),
-            linear-gradient(rgba(59, 130, 246, 0.3) 1px, transparent 1px)
+            linear-gradient(90deg, hsl(var(--primary) / 0.3) 1px, transparent 1px),
+            linear-gradient(hsl(var(--primary) / 0.3) 1px, transparent 1px)
           `,
           backgroundSize: '100px 100px'
         }}></div>
@@ -45,7 +45,7 @@ export default function ContactSection() {
         <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8">
         <div className="text-center mb-16">
           <span className="text-secondary font-semibold text-lg">Contact Us</span>
-          <h2 className="text-responsive-title font-bold mt-4 mb-6">
+          <h2 className="text-3xl md:text-4xl font-bold text-foreground mt-4 mb-6">
             Let's Discuss Your Engineering Needs
           </h2>
           <p className="text-lg md:text-xl opacity-90 max-w-3xl mx-auto">
@@ -109,8 +109,8 @@ export default function ContactSection() {
               {/* Elegant background pattern */}
               <div className="absolute inset-0 opacity-20 dark:opacity-10" style={{
                 backgroundImage: `
-                  radial-gradient(circle at 20% 20%, rgba(59, 130, 246, 0.3) 1px, transparent 1px),
-                  radial-gradient(circle at 80% 80%, rgba(16, 185, 129, 0.3) 1px, transparent 1px)
+                  radial-gradient(circle at 20% 20%, hsl(var(--primary) / 0.3) 1px, transparent 1px),
+                  radial-gradient(circle at 80% 80%, hsl(var(--secondary) / 0.3) 1px, transparent 1px)
                 `,
                 backgroundSize: '30px 30px'
               }}></div>

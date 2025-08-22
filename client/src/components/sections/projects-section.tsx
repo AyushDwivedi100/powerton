@@ -101,14 +101,14 @@ export default function ProjectsSection() {
 
         <div className="text-center">
           <Link href="/projects">
-            <Button className="btn-primary text-lg px-8 py-4 mr-4">
+            <Button className="bg-primary hover:bg-primary/90 text-primary-foreground text-lg px-8 py-4 mr-4 hover:shadow-xl hover:scale-[1.02] transition-all duration-300">
               View All Projects
             </Button>
           </Link>
           <a href="/portfolio-download">
             <Button 
               variant="outline" 
-              className="btn-outline text-lg px-8 py-4"
+              className="border-2 border-primary text-primary hover:bg-primary hover:text-primary-foreground text-lg px-8 py-4 hover:shadow-xl hover:scale-[1.02] transition-all duration-300"
             >
               Download Portfolio
             </Button>

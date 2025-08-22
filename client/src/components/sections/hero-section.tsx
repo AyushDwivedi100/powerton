@@ -194,15 +194,15 @@ export default function HeroSection() {
             className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8"
             stagger={0.15}
           >
-            <div className="flex items-center space-x-3 will-animate">
+            <div className="flex items-center space-x-3">
               <CheckCircle className="w-6 h-6 text-secondary flex-shrink-0" />
               <span className="text-lg text-white">15+ Years Experience</span>
             </div>
-            <div className="flex items-center space-x-3 will-animate">
+            <div className="flex items-center space-x-3">
               <CheckCircle className="w-6 h-6 text-secondary flex-shrink-0" />
               <span className="text-lg text-white">24/7 Technical Support</span>
             </div>
-            <div className="flex items-center space-x-3 will-animate">
+            <div className="flex items-center space-x-3">
               <CheckCircle className="w-6 h-6 text-secondary flex-shrink-0" />
               <span className="text-lg text-white">Pan-India Service</span>
             </div>
@@ -223,25 +223,25 @@ export default function HeroSection() {
             stagger={0.1}
             delay={0.3}
           >
-            <div className="will-animate">
+            <div>
               <div className="text-3xl lg:text-4xl font-bold text-secondary mb-2">
                 <AnimatedCounter target={15} suffix="+" />
               </div>
               <div className="text-sm lg:text-base text-white/90">Years Experience</div>
             </div>
-            <div className="will-animate">
+            <div>
               <div className="text-3xl lg:text-4xl font-bold text-secondary mb-2">
                 <AnimatedCounter target={1200} suffix="+" />
               </div>
               <div className="text-sm lg:text-base text-white/90">Projects Completed</div>
             </div>
-            <div className="will-animate">
+            <div>
               <div className="text-3xl lg:text-4xl font-bold text-secondary mb-2">
                 <AnimatedCounter target={450} suffix="+" />
               </div>
               <div className="text-sm lg:text-base text-white/90">Happy Clients</div>
             </div>
-            <div className="will-animate">
+            <div>
               <div className="text-3xl lg:text-4xl font-bold text-secondary mb-2">
                 <span>24/7</span>
               </div>

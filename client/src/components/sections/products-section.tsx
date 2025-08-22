@@ -21,7 +21,7 @@ export default function ProductsSection() {
               Our Products
             </motion.span>
             <motion.h2 
-              className="text-responsive-title font-bold text-primary mt-4 mb-6"
+              className="text-3xl md:text-4xl font-bold text-foreground mt-4 mb-6"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.7, delay: 0.3 }}
@@ -51,7 +51,7 @@ export default function ProductsSection() {
               transition={{ duration: 0.3, ease: "easeOut" }}
               className="h-full"
             >
-              <Card className="overflow-hidden group hover:shadow-xl transition-all duration-300 hover-lift will-animate h-full flex flex-col">
+              <Card className="overflow-hidden group hover:shadow-xl hover:scale-[1.02] transition-all duration-300 h-full flex flex-col">
                 <motion.div 
                   className="relative overflow-hidden"
                   whileHover={{ scale: 1.02 }}
@@ -92,7 +92,7 @@ export default function ProductsSection() {
         <AnimatedSection animation="fadeInUp" delay={0.4} duration={0.6}>
           <div className="text-center">
             <Link href="/products">
-              <Button className="btn-primary text-lg px-8 py-4 hover-lift">
+              <Button className="bg-primary hover:bg-primary/90 text-primary-foreground text-lg px-8 py-4 hover:shadow-xl hover:scale-[1.02] transition-all duration-300">
                 View Complete Product Catalog
               </Button>
             </Link>

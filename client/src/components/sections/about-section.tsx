@@ -39,7 +39,7 @@ export default function AboutSection() {
       
       {/* Subtle pattern overlay - theme responsive */}
       <div className="absolute inset-0 opacity-30 dark:opacity-20" style={{
-        backgroundImage: 'radial-gradient(circle at 2px 2px, rgba(59, 130, 246, 0.1) 1px, transparent 0)',
+        backgroundImage: 'radial-gradient(circle at 2px 2px, hsl(var(--primary) / 0.1) 1px, transparent 0)',
         backgroundSize: '50px 50px'
       }}></div>
       
@@ -54,7 +54,7 @@ export default function AboutSection() {
               className="order-2 lg:order-1"
             >
               <motion.div 
-                className="relative rounded-xl overflow-hidden shadow-2xl bg-gradient-to-br from-primary via-blue-700 to-blue-800 p-8 text-white"
+                className="relative rounded-xl overflow-hidden shadow-2xl bg-gradient-to-br from-primary to-primary/80 p-8 text-white"
                 whileHover={{ scale: 1.02 }}
                 transition={{ duration: 0.3, ease: "easeOut" }}
               >
