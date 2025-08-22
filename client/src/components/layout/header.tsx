@@ -155,10 +155,9 @@ export default function Header() {
                 className="w-4 h-4 sm:w-5 sm:h-5 mr-1 text-secondary shrink-0"
                 aria-hidden="true"
               />
-              <span className="hidden md:inline whitespace-nowrap text-base md:text-sm">
+              <span className="whitespace-nowrap text-base md:text-sm">
                 {COMPANY_INFO.email}
               </span>
-              <span className="md:hidden">Email</span>
             </motion.a>
           </motion.div>
           <div className="flex items-center gap-3 lg:gap-4">
