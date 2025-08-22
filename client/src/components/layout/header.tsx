@@ -161,7 +161,17 @@ export default function Header() {
               <span className="md:hidden">Email</span>
             </motion.a>
           </motion.div>
-          <div className="flex items-center gap-4">
+          <div className="flex items-center gap-3 lg:gap-4">
+            {/* Theme Toggle in Top Bar */}
+            <motion.div
+              initial={{ opacity: 0, scale: 0.8 }}
+              animate={{ opacity: 1, scale: 1 }}
+              transition={{ duration: 0.4, delay: 0.35 }}
+              className="flex items-center"
+            >
+              <ThemeToggle />
+            </motion.div>
+            
             <motion.a
               href="https://maps.app.goo.gl/jiap3sBYbM3r8Pn68"
               target="_blank"
@@ -184,16 +194,6 @@ export default function Header() {
                 </span>
               </span>
             </motion.a>
-            
-            {/* Theme Toggle in Top Bar */}
-            <motion.div
-              initial={{ opacity: 0, scale: 0.8 }}
-              animate={{ opacity: 1, scale: 1 }}
-              transition={{ duration: 0.4, delay: 0.4 }}
-              className="flex items-center"
-            >
-              <ThemeToggle />
-            </motion.div>
           </div>
         </div>
       </motion.div>
