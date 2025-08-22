@@ -105,7 +105,7 @@ export default function Header() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5, ease: [0.25, 0.46, 0.45, 0.94] }}
       >
-        <div className="max-w-7xl mx-auto px-2 sm:px-4 md:px-6 lg:px-8 flex flex-row justify-center sm:justify-between items-center gap-4 sm:gap-0 text-xs md:text-sm">
+        <div className="max-w-7xl mx-auto px-2 sm:px-4 md:px-6 lg:px-8 flex flex-row justify-center sm:justify-between items-center gap-4 sm:gap-0 text-sm md:text-base">
           <motion.div
             className="flex items-center gap-4 sm:gap-6 md:gap-8 flex-wrap justify-start"
             initial="hidden"
@@ -155,7 +155,7 @@ export default function Header() {
                 className="w-4 h-4 sm:w-5 sm:h-5 mr-1 text-secondary shrink-0"
                 aria-hidden="true"
               />
-              <span className="hidden md:inline whitespace-nowrap text-xs md:text-sm">
+              <span className="hidden md:inline whitespace-nowrap text-sm md:text-base">
                 {COMPANY_INFO.email}
               </span>
               <span className="md:hidden">Email</span>
@@ -190,7 +190,7 @@ export default function Header() {
                   className="w-5 h-5 mr-2 text-secondary"
                   aria-hidden="true"
                 />
-                <span className="text-xs md:text-sm">
+                <span className="text-sm md:text-base">
                   {COMPANY_INFO.address.city}, {COMPANY_INFO.address.state} -
                   Serving All India
                 </span>
