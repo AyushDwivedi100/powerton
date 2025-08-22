@@ -409,10 +409,7 @@ export default function Header() {
                       whileHover={{ y: -2 }}
                       transition={{ duration: 0.2 }}
                     >
-                      <span className="lg:hidden xl:inline">
-                        {item.name === "News & Updates" ? "News" : item.name}
-                      </span>
-                      <span className="hidden lg:inline xl:hidden">
+                      <span className="xl:hidden">
                         {item.name === "News & Updates" ? "News" : item.name}
                       </span>
                       <span className="hidden xl:inline">
