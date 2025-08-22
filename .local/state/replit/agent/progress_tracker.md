@@ -16,3 +16,4 @@
 [x] 16. Matched services dropdown width exactly to products dropdown (w-max max-w-[95vw] max-h-[70vh])
 [x] 17. Matched services dropdown height and padding to products dropdown (max-h-[70vh], p-4 lg:p-6)
 [x] 18. Increased services dropdown height slightly (max-h-[80vh] for more vertical space)
+[x] 19. Further increased services dropdown height (max-h-[90vh] for maximum vertical space)
