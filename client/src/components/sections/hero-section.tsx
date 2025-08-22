@@ -137,12 +137,12 @@ export default function HeroSection() {
         className="absolute inset-0 bg-cover bg-center bg-no-repeat" 
         style={{ 
           backgroundImage: `url(${getHeroImage('home')?.src})`,
-          filter: 'blur(1px)'
+          filter: 'blur(2px)'
         }}
       ></div>
       
-      {/* Theme-aware overlay with primary color tint */}
-      <div className="absolute inset-0 bg-primary/70 dark:bg-primary/60"></div>
+      {/* Consistent overlay with primary color tint */}
+      <div className="absolute inset-0 bg-primary/70"></div>
       
       <div className="relative max-w-7xl mx-auto px-4 md:px-6 lg:px-8 py-12 sm:py-16 md:py-20 lg:py-32">
         <motion.div 
