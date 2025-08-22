@@ -296,7 +296,7 @@ export default function Header() {
                       </div>
 
                       {/* Hover Dropdown Content */}
-                      <div className="opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 absolute top-full left-0 w-screen z-50 mt-6">
+                      <div className="opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 absolute top-full right-0 w-screen z-50 mt-6">
                         <div className="flex justify-center">
                           <div className="w-max max-w-[95vw] bg-popover border border-border rounded-md shadow-lg">
                             <div className="p-4 lg:p-6">
