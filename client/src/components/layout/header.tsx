@@ -197,8 +197,8 @@ export default function Header() {
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.6, delay: 0.2 }}
           >
-            <Link href="/" className="flex items-center">
-              <div className="relative w-[160px] sm:w-[180px] md:w-[200px] h-10 sm:h-12 md:h-13 overflow-hidden mr-4">
+            <Link href="/" className="flex items-center ml-4">
+              <div className="relative w-[160px] sm:w-[180px] md:w-[220px] h-10 sm:h-12 md:h-14 overflow-hidden mr-8">
                 <img
                   src={logoImage}
                   alt="ID-001: Powerton Engineering Pvt. Ltd. logo"
@@ -211,7 +211,7 @@ export default function Header() {
 
           {/* Desktop navigation */}
           <motion.div
-            className="hidden lg:flex items-center space-x-3"
+            className="hidden lg:flex items-center space-x-6"
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.3 }}
