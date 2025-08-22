@@ -211,7 +211,7 @@ export default function Header() {
 
           {/* Desktop navigation */}
           <motion.div
-            className="hidden lg:flex items-center space-x-2 xl:space-x-4 2xl:space-x-6 text-sm xl:text-base"
+            className="hidden lg:flex items-center space-x-4 xl:space-x-6 2xl:space-x-8"
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.3 }}
@@ -235,15 +235,7 @@ export default function Header() {
                           whileHover={{ y: -2 }}
                           transition={{ duration: 0.2 }}
                         >
-                          <span className="lg:hidden xl:inline">
-                            {item.name === "News & Updates" ? "News" : item.name}
-                          </span>
-                          <span className="hidden lg:inline xl:hidden">
-                            {item.name === "News & Updates" ? "News" : item.name}
-                          </span>
-                          <span className="hidden xl:inline">
-                            {item.name}
-                          </span>
+                          {item.name}
                         </motion.span>
                         {isActive(item.href) && (
                           <motion.div
@@ -409,7 +401,7 @@ export default function Header() {
                 >
                   <Link
                     href={item.href}
-                    className={`text-foreground hover:text-primary transition-colors font-medium relative ${
+                    className={`text-foreground hover:text-primary transition-colors font-medium relative whitespace-nowrap ${
                       isActive(item.href) ? "text-primary" : ""
                     }`}
                   >
@@ -417,7 +409,15 @@ export default function Header() {
                       whileHover={{ y: -2 }}
                       transition={{ duration: 0.2 }}
                     >
-                      {item.name}
+                      <span className="lg:hidden xl:inline">
+                        {item.name === "News & Updates" ? "News" : item.name}
+                      </span>
+                      <span className="hidden lg:inline xl:hidden">
+                        {item.name === "News & Updates" ? "News" : item.name}
+                      </span>
+                      <span className="hidden xl:inline">
+                        {item.name}
+                      </span>
                     </motion.span>
                     {isActive(item.href) && (
                       <motion.div
@@ -439,7 +439,7 @@ export default function Header() {
               className="ml-2"
             >
               <Link href="/quote">
-                <Button className="btn-secondary hover-lift text-sm lg:text-base px-3 lg:px-4">Get Quote</Button>
+                <Button className="btn-secondary hover-lift px-4 lg:px-6">Get Quote</Button>
               </Link>
             </motion.div>
           </motion.div>
