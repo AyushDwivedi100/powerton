@@ -105,9 +105,9 @@ export default function Header() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5, ease: [0.25, 0.46, 0.45, 0.94] }}
       >
-        <div className="max-w-7xl mx-auto px-2 sm:px-4 md:px-6 lg:px-8 flex flex-col sm:flex-row sm:justify-between items-center gap-2 sm:gap-0 text-xs sm:text-sm">
+        <div className="max-w-7xl mx-auto px-2 sm:px-4 md:px-6 lg:px-8 flex flex-row justify-between items-center gap-2 text-xs sm:text-sm">
           <motion.div
-            className="flex items-center gap-3 sm:gap-4 flex-wrap justify-center sm:justify-start w-full sm:w-auto"
+            className="flex items-center gap-2 sm:gap-3 md:gap-4 flex-wrap justify-start"
             initial="hidden"
             animate="visible"
             variants={{
