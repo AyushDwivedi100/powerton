@@ -7,7 +7,7 @@ import logoImage from "@assets/mainlogopowerton (1)_1755674514195.png";
 export default function Footer() {
   return (
     <footer 
-      className="bg-card border-t border-border text-foreground py-12" 
+      className="bg-slate-900 dark:bg-slate-950 border-t border-slate-700 dark:border-slate-800 text-slate-100 py-12" 
       role="contentinfo"
     >
       {/* Content */}
@@ -26,13 +26,13 @@ export default function Footer() {
                 />
               </div>
             </div>
-            <p className="text-muted-foreground mb-6">
+            <p className="text-slate-300 dark:text-slate-400 mb-6">
               Your trusted partner in delivering high-quality engineering solutions and services for industrial automation and electrical systems.
             </p>
             <div className="flex space-x-4">
               <a 
                 href={COMPANY_INFO.socialMedia.linkedin} 
-                className="text-muted-foreground hover:text-secondary transition-colors" 
+                className="text-slate-400 hover:text-orange-400 transition-colors" 
                 aria-label="Follow us on LinkedIn"
               >
                 <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
@@ -41,7 +41,7 @@ export default function Footer() {
               </a>
               <a 
                 href={COMPANY_INFO.socialMedia.twitter} 
-                className="text-muted-foreground hover:text-secondary transition-colors" 
+                className="text-slate-400 hover:text-orange-400 transition-colors" 
                 aria-label="Follow us on X"
               >
                 <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
@@ -50,7 +50,7 @@ export default function Footer() {
               </a>
               <a 
                 href={COMPANY_INFO.socialMedia.facebook} 
-                className="text-muted-foreground hover:text-secondary transition-colors" 
+                className="text-slate-400 hover:text-orange-400 transition-colors" 
                 aria-label="Follow us on Facebook"
               >
                 <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
@@ -62,13 +62,13 @@ export default function Footer() {
 
           {/* Services */}
           <div>
-            <h4 className="text-lg font-semibold mb-4 text-foreground">Services</h4>
-            <ul className="space-y-3 text-muted-foreground">
+            <h4 className="text-lg font-semibold mb-4 text-slate-100">Services</h4>
+            <ul className="space-y-3 text-slate-300 dark:text-slate-400">
               {SERVICES.slice(0, 5).map((service) => (
                 <li key={service.id}>
                   <Link 
                     href="/services" 
-                    className="hover:text-secondary transition-colors"
+                    className="hover:text-orange-400 transition-colors"
                   >
                     {service.title}
                   </Link>
@@ -79,13 +79,13 @@ export default function Footer() {
 
           {/* Products */}
           <div>
-            <h4 className="text-lg font-semibold mb-4 text-foreground">Products</h4>
-            <ul className="space-y-3 text-muted-foreground">
+            <h4 className="text-lg font-semibold mb-4 text-slate-100">Products</h4>
+            <ul className="space-y-3 text-slate-300 dark:text-slate-400">
               {PRODUCTS.slice(0, 5).map((product) => (
                 <li key={product.id}>
                   <Link 
                     href="/products" 
-                    className="hover:text-secondary transition-colors"
+                    className="hover:text-orange-400 transition-colors"
                   >
                     {product.title}
                   </Link>
@@ -96,23 +96,23 @@ export default function Footer() {
 
           {/* Contact Info */}
           <div>
-            <h4 className="text-lg font-semibold mb-4 text-foreground">Contact Info</h4>
-            <ul className="space-y-3 text-muted-foreground">
+            <h4 className="text-lg font-semibold mb-4 text-slate-100">Contact Info</h4>
+            <ul className="space-y-3 text-slate-300 dark:text-slate-400">
               <li className="flex items-center">
-                <Phone className="w-4 h-4 mr-3 text-secondary" aria-hidden="true" />
+                <Phone className="w-4 h-4 mr-3 text-orange-400" aria-hidden="true" />
                 <span>{COMPANY_INFO.phone}</span>
               </li>
               <li className="flex items-center">
-                <Mail className="w-4 h-4 mr-3 text-secondary" aria-hidden="true" />
+                <Mail className="w-4 h-4 mr-3 text-orange-400" aria-hidden="true" />
                 <span>{COMPANY_INFO.email}</span>
               </li>
               <li className="flex items-start">
-                <MapPin className="w-4 h-4 mr-3 text-secondary mt-1" aria-hidden="true" />
+                <MapPin className="w-4 h-4 mr-3 text-orange-400 mt-1" aria-hidden="true" />
                 <a
                   href="https://maps.app.goo.gl/jiap3sBYbM3r8Pn68"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="hover:text-secondary transition-colors cursor-pointer"
+                  className="hover:text-orange-400 transition-colors cursor-pointer"
                   aria-label="Open office location in Google Maps"
                 >
                   {COMPANY_INFO.address.street}<br />
@@ -123,14 +123,13 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="border-t border-border pt-8">
+        <div className="border-t border-slate-700 dark:border-slate-800 pt-8">
           <div className="flex flex-col md:flex-row justify-center md:justify-between items-center">
-            <p className="text-muted-foreground text-sm mb-4 md:mb-0">
+            <p className="text-slate-400 text-sm mb-4 md:mb-0">
               &copy; 2024 Powerton Engineering Pvt. Ltd. All rights reserved.
             </p>
-            <div className="flex items-center space-x-6 text-sm text-muted-foreground md:mr-24">
-              <ThemeToggle />
-              <a href="/sitemap" className="hover:text-secondary transition-colors">Sitemap</a>
+            <div className="flex items-center space-x-6 text-sm text-slate-400 md:mr-24">
+              <a href="/sitemap" className="hover:text-orange-400 transition-colors">Sitemap</a>
             </div>
           </div>
         </div>
