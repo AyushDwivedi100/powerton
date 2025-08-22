@@ -28,6 +28,7 @@ import corporateOfficeHero from '@assets/generated_images/Corporate_Office_Meeti
 import technicalNewsHero from '@assets/generated_images/Technical_News_Communication_Center_d783a467.png';
 import processAnalyzersHero from '@assets/generated_images/Process_Analyzers_Laboratory_Environment_e98f5ca6.png';
 import industrialFacilityHero from '@assets/generated_images/Industrial_facility_hero_background_e1a1fcd5.png';
+import darkIndustrialFacilityHero from '@assets/generated_images/Dark_industrial_facility_hero_c9350380.png';
 import productsShowcaseHero from '@assets/generated_images/Products_showcase_hero_background_5d7918eb.png';
 import newsCenterHero from '@assets/generated_images/News_center_hero_background_65d5b056.png';
 
@@ -232,8 +233,8 @@ export const getProductImageAlt = (productId: string, productName: string, descr
 // Hero background images mapping
 export const HERO_IMAGES = {
   home: {
-    src: industrialFacilityHero,
-    alt: `${IMAGE_IDS.HERO_HOME}: Powerton Engineering - Modern industrial automation facility`,
+    src: darkIndustrialFacilityHero,
+    alt: `${IMAGE_IDS.HERO_HOME}: Powerton Engineering - Dark industrial automation facility with dramatic lighting`,
     id: IMAGE_IDS.HERO_HOME
   },
   about: {
@@ -305,6 +306,7 @@ export {
   
   // Hero background images
   industrialFacilityHero,
+  darkIndustrialFacilityHero,
   industrialAutomationFacilityHero,
   engineeringServicesHero,
   productsShowcaseHero,
