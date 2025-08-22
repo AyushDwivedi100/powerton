@@ -213,7 +213,7 @@ export default function Header() {
             transition={{ duration: 0.6, delay: 0.2 }}
           >
             <Link href="/" className="flex items-center ml-2 lg:ml-4">
-              <div className="relative w-[140px] sm:w-[160px] md:w-[180px] lg:w-[200px] xl:w-[220px] h-8 sm:h-10 md:h-12 lg:h-13 xl:h-14 overflow-hidden mr-4 lg:mr-6 xl:mr-8">
+              <div className="relative w-[170px] sm:w-[180px] md:w-[190px] lg:w-[200px] xl:w-[220px] h-10 sm:h-11 md:h-12 lg:h-13 xl:h-14 overflow-hidden mr-4 lg:mr-6 xl:mr-8">
                 <img
                   src={logoImage}
                   alt="ID-001: Powerton Engineering Pvt. Ltd. logo"
