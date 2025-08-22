@@ -105,7 +105,7 @@ export default function Header() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5, ease: [0.25, 0.46, 0.45, 0.94] }}
       >
-        <div className="max-w-7xl mx-auto px-2 sm:px-4 md:px-6 lg:px-8 flex flex-row justify-between items-center gap-2 text-xs sm:text-sm">
+        <div className="max-w-7xl mx-auto px-2 sm:px-4 md:px-6 lg:px-8 flex flex-row justify-between items-center gap-2 text-sm sm:text-base">
           <motion.div
             className="flex items-center gap-2 sm:gap-3 md:gap-4 flex-wrap justify-start"
             initial="hidden"
@@ -161,7 +161,7 @@ export default function Header() {
               <span className="md:hidden">Email</span>
             </motion.a>
           </motion.div>
-          <div className="flex items-center gap-3 lg:gap-4">
+          <div className="flex items-center gap-3 lg:gap-4 mr-3">
             {/* Theme Toggle in Top Bar */}
             <motion.div
               initial={{ opacity: 0, scale: 0.8 }}
@@ -190,7 +190,7 @@ export default function Header() {
                   className="w-4 h-4 mr-2 text-secondary"
                   aria-hidden="true"
                 />
-                <span className="text-xs sm:text-sm">
+                <span className="text-sm sm:text-base">
                   {COMPANY_INFO.address.city}, {COMPANY_INFO.address.state} -
                   Serving All India
                 </span>
