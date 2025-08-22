@@ -66,7 +66,7 @@ export default function Header() {
     const updateHeaderHeight = () => {
       const header = document.querySelector('header[role="banner"]');
       if (header) {
-        setHeaderHeight(header.offsetHeight);
+        setHeaderHeight((header as HTMLElement).offsetHeight);
       }
     };
 
@@ -346,7 +346,7 @@ export default function Header() {
                       >
                         <div className="w-max max-w-[95vw] max-h-[70vh] bg-popover border border-border rounded-md shadow-lg overflow-y-auto">
                           <div className="p-4 lg:p-6">
-                            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 2xl:grid-cols-6 3xl:grid-cols-7 4xl:grid-cols-8 5xl:grid-cols-9 gap-3 lg:gap-4 max-w-none">
+                            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 2xl:grid-cols-5 gap-3 lg:gap-4 max-w-none">
                               {PRODUCTS.map((product) => (
                                 <div
                                   key={product.id}
