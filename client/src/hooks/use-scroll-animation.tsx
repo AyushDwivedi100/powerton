@@ -141,12 +141,13 @@ export const useScrollAnimations = (staggerDelay = 100) => {
   }, [staggerDelay]);
 };
 
-// Framer Motion based scroll animation hook
+// Framer Motion based scroll animation hook - configured to trigger only once
 export const useMotionAnimation = () => {
   const controls = useAnimation();
   const ref = useRef(null);
   const inView = useInView(ref, { 
-    margin: '0px 0px -100px 0px'
+    margin: '0px 0px -100px 0px',
+    once: true  // This ensures animation triggers only once
   } as any);
 
   useEffect(() => {
