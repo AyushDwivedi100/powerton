@@ -280,7 +280,7 @@ export default function Header() {
                       </div>
 
                       {/* Hover Dropdown Content */}
-                      <div className="fixed left-1/2 -translate-x-1/2 w-[96vw] sm:w-[92vw] md:w-[88vw] lg:w-[85vw] xl:w-[82vw] max-w-8xl bg-popover border border-border rounded-md shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50" style={{top: `${headerHeight}px`}}>
+                      <div className="fixed left-1/2 -translate-x-1/2 w-[96vw] sm:w-[92vw] md:w-[88vw] lg:w-[85vw] xl:w-[82vw] max-w-8xl bg-popover border border-border rounded-md shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50" style={{top: `calc(${headerHeight}px - 1rem)`}}>
                         <div className="p-4">
                           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 items-start">
                             {SERVICES.map((service) => (
