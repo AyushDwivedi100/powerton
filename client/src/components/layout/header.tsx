@@ -169,7 +169,9 @@ export default function Header() {
               transition={{ duration: 0.4, delay: 0.35 }}
               className="flex items-center"
             >
-              <ThemeToggle />
+              <div className="p-1 rounded-md bg-accent/10 hover:bg-accent/20 transition-colors">
+                <ThemeToggle />
+              </div>
             </motion.div>
             
             <motion.a
