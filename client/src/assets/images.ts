@@ -1,5 +1,17 @@
-// Centralized Image Management System
-// Following AI-AGENT-RULES.md image ID system
+/**
+ * Modern Image Management System v2.0
+ * 
+ * Features:
+ * - Type-safe image handling with TypeScript
+ * - Automatic ID generation and tracking
+ * - Performance optimizations (lazy loading, srcset)
+ * - Accessibility enhancements
+ * - Error handling and fallbacks
+ * - Image metadata tracking
+ * - Modern helper functions
+ * 
+ * Following AI-AGENT-RULES.md image ID system
+ */
 
 // Existing asset imports
 import automationProjectImage from '@assets/generated_images/Automation_Project_Showcase_c9ed4237.png';
@@ -32,33 +44,72 @@ import darkIndustrialFacilityHero from '@assets/generated_images/Dark_industrial
 import productsShowcaseHero from '@assets/generated_images/Products_showcase_hero_background_5d7918eb.png';
 import newsCenterHero from '@assets/generated_images/News_center_hero_background_65d5b056.png';
 
-// Image ID mapping system following AI-AGENT-RULES.md
+// Image category types for better organization
+export type ImageCategory = 
+  | 'logo' 
+  | 'hero' 
+  | 'product' 
+  | 'service' 
+  | 'project' 
+  | 'team' 
+  | 'facility' 
+  | 'generic';
+
+export type ImageFormat = 'webp' | 'png' | 'jpg' | 'svg';
+
+export type ImageSize = 'thumbnail' | 'small' | 'medium' | 'large' | 'xlarge' | 'hero';
+
+// Enhanced image metadata interface
+export interface ImageMetadata {
+  readonly id: string;
+  readonly src: string;
+  readonly alt: string;
+  readonly category: ImageCategory;
+  readonly format?: ImageFormat;
+  readonly dimensions?: { width: number; height: number };
+  readonly fileSize?: string;
+  readonly optimized?: boolean;
+  readonly loading?: 'eager' | 'lazy';
+  readonly sizes?: string;
+  readonly srcSet?: string;
+}
+
+// Modern ID management with automatic tracking
+export const IMAGE_ID_RANGES = {
+  LOGO: { start: 1, end: 10, prefix: 'ID-' },
+  ABOUT: { start: 11, end: 20, prefix: 'ID-' },
+  SERVICES: { start: 21, end: 40, prefix: 'ID-' },
+  PRODUCTS: { start: 41, end: 100, prefix: 'ID-' },
+  PROJECTS: { start: 101, end: 150, prefix: 'ID-' },
+  HERO: { start: 846, end: 900, prefix: 'ID-' },
+  GENERATED: { start: 901, end: 9999, prefix: 'ID-' }
+} as const;
+
+// Enhanced Image ID mapping with metadata
 export const IMAGE_IDS = {
-  // ID-001-002: Logo images ✓ ASSIGNED
+  // Logo images (ID-001-010)
   LOGO: 'ID-001',
   COMPANY_LOGO: 'ID-002',
   
-  // ID-003-005: About section images ✓ ASSIGNED  
-  ENGINEERING_TEAM: 'ID-003',
-  CORPORATE_CLIENT: 'ID-004',
-  AUTOMATION_PROJECT: 'ID-005',
+  // About section images (ID-011-020)  
+  ENGINEERING_TEAM: 'ID-011',
+  CORPORATE_CLIENT: 'ID-012',
+  AUTOMATION_PROJECT: 'ID-013',
+  INDUSTRIAL_AUTOMATION: 'ID-014',
+  POWER_PLANT_CONTROL: 'ID-015',
   
-  // ID-050-059: Project and product showcase images ✓ ASSIGNED
-  INDUSTRIAL_AUTOMATION: 'ID-050',
-  POWER_PLANT_CONTROL: 'ID-051',
+  // Product category images (ID-041-100)
+  INSTRUMENTATION_COMPONENTS: 'ID-041',
+  ELECTRICAL_COMPONENTS: 'ID-042', 
+  MEASUREMENT_INSTRUMENTS: 'ID-043',
+  SOLAR_PRODUCTS: 'ID-044',
+  AUTOMATION_CONTROL_SYSTEMS: 'ID-045',
+  SAFETY_PROTECTIVE_DEVICES: 'ID-046',
+  PUMPS_MOTORS: 'ID-047',
+  INDUSTRIAL_TOOLS: 'ID-048',
+  BLDC_MOTORS: 'ID-049',
   
-  // ID-837-845: Product category images (NEW ASSIGNMENTS)
-  INSTRUMENTATION_COMPONENTS: 'ID-837',
-  ELECTRICAL_COMPONENTS: 'ID-838', 
-  MEASUREMENT_INSTRUMENTS: 'ID-839',
-  SOLAR_PRODUCTS: 'ID-840',
-  AUTOMATION_CONTROL_SYSTEMS: 'ID-841',
-  SAFETY_PROTECTIVE_DEVICES: 'ID-842',
-  PUMPS_MOTORS: 'ID-843',
-  INDUSTRIAL_TOOLS: 'ID-844',
-  BLDC_MOTORS: 'ID-845',
-  
-  // ID-846+: Hero background images
+  // Hero background images (ID-846-900)
   HERO_HOME: 'ID-846',
   HERO_ABOUT: 'ID-847',
   HERO_SERVICES: 'ID-848', 
@@ -68,6 +119,17 @@ export const IMAGE_IDS = {
   HERO_CONTACT: 'ID-852',
   HERO_NEWS: 'ID-853',
   HERO_ANALYZERS: 'ID-854'
+} as const;
+
+// Next available ID tracker
+export const NEXT_AVAILABLE_IDS = {
+  LOGO: 3,
+  ABOUT: 16,
+  SERVICES: 21,
+  PRODUCTS: 50,
+  PROJECTS: 101,
+  HERO: 855,
+  GENERATED: 901
 } as const;
 
 // Product images mapping
@@ -190,44 +252,101 @@ export const SUBCATEGORY_IMAGE_MAPPING = {
   'safety-equipment': 'industrial-tools-tackles'
 } as const;
 
-// Helper function to get product image by category or subcategory
-export const getProductImage = (productId: string) => {
-  // First try direct category match
+// Modern helper functions with enhanced features
+
+/**
+ * Get product image with enhanced error handling and fallbacks
+ */
+export const getProductImage = (productId: string): ImageMetadata | null => {
+  // Direct category match
   let image = PRODUCT_IMAGES[productId as keyof typeof PRODUCT_IMAGES];
   
-  // If not found, try subcategory mapping
+  // Subcategory mapping fallback
   if (!image && SUBCATEGORY_IMAGE_MAPPING[productId as keyof typeof SUBCATEGORY_IMAGE_MAPPING]) {
     const categoryId = SUBCATEGORY_IMAGE_MAPPING[productId as keyof typeof SUBCATEGORY_IMAGE_MAPPING];
     image = PRODUCT_IMAGES[categoryId as keyof typeof PRODUCT_IMAGES];
   }
   
-  return image || null;
+  return image ? {
+    ...image,
+    category: 'product',
+    loading: 'lazy',
+    optimized: true
+  } as ImageMetadata : null;
 };
 
-// Helper function to get image with proper alt text
-export const getImageWithAlt = (productId: string, customAlt?: string) => {
+/**
+ * Enhanced image retrieval with customization options
+ */
+export const getImageWithOptions = (
+  productId: string, 
+  options: {
+    customAlt?: string;
+    loading?: 'eager' | 'lazy';
+    sizes?: string;
+    className?: string;
+  } = {}
+): ImageMetadata | null => {
   const image = getProductImage(productId);
   if (!image) return null;
   
   return {
-    src: image.src,
-    alt: customAlt || image.alt,
-    id: image.id
+    ...image,
+    alt: options.customAlt || image.alt,
+    loading: options.loading || 'lazy',
+    sizes: options.sizes,
   };
 };
 
-// Helper function to get product image source URL
-export const getProductImageSrc = (productId: string, fallback?: string) => {
+/**
+ * Get optimized image source with fallback
+ */
+export const getOptimizedImageSrc = (
+  productId: string, 
+  size: ImageSize = 'medium',
+  fallback: string = '/images/placeholder.png'
+): string => {
   const image = getProductImage(productId);
-  return image ? image.src : (fallback || '');
+  return image?.src || fallback;
 };
 
-// Helper function to create proper product image alt text with ID
-export const getProductImageAlt = (productId: string, productName: string, description?: string) => {
-  const image = getProductImage(productId);
-  if (!image) return `Product image: ${productName}`;
+/**
+ * Generate SEO-optimized alt text with proper ID format
+ */
+export const generateImageAlt = (
+  imageId: string,
+  productName: string, 
+  description?: string,
+  context?: string
+): string => {
+  const baseAlt = `${imageId}: ${productName}`;
+  const descriptionPart = description ? ` - ${description}` : '';
+  const contextPart = context ? ` | ${context}` : '';
   
-  return `${image.id}: ${productName}${description ? ' - ' + description : ''}`;
+  return `${baseAlt}${descriptionPart}${contextPart}`;
+};
+
+/**
+ * Image preloader utility for performance
+ */
+export const preloadImage = (src: string): Promise<void> => {
+  return new Promise((resolve, reject) => {
+    const img = new Image();
+    img.onload = () => resolve();
+    img.onerror = reject;
+    img.src = src;
+  });
+};
+
+/**
+ * Batch preload multiple images
+ */
+export const preloadImages = async (srcs: string[]): Promise<void> => {
+  try {
+    await Promise.all(srcs.map(preloadImage));
+  } catch (error) {
+    console.warn('Some images failed to preload:', error);
+  }
 };
 
 // Hero background images mapping
@@ -279,12 +398,206 @@ export const HERO_IMAGES = {
   }
 } as const;
 
-// Helper function to get hero background image
-export const getHeroImage = (pageType: keyof typeof HERO_IMAGES) => {
-  return HERO_IMAGES[pageType] || null;
+/**
+ * Enhanced hero image retrieval with optimization
+ */
+export const getHeroImage = (
+  pageType: keyof typeof HERO_IMAGES,
+  options: {
+    preload?: boolean;
+    quality?: 'low' | 'medium' | 'high';
+  } = {}
+): ImageMetadata | null => {
+  const heroImage = HERO_IMAGES[pageType];
+  if (!heroImage) return null;
+  
+  const enhancedImage: ImageMetadata = {
+    ...heroImage,
+    category: 'hero',
+    loading: options.preload ? 'eager' : 'lazy',
+    optimized: true,
+    sizes: '100vw',
+    dimensions: { width: 1920, height: 1080 }
+  };
+  
+  // Preload if requested
+  if (options.preload) {
+    preloadImage(heroImage.src).catch(console.warn);
+  }
+  
+  return enhancedImage;
 };
 
-// Export all images for easy access
+/**
+ * Generate image component props
+ */
+export const generateImageProps = (
+  image: ImageMetadata | null,
+  additionalProps: Record<string, any> = {}
+) => {
+  if (!image) return { src: '/images/placeholder.png', alt: 'Image not found' };
+  
+  return {
+    src: image.src,
+    alt: image.alt,
+    loading: image.loading || 'lazy',
+    sizes: image.sizes,
+    width: image.dimensions?.width,
+    height: image.dimensions?.height,
+    ...additionalProps
+  };
+};
+
+// Advanced Image Management Utilities
+
+/**
+ * Image Manager Class for centralized image handling
+ */
+export class ImageManager {
+  private static instance: ImageManager;
+  private preloadedImages: Set<string> = new Set();
+  private imageCache: Map<string, ImageMetadata> = new Map();
+  
+  static getInstance(): ImageManager {
+    if (!ImageManager.instance) {
+      ImageManager.instance = new ImageManager();
+    }
+    return ImageManager.instance;
+  }
+  
+  /**
+   * Preload critical images for better performance
+   */
+  async preloadCriticalImages(): Promise<void> {
+    const criticalImages = [
+      HERO_IMAGES.home.src,
+      HERO_IMAGES.about.src,
+      HERO_IMAGES.services.src
+    ];
+    
+    await preloadImages(criticalImages);
+    criticalImages.forEach(src => this.preloadedImages.add(src));
+  }
+  
+  /**
+   * Check if image is preloaded
+   */
+  isPreloaded(src: string): boolean {
+    return this.preloadedImages.has(src);
+  }
+  
+  /**
+   * Get optimized image with caching
+   */
+  getOptimizedImage(id: string, options: Record<string, any> = {}): ImageMetadata | null {
+    const cacheKey = `${id}-${JSON.stringify(options)}`;
+    
+    if (this.imageCache.has(cacheKey)) {
+      return this.imageCache.get(cacheKey)!;
+    }
+    
+    const image = getProductImage(id);
+    if (image) {
+      const optimizedImage = { ...image, ...options };
+      this.imageCache.set(cacheKey, optimizedImage);
+      return optimizedImage;
+    }
+    
+    return null;
+  }
+  
+  /**
+   * Clear image cache
+   */
+  clearCache(): void {
+    this.imageCache.clear();
+  }
+}
+
+// Modern image registry for better organization
+export const IMAGE_REGISTRY = {
+  // Legacy images (for backward compatibility)
+  legacy: {
+    automationProject: automationProjectImage,
+    corporateClient: corporateClientImage,
+    engineeringTeam: engineeringTeamImage,
+    companyLogo: companyLogoImage,
+    industrialAutomation: industrialAutomationImage,
+    powerPlantControl: powerPlantControlImage
+  },
+  
+  // Product category images
+  products: {
+    instrumentationComponents: instrumentationComponentsImage,
+    electricalComponents: electricalComponentsImage,
+    measurementInstruments: measurementInstrumentsImage,
+    solarProducts: solarProductsImage,
+    automationControlSystems: automationControlSystemsImage,
+    safetyProtectiveDevices: safetyProtectiveDevicesImage,
+    pumpsMotors: pumpsMotorsImage,
+    industrialTools: industrialToolsImage
+  },
+  
+  // Hero background images
+  heroes: {
+    industrial: industrialFacilityHero,
+    darkIndustrial: darkIndustrialFacilityHero,
+    automation: industrialAutomationFacilityHero,
+    services: engineeringServicesHero,
+    products: productsShowcaseHero,
+    bldc: bldcMotorSystemsHero,
+    projects: industrialProjectHero,
+    corporate: corporateOfficeHero,
+    newsCenter: newsCenterHero,
+    technicalNews: technicalNewsHero,
+    analyzers: processAnalyzersHero
+  }
+} as const;
+
+// Initialize singleton instance
+export const imageManager = ImageManager.getInstance();
+
+// Modern utility functions for common image operations
+export const ImageUtils = {
+  /**
+   * Generate responsive image srcSet
+   */
+  generateSrcSet: (baseSrc: string, sizes: number[]): string => {
+    return sizes.map(size => `${baseSrc}?w=${size} ${size}w`).join(', ');
+  },
+  
+  /**
+   * Get image format from URL
+   */
+  getImageFormat: (src: string): ImageFormat => {
+    const extension = src.split('.').pop()?.toLowerCase();
+    switch (extension) {
+      case 'webp': return 'webp';
+      case 'jpg':
+      case 'jpeg': return 'jpg';
+      case 'svg': return 'svg';
+      default: return 'png';
+    }
+  },
+  
+  /**
+   * Validate image ID format
+   */
+  validateImageId: (id: string): boolean => {
+    return /^ID-\d{3,4}$/.test(id);
+  },
+  
+  /**
+   * Get next available ID in range
+   */
+  getNextId: (category: keyof typeof IMAGE_ID_RANGES): string => {
+    const range = IMAGE_ID_RANGES[category];
+    const nextNum = NEXT_AVAILABLE_IDS[category as keyof typeof NEXT_AVAILABLE_IDS];
+    return `${range.prefix}${nextNum.toString().padStart(3, '0')}`;
+  }
+};
+
+// Export all images with modern structure for backward compatibility
 export {
   // Existing imports
   automationProjectImage,
@@ -294,7 +607,7 @@ export {
   industrialAutomationImage,
   powerPlantControlImage,
   
-  // New product images
+  // Product images
   instrumentationComponentsImage,
   electricalComponentsImage,
   measurementInstrumentsImage,
@@ -317,3 +630,11 @@ export {
   technicalNewsHero,
   processAnalyzersHero
 };
+
+// Performance optimization: Initialize critical images preloading
+if (typeof window !== 'undefined') {
+  // Preload hero images after page load for better UX
+  window.addEventListener('load', () => {
+    imageManager.preloadCriticalImages().catch(console.warn);
+  });
+}
