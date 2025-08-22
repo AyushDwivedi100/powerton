@@ -340,7 +340,7 @@ export default function Header() {
                         className={`transition-all duration-200 fixed left-1/2 -translate-x-1/2 z-50 ${
                           isProductsDropdownOpen ? 'opacity-100 visible' : 'opacity-0 invisible'
                         }`} 
-                        style={{top: `${headerHeight}px`}}
+                        style={{top: `calc(${headerHeight}px - 1rem)`}}
                         onMouseEnter={() => setIsProductsDropdownOpen(true)}
                         onMouseLeave={() => setIsProductsDropdownOpen(false)}
                       >
