@@ -99,15 +99,15 @@ export default function Footer() {
             <h4 className="text-lg font-semibold mb-4 text-slate-100">Contact Info</h4>
             <ul className="space-y-3 text-slate-300 dark:text-slate-400">
               <li className="flex items-center">
-                <Phone className="w-4 h-4 mr-3 text-orange-400" aria-hidden="true" />
+                <Phone className="w-5 h-5 mr-3 text-orange-400 flex-shrink-0" aria-hidden="true" />
                 <span>{COMPANY_INFO.phone}</span>
               </li>
               <li className="flex items-center">
-                <Mail className="w-4 h-4 mr-3 text-orange-400" aria-hidden="true" />
+                <Mail className="w-5 h-5 mr-3 text-orange-400 flex-shrink-0" aria-hidden="true" />
                 <span>{COMPANY_INFO.email}</span>
               </li>
               <li className="flex items-start">
-                <MapPin className="w-4 h-4 mr-3 text-orange-400 mt-1" aria-hidden="true" />
+                <MapPin className="w-5 h-5 mr-3 text-orange-400 mt-1 flex-shrink-0" aria-hidden="true" />
                 <a
                   href="https://maps.app.goo.gl/jiap3sBYbM3r8Pn68"
                   target="_blank"
