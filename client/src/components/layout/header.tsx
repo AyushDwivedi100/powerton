@@ -161,7 +161,7 @@ export default function Header() {
               <span className="md:hidden">Email</span>
             </motion.a>
           </motion.div>
-          <div className="absolute right-2 sm:right-4 md:right-6 lg:right-8 flex items-center gap-3 lg:gap-4">
+          <div className="absolute right-6 sm:right-8 md:right-10 lg:right-12 flex items-center gap-3 lg:gap-4">
             {/* Theme Toggle in Top Bar */}
             <motion.div
               initial={{ opacity: 0, scale: 0.8 }}
