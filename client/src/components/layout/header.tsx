@@ -135,10 +135,9 @@ export default function Header() {
                 className="w-4 h-4 sm:w-5 sm:h-5 mr-1 text-secondary shrink-0"
                 aria-hidden="true"
               />
-              <span className="hidden sm:inline whitespace-nowrap">
+              <span className="whitespace-nowrap">
                 {COMPANY_INFO.phone}
               </span>
-              <span className="sm:hidden">Call</span>
             </motion.a>
             <motion.a
               href={`mailto:${COMPANY_INFO.email}`}
