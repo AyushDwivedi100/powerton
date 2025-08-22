@@ -105,7 +105,7 @@ export default function Header() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5, ease: [0.25, 0.46, 0.45, 0.94] }}
       >
-        <div className="max-w-7xl mx-auto px-2 sm:px-4 md:px-6 lg:px-8 flex flex-row justify-between items-center gap-2 text-sm sm:text-base">
+        <div className="max-w-7xl mx-auto px-2 sm:px-4 md:px-6 lg:px-8 flex flex-row justify-between items-center gap-2 text-base sm:text-lg">
           <motion.div
             className="flex items-center gap-4 sm:gap-6 md:gap-8 flex-wrap justify-start"
             initial="hidden"
@@ -132,7 +132,7 @@ export default function Header() {
               transition={{ duration: 0.2 }}
             >
               <Phone
-                className="w-3 h-3 sm:w-4 sm:h-4 mr-1 text-secondary shrink-0"
+                className="w-4 h-4 sm:w-5 sm:h-5 mr-1 text-secondary shrink-0"
                 aria-hidden="true"
               />
               <span className="hidden sm:inline whitespace-nowrap">
@@ -152,7 +152,7 @@ export default function Header() {
               transition={{ duration: 0.2 }}
             >
               <Mail
-                className="w-3 h-3 sm:w-4 sm:h-4 mr-1 text-secondary shrink-0"
+                className="w-4 h-4 sm:w-5 sm:h-5 mr-1 text-secondary shrink-0"
                 aria-hidden="true"
               />
               <span className="hidden md:inline whitespace-nowrap text-xs md:text-sm">
@@ -187,10 +187,10 @@ export default function Header() {
             >
               <span className="flex items-center">
                 <MapPin
-                  className="w-4 h-4 mr-2 text-secondary"
+                  className="w-5 h-5 mr-2 text-secondary"
                   aria-hidden="true"
                 />
-                <span className="text-sm sm:text-base">
+                <span className="text-base sm:text-lg">
                   {COMPANY_INFO.address.city}, {COMPANY_INFO.address.state} -
                   Serving All India
                 </span>
@@ -474,7 +474,7 @@ export default function Header() {
                     animate={{ rotate: isOpen ? 90 : 0 }}
                     transition={{ duration: 0.3 }}
                   >
-                    <Menu className="w-6 h-6" />
+                    <Menu className="w-7 h-7" />
                   </motion.div>
                   <span className="sr-only">Open mobile menu</span>
                 </Button>
