@@ -211,7 +211,7 @@ export default function Header() {
 
           {/* Desktop navigation */}
           <motion.div
-            className="hidden lg:flex items-center space-x-6"
+            className="hidden xl:flex items-center space-x-4"
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.3 }}
@@ -428,7 +428,7 @@ export default function Header() {
               initial={{ opacity: 0, scale: 0.8 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.4, delay: 0.8 }}
-              className="ml-2"
+              className="ml-1"
             >
               <Link href="/quote">
                 <Button className="btn-secondary hover-lift">Get Quote</Button>
@@ -447,7 +447,7 @@ export default function Header() {
                 <Button
                   variant="ghost"
                   size="icon"
-                  className="lg:hidden hover-scale"
+                  className="xl:hidden hover-scale"
                 >
                   <motion.div
                     animate={{ rotate: isOpen ? 90 : 0 }}
