@@ -12,3 +12,4 @@
 [x] 12. Further increased services dropdown width for more room (now 96vw to 82vw, max-w-8xl)
 [x] 13. Moved services dropdown menu up by 1rem toward the top of the screen
 [x] 14. Matched services dropdown font sizes to products dropdown (text-sm lg:text-base for titles, text-xs lg:text-sm for descriptions)
+[x] 15. Made services dropdown even wider (98vw to 88vw, max-w-none for unlimited width)
