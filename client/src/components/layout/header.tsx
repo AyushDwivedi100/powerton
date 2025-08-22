@@ -155,7 +155,7 @@ export default function Header() {
                 className="w-4 h-4 sm:w-5 sm:h-5 mr-1 text-secondary shrink-0"
                 aria-hidden="true"
               />
-              <span className="hidden md:inline whitespace-nowrap text-xs md:text-sm">
+              <span className="hidden md:inline whitespace-nowrap">
                 {COMPANY_INFO.email}
               </span>
               <span className="md:hidden">Email</span>
@@ -451,7 +451,7 @@ export default function Header() {
               className="ml-2"
             >
               <Link href="/quote">
-                <Button className="btn-secondary hover-lift px-4 lg:px-6">Get Quote</Button>
+                <Button className="bg-secondary hover:bg-secondary/90 text-secondary-foreground px-4 lg:px-6 hover:shadow-xl hover:scale-[1.02] transition-all duration-300">Get Quote</Button>
               </Link>
             </motion.div>
           </motion.div>
