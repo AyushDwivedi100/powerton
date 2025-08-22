@@ -105,12 +105,12 @@ export default function Chatbot() {
     if (isOpen && messages.length === 0) {
       setTimeout(() => {
         addBotMessage({
-          message: "Hello! I'm here to help you learn about Powerton Engineering's services and navigate our website. How can I assist you today?",
+          message: "Hi! I'm your website navigation assistant. I'm here to help you find exactly what you're looking for on our website. How can I guide you today?",
           suggestions: [
-            "What services do you offer?",
-            "Tell me about your products",
-            "How can I get a quote?",
-            "Where are you located?"
+            "Show me your services",
+            "Find contact information",
+            "Browse product catalog",
+            "See company projects"
           ]
         });
       }, 500);
@@ -138,66 +138,82 @@ export default function Chatbot() {
   const generateResponse = (userInput: string): ChatbotResponse => {
     const input = userInput.toLowerCase();
 
-    // Services related queries
-    if (input.includes('service') || input.includes('what do you do') || input.includes('what can you do')) {
+    // Home page navigation
+    if (input.includes('home') || input.includes('main page') || input.includes('homepage')) {
       return {
-        message: "Powerton Engineering offers comprehensive industrial automation solutions including:\n\n• Process Automation Systems\n• Instrumentation & Control\n• Electrical Panel Manufacturing\n• SCADA & HMI Solutions\n• Industrial IoT Implementation\n• Maintenance & Support Services\n\nWould you like detailed information about any specific service?",
-        suggestions: ["Process Automation", "Instrumentation", "Electrical Panels", "Get a Quote"]
+        message: "🏠 **Home Page**\n\nThe home page gives you a complete overview of Powerton Engineering. Here you'll find:\n\n• Company introduction and mission\n• Featured services highlights\n• Latest projects showcase\n• Quick access to all main sections\n\nYou're likely already on the home page. Would you like me to guide you to a specific section?",
+        suggestions: ["Go to Services", "View About Us", "See Our Projects", "Contact Information"]
       };
     }
 
-    // Products related queries
-    if (input.includes('product') || input.includes('equipment') || input.includes('manufacture')) {
+    // Services page navigation
+    if (input.includes('service') || input.includes('what you do') || input.includes('capabilities')) {
       return {
-        message: "We manufacture and supply a wide range of industrial products:\n\n• Control Panels & Switchgear\n• Motor Control Centers (MCC)\n• Distribution Boards\n• Automation Hardware\n• Sensors & Transmitters\n• Variable Frequency Drives (VFD)\n\nAll our products meet international quality standards and come with comprehensive warranties.",
-        suggestions: ["Control Panels", "Motor Control Centers", "View All Products", "Technical Specifications"]
+        message: "⚙️ **Services Section**\n\nTo explore our services, look for the 'Services' section on our website. You'll find detailed information about:\n\n• Industrial Automation Solutions\n• Process Control Systems\n• Electrical Panel Design & Manufacturing\n• SCADA & HMI Development\n• Instrumentation Services\n\nEach service has detailed descriptions, applications, and examples. Navigate to the Services section to learn more!",
+        suggestions: ["Find Services Section", "About Process Automation", "Electrical Panels Info", "Request Quote"]
       };
     }
 
-    // Quote and pricing queries
-    if (input.includes('quote') || input.includes('price') || input.includes('cost') || input.includes('estimate')) {
+    // About page navigation
+    if (input.includes('about') || input.includes('company') || input.includes('who are you') || input.includes('team')) {
       return {
-        message: "To provide an accurate quote, I'll need some project details. You can:\n\n1. Fill out our online quote request form\n2. Call us directly at +91-94627-71662\n3. Email us at info.powerton@gmail.com\n\nOur team typically responds within 24 hours with detailed proposals.",
-        suggestions: ["Request Quote", "Contact Us", "View Projects", "Technical Requirements"]
+        message: "📋 **About Us Section**\n\nTo learn about our company, head to the 'About' section where you'll discover:\n\n• Our company history and mission\n• Leadership team information\n• Company values and approach\n• Industry experience and expertise\n• Why choose Powerton Engineering\n\nThis section gives you a complete picture of who we are and what drives us!",
+        suggestions: ["Find About Section", "Company History", "Meet Our Team", "Our Mission"]
       };
     }
 
-    // Location and contact queries
-    if (input.includes('location') || input.includes('address') || input.includes('where') || input.includes('contact')) {
+    // Products page navigation
+    if (input.includes('product') || input.includes('catalog') || input.includes('equipment') || input.includes('manufacture')) {
       return {
-        message: "Powerton Engineering is located in:\n\n📍 2nd Floor, F-25, F Block, Sector 6\nNoida, Uttar Pradesh - 201301, India\n\n📞 Phone: +91-94627-71662\n📧 Email: info.powerton@gmail.com\n\nWe serve clients across India with our engineering solutions.",
-        suggestions: ["Get Directions", "Call Now", "Send Email", "Service Areas"]
+        message: "🔧 **Products Section**\n\nTo browse our product catalog, navigate to the 'Products' section. You'll find:\n\n• Control Panels & Switchgear\n• Motor Control Centers (MCC)\n• Distribution Boards\n• Automation Components\n• Custom Manufacturing Options\n\nEach product category includes specifications, applications, and imagery. Perfect for understanding our manufacturing capabilities!",
+        suggestions: ["Browse Products", "Control Panels", "Motor Control Centers", "Custom Solutions"]
       };
     }
 
-    // Projects and experience queries
-    if (input.includes('project') || input.includes('experience') || input.includes('portfolio') || input.includes('case study')) {
+    // Projects/Portfolio navigation
+    if (input.includes('project') || input.includes('portfolio') || input.includes('work') || input.includes('experience') || input.includes('case study')) {
       return {
-        message: "With 15+ years of experience, we've successfully completed 1200+ projects across various industries:\n\n• Manufacturing & Production\n• Oil & Gas\n• Power Generation\n• Water Treatment\n• Chemical Processing\n• Food & Beverage\n\nOur expertise ensures reliable, efficient automation solutions tailored to your specific needs.",
-        suggestions: ["View Projects", "Industry Experience", "Client Testimonials", "Technical Capabilities"]
+        message: "📊 **Projects Portfolio**\n\nTo see our work examples, visit the 'Projects' section. Here you'll find:\n\n• Completed project showcases\n• Industry-specific case studies\n• Before/after project photos\n• Client testimonials\n• Project timelines and outcomes\n\nThis section demonstrates our practical experience across various industries!",
+        suggestions: ["View All Projects", "Industry Projects", "Client Testimonials", "Project Gallery"]
       };
     }
 
-    // Navigation help
-    if (input.includes('navigate') || input.includes('find') || input.includes('page') || input.includes('menu')) {
+    // Contact page navigation
+    if (input.includes('contact') || input.includes('phone') || input.includes('email') || input.includes('address') || input.includes('location') || input.includes('reach')) {
       return {
-        message: "I can help you navigate our website:\n\n🏠 Home - Company overview\n📋 About - Our story and team\n⚙️ Services - Detailed service information\n🔧 Products - Product catalog\n📊 Projects - Portfolio showcase\n📞 Contact - Get in touch\n\nWhat specific information are you looking for?",
-        suggestions: ["View Services", "See Products", "Our Projects", "Contact Information"]
+        message: "📞 **Contact Information**\n\nTo get in touch with us, check the 'Contact' section or use the contact details in the header:\n\n• **Phone:** +91-94627-71662\n• **Email:** info.powerton@gmail.com\n• **Address:** Noida, Uttar Pradesh\n\nYou'll also find a contact form for detailed inquiries and our location on Google Maps!",
+        suggestions: ["Find Contact Form", "Call Now", "Send Email", "Get Directions"]
       };
     }
 
-    // Technical support queries
-    if (input.includes('support') || input.includes('maintenance') || input.includes('technical') || input.includes('help')) {
+    // Quote/pricing navigation
+    if (input.includes('quote') || input.includes('price') || input.includes('cost') || input.includes('estimate') || input.includes('inquiry')) {
       return {
-        message: "We provide comprehensive technical support:\n\n• 24/7 Emergency Support\n• Preventive Maintenance Programs\n• Remote Monitoring & Diagnostics\n• On-site Technical Assistance\n• Spare Parts & Components\n• Training & Documentation\n\nOur certified engineers ensure minimal downtime and optimal system performance.",
-        suggestions: ["Emergency Support", "Maintenance Plans", "Technical Training", "Contact Support"]
+        message: "💼 **Request a Quote**\n\nTo get pricing information, you have several options:\n\n• Look for 'Request Quote' buttons throughout the site\n• Use the contact form with your project details\n• Call directly at +91-94627-71662\n• Email us at info.powerton@gmail.com\n\nFor the best quote, provide detailed project requirements including scope, timeline, and specifications!",
+        suggestions: ["Find Quote Form", "Contact for Pricing", "Project Requirements", "Call for Quote"]
       };
     }
 
-    // Default response for unrecognized queries
+    // General navigation help
+    if (input.includes('navigate') || input.includes('find') || input.includes('where') || input.includes('menu') || input.includes('page') || input.includes('section')) {
+      return {
+        message: "🧭 **Website Navigation Guide**\n\nOur website is organized into these main sections:\n\n🏠 **Home** - Overview and highlights\n📋 **About** - Company information\n⚙️ **Services** - What we offer\n🔧 **Products** - Our catalog\n📊 **Projects** - Portfolio showcase\n📞 **Contact** - Get in touch\n\nYou can find navigation links in the header menu. What specific section interests you most?",
+        suggestions: ["Services Overview", "Product Catalog", "Project Portfolio", "Contact Info"]
+      };
+    }
+
+    // Theme/appearance help
+    if (input.includes('theme') || input.includes('dark') || input.includes('light') || input.includes('color') || input.includes('appearance')) {
+      return {
+        message: "🌓 **Theme Settings**\n\nYou can switch between light and dark themes using the theme toggle button. Look for:\n\n• Moon/Sun icon in the top-right corner\n• Theme switcher in the header area\n\nThis lets you choose the viewing mode that's most comfortable for you!",
+        suggestions: ["Find Theme Toggle", "Light Mode", "Dark Mode", "Navigation Help"]
+      };
+    }
+
+    // Default navigation assistance
     return {
-      message: "I'd be happy to help you with information about Powerton Engineering! I can assist with:\n\n• Our services and capabilities\n• Product information and specifications\n• Project portfolio and experience\n• Contact details and locations\n• Quote requests and pricing\n• Technical support options\n\nWhat would you like to know more about?",
-      suggestions: ["Our Services", "Products & Solutions", "Get Quote", "Contact Us"]
+      message: "🤔 **Need Navigation Help?**\n\nI'm here to help you find your way around our website! I can guide you to:\n\n• **Services** - What we offer\n• **Products** - Our catalog\n• **Projects** - Portfolio examples\n• **About** - Company info\n• **Contact** - Get in touch\n\nJust tell me what you're looking for, and I'll point you in the right direction!",
+      suggestions: ["Show Services", "Browse Products", "View Projects", "Contact Info"]
     };
   };
 
