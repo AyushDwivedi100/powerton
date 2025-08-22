@@ -1,5 +1,63 @@
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useRef, useState, useCallback } from 'react';
 import { motion, useAnimation, useInView } from 'framer-motion';
+
+// Scroll velocity detection hook
+export const useScrollVelocity = () => {
+  const [scrollVelocity, setScrollVelocity] = useState(0);
+  const lastScrollY = useRef(0);
+  const lastTimestamp = useRef(0);
+  
+  useEffect(() => {
+    let ticking = false;
+    
+    const updateScrollVelocity = () => {
+      const now = Date.now();
+      const deltaY = Math.abs(window.scrollY - lastScrollY.current);
+      const deltaTime = now - lastTimestamp.current;
+      
+      if (deltaTime > 0) {
+        const velocity = deltaY / deltaTime;
+        // Smooth the velocity calculation
+        setScrollVelocity(prev => prev * 0.8 + velocity * 0.2);
+      }
+      
+      lastScrollY.current = window.scrollY;
+      lastTimestamp.current = now;
+      ticking = false;
+    };
+    
+    const handleScroll = () => {
+      if (!ticking) {
+        requestAnimationFrame(updateScrollVelocity);
+        ticking = true;
+      }
+    };
+    
+    window.addEventListener('scroll', handleScroll, { passive: true });
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
+  
+  // Calculate dynamic duration based on velocity
+  const getDynamicDuration = useCallback((baseDuration: number = 0.8) => {
+    // Velocity thresholds for different speed categories
+    const slowThreshold = 0.5;
+    const fastThreshold = 2.0;
+    
+    if (scrollVelocity <= slowThreshold) {
+      // Normal/slow scrolling - use base duration
+      return baseDuration;
+    } else if (scrollVelocity >= fastThreshold) {
+      // Very fast scrolling - significantly reduce duration
+      return Math.max(baseDuration * 0.3, 0.2);
+    } else {
+      // Medium fast scrolling - interpolate between normal and fast
+      const factor = 1 - ((scrollVelocity - slowThreshold) / (fastThreshold - slowThreshold)) * 0.7;
+      return Math.max(baseDuration * factor, 0.2);
+    }
+  }, [scrollVelocity]);
+  
+  return { scrollVelocity, getDynamicDuration };
+};
 
 // Enhanced hook with better performance and options
 interface ScrollAnimationOptions {
@@ -121,6 +179,10 @@ export const AnimatedSection: React.FC<AnimatedSectionProps> = ({
   ...props 
 }) => {
   const [ref, controls] = useMotionAnimation();
+  const { getDynamicDuration } = useScrollVelocity();
+
+  // Calculate dynamic duration based on scroll velocity
+  const dynamicDuration = getDynamicDuration(duration);
 
   const animations = {
     fadeInUp: {
@@ -130,7 +192,7 @@ export const AnimatedSection: React.FC<AnimatedSectionProps> = ({
         y: 0, 
         scale: 1,
         transition: { 
-          duration,
+          duration: dynamicDuration,
           delay,
           ease: [0.25, 0.46, 0.45, 0.94]
         }
@@ -143,7 +205,7 @@ export const AnimatedSection: React.FC<AnimatedSectionProps> = ({
         y: 0, 
         scale: 1,
         transition: { 
-          duration,
+          duration: dynamicDuration,
           delay,
           ease: [0.25, 0.46, 0.45, 0.94]
         }
@@ -156,7 +218,7 @@ export const AnimatedSection: React.FC<AnimatedSectionProps> = ({
         x: 0, 
         scale: 1,
         transition: { 
-          duration,
+          duration: dynamicDuration,
           delay,
           ease: [0.25, 0.46, 0.45, 0.94]
         }
@@ -169,7 +231,7 @@ export const AnimatedSection: React.FC<AnimatedSectionProps> = ({
         x: 0, 
         scale: 1,
         transition: { 
-          duration,
+          duration: dynamicDuration,
           delay,
           ease: [0.25, 0.46, 0.45, 0.94]
         }
@@ -181,7 +243,7 @@ export const AnimatedSection: React.FC<AnimatedSectionProps> = ({
         opacity: 1, 
         scale: 1,
         transition: { 
-          duration,
+          duration: dynamicDuration,
           delay,
           ease: [0.34, 1.56, 0.64, 1]
         }
@@ -193,7 +255,7 @@ export const AnimatedSection: React.FC<AnimatedSectionProps> = ({
         opacity: 1, 
         y: 0,
         transition: { 
-          duration,
+          duration: dynamicDuration,
           delay,
           ease: [0.25, 0.46, 0.45, 0.94]
         }
@@ -241,12 +303,17 @@ export const StaggeredList: React.FC<StaggeredListProps> = ({
   ...props 
 }) => {
   const [ref, controls] = useMotionAnimation();
+  const { getDynamicDuration } = useScrollVelocity();
+
+  // Calculate dynamic duration and stagger for scroll velocity
+  const dynamicDuration = getDynamicDuration(0.6);
+  const dynamicStagger = getDynamicDuration(stagger);
 
   const containerVariants = {
     hidden: {},
     visible: {
       transition: {
-        staggerChildren: stagger,
+        staggerChildren: dynamicStagger,
         delayChildren: delay
       }
     }
@@ -259,7 +326,7 @@ export const StaggeredList: React.FC<StaggeredListProps> = ({
       y: 0, 
       scale: 1,
       transition: { 
-        duration: 0.6,
+        duration: dynamicDuration,
         ease: [0.25, 0.46, 0.45, 0.94]
       }
     }
@@ -320,18 +387,23 @@ export const getAnimationClass = (animation: string, isVisible: boolean) => {
   return animations[animation as keyof typeof animations] || animations.fadeInUp;
 };
 
-// Enhanced staggered animation hook
+// Enhanced staggered animation hook with dynamic duration
 export const useStaggeredAnimation = (delay: number = 100) => {
   const [ref, isVisible] = useScrollAnimation({ threshold: 0.1 });
+  const { getDynamicDuration } = useScrollVelocity();
+  
+  // Calculate dynamic transition duration
+  const dynamicTransition = getDynamicDuration(0.6);
+  const dynamicDelay = getDynamicDuration(delay / 1000) * 1000; // Convert to ms
   
   return {
     ref,
     isVisible,
     getStaggeredStyle: (index: number) => ({
-      animationDelay: isVisible ? `${delay * index}ms` : '0ms',
+      animationDelay: isVisible ? `${(dynamicDelay * index)}ms` : '0ms',
       opacity: isVisible ? 1 : 0,
       transform: isVisible ? 'translateY(0)' : 'translateY(20px)',
-      transition: 'all 0.6s ease-out'
+      transition: `all ${dynamicTransition}s ease-out`
     })
   };
 };
