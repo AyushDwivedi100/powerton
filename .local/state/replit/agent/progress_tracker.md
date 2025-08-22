@@ -1,7 +1,6 @@
 [x] 1. Install the required packages
-[x] 2. Restart the workflow to see if the project is working
-[x] 3. Fixed HTML structure errors in product pages (mismatched section/div tags)
-[x] 3. Fixed missing hero background images by adding missing CSS classes
+[x] 2. Restart the workflow to see if the project is working  
+[x] 3. Fixed missing image function exports causing build errors
 [x] 4. Verify the project is working using the feedback tool
 [x] 5. Inform user the import is completed and they can start building, mark the import as completed using the complete_project_import tool
 [x] 6. Adjusted products dropdown menu position in header (moved up by 1rem)

@@ -631,6 +631,23 @@ export {
   processAnalyzersHero
 };
 
+// Legacy compatibility functions for backward compatibility
+/**
+ * @deprecated Use getProductImage() instead
+ */
+export const getProductImageSrc = (productId: string): string => {
+  const image = getProductImage(productId);
+  return image?.src || '/images/placeholder.png';
+};
+
+/**
+ * @deprecated Use getProductImage() instead
+ */
+export const getProductImageAlt = (productId: string): string => {
+  const image = getProductImage(productId);
+  return image?.alt || `Product image for ${productId}`;
+};
+
 // Performance optimization: Initialize critical images preloading
 if (typeof window !== 'undefined') {
   // Preload hero images after page load for better UX
