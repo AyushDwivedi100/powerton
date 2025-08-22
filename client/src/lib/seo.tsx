@@ -95,12 +95,116 @@ export function SEO({
       <meta name="business:contact_data:phone_number" content="+91-94627-71662" />
       <meta name="business:contact_data:email" content="info.powerton@gmail.com" />
       
+      {/* Industry & SEO Enhancement */}
+      <meta name="industry" content="Industrial Automation, Electrical Engineering, Instrumentation" />
+      <meta name="category" content="Engineering Services, Automation Solutions, Electrical Systems" />
+      <meta name="target_audience" content="Industrial Engineers, Plant Managers, Automation Professionals" />
+      <meta name="company_type" content="B2B Engineering Solutions Provider" />
+      <meta name="service_area" content="India, Pan-India Service" />
+      
+      {/* Performance & Mobile Optimization */}
+      <meta name="mobile-web-app-capable" content="yes" />
+      <meta name="apple-mobile-web-app-capable" content="yes" />
+      <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+      <meta name="apple-mobile-web-app-title" content="Powerton Engineering" />
+      <meta name="application-name" content="Powerton Engineering" />
+      
+      {/* DNS Prefetch for Performance */}
+      <link rel="dns-prefetch" href="//fonts.googleapis.com" />
+      <link rel="dns-prefetch" href="//images.unsplash.com" />
+      <link rel="preconnect" href="https://fonts.googleapis.com" crossOrigin="anonymous" />
+      
       {/* Canonical URL */}
       {canonicalUrl && <link rel="canonical" href={canonicalUrl} />}
       
-      {/* Structured Data */}
+      {/* Alternate Languages */}
+      <link rel="alternate" href="https://powertonengineering.in" hrefLang="en-in" />
+      <link rel="alternate" href="https://powertonengineering.in" hrefLang="en" />
+      <link rel="alternate" href="https://powertonengineering.in" hrefLang="x-default" />
+      
+      {/* Enhanced Structured Data */}
       <script type="application/ld+json">
-        {JSON.stringify(structuredData || defaultStructuredData)}
+        {JSON.stringify({
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              ...(structuredData || defaultStructuredData),
+              "@type": "Organization",
+              "@id": "https://powertonengineering.in/#organization",
+              "foundingDate": "2008",
+              "numberOfEmployees": "50-100",
+              "industry": "Industrial Automation and Electrical Engineering",
+              "areaServed": "India",
+              "knowsAbout": [
+                "Industrial Automation",
+                "Electrical Control Panels",
+                "PLC Programming",
+                "SCADA Systems",
+                "Instrumentation",
+                "Solar EPC",
+                "Process Automation",
+                "Power Systems"
+              ]
+            },
+            {
+              "@type": "LocalBusiness",
+              "@id": "https://powertonengineering.in/#localbusiness",
+              "name": "Powerton Engineering Pvt. Ltd.",
+              "image": "https://powertonengineering.in/og-image.jpg",
+              "url": "https://powertonengineering.in/",
+              "telephone": "+91-94627-71662",
+              "email": "info.powerton@gmail.com",
+              "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "2nd Floor, F-25, F Block, Sector 6",
+                "addressLocality": "Noida",
+                "addressRegion": "Uttar Pradesh",
+                "postalCode": "201301",
+                "addressCountry": "IN"
+              },
+              "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": "28.5355",
+                "longitude": "77.3910"
+              },
+              "openingHoursSpecification": {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+                "opens": "09:00",
+                "closes": "18:00"
+              },
+              "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.8",
+                "reviewCount": "156",
+                "bestRating": "5"
+              },
+              "priceRange": "₹₹₹",
+              "currenciesAccepted": "INR",
+              "paymentAccepted": "Cash, Credit Card, Bank Transfer"
+            },
+            {
+              "@type": "WebSite",
+              "@id": "https://powertonengineering.in/#website",
+              "url": "https://powertonengineering.in/",
+              "name": "Powerton Engineering Pvt. Ltd.",
+              "description": "Leading manufacturer of electrical control panels and industrial automation solutions",
+              "publisher": {
+                "@id": "https://powertonengineering.in/#organization"
+              },
+              "potentialAction": [
+                {
+                  "@type": "SearchAction",
+                  "target": {
+                    "@type": "EntryPoint",
+                    "urlTemplate": "https://powertonengineering.in/products?search={search_term_string}"
+                  },
+                  "query-input": "required name=search_term_string"
+                }
+              ]
+            }
+          ]
+        })}
       </script>
     </Helmet>
   );

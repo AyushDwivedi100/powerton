@@ -17,7 +17,7 @@ export default function Footer() {
           {/* Company Info */}
           <div>
             <div className="mb-4">
-              <div className="relative w-[200px] h-12 overflow-hidden">
+              <div className="relative w-[280px] h-16 overflow-hidden">
                 <img 
                   src={logoImage} 
                   alt="ID-002: Powerton Engineering Pvt. Ltd. logo" 

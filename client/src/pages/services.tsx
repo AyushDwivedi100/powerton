@@ -38,8 +38,10 @@ export default function Services() {
   return (
     <>
       <SEO 
-        title="Professional Engineering Services - Powerton Engineering"
-        description="Comprehensive engineering services including installation, maintenance, calibration, consultation, custom solutions, supply chain management, technical support, and solar EPC services."
+        title="Professional Engineering Services - Installation, Maintenance & Automation | Powerton Engineering"
+        description="Expert engineering services: PLC programming, SCADA systems, industrial automation, electrical panel installation, maintenance, calibration, custom solutions & solar EPC services across India."
+        keywords="engineering services, industrial automation services, PLC programming, SCADA implementation, electrical panel installation, maintenance services, calibration services, custom automation solutions, solar EPC contractor, technical support India"
+        canonicalUrl="https://powertonengineering.in/services"
       />
       
       <div className="min-h-screen bg-background">
