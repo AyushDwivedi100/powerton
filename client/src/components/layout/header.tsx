@@ -19,6 +19,7 @@ export default function Header() {
   const [isMobileServicesOpen, setIsMobileServicesOpen] = useState(false);
   const [isMobileProductsOpen, setIsMobileProductsOpen] = useState(false);
   const [isProductsDropdownOpen, setIsProductsDropdownOpen] = useState(false);
+  const [headerHeight, setHeaderHeight] = useState(100);
 
   // Hide body scrollbar when mobile sidebar is open
   useEffect(() => {
@@ -59,6 +60,23 @@ export default function Header() {
       document.removeEventListener('mousedown', handleClickOutside);
     };
   }, [isProductsDropdownOpen]);
+
+  // Calculate header height for dropdown positioning
+  useEffect(() => {
+    const updateHeaderHeight = () => {
+      const header = document.querySelector('header[role="banner"]');
+      if (header) {
+        setHeaderHeight(header.offsetHeight);
+      }
+    };
+
+    updateHeaderHeight();
+    window.addEventListener('resize', updateHeaderHeight);
+    
+    return () => {
+      window.removeEventListener('resize', updateHeaderHeight);
+    };
+  }, []);
 
   const navigation = [
     { name: "About", href: "/about" },
@@ -322,7 +340,7 @@ export default function Header() {
                         className={`transition-all duration-200 fixed left-1/2 -translate-x-1/2 z-50 ${
                           isProductsDropdownOpen ? 'opacity-100 visible' : 'opacity-0 invisible'
                         }`} 
-                        style={{top: '120px'}}
+                        style={{top: `${headerHeight}px`}}
                         onMouseEnter={() => setIsProductsDropdownOpen(true)}
                         onMouseLeave={() => setIsProductsDropdownOpen(false)}
                       >
