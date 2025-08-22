@@ -161,28 +161,40 @@ export default function Header() {
               <span className="md:hidden">Email</span>
             </motion.a>
           </motion.div>
-          <motion.a
-            href="https://maps.app.goo.gl/jiap3sBYbM3r8Pn68"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="hidden md:flex items-center hover:text-secondary transition-colors cursor-pointer hover-scale"
-            aria-label="Open office location in Google Maps"
-            initial={{ opacity: 0, x: 20 }}
-            animate={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.6, delay: 0.3 }}
-            whileHover={{ scale: 1.05 }}
-          >
-            <span className="flex items-center">
-              <MapPin
-                className="w-4 h-4 mr-2 text-secondary"
-                aria-hidden="true"
-              />
-              <span className="text-xs lg:text-sm">
-                {COMPANY_INFO.address.city}, {COMPANY_INFO.address.state} -
-                Serving All India
+          <div className="flex items-center gap-4">
+            <motion.a
+              href="https://maps.app.goo.gl/jiap3sBYbM3r8Pn68"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hidden md:flex items-center hover:text-secondary transition-colors cursor-pointer hover-scale"
+              aria-label="Open office location in Google Maps"
+              initial={{ opacity: 0, x: 20 }}
+              animate={{ opacity: 1, x: 0 }}
+              transition={{ duration: 0.6, delay: 0.3 }}
+              whileHover={{ scale: 1.05 }}
+            >
+              <span className="flex items-center">
+                <MapPin
+                  className="w-4 h-4 mr-2 text-secondary"
+                  aria-hidden="true"
+                />
+                <span className="text-xs lg:text-sm">
+                  {COMPANY_INFO.address.city}, {COMPANY_INFO.address.state} -
+                  Serving All India
+                </span>
               </span>
-            </span>
-          </motion.a>
+            </motion.a>
+            
+            {/* Theme Toggle in Top Bar */}
+            <motion.div
+              initial={{ opacity: 0, scale: 0.8 }}
+              animate={{ opacity: 1, scale: 1 }}
+              transition={{ duration: 0.4, delay: 0.4 }}
+              className="flex items-center"
+            >
+              <ThemeToggle />
+            </motion.div>
+          </div>
         </div>
       </motion.div>
 
@@ -430,14 +442,6 @@ export default function Header() {
                 </motion.div>
               );
             })}
-            <motion.div
-              initial={{ opacity: 0, scale: 0.8 }}
-              animate={{ opacity: 1, scale: 1 }}
-              transition={{ duration: 0.4, delay: 0.7 }}
-              className="ml-2"
-            >
-              <ThemeToggle />
-            </motion.div>
             <motion.div
               initial={{ opacity: 0, scale: 0.8 }}
               animate={{ opacity: 1, scale: 1 }}
@@ -723,13 +727,6 @@ export default function Header() {
                     transition={{ duration: 0.3 }}
                     className="flex flex-col gap-3"
                   >
-                    {/* Theme Toggle in Mobile Menu */}
-                    <div className="flex justify-center mt-2 mb-2 p-2 bg-accent/20 rounded-md">
-                      <div className="flex items-center gap-2">
-                        <span className="text-sm font-medium text-foreground">Theme:</span>
-                        <ThemeToggle />
-                      </div>
-                    </div>
                     
                     <Link href="/quote" onClick={() => setIsOpen(false)}>
                       <Button className="btn-secondary w-full hover-lift">
