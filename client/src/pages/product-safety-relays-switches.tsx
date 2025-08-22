@@ -4,6 +4,7 @@ import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { ArrowLeft, Shield, ToggleLeft, AlertTriangle } from 'lucide-react';
+import { getProductImageSrc } from '@/assets/images';
 
 const SafetyRelaysSwitchesPage = () => {
   const products = [
@@ -11,19 +12,19 @@ const SafetyRelaysSwitchesPage = () => {
       name: "Emergency Stop Relays",
       description: "Safety relays for emergency stop applications",
       features: ["Cat 3/4 Safety", "Dual Channel", "Manual Reset", "Status LEDs"],
-      image: getProductImageSrc(getFileBaseName())
+      image: getProductImageSrc('safety-protective-devices')
     },
     {
       name: "Safety Light Curtains",
       description: "Optical safety systems for personnel protection",
       features: ["Type 2/4 Safety", "Muting Function", "Cascade Connection", "IP65 Rating"],
-      image: getProductImageSrc(getFileBaseName())
+      image: getProductImageSrc('safety-protective-devices')
     },
     {
       name: "Safety Switches",
       description: "Mechanical safety switches for door and gate monitoring",
       features: ["Coded Actuator", "High Breaking Capacity", "RFID Technology", "Tamper Proof"],
-      image: getProductImageSrc(getFileBaseName())
+      image: getProductImageSrc('safety-protective-devices')
     }
   ];
 
