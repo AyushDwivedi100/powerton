@@ -299,6 +299,7 @@ export default function Header() {
                           isActive("/products") ? "text-primary" : ""
                         }`}
                         onMouseEnter={() => setIsProductsDropdownOpen(true)}
+                        onMouseLeave={() => setIsProductsDropdownOpen(false)}
                         onClick={() => setIsProductsDropdownOpen(!isProductsDropdownOpen)}
                       >
                         <Link href="/products" className="hover:text-primary">
@@ -322,6 +323,8 @@ export default function Header() {
                           isProductsDropdownOpen ? 'opacity-100 visible' : 'opacity-0 invisible'
                         }`} 
                         style={{top: '120px'}}
+                        onMouseEnter={() => setIsProductsDropdownOpen(true)}
+                        onMouseLeave={() => setIsProductsDropdownOpen(false)}
                       >
                         <div className="w-max max-w-[95vw] max-h-[70vh] bg-popover border border-border rounded-md shadow-lg overflow-y-auto">
                           <div className="p-4 lg:p-6">
