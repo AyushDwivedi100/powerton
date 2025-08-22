@@ -17,3 +17,4 @@
 [x] 17. Matched services dropdown height and padding to products dropdown (max-h-[70vh], p-4 lg:p-6)
 [x] 18. Increased services dropdown height slightly (max-h-[80vh] for more vertical space)
 [x] 19. Further increased services dropdown height (max-h-[90vh] for maximum vertical space)
+[x] 20. Fixed height issue by increasing actual content spacing (p-6 lg:p-8, gap-6 lg:gap-8, py-4 lg:py-6)

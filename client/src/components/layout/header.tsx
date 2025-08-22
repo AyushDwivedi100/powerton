@@ -281,13 +281,13 @@ export default function Header() {
 
                       {/* Hover Dropdown Content */}
                       <div className="fixed left-1/2 -translate-x-1/2 w-max max-w-[95vw] max-h-[90vh] bg-popover border border-border rounded-md shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50 overflow-y-auto" style={{top: `calc(${headerHeight}px - 1rem)`}}>
-                        <div className="p-4 lg:p-6">
-                          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 items-start">
+                        <div className="p-6 lg:p-8">
+                          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 lg:gap-8 items-start">
                             {SERVICES.map((service) => (
                               <Link
                                 key={service.id}
                                 href={`/services/${service.id}`}
-                                className="block px-3 py-2 rounded-sm hover:bg-accent hover:text-accent-foreground cursor-pointer transition-colors border border-border/50 min-w-0"
+                                className="block px-4 py-4 lg:py-6 rounded-sm hover:bg-accent hover:text-accent-foreground cursor-pointer transition-colors border border-border/50 min-w-0"
                               >
                                 <div className="flex flex-col">
                                   <div className="font-semibold text-foreground text-sm lg:text-base line-clamp-2">
