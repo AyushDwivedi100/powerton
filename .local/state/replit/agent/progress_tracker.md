@@ -8,3 +8,4 @@
 [x] 8. Converted services dropdown to multi-column responsive grid (2-4 columns) in single row layout
 [x] 9. Centered services dropdown horizontally relative to the screen using fixed positioning
 [x] 10. Made services dropdown width fully responsive with viewport-based sizing (95vw to 55vw)
+[x] 11. Increased services dropdown width for better spacing (now 95vw to 75vw, max-w-7xl)
