@@ -190,7 +190,7 @@ export default function Header() {
                   className="w-4 h-4 mr-2 text-secondary"
                   aria-hidden="true"
                 />
-                <span className="text-xs lg:text-sm">
+                <span className="text-xs sm:text-sm">
                   {COMPANY_INFO.address.city}, {COMPANY_INFO.address.state} -
                   Serving All India
                 </span>
