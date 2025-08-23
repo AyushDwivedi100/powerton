@@ -704,9 +704,8 @@ export default function Chatbot() {
             className="fixed right-4 left-4 sm:left-auto sm:right-6 z-40 w-full sm:w-80 md:w-96 max-w-sm sm:max-w-none"
             style={{ 
               top: `${headerHeight + 16}px`, 
-              bottom: '5rem', 
-              height: 'auto',
-              maxHeight: `calc(100vh - ${headerHeight + 16}px - 5rem)`
+              bottom: '88px',
+              height: `calc(100vh - ${headerHeight + 16}px - 88px)`
             }}
             initial={{ opacity: 0, y: 100, scale: 0.8 }}
             animate={{ opacity: 1, y: 0, scale: 1 }}
