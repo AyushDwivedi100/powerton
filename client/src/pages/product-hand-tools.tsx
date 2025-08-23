@@ -40,10 +40,10 @@ const HandToolsPage = () => {
           }}
         />
         <div className="absolute inset-0 bg-black/60" />
-        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-white">
           <div className="text-center">
             <Link href="/products/industrial-tools-tackles">
-              <Button variant="ghost" className="mb-6 hover:bg-primary/10">
+              <Button variant="ghost" className="mb-6 hover:bg-white/10 text-white">
                 <ArrowLeft className="mr-2 h-4 w-4" />
                 Back to Industrial Tools & Tackles
               </Button>
