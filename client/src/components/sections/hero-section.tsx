@@ -171,7 +171,7 @@ export default function HeroSection() {
           >
             <motion.div variants={buttonVariants}>
               <Link href="/services" className="w-full sm:w-auto">
-                <Button className="bg-secondary hover:bg-secondary/90 text-secondary-foreground w-full sm:w-auto text-sm sm:text-base md:text-lg px-4 sm:px-6 md:px-8 py-3 sm:py-4 transition-all duration-200">
+                <Button className="bg-secondary hover:bg-accent text-secondary-foreground hover:text-accent-foreground w-full sm:w-auto text-sm sm:text-base md:text-lg px-4 sm:px-6 md:px-8 py-3 sm:py-4 transition-all duration-200">
                   Explore Our Services
                   <ArrowRight className="ml-2 w-4 h-4 sm:w-5 sm:h-5" />
                 </Button>
