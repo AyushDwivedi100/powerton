@@ -720,11 +720,17 @@ export default function Chatbot() {
                 </CardTitle>
               </CardHeader>
               
-              <CardContent className="flex-1 flex flex-col p-0">
+              <CardContent className="flex-1 flex flex-col p-0 overflow-hidden">
                 {/* Messages Area */}
                 <div ref={messagesContainerRef}
-                     className="flex-1 overflow-y-auto p-4 space-y-4 min-h-0 scroll-smooth"
-                     style={{ scrollBehavior: 'smooth' }}>
+                     className="flex-1 overflow-y-scroll p-4 space-y-4 min-h-0"
+                     style={{ 
+                       scrollBehavior: 'smooth',
+                       height: '0px', // Force flex-1 to work with overflow
+                       flexGrow: 1,
+                       scrollbarWidth: 'thin', // For Firefox
+                       scrollbarColor: '#888 transparent' // For Firefox
+                     }}>
                   {messages.map((message) => (
                     <div key={message.id}>
                       <div
