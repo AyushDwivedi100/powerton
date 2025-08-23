@@ -19,6 +19,7 @@ export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
   const [isMobileServicesOpen, setIsMobileServicesOpen] = useState(false);
   const [isMobileProductsOpen, setIsMobileProductsOpen] = useState(false);
+  const [isServicesDropdownOpen, setIsServicesDropdownOpen] = useState(false);
   const [isProductsDropdownOpen, setIsProductsDropdownOpen] = useState(false);
   const [headerHeight, setHeaderHeight] = useState(100);
 
@@ -44,23 +45,26 @@ export default function Header() {
     };
   }, [isOpen]);
 
-  // Handle click outside to close products dropdown
+  // Handle click outside to close dropdowns
   useEffect(() => {
     const handleClickOutside = (event: MouseEvent) => {
       const target = event.target as Element;
+      if (!target.closest('.services-dropdown-container')) {
+        setIsServicesDropdownOpen(false);
+      }
       if (!target.closest('.products-dropdown-container')) {
         setIsProductsDropdownOpen(false);
       }
     };
 
-    if (isProductsDropdownOpen) {
+    if (isServicesDropdownOpen || isProductsDropdownOpen) {
       document.addEventListener('mousedown', handleClickOutside);
     }
 
     return () => {
       document.removeEventListener('mousedown', handleClickOutside);
     };
-  }, [isProductsDropdownOpen]);
+  }, [isServicesDropdownOpen, isProductsDropdownOpen]);
 
   // Calculate header height for dropdown positioning
   useEffect(() => {
@@ -270,12 +274,15 @@ export default function Header() {
                         duration: 0.4,
                         delay: 0.4 + (index + 1) * 0.1,
                       }}
-                      className="relative group"
+                      className="relative services-dropdown-container"
                     >
                       <div
                         className={`text-foreground hover:text-primary transition-colors font-medium relative flex items-center gap-1 cursor-pointer ${
                           isActive("/services") ? "text-primary" : ""
                         }`}
+                        onMouseEnter={() => setIsServicesDropdownOpen(true)}
+                        onMouseLeave={() => setIsServicesDropdownOpen(false)}
+                        onClick={() => setIsServicesDropdownOpen(!isServicesDropdownOpen)}
                       >
                         <Link href="/services" className="hover:text-primary">
                           Services
@@ -292,26 +299,36 @@ export default function Header() {
                         )}
                       </div>
 
-                      {/* Hover Dropdown Content */}
-                      <div className="fixed left-1/2 -translate-x-1/2 w-max max-w-[95vw] max-h-[90vh] bg-popover border border-border rounded-md shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50 overflow-y-auto" style={{top: `calc(${headerHeight}px - 1rem)`}}>
-                        <div className="p-6 lg:p-8">
-                          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 lg:gap-8 items-stretch">
-                            {SERVICES.map((service) => (
-                              <Link
-                                key={service.id}
-                                href={`/services/${service.id}`}
-                                className="block px-4 py-4 lg:py-6 rounded-sm hover:bg-accent hover:text-accent-foreground cursor-pointer transition-colors border border-border/50 min-w-0 min-h-[120px] lg:min-h-[140px]"
-                              >
-                                <div className="flex flex-col h-full justify-between">
-                                  <div className="font-semibold text-foreground text-sm lg:text-base line-clamp-2 mb-2">
-                                    {service.title}
+                      {/* Dropdown Content */}
+                      <div 
+                        className={`transition-all duration-200 fixed left-1/2 -translate-x-1/2 z-50 ${
+                          isServicesDropdownOpen ? 'opacity-100 visible' : 'opacity-0 invisible'
+                        }`} 
+                        style={{top: `calc(${headerHeight}px - 1rem)`}}
+                        onMouseEnter={() => setIsServicesDropdownOpen(true)}
+                        onMouseLeave={() => setIsServicesDropdownOpen(false)}
+                      >
+                        <div className="w-max max-w-[95vw] max-h-[90vh] bg-popover border border-border rounded-md shadow-lg overflow-y-auto">
+                          <div className="p-6 lg:p-8">
+                            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 lg:gap-8 items-stretch">
+                              {SERVICES.map((service) => (
+                                <Link
+                                  key={service.id}
+                                  href={`/services/${service.id}`}
+                                  className="block px-4 py-4 lg:py-6 rounded-sm hover:bg-accent hover:text-accent-foreground cursor-pointer transition-colors border border-border/50 min-w-0 min-h-[120px] lg:min-h-[140px]"
+                                  onClick={() => setIsServicesDropdownOpen(false)}
+                                >
+                                  <div className="flex flex-col h-full justify-between">
+                                    <div className="font-semibold text-foreground text-sm lg:text-base line-clamp-2 mb-2">
+                                      {service.title}
+                                    </div>
+                                    <div className="text-xs lg:text-sm text-muted-foreground line-clamp-3 mt-auto">
+                                      {service.description.slice(0, 80)}...
+                                    </div>
                                   </div>
-                                  <div className="text-xs lg:text-sm text-muted-foreground line-clamp-3 mt-auto">
-                                    {service.description.slice(0, 80)}...
-                                  </div>
-                                </div>
-                              </Link>
-                            ))}
+                                </Link>
+                              ))}
+                            </div>
                           </div>
                         </div>
                       </div>
