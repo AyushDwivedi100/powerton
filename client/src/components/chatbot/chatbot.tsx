@@ -692,18 +692,18 @@ export default function Chatbot() {
                       
                       {/* Options for this specific bot message */}
                       {message.sender === 'bot' && lastBotMessageId === message.id && lastBotOptions.length > 0 && !isTyping && (
-                        <div className="ml-10 mt-2 grid grid-cols-2 gap-1">
+                        <div className="ml-10 mt-3 space-y-2">
                           {lastBotOptions.map((option, index) => (
                             <Button
                               key={index}
                               onClick={() => handleOptionClick(option)}
                               variant="outline"
-                              size="sm"
-                              className="justify-start h-auto py-1 px-2 text-left whitespace-normal text-xs leading-tight"
+                              size="default"
+                              className="w-full justify-start h-auto py-3 px-4 text-left whitespace-normal"
                             >
-                              <span className="text-xs truncate">{option.label}</span>
+                              <span className="text-sm">{option.label}</span>
                               {option.action === 'external' && (
-                                <ExternalLink className="w-2 h-2 ml-1 flex-shrink-0" />
+                                <ExternalLink className="w-4 h-4 ml-auto flex-shrink-0" />
                               )}
                             </Button>
                           ))}
