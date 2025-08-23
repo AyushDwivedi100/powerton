@@ -141,8 +141,8 @@ export default function HeroSection() {
         }}
       ></div>
       
-      {/* Reduced overlay for darker background */}
-      <div className="absolute inset-0 bg-primary/50"></div>
+      {/* Theme-aware overlay */}
+      <div className="absolute inset-0 bg-gradient-to-br from-primary/70 to-primary/85 dark:bg-primary/50"></div>
       
       <div className="relative max-w-7xl mx-auto px-4 md:px-6 lg:px-8 py-12 sm:py-16 md:py-20 lg:py-32">
         <motion.div 
@@ -152,14 +152,14 @@ export default function HeroSection() {
           variants={containerVariants}
         >
           <motion.h1 
-            className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 sm:mb-8 leading-tight text-white"
+            className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 sm:mb-8 leading-tight text-white dark:text-white"
             variants={itemVariants}
           >
             Comprehensive Solutions for <span className="text-secondary">Industrial Success</span>
           </motion.h1>
           
           <motion.p 
-            className="text-lg md:text-xl lg:text-2xl mb-6 sm:mb-8 text-white/90 leading-relaxed"
+            className="text-lg md:text-xl lg:text-2xl mb-6 sm:mb-8 text-white/90 dark:text-white/90 leading-relaxed"
             variants={itemVariants}
           >
             Our broad portfolio of products and services provides all-encompassing solutions that drive industrial success, ensuring that every aspect of your engineering needs is covered.
