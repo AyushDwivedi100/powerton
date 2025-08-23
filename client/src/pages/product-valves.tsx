@@ -16,14 +16,39 @@ import {
   Download
 } from "lucide-react";
 import { Link } from "wouter";
+import valvesLabImage from '@assets/generated_images/Industrial_valves_actuators_laboratory_c6f8afe0.png';
 
 export default function ProductValves() {
   useScrollAnimations();
 
   const product = {
+    title: "Valves & Actuators",
     shortDescription: "Industrial valve automation solutions with pneumatic, electric, and hydraulic actuators",
     fullDescription: "Comprehensive valve automation portfolio including quarter-turn and linear valves with smart technologies, IoT connectivity, and condition monitoring.",
-    keyBenefits: ["Precise Flow Control", "Enhanced Safety & Reliability", "Reduced Energy Consumption", "Predictive Maintenance Capability"]
+    image: valvesLabImage,
+    keyBenefits: ["Precise Flow Control", "Enhanced Safety & Reliability", "Reduced Energy Consumption", "Predictive Maintenance Capability"],
+    specifications: [
+      { label: "Actuator Types", value: "Pneumatic, Electric, Hydraulic" },
+      { label: "Valve Sizes", value: "1/4\" to 48\" (DN8 to DN1200)" },
+      { label: "Pressure Rating", value: "Up to 6000 PSI (414 bar)" },
+      { label: "Temperature Range", value: "-40°F to 1000°F (-40°C to 538°C)" }
+    ],
+    applications: [
+      "Process Control",
+      "Oil & Gas",
+      "Chemical Processing",
+      "Water Treatment",
+      "Power Generation",
+      "HVAC Systems"
+    ],
+    industries: [
+      "Oil & Gas",
+      "Chemical & Petrochemical",
+      "Power Generation",
+      "Water & Wastewater",
+      "Food & Beverage",
+      "Pharmaceutical"
+    ]
   };
 
   return (
@@ -37,7 +62,13 @@ export default function ProductValves() {
 
       {/* Hero Section */}
       <section className="relative hero-fullscreen overflow-hidden">
-        <div className="absolute inset-0 hero-bg-valves"></div>
+        <div 
+          className="absolute inset-0 bg-cover bg-center bg-no-repeat" 
+          style={{ 
+            backgroundImage: `url(${valvesLabImage})`,
+            filter: 'blur(1px)'
+          }}
+        ></div>
         <div className="absolute inset-0 bg-primary/20"></div>
         <div className="relative max-w-7xl mx-auto px-4 md:px-6 lg:px-8 text-white">
           <div className="max-w-4xl mx-auto text-center">

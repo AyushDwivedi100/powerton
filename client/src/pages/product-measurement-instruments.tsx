@@ -4,6 +4,7 @@ import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { ArrowLeft, Zap, BarChart3, Search, Activity, Settings } from 'lucide-react';
+import measurementLabImage from '@assets/generated_images/Precision_measurement_instruments_lab_b82030f8.png';
 
 const MeasurementInstruments = () => {
   const subcategories = [
@@ -48,7 +49,13 @@ const MeasurementInstruments = () => {
     <div className="min-h-screen bg-background">
       {/* Hero Section */}
       <section className="relative hero-fullscreen overflow-hidden">
-        <div className="absolute inset-0 hero-bg-instrumentation"></div>
+        <div 
+          className="absolute inset-0 bg-cover bg-center bg-no-repeat" 
+          style={{ 
+            backgroundImage: `url(${measurementLabImage})`,
+            filter: 'blur(1px)'
+          }}
+        ></div>
         <div className="absolute inset-0 bg-primary/20"></div>
         <div className="relative max-w-7xl mx-auto px-4 md:px-6 lg:px-8 text-white">
           <div className="max-w-4xl mx-auto text-center">
