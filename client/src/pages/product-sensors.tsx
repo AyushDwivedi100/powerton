@@ -22,10 +22,53 @@ export default function ProductSensors() {
   useScrollAnimations();
 
   const product = {
+    title: "Industrial Sensors",
     shortDescription: "Comprehensive range of industrial-grade sensors for automation and process control",
     fullDescription: "Advanced sensor solutions including temperature, pressure, position, motion, flow, level, proximity, and specialized sensors for industrial automation and process control.",
     image: sensorsBgImage,
-    keyBenefits: ["High Accuracy & Reliability", "Easy Integration & Configuration", "Reduced Maintenance Requirements", "Enhanced Safety Compliance"]
+    keyBenefits: ["High Accuracy & Reliability", "Easy Integration & Configuration", "Reduced Maintenance Requirements", "Enhanced Safety Compliance"],
+    specifications: [
+      "Operating Temperature: -40°C to +85°C",
+      "Protection Rating: IP67/IP68",
+      "Output Signals: 4-20mA, 0-10V, Digital",
+      "Power Supply: 12-24VDC",
+      "Response Time: <1ms to 10s",
+      "Accuracy: ±0.1% to ±1.0% FS"
+    ],
+    applications: [
+      "Process Control & Monitoring",
+      "Environmental Monitoring",
+      "Machine Condition Monitoring",
+      "Safety System Integration",
+      "Quality Control Systems",
+      "Energy Management"
+    ],
+    industries: [
+      "Chemical & Petrochemical",
+      "Oil & Gas",
+      "Power Generation",
+      "Water Treatment",
+      "Food & Beverage",
+      "Pharmaceutical"
+    ],
+    features: [
+      "High Precision Measurement",
+      "Robust Industrial Design",
+      "Wide Operating Range",
+      "Multiple Output Options",
+      "Easy Installation",
+      "Low Maintenance",
+      "Explosion-Proof Options",
+      "Digital Communication"
+    ],
+    certifications: [
+      "CE Certified",
+      "ATEX Approved",
+      "IECEx Certified",
+      "SIL 2/3 Rated",
+      "UL Listed",
+      "CSA Approved"
+    ]
   };
 
   return (

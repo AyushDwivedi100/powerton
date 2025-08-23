@@ -15,15 +15,60 @@ import {
   Mail,
   Download
 } from "lucide-react";
+import transmittersImage from '@assets/generated_images/Transmitters_Electronics_Facility_2d679230.png';
 import { Link } from "wouter";
 
 export default function ProductTransmitters() {
   useScrollAnimations();
 
   const product = {
+    title: "Transmitters & Transducers",
     shortDescription: "Precision transmitters for pressure, temperature, flow, and level measurement",
     fullDescription: "Comprehensive range of industrial transmitters with advanced technologies including strain gauge, capacitive, and piezoresistive sensing with HART digital communication.",
-    keyBenefits: ["Industry-Leading Accuracy", "Reduced Total Cost of Ownership", "Enhanced Process Optimization", "Improved Safety & Reliability"]
+    image: transmittersImage,
+    keyBenefits: ["Industry-Leading Accuracy", "Reduced Total Cost of Ownership", "Enhanced Process Optimization", "Improved Safety & Reliability"],
+    specifications: [
+      "Accuracy: ±0.025% to ±0.5% FS",
+      "Operating Temperature: -40°C to +125°C",
+      "Process Pressure: 0 to 10,000 PSI",
+      "Communication: HART, Foundation Fieldbus, Profibus",
+      "Power Supply: 10.5-55VDC",
+      "Protection: IP67/IP68"
+    ],
+    applications: [
+      "Pressure Measurement",
+      "Temperature Monitoring",
+      "Flow Rate Control",
+      "Level Detection",
+      "Differential Pressure",
+      "Process Control Integration"
+    ],
+    industries: [
+      "Oil & Gas",
+      "Chemical Processing",
+      "Power Generation",
+      "Water & Wastewater",
+      "Pulp & Paper",
+      "Mining & Metals"
+    ],
+    features: [
+      "HART Communication",
+      "Digital Accuracy",
+      "Remote Configuration",
+      "Self-Diagnostics",
+      "Multivariable Options",
+      "Wireless Capabilities",
+      "Explosion-Proof Design",
+      "Long-Term Stability"
+    ],
+    certifications: [
+      "ATEX Certified",
+      "IECEx Approved",
+      "SIL 2/3 Capable",
+      "FM Approved",
+      "CSA Certified",
+      "CE Marked"
+    ]
   };
 
   return (

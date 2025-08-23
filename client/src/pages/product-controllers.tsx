@@ -15,15 +15,60 @@ import {
   Mail,
   Download
 } from "lucide-react";
+import controllersImage from '@assets/generated_images/Industrial_PLC_Control_Panel_54555fe9.png';
 import { Link } from "wouter";
 
 export default function ProductControllers() {
   useScrollAnimations();
 
   const product = {
+    title: "Controllers & Recorders",
     shortDescription: "Advanced PLC, PAC, DCS, and SCADA systems for industrial automation",
     fullDescription: "Comprehensive automation control systems including Programmable Logic Controllers with IEC 61131-3 programming standards and multiple communication protocols.",
-    keyBenefits: ["Reduced Engineering Time", "Enhanced System Performance", "Improved Operational Efficiency", "Integrated Safety Functions"]
+    image: controllersImage,
+    keyBenefits: ["Reduced Engineering Time", "Enhanced System Performance", "Improved Operational Efficiency", "Integrated Safety Functions"],
+    specifications: [
+      "Programming: IEC 61131-3 Standards",
+      "I/O Capacity: 16 to 40,000+ points",
+      "Memory: 1MB to 64MB",
+      "Communication: Ethernet, Serial, Fieldbus",
+      "Operating Temperature: -20°C to +60°C",
+      "Power Supply: 24VDC/120-240VAC"
+    ],
+    applications: [
+      "Process Control",
+      "Factory Automation",
+      "Material Handling",
+      "Data Acquisition",
+      "Safety Systems",
+      "Motion Control"
+    ],
+    industries: [
+      "Manufacturing",
+      "Process Industries",
+      "Water Treatment",
+      "Building Automation",
+      "Energy & Utilities",
+      "Transportation"
+    ],
+    features: [
+      "Modular Design",
+      "Hot-Swappable I/O",
+      "Redundancy Options",
+      "Web-Based HMI",
+      "Real-Time Processing",
+      "Integrated Safety",
+      "Remote Access",
+      "Scalable Architecture"
+    ],
+    certifications: [
+      "CE Certified",
+      "UL Listed",
+      "CSA Approved",
+      "IEC 61508 SIL",
+      "ATEX Compliant",
+      "FCC Class A"
+    ]
   };
 
   return (
