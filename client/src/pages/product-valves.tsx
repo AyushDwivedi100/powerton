@@ -73,10 +73,10 @@ export default function ProductValves() {
         <div className="absolute inset-0 bg-black/60"></div>
         <div className="relative max-w-7xl mx-auto px-4 md:px-6 lg:px-8 text-white">
           <div className="text-center">
-            <Link href="/products/instrumentation-components">
+            <Link href="/products/automation-control-systems">
               <Button variant="ghost" className="mb-6 hover:bg-white/10 text-white">
                 <ArrowLeft className="mr-2 h-4 w-4" />
-                Back to Instrumentation Components
+                Back to Automation & Control Systems
               </Button>
             </Link>
           </div>

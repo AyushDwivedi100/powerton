@@ -42,10 +42,10 @@ image: getProductImageSrc('connectors-terminals')
         <div className="absolute inset-0 bg-black/60" />
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
-            <Link href="/products/measurement-instruments">
+            <Link href="/products/electrical-components">
               <Button variant="ghost" className="mb-6 hover:bg-primary/10">
                 <ArrowLeft className="mr-2 h-4 w-4" />
-                Back to Measurement Instruments
+                Back to Electrical Components
               </Button>
             </Link>
             <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-6">Connectors & Terminals</h1>
