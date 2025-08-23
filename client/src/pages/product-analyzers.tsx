@@ -23,9 +23,53 @@ export default function ProductAnalyzers() {
   useScrollAnimations();
 
   const product = {
+    title: "Process Analyzers",
     shortDescription: "Advanced gas and liquid analyzers for industrial process measurement and monitoring",
     fullDescription: "Comprehensive process analyzer solutions including gas analyzers, liquid analyzers, and multi-parameter measurement systems with Tunable Diode Laser technology.",
-    keyBenefits: ["Improved Process Control", "Enhanced Product Quality", "Regulatory Compliance", "Enhanced Safety"]
+    image: analyzersBgImage,
+    keyBenefits: ["Improved Process Control", "Enhanced Product Quality", "Regulatory Compliance", "Enhanced Safety"],
+    specifications: [
+      "Measurement Range: ppm to % levels",
+      "Accuracy: ±0.5% of reading",
+      "Response Time: <30 seconds",
+      "Operating Temperature: -10°C to +50°C",
+      "Communication: HART, Modbus, Ethernet",
+      "Certification: SIL 2, ATEX, IECEx"
+    ],
+    applications: [
+      "Process Optimization",
+      "Environmental Monitoring",
+      "Quality Control",
+      "Safety Monitoring",
+      "Regulatory Compliance",
+      "Emission Control"
+    ],
+    industries: [
+      "Chemical Processing",
+      "Oil & Gas Refining",
+      "Power Generation",
+      "Environmental",
+      "Pharmaceutical",
+      "Petrochemical"
+    ],
+    features: [
+      "Tunable Diode Laser Technology",
+      "Real-Time Monitoring",
+      "Multi-Component Analysis",
+      "Self-Calibrating",
+      "Remote Diagnostics",
+      "Low Maintenance",
+      "High Selectivity",
+      "Fast Response"
+    ],
+    certifications: [
+      "ATEX Certified",
+      "IECEx Approved",
+      "SIL 2 Capable",
+      "CE Marked",
+      "FCC Compliant",
+      "CSA Approved"
+    ]
   };
 
   return (

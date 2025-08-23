@@ -15,15 +15,60 @@ import {
   Mail,
   Download
 } from "lucide-react";
+import switchesImage from '@assets/generated_images/Industrial_Switches_Display_465e5621.png';
 import { Link } from "wouter";
 
 export default function ProductSwitches() {
   useScrollAnimations();
 
   const product = {
+    title: "Switches & Indicators",
     shortDescription: "Industrial-grade switches, pushbuttons, indicators, and control panel components",
     fullDescription: "Complete range of industrial control components including pushbuttons, selector switches, emergency stops, pilot lights, and stack lights with LED technology.",
-    keyBenefits: ["High Reliability & Durability", "Easy Installation & Maintenance", "Comprehensive Safety Compliance", "Cost-Effective Solutions"]
+    image: switchesImage,
+    keyBenefits: ["High Reliability & Durability", "Easy Installation & Maintenance", "Comprehensive Safety Compliance", "Cost-Effective Solutions"],
+    specifications: [
+      "Contact Rating: 10A at 250VAC",
+      "Operating Temperature: -25°C to +70°C",
+      "Protection Rating: IP65/IP67",
+      "Mounting: 22mm/30mm Panel Cutout",
+      "LED Life: >50,000 hours",
+      "Contact Configuration: NO/NC/DPDT"
+    ],
+    applications: [
+      "Control Panel Integration",
+      "Emergency Stop Systems",
+      "Machine Control",
+      "Process Indication",
+      "Safety Interlocks",
+      "Status Monitoring"
+    ],
+    industries: [
+      "Manufacturing",
+      "Process Control",
+      "Material Handling",
+      "Packaging",
+      "Food Processing",
+      "Automotive"
+    ],
+    features: [
+      "LED Illumination",
+      "Multiple Colors Available",
+      "Maintained/Momentary Action",
+      "Vandal Resistant Design",
+      "Quick Connect Terminals",
+      "Modular Construction",
+      "Emergency Stop Function",
+      "Ergonomic Design"
+    ],
+    certifications: [
+      "UL Listed",
+      "CE Marked",
+      "CSA Certified",
+      "IEC 60947-5-1",
+      "RoHS Compliant",
+      "ISO 13850"
+    ]
   };
 
   return (
