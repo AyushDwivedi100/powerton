@@ -28,6 +28,7 @@ import Gallery from "@/pages/gallery";
 import NotFound from "@/pages/not-found";
 
 // Lazy load product category pages
+const ProductInstrumentationComponents = lazy(() => import("@/pages/product-instrumentation-components"));
 const ProductMeasurementInstruments = lazy(() => import("@/pages/product-measurement-instruments"));
 const ProductSolarProducts = lazy(() => import("@/pages/product-solar-products"));
 const ProductAutomationControlSystems = lazy(() => import("@/pages/product-automation-control-systems"));
@@ -109,7 +110,7 @@ function Router() {
         <Route path="/products" component={Products} />
         
         {/* Main Product Categories */}
-        <Route path="/products/instrumentation-components" component={ProductMeasurementInstruments} />
+        <Route path="/products/instrumentation-components" component={ProductInstrumentationComponents} />
         <Route path="/products/electrical-components" component={ProductElectricalComponents} />
         <Route path="/products/measurement-instruments" component={ProductMeasurementInstruments} />
         <Route path="/products/solar-products" component={ProductSolarProducts} />
