@@ -33,10 +33,13 @@ const DiaphragmPumpsPage = () => {
     <div className="min-h-screen bg-background">
       <div className="relative bg-gradient-to-br from-primary/10 via-primary/5 to-background py-20">
         <div 
-          className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-20"
-          style={{ backgroundImage: `url(${pumpFacilityImage})` }}
+          className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+          style={{ 
+            backgroundImage: `url(${pumpFacilityImage})`,
+            filter: 'blur(2px)'
+          }}
         />
-        <div className="absolute inset-0 bg-primary/20" />
+        <div className="absolute inset-0 bg-black/60" />
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <Link href="/products/mechanical-pumps-spares">
