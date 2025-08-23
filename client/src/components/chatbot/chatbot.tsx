@@ -704,19 +704,19 @@ export default function Chatbot() {
 
                 {/* Action Options */}
                 {lastBotOptions.length > 0 && !isTyping && (
-                  <div className="p-3 border-t bg-muted/20">
-                    <div className="grid grid-cols-1 gap-2">
+                  <div className="px-3 py-2 border-t bg-muted/20 max-h-32 overflow-y-auto">
+                    <div className="grid grid-cols-2 gap-1">
                       {lastBotOptions.map((option, index) => (
                         <Button
                           key={index}
                           onClick={() => handleOptionClick(option)}
                           variant="outline"
                           size="sm"
-                          className="justify-start h-auto py-2 px-3 text-left whitespace-normal"
+                          className="justify-start h-auto py-1 px-2 text-left whitespace-normal text-xs leading-tight"
                         >
-                          <span className="text-xs">{option.label}</span>
+                          <span className="text-xs truncate">{option.label}</span>
                           {option.action === 'external' && (
-                            <ExternalLink className="w-3 h-3 ml-auto flex-shrink-0" />
+                            <ExternalLink className="w-2 h-2 ml-1 flex-shrink-0" />
                           )}
                         </Button>
                       ))}
