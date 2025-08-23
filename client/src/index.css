@@ -348,25 +348,6 @@ body.sidebar-open [data-radix-sheet-content] {
   color: hsl(215, 12%, 42%);
 }
 
-/* Ensure all text elements use theme-aware colors in light mode */
-:root .text-black {
-  color: hsl(215, 25%, 12%);
-}
-
-:root .text-gray-900,
-:root .text-slate-900 {
-  color: hsl(215, 25%, 12%);
-}
-
-/* Make sure headings and body text are readable in light theme */
-:root h1, :root h2, :root h3, :root h4, :root h5, :root h6 {
-  color: hsl(215, 25%, 12%);
-}
-
-:root p {
-  color: hsl(215, 12%, 25%);
-}
-
 /* Enhanced card borders and spacing */
 :root .border {
   border-color: hsl(215, 20%, 82%);
