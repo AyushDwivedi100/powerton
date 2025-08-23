@@ -14,10 +14,11 @@ interface Message {
 
 interface NavigationOption {
   label: string;
-  action: 'navigate' | 'external' | 'chat';
+  action: 'navigate' | 'external' | 'chat' | 'page';
   target?: string;
   url?: string;
   response?: string;
+  page?: string;
 }
 
 interface ChatbotResponse {
@@ -93,12 +94,12 @@ export default function Chatbot() {
     if (isOpen && messages.length === 0) {
       setTimeout(() => {
         addBotMessage({
-          message: "Hi! I'm your website navigation assistant. I can help you quickly find and navigate to different sections of our website. What would you like to explore?",
+          message: "Hello! I'm your personal engineering advisor from Powerton Engineering. I'm here to help you find exactly what you need for your industrial automation project. Whether you're looking for specific products, services, or technical guidance, I'll make sure you get the perfect solution. What can I help you with today?",
           options: [
-            { label: "🏠 Go to Home", action: "navigate", target: "top" },
-            { label: "⚙️ View Services", action: "navigate", target: "services" },
-            { label: "📦 Browse Products", action: "navigate", target: "products" },
-            { label: "📞 Contact Us", action: "navigate", target: "contact" }
+            { label: "🔍 Find the Right Product", action: "chat", response: "product-selection" },
+            { label: "⚙️ Choose a Service", action: "chat", response: "service-selection" },
+            { label: "🏭 Industry Solutions", action: "chat", response: "industry-solutions" },
+            { label: "💼 About Our Company", action: "chat", response: "company-info" }
           ]
         });
       }, 500);
@@ -179,123 +180,363 @@ export default function Chatbot() {
     setIsOpen(false);
   };
 
+  const handlePageNavigation = (page: string) => {
+    window.location.href = `/${page}`;
+    setIsOpen(false);
+  };
+
   const generateResponse = (userInput: string): ChatbotResponse => {
     const input = userInput.toLowerCase();
 
-    // Home/Main page requests
-    if (input.includes('home') || input.includes('main') || input.includes('start')) {
+    // Handle special chat responses first
+    if (input === 'product-selection') {
       return {
-        message: "I'll take you to the home page where you can see our company overview and featured content.",
+        message: "I'd love to help you find the perfect product! Our portfolio includes over 100+ industrial automation components. Let me understand your needs better:",
         options: [
-          { label: "🏠 Go to Home", action: "navigate", target: "top" },
-          { label: "ℹ️ Learn About Us", action: "navigate", target: "about" },
-          { label: "⚙️ View Services", action: "navigate", target: "services" },
-          { label: "📞 Contact Info", action: "navigate", target: "contact" }
+          { label: "🌡️ Sensors & Measurement", action: "chat", response: "sensors-category" },
+          { label: "⚡ Electrical Components", action: "chat", response: "electrical-category" },
+          { label: "🔧 Automation Systems", action: "chat", response: "automation-category" },
+          { label: "☀️ Solar Products", action: "chat", response: "solar-category" },
+          { label: "🛡️ Safety & Protection", action: "chat", response: "safety-category" },
+          { label: "🔍 Browse All Products", action: "page", page: "products" }
         ]
       };
     }
 
-    // Services requests
-    if (input.includes('service') || input.includes('what you do') || input.includes('capabilities')) {
+    if (input === 'service-selection') {
       return {
-        message: "Perfect! I can take you directly to our services section where you'll find detailed information about our industrial automation solutions.",
+        message: "Excellent! At Powerton Engineering, we offer comprehensive services designed to support your entire project lifecycle. What type of support do you need?",
         options: [
-          { label: "⚙️ View All Services", action: "navigate", target: "services" },
-          { label: "📦 See Our Products", action: "navigate", target: "products" },
-          { label: "💼 Request a Quote", action: "external", url: "mailto:info.powerton@gmail.com?subject=Service Quote Request" },
-          { label: "📞 Call for Details", action: "external", url: "tel:+91-94627-71662" }
+          { label: "🔧 Installation & Commissioning", action: "chat", response: "installation-service" },
+          { label: "🛠️ Maintenance & Repair", action: "chat", response: "maintenance-service" },
+          { label: "📏 Calibration & Testing", action: "chat", response: "calibration-service" },
+          { label: "🎓 Training & Consultation", action: "chat", response: "training-service" },
+          { label: "☀️ Solar EPC Projects", action: "chat", response: "solar-service" },
+          { label: "📋 View All Services", action: "page", page: "services" }
         ]
       };
     }
 
-    // Products requests
-    if (input.includes('product') || input.includes('catalog') || input.includes('equipment')) {
+    if (input === 'industry-solutions') {
       return {
-        message: "I'll navigate you to our products section where you can browse our complete catalog of industrial automation equipment and control panels.",
+        message: "We serve diverse industries with tailored solutions. Which industry matches your requirements?",
         options: [
-          { label: "📦 Browse Products", action: "navigate", target: "products" },
-          { label: "⚙️ Related Services", action: "navigate", target: "services" },
-          { label: "📋 Technical Specs", action: "external", url: "mailto:info.powerton@gmail.com?subject=Product Specifications Request" },
+          { label: "🛢️ Oil & Gas", action: "chat", response: "oil-gas-industry" },
+          { label: "⚗️ Chemical & Petrochemical", action: "chat", response: "chemical-industry" },
+          { label: "⚡ Power Generation", action: "chat", response: "power-industry" },
+          { label: "💧 Water Treatment", action: "chat", response: "water-industry" },
+          { label: "🍕 Food & Beverage", action: "chat", response: "food-industry" },
+          { label: "💊 Pharmaceutical", action: "chat", response: "pharma-industry" },
+          { label: "📊 See Our Projects", action: "page", page: "projects" }
+        ]
+      };
+    }
+
+    if (input === 'company-info') {
+      return {
+        message: "I'm proud to represent Powerton Engineering Pvt. Ltd.! We're your trusted partner with over a decade of experience in industrial automation. Our commitment to quality and customer satisfaction has earned us partnerships with major companies like Thermax, Motherson, and Praj Industries. We're based in Noida and serve clients across India.",
+        options: [
+          { label: "🏆 Our Achievements", action: "chat", response: "achievements" },
+          { label: "👥 Meet Our Team", action: "page", page: "about" },
+          { label: "🤝 Our Clients", action: "chat", response: "client-testimonials" },
+          { label: "📍 Visit Our Office", action: "external", url: "https://maps.app.goo.gl/jiap3sBYbM3r8Pn68" },
+          { label: "📞 Contact Us", action: "external", url: "tel:+91-94627-71662" }
+        ]
+      };
+    }
+
+    // Product Category Responses
+    if (input === 'sensors-category') {
+      return {
+        message: "Perfect choice! Our sensor portfolio includes precision instruments for temperature, pressure, flow, and level measurement. These are essential for process control and monitoring. Which specific type interests you?",
+        options: [
+          { label: "🌡️ Temperature Sensors", action: "page", page: "product-sensors" },
+          { label: "📡 Pressure Transmitters", action: "page", page: "product-transmitters" },
+          { label: "🔄 Flow Meters", action: "page", page: "product-sensors" },
+          { label: "📊 Level Indicators", action: "page", page: "product-sensors" },
+          { label: "🔬 Process Analyzers", action: "page", page: "product-analyzers" },
+          { label: "📧 Get Technical Specs", action: "external", url: "mailto:info.powerton@gmail.com?subject=Sensor Technical Specifications" }
+        ]
+      };
+    }
+
+    if (input === 'electrical-category') {
+      return {
+        message: "Excellent! Our electrical components ensure safe and reliable power distribution. From circuit breakers to power supplies, we have everything for your electrical infrastructure.",
+        options: [
+          { label: "🔌 Circuit Breakers & Fuses", action: "page", page: "product-circuit-breakers-fuses" },
+          { label: "⚡ Power Supplies", action: "page", page: "product-power-supplies" },
+          { label: "🔗 Cables & Connectors", action: "page", page: "product-cables-wires" },
+          { label: "📦 Enclosures & Cabinets", action: "page", page: "product-enclosures-cabinets" },
+          { label: "🌡️ Heating Elements", action: "page", page: "product-heating-elements-appliances" },
           { label: "💰 Get Pricing", action: "external", url: "tel:+91-94627-71662" }
         ]
       };
     }
 
-    // About/Company requests
-    if (input.includes('about') || input.includes('company') || input.includes('who are you') || input.includes('team')) {
+    if (input === 'automation-category') {
       return {
-        message: "I'll take you to our About section where you can learn about our company history, mission, and the experienced team behind Powerton Engineering.",
+        message: "Smart choice! Our automation systems include PLCs, SCADA, DCS, and HMI solutions that optimize your industrial processes and boost productivity.",
         options: [
-          { label: "ℹ️ About Our Company", action: "navigate", target: "about" },
-          { label: "📊 View Our Projects", action: "navigate", target: "projects" },
-          { label: "⚙️ Our Services", action: "navigate", target: "services" },
-          { label: "📞 Meet the Team", action: "navigate", target: "contact" }
+          { label: "🖥️ PLCs (Programmable Logic Controllers)", action: "page", page: "product-plcs" },
+          { label: "📊 SCADA Systems", action: "page", page: "product-scada" },
+          { label: "🌐 DCS (Distributed Control Systems)", action: "page", page: "product-dcs" },
+          { label: "👥 HMI (Human Machine Interface)", action: "page", page: "product-hmi" },
+          { label: "⚙️ Custom Control Panels", action: "chat", response: "custom-panels" },
+          { label: "🎯 Let's Discuss Your Project", action: "external", url: "mailto:info.powerton@gmail.com?subject=Automation Project Discussion" }
         ]
       };
     }
 
-    // Projects/Portfolio requests
-    if (input.includes('project') || input.includes('portfolio') || input.includes('work') || input.includes('case study')) {
+    if (input === 'solar-category') {
       return {
-        message: "I'll navigate you to our projects portfolio where you can see examples of our completed work and success stories across various industries.",
+        message: "Fantastic! Solar energy is the future! We provide complete solar solutions from panels to inverters, batteries, and monitoring systems. Perfect for sustainable and cost-effective power generation.",
         options: [
-          { label: "📊 View All Projects", action: "navigate", target: "projects" },
-          { label: "🏭 Industry Solutions", action: "navigate", target: "services" },
-          { label: "💼 Start Your Project", action: "external", url: "mailto:info.powerton@gmail.com?subject=New Project Inquiry" },
-          { label: "📞 Discuss Project", action: "external", url: "tel:+91-94627-71662" }
+          { label: "☀️ Solar Panels", action: "page", page: "product-solar-panels" },
+          { label: "🔄 Solar Inverters", action: "page", page: "product-solar-inverters" },
+          { label: "🔋 Battery Storage Systems", action: "page", page: "product-solar-batteries-energy-storage" },
+          { label: "🏗️ Mounting Structures", action: "page", page: "product-mounting-structures-racking" },
+          { label: "🎛️ Charge Controllers", action: "page", page: "product-solar-charge-controllers" },
+          { label: "📋 Get Solar Quote", action: "external", url: "mailto:info.powerton@gmail.com?subject=Solar Project Quote Request" }
         ]
       };
     }
 
-    // Contact requests
-    if (input.includes('contact') || input.includes('phone') || input.includes('email') || input.includes('location')) {
+    if (input === 'safety-category') {
       return {
-        message: "I can help you get in touch with us! Here are your options for contacting Powerton Engineering:",
+        message: "Safety first! That's our motto. Our safety and protective devices ensure personnel protection and equipment security in industrial environments.",
         options: [
-          { label: "📞 Call Now", action: "external", url: "tel:+91-94627-71662" },
-          { label: "📧 Send Email", action: "external", url: "mailto:info.powerton@gmail.com" },
-          { label: "🗺️ Get Directions", action: "external", url: "https://maps.app.goo.gl/jiap3sBYbM3r8Pn68" },
-          { label: "📋 Contact Form", action: "navigate", target: "contact" }
+          { label: "⚡ Surge Protectors", action: "page", page: "product-surge-protectors" },
+          { label: "🔒 Safety Relays & Switches", action: "page", page: "product-safety-relays-switches" },
+          { label: "🌍 Grounding Systems", action: "page", page: "product-grounding-systems" },
+          { label: "💥 Intrinsically Safe Equipment", action: "page", page: "product-intrinsically-safe-equipment" },
+          { label: "🦺 Personal Protective Equipment", action: "page", page: "product-safety-equipment" },
+          { label: "📋 Safety Consultation", action: "external", url: "tel:+91-94627-71662" }
         ]
       };
     }
 
-    // Quote/Pricing requests
-    if (input.includes('quote') || input.includes('price') || input.includes('cost') || input.includes('estimate')) {
+    // Service Detail Responses
+    if (input === 'installation-service') {
       return {
-        message: "I can help you get a quote! You can either fill out our contact form or reach out directly for faster service.",
+        message: "Our installation and commissioning service ensures your equipment is set up perfectly from day one. We handle everything from site preparation to final testing and validation, with complete compliance certification.",
         options: [
-          { label: "📋 Contact Form", action: "navigate", target: "contact" },
-          { label: "📞 Call for Quote", action: "external", url: "tel:+91-94627-71662" },
-          { label: "📧 Email Quote Request", action: "external", url: "mailto:info.powerton@gmail.com?subject=Quote Request" },
-          { label: "⚙️ View Our Services", action: "navigate", target: "services" }
+          { label: "⚙️ Equipment Installation", action: "chat", response: "installation-details" },
+          { label: "🔧 System Integration", action: "chat", response: "integration-details" },
+          { label: "✅ Performance Testing", action: "chat", response: "testing-details" },
+          { label: "📜 Compliance Certification", action: "chat", response: "certification-details" },
+          { label: "📋 Request Installation Quote", action: "external", url: "mailto:info.powerton@gmail.com?subject=Installation Service Quote" },
+          { label: "🔙 Back to Services", action: "chat", response: "service-selection" }
         ]
       };
     }
 
-    // General help/navigation
-    if (input.includes('help') || input.includes('navigate') || input.includes('find') || input.includes('where')) {
+    // Industry-specific responses
+    if (input === 'oil-gas-industry') {
       return {
-        message: "I'm here to help you navigate our website! Choose where you'd like to go:",
+        message: "Oil & Gas is one of our core specialties! We understand the critical nature of your operations and provide explosion-proof equipment, high-accuracy measurement instruments, and safety systems certified for hazardous environments.",
         options: [
-          { label: "🏠 Home Page", action: "navigate", target: "top" },
-          { label: "⚙️ Our Services", action: "navigate", target: "services" },
-          { label: "📦 Products", action: "navigate", target: "products" },
-          { label: "📊 Projects", action: "navigate", target: "projects" },
-          { label: "ℹ️ About Us", action: "navigate", target: "about" },
-          { label: "📞 Contact", action: "navigate", target: "contact" }
+          { label: "💥 Explosion-Proof Equipment", action: "page", page: "product-intrinsically-safe-equipment" },
+          { label: "📊 Process Control Systems", action: "page", page: "product-controllers" },
+          { label: "🛡️ Safety Shutdown Systems", action: "page", page: "product-safety-relays-switches" },
+          { label: "🔍 Gas Analyzers", action: "page", page: "product-analyzers" },
+          { label: "📈 View Oil & Gas Projects", action: "page", page: "projects" },
+          { label: "💼 Discuss Your Project", action: "external", url: "mailto:info.powerton@gmail.com?subject=Oil Gas Project Discussion" }
         ]
       };
     }
 
-    // Default response
+    // Testimonials and achievements
+    if (input === 'client-testimonials') {
+      return {
+        message: "Our customers love working with us! Anand Awasthi from West Bengal says: 'Powerton Engineering made the process seamless and easy.' Sanjay Patil from UP states: 'I would not hesitate to recommend them to any of my friends.' We've successfully served 50+ major clients across India.",
+        options: [
+          { label: "🏆 Our Major Clients", action: "chat", response: "major-clients" },
+          { label: "📊 Success Stories", action: "page", page: "projects" },
+          { label: "🎯 Industries We Serve", action: "chat", response: "industry-solutions" },
+          { label: "📞 Become Our Client", action: "external", url: "tel:+91-94627-71662" },
+          { label: "📧 Get in Touch", action: "external", url: "mailto:info.powerton@gmail.com" }
+        ]
+      };
+    }
+
+    if (input === 'major-clients') {
+      return {
+        message: "We're proud to work with industry leaders! Our clients include Thermax, Motherson, Praj Industries, SCI Group, Agribio Ltd, DLS Group, Ankur Scientific, and many more. Each partnership strengthens our expertise and commitment to excellence.",
+        options: [
+          { label: "🏭 Manufacturing Clients", action: "page", page: "about" },
+          { label: "⚡ Power Industry Clients", action: "page", page: "about" },
+          { label: "⚗️ Chemical Industry Clients", action: "page", page: "about" },
+          { label: "📈 See Project Portfolio", action: "page", page: "projects" },
+          { label: "🤝 Partner With Us", action: "external", url: "mailto:info.powerton@gmail.com?subject=Partnership Opportunity" }
+        ]
+      };
+    }
+
+    // Natural language product searches
+    if (input.includes('sensor') || input.includes('temperature') || input.includes('pressure') || input.includes('measurement')) {
+      return {
+        message: "I can help you find the right sensors! We offer high-precision sensors for temperature (-40°C to +125°C), pressure (vacuum to 7500 PSI), flow, and level measurement. All with industry-leading accuracy and reliability.",
+        options: [
+          { label: "🌡️ Temperature Sensors", action: "page", page: "product-sensors" },
+          { label: "📊 Pressure Transmitters", action: "page", page: "product-transmitters" },
+          { label: "🔄 Flow Measurement", action: "page", page: "product-sensors" },
+          { label: "📏 Level Sensors", action: "page", page: "product-sensors" },
+          { label: "📧 Get Technical Specifications", action: "external", url: "mailto:info.powerton@gmail.com?subject=Sensor Technical Specifications" },
+          { label: "☎️ Speak with Expert", action: "external", url: "tel:+91-94627-71662" }
+        ]
+      };
+    }
+
+    if (input.includes('plc') || input.includes('automation') || input.includes('control') || input.includes('scada')) {
+      return {
+        message: "Automation is our expertise! Our control systems include PLCs with sub-millisecond response times, SCADA for real-time monitoring, and DCS for complex process control. Perfect for optimizing your operations!",
+        options: [
+          { label: "🖥️ PLC Systems", action: "page", page: "product-plcs" },
+          { label: "📊 SCADA Solutions", action: "page", page: "product-scada" },
+          { label: "🌐 DCS Systems", action: "page", page: "product-dcs" },
+          { label: "👥 HMI Interfaces", action: "page", page: "product-hmi" },
+          { label: "🎯 Custom Automation Project", action: "external", url: "mailto:info.powerton@gmail.com?subject=Custom Automation Project" },
+          { label: "📞 Technical Consultation", action: "external", url: "tel:+91-94627-71662" }
+        ]
+      };
+    }
+
+    if (input.includes('solar') || input.includes('renewable') || input.includes('green energy') || input.includes('sustainable')) {
+      return {
+        message: "Going solar is a smart decision! We provide complete EPC services for solar projects from 1kW to 10MW+. Our solutions include high-efficiency panels, smart inverters, battery storage, and comprehensive monitoring systems.",
+        options: [
+          { label: "☀️ Solar Panel Systems", action: "page", page: "product-solar-panels" },
+          { label: "🔄 Solar Inverters", action: "page", page: "product-solar-inverters" },
+          { label: "🔋 Energy Storage", action: "page", page: "product-solar-batteries-energy-storage" },
+          { label: "📊 Our Solar Projects", action: "page", page: "projects" },
+          { label: "💰 Get Solar Quote", action: "external", url: "mailto:info.powerton@gmail.com?subject=Solar Project Quote" },
+          { label: "🌟 Solar EPC Services", action: "page", page: "services" }
+        ]
+      };
+    }
+
+    if (input.includes('pump') || input.includes('motor') || input.includes('bldc') || input.includes('valve')) {
+      return {
+        message: "Great choice! Our mechanical solutions include high-efficiency BLDC motors, centrifugal pumps, gear pumps, and automated valve systems. Perfect for fluid handling and processing applications.",
+        options: [
+          { label: "🔄 BLDC Motors", action: "page", page: "product-bldc" },
+          { label: "💧 Centrifugal Pumps", action: "page", page: "product-centrifugal-pumps" },
+          { label: "⚙️ Gear Pumps", action: "page", page: "product-gear-pumps" },
+          { label: "🔧 Valve Systems", action: "page", page: "product-valves" },
+          { label: "🛠️ Pump Spares", action: "page", page: "product-pump-parts-spares" },
+          { label: "📞 Application Guidance", action: "external", url: "tel:+91-94627-71662" }
+        ]
+      };
+    }
+
+    if (input.includes('calibration') || input.includes('testing') || input.includes('maintenance') || input.includes('service')) {
+      return {
+        message: "Our service team is here to support you! We offer precision calibration, comprehensive testing, preventive maintenance, and 24/7 technical support to keep your systems running at peak performance.",
+        options: [
+          { label: "📏 Calibration Services", action: "page", page: "services" },
+          { label: "🔧 Maintenance Programs", action: "page", page: "services" },
+          { label: "⚡ Emergency Support", action: "external", url: "tel:+91-94627-71662" },
+          { label: "📚 Training Programs", action: "page", page: "services" },
+          { label: "💼 Service Contract", action: "external", url: "mailto:info.powerton@gmail.com?subject=Service Contract Inquiry" },
+          { label: "🔍 All Services", action: "page", page: "services" }
+        ]
+      };
+    }
+
+    // Contact and support queries
+    if (input.includes('contact') || input.includes('phone') || input.includes('email') || input.includes('location') || input.includes('address')) {
+      return {
+        message: "I'm here to connect you with our team! We're located in Noida, Sector 6, and available Monday-Saturday (9 AM - 6 PM). For immediate assistance, call us or visit our office. We're always happy to help!",
+        options: [
+          { label: "📞 Call Now (+91-94627-71662)", action: "external", url: "tel:+91-94627-71662" },
+          { label: "📧 Email Us", action: "external", url: "mailto:info.powerton@gmail.com" },
+          { label: "📍 Visit Our Office", action: "external", url: "https://maps.app.goo.gl/jiap3sBYbM3r8Pn68" },
+          { label: "📋 Contact Form", action: "page", page: "contact" },
+          { label: "💼 Request Quote", action: "page", page: "quote" },
+          { label: "⏰ Business Hours", action: "chat", response: "business-hours" }
+        ]
+      };
+    }
+
+    if (input.includes('quote') || input.includes('price') || input.includes('cost') || input.includes('estimate') || input.includes('budget')) {
+      return {
+        message: "I'd be happy to help you get a customized quote! Our pricing is competitive and transparent. For accurate pricing, we'll need to understand your specific requirements. Let's connect you with our sales team for a detailed discussion.",
+        options: [
+          { label: "📋 Request Detailed Quote", action: "page", page: "quote" },
+          { label: "📞 Quick Phone Quote", action: "external", url: "tel:+91-94627-71662" },
+          { label: "📧 Email Requirements", action: "external", url: "mailto:info.powerton@gmail.com?subject=Quote Request" },
+          { label: "💰 Pricing Information", action: "chat", response: "pricing-info" },
+          { label: "🎯 Custom Solution", action: "external", url: "mailto:info.powerton@gmail.com?subject=Custom Solution Request" }
+        ]
+      };
+    }
+
+    // Help and general assistance
+    if (input.includes('help') || input.includes('assist') || input.includes('support') || input.includes('guidance')) {
+      return {
+        message: "I'm here to help you every step of the way! Whether you need product selection guidance, technical specifications, service support, or just want to learn more about our company, I'm at your service. What would you like assistance with?",
+        options: [
+          { label: "🔍 Find Products", action: "chat", response: "product-selection" },
+          { label: "⚙️ Choose Services", action: "chat", response: "service-selection" },
+          { label: "🏭 Industry Solutions", action: "chat", response: "industry-solutions" },
+          { label: "📞 Talk to Expert", action: "external", url: "tel:+91-94627-71662" },
+          { label: "🏢 About Our Company", action: "chat", response: "company-info" },
+          { label: "📋 Get Started", action: "page", page: "contact" }
+        ]
+      };
+    }
+
+    // Additional specific responses
+    if (input === 'business-hours') {
+      return {
+        message: "We're here when you need us! Our business hours are Monday to Saturday: 9:00 AM - 6:00 PM. We also provide emergency support on Sundays for critical situations. Located in Noida, Sector 6, F-25, F Block (nearest metro: Sector 15).",
+        options: [
+          { label: "📞 Call During Business Hours", action: "external", url: "tel:+91-94627-71662" },
+          { label: "📧 Email Anytime", action: "external", url: "mailto:info.powerton@gmail.com" },
+          { label: "🗺️ Visit Our Office", action: "external", url: "https://maps.app.goo.gl/jiap3sBYbM3r8Pn68" },
+          { label: "⚡ Emergency Support", action: "external", url: "tel:+91-94627-71662" },
+          { label: "📅 Schedule Meeting", action: "external", url: "mailto:info.powerton@gmail.com?subject=Meeting Request" }
+        ]
+      };
+    }
+
+    if (input === 'pricing-info') {
+      return {
+        message: "Our pricing is always competitive and transparent! We believe in providing value for money with no hidden costs. Pricing depends on specifications, quantity, and project scope. For the most accurate quote, our team will assess your specific requirements.",
+        options: [
+          { label: "📋 Get Detailed Quote", action: "page", page: "quote" },
+          { label: "📞 Discuss Pricing", action: "external", url: "tel:+91-94627-71662" },
+          { label: "📧 Email Requirements", action: "external", url: "mailto:info.powerton@gmail.com?subject=Pricing Inquiry" },
+          { label: "💰 Volume Discounts", action: "external", url: "tel:+91-94627-71662" },
+          { label: "🔄 Payment Options", action: "chat", response: "payment-options" }
+        ]
+      };
+    }
+
+    if (input === 'achievements') {
+      return {
+        message: "We're proud of our achievements! Over 500+ successful projects completed, 50+ major clients served, 15+ years of experience, and partnerships with industry leaders like Thermax, Motherson, and Praj Industries. Our 10MW solar plant project and pharmaceutical automation systems are among our flagship achievements.",
+        options: [
+          { label: "🏆 Major Projects", action: "page", page: "projects" },
+          { label: "🤝 Our Clients", action: "chat", response: "major-clients" },
+          { label: "📈 Success Stories", action: "page", page: "projects" },
+          { label: "🎯 Why Choose Us", action: "chat", response: "why-choose-us" },
+          { label: "📞 Discuss Partnership", action: "external", url: "tel:+91-94627-71662" }
+        ]
+      };
+    }
+
+    // Default intelligent response
     return {
-      message: "I'm here to help you navigate our website and find the information you need. What would you like to explore?",
+      message: "Thank you for reaching out! I'm here to help you find the perfect industrial automation solution. At Powerton Engineering, we believe every customer deserves personalized attention and expert guidance. What specific challenge or requirement can I help you with today?",
       options: [
-        { label: "⚙️ Explore Services", action: "navigate", target: "services" },
-        { label: "📦 Browse Products", action: "navigate", target: "products" },
-        { label: "📊 View Projects", action: "navigate", target: "projects" },
-        { label: "📞 Get in Touch", action: "navigate", target: "contact" }
+        { label: "🔍 Find the Right Product", action: "chat", response: "product-selection" },
+        { label: "⚙️ Explore Our Services", action: "chat", response: "service-selection" },
+        { label: "🏭 Industry-Specific Solutions", action: "chat", response: "industry-solutions" },
+        { label: "💼 About Powerton Engineering", action: "chat", response: "company-info" },
+        { label: "📞 Speak with Expert", action: "external", url: "tel:+91-94627-71662" },
+        { label: "📧 Send Us a Message", action: "external", url: "mailto:info.powerton@gmail.com" }
       ]
     };
   };
@@ -316,11 +557,14 @@ export default function Chatbot() {
     // Perform the action
     if (option.action === 'navigate' && option.target) {
       handleNavigation(option.target);
+    } else if (option.action === 'page' && option.page) {
+      handlePageNavigation(option.page);
     } else if (option.action === 'external' && option.url) {
       window.open(option.url, option.url.startsWith('tel:') || option.url.startsWith('mailto:') ? '_self' : '_blank');
       setIsOpen(false);
     } else if (option.action === 'chat' && option.response) {
-      addBotMessage({ message: option.response });
+      const response = generateResponse(option.response);
+      addBotMessage(response);
     }
   };
 
@@ -386,7 +630,7 @@ export default function Chatbot() {
               <CardHeader className="bg-primary text-white rounded-t-lg">
                 <CardTitle className="flex items-center gap-2 text-lg">
                   <Bot className="w-5 h-5" />
-                  Website Navigator
+                  Engineering Advisor
                 </CardTitle>
               </CardHeader>
               
@@ -466,7 +710,7 @@ export default function Chatbot() {
                 <div className="p-3 border-t">
                   <div className="flex gap-2">
                     <Input
-                      placeholder="Ask me anything about the website..."
+                      placeholder="Ask me about products, services, or technical help..."
                       value={inputValue}
                       onChange={(e) => setInputValue(e.target.value)}
                       onKeyPress={handleKeyPress}
