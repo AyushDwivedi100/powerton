@@ -54,19 +54,39 @@ export default function Chatbot() {
     const measureHeaderHeight = () => {
       const header = document.querySelector('header') || document.querySelector('[role="banner"]');
       if (header) {
-        setHeaderHeight(header.getBoundingClientRect().height);
+        const height = header.getBoundingClientRect().height;
+        setHeaderHeight(height);
       }
     };
 
+    // Measure immediately and on next tick to catch dynamic changes
     measureHeaderHeight();
+    setTimeout(measureHeaderHeight, 0);
+    
+    // Also measure when fonts load
+    document.fonts.ready.then(measureHeaderHeight);
+
     window.addEventListener('resize', measureHeaderHeight);
     window.addEventListener('scroll', measureHeaderHeight);
+    window.addEventListener('load', measureHeaderHeight);
 
     return () => {
       window.removeEventListener('resize', measureHeaderHeight);
       window.removeEventListener('scroll', measureHeaderHeight);
+      window.removeEventListener('load', measureHeaderHeight);
     };
   }, []);
+
+  // Re-measure header height when chatbot opens (in case header changed)
+  useEffect(() => {
+    if (isOpen) {
+      const header = document.querySelector('header') || document.querySelector('[role="banner"]');
+      if (header) {
+        const height = header.getBoundingClientRect().height;
+        setHeaderHeight(height);
+      }
+    }
+  }, [isOpen]);
 
   // Handle scroll management when chatbot opens/closes
   useEffect(() => {
