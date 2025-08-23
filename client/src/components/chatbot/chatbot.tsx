@@ -49,6 +49,25 @@ export default function Chatbot() {
     scrollToBottom();
   }, [messages]);
 
+  // Measure header height dynamically
+  useEffect(() => {
+    const measureHeaderHeight = () => {
+      const header = document.querySelector('header') || document.querySelector('[role="banner"]');
+      if (header) {
+        setHeaderHeight(header.getBoundingClientRect().height);
+      }
+    };
+
+    measureHeaderHeight();
+    window.addEventListener('resize', measureHeaderHeight);
+    window.addEventListener('scroll', measureHeaderHeight);
+
+    return () => {
+      window.removeEventListener('resize', measureHeaderHeight);
+      window.removeEventListener('scroll', measureHeaderHeight);
+    };
+  }, []);
+
   // Handle scroll management when chatbot opens/closes
   useEffect(() => {
     if (isOpen) {
@@ -149,6 +168,7 @@ export default function Chatbot() {
 
   const [lastBotOptions, setLastBotOptions] = useState<NavigationOption[]>([]);
   const [lastBotMessageId, setLastBotMessageId] = useState<string | null>(null);
+  const [headerHeight, setHeaderHeight] = useState(80);
 
   const handleNavigation = (target: string) => {
     switch (target) {
@@ -645,10 +665,10 @@ export default function Chatbot() {
             ref={chatWindowRef}
             className="fixed right-4 left-4 sm:left-auto sm:right-6 z-40 w-full sm:w-80 md:w-96 max-w-sm sm:max-w-none"
             style={{ 
-              top: 'max(80px, 5rem)', 
+              top: `${headerHeight + 16}px`, 
               bottom: '5rem', 
               height: 'auto',
-              maxHeight: 'calc(100vh - 80px - 5rem)'
+              maxHeight: `calc(100vh - ${headerHeight + 16}px - 5rem)`
             }}
             initial={{ opacity: 0, y: 100, scale: 0.8 }}
             animate={{ opacity: 1, y: 0, scale: 1 }}
