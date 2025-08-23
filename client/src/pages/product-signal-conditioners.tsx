@@ -14,15 +14,58 @@ import {
   Mail,
   Download
 } from "lucide-react";
+import signalConditionersImage from '@assets/generated_images/Signal_Processing_Laboratory_d26b0005.png';
 import { Link } from "wouter";
 
 export default function ProductSignalConditioners() {
   useScrollAnimations();
 
   const product = {
+    title: "Signal Conditioners",
     shortDescription: "Isolation amplifiers and signal conditioning solutions for industrial automation",
     fullDescription: "Advanced signal conditioning solutions including isolation amplifiers, signal converters, and measuring transducers with galvanic isolation up to 2.5kV.",
-    keyBenefits: ["Enhanced Signal Integrity", "Improved Safety & Protection", "Reduced Installation Time", "Flexible Configuration"]
+    image: signalConditionersImage,
+    keyBenefits: ["Enhanced Signal Integrity", "Improved Safety & Protection", "Reduced Installation Time", "Flexible Configuration"],
+    specifications: [
+      "Isolation Voltage: 300V to 2.5kV test voltage",
+      "Signal Types: 0-20mA, 4-20mA, 0-10V, ±10V",
+      "Accuracy: 0.5% at 25°C",
+      "Bandwidth: Up to 400kHz",
+      "Mounting: DIN rail 6mm to 22.5mm width",
+      "Power: 24-110V DC / 110-230V AC"
+    ],
+    applications: [
+      "Process Control Systems",
+      "Data Acquisition",
+      "Ground Loop Elimination",
+      "Noise Filtering",
+      "Safety Circuits",
+      "Hazardous Area Interfaces"
+    ],
+    industries: [
+      "Process Control",
+      "Power Generation",
+      "Automotive",
+      "Aerospace",
+      "Medical Equipment",
+      "Railway Systems"
+    ],
+    features: [
+      "SIL 2/3 Functional Safety Certified",
+      "HART Communication Support",
+      "Smartphone App Configuration",
+      "Pluggable Connection Technology",
+      "Universal Input/Output Options",
+      "Ex Zone Compliance"
+    ],
+    certifications: [
+      "SIL 2/3",
+      "EN 61508",
+      "ATEX",
+      "IECEx",
+      "UL",
+      "CSA"
+    ]
   };
 
   return (
@@ -36,7 +79,13 @@ export default function ProductSignalConditioners() {
 
       {/* Hero Section */}
       <section className="relative hero-fullscreen overflow-hidden">
-        <div className="absolute inset-0 hero-bg-signal-conditioners"></div>
+        <div 
+          className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+          style={{ 
+            backgroundImage: `url(${signalConditionersImage})`,
+            filter: 'blur(2px)'
+          }}
+        />
         <div className="absolute inset-0 bg-black/60"></div>
         <div className="relative max-w-7xl mx-auto px-4 md:px-6 lg:px-8 text-white">
           <div className="max-w-4xl mx-auto text-center">
