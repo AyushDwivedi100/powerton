@@ -47,10 +47,10 @@ const AutomationControlSystems = () => {
           className="absolute inset-0 bg-cover bg-center bg-no-repeat" 
           style={{ 
             backgroundImage: `url(${getHeroImage('services')?.src})`,
-            filter: 'blur(1px)'
+            filter: 'blur(2px)'
           }}
         ></div>
-        <div className="absolute inset-0 bg-primary/20"></div>
+        <div className="absolute inset-0 bg-black/60"></div>
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <Link href="/products">

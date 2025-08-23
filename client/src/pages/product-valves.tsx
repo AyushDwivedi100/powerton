@@ -66,10 +66,10 @@ export default function ProductValves() {
           className="absolute inset-0 bg-cover bg-center bg-no-repeat" 
           style={{ 
             backgroundImage: `url(${valvesLabImage})`,
-            filter: 'blur(1px)'
+            filter: 'blur(2px)'
           }}
         ></div>
-        <div className="absolute inset-0 bg-primary/20"></div>
+        <div className="absolute inset-0 bg-black/60"></div>
         <div className="relative max-w-7xl mx-auto px-4 md:px-6 lg:px-8 text-white">
           <div className="max-w-4xl mx-auto text-center">
             <div className="flex items-center justify-center mb-6">
