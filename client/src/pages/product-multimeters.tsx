@@ -5,6 +5,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/com
 import { Badge } from '@/components/ui/badge';
 import { ArrowLeft, Gauge, Zap, Activity } from 'lucide-react';
 import measurementBgImage from '@assets/generated_images/Measurement_Instruments_Laboratory_a811e77b.png';
+import { getProductImageSrc, getFileBaseName } from '@/assets/images';
 
 const MultimetersPage = () => {
   const products = [

@@ -643,9 +643,39 @@ export const getProductImageSrc = (productId: string): string => {
 /**
  * @deprecated Use getProductImage() instead
  */
-export const getProductImageAlt = (productId: string): string => {
+export const getProductImageAlt = (productId: string, productName?: string, productDescription?: string): string => {
   const image = getProductImage(productId);
-  return image?.alt || `Product image for ${productId}`;
+  if (image) {
+    return image.alt;
+  }
+  
+  // Fallback for when image is not found
+  if (productName && productDescription) {
+    return `${productId}: ${productName} - ${productDescription}`;
+  } else if (productName) {
+    return `${productId}: ${productName}`;
+  }
+  return `Product image for ${productId}`;
+};
+
+/**
+ * Get file base name from current file path
+ */
+export const getFileBaseName = (): string => {
+  // This function extracts the filename from the current module
+  // Since we can't access import.meta.url in all contexts, we'll use a fallback
+  try {
+    const stack = new Error().stack;
+    if (stack) {
+      const match = stack.match(/product-([^/]+)\.tsx/);
+      if (match) {
+        return match[1];
+      }
+    }
+  } catch (e) {
+    // Fallback - return empty string
+  }
+  return '';
 };
 
 // Performance optimization: Initialize critical images preloading

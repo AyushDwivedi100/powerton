@@ -4,6 +4,7 @@ import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { ArrowLeft, Box, Shield, Lock } from 'lucide-react';
+import { getProductImageSrc, getFileBaseName } from '@/assets/images';
 
 const EnclosuresCabinetsPage = () => {
   const products = [

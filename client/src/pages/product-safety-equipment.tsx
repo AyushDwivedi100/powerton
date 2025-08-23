@@ -5,6 +5,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/com
 import { Badge } from '@/components/ui/badge';
 import { ArrowLeft, Shield, AlertTriangle, HardHat } from 'lucide-react';
 import safetyBgImage from '@assets/generated_images/Safety_Equipment_Display_ed04b621.png';
+import { getProductImageSrc, getFileBaseName } from '@/assets/images';
 
 const SafetyEquipmentPage = () => {
   const products = [

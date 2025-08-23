@@ -5,6 +5,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/com
 import { Badge } from '@/components/ui/badge';
 import { ArrowLeft, Cpu, Settings, Database } from 'lucide-react';
 import plcBgImage from '@assets/generated_images/Industrial_PLC_Control_Panel_54555fe9.png';
+import { getProductImageSrc, getFileBaseName } from '@/assets/images';
 
 const PLCsPage = () => {
   const products = [

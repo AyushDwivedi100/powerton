@@ -5,6 +5,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/com
 import { Badge } from '@/components/ui/badge';
 import { ArrowLeft, Wrench, Settings, Hammer } from 'lucide-react';
 import toolsBgImage from '@assets/generated_images/Industrial_Tools_Workshop_a055c619.png';
+import { getProductImageSrc, getFileBaseName } from '@/assets/images';
 
 const HandToolsPage = () => {
   const products = [
