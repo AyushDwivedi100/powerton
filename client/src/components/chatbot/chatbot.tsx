@@ -643,7 +643,13 @@ export default function Chatbot() {
         {isOpen && (
           <motion.div
             ref={chatWindowRef}
-            className="fixed bottom-20 right-4 left-4 sm:left-auto sm:right-6 z-40 w-full sm:w-80 md:w-96 max-w-sm sm:max-w-none h-[500px] max-h-[calc(100vh-120px)]"
+            className="fixed right-4 left-4 sm:left-auto sm:right-6 z-40 w-full sm:w-80 md:w-96 max-w-sm sm:max-w-none"
+            style={{ 
+              top: 'max(80px, 5rem)', 
+              bottom: '5rem', 
+              height: 'auto',
+              maxHeight: 'calc(100vh - 80px - 5rem)'
+            }}
             initial={{ opacity: 0, y: 100, scale: 0.8 }}
             animate={{ opacity: 1, y: 0, scale: 1 }}
             exit={{ opacity: 0, y: 100, scale: 0.8 }}
