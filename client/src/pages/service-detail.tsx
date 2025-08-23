@@ -166,12 +166,13 @@ export default function ServiceDetail() {
         {/* Hero Section */}
         <section className="relative py-12 md:py-16 lg:py-20 overflow-hidden">
           <div 
-            className="absolute inset-0 bg-cover bg-center" 
+            className="absolute inset-0 bg-cover bg-center bg-no-repeat" 
             style={{ 
-              backgroundImage: `url(${getServiceHeroImage(serviceId as keyof typeof serviceDetails)?.src})` 
+              backgroundImage: `url(${getServiceHeroImage(serviceId as keyof typeof serviceDetails)?.src})`,
+              filter: 'blur(2px)'
             }}
           ></div>
-          <div className="absolute inset-0 bg-primary/20"></div>
+          <div className="absolute inset-0 bg-black/60"></div>
           
           <div className="relative z-10">
             <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8 text-center text-white">
