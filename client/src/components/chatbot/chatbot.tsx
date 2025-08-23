@@ -676,10 +676,10 @@ export default function Chatbot() {
             transition={{ duration: 0.3 }}
           >
             <Card className="shadow-2xl border-0 h-full flex flex-col overflow-hidden">
-              <CardHeader className="bg-primary text-white rounded-t-lg">
-                <CardTitle className="flex items-center gap-2 text-lg">
-                  <Bot className="w-5 h-5" />
-                  Engineering Advisor
+              <CardHeader className="bg-primary text-white rounded-t-lg py-3 px-4 flex-shrink-0">
+                <CardTitle className="flex items-center justify-center gap-2 text-lg font-medium leading-none">
+                  <Bot className="w-5 h-5 flex-shrink-0" />
+                  <span className="flex-1 text-center">Engineering Advisor</span>
                 </CardTitle>
               </CardHeader>
               
