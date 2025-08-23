@@ -5,6 +5,7 @@ import { Badge } from "@/components/ui/badge";
 import { AnimatedSection, useScrollAnimations } from "@/hooks/use-scroll-animation";
 import { 
   ArrowRight,
+  ArrowLeft,
   CheckCircle,
   Star,
   FlaskConical,
@@ -92,6 +93,14 @@ export default function ProductAnalyzers() {
         />
         <div className="absolute inset-0 bg-black/60"></div>
         <div className="relative max-w-7xl mx-auto px-4 md:px-6 lg:px-8 text-white">
+          <div className="text-center">
+            <Link href="/products/instrumentation-components">
+              <Button variant="ghost" className="mb-6 hover:bg-white/10 text-white">
+                <ArrowLeft className="mr-2 h-4 w-4" />
+                Back to Instrumentation Components
+              </Button>
+            </Link>
+          </div>
           <div className="max-w-4xl mx-auto text-center">
             <div className="flex items-center justify-center mb-6">
               <FlaskConical className="w-16 h-16 text-secondary mr-4" />
