@@ -3,7 +3,6 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { AnimatedSection, useScrollAnimations } from "@/hooks/use-scroll-animation";
-import { getInstrumentationProduct } from "@/data/instrumentation-products";
 import { 
   ArrowRight,
   CheckCircle,
@@ -21,11 +20,13 @@ import { Link } from "wouter";
 
 export default function ProductSensors() {
   useScrollAnimations();
-  const product = getInstrumentationProduct('sensors');
-  
-  if (!product) {
-    return <div>Product not found</div>;
-  }
+
+  const product = {
+    shortDescription: "Comprehensive range of industrial-grade sensors for automation and process control",
+    fullDescription: "Advanced sensor solutions including temperature, pressure, position, motion, flow, level, proximity, and specialized sensors for industrial automation and process control.",
+    image: sensorsBgImage,
+    keyBenefits: ["High Accuracy & Reliability", "Easy Integration & Configuration", "Reduced Maintenance Requirements", "Enhanced Safety Compliance"]
+  };
 
   return (
     <>

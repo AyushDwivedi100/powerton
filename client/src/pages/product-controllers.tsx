@@ -3,7 +3,6 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { AnimatedSection, useScrollAnimations } from "@/hooks/use-scroll-animation";
-import { getInstrumentationProduct } from "@/data/instrumentation-products";
 import { 
   ArrowRight,
   CheckCircle,
@@ -20,11 +19,12 @@ import { Link } from "wouter";
 
 export default function ProductControllers() {
   useScrollAnimations();
-  const product = getInstrumentationProduct('controllers');
-  
-  if (!product) {
-    return <div>Product not found</div>;
-  }
+
+  const product = {
+    shortDescription: "Advanced PLC, PAC, DCS, and SCADA systems for industrial automation",
+    fullDescription: "Comprehensive automation control systems including Programmable Logic Controllers with IEC 61131-3 programming standards and multiple communication protocols.",
+    keyBenefits: ["Reduced Engineering Time", "Enhanced System Performance", "Improved Operational Efficiency", "Integrated Safety Functions"]
+  };
 
   return (
     <>

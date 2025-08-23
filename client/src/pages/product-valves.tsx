@@ -3,7 +3,6 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { AnimatedSection, useScrollAnimations } from "@/hooks/use-scroll-animation";
-import { getInstrumentationProduct } from "@/data/instrumentation-products";
 import { 
   ArrowRight,
   CheckCircle,
@@ -20,11 +19,12 @@ import { Link } from "wouter";
 
 export default function ProductValves() {
   useScrollAnimations();
-  const product = getInstrumentationProduct('valves');
-  
-  if (!product) {
-    return <div>Product not found</div>;
-  }
+
+  const product = {
+    shortDescription: "Industrial valve automation solutions with pneumatic, electric, and hydraulic actuators",
+    fullDescription: "Comprehensive valve automation portfolio including quarter-turn and linear valves with smart technologies, IoT connectivity, and condition monitoring.",
+    keyBenefits: ["Precise Flow Control", "Enhanced Safety & Reliability", "Reduced Energy Consumption", "Predictive Maintenance Capability"]
+  };
 
   return (
     <>

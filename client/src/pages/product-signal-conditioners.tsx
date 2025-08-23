@@ -3,7 +3,6 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { AnimatedSection, useScrollAnimations } from "@/hooks/use-scroll-animation";
-import { getInstrumentationProduct } from "@/data/instrumentation-products";
 import { 
   ArrowRight,
   CheckCircle,
@@ -19,11 +18,12 @@ import { Link } from "wouter";
 
 export default function ProductSignalConditioners() {
   useScrollAnimations();
-  const product = getInstrumentationProduct('signal-conditioners');
-  
-  if (!product) {
-    return <div>Product not found</div>;
-  }
+
+  const product = {
+    shortDescription: "Isolation amplifiers and signal conditioning solutions for industrial automation",
+    fullDescription: "Advanced signal conditioning solutions including isolation amplifiers, signal converters, and measuring transducers with galvanic isolation up to 2.5kV.",
+    keyBenefits: ["Enhanced Signal Integrity", "Improved Safety & Protection", "Reduced Installation Time", "Flexible Configuration"]
+  };
 
   return (
     <>

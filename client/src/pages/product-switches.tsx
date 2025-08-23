@@ -3,7 +3,6 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { AnimatedSection, useScrollAnimations } from "@/hooks/use-scroll-animation";
-import { getInstrumentationProduct } from "@/data/instrumentation-products";
 import { 
   ArrowRight,
   CheckCircle,
@@ -20,11 +19,12 @@ import { Link } from "wouter";
 
 export default function ProductSwitches() {
   useScrollAnimations();
-  const product = getInstrumentationProduct('switches');
-  
-  if (!product) {
-    return <div>Product not found</div>;
-  }
+
+  const product = {
+    shortDescription: "Industrial-grade switches, pushbuttons, indicators, and control panel components",
+    fullDescription: "Complete range of industrial control components including pushbuttons, selector switches, emergency stops, pilot lights, and stack lights with LED technology.",
+    keyBenefits: ["High Reliability & Durability", "Easy Installation & Maintenance", "Comprehensive Safety Compliance", "Cost-Effective Solutions"]
+  };
 
   return (
     <>

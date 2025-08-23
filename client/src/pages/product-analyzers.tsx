@@ -3,7 +3,6 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { AnimatedSection, useScrollAnimations } from "@/hooks/use-scroll-animation";
-import { getInstrumentationProduct } from "@/data/instrumentation-products";
 import { 
   ArrowRight,
   CheckCircle,
@@ -22,11 +21,12 @@ import { getHeroImage } from '@/assets/images';
 
 export default function ProductAnalyzers() {
   useScrollAnimations();
-  const product = getInstrumentationProduct('analyzers');
-  
-  if (!product) {
-    return <div>Product not found</div>;
-  }
+
+  const product = {
+    shortDescription: "Advanced gas and liquid analyzers for industrial process measurement and monitoring",
+    fullDescription: "Comprehensive process analyzer solutions including gas analyzers, liquid analyzers, and multi-parameter measurement systems with Tunable Diode Laser technology.",
+    keyBenefits: ["Improved Process Control", "Enhanced Product Quality", "Regulatory Compliance", "Enhanced Safety"]
+  };
 
   return (
     <>

@@ -3,7 +3,6 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { AnimatedSection, useScrollAnimations } from "@/hooks/use-scroll-animation";
-import { getInstrumentationProduct } from "@/data/instrumentation-products";
 import { 
   ArrowRight,
   CheckCircle,
@@ -20,11 +19,12 @@ import { Link } from "wouter";
 
 export default function ProductTransmitters() {
   useScrollAnimations();
-  const product = getInstrumentationProduct('transmitters');
-  
-  if (!product) {
-    return <div>Product not found</div>;
-  }
+
+  const product = {
+    shortDescription: "Precision transmitters for pressure, temperature, flow, and level measurement",
+    fullDescription: "Comprehensive range of industrial transmitters with advanced technologies including strain gauge, capacitive, and piezoresistive sensing with HART digital communication.",
+    keyBenefits: ["Industry-Leading Accuracy", "Reduced Total Cost of Ownership", "Enhanced Process Optimization", "Improved Safety & Reliability"]
+  };
 
   return (
     <>
