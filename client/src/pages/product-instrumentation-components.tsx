@@ -4,18 +4,14 @@ import { Helmet } from 'react-helmet-async';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
-import { ArrowRight, Gauge, Phone, Mail, MapPin } from 'lucide-react';
-import { PRODUCTS, COMPANY_INFO } from '@/data/constants';
+import { ArrowRight, Gauge, Phone, Mail, MapPin, Thermometer, Radio, Cpu, ToggleLeft, FlaskConical, Zap } from 'lucide-react';
+import { COMPANY_INFO } from '@/data/constants';
+import { INSTRUMENTATION_PRODUCTS, INSTRUMENTATION_CATEGORIES } from '@/data/instrumentation-products';
 import { getProductImage } from '@/assets/images';
 import { motion } from 'framer-motion';
 
 export default function ProductInstrumentationComponents() {
-  const productCategory = PRODUCTS.find(p => p.id === 'instrumentation-components');
   const productImage = getProductImage('instrumentation-components');
-
-  if (!productCategory) {
-    return <div>Product category not found</div>;
-  }
 
   return (
     <>
@@ -45,14 +41,14 @@ export default function ProductInstrumentationComponents() {
                   </Badge>
                 </div>
                 <h1 className="text-4xl lg:text-5xl xl:text-6xl font-bold text-foreground mb-6">
-                  {productCategory.title}
+                  Instrumentation Components
                 </h1>
                 <p className="text-xl lg:text-2xl text-muted-foreground mb-8 leading-relaxed">
-                  {productCategory.description}
+                  High-precision instrumentation components for accurate measurement and control in industrial processes. Our comprehensive range includes sensors, transmitters, controllers, switches, valves, analyzers, and signal conditioners.
                 </p>
                 
                 <div className="grid grid-cols-2 gap-4 mb-8">
-                  {productCategory.features.map((feature, index) => (
+                  {['Pressure Transmitters', 'Temperature Sensors', 'Flow Meters', 'Level Indicators'].map((feature, index) => (
                     <motion.div
                       key={feature}
                       initial={{ opacity: 0, y: 20 }}
@@ -118,35 +114,55 @@ export default function ProductInstrumentationComponents() {
               </p>
             </motion.div>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-              {productCategory.subcategories?.map((subcategory, index) => (
-                <motion.div
-                  key={subcategory.id}
-                  initial={{ opacity: 0, y: 30 }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  transition={{ duration: 0.5, delay: index * 0.1 }}
-                  viewport={{ once: true }}
-                >
-                  <Card className="h-full hover:shadow-lg transition-all duration-300 group border-border hover:border-primary/50">
-                    <CardHeader className="pb-4">
-                      <CardTitle className="text-xl font-semibold text-foreground group-hover:text-primary transition-colors">
-                        {subcategory.title}
-                      </CardTitle>
-                    </CardHeader>
-                    <CardContent className="space-y-4">
-                      <CardDescription className="text-base text-muted-foreground line-clamp-3">
-                        {subcategory.description}
-                      </CardDescription>
-                      <Link href={`/products/${subcategory.id}`}>
-                        <Button variant="ghost" className="w-full justify-between group-hover:bg-primary/10">
-                          Learn More
-                          <ArrowRight className="h-4 w-4 group-hover:translate-x-1 transition-transform" />
-                        </Button>
-                      </Link>
-                    </CardContent>
-                  </Card>
-                </motion.div>
-              ))}
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
+              {INSTRUMENTATION_CATEGORIES.map((category, index) => {
+                const getIcon = (iconName: string) => {
+                  switch (iconName) {
+                    case 'Thermometer': return <Thermometer className="w-8 h-8" />;
+                    case 'Radio': return <Radio className="w-8 h-8" />;
+                    case 'Cpu': return <Cpu className="w-8 h-8" />;
+                    case 'ToggleLeft': return <ToggleLeft className="w-8 h-8" />;
+                    case 'Gauge': return <Gauge className="w-8 h-8" />;
+                    case 'FlaskConical': return <FlaskConical className="w-8 h-8" />;
+                    case 'Zap': return <Zap className="w-8 h-8" />;
+                    default: return <Gauge className="w-8 h-8" />;
+                  }
+                };
+
+                return (
+                  <motion.div
+                    key={category.id}
+                    initial={{ opacity: 0, y: 30 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    transition={{ duration: 0.5, delay: index * 0.1 }}
+                    viewport={{ once: true }}
+                  >
+                    <Card className="h-full hover:shadow-lg transition-all duration-300 group border-border hover:border-primary/50">
+                      <CardHeader className="pb-4">
+                        <div className="flex items-center gap-3 mb-3">
+                          <div className={`p-2 rounded-lg ${category.color} text-white`}>
+                            {getIcon(category.icon)}
+                          </div>
+                        </div>
+                        <CardTitle className="text-xl font-semibold text-foreground group-hover:text-primary transition-colors">
+                          {category.name}
+                        </CardTitle>
+                      </CardHeader>
+                      <CardContent className="space-y-4">
+                        <CardDescription className="text-base text-muted-foreground line-clamp-3">
+                          {category.description}
+                        </CardDescription>
+                        <Link href={`/products/${category.id}`}>
+                          <Button variant="ghost" className="w-full justify-between group-hover:bg-primary/10">
+                            Learn More
+                            <ArrowRight className="h-4 w-4 group-hover:translate-x-1 transition-transform" />
+                          </Button>
+                        </Link>
+                      </CardContent>
+                    </Card>
+                  </motion.div>
+                );
+              })}
             </div>
           </div>
         </section>
