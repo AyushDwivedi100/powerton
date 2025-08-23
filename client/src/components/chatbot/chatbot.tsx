@@ -71,18 +71,36 @@ export default function Chatbot() {
   // Handle scroll management when chatbot opens/closes
   useEffect(() => {
     if (isOpen) {
+      // Get current scroll position to restore later
+      const scrollY = window.scrollY;
+      
       // Disable body scroll when chatbot is open
       document.body.style.overflow = 'hidden';
+      document.body.style.position = 'fixed';
+      document.body.style.top = `-${scrollY}px`;
+      document.body.style.width = '100%';
       document.documentElement.style.overflow = 'hidden';
     } else {
       // Re-enable body scroll when chatbot is closed
+      const scrollY = document.body.style.top;
       document.body.style.overflow = '';
+      document.body.style.position = '';
+      document.body.style.top = '';
+      document.body.style.width = '';
       document.documentElement.style.overflow = '';
+      
+      // Restore scroll position
+      if (scrollY) {
+        window.scrollTo(0, parseInt(scrollY || '0') * -1);
+      }
     }
     
     // Cleanup function to ensure scroll is restored
     return () => {
       document.body.style.overflow = '';
+      document.body.style.position = '';
+      document.body.style.top = '';
+      document.body.style.width = '';
       document.documentElement.style.overflow = '';
     };
   }, [isOpen]);
