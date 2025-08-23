@@ -44,6 +44,16 @@ import darkIndustrialFacilityHero from '@assets/generated_images/Dark_industrial
 import productsShowcaseHero from '@assets/generated_images/Products_showcase_hero_background_5d7918eb.png';
 import newsCenterHero from '@assets/generated_images/News_center_hero_background_65d5b056.png';
 
+// Service-specific hero background images (ID-856+)
+import installationCommissioningHero from '@assets/generated_images/Installation_commissioning_service_background_a1bcbda4.png';
+import maintenanceRepairHero from '@assets/generated_images/Maintenance_repair_service_background_f0334dc5.png';
+import calibrationTestingHero from '@assets/generated_images/Calibration_testing_service_background_a45cbbb0.png';
+import consultationTrainingHero from '@assets/generated_images/Consultation_training_service_background_dc1b08c8.png';
+import customSolutionsHero from '@assets/generated_images/Custom_solutions_service_background_d4165975.png';
+import supplyChainManagementHero from '@assets/generated_images/Supply_chain_management_service_background_bd132a49.png';
+import technicalSupportHero from '@assets/generated_images/Technical_support_service_background_2987f5ae.png';
+import solarEpcHero from '@assets/generated_images/Solar_EPC_service_background_dd79a3fb.png';
+
 // Image category types for better organization
 export type ImageCategory = 
   | 'logo' 
@@ -118,7 +128,17 @@ export const IMAGE_IDS = {
   HERO_PROJECTS: 'ID-851',
   HERO_CONTACT: 'ID-852',
   HERO_NEWS: 'ID-853',
-  HERO_ANALYZERS: 'ID-854'
+  HERO_ANALYZERS: 'ID-854',
+  
+  // Service-specific hero images (ID-856-863)
+  HERO_INSTALLATION_COMMISSIONING: 'ID-856',
+  HERO_MAINTENANCE_REPAIR: 'ID-857',
+  HERO_CALIBRATION_TESTING: 'ID-858',
+  HERO_CONSULTATION_TRAINING: 'ID-859',
+  HERO_CUSTOM_SOLUTIONS: 'ID-860',
+  HERO_SUPPLY_CHAIN_MANAGEMENT: 'ID-861',
+  HERO_TECHNICAL_SUPPORT: 'ID-862',
+  HERO_SOLAR_EPC: 'ID-863'
 } as const;
 
 // Next available ID tracker
@@ -128,7 +148,7 @@ export const NEXT_AVAILABLE_IDS = {
   SERVICES: 21,
   PRODUCTS: 50,
   PROJECTS: 101,
-  HERO: 855,
+  HERO: 864,
   GENERATED: 901
 } as const;
 
@@ -398,6 +418,50 @@ export const HERO_IMAGES = {
   }
 } as const;
 
+// Service-specific hero images mapping
+export const SERVICE_HERO_IMAGES = {
+  'installation-commissioning': {
+    src: installationCommissioningHero,
+    alt: `${IMAGE_IDS.HERO_INSTALLATION_COMMISSIONING}: Installation and Commissioning - Professional engineering installation services`,
+    id: IMAGE_IDS.HERO_INSTALLATION_COMMISSIONING
+  },
+  'maintenance-repair': {
+    src: maintenanceRepairHero,
+    alt: `${IMAGE_IDS.HERO_MAINTENANCE_REPAIR}: Maintenance and Repair - Industrial maintenance and repair services`,
+    id: IMAGE_IDS.HERO_MAINTENANCE_REPAIR
+  },
+  'calibration-testing': {
+    src: calibrationTestingHero,
+    alt: `${IMAGE_IDS.HERO_CALIBRATION_TESTING}: Calibration and Testing - Precision calibration and testing services`,
+    id: IMAGE_IDS.HERO_CALIBRATION_TESTING
+  },
+  'consultation-training': {
+    src: consultationTrainingHero,
+    alt: `${IMAGE_IDS.HERO_CONSULTATION_TRAINING}: Consultation and Training - Expert technical consultation and training`,
+    id: IMAGE_IDS.HERO_CONSULTATION_TRAINING
+  },
+  'custom-solutions': {
+    src: customSolutionsHero,
+    alt: `${IMAGE_IDS.HERO_CUSTOM_SOLUTIONS}: Custom Solutions - Tailored engineering solutions and systems`,
+    id: IMAGE_IDS.HERO_CUSTOM_SOLUTIONS
+  },
+  'supply-chain-management': {
+    src: supplyChainManagementHero,
+    alt: `${IMAGE_IDS.HERO_SUPPLY_CHAIN_MANAGEMENT}: Supply Chain Management - Component sourcing and logistics`,
+    id: IMAGE_IDS.HERO_SUPPLY_CHAIN_MANAGEMENT
+  },
+  'technical-support': {
+    src: technicalSupportHero,
+    alt: `${IMAGE_IDS.HERO_TECHNICAL_SUPPORT}: Technical Support - 24/7 technical assistance and troubleshooting`,
+    id: IMAGE_IDS.HERO_TECHNICAL_SUPPORT
+  },
+  'solar-epc': {
+    src: solarEpcHero,
+    alt: `${IMAGE_IDS.HERO_SOLAR_EPC}: Solar EPC - Complete solar engineering, procurement and construction`,
+    id: IMAGE_IDS.HERO_SOLAR_EPC
+  }
+} as const;
+
 /**
  * Enhanced hero image retrieval with optimization
  */
@@ -414,6 +478,36 @@ export const getHeroImage = (
   const enhancedImage: ImageMetadata = {
     ...heroImage,
     category: 'hero',
+    loading: options.preload ? 'eager' : 'lazy',
+    optimized: true,
+    sizes: '100vw',
+    dimensions: { width: 1920, height: 1080 }
+  };
+  
+  // Preload if requested
+  if (options.preload) {
+    preloadImage(heroImage.src).catch(console.warn);
+  }
+  
+  return enhancedImage;
+};
+
+/**
+ * Get service-specific hero image with optimization
+ */
+export const getServiceHeroImage = (
+  serviceId: keyof typeof SERVICE_HERO_IMAGES,
+  options: {
+    preload?: boolean;
+    quality?: 'low' | 'medium' | 'high';
+  } = {}
+): ImageMetadata | null => {
+  const heroImage = SERVICE_HERO_IMAGES[serviceId];
+  if (!heroImage) return null;
+  
+  const enhancedImage: ImageMetadata = {
+    ...heroImage,
+    category: 'service',
     loading: options.preload ? 'eager' : 'lazy',
     optimized: true,
     sizes: '100vw',
@@ -551,6 +645,18 @@ export const IMAGE_REGISTRY = {
     newsCenter: newsCenterHero,
     technicalNews: technicalNewsHero,
     analyzers: processAnalyzersHero
+  },
+  
+  // Service-specific hero images
+  serviceHeroes: {
+    installationCommissioning: installationCommissioningHero,
+    maintenanceRepair: maintenanceRepairHero,
+    calibrationTesting: calibrationTestingHero,
+    consultationTraining: consultationTrainingHero,
+    customSolutions: customSolutionsHero,
+    supplyChainManagement: supplyChainManagementHero,
+    technicalSupport: technicalSupportHero,
+    solarEpc: solarEpcHero
   }
 } as const;
 
@@ -628,7 +734,17 @@ export {
   corporateOfficeHero,
   newsCenterHero,
   technicalNewsHero,
-  processAnalyzersHero
+  processAnalyzersHero,
+  
+  // Service-specific hero images
+  installationCommissioningHero,
+  maintenanceRepairHero,
+  calibrationTestingHero,
+  consultationTrainingHero,
+  customSolutionsHero,
+  supplyChainManagementHero,
+  technicalSupportHero,
+  solarEpcHero
 };
 
 // Legacy compatibility functions for backward compatibility

@@ -20,6 +20,7 @@ import {
   Hammer
 } from "lucide-react";
 import { Link } from "wouter";
+import { getServiceHeroImage } from '@/assets/images';
 
 const iconMap = {
   "tools": Hammer,
@@ -163,14 +164,14 @@ export default function ServiceDetail() {
       
       <div className="min-h-screen bg-background">
         {/* Hero Section */}
-        <section 
-          className="relative py-20 md:py-32 lg:py-40 overflow-hidden"
-          style={{
-            backgroundImage: "url('https://images.unsplash.com/photo-1563013544-824ae1b704d3?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&h=1080')"
-          }}
-        >
-          <div className="absolute inset-0 bg-primary/85"></div>
-          <div className="absolute inset-0 bg-gradient-to-t from-primary/95 to-primary/70"></div>
+        <section className="relative py-12 md:py-16 lg:py-20 overflow-hidden">
+          <div 
+            className="absolute inset-0 bg-cover bg-center" 
+            style={{ 
+              backgroundImage: `url(${getServiceHeroImage(serviceId as keyof typeof serviceDetails)?.src})` 
+            }}
+          ></div>
+          <div className="absolute inset-0 bg-primary/20"></div>
           
           <div className="relative z-10">
             <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8 text-center text-white">
