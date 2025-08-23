@@ -292,21 +292,21 @@ export default function Quote() {
       />
 
       {/* Hero Section */}
-      <section className={`relative bg-gradient-to-br from-primary via-primary to-primary/80 dark:from-primary dark:via-primary/90 dark:to-primary/70 text-primary-foreground py-16 lg:py-24 ${getAnimationClass('fade-in-up', true)}`}>
-        <div className="absolute inset-0 bg-black/20 dark:bg-black/40"></div>
+      <section className={`relative hero-fullscreen overflow-hidden ${getAnimationClass('fade-in-up', true)}`}>
         <div 
-          className="absolute inset-0 bg-cover bg-center opacity-20"
+          className="absolute inset-0 bg-cover bg-center bg-no-repeat filter blur-sm"
           style={{
             backgroundImage: "url('https://images.unsplash.com/photo-1559757148-5c350d0d3c56?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&h=1080')"
           }}
         ></div>
+        <div className="absolute inset-0 bg-black/60"></div>
         
-        <div className="relative max-w-7xl mx-auto px-4 md:px-6 lg:px-8">
+        <div className="relative max-w-7xl mx-auto px-4 md:px-6 lg:px-8 text-white">
           <div className="text-center max-w-4xl mx-auto">
-            <h1 className="text-4xl lg:text-6xl font-bold text-primary-foreground mb-6 leading-tight">
+            <h1 className="text-4xl lg:text-6xl font-bold mb-6 leading-tight">
               Get Your Custom <span className="text-secondary">Engineering Quote</span>
             </h1>
-            <p className="text-xl lg:text-2xl text-primary-foreground/90 mb-8 leading-relaxed">
+            <p className="text-xl lg:text-2xl opacity-90 mb-8 leading-relaxed">
               Professional assessment, competitive pricing, and expert consultation for your industrial automation and electrical engineering projects. Use our cost calculator for instant estimates.
             </p>
             

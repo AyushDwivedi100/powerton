@@ -46,15 +46,14 @@ export default function Services() {
       
       <div className="min-h-screen bg-background">
         {/* Hero Section */}
-        <section className="relative py-20 md:py-32 lg:py-40 overflow-hidden">
+        <section className="relative hero-fullscreen overflow-hidden">
           <div 
-            className="absolute inset-0 bg-cover bg-center bg-no-repeat" 
+            className="absolute inset-0 bg-cover bg-center bg-no-repeat filter blur-sm" 
             style={{ 
-              backgroundImage: `url(${getHeroImage('services')?.src})`,
-              filter: 'blur(1px)'
+              backgroundImage: `url(${getHeroImage('services')?.src})`
             }}
           ></div>
-          <div className="absolute inset-0 bg-primary/70"></div>
+          <div className="absolute inset-0 bg-black/60"></div>
           
           <div className="relative z-10">
             <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8 text-center text-white">

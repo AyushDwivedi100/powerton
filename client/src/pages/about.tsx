@@ -63,13 +63,12 @@ export default function About() {
       {/* Hero Section */}
       <section className="relative hero-fullscreen overflow-hidden">
         <div 
-          className="absolute inset-0 bg-cover bg-center bg-no-repeat" 
+          className="absolute inset-0 bg-cover bg-center bg-no-repeat filter blur-sm" 
           style={{ 
-            backgroundImage: `url(${getHeroImage('about')?.src})`,
-            filter: 'blur(1px)'
+            backgroundImage: `url(${getHeroImage('about')?.src})`
           }}
         ></div>
-        <div className="absolute inset-0 bg-primary/20"></div>
+        <div className="absolute inset-0 bg-black/60"></div>
         <div className="relative max-w-7xl mx-auto px-4 md:px-6 lg:px-8 text-white">
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-4xl lg:text-6xl font-bold mb-6">
