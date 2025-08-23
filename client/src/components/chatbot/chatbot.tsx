@@ -33,9 +33,16 @@ export default function Chatbot() {
   const [isTyping, setIsTyping] = useState(false);
   const messagesEndRef = useRef<HTMLDivElement>(null);
   const chatWindowRef = useRef<HTMLDivElement>(null);
+  const messagesContainerRef = useRef<HTMLDivElement>(null);
 
   const scrollToBottom = () => {
-    messagesEndRef.current?.scrollIntoView({ behavior: "smooth" });
+    // Add a small delay to ensure the DOM has updated
+    setTimeout(() => {
+      if (messagesContainerRef.current) {
+        messagesContainerRef.current.scrollTop = messagesContainerRef.current.scrollHeight;
+      }
+      messagesEndRef.current?.scrollIntoView({ behavior: "smooth", block: "end" });
+    }, 100);
   };
 
   useEffect(() => {
@@ -45,11 +52,20 @@ export default function Chatbot() {
   // Handle scroll management when chatbot opens/closes
   useEffect(() => {
     if (isOpen) {
+      // Disable body scroll when chatbot is open
       document.body.style.overflow = 'hidden';
-      return () => {
-        document.body.style.overflow = '';
-      };
+      document.documentElement.style.overflow = 'hidden';
+    } else {
+      // Re-enable body scroll when chatbot is closed
+      document.body.style.overflow = '';
+      document.documentElement.style.overflow = '';
     }
+    
+    // Cleanup function to ensure scroll is restored
+    return () => {
+      document.body.style.overflow = '';
+      document.documentElement.style.overflow = '';
+    };
   }, [isOpen]);
 
   // Click outside detection
@@ -636,7 +652,9 @@ export default function Chatbot() {
               
               <CardContent className="flex-1 flex flex-col p-0">
                 {/* Messages Area */}
-                <div className="flex-1 overflow-y-auto p-4 space-y-4 min-h-0">
+                <div ref={messagesContainerRef}
+                     className="flex-1 overflow-y-auto p-4 space-y-4 min-h-0 max-h-80 scroll-smooth"
+                     style={{ scrollBehavior: 'smooth' }}>
                   {messages.map((message) => (
                     <div
                       key={message.id}
