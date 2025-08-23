@@ -408,6 +408,12 @@ body.sidebar-open [data-radix-sheet-content] {
   text-shadow: none !important;
 }
 
+/* Ensure the orange button properly changes to blue on hover */
+:root [id="home"] .bg-secondary:hover {
+  background-color: hsl(215, 89%, 33%) !important;
+  color: hsl(0, 0%, 100%) !important;
+}
+
 /* Enhanced Scroll Animations with Better Easing */
 @keyframes fadeInUp {
   from {
