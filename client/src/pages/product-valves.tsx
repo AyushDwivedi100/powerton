@@ -216,7 +216,9 @@ export default function ProductValves() {
                     {product.specifications.map((spec, index) => (
                       <div key={index} className="flex items-start">
                         <Star className="w-4 h-4 text-secondary mt-1 mr-3 flex-shrink-0" />
-                        <span className="text-muted-foreground text-sm">{spec}</span>
+                        <div className="text-muted-foreground text-sm">
+                          <span className="font-medium">{spec.label}:</span> {spec.value}
+                        </div>
                       </div>
                     ))}
                   </div>

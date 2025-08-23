@@ -5,6 +5,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/com
 import { Badge } from '@/components/ui/badge';
 import { ArrowLeft, Droplets, Settings, RotateCcw } from 'lucide-react';
 import { getProductImageSrc, getFileBaseName } from '@/assets/images';
+import pumpFacilityImage from '@assets/generated_images/Industrial_pumps_facility_0a45b8d0.png';
 
 const DiaphragmPumpsPage = () => {
   const products = [
@@ -31,7 +32,11 @@ const DiaphragmPumpsPage = () => {
   return (
     <div className="min-h-screen bg-background">
       <div className="relative bg-gradient-to-br from-primary/10 via-primary/5 to-background py-20">
-        <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHZpZXdCb3g9IjAgMCA2MCA2MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGcgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj4KPGcgZmlsbD0iIzAwMCIgZmlsbC1vcGFjaXR5PSIwLjAyIj4KPGNpcmNsZSBjeD0iNyIgY3k9IjciIHI9IjMiLz4KPC9nPgo8L2c+Cjwvc3ZnPg==')] opacity-20" />
+        <div 
+          className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-20"
+          style={{ backgroundImage: `url(${pumpFacilityImage})` }}
+        />
+        <div className="absolute inset-0 bg-primary/20" />
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <Link href="/products/mechanical-pumps-spares">
