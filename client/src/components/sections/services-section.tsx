@@ -32,6 +32,8 @@ export default function ServicesSection() {
       id="services" 
       className="relative py-12 md:py-16 lg:py-20 overflow-hidden bg-slate-50 dark:bg-slate-900/50" 
       role="main"
+      aria-labelledby="services-heading"
+      aria-describedby="services-description"
     >
       {/* Contrasting background - different from About section */}
       <div className="absolute inset-0 bg-gradient-to-br from-slate-100/80 to-blue-50/60 dark:from-slate-800/60 dark:to-slate-900/80"></div>
@@ -59,6 +61,7 @@ export default function ServicesSection() {
               Our Services
             </motion.span>
             <motion.h2 
+              id="services-heading"
               className="text-3xl md:text-4xl font-bold text-foreground mt-2 sm:mt-4 mb-4 sm:mb-6"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
@@ -67,6 +70,7 @@ export default function ServicesSection() {
               Expert solutions for all needs, delivered with exceptional care
             </motion.h2>
             <motion.p 
+              id="services-description"
               className="text-base md:text-lg text-muted-foreground max-w-3xl mx-auto"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}

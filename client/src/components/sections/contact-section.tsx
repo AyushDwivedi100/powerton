@@ -9,6 +9,8 @@ export default function ContactSection() {
       id="contact" 
       className="relative py-12 md:py-16 lg:py-20 text-white overflow-hidden" 
       role="main"
+      aria-labelledby="contact-heading"
+      aria-describedby="contact-description"
     >
       {/* Theme-aware professional background */}
       <div className="absolute inset-0">
@@ -45,20 +47,20 @@ export default function ContactSection() {
         <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8">
         <div className="text-center mb-16">
           <span className="text-secondary font-semibold text-lg">Contact Us</span>
-          <h2 className="text-3xl md:text-4xl font-bold text-white mt-4 mb-6">
+          <h2 id="contact-heading" className="text-3xl md:text-4xl font-bold text-white mt-4 mb-6">
             Let's Discuss Your Engineering Needs
           </h2>
-          <p className="text-lg md:text-xl opacity-90 max-w-3xl mx-auto">
+          <p id="contact-description" className="text-lg md:text-xl opacity-90 max-w-3xl mx-auto">
             Ready to start your next project? Get in touch with our expert team for customized solutions and professional consultation.
           </p>
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12">
           <div>
-            <h3 className="text-2xl font-bold mb-8">Get in Touch</h3>
+            <h3 className="text-2xl font-bold mb-8" id="contact-info-heading">Get in Touch</h3>
             
-            <div className="space-y-6 mb-8">
-              <div className="flex items-start space-x-4">
+            <div className="space-y-6 mb-8" role="list" aria-labelledby="contact-info-heading">
+              <div className="flex items-start space-x-4" role="listitem">
                 <div className="flex-shrink-0 w-12 h-12 bg-secondary rounded-lg flex items-center justify-center">
                   <Phone className="w-6 h-6 text-white" aria-hidden="true" />
                 </div>
@@ -69,7 +71,7 @@ export default function ContactSection() {
                 </div>
               </div>
 
-              <div className="flex items-start space-x-4">
+              <div className="flex items-start space-x-4" role="listitem">
                 <div className="flex-shrink-0 w-12 h-12 bg-secondary rounded-lg flex items-center justify-center">
                   <Mail className="w-6 h-6 text-white" aria-hidden="true" />
                 </div>
@@ -80,7 +82,7 @@ export default function ContactSection() {
                 </div>
               </div>
 
-              <div className="flex items-start space-x-4">
+              <div className="flex items-start space-x-4" role="listitem">
                 <div className="flex-shrink-0 w-12 h-12 bg-secondary rounded-lg flex items-center justify-center">
                   <MapPin className="w-6 h-6 text-white" aria-hidden="true" />
                 </div>

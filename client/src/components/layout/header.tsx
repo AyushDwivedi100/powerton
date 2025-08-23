@@ -127,7 +127,7 @@ export default function Header() {
             <motion.a
               href={`tel:${COMPANY_INFO.phone}`}
               className="flex items-center hover:text-secondary transition-colors hover-scale shrink-0"
-              aria-label="Call us"
+              aria-label={`Call us at ${COMPANY_INFO.phone}`}
               variants={{
                 hidden: { opacity: 0, x: -20 },
                 visible: { opacity: 1, x: 0 },
@@ -146,7 +146,7 @@ export default function Header() {
             <motion.a
               href={`mailto:${COMPANY_INFO.email}`}
               className="flex items-center hover:text-secondary transition-colors hover-scale shrink-0"
-              aria-label="Email us"
+              aria-label={`Email us at ${COMPANY_INFO.email}`}
               variants={{
                 hidden: { opacity: 0, x: -20 },
                 visible: { opacity: 1, x: 0 },

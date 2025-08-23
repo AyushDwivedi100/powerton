@@ -33,6 +33,8 @@ export default function AboutSection() {
       id="about" 
       className="relative py-12 md:py-16 lg:py-20 bg-background dark:bg-background overflow-hidden" 
       role="main"
+      aria-labelledby="about-heading"
+      aria-describedby="about-description"
     >
       {/* Clean theme-aware background */}
       <div className="absolute inset-0 bg-gradient-to-br from-muted/20 to-muted/10 dark:from-muted/10 dark:to-muted/5"></div>
@@ -64,9 +66,9 @@ export default function AboutSection() {
                   <div className="relative bg-white/10 backdrop-blur-sm rounded-lg p-6 border border-white/20">
                     <div className="text-center">
                       <div className="w-16 h-16 bg-secondary rounded-full flex items-center justify-center mx-auto mb-4">
-                        <Cog className="w-8 h-8 text-white" />
+                        <Cog className="w-8 h-8 text-white" aria-hidden="true" />
                       </div>
-                      <h3 className="text-xl font-bold mb-2">Professional Engineering</h3>
+                      <h3 className="text-xl font-bold mb-2" id="about-visual-heading">Professional Engineering</h3>
                       <p className="text-white/90 text-sm">
                         Professional Indian engineers working on industrial automation and control systems
                       </p>

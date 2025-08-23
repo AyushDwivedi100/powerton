@@ -112,7 +112,10 @@ export function SEO({
       {/* DNS Prefetch for Performance */}
       <link rel="dns-prefetch" href="//fonts.googleapis.com" />
       <link rel="dns-prefetch" href="//images.unsplash.com" />
+      <link rel="dns-prefetch" href="//maps.googleapis.com" />
+      <link rel="dns-prefetch" href="//formspree.io" />
       <link rel="preconnect" href="https://fonts.googleapis.com" crossOrigin="anonymous" />
+      <link rel="preload" href="/assets/mainlogopowerton (1)_1755674514195.png" as="image" />
       
       {/* Canonical URL */}
       {canonicalUrl && <link rel="canonical" href={canonicalUrl} />}

@@ -373,6 +373,58 @@ body.sidebar-open [data-radix-sheet-content] {
 
 /* Footer maintains its dark appearance in both themes as defined in the component */
 
+/* Performance optimizations for faster loading */
+/* Critical resource hints for faster loading */
+@media (prefers-reduced-motion: no-preference) {
+  .motion-safe\:animate-in {
+    animation-duration: 0.6s;
+    animation-fill-mode: both;
+  }
+}
+
+/* Image optimization classes */
+.lazy-image {
+  transition: opacity 0.3s ease-in-out;
+}
+
+.lazy-image.loading {
+  opacity: 0.7;
+}
+
+.lazy-image.loaded {
+  opacity: 1;
+}
+
+/* Reduce motion for accessibility */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Performance optimizations for critical rendering path */
+.critical-resource {
+  font-display: swap;
+}
+
+/* Optimize focus indicators for better accessibility */
+.focus-visible:focus-visible {
+  outline: 2px solid hsl(var(--primary));
+  outline-offset: 2px;
+}
+
+/* High contrast mode support */
+@media (prefers-contrast: high) {
+  :root {
+    --border: 0 0% 20%;
+    --input: 0 0% 20%;
+    --primary: 210 100% 40%;
+  }
+}
+
 /* Light theme hero section styling */
 :root [id="home"] {
   /* Light theme hero background */

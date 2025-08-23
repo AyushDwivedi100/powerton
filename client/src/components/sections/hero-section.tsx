@@ -131,6 +131,8 @@ export default function HeroSection() {
       id="home" 
       className="relative py-12 md:py-16 lg:py-20 overflow-hidden"
       role="banner"
+      aria-labelledby="hero-heading"
+      aria-describedby="hero-description"
     >
       {/* Hero Background Image */}
       <div 
@@ -139,6 +141,8 @@ export default function HeroSection() {
           backgroundImage: `url(${getHeroImage('home')?.src})`,
           filter: 'blur(2px)'
         }}
+        role="img"
+        aria-label="Industrial automation facility background showcasing Powerton Engineering's expertise"
       ></div>
       
       {/* Theme-aware overlay */}
@@ -152,6 +156,7 @@ export default function HeroSection() {
           variants={containerVariants}
         >
           <motion.h1 
+            id="hero-heading"
             className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 sm:mb-8 leading-tight text-white dark:text-white"
             variants={itemVariants}
           >
@@ -159,6 +164,7 @@ export default function HeroSection() {
           </motion.h1>
           
           <motion.p 
+            id="hero-description"
             className="text-lg md:text-xl lg:text-2xl mb-6 sm:mb-8 text-white/90 dark:text-white/90 leading-relaxed"
             variants={itemVariants}
           >
@@ -171,9 +177,12 @@ export default function HeroSection() {
           >
             <motion.div variants={buttonVariants}>
               <Link href="/services" className="w-full sm:w-auto">
-                <Button className="bg-secondary hover:bg-primary text-secondary-foreground hover:text-primary-foreground w-full sm:w-auto text-sm sm:text-base md:text-lg px-4 sm:px-6 md:px-8 py-3 sm:py-4 transition-all duration-200">
+                <Button 
+                  className="bg-secondary hover:bg-primary text-secondary-foreground hover:text-primary-foreground w-full sm:w-auto text-sm sm:text-base md:text-lg px-4 sm:px-6 md:px-8 py-3 sm:py-4 transition-all duration-200"
+                  aria-label="Explore our industrial automation and engineering services"
+                >
                   Explore Our Services
-                  <ArrowRight className="ml-2 w-4 h-4 sm:w-5 sm:h-5" />
+                  <ArrowRight className="ml-2 w-4 h-4 sm:w-5 sm:h-5" aria-hidden="true" />
                 </Button>
               </Link>
             </motion.div>
@@ -182,6 +191,7 @@ export default function HeroSection() {
                 <Button 
                   variant="outline" 
                   className="w-full sm:w-auto text-sm sm:text-base md:text-lg px-4 sm:px-6 md:px-8 py-3 sm:py-4 border-white text-white hover:bg-white hover:text-primary dark:border-white dark:text-white dark:hover:bg-white dark:hover:text-primary transition-all duration-300 bg-white/10 backdrop-blur-sm"
+                  aria-label="Request free consultation for your engineering project"
                 >
                   Request Consultation
                 </Button>
@@ -193,17 +203,19 @@ export default function HeroSection() {
           <StaggeredList 
             className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8"
             stagger={0.15}
+            role="list"
+            aria-label="Key company highlights and services"
           >
-            <div className="flex items-center space-x-3">
-              <CheckCircle className="w-6 h-6 text-secondary flex-shrink-0" />
+            <div className="flex items-center space-x-3" role="listitem">
+              <CheckCircle className="w-6 h-6 text-secondary flex-shrink-0" aria-hidden="true" />
               <span className="text-lg text-white">15+ Years Experience</span>
             </div>
-            <div className="flex items-center space-x-3">
-              <CheckCircle className="w-6 h-6 text-secondary flex-shrink-0" />
+            <div className="flex items-center space-x-3" role="listitem">
+              <CheckCircle className="w-6 h-6 text-secondary flex-shrink-0" aria-hidden="true" />
               <span className="text-lg text-white">24/7 Technical Support</span>
             </div>
-            <div className="flex items-center space-x-3">
-              <CheckCircle className="w-6 h-6 text-secondary flex-shrink-0" />
+            <div className="flex items-center space-x-3" role="listitem">
+              <CheckCircle className="w-6 h-6 text-secondary flex-shrink-0" aria-hidden="true" />
               <span className="text-lg text-white">Pan-India Service</span>
             </div>
           </StaggeredList>
@@ -216,33 +228,38 @@ export default function HeroSection() {
         initial="hidden"
         animate="visible"
         variants={statsVariants}
+        role="region"
+        aria-labelledby="stats-heading"
       >
         <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8 py-8">
+          <h2 id="stats-heading" className="sr-only">Company Statistics and Achievements</h2>
           <StaggeredList 
             className="grid grid-cols-2 lg:grid-cols-4 gap-8 text-center"
             stagger={0.1}
             delay={0.3}
+            role="list"
+            aria-label="Company performance statistics"
           >
-            <div>
-              <div className="text-3xl lg:text-4xl font-bold text-secondary mb-2">
+            <div role="listitem">
+              <div className="text-3xl lg:text-4xl font-bold text-secondary mb-2" aria-label="15 plus years of experience">
                 <AnimatedCounter target={15} suffix="+" />
               </div>
               <div className="text-sm lg:text-base text-white/90">Years Experience</div>
             </div>
-            <div>
-              <div className="text-3xl lg:text-4xl font-bold text-secondary mb-2">
+            <div role="listitem">
+              <div className="text-3xl lg:text-4xl font-bold text-secondary mb-2" aria-label="1200 plus projects completed">
                 <AnimatedCounter target={1200} suffix="+" />
               </div>
               <div className="text-sm lg:text-base text-white/90">Projects Completed</div>
             </div>
-            <div>
-              <div className="text-3xl lg:text-4xl font-bold text-secondary mb-2">
+            <div role="listitem">
+              <div className="text-3xl lg:text-4xl font-bold text-secondary mb-2" aria-label="450 plus happy clients">
                 <AnimatedCounter target={450} suffix="+" />
               </div>
               <div className="text-sm lg:text-base text-white/90">Happy Clients</div>
             </div>
-            <div>
-              <div className="text-3xl lg:text-4xl font-bold text-secondary mb-2">
+            <div role="listitem">
+              <div className="text-3xl lg:text-4xl font-bold text-secondary mb-2" aria-label="24/7 support available">
                 <span>24/7</span>
               </div>
               <div className="text-sm lg:text-base text-white/90">Support Available</div>
