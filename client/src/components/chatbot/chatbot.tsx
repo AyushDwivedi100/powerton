@@ -724,7 +724,7 @@ export default function Chatbot() {
               <CardContent className="flex-1 flex flex-col p-0">
                 {/* Messages Area */}
                 <div ref={messagesContainerRef}
-                     className="flex-1 overflow-y-auto p-4 space-y-4 min-h-0 max-h-80 scroll-smooth"
+                     className="flex-1 overflow-y-auto p-4 space-y-4 min-h-0 scroll-smooth"
                      style={{ scrollBehavior: 'smooth' }}>
                   {messages.map((message) => (
                     <div key={message.id}>
@@ -796,7 +796,7 @@ export default function Chatbot() {
 
 
                 {/* Input Area */}
-                <div className="p-3 border-t">
+                <div className="p-3 border-t flex-shrink-0 bg-background">
                   <div className="flex gap-2">
                     <Input
                       placeholder="Ask me about products, services, or technical help..."
