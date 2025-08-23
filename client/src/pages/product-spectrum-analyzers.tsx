@@ -5,7 +5,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/com
 import { Badge } from '@/components/ui/badge';
 import { ArrowLeft, Search, Activity, Radio } from 'lucide-react';
 import { getProductImageSrc, getProductImageAlt } from '@/assets/images';
-import measurementInstrumentsImage from '@assets/generated_images/Measurement_instruments_laboratory_b7c98e24.png';
+import measurementInstrumentsImage from '@assets/generated_images/Measurement_Instruments_Laboratory_a811e77b.png';
 
 const SpectrumAnalyzersPage = () => {
   const products = [
@@ -40,10 +40,10 @@ image: getProductImageSrc('spectrum-analyzers')
           }}
         />
         <div className="absolute inset-0 bg-black/60" />
-        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-white">
           <div className="text-center">
             <Link href="/products/measurement-instruments">
-              <Button variant="ghost" className="mb-6 hover:bg-primary/10">
+              <Button variant="ghost" className="mb-6 hover:bg-white/10 text-white">
                 <ArrowLeft className="mr-2 h-4 w-4" />
                 Back to Measurement Instruments
               </Button>

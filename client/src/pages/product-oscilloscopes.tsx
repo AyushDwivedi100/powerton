@@ -5,7 +5,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/com
 import { Badge } from '@/components/ui/badge';
 import { ArrowLeft, BarChart3, Activity, Zap } from 'lucide-react';
 import { getProductImageSrc, getFileBaseName } from '@/assets/images';
-import measurementInstrumentsImage from '@assets/generated_images/Measurement_instruments_laboratory_b7c98e24.png';
+import measurementInstrumentsImage from '@assets/generated_images/Measurement_Instruments_Laboratory_a811e77b.png';
 
 const OscilloscopesPage = () => {
   const products = [

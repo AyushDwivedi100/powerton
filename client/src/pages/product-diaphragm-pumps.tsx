@@ -5,7 +5,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/com
 import { Badge } from '@/components/ui/badge';
 import { ArrowLeft, Droplets, Settings, RotateCcw } from 'lucide-react';
 import { getProductImageSrc, getFileBaseName } from '@/assets/images';
-import pumpFacilityImage from '@assets/generated_images/Industrial_pumps_facility_0a45b8d0.png';
+import pumpFacilityImage from '@assets/generated_images/Industrial_Pumps_Systems_b0701872.png';
 
 const DiaphragmPumpsPage = () => {
   const products = [
@@ -40,10 +40,10 @@ const DiaphragmPumpsPage = () => {
           }}
         />
         <div className="absolute inset-0 bg-black/60" />
-        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-white">
           <div className="text-center">
             <Link href="/products/mechanical-pumps-spares">
-              <Button variant="ghost" className="mb-6 hover:bg-primary/10">
+              <Button variant="ghost" className="mb-6 hover:bg-white/10 text-white">
                 <ArrowLeft className="mr-2 h-4 w-4" />
                 Back to Mechanical Pumps & Spares
               </Button>
