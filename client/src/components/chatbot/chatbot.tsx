@@ -130,22 +130,25 @@ export default function Chatbot() {
       timestamp: new Date()
     };
     setMessages(prev => [...prev, newMessage]);
+    return newMessage;
   };
 
   const addBotMessage = (response: ChatbotResponse) => {
     setIsTyping(true);
     setTimeout(() => {
-      addMessage(response.message, 'bot');
+      const newMessage = addMessage(response.message, 'bot');
       setIsTyping(false);
       
       // Store the options for the last bot message
       if (response.options) {
         setLastBotOptions(response.options);
+        setLastBotMessageId(newMessage.id);
       }
     }, 1000);
   };
 
   const [lastBotOptions, setLastBotOptions] = useState<NavigationOption[]>([]);
+  const [lastBotMessageId, setLastBotMessageId] = useState<string | null>(null);
 
   const handleNavigation = (target: string) => {
     switch (target) {
@@ -567,6 +570,10 @@ export default function Chatbot() {
   };
 
   const handleOptionClick = (option: NavigationOption) => {
+    // Clear the options first
+    setLastBotOptions([]);
+    setLastBotMessageId(null);
+    
     // Add user message showing what they clicked
     addMessage(option.label, 'user');
     
@@ -656,29 +663,50 @@ export default function Chatbot() {
                      className="flex-1 overflow-y-auto p-4 space-y-4 min-h-0 max-h-80 scroll-smooth"
                      style={{ scrollBehavior: 'smooth' }}>
                   {messages.map((message) => (
-                    <div
-                      key={message.id}
-                      className={`flex gap-2 ${
-                        message.sender === 'user' ? 'justify-end' : 'justify-start'
-                      }`}
-                    >
-                      {message.sender === 'bot' && (
-                        <div className="w-8 h-8 bg-primary/10 rounded-full flex items-center justify-center flex-shrink-0">
-                          <Bot className="w-4 h-4 text-primary" />
-                        </div>
-                      )}
+                    <div key={message.id}>
                       <div
-                        className={`max-w-[75%] p-3 rounded-lg text-sm ${
-                          message.sender === 'user'
-                            ? 'bg-primary text-primary-foreground ml-auto'
-                            : 'bg-muted text-muted-foreground'
+                        className={`flex gap-2 ${
+                          message.sender === 'user' ? 'justify-end' : 'justify-start'
                         }`}
                       >
-                        {message.text}
+                        {message.sender === 'bot' && (
+                          <div className="w-8 h-8 bg-primary/10 rounded-full flex items-center justify-center flex-shrink-0">
+                            <Bot className="w-4 h-4 text-primary" />
+                          </div>
+                        )}
+                        <div
+                          className={`max-w-[75%] p-3 rounded-lg text-sm ${
+                            message.sender === 'user'
+                              ? 'bg-primary text-primary-foreground ml-auto'
+                              : 'bg-muted text-muted-foreground'
+                          }`}
+                        >
+                          {message.text}
+                        </div>
+                        {message.sender === 'user' && (
+                          <div className="w-8 h-8 bg-secondary/10 rounded-full flex items-center justify-center flex-shrink-0">
+                            <User className="w-4 h-4 text-secondary" />
+                          </div>
+                        )}
                       </div>
-                      {message.sender === 'user' && (
-                        <div className="w-8 h-8 bg-secondary/10 rounded-full flex items-center justify-center flex-shrink-0">
-                          <User className="w-4 h-4 text-secondary" />
+                      
+                      {/* Options for this specific bot message */}
+                      {message.sender === 'bot' && lastBotMessageId === message.id && lastBotOptions.length > 0 && !isTyping && (
+                        <div className="ml-10 mt-2 grid grid-cols-2 gap-1">
+                          {lastBotOptions.map((option, index) => (
+                            <Button
+                              key={index}
+                              onClick={() => handleOptionClick(option)}
+                              variant="outline"
+                              size="sm"
+                              className="justify-start h-auto py-1 px-2 text-left whitespace-normal text-xs leading-tight"
+                            >
+                              <span className="text-xs truncate">{option.label}</span>
+                              {option.action === 'external' && (
+                                <ExternalLink className="w-2 h-2 ml-1 flex-shrink-0" />
+                              )}
+                            </Button>
+                          ))}
                         </div>
                       )}
                     </div>
@@ -702,27 +730,6 @@ export default function Chatbot() {
                   <div ref={messagesEndRef} />
                 </div>
 
-                {/* Action Options */}
-                {lastBotOptions.length > 0 && !isTyping && (
-                  <div className="px-3 py-2 border-t bg-muted/20 max-h-32 overflow-y-auto">
-                    <div className="grid grid-cols-2 gap-1">
-                      {lastBotOptions.map((option, index) => (
-                        <Button
-                          key={index}
-                          onClick={() => handleOptionClick(option)}
-                          variant="outline"
-                          size="sm"
-                          className="justify-start h-auto py-1 px-2 text-left whitespace-normal text-xs leading-tight"
-                        >
-                          <span className="text-xs truncate">{option.label}</span>
-                          {option.action === 'external' && (
-                            <ExternalLink className="w-2 h-2 ml-1 flex-shrink-0" />
-                          )}
-                        </Button>
-                      ))}
-                    </div>
-                  </div>
-                )}
 
                 {/* Input Area */}
                 <div className="p-3 border-t">
