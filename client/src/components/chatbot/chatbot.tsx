@@ -246,7 +246,16 @@ export default function Chatbot() {
     };
   }, [isOpen]);
 
-  // Initialize with welcome message and auto-scroll (only for new conversations)
+  // Position at bottom immediately when chat opens - no scrolling
+  useEffect(() => {
+    if (isOpen && messagesContainerRef.current) {
+      // Set to bottom immediately when chat opens
+      const container = messagesContainerRef.current;
+      container.scrollTop = container.scrollHeight;
+    }
+  }, [isOpen]);
+
+  // Initialize with welcome message (only for new conversations)
   useEffect(() => {
     if (isOpen && isInitialized && messages.length === 0) {
       setTimeout(() => {
@@ -260,9 +269,6 @@ export default function Chatbot() {
           ]
         });
       }, 500);
-    } else if (isOpen && isInitialized && messages.length > 0) {
-      // Immediately scroll to bottom when reopening existing conversation - no animation
-      scrollToBottom(true);
     }
   }, [isOpen, isInitialized, messages.length]);
 
