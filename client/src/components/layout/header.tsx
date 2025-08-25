@@ -431,7 +431,7 @@ export default function Header() {
                 >
                   <Link
                     href={item.href}
-                    className={`text-foreground hover:text-primary transition-colors font-medium relative whitespace-nowrap group ${
+                    className={`text-foreground font-medium relative whitespace-nowrap group ${
                       isActive(item.href) ? "text-primary" : ""
                     }`}
                   >
