@@ -322,7 +322,7 @@ export default function Header() {
                                 <Link
                                   key={service.id}
                                   href={`/services/${service.id}`}
-                                  className="block px-4 py-4 lg:py-6 rounded-sm hover:text-foreground cursor-pointer transition-colors border border-slate-200 dark:border-slate-700 hover:border-slate-400 dark:hover:border-slate-500 min-w-0 min-h-[120px] lg:min-h-[140px]"
+                                  className="block px-4 py-4 lg:py-6 rounded-sm hover:bg-slate-100 dark:hover:bg-slate-800 hover:text-foreground cursor-pointer transition-colors border border-slate-200 dark:border-slate-700 hover:border-slate-400 dark:hover:border-slate-500 min-w-0 min-h-[120px] lg:min-h-[140px]"
                                   onClick={() => setIsServicesDropdownOpen(false)}
                                 >
                                   <div className="flex flex-col h-full justify-between">
@@ -398,7 +398,7 @@ export default function Header() {
                                 >
                                   <Link
                                     href={`/products/${product.id}`}
-                                    className="block px-3 lg:px-4 py-2 lg:py-3 rounded-md hover:text-foreground cursor-pointer transition-colors border border-slate-200 dark:border-slate-700 hover:border-slate-400 dark:hover:border-slate-500 mb-2"
+                                    className="block px-3 lg:px-4 py-2 lg:py-3 rounded-md hover:bg-slate-100 dark:hover:bg-slate-800 hover:text-foreground cursor-pointer transition-colors border border-slate-200 dark:border-slate-700 hover:border-slate-400 dark:hover:border-slate-500 mb-2"
                                     onClick={() => setIsProductsDropdownOpen(false)}
                                   >
                                     <div className="font-semibold text-foreground text-sm lg:text-base line-clamp-2">
@@ -413,7 +413,7 @@ export default function Header() {
                                         <Link
                                           key={subcategory.id}
                                           href={`/products/${subcategory.id}`}
-                                          className="block px-2 lg:px-3 py-1 lg:py-2 rounded-sm hover:text-foreground cursor-pointer transition-colors text-xs lg:text-sm border-l-2 border-primary/40 hover:border-primary"
+                                          className="block px-2 lg:px-3 py-1 lg:py-2 rounded-sm hover:bg-slate-100 dark:hover:bg-slate-800 hover:text-foreground cursor-pointer transition-colors text-xs lg:text-sm border-l-2 border-primary/40 hover:border-primary"
                                           onClick={() => setIsProductsDropdownOpen(false)}
                                         >
                                           <div className="font-medium text-foreground line-clamp-1">
