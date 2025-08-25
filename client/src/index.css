@@ -354,11 +354,7 @@ body.sidebar-open [data-radix-sheet-content] {
   border-color: hsl(215, 20%, 82%);
 }
 
-/* Professional navigation styling */
-:root nav a:hover {
-  background-color: hsl(215, 20%, 92%);
-  color: hsl(215, 89%, 33%);
-}
+/* Professional navigation styling - background removed as per user request */
 
 /* Enhanced dropdown styling */
 :root .dropdown-content {
