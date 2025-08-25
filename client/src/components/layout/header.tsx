@@ -431,21 +431,19 @@ export default function Header() {
                 >
                   <Link
                     href={item.href}
-                    className={`text-foreground hover:text-primary transition-colors font-medium relative whitespace-nowrap ${
+                    className={`text-foreground hover:text-primary transition-colors font-medium relative whitespace-nowrap group ${
                       isActive(item.href) ? "text-primary" : ""
                     }`}
                   >
-                    <motion.span
-                      whileHover={{ y: -2 }}
-                      transition={{ duration: 0.2 }}
-                    >
+                    <span>
                       <span className="xl:hidden">
                         {item.name === "News & Updates" ? "News" : item.name}
                       </span>
                       <span className="hidden xl:inline">
                         {item.name}
                       </span>
-                    </motion.span>
+                    </span>
+                    {/* Active page indicator */}
                     {isActive(item.href) && (
                       <motion.div
                         className="absolute -bottom-1 left-0 right-0 h-0.5 bg-primary"
@@ -453,6 +451,14 @@ export default function Header() {
                         initial={{ opacity: 0, scaleX: 0 }}
                         animate={{ opacity: 1, scaleX: 1 }}
                         transition={{ duration: 0.3 }}
+                      />
+                    )}
+                    {/* Hover line indicator */}
+                    {!isActive(item.href) && (
+                      <motion.div
+                        className="absolute -bottom-1 left-0 right-0 h-0.5 bg-primary opacity-0 scale-x-0"
+                        whileHover={{ opacity: 1, scaleX: 1 }}
+                        transition={{ duration: 0.3, ease: "easeOut" }}
                       />
                     )}
                   </Link>
