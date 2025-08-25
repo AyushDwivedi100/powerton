@@ -779,6 +779,61 @@ export default function Chatbot() {
       };
     }
 
+    // Additional response handlers for navigation flows
+    if (input === 'main-menu') {
+      return {
+        message: "Welcome back to the main menu! I'm here to help you with any industrial automation needs. Whether you're looking for products, services, technical support, or company information, I'll guide you to the right solution. What can I help you with?",
+        options: [
+          { label: "🔍 Find the Right Product", action: "chat", response: "product-selection" },
+          { label: "⚙️ Choose a Service", action: "chat", response: "service-selection" },
+          { label: "🔧 Technical Troubleshooting", action: "chat", response: "troubleshooting" },
+          { label: "💼 About Our Company", action: "chat", response: "company-info" },
+          { label: "📞 Speak with Expert", action: "external", url: "tel:+91-94627-71662" },
+          { label: "📧 Send Us a Message", action: "external", url: "mailto:info.powerton@gmail.com" }
+        ]
+      };
+    }
+
+    if (input === 'quote-tips') {
+      return {
+        message: "Here are some tips for getting the best quote: 1) Provide detailed specifications and requirements, 2) Mention quantity needed, 3) Include project timeline, 4) Specify installation location, 5) List any special requirements or certifications needed. The more details you provide, the more accurate our quote will be!",
+        options: [
+          { label: "📋 Request Detailed Quote", action: "page", page: "quote" },
+          { label: "📞 Discuss Requirements", action: "external", url: "tel:+91-94627-71662" },
+          { label: "📧 Email Specifications", action: "external", url: "mailto:info.powerton@gmail.com?subject=Detailed Quote Request" },
+          { label: "💰 Pricing Information", action: "chat", response: "pricing-info" },
+          { label: "🏠 Back to Main Menu", action: "chat", response: "main-menu" }
+        ]
+      };
+    }
+
+    if (input === 'urgent-support') {
+      return {
+        message: "Urgent matters include: equipment failures affecting production, safety-critical issues, emergency breakdowns, installation deadlines, and system malfunctions. For these situations, call us immediately at +91-94627-71662. We provide 24/7 emergency support for critical situations.",
+        options: [
+          { label: "📞 Emergency Call Now", action: "external", url: "tel:+91-94627-71662" },
+          { label: "⚡ Emergency Email", action: "external", url: "mailto:info.powerton@gmail.com?subject=URGENT - Emergency Support Required" },
+          { label: "🛠️ Maintenance Support", action: "chat", response: "maintenance-service" },
+          { label: "⏰ Regular Business Hours", action: "chat", response: "business-hours" },
+          { label: "🏠 Back to Main Menu", action: "chat", response: "main-menu" }
+        ]
+      };
+    }
+
+    if (input === 'product-comparison') {
+      return {
+        message: "I can help you compare products! Our extensive range includes sensors, automation systems, electrical components, and solar products. Tell me which specific products you're comparing or what application you need them for, and I'll guide you to the best options.",
+        options: [
+          { label: "🌡️ Compare Sensors", action: "chat", response: "sensors-category" },
+          { label: "⚙️ Compare Automation Systems", action: "chat", response: "automation-category" },
+          { label: "⚡ Compare Electrical Components", action: "chat", response: "electrical-category" },
+          { label: "☀️ Compare Solar Products", action: "chat", response: "solar-category" },
+          { label: "📞 Expert Comparison Help", action: "external", url: "tel:+91-94627-71662" },
+          { label: "🏠 Back to Main Menu", action: "chat", response: "main-menu" }
+        ]
+      };
+    }
+
     // Default intelligent response
     return {
       message: "Thank you for reaching out! I'm here to help you find the perfect industrial automation solution. At Powerton Engineering, we believe every customer deserves personalized attention and expert guidance. What specific challenge or requirement can I help you with today?",
@@ -802,6 +857,130 @@ export default function Chatbot() {
     setInputValue("");
   };
 
+  // Generate contextual response based on navigation action
+  const generateNavigationResponse = (option: NavigationOption): ChatbotResponse => {
+    if (option.action === 'page') {
+      const pageResponses: { [key: string]: ChatbotResponse } = {
+        'products': {
+          message: "Perfect! I've taken you to our products page where you can explore our extensive range of industrial automation solutions. You'll find detailed specifications, images, and technical data for each product category. Need help finding something specific or have questions about any product?",
+          options: [
+            { label: "🔍 Find Specific Product", action: "chat", response: "product-selection" },
+            { label: "💰 Get Product Quote", action: "external", url: "mailto:info.powerton@gmail.com?subject=Product Quote Request" },
+            { label: "📞 Technical Consultation", action: "external", url: "tel:+91-94627-71662" },
+            { label: "📋 Product Comparison", action: "chat", response: "product-comparison" },
+            { label: "🏠 Back to Main Menu", action: "chat", response: "main-menu" }
+          ]
+        },
+        'services': {
+          message: "Excellent choice! Our services page showcases our comprehensive support offerings from installation to maintenance. We're your complete engineering partner for the entire project lifecycle. What type of service support are you looking for?",
+          options: [
+            { label: "🔧 Installation Services", action: "chat", response: "installation-service" },
+            { label: "🛠️ Maintenance Programs", action: "chat", response: "maintenance-service" },
+            { label: "📏 Calibration Services", action: "chat", response: "calibration-service" },
+            { label: "📋 Service Quote", action: "external", url: "mailto:info.powerton@gmail.com?subject=Service Quote Request" },
+            { label: "🏠 Back to Main Menu", action: "chat", response: "main-menu" }
+          ]
+        },
+        'contact': {
+          message: "Great! The contact page has all our details including office location, phone numbers, and contact form. We're based in Noida and available Monday-Saturday. Feel free to reach out anytime! Is there anything specific you'd like to discuss with our team?",
+          options: [
+            { label: "📞 Call Now", action: "external", url: "tel:+91-94627-71662" },
+            { label: "📧 Send Email", action: "external", url: "mailto:info.powerton@gmail.com" },
+            { label: "📍 Visit Office", action: "external", url: "https://maps.app.goo.gl/jiap3sBYbM3r8Pn68" },
+            { label: "⏰ Business Hours", action: "chat", response: "business-hours" },
+            { label: "🏠 Back to Main Menu", action: "chat", response: "main-menu" }
+          ]
+        },
+        'about': {
+          message: "Wonderful! Our about page tells the complete story of Powerton Engineering - our journey, achievements, team, and values. With 15+ years of experience and 500+ successful projects, we're proud of our engineering excellence. Want to know more about any specific aspect?",
+          options: [
+            { label: "🏆 Our Achievements", action: "chat", response: "achievements" },
+            { label: "🤝 Major Clients", action: "chat", response: "major-clients" },
+            { label: "👥 Meet Our Team", action: "chat", response: "team-info" },
+            { label: "📞 Connect with Leadership", action: "external", url: "tel:+91-94627-71662" },
+            { label: "🏠 Back to Main Menu", action: "chat", response: "main-menu" }
+          ]
+        },
+        'projects': {
+          message: "Fantastic! Our projects page showcases our portfolio of successful implementations across various industries. From 10MW solar plants to pharmaceutical automation systems, each project demonstrates our technical expertise. Interested in a similar project?",
+          options: [
+            { label: "💡 Discuss Similar Project", action: "external", url: "mailto:info.powerton@gmail.com?subject=Project Discussion" },
+            { label: "📋 Project Quote", action: "external", url: "tel:+91-94627-71662" },
+            { label: "🏭 Industry Solutions", action: "chat", response: "industry-solutions" },
+            { label: "🎯 Custom Engineering", action: "chat", response: "custom-solutions" },
+            { label: "🏠 Back to Main Menu", action: "chat", response: "main-menu" }
+          ]
+        },
+        'quote': {
+          message: "Perfect! Our quote page will help you get a detailed proposal tailored to your specific requirements. Our team will analyze your needs and provide competitive pricing with transparent terms. What type of solution are you looking to quote?",
+          options: [
+            { label: "📋 Product Quote", action: "chat", response: "product-quote" },
+            { label: "⚙️ Service Quote", action: "chat", response: "service-quote" },
+            { label: "🏗️ Project Quote", action: "chat", response: "project-quote" },
+            { label: "📞 Quick Phone Quote", action: "external", url: "tel:+91-94627-71662" },
+            { label: "🏠 Back to Main Menu", action: "chat", response: "main-menu" }
+          ]
+        }
+      };
+
+      return pageResponses[option.page || ''] || {
+        message: "I've directed you to the requested page. You can find all the relevant information there. Feel free to explore and let me know if you need any assistance or have questions about what you find!",
+        options: [
+          { label: "❓ I Have Questions", action: "chat", response: "help" },
+          { label: "📞 Talk to Expert", action: "external", url: "tel:+91-94627-71662" },
+          { label: "🏠 Back to Main Menu", action: "chat", response: "main-menu" }
+        ]
+      };
+    }
+
+    if (option.action === 'external') {
+      if (option.url?.startsWith('tel:')) {
+        return {
+          message: "I've initiated the call for you! Our expert team is standing by to provide immediate assistance. If the call doesn't connect, you can also reach us via email or visit our office. How else can I help you today?",
+          options: [
+            { label: "📧 Send Email Instead", action: "external", url: "mailto:info.powerton@gmail.com" },
+            { label: "📍 Visit Our Office", action: "external", url: "https://maps.app.goo.gl/jiap3sBYbM3r8Pn68" },
+            { label: "⏰ Check Business Hours", action: "chat", response: "business-hours" },
+            { label: "💬 Continue Chat Support", action: "chat", response: "help" },
+            { label: "🏠 Back to Main Menu", action: "chat", response: "main-menu" }
+          ]
+        };
+      } else if (option.url?.startsWith('mailto:')) {
+        return {
+          message: "I've opened your email client with our address pre-filled! Please describe your requirements in detail, and our team will respond within 24 hours. For urgent matters, calling us directly is faster. What else can I assist you with?",
+          options: [
+            { label: "📞 Call for Urgent Matters", action: "external", url: "tel:+91-94627-71662" },
+            { label: "📋 Quote Request Tips", action: "chat", response: "quote-tips" },
+            { label: "⚡ What's Considered Urgent", action: "chat", response: "urgent-support" },
+            { label: "💬 Continue Chat Support", action: "chat", response: "help" },
+            { label: "🏠 Back to Main Menu", action: "chat", response: "main-menu" }
+          ]
+        };
+      } else {
+        return {
+          message: "I've opened the external resource for you! You can explore the additional information there. When you're ready to continue our conversation or need further assistance, I'm here to help. What would you like to do next?",
+          options: [
+            { label: "💬 Continue Our Discussion", action: "chat", response: "help" },
+            { label: "📞 Speak with Expert", action: "external", url: "tel:+91-94627-71662" },
+            { label: "📧 Send Us Details", action: "external", url: "mailto:info.powerton@gmail.com" },
+            { label: "🏠 Back to Main Menu", action: "chat", response: "main-menu" }
+          ]
+        };
+      }
+    }
+
+    // Default response for other actions
+    return {
+      message: "Action completed! I'm here to continue assisting you with any questions or requirements you might have. What would you like to explore next?",
+      options: [
+        { label: "🔍 Find Products", action: "chat", response: "product-selection" },
+        { label: "⚙️ Explore Services", action: "chat", response: "service-selection" },
+        { label: "💬 Ask Questions", action: "chat", response: "help" },
+        { label: "🏠 Main Menu", action: "chat", response: "main-menu" }
+      ]
+    };
+  };
+
   const handleOptionClick = (option: NavigationOption) => {
     // Clear the options first
     setLastBotOptions([]);
@@ -810,18 +989,26 @@ export default function Chatbot() {
     // Add user message showing what they clicked
     addMessage(option.label, 'user');
     
-    // Perform the action
-    if (option.action === 'navigate' && option.target) {
-      handleNavigation(option.target);
-    } else if (option.action === 'page' && option.page) {
-      handlePageNavigation(option.page);
-    } else if (option.action === 'external' && option.url) {
-      window.open(option.url, option.url.startsWith('tel:') || option.url.startsWith('mailto:') ? '_self' : '_blank');
-      setIsOpen(false);
-    } else if (option.action === 'chat' && option.response) {
-      const response = generateResponse(option.response);
+    // Generate and add bot response before performing navigation
+    if (option.action === 'page' || option.action === 'external') {
+      const response = generateNavigationResponse(option);
       addBotMessage(response);
     }
+    
+    // Perform the action with delay to allow bot response to appear
+    setTimeout(() => {
+      if (option.action === 'navigate' && option.target) {
+        handleNavigation(option.target);
+      } else if (option.action === 'page' && option.page) {
+        handlePageNavigation(option.page);
+      } else if (option.action === 'external' && option.url) {
+        window.open(option.url, option.url.startsWith('tel:') || option.url.startsWith('mailto:') ? '_self' : '_blank');
+        setIsOpen(false);
+      } else if (option.action === 'chat' && option.response) {
+        const response = generateResponse(option.response);
+        addBotMessage(response);
+      }
+    }, 1200); // Small delay to ensure bot response appears first
   };
 
   const handleKeyPress = (e: React.KeyboardEvent) => {
