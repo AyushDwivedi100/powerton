@@ -167,11 +167,11 @@ export default function Chatbot() {
     if (isOpen && messages.length === 0) {
       setTimeout(() => {
         addBotMessage({
-          message: "Hello! I'm your personal engineering advisor from Powerton Engineering. I'm here to help you find exactly what you need for your industrial automation project. Whether you're looking for specific products, services, or technical guidance, I'll make sure you get the perfect solution. What can I help you with today?",
+          message: "Hello! I'm your technical advisor from Powerton Engineering. I'm here to help you find the right industrial automation solutions for your project. Whether you need specific products, services, or technical troubleshooting support, I'll guide you to the perfect solution. What can I help you with today?",
           options: [
             { label: "🔍 Find the Right Product", action: "chat", response: "product-selection" },
             { label: "⚙️ Choose a Service", action: "chat", response: "service-selection" },
-            { label: "🏭 Industry Solutions", action: "chat", response: "industry-solutions" },
+            { label: "🔧 Technical Troubleshooting", action: "chat", response: "troubleshooting" },
             { label: "💼 About Our Company", action: "chat", response: "company-info" }
           ]
         });
@@ -294,17 +294,16 @@ export default function Chatbot() {
       };
     }
 
-    if (input === 'industry-solutions') {
+    if (input === 'troubleshooting') {
       return {
-        message: "We serve diverse industries with tailored solutions. Which industry matches your requirements?",
+        message: "I'm here to help diagnose your technical issues! Whether it's equipment malfunction, performance problems, or compatibility concerns, let's identify the problem and find the right solution:",
         options: [
-          { label: "🛢️ Oil & Gas", action: "chat", response: "oil-gas-industry" },
-          { label: "⚗️ Chemical & Petrochemical", action: "chat", response: "chemical-industry" },
-          { label: "⚡ Power Generation", action: "chat", response: "power-industry" },
-          { label: "💧 Water Treatment", action: "chat", response: "water-industry" },
-          { label: "🍕 Food & Beverage", action: "chat", response: "food-industry" },
-          { label: "💊 Pharmaceutical", action: "chat", response: "pharma-industry" },
-          { label: "📊 See Our Projects", action: "page", page: "projects" }
+          { label: "⚡ Electrical Issues", action: "chat", response: "electrical-troubleshooting" },
+          { label: "🌡️ Sensor/Measurement Problems", action: "chat", response: "sensor-troubleshooting" },
+          { label: "🖥️ Control System Issues", action: "chat", response: "control-troubleshooting" },
+          { label: "☀️ Solar System Problems", action: "chat", response: "solar-troubleshooting" },
+          { label: "🔍 Equipment Selection Help", action: "chat", response: "selection-help" },
+          { label: "📞 Speak with Technical Expert", action: "external", url: "tel:+91-94627-71662" }
         ]
       };
     }
@@ -371,10 +370,9 @@ export default function Chatbot() {
         options: [
           { label: "☀️ Solar Panels", action: "page", page: "product-solar-panels" },
           { label: "🔄 Solar Inverters", action: "page", page: "product-solar-inverters" },
-          { label: "🔋 Battery Storage Systems", action: "page", page: "product-solar-batteries-energy-storage" },
-          { label: "🏗️ Mounting Structures", action: "page", page: "product-mounting-structures-racking" },
-          { label: "🎛️ Charge Controllers", action: "page", page: "product-solar-charge-controllers" },
-          { label: "📋 Get Solar Quote", action: "external", url: "mailto:info.powerton@gmail.com?subject=Solar Project Quote Request" }
+          { label: "🔧 Solar Installation & EPC", action: "page", page: "services" },
+          { label: "📋 Get Custom Solar Quote", action: "external", url: "mailto:info.powerton@gmail.com?subject=Solar Project Quote Request" },
+          { label: "📞 Solar Consultation", action: "external", url: "tel:+91-94627-71662" }
         ]
       };
     }
@@ -408,17 +406,59 @@ export default function Chatbot() {
       };
     }
 
-    // Industry-specific responses
-    if (input === 'oil-gas-industry') {
+    // Technical Troubleshooting Responses
+    if (input === 'electrical-troubleshooting') {
       return {
-        message: "Oil & Gas is one of our core specialties! We understand the critical nature of your operations and provide explosion-proof equipment, high-accuracy measurement instruments, and safety systems certified for hazardous environments.",
+        message: "Electrical issues can be complex! Common problems include power fluctuations, circuit overloads, grounding issues, and component failures. Our solutions comply with IEC 60204 and IS 732 standards for industrial electrical safety. What specific electrical problem are you experiencing?",
         options: [
-          { label: "💥 Explosion-Proof Equipment", action: "page", page: "product-intrinsically-safe-equipment" },
-          { label: "📊 Process Control Systems", action: "page", page: "product-controllers" },
-          { label: "🛡️ Safety Shutdown Systems", action: "page", page: "product-safety-relays-switches" },
-          { label: "🔍 Gas Analyzers", action: "page", page: "product-analyzers" },
-          { label: "📈 View Oil & Gas Projects", action: "page", page: "projects" },
-          { label: "💼 Discuss Your Project", action: "external", url: "mailto:info.powerton@gmail.com?subject=Oil Gas Project Discussion" }
+          { label: "⚡ Power Supply Issues", action: "chat", response: "power-supply-help" },
+          { label: "🔌 Circuit Protection Problems", action: "chat", response: "circuit-protection-help" },
+          { label: "🌍 Grounding & Earthing Issues", action: "chat", response: "grounding-help" },
+          { label: "🔥 Overheating Components", action: "chat", response: "overheating-help" },
+          { label: "🔍 Browse Electrical Solutions", action: "page", page: "products" },
+          { label: "📧 Get Professional Diagnosis", action: "external", url: "mailto:info.powerton@gmail.com?subject=Electrical System Diagnosis" }
+        ]
+      };
+    }
+
+    if (input === 'sensor-troubleshooting') {
+      return {
+        message: "Sensor and measurement problems often involve calibration drift, signal interference, or environmental factors. Our instruments meet ASTM and ISA standards for industrial measurement accuracy. What measurement issue are you facing?",
+        options: [
+          { label: "🌡️ Temperature Reading Issues", action: "chat", response: "temperature-sensor-help" },
+          { label: "📊 Pressure Measurement Problems", action: "chat", response: "pressure-sensor-help" },
+          { label: "🔄 Flow Measurement Errors", action: "chat", response: "flow-sensor-help" },
+          { label: "📏 Level Detection Issues", action: "chat", response: "level-sensor-help" },
+          { label: "🔍 Explore Sensor Solutions", action: "page", page: "products" },
+          { label: "📞 Book Calibration Service", action: "external", url: "tel:+91-94627-71662" }
+        ]
+      };
+    }
+
+    if (input === 'control-troubleshooting') {
+      return {
+        message: "Control system issues can disrupt entire operations! Common problems include communication failures, logic errors, HMI malfunctions, and integration issues. Our systems follow IEC 61131 PLC programming standards. What control problem needs attention?",
+        options: [
+          { label: "🖥️ PLC Programming Issues", action: "chat", response: "plc-troubleshooting" },
+          { label: "📊 SCADA Communication Problems", action: "chat", response: "scada-troubleshooting" },
+          { label: "👥 HMI Display Issues", action: "chat", response: "hmi-troubleshooting" },
+          { label: "🔗 Network Connectivity Problems", action: "chat", response: "network-troubleshooting" },
+          { label: "🔍 View Control Solutions", action: "page", page: "products" },
+          { label: "🎯 Request System Audit", action: "external", url: "mailto:info.powerton@gmail.com?subject=Control System Audit Request" }
+        ]
+      };
+    }
+
+    if (input === 'solar-troubleshooting') {
+      return {
+        message: "Solar system problems can significantly impact energy generation! Issues often include inverter faults, panel degradation, battery problems, or monitoring failures. Our solutions comply with CEA and MNRE guidelines. What solar issue needs fixing?",
+        options: [
+          { label: "☀️ Low Power Generation", action: "chat", response: "solar-performance-help" },
+          { label: "🔄 Inverter Faults", action: "chat", response: "inverter-troubleshooting" },
+          { label: "🔋 Battery Storage Issues", action: "chat", response: "battery-troubleshooting" },
+          { label: "📊 Monitoring System Problems", action: "chat", response: "monitoring-troubleshooting" },
+          { label: "🔍 Browse Solar Products", action: "page", page: "products" },
+          { label: "📋 Schedule Solar Inspection", action: "external", url: "mailto:info.powerton@gmail.com?subject=Solar System Inspection" }
         ]
       };
     }
@@ -430,7 +470,7 @@ export default function Chatbot() {
         options: [
           { label: "🏆 Our Major Clients", action: "chat", response: "major-clients" },
           { label: "📊 Success Stories", action: "page", page: "projects" },
-          { label: "🎯 Industries We Serve", action: "chat", response: "industry-solutions" },
+          { label: "🎯 Our Success Stories", action: "page", page: "projects" },
           { label: "📞 Become Our Client", action: "external", url: "tel:+91-94627-71662" },
           { label: "📧 Get in Touch", action: "external", url: "mailto:info.powerton@gmail.com" }
         ]
@@ -450,30 +490,91 @@ export default function Chatbot() {
       };
     }
 
-    // Natural language product searches
+    // Specific troubleshooting responses
+    if (input === 'power-supply-help') {
+      return {
+        message: "Power supply issues often stem from voltage fluctuations, load imbalances, or component aging. Check for proper voltage regulation, adequate current capacity, and thermal management. Our power supplies meet IEC 60950 safety standards. Need a replacement or upgrade?",
+        options: [
+          { label: "⚡ View Power Supply Products", action: "page", page: "products" },
+          { label: "📋 Request Quote for Power Supply", action: "external", url: "mailto:info.powerton@gmail.com?subject=Power Supply Quote Request" },
+          { label: "🔄 Back to Electrical Help", action: "chat", response: "electrical-troubleshooting" },
+          { label: "📞 Emergency Technical Support", action: "external", url: "tel:+91-94627-71662" }
+        ]
+      };
+    }
+
+    if (input === 'temperature-sensor-help') {
+      return {
+        message: "Temperature sensor issues include drift, response lag, or environmental interference. Check for proper calibration (±0.1°C accuracy), adequate thermal coupling, and EMI shielding. Our sensors comply with ASTM E1137 standards. What's the specific temperature range and application?",
+        options: [
+          { label: "🌡️ Browse Temperature Sensors", action: "page", page: "products" },
+          { label: "🔧 Request Calibration Service", action: "external", url: "mailto:info.powerton@gmail.com?subject=Temperature Sensor Calibration" },
+          { label: "🔄 Back to Sensor Help", action: "chat", response: "sensor-troubleshooting" },
+          { label: "📞 Speak with Sensor Expert", action: "external", url: "tel:+91-94627-71662" }
+        ]
+      };
+    }
+
+    if (input === 'plc-troubleshooting') {
+      return {
+        message: "PLC issues range from programming errors to hardware failures. Check I/O status, communication links, and program logic. Our systems follow IEC 61131-3 standards for programming languages and IEC 61508 for functional safety. What specific PLC problem are you experiencing?",
+        options: [
+          { label: "🖥️ View PLC Solutions", action: "page", page: "products" },
+          { label: "💻 Request Programming Service", action: "external", url: "mailto:info.powerton@gmail.com?subject=PLC Programming Service" },
+          { label: "🔄 Back to Control Help", action: "chat", response: "control-troubleshooting" },
+          { label: "🚨 Emergency PLC Support", action: "external", url: "tel:+91-94627-71662" }
+        ]
+      };
+    }
+
+    if (input === 'solar-performance-help') {
+      return {
+        message: "Low solar generation can result from panel soiling, shading, inverter issues, or degradation. Check panel cleanliness, system monitoring, and compare against expected performance (typically 80% after 25 years). Our systems meet IEC 61215 and IEC 61730 standards. What's your current performance vs expected?",
+        options: [
+          { label: "☀️ Solar System Products", action: "page", page: "products" },
+          { label: "📊 Request Performance Analysis", action: "external", url: "mailto:info.powerton@gmail.com?subject=Solar Performance Analysis" },
+          { label: "🔄 Back to Solar Help", action: "chat", response: "solar-troubleshooting" },
+          { label: "🔧 Schedule Maintenance", action: "external", url: "tel:+91-94627-71662" }
+        ]
+      };
+    }
+
+    if (input === 'selection-help') {
+      return {
+        message: "Choosing the right equipment is crucial for project success! I can help you navigate technical specifications, compatibility requirements, and industry standards to find the perfect solution. What type of equipment or system are you trying to select?",
+        options: [
+          { label: "🌡️ Sensor & Measurement Selection", action: "chat", response: "sensor-selection-help" },
+          { label: "⚡ Electrical Component Selection", action: "chat", response: "electrical-selection-help" },
+          { label: "🖥️ Control System Selection", action: "chat", response: "control-selection-help" },
+          { label: "☀️ Solar System Design", action: "chat", response: "solar-selection-help" },
+          { label: "🔍 Browse All Products", action: "page", page: "products" },
+          { label: "📞 Consultation Call", action: "external", url: "tel:+91-94627-71662" }
+        ]
+      };
+    }
+
+    // Natural language product searches with standards
     if (input.includes('sensor') || input.includes('temperature') || input.includes('pressure') || input.includes('measurement')) {
       return {
-        message: "I can help you find the right sensors! We offer high-precision sensors for temperature (-40°C to +125°C), pressure (vacuum to 7500 PSI), flow, and level measurement. All with industry-leading accuracy and reliability.",
+        message: "I can help you find the right sensors! We offer precision instruments with high accuracy: temperature (-40°C to +125°C), pressure (vacuum to 7500 PSI), flow, and level measurement. All certified to ASTM, ISA, and IEC standards for industrial applications. Visit our products page for detailed specifications.",
         options: [
-          { label: "🌡️ Temperature Sensors", action: "page", page: "product-sensors" },
-          { label: "📊 Pressure Transmitters", action: "page", page: "product-transmitters" },
-          { label: "🔄 Flow Measurement", action: "page", page: "product-sensors" },
-          { label: "📏 Level Sensors", action: "page", page: "product-sensors" },
-          { label: "📧 Get Technical Specifications", action: "external", url: "mailto:info.powerton@gmail.com?subject=Sensor Technical Specifications" },
-          { label: "☎️ Speak with Expert", action: "external", url: "tel:+91-94627-71662" }
+          { label: "🌡️ Temperature Measurement", action: "page", page: "products" },
+          { label: "📊 Pressure Measurement", action: "page", page: "products" },
+          { label: "🔄 Flow & Level Measurement", action: "page", page: "products" },
+          { label: "📋 Request Technical Quote", action: "external", url: "mailto:info.powerton@gmail.com?subject=Sensor Technical Quote" },
+          { label: "📞 Speak with Expert", action: "external", url: "tel:+91-94627-71662" }
         ]
       };
     }
 
     if (input.includes('plc') || input.includes('automation') || input.includes('control') || input.includes('scada')) {
       return {
-        message: "Automation is our expertise! Our control systems include PLCs with sub-millisecond response times, SCADA for real-time monitoring, and DCS for complex process control. Perfect for optimizing your operations!",
+        message: "Automation is our specialty! Our control systems feature PLCs with sub-millisecond response times, SCADA for real-time monitoring, and DCS for complex processes. All systems comply with IEC 61131-3 programming standards and IEC 61508 safety requirements. Visit our products page to explore detailed specifications and get a custom quote.",
         options: [
-          { label: "🖥️ PLC Systems", action: "page", page: "product-plcs" },
-          { label: "📊 SCADA Solutions", action: "page", page: "product-scada" },
-          { label: "🌐 DCS Systems", action: "page", page: "product-dcs" },
-          { label: "👥 HMI Interfaces", action: "page", page: "product-hmi" },
-          { label: "🎯 Custom Automation Project", action: "external", url: "mailto:info.powerton@gmail.com?subject=Custom Automation Project" },
+          { label: "🖥️ PLC & Control Systems", action: "page", page: "products" },
+          { label: "📊 SCADA & HMI Solutions", action: "page", page: "products" },
+          { label: "🌐 Complete Automation Package", action: "page", page: "products" },
+          { label: "📋 Request Custom Quote", action: "external", url: "mailto:info.powerton@gmail.com?subject=Custom Automation Quote" },
           { label: "📞 Technical Consultation", action: "external", url: "tel:+91-94627-71662" }
         ]
       };
@@ -481,10 +582,10 @@ export default function Chatbot() {
 
     if (input.includes('solar') || input.includes('renewable') || input.includes('green energy') || input.includes('sustainable')) {
       return {
-        message: "Going solar is a smart decision! We provide complete EPC services for solar projects from 1kW to 10MW+. Our solutions include high-efficiency panels, smart inverters, battery storage, and comprehensive monitoring systems.",
+        message: "Solar energy is the future! We provide complete EPC services for projects from 1kW to 10MW+, all meeting CEA technical standards and MNRE guidelines. Our solutions include high-efficiency panels, smart inverters, battery storage, and monitoring systems. Visit our products page for detailed specifications and request a customized quote.",
         options: [
-          { label: "☀️ Solar Panel Systems", action: "page", page: "product-solar-panels" },
-          { label: "🔄 Solar Inverters", action: "page", page: "product-solar-inverters" },
+          { label: "☀️ Complete Solar Solutions", action: "page", page: "products" },
+          { label: "🔋 Solar + Battery Systems", action: "page", page: "products" },
           { label: "🔋 Energy Storage", action: "page", page: "product-solar-batteries-energy-storage" },
           { label: "📊 Our Solar Projects", action: "page", page: "projects" },
           { label: "💰 Get Solar Quote", action: "external", url: "mailto:info.powerton@gmail.com?subject=Solar Project Quote" },
@@ -495,14 +596,14 @@ export default function Chatbot() {
 
     if (input.includes('pump') || input.includes('motor') || input.includes('bldc') || input.includes('valve')) {
       return {
-        message: "Great choice! Our mechanical solutions include high-efficiency BLDC motors, centrifugal pumps, gear pumps, and automated valve systems. Perfect for fluid handling and processing applications.",
+        message: "Excellent choice! Our mechanical solutions include high-efficiency BLDC motors, centrifugal pumps, gear pumps, and automated valve systems meeting IE3/IE4 efficiency standards and API specifications. Visit our products page for detailed technical specifications and request a custom quote for your application.",
         options: [
-          { label: "🔄 BLDC Motors", action: "page", page: "product-bldc" },
-          { label: "💧 Centrifugal Pumps", action: "page", page: "product-centrifugal-pumps" },
-          { label: "⚙️ Gear Pumps", action: "page", page: "product-gear-pumps" },
-          { label: "🔧 Valve Systems", action: "page", page: "product-valves" },
-          { label: "🛠️ Pump Spares", action: "page", page: "product-pump-parts-spares" },
-          { label: "📞 Application Guidance", action: "external", url: "tel:+91-94627-71662" }
+          { label: "🔄 Motors & Drives", action: "page", page: "products" },
+          { label: "💧 Pumps & Fluid Handling", action: "page", page: "products" },
+          { label: "🔧 Valves & Actuators", action: "page", page: "products" },
+          { label: "🛠️ Spare Parts & Service", action: "page", page: "services" },
+          { label: "📋 Request Equipment Quote", action: "external", url: "mailto:info.powerton@gmail.com?subject=Motor Pump Equipment Quote" },
+          { label: "📞 Technical Consultation", action: "external", url: "tel:+91-94627-71662" }
         ]
       };
     }
@@ -556,7 +657,7 @@ export default function Chatbot() {
         options: [
           { label: "🔍 Find Products", action: "chat", response: "product-selection" },
           { label: "⚙️ Choose Services", action: "chat", response: "service-selection" },
-          { label: "🏭 Industry Solutions", action: "chat", response: "industry-solutions" },
+          { label: "🔧 Technical Support", action: "chat", response: "troubleshooting" },
           { label: "📞 Talk to Expert", action: "external", url: "tel:+91-94627-71662" },
           { label: "🏢 About Our Company", action: "chat", response: "company-info" },
           { label: "📋 Get Started", action: "page", page: "contact" }
@@ -610,7 +711,7 @@ export default function Chatbot() {
       options: [
         { label: "🔍 Find the Right Product", action: "chat", response: "product-selection" },
         { label: "⚙️ Explore Our Services", action: "chat", response: "service-selection" },
-        { label: "🏭 Industry-Specific Solutions", action: "chat", response: "industry-solutions" },
+        { label: "🔧 Technical Support", action: "chat", response: "troubleshooting" },
         { label: "💼 About Powerton Engineering", action: "chat", response: "company-info" },
         { label: "📞 Speak with Expert", action: "external", url: "tel:+91-94627-71662" },
         { label: "📧 Send Us a Message", action: "external", url: "mailto:info.powerton@gmail.com" }
