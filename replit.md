@@ -13,6 +13,7 @@ PC Deployment: User wants to run this project locally on their personal computer
 Logo preference: Use the updated single Powerton Engineering logo (mainlogopowerton (1)_1755674514195.png) throughout the website for both light and dark modes.
 Localization: Website localized for Indian market with rupee (₹) currency symbols instead of dollars ($).
 Maps Integration: All Google Maps links throughout the website use consistent redirection URL (https://maps.app.goo.gl/jiap3sBYbM3r8Pn68) for unified user experience.
+**TOPBAR LOCK**: The header topbar is FINAL and PERFECT. NO changes are allowed to the topbar anymore. The topbar includes phone, email, theme toggle, and address sections with their specific hover effects and color schemes.
 
 ### AI Agent Guidelines for Future Development
 
