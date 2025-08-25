@@ -1,0 +1,43 @@
+{
+  "name": "Powerton Engineering - Industrial Automation Solutions",
+  "short_name": "Powerton Engineering",
+  "description": "Leading industrial automation company providing electrical control panels, process automation, instrumentation, and solar solutions across India.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#1e3a8a",
+  "theme_color": "#1e3a8a",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/favicon.png",
+      "type": "image/png",
+      "sizes": "32x32"
+    },
+    {
+      "src": "/apple-touch-icon.png", 
+      "type": "image/png",
+      "sizes": "180x180"
+    },
+    {
+      "src": "/favicon-192x192.png",
+      "type": "image/png", 
+      "sizes": "192x192",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/favicon-512x512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": [
+    "business",
+    "productivity",
+    "utilities"
+  ],
+  "lang": "en-IN",
+  "dir": "ltr",
+  "scope": "/",
+  "prefer_related_applications": false
+}
