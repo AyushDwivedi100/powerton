@@ -513,7 +513,7 @@ export const CLIENT_LOGOS = [
   {
     id: "dls",
     name: "DLS India",
-    logo: "https://logo.clearbit.com/dlsindia.co.in",
+    logo: "https://dlsindia.co.in/wp-content/uploads/2021/02/DLS_Logo_Transparent.png",
     fallback: corporateClientImage
   },
   {
@@ -537,13 +537,13 @@ export const CLIENT_LOGOS = [
   {
     id: "nv-group",
     name: "NV Group",
-    logo: "https://logo.clearbit.com/nvgroup.com",
+    logo: "https://www.nvgroup.co.in/wp-content/uploads/2023/04/Logo.png",
     fallback: corporateClientImage
   },
   {
     id: "anand-nv",
     name: "Anand NV",
-    logo: "https://logo.clearbit.com/anandnv.com",
+    logo: "https://www.anandnvh.com/images/header-logo.png",
     fallback: corporateClientImage
   },
   {
@@ -561,7 +561,7 @@ export const CLIENT_LOGOS = [
   {
     id: "procient",
     name: "Procient",
-    logo: "https://logo.clearbit.com/procient.com",
+    logo: "https://www.procient.in/img/whitelogo.png",
     fallback: corporateClientImage
   }
 ];
