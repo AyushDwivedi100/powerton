@@ -308,14 +308,14 @@ export default function Header() {
                         onMouseEnter={() => setIsServicesDropdownOpen(true)}
                         onMouseLeave={() => setIsServicesDropdownOpen(false)}
                       >
-                        <div className="w-max max-w-[95vw] max-h-[90vh] bg-popover border border-primary/30 rounded-md shadow-lg overflow-y-auto">
+                        <div className="w-max max-w-[95vw] max-h-[90vh] bg-popover border-2 border-slate-300 dark:border-slate-600 rounded-md shadow-lg overflow-y-auto">
                           <div className="p-6 lg:p-8">
                             <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 lg:gap-8 items-stretch">
                               {SERVICES.map((service) => (
                                 <Link
                                   key={service.id}
                                   href={`/services/${service.id}`}
-                                  className="block px-4 py-4 lg:py-6 rounded-sm hover:bg-accent hover:text-accent-foreground cursor-pointer transition-colors border border-primary/20 hover:border-primary/40 min-w-0 min-h-[120px] lg:min-h-[140px]"
+                                  className="block px-4 py-4 lg:py-6 rounded-sm hover:bg-accent hover:text-accent-foreground cursor-pointer transition-colors border border-slate-200 dark:border-slate-700 hover:border-slate-400 dark:hover:border-slate-500 min-w-0 min-h-[120px] lg:min-h-[140px]"
                                   onClick={() => setIsServicesDropdownOpen(false)}
                                 >
                                   <div className="flex flex-col h-full justify-between">
@@ -376,7 +376,7 @@ export default function Header() {
                         onMouseEnter={() => setIsProductsDropdownOpen(true)}
                         onMouseLeave={() => setIsProductsDropdownOpen(false)}
                       >
-                        <div className="w-max max-w-[95vw] max-h-[70vh] bg-popover border border-primary/30 rounded-md shadow-lg overflow-y-auto">
+                        <div className="w-max max-w-[95vw] max-h-[70vh] bg-popover border-2 border-slate-300 dark:border-slate-600 rounded-md shadow-lg overflow-y-auto">
                           <div className="p-4 lg:p-6">
                             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 2xl:grid-cols-5 gap-3 lg:gap-4 max-w-none">
                               {PRODUCTS.map((product) => (
@@ -386,7 +386,7 @@ export default function Header() {
                                 >
                                   <Link
                                     href={`/products/${product.id}`}
-                                    className="block px-3 lg:px-4 py-2 lg:py-3 rounded-md hover:bg-accent hover:text-accent-foreground cursor-pointer transition-colors border border-primary/20 hover:border-primary/40 mb-2"
+                                    className="block px-3 lg:px-4 py-2 lg:py-3 rounded-md hover:bg-accent hover:text-accent-foreground cursor-pointer transition-colors border border-slate-200 dark:border-slate-700 hover:border-slate-400 dark:hover:border-slate-500 mb-2"
                                     onClick={() => setIsProductsDropdownOpen(false)}
                                   >
                                     <div className="font-semibold text-foreground text-sm lg:text-base line-clamp-2">
