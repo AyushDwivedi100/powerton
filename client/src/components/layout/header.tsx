@@ -244,16 +244,13 @@ export default function Header() {
                     >
                       <Link
                         href={item.href}
-                        className={`text-foreground hover:text-primary transition-colors font-medium relative whitespace-nowrap ${
+                        className={`text-foreground font-medium relative whitespace-nowrap ${
                           isActive(item.href) ? "text-primary" : ""
                         }`}
                       >
-                        <motion.span
-                          whileHover={{ y: -2 }}
-                          transition={{ duration: 0.2 }}
-                        >
+                        <span>
                           {item.name}
-                        </motion.span>
+                        </span>
                         {isActive(item.href) && (
                           <motion.div
                             className="absolute -bottom-1 left-0 right-0 h-0.5 bg-primary"
@@ -277,17 +274,18 @@ export default function Header() {
                       className="relative services-dropdown-container"
                     >
                       <div
-                        className={`text-foreground hover:text-primary transition-colors font-medium relative flex items-center gap-1 cursor-pointer ${
+                        className={`text-foreground font-medium relative flex items-center gap-1 cursor-pointer ${
                           isActive("/services") ? "text-primary" : ""
                         }`}
                         onMouseEnter={() => setIsServicesDropdownOpen(true)}
                         onMouseLeave={() => setIsServicesDropdownOpen(false)}
                         onClick={() => setIsServicesDropdownOpen(!isServicesDropdownOpen)}
                       >
-                        <Link href="/services" className="hover:text-primary">
+                        <Link href="/services">
                           Services
                         </Link>
                         <ChevronDown className="h-4 w-4" />
+                        {/* Active page indicator */}
                         {isActive("/services") && (
                           <motion.div
                             className="absolute -bottom-1 left-0 right-0 h-0.5 bg-primary"
@@ -295,6 +293,14 @@ export default function Header() {
                             initial={{ opacity: 0, scaleX: 0 }}
                             animate={{ opacity: 1, scaleX: 1 }}
                             transition={{ duration: 0.3 }}
+                          />
+                        )}
+                        {/* Hover line indicator */}
+                        {!isActive("/services") && (
+                          <motion.div
+                            className="absolute -bottom-1 left-0 right-0 h-0.5 bg-primary opacity-0 scale-x-0"
+                            whileHover={{ opacity: 1, scaleX: 1 }}
+                            transition={{ duration: 0.3, ease: "easeOut" }}
                           />
                         )}
                       </div>
@@ -345,17 +351,18 @@ export default function Header() {
                       className="relative products-dropdown-container"
                     >
                       <div
-                        className={`text-foreground hover:text-primary transition-colors font-medium relative flex items-center gap-1 cursor-pointer ${
+                        className={`text-foreground font-medium relative flex items-center gap-1 cursor-pointer ${
                           isActive("/products") ? "text-primary" : ""
                         }`}
                         onMouseEnter={() => setIsProductsDropdownOpen(true)}
                         onMouseLeave={() => setIsProductsDropdownOpen(false)}
                         onClick={() => setIsProductsDropdownOpen(!isProductsDropdownOpen)}
                       >
-                        <Link href="/products" className="hover:text-primary">
+                        <Link href="/products">
                           Products
                         </Link>
                         <ChevronDown className="h-4 w-4" />
+                        {/* Active page indicator */}
                         {isActive("/products") && (
                           <motion.div
                             className="absolute -bottom-1 left-0 right-0 h-0.5 bg-primary"
@@ -363,6 +370,14 @@ export default function Header() {
                             initial={{ opacity: 0, scaleX: 0 }}
                             animate={{ opacity: 1, scaleX: 1 }}
                             transition={{ duration: 0.3 }}
+                          />
+                        )}
+                        {/* Hover line indicator */}
+                        {!isActive("/products") && (
+                          <motion.div
+                            className="absolute -bottom-1 left-0 right-0 h-0.5 bg-primary opacity-0 scale-x-0"
+                            whileHover={{ opacity: 1, scaleX: 1 }}
+                            transition={{ duration: 0.3, ease: "easeOut" }}
                           />
                         )}
                       </div>
