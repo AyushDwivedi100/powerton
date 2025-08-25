@@ -401,7 +401,7 @@ export default function Header() {
                                         <Link
                                           key={subcategory.id}
                                           href={`/products/${subcategory.id}`}
-                                          className="block px-2 lg:px-3 py-1 lg:py-2 rounded-sm hover:bg-slate-100 dark:hover:bg-slate-800 hover:text-foreground cursor-pointer transition-colors text-xs lg:text-sm border-l-2 border-primary/40 hover:border-primary"
+                                          className="block px-2 lg:px-3 py-1 lg:py-2 rounded-sm hover:bg-slate-100 dark:hover:bg-slate-800 hover:text-foreground cursor-pointer transition-colors text-xs lg:text-sm border-l-2 border-primary/40 hover:border-secondary"
                                           onClick={() => setIsProductsDropdownOpen(false)}
                                         >
                                           <div className="font-medium text-foreground line-clamp-1">
