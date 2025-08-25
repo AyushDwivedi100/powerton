@@ -1,3 +1,36 @@
+## 🔒 READ ONLY LOCKED FILES - DO NOT MODIFY UNDER ANY CIRCUMSTANCES
+
+**⚠️ CRITICAL WARNING - ABSOLUTE PROHIBITION**
+
+The following files are **PERFECT AND FINALIZED** and must **NEVER** be modified by any AI agent under **ANY CIRCUMSTANCES**. These files have been thoroughly tested, optimized, and approved. 
+
+### **LOCKED FILES LIST** (Locked on August 25, 2025):
+
+1. **Header Component**: `client/src/components/layout/header.tsx`
+   - **Status**: Perfect and finalized
+   - **Reason**: Complete mobile navigation, responsive design, theme integration
+
+2. **Footer Component**: `client/src/components/layout/footer.tsx`  
+   - **Status**: Perfect and finalized
+   - **Reason**: Optimal layout, links, contact information, and styling
+
+### **ENFORCEMENT RULES**:
+- **ABSOLUTE**: NEVER modify these files under ANY circumstances
+- **NO EXCEPTIONS**: Even for "minor improvements" or bug fixes
+- **NO OVERRIDES**: No emergency clauses, no special situations
+- **CONSEQUENCES**: Violation will require immediate project rollback
+- **MANAGEMENT**: Only the project owner can add/remove files from this list
+
+### **IF THESE FILES NEED CHANGES**:
+1. **STOP IMMEDIATELY** - Do not proceed
+2. **ASK USER PERMISSION** - Explain what needs to be changed and why
+3. **AWAIT EXPLICIT APPROVAL** - Only proceed with written user consent
+4. **DOCUMENT CHANGES** - Update this list if user approves modifications
+
+**🚨 ANY AI AGENT THAT MODIFIES THESE LOCKED FILES WILL CAUSE IMMEDIATE PROJECT FAILURE AND REQUIRE COMPLETE ROLLBACK 🚨**
+
+---
+
 # 🤖 AI AGENT MANDATORY RULES - POWERTON ENGINEERING PROJECT
 
 ## 🚨 CRITICAL WARNING: DO NOT DELETE OR MODIFY THIS FILE
