@@ -751,7 +751,7 @@ export default function Header() {
                     </Link>
 
                     {/* Contact details below Get Quote button in mobile navigation */}
-                    <div className="mt-4 p-4 bg-muted/50 rounded-lg border border-muted-foreground/20">
+                    <div className="mt-4 p-4 bg-muted/50 rounded-lg border border-slate-200 dark:border-slate-700">
                       <h4 className="text-sm font-semibold text-foreground mb-3">
                         Contact Us
                       </h4>
