@@ -272,6 +272,10 @@ body.sidebar-open [data-radix-sheet-content] {
   --sidebar-accent-foreground: hsl(215, 89%, 55%);
   --sidebar-border: hsl(220, 25%, 25%);
   --sidebar-ring: hsl(215, 89%, 55%);
+  
+  /* Enhanced header and navigation for dark theme */
+  --header-background: hsl(220, 25%, 12%);
+  --header-shadow: 0 2px 12px -2px hsl(0, 0%, 0%, 0.3);
 }
 
 /* Light theme enhancements for professional appearance */
