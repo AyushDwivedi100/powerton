@@ -355,10 +355,10 @@ body.sidebar-open [data-radix-sheet-content] {
 }
 
 /* Professional navigation styling - subtle upward movement and blue color on hover */
-/* Target all navigation links except logo (href="/") */
-:root nav a:hover:not([href="/"]) {
+/* Target navigation links with specific class structure, exclude logo */
+:root nav .hidden.lg\:flex a.text-foreground:hover {
   transform: translateY(-2px);
-  color: hsl(215, 89%, 33%);
+  color: hsl(215, 89%, 33%) !important;
 }
 
 /* Target Services and Products dropdown containers */
@@ -369,10 +369,16 @@ body.sidebar-open [data-radix-sheet-content] {
 }
 
 /* Ensure smooth transitions for all navigation elements */
-:root nav a:not([href="/"]),
+:root nav .hidden.lg\:flex a.text-foreground,
 :root .services-dropdown-container,
 :root .products-dropdown-container {
   transition: transform 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+
+/* Exclude logo from hover effects specifically */
+:root nav a[href="/"]:hover {
+  transform: none !important;
+  color: inherit !important;
 }
 
 /* Enhanced dropdown styling */
