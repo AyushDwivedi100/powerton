@@ -31,6 +31,10 @@ export default function Chatbot() {
   const [messages, setMessages] = useState<Message[]>([]);
   const [inputValue, setInputValue] = useState("");
   const [isTyping, setIsTyping] = useState(false);
+  const [isInitialized, setIsInitialized] = useState(false);
+  const [lastBotOptions, setLastBotOptions] = useState<NavigationOption[]>([]);
+  const [lastBotMessageId, setLastBotMessageId] = useState<string | null>(null);
+  const [headerHeight, setHeaderHeight] = useState(80);
   const messagesEndRef = useRef<HTMLDivElement>(null);
   const chatWindowRef = useRef<HTMLDivElement>(null);
   const messagesContainerRef = useRef<HTMLDivElement>(null);
@@ -45,6 +49,69 @@ export default function Chatbot() {
       messagesEndRef.current?.scrollIntoView({ behavior: "auto", block: "end" });
     }, 50);
   };
+
+  // Load persisted conversation state on component mount
+  useEffect(() => {
+    try {
+      const savedMessages = localStorage.getItem('powerton-chatbot-messages');
+      const savedOptions = localStorage.getItem('powerton-chatbot-options');
+      const savedMessageId = localStorage.getItem('powerton-chatbot-last-message-id');
+      
+      if (savedMessages) {
+        const parsedMessages = JSON.parse(savedMessages).map((msg: any) => ({
+          ...msg,
+          timestamp: new Date(msg.timestamp)
+        }));
+        setMessages(parsedMessages);
+      }
+      
+      if (savedOptions) {
+        setLastBotOptions(JSON.parse(savedOptions));
+      }
+      
+      if (savedMessageId) {
+        setLastBotMessageId(savedMessageId);
+      }
+    } catch (error) {
+      console.warn('Failed to load chatbot conversation:', error);
+    }
+    setIsInitialized(true);
+  }, []);
+
+  // Save conversation state to localStorage whenever it changes
+  useEffect(() => {
+    if (!isInitialized) return;
+    
+    try {
+      localStorage.setItem('powerton-chatbot-messages', JSON.stringify(messages));
+    } catch (error) {
+      console.warn('Failed to save chatbot messages:', error);
+    }
+  }, [messages, isInitialized]);
+
+  useEffect(() => {
+    if (!isInitialized) return;
+    
+    try {
+      localStorage.setItem('powerton-chatbot-options', JSON.stringify(lastBotOptions));
+    } catch (error) {
+      console.warn('Failed to save chatbot options:', error);
+    }
+  }, [lastBotOptions, isInitialized]);
+
+  useEffect(() => {
+    if (!isInitialized) return;
+    
+    try {
+      if (lastBotMessageId) {
+        localStorage.setItem('powerton-chatbot-last-message-id', lastBotMessageId);
+      } else {
+        localStorage.removeItem('powerton-chatbot-last-message-id');
+      }
+    } catch (error) {
+      console.warn('Failed to save chatbot message ID:', error);
+    }
+  }, [lastBotMessageId, isInitialized]);
 
   useEffect(() => {
     scrollToBottom();
@@ -168,9 +235,9 @@ export default function Chatbot() {
     };
   }, [isOpen]);
 
-  // Initialize with welcome message and auto-scroll
+  // Initialize with welcome message and auto-scroll (only for new conversations)
   useEffect(() => {
-    if (isOpen && messages.length === 0) {
+    if (isOpen && isInitialized && messages.length === 0) {
       setTimeout(() => {
         addBotMessage({
           message: "Hello! I'm your technical advisor from Powerton Engineering. I'm here to help you find the right industrial automation solutions for your project. Whether you need specific products, services, or technical troubleshooting support, I'll guide you to the perfect solution. What can I help you with today?",
@@ -184,8 +251,11 @@ export default function Chatbot() {
         // Auto-scroll to bottom when chat opens
         setTimeout(scrollToBottom, 600);
       }, 500);
+    } else if (isOpen && isInitialized && messages.length > 0) {
+      // Auto-scroll to bottom when reopening existing conversation
+      setTimeout(scrollToBottom, 300);
     }
-  }, [isOpen, messages.length]);
+  }, [isOpen, isInitialized, messages.length]);
 
   const addMessage = (text: string, sender: 'user' | 'bot') => {
     const newMessage = {
@@ -211,10 +281,6 @@ export default function Chatbot() {
       }
     }, 1000);
   };
-
-  const [lastBotOptions, setLastBotOptions] = useState<NavigationOption[]>([]);
-  const [lastBotMessageId, setLastBotMessageId] = useState<string | null>(null);
-  const [headerHeight, setHeaderHeight] = useState(80);
 
   const handleNavigation = (target: string) => {
     switch (target) {
