@@ -1161,7 +1161,7 @@ export default function Chatbot() {
                               onClick={() => handleOptionClick(option)}
                               variant="outline"
                               size="sm"
-                              className="justify-start h-auto py-2 px-3 text-left whitespace-normal w-fit min-w-0 border-gray-300 dark:border-gray-600 dark:hover:border-gray-500"
+                              className="justify-start h-auto py-2 px-3 text-left whitespace-normal w-fit min-w-0 border-border dark:border-border dark:hover:border-border/70"
                             >
                               <span className="text-sm">{option.label}</span>
                               {option.action === 'external' && (

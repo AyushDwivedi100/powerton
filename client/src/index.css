@@ -460,15 +460,15 @@ body.sidebar-open [data-radix-sheet-content] {
 }
 
 /* Fix Request Consultation button visibility in light theme */
-:root [id="home"] button[class*="border-white"] {
-  border-color: hsl(0, 0%, 100%) !important;
+:root [id="home"] button[class*="border-border"] {
+  border-color: hsl(var(--border)) !important;
   background-color: hsla(0, 0%, 100%, 0.15) !important;
   backdrop-filter: blur(8px) !important;
   color: hsl(0, 0%, 100%) !important;
   text-shadow: 0 1px 4px hsl(215, 25%, 12%, 0.4) !important;
 }
 
-:root [id="home"] button[class*="border-white"]:hover {
+:root [id="home"] button[class*="border-border"]:hover {
   background-color: hsl(0, 0%, 100%) !important;
   color: hsl(215, 89%, 33%) !important;
   text-shadow: none !important;
@@ -1170,7 +1170,7 @@ html {
   }
 
   .btn-outline {
-    @apply border-2 border-white text-white bg-transparent hover:bg-background hover:text-foreground transition-all duration-300;
+    @apply border-2 border-border text-white bg-transparent hover:bg-background hover:text-foreground transition-all duration-300;
   }
   
   
