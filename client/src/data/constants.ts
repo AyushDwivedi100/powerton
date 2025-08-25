@@ -476,19 +476,19 @@ export const TESTIMONIALS = [
 export const CLIENT_LOGOS = [
   {
     id: "sci-group",
-    name: "SCI Group",
-    logo: "https://logo.clearbit.com/scigrp.com",
+    name: "Shipping Corporation of India",
+    logo: "https://logo.clearbit.com/shipindia.com",
     fallback: corporateClientImage
   },
   {
     id: "agribio",
-    name: "Agribio Ltd",
+    name: "AgriBio Germany",
     logo: "https://logo.clearbit.com/agribiogermany.com",
     fallback: corporateClientImage
   },
   {
     id: "motherson",
-    name: "Motherson",
+    name: "Motherson Group",
     logo: "https://logo.clearbit.com/motherson.com",
     fallback: corporateClientImage
   },
@@ -500,37 +500,37 @@ export const CLIENT_LOGOS = [
   },
   {
     id: "thermax",
-    name: "Thermax",
+    name: "Thermax Limited",
     logo: "https://logo.clearbit.com/thermaxglobal.com",
     fallback: corporateClientImage
   },
   {
     id: "ankur",
-    name: "Ankur Scientific",
+    name: "Ankur Scientific Energy Technologies",
     logo: "https://logo.clearbit.com/ankurscientific.com",
     fallback: corporateClientImage
   },
   {
     id: "dls",
-    name: "DLS Group",
+    name: "DLS India",
     logo: "https://logo.clearbit.com/dlsindia.co.in",
     fallback: corporateClientImage
   },
   {
     id: "boudh",
-    name: "Boudh Industries",
-    logo: "https://logo.clearbit.com/boudhindustries.com",
+    name: "Boudh Distillery",
+    logo: "https://logo.clearbit.com/boudhdistillery.com",
     fallback: corporateClientImage
   },
   {
     id: "lokmangal",
-    name: "Lokmangal",
+    name: "Lokmangal Group",
     logo: "https://logo.clearbit.com/lokmangal.com",
     fallback: corporateClientImage
   },
   {
     id: "marcuras",
-    name: "Marcuras",
+    name: "Marcuras Water Treatment",
     logo: "https://logo.clearbit.com/marcuras.com",
     fallback: corporateClientImage
   },
