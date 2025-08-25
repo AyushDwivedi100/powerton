@@ -184,7 +184,7 @@ export default function Header() {
               aria-label="Open office location in Google Maps"
               initial={{ opacity: 0, x: 20 }}
               animate={{ opacity: 1, x: 0 }}
-              transition={{ duration: 0.6, delay: 0.3 }}
+              transition={{ duration: 0.2 }}
               whileHover={{ scale: 1.05 }}
             >
               <span className="flex items-center">
