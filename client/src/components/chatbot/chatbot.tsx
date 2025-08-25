@@ -801,7 +801,7 @@ export default function Chatbot() {
 
 
                 {/* Input Area */}
-                <div className="p-3 border-t flex-shrink-0 bg-background">
+                <div className="p-3 border-t border-slate-200 dark:border-slate-700 flex-shrink-0 bg-background">
                   <div className="flex gap-2">
                     <Input
                       placeholder="Ask me about products, services, or technical help..."
