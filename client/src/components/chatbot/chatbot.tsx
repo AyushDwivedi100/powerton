@@ -712,7 +712,7 @@ export default function Chatbot() {
             exit={{ opacity: 0, y: 100, scale: 0.8 }}
             transition={{ duration: 0.3 }}
           >
-            <Card className="shadow-2xl border border-slate-200 dark:border-slate-700 h-full flex flex-col overflow-hidden">
+            <Card className="shadow-2xl border border-border h-full flex flex-col overflow-hidden">
               <CardHeader className="bg-primary text-white rounded-t-lg py-4 px-4 flex-shrink-0">
                 <CardTitle className="flex items-center justify-center gap-2 text-lg font-medium leading-none">
                   <Bot className="w-5 h-5 flex-shrink-0" />
@@ -801,7 +801,7 @@ export default function Chatbot() {
 
 
                 {/* Input Area */}
-                <div className="p-3 border-t border-slate-200 dark:border-slate-700 flex-shrink-0 bg-background">
+                <div className="p-3 border-t border-border flex-shrink-0 bg-background">
                   <div className="flex gap-2">
                     <Input
                       placeholder="Ask me about products, services, or technical help..."
