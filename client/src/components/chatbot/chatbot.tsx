@@ -373,7 +373,8 @@ export default function Chatbot() {
           { label: "📏 Calibration & Testing", action: "chat", response: "calibration-service" },
           { label: "🎓 Training & Consultation", action: "chat", response: "training-service" },
           { label: "☀️ Solar EPC Projects", action: "chat", response: "solar-service" },
-          { label: "📋 View All Services", action: "page", page: "services" }
+          { label: "📋 View All Services", action: "page", page: "services" },
+          { label: "🏠 Back to Main Menu", action: "chat", response: "main-menu" }
         ]
       };
     }
@@ -387,7 +388,8 @@ export default function Chatbot() {
           { label: "🖥️ Control System Issues", action: "chat", response: "control-troubleshooting" },
           { label: "☀️ Solar System Problems", action: "chat", response: "solar-troubleshooting" },
           { label: "🔍 Equipment Selection Help", action: "chat", response: "selection-help" },
-          { label: "📞 Speak with Technical Expert", action: "external", url: "tel:+91-94627-71662" }
+          { label: "📞 Speak with Technical Expert", action: "external", url: "tel:+91-94627-71662" },
+          { label: "🏠 Back to Main Menu", action: "chat", response: "main-menu" }
         ]
       };
     }
@@ -400,7 +402,8 @@ export default function Chatbot() {
           { label: "👥 Meet Our Team", action: "page", page: "about" },
           { label: "🤝 Our Clients", action: "chat", response: "client-testimonials" },
           { label: "📍 Visit Our Office", action: "external", url: "https://maps.app.goo.gl/jiap3sBYbM3r8Pn68" },
-          { label: "📞 Contact Us", action: "external", url: "tel:+91-94627-71662" }
+          { label: "📞 Contact Us", action: "external", url: "tel:+91-94627-71662" },
+          { label: "🏠 Back to Main Menu", action: "chat", response: "main-menu" }
         ]
       };
     }
@@ -415,7 +418,8 @@ export default function Chatbot() {
           { label: "🔄 Flow Meters", action: "page", page: "product-sensors" },
           { label: "📊 Level Indicators", action: "page", page: "product-sensors" },
           { label: "🔬 Process Analyzers", action: "page", page: "product-analyzers" },
-          { label: "📧 Get Technical Specs", action: "external", url: "mailto:info.powerton@gmail.com?subject=Sensor Technical Specifications" }
+          { label: "📧 Get Technical Specs", action: "external", url: "mailto:info.powerton@gmail.com?subject=Sensor Technical Specifications" },
+          { label: "🔙 Back to Products Menu", action: "chat", response: "product-selection" }
         ]
       };
     }
@@ -429,7 +433,8 @@ export default function Chatbot() {
           { label: "🔗 Cables & Connectors", action: "page", page: "product-cables-wires" },
           { label: "📦 Enclosures & Cabinets", action: "page", page: "product-enclosures-cabinets" },
           { label: "🌡️ Heating Elements", action: "page", page: "product-heating-elements-appliances" },
-          { label: "💰 Get Pricing", action: "external", url: "tel:+91-94627-71662" }
+          { label: "💰 Get Pricing", action: "external", url: "tel:+91-94627-71662" },
+          { label: "🔙 Back to Products Menu", action: "chat", response: "product-selection" }
         ]
       };
     }
@@ -443,7 +448,8 @@ export default function Chatbot() {
           { label: "🌐 DCS (Distributed Control Systems)", action: "page", page: "product-dcs" },
           { label: "👥 HMI (Human Machine Interface)", action: "page", page: "product-hmi" },
           { label: "⚙️ Custom Control Panels", action: "chat", response: "custom-panels" },
-          { label: "🎯 Let's Discuss Your Project", action: "external", url: "mailto:info.powerton@gmail.com?subject=Automation Project Discussion" }
+          { label: "🎯 Let's Discuss Your Project", action: "external", url: "mailto:info.powerton@gmail.com?subject=Automation Project Discussion" },
+          { label: "🔙 Back to Products Menu", action: "chat", response: "product-selection" }
         ]
       };
     }
@@ -456,7 +462,8 @@ export default function Chatbot() {
           { label: "🔄 Solar Inverters", action: "page", page: "product-solar-inverters" },
           { label: "🔧 Solar Installation & EPC", action: "page", page: "services" },
           { label: "📋 Get Custom Solar Quote", action: "external", url: "mailto:info.powerton@gmail.com?subject=Solar Project Quote Request" },
-          { label: "📞 Solar Consultation", action: "external", url: "tel:+91-94627-71662" }
+          { label: "📞 Solar Consultation", action: "external", url: "tel:+91-94627-71662" },
+          { label: "🔙 Back to Products Menu", action: "chat", response: "product-selection" }
         ]
       };
     }
@@ -470,7 +477,8 @@ export default function Chatbot() {
           { label: "🌍 Grounding Systems", action: "page", page: "product-grounding-systems" },
           { label: "💥 Intrinsically Safe Equipment", action: "page", page: "product-intrinsically-safe-equipment" },
           { label: "🦺 Personal Protective Equipment", action: "page", page: "product-safety-equipment" },
-          { label: "📋 Safety Consultation", action: "external", url: "tel:+91-94627-71662" }
+          { label: "📋 Safety Consultation", action: "external", url: "tel:+91-94627-71662" },
+          { label: "🔙 Back to Products Menu", action: "chat", response: "product-selection" }
         ]
       };
     }
@@ -500,7 +508,8 @@ export default function Chatbot() {
           { label: "🌍 Grounding & Earthing Issues", action: "chat", response: "grounding-help" },
           { label: "🔥 Overheating Components", action: "chat", response: "overheating-help" },
           { label: "🔍 Browse Electrical Solutions", action: "page", page: "products" },
-          { label: "📧 Get Professional Diagnosis", action: "external", url: "mailto:info.powerton@gmail.com?subject=Electrical System Diagnosis" }
+          { label: "📧 Get Professional Diagnosis", action: "external", url: "mailto:info.powerton@gmail.com?subject=Electrical System Diagnosis" },
+          { label: "🔙 Back to Troubleshooting Menu", action: "chat", response: "troubleshooting" }
         ]
       };
     }
@@ -514,7 +523,8 @@ export default function Chatbot() {
           { label: "🔄 Flow Measurement Errors", action: "chat", response: "flow-sensor-help" },
           { label: "📏 Level Detection Issues", action: "chat", response: "level-sensor-help" },
           { label: "🔍 Explore Sensor Solutions", action: "page", page: "products" },
-          { label: "📞 Book Calibration Service", action: "external", url: "tel:+91-94627-71662" }
+          { label: "📞 Book Calibration Service", action: "external", url: "tel:+91-94627-71662" },
+          { label: "🔙 Back to Troubleshooting Menu", action: "chat", response: "troubleshooting" }
         ]
       };
     }
@@ -528,7 +538,8 @@ export default function Chatbot() {
           { label: "👥 HMI Display Issues", action: "chat", response: "hmi-troubleshooting" },
           { label: "🔗 Network Connectivity Problems", action: "chat", response: "network-troubleshooting" },
           { label: "🔍 View Control Solutions", action: "page", page: "products" },
-          { label: "🎯 Request System Audit", action: "external", url: "mailto:info.powerton@gmail.com?subject=Control System Audit Request" }
+          { label: "🎯 Request System Audit", action: "external", url: "mailto:info.powerton@gmail.com?subject=Control System Audit Request" },
+          { label: "🔙 Back to Troubleshooting Menu", action: "chat", response: "troubleshooting" }
         ]
       };
     }
@@ -542,7 +553,8 @@ export default function Chatbot() {
           { label: "🔋 Battery Storage Issues", action: "chat", response: "battery-troubleshooting" },
           { label: "📊 Monitoring System Problems", action: "chat", response: "monitoring-troubleshooting" },
           { label: "🔍 Browse Solar Products", action: "page", page: "products" },
-          { label: "📋 Schedule Solar Inspection", action: "external", url: "mailto:info.powerton@gmail.com?subject=Solar System Inspection" }
+          { label: "📋 Schedule Solar Inspection", action: "external", url: "mailto:info.powerton@gmail.com?subject=Solar System Inspection" },
+          { label: "🔙 Back to Troubleshooting Menu", action: "chat", response: "troubleshooting" }
         ]
       };
     }
@@ -556,7 +568,8 @@ export default function Chatbot() {
           { label: "📊 Success Stories", action: "page", page: "projects" },
           { label: "🎯 Our Success Stories", action: "page", page: "projects" },
           { label: "📞 Become Our Client", action: "external", url: "tel:+91-94627-71662" },
-          { label: "📧 Get in Touch", action: "external", url: "mailto:info.powerton@gmail.com" }
+          { label: "📧 Get in Touch", action: "external", url: "mailto:info.powerton@gmail.com" },
+          { label: "🔙 Back to Company Menu", action: "chat", response: "company-info" }
         ]
       };
     }
@@ -569,7 +582,8 @@ export default function Chatbot() {
           { label: "⚡ Power Industry Clients", action: "page", page: "about" },
           { label: "⚗️ Chemical Industry Clients", action: "page", page: "about" },
           { label: "📈 See Project Portfolio", action: "page", page: "projects" },
-          { label: "🤝 Partner With Us", action: "external", url: "mailto:info.powerton@gmail.com?subject=Partnership Opportunity" }
+          { label: "🤝 Partner With Us", action: "external", url: "mailto:info.powerton@gmail.com?subject=Partnership Opportunity" },
+          { label: "🔙 Back to Company Menu", action: "chat", response: "company-info" }
         ]
       };
     }
@@ -784,7 +798,8 @@ export default function Chatbot() {
           { label: "🤝 Our Clients", action: "chat", response: "major-clients" },
           { label: "📈 Success Stories", action: "page", page: "projects" },
           { label: "🎯 Why Choose Us", action: "chat", response: "why-choose-us" },
-          { label: "📞 Discuss Partnership", action: "external", url: "tel:+91-94627-71662" }
+          { label: "📞 Discuss Partnership", action: "external", url: "tel:+91-94627-71662" },
+          { label: "🔙 Back to Company Menu", action: "chat", response: "company-info" }
         ]
       };
     }
