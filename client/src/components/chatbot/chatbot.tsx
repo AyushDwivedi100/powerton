@@ -162,7 +162,7 @@ export default function Chatbot() {
     };
   }, [isOpen]);
 
-  // Initialize with welcome message
+  // Initialize with welcome message and auto-scroll
   useEffect(() => {
     if (isOpen && messages.length === 0) {
       setTimeout(() => {
@@ -175,6 +175,8 @@ export default function Chatbot() {
             { label: "💼 About Our Company", action: "chat", response: "company-info" }
           ]
         });
+        // Auto-scroll to bottom when chat opens
+        setTimeout(scrollToBottom, 600);
       }, 500);
     }
   }, [isOpen, messages.length]);
@@ -862,7 +864,7 @@ export default function Chatbot() {
                       
                       {/* Options for this specific bot message */}
                       {message.sender === 'bot' && lastBotMessageId === message.id && lastBotOptions.length > 0 && !isTyping && (
-                        <div className="ml-10 mt-2 space-y-3">
+                        <div className="ml-10 mt-2 flex flex-wrap gap-2">
                           {lastBotOptions.map((option, index) => (
                             <Button
                               key={index}
@@ -909,7 +911,7 @@ export default function Chatbot() {
                       value={inputValue}
                       onChange={(e) => setInputValue(e.target.value)}
                       onKeyPress={handleKeyPress}
-                      className="flex-1 border-gray-300 dark:border-gray-600 dark:bg-gray-800 focus:outline-none focus:ring-0 focus:border-gray-400 dark:focus:border-gray-500"
+                      className="flex-1 border-gray-300 dark:border-gray-600 dark:bg-gray-800 focus:outline-none focus:ring-0 focus:border-primary dark:focus:border-primary"
                     />
                     <Button onClick={handleSendMessage} size="sm">
                       <Send className="w-4 h-4" />
