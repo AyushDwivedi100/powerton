@@ -768,7 +768,7 @@ export default function Chatbot() {
                               onClick={() => handleOptionClick(option)}
                               variant="outline"
                               size="sm"
-                              className="justify-start h-auto py-2 px-3 text-left whitespace-normal w-fit min-w-0"
+                              className="justify-start h-auto py-2 px-3 text-left whitespace-normal w-fit min-w-0 border-gray-300 dark:border-gray-600 dark:hover:border-gray-500"
                             >
                               <span className="text-sm">{option.label}</span>
                               {option.action === 'external' && (
@@ -808,7 +808,7 @@ export default function Chatbot() {
                       value={inputValue}
                       onChange={(e) => setInputValue(e.target.value)}
                       onKeyPress={handleKeyPress}
-                      className="flex-1"
+                      className="flex-1 border-gray-300 dark:border-gray-600 dark:bg-gray-800"
                     />
                     <Button onClick={handleSendMessage} size="sm">
                       <Send className="w-4 h-4" />
