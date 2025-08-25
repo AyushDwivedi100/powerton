@@ -682,7 +682,7 @@ export default function Header() {
                                                 <Link
                                                   key={subcategory.id}
                                                   href={`/products/${subcategory.id}`}
-                                                  className="text-xs text-muted-foreground hover:text-secondary transition-colors block py-1 border-l-2 border-secondary/30 pl-2"
+                                                  className="text-xs text-muted-foreground hover:text-secondary transition-colors block py-1 border-l-2 border-secondary/30 hover:border-secondary pl-2"
                                                   onClick={() => {
                                                     setIsOpen(false);
                                                     setIsMobileProductsOpen(
