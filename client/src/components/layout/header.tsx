@@ -780,12 +780,12 @@ export default function Header() {
                           href="https://maps.app.goo.gl/jiap3sBYbM3r8Pn68"
                           target="_blank"
                           rel="noopener noreferrer"
-                          className="flex items-start hover:bg-slate-100 dark:hover:bg-slate-800 p-2 -m-2 rounded-md transition-colors cursor-pointer"
+                          className="flex items-start transition-colors cursor-pointer"
                           onClick={() => setIsOpen(false)}
                           aria-label="Open office location in Google Maps"
                         >
                           <MapPin className="w-4 h-4 mr-3 text-secondary flex-shrink-0 mt-0.5" />
-                          <div className="text-sm text-muted-foreground hover:text-primary transition-colors">
+                          <div className="text-sm text-foreground hover:text-primary transition-colors">
                             <div>{COMPANY_INFO.address.street}</div>
                             <div>
                               {COMPANY_INFO.address.city},{" "}
