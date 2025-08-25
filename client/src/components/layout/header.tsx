@@ -244,8 +244,8 @@ export default function Header() {
                     >
                       <Link
                         href={item.href}
-                        className={`text-primary dark:text-foreground hover:text-primary/80 dark:hover:text-foreground/80 transition-colors font-medium relative whitespace-nowrap ${
-                          isActive(item.href) ? "text-primary dark:text-foreground" : ""
+                        className={`text-foreground hover:text-primary transition-colors font-medium relative whitespace-nowrap ${
+                          isActive(item.href) ? "text-primary" : ""
                         }`}
                       >
                         <motion.span
@@ -277,14 +277,14 @@ export default function Header() {
                       className="relative services-dropdown-container"
                     >
                       <div
-                        className={`text-primary dark:text-foreground hover:text-primary/80 dark:hover:text-foreground/80 transition-colors font-medium relative flex items-center gap-1 cursor-pointer ${
-                          isActive("/services") ? "text-primary dark:text-foreground" : ""
+                        className={`text-foreground hover:text-primary transition-colors font-medium relative flex items-center gap-1 cursor-pointer ${
+                          isActive("/services") ? "text-primary" : ""
                         }`}
                         onMouseEnter={() => setIsServicesDropdownOpen(true)}
                         onMouseLeave={() => setIsServicesDropdownOpen(false)}
                         onClick={() => setIsServicesDropdownOpen(!isServicesDropdownOpen)}
                       >
-                        <Link href="/services" className="text-primary dark:text-foreground hover:text-primary/80 dark:hover:text-foreground/80">
+                        <Link href="/services" className="hover:text-primary">
                           Services
                         </Link>
                         <ChevronDown className="h-4 w-4" />
@@ -345,14 +345,14 @@ export default function Header() {
                       className="relative products-dropdown-container"
                     >
                       <div
-                        className={`text-primary dark:text-foreground hover:text-primary/80 dark:hover:text-foreground/80 transition-colors font-medium relative flex items-center gap-1 cursor-pointer ${
-                          isActive("/products") ? "text-primary dark:text-foreground" : ""
+                        className={`text-foreground hover:text-primary transition-colors font-medium relative flex items-center gap-1 cursor-pointer ${
+                          isActive("/products") ? "text-primary" : ""
                         }`}
                         onMouseEnter={() => setIsProductsDropdownOpen(true)}
                         onMouseLeave={() => setIsProductsDropdownOpen(false)}
                         onClick={() => setIsProductsDropdownOpen(!isProductsDropdownOpen)}
                       >
-                        <Link href="/products" className="text-primary dark:text-foreground hover:text-primary/80 dark:hover:text-foreground/80">
+                        <Link href="/products" className="hover:text-primary">
                           Products
                         </Link>
                         <ChevronDown className="h-4 w-4" />
@@ -431,8 +431,8 @@ export default function Header() {
                 >
                   <Link
                     href={item.href}
-                    className={`text-primary dark:text-foreground hover:text-primary/80 dark:hover:text-foreground/80 transition-colors font-medium relative whitespace-nowrap ${
-                      isActive(item.href) ? "text-primary dark:text-foreground" : ""
+                    className={`text-foreground hover:text-primary transition-colors font-medium relative whitespace-nowrap ${
+                      isActive(item.href) ? "text-primary" : ""
                     }`}
                   >
                     <motion.span
