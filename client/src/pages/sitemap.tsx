@@ -1,4 +1,4 @@
-import { Helmet } from "react-helmet-async";
+import { SEO } from "@/lib/seo";
 import { Link } from "wouter";
 import { 
   Building2, 
@@ -197,21 +197,32 @@ export default function Sitemap() {
   ];
 
   return (
-    <div className="min-h-screen bg-background">
-      <Helmet>
-        <title>Sitemap - Powerton Engineering</title>
-        <meta 
-          name="description" 
-          content="Complete sitemap of Powerton Engineering website. Navigate through all our industrial automation services, projects, and resources." 
-        />
-        <meta property="og:title" content="Sitemap - Powerton Engineering" />
-        <meta 
-          property="og:description" 
-          content="Complete sitemap of Powerton Engineering website. Navigate through all our industrial automation services, projects, and resources." 
-        />
-      </Helmet>
+    <>
+      <SEO 
+        title="Sitemap - Powerton Engineering | Complete Website Navigation"
+        description="Complete sitemap of Powerton Engineering website. Navigate through all our industrial automation services, products, projects, resources, and engineering solutions. Find any page quickly."
+        keywords="sitemap, website navigation, powerton engineering, industrial automation, electrical engineering, products, services, projects, site structure"
+        canonicalUrl="https://powertonengineering.in/sitemap"
+        structuredData={{
+          "@context": "https://schema.org",
+          "@type": "WebPage",
+          "name": "Sitemap - Powerton Engineering",
+          "description": "Complete website navigation and page structure for Powerton Engineering",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Powerton Engineering Pvt. Ltd.",
+            "url": "https://powertonengineering.in"
+          },
+          "mainEntity": {
+            "@type": "SiteNavigationElement",
+            "name": "Powerton Engineering Website Navigation",
+            "description": "Complete navigation structure for industrial automation website"
+          }
+        }}
+      />
 
-      <div className="container mx-auto px-4 md:px-6 lg:px-8 py-12 md:py-16 lg:py-20">
+      <div className="min-h-screen bg-background">
+        <div className="container mx-auto px-4 md:px-6 lg:px-8 py-12 md:py-16 lg:py-20">
         <div className="max-w-4xl mx-auto">
           {/* Header */}
           <div className="text-center mb-12">
@@ -341,5 +352,6 @@ export default function Sitemap() {
         </div>
       </div>
     </div>
+    </>
   );
 }

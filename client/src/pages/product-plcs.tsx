@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'wouter';
+import { SEO } from "@/lib/seo";
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
@@ -30,7 +31,35 @@ const PLCsPage = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-background">
+    <>
+      <SEO 
+        title="PLCs (Programmable Logic Controllers) - Industrial Automation | Powerton Engineering"
+        description="High-quality PLCs from leading manufacturers: Siemens SIMATIC, Allen-Bradley CompactLogix, Schneider Modicon. Expert PLC programming, installation & support across India."
+        keywords="PLCs, programmable logic controllers, Siemens SIMATIC, Allen-Bradley CompactLogix, Schneider Modicon, industrial automation controllers, PLC programming, factory automation"
+        canonicalUrl="https://powertonengineering.in/product-plcs"
+        structuredData={{
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "PLCs (Programmable Logic Controllers)",
+          "description": "Industrial PLCs for automation and process control applications",
+          "category": "Industrial Automation Equipment",
+          "brand": {
+            "@type": "Organization",
+            "name": "Powerton Engineering Pvt. Ltd."
+          },
+          "offers": {
+            "@type": "Offer",
+            "availability": "https://schema.org/InStock",
+            "priceCurrency": "INR",
+            "seller": {
+              "@type": "Organization",
+              "name": "Powerton Engineering Pvt. Ltd."
+            }
+          }
+        }}
+      />
+
+      <div className="min-h-screen bg-background">
       {/* Hero Section */}
       <div className="relative bg-gradient-to-br from-primary/10 via-primary/5 to-background py-20">
         <div 
@@ -187,6 +216,7 @@ const PLCsPage = () => {
         </div>
       </div>
     </div>
+    </>
   );
 };
 

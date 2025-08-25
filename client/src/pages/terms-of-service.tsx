@@ -1,22 +1,33 @@
-import { Helmet } from "react-helmet-async";
+import { SEO } from "@/lib/seo";
 import { FileText, Scale, AlertTriangle, Shield, Mail, Phone } from "lucide-react";
 import { COMPANY_INFO } from "@/data/constants";
 
 export default function TermsOfService() {
   return (
     <div className="min-h-screen bg-background">
-      <Helmet>
-        <title>Terms of Service - Powerton Engineering</title>
-        <meta 
-          name="description" 
-          content="Terms of Service for Powerton Engineering Pvt. Ltd. Read our terms and conditions for using our industrial automation services and website." 
-        />
-        <meta property="og:title" content="Terms of Service - Powerton Engineering" />
-        <meta 
-          property="og:description" 
-          content="Terms of Service for Powerton Engineering Pvt. Ltd. Read our terms and conditions for using our industrial automation services and website." 
-        />
-      </Helmet>
+      <SEO 
+        title="Terms of Service - Powerton Engineering Pvt. Ltd."
+        description="Terms of Service for Powerton Engineering Pvt. Ltd. Read our comprehensive terms and conditions for using our industrial automation services, products, and website."
+        keywords="terms of service, terms and conditions, powerton engineering, legal terms, service agreement, industrial automation terms, user agreement"
+        canonicalUrl="https://powertonengineering.in/terms-of-service"
+        structuredData={{
+          "@context": "https://schema.org",
+          "@type": "WebPage",
+          "name": "Terms of Service - Powerton Engineering",
+          "description": "Legal terms and conditions for using Powerton Engineering services and website",
+          "dateModified": "2024-12-01",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Powerton Engineering Pvt. Ltd.",
+            "url": "https://powertonengineering.in"
+          },
+          "mainEntity": {
+            "@type": "TermsOfService",
+            "name": "Powerton Engineering Terms of Service",
+            "text": "Terms and conditions governing the use of Powerton Engineering services"
+          }
+        }}
+      />
 
       <div className="container mx-auto px-4 md:px-6 lg:px-8 py-12 md:py-16 lg:py-20">
         <div className="max-w-4xl mx-auto">

@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'wouter';
+import { SEO } from "@/lib/seo";
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
@@ -30,7 +31,35 @@ const SolarPanelsPage = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-background">
+    <>
+      <SEO 
+        title="Solar Panels - Monocrystalline & Polycrystalline | Powerton Engineering"
+        description="High-efficiency solar panels: Monocrystalline (400W), Polycrystalline (320W), and Bifacial (450W). Complete solar energy solutions with installation support across India."
+        keywords="solar panels, monocrystalline solar panels, polycrystalline solar panels, bifacial solar panels, solar energy systems, renewable energy, solar installation India"
+        canonicalUrl="https://powertonengineering.in/product-solar-panels"
+        structuredData={{
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Solar Panels",
+          "description": "High-efficiency solar panel solutions for renewable energy generation",
+          "category": "Solar Energy Equipment",
+          "brand": {
+            "@type": "Organization",
+            "name": "Powerton Engineering Pvt. Ltd."
+          },
+          "offers": {
+            "@type": "Offer",
+            "availability": "https://schema.org/InStock",
+            "priceCurrency": "INR",
+            "seller": {
+              "@type": "Organization",
+              "name": "Powerton Engineering Pvt. Ltd."
+            }
+          }
+        }}
+      />
+
+      <div className="min-h-screen bg-background">
       {/* Hero Section */}
       <div className="relative bg-gradient-to-br from-primary/10 via-primary/5 to-background py-20">
         <div 
@@ -190,6 +219,7 @@ const SolarPanelsPage = () => {
         </div>
       </div>
     </div>
+    </>
   );
 };
 
