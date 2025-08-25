@@ -261,10 +261,6 @@ export default function Header() {
                             transition={{ duration: 0.3 }}
                           />
                         )}
-                        {/* Hover line indicator */}
-                        {!isActive(item.href) && (
-                          <div className="absolute -bottom-1 left-0 right-0 h-0.5 bg-primary scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-out origin-center" />
-                        )}
                       </Link>
                     </motion.div>
 
@@ -299,10 +295,6 @@ export default function Header() {
                             animate={{ opacity: 1, scaleX: 1 }}
                             transition={{ duration: 0.3 }}
                           />
-                        )}
-                        {/* Hover line indicator */}
-                        {!isActive("/services") && (
-                          <div className="absolute -bottom-1 left-0 right-0 h-0.5 bg-primary scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-out origin-center" />
                         )}
                       </div>
 
@@ -372,10 +364,6 @@ export default function Header() {
                             animate={{ opacity: 1, scaleX: 1 }}
                             transition={{ duration: 0.3 }}
                           />
-                        )}
-                        {/* Hover line indicator */}
-                        {!isActive("/products") && (
-                          <div className="absolute -bottom-1 left-0 right-0 h-0.5 bg-primary scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-out origin-center" />
                         )}
                       </div>
 
@@ -463,14 +451,6 @@ export default function Header() {
                         initial={{ opacity: 0, scaleX: 0 }}
                         animate={{ opacity: 1, scaleX: 1 }}
                         transition={{ duration: 0.3 }}
-                      />
-                    )}
-                    {/* Hover line indicator */}
-                    {!isActive(item.href) && (
-                      <motion.div
-                        className="absolute -bottom-1 left-0 right-0 h-0.5 bg-primary opacity-0 scale-x-0"
-                        whileHover={{ opacity: 1, scaleX: 1 }}
-                        transition={{ duration: 0.3, ease: "easeOut" }}
                       />
                     )}
                   </Link>
