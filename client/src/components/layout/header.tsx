@@ -401,7 +401,7 @@ export default function Header() {
                                         <Link
                                           key={subcategory.id}
                                           href={`/products/${subcategory.id}`}
-                                          className="block px-2 lg:px-3 py-1 lg:py-2 rounded-sm hover:bg-muted hover:text-foreground cursor-pointer transition-colors text-xs lg:text-sm border-l-2 border-primary/40 hover:border-primary"
+                                          className="block px-2 lg:px-3 py-1 lg:py-2 rounded-sm hover:bg-slate-100 dark:hover:bg-slate-800 hover:text-foreground cursor-pointer transition-colors text-xs lg:text-sm border-l-2 border-primary/40 hover:border-primary"
                                           onClick={() => setIsProductsDropdownOpen(false)}
                                         >
                                           <div className="font-medium text-foreground line-clamp-1">
@@ -783,7 +783,7 @@ export default function Header() {
                           href="https://maps.app.goo.gl/jiap3sBYbM3r8Pn68"
                           target="_blank"
                           rel="noopener noreferrer"
-                          className="flex items-start hover:bg-muted/70 p-2 -m-2 rounded-md transition-colors cursor-pointer"
+                          className="flex items-start hover:bg-slate-100 dark:hover:bg-slate-800 p-2 -m-2 rounded-md transition-colors cursor-pointer"
                           onClick={() => setIsOpen(false)}
                           aria-label="Open office location in Google Maps"
                         >
