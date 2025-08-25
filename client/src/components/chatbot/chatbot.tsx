@@ -747,7 +747,7 @@ export default function Chatbot() {
                           className={`max-w-[75%] p-3 rounded-lg text-sm ${
                             message.sender === 'user'
                               ? 'bg-primary text-primary-foreground ml-auto'
-                              : 'bg-muted text-foreground dark:text-white'
+                              : 'bg-muted text-foreground dark:text-gray-200'
                           }`}
                         >
                           {message.text}
