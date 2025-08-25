@@ -36,13 +36,14 @@ export default function Chatbot() {
   const messagesContainerRef = useRef<HTMLDivElement>(null);
 
   const scrollToBottom = () => {
-    // Add a small delay to ensure the DOM has updated
+    // Force immediate scroll without smooth behavior for reliability
+    if (messagesContainerRef.current) {
+      messagesContainerRef.current.scrollTop = messagesContainerRef.current.scrollHeight;
+    }
+    // Also use scrollIntoView as fallback
     setTimeout(() => {
-      if (messagesContainerRef.current) {
-        messagesContainerRef.current.scrollTop = messagesContainerRef.current.scrollHeight;
-      }
-      messagesEndRef.current?.scrollIntoView({ behavior: "smooth", block: "end" });
-    }, 100);
+      messagesEndRef.current?.scrollIntoView({ behavior: "auto", block: "end" });
+    }, 50);
   };
 
   useEffect(() => {
@@ -100,6 +101,11 @@ export default function Chatbot() {
       document.body.style.top = `-${scrollY}px`;
       document.body.style.width = '100%';
       document.documentElement.style.overflow = 'hidden';
+      
+      // Auto-scroll to bottom when chat opens with proper delay
+      setTimeout(() => {
+        scrollToBottom();
+      }, 800);
     } else {
       // Re-enable body scroll when chatbot is closed
       const scrollY = document.body.style.top;
@@ -911,7 +917,7 @@ export default function Chatbot() {
                       value={inputValue}
                       onChange={(e) => setInputValue(e.target.value)}
                       onKeyPress={handleKeyPress}
-                      className="flex-1 border-gray-300 dark:border-gray-600 dark:bg-gray-800 focus:outline-none focus:ring-0 focus:border-primary dark:focus:border-primary"
+                      className="chatbot-input flex-1 border-gray-300 dark:border-gray-600 dark:bg-gray-800"
                     />
                     <Button onClick={handleSendMessage} size="sm">
                       <Send className="w-4 h-4" />

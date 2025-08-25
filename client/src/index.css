@@ -197,6 +197,27 @@ body.sidebar-open {
   bottom: 0 !important;
 }
 
+/* Remove all focus outlines and rings from chatbot input */
+.chatbot-input,
+.chatbot-input:focus,
+.chatbot-input:focus-visible,
+.chatbot-input:active {
+  outline: none !important;
+  box-shadow: none !important;
+  border-color: hsl(215, 20%, 85%) !important;
+  ring: 0 !important;
+  --tw-ring-shadow: none !important;
+  --tw-ring-offset-shadow: none !important;
+  --tw-shadow: none !important;
+}
+
+.dark .chatbot-input,
+.dark .chatbot-input:focus,
+.dark .chatbot-input:focus-visible,
+.dark .chatbot-input:active {
+  border-color: hsl(215, 20%, 30%) !important;
+}
+
 /* Allow sheets and dialogs to scroll when sidebar is open */
 body.sidebar-open [data-radix-dialog-content],
 body.sidebar-open [data-radix-sheet-content] {
