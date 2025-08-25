@@ -119,7 +119,7 @@ export default function ProductSensors() {
               <Link href="/contact">
                 <Button 
                   variant="outline" 
-                  className="border-2 border-white text-white hover:bg-background hover:text-foreground px-8 py-3 text-lg font-semibold w-full sm:w-auto"
+                  className="border-2 border-border text-white hover:bg-background hover:text-foreground px-8 py-3 text-lg font-semibold w-full sm:w-auto"
                 >
                   Contact Us
                 </Button>
@@ -332,7 +332,7 @@ export default function ProductSensors() {
               <Link href="/quote">
                 <Button 
                   variant="outline" 
-                  className="border-2 border-white text-white hover:bg-background hover:text-foreground px-8 py-3 text-lg font-semibold w-full sm:w-auto"
+                  className="border-2 border-border text-white hover:bg-background hover:text-foreground px-8 py-3 text-lg font-semibold w-full sm:w-auto"
                 >
                   <Mail className="mr-2 w-5 h-5" />
                   Get Quote

@@ -63,7 +63,7 @@ export default function AboutSection() {
                 {/* Professional engineering visual */}
                 <div className="relative">
                   <div className="absolute inset-0 bg-gradient-to-br from-black/20 to-black/40 rounded-lg"></div>
-                  <div className="relative bg-white/10 backdrop-blur-sm rounded-lg p-6 border border-white/20">
+                  <div className="relative bg-white/10 backdrop-blur-sm rounded-lg p-6 border border-border/20">
                     <div className="text-center">
                       <div className="w-16 h-16 bg-secondary rounded-full flex items-center justify-center mx-auto mb-4">
                         <Cog className="w-8 h-8 text-white" aria-hidden="true" />

@@ -254,7 +254,7 @@ export default function Projects() {
               <Link href="/contact" className="mobile-full">
                 <Button 
                   variant="outline" 
-                  className="border-2 border-white text-white hover:bg-background hover:text-foreground px-6 py-3 rounded-lg font-semibold transition-all"
+                  className="border-2 border-border text-white hover:bg-background hover:text-foreground px-6 py-3 rounded-lg font-semibold transition-all"
                 >
                   Discuss Your Project
                 </Button>

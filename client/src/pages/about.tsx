@@ -232,7 +232,7 @@ export default function About() {
             <Link href="/services">
               <Button 
                 variant="outline" 
-                className="border-2 border-white text-white hover:bg-background hover:text-foreground text-lg px-8 py-4"
+                className="border-2 border-border text-white hover:bg-background hover:text-foreground text-lg px-8 py-4"
               >
                 Explore Our Services
               </Button>

@@ -104,7 +104,7 @@ export default function ContactSection() {
             </div>
 
             <motion.div 
-              className="relative overflow-hidden rounded-xl p-6 bg-gradient-to-br from-white/95 to-blue-50/80 dark:from-slate-800/95 dark:to-slate-700/90 shadow-lg border border-white/20 dark:border-slate-600/30"
+              className="relative overflow-hidden rounded-xl p-6 bg-gradient-to-br from-white/95 to-blue-50/80 dark:from-slate-800/95 dark:to-slate-700/90 shadow-lg border border-border/20 dark:border-border/30"
               whileHover={{ scale: 1.02, y: -4 }}
               transition={{ duration: 0.3, ease: "easeOut" }}
             >

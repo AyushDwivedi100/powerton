@@ -190,7 +190,7 @@ export default function HeroSection() {
               <Link href="/quote" className="w-full sm:w-auto">
                 <Button 
                   variant="outline" 
-                  className="w-full sm:w-auto text-sm sm:text-base md:text-lg px-4 sm:px-6 md:px-8 py-3 sm:py-4 border-white text-white hover:bg-white hover:text-primary dark:border-white dark:text-white dark:hover:bg-white dark:hover:text-primary transition-all duration-300 bg-white/10 backdrop-blur-sm"
+                  className="w-full sm:w-auto text-sm sm:text-base md:text-lg px-4 sm:px-6 md:px-8 py-3 sm:py-4 border-border text-white hover:bg-white hover:text-primary dark:border-border dark:text-white dark:hover:bg-white dark:hover:text-primary transition-all duration-300 bg-white/10 backdrop-blur-sm"
                   aria-label="Request free consultation for your engineering project"
                 >
                   Request Consultation
@@ -224,7 +224,7 @@ export default function HeroSection() {
 
       {/* Stats Section - fully theme responsive */}
       <motion.div 
-        className="relative bg-white/10 dark:bg-black/20 backdrop-blur-sm border-t border-white/20 dark:border-white/10"
+        className="relative bg-white/10 dark:bg-black/20 backdrop-blur-sm border-t border-border/20 dark:border-border/10"
         initial="hidden"
         animate="visible"
         variants={statsVariants}

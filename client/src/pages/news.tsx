@@ -565,7 +565,7 @@ export default function News() {
               </Button>
             </Link>
             <Link href="/projects">
-              <Button variant="outline" className="border-2 border-white text-white hover:bg-background hover:text-foreground px-6 py-3 rounded-lg font-semibold transition-all">
+              <Button variant="outline" className="border-2 border-border text-white hover:bg-background hover:text-foreground px-6 py-3 rounded-lg font-semibold transition-all">
                 View Our Projects
               </Button>
             </Link>
