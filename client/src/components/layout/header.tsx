@@ -244,7 +244,7 @@ export default function Header() {
                     >
                       <Link
                         href={item.href}
-                        className={`text-foreground font-medium relative whitespace-nowrap ${
+                        className={`text-foreground font-medium relative whitespace-nowrap group ${
                           isActive(item.href) ? "text-primary" : ""
                         }`}
                       >
@@ -263,11 +263,7 @@ export default function Header() {
                         )}
                         {/* Hover line indicator */}
                         {!isActive(item.href) && (
-                          <motion.div
-                            className="absolute -bottom-1 left-0 right-0 h-0.5 bg-primary opacity-0 scale-x-0"
-                            whileHover={{ opacity: 1, scaleX: 1 }}
-                            transition={{ duration: 0.3, ease: "easeOut" }}
-                          />
+                          <div className="absolute -bottom-1 left-0 right-0 h-0.5 bg-primary scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-out origin-center" />
                         )}
                       </Link>
                     </motion.div>
@@ -283,7 +279,7 @@ export default function Header() {
                       className="relative services-dropdown-container"
                     >
                       <div
-                        className={`text-foreground font-medium relative flex items-center gap-1 cursor-pointer ${
+                        className={`text-foreground font-medium relative flex items-center gap-1 cursor-pointer group ${
                           isActive("/services") ? "text-primary" : ""
                         }`}
                         onMouseEnter={() => setIsServicesDropdownOpen(true)}
@@ -306,11 +302,7 @@ export default function Header() {
                         )}
                         {/* Hover line indicator */}
                         {!isActive("/services") && (
-                          <motion.div
-                            className="absolute -bottom-1 left-0 right-0 h-0.5 bg-primary opacity-0 scale-x-0"
-                            whileHover={{ opacity: 1, scaleX: 1 }}
-                            transition={{ duration: 0.3, ease: "easeOut" }}
-                          />
+                          <div className="absolute -bottom-1 left-0 right-0 h-0.5 bg-primary scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-out origin-center" />
                         )}
                       </div>
 
@@ -360,7 +352,7 @@ export default function Header() {
                       className="relative products-dropdown-container"
                     >
                       <div
-                        className={`text-foreground font-medium relative flex items-center gap-1 cursor-pointer ${
+                        className={`text-foreground font-medium relative flex items-center gap-1 cursor-pointer group ${
                           isActive("/products") ? "text-primary" : ""
                         }`}
                         onMouseEnter={() => setIsProductsDropdownOpen(true)}
@@ -383,11 +375,7 @@ export default function Header() {
                         )}
                         {/* Hover line indicator */}
                         {!isActive("/products") && (
-                          <motion.div
-                            className="absolute -bottom-1 left-0 right-0 h-0.5 bg-primary opacity-0 scale-x-0"
-                            whileHover={{ opacity: 1, scaleX: 1 }}
-                            transition={{ duration: 0.3, ease: "easeOut" }}
-                          />
+                          <div className="absolute -bottom-1 left-0 right-0 h-0.5 bg-primary scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-out origin-center" />
                         )}
                       </div>
 
