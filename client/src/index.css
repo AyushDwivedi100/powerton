@@ -354,32 +354,7 @@ body.sidebar-open [data-radix-sheet-content] {
   border-color: hsl(215, 20%, 82%);
 }
 
-/* Professional navigation styling - subtle upward movement and blue color on hover */
-/* Target regular navigation links (About, Projects, Gallery, News, Contact) */
-:root nav .hidden.lg\:flex a.text-foreground:hover {
-  transform: translateY(-2px);
-  color: hsl(215, 89%, 33%) !important;
-}
-
-/* Target Services and Products dropdown containers specifically */
-:root .services-dropdown-container:hover > div,
-:root .products-dropdown-container:hover > div {
-  transform: translateY(-2px);
-  color: hsl(215, 89%, 33%) !important;
-}
-
-/* Add transitions for all navigation elements */
-:root nav .hidden.lg\:flex a.text-foreground,
-:root .services-dropdown-container > div,
-:root .products-dropdown-container > div {
-  transition: transform 0.2s ease-in-out, color 0.2s ease-in-out;
-}
-
-/* Exclude logo from any hover effects */
-:root nav a[href="/"]:hover {
-  transform: none !important;
-  color: inherit !important;
-}
+/* Professional navigation styling - background removed as per user request */
 
 /* Enhanced dropdown styling */
 :root .dropdown-content {
