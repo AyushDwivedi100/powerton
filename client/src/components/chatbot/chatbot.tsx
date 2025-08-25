@@ -261,8 +261,8 @@ export default function Chatbot() {
         });
       }, 500);
     } else if (isOpen && isInitialized && messages.length > 0) {
-      // Auto-scroll to bottom when reopening existing conversation
-      setTimeout(() => scrollToBottom(true), 100);
+      // Immediately scroll to bottom when reopening existing conversation - no animation
+      scrollToBottom(true);
     }
   }, [isOpen, isInitialized, messages.length]);
 
