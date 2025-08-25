@@ -244,7 +244,7 @@ export default function Header() {
                     >
                       <Link
                         href={item.href}
-                        className={`text-foreground hover:text-primary transition-colors font-medium relative whitespace-nowrap ${
+                        className={`text-black hover:text-primary transition-colors font-medium relative whitespace-nowrap ${
                           isActive(item.href) ? "text-primary" : ""
                         }`}
                       >
@@ -277,7 +277,7 @@ export default function Header() {
                       className="relative services-dropdown-container"
                     >
                       <div
-                        className={`text-foreground hover:text-primary transition-colors font-medium relative flex items-center gap-1 cursor-pointer ${
+                        className={`text-black hover:text-primary transition-colors font-medium relative flex items-center gap-1 cursor-pointer ${
                           isActive("/services") ? "text-primary" : ""
                         }`}
                         onMouseEnter={() => setIsServicesDropdownOpen(true)}
@@ -345,7 +345,7 @@ export default function Header() {
                       className="relative products-dropdown-container"
                     >
                       <div
-                        className={`text-foreground hover:text-primary transition-colors font-medium relative flex items-center gap-1 cursor-pointer ${
+                        className={`text-black hover:text-primary transition-colors font-medium relative flex items-center gap-1 cursor-pointer ${
                           isActive("/products") ? "text-primary" : ""
                         }`}
                         onMouseEnter={() => setIsProductsDropdownOpen(true)}
@@ -431,7 +431,7 @@ export default function Header() {
                 >
                   <Link
                     href={item.href}
-                    className={`text-foreground hover:text-primary transition-colors font-medium relative whitespace-nowrap ${
+                    className={`text-black hover:text-primary transition-colors font-medium relative whitespace-nowrap ${
                       isActive(item.href) ? "text-primary" : ""
                     }`}
                   >
