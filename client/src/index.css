@@ -354,7 +354,12 @@ body.sidebar-open [data-radix-sheet-content] {
   border-color: hsl(215, 20%, 82%);
 }
 
-/* Professional navigation styling - background removed as per user request */
+/* Main navigation links hover effect - only for top-level nav items */
+:root nav .hidden.lg\\:flex a:hover,
+:root nav .hidden.lg\\:flex .cursor-pointer:hover {
+  color: hsl(215, 89%, 33%);
+  transition: color 0.2s ease-in-out;
+}
 
 /* Enhanced dropdown styling */
 :root .dropdown-content {
