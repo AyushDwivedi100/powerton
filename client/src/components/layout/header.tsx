@@ -251,6 +251,7 @@ export default function Header() {
                         <span>
                           {item.name}
                         </span>
+                        {/* Active page indicator */}
                         {isActive(item.href) && (
                           <motion.div
                             className="absolute -bottom-1 left-0 right-0 h-0.5 bg-primary"
@@ -258,6 +259,14 @@ export default function Header() {
                             initial={{ opacity: 0, scaleX: 0 }}
                             animate={{ opacity: 1, scaleX: 1 }}
                             transition={{ duration: 0.3 }}
+                          />
+                        )}
+                        {/* Hover line indicator */}
+                        {!isActive(item.href) && (
+                          <motion.div
+                            className="absolute -bottom-1 left-0 right-0 h-0.5 bg-primary opacity-0 scale-x-0"
+                            whileHover={{ opacity: 1, scaleX: 1 }}
+                            transition={{ duration: 0.3, ease: "easeOut" }}
                           />
                         )}
                       </Link>
