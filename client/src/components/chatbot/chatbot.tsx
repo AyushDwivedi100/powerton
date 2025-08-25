@@ -39,15 +39,38 @@ export default function Chatbot() {
   const chatWindowRef = useRef<HTMLDivElement>(null);
   const messagesContainerRef = useRef<HTMLDivElement>(null);
 
-  const scrollToBottom = () => {
-    // Force immediate scroll without smooth behavior for reliability
-    if (messagesContainerRef.current) {
-      messagesContainerRef.current.scrollTop = messagesContainerRef.current.scrollHeight;
-    }
-    // Also use scrollIntoView as fallback
-    setTimeout(() => {
-      messagesEndRef.current?.scrollIntoView({ behavior: "auto", block: "end" });
-    }, 50);
+  const scrollToBottom = (force: boolean = false) => {
+    const performScroll = () => {
+      if (messagesContainerRef.current) {
+        // Get current and target scroll positions
+        const container = messagesContainerRef.current;
+        const currentScroll = container.scrollTop;
+        const maxScroll = container.scrollHeight - container.clientHeight;
+        
+        // Only auto-scroll if user is near bottom (within 100px) or forced
+        const nearBottom = currentScroll >= maxScroll - 100;
+        
+        if (force || nearBottom) {
+          container.scrollTop = container.scrollHeight;
+          
+          // Backup scroll using scrollIntoView
+          setTimeout(() => {
+            messagesEndRef.current?.scrollIntoView({ 
+              behavior: "auto", 
+              block: "end",
+              inline: "nearest" 
+            });
+          }, 10);
+        }
+      }
+    };
+
+    // Use requestAnimationFrame for better timing with DOM updates
+    requestAnimationFrame(() => {
+      performScroll();
+      // Double-check after a brief delay to handle dynamic content
+      setTimeout(performScroll, 50);
+    });
   };
 
   // Load persisted conversation state on component mount
@@ -113,8 +136,14 @@ export default function Chatbot() {
     }
   }, [lastBotMessageId, isInitialized]);
 
+  // Smart auto-scroll that only triggers for new content
   useEffect(() => {
-    scrollToBottom();
+    if (messages.length > 0) {
+      const lastMessage = messages[messages.length - 1];
+      // Force scroll for user messages, gentle scroll for bot messages
+      const shouldForceScroll = lastMessage.sender === 'user';
+      scrollToBottom(shouldForceScroll);
+    }
   }, [messages]);
 
   // Measure header height dynamically
@@ -248,12 +277,10 @@ export default function Chatbot() {
             { label: "💼 About Our Company", action: "chat", response: "company-info" }
           ]
         });
-        // Auto-scroll to bottom when chat opens
-        setTimeout(scrollToBottom, 600);
       }, 500);
     } else if (isOpen && isInitialized && messages.length > 0) {
       // Auto-scroll to bottom when reopening existing conversation
-      setTimeout(scrollToBottom, 300);
+      setTimeout(() => scrollToBottom(true), 300);
     }
   }, [isOpen, isInitialized, messages.length]);
 
@@ -278,6 +305,16 @@ export default function Chatbot() {
       if (response.options) {
         setLastBotOptions(response.options);
         setLastBotMessageId(newMessage.id);
+        
+        // Scroll after options are set and DOM has updated
+        setTimeout(() => {
+          scrollToBottom(true);
+        }, 100);
+      } else {
+        // Scroll immediately if no options
+        setTimeout(() => {
+          scrollToBottom(true);
+        }, 50);
       }
     }, 1000);
   };
