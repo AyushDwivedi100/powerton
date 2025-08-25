@@ -244,7 +244,7 @@ export default function Header() {
                     >
                       <Link
                         href={item.href}
-                        className={`text-foreground font-medium relative whitespace-nowrap group ${
+                        className={`text-foreground font-medium relative whitespace-nowrap group hover:text-primary transition-colors duration-200 ${
                           isActive(item.href) ? "text-primary" : ""
                         }`}
                       >
@@ -275,7 +275,7 @@ export default function Header() {
                       className="relative services-dropdown-container"
                     >
                       <div
-                        className={`text-foreground font-medium relative flex items-center gap-1 cursor-pointer group ${
+                        className={`text-foreground font-medium relative flex items-center gap-1 cursor-pointer group hover:text-primary transition-colors duration-200 ${
                           isActive("/services") ? "text-primary" : ""
                         }`}
                         onMouseEnter={() => setIsServicesDropdownOpen(true)}
@@ -344,7 +344,7 @@ export default function Header() {
                       className="relative products-dropdown-container"
                     >
                       <div
-                        className={`text-foreground font-medium relative flex items-center gap-1 cursor-pointer group ${
+                        className={`text-foreground font-medium relative flex items-center gap-1 cursor-pointer group hover:text-primary transition-colors duration-200 ${
                           isActive("/products") ? "text-primary" : ""
                         }`}
                         onMouseEnter={() => setIsProductsDropdownOpen(true)}
@@ -431,7 +431,7 @@ export default function Header() {
                 >
                   <Link
                     href={item.href}
-                    className={`text-foreground font-medium relative whitespace-nowrap group ${
+                    className={`text-foreground font-medium relative whitespace-nowrap group hover:text-primary transition-colors duration-200 ${
                       isActive(item.href) ? "text-primary" : ""
                     }`}
                   >
