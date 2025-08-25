@@ -126,12 +126,13 @@ export default function Header() {
           >
             <motion.a
               href={`tel:${COMPANY_INFO.phone}`}
-              className="flex items-center shrink-0"
+              className="flex items-center hover:text-secondary transition-colors hover-scale shrink-0"
               aria-label={`Call us at ${COMPANY_INFO.phone}`}
               variants={{
                 hidden: { opacity: 0, x: -20 },
                 visible: { opacity: 1, x: 0 },
               }}
+              whileHover={{ scale: 1.05 }}
               transition={{ duration: 0.2 }}
             >
               <Phone
@@ -144,12 +145,13 @@ export default function Header() {
             </motion.a>
             <motion.a
               href={`mailto:${COMPANY_INFO.email}`}
-              className="flex items-center shrink-0"
+              className="flex items-center hover:text-secondary transition-colors hover-scale shrink-0"
               aria-label={`Email us at ${COMPANY_INFO.email}`}
               variants={{
                 hidden: { opacity: 0, x: -20 },
                 visible: { opacity: 1, x: 0 },
               }}
+              whileHover={{ scale: 1.05 }}
               transition={{ duration: 0.2 }}
             >
               <Mail
@@ -169,7 +171,7 @@ export default function Header() {
               transition={{ duration: 0.4, delay: 0.35 }}
               className="flex items-center"
             >
-              <div className="p-1 rounded-md bg-accent/10">
+              <div className="p-1 rounded-md bg-accent/10 hover:bg-accent/20 transition-colors">
                 <ThemeToggle />
               </div>
             </motion.div>
@@ -178,11 +180,12 @@ export default function Header() {
               href="https://maps.app.goo.gl/jiap3sBYbM3r8Pn68"
               target="_blank"
               rel="noopener noreferrer"
-              className="hidden md:flex items-center cursor-pointer"
+              className="hidden md:flex items-center hover:text-secondary transition-colors cursor-pointer hover-scale"
               aria-label="Open office location in Google Maps"
               initial={{ opacity: 0, x: 20 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.6, delay: 0.3 }}
+              whileHover={{ scale: 1.05 }}
             >
               <span className="flex items-center">
                 <MapPin

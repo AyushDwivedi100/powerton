@@ -330,9 +330,6 @@ body.sidebar-open [data-radix-sheet-content] {
 }
 
 /* Enhanced button hover states for light theme */
-:root .bg-primary:hover {
-  background: hsl(215, 89%, 28%);
-}
 
 :root .bg-secondary:hover {
   background: hsl(20, 91%, 43%);
