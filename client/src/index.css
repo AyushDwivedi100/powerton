@@ -355,9 +355,23 @@ body.sidebar-open [data-radix-sheet-content] {
 }
 
 /* Professional navigation styling - subtle upward movement and blue color on hover */
-:root nav a:hover {
+/* Target all navigation links except logo (href="/") */
+:root nav a:hover:not([href="/"]) {
   transform: translateY(-2px);
   color: hsl(215, 89%, 33%);
+}
+
+/* Target Services and Products dropdown containers */
+:root .services-dropdown-container:hover,
+:root .products-dropdown-container:hover {
+  transform: translateY(-2px);
+  color: hsl(215, 89%, 33%);
+}
+
+/* Ensure smooth transitions for all navigation elements */
+:root nav a:not([href="/"]),
+:root .services-dropdown-container,
+:root .products-dropdown-container {
   transition: transform 0.2s ease-in-out, color 0.2s ease-in-out;
 }
 
