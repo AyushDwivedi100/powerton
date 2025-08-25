@@ -212,7 +212,7 @@ body.sidebar-open [data-radix-sheet-content] {
   --card-foreground: hsl(215, 25%, 12%);
   --popover: hsl(0, 0%, 100%);
   --popover-foreground: hsl(215, 25%, 12%);
-  --primary: hsl(215, 89%, 33%);
+  --primary: hsl(215, 89%, 55%);
   --primary-foreground: hsl(0, 0%, 100%);
   --secondary: hsl(20, 91%, 48%);
   --secondary-foreground: hsl(0, 0%, 100%);
@@ -232,7 +232,7 @@ body.sidebar-open [data-radix-sheet-content] {
   --chart-5: hsl(340, 75%, 55%);
   --sidebar: hsl(0, 0%, 100%);
   --sidebar-foreground: hsl(215, 25%, 12%);
-  --sidebar-primary: hsl(215, 89%, 33%);
+  --sidebar-primary: hsl(215, 89%, 55%);
   --sidebar-primary-foreground: hsl(0, 0%, 100%);
   --sidebar-accent: hsl(215, 20%, 92%);
   --sidebar-accent-foreground: hsl(215, 89%, 33%);
@@ -251,7 +251,7 @@ body.sidebar-open [data-radix-sheet-content] {
   --card-foreground: hsl(210, 40%, 95%);
   --popover: hsl(220, 25%, 12%);
   --popover-foreground: hsl(210, 40%, 95%);
-  --primary: hsl(215, 89%, 55%);
+  --primary: hsl(215, 89%, 33%);
   --primary-foreground: hsl(0, 0%, 100%);
   --secondary: hsl(20, 91%, 55%);
   --secondary-foreground: hsl(0, 0%, 100%);
@@ -266,7 +266,7 @@ body.sidebar-open [data-radix-sheet-content] {
   --ring: hsl(215, 89%, 55%);
   --sidebar: hsl(220, 25%, 12%);
   --sidebar-foreground: hsl(210, 40%, 95%);
-  --sidebar-primary: hsl(215, 89%, 55%);
+  --sidebar-primary: hsl(215, 89%, 33%);
   --sidebar-primary-foreground: hsl(0, 0%, 100%);
   --sidebar-accent: hsl(220, 25%, 18%);
   --sidebar-accent-foreground: hsl(215, 89%, 55%);
