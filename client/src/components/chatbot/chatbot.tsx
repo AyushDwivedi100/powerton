@@ -701,7 +701,7 @@ export default function Chatbot() {
         {isOpen && (
           <motion.div
             ref={chatWindowRef}
-            className="fixed left-1/2 transform -translate-x-1/2 sm:left-auto sm:right-6 sm:transform-none sm:translate-x-0 z-40 w-[calc(100vw-2rem)] sm:w-80 md:w-96 max-w-sm sm:max-w-none"
+            className="fixed right-4 left-4 sm:left-auto sm:right-6 z-40 w-auto sm:w-80 md:w-96 max-w-none"
             style={{ 
               top: `${headerHeight + 16}px`, 
               bottom: '88px',
