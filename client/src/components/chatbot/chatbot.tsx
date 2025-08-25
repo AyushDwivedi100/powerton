@@ -40,37 +40,19 @@ export default function Chatbot() {
   const messagesContainerRef = useRef<HTMLDivElement>(null);
 
   const scrollToBottom = (force: boolean = false) => {
-    const performScroll = () => {
-      if (messagesContainerRef.current) {
-        // Get current and target scroll positions
-        const container = messagesContainerRef.current;
-        const currentScroll = container.scrollTop;
-        const maxScroll = container.scrollHeight - container.clientHeight;
-        
-        // Only auto-scroll if user is near bottom (within 100px) or forced
-        const nearBottom = currentScroll >= maxScroll - 100;
-        
-        if (force || nearBottom) {
-          container.scrollTop = container.scrollHeight;
-          
-          // Backup scroll using scrollIntoView
-          setTimeout(() => {
-            messagesEndRef.current?.scrollIntoView({ 
-              behavior: "auto", 
-              block: "end",
-              inline: "nearest" 
-            });
-          }, 10);
-        }
-      }
-    };
-
-    // Use requestAnimationFrame for better timing with DOM updates
-    requestAnimationFrame(() => {
-      performScroll();
-      // Double-check after a brief delay to handle dynamic content
-      setTimeout(performScroll, 50);
-    });
+    if (!messagesContainerRef.current) return;
+    
+    const container = messagesContainerRef.current;
+    const currentScroll = container.scrollTop;
+    const maxScroll = container.scrollHeight - container.clientHeight;
+    
+    // Only auto-scroll if user is near bottom (within 50px) or forced
+    const nearBottom = currentScroll >= maxScroll - 50;
+    
+    if (force || nearBottom) {
+      // Simple, fast scroll - no animations or delays
+      container.scrollTop = container.scrollHeight;
+    }
   };
 
   // Load persisted conversation state on component mount
@@ -136,13 +118,13 @@ export default function Chatbot() {
     }
   }, [lastBotMessageId, isInitialized]);
 
-  // Smart auto-scroll that only triggers for new content
+  // Auto-scroll on new messages with minimal delay
   useEffect(() => {
     if (messages.length > 0) {
-      const lastMessage = messages[messages.length - 1];
-      // Force scroll for user messages, gentle scroll for bot messages
-      const shouldForceScroll = lastMessage.sender === 'user';
-      scrollToBottom(shouldForceScroll);
+      // Small delay to ensure DOM is updated, then scroll
+      setTimeout(() => {
+        scrollToBottom(true);
+      }, 10);
     }
   }, [messages]);
 
@@ -280,7 +262,7 @@ export default function Chatbot() {
       }, 500);
     } else if (isOpen && isInitialized && messages.length > 0) {
       // Auto-scroll to bottom when reopening existing conversation
-      setTimeout(() => scrollToBottom(true), 300);
+      setTimeout(() => scrollToBottom(true), 100);
     }
   }, [isOpen, isInitialized, messages.length]);
 
@@ -305,17 +287,8 @@ export default function Chatbot() {
       if (response.options) {
         setLastBotOptions(response.options);
         setLastBotMessageId(newMessage.id);
-        
-        // Scroll after options are set and DOM has updated
-        setTimeout(() => {
-          scrollToBottom(true);
-        }, 100);
-      } else {
-        // Scroll immediately if no options
-        setTimeout(() => {
-          scrollToBottom(true);
-        }, 50);
       }
+      // Scroll will happen automatically via useEffect when messages update
     }, 1000);
   };
 
