@@ -354,7 +354,12 @@ body.sidebar-open [data-radix-sheet-content] {
   border-color: hsl(215, 20%, 82%);
 }
 
-/* Professional navigation styling - background removed as per user request */
+/* Professional navigation styling - subtle upward movement and blue color on hover */
+:root nav a:hover {
+  transform: translateY(-2px);
+  color: hsl(215, 89%, 33%);
+  transition: transform 0.2s ease-in-out, color 0.2s ease-in-out;
+}
 
 /* Enhanced dropdown styling */
 :root .dropdown-content {
