@@ -278,9 +278,26 @@
       "description": "Nos hemos asociado con líderes de la industria en varios sectores para entregar soluciones de ingeniería excepcionales.",
       "testimonialsTitle": "Lo que Dicen Nuestros Clientes"
     }
-      "description": "Desde automatización de procesos hasta contratos de mantenimiento, proporcionamos soluciones de ingeniería integrales adaptadas a sus requisitos industriales."
-    },
-    "products": {
+  },
+  "contact": {
+    "hero": {
+      "title": "Contacte a Nuestros Expertos en Ingeniería",
+      "subtitle": "¿Listo para comenzar su próximo proyecto? Nuestro equipo de expertos está aquí para ayudarle con soluciones de ingeniería personalizadas y consulta profesional."
+    }
+  },
+  "about": {
+    "hero": {
+      "title": "Acerca de Powerton Engineering",
+      "subtitle": "Su socio confiable en la entrega de soluciones de ingeniería de alta calidad por más de 15 años."
+    }
+  },
+  "projects": {
+    "hero": {
+      "title": "Nuestros Proyectos",
+      "subtitle": "Descubra nuestra excelencia en ingeniería a través de más de 1200 proyectos exitosos en diversas industrias."
+    }
+  },
+  "products": {
       "label": "Nuestros Productos",
       "title": "Soluciones de Equipos de Automatización Industrial",
       "description": "Gama integral de productos eléctricos y de automatización diseñados para confiabilidad, eficiencia y rendimiento superior en entornos industriales.",
