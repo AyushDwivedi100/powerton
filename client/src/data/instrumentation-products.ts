@@ -34,9 +34,9 @@ export const INSTRUMENTATION_PRODUCTS: InstrumentationProduct[] = [
   // SENSORS
   {
     id: 'sensors',
-    title: 'Industrial Sensors',
-    shortDescription: 'Comprehensive range of industrial-grade sensors for automation and process control',
-    fullDescription: 'Advanced sensor solutions including temperature, pressure, position, motion, flow, level, proximity, and specialized sensors. Our sensor portfolio features digital temperature sensors with silicon-based ICs, pressure sensors for water conservancy and industrial applications, position sensors with MEMS technology, and vision sensors with image processing systems for quality control.',
+    title: 'products-data:instrumentation.sensors.title',
+    shortDescription: 'products-data:instrumentation.sensors.shortDescription',
+    fullDescription: 'products-data:instrumentation.sensors.fullDescription',
     image: sensorsImage,
     category: 'sensors',
     specifications: [

@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'wouter';
+import { useTranslation } from 'react-i18next';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
@@ -7,55 +8,57 @@ import { ArrowLeft, Thermometer, Radio, Cpu, ToggleLeft, Gauge, FlaskConical, Za
 import instrumentationLabImage from '@assets/generated_images/Instrumentation_components_laboratory_58f97192.png';
 
 const InstrumentationComponents = () => {
+  const { t } = useTranslation(['common', 'products', 'products-data']);
+  
   const subcategories = [
     {
       id: "sensors",
-      title: "Sensors",
-      description: "Temperature, pressure, position, and motion sensors for industrial automation",
+      title: t('products-data:instrumentation.sensors.title'),
+      description: t('products-data:instrumentation.sensors.shortDescription'),
       icon: Thermometer,
-      features: ["Temperature Sensors", "Pressure Transmitters", "Position Sensors", "Proximity Sensors"]
+      features: t('products-data:instrumentation.sensors.specifications', { returnObjects: true }) as string[]
     },
     {
       id: "transmitters",
-      title: "Transmitters & Transducers",
-      description: "Signal conversion and transmission devices for measurement applications",
+      title: t('products-data:instrumentation.transmitters.title'),
+      description: t('products-data:instrumentation.transmitters.shortDescription'),
       icon: Radio,
-      features: ["Pressure Transmitters", "Temperature Transmitters", "Flow Transmitters", "Level Transmitters"]
+      features: t('products-data:instrumentation.transmitters.specifications', { returnObjects: true }) as string[]
     },
     {
       id: "controllers",
-      title: "Controllers & Recorders",
-      description: "Process controllers and data recording systems for industrial control",
+      title: t('common:aria.controllerSystems', 'Controllers & Recorders'),
+      description: t('common:aria.controllerDescription', 'Process controllers and data recording systems for industrial control'),
       icon: Cpu,
-      features: ["PLC Systems", "Process Controllers", "Data Loggers", "Control Panels"]
+      features: [t('common:aria.plcSystems', 'PLC Systems'), t('common:aria.processControllers', 'Process Controllers'), t('common:aria.dataLoggers', 'Data Loggers'), t('common:aria.controlPanels', 'Control Panels')]
     },
     {
       id: "switches",
-      title: "Switches & Indicators",
-      description: "Industrial switches, indicators, and signaling devices",
+      title: t('common:aria.switchesIndicators', 'Switches & Indicators'),
+      description: t('common:aria.switchesDescription', 'Industrial switches, indicators, and signaling devices'),
       icon: ToggleLeft,
-      features: ["Pushbutton Switches", "Selector Switches", "Indicator Lights", "Emergency Stops"]
+      features: [t('common:aria.pushbuttonSwitches', 'Pushbutton Switches'), t('common:aria.selectorSwitches', 'Selector Switches'), t('common:aria.indicatorLights', 'Indicator Lights'), t('common:aria.emergencyStops', 'Emergency Stops')]
     },
     {
       id: "valves",
-      title: "Valves & Actuators",
-      description: "Control valves and actuators for process control systems",
+      title: t('common:aria.valvesActuators', 'Valves & Actuators'),
+      description: t('common:aria.valvesDescription', 'Control valves and actuators for process control systems'),
       icon: Gauge,
-      features: ["Control Valves", "Pneumatic Actuators", "Electric Actuators", "Valve Positioners"]
+      features: [t('common:aria.controlValves', 'Control Valves'), t('common:aria.pneumaticActuators', 'Pneumatic Actuators'), t('common:aria.electricActuators', 'Electric Actuators'), t('common:aria.valvePositioners', 'Valve Positioners')]
     },
     {
       id: "analyzers",
-      title: "Analyzers",
-      description: "Gas, liquid, and process analyzers for quality control",
+      title: t('common:aria.analyzers', 'Analyzers'),
+      description: t('common:aria.analyzersDescription', 'Gas, liquid, and process analyzers for quality control'),
       icon: FlaskConical,
-      features: ["Gas Analyzers", "Liquid Analyzers", "Process Analyzers", "Multi-parameter Systems"]
+      features: [t('common:aria.gasAnalyzers', 'Gas Analyzers'), t('common:aria.liquidAnalyzers', 'Liquid Analyzers'), t('common:aria.processAnalyzers', 'Process Analyzers'), t('common:aria.multiParameterSystems', 'Multi-parameter Systems')]
     },
     {
       id: "signal-conditioners",
-      title: "Signal Conditioners",
-      description: "Signal processing and conditioning equipment for measurement systems",
+      title: t('common:aria.signalConditioners', 'Signal Conditioners'),
+      description: t('common:aria.signalConditionersDescription', 'Signal processing and conditioning equipment for measurement systems'),
       icon: Zap,
-      features: ["Isolation Amplifiers", "Signal Converters", "Measuring Transducers", "Noise Filters"]
+      features: [t('common:aria.isolationAmplifiers', 'Isolation Amplifiers'), t('common:aria.signalConverters', 'Signal Converters'), t('common:aria.measuringTransducers', 'Measuring Transducers'), t('common:aria.noiseFilters', 'Noise Filters')]
     }
   ];
 
