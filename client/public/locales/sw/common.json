@@ -25,6 +25,10 @@
   "loading": "Inapakia...",
   "error": "Kitu kimekwenda vibaya",
   "success": "Mafanikio!",
+  "messages": {
+    "toggleTheme": "Badilisha mandhari",
+    "close": "Funga"
+  },
   "labels": {
     "responseTime": "Muda wa majibu",
     "availability": "Upatikanaji",

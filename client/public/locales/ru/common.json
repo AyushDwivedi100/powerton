@@ -26,6 +26,10 @@
   "loading": "Загрузка...",
   "error": "Что-то пошло не так",
   "success": "Успех!",
+  "messages": {
+    "toggleTheme": "Переключить тему",
+    "close": "Закрыть"
+  },
   "labels": {
     "responseTime": "Время отклика",
     "availability": "Доступность",

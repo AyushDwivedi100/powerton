@@ -25,6 +25,10 @@
   "loading": "正在加载...",
   "error": "出了点问题",
   "success": "成功！",
+  "messages": {
+    "toggleTheme": "切换主题",
+    "close": "关闭"
+  },
   "labels": {
     "responseTime": "响应时间",
     "availability": "可用性",

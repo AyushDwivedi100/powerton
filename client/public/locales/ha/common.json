@@ -25,6 +25,10 @@
   "loading": "Ana lodawa...",
   "error": "Wani abu ya yi kuskure",
   "success": "Nasara!",
+  "messages": {
+    "toggleTheme": "Canza jigo",
+    "close": "Rufe"
+  },
   "labels": {
     "responseTime": "Lokacin amsawa",
     "availability": "Samun damar",

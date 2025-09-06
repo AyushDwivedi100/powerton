@@ -25,6 +25,10 @@
   "loading": "جاري التحميل...",
   "error": "حدث خطأ ما",
   "success": "نجح!",
+  "messages": {
+    "toggleTheme": "تبديل السمة",
+    "close": "إغلاق"
+  },
   "labels": {
     "responseTime": "وقت الاستجابة",
     "availability": "التوفر",

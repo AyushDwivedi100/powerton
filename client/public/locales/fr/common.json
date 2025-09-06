@@ -25,6 +25,10 @@
   "loading": "Chargement...",
   "error": "Quelque chose s'est mal passé",
   "success": "Succès !",
+  "messages": {
+    "toggleTheme": "Changer de thème",
+    "close": "Fermer"
+  },
   "labels": {
     "responseTime": "Temps de réponse",
     "availability": "Disponibilité",
