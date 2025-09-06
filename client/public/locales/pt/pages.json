@@ -119,6 +119,32 @@
           "metro": "Metro Mais Próximo"
         }
       }
+    },
+    "contact": {
+      "label": "Entre em Contato",
+      "title": "Vamos Discutir Suas Necessidades de Engenharia",
+      "description": "Pronto para começar seu próximo projeto? Entre em contato com nossa equipe de especialistas para soluções personalizadas e consulta profissional.",
+      "getInTouch": "Entre em Contato",
+      "methods": {
+        "phone": {
+          "title": "Telefone",
+          "description": "Disponível 24/7 para suporte de emergência"
+        },
+        "email": {
+          "title": "Email",
+          "description": "Responderemos em 24 horas"
+        },
+        "address": {
+          "title": "Endereço",
+          "metro": "Estação de Metrô Mais Próxima"
+        }
+      }
+    },
+    "clients": {
+      "label": "Nossos Clientes",
+      "title": "Confiável por Marcas e Organizações Líderes",
+      "description": "Fizemos parcerias com líderes da indústria em vários setores para entregar soluções de engenharia excepcionais.",
+      "testimonialsTitle": "O que Nossos Clientes Dizem"
     }
   },
   "products": {

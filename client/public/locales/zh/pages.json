@@ -232,21 +232,48 @@
     "products": {
       "label": "我们的产品",
       "title": "工业自动化设备解决方案",
-      "description": "全面的电气和自动化产品系列，专为工业环境中的可靠性、效率和卓越性能而设计。",
+      "description": "为工业环境中的可靠性、效率和卓越性能而设计的全面电气和自动化产品。",
       "viewProducts": "查看产品",
       "viewCatalog": "查看完整产品目录"
     },
     "projects": {
       "label": "我们的项目",
       "title": "成功交付的工程解决方案",
-      "description": "探索我们已完成项目的组合，展示我们在工业自动化和电气工程方面的专业知识。",
+      "description": "探索我们完成的项目组合，展示我们在工业自动化和电气工程方面的专业知识。",
       "completed": "已完成",
-      "keyFeatures": "主要特点：",
+      "keyFeatures": "主要特征：",
       "viewDetails": "查看详情",
       "viewAllProjects": "查看所有项目",
       "downloadPortfolio": "下载作品集"
     },
-    "about": {
+    "contact": {
+      "label": "联系我们",
+      "title": "让我们讨论您的工程需求",
+      "description": "准备开始您的下一个项目？联系我们的专家团队获取定制解决方案和专业咨询。",
+      "getInTouch": "联系",
+      "methods": {
+        "phone": {
+          "title": "电话",
+          "description": "全天候紧急支持"
+        },
+        "email": {
+          "title": "电子邮件",
+          "description": "我们将在24小时内回复"
+        },
+        "address": {
+          "title": "地址",
+          "metro": "最近的地铁站"
+        }
+      }
+    },
+    "clients": {
+      "label": "我们的客户",
+      "title": "受到领先品牌和组织的信赖",
+      "description": "我们与各个行业的行业领导者合作，提供卓越的工程解决方案。",
+      "testimonialsTitle": "客户评价"
+    }
+  },
+  "about": {
       "label": "关于我们",
       "title": "欢迎来到 Powerton Engineering Pvt. Ltd.",
       "description": "您在提供高质量工程解决方案和服务方面的可信赖合作伙伴。公司秉承通过创新和卓越赋能工业的愿景而成立，我们专业提供全面的电气和仪表产品系列。",
