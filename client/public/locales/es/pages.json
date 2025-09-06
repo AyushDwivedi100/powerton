@@ -361,7 +361,16 @@
   },
   "projects": {
     "title": "Nuestros Proyectos",
-    "subtitle": "Excelencia en Automatización Industrial"
+    "subtitle": "Excelencia en Automatización Industrial",
+    "showing": "Mostrando {{count}} de {{total}} proyectos",
+    "hero": {
+      "title": "Nuestros Proyectos",
+      "subtitle": "Descubre nuestra excelencia en ingeniería a través de más de 1200 proyectos exitosos en diversas industrias, mostrando innovación, calidad y confiabilidad."
+    }
+  },
+  "ui": {
+    "projectPortfolio": "Portafolio de Proyectos",
+    "featuredProjects": "Proyectos Destacados"
   },
   "gallery": {
     "title": "Galería de Proyectos",

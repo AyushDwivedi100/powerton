@@ -103,7 +103,9 @@
     "viewAll": "सभी देखें",
     "contactUs": "संपर्क करें",
     "getStarted": "शुरू करें",
-    "downloadBrochure": "ब्रोशर डाउनलोड करें"
+    "downloadBrochure": "ब्रोशर डाउनलोड करें",
+    "downloadPortfolio": "पोर्टफोलियो डाउनलोड करें",
+    "showFilters": "फिल्टर दिखाएं"
   },
   "labels": {
     "businessHours": "व्यावसायिक घंटे",
@@ -117,7 +119,9 @@
     "timeline": "समयसीमा",
     "location": "स्थान",
     "budget": "बजट",
-    "requirements": "आवश्यकताएं"
+    "requirements": "आवश्यकताएं",
+    "category": "श्रेणी",
+    "status": "स्थिति"
   },
   "placeholders": {
     "selectProjectType": "परियोजना प्रकार चुनें",
@@ -132,7 +136,11 @@
     "yourPhone": "+91-XXXXX-XXXXX",
     "yourRole": "आपकी भूमिका/पद",
     "yourCompanyName": "आपकी कंपनी का नाम",
-    "briefProjectTitle": "आपकी परियोजना का संक्षिप्त शीर्षक"
+    "briefProjectTitle": "आपकी परियोजना का संक्षिप्त शीर्षक",
+    "searchProjects": "परियोजनाएं, ग्राहक या तकनीकें खोजें...",
+    "selectIndustryFilter": "उद्योग फिल्टर चुनें",
+    "selectCategory": "श्रेणी चुनें",
+    "selectStatus": "स्थिति चुनें"
   },
   "steps": {
     "projectTypeIndustry": "परियोजना प्रकार और उद्योग",

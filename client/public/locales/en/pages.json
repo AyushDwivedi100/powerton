@@ -391,7 +391,16 @@
   },
   "projects": {
     "title": "Our Projects",
-    "subtitle": "Industrial Automation Excellence"
+    "subtitle": "Industrial Automation Excellence",
+    "showing": "Showing {{count}} of {{total}} projects",
+    "hero": {
+      "title": "Our Projects",
+      "subtitle": "Discover our engineering excellence through 1200+ successful projects across diverse industries, showcasing innovation, quality, and reliability."
+    }
+  },
+  "ui": {
+    "projectPortfolio": "Project Portfolio",
+    "featuredProjects": "Featured Projects"
   },
   "gallery": {
     "hero": {

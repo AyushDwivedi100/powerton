@@ -106,14 +106,19 @@
     "viewAll": "View All",
     "contactUs": "Contact Us",
     "getStarted": "Get Started",
-    "downloadBrochure": "Download Brochure"
+    "downloadBrochure": "Download Brochure",
+    "downloadPortfolio": "Download Portfolio",
+    "showFilters": "Show Filters"
   },
   "labels": {
     "businessHours": "Business Hours",
     "mondayToSaturday": "Monday - Saturday",
     "workingHours": "9:00 AM - 6:00 PM",
     "sunday": "Sunday",
-    "emergencySupport": "Emergency Support Only"
+    "emergencySupport": "Emergency Support Only",
+    "category": "Category",
+    "status": "Status",
+    "industry": "Industry"
   },
   "cta": {
     "getQuote": "Get Quote",
@@ -220,6 +225,12 @@
       "pharmaceutical": "Pharmaceutical",
       "renewableEnergy": "Renewable Energy"
     }
+  },
+  "placeholders": {
+    "searchProjects": "Search projects, clients, or technologies...",
+    "selectIndustryFilter": "Select Industry Filter",
+    "selectCategory": "Select Category",
+    "selectStatus": "Select Status"
   },
   "copyright": {
     "text": "© {{year}} Powerton Engineering Pvt. Ltd. All rights reserved.",
