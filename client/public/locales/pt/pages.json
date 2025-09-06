@@ -9,7 +9,7 @@
         "main": "Soluções Abrangentes para",
         "highlight": "Sucesso Industrial"
       },
-      "subtitle": "Nosso amplo portfólio de produtos e serviços oferece soluções abrangentes que impulsionam o sucesso industrial, garantindo que todos os aspectos das suas necessidades de engenharia sejam atendidos.",
+      "subtitle": "Nosso amplo portfólio de produtos e serviços oferece soluções abrangentes que impulsionam o sucesso industrial, garantindo que todos os aspectos de suas necessidades de engenharia sejam cobertos.",
       "buttons": {
         "exploreServices": "Explore Nossos Serviços",
         "requestConsultation": "Solicitar Consulta"
@@ -29,7 +29,7 @@
     "services": {
       "label": "Nossos Serviços",
       "title": "Soluções especializadas para todas as necessidades, entregues com cuidado excepcional",
-      "description": "Da automação de processos aos contratos de manutenção, fornecemos soluções de engenharia abrangentes adaptadas às suas necessidades industriais."
+      "description": "Desde automação de processos até contratos de manutenção, fornecemos soluções de engenharia abrangentes adaptadas aos seus requisitos industriais."
     },
     "products": {
       "label": "Nossos Produtos",
@@ -41,44 +41,24 @@
     "projects": {
       "label": "Nossos Projetos",
       "title": "Soluções de Engenharia Entregues com Sucesso",
-      "description": "Explore nosso portfólio de projetos concluídos que mostram nossa experiência em automação industrial e engenharia elétrica.",
+      "description": "Explore nosso portfólio de projetos concluídos que mostram nossa expertise em automação industrial e engenharia elétrica.",
       "completed": "Concluído",
       "keyFeatures": "Características Principais:",
       "viewDetails": "Ver Detalhes",
       "viewAllProjects": "Ver Todos os Projetos",
       "downloadPortfolio": "Baixar Portfólio"
     },
-    "about": {
-      "label": "Sobre Nós",
-      "title": "Bem-vindos à Powerton Engineering Pvt. Ltd.",
-      "description": "Seu parceiro confiável na entrega de soluções e serviços de engenharia de alta qualidade. Fundada com a visão de capacitar indústrias através da inovação e excelência, especializamo-nos em fornecer uma gama abrangente de produtos elétricos e instrumentais.",
-      "visualHeading": "Engenharia Profissional",
-      "visualDescription": "Engenheiros indianos profissionais trabalhando em automação industrial e sistemas de controle",
-      "button": "Saiba Mais Sobre Nós",
-      "features": {
-        "electrical": {
-          "title": "Elétrica e Instrumentação",
-          "description": "Gama completa de sistemas de controle"
-        },
-        "mechanical": {
-          "title": "Bombas Mecânicas",
-          "description": "Soluções de bombas duráveis e peças de reposição"
-        },
-        "solar": {
-          "title": "Soluções Solares",
-          "description": "Instalações de energia sustentável"
-        },
-        "tools": {
-          "title": "Ferramentas Industriais",
-          "description": "Equipamentos de nível profissional"
-        }
-      }
+    "clients": {
+      "label": "Nossos Clientes",
+      "title": "Confiado por Marcas e Organizações Líderes",
+      "description": "Fizemos parceria com líderes da indústria em vários setores para entregar soluções de engenharia excepcionais.",
+      "testimonialsTitle": "O que Nossos Clientes Dizem"
     },
     "contact": {
       "label": "Entre em Contato",
       "title": "Vamos Discutir Suas Necessidades de Engenharia",
-      "description": "Pronto para começar seu próximo projeto? Entre em contato com nossa equipe especializada para soluções personalizadas e consulta profissional.",
-      "getInTouch": "Entrar em Contato",
+      "description": "Pronto para começar seu próximo projeto? Entre em contato com nossa equipe especializada para soluções personalizadas e consultoria profissional.",
+      "getInTouch": "Entre em Contato",
       "methods": {
         "phone": {
           "title": "Telefone",
@@ -86,65 +66,13 @@
         },
         "email": {
           "title": "Email",
-          "description": "Responderemos em até 24 horas"
+          "description": "Responderemos dentro de 24 horas"
         },
         "address": {
           "title": "Endereço",
           "metro": "Metrô Mais Próximo"
         }
       }
-    },
-    "clients": {
-      "label": "Nossos Clientes",
-      "title": "Confiado por Marcas e Organizações Líderes",
-      "description": "Fizemos parcerias com líderes do setor em vários setores para fornecer soluções de engenharia excepcionais.",
-      "testimonialsTitle": "O Que Nossos Clientes Dizem"
-    },
-    "contact": {
-      "label": "Contacte-nos",
-      "title": "Vamos Discutir Suas Necessidades de Engenharia",
-      "description": "Pronto para iniciar seu próximo projeto? Entre em contato com nossa equipe especializada para soluções personalizadas e consultoria profissional.",
-      "getInTouch": "Entre em Contato",
-      "methods": {
-        "phone": {
-          "title": "Telefone",
-          "description": "Disponível 24/7 para suporte de emergência"
-        },
-        "email": {
-          "title": "E-mail",
-          "description": "Responderemos dentro de 24 horas"
-        },
-        "address": {
-          "title": "Endereço",
-          "metro": "Metro Mais Próximo"
-        }
-      }
-    },
-    "contact": {
-      "label": "Entre em Contato",
-      "title": "Vamos Discutir Suas Necessidades de Engenharia",
-      "description": "Pronto para começar seu próximo projeto? Entre em contato com nossa equipe de especialistas para soluções personalizadas e consulta profissional.",
-      "getInTouch": "Entre em Contato",
-      "methods": {
-        "phone": {
-          "title": "Telefone",
-          "description": "Disponível 24/7 para suporte de emergência"
-        },
-        "email": {
-          "title": "Email",
-          "description": "Responderemos em 24 horas"
-        },
-        "address": {
-          "title": "Endereço",
-          "metro": "Estação de Metrô Mais Próxima"
-        }
-      }
-    },
-    "clients": {
-      "label": "Nossos Clientes",
-      "title": "Confiável por Marcas e Organizações Líderes",
-      "description": "Fizemos parcerias com líderes da indústria em vários setores para entregar soluções de engenharia excepcionais.",
-      "testimonialsTitle": "O que Nossos Clientes Dizem"
     }
   },
   "products": {
@@ -178,8 +106,7 @@
       "projects": "Projetos",
       "about": "Sobre"
     }
-  }
-},
+  },
   "projects": {
     "title": "Nossos Projetos",
     "subtitle": "Excelência em Automação Industrial",

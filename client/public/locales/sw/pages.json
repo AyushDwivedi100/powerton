@@ -156,5 +156,77 @@
   "contact": {
     "title": "Wasiliana Nasi",
     "subtitle": "Hebu tuzungumze kuhusu mahitaji yako ya uhandisi"
+  },
+  "home": {
+    "hero": {
+      "title": {
+        "main": "Masuluhisho ya Kina kwa",
+        "highlight": "Mafanikio ya Viwanda"
+      },
+      "subtitle": "Mkusanyiko wetu wa bidhaa na huduma hutoa masuluhisho yote yanayohitajika ambayo husababisha mafanikio ya viwanda, yakihakikisha kwamba kila kipengele cha mahitaji yako ya uhandisi kimeshughulikiwa.",
+      "buttons": {
+        "exploreServices": "Chunguza Huduma Zetu",
+        "requestConsultation": "Omba Ushauri"
+      },
+      "features": {
+        "experience": "Miaka 15+ ya Uzoefu",
+        "support": "Msaada wa Kiufundi 24/7",
+        "service": "Huduma ya Pan-India"
+      },
+      "stats": {
+        "yearsExperience": "Miaka ya Uzoefu",
+        "projectsCompleted": "Miradi Iliyokamilika",
+        "happyClients": "Wateja Wenye Furaha",
+        "supportAvailable": "Msaada Unapatikana"
+      }
+    },
+    "services": {
+      "label": "Huduma Zetu",
+      "title": "Masuluhisho ya kitaalamu kwa mahitaji yote, yanapeanwa kwa malezi ya kipekee",
+      "description": "Kutoka kwa utaratibu wa michakato hadi mikataba ya matengenezo, tunatoa masuluhisho kamili ya uhandisi yaliyoundwa kulingana na mahitaji yako ya viwanda."
+    },
+    "products": {
+      "label": "Bidhaa Zetu",
+      "title": "Masuluhisho ya Vifaa vya Otomatiki ya Viwanda",
+      "description": "Safu kamili ya bidhaa za umeme na otomatiki zilizoundwa kwa kuaminika, ufanisi na utendaji bora katika mazingira ya viwanda.",
+      "viewProducts": "Ona Bidhaa",
+      "viewCatalog": "Ona Katalogi Kamili ya Bidhaa"
+    },
+    "projects": {
+      "label": "Miradi Yetu",
+      "title": "Masuluhisho ya Uhandisi Yaliyotolewa kwa Mafanikio",
+      "description": "Chunguza mkusanyiko wetu wa miradi iliyokamilika inayoonyesha utaalamu wetu katika otomatiki ya viwanda na uhandisi wa umeme.",
+      "completed": "Imekamilika",
+      "keyFeatures": "Vipengele Muhimu:",
+      "viewDetails": "Ona Maelezo",
+      "viewAllProjects": "Ona Miradi Yote",
+      "downloadPortfolio": "Pakua Portfolio"
+    },
+    "clients": {
+      "label": "Wateja Wetu",
+      "title": "Wanaaminiwa na Chapa na Mashirika Makuu",
+      "description": "Tumeshirikiana na viongozi wa viwanda katika sekta mbalimbali ili kutoa masuluhisho ya uhandisi ya kipekee.",
+      "testimonialsTitle": "Wateja Wetu Wanasema Nini"
+    },
+    "contact": {
+      "label": "Wasiliana Nasi",
+      "title": "Hebu Tuzungumze kuhusu Mahitaji Yako ya Uhandisi",
+      "description": "Tayari kuanza mradi wako unaofuata? Wasiliana na timu yetu ya wataalamu kwa masuluhisho maalum na ushauri wa kitaalamu.",
+      "getInTouch": "Kuwa Mawasiliano",
+      "methods": {
+        "phone": {
+          "title": "Simu",
+          "description": "Inapatikana 24/7 kwa msaada wa dharura"
+        },
+        "email": {
+          "title": "Barua pepe",
+          "description": "Tutajibu ndani ya masaa 24"
+        },
+        "address": {
+          "title": "Anwani",
+          "metro": "Metro ya Karibu"
+        }
+      }
+    }
   }
 }
