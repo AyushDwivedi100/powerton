@@ -1,4 +1,42 @@
 {
+  "home": {
+    "seo": {
+      "title": "Powerton Engineering - Sarrafa Masana'antu da Paneli na Sarrafa | Indiya",
+      "description": "Babban masana'anta na paneli na sarrafa wutar lantarki, tsarin sarrafa masana'antu da kuma hanyoyin kayan aiki. Sabis na injiniya na musamman a duk faɗin Indiya tare da gogewa fiye da shekaru 15."
+    }
+  },
+  "products": {
+    "seo": {
+      "title": "Catalog na Kayayyakin Masana'antu - Sarrafa da Kayan Lantarki | Powerton Engineering",
+      "description": "Catalog mai cikakke na kayayyakin sarrafa masana'antu, kayan lantarki, kayan aiki, tsarin hasken rana, famfo da kayan aiki. Kayan aiki masu inganci don amfani na masana'antu."
+    }
+  },
+  "services": {
+    "seo": {
+      "title": "Sabis na Injiniya na Ƙwararru - Shigarwa, Kulawa da Sarrafa | Powerton Engineering",
+      "description": "Sabis na injiniya na musamman: shirye-shiryen PLC, tsarin SCADA, sarrafa masana'antu, shigar da paneli na lantarki, kulawa, daidaitawa, hanyoyin keɓancewa da sabis na EPC na hasken rana a duk faɗin Indiya."
+    }
+  },
+  "notFound": {
+    "seo": {
+      "title": "Shafin Ba a Samu ba (404) - Powerton Engineering",
+      "description": "Shafin da kuke nema babu. Koma shafin farko na Powerton Engineering ko bincika sabis da kayayyakinmu na sarrafa masana'antu."
+    },
+    "title": "404",
+    "heading": "Shafin Ba a Samu ba",
+    "message": "Yi hakuri, shafin da kuke nema babu. Wataƙila an motsa shi, an share shi ko kun shigar da URL mara daidai.",
+    "buttons": {
+      "homepage": "Koma Gida",
+      "support": "Tuntuɓi Taimako"
+    },
+    "quickLinks": "Hanyoyin Sauri",
+    "links": {
+      "products": "Kayayyaki",
+      "services": "Sabis",
+      "projects": "Ayyuka",
+      "about": "Game da Mu"
+    }
+  },
   "contact": {
     "hero": {
       "title": "Contact Our Engineering Experts",

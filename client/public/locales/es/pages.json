@@ -1,4 +1,42 @@
 {
+  "home": {
+    "seo": {
+      "title": "Powerton Engineering - Automatización Industrial y Paneles de Control | India",
+      "description": "Fabricante líder de paneles de control eléctrico, sistemas de automatización industrial y soluciones de instrumentación. Servicios de ingeniería especializada en toda India con más de 15 años de experiencia."
+    }
+  },
+  "products": {
+    "seo": {
+      "title": "Catálogo de Productos Industriales - Automatización y Equipos Eléctricos | Powerton Engineering",
+      "description": "Catálogo integral de productos de automatización industrial, componentes eléctricos, instrumentación, sistemas solares, bombas y herramientas. Equipos de calidad para aplicaciones industriales."
+    }
+  },
+  "services": {
+    "seo": {
+      "title": "Servicios Profesionales de Ingeniería - Instalación, Mantenimiento y Automatización | Powerton Engineering",
+      "description": "Servicios de ingeniería especializada: programación PLC, sistemas SCADA, automatización industrial, instalación de paneles eléctricos, mantenimiento, calibración, soluciones personalizadas y servicios EPC solares en toda India."
+    }
+  },
+  "notFound": {
+    "seo": {
+      "title": "Página No Encontrada (404) - Powerton Engineering",
+      "description": "La página que buscas no existe. Regresa a la página de inicio de Powerton Engineering o explora nuestros servicios y productos de automatización industrial."
+    },
+    "title": "404",
+    "heading": "Página No Encontrada",
+    "message": "Lo sentimos, la página que buscas no existe. Puede que haya sido movida, eliminada o que hayas introducido una URL incorrecta.",
+    "buttons": {
+      "homepage": "Ir al Inicio",
+      "support": "Contactar Soporte"
+    },
+    "quickLinks": "Enlaces Rápidos",
+    "links": {
+      "products": "Productos",
+      "services": "Servicios",
+      "projects": "Proyectos",
+      "about": "Acerca de"
+    }
+  },
   "portfolioDownload": {
     "seo": {
       "title": "Descargar Portafolio - Powerton Engineering",

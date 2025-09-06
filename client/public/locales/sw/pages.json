@@ -1,5 +1,9 @@
 {
   "home": {
+    "seo": {
+      "title": "Powerton Engineering - Uongozaji wa Viwanda na Paneli za Udhibiti | India",
+      "description": "Mtengenezaji mkuu wa paneli za udhibiti wa umeme, mifumo ya uongozaji wa viwanda na suluhisho la vifaa. Huduma za kihandisi za kitaalamu katika India yote na uzoefu wa zaidi ya miaka 15."
+    },
     "hero": {
       "title": {
         "main": "Suluhisho Kamili za",
@@ -91,6 +95,39 @@
       }
     }
   },
+  "products": {
+    "seo": {
+      "title": "Orodha ya Bidhaa za Viwanda - Uongozaji na Vifaa vya Umeme | Powerton Engineering",
+      "description": "Orodha kamili ya bidhaa za uongozaji wa viwanda, vipengele vya umeme, vifaa, mifumo ya jua, pampu na vifaa. Vifaa vya ubora kwa matumizi ya viwanda."
+    }
+  },
+  "services": {
+    "seo": {
+      "title": "Huduma za Uhandisi wa Kitaalamu - Usakinishaji, Matengenezo na Uongozaji | Powerton Engineering",
+      "description": "Huduma za uhandisi wa kitaalamu: uprogramu wa PLC, mifumo ya SCADA, uongozaji wa viwanda, usakinishaji wa paneli za umeme, matengenezo, ukalibrasheni, suluhisho maalum na huduma za EPC za jua katika India yote."
+    }
+  },
+  "notFound": {
+    "seo": {
+      "title": "Ukurasa Haujapatikana (404) - Powerton Engineering",
+      "description": "Ukurasa unaoutafuta haupo. Rudi kwenye ukurasa mkuu wa Powerton Engineering au chunguza huduma na bidhaa zetu za uongozaji wa viwanda."
+    },
+    "title": "404",
+    "heading": "Ukurasa Haujapatikana",
+    "message": "Samahani, ukurasa unaoutafuta haupo. Labda umehamishwa, kufutwa au umeingiza URL isiyo sahihi.",
+    "buttons": {
+      "homepage": "Rudi Nyumbani",
+      "support": "Wasiliana na Msaada"
+    },
+    "quickLinks": "Viungo vya Haraka",
+    "links": {
+      "products": "Bidhaa",
+      "services": "Huduma",
+      "projects": "Miradi",
+      "about": "Kuhusu"
+    }
+  }
+},
   "projects": {
     "title": "Miradi Yetu",
     "subtitle": "Ubora wa Otomatiki ya Viwanda",

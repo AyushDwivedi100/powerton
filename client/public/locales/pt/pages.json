@@ -1,5 +1,9 @@
 {
   "home": {
+    "seo": {
+      "title": "Powerton Engineering - Automação Industrial e Painéis de Controle | Índia",
+      "description": "Fabricante líder de painéis de controle elétrico, sistemas de automação industrial e soluções de instrumentação. Serviços especializados de engenharia em toda a Índia com mais de 15 anos de experiência."
+    },
     "hero": {
       "title": {
         "main": "Soluções Abrangentes para",
@@ -91,6 +95,39 @@
       }
     }
   },
+  "products": {
+    "seo": {
+      "title": "Catálogo de Produtos Industriais - Automação e Equipamentos Elétricos | Powerton Engineering",
+      "description": "Catálogo abrangente de produtos de automação industrial, componentes elétricos, instrumentação, sistemas solares, bombas e ferramentas. Equipamentos de qualidade para aplicações industriais."
+    }
+  },
+  "services": {
+    "seo": {
+      "title": "Serviços Profissionais de Engenharia - Instalação, Manutenção e Automação | Powerton Engineering",
+      "description": "Serviços especializados de engenharia: programação PLC, sistemas SCADA, automação industrial, instalação de painéis elétricos, manutenção, calibração, soluções personalizadas e serviços EPC solares em toda a Índia."
+    }
+  },
+  "notFound": {
+    "seo": {
+      "title": "Página Não Encontrada (404) - Powerton Engineering",
+      "description": "A página que você está procurando não existe. Retorne à página inicial da Powerton Engineering ou explore nossos serviços e produtos de automação industrial."
+    },
+    "title": "404",
+    "heading": "Página Não Encontrada",
+    "message": "Desculpe, a página que você está procurando não existe. Ela pode ter sido movida, excluída ou você digitou uma URL incorreta.",
+    "buttons": {
+      "homepage": "Ir para Início",
+      "support": "Contatar Suporte"
+    },
+    "quickLinks": "Links Rápidos",
+    "links": {
+      "products": "Produtos",
+      "services": "Serviços",
+      "projects": "Projetos",
+      "about": "Sobre"
+    }
+  }
+},
   "projects": {
     "title": "Nossos Projetos",
     "subtitle": "Excelência em Automação Industrial",

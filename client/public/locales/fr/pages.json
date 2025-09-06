@@ -1,4 +1,42 @@
 {
+  "home": {
+    "seo": {
+      "title": "Powerton Engineering - Automatisation Industrielle et Panneaux de Contrôle | Inde",
+      "description": "Fabricant leader de panneaux de contrôle électrique, systèmes d'automatisation industrielle et solutions d'instrumentation. Services d'ingénierie spécialisés à travers l'Inde avec plus de 15 ans d'expérience."
+    }
+  },
+  "products": {
+    "seo": {
+      "title": "Catalogue de Produits Industriels - Automatisation et Équipements Électriques | Powerton Engineering",
+      "description": "Catalogue complet de produits d'automatisation industrielle, composants électriques, instrumentation, systèmes solaires, pompes et outils. Équipement de qualité pour applications industrielles."
+    }
+  },
+  "services": {
+    "seo": {
+      "title": "Services d'Ingénierie Professionnels - Installation, Maintenance et Automatisation | Powerton Engineering",
+      "description": "Services d'ingénierie spécialisés : programmation PLC, systèmes SCADA, automatisation industrielle, installation de panneaux électriques, maintenance, calibration, solutions personnalisées et services EPC solaires à travers l'Inde."
+    }
+  },
+  "notFound": {
+    "seo": {
+      "title": "Page Non Trouvée (404) - Powerton Engineering",
+      "description": "La page que vous recherchez n'existe pas. Retournez à la page d'accueil de Powerton Engineering ou explorez nos services et produits d'automatisation industrielle."
+    },
+    "title": "404",
+    "heading": "Page Non Trouvée",
+    "message": "Désolé, la page que vous recherchez n'existe pas. Elle a peut-être été déplacée, supprimée ou vous avez saisi une URL incorrecte.",
+    "buttons": {
+      "homepage": "Aller à l'Accueil",
+      "support": "Contacter le Support"
+    },
+    "quickLinks": "Liens Rapides",
+    "links": {
+      "products": "Produits",
+      "services": "Services",
+      "projects": "Projets",
+      "about": "À Propos"
+    }
+  },
   "portfolioDownload": {
     "seo": {
       "title": "Télécharger le Portfolio - Powerton Engineering",
