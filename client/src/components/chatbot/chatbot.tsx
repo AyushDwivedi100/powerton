@@ -1066,7 +1066,7 @@ export default function Chatbot() {
             setIsOpen(prev => !prev);
           }}
           className="w-14 h-14 rounded-full bg-primary hover:bg-primary/90 shadow-lg"
-          aria-label="Toggle navigation assistant"
+          aria-label={t('common:aria.toggleNavigation')}
           data-chatbot-toggle="true"
           data-testid="chatbot-toggle-button"
         >

@@ -112,7 +112,7 @@ export default function HeroSection() {
               <Link href="/services" className="w-full sm:w-auto">
                 <Button 
                   className="bg-secondary hover:bg-primary text-secondary-foreground hover:text-primary-foreground w-full sm:w-auto text-sm sm:text-base md:text-lg px-4 sm:px-6 md:px-8 py-3 sm:py-4 transition-all duration-200"
-                  aria-label="Explore our industrial automation and engineering services"
+                  aria-label={t('common:aria.exploreServices')}
                 >
                   {t('pages:home.hero.buttons.exploreServices', 'Explore Our Services')}
                   <ArrowRight className="ml-2 w-4 h-4 sm:w-5 sm:h-5" aria-hidden="true" />
@@ -124,7 +124,7 @@ export default function HeroSection() {
                 <Button 
                   variant="outline" 
                   className="w-full sm:w-auto text-sm sm:text-base md:text-lg px-4 sm:px-6 md:px-8 py-3 sm:py-4 border-border text-white hover:bg-white hover:text-primary dark:border-border dark:text-white dark:hover:bg-white dark:hover:text-primary transition-all duration-300 bg-white/10"
-                  aria-label="Request free consultation for your engineering project"
+                  aria-label={t('common:aria.requestConsultation')}
                 >
                   {t('pages:home.hero.buttons.requestConsultation', 'Request Consultation')}
                 </Button>
@@ -137,7 +137,7 @@ export default function HeroSection() {
             className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8"
             stagger={0.15}
             role="list"
-            aria-label="Key company highlights and services"
+            aria-label={t('common:aria.companyHighlights')}
           >
             <div className="flex items-center space-x-3" role="listitem">
               <CheckCircle className="w-6 h-6 text-secondary flex-shrink-0" aria-hidden="true" />
@@ -171,7 +171,7 @@ export default function HeroSection() {
             stagger={0.1}
             delay={0.3}
             role="list"
-            aria-label="Company performance statistics"
+            aria-label={t('common:aria.performanceStats')}
           >
             <div role="listitem">
               <div className="text-3xl lg:text-4xl font-bold text-secondary mb-2" aria-label="15 plus years of experience">

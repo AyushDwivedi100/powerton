@@ -95,7 +95,7 @@ export default function ContactSection() {
                     target="_blank"
                     rel="noopener noreferrer"
                     className="hover:text-secondary transition-colors cursor-pointer block"
-                    aria-label="Open office location in Google Maps"
+                    aria-label={t('common:aria.openLocation')}
                   >
                     <p className="opacity-90 hover:opacity-100">{COMPANY_INFO.address.street}</p>
                     <p className="opacity-90 hover:opacity-100">{COMPANY_INFO.address.city}, {COMPANY_INFO.address.state} {COMPANY_INFO.address.pincode}</p>
