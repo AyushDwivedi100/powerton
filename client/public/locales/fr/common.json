@@ -46,6 +46,10 @@
     "category": "Catégorie",
     "status": "Statut"
   },
+  "buttons": {
+    "downloadPortfolio": "Télécharger le portfolio",
+    "showFilters": "Afficher les filtres"
+  },
   "messages": {
     "serviceNotFound": "Service non trouvé",
     "readyToStart": "Prêt à commencer ?",

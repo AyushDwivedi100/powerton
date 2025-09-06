@@ -40,6 +40,10 @@
     "status": "الحالة",
     "industry": "الصناعة"
   },
+  "buttons": {
+    "downloadPortfolio": "تحميل الملف الشخصي",
+    "showFilters": "إظهار المرشحات"
+  },
   "messages": {
     "serviceNotFound": "لم يتم العثور على الخدمة",
     "readyToStart": "مستعد للبدء؟",

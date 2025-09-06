@@ -46,6 +46,10 @@
     "category": "Jamii",
     "status": "Hali"
   },
+  "buttons": {
+    "downloadPortfolio": "Pakua kazi",
+    "showFilters": "Onyesha vichungi"
+  },
   "messages": {
     "serviceNotFound": "Huduma haikupatikana",
     "readyToStart": "Uko tayari kuanza?",
