@@ -47,8 +47,29 @@
     "status": "Estado"
   },
   "buttons": {
+    "getQuote": "Obtener Cotización",
+    "callNow": "Llamar Ahora",
+    "emailUs": "Envíanos Email",
+    "learnMore": "Saber Más",
+    "viewMore": "Ver Más",
+    "viewAll": "Ver Todo",
+    "contactUs": "Contáctanos",
+    "getStarted": "Comenzar",
+    "downloadBrochure": "Descargar Folleto",
     "downloadPortfolio": "Descargar Portafolio",
-    "showFilters": "Mostrar Filtros"
+    "showFilters": "Mostrar Filtros",
+    "readMore": "Leer Más",
+    "downloadCatalog": "Descargar Catálogo",
+    "viewDetails": "Ver Detalles"
+  },
+  "messages": {
+    "toggleTheme": "Cambiar Tema",
+    "close": "Cerrar"
+  },
+  "products": {
+    "sections": {
+      "industrialProducts": "Productos Industriales"
+    }
   },
   "keyFeatures": "Características principales",
   "requestQuote": "Solicitar cotización",

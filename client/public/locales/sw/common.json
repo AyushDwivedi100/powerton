@@ -92,6 +92,15 @@
     "requirementsFeatures": "Mahitaji na vipengele",
     "additionalInformation": "Maelezo ya ziada"
   },
+  "messages": {
+    "toggleTheme": "Badilisha Mandhari",
+    "close": "Funga"
+  },
+  "products": {
+    "sections": {
+      "industrialProducts": "Bidhaa za Viwandani"
+    }
+  },
   "altTexts": {
     "companyLogo": "Nembo ya Powerton Engineering Pvt. Ltd.",
     "contactCenterBackground": "Mazingira ya kituo cha mawasiliano na ofisi ya msaada kwa wateja kwa kampuni ya uhandisi",
@@ -184,7 +193,12 @@
     "viewAll": "Ona Yote",
     "contactUs": "Wasiliana Nasi",
     "getStarted": "Anza",
-    "downloadBrochure": "Pakua Kijitabu"
+    "downloadBrochure": "Pakua Kijitabu",
+    "downloadPortfolio": "Pakua Kumbukumbu",
+    "showFilters": "Onyesha Vichungi",
+    "readMore": "Soma Zaidi",
+    "downloadCatalog": "Pakua Orodha",
+    "viewDetails": "Ona Maelezo"
   },
   "labels": {
     "businessHours": "Masaa ya Biashara",

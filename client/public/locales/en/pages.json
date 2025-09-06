@@ -1,4 +1,33 @@
 {
+  "about": {
+    "certifications": {
+      "iso9001": "ISO 9001:2015 Quality Management",
+      "iso14001": "ISO 14001:2015 Environmental Management",
+      "ohsas18001": "OHSAS 18001 Occupational Health & Safety",
+      "ceMarking": "CE Marking for European Compliance",
+      "ulListed": "UL Listed for US/Canada Markets",
+      "cpriApproved": "CPRI Approved for Indian Power Sector"
+    },
+    "mission": {
+      "title": "Our Mission",
+      "description": "To deliver innovative, reliable, and sustainable engineering solutions that empower our clients to achieve operational excellence and drive industrial growth."
+    },
+    "vision": {
+      "title": "Our Vision",
+      "description": "To be the leading provider of industrial automation and electrical engineering solutions, recognized for our technical expertise, quality, and commitment to customer success."
+    },
+    "coreValues": {
+      "title": "Our Core Values",
+      "subtitle": "The principles that guide everything we do"
+    }
+  },
+  "projects": {
+    "hero": {
+      "title": "Our Projects",
+      "subtitle": "Discover our engineering excellence through 1200+ successful projects across diverse industries, showcasing innovation, quality, and reliability."
+    },
+    "showing": "Showing"
+  },
   "notFound": {
     "title": "404",
     "heading": "Page Not Found",

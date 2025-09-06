@@ -106,7 +106,21 @@
     "downloadBrochure": "ब्रोशर डाउनलोड करें",
     "downloadPortfolio": "पोर्टफोलियो डाउनलोड करें",
     "showFilters": "फिल्टर दिखाएं",
-    "readMore": "और पढ़ें"
+    "readMore": "और पढ़ें",
+    "downloadCatalog": "कैटलॉग डाउनलोड करें",
+    "viewDetails": "विवरण देखें"
+  },
+  "altTexts": {
+    "companyLogo": "पावरटन इंजीनियरिंग प्राइवेट लिमिटेड लोगो"
+  },
+  "messages": {
+    "toggleTheme": "थीम बदलें",
+    "close": "बंद करें"
+  },
+  "products": {
+    "sections": {
+      "industrialProducts": "औद्योगिक उत्पाद"
+    }
   },
   "labels": {
     "businessHours": "व्यावसायिक घंटे",
