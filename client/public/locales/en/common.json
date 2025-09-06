@@ -109,7 +109,21 @@
     "downloadBrochure": "Download Brochure",
     "downloadPortfolio": "Download Portfolio",
     "showFilters": "Show Filters",
-    "readMore": "Read More"
+    "readMore": "Read More",
+    "downloadCatalog": "Download Catalog",
+    "viewDetails": "View Details"
+  },
+  "altTexts": {
+    "companyLogo": "Powerton Engineering Pvt. Ltd. Logo"
+  },
+  "messages": {
+    "toggleTheme": "Toggle Theme",
+    "close": "Close"
+  },
+  "products": {
+    "sections": {
+      "industrialProducts": "Industrial Products"
+    }
   },
   "labels": {
     "businessHours": "Business Hours",
