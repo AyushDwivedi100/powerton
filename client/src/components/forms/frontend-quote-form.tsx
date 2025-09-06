@@ -258,11 +258,11 @@ export default function FrontendQuoteForm() {
                           </SelectTrigger>
                         </FormControl>
                         <SelectContent>
-                          <SelectItem value="new-installation">New Installation</SelectItem>
-                          <SelectItem value="upgrade">System Upgrade</SelectItem>
-                          <SelectItem value="retrofit">Retrofit</SelectItem>
-                          <SelectItem value="maintenance">Maintenance Contract</SelectItem>
-                          <SelectItem value="consultation">Technical Consultation</SelectItem>
+                          <SelectItem value="new-installation">{t('forms:quote.projectTypes.newInstallation', 'New Installation')}</SelectItem>
+                          <SelectItem value="upgrade">{t('forms:quote.projectTypes.systemUpgrade', 'System Upgrade')}</SelectItem>
+                          <SelectItem value="retrofit">{t('forms:quote.projectTypes.retrofit', 'Retrofit')}</SelectItem>
+                          <SelectItem value="maintenance">{t('forms:quote.projectTypes.maintenance', 'Maintenance Contract')}</SelectItem>
+                          <SelectItem value="consultation">{t('forms:quote.projectTypes.consultation', 'Technical Consultation')}</SelectItem>
                           <SelectItem value="design">Design & Engineering</SelectItem>
                         </SelectContent>
                       </Select>

@@ -6,8 +6,11 @@ import { Badge } from '@/components/ui/badge';
 import { ArrowLeft, TrendingUp, Settings, Wrench } from 'lucide-react';
 import { getProductImageSrc, getFileBaseName } from '@/assets/images';
 import liftingEquipmentImage from '@assets/generated_images/Professional_lifting_rigging_warehouse_7bbe822e.png';
+import { useTranslation } from 'react-i18next';
 
 const LiftingEquipmentPage = () => {
+  const { t } = useTranslation(['common', 'products']);
+  
   const products = [
     {
       name: "Chain Hoists & Slings",
@@ -45,18 +48,18 @@ const LiftingEquipmentPage = () => {
             <Link href="/products/industrial-tools-tackles">
               <Button variant="ghost" className="mb-6 hover:bg-white/10 text-white">
                 <ArrowLeft className="mr-2 h-4 w-4" />
-                Back to Industrial Tools & Tackles
+                {t('common:buttons.backTo', 'Back to {{category}}', { category: 'Industrial Tools & Tackles' })}
               </Button>
             </Link>
-            <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-6">Lifting Equipment</h1>
+            <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-6">{t('products:productPages.liftingEquipment.title', 'Lifting Equipment')}</h1>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto mb-8">
               Industrial lifting and rigging equipment for safe material handling operations
             </p>
             <div className="flex flex-wrap justify-center gap-2 mb-8">
-              <Badge variant="secondary">Chain Hoists</Badge>
-              <Badge variant="secondary">Wire Rope</Badge>
-              <Badge variant="secondary">Rigging Hardware</Badge>
-              <Badge variant="secondary">Load Rated</Badge>
+              <Badge variant="secondary">{t('products:badges.chainHoists', 'Chain Hoists')}</Badge>
+              <Badge variant="secondary">{t('products:badges.wireRope', 'Wire Rope')}</Badge>
+              <Badge variant="secondary">{t('products:badges.riggingHardware', 'Rigging Hardware')}</Badge>
+              <Badge variant="secondary">{t('products:badges.loadRated', 'Load Rated')}</Badge>
             </div>
           </div>
         </div>

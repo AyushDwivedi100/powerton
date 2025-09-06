@@ -42,6 +42,13 @@
     }
   },
   "quote": {
+    "projectTypes": {
+      "newInstallation": "New Installation",
+      "systemUpgrade": "System Upgrade", 
+      "retrofit": "Retrofit",
+      "maintenance": "Maintenance Contract",
+      "consultation": "Technical Consultation"
+    },
     "validation": {
       "nameMin": "Name must be at least 2 characters",
       "emailInvalid": "Please enter a valid email address",

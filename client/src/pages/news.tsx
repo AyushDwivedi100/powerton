@@ -330,7 +330,7 @@ export default function News() {
         <div className="relative max-w-7xl mx-auto px-4 md:px-6 lg:px-8 text-white">
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4 sm:mb-6">
-              News & <span className="text-secondary">Updates</span>
+              {t('pages:news.title', 'News')} & <span className="text-secondary">{t('pages:news.subtitle', 'Updates')}</span>
             </h1>
             <p className="text-base md:text-lg opacity-90 mb-8">
               Stay informed about our latest achievements, upcoming projects,
@@ -340,15 +340,15 @@ export default function News() {
             <div className="flex flex-wrap justify-center gap-4 mb-8">
               <div className="flex items-center bg-muted/50 backdrop-blur-sm rounded-lg px-4 py-2">
                 <Award className="w-5 h-5 mr-2 text-secondary" />
-                <span className="text-sm">Award Winning</span>
+                <span className="text-sm">{t('pages:news.badges.awardWinning', 'Award Winning')}</span>
               </div>
               <div className="flex items-center bg-muted/50 backdrop-blur-sm rounded-lg px-4 py-2">
                 <TrendingUp className="w-5 h-5 mr-2 text-secondary" />
-                <span className="text-sm">Growing Strong</span>
+                <span className="text-sm">{t('pages:news.badges.growingStrong', 'Growing Strong')}</span>
               </div>
               <div className="flex items-center bg-muted/50 backdrop-blur-sm rounded-lg px-4 py-2">
                 <Rocket className="w-5 h-5 mr-2 text-secondary" />
-                <span className="text-sm">Future Ready</span>
+                <span className="text-sm">{t('pages:news.badges.futureReady', 'Future Ready')}</span>
               </div>
             </div>
           </div>

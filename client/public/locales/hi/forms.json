@@ -42,6 +42,13 @@
     }
   },
   "quote": {
+    "projectTypes": {
+      "newInstallation": "नया इंस्टॉलेशन",
+      "systemUpgrade": "सिस्टम अपग्रेड",
+      "retrofit": "रिट्रोफिट",
+      "maintenance": "रखरखाव कॉन्ट्रैक्ट",
+      "consultation": "तकनीकी परामर्श"
+    },
     "validation": {
       "nameMin": "नाम कम से कम 2 अक्षर का होना चाहिए",
       "emailInvalid": "कृपया एक वैध ईमेल पता दर्ज करें",
