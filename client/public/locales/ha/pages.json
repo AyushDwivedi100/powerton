@@ -294,5 +294,18 @@
       "description": "Babban masanin kera allunan sarrafa lantarki, tsarin sarrafa masana'antu da maganin na'ura. Ayyukan injiniya masu ƙwarewa a duk India tare da shekaru 15+ na gogewa.",
       "keywords": "allunan sarrafa lantarki, sarrafa masana'antu, sarrafa tsari, na'ura, cibiyar sarrafa wutar lantarki, cibiyar sarrafa mota, injiniyan lantarki, India, Noida"
     }
+  },
+  "projects": {
+    "title": "Ayyukanmu",
+    "subtitle": "Cancantar Sarrafa Masana'antu",
+    "showing": "Nuna {{count}} daga cikin {{total}} ayyuka",
+    "hero": {
+      "title": "Ayyukanmu",
+      "subtitle": "Gano cancantar injiniyarmu ta hanyar ayyuka sama da 1200 da suka yi nasara a masana'antu daban-daban, masu nuna kirkire-kirkire, inganci da dogaro."
+    }
+  },
+  "ui": {
+    "projectPortfolio": "Fayil ɗin Ayyuka",
+    "featuredProjects": "Ayyuka Masu Mahimmanci"
   }
 }

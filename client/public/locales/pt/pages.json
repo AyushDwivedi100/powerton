@@ -90,5 +90,34 @@
         }
       }
     }
+  },
+  "projects": {
+    "title": "Nossos Projetos",
+    "subtitle": "Excelência em Automação Industrial",
+    "showing": "Mostrando {{count}} de {{total}} projetos",
+    "hero": {
+      "title": "Nossos Projetos",
+      "subtitle": "Descubra nossa excelência em engenharia através de mais de 1200 projetos bem-sucedidos em diversas indústrias, mostrando inovação, qualidade e confiabilidade."
+    }
+  },
+  "ui": {
+    "projectPortfolio": "Portfólio de Projetos",
+    "featuredProjects": "Projetos em Destaque"
+  },
+  "gallery": {
+    "title": "Galeria de Projetos",
+    "subtitle": "Mostra de Nossa Excelência em Engenharia"
+  },
+  "about": {
+    "title": "Sobre a Powerton Engineering",
+    "subtitle": "Líder em Automação Industrial e Soluções de Engenharia"
+  },
+  "services": {
+    "title": "Nossos Serviços",
+    "subtitle": "Soluções profissionais de engenharia"
+  },
+  "contact": {
+    "title": "Entre em Contato",
+    "subtitle": "Vamos discutir suas necessidades de engenharia"
   }
 }

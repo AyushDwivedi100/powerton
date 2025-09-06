@@ -90,5 +90,34 @@
         }
       }
     }
+  },
+  "projects": {
+    "title": "Miradi Yetu",
+    "subtitle": "Ubora wa Otomatiki ya Viwanda",
+    "showing": "Kuonyesha {{count}} ya {{total}} miradi",
+    "hero": {
+      "title": "Miradi Yetu",
+      "subtitle": "Gundua ubora wetu wa uhandisi kupitia miradi zaidi ya 1200 iliyofanikiwa katika viwanda mbalimbali, ikishawishi uvumbuzi, ubora na utegemezi."
+    }
+  },
+  "ui": {
+    "projectPortfolio": "Kumbuka za Miradi",
+    "featuredProjects": "Miradi Iliyoangaziwa"
+  },
+  "gallery": {
+    "title": "Onyesho la Miradi",
+    "subtitle": "Mfano wa Ubora Wetu wa Uhandisi"
+  },
+  "about": {
+    "title": "Kuhusu Powerton Engineering",
+    "subtitle": "Kiongozi katika Otomatiki ya Viwanda na Masuluhisho ya Uhandisi"
+  },
+  "services": {
+    "title": "Huduma Zetu",
+    "subtitle": "Huduma za uhandisi za kitaalamu"
+  },
+  "contact": {
+    "title": "Wasiliana Nasi",
+    "subtitle": "Hebu tuzungumze kuhusu mahitaji yako ya uhandisi"
   }
 }

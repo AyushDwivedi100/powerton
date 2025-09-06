@@ -42,7 +42,9 @@
     "timeline": "Calendrier",
     "location": "Emplacement",
     "budget": "Budget",
-    "requirements": "Exigences"
+    "requirements": "Exigences",
+    "category": "Catégorie",
+    "status": "Statut"
   },
   "messages": {
     "serviceNotFound": "Service non trouvé",

@@ -42,7 +42,9 @@
     "timeline": "Cronograma",
     "location": "Localização",
     "budget": "Orçamento",
-    "requirements": "Requisitos"
+    "requirements": "Requisitos",
+    "category": "Categoria",
+    "status": "Status"
   },
   "messages": {
     "serviceNotFound": "Serviço não encontrado",
