@@ -46,7 +46,7 @@ const BLDCCoolerExhaustMotorPage = () => {
             <Link href="/products/bldc">
               <Button variant="ghost" className="mb-6 hover:bg-primary/10">
                 <ArrowLeft className="mr-2 h-4 w-4" />
-                Back to BLDC Products
+                {t('common:buttons.backToBldcProducts')}
               </Button>
             </Link>
             <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-6">{t('products:productPages.bldcCoolerExhaust.title')}</h1>
@@ -54,17 +54,17 @@ const BLDCCoolerExhaustMotorPage = () => {
               {t('products:productPages.bldcCoolerExhaust.subtitle')}
             </p>
             <div className="flex flex-wrap justify-center gap-2 mb-8">
-              <Badge variant="secondary">High Efficiency</Badge>
-              <Badge variant="secondary">Variable Speed</Badge>
-              <Badge variant="secondary">Low Noise</Badge>
-              <Badge variant="secondary">Smart Control</Badge>
+              <Badge variant="secondary">{t('common:products.badges.highEfficiency')}</Badge>
+              <Badge variant="secondary">{t('common:products.badges.variableSpeed')}</Badge>
+              <Badge variant="secondary">{t('common:products.badges.lowNoise')}</Badge>
+              <Badge variant="secondary">{t('common:products.badges.smartControl')}</Badge>
             </div>
           </div>
         </div>
       </section>
 
       <div className="py-16 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
-        <h2 className="text-3xl font-bold text-foreground text-center mb-12">BLDC Motor Applications</h2>
+        <h2 className="text-3xl font-bold text-foreground text-center mb-12">{t('common:products.sections.applications', { product: 'BLDC Motor' })}</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {products.map((product, index) => (
             <Card key={index} className="hover:shadow-lg transition-shadow duration-300 hover:scale-[1.02] group cursor-pointer border border-border/50 hover:border-primary/50">
@@ -79,7 +79,7 @@ const BLDCCoolerExhaustMotorPage = () => {
               </CardHeader>
               <CardContent>
                 <div className="space-y-2">
-                  <h4 className="font-medium text-sm text-foreground mb-3">Key Features:</h4>
+                  <h4 className="font-medium text-sm text-foreground mb-3">{t('common:products.sections.keyFeatures')}</h4>
                   <ul className="space-y-1">
                     {product.features.map((feature, featureIndex) => (
                       <li key={featureIndex} className="text-sm text-muted-foreground flex items-center">

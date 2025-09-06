@@ -111,7 +111,9 @@
     "showFilters": "Show Filters",
     "readMore": "Read More",
     "downloadCatalog": "Download Catalog",
-    "viewDetails": "View Details"
+    "viewDetails": "View Details",
+    "backTo": "Back to {{category}}",
+    "backToBldcProducts": "Back to BLDC Products"
   },
   "altTexts": {
     "companyLogo": "Powerton Engineering Pvt. Ltd. Logo"
@@ -122,7 +124,19 @@
   },
   "products": {
     "sections": {
-      "industrialProducts": "Industrial Products"
+      "industrialProducts": "Industrial Products",
+      "applications": "{{product}} Applications",
+      "keyFeatures": "Key Features:"
+    },
+    "badges": {
+      "highEfficiency": "High Efficiency",
+      "variableSpeed": "Variable Speed",
+      "lowNoise": "Low Noise",
+      "smartControl": "Smart Control",
+      "durable": "Durable",
+      "energySaving": "Energy Saving",
+      "reliable": "Reliable",
+      "costEffective": "Cost Effective"
     }
   },
   "labels": {
