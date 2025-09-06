@@ -1,0 +1,44 @@
+{
+  "contact": {
+    "fields": {
+      "name": {
+        "label": "Jina kamili",
+        "placeholder": "Ingiza jina lako kamili",
+        "error": "Jina linahitajika"
+      },
+      "email": {
+        "label": "Anwani ya barua pepe",
+        "placeholder": "Ingiza anwani yako ya barua pepe",
+        "error": "Tafadhali ingiza anwani halali ya barua pepe"
+      },
+      "phone": {
+        "label": "Nambari ya simu",
+        "placeholder": "Ingiza nambari yako ya simu",
+        "error": "Nambari ya simu inahitajika"
+      },
+      "company": {
+        "label": "Jina la kampuni",
+        "placeholder": "Ingiza jina la kampuni yako"
+      },
+      "serviceType": {
+        "label": "Aina ya huduma",
+        "placeholder": "Chagua aina ya huduma"
+      },
+      "subject": {
+        "label": "Mada",
+        "placeholder": "Ingiza mada",
+        "error": "Mada inahitajika"
+      },
+      "message": {
+        "label": "Ujumbe",
+        "placeholder": "Ingiza ujumbe wako",
+        "error": "Ujumbe unahitajika"
+      }
+    },
+    "buttons": {
+      "submit": "Tuma ujumbe",
+      "callNow": "Piga simu sasa",
+      "emailUs": "Tutumie barua pepe"
+    }
+  }
+}

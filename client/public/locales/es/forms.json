@@ -1,0 +1,44 @@
+{
+  "contact": {
+    "fields": {
+      "name": {
+        "label": "Nombre completo",
+        "placeholder": "Ingrese su nombre completo",
+        "error": "El nombre es obligatorio"
+      },
+      "email": {
+        "label": "Dirección de correo",
+        "placeholder": "Ingrese su dirección de correo",
+        "error": "Por favor ingrese una dirección de correo válida"
+      },
+      "phone": {
+        "label": "Número de teléfono",
+        "placeholder": "Ingrese su número de teléfono",
+        "error": "El número de teléfono es obligatorio"
+      },
+      "company": {
+        "label": "Nombre de la empresa",
+        "placeholder": "Ingrese el nombre de su empresa"
+      },
+      "serviceType": {
+        "label": "Tipo de servicio",
+        "placeholder": "Seleccione el tipo de servicio"
+      },
+      "subject": {
+        "label": "Asunto",
+        "placeholder": "Ingrese el asunto",
+        "error": "El asunto es obligatorio"
+      },
+      "message": {
+        "label": "Mensaje",
+        "placeholder": "Ingrese su mensaje",
+        "error": "El mensaje es obligatorio"
+      }
+    },
+    "buttons": {
+      "submit": "Enviar mensaje",
+      "callNow": "Llamar ahora",
+      "emailUs": "Envíanos un correo"
+    }
+  }
+}

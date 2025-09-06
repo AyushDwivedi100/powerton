@@ -1,0 +1,144 @@
+{
+  "title": "منتجاتنا",
+  "subtitle": "الأتمتة الصناعية والمكونات الكهربائية",
+  "categories": {
+    "automation": "الأتمتة والتحكم",
+    "electrical": "المكونات الكهربائية",
+    "instrumentation": "الأجهزة والتحكم",
+    "solar": "المنتجات الشمسية",
+    "motors": "أنظمة المحركات BLDC",
+    "pumps": "المضخات والمحركات",
+    "safety": "معدات السلامة",
+    "tools": "الأدوات الصناعية"
+  },
+  "filters": {
+    "all": "الكل",
+    "category": "الفئة",
+    "industry": "الصناعة",
+    "status": "الحالة"
+  },
+  "status": {
+    "available": "متوفر",
+    "outOfStock": "نفدت الكمية",
+    "discontinued": "متوقف"
+  },
+  "productPages": {
+    "analyzers": {
+      "title": "محللات العمليات",
+      "subtitle": "أجهزة تحليل متطورة لمراقبة العمليات"
+    },
+    "automationControl": {
+      "title": "أنظمة الأتمتة والتحكم",
+      "subtitle": "حلول أتمتة وتحكم متقدمة لإدارة وتحسين العمليات الصناعية"
+    },
+    "bldcCeilingFan": {
+      "title": "مراوح السقف BLDC",
+      "subtitle": "مراوح سقف موفرة للطاقة بتقنية DC بدون فرش مع ميزات ذكية وأداء فائق"
+    },
+    "bldcCoolerExhaust": {
+      "title": "محركات التبريد والعادم BLDC",
+      "subtitle": "محركات BLDC موفرة للطاقة لتطبيقات التبريد والتهوية والعادم"
+    },
+    "bldcSubmersible": {
+      "title": "مضخات BLDC الغاطسة والسطحية",
+      "subtitle": "مضخات BLDC موفرة للطاقة لإمداد المياه والري والتطبيقات الشمسية"
+    },
+    "bldcTableWall": {
+      "title": "محركات مراوح الطاولة والحائط BLDC",
+      "subtitle": "محركات BLDC موفرة للطاقة لمراوح الطاولة والحائط والمراوح القائمة"
+    },
+    "bldc": {
+      "title": "منتجات BLDC",
+      "subtitle": "منتجات محركات DC بدون فرش للتبريد والتهوية والضخ الموفر للطاقة"
+    },
+    "cables": {
+      "title": "الكابلات والأسلاك",
+      "subtitle": "حلول الكابلات والأسلاك الصناعية للطاقة وتطبيقات التحكم"
+    },
+    "calibration": {
+      "title": "معدات المعايرة",
+      "subtitle": "أجهزة معايرة دقيقة ومعدات اختبار"
+    },
+    "centrifugalPumps": {
+      "title": "المضخات الطاردة المركزية",
+      "subtitle": "مضخات طاردة مركزية عالية الكفاءة للتطبيقات الصناعية"
+    },
+    "circuitBreakers": {
+      "title": "قواطع الدوائر والصمامات",
+      "subtitle": "أجهزة الحماية الكهربائية لسلامة الدوائر"
+    },
+    "connectors": {
+      "title": "الموصلات والأطراف",
+      "subtitle": "الموصلات الكهربائية وحلول الأطراف"
+    }
+  },
+  "items": {
+    "instrumentation-components": "مكونات الأجهزة",
+    "electrical-components": "المكونات الكهربائية",
+    "measurement-instruments": "أجهزة القياس",
+    "solar-products": "المنتجات الشمسية",
+    "automation-control-systems": "أنظمة الأتمتة والتحكم",
+    "safety-protective-devices": "أجهزة السلامة والحماية",
+    "mechanical-pumps-spares": "المضخات الميكانيكية وقطع الغيار",
+    "industrial-tools-tackles": "الأدوات والمعدات الصناعية",
+    "bldc": "منتجات BLDC"
+  },
+  "features": {
+    "common": {
+      "highTorque": "عزم دوران عالي",
+      "variableSpeed": "سرعة متغيرة",
+      "cordlessOptions": "خيارات لاسلكية",
+      "chuckCapacity": "سعة الظرف: 13 مم",
+      "multipleSizes": "أحجام متعددة",
+      "safetyGuards": "واقيات السلامة",
+      "antiVibration": "مضاد للاهتزاز",
+      "powerfulMotors": "محركات قوية",
+      "highImpactForce": "قوة تأثير عالية",
+      "socketCompatibility": "توافق المقبس",
+      "forwardReverse": "أمامي/خلفي",
+      "batteryPowered": "يعمل بالبطارية",
+      "efficientSwitching": "دخل 85-265 فولت تيار متردد",
+      "dcOutput": "خرج 12/24 فولت تيار مستمر",
+      "highEfficiency": "كفاءة عالية",
+      "compactDesign": "تصميم مدمج",
+      "dinRailMount": "تركيب على قضيب DIN",
+      "wideInputRange": "نطاق دخل واسع",
+      "shortCircuitProtection": "حماية من الدائرة القصيرة",
+      "ledStatus": "حالة LED",
+      "batteryBackup": "نسخ احتياطي للبطارية",
+      "surgeProtection": "حماية من التيار المتزايد",
+      "autoTransfer": "تحويل تلقائي",
+      "lcdDisplay": "شاشة LCD"
+    }
+  },
+  "locations": {
+    "delhiNcr": "دلهي NCR",
+    "rajasthan": "راجستان",
+    "uttarPradesh": "أوتار براديش",
+    "gujarat": "غوجارات",
+    "maharashtra": "ماهاراشترا",
+    "haryana": "هاريانا",
+    "westBengal": "البنغال الغربية"
+  },
+  "brands": {
+    "customBuilt": "مبني خصيصاً",
+    "fluke": "Fluke, Keysight",
+    "siemens": "Siemens, Allen Bradley",
+    "abb": "ABB, Schneider",
+    "honeywell": "Honeywell, Yokogawa",
+    "wonderware": "Wonderware, iFIX",
+    "grundfos": "Grundfos, KSB",
+    "3m": "3M, MSA"
+  },
+  "tags": {
+    "industrialAutomation": "الأتمتة الصناعية",
+    "plcSystems": "أنظمة PLC",
+    "scada": "SCADA",
+    "manufacturing": "التصنيع",
+    "processOptimization": "تحسين العمليات"
+  },
+  "gallery": {
+    "imagePlaceholder": "عنصر نائب للصورة",
+    "actualImages": "سيتم تحميل الصور الفعلية"
+  }
+}

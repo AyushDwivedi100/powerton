@@ -1,0 +1,84 @@
+{
+  "contact": {
+    "fields": {
+      "name": {
+        "label": "Full Name",
+        "placeholder": "Enter your full name",
+        "error": "Name is required"
+      },
+      "email": {
+        "label": "Email Address",
+        "placeholder": "Enter your email address",
+        "error": "Please enter a valid email address"
+      },
+      "phone": {
+        "label": "Phone Number",
+        "placeholder": "Enter your phone number",
+        "error": "Phone number is required"
+      },
+      "company": {
+        "label": "Company Name",
+        "placeholder": "Enter your company name"
+      },
+      "serviceType": {
+        "label": "Service Type",
+        "placeholder": "Select service type"
+      },
+      "subject": {
+        "label": "Subject",
+        "placeholder": "Enter subject",
+        "error": "Subject is required"
+      },
+      "message": {
+        "label": "Message",
+        "placeholder": "Enter your message",
+        "error": "Message is required"
+      }
+    },
+    "buttons": {
+      "submit": "Send Message",
+      "callNow": "Call Now",
+      "emailUs": "Email Us"
+    }
+  },
+  "quote": {
+    "validation": {
+      "nameMin": "Name must be at least 2 characters",
+      "emailInvalid": "Please enter a valid email address",
+      "phoneMin": "Please enter a valid phone number",
+      "companyRequired": "Company name is required",
+      "projectTitleRequired": "Project title is required",
+      "projectTypeRequired": "Please select a project type",
+      "timelineRequired": "Please select expected timeline",
+      "servicesRequired": "Please select at least one service",
+      "specificationsMin": "Please provide detailed specifications (minimum 20 characters)"
+    },
+    "success": {
+      "title": "Quote request submitted successfully!",
+      "description": "Our engineering team will review your requirements and respond within 24-48 hours."
+    },
+    "placeholders": {
+      "selectIndustry": "Select industry",
+      "selectProjectScale": "Select project scale",
+      "selectBudget": "Select budget range (optional)",
+      "detailedRequirements": "Please provide detailed specifications including:\n- Technical requirements and standards\n- Equipment specifications and quantities\n- Performance requirements\n- Environmental conditions\n- Compliance requirements\n- Any special considerations...",
+      "additionalRequirements": "Any additional requirements, special conditions, or questions...",
+      "preferredBrands": "e.g., Siemens, Allen-Bradley, Schneider..."
+    },
+    "labels": {
+      "industryType": "Industry Type",
+      "projectScale": "Project Scale",
+      "approximateBudget": "Approximate Budget",
+      "detailedRequirements": "Detailed Requirements *",
+      "preferredBrands": "Preferred Brands/Standards",
+      "additionalRequirements": "Additional Requirements"
+    },
+    "sections": {
+      "requiredServices": "Required Services *"
+    },
+    "submitting": "Submitting Quote Request...",
+    "buttons": {
+      "getProfessionalQuote": "Get Professional Quote"
+    }
+  }
+}

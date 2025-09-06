@@ -1,0 +1,44 @@
+{
+  "contact": {
+    "fields": {
+      "name": {
+        "label": "الاسم الكامل",
+        "placeholder": "أدخل اسمك الكامل",
+        "error": "الاسم مطلوب"
+      },
+      "email": {
+        "label": "عنوان البريد الإلكتروني",
+        "placeholder": "أدخل عنوان بريدك الإلكتروني",
+        "error": "يرجى إدخال عنوان بريد إلكتروني صحيح"
+      },
+      "phone": {
+        "label": "رقم الهاتف",
+        "placeholder": "أدخل رقم هاتفك",
+        "error": "رقم الهاتف مطلوب"
+      },
+      "company": {
+        "label": "اسم الشركة",
+        "placeholder": "أدخل اسم شركتك"
+      },
+      "serviceType": {
+        "label": "نوع الخدمة",
+        "placeholder": "اختر نوع الخدمة"
+      },
+      "subject": {
+        "label": "الموضوع",
+        "placeholder": "أدخل الموضوع",
+        "error": "الموضوع مطلوب"
+      },
+      "message": {
+        "label": "الرسالة",
+        "placeholder": "أدخل رسالتك",
+        "error": "الرسالة مطلوبة"
+      }
+    },
+    "buttons": {
+      "submit": "إرسال الرسالة",
+      "callNow": "اتصل الآن",
+      "emailUs": "راسلنا"
+    }
+  }
+}

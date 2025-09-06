@@ -1,0 +1,44 @@
+{
+  "contact": {
+    "fields": {
+      "name": {
+        "label": "全名",
+        "placeholder": "请输入您的全名",
+        "error": "姓名为必填项"
+      },
+      "email": {
+        "label": "电子邮件地址",
+        "placeholder": "请输入您的电子邮件地址",
+        "error": "请输入有效的电子邮件地址"
+      },
+      "phone": {
+        "label": "电话号码",
+        "placeholder": "请输入您的电话号码",
+        "error": "电话号码为必填项"
+      },
+      "company": {
+        "label": "公司名称",
+        "placeholder": "请输入您的公司名称"
+      },
+      "serviceType": {
+        "label": "服务类型",
+        "placeholder": "选择服务类型"
+      },
+      "subject": {
+        "label": "主题",
+        "placeholder": "请输入主题",
+        "error": "主题为必填项"
+      },
+      "message": {
+        "label": "消息",
+        "placeholder": "请输入您的消息",
+        "error": "消息为必填项"
+      }
+    },
+    "buttons": {
+      "submit": "发送消息",
+      "callNow": "立即致电",
+      "emailUs": "发送邮件"
+    }
+  }
+}

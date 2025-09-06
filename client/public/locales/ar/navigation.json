@@ -1,0 +1,25 @@
+{
+  "menu": {
+    "about": "حولنا",
+    "projects": "المشاريع",
+    "gallery": "المعرض",
+    "news": "الأخبار",
+    "contact": "اتصل بنا"
+  },
+  "services": "الخدمات",
+  "dropdowns": {
+    "services": "الخدمات",
+    "products": "المنتجات"
+  },
+  "header": {
+    "servingWorldwide": "خدمة عالمية"
+  },
+  "footer": {
+    "services": "الخدمات",
+    "products": "المنتجات",
+    "copyright": "© {{year}} باورتون إنجنيرنج المحدودة. جميع الحقوق محفوظة.",
+    "selectLanguage": "اختر اللغة",
+    "companyDescription": "شريكك الموثوق في تقديم حلول وخدمات هندسية عالية الجودة للأتمتة الصناعية والأنظمة الكهربائية.",
+    "sitemap": "خريطة الموقع"
+  }
+}

@@ -1,0 +1,144 @@
+{
+  "title": "我们的产品",
+  "subtitle": "工业自动化和电气元件",
+  "categories": {
+    "automation": "自动化与控制",
+    "electrical": "电气元件",
+    "instrumentation": "仪表设备",
+    "solar": "太阳能产品",
+    "motors": "BLDC电机系统",
+    "pumps": "泵和电机",
+    "safety": "安全设备",
+    "tools": "工业工具"
+  },
+  "filters": {
+    "all": "全部",
+    "category": "类别",
+    "industry": "行业",
+    "status": "状态"
+  },
+  "status": {
+    "available": "可用",
+    "outOfStock": "缺货",
+    "discontinued": "已停产"
+  },
+  "productPages": {
+    "analyzers": {
+      "title": "过程分析仪",
+      "subtitle": "用于过程监控的高级分析仪器"
+    },
+    "automationControl": {
+      "title": "自动化与控制系统",
+      "subtitle": "用于工业过程管理和优化的先进自动化和控制解决方案"
+    },
+    "bldcCeilingFan": {
+      "title": "BLDC吊扇",
+      "subtitle": "具有智能功能和卓越性能的节能无刷直流吊扇"
+    },
+    "bldcCoolerExhaust": {
+      "title": "BLDC冷却器和排气电机",
+      "subtitle": "用于冷却、通风和排气应用的节能BLDC电机"
+    },
+    "bldcSubmersible": {
+      "title": "BLDC潜水泵和表面泵",
+      "subtitle": "用于供水、灌溉和太阳能应用的节能BLDC泵"
+    },
+    "bldcTableWall": {
+      "title": "BLDC台式和壁式风扇电机",
+      "subtitle": "用于台式风扇、壁式风扇和立式风扇的节能BLDC电机"
+    },
+    "bldc": {
+      "title": "BLDC产品",
+      "subtitle": "用于节能冷却、通风和泵送应用的无刷直流电机产品"
+    },
+    "cables": {
+      "title": "电缆和电线",
+      "subtitle": "用于电力和控制应用的工业电缆和布线解决方案"
+    },
+    "calibration": {
+      "title": "校准设备",
+      "subtitle": "精密校准仪器和测试设备"
+    },
+    "centrifugalPumps": {
+      "title": "离心泵",
+      "subtitle": "用于工业应用的高效离心泵"
+    },
+    "circuitBreakers": {
+      "title": "断路器和保险丝",
+      "subtitle": "电路安全保护设备"
+    },
+    "connectors": {
+      "title": "连接器和端子",
+      "subtitle": "电气连接器和端子解决方案"
+    }
+  },
+  "items": {
+    "instrumentation-components": "仪表组件",
+    "electrical-components": "电气组件",
+    "measurement-instruments": "测量仪器",
+    "solar-products": "太阳能产品",
+    "automation-control-systems": "自动化控制系统",
+    "safety-protective-devices": "安全防护设备",
+    "mechanical-pumps-spares": "机械泵和备件",
+    "industrial-tools-tackles": "工业工具和设备",
+    "bldc": "BLDC产品"
+  },
+  "features": {
+    "common": {
+      "highTorque": "高扭矩",
+      "variableSpeed": "可变速度",
+      "cordlessOptions": "无线选项",
+      "chuckCapacity": "卡盘容量：13mm",
+      "multipleSizes": "多种尺寸",
+      "safetyGuards": "安全防护",
+      "antiVibration": "防振动",
+      "powerfulMotors": "强力电机",
+      "highImpactForce": "高冲击力",
+      "socketCompatibility": "套筒兼容性",
+      "forwardReverse": "正向/反向",
+      "batteryPowered": "电池供电",
+      "efficientSwitching": "85-265V AC输入",
+      "dcOutput": "12V/24V DC输出",
+      "highEfficiency": "高效率",
+      "compactDesign": "紧凑设计",
+      "dinRailMount": "DIN导轨安装",
+      "wideInputRange": "宽输入范围",
+      "shortCircuitProtection": "短路保护",
+      "ledStatus": "LED状态",
+      "batteryBackup": "电池备份",
+      "surgeProtection": "浪涌保护",
+      "autoTransfer": "自动转换",
+      "lcdDisplay": "LCD显示"
+    }
+  },
+  "locations": {
+    "delhiNcr": "德里NCR",
+    "rajasthan": "拉贾斯坦邦",
+    "uttarPradesh": "北方邦",
+    "gujarat": "古吉拉特邦",
+    "maharashtra": "马哈拉施特拉邦",
+    "haryana": "哈里亚纳邦",
+    "westBengal": "西孟加拉邦"
+  },
+  "brands": {
+    "customBuilt": "定制建造",
+    "fluke": "Fluke, Keysight",
+    "siemens": "Siemens, Allen Bradley",
+    "abb": "ABB, Schneider",
+    "honeywell": "Honeywell, Yokogawa",
+    "wonderware": "Wonderware, iFIX",
+    "grundfos": "Grundfos, KSB",
+    "3m": "3M, MSA"
+  },
+  "tags": {
+    "industrialAutomation": "工业自动化",
+    "plcSystems": "PLC系统",
+    "scada": "SCADA",
+    "manufacturing": "制造业",
+    "processOptimization": "过程优化"
+  },
+  "gallery": {
+    "imagePlaceholder": "图像占位符",
+    "actualImages": "实际图像将被上传"
+  }
+}

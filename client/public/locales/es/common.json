@@ -1,0 +1,274 @@
+{
+  "buttons": {
+    "learnMore": "Saber más",
+    "getQuote": "Obtener cotización",
+    "contact": "Contáctanos",
+    "contactUs": "Contáctanos",
+    "viewAll": "Ver todo",
+    "readMore": "Leer más",
+    "viewDetails": "Ver detalles",
+    "download": "Descargar",
+    "downloadCatalog": "Descargar catálogo",
+    "downloadBrochure": "Descargar folleto",
+    "downloadGuide": "Descargar guía",
+    "downloadDatasheet": "Descargar hoja de datos",
+    "downloadPortfolio": "Descargar portafolio",
+    "requestQuote": "Solicitar cotización",
+    "showMore": "Mostrar más",
+    "showFilters": "Mostrar filtros",
+    "hideFilters": "Ocultar filtros",
+    "upload": "Subir",
+    "expertTeam": "Equipo experto",
+    "successfulProjects": "Proyectos exitosos",
+    "qualityProducts": "Productos de calidad"
+  },
+  "loading": "Cargando...",
+  "error": "Algo salió mal",
+  "success": "¡Éxito!",
+  "labels": {
+    "responseTime": "Tiempo de respuesta",
+    "availability": "Disponibilidad",
+    "coverage": "Cobertura",
+    "technologies": "Tecnologías",
+    "parameters": "Parámetros",
+    "specifications": "Especificaciones",
+    "applications": "Aplicaciones",
+    "industries": "Industrias",
+    "keyFeatures": "Características principales",
+    "includes": "Incluye",
+    "projectType": "Tipo de proyecto",
+    "industry": "Industria",
+    "projectSize": "Tamaño del proyecto",
+    "timeline": "Cronograma",
+    "location": "Ubicación",
+    "budget": "Presupuesto",
+    "requirements": "Requisitos"
+  },
+  "keyFeatures": "Características principales",
+  "requestQuote": "Solicitar cotización",
+  "messages": {
+    "serviceNotFound": "Servicio no encontrado",
+    "readyToStart": "¿Listo para comenzar?",
+    "consultation": "Contáctanos para una consulta detallada y solución personalizada.",
+    "availability": "Lunes - Sábado, Soporte de emergencia disponible",
+    "coverage": "Cobertura de servicio en toda la India",
+    "needHelp": "¿Necesitas ayuda para encontrar algo?",
+    "cantFind": "¿No puedes encontrar lo que buscas? Contáctanos directamente o usa nuestro chatbot inteligente disponible en cada página."
+  },
+  "placeholders": {
+    "selectProjectType": "Selecciona tipo de proyecto",
+    "selectIndustry": "Selecciona industria",
+    "selectProjectSize": "Selecciona tamaño del proyecto",
+    "selectTimeline": "Selecciona cronograma",
+    "projectTimeline": "Cronograma del proyecto",
+    "selectBudgetRange": "Selecciona rango de presupuesto (opcional)",
+    "cityState": "Ciudad, Estado",
+    "describeExisting": "Describe cualquier sistema o infraestructura existente...",
+    "searchProjects": "Buscar proyectos, clientes o tecnologías...",
+    "selectIndustryFilter": "Selecciona Industria",
+    "selectCategory": "Selecciona Categoría",
+    "selectStatus": "Selecciona Estado",
+    "askChatbot": "Pregúntame sobre productos, servicios o ayuda técnica...",
+    "yourFullName": "Tu nombre completo",
+    "yourEmail": "tu@empresa.com",
+    "yourPhone": "+91-XXXXX-XXXXX",
+    "yourRole": "Tu cargo/posición",
+    "yourCompanyName": "Nombre de tu empresa",
+    "briefProjectTitle": "Título breve para tu proyecto"
+  },
+  "projectCategories": {
+    "Power Plant": "Central Eléctrica",
+    "Manufacturing": "Manufactura",
+    "Solar": "Solar",
+    "Water Treatment": "Tratamiento de Agua"
+  },
+  "steps": {
+    "projectTypeIndustry": "Tipo de Proyecto e Industria",
+    "projectSpecifications": "Especificaciones del Proyecto",
+    "requirementsFeatures": "Requisitos y Características",
+    "additionalInformation": "Información Adicional"
+  },
+  "altTexts": {
+    "companyLogo": "Logo de Powerton Engineering Pvt. Ltd.",
+    "contactCenterBackground": "Centro de contacto y fondo de oficina de soporte al cliente para empresa de ingeniería",
+    "aboutCompanyFacility": "Instalación de automatización industrial Powerton Engineering con sistemas de control modernos",
+    "officeLocation": "Ubicación de Oficina Powerton Engineering"
+  },
+  "chatbot": {
+    "welcomeMessage": "¡Hola! Soy su asesor técnico de Powerton Engineering. Estoy aquí para ayudarlo a encontrar las soluciones de automatización industrial adecuadas para su proyecto.",
+    "fallbackMessage": "Para asistencia detallada, contacte a nuestro equipo al +91-94627-71662 o info.powerton@gmail.com",
+    "options": {
+      "findProduct": "🔍 Encontrar el Producto Correcto",
+      "chooseService": "⚙️ Elegir un Servicio",
+      "troubleshooting": "🔧 Solución de Problemas Técnicos",
+      "aboutCompany": "💼 Acerca de Nuestra Empresa",
+      "sensorsCategory": "🌡️ Sensores y Medición",
+      "electricalCategory": "⚡ Componentes Eléctricos",
+      "automationCategory": "🔧 Sistemas de Automatización",
+      "solarCategory": "☀️ Productos Solares",
+      "safetyCategory": "🛡️ Seguridad y Protección",
+      "installationService": "🔧 Instalación y Puesta en Marcha",
+      "maintenanceService": "🛠️ Mantenimiento y Reparación",
+      "calibrationService": "📏 Calibración y Pruebas",
+      "trainingService": "🎓 Entrenamiento y Consultoría",
+      "solarService": "☀️ Proyectos EPC Solares"
+    },
+    "responses": {
+      "productSelection": "¡Excelente! Permíteme ayudarte a encontrar los productos perfectos de automatización industrial.",
+      "serviceSelection": "¡Excelente! En Powerton Engineering, ofrecemos servicios integrales diseñados para apoyar todo el ciclo de vida de su proyecto.",
+      "troubleshootingMain": "Estoy aquí para ayudarlo a solucionar cualquier problema técnico que esté experimentando.",
+      "companyInfo": "¡Me enorgullece representar a Powerton Engineering Pvt. Ltd.! Somos su socio confiable con más de una década de experiencia en automatización industrial.",
+      "sensorsCategory": "¡Excelente elección! Nuestro portafolio de sensores incluye instrumentos de precisión para medición de temperatura, presión, flujo y nivel."
+    }
+  },
+  "sitemap": {
+    "sections": {
+      "mainPages": "Páginas principales",
+      "servicesProjects": "Servicios y proyectos", 
+      "productCategories": "Categorías de productos",
+      "resourcesTools": "Recursos y herramientas",
+      "legalInformation": "Información legal"
+    },
+    "categories": {
+      "automationControl": "Sistemas de automatización y control",
+      "bldcMotors": "Sistemas de motores BLDC",
+      "electricalComponents": "Componentes eléctricos",
+      "measurementInstrumentation": "Medición e instrumentación",
+      "industrialTools": "Herramientas y equipos industriales",
+      "pumpsFluid": "Bombas y sistemas de fluidos",
+      "solarRenewable": "Solar y energías renovables",
+      "safetyProtection": "Seguridad y protección",
+      "structuralMounting": "Estructural y montaje",
+      "networkCommunication": "Red y comunicación"
+    },
+    "pages": {
+      "home": "Inicio",
+      "aboutUs": "Acerca de nosotros",
+      "contact": "Contacto",
+      "gallery": "Galería",
+      "ourServices": "Nuestros servicios",
+      "serviceDetails": "Detalles del servicio",
+      "projects": "Proyectos",
+      "allProducts": "Todos los productos",
+      "requestQuote": "Solicitar cotización",
+      "downloadPortfolio": "Descargar portafolio",
+      "newsUpdates": "Noticias y actualizaciones",
+      "newsArticles": "Artículos de noticias",
+      "termsOfService": "Términos de servicio",
+      "sitemap": "Mapa del sitio"
+    },
+    "descriptions": {
+      "home": "Bienvenido a Powerton Engineering - Soluciones de automatización industrial",
+      "aboutUs": "Conoce nuestra empresa, misión y experiencia",
+      "contact": "Ponte en contacto con nuestro equipo de ingeniería",
+      "gallery": "Ve nuestra galería de proyectos e instalaciones",
+      "ourServices": "Servicios de automatización industrial e ingeniería eléctrica",
+      "serviceDetails": "Información detallada sobre servicios específicos",
+      "projects": "Portafolio de proyectos de automatización industrial completados",
+      "allProducts": "Catálogo completo de productos de automatización industrial",
+      "requestQuote": "Obtén una cotización detallada para tu proyecto",
+      "downloadPortfolio": "Descarga portafolios de proyectos y documentación",
+      "newsUpdates": "Últimas noticias y actualizaciones de la empresa",
+      "newsArticles": "Artículos de noticias y actualizaciones individuales",
+      "termsOfService": "Términos y condiciones para usar nuestros servicios",
+      "sitemap": "Navegación completa del sitio y estructura de páginas"
+    }
+  },
+  "company": {
+    "name": "Powerton Engineering Pvt. Ltd.",
+    "tagline": "Su socio de confianza en automatización industrial e ingeniería eléctrica",
+    "phone": "+91-94627-71662",
+    "email": "info.powerton@gmail.com",
+    "address": {
+      "street": "Segundo Piso, F-25, Bloque F, Sector 6",
+      "city": "Noida",
+      "state": "Uttar Pradesh",
+      "pincode": "201301",
+      "landmark": "metro más cercano-Sector 15",
+      "full": "Segundo Piso, F-25, Bloque F, Sector 6, Noida, Uttar Pradesh 201301, India"
+    },
+    "businessHours": {
+      "weekdays": "Lunes - Sábado: 9:00 AM - 6:00 PM",
+      "sunday": "Domingo: Solo Soporte de Emergencia"
+    },
+    "stats": {
+      "projectsCompleted": "500+",
+      "clientsServed": "200+",
+      "yearsExperience": "15+",
+      "responseTime": "2 horas"
+    }
+  },
+  "buttons": {
+    "getQuote": "Obtener Cotización",
+    "callNow": "Llamar Ahora",
+    "emailUs": "Envíanos un Email",
+    "learnMore": "Saber Más",
+    "viewMore": "Ver Más",
+    "viewAll": "Ver Todo",
+    "contactUs": "Contáctanos",
+    "getStarted": "Comenzar",
+    "downloadBrochure": "Descargar Folleto"
+  },
+  "labels": {
+    "businessHours": "Horario Comercial",
+    "mondayToSaturday": "Lunes - Sábado",
+    "workingHours": "9:00 AM - 6:00 PM",
+    "sunday": "Domingo",
+    "emergencySupport": "Solo Soporte de Emergencia"
+  },
+  "altTexts": {
+    "companyLogo": "Logo de Powerton Engineering Pvt. Ltd."
+  },
+  "messages": {
+    "toggleTheme": "Cambiar Tema",
+    "close": "Cerrar"
+  },
+  "clients": {
+    "sci-group": "Corporación Naviera de la India",
+    "agribio": "AgriBio Alemania",
+    "motherson": "Grupo Motherson",
+    "praj": "Industrias Praj",
+    "thermax": "Thermax Limitada",
+    "ankur": "Tecnologías de Energía Científica Ankur",
+    "dls": "DLS India",
+    "boudh": "Destilería Boudh",
+    "lokmangal": "Grupo Lokmangal",
+    "marcuras": "Tratamiento de Agua Marcuras",
+    "nv-group": "Grupo NV",
+    "anand-nv": "Anand NV",
+    "dhanuka": "Dhanuka Agritech",
+    "mjson": "MJSON",
+    "procient": "Procient"
+  },
+  "copyright": {
+    "text": "© {{year}} Powerton Engineering Pvt. Ltd. Todos los derechos reservados.",
+    "madeWith": "Hecho con 💙 por el equipo de Powerton Engineering"
+  },
+  "seo": {
+    "defaultTitle": "Powerton Engineering Pvt. Ltd. - Paneles de Control Industrial y Soluciones de Automatización",
+    "defaultDescription": "Fabricante líder de paneles de control eléctrico, sistemas de automatización industrial y soluciones de instrumentación. Sirviendo industrias en toda India con productos y servicios de ingeniería de calidad.",
+    "defaultKeywords": "paneles de control eléctrico, automatización industrial, centro de control de energía, centro de control de motores, instrumentación, ingeniería eléctrica, India",
+    "companyName": "Powerton Engineering Pvt. Ltd.",
+    "companyDescription": "Fabricante líder de paneles de control eléctrico y soluciones de automatización industrial",
+    "siteName": "Powerton Engineering",
+    "twitterHandle": "@powertoneng",
+    "businessAddress": {
+      "street": "Segundo piso, F-25, Bloque F, Sector 6",
+      "city": "Noida", 
+      "state": "Uttar Pradesh",
+      "postal": "201301",
+      "country": "India"
+    },
+    "contact": {
+      "phone": "+91-94627-71662",
+      "email": "info.powerton@gmail.com"
+    },
+    "businessInfo": {
+      "industry": "Automatización Industrial, Ingeniería Eléctrica, Instrumentación",
+      "category": "Servicios de Ingeniería, Soluciones de Automatización, Sistemas Eléctricos",
+      "targetAudience": "Ingenieros Industriales, Gerentes de Planta, Profesionales de Automatización",
+      "companyType": "Proveedor de Soluciones de Ingeniería B2B",
+      "serviceArea": "India, Servicio Pan-India"
+    }
+  }
+}

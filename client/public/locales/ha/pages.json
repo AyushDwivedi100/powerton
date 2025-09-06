@@ -1,0 +1,298 @@
+{
+  "contact": {
+    "hero": {
+      "title": "Contact Our Engineering Experts",
+      "subtitle": "Ready to start your next project? Our expert team is here to help you with customized engineering solutions and professional consultation.",
+      "benefits": {
+        "consultation": "Free Consultation",
+        "support": "24/7 Emergency Support",
+        "experience": "15+ Years Experience"
+      }
+    },
+    "methods": {
+      "title": "Multiple Ways to Reach Us",
+      "subtitle": "Choose the communication method that works best for you. We're available 24/7 for emergency support."
+    },
+    "form": {
+      "title": "Send Us a Message",
+      "subtitle": "Get in touch with us for general inquiries, service information, or technical questions."
+    },
+    "contactMethods": {
+      "phone": {
+        "title": "Call Us Directly",
+        "subtitle": "Available 24/7 for support",
+        "description": "Speak directly with our technical team"
+      },
+      "email": {
+        "title": "Email Support",
+        "subtitle": "Response within 24 hours",
+        "description": "Send us detailed project requirements"
+      },
+      "whatsapp": {
+        "title": "WhatsApp Support",
+        "subtitle": "Quick response chat",
+        "description": "Get instant answers to your questions"
+      },
+      "whatsapp": {
+        "title": "WhatsApp Support",
+        "subtitle": "Quick response chat",
+        "description": "Get instant answers to your questions"
+      },
+      "visit": {
+        "title": "Visit Our Office",
+        "subtitle": "By appointment only",
+        "description": "Schedule a visit to our headquarters in Noida"
+      }
+    },
+    "office": {
+      "name": "Corporate Headquarters",
+      "hours": "Mon-Sat: 9:00 AM - 6:00 PM"
+    },
+    "services": {
+      "technical": {
+        "title": "Technical Support",
+        "description": "Expert technical assistance for all our products and services"
+      },
+      "customer": {
+        "title": "Customer Success",
+        "description": "Dedicated support to ensure your project success"
+      },
+      "onsite": {
+        "title": "On-Site Support",
+        "description": "Field engineering support at your location"
+      },
+      "remote": {
+        "title": "Remote Support",
+        "description": "Virtual assistance and remote system diagnostics"
+      }
+    }
+  },
+  "about": {
+    "title": "About Powerton Engineering",
+    "subtitle": "Leading Industrial Automation & Engineering Solutions"
+  },
+  "projects": {
+    "title": "Our Projects",
+    "subtitle": "Industrial Automation Excellence"
+  },
+  "gallery": {
+    "title": "Project Gallery",
+    "subtitle": "Showcase of Our Engineering Excellence"
+  },
+  "news": {
+    "title": "Labarai da Sabuntawa",
+    "subtitle": "Sabuwar Fahimtar Masana'antu"
+  },
+  "quote": {
+    "hero": {
+      "title": "Ƙimar Injiniya",
+      "subtitle": "Samu shawarwarin injiniya na ƙwarewa da kimantawar farashin",
+      "benefits": {
+        "consultation": "Shawarwari Kyauta",
+        "estimates": "Kimantawar Farashi nan take",
+        "noCosts": "Ba Farashin Ɓoye"
+      }
+    }
+  },
+  "home": {
+    "hero": {
+      "title": {
+        "main": "Maganin Cikakke don",
+        "highlight": "Nasarar Masana'antu"
+      },
+      "subtitle": "Faɗin samfuranmu da ayyuka suna ba da maganin cikakke waɗanda ke haɓaka nasarar masana'antu, suna tabbatar da cewa kowane bangare na bukatun injiniya ana rufe su.",
+      "buttons": {
+        "exploreServices": "Bincike Ayyukanmu",
+        "requestConsultation": "Nemi Shawarwari"
+      },
+      "features": {
+        "experience": "Shekaru 15+ na Gogewa",
+        "support": "Tallafin Fasaha 24/7",
+        "service": "Hidimar Pan-India"
+      },
+      "stats": {
+        "yearsExperience": "Shekarun Gogewa",
+        "projectsCompleted": "Ayyukan da aka Kammala",
+        "happyClients": "Abokan Ciniki masu Farin Ciki",
+        "supportAvailable": "Tallafi ya Samun"
+      }
+    },
+    "services": {
+      "label": "Ayyukanmu",
+      "title": "Maganin kwararru don duk bukatun, da aka bayar da kulawa ta musamman",
+      "description": "Daga sarrafa tsarota zuwa kwangilar gyara, muna ba da cikakkun maganin injiniya da suka dace da bukatun ku na masana'antu."
+    },
+    "products": {
+      "label": "Kayayyakinmu",
+      "title": "Maganin Kayan Aikin Sarrafa Masana'antu",
+      "description": "Cikakken kewayon kayayyakin lantarki da sarrafa da aka tsara don dogara, inganci da babban aiki a mahallin masana'antu.",
+      "viewProducts": "Duba Kayayyaki",
+      "viewCatalog": "Duba Cikakken Katalog na Kayayyaki"
+    },
+    "projects": {
+      "label": "Ayyukanmu",
+      "title": "Maganin Injiniya da aka Kai da Nasara",
+      "description": "Bincike tarin ayyukan da muka kammala waɗanda ke nuna gwaninta mu a sarrafa masana'antu da injiniyan lantarki.",
+      "completed": "An Kammala",
+      "keyFeatures": "Mahimman Fasaloli:",
+      "viewDetails": "Duba Cikakkun Bayanai",
+      "viewAllProjects": "Duba Duk Ayyukan",
+      "downloadPortfolio": "Zazzage Portfolio"
+    },
+    "about": {
+      "label": "Game da Mu",
+      "title": "Maraba da zuwa Powerton Engineering Pvt. Ltd.",
+      "description": "Abokin ciniki mai aminci a samar da kayayyaki da ayyukan injiniya masu inganci. An kafa shi da hangen nesa na ba da iko ga masana'antu ta hanyar sabbin abubuwa da nagarta, mun ƙware wajen samar da kayan lantarki da na'urori masu yawa.",
+      "visualHeading": "Injiniya na Ƙwararru",
+      "visualDescription": "Injiniyoyin Indiya masu ƙwararru da ke aiki akan sarrafa masana'antu da tsarin sarrafa",
+      "button": "Koyi Ƙari Game da Mu",
+      "features": {
+        "electrical": {
+          "title": "Lantarki da Na'urori",
+          "description": "Cikakken tsarin sarrafa"
+        },
+        "mechanical": {
+          "title": "Famfo na Inji",
+          "description": "Tsayayyen hanyoyin famfo da kayan gyara"
+        },
+        "solar": {
+          "title": "Hanyoyin Hasken Rana",
+          "description": "Shigarwar makamashi mai dorewa"
+        },
+        "tools": {
+          "title": "Kayan Aiki na Masana'antu",
+          "description": "Kayan aikin matakin ƙwararru"
+        }
+      }
+    },
+    "contact": {
+      "label": "Tuntube Mu",
+      "title": "Bari Mu Tattauna Bukatun Injiniya ku",
+      "description": "A shirye kuke don fara aikin ku na gaba? Tuntuɓe ƙungiyar kwararrun mu don maganin da aka keɓanta da shawarwarin ƙwararru.",
+      "getInTouch": "Tuntuba",
+      "methods": {
+        "phone": {
+          "title": "Waya",
+          "description": "Ana samun 24/7 don tallafin gaggawa"
+        },
+        "email": {
+          "title": "Imel",
+          "description": "Za mu amsa cikin sa'o'i 24"
+        },
+        "address": {
+          "title": "Adireshi",
+          "metro": "Metro Mafi Kusa"
+        }
+      }
+    }
+  },
+  "services": {
+    "hero": {
+      "title": "Ayyukan Injiniya na Kwararru",
+      "subtitle": "Cikakkun maganganu don duk bukatun ku na sarrafa masana'antu da injiniyan lantarki"
+    }
+  },
+  "about": {
+    "hero": {
+      "title": "Cancantar Injiniya Tun 2008",
+      "subtitle": "Abokin hulɗar ku na aminci a cikin maganin sarrafa masana'antu da injiniyan lantarki"
+    },
+    "story": {
+      "title": "Labarin Mu"
+    },
+    "values": {
+      "quality": {
+        "title": "Cancantar Inganci",
+        "description": "Muna riƙe mafi girman matsayi a kowane aikin da muke bayarwa"
+      },
+      "customer": {
+        "title": "Mayar da Hankali ga Abokin Ciniki",
+        "description": "Nasarar ku ita ce fifikon mu - muna gina haɗin gwiwa na dindindin"
+      },
+      "innovation": {
+        "title": "Kirkire-kirkire",
+        "description": "Maganganu na zamani masu amfani da sabbin fasahohin masana'antu"
+      },
+      "reliability": {
+        "title": "Dogaro",
+        "description": "Maganganu masu dogaro da za ku iya dogara a kai don muhimman ayyuka"
+      }
+    },
+    "stats": {
+      "engineers": "Injiniyoyi",
+      "staff": "Ma'aikatan Tallafi",
+      "experience": "Shekarun Gogewa",
+      "support": "Tallafi"
+    },
+    "certifications": {
+      "iso9001": "ISO 9001:2015 Gudanar da Inganci",
+      "iso14001": "ISO 14001:2015 Gudanar da Muhalli",
+      "ohsas18001": "OHSAS 18001 Lafiya da Amincin Aiki",
+      "ceMarking": "Bin Alamar CE",
+      "ulListed": "Kayayyakin da UL ya Jera",
+      "cpriApproved": "Kayan Aikin da CPRI ya Amince"
+    }
+  },
+        "requestConsultation": "Nemi Shawarwari"
+      },
+      "features": {
+        "experience": "Shekaru 15+ na Gogewa",
+        "support": "Tallafin Fasaha 24/7",
+        "service": "Sabis a Duk India"
+      },
+      "stats": {
+        "yearsExperience": "Shekarun Gogewa",
+        "projectsCompleted": "Ayyukan da aka Kammala",
+        "happyClients": "Abokin Ciniki mai Farin Ciki",
+        "supportAvailable": "Tallafi Akwai"
+      }
+    },
+    "about": {
+      "label": "Game da Mu",
+      "title": "Maraba zuwa Powerton Engineering Pvt. Ltd.",
+      "description": "Abokin hulɗarku mai aminci wajen ba da maganin injiniya mai kyau da ayyuka. An kafa shi da hangen nesa na ƙarfafa masana'antu ta hanyar kirkire-kirkire da nagarta, muna ƙwarewa wajen ba da nau'o-nau'o na samfuran lantarki da na'ura.",
+      "visualHeading": "Injiniya na Ƙwarewa",
+      "visualDescription": "Injiniyoyin India masu ƙwarewa suna aiki akan sarrafa masana'antu da tsarin sarrafa",
+      "features": {
+        "electrical": {
+          "title": "Lantarki da Na'ura",
+          "description": "Cikakken nau'i na tsarin sarrafa"
+        },
+        "mechanical": {
+          "title": "Famfo na Inji",
+          "description": "Maganin famfo mai ɗorewa da kayayyakin gyare-gyare"
+        },
+        "solar": {
+          "title": "Maganin Rana",
+          "description": "Shigarwar makamashi mai ɗorewa"
+        },
+        "tools": {
+          "title": "Kayan Masana'antu",
+          "description": "Kayan aiki masu daraja"
+        }
+      },
+      "button": "Koye Ƙarin Game da Mu"
+    },
+    "clients": {
+      "label": "Abokan Cinikinmu",
+      "title": "Amanar Manyan Alamomi da Ƙungiyoyi",
+      "description": "Mun haɗa kai da shugabannin masana'antu a fannuna daban-daban don ba da maganin injiniya na musamman.",
+      "testimonialsTitle": "Abin da Abokan Cinikinmu ke Cewa"
+    },
+    "projects": {
+      "label": "Ayyukanmu",
+      "title": "Maganin Injiniya da aka Ba da Cikin Nasara",
+      "description": "Bincike fayil ɗin ayyukan da muka kammala waɗanda ke nuna ƙwarewarmu a fannin sarrafa masana'antu da injiniyan lantarki.",
+      "keyFeatures": "Mahimman Abubuwa:",
+      "completed": "An kammala",
+      "viewDetails": "Duba Cikakkun Bayanai",
+      "viewAllProjects": "Duba Dukan Ayyuka",
+      "downloadPortfolio": "Sauke Fayil"
+    },
+    "seo": {
+      "title": "Powerton Engineering - Sarrafa Masana'antu da Allunan Sarrafa | India",
+      "description": "Babban masanin kera allunan sarrafa lantarki, tsarin sarrafa masana'antu da maganin na'ura. Ayyukan injiniya masu ƙwarewa a duk India tare da shekaru 15+ na gogewa.",
+      "keywords": "allunan sarrafa lantarki, sarrafa masana'antu, sarrafa tsari, na'ura, cibiyar sarrafa wutar lantarki, cibiyar sarrafa mota, injiniyan lantarki, India, Noida"
+    }
+  }
+}

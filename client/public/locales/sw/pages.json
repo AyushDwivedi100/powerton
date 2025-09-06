@@ -1,0 +1,94 @@
+{
+  "home": {
+    "hero": {
+      "title": {
+        "main": "Suluhisho Kamili za",
+        "highlight": "Mafanikio ya Viwanda"
+      },
+      "subtitle": "Kumbuka yetu kubwa ya bidhaa na huduma hutoa suluhisho kamili yanayoongoza mafanikio ya viwanda, kuhakikisha kuwa kila kipengele cha mahitaji yako ya kihandisi kinashughulikiwa.",
+      "buttons": {
+        "exploreServices": "Chunguza Huduma Zetu",
+        "requestConsultation": "Omba Ushauri"
+      },
+      "features": {
+        "experience": "15+ Miaka ya Uzoefu",
+        "support": "Msaada wa Kiufundi 24/7",
+        "service": "Huduma za Pan-India"
+      },
+      "stats": {
+        "yearsExperience": "Miaka ya Uzoefu",
+        "projectsCompleted": "Miradi Iliyokamilika",
+        "happyClients": "Wateja Wenye Furaha",
+        "supportAvailable": "Msaada Unapatikana"
+      }
+    },
+    "services": {
+      "label": "Huduma Zetu",
+      "title": "Suluhisho za kitaalamu kwa mahitaji yote, zinazotolewa kwa utunzaji wa kipekee",
+      "description": "Kutoka kwa otomatiki ya michakato hadi mikataba ya matengenezo, tunatoa suluhisho kamili za kihandisi zilizobinafsishwa kwa mahitaji yako ya viwanda."
+    },
+    "products": {
+      "label": "Bidhaa Zetu",
+      "title": "Suluhisho za Vifaa vya Otomatiki ya Viwanda",
+      "description": "Safu kamili ya bidhaa za umeme na otomatiki zilizoundwa kwa kuaminika, ufanisi na utendaji bora katika mazingira ya viwanda.",
+      "viewProducts": "Ona Bidhaa",
+      "viewCatalog": "Ona Katalogi Kamili ya Bidhaa"
+    },
+    "projects": {
+      "label": "Miradi Yetu",
+      "title": "Suluhisho za Kihandisi Zilizotolewa kwa Mafanikio",
+      "description": "Chunguza kumbuka za miradi yetu iliyokamilika inayoonyesha utaalamu wetu katika otomatiki ya viwanda na uhandisi wa umeme.",
+      "completed": "Imekamilika",
+      "keyFeatures": "Sifa Kuu:",
+      "viewDetails": "Ona Maelezo",
+      "viewAllProjects": "Ona Miradi Yote",
+      "downloadPortfolio": "Pakua Kumbukumbu"
+    },
+    "about": {
+      "label": "Kuhusu Sisi",
+      "title": "Karibu Powerton Engineering Pvt. Ltd.",
+      "description": "Mshirika wako wa kuaminika katika kutoa suluhisho na huduma za kihandisi za ubora wa juu. Ilianzishwa kwa maono ya kuwezesha viwanda kupitia uvumbuzi na ubora, tunashughulikia kutoa safu kamili ya bidhaa za umeme na vifaa.",
+      "visualHeading": "Uhandisi wa Kitaalamu",
+      "visualDescription": "Wahandisi wa Kihindi wa kitaalamu wanaofanya kazi kwenye otomatiki ya viwanda na mifumo ya udhibiti",
+      "button": "Jifunze Zaidi Kuhusu Sisi",
+      "features": {
+        "electrical": {
+          "title": "Umeme na Vifaa",
+          "description": "Safu kamili ya mifumo ya udhibiti"
+        },
+        "mechanical": {
+          "title": "Pampu za Mitambo",
+          "description": "Suluhisho za pampu za kudumu na vipuri"
+        },
+        "solar": {
+          "title": "Suluhisho za Jua",
+          "description": "Miundombinu ya nishati endelevu"
+        },
+        "tools": {
+          "title": "Vifaa vya Viwanda",
+          "description": "Vifaa vya kiwango cha kitaalamu"
+        }
+      }
+    },
+    "contact": {
+      "label": "Wasiliana Nasi",
+      "title": "Hebu Tuzungumze Kuhusu Mahitaji Yako ya Kihandisi",
+      "description": "Uko tayari kuanza mradi wako unaofuata? Wasiliana na timu yetu ya wataalamu kwa suluhisho maalum na ushauri wa kitaalamu.",
+      "getInTouch": "Kuungana",
+      "methods": {
+        "phone": {
+          "title": "Simu",
+          "description": "Inapatikana 24/7 kwa msaada wa dharura"
+        },
+        "email": {
+          "title": "Barua pepe",
+          "description": "Tutajibu ndani ya masaa 24"
+        },
+        "address": {
+          "title": "Anwani",
+          "metro": "Metro ya Karibu Zaidi"
+        }
+      }
+    }
+  }
+}

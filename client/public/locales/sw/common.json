@@ -1,0 +1,245 @@
+{
+  "buttons": {
+    "learnMore": "Jifunze zaidi",
+    "getQuote": "Pata nukuu",
+    "contact": "Wasiliana nasi",
+    "contactUs": "Wasiliana nasi",
+    "viewAll": "Ona yote",
+    "readMore": "Soma zaidi",
+    "viewDetails": "Ona maelezo",
+    "download": "Pakua",
+    "downloadCatalog": "Pakua orodha",
+    "downloadBrochure": "Pakua kijitabu",
+    "downloadGuide": "Pakua mwongozo",
+    "downloadDatasheet": "Pakua ukurasa wa data",
+    "downloadPortfolio": "Pakua kazi",
+    "requestQuote": "Omba nukuu",
+    "showMore": "Onyesha zaidi",
+    "showFilters": "Onyesha vichungi",
+    "hideFilters": "Ficha vichungi",
+    "upload": "Pakia",
+    "expertTeam": "Timu ya wataalamu",
+    "successfulProjects": "Miradi iliyofanikiwa",
+    "qualityProducts": "Bidhaa za ubora"
+  },
+  "loading": "Inapakia...",
+  "error": "Kitu kimekwenda vibaya",
+  "success": "Mafanikio!",
+  "labels": {
+    "responseTime": "Muda wa majibu",
+    "availability": "Upatikanaji",
+    "coverage": "Ufikaji",
+    "technologies": "Teknolojia",
+    "parameters": "Vigezo",
+    "specifications": "Maelezo maalum",
+    "applications": "Matumizi",
+    "industries": "Viwanda",
+    "keyFeatures": "Vipengele muhimu",
+    "includes": "Inajumuisha",
+    "projectType": "Aina ya mradi",
+    "industry": "Uwanda",
+    "projectSize": "Ukubwa wa mradi",
+    "timeline": "Ratiba",
+    "location": "Mahali",
+    "budget": "Bajeti",
+    "requirements": "Mahitaji"
+  },
+  "messages": {
+    "serviceNotFound": "Huduma haikupatikana",
+    "readyToStart": "Uko tayari kuanza?",
+    "consultation": "Wasiliana nasi kwa mazungumzo ya kina na suluhisho maalum.",
+    "availability": "Jumatatu - Jumamosi, Msaada wa haraka unapatikana",
+    "coverage": "Huduma katika India yote",
+    "needHelp": "Unahitaji msaada kupata kitu?",
+    "cantFind": "Huwezi kupata unachokitafuta? Wasiliana nasi moja kwa moja au tumia chatbot yetu mahiri inayopatikana katika kila ukurasa."
+  },
+  "placeholders": {
+    "selectProjectType": "Chagua aina ya mradi",
+    "selectIndustry": "Chagua uwanda",
+    "selectProjectSize": "Chagua ukubwa wa mradi",
+    "selectTimeline": "Chagua ratiba",
+    "projectTimeline": "Ratiba ya mradi",
+    "selectBudgetRange": "Chagua kiwango cha bajeti (si lazima)",
+    "cityState": "Jiji, Jimbo",
+    "describeExisting": "Elezea mifumo au miundombinu yoyote iliyopo...",
+    "searchProjects": "Tafuta miradi, wateja au teknolojia...",
+    "selectIndustryFilter": "Chagua uwanda",
+    "selectCategory": "Chagua jamii",
+    "selectStatus": "Chagua hali",
+    "askChatbot": "Niulize kuhusu bidhaa, huduma au msaada wa kiufundi...",
+    "yourFullName": "Jina lako kamili",
+    "yourEmail": "yako@kampuni.com",
+    "yourPhone": "+91-XXXXX-XXXXX",
+    "yourRole": "Nafasi/cheo chako",
+    "yourCompanyName": "Jina la kampuni yako",
+    "briefProjectTitle": "Kichwa kifupi cha mradi wako"
+  },
+  "projectCategories": {
+    "Power Plant": "Kiwanda cha Umeme",
+    "Manufacturing": "Utengenezaji",
+    "Solar": "Jua",
+    "Water Treatment": "Usafishaji wa Maji"
+  },
+  "steps": {
+    "projectTypeIndustry": "Aina ya mradi na uwanda",
+    "projectSpecifications": "Maelezo maalum ya mradi",
+    "requirementsFeatures": "Mahitaji na vipengele",
+    "additionalInformation": "Maelezo ya ziada"
+  },
+  "altTexts": {
+    "companyLogo": "Nembo ya Powerton Engineering Pvt. Ltd.",
+    "contactCenterBackground": "Mazingira ya kituo cha mawasiliano na ofisi ya msaada kwa wateja kwa kampuni ya uhandisi",
+    "aboutCompanyFacility": "Kituo cha otomatiki ya viwandani cha Powerton Engineering chenye mifumo ya kisasa ya udhibiti",
+    "officeLocation": "Mahali pa ofisi ya Powerton Engineering"
+  },
+  "sitemap": {
+    "sections": {
+      "mainPages": "Kurasa kuu",
+      "servicesProjects": "Huduma na miradi", 
+      "productCategories": "Makundi ya bidhaa",
+      "resourcesTools": "Rasilimali na zana",
+      "legalInformation": "Maelezo ya kisheria"
+    },
+    "categories": {
+      "automationControl": "Mifumo ya otomatiki na udhibiti",
+      "bldcMotors": "Mifumo ya injini za BLDC",
+      "electricalComponents": "Vifaa vya umeme",
+      "measurementInstrumentation": "Kipimo na ala za kipimo",
+      "industrialTools": "Zana na vifaa vya viwandani",
+      "pumpsFluid": "Pampu na mifumo ya maji",
+      "solarRenewable": "Nishati ya jua na mbadala",
+      "safetyProtection": "Usalama na ulinzi",
+      "structuralMounting": "Miundo na uwekaji",
+      "networkCommunication": "Mtandao na mawasiliano"
+    },
+    "pages": {
+      "home": "Nyumbani",
+      "aboutUs": "Kuhusu sisi",
+      "contact": "Mawasiliano",
+      "gallery": "Picha",
+      "ourServices": "Huduma zetu",
+      "serviceDetails": "Maelezo ya huduma",
+      "projects": "Miradi",
+      "allProducts": "Bidhaa zote",
+      "requestQuote": "Omba nukuu",
+      "downloadPortfolio": "Pakua kazi",
+      "newsUpdates": "Habari na masasisho",
+      "newsArticles": "Makala za habari",
+      "termsOfService": "Masharti ya huduma",
+      "sitemap": "Ramani ya tovuti"
+    },
+    "descriptions": {
+      "home": "Karibu Powerton Engineering - Masuluhisho ya otomatiki ya viwandani",
+      "aboutUs": "Jifunze kuhusu kampuni yetu, dhamira na utaalamu",
+      "contact": "Wasiliana na timu yetu ya uhandisi",
+      "gallery": "Ona picha za miradi yetu na miundombinu",
+      "ourServices": "Huduma za otomatiki ya viwandani na uhandisi wa umeme",
+      "serviceDetails": "Maelezo ya kina kuhusu huduma maalum",
+      "projects": "Kazi za miradi ya otomatiki ya viwandani iliyokamilika",
+      "allProducts": "Orodha kamili ya bidhaa za otomatiki ya viwandani",
+      "requestQuote": "Pata nukuu ya kina kwa mradi wako",
+      "downloadPortfolio": "Pakua kazi za miradi na nyaraka",
+      "newsUpdates": "Habari za hivi karibuni na masasisho ya kampuni",
+      "newsArticles": "Makala za habari na masasisho ya kibinafsi",
+      "termsOfService": "Masharti na masharti ya kutumia huduma zetu",
+      "sitemap": "Uongozaji kamili wa tovuti na muundo wa kurasa"
+    }
+  },
+  "company": {
+    "name": "Powerton Engineering Pvt. Ltd.",
+    "tagline": "Mshirika wako wa kuaminika katika otomatiki ya viwanda na uhandisi wa umeme",
+    "phone": "+91-94627-71662",
+    "email": "info.powerton@gmail.com",
+    "address": {
+      "street": "Ghorofa ya pili, F-25, Jengo la F, Sehemu ya 6",
+      "city": "Noida",
+      "state": "Uttar Pradesh",
+      "pincode": "201301",
+      "landmark": "metro ya karibu-Sehemu ya 15",
+      "full": "Ghorofa ya pili, F-25, Jengo la F, Sehemu ya 6, Noida, Uttar Pradesh 201301, India"
+    },
+    "businessHours": {
+      "weekdays": "Jumatatu - Jumamosi: 9:00 Asubuhi - 6:00 Jioni",
+      "sunday": "Jumapili: Msaada wa Haraka Pekee"
+    },
+    "stats": {
+      "projectsCompleted": "500+",
+      "clientsServed": "200+",
+      "yearsExperience": "15+",
+      "responseTime": "masaa 2"
+    }
+  },
+  "buttons": {
+    "getQuote": "Pata Nukuu",
+    "callNow": "Piga Simu Sasa",
+    "emailUs": "Tutumie Barua Pepe",
+    "learnMore": "Jifunze Zaidi",
+    "viewMore": "Ona Zaidi",
+    "viewAll": "Ona Yote",
+    "contactUs": "Wasiliana Nasi",
+    "getStarted": "Anza",
+    "downloadBrochure": "Pakua Kijitabu"
+  },
+  "labels": {
+    "businessHours": "Masaa ya Biashara",
+    "mondayToSaturday": "Jumatatu - Jumamosi",
+    "workingHours": "9:00 Asubuhi - 6:00 Jioni",
+    "sunday": "Jumapili",
+    "emergencySupport": "Msaada wa Haraka Pekee"
+  },
+  "altTexts": {
+    "companyLogo": "Nembo ya Powerton Engineering Pvt. Ltd."
+  },
+  "messages": {
+    "toggleTheme": "Badilisha Mandhari",
+    "close": "Funga"
+  },
+  "clients": {
+    "sci-group": "Shirika la Usafiri wa Bahari la India",
+    "agribio": "AgriBio Ujerumani",
+    "motherson": "Kundi la Motherson",
+    "praj": "Viwanda vya Praj",
+    "thermax": "Thermax Limited",
+    "ankur": "Teknolojia za Nishati za Kisayansi za Ankur",
+    "dls": "DLS India",
+    "boudh": "Kampuni ya Ulimbukizi ya Boudh",
+    "lokmangal": "Kundi la Lokmangal",
+    "marcuras": "Usafishaji wa Maji wa Marcuras",
+    "nv-group": "Kundi la NV",
+    "anand-nv": "Anand NV",
+    "dhanuka": "Dhanuka Agritech",
+    "mjson": "MJSON",
+    "procient": "Procient"
+  },
+  "copyright": {
+    "text": "© {{year}} Powerton Engineering Pvt. Ltd. Haki zote zimehifadhiwa.",
+    "madeWith": "Imetengenezwa na 💙 na timu ya Powerton Engineering"
+  },
+  "seo": {
+    "defaultTitle": "Powerton Engineering Pvt. Ltd. - Mapaneli ya udhibiti wa viwandani na masuluhisho ya otomatiki",
+    "defaultDescription": "Mtengenezaji mkuu wa mapaneli ya udhibiti wa umeme, mifumo ya otomatiki ya viwandani na masuluhisho ya ala za kipimo. Kuhudumia viwanda katika India yote kwa bidhaa na huduma za uhandisi za ubora.",
+    "defaultKeywords": "mapaneli ya udhibiti wa umeme, otomatiki ya viwandani, kituo cha udhibiti wa nguvu, kituo cha udhibiti wa injini, ala za kipimo, uhandisi wa umeme, India",
+    "companyName": "Powerton Engineering Pvt. Ltd.",
+    "companyDescription": "Mtengenezaji mkuu wa mapaneli ya udhibiti wa umeme na masuluhisho ya otomatiki ya viwandani",
+    "siteName": "Powerton Engineering",
+    "twitterHandle": "@powertoneng",
+    "businessAddress": {
+      "street": "Ghorofa ya 2, F-25, Kizuizi cha F, Sehemu ya 6",
+      "city": "Noida", 
+      "state": "Uttar Pradesh",
+      "postal": "201301",
+      "country": "India"
+    },
+    "contact": {
+      "phone": "+91-94627-71662",
+      "email": "info.powerton@gmail.com"
+    },
+    "businessInfo": {
+      "industry": "Otomatiki ya viwandani, Uhandisi wa umeme, Ala za kipimo",
+      "category": "Huduma za uhandisi, Masuluhisho ya otomatiki, Mifumo ya umeme",
+      "targetAudience": "Wahandisi wa viwandani, Wakuu wa mazingira, Wataalamu wa otomatiki",
+      "companyType": "Mtoa masuluhisho ya uhandisi B2B",
+      "serviceArea": "India, Huduma ya India nzima"
+    }
+  }
+}

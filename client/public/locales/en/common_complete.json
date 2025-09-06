@@ -1,0 +1,159 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "products": "Products",
+    "projects": "Projects",
+    "contact": "Contact",
+    "blog": "Blog",
+    "quote": "Get Quote"
+  },
+  "language": {
+    "en": "English",
+    "hi": "Hindi",
+    "ar": "العربية",
+    "es": "Español",
+    "fr": "Français",
+    "zh": "中文",
+    "pt": "Português",
+    "ru": "Русский",
+    "sw": "Kiswahili",
+    "ha": "Hausa"
+  },
+  "projectCategories": {
+    "Power Plant": "Power Plant",
+    "Manufacturing": "Manufacturing",
+    "Solar": "Solar",
+    "Water Treatment": "Water Treatment"
+  },
+  "testimonials": {
+    "anand": {
+      "name": "Anand Awasthi",
+      "location": "West Bengal",
+      "comment": "Powerton Engineering made the process of going solar seamless and easy. Their team handled everything from start to finish, and we're thrilled with the results."
+    },
+    "sanjay": {
+      "name": "Sanjay Patil",
+      "location": "Uttar Pradesh",
+      "comment": "I am glad I chose Powerton Engineering for our installation, and I would not hesitate to recommend them to any of my friends."
+    },
+    "rhea": {
+      "name": "Rhea Sharma",
+      "location": "Maharashtra",
+      "comment": "Excellent quality products and outstanding customer service. The technical expertise of the team is impressive and highly professional."
+    }
+  },
+  "projects": {
+    "thermal-plant": {
+      "title": "Thermal Power Plant Automation",
+      "description": "Complete automation solution for 250MW thermal power plant including control panels, SCADA systems, and safety interlocks.",
+      "location": "Uttar Pradesh",
+      "duration": "12 months",
+      "highlights": {
+        "scada": "SCADA Implementation",
+        "safety": "Safety Systems",
+        "control": "Control Panels",
+        "monitoring": "Performance Monitoring"
+      }
+    },
+    "pharma-plant": {
+      "title": "Pharmaceutical Plant Control System",
+      "description": "Advanced process control and monitoring system for pharmaceutical manufacturing with FDA compliance and data integrity features.",
+      "location": "Maharashtra",
+      "duration": "8 months",
+      "highlights": {
+        "fda": "FDA Compliance",
+        "data": "Data Integrity",
+        "process": "Process Control",
+        "quality": "Quality Monitoring"
+      }
+    },
+    "solar-plant": {
+      "title": "10MW Solar Power Installation",
+      "description": "Complete design and installation of grid-connected solar power plant with monitoring systems and grid synchronization equipment.",
+      "location": "Rajasthan",
+      "duration": "6 months",
+      "highlights": {
+        "grid": "Grid Connection",
+        "monitoring": "Monitoring Systems",
+        "optimization": "Performance Optimization",
+        "maintenance": "Maintenance Planning"
+      }
+    },
+    "water-treatment": {
+      "title": "Municipal Water Treatment Automation",
+      "description": "Automated control system for water treatment plant serving 500,000 residents with real-time monitoring and quality control.",
+      "location": "West Bengal",
+      "duration": "10 months",
+      "highlights": {
+        "monitoring": "Real-time Monitoring",
+        "quality": "Quality Control",
+        "automation": "Automated Operations",
+        "remote": "Remote Management"
+      }
+    }
+  },
+  "cta": {
+    "getQuote": "Get Quote",
+    "callNow": "Call Now",
+    "emailUs": "Email Us",
+    "learnMore": "Learn More",
+    "viewMore": "View More",
+    "contactUs": "Contact Us",
+    "getStarted": "Get Started",
+    "downloadBrochure": "Download Brochure"
+  },
+  "seo": {
+    "powerton": {
+      "name": "Powerton Engineering Pvt. Ltd.",
+      "description": "Leading industrial automation and electrical engineering company in India. Specializing in power plant automation, solar installations, and manufacturing control systems.",
+      "keywords": "Industrial Automation, Electrical Engineering, Power Plant, Solar Energy, Manufacturing, Control Systems, Instrumentation, SCADA, PLC, Automation Solutions, Electrical Installation, Industrial Control Panels, Process Automation, Power Distribution, Motor Control Centers, Electrical Maintenance, Industrial Electrical Services, Automation Consulting, Electrical Design, Power Systems",
+      "author": "Powerton Engineering Team"
+    },
+    "location": {
+      "name": "Noida, Uttar Pradesh, India",
+      "region": "Uttar Pradesh",
+      "country": "India"
+    },
+    "contact": {
+      "phone": "+91-94627-71662",
+      "email": "info.powerton@gmail.com"
+    },
+    "businessInfo": {
+      "industry": "Industrial Automation, Electrical Engineering, Instrumentation",
+      "category": "Engineering Services, Automation Solutions, Electrical Systems",
+      "targetAudience": "Industrial Engineers, Plant Managers, Automation Professionals",
+      "companyType": "B2B Engineering Solutions Provider",
+      "serviceArea": "India, Pan-India Service"
+    }
+  },
+  "company": {
+    "name": "Powerton Engineering Pvt. Ltd.",
+    "tagline": "Your trusted partner in industrial automation and electrical engineering",
+    "phone": "+91-94627-71662",
+    "email": "info.powerton@gmail.com",
+    "address": {
+      "street": "2nd Floor, F-25, F Block, Sector 6",
+      "city": "Noida",
+      "state": "Uttar Pradesh",
+      "pincode": "201301",
+      "landmark": "nearest metro-Sector 15",
+      "full": "2nd Floor, F-25, F Block, Sector 6, Noida, Uttar Pradesh 201301, India"
+    },
+    "businessHours": {
+      "weekdays": "Monday - Saturday: 9:00 AM - 6:00 PM",
+      "sunday": "Sunday: Emergency Support Only"
+    },
+    "stats": {
+      "projectsCompleted": "500+",
+      "clientsServed": "200+",
+      "yearsExperience": "15+",
+      "responseTime": "2 hours"
+    }
+  },
+  "copyright": {
+    "text": "© {{year}} Powerton Engineering Pvt. Ltd. All rights reserved.",
+    "madeWith": "Made with 💙 by Powerton Engineering Team"
+  }
+}

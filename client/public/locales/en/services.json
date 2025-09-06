@@ -1,0 +1,91 @@
+{
+  "title": "Our Services",
+  "subtitle": "Comprehensive Industrial Engineering Solutions",
+  "categories": {
+    "automation": "Industrial Automation",
+    "electrical": "Electrical Engineering", 
+    "instrumentation": "Instrumentation & Control",
+    "solar": "Solar Solutions",
+    "maintenance": "Maintenance & Support"
+  },
+  "items": {
+    "installation-commissioning": "Installation and Commissioning",
+    "maintenance-repair": "Maintenance and Repair",
+    "calibration-testing": "Calibration and Testing",
+    "technical-support": "Technical Support",
+    "custom-solutions": "Custom Solutions",
+    "consultation-training": "Consultation and Training",
+    "supply-chain-management": "Supply Chain Management",
+    "solar-epc": "Solar EPC Solutions"
+  },
+  "durations": {
+    "installation-commissioning": "1-4 weeks",
+    "maintenance-repair": "Same day - 1 week",
+    "calibration-testing": "2-5 days",
+    "technical-support": "Immediate - Ongoing",
+    "custom-solutions": "2-12 weeks",
+    "consultation-training": "1-5 days",
+    "supply-chain-management": "1-7 days",
+    "solar-epc": "4-16 weeks"
+  },
+  "features": {
+    "installation-commissioning": {
+      "plc-dcs": "PLC/DCS Installation",
+      "system-integration": "System Integration",
+      "performance-testing": "Performance Testing",
+      "compliance-certification": "Compliance Certification"
+    },
+    "maintenance-repair": {
+      "preventive": "Preventive Maintenance",
+      "emergency": "Emergency Repairs (2hr)",
+      "replacement": "Component Replacement",
+      "upgrades": "System Upgrades"
+    },
+    "calibration-testing": {
+      "nabl-certified": "NABL Certified Calibration",
+      "accuracy-testing": "±0.25% Accuracy Testing",
+      "compliance": "Compliance Verification",
+      "certificates": "Traceability Certificates"
+    },
+    "technical-support": {
+      "24-7-support": "24/7/365 Support",
+      "remote-diagnostics": "Remote Diagnostics",
+      "onsite-response": "4hr On-site Response",
+      "emergency-hotline": "Emergency Hotline"
+    },
+    "custom-solutions": {
+      "mcc-panels": "Custom MCC Panels",
+      "process-automation": "Process Automation",
+      "unique-applications": "Unique Applications",
+      "end-to-end": "End-to-End Solutions"
+    },
+    "consultation-training": {
+      "plc-programming": "PLC Programming Training",
+      "system-design": "System Design Consultation",
+      "isa-certified": "ISA Certified Modules",
+      "hands-on": "Hands-on Workshops"
+    },
+    "supply-chain-management": {
+      "authorized-distributors": "Authorized Distributors",
+      "genuine-parts": "Genuine Parts Only",
+      "warranty": "1-Year Warranty",
+      "express-delivery": "Express Delivery"
+    },
+    "solar-epc": {
+      "mnre-approved": "MNRE Approved Designs",
+      "capacity": "1kW to 1MW+ Capacity",
+      "guarantee": "25-Year Guarantee",
+      "grid-connection": "Grid Connection Support"
+    }
+  },
+  "descriptions": {
+    "installation-commissioning": "Professional installation and commissioning services for electrical panels, PLCs, SCADA systems, and industrial equipment with complete system validation.",
+    "maintenance-repair": "Comprehensive preventive and emergency maintenance services for electrical systems, control panels, and industrial automation equipment.",
+    "calibration-testing": "NABL-certified precision calibration and testing services for pressure, temperature, flow instruments and control systems.",
+    "technical-support": "24/7/365 technical support services with remote diagnostics, on-site troubleshooting, and emergency response.",
+    "custom-solutions": "Tailored engineering solutions for unique industrial requirements including custom MCC panels, automation systems, and process control solutions.",
+    "consultation-training": "Expert technical consultation and hands-on training programs for PLC programming, HMI development, and industrial automation.",
+    "supply-chain-management": "Comprehensive supply chain management for electrical components and spare parts. Authorized distributor network ensures genuine parts.",
+    "solar-epc": "Complete Solar Engineering, Procurement, and Construction services for 1kW to 1MW+ projects. MNRE-approved designs with 25-year performance guarantee."
+  }
+}

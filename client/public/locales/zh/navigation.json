@@ -1,0 +1,25 @@
+{
+  "menu": {
+    "about": "关于我们",
+    "projects": "项目",
+    "gallery": "图库",
+    "news": "新闻",
+    "contact": "联系我们"
+  },
+  "services": "服务",
+  "dropdowns": {
+    "services": "服务",
+    "products": "产品"
+  },
+  "header": {
+    "servingWorldwide": "全球服务"
+  },
+  "footer": {
+    "services": "服务",
+    "products": "产品",
+    "copyright": "© {{year}} Powerton Engineering Pvt. Ltd. 保留所有权利。",
+    "selectLanguage": "选择语言",
+    "companyDescription": "您值得信赖的合作伙伴，为工业自动化和电气系统提供高质量的工程解决方案和服务。",
+    "sitemap": "网站地图"
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "home": {
+    "hero": {
+      "title": {
+        "main": "Soluções Abrangentes para",
+        "highlight": "Sucesso Industrial"
+      },
+      "subtitle": "Nosso amplo portfólio de produtos e serviços oferece soluções abrangentes que impulsionam o sucesso industrial, garantindo que todos os aspectos das suas necessidades de engenharia sejam atendidos.",
+      "buttons": {
+        "exploreServices": "Explore Nossos Serviços",
+        "requestConsultation": "Solicitar Consulta"
+      },
+      "features": {
+        "experience": "15+ Anos de Experiência",
+        "support": "Suporte Técnico 24/7",
+        "service": "Serviço Pan-Índia"
+      },
+      "stats": {
+        "yearsExperience": "Anos de Experiência",
+        "projectsCompleted": "Projetos Concluídos",
+        "happyClients": "Clientes Satisfeitos",
+        "supportAvailable": "Suporte Disponível"
+      }
+    },
+    "services": {
+      "label": "Nossos Serviços",
+      "title": "Soluções especializadas para todas as necessidades, entregues com cuidado excepcional",
+      "description": "Da automação de processos aos contratos de manutenção, fornecemos soluções de engenharia abrangentes adaptadas às suas necessidades industriais."
+    },
+    "products": {
+      "label": "Nossos Produtos",
+      "title": "Soluções de Equipamentos de Automação Industrial",
+      "description": "Gama abrangente de produtos elétricos e de automação projetados para confiabilidade, eficiência e desempenho superior em ambientes industriais.",
+      "viewProducts": "Ver Produtos",
+      "viewCatalog": "Ver Catálogo Completo de Produtos"
+    },
+    "projects": {
+      "label": "Nossos Projetos",
+      "title": "Soluções de Engenharia Entregues com Sucesso",
+      "description": "Explore nosso portfólio de projetos concluídos que mostram nossa experiência em automação industrial e engenharia elétrica.",
+      "completed": "Concluído",
+      "keyFeatures": "Características Principais:",
+      "viewDetails": "Ver Detalhes",
+      "viewAllProjects": "Ver Todos os Projetos",
+      "downloadPortfolio": "Baixar Portfólio"
+    },
+    "about": {
+      "label": "Sobre Nós",
+      "title": "Bem-vindos à Powerton Engineering Pvt. Ltd.",
+      "description": "Seu parceiro confiável na entrega de soluções e serviços de engenharia de alta qualidade. Fundada com a visão de capacitar indústrias através da inovação e excelência, especializamo-nos em fornecer uma gama abrangente de produtos elétricos e instrumentais.",
+      "visualHeading": "Engenharia Profissional",
+      "visualDescription": "Engenheiros indianos profissionais trabalhando em automação industrial e sistemas de controle",
+      "button": "Saiba Mais Sobre Nós",
+      "features": {
+        "electrical": {
+          "title": "Elétrica e Instrumentação",
+          "description": "Gama completa de sistemas de controle"
+        },
+        "mechanical": {
+          "title": "Bombas Mecânicas",
+          "description": "Soluções de bombas duráveis e peças de reposição"
+        },
+        "solar": {
+          "title": "Soluções Solares",
+          "description": "Instalações de energia sustentável"
+        },
+        "tools": {
+          "title": "Ferramentas Industriais",
+          "description": "Equipamentos de nível profissional"
+        }
+      }
+    },
+    "contact": {
+      "label": "Entre em Contato",
+      "title": "Vamos Discutir Suas Necessidades de Engenharia",
+      "description": "Pronto para começar seu próximo projeto? Entre em contato com nossa equipe especializada para soluções personalizadas e consulta profissional.",
+      "getInTouch": "Entrar em Contato",
+      "methods": {
+        "phone": {
+          "title": "Telefone",
+          "description": "Disponível 24/7 para suporte de emergência"
+        },
+        "email": {
+          "title": "Email",
+          "description": "Responderemos em até 24 horas"
+        },
+        "address": {
+          "title": "Endereço",
+          "metro": "Metrô Mais Próximo"
+        }
+      }
+    }
+  }
+}
