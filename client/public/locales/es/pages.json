@@ -422,6 +422,39 @@
         "title": "Soporte Remoto",
         "description": "Asistencia virtual y diagnósticos remotos del sistema"
       }
+    },
+    "sections": {
+      "visitOffice": "Visita Nuestra Oficina",
+      "officeLocation": "Ubicación de la Oficina",
+      "supportServices": "Servicios de Soporte",
+      "businessHours": "Horarios Comerciales y Disponibilidad",
+      "getDirections": "Obtener Direcciones"
+    },
+    "formSection": {
+      "title": "Formulario de Contacto General",
+      "description": "Para consultas generales, información de servicios o preguntas técnicas"
+    },
+    "businessHours": {
+      "regular": {
+        "title": "Horarios Regulares",
+        "days": "Lunes - Sábado",
+        "time": "9:00 AM - 6:00 PM"
+      },
+      "emergency": {
+        "title": "Soporte de Emergencia",
+        "availability": "Disponibilidad 24/7",
+        "days": "Todos los Días"
+      },
+      "email": {
+        "title": "Respuesta por Email",
+        "time": "Dentro de 24 Horas",
+        "guarantee": "Garantizado"
+      }
+    },
+    "emergency": {
+      "title": "Soporte de Emergencia",
+      "description": "¿Falla crítica del sistema? Nuestro equipo de respuesta de emergencia está disponible 24/7 para ayudar a minimizar el tiempo de inactividad.",
+      "hotline": "Línea Directa de Emergencia"
     }
   },
   "about": {

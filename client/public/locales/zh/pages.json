@@ -380,6 +380,39 @@
         "title": "远程支持",
         "description": "虚拟协助和远程系统诊断"
       }
+    },
+    "sections": {
+      "visitOffice": "访问我们的办公室",
+      "officeLocation": "办公地点",
+      "supportServices": "支持服务",
+      "businessHours": "营业时间和可用性",
+      "getDirections": "获取路线"
+    },
+    "formSection": {
+      "title": "一般联系表格",
+      "description": "用于一般咨询、服务信息或技术问题"
+    },
+    "businessHours": {
+      "regular": {
+        "title": "常规时间",
+        "days": "周一至周六",
+        "time": "上午9:00 - 下午6:00"
+      },
+      "emergency": {
+        "title": "紧急支持",
+        "availability": "24/7可用",
+        "days": "所有日期"
+      },
+      "email": {
+        "title": "邮件回复",
+        "time": "24小时内",
+        "guarantee": "保证"
+      }
+    },
+    "emergency": {
+      "title": "紧急支持",
+      "description": "关键系统故障？我们的紧急响应团队24/7全天候为您提供服务，帮助减少停机时间。",
+      "hotline": "紧急热线"
     }
   },
   "about": {

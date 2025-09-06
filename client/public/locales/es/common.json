@@ -64,7 +64,9 @@
     "showFilters": "Mostrar Filtros",
     "readMore": "Leer Más",
     "downloadCatalog": "Descargar Catálogo",
-    "viewDetails": "Ver Detalles"
+    "viewDetails": "Ver Detalles",
+    "backTo": "Volver a {{category}}",
+    "backToBldcProducts": "Volver a Productos BLDC"
   },
   "messages": {
     "toggleTheme": "Cambiar Tema",
@@ -72,7 +74,19 @@
   },
   "products": {
     "sections": {
-      "industrialProducts": "Productos Industriales"
+      "industrialProducts": "Productos Industriales",
+      "applications": "Aplicaciones de {{product}}",
+      "keyFeatures": "Características Principales:"
+    },
+    "badges": {
+      "highEfficiency": "Alta Eficiencia",
+      "variableSpeed": "Velocidad Variable",
+      "lowNoise": "Bajo Ruido",
+      "smartControl": "Control Inteligente",
+      "durable": "Duradero",
+      "energySaving": "Ahorro de Energía",
+      "reliable": "Confiable",
+      "costEffective": "Costo-Efectivo"
     }
   },
   "keyFeatures": "Características principales",
