@@ -47,8 +47,8 @@ export default function Services() {
   return (
     <>
       <SEO
-        title="Professional Engineering Services - Installation, Maintenance & Automation | Powerton Engineering"
-        description="Expert engineering services: PLC programming, SCADA systems, industrial automation, electrical panel installation, maintenance, calibration, custom solutions & solar EPC services across India."
+        title={t('pages:services.seo.title', 'Professional Engineering Services - Installation, Maintenance & Automation | Powerton Engineering')}
+        description={t('pages:services.seo.description', 'Expert engineering services: PLC programming, SCADA systems, industrial automation, electrical panel installation, maintenance, calibration, custom solutions & solar EPC services across India.')}
         keywords="engineering services, industrial automation services, PLC programming, SCADA implementation, electrical panel installation, maintenance services, calibration services, custom automation solutions, solar EPC contractor, technical support India"
         canonicalUrl="https://powertonengineering.in/services"
       />

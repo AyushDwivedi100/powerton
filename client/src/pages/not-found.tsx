@@ -11,8 +11,8 @@ export default function NotFound() {
   return (
     <>
       <SEO
-        title="Page Not Found (404) - Powerton Engineering"
-        description="The page you're looking for doesn't exist. Return to Powerton Engineering homepage or explore our industrial automation services and products."
+        title={t('pages:notFound.seo.title', 'Page Not Found (404) - Powerton Engineering')}
+        description={t('pages:notFound.seo.description', "The page you're looking for doesn't exist. Return to Powerton Engineering homepage or explore our industrial automation services and products.")}
         keywords="404, page not found, powerton engineering, industrial automation, electrical engineering"
         canonicalUrl="https://powertonengineering.in/404"
         structuredData={{

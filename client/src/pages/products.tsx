@@ -300,8 +300,8 @@ export default function Products() {
   return (
     <>
       <SEO
-        title="Industrial Products Catalog - Automation & Electrical Equipment | Powerton Engineering"
-        description="Comprehensive catalog of industrial automation products, electrical components, instrumentation, solar systems, pumps, and tools. Quality equipment for industrial applications."
+        title={t('pages:products.seo.title', 'Industrial Products Catalog - Automation & Electrical Equipment | Powerton Engineering')}
+        description={t('pages:products.seo.description', 'Comprehensive catalog of industrial automation products, electrical components, instrumentation, solar systems, pumps, and tools. Quality equipment for industrial applications.')}
         keywords="industrial products, automation equipment, electrical components, instrumentation products, solar panels, industrial pumps, measurement instruments, safety equipment"
         canonicalUrl="https://powertonengineering.in/products"
       />
@@ -321,9 +321,7 @@ export default function Products() {
               <span className="text-secondary">{t('products.sections.industrialProducts')}</span>
             </h1>
             <p className="text-lg md:text-xl mb-8 opacity-90 max-w-3xl mx-auto">
-              Comprehensive range of industrial automation products, electrical
-              components, instrumentation, solar systems, pumps, and tools.
-              Quality equipment for industrial applications.
+              {t('products:subtitle', 'Comprehensive range of industrial automation products, electrical components, instrumentation, solar systems, pumps, and tools. Quality equipment for industrial applications.')}
             </p>
             <div className="flex flex-col sm:flex-row justify-center gap-4 max-w-md mx-auto">
               <Button className="bg-secondary hover:bg-secondary/90 text-secondary-foreground px-8 py-3 text-lg font-semibold w-full sm:w-auto">

@@ -8,10 +8,12 @@ import ProductsSection from "@/components/sections/products-section";
 import ClientsSection from "@/components/sections/clients-section";
 import ProjectsSection from "@/components/sections/projects-section";
 import ContactSection from "@/components/sections/contact-section";
+import { useTranslation } from "react-i18next";
 
 export default function Home() {
   // Re-enabled optimized scroll animations
   useScrollAnimations();
+  const { t } = useTranslation(['pages']);
   
   const structuredData = {
     "@context": "https://schema.org",
@@ -59,8 +61,8 @@ export default function Home() {
   return (
     <>
       <SEO
-        title="Powerton Engineering - Industrial Automation & Control Panels | India"
-        description="Leading manufacturer of electrical control panels, industrial automation systems, and instrumentation solutions. Expert engineering services across India with 15+ years experience."
+        title={t('pages:home.seo.title', 'Powerton Engineering - Industrial Automation & Control Panels | India')}
+        description={t('pages:home.seo.description', 'Leading manufacturer of electrical control panels, industrial automation systems, and instrumentation solutions. Expert engineering services across India with 15+ years experience.')}
         keywords="electrical control panels, industrial automation, process automation, instrumentation, power control center, motor control center, electrical engineering, India, Noida"
         structuredData={structuredData}
       />

@@ -28,7 +28,29 @@
     },
     "showing": "Showing"
   },
+  "home": {
+    "seo": {
+      "title": "Powerton Engineering - Industrial Automation & Control Panels | India",
+      "description": "Leading manufacturer of electrical control panels, industrial automation systems, and instrumentation solutions. Expert engineering services across India with 15+ years experience."
+    }
+  },
+  "products": {
+    "seo": {
+      "title": "Industrial Products Catalog - Automation & Electrical Equipment | Powerton Engineering",
+      "description": "Comprehensive catalog of industrial automation products, electrical components, instrumentation, solar systems, pumps, and tools. Quality equipment for industrial applications."
+    }
+  },
+  "services": {
+    "seo": {
+      "title": "Professional Engineering Services - Installation, Maintenance & Automation | Powerton Engineering",
+      "description": "Expert engineering services: PLC programming, SCADA systems, industrial automation, electrical panel installation, maintenance, calibration, custom solutions & solar EPC services across India."
+    }
+  },
   "notFound": {
+    "seo": {
+      "title": "Page Not Found (404) - Powerton Engineering",
+      "description": "The page you're looking for doesn't exist. Return to Powerton Engineering homepage or explore our industrial automation services and products."
+    }
     "title": "404",
     "heading": "Page Not Found",
     "message": "The page you're looking for doesn't exist. It may have been moved, deleted, or you entered the wrong URL.",
