@@ -21,6 +21,82 @@
     "sw": "Kiswahili",
     "ha": "Hausa"
   },
+  "navigation": {
+    "backToInstrumentationComponents": "इंस्ट्रूमेंटेशन कंपोनेंट्स पर वापस जाएं"
+  },
+  "aria": {
+    "toggleNavigation": "नेवीगेशन सहायक टॉगल करें",
+    "openLocation": "गूगल मैप्स में कार्यालय स्थान खोलें",
+    "exploreServices": "हमारी औद्योगिक स्वचालन और इंजीनियरिंग सेवाओं का अन्वेषण करें",
+    "requestConsultation": "अपनी इंजीनियरिंग परियोजना के लिए निःशुल्क परामर्श का अनुरोध करें",
+    "companyHighlights": "मुख्य कंपनी हाइलाइट्स और सेवाएं",
+    "performanceStats": "कंपनी प्रदर्शन आंकड़े",
+    "previousTestimonial": "पिछली प्रशंसापत्र",
+    "nextTestimonial": "अगली प्रशंसापत्र",
+    "mainNavigation": "मुख्य नेवीगेशन",
+    "companyInfo": "कंपनी की जानकारी और साइट नेवीगेशन",
+    "goToHomepage": "पावर्टन इंजीनियरिंग होमपेज पर जाएं",
+    "followLinkedIn": "लिंक्डइन पर पावर्टन इंजीनियरिंग को फॉलो करें",
+    "followFacebook": "फेसबुक पर पावर्टन इंजीनियरिंग को फॉलो करें",
+    "servicesNavigation": "सेवाएं नेवीगेशन",
+    "productsNavigation": "उत्पाद नेवीगेशन",
+    "callCompany": "पावर्टन इंजीनियरिंग को कॉल करें",
+    "emailCompany": "पावर्टन इंजीनियरिंग को ईमेल करें",
+    "viewOfficeLocation": "गूगल मैप्स पर पावर्टन इंजीनियरिंग कार्यालय स्थान देखें",
+    "officeLocationTitle": "पावर्टन इंजीनियरिंग कार्यालय स्थान",
+    "controllerSystems": "नियंत्रक और रिकॉर्डर",
+    "controllerDescription": "औद्योगिक नियंत्रण के लिए प्रक्रिया नियंत्रक और डेटा रिकॉर्डिंग सिस्टम",
+    "plcSystems": "पीएलसी सिस्टम",
+    "processControllers": "प्रक्रिया नियंत्रक",
+    "dataLoggers": "डेटा लॉगर",
+    "controlPanels": "नियंत्रण पैनल",
+    "switchesIndicators": "स्विच और संकेतक",
+    "switchesDescription": "औद्योगिक स्विच, संकेतक और सिग्नलिंग उपकरण",
+    "pushbuttonSwitches": "पुशबटन स्विच",
+    "selectorSwitches": "सेलेक्टर स्विच",
+    "indicatorLights": "संकेतक लाइटें",
+    "emergencyStops": "आपातकालीन स्टॉप",
+    "valvesActuators": "वाल्व और एक्चुएटर",
+    "valvesDescription": "प्रक्रिया नियंत्रण सिस्टम के लिए नियंत्रण वाल्व और एक्चुएटर",
+    "controlValves": "नियंत्रण वाल्व",
+    "pneumaticActuators": "वायवीय एक्चुएटर",
+    "electricActuators": "विद्युत एक्चुएटर",
+    "valvePositioners": "वाल्व पोजिशनर",
+    "analyzers": "विश्लेषक",
+    "analyzersDescription": "गुणवत्ता नियंत्रण के लिए गैस, तरल और प्रक्रिया विश्लेषक",
+    "gasAnalyzers": "गैस विश्लेषक",
+    "liquidAnalyzers": "तरल विश्लेषक",
+    "processAnalyzers": "प्रक्रिया विश्लेषक",
+    "multiParameterSystems": "मल्टी-पैरामीटर सिस्टम",
+    "signalConditioners": "सिग्नल कंडीशनर",
+    "signalConditionersDescription": "मापन सिस्टम के लिए सिग्नल प्रसंस्करण और कंडीशनिंग उपकरण",
+    "isolationAmplifiers": "आइसोलेशन एम्प्लीफायर",
+    "signalConverters": "सिग्नल कन्वर्टर",
+    "measuringTransducers": "मापने वाले ट्रांसड्यूसर",
+    "noiseFilters": "नॉइज़ फिल्टर"
+  },
+  "seo": {
+    "days": {
+      "monday": "सोमवार",
+      "tuesday": "मंगलवार",
+      "wednesday": "बुधवार",
+      "thursday": "गुरुवार",
+      "friday": "शुक्रवार",
+      "saturday": "शनिवार",
+      "sunday": "रविवार"
+    },
+    "schemaTypes": {
+      "breadcrumbList": "ब्रेडक्रंब सूची",
+      "listItem": "सूची आइटम",
+      "faqPage": "FAQ पेज",
+      "question": "प्रश्न",
+      "answer": "उत्तर",
+      "itemList": "आइटम सूची",
+      "service": "सेवा",
+      "localBusiness": "स्थानीय व्यवसाय",
+      "openingHours": "खुलने का समय विनिर्देश"
+    }
+  },
   "projectCategories": {
     "Power Plant": "पावर प्लांट",
     "Manufacturing": "विनिर्माण",
@@ -117,11 +193,10 @@
   },
   "messages": {
     "toggleTheme": "थीम बदलें",
-    "close": "बंद करें"
-  },
-  "messages": {
-    "toggleTheme": "थीम बदलें",
-    "close": "बंद करें"
+    "close": "बंद करें",
+    "imageNotFound": "छवि नहीं मिली",
+    "loading": "लोड हो रहा है...",
+    "error": "त्रुटि हुई"
   },
   "products": {
     "sections": {
