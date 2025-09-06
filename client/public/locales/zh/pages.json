@@ -383,6 +383,19 @@
       "request": "请求报价"
     }
   },
+  "projects": {
+    "title": "我们的项目",
+    "subtitle": "工业自动化卓越",
+    "showing": "显示 {{count}} 个项目，共 {{total}} 个",
+    "hero": {
+      "title": "我们的项目",
+      "subtitle": "通过1200多个成功项目发现我们的工程卓越，涵盖各个行业，展示创新、质量和可靠性。"
+    }
+  },
+  "ui": {
+    "projectPortfolio": "项目作品集",
+    "featuredProjects": "特色项目"
+  },
   "home": {
     "hero": {
       "title": {
