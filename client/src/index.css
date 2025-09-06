@@ -76,7 +76,8 @@ html {
     transition-duration: 0.01ms !important;
   }
   
-  .animate-infinite-scroll {
+  .animate-infinite-scroll,
+  .animate-infinite-scroll-rtl {
     animation: none;
   }
 }
