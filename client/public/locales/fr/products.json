@@ -21,5 +21,16 @@
     "available": "Disponible",
     "outOfStock": "Rupture de Stock",
     "discontinued": "Arrêté"
+  },
+  "items": {
+    "solar-products": "Produits Solaires",
+    "automation-control-systems": "Systèmes d'Automatisation et de Contrôle",
+    "safety-protective-devices": "Dispositifs de Sécurité et de Protection",
+    "mechanical-pumps-spares": "Pompes Mécaniques et Pièces de Rechange",
+    "industrial-tools-tackles": "Outils et Équipements Industriels",
+    "bldc": "BLDC",
+    "instrumentation-components": "Composants d'Instrumentation",
+    "electrical-components": "Composants Électriques",
+    "measurement-instruments": "Instruments de Mesure"
   }
 }

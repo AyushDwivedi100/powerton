@@ -130,6 +130,17 @@
     "grundfos": "Grundfos, KSB",
     "3m": "3M, MSA"
   },
+  "items": {
+    "solar-products": "المنتجات الشمسية",
+    "automation-control-systems": "أنظمة الأتمتة والتحكم",
+    "safety-protective-devices": "أجهزة السلامة والحماية",
+    "mechanical-pumps-spares": "المضخات الميكانيكية وقطع الغيار",
+    "industrial-tools-tackles": "الأدوات والمعدات الصناعية",
+    "bldc": "BLDC",
+    "instrumentation-components": "مكونات الأجهزة",
+    "electrical-components": "المكونات الكهربائية",
+    "measurement-instruments": "أدوات القياس"
+  },
   "tags": {
     "industrialAutomation": "الأتمتة الصناعية",
     "plcSystems": "أنظمة PLC",

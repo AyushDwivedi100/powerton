@@ -193,6 +193,17 @@
     "grundfos": "Grundfos, KSB",
     "3m": "3M, MSA"
   },
+  "items": {
+    "solar-products": "सौर उत्पाद",
+    "automation-control-systems": "स्वचालन और नियंत्रण प्रणाली",
+    "safety-protective-devices": "सुरक्षा और सुरक्षात्मक उपकरण",
+    "mechanical-pumps-spares": "यांत्रिक पंप और स्पेयर पार्ट्स",
+    "industrial-tools-tackles": "औद्योगिक उपकरण और टैकल",
+    "bldc": "BLDC",
+    "instrumentation-components": "इंस्ट्रूमेंटेशन घटक",
+    "electrical-components": "विद्युत घटक",
+    "measurement-instruments": "मापन उपकरण"
+  },
   "tags": {
     "industrialAutomation": "औद्योगिक स्वचालन",
     "plcSystems": "PLC सिस्टम",
