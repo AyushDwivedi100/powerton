@@ -45,11 +45,26 @@ html {
   }
 }
 
+/* Reverse infinite scroll animation for RTL languages */
+@keyframes infinite-scroll-rtl {
+  0% {
+    transform: translateX(-50%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
 .animate-infinite-scroll {
   animation: infinite-scroll 40s linear infinite;
 }
 
-.animate-infinite-scroll.paused {
+.animate-infinite-scroll-rtl {
+  animation: infinite-scroll-rtl 40s linear infinite;
+}
+
+.animate-infinite-scroll.paused,
+.animate-infinite-scroll-rtl.paused {
   animation-play-state: paused;
 }
 

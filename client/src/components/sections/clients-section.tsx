@@ -7,11 +7,14 @@ import { motion, AnimatePresence } from "framer-motion";
 import { useTranslation } from 'react-i18next';
 
 export default function ClientsSection() {
-  const { t } = useTranslation(['pages', 'common']);
+  const { t, i18n } = useTranslation(['pages', 'common']);
   const testimonials = getTestimonials(t);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isAutoPlaying, setIsAutoPlaying] = useState(true);
   const [logoCurrentIndex, setLogoCurrentIndex] = useState(0);
+  
+  // Check if current language is Arabic (RTL)
+  const isRTL = i18n.language === 'ar';
 
   // Auto-slide functionality for testimonials
   useEffect(() => {
@@ -93,7 +96,7 @@ export default function ClientsSection() {
             onMouseLeave={() => setIsHovered(false)}
           >
             <div 
-              className={`flex animate-infinite-scroll ${isHovered ? 'paused' : ''}`}
+              className={`flex ${isRTL ? 'animate-infinite-scroll-rtl' : 'animate-infinite-scroll'} ${isHovered ? 'paused' : ''}`}
               style={{
                 width: `${CLIENT_LOGOS.length * 2 * 162}px`, // Double width for seamless loop (162px per card)
               }}
