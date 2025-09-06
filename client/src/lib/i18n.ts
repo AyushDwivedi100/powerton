@@ -21,11 +21,11 @@ i18n
   .use(LanguageDetector)
   .use(initReactI18next)
   .init({
-    fallbackLng: false, // No locale fallback - use hardcoded English text
+    fallbackLng: 'en', // English fallback
     debug: import.meta.env.DEV, // Console logging only in development
     
-    // Supported languages - English removed as it uses hardcoded fallback
-    supportedLngs: ['hi', 'zh', 'es', 'ar', 'fr', 'pt', 'ru', 'sw', 'ha'],
+    // Supported languages - English now included
+    supportedLngs: ['en', 'hi', 'zh', 'es', 'ar', 'fr', 'pt', 'ru', 'sw', 'ha'],
     
     // Language detection options
     detection: {
@@ -36,7 +36,7 @@ i18n
       convertDetectedLanguage: (lng: string) => {
         // Handle language-country codes by extracting just the language part
         const language = lng.split('-')[0].toLowerCase();
-        const supportedLanguages = ['hi', 'zh', 'es', 'ar', 'fr', 'pt', 'ru', 'sw', 'ha'];
+        const supportedLanguages = ['en', 'hi', 'zh', 'es', 'ar', 'fr', 'pt', 'ru', 'sw', 'ha'];
         return supportedLanguages.includes(language) ? language : 'en';
       }
     },
