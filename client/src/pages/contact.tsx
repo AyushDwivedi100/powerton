@@ -213,9 +213,9 @@ export default function Contact() {
           <div className="max-w-4xl mx-auto">
             <Card>
               <CardHeader>
-                <CardTitle className="text-2xl text-center">General Contact Form</CardTitle>
+                <CardTitle className="text-2xl text-center">{t('pages:contact.formSection.title')}</CardTitle>
                 <p className="text-muted-foreground text-center">
-                  For general inquiries, service information, or technical questions
+                  {t('pages:contact.formSection.description')}
                 </p>
               </CardHeader>
               <CardContent>
@@ -234,7 +234,7 @@ export default function Contact() {
             {/* Visit Our Office Section */}
             <div>
               <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-primary mb-6 sm:mb-8">
-                Visit Our Office
+                {t('pages:contact.sections.visitOffice')}
               </h2>
               
               {officeLocations.map((location) => (
@@ -286,7 +286,7 @@ export default function Contact() {
                         className="inline-flex items-center text-sm sm:text-base text-secondary hover:text-secondary/80 font-medium transition-colors"
                       >
                         <MapPin className="w-3 h-3 sm:w-4 sm:h-4 mr-1 sm:mr-2" />
-                        Get Directions
+                        {t('pages:contact.sections.getDirections')}
                       </a>
                     </div>
                   </CardContent>
@@ -297,7 +297,7 @@ export default function Contact() {
             {/* Office Location Map Section */}
             <div>
               <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-primary mb-6 sm:mb-8">
-                Office Location
+                {t('pages:contact.sections.officeLocation')}
               </h2>
               
               {/* Google Maps Embed */}
@@ -325,7 +325,7 @@ export default function Contact() {
           {/* Support Services Section - Full Width Below */}
           <div>
             <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-primary mb-6 sm:mb-8 text-center">
-              Support Services
+              {t('pages:contact.sections.supportServices')}
             </h2>
             
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6">
@@ -350,16 +350,16 @@ export default function Contact() {
             {/* Emergency Support */}
             <Card className="mt-8 sm:mt-12 bg-gradient-to-br from-primary to-blue-800 text-white border-none">
               <CardContent className="p-6 sm:p-8 text-center">
-                <h3 className="text-lg sm:text-xl font-bold mb-3 sm:mb-4">Emergency Support</h3>
+                <h3 className="text-lg sm:text-xl font-bold mb-3 sm:mb-4">{t('pages:contact.emergency.title')}</h3>
                 <p className="mb-4 sm:mb-6 opacity-90 text-sm sm:text-base leading-relaxed max-w-3xl mx-auto">
-                  Critical system failure? Our emergency response team is available 24/7 to help minimize downtime.
+                  {t('pages:contact.emergency.description')}
                 </p>
                 <a 
                   href={`tel:${COMPANY_INFO.phone}`}
                   className="inline-flex items-center bg-secondary hover:bg-secondary/90 text-white px-4 sm:px-6 py-2 sm:py-3 rounded-lg font-semibold transition-colors text-sm sm:text-base"
                 >
                   <Phone className="w-4 h-4 sm:w-5 sm:h-5 mr-1 sm:mr-2" />
-                  Emergency Hotline
+                  {t('pages:contact.emergency.hotline')}
                 </a>
               </CardContent>
             </Card>
@@ -372,7 +372,7 @@ export default function Contact() {
         <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl lg:text-4xl font-bold text-primary mb-6">
-              Business Hours & Availability
+              {t('pages:contact.sections.businessHours')}
             </h2>
           </div>
 
@@ -380,10 +380,10 @@ export default function Contact() {
             <Card className="text-center border-none shadow-lg">
               <CardContent className="p-8">
                 <Clock className="w-12 h-12 text-primary mx-auto mb-4" />
-                <h3 className="text-xl font-bold text-foreground mb-4">Regular Hours</h3>
+                <h3 className="text-xl font-bold text-foreground mb-4">{t('pages:contact.businessHours.regular.title')}</h3>
                 <div className="space-y-2 text-muted-foreground">
-                  <p>Monday - Saturday</p>
-                  <p className="font-semibold">9:00 AM - 6:00 PM</p>
+                  <p>{t('pages:contact.businessHours.regular.days')}</p>
+                  <p className="font-semibold">{t('pages:contact.businessHours.regular.time')}</p>
                 </div>
               </CardContent>
             </Card>
@@ -391,10 +391,10 @@ export default function Contact() {
             <Card className="text-center border-none shadow-lg">
               <CardContent className="p-8">
                 <Phone className="w-12 h-12 text-secondary mx-auto mb-4" />
-                <h3 className="text-xl font-bold text-foreground mb-4">Emergency Support</h3>
+                <h3 className="text-xl font-bold text-foreground mb-4">{t('pages:contact.businessHours.emergency.title')}</h3>
                 <div className="space-y-2 text-muted-foreground">
-                  <p>24/7 Availability</p>
-                  <p className="font-semibold">All Days</p>
+                  <p>{t('pages:contact.businessHours.emergency.availability')}</p>
+                  <p className="font-semibold">{t('pages:contact.businessHours.emergency.days')}</p>
                 </div>
               </CardContent>
             </Card>
@@ -402,10 +402,10 @@ export default function Contact() {
             <Card className="text-center border-none shadow-lg">
               <CardContent className="p-8">
                 <Mail className="w-12 h-12 text-primary mx-auto mb-4" />
-                <h3 className="text-xl font-bold text-foreground mb-4">Email Response</h3>
+                <h3 className="text-xl font-bold text-foreground mb-4">{t('pages:contact.businessHours.email.title')}</h3>
                 <div className="space-y-2 text-muted-foreground">
-                  <p>Within 24 Hours</p>
-                  <p className="font-semibold">Guaranteed</p>
+                  <p>{t('pages:contact.businessHours.email.time')}</p>
+                  <p className="font-semibold">{t('pages:contact.businessHours.email.guarantee')}</p>
                 </div>
               </CardContent>
             </Card>
