@@ -217,7 +217,55 @@
     "Power Plant": "发电厂",
     "Manufacturing": "制造业",
     "Solar": "太阳能",
-    "Water Treatment": "水处理"
+    "Water Treatment": "水处理",
+    "Process Automation": "过程自动化",
+    "Power Systems": "电力系统"
+  },
+  "projects": {
+    "industrial-automation-demo": {
+      "title": "演示：工业自动化系统",
+      "client": "未来制造客户",
+      "category": "过程自动化",
+      "description": "展示完整的制造自动化能力，包括PLC集成、SCADA系统和实时监控解决方案。",
+      "location": "项目地点待定",
+      "duration": "12-18个月",
+      "budget": "₹50-75万",
+      "status": "能力展示",
+      "technologies": {
+        "plcProgramming": "PLC编程",
+        "scada": "SCADA",
+        "hmi": "人机界面",
+        "industrialIot": "工业物联网"
+      },
+      "highlights": {
+        "plcIntegration": "PLC集成",
+        "scadaSystems": "SCADA系统",
+        "realtimeMonitoring": "实时监控",
+        "processOptimization": "过程优化"
+      }
+    },
+    "power-distribution-demo": {
+      "title": "示例：电力分配控制",
+      "client": "未来电力合作伙伴",
+      "category": "电力系统",
+      "description": "展示自动负载平衡和远程监控能力的电力分配系统示例，用于发电设施。",
+      "location": "多个地点",
+      "duration": "10-15个月",
+      "budget": "₹1-2千万",
+      "status": "能力展示",
+      "technologies": {
+        "mccPanels": "MCC面板",
+        "protectionSystems": "保护系统",
+        "energyManagement": "能源管理",
+        "remoteMonitoring": "远程监控"
+      },
+      "highlights": {
+        "loadBalancing": "负载平衡",
+        "protectionSystems": "保护系统",
+        "energyManagement": "能源管理",
+        "remoteControl": "远程控制"
+      }
+    }
   },
   "steps": {
     "projectTypeIndustry": "项目类型和行业",

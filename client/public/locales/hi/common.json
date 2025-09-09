@@ -151,6 +151,52 @@
     "Process Automation": "प्रक्रिया स्वचालन",
     "Power Systems": "पावर सिस्टम"
   },
+  "projects": {
+    "industrial-automation-demo": {
+      "title": "डेमो: औद्योगिक स्वचालन प्रणाली",
+      "client": "भविष्य की विनिर्माण कंपनी",
+      "category": "प्रक्रिया स्वचालन",
+      "description": "पीएलसी एकीकरण, स्काडा सिस्टम और रियल-टाइम मॉनिटरिंग समाधान सहित पूर्ण विनिर्माण स्वचालन क्षमताओं का प्रदर्शन।",
+      "location": "परियोजना स्थल TBD",
+      "duration": "12-18 महीने",
+      "budget": "₹50-75 लाख",
+      "status": "क्षमता प्रदर्शन",
+      "technologies": {
+        "plcProgramming": "पीएलसी प्रोग्रामिंग",
+        "scada": "स्काडा",
+        "hmi": "एचएमआई",
+        "industrialIot": "औद्योगिक IoT"
+      },
+      "highlights": {
+        "plcIntegration": "पीएलसी एकीकरण",
+        "scadaSystems": "स्काडा सिस्टम",
+        "realtimeMonitoring": "रियल-टाइम मॉनिटरिंग",
+        "processOptimization": "प्रक्रिया अनुकूलन"
+      }
+    },
+    "power-distribution-demo": {
+      "title": "उदाहरण: विद्युत वितरण नियंत्रण",
+      "client": "भविष्य के विद्युत साझेदार",
+      "category": "पावर सिस्टम",
+      "description": "विद्युत उत्पादन सुविधाओं के लिए स्वचालित लोड संतुलन और दूरस्थ निगरानी क्षमताओं को प्रदर्शित करने वाली उदाहरण विद्युत वितरण प्रणाली।",
+      "location": "विभिन्न स्थान",
+      "duration": "10-15 महीने",
+      "budget": "₹1-2 करोड़",
+      "status": "क्षमता प्रदर्शन",
+      "technologies": {
+        "mccPanels": "एमसीसी पैनल",
+        "protectionSystems": "सुरक्षा प्रणाली",
+        "energyManagement": "ऊर्जा प्रबंधन",
+        "remoteMonitoring": "दूरस्थ निगरानी"
+      },
+      "highlights": {
+        "loadBalancing": "लोड संतुलन",
+        "protectionSystems": "सुरक्षा प्रणाली",
+        "energyManagement": "ऊर्जा प्रबंधन",
+        "remoteControl": "रिमोट कंट्रोल"
+      }
+    }
+  },
   "testimonials": {
     "anand": {
       "name": "आनंद अवस्थी",

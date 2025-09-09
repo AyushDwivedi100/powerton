@@ -252,7 +252,55 @@
     "Power Plant": "Central Eléctrica",
     "Manufacturing": "Manufactura",
     "Solar": "Solar",
-    "Water Treatment": "Tratamiento de Agua"
+    "Water Treatment": "Tratamiento de Agua",
+    "Process Automation": "Automatización de Procesos",
+    "Power Systems": "Sistemas de Energía"
+  },
+  "projects": {
+    "industrial-automation-demo": {
+      "title": "Demo: Sistema de Automatización Industrial",
+      "client": "Cliente de Manufactura del Futuro",
+      "category": "Automatización de Procesos",
+      "description": "Demostración de capacidades completas de automatización manufacturera incluyendo integración PLC, sistemas SCADA y soluciones de monitoreo en tiempo real.",
+      "location": "Sitio del Proyecto TBD",
+      "duration": "12-18 meses",
+      "budget": "₹50-75 Lakhs",
+      "status": "Demo de Capacidades",
+      "technologies": {
+        "plcProgramming": "Programación PLC",
+        "scada": "SCADA",
+        "hmi": "HMI",
+        "industrialIot": "IoT Industrial"
+      },
+      "highlights": {
+        "plcIntegration": "Integración PLC",
+        "scadaSystems": "Sistemas SCADA",
+        "realtimeMonitoring": "Monitoreo en Tiempo Real",
+        "processOptimization": "Optimización de Procesos"
+      }
+    },
+    "power-distribution-demo": {
+      "title": "Ejemplo: Control de Distribución de Energía",
+      "client": "Socio de Energía del Futuro",
+      "category": "Sistemas de Energía",
+      "description": "Ejemplo de sistema de distribución de energía que muestra capacidades de balanceo automático de cargas y monitoreo remoto para instalaciones de generación de energía.",
+      "location": "Varias Ubicaciones",
+      "duration": "10-15 meses",
+      "budget": "₹1-2 Crores",
+      "status": "Demo de Capacidades",
+      "technologies": {
+        "mccPanels": "Paneles MCC",
+        "protectionSystems": "Sistemas de Protección",
+        "energyManagement": "Gestión Energética",
+        "remoteMonitoring": "Monitoreo Remoto"
+      },
+      "highlights": {
+        "loadBalancing": "Balanceo de Cargas",
+        "protectionSystems": "Sistemas de Protección",
+        "energyManagement": "Gestión Energética",
+        "remoteControl": "Control Remoto"
+      }
+    }
   },
   "steps": {
     "projectTypeIndustry": "Tipo de Proyecto e Industria",

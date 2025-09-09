@@ -213,7 +213,55 @@
     "Power Plant": "Kiwanda cha Umeme",
     "Manufacturing": "Utengenezaji",
     "Solar": "Jua",
-    "Water Treatment": "Usafishaji wa Maji"
+    "Water Treatment": "Usafishaji wa Maji",
+    "Process Automation": "Otomatiki ya Michakato",
+    "Power Systems": "Mifumo ya Umeme"
+  },
+  "projects": {
+    "industrial-automation-demo": {
+      "title": "Onyesho: Mfumo wa Otomatiki ya Viwandani",
+      "client": "Mteja wa Utengenezaji wa Baadaye",
+      "category": "Otomatiki ya Michakato",
+      "description": "Onyesho la uwezo kamili wa otomatiki ya utengenezaji ukijumuisha ujumuishaji wa PLC, mifumo ya SCADA na ufuatiliaji wa wakati halisi.",
+      "location": "Eneo la Mradi TBD",
+      "duration": "Miezi 12-18",
+      "budget": "₹50-75 Lakhs",
+      "status": "Onyesho la Uwezo",
+      "technologies": {
+        "plcProgramming": "Programu ya PLC",
+        "scada": "SCADA",
+        "hmi": "HMI",
+        "industrialIot": "IoT ya Viwandani"
+      },
+      "highlights": {
+        "plcIntegration": "Ujumuishaji wa PLC",
+        "scadaSystems": "Mifumo ya SCADA",
+        "realtimeMonitoring": "Ufuatiliaji wa Wakati Halisi",
+        "processOptimization": "Kuboresha Michakato"
+      }
+    },
+    "power-distribution-demo": {
+      "title": "Mfano: Udhibiti wa Ugavi wa Umeme",
+      "client": "Mshirika wa Umeme wa Baadaye",
+      "category": "Mifumo ya Umeme",
+      "description": "Mfano wa mfumo wa ugavi wa umeme unaoonyesha usawazishaji otomatiki wa mizigo na uwezo wa ufuatiliaji wa mbali kwa vituo vya uzalishaji umeme.",
+      "location": "Maeneo Mbalimbali",
+      "duration": "Miezi 10-15",
+      "budget": "₹1-2 Crores",
+      "status": "Onyesho la Uwezo",
+      "technologies": {
+        "mccPanels": "Paneli za MCC",
+        "protectionSystems": "Mifumo ya Ulinzi",
+        "energyManagement": "Usimamizi wa Nishati",
+        "remoteMonitoring": "Ufuatiliaji wa Mbali"
+      },
+      "highlights": {
+        "loadBalancing": "Usawazishaji wa Mizigo",
+        "protectionSystems": "Mifumo ya Ulinzi",
+        "energyManagement": "Usimamizi wa Nishati",
+        "remoteControl": "Udhibiti wa Mbali"
+      }
+    }
   },
   "steps": {
     "projectTypeIndustry": "Aina ya mradi na uwanda",

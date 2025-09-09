@@ -209,7 +209,55 @@
     "Power Plant": "محطة طاقة",
     "Manufacturing": "التصنيع",
     "Solar": "طاقة شمسية",
-    "Water Treatment": "معالجة المياه"
+    "Water Treatment": "معالجة المياه",
+    "Process Automation": "أتمتة العمليات",
+    "Power Systems": "أنظمة الطاقة"
+  },
+  "projects": {
+    "industrial-automation-demo": {
+      "title": "عرض توضيحي: نظام الأتمتة الصناعية",
+      "client": "عميل التصنيع المستقبلي",
+      "category": "أتمتة العمليات",
+      "description": "عرض توضيحي لقدرات الأتمتة التصنيعية الكاملة بما في ذلك تكامل PLC وأنظمة SCADA وحلول المراقبة في الوقت الفعلي.",
+      "location": "موقع المشروع TBD",
+      "duration": "12-18 شهراً",
+      "budget": "₹50-75 لاخ",
+      "status": "عرض القدرات",
+      "technologies": {
+        "plcProgramming": "برمجة PLC",
+        "scada": "سكادا",
+        "hmi": "HMI",
+        "industrialIot": "إنترنت الأشياء الصناعي"
+      },
+      "highlights": {
+        "plcIntegration": "تكامل PLC",
+        "scadaSystems": "أنظمة سكادا",
+        "realtimeMonitoring": "مراقبة في الوقت الفعلي",
+        "processOptimization": "تحسين العمليات"
+      }
+    },
+    "power-distribution-demo": {
+      "title": "مثال: التحكم في توزيع الطاقة",
+      "client": "شريك الطاقة المستقبلي",
+      "category": "أنظمة الطاقة",
+      "description": "مثال على نظام توزيع الطاقة يعرض موازنة الأحمال التلقائية وقدرات المراقبة عن بُعد لمرافق توليد الطاقة.",
+      "location": "مواقع مختلفة",
+      "duration": "10-15 شهراً",
+      "budget": "₹1-2 كرور",
+      "status": "عرض القدرات",
+      "technologies": {
+        "mccPanels": "لوحات MCC",
+        "protectionSystems": "أنظمة الحماية",
+        "energyManagement": "إدارة الطاقة",
+        "remoteMonitoring": "مراقبة عن بُعد"
+      },
+      "highlights": {
+        "loadBalancing": "موازنة الأحمال",
+        "protectionSystems": "أنظمة الحماية",
+        "energyManagement": "إدارة الطاقة",
+        "remoteControl": "التحكم عن بُعد"
+      }
+    }
   },
   "steps": {
     "projectTypeIndustry": "نوع المشروع والصناعة",

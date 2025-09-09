@@ -213,7 +213,55 @@
     "Power Plant": "Centrale Électrique",
     "Manufacturing": "Fabrication",
     "Solar": "Solaire",
-    "Water Treatment": "Traitement de l'Eau"
+    "Water Treatment": "Traitement de l'Eau",
+    "Process Automation": "Automatisation des Processus",
+    "Power Systems": "Systèmes Électriques"
+  },
+  "projects": {
+    "industrial-automation-demo": {
+      "title": "Démo: Système d'Automatisation Industrielle",
+      "client": "Client de Fabrication du Futur",
+      "category": "Automatisation des Processus",
+      "description": "Démonstration des capacités complètes d'automatisation manufacturière incluant l'intégration PLC, les systèmes SCADA et les solutions de surveillance en temps réel.",
+      "location": "Site du Projet TBD",
+      "duration": "12-18 mois",
+      "budget": "₹50-75 Lakhs",
+      "status": "Démo de Capacités",
+      "technologies": {
+        "plcProgramming": "Programmation PLC",
+        "scada": "SCADA",
+        "hmi": "IHM",
+        "industrialIot": "IoT Industriel"
+      },
+      "highlights": {
+        "plcIntegration": "Intégration PLC",
+        "scadaSystems": "Systèmes SCADA",
+        "realtimeMonitoring": "Surveillance en Temps Réel",
+        "processOptimization": "Optimisation des Processus"
+      }
+    },
+    "power-distribution-demo": {
+      "title": "Exemple: Contrôle de Distribution Électrique",
+      "client": "Partenaire Électrique du Futur",
+      "category": "Systèmes Électriques",
+      "description": "Exemple de système de distribution électrique présentant l'équilibrage automatique de charge et les capacités de surveillance à distance pour les installations de production d'énergie.",
+      "location": "Diverses Localisations",
+      "duration": "10-15 mois",
+      "budget": "₹1-2 Crores",
+      "status": "Démo de Capacités",
+      "technologies": {
+        "mccPanels": "Panneaux MCC",
+        "protectionSystems": "Systèmes de Protection",
+        "energyManagement": "Gestion Énergétique",
+        "remoteMonitoring": "Surveillance à Distance"
+      },
+      "highlights": {
+        "loadBalancing": "Équilibrage de Charge",
+        "protectionSystems": "Systèmes de Protection",
+        "energyManagement": "Gestion Énergétique",
+        "remoteControl": "Contrôle à Distance"
+      }
+    }
   },
   "steps": {
     "projectTypeIndustry": "Type de projet et industrie",

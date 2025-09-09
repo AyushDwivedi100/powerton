@@ -129,6 +129,50 @@
     }
   },
   "projects": {
+    "industrial-automation-demo": {
+      "title": "Demo: Industrial Automation System",
+      "client": "Future Manufacturing Client",
+      "category": "Process Automation",
+      "description": "Demonstration of complete manufacturing automation capabilities including PLC integration, SCADA systems, and real-time monitoring solutions.",
+      "location": "Project Site TBD",
+      "duration": "12-18 months",
+      "budget": "₹50-75 Lakhs",
+      "status": "Capability Demo",
+      "technologies": {
+        "plcProgramming": "PLC Programming",
+        "scada": "SCADA",
+        "hmi": "HMI",
+        "industrialIot": "Industrial IoT"
+      },
+      "highlights": {
+        "plcIntegration": "PLC Integration",
+        "scadaSystems": "SCADA Systems",
+        "realtimeMonitoring": "Real-time Monitoring",
+        "processOptimization": "Process Optimization"
+      }
+    },
+    "power-distribution-demo": {
+      "title": "Example: Power Distribution Control",
+      "client": "Future Power Partner",
+      "category": "Power Systems",
+      "description": "Example power distribution system showcasing automated load balancing and remote monitoring capabilities for power generation facilities.",
+      "location": "Various Locations",
+      "duration": "10-15 months",
+      "budget": "₹1-2 Crores",
+      "status": "Capability Demo",
+      "technologies": {
+        "mccPanels": "MCC Panels",
+        "protectionSystems": "Protection Systems",
+        "energyManagement": "Energy Management",
+        "remoteMonitoring": "Remote Monitoring"
+      },
+      "highlights": {
+        "loadBalancing": "Load Balancing",
+        "protectionSystems": "Protection Systems",
+        "energyManagement": "Energy Management",
+        "remoteControl": "Remote Control"
+      }
+    },
     "thermal-plant": {
       "title": "Thermal Power Plant Automation",
       "description": "Complete automation solution for 250MW thermal power plant including control panels, SCADA systems, and safety interlocks.",

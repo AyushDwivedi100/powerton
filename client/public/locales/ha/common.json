@@ -213,7 +213,55 @@
     "Power Plant": "Gidajen Wutar Lantarki",
     "Manufacturing": "Masana'anta",
     "Solar": "Hasken Rana",
-    "Water Treatment": "Tsaftace Ruwa"
+    "Water Treatment": "Tsaftace Ruwa",
+    "Process Automation": "Sarrafa Ayyuka Ta Atomatik",
+    "Power Systems": "Tsarin Wutar Lantarki"
+  },
+  "projects": {
+    "industrial-automation-demo": {
+      "title": "Misali: Tsarin Sarrafa Masana'antu Ta Atomatik",
+      "client": "Abokin Ciniki na Masana'antu na Gobe",
+      "category": "Sarrafa Ayyuka Ta Atomatik",
+      "description": "Nuni na cikakken ikon sarrafa masana'antu ta atomatik da ya hada da haɗa PLC, tsarin SCADA da magudanar sa ido na lokaci-lokaci.",
+      "location": "Wurin Aikin TBD",
+      "duration": "Watanni 12-18",
+      "budget": "₹50-75 Lakhs",
+      "status": "Nuni na Iko",
+      "technologies": {
+        "plcProgramming": "Shirye-shiryen PLC",
+        "scada": "SCADA",
+        "hmi": "HMI",
+        "industrialIot": "IoT na Masana'antu"
+      },
+      "highlights": {
+        "plcIntegration": "Haɗa PLC",
+        "scadaSystems": "Tsarin SCADA",
+        "realtimeMonitoring": "Sa ido na Lokaci-Lokaci",
+        "processOptimization": "Inganta Ayyuka"
+      }
+    },
+    "power-distribution-demo": {
+      "title": "Misali: Sarrafa Rarraba Wutar Lantarki",
+      "client": "Abokin Hulɗa na Wutar Lantarki na Gobe",
+      "category": "Tsarin Wutar Lantarki",
+      "description": "Misali na tsarin rarraba wutar lantarki da ke nuna daidaita kaya ta atomatik da ikon sa ido daga nesa don gidajen samar da wutar lantarki.",
+      "location": "Wurare Daban-daban",
+      "duration": "Watanni 10-15",
+      "budget": "₹1-2 Crores",
+      "status": "Nuni na Iko",
+      "technologies": {
+        "mccPanels": "Panels na MCC",
+        "protectionSystems": "Tsarin Kariya",
+        "energyManagement": "Sarrafa Makamashi",
+        "remoteMonitoring": "Sa ido daga Nesa"
+      },
+      "highlights": {
+        "loadBalancing": "Daidaita Kaya",
+        "protectionSystems": "Tsarin Kariya",
+        "energyManagement": "Sarrafa Makamashi",
+        "remoteControl": "Sarrafa daga Nesa"
+      }
+    }
   },
   "steps": {
     "projectTypeIndustry": "Nau'in aikin da masana'anta",

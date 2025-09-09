@@ -215,7 +215,55 @@
     "Power Plant": "Электростанция",
     "Manufacturing": "Производство",
     "Solar": "Солнечная энергия",
-    "Water Treatment": "Очистка воды"
+    "Water Treatment": "Очистка воды",
+    "Process Automation": "Автоматизация Процессов",
+    "Power Systems": "Энергосистемы"
+  },
+  "projects": {
+    "industrial-automation-demo": {
+      "title": "Демо: Система Промышленной Автоматизации",
+      "client": "Клиент Производства Будущего",
+      "category": "Автоматизация Процессов",
+      "description": "Демонстрация полных возможностей производственной автоматизации, включая интеграцию ПЛК, системы SCADA и решения мониторинга в реальном времени.",
+      "location": "Место Проекта TBD",
+      "duration": "12-18 месяцев",
+      "budget": "₹50-75 лакхов",
+      "status": "Демо Возможностей",
+      "technologies": {
+        "plcProgramming": "Программирование ПЛК",
+        "scada": "SCADA",
+        "hmi": "ЧМИ",
+        "industrialIot": "Промышленный IoT"
+      },
+      "highlights": {
+        "plcIntegration": "Интеграция ПЛК",
+        "scadaSystems": "Системы SCADA",
+        "realtimeMonitoring": "Мониторинг в Реальном Времени",
+        "processOptimization": "Оптимизация Процессов"
+      }
+    },
+    "power-distribution-demo": {
+      "title": "Пример: Управление Распределением Энергии",
+      "client": "Энергетический Партнер Будущего",
+      "category": "Энергосистемы",
+      "description": "Пример системы распределения энергии, демонстрирующий автоматическое балансирование нагрузки и возможности удаленного мониторинга для генерирующих энергетических объектов.",
+      "location": "Различные Локации",
+      "duration": "10-15 месяцев",
+      "budget": "₹1-2 крора",
+      "status": "Демо Возможностей",
+      "technologies": {
+        "mccPanels": "Панели MCC",
+        "protectionSystems": "Системы Защиты",
+        "energyManagement": "Управление Энергией",
+        "remoteMonitoring": "Удаленный Мониторинг"
+      },
+      "highlights": {
+        "loadBalancing": "Балансирование Нагрузки",
+        "protectionSystems": "Системы Защиты",
+        "energyManagement": "Управление Энергией",
+        "remoteControl": "Удаленное Управление"
+      }
+    }
   },
   "steps": {
     "projectTypeIndustry": "Тип проекта и отрасль",
