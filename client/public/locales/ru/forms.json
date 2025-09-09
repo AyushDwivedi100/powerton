@@ -47,5 +47,26 @@
       "error": "Ошибка отправки сообщения",
       "errorDesc": "Попробуйте снова или свяжитесь напрямую по {{phone}} или {{email}}"
     }
+  },
+  "quote": {
+    "fields": {
+      "designation": {
+        "label": "Должность"
+      },
+      "additionalRequirements": {
+        "label": "Дополнительные требования"
+      }
+    },
+    "industries": {
+      "manufacturing": "Производство",
+      "powerGeneration": "Производство энергии",
+      "waterTreatment": "Очистка воды",
+      "foodProcessing": "Переработка пищи",
+      "pharmaceutical": "Фармацевтика",
+      "chemical": "Химическая",
+      "renewableEnergy": "Возобновляемая энергия",
+      "infrastructure": "Инфраструктура",
+      "other": "Другое"
+    }
   }
 }

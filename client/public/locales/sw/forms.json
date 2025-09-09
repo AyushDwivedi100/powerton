@@ -47,5 +47,26 @@
       "error": "Imeshindikana kutuma ujumbe",
       "errorDesc": "Tafadhali jaribu tena au tupigie moja kwa moja {{phone}} au {{email}}"
     }
+  },
+  "quote": {
+    "fields": {
+      "designation": {
+        "label": "Cheo"
+      },
+      "additionalRequirements": {
+        "label": "Mahitaji ya ziada"
+      }
+    },
+    "industries": {
+      "manufacturing": "Utengenezaji",
+      "powerGeneration": "Uzalishaji wa Umeme",
+      "waterTreatment": "Usafishaji wa Maji",
+      "foodProcessing": "Usindikaji wa Chakula",
+      "pharmaceutical": "Dawa",
+      "chemical": "Kemikali",
+      "renewableEnergy": "Nishati Mbadala",
+      "infrastructure": "Miundombinu",
+      "other": "Nyingine"
+    }
   }
 }

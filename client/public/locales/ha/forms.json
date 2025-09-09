@@ -47,5 +47,26 @@
       "error": "Ba a iya aika saƙo ba",
       "errorDesc": "Da fatan za a sake gwadawa ko tuntuɓe mu kai tsaye a {{phone}} ko {{email}}"
     }
+  },
+  "quote": {
+    "fields": {
+      "designation": {
+        "label": "Matsayi"
+      },
+      "additionalRequirements": {
+        "label": "Ƙarin buƙatu"
+      }
+    },
+    "industries": {
+      "manufacturing": "Masana'anta",
+      "powerGeneration": "Samar da Wutar Lantarki",
+      "waterTreatment": "Maganin Ruwa",
+      "foodProcessing": "Sarrafa Abinci",
+      "pharmaceutical": "Magani",
+      "chemical": "Sinadarai",
+      "renewableEnergy": "Makamashi mai sabuntawa",
+      "infrastructure": "Ababen more rayuwa",
+      "other": "Wani"
+    }
   }
 }
