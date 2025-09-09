@@ -47,5 +47,26 @@
       "error": "Error al enviar el mensaje",
       "errorDesc": "Por favor intente de nuevo o contáctenos directamente al {{phone}} o {{email}}"
     }
+  },
+  "quote": {
+    "fields": {
+      "designation": {
+        "label": "Designación"
+      },
+      "additionalRequirements": {
+        "label": "Requisitos Adicionales"
+      }
+    },
+    "industries": {
+      "manufacturing": "Manufactura",
+      "powerGeneration": "Generación de Energía",
+      "waterTreatment": "Tratamiento de Agua",
+      "foodProcessing": "Procesamiento de Alimentos",
+      "pharmaceutical": "Farmacéutico",
+      "chemical": "Químico",
+      "renewableEnergy": "Energía Renovable",
+      "infrastructure": "Infraestructura",
+      "other": "Otro"
+    }
   }
 }

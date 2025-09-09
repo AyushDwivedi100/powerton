@@ -186,6 +186,54 @@
       "contactMessage": "Pour accéder à nos documents de portfolio, veuillez nous contacter directement à info@powertonengineering.com ou appelez le +91-94627-71662."
     }
   },
+  "quote": {
+    "seo": {
+      "title": "Demander un Devis - Powerton Engineering | Solutions d'Automatisation Industrielle Personnalisées",
+      "description": "Obtenez un devis détaillé pour votre projet d'automatisation industrielle de Powerton Engineering. Consultation gratuite et réponse dans les 24-48 heures."
+    },
+    "benefits": {
+      "assessment": {
+        "title": "Évaluation Détaillée",
+        "description": "Évaluation complète du projet et spécifications techniques"
+      },
+      "response": {
+        "title": "Réponse Rapide",
+        "description": "Recevez votre devis détaillé dans les 24-48 heures"
+      },
+      "consultation": {
+        "title": "Consultation Experte",
+        "description": "Consultation technique gratuite avec notre équipe d'ingénierie"
+      },
+      "solutions": {
+        "title": "Solutions Personnalisées",
+        "description": "Solutions d'ingénierie adaptées à vos exigences spécifiques"
+      }
+    },
+    "process": {
+      "title": "Notre Processus de Devis",
+      "description": "De la demande initiale à la proposition détaillée, nous assurons un processus fluide et transparent.",
+      "submit": {
+        "title": "Soumettre la Demande",
+        "description": "Remplissez notre formulaire de devis complet ou utilisez notre calculateur de coûts"
+      },
+      "review": {
+        "title": "Révision Technique",
+        "description": "Notre équipe d'ingénierie analyse vos exigences et spécifications"
+      },
+      "assessment": {
+        "title": "Évaluation du Site",
+        "description": "Visite optionnelle sur site pour les projets complexes (si nécessaire)"
+      },
+      "quote": {
+        "title": "Devis Détaillé",
+        "description": "Recevez un prix complet avec calendrier et livrables"
+      }
+    },
+    "cta": {
+      "title": "Prêt à Commencer?",
+      "description": "Contactez-nous dès aujourd'hui pour votre solution d'ingénierie personnalisée. Notre équipe est prête à donner vie à votre projet."
+    }
+  },
   "services": {
     "hero": {
       "title": "Services d'Ingénierie Professionnels",

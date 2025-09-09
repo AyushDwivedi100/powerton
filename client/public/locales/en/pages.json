@@ -193,6 +193,54 @@
       "contactMessage": "To get access to our portfolio documents, please contact us directly at info@powertonengineering.com or call +91-94627-71662."
     }
   },
+  "quote": {
+    "seo": {
+      "title": "Request Quote - Powerton Engineering | Custom Industrial Automation Solutions",
+      "description": "Get detailed quote for your industrial automation project from Powerton Engineering. Free consultation and response within 24-48 hours."
+    },
+    "benefits": {
+      "assessment": {
+        "title": "Detailed Assessment",
+        "description": "Comprehensive project evaluation and technical specifications"
+      },
+      "response": {
+        "title": "Quick Response",
+        "description": "Receive your detailed quote within 24-48 hours"
+      },
+      "consultation": {
+        "title": "Expert Consultation",
+        "description": "Free technical consultation with our engineering team"
+      },
+      "solutions": {
+        "title": "Customized Solutions",
+        "description": "Tailored engineering solutions for your specific requirements"
+      }
+    },
+    "process": {
+      "title": "Our Quote Process",
+      "description": "From initial request to detailed proposal, we ensure a smooth and transparent process.",
+      "submit": {
+        "title": "Submit Request",
+        "description": "Fill out our comprehensive quote form or use our cost calculator"
+      },
+      "review": {
+        "title": "Technical Review",
+        "description": "Our engineering team analyzes your requirements and specifications"
+      },
+      "assessment": {
+        "title": "Site Assessment",
+        "description": "Optional on-site visit for complex projects (if required)"
+      },
+      "quote": {
+        "title": "Detailed Quote",
+        "description": "Receive comprehensive pricing with timeline and deliverables"
+      }
+    },
+    "cta": {
+      "title": "Ready to Get Started?",
+      "description": "Contact us today for your custom engineering solution. Our team is ready to help bring your project to life."
+    }
+  },
   "gallery": {
     "section": {
       "label": "Our Work",

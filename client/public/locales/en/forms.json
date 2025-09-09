@@ -121,6 +121,25 @@
     "submitting": "Submitting Quote Request...",
     "buttons": {
       "getProfessionalQuote": "Get Professional Quote"
+    },
+    "fields": {
+      "designation": {
+        "label": "Designation"
+      },
+      "additionalRequirements": {
+        "label": "Additional Requirements"
+      }
+    },
+    "industries": {
+      "manufacturing": "Manufacturing",
+      "powerGeneration": "Power Generation",
+      "waterTreatment": "Water Treatment",
+      "foodProcessing": "Food Processing",
+      "pharmaceutical": "Pharmaceutical",
+      "chemical": "Chemical",
+      "renewableEnergy": "Renewable Energy",
+      "infrastructure": "Infrastructure",
+      "other": "Other"
     }
   }
 }

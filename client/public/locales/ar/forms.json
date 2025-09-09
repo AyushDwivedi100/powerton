@@ -47,5 +47,26 @@
       "error": "فشل في إرسال الرسالة",
       "errorDesc": "يرجى المحاولة مرة أخرى أو التواصل معنا مباشرة على {{phone}} أو {{email}}"
     }
+  },
+  "quote": {
+    "fields": {
+      "designation": {
+        "label": "التعيين"
+      },
+      "additionalRequirements": {
+        "label": "متطلبات إضافية"
+      }
+    },
+    "industries": {
+      "manufacturing": "التصنيع",
+      "powerGeneration": "توليد الطاقة",
+      "waterTreatment": "معالجة المياه",
+      "foodProcessing": "تصنيع الأغذية",
+      "pharmaceutical": "صيدلاني",
+      "chemical": "كيميائي",
+      "renewableEnergy": "الطاقة المتجددة",
+      "infrastructure": "البنية التحتية",
+      "other": "أخرى"
+    }
   }
 }

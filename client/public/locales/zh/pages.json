@@ -186,6 +186,54 @@
       "contactMessage": "要访问我们的作品集文档，请直接通过 info@powertonengineering.com 联系我们或致电 +91-94627-71662。"
     }
   },
+  "quote": {
+    "seo": {
+      "title": "询价请求 - 力顿工程 | 定制工业自动化解决方案",
+      "description": "从力顿工程获取您的工业自动化项目详细报价。免费咨询，24-48小时内回复。"
+    },
+    "benefits": {
+      "assessment": {
+        "title": "详细评估",
+        "description": "全面的项目评估和技术规格"
+      },
+      "response": {
+        "title": "快速响应",
+        "description": "24-48小时内收到详细报价"
+      },
+      "consultation": {
+        "title": "专家咨询",
+        "description": "与我们工程团队的免费技术咨询"
+      },
+      "solutions": {
+        "title": "定制解决方案",
+        "description": "针对您特定需求的量身定制工程解决方案"
+      }
+    },
+    "process": {
+      "title": "我们的报价流程",
+      "description": "从初始请求到详细提案，我们确保流程顺畅透明。",
+      "submit": {
+        "title": "提交请求",
+        "description": "填写我们的全面报价表格或使用我们的成本计算器"
+      },
+      "review": {
+        "title": "技术审查",
+        "description": "我们的工程团队分析您的需求和规格"
+      },
+      "assessment": {
+        "title": "现场评估",
+        "description": "复杂项目的可选现场访问（如有需要）"
+      },
+      "quote": {
+        "title": "详细报价",
+        "description": "获得包含时间表和交付物的全面定价"
+      }
+    },
+    "cta": {
+      "title": "准备开始了吗？",
+      "description": "立即联系我们获取您的定制工程解决方案。我们的团队准备帮助实现您的项目。"
+    }
+  },
   "gallery": {
     "section": {
       "label": "我们的工作",

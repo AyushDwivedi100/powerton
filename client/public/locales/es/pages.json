@@ -186,6 +186,54 @@
       "contactMessage": "Para acceder a nuestros documentos de portafolio, por favor contáctanos directamente en info@powertonengineering.com o llama al +91-94627-71662."
     }
   },
+  "quote": {
+    "seo": {
+      "title": "Solicitar Cotización - Powerton Engineering | Soluciones de Automatización Industrial Personalizadas",
+      "description": "Obtenga una cotización detallada para su proyecto de automatización industrial de Powerton Engineering. Consulta gratuita y respuesta en 24-48 horas."
+    },
+    "benefits": {
+      "assessment": {
+        "title": "Evaluación Detallada",
+        "description": "Evaluación integral del proyecto y especificaciones técnicas"
+      },
+      "response": {
+        "title": "Respuesta Rápida",
+        "description": "Reciba su cotización detallada en 24-48 horas"
+      },
+      "consultation": {
+        "title": "Consulta Experta",
+        "description": "Consulta técnica gratuita con nuestro equipo de ingeniería"
+      },
+      "solutions": {
+        "title": "Soluciones Personalizadas",
+        "description": "Soluciones de ingeniería adaptadas a sus requisitos específicos"
+      }
+    },
+    "process": {
+      "title": "Nuestro Proceso de Cotización",
+      "description": "Desde la solicitud inicial hasta la propuesta detallada, aseguramos un proceso fluido y transparente.",
+      "submit": {
+        "title": "Enviar Solicitud",
+        "description": "Complete nuestro formulario de cotización integral o use nuestra calculadora de costos"
+      },
+      "review": {
+        "title": "Revisión Técnica",
+        "description": "Nuestro equipo de ingeniería analiza sus requisitos y especificaciones"
+      },
+      "assessment": {
+        "title": "Evaluación del Sitio",
+        "description": "Visita opcional al sitio para proyectos complejos (si es necesario)"
+      },
+      "quote": {
+        "title": "Cotización Detallada",
+        "description": "Reciba precios integrales con cronograma y entregables"
+      }
+    },
+    "cta": {
+      "title": "¿Listo para Comenzar?",
+      "description": "Contáctenos hoy para su solución de ingeniería personalizada. Nuestro equipo está listo para ayudar a dar vida a su proyecto."
+    }
+  },
   "gallery": {
     "section": {
       "label": "Nuestro Trabajo",
