@@ -244,11 +244,10 @@ export default function About() {
           <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8">
             <div className="text-center mb-16">
               <h2 className="text-3xl lg:text-4xl font-bold text-primary mb-6">
-                Certifications & Quality Standards
+                {t('pages:about.certifications.title')}
               </h2>
               <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-                Our commitment to quality is validated by industry-recognized
-                certifications and compliance standards.
+                {t('pages:about.certifications.subtitle')}
               </p>
             </div>
 
@@ -272,17 +271,15 @@ export default function About() {
         <section className="py-12 md:py-16 lg:py-20 bg-primary text-white">
           <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8 text-center">
             <h2 className="text-3xl lg:text-4xl font-bold mb-6">
-              Partner with Powerton Engineering
+              {t('pages:about.cta.title')}
             </h2>
             <p className="text-xl mb-8 opacity-90 max-w-3xl mx-auto">
-              Ready to transform your industrial operations with our expert
-              engineering solutions? Let's discuss your project requirements and
-              deliver excellence together.
+              {t('pages:about.cta.description')}
             </p>
             <div className="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4">
               <Link href="/contact">
                 <Button className="bg-secondary hover:bg-secondary/90 text-secondary-foreground text-lg px-8 py-4">
-                  Start Your Project
+                  {t('pages:about.cta.startProject')}
                 </Button>
               </Link>
               <Link href="/services">
@@ -290,7 +287,7 @@ export default function About() {
                   variant="outline"
                   className="border-2 border-border text-foreground text-lg px-8 py-4"
                 >
-                  Explore Our Services
+                  {t('pages:about.cta.exploreServices')}
                 </Button>
               </Link>
             </div>

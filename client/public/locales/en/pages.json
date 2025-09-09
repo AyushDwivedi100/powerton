@@ -333,12 +333,29 @@
     }
   },
   "about": {
+    "seo": {
+      "keywords": "about powerton engineering, industrial automation company, electrical engineering company, instrumentation services, automation experts India"
+    },
     "hero": {
       "title": "Engineering Excellence Since 2008",
       "subtitle": "Your trusted partner in industrial automation and electrical engineering solutions"
     },
     "story": {
-      "title": "Our Story"
+      "title": "Our Journey & Vision",
+      "description1": "Established with a vision to empower industries through innovation and excellence, Powerton Engineering has been at the forefront of industrial automation and electrical engineering solutions since 2008. Our journey began with a simple yet powerful mission: to provide cutting-edge engineering solutions that drive industrial growth and operational efficiency.",
+      "description2": "Over the years, we have grown from a small engineering firm to a trusted partner for industries across India and beyond. Our team of experienced engineers and technical experts work tirelessly to deliver solutions that not only meet but exceed our clients' expectations. We take pride in our ability to understand complex industrial challenges and provide innovative, sustainable solutions."
+    },
+    "mission": {
+      "title": "Our Mission",
+      "description": "To deliver innovative, reliable, and sustainable engineering solutions that empower our clients to achieve operational excellence and drive industrial growth."
+    },
+    "vision": {
+      "title": "Our Vision",
+      "description": "To be the leading provider of industrial automation and electrical engineering solutions, recognized for our technical expertise, quality, and commitment to customer success."
+    },
+    "coreValues": {
+      "title": "Our Core Values",
+      "subtitle": "The principles that guide everything we do"
     },
     "values": {
       "quality": {
@@ -365,12 +382,20 @@
       "support": "Support"
     },
     "certifications": {
+      "title": "Certifications & Quality Standards",
+      "subtitle": "Our commitment to quality is validated by industry-recognized certifications and compliance standards.",
       "iso9001": "ISO 9001:2015 Quality Management",
       "iso14001": "ISO 14001:2015 Environmental Management",
       "ohsas18001": "OHSAS 18001 Occupational Health & Safety",
       "ceMarking": "CE Marking Compliance",
       "ulListed": "UL Listed Products",
       "cpriApproved": "CPRI Approved Equipment"
+    },
+    "cta": {
+      "title": "Partner with Powerton Engineering",
+      "description": "Ready to transform your industrial operations with our expert engineering solutions? Let's discuss your project requirements and deliver excellence together.",
+      "startProject": "Start Your Project",
+      "exploreServices": "Explore Our Services"
     }
   },
   "home": {
