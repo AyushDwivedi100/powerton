@@ -404,12 +404,12 @@ export default function Projects() {
                         <CardHeader className="p-0 mb-4">
                         <div className="flex items-start justify-between mb-2">
                           <CardTitle className="text-xl md:text-2xl font-semibold text-foreground line-clamp-2">
-                            {project.title}
+                            {t(`pages:projects.items.${project.id}.title`, project.title)}
                           </CardTitle>
                           <div className="flex items-center gap-2 ml-2">
                             {project.featured && (
                               <Badge className="bg-gradient-to-r from-yellow-400 to-orange-500 text-white text-xs px-2 py-1">
-                                Featured
+                                {t("pages:projects.featured")}
                               </Badge>
                             )}
                             {Icon}
@@ -417,27 +417,27 @@ export default function Projects() {
                         </div>
                         <div className="flex items-center gap-2 text-sm text-muted-foreground">
                           <Building className="w-4 h-4" />
-                          <span>{project.client}</span>
+                          <span>{t(`pages:projects.items.${project.id}.client`, project.client)}</span>
                         </div>
                       </CardHeader>
 
                       <CardContent className="p-0 space-y-5">
                         <p className="text-base text-muted-foreground line-clamp-3 leading-relaxed">
-                          {project.description}
+                          {t(`pages:projects.items.${project.id}.description`, project.description)}
                         </p>
 
                         <div className="space-y-4">
                           <div className="flex items-center justify-between text-sm">
                             <div className="flex items-center gap-1 text-muted-foreground">
                               <MapPin className="w-4 h-4" />
-                              <span>{project.location}</span>
+                              <span>{t(`pages:projects.items.${project.id}.location`, project.location)}</span>
                             </div>
                             <div className="flex items-center gap-1">
                               {getStatusIcon(project.status)}
                               <span
                                 className={`text-sm ${project.status === "Completed" ? "text-green-600" : "text-primary"}`}
                               >
-                                {project.status}
+                                {t(`pages:projects.statuses.${project.status.toLowerCase().replace(/\s+/g, '')}`, project.status)}
                               </span>
                             </div>
                           </div>
@@ -445,7 +445,7 @@ export default function Projects() {
                           <div className="flex items-center justify-between text-sm">
                             <div className="flex items-center gap-1 text-muted-foreground">
                               <Calendar className="w-4 h-4" />
-                              <span>{project.duration}</span>
+                              <span>{t(`pages:projects.items.${project.id}.duration`, project.duration)}</span>
                             </div>
                             <div className="flex items-center gap-1 text-muted-foreground">
                               <span>{project.year}</span>
@@ -457,7 +457,7 @@ export default function Projects() {
                               variant="secondary"
                               className="text-sm px-3 py-1"
                             >
-                              {project.category}
+                              {t(`pages:projects.categories.${project.category.toLowerCase().replace(/\s+/g, '')}`, project.category)}
                             </Badge>
                             <Badge
                               variant="outline"
@@ -474,7 +474,7 @@ export default function Projects() {
                                 variant="outline"
                                 className="text-sm px-3 py-1 bg-muted/50"
                               >
-                                {tech}
+                                {t(`pages:projects.technologies.${tech.toLowerCase().replace(/\s+/g, '')}`, tech)}
                               </Badge>
                             ))}
                             {project.technologies.length > 3 && (
@@ -482,7 +482,7 @@ export default function Projects() {
                                 variant="outline"
                                 className="text-sm px-3 py-1 bg-muted/50"
                               >
-                                +{project.technologies.length - 3} more
+                                {t('pages:projects.moreItems', '+{{count}} more', { count: project.technologies.length - 3 })}
                               </Badge>
                             )}
                           </div>
@@ -497,7 +497,7 @@ export default function Projects() {
               {filteredProjects.length === 0 && (
                 <div className="text-center py-12">
                   <div className="text-muted-foreground mb-4">
-                    No projects found matching your criteria
+                    {t("pages:projects.noProjectsFound")}
                   </div>
                   <Button
                     onClick={() => {
@@ -508,7 +508,7 @@ export default function Projects() {
                     }}
                     variant="outline"
                   >
-                    Clear Filters
+                    {t("pages:projects.clearFilters")}
                   </Button>
                 </div>
               )}
