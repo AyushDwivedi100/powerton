@@ -1,7 +1,12 @@
 {
   "news": {
-    "title": "Company News & Updates",
-    "subtitle": "Stay updated with the latest news, achievements, and projects from Powerton Engineering",
+    "title": "News",
+    "subtitle": "Updates",
+    "badges": {
+      "awardWinning": "Award Winning",
+      "growingStrong": "Growing Strong",
+      "futureReady": "Future Ready"
+    },
     "latestNews": {
       "excellenceAward": {
         "title": "Powerton Engineering Wins Excellence Award for Industrial Automation",
