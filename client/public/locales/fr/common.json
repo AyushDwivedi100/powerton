@@ -173,11 +173,17 @@
     "budget": "Budget",
     "requirements": "Exigences",
     "category": "Catégorie",
-    "status": "Statut"
+    "status": "Statut",
+    "popular": "Populaire",
+    "duration": "Durée",
+    "projectsCompleted": "Projets Terminés",
+    "satisfiedClients": "Clients Satisfaits",
+    "yearsExperience": "Années d'Expérience"
   },
   "buttons": {
     "downloadPortfolio": "Télécharger le portfolio",
-    "showFilters": "Afficher les filtres"
+    "showFilters": "Afficher les filtres",
+    "quickQuote": "Devis Rapide"
   },
   "messages": {
     "serviceNotFound": "Service non trouvé",

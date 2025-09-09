@@ -179,7 +179,12 @@
     "mondayToSaturday": "Понедельник - Суббота",
     "sunday": "Воскресенье",
     "emergencySupport": "Только экстренная поддержка",
-    "workingHours": "9:00 - 18:00"
+    "workingHours": "9:00 - 18:00",
+    "popular": "Популярный",
+    "duration": "Продолжительность",
+    "projectsCompleted": "Завершенные Проекты",
+    "satisfiedClients": "Довольные Клиенты",
+    "yearsExperience": "Лет Опыта"
   },
   "messages": {
     "serviceNotFound": "Услуга не найдена",

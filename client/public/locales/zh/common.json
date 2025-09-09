@@ -175,11 +175,17 @@
     "budget": "预算",
     "requirements": "需求",
     "category": "类别",
-    "status": "状态"
+    "status": "状态",
+    "popular": "热门",
+    "duration": "持续时间",
+    "projectsCompleted": "完成项目",
+    "satisfiedClients": "满意客户",
+    "yearsExperience": "年经验"
   },
   "buttons": {
     "downloadPortfolio": "下载作品集",
-    "showFilters": "显示过滤器"
+    "showFilters": "显示过滤器",
+    "quickQuote": "快速报价"
   },
   "keyFeatures": "主要特点",
   "requestQuote": "请求报价",

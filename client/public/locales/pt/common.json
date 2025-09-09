@@ -173,11 +173,17 @@
     "budget": "Orçamento",
     "requirements": "Requisitos",
     "category": "Categoria",
-    "status": "Status"
+    "status": "Status",
+    "popular": "Popular",
+    "duration": "Duração",
+    "projectsCompleted": "Projetos Concluídos",
+    "satisfiedClients": "Clientes Satisfeitos",
+    "yearsExperience": "Anos de Experiência"
   },
   "buttons": {
     "downloadPortfolio": "Baixar portfólio",
-    "showFilters": "Mostrar filtros"
+    "showFilters": "Mostrar filtros",
+    "quickQuote": "Orçamento Rápido"
   },
   "messages": {
     "serviceNotFound": "Serviço não encontrado",

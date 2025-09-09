@@ -169,11 +169,17 @@
     "includes": "يتضمن",
     "category": "الفئة",
     "status": "الحالة",
-    "industry": "الصناعة"
+    "industry": "الصناعة",
+    "popular": "شائع",
+    "duration": "المدة",
+    "projectsCompleted": "المشاريع المكتملة",
+    "satisfiedClients": "العملاء الراضون",
+    "yearsExperience": "سنوات الخبرة"
   },
   "buttons": {
     "downloadPortfolio": "تحميل الملف الشخصي",
-    "showFilters": "إظهار المرشحات"
+    "showFilters": "إظهار المرشحات",
+    "quickQuote": "عرض سعر سريع"
   },
   "messages": {
     "serviceNotFound": "لم يتم العثور على الخدمة",

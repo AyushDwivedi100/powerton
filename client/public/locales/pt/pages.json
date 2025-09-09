@@ -85,6 +85,35 @@
     "seo": {
       "title": "Serviços Profissionais de Engenharia - Instalação, Manutenção e Automação | Powerton Engineering",
       "description": "Serviços especializados de engenharia: programação PLC, sistemas SCADA, automação industrial, instalação de painéis elétricos, manutenção, calibração, soluções personalizadas e serviços EPC solares em toda a Índia."
+    },
+    "hero": {
+      "title": "Serviços de Engenharia Profissional",
+      "subtitle": "Soluções abrangentes de automação industrial, engenharia elétrica e instrumentação projetadas para otimizar suas operações e impulsionar o sucesso empresarial."
+    },
+    "whyChoose": {
+      "title": "Por Que Escolher a Powerton Engineering?"
+    },
+    "benefits": {
+      "expertTeam": {
+        "title": "Equipe Especialista",
+        "description": "Profissionais certificados com ampla experiência na indústria"
+      },
+      "rapidResponse": {
+        "title": "Resposta Rápida",
+        "description": "Tempo médio de resposta de 2 horas para todas as solicitações de suporte"
+      },
+      "qualityAssured": {
+        "title": "Qualidade Garantida",
+        "description": "Processos certificados ISO e padrões de qualidade garantidos"
+      },
+      "clientFocused": {
+        "title": "Foco no Cliente",
+        "description": "Soluções personalizadas adaptadas aos seus requisitos específicos"
+      }
+    },
+    "cta": {
+      "title": "Pronto para Começar?",
+      "description": "Entre em contato conosco hoje para discutir os requisitos do seu projeto e obter uma solução personalizada."
     }
   },
   "notFound": {

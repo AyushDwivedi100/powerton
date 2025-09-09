@@ -164,6 +164,35 @@
     "seo": {
       "title": "专业工程服务 - 安装、维护与自动化 | 宝尔顿工程",
       "description": "专业工程服务：PLC编程、SCADA系统、工业自动化、电气面板安装、维护、校准、定制解决方案和太阳能EPC服务遍布中国。"
+    },
+    "hero": {
+      "title": "专业工程服务",
+      "subtitle": "全面的工业自动化、电气工程和仪器仪表解决方案，旨在优化您的运营并推动业务成功。"
+    },
+    "whyChoose": {
+      "title": "为什么选择宝尔顿工程？"
+    },
+    "benefits": {
+      "expertTeam": {
+        "title": "专家团队",
+        "description": "拥有丰富行业经验的认证专业人员"
+      },
+      "rapidResponse": {
+        "title": "快速响应",
+        "description": "所有支持请求的平均响应时间为2小时"
+      },
+      "qualityAssured": {
+        "title": "质量保证",
+        "description": "ISO认证流程和保证质量标准"
+      },
+      "clientFocused": {
+        "title": "客户专注",
+        "description": "根据您的具体要求定制的解决方案"
+      }
+    },
+    "cta": {
+      "title": "准备开始了吗？",
+      "description": "立即联系我们讨论您的项目需求并获得定制解决方案。"
     }
   },
   "notFound": {

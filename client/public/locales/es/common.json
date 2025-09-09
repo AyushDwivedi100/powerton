@@ -175,7 +175,12 @@
     "budget": "Presupuesto",
     "requirements": "Requisitos",
     "category": "Categoría",
-    "status": "Estado"
+    "status": "Estado",
+    "popular": "Popular",
+    "duration": "Duración",
+    "projectsCompleted": "Proyectos Completados",
+    "satisfiedClients": "Clientes Satisfechos",
+    "yearsExperience": "Años de Experiencia"
   },
   "buttons": {
     "getQuote": "Obtener Cotización",
@@ -193,7 +198,8 @@
     "downloadCatalog": "Descargar Catálogo",
     "viewDetails": "Ver Detalles",
     "backTo": "Volver a {{category}}",
-    "backToBldcProducts": "Volver a Productos BLDC"
+    "backToBldcProducts": "Volver a Productos BLDC",
+    "quickQuote": "Cotización Rápida"
   },
   "messages": {
     "toggleTheme": "Cambiar Tema",
