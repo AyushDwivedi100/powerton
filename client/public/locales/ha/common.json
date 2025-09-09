@@ -173,11 +173,17 @@
     "budget": "Kasafin kuɗi",
     "requirements": "Buƙatu",
     "category": "Rukuni",
-    "status": "Matsayi"
+    "status": "Matsayi",
+    "popular": "Shahararru",
+    "duration": "Lokaci",
+    "projectsCompleted": "Ayyukan da Aka Gama",
+    "satisfiedClients": "Abokan Ciniki da Suka Gamsu",
+    "yearsExperience": "Shekarun Gogewa"
   },
   "buttons": {
     "downloadPortfolio": "Sauke fayil",
-    "showFilters": "Nuna tacewa"
+    "showFilters": "Nuna tacewa",
+    "quickQuote": "Farashin Gaggawa"
   },
   "messages": {
     "serviceNotFound": "Ba a sami sabis ba",

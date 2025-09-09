@@ -173,11 +173,17 @@
     "budget": "Bajeti",
     "requirements": "Mahitaji",
     "category": "Jamii",
-    "status": "Hali"
+    "status": "Hali",
+    "popular": "Maarufu",
+    "duration": "Muda",
+    "projectsCompleted": "Miradi Iliyokamilika",
+    "satisfiedClients": "Wateja Walioridhika",
+    "yearsExperience": "Miaka ya Uzoefu"
   },
   "buttons": {
     "downloadPortfolio": "Pakua kazi",
-    "showFilters": "Onyesha vichungi"
+    "showFilters": "Onyesha vichungi",
+    "quickQuote": "Nukuu ya Haraka"
   },
   "messages": {
     "serviceNotFound": "Huduma haikupatikana",
