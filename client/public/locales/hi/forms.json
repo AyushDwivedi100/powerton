@@ -117,6 +117,25 @@
     "submitting": "कोटेशन अनुरोध सबमिट कर रहे हैं...",
     "buttons": {
       "getProfessionalQuote": "प्रोफेशनल कोटेशन प्राप्त करें"
+    },
+    "fields": {
+      "designation": {
+        "label": "पदनाम"
+      },
+      "additionalRequirements": {
+        "label": "अतिरिक्त आवश्यकताएं"
+      }
+    },
+    "industries": {
+      "manufacturing": "विनिर्माण",
+      "powerGeneration": "विद्युत उत्पादन",
+      "waterTreatment": "जल उपचार",
+      "foodProcessing": "खाद्य प्रसंस्करण",
+      "pharmaceutical": "फार्मास्युटिकल",
+      "chemical": "रासायनिक",
+      "renewableEnergy": "नवीकरणीय ऊर्जा",
+      "infrastructure": "बुनियादी ढांचा",
+      "other": "अन्य"
     }
   }
 }
