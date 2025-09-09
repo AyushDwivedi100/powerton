@@ -253,6 +253,30 @@ export const getTestimonials = (t: any) => [
     comment: t('common:testimonials.rhea.comment'),
     initials: "RS",
     image: engineeringTeamImage
+  },
+  {
+    name: t('common:testimonials.priya.name'),
+    location: t('common:testimonials.priya.location'),
+    rating: 5,
+    comment: t('common:testimonials.priya.comment'),
+    initials: "PM",
+    image: engineeringTeamImage
+  },
+  {
+    name: t('common:testimonials.kavya.name'),
+    location: t('common:testimonials.kavya.location'),
+    rating: 5,
+    comment: t('common:testimonials.kavya.comment'),
+    initials: "KS",
+    image: engineeringTeamImage
+  },
+  {
+    name: t('common:testimonials.rajesh.name'),
+    location: t('common:testimonials.rajesh.location'),
+    rating: 5,
+    comment: t('common:testimonials.rajesh.comment'),
+    initials: "RK",
+    image: engineeringTeamImage
   }
 ];
 
