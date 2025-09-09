@@ -1,50 +1,74 @@
 #!/usr/bin/env node
-// Server for Powerton Engineering Application
-// Properly configured for Replit environment
+// Vite development server launcher for Replit environment
+// This ensures proper startup and port binding for React development
 
 console.log(`🚀 Starting Powerton Engineering Application`);
-console.log(`🌐 Running on 0.0.0.0:5000 for Replit compatibility`);
+console.log(`🌐 Binding to 0.0.0.0:5000 for Replit compatibility`);
 
-import express from 'express';
-import { fileURLToPath } from 'url';
-import { dirname, join } from 'path';
-import { readFileSync, existsSync } from 'fs';
+import { spawn } from "child_process";
+import { resolve, dirname } from "path";
+import { fileURLToPath } from "url";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
+const clientDir = resolve(__dirname, "..", "client");
 
-const app = express();
-const PORT = 5000;
+// Set environment variables for proper Vite operation
+process.env.NODE_ENV = 'development';
+process.env.VITE_PORT = '5000';
 
-// Serve static files from client directory 
-const clientDir = join(__dirname, '..', 'client');
-const publicDir = join(clientDir, 'public');
-const srcDir = join(clientDir, 'src');
+console.log(`📁 Starting Vite dev server from: ${clientDir}`);
 
-// Basic middleware
-app.use(express.json());
-app.use(express.static(publicDir));
-
-// API routes can be added here
-app.get('/api/health', (req, res) => {
-  res.json({ status: 'ok', message: 'Powerton Engineering Server Running' });
-});
-
-// Serve the main HTML file for all non-API routes  
-app.use((req, res, next) => {
-  if (req.path.startsWith('/api/')) {
-    return next();
-  }
-  const indexPath = join(clientDir, 'index.html');
-  if (existsSync(indexPath)) {
-    res.sendFile(indexPath);
-  } else {
-    res.status(404).send('<h1>Application Loading...</h1><p>Client files not found. Please check the build setup.</p>');
+// Start Vite development server with proper configuration
+const viteProcess = spawn('npx', ['vite', '--host', '0.0.0.0', '--port', '5000', '--strictPort'], {
+  cwd: clientDir,
+  stdio: 'inherit',
+  env: {
+    ...process.env,
+    NODE_ENV: 'development',
+    FORCE_COLOR: '1'
   }
 });
 
-app.listen(PORT, '0.0.0.0', () => {
-  console.log(`✅ Powerton Engineering server running on http://0.0.0.0:${PORT}`);
-  console.log(`📁 Serving from: ${clientDir}`);
-  console.log(`🔧 Environment: ${process.env.NODE_ENV || 'development'}`);
+viteProcess.on('error', (error) => {
+  console.error(`❌ Failed to start Vite server: ${error.message}`);
+  // Fallback: try installing dependencies first
+  console.log('💡 Attempting to install client dependencies...');
+  const installProcess = spawn('npm', ['install'], {
+    cwd: clientDir,
+    stdio: 'inherit'
+  });
+  
+  installProcess.on('close', (code) => {
+    if (code === 0) {
+      console.log('✅ Dependencies installed, restarting Vite...');
+      // Restart Vite after installation
+      const retryVite = spawn('npx', ['vite', '--host', '0.0.0.0', '--port', '5000', '--strictPort'], {
+        cwd: clientDir,
+        stdio: 'inherit',
+        env: { ...process.env, NODE_ENV: 'development' }
+      });
+    } else {
+      console.error('❌ Failed to install dependencies');
+    }
+  });
+});
+
+viteProcess.on('close', (code) => {
+  if (code !== 0) {
+    console.log(`⚠️ Vite process exited with code ${code}`);
+  }
+});
+
+// Handle process termination
+process.on('SIGINT', () => {
+  console.log('🛑 Shutting down...');
+  viteProcess.kill('SIGINT');
+  process.exit(0);
+});
+
+process.on('SIGTERM', () => {
+  console.log('🛑 Shutting down...');
+  viteProcess.kill('SIGTERM');
+  process.exit(0);
 });
