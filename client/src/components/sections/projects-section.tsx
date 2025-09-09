@@ -2,14 +2,17 @@ import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { PROJECTS, getFeaturedProjects } from "@/data/constants";
+import { PROJECTS } from "@/data/constants";
 import { MapPin, Calendar, ArrowRight } from "lucide-react";
 import { Link } from "wouter";
 import { useTranslation } from "react-i18next";
 
 export default function ProjectsSection() {
   const { t } = useTranslation();
-  const projects = getFeaturedProjects();
+  
+  // Get featured projects but use translation keys for the content
+  const featuredProjectIds = ["industrial-automation-demo", "power-distribution-demo"];
+  const projects = PROJECTS.filter(project => featuredProjectIds.includes(project.id));
   const categoryColors = {
     "Power Systems": "bg-secondary/10 text-secondary",
     Manufacturing: "bg-primary/10 text-primary",
@@ -79,14 +82,14 @@ export default function ProjectsSection() {
 
                 <div className="flex items-start justify-between mb-4">
                   <h3 className="text-xl font-bold text-foreground">
-                    {project.title}
+                    {t(`common:projects.${project.id}.title`, project.title)}
                   </h3>
                   <Badge className="bg-gradient-to-r from-yellow-400 to-orange-500 text-white text-xs px-2 py-1 ml-2 flex-shrink-0">
                     Featured
                   </Badge>
                 </div>
                 <p className="text-muted-foreground mb-6">
-                  {project.description}
+                  {t(`common:projects.${project.id}.description`, project.description)}
                 </p>
 
                 {/* Project Highlights */}
@@ -95,14 +98,30 @@ export default function ProjectsSection() {
                     {t("pages:home.projects.keyFeatures", "Key Features:")}
                   </h4>
                   <div className="flex flex-wrap gap-2">
-                    {project.highlights.map((highlight) => (
-                      <span
-                        key={highlight}
-                        className="text-xs bg-primary/10 text-primary px-2 py-1 rounded"
-                      >
-                        {highlight}
-                      </span>
-                    ))}
+                    {project.highlights.map((highlight, index) => {
+                      // Map highlight text to translation keys
+                      const highlightMapping: { [key: string]: string } = {
+                        "PLC Integration": "plcIntegration",
+                        "SCADA Systems": "scadaSystems", 
+                        "Real-time Monitoring": "realtimeMonitoring",
+                        "Process Optimization": "processOptimization",
+                        "Load Balancing": "loadBalancing",
+                        "Protection Systems": "protectionSystems",
+                        "Energy Management": "energyManagement",
+                        "Remote Control": "remoteControl"
+                      };
+                      
+                      const translationKey = highlightMapping[highlight] || highlight.toLowerCase().replace(/\s+/g, '');
+                      
+                      return (
+                        <span
+                          key={highlight}
+                          className="text-xs bg-primary/10 text-primary px-2 py-1 rounded"
+                        >
+                          {t(`common:projects.${project.id}.highlights.${translationKey}`, highlight)}
+                        </span>
+                      );
+                    })}
                   </div>
                 </div>
 
@@ -110,11 +129,11 @@ export default function ProjectsSection() {
                   <div className="flex items-center space-x-4 text-sm text-muted-foreground">
                     <span className="flex items-center">
                       <MapPin className="w-4 h-4 mr-1" aria-hidden="true" />
-                      {project.location}
+                      {t(`common:projects.${project.id}.location`, project.location)}
                     </span>
                     <span className="flex items-center">
                       <Calendar className="w-4 h-4 mr-1" aria-hidden="true" />
-                      {project.duration}
+                      {t(`common:projects.${project.id}.duration`, project.duration)}
                     </span>
                   </div>
                   <Link href="/projects" className="group/button">
