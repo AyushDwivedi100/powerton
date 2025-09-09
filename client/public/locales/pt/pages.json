@@ -125,8 +125,70 @@
     "subtitle": "Mostra de Nossa Excelência em Engenharia"
   },
   "about": {
-    "title": "Sobre a Powerton Engineering",
-    "subtitle": "Líder em Automação Industrial e Soluções de Engenharia"
+    "seo": {
+      "keywords": "sobre powerton engineering, empresa automação industrial, empresa engenharia elétrica, serviços instrumentação, especialistas automação Portugal"
+    },
+    "hero": {
+      "title": "Excelência em Engenharia desde 2008",
+      "subtitle": "Seu parceiro confiável em automação industrial e soluções de engenharia elétrica"
+    },
+    "story": {
+      "title": "Nossa Jornada e Visão",
+      "description1": "Estabelecida com a visão de capacitar indústrias através da inovação e excelência, a Powerton Engineering tem estado na vanguarda das soluções de automação industrial e engenharia elétrica desde 2008.",
+      "description2": "Ao longo dos anos, crescemos de uma pequena empresa de engenharia para um parceiro confiável para indústrias no Brasil e além."
+    },
+    "mission": {
+      "title": "Nossa Missão",
+      "description": "Entregar soluções de engenharia inovadoras, confiáveis e sustentáveis que capacitem nossos clientes a alcançar excelência operacional e impulsionar o crescimento industrial."
+    },
+    "vision": {
+      "title": "Nossa Visão",
+      "description": "Ser o fornecedor líder de soluções de automação industrial e engenharia elétrica, reconhecido por nossa expertise técnica, qualidade e compromisso com o sucesso do cliente."
+    },
+    "coreValues": {
+      "title": "Nossos Valores Fundamentais",
+      "subtitle": "Os princípios que guiam tudo o que fazemos"
+    },
+    "values": {
+      "quality": {
+        "title": "Excelência em Qualidade",
+        "description": "Mantemos os mais altos padrões em cada projeto que entregamos"
+      },
+      "customer": {
+        "title": "Foco no Cliente",
+        "description": "Seu sucesso é nossa prioridade - construímos parcerias duradouras"
+      },
+      "innovation": {
+        "title": "Inovação",
+        "description": "Soluções de ponta usando as mais recentes tecnologias da indústria"
+      },
+      "reliability": {
+        "title": "Confiabilidade",
+        "description": "Soluções confiáveis em que você pode confiar para operações críticas"
+      }
+    },
+    "stats": {
+      "engineers": "Engenheiros",
+      "staff": "Equipe de Suporte",
+      "experience": "Anos de Experiência",
+      "support": "Suporte"
+    },
+    "certifications": {
+      "title": "Certificações e Padrões de Qualidade",
+      "subtitle": "Nosso compromisso com a qualidade é validado por certificações reconhecidas pela indústria e padrões de conformidade.",
+      "iso9001": "ISO 9001:2015 Gestão da Qualidade",
+      "iso14001": "ISO 14001:2015 Gestão Ambiental",
+      "ohsas18001": "OHSAS 18001 Saúde e Segurança Ocupacional",
+      "ceMarking": "Marcação CE de Conformidade",
+      "ulListed": "Produtos Listados UL",
+      "cpriApproved": "Equipamentos Aprovados CPRI"
+    },
+    "cta": {
+      "title": "Parceria com Powerton Engineering",
+      "description": "Pronto para transformar suas operações industriais com nossas soluções de engenharia especializadas? Vamos discutir os requisitos do seu projeto e entregar excelência juntos.",
+      "startProject": "Iniciar Seu Projeto",
+      "exploreServices": "Explorar Nossos Serviços"
+    }
   },
   "services": {
     "title": "Nossos Serviços",

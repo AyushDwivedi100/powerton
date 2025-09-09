@@ -81,6 +81,79 @@
       "downloadPortfolio": "Télécharger le Portfolio"
     }
   },
+  "about": {
+    "seo": {
+      "keywords": "à propos powerton engineering, entreprise automatisation industrielle, entreprise ingénierie électrique, services instrumentation, experts automatisation France"
+    },
+    "hero": {
+      "title": "Excellence en Ingénierie depuis 2008",
+      "subtitle": "Votre partenaire de confiance en automatisation industrielle et solutions d'ingénierie électrique"
+    },
+    "story": {
+      "title": "Notre Parcours et Vision",
+      "description1": "Établie avec la vision d'autonomiser les industries par l'innovation et l'excellence, Powerton Engineering a été à l'avant-garde des solutions d'automatisation industrielle et d'ingénierie électrique depuis 2008. Notre parcours a commencé avec une mission simple mais puissante : fournir des solutions d'ingénierie de pointe qui stimulent la croissance industrielle et l'efficacité opérationnelle.",
+      "description2": "Au fil des années, nous avons évolué d'une petite entreprise d'ingénierie à un partenaire de confiance pour les industries en France et au-delà. Notre équipe d'ingénieurs expérimentés et d'experts techniques travaille sans relâche pour livrer des solutions qui non seulement répondent mais dépassent les attentes de nos clients. Nous sommes fiers de notre capacité à comprendre les défis industriels complexes et à fournir des solutions innovantes et durables."
+    },
+    "mission": {
+      "title": "Notre Mission",
+      "description": "Livrer des solutions d'ingénierie innovantes, fiables et durables qui permettent à nos clients d'atteindre l'excellence opérationnelle et de stimuler la croissance industrielle."
+    },
+    "vision": {
+      "title": "Notre Vision",
+      "description": "Être le fournisseur leader de solutions d'automatisation industrielle et d'ingénierie électrique, reconnu pour notre expertise technique, qualité et engagement envers le succès client."
+    },
+    "coreValues": {
+      "title": "Nos Valeurs Fondamentales",
+      "subtitle": "Les principes qui guident tout ce que nous faisons"
+    },
+    "values": {
+      "quality": {
+        "title": "Excellence Qualité",
+        "description": "Nous maintenons les plus hauts standards dans chaque projet que nous livrons"
+      },
+      "customer": {
+        "title": "Focus Client",
+        "description": "Votre succès est notre priorité - nous construisons des partenariats durables"
+      },
+      "innovation": {
+        "title": "Innovation",
+        "description": "Solutions de pointe utilisant les dernières technologies de l'industrie"
+      },
+      "reliability": {
+        "title": "Fiabilité",
+        "description": "Solutions fiables sur lesquelles vous pouvez compter pour les opérations critiques"
+      }
+    },
+    "stats": {
+      "engineers": "Ingénieurs",
+      "staff": "Personnel de Support",
+      "experience": "Années d'Expérience",
+      "support": "Support"
+    },
+    "certifications": {
+      "title": "Certifications et Standards de Qualité",
+      "subtitle": "Notre engagement envers la qualité est validé par des certifications reconnues par l'industrie et des standards de conformité.",
+      "iso9001": "ISO 9001:2015 Gestion de la Qualité",
+      "iso14001": "ISO 14001:2015 Gestion Environnementale",
+      "ohsas18001": "OHSAS 18001 Santé et Sécurité au Travail",
+      "ceMarking": "Marquage CE de Conformité",
+      "ulListed": "Produits Listés UL",
+      "cpriApproved": "Équipements Approuvés CPRI"
+    },
+    "cta": {
+      "title": "Partenaire avec Powerton Engineering",
+      "description": "Prêt à transformer vos opérations industrielles avec nos solutions d'ingénierie expertes ? Discutons de vos exigences de projet et livrons l'excellence ensemble.",
+      "startProject": "Démarrer Votre Projet",
+      "exploreServices": "Explorer Nos Services"
+    }
+  },
+  "projects": {
+    "hero": {
+      "title": "Nos Projets",
+      "subtitle": "Découvrez notre excellence en ingénierie à travers plus de 1200 projets réussis dans diverses industries, montrant innovation, qualité et fiabilité."
+    },
+    "showing": "Affichage"
+  },
   "products": {
     "seo": {
       "title": "Catalogue de Produits Industriels - Automatisation et Équipements Électriques | Powerton Engineering",
