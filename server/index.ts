@@ -30,8 +30,11 @@ app.get('/api/health', (req, res) => {
   res.json({ status: 'ok', message: 'Powerton Engineering Server Running' });
 });
 
-// Serve the main HTML file for all non-API routes
-app.get('*', (req, res) => {
+// Serve the main HTML file for all non-API routes  
+app.use((req, res, next) => {
+  if (req.path.startsWith('/api/')) {
+    return next();
+  }
   const indexPath = join(clientDir, 'index.html');
   if (existsSync(indexPath)) {
     res.sendFile(indexPath);
