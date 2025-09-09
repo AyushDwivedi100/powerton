@@ -1,51 +1,47 @@
 #!/usr/bin/env node
-// Simple server launcher for Replit environment
-// This ensures proper startup and port binding
+// Server for Powerton Engineering Application
+// Properly configured for Replit environment
 
 console.log(`🚀 Starting Powerton Engineering Application`);
-console.log(`🌐 Binding to 0.0.0.0:5000 for Replit compatibility`);
+console.log(`🌐 Running on 0.0.0.0:5000 for Replit compatibility`);
 
-import { exec } from "child_process";
-import { resolve, dirname } from "path";
-import { fileURLToPath } from "url";
+import express from 'express';
+import { fileURLToPath } from 'url';
+import { dirname, join } from 'path';
+import { readFileSync, existsSync } from 'fs';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
-const clientDir = resolve(__dirname, "..", "client");
 
-// Start Vite development server directly
-const viteCmd = `cd ${clientDir} && npm run dev -- --host 0.0.0.0 --port 5000`;
+const app = express();
+const PORT = 5000;
 
-const viteProcess = exec(viteCmd, (error, stdout, stderr) => {
-  if (error) {
-    console.error(`❌ Error: ${error}`);
-    return;
+// Serve static files from client directory 
+const clientDir = join(__dirname, '..', 'client');
+const publicDir = join(clientDir, 'public');
+const srcDir = join(clientDir, 'src');
+
+// Basic middleware
+app.use(express.json());
+app.use(express.static(publicDir));
+
+// API routes can be added here
+app.get('/api/health', (req, res) => {
+  res.json({ status: 'ok', message: 'Powerton Engineering Server Running' });
+});
+
+// Serve the main HTML file for all non-API routes
+app.get('*', (req, res) => {
+  const indexPath = join(clientDir, 'index.html');
+  if (existsSync(indexPath)) {
+    res.sendFile(indexPath);
+  } else {
+    res.status(404).send('<h1>Application Loading...</h1><p>Client files not found. Please check the build setup.</p>');
   }
-  console.log(stdout);
-  console.error(stderr);
 });
 
-viteProcess.stdout?.on('data', (data) => {
-  console.log(data.toString());
-});
-
-viteProcess.stderr?.on('data', (data) => {
-  console.error(data.toString());
-});
-
-viteProcess.on('close', (code) => {
-  console.log(`✅ Process exited with code ${code}`);
-});
-
-// Handle process termination
-process.on('SIGINT', () => {
-  console.log('🛑 Shutting down...');
-  viteProcess.kill('SIGINT');
-  process.exit(0);
-});
-
-process.on('SIGTERM', () => {
-  console.log('🛑 Shutting down...');
-  viteProcess.kill('SIGTERM');
-  process.exit(0);
+app.listen(PORT, '0.0.0.0', () => {
+  console.log(`✅ Powerton Engineering server running on http://0.0.0.0:${PORT}`);
+  console.log(`📁 Serving from: ${clientDir}`);
+  console.log(`🔧 Environment: ${process.env.NODE_ENV || 'development'}`);
 });
