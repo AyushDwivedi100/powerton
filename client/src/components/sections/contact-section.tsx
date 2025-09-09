@@ -68,7 +68,20 @@ export default function ContactSection() {
                 </div>
                 <div>
                   <h4 className="font-semibold mb-2">{t('pages:home.contact.methods.phone.title')}</h4>
-                  <p className="opacity-90">{COMPANY_INFO.phone}</p>
+                  <div className="space-y-1">
+                    <a 
+                      href={`tel:${COMPANY_INFO.phoneNumbers.primary}`}
+                      className="opacity-90 hover:opacity-100 transition-opacity block"
+                    >
+                      {COMPANY_INFO.phoneNumbers.primary}
+                    </a>
+                    <a 
+                      href={`tel:${COMPANY_INFO.phoneNumbers.secondary}`}
+                      className="opacity-90 hover:opacity-100 transition-opacity block"
+                    >
+                      {COMPANY_INFO.phoneNumbers.secondary}
+                    </a>
+                  </div>
                   <p className="text-sm opacity-70">{t('pages:home.contact.methods.phone.description')}</p>
                 </div>
               </div>

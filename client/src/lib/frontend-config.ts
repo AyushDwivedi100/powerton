@@ -18,7 +18,8 @@ export const FRONTEND_CONFIG = {
       publicKey: 'your_emailjs_public_key' // This will be your EmailJS public key
     },
     fallbackEmail: 'info@powertonengineering.com',
-    fallbackPhone: '+91-94627-71662 / +91-82997-27291',
+    fallbackPhone: '+91-94627-71662',
+    fallbackPhoneSecondary: '+91-82997-27291',
   },
   
   // Chatbot configuration
@@ -26,7 +27,7 @@ export const FRONTEND_CONFIG = {
     // Use static keyword-based responses
     mode: 'static' as const,
     welcomeMessage: "Hello! Welcome to Powerton Engineering. I'm here to help you learn about our industrial automation solutions.",
-    fallbackMessage: "For detailed assistance, please contact our team at +91-94627-71662 or +91-82997-27291 or info@powertonengineering.com"
+    fallbackMessage: "For detailed assistance, please contact our team at +91-94627-71662 or +91-82997-27291 or email info@powertonengineering.com"
   },
   
   // Company information
