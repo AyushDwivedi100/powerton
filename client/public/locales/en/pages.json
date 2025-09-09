@@ -1,4 +1,36 @@
 {
+  "news": {
+    "title": "Company News & Updates",
+    "subtitle": "Stay updated with the latest news, achievements, and projects from Powerton Engineering",
+    "latestNews": {
+      "excellenceAward": {
+        "title": "Powerton Engineering Wins Excellence Award for Industrial Automation",
+        "excerpt": "We are proud to announce that Powerton Engineering has been recognized with the 'Excellence in Industrial Automation' award by the Indian Engineering Society for our innovative solutions in process automation.",
+        "category": "Awards"
+      },
+      "ntpcContract": {
+        "title": "Major Power Plant Automation Contract Secured with NTPC", 
+        "excerpt": "Powerton Engineering has secured a significant contract worth ₹5 Crores with NTPC for the automation of their new thermal power plant in Gujarat, expected to be completed by Q3 2025.",
+        "category": "Business"
+      },
+      "renewableExpansion": {
+        "title": "Expansion into Renewable Energy Automation Solutions",
+        "excerpt": "As part of our strategic growth plan, we are expanding our services to include comprehensive automation solutions for solar and wind energy projects, targeting India's growing renewable energy sector.",
+        "category": "Company"
+      }
+    },
+    "achievements": {
+      "title": "Recent Achievements",
+      "list": [
+        "Excellence in Industrial Automation Award - Indian Engineering Society",
+        "Best Engineering Services Provider - Automation World Awards 2024", 
+        "Green Energy Implementation Award - MNRE Recognition",
+        "Innovation in Process Control - IET India Awards",
+        "Customer Excellence Award - Industrial Automation Association"
+      ]
+    }
+  },
+  "backToProducts": "Back to Products",
   "about": {
     "certifications": {
       "iso9001": "ISO 9001:2015 Quality Management",

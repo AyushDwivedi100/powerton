@@ -86,7 +86,12 @@
       "nameRequired": "Name is required",
       "phoneRequired": "Phone number is required",
       "subjectRequired": "Subject is required",
-      "messageRequired": "Message is required"
+      "messageRequired": "Message is required",
+      "firstNameRequired": "First name is required",
+      "lastNameRequired": "Last name is required",
+      "invalidEmail": "Invalid email address",
+      "selectService": "Please select a service",
+      "projectDetailsRequired": "Project details are required"
     },
     "success": {
       "title": "Quote request submitted successfully!",
