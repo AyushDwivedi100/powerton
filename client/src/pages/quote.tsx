@@ -195,51 +195,51 @@ export default function Quote() {
   const benefits = [
     {
       icon: FileText,
-      title: "Detailed Assessment",
-      description:
-        "Comprehensive project evaluation and technical specifications",
+      title: t('pages:quote.benefits.assessment.title', "Detailed Assessment"),
+      description: t('pages:quote.benefits.assessment.description',
+        "Comprehensive project evaluation and technical specifications"),
     },
     {
       icon: Clock,
-      title: "Quick Response",
-      description: "Receive your detailed quote within 24-48 hours",
+      title: t('pages:quote.benefits.response.title', "Quick Response"),
+      description: t('pages:quote.benefits.response.description', "Receive your detailed quote within 24-48 hours"),
     },
     {
       icon: Users,
-      title: "Expert Consultation",
-      description: "Free technical consultation with our engineering team",
+      title: t('pages:quote.benefits.consultation.title', "Expert Consultation"),
+      description: t('pages:quote.benefits.consultation.description', "Free technical consultation with our engineering team"),
     },
     {
       icon: Star,
-      title: "Customized Solutions",
-      description:
-        "Tailored engineering solutions for your specific requirements",
+      title: t('pages:quote.benefits.solutions.title', "Customized Solutions"),
+      description: t('pages:quote.benefits.solutions.description',
+        "Tailored engineering solutions for your specific requirements"),
     },
   ];
 
   const processSteps = [
     {
       step: "01",
-      title: "Submit Request",
-      description:
-        "Fill out our comprehensive quote form or use our cost calculator",
+      title: t('pages:quote.process.submit.title', "Submit Request"),
+      description: t('pages:quote.process.submit.description',
+        "Fill out our comprehensive quote form or use our cost calculator"),
     },
     {
       step: "02",
-      title: "Technical Review",
-      description:
-        "Our engineering team analyzes your requirements and specifications",
+      title: t('pages:quote.process.review.title', "Technical Review"),
+      description: t('pages:quote.process.review.description',
+        "Our engineering team analyzes your requirements and specifications"),
     },
     {
       step: "03",
-      title: "Site Assessment",
-      description: "Optional on-site visit for complex projects (if required)",
+      title: t('pages:quote.process.assessment.title', "Site Assessment"),
+      description: t('pages:quote.process.assessment.description', "Optional on-site visit for complex projects (if required)"),
     },
     {
       step: "04",
-      title: "Detailed Quote",
-      description:
-        "Receive comprehensive pricing with timeline and deliverables",
+      title: t('pages:quote.process.quote.title', "Detailed Quote"),
+      description: t('pages:quote.process.quote.description',
+        "Receive comprehensive pricing with timeline and deliverables"),
     },
   ];
 
@@ -1051,11 +1051,10 @@ export default function Quote() {
           <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8">
             <div className="text-center mb-16">
               <h2 className="text-3xl lg:text-4xl font-bold text-foreground mb-6">
-                Our Quote Process
+                {t('pages:quote.process.title', 'Our Quote Process')}
               </h2>
               <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-                From initial request to detailed proposal, we ensure a smooth
-                and transparent process.
+                {t('pages:quote.process.description', 'From initial request to detailed proposal, we ensure a smooth and transparent process.')}
               </p>
             </div>
 
@@ -1088,11 +1087,10 @@ export default function Quote() {
         <section className="py-12 md:py-16 lg:py-20 bg-primary text-white">
           <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8 text-center">
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
-              Ready to Get Started?
+              {t('pages:quote.cta.title', 'Ready to Get Started?')}
             </h2>
             <p className="text-base md:text-lg text-primary-foreground mb-8 max-w-2xl mx-auto opacity-90">
-              Contact us today for your custom engineering solution. Our team is
-              ready to help bring your project to life.
+              {t('pages:quote.cta.description', 'Contact us today for your custom engineering solution. Our team is ready to help bring your project to life.')}
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button
