@@ -1,0 +1,303 @@
+{
+  "title": "हमारे उत्पाद",
+  "subtitle": "औद्योगिक स्वचालन उत्पादों, विद्युत घटकों, इंस्ट्रूमेंटेशन, सौर प्रणालियों, पंप और उपकरणों की व्यापक श्रृंखला। औद्योगिक अनुप्रयोगों के लिए गुणवत्तापूर्ण उपकरण।",
+  "categories": {
+    "automation": "स्वचालन और नियंत्रण",
+    "electrical": "विद्युत घटक",
+    "instrumentation": "उपकरण",
+    "solar": "सौर उत्पाद",
+    "motors": "BLDC मोटर सिस्टम",
+    "pumps": "पंप और मोटर",
+    "safety": "सुरक्षा उपकरण",
+    "tools": "औद्योगिक उपकरण",
+    "instrumentation-components": {
+      "title": "उपकरण घटक",
+      "description": "सटीक मापन और नियंत्रण के लिए औद्योगिक उपकरण"
+    },
+    "electrical-components": {
+      "title": "विद्युत घटक",
+      "description": "विश्वसनीय विद्युत कनेक्शन और नियंत्रण समाधान"
+    },
+    "measurement-instruments": {
+      "title": "मापन उपकरण",
+      "description": "सटीक औद्योगिक मापन और निगरानी उपकरण"
+    },
+    "solar-products": {
+      "title": "सौर उत्पाद",
+      "description": "टिकाऊ ऊर्जा समाधान के लिए सौर उपकरण"
+    },
+    "automation-control-systems": {
+      "title": "स्वचालन और नियंत्रण प्रणाली",
+      "description": "उन्नत औद्योगिक स्वचालन और नियंत्रण समाधान"
+    },
+    "safety-protective-devices": {
+      "title": "सुरक्षा और सुरक्षात्मक उपकरण",
+      "description": "कार्यस्थल की सुरक्षा के लिए सुरक्षा उपकरण"
+    },
+    "mechanical-pumps-spares": {
+      "title": "यांत्रिक पंप और स्पेयर पार्ट्स",
+      "description": "विश्वसनीय पंप सिस्टम और बदली पुर्जे"
+    },
+    "industrial-tools-tackles": {
+      "title": "औद्योगिक उपकरण और सामान",
+      "description": "पेशेवर ग्रेड औद्योगिक उपकरण और उपकरण"
+    },
+    "bldc": {
+      "title": "BLDC उत्पाद",
+      "description": "ऊर्जा-कुशल ब्रशलेस DC मोटर समाधान"
+    }
+  },
+  "filters": {
+    "all": "सभी",
+    "category": "श्रेणी",
+    "industry": "उद्योग",
+    "status": "स्थिति"
+  },
+  "status": {
+    "available": "उपलब्ध",
+    "outOfStock": "स्टॉक में नहीं",
+    "discontinued": "बंद कर दिया गया"
+  },
+  "items": {
+    "instrumentation-components": "उपकरण घटक",
+    "electrical-components": "विद्युत घटक",
+    "measurement-instruments": "मापन उपकरण",
+    "solar-products": "सौर उत्पाद",
+    "automation-control-systems": "स्वचालन और नियंत्रण प्रणाली",
+    "safety-protective-devices": "सुरक्षा और सुरक्षात्मक उपकरण",
+    "mechanical-pumps-spares": "यांत्रिक पंप और स्पेयर पार्ट्स",
+    "industrial-tools-tackles": "औद्योगिक उपकरण और सामान",
+    "bldc": "BLDC उत्पाद"
+  },
+  "hmi": {
+    "title": "HMI (ह्यूमन मशीन इंटरफेस)",
+    "subtitle": "ऑपरेटर नियंत्रण और सिस्टम विज़ुअलाइज़ेशन के लिए औद्योगिक ह्यूमन मशीन इंटरफेस",
+    "navigation": {
+      "backToAutomation": "स्वचालन और नियंत्रण प्रणालियों पर वापस जाएं"
+    },
+    "badges": {
+      "touchscreen": "टचस्क्रीन",
+      "industrialGrade": "औद्योगिक ग्रेड",
+      "realTimeDisplay": "रियल-टाइम डिस्प्ले",
+      "multiProtocol": "मल्टी-प्रोटोकॉल"
+    },
+    "solutionsTitle": "HMI समाधान",
+    "products": {
+      "panelMount": {
+        "name": "पैनल माउंट HMI डिस्प्ले",
+        "description": "मशीन इंटरफेस के लिए औद्योगिक टचस्क्रीन डिस्प्ले",
+        "features": ["टच इंटरफेस", "औद्योगिक रेटिंग", "कई आकार", "संचार प्रोटोकॉल"]
+      },
+      "operatorInterface": {
+        "name": "ऑपरेटर इंटरफेस टर्मिनल",
+        "description": "कठोर वातावरण के लिए मजबूत ऑपरेटर टर्मिनल",
+        "features": ["IP65/IP67 रेटिंग", "स्टेनलेस स्टील", "मेम्ब्रेन कीपैड", "बैकलिट डिस्प्ले"]
+      },
+      "mobile": {
+        "name": "मोबाइल HMI समाधान",
+        "description": "वायरलेस और मोबाइल ह्यूमन मशीन इंटरफेस",
+        "features": ["वायरलेस कनेक्टिविटी", "मोबाइल ऐप्स", "रिमोट एक्सेस", "रियल-टाइम डेटा"]
+      }
+    },
+    "cta": {
+      "title": "HMI समाधान चाहिए?",
+      "description": "हमारे HMI विशेषज्ञ आपकी स्वचालन प्रणालियों के लिए सहज ऑपरेटर इंटरफेस डिज़ाइन कर सकते हैं।",
+      "contactExperts": "HMI विशेषज्ञों से संपर्क करें"
+    }
+  },
+  "plcProducts": {
+    "siemens": {
+      "description": "छोटे से मध्यम स्वचालन अनुप्रयोगों के लिए कॉम्पैक्ट PLC",
+      "features": {
+        "integratedIO": "एकीकृत I/O",
+        "ethernet": "ईथरनेट संचार",
+        "programming": "TIA पोर्टल प्रोग्रामिंग",
+        "failSafe": "फेल-सेफ विकल्प"
+      }
+    },
+    "allenBradley": {
+      "description": "एकीकृत सुरक्षा के साथ उच्च-प्रदर्शन PLC",
+      "features": {
+        "safety": "गार्डलॉजिक्स सुरक्षा",
+        "ethernet": "दोहरे ईथरनेट पोर्ट",
+        "software": "स्टूडियो 5000 सॉफ्टवेयर",
+        "motion": "मोशन कंट्रोल"
+      }
+    },
+    "schneider": {
+      "description": "जटिल औद्योगिक प्रक्रियाओं के लिए उच्च-अंत PLC",
+      "features": {
+        "hotStandby": "हॉट स्टैंडबाई CPU",
+        "ethernet": "ईथरनेट रिंग टोपोलॉजी",
+        "software": "यूनिटी प्रो सॉफ्टवेयर",
+        "security": "साइबर सुरक्षा"
+      }
+    }
+  },
+  "features": {
+    "safetyDevices": {
+      "surgeProtectors": {
+        "title": "सर्ज प्रोटेक्टर्स",
+        "description": "उपकरण सुरक्षा के लिए विद्युत सर्ज सुरक्षा उपकरण",
+        "features": {
+          "lightning": "लाइटनिंग प्रोटेक्शन",
+          "voltage": "वोल्टेज सर्ज प्रोटेक्शन",
+          "equipment": "उपकरण सुरक्षा",
+          "power": "पावर क्वालिटी"
+        }
+      },
+      "groundingSystems": {
+        "title": "ग्राउंडिंग सिस्टम",
+        "description": "सुरक्षा के लिए विद्युत ग्राउंडिंग और अर्थिंग सिस्टम",
+        "features": {
+          "electrodes": "अर्थ इलेक्ट्रोड",
+          "rods": "ग्राउंड रॉड्स",
+          "conductors": "बॉन्डिंग कंडक्टर्स",
+          "lightning": "लाइटनिंग रॉड्स"
+        }
+      },
+      "safetyRelays": {
+        "title": "सेफ्टी रिले और स्विच",
+        "description": "इमरजेंसी शटडाउन सिस्टम के लिए सुरक्षा नियंत्रण उपकरण",
+        "features": {
+          "emergency": "इमरजेंसी स्टॉप",
+          "monitoring": "सुरक्षा निगरानी",
+          "failSafe": "फेल-सेफ डिज़ाइन",
+          "certified": "प्रमाणित सुरक्षा"
+        }
+      },
+      "intrinsicallySafe": {
+        "title": "इंट्रिंसिकली सेफ उपकरण",
+        "description": "खतरनाक वातावरण के लिए विस्फोट-रोधी उपकरण",
+        "features": {
+          "atex": "ATEX प्रमाणित",
+          "explosion": "विस्फोट प्रूफ",
+          "hazardous": "खतरनाक क्षेत्र",
+          "intrinsic": "इंट्रिंसिक सेफ्टी"
+        }
+      },
+      "badges": {
+        "surgeProtection": "सर्ज प्रोटेक्शन",
+        "groundingSystems": "ग्राउंडिंग सिस्टम",
+        "safetyRelays": "सेफ्टी रिले",
+        "intrinsicSafety": "इंट्रिंसिक सेफ्टी"
+      }
+    },
+    "common": {
+      "highTorque": "उच्च टॉर्क",
+      "variableSpeed": "परिवर्तनीय गति",
+      "cordlessOptions": "कॉर्डलेस विकल्प",
+      "chuckCapacity": "चक क्षमता: 13mm",
+      "multipleSizes": "कई आकार",
+      "safetyGuards": "सुरक्षा गार्ड",
+      "antiVibration": "कंपन-रोधी",
+      "powerfulMotors": "शक्तिशाली मोटर",
+      "highImpactForce": "उच्च प्रभाव बल",
+      "socketCompatibility": "सॉकेट संगतता",
+      "forwardReverse": "आगे/पीछे",
+      "batteryPowered": "बैटरी संचालित",
+      "efficientSwitching": "85-265V AC इनपुट",
+      "dcOutput": "12V/24V DC आउटपुट",
+      "highEfficiency": "उच्च दक्षता",
+      "compactDesign": "कॉम्पैक्ट डिज़ाइन",
+      "dinRailMount": "DIN रेल माउंट",
+      "wideInputRange": "व्यापक इनपुट रेंज",
+      "shortCircuitProtection": "शॉर्ट सर्किट सुरक्षा",
+      "ledStatus": "LED स्थिति",
+      "batteryBackup": "बैटरी बैकअप",
+      "surgeProtection": "सर्ज सुरक्षा",
+      "autoTransfer": "ऑटो ट्रांसफर",
+      "lcdDisplay": "LCD डिस्प्ले"
+    }
+  },
+  "locations": {
+    "delhiNcr": "दिल्ली NCR",
+    "rajasthan": "राजस्थान",
+    "uttarPradesh": "उत्तर प्रदेश",
+    "gujarat": "गुजरात",
+    "maharashtra": "महाराष्ट्र",
+    "haryana": "हरियाणा",
+    "westBengal": "पश्चिम बंगाल"
+  },
+  "brands": {
+    "customBuilt": "कस्टम निर्मित",
+    "fluke": "Fluke, Keysight",
+    "siemens": "Siemens, Allen Bradley",
+    "abb": "ABB, Schneider",
+    "honeywell": "Honeywell, Yokogawa",
+    "wonderware": "Wonderware, iFIX",
+    "grundfos": "Grundfos, KSB",
+    "3m": "3M, MSA"
+  },
+  "items": {
+    "solar-products": "सौर उत्पाद",
+    "automation-control-systems": "स्वचालन और नियंत्रण प्रणाली",
+    "safety-protective-devices": "सुरक्षा और सुरक्षात्मक उपकरण",
+    "mechanical-pumps-spares": "यांत्रिक पंप और स्पेयर पार्ट्स",
+    "industrial-tools-tackles": "औद्योगिक उपकरण और टैकल",
+    "bldc": "BLDC",
+    "instrumentation-components": "इंस्ट्रूमेंटेशन घटक",
+    "electrical-components": "विद्युत घटक",
+    "measurement-instruments": "मापन उपकरण"
+  },
+  "tags": {
+    "industrialAutomation": "औद्योगिक स्वचालन",
+    "plcSystems": "PLC सिस्टम",
+    "scada": "SCADA",
+    "manufacturing": "विनिर्माण",
+    "processOptimization": "प्रक्रिया अनुकूलन"
+  },
+  "gallery": {
+    "imagePlaceholder": "छवि प्लेसहोल्डर",
+    "actualImages": "वास्तविक छवियां अपलोड की जाएंगी"
+  },
+  "productPages": {
+    "analyzers": {
+      "title": "प्रक्रिया विश्लेषक",
+      "subtitle": "प्रक्रिया निगरानी के लिए उन्नत विश्लेषणात्मक उपकरण",
+      "product": {
+        "title": "प्रक्रिया विश्लेषक",
+        "shortDescription": "औद्योगिक प्रक्रिया माप और निगरानी के लिए उन्नत गैस और तरल विश्लेषक",
+        "fullDescription": "ट्यूनेबल डायोड लेजर तकनीक के साथ गैस विश्लेषक, तरल विश्लेषक और बहु-पैरामीटर माप सिस्टम सहित व्यापक प्रक्रिया विश्लेषक समाधान।",
+        "keyBenefits": {
+          "processControl": "बेहतर प्रक्रिया नियंत्रण",
+          "productQuality": "उन्नत उत्पाद गुणवत्ता",
+          "compliance": "नियामक अनुपालन",
+          "safety": "बढ़ी हुई सुरक्षा"
+        },
+        "altText": "ID-842: प्रक्रिया विश्लेषक - औद्योगिक गैस और तरल प्रक्रिया विश्लेषक"
+      },
+      "seo": {
+        "keywords": "प्रक्रिया विश्लेषक, गैस विश्लेषक, तरल विश्लेषक, pH विश्लेषक, चालकता मीटर, गैस क्रोमैटोग्राफी, प्रक्रिया निगरानी"
+      },
+      "sections": {
+        "overview": {
+          "title": "उन्नत प्रक्रिया विश्लेषण"
+        },
+        "technologies": {
+          "title": "विश्लेषण तकनीकें",
+          "description": "सटीक प्रक्रिया विश्लेषण के लिए उन्नत माप तकनीकें"
+        },
+        "specifications": {
+          "title": "तकनीकी विनिर्देश",
+          "description": "विश्वसनीय प्रक्रिया निगरानी के लिए सटीक विनिर्देश"
+        }
+      },
+      "buttons": {
+        "consultation": "विश्लेषण परामर्श"
+      },
+      "labels": {
+        "technologies": "तकनीकें:",
+        "parameters": "पैरामीटर:",
+        "specifications": "विनिर्देश",
+        "applications": "अनुप्रयोग",
+        "industries": "उद्योग"
+      },
+      "cta": {
+        "title": "प्रक्रिया विश्लेषण समाधान चाहिए?",
+        "description": "हमारे प्रक्रिया विश्लेषण विशेषज्ञ आपकी निगरानी और अनुपालन आवश्यकताओं के लिए सही विश्लेषक चुनने में आपकी सहायता कर सकते हैं।",
+        "button": "विश्लेषण विशेषज्ञ"
+      }
+    }
+  }
+}

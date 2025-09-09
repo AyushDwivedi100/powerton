@@ -1,0 +1,122 @@
+{
+  "contact": {
+    "fields": {
+      "name": {
+        "label": "पूरा नाम",
+        "placeholder": "अपना पूरा नाम दर्ज करें",
+        "error": "नाम आवश्यक है"
+      },
+      "email": {
+        "label": "ईमेल पता",
+        "placeholder": "अपना ईमेल पता दर्ज करें",
+        "error": "कृपया एक वैध ईमेल पता दर्ज करें"
+      },
+      "phone": {
+        "label": "फोन नंबर",
+        "placeholder": "अपना फोन नंबर दर्ज करें",
+        "error": "फोन नंबर आवश्यक है"
+      },
+      "company": {
+        "label": "कंपनी का नाम",
+        "placeholder": "अपनी कंपनी का नाम दर्ज करें"
+      },
+      "serviceType": {
+        "label": "सेवा प्रकार",
+        "placeholder": "सेवा प्रकार का चयन करें"
+      },
+      "subject": {
+        "label": "विषय",
+        "placeholder": "विषय दर्ज करें",
+        "error": "विषय आवश्यक है"
+      },
+      "message": {
+        "label": "संदेश",
+        "placeholder": "अपना संदेश दर्ज करें",
+        "error": "संदेश आवश्यक है"
+      }
+    },
+    "buttons": {
+      "submit": "संदेश भेजें",
+      "sending": "भेजा जा रहा है...",
+      "callNow": "अभी कॉल करें",
+      "emailUs": "हमें ईमेल करें"
+    },
+    "messages": {
+      "success": "धन्यवाद! आपका संदेश सफलतापूर्वक भेज दिया गया है।",
+      "successDesc": "हम 24 घंटों के भीतर आपसे संपर्क करेंगे।",
+      "error": "संदेश भेजने में असफल",
+      "errorDesc": "कृपया पुनः प्रयास करें या हमसे सीधे संपर्क करें {{phone}} या {{email}}"
+    }
+  },
+  "quote": {
+    "projectTypes": {
+      "newInstallation": "नया इंस्टॉलेशन",
+      "systemUpgrade": "सिस्टम अपग्रेड",
+      "retrofit": "रिट्रोफिट",
+      "maintenance": "रखरखाव कॉन्ट्रैक्ट",
+      "consultation": "तकनीकी परामर्श",
+      "design": "डिज़ाइन और इंजीनियरिंग"
+    },
+    "validation": {
+      "nameMin": "नाम कम से कम 2 अक्षर का होना चाहिए",
+      "emailInvalid": "कृपया एक वैध ईमेल पता दर्ज करें",
+      "phoneMin": "कृपया एक वैध फोन नंबर दर्ज करें",
+      "companyRequired": "कंपनी का नाम आवश्यक है",
+      "projectTitleRequired": "परियोजना का शीर्षक आवश्यक है",
+      "projectTypeRequired": "कृपया एक परियोजना प्रकार का चयन करें",
+      "timelineRequired": "कृपया अपेक्षित समयसीमा का चयन करें",
+      "servicesRequired": "कृपया कम से कम एक सेवा का चयन करें",
+      "specificationsMin": "कृपया विस्तृत विशिष्टताएं प्रदान करें (न्यूनतम 20 अक्षर)"
+    },
+    "success": {
+      "title": "कोटेशन अनुरोध सफलतापूर्वक सबमिट हो गया!",
+      "description": "हमारी इंजीनियरिंग टीम आपकी आवश्यकताओं की समीक्षा करेगी और 24-48 घंटों के भीतर जवाब देगी।"
+    },
+    "placeholders": {
+      "selectIndustry": "उद्योग चुनें",
+      "selectProjectScale": "प्रोजेक्ट का पैमाना चुनें",
+      "selectBudget": "बजट रेंज चुनें (वैकल्पिक)",
+      "detailedRequirements": "कृपया विस्तृत विशिष्टताएं प्रदान करें जिनमें शामिल हैं:\n- तकनीकी आवश्यकताएं और मानक\n- उपकरण विशिष्टताएं और मात्राएं\n- प्रदर्शन आवश्यकताएं\n- पर्यावरणीय स्थितियां\n- अनुपालन आवश्यकताएं\n- कोई विशेष विचार...",
+      "additionalRequirements": "कोई अतिरिक्त आवश्यकताएं, विशेष शर्तें या प्रश्न...",
+      "preferredBrands": "जैसे, Siemens, Allen-Bradley, Schneider..."
+    },
+    "labels": {
+      "industryType": "उद्योग प्रकार",
+      "projectScale": "प्रोजेक्ट का पैमाना",
+      "approximateBudget": "अनुमानित बजट",
+      "detailedRequirements": "विस्तृत आवश्यकताएं *",
+      "preferredBrands": "पसंदीदा ब्रांड/मानक",
+      "additionalRequirements": "अतिरिक्त आवश्यकताएं",
+      "projectTitle": "परियोजना शीर्षक *",
+      "projectType": "परियोजना प्रकार *",
+      "expectedTimeline": "अपेक्षित समयसीमा *",
+      "phoneNumber": "फोन नंबर *",
+      "companyName": "कंपनी का नाम *",
+      "projectInformation": "परियोजना की जानकारी",
+      "budgetRange": "बजट रेंज"
+    },
+    "timelines": {
+      "immediate": "तत्काल (< 1 महीना)",
+      "1-3-months": "1-3 महीने",
+      "3-6-months": "3-6 महीने",
+      "6-12-months": "6-12 महीने",
+      "1-year-plus": "1 साल से अधिक"
+    },
+    "budgetRanges": {
+      "under-1-lakh": "1 लाख से कम",
+      "1-5-lakh": "1-5 लाख",
+      "5-10-lakh": "5-10 लाख",
+      "10-25-lakh": "10-25 लाख",
+      "25-50-lakh": "25-50 लाख",
+      "50-lakh-plus": "50 लाख+",
+      "discuss": "चर्चा करना पसंद है"
+    },
+    "sections": {
+      "requiredServices": "आवश्यक सेवाएं *"
+    },
+    "submitting": "कोटेशन अनुरोध सबमिट कर रहे हैं...",
+    "buttons": {
+      "getProfessionalQuote": "प्रोफेशनल कोटेशन प्राप्त करें"
+    }
+  }
+}

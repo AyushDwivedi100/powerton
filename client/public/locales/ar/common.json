@@ -1,0 +1,376 @@
+{
+  "buttons": {
+    "learnMore": "تعلم أكثر",
+    "getQuote": "احصل على عرض أسعار",
+    "contact": "اتصل بنا",
+    "contactUs": "اتصل بنا",
+    "requestQuote": "طلب عرض سعر",
+    "viewAll": "عرض الكل",
+    "readMore": "اقرأ أكثر",
+    "viewDetails": "عرض التفاصيل",
+    "download": "تحميل",
+    "downloadCatalog": "تحميل الكتالوج",
+    "downloadBrochure": "تحميل الكتيب",
+    "downloadGuide": "تحميل الدليل",
+    "downloadDatasheet": "تحميل ورقة البيانات",
+    "downloadPortfolio": "تحميل الملف الشخصي",
+    "showMore": "إظهار المزيد",
+    "showFilters": "إظهار المرشحات",
+    "hideFilters": "إخفاء المرشحات",
+    "upload": "رفع",
+    "expertTeam": "فريق خبراء",
+    "successfulProjects": "مشاريع ناجحة",
+    "qualityProducts": "منتجات عالية الجودة"
+  },
+  "loading": "جاري التحميل...",
+  "error": "حدث خطأ ما",
+  "success": "نجح!",
+  "messages": {
+    "toggleTheme": "تبديل السمة",
+    "close": "إغلاق",
+    "imageNotFound": "لم يتم العثور على الصورة",
+    "loading": "جاري التحميل...",
+    "error": "حدث خطأ"
+  },
+  "navigation": {
+    "backToInstrumentationComponents": "العودة إلى مكونات الأجهزة"
+  },
+  "aria": {
+    "toggleNavigation": "تبديل مساعد التنقل",
+    "openLocation": "فتح موقع المكتب في خرائط جوجل",
+    "exploreServices": "استكشف خدمات الأتمتة الصناعية والهندسة لدينا",
+    "requestConsultation": "طلب استشارة مجانية لمشروع الهندسة الخاص بك",
+    "companyHighlights": "أبرز ما في الشركة والخدمات الرئيسية",
+    "performanceStats": "إحصائيات أداء الشركة",
+    "previousTestimonial": "الشهادة السابقة",
+    "nextTestimonial": "الشهادة التالية",
+    "mainNavigation": "التنقل الرئيسي",
+    "companyInfo": "معلومات الشركة وتنقل الموقع",
+    "goToHomepage": "الذهاب إلى الصفحة الرئيسية لهندسة باورتون",
+    "followLinkedIn": "تابع هندسة باورتون على لينكد إن",
+    "followFacebook": "تابع هندسة باورتون على فيسبوك",
+    "servicesNavigation": "تنقل الخدمات",
+    "productsNavigation": "تنقل المنتجات",
+    "callCompany": "الاتصال بهندسة باورتون",
+    "emailCompany": "إرسال بريد إلكتروني إلى هندسة باورتون",
+    "viewOfficeLocation": "عرض موقع مكتب هندسة باورتون على خرائط جوجل",
+    "officeLocationTitle": "موقع مكتب هندسة باورتون",
+    "controllerSystems": "أجهزة التحكم والمسجلات",
+    "controllerDescription": "أجهزة التحكم في العمليات وأنظمة تسجيل البيانات للتحكم الصناعي",
+    "plcSystems": "أنظمة PLC",
+    "processControllers": "أجهزة التحكم في العمليات",
+    "dataLoggers": "مسجلات البيانات",
+    "controlPanels": "لوحات التحكم",
+    "switchesIndicators": "المفاتيح والمؤشرات",
+    "switchesDescription": "المفاتيح الصناعية والمؤشرات ومعدات الإشارات",
+    "pushbuttonSwitches": "مفاتيح الضغط",
+    "selectorSwitches": "مفاتيح الاختيار",
+    "indicatorLights": "أضواء المؤشرات",
+    "emergencyStops": "توقفات الطوارئ",
+    "valvesActuators": "الصمامات والمحركات",
+    "valvesDescription": "صمامات التحكم والمحركات لأنظمة التحكم في العمليات",
+    "controlValves": "صمامات التحكم",
+    "pneumaticActuators": "المحركات الهوائية",
+    "electricActuators": "المحركات الكهربائية",
+    "valvePositioners": "أجهزة تحديد موضع الصمامات"
+  },
+  "badges": {
+    "energyEfficient": "موفر للطاقة",
+    "smartControl": "تحكم ذكي",
+    "silentOperation": "تشغيل صامت",
+    "longLife": "عمر طويل",
+    "highPerformance": "أداء عالي",
+    "ecoFriendly": "صديق للبيئة",
+    "costEffective": "فعال من حيث التكلفة",
+    "premiumQuality": "جودة ممتازة",
+    "industrialGrade": "درجة صناعية",
+    "certified": "معتمد",
+    "warrantyIncluded": "الضمان مشمول",
+    "fastDelivery": "توصيل سريع"
+  },
+  "headings": {
+    "bldcCeilingFanModels": "نماذج مراوح السقف BLDC",
+    "ourProducts": "منتجاتنا",
+    "specifications": "المواصفات",
+    "keyFeatures": "الميزات الرئيسية",
+    "technicalDetails": "التفاصيل الفنية",
+    "availableModels": "النماذج المتاحة",
+    "productOverview": "نظرة عامة على المنتج",
+    "relatedProducts": "المنتجات ذات الصلة"
+  },
+  "chatbot": {
+    "welcome": "مرحباً بكم في Powerton Engineering! كيف يمكنني مساعدتكم اليوم؟",
+    "typeMessage": "اكتب رسالتك...",
+    "sendMessage": "إرسال الرسالة",
+    "openChat": "فتح المحادثة",
+    "closeChat": "إغلاق المحادثة",
+    "typing": "يكتب...",
+    "defaultOptions": {
+      "products": "المنتجات والكتالوج",
+      "services": "خدماتنا",
+      "contact": "معلومات الاتصال",
+      "quote": "طلب عرض سعر",
+      "support": "الدعم الفني"
+    },
+    "responses": {
+      "products": "نحن نقدم مجموعة شاملة من منتجات الأتمتة الصناعية والمكونات الكهربائية والأجهزة والأنظمة الشمسية والمزيد. ما هي المنتجات المحددة التي تبحث عنها؟",
+      "services": "تشمل خدماتنا التركيب والصيانة والمعايرة والدعم الفني والحلول المخصصة. أي خدمة تهمك؟",
+      "contact": "يمكنكم الاتصال بنا على +91-9911315121 أو مراسلتنا على info@powertonengineering.com. مكتبنا يقع في دلهي، الهند.",
+      "quote": "سأكون سعيداً لمساعدتكم في الحصول على عرض سعر! يرجى زيارة صفحة العروض أو تزويدي بمتطلباتكم.",
+      "support": "فريق الدعم الفني لدينا هنا لمساعدتكم! يرجى وصف سؤالكم الفني أو مشكلتكم."
+    }
+  },
+  "aria": {
+    "analyzers": "أجهزة التحليل",
+    "analyzersDescription": "محللات الغاز والسوائل والعمليات لمراقبة الجودة",
+    "gasAnalyzers": "محللات الغاز",
+    "liquidAnalyzers": "محللات السوائل",
+    "processAnalyzers": "محللات العمليات",
+    "multiParameterSystems": "أنظمة متعددة المعاملات",
+    "signalConditioners": "مكيفات الإشارة",
+    "signalConditionersDescription": "معدات معالجة وتكييف الإشارات لأنظمة القياس",
+    "isolationAmplifiers": "مضخمات العزل",
+    "signalConverters": "محولات الإشارة",
+    "measuringTransducers": "أجهزة الاستشعار القياسية",
+    "noiseFilters": "مرشحات الضوضاء"
+  },
+  "seo": {
+    "days": {
+      "monday": "الاثنين",
+      "tuesday": "الثلاثاء",
+      "wednesday": "الأربعاء",
+      "thursday": "الخميس",
+      "friday": "الجمعة",
+      "saturday": "السبت",
+      "sunday": "الأحد"
+    },
+    "schemaTypes": {
+      "breadcrumbList": "قائمة التنقل التدريجي",
+      "listItem": "عنصر القائمة",
+      "faqPage": "صفحة الأسئلة الشائعة",
+      "question": "السؤال",
+      "answer": "الإجابة",
+      "itemList": "قائمة العناصر",
+      "service": "الخدمة",
+      "localBusiness": "الأعمال المحلية",
+      "openingHours": "مواصفات ساعات العمل"
+    }
+  },
+  "labels": {
+    "responseTime": "وقت الاستجابة",
+    "availability": "التوفر",
+    "coverage": "التغطية",
+    "technologies": "التقنيات",
+    "parameters": "المعايير",
+    "specifications": "المواصفات",
+    "applications": "التطبيقات",
+    "industries": "الصناعات",
+    "keyFeatures": "الميزات الرئيسية",
+    "includes": "يتضمن",
+    "category": "الفئة",
+    "status": "الحالة",
+    "industry": "الصناعة"
+  },
+  "buttons": {
+    "downloadPortfolio": "تحميل الملف الشخصي",
+    "showFilters": "إظهار المرشحات"
+  },
+  "messages": {
+    "serviceNotFound": "لم يتم العثور على الخدمة",
+    "readyToStart": "مستعد للبدء؟",
+    "consultation": "اتصل بنا للحصول على استشارة مفصلة وحل مخصص.",
+    "availability": "الاثنين - السبت، دعم الطوارئ متاح",
+    "coverage": "تغطية الخدمة في جميع أنحاء الهند",
+    "needHelp": "تحتاج مساعدة في العثور على شيء ما؟",
+    "cantFind": "لا يمكنك العثور على ما تبحث عنه؟ اتصل بنا مباشرة أو استخدم روبوت الدردشة الذكي المتوفر في كل صفحة."
+  },
+  "placeholders": {
+    "selectProjectType": "اختر نوع المشروع",
+    "selectIndustry": "اختر الصناعة",
+    "selectProjectSize": "اختر حجم المشروع",
+    "selectTimeline": "اختر الجدول الزمني",
+    "projectTimeline": "جدول المشروع الزمني",
+    "selectBudgetRange": "اختر نطاق الميزانية (اختياري)",
+    "cityState": "المدينة، الولاية",
+    "describeExisting": "وصف أي أنظمة أو بنية تحتية موجودة...",
+    "searchProjects": "بحث في المشاريع، العملاء، أو التقنيات...",
+    "selectIndustryFilter": "اختر الصناعة",
+    "selectCategory": "اختر الفئة",
+    "selectStatus": "اختر الحالة",
+    "askChatbot": "اسألني عن المنتجات، الخدمات، أو المساعدة التقنية...",
+    "yourFullName": "اسمك الكامل",
+    "yourEmail": "بريدك@شركة.com",
+    "yourPhone": "+91-XXXXX-XXXXX",
+    "yourRole": "دورك/منصبك",
+    "yourCompanyName": "اسم شركتك",
+    "briefProjectTitle": "عنوان موجز لمشروعك"
+  },
+  "projectCategories": {
+    "Power Plant": "محطة طاقة",
+    "Manufacturing": "التصنيع",
+    "Solar": "طاقة شمسية",
+    "Water Treatment": "معالجة المياه"
+  },
+  "steps": {
+    "projectTypeIndustry": "نوع المشروع والصناعة",
+    "projectSpecifications": "مواصفات المشروع",
+    "requirementsFeatures": "المتطلبات والميزات",
+    "additionalInformation": "معلومات إضافية"
+  },
+  "altTexts": {
+    "companyLogo": "شعار شركة Powerton Engineering المحدودة",
+    "contactCenterBackground": "مركز الاتصال وخلفية مكتب دعم العملاء لشركة الهندسة",
+    "aboutCompanyFacility": "منشأة Powerton Engineering للأتمتة الصناعية مع أنظمة التحكم الحديثة",
+    "officeLocation": "موقع مكتب Powerton Engineering"
+  },
+  "sitemap": {
+    "sections": {
+      "mainPages": "الصفحات الرئيسية",
+      "servicesProjects": "الخدمات والمشاريع", 
+      "productCategories": "فئات المنتجات",
+      "resourcesTools": "الموارد والأدوات",
+      "legalInformation": "المعلومات القانونية"
+    },
+    "categories": {
+      "automationControl": "أنظمة الأتمتة والتحكم",
+      "bldcMotors": "أنظمة محركات BLDC",
+      "electricalComponents": "المكونات الكهربائية",
+      "measurementInstrumentation": "القياس والأجهزة",
+      "industrialTools": "الأدوات والمعدات الصناعية",
+      "pumpsFluid": "المضخات وأنظمة السوائل",
+      "solarRenewable": "الطاقة الشمسية والمتجددة",
+      "safetyProtection": "السلامة والحماية",
+      "structuralMounting": "الهيكلية والتركيب",
+      "networkCommunication": "الشبكة والاتصالات"
+    },
+    "pages": {
+      "home": "الرئيسية",
+      "aboutUs": "من نحن",
+      "contact": "اتصل بنا",
+      "gallery": "المعرض",
+      "ourServices": "خدماتنا",
+      "serviceDetails": "تفاصيل الخدمة",
+      "projects": "المشاريع",
+      "allProducts": "جميع المنتجات",
+      "requestQuote": "طلب عرض أسعار",
+      "downloadPortfolio": "تحميل المعرض",
+      "newsUpdates": "الأخبار والتحديثات",
+      "newsArticles": "مقالات الأخبار",
+      "termsOfService": "شروط الخدمة",
+      "sitemap": "خريطة الموقع"
+    },
+    "descriptions": {
+      "home": "مرحباً بك في Powerton Engineering - حلول الأتمتة الصناعية",
+      "aboutUs": "تعرف على شركتنا ومهمتنا وخبرتنا",
+      "contact": "تواصل مع فريق الهندسة لدينا",
+      "gallery": "اطلع على معرض مشاريعنا وتركيباتنا",
+      "ourServices": "خدمات الأتمتة الصناعية والهندسة الكهربائية",
+      "serviceDetails": "معلومات مفصلة حول خدمات محددة",
+      "projects": "محفظة مشاريع الأتمتة الصناعية المكتملة",
+      "allProducts": "كتالوج شامل لمنتجات الأتمتة الصناعية",
+      "requestQuote": "احصل على عرض أسعار مفصل لمشروعك",
+      "downloadPortfolio": "تحميل محافظ المشاريع والوثائق",
+      "newsUpdates": "آخر الأخبار وتحديثات الشركة",
+      "newsArticles": "مقالات الأخبار والتحديثات الفردية",
+      "termsOfService": "شروط وأحكام استخدام خدماتنا",
+      "sitemap": "التنقل الكامل للموقع وهيكل الصفحة"
+    }
+  },
+  "company": {
+    "name": "Powerton Engineering Pvt. Ltd.",
+    "tagline": "شريكك الموثوق في الأتمتة الصناعية والهندسة الكهربائية",
+    "phone": "+91-94627-71662",
+    "email": "info@powertonengineering.com",
+    "address": {
+      "street": "الطابق الثاني، F-25، مبنى F، القطاع 6",
+      "city": "نويدا",
+      "state": "أوتار براديش",
+      "pincode": "201301",
+      "landmark": "أقرب محطة مترو - القطاع 15",
+      "full": "الطابق الثاني، F-25، مبنى F، القطاع 6، نويدا، أوتار براديش 201301، الهند"
+    },
+    "businessHours": {
+      "weekdays": "الاثنين - السبت: 9:00 صباحاً - 6:00 مساءً",
+      "sunday": "الأحد: دعم الطوارئ فقط"
+    },
+    "stats": {
+      "projectsCompleted": "500+",
+      "clientsServed": "200+",
+      "yearsExperience": "15+",
+      "responseTime": "ساعتان"
+    }
+  },
+  "buttons": {
+    "getQuote": "احصل على عرض سعر",
+    "callNow": "اتصل الآن",
+    "emailUs": "راسلنا",
+    "learnMore": "اعرف المزيد",
+    "viewMore": "عرض المزيد",
+    "viewAll": "عرض الكل",
+    "contactUs": "اتصل بنا",
+    "getStarted": "ابدأ",
+    "downloadBrochure": "تحميل الكتيب"
+  },
+  "labels": {
+    "businessHours": "ساعات العمل",
+    "mondayToSaturday": "الاثنين - السبت",
+    "workingHours": "9:00 ص - 6:00 م",
+    "sunday": "الأحد",
+    "emergencySupport": "دعم الطوارئ فقط"
+  },
+  "altTexts": {
+    "companyLogo": "شعار شركة Powerton Engineering المحدودة"
+  },
+  "messages": {
+    "toggleTheme": "تبديل الموضوع",
+    "close": "إغلاق"
+  },
+  "clients": {
+    "sci-group": "شركة النقل البحري الهندية",
+    "agribio": "أجريبايو ألمانيا",
+    "motherson": "مجموعة ماذرسون",
+    "praj": "براج اندستريز",
+    "thermax": "ثيرماكس ليميتيد",
+    "ankur": "أنكور تقنيات الطاقة العلمية",
+    "dls": "دي إل إس الهند",
+    "boudh": "بود ديستيليري",
+    "lokmangal": "مجموعة لوكمانجال",
+    "marcuras": "ماركوراس لمعالجة المياه",
+    "nv-group": "مجموعة إن في",
+    "anand-nv": "أناند إن في",
+    "dhanuka": "دانوكا أجريتيك",
+    "mjson": "إم جي إس أو إن",
+    "procient": "بروسينت"
+  },
+  "copyright": {
+    "text": "© {{year}} Powerton Engineering Pvt. Ltd. جميع الحقوق محفوظة.",
+    "madeWith": "صُنع بـ 💙 من قبل فريق Powerton Engineering"
+  },
+  "seo": {
+    "defaultTitle": "Powerton Engineering المحدودة - لوحات التحكم الصناعية وحلول الأتمتة",
+    "defaultDescription": "الشركة الرائدة في تصنيع لوحات التحكم الكهربائية وأنظمة الأتمتة الصناعية وحلول الأجهزة. نخدم الصناعات في جميع أنحاء الهند بمنتجات وخدمات هندسية عالية الجودة.",
+    "defaultKeywords": "لوحات التحكم الكهربائية، الأتمتة الصناعية، مركز التحكم في الطاقة، مركز التحكم في المحركات، الأجهزة، الهندسة الكهربائية، الهند",
+    "companyName": "Powerton Engineering المحدودة",
+    "companyDescription": "الشركة الرائدة في تصنيع لوحات التحكم الكهربائية وحلول الأتمتة الصناعية",
+    "siteName": "Powerton Engineering",
+    "twitterHandle": "@powertoneng",
+    "businessAddress": {
+      "street": "الطابق الثاني، F-25، المبنى F، القطاع 6",
+      "city": "نويدا", 
+      "state": "أوتار براديش",
+      "postal": "201301",
+      "country": "الهند"
+    },
+    "contact": {
+      "phone": "+91-94627-71662",
+      "email": "info@powertonengineering.com"
+    },
+    "businessInfo": {
+      "industry": "الأتمتة الصناعية، الهندسة الكهربائية، الأجهزة",
+      "category": "الخدمات الهندسية، حلول الأتمتة، الأنظمة الكهربائية",
+      "targetAudience": "المهندسون الصناعيون، مدراء المصانع، محترفو الأتمتة",
+      "companyType": "مقدم حلول هندسية B2B",
+      "serviceArea": "الهند، خدمة شاملة في الهند"
+    }
+  }
+}

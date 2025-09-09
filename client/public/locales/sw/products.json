@@ -1,0 +1,36 @@
+{
+  "title": "Our Products",
+  "subtitle": "Industrial Automation & Electrical Components",
+  "categories": {
+    "automation": "Automation & Control",
+    "electrical": "Electrical Components",
+    "instrumentation": "Instrumentation",
+    "solar": "Solar Products",
+    "motors": "BLDC Motor Systems",
+    "pumps": "Pumps & Motors",
+    "safety": "Safety Equipment",
+    "tools": "Industrial Tools"
+  },
+  "filters": {
+    "all": "All",
+    "category": "Category", 
+    "industry": "Industry",
+    "status": "Status"
+  },
+  "status": {
+    "available": "Available",
+    "outOfStock": "Out of Stock",
+    "discontinued": "Discontinued"
+  },
+  "items": {
+    "solar-products": "Bidhaa za Jua",
+    "automation-control-systems": "Mifumo ya Otomatiki na Udhibiti",
+    "safety-protective-devices": "Vifaa vya Usalama na Kinga",
+    "mechanical-pumps-spares": "Pampu za Kiufundi na Vipuri",
+    "industrial-tools-tackles": "Zana za Viwandani na Vifaa",
+    "bldc": "BLDC",
+    "instrumentation-components": "Viungo vya Ala",
+    "electrical-components": "Viungo vya Umeme",
+    "measurement-instruments": "Ala za Kipimo"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "contact": {
+    "fields": {
+      "name": {
+        "label": "Nom complet",
+        "placeholder": "Entrez votre nom complet",
+        "error": "Le nom est requis"
+      },
+      "email": {
+        "label": "Adresse e-mail",
+        "placeholder": "Entrez votre adresse e-mail",
+        "error": "Veuillez entrer une adresse e-mail valide"
+      },
+      "phone": {
+        "label": "Numéro de téléphone",
+        "placeholder": "Entrez votre numéro de téléphone",
+        "error": "Le numéro de téléphone est requis"
+      },
+      "company": {
+        "label": "Nom de l'entreprise",
+        "placeholder": "Entrez le nom de votre entreprise"
+      },
+      "serviceType": {
+        "label": "Type de service",
+        "placeholder": "Sélectionnez le type de service"
+      },
+      "subject": {
+        "label": "Sujet",
+        "placeholder": "Entrez le sujet",
+        "error": "Le sujet est requis"
+      },
+      "message": {
+        "label": "Message",
+        "placeholder": "Entrez votre message",
+        "error": "Le message est requis"
+      }
+    },
+    "buttons": {
+      "submit": "Envoyer le message",
+      "sending": "Envoi en cours...",
+      "callNow": "Appeler maintenant",
+      "emailUs": "Nous envoyer un e-mail"
+    },
+    "messages": {
+      "success": "Merci ! Votre message a été envoyé avec succès.",
+      "successDesc": "Nous vous recontacterons dans les 24 heures.",
+      "error": "Échec de l'envoi du message",
+      "errorDesc": "Veuillez réessayer ou nous contacter directement au {{phone}} ou {{email}}"
+    }
+  }
+}

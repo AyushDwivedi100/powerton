@@ -1,0 +1,36 @@
+{
+  "title": "Our Products",
+  "subtitle": "Industrial Automation & Electrical Components",
+  "categories": {
+    "automation": "Automation & Control",
+    "electrical": "Electrical Components",
+    "instrumentation": "Instrumentation",
+    "solar": "Solar Products",
+    "motors": "BLDC Motor Systems",
+    "pumps": "Pumps & Motors",
+    "safety": "Safety Equipment",
+    "tools": "Industrial Tools"
+  },
+  "filters": {
+    "all": "All",
+    "category": "Category", 
+    "industry": "Industry",
+    "status": "Status"
+  },
+  "status": {
+    "available": "Available",
+    "outOfStock": "Out of Stock",
+    "discontinued": "Discontinued"
+  },
+  "items": {
+    "solar-products": "Солнечные Продукты",
+    "automation-control-systems": "Системы Автоматизации и Управления",
+    "safety-protective-devices": "Устройства Безопасности и Защиты",
+    "mechanical-pumps-spares": "Механические Насосы и Запчасти",
+    "industrial-tools-tackles": "Промышленные Инструменты и Оборудование",
+    "bldc": "BLDC",
+    "instrumentation-components": "Инструментальные Компоненты",
+    "electrical-components": "Электрические Компоненты",
+    "measurement-instruments": "Измерительные Приборы"
+  }
+}

@@ -1,0 +1,414 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "products": "Products",
+    "projects": "Projects",
+    "contact": "Contact",
+    "blog": "Blog",
+    "quote": "Get Quote"
+  },
+  "language": {
+    "en": "English",
+    "hi": "Hindi",
+    "ar": "العربية",
+    "es": "Español",
+    "fr": "Français",
+    "zh": "中文",
+    "pt": "Português",
+    "ru": "Русский",
+    "sw": "Kiswahili",
+    "ha": "Hausa"
+  },
+  "navigation": {
+    "backToInstrumentationComponents": "Back to Instrumentation Components"
+  },
+  "messages": {
+    "close": "Close",
+    "imageNotFound": "Image not found",
+    "loading": "Loading...",
+    "error": "Error occurred"
+  },
+  "aria": {
+    "toggleNavigation": "Toggle navigation assistant",
+    "openLocation": "Open office location in Google Maps",
+    "exploreServices": "Explore our industrial automation and engineering services",
+    "requestConsultation": "Request free consultation for your engineering project",
+    "companyHighlights": "Key company highlights and services",
+    "performanceStats": "Company performance statistics",
+    "previousTestimonial": "Previous testimonial",
+    "nextTestimonial": "Next testimonial",
+    "mainNavigation": "Main navigation",
+    "companyInfo": "Company information and site navigation",
+    "goToHomepage": "Go to Powerton Engineering homepage",
+    "followLinkedIn": "Follow Powerton Engineering on LinkedIn",
+    "followFacebook": "Follow Powerton Engineering on Facebook",
+    "servicesNavigation": "Services navigation",
+    "productsNavigation": "Products navigation",
+    "callCompany": "Call Powerton Engineering",
+    "emailCompany": "Email Powerton Engineering",
+    "viewOfficeLocation": "View Powerton Engineering office location on Google Maps",
+    "officeLocationTitle": "Powerton Engineering Office Location",
+    "controllerSystems": "Controllers & Recorders",
+    "controllerDescription": "Process controllers and data recording systems for industrial control",
+    "plcSystems": "PLC Systems",
+    "processControllers": "Process Controllers",
+    "dataLoggers": "Data Loggers",
+    "controlPanels": "Control Panels",
+    "switchesIndicators": "Switches & Indicators",
+    "switchesDescription": "Industrial switches, indicators, and signaling devices",
+    "pushbuttonSwitches": "Pushbutton Switches",
+    "selectorSwitches": "Selector Switches",
+    "indicatorLights": "Indicator Lights",
+    "emergencyStops": "Emergency Stops",
+    "valvesActuators": "Valves & Actuators",
+    "valvesDescription": "Control valves and actuators for process control systems",
+    "controlValves": "Control Valves",
+    "pneumaticActuators": "Pneumatic Actuators",
+    "electricActuators": "Electric Actuators",
+    "valvePositioners": "Valve Positioners",
+    "analyzers": "Analyzers",
+    "analyzersDescription": "Gas, liquid, and process analyzers for quality control",
+    "gasAnalyzers": "Gas Analyzers",
+    "liquidAnalyzers": "Liquid Analyzers",
+    "processAnalyzers": "Process Analyzers",
+    "multiParameterSystems": "Multi-parameter Systems",
+    "signalConditioners": "Signal Conditioners",
+    "signalConditionersDescription": "Signal processing and conditioning equipment for measurement systems",
+    "isolationAmplifiers": "Isolation Amplifiers",
+    "signalConverters": "Signal Converters",
+    "measuringTransducers": "Measuring Transducers",
+    "noiseFilters": "Noise Filters"
+  },
+  "seo": {
+    "days": {
+      "monday": "Monday",
+      "tuesday": "Tuesday",
+      "wednesday": "Wednesday",
+      "thursday": "Thursday",
+      "friday": "Friday",
+      "saturday": "Saturday",
+      "sunday": "Sunday"
+    },
+    "schemaTypes": {
+      "breadcrumbList": "BreadcrumbList",
+      "listItem": "ListItem",
+      "faqPage": "FAQPage",
+      "question": "Question",
+      "answer": "Answer",
+      "itemList": "ItemList",
+      "service": "Service",
+      "localBusiness": "LocalBusiness",
+      "openingHours": "OpeningHoursSpecification"
+    }
+  },
+  "projectCategories": {
+    "Power Plant": "Power Plant",
+    "Manufacturing": "Manufacturing",
+    "Solar": "Solar",
+    "Water Treatment": "Water Treatment",
+    "Process Automation": "Process Automation",
+    "Power Systems": "Power Systems"
+  },
+  "testimonials": {
+    "anand": {
+      "name": "Anand Awasthi",
+      "location": "West Bengal",
+      "comment": "Powerton Engineering made the process of going solar seamless and easy. Their team handled everything from start to finish, and we're thrilled with the results."
+    },
+    "sanjay": {
+      "name": "Sanjay Patil",
+      "location": "Uttar Pradesh",
+      "comment": "I am glad I chose Powerton Engineering for our installation, and I would not hesitate to recommend them to any of my friends."
+    },
+    "rhea": {
+      "name": "Rhea Sharma",
+      "location": "Maharashtra",
+      "comment": "Excellent quality products and outstanding customer service. The technical expertise of the team is impressive and highly professional."
+    }
+  },
+  "projects": {
+    "thermal-plant": {
+      "title": "Thermal Power Plant Automation",
+      "description": "Complete automation solution for 250MW thermal power plant including control panels, SCADA systems, and safety interlocks.",
+      "location": "Uttar Pradesh",
+      "duration": "12 months",
+      "highlights": {
+        "scada": "SCADA Implementation",
+        "safety": "Safety Systems",
+        "control": "Control Panels",
+        "monitoring": "Performance Monitoring"
+      }
+    },
+    "pharma-plant": {
+      "title": "Pharmaceutical Plant Control System",
+      "description": "Advanced process control and monitoring system for pharmaceutical manufacturing with FDA compliance and data integrity features.",
+      "location": "Maharashtra",
+      "duration": "8 months",
+      "highlights": {
+        "fda": "FDA Compliance",
+        "data": "Data Integrity",
+        "process": "Process Control",
+        "quality": "Quality Monitoring"
+      }
+    },
+    "solar-plant": {
+      "title": "10MW Solar Power Installation",
+      "description": "Complete design and installation of grid-connected solar power plant with monitoring systems and grid synchronization equipment.",
+      "location": "Rajasthan",
+      "duration": "6 months",
+      "highlights": {
+        "grid": "Grid Connection",
+        "monitoring": "Monitoring Systems",
+        "optimization": "Performance Optimization",
+        "maintenance": "Maintenance Planning"
+      }
+    },
+    "water-treatment": {
+      "title": "Municipal Water Treatment Automation",
+      "description": "Automated control system for water treatment plant serving 500,000 residents with real-time monitoring and quality control.",
+      "location": "West Bengal",
+      "duration": "10 months",
+      "highlights": {
+        "monitoring": "Real-time Monitoring",
+        "quality": "Quality Control",
+        "automation": "Automated Operations",
+        "remote": "Remote Management"
+      }
+    }
+  },
+  "buttons": {
+    "getQuote": "Get Quote",
+    "callNow": "Call Now",
+    "emailUs": "Email Us",
+    "learnMore": "Learn More",
+    "viewMore": "View More",
+    "viewAll": "View All",
+    "contactUs": "Contact Us",
+    "getStarted": "Get Started",
+    "downloadBrochure": "Download Brochure",
+    "downloadPortfolio": "Download Portfolio",
+    "showFilters": "Show Filters",
+    "readMore": "Read More",
+    "downloadCatalog": "Download Catalog",
+    "viewDetails": "View Details",
+    "backTo": "Back to {{category}}",
+    "backToBldcProducts": "Back to BLDC Products",
+    "backToProducts": "Back to Products",
+    "requestQuote": "Request Quote",
+    "expertTeam": "Expert Team",
+    "successfulProjects": "Successful Projects",
+    "qualityProducts": "Quality Products",
+    "sendMessage": "Send Message",
+    "sending": "Sending...",
+    "submit": "Submit",
+    "viewProducts": "View Products",
+    "viewServices": "View Services",
+    "getInTouch": "Get In Touch",
+    "exploreProducts": "Explore Products",
+    "viewCatalog": "View Catalog"
+  },
+  "altTexts": {
+    "companyLogo": "Powerton Engineering Pvt. Ltd. - Industrial Automation & Electrical Engineering Company Logo",
+    "contactBackground": "ID-834: Contact center and customer support office background for engineering company",
+    "aboutBackground": "ID-004: Powerton Engineering industrial automation facility with modern control systems"
+  },
+  "messages": {
+    "toggleTheme": "Toggle Theme",
+    "close": "Close"
+  },
+  "products": {
+    "sections": {
+      "industrialProducts": "Industrial Products",
+      "applications": "{{product}} Applications",
+      "keyFeatures": "Key Features:"
+    },
+    "badges": {
+      "highEfficiency": "High Efficiency",
+      "variableSpeed": "Variable Speed",
+      "lowNoise": "Low Noise",
+      "smartControl": "Smart Control",
+      "durable": "Durable",
+      "energySaving": "Energy Saving",
+      "reliable": "Reliable",
+      "costEffective": "Cost Effective"
+    }
+  },
+  "labels": {
+    "businessHours": "Business Hours",
+    "mondayToSaturday": "Monday - Saturday",
+    "workingHours": "9:00 AM - 6:00 PM",
+    "sunday": "Sunday",
+    "emergencySupport": "Emergency Support Only",
+    "category": "Category",
+    "status": "Status",
+    "industry": "Industry",
+    "projectType": "Project Type"
+  },
+  "cta": {
+    "getQuote": "Get Quote",
+    "callNow": "Call Now",
+    "emailUs": "Email Us",
+    "learnMore": "Learn More",
+    "viewMore": "View More",
+    "contactUs": "Contact Us",
+    "getStarted": "Get Started",
+    "downloadBrochure": "Download Brochure"
+  },
+  "seo": {
+    "companyName": "Powerton Engineering Pvt. Ltd.",
+    "companyDescription": "Leading industrial automation and electrical engineering company in India. Specializing in power plant automation, solar installations, and manufacturing control systems.",
+    "siteName": "Powerton Engineering",
+    "twitterHandle": "@powerton_eng",
+    "businessAddress": {
+      "street": "F-25, F Block, Sector 6",
+      "city": "Noida",
+      "state": "Uttar Pradesh",
+      "postal": "201301",
+      "country": "India"
+    },
+    "powerton": {
+      "name": "Powerton Engineering Pvt. Ltd.",
+      "description": "Leading industrial automation and electrical engineering company in India. Specializing in power plant automation, solar installations, and manufacturing control systems.",
+      "keywords": "Industrial Automation, Electrical Engineering, Power Plant, Solar Energy, Manufacturing, Control Systems, Instrumentation, SCADA, PLC, Automation Solutions, Electrical Installation, Industrial Control Panels, Process Automation, Power Distribution, Motor Control Centers, Electrical Maintenance, Industrial Electrical Services, Automation Consulting, Electrical Design, Power Systems",
+      "author": "Powerton Engineering Team"
+    },
+    "location": {
+      "name": "Noida, Uttar Pradesh, India",
+      "region": "Uttar Pradesh",
+      "country": "India"
+    },
+    "contact": {
+      "phone": "+91-94627-71662 / +91-82997-27291",
+      "email": "info@powertonengineering.com"
+    },
+    "businessInfo": {
+      "industry": "Industrial Automation, Electrical Engineering, Instrumentation",
+      "category": "Engineering Services, Automation Solutions, Electrical Systems",
+      "targetAudience": "Industrial Engineers, Plant Managers, Automation Professionals",
+      "companyType": "B2B Engineering Solutions Provider",
+      "serviceArea": "India, Pan-India Service"
+    }
+  },
+  "company": {
+    "name": "Powerton Engineering Pvt. Ltd.",
+    "tagline": "Your trusted partner in industrial automation and electrical engineering",
+    "phone": "+91-94627-71662 / +91-82997-27291",
+    "email": "info@powertonengineering.com",
+    "address": {
+      "street": "F-25, F Block, Sector 6",
+      "city": "Noida",
+      "state": "Uttar Pradesh",
+      "pincode": "201301",
+      "landmark": "nearest metro-Sector 15",
+      "full": "2nd Floor, F-25, F Block, Sector 6, Noida, Uttar Pradesh 201301, India"
+    },
+    "businessHours": {
+      "weekdays": "Monday - Saturday: 9:00 AM - 6:00 PM",
+      "sunday": "Sunday: Emergency Support Only"
+    },
+    "stats": {
+      "projectsCompleted": "500+",
+      "clientsServed": "200+",
+      "yearsExperience": "15+",
+      "responseTime": "2 hours"
+    }
+  },
+  "clients": {
+    "sci-group": "Shipping Corporation of India",
+    "agribio": "AgriBio Germany",
+    "motherson": "Motherson Group",
+    "praj": "Praj Industries",
+    "thermax": "Thermax Limited",
+    "ankur": "Ankur Scientific Energy Technologies",
+    "dls": "DLS India",
+    "boudh": "Boudh Distillery",
+    "lokmangal": "Lokmangal Group",
+    "marcuras": "Marcuras Water Treatment",
+    "nv-group": "NV Group",
+    "anand-nv": "Anand NV",
+    "dhanuka": "Dhanuka Agritech",
+    "mjson": "MJSON",
+    "procient": "Procient"
+  },
+  "quote": {
+    "projectTypes": {
+      "processAutomation": "Process Automation",
+      "powerControlSystems": "Power Control Systems", 
+      "instrumentationControl": "Instrumentation & Control",
+      "solarAutomation": "Solar Automation",
+      "buildingAutomation": "Building Automation",
+      "manufacturingAutomation": "Manufacturing Automation"
+    },
+    "industries": {
+      "manufacturing": "Manufacturing",
+      "powerGeneration": "Power Generation",
+      "oilGas": "Oil & Gas",
+      "chemicalProcessing": "Chemical Processing",
+      "waterTreatment": "Water Treatment",
+      "foodBeverage": "Food & Beverage",
+      "pharmaceutical": "Pharmaceutical",
+      "renewableEnergy": "Renewable Energy"
+    }
+  },
+  "placeholders": {
+    "searchProjects": "Search projects, clients, or technologies...",
+    "selectIndustryFilter": "Select Industry Filter",
+    "selectCategory": "Select Category",
+    "selectStatus": "Select Status"
+  },
+  "copyright": {
+    "text": "© {{year}} Powerton Engineering Pvt. Ltd. All rights reserved.",
+    "madeWith": "Made with 💙 by Powerton Engineering Team"
+  },
+  "badges": {
+    "energyEfficient": "Energy Efficient",
+    "smartControl": "Smart Control",
+    "silentOperation": "Silent Operation",
+    "longLife": "Long Life",
+    "highPerformance": "High Performance",
+    "ecoFriendly": "Eco Friendly",
+    "costEffective": "Cost Effective",
+    "premiumQuality": "Premium Quality",
+    "industrialGrade": "Industrial Grade",
+    "certified": "Certified",
+    "warrantyIncluded": "Warranty Included",
+    "fastDelivery": "Fast Delivery"
+  },
+  "headings": {
+    "bldcCeilingFanModels": "BLDC Ceiling Fan Models",
+    "ourProducts": "Our Products",
+    "specifications": "Specifications",
+    "keyFeatures": "Key Features",
+    "technicalDetails": "Technical Details",
+    "availableModels": "Available Models",
+    "productOverview": "Product Overview",
+    "relatedProducts": "Related Products"
+  },
+  "chatbot": {
+    "welcome": "Welcome to Powerton Engineering! How can I help you today?",
+    "typeMessage": "Type your message...",
+    "sendMessage": "Send message",
+    "openChat": "Open chat",
+    "closeChat": "Close chat",
+    "typing": "Typing...",
+    "defaultOptions": {
+      "products": "Products & Catalog",
+      "services": "Our Services",
+      "contact": "Contact Information",
+      "quote": "Request Quote",
+      "support": "Technical Support"
+    },
+    "responses": {
+      "products": "We offer a comprehensive range of industrial automation products, electrical components, instrumentation, solar systems, and more. What specific products are you looking for?",
+      "services": "Our services include installation, maintenance, calibration, technical support, and custom solutions. Which service interests you?",
+      "contact": "You can reach us at +91-9911315121 or email us at info@powertonengineering.com. Our office is located in Delhi, India.",
+      "quote": "I'd be happy to help you get a quote! Please visit our quote page or provide me with your requirements.",
+      "support": "Our technical support team is here to help! Please describe your technical question or issue."
+    }
+  },
+  "common": {
+    "keyFeatures": "Key Features"
+  }
+}

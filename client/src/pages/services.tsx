@@ -1,0 +1,384 @@
+import { motion } from "framer-motion";
+import { SEO } from "@/lib/seo";
+import { Button } from "@/components/ui/button";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { Badge } from "@/components/ui/badge";
+import { SERVICES, COMPANY_INFO } from "@/data/constants";
+import {
+  AnimatedSection,
+  useScrollAnimations,
+} from "@/hooks/use-scroll-animation";
+import {
+  Gauge,
+  Wrench,
+  Shield,
+  Settings,
+  CheckCircle,
+  ArrowRight,
+  Clock,
+  Users,
+  Award,
+  Truck,
+  Sun,
+  Hammer,
+  Star,
+  Timer,
+  Phone,
+  MessageSquare,
+} from "lucide-react";
+import { Link } from "wouter";
+import { getHeroImage } from "@/assets/images";
+import { useTranslation } from "react-i18next";
+
+const iconMap = {
+  tools: Hammer,
+  wrench: Wrench,
+  gauge: Gauge,
+  users: Users,
+  cog: Settings,
+  truck: Truck,
+  shield: Shield,
+  sun: Sun,
+};
+
+export default function Services() {
+  useScrollAnimations();
+  const { t } = useTranslation(['pages', 'services', 'common']);
+
+  return (
+    <>
+      <SEO
+        title={t('pages:services.seo.title', 'Professional Engineering Services - Installation, Maintenance & Automation | Powerton Engineering')}
+        description={t('pages:services.seo.description', 'Expert engineering services: PLC programming, SCADA systems, industrial automation, electrical panel installation, maintenance, calibration, custom solutions & solar EPC services across India.')}
+        keywords="engineering services, industrial automation services, PLC programming, SCADA implementation, electrical panel installation, maintenance services, calibration services, custom automation solutions, solar EPC contractor, technical support India"
+        canonicalUrl="https://powertonengineering.in/services"
+      />
+
+      <div className="min-h-screen bg-background">
+        {/* Hero Section */}
+        <section className="relative hero-fullscreen overflow-hidden">
+          <div
+            className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+            style={{
+              backgroundImage: `url(${getHeroImage("services", { preload: true })?.src})`,
+            }}
+          ></div>
+          <div className="absolute inset-0 bg-black/60"></div>
+
+          <div className="relative z-10">
+            <div className="max-w-7xl mx-auto px-3 sm:px-4 md:px-6 lg:px-8 text-center text-white">
+              <AnimatedSection animation="fadeInUp" delay={0.1} duration={0.8}>
+                <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold mb-4 sm:mb-6">
+                  {t('pages:services.hero.title', 'Professional Engineering Services')}
+                </h1>
+                <p className="text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl mb-6 sm:mb-8 max-w-3xl mx-auto px-2 sm:px-0">
+                  {t('pages:services.hero.subtitle', 'Comprehensive industrial automation, electrical engineering, and instrumentation solutions designed to optimize your operations and drive business success.')}
+                </p>
+                <Link href="/quote">
+                  <Button
+                    size="lg"
+                    className="bg-secondary hover:bg-secondary/90 text-white"
+                  >
+                    {t('common:buttons.getQuote', 'Get Quote')} <ArrowRight className="ml-2 h-5 w-5" />
+                  </Button>
+                </Link>
+              </AnimatedSection>
+            </div>
+          </div>
+        </section>
+
+        {/* Services Grid */}
+        <section className="py-16 md:py-20">
+          <div className="max-w-7xl mx-auto px-3 sm:px-4 md:px-6 lg:px-8">
+            <AnimatedSection animation="fadeInUp" delay={0.2}>
+              <div className="text-center mb-8 sm:mb-12">
+                <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
+                  {t('services:title', 'Our Services')}
+                </h2>
+                <p className="text-muted-foreground max-w-2xl mx-auto">
+                  {t('services:subtitle', 'Comprehensive Industrial Engineering Solutions')}
+                </p>
+              </div>
+            </AnimatedSection>
+
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 md:gap-8 items-stretch">
+              {SERVICES.map((service, index) => {
+                const IconComponent =
+                  iconMap[service.icon as keyof typeof iconMap] || Settings;
+
+                return (
+                  <AnimatedSection
+                    key={service.id}
+                    animation="fadeInUp"
+                    delay={0.3 + index * 0.1}
+                    className="h-full"
+                  >
+                    <Link href={`/services-category/${service.id}`}>
+                      <motion.div
+                        whileHover={{ y: -10, scale: 1.03 }}
+                        transition={{ duration: 0.3, ease: "easeOut" }}
+                        className="h-full"
+                      >
+                        <Card className="w-full h-full cursor-pointer group border-border flex flex-col relative overflow-hidden">
+                        {/* Popular Badge */}
+                        {service.popular && (
+                          <div className="absolute top-4 right-4 z-10">
+                            <Badge className="bg-secondary text-white text-xs px-2 py-1 flex items-center gap-1">
+                              <Star className="w-3 h-3" />
+                              Popular
+                            </Badge>
+                          </div>
+                        )}
+
+                        <CardHeader className="pb-4 pt-6">
+                          <div className="w-16 h-16 bg-gradient-to-br from-primary to-secondary rounded-xl flex items-center justify-center mb-4 group-hover:scale-110 group-hover:rotate-3 transition-all duration-300">
+                            <IconComponent className="w-8 h-8 text-white" />
+                          </div>
+                          <CardTitle className="text-xl font-bold text-foreground group-hover:text-primary transition-colors mb-2">
+                            {service.title}
+                          </CardTitle>
+                          {service.duration && (
+                            <div className="flex items-center text-sm text-muted-foreground">
+                              <Timer className="w-4 h-4 mr-2" />
+                              Duration: {service.duration}
+                            </div>
+                          )}
+                        </CardHeader>
+
+                        <CardContent className="flex-1 flex flex-col">
+                          <p className="text-muted-foreground mb-6 leading-relaxed text-sm">
+                            {service.description}
+                          </p>
+
+                          <div className="space-y-3 mb-6 flex-1">
+                            <h4 className="font-semibold text-foreground text-sm">
+                              Key Features:
+                            </h4>
+                            <ul className="space-y-2">
+                              {service.features.map((feature, featureIndex) => (
+                                <li
+                                  key={featureIndex}
+                                  className="flex items-start text-sm text-muted-foreground"
+                                >
+                                  <CheckCircle className="w-4 h-4 text-secondary mr-2 flex-shrink-0 mt-0.5" />
+                                  <span className="group-hover:text-foreground transition-colors">
+                                    {feature}
+                                  </span>
+                                </li>
+                              ))}
+                            </ul>
+                          </div>
+
+                          <div className="mt-auto space-y-3 pt-4">
+                            <div className="flex gap-2">
+                              <Link
+                                href={`/quote?service=${service.id}`}
+                                className="flex-1"
+                              >
+                                <Button
+                                  size="sm"
+                                  className="w-full bg-primary hover:bg-primary/90 text-xs"
+                                >
+                                  Quick Quote
+                                </Button>
+                              </Link>
+                              <Link href={`tel:${COMPANY_INFO.phone}`}>
+                                <Button
+                                  size="sm"
+                                  variant="outline"
+                                  className="px-3"
+                                >
+                                  <Phone className="w-4 h-4" />
+                                </Button>
+                              </Link>
+                            </div>
+
+                            <Button
+                              variant="ghost"
+                              className="text-secondary hover:bg-transparent hover:text-secondary p-0 font-semibold transition-all duration-300 w-full justify-center"
+                            >
+                              {t('common:buttons.learnMore')}
+                              <span className="ml-2 transform group-hover:translate-x-2 transition-transform duration-300">
+                                →
+                              </span>
+                            </Button>
+                          </div>
+                        </CardContent>
+                        </Card>
+                      </motion.div>
+                    </Link>
+                  </AnimatedSection>
+                );
+              })}
+            </div>
+          </div>
+        </section>
+
+        {/* Why Choose Us */}
+        <section className="py-16 md:py-20 bg-muted/50">
+          <div className="max-w-7xl mx-auto px-3 sm:px-4 md:px-6 lg:px-8">
+            <AnimatedSection animation="fadeInUp" delay={0.2}>
+              <div className="text-center mb-8 sm:mb-12">
+                <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
+                  Why Choose Powerton Engineering?
+                </h2>
+                <p className="text-muted-foreground max-w-2xl mx-auto mb-8">
+                  With {COMPANY_INFO.stats.yearsExperience} years of experience
+                  and a commitment to excellence, we deliver reliable solutions
+                  that drive your business forward.
+                </p>
+                <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
+                  <div className="text-center">
+                    <div className="text-2xl font-bold text-primary">
+                      {COMPANY_INFO.stats.projectsCompleted}
+                    </div>
+                    <div className="text-sm text-muted-foreground">
+                      Projects Completed
+                    </div>
+                  </div>
+                  <div className="text-center">
+                    <div className="text-2xl font-bold text-primary">
+                      {COMPANY_INFO.stats.clientsServed}
+                    </div>
+                    <div className="text-sm text-muted-foreground">
+                      Satisfied Clients
+                    </div>
+                  </div>
+                  <div className="text-center">
+                    <div className="text-2xl font-bold text-primary">
+                      {COMPANY_INFO.stats.yearsExperience}
+                    </div>
+                    <div className="text-sm text-muted-foreground">
+                      Years Experience
+                    </div>
+                  </div>
+                  <div className="text-center">
+                    <div className="text-2xl font-bold text-primary">
+                      {COMPANY_INFO.stats.responseTime}
+                    </div>
+                    <div className="text-sm text-muted-foreground">
+                      Response Time
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </AnimatedSection>
+
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+              <AnimatedSection animation="fadeInUp" delay={0.3}>
+                <Card className="text-center border-border">
+                  <CardContent className="p-6">
+                    <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
+                      <Award className="w-8 h-8 text-primary" />
+                    </div>
+                    <h3 className="font-semibold text-foreground mb-2">
+                      Expert Team
+                    </h3>
+                    <p className="text-muted-foreground text-sm">
+                      Certified professionals with extensive industry experience
+                    </p>
+                  </CardContent>
+                </Card>
+              </AnimatedSection>
+
+              <AnimatedSection animation="fadeInUp" delay={0.4}>
+                <Card className="text-center border-border">
+                  <CardContent className="p-6">
+                    <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
+                      <Clock className="w-8 h-8 text-primary" />
+                    </div>
+                    <h3 className="font-semibold text-foreground mb-2">
+                      Rapid Response
+                    </h3>
+                    <p className="text-muted-foreground text-sm">
+                      Average {COMPANY_INFO.stats.responseTime} response time
+                      for all support requests
+                    </p>
+                  </CardContent>
+                </Card>
+              </AnimatedSection>
+
+              <AnimatedSection animation="fadeInUp" delay={0.5}>
+                <Card className="text-center border-border">
+                  <CardContent className="p-6">
+                    <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
+                      <Shield className="w-8 h-8 text-primary" />
+                    </div>
+                    <h3 className="font-semibold text-foreground mb-2">
+                      Quality Assured
+                    </h3>
+                    <p className="text-muted-foreground text-sm">
+                      ISO certified processes and guaranteed quality standards
+                    </p>
+                  </CardContent>
+                </Card>
+              </AnimatedSection>
+
+              <AnimatedSection animation="fadeInUp" delay={0.6}>
+                <Card className="text-center border-border">
+                  <CardContent className="p-6">
+                    <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
+                      <Users className="w-8 h-8 text-primary" />
+                    </div>
+                    <h3 className="font-semibold text-foreground mb-2">
+                      Client Focused
+                    </h3>
+                    <p className="text-muted-foreground text-sm">
+                      Customized solutions tailored to your specific
+                      requirements
+                    </p>
+                  </CardContent>
+                </Card>
+              </AnimatedSection>
+            </div>
+          </div>
+        </section>
+
+        {/* Call to Action */}
+        <section className="py-16 md:py-20 bg-primary">
+          <div className="max-w-4xl mx-auto px-4 md:px-6 lg:px-8 text-center">
+            <AnimatedSection animation="fadeInUp" delay={0.2}>
+              <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">
+                Ready to Get Started?
+              </h2>
+              <p className="text-white mb-8 text-lg">
+                Contact us today to discuss your project requirements and get a
+                customized solution.
+              </p>
+              <div className="flex flex-col sm:flex-row gap-4 justify-center">
+                <Link href="/quote">
+                  <Button
+                    size="lg"
+                    className="bg-foreground text-background border-border hover:bg-primary/90 hover:scale-105 transition-all duration-300"
+                  >
+                    Request Quote <ArrowRight className="ml-2 h-5 w-5 " />
+                  </Button>
+                </Link>
+                <Link href="/contact">
+                  <Button
+                    size="lg"
+                    variant="outline"
+                    className="hover:scale-105 transition-all duration-300"
+                  >
+                    <MessageSquare className="mr-2 h-5 w-5" />
+                    {t('common:buttons.contactUs')}
+                  </Button>
+                </Link>
+                <Link href={`tel:${COMPANY_INFO.phone}`}>
+                  <Button
+                    size="lg"
+                    variant="secondary"
+                    className="hover:scale-105 transition-all duration-300"
+                  >
+                    <Phone className="mr-2 h-5 w-5" />
+                    Call Now
+                  </Button>
+                </Link>
+              </div>
+            </AnimatedSection>
+          </div>
+        </section>
+      </div>
+    </>
+  );
+}

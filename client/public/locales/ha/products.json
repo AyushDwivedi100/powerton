@@ -1,0 +1,36 @@
+{
+  "title": "Our Products",
+  "subtitle": "Industrial Automation & Electrical Components",
+  "categories": {
+    "automation": "Automation & Control",
+    "electrical": "Electrical Components",
+    "instrumentation": "Instrumentation",
+    "solar": "Solar Products",
+    "motors": "BLDC Motor Systems",
+    "pumps": "Pumps & Motors",
+    "safety": "Safety Equipment",
+    "tools": "Industrial Tools"
+  },
+  "filters": {
+    "all": "All",
+    "category": "Category", 
+    "industry": "Industry",
+    "status": "Status"
+  },
+  "status": {
+    "available": "Available",
+    "outOfStock": "Out of Stock",
+    "discontinued": "Discontinued"
+  },
+  "items": {
+    "solar-products": "Kayayyakin Hasken Rana",
+    "automation-control-systems": "Tsarin Sarrafa Atomatik",
+    "safety-protective-devices": "Na'urorin Aminci da Kariya",
+    "mechanical-pumps-spares": "Pamfunan Inji da Kayan Gyara",
+    "industrial-tools-tackles": "Kayan Aiki da Kayan Masana'antu",
+    "bldc": "BLDC",
+    "instrumentation-components": "Sassan Kayan Aiki",
+    "electrical-components": "Sassan Lantarki",
+    "measurement-instruments": "Kayan Aikin Auna"
+  }
+}

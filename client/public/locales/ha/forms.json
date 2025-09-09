@@ -1,0 +1,51 @@
+{
+  "contact": {
+    "fields": {
+      "name": {
+        "label": "Cikakken suna",
+        "placeholder": "Shigar da cikakken sunan ka",
+        "error": "Ana buƙatar suna"
+      },
+      "email": {
+        "label": "Adireshin imel",
+        "placeholder": "Shigar da adireshin imel ɗin ka",
+        "error": "Da fatan za a shigar da ingantaccen adireshin imel"
+      },
+      "phone": {
+        "label": "Lambar waya",
+        "placeholder": "Shigar da lambar waya ta ka",
+        "error": "Ana buƙatar lambar waya"
+      },
+      "company": {
+        "label": "Sunan kamfani",
+        "placeholder": "Shigar da sunan kamfanin ka"
+      },
+      "serviceType": {
+        "label": "Nau'in sabis",
+        "placeholder": "Zaɓi nau'in sabis"
+      },
+      "subject": {
+        "label": "Jigo",
+        "placeholder": "Shigar da jigo",
+        "error": "Ana buƙatar jigo"
+      },
+      "message": {
+        "label": "Saƙo",
+        "placeholder": "Shigar da saƙon ka",
+        "error": "Ana buƙatar saƙo"
+      }
+    },
+    "buttons": {
+      "submit": "Aika saƙo",
+      "sending": "Ana aikawa...",
+      "callNow": "Kira yanzu",
+      "emailUs": "Aika mana imel"
+    },
+    "messages": {
+      "success": "Na gode! An aika saƙon ku da nasara.",
+      "successDesc": "Za mu tuntube ku cikin sa'o'i 24.",
+      "error": "Ba a iya aika saƙo ba",
+      "errorDesc": "Da fatan za a sake gwadawa ko tuntuɓe mu kai tsaye a {{phone}} ko {{email}}"
+    }
+  }
+}

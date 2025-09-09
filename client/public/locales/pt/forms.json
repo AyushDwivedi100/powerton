@@ -1,0 +1,51 @@
+{
+  "contact": {
+    "fields": {
+      "name": {
+        "label": "Nome completo",
+        "placeholder": "Digite seu nome completo",
+        "error": "Nome é obrigatório"
+      },
+      "email": {
+        "label": "Endereço de e-mail",
+        "placeholder": "Digite seu endereço de e-mail",
+        "error": "Por favor, digite um endereço de e-mail válido"
+      },
+      "phone": {
+        "label": "Número de telefone",
+        "placeholder": "Digite seu número de telefone",
+        "error": "Número de telefone é obrigatório"
+      },
+      "company": {
+        "label": "Nome da empresa",
+        "placeholder": "Digite o nome da sua empresa"
+      },
+      "serviceType": {
+        "label": "Tipo de serviço",
+        "placeholder": "Selecione o tipo de serviço"
+      },
+      "subject": {
+        "label": "Assunto",
+        "placeholder": "Digite o assunto",
+        "error": "Assunto é obrigatório"
+      },
+      "message": {
+        "label": "Mensagem",
+        "placeholder": "Digite sua mensagem",
+        "error": "Mensagem é obrigatória"
+      }
+    },
+    "buttons": {
+      "submit": "Enviar mensagem",
+      "sending": "Enviando...",
+      "callNow": "Ligar agora",
+      "emailUs": "Envie-nos um e-mail"
+    },
+    "messages": {
+      "success": "Obrigado! Sua mensagem foi enviada com sucesso.",
+      "successDesc": "Entraremos em contato em 24 horas.",
+      "error": "Falha ao enviar mensagem",
+      "errorDesc": "Tente novamente ou entre em contato diretamente pelo {{phone}} ou {{email}}"
+    }
+  }
+}

@@ -1,0 +1,380 @@
+{
+  "buttons": {
+    "learnMore": "Koyi ƙari",
+    "getQuote": "Sami farashin",
+    "contact": "Tuntube mu",
+    "contactUs": "Tuntube mu",
+    "viewAll": "Duba duka",
+    "readMore": "Karanta ƙari",
+    "viewDetails": "Duba cikakkun bayanai",
+    "download": "Sauke",
+    "downloadCatalog": "Sauke catalog",
+    "downloadBrochure": "Sauke littafin",
+    "downloadGuide": "Sauke jagora",
+    "downloadDatasheet": "Sauke takardun bayanai",
+    "downloadPortfolio": "Sauke ayyuka",
+    "requestQuote": "Nemi farashin",
+    "showMore": "Nuna ƙari",
+    "showFilters": "Nuna tacewa",
+    "hideFilters": "Ɓoye tacewa",
+    "upload": "Loda",
+    "expertTeam": "Ƙungiyar ƙwararru",
+    "successfulProjects": "Ayyukan da suka yi nasara",
+    "qualityProducts": "Samfuran inganci"
+  },
+  "loading": "Ana lodawa...",
+  "error": "Wani abu ya yi kuskure",
+  "success": "Nasara!",
+  "messages": {
+    "toggleTheme": "Canza jigo",
+    "close": "Rufe",
+    "imageNotFound": "Ba a sami hoton ba",
+    "loading": "Ana lodawa...",
+    "error": "Kuskure ya faru"
+  },
+  "navigation": {
+    "backToInstrumentationComponents": "Koma zuwa Abubuwan Instrumentation"
+  },
+  "aria": {
+    "toggleNavigation": "Juyawa mataimakin kewayawa",
+    "openLocation": "Buɗe wurin ofis a Google Maps",
+    "exploreServices": "Bincika ayyukanmu na sarrafa masana'antu da injiniya",
+    "requestConsultation": "Nemi shawarwari kyauta don aikin injiniya",
+    "companyHighlights": "Manyan abubuwan kamfani da hidimomi",
+    "performanceStats": "Kididdigar aiki na kamfani",
+    "previousTestimonial": "Shaida ta baya",
+    "nextTestimonial": "Shaida ta gaba",
+    "mainNavigation": "Babban kewayawa",
+    "companyInfo": "Bayanin kamfani da kewayawan shafin",
+    "goToHomepage": "Tafi zuwa shafin gida na Powerton Engineering",
+    "followLinkedIn": "Bi Powerton Engineering akan LinkedIn",
+    "followFacebook": "Bi Powerton Engineering akan Facebook",
+    "servicesNavigation": "Kewayawan hidimomi",
+    "productsNavigation": "Kewayawan samfurori",
+    "callCompany": "Kira Powerton Engineering",
+    "emailCompany": "Aika imel zuwa Powerton Engineering",
+    "viewOfficeLocation": "Duba wurin ofishin Powerton Engineering akan Google Maps",
+    "officeLocationTitle": "Wurin ofishin Powerton Engineering",
+    "controllerSystems": "Masu Sarrafawa da Masu Rikodi",
+    "controllerDescription": "Masu sarrafa tsari da tsarin rikodin bayanai don sarrafa masana'antu",
+    "plcSystems": "Tsarin PLC",
+    "processControllers": "Masu sarrafa tsari",
+    "dataLoggers": "Masu rikodin bayanai",
+    "controlPanels": "Bangarorin sarrafawa",
+    "switchesIndicators": "Maɓalli da Masu Nuni",
+    "switchesDescription": "Maɓallan masana'antu, masu nuni da kayan aikin sigina",
+    "pushbuttonSwitches": "Maɓallan turawa",
+    "selectorSwitches": "Maɓallan zaɓi",
+    "indicatorLights": "Fitilun masu nuni",
+    "emergencyStops": "Tsayuwar gaggawa",
+    "valvesActuators": "Valves da Masu Tafiyar da Aiki",
+    "valvesDescription": "Valves na sarrafawa da masu tafiyar da aiki don tsarin sarrafa tsari",
+    "controlValves": "Valves na sarrafawa",
+    "pneumaticActuators": "Masu tafiyar da aiki na pneumatic",
+    "electricActuators": "Masu tafiyar da aiki na lantarki",
+    "valvePositioners": "Masu sanya valves",
+    "analyzers": "Masu Nazari",
+    "analyzersDescription": "Masu nazarin gas, ruwa da tsari don sarrafa inganci",
+    "gasAnalyzers": "Masu nazarin gas",
+    "liquidAnalyzers": "Masu nazarin ruwa",
+    "processAnalyzers": "Masu nazarin tsari",
+    "multiParameterSystems": "Tsarin ma'auni da yawa",
+    "signalConditioners": "Masu gyaran sigina",
+    "signalConditionersDescription": "Kayan aikin sarrafa da gyaran sigina don tsarin auna",
+    "isolationAmplifiers": "Masu haɓaka keɓewa",
+    "signalConverters": "Masu juyar da sigina",
+    "measuringTransducers": "Masu juyar da auna",
+    "noiseFilters": "Masu tacewa amo"
+  },
+  "badges": {
+    "energyEfficient": "Mai cin kadan makamashi",
+    "smartControl": "Sarrafa ta hankali",
+    "silentOperation": "Aikin shiru",
+    "longLife": "Dogon rayuwa",
+    "highPerformance": "Babban aiki",
+    "ecoFriendly": "Aboki da muhalli",
+    "costEffective": "Mai rahusa",
+    "premiumQuality": "Inganci na babba",
+    "industrialGrade": "Matakin masana'anta",
+    "certified": "Da takarda shaidar",
+    "warrantyIncluded": "Garantin ya shiga",
+    "fastDelivery": "Saurin isowar"
+  },
+  "headings": {
+    "bldcCeilingFanModels": "Samfuran Fanukan Rufin BLDC",
+    "ourProducts": "Samfuranmu",
+    "specifications": "Takaitaccen bayani",
+    "keyFeatures": "Muhimman abubuwa",
+    "technicalDetails": "Bayanin fasaha",
+    "availableModels": "Samfuran da ake samu",
+    "productOverview": "Bayyani game da samfur",
+    "relatedProducts": "Samfuran da suka dace"
+  },
+  "chatbot": {
+    "welcome": "Barka da zuwa Powerton Engineering! Yaya zan iya taimaka muku yau?",
+    "typeMessage": "Rubuta saƙonku...",
+    "sendMessage": "Aika saƙo",
+    "openChat": "Buɗe hira",
+    "closeChat": "Rufe hira",
+    "typing": "Yana rubutu...",
+    "defaultOptions": {
+      "products": "Samfurori da catalog",
+      "services": "Hidimominmu",
+      "contact": "Bayanin tuntuɓa",
+      "quote": "Nemi farashin",
+      "support": "Tallafin fasaha"
+    },
+    "responses": {
+      "products": "Muna ba da cikakkun samfuran sarrafa masana'antu, kayan lantarki, na'urori, tsarin hasken rana da sauransu. Wanne irin samfurori ne kuke nema?",
+      "services": "Hidimominmu sun haɗa da shigarwa, kulawa, daidaitawa, tallafin fasaha da mafita na musamman. Wanne hidimar ne kuka fi so?",
+      "contact": "Kuna iya kiran mu a +91-9911315121 ko aika mana imel a info@powertonengineering.com. Ofishinmu yana Delhi, India.",
+      "quote": "Zan yi farin ciki in taimaka muku sami farashin! Don Allah ku ziyarci shafin farashinmu ko ku ba ni bukatunku.",
+      "support": "Ƙungiyar tallafin fasaharmu tana nan don taimaka! Don Allah bayyana tambayar fasaha ko matsalar ku."
+    }
+  },
+  "seo": {
+    "days": {
+      "monday": "Litinin",
+      "tuesday": "Talata",
+      "wednesday": "Laraba",
+      "thursday": "Alhamis",
+      "friday": "Jumma'a",
+      "saturday": "Asabar",
+      "sunday": "Lahadi"
+    },
+    "schemaTypes": {
+      "breadcrumbList": "Jerin kewayawa",
+      "listItem": "Abu na jeri",
+      "faqPage": "Shafin tambayoyin da ake yawan yi",
+      "question": "Tambaya",
+      "answer": "Amsa",
+      "itemList": "Jerin abubuwa",
+      "service": "Hidima",
+      "localBusiness": "Kasuwancin gida",
+      "openingHours": "Ƙayyadaddun lokutan buɗewa"
+    }
+  },
+  "labels": {
+    "responseTime": "Lokacin amsawa",
+    "availability": "Samun damar",
+    "coverage": "Rufewa",
+    "technologies": "Fasahohi",
+    "parameters": "Ma'auni",
+    "specifications": "Takaitaccen bayani",
+    "applications": "Amfani",
+    "industries": "Masana'antu",
+    "keyFeatures": "Mahimman abubuwa",
+    "includes": "Ya haɗa da",
+    "projectType": "Nau'in aikin",
+    "industry": "Masana'anta",
+    "projectSize": "Girman aikin",
+    "timeline": "Jadawalin lokaci",
+    "location": "Wuri",
+    "budget": "Kasafin kuɗi",
+    "requirements": "Buƙatu",
+    "category": "Rukuni",
+    "status": "Matsayi"
+  },
+  "buttons": {
+    "downloadPortfolio": "Sauke fayil",
+    "showFilters": "Nuna tacewa"
+  },
+  "messages": {
+    "serviceNotFound": "Ba a sami sabis ba",
+    "readyToStart": "Kuna shirye ku fara?",
+    "consultation": "Tuntube mu don samun cikakken shawarwari da madaidaicin bayani.",
+    "availability": "Litinin - Asabar, Ana samun tallafi na gaggawa",
+    "coverage": "Sabis a duk India",
+    "needHelp": "Kuna buƙatar taimako wajen neman wani abu?",
+    "cantFind": "Ba za ku iya samun abin da kuke nema ba? Tuntube mu kai tsaye ko amfana da chatbot mai hankali da ke samuwa a kowane shafi."
+  },
+  "placeholders": {
+    "selectProjectType": "Zaɓi nau'in aikin",
+    "selectIndustry": "Zaɓi masana'anta",
+    "selectProjectSize": "Zaɓi girman aikin",
+    "selectTimeline": "Zaɓi jadawalin lokaci",
+    "projectTimeline": "Jadawalin lokacin aikin",
+    "selectBudgetRange": "Zaɓi kewayon kasafin kuɗi (na zaɓi)",
+    "cityState": "Birni, Jiha",
+    "describeExisting": "Bayyana kowane tsarin da ke akwai ko kayan aiki...",
+    "searchProjects": "Nemi ayyuka, abokan ciniki ko fasahohi...",
+    "selectIndustryFilter": "Zaɓi masana'anta",
+    "selectCategory": "Zaɓi rukuni",
+    "selectStatus": "Zaɓi matsayi",
+    "askChatbot": "Tambaye ni game da kayayyaki, ayyuka ko taimakon fasaha...",
+    "yourFullName": "Cikakken sunanku",
+    "yourEmail": "naku@kamfani.com",
+    "yourPhone": "+91-XXXXX-XXXXX",
+    "yourRole": "Matsayinku/mukaminku",
+    "yourCompanyName": "Sunan kamfaninku",
+    "briefProjectTitle": "Taƙaicen taken aikinku"
+  },
+  "projectCategories": {
+    "Power Plant": "Gidajen Wutar Lantarki",
+    "Manufacturing": "Masana'anta",
+    "Solar": "Hasken Rana",
+    "Water Treatment": "Tsaftace Ruwa"
+  },
+  "steps": {
+    "projectTypeIndustry": "Nau'in aikin da masana'anta",
+    "projectSpecifications": "Takaitaccen bayanin aikin",
+    "requirementsFeatures": "Buƙatu da abubuwa",
+    "additionalInformation": "Ƙarin bayani"
+  },
+  "altTexts": {
+    "companyLogo": "Alamar Powerton Engineering Pvt. Ltd.",
+    "contactCenterBackground": "Bangon cibiyar sadarwa da ofishin tallafi na abokan ciniki na kamfanin injiniya",
+    "aboutCompanyFacility": "Wurin sarrafa masana'antu na Powerton Engineering da zamani na tsarin sarrafawa",
+    "officeLocation": "Wurin ofishin Powerton Engineering"
+  },
+  "sitemap": {
+    "sections": {
+      "mainPages": "Manyan shafuka",
+      "servicesProjects": "Ayyuka da ayyuka", 
+      "productCategories": "Rukkunan kayayyaki",
+      "resourcesTools": "Albarkatu da kayan aiki",
+      "legalInformation": "Bayanan doka"
+    },
+    "categories": {
+      "automationControl": "Tsarin sarrafa ta atomatik da sarrafawa",
+      "bldcMotors": "Tsarin injunan BLDC",
+      "electricalComponents": "Kayan aikin lantarki",
+      "measurementInstrumentation": "Auna da kayan aikin auna",
+      "industrialTools": "Kayan aikin masana'antu da kayan aiki",
+      "pumpsFluid": "Famfo da tsarin ruwa",
+      "solarRenewable": "Makamashin rana da madadin",
+      "safetyProtection": "Aminci da kariya",
+      "structuralMounting": "Tsari da ɗorawa",
+      "networkCommunication": "Cibiya da sadarwa"
+    },
+    "pages": {
+      "home": "Gida",
+      "aboutUs": "Game da mu",
+      "contact": "Sadarwa",
+      "gallery": "Hotunan",
+      "ourServices": "Ayyukanmu",
+      "serviceDetails": "Cikakkun bayanin sabis",
+      "projects": "Ayyuka",
+      "allProducts": "Duk kayayyaki",
+      "requestQuote": "Nemi farashin",
+      "downloadPortfolio": "Sauke ayyuka",
+      "newsUpdates": "Labarai da sabuntawa",
+      "newsArticles": "Labaran labarai",
+      "termsOfService": "Sharuɗɗan sabis",
+      "sitemap": "Taswira shafin"
+    },
+    "descriptions": {
+      "home": "Maraba da Powerton Engineering - Hanyoyin sarrafa masana'antu ta atomatik",
+      "aboutUs": "Koyi game da kamfaninmu, manufa da ƙwarewa",
+      "contact": "Tuntubi ƙungiyar injiniyanmu",
+      "gallery": "Duba hotunan ayyukanmu da shigarwa",
+      "ourServices": "Sabis na sarrafa masana'antu ta atomatik da injiniyan lantarki",
+      "serviceDetails": "Cikakkun bayanai game da takamaiman ayyuka",
+      "projects": "Jerin ayyukan sarrafa masana'antu ta atomatik da aka kammala",
+      "allProducts": "Cikakken jerin kayayyakin sarrafa masana'antu ta atomatik",
+      "requestQuote": "Sami cikakken farashin aikinku",
+      "downloadPortfolio": "Sauke jerin ayyuka da takaddun",
+      "newsUpdates": "Sabbin labarai da sabuntawar kamfani",
+      "newsArticles": "Labaran labarai da sabuntawa ɗaya-ɗaya",
+      "termsOfService": "Sharuɗɗa da yanayin amfani da ayyukanmu",
+      "sitemap": "Cikakken jagoran shafin da tsarin shafi"
+    }
+  },
+  "company": {
+    "name": "Powerton Engineering Pvt. Ltd.",
+    "tagline": "Abokin hulɗarku na aminci a cikin sarrafa masana'antu da injiniyan lantarki",
+    "phone": "+91-94627-71662",
+    "email": "info@powertonengineering.com",
+    "address": {
+      "street": "Bene na biyu, F-25, Ginin F, Yanki 6",
+      "city": "Noida",
+      "state": "Uttar Pradesh",
+      "pincode": "201301",
+      "landmark": "metro mafi kusa-Yanki 15",
+      "full": "Bene na biyu, F-25, Ginin F, Yanki 6, Noida, Uttar Pradesh 201301, Indiya"
+    },
+    "businessHours": {
+      "weekdays": "Litinin - Asabar: 9:00 Safiya - 6:00 Yamma",
+      "sunday": "Lahadi: Tallafin Gaggawa Kawai"
+    },
+    "stats": {
+      "projectsCompleted": "500+",
+      "clientsServed": "200+",
+      "yearsExperience": "15+",
+      "responseTime": "awanni 2"
+    }
+  },
+  "buttons": {
+    "getQuote": "Samu Adadi",
+    "callNow": "Kira Yanzu",
+    "emailUs": "Aika Sakon Imel",
+    "learnMore": "Koyi Kara",
+    "viewMore": "Duba Kara",
+    "viewAll": "Duba Duka",
+    "contactUs": "Tuntube Mu",
+    "getStarted": "Fara",
+    "downloadBrochure": "Sauke Littafi"
+  },
+  "labels": {
+    "businessHours": "Lokuttan Kasuwanci",
+    "mondayToSaturday": "Litinin - Asabar",
+    "workingHours": "9:00 Safiya - 6:00 Yamma",
+    "sunday": "Lahadi",
+    "emergencySupport": "Tallafin Gaggawa Kawai"
+  },
+  "altTexts": {
+    "companyLogo": "Alamar Powerton Engineering Pvt. Ltd."
+  },
+  "messages": {
+    "toggleTheme": "Canza Jigo",
+    "close": "Rufe"
+  },
+  "clients": {
+    "sci-group": "Kamfanin Jiragen Ruwa na Indiya",
+    "agribio": "AgriBio Jamus",
+    "motherson": "Ƙungiyar Motherson",
+    "praj": "Masana'antu Praj",
+    "thermax": "Thermax Limited",
+    "ankur": "Fasahar Makamashi na Kimiyya na Ankur",
+    "dls": "DLS Indiya",
+    "boudh": "Masana'ar Barasa ta Boudh",
+    "lokmangal": "Ƙungiyar Lokmangal",
+    "marcuras": "Sarrafa Ruwa ta Marcuras",
+    "nv-group": "Ƙungiyar NV",
+    "anand-nv": "Anand NV",
+    "dhanuka": "Dhanuka Agritech",
+    "mjson": "MJSON",
+    "procient": "Procient"
+  },
+  "copyright": {
+    "text": "© {{year}} Powerton Engineering Pvt. Ltd. Dukkan haƙƙoƙin an kiyaye su.",
+    "madeWith": "An yi shi da 💙 ta ƙungiyar Powerton Engineering"
+  },
+  "seo": {
+    "defaultTitle": "Powerton Engineering Pvt. Ltd. - Allunan sarrafa masana'antu da hanyoyin sarrafa ta atomatik",
+    "defaultDescription": "Babban mai kera allunan sarrafa wutar lantarki, tsarin sarrafa masana'antu ta atomatik da hanyoyin kayan aikin auna. Yin sabis ga masana'antu a duk India da ingantattun kayayyakin injiniya da ayyuka.",
+    "defaultKeywords": "allunan sarrafa wutar lantarki, sarrafa masana'antu ta atomatik, cibiyar sarrafa wutar lantarki, cibiyar sarrafa injina, kayan aikin auna, injiniyan wutar lantarki, India",
+    "companyName": "Powerton Engineering Pvt. Ltd.",
+    "companyDescription": "Babban mai kera allunan sarrafa wutar lantarki da hanyoyin sarrafa masana'antu ta atomatik",
+    "siteName": "Powerton Engineering",
+    "twitterHandle": "@powertoneng",
+    "businessAddress": {
+      "street": "Bene na 2, F-25, F Block, Sashe 6",
+      "city": "Noida", 
+      "state": "Uttar Pradesh",
+      "postal": "201301",
+      "country": "India"
+    },
+    "contact": {
+      "phone": "+91-94627-71662",
+      "email": "info@powertonengineering.com"
+    },
+    "businessInfo": {
+      "industry": "Sarrafa masana'antu ta atomatik, Injiniyan wutar lantarki, Kayan aikin auna",
+      "category": "Ayyukan injiniya, Hanyoyin sarrafa ta atomatik, Tsarin wutar lantarki",
+      "targetAudience": "Injiniyoyin masana'antu, Manajoji na masana'a, Kwararrun sarrafa ta atomatik",
+      "companyType": "Mai bayar da hanyoyin injiniya B2B",
+      "serviceArea": "India, Sabis na duk India"
+    }
+  }
+}

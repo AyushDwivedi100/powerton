@@ -1,0 +1,411 @@
+{
+  "buttons": {
+    "learnMore": "了解更多",
+    "getQuote": "获取报价",
+    "contact": "联系我们",
+    "contactUs": "联系我们",
+    "viewAll": "查看全部",
+    "readMore": "阅读更多",
+    "viewDetails": "查看详情",
+    "download": "下载",
+    "downloadCatalog": "下载目录",
+    "downloadBrochure": "下载手册",
+    "downloadGuide": "下载指南",
+    "downloadDatasheet": "下载数据表",
+    "downloadPortfolio": "下载作品集",
+    "requestQuote": "请求报价",
+    "showMore": "显示更多",
+    "showFilters": "显示过滤器",
+    "hideFilters": "隐藏过滤器",
+    "upload": "上传",
+    "expertTeam": "专家团队",
+    "successfulProjects": "成功项目",
+    "qualityProducts": "优质产品"
+  },
+  "loading": "正在加载...",
+  "error": "出了点问题",
+  "success": "成功！",
+  "messages": {
+    "toggleTheme": "切换主题",
+    "close": "关闭",
+    "imageNotFound": "未找到图片",
+    "loading": "正在加载...",
+    "error": "发生错误"
+  },
+  "navigation": {
+    "backToInstrumentationComponents": "返回仪表组件"
+  },
+  "aria": {
+    "toggleNavigation": "切换导航助手",
+    "openLocation": "在Google地图中打开办公地点",
+    "exploreServices": "探索我们的工业自动化和工程服务",
+    "requestConsultation": "为您的工程项目申请免费咨询",
+    "companyHighlights": "公司主要亮点和服务",
+    "performanceStats": "公司业绩统计",
+    "previousTestimonial": "上一个推荐",
+    "nextTestimonial": "下一个推荐",
+    "mainNavigation": "主导航",
+    "companyInfo": "公司信息和网站导航",
+    "goToHomepage": "前往Powerton工程主页",
+    "followLinkedIn": "在LinkedIn上关注Powerton工程",
+    "followFacebook": "在Facebook上关注Powerton工程",
+    "servicesNavigation": "服务导航",
+    "productsNavigation": "产品导航",
+    "callCompany": "致电Powerton工程",
+    "emailCompany": "给Powerton工程发邮件",
+    "viewOfficeLocation": "在Google地图上查看Powerton工程办公地点",
+    "officeLocationTitle": "Powerton工程办公地点",
+    "controllerSystems": "控制器和记录仪",
+    "controllerDescription": "用于工业控制的过程控制器和数据记录系统",
+    "plcSystems": "PLC系统",
+    "processControllers": "过程控制器",
+    "dataLoggers": "数据记录仪",
+    "controlPanels": "控制面板",
+    "switchesIndicators": "开关和指示器",
+    "switchesDescription": "工业开关、指示器和信号设备",
+    "pushbuttonSwitches": "按钮开关",
+    "selectorSwitches": "选择开关",
+    "indicatorLights": "指示灯",
+    "emergencyStops": "紧急停止",
+    "valvesActuators": "阀门和执行器",
+    "valvesDescription": "用于过程控制系统的控制阀和执行器",
+    "controlValves": "控制阀",
+    "pneumaticActuators": "气动执行器",
+    "electricActuators": "电动执行器",
+    "valvePositioners": "阀门定位器"
+  },
+  "badges": {
+    "energyEfficient": "节能高效",
+    "smartControl": "智能控制",
+    "silentOperation": "静音运行",
+    "longLife": "使用寿命长",
+    "highPerformance": "高性能",
+    "ecoFriendly": "环保",
+    "costEffective": "成本效益",
+    "premiumQuality": "优质品质",
+    "industrialGrade": "工业级",
+    "certified": "认证",
+    "warrantyIncluded": "包含保修",
+    "fastDelivery": "快速交付"
+  },
+  "headings": {
+    "bldcCeilingFanModels": "BLDC吊扇型号",
+    "ourProducts": "我们的产品",
+    "specifications": "规格参数",
+    "keyFeatures": "主要特性",
+    "technicalDetails": "技术细节",
+    "availableModels": "可用型号",
+    "productOverview": "产品概述",
+    "relatedProducts": "相关产品"
+  },
+  "chatbot": {
+    "welcome": "欢迎来到Powerton工程！今天我可以为您做些什么？",
+    "typeMessage": "输入您的消息...",
+    "sendMessage": "发送消息",
+    "openChat": "打开聊天",
+    "closeChat": "关闭聊天",
+    "typing": "正在输入...",
+    "defaultOptions": {
+      "products": "产品和目录",
+      "services": "我们的服务",
+      "contact": "联系信息",
+      "quote": "申请报价",
+      "support": "技术支持"
+    },
+    "responses": {
+      "products": "我们提供全面的工业自动化产品、电气元件、仪表、太阳能系统等。您在寻找哪些特定产品？",
+      "services": "我们的服务包括安装、维护、校准、技术支持和定制解决方案。您对哪项服务感兴趣？",
+      "contact": "您可以拨打+91-9911315121联系我们，或发送邮件至info@powertonengineering.com。我们的办公室位于印度德里。",
+      "quote": "我很乐意帮您获取报价！请访问我们的报价页面或向我提供您的需求。",
+      "support": "我们的技术支持团队随时为您提供帮助！请描述您的技术问题或需求。"
+    }
+  },
+  "aria": {
+    "analyzers": "分析仪",
+    "analyzersDescription": "用于质量控制的气体、液体和过程分析仪",
+    "gasAnalyzers": "气体分析仪",
+    "liquidAnalyzers": "液体分析仪",
+    "processAnalyzers": "过程分析仪",
+    "multiParameterSystems": "多参数系统",
+    "signalConditioners": "信号调节器",
+    "signalConditionersDescription": "用于测量系统的信号处理和调节设备",
+    "isolationAmplifiers": "隔离放大器",
+    "signalConverters": "信号转换器",
+    "measuringTransducers": "测量传感器",
+    "noiseFilters": "噪声滤波器"
+  },
+  "seo": {
+    "days": {
+      "monday": "星期一",
+      "tuesday": "星期二",
+      "wednesday": "星期三",
+      "thursday": "星期四",
+      "friday": "星期五",
+      "saturday": "星期六",
+      "sunday": "星期日"
+    },
+    "schemaTypes": {
+      "breadcrumbList": "面包屑列表",
+      "listItem": "列表项",
+      "faqPage": "常见问题页面",
+      "question": "问题",
+      "answer": "答案",
+      "itemList": "项目列表",
+      "service": "服务",
+      "localBusiness": "本地企业",
+      "openingHours": "营业时间规范"
+    }
+  },
+  "labels": {
+    "responseTime": "响应时间",
+    "availability": "可用性",
+    "coverage": "覆盖范围",
+    "technologies": "技术",
+    "parameters": "参数",
+    "specifications": "规格",
+    "applications": "应用",
+    "industries": "行业",
+    "keyFeatures": "主要特点",
+    "includes": "包含",
+    "projectType": "项目类型",
+    "industry": "行业",
+    "projectSize": "项目规模",
+    "timeline": "时间安排",
+    "location": "地点",
+    "budget": "预算",
+    "requirements": "需求",
+    "category": "类别",
+    "status": "状态"
+  },
+  "buttons": {
+    "downloadPortfolio": "下载作品集",
+    "showFilters": "显示过滤器"
+  },
+  "keyFeatures": "主要特点",
+  "requestQuote": "请求报价",
+  "messages": {
+    "serviceNotFound": "服务未找到",
+    "readyToStart": "准备开始了吗？",
+    "consultation": "联系我们进行详细咨询和定制解决方案。",
+    "availability": "周一至周六，提供紧急支持",
+    "coverage": "全印度服务覆盖",
+    "needHelp": "需要帮助查找什么吗？",
+    "cantFind": "找不到您要找的内容？直接联系我们或使用每个页面上都有的智能聊天机器人。"
+  },
+  "placeholders": {
+    "selectProjectType": "选择项目类型",
+    "selectIndustry": "选择行业",
+    "selectProjectSize": "选择项目规模",
+    "selectTimeline": "选择时间安排",
+    "projectTimeline": "项目时间安排",
+    "selectBudgetRange": "选择预算范围（可选）",
+    "cityState": "城市，州",
+    "describeExisting": "描述任何现有系统或基础设施...",
+    "searchProjects": "搜索项目、客户或技术...",
+    "selectIndustryFilter": "选择行业",
+    "selectCategory": "选择类别",
+    "selectStatus": "选择状态",
+    "askChatbot": "询问我有关产品、服务或技术帮助...",
+    "yourFullName": "您的全名",
+    "yourEmail": "您的@公司.com",
+    "yourPhone": "+91-XXXXX-XXXXX",
+    "yourRole": "您的角色/职位",
+    "yourCompanyName": "您的公司名称",
+    "briefProjectTitle": "您项目的简要标题"
+  },
+  "projectCategories": {
+    "Power Plant": "发电厂",
+    "Manufacturing": "制造业",
+    "Solar": "太阳能",
+    "Water Treatment": "水处理"
+  },
+  "steps": {
+    "projectTypeIndustry": "项目类型和行业",
+    "projectSpecifications": "项目规格",
+    "requirementsFeatures": "需求和功能",
+    "additionalInformation": "附加信息"
+  },
+  "altTexts": {
+    "companyLogo": "Powerton Engineering私人有限公司标志",
+    "contactCenterBackground": "工程公司联系中心和客户支持办公室背景",
+    "aboutCompanyFacility": "Powerton Engineering工业自动化设施配备现代控制系统",
+    "officeLocation": "Powerton Engineering办公地点"
+  },
+  "chatbot": {
+    "welcomeMessage": "您好！我是Powerton Engineering的技术顾问。我在这里帮助您为您的项目找到合适的工业自动化解决方案。",
+    "fallbackMessage": "如需详细帮助，请致电+91-94627-71662联系我们的团队或发送邮件至info@powertonengineering.com",
+    "options": {
+      "findProduct": "🔍 找到合适的产品",
+      "chooseService": "⚙️ 选择服务",
+      "troubleshooting": "🔧 技术故障排除",
+      "aboutCompany": "💼 关于我们公司",
+      "sensorsCategory": "🌡️ 传感器和测量",
+      "electricalCategory": "⚡ 电气元件",
+      "automationCategory": "🔧 自动化系统",
+      "solarCategory": "☀️ 太阳能产品",
+      "safetyCategory": "🛡️ 安全与防护",
+      "installationService": "🔧 安装和调试",
+      "maintenanceService": "🛠️ 维护和修理",
+      "calibrationService": "📏 校准和测试",
+      "trainingService": "🎓 培训和咨询",
+      "solarService": "☀️ 太阳能EPC项目"
+    },
+    "responses": {
+      "productSelection": "太好了！让我帮您找到完美的工业自动化产品。",
+      "serviceSelection": "优秀！在Powerton Engineering，我们提供全面的服务来支持您的整个项目生命周期。",
+      "troubleshootingMain": "我来帮助您解决任何技术问题。",
+      "companyInfo": "我很荣幸代表Powerton Engineering私人有限公司！我们是您值得信赖的合作伙伴，在工业自动化方面拥有十多年的经验。",
+      "sensorsCategory": "完美的选择！我们的传感器产品组合包括用于温度、压力、流量和液位测量的精密仪器。"
+    }
+  },
+  "sitemap": {
+    "sections": {
+      "mainPages": "主要页面",
+      "servicesProjects": "服务和项目", 
+      "productCategories": "产品类别",
+      "resourcesTools": "资源和工具",
+      "legalInformation": "法律信息"
+    },
+    "categories": {
+      "automationControl": "自动化和控制系统",
+      "bldcMotors": "BLDC电机系统",
+      "electricalComponents": "电气元件",
+      "measurementInstrumentation": "测量和仪表",
+      "industrialTools": "工业工具和设备",
+      "pumpsFluid": "泵和流体系统",
+      "solarRenewable": "太阳能和可再生能源",
+      "safetyProtection": "安全和保护",
+      "structuralMounting": "结构和安装",
+      "networkCommunication": "网络和通信"
+    },
+    "pages": {
+      "home": "首页",
+      "aboutUs": "关于我们",
+      "contact": "联系我们",
+      "gallery": "图库",
+      "ourServices": "我们的服务",
+      "serviceDetails": "服务详情",
+      "projects": "项目",
+      "allProducts": "所有产品",
+      "requestQuote": "请求报价",
+      "downloadPortfolio": "下载作品集",
+      "newsUpdates": "新闻和更新",
+      "newsArticles": "新闻文章",
+      "termsOfService": "服务条款",
+      "sitemap": "网站地图"
+    },
+    "descriptions": {
+      "home": "欢迎来到Powerton Engineering - 工业自动化解决方案",
+      "aboutUs": "了解我们的公司、使命和专业知识",
+      "contact": "联系我们的工程团队",
+      "gallery": "查看我们的项目图库和安装",
+      "ourServices": "工业自动化和电气工程服务",
+      "serviceDetails": "特定服务的详细信息",
+      "projects": "已完成工业自动化项目的作品集",
+      "allProducts": "工业自动化产品的完整目录",
+      "requestQuote": "获取您项目的详细报价",
+      "downloadPortfolio": "下载项目作品集和文档",
+      "newsUpdates": "最新新闻和公司更新",
+      "newsArticles": "个别新闻文章和更新",
+      "termsOfService": "使用我们服务的条款和条件",
+      "sitemap": "完整的网站导航和页面结构"
+    }
+  },
+  "company": {
+    "name": "Powerton Engineering Pvt. Ltd.",
+    "tagline": "您在工业自动化和电气工程领域的可信合作伙伴",
+    "phone": "+91-94627-71662",
+    "email": "info@powertonengineering.com",
+    "address": {
+      "street": "二楼，F-25，F 区，第6扇区",
+      "city": "诺伊达",
+      "state": "北方邦",
+      "pincode": "201301",
+      "landmark": "最近的地铁站-第15扇区",
+      "full": "二楼，F-25，F 区，第6扇区，诺伊达，北方邦 201301，印度"
+    },
+    "businessHours": {
+      "weekdays": "周一至周六：上午9:00 - 下午6:00",
+      "sunday": "周日：仅紧急支持"
+    },
+    "stats": {
+      "projectsCompleted": "500+",
+      "clientsServed": "200+",
+      "yearsExperience": "15+",
+      "responseTime": "2小时"
+    }
+  },
+  "buttons": {
+    "getQuote": "获取报价",
+    "callNow": "立即致电",
+    "emailUs": "给我们发邮件",
+    "learnMore": "了解更多",
+    "viewMore": "查看更多",
+    "viewAll": "查看全部",
+    "contactUs": "联系我们",
+    "getStarted": "开始",
+    "downloadBrochure": "下载手册"
+  },
+  "labels": {
+    "businessHours": "营业时间",
+    "mondayToSaturday": "周一 - 周六",
+    "workingHours": "上午9:00 - 下午6:00",
+    "sunday": "周日",
+    "emergencySupport": "仅紧急支持"
+  },
+  "altTexts": {
+    "companyLogo": "Powerton Engineering私人有限公司标志"
+  },
+  "messages": {
+    "toggleTheme": "切换主题",
+    "close": "关闭"
+  },
+  "clients": {
+    "sci-group": "印度航运公司",
+    "agribio": "德国农业生物公司",
+    "motherson": "母子集团",
+    "praj": "普拉吉工业",
+    "thermax": "泰韩马克斯有限公司",
+    "ankur": "安库尔科学能源技术",
+    "dls": "DLS印度",
+    "boudh": "博德酿酒厂",
+    "lokmangal": "洛克曼加尔集团",
+    "marcuras": "马库拉斯水处理",
+    "nv-group": "NV集团",
+    "anand-nv": "阿南德NV",
+    "dhanuka": "达努卡农业科技",
+    "mjson": "MJSON",
+    "procient": "普罗西恩特"
+  },
+  "copyright": {
+    "text": "© {{year}} Powerton Engineering Pvt. Ltd. 版权所有。",
+    "madeWith": "由 Powerton Engineering 团队 💙 制作"
+  },
+  "seo": {
+    "defaultTitle": "Powerton Engineering私人有限公司 - 工业控制面板和自动化解决方案",
+    "defaultDescription": "电气控制面板、工业自动化系统和仪表解决方案的领先制造商。在印度为各行业提供优质工程产品和服务。",
+    "defaultKeywords": "电气控制面板，工业自动化，电源控制中心，电机控制中心，仪表，电气工程，印度",
+    "companyName": "Powerton Engineering私人有限公司",
+    "companyDescription": "电气控制面板和工业自动化解决方案的领先制造商",
+    "siteName": "Powerton Engineering",
+    "twitterHandle": "@powertoneng",
+    "businessAddress": {
+      "street": "二楼，F-25，F座，第6区",
+      "city": "诺伊达", 
+      "state": "北方邦",
+      "postal": "201301",
+      "country": "印度"
+    },
+    "contact": {
+      "phone": "+91-94627-71662",
+      "email": "info@powertonengineering.com"
+    },
+    "businessInfo": {
+      "industry": "工业自动化，电气工程，仪表",
+      "category": "工程服务，自动化解决方案，电气系统",
+      "targetAudience": "工业工程师，工厂经理，自动化专业人员",
+      "companyType": "B2B工程解决方案提供商",
+      "serviceArea": "印度，全印度服务"
+    }
+  }
+}

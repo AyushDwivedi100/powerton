@@ -1,0 +1,155 @@
+{
+  "title": "Nuestros Productos",
+  "subtitle": "Automatización Industrial y Componentes Eléctricos",
+  "categories": {
+    "automation": "Automatización y Control",
+    "electrical": "Componentes Eléctricos",
+    "instrumentation": "Instrumentación",
+    "solar": "Productos Solares",
+    "motors": "Sistemas de Motores BLDC",
+    "pumps": "Bombas y Motores",
+    "safety": "Equipos de Seguridad",
+    "tools": "Herramientas Industriales"
+  },
+  "filters": {
+    "all": "Todos",
+    "category": "Categoría",
+    "industry": "Industria",
+    "status": "Estado"
+  },
+  "status": {
+    "available": "Disponible",
+    "outOfStock": "Agotado",
+    "discontinued": "Descontinuado"
+  },
+  "productPages": {
+    "analyzers": {
+      "title": "Analizadores de Procesos",
+      "subtitle": "Instrumentos analíticos avanzados para monitoreo de procesos"
+    },
+    "automationControl": {
+      "title": "Sistemas de Automatización y Control",
+      "subtitle": "Soluciones avanzadas de automatización y control para gestión y optimización de procesos industriales"
+    },
+    "bldcCeilingFan": {
+      "title": "Ventiladores de Techo BLDC",
+      "subtitle": "Ventiladores de techo de corriente continua sin escobillas eficientes en energía con características inteligentes y rendimiento superior"
+    },
+    "bldcCoolerExhaust": {
+      "title": "Motores BLDC para Enfriadores y Extracción",
+      "subtitle": "Motores BLDC eficientes en energía para aplicaciones de enfriamiento, ventilación y extracción"
+    },
+    "bldcSubmersible": {
+      "title": "Bombas BLDC Sumergibles y de Superficie",
+      "subtitle": "Bombas BLDC eficientes en energía para suministro de agua, riego y aplicaciones solares"
+    },
+    "bldcTableWall": {
+      "title": "Motores BLDC para Ventiladores de Mesa y Pared",
+      "subtitle": "Motores BLDC eficientes en energía para ventiladores de mesa, pared y de pedestal"
+    },
+    "bldc": {
+      "title": "Productos BLDC",
+      "subtitle": "Productos de motores de corriente continua sin escobillas para aplicaciones eficientes de enfriamiento, ventilación y bombeo"
+    },
+    "cables": {
+      "title": "Cables y Alambres",
+      "subtitle": "Soluciones de cables y cableado industriales para aplicaciones de energía y control"
+    },
+    "calibration": {
+      "title": "Equipos de Calibración",
+      "subtitle": "Instrumentos de calibración de precisión y equipos de prueba"
+    },
+    "centrifugalPumps": {
+      "title": "Bombas Centrífugas",
+      "subtitle": "Bombas centrífugas de alta eficiencia para aplicaciones industriales"
+    },
+    "circuitBreakers": {
+      "title": "Interruptores Automáticos y Fusibles",
+      "subtitle": "Dispositivos de protección eléctrica para seguridad de circuitos"
+    },
+    "connectors": {
+      "title": "Conectores y Terminales",
+      "subtitle": "Conectores eléctricos y soluciones de terminales"
+    }
+  },
+  "items": {
+    "instrumentation-components": "Componentes de Instrumentación",
+    "electrical-components": "Componentes Eléctricos",
+    "measurement-instruments": "Instrumentos de Medición",
+    "solar-products": "Productos Solares",
+    "automation-control-systems": "Sistemas de Automatización y Control",
+    "safety-protective-devices": "Dispositivos de Seguridad y Protección",
+    "mechanical-pumps-spares": "Bombas Mecánicas y Repuestos",
+    "industrial-tools-tackles": "Herramientas y Equipos Industriales",
+    "bldc": "Productos BLDC"
+  },
+  "features": {
+    "common": {
+      "highTorque": "Alto Torque",
+      "variableSpeed": "Velocidad Variable",
+      "cordlessOptions": "Opciones Inalámbricas",
+      "chuckCapacity": "Capacidad del Mandril: 13mm",
+      "multipleSizes": "Múltiples Tamaños",
+      "safetyGuards": "Protecciones de Seguridad",
+      "antiVibration": "Anti-Vibración",
+      "powerfulMotors": "Motores Potentes",
+      "highImpactForce": "Fuerza de Impacto Alta",
+      "socketCompatibility": "Compatibilidad con Llaves",
+      "forwardReverse": "Avance/Retroceso",
+      "batteryPowered": "Alimentado por Batería",
+      "efficientSwitching": "Entrada 85-265V AC",
+      "dcOutput": "Salida 12V/24V DC",
+      "highEfficiency": "Alta Eficiencia",
+      "compactDesign": "Diseño Compacto",
+      "dinRailMount": "Montaje en Riel DIN",
+      "wideInputRange": "Amplio Rango de Entrada",
+      "shortCircuitProtection": "Protección contra Cortocircuito",
+      "ledStatus": "Estado LED",
+      "batteryBackup": "Respaldo de Batería",
+      "surgeProtection": "Protección contra Sobretensión",
+      "autoTransfer": "Transferencia Automática",
+      "lcdDisplay": "Pantalla LCD"
+    }
+  },
+  "locations": {
+    "delhiNcr": "Delhi NCR",
+    "rajasthan": "Rajastán",
+    "uttarPradesh": "Uttar Pradesh",
+    "gujarat": "Gujarat",
+    "maharashtra": "Maharashtra",
+    "haryana": "Haryana",
+    "westBengal": "Bengala Occidental"
+  },
+  "brands": {
+    "customBuilt": "Construcción Personalizada",
+    "fluke": "Fluke, Keysight",
+    "siemens": "Siemens, Allen Bradley",
+    "abb": "ABB, Schneider",
+    "honeywell": "Honeywell, Yokogawa",
+    "wonderware": "Wonderware, iFIX",
+    "grundfos": "Grundfos, KSB",
+    "3m": "3M, MSA"
+  },
+  "items": {
+    "solar-products": "Productos Solares",
+    "automation-control-systems": "Sistemas de Automatización y Control",
+    "safety-protective-devices": "Dispositivos de Seguridad y Protección",
+    "mechanical-pumps-spares": "Bombas Mecánicas y Repuestos",
+    "industrial-tools-tackles": "Herramientas y Equipos Industriales",
+    "bldc": "BLDC",
+    "instrumentation-components": "Componentes de Instrumentación",
+    "electrical-components": "Componentes Eléctricos",
+    "measurement-instruments": "Instrumentos de Medición"
+  },
+  "tags": {
+    "industrialAutomation": "Automatización Industrial",
+    "plcSystems": "Sistemas PLC",
+    "scada": "SCADA",
+    "manufacturing": "Manufactura",
+    "processOptimization": "Optimización de Procesos"
+  },
+  "gallery": {
+    "imagePlaceholder": "Marcador de posición de imagen",
+    "actualImages": "Las imágenes reales serán subidas"
+  }
+}
