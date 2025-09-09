@@ -132,11 +132,23 @@ export default function Footer() {
               </h4>
             </Link>
             <ul className="space-y-3 text-slate-300 dark:text-slate-400" role="list">
-              <li className="flex items-center" role="listitem">
-                <Phone className="w-5 h-5 mr-3 text-orange-400 flex-shrink-0" aria-hidden="true" />
-                <a href={`tel:${companyInfo.phone}`} className="hover:text-orange-400 transition-colors" itemProp="telephone" aria-label="Call Powerton Engineering">
-                  {companyInfo.phone}
-                </a>
+              <li className="space-y-2" role="listitem">
+                <div className="flex items-center">
+                  <Phone className="w-5 h-5 mr-3 text-orange-400 flex-shrink-0" aria-hidden="true" />
+                  <span className="text-slate-100 font-medium">Phone Numbers</span>
+                </div>
+                <div className="ml-8 space-y-1">
+                  <div>
+                    <a href={`tel:${COMPANY_INFO.phoneNumbers.primary}`} className="hover:text-orange-400 transition-colors block" itemProp="telephone" aria-label="Call Powerton Engineering - Primary">
+                      {COMPANY_INFO.phoneNumbers.primary}
+                    </a>
+                  </div>
+                  <div>
+                    <a href={`tel:${COMPANY_INFO.phoneNumbers.secondary}`} className="hover:text-orange-400 transition-colors block" itemProp="telephone" aria-label="Call Powerton Engineering - Secondary">
+                      {COMPANY_INFO.phoneNumbers.secondary}
+                    </a>
+                  </div>
+                </div>
               </li>
               <li className="flex items-center" role="listitem">
                 <Mail className="w-5 h-5 mr-3 text-orange-400 flex-shrink-0" aria-hidden="true" />

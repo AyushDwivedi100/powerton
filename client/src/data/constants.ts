@@ -10,6 +10,11 @@ export const COMPANY_INFO = {
   name: "Powerton Engineering Pvt. Ltd.",
   tagline: "Your trusted partner in industrial automation and electrical engineering",
   phone: "+91-94627-71662 / +91-82997-27291",
+  phoneNumbers: {
+    primary: "+91-94627-71662",
+    secondary: "+91-82997-27291",
+    combined: "+91-94627-71662 / +91-82997-27291"
+  },
   email: "info@powertonengineering.com",
   address: {
     street: "F-25, F Block, Sector 6",

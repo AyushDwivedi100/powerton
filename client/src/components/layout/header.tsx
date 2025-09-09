@@ -128,25 +128,39 @@ export default function Header() {
               },
             }}
           >
-            <motion.a
-              href={`tel:${COMPANY_INFO.phone}`}
-              className="flex items-center hover:text-secondary transition-colors hover-scale shrink-0"
-              aria-label={`Call us at ${COMPANY_INFO.phone}`}
+            <motion.div
+              className="flex items-center gap-2 md:gap-3"
               variants={{
                 hidden: { opacity: 0, x: -20 },
                 visible: { opacity: 1, x: 0 },
               }}
-              whileHover={{ scale: 1.05 }}
-              transition={{ duration: 0.2 }}
             >
-              <Phone
-                className="w-4 h-4 sm:w-5 sm:h-5 mr-1 text-secondary shrink-0"
-                aria-hidden="true"
-              />
-              <span className="whitespace-nowrap">
-                {COMPANY_INFO.phone}
-              </span>
-            </motion.a>
+              <motion.a
+                href={`tel:${COMPANY_INFO.phoneNumbers.primary}`}
+                className="flex items-center hover:text-secondary transition-colors hover-scale shrink-0"
+                aria-label={`Call us at ${COMPANY_INFO.phoneNumbers.primary}`}
+                whileHover={{ scale: 1.05 }}
+                transition={{ duration: 0.2 }}
+              >
+                <Phone className="w-4 h-4 sm:w-5 sm:h-5 mr-1 text-secondary shrink-0" aria-hidden="true" />
+                <span className="whitespace-nowrap text-sm md:text-base">
+                  {COMPANY_INFO.phoneNumbers.primary}
+                </span>
+              </motion.a>
+              
+              <motion.a
+                href={`tel:${COMPANY_INFO.phoneNumbers.secondary}`}
+                className="flex items-center hover:text-secondary transition-colors hover-scale shrink-0"
+                aria-label={`Call us at ${COMPANY_INFO.phoneNumbers.secondary}`}
+                whileHover={{ scale: 1.05 }}
+                transition={{ duration: 0.2 }}
+              >
+                <Phone className="w-4 h-4 sm:w-5 sm:h-5 mr-1 text-secondary shrink-0" aria-hidden="true" />
+                <span className="whitespace-nowrap text-sm md:text-base">
+                  {COMPANY_INFO.phoneNumbers.secondary}
+                </span>
+              </motion.a>
+            </motion.div>
             <motion.a
               href={`mailto:${COMPANY_INFO.email}`}
               className="flex items-center hover:text-secondary transition-colors hover-scale shrink-0"
