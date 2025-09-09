@@ -29,82 +29,7 @@ import {
 } from "@/hooks/use-scroll-animation";
 import { getHeroImage } from "@/assets/images";
 
-// Company news and updates data
-const LATEST_NEWS = [
-  {
-    id: 1,
-    title:
-      "Powerton Engineering Wins Excellence Award for Industrial Automation",
-    date: "2024-12-15",
-    category: "Awards",
-    excerpt:
-      "We are proud to announce that Powerton Engineering has been recognized with the 'Excellence in Industrial Automation' award by the Indian Engineering Society for our innovative solutions in process automation.",
-    image:
-      "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400",
-    tags: ["Award", "Recognition", "Automation"],
-    featured: true,
-  },
-  {
-    id: 2,
-    title: "Major Power Plant Automation Contract Secured with NTPC",
-    date: "2024-12-10",
-    category: "Business",
-    excerpt:
-      "Powerton Engineering has secured a significant contract worth ₹5 Crores with NTPC for the automation of their new thermal power plant in Gujarat, expected to be completed by Q3 2025.",
-    image:
-      "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400",
-    tags: ["Contract", "Power Plant", "NTPC"],
-    featured: true,
-  },
-  {
-    id: 3,
-    title: "Expansion into Renewable Energy Automation Solutions",
-    date: "2024-12-05",
-    category: "Company",
-    excerpt:
-      "As part of our strategic growth plan, we are expanding our services to include comprehensive automation solutions for solar and wind energy projects, targeting India's growing renewable energy sector.",
-    image:
-      "https://images.unsplash.com/photo-1509391366360-2e959784a276?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400",
-    tags: ["Renewable Energy", "Expansion", "Solar"],
-    featured: false,
-  },
-  {
-    id: 4,
-    title: "New State-of-the-Art R&D Facility Inaugurated in Noida",
-    date: "2024-11-28",
-    category: "Infrastructure",
-    excerpt:
-      "Our new 5,000 sq ft research and development facility in Noida has been inaugurated, equipped with the latest testing equipment and advanced automation laboratories for product development.",
-    image:
-      "https://images.unsplash.com/photo-1581094794329-c8112a89af12?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400",
-    tags: ["R&D", "Infrastructure", "Innovation"],
-    featured: false,
-  },
-  {
-    id: 5,
-    title: "Partnership with Leading European Automation Technology Provider",
-    date: "2024-11-20",
-    category: "Partnership",
-    excerpt:
-      "We have entered into a strategic partnership with a leading European automation technology provider to bring cutting-edge PLC and SCADA solutions to the Indian market.",
-    image:
-      "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400",
-    tags: ["Partnership", "Technology", "Europe"],
-    featured: false,
-  },
-  {
-    id: 6,
-    title: "ISO 9001:2015 Certification Achievement",
-    date: "2024-11-15",
-    category: "Quality",
-    excerpt:
-      "Powerton Engineering has successfully achieved ISO 9001:2015 certification, demonstrating our commitment to quality management systems and continuous improvement in all our processes.",
-    image:
-      "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400",
-    tags: ["ISO", "Quality", "Certification"],
-    featured: false,
-  },
-];
+// Company news and updates data - moved inside component
 
 const UPCOMING_PROJECTS = [
   {
@@ -239,6 +164,70 @@ export default function News() {
   const [selectedCategory, setSelectedCategory] = useState("all");
   const [selectedTab, setSelectedTab] = useState("news");
   const heroAnimation = useScrollAnimation();
+
+  // Move LATEST_NEWS inside component to access t function
+  const LATEST_NEWS = [
+    {
+      id: 1,
+      title: t('pages:news.latestNews.excellenceAward.title', 'Powerton Engineering Wins Excellence Award for Industrial Automation'),
+      date: "2024-12-15",
+      category: t('pages:news.latestNews.excellenceAward.category', 'Awards'),
+      excerpt: t('pages:news.latestNews.excellenceAward.excerpt', 'We are proud to announce that Powerton Engineering has been recognized with the \'Excellence in Industrial Automation\' award by the Indian Engineering Society for our innovative solutions in process automation.'),
+      image: "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400",
+      tags: [t('common:tags.award', 'Award'), t('common:tags.recognition', 'Recognition'), t('common:tags.automation', 'Automation')],
+      featured: true,
+    },
+    {
+      id: 2,
+      title: t('pages:news.latestNews.ntpcContract.title', 'Major Power Plant Automation Contract Secured with NTPC'),
+      date: "2024-12-10",
+      category: t('pages:news.latestNews.ntpcContract.category', 'Business'),
+      excerpt: t('pages:news.latestNews.ntpcContract.excerpt', 'Powerton Engineering has secured a significant contract worth ₹5 Crores with NTPC for the automation of their new thermal power plant in Gujarat, expected to be completed by Q3 2025.'),
+      image: "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400",
+      tags: [t('common:tags.contract', 'Contract'), t('common:tags.powerPlant', 'Power Plant'), t('common:tags.ntpc', 'NTPC')],
+      featured: true,
+    },
+    {
+      id: 3,
+      title: t('pages:news.latestNews.renewableExpansion.title', 'Expansion into Renewable Energy Automation Solutions'),
+      date: "2024-12-05",
+      category: t('pages:news.latestNews.renewableExpansion.category', 'Company'),
+      excerpt: t('pages:news.latestNews.renewableExpansion.excerpt', 'As part of our strategic growth plan, we are expanding our services to include comprehensive automation solutions for solar and wind energy projects, targeting India\'s growing renewable energy sector.'),
+      image: "https://images.unsplash.com/photo-1509391366360-2e959784a276?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400",
+      tags: [t('common:tags.renewableEnergy', 'Renewable Energy'), t('common:tags.expansion', 'Expansion'), t('common:tags.solar', 'Solar')],
+      featured: false,
+    },
+    {
+      id: 4,
+      title: "New State-of-the-Art R&D Facility Inaugurated in Noida",
+      date: "2024-11-28",
+      category: "Infrastructure",
+      excerpt: "Our new 5,000 sq ft research and development facility in Noida has been inaugurated, equipped with the latest testing equipment and advanced automation laboratories for product development.",
+      image: "https://images.unsplash.com/photo-1581094794329-c8112a89af12?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400",
+      tags: ["R&D", "Infrastructure", "Innovation"],
+      featured: false,
+    },
+    {
+      id: 5,
+      title: "Partnership with Leading European Automation Technology Provider",
+      date: "2024-11-20",
+      category: "Partnership",
+      excerpt: "We have entered into a strategic partnership with a leading European automation technology provider to bring cutting-edge PLC and SCADA solutions to the Indian market.",
+      image: "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400",
+      tags: ["Partnership", "Technology", "Europe"],
+      featured: false,
+    },
+    {
+      id: 6,
+      title: "ISO 9001:2015 Certification Achievement",
+      date: "2024-11-15",
+      category: "Quality",
+      excerpt: "Powerton Engineering has successfully achieved ISO 9001:2015 certification, demonstrating our commitment to quality management systems and continuous improvement in all our processes.",
+      image: "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400",
+      tags: ["ISO", "Quality", "Certification"],
+      featured: false,
+    },
+  ];
 
   const categories = [
     "all",

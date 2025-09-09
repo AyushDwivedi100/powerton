@@ -1,4 +1,5 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
 import { Link } from 'wouter';
 import { Button } from '@/components/ui/button';
@@ -9,34 +10,35 @@ import automationBgImage from '@assets/generated_images/Industrial_PLC_Control_P
 import { getHeroImage } from '@/assets/images';
 
 const AutomationControlSystems = () => {
+  const { t } = useTranslation(['products', 'common']);
   const subcategories = [
     {
       id: "plcs",
-      title: "PLCs (Programmable Logic Controllers)",
-      description: "Industrial automation controllers for process control",
+      title: t('products:subcategories.plcs.title', 'PLCs (Programmable Logic Controllers)'),
+      description: t('products:subcategories.plcs.description', 'Industrial automation controllers for process control'),
       icon: Cpu,
-      features: ["Digital I/O", "Analog Processing", "Communication Modules", "Programming Software"]
+      features: [t('products:features.digitalIO', 'Digital I/O'), t('products:features.analogProcessing', 'Analog Processing'), t('products:features.communicationModules', 'Communication Modules'), t('products:features.programmingSoftware', 'Programming Software')]
     },
     {
       id: "scada",
-      title: "SCADA Systems",
-      description: "Supervisory control and data acquisition systems",
+      title: t('products:subcategories.scada.title', 'SCADA Systems'),
+      description: t('products:subcategories.scada.description', 'Supervisory control and data acquisition systems'),
       icon: Monitor,
-      features: ["Real-time Monitoring", "Data Logging", "Alarm Management", "Remote Access"]
+      features: [t('products:features.realtimeMonitoring', 'Real-time Monitoring'), t('products:features.dataLogging', 'Data Logging'), t('products:features.alarmManagement', 'Alarm Management'), t('products:features.remoteAccess', 'Remote Access')]
     },
     {
       id: "dcs",
-      title: "DCS (Distributed Control Systems)",
-      description: "Distributed control systems for large-scale processes",
+      title: t('products:subcategories.dcs.title', 'DCS (Distributed Control Systems)'),
+      description: t('products:subcategories.dcs.description', 'Distributed control systems for large-scale processes'),
       icon: Database,
-      features: ["Process Control", "Distributed Architecture", "Redundancy", "Advanced Control"]
+      features: [t('products:features.processControl', 'Process Control'), t('products:features.distributedArchitecture', 'Distributed Architecture'), t('products:features.redundancy', 'Redundancy'), t('products:features.advancedControl', 'Advanced Control')]
     },
     {
       id: "hmi",
-      title: "HMI (Human Machine Interface)",
-      description: "User interfaces for industrial control systems",
+      title: t('products:subcategories.hmi.title', 'HMI (Human Machine Interface)'),
+      description: t('products:subcategories.hmi.description', 'User interfaces for industrial control systems'),
       icon: Settings,
-      features: ["Touchscreen Displays", "Graphic Interface", "Data Visualization", "Operator Control"]
+      features: [t('products:features.touchscreenDisplays', 'Touchscreen Displays'), t('products:features.graphicInterface', 'Graphic Interface'), t('products:features.dataVisualization', 'Data Visualization'), t('products:features.operatorControl', 'Operator Control')]
     }
   ];
 
@@ -57,20 +59,20 @@ const AutomationControlSystems = () => {
             <Link href="/products">
               <Button variant="ghost" className="mb-6 hover:bg-primary/10">
                 <ArrowLeft className="mr-2 h-4 w-4" />
-                Back to Products
+                {t('backToProducts', 'Back to Products')}
               </Button>
             </Link>
             <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
-              Automation & Control Systems
+              {t('products:automationControl.title', 'Automation & Control Systems')}
             </h1>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto mb-8">
-              Advanced automation and control solutions for industrial process management and optimization
+              {t('products:automationControl.subtitle', 'Advanced automation and control solutions for industrial process management and optimization')}
             </p>
             <div className="flex flex-wrap justify-center gap-2 mb-8">
-              <Badge variant="secondary">PLCs</Badge>
-              <Badge variant="secondary">SCADA</Badge>
-              <Badge variant="secondary">DCS</Badge>
-              <Badge variant="secondary">HMI</Badge>
+              <Badge variant="secondary">{t('products:badges.plcs', 'PLCs')}</Badge>
+              <Badge variant="secondary">{t('products:badges.scada', 'SCADA')}</Badge>
+              <Badge variant="secondary">{t('products:badges.dcs', 'DCS')}</Badge>
+              <Badge variant="secondary">{t('products:badges.hmi', 'HMI')}</Badge>
             </div>
           </div>
         </div>
@@ -79,7 +81,7 @@ const AutomationControlSystems = () => {
       {/* Subcategories Section */}
       <div className="py-16 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
         <h2 className="text-3xl font-bold text-foreground text-center mb-12">
-          Control System Solutions
+          {t('products:sections.controlSystemSolutions', 'Control System Solutions')}
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
           {subcategories.map((subcategory) => {
@@ -104,7 +106,7 @@ const AutomationControlSystems = () => {
                   </CardHeader>
                   <CardContent>
                     <div className="space-y-2">
-                      <h4 className="font-medium text-sm text-foreground mb-3">Key Features:</h4>
+                      <h4 className="font-medium text-sm text-foreground mb-3">{t('products:sections.keyFeatures', 'Key Features:')} </h4>
                       <ul className="space-y-1">
                         {subcategory.features.map((feature, featureIndex) => (
                           <li key={featureIndex} className="text-sm text-muted-foreground flex items-center">
@@ -127,20 +129,20 @@ const AutomationControlSystems = () => {
       <div className="bg-muted/50 py-16 px-4 sm:px-6 lg:px-8">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-3xl font-bold text-foreground mb-6">
-            Need Automation Solutions?
+            {t('products:cta.needAutomationSolutions', 'Need Automation Solutions?')}
           </h2>
           <p className="text-lg text-muted-foreground mb-8">
-            Our automation engineers can design and implement comprehensive control systems for your facility.
+            {t('products:cta.engineersDescription', 'Our automation engineers can design and implement comprehensive control systems for your facility.')}
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact">
               <Button size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground">
-                Contact Automation Experts
+                {t('products:cta.contactAutomationExperts', 'Contact Automation Experts')}
               </Button>
             </Link>
             <Link href="/quote">
               <Button size="lg" variant="outline" className="border-primary text-primary hover:bg-primary hover:text-primary-foreground">
-                Request Quote
+                {t('products:cta.requestQuote', 'Request Quote')}
               </Button>
             </Link>
           </div>
