@@ -3,7 +3,7 @@ import { SEO } from "@/lib/seo";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { SERVICES, COMPANY_INFO } from "@/data/constants";
+import { getServices, getCompanyInfo } from "@/data/constants";
 import {
   AnimatedSection,
   useScrollAnimations,
@@ -44,6 +44,8 @@ const iconMap = {
 export default function Services() {
   useScrollAnimations();
   const { t } = useTranslation(['pages', 'services', 'common']);
+  const services = getServices(t);
+  const companyInfo = getCompanyInfo(t);
 
   return (
     <>
@@ -102,7 +104,7 @@ export default function Services() {
             </AnimatedSection>
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 md:gap-8 items-stretch">
-              {SERVICES.map((service, index) => {
+              {services.map((service, index) => {
                 const IconComponent =
                   iconMap[service.icon as keyof typeof iconMap] || Settings;
 
@@ -125,7 +127,7 @@ export default function Services() {
                           <div className="absolute top-4 right-4 z-10">
                             <Badge className="bg-secondary text-white text-xs px-2 py-1 flex items-center gap-1">
                               <Star className="w-3 h-3" />
-                              Popular
+                              {t('common:labels.popular', 'Popular')}
                             </Badge>
                           </div>
                         )}
@@ -140,7 +142,7 @@ export default function Services() {
                           {service.duration && (
                             <div className="flex items-center text-sm text-muted-foreground">
                               <Timer className="w-4 h-4 mr-2" />
-                              Duration: {service.duration}
+                              {t('common:labels.duration', 'Duration')}: {service.duration}
                             </div>
                           )}
                         </CardHeader>
@@ -152,7 +154,7 @@ export default function Services() {
 
                           <div className="space-y-3 mb-6 flex-1">
                             <h4 className="font-semibold text-foreground text-sm">
-                              Key Features:
+                              {t('common:labels.keyFeatures', 'Key Features')}:
                             </h4>
                             <ul className="space-y-2">
                               {service.features.map((feature, featureIndex) => (
@@ -179,10 +181,10 @@ export default function Services() {
                                   size="sm"
                                   className="w-full bg-primary hover:bg-primary/90 text-xs"
                                 >
-                                  Quick Quote
+                                  {t('common:buttons.quickQuote', 'Quick Quote')}
                                 </Button>
                               </Link>
-                              <Link href={`tel:${COMPANY_INFO.phone}`}>
+                              <Link href={`tel:${companyInfo.phone}`}>
                                 <Button
                                   size="sm"
                                   variant="outline"
@@ -220,44 +222,44 @@ export default function Services() {
             <AnimatedSection animation="fadeInUp" delay={0.2}>
               <div className="text-center mb-8 sm:mb-12">
                 <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
-                  Why Choose Powerton Engineering?
+                  {t('pages:services.whyChoose.title', 'Why Choose Powerton Engineering?')}
                 </h2>
                 <p className="text-muted-foreground max-w-2xl mx-auto mb-8">
-                  With {COMPANY_INFO.stats.yearsExperience} years of experience
+                  With {companyInfo.stats.yearsExperience} years of experience
                   and a commitment to excellence, we deliver reliable solutions
                   that drive your business forward.
                 </p>
                 <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
                   <div className="text-center">
                     <div className="text-2xl font-bold text-primary">
-                      {COMPANY_INFO.stats.projectsCompleted}
+                      {companyInfo.stats.projectsCompleted}
                     </div>
                     <div className="text-sm text-muted-foreground">
-                      Projects Completed
+                      {t('common:labels.projectsCompleted', 'Projects Completed')}
                     </div>
                   </div>
                   <div className="text-center">
                     <div className="text-2xl font-bold text-primary">
-                      {COMPANY_INFO.stats.clientsServed}
+                      {companyInfo.stats.clientsServed}
                     </div>
                     <div className="text-sm text-muted-foreground">
-                      Satisfied Clients
+                      {t('common:labels.satisfiedClients', 'Satisfied Clients')}
                     </div>
                   </div>
                   <div className="text-center">
                     <div className="text-2xl font-bold text-primary">
-                      {COMPANY_INFO.stats.yearsExperience}
+                      {companyInfo.stats.yearsExperience}
                     </div>
                     <div className="text-sm text-muted-foreground">
-                      Years Experience
+                      {t('common:labels.yearsExperience', 'Years Experience')}
                     </div>
                   </div>
                   <div className="text-center">
                     <div className="text-2xl font-bold text-primary">
-                      {COMPANY_INFO.stats.responseTime}
+                      {companyInfo.stats.responseTime}
                     </div>
                     <div className="text-sm text-muted-foreground">
-                      Response Time
+                      {t('common:labels.responseTime', 'Response Time')}
                     </div>
                   </div>
                 </div>
@@ -272,10 +274,10 @@ export default function Services() {
                       <Award className="w-8 h-8 text-primary" />
                     </div>
                     <h3 className="font-semibold text-foreground mb-2">
-                      Expert Team
+                      {t('pages:services.benefits.expertTeam.title', 'Expert Team')}
                     </h3>
                     <p className="text-muted-foreground text-sm">
-                      Certified professionals with extensive industry experience
+                      {t('pages:services.benefits.expertTeam.description', 'Certified professionals with extensive industry experience')}
                     </p>
                   </CardContent>
                 </Card>
@@ -288,11 +290,10 @@ export default function Services() {
                       <Clock className="w-8 h-8 text-primary" />
                     </div>
                     <h3 className="font-semibold text-foreground mb-2">
-                      Rapid Response
+                      {t('pages:services.benefits.rapidResponse.title', 'Rapid Response')}
                     </h3>
                     <p className="text-muted-foreground text-sm">
-                      Average {COMPANY_INFO.stats.responseTime} response time
-                      for all support requests
+                      {t('pages:services.benefits.rapidResponse.description', `Average ${companyInfo.stats.responseTime} response time for all support requests`)}
                     </p>
                   </CardContent>
                 </Card>
@@ -305,10 +306,10 @@ export default function Services() {
                       <Shield className="w-8 h-8 text-primary" />
                     </div>
                     <h3 className="font-semibold text-foreground mb-2">
-                      Quality Assured
+                      {t('pages:services.benefits.qualityAssured.title', 'Quality Assured')}
                     </h3>
                     <p className="text-muted-foreground text-sm">
-                      ISO certified processes and guaranteed quality standards
+                      {t('pages:services.benefits.qualityAssured.description', 'ISO certified processes and guaranteed quality standards')}
                     </p>
                   </CardContent>
                 </Card>
@@ -321,11 +322,10 @@ export default function Services() {
                       <Users className="w-8 h-8 text-primary" />
                     </div>
                     <h3 className="font-semibold text-foreground mb-2">
-                      Client Focused
+                      {t('pages:services.benefits.clientFocused.title', 'Client Focused')}
                     </h3>
                     <p className="text-muted-foreground text-sm">
-                      Customized solutions tailored to your specific
-                      requirements
+                      {t('pages:services.benefits.clientFocused.description', 'Customized solutions tailored to your specific requirements')}
                     </p>
                   </CardContent>
                 </Card>
@@ -339,11 +339,10 @@ export default function Services() {
           <div className="max-w-4xl mx-auto px-4 md:px-6 lg:px-8 text-center">
             <AnimatedSection animation="fadeInUp" delay={0.2}>
               <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">
-                Ready to Get Started?
+                {t('pages:services.cta.title', 'Ready to Get Started?')}
               </h2>
               <p className="text-white mb-8 text-lg">
-                Contact us today to discuss your project requirements and get a
-                customized solution.
+                {t('pages:services.cta.description', 'Contact us today to discuss your project requirements and get a customized solution.')}
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Link href="/quote">
@@ -364,14 +363,14 @@ export default function Services() {
                     {t('common:buttons.contactUs')}
                   </Button>
                 </Link>
-                <Link href={`tel:${COMPANY_INFO.phone}`}>
+                <Link href={`tel:${companyInfo.phone}`}>
                   <Button
                     size="lg"
                     variant="secondary"
                     className="hover:scale-105 transition-all duration-300"
                   >
                     <Phone className="mr-2 h-5 w-5" />
-                    Call Now
+                    {t('common:buttons.callNow', 'Call Now')}
                   </Button>
                 </Link>
               </div>

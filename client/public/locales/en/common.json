@@ -266,7 +266,8 @@
     "viewServices": "View Services",
     "getInTouch": "Get In Touch",
     "exploreProducts": "Explore Products",
-    "viewCatalog": "View Catalog"
+    "viewCatalog": "View Catalog",
+    "quickQuote": "Quick Quote"
   },
   "altTexts": {
     "companyLogo": "Powerton Engineering Pvt. Ltd. - Industrial Automation & Electrical Engineering Company Logo",
@@ -303,7 +304,14 @@
     "category": "Category",
     "status": "Status",
     "industry": "Industry",
-    "projectType": "Project Type"
+    "projectType": "Project Type",
+    "popular": "Popular",
+    "duration": "Duration",
+    "keyFeatures": "Key Features",
+    "projectsCompleted": "Projects Completed",
+    "satisfiedClients": "Satisfied Clients",
+    "yearsExperience": "Years Experience",
+    "responseTime": "Response Time"
   },
   "cta": {
     "getQuote": "Get Quote",

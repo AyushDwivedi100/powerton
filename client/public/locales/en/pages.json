@@ -98,6 +98,35 @@
     "seo": {
       "title": "Professional Engineering Services - Installation, Maintenance & Automation | Powerton Engineering",
       "description": "Expert engineering services: PLC programming, SCADA systems, industrial automation, electrical panel installation, maintenance, calibration, custom solutions & solar EPC services worldwide."
+    },
+    "hero": {
+      "title": "Professional Engineering Services",
+      "subtitle": "Comprehensive industrial automation, electrical engineering, and instrumentation solutions designed to optimize your operations and drive business success."
+    },
+    "whyChoose": {
+      "title": "Why Choose Powerton Engineering?"
+    },
+    "benefits": {
+      "expertTeam": {
+        "title": "Expert Team",
+        "description": "Certified professionals with extensive industry experience"
+      },
+      "rapidResponse": {
+        "title": "Rapid Response",
+        "description": "Average 2 hours response time for all support requests"
+      },
+      "qualityAssured": {
+        "title": "Quality Assured",
+        "description": "ISO certified processes and guaranteed quality standards"
+      },
+      "clientFocused": {
+        "title": "Client Focused",
+        "description": "Customized solutions tailored to your specific requirements"
+      }
+    },
+    "cta": {
+      "title": "Ready to Get Started?",
+      "description": "Contact us today to discuss your project requirements and get a customized solution."
     }
   },
   "notFound": {

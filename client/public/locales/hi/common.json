@@ -298,7 +298,8 @@
     "downloadCatalog": "कैटलॉग डाउनलोड करें",
     "viewDetails": "विवरण देखें",
     "backTo": "{{category}} पर वापस जाएं",
-    "backToBldcProducts": "BLDC उत्पादों पर वापस जाएं"
+    "backToBldcProducts": "BLDC उत्पादों पर वापस जाएं",
+    "quickQuote": "त्वरित कोटेशन"
   },
   "altTexts": {
     "companyLogo": "पावरटन इंजीनियरिंग प्राइवेट लिमिटेड - औद्योगिक स्वचालन और इलेक्ट्रिकल इंजीनियरिंग कंपनी लोगो",
@@ -343,7 +344,14 @@
     "budget": "बजट",
     "requirements": "आवश्यकताएं",
     "category": "श्रेणी",
-    "status": "स्थिति"
+    "status": "स्थिति",
+    "popular": "लोकप्रिय",
+    "duration": "अवधि",
+    "keyFeatures": "मुख्य विशेषताएं",
+    "projectsCompleted": "पूर्ण परियोजनाएं",
+    "satisfiedClients": "संतुष्ट ग्राहक",
+    "yearsExperience": "वर्षों का अनुभव",
+    "responseTime": "प्रतिक्रिया समय"
   },
   "placeholders": {
     "selectProjectType": "परियोजना प्रकार चुनें",
