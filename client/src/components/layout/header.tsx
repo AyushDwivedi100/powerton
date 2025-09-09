@@ -777,15 +777,27 @@ export default function Header() {
                         {t('common:buttons.contactUs')}
                       </h4>
                       <div className="space-y-3">
-                        <div className="flex items-center">
-                          <Phone className="w-4 h-4 mr-3 text-secondary flex-shrink-0" />
-                          <a
-                            href={`tel:${COMPANY_INFO.phone}`}
-                            className="text-sm text-foreground hover:text-primary transition-colors"
-                            onClick={() => setIsOpen(false)}
-                          >
-                            {COMPANY_INFO.phone}
-                          </a>
+                        <div className="space-y-2">
+                          <div className="flex items-center">
+                            <Phone className="w-4 h-4 mr-3 text-secondary flex-shrink-0" />
+                            <a
+                              href={`tel:${COMPANY_INFO.phoneNumbers.primary}`}
+                              className="text-sm text-foreground hover:text-primary transition-colors"
+                              onClick={() => setIsOpen(false)}
+                            >
+                              {COMPANY_INFO.phoneNumbers.primary}
+                            </a>
+                          </div>
+                          <div className="flex items-center">
+                            <Phone className="w-4 h-4 mr-3 text-secondary flex-shrink-0" />
+                            <a
+                              href={`tel:${COMPANY_INFO.phoneNumbers.secondary}`}
+                              className="text-sm text-foreground hover:text-primary transition-colors"
+                              onClick={() => setIsOpen(false)}
+                            >
+                              {COMPANY_INFO.phoneNumbers.secondary}
+                            </a>
+                          </div>
                         </div>
                         <div className="flex items-center">
                           <Mail className="w-4 h-4 mr-3 text-secondary flex-shrink-0" />
