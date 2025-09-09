@@ -228,12 +228,10 @@ export default function Projects() {
         <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6">
-              Our Project Portfolio
+              {t("pages:ui.projectPortfolio")}
             </h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              Explore our engineering capabilities through demonstration
-              projects showcasing innovative solutions across various
-              industries. Real project portfolio coming soon.
+              {t("pages:projects.portfolioDescription", "Explore our engineering capabilities through demonstration projects showcasing innovative solutions across various industries. Real project portfolio coming soon.")}
             </p>
           </div>
 
