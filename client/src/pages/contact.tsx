@@ -50,8 +50,11 @@ export default function Contact() {
       icon: Phone,
       title: t('pages:contact.contactMethods.phone.title', 'Call Us'),
       subtitle: t('pages:contact.contactMethods.phone.subtitle', 'Speak directly with our experts'),
-      content: COMPANY_INFO.phone,
-      action: `tel:${COMPANY_INFO.phone}`,
+      content: {
+        primary: COMPANY_INFO.phoneNumbers.primary,
+        secondary: COMPANY_INFO.phoneNumbers.secondary
+      },
+      action: `tel:${COMPANY_INFO.phoneNumbers.primary}`,
       description: t('pages:contact.contactMethods.phone.description', 'Our technical support team is available to help you with all your engineering needs.')
     },
     {
@@ -66,7 +69,10 @@ export default function Contact() {
       icon: MessageCircle,
       title: t('pages:contact.contactMethods.whatsapp.title', 'WhatsApp'),
       subtitle: t('pages:contact.contactMethods.whatsapp.subtitle', 'Quick & convenient chat'),
-      content: "+91-94627-71662 / +91-82997-27291",
+      content: {
+        primary: COMPANY_INFO.phoneNumbers.primary,
+        secondary: COMPANY_INFO.phoneNumbers.secondary
+      },
       action: "https://wa.me/919462771662",
       description: t('pages:contact.contactMethods.whatsapp.description', 'Chat with us instantly for quick quotes and technical queries.')
     },
@@ -86,7 +92,10 @@ export default function Contact() {
       address: COMPANY_INFO.address.street,
       city: `${COMPANY_INFO.address.city}, ${COMPANY_INFO.address.state} ${COMPANY_INFO.address.pincode}`,
       landmark: COMPANY_INFO.address.landmark,
-      phone: COMPANY_INFO.phone,
+      phoneNumbers: {
+        primary: COMPANY_INFO.phoneNumbers.primary,
+        secondary: COMPANY_INFO.phoneNumbers.secondary
+      },
       email: COMPANY_INFO.email,
       hours: t('pages:contact.office.hours')
     }
@@ -188,13 +197,32 @@ export default function Contact() {
                     </div>
                     <h3 className="text-lg font-bold text-foreground mb-2">{method.title}</h3>
                     <p className="text-sm text-secondary font-medium mb-3">{method.subtitle}</p>
-                    <a 
-                      href={method.action}
-                      className="text-lg font-semibold text-primary hover:text-secondary transition-colors block mb-3 break-words overflow-hidden"
-                      style={{ wordBreak: 'break-all' }}
-                    >
-                      {method.content}
-                    </a>
+                    {typeof method.content === 'object' && 'primary' in method.content ? (
+                      <div className="space-y-2 mb-3">
+                        <a 
+                          href={`tel:${method.content.primary}`}
+                          className="text-base font-semibold text-primary hover:text-secondary transition-colors block break-words flex items-center justify-center"
+                        >
+                          <Phone className="w-4 h-4 mr-2" />
+                          {method.content.primary}
+                        </a>
+                        <a 
+                          href={`tel:${method.content.secondary}`}
+                          className="text-base font-semibold text-primary hover:text-secondary transition-colors block break-words flex items-center justify-center"
+                        >
+                          <Phone className="w-4 h-4 mr-2" />
+                          {method.content.secondary}
+                        </a>
+                      </div>
+                    ) : (
+                      <a 
+                        href={method.action}
+                        className="text-lg font-semibold text-primary hover:text-secondary transition-colors block mb-3 break-words overflow-hidden"
+                        style={{ wordBreak: 'break-all' }}
+                      >
+                        {String(method.content)}
+                      </a>
+                    )}
                     <p className="text-sm text-muted-foreground">{method.description}</p>
                   </CardContent>
                   </Card>
@@ -259,14 +287,25 @@ export default function Contact() {
                         </div>
                       </div>
 
-                      <div className="flex items-center">
-                        <Phone className="w-4 h-4 sm:w-5 sm:h-5 text-primary mr-2 sm:mr-3 flex-shrink-0" />
-                        <a 
-                          href={`tel:${location.phone}`} 
-                          className="text-sm sm:text-base text-muted-foreground hover:text-primary transition-colors break-all"
-                        >
-                          {location.phone}
-                        </a>
+                      <div className="space-y-2">
+                        <div className="flex items-center">
+                          <Phone className="w-4 h-4 sm:w-5 sm:h-5 text-primary mr-2 sm:mr-3 flex-shrink-0" />
+                          <span className="text-sm sm:text-base font-medium text-foreground">Phone Numbers</span>
+                        </div>
+                        <div className="ml-6 sm:ml-8 space-y-1">
+                          <a 
+                            href={`tel:${location.phoneNumbers.primary}`} 
+                            className="text-sm sm:text-base text-muted-foreground hover:text-primary transition-colors block"
+                          >
+                            {location.phoneNumbers.primary}
+                          </a>
+                          <a 
+                            href={`tel:${location.phoneNumbers.secondary}`} 
+                            className="text-sm sm:text-base text-muted-foreground hover:text-primary transition-colors block"
+                          >
+                            {location.phoneNumbers.secondary}
+                          </a>
+                        </div>
                       </div>
 
                       <div className="flex items-center">
