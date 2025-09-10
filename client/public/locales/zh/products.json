@@ -147,19 +147,19 @@
       "description": "太阳能电力系统的储能解决方案"
     },
     "plcs": {
-      "title": "PLC",
+      "title": "可编程逻辑控制器",
       "description": "用于工业自动化的可编程逻辑控制器"
     },
     "scada": {
-      "title": "SCADA",
+      "title": "监控和数据采集系统",
       "description": "监控和数据采集系统"
     },
     "dcs": {
-      "title": "DCS",
+      "title": "分布式控制系统",
       "description": "用于过程自动化的分布式控制系统"
     },
     "hmi": {
-      "title": "HMI",
+      "title": "人机界面系统",
       "description": "用于操作员控制的人机界面系统"
     },
     "surge-protectors": {
