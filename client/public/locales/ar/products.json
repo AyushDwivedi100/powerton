@@ -133,19 +133,19 @@
       "description": "أجهزة استشعار صناعية للقياس والتحكم"
     },
     "transmitters": {
-      "title": "أجهزة الإرسال",
+      "title": "أجهزة الإرسال والمحولات",
       "description": "أجهزة إرسال العمليات ومعدات تحويل الإشارة"
     },
     "controllers": {
-      "title": "أجهزة التحكم",
+      "title": "أجهزة التحكم والمسجلات",
       "description": "أنظمة التحكم الصناعية وأجهزة التحكم في الأتمتة"
     },
     "switches": {
-      "title": "المفاتيح",
+      "title": "المفاتيح والمؤشرات",
       "description": "المفاتيح الصناعية وأجهزة التحكم"
     },
     "valves": {
-      "title": "الصمامات",
+      "title": "الصمامات والمحركات",
       "description": "الصمامات الصناعية وأنظمة التحكم في التدفق"
     },
     "analyzers": {
@@ -155,6 +155,154 @@
     "signal-conditioners": {
       "title": "مكيفات الإشارة",
       "description": "معدات معالجة وتكييف الإشارة"
+    },
+    "cables-wires": {
+      "title": "الكابلات والأسلاك",
+      "description": "الكابلات والأسلاك الصناعية للطاقة والتحكم"
+    },
+    "connectors-terminals": {
+      "title": "الموصلات والأطراف",
+      "description": "الموصلات الكهربائية وحلول الأطراف"
+    },
+    "circuit-breakers-fuses": {
+      "title": "قواطع الدوائر والصمامات",
+      "description": "أجهزة الحماية الكهربائية لسلامة الدوائر"
+    },
+    "power-supplies": {
+      "title": "مزودات الطاقة",
+      "description": "وحدات الطاقة الصناعية والمحولات"
+    },
+    "enclosures-cabinets": {
+      "title": "الخزائن والصناديق",
+      "description": "الخزائن الكهربائية وحلول خزائن التحكم"
+    },
+    "heating-elements-appliances": {
+      "title": "عناصر التسخين والأجهزة",
+      "description": "حلول التسخين الصناعية والمعدات الحرارية"
+    },
+    "multimeters": {
+      "title": "أجهزة القياس المتعددة",
+      "description": "أجهزة القياس الرقمية والتناظرية للاختبار الكهربائي"
+    },
+    "oscilloscopes": {
+      "title": "الراسمات الذبذبية",
+      "description": "الراسمات الرقمية لتحليل الإشارات والاختبار"
+    },
+    "spectrum-analyzers": {
+      "title": "محللات الطيف",
+      "description": "معدات تحليل الطيف اللاسلكي والموجات الدقيقة"
+    },
+    "power-quality-analyzers": {
+      "title": "محللات جودة الطاقة",
+      "description": "أجهزة قياس وتحليل جودة الطاقة"
+    },
+    "calibration-equipment": {
+      "title": "معدات المعايرة",
+      "description": "أجهزة المعايرة الدقيقة ومعدات الاختبار"
+    },
+    "solar-panels": {
+      "title": "الألواح الشمسية",
+      "description": "الألواح الشمسية عالية الكفاءة والأنظمة الكهروضوئية"
+    },
+    "solar-inverters": {
+      "title": "العاكسات الشمسية",
+      "description": "عاكسات الطاقة الشمسية وأنظمة الربط بالشبكة"
+    },
+    "mounting-structures-racking": {
+      "title": "هياكل التثبيت وأنظمة الرفوف",
+      "description": "حلول التثبيت الهيكلية للتركيبات الشمسية"
+    },
+    "solar-charge-controllers": {
+      "title": "متحكمات الشحن الشمسية",
+      "description": "متحكمات الشحن الشمسية وإدارة الطاقة"
+    },
+    "solar-batteries-energy-storage": {
+      "title": "البطاريات الشمسية وأنظمة تخزين الطاقة",
+      "description": "حلول تخزين الطاقة لأنظمة الطاقة الشمسية"
+    },
+    "plcs": {
+      "title": "أجهزة PLC",
+      "description": "متحكمات منطقية قابلة للبرمجة للأتمتة الصناعية"
+    },
+    "scada": {
+      "title": "أنظمة SCADA",
+      "description": "أنظمة المراقبة والتحكم وجمع البيانات"
+    },
+    "dcs": {
+      "title": "أنظمة DCS",
+      "description": "أنظمة التحكم الموزعة لأتمتة العمليات"
+    },
+    "hmi": {
+      "title": "واجهة الإنسان والآلة",
+      "description": "أنظمة واجهة الإنسان والآلة لتحكم المشغل"
+    },
+    "surge-protectors": {
+      "title": "واقيات الجهد",
+      "description": "أجهزة حماية من الجهد الكهربائي والأنظمة"
+    },
+    "grounding-systems": {
+      "title": "أنظمة التأريض",
+      "description": "حلول التأريض والأرضي الكهربائية للسلامة"
+    },
+    "safety-relays-switches": {
+      "title": "مرحلات ومفاتيح السلامة",
+      "description": "مرحلات التحكم في السلامة وأنظمة الإيقاف الطارئ"
+    },
+    "intrinsically-safe-equipment": {
+      "title": "المعدات الآمنة ذاتياً",
+      "description": "معدات معتمدة لتطبيقات المناطق الخطرة"
+    },
+    "centrifugal-pumps": {
+      "title": "المضخات الطاردة المركزية",
+      "description": "مضخات طاردة مركزية عالية الكفاءة للتطبيقات الصناعية"
+    },
+    "diaphragm-pumps": {
+      "title": "مضخات الحجاب الحاجز",
+      "description": "مضخات الجرعات الدقيقة ومعالجة المواد الكيميائية"
+    },
+    "gear-pumps": {
+      "title": "المضخات التروسية",
+      "description": "مضخات تروسية دقيقة للتطبيقات الهيدروليكية والصناعية"
+    },
+    "pump-parts-spares": {
+      "title": "قطع غيار المضخات",
+      "description": "قطع الغيار والمكونات لأنظمة المضخات"
+    },
+    "hand-tools": {
+      "title": "الأدوات اليدوية",
+      "description": "أدوات يدوية احترافية للصيانة الصناعية"
+    },
+    "power-tools": {
+      "title": "الأدوات الكهربائية",
+      "description": "أدوات كهربائية وهوائية للاستخدام الصناعي"
+    },
+    "cutting-tools": {
+      "title": "أدوات القطع",
+      "description": "أدوات القطع الصناعية ومعدات التصنيع"
+    },
+    "lifting-equipment": {
+      "title": "معدات الرفع",
+      "description": "حلول الرفع الصناعي ومناولة المواد"
+    },
+    "safety-equipment": {
+      "title": "معدات السلامة",
+      "description": "معدات الحماية الشخصية وأجهزة السلامة"
+    },
+    "bldc-cooler-exhaust-motor": {
+      "title": "محرك BLDC للتبريد/العادم",
+      "description": "محركات BLDC موفرة للطاقة للتبريد والتهوية"
+    },
+    "bldc-ceiling-fan": {
+      "title": "مروحة السقف BLDC",
+      "description": "مراوح سقف عالية الكفاءة بتقنية DC بدون فرش"
+    },
+    "bldc-submersible-surface-pump": {
+      "title": "مضخة BLDC الغاطسة/السطحية",
+      "description": "مضخات BLDC تعمل بالطاقة الشمسية لتطبيقات المياه"
+    },
+    "bldc-table-fan-wall-fan-motor": {
+      "title": "محرك مروحة BLDC للطاولة/الحائط",
+      "description": "محركات BLDC مدمجة للمراوح المحمولة والمثبتة على الحائط"
     }
   },
   "items": {

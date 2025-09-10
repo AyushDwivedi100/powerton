@@ -11,6 +11,184 @@
     "safety": "Équipements de Sécurité",
     "tools": "Outils Industriels"
   },
+  "subcategories": {
+    "sensors": {
+      "title": "Capteurs",
+      "description": "Capteurs industriels pour mesure et contrôle"
+    },
+    "transmitters": {
+      "title": "Transmetteurs et Transducteurs",
+      "description": "Transmetteurs de processus et équipements de conversion de signal"
+    },
+    "controllers": {
+      "title": "Contrôleurs et Enregistreurs",
+      "description": "Systèmes de contrôle industriel et contrôleurs d'automatisation"
+    },
+    "switches": {
+      "title": "Commutateurs et Indicateurs",
+      "description": "Commutateurs industriels et équipements de contrôle"
+    },
+    "valves": {
+      "title": "Vannes et Actionneurs",
+      "description": "Vannes industrielles et systèmes de contrôle de débit"
+    },
+    "analyzers": {
+      "title": "Analyseurs",
+      "description": "Analyseurs de processus pour contrôle qualité"
+    },
+    "signal-conditioners": {
+      "title": "Conditionneurs de Signal",
+      "description": "Équipements de traitement et conditionnement de signal"
+    },
+    "cables-wires": {
+      "title": "Câbles et Fils",
+      "description": "Câbles et solutions de câblage industriels"
+    },
+    "connectors-terminals": {
+      "title": "Connecteurs et Terminaux",
+      "description": "Connecteurs électriques et solutions de terminaux"
+    },
+    "circuit-breakers-fuses": {
+      "title": "Disjoncteurs et Fusibles",
+      "description": "Dispositifs de protection électrique pour sécurité des circuits"
+    },
+    "power-supplies": {
+      "title": "Alimentations",
+      "description": "Unités d'alimentation industrielles et convertisseurs"
+    },
+    "enclosures-cabinets": {
+      "title": "Enceintes et Armoires",
+      "description": "Enceintes électriques et solutions d'armoires de contrôle"
+    },
+    "heating-elements-appliances": {
+      "title": "Éléments Chauffants et Appareils",
+      "description": "Solutions de chauffage industriel et équipements thermiques"
+    },
+    "multimeters": {
+      "title": "Multimètres",
+      "description": "Multimètres numériques et analogiques pour tests électriques"
+    },
+    "oscilloscopes": {
+      "title": "Oscilloscopes",
+      "description": "Oscilloscopes numériques pour analyse de signaux et tests"
+    },
+    "spectrum-analyzers": {
+      "title": "Analyseurs de Spectre",
+      "description": "Équipements d'analyse de spectre RF et micro-ondes"
+    },
+    "power-quality-analyzers": {
+      "title": "Analyseurs de Qualité d'Énergie",
+      "description": "Instruments de mesure et analyse de qualité d'énergie"
+    },
+    "calibration-equipment": {
+      "title": "Équipements de Calibration",
+      "description": "Instruments de calibration de précision et équipements de test"
+    },
+    "solar-panels": {
+      "title": "Panneaux Solaires",
+      "description": "Panneaux solaires haute efficacité et systèmes photovoltaïques"
+    },
+    "solar-inverters": {
+      "title": "Onduleurs Solaires",
+      "description": "Onduleurs d'énergie solaire et systèmes de raccordement réseau"
+    },
+    "mounting-structures-racking": {
+      "title": "Structures de Montage et Systèmes de Rayonnage",
+      "description": "Solutions de montage structurel pour installations solaires"
+    },
+    "solar-charge-controllers": {
+      "title": "Contrôleurs de Charge Solaire",
+      "description": "Contrôleurs de charge solaire et gestion d'énergie"
+    },
+    "solar-batteries-energy-storage": {
+      "title": "Batteries Solaires et Systèmes de Stockage d'Énergie",
+      "description": "Solutions de stockage d'énergie pour systèmes d'énergie solaire"
+    },
+    "plcs": {
+      "title": "PLCs",
+      "description": "Contrôleurs Logiques Programmables pour automatisation industrielle"
+    },
+    "scada": {
+      "title": "SCADA",
+      "description": "Systèmes de Contrôle de Supervision et d'Acquisition de Données"
+    },
+    "dcs": {
+      "title": "DCS",
+      "description": "Systèmes de Contrôle Distribués pour automatisation de processus"
+    },
+    "hmi": {
+      "title": "HMI",
+      "description": "Systèmes d'Interface Homme-Machine pour contrôle opérateur"
+    },
+    "surge-protectors": {
+      "title": "Parafoudres",
+      "description": "Dispositifs de protection contre les surtensions électriques et systèmes"
+    },
+    "grounding-systems": {
+      "title": "Systèmes de Mise à la Terre",
+      "description": "Solutions de mise à la terre électrique pour sécurité"
+    },
+    "safety-relays-switches": {
+      "title": "Relais et Commutateurs de Sécurité",
+      "description": "Relais de contrôle de sécurité et systèmes d'arrêt d'urgence"
+    },
+    "intrinsically-safe-equipment": {
+      "title": "Équipements Intrinsèquement Sûrs",
+      "description": "Équipements certifiés pour applications en zones dangereuses"
+    },
+    "centrifugal-pumps": {
+      "title": "Pompes Centrifuges",
+      "description": "Pompes centrifuges haute efficacité pour applications industrielles"
+    },
+    "diaphragm-pumps": {
+      "title": "Pompes à Membrane",
+      "description": "Pompes de dosage de précision et manipulation de produits chimiques"
+    },
+    "gear-pumps": {
+      "title": "Pompes à Engrenages",
+      "description": "Pompes à engrenages de précision pour applications hydrauliques et industrielles"
+    },
+    "pump-parts-spares": {
+      "title": "Pièces et Pièces Détachées de Pompes",
+      "description": "Pièces de rechange et composants pour systèmes de pompes"
+    },
+    "hand-tools": {
+      "title": "Outils à Main",
+      "description": "Outils à main professionnels pour maintenance industrielle"
+    },
+    "power-tools": {
+      "title": "Outils Électriques",
+      "description": "Outils électriques et pneumatiques pour usage industriel"
+    },
+    "cutting-tools": {
+      "title": "Outils de Coupe",
+      "description": "Outils de coupe industriels et équipements d'usinage"
+    },
+    "lifting-equipment": {
+      "title": "Équipements de Levage",
+      "description": "Solutions de levage industriel et manutention de matériaux"
+    },
+    "safety-equipment": {
+      "title": "Équipements de Sécurité",
+      "description": "Équipements de protection individuelle et dispositifs de sécurité"
+    },
+    "bldc-cooler-exhaust-motor": {
+      "title": "Moteur BLDC Refroidisseur/Extracteur",
+      "description": "Moteurs BLDC éco-énergétiques pour refroidissement et ventilation"
+    },
+    "bldc-ceiling-fan": {
+      "title": "Ventilateur de Plafond BLDC",
+      "description": "Ventilateurs de plafond haute efficacité avec technologie DC sans balais"
+    },
+    "bldc-submersible-surface-pump": {
+      "title": "Pompe BLDC Submersible/Surface",
+      "description": "Pompes BLDC alimentées par énergie solaire pour applications aquatiques"
+    },
+    "bldc-table-fan-wall-fan-motor": {
+      "title": "Moteur BLDC Ventilateur de Table/Mural",
+      "description": "Moteurs BLDC compacts pour ventilateurs portables et muraux"
+    }
+  },
   "filters": {
     "all": "Tous",
     "category": "Catégorie",

@@ -86,6 +86,154 @@
     "signal-conditioners": {
       "title": "सिग्नल कंडीशनर",
       "description": "सिग्नल प्रसंस्करण और कंडीशनिंग उपकरण"
+    },
+    "cables-wires": {
+      "title": "केबल और तार",
+      "description": "औद्योगिक केबल और वायरिंग समाधान"
+    },
+    "connectors-terminals": {
+      "title": "कनेक्टर्स और टर्मिनल्स",
+      "description": "विद्युत कनेक्टर्स और टर्मिनल समाधान"
+    },
+    "circuit-breakers-fuses": {
+      "title": "सर्किट ब्रेकर्स और फ्यूज",
+      "description": "सर्किट सुरक्षा के लिए विद्युत सुरक्षा उपकरण"
+    },
+    "power-supplies": {
+      "title": "पावर सप्लाई",
+      "description": "औद्योगिक पावर सप्लाई यूनिट और कन्वर्टर्स"
+    },
+    "enclosures-cabinets": {
+      "title": "एन्क्लोज़र और कैबिनेट",
+      "description": "विद्युत एन्क्लोज़र और नियंत्रण कैबिनेट समाधान"
+    },
+    "heating-elements-appliances": {
+      "title": "हीटिंग एलिमेंट्स और उपकरण",
+      "description": "औद्योगिक हीटिंग समाधान और थर्मल उपकरण"
+    },
+    "multimeters": {
+      "title": "मल्टीमीटर",
+      "description": "विद्युत परीक्षण के लिए डिजिटल और एनालॉग मल्टीमीटर"
+    },
+    "oscilloscopes": {
+      "title": "ऑसिलोस्कोप",
+      "description": "सिग्नल विश्लेषण और परीक्षण के लिए डिजिटल ऑसिलोस्कोप"
+    },
+    "spectrum-analyzers": {
+      "title": "स्पेक्ट्रम एनालाइज़र",
+      "description": "RF और माइक्रोवेव स्पेक्ट्रम विश्लेषण उपकरण"
+    },
+    "power-quality-analyzers": {
+      "title": "पावर क्वालिटी एनालाइज़र",
+      "description": "पावर क्वालिटी मापन और विश्लेषण उपकरण"
+    },
+    "calibration-equipment": {
+      "title": "कैलिब्रेशन उपकरण",
+      "description": "सटीक कैलिब्रेशन उपकरण और परीक्षण उपकरण"
+    },
+    "solar-panels": {
+      "title": "सोलर पैनल",
+      "description": "उच्च दक्षता सोलर पैनल और फोटोवोल्टाइक सिस्टम"
+    },
+    "solar-inverters": {
+      "title": "सोलर इन्वर्टर",
+      "description": "सोलर पावर इन्वर्टर और ग्रिड-टाई सिस्टम"
+    },
+    "mounting-structures-racking": {
+      "title": "माउंटिंग स्ट्रक्चर और रैकिंग सिस्टम",
+      "description": "सोलर स्थापना के लिए संरचनात्मक माउंटिंग समाधान"
+    },
+    "solar-charge-controllers": {
+      "title": "सोलर चार्ज कंट्रोलर",
+      "description": "सोलर चार्ज कंट्रोलर और पावर प्रबंधन"
+    },
+    "solar-batteries-energy-storage": {
+      "title": "सोलर बैटरी और एनर्जी स्टोरेज सिस्टम",
+      "description": "सोलर पावर सिस्टम के लिए एनर्जी स्टोरेज समाधान"
+    },
+    "plcs": {
+      "title": "PLCs",
+      "description": "औद्योगिक स्वचालन के लिए प्रोग्रामेबल लॉजिक कंट्रोलर"
+    },
+    "scada": {
+      "title": "SCADA",
+      "description": "पर्यवेक्षी नियंत्रण और डेटा अधिग्रहण सिस्टम"
+    },
+    "dcs": {
+      "title": "DCS",
+      "description": "प्रक्रिया स्वचालन के लिए वितरित नियंत्रण सिस्टम"
+    },
+    "hmi": {
+      "title": "HMI",
+      "description": "ऑपरेटर नियंत्रण के लिए ह्यूमन मशीन इंटरफेस सिस्टम"
+    },
+    "surge-protectors": {
+      "title": "सर्ज प्रोटेक्टर",
+      "description": "विद्युत सर्ज सुरक्षा उपकरण और सिस्टम"
+    },
+    "grounding-systems": {
+      "title": "ग्राउंडिंग सिस्टम",
+      "description": "सुरक्षा के लिए विद्युत ग्राउंडिंग समाधान"
+    },
+    "safety-relays-switches": {
+      "title": "सेफ्टी रिले और स्विच",
+      "description": "सुरक्षा नियंत्रण रिले और आपातकालीन स्टॉप सिस्टम"
+    },
+    "intrinsically-safe-equipment": {
+      "title": "आंतरिक रूप से सुरक्षित उपकरण",
+      "description": "खतरनाक क्षेत्र अनुप्रयोगों के लिए प्रमाणित उपकरण"
+    },
+    "centrifugal-pumps": {
+      "title": "केन्द्रापसारक पंप",
+      "description": "औद्योगिक अनुप्रयोगों के लिए उच्च दक्षता केन्द्रापसारक पंप"
+    },
+    "diaphragm-pumps": {
+      "title": "डायाफ्राम पंप",
+      "description": "सटीक डोसिंग और रसायन हैंडलिंग पंप"
+    },
+    "gear-pumps": {
+      "title": "गियर पंप",
+      "description": "हाइड्रोलिक और औद्योगिक अनुप्रयोगों के लिए सटीक गियर पंप"
+    },
+    "pump-parts-spares": {
+      "title": "पंप पार्ट्स और स्पेयर्स",
+      "description": "पंप सिस्टम के लिए प्रतिस्थापन भाग और घटक"
+    },
+    "hand-tools": {
+      "title": "हैंड टूल्स",
+      "description": "औद्योगिक रखरखाव के लिए पेशेवर हैंड टूल्स"
+    },
+    "power-tools": {
+      "title": "पावर टूल्स",
+      "description": "औद्योगिक उपयोग के लिए इलेक्ट्रिक और न्यूमेटिक पावर टूल्स"
+    },
+    "cutting-tools": {
+      "title": "कटिंग टूल्स",
+      "description": "औद्योगिक कटिंग टूल्स और मशीनिंग उपकरण"
+    },
+    "lifting-equipment": {
+      "title": "लिफ्टिंग उपकरण",
+      "description": "औद्योगिक लिफ्टिंग और मटेरियल हैंडलिंग समाधान"
+    },
+    "safety-equipment": {
+      "title": "सुरक्षा उपकरण",
+      "description": "व्यक्तिगत सुरक्षा उपकरण और सुरक्षा उपकरण"
+    },
+    "bldc-cooler-exhaust-motor": {
+      "title": "BLDC कूलर/एग्जॉस्ट मोटर",
+      "description": "कूलिंग और वेंटिलेशन के लिए ऊर्जा-कुशल BLDC मोटर"
+    },
+    "bldc-ceiling-fan": {
+      "title": "BLDC सीलिंग फैन",
+      "description": "ब्रशलेस DC तकनीक के साथ उच्च दक्षता सीलिंग फैन"
+    },
+    "bldc-submersible-surface-pump": {
+      "title": "BLDC सबमर्सिबल सरफेस पंप",
+      "description": "पानी के अनुप्रयोगों के लिए सोलर-पावर्ड BLDC पंप"
+    },
+    "bldc-table-fan-wall-fan-motor": {
+      "title": "BLDC टेबल फैन/वॉल फैन मोटर",
+      "description": "पोर्टेबल और वॉल-माउंटेड फैन के लिए कॉम्पैक्ट BLDC मोटर"
     }
   },
   "items": {
