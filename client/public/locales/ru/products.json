@@ -1,26 +1,103 @@
 {
-  "title": "Our Products",
-  "subtitle": "Industrial Automation & Electrical Components",
+  "title": "Наши Продукты",
+  "subtitle": "Промышленная Автоматизация и Электрические Компоненты",
   "categories": {
-    "automation": "Automation & Control",
-    "electrical": "Electrical Components",
-    "instrumentation": "Instrumentation",
-    "solar": "Solar Products",
-    "motors": "BLDC Motor Systems",
-    "pumps": "Pumps & Motors",
-    "safety": "Safety Equipment",
-    "tools": "Industrial Tools"
+    "automation": "Автоматизация и Управление",
+    "electrical": "Электрические Компоненты",
+    "instrumentation": "Приборостроение",
+    "solar": "Солнечные Продукты",
+    "motors": "Системы Двигателей BLDC",
+    "pumps": "Насосы и Двигатели",
+    "safety": "Оборудование Безопасности",
+    "tools": "Промышленные Инструменты"
   },
   "filters": {
-    "all": "All",
-    "category": "Category", 
-    "industry": "Industry",
-    "status": "Status"
+    "all": "Все",
+    "category": "Категория",
+    "industry": "Отрасль",
+    "status": "Статус"
   },
   "status": {
-    "available": "Available",
-    "outOfStock": "Out of Stock",
-    "discontinued": "Discontinued"
+    "available": "Доступно",
+    "outOfStock": "Нет в Наличии",
+    "discontinued": "Снято с Производства"
+  },
+  "productPages": {
+    "analyzers": {
+      "title": "Анализаторы Процессов",
+      "subtitle": "Передовые аналитические приборы для мониторинга процессов"
+    },
+    "automationControl": {
+      "title": "Системы Автоматизации и Управления",
+      "subtitle": "Передовые решения автоматизации и управления для управления и оптимизации промышленных процессов"
+    },
+    "bldcCeilingFan": {
+      "title": "Потолочные Вентиляторы BLDC",
+      "subtitle": "Энергоэффективные бесщеточные потолочные вентиляторы постоянного тока с умными функциями и превосходной производительностью"
+    },
+    "bldc": {
+      "title": "Продукты BLDC",
+      "subtitle": "Продукты бесщеточных двигателей постоянного тока для энергоэффективного охлаждения, вентиляции и перекачки"
+    },
+    "cables": {
+      "title": "Кабели и Провода",
+      "subtitle": "Промышленные кабели и решения для проводки для приложений питания и управления"
+    },
+    "calibration": {
+      "title": "Калибровочное Оборудование",
+      "subtitle": "Прецизионные калибровочные приборы и испытательное оборудование"
+    },
+    "electricalComponents": {
+      "title": "Электрические Компоненты",
+      "subtitle": "Комплексные решения электрических компонентов для промышленных применений"
+    },
+    "safetyProtective": {
+      "title": "Устройства Безопасности и Защиты",
+      "subtitle": "Промышленные системы безопасности и защитное оборудование"
+    }
+  },
+  "common": {
+    "keyFeatures": "Ключевые Особенности:",
+    "needHelp": "Нужна Помощь?",
+    "contactExperts": "Связаться с Экспертами",
+    "requestQuote": "Запросить Предложение"
+  },
+  "features": {
+    "common": {
+      "highTorque": "Высокий Крутящий Момент",
+      "variableSpeed": "Переменная Скорость",
+      "cordlessOptions": "Беспроводные Опции",
+      "multipleSizes": "Множественные Размеры",
+      "safetyGuards": "Защитные Ограждения",
+      "antiVibration": "Антивибрация",
+      "powerfulMotors": "Мощные Двигатели",
+      "highEfficiency": "Высокая Эффективность",
+      "compactDesign": "Компактный Дизайн",
+      "dinRailMount": "Крепление на DIN-рейку",
+      "shortCircuitProtection": "Защита от Короткого Замыкания",
+      "batteryBackup": "Резервная Батарея",
+      "surgeProtection": "Защита от Перенапряжения",
+      "lcdDisplay": "LCD Дисплей"
+    }
+  },
+  "locations": {
+    "delhiNcr": "Дели NCR",
+    "rajasthan": "Раджастан",
+    "uttarPradesh": "Уттар-Прадеш",
+    "gujarat": "Гуджарат",
+    "maharashtra": "Махараштра",
+    "haryana": "Харьяна",
+    "westBengal": "Западная Бенгалия"
+  },
+  "brands": {
+    "customBuilt": "Изготовленные на Заказ",
+    "fluke": "Fluke, Keysight",
+    "siemens": "Siemens, Allen Bradley",
+    "abb": "ABB, Schneider",
+    "honeywell": "Honeywell, Yokogawa",
+    "wonderware": "Wonderware, iFIX",
+    "grundfos": "Grundfos, KSB",
+    "3m": "3M, MSA"
   },
   "items": {
     "solar-products": "Солнечные Продукты",

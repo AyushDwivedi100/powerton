@@ -7,5 +7,85 @@
     "instrumentation": "Instrumentation et Contrôle",
     "solar": "Solutions Solaires",
     "maintenance": "Maintenance et Support"
+  },
+  "items": {
+    "installation-commissioning": "Installation et Mise en Service",
+    "maintenance-repair": "Maintenance et Réparation",
+    "calibration-testing": "Calibration et Tests",
+    "technical-support": "Support Technique",
+    "custom-solutions": "Solutions Personnalisées",
+    "consultation-training": "Consultation et Formation",
+    "supply-chain-management": "Gestion de la Chaîne d'Approvisionnement",
+    "solar-epc": "Solutions EPC Solaires"
+  },
+  "durations": {
+    "installation-commissioning": "1-4 semaines",
+    "maintenance-repair": "Même jour - 1 semaine",
+    "calibration-testing": "2-5 jours",
+    "technical-support": "Immédiat - Continu",
+    "custom-solutions": "2-12 semaines",
+    "consultation-training": "1-5 jours",
+    "supply-chain-management": "1-7 jours",
+    "solar-epc": "4-16 semaines"
+  },
+  "features": {
+    "installation-commissioning": {
+      "plc-dcs": "Installation PLC/DCS",
+      "system-integration": "Intégration Système",
+      "performance-testing": "Tests de Performance",
+      "compliance-certification": "Certification de Conformité"
+    },
+    "maintenance-repair": {
+      "preventive": "Maintenance Préventive",
+      "emergency": "Réparations d'Urgence (2h)",
+      "replacement": "Remplacement de Composants",
+      "upgrades": "Mises à Niveau Système"
+    },
+    "calibration-testing": {
+      "nabl-certified": "Calibration Certifiée NABL",
+      "accuracy-testing": "Tests de Précision ±0,25%",
+      "compliance": "Vérification de Conformité",
+      "certificates": "Certificats de Traçabilité"
+    },
+    "technical-support": {
+      "24-7-support": "Support 24/7/365",
+      "remote-diagnostics": "Diagnostics à Distance",
+      "onsite-response": "Réponse Sur Site en 4h",
+      "emergency-hotline": "Ligne d'Urgence"
+    },
+    "custom-solutions": {
+      "mcc-panels": "Panneaux MCC Personnalisés",
+      "process-automation": "Automatisation de Processus",
+      "unique-applications": "Applications Uniques",
+      "end-to-end": "Solutions de Bout en Bout"
+    },
+    "consultation-training": {
+      "plc-programming": "Formation Programmation PLC",
+      "system-design": "Consultation en Conception Système",
+      "isa-certified": "Modules Certifiés ISA",
+      "hands-on": "Ateliers Pratiques"
+    },
+    "supply-chain-management": {
+      "authorized-distributors": "Distributeurs Autorisés",
+      "genuine-parts": "Pièces Authentiques Uniquement",
+      "warranty": "Garantie 1 An",
+      "express-delivery": "Livraison Express"
+    },
+    "solar-epc": {
+      "mnre-approved": "Designs Approuvés MNRE",
+      "capacity": "Capacité 1kW à 1MW+",
+      "guarantee": "Garantie 25 Ans",
+      "grid-connection": "Support Connexion Réseau"
+    }
+  },
+  "descriptions": {
+    "installation-commissioning": "Services professionnels d'installation et de mise en service pour panneaux électriques, PLCs, systèmes SCADA et équipements industriels avec validation complète du système.",
+    "maintenance-repair": "Services complets de maintenance préventive et d'urgence pour systèmes électriques, panneaux de contrôle et équipements d'automatisation industrielle.",
+    "calibration-testing": "Services de calibration et de tests de précision certifiés NABL pour instruments de pression, température, débit et systèmes de contrôle.",
+    "technical-support": "Services de support technique 24/7/365 avec diagnostics à distance, dépannage sur site et réponse d'urgence.",
+    "custom-solutions": "Solutions d'ingénierie sur mesure pour exigences industrielles uniques incluant panneaux MCC personnalisés, systèmes d'automatisation et solutions de contrôle de processus.",
+    "consultation-training": "Consultation technique experte et programmes de formation pratique pour programmation PLC, développement HMI et automatisation industrielle.",
+    "supply-chain-management": "Gestion complète de la chaîne d'approvisionnement pour composants électriques et pièces de rechange. Réseau de distributeurs autorisés garantit des pièces authentiques.",
+    "solar-epc": "Services complets d'Ingénierie, Approvisionnement et Construction Solaire pour projets de 1kW à 1MW+. Designs approuvés MNRE avec garantie de performance de 25 ans."
   }
 }

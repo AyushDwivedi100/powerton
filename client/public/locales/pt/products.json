@@ -1,26 +1,137 @@
 {
-  "title": "Our Products",
-  "subtitle": "Industrial Automation & Electrical Components",
+  "title": "Nossos Produtos",
+  "subtitle": "Automação Industrial e Componentes Elétricos",
   "categories": {
-    "automation": "Automation & Control",
-    "electrical": "Electrical Components",
-    "instrumentation": "Instrumentation",
-    "solar": "Solar Products",
-    "motors": "BLDC Motor Systems",
-    "pumps": "Pumps & Motors",
-    "safety": "Safety Equipment",
-    "tools": "Industrial Tools"
+    "automation": "Automação e Controle",
+    "electrical": "Componentes Elétricos",
+    "instrumentation": "Instrumentação",
+    "solar": "Produtos Solares",
+    "motors": "Sistemas de Motores BLDC",
+    "pumps": "Bombas e Motores",
+    "safety": "Equipamentos de Segurança",
+    "tools": "Ferramentas Industriais"
   },
   "filters": {
-    "all": "All",
-    "category": "Category", 
-    "industry": "Industry",
+    "all": "Todos",
+    "category": "Categoria",
+    "industry": "Indústria",
     "status": "Status"
   },
   "status": {
-    "available": "Available",
-    "outOfStock": "Out of Stock",
-    "discontinued": "Discontinued"
+    "available": "Disponível",
+    "outOfStock": "Fora de Estoque",
+    "discontinued": "Descontinuado"
+  },
+  "productPages": {
+    "analyzers": {
+      "title": "Analisadores de Processo",
+      "subtitle": "Instrumentos analíticos avançados para monitoramento de processos"
+    },
+    "automationControl": {
+      "title": "Sistemas de Automação e Controle",
+      "subtitle": "Soluções avançadas de automação e controle para gerenciamento e otimização de processos industriais"
+    },
+    "bldcCeilingFan": {
+      "title": "Ventiladores de Teto BLDC",
+      "subtitle": "Ventiladores de teto DC brushless eficientes em energia com recursos inteligentes e desempenho superior"
+    },
+    "bldcCoolerExhaust": {
+      "title": "Motores BLDC para Resfriadores e Exaustores",
+      "subtitle": "Motores BLDC eficientes em energia para aplicações de resfriamento, ventilação e exaustão"
+    },
+    "bldcSubmersible": {
+      "title": "Bombas BLDC Submersas e de Superfície",
+      "subtitle": "Bombas BLDC eficientes em energia para abastecimento de água, irrigação e aplicações solares"
+    },
+    "bldcTableWall": {
+      "title": "Motores BLDC para Ventiladores de Mesa e Parede",
+      "subtitle": "Motores BLDC eficientes em energia para ventiladores de mesa, parede e pedestal"
+    },
+    "bldc": {
+      "title": "Produtos BLDC",
+      "subtitle": "Produtos de motores DC brushless para aplicações eficientes de resfriamento, ventilação e bombeamento"
+    },
+    "cables": {
+      "title": "Cabos e Fios",
+      "subtitle": "Soluções de cabos e fiação industrial para aplicações de energia e controle"
+    },
+    "calibration": {
+      "title": "Equipamentos de Calibração",
+      "subtitle": "Instrumentos de calibração de precisão e equipamentos de teste"
+    },
+    "centrifugalPumps": {
+      "title": "Bombas Centrífugas",
+      "subtitle": "Bombas centrífugas de alta eficiência para aplicações industriais"
+    },
+    "circuitBreakers": {
+      "title": "Disjuntores e Fusíveis",
+      "subtitle": "Dispositivos de proteção elétrica para segurança de circuitos"
+    },
+    "connectors": {
+      "title": "Conectores e Terminais",
+      "subtitle": "Conectores elétricos e soluções de terminais"
+    },
+    "electricalComponents": {
+      "title": "Componentes Elétricos",
+      "subtitle": "Soluções abrangentes de componentes elétricos para aplicações industriais"
+    },
+    "safetyProtective": {
+      "title": "Dispositivos de Segurança e Proteção",
+      "subtitle": "Sistemas de segurança industrial e equipamentos de proteção"
+    }
+  },
+  "common": {
+    "keyFeatures": "Principais Características:",
+    "needHelp": "Precisa de Ajuda?",
+    "contactExperts": "Contatar Especialistas",
+    "requestQuote": "Solicitar Orçamento"
+  },
+  "features": {
+    "common": {
+      "highTorque": "Alto Torque",
+      "variableSpeed": "Velocidade Variável",
+      "cordlessOptions": "Opções Sem Fio",
+      "chuckCapacity": "Capacidade do Mandril: 13mm",
+      "multipleSizes": "Múltiplos Tamanhos",
+      "safetyGuards": "Proteções de Segurança",
+      "antiVibration": "Antivibração",
+      "powerfulMotors": "Motores Potentes",
+      "highImpactForce": "Alta Força de Impacto",
+      "socketCompatibility": "Compatibilidade com Soquetes",
+      "forwardReverse": "Frente/Trás",
+      "batteryPowered": "Alimentado por Bateria",
+      "efficientSwitching": "Entrada 85-265V AC",
+      "dcOutput": "Saída 12V/24V DC",
+      "highEfficiency": "Alta Eficiência",
+      "compactDesign": "Design Compacto",
+      "dinRailMount": "Montagem em Trilho DIN",
+      "wideInputRange": "Ampla Faixa de Entrada",
+      "shortCircuitProtection": "Proteção contra Curto-Circuito",
+      "ledStatus": "Status LED",
+      "batteryBackup": "Backup de Bateria",
+      "surgeProtection": "Proteção contra Surtos",
+      "autoTransfer": "Transferência Automática",
+      "lcdDisplay": "Display LCD"
+    }
+  },
+  "locations": {
+    "delhiNcr": "Delhi NCR",
+    "rajasthan": "Rajastão",
+    "uttarPradesh": "Uttar Pradesh",
+    "gujarat": "Gujarat",
+    "maharashtra": "Maharashtra",
+    "haryana": "Haryana",
+    "westBengal": "Bengala Ocidental"
+  },
+  "brands": {
+    "customBuilt": "Construído Sob Medida",
+    "fluke": "Fluke, Keysight",
+    "siemens": "Siemens, Allen Bradley",
+    "abb": "ABB, Schneider",
+    "honeywell": "Honeywell, Yokogawa",
+    "wonderware": "Wonderware, iFIX",
+    "grundfos": "Grundfos, KSB",
+    "3m": "3M, MSA"
   },
   "items": {
     "solar-products": "Produtos Solares",

@@ -1,11 +1,91 @@
 {
-  "title": "Our Services",
-  "subtitle": "Comprehensive Industrial Engineering Solutions",
+  "title": "Nossos Serviços",
+  "subtitle": "Soluções Abrangentes de Engenharia Industrial",
   "categories": {
-    "automation": "Industrial Automation",
-    "electrical": "Electrical Engineering", 
-    "instrumentation": "Instrumentation & Control",
-    "solar": "Solar Solutions",
-    "maintenance": "Maintenance & Support"
+    "automation": "Automação Industrial",
+    "electrical": "Engenharia Elétrica",
+    "instrumentation": "Instrumentação e Controle",
+    "solar": "Soluções Solares",
+    "maintenance": "Manutenção e Suporte"
+  },
+  "items": {
+    "installation-commissioning": "Instalação e Comissionamento",
+    "maintenance-repair": "Manutenção e Reparo",
+    "calibration-testing": "Calibração e Testes",
+    "technical-support": "Suporte Técnico",
+    "custom-solutions": "Soluções Personalizadas",
+    "consultation-training": "Consultoria e Treinamento",
+    "supply-chain-management": "Gestão da Cadeia de Suprimentos",
+    "solar-epc": "Soluções EPC Solar"
+  },
+  "durations": {
+    "installation-commissioning": "1-4 semanas",
+    "maintenance-repair": "Mesmo dia - 1 semana",
+    "calibration-testing": "2-5 dias",
+    "technical-support": "Imediato - Contínuo",
+    "custom-solutions": "2-12 semanas",
+    "consultation-training": "1-5 dias",
+    "supply-chain-management": "1-7 dias",
+    "solar-epc": "4-16 semanas"
+  },
+  "features": {
+    "installation-commissioning": {
+      "plc-dcs": "Instalação PLC/DCS",
+      "system-integration": "Integração de Sistemas",
+      "performance-testing": "Testes de Desempenho",
+      "compliance-certification": "Certificação de Conformidade"
+    },
+    "maintenance-repair": {
+      "preventive": "Manutenção Preventiva",
+      "emergency": "Reparos de Emergência (2h)",
+      "replacement": "Substituição de Componentes",
+      "upgrades": "Atualizações de Sistema"
+    },
+    "calibration-testing": {
+      "nabl-certified": "Calibração Certificada NABL",
+      "accuracy-testing": "Testes de Precisão ±0,25%",
+      "compliance": "Verificação de Conformidade",
+      "certificates": "Certificados de Rastreabilidade"
+    },
+    "technical-support": {
+      "24-7-support": "Suporte 24/7/365",
+      "remote-diagnostics": "Diagnósticos Remotos",
+      "onsite-response": "Resposta Local em 4h",
+      "emergency-hotline": "Linha Direta de Emergência"
+    },
+    "custom-solutions": {
+      "mcc-panels": "Painéis MCC Personalizados",
+      "process-automation": "Automação de Processos",
+      "unique-applications": "Aplicações Exclusivas",
+      "end-to-end": "Soluções Completas"
+    },
+    "consultation-training": {
+      "plc-programming": "Treinamento em Programação PLC",
+      "system-design": "Consultoria em Design de Sistemas",
+      "isa-certified": "Módulos Certificados ISA",
+      "hands-on": "Workshops Práticos"
+    },
+    "supply-chain-management": {
+      "authorized-distributors": "Distribuidores Autorizados",
+      "genuine-parts": "Apenas Peças Genuínas",
+      "warranty": "Garantia de 1 Ano",
+      "express-delivery": "Entrega Expressa"
+    },
+    "solar-epc": {
+      "mnre-approved": "Projetos Aprovados MNRE",
+      "capacity": "Capacidade 1kW a 1MW+",
+      "guarantee": "Garantia de 25 Anos",
+      "grid-connection": "Suporte para Conexão à Rede"
+    }
+  },
+  "descriptions": {
+    "installation-commissioning": "Serviços profissionais de instalação e comissionamento para painéis elétricos, PLCs, sistemas SCADA e equipamentos industriais com validação completa do sistema.",
+    "maintenance-repair": "Serviços abrangentes de manutenção preventiva e de emergência para sistemas elétricos, painéis de controle e equipamentos de automação industrial.",
+    "calibration-testing": "Serviços de calibração e teste de precisão certificados NABL para instrumentos de pressão, temperatura, vazão e sistemas de controle.",
+    "technical-support": "Serviços de suporte técnico 24/7/365 com diagnósticos remotos, solução de problemas no local e resposta de emergência.",
+    "custom-solutions": "Soluções de engenharia personalizadas para requisitos industriais únicos, incluindo painéis MCC customizados, sistemas de automação e soluções de controle de processos.",
+    "consultation-training": "Consultoria técnica especializada e programas de treinamento prático para programação PLC, desenvolvimento HMI e automação industrial.",
+    "supply-chain-management": "Gestão abrangente da cadeia de suprimentos para componentes elétricos e peças de reposição. Rede de distribuidores autorizados garante peças genuínas.",
+    "solar-epc": "Serviços completos de Engenharia, Aquisição e Construção Solar para projetos de 1kW a 1MW+. Projetos aprovados MNRE com garantia de desempenho de 25 anos."
   }
 }

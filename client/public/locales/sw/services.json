@@ -1,11 +1,91 @@
 {
-  "title": "Our Services",
-  "subtitle": "Comprehensive Industrial Engineering Solutions",
+  "title": "Huduma Zetu",
+  "subtitle": "Suluhisho Kamili za Uhandisi wa Viwandani",
   "categories": {
-    "automation": "Industrial Automation",
-    "electrical": "Electrical Engineering", 
-    "instrumentation": "Instrumentation & Control",
-    "solar": "Solar Solutions",
-    "maintenance": "Maintenance & Support"
+    "automation": "Otomatiki ya Viwandani",
+    "electrical": "Uhandisi wa Umeme",
+    "instrumentation": "Vifaa na Udhibiti",
+    "solar": "Suluhisho za Jua",
+    "maintenance": "Matengenezo na Msaada"
+  },
+  "items": {
+    "installation-commissioning": "Usakinishaji na Kuweka Utumikaji",
+    "maintenance-repair": "Matengenezo na Ukarabati",
+    "calibration-testing": "Urekebishaji na Uchunguzi",
+    "technical-support": "Msaada wa Kiufundi",
+    "custom-solutions": "Suluhisho za Kipekee",
+    "consultation-training": "Ushauri na Mafunzo",
+    "supply-chain-management": "Usimamizi wa Mnyororo wa Uongozaji",
+    "solar-epc": "Suluhisho za EPC za Jua"
+  },
+  "durations": {
+    "installation-commissioning": "wiki 1-4",
+    "maintenance-repair": "siku hiyo hiyo - wiki 1",
+    "calibration-testing": "siku 2-5",
+    "technical-support": "mara moja - endelevu",
+    "custom-solutions": "wiki 2-12",
+    "consultation-training": "siku 1-5",
+    "supply-chain-management": "siku 1-7",
+    "solar-epc": "wiki 4-16"
+  },
+  "features": {
+    "installation-commissioning": {
+      "plc-dcs": "Usakinishaji wa PLC/DCS",
+      "system-integration": "Uunganishaji wa Mifumo",
+      "performance-testing": "Uchunguzi wa Utendaji",
+      "compliance-certification": "Uthibitisho wa Kufuata Sheria"
+    },
+    "maintenance-repair": {
+      "preventive": "Matengenezo ya Kuzuia",
+      "emergency": "Ukarabati wa Dharura (saa 2)",
+      "replacement": "Kubadilisha Vipengele",
+      "upgrades": "Uboreshaji wa Mfumo"
+    },
+    "calibration-testing": {
+      "nabl-certified": "Urekebishaji Unaoidhinishwa na NABL",
+      "accuracy-testing": "Uchunguzi wa Usahihi ±0.25%",
+      "compliance": "Uthibitisho wa Kufuata",
+      "certificates": "Vyeti vya Utambuzi"
+    },
+    "technical-support": {
+      "24-7-support": "Msaada wa 24/7/365",
+      "remote-diagnostics": "Uchunguzi wa Mbali",
+      "onsite-response": "Mwitikio wa Mahali pa kazi ndani ya saa 4",
+      "emergency-hotline": "Simu ya Dharura"
+    },
+    "custom-solutions": {
+      "mcc-panels": "Paneli za MCC za Kipekee",
+      "process-automation": "Otomatiki ya Michakato",
+      "unique-applications": "Matumizi ya Kipekee",
+      "end-to-end": "Suluhisho Kamili"
+    },
+    "consultation-training": {
+      "plc-programming": "Mafunzo ya Upangaji wa PLC",
+      "system-design": "Ushauri wa Muundo wa Mfumo",
+      "isa-certified": "Moduli Zilizoidhinishwa na ISA",
+      "hands-on": "Warsha za Vitendo"
+    },
+    "supply-chain-management": {
+      "authorized-distributors": "Wasambazaji Walioidhinishwa",
+      "genuine-parts": "Vipengele Halisi Pekee",
+      "warranty": "Dhamana ya Mwaka 1",
+      "express-delivery": "Uwasilishaji wa Haraka"
+    },
+    "solar-epc": {
+      "mnre-approved": "Miundo Iliyoidhinishwa na MNRE",
+      "capacity": "Uwezo wa 1kW hadi 1MW+",
+      "guarantee": "Dhamana ya Miaka 25",
+      "grid-connection": "Msaada wa Muunganiko wa Gridi"
+    }
+  },
+  "descriptions": {
+    "installation-commissioning": "Huduma za kitaalamu za usakinishaji na kuweka utumikaji kwa paneli za umeme, PLC, mifumo ya SCADA na vifaa vya viwandani pamoja na uthibitisho kamili wa mfumo.",
+    "maintenance-repair": "Huduma kamili za matengenezo ya kuzuia na za dharura kwa mifumo ya umeme, paneli za udhibiti na vifaa vya otomatiki ya viwandani.",
+    "calibration-testing": "Huduma za urekebishaji na uchunguzi wa usahihi zilizoidhinishwa na NABL kwa vifaa vya shinikizo, joto, mtiririko na mifumo ya udhibiti.",
+    "technical-support": "Huduma za msaada wa kiufundi wa 24/7/365 pamoja na uchunguzi wa mbali, utatuzi wa matatizo mahali pa kazi na mwitikio wa dharura.",
+    "custom-solutions": "Suluhisho za uhandisi zilizobinafsishwa kwa mahitaji ya kipekee ya viwandani ikiwa ni pamoja na paneli za MCC za kipekee, mifumo ya otomatiki na suluhisho za udhibiti wa michakato.",
+    "consultation-training": "Ushauri wa kiufundi wa utaalamu na programu za mafunzo ya vitendo kwa upangaji wa PLC, maendeleo ya HMI na otomatiki ya viwandani.",
+    "supply-chain-management": "Usimamizi kamili wa mnyororo wa uongozaji kwa viungo vya umeme na vipengele vya ziada. Mtandao wa wasambazaji walioidhinishwa unahakikisha vipengele halisi.",
+    "solar-epc": "Huduma kamili za Uhandisi, Ununuzi na Ujenzi wa Jua kwa miradi ya 1kW hadi 1MW+. Miundo iliyoidhinishwa na MNRE pamoja na dhamana ya utendaji wa miaka 25."
   }
 }

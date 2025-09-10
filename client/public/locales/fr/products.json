@@ -22,15 +22,246 @@
     "outOfStock": "Rupture de Stock",
     "discontinued": "Arrêté"
   },
+  "productPages": {
+    "analyzers": {
+      "title": "Analyseurs de Processus",
+      "subtitle": "Instruments analytiques avancés pour le suivi des processus",
+      "product": {
+        "title": "Analyseurs de Processus",
+        "shortDescription": "Analyseurs de gaz et de liquides avancés pour la mesure et le suivi des processus industriels",
+        "fullDescription": "Solutions complètes d'analyseurs de processus incluant analyseurs de gaz, analyseurs de liquides et systèmes de mesure multi-paramètres avec technologie laser à diode accordable.",
+        "keyBenefits": {
+          "processControl": "Contrôle de Processus Amélioré",
+          "productQuality": "Qualité de Produit Améliorée",
+          "compliance": "Conformité Réglementaire",
+          "safety": "Sécurité Renforcée"
+        },
+        "altText": "ID-842: Analyseurs de Processus - Analyseurs de processus de gaz et liquides industriels"
+      },
+      "sections": {
+        "overview": {
+          "title": "Analyse de Processus Avancée"
+        },
+        "technologies": {
+          "title": "Technologies d'Analyse",
+          "description": "Technologies de mesure avancées pour une analyse de processus précise"
+        },
+        "specifications": {
+          "title": "Spécifications Techniques",
+          "description": "Spécifications de précision pour un suivi de processus fiable"
+        }
+      },
+      "buttons": {
+        "consultation": "Consultation d'Analyse"
+      },
+      "labels": {
+        "technologies": "Technologies:",
+        "parameters": "Paramètres:",
+        "specifications": "Spécifications",
+        "applications": "Applications",
+        "industries": "Industries"
+      },
+      "cta": {
+        "title": "Besoin de Solutions d'Analyse de Processus?",
+        "description": "Nos experts en analyse de processus peuvent vous aider à sélectionner les bons analyseurs pour vos exigences de surveillance et de conformité.",
+        "button": "Expert en Analyse"
+      }
+    },
+    "automationControl": {
+      "title": "Systèmes d'Automatisation et de Contrôle",
+      "subtitle": "Solutions avancées d'automatisation et de contrôle pour la gestion et l'optimisation des processus industriels",
+      "description": "Contrôleurs d'automatisation industrielle pour le contrôle de processus",
+      "features": {
+        "digitalIO": "E/S Numériques",
+        "analogProcessing": "Traitement Analogique",
+        "communicationModules": "Modules de Communication",
+        "programmingSoftware": "Logiciel de Programmation",
+        "realtimeMonitoring": "Surveillance en Temps Réel",
+        "dataLogging": "Enregistrement de Données",
+        "alarmManagement": "Gestion des Alarmes",
+        "remoteAccess": "Accès à Distance",
+        "processControl": "Contrôle de Processus",
+        "distributedArchitecture": "Architecture Distribuée",
+        "redundancy": "Redondance",
+        "advancedControl": "Contrôle Avancé",
+        "touchscreenDisplays": "Écrans Tactiles",
+        "graphicInterface": "Interface Graphique",
+        "dataVisualization": "Visualisation de Données",
+        "operatorControl": "Contrôle Opérateur"
+      },
+      "subcategories": {
+        "plcs": {
+          "title": "PLCs (Contrôleurs Logiques Programmables)",
+          "description": "Contrôleurs d'automatisation industrielle pour le contrôle de processus"
+        },
+        "scada": {
+          "title": "Systèmes SCADA",
+          "description": "Systèmes de contrôle de supervision et d'acquisition de données"
+        },
+        "dcs": {
+          "title": "DCS (Systèmes de Contrôle Distribués)",
+          "description": "Systèmes de contrôle distribués pour processus à grande échelle"
+        },
+        "hmi": {
+          "title": "HMI (Interface Homme-Machine)",
+          "description": "Interfaces utilisateur pour systèmes de contrôle industriel"
+        }
+      },
+      "sections": {
+        "controlSystemSolutions": "Solutions de Systèmes de Contrôle",
+        "keyFeatures": "Caractéristiques Principales:"
+      },
+      "cta": {
+        "needAutomationSolutions": "Besoin de Solutions d'Automatisation?",
+        "engineersDescription": "Nos ingénieurs en automatisation peuvent concevoir et implémenter des systèmes de contrôle complets pour votre installation.",
+        "contactAutomationExperts": "Contacter les Experts en Automatisation",
+        "requestQuote": "Demander un Devis"
+      }
+    },
+    "bldcCeilingFan": {
+      "title": "Ventilateurs de Plafond BLDC",
+      "subtitle": "Ventilateurs de plafond à courant continu sans balais économes en énergie avec fonctionnalités intelligentes et performances supérieures",
+      "upgradeTitle": "Passer aux Ventilateurs de Plafond BLDC?",
+      "upgradeDescription": "Nos spécialistes BLDC peuvent vous aider à choisir des solutions de ventilateurs de plafond économes en énergie pour votre espace.",
+      "contactExperts": "Contacter les Experts BLDC"
+    },
+    "bldcCoolerExhaust": {
+      "title": "Moteurs BLDC pour Refroidisseurs et Extraction",
+      "subtitle": "Moteurs BLDC économes en énergie pour applications de refroidissement, ventilation et extraction"
+    },
+    "bldcSubmersible": {
+      "title": "Pompes BLDC Submersibles et de Surface",
+      "subtitle": "Pompes BLDC économes en énergie pour alimentation en eau, irrigation et applications solaires"
+    },
+    "bldcTableWall": {
+      "title": "Moteurs BLDC pour Ventilateurs de Table et Muraux",
+      "subtitle": "Moteurs BLDC économes en énergie pour ventilateurs de table, muraux et sur pied"
+    },
+    "bldc": {
+      "title": "Produits BLDC",
+      "subtitle": "Produits de moteurs à courant continu sans balais pour applications économes en énergie de refroidissement, ventilation et pompage"
+    },
+    "cables": {
+      "title": "Câbles et Fils",
+      "subtitle": "Solutions de câbles et de câblage industriels pour applications d'alimentation et de contrôle"
+    },
+    "calibration": {
+      "title": "Équipements de Calibration",
+      "subtitle": "Instruments de calibration de précision et équipements de test"
+    },
+    "centrifugalPumps": {
+      "title": "Pompes Centrifuges",
+      "subtitle": "Pompes centrifuges haute efficacité pour applications industrielles"
+    },
+    "circuitBreakers": {
+      "title": "Disjoncteurs et Fusibles",
+      "subtitle": "Dispositifs de protection électrique pour la sécurité des circuits"
+    },
+    "connectors": {
+      "title": "Connecteurs et Terminaux",
+      "subtitle": "Connecteurs électriques et solutions de terminaux"
+    },
+    "controllers": {
+      "title": "Contrôleurs",
+      "subtitle": "Systèmes de contrôle industriel et contrôleurs d'automatisation"
+    },
+    "cuttingTools": {
+      "title": "Outils de Coupe",
+      "subtitle": "Outils de coupe industriels et équipements d'usinage"
+    },
+    "dcs": {
+      "title": "DCS (Systèmes de Contrôle Distribués)",
+      "subtitle": "Systèmes de contrôle distribués avancés pour les industries de processus"
+    },
+    "diaphragmPumps": {
+      "title": "Pompes à Membrane",
+      "subtitle": "Pompes de dosage de précision et de manipulation de produits chimiques"
+    },
+    "electricalComponents": {
+      "title": "Composants Électriques",
+      "subtitle": "Solutions complètes de composants électriques pour applications industrielles"
+    },
+    "enclosures": {
+      "title": "Enceintes et Armoires",
+      "subtitle": "Enceintes électriques et solutions d'armoires de contrôle"
+    },
+    "safetyProtective": {
+      "title": "Dispositifs de Sécurité et de Protection",
+      "subtitle": "Systèmes de sécurité industrielle et équipements de protection",
+      "description": "Équipements de sécurité et de protection complets pour assurer la sécurité du personnel et des équipements dans les environnements industriels",
+      "sectionsTitle": "Solutions de Sécurité",
+      "cta": {
+        "title": "Prioriser la Sécurité dans Vos Opérations?",
+        "description": "Nos ingénieurs en sécurité peuvent évaluer votre installation et recommander des solutions de protection complètes.",
+        "contactButton": "Contacter les Experts en Sécurité"
+      }
+    }
+  },
+  "common": {
+    "keyFeatures": "Caractéristiques Principales:",
+    "needHelp": "Besoin d'Aide?",
+    "contactExperts": "Contacter les Experts",
+    "requestQuote": "Demander un Devis",
+    "hazardousAreaSolutions": "Solutions pour Zones Dangereuses",
+    "needEquipment": "Besoin d'Équipement?",
+    "specialists": "spécialistes"
+  },
   "items": {
+    "instrumentation-components": "Composants d'Instrumentation",
+    "electrical-components": "Composants Électriques",
+    "measurement-instruments": "Instruments de Mesure",
     "solar-products": "Produits Solaires",
     "automation-control-systems": "Systèmes d'Automatisation et de Contrôle",
     "safety-protective-devices": "Dispositifs de Sécurité et de Protection",
     "mechanical-pumps-spares": "Pompes Mécaniques et Pièces de Rechange",
     "industrial-tools-tackles": "Outils et Équipements Industriels",
-    "bldc": "BLDC",
-    "instrumentation-components": "Composants d'Instrumentation",
-    "electrical-components": "Composants Électriques",
-    "measurement-instruments": "Instruments de Mesure"
+    "bldc": "Produits BLDC"
+  },
+  "features": {
+    "common": {
+      "highTorque": "Couple Élevé",
+      "variableSpeed": "Vitesse Variable",
+      "cordlessOptions": "Options Sans Fil",
+      "chuckCapacity": "Capacité de Mandrin: 13mm",
+      "multipleSizes": "Tailles Multiples",
+      "safetyGuards": "Protections de Sécurité",
+      "antiVibration": "Anti-Vibration",
+      "powerfulMotors": "Moteurs Puissants",
+      "highImpactForce": "Force d'Impact Élevée",
+      "socketCompatibility": "Compatibilité avec les Douilles",
+      "forwardReverse": "Avant/Arrière",
+      "batteryPowered": "Alimenté par Batterie",
+      "efficientSwitching": "Entrée 85-265V AC",
+      "dcOutput": "Sortie 12V/24V DC",
+      "highEfficiency": "Haute Efficacité",
+      "compactDesign": "Design Compact",
+      "dinRailMount": "Montage sur Rail DIN",
+      "wideInputRange": "Large Plage d'Entrée",
+      "shortCircuitProtection": "Protection Contre Court-Circuit",
+      "ledStatus": "État LED",
+      "batteryBackup": "Sauvegarde Batterie",
+      "surgeProtection": "Protection Contre les Surtensions",
+      "autoTransfer": "Transfert Automatique",
+      "lcdDisplay": "Affichage LCD"
+    }
+  },
+  "locations": {
+    "delhiNcr": "Delhi NCR",
+    "rajasthan": "Rajasthan",
+    "uttarPradesh": "Uttar Pradesh",
+    "gujarat": "Gujarat",
+    "maharashtra": "Maharashtra",
+    "haryana": "Haryana",
+    "westBengal": "Bengale Occidental"
+  },
+  "brands": {
+    "customBuilt": "Fabrication Sur Mesure",
+    "fluke": "Fluke, Keysight",
+    "siemens": "Siemens, Allen Bradley",
+    "abb": "ABB, Schneider",
+    "honeywell": "Honeywell, Yokogawa",
+    "wonderware": "Wonderware, iFIX",
+    "grundfos": "Grundfos, KSB",
+    "3m": "3M, MSA"
   }
 }

@@ -1,11 +1,91 @@
 {
-  "title": "Our Services",
-  "subtitle": "Comprehensive Industrial Engineering Solutions",
+  "title": "Наши Услуги",
+  "subtitle": "Комплексные Решения Промышленной Инженерии",
   "categories": {
-    "automation": "Industrial Automation",
-    "electrical": "Electrical Engineering", 
-    "instrumentation": "Instrumentation & Control",
-    "solar": "Solar Solutions",
-    "maintenance": "Maintenance & Support"
+    "automation": "Промышленная Автоматизация",
+    "electrical": "Электротехника",
+    "instrumentation": "Приборостроение и Управление",
+    "solar": "Солнечные Решения",
+    "maintenance": "Обслуживание и Поддержка"
+  },
+  "items": {
+    "installation-commissioning": "Установка и Ввод в Эксплуатацию",
+    "maintenance-repair": "Обслуживание и Ремонт",
+    "calibration-testing": "Калибровка и Тестирование",
+    "technical-support": "Техническая Поддержка",
+    "custom-solutions": "Индивидуальные Решения",
+    "consultation-training": "Консультации и Обучение",
+    "supply-chain-management": "Управление Цепочкой Поставок",
+    "solar-epc": "Солнечные EPC Решения"
+  },
+  "durations": {
+    "installation-commissioning": "1-4 недели",
+    "maintenance-repair": "В тот же день - 1 неделя",
+    "calibration-testing": "2-5 дней",
+    "technical-support": "Немедленно - Постоянно",
+    "custom-solutions": "2-12 недель",
+    "consultation-training": "1-5 дней",
+    "supply-chain-management": "1-7 дней",
+    "solar-epc": "4-16 недель"
+  },
+  "features": {
+    "installation-commissioning": {
+      "plc-dcs": "Установка ПЛК/СУРВ",
+      "system-integration": "Системная Интеграция",
+      "performance-testing": "Тестирование Производительности",
+      "compliance-certification": "Сертификация Соответствия"
+    },
+    "maintenance-repair": {
+      "preventive": "Профилактическое Обслуживание",
+      "emergency": "Аварийный Ремонт (2ч)",
+      "replacement": "Замена Компонентов",
+      "upgrades": "Модернизация Систем"
+    },
+    "calibration-testing": {
+      "nabl-certified": "Калибровка с Сертификацией NABL",
+      "accuracy-testing": "Тестирование Точности ±0,25%",
+      "compliance": "Проверка Соответствия",
+      "certificates": "Сертификаты Прослеживаемости"
+    },
+    "technical-support": {
+      "24-7-support": "Поддержка 24/7/365",
+      "remote-diagnostics": "Удаленная Диагностика",
+      "onsite-response": "Выезд на Место в Течение 4ч",
+      "emergency-hotline": "Горячая Линия"
+    },
+    "custom-solutions": {
+      "mcc-panels": "Индивидуальные Панели MCC",
+      "process-automation": "Автоматизация Процессов",
+      "unique-applications": "Уникальные Применения",
+      "end-to-end": "Комплексные Решения"
+    },
+    "consultation-training": {
+      "plc-programming": "Обучение Программированию ПЛК",
+      "system-design": "Консультации по Проектированию Систем",
+      "isa-certified": "Модули с Сертификацией ISA",
+      "hands-on": "Практические Семинары"
+    },
+    "supply-chain-management": {
+      "authorized-distributors": "Авторизованные Дистрибьюторы",
+      "genuine-parts": "Только Оригинальные Детали",
+      "warranty": "Гарантия 1 Год",
+      "express-delivery": "Экспресс-Доставка"
+    },
+    "solar-epc": {
+      "mnre-approved": "Проекты, Одобренные MNRE",
+      "capacity": "Мощность от 1кВт до 1МВт+",
+      "guarantee": "Гарантия 25 Лет",
+      "grid-connection": "Поддержка Подключения к Сети"
+    }
+  },
+  "descriptions": {
+    "installation-commissioning": "Профессиональные услуги по установке и вводу в эксплуатацию электрических панелей, ПЛК, систем SCADA и промышленного оборудования с полной проверкой системы.",
+    "maintenance-repair": "Комплексные услуги профилактического и аварийного обслуживания электрических систем, панелей управления и оборудования промышленной автоматизации.",
+    "calibration-testing": "Сертифицированные NABL услуги точной калибровки и тестирования приборов давления, температуры, расхода и систем управления.",
+    "technical-support": "Услуги технической поддержки 24/7/365 с удаленной диагностикой, устранением неполадок на месте и реагированием на чрезвычайные ситуации.",
+    "custom-solutions": "Индивидуальные инженерные решения для уникальных промышленных требований, включая индивидуальные панели MCC, системы автоматизации и решения управления процессами.",
+    "consultation-training": "Экспертные технические консультации и практические программы обучения по программированию ПЛК, разработке HMI и промышленной автоматизации.",
+    "supply-chain-management": "Комплексное управление цепочкой поставок электрических компонентов и запасных частей. Сеть авторизованных дистрибьюторов гарантирует оригинальные детали.",
+    "solar-epc": "Полные услуги по солнечному проектированию, закупкам и строительству для проектов от 1кВт до 1МВт+. Проекты, одобренные MNRE, с 25-летней гарантией производительности."
   }
 }

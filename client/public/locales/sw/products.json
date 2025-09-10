@@ -1,26 +1,102 @@
 {
-  "title": "Our Products",
-  "subtitle": "Industrial Automation & Electrical Components",
+  "title": "Bidhaa Zetu",
+  "subtitle": "Vifaa vya Otomatiki ya Viwandani na Viungo vya Umeme",
   "categories": {
-    "automation": "Automation & Control",
-    "electrical": "Electrical Components",
-    "instrumentation": "Instrumentation",
-    "solar": "Solar Products",
-    "motors": "BLDC Motor Systems",
-    "pumps": "Pumps & Motors",
-    "safety": "Safety Equipment",
-    "tools": "Industrial Tools"
+    "automation": "Otomatiki na Udhibiti",
+    "electrical": "Viungo vya Umeme",
+    "instrumentation": "Vifaa vya Kipimo",
+    "solar": "Bidhaa za Jua",
+    "motors": "Mifumo ya Mitambo ya BLDC",
+    "pumps": "Pampu na Mitambo",
+    "safety": "Vifaa vya Usalama",
+    "tools": "Zana za Viwandani"
   },
   "filters": {
-    "all": "All",
-    "category": "Category", 
-    "industry": "Industry",
-    "status": "Status"
+    "all": "Zote",
+    "category": "Kategoria",
+    "industry": "Sekta",
+    "status": "Hali"
   },
   "status": {
-    "available": "Available",
-    "outOfStock": "Out of Stock",
-    "discontinued": "Discontinued"
+    "available": "Inapatikana",
+    "outOfStock": "Haipatikani",
+    "discontinued": "Imeacha Kutengenezwa"
+  },
+  "productPages": {
+    "analyzers": {
+      "title": "Vichambuzi vya Michakato",
+      "subtitle": "Vifaa vya hali ya juu vya uchambuzi kwa ufuatiliaji wa michakato"
+    },
+    "automationControl": {
+      "title": "Mifumo ya Otomatiki na Udhibiti",
+      "subtitle": "Suluhisho za hali ya juu za otomatiki na udhibiti kwa usimamizi na uboreshaji wa michakato ya viwandani"
+    },
+    "bldcCeilingFan": {
+      "title": "Panka za Dari za BLDC",
+      "subtitle": "Panka za dari za DC zisizo na brashi zinazokoa nishati zenye sifa za kisasa na utendaji wa hali ya juu"
+    },
+    "bldc": {
+      "title": "Bidhaa za BLDC",
+      "subtitle": "Bidhaa za mitambo ya DC isiyo na brashi kwa matumizi ya upokoaji, uongezaji wa hewa na upampuaji yanayokoa nishati"
+    },
+    "cables": {
+      "title": "Kebo na Waya",
+      "subtitle": "Suluhisho za kebo na waya za viwandani kwa matumizi ya nguvu na udhibiti"
+    },
+    "calibration": {
+      "title": "Vifaa vya Urekebishaji",
+      "subtitle": "Vifaa vya urekebishaji wa usahihi na vifaa vya uchunguzi"
+    },
+    "electricalComponents": {
+      "title": "Viungo vya Umeme",
+      "subtitle": "Suluhisho kamili za viungo vya umeme kwa matumizi ya viwandani"
+    },
+    "safetyProtective": {
+      "title": "Vifaa vya Usalama na Kinga",
+      "subtitle": "Mifumo ya usalama ya viwandani na vifaa vya kinga"
+    }
+  },
+  "common": {
+    "keyFeatures": "Vipengele Muhimu:",
+    "needHelp": "Unahitaji Msaada?",
+    "contactExperts": "Wasiliana na Wataalamu",
+    "requestQuote": "Omba Nukuu"
+  },
+  "features": {
+    "common": {
+      "highTorque": "Nguvu Kubwa",
+      "variableSpeed": "Kasi Inayobadilika",
+      "cordlessOptions": "Chaguo Zisizo na Waya",
+      "multipleSizes": "Ukubwa Mbalimbali",
+      "safetyGuards": "Vialinda vya Usalama",
+      "antiVibration": "Kukinga Mtetemo",
+      "powerfulMotors": "Mitambo Yenye Nguvu",
+      "highEfficiency": "Ufanisi wa Hali ya Juu",
+      "compactDesign": "Muundo wa Kifupi",
+      "shortCircuitProtection": "Kinga dhidi ya Mkato wa Umeme",
+      "batteryBackup": "Chelezo cha Betri",
+      "surgeProtection": "Kinga dhidi ya Mvua ya Umeme",
+      "lcdDisplay": "Onyesho la LCD"
+    }
+  },
+  "locations": {
+    "delhiNcr": "Delhi NCR",
+    "rajasthan": "Rajasthan",
+    "uttarPradesh": "Uttar Pradesh",
+    "gujarat": "Gujarat",
+    "maharashtra": "Maharashtra",
+    "haryana": "Haryana",
+    "westBengal": "Bengal ya Magharibi"
+  },
+  "brands": {
+    "customBuilt": "Imetengenezwa Kwa Mahitaji",
+    "fluke": "Fluke, Keysight",
+    "siemens": "Siemens, Allen Bradley",
+    "abb": "ABB, Schneider",
+    "honeywell": "Honeywell, Yokogawa",
+    "wonderware": "Wonderware, iFIX",
+    "grundfos": "Grundfos, KSB",
+    "3m": "3M, MSA"
   },
   "items": {
     "solar-products": "Bidhaa za Jua",
