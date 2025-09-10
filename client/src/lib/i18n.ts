@@ -21,8 +21,8 @@ i18n
   .use(LanguageDetector)
   .use(initReactI18next)
   .init({
-    fallbackLng: false, // No fallback language - show keys when missing
-    lng: 'hi', // Set Hindi as default language
+    fallbackLng: 'en', // Set English as fallback language
+    lng: 'en', // Set English as default language  
     debug: import.meta.env.DEV, // Console logging only in development
     
     // Supported languages - English now included

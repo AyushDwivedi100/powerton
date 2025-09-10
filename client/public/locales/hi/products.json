@@ -58,6 +58,36 @@
     "outOfStock": "स्टॉक में नहीं",
     "discontinued": "बंद कर दिया गया"
   },
+  "subcategories": {
+    "sensors": {
+      "title": "सेंसर",
+      "description": "औद्योगिक मापन और नियंत्रण के लिए सेंसर"
+    },
+    "transmitters": {
+      "title": "ट्रांसमीटर",
+      "description": "प्रक्रिया ट्रांसमीटर और सिग्नल रूपांतरण उपकरण"
+    },
+    "controllers": {
+      "title": "नियंत्रक",
+      "description": "औद्योगिक नियंत्रण प्रणाली और स्वचालन नियंत्रक"
+    },
+    "switches": {
+      "title": "स्विच",
+      "description": "औद्योगिक स्विच और नियंत्रण उपकरण"
+    },
+    "valves": {
+      "title": "वाल्व",
+      "description": "औद्योगिक वाल्व और प्रवाह नियंत्रण प्रणाली"
+    },
+    "analyzers": {
+      "title": "विश्लेषक",
+      "description": "गुणवत्ता नियंत्रण के लिए प्रक्रिया विश्लेषक"
+    },
+    "signal-conditioners": {
+      "title": "सिग्नल कंडीशनर",
+      "description": "सिग्नल प्रसंस्करण और कंडीशनिंग उपकरण"
+    }
+  },
   "items": {
     "instrumentation-components": "उपकरण घटक",
     "electrical-components": "विद्युत घटक",
