@@ -1,4 +1,26 @@
 {
+  "nav": {
+    "home": "Gida",
+    "about": "Game da mu",
+    "services": "Ayyuka",
+    "products": "Samfuran",
+    "projects": "Ayyuka",
+    "contact": "Tuntube mu",
+    "blog": "Blog",
+    "quote": "Sami farashin"
+  },
+  "language": {
+    "en": "English",
+    "hi": "हिन्दी",
+    "ar": "العربية",
+    "es": "Español",
+    "fr": "Français",
+    "zh": "中文",
+    "pt": "Português",
+    "ru": "Русский",
+    "sw": "Kiswahili",
+    "ha": "Hausa"
+  },
   "buttons": {
     "learnMore": "Koyi ƙari",
     "getQuote": "Sami farashin",

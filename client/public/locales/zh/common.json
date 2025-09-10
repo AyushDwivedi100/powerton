@@ -1,4 +1,26 @@
 {
+  "nav": {
+    "home": "首页",
+    "about": "关于我们",
+    "services": "服务",
+    "products": "产品",
+    "projects": "项目",
+    "contact": "联系我们",
+    "blog": "博客",
+    "quote": "获取报价"
+  },
+  "language": {
+    "en": "English",
+    "hi": "हिन्दी",
+    "ar": "العربية",
+    "es": "Español",
+    "fr": "Français",
+    "zh": "中文",
+    "pt": "Português",
+    "ru": "Русский",
+    "sw": "Kiswahili",
+    "ha": "Hausa"
+  },
   "buttons": {
     "learnMore": "了解更多",
     "getQuote": "获取报价",

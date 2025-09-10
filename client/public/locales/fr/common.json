@@ -1,4 +1,26 @@
 {
+  "nav": {
+    "home": "Accueil",
+    "about": "À propos",
+    "services": "Services",
+    "products": "Produits",
+    "projects": "Projets",
+    "contact": "Contact",
+    "blog": "Blog",
+    "quote": "Obtenir un devis"
+  },
+  "language": {
+    "en": "English",
+    "hi": "हिन्दी",
+    "ar": "العربية",
+    "es": "Español",
+    "fr": "Français",
+    "zh": "中文",
+    "pt": "Português",
+    "ru": "Русский",
+    "sw": "Kiswahili",
+    "ha": "Hausa"
+  },
   "buttons": {
     "learnMore": "En savoir plus",
     "getQuote": "Obtenir un devis",

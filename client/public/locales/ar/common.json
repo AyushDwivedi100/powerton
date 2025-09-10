@@ -1,4 +1,26 @@
 {
+  "nav": {
+    "home": "الرئيسية",
+    "about": "عنا",
+    "services": "الخدمات",
+    "products": "المنتجات",
+    "projects": "المشاريع",
+    "contact": "اتصل بنا",
+    "blog": "المدونة",
+    "quote": "احصل على عرض أسعار"
+  },
+  "language": {
+    "en": "English",
+    "hi": "हिन्दी",
+    "ar": "العربية",
+    "es": "Español",
+    "fr": "Français",
+    "zh": "中文",
+    "pt": "Português",
+    "ru": "Русский",
+    "sw": "Kiswahili",
+    "ha": "Hausa"
+  },
   "buttons": {
     "learnMore": "تعلم أكثر",
     "getQuote": "احصل على عرض أسعار",

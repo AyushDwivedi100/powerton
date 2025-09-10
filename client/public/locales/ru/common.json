@@ -1,4 +1,26 @@
 {
+  "nav": {
+    "home": "Главная",
+    "about": "О нас",
+    "services": "Услуги",
+    "products": "Продукты",
+    "projects": "Проекты",
+    "contact": "Контакты",
+    "blog": "Блог",
+    "quote": "Получить предложение"
+  },
+  "language": {
+    "en": "English",
+    "hi": "हिन्दी",
+    "ar": "العربية",
+    "es": "Español",
+    "fr": "Français",
+    "zh": "中文",
+    "pt": "Português",
+    "ru": "Русский",
+    "sw": "Kiswahili",
+    "ha": "Hausa"
+  },
   "buttons": {
     "learnMore": "Узнать больше",
     "getQuote": "Получить предложение",
