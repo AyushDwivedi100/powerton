@@ -121,7 +121,6 @@ const initConfig = {
     returnEmptyString: false,
     returnNull: false,
     returnObjects: false,
-    returnedObjectHandler: false,
     saveMissing: false,
     
     // Disable parsing missing key handler to prevent fallback
