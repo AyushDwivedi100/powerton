@@ -79,6 +79,26 @@
       "viewDetails": "Voir les Détails",
       "viewAllProjects": "Voir Tous les Projets",
       "downloadPortfolio": "Télécharger le Portfolio"
+    },
+    "contact": {
+      "label": "Prendre Contact",
+      "title": "Prêt à Commencer Votre Projet ?",
+      "description": "Discutons de la façon dont notre expertise en ingénierie peut vous aider à atteindre vos objectifs d'automatisation industrielle et de systèmes de contrôle.",
+      "getInTouch": "Prendre Contact",
+      "methods": {
+        "phone": {
+          "title": "Appelez-nous Aujourd'hui",
+          "description": "Parlez directement avec nos experts en ingénierie"
+        },
+        "email": {
+          "title": "Envoyez-nous un Email",
+          "description": "Envoyez-nous vos exigences de projet"
+        },
+        "address": {
+          "title": "Visitez Notre Bureau",
+          "metro": "Métro le plus proche : Secteur 15"
+        }
+      }
     }
   },
   "about": {

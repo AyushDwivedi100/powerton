@@ -79,6 +79,26 @@
       "viewDetails": "Ver Detalles",
       "viewAllProjects": "Ver Todos los Proyectos",
       "downloadPortfolio": "Descargar Portafolio"
+    },
+    "contact": {
+      "label": "Ponerse en Contacto",
+      "title": "¿Listo para Comenzar su Proyecto?",
+      "description": "Discutamos cómo nuestra experiencia en ingeniería puede ayudarle a lograr sus objetivos de automatización industrial y sistemas de control.",
+      "getInTouch": "Ponerse en Contacto",
+      "methods": {
+        "phone": {
+          "title": "Llámenos Hoy",
+          "description": "Hable directamente con nuestros expertos en ingeniería"
+        },
+        "email": {
+          "title": "Envíenos un Correo",
+          "description": "Envíenos los requisitos de su proyecto"
+        },
+        "address": {
+          "title": "Visite Nuestra Oficina",
+          "metro": "Metro más cercano: Sector 15"
+        }
+      }
     }
   },
   "about": {

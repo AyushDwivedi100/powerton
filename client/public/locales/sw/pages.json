@@ -90,6 +90,26 @@
       "viewAllProjects": "Ona Miradi Yote",
       "downloadPortfolio": "Pakua Kumbukumbu"
     },
+    "contact": {
+      "label": "Wasiliana Nasi",
+      "title": "Uko Tayari Kuanza Mradi Wako?",
+      "description": "Hebu tujadili jinsi utaalamu wetu wa kihandisi unavyoweza kukusaidia kufikia malengo yako ya otomatiki ya viwanda na mifumo ya udhibiti.",
+      "getInTouch": "Wasiliana Nasi",
+      "methods": {
+        "phone": {
+          "title": "Tupige Simu Leo",
+          "description": "Zungumza moja kwa moja na wataalam wetu wa kihandisi"
+        },
+        "email": {
+          "title": "Tutumie Barua Pepe",
+          "description": "Tutumie mahitaji ya mradi wako"
+        },
+        "address": {
+          "title": "Tembelea Ofisi Yetu",
+          "metro": "Metro ya Karibu Zaidi: Sehemu 15"
+        }
+      }
+    },
     "about": {
       "label": "Kuhusu Sisi",
       "title": "Karibu Powerton Engineering Pvt. Ltd.",
