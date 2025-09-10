@@ -363,8 +363,19 @@
       "subtitle": "Kayan aikin aunawa da gwadawa masu daidaici"
     },
     "mechanical": {
-      "title": "Pamfunan Inji da Kayan Gyara",
+      "title": "Pamfunan Inji da Kayan Gyara", 
       "subtitle": "Pamfunan inji da kayan gyara don ayyukan masana'antu"
     }
+  },
+  "items": {
+    "instrumentation-components": "Kayan Aiki",
+    "electrical-components": "Kayan Wutar Lantarki",
+    "measurement-instruments": "Kayan Aunawa",
+    "solar-products": "Kayan Hasken Rana",
+    "automation-control-systems": "Tsarin Atomatik da Sarrafawa",
+    "safety-protective-devices": "Kayan Kariya da Aminci",
+    "mechanical-pumps-spares": "Pamfunan Inji da Kayan Gyara",
+    "industrial-tools-tackles": "Kayan Aiki da Kayan Masana'antu",
+    "bldc": "Injunan Wutar Lantarki maras Brush"
   }
 }
