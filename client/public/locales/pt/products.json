@@ -9,7 +9,49 @@
     "motors": "Sistemas de Motores BLDC",
     "pumps": "Bombas e Motores",
     "safety": "Equipamentos de Segurança",
-    "tools": "Ferramentas Industriais"
+    "tools": "Ferramentas Industriais",
+    "instrumentation-components": {
+      "title": "Componentes de Instrumentação",
+      "description": "Componentes de instrumentação de precisão para medição e controle",
+      "features": {
+        "pressure-transmitters": "Transmissores de Pressão",
+        "temperature-sensors": "Sensores de Temperatura",
+        "flow-meters": "Medidores de Fluxo",
+        "level-indicators": "Indicadores de Nível"
+      }
+    },
+    "electrical-components": {
+      "title": "Componentes Elétricos",
+      "description": "Soluções abrangentes de componentes elétricos para aplicações industriais"
+    },
+    "measurement-instruments": {
+      "title": "Instrumentos de Medição",
+      "description": "Instrumentos de medição e teste de precisão"
+    },
+    "solar-products": {
+      "title": "Produtos Solares",
+      "description": "Soluções e componentes de energia solar completos"
+    },
+    "automation-control-systems": {
+      "title": "Sistemas de Automação e Controle",
+      "description": "Sistemas avançados de automação e controle para operações industriais"
+    },
+    "safety-protective-devices": {
+      "title": "Dispositivos de Segurança e Proteção",
+      "description": "Sistemas de segurança industrial e equipamentos de proteção"
+    },
+    "mechanical-pumps-spares": {
+      "title": "Bombas Mecânicas e Peças",
+      "description": "Bombas mecânicas e peças sobressalentes para aplicações industriais"
+    },
+    "industrial-tools-tackles": {
+      "title": "Ferramentas e Equipamentos Industriais",
+      "description": "Ferramentas industriais pesadas e equipamentos de elevação"
+    },
+    "bldc": {
+      "title": "Produtos de Motores sem Escovas",
+      "description": "Produtos de motores sem escovas para aplicações de eficiência energética"
+    }
   },
   "subcategories": {
     "sensors": {

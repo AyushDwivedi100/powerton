@@ -9,7 +9,49 @@
     "motors": "أنظمة المحركات BLDC",
     "pumps": "المضخات والمحركات",
     "safety": "معدات السلامة",
-    "tools": "الأدوات الصناعية"
+    "tools": "الأدوات الصناعية",
+    "instrumentation-components": {
+      "title": "مكونات الأجهزة",
+      "description": "مكونات أجهزة دقيقة للقياس والتحكم",
+      "features": {
+        "pressure-transmitters": "أجهزة إرسال الضغط",
+        "temperature-sensors": "مستشعرات درجة الحرارة",
+        "flow-meters": "مقاييس التدفق",
+        "level-indicators": "مؤشرات المستوى"
+      }
+    },
+    "electrical-components": {
+      "title": "المكونات الكهربائية",
+      "description": "حلول المكونات الكهربائية الشاملة للتطبيقات الصناعية"
+    },
+    "measurement-instruments": {
+      "title": "أجهزة القياس",
+      "description": "أجهزة قياس واختبار دقيقة"
+    },
+    "solar-products": {
+      "title": "المنتجات الشمسية",
+      "description": "حلول ومكونات الطاقة الشمسية المتكاملة"
+    },
+    "automation-control-systems": {
+      "title": "أنظمة الأتمتة والتحكم",
+      "description": "أنظمة أتمتة وتحكم متقدمة للعمليات الصناعية"
+    },
+    "safety-protective-devices": {
+      "title": "أجهزة السلامة والحماية",
+      "description": "أنظمة السلامة الصناعية ومعدات الحماية"
+    },
+    "mechanical-pumps-spares": {
+      "title": "المضخات الميكانيكية وقطع الغيار",
+      "description": "المضخات الميكانيكية وقطع الغيار للتطبيقات الصناعية"
+    },
+    "industrial-tools-tackles": {
+      "title": "الأدوات والمعدات الصناعية",
+      "description": "أدوات صناعية ثقيلة ومعدات رفع"
+    },
+    "bldc": {
+      "title": "منتجات المحركات بدون فرش",
+      "description": "منتجات المحركات بدون فرش للتطبيقات الموفرة للطاقة"
+    }
   },
   "items": {
     "instrumentation-components": "مكونات الأجهزة",

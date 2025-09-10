@@ -9,7 +9,49 @@
     "motors": "Systèmes de Moteurs BLDC",
     "pumps": "Pompes et Moteurs",
     "safety": "Équipements de Sécurité",
-    "tools": "Outils Industriels"
+    "tools": "Outils Industriels",
+    "instrumentation-components": {
+      "title": "Composants d'Instrumentation",
+      "description": "Composants d'instrumentation de précision pour mesure et contrôle",
+      "features": {
+        "pressure-transmitters": "Transmetteurs de Pression",
+        "temperature-sensors": "Capteurs de Température",
+        "flow-meters": "Débitmètres",
+        "level-indicators": "Indicateurs de Niveau"
+      }
+    },
+    "electrical-components": {
+      "title": "Composants Électriques",
+      "description": "Solutions complètes de composants électriques pour applications industrielles"
+    },
+    "measurement-instruments": {
+      "title": "Instruments de Mesure",
+      "description": "Instruments de mesure et de test de précision"
+    },
+    "solar-products": {
+      "title": "Produits Solaires",
+      "description": "Solutions et composants d'énergie solaire complets"
+    },
+    "automation-control-systems": {
+      "title": "Systèmes d'Automatisation et de Contrôle",
+      "description": "Systèmes avancés d'automatisation et de contrôle pour opérations industrielles"
+    },
+    "safety-protective-devices": {
+      "title": "Dispositifs de Sécurité et de Protection",
+      "description": "Systèmes de sécurité industrielle et équipements de protection"
+    },
+    "mechanical-pumps-spares": {
+      "title": "Pompes Mécaniques et Pièces Détachées",
+      "description": "Pompes mécaniques et pièces détachées pour applications industrielles"
+    },
+    "industrial-tools-tackles": {
+      "title": "Outils et Équipements Industriels",
+      "description": "Outils industriels lourds et équipements de levage"
+    },
+    "bldc": {
+      "title": "Produits de Moteurs Sans Balais",
+      "description": "Produits de moteurs sans balais pour applications d'efficacité énergétique"
+    }
   },
   "subcategories": {
     "sensors": {

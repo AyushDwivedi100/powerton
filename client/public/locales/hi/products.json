@@ -12,7 +12,13 @@
     "tools": "औद्योगिक उपकरण",
     "instrumentation-components": {
       "title": "उपकरण घटक",
-      "description": "सटीक मापन और नियंत्रण के लिए औद्योगिक उपकरण"
+      "description": "सटीक मापन और नियंत्रण के लिए औद्योगिक उपकरण",
+      "features": {
+        "pressure-transmitters": "दबाव ट्रांसमीटर",
+        "temperature-sensors": "तापमान सेंसर",
+        "flow-meters": "फ्लो मीटर",
+        "level-indicators": "स्तर संकेतक"
+      }
     },
     "electrical-components": {
       "title": "विद्युत घटक",

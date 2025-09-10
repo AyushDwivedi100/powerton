@@ -9,7 +9,49 @@
     "motors": "Mifumo ya Mitambo ya BLDC",
     "pumps": "Pampu na Mitambo",
     "safety": "Vifaa vya Usalama",
-    "tools": "Zana za Viwandani"
+    "tools": "Zana za Viwandani",
+    "instrumentation-components": {
+      "title": "Viungo vya Vifaa vya Kipimo",
+      "description": "Viungo vya usahihi vya vifaa vya kipimo kwa kupima na kudhibiti",
+      "features": {
+        "pressure-transmitters": "Vipitishaji vya Shinikizo",
+        "temperature-sensors": "Vihisi vya Joto",
+        "flow-meters": "Vipimo vya Mtiririko",
+        "level-indicators": "Vionyeshi vya Kiwango"
+      }
+    },
+    "electrical-components": {
+      "title": "Viungo vya Umeme",
+      "description": "Suluhisho kamili za viungo vya umeme kwa matumizi ya viwandani"
+    },
+    "measurement-instruments": {
+      "title": "Vifaa vya Kupima",
+      "description": "Vifaa vya kupima na kujaribu vya usahihi"
+    },
+    "solar-products": {
+      "title": "Bidhaa za Jua",
+      "description": "Suluhisho kamili na viungo vya nishati ya jua"
+    },
+    "automation-control-systems": {
+      "title": "Mifumo ya Otomatiki na Udhibiti",
+      "description": "Mifumo ya hali ya juu ya otomatiki na udhibiti kwa shughuli za viwandani"
+    },
+    "safety-protective-devices": {
+      "title": "Vifaa vya Usalama na Kinga",
+      "description": "Mifumo ya usalama ya viwandani na vifaa vya kinga"
+    },
+    "mechanical-pumps-spares": {
+      "title": "Pampu za Mitambo na Vipengele",
+      "description": "Pampu za mitambo na vipengele vya ziada kwa matumizi ya viwandani"
+    },
+    "industrial-tools-tackles": {
+      "title": "Zana na Vifaa vya Viwandani",
+      "description": "Zana nzito za viwandani na vifaa vya kuinua"
+    },
+    "bldc": {
+      "title": "Bidhaa za Mitambo isiyo na Brashi",
+      "description": "Bidhaa za mitambo isiyo na brashi kwa matumizi yanayokoa nishati"
+    }
   },
   "filters": {
     "all": "Zote",
