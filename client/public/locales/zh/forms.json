@@ -49,6 +49,75 @@
     }
   },
   "quote": {
+    "projectTypes": {
+      "newInstallation": "新安装",
+      "systemUpgrade": "系统升级",
+      "retrofit": "改造升级",
+      "maintenance": "维护合同",
+      "consultation": "技术咨询",
+      "design": "设计和工程"
+    },
+    "timelines": {
+      "immediate": "立即（< 1个月）",
+      "1-3-months": "1-3个月",
+      "3-6-months": "3-6个月",
+      "6-12-months": "6-12个月",
+      "1-year-plus": "超过1年"
+    },
+    "budgetRanges": {
+      "under-1-lakh": "低于₹1 Lakh",
+      "1-5-lakh": "₹1-5 Lakhs",
+      "5-10-lakh": "₹5-10 Lakhs",
+      "10-25-lakh": "₹10-25 Lakhs",
+      "25-50-lakh": "₹25-50 Lakhs",
+      "50-lakh-plus": "₹50 Lakhs+",
+      "discuss": "希望讨论"
+    },
+    "validation": {
+      "nameMin": "姓名至少鄀2个字符",
+      "emailInvalid": "请输入有效的电子邮件地址",
+      "phoneMin": "请输入有效的电话号码",
+      "companyRequired": "公司名称为必填项",
+      "projectTitleRequired": "项目标题为必填项",
+      "projectTypeRequired": "请选择项目类型",
+      "timelineRequired": "请选择预期时间表",
+      "servicesRequired": "请至少选择一项服务",
+      "specificationsMin": "请提供详细规格（至少20个字符）"
+    },
+    "success": {
+      "title": "报价请求提交成功！",
+      "description": "我们的工程团队将审查您的需求并在24-48小时内回复。"
+    },
+    "placeholders": {
+      "selectIndustry": "选择行业",
+      "selectProjectScale": "选择项目规模",
+      "selectBudget": "选择预算范围（可选）",
+      "detailedRequirements": "请提供详细规格，包括：\n- 技术要求和标准\n- 设备规格和数量\n- 性能要求\n- 环境条件\n- 合规要求\n- 任何特殊考虑...",
+      "additionalRequirements": "任何附加要求、特殊条件或问题...",
+      "preferredBrands": "例如 Siemens, Allen-Bradley, Schneider..."
+    },
+    "labels": {
+      "industryType": "行业类型",
+      "projectScale": "项目规模",
+      "approximateBudget": "预算估算",
+      "detailedRequirements": "详细需求 *",
+      "preferredBrands": "首选品牌/标准",
+      "additionalRequirements": "附加要求",
+      "projectTitle": "项目标题 *",
+      "projectType": "项目类型 *",
+      "expectedTimeline": "预期时间表 *",
+      "phoneNumber": "电话号码 *",
+      "companyName": "公司名称 *",
+      "projectInformation": "项目信息",
+      "budgetRange": "预算范围"
+    },
+    "sections": {
+      "requiredServices": "所需服务 *"
+    },
+    "submitting": "正在提交报价请求...",
+    "buttons": {
+      "getProfessionalQuote": "获取专业报价"
+    },
     "fields": {
       "designation": {
         "label": "职位"

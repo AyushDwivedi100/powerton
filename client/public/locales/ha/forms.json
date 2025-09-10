@@ -49,6 +49,75 @@
     }
   },
   "quote": {
+    "projectTypes": {
+      "newInstallation": "Sabon Shigarwa",
+      "systemUpgrade": "Haɓaka Tsarin",
+      "retrofit": "Gyarawa",
+      "maintenance": "Kwangilar Kula",
+      "consultation": "Shawarwarin Fasaha",
+      "design": "Zane da Injiniya"
+    },
+    "timelines": {
+      "immediate": "Nan take (< wata 1)",
+      "1-3-months": "Watanni 1-3",
+      "3-6-months": "Watanni 3-6",
+      "6-12-months": "Watanni 6-12",
+      "1-year-plus": "Sama da shekara 1"
+    },
+    "budgetRanges": {
+      "under-1-lakh": "Ƙasa da ₹1 Lakh",
+      "1-5-lakh": "₹1-5 Lakhs",
+      "5-10-lakh": "₹5-10 Lakhs",
+      "10-25-lakh": "₹10-25 Lakhs",
+      "25-50-lakh": "₹25-50 Lakhs",
+      "50-lakh-plus": "₹50 Lakhs+",
+      "discuss": "Na fi son tattaunawa"
+    },
+    "validation": {
+      "nameMin": "Suna dole ne ya kasance aƙalla haruffa 2",
+      "emailInvalid": "Da fatan za a shigar da ingantaccen adireshin imel",
+      "phoneMin": "Da fatan za a shigar da ingantaccen lambar waya",
+      "companyRequired": "Ana buƙatar sunan kamfani",
+      "projectTitleRequired": "Ana buƙatar taken aiki",
+      "projectTypeRequired": "Da fatan za a zaɓi nau'in aiki",
+      "timelineRequired": "Da fatan za a zaɓi lokacin da ake tsammani",
+      "servicesRequired": "Da fatan za a zaɓi aƙalla sabis ɗaya",
+      "specificationsMin": "Da fatan za a ba da cikakkun bayanai (aƙalla haruffa 20)"
+    },
+    "success": {
+      "title": "An aika buƙatar tambayi farashin da nasara!",
+      "description": "Ƙungiyar injiniyar mu za ta duba buƙatun ku kuma ta amsa cikin sa'o'i 24-48."
+    },
+    "placeholders": {
+      "selectIndustry": "Zaɓi masana'anta",
+      "selectProjectScale": "Zaɓi girman aiki",
+      "selectBudget": "Zaɓi kewayon kasafin kuɗi (na zaɓi)",
+      "detailedRequirements": "Da fatan za a ba da cikakkun bayanai da suka haɗa da:\n- Buƙatun fasaha da ka'idoji\n- Bayanin kayan aiki da adadi\n- Buƙatun aiki\n- Yanayin muhalli\n- Buƙatun bin ka'ida\n- Duk wani al'amari na musamman...",
+      "additionalRequirements": "Duk wani ƙarin buƙatu, yanayi na musamman ko tambayoyi...",
+      "preferredBrands": "misali Siemens, Allen-Bradley, Schneider..."
+    },
+    "labels": {
+      "industryType": "Nau'in Masana'anta",
+      "projectScale": "Girman Aiki",
+      "approximateBudget": "Kasafin Kuɗi na Kusa",
+      "detailedRequirements": "Cikakkun Buƙatu *",
+      "preferredBrands": "Alamomin Kasuwanci/Ka'idoji da Aka Fi So",
+      "additionalRequirements": "Ƙarin Buƙatu",
+      "projectTitle": "Taken Aiki *",
+      "projectType": "Nau'in Aiki *",
+      "expectedTimeline": "Lokacin da Ake Tsammani *",
+      "phoneNumber": "Lambar Waya *",
+      "companyName": "Sunan Kamfani *",
+      "projectInformation": "Bayanan Aiki",
+      "budgetRange": "Kewayon Kasafin Kuɗi"
+    },
+    "sections": {
+      "requiredServices": "Sabis da Ake Buƙata *"
+    },
+    "submitting": "Ana Aika Buƙatar Tambayi Farashi...",
+    "buttons": {
+      "getProfessionalQuote": "Sami Tambayin Farashi na Ƙwararru"
+    },
     "fields": {
       "designation": {
         "label": "Matsayi"
