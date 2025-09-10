@@ -24,6 +24,13 @@
   "navigation": {
     "backToInstrumentationComponents": "इंस्ट्रूमेंटेशन कंपोनेंट्स पर वापस जाएं"
   },
+  "messages": {
+    "close": "बंद करें",
+    "imageNotFound": "छवि नहीं मिली",
+    "loading": "लोड हो रहा है...",
+    "error": "त्रुटि हुई",
+    "toggleTheme": "थीम टॉगल करें"
+  },
   "altTexts": {
     "aboutBackground": "ID-004: पावरटन इंजीनियरिंग औद्योगिक स्वचालन सुविधा आधुनिक नियंत्रण प्रणालियों के साथ"
   },
