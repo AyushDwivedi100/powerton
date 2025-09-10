@@ -9,7 +9,79 @@
     "motors": "BLDC Motor Systems",
     "pumps": "Pumps & Motors",
     "safety": "Safety Equipment",
-    "tools": "Industrial Tools"
+    "tools": "Industrial Tools",
+    "instrumentation-components": {
+      "title": "Instrumentation Components",
+      "description": "Precision instrumentation components for measurement and control",
+      "features": {
+        "pressure-transmitters": "Pressure Transmitters",
+        "temperature-sensors": "Temperature Sensors",
+        "flow-meters": "Flow Meters",
+        "level-indicators": "Level Indicators"
+      }
+    },
+    "electrical-components": {
+      "title": "Electrical Components",
+      "description": "Comprehensive electrical components solutions for industrial applications"
+    },
+    "measurement-instruments": {
+      "title": "Measurement Instruments",
+      "description": "Precision measurement and testing instruments"
+    },
+    "solar-products": {
+      "title": "Solar Products",
+      "description": "Complete solar energy solutions and components"
+    },
+    "automation-control-systems": {
+      "title": "Automation & Control Systems",
+      "description": "Advanced automation and control systems for industrial operations"
+    },
+    "safety-protective-devices": {
+      "title": "Safety & Protective Devices",
+      "description": "Industrial safety systems and protective equipment"
+    },
+    "mechanical-pumps-spares": {
+      "title": "Mechanical Pumps & Spares",
+      "description": "Mechanical pumps and spare parts for industrial applications"
+    },
+    "industrial-tools-tackles": {
+      "title": "Industrial Tools & Equipment",
+      "description": "Heavy-duty industrial tools and lifting equipment"
+    },
+    "bldc": {
+      "title": "BLDC Products",
+      "description": "Brushless DC motor products for energy-efficient applications"
+    }
+  },
+  "subcategories": {
+    "sensors": {
+      "title": "Sensors",
+      "description": "Industrial sensors for measurement and control"
+    },
+    "transmitters": {
+      "title": "Transmitters",
+      "description": "Process transmitters and signal conversion equipment"
+    },
+    "controllers": {
+      "title": "Controllers",
+      "description": "Industrial control systems and automation controllers"
+    },
+    "switches": {
+      "title": "Switches",
+      "description": "Industrial switches and control equipment"
+    },
+    "valves": {
+      "title": "Valves",
+      "description": "Industrial valves and flow control systems"
+    },
+    "analyzers": {
+      "title": "Analyzers",
+      "description": "Process analyzers for quality control"
+    },
+    "signal-conditioners": {
+      "title": "Signal Conditioners",
+      "description": "Signal processing and conditioning equipment"
+    }
   },
   "filters": {
     "all": "All",
