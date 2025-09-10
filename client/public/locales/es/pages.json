@@ -447,35 +447,6 @@
       "cpriApproved": "Equipos Aprobados CPRI"
     }
   },
-  "home": {
-    "hero": {
-      "title": {
-        "main": "Soluciones Integrales para",
-        "highlight": "Éxito Industrial"
-      },
-      "subtitle": "Nuestro amplio portafolio de productos y servicios proporciona soluciones integrales que impulsan el éxito industrial, asegurando que cada aspecto de sus necesidades de ingeniería esté cubierto.",
-      "buttons": {
-        "exploreServices": "Explorar Nuestros Servicios",
-        "requestConsultation": "Solicitar Consulta"
-      },
-      "features": {
-        "experience": "15+ Años de Experiencia",
-        "support": "Soporte Técnico 24/7",
-        "service": "Servicio Pan-India"
-      },
-      "stats": {
-        "yearsExperience": "Años de Experiencia",
-        "projectsCompleted": "Proyectos Completados",
-        "happyClients": "Clientes Felices",
-        "supportAvailable": "Soporte Disponible"
-      },
-      "stats": {
-        "yearsExperience": "Años de Experiencia",
-        "projectsCompleted": "Proyectos Completados",
-        "happyClients": "Clientes Satisfechos",
-        "supportAvailable": "Soporte Disponible"
-      }
-    },
     "services": {
       "label": "Nuestros Servicios",
       "title": "Soluciones Expertas para Todas las Necesidades, Entregadas con Cuidado Excepcional",
@@ -775,77 +746,6 @@
       "description": "Obtén estimaciones de costos instantáneas con nuestra calculadora o solicita una cotización personalizada detallada de nuestro equipo de ingeniería.",
       "calculator": "Calculadora de Costos",
       "request": "Solicitar Cotización"
-    }
-  },
-  "home": {
-    "hero": {
-      "title": {
-        "main": "Soluciones Integrales para el",
-        "highlight": "Éxito Industrial"
-      },
-      "subtitle": "Nuestro amplio portafolio de productos y servicios proporciona soluciones integrales que impulsan el éxito industrial, asegurando que cada aspecto de sus necesidades de ingeniería esté cubierto.",
-      "buttons": {
-        "exploreServices": "Explorar Nuestros Servicios",
-        "requestConsultation": "Solicitar Consultoría"
-      },
-      "features": {
-        "experience": "15+ Años de Experiencia",
-        "support": "Soporte Técnico 24/7",
-        "service": "Servicio en Toda India"
-      },
-      "stats": {
-        "yearsExperience": "Años de Experiencia",
-        "projectsCompleted": "Proyectos Completados",
-        "happyClients": "Clientes Satisfechos",
-        "supportAvailable": "Soporte Disponible"
-      }
-    },
-    "about": {
-      "label": "Acerca de Nosotros",
-      "title": "Bienvenido a Powerton Engineering Pvt. Ltd.",
-      "description": "Su socio confiable en la entrega de soluciones y servicios de ingeniería de alta calidad. Establecida con la visión de empoderar a las industrias a través de la innovación y la excelencia, nos especializamos en proporcionar una gama integral de productos eléctricos e instrumentación.",
-      "visualHeading": "Ingeniería Profesional",
-      "visualDescription": "Ingenieros profesionales indios trabajando en automatización industrial y sistemas de control",
-      "features": {
-        "electrical": {
-          "title": "Eléctrica e Instrumentación",
-          "description": "Gama completa de sistemas de control"
-        },
-        "mechanical": {
-          "title": "Bombas Mecánicas",
-          "description": "Soluciones de bombas duraderas y repuestos"
-        },
-        "solar": {
-          "title": "Soluciones Solares",
-          "description": "Instalaciones de energía sostenible"
-        },
-        "tools": {
-          "title": "Herramientas Industriales",
-          "description": "Equipo de grado profesional"
-        }
-      },
-      "button": "Conoce Más Sobre Nosotros"
-    },
-    "clients": {
-      "label": "Nuestros Clientes",
-      "title": "Confianza de Marcas y Organizaciones Líderes",
-      "description": "Nos hemos asociado con líderes de la industria en varios sectores para entregar soluciones de ingeniería excepcionales.",
-      "testimonialsTitle": "Lo Que Dicen Nuestros Clientes"
-    },
-    "projects": {
-      "label": "Nuestros Proyectos",
-      "title": "Soluciones de Ingeniería Entregadas con Éxito",
-      "description": "Explora nuestro portafolio de proyectos completados que muestran nuestra experiencia en automatización industrial e ingeniería eléctrica.",
-      "keyFeatures": "Características Clave:",
-      "completed": "Completado",
-      "viewDetails": "Ver Detalles",
-      "viewAllProjects": "Ver Todos los Proyectos",
-      "downloadPortfolio": "Descargar Portafolio"
-    },
-    "seo": {
-      "title": "Powerton Engineering - Automatización Industrial y Paneles de Control | India",
-      "description": "Fabricante líder de paneles de control eléctricos, sistemas de automatización industrial y soluciones de instrumentación. Servicios de ingeniería expertos en toda India con más de 15 años de experiencia.",
-      "keywords": "paneles de control eléctricos, automatización industrial, automatización de procesos, instrumentación, centro de control de potencia, centro de control de motores, ingeniería eléctrica, India, Noida"
     }
   }
 }
