@@ -18,6 +18,66 @@
     "supply-chain-management": "إدارة سلسلة التوريد",
     "solar-epc": "حلول الطاقة الشمسية الشاملة"
   },
+  "durations": {
+    "installation-commissioning": "1-4 أسابيع",
+    "maintenance-repair": "نفس اليوم - أسبوع واحد",
+    "calibration-testing": "2-5 أيام",
+    "technical-support": "فوري - مستمر",
+    "custom-solutions": "2-12 أسبوع",
+    "consultation-training": "1-5 أيام",
+    "supply-chain-management": "1-7 أيام",
+    "solar-epc": "4-16 أسبوع"
+  },
+  "features": {
+    "installation-commissioning": {
+      "plc-dcs": "تركيب PLC/DCS",
+      "system-integration": "تكامل الأنظمة",
+      "performance-testing": "اختبار الأداء",
+      "compliance-certification": "شهادة الامتثال"
+    },
+    "maintenance-repair": {
+      "preventive": "الصيانة الوقائية",
+      "emergency": "الإصلاحات الطارئة (ساعتان)",
+      "replacement": "استبدال المكونات",
+      "upgrades": "ترقيات النظام"
+    },
+    "calibration-testing": {
+      "nabl-certified": "معايرة معتمدة من NABL",
+      "accuracy-testing": "اختبار دقة ±0.25%",
+      "compliance": "التحقق من الامتثال",
+      "certificates": "شهادات التتبع"
+    },
+    "technical-support": {
+      "24-7-support": "دعم 24/7/365",
+      "remote-diagnostics": "التشخيص عن بُعد",
+      "onsite-response": "الاستجابة في الموقع خلال 4 ساعات",
+      "emergency-hotline": "خط الطوارئ"
+    },
+    "custom-solutions": {
+      "mcc-panels": "لوحات MCC مخصصة",
+      "process-automation": "أتمتة العمليات",
+      "unique-applications": "التطبيقات الفريدة",
+      "end-to-end": "الحلول الشاملة"
+    },
+    "consultation-training": {
+      "plc-programming": "تدريب برمجة PLC",
+      "system-design": "استشارة تصميم الأنظمة",
+      "isa-certified": "وحدات معتمدة من ISA",
+      "hands-on": "ورش عمل عملية"
+    },
+    "supply-chain-management": {
+      "authorized-distributors": "موزعون معتمدون",
+      "genuine-parts": "قطع غيار أصلية فقط",
+      "warranty": "ضمان لمدة عام واحد",
+      "express-delivery": "التسليم السريع"
+    },
+    "solar-epc": {
+      "mnre-approved": "تصاميم معتمدة من MNRE",
+      "capacity": "سعة من 1 كيلووات إلى 1+ ميجاووات",
+      "guarantee": "ضمان 25 عام",
+      "grid-connection": "دعم الربط بالشبكة"
+    }
+  },
   "descriptions": {
     "installation-commissioning": "خدمات التركيب والتشغيل المهنية للوحات الكهربائية وأنظمة PLC وSCADA والمعدات الصناعية مع التحقق الكامل من النظام.",
     "maintenance-repair": "خدمات الصيانة الوقائية والطارئة الشاملة للأنظمة الكهربائية ولوحات التحكم ومعدات الأتمتة الصناعية.",

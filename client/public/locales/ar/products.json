@@ -72,6 +72,80 @@
       "subtitle": "الموصلات الكهربائية وحلول الأطراف"
     }
   },
+  "categories": {
+    "instrumentation-components": {
+      "title": "مكونات الأجهزة",
+      "description": "مكونات دقيقة للأجهزة والقياس",
+      "features": {
+        "pressure-transmitters": "أجهزة إرسال الضغط",
+        "temperature-sensors": "أجهزة استشعار درجة الحرارة",
+        "flow-meters": "أجهزة قياس التدفق",
+        "level-indicators": "مؤشرات المستوى"
+      }
+    },
+    "electrical-components": {
+      "title": "المكونات الكهربائية",
+      "description": "حلول المكونات الكهربائية الكاملة للتطبيقات الصناعية"
+    },
+    "measurement-instruments": {
+      "title": "أجهزة القياس",
+      "description": "أجهزة القياس والاختبار الدقيقة"
+    },
+    "solar-products": {
+      "title": "المنتجات الشمسية",
+      "description": "حلول الطاقة الشمسية الكاملة والمكونات"
+    },
+    "automation-control-systems": {
+      "title": "أنظمة الأتمتة والتحكم",
+      "description": "أنظمة أتمتة وتحكم متقدمة لإدارة العمليات الصناعية"
+    },
+    "safety-protective-devices": {
+      "title": "أجهزة السلامة والحماية",
+      "description": "أنظمة السلامة الصناعية والمعدات الواقية"
+    },
+    "mechanical-pumps-spares": {
+      "title": "المضخات الميكانيكية وقطع الغيار",
+      "description": "المضخات الميكانيكية وقطع الغيار للتطبيقات الصناعية"
+    },
+    "industrial-tools-tackles": {
+      "title": "الأدوات والمعدات الصناعية",
+      "description": "أدوات صناعية ثقيلة ومعدات الرفع"
+    },
+    "bldc": {
+      "title": "منتجات BLDC",
+      "description": "منتجات محركات DC بدون فرش للتطبيقات الموفرة للطاقة"
+    }
+  },
+  "subcategories": {
+    "sensors": {
+      "title": "أجهزة الاستشعار",
+      "description": "أجهزة استشعار صناعية للقياس والتحكم"
+    },
+    "transmitters": {
+      "title": "أجهزة الإرسال",
+      "description": "أجهزة إرسال العمليات ومعدات تحويل الإشارة"
+    },
+    "controllers": {
+      "title": "أجهزة التحكم",
+      "description": "أنظمة التحكم الصناعية وأجهزة التحكم في الأتمتة"
+    },
+    "switches": {
+      "title": "المفاتيح",
+      "description": "المفاتيح الصناعية وأجهزة التحكم"
+    },
+    "valves": {
+      "title": "الصمامات",
+      "description": "الصمامات الصناعية وأنظمة التحكم في التدفق"
+    },
+    "analyzers": {
+      "title": "أجهزة التحليل",
+      "description": "أجهزة تحليل العمليات لمراقبة الجودة"
+    },
+    "signal-conditioners": {
+      "title": "مكيفات الإشارة",
+      "description": "معدات معالجة وتكييف الإشارة"
+    }
+  },
   "items": {
     "instrumentation-components": "مكونات الأجهزة",
     "electrical-components": "المكونات الكهربائية",
