@@ -134,6 +134,38 @@ export const getProducts = (t: any) => [
       "Contactors",
       "Relays",
       "Power Supplies"
+    ],
+    subcategories: [
+      {
+        id: "cables-wires",
+        title: t('products:subcategories.cables-wires.title'),
+        description: t('products:subcategories.cables-wires.description')
+      },
+      {
+        id: "connectors-terminals",
+        title: t('products:subcategories.connectors-terminals.title'),
+        description: t('products:subcategories.connectors-terminals.description')
+      },
+      {
+        id: "circuit-breakers-fuses",
+        title: t('products:subcategories.circuit-breakers-fuses.title'),
+        description: t('products:subcategories.circuit-breakers-fuses.description')
+      },
+      {
+        id: "power-supplies",
+        title: t('products:subcategories.power-supplies.title'),
+        description: t('products:subcategories.power-supplies.description')
+      },
+      {
+        id: "enclosures-cabinets",
+        title: t('products:subcategories.enclosures-cabinets.title'),
+        description: t('products:subcategories.enclosures-cabinets.description')
+      },
+      {
+        id: "heating-elements-appliances",
+        title: t('products:subcategories.heating-elements-appliances.title'),
+        description: t('products:subcategories.heating-elements-appliances.description')
+      }
     ]
   },
   {
@@ -147,6 +179,33 @@ export const getProducts = (t: any) => [
       "Oscilloscopes",
       "Signal Analyzers",
       "Calibrators"
+    ],
+    subcategories: [
+      {
+        id: "multimeters",
+        title: t('products:subcategories.multimeters.title'),
+        description: t('products:subcategories.multimeters.description')
+      },
+      {
+        id: "oscilloscopes",
+        title: t('products:subcategories.oscilloscopes.title'),
+        description: t('products:subcategories.oscilloscopes.description')
+      },
+      {
+        id: "spectrum-analyzers",
+        title: t('products:subcategories.spectrum-analyzers.title'),
+        description: t('products:subcategories.spectrum-analyzers.description')
+      },
+      {
+        id: "power-quality-analyzers",
+        title: t('products:subcategories.power-quality-analyzers.title'),
+        description: t('products:subcategories.power-quality-analyzers.description')
+      },
+      {
+        id: "calibration-equipment",
+        title: t('products:subcategories.calibration-equipment.title'),
+        description: t('products:subcategories.calibration-equipment.description')
+      }
     ]
   },
   {
@@ -160,6 +219,33 @@ export const getProducts = (t: any) => [
       "Inverters",
       "Battery Storage",
       "Monitoring Systems"
+    ],
+    subcategories: [
+      {
+        id: "solar-panels",
+        title: t('products:subcategories.solar-panels.title'),
+        description: t('products:subcategories.solar-panels.description')
+      },
+      {
+        id: "solar-inverters",
+        title: t('products:subcategories.solar-inverters.title'),
+        description: t('products:subcategories.solar-inverters.description')
+      },
+      {
+        id: "mounting-structures-racking",
+        title: t('products:subcategories.mounting-structures-racking.title'),
+        description: t('products:subcategories.mounting-structures-racking.description')
+      },
+      {
+        id: "solar-charge-controllers",
+        title: t('products:subcategories.solar-charge-controllers.title'),
+        description: t('products:subcategories.solar-charge-controllers.description')
+      },
+      {
+        id: "solar-batteries-energy-storage",
+        title: t('products:subcategories.solar-batteries-energy-storage.title'),
+        description: t('products:subcategories.solar-batteries-energy-storage.description')
+      }
     ]
   },
   {
@@ -208,6 +294,28 @@ export const getProducts = (t: any) => [
       "Emergency Stops",
       "Light Curtains",
       "Protective Barriers"
+    ],
+    subcategories: [
+      {
+        id: "surge-protectors",
+        title: t('products:subcategories.surge-protectors.title'),
+        description: t('products:subcategories.surge-protectors.description')
+      },
+      {
+        id: "grounding-systems",
+        title: t('products:subcategories.grounding-systems.title'),
+        description: t('products:subcategories.grounding-systems.description')
+      },
+      {
+        id: "safety-relays-switches",
+        title: t('products:subcategories.safety-relays-switches.title'),
+        description: t('products:subcategories.safety-relays-switches.description')
+      },
+      {
+        id: "intrinsically-safe-equipment",
+        title: t('products:subcategories.intrinsically-safe-equipment.title'),
+        description: t('products:subcategories.intrinsically-safe-equipment.description')
+      }
     ]
   },
   {
@@ -221,6 +329,28 @@ export const getProducts = (t: any) => [
       "Positive Displacement Pumps",
       "Pump Components",
       "Maintenance Kits"
+    ],
+    subcategories: [
+      {
+        id: "centrifugal-pumps",
+        title: t('products:subcategories.centrifugal-pumps.title'),
+        description: t('products:subcategories.centrifugal-pumps.description')
+      },
+      {
+        id: "diaphragm-pumps",
+        title: t('products:subcategories.diaphragm-pumps.title'),
+        description: t('products:subcategories.diaphragm-pumps.description')
+      },
+      {
+        id: "gear-pumps",
+        title: t('products:subcategories.gear-pumps.title'),
+        description: t('products:subcategories.gear-pumps.description')
+      },
+      {
+        id: "pump-parts-spares",
+        title: t('products:subcategories.pump-parts-spares.title'),
+        description: t('products:subcategories.pump-parts-spares.description')
+      }
     ]
   },
   {
@@ -234,6 +364,33 @@ export const getProducts = (t: any) => [
       "Power Tools",
       "Lifting Equipment",
       "Cutting Tools"
+    ],
+    subcategories: [
+      {
+        id: "hand-tools",
+        title: t('products:subcategories.hand-tools.title'),
+        description: t('products:subcategories.hand-tools.description')
+      },
+      {
+        id: "power-tools",
+        title: t('products:subcategories.power-tools.title'),
+        description: t('products:subcategories.power-tools.description')
+      },
+      {
+        id: "cutting-tools",
+        title: t('products:subcategories.cutting-tools.title'),
+        description: t('products:subcategories.cutting-tools.description')
+      },
+      {
+        id: "lifting-equipment",
+        title: t('products:subcategories.lifting-equipment.title'),
+        description: t('products:subcategories.lifting-equipment.description')
+      },
+      {
+        id: "safety-equipment",
+        title: t('products:subcategories.safety-equipment.title'),
+        description: t('products:subcategories.safety-equipment.description')
+      }
     ]
   },
   {
