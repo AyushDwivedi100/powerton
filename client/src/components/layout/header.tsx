@@ -411,7 +411,7 @@ export default function Header() {
                                     onClick={() => setIsProductsDropdownOpen(false)}
                                   >
                                     <div className="font-semibold text-foreground text-sm lg:text-base line-clamp-2">
-                                      {t(`products:items.${product.id}`, product.title)}
+                                      {String(t(`products:items.${product.id}`, product.title))}
                                     </div>
                                   </Link>
 
@@ -426,7 +426,7 @@ export default function Header() {
                                           onClick={() => setIsProductsDropdownOpen(false)}
                                         >
                                           <div className="font-medium text-foreground line-clamp-1">
-                                            {t(`products:subcategories.${subcategory.id}.title`, subcategory.title)}
+                                            {String(t(`products:subcategories.${subcategory.id}.title`, subcategory.title))}
                                           </div>
                                         </Link>
                                       ))}
@@ -692,7 +692,7 @@ export default function Header() {
                                             setIsMobileProductsOpen(false);
                                           }}
                                         >
-                                          {t(`products:items.${product.id}`, product.title)}
+                                          {String(t(`products:items.${product.id}`, product.title))}
                                         </Link>
 
                                         {/* Show subcategories for products that have them */}
@@ -711,7 +711,7 @@ export default function Header() {
                                                     );
                                                   }}
                                                 >
-                                                  {subcategory.title}
+                                                  {String(t(`products:subcategories.${subcategory.id}.title`, subcategory.title))}
                                                 </Link>
                                               ),
                                             )}
