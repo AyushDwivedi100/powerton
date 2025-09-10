@@ -22,8 +22,8 @@
     "ha": "Hausa"
   },
   "buttons": {
+    "getQuote": "احصل على عرض سعر",
     "learnMore": "تعلم أكثر",
-    "getQuote": "احصل على عرض أسعار",
     "contact": "اتصل بنا",
     "contactUs": "اتصل بنا",
     "requestQuote": "طلب عرض سعر",
@@ -43,6 +43,9 @@
     "expertTeam": "فريق خبراء",
     "successfulProjects": "مشاريع ناجحة",
     "qualityProducts": "منتجات عالية الجودة"
+  },
+  "altTexts": {
+    "companyLogo": "شعار شركة باورتون للهندسة المحدودة - شركة هندسة الأتمتة الصناعية والكهرباء"
   },
   "loading": "جاري التحميل...",
   "error": "حدث خطأ ما",

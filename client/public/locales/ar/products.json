@@ -11,6 +11,17 @@
     "safety": "معدات السلامة",
     "tools": "الأدوات الصناعية"
   },
+  "items": {
+    "instrumentation-components": "مكونات الأجهزة",
+    "electrical-components": "المكونات الكهربائية",
+    "measurement-instruments": "أجهزة القياس",
+    "solar-products": "المنتجات الشمسية",
+    "automation-control-systems": "أنظمة الأتمتة والتحكم",
+    "safety-protective-devices": "أجهزة السلامة والحماية",
+    "mechanical-pumps-spares": "المضخات الميكانيكية وقطع الغيار",
+    "industrial-tools-tackles": "الأدوات والمعدات الصناعية",
+    "bldc": "محركات BLDC"
+  },
   "filters": {
     "all": "الكل",
     "category": "الفئة",
