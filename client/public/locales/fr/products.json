@@ -206,6 +206,80 @@
     "needEquipment": "Besoin d'Équipement?",
     "specialists": "spécialistes"
   },
+  "categories": {
+    "instrumentation-components": {
+      "title": "Composants d'instrumentation",
+      "description": "Composants de précision pour la mesure et le contrôle",
+      "features": {
+        "pressure-transmitters": "Transmetteurs de pression",
+        "temperature-sensors": "Capteurs de température",
+        "flow-meters": "Débitmètres",
+        "level-indicators": "Indicateurs de niveau"
+      }
+    },
+    "electrical-components": {
+      "title": "Composants électriques",
+      "description": "Solutions complètes de composants électriques pour applications industrielles"
+    },
+    "measurement-instruments": {
+      "title": "Instruments de mesure",
+      "description": "Instruments de mesure et de test de précision"
+    },
+    "solar-products": {
+      "title": "Produits solaires",
+      "description": "Solutions complètes d'énergie solaire et composants"
+    },
+    "automation-control-systems": {
+      "title": "Systèmes d'automatisation et de contrôle",
+      "description": "Systèmes avancés d'automatisation et de contrôle pour les opérations industrielles"
+    },
+    "safety-protective-devices": {
+      "title": "Dispositifs de sécurité et de protection",
+      "description": "Systèmes de sécurité industrielle et équipements de protection"
+    },
+    "mechanical-pumps-spares": {
+      "title": "Pompes mécaniques et pièces de rechange",
+      "description": "Pompes mécaniques et pièces de rechange pour applications industrielles"
+    },
+    "industrial-tools-tackles": {
+      "title": "Outils industriels et équipements de levage",
+      "description": "Outils industriels lourds et équipements de levage"
+    },
+    "bldc": {
+      "title": "Produits BLDC",
+      "description": "Produits de moteurs sans balais DC pour applications économes en énergie"
+    }
+  },
+  "subcategories": {
+    "sensors": {
+      "title": "Capteurs",
+      "description": "Capteurs industriels pour mesure et contrôle"
+    },
+    "transmitters": {
+      "title": "Transmetteurs",
+      "description": "Transmetteurs de processus et équipements de conversion de signal"
+    },
+    "controllers": {
+      "title": "Contrôleurs",
+      "description": "Systèmes de contrôle industriel et contrôleurs d'automatisation"
+    },
+    "switches": {
+      "title": "Commutateurs",
+      "description": "Commutateurs industriels et dispositifs de contrôle"
+    },
+    "valves": {
+      "title": "Vannes",
+      "description": "Vannes industrielles et systèmes de contrôle de débit"
+    },
+    "analyzers": {
+      "title": "Analyseurs",
+      "description": "Analyseurs de processus pour contrôle qualité"
+    },
+    "signal-conditioners": {
+      "title": "Conditionneurs de signal",
+      "description": "Équipements de traitement et conditionnement de signal"
+    }
+  },
   "items": {
     "instrumentation-components": "Composants d'Instrumentation",
     "electrical-components": "Composants Électriques",
