@@ -10,7 +10,7 @@ import {
   SheetDescription,
 } from "@/components/ui/sheet";
 import { Menu, Phone, Mail, MapPin, ChevronDown } from "lucide-react";
-import { COMPANY_INFO, SERVICES, PRODUCTS } from "@/data/constants";
+import { COMPANY_INFO, SERVICES, getProducts } from "@/data/constants";
 import { motion, AnimatePresence } from "framer-motion";
 import { ThemeToggle } from "@/components/ui/theme-toggle";
 import { LanguageSwitcher } from "@/components/ui/language-switcher";
@@ -400,7 +400,7 @@ export default function Header() {
                         <div className="w-max max-w-[95vw] max-h-[70vh] bg-popover border-2 border-slate-300 dark:border-slate-600 rounded-md shadow-lg overflow-y-auto">
                           <div className="p-4 lg:p-6">
                             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 2xl:grid-cols-5 gap-3 lg:gap-4 max-w-none">
-                              {PRODUCTS.map((product) => (
+                              {getProducts(t).map((product) => (
                                 <div
                                   key={product.id}
                                   className="min-w-0 flex-shrink-0"
@@ -682,7 +682,7 @@ export default function Header() {
                                     transition={{ duration: 0.3 }}
                                     className="ml-4 space-y-2 overflow-hidden"
                                   >
-                                    {PRODUCTS.map((product) => (
+                                    {getProducts(t).map((product) => (
                                       <div key={product.id}>
                                         <Link
                                           href={`/products/${product.id}`}
