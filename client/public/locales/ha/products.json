@@ -12,7 +12,13 @@
     "tools": "Kayan Aikin Masana'antu",
     "instrumentation-components": {
       "title": "Sassan Kayan Aiki",
-      "description": "Sassan daidaitattun kayan aiki don aunawa da sarrafa"
+      "description": "Sassan daidaitattun kayan aiki don aunawa da sarrafa",
+      "features": {
+        "pressure-transmitters": "Masu Watarwar Matsa Lamba",
+        "temperature-sensors": "Na'urori Masu Gane Zafi",
+        "flow-meters": "Masu Auna Kwararar Ruwa",
+        "level-indicators": "Masu Nuna Matakai"
+      }
     },
     "electrical-components": {
       "title": "Sassan Lantarki",
