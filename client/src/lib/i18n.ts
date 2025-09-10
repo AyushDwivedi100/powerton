@@ -21,16 +21,16 @@ i18n
   .use(LanguageDetector)
   .use(initReactI18next)
   .init({
-    fallbackLng: 'en', // Set English as fallback language
-    lng: 'en', // Set English as default language  
+    fallbackLng: false, // No fallback language - show keys when missing
+    lng: 'zh', // Set Chinese as default to avoid English loading
     debug: import.meta.env.DEV, // Console logging only in development
     
-    // Supported languages - English now included
-    supportedLngs: ['en', 'hi', 'zh', 'es', 'ar', 'fr', 'pt', 'ru', 'sw', 'ha'],
+    // Supported languages - Chinese first, no English prioritization
+    supportedLngs: ['zh', 'hi', 'es', 'ar', 'fr', 'pt', 'ru', 'sw', 'ha', 'en'],
     
-    // Language detection options - simplified to avoid auto-cycling
+    // Language detection options - prioritize localStorage
     detection: {
-      order: ['localStorage'],
+      order: ['localStorage', 'navigator', 'htmlTag'],
       caches: ['localStorage'],
       lookupLocalStorage: 'i18nextLng'
     },
@@ -45,7 +45,7 @@ i18n
     interpolation: {
       escapeValue: false, // React already handles XSS
       formatSeparator: ',',
-      format: function(value, format, lng) {
+      format: function(value: any, format: any, lng: any) {
         if (format === 'currency') {
           const currencyMap: Record<string, string> = {
             'en': 'USD',
@@ -85,10 +85,13 @@ i18n
       useSuspense: false
     },
 
-    // Return translation key when missing
+    // Return translation key when missing - never fallback to English
     returnEmptyString: false,
     returnNull: false,
     returnObjects: false,
+    returnedObjectHandler: false,
+    saveMissing: false,
+    missingKeyHandler: false,
 
     // Resources loading strategy
     partialBundledLanguages: true
