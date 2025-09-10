@@ -15,18 +15,18 @@ import { FRONTEND_CONFIG } from "@/lib/frontend-config";
 
 // Career application form schema
 const createCareerFormSchema = (t: any) => z.object({
-  name: z.string().min(2, "Name must be at least 2 characters"),
-  email: z.string().email("Please enter a valid email address"),
-  phone: z.string().min(10, "Phone number must be at least 10 digits"),
-  specialization: z.string().min(1, "Please select your engineering specialization"),
-  experience: z.string().min(1, "Please select your experience level"),
-  education: z.string().min(1, "Please provide your education details"),
+  name: z.string().min(2, t('career.validation.nameMin')),
+  email: z.string().email(t('career.validation.emailInvalid')),
+  phone: z.string().min(10, t('career.validation.phoneMin')),
+  specialization: z.string().min(1, t('career.validation.specializationRequired')),
+  experience: z.string().min(1, t('career.validation.experienceRequired')),
+  education: z.string().min(1, t('career.validation.educationRequired')),
   currentCompany: z.string().optional(),
   expectedSalary: z.string().optional(),
-  joiningTime: z.string().min(1, "Please specify how soon you can join"),
-  skills: z.string().min(10, "Please provide details about your skills"),
-  coverLetter: z.string().min(20, "Please write a brief cover letter (minimum 20 characters)"),
-  residingAddress: z.string().min(10, "Please provide your complete residing address"),
+  joiningTime: z.string().min(1, t('career.validation.joiningTimeRequired')),
+  skills: z.string().min(10, t('career.validation.skillsMin')),
+  coverLetter: z.string().min(20, t('career.validation.coverLetterMin')),
+  residingAddress: z.string().min(10, t('career.validation.addressMin')),
 });
 
 type CareerFormData = {
@@ -44,43 +44,42 @@ type CareerFormData = {
   residingAddress: string;
 };
 
-const specializationOptions = [
-  { value: "electrical-engineering", label: "Electrical Engineering" },
-  { value: "automation-control", label: "Automation & Control Systems" },
-  { value: "instrumentation", label: "Instrumentation Engineering" },
-  { value: "project-management", label: "Project Management" },
-  { value: "technical-sales", label: "Technical Sales" },
-  { value: "field-service", label: "Field Service & Commissioning" },
-  { value: "design-engineering", label: "Design & Development" },
-  { value: "solar-renewable", label: "Solar & Renewable Energy" },
-  { value: "other", label: "Other Specialization" },
-];
-
-const experienceOptions = [
-  { value: "fresher", label: "Fresher (0-1 years)" },
-  { value: "1-3", label: "1-3 years" },
-  { value: "3-5", label: "3-5 years" },
-  { value: "5-8", label: "5-8 years" },
-  { value: "8-12", label: "8-12 years" },
-  { value: "12+", label: "12+ years" },
-];
-
-const joiningTimeOptions = [
-  { value: "immediate", label: "Can join immediately" },
-  { value: "15-days", label: "15 days notice period" },
-  { value: "1-month", label: "1 month notice period" },
-  { value: "2-months", label: "2 months notice period" },
-  { value: "3-months", label: "3 months notice period" },
-  { value: "more-than-3", label: "More than 3 months notice" },
-];
-
-
 export default function CareerApplicationForm() {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const { toast } = useToast();
   const { t } = useTranslation('forms');
   
   const careerFormSchema = createCareerFormSchema(t);
+  
+  const specializationOptions = [
+    { value: "electrical-engineering", label: t('career.specializations.electricalEngineering') },
+    { value: "automation-control", label: t('career.specializations.automationControl') },
+    { value: "instrumentation", label: t('career.specializations.instrumentation') },
+    { value: "project-management", label: t('career.specializations.projectManagement') },
+    { value: "technical-sales", label: t('career.specializations.technicalSales') },
+    { value: "field-service", label: t('career.specializations.fieldService') },
+    { value: "design-engineering", label: t('career.specializations.designEngineering') },
+    { value: "solar-renewable", label: t('career.specializations.solarRenewable') },
+    { value: "other", label: t('career.specializations.other') },
+  ];
+
+  const experienceOptions = [
+    { value: "fresher", label: t('career.experience.fresher') },
+    { value: "1-3", label: t('career.experience.oneToThree') },
+    { value: "3-5", label: t('career.experience.threeToFive') },
+    { value: "5-8", label: t('career.experience.fiveToEight') },
+    { value: "8-12", label: t('career.experience.eightToTwelve') },
+    { value: "12+", label: t('career.experience.twelvePlus') },
+  ];
+
+  const joiningTimeOptions = [
+    { value: "immediate", label: t('career.joiningTime.immediate') },
+    { value: "15-days", label: t('career.joiningTime.fifteenDays') },
+    { value: "1-month", label: t('career.joiningTime.oneMonth') },
+    { value: "2-months", label: t('career.joiningTime.twoMonths') },
+    { value: "3-months", label: t('career.joiningTime.threeMonths') },
+    { value: "more-than-3", label: t('career.joiningTime.moreThanThree') },
+  ];
   
   const form = useForm<CareerFormData>({
     resolver: zodResolver(careerFormSchema),
