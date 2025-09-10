@@ -81,6 +81,154 @@
     "signal-conditioners": {
       "title": "Masu Gyaran Sigina",
       "description": "Kayan sarrafa da gyaran sigina"
+    },
+    "cables-wires": {
+      "title": "Kebul da Waya",
+      "description": "Kebul da maganganun waya na masana'antu"
+    },
+    "connectors-terminals": {
+      "title": "Masu Haɗe da Ɓangarori",
+      "description": "Masu haɗe na lantarki da maganganun ɓangarori"
+    },
+    "circuit-breakers-fuses": {
+      "title": "Masu Yanke da'ira da Fiyuzi",
+      "description": "Kayan kariyar lantarki don lafiyar da'ira"
+    },
+    "power-supplies": {
+      "title": "Masu Ba da Wuta",
+      "description": "Sassan samar da wutar lantarki na masana'antu da masu canza"
+    },
+    "enclosures-cabinets": {
+      "title": "Murfin da Akwatunan Sarrafa",
+      "description": "Murfin lantarki da maganganun akwatunan sarrafa"
+    },
+    "heating-elements-appliances": {
+      "title": "Abubuwan Dumama da Na'urori",
+      "description": "Maganganun dumama na masana'antu da kayan zafi"
+    },
+    "multimeters": {
+      "title": "Masu Auna Da Yawa",
+      "description": "Masu auna na dijital da analoji don gwajin lantarki"
+    },
+    "oscilloscopes": {
+      "title": "Oscilloscopes",
+      "description": "Oscilloscopes na dijital don nazarin sigina da gwaje-gwaje"
+    },
+    "spectrum-analyzers": {
+      "title": "Masu Nazarin Bakan",
+      "description": "Kayan nazarin bakan RF da microwave"
+    },
+    "power-quality-analyzers": {
+      "title": "Masu Nazarin Ingancin Wuta",
+      "description": "Kayan aunawa da nazarin ingancin wuta"
+    },
+    "calibration-equipment": {
+      "title": "Kayan Daidaitawa",
+      "description": "Kayan daidaitawa masu daidaici da kayan gwaji"
+    },
+    "solar-panels": {
+      "title": "Allunan Hasken Rana",
+      "description": "Allunan hasken rana masu inganci da tsarin photovoltaic"
+    },
+    "solar-inverters": {
+      "title": "Masu Juyar Hasken Rana",
+      "description": "Masu juyar makamashi na hasken rana da tsarin haɗin grid"
+    },
+    "mounting-structures-racking": {
+      "title": "Tsarin Ɗaurawa da Tsarin Racking",
+      "description": "Maganganun ɗaurawa na tsari don shigar hasken rana"
+    },
+    "solar-charge-controllers": {
+      "title": "Masu Sarrafa Cajin Hasken Rana",
+      "description": "Masu sarrafa cajin hasken rana da sarrafa makamashi"
+    },
+    "solar-batteries-energy-storage": {
+      "title": "Baturan Hasken Rana da Tsarin Adana Makamashi",
+      "description": "Maganganun adana makamashi don tsarin makamashi na hasken rana"
+    },
+    "plcs": {
+      "title": "PLCs",
+      "description": "Masu Sarrafa Dabam mai Iya Shirya don sarrafa masana'antu"
+    },
+    "scada": {
+      "title": "SCADA",
+      "description": "Tsarin Sarrafa Kulawa da Tattara Bayanai"
+    },
+    "dcs": {
+      "title": "DCS",
+      "description": "Tsarin Sarrafa da aka Rarraba don sarrafa ayyuka"
+    },
+    "hmi": {
+      "title": "HMI",
+      "description": "Tsarin Interface Mutum-Na'ura don sarrafa ma'aikaci"
+    },
+    "surge-protectors": {
+      "title": "Masu Kariya daga Hauhawar Wuta",
+      "description": "Kayan kariya daga hauhawar wutar lantarki da tsarori"
+    },
+    "grounding-systems": {
+      "title": "Tsarin Kasa",
+      "description": "Maganganun kasa na lantarki don aminci"
+    },
+    "safety-relays-switches": {
+      "title": "Relay da Makullen Aminci",
+      "description": "Relay na sarrafa aminci da tsarin tsayawar gaggawa"
+    },
+    "intrinsically-safe-equipment": {
+      "title": "Kayan da Ke da Aminci a Asali",
+      "description": "Kayan da aka tabbatar don amfani a wurare masu haɗari"
+    },
+    "centrifugal-pumps": {
+      "title": "Pamfunan Centrifugal",
+      "description": "Pamfunan centrifugal masu inganci don ayyukan masana'antu"
+    },
+    "diaphragm-pumps": {
+      "title": "Pamfunan Diaphragm",
+      "description": "Pamfunan gwada masu daidaici da sarrafa sinadarai"
+    },
+    "gear-pumps": {
+      "title": "Pamfunan Gear",
+      "description": "Pamfunan gear masu daidaici don ayyukan hydraulic da masana'antu"
+    },
+    "pump-parts-spares": {
+      "title": "Sassa da Kayan Gyaran Pamfuna",
+      "description": "Kayan gyara da sassan don tsarin pamfuna"
+    },
+    "hand-tools": {
+      "title": "Kayan Aikin Hannu",
+      "description": "Kayan aikin hannu na ƙwararru don gyaran masana'antu"
+    },
+    "power-tools": {
+      "title": "Kayan Aikin Wuta",
+      "description": "Kayan aikin lantarki da na iska don amfanin masana'antu"
+    },
+    "cutting-tools": {
+      "title": "Kayan Yanke",
+      "description": "Kayan yanke na masana'antu da kayan injiniya"
+    },
+    "lifting-equipment": {
+      "title": "Kayan Ɗagawa",
+      "description": "Maganganun ɗagawa na masana'antu da sarrafa kaya"
+    },
+    "safety-equipment": {
+      "title": "Kayan Aminci",
+      "description": "Kayan kariya na mutum ɗaya da na'urori na aminci"
+    },
+    "bldc-cooler-exhaust-motor": {
+      "title": "Injin BLDC na Sanyi/Fitar Iska",
+      "description": "Injunan BLDC masu adana makamashi don sanyi da iska"
+    },
+    "bldc-ceiling-fan": {
+      "title": "Fanin Rufi na BLDC",
+      "description": "Fanin rufi masu inganci da fasahar DC maras goga"
+    },
+    "bldc-submersible-surface-pump": {
+      "title": "Pamfun BLDC na Ciki/Sama",
+      "description": "Pamfunan BLDC da ke amfani da hasken rana don ayyukan ruwa"
+    },
+    "bldc-table-fan-wall-fan-motor": {
+      "title": "Injin BLDC na Fanin Tebur/Bango",
+      "description": "Injunan BLDC masu ƙanƙanta don fanin da ake ɗauka da na bango"
     }
   },
   "filters": {
