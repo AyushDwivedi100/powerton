@@ -12,3 +12,4 @@
 [x] 12. Implemented browser language preference detection (navigator.languages)
 [x] 13. Added language persistence in browser storage for manual selections
 [x] 14. Verified translation key fallback working correctly across all languages
+[x] 15. Fixed BLDC abbreviation translations in dropdown menu - converted "BLDC" to native translations (Hindi: "ब्रशलेस डीसी", Arabic: "بدون فرش التيار المستمر", Russian: "Бесщеточный Двигатель")
