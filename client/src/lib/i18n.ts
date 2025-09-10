@@ -50,20 +50,16 @@ export const detectLanguage = (): string => {
   return 'en';
 };
 
-i18n
-  .use(Backend)
-  .use(LanguageDetector)
-  .use(initReactI18next)
-  .init({
-    fallbackLng: false, // Completely disable fallback to prevent English showing
-    lng: detectLanguage(), // Use our custom detection logic
-    debug: import.meta.env.DEV, // Console logging only in development
-    
-    // Supported languages - all available languages
-    supportedLngs: ['en', 'hi', 'zh', 'es', 'ar', 'fr', 'pt', 'ru', 'sw', 'ha'],
-    
-    // Language detection options - prioritize browser language detection
-    detection: {
+const initConfig = {
+  fallbackLng: [], // Completely disable fallback to prevent English showing
+  lng: detectLanguage(), // Use our custom detection logic
+  debug: import.meta.env.DEV, // Console logging only in development
+  
+  // Supported languages - all available languages
+  supportedLngs: ['en', 'hi', 'zh', 'es', 'ar', 'fr', 'pt', 'ru', 'sw', 'ha'],
+  
+  // Language detection options - prioritize browser language detection
+  detection: {
       order: ['localStorage', 'navigator', 'htmlTag'],
       caches: ['localStorage'],
       lookupLocalStorage: 'i18nextLng',
@@ -129,16 +125,20 @@ i18n
     saveMissing: false,
     
     // Custom missing key handler to return the key itself
-    missingKeyHandler: (lng: string[], ns: string, key: string, fallbackValue: string) => {
-      return key; // Return the translation key itself instead of fallback
-    },
+    saveMissing: false,
     
     // Disable parsing missing key handler to prevent fallback
     parseMissingKeyHandler: false,
 
     // Resources loading strategy
     partialBundledLanguages: true
-  });
+};
+
+i18n
+  .use(Backend)
+  .use(LanguageDetector)
+  .use(initReactI18next)
+  .init(initConfig);
 
 // RTL language configuration
 const rtlLanguages = ['ar'];
