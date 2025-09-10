@@ -123,6 +123,89 @@
           "metro": "Nearest Metro: Sector 15"
         }
       }
+    },
+    "seo": {
+      "title": "Contact Powerton Engineering - Get Expert Engineering Support",
+      "description": "Contact Powerton Engineering for industrial automation, electrical engineering, and instrumentation services. 24/7 support available. Located in Noida, serving all India.",
+      "keywords": "contact powerton engineering, industrial automation support, electrical engineering contact, instrumentation services, Noida engineering company, technical support India"
+    }
+  },
+  "products": {
+    "descriptions": {
+      "surgeProtectors": "Lightning and surge protection devices for electrical systems and equipment",
+      "solarInverters": "Solar inverter solutions for efficient energy conversion",
+      "solarChargeControllers": "Charge controller systems for battery management",
+      "solarBatteriesEnergyStorage": "Energy storage solutions for solar systems"
+    }
+  },
+  "news": {
+    "upcomingProjects": {
+      "smartCity": {
+        "title": "Smart City Infrastructure Automation",
+        "client": "Noida Smart City Ltd.",
+        "description": "Complete automation infrastructure for smart city project including traffic management, waste management, and energy distribution systems.",
+        "status": "Planning Phase",
+        "technologies": ["IoT", "Smart Sensors", "City Management Systems", "Energy Automation"]
+      },
+      "pharma": {
+        "title": "Pharmaceutical Manufacturing Automation", 
+        "client": "Cipla Limited",
+        "description": "Advanced automation for pharmaceutical manufacturing processes with compliance to international standards and quality control systems.",
+        "status": "Contract Signed",
+        "technologies": ["GMP Compliance", "Batch Processing", "Quality Control", "Traceability Systems"]
+      },
+      "solarFarm": {
+        "title": "Solar Farm Automation and Monitoring",
+        "client": "Adani Green Energy", 
+        "description": "Comprehensive automation solution for 200MW solar farm including tracking systems, weather monitoring, and grid integration.",
+        "status": "Engineering Phase",
+        "technologies": ["Solar Tracking", "Weather Systems", "Grid Integration", "Remote Monitoring"]
+      }
+    },
+    "achievements": {
+      "2024": [
+        "Excellence in Industrial Automation Award - Indian Engineering Society",
+        "Best Innovation in Process Control - Automation India Awards",
+        "ISO 9001:2015 Quality Management Certification", 
+        "Top 100 Engineering Companies - India Today"
+      ],
+      "2023": [
+        "Outstanding Engineering Solution - CII Manufacturing Excellence",
+        "Safety Excellence Award - National Safety Council",
+        "Technology Innovation Award - Engineering Export Promotion Council",
+        "Best SME in Automation Sector - MSME Ministry"
+      ],
+      "2022": [
+        "Engineering Excellence Award - Federation of Indian Chambers",
+        "Sustainable Technology Award - Green Business Council",
+        "Quality Excellence Recognition - Bureau of Indian Standards"
+      ]
+    },
+    "futureGoals": {
+      "marketLeadership": {
+        "goal": "Market Leadership",
+        "description": "Become the leading automation solutions provider in North India by 2026"
+      },
+      "techInnovation": {
+        "goal": "Technology Innovation", 
+        "description": "Launch 5 new AI-powered automation solutions for Industry 4.0"
+      },
+      "geoExpansion": {
+        "goal": "Geographic Expansion",
+        "description": "Establish operations in 3 new states across India"
+      },
+      "teamGrowth": {
+        "goal": "Team Growth",
+        "description": "Expand our engineering team to 200+ professionals"
+      },
+      "revenue": {
+        "goal": "Revenue Milestone",
+        "description": "Achieve ₹100 Crores annual revenue milestone"
+      },
+      "sustainability": {
+        "goal": "Sustainability Focus",
+        "description": "Implement carbon-neutral operations and green technology solutions"
+      }
     }
   },
   "products": {

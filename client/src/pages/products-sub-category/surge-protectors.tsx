@@ -48,12 +48,12 @@ const SurgeProtectorsPage = () => {
             <Link href="/products/safety-protective-devices">
               <Button variant="ghost" className="mb-6 hover:bg-primary/10">
                 <ArrowLeft className="mr-2 h-4 w-4" />
-                Back to Safety & Protective Devices
+{t('common:navigation.backToSafetyDevices')}
               </Button>
             </Link>
             <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-6">{t('products.surgeProtectors')}</h1>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto mb-8">
-              Lightning and surge protection devices for electrical systems and equipment
+{t('pages:products.descriptions.surgeProtectors')}
             </p>
             <div className="flex flex-wrap justify-center gap-2 mb-8">
               <Badge variant="secondary">{t('badges.lightningProtection')}</Badge>
@@ -79,7 +79,7 @@ const SurgeProtectorsPage = () => {
               </CardHeader>
               <CardContent>
                 <div className="space-y-2">
-                  <h4 className="font-medium text-sm text-foreground mb-3">Key Features:</h4>
+                  <h4 className="font-medium text-sm text-foreground mb-3">{t('common:productSections.keyFeatures')}</h4>
                   <ul className="space-y-1">
                     {product.features.map((feature, featureIndex) => (
                       <li key={featureIndex} className="text-sm text-muted-foreground flex items-center">
@@ -97,14 +97,14 @@ const SurgeProtectorsPage = () => {
 
       <div className="py-16 px-4 sm:px-6 lg:px-8">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-3xl font-bold text-foreground mb-6">Need Surge Protection?</h2>
-          <p className="text-lg text-muted-foreground mb-8">Our protection specialists can design comprehensive surge protection systems for your facility.</p>
+          <h2 className="text-3xl font-bold text-foreground mb-6">{t('common:productSections.needSurgeProtection')}</h2>
+          <p className="text-lg text-muted-foreground mb-8">{t('common:productSections.surgeProtectionDescription')}</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact">
-              <Button size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground">Contact Protection Experts</Button>
+              <Button size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground">{t('common:buttons.contactProtectionExperts')}</Button>
             </Link>
             <Link href="/quote">
-              <Button size="lg" variant="outline" className="border-primary text-primary hover:bg-primary hover:text-primary-foreground">Request Quote</Button>
+              <Button size="lg" variant="outline" className="border-primary text-primary hover:bg-primary hover:text-primary-foreground">{t('common:buttons.requestQuote')}</Button>
             </Link>
           </div>
         </div>

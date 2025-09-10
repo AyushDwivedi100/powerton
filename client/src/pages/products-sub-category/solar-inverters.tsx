@@ -5,9 +5,11 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/com
 import { Badge } from '@/components/ui/badge';
 import { ArrowLeft, Zap, Battery, Sun } from 'lucide-react';
 import { getProductImageSrc, getProductImageAlt } from '@/assets/images';
+import { useTranslation } from 'react-i18next';
 import solarMountingImage from '@assets/generated_images/Solar_mounting_systems_facility_9a3dc9bd.png';
 
 const SolarInvertersPage = () => {
+  const { t } = useTranslation(['common', 'pages']);
   const products = [
     {
       name: "String Inverters - 5-50kW",
@@ -50,7 +52,7 @@ image: getProductImageSrc('solar-inverters')
             </Link>
             <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-6">Solar Inverters</h1>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto mb-8">
-              High-efficiency DC to AC power conversion systems for solar energy applications
+              {t('pages:products.descriptions.solarInverters')}
             </p>
             <div className="flex flex-wrap justify-center gap-2 mb-8">
               <Badge variant="secondary">String Inverters</Badge>
@@ -76,7 +78,7 @@ image: getProductImageSrc('solar-inverters')
               </CardHeader>
               <CardContent>
                 <div className="space-y-2">
-                  <h4 className="font-medium text-sm text-foreground mb-3">Key Features:</h4>
+                  <h4 className="font-medium text-sm text-foreground mb-3">{t('common:productSections.keyFeatures')}</h4>
                   <ul className="space-y-1">
                     {product.features.map((feature, featureIndex) => (
                       <li key={featureIndex} className="text-sm text-muted-foreground flex items-center">
@@ -94,14 +96,14 @@ image: getProductImageSrc('solar-inverters')
 
       <div className="py-16 px-4 sm:px-6 lg:px-8">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-3xl font-bold text-foreground mb-6">Need Solar Inverter Solutions?</h2>
-          <p className="text-lg text-muted-foreground mb-8">Our solar engineers can design the optimal inverter system for your solar installation.</p>
+          <h2 className="text-3xl font-bold text-foreground mb-6">{t('common:productSections.needSolarInverterSolutions')}</h2>
+          <p className="text-lg text-muted-foreground mb-8">{t('common:productSections.solarInverterDescription')}</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact">
-              <Button size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground">Contact Solar Experts</Button>
+              <Button size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground">{t('common:buttons.contactSolarExperts')}</Button>
             </Link>
             <Link href="/quote">
-              <Button size="lg" variant="outline" className="border-primary text-primary hover:bg-primary hover:text-primary-foreground">Request Quote</Button>
+              <Button size="lg" variant="outline" className="border-primary text-primary hover:bg-primary hover:text-primary-foreground">{t('common:buttons.requestQuote')}</Button>
             </Link>
           </div>
         </div>

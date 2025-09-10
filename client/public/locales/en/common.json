@@ -22,7 +22,9 @@
     "ha": "Hausa"
   },
   "navigation": {
-    "backToInstrumentationComponents": "Back to Instrumentation Components"
+    "backToInstrumentationComponents": "Back to Instrumentation Components",
+    "backToSafetyDevices": "Back to Safety & Protective Devices",
+    "phoneNumbers": "Phone Numbers"
   },
   "buttons": {
     "getQuote": "Get Quote",
@@ -34,7 +36,11 @@
     "requestDemo": "Request Demo",
     "getTechnicalSupport": "Get Technical Support",
     "exploreProducts": "Explore Products",
-    "viewServices": "View Services"
+    "viewServices": "View Services",
+    "requestQuote": "Request Quote",
+    "contactExperts": "Contact Experts",
+    "contactProtectionExperts": "Contact Protection Experts",
+    "contactSolarExperts": "Contact Solar Experts"
   },
   "messages": {
     "close": "Close",
@@ -93,6 +99,19 @@
     "signalConverters": "Signal Converters",
     "measuringTransducers": "Measuring Transducers",
     "noiseFilters": "Noise Filters"
+  },
+  "productSections": {
+    "keyFeatures": "Key Features:",
+    "specifications": "Specifications",
+    "applications": "Applications", 
+    "industries": "Industries",
+    "needSurgeProtection": "Need Surge Protection?",
+    "needSolarInverterSolutions": "Need Solar Inverter Solutions?",
+    "needSolarChargeControl": "Need Solar Charge Control?",
+    "surgeProtectionDescription": "Our protection specialists can design comprehensive surge protection systems for your facility.",
+    "solarInverterDescription": "Our solar engineers can design the optimal inverter system for your solar installation.",
+    "solarChargeDescription": "Our solar specialists can help you select the right charge controller for your battery system.",
+    "energyStorageDescription": "Our energy storage experts can design the optimal battery system for your solar installation."
   },
   "seo": {
     "days": {

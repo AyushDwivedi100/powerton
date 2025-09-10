@@ -127,8 +127,8 @@ export default function Contact() {
   return (
     <>
       <SEO
-        title="Contact Powerton Engineering - Get Expert Engineering Support"
-        description="Contact Powerton Engineering for industrial automation, electrical engineering, and instrumentation services. 24/7 support available. Located in Noida, serving all India."
+        title={t('pages:contact.seo.title')}
+        description={t('pages:contact.seo.description')}
         keywords={t('pages:contact.seo.keywords', 'contact powerton engineering, industrial automation support, electrical engineering contact, instrumentation services, Noida engineering company, technical support India')}
         canonicalUrl="https://powertonengineering.in/contact"
       />
@@ -290,7 +290,7 @@ export default function Contact() {
                       <div className="space-y-2">
                         <div className="flex items-center">
                           <Phone className="w-4 h-4 sm:w-5 sm:h-5 text-primary mr-2 sm:mr-3 flex-shrink-0" />
-                          <span className="text-sm sm:text-base font-medium text-foreground">Phone Numbers</span>
+                          <span className="text-sm sm:text-base font-medium text-foreground">{t('common:navigation.phoneNumbers')}</span>
                         </div>
                         <div className="ml-6 sm:ml-8 space-y-1">
                           <a 
