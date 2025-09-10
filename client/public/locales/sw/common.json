@@ -485,5 +485,45 @@
     "iso": "ISO",
     "quality": "Ubora",
     "certification": "Uthibitisho"
+  },
+  "testimonials": {
+    "anand": {
+      "name": "Anand Awasthi",
+      "location": "Bengal ya Magharibi",
+      "comment": "Powerton Engineering ilifanya mchakato wa kutumia nishati ya jua kuwa rahisi na nyepesi. Timu yao ilishughulikia kila kitu kutoka mwanzo hadi mwisho, na tunafurahi sana na matokeo."
+    },
+    "sanjay": {
+      "name": "Sanjay Patil",
+      "location": "Uttar Pradesh",
+      "comment": "Nimefurahi kuchagua Powerton Engineering kwa usakinishaji wetu, na singependa kutoa shaka kuwapendelea kwa yeyote wa marafiki zangu."
+    },
+    "rhea": {
+      "name": "Rhea Sharma",
+      "location": "Maharashtra",
+      "comment": "Bidhaa za ubora wa hali ya juu na huduma ya wateja ya kipekee. Utaalamu wa kiufundi wa timu ni wa kuvutia na wa kitaaluma."
+    },
+    "priya": {
+      "name": "Priya Mehta",
+      "location": "Gujarat",
+      "comment": "Kufanya kazi na Powerton Engineering kulikuwa uzoefu wa ajabu. Masuluhisho yao ya otomatiki yalibadilisha mchakato wetu wa utengenezaji na kuboresha ufanisi kwa asilimia 35. Inapendekezwa sana kwa miradi ya otomatiki ya viwandani."
+    },
+    "kavya": {
+      "name": "Kavya Singh",
+      "location": "Karnataka",
+      "comment": "Huduma ya kipekee na msaada wa kiufundi! Timu ilitoa mwongozo wa kipekee wakati wa utekelezaji wa mradi wetu wa jua. Mbinu yao ya kitaaluma na utoaji wa wakati ulizidi matarajio yetu kabisa."
+    },
+    "rajesh": {
+      "name": "Rajesh Kumar",
+      "location": "Tamil Nadu",
+      "comment": "Powerton Engineering ilitoa haswa kile walichokuwa wameahidi. Mfumo wa ala za kipimo waliousakinisha umekuwa ukifanya kazi vizuri kwa zaidi ya miaka miwili. Msaada wao baada ya mauzo ni wa ajabu na daima wa kujibu."
+    }
+  },
+  "projectCategories": {
+    "Power Plant": "Kituo cha Umeme",
+    "Manufacturing": "Utengenezaji",
+    "Solar": "Jua",
+    "Water Treatment": "Usafishaji wa Maji",
+    "Process Automation": "Otomatiki ya Michakato",
+    "Power Systems": "Mifumo ya Umeme"
   }
 }

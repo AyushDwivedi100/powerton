@@ -471,5 +471,45 @@
     "iso": "ISO",
     "quality": "Qualidade",
     "certification": "Certificação"
+  },
+  "testimonials": {
+    "anand": {
+      "name": "Anand Awasthi",
+      "location": "Bengala Ocidental",
+      "comment": "A Powerton Engineering tornou o processo de adoção da energia solar perfeito e fácil. Sua equipe cuidou de tudo do início ao fim, e estamos entusiasmados com os resultados."
+    },
+    "sanjay": {
+      "name": "Sanjay Patil",
+      "location": "Uttar Pradesh",
+      "comment": "Estou feliz por ter escolhido a Powerton Engineering para nossa instalação, e não hesitaria em recomendá-los a qualquer um dos meus amigos."
+    },
+    "rhea": {
+      "name": "Rhea Sharma",
+      "location": "Maharashtra",
+      "comment": "Produtos de excelente qualidade e atendimento ao cliente excepcional. A experiência técnica da equipe é impressionante e altamente profissional."
+    },
+    "priya": {
+      "name": "Priya Mehta",
+      "location": "Gujarat",
+      "comment": "Trabalhar com a Powerton Engineering foi uma experiência fantástica. Suas soluções de automação transformaram nosso processo de fabricação e melhoraram a eficiência em 35%. Altamente recomendado para projetos de automação industrial."
+    },
+    "kavya": {
+      "name": "Kavya Singh",
+      "location": "Karnataka",
+      "comment": "Serviço excepcional e suporte técnico! A equipe forneceu orientação excepcional durante a implementação do nosso projeto solar. Sua abordagem profissional e entrega pontual superaram completamente nossas expectativas."
+    },
+    "rajesh": {
+      "name": "Rajesh Kumar",
+      "location": "Tamil Nadu",
+      "comment": "A Powerton Engineering entregou exatamente o que prometeram. O sistema de instrumentação que instalaram tem funcionado perfeitamente por mais de dois anos. Seu suporte pós-venda é notável e sempre responsivo."
+    }
+  },
+  "projectCategories": {
+    "Power Plant": "Usina de Energia",
+    "Manufacturing": "Fabricação",
+    "Solar": "Solar",
+    "Water Treatment": "Tratamento de Água",
+    "Process Automation": "Automação de Processos",
+    "Power Systems": "Sistemas de Energia"
   }
 }

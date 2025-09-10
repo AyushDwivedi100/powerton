@@ -502,5 +502,45 @@
     "iso": "ISO",
     "quality": "质量",
     "certification": "认证"
+  },
+  "testimonials": {
+    "anand": {
+      "name": "Anand Awasthi",
+      "location": "西孟加拉邦",
+      "comment": "Powerton工程让我们的太阳能项目变得无缝且简单。他们的团队从头到尾处理一切，我们对结果非常满意。"
+    },
+    "sanjay": {
+      "name": "Sanjay Patil",
+      "location": "北方邦",
+      "comment": "我很高兴为我们的安装选择了Powerton工程，我毫不犹豫地向我的任何朋友推荐他们。"
+    },
+    "rhea": {
+      "name": "Rhea Sharma",
+      "location": "马哈拉施特拉邦",
+      "comment": "优质的产品和出色的客户服务。团队的技术专长令人印象深刻且高度专业。"
+    },
+    "priya": {
+      "name": "Priya Mehta",
+      "location": "古吉拉特邦",
+      "comment": "与Powerton工程合作是一次美妙的体验。他们的自动化解决方案改变了我们的制造流程，提高了35%的效率。强烈推荐工业自动化项目。"
+    },
+    "kavya": {
+      "name": "Kavya Singh",
+      "location": "卡纳塔克邦",
+      "comment": "出色的服务和技术支持！团队在我们的太阳能项目实施过程中提供了卓越的指导。他们的专业方法和及时交付完全超出了我们的期望。"
+    },
+    "rajesh": {
+      "name": "Rajesh Kumar",
+      "location": "泰米尔纳德邦",
+      "comment": "Powerton工程完全兑现了他们的承诺。他们安装的仪表系统已经完美运行了两年多。他们的售后支持非常出色且始终响应迅速。"
+    }
+  },
+  "projectCategories": {
+    "Power Plant": "发电厂",
+    "Manufacturing": "制造业",
+    "Solar": "太阳能",
+    "Water Treatment": "水处理",
+    "Process Automation": "过程自动化",
+    "Power Systems": "电力系统"
   }
 }
