@@ -16,6 +16,8 @@ export function LanguageSwitcher() {
   const [isOpen, setIsOpen] = useState(false);
 
   const handleLanguageChange = (languageCode: string) => {
+    // Store manually selected language with higher priority
+    localStorage.setItem('i18nextLng', languageCode);
     i18n.changeLanguage(languageCode);
     setIsOpen(false);
   };

@@ -55,7 +55,7 @@ i18n
   .use(LanguageDetector)
   .use(initReactI18next)
   .init({
-    fallbackLng: false, // Don't fallback to English for missing keys
+    fallbackLng: 'en', // Fallback to English when language not supported, but not for missing keys
     lng: detectLanguage(), // Use our custom detection logic
     debug: import.meta.env.DEV, // Console logging only in development
     
@@ -128,11 +128,8 @@ i18n
     returnedObjectHandler: false,
     saveMissing: false,
     
-    // Custom missing key handler to return the key itself
-    parseMissingKeyHandler: (key: string) => key,
-    
     // Show translation key when missing instead of falling back
-    missingKeyHandler: false,
+    parseMissingKeyHandler: (key: string) => key,
 
     // Resources loading strategy
     partialBundledLanguages: true
