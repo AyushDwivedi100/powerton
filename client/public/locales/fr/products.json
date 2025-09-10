@@ -231,6 +231,17 @@
       "description": "Moteurs à Courant Continu sans Balais compacts pour ventilateurs portables et muraux"
     }
   },
+  "items": {
+    "instrumentation-components": "Composants d'Instrumentation",
+    "electrical-components": "Composants Électriques",
+    "measurement-instruments": "Instruments de Mesure",
+    "solar-products": "Produits Solaires",
+    "automation-control-systems": "Systèmes d'Automatisation et de Contrôle",
+    "safety-protective-devices": "Dispositifs de Sécurité et de Protection",
+    "mechanical-pumps-spares": "Pompes Mécaniques et Pièces Détachées",
+    "industrial-tools-tackles": "Outils et Équipements Industriels",
+    "bldc": "Produits de Moteurs sans Balais"
+  },
   "filters": {
     "all": "Tous",
     "category": "Catégorie",

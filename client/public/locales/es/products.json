@@ -53,6 +53,195 @@
       "description": "Productos de motores sin escobillas para aplicaciones de eficiencia energética"
     }
   },
+  "subcategories": {
+    "sensors": {
+      "title": "Sensores",
+      "description": "Sensores industriales para medición y control"
+    },
+    "transmitters": {
+      "title": "Transmisores y Transductores",
+      "description": "Transmisores de proceso y equipos de conversión de señales"
+    },
+    "controllers": {
+      "title": "Controladores y Registradores",
+      "description": "Sistemas de control industrial y controladores de automatización"
+    },
+    "switches": {
+      "title": "Interruptores e Indicadores",
+      "description": "Interruptores industriales y equipos de control"
+    },
+    "valves": {
+      "title": "Válvulas y Actuadores",
+      "description": "Válvulas industriales y sistemas de control de flujo"
+    },
+    "analyzers": {
+      "title": "Analizadores",
+      "description": "Analizadores de proceso para control de calidad"
+    },
+    "signal-conditioners": {
+      "title": "Acondicionadores de Señal",
+      "description": "Equipos de procesamiento y acondicionamiento de señales"
+    },
+    "cables-wires": {
+      "title": "Cables y Alambres",
+      "description": "Cables industriales y soluciones de cableado"
+    },
+    "connectors-terminals": {
+      "title": "Conectores y Terminales",
+      "description": "Conectores eléctricos y soluciones de terminales"
+    },
+    "circuit-breakers-fuses": {
+      "title": "Interruptores Automáticos y Fusibles",
+      "description": "Dispositivos de protección eléctrica para seguridad de circuitos"
+    },
+    "power-supplies": {
+      "title": "Fuentes de Alimentación",
+      "description": "Unidades de alimentación industrial y convertidores"
+    },
+    "enclosures-cabinets": {
+      "title": "Gabinetes y Armarios",
+      "description": "Gabinetes eléctricos y soluciones de armarios de control"
+    },
+    "heating-elements-appliances": {
+      "title": "Elementos Calefactores y Electrodomésticos",
+      "description": "Soluciones de calefacción industrial y equipos térmicos"
+    },
+    "multimeters": {
+      "title": "Multímetros",
+      "description": "Multímetros digitales y analógicos para pruebas eléctricas"
+    },
+    "oscilloscopes": {
+      "title": "Osciloscopios",
+      "description": "Osciloscopios digitales para análisis de señales y pruebas"
+    },
+    "spectrum-analyzers": {
+      "title": "Analizadores de Espectro",
+      "description": "Equipos de análisis de espectro de RF y microondas"
+    },
+    "power-quality-analyzers": {
+      "title": "Analizadores de Calidad de Energía",
+      "description": "Instrumentos de medición y análisis de calidad de energía"
+    },
+    "calibration-equipment": {
+      "title": "Equipos de Calibración",
+      "description": "Instrumentos de calibración de precisión y equipos de prueba"
+    },
+    "solar-panels": {
+      "title": "Paneles Solares",
+      "description": "Paneles solares de alta eficiencia y sistemas fotovoltaicos"
+    },
+    "solar-inverters": {
+      "title": "Inversores Solares",
+      "description": "Inversores de energía solar y sistemas de conexión a red"
+    },
+    "mounting-structures-racking": {
+      "title": "Estructuras de Montaje y Sistemas de Bastidores",
+      "description": "Soluciones de montaje estructural para instalaciones solares"
+    },
+    "solar-charge-controllers": {
+      "title": "Controladores de Carga Solar",
+      "description": "Controladores de carga solar y gestión de energía"
+    },
+    "solar-batteries-energy-storage": {
+      "title": "Baterías Solares y Sistemas de Almacenamiento de Energía",
+      "description": "Soluciones de almacenamiento de energía para sistemas de energía solar"
+    },
+    "plcs": {
+      "title": "Controladores Lógicos Programables",
+      "description": "Controladores Lógicos Programables para automatización industrial"
+    },
+    "scada": {
+      "title": "Sistemas de Control Supervisorio y Adquisición de Datos",
+      "description": "Sistemas de Control Supervisorio y Adquisición de Datos"
+    },
+    "dcs": {
+      "title": "Sistemas de Control Distribuido",
+      "description": "Sistemas de Control Distribuido para automatización de procesos"
+    },
+    "hmi": {
+      "title": "Interfaz Humano-Máquina",
+      "description": "Sistemas de Interfaz Humano-Máquina para control del operador"
+    },
+    "surge-protectors": {
+      "title": "Protectores contra Sobretensiones",
+      "description": "Dispositivos y sistemas de protección contra sobretensiones eléctricas"
+    },
+    "grounding-systems": {
+      "title": "Sistemas de Puesta a Tierra",
+      "description": "Soluciones de puesta a tierra y conexión a tierra eléctrica para seguridad"
+    },
+    "safety-relays-switches": {
+      "title": "Relés y Interruptores de Seguridad",
+      "description": "Relés de control de seguridad y sistemas de parada de emergencia"
+    },
+    "intrinsically-safe-equipment": {
+      "title": "Equipos Intrínsecamente Seguros",
+      "description": "Equipos certificados para aplicaciones en áreas peligrosas"
+    },
+    "centrifugal-pumps": {
+      "title": "Bombas Centrífugas",
+      "description": "Bombas centrífugas de alta eficiencia para aplicaciones industriales"
+    },
+    "diaphragm-pumps": {
+      "title": "Bombas de Diafragma",
+      "description": "Bombas de dosificación de precisión y manejo de químicos"
+    },
+    "gear-pumps": {
+      "title": "Bombas de Engranajes",
+      "description": "Bombas de engranajes de precisión para aplicaciones hidráulicas e industriales"
+    },
+    "pump-parts-spares": {
+      "title": "Piezas y Repuestos de Bombas",
+      "description": "Piezas de repuesto y componentes para sistemas de bombas"
+    },
+    "hand-tools": {
+      "title": "Herramientas Manuales",
+      "description": "Herramientas manuales profesionales para mantenimiento industrial"
+    },
+    "power-tools": {
+      "title": "Herramientas Eléctricas",
+      "description": "Herramientas eléctricas y neumáticas para uso industrial"
+    },
+    "cutting-tools": {
+      "title": "Herramientas de Corte",
+      "description": "Herramientas de corte industrial y equipos de mecanizado"
+    },
+    "lifting-equipment": {
+      "title": "Equipos de Elevación",
+      "description": "Equipos de elevación industrial y soluciones de manejo de materiales"
+    },
+    "safety-equipment": {
+      "title": "Equipos de Seguridad",
+      "description": "Equipos de protección personal y dispositivos de seguridad"
+    },
+    "bldc-cooler-exhaust-motor": {
+      "title": "Motor Enfriador/Extractor sin Escobillas",
+      "description": "Motores sin escobillas eficientes energéticamente para enfriamiento y ventilación"
+    },
+    "bldc-ceiling-fan": {
+      "title": "Ventilador de Techo sin Escobillas",
+      "description": "Ventiladores de techo de alta eficiencia con tecnología de corriente continua sin escobillas"
+    },
+    "bldc-submersible-surface-pump": {
+      "title": "Bomba Superficial Sumergible sin Escobillas",
+      "description": "Bombas sin escobillas alimentadas por energía solar para aplicaciones de agua"
+    },
+    "bldc-table-fan-wall-fan-motor": {
+      "title": "Motor de Ventilador de Mesa/Pared sin Escobillas",
+      "description": "Motores compactos sin escobillas para ventiladores portátiles y montados en pared"
+    }
+  },
+  "items": {
+    "instrumentation-components": "Componentes de Instrumentación",
+    "electrical-components": "Componentes Eléctricos",
+    "measurement-instruments": "Instrumentos de Medición",
+    "solar-products": "Productos Solares",
+    "automation-control-systems": "Sistemas de Automatización y Control",
+    "safety-protective-devices": "Dispositivos de Seguridad y Protección",
+    "mechanical-pumps-spares": "Bombas Mecánicas y Repuestos",
+    "industrial-tools-tackles": "Herramientas y Equipos Industriales",
+    "bldc": "Productos de Motores sin Escobillas"
+  },
   "filters": {
     "all": "Todos",
     "category": "Categoría",

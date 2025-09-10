@@ -64,6 +64,195 @@
     "industrial-tools-tackles": "الأدوات والمعدات الصناعية",
     "bldc": "محركات التيار المستمر بدون فرش"
   },
+  "subcategories": {
+    "sensors": {
+      "title": "أجهزة الاستشعار",
+      "description": "أجهزة استشعار صناعية للقياس والتحكم"
+    },
+    "transmitters": {
+      "title": "أجهزة الإرسال والمحولات",
+      "description": "أجهزة إرسال العمليات ومعدات تحويل الإشارات"
+    },
+    "controllers": {
+      "title": "أجهزة التحكم والمسجلات",
+      "description": "أنظمة التحكم الصناعي ووحدات تحكم الأتمتة"
+    },
+    "switches": {
+      "title": "المفاتيح والمؤشرات",
+      "description": "المفاتيح الصناعية ومعدات التحكم"
+    },
+    "valves": {
+      "title": "الصمامات والمشغلات",
+      "description": "الصمامات الصناعية وأنظمة التحكم في التدفق"
+    },
+    "analyzers": {
+      "title": "أجهزة التحليل",
+      "description": "محللات العمليات لمراقبة الجودة"
+    },
+    "signal-conditioners": {
+      "title": "مكيفات الإشارة",
+      "description": "معدات معالجة وتكييف الإشارات"
+    },
+    "cables-wires": {
+      "title": "الكابلات والأسلاك",
+      "description": "الكابلات الصناعية وحلول الأسلاك"
+    },
+    "connectors-terminals": {
+      "title": "الموصلات والأطراف",
+      "description": "الموصلات الكهربائية وحلول الأطراف"
+    },
+    "circuit-breakers-fuses": {
+      "title": "قواطع الدائرة والمصهرات",
+      "description": "أجهزة الحماية الكهربائية لسلامة الدوائر"
+    },
+    "power-supplies": {
+      "title": "مصادر الطاقة",
+      "description": "وحدات الطاقة الصناعية والمحولات"
+    },
+    "enclosures-cabinets": {
+      "title": "الحاويات والخزائن",
+      "description": "الحاويات الكهربائية وحلول خزائن التحكم"
+    },
+    "heating-elements-appliances": {
+      "title": "عناصر التسخين والأجهزة",
+      "description": "حلول التسخين الصناعي والمعدات الحرارية"
+    },
+    "multimeters": {
+      "title": "أجهزة القياس المتعددة",
+      "description": "أجهزة قياس رقمية وتناظرية للاختبار الكهربائي"
+    },
+    "oscilloscopes": {
+      "title": "أجهزة الأوسيلوسكوب",
+      "description": "أوسيلوسكوبات رقمية لتحليل الإشارات والاختبار"
+    },
+    "spectrum-analyzers": {
+      "title": "محللات الطيف",
+      "description": "معدات تحليل الطيف الراديوي والميكروويف"
+    },
+    "power-quality-analyzers": {
+      "title": "محللات جودة الطاقة",
+      "description": "أجهزة قياس وتحليل جودة الطاقة"
+    },
+    "calibration-equipment": {
+      "title": "معدات المعايرة",
+      "description": "أجهزة المعايرة الدقيقة ومعدات الاختبار"
+    },
+    "solar-panels": {
+      "title": "الألواح الشمسية",
+      "description": "ألواح شمسية عالية الكفاءة وأنظمة فوتوفولطية"
+    },
+    "solar-inverters": {
+      "title": "محولات الطاقة الشمسية",
+      "description": "محولات الطاقة الشمسية وأنظمة الربط بالشبكة"
+    },
+    "mounting-structures-racking": {
+      "title": "هياكل التثبيت وأنظمة الرفوف",
+      "description": "حلول التثبيت الهيكلية للتركيبات الشمسية"
+    },
+    "solar-charge-controllers": {
+      "title": "أجهزة التحكم في الشحن الشمسي",
+      "description": "أجهزة التحكم في الشحن الشمسي وإدارة الطاقة"
+    },
+    "solar-batteries-energy-storage": {
+      "title": "البطاريات الشمسية وأنظمة تخزين الطاقة",
+      "description": "حلول تخزين الطاقة لأنظمة الطاقة الشمسية"
+    },
+    "plcs": {
+      "title": "أجهزة التحكم المنطقي القابلة للبرمجة",
+      "description": "أجهزة التحكم المنطقي القابلة للبرمجة للأتمتة الصناعية"
+    },
+    "scada": {
+      "title": "أنظمة المراقبة والتحكم والحصول على البيانات",
+      "description": "أنظمة المراقبة والتحكم والحصول على البيانات"
+    },
+    "dcs": {
+      "title": "أنظمة التحكم الموزعة",
+      "description": "أنظمة التحكم الموزعة لأتمتة العمليات"
+    },
+    "hmi": {
+      "title": "واجهة الإنسان والآلة",
+      "description": "أنظمة واجهة الإنسان والآلة للتحكم بالمشغل"
+    },
+    "surge-protectors": {
+      "title": "واقيات الجهد الزائد",
+      "description": "أجهزة وأنظمة الحماية من الجهد الزائد الكهربائي"
+    },
+    "grounding-systems": {
+      "title": "أنظمة التأريض",
+      "description": "حلول التأريض والتوصيل الأرضي الكهربائي للسلامة"
+    },
+    "safety-relays-switches": {
+      "title": "مرحلات ومفاتيح الأمان",
+      "description": "مرحلات التحكم الآمن وأنظمة الإيقاف الطارئ"
+    },
+    "intrinsically-safe-equipment": {
+      "title": "معدات آمنة جوهرياً",
+      "description": "معدات معتمدة لتطبيقات المناطق الخطرة"
+    },
+    "centrifugal-pumps": {
+      "title": "المضخات الطاردة المركزية",
+      "description": "مضخات طاردة مركزية عالية الكفاءة للتطبيقات الصناعية"
+    },
+    "diaphragm-pumps": {
+      "title": "مضخات الحجاب الحاجز",
+      "description": "مضخات دقيقة للجرعات والتعامل مع المواد الكيميائية"
+    },
+    "gear-pumps": {
+      "title": "المضخات المسننة",
+      "description": "مضخات مسننة دقيقة للتطبيقات الهيدروليكية والصناعية"
+    },
+    "pump-parts-spares": {
+      "title": "قطع غيار المضخات",
+      "description": "قطع الغيار والمكونات لأنظمة المضخات"
+    },
+    "hand-tools": {
+      "title": "الأدوات اليدوية",
+      "description": "أدوات يدوية احترافية للصيانة الصناعية"
+    },
+    "power-tools": {
+      "title": "الأدوات الكهربائية",
+      "description": "أدوات كهربائية وهوائية للاستخدام الصناعي"
+    },
+    "cutting-tools": {
+      "title": "أدوات القطع",
+      "description": "أدوات القطع الصناعية ومعدات التشغيل"
+    },
+    "lifting-equipment": {
+      "title": "معدات الرفع",
+      "description": "معدات الرفع الصناعي وحلول مناولة المواد"
+    },
+    "safety-equipment": {
+      "title": "معدات السلامة",
+      "description": "معدات الحماية الشخصية وأجهزة السلامة"
+    },
+    "bldc-cooler-exhaust-motor": {
+      "title": "محرك تبريد/عادم بدون فرش",
+      "description": "محركات بدون فرش موفرة للطاقة للتبريد والتهوية"
+    },
+    "bldc-ceiling-fan": {
+      "title": "مراوح سقف بدون فرش",
+      "description": "مراوح سقف عالية الكفاءة بتقنية التيار المستمر بدون فرش"
+    },
+    "bldc-submersible-surface-pump": {
+      "title": "مضخة سطحية غاطسة بدون فرش",
+      "description": "مضخات بدون فرش تعمل بالطاقة الشمسية لتطبيقات المياه"
+    },
+    "bldc-table-fan-wall-fan-motor": {
+      "title": "محرك مروحة طاولة/حائط بدون فرش",
+      "description": "محركات مدمجة بدون فرش للمراوح المحمولة والمثبتة على الحائط"
+    }
+  },
+  "items": {
+    "instrumentation-components": "مكونات الأجهزة",
+    "electrical-components": "المكونات الكهربائية",
+    "measurement-instruments": "أجهزة القياس",
+    "solar-products": "المنتجات الشمسية",
+    "automation-control-systems": "أنظمة الأتمتة والتحكم",
+    "safety-protective-devices": "أجهزة السلامة والحماية",
+    "mechanical-pumps-spares": "المضخات الميكانيكية وقطع الغيار",
+    "industrial-tools-tackles": "الأدوات والمعدات الصناعية",
+    "bldc": "منتجات المحركات بدون فرش"
+  },
   "filters": {
     "all": "الكل",
     "category": "الفئة",

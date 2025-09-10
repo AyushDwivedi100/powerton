@@ -53,6 +53,195 @@
       "description": "ऊर्जा-कुशल ब्रशलेस DC मोटर समाधान"
     }
   },
+  "subcategories": {
+    "sensors": {
+      "title": "सेंसर",
+      "description": "औद्योगिक मापन और नियंत्रण के लिए सेंसर"
+    },
+    "transmitters": {
+      "title": "ट्रांसमीटर और ट्रांसड्यूसर",
+      "description": "प्रक्रिया ट्रांसमीटर और सिग्नल रूपांतरण उपकरण"
+    },
+    "controllers": {
+      "title": "नियंत्रक और रिकॉर्डर",
+      "description": "औद्योगिक नियंत्रण प्रणाली और स्वचालन नियंत्रक"
+    },
+    "switches": {
+      "title": "स्विच और संकेतक",
+      "description": "औद्योगिक स्विच और नियंत्रण उपकरण"
+    },
+    "valves": {
+      "title": "वाल्व और एक्चुएटर",
+      "description": "औद्योगिक वाल्व और प्रवाह नियंत्रण प्रणाली"
+    },
+    "analyzers": {
+      "title": "विश्लेषक",
+      "description": "गुणवत्ता नियंत्रण के लिए प्रक्रिया विश्लेषक"
+    },
+    "signal-conditioners": {
+      "title": "सिग्नल कंडीशनर",
+      "description": "सिग्नल प्रसंस्करण और कंडीशनिंग उपकरण"
+    },
+    "cables-wires": {
+      "title": "केबल और तार",
+      "description": "औद्योगिक केबल और वायरिंग समाधान"
+    },
+    "connectors-terminals": {
+      "title": "कनेक्टर और टर्मिनल",
+      "description": "विद्युत कनेक्टर और टर्मिनल समाधान"
+    },
+    "circuit-breakers-fuses": {
+      "title": "सर्किट ब्रेकर और फ्यूज",
+      "description": "सर्किट सुरक्षा के लिए विद्युत सुरक्षा उपकरण"
+    },
+    "power-supplies": {
+      "title": "पावर सप्लाई",
+      "description": "औद्योगिक पावर सप्लाई इकाइयां और कन्वर्टर"
+    },
+    "enclosures-cabinets": {
+      "title": "एन्क्लोजर और कैबिनेट",
+      "description": "विद्युत एन्क्लोजर और नियंत्रण कैबिनेट समाधान"
+    },
+    "heating-elements-appliances": {
+      "title": "हीटिंग एलिमेंट्स और उपकरण",
+      "description": "औद्योगिक हीटिंग समाधान और थर्मल उपकरण"
+    },
+    "multimeters": {
+      "title": "मल्टीमीटर",
+      "description": "विद्युत परीक्षण के लिए डिजिटल और एनालॉग मल्टीमीटर"
+    },
+    "oscilloscopes": {
+      "title": "ऑसिलोस्कोप",
+      "description": "सिग्नल विश्लेषण और परीक्षण के लिए डिजिटल ऑसिलोस्कोप"
+    },
+    "spectrum-analyzers": {
+      "title": "स्पेक्ट्रम विश्लेषक",
+      "description": "आरएफ और माइक्रोवेव स्पेक्ट्रम विश्लेषण उपकरण"
+    },
+    "power-quality-analyzers": {
+      "title": "पावर गुणवत्ता विश्लेषक",
+      "description": "पावर गुणवत्ता मापन और विश्लेषण उपकरण"
+    },
+    "calibration-equipment": {
+      "title": "अंशांकन उपकरण",
+      "description": "सटीक अंशांकन उपकरण और परीक्षण उपकरण"
+    },
+    "solar-panels": {
+      "title": "सोलर पैनल",
+      "description": "उच्च दक्षता सोलर पैनल और फोटोवोल्टिक सिस्टम"
+    },
+    "solar-inverters": {
+      "title": "सोलर इन्वर्टर",
+      "description": "सोलर पावर इन्वर्टर और ग्रिड-टाई सिस्टम"
+    },
+    "mounting-structures-racking": {
+      "title": "माउंटिंग संरचना और रैकिंग सिस्टम",
+      "description": "सोलर इंस्टॉलेशन के लिए संरचनात्मक माउंटिंग समाधान"
+    },
+    "solar-charge-controllers": {
+      "title": "सोलर चार्ज कंट्रोलर",
+      "description": "सोलर चार्ज कंट्रोलर और पावर प्रबंधन"
+    },
+    "solar-batteries-energy-storage": {
+      "title": "सोलर बैटरी और ऊर्जा भंडारण सिस्टम",
+      "description": "सोलर पावर सिस्टम के लिए ऊर्जा भंडारण समाधान"
+    },
+    "plcs": {
+      "title": "प्रोग्रामेबल लॉजिक कंट्रोलर",
+      "description": "औद्योगिक स्वचालन के लिए प्रोग्रामेबल लॉजिक कंट्रोलर"
+    },
+    "scada": {
+      "title": "निरीक्षण नियंत्रण और डेटा अधिग्रहण सिस्टम",
+      "description": "निरीक्षण नियंत्रण और डेटा अधिग्रहण सिस्टम"
+    },
+    "dcs": {
+      "title": "वितरित नियंत्रण सिस्टम",
+      "description": "प्रक्रिया स्वचालन के लिए वितरित नियंत्रण सिस्टम"
+    },
+    "hmi": {
+      "title": "मानव मशीन इंटरफेस",
+      "description": "ऑपरेटर नियंत्रण के लिए मानव मशीन इंटरफेस सिस्टम"
+    },
+    "surge-protectors": {
+      "title": "सर्ज प्रोटेक्टर",
+      "description": "विद्युत सर्ज सुरक्षा उपकरण और सिस्टम"
+    },
+    "grounding-systems": {
+      "title": "ग्राउंडिंग सिस्टम",
+      "description": "सुरक्षा के लिए विद्युत ग्राउंडिंग और अर्थिंग समाधान"
+    },
+    "safety-relays-switches": {
+      "title": "सुरक्षा रिले और स्विच",
+      "description": "सुरक्षा नियंत्रण रिले और आपातकालीन स्टॉप सिस्टम"
+    },
+    "intrinsically-safe-equipment": {
+      "title": "आंतरिक रूप से सुरक्षित उपकरण",
+      "description": "खतरनाक क्षेत्र अनुप्रयोगों के लिए प्रमाणित उपकरण"
+    },
+    "centrifugal-pumps": {
+      "title": "केन्द्रापसारक पंप",
+      "description": "औद्योगिक अनुप्रयोगों के लिए उच्च दक्षता केन्द्रापसारक पंप"
+    },
+    "diaphragm-pumps": {
+      "title": "डायाफ्राम पंप",
+      "description": "सटीक डोसिंग और रासायनिक हैंडलिंग पंप"
+    },
+    "gear-pumps": {
+      "title": "गियर पंप",
+      "description": "हाइड्रोलिक और औद्योगिक अनुप्रयोगों के लिए सटीक गियर पंप"
+    },
+    "pump-parts-spares": {
+      "title": "पंप पार्ट्स और स्पेयर",
+      "description": "पंप सिस्टम के लिए प्रतिस्थापन पार्ट्स और घटक"
+    },
+    "hand-tools": {
+      "title": "हस्त उपकरण",
+      "description": "औद्योगिक रखरखाव के लिए पेशेवर हस्त उपकरण"
+    },
+    "power-tools": {
+      "title": "पावर टूल्स",
+      "description": "औद्योगिक उपयोग के लिए विद्युत और वायवीय पावर टूल्स"
+    },
+    "cutting-tools": {
+      "title": "कटिंग टूल्स",
+      "description": "औद्योगिक कटिंग टूल्स और मशीनिंग उपकरण"
+    },
+    "lifting-equipment": {
+      "title": "लिफ्टिंग उपकरण",
+      "description": "औद्योगिक लिफ्टिंग और मटेरियल हैंडलिंग समाधान"
+    },
+    "safety-equipment": {
+      "title": "सुरक्षा उपकरण",
+      "description": "व्यक्तिगत सुरक्षा उपकरण और सुरक्षा उपकरण"
+    },
+    "bldc-cooler-exhaust-motor": {
+      "title": "ब्रशलेस डीसी कूलर/एक्जॉस्ट मोटर",
+      "description": "कूलिंग और वेंटिलेशन के लिए ऊर्जा-कुशल ब्रशलेस डीसी मोटर"
+    },
+    "bldc-ceiling-fan": {
+      "title": "ब्रशलेस डीसी सीलिंग फैन",
+      "description": "ब्रशलेस डीसी तकनीक के साथ उच्च दक्षता सीलिंग फैन"
+    },
+    "bldc-submersible-surface-pump": {
+      "title": "ब्रशलेस डीसी सबमर्सिबल सरफेस पंप",
+      "description": "पानी के अनुप्रयोगों के लिए सोलर-संचालित ब्रशलेस डीसी पंप"
+    },
+    "bldc-table-fan-wall-fan-motor": {
+      "title": "ब्रशलेस डीसी टेबल फैन/वॉल फैन मोटर",
+      "description": "पोर्टेबल और दीवार पर लगे फैन के लिए कॉम्पैक्ट ब्रशलेस डीसी मोटर"
+    }
+  },
+  "items": {
+    "instrumentation-components": "उपकरण घटक",
+    "electrical-components": "विद्युत घटक",
+    "measurement-instruments": "मापन उपकरण",
+    "solar-products": "सौर उत्पाद",
+    "automation-control-systems": "स्वचालन और नियंत्रण सिस्टम",
+    "safety-protective-devices": "सुरक्षा और सुरक्षात्मक उपकरण",
+    "mechanical-pumps-spares": "यांत्रिक पंप और स्पेयर पार्ट्स",
+    "industrial-tools-tackles": "औद्योगिक उपकरण और सामान",
+    "bldc": "ब्रशलेस डीसी उत्पाद"
+  },
   "filters": {
     "all": "सभी",
     "category": "श्रेणी",
