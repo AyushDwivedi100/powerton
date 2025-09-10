@@ -22,7 +22,9 @@
     "ha": "Hausa"
   },
   "navigation": {
-    "backToInstrumentationComponents": "इंस्ट्रूमेंटेशन कंपोनेंट्स पर वापस जाएं"
+    "backToInstrumentationComponents": "इंस्ट्रूमेंटेशन कंपोनेंट्स पर वापस जाएं",
+    "phoneNumbers": "फ़ोन नंबर",
+    "backToSafetyDevices": "सुरक्षा और सुरक्षात्मक उपकरणों पर वापस जाएं"
   },
   "buttons": {
     "getQuote": "कोटेशन प्राप्त करें",
@@ -34,7 +36,10 @@
     "requestDemo": "डेमो का अनुरोध करें",
     "getTechnicalSupport": "तकनीकी सहायता प्राप्त करें",
     "exploreProducts": "उत्पादों का अन्वेषण करें",
-    "viewServices": "सेवाएं देखें"
+    "viewServices": "सेवाएं देखें",
+    "contactProtectionExperts": "सुरक्षा विशेषज्ञों से संपर्क करें",
+    "contactSolarExperts": "सौर विशेषज्ञों से संपर्क करें",
+    "requestQuote": "कोटेशन का अनुरोध करें"
   },
   "messages": {
     "close": "बंद करें",
@@ -96,6 +101,19 @@
     "signalConverters": "सिग्नल कन्वर्टर",
     "measuringTransducers": "मापने वाले ट्रांसड्यूसर",
     "noiseFilters": "नॉइज़ फिल्टर"
+  },
+  "productSections": {
+    "keyFeatures": "मुख्य विशेषताएं:",
+    "specifications": "विशेषताएं",
+    "applications": "अनुप्रयोग",
+    "industries": "उद्योग",
+    "needSurgeProtection": "सर्ज सुरक्षा की आवश्यकता है?",
+    "needSolarInverterSolutions": "सोलर इन्वर्टर समाधान की आवश्यकता है?",
+    "needSolarChargeControl": "सोलर चार्ज नियंत्रण की आवश्यकता है?",
+    "surgeProtectionDescription": "हमारे सुरक्षा विशेषज्ञ आपकी सुविधा के लिए व्यापक सर्ज सुरक्षा प्रणाली डिज़ाइन कर सकते हैं।",
+    "solarInverterDescription": "हमारे सोलर इंजीनियर आपकी सोलर स्थापना के लिए इष्टतम इन्वर्टर प्रणाली डिज़ाइन कर सकते हैं।",
+    "solarChargeDescription": "हमारे सोलर विशेषज्ञ आपकी बैटरी प्रणाली के लिए सही चार्ज कंट्रोलर चुनने में आपकी सहायता कर सकते हैं।",
+    "energyStorageDescription": "हमारे ऊर्जा भंडारण विशेषज्ञ आपकी सोलर स्थापना के लिए इष्टतम बैटरी प्रणाली डिज़ाइन कर सकते हैं।"
   },
   "badges": {
     "energyEfficient": "ऊर्जा कुशल",
