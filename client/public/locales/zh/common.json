@@ -439,7 +439,31 @@
   },
   "messages": {
     "toggleTheme": "切换主题",
-    "close": "关闭"
+    "close": "关闭",
+    "imageNotFound": "未找到图像",
+    "loading": "加载中...",
+    "error": "发生错误"
+  },
+  "aria": {
+    "toggleNavigation": "切换导航助手",
+    "openLocation": "在谷歌地图中打开办公地点",
+    "exploreServices": "探索我们的工业自动化和工程服务",
+    "requestConsultation": "为您的工程项目申请免费咨询",
+    "companyHighlights": "公司重点和服务",
+    "performanceStats": "公司业绩统计",
+    "previousTestimonial": "上一个推荐",
+    "nextTestimonial": "下一个推荐",
+    "mainNavigation": "主要导航",
+    "companyInfo": "公司信息和网站导航",
+    "goToHomepage": "前往Powerton Engineering主页",
+    "followLinkedIn": "在LinkedIn上关注Powerton Engineering",
+    "followFacebook": "在Facebook上关注Powerton Engineering",
+    "servicesNavigation": "服务导航",
+    "productsNavigation": "产品导航",
+    "callCompany": "致电Powerton Engineering",
+    "emailCompany": "发邮件给Powerton Engineering",
+    "viewOfficeLocation": "在谷歌地图上查看Powerton Engineering办公地点",
+    "officeLocationTitle": "Powerton Engineering办公地点"
   },
   "clients": {
     "sci-group": "印度航运公司",

@@ -380,5 +380,223 @@
   "ui": {
     "projectPortfolio": "Fayil ɗin Ayyuka",
     "featuredProjects": "Ayyuka Masu Mahimmanci"
+  },
+  "news": {
+    "title": "Labarai",
+    "subtitle": "Sabuntawa",
+    "badges": {
+      "awardWinning": "Mai Samun Kyauta",
+      "growingStrong": "Karuwa da Karfi",
+      "futureReady": "Shirye don Gobe"
+    },
+    "latestNews": {
+      "excellenceAward": {
+        "title": "Powerton Engineering Ta Sami Kyautar Nagarta a Sarrafa Masana'antu",
+        "excerpt": "Muna farin ciki da sanar da cewa Powerton Engineering ta sami kyautar 'Nagarta a Sarrafa Masana'antu' daga Kungiyar Injiniyoyin Indiya don masuluhisho na sabbin hanyoyin sarrafa ayyuka.",
+        "category": "Kyautuka"
+      },
+      "ntpcContract": {
+        "title": "Babban Kwangila na Sarrafa Tashar Wutar Lantarki da NTPC",
+        "excerpt": "Powerton Engineering ta kulla kwangila mai muhimmanci na ₹5 crore da NTPC don sarrafa sabuwar tashar wutar lantarki a Gujarat, da za ta kammala a Q3 2025.",
+        "category": "Kasuwanci"
+      },
+      "renewableExpansion": {
+        "title": "Fadada Masuluhisho na Sarrafa Makamashi Mai Sabuntawa",
+        "excerpt": "A matsayin wani bangare na tsarin girman kasuwancinmu, muna fadada hidimominmu da suka hada da masuluhisho na sarrafa don ayyukan hasken rana da makamashi daga iska, da ke nufin yawan bukatun makamashi mai sabuntawa na Indiya.",
+        "category": "Kamfani"
+      }
+    },
+    "achievements": {
+      "title": "Nasarorin Kwanan Nan",
+      "list": [
+        "Kyautar Nagarta a Sarrafa Masana'antu - Kungiyar Injiniyoyin Indiya",
+        "Mafi Kyawun Mai Samar da Ayyukan Injiniya - Kyautukan Automation World 2024",
+        "Kyautar Guduma ga Makamashi Mai Tsabta - Karramawa daga MNRE",
+        "Sabbin Tunani a Sarrafa Ayyuka - Kyautukan IET Indiya",
+        "Kyautar Nagarta ga Abokan Ciniki - Kungiyar Sarrafa Masana'antu"
+      ]
+    }
+  },
+  "backToProducts": "Koma zuwa Kayayyaki",
+  "notFound": {
+    "heading": "Ba a Sami Shafin Ba",
+    "message": "Shafin da kuke nema ba ya wanzuwa. Ana iya cewa an cire shi, an share shi ko kun shigar da URL mara daidai.",
+    "quickLinks": "Hanyoyin sauri zuwa sassan da suka fi shahara:",
+    "buttons": {
+      "homepage": "Koma zuwa Gida",
+      "support": "Tuntuɓi Tallafi"
+    },
+    "links": {
+      "products": "Kayayyaki",
+      "services": "Ayyuka",
+      "projects": "Ayyuka",
+      "about": "Game da mu"
+    }
+  },
+  "portfolioDownload": {
+    "seo": {
+      "title": "Sauke Portfolio - Powerton Engineering",
+      "description": "Sauke takaddun portfolio masu cikakke da ke nuna ayyukan sarrafa masana'antu, damar da nasarorin Powerton Engineering."
+    },
+    "title": "Saukar Portfolio",
+    "subtitle": "Samun damar zuwa takaddun ayyukan sarrafa masana'antu, damar da nagarta a injiniya. Sauke portfolio masu zurfi don koyon game da aikinmu.",
+    "features": {
+      "projects": {
+        "title": "Ayyuka 1200+",
+        "description": "Ayyuka da aka kammala da nasara a masana'antu daban-daban"
+      },
+      "documentation": {
+        "title": "Takaddun Mai Daraja",
+        "description": "Portfolio na ƙwararru tare da hotunan ayyuka dalla-dalla"
+      },
+      "results": {
+        "title": "Sakamakon da aka Tabbatar",
+        "description": "Ayyukan hakika tare da sakamako da za a iya aunawa da ra'ayoyin abokan ciniki"
+      }
+    },
+    "items": {
+      "complete": {
+        "title": "Cikakkiyar Portfolio na Kamfani",
+        "description": "Portfolio mai cikakke da ke nuna dukkan ayyukan sarrafa masana'antu, damar da nasarorinmu."
+      },
+      "automation": {
+        "title": "Ayyukan Sarrafa Masana'antu",
+        "description": "Tarin ayyukan sarrafa da tsarin gudanarwa a masana'antu daban-daban."
+      },
+      "electrical": {
+        "title": "Tsarin Wutar Lantarki da Makamashi",
+        "description": "Takaddun raba makamashi, panel na sarrafa lantarki da ayyukan sarrafa makamashi."
+      },
+      "caseStudies": {
+        "title": "Nazarin Ayyuka",
+        "description": "Nazarin dalla-dalla na ayyukan sarrafa masana'antu mafi nasara tare da bayanin fasaha."
+      }
+    },
+    "categories": {
+      "allProjects": "Dukkan Ayyuka",
+      "companyOverview": "Bayyani Game da Kamfani",
+      "certifications": "Takaddun Shaida",
+      "clientTestimonials": "Shedar Abokan Ciniki",
+      "processAutomation": "Sarrafa Ayyuka",
+      "controlSystems": "Tsarin Gudanarwa",
+      "scada": "SCADA",
+      "plcProgramming": "Shirye-shiryen PLC",
+      "powerDistribution": "Rarraba Makamashi",
+      "controlPanels": "Panel na Gudanarwa",
+      "motorControlCenters": "Cibiyoyin Sarrafa Injuna",
+      "energyManagement": "Sarrafa Makamashi",
+      "caseStudies": "Nazarin Ayyuka",
+      "technicalSolutions": "Masuluhisho na Fasaha",
+      "roiAnalysis": "Nazarin ROI",
+      "implementationStrategies": "Dabarun Aiwatarwa"
+    },
+    "pages": "shafuka",
+    "includes": "Ya Kunsa",
+    "requestDownload": "Nemi Saukewa",
+    "custom": {
+      "title": "Kuna Bukatar Portfolio na Musamman?",
+      "description": "Kuna neman takamaiman bayani game da aiki ko portfolio na musamman don masana'antu ku? Tuntuɓi ƙungiyarmu don samun takamaiman takaddun."
+    },
+    "disclaimer": {
+      "note": "Lura",
+      "text": "Takaddun portfolio ana ba da su don dalilai na bayani. Don samun sabbin bayanai da takamaiman bayanan aiki, da fatan za ku tuntuɓi ƙungiyarmu kai tsaye. Wasu bayanan aiki na iya zama sirri kuma ana samun su ne kawai ta yarjejeniya ta ɓoyewa."
+    },
+    "alert": {
+      "downloading": "Saukewa",
+      "contactMessage": "Don samun damar zuwa takaddun portfolio, da fatan za ku tuntuɓe mu kai tsaye a info@powertonengineering.com ko kira +91-94627-71662."
+    }
+  },
+  "quote": {
+    "seo": {
+      "title": "Nemi Bayanin Farashi - Powerton Engineering | Masuluhisho na Sarrafa Masana'antu",
+      "description": "Sami bayanin farashi mai dalla-dalla don aikin sarrafa masana'antu daga Powerton Engineering. Shawarwari kyauta da amsawa cikin sa'o'i 24-48."
+    },
+    "hero": {
+      "title": "Bayanin Injiniya",
+      "subtitle": "Sami shawarwarin injiniya na ƙwararru da ƙididdigar farashi",
+      "benefits": {
+        "consultation": "Shawarwari Kyauta",
+        "estimates": "Ƙididdigar Farashi Nan Take",
+        "response": "Amsawa cikin Sa'o'i 24-48",
+        "noCosts": "Babu Farashi mai Ɓoyewa"
+      }
+    },
+    "method": {
+      "title": "Zaɓi Hanyar Bayanin Farashi",
+      "description": "Sami ƙididdigar farashi nan take tare da na'urar ƙididdigawa ko nemi bayanin farashi mai zurfi daga ƙungiyar injiniyoyinmu.",
+      "calculator": "Na'urar Ƙididdigar Farashi",
+      "request": "Nemi Bayanin Farashi"
+    },
+    "calculator": {
+      "title": "Na'urar Ƙididdigar Farashi Mai Ci Gaba",
+      "description": "Muna sanya tabanin ƙarshe akan na'urar ƙididdigar farashi mai hankali. Wannan fasalin zai ba da farashin kai tsaye da daidaita don ayyukan sarrafa ku.",
+      "launchingSoon": "Za ta Fito Nan Ba da Jimawa Ba",
+      "useQuoteForm": "Don bayanin farashi nan take, da fatan za ku yi amfani da formin bayanin farashinmu mai zurfi",
+      "getQuoteNow": "Sami Bayanin Farashi Yanzu",
+      "projectTitle": "Na'urar Ƙididdigar Farashin Aiki",
+      "stepOf": "Mataki {{current}} na {{total}}"
+    },
+    "benefits": {
+      "assessment": {
+        "title": "Kimanta Mai Zurfi",
+        "description": "Kimanta aiki mai cikakke da ƙayyadaddun fasaha"
+      },
+      "response": {
+        "title": "Sauri Amsawa",
+        "description": "Sami bayanin farashi mai dalla-dalla cikin sa'o'i 24-48"
+      },
+      "consultation": {
+        "title": "Shawarwarin Gwani",
+        "description": "Shawarwarin fasaha kyauta tare da ƙungiyar injiniyoyinmu"
+      },
+      "solutions": {
+        "title": "Masuluhisho na Musamman",
+        "description": "Masuluhisho na injiniya da aka keɓe don takamaiman bukatunku"
+      }
+    },
+    "process": {
+      "title": "Tsarin Bayanin Farashi",
+      "description": "Daga buƙata ta farko zuwa bayanin farashi mai dalla-dalla, muna tabbatar da tsari mai sauƙi da bayyana.",
+      "submit": {
+        "title": "Tura Buƙata",
+        "description": "Cika formin bayanin farashi mai cikakke ko yi amfani da na'urar ƙididdigar farashi"
+      },
+      "review": {
+        "title": "Nazarin Fasaha",
+        "description": "Ƙungiyar injiniyoyinmu ta nazarin bukatunku da ƙayyadaddun"
+      },
+      "assessment": {
+        "title": "Kimanta Wurin",
+        "description": "Ziyarar wurin da ba ta wajibi ba don ayyuka masu rikitarwa (idan ya cancanta)"
+      },
+      "quote": {
+        "title": "Bayanin Farashi Mai Dalla-dalla",
+        "description": "Sami farashin da ya dace tare da lokacin kammala da sakamako"
+      }
+    },
+    "cta": {
+      "title": "Shirye ku Fara?",
+      "description": "Tuntuɓe mu yau don masuluhisho na injiniya na musamman. Ƙungiyarmu a shirye take ta taimaka wajen kawo aikinku zuwa rayuwa."
+    }
+  },
+  "contact": {
+    "title": "Tuntuɓe Mu",
+    "subtitle": "Bari mu tattauna bukatun injiniya ku",
+    "seo": {
+      "title": "Tuntuɓe Mu - Powerton Engineering | Ayyukan Injiniya na Masana'antu",
+      "description": "Tuntuɓi Powerton Engineering don bukatun injiniya na masana'antu. Shawarwari kyauta, koyarwa da maganganu na musamman. Kira +91-94627-71662 ko aika zuwa info@powertonengineering.com."
+    }
+  },
+  "services": {
+    "title": "Ayyukanmu",
+    "subtitle": "Ayyukan injiniya na ƙwararru"
+  },
+  "about": {
+    "title": "Game da Powerton Engineering",
+    "subtitle": "Jagora a fannin Sarrafa Masana'antu da Masuluhisho na Injiniya"
+  },
+  "gallery": {
+    "title": "Hoton Ayyuka",
+    "subtitle": "Nuni na Cancantar Injiniyarmu"
   }
 }

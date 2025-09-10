@@ -98,5 +98,119 @@
     "instrumentation-components": "Sassan Kayan Aiki",
     "electrical-components": "Sassan Lantarki",
     "measurement-instruments": "Kayan Aikin Auna"
+  },
+  "productPages": {
+    "analyzers": {
+      "title": "Masu Nazarin Ayyuka",
+      "subtitle": "Kayan aikin nazari na ci gaba don lura da ayyuka"
+    },
+    "automationControl": {
+      "title": "Tsarin Sarrafa da Gudanarwa",
+      "subtitle": "Ci gaban maganganun sarrafa da gudanarwa don gudanar da ayyukan masana'antu da inganta su"
+    },
+    "bldcCeilingFan": {
+      "title": "Fanin Rufi na BLDC",
+      "subtitle": "Fanin rufi na BLDC mai adana makamashi tare da fasaloli masu hankali da ingantaccen aiki"
+    },
+    "bldcCoolerExhaust": {
+      "title": "Injunan Sanyi da Fitar Iska na BLDC",
+      "subtitle": "Injunan BLDC masu adana makamashi don ayyukan sanyi, iska da fitar iska"
+    },
+    "bldcSubmersible": {
+      "title": "Pamfunan Ciki da Na Sama na BLDC",
+      "subtitle": "Pamfunan BLDC masu adana makamashi don samar da ruwa, ban ruwa da ayyukan hasken rana"
+    },
+    "bldcTableWall": {
+      "title": "Injunan Fanin Tebur da Bango na BLDC",
+      "subtitle": "Injunan BLDC masu adana makamashi don fanin tebur, fanin bango da fanin tsaye"
+    },
+    "bldc": {
+      "title": "Kayayyakin BLDC",
+      "subtitle": "Kayayyakin injunan DC marasa goga don ayyukan sanyi, iska da famfuna masu adana makamashi"
+    },
+    "cables": {
+      "title": "Kebul da Waya",
+      "subtitle": "Kebul da maganganun waya na masana'antu don ayyukan wuta da sarrafa"
+    },
+    "calibration": {
+      "title": "Kayan Aikin Daidaitawa",
+      "subtitle": "Kayan aikin daidaitawa da gwada masu daidaici"
+    },
+    "centrifugalPumps": {
+      "title": "Pamfunan Centrifugal",
+      "subtitle": "Pamfunan centrifugal masu inganci don ayyukan masana'antu"
+    },
+    "circuitBreakers": {
+      "title": "Masu Karya Da'ira da Fiyus",
+      "subtitle": "Kayan kare lafiyar da'ira"
+    },
+    "connectors": {
+      "title": "Masu Hada da Terminals",
+      "subtitle": "Maganganun masu hada lantarki da terminals"
+    },
+    "controllers": {
+      "title": "Masu Sarrafa",
+      "subtitle": "Masu sarrafa ayyuka da na'urori masu sarrafa atomatik"
+    },
+    "cutting": {
+      "title": "Kayan Aikin Yanke",
+      "subtitle": "Kayan aikin yanke da na'urori don yanke karfe"
+    },
+    "dcs": {
+      "title": "Tsarin Sarrafa Da'ira (DCS)",
+      "subtitle": "Tsarin sarrafa da'ira mai rarrabawa don sarrafa ayyuka"
+    },
+    "diaphragmPumps": {
+      "title": "Pamfunan Diaphragm",
+      "subtitle": "Pamfunan diaphragm don sarrafa ruwa mai guba da sinadarai"
+    },
+    "enclosures": {
+      "title": "Akwatunan Rufe da Kabad",
+      "subtitle": "Akwatunan lantarki da kabad don kariya"
+    },
+    "gearPumps": {
+      "title": "Pamfunan Gear",
+      "subtitle": "Pamfunan gear masu inganci don ayyukan ruwa mai yawa"
+    },
+    "grounding": {
+      "title": "Tsarin Kasa",
+      "subtitle": "Tsarin kasa na masana'antu da maganganun aminci"
+    },
+    "handTools": {
+      "title": "Kayan Aikin Hannu",
+      "subtitle": "Kayan aikin hannu na masana'antu don ayyuka daban-daban"
+    },
+    "heating": {
+      "title": "Kayan Ɗumama da Na'urori",
+      "subtitle": "Maganganun dumama masana'antu da kayan thermal"
+    },
+    "hmi": {
+      "title": "HMI (Human Machine Interface)",
+      "subtitle": "Na'urori masu mu'amala don ma'aikata don sarrafa masana'antu"
+    },
+    "industrialTools": {
+      "title": "Kayan Aikin Masana'antu da Tackles",
+      "subtitle": "Kayan aikin masana'antu masu nauyi da kayan dagawa"
+    },
+    "instrumentation": {
+      "title": "Sassan Kayan Aiki",
+      "subtitle": "Sassan kayan aiki da aunawa masu daidaici"
+    },
+    "intrinsicallySafe": {
+      "title": "Kayan Aiki Masu Aminci",
+      "subtitle": "Kayan aiki da aka tabbatar don ayyukan yanki masu hatsari"
+    },
+    "lifting": {
+      "title": "Kayan Ɗagawa",
+      "subtitle": "Maganganun dagawa masana'antu da sarrafa kaya"
+    },
+    "measurement": {
+      "title": "Kayan Aikin Aunawa",
+      "subtitle": "Kayan aikin aunawa da gwadawa masu daidaici"
+    },
+    "mechanical": {
+      "title": "Pamfunan Inji da Kayan Gyara",
+      "subtitle": "Pamfunan inji da kayan gyara don ayyukan masana'antu"
+    }
   }
 }

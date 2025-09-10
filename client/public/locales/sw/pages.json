@@ -317,6 +317,242 @@
           "metro": "Metro ya Karibu"
         }
       }
+    },
+    "seo": {
+      "title": "Powerton Engineering - Otomatiki ya Viwanda na Mipangilio ya Kudhibiti | India",
+      "description": "Mtengenezaji mkuu wa mipangilio ya kudhibiti ya umeme, mifumo ya otomatiki ya viwanda na masuluhisho ya vifaa. Huduma za uhandisi wa kitaalamu duniani kote na uzoefu wa miaka 15+.",
+      "keywords": "mipangilio ya kudhibiti ya umeme, otomatiki ya viwanda, otomatiki ya michakato, vifaa, kituo cha kudhibiti cha nguvu, kituo cha kudhibiti cha mota, uhandisi wa umeme, India, Noida"
     }
+  },
+  "news": {
+    "title": "Habari",
+    "subtitle": "Masasisho",
+    "badges": {
+      "awardWinning": "Mshindi wa Tuzo",
+      "growingStrong": "Ukuaji Mkuu",
+      "futureReady": "Tayari kwa Baadaye"
+    },
+    "latestNews": {
+      "excellenceAward": {
+        "title": "Powerton Engineering Ipokea Tuzo ya Ubora katika Otomatiki ya Viwanda",
+        "excerpt": "Tuna furaha kutangaza kuwa Powerton Engineering imepewa tuzo ya 'Ubora katika Otomatiki ya Viwanda' kutoka Chama cha Wahandisi wa India kwa masuluhisho yetu ya uvumbuzi katika otomatiki ya michakato.",
+        "category": "Tuzo"
+      },
+      "ntpcContract": {
+        "title": "Mkataba Mkuu wa Otomatiki ya Kiwanda cha Umeme Umetiwa saini na NTPC",
+        "excerpt": "Powerton Engineering imeingiza mkataba muhimu wa ₹5 crore na NTPC kwa otomatiki ya kiwanda chao kipya cha umeme wa joto Gujarat, kinatarajiwa kumalizika Q3 2025.",
+        "category": "Biashara"
+      },
+      "renewableExpansion": {
+        "title": "Upanuzi katika Masuluhisho ya Otomatiki ya Nishati Mbadala",
+        "excerpt": "Kama sehemu ya mpango wetu wa kimkakati wa ukuaji, tunapanua huduma zetu kujumuisha masuluhisho kamili ya otomatiki kwa miradi ya umeme wa jua na upepo, ikilenga sekta inayokua ya nishati mbadala ya India.",
+        "category": "Kampuni"
+      }
+    },
+    "achievements": {
+      "title": "Mafanikio ya Hivi Karibuni",
+      "list": [
+        "Tuzo ya Ubora katika Otomatiki ya Viwanda - Chama cha Wahandisi wa India",
+        "Mtoa Huduma Bora wa Uhandisi - Tuzo za Automation World 2024",
+        "Tuzo ya Uongozaji wa Nishati Safi - Utambulisho wa MNRE",
+        "Uvumbuzi katika Udhibiti wa Michakato - Tuzo za IET India",
+        "Tuzo ya Ubora wa Wateja - Chama cha Otomatiki ya Viwanda"
+      ]
+    }
+  },
+  "backToProducts": "Rudi kwa Bidhaa",
+  "notFound": {
+    "heading": "Ukurasa Haujapatikana",
+    "message": "Ukurasa unaotafuta haupo. Unaweza kuwa umehamishwa, kufutwa au umeingiza URL isiyo sahihi.",
+    "quickLinks": "Viungo vya haraka kwa sehemu maarufu:",
+    "buttons": {
+      "homepage": "Rudi Nyumbani",
+      "support": "Wasiliana na Msaada"
+    },
+    "links": {
+      "products": "Bidhaa",
+      "services": "Huduma",
+      "projects": "Miradi",
+      "about": "Kuhusu sisi"
+    }
+  },
+  "portfolioDownload": {
+    "seo": {
+      "title": "Pakua Portfolio - Powerton Engineering",
+      "description": "Pakua nyaraka kamili za portfolio zinazonyesha miradi ya otomatiki ya viwanda, uwezo na mafanikio ya Powerton Engineering."
+    },
+    "title": "Kupakuliwa kwa Portfolio",
+    "subtitle": "Pata ufikiaji wa nyaraka kamili za miradi yetu ya otomatiki ya viwanda, uwezo na ubora wa uhandisi. Pakua portfolio za kina ili kujifunza zaidi kuhusu kazi yetu.",
+    "features": {
+      "projects": {
+        "title": "Miradi 1200+",
+        "description": "Miradi iliyokamilika kwa mafanikio katika tasnia mbalimbali"
+      },
+      "documentation": {
+        "title": "Nyaraka za Ubora wa Juu",
+        "description": "Portfolio ya kitaalamu na picha za miradi za kina"
+      },
+      "results": {
+        "title": "Matokeo Yaliyothibitishwa",
+        "description": "Miradi halisi na matokeo yanayoweza kupimwa na maoni ya wateja"
+      }
+    },
+    "items": {
+      "complete": {
+        "title": "Portfolio Kamili ya Kampuni",
+        "description": "Portfolio kamili inayonyesha miradi yetu yote ya otomatiki ya viwanda, uwezo na mafanikio."
+      },
+      "automation": {
+        "title": "Miradi ya Otomatiki ya Viwanda",
+        "description": "Mkusanyiko unaolengwa wa utekelezaji wetu wa otomatiki na mifumo ya udhibiti katika tasnia mbalimbali."
+      },
+      "electrical": {
+        "title": "Mifumo ya Nishati na Umeme",
+        "description": "Nyaraka za ugawaji wa nishati, mipangilio ya kudhibiti ya umeme na miradi ya usimamizi wa nishati."
+      },
+      "caseStudies": {
+        "title": "Utafiti wa Kesi za Miradi",
+        "description": "Utafiti wa kina wa utekelezaji wetu wa mafanikio zaidi wa otomatiki ya viwanda na maarifa ya kiufundi."
+      }
+    },
+    "categories": {
+      "allProjects": "Miradi Yote",
+      "companyOverview": "Muhtasari wa Kampuni",
+      "certifications": "Vyeti",
+      "clientTestimonials": "Ushahidi wa Wateja",
+      "processAutomation": "Otomatiki ya Michakato",
+      "controlSystems": "Mifumo ya Udhibiti",
+      "scada": "SCADA",
+      "plcProgramming": "Kupanga PLC",
+      "powerDistribution": "Ugawaji wa Nishati",
+      "controlPanels": "Mipangilio ya Udhibiti",
+      "motorControlCenters": "Vituo vya Udhibiti wa Mota",
+      "energyManagement": "Usimamizi wa Nishati",
+      "caseStudies": "Utafiti wa Kesi",
+      "technicalSolutions": "Masuluhisho ya Kiufundi",
+      "roiAnalysis": "Uchambuzi wa ROI",
+      "implementationStrategies": "Mikakati ya Utekelezaji"
+    },
+    "pages": "kurasa",
+    "includes": "Inajumuisha",
+    "requestDownload": "Ombi la Kupakuliwa",
+    "custom": {
+      "title": "Unahitaji Portfolio Maalum?",
+      "description": "Unatafuta habari mahususi za mradi au portfolio iliyobinafsishwa kwa tasnia yako? Wasiliana na timu yetu kwa nyaraka maalum."
+    },
+    "disclaimer": {
+      "note": "Kumbuka",
+      "text": "Nyaraka za portfolio zinatumika kwa madhumuni ya habari. Kwa habari za hivi karibuni na maelezo mahususi ya mradi, tafadhali wasiliana na timu yetu moja kwa moja. Baadhi ya maelezo ya mradi yanaweza kuwa ya siri na yapatikane tu chini ya makubaliano ya kutokueleza."
+    },
+    "alert": {
+      "downloading": "Kupakuliwa",
+      "contactMessage": "Kwa ufikiaji wa nyaraka zetu za portfolio, tafadhali wasiliana nasi moja kwa moja kwa info@powertonengineering.com au piga simu +91-94627-71662."
+    }
+  },
+  "quote": {
+    "seo": {
+      "title": "Omba Nukuu - Powerton Engineering | Masuluhisho Maalum ya Otomatiki ya Viwanda",
+      "description": "Pata nukuu ya kina kwa mradi wako wa otomatiki ya viwanda kutoka Powerton Engineering. Ushauri wa bure na majibu ndani ya masaa 24-48."
+    },
+    "hero": {
+      "title": "Nukuu ya Uhandisi",
+      "subtitle": "Pata ushauri wa uhandisi wa kitaalamu na makadirio ya gharama",
+      "benefits": {
+        "consultation": "Ushauri wa Bure",
+        "estimates": "Makadirio ya Gharama ya Papo Hapo",
+        "response": "Majibu ya Masaa 24-48",
+        "noCosts": "Hakuna Gharama za Kufichwa"
+      }
+    },
+    "method": {
+      "title": "Chagua Njia Yako ya Nukuu",
+      "description": "Pata makadirio ya gharama ya papo hapo na kikokotozi chetu cha gharama au omba nukuu ya kina maalum kutoka timu yetu ya uhandisi.",
+      "calculator": "Kikokotozi cha Gharama",
+      "request": "Omba Nukuu"
+    },
+    "calculator": {
+      "title": "Kikokotozi cha Gharama cha Hali ya Juu",
+      "description": "Tunaweka mageuzi ya mwisho kwenye chombo chetu cha busara cha makadirio ya gharama. Kipengele hiki kitatoa bei za papo hapo na sahihi kwa miradi yako ya otomatiki.",
+      "launchingSoon": "Kinazinduliwa Hivi Karibuni",
+      "useQuoteForm": "Kwa nukuu za papo hapo, tafadhali tumia fomu yetu ya kina ya nukuu",
+      "getQuoteNow": "Pata Nukuu Sasa",
+      "projectTitle": "Kikokotozi cha Gharama ya Mradi",
+      "stepOf": "Hatua {{current}} ya {{total}}"
+    },
+    "benefits": {
+      "assessment": {
+        "title": "Tathmini ya Kina",
+        "description": "Tathmini kamili ya mradi na vipimo vya kiufundi"
+      },
+      "response": {
+        "title": "Majibu ya Haraka",
+        "description": "Pata nukuu yako ya kina ndani ya masaa 24-48"
+      },
+      "consultation": {
+        "title": "Ushauri wa Mtaalamu",
+        "description": "Ushauri wa kiufundi wa bure na timu yetu ya uhandisi"
+      },
+      "solutions": {
+        "title": "Masuluhisho Maalum",
+        "description": "Masuluhisho ya uhandisi yanayobinafsishwa kwa mahitaji yako mahususi"
+      }
+    },
+    "process": {
+      "title": "Mchakato Wetu wa Nukuu",
+      "description": "Kutoka ombi la kwanza hadi nukuu ya kina, tunahakikisha mchakato laini na uwazi.",
+      "submit": {
+        "title": "Wasilisha Ombi",
+        "description": "Jaza fomu yetu kamili ya nukuu au tumia kikokotozi chetu cha gharama"
+      },
+      "review": {
+        "title": "Mapitio ya Kiufundi",
+        "description": "Timu yetu ya uhandisi inachambua mahitaji yako na vipimo"
+      },
+      "assessment": {
+        "title": "Tathmini ya Tovuti",
+        "description": "Tembeleo la hiari la tovuti kwa miradi ngumu (ikiwa ni muhimu)"
+      },
+      "quote": {
+        "title": "Nukuu ya Kina",
+        "description": "Pata bei kamili na muda wa ukamilishaji na matokeo"
+      }
+    },
+    "cta": {
+      "title": "Tayari Kuanza?",
+      "description": "Wasiliana nasi leo kwa suluhisho lako maalum la uhandisi. Timu yetu iko tayari kusaidia kuleta mradi wako katika maisha."
+    }
+  },
+  "contact": {
+    "title": "Wasiliana Nasi",
+    "subtitle": "Hebu tuzungumze kuhusu mahitaji yako ya uhandisi",
+    "seo": {
+      "title": "Wasiliana Nasi - Powerton Engineering | Huduma za Uhandisi wa Viwanda",
+      "description": "Wasiliana na Powerton Engineering kwa mahitaji ya uhandisi wa viwanda. Ushauri wa bure, mafunzo na masuluhisho maalum. Piga simu +91-94627-71662 au tumia barua pepe info@powertonengineering.com."
+    }
+  },
+  "services": {
+    "title": "Huduma Zetu",
+    "subtitle": "Huduma za uhandisi za kitaalamu"
+  },
+  "about": {
+    "title": "Kuhusu Powerton Engineering",
+    "subtitle": "Kiongozi katika Otomatiki ya Viwanda na Masuluhisho ya Uhandisi"
+  },
+  "gallery": {
+    "title": "Picha za Miradi",
+    "subtitle": "Onyesho la Ubora wetu wa Uhandisi"
+  },
+  "projects": {
+    "title": "Miradi Yetu",
+    "subtitle": "Ubora katika Otomatiki ya Viwanda",
+    "showing": "Kuonyesha {{count}} kutoka {{total}} miradi",
+    "hero": {
+      "title": "Miradi Yetu",
+      "subtitle": "Gundua ubora wetu wa uhandisi kupitia miradi zaidi ya 1200 iliyofaulu katika tasnia mbalimbali, inayonyesha uvumbuzi, ubora na kuaminika."
+    }
+  },
+  "ui": {
+    "projectPortfolio": "Portfolio ya Miradi",
+    "featuredProjects": "Miradi Zilizooneshwa"
   }
 }
