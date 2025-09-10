@@ -426,7 +426,7 @@ export default function Header() {
                                           onClick={() => setIsProductsDropdownOpen(false)}
                                         >
                                           <div className="font-medium text-foreground line-clamp-1">
-                                            {subcategory.title}
+                                            {t(`products:subcategories.${subcategory.id}.title`, subcategory.title)}
                                           </div>
                                         </Link>
                                       ))}

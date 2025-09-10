@@ -56,6 +56,184 @@
       "subtitle": "Mifumo ya usalama ya viwandani na vifaa vya kinga"
     }
   },
+  "subcategories": {
+    "sensors": {
+      "title": "Vihisi",
+      "description": "Vihisi vya viwandani kwa kupima na kudhibiti"
+    },
+    "transmitters": {
+      "title": "Vituma na Vibadilishi",
+      "description": "Vituma vya michakato na vifaa vya kubadilisha ishara"
+    },
+    "controllers": {
+      "title": "Vadhibiti na Virekodia",
+      "description": "Mifumo ya udhibiti wa viwandani na vadhibiti wa otomatiki"
+    },
+    "switches": {
+      "title": "Vitufe na Viasibu",
+      "description": "Vitufe vya viwandani na vifaa vya udhibiti"
+    },
+    "valves": {
+      "title": "Valvu na Viendelezi",
+      "description": "Valvu za viwandani na mifumo ya udhibiti wa mtiririko"
+    },
+    "analyzers": {
+      "title": "Vichambuzi",
+      "description": "Vichambuzi vya michakato kwa udhibiti wa ubora"
+    },
+    "signal-conditioners": {
+      "title": "Vipangaji Ishara",
+      "description": "Vifaa vya kusindika na kupanga ishara"
+    },
+    "cables-wires": {
+      "title": "Kebo na Waya",
+      "description": "Kebo za viwandani na suluhisho za waya"
+    },
+    "connectors-terminals": {
+      "title": "Viunganishi na Vituo",
+      "description": "Viunganishi vya umeme na suluhisho za vituo"
+    },
+    "circuit-breakers-fuses": {
+      "title": "Vikati Mzunguko na Fiyuzi",
+      "description": "Vifaa vya kinga ya umeme kwa usalama wa mzunguko"
+    },
+    "power-supplies": {
+      "title": "Vimesho",
+      "description": "Vipande vya umeme vya viwandani na vibadilishi"
+    },
+    "enclosures-cabinets": {
+      "title": "Mafungu na Makabati",
+      "description": "Mafungu ya umeme na suluhisho za makabati ya udhibiti"
+    },
+    "heating-elements-appliances": {
+      "title": "Vipengele vya Kupasha na Vifaa",
+      "description": "Suluhisho za kupasha viwandani na vifaa vya joto"
+    },
+    "multimeters": {
+      "title": "Vipimo Vingi",
+      "description": "Vipimo vingi vya kidijitali na analogi kwa majaribio ya umeme"
+    },
+    "oscilloscopes": {
+      "title": "Osciloskopu",
+      "description": "Osciloskopu za kidijitali kwa uchambuzi wa ishara na majaribio"
+    },
+    "spectrum-analyzers": {
+      "title": "Vichambuzi vya Mpangilio",
+      "description": "Vifaa vya uchambuzi wa mpangilio wa RF na mawimbi-marefu"
+    },
+    "power-quality-analyzers": {
+      "title": "Vichambuzi vya Ubora wa Umeme",
+      "description": "Vifaa vya kupima na kuchambuza ubora wa umeme"
+    },
+    "calibration-equipment": {
+      "title": "Vifaa vya Urekebishaji",
+      "description": "Vifaa vya urekebishaji wa usahihi na vifaa vya jaribio"
+    },
+    "solar-panels": {
+      "title": "Paneli za Jua",
+      "description": "Paneli za jua za ufanisi wa juu na mifumo ya kielektroniki-jua"
+    },
+    "solar-inverters": {
+      "title": "Vibadilishi vya Jua",
+      "description": "Vibadilishi vya nishati ya jua na mifumo ya muunganisho wa mtandao"
+    },
+    "mounting-structures-racking": {
+      "title": "Miundo ya Kubanua na Mifumo ya Rafu",
+      "description": "Suluhisho za muundo wa kubanua kwa uwekaji wa jua"
+    },
+    "solar-charge-controllers": {
+      "title": "Vadhibiti wa Malipo ya Jua",
+      "description": "Vadhibiti wa malipo ya jua na usimamizi wa nishati"
+    },
+    "solar-batteries-energy-storage": {
+      "title": "Betri za Jua na Mifumo ya Kuhifadhi Nishati",
+      "description": "Suluhisho za kuhifadhi nishati kwa mifumo ya nishati ya jua"
+    },
+    "plcs": {
+      "title": "PLC",
+      "description": "Vadhibiti wa Mantiki Inayoweza Kuprogramiwa kwa otomatiki ya viwandani"
+    },
+    "scada": {
+      "title": "SCADA",
+      "description": "Mifumo ya Udhibiti wa Usimamizi na Ukusanyaji wa Data"
+    },
+    "dcs": {
+      "title": "DCS",
+      "description": "Mifumo ya Udhibiti Iliyotawanyika kwa otomatiki ya michakato"
+    },
+    "hmi": {
+      "title": "HMI",
+      "description": "Mifumo ya Kiolesura cha Binadamu-Mashine kwa udhibiti wa mwendeshaji"
+    },
+    "surge-protectors": {
+      "title": "Walinda Mshtuko",
+      "description": "Vifaa vya kinga dhidi ya mshtuko wa umeme na mifumo"
+    },
+    "grounding-systems": {
+      "title": "Mifumo ya Kuunganisha Ardhini",
+      "description": "Suluhisho za kuunganisha ardhini kwa usalama"
+    },
+    "safety-relays-switches": {
+      "title": "Rile na Vitufe vya Usalama",
+      "description": "Rile za udhibiti wa usalama na mifumo ya kusimama kwa dharura"
+    },
+    "intrinsically-safe-equipment": {
+      "title": "Vifaa vya Usalama wa Asili",
+      "description": "Vifaa vilivyoidhinishwa kwa matumizi ya maeneo hatari"
+    },
+    "centrifugal-pumps": {
+      "title": "Pampu za Kikingo",
+      "description": "Pampu za kikingo za ufanisi wa juu kwa matumizi ya viwandani"
+    },
+    "diaphragm-pumps": {
+      "title": "Pampu za Utando",
+      "description": "Pampu za kipimo sahihi na kushughulikia kemikali"
+    },
+    "gear-pumps": {
+      "title": "Pampu za Gia",
+      "description": "Pampu za gia za usahihi kwa matumizi ya hydrauliki na viwandani"
+    },
+    "pump-parts-spares": {
+      "title": "Sehemu za Pampu na Vitu vya Ziada",
+      "description": "Sehemu za uongezaji na vipengele kwa mifumo ya pampu"
+    },
+    "hand-tools": {
+      "title": "Zana za Mikono",
+      "description": "Zana za mikono za kitaalamu kwa matengenezo ya viwandani"
+    },
+    "power-tools": {
+      "title": "Zana za Umeme",
+      "description": "Zana za umeme na za anga kwa matumizi ya viwandani"
+    },
+    "cutting-tools": {
+      "title": "Zana za Kukata",
+      "description": "Zana za kukata za viwandani na vifaa vya ujenzi"
+    },
+    "lifting-equipment": {
+      "title": "Vifaa vya Kuinua",
+      "description": "Suluhisho za kuinua viwandani na kushughulikia vifaa"
+    },
+    "safety-equipment": {
+      "title": "Vifaa vya Usalama",
+      "description": "Vifaa vya kinga ya kibinafsi na vifaa vya usalama"
+    },
+    "bldc-cooler-exhaust-motor": {
+      "title": "Mota ya BLDC Kipozi/Kutoa",
+      "description": "Mota za BLDC zinazokoa nishati kwa kupoza na uongezaji wa hewa"
+    },
+    "bldc-ceiling-fan": {
+      "title": "Panka ya Dari ya BLDC",
+      "description": "Panka za dari za ufanisi wa juu na teknolojia ya DC isiyo na brashi"
+    },
+    "bldc-submersible-surface-pump": {
+      "title": "Pampu ya BLDC ya Kuzama/Uso",
+      "description": "Pampu za BLDC zinazotumia nishati ya jua kwa matumizi ya maji"
+    },
+    "bldc-table-fan-wall-fan-motor": {
+      "title": "Mota ya BLDC ya Panka ya Meza/Ukutani",
+      "description": "Mota za BLDC za ufinyu kwa panka za kubeba na za ukutani"
+    }
+  },
   "categories": {
     "instrumentation-components": {
       "title": "Vipengele vya Vifaa vya Kipimo",
