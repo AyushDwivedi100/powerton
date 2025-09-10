@@ -9,7 +9,49 @@
     "motors": "BLDC电机系统",
     "pumps": "泵和电机",
     "safety": "安全设备",
-    "tools": "工业工具"
+    "tools": "工业工具",
+    "instrumentation-components": {
+      "title": "仪表组件",
+      "description": "精密仪表组件用于测量和控制",
+      "features": {
+        "pressure-transmitters": "压力变送器",
+        "temperature-sensors": "温度传感器",
+        "flow-meters": "流量计",
+        "level-indicators": "液位指示器"
+      }
+    },
+    "electrical-components": {
+      "title": "电气元件",
+      "description": "工业应用的综合电气元件解决方案"
+    },
+    "measurement-instruments": {
+      "title": "测量仪器",
+      "description": "精密测量和测试仪器"
+    },
+    "solar-products": {
+      "title": "太阳能产品",
+      "description": "完整的太阳能解决方案和组件"
+    },
+    "automation-control-systems": {
+      "title": "自动化控制系统",
+      "description": "工业运营的先进自动化和控制系统"
+    },
+    "safety-protective-devices": {
+      "title": "安全保护设备",
+      "description": "工业安全系统和保护设备"
+    },
+    "mechanical-pumps-spares": {
+      "title": "机械泵和备件",
+      "description": "工业应用的机械泵和备件"
+    },
+    "industrial-tools-tackles": {
+      "title": "工业工具设备",
+      "description": "重型工业工具和起重设备"
+    },
+    "bldc": {
+      "title": "BLDC产品",
+      "description": "节能应用的无刷直流电机产品"
+    }
   },
   "filters": {
     "all": "全部",

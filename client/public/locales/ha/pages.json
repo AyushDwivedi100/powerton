@@ -3,6 +3,76 @@
     "seo": {
       "title": "Powerton Engineering - Sarrafa Masana'antu da Paneli na Sarrafa | Indiya",
       "description": "Babban masana'anta na paneli na sarrafa wutar lantarki, tsarin sarrafa masana'antu da kuma hanyoyin kayan aiki. Sabis na injiniya na musamman a duk faɗin Indiya tare da gogewa fiye da shekaru 15."
+    },
+    "hero": {
+      "title": {
+        "main": "Cikakkun Maganganun",
+        "highlight": "Nasarar Masana'antu"
+      },
+      "subtitle": "Fadin tarihin kayayyakinmu da sabis sun bayar da cikakkun maganganun da ke tafiyar da nasarar masana'antu, suna tabbatar da an rufe kowane bangare na bukatun injiniyarku.",
+      "buttons": {
+        "exploreServices": "Binciko Sabisanmu",
+        "requestConsultation": "Nemi Shawarwari"
+      },
+      "features": {
+        "experience": "Gogewa na Shekaru 15+",
+        "support": "Taimakon Fasaha 24/7",
+        "service": "Rufin Sabis na Duniya"
+      },
+      "stats": {
+        "yearsExperience": "Shekarun Gogewa",
+        "projectsCompleted": "Ayyukan da Aka Gama",
+        "happyClients": "Abokan Ciniki Masu Farin Ciki",
+        "supportAvailable": "Taimako Yana Samuwa"
+      }
+    },
+    "services": {
+      "label": "Sabisanmu",
+      "title": "Cikakkun Maganganun Injiniya",
+      "description": "Daga sarrafa har zuwa kayan aiki, muna ba da cikakkun maganganun injiniya da ke tafiyar da kyakkyawan aiki na masana'antu da ingantaccen aiki."
+    },
+    "products": {
+      "label": "Kayayyakinmu",
+      "title": "Kayayyaki da Kayan Masana'antu",
+      "description": "Binciki kewayon kayayyakin masana'antu masu inganci, daga tsarin sarrafa har zuwa kayan aiki masu daidaici, da aka tsara don mafi kyawun aiki.",
+      "viewProducts": "Duba Kayayyaki",
+      "viewCatalog": "Duba Catalog"
+    },
+    "clients": {
+      "label": "Abokan Ciniki",
+      "title": "Amintattun Kayan Alamar Jagaba da Kungiyoyi",
+      "description": "Mun yi aiki tare da jagororin masana'antu daga fannoni daban-daban don ba da maganganun injiniya na musamman.",
+      "testimonialsTitle": "Abin da Abokan Ciniki ke Cewa"
+    },
+    "contact": {
+      "label": "Yi Hulda",
+      "title": "Shirye kuke don Fara Aikinku?",
+      "description": "Bari mu tattauna yadda ƙwarewarmu ta injiniya za ta iya taimaka muku cimma burinku na sarrafa masana'antu da na'urorin sarrafa.",
+      "getInTouch": "Yi Hulda",
+      "methods": {
+        "phone": {
+          "title": "Kira Mu Yau",
+          "description": "Yi magana kai tsaye da ƙwararrun injiniyoyinmu"
+        },
+        "email": {
+          "title": "Aika Imel",
+          "description": "Aiko mana da bukatun aikinku"
+        },
+        "address": {
+          "title": "Ziyarci Ofishinmu",
+          "metro": "Metro Mafi Kusa: Sector 15"
+        }
+      }
+    },
+    "projects": {
+      "label": "Ayyukanmu",
+      "title": "Nunin Iyawar Injiniya",
+      "description": "Duba portfoliyon ayyukan da muka gama a masana'antu daban-daban, wanda ke nuna inganci, ƙwarewa da aminci.",
+      "completed": "An Gama",
+      "keyFeatures": "Manyan Abbubuwa:",
+      "viewDetails": "Duba Cikakkun Bayanai",
+      "viewAllProjects": "Duba Dukan Ayyuka",
+      "downloadPortfolio": "Zazzage Portfolio"
     }
   },
   "products": {

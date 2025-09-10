@@ -1,11 +1,91 @@
 {
-  "title": "Our Services",
-  "subtitle": "Comprehensive Industrial Engineering Solutions",
+  "title": "Sabisanmu",
+  "subtitle": "Cikakkun Maganganun Injiniyan Masana'antu",
   "categories": {
-    "automation": "Industrial Automation",
-    "electrical": "Electrical Engineering", 
-    "instrumentation": "Instrumentation & Control",
-    "solar": "Solar Solutions",
-    "maintenance": "Maintenance & Support"
+    "automation": "Sarrafa Masana'antu",
+    "electrical": "Injiniyan Lantarki", 
+    "instrumentation": "Kayan Aiki da Sarrafa",
+    "solar": "Maganganun Hasken Rana",
+    "maintenance": "Kulawa da Tallafi"
+  },
+  "items": {
+    "installation-commissioning": "Shigarwa da Fara Aiki",
+    "maintenance-repair": "Kulawa da Gyarawa",
+    "calibration-testing": "Daidaitawa da Gwadawa",
+    "technical-support": "Taimakon Fasaha",
+    "custom-solutions": "Maganganun Musamman",
+    "consultation-training": "Shawarwari da Horarwa",
+    "supply-chain-management": "Gudanar da Sarkar Kasada",
+    "solar-epc": "Solar EPC"
+  },
+  "descriptions": {
+    "installation-commissioning": "Cikakkun sabis na shigarwa da fara aiki don duk tsarin ku na masana'antu",
+    "maintenance-repair": "Sabis na kulawa da gyara don tabbatar da ci gaba na aiki",
+    "calibration-testing": "Daidaitawa da gwadawa na kayan aiki don daidaici da aminci",
+    "technical-support": "Tallafin fasaha 24/7 don duk bukatunku na fasaha",
+    "custom-solutions": "Maganganun keɓantacce da aka tsara musamman don bukatunku",
+    "consultation-training": "Shawarwari na ƙwararru da shirye-shiryen horarwa",
+    "supply-chain-management": "Gudanar da sarkar kasada da sabis na rarraba",
+    "solar-epc": "Cikakkun aikin EPC na hasken rana daga tsari zuwa shigarwa"
+  },
+  "durations": {
+    "installation-commissioning": "2-8 makonni",
+    "maintenance-repair": "Ci gaba",
+    "calibration-testing": "1-3 ranaku",
+    "technical-support": "24/7",
+    "custom-solutions": "4-12 makonni",
+    "consultation-training": "1-4 makonni",
+    "supply-chain-management": "Ci gaba",
+    "solar-epc": "3-9 watanni"
+  },
+  "features": {
+    "installation-commissioning": {
+      "site-preparation": "Shirya Wurin",
+      "professional-installation": "Shigarwa ta Ƙwararru",
+      "system-testing": "Gwada Tsari",
+      "documentation": "Cikakkun Takaddun"
+    },
+    "maintenance-repair": {
+      "preventive-maintenance": "Kulawa ta Rigakafi",
+      "emergency-repairs": "Gyara na Gaggawa",
+      "parts-replacement": "Maye Sassan",
+      "performance-optimization": "Inganta Aiki"
+    },
+    "calibration-testing": {
+      "accuracy-testing": "Gwada Daidaici",
+      "compliance": "Bin Ƙa'idodi",
+      "certificates": "Takaddun Shaida",
+      "traceability": "Bin Diddigin"
+    },
+    "technical-support": {
+      "24-7-support": "Tallafi 24/7",
+      "remote-diagnostics": "Bincike ta Nesa",
+      "onsite-response": "Amsawa a Wurin",
+      "emergency-hotline": "Layin Gaggawa"
+    },
+    "custom-solutions": {
+      "mcc-panels": "Panelin MCC",
+      "process-automation": "Sarrafa Ayyuka",
+      "unique-applications": "Amfani na Musamman",
+      "end-to-end": "Daga Farawa zuwa Ƙarshe"
+    },
+    "consultation-training": {
+      "plc-programming": "Shirye-shiryen PLC",
+      "system-design": "Tsarin Tsari",
+      "isa-certified": "ISA da Shaida",
+      "hands-on": "Horarwa ta Hannu"
+    },
+    "supply-chain-management": {
+      "authorized-distributors": "Masu Rarraba da Izini",
+      "genuine-parts": "Sassan Asali",
+      "warranty": "Garanti",
+      "express-delivery": "Isar da Sauri"
+    },
+    "solar-epc": {
+      "mnre-approved": "MNRE ya Amince",
+      "capacity": "Iya 1MW-100MW",
+      "guarantee": "Garanti Shekaru 25",
+      "grid-connection": "Haɗin Grid"
+    }
   }
 }
