@@ -59,19 +59,19 @@
       "description": "Industrial sensors for measurement and control"
     },
     "transmitters": {
-      "title": "Transmitters",
+      "title": "Transmitters & Transducers",
       "description": "Process transmitters and signal conversion equipment"
     },
     "controllers": {
-      "title": "Controllers",
+      "title": "Controllers & Recorders",
       "description": "Industrial control systems and automation controllers"
     },
     "switches": {
-      "title": "Switches",
+      "title": "Switches & Indicators",
       "description": "Industrial switches and control equipment"
     },
     "valves": {
-      "title": "Valves",
+      "title": "Valves & Actuators",
       "description": "Industrial valves and flow control systems"
     },
     "analyzers": {
@@ -81,6 +81,154 @@
     "signal-conditioners": {
       "title": "Signal Conditioners",
       "description": "Signal processing and conditioning equipment"
+    },
+    "cables-wires": {
+      "title": "Cables & Wires",
+      "description": "Industrial cables and wiring solutions"
+    },
+    "connectors-terminals": {
+      "title": "Connectors & Terminals",
+      "description": "Electrical connectors and terminal solutions"
+    },
+    "circuit-breakers-fuses": {
+      "title": "Circuit Breakers & Fuses",
+      "description": "Electrical protection devices for circuit safety"
+    },
+    "power-supplies": {
+      "title": "Power Supplies",
+      "description": "Industrial power supply units and converters"
+    },
+    "enclosures-cabinets": {
+      "title": "Enclosures & Cabinets",
+      "description": "Electrical enclosures and control cabinet solutions"
+    },
+    "heating-elements-appliances": {
+      "title": "Heating Elements & Appliances",
+      "description": "Industrial heating solutions and thermal equipment"
+    },
+    "multimeters": {
+      "title": "Multimeters",
+      "description": "Digital and analog multimeters for electrical testing"
+    },
+    "oscilloscopes": {
+      "title": "Oscilloscopes",
+      "description": "Digital oscilloscopes for signal analysis and testing"
+    },
+    "spectrum-analyzers": {
+      "title": "Spectrum Analyzers",
+      "description": "RF and microwave spectrum analysis equipment"
+    },
+    "power-quality-analyzers": {
+      "title": "Power Quality Analyzers",
+      "description": "Power quality measurement and analysis instruments"
+    },
+    "calibration-equipment": {
+      "title": "Calibration Equipment",
+      "description": "Precision calibration instruments and testing equipment"
+    },
+    "solar-panels": {
+      "title": "Solar Panels",
+      "description": "High-efficiency solar panels and photovoltaic systems"
+    },
+    "solar-inverters": {
+      "title": "Solar Inverters",
+      "description": "Solar power inverters and grid-tie systems"
+    },
+    "mounting-structures-racking": {
+      "title": "Mounting Structures & Racking Systems",
+      "description": "Structural mounting solutions for solar installations"
+    },
+    "solar-charge-controllers": {
+      "title": "Solar Charge Controllers",
+      "description": "Solar charge controllers and power management"
+    },
+    "solar-batteries-energy-storage": {
+      "title": "Solar Batteries & Energy Storage Systems",
+      "description": "Energy storage solutions for solar power systems"
+    },
+    "plcs": {
+      "title": "PLCs",
+      "description": "Programmable Logic Controllers for industrial automation"
+    },
+    "scada": {
+      "title": "SCADA",
+      "description": "Supervisory Control and Data Acquisition systems"
+    },
+    "dcs": {
+      "title": "DCS",
+      "description": "Distributed Control Systems for process automation"
+    },
+    "hmi": {
+      "title": "HMI",
+      "description": "Human Machine Interface systems for operator control"
+    },
+    "surge-protectors": {
+      "title": "Surge Protectors",
+      "description": "Electrical surge protection devices and systems"
+    },
+    "grounding-systems": {
+      "title": "Grounding Systems",
+      "description": "Electrical grounding and earthing solutions for safety"
+    },
+    "safety-relays-switches": {
+      "title": "Safety Relays & Switches",
+      "description": "Safety control relays and emergency stop systems"
+    },
+    "intrinsically-safe-equipment": {
+      "title": "Intrinsically Safe Equipment",
+      "description": "Certified equipment for hazardous area applications"
+    },
+    "centrifugal-pumps": {
+      "title": "Centrifugal Pumps",
+      "description": "High-efficiency centrifugal pumps for industrial applications"
+    },
+    "diaphragm-pumps": {
+      "title": "Diaphragm Pumps",
+      "description": "Precision dosing and chemical handling pumps"
+    },
+    "gear-pumps": {
+      "title": "Gear Pumps",
+      "description": "Precision gear pumps for hydraulic and industrial applications"
+    },
+    "pump-parts-spares": {
+      "title": "Pump Parts & Spares",
+      "description": "Replacement parts and components for pump systems"
+    },
+    "hand-tools": {
+      "title": "Hand Tools",
+      "description": "Professional hand tools for industrial maintenance"
+    },
+    "power-tools": {
+      "title": "Power Tools",
+      "description": "Electric and pneumatic power tools for industrial use"
+    },
+    "cutting-tools": {
+      "title": "Cutting Tools",
+      "description": "Industrial cutting tools and machining equipment"
+    },
+    "lifting-equipment": {
+      "title": "Lifting Equipment",
+      "description": "Industrial lifting and material handling solutions"
+    },
+    "safety-equipment": {
+      "title": "Safety Equipment",
+      "description": "Personal protective equipment and safety devices"
+    },
+    "bldc-cooler-exhaust-motor": {
+      "title": "BLDC Cooler/Exhaust Motor",
+      "description": "Energy-efficient BLDC motors for cooling and ventilation"
+    },
+    "bldc-ceiling-fan": {
+      "title": "BLDC Ceiling Fan",
+      "description": "High-efficiency ceiling fans with brushless DC technology"
+    },
+    "bldc-submersible-surface-pump": {
+      "title": "BLDC Submersible Surface Pump",
+      "description": "Solar-powered BLDC pumps for water applications"
+    },
+    "bldc-table-fan-wall-fan-motor": {
+      "title": "BLDC Table Fan/Wall Fan Motor",
+      "description": "Compact BLDC motors for portable and wall-mounted fans"
     }
   },
   "filters": {
