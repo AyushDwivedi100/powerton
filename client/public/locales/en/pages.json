@@ -1190,5 +1190,57 @@
       "verifiedResults": "Verified Results",
       "verifiedResultsDesc": "Real projects with measurable outcomes and client testimonials"
     }
+  },
+  "quote": {
+    "projectSizes": {
+      "small": "Small (1-10 I/O Points)",
+      "medium": "Medium (11-100 I/O Points)", 
+      "large": "Large (101-500 I/O Points)",
+      "enterprise": "Enterprise (500+ I/O Points)"
+    },
+    "timelines": {
+      "urgent": "Urgent (< 3 months)",
+      "standard": "Standard (3-6 months)",
+      "extended": "Extended (6-12 months)",
+      "longTerm": "Long-term (12+ months)"
+    },
+    "requirements": {
+      "plcProgramming": "PLC Programming",
+      "scadaDevelopment": "SCADA Development", 
+      "hmiDesign": "HMI Design",
+      "networkIntegration": "Network Integration",
+      "safetySystems": "Safety Systems",
+      "remoteMonitoring": "Remote Monitoring",
+      "dataAnalytics": "Data Analytics",
+      "mobileApp": "Mobile App Interface"
+    },
+    "additionalFeatures": {
+      "redundancy": "System Redundancy",
+      "cybersecurity": "Advanced Cybersecurity",
+      "iotIntegration": "IoT Integration",
+      "aiMl": "AI/ML Analytics",
+      "predictiveMaintenance": "Predictive Maintenance", 
+      "energyManagement": "Energy Management",
+      "cloudIntegration": "Cloud Integration",
+      "trainingSupport": "Extended Training & Support"
+    },
+    "industries": {
+      "manufacturing": "Manufacturing",
+      "powerGeneration": "Power Generation",
+      "oilGas": "Oil & Gas",
+      "chemicalProcessing": "Chemical Processing",
+      "waterTreatment": "Water Treatment",
+      "foodBeverage": "Food & Beverage",
+      "pharmaceutical": "Pharmaceutical",
+      "renewableEnergy": "Renewable Energy"
+    },
+    "projectTypes": {
+      "processAutomation": "Process Automation",
+      "powerControlSystems": "Power Control Systems",
+      "instrumentationControl": "Instrumentation & Control",
+      "solarAutomation": "Solar Automation",
+      "buildingAutomation": "Building Automation",
+      "manufacturingAutomation": "Manufacturing Automation"
+    }
   }
 }

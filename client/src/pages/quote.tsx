@@ -110,49 +110,49 @@ const INDUSTRIES = [
 ];
 
 const PROJECT_SIZES = [
-  { value: "small", label: "Small (1-10 I/O Points)", multiplier: 0.5 },
-  { value: "medium", label: "Medium (11-100 I/O Points)", multiplier: 1.0 },
-  { value: "large", label: "Large (101-500 I/O Points)", multiplier: 2.0 },
+  { value: "small", label: "small", multiplier: 0.5 },
+  { value: "medium", label: "medium", multiplier: 1.0 },
+  { value: "large", label: "large", multiplier: 2.0 },
   {
     value: "enterprise",
-    label: "Enterprise (500+ I/O Points)",
+    label: "enterprise",
     multiplier: 4.0,
   },
 ];
 
 const TIMELINES = [
-  { value: "urgent", label: "Urgent (< 3 months)", multiplier: 1.3 },
-  { value: "standard", label: "Standard (3-6 months)", multiplier: 1.0 },
-  { value: "extended", label: "Extended (6-12 months)", multiplier: 0.9 },
-  { value: "long-term", label: "Long-term (12+ months)", multiplier: 0.8 },
+  { value: "urgent", label: "urgent", multiplier: 1.3 },
+  { value: "standard", label: "standard", multiplier: 1.0 },
+  { value: "extended", label: "extended", multiplier: 0.9 },
+  { value: "long-term", label: "longTerm", multiplier: 0.8 },
 ];
 
 const REQUIREMENTS = [
-  { id: "plc-programming", label: "PLC Programming", price: 50000 },
-  { id: "scada-development", label: "SCADA Development", price: 100000 },
-  { id: "hmi-design", label: "HMI Design", price: 75000 },
-  { id: "network-integration", label: "Network Integration", price: 60000 },
-  { id: "safety-systems", label: "Safety Systems", price: 120000 },
-  { id: "remote-monitoring", label: "Remote Monitoring", price: 80000 },
-  { id: "data-analytics", label: "Data Analytics", price: 90000 },
-  { id: "mobile-app", label: "Mobile App Interface", price: 70000 },
+  { id: "plc-programming", label: "plcProgramming", price: 50000 },
+  { id: "scada-development", label: "scadaDevelopment", price: 100000 },
+  { id: "hmi-design", label: "hmiDesign", price: 75000 },
+  { id: "network-integration", label: "networkIntegration", price: 60000 },
+  { id: "safety-systems", label: "safetySystems", price: 120000 },
+  { id: "remote-monitoring", label: "remoteMonitoring", price: 80000 },
+  { id: "data-analytics", label: "dataAnalytics", price: 90000 },
+  { id: "mobile-app", label: "mobileApp", price: 70000 },
 ];
 
 const ADDITIONAL_FEATURES = [
-  { id: "redundancy", label: "System Redundancy", price: 150000 },
-  { id: "cybersecurity", label: "Advanced Cybersecurity", price: 100000 },
-  { id: "iot-integration", label: "IoT Integration", price: 85000 },
-  { id: "ai-ml", label: "AI/ML Analytics", price: 200000 },
+  { id: "redundancy", label: "redundancy", price: 150000 },
+  { id: "cybersecurity", label: "cybersecurity", price: 100000 },
+  { id: "iot-integration", label: "iotIntegration", price: 85000 },
+  { id: "ai-ml", label: "aiMl", price: 200000 },
   {
     id: "predictive-maintenance",
-    label: "Predictive Maintenance",
+    label: "predictiveMaintenance",
     price: 120000,
   },
-  { id: "energy-management", label: "Energy Management", price: 110000 },
-  { id: "cloud-integration", label: "Cloud Integration", price: 95000 },
+  { id: "energy-management", label: "energyManagement", price: 110000 },
+  { id: "cloud-integration", label: "cloudIntegration", price: 95000 },
   {
     id: "training-support",
-    label: "Extended Training & Support",
+    label: "trainingSupport",
     price: 80000,
   },
 ];
@@ -295,7 +295,7 @@ export default function Quote() {
       requirementsCost,
       featuresCost,
       totalCost,
-      timeline: timeline?.label || "Not specified",
+      timeline: timeline?.label ? t(`pages:quote.timelines.${timeline.label}`) : "Not specified",
     };
   };
 
@@ -599,7 +599,7 @@ export default function Quote() {
                                         key={type.value}
                                         value={type.value}
                                       >
-                                        {type.label}
+                                        {t(`pages:quote.projectTypes.${type.label}`)}
                                       </SelectItem>
                                     ))}
                                   </SelectContent>
@@ -635,7 +635,7 @@ export default function Quote() {
                                         key={industry.value}
                                         value={industry.value}
                                       >
-                                        {industry.label}
+                                        {t(`pages:quote.industries.${industry.label}`)}
                                       </SelectItem>
                                     ))}
                                   </SelectContent>
@@ -676,7 +676,7 @@ export default function Quote() {
                                         key={size.value}
                                         value={size.value}
                                       >
-                                        {size.label}
+                                        {t(`pages:quote.projectSizes.${size.label}`)}
                                       </SelectItem>
                                     ))}
                                   </SelectContent>
@@ -712,7 +712,7 @@ export default function Quote() {
                                         key={timeline.value}
                                         value={timeline.value}
                                       >
-                                        {timeline.label}
+                                        {t(`pages:quote.timelines.${timeline.label}`)}
                                       </SelectItem>
                                     ))}
                                   </SelectContent>
@@ -751,7 +751,7 @@ export default function Quote() {
                                           htmlFor={requirement.id}
                                           className="text-sm font-medium cursor-pointer"
                                         >
-                                          {requirement.label}
+                                          {t(`pages:quote.requirements.${requirement.label}`)}
                                         </Label>
                                         <div className="text-xs text-muted-foreground">
                                           {formatCurrency(requirement.price)}
@@ -789,7 +789,7 @@ export default function Quote() {
                                           htmlFor={feature.id}
                                           className="text-sm font-medium cursor-pointer"
                                         >
-                                          {feature.label}
+                                          {t(`pages:quote.additionalFeatures.${feature.label}`)}
                                         </Label>
                                         <div className="text-xs text-muted-foreground">
                                           {formatCurrency(feature.price)}
