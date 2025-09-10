@@ -509,9 +509,15 @@
     "Power Systems": "أنظمة الطاقة"
   },
   "aria": {
+    "toggleNavigation": "تبديل مساعد التنقل",
+    "openLocation": "فتح موقع المكتب في خرائط جوجل",
+    "exploreServices": "استكشف خدمات الأتمتة الصناعية والهندسة لدينا",
+    "requestConsultation": "طلب استشارة مجانية لمشروع الهندسة الخاص بك",
+    "companyHighlights": "أبرز ما في الشركة والخدمات الرئيسية",
+    "performanceStats": "إحصائيات أداء الشركة",
     "previousTestimonial": "الشهادة السابقة",
     "nextTestimonial": "الشهادة التالية",
-    "openLocation": "فتح الموقع",
-    "toggleNavigation": "تبديل التنقل"
+    "mainNavigation": "التنقل الرئيسي",
+    "companyInfo": "معلومات الشركة وتنقل الموقع"
   }
 }
