@@ -431,6 +431,39 @@
       "description": "पोर्टेबल और वॉल-माउंटेड फैन के लिए कॉम्पैक्ट BLDC मोटर"
     }
   },
+  "features": {
+    "energyEfficient": "ऊर्जा कुशल",
+    "lowNoise": "कम शोर",
+    "longLife": "लंबी जीवन",
+    "variableSpeed": "चर गति",
+    "remoteControl": "रिमोट कंट्रोल",
+    "energySaving": "ऊर्जा बचत",
+    "quietOperation": "शांत संचालन",
+    "smartFeatures": "स्मार्ट फीचर्स",
+    "submersibleDesign": "सबमर्सिबल डिज़ाइन",
+    "highEfficiency": "उच्च दक्षता",
+    "corrosionResistant": "जंग प्रतिरोधी",
+    "solarCompatible": "सोलर संगत",
+    "compactSize": "कॉम्पैक्ट आकार",
+    "speedControl": "गति नियंत्रण"
+  },
+  "badges": {
+    "bldcMotors": "BLDC मोटर्स",
+    "energyEfficient": "ऊर्जा कुशल",
+    "lowMaintenance": "कम रखरखाव",
+    "smartControl": "स्मार्ट नियंत्रण"
+  },
+  "sections": {
+    "bldcSolutions": "BLDC समाधान",
+    "keyFeatures": "मुख्य विशेषताएं"
+  },
+  "cta": {
+    "bldc": {
+      "title": "BLDC तकनीक में अपग्रेड करें?",
+      "description": "हमारे BLDC विशेषज्ञ आपको ऊर्जा-कुशल ब्रशलेस डीसी मोटर समाधानों में स्थानांतरित करने में मदद कर सकते हैं।"
+    },
+    "contactExperts": "BLDC विशेषज्ञों से संपर्क करें"
+  },
   "items": {
     "instrumentation-components": "उपकरण घटक",
     "electrical-components": "विद्युत घटक",
