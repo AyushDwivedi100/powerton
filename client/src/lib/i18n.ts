@@ -16,13 +16,47 @@ const languages = [
   { code: 'ha', name: 'Hausa', nativeName: 'Hausa' }
 ];
 
+// Available language codes for quick lookup
+const availableLanguages = languages.map(lang => lang.code);
+
+// Enhanced language detection function
+export const detectLanguage = (): string => {
+  // Check if there's a manually selected language in localStorage (highest priority)
+  const storedLanguage = localStorage.getItem('i18nextLng');
+  if (storedLanguage && storedLanguage !== 'undefined' && availableLanguages.includes(storedLanguage)) {
+    return storedLanguage;
+  }
+
+  // Check browser language preferences (navigator.languages)
+  if (typeof navigator !== 'undefined' && navigator.languages) {
+    for (const browserLang of navigator.languages) {
+      // Extract language code (e.g., 'en-US' -> 'en')
+      const langCode = browserLang.split('-')[0];
+      if (availableLanguages.includes(langCode)) {
+        return langCode;
+      }
+    }
+  }
+
+  // Fallback to primary language if available
+  if (typeof navigator !== 'undefined' && navigator.language) {
+    const langCode = navigator.language.split('-')[0];
+    if (availableLanguages.includes(langCode)) {
+      return langCode;
+    }
+  }
+
+  // Final fallback to English
+  return 'en';
+};
+
 i18n
   .use(Backend)
   .use(LanguageDetector)
   .use(initReactI18next)
   .init({
-    fallbackLng: 'en', // Fallback to English when browser language is not supported
-    lng: undefined, // Let detection determine the language automatically
+    fallbackLng: false, // Don't fallback to English for missing keys
+    lng: detectLanguage(), // Use our custom detection logic
     debug: import.meta.env.DEV, // Console logging only in development
     
     // Supported languages - all available languages
@@ -30,7 +64,7 @@ i18n
     
     // Language detection options - prioritize browser language detection
     detection: {
-      order: ['navigator', 'localStorage', 'htmlTag', 'path', 'subdomain'],
+      order: ['localStorage', 'navigator', 'htmlTag'],
       caches: ['localStorage'],
       lookupLocalStorage: 'i18nextLng',
       checkWhitelist: true, // Only use supported languages
@@ -93,6 +127,11 @@ i18n
     returnObjects: false,
     returnedObjectHandler: false,
     saveMissing: false,
+    
+    // Custom missing key handler to return the key itself
+    parseMissingKeyHandler: (key: string) => key,
+    
+    // Show translation key when missing instead of falling back
     missingKeyHandler: false,
 
     // Resources loading strategy
