@@ -153,10 +153,10 @@ export default function CareerApplicationForm() {
       <CardContent className="p-6">
         <div className="text-center mb-6">
           <h3 className="text-2xl font-bold text-primary mb-2">
-            Join Our Engineering Team
+            {t('career.labels.title')}
           </h3>
           <p className="text-muted-foreground">
-            Submit your application and become part of our innovative engineering solutions team
+            {t('career.labels.subtitle')}
           </p>
         </div>
 
@@ -165,7 +165,7 @@ export default function CareerApplicationForm() {
             {/* Personal Information Section */}
             <div className="space-y-4">
               <h4 className="text-lg font-semibold text-foreground border-b border-border pb-2">
-                Personal Information
+                {t('career.labels.personalInfo')}
               </h4>
               
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -174,9 +174,9 @@ export default function CareerApplicationForm() {
                   name="name"
                   render={({ field }) => (
                     <FormItem>
-                      <FormLabel>Full Name *</FormLabel>
+                      <FormLabel>{t('career.labels.fullName')} *</FormLabel>
                       <FormControl>
-                        <Input placeholder="Enter your full name" {...field} />
+                        <Input placeholder={t('career.placeholders.fullName')} {...field} />
                       </FormControl>
                       <FormMessage />
                     </FormItem>
@@ -188,9 +188,9 @@ export default function CareerApplicationForm() {
                   name="email"
                   render={({ field }) => (
                     <FormItem>
-                      <FormLabel>Email Address *</FormLabel>
+                      <FormLabel>{t('career.labels.emailAddress')} *</FormLabel>
                       <FormControl>
-                        <Input type="email" placeholder="your.email@example.com" {...field} />
+                        <Input type="email" placeholder={t('career.placeholders.email')} {...field} />
                       </FormControl>
                       <FormMessage />
                     </FormItem>
@@ -204,9 +204,9 @@ export default function CareerApplicationForm() {
                   name="phone"
                   render={({ field }) => (
                     <FormItem>
-                      <FormLabel>Phone Number *</FormLabel>
+                      <FormLabel>{t('career.labels.phoneNumber')} *</FormLabel>
                       <FormControl>
-                        <Input placeholder="+91 9876543210" {...field} />
+                        <Input placeholder={t('career.placeholders.phone')} {...field} />
                       </FormControl>
                       <FormMessage />
                     </FormItem>
@@ -218,10 +218,10 @@ export default function CareerApplicationForm() {
                   name="residingAddress"
                   render={({ field }) => (
                     <FormItem>
-                      <FormLabel>Current Residing Address *</FormLabel>
+                      <FormLabel>{t('career.labels.residingAddress')} *</FormLabel>
                       <FormControl>
                         <Textarea 
-                          placeholder="Enter your complete address (House/Flat No., Street, City, State, PIN)"
+                          placeholder={t('career.placeholders.address')}
                           className="min-h-[80px] resize-none"
                           {...field}
                         />
@@ -236,7 +236,7 @@ export default function CareerApplicationForm() {
             {/* Professional Information Section */}
             <div className="space-y-4">
               <h4 className="text-lg font-semibold text-foreground border-b border-border pb-2">
-                Professional Information
+                {t('career.labels.professionalInfo')}
               </h4>
               
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -245,11 +245,11 @@ export default function CareerApplicationForm() {
                   name="specialization"
                   render={({ field }) => (
                     <FormItem>
-                      <FormLabel>Engineering Specialization *</FormLabel>
+                      <FormLabel>{t('career.labels.specialization')} *</FormLabel>
                       <Select onValueChange={field.onChange} defaultValue={field.value}>
                         <FormControl>
                           <SelectTrigger>
-                            <SelectValue placeholder="Select your area of expertise" />
+                            <SelectValue placeholder={t('career.placeholders.selectSpecialization')} />
                           </SelectTrigger>
                         </FormControl>
                         <SelectContent>
@@ -270,11 +270,11 @@ export default function CareerApplicationForm() {
                   name="experience"
                   render={({ field }) => (
                     <FormItem>
-                      <FormLabel>Total Experience *</FormLabel>
+                      <FormLabel>{t('career.labels.experience')} *</FormLabel>
                       <Select onValueChange={field.onChange} defaultValue={field.value}>
                         <FormControl>
                           <SelectTrigger>
-                            <SelectValue placeholder="Select experience level" />
+                            <SelectValue placeholder={t('career.placeholders.selectExperience')} />
                           </SelectTrigger>
                         </FormControl>
                         <SelectContent>
@@ -297,9 +297,9 @@ export default function CareerApplicationForm() {
                   name="currentCompany"
                   render={({ field }) => (
                     <FormItem>
-                      <FormLabel>Current Company</FormLabel>
+                      <FormLabel>{t('career.labels.currentCompany')}</FormLabel>
                       <FormControl>
-                        <Input placeholder="Your current company (optional)" {...field} />
+                        <Input placeholder={t('career.placeholders.currentCompany')} {...field} />
                       </FormControl>
                       <FormMessage />
                     </FormItem>
@@ -311,11 +311,11 @@ export default function CareerApplicationForm() {
                   name="joiningTime"
                   render={({ field }) => (
                     <FormItem>
-                      <FormLabel>How soon can you join us? *</FormLabel>
+                      <FormLabel>{t('career.labels.availability')} *</FormLabel>
                       <Select onValueChange={field.onChange} defaultValue={field.value}>
                         <FormControl>
                           <SelectTrigger>
-                            <SelectValue placeholder="Select your availability" />
+                            <SelectValue placeholder={t('career.placeholders.selectAvailability')} />
                           </SelectTrigger>
                         </FormControl>
                         <SelectContent>
@@ -338,9 +338,9 @@ export default function CareerApplicationForm() {
                   name="education"
                   render={({ field }) => (
                     <FormItem>
-                      <FormLabel>Education *</FormLabel>
+                      <FormLabel>{t('career.labels.education')} *</FormLabel>
                       <FormControl>
-                        <Input placeholder="e.g., B.Tech Electrical Engineering" {...field} />
+                        <Input placeholder={t('career.placeholders.education')} {...field} />
                       </FormControl>
                       <FormMessage />
                     </FormItem>
@@ -352,9 +352,9 @@ export default function CareerApplicationForm() {
                   name="expectedSalary"
                   render={({ field }) => (
                     <FormItem>
-                      <FormLabel>Expected Salary</FormLabel>
+                      <FormLabel>{t('career.labels.expectedSalary')}</FormLabel>
                       <FormControl>
-                        <Input placeholder="e.g., 5-8 LPA or Negotiable" {...field} />
+                        <Input placeholder={t('career.placeholders.expectedSalary')} {...field} />
                       </FormControl>
                       <FormMessage />
                     </FormItem>
@@ -366,7 +366,7 @@ export default function CareerApplicationForm() {
             {/* Additional Information Section */}
             <div className="space-y-4">
               <h4 className="text-lg font-semibold text-foreground border-b border-border pb-2">
-                Additional Information
+                {t('career.labels.technicalSkills')}
               </h4>
               
               <FormField
@@ -374,10 +374,10 @@ export default function CareerApplicationForm() {
                 name="skills"
                 render={({ field }) => (
                   <FormItem>
-                    <FormLabel>Technical Skills & Expertise *</FormLabel>
+                    <FormLabel>{t('career.labels.technicalSkills')} *</FormLabel>
                     <FormControl>
                       <Textarea 
-                        placeholder="List your technical skills, software knowledge, programming languages, certifications, etc."
+                        placeholder={t('career.placeholders.skills')}
                         className="min-h-[100px] resize-none"
                         {...field}
                       />
@@ -392,10 +392,10 @@ export default function CareerApplicationForm() {
                 name="coverLetter"
                 render={({ field }) => (
                   <FormItem>
-                    <FormLabel>Why do you want to join Powerton Engineering? *</FormLabel>
+                    <FormLabel>{t('career.labels.coverLetter')} *</FormLabel>
                     <FormControl>
                       <Textarea 
-                        placeholder="Tell us about your motivation, career goals, and how you can contribute to our team..."
+                        placeholder={t('career.placeholders.coverLetter')}
                         className="min-h-[120px] resize-none"
                         {...field}
                       />
@@ -417,12 +417,12 @@ export default function CareerApplicationForm() {
                 {isSubmitting ? (
                   <>
                     <Loader2 className="mr-2 h-4 w-4 animate-spin" />
-                    Submitting Application...
+                    {t('career.buttons.submitting')}
                   </>
                 ) : (
                   <>
                     <FileUser className="mr-2 h-4 w-4" />
-                    Submit Application
+                    {t('career.buttons.submit')}
                   </>
                 )}
               </Button>
@@ -437,7 +437,7 @@ export default function CareerApplicationForm() {
                 >
                   <a href="tel:+91-94627-71662" className="flex items-center justify-center">
                     <Phone className="mr-2 h-4 w-4" />
-                    Call HR
+                    {t('forms:contact.buttons.callNow')}
                   </a>
                 </Button>
                 
@@ -450,7 +450,7 @@ export default function CareerApplicationForm() {
                 >
                   <a href="mailto:info@powertonengineering.com" className="flex items-center justify-center">
                     <Mail className="mr-2 h-4 w-4" />
-                    Email HR
+                    {t('forms:contact.buttons.emailUs')}
                   </a>
                 </Button>
               </div>
