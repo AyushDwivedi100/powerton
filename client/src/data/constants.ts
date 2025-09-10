@@ -173,6 +173,28 @@ export const getProducts = (t: any) => [
       "HMI Systems",
       "SCADA Software",
       "Industrial Networks"
+    ],
+    subcategories: [
+      {
+        id: "plcs",
+        title: t('products:subcategories.plcs.title'),
+        description: t('products:subcategories.plcs.description')
+      },
+      {
+        id: "scada",
+        title: t('products:subcategories.scada.title'),
+        description: t('products:subcategories.scada.description')
+      },
+      {
+        id: "dcs",
+        title: t('products:subcategories.dcs.title'),
+        description: t('products:subcategories.dcs.description')
+      },
+      {
+        id: "hmi",
+        title: t('products:subcategories.hmi.title'),
+        description: t('products:subcategories.hmi.description')
+      }
     ]
   },
   {
@@ -225,6 +247,28 @@ export const getProducts = (t: any) => [
       "Long Lifespan",
       "Low Maintenance",
       "Variable Speed Control"
+    ],
+    subcategories: [
+      {
+        id: "bldc-cooler-exhaust-motor",
+        title: t('products:subcategories.bldc-cooler-exhaust-motor.title'),
+        description: t('products:subcategories.bldc-cooler-exhaust-motor.description')
+      },
+      {
+        id: "bldc-ceiling-fan",
+        title: t('products:subcategories.bldc-ceiling-fan.title'),
+        description: t('products:subcategories.bldc-ceiling-fan.description')
+      },
+      {
+        id: "bldc-submersible-surface-pump",
+        title: t('products:subcategories.bldc-submersible-surface-pump.title'),
+        description: t('products:subcategories.bldc-submersible-surface-pump.description')
+      },
+      {
+        id: "bldc-table-fan-wall-fan-motor",
+        title: t('products:subcategories.bldc-table-fan-wall-fan-motor.title'),
+        description: t('products:subcategories.bldc-table-fan-wall-fan-motor.description')
+      }
     ]
   }
 ];
