@@ -51,7 +51,7 @@ export const detectLanguage = (): string => {
 };
 
 const initConfig = {
-  fallbackLng: [], // Completely disable fallback to prevent English showing
+  fallbackLng: false as const, // Completely disable fallback to prevent English showing
   lng: detectLanguage(), // Use our custom detection logic
   debug: import.meta.env.DEV, // Console logging only in development
   
@@ -123,8 +123,10 @@ const initConfig = {
     returnObjects: false,
     saveMissing: false,
     
-    // Disable parsing missing key handler to prevent fallback
-    parseMissingKeyHandler: undefined,
+    // Show translation key when missing instead of fallback text
+    missingKeyHandler: function(lngs: readonly string[], ns: string, key: string, fallbackValue: string, updateMissing: boolean, options: any) {
+      return `${ns}:${key}`;
+    },
 
     // Resources loading strategy
     partialBundledLanguages: true

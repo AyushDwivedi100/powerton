@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'wouter';
+import { useTranslation } from 'react-i18next';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
@@ -7,34 +8,36 @@ import { ArrowLeft, Fan, Wind, Droplet, Zap } from 'lucide-react';
 import bldcBgImage from '@assets/generated_images/BLDC_Motor_Systems_a48f6e6f.png';
 
 const BLDCProducts = () => {
+  const { t } = useTranslation(['products', 'common', 'navigation']);
+  
   const subcategories = [
     {
       id: "bldc-cooler-exhaust-motor",
-      title: "BLDC Cooler Exhaust Motor",
-      description: "Brushless DC motors for cooling and exhaust applications",
+      title: t('products:subcategories.bldc-cooler-exhaust-motor.title'),
+      description: t('products:subcategories.bldc-cooler-exhaust-motor.description'),
       icon: Wind,
-      features: ["Energy Efficient", "Low Noise", "Long Life", "Variable Speed"]
+      features: [t('products:features.energyEfficient'), t('products:features.lowNoise'), t('products:features.longLife'), t('products:features.variableSpeed')]
     },
     {
       id: "bldc-ceiling-fan",
-      title: "BLDC Ceiling Fan",
-      description: "Energy-efficient ceiling fans with brushless DC motors",
+      title: t('products:subcategories.bldc-ceiling-fan.title'),
+      description: t('products:subcategories.bldc-ceiling-fan.description'),
       icon: Fan,
-      features: ["Remote Control", "Energy Saving", "Quiet Operation", "Smart Features"]
+      features: [t('products:features.remoteControl'), t('products:features.energySaving'), t('products:features.quietOperation'), t('products:features.smartFeatures')]
     },
     {
       id: "bldc-submersible-surface-pump",
-      title: "BLDC Submersible Surface Pump",
-      description: "High-efficiency BLDC pumps for water applications",
+      title: t('products:subcategories.bldc-submersible-surface-pump.title'),
+      description: t('products:subcategories.bldc-submersible-surface-pump.description'),
       icon: Droplet,
-      features: ["Submersible Design", "High Efficiency", "Corrosion Resistant", "Solar Compatible"]
+      features: [t('products:features.submersibleDesign'), t('products:features.highEfficiency'), t('products:features.corrosionResistant'), t('products:features.solarCompatible')]
     },
     {
       id: "bldc-table-fan-wall-fan-motor",
-      title: "BLDC Table Fan & Wall Fan Motor",
-      description: "Compact BLDC motors for personal and wall-mounted fans",
+      title: t('products:subcategories.bldc-table-fan-wall-fan-motor.title'),
+      description: t('products:subcategories.bldc-table-fan-wall-fan-motor.description'),
       icon: Zap,
-      features: ["Compact Size", "Energy Efficient", "Quiet Operation", "Speed Control"]
+      features: [t('products:features.compactSize'), t('products:features.energyEfficient'), t('products:features.quietOperation'), t('products:features.speedControl')]
     }
   ];
 
@@ -55,20 +58,20 @@ const BLDCProducts = () => {
             <Link href="/products">
               <Button variant="ghost" className="mb-6 hover:bg-primary/10">
                 <ArrowLeft className="mr-2 h-4 w-4" />
-                Back to Products
+                {t('navigation:backToProducts', 'Back to Products')}
               </Button>
             </Link>
             <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
-              BLDC Products
+              {t('products:categories.bldc.title')}
             </h1>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto mb-8">
-              Brushless DC motor products for energy-efficient cooling, ventilation, and pumping applications
+              {t('products:categories.bldc.description')}
             </p>
             <div className="flex flex-wrap justify-center gap-2 mb-8">
-              <Badge variant="secondary">BLDC Motors</Badge>
-              <Badge variant="secondary">Energy Efficient</Badge>
-              <Badge variant="secondary">Low Maintenance</Badge>
-              <Badge variant="secondary">Smart Control</Badge>
+              <Badge variant="secondary">{t('products:badges.bldcMotors')}</Badge>
+              <Badge variant="secondary">{t('products:badges.energyEfficient')}</Badge>
+              <Badge variant="secondary">{t('products:badges.lowMaintenance')}</Badge>
+              <Badge variant="secondary">{t('products:badges.smartControl')}</Badge>
             </div>
           </div>
         </div>
@@ -77,7 +80,7 @@ const BLDCProducts = () => {
       {/* Subcategories Section */}
       <div className="py-16 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
         <h2 className="text-3xl font-bold text-foreground text-center mb-12">
-          BLDC Solutions
+          {t('products:sections.bldcSolutions', 'BLDC Solutions')}
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
           {subcategories.map((subcategory) => {
@@ -98,7 +101,7 @@ const BLDCProducts = () => {
                   </CardHeader>
                   <CardContent>
                     <div className="space-y-2">
-                      <h4 className="font-medium text-sm text-foreground mb-3">Key Features:</h4>
+                      <h4 className="font-medium text-sm text-foreground mb-3">{t('products:sections.keyFeatures', 'Key Features:')}:</h4>
                       <ul className="space-y-1">
                         {subcategory.features.map((feature, featureIndex) => (
                           <li key={featureIndex} className="text-sm text-muted-foreground flex items-center">
@@ -120,20 +123,20 @@ const BLDCProducts = () => {
       <div className="bg-muted/50 py-16 px-4 sm:px-6 lg:px-8">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-3xl font-bold text-foreground mb-6">
-            Upgrade to BLDC Technology?
+            {t('products:cta.bldc.title', 'Upgrade to BLDC Technology?')}
           </h2>
           <p className="text-lg text-muted-foreground mb-8">
-            Our BLDC specialists can help you transition to energy-efficient brushless DC motor solutions.
+            {t('products:cta.bldc.description', 'Our BLDC specialists can help you transition to energy-efficient brushless DC motor solutions.')}
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact">
               <Button size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground">
-                Contact BLDC Experts
+                {t('products:cta.contactExperts', 'Contact BLDC Experts')}
               </Button>
             </Link>
             <Link href="/quote">
               <Button size="lg" variant="outline" className="border-primary text-primary hover:bg-primary hover:text-primary-foreground">
-                Request Quote
+                {t('common:buttons.requestQuote', 'Request Quote')}
               </Button>
             </Link>
           </div>
