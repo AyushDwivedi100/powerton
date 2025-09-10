@@ -139,6 +139,43 @@
     }
   },
   "career": {
+    "placeholders": {
+      "fullName": "أدخل اسمك الكامل",
+      "email": "your.email@example.com",
+      "phone": "+91 9876543210",
+      "address": "أدخل عنوانك الكامل (رقم المنزل/الشقة، الشارع، المدينة، الولاية، الرمز البريدي)",
+      "currentCompany": "شركتك الحالية (اختياري)",
+      "education": "مثال: بكالوريوس هندسة كهربائية",
+      "expectedSalary": "مثال: 5-8 لاخ سنوياً أو قابل للتفاوض",
+      "skills": "اذكر مهاراتك التقنية، معرفة البرمجيات، لغات البرمجة، الشهادات، إلخ",
+      "coverLetter": "أخبرنا عن دوافعك وأهدافك المهنية وكيف يمكنك المساهمة في فريقنا...",
+      "selectSpecialization": "اختر مجال خبرتك",
+      "selectExperience": "اختر مستوى الخبرة",
+      "selectAvailability": "اختر مدى توفرك"
+    },
+    "labels": {
+      "title": "انضم إلى فريق الهندسة لدينا",
+      "subtitle": "قدم طلبك وكن جزءاً من فريق الحلول الهندسية المبتكرة",
+      "personalInfo": "المعلومات الشخصية",
+      "professionalInfo": "المعلومات المهنية",
+      "fullName": "الاسم الكامل",
+      "emailAddress": "عنوان البريد الإلكتروني",
+      "phoneNumber": "رقم الهاتف",
+      "residingAddress": "العنوان الحالي",
+      "specialization": "التخصص الهندسي",
+      "experience": "مستوى الخبرة",
+      "currentCompany": "الشركة الحالية",
+      "availability": "التوفر/فترة الإشعار",
+      "education": "التعليم/المؤهلات",
+      "expectedSalary": "الراتب المتوقع",
+      "technicalSkills": "المهارات التقنية والخبرة",
+      "coverLetter": "خطاب التغطية والدافع"
+    },
+    "buttons": {
+      "submit": "تقديم الطلب",
+      "submitting": "جاري تقديم الطلب...",
+      "uploadResume": "رفع السيرة الذاتية"
+    },
     "validation": {
       "nameMin": "يجب أن يكون الاسم حرفين على الأقل",
       "emailInvalid": "يرجى إدخال عنوان بريد إلكتروني صحيح",

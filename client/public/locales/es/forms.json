@@ -148,6 +148,43 @@
     }
   },
   "career": {
+    "placeholders": {
+      "fullName": "Ingrese su nombre completo",
+      "email": "su.email@ejemplo.com",
+      "phone": "+91 9876543210",
+      "address": "Ingrese su dirección completa (Número de casa/apartamento, calle, ciudad, estado, código postal)",
+      "currentCompany": "Su empresa actual (opcional)",
+      "education": "ej., Licenciatura en Ingeniería Eléctrica",
+      "expectedSalary": "ej., 5-8 LPA o Negociable",
+      "skills": "Liste sus habilidades técnicas, conocimiento de software, lenguajes de programación, certificaciones, etc.",
+      "coverLetter": "Cuéntanos sobre tu motivación, objetivos profesionales y cómo puedes contribuir a nuestro equipo...",
+      "selectSpecialization": "Seleccione su área de especialización",
+      "selectExperience": "Seleccione nivel de experiencia",
+      "selectAvailability": "Seleccione su disponibilidad"
+    },
+    "labels": {
+      "title": "Únete a Nuestro Equipo de Ingeniería",
+      "subtitle": "Envía tu solicitud y forma parte de nuestro equipo de soluciones de ingeniería innovadoras",
+      "personalInfo": "Información Personal",
+      "professionalInfo": "Información Profesional",
+      "fullName": "Nombre Completo",
+      "emailAddress": "Dirección de Correo Electrónico",
+      "phoneNumber": "Número de Teléfono",
+      "residingAddress": "Dirección Actual de Residencia",
+      "specialization": "Especialización en Ingeniería",
+      "experience": "Nivel de Experiencia",
+      "currentCompany": "Empresa Actual",
+      "availability": "Disponibilidad/Período de Aviso",
+      "education": "Educación/Calificación",
+      "expectedSalary": "Salario Esperado",
+      "technicalSkills": "Habilidades Técnicas y Experiencia",
+      "coverLetter": "Carta de Presentación y Motivación"
+    },
+    "buttons": {
+      "submit": "Enviar Solicitud",
+      "submitting": "Enviando Solicitud...",
+      "uploadResume": "Subir Currículum"
+    },
     "validation": {
       "nameMin": "El nombre debe tener al menos 2 caracteres",
       "emailInvalid": "Por favor ingrese una dirección de correo electrónico válida",
