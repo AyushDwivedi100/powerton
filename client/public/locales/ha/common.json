@@ -85,6 +85,8 @@
     "downloadDatasheet": "Sauke takardun bayanai",
     "downloadPortfolio": "Sauke ayyuka",
     "requestQuote": "Nemi farashin",
+    "contactProtectionExperts": "Tuntube Masana Kariya",
+    "contactSolarExperts": "Tuntube Masana Makamashin Rana",
     "showMore": "Nuna ƙari",
     "showFilters": "Nuna tacewa",
     "hideFilters": "Ɓoye tacewa",
@@ -104,7 +106,9 @@
     "error": "Kuskure ya faru"
   },
   "navigation": {
-    "backToInstrumentationComponents": "Koma zuwa Abubuwan Instrumentation"
+    "backToInstrumentationComponents": "Koma zuwa Abubuwan Instrumentation",
+    "phoneNumbers": "Lambobin waya",
+    "backToSafetyDevices": "Koma zuwa Na'urorin Aminci da Kariya"
   },
   "aria": {
     "toggleNavigation": "Juyawa mataimakin kewayawa",
@@ -156,6 +160,19 @@
     "signalConverters": "Masu juyar da sigina",
     "measuringTransducers": "Masu juyar da auna",
     "noiseFilters": "Masu tacewa amo"
+  },
+  "productSections": {
+    "keyFeatures": "Muhimman Siffofi:",
+    "specifications": "Ƙayyadadden bayanai",
+    "applications": "Amfani",
+    "industries": "Masana'antu",
+    "needSurgeProtection": "Kuna buƙatar Kariyar Rarrafe?",
+    "needSolarInverterSolutions": "Kuna buƙatar Hanyoyin Inverter na Rana?",
+    "needSolarChargeControl": "Kuna buƙatar Sarrafa Cajin Rana?",
+    "surgeProtectionDescription": "Masana mu na kariya za su iya tsara cikakkun tsarin kariya na rarrafe don shigarwa.",
+    "solarInverterDescription": "Injiniyoyin mu na makamashin rana za su iya tsara mafi kyawun tsarin inverter don shigarwar ku ta rana.",
+    "solarChargeDescription": "Masana mu na makamashin rana za su iya taimaka muku zaɓar daidaitaccen mai sarrafa caji don tsarin baturin ku.",
+    "energyStorageDescription": "Masana mu na adana makamashi za su iya tsara mafi kyawun tsarin baturi don shigarwar ku ta rana."
   },
   "badges": {
     "energyEfficient": "Mai cin kadan makamashi",

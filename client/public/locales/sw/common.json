@@ -42,7 +42,22 @@
     "upload": "Pakia",
     "expertTeam": "Timu ya wataalamu",
     "successfulProjects": "Miradi iliyofanikiwa",
-    "qualityProducts": "Bidhaa za ubora"
+    "qualityProducts": "Bidhaa za ubora",
+    "contactProtectionExperts": "Wasiliana na Wataalamu wa Ulinzi",
+    "contactSolarExperts": "Wasiliana na Wataalamu wa Nishati ya Jua"
+  },
+  "productSections": {
+    "keyFeatures": "Vipengele Vikuu:",
+    "specifications": "Vipimo",
+    "applications": "Matumizi",
+    "industries": "Tasnia",
+    "needSurgeProtection": "Unahitaji Ulinzi wa Mshtuko?",
+    "needSolarInverterSolutions": "Unahitaji Suluhisho la Inverter za Jua?",
+    "needSolarChargeControl": "Unahitaji Udhibiti wa Malipo ya Jua?",
+    "surgeProtectionDescription": "Wataalamu wetu wa ulinzi wanaweza kubuni mifumo kamili ya ulinzi wa mshtuko kwa kifaa chako.",
+    "solarInverterDescription": "Wahandisi wetu wa nishati ya jua wanaweza kubuni mfumo bora wa inverter kwa usakinishaji wako wa jua.",
+    "solarChargeDescription": "Wataalamu wetu wa nishati ya jua wanaweza kukusaidia kuchagua kidhibiti cha malipo kinachofaa kwa mfumo wako wa betri.",
+    "energyStorageDescription": "Wataalamu wetu wa uhifadhi wa nishati wanaweza kubuni mfumo bora wa betri kwa usakinishaji wako wa jua."
   },
   "loading": "Inapakia...",
   "error": "Kitu kimekwenda vibaya",
@@ -55,7 +70,9 @@
     "error": "Hitilafu imetokea"
   },
   "navigation": {
-    "backToInstrumentationComponents": "Rudi kwa Vipengele vya Instrumentation"
+    "backToInstrumentationComponents": "Rudi kwa Vipengele vya Instrumentation",
+    "phoneNumbers": "Nambari za simu",
+    "backToSafetyDevices": "Rudi kwa Vifaa vya Usalama na Ulinzi"
   },
   "aria": {
     "toggleNavigation": "Geuza msaidizi wa uongozaji",

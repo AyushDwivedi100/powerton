@@ -70,9 +70,18 @@
     "ISO": "ISO (Organización Internacional de Normalización)",
     "IEEE": "IEEE (Instituto de Ingenieros Eléctricos y Electrónicos)"
   },
+  "navigation": {
+    "backToInstrumentationComponents": "Volver a Componentes de Instrumentación",
+    "phoneNumbers": "Números de teléfono",
+    "backToSafetyDevices": "Volver a Dispositivos de Seguridad y Protección"
+  },
   "buttons": {
     "learnMore": "Saber más",
     "getQuote": "Obtener cotización",
+    "contactUs": "Contáctanos",
+    "contactProtectionExperts": "Contactar Expertos en Protección",
+    "contactSolarExperts": "Contactar Expertos Solares",
+    "requestQuote": "Solicitar cotización",
     "contact": "Contáctanos",
     "contactUs": "Contáctanos",
     "viewAll": "Ver todo",
@@ -206,6 +215,19 @@
     "signalConverters": "Convertidores de señal",
     "measuringTransducers": "Transductores de medición",
     "noiseFilters": "Filtros de ruido"
+  },
+  "productSections": {
+    "keyFeatures": "Características principales:",
+    "specifications": "Especificaciones",
+    "applications": "Aplicaciones",
+    "industries": "Industrias",
+    "needSurgeProtection": "¿Necesita protección contra sobretensiones?",
+    "needSolarInverterSolutions": "¿Necesita soluciones de inversores solares?",
+    "needSolarChargeControl": "¿Necesita control de carga solar?",
+    "surgeProtectionDescription": "Nuestros especialistas en protección pueden diseñar sistemas integrales de protección contra sobretensiones para su instalación.",
+    "solarInverterDescription": "Nuestros ingenieros solares pueden diseñar el sistema de inversor óptimo para su instalación solar.",
+    "solarChargeDescription": "Nuestros especialistas solares pueden ayudarle a seleccionar el controlador de carga adecuado para su sistema de batería.",
+    "energyStorageDescription": "Nuestros expertos en almacenamiento de energía pueden diseñar el sistema de batería óptimo para su instalación solar."
   },
   "seo": {
     "days": {

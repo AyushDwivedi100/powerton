@@ -70,9 +70,18 @@
     "ISO": "ISO（国际标准化组织）",
     "IEEE": "IEEE（电气电子工程师学会）"
   },
+  "navigation": {
+    "backToInstrumentationComponents": "返回仪器组件",
+    "phoneNumbers": "电话号码",
+    "backToSafetyDevices": "返回安全和保护设备"
+  },
   "buttons": {
     "learnMore": "了解更多",
     "getQuote": "获取报价",
+    "contactUs": "联系我们",
+    "contactProtectionExperts": "联系保护专家",
+    "contactSolarExperts": "联系太阳能专家",
+    "requestQuote": "请求报价",
     "contact": "联系我们",
     "contactUs": "联系我们",
     "viewAll": "查看全部",
@@ -209,6 +218,19 @@
     "signalConverters": "信号转换器",
     "measuringTransducers": "测量传感器",
     "noiseFilters": "噪声滤波器"
+  },
+  "productSections": {
+    "keyFeatures": "主要特征:",
+    "specifications": "规格",
+    "applications": "应用",
+    "industries": "行业",
+    "needSurgeProtection": "需要浪涌保护？",
+    "needSolarInverterSolutions": "需要太阳能逆变器解决方案？",
+    "needSolarChargeControl": "需要太阳能充电控制？",
+    "surgeProtectionDescription": "我们的保护专家可以为您的设施设计全面的浪涌保护系统。",
+    "solarInverterDescription": "我们的太阳能工程师可以为您的太阳能安装设计最佳逆变器系统。",
+    "solarChargeDescription": "我们的太阳能专家可以帮助您为电池系统选择合适的充电控制器。",
+    "energyStorageDescription": "我们的储能专家可以为您的太阳能安装设计最佳电池系统。"
   },
   "seo": {
     "days": {

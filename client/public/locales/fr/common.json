@@ -42,7 +42,22 @@
     "upload": "Téléverser",
     "expertTeam": "Équipe d'experts",
     "successfulProjects": "Projets réussis",
-    "qualityProducts": "Produits de qualité"
+    "qualityProducts": "Produits de qualité",
+    "contactProtectionExperts": "Contacter les Experts en Protection",
+    "contactSolarExperts": "Contacter les Experts Solaires"
+  },
+  "productSections": {
+    "keyFeatures": "Caractéristiques principales:",
+    "specifications": "Spécifications",
+    "applications": "Applications",
+    "industries": "Industries",
+    "needSurgeProtection": "Besoin de protection contre les surtensions?",
+    "needSolarInverterSolutions": "Besoin de solutions d'onduleurs solaires?",
+    "needSolarChargeControl": "Besoin de contrôle de charge solaire?",
+    "surgeProtectionDescription": "Nos spécialistes en protection peuvent concevoir des systèmes complets de protection contre les surtensions pour votre installation.",
+    "solarInverterDescription": "Nos ingénieurs solaires peuvent concevoir le système d'onduleur optimal pour votre installation solaire.",
+    "solarChargeDescription": "Nos spécialistes solaires peuvent vous aider à sélectionner le bon contrôleur de charge pour votre système de batterie.",
+    "energyStorageDescription": "Nos experts en stockage d'énergie peuvent concevoir le système de batterie optimal pour votre installation solaire."
   },
   "loading": "Chargement...",
   "error": "Quelque chose s'est mal passé",
@@ -55,7 +70,9 @@
     "error": "Une erreur s'est produite"
   },
   "navigation": {
-    "backToInstrumentationComponents": "Retour aux Composants d'Instrumentation"
+    "backToInstrumentationComponents": "Retour aux Composants d'Instrumentation",
+    "phoneNumbers": "Numéros de téléphone",
+    "backToSafetyDevices": "Retour aux Dispositifs de Sécurité et de Protection"
   },
   "aria": {
     "toggleNavigation": "Basculer l'assistant de navigation",

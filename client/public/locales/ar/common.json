@@ -42,7 +42,22 @@
     "upload": "رفع",
     "expertTeam": "فريق خبراء",
     "successfulProjects": "مشاريع ناجحة",
-    "qualityProducts": "منتجات عالية الجودة"
+    "qualityProducts": "منتجات عالية الجودة",
+    "contactProtectionExperts": "اتصل بخبراء الحماية",
+    "contactSolarExperts": "اتصل بخبراء الطاقة الشمسية"
+  },
+  "productSections": {
+    "keyFeatures": "الميزات الرئيسية:",
+    "specifications": "المواصفات",
+    "applications": "التطبيقات",
+    "industries": "الصناعات",
+    "needSurgeProtection": "هل تحتاج إلى حماية ضد التيار الزائد؟",
+    "needSolarInverterSolutions": "هل تحتاج إلى حلول محولات الطاقة الشمسية؟",
+    "needSolarChargeControl": "هل تحتاج إلى تحكم في شحن الطاقة الشمسية؟",
+    "surgeProtectionDescription": "يمكن لمتخصصي الحماية لدينا تصميم أنظمة حماية شاملة ضد التيار الزائد لمنشأتك.",
+    "solarInverterDescription": "يمكن لمهندسي الطاقة الشمسية لدينا تصميم نظام المحول الأمثل لمنشأتك الشمسية.",
+    "solarChargeDescription": "يمكن لمتخصصي الطاقة الشمسية لدينا مساعدتك في اختيار متحكم الشحن المناسب لنظام البطارية الخاص بك.",
+    "energyStorageDescription": "يمكن لخبراء تخزين الطاقة لدينا تصميم نظام البطارية الأمثل لمنشأتك الشمسية."
   },
   "altTexts": {
     "companyLogo": "شعار شركة باورتون للهندسة المحدودة - شركة هندسة الأتمتة الصناعية والكهرباء"
@@ -58,7 +73,9 @@
     "error": "حدث خطأ"
   },
   "navigation": {
-    "backToInstrumentationComponents": "العودة إلى مكونات الأجهزة"
+    "backToInstrumentationComponents": "العودة إلى مكونات الأجهزة",
+    "phoneNumbers": "أرقام الهاتف",
+    "backToSafetyDevices": "العودة إلى أجهزة الأمان والحماية"
   },
   "aria": {
     "toggleNavigation": "تبديل مساعد التنقل",

@@ -42,7 +42,22 @@
     "upload": "Enviar",
     "expertTeam": "Equipe de especialistas",
     "successfulProjects": "Projetos bem-sucedidos",
-    "qualityProducts": "Produtos de qualidade"
+    "qualityProducts": "Produtos de qualidade",
+    "contactProtectionExperts": "Contatar Especialistas em Proteção",
+    "contactSolarExperts": "Contatar Especialistas Solares"
+  },
+  "productSections": {
+    "keyFeatures": "Principais características:",
+    "specifications": "Especificações",
+    "applications": "Aplicações",
+    "industries": "Indústrias",
+    "needSurgeProtection": "Precisa de proteção contra surtos?",
+    "needSolarInverterSolutions": "Precisa de soluções de inversores solares?",
+    "needSolarChargeControl": "Precisa de controle de carga solar?",
+    "surgeProtectionDescription": "Nossos especialistas em proteção podem projetar sistemas abrangentes de proteção contra surtos para sua instalação.",
+    "solarInverterDescription": "Nossos engenheiros solares podem projetar o sistema de inversor ideal para sua instalação solar.",
+    "solarChargeDescription": "Nossos especialistas solares podem ajudá-lo a selecionar o controlador de carga adequado para seu sistema de bateria.",
+    "energyStorageDescription": "Nossos especialistas em armazenamento de energia podem projetar o sistema de bateria ideal para sua instalação solar."
   },
   "loading": "Carregando...",
   "error": "Algo deu errado",
@@ -55,7 +70,9 @@
     "error": "Ocorreu um erro"
   },
   "navigation": {
-    "backToInstrumentationComponents": "Voltar aos Componentes de Instrumentação"
+    "backToInstrumentationComponents": "Voltar aos Componentes de Instrumentação",
+    "phoneNumbers": "Números de telefone",
+    "backToSafetyDevices": "Voltar aos Dispositivos de Segurança e Proteção"
   },
   "aria": {
     "toggleNavigation": "Alternar assistente de navegação",
