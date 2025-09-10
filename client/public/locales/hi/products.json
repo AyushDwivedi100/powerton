@@ -75,6 +75,162 @@
       "description": "औद्योगिक वाल्व और प्रवाह नियंत्रण प्रणाली"
     },
     "analyzers": {
+      "title": "विश्लेषक और प्रक्रिया एनालाइज़र",
+      "description": "औद्योगिक प्रक्रिया विश्लेषण और गुणवत्ता मॉनिटरिंग उपकरण"
+    },
+    "signal-conditioners": {
+      "title": "सिग्नल कंडीशनर",
+      "description": "सिग्नल प्रोसेसिंग और कंडीशनिंग उपकरण"
+    },
+    "cables-wires": {
+      "title": "केबल और तार",
+      "description": "औद्योगिक केबल और वायरिंग समाधान"
+    },
+    "connectors-terminals": {
+      "title": "कनेक्टर और टर्मिनल",
+      "description": "विद्युत कनेक्शन और टर्मिनेशन उपकरण"
+    },
+    "circuit-breakers-fuses": {
+      "title": "सर्किट ब्रेकर और फ्यूज",
+      "description": "विद्युत सुरक्षा और सर्किट संरक्षण उपकरण"
+    },
+    "power-supplies": {
+      "title": "पावर सप्लाई",
+      "description": "औद्योगिक पावर सप्लाई और DC/DC कन्वर्टर"
+    },
+    "enclosures-cabinets": {
+      "title": "एनक्लोज़र और कैबिनेट",
+      "description": "विद्युत एनक्लोज़र और नियंत्रण कैबिनेट"
+    },
+    "heating-elements-appliances": {
+      "title": "हीटिंग एलिमेंट्स और उपकरण",
+      "description": "औद्योगिक हीटिंग सिस्टम और तापमान नियंत्रण"
+    },
+    "multimeters": {
+      "title": "मल्टीमीटर",
+      "description": "डिजिटल और एनालॉग मल्टीमीटर"
+    },
+    "oscilloscopes": {
+      "title": "ऑसिलोस्कोप",
+      "description": "सिग्नल एनालिसिस और ऑसिलोस्कोप उपकरण"
+    },
+    "spectrum-analyzers": {
+      "title": "स्पेक्ट्रम एनालाइज़र",
+      "description": "RF और स्पेक्ट्रम विश्लेषण उपकरण"
+    },
+    "power-quality-analyzers": {
+      "title": "पावर क्वालिटी एनालाइज़र",
+      "description": "विद्युत गुणवत्ता मापन और विश्लेषण उपकरण"
+    },
+    "calibration-equipment": {
+      "title": "कैलिब्रेशन उपकरण",
+      "description": "सटीकता कैलिब्रेशन और मापन मानक उपकरण"
+    },
+    "solar-panels": {
+      "title": "सोलर पैनल",
+      "description": "फोटोवोल्टाइक सोलर पैनल और मॉड्यूल"
+    },
+    "solar-inverters": {
+      "title": "सोलर इन्वर्टर",
+      "description": "DC से AC पावर कन्वर्टर सोलर इन्वर्टर"
+    },
+    "mounting-structures-racking": {
+      "title": "माउंटिंग स्ट्रक्चर और रैकिंग",
+      "description": "सोलर पैनल माउंटिंग सिस्टम"
+    },
+    "solar-charge-controllers": {
+      "title": "सोलर चार्ज कंट्रोलर",
+      "description": "बैटरी चार्जिंग कंट्रोल सिस्टम"
+    },
+    "solar-batteries-energy-storage": {
+      "title": "सोलर बैटरी और एनर्जी स्टोरेज",
+      "description": "ऊर्जा भंडारण बैटरी सिस्टम"
+    },
+    "plcs": {
+      "title": "पीएलसी (प्रोग्रामेबल लॉजिक कंट्रोलर)",
+      "description": "औद्योगिक प्रोग्रामेबल लॉजिक कंट्रोलर"
+    },
+    "scada": {
+      "title": "स्काडा (पर्यवेक्षी नियंत्रण एवं डेटा अधिग्रहण)",
+      "description": "SCADA सिस्टम और सॉफ्टवेयर समाधान"
+    },
+    "dcs": {
+      "title": "डीसीएस (वितरित नियंत्रण प्रणाली)",
+      "description": "वितरित नियंत्रण सिस्टम और प्रक्रिया नियंत्रण"
+    },
+    "hmi": {
+      "title": "एचएमआई (मानव-मशीन अंतरापृष्ठ)",
+      "description": "ऑपरेटर इंटरफेस और मानव-मशीन इंटरफेस"
+    },
+    "surge-protectors": {
+      "title": "सर्ज प्रोटेक्टर",
+      "description": "वोल्टेज सर्ज संरक्षण उपकरण"
+    },
+    "grounding-systems": {
+      "title": "ग्राउंडिंग सिस्टम",
+      "description": "विद्युत ग्राउंडिंग और अर्थिंग सिस्टम"
+    },
+    "safety-relays-switches": {
+      "title": "सेफ्टी रिले और स्विच",
+      "description": "सुरक्षा रिले और इमरजेंसी स्टॉप डिवाइस"
+    },
+    "intrinsically-safe-equipment": {
+      "title": "इंट्रिंसिकली सेफ उपकरण",
+      "description": "खतरनाक वातावरण के लिए सुरक्षित उपकरण"
+    },
+    "centrifugal-pumps": {
+      "title": "सेंट्रिफ्यूगल पंप",
+      "description": "केन्द्रापसारक पंप और मोटर सिस्टम"
+    },
+    "diaphragm-pumps": {
+      "title": "डायाफ्राम पंप",
+      "description": "मेम्ब्रेन पंप और रसायन हैंडलिंग पंप"
+    },
+    "gear-pumps": {
+      "title": "गियर पंप",
+      "description": "पॉजिटिव डिस्प्लेसमेंट गियर पंप"
+    },
+    "pump-parts-spares": {
+      "title": "पंप पार्ट्स और स्पेयर पार्ट्स",
+      "description": "पंप रिप्लेसमेंट पार्ट्स और मेंटेनेंस किट"
+    },
+    "hand-tools": {
+      "title": "हैंड टूल्स",
+      "description": "मैनुअल टूल्स और हैंड इंस्ट्रूमेंट्स"
+    },
+    "power-tools": {
+      "title": "पावर टूल्स",
+      "description": "इलेक्ट्रिक और न्यूमेटिक पावर टूल्स"
+    },
+    "cutting-tools": {
+      "title": "कटिंग टूल्स",
+      "description": "मेटल कटिंग और मशीनिंग टूल्स"
+    },
+    "lifting-equipment": {
+      "title": "लिफ्टिंग उपकरण",
+      "description": "क्रेन, होइस्ट और मैटेरियल हैंडलिंग उपकरण"
+    },
+    "safety-equipment": {
+      "title": "सेफ्टी उपकरण",
+      "description": "पर्सनल प्रोटेक्टिव इक्विपमेंट और सुरक्षा गियर"
+    },
+    "bldc-cooler-exhaust-motor": {
+      "title": "BLDC कूलर एग्जॉस्ट मोटर",
+      "description": "ब्रशलेस DC कूलर और एग्जॉस्ट फैन मोटर"
+    },
+    "bldc-ceiling-fan": {
+      "title": "BLDC सीलिंग फैन",
+      "description": "एनर्जी एफिशिएंट ब्रशलेस सीलिंग फैन"
+    },
+    "bldc-submersible-surface-pump": {
+      "title": "BLDC सबमर्सिबल सरफेस पंप",
+      "description": "ब्रशलेस DC वाटर पंप सिस्टम"
+    },
+    "bldc-table-fan-wall-fan-motor": {
+      "title": "BLDC टेबल फैन वॉल फैन मोटर",
+      "description": "ब्रशलेस DC टेबल और वॉल फैन मोटर"
+    },
+    "analyzers": {
       "title": "विश्लेषक",
       "description": "गुणवत्ता नियंत्रण के लिए प्रक्रिया विश्लेषक"
     },
