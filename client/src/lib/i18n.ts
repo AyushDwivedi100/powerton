@@ -125,7 +125,7 @@ const initConfig = {
     saveMissing: false,
     
     // Disable parsing missing key handler to prevent fallback
-    parseMissingKeyHandler: false,
+    parseMissingKeyHandler: undefined,
 
     // Resources loading strategy
     partialBundledLanguages: true
