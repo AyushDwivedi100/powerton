@@ -21,6 +21,55 @@
     "sw": "Kiswahili",
     "ha": "Hausa"
   },
+  "testimonials": {
+    "anand": {
+      "name": "Anand Awasthi",
+      "location": "Bengala Occidental",
+      "comment": "Powerton Engineering hizo que el proceso de adoptar energía solar fuera fluido y fácil. Su equipo se encargó de todo de principio a fin, y estamos encantados con los resultados."
+    },
+    "sanjay": {
+      "name": "Sanjay Patil",
+      "location": "Uttar Pradesh",
+      "comment": "Me alegro de haber elegido Powerton Engineering para nuestra instalación, y no dudaría en recomendarlos a cualquiera de mis amigos."
+    },
+    "rhea": {
+      "name": "Rhea Sharma",
+      "location": "Maharashtra",
+      "comment": "Productos de excelente calidad y servicio al cliente excepcional. La experiencia técnica del equipo es impresionante y altamente profesional."
+    },
+    "priya": {
+      "name": "Priya Mehta",
+      "location": "Gujarat",
+      "comment": "Trabajar con Powerton Engineering fue una experiencia fantástica. Sus soluciones de automatización transformaron nuestro proceso de fabricación y mejoraron la eficiencia en un 35%. Altamente recomendado para proyectos de automatización industrial."
+    },
+    "kavya": {
+      "name": "Kavya Singh",
+      "location": "Karnataka",
+      "comment": "¡Servicio excepcional y soporte técnico! El equipo proporcionó orientación excepcional durante la implementación de nuestro proyecto solar. Su enfoque profesional y entrega oportuna superó completamente nuestras expectativas."
+    },
+    "rajesh": {
+      "name": "Rajesh Kumar",
+      "location": "Tamil Nadu",
+      "comment": "Powerton Engineering entregó exactamente lo que prometieron. El sistema de instrumentación que instalaron ha estado funcionando perfectamente durante más de dos años. Su soporte postventa es notable y siempre receptivo."
+    }
+  },
+  "technicalTerms": {
+    "BLDC": "BLDC (Motor de Corriente Continua Sin Escobillas)",
+    "PLC": "PLC (Controlador Lógico Programable)",
+    "SCADA": "SCADA (Supervisión y Adquisición de Datos)",
+    "HMI": "HMI (Interfaz Humano-Máquina)",
+    "DCS": "DCS (Sistema de Control Distribuido)",
+    "VFD": "VFD (Variador de Frecuencia)",
+    "MCC": "MCC (Centro de Control de Motores)",
+    "PCC": "PCC (Centro de Control de Potencia)",
+    "RTU": "RTU (Unidad Terminal Remota)",
+    "IED": "IED (Dispositivo Electrónico Inteligente)",
+    "NABL": "NABL (Junta Nacional de Acreditación de Laboratorios)",
+    "MNRE": "MNRE (Ministerio de Energía Nueva y Renovable)",
+    "CPRI": "CPRI (Instituto Central de Investigación de Energía)",
+    "ISO": "ISO (Organización Internacional de Normalización)",
+    "IEEE": "IEEE (Instituto de Ingenieros Eléctricos y Electrónicos)"
+  },
   "buttons": {
     "learnMore": "Saber más",
     "getQuote": "Obtener cotización",

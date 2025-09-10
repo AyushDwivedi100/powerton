@@ -253,7 +253,7 @@ export default function ClientsSection() {
 
           {/* Pagination Dots */}
           <div className="flex justify-center mt-8 space-x-2">
-            {TESTIMONIALS.map((_, index) => (
+            {testimonials.map((_, index) => (
               <button
                 key={index}
                 onClick={() => {

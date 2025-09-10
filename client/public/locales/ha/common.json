@@ -21,6 +21,55 @@
     "sw": "Kiswahili",
     "ha": "Hausa"
   },
+  "testimonials": {
+    "anand": {
+      "name": "Anand Awasthi",
+      "location": "Yammacin Bengal",
+      "comment": "Powerton Engineering ya sa tsarin samun makamashin hasken rana ya zama sauƙi kuma mai sauƙi. Ƙungiyarsu ta kula da komai daga farawa zuwa ƙarshe, kuma muna farin ciki da sakamakon."
+    },
+    "sanjay": {
+      "name": "Sanjay Patil",
+      "location": "Uttar Pradesh",
+      "comment": "Na yi murna da zaɓar Powerton Engineering don shigarwa, kuma ba zan yi shakka ba in ba da shawarar ga kowane abokina."
+    },
+    "rhea": {
+      "name": "Rhea Sharma",
+      "location": "Maharashtra",
+      "comment": "Kayayyaki masu inganci da sabis na abokan ciniki na musamman. Ƙwarewar fasaha ta ƙungiyar tana da ban sha'awa kuma ƙwararru sosai."
+    },
+    "priya": {
+      "name": "Priya Mehta",
+      "location": "Gujarat",
+      "comment": "Yin aiki da Powerton Engineering ya kasance ƙwarewa mai ban mamaki. Hanyoyin sarrafa su sun canza tsarin masana'antuninmu kuma sun inganta ƙarfi da kashi 35. Ana ba da shawarar sosai don ayyukan sarrafa masana'antu."
+    },
+    "kavya": {
+      "name": "Kavya Singh",
+      "location": "Karnataka",
+      "comment": "Sabis na musamman da tallafin fasaha! Ƙungiyar ta ba da jagorarwa ta musamman a lokacin aiwatar da aikinmu na hasken rana. Tsarin ƙwararrsu da isar da kaya a lokaci ya zarce tsammaninmu gaba ɗaya."
+    },
+    "rajesh": {
+      "name": "Rajesh Kumar",
+      "location": "Tamil Nadu",
+      "comment": "Powerton Engineering ta ba da ainihin abin da suka yi alkawari. Tsarin kayan aikin da suka shigar ya kasance yana aiki ba tare da wata matsala ba sama da shekaru biyu. Tallafin su bayan siyarwa yana da ban mamaki kuma yana amsawa koyaushe."
+    }
+  },
+  "technicalTerms": {
+    "BLDC": "BLDC (Injunan DC Marasa Brush)",
+    "PLC": "PLC (Sarrafa Dabam na Shirye-shirye)",
+    "SCADA": "SCADA (Sarrafa da Tattara Bayanai na Zuriya)",
+    "HMI": "HMI (Hanyar Sadarwa tsakanin Mutum da Na'ura)",
+    "DCS": "DCS (Tsarin Sarrafa da aka Rarraba)",
+    "VFD": "VFD (Mai Gudanar da Mitar Variable)",
+    "MCC": "MCC (Cibiyar Sarrafa Motar)",
+    "PCC": "PCC (Cibiyar Sarrafa Wuta)",
+    "RTU": "RTU (Sassan Sarrafa Nesa)",
+    "IED": "IED (Na'urorin Lantarki na Filin)",
+    "NABL": "NABL (Hukumar Dakunan Gwaji ta Ƙasa)",
+    "MNRE": "MNRE (Ma'aikatar Makamashi Mai Sabuntawa)",
+    "CPRI": "CPRI (Cibiyar Bincike ta Wutar Lantarki)",
+    "ISO": "ISO (Ƙungiyar Ma'auni ta Duniya)",
+    "IEEE": "IEEE (Ƙungiyar Injiniyoyin Lantarki da Elektroniki)"
+  },
   "buttons": {
     "learnMore": "Koyi ƙari",
     "getQuote": "Sami farashin",
