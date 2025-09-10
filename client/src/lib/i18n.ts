@@ -21,18 +21,20 @@ i18n
   .use(LanguageDetector)
   .use(initReactI18next)
   .init({
-    fallbackLng: false, // No fallback language - show keys when missing
-    lng: 'zh', // Set Chinese as default to avoid English loading
+    fallbackLng: 'en', // Fallback to English when browser language is not supported
+    lng: undefined, // Let detection determine the language automatically
     debug: import.meta.env.DEV, // Console logging only in development
     
-    // Supported languages - Chinese first, no English prioritization
-    supportedLngs: ['zh', 'hi', 'es', 'ar', 'fr', 'pt', 'ru', 'sw', 'ha', 'en'],
+    // Supported languages - all available languages
+    supportedLngs: ['en', 'hi', 'zh', 'es', 'ar', 'fr', 'pt', 'ru', 'sw', 'ha'],
     
-    // Language detection options - prioritize localStorage
+    // Language detection options - prioritize browser language detection
     detection: {
-      order: ['localStorage', 'navigator', 'htmlTag'],
+      order: ['navigator', 'localStorage', 'htmlTag', 'path', 'subdomain'],
       caches: ['localStorage'],
-      lookupLocalStorage: 'i18nextLng'
+      lookupLocalStorage: 'i18nextLng',
+      checkWhitelist: true, // Only use supported languages
+      excludeCacheFor: ['cimode'] // Don't cache dev mode
     },
 
     // Backend configuration for loading translations
