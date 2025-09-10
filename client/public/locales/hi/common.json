@@ -24,6 +24,18 @@
   "navigation": {
     "backToInstrumentationComponents": "इंस्ट्रूमेंटेशन कंपोनेंट्स पर वापस जाएं"
   },
+  "buttons": {
+    "getQuote": "कोटेशन प्राप्त करें",
+    "contactUs": "संपर्क करें",
+    "learnMore": "और जानें",
+    "viewAll": "सभी देखें",
+    "readMore": "और पढ़ें",
+    "downloadBrochure": "ब्रोशर डाउनलोड करें",
+    "requestDemo": "डेमो का अनुरोध करें",
+    "getTechnicalSupport": "तकनीकी सहायता प्राप्त करें",
+    "exploreProducts": "उत्पादों का अन्वेषण करें",
+    "viewServices": "सेवाएं देखें"
+  },
   "messages": {
     "close": "बंद करें",
     "imageNotFound": "छवि नहीं मिली",

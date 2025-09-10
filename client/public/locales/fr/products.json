@@ -509,6 +509,154 @@
     "signal-conditioners": {
       "title": "Conditionneurs de signal",
       "description": "Équipements de traitement et conditionnement de signal"
+    },
+    "cables-wires": {
+      "title": "Câbles et Fils",
+      "description": "Solutions de câblage et fils industriels"
+    },
+    "connectors-terminals": {
+      "title": "Connecteurs et Bornes",
+      "description": "Solutions de connecteurs électriques et bornes"
+    },
+    "circuit-breakers-fuses": {
+      "title": "Disjoncteurs et Fusibles",
+      "description": "Dispositifs de protection électrique pour la sécurité des circuits"
+    },
+    "power-supplies": {
+      "title": "Alimentations",
+      "description": "Unités d'alimentation et convertisseurs industriels"
+    },
+    "enclosures-cabinets": {
+      "title": "Boîtiers et Armoires",
+      "description": "Solutions d'armoires de contrôle et boîtiers électriques"
+    },
+    "heating-elements-appliances": {
+      "title": "Éléments Chauffants et Appareils",
+      "description": "Solutions de chauffage industriel et équipements thermiques"
+    },
+    "multimeters": {
+      "title": "Multimètres",
+      "description": "Multimètres numériques et analogiques pour tests électriques"
+    },
+    "oscilloscopes": {
+      "title": "Oscilloscopes",
+      "description": "Oscilloscopes numériques pour analyse et test de signaux"
+    },
+    "spectrum-analyzers": {
+      "title": "Analyseurs de Spectre",
+      "description": "Équipements d'analyse de spectre RF et micro-ondes"
+    },
+    "power-quality-analyzers": {
+      "title": "Analyseurs de Qualité de Puissance",
+      "description": "Instruments de mesure et d'analyse de la qualité de puissance"
+    },
+    "calibration-equipment": {
+      "title": "Équipements d'Étalonnage",
+      "description": "Instruments d'étalonnage de précision et équipements de test"
+    },
+    "solar-panels": {
+      "title": "Panneaux Solaires",
+      "description": "Panneaux solaires haute efficacité et systèmes photovoltaïques"
+    },
+    "solar-inverters": {
+      "title": "Onduleurs Solaires",
+      "description": "Onduleurs d'énergie solaire et systèmes connectés au réseau"
+    },
+    "mounting-structures-racking": {
+      "title": "Structures de Montage et Systèmes de Rayonnage",
+      "description": "Solutions de montage structurel pour installations solaires"
+    },
+    "solar-charge-controllers": {
+      "title": "Régulateurs de Charge Solaire",
+      "description": "Régulateurs de charge solaire et gestion de puissance"
+    },
+    "solar-batteries-energy-storage": {
+      "title": "Batteries Solaires et Systèmes de Stockage d'Énergie",
+      "description": "Solutions de stockage d'énergie pour systèmes d'énergie solaire"
+    },
+    "plcs": {
+      "title": "Automates Programmables",
+      "description": "Contrôleurs logiques programmables pour l'automatisation industrielle"
+    },
+    "scada": {
+      "title": "SCADA",
+      "description": "Systèmes de contrôle de supervision et d'acquisition de données"
+    },
+    "dcs": {
+      "title": "Systèmes de Contrôle Distribué",
+      "description": "Systèmes de contrôle distribué pour l'automatisation de processus"
+    },
+    "hmi": {
+      "title": "Interface Homme-Machine",
+      "description": "Systèmes d'interface homme-machine pour contrôle opérateur"
+    },
+    "surge-protectors": {
+      "title": "Parasurtenseurs",
+      "description": "Dispositifs et systèmes de protection contre les surtensions électriques"
+    },
+    "grounding-systems": {
+      "title": "Systèmes de Mise à la Terre",
+      "description": "Solutions de mise à la terre et de mise à la terre électrique pour la sécurité"
+    },
+    "safety-relays-switches": {
+      "title": "Relais et Commutateurs de Sécurité",
+      "description": "Relais de contrôle de sécurité et systèmes d'arrêt d'urgence"
+    },
+    "intrinsically-safe-equipment": {
+      "title": "Équipements de Sécurité Intrinsèque",
+      "description": "Équipements certifiés pour applications en zones dangereuses"
+    },
+    "centrifugal-pumps": {
+      "title": "Pompes Centrifuges",
+      "description": "Pompes centrifuges haute efficacité pour applications industrielles"
+    },
+    "diaphragm-pumps": {
+      "title": "Pompes à Membrane",
+      "description": "Pompes de dosage précis et de manipulation de produits chimiques"
+    },
+    "gear-pumps": {
+      "title": "Pompes à Engrenages",
+      "description": "Pompes à engrenages de précision pour applications hydrauliques et industrielles"
+    },
+    "pump-parts-spares": {
+      "title": "Pièces et Rechanges de Pompes",
+      "description": "Pièces de rechange et composants pour systèmes de pompes"
+    },
+    "hand-tools": {
+      "title": "Outils à Main",
+      "description": "Outils à main professionnels pour maintenance industrielle"
+    },
+    "power-tools": {
+      "title": "Outils Électriques",
+      "description": "Outils électriques et pneumatiques pour usage industriel"
+    },
+    "cutting-tools": {
+      "title": "Outils de Coupe",
+      "description": "Outils de coupe industriels et équipements d'usinage"
+    },
+    "lifting-equipment": {
+      "title": "Équipements de Levage",
+      "description": "Solutions de levage industriel et de manutention"
+    },
+    "safety-equipment": {
+      "title": "Équipements de Sécurité",
+      "description": "Équipements de protection individuelle et dispositifs de sécurité"
+    },
+    "bldc-cooler-exhaust-motor": {
+      "title": "Moteur BLDC Refroidisseur/Extraction",
+      "description": "Moteurs BLDC économes en énergie pour refroidissement et ventilation"
+    },
+    "bldc-ceiling-fan": {
+      "title": "Ventilateur de Plafond BLDC",
+      "description": "Ventilateurs de plafond haute efficacité avec technologie DC sans balais"
+    },
+    "bldc-submersible-surface-pump": {
+      "title": "Pompe de Surface Submersible BLDC",
+      "description": "Pompes BLDC alimentées par énergie solaire pour applications d'eau"
+    },
+    "bldc-table-fan-wall-fan-motor": {
+      "title": "Moteur de Ventilateur BLDC Table/Mural",
+      "description": "Moteurs BLDC compacts pour ventilateurs portables et muraux"
     }
   },
   "items": {

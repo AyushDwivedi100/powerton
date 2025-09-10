@@ -24,6 +24,18 @@
   "navigation": {
     "backToInstrumentationComponents": "Back to Instrumentation Components"
   },
+  "buttons": {
+    "getQuote": "Get Quote",
+    "contactUs": "Contact Us",
+    "learnMore": "Learn More",
+    "viewAll": "View All",
+    "readMore": "Read More",
+    "downloadBrochure": "Download Brochure",
+    "requestDemo": "Request Demo",
+    "getTechnicalSupport": "Get Technical Support",
+    "exploreProducts": "Explore Products",
+    "viewServices": "View Services"
+  },
   "messages": {
     "close": "Close",
     "imageNotFound": "Image not found",
