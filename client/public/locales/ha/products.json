@@ -1,26 +1,92 @@
 {
-  "title": "Our Products",
-  "subtitle": "Industrial Automation & Electrical Components",
+  "title": "Kayayyakinmu",
+  "subtitle": "Sarrafa Masana'antu da Kayan Lantarki",
   "categories": {
-    "automation": "Automation & Control",
-    "electrical": "Electrical Components",
-    "instrumentation": "Instrumentation",
-    "solar": "Solar Products",
-    "motors": "BLDC Motor Systems",
-    "pumps": "Pumps & Motors",
-    "safety": "Safety Equipment",
-    "tools": "Industrial Tools"
+    "automation": "Sarrafa da Gudanarwa",
+    "electrical": "Kayan Lantarki", 
+    "instrumentation": "Kayan Aiki",
+    "solar": "Kayayyakin Hasken Rana",
+    "motors": "Tsarin Injunan BLDC",
+    "pumps": "Famfuna da Injuna",
+    "safety": "Kayan Aminci",
+    "tools": "Kayan Aikin Masana'antu",
+    "instrumentation-components": {
+      "title": "Sassan Kayan Aiki",
+      "description": "Sassan daidaitattun kayan aiki don aunawa da sarrafa"
+    },
+    "electrical-components": {
+      "title": "Sassan Lantarki",
+      "description": "Cikakkun maganganun sassan lantarki don ayyukan masana'antu"
+    },
+    "measurement-instruments": {
+      "title": "Kayan Aikin Auna",
+      "description": "Kayan aikin auna da gwadawa masu daidaici"
+    },
+    "solar-products": {
+      "title": "Kayayyakin Hasken Rana",
+      "description": "Cikakkun maganganun makamashi na hasken rana da sassan"
+    },
+    "automation-control-systems": {
+      "title": "Tsarin Sarrafa Atomatik",
+      "description": "Ci gaban tsarin sarrafa atomatik don gudanar da ayyukan masana'antu"
+    },
+    "safety-protective-devices": {
+      "title": "Na'urorin Aminci da Kariya",
+      "description": "Tsarin amincin masana'antu da kayan kariya"
+    },
+    "mechanical-pumps-spares": {
+      "title": "Pamfunan Inji da Kayan Gyara",
+      "description": "Pamfunan inji da kayan gyara don ayyukan masana'antu"
+    },
+    "industrial-tools-tackles": {
+      "title": "Kayan Aiki da Kayan Masana'antu",
+      "description": "Manyan kayan aikin masana'antu da kayan ɗagawa"
+    },
+    "bldc": {
+      "title": "Kayayyakin BLDC",
+      "description": "Kayayyakin injunan DC marasa goga don ayyukan da ke adana makamashi"
+    }
+  },
+  "subcategories": {
+    "sensors": {
+      "title": "Na'urori Masu Gane",
+      "description": "Na'urori masu gane na masana'antu don aunawa da sarrafa"
+    },
+    "transmitters": {
+      "title": "Masu Watarwa",
+      "description": "Masu watarwar ayyuka da kayan canza sigina"
+    },
+    "controllers": {
+      "title": "Masu Sarrafa",
+      "description": "Tsarin sarrafa masana'antu da masu sarrafa atomatik"
+    },
+    "switches": {
+      "title": "Makulle",
+      "description": "Makullen masana'antu da na'urori masu sarrafa"
+    },
+    "valves": {
+      "title": "Bawuloli",
+      "description": "Bawulolin masana'antu da tsarin sarrafa gudana"
+    },
+    "analyzers": {
+      "title": "Masu Nazari",
+      "description": "Masu nazarin ayyuka don sarrafa inganci"
+    },
+    "signal-conditioners": {
+      "title": "Masu Gyaran Sigina",
+      "description": "Kayan sarrafa da gyaran sigina"
+    }
   },
   "filters": {
-    "all": "All",
-    "category": "Category", 
-    "industry": "Industry",
-    "status": "Status"
+    "all": "Duka",
+    "category": "Nau'i", 
+    "industry": "Masana'antu",
+    "status": "Matsayi"
   },
   "status": {
-    "available": "Available",
-    "outOfStock": "Out of Stock",
-    "discontinued": "Discontinued"
+    "available": "Ana Samunsa",
+    "outOfStock": "Babu a Ajiya",
+    "discontinued": "An Daina"
   },
   "items": {
     "solar-products": "Kayayyakin Hasken Rana",

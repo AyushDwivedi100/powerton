@@ -72,6 +72,80 @@
       "subtitle": "电气连接器和端子解决方案"
     }
   },
+  "categories": {
+    "instrumentation-components": {
+      "title": "仪表组件",
+      "description": "用于测量和控制的精密仪表组件",
+      "features": {
+        "pressure-transmitters": "压力变送器",
+        "temperature-sensors": "温度传感器",
+        "flow-meters": "流量计",
+        "level-indicators": "液位指示器"
+      }
+    },
+    "electrical-components": {
+      "title": "电气元件",
+      "description": "工业应用的全面电气元件解决方案"
+    },
+    "measurement-instruments": {
+      "title": "测量仪器",
+      "description": "精密测量和测试仪器"
+    },
+    "solar-products": {
+      "title": "太阳能产品",
+      "description": "完整的太阳能解决方案和组件"
+    },
+    "automation-control-systems": {
+      "title": "自动化控制系统",
+      "description": "用于工业操作的先进自动化和控制系统"
+    },
+    "safety-protective-devices": {
+      "title": "安全防护设备",
+      "description": "工业安全系统和防护设备"
+    },
+    "mechanical-pumps-spares": {
+      "title": "机械泵和备件",
+      "description": "工业应用的机械泵和备件"
+    },
+    "industrial-tools-tackles": {
+      "title": "工业工具和设备",
+      "description": "重型工业工具和起重设备"
+    },
+    "bldc": {
+      "title": "BLDC产品",
+      "description": "用于节能应用的无刷直流电机产品"
+    }
+  },
+  "subcategories": {
+    "sensors": {
+      "title": "传感器",
+      "description": "用于测量和控制的工业传感器"
+    },
+    "transmitters": {
+      "title": "变送器",
+      "description": "过程变送器和信号转换设备"
+    },
+    "controllers": {
+      "title": "控制器",
+      "description": "工业控制系统和自动化控制器"
+    },
+    "switches": {
+      "title": "开关",
+      "description": "工业开关和控制设备"
+    },
+    "valves": {
+      "title": "阀门",
+      "description": "工业阀门和流量控制系统"
+    },
+    "analyzers": {
+      "title": "分析仪",
+      "description": "用于质量控制的过程分析仪"
+    },
+    "signal-conditioners": {
+      "title": "信号调理器",
+      "description": "信号处理和调理设备"
+    }
+  },
   "items": {
     "instrumentation-components": "仪表组件",
     "electrical-components": "电气组件",

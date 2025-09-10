@@ -56,6 +56,80 @@
       "subtitle": "Mifumo ya usalama ya viwandani na vifaa vya kinga"
     }
   },
+  "categories": {
+    "instrumentation-components": {
+      "title": "Vipengele vya Vifaa vya Kipimo",
+      "description": "Vipengele vya usahihi vya vifaa vya kipimo na udhibiti",
+      "features": {
+        "pressure-transmitters": "Vituma Shinikizo",
+        "temperature-sensors": "Vihisi vya Joto",
+        "flow-meters": "Vipimo vya Mtiririko",
+        "level-indicators": "Viasibu vya Kiwango"
+      }
+    },
+    "electrical-components": {
+      "title": "Vipengele vya Umeme",
+      "description": "Suluhisho kamili za vipengele vya umeme kwa matumizi ya viwandani"
+    },
+    "measurement-instruments": {
+      "title": "Vifaa vya Kipimo",
+      "description": "Vifaa vya kipimo na uchunguzi wa usahihi"
+    },
+    "solar-products": {
+      "title": "Bidhaa za Jua",
+      "description": "Suluhisho kamili za nishati ya jua na vipengele"
+    },
+    "automation-control-systems": {
+      "title": "Mifumo ya Otomatiki na Udhibiti",
+      "description": "Mifumo ya hali ya juu ya otomatiki na udhibiti kwa shughuli za viwandani"
+    },
+    "safety-protective-devices": {
+      "title": "Vifaa vya Usalama na Kinga",
+      "description": "Mifumo ya usalama ya viwandani na vifaa vya kinga"
+    },
+    "mechanical-pumps-spares": {
+      "title": "Pampu za Kiufundi na Vipuri",
+      "description": "Pampu za kiufundi na vipuri kwa matumizi ya viwandani"
+    },
+    "industrial-tools-tackles": {
+      "title": "Zana za Viwandani na Vifaa",
+      "description": "Zana nzito za viwandani na vifaa vya kuinua"
+    },
+    "bldc": {
+      "title": "Bidhaa za BLDC",
+      "description": "Bidhaa za mitambo ya DC isiyo na brashi kwa matumizi yanayokoa nishati"
+    }
+  },
+  "subcategories": {
+    "sensors": {
+      "title": "Vihisi",
+      "description": "Vihisi vya viwandani kwa kipimo na udhibiti"
+    },
+    "transmitters": {
+      "title": "Vituma",
+      "description": "Vituma vya michakato na vifaa vya kubadilisha ishara"
+    },
+    "controllers": {
+      "title": "Vadhibiti",
+      "description": "Mifumo ya udhibiti wa viwandani na vadhibiti wa otomatiki"
+    },
+    "switches": {
+      "title": "Swichi",
+      "description": "Swichi za viwandani na vifaa vya udhibiti"
+    },
+    "valves": {
+      "title": "Valavu",
+      "description": "Valavu za viwandani na mifumo ya udhibiti wa mtiririko"
+    },
+    "analyzers": {
+      "title": "Vichambuzi",
+      "description": "Vichambuzi vya michakato kwa udhibiti wa ubora"
+    },
+    "signal-conditioners": {
+      "title": "Virekebisha Ishara",
+      "description": "Vifaa vya kusindika na kurekebisha ishara"
+    }
+  },
   "common": {
     "keyFeatures": "Vipengele Muhimu:",
     "needHelp": "Unahitaji Msaada?",

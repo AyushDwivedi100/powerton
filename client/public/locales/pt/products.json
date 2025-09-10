@@ -80,6 +80,80 @@
       "subtitle": "Sistemas de segurança industrial e equipamentos de proteção"
     }
   },
+  "categories": {
+    "instrumentation-components": {
+      "title": "Componentes de Instrumentação",
+      "description": "Componentes de precisão para medição e controle",
+      "features": {
+        "pressure-transmitters": "Transmissores de Pressão",
+        "temperature-sensors": "Sensores de Temperatura",
+        "flow-meters": "Medidores de Fluxo",
+        "level-indicators": "Indicadores de Nível"
+      }
+    },
+    "electrical-components": {
+      "title": "Componentes Elétricos",
+      "description": "Soluções completas de componentes elétricos para aplicações industriais"
+    },
+    "measurement-instruments": {
+      "title": "Instrumentos de Medição",
+      "description": "Instrumentos de medição e teste de precisão"
+    },
+    "solar-products": {
+      "title": "Produtos Solares",
+      "description": "Soluções completas de energia solar e componentes"
+    },
+    "automation-control-systems": {
+      "title": "Sistemas de Automação e Controle",
+      "description": "Sistemas avançados de automação e controle para operações industriais"
+    },
+    "safety-protective-devices": {
+      "title": "Dispositivos de Segurança e Proteção",
+      "description": "Sistemas de segurança industrial e equipamentos de proteção"
+    },
+    "mechanical-pumps-spares": {
+      "title": "Bombas Mecânicas e Peças Sobressalentes",
+      "description": "Bombas mecânicas e peças sobressalentes para aplicações industriais"
+    },
+    "industrial-tools-tackles": {
+      "title": "Ferramentas Industriais e Equipamentos",
+      "description": "Ferramentas industriais pesadas e equipamentos de elevação"
+    },
+    "bldc": {
+      "title": "Produtos BLDC",
+      "description": "Produtos de motores sem escovas DC para aplicações de eficiência energética"
+    }
+  },
+  "subcategories": {
+    "sensors": {
+      "title": "Sensores",
+      "description": "Sensores industriais para medição e controle"
+    },
+    "transmitters": {
+      "title": "Transmissores",
+      "description": "Transmissores de processo e equipamentos de conversão de sinal"
+    },
+    "controllers": {
+      "title": "Controladores",
+      "description": "Sistemas de controle industrial e controladores de automação"
+    },
+    "switches": {
+      "title": "Interruptores",
+      "description": "Interruptores industriais e dispositivos de controle"
+    },
+    "valves": {
+      "title": "Válvulas",
+      "description": "Válvulas industriais e sistemas de controle de fluxo"
+    },
+    "analyzers": {
+      "title": "Analisadores",
+      "description": "Analisadores de processo para controle de qualidade"
+    },
+    "signal-conditioners": {
+      "title": "Condicionadores de Sinal",
+      "description": "Equipamentos de processamento e condicionamento de sinal"
+    }
+  },
   "common": {
     "keyFeatures": "Principais Características:",
     "needHelp": "Precisa de Ajuda?",
