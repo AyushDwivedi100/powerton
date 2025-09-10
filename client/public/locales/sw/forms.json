@@ -137,5 +137,46 @@
       "infrastructure": "Miundombinu",
       "other": "Nyingine"
     }
+  },
+  "career": {
+    "validation": {
+      "nameMin": "Jina lazima liwe na angalau herufi 2",
+      "emailInvalid": "Tafadhali ingiza anwani sahihi ya barua pepe",
+      "phoneMin": "Nambari ya simu lazima iwe na angalau nambari 10",
+      "specializationRequired": "Tafadhali chagua utaalamu wako wa uhandisi",
+      "experienceRequired": "Tafadhali chagua kiwango chako cha uzoefu",
+      "educationRequired": "Tafadhali toa maelezo ya elimu yako",
+      "joiningTimeRequired": "Tafadhali bainisha ni kwa kasi gani unaweza kujiunga",
+      "skillsMin": "Tafadhali toa maelezo kuhusu ustadi wako",
+      "coverLetterMin": "Tafadhali andika barua ya kujitambulisha fupi (angalau herufi 20)",
+      "addressMin": "Tafadhali toa anwani yako kamili"
+    },
+    "specializations": {
+      "electricalEngineering": "Uhandisi wa Umeme",
+      "automationControl": "Mifumo ya Otomatiki na Udhibiti",
+      "instrumentation": "Uhandisi wa Vifaa",
+      "projectManagement": "Usimamizi wa Miradi",
+      "technicalSales": "Mauzo ya Kiufundi",
+      "fieldService": "Huduma za Shambani na Uwekaji",
+      "designEngineering": "Muundo na Maendeleo",
+      "solarRenewable": "Nishati ya Jua na Mbadala",
+      "other": "Utaalamu Mwingine"
+    },
+    "experience": {
+      "fresher": "Mwanzo (miaka 0-1)",
+      "oneToThree": "Miaka 1-3",
+      "threeToFive": "Miaka 3-5",
+      "fiveToEight": "Miaka 5-8",
+      "eightToTwelve": "Miaka 8-12",
+      "twelvePlus": "Miaka 12+"
+    },
+    "joiningTime": {
+      "immediate": "Anaweza kujiunga mara moja",
+      "fifteenDays": "Kipindi cha notisi siku 15",
+      "oneMonth": "Kipindi cha notisi mwezi 1",
+      "twoMonths": "Kipindi cha notisi miezi 2",
+      "threeMonths": "Kipindi cha notisi miezi 3",
+      "moreThanThree": "Notisi zaidi ya miezi 3"
+    }
   }
 }

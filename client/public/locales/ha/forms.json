@@ -137,5 +137,46 @@
       "infrastructure": "Ababen more rayuwa",
       "other": "Wani"
     }
+  },
+  "career": {
+    "validation": {
+      "nameMin": "Suna dole ya kasance aƙalla haruffa 2",
+      "emailInvalid": "Don Allah shigar da adireshin imel mai inganci",
+      "phoneMin": "Lambar wayar dole ta kasance aƙalla lambobi 10",
+      "specializationRequired": "Don Allah zaɓi fannin injiniya naka",
+      "experienceRequired": "Don Allah zaɓi matakin gogewa naka",
+      "educationRequired": "Don Allah bayar da cikakkun bayanai game da karatunka",
+      "joiningTimeRequired": "Don Allah bayyana yadda za ka iya shiga da sauri",
+      "skillsMin": "Don Allah bayar da cikakkun bayanai game da ƙwarewarku",
+      "coverLetterMin": "Don Allah rubuta taƙaita wasiƙar gabatarwa (aƙalla haruffa 20)",
+      "addressMin": "Don Allah bayar da cikakken adireshin ku"
+    },
+    "specializations": {
+      "electricalEngineering": "Injiniyan Lantarki",
+      "automationControl": "Tsarin Atomatik da Sarrafawa",
+      "instrumentation": "Injiniyan Kayan Aiki",
+      "projectManagement": "Gudanarwar Ayyuka",
+      "technicalSales": "Siyar da Fasaha",
+      "fieldService": "Sabis na Filin da Shirye-shirye",
+      "designEngineering": "Zane da Ci gaba",
+      "solarRenewable": "Makamashin Rana da mai sabuntawa",
+      "other": "Wani Fanni"
+    },
+    "experience": {
+      "fresher": "Sabon (shekaru 0-1)",
+      "oneToThree": "Shekaru 1-3",
+      "threeToFive": "Shekaru 3-5",
+      "fiveToEight": "Shekaru 5-8",
+      "eightToTwelve": "Shekaru 8-12",
+      "twelvePlus": "Shekaru 12+"
+    },
+    "joiningTime": {
+      "immediate": "Iya shiga nan da nan",
+      "fifteenDays": "Lokacin sanarwa kwanaki 15",
+      "oneMonth": "Lokacin sanarwa wata 1",
+      "twoMonths": "Lokacin sanarwa watanni 2",
+      "threeMonths": "Lokacin sanarwa watanni 3",
+      "moreThanThree": "Sanarwa fiye da watanni 3"
+    }
   }
 }

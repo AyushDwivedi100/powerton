@@ -137,5 +137,46 @@
       "infrastructure": "البنية التحتية",
       "other": "أخرى"
     }
+  },
+  "career": {
+    "validation": {
+      "nameMin": "يجب أن يكون الاسم حرفين على الأقل",
+      "emailInvalid": "يرجى إدخال عنوان بريد إلكتروني صحيح",
+      "phoneMin": "يجب أن يكون رقم الهاتف 10 أرقام على الأقل",
+      "specializationRequired": "يرجى اختيار تخصصك الهندسي",
+      "experienceRequired": "يرجى اختيار مستوى خبرتك",
+      "educationRequired": "يرجى تقديم تفاصيل تعليمك",
+      "joiningTimeRequired": "يرجى تحديد مدى سرعة انضمامك للعمل",
+      "skillsMin": "يرجى تقديم تفاصيل حول مهاراتك",
+      "coverLetterMin": "يرجى كتابة خطاب تقديم مختصر (20 حرفاً على الأقل)",
+      "addressMin": "يرجى تقديم عنوانك الكامل"
+    },
+    "specializations": {
+      "electricalEngineering": "الهندسة الكهربائية",
+      "automationControl": "أنظمة الأتمتة والتحكم",
+      "instrumentation": "هندسة الأجهزة",
+      "projectManagement": "إدارة المشاريع",
+      "technicalSales": "المبيعات التقنية",
+      "fieldService": "الخدمة الميدانية والتشغيل",
+      "designEngineering": "التصميم والتطوير",
+      "solarRenewable": "الطاقة الشمسية والمتجددة",
+      "other": "تخصص آخر"
+    },
+    "experience": {
+      "fresher": "مبتدئ (0-1 سنة)",
+      "oneToThree": "1-3 سنوات",
+      "threeToFive": "3-5 سنوات",
+      "fiveToEight": "5-8 سنوات",
+      "eightToTwelve": "8-12 سنة",
+      "twelvePlus": "12+ سنة"
+    },
+    "joiningTime": {
+      "immediate": "يمكن الانضمام فوراً",
+      "fifteenDays": "فترة إشعار 15 يوماً",
+      "oneMonth": "فترة إشعار شهر واحد",
+      "twoMonths": "فترة إشعار شهرين",
+      "threeMonths": "فترة إشعار 3 أشهر",
+      "moreThanThree": "إشعار أكثر من 3 أشهر"
+    }
   }
 }

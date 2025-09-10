@@ -137,5 +137,46 @@
       "infrastructure": "Infraestrutura",
       "other": "Outro"
     }
+  },
+  "career": {
+    "validation": {
+      "nameMin": "O nome deve ter pelo menos 2 caracteres",
+      "emailInvalid": "Por favor, insira um endereço de e-mail válido",
+      "phoneMin": "O número de telefone deve ter pelo menos 10 dígitos",
+      "specializationRequired": "Por favor, selecione sua especialização em engenharia",
+      "experienceRequired": "Por favor, selecione seu nível de experiência",
+      "educationRequired": "Por favor, forneça os detalhes de sua educação",
+      "joiningTimeRequired": "Por favor, especifique quão rapidamente você pode se juntar",
+      "skillsMin": "Por favor, forneça detalhes sobre suas habilidades",
+      "coverLetterMin": "Por favor, escreva uma breve carta de apresentação (mínimo 20 caracteres)",
+      "addressMin": "Por favor, forneça seu endereço completo"
+    },
+    "specializations": {
+      "electricalEngineering": "Engenharia Elétrica",
+      "automationControl": "Sistemas de Automação e Controle",
+      "instrumentation": "Engenharia de Instrumentação",
+      "projectManagement": "Gestão de Projetos",
+      "technicalSales": "Vendas Técnicas",
+      "fieldService": "Serviço de Campo e Comissionamento",
+      "designEngineering": "Projeto e Desenvolvimento",
+      "solarRenewable": "Energia Solar e Renovável",
+      "other": "Outra Especialização"
+    },
+    "experience": {
+      "fresher": "Iniciante (0-1 anos)",
+      "oneToThree": "1-3 anos",
+      "threeToFive": "3-5 anos",
+      "fiveToEight": "5-8 anos",
+      "eightToTwelve": "8-12 anos",
+      "twelvePlus": "12+ anos"
+    },
+    "joiningTime": {
+      "immediate": "Pode se juntar imediatamente",
+      "fifteenDays": "Período de aviso de 15 dias",
+      "oneMonth": "Período de aviso de 1 mês",
+      "twoMonths": "Período de aviso de 2 meses",
+      "threeMonths": "Período de aviso de 3 meses",
+      "moreThanThree": "Aviso de mais de 3 meses"
+    }
   }
 }
