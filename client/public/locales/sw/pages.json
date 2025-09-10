@@ -554,5 +554,57 @@
   "ui": {
     "projectPortfolio": "Portfolio ya Miradi",
     "featuredProjects": "Miradi Zilizooneshwa"
+  },
+  "quote": {
+    "projectSizes": {
+      "small": "Ndogo (Vidakuzi 1-10 vya I/O)",
+      "medium": "Kati (Vidakuzi 11-100 vya I/O)", 
+      "large": "Kubwa (Vidakuzi 101-500 vya I/O)",
+      "enterprise": "Kibilafu (Vidakuzi 500+ vya I/O)"
+    },
+    "timelines": {
+      "urgent": "Dharura (< Miezi 3)",
+      "standard": "Kawaida (Miezi 3-6)",
+      "extended": "Imeongezwa (Miezi 6-12)",
+      "longTerm": "Muda mrefu (Miezi 12+)"
+    },
+    "requirements": {
+      "plcProgramming": "Uprogramu wa PLC",
+      "scadaDevelopment": "Maendeleo ya SCADA", 
+      "hmiDesign": "Muundo wa HMI",
+      "networkIntegration": "Muunganiko wa Mtandao",
+      "safetySystems": "Mifumo ya Usalama",
+      "remoteMonitoring": "Ufuatiliaji wa Mbali",
+      "dataAnalytics": "Uchambuzi wa Data",
+      "mobileApp": "Kiolesura cha Programu ya Simu"
+    },
+    "additionalFeatures": {
+      "redundancy": "Urekebishaji wa Mfumo",
+      "cybersecurity": "Usalama wa Mtandao wa Hali ya Juu",
+      "iotIntegration": "Muunganiko wa IoT",
+      "aiMl": "Uchambuzi wa AI/ML",
+      "predictiveMaintenance": "Matengenezo ya Utabiri", 
+      "energyManagement": "Usimamizi wa Nishati",
+      "cloudIntegration": "Muunganiko wa Wingu",
+      "trainingSupport": "Mafunzo na Msaada Ulioongezwa"
+    },
+    "industries": {
+      "manufacturing": "Utengenezaji",
+      "powerGeneration": "Uzalishaji wa Umeme",
+      "oilGas": "Mafuta na Gesi",
+      "chemicalProcessing": "Uchakataji wa Kemikali",
+      "waterTreatment": "Matibabu ya Maji",
+      "foodBeverage": "Chakula na Vinywaji",
+      "pharmaceutical": "Dawa",
+      "renewableEnergy": "Nishati Mbadala"
+    },
+    "projectTypes": {
+      "processAutomation": "Otomatiki ya Michakato",
+      "powerControlSystems": "Mifumo ya Udhibiti wa Umeme",
+      "instrumentationControl": "Vyombo na Udhibiti",
+      "solarAutomation": "Otomatiki ya Jua",
+      "buildingAutomation": "Otomatiki ya Majengo",
+      "manufacturingAutomation": "Otomatiki ya Utengenezaji"
+    }
   }
 }

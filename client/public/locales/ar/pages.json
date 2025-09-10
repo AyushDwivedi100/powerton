@@ -783,5 +783,57 @@
       "description": "فشل نظام حرج؟ فريق الاستجابة الطارئة متاح 24/7 للمساعدة في تقليل وقت التوقف.",
       "hotline": "الخط الساخن للطوارئ"
     }
+  },
+  "quote": {
+    "projectSizes": {
+      "small": "صغير (1-10 نقاط I/O)",
+      "medium": "متوسط (11-100 نقاط I/O)", 
+      "large": "كبير (101-500 نقاط I/O)",
+      "enterprise": "مؤسسي (500+ نقاط I/O)"
+    },
+    "timelines": {
+      "urgent": "عاجل (< 3 أشهر)",
+      "standard": "قياسي (3-6 أشهر)",
+      "extended": "ممدد (6-12 شهر)",
+      "longTerm": "طويل المدى (12+ شهر)"
+    },
+    "requirements": {
+      "plcProgramming": "برمجة PLC",
+      "scadaDevelopment": "تطوير SCADA", 
+      "hmiDesign": "تصميم HMI",
+      "networkIntegration": "تكامل الشبكة",
+      "safetySystems": "أنظمة الأمان",
+      "remoteMonitoring": "مراقبة عن بُعد",
+      "dataAnalytics": "تحليل البيانات",
+      "mobileApp": "واجهة التطبيق المحمول"
+    },
+    "additionalFeatures": {
+      "redundancy": "تكرار النظام",
+      "cybersecurity": "الأمن السيبراني المتقدم",
+      "iotIntegration": "تكامل إنترنت الأشياء",
+      "aiMl": "تحليل الذكاء الاصطناعي",
+      "predictiveMaintenance": "صيانة تنبؤية", 
+      "energyManagement": "إدارة الطاقة",
+      "cloudIntegration": "تكامل السحابة",
+      "trainingSupport": "تدريب ودعم موسع"
+    },
+    "industries": {
+      "manufacturing": "التصنيع",
+      "powerGeneration": "توليد الطاقة",
+      "oilGas": "النفط والغاز",
+      "chemicalProcessing": "المعالجة الكيميائية",
+      "waterTreatment": "معالجة المياه",
+      "foodBeverage": "الأغذية والمشروبات",
+      "pharmaceutical": "صيدلاني",
+      "renewableEnergy": "الطاقة المتجددة"
+    },
+    "projectTypes": {
+      "processAutomation": "أتمتة العمليات",
+      "powerControlSystems": "أنظمة التحكم بالطاقة",
+      "instrumentationControl": "أجهزة القياس والتحكم",
+      "solarAutomation": "أتمتة الطاقة الشمسية",
+      "buildingAutomation": "أتمتة المباني",
+      "manufacturingAutomation": "أتمتة التصنيع"
+    }
   }
 }

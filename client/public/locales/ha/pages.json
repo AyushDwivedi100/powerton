@@ -216,5 +216,57 @@
         "description": "Tallafi na musamman don tabbatar da nasarar aikinku"
       }
     }
+  },
+  "quote": {
+    "projectSizes": {
+      "small": "Karami (Maki 1-10 na I/O)",
+      "medium": "Matsakaici (Maki 11-100 na I/O)", 
+      "large": "Babba (Maki 101-500 na I/O)",
+      "enterprise": "Kamfani (Maki 500+ na I/O)"
+    },
+    "timelines": {
+      "urgent": "Gaggawa (< Watanni 3)",
+      "standard": "Na yau da kullun (Watanni 3-6)",
+      "extended": "An tsawaita (Watanni 6-12)",
+      "longTerm": "Dogon lokaci (Watanni 12+)"
+    },
+    "requirements": {
+      "plcProgramming": "Shirye-shiryen PLC",
+      "scadaDevelopment": "Haɓakar SCADA", 
+      "hmiDesign": "Ƙirar HMI",
+      "networkIntegration": "Haɗin Sadarwa",
+      "safetySystems": "Tsarin Aminci",
+      "remoteMonitoring": "Sa ido daga Nesa",
+      "dataAnalytics": "Binciken Bayanai",
+      "mobileApp": "Hanyar Aikace-aikacen Wayar"
+    },
+    "additionalFeatures": {
+      "redundancy": "Maimaita Tsarin",
+      "cybersecurity": "Tsaro na Yanar Gizo na Ci Gaba",
+      "iotIntegration": "Haɗin IoT",
+      "aiMl": "Binciken AI/ML",
+      "predictiveMaintenance": "Gyaran da ake Tsinkaya", 
+      "energyManagement": "Gudanar da Kuzari",
+      "cloudIntegration": "Haɗin Gajimare",
+      "trainingSupport": "Horon da Tallafi da aka Kara"
+    },
+    "industries": {
+      "manufacturing": "Masana'antu",
+      "powerGeneration": "Samar da Wutar Lantarki",
+      "oilGas": "Mai da Gas",
+      "chemicalProcessing": "Sarrafa Sinadarai",
+      "waterTreatment": "Maganin Ruwa",
+      "foodBeverage": "Abinci da Abubuwan sha",
+      "pharmaceutical": "Magunguna",
+      "renewableEnergy": "Makamashin da ake Sabuntawa"
+    },
+    "projectTypes": {
+      "processAutomation": "Sarrafa Ayyuka",
+      "powerControlSystems": "Tsarin Sarrafa Wutar Lantarki",
+      "instrumentationControl": "Kayan aiki da Sarrafa",
+      "solarAutomation": "Sarrafa Hasken Rana",
+      "buildingAutomation": "Sarrafa Gine-gine",
+      "manufacturingAutomation": "Sarrafa Masana'antu"
+    }
   }
 }

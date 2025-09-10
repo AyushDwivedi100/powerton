@@ -603,5 +603,57 @@
       "verifiedResults": "Resultados Verificados",
       "verifiedResultsDesc": "Projetos reais com resultados mensuráveis e depoimentos de clientes"
     }
+  },
+  "quote": {
+    "projectSizes": {
+      "small": "Pequeno (1-10 Pontos I/O)",
+      "medium": "Médio (11-100 Pontos I/O)", 
+      "large": "Grande (101-500 Pontos I/O)",
+      "enterprise": "Empresarial (500+ Pontos I/O)"
+    },
+    "timelines": {
+      "urgent": "Urgente (< 3 meses)",
+      "standard": "Padrão (3-6 meses)",
+      "extended": "Estendido (6-12 meses)",
+      "longTerm": "Longo Prazo (12+ meses)"
+    },
+    "requirements": {
+      "plcProgramming": "Programação PLC",
+      "scadaDevelopment": "Desenvolvimento SCADA", 
+      "hmiDesign": "Design HMI",
+      "networkIntegration": "Integração de Rede",
+      "safetySystems": "Sistemas de Segurança",
+      "remoteMonitoring": "Monitoramento Remoto",
+      "dataAnalytics": "Análise de Dados",
+      "mobileApp": "Interface de Aplicativo Móvel"
+    },
+    "additionalFeatures": {
+      "redundancy": "Redundância do Sistema",
+      "cybersecurity": "Cibersegurança Avançada",
+      "iotIntegration": "Integração IoT",
+      "aiMl": "Análise IA/ML",
+      "predictiveMaintenance": "Manutenção Preditiva", 
+      "energyManagement": "Gestão de Energia",
+      "cloudIntegration": "Integração em Nuvem",
+      "trainingSupport": "Treinamento e Suporte Estendido"
+    },
+    "industries": {
+      "manufacturing": "Manufatura",
+      "powerGeneration": "Geração de Energia",
+      "oilGas": "Petróleo e Gás",
+      "chemicalProcessing": "Processamento Químico",
+      "waterTreatment": "Tratamento de Água",
+      "foodBeverage": "Alimentos e Bebidas",
+      "pharmaceutical": "Farmacêutica",
+      "renewableEnergy": "Energia Renovável"
+    },
+    "projectTypes": {
+      "processAutomation": "Automação de Processos",
+      "powerControlSystems": "Sistemas de Controle de Energia",
+      "instrumentationControl": "Instrumentação e Controle",
+      "solarAutomation": "Automação Solar",
+      "buildingAutomation": "Automação Predial",
+      "manufacturingAutomation": "Automação de Manufatura"
+    }
   }
 }

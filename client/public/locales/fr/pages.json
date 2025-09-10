@@ -682,5 +682,57 @@
       "description": "Fabricant leader de panneaux de contrôle électriques, systèmes d'automatisation industrielle et solutions d'instrumentation. Services d'ingénierie experts dans toute l'Inde avec plus de 15 ans d'expérience.",
       "keywords": "panneaux de contrôle électriques, automatisation industrielle, automatisation des processus, instrumentation, centre de contrôle de puissance, centre de contrôle moteur, ingénierie électrique, Inde, Noida"
     }
+  },
+  "quote": {
+    "projectSizes": {
+      "small": "Petit (1-10 Points I/O)",
+      "medium": "Moyen (11-100 Points I/O)", 
+      "large": "Grand (101-500 Points I/O)",
+      "enterprise": "Entreprise (500+ Points I/O)"
+    },
+    "timelines": {
+      "urgent": "Urgent (< 3 mois)",
+      "standard": "Standard (3-6 mois)",
+      "extended": "Étendu (6-12 mois)",
+      "longTerm": "Long terme (12+ mois)"
+    },
+    "requirements": {
+      "plcProgramming": "Programmation PLC",
+      "scadaDevelopment": "Développement SCADA", 
+      "hmiDesign": "Conception HMI",
+      "networkIntegration": "Intégration Réseau",
+      "safetySystems": "Systèmes de Sécurité",
+      "remoteMonitoring": "Surveillance Distante",
+      "dataAnalytics": "Analyse de Données",
+      "mobileApp": "Interface Application Mobile"
+    },
+    "additionalFeatures": {
+      "redundancy": "Redondance Système",
+      "cybersecurity": "Cybersécurité Avancée",
+      "iotIntegration": "Intégration IoT",
+      "aiMl": "Analyses IA/ML",
+      "predictiveMaintenance": "Maintenance Prédictive", 
+      "energyManagement": "Gestion de l'Énergie",
+      "cloudIntegration": "Intégration Cloud",
+      "trainingSupport": "Formation et Support Étendus"
+    },
+    "industries": {
+      "manufacturing": "Fabrication",
+      "powerGeneration": "Production d'Énergie",
+      "oilGas": "Pétrole et Gaz",
+      "chemicalProcessing": "Traitement Chimique",
+      "waterTreatment": "Traitement de l'Eau",
+      "foodBeverage": "Alimentation et Boissons",
+      "pharmaceutical": "Pharmaceutique",
+      "renewableEnergy": "Énergie Renouvelable"
+    },
+    "projectTypes": {
+      "processAutomation": "Automatisation de Processus",
+      "powerControlSystems": "Systèmes de Contrôle d'Énergie",
+      "instrumentationControl": "Instrumentation et Contrôle",
+      "solarAutomation": "Automatisation Solaire",
+      "buildingAutomation": "Automatisation de Bâtiment",
+      "manufacturingAutomation": "Automatisation de Fabrication"
+    }
   }
 }

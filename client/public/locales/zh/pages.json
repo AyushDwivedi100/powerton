@@ -846,5 +846,57 @@
         }
       }
     }
+  },
+  "quote": {
+    "projectSizes": {
+      "small": "小型 (1-10个I/O点)",
+      "medium": "中型 (11-100个I/O点)", 
+      "large": "大型 (101-500个I/O点)",
+      "enterprise": "企业级 (500+个I/O点)"
+    },
+    "timelines": {
+      "urgent": "紧急 (< 3个月)",
+      "standard": "标准 (3-6个月)",
+      "extended": "延长 (6-12个月)",
+      "longTerm": "长期 (12+个月)"
+    },
+    "requirements": {
+      "plcProgramming": "PLC编程",
+      "scadaDevelopment": "SCADA开发", 
+      "hmiDesign": "HMI设计",
+      "networkIntegration": "网络集成",
+      "safetySystems": "安全系统",
+      "remoteMonitoring": "远程监控",
+      "dataAnalytics": "数据分析",
+      "mobileApp": "移动应用接口"
+    },
+    "additionalFeatures": {
+      "redundancy": "系统冗余",
+      "cybersecurity": "高级网络安全",
+      "iotIntegration": "物联网集成",
+      "aiMl": "AI/ML分析",
+      "predictiveMaintenance": "预测性维护", 
+      "energyManagement": "能源管理",
+      "cloudIntegration": "云集成",
+      "trainingSupport": "扩展培训和支持"
+    },
+    "industries": {
+      "manufacturing": "制造业",
+      "powerGeneration": "发电",
+      "oilGas": "石油天然气",
+      "chemicalProcessing": "化学处理",
+      "waterTreatment": "水处理",
+      "foodBeverage": "食品饮料",
+      "pharmaceutical": "制药",
+      "renewableEnergy": "可再生能源"
+    },
+    "projectTypes": {
+      "processAutomation": "过程自动化",
+      "powerControlSystems": "电力控制系统",
+      "instrumentationControl": "仪器仪表控制",
+      "solarAutomation": "太阳能自动化",
+      "buildingAutomation": "楼宇自动化",
+      "manufacturingAutomation": "制造自动化"
+    }
   }
 }

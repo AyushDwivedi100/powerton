@@ -660,5 +660,57 @@
     "industryFilter": "उद्योग फ़िल्टर",
     "categoryFilter": "श्रेणी फ़िल्टर",
     "statusFilter": "स्थिति फ़िल्टर"
+  },
+  "quote": {
+    "projectSizes": {
+      "small": "छोटा (1-10 I/O पॉइंट्स)",
+      "medium": "मध्यम (11-100 I/O पॉइंट्स)", 
+      "large": "बड़ा (101-500 I/O पॉइंट्स)",
+      "enterprise": "एंटरप्राइज़ (500+ I/O पॉइंट्स)"
+    },
+    "timelines": {
+      "urgent": "तत्काल (< 3 महीने)",
+      "standard": "मानक (3-6 महीने)",
+      "extended": "विस्तारित (6-12 महीने)",
+      "longTerm": "दीर्घकालिक (12+ महीने)"
+    },
+    "requirements": {
+      "plcProgramming": "PLC प्रोग्रामिंग",
+      "scadaDevelopment": "SCADA विकास", 
+      "hmiDesign": "HMI डिजाइन",
+      "networkIntegration": "नेटवर्क एकीकरण",
+      "safetySystems": "सुरक्षा प्रणालियाँ",
+      "remoteMonitoring": "रिमोट मॉनिटरिंग",
+      "dataAnalytics": "डेटा एनालिटिक्स",
+      "mobileApp": "मोबाइल ऐप इंटरफेस"
+    },
+    "additionalFeatures": {
+      "redundancy": "सिस्टम रिडंडेंसी",
+      "cybersecurity": "उन्नत साइबर सुरक्षा",
+      "iotIntegration": "IoT एकीकरण",
+      "aiMl": "AI/ML एनालिटिक्स",
+      "predictiveMaintenance": "प्रेडिक्टिव मेंटेनेंस", 
+      "energyManagement": "ऊर्जा प्रबंधन",
+      "cloudIntegration": "क्लाउड एकीकरण",
+      "trainingSupport": "विस्तारित प्रशिक्षण और सहायता"
+    },
+    "industries": {
+      "manufacturing": "विनिर्माण",
+      "powerGeneration": "विद्युत उत्पादन",
+      "oilGas": "तेल और गैस",
+      "chemicalProcessing": "रासायनिक प्रसंस्करण",
+      "waterTreatment": "जल उपचार",
+      "foodBeverage": "खाद्य और पेय",
+      "pharmaceutical": "फार्मास्यूटिकल",
+      "renewableEnergy": "नवीकरणीय ऊर्जा"
+    },
+    "projectTypes": {
+      "processAutomation": "प्रक्रिया स्वचालन",
+      "powerControlSystems": "पावर कंट्रोल सिस्टम",
+      "instrumentationControl": "इंस्ट्रूमेंटेशन और कंट्रोल",
+      "solarAutomation": "सोलर स्वचालन",
+      "buildingAutomation": "भवन स्वचालन",
+      "manufacturingAutomation": "विनिर्माण स्वचालन"
+    }
   }
 }

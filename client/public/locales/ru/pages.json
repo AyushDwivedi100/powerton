@@ -411,5 +411,57 @@
       "title": "Готовы Начать?",
       "description": "Свяжитесь с нами сегодня для вашего индивидуального инженерного решения. Наша команда готова помочь воплотить ваш проект в жизнь."
     }
+  },
+  "quote": {
+    "projectSizes": {
+      "small": "Малый (1-10 точек I/O)",
+      "medium": "Средний (11-100 точек I/O)", 
+      "large": "Большой (101-500 точек I/O)",
+      "enterprise": "Корпоративный (500+ точек I/O)"
+    },
+    "timelines": {
+      "urgent": "Срочно (< 3 месяцев)",
+      "standard": "Стандартно (3-6 месяцев)",
+      "extended": "Расширенно (6-12 месяцев)",
+      "longTerm": "Долгосрочно (12+ месяцев)"
+    },
+    "requirements": {
+      "plcProgramming": "Программирование ПЛК",
+      "scadaDevelopment": "Разработка SCADA", 
+      "hmiDesign": "Дизайн HMI",
+      "networkIntegration": "Сетевая интеграция",
+      "safetySystems": "Системы безопасности",
+      "remoteMonitoring": "Удаленный мониторинг",
+      "dataAnalytics": "Анализ данных",
+      "mobileApp": "Интерфейс мобильного приложения"
+    },
+    "additionalFeatures": {
+      "redundancy": "Резервирование системы",
+      "cybersecurity": "Продвинутая кибербезопасность",
+      "iotIntegration": "Интеграция IoT",
+      "aiMl": "AI/ML аналитика",
+      "predictiveMaintenance": "Предиктивное обслуживание", 
+      "energyManagement": "Управление энергией",
+      "cloudIntegration": "Облачная интеграция",
+      "trainingSupport": "Расширенное обучение и поддержка"
+    },
+    "industries": {
+      "manufacturing": "Производство",
+      "powerGeneration": "Энергогенерация",
+      "oilGas": "Нефть и газ",
+      "chemicalProcessing": "Химическая переработка",
+      "waterTreatment": "Водоочистка",
+      "foodBeverage": "Пищевая промышленность",
+      "pharmaceutical": "Фармацевтика",
+      "renewableEnergy": "Возобновляемая энергия"
+    },
+    "projectTypes": {
+      "processAutomation": "Автоматизация процессов",
+      "powerControlSystems": "Системы управления энергией",
+      "instrumentationControl": "Приборы и управление",
+      "solarAutomation": "Солнечная автоматизация",
+      "buildingAutomation": "Автоматизация зданий",
+      "manufacturingAutomation": "Производственная автоматизация"
+    }
   }
 }
