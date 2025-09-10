@@ -139,5 +139,275 @@
       "calculator": "Calculadora de Costos",
       "request": "Solicitar Cotización"
     }
+  },
+  "backToProducts": "Volver a Productos",
+  "news": {
+    "title": "Noticias",
+    "subtitle": "Actualizaciones",
+    "badges": {
+      "awardWinning": "Galardonado",
+      "growingStrong": "Crecimiento Sólido",
+      "futureReady": "Listo para el Futuro"
+    },
+    "latestNews": {
+      "excellenceAward": {
+        "title": "Powerton Engineering Gana Premio de Excelencia en Automatización Industrial",
+        "excerpt": "Nos enorgullece anunciar que Powerton Engineering ha sido reconocida con el premio 'Excelencia en Automatización Industrial' por la Sociedad de Ingenieros de la India por nuestras soluciones innovadoras en automatización de procesos.",
+        "category": "Premios"
+      },
+      "ntpcContract": {
+        "title": "Contrato Mayor de Automatización de Planta Eléctrica Asegurado con NTPC",
+        "excerpt": "Powerton Engineering ha asegurado un contrato significativo por valor de ₹5 Crores con NTPC para la automatización de su nueva planta térmica en Gujarat, que se espera completar en el Q3 2025.",
+        "category": "Negocios"
+      },
+      "renewableExpansion": {
+        "title": "Expansión a Soluciones de Automatización de Energía Renovable",
+        "excerpt": "Como parte de nuestro plan estratégico de crecimiento, estamos expandiendo nuestros servicios para incluir soluciones de automatización integrales para proyectos de energía solar y eólica, dirigidos al creciente sector de energía renovable de la India.",
+        "category": "Empresa"
+      }
+    },
+    "achievements": {
+      "title": "Logros Recientes",
+      "list": [
+        "Premio de Excelencia en Automatización Industrial - Sociedad de Ingenieros de la India",
+        "Mejor Proveedor de Servicios de Ingeniería - Premios Automation World 2024",
+        "Premio de Implementación de Energía Verde - Reconocimiento MNRE",
+        "Innovación en Control de Procesos - Premios IET India",
+        "Premio de Excelencia al Cliente - Asociación de Automatización Industrial"
+      ]
+    },
+    "hero": {
+      "title": "Noticias y Actualizaciones",
+      "subtitle": "Últimas Perspectivas de la Industria"
+    },
+    "article": {
+      "backToNews": "Volver a Noticias",
+      "share": "Compartir",
+      "author": "Equipo Powerton Engineering",
+      "categories": {
+        "projectSuccess": "Éxito del Proyecto",
+        "technology": "Tecnología",
+        "industryNews": "Noticias de la Industria",
+        "companyUpdate": "Actualización de la Empresa"
+      },
+      "sampleArticle": {
+        "title": "Powerton Engineering Completa Proyecto Mayor de Automatización para Planta Manufacturera Líder",
+        "excerpt": "Implementación exitosa de sistema integral de automatización industrial reduciendo costos operacionales en 30% y mejorando eficiencia en 45%.",
+        "content": {
+          "projectOverview": "Descripción del Proyecto",
+          "projectOverviewText": "Powerton Engineering ha completado exitosamente un proyecto integral de automatización industrial para una de las instalaciones manufactureras líderes de la India. Este proyecto representa un hito significativo en nuestro compromiso de entregar soluciones de automatización de vanguardia que impulsan la excelencia operacional.",
+          "keyAchievements": "Logros Clave",
+          "achievements": {
+            "costReduction": "30% reducción en costos operacionales",
+            "efficiency": "45% mejora en eficiencia de producción",
+            "safety": "Cero incidentes de seguridad durante implementación",
+            "uptime": "100% tiempo de funcionamiento del sistema desde puesta en marcha"
+          },
+          "technicalImplementation": "Implementación Técnica",
+          "technicalText": "El proyecto involucró la integración de sistemas PLC avanzados, implementación SCADA, y soluciones de instrumentación integrales. Nuestro equipo trabajó estrechamente con el cliente para asegurar mínima interrupción a las operaciones en curso mientras implementaba tecnología de automatización de última generación.",
+          "technologiesUsed": "Tecnologías Utilizadas",
+          "technologies": {
+            "plc": "Sistemas PLC Schneider Electric",
+            "scada": "SCADA avanzado con monitoreo en tiempo real",
+            "iot": "Sensores IoT industriales y conectividad",
+            "maintenance": "Sistemas de mantenimiento predictivo",
+            "energy": "Gestión y optimización de energía"
+          },
+          "clientTestimonial": "Testimonio del Cliente",
+          "testimonialText": "Powerton Engineering entregó más allá de nuestras expectativas. El nuevo sistema de automatización ha transformado nuestras operaciones, y estamos viendo beneficios inmediatos en eficiencia y reducción de costos. Su enfoque profesional y experiencia técnica fueron excepcionales.",
+          "futureCollaboration": "Colaboración Futura",
+          "futureText": "Basado en el éxito de esta implementación, el cliente ya ha contratado a Powerton Engineering para la fase dos de su jornada de automatización, que expandirá el sistema a líneas de producción adicionales.",
+          "conclusionText": "Este proyecto demuestra nuestra capacidad de manejar desafíos complejos de automatización industrial y entregar resultados medibles que impactan directamente los resultados de nuestros clientes."
+        }
+      },
+      "cta": {
+        "title": "¿Listo para Transformar Sus Operaciones?",
+        "description": "Aprenda cómo Powerton Engineering puede ayudarle a lograr resultados similares con nuestras soluciones de automatización industrial.",
+        "contactTeam": "Contactar Nuestro Equipo",
+        "requestQuote": "Solicitar Cotización de Proyecto"
+      },
+      "relatedArticles": {
+        "title": "Artículos Relacionados",
+        "iotTrends": {
+          "title": "Últimas Tendencias en Implementación de IoT Industrial",
+          "excerpt": "Explorando cómo el Internet Industrial de las Cosas está revolucionando los procesos de manufactura..."
+        },
+        "energyManagement": {
+          "title": "Sistema de Gestión de Energía Reduce Costos en 40%",
+          "excerpt": "Caso de estudio: Cómo nuestra solución de gestión de energía entregó ahorros excepcionales..."
+        },
+        "readMore": "Leer Más →"
+      }
+    },
+    "upcomingProjects": {
+      "smartCity": {
+        "title": "Automatización de Infraestructura de Ciudad Inteligente",
+        "client": "Noida Smart City Ltd.",
+        "description": "Infraestructura de automatización completa para proyecto de ciudad inteligente incluyendo gestión de tráfico, gestión de residuos, y sistemas de distribución de energía.",
+        "status": "Fase de Planificación",
+        "technologies": ["IoT", "Sensores Inteligentes", "Sistemas de Gestión Urbana", "Automatización de Energía"]
+      },
+      "pharma": {
+        "title": "Automatización de Manufactura Farmacéutica",
+        "client": "Cipla Limited",
+        "description": "Automatización avanzada para procesos de manufactura farmacéutica con cumplimiento de estándares internacionales y sistemas de control de calidad.",
+        "status": "Contrato Firmado",
+        "technologies": ["Cumplimiento GMP", "Procesamiento por Lotes", "Control de Calidad", "Sistemas de Trazabilidad"]
+      },
+      "solarFarm": {
+        "title": "Automatización y Monitoreo de Granja Solar",
+        "client": "Adani Green Energy",
+        "description": "Solución de automatización integral para granja solar de 200MW incluyendo sistemas de seguimiento, monitoreo climático, e integración de red.",
+        "status": "Fase de Ingeniería",
+        "technologies": ["Seguimiento Solar", "Sistemas Climáticos", "Integración de Red", "Monitoreo Remoto"]
+      }
+    }
+  },
+  "products": {
+    "badges": {
+      "handTools": "Herramientas Manuales",
+      "powerTools": "Herramientas Eléctricas",
+      "liftingEquipment": "Equipo de Elevación",
+      "safetyGear": "Equipo de Seguridad",
+      "touchscreen": "Pantalla Táctil",
+      "industrialGrade": "Grado Industrial",
+      "realTimeDisplay": "Visualización en Tiempo Real",
+      "multiProtocol": "Multi-Protocolo",
+      "heatingElements": "Elementos Calefactores",
+      "industrialOvens": "Hornos Industriales",
+      "heatTracing": "Rastreo de Calor",
+      "temperatureControl": "Control de Temperatura",
+      "precisionTools": "Herramientas de Precisión",
+      "durableConstruction": "Construcción Duradera",
+      "ergonomicDesign": "Diseño Ergonómico",
+      "professionalGrade": "Grado Profesional"
+    },
+    "sections": {
+      "hmiSolutions": "Soluciones HMI",
+      "heatingSolutions": "Soluciones de Calefacción",
+      "handToolCategories": "Categorías de Herramientas Manuales",
+      "diaphragmPumpTypes": "Tipos de Bombas de Diafragma",
+      "calibrationSolutions": "Soluciones de Calibración",
+      "industrialProducts": "Productos Industriales"
+    },
+    "cta": {
+      "needHmiSolutions": "¿Necesita Soluciones HMI?",
+      "hmiDescription": "Nuestros especialistas en HMI pueden diseñar interfaces de operador intuitivas para sus sistemas de automatización.",
+      "contactHmiExperts": "Contactar Expertos HMI",
+      "requestQuote": "Solicitar Cotización",
+      "needHeatingolutions": "¿Necesita Soluciones de Calefacción Industrial?",
+      "heatingDescription": "Nuestros especialistas en calefacción pueden diseñar sistemas de calefacción personalizados para sus procesos industriales.",
+      "contactHeatingExperts": "Contactar Expertos en Calefacción",
+      "needDiaphragmPumps": "¿Necesita Soluciones de Bombas de Diafragma?",
+      "diaphragmDescription": "Nuestros ingenieros de bombas pueden ayudarle a seleccionar la bomba de diafragma correcta para sus necesidades de manejo químico.",
+      "contactPumpExperts": "Contactar Expertos en Bombas",
+      "needCalibration": "¿Necesita Servicios de Calibración?",
+      "calibrationDescription": "Nuestros expertos en calibración aseguran que sus instrumentos cumplan los estándares de precisión más altos.",
+      "contactCalibrationExperts": "Contactar Expertos en Calibración"
+    },
+    "descriptions": {
+      "surgeProtectors": "Dispositivos de protección contra rayos y sobretensiones para sistemas y equipos eléctricos",
+      "solarInverters": "Soluciones de inversores solares para conversión eficiente de energía",
+      "solarChargeControllers": "Sistemas controladores de carga para gestión de baterías",
+      "solarBatteriesEnergyStorage": "Soluciones de almacenamiento de energía para sistemas solares"
+    }
+  },
+  "gallery": {
+    "hero": {
+      "title": "Galería de Proyectos",
+      "subtitle": "Explore nuestro portafolio visual de proyectos exitosos de automatización industrial e ingeniería eléctrica."
+    },
+    "categories": {
+      "all": "Todos",
+      "automation": "Automatización",
+      "electrical": "Eléctrica",
+      "solar": "Solar",
+      "instrumentation": "Instrumentación"
+    },
+    "imageAltPrefix": "Imagen de proyecto de",
+    "loadMore": "Cargar Más",
+    "viewProject": "Ver Proyecto"
+  },
+  "notFound": {
+    "title": "Página No Encontrada",
+    "subtitle": "Lo sentimos, la página que está buscando no existe.",
+    "description": "La página que está intentando acceder puede haber sido movida, eliminada o no existir.",
+    "buttons": {
+      "goHome": "Ir al Inicio",
+      "contactSupport": "Contactar Soporte"
+    }
+  },
+  "portfolio": {
+    "hero": {
+      "title": "Portafolio de Empresa",
+      "subtitle": "Descargue nuestro portafolio completo para conocer más sobre nuestras capacidades y proyectos exitosos."
+    },
+    "downloadButton": "Descargar Portafolio"
+  },
+  "portfolioDownload": {
+    "hero": {
+      "title": "Descarga de Portafolio",
+      "subtitle": "Acceda a nuestro portafolio completo de empresa con estudios de casos detallados y especificaciones técnicas."
+    },
+    "form": {
+      "title": "Solicitar Acceso al Portafolio",
+      "fields": {
+        "name": "Nombre Completo",
+        "email": "Dirección de Correo",
+        "company": "Nombre de la Empresa",
+        "position": "Posición/Título",
+        "industry": "Industria",
+        "requirements": "Requisitos Específicos"
+      },
+      "submit": "Solicitar Portafolio"
+    }
+  },
+  "services": {
+    "hero": {
+      "title": "Nuestros Servicios",
+      "subtitle": "Servicios integrales de ingeniería diseñados para impulsar la excelencia industrial y la eficiencia operacional."
+    },
+    "categories": {
+      "automation": "Automatización Industrial",
+      "electrical": "Ingeniería Eléctrica",
+      "instrumentation": "Instrumentación y Control",
+      "solar": "Soluciones Solares",
+      "maintenance": "Mantenimiento y Soporte"
+    }
+  },
+  "sitemap": {
+    "title": "Mapa del Sitio",
+    "subtitle": "Navegue fácilmente por todas las páginas y secciones de nuestro sitio web.",
+    "sections": {
+      "main": "Páginas Principales",
+      "products": "Productos",
+      "services": "Servicios",
+      "company": "Empresa",
+      "support": "Soporte"
+    }
+  },
+  "ui": {
+    "loading": "Cargando...",
+    "error": "Error",
+    "success": "Éxito",
+    "warning": "Advertencia",
+    "info": "Información",
+    "close": "Cerrar",
+    "open": "Abrir",
+    "save": "Guardar",
+    "cancel": "Cancelar",
+    "confirm": "Confirmar",
+    "delete": "Eliminar",
+    "edit": "Editar",
+    "view": "Ver",
+    "download": "Descargar",
+    "upload": "Subir",
+    "search": "Buscar",
+    "filter": "Filtrar",
+    "sort": "Ordenar",
+    "next": "Siguiente",
+    "previous": "Anterior",
+    "first": "Primero",
+    "last": "Último"
   }
 }
