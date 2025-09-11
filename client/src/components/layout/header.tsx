@@ -146,7 +146,7 @@ export default function Header() {
                 transition={{ duration: 0.2 }}
               >
                 <Phone className={cn("w-4 h-4 sm:w-5 sm:h-5 text-secondary shrink-0", rtl.me("1"))} aria-hidden="true" />
-                <span className="whitespace-nowrap text-sm md:text-base truncate max-w-40">
+                <span className="whitespace-nowrap text-sm md:text-base">
                   {COMPANY_INFO.phoneNumbers.primary}
                 </span>
               </motion.a>
@@ -159,7 +159,7 @@ export default function Header() {
                 transition={{ duration: 0.2 }}
               >
                 <Phone className={cn("w-4 h-4 sm:w-5 sm:h-5 text-secondary shrink-0", rtl.me("1"))} aria-hidden="true" />
-                <span className="whitespace-nowrap text-sm md:text-base truncate max-w-40">
+                <span className="whitespace-nowrap text-sm md:text-base">
                   {COMPANY_INFO.phoneNumbers.secondary}
                 </span>
               </motion.a>
@@ -179,7 +179,7 @@ export default function Header() {
                 className={cn("w-4 h-4 sm:w-5 sm:h-5 text-secondary shrink-0", rtl.me("1"))}
                 aria-hidden="true"
               />
-              <span className="whitespace-nowrap text-base md:text-sm truncate max-w-48">
+              <span className="whitespace-nowrap text-base md:text-sm">
                 {COMPANY_INFO.email}
               </span>
             </motion.a>
@@ -216,8 +216,8 @@ export default function Header() {
                   className={cn("w-5 h-5 text-secondary", rtl.me("2"))}
                   aria-hidden="true"
                 />
-                <span className="text-base md:text-sm truncate max-w-64">
-                  {COMPANY_INFO.address.city}, {COMPANY_INFO.address.state} -
+                <span className="text-base md:text-sm">
+                  {t('common:company.address.city')}, {t('common:company.address.state')} -
                   {t('navigation:header.servingWorldwide')}
                 </span>
               </span>
