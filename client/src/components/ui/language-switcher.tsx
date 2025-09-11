@@ -10,9 +10,11 @@ import {
 } from "@/components/ui/dropdown-menu";
 import { Globe, Check } from "lucide-react";
 import { cn } from "@/lib/utils";
+import { useRTLClasses } from "@/hooks/use-rtl";
 
 export function LanguageSwitcher() {
   const { i18n, t } = useTranslation('navigation');
+  const rtl = useRTLClasses();
   const [isOpen, setIsOpen] = useState(false);
 
   const handleLanguageChange = (languageCode: string) => {
@@ -30,17 +32,20 @@ export function LanguageSwitcher() {
         <Button
           variant="ghost"
           size="sm"
-          className="h-9 w-auto px-3"
+          className="h-9 w-auto px-3 min-w-0"
         >
-          <Globe className="h-4 w-4 mr-2" />
-          <span className="text-sm font-medium">
+          <Globe className={cn("h-4 w-4", rtl.me("2"))} />
+          <span className="text-sm font-medium truncate max-w-24">
             {currentLanguage.nativeName}
           </span>
         </Button>
       </DropdownMenuTrigger>
-      <DropdownMenuContent align="end" className="w-64 max-h-80 overflow-y-auto">
+      <DropdownMenuContent 
+        align={rtl.isRtl ? "start" : "end"} 
+        className="w-64 max-h-80 overflow-y-auto"
+      >
         <div className="p-2">
-          <p className="text-sm font-medium text-foreground mb-2">
+          <p className={cn("text-sm font-medium text-foreground mb-2", rtl.textStart)}>
             {t('footer.selectLanguage', 'Select Language')}
           </p>
           {languages.map((language) => (
@@ -54,16 +59,16 @@ export function LanguageSwitcher() {
                   : "hover:bg-muted"
               )}
             >
-              <div className="flex flex-col">
-                <span className="text-sm font-medium">
+              <div className={cn("flex flex-col min-w-0 flex-1", rtl.me("2"))}>
+                <span className="text-sm font-medium truncate">
                   {language.nativeName}
                 </span>
-                <span className="text-xs text-muted-foreground">
+                <span className="text-xs text-muted-foreground truncate">
                   {language.name}
                 </span>
               </div>
               {i18n.language === language.code && (
-                <Check className="h-4 w-4 text-primary" />
+                <Check className="h-4 w-4 text-primary flex-shrink-0" />
               )}
             </DropdownMenuItem>
           ))}
