@@ -128,14 +128,14 @@ export default function Footer() {
           <address itemScope itemType="https://schema.org/PostalAddress" className="not-italic">
             <Link href="/contact">
               <h4 className="text-lg font-semibold mb-4 text-slate-100 hover:text-primary transition-colors cursor-pointer">
-                {t('navigation:menu.contact', 'Contact')}
+                {t('navigation:menu.contact')}
               </h4>
             </Link>
             <ul className="space-y-3 text-slate-300 dark:text-slate-400" role="list">
               <li className="space-y-2" role="listitem">
                 <div className="flex items-center">
                   <Phone className="w-5 h-5 mr-3 text-orange-400 flex-shrink-0" aria-hidden="true" />
-                  <span className="text-slate-100 font-medium">Phone Numbers</span>
+                  <span className="text-slate-100 font-medium">{t('common:navigation.phoneNumbers')}</span>
                 </div>
                 <div className="ml-8 space-y-1">
                   <div>

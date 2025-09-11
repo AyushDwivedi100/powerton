@@ -5,27 +5,30 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/com
 import { Badge } from '@/components/ui/badge';
 import { ArrowLeft, Scissors, Wrench, Settings } from 'lucide-react';
 import { getProductImageSrc, getProductImageAlt } from '@/assets/images';
+import { useTranslation } from 'react-i18next';
 import industrialToolsImage from '@assets/generated_images/Industrial_tools_equipment_workshop_19bdfbd7.png';
 
 const CuttingToolsPage = () => {
+  const { t } = useTranslation(['common', 'products', 'products-data']);
+  
   const products = [
     {
-      name: "Industrial Saw Blades",
-      description: "High-quality saw blades for metal and wood cutting",
-      features: ["HSS/Carbide Tips", "Multiple TPI", "Bi-Metal Construction", "Long Life"],
-image: getProductImageSrc('cutting-tools')
+      name: t('products-data:cuttingTools.sawBlades.name'),
+      description: t('products-data:cuttingTools.sawBlades.description'),
+      features: t('products-data:cuttingTools.sawBlades.features', { returnObjects: true }) as string[],
+      image: getProductImageSrc('cutting-tools')
     },
     {
-      name: "Drill Bits & Reamers",
-      description: "Precision drilling and reaming tools",
-      features: ["HSS/Cobalt", "Jobber Length", "Spiral Flutes", "Split Point"],
-image: getProductImageSrc('cutting-tools')
+      name: t('products-data:cuttingTools.drillBits.name'),
+      description: t('products-data:cuttingTools.drillBits.description'),
+      features: t('products-data:cuttingTools.drillBits.features', { returnObjects: true }) as string[],
+      image: getProductImageSrc('cutting-tools')
     },
     {
-      name: "Milling Cutters",
-      description: "End mills and face mills for machining operations",
-      features: ["Carbide/HSS", "Multiple Flutes", "Coated Options", "Various Geometries"],
-image: getProductImageSrc('cutting-tools')
+      name: t('products-data:cuttingTools.millingCutters.name'),
+      description: t('products-data:cuttingTools.millingCutters.description'),
+      features: t('products-data:cuttingTools.millingCutters.features', { returnObjects: true }) as string[],
+      image: getProductImageSrc('cutting-tools')
     }
   ];
 
@@ -45,25 +48,25 @@ image: getProductImageSrc('cutting-tools')
             <Link href="/products/industrial-tools-tackles">
               <Button variant="ghost" className="mb-6 hover:bg-primary/10">
                 <ArrowLeft className="mr-2 h-4 w-4" />
-                Back to Industrial Tools & Tackles
+                {t('common:navigation.backToIndustrialTools')}
               </Button>
             </Link>
-            <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-6">Cutting Tools</h1>
+            <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-6">{t('products:productPages.cuttingTools.title')}</h1>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto mb-8">
-              Professional cutting tools for machining, drilling, and material processing applications
+              {t('products:productPages.cuttingTools.subtitle')}
             </p>
             <div className="flex flex-wrap justify-center gap-2 mb-8">
-              <Badge variant="secondary">Saw Blades</Badge>
-              <Badge variant="secondary">Drill Bits</Badge>
-              <Badge variant="secondary">Milling Cutters</Badge>
-              <Badge variant="secondary">Precision Tools</Badge>
+              <Badge variant="secondary">{t('common:badges.sawBlades')}</Badge>
+              <Badge variant="secondary">{t('common:badges.drillBits')}</Badge>
+              <Badge variant="secondary">{t('common:badges.millingCutters')}</Badge>
+              <Badge variant="secondary">{t('common:badges.precisionTools')}</Badge>
             </div>
           </div>
         </div>
       </div>
 
       <div className="py-16 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
-        <h2 className="text-3xl font-bold text-foreground text-center mb-12">Cutting Tool Categories</h2>
+        <h2 className="text-3xl font-bold text-foreground text-center mb-12">{t('common:headings.cuttingToolsCollection')}</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {products.map((product, index) => (
             <Card key={index} className="hover:shadow-lg transition-shadow duration-300 hover:scale-[1.02] group cursor-pointer border border-border/50 hover:border-primary/50">

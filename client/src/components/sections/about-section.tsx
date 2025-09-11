@@ -72,7 +72,7 @@ export default function AboutSection() {
                       </div>
                       <h3 className="text-xl font-bold mb-2" id="about-visual-heading">{t('pages:home.about.visualHeading')}</h3>
                       <p className="text-white/90 text-sm">
-                        {t('pages:home.about.visualDescription', 'Professional Indian engineers working on industrial automation and control systems')}
+                        {t('pages:home.about.visualDescription')}
                       </p>
                     </div>
                     
@@ -105,7 +105,7 @@ export default function AboutSection() {
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ delay: 0.3, duration: 0.6 }}
               >
-                {t('pages:home.about.label', 'About Us')}
+                {t('pages:home.about.label')}
               </motion.span>
               <motion.h2 
                 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-foreground dark:text-foreground mt-3 sm:mt-4 md:mt-6 mb-4 sm:mb-6 md:mb-8"
@@ -113,7 +113,7 @@ export default function AboutSection() {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.4, duration: 0.7 }}
               >
-                {t('pages:home.about.title', 'Welcome to Powerton Engineering Pvt. Ltd.')}
+                {t('pages:home.about.title')}
               </motion.h2>
               <motion.p 
                 className="text-sm sm:text-base md:text-lg lg:text-xl text-muted-foreground dark:text-muted-foreground mb-4 sm:mb-6 leading-relaxed"
@@ -121,7 +121,7 @@ export default function AboutSection() {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.5, duration: 0.7 }}
               >
-                {t('pages:home.about.description', 'Your trusted partner in delivering high-quality engineering solutions and services. Founded with a vision to empower industries through innovation and excellence, we specialize in providing a comprehensive range of electrical and instrumentation products.')}
+                {t('pages:home.about.description')}
               </motion.p>
               
               <StaggeredList 

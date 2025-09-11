@@ -304,7 +304,7 @@ export default function Header() {
                         onClick={() => setIsServicesDropdownOpen(!isServicesDropdownOpen)}
                       >
                         <Link href="/services">
-                          {t('navigation:dropdowns.services', 'Services')}
+                          {t('navigation:dropdowns.services')}
                         </Link>
                         <ChevronDown className="h-4 w-4" />
                         {/* Active page indicator */}
@@ -340,10 +340,10 @@ export default function Header() {
                                 >
                                   <div className="flex flex-col h-full justify-between">
                                     <div className="font-semibold text-foreground text-sm lg:text-base line-clamp-2 mb-2">
-                                      {t(`services:items.${service.id}`, service.title)}
+                                      {t(`services:items.${service.id}`)}
                                     </div>
                                     <div className="text-xs lg:text-sm text-muted-foreground line-clamp-3 mt-auto">
-                                      {t(`services:descriptions.${service.id}`, service.description).slice(0, 80)}...
+                                      {t(`services:descriptions.${service.id}`).slice(0, 80)}...
                                     </div>
                                   </div>
                                 </Link>
@@ -626,7 +626,7 @@ export default function Header() {
                                           setIsMobileServicesOpen(false);
                                         }}
                                       >
-                                        {t(`services:items.${service.id}`, service.title)}
+                                        {t(`services:items.${service.id}`)}
                                       </Link>
                                     ))}
                                   </motion.div>

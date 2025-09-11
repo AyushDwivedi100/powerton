@@ -5,26 +5,29 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/com
 import { Badge } from '@/components/ui/badge';
 import { ArrowLeft, Drill, Zap, Settings } from 'lucide-react';
 import { getProductImageSrc, getFileBaseName } from '@/assets/images';
+import { useTranslation } from 'react-i18next';
 import industrialToolsImage from '@assets/generated_images/Industrial_tools_equipment_workshop_19bdfbd7.png';
 
 const PowerToolsPage = () => {
+  const { t } = useTranslation(['common', 'products', 'products-data']);
+  
   const products = [
     {
-      name: "Industrial Drill Sets",
-      description: "Heavy-duty electric and cordless drills for industrial applications",
-      features: ["High Torque", "Variable Speed", "Cordless Options", "Chuck Capacity: 13mm"],
+      name: t('products-data:powerTools.drillSets.name'),
+      description: t('products-data:powerTools.drillSets.description'),
+      features: t('products-data:powerTools.drillSets.features', { returnObjects: true }) as string[],
       image: getProductImageSrc(getFileBaseName())
     },
     {
-      name: "Angle Grinders",
-      description: "Professional angle grinders for cutting and grinding operations",
-      features: ["Multiple Disc Sizes", "Safety Guards", "Anti-Vibration", "Powerful Motors"],
+      name: t('products-data:powerTools.angleGrinders.name'),
+      description: t('products-data:powerTools.angleGrinders.description'),
+      features: t('products-data:powerTools.angleGrinders.features', { returnObjects: true }) as string[],
       image: getProductImageSrc(getFileBaseName())
     },
     {
-      name: "Impact Wrenches",
-      description: "High-torque impact wrenches for heavy-duty fastening",
-      features: ["High Impact Force", "Socket Compatibility", "Forward/Reverse", "Battery Powered"],
+      name: t('products-data:powerTools.impactWrenches.name'),
+      description: t('products-data:powerTools.impactWrenches.description'),
+      features: t('products-data:powerTools.impactWrenches.features', { returnObjects: true }) as string[],
       image: getProductImageSrc(getFileBaseName())
     }
   ];
@@ -45,25 +48,25 @@ const PowerToolsPage = () => {
             <Link href="/products/industrial-tools-tackles">
               <Button variant="ghost" className="mb-6 hover:bg-primary/10">
                 <ArrowLeft className="mr-2 h-4 w-4" />
-                Back to Industrial Tools & Tackles
+                {t('common:navigation.backToIndustrialTools')}
               </Button>
             </Link>
-            <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-6">Power Tools</h1>
+            <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-6">{t('products:productPages.powerTools.title')}</h1>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto mb-8">
-              Industrial-grade power tools for heavy-duty manufacturing and maintenance operations
+              {t('products:productPages.powerTools.subtitle')}
             </p>
             <div className="flex flex-wrap justify-center gap-2 mb-8">
-              <Badge variant="secondary">High Performance</Badge>
-              <Badge variant="secondary">Variable Speed</Badge>
-              <Badge variant="secondary">Cordless Options</Badge>
-              <Badge variant="secondary">Industrial Duty</Badge>
+              <Badge variant="secondary">{t('common:badges.highPerformance')}</Badge>
+              <Badge variant="secondary">{t('common:badges.variableSpeed')}</Badge>
+              <Badge variant="secondary">{t('common:badges.cordlessOptions')}</Badge>
+              <Badge variant="secondary">{t('common:badges.industrialDuty')}</Badge>
             </div>
           </div>
         </div>
       </div>
 
       <div className="py-16 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
-        <h2 className="text-3xl font-bold text-foreground text-center mb-12">Power Tool Categories</h2>
+        <h2 className="text-3xl font-bold text-foreground text-center mb-12">{t('common:headings.powerToolSelection')}</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {products.map((product, index) => (
             <Card key={index} className="hover:shadow-lg transition-shadow duration-300 hover:scale-[1.02] group cursor-pointer border border-border/50 hover:border-primary/50">

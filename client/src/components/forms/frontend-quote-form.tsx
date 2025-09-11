@@ -11,12 +11,13 @@ import { Textarea } from "@/components/ui/textarea";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { Checkbox } from "@/components/ui/checkbox";
 import { useToast } from "@/hooks/use-toast";
-import { Loader2, Send, FileText, Mail, Phone } from "lucide-react";
+import { Loader2, FileText, Mail, Phone } from "lucide-react";
 import { FRONTEND_CONFIG } from "@/lib/frontend-config";
 import { getServiceOptions } from "@/data/constants";
 
-// Frontend-only quote form schema - validation messages will be handled by translation keys
-const createQuoteFormSchema = (t: (key: string) => string) => z.object({
+// Frontend-only quote form schema - validation messages will be handled by translation keys  
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
+const createQuoteFormSchema = (t: (translationKey: string) => string) => z.object({
   // Contact Information
   name: z.string().min(2, t('quote.validation.nameMin')),
   email: z.string().email(t('quote.validation.emailInvalid')),
@@ -201,7 +202,7 @@ export default function FrontendQuoteForm() {
                   name="designation"
                   render={({ field }) => (
                     <FormItem>
-                      <FormLabel>{t('forms:quote.fields.designation.label', 'Designation')}</FormLabel>
+                      <FormLabel>{t('forms:quote.fields.designation.label')}</FormLabel>
                       <FormControl>
                         <Input placeholder={t('common:placeholders.yourRole')} {...field} />
                       </FormControl>
@@ -260,11 +261,11 @@ export default function FrontendQuoteForm() {
                           </SelectTrigger>
                         </FormControl>
                         <SelectContent>
-                          <SelectItem value="new-installation">{t('forms:quote.projectTypes.newInstallation', 'New Installation')}</SelectItem>
-                          <SelectItem value="upgrade">{t('forms:quote.projectTypes.systemUpgrade', 'System Upgrade')}</SelectItem>
-                          <SelectItem value="retrofit">{t('forms:quote.projectTypes.retrofit', 'Retrofit')}</SelectItem>
-                          <SelectItem value="maintenance">{t('forms:quote.projectTypes.maintenance', 'Maintenance Contract')}</SelectItem>
-                          <SelectItem value="consultation">{t('forms:quote.projectTypes.consultation', 'Technical Consultation')}</SelectItem>
+                          <SelectItem value="new-installation">{t('forms:quote.projectTypes.newInstallation')}</SelectItem>
+                          <SelectItem value="upgrade">{t('forms:quote.projectTypes.systemUpgrade')}</SelectItem>
+                          <SelectItem value="retrofit">{t('forms:quote.projectTypes.retrofit')}</SelectItem>
+                          <SelectItem value="maintenance">{t('forms:quote.projectTypes.maintenance')}</SelectItem>
+                          <SelectItem value="consultation">{t('forms:quote.projectTypes.consultation')}</SelectItem>
                           <SelectItem value="design">{t('quote.projectTypes.design')}</SelectItem>
                         </SelectContent>
                       </Select>
@@ -340,16 +341,16 @@ export default function FrontendQuoteForm() {
                           </SelectTrigger>
                         </FormControl>
                         <SelectContent>
-                          <SelectItem value="manufacturing">{t('forms:quote.industries.manufacturing', 'Manufacturing')}</SelectItem>
-                          <SelectItem value="power-generation">{t('forms:quote.industries.powerGeneration', 'Power Generation')}</SelectItem>
-                          <SelectItem value="water-treatment">{t('forms:quote.industries.waterTreatment', 'Water Treatment')}</SelectItem>
-                          <SelectItem value="food-processing">{t('forms:quote.industries.foodProcessing', 'Food Processing')}</SelectItem>
-                          <SelectItem value="pharmaceutical">{t('forms:quote.industries.pharmaceutical', 'Pharmaceutical')}</SelectItem>
-                          <SelectItem value="chemical">{t('forms:quote.industries.chemical', 'Chemical')}</SelectItem>
-                          <SelectItem value="oil-gas">Oil & Gas</SelectItem>
-                          <SelectItem value="renewable-energy">{t('forms:quote.industries.renewableEnergy', 'Renewable Energy')}</SelectItem>
-                          <SelectItem value="infrastructure">{t('forms:quote.industries.infrastructure', 'Infrastructure')}</SelectItem>
-                          <SelectItem value="other">{t('forms:quote.industries.other', 'Other')}</SelectItem>
+                          <SelectItem value="manufacturing">{t('forms:quote.industries.manufacturing')}</SelectItem>
+                          <SelectItem value="power-generation">{t('forms:quote.industries.powerGeneration')}</SelectItem>
+                          <SelectItem value="water-treatment">{t('forms:quote.industries.waterTreatment')}</SelectItem>
+                          <SelectItem value="food-processing">{t('forms:quote.industries.foodProcessing')}</SelectItem>
+                          <SelectItem value="pharmaceutical">{t('forms:quote.industries.pharmaceutical')}</SelectItem>
+                          <SelectItem value="chemical">{t('forms:quote.industries.chemical')}</SelectItem>
+                          <SelectItem value="oil-gas">{t('forms:quote.industries.oilGas')}</SelectItem>
+                          <SelectItem value="renewable-energy">{t('forms:quote.industries.renewableEnergy')}</SelectItem>
+                          <SelectItem value="infrastructure">{t('forms:quote.industries.infrastructure')}</SelectItem>
+                          <SelectItem value="other">{t('forms:quote.industries.other')}</SelectItem>
                         </SelectContent>
                       </Select>
                       <FormMessage />
@@ -412,7 +413,7 @@ export default function FrontendQuoteForm() {
             {/* Technical Specifications Section */}
             <div className="space-y-4">
               <h3 className="text-lg font-semibold text-foreground border-b border-border pb-2">
-                Technical Specifications
+                {t('quote.sections.technicalSpecifications')}
               </h3>
               
               <FormField
@@ -420,7 +421,7 @@ export default function FrontendQuoteForm() {
                 name="specifications"
                 render={({ field }) => (
                   <FormItem>
-                    <FormLabel>Detailed Requirements *</FormLabel>
+                    <FormLabel>{t('quote.labels.detailedRequirements')}</FormLabel>
                     <FormControl>
                       <Textarea 
                         placeholder={t('quote.placeholders.detailedRequirements')}
@@ -447,10 +448,10 @@ export default function FrontendQuoteForm() {
                           </SelectTrigger>
                         </FormControl>
                         <SelectContent>
-                          <SelectItem value="small">Small Scale (&lt; 10 I/O points)</SelectItem>
-                          <SelectItem value="medium">Medium Scale (10-100 I/O points)</SelectItem>
-                          <SelectItem value="large">Large Scale (100-500 I/O points)</SelectItem>
-                          <SelectItem value="enterprise">Enterprise (500+ I/O points)</SelectItem>
+                          <SelectItem value="small">{t('quote.projectScale.small')}</SelectItem>
+                          <SelectItem value="medium">{t('quote.projectScale.medium')}</SelectItem>
+                          <SelectItem value="large">{t('quote.projectScale.large')}</SelectItem>
+                          <SelectItem value="enterprise">{t('quote.projectScale.enterprise')}</SelectItem>
                         </SelectContent>
                       </Select>
                       <FormMessage />
@@ -463,7 +464,7 @@ export default function FrontendQuoteForm() {
                   name="preferredBrands"
                   render={({ field }) => (
                     <FormItem>
-                      <FormLabel>Preferred Brands/Standards</FormLabel>
+                      <FormLabel>{t('quote.labels.preferredBrands')}</FormLabel>
                       <FormControl>
                         <Input 
                           placeholder={t('quote.placeholders.preferredBrands')}
@@ -481,7 +482,7 @@ export default function FrontendQuoteForm() {
                 name="additionalRequirements"
                 render={({ field }) => (
                   <FormItem>
-                    <FormLabel>{t('forms:quote.fields.additionalRequirements.label', 'Additional Requirements')}</FormLabel>
+                    <FormLabel>{t('forms:quote.fields.additionalRequirements.label')}</FormLabel>
                     <FormControl>
                       <Textarea 
                         placeholder={t('quote.placeholders.additionalRequirements')}
@@ -512,7 +513,7 @@ export default function FrontendQuoteForm() {
                 ) : (
                   <>
                     <FileText className="mr-2 h-4 w-4" />
-                    Submit Quote Request
+                    {t('quote.buttons.submitRequest')}
                   </>
                 )}
               </Button>
@@ -527,7 +528,7 @@ export default function FrontendQuoteForm() {
                 >
                   <a href="tel:+91-94627-71662" className="flex items-center justify-center">
                     <Phone className="mr-2 h-4 w-4" />
-                    Call for Urgent Requirements
+                    {t('quote.buttons.callUrgent')}
                   </a>
                 </Button>
                 
@@ -540,7 +541,7 @@ export default function FrontendQuoteForm() {
                 >
                   <a href="mailto:info@powertonengineering.com" className="flex items-center justify-center">
                     <Mail className="mr-2 h-4 w-4" />
-                    Email Requirements
+                    {t('quote.buttons.emailRequirements')}
                   </a>
                 </Button>
               </div>
@@ -552,24 +553,24 @@ export default function FrontendQuoteForm() {
         <div className="mt-6 pt-6 border-t border-border">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-sm">
             <div>
-              <h4 className="font-medium text-foreground mb-2">What happens next?</h4>
+              <h4 className="font-medium text-foreground mb-2">{t('quote.process.heading')}</h4>
               <ul className="space-y-1 text-muted-foreground">
-                <li>• Technical review within 24 hours</li>
-                <li>• Detailed proposal with specifications</li>
-                <li>• Cost breakdown and timeline</li>
-                <li>• Follow-up consultation call</li>
+                <li>• {t('quote.process.steps.technicalReview')}</li>
+                <li>• {t('quote.process.steps.detailedProposal')}</li>
+                <li>• {t('quote.process.steps.costBreakdown')}</li>
+                <li>• {t('quote.process.steps.followUpCall')}</li>
               </ul>
             </div>
             <div>
-              <h4 className="font-medium text-foreground mb-2">Need immediate assistance?</h4>
+              <h4 className="font-medium text-foreground mb-2">{t('quote.assistance.heading')}</h4>
               <div className="space-y-1 text-muted-foreground">
                 <div className="flex items-center gap-2">
                   <Phone className="h-3 w-3 text-primary" />
-                  <span>+91-94627-71662 (Technical Team)</span>
+                  <span>{t('quote.assistance.technicalTeam')}</span>
                 </div>
                 <div className="flex items-center gap-2">
                   <Mail className="h-3 w-3 text-primary" />
-                  <span>info@powertonengineering.com</span>
+                  <span>{t('quote.assistance.email')}</span>
                 </div>
               </div>
             </div>

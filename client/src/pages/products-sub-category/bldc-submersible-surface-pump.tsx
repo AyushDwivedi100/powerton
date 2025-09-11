@@ -5,9 +5,12 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/com
 import { Badge } from '@/components/ui/badge';
 import { ArrowLeft, Droplet, Battery, Sun } from 'lucide-react';
 import { getProductImageSrc, getProductImageAlt } from '@/assets/images';
+import { useTranslation } from 'react-i18next';
 import bldcMotorImage from '@assets/generated_images/BLDC_motor_manufacturing_facility_76f1e316.png';
 
 const BLDCSubmersibleSurfacePumpPage = () => {
+  const { t } = useTranslation(['common', 'products']);
+  
   const products = [
     {
       name: "Solar BLDC Submersible Pump - 1HP",
@@ -45,25 +48,25 @@ image: getProductImageSrc('bldc-submersible-surface-pump')
             <Link href="/products/bldc">
               <Button variant="ghost" className="mb-6 hover:bg-primary/10">
                 <ArrowLeft className="mr-2 h-4 w-4" />
-                Back to BLDC Products
+                {t('common:navigation.backToBLDC')}
               </Button>
             </Link>
-            <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-6">BLDC Submersible & Surface Pumps</h1>
+            <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-6">{t('products:productPages.bldcSubmersibleSurfacePump.title')}</h1>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto mb-8">
-              Energy-efficient BLDC pumps for water supply, irrigation, and solar applications
+              {t('products:productPages.bldcSubmersibleSurfacePump.subtitle')}
             </p>
             <div className="flex flex-wrap justify-center gap-2 mb-8">
-              <Badge variant="secondary">Solar Compatible</Badge>
-              <Badge variant="secondary">High Efficiency</Badge>
-              <Badge variant="secondary">Corrosion Resistant</Badge>
-              <Badge variant="secondary">Smart Control</Badge>
+              <Badge variant="secondary">{t('common:badges.solarCompatible')}</Badge>
+              <Badge variant="secondary">{t('common:badges.highEfficiency')}</Badge>
+              <Badge variant="secondary">{t('common:badges.corrosionResistant')}</Badge>
+              <Badge variant="secondary">{t('common:badges.smartControl')}</Badge>
             </div>
           </div>
         </div>
       </div>
 
       <div className="py-16 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
-        <h2 className="text-3xl font-bold text-foreground text-center mb-12">BLDC Pump Solutions</h2>
+        <h2 className="text-3xl font-bold text-foreground text-center mb-12">{t('common:headings.bldcPumpSolutions')}</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {products.map((product, index) => (
             <Card key={index} className="hover:shadow-lg transition-shadow duration-300 hover:scale-[1.02] group cursor-pointer border border-border/50 hover:border-primary/50">

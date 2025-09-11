@@ -210,8 +210,8 @@ export const getProducts = (t: any) => [
   },
   {
     id: "solar-products",
-    title: t('products:categories.solar-products.title') || "Solar Products",
-    description: t('products:categories.solar-products.description') || "Complete solar energy solutions including panels, inverters, and monitoring systems for sustainable power generation.",
+    title: t('products:categories.solar-products.title'),
+    description: t('products:categories.solar-products.description'),
     icon: "Sun",
     image: getProductImage("solar-products")?.src || "",
     features: [
@@ -250,8 +250,8 @@ export const getProducts = (t: any) => [
   },
   {
     id: "automation-control-systems",
-    title: t('products:categories.automation-control-systems.title') || "Automation and Control Systems",
-    description: t('products:categories.automation-control-systems.description') || "Sophisticated automation and control systems for optimized industrial processes and enhanced productivity.",
+    title: t('products:categories.automation-control-systems.title'),
+    description: t('products:categories.automation-control-systems.description'),
     icon: "Settings",
     image: getProductImage("automation-control-systems")?.src || "",
     features: [
@@ -285,8 +285,8 @@ export const getProducts = (t: any) => [
   },
   {
     id: "safety-protective-devices",
-    title: t('products:categories.safety-protective-devices.title') || "Safety and Protective Devices",
-    description: t('products:categories.safety-protective-devices.description') || "Critical safety and protective devices to ensure personnel safety and equipment protection in industrial environments.",
+    title: t('products:categories.safety-protective-devices.title'),
+    description: t('products:categories.safety-protective-devices.description'),
     icon: "Shield",
     image: getProductImage("safety-protective-devices")?.src || "",
     features: [
@@ -320,8 +320,8 @@ export const getProducts = (t: any) => [
   },
   {
     id: "mechanical-pumps-spares",
-    title: t('products:categories.mechanical-pumps-spares.title') || "Mechanical Pumps and Spares",
-    description: t('products:categories.mechanical-pumps-spares.description') || "High-quality mechanical pumps and spare parts for fluid handling and processing applications.",
+    title: t('products:categories.mechanical-pumps-spares.title'),
+    description: t('products:categories.mechanical-pumps-spares.description'),
     icon: "Cog",
     image: getProductImage("mechanical-pumps-spares")?.src || "",
     features: [

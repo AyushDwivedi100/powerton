@@ -225,9 +225,9 @@ export default function Services() {
                   {t('pages:services.whyChoose.title')}
                 </h2>
                 <p className="text-muted-foreground max-w-2xl mx-auto mb-8">
-                  With {companyInfo.stats.yearsExperience} years of experience
-                  and a commitment to excellence, we deliver reliable solutions
-                  that drive your business forward.
+                  {t('pages:services.whyChoose.description', {
+                    yearsExperience: companyInfo.stats.yearsExperience
+                  })}
                 </p>
                 <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
                   <div className="text-center">
@@ -350,7 +350,7 @@ export default function Services() {
                     size="lg"
                     className="bg-foreground text-background border-border hover:bg-primary/90 hover:scale-105 transition-all duration-300"
                   >
-                    Request Quote <ArrowRight className="ml-2 h-5 w-5 " />
+                    {t('common:buttons.getQuote')} <ArrowRight className="ml-2 h-5 w-5 " />
                   </Button>
                 </Link>
                 <Link href="/contact">

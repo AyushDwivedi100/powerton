@@ -67,10 +67,7 @@ export default function ProjectsSection() {
                       ] || "bg-muted text-foreground"
                     }`}
                   >
-                    {t(
-                      `common:projectCategories.${project.category}`,
-                      project.category,
-                    )}
+                    {t(`common:projectCategories.${project.category}`)}
                   </Badge>
                   <span className="text-muted-foreground text-sm">
                     {t("pages:home.projects.completed")}{" "}
@@ -80,14 +77,14 @@ export default function ProjectsSection() {
 
                 <div className="flex items-start justify-between mb-4">
                   <h3 className="text-xl font-bold text-foreground">
-                    {t(`common:projects.${project.id}.title`, project.title)}
+                    {t(`common:projects.${project.id}.title`)}
                   </h3>
                   <Badge className="bg-gradient-to-r from-yellow-400 to-orange-500 text-white text-xs px-2 py-1 ml-2 flex-shrink-0">
-                    Featured
+                    {t('pages:home.projects.featured')}
                   </Badge>
                 </div>
                 <p className="text-muted-foreground mb-6">
-                  {t(`common:projects.${project.id}.description`, project.description)}
+                  {t(`common:projects.${project.id}.description`)}
                 </p>
 
                 {/* Project Highlights */}

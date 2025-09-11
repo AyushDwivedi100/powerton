@@ -129,11 +129,51 @@
         "service": "Global Service Coverage"
       },
       "stats": {
+        "heading": "Company Statistics and Achievements",
         "yearsExperience": "Years Experience",
         "projectsCompleted": "Projects Completed",
         "happyClients": "Happy Clients",
         "supportAvailable": "Support Available"
       }
+    },
+    "about": {
+      "label": "About Us",
+      "title": "Welcome to Powerton Engineering Pvt. Ltd.",
+      "visualHeading": "Engineering Excellence",
+      "visualDescription": "Professional Indian engineers working on industrial automation and control systems",
+      "description": "Your trusted partner in delivering high-quality engineering solutions and services. Founded with a vision to empower industries through innovation and excellence, we specialize in providing a comprehensive range of electrical and instrumentation products.",
+      "features": {
+        "electrical": {
+          "title": "Electrical Systems",
+          "description": "Advanced electrical engineering solutions for industrial applications"
+        },
+        "mechanical": {
+          "title": "Mechanical Solutions", 
+          "description": "Precision mechanical engineering for optimal performance"
+        },
+        "solar": {
+          "title": "Solar Technology",
+          "description": "Sustainable energy solutions with cutting-edge solar technology"
+        },
+        "tools": {
+          "title": "Industrial Tools",
+          "description": "Professional-grade tools and equipment for industrial applications"
+        }
+      }
+    },
+    "projects": {
+      "label": "Our Projects",
+      "title": "Engineering Excellence in Action",
+      "description": "Showcasing our expertise through successfully delivered projects across diverse industries",
+      "completed": "Completed in",
+      "keyFeatures": "Key Features",
+      "viewAllProjects": "View All Projects",
+      "featured": "Featured"
+    },
+    "clients": {
+      "label": "Our Clients",
+      "title": "Trusted by Industry Leaders",
+      "description": "Building lasting partnerships with leading companies across diverse industries"
     },
     "services": {
       "label": "Our Services",
@@ -267,7 +307,8 @@
       "subtitle": "Comprehensive industrial automation, electrical engineering, and instrumentation solutions designed to optimize your operations and drive business success."
     },
     "whyChoose": {
-      "title": "Why Choose Powerton Engineering?"
+      "title": "Why Choose Powerton Engineering?",
+      "description": "With {{yearsExperience}} years of experience and a commitment to excellence, we deliver reliable solutions that drive your business forward."
     },
     "benefits": {
       "expertTeam": {
@@ -607,6 +648,7 @@
         "service": "Global Service Coverage"
       },
       "stats": {
+        "heading": "Company Statistics and Achievements",
         "yearsExperience": "Years Experience",
         "projectsCompleted": "Projects Completed",
         "happyClients": "Happy Clients",
@@ -1082,6 +1124,7 @@
         "service": "Global Service Coverage"
       },
       "stats": {
+        "heading": "Company Statistics and Achievements",
         "yearsExperience": "Years Experience",
         "projectsCompleted": "Projects Completed",
         "happyClients": "Happy Clients",

@@ -9,24 +9,24 @@ import { getProductImageSrc, getFileBaseName } from '@/assets/images';
 import { useTranslation } from 'react-i18next';
 
 const HandToolsPage = () => {
-  const { t } = useTranslation(['products', 'common']);
+  const { t } = useTranslation(['products', 'common', 'products-data']);
   const products = [
     {
-      name: "Professional Wrench Sets",
-      description: "Complete sets of combination and adjustable wrenches",
-      features: ["Chrome Vanadium Steel", "Metric & SAE Sizes", "Professional Grade", "Lifetime Warranty"],
+      name: t('products-data:handTools.wrenchSets.name'),
+      description: t('products-data:handTools.wrenchSets.description'),
+      features: t('products-data:handTools.wrenchSets.features', { returnObjects: true }) as string[],
       image: getProductImageSrc(getFileBaseName())
     },
     {
-      name: "Precision Screwdriver Sets",
-      description: "High-quality screwdrivers for precision applications",
-      features: ["Ergonomic Handles", "Magnetic Tips", "Multiple Head Types", "Anti-Slip Grip"],
+      name: t('products-data:handTools.screwdriverSets.name'),
+      description: t('products-data:handTools.screwdriverSets.description'),
+      features: t('products-data:handTools.screwdriverSets.features', { returnObjects: true }) as string[],
       image: getProductImageSrc(getFileBaseName())
     },
     {
-      name: "Industrial Tool Kits",
-      description: "Comprehensive tool kits for industrial maintenance",
-      features: ["Complete Tool Set", "Organized Storage", "Heavy-Duty Case", "Professional Quality"],
+      name: t('products-data:handTools.toolKits.name'),
+      description: t('products-data:handTools.toolKits.description'),
+      features: t('products-data:handTools.toolKits.features', { returnObjects: true }) as string[],
       image: getProductImageSrc(getFileBaseName())
     }
   ];
@@ -47,18 +47,18 @@ const HandToolsPage = () => {
             <Link href="/products/industrial-tools-tackles">
               <Button variant="ghost" className="mb-6 hover:bg-white/10 text-white">
                 <ArrowLeft className="mr-2 h-4 w-4" />
-                Back to Industrial Tools & Tackles
+                {t('common:navigation.backToIndustrialTools')}
               </Button>
             </Link>
-            <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-6">{t('products:productPages.handTools.title', 'Hand Tools')}</h1>
+            <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-6">{t('products:productPages.handTools.title')}</h1>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto mb-8">
-              Professional-grade hand tools for industrial maintenance and manufacturing applications
+              {t('products:productPages.handTools.subtitle')}
             </p>
             <div className="flex flex-wrap justify-center gap-2 mb-8">
-              <Badge variant="secondary">{t('products:badges.precisionTools', 'Precision Tools')}</Badge>
-              <Badge variant="secondary">{t('products:badges.durableConstruction', 'Durable Construction')}</Badge>
-              <Badge variant="secondary">{t('products:badges.ergonomicDesign', 'Ergonomic Design')}</Badge>
-              <Badge variant="secondary">{t('products:badges.professionalGrade', 'Professional Grade')}</Badge>
+              <Badge variant="secondary">{t('common:badges.precisionTools')}</Badge>
+              <Badge variant="secondary">{t('common:badges.durableConstruction')}</Badge>
+              <Badge variant="secondary">{t('common:badges.ergonomicDesign')}</Badge>
+              <Badge variant="secondary">{t('common:badges.professionalGrade')}</Badge>
             </div>
           </div>
         </div>

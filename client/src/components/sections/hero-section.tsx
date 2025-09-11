@@ -165,7 +165,7 @@ export default function HeroSection() {
         aria-labelledby="stats-heading"
       >
         <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8 py-8">
-          <h2 id="stats-heading" className="sr-only">Company Statistics and Achievements</h2>
+          <h2 id="stats-heading" className="sr-only">{t('pages:home.hero.stats.heading')}</h2>
           <StaggeredList 
             className="grid grid-cols-2 lg:grid-cols-4 gap-8 text-center"
             stagger={0.1}

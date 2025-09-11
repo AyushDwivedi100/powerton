@@ -9,25 +9,25 @@ import liftingEquipmentImage from '@assets/generated_images/Professional_lifting
 import { useTranslation } from 'react-i18next';
 
 const LiftingEquipmentPage = () => {
-  const { t } = useTranslation(['common', 'products']);
+  const { t } = useTranslation(['common', 'products', 'products-data']);
   
   const products = [
     {
-      name: "Chain Hoists & Slings",
-      description: "Manual and electric chain hoists for heavy lifting",
-      features: ["1-20 Ton Capacity", "Electric/Manual", "Safety Hooks", "Overload Protection"],
+      name: t('products-data:liftingEquipment.chainHoists.name'),
+      description: t('products-data:liftingEquipment.chainHoists.description'),
+      features: t('products-data:liftingEquipment.chainHoists.features', { returnObjects: true }) as string[],
       image: getProductImageSrc(getFileBaseName())
     },
     {
-      name: "Wire Rope & Cables",
-      description: "High-strength wire rope for lifting applications",
-      features: ["Galvanized Steel", "Multiple Lay Types", "Various Diameters", "IWRC Core"],
+      name: t('products-data:liftingEquipment.wireRope.name'),
+      description: t('products-data:liftingEquipment.wireRope.description'),
+      features: t('products-data:liftingEquipment.wireRope.features', { returnObjects: true }) as string[],
       image: getProductImageSrc(getFileBaseName())
     },
     {
-      name: "Lifting Hardware",
-      description: "Shackles, hooks, and rigging hardware",
-      features: ["Stainless Steel", "Safety Pins", "Load Rated", "ANSI/ASME Standards"],
+      name: t('products-data:liftingEquipment.liftingHardware.name'),
+      description: t('products-data:liftingEquipment.liftingHardware.description'),
+      features: t('products-data:liftingEquipment.liftingHardware.features', { returnObjects: true }) as string[],
       image: getProductImageSrc(getFileBaseName())
     }
   ];
@@ -48,25 +48,25 @@ const LiftingEquipmentPage = () => {
             <Link href="/products/industrial-tools-tackles">
               <Button variant="ghost" className="mb-6 hover:bg-white/10 text-white">
                 <ArrowLeft className="mr-2 h-4 w-4" />
-                {t('common:buttons.backTo', 'Back to {{category}}', { category: 'Industrial Tools & Tackles' })}
+                {t('common:navigation.backToIndustrialTools')}
               </Button>
             </Link>
-            <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-6">{t('products:productPages.liftingEquipment.title', 'Lifting Equipment')}</h1>
+            <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-6">{t('products:productPages.liftingEquipment.title')}</h1>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto mb-8">
-              Industrial lifting and rigging equipment for safe material handling operations
+              {t('products:productPages.liftingEquipment.subtitle')}
             </p>
             <div className="flex flex-wrap justify-center gap-2 mb-8">
-              <Badge variant="secondary">{t('products:badges.chainHoists', 'Chain Hoists')}</Badge>
-              <Badge variant="secondary">{t('products:badges.wireRope', 'Wire Rope')}</Badge>
-              <Badge variant="secondary">{t('products:badges.riggingHardware', 'Rigging Hardware')}</Badge>
-              <Badge variant="secondary">{t('products:badges.loadRated', 'Load Rated')}</Badge>
+              <Badge variant="secondary">{t('common:badges.chainHoists')}</Badge>
+              <Badge variant="secondary">{t('common:badges.wireRope')}</Badge>
+              <Badge variant="secondary">{t('common:badges.riggingHardware')}</Badge>
+              <Badge variant="secondary">{t('common:badges.loadRated')}</Badge>
             </div>
           </div>
         </div>
       </div>
 
       <div className="py-16 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
-        <h2 className="text-3xl font-bold text-foreground text-center mb-12">Lifting Solutions</h2>
+        <h2 className="text-3xl font-bold text-foreground text-center mb-12">{t('common:headings.liftingEquipmentSeries')}</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {products.map((product, index) => (
             <Card key={index} className="hover:shadow-lg transition-shadow duration-300 hover:scale-[1.02] group cursor-pointer border border-border/50 hover:border-primary/50">

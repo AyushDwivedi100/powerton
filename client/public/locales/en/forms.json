@@ -195,7 +195,8 @@
     },
     "sections": {
       "requiredServices": "Required Services *",
-      "contactInfo": "Contact Information"
+      "contactInfo": "Contact Information",
+      "technicalSpecifications": "Technical Specifications"
     },
     "fields": {
       "name": {
@@ -228,9 +229,35 @@
       "foodProcessing": "Food Processing",
       "pharmaceutical": "Pharmaceutical",
       "chemical": "Chemical",
+      "oilGas": "Oil & Gas",
       "renewableEnergy": "Renewable Energy",
       "infrastructure": "Infrastructure",
       "other": "Other"
+    },
+    "projectScale": {
+      "small": "Small Scale (< 10 I/O points)",
+      "medium": "Medium Scale (10-100 I/O points)",
+      "large": "Large Scale (100-500 I/O points)",
+      "enterprise": "Enterprise (500+ I/O points)"
+    },
+    "buttons": {
+      "submitRequest": "Submit Quote Request",
+      "callUrgent": "Call for Urgent Requirements",
+      "emailRequirements": "Email Requirements"
+    },
+    "process": {
+      "heading": "What happens next?",
+      "steps": {
+        "technicalReview": "Technical review within 24 hours",
+        "detailedProposal": "Detailed proposal with specifications",
+        "costBreakdown": "Cost breakdown and timeline",
+        "followUpCall": "Follow-up consultation call"
+      }
+    },
+    "assistance": {
+      "heading": "Need immediate assistance?",
+      "technicalTeam": "+91-94627-71662 (Technical Team)",
+      "email": "info@powertonengineering.com"
     }
   },
   "career": {

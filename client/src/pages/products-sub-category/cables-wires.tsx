@@ -6,25 +6,28 @@ import { Badge } from '@/components/ui/badge';
 import { ArrowLeft, Cable, Zap, Shield } from 'lucide-react';
 import electricalBgImage from '@assets/generated_images/Electrical_Components_Warehouse_31ec85d7.png';
 import { getProductImageSrc, getProductImageAlt } from '@/assets/images';
+import { useTranslation } from 'react-i18next';
 
 const CablesWiresPage = () => {
+  const { t } = useTranslation(['common', 'products', 'products-data']);
+  
   const products = [
     {
-      name: "Instrumentation Cables",
-      description: "Low voltage cables for instrumentation and control applications",
-      features: ["Shielded Construction", "Moisture Resistant", "Temperature Rated", "Multiple Pairs"],
+      name: t('products-data:cablesWires.instrumentation.name'),
+      description: t('products-data:cablesWires.instrumentation.description'),
+      features: t('products-data:cablesWires.instrumentation.features', { returnObjects: true }) as string[],
       image: getProductImageSrc('cables-wires')
     },
     {
-      name: "Power Distribution Cables",
-      description: "High voltage cables for power transmission and distribution",
-      features: ["XLPE Insulation", "Armored Construction", "Fire Resistant", "High Current Rating"],
+      name: t('products-data:cablesWires.powerDistribution.name'),
+      description: t('products-data:cablesWires.powerDistribution.description'),
+      features: t('products-data:cablesWires.powerDistribution.features', { returnObjects: true }) as string[],
       image: getProductImageSrc('cables-wires')
     },
     {
-      name: "Communication Cables",
-      description: "Data transmission cables for industrial communication networks",
-      features: ["Cat5e/Cat6", "Fiber Optic", "Industrial Grade", "EMI Shielding"],
+      name: t('products-data:cablesWires.communication.name'),
+      description: t('products-data:cablesWires.communication.description'),
+      features: t('products-data:cablesWires.communication.features', { returnObjects: true }) as string[],
       image: getProductImageSrc('cables-wires')
     }
   ];
@@ -45,25 +48,25 @@ const CablesWiresPage = () => {
             <Link href="/products/electrical-components">
               <Button variant="ghost" className="mb-6 hover:bg-white/10 text-white">
                 <ArrowLeft className="mr-2 h-4 w-4" />
-                Back to Electrical Components
+                {t('common:navigation.backToElectricalComponents')}
               </Button>
             </Link>
-            <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-6">Cables & Wires</h1>
+            <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-6">{t('products:productPages.cablesWires.title')}</h1>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto mb-8">
-              Industrial cables and wires for power transmission, instrumentation, and data communication
+              {t('products:productPages.cablesWires.subtitle')}
             </p>
             <div className="flex flex-wrap justify-center gap-2 mb-8">
-              <Badge variant="secondary">Power Cables</Badge>
-              <Badge variant="secondary">Instrumentation</Badge>
-              <Badge variant="secondary">Communication</Badge>
-              <Badge variant="secondary">Shielded</Badge>
+              <Badge variant="secondary">{t('common:badges.powerCables')}</Badge>
+              <Badge variant="secondary">{t('common:badges.instrumentation')}</Badge>
+              <Badge variant="secondary">{t('common:badges.communication')}</Badge>
+              <Badge variant="secondary">{t('common:badges.shielded')}</Badge>
             </div>
           </div>
         </div>
       </div>
 
       <div className="py-16 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
-        <h2 className="text-3xl font-bold text-foreground text-center mb-12">Cable Solutions</h2>
+        <h2 className="text-3xl font-bold text-foreground text-center mb-12">{t('common:headings.cableSolutions')}</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {products.map((product, index) => (
             <Card key={index} className="hover:shadow-lg transition-shadow duration-300 hover:scale-[1.02] group cursor-pointer border border-border/50 hover:border-primary/50">

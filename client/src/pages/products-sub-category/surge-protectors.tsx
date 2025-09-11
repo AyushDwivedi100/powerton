@@ -56,17 +56,17 @@ const SurgeProtectorsPage = () => {
 {t('pages:products.descriptions.surgeProtectors')}
             </p>
             <div className="flex flex-wrap justify-center gap-2 mb-8">
-              <Badge variant="secondary">{t('badges.lightningProtection')}</Badge>
-              <Badge variant="secondary">{t('badges.powerSurge')}</Badge>
-              <Badge variant="secondary">{t('badges.signalProtection')}</Badge>
-              <Badge variant="secondary">{t('badges.equipmentSafety')}</Badge>
+              <Badge variant="secondary">{t('common:badges.lightningProtection')}</Badge>
+              <Badge variant="secondary">{t('common:badges.powerSurge')}</Badge>
+              <Badge variant="secondary">{t('common:badges.signalProtection')}</Badge>
+              <Badge variant="secondary">{t('common:badges.equipmentSafety')}</Badge>
             </div>
           </div>
         </div>
       </div>
 
       <div className="py-16 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
-        <h2 className="text-3xl font-bold text-foreground text-center mb-12">{t('sections.surgeProtectionSolutions')}</h2>
+        <h2 className="text-3xl font-bold text-foreground text-center mb-12">{t('common:headings.surgeProtectionSolutions')}</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {products.map((product, index) => (
             <Card key={index} className="hover:shadow-lg transition-shadow duration-300 hover:scale-[1.02] group cursor-pointer border border-border/50 hover:border-primary/50">
