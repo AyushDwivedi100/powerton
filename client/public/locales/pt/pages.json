@@ -1,148 +1,167 @@
 {
   "home": {
-    "seo": {
-      "title": "Powerton Engineering - Automação Industrial e Painéis de Controle | Índia",
-      "description": "Fabricante líder de painéis de controle elétrico, sistemas de automação industrial e soluções de instrumentação. Serviços especializados de engenharia em toda a Índia com mais de 15 anos de experiência."
-    },
     "hero": {
       "title": {
-        "main": "Soluções Abrangentes para",
-        "highlight": "Sucesso Industrial"
+        "main": "[TRANSLATE] Comprehensive Solutions for",
+        "highlight": "[TRANSLATE] Industrial Success"
       },
-      "subtitle": "Nosso amplo portfólio de produtos e serviços oferece soluções abrangentes que impulsionam o sucesso industrial, garantindo que todos os aspectos de suas necessidades de engenharia sejam cobertos.",
+      "subtitle": "[TRANSLATE] Our broad portfolio of products and services provides all-encompassing solutions that drive industrial success, ensuring that every aspect of your engineering needs is covered.",
       "buttons": {
-        "exploreServices": "Explore Nossos Serviços",
-        "requestConsultation": "Solicitar Consulta"
+        "exploreServices": "[TRANSLATE] Explore Our Services",
+        "requestConsultation": "[TRANSLATE] Request Consultation"
       },
       "features": {
-        "experience": "15+ Anos de Experiência",
-        "support": "Suporte Técnico 24/7",
-        "service": "Serviço Pan-Índia"
+        "experience": "[TRANSLATE] 15+ Years Experience",
+        "support": "[TRANSLATE] 24/7 Technical Support",
+        "service": "[TRANSLATE] Global Service Coverage"
       },
       "stats": {
-        "yearsExperience": "Anos de Experiência",
-        "projectsCompleted": "Projetos Concluídos",
-        "happyClients": "Clientes Satisfeitos",
-        "supportAvailable": "Suporte Disponível"
+        "yearsExperience": "[TRANSLATE] Years Experience",
+        "projectsCompleted": "[TRANSLATE] Projects Completed",
+        "happyClients": "[TRANSLATE] Happy Clients",
+        "supportAvailable": "[TRANSLATE] Support Available"
       }
     },
     "services": {
-      "label": "Nossos Serviços",
-      "title": "Soluções especializadas para todas as necessidades, entregues com cuidado excepcional",
-      "description": "Desde automação de processos até contratos de manutenção, fornecemos soluções de engenharia abrangentes adaptadas aos seus requisitos industriais."
+      "label": "[TRANSLATE] Our Services",
+      "title": "[TRANSLATE] Expert Solutions for All Requirements, Delivered with Exceptional Care",
+      "description": "[TRANSLATE] From process automation to maintenance contracts, we provide comprehensive engineering solutions tailored to meet your industrial requirements."
     },
     "products": {
-      "label": "Nossos Produtos",
-      "title": "Soluções de Equipamentos de Automação Industrial",
-      "description": "Gama abrangente de produtos elétricos e de automação projetados para confiabilidade, eficiência e desempenho superior em ambientes industriais.",
-      "viewProducts": "Ver Produtos",
-      "viewCatalog": "Ver Catálogo Completo de Produtos"
-    },
-    "projects": {
-      "label": "Nossos Projetos",
-      "title": "Soluções de Engenharia Entregues com Sucesso",
-      "description": "Explore nosso portfólio de projetos concluídos que mostram nossa expertise em automação industrial e engenharia elétrica.",
-      "completed": "Concluído",
-      "keyFeatures": "Características Principais:",
-      "viewDetails": "Ver Detalhes",
-      "viewAllProjects": "Ver Todos os Projetos",
-      "downloadPortfolio": "Baixar Portfólio"
-    },
-    "clients": {
-      "label": "Nossos Clientes",
-      "title": "Confiado por Marcas e Organizações Líderes",
-      "description": "Fizemos parceria com líderes da indústria em vários setores para entregar soluções de engenharia excepcionais.",
-      "testimonialsTitle": "O que Nossos Clientes Dizem"
+      "label": "[TRANSLATE] Our Products",
+      "title": "[TRANSLATE] Industrial Automation Equipment Solutions",
+      "description": "[TRANSLATE] Comprehensive range of electrical and automation products designed for reliability, efficiency, and superior performance in industrial environments.",
+      "viewProducts": "[TRANSLATE] View Products",
+      "viewCatalog": "[TRANSLATE] View Complete Product Catalog"
     },
     "contact": {
-      "label": "Entre em Contato",
-      "title": "Vamos Discutir Suas Necessidades de Engenharia",
-      "description": "Pronto para começar seu próximo projeto? Entre em contato com nossa equipe especializada para soluções personalizadas e consultoria profissional.",
-      "getInTouch": "Entre em Contato",
+      "label": "[TRANSLATE] Contact Us",
+      "title": "[TRANSLATE] Let's Discuss Your Engineering Requirements",
+      "description": "[TRANSLATE] Ready to start your next project? Contact our expert team for customized solutions and professional consultation.",
+      "getInTouch": "[TRANSLATE] Get In Touch",
       "methods": {
         "phone": {
-          "title": "Telefone",
-          "description": "Disponível 24/7 para suporte de emergência"
+          "title": "[TRANSLATE] Phone",
+          "description": "[TRANSLATE] Available 24/7 for emergency support"
         },
         "email": {
-          "title": "Email",
-          "description": "Responderemos dentro de 24 horas"
+          "title": "[TRANSLATE] Email",
+          "description": "[TRANSLATE] We'll respond within 24 hours"
         },
         "address": {
-          "title": "Endereço",
-          "metro": "Metrô Mais Próximo"
+          "title": "[TRANSLATE] Address",
+          "metro": "[TRANSLATE] Nearest Metro"
         }
       }
+    },
+    "about": {
+      "label": "[TRANSLATE] About Us",
+      "title": "[TRANSLATE] Welcome to Powerton Engineering Pvt. Ltd.",
+      "description": "[TRANSLATE] Your trusted partner in delivering high-quality engineering solutions and services. Founded with a vision to empower industries through innovation and excellence, we specialize in providing a comprehensive range of electrical and instrumentation products.",
+      "visualHeading": "[TRANSLATE] Professional Engineering",
+      "visualDescription": "[TRANSLATE] Professional Indian engineers working on industrial automation and control systems",
+      "features": {
+        "electrical": {
+          "title": "[TRANSLATE] Electrical & Instrumentation",
+          "description": "[TRANSLATE] Complete range of control systems"
+        },
+        "mechanical": {
+          "title": "[TRANSLATE] Mechanical Pumps",
+          "description": "[TRANSLATE] Durable pump solutions & spares"
+        },
+        "solar": {
+          "title": "[TRANSLATE] Solar Solutions",
+          "description": "[TRANSLATE] Sustainable energy installations"
+        },
+        "tools": {
+          "title": "[TRANSLATE] Industrial Tools",
+          "description": "[TRANSLATE] Professional grade equipment"
+        }
+      },
+      "button": "[TRANSLATE] Learn More About Us"
+    },
+    "clients": {
+      "label": "[TRANSLATE] Our Clients",
+      "title": "[TRANSLATE] Trusted By Leading Brands and Organizations",
+      "description": "[TRANSLATE] We've partnered with industry leaders across various sectors to deliver exceptional engineering solutions.",
+      "testimonialsTitle": "[TRANSLATE] What Our Clients Say"
+    },
+    "projects": {
+      "label": "[TRANSLATE] Our Projects",
+      "title": "[TRANSLATE] Successfully Delivered Engineering Solutions",
+      "description": "[TRANSLATE] Explore our portfolio of completed projects showcasing our expertise in industrial automation and electrical engineering.",
+      "keyFeatures": "[TRANSLATE] Key Features:",
+      "completed": "[TRANSLATE] Completed",
+      "viewDetails": "[TRANSLATE] View Details",
+      "viewAllProjects": "[TRANSLATE] View All Projects",
+      "downloadPortfolio": "[TRANSLATE] Download Portfolio"
     }
   },
   "products": {
-    "seo": {
-      "title": "Catálogo de Produtos Industriais - Automação e Equipamentos Elétricos | Powerton Engineering",
-      "description": "Catálogo abrangente de produtos de automação industrial, componentes elétricos, instrumentação, sistemas solares, bombas e ferramentas. Equipamentos de qualidade para aplicações industriais."
+    "badges": {
+      "handTools": "Ferramentas Manuais",
+      "powerTools": "Ferramentas Elétricas",
+      "liftingEquipment": "Equipamento de Levantamento",
+      "safetyGear": "Equipamento de Segurança",
+      "touchscreen": "Tela Sensível ao Toque",
+      "industrialGrade": "Grau Industrial",
+      "realTimeDisplay": "Display em Tempo Real",
+      "multiProtocol": "Multi-Protocolo",
+      "heatingElements": "Elementos de Aquecimento",
+      "industrialOvens": "Fornos Industriais",
+      "heatTracing": "Rastreamento de Calor",
+      "temperatureControl": "Controle de Temperatura",
+      "precisionTools": "Ferramentas de Precisão",
+      "durableConstruction": "Construção Durável",
+      "ergonomicDesign": "Design Ergonômico",
+      "professionalGrade": "Grau Profissional"
+    },
+    "sections": {
+      "hmiSolutions": "Soluções HMI",
+      "heatingSolutions": "Soluções de Aquecimento",
+      "handToolCategories": "Categorias de Ferramentas Manuais",
+      "diaphragmPumpTypes": "Tipos de Bomba de Diafragma",
+      "calibrationSolutions": "Soluções de Calibração",
+      "industrialProducts": "Produtos Industriais"
+    },
+    "cta": {
+      "needHmiSolutions": "Precisa de Soluções HMI?",
+      "hmiDescription": "Nossos especialistas em HMI podem projetar interfaces de operador intuitivas para seus sistemas de automação.",
+      "contactHmiExperts": "Entre em Contato com Especialistas HMI",
+      "requestQuote": "Solicitar Orçamento",
+      "needHeatingolutions": "Precisa de Soluções de Aquecimento Industrial?",
+      "heatingDescription": "Nossos especialistas em aquecimento podem projetar sistemas de aquecimento personalizados para seus processos industriais.",
+      "contactHeatingExperts": "Entre em Contato com Especialistas em Aquecimento",
+      "needDiaphragmPumps": "Precisa de Soluções de Bomba de Diafragma?",
+      "diaphragmDescription": "Nossos engenheiros de bombas podem ajudá-lo a selecionar a bomba de diafragma certa para suas necessidades de manuseio químico.",
+      "contactPumpExperts": "Entre em Contato com Especialistas em Bombas",
+      "needCalibration": "Precisa de Serviços de Calibração?",
+      "calibrationDescription": "Nossos especialistas em calibração garantem que seus instrumentos atendam aos mais altos padrões de precisão.",
+      "contactCalibrationExperts": "Entre em Contato com Especialistas em Calibração"
     }
   },
   "services": {
-    "seo": {
-      "title": "Serviços Profissionais de Engenharia - Instalação, Manutenção e Automação | Powerton Engineering",
-      "description": "Serviços especializados de engenharia: programação PLC, sistemas SCADA, automação industrial, instalação de painéis elétricos, manutenção, calibração, soluções personalizadas e serviços EPC solares em toda a Índia."
-    },
     "hero": {
-      "title": "Serviços de Engenharia Profissional",
-      "subtitle": "Soluções abrangentes de automação industrial, engenharia elétrica e instrumentação projetadas para otimizar suas operações e impulsionar o sucesso empresarial."
-    },
-    "whyChoose": {
-      "title": "Por Que Escolher a Powerton Engineering?"
-    },
-    "benefits": {
-      "expertTeam": {
-        "title": "Equipe Especialista",
-        "description": "Profissionais certificados com ampla experiência na indústria"
-      },
-      "rapidResponse": {
-        "title": "Resposta Rápida",
-        "description": "Tempo médio de resposta de 2 horas para todas as solicitações de suporte"
-      },
-      "qualityAssured": {
-        "title": "Qualidade Garantida",
-        "description": "Processos certificados ISO e padrões de qualidade garantidos"
-      },
-      "clientFocused": {
-        "title": "Foco no Cliente",
-        "description": "Soluções personalizadas adaptadas aos seus requisitos específicos"
-      }
-    },
-    "cta": {
-      "title": "Pronto para Começar?",
-      "description": "Entre em contato conosco hoje para discutir os requisitos do seu projeto e obter uma solução personalizada."
+      "title": "[TRANSLATE] Professional Engineering Services",
+      "subtitle": "[TRANSLATE] Comprehensive solutions for all your industrial automation and electrical engineering needs"
     }
   },
   "notFound": {
     "seo": {
-      "title": "Página Não Encontrada (404) - Powerton Engineering",
-      "description": "A página que você está procurando não existe. Retorne à página inicial da Powerton Engineering ou explore nossos serviços e produtos de automação industrial."
+      "title": "[TRANSLATE] Page Not Found (404) - Powerton Engineering",
+      "description": "[TRANSLATE] The page you're looking for doesn't exist. Return to Powerton Engineering homepage or explore our industrial automation services and products."
     },
-    "title": "404",
-    "heading": "Página Não Encontrada",
-    "message": "Desculpe, a página que você está procurando não existe. Ela pode ter sido movida, excluída ou você digitou uma URL incorreta.",
-    "buttons": {
-      "homepage": "Ir para Início",
-      "support": "Contatar Suporte"
-    },
-    "quickLinks": "Links Rápidos",
-    "links": {
-      "products": "Produtos",
-      "services": "Serviços",
-      "projects": "Projetos",
-      "about": "Sobre"
-    }
+    "title": "[TRANSLATE] 404"
   },
   "projects": {
-    "title": "Nossos Projetos",
-    "subtitle": "Excelência em Automação Industrial",
-    "showing": "Mostrando {{count}} de {{total}} projetos",
     "hero": {
-      "title": "Nossos Projetos",
-      "subtitle": "Descubra nossa excelência em engenharia através de mais de 1200 projetos bem-sucedidos em diversas indústrias, mostrando inovação, qualidade e confiabilidade."
+      "title": "Projetos e Portfólio",
+      "subtitle": "Excelência em Automação Industrial"
+    },
+    "showing": "Mostrando {{count}} de {{total}} projetos",
+    "tabs": {
+      "portfolio": "Portfólio de Projetos",
+      "showcase": "Projetos em Destaque"
     }
   },
   "ui": {
@@ -150,8 +169,142 @@
     "featuredProjects": "Projetos em Destaque"
   },
   "gallery": {
-    "title": "Galeria de Projetos",
-    "subtitle": "Mostra de Nossa Excelência em Engenharia"
+    "hero": {
+      "title": "[TRANSLATE] Our Gallery",
+      "subtitle": "[TRANSLATE] Discover our journey through images - from our dedicated team and modern facilities to successful projects and comprehensive product range."
+    },
+    "tabs": {
+      "company": "[TRANSLATE] Company & Team",
+      "projects": "[TRANSLATE] Projects",
+      "products": "[TRANSLATE] Products"
+    },
+    "company": {
+      "images": {
+        "modernFacility": {
+          "title": "[TRANSLATE] Modern Engineering Facility",
+          "description": "[TRANSLATE] Our state-of-the-art facility in Noida equipped with latest testing equipment"
+        },
+        "expertTeam": {
+          "title": "[TRANSLATE] Expert Engineering Team",
+          "description": "[TRANSLATE] Our skilled engineers working on industrial automation solutions"
+        },
+        "qualityLab": {
+          "title": "[TRANSLATE] Quality Control Laboratory",
+          "description": "[TRANSLATE] Advanced testing lab ensuring product quality and reliability"
+        },
+        "trainingCenter": {
+          "title": "[TRANSLATE] Training & Development Center",
+          "description": "[TRANSLATE] Continuous skill development for our technical team"
+        },
+        "supportCenter": {
+          "title": "[TRANSLATE] Customer Support Center",
+          "description": "[TRANSLATE] Dedicated 24/7 customer support and technical assistance"
+        },
+        "rdWing": {
+          "title": "[TRANSLATE] Research & Development Wing",
+          "description": "[TRANSLATE] Innovation hub for developing cutting-edge automation solutions"
+        }
+      },
+      "categories": {
+        "facility": "[TRANSLATE] Facility",
+        "team": "[TRANSLATE] Team",
+        "training": "[TRANSLATE] Training",
+        "support": "[TRANSLATE] Support",
+        "rd": "[TRANSLATE] R&D"
+      }
+    },
+    "projects": {
+      "images": {
+        "controlPanel": {
+          "title": "[TRANSLATE] Industrial Control Panel Installation",
+          "description": "[TRANSLATE] Complete automation system implementation for manufacturing plant",
+          "client": "[TRANSLATE] Manufacturing Industry"
+        },
+        "solarPlant": {
+          "title": "[TRANSLATE] Solar Power Plant - 1MW",
+          "description": "[TRANSLATE] Grid-tied solar installation with monitoring systems",
+          "client": "[TRANSLATE] Industrial Complex"
+        },
+        "scadaSystem": {
+          "title": "[TRANSLATE] SCADA System Implementation",
+          "description": "[TRANSLATE] Centralized monitoring and control system for water treatment plant",
+          "client": "[TRANSLATE] Water Authority"
+        },
+        "instrumentation": {
+          "title": "[TRANSLATE] Process Instrumentation Upgrade",
+          "description": "[TRANSLATE] Complete instrumentation overhaul for chemical processing unit",
+          "client": "[TRANSLATE] Chemical Industry"
+        },
+        "plcProgramming": {
+          "title": "[TRANSLATE] PLC Programming & Integration",
+          "description": "[TRANSLATE] Advanced PLC systems for production line automation",
+          "client": "[TRANSLATE] Automotive Sector"
+        },
+        "electricalPanel": {
+          "title": "[TRANSLATE] Electrical Panel Modernization",
+          "description": "[TRANSLATE] Safety compliance and efficiency improvement project",
+          "client": "[TRANSLATE] Manufacturing Unit"
+        }
+      },
+      "categories": {
+        "automation": "[TRANSLATE] Automation",
+        "solarEpc": "[TRANSLATE] Solar EPC",
+        "scada": "[TRANSLATE] SCADA",
+        "instrumentation": "[TRANSLATE] Instrumentation",
+        "plcProgramming": "[TRANSLATE] PLC Programming",
+        "electrical": "[TRANSLATE] Electrical"
+      }
+    },
+    "products": {
+      "images": {
+        "controlSystems": {
+          "title": "[TRANSLATE] Advanced Control Systems",
+          "description": "[TRANSLATE] State-of-the-art automation and control solutions"
+        },
+        "electricalPanels": {
+          "title": "[TRANSLATE] Electrical Control Panels",
+          "description": "[TRANSLATE] Custom-designed panels for industrial applications"
+        },
+        "instrumentation": {
+          "title": "[TRANSLATE] Precision Instrumentation",
+          "description": "[TRANSLATE] High-quality measurement and control instruments"
+        },
+        "pumps": {
+          "title": "[TRANSLATE] Industrial Pumps & Motors",
+          "description": "[TRANSLATE] Reliable pump solutions for various applications"
+        },
+        "solarProducts": {
+          "title": "[TRANSLATE] Solar Power Solutions",
+          "description": "[TRANSLATE] Complete solar energy systems and components"
+        },
+        "safetyEquipment": {
+          "title": "[TRANSLATE] Safety & Protection",
+          "description": "[TRANSLATE] Industrial safety equipment and protective devices"
+        }
+      },
+      "categories": {
+        "controlSystems": "[TRANSLATE] Control Systems",
+        "electricalPanels": "[TRANSLATE] Electrical Panels",
+        "instrumentation": "[TRANSLATE] Instrumentation",
+        "pumps": "[TRANSLATE] Pumps & Motors",
+        "solar": "[TRANSLATE] Solar Products",
+        "safety": "[TRANSLATE] Safety Equipment"
+      }
+    },
+    "ui": {
+      "viewLarger": "[TRANSLATE] View Larger",
+      "downloadImage": "[TRANSLATE] Download Image",
+      "requestDownload": "[TRANSLATE] Request Download",
+      "needCustomPortfolio": "[TRANSLATE] Need Custom Portfolio?",
+      "contactUs": "[TRANSLATE] Contact us for a personalized project portfolio showcasing our work relevant to your industry.",
+      "imageNotFound": "[TRANSLATE] Image not found",
+      "noImagesFound": "[TRANSLATE] No images found for this category",
+      "allCategories": "[TRANSLATE] All Categories",
+      "year": "[TRANSLATE] Year",
+      "location": "[TRANSLATE] Location",
+      "client": "[TRANSLATE] Client",
+      "category": "[TRANSLATE] Category"
+    }
   },
   "about": {
     "seo": {
@@ -219,66 +372,171 @@
       "exploreServices": "Explorar Nossos Serviços"
     }
   },
-  "services": {
-    "title": "Nossos Serviços",
-    "subtitle": "Soluções profissionais de engenharia"
-  },
   "contact": {
-    "title": "Entre em Contato",
-    "subtitle": "Vamos discutir suas necessidades de engenharia"
-  },
-  "news": {
-    "title": "Notícias",
-    "subtitle": "Atualizações",
-    "badges": {
-      "awardWinning": "Premiado",
-      "growingStrong": "Crescendo Forte",
-      "futureReady": "Pronto para o Futuro"
-    },
-    "latestNews": {
-      "excellenceAward": {
-        "title": "Powerton Engineering Ganha Prêmio de Excelência em Automação Industrial",
-        "excerpt": "Temos o orgulho de anunciar que a Powerton Engineering foi reconhecida com o prêmio 'Excelência em Automação Industrial' pela Sociedade de Engenharia Indiana por nossas soluções inovadoras em automação de processos.",
-        "category": "Prêmios"
-      },
-      "ntpcContract": {
-        "title": "Grande Contrato de Automação de Usina Garantido com NTPC",
-        "excerpt": "Powerton Engineering garantiu um contrato significativo no valor de ₹5 Crores com a NTPC para automação de sua nova usina térmica em Gujarat, com conclusão prevista para Q3 2025.",
-        "category": "Negócios"
-      },
-      "renewableExpansion": {
-        "title": "Expansão para Soluções de Automação de Energia Renovável",
-        "excerpt": "Como parte de nosso plano de crescimento estratégico, estamos expandindo nossos serviços para incluir soluções abrangentes de automação para projetos de energia solar e eólica, visando o crescente setor de energia renovável da Índia.",
-        "category": "Empresa"
+    "hero": {
+      "title": "[TRANSLATE] Contact Our Engineering Experts",
+      "subtitle": "[TRANSLATE] Ready to start your next project? Our expert team is here to help you with customized engineering solutions and professional consultation.",
+      "benefits": {
+        "consultation": "[TRANSLATE] Free Consultation",
+        "support": "[TRANSLATE] 24/7 Emergency Support",
+        "experience": "[TRANSLATE] 15+ Years Experience"
       }
     },
-    "achievements": {
-      "title": "Conquistas Recentes",
-      "list": [
-        "Prêmio de Excelência em Automação Industrial - Sociedade de Engenharia Indiana",
-        "Melhor Provedor de Serviços de Engenharia - Prêmios Automation World 2024",
-        "Prêmio de Implementação de Energia Verde - Reconhecimento MNRE",
-        "Inovação em Controle de Processos - Prêmios IET Índia",
-        "Prêmio de Excelência ao Cliente - Associação de Automação Industrial"
-      ]
+    "methods": {
+      "title": "[TRANSLATE] Multiple Ways to Reach Us",
+      "subtitle": "[TRANSLATE] Choose the communication method that works best for you. We're available 24/7 for emergency support."
+    },
+    "form": {
+      "title": "[TRANSLATE] Send Us a Message",
+      "subtitle": "[TRANSLATE] Get in touch with us for general inquiries, service information, or technical questions."
+    },
+    "contactMethods": {
+      "phone": {
+        "title": "[TRANSLATE] Call Us Directly",
+        "subtitle": "[TRANSLATE] Available 24/7 for support",
+        "description": "[TRANSLATE] Speak directly with our technical team"
+      },
+      "email": {
+        "title": "[TRANSLATE] Email Support",
+        "subtitle": "[TRANSLATE] Response within 24 hours",
+        "description": "[TRANSLATE] Send us detailed project requirements"
+      },
+      "whatsapp": {
+        "title": "[TRANSLATE] WhatsApp Support",
+        "subtitle": "[TRANSLATE] Quick response chat",
+        "description": "[TRANSLATE] Get instant answers to your questions"
+      },
+      "visit": {
+        "title": "[TRANSLATE] Visit Our Office",
+        "subtitle": "[TRANSLATE] By appointment only",
+        "description": "[TRANSLATE] Schedule a visit to our headquarters in Noida"
+      }
+    },
+    "map": {
+      "title": "[TRANSLATE] Powerton Engineering Office Location"
+    },
+    "office": {
+      "name": "[TRANSLATE] Corporate Headquarters",
+      "hours": "[TRANSLATE] Mon-Sat: 9:00 AM - 6:00 PM"
+    },
+    "services": {
+      "technical": {
+        "title": "[TRANSLATE] Technical Support",
+        "description": "[TRANSLATE] Expert technical assistance for all our products and services"
+      },
+      "customer": {
+        "title": "[TRANSLATE] Customer Success",
+        "description": "[TRANSLATE] Dedicated support to ensure your project success"
+      },
+      "onsite": {
+        "title": "[TRANSLATE] On-Site Support",
+        "description": "[TRANSLATE] Field engineering support at your location"
+      },
+      "remote": {
+        "title": "[TRANSLATE] Remote Support",
+        "description": "[TRANSLATE] Virtual assistance and remote system diagnostics"
+      }
+    },
+    "sections": {
+      "visitOffice": "[TRANSLATE] Visit Our Office",
+      "officeLocation": "[TRANSLATE] Office Location",
+      "supportServices": "[TRANSLATE] Support Services",
+      "businessHours": "[TRANSLATE] Business Hours & Availability",
+      "getDirections": "[TRANSLATE] Get Directions"
+    },
+    "formSection": {
+      "title": "[TRANSLATE] General Contact Form",
+      "description": "[TRANSLATE] For general inquiries, service information, or technical questions"
+    },
+    "businessHours": {
+      "regular": {
+        "title": "[TRANSLATE] Regular Hours",
+        "days": "[TRANSLATE] Monday - Saturday",
+        "time": "[TRANSLATE] 9:00 AM - 6:00 PM"
+      },
+      "emergency": {
+        "title": "[TRANSLATE] Emergency Support",
+        "availability": "[TRANSLATE] 24/7 Availability",
+        "days": "[TRANSLATE] All Days"
+      },
+      "email": {
+        "title": "[TRANSLATE] Email Response",
+        "time": "[TRANSLATE] Within 24 Hours",
+        "guarantee": "[TRANSLATE] Guaranteed"
+      }
+    },
+    "emergency": {
+      "title": "[TRANSLATE] Emergency Support",
+      "description": "[TRANSLATE] Critical system failure? Our emergency response team is available 24/7 to help minimize downtime.",
+      "hotline": "[TRANSLATE] Emergency Hotline"
+    }
+  },
+  "news": {
+    "hero": {
+      "title": "Notícias e Atualizações",
+      "subtitle": "Últimas Insights da Indústria"
+    },
+    "article": {
+      "backToNews": "Voltar às Notícias",
+      "share": "Compartilhar",
+      "author": "Equipe Powerton Engineering",
+      "categories": {
+        "projectSuccess": "Sucesso do Projeto",
+        "technology": "Tecnologia",
+        "industryNews": "Notícias da Indústria",
+        "companyUpdate": "Atualização da Empresa"
+      },
+      "sampleArticle": {
+        "title": "Powerton Engineering Completa Grande Projeto de Automação para Planta de Fabricação Líder",
+        "excerpt": "Implementou com sucesso sistema abrangente de automação industrial reduzindo custos operacionais em 30% e melhorando eficiência em 45%.",
+        "content": {
+          "projectOverview": "Visão Geral do Projeto",
+          "projectOverviewText": "Powerton Engineering completou com sucesso um projeto abrangente de automação industrial para uma das principais instalações de fabricação da Índia. Este projeto representa um marco significativo em nosso compromisso de entregar soluções de automação de ponta que impulsionam a excelência operacional.",
+          "keyAchievements": "Principais Conquistas",
+          "achievements": {
+            "costReduction": "30% de redução nos custos operacionais",
+            "efficiency": "45% de melhoria na eficiência de produção",
+            "safety": "Zero incidentes de segurança durante a implementação",
+            "uptime": "100% de tempo de atividade do sistema desde o comissionamento"
+          },
+          "technicalImplementation": "Implementação Técnica",
+          "technicalText": "O projeto envolveu a integração de sistemas PLC avançados, implementação SCADA e soluções abrangentes de instrumentação. Nossa equipe trabalhou em estreita colaboração com o cliente para garantir disrupção mínima às operações em andamento enquanto implementava tecnologia de automação de última geração.",
+          "technologiesUsed": "Tecnologias Utilizadas",
+          "technologies": {
+            "plc": "Sistemas PLC Schneider Electric",
+            "scada": "SCADA avançado com monitoramento em tempo real",
+            "iot": "Sensores IoT industriais e conectividade",
+            "maintenance": "Sistemas de manutenção preditiva",
+            "energy": "Gerenciamento e otimização de energia"
+          },
+          "clientTestimonial": "Depoimento do Cliente",
+          "testimonialText": "Powerton Engineering entregou além de nossas expectativas. O novo sistema de automação transformou nossas operações, e estamos vendo benefícios imediatos em eficiência e redução de custos. Sua abordagem profissional e expertise técnica foram excepcionais.",
+          "futureCollaboration": "Colaboração Futura",
+          "futureText": "Com base no sucesso desta implementação, o cliente já contratou a Powerton Engineering para a fase dois de sua jornada de automação, que expandirá o sistema para linhas de produção adicionais.",
+          "conclusionText": "Este projeto demonstra nossa capacidade de lidar com desafios complexos de automação industrial e entregar resultados mensuráveis que impactam diretamente a linha de fundo de nossos clientes."
+        }
+      },
+      "cta": {
+        "title": "Pronto para Transformar Suas Operações?",
+        "description": "Saiba como a Powerton Engineering pode ajudá-lo a alcançar resultados similares com nossas soluções de automação industrial.",
+        "contactTeam": "Entre em Contato com Nossa Equipe",
+        "requestQuote": "Solicitar Orçamento do Projeto"
+      },
+      "relatedArticles": {
+        "title": "Artigos Relacionados",
+        "iotTrends": {
+          "title": "Últimas Tendências na Implementação de IoT Industrial",
+          "excerpt": "Explorando como a Internet das Coisas Industrial está revolucionando os processos de fabricação..."
+        },
+        "energyManagement": {
+          "title": "Sistema de Gerenciamento de Energia Reduz Custos em 40%",
+          "excerpt": "Estudo de caso: Como nossa solução de gerenciamento de energia entregou economias excepcionais..."
+        },
+        "readMore": "Leia Mais →"
+      }
     }
   },
   "backToProducts": "Voltar aos Produtos",
-  "notFound": {
-    "heading": "Página Não Encontrada",
-    "message": "A página que você está procurando não existe. Ela pode ter sido movida, excluída ou você digitou a URL errada.",
-    "quickLinks": "Links rápidos para seções populares:",
-    "buttons": {
-      "homepage": "Voltar à Página Inicial",
-      "support": "Contatar Suporte"
-    },
-    "links": {
-      "products": "Produtos",
-      "services": "Serviços",
-      "projects": "Projetos",
-      "about": "Sobre"
-    }
-  },
   "portfolioDownload": {
     "seo": {
       "title": "Download de Portfólio - Powerton Engineering",
@@ -353,261 +611,9 @@
     }
   },
   "quote": {
-    "seo": {
-      "title": "Solicitar Orçamento - Powerton Engineering | Soluções Personalizadas de Automação Industrial",
-      "description": "Obtenha orçamento detalhado para seu projeto de automação industrial da Powerton Engineering. Consulta gratuita e resposta em 24-48 horas."
-    },
-    "benefits": {
-      "assessment": {
-        "title": "Avaliação Detalhada",
-        "description": "Avaliação abrangente do projeto e especificações técnicas"
-      },
-      "response": {
-        "title": "Resposta Rápida",
-        "description": "Receba seu orçamento detalhado em 24-48 horas"
-      },
-      "consultation": {
-        "title": "Consulta Especializada",
-        "description": "Consulta técnica gratuita com nossa equipe de engenharia"
-      },
-      "solutions": {
-        "title": "Soluções Personalizadas",
-        "description": "Soluções de engenharia sob medida para seus requisitos específicos"
-      }
-    },
-    "process": {
-      "title": "Nosso Processo de Orçamento",
-      "description": "Da solicitação inicial à proposta detalhada, garantimos um processo suave e transparente.",
-      "submit": {
-        "title": "Enviar Solicitação",
-        "description": "Preencha nosso formulário abrangente de orçamento ou use nossa calculadora de custos"
-      },
-      "review": {
-        "title": "Revisão Técnica",
-        "description": "Nossa equipe de engenharia analisa seus requisitos e especificações"
-      },
-      "assessment": {
-        "title": "Avaliação do Local",
-        "description": "Visita opcional no local para projetos complexos (se necessário)"
-      },
-      "quote": {
-        "title": "Orçamento Detalhado",
-        "description": "Receba preços abrangentes com cronograma e resultados"
-      }
-    },
-    "cta": {
-      "title": "Pronto para Começar?",
-      "description": "Entre em contato conosco hoje para sua solução de engenharia personalizada. Nossa equipe está pronta para ajudar a dar vida ao seu projeto."
-    }
-  },
-  "gallery": {
-    "section": {
-      "label": "Nosso Trabalho",
-      "title": "Excelência em Engenharia em Ação",
-      "description": "Explore nosso portfólio de instalações bem-sucedidas, projetos de automação e soluções industriais entregues em vários setores e indústrias."
-    },
-    "categories": {
-      "electricalSystems": "Sistemas Elétricos",
-      "automation": "Automação",
-      "safetyProtection": "Segurança e Proteção",
-      "renewableEnergy": "Energia Renovável",
-      "measurementSystems": "Sistemas de Medição",
-      "mechanicalSystems": "Sistemas Mecânicos"
-    },
-    "projects": {
-      "filter": {
-        "all": "Todos os Projetos",
-        "category": "Categoria",
-        "client": "Cliente",
-        "year": "Ano"
-      },
-      "details": {
-        "client": "Cliente",
-        "category": "Categoria"
-      }
-    },
-    "sections": {
-      "company": {
-        "title": "Nossa Empresa e Equipe",
-        "description": "Conheça nossa equipe dedicada e explore nossas instalações modernas que nos permitem entregar excelência em cada projeto."
-      },
-      "projects": {
-        "title": "Nossos Projetos Concluídos",
-        "description": "Explore nossas implementações de projetos bem-sucedidas em várias indústrias, mostrando nossa expertise e compromisso com a qualidade."
-      },
-      "products": {
-        "title": "Nossos Produtos e Soluções",
-        "description": "Descubra nossa gama abrangente de produtos e soluções industriais de fabricantes globais líderes."
-      }
-    }
-  },
-  "news": {
-    "hero": {
-      "title": "Notícias e Atualizações",
-      "subtitle": "Últimas Insights da Indústria"
-    },
-    "article": {
-      "backToNews": "Voltar às Notícias",
-      "share": "Compartilhar",
-      "author": "Equipe Powerton Engineering",
-      "categories": {
-        "projectSuccess": "Sucesso do Projeto",
-        "technology": "Tecnologia",
-        "industryNews": "Notícias da Indústria",
-        "companyUpdate": "Atualização da Empresa"
-      },
-      "sampleArticle": {
-        "title": "Powerton Engineering Completa Grande Projeto de Automação para Planta de Fabricação Líder",
-        "excerpt": "Implementou com sucesso sistema abrangente de automação industrial reduzindo custos operacionais em 30% e melhorando eficiência em 45%.",
-        "content": {
-          "projectOverview": "Visão Geral do Projeto",
-          "projectOverviewText": "Powerton Engineering completou com sucesso um projeto abrangente de automação industrial para uma das principais instalações de fabricação da Índia. Este projeto representa um marco significativo em nosso compromisso de entregar soluções de automação de ponta que impulsionam a excelência operacional.",
-          "keyAchievements": "Principais Conquistas",
-          "achievements": {
-            "costReduction": "30% de redução nos custos operacionais",
-            "efficiency": "45% de melhoria na eficiência de produção",
-            "safety": "Zero incidentes de segurança durante a implementação",
-            "uptime": "100% de tempo de atividade do sistema desde o comissionamento"
-          },
-          "technicalImplementation": "Implementação Técnica",
-          "technicalText": "O projeto envolveu a integração de sistemas PLC avançados, implementação SCADA e soluções abrangentes de instrumentação. Nossa equipe trabalhou em estreita colaboração com o cliente para garantir disrupção mínima às operações em andamento enquanto implementava tecnologia de automação de última geração.",
-          "technologiesUsed": "Tecnologias Utilizadas",
-          "technologies": {
-            "plc": "Sistemas PLC Schneider Electric",
-            "scada": "SCADA avançado com monitoramento em tempo real",
-            "iot": "Sensores IoT industriais e conectividade",
-            "maintenance": "Sistemas de manutenção preditiva",
-            "energy": "Gerenciamento e otimização de energia"
-          },
-          "clientTestimonial": "Depoimento do Cliente",
-          "testimonialText": "Powerton Engineering entregou além de nossas expectativas. O novo sistema de automação transformou nossas operações, e estamos vendo benefícios imediatos em eficiência e redução de custos. Sua abordagem profissional e expertise técnica foram excepcionais.",
-          "futureCollaboration": "Colaboração Futura",
-          "futureText": "Com base no sucesso desta implementação, o cliente já contratou a Powerton Engineering para a fase dois de sua jornada de automação, que expandirá o sistema para linhas de produção adicionais.",
-          "conclusionText": "Este projeto demonstra nossa capacidade de lidar com desafios complexos de automação industrial e entregar resultados mensuráveis que impactam diretamente a linha de fundo de nossos clientes."
-        }
-      },
-      "cta": {
-        "title": "Pronto para Transformar Suas Operações?",
-        "description": "Saiba como a Powerton Engineering pode ajudá-lo a alcançar resultados similares com nossas soluções de automação industrial.",
-        "contactTeam": "Entre em Contato com Nossa Equipe",
-        "requestQuote": "Solicitar Orçamento do Projeto"
-      },
-      "relatedArticles": {
-        "title": "Artigos Relacionados",
-        "iotTrends": {
-          "title": "Últimas Tendências na Implementação de IoT Industrial",
-          "excerpt": "Explorando como a Internet das Coisas Industrial está revolucionando os processos de fabricação..."
-        },
-        "energyManagement": {
-          "title": "Sistema de Gerenciamento de Energia Reduz Custos em 40%",
-          "excerpt": "Estudo de caso: Como nossa solução de gerenciamento de energia entregou economias excepcionais..."
-        },
-        "readMore": "Leia Mais →"
-      }
-    }
-  },
-  "projects": {
-    "hero": {
-      "title": "Projetos e Portfólio",
-      "subtitle": "Excelência em Automação Industrial"
-    },
-    "showing": "Mostrando {{count}} de {{total}} projetos",
-    "tabs": {
-      "portfolio": "Portfólio de Projetos",
-      "showcase": "Projetos em Destaque"
-    }
-  },
-  "quote": {
-    "hero": {
-      "title": "Orçamento de Engenharia",
-      "subtitle": "Obtenha consulta de engenharia profissional e estimativas de custos",
-      "benefits": {
-        "consultation": "Consulta Gratuita",
-        "estimates": "Estimativas de Custo Instantâneas",
-        "response": "Resposta em 24-48 Horas",
-        "noCosts": "Sem Custos Ocultos"
-      }
-    },
-    "method": {
-      "title": "Escolha Seu Método de Orçamento",
-      "description": "Obtenha estimativas de custo instantâneas com nossa calculadora ou solicite um orçamento personalizado detalhado de nossa equipe de engenharia.",
-      "calculator": "Calculadora de Custos",
-      "request": "Solicitar Orçamento"
-    },
-    "calculator": {
-      "title": "Calculadora Avançada de Custos",
-      "description": "Estamos dando os toques finais em nossa ferramenta inteligente de estimativa de custos. Este recurso fornecerá preços instantâneos e precisos para seus projetos de automação.",
-      "launchingSoon": "Lançamento em Breve",
-      "useQuoteForm": "Para orçamentos imediatos, use nosso formulário detalhado de orçamento",
-      "getQuoteNow": "Obter Orçamento Agora",
-      "projectTitle": "Calculadora de Custos do Projeto",
-      "stepOf": "Passo {{current}} de {{total}}"
-    }
-  },
-  "sitemap": {
-    "quickActions": {
-      "title": "Precisa de Ajuda para Encontrar Algo?",
-      "description": "Não consegue encontrar o que está procurando? Entre em contato conosco diretamente ou use nosso chatbot inteligente disponível em cada página.",
-      "contactUs": "Entre em Contato",
-      "requestQuote": "Solicitar Orçamento"
-    }
-  },
-  "products": {
-    "badges": {
-      "handTools": "Ferramentas Manuais",
-      "powerTools": "Ferramentas Elétricas",
-      "liftingEquipment": "Equipamento de Levantamento",
-      "safetyGear": "Equipamento de Segurança",
-      "touchscreen": "Tela Sensível ao Toque",
-      "industrialGrade": "Grau Industrial",
-      "realTimeDisplay": "Display em Tempo Real",
-      "multiProtocol": "Multi-Protocolo",
-      "heatingElements": "Elementos de Aquecimento",
-      "industrialOvens": "Fornos Industriais",
-      "heatTracing": "Rastreamento de Calor",
-      "temperatureControl": "Controle de Temperatura",
-      "precisionTools": "Ferramentas de Precisão",
-      "durableConstruction": "Construção Durável",
-      "ergonomicDesign": "Design Ergonômico",
-      "professionalGrade": "Grau Profissional"
-    },
-    "sections": {
-      "hmiSolutions": "Soluções HMI",
-      "heatingSolutions": "Soluções de Aquecimento",
-      "handToolCategories": "Categorias de Ferramentas Manuais",
-      "diaphragmPumpTypes": "Tipos de Bomba de Diafragma",
-      "calibrationSolutions": "Soluções de Calibração",
-      "industrialProducts": "Produtos Industriais"
-    },
-    "cta": {
-      "needHmiSolutions": "Precisa de Soluções HMI?",
-      "hmiDescription": "Nossos especialistas em HMI podem projetar interfaces de operador intuitivas para seus sistemas de automação.",
-      "contactHmiExperts": "Entre em Contato com Especialistas HMI",
-      "requestQuote": "Solicitar Orçamento",
-      "needHeatingolutions": "Precisa de Soluções de Aquecimento Industrial?",
-      "heatingDescription": "Nossos especialistas em aquecimento podem projetar sistemas de aquecimento personalizados para seus processos industriais.",
-      "contactHeatingExperts": "Entre em Contato com Especialistas em Aquecimento",
-      "needDiaphragmPumps": "Precisa de Soluções de Bomba de Diafragma?",
-      "diaphragmDescription": "Nossos engenheiros de bombas podem ajudá-lo a selecionar a bomba de diafragma certa para suas necessidades de manuseio químico.",
-      "contactPumpExperts": "Entre em Contato com Especialistas em Bombas",
-      "needCalibration": "Precisa de Serviços de Calibração?",
-      "calibrationDescription": "Nossos especialistas em calibração garantem que seus instrumentos atendam aos mais altos padrões de precisão.",
-      "contactCalibrationExperts": "Entre em Contato com Especialistas em Calibração"
-    }
-  },
-  "portfolio": {
-    "features": {
-      "completedProjects": "Projetos concluídos com sucesso em várias indústrias",
-      "highQuality": "Documentação de Alta Qualidade",
-      "highQualityDesc": "Portfólio profissional com imagens detalhadas de projetos",
-      "verifiedResults": "Resultados Verificados",
-      "verifiedResultsDesc": "Projetos reais com resultados mensuráveis e depoimentos de clientes"
-    }
-  },
-  "quote": {
     "projectSizes": {
       "small": "Pequeno (1-10 Pontos I/O)",
-      "medium": "Médio (11-100 Pontos I/O)", 
+      "medium": "Médio (11-100 Pontos I/O)",
       "large": "Grande (101-500 Pontos I/O)",
       "enterprise": "Empresarial (500+ Pontos I/O)"
     },
@@ -619,7 +625,7 @@
     },
     "requirements": {
       "plcProgramming": "Programação PLC",
-      "scadaDevelopment": "Desenvolvimento SCADA", 
+      "scadaDevelopment": "Desenvolvimento SCADA",
       "hmiDesign": "Design HMI",
       "networkIntegration": "Integração de Rede",
       "safetySystems": "Sistemas de Segurança",
@@ -632,7 +638,7 @@
       "cybersecurity": "Cibersegurança Avançada",
       "iotIntegration": "Integração IoT",
       "aiMl": "Análise IA/ML",
-      "predictiveMaintenance": "Manutenção Preditiva", 
+      "predictiveMaintenance": "Manutenção Preditiva",
       "energyManagement": "Gestão de Energia",
       "cloudIntegration": "Integração em Nuvem",
       "trainingSupport": "Treinamento e Suporte Estendido"
@@ -656,11 +662,21 @@
       "manufacturingAutomation": "Automação de Manufatura"
     }
   },
-  "home": {
-    "seo": {
-      "title": "Powerton Engineering - Automação Industrial e Painéis de Controle | Brasil",
-      "description": "Fabricante líder de painéis de controle elétrico, sistemas de automação industrial e soluções de instrumentação. Serviços especializados de engenharia com mais de 15 anos de experiência.",
-      "keywords": "painéis de controle elétrico, automação industrial, automação de processos, instrumentação, centro de controle de energia, centro de controle de motores, engenharia elétrica, Brasil, automação"
+  "sitemap": {
+    "quickActions": {
+      "title": "Precisa de Ajuda para Encontrar Algo?",
+      "description": "Não consegue encontrar o que está procurando? Entre em contato conosco diretamente ou use nosso chatbot inteligente disponível em cada página.",
+      "contactUs": "Entre em Contato",
+      "requestQuote": "Solicitar Orçamento"
+    }
+  },
+  "portfolio": {
+    "features": {
+      "completedProjects": "Projetos concluídos com sucesso em várias indústrias",
+      "highQuality": "Documentação de Alta Qualidade",
+      "highQualityDesc": "Portfólio profissional com imagens detalhadas de projetos",
+      "verifiedResults": "Resultados Verificados",
+      "verifiedResultsDesc": "Projetos reais com resultados mensuráveis e depoimentos de clientes"
     }
   }
 }

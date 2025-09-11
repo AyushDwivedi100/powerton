@@ -125,8 +125,8 @@ export const getProducts = (t: any) => [
   },
   {
     id: "electrical-components",
-    title: t('products:categories.electrical-components.title') || "Electrical Components",
-    description: t('products:categories.electrical-components.description') || "Comprehensive range of electrical components for power distribution and control systems.",
+    title: t('products:categories.electrical-components.title'),
+    description: t('products:categories.electrical-components.description'),
     icon: "Zap",
     image: getProductImage("electrical-components")?.src || "",
     features: [
@@ -170,8 +170,8 @@ export const getProducts = (t: any) => [
   },
   {
     id: "measurement-instruments",
-    title: t('products:categories.measurement-instruments.title') || "Measurement Instruments",
-    description: t('products:categories.measurement-instruments.description') || "Advanced measurement instruments for precise monitoring and data acquisition in industrial applications.",
+    title: t('products:categories.measurement-instruments.title'),
+    description: t('products:categories.measurement-instruments.description'),
     icon: "Activity",
     image: getProductImage("measurement-instruments")?.src || "",
     features: [

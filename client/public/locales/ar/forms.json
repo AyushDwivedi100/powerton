@@ -49,107 +49,23 @@
     }
   },
   "quote": {
-    "projectTypes": {
-      "newInstallation": "تركيب جديد",
-      "systemUpgrade": "ترقية النظام",
-      "retrofit": "تحديث",
-      "maintenance": "عقد صيانة",
-      "consultation": "استشارة تقنية",
-      "design": "التصميم والهندسة"
-    },
-    "timelines": {
-      "immediate": "فوري (< شهر واحد)",
-      "1-3-months": "1-3 أشهر",
-      "3-6-months": "3-6 أشهر",
-      "6-12-months": "6-12 شهر",
-      "1-year-plus": "أكثر من سنة واحدة"
-    },
-    "budgetRanges": {
-      "under-1-lakh": "أقل من ₹1 لاخ",
-      "1-5-lakh": "₹1-5 لاخ",
-      "5-10-lakh": "₹5-10 لاخ",
-      "10-25-lakh": "₹10-25 لاخ",
-      "25-50-lakh": "₹25-50 لاخ",
-      "50-lakh-plus": "₹50 لاخ+",
-      "discuss": "يفضل المناقشة"
-    },
     "validation": {
-      "nameRequired": "الاسم مطلوب",
-      "phoneRequired": "رقم الهاتف مطلوب",
-      "subjectRequired": "الموضوع مطلوب",
-      "messageRequired": "الرسالة مطلوبة",
-      "firstNameRequired": "الاسم الأول مطلوب",
-      "lastNameRequired": "اسم العائلة مطلوب",
-      "invalidEmail": "عنوان بريد إلكتروني غير صحيح",
-      "selectService": "يرجى اختيار خدمة",
-      "projectDetailsRequired": "تفاصيل المشروع مطلوبة",
-      "nameMin": "يجب أن يكون الاسم على الأقل حرفين",
-      "emailInvalid": "يرجى إدخال عنوان بريد إلكتروني صحيح",
-      "phoneMin": "يرجى إدخال رقم هاتف صحيح",
-      "companyRequired": "اسم الشركة مطلوب",
-      "projectTitleRequired": "عنوان المشروع مطلوب",
-      "projectTypeRequired": "يرجى اختيار نوع المشروع",
-      "timelineRequired": "يرجى اختيار الجدول الزمني المتوقع",
-      "servicesRequired": "يرجى اختيار خدمة واحدة على الأقل",
-      "specificationsMin": "يرجى تقديم مواصفات مفصلة (20 حرف كحد أدنى)"
-    },
-    "success": {
-      "title": "تم إرسال طلب الاقتباس بنجاح!",
-      "description": "سيقوم فريق الهندسة لدينا بمراجعة متطلباتك والرد خلال 24-48 ساعة."
-    },
-    "placeholders": {
-      "selectIndustry": "اختر الصناعة",
-      "selectProjectScale": "اختر نطاق المشروع",
-      "selectBudget": "اختر نطاق الميزانية (اختياري)",
-      "detailedRequirements": "يرجى تقديم مواصفات مفصلة تشمل:\n- المتطلبات والمعايير التقنية\n- مواصفات المعدات والكميات\n- متطلبات الأداء\n- الظروف البيئية\n- متطلبات الامتثال\n- أي اعتبارات خاصة...",
-      "additionalRequirements": "أي متطلبات إضافية أو شروط خاصة أو أسئلة...",
-      "preferredBrands": "مثل Siemens, Allen-Bradley, Schneider..."
-    },
-    "labels": {
-      "industryType": "نوع الصناعة",
-      "projectScale": "نطاق المشروع",
-      "approximateBudget": "الميزانية التقريبية",
-      "detailedRequirements": "المتطلبات المفصلة *",
-      "preferredBrands": "العلامات التجارية/المعايير المفضلة",
-      "additionalRequirements": "المتطلبات الإضافية",
-      "projectTitle": "عنوان المشروع *",
-      "projectType": "نوع المشروع *",
-      "expectedTimeline": "الجدول الزمني المتوقع *",
-      "phoneNumber": "رقم الهاتف *",
-      "companyName": "اسم الشركة *",
-      "projectInformation": "معلومات المشروع",
-      "budgetRange": "نطاق الميزانية"
+      "nameRequired": "[TRANSLATE] Name is required",
+      "phoneRequired": "[TRANSLATE] Phone number is required",
+      "subjectRequired": "[TRANSLATE] Subject is required",
+      "messageRequired": "[TRANSLATE] Message is required",
+      "firstNameRequired": "[TRANSLATE] First name is required",
+      "lastNameRequired": "[TRANSLATE] Last name is required",
+      "invalidEmail": "[TRANSLATE] Invalid email address",
+      "selectService": "[TRANSLATE] Please select a service",
+      "projectDetailsRequired": "[TRANSLATE] Project details are required"
     },
     "sections": {
-      "contactInfo": "معلومات الاتصال",
-      "requiredServices": "الخدمات المطلوبة *"
+      "contactInfo": "[TRANSLATE] Contact Information"
     },
     "error": {
-      "title": "فشل في إرسال طلب الاقتباس",
-      "description": "للمساعدة الفورية: {{phone}} أو البريد الإلكتروني: {{email}}"
-    },
-    "submitting": "إرسال طلب الاقتباس...",
-    "buttons": {
-      "getProfessionalQuote": "احصل على اقتباس احترافي"
-    },
-    "fields": {
-      "designation": {
-        "label": "التعيين"
-      },
-      "additionalRequirements": {
-        "label": "متطلبات إضافية"
-      }
-    },
-    "industries": {
-      "manufacturing": "التصنيع",
-      "powerGeneration": "توليد الطاقة",
-      "waterTreatment": "معالجة المياه",
-      "foodProcessing": "تصنيع الأغذية",
-      "pharmaceutical": "صيدلاني",
-      "chemical": "كيميائي",
-      "renewableEnergy": "الطاقة المتجددة",
-      "infrastructure": "البنية التحتية",
-      "other": "أخرى"
+      "title": "[TRANSLATE] Quote submission failed",
+      "description": "[TRANSLATE] For immediate assistance: {{phone}} or email: {{email}}"
     }
   },
   "career": {

@@ -3,7 +3,7 @@
   "subtitle": "Cikakkun Maganganun Injiniyan Masana'antu",
   "categories": {
     "automation": "Sarrafa Masana'antu",
-    "electrical": "Injiniyan Lantarki", 
+    "electrical": "Injiniyan Lantarki",
     "instrumentation": "Kayan Aiki da Sarrafa",
     "solar": "Maganganun Hasken Rana",
     "maintenance": "Kulawa da Tallafi"
@@ -40,52 +40,19 @@
   },
   "features": {
     "installation-commissioning": {
-      "site-preparation": "Shirya Wurin",
-      "professional-installation": "Shigarwa ta Ƙwararru",
-      "system-testing": "Gwada Tsari",
-      "documentation": "Cikakkun Takaddun"
+      "plc-dcs": "[TRANSLATE] PLC/DCS Installation",
+      "system-integration": "[TRANSLATE] System Integration",
+      "performance-testing": "[TRANSLATE] Performance Testing",
+      "compliance-certification": "[TRANSLATE] Compliance Certification"
     },
     "maintenance-repair": {
-      "preventive-maintenance": "Kulawa ta Rigakafi",
-      "emergency-repairs": "Gyara na Gaggawa",
-      "parts-replacement": "Maye Sassan",
-      "performance-optimization": "Inganta Aiki"
+      "preventive": "[TRANSLATE] Preventive Maintenance",
+      "emergency": "[TRANSLATE] Emergency Repairs (2hr)",
+      "replacement": "[TRANSLATE] Component Replacement",
+      "upgrades": "[TRANSLATE] System Upgrades"
     },
     "calibration-testing": {
-      "accuracy-testing": "Gwada Daidaici",
-      "compliance": "Bin Ƙa'idodi",
-      "certificates": "Takaddun Shaida",
-      "traceability": "Bin Diddigin"
-    },
-    "technical-support": {
-      "24-7-support": "Tallafi 24/7",
-      "remote-diagnostics": "Bincike ta Nesa",
-      "onsite-response": "Amsawa a Wurin",
-      "emergency-hotline": "Layin Gaggawa"
-    },
-    "custom-solutions": {
-      "mcc-panels": "Panelin MCC",
-      "process-automation": "Sarrafa Ayyuka",
-      "unique-applications": "Amfani na Musamman",
-      "end-to-end": "Daga Farawa zuwa Ƙarshe"
-    },
-    "consultation-training": {
-      "plc-programming": "Shirye-shiryen PLC",
-      "system-design": "Tsarin Tsari",
-      "isa-certified": "ISA da Shaida",
-      "hands-on": "Horarwa ta Hannu"
-    },
-    "supply-chain-management": {
-      "authorized-distributors": "Masu Rarraba da Izini",
-      "genuine-parts": "Sassan Asali",
-      "warranty": "Garanti",
-      "express-delivery": "Isar da Sauri"
-    },
-    "solar-epc": {
-      "mnre-approved": "MNRE ya Amince",
-      "capacity": "Iya 1MW-100MW",
-      "guarantee": "Garanti Shekaru 25",
-      "grid-connection": "Haɗin Grid"
+      "nabl-certified": "[TRANSLATE] NABL Certified Calibration"
     }
   }
 }

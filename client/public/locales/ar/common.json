@@ -22,41 +22,37 @@
     "ha": "Hausa"
   },
   "navigation": {
-    "backToProducts": "العودة إلى المنتجات",
-    "backToInstrumentationComponents": "العودة إلى مكونات الأجهزة",
-    "backToElectricalComponents": "العودة إلى المكونات الكهربائية",
-    "backToSolarProducts": "العودة إلى المنتجات الشمسية",
-    "backToMechanicalPumps": "العودة إلى المضخات الميكانيكية وقطع الغيار",
-    "backToMeasurementInstruments": "العودة إلى أدوات القياس",
-    "backToSafetyDevices": "العودة إلى أجهزة السلامة",
-    "backToIndustrialTools": "العودة إلى الأدوات الصناعية",
-    "backToAutomationSystems": "العودة إلى أنظمة الأتمتة",
-    "backToBLDC": "العودة إلى منتجات BLDC"
+    "backToProducts": "[TRANSLATE] Back to Products",
+    "backToElectricalComponents": "[TRANSLATE] Back to Electrical Components",
+    "backToSolarProducts": "[TRANSLATE] Back to Solar Products",
+    "backToMechanicalPumps": "[TRANSLATE] Back to Mechanical Pumps & Spares",
+    "backToMeasurementInstruments": "[TRANSLATE] Back to Measurement Instruments",
+    "backToIndustrialTools": "[TRANSLATE] Back to Industrial Tools & Tackles",
+    "backToAutomationSystems": "[TRANSLATE] Back to Automation & Control Systems",
+    "backToBLDC": "[TRANSLATE] Back to BLDC Products"
   },
   "buttons": {
-    "getQuote": "احصل على عرض سعر",
-    "learnMore": "تعلم أكثر",
-    "contact": "اتصل بنا",
-    "contactUs": "اتصل بنا",
-    "requestQuote": "طلب عرض سعر",
-    "viewAll": "عرض الكل",
-    "readMore": "اقرأ أكثر",
-    "viewDetails": "عرض التفاصيل",
-    "download": "تحميل",
-    "downloadCatalog": "تحميل الكتالوج",
-    "downloadBrochure": "تحميل الكتيب",
-    "downloadGuide": "تحميل الدليل",
-    "downloadDatasheet": "تحميل ورقة البيانات",
-    "downloadPortfolio": "تحميل الملف الشخصي",
-    "showMore": "إظهار المزيد",
-    "showFilters": "إظهار المرشحات",
-    "hideFilters": "إخفاء المرشحات",
-    "upload": "رفع",
-    "expertTeam": "فريق خبراء",
-    "successfulProjects": "مشاريع ناجحة",
-    "qualityProducts": "منتجات عالية الجودة",
-    "contactProtectionExperts": "اتصل بخبراء الحماية",
-    "contactSolarExperts": "اتصل بخبراء الطاقة الشمسية"
+    "downloadPortfolio": "[TRANSLATE] Download Portfolio",
+    "showFilters": "[TRANSLATE] Show Filters",
+    "readMore": "[TRANSLATE] Read More",
+    "downloadCatalog": "[TRANSLATE] Download Catalog",
+    "viewDetails": "[TRANSLATE] View Details",
+    "backTo": "[TRANSLATE] Back to {{category}}",
+    "backToBldcProducts": "[TRANSLATE] Back to BLDC Products",
+    "backToProducts": "[TRANSLATE] Back to Products",
+    "requestQuote": "[TRANSLATE] Request Quote",
+    "expertTeam": "[TRANSLATE] Expert Team",
+    "successfulProjects": "[TRANSLATE] Successful Projects",
+    "qualityProducts": "[TRANSLATE] Quality Products",
+    "sendMessage": "[TRANSLATE] Send Message",
+    "sending": "[TRANSLATE] Sending...",
+    "submit": "[TRANSLATE] Submit",
+    "viewProducts": "[TRANSLATE] View Products",
+    "viewServices": "[TRANSLATE] View Services",
+    "getInTouch": "[TRANSLATE] Get In Touch",
+    "exploreProducts": "[TRANSLATE] Explore Products",
+    "viewCatalog": "[TRANSLATE] View Catalog",
+    "quickQuote": "[TRANSLATE] Quick Quote"
   },
   "productSections": {
     "keyFeatures": "الميزات الرئيسية:",
@@ -72,62 +68,56 @@
     "energyStorageDescription": "يمكن لخبراء تخزين الطاقة لدينا تصميم نظام البطارية الأمثل لمنشأتك الشمسية."
   },
   "altTexts": {
-    "companyLogo": "شعار شركة باورتون للهندسة المحدودة - شركة هندسة الأتمتة الصناعية والكهرباء"
+    "contactBackground": "[TRANSLATE] ID-834: Contact center and customer support office background for engineering company",
+    "aboutBackground": "[TRANSLATE] ID-004: Powerton Engineering industrial automation facility with modern control systems"
   },
   "loading": "جاري التحميل...",
   "error": "حدث خطأ ما",
   "success": "نجح!",
   "messages": {
-    "toggleTheme": "تبديل السمة",
-    "close": "إغلاق",
-    "imageNotFound": "لم يتم العثور على الصورة",
-    "loading": "جاري التحميل...",
-    "error": "حدث خطأ",
-    "openMobileMenu": "فتح القائمة المحمولة"
-  },
-  "navigation": {
-    "backToInstrumentationComponents": "العودة إلى مكونات الأجهزة",
-    "phoneNumbers": "أرقام الهاتف",
-    "backToSafetyDevices": "العودة إلى أجهزة الأمان والحماية"
+    "toggleTheme": "تبديل الموضوع",
+    "close": "إغلاق"
   },
   "aria": {
-    "toggleNavigation": "تبديل مساعد التنقل",
-    "openLocation": "فتح موقع المكتب في خرائط جوجل",
-    "exploreServices": "استكشف خدمات الأتمتة الصناعية والهندسة لدينا",
-    "requestConsultation": "طلب استشارة مجانية لمشروع الهندسة الخاص بك",
-    "companyHighlights": "أبرز ما في الشركة والخدمات الرئيسية",
-    "performanceStats": "إحصائيات أداء الشركة",
-    "previousTestimonial": "الشهادة السابقة",
-    "nextTestimonial": "الشهادة التالية",
-    "mainNavigation": "التنقل الرئيسي",
-    "companyInfo": "معلومات الشركة وتنقل الموقع",
-    "goToHomepage": "الذهاب إلى الصفحة الرئيسية لهندسة باورتون",
-    "followLinkedIn": "تابع هندسة باورتون على لينكد إن",
-    "followFacebook": "تابع هندسة باورتون على فيسبوك",
-    "servicesNavigation": "تنقل الخدمات",
-    "productsNavigation": "تنقل المنتجات",
-    "callCompany": "الاتصال بهندسة باورتون",
-    "emailCompany": "إرسال بريد إلكتروني إلى هندسة باورتون",
-    "viewOfficeLocation": "عرض موقع مكتب هندسة باورتون على خرائط جوجل",
-    "officeLocationTitle": "موقع مكتب هندسة باورتون",
-    "controllerSystems": "أجهزة التحكم والمسجلات",
-    "controllerDescription": "أجهزة التحكم في العمليات وأنظمة تسجيل البيانات للتحكم الصناعي",
-    "plcSystems": "أنظمة PLC",
-    "processControllers": "أجهزة التحكم في العمليات",
-    "dataLoggers": "مسجلات البيانات",
-    "controlPanels": "لوحات التحكم",
-    "switchesIndicators": "المفاتيح والمؤشرات",
-    "switchesDescription": "المفاتيح الصناعية والمؤشرات ومعدات الإشارات",
-    "pushbuttonSwitches": "مفاتيح الضغط",
-    "selectorSwitches": "مفاتيح الاختيار",
-    "indicatorLights": "أضواء المؤشرات",
-    "emergencyStops": "توقفات الطوارئ",
-    "valvesActuators": "الصمامات والمحركات",
-    "valvesDescription": "صمامات التحكم والمحركات لأنظمة التحكم في العمليات",
-    "controlValves": "صمامات التحكم",
-    "pneumaticActuators": "المحركات الهوائية",
-    "electricActuators": "المحركات الكهربائية",
-    "valvePositioners": "أجهزة تحديد موضع الصمامات"
+    "goToHomepage": "[TRANSLATE] Go to Powerton Engineering homepage",
+    "followLinkedIn": "[TRANSLATE] Follow Powerton Engineering on LinkedIn",
+    "followFacebook": "[TRANSLATE] Follow Powerton Engineering on Facebook",
+    "servicesNavigation": "[TRANSLATE] Services navigation",
+    "productsNavigation": "[TRANSLATE] Products navigation",
+    "callCompany": "[TRANSLATE] Call Powerton Engineering",
+    "emailCompany": "[TRANSLATE] Email Powerton Engineering",
+    "viewOfficeLocation": "[TRANSLATE] View Powerton Engineering office location on Google Maps",
+    "officeLocationTitle": "[TRANSLATE] Powerton Engineering Office Location",
+    "controllerSystems": "[TRANSLATE] Controllers & Recorders",
+    "controllerDescription": "[TRANSLATE] Process controllers and data recording systems for industrial control",
+    "plcSystems": "[TRANSLATE] PLC Systems",
+    "processControllers": "[TRANSLATE] Process Controllers",
+    "dataLoggers": "[TRANSLATE] Data Loggers",
+    "controlPanels": "[TRANSLATE] Control Panels",
+    "switchesIndicators": "[TRANSLATE] Switches & Indicators",
+    "switchesDescription": "[TRANSLATE] Industrial switches, indicators, and signaling devices",
+    "pushbuttonSwitches": "[TRANSLATE] Pushbutton Switches",
+    "selectorSwitches": "[TRANSLATE] Selector Switches",
+    "indicatorLights": "[TRANSLATE] Indicator Lights",
+    "emergencyStops": "[TRANSLATE] Emergency Stops",
+    "valvesActuators": "[TRANSLATE] Valves & Actuators",
+    "valvesDescription": "[TRANSLATE] Control valves and actuators for process control systems",
+    "controlValves": "[TRANSLATE] Control Valves",
+    "pneumaticActuators": "[TRANSLATE] Pneumatic Actuators",
+    "electricActuators": "[TRANSLATE] Electric Actuators",
+    "valvePositioners": "[TRANSLATE] Valve Positioners",
+    "analyzers": "[TRANSLATE] Analyzers",
+    "analyzersDescription": "[TRANSLATE] Gas, liquid, and process analyzers for quality control",
+    "gasAnalyzers": "[TRANSLATE] Gas Analyzers",
+    "liquidAnalyzers": "[TRANSLATE] Liquid Analyzers",
+    "processAnalyzers": "[TRANSLATE] Process Analyzers",
+    "multiParameterSystems": "[TRANSLATE] Multi-parameter Systems",
+    "signalConditioners": "[TRANSLATE] Signal Conditioners",
+    "signalConditionersDescription": "[TRANSLATE] Signal processing and conditioning equipment for measurement systems",
+    "isolationAmplifiers": "[TRANSLATE] Isolation Amplifiers",
+    "signalConverters": "[TRANSLATE] Signal Converters",
+    "measuringTransducers": "[TRANSLATE] Measuring Transducers",
+    "noiseFilters": "[TRANSLATE] Noise Filters"
   },
   "badges": {
     "energyEfficient": "موفر للطاقة",
@@ -175,75 +165,31 @@
       "support": "فريق الدعم الفني لدينا هنا لمساعدتكم! يرجى وصف سؤالكم الفني أو مشكلتكم."
     }
   },
-  "aria": {
-    "analyzers": "أجهزة التحليل",
-    "analyzersDescription": "محللات الغاز والسوائل والعمليات لمراقبة الجودة",
-    "gasAnalyzers": "محللات الغاز",
-    "liquidAnalyzers": "محللات السوائل",
-    "processAnalyzers": "محللات العمليات",
-    "multiParameterSystems": "أنظمة متعددة المعاملات",
-    "signalConditioners": "مكيفات الإشارة",
-    "signalConditionersDescription": "معدات معالجة وتكييف الإشارات لأنظمة القياس",
-    "isolationAmplifiers": "مضخمات العزل",
-    "signalConverters": "محولات الإشارة",
-    "measuringTransducers": "أجهزة الاستشعار القياسية",
-    "noiseFilters": "مرشحات الضوضاء"
-  },
   "seo": {
-    "days": {
-      "monday": "الاثنين",
-      "tuesday": "الثلاثاء",
-      "wednesday": "الأربعاء",
-      "thursday": "الخميس",
-      "friday": "الجمعة",
-      "saturday": "السبت",
-      "sunday": "الأحد"
+    "powerton": {
+      "name": "[TRANSLATE] Powerton Engineering Pvt. Ltd.",
+      "description": "[TRANSLATE] Leading industrial automation and electrical engineering company serving clients globally. Specializing in power plant automation, solar installations, and manufacturing control systems.",
+      "keywords": "[TRANSLATE] Industrial Automation, Electrical Engineering, Power Plant, Solar Energy, Manufacturing, Control Systems, Instrumentation, SCADA, PLC, Automation Solutions, Electrical Installation, Industrial Control Panels, Process Automation, Power Distribution, Motor Control Centers, Electrical Maintenance, Industrial Electrical Services, Automation Consulting, Electrical Design, Power Systems",
+      "author": "[TRANSLATE] Powerton Engineering Team"
     },
-    "schemaTypes": {
-      "breadcrumbList": "قائمة التنقل التدريجي",
-      "listItem": "عنصر القائمة",
-      "faqPage": "صفحة الأسئلة الشائعة",
-      "question": "السؤال",
-      "answer": "الإجابة",
-      "itemList": "قائمة العناصر",
-      "service": "الخدمة",
-      "localBusiness": "الأعمال المحلية",
-      "openingHours": "مواصفات ساعات العمل"
+    "location": {
+      "name": "[TRANSLATE] Noida, Uttar Pradesh, India",
+      "region": "[TRANSLATE] Uttar Pradesh",
+      "country": "[TRANSLATE] India"
     }
   },
   "labels": {
-    "responseTime": "وقت الاستجابة",
-    "availability": "التوفر",
-    "coverage": "التغطية",
-    "technologies": "التقنيات",
-    "parameters": "المعايير",
-    "specifications": "المواصفات",
-    "applications": "التطبيقات",
-    "industries": "الصناعات",
-    "keyFeatures": "الميزات الرئيسية",
-    "includes": "يتضمن",
-    "category": "الفئة",
-    "status": "الحالة",
-    "industry": "الصناعة",
-    "popular": "شائع",
-    "duration": "المدة",
-    "projectsCompleted": "المشاريع المكتملة",
-    "satisfiedClients": "العملاء الراضون",
-    "yearsExperience": "سنوات الخبرة"
-  },
-  "buttons": {
-    "downloadPortfolio": "تحميل الملف الشخصي",
-    "showFilters": "إظهار المرشحات",
-    "quickQuote": "عرض سعر سريع"
-  },
-  "messages": {
-    "serviceNotFound": "لم يتم العثور على الخدمة",
-    "readyToStart": "مستعد للبدء؟",
-    "consultation": "اتصل بنا للحصول على استشارة مفصلة وحل مخصص.",
-    "availability": "الاثنين - السبت، دعم الطوارئ متاح",
-    "coverage": "تغطية الخدمة في جميع أنحاء الهند",
-    "needHelp": "تحتاج مساعدة في العثور على شيء ما؟",
-    "cantFind": "لا يمكنك العثور على ما تبحث عنه؟ اتصل بنا مباشرة أو استخدم روبوت الدردشة الذكي المتوفر في كل صفحة."
+    "category": "[TRANSLATE] Category",
+    "status": "[TRANSLATE] Status",
+    "industry": "[TRANSLATE] Industry",
+    "projectType": "[TRANSLATE] Project Type",
+    "popular": "[TRANSLATE] Popular",
+    "duration": "[TRANSLATE] Duration",
+    "keyFeatures": "[TRANSLATE] Key Features",
+    "projectsCompleted": "[TRANSLATE] Projects Completed",
+    "satisfiedClients": "[TRANSLATE] Satisfied Clients",
+    "yearsExperience": "[TRANSLATE] Years Experience",
+    "responseTime": "[TRANSLATE] Response Time"
   },
   "placeholders": {
     "selectProjectType": "اختر نوع المشروع",
@@ -267,56 +213,60 @@
     "briefProjectTitle": "عنوان موجز لمشروعك"
   },
   "projectCategories": {
-    "Power Plant": "محطة طاقة",
+    "Power Plant": "محطة كهرباء",
     "Manufacturing": "التصنيع",
-    "Solar": "طاقة شمسية",
+    "Solar": "الطاقة الشمسية",
     "Water Treatment": "معالجة المياه",
     "Process Automation": "أتمتة العمليات",
     "Power Systems": "أنظمة الطاقة"
   },
   "projects": {
-    "industrial-automation-demo": {
-      "title": "عرض توضيحي: نظام الأتمتة الصناعية",
-      "client": "عميل التصنيع المستقبلي",
-      "category": "أتمتة العمليات",
-      "description": "عرض توضيحي لقدرات الأتمتة التصنيعية الكاملة بما في ذلك تكامل PLC وأنظمة SCADA وحلول المراقبة في الوقت الفعلي.",
-      "location": "موقع المشروع TBD",
-      "duration": "12-18 شهراً",
-      "budget": "₹50-75 لاخ",
-      "status": "عرض القدرات",
-      "technologies": {
-        "plcProgramming": "برمجة PLC",
-        "scada": "سكادا",
-        "hmi": "HMI",
-        "industrialIot": "إنترنت الأشياء الصناعي"
-      },
+    "thermal-plant": {
+      "title": "[TRANSLATE] Thermal Power Plant Automation",
+      "description": "[TRANSLATE] Complete automation solution for 250MW thermal power plant including control panels, SCADA systems, and safety interlocks.",
+      "location": "[TRANSLATE] Uttar Pradesh",
+      "duration": "[TRANSLATE] 12 months",
       "highlights": {
-        "plcIntegration": "تكامل PLC",
-        "scadaSystems": "أنظمة سكادا",
-        "realtimeMonitoring": "مراقبة في الوقت الفعلي",
-        "processOptimization": "تحسين العمليات"
+        "scada": "[TRANSLATE] SCADA Implementation",
+        "safety": "[TRANSLATE] Safety Systems",
+        "control": "[TRANSLATE] Control Panels",
+        "monitoring": "[TRANSLATE] Performance Monitoring"
       }
     },
-    "power-distribution-demo": {
-      "title": "مثال: التحكم في توزيع الطاقة",
-      "client": "شريك الطاقة المستقبلي",
-      "category": "أنظمة الطاقة",
-      "description": "مثال على نظام توزيع الطاقة يعرض موازنة الأحمال التلقائية وقدرات المراقبة عن بُعد لمرافق توليد الطاقة.",
-      "location": "مواقع مختلفة",
-      "duration": "10-15 شهراً",
-      "budget": "₹1-2 كرور",
-      "status": "عرض القدرات",
-      "technologies": {
-        "mccPanels": "لوحات MCC",
-        "protectionSystems": "أنظمة الحماية",
-        "energyManagement": "إدارة الطاقة",
-        "remoteMonitoring": "مراقبة عن بُعد"
-      },
+    "pharma-plant": {
+      "title": "[TRANSLATE] Pharmaceutical Plant Control System",
+      "description": "[TRANSLATE] Advanced process control and monitoring system for pharmaceutical manufacturing with FDA compliance and data integrity features.",
+      "location": "[TRANSLATE] Maharashtra",
+      "duration": "[TRANSLATE] 8 months",
       "highlights": {
-        "loadBalancing": "موازنة الأحمال",
-        "protectionSystems": "أنظمة الحماية",
-        "energyManagement": "إدارة الطاقة",
-        "remoteControl": "التحكم عن بُعد"
+        "fda": "[TRANSLATE] FDA Compliance",
+        "data": "[TRANSLATE] Data Integrity",
+        "process": "[TRANSLATE] Process Control",
+        "quality": "[TRANSLATE] Quality Monitoring"
+      }
+    },
+    "solar-plant": {
+      "title": "[TRANSLATE] 10MW Solar Power Installation",
+      "description": "[TRANSLATE] Complete design and installation of grid-connected solar power plant with monitoring systems and grid synchronization equipment.",
+      "location": "[TRANSLATE] Rajasthan",
+      "duration": "[TRANSLATE] 6 months",
+      "highlights": {
+        "grid": "[TRANSLATE] Grid Connection",
+        "monitoring": "[TRANSLATE] Monitoring Systems",
+        "optimization": "[TRANSLATE] Performance Optimization",
+        "maintenance": "[TRANSLATE] Maintenance Planning"
+      }
+    },
+    "water-treatment": {
+      "title": "[TRANSLATE] Municipal Water Treatment Automation",
+      "description": "[TRANSLATE] Automated control system for water treatment plant serving 500,000 residents with real-time monitoring and quality control.",
+      "location": "[TRANSLATE] West Bengal",
+      "duration": "[TRANSLATE] 10 months",
+      "highlights": {
+        "monitoring": "[TRANSLATE] Real-time Monitoring",
+        "quality": "[TRANSLATE] Quality Control",
+        "automation": "[TRANSLATE] Automated Operations",
+        "remote": "[TRANSLATE] Remote Management"
       }
     }
   },
@@ -326,16 +276,10 @@
     "requirementsFeatures": "المتطلبات والميزات",
     "additionalInformation": "معلومات إضافية"
   },
-  "altTexts": {
-    "companyLogo": "شعار شركة Powerton Engineering المحدودة",
-    "contactCenterBackground": "مركز الاتصال وخلفية مكتب دعم العملاء لشركة الهندسة",
-    "aboutCompanyFacility": "منشأة Powerton Engineering للأتمتة الصناعية مع أنظمة التحكم الحديثة",
-    "officeLocation": "موقع مكتب Powerton Engineering"
-  },
   "sitemap": {
     "sections": {
       "mainPages": "الصفحات الرئيسية",
-      "servicesProjects": "الخدمات والمشاريع", 
+      "servicesProjects": "الخدمات والمشاريع",
       "productCategories": "فئات المنتجات",
       "resourcesTools": "الموارد والأدوات",
       "legalInformation": "المعلومات القانونية"
@@ -409,31 +353,6 @@
       "responseTime": "ساعتان"
     }
   },
-  "buttons": {
-    "getQuote": "احصل على عرض سعر",
-    "callNow": "اتصل الآن",
-    "emailUs": "راسلنا",
-    "learnMore": "اعرف المزيد",
-    "viewMore": "عرض المزيد",
-    "viewAll": "عرض الكل",
-    "contactUs": "اتصل بنا",
-    "getStarted": "ابدأ",
-    "downloadBrochure": "تحميل الكتيب"
-  },
-  "labels": {
-    "businessHours": "ساعات العمل",
-    "mondayToSaturday": "الاثنين - السبت",
-    "workingHours": "9:00 ص - 6:00 م",
-    "sunday": "الأحد",
-    "emergencySupport": "دعم الطوارئ فقط"
-  },
-  "altTexts": {
-    "companyLogo": "شعار شركة Powerton Engineering المحدودة"
-  },
-  "messages": {
-    "toggleTheme": "تبديل الموضوع",
-    "close": "إغلاق"
-  },
   "clients": {
     "sci-group": "شركة النقل البحري الهندية",
     "agribio": "أجريبايو ألمانيا",
@@ -454,33 +373,6 @@
   "copyright": {
     "text": "© {{year}} Powerton Engineering Pvt. Ltd. جميع الحقوق محفوظة.",
     "madeWith": "صُنع بـ 💙 من قبل فريق Powerton Engineering"
-  },
-  "seo": {
-    "defaultTitle": "Powerton Engineering المحدودة - لوحات التحكم الصناعية وحلول الأتمتة",
-    "defaultDescription": "الشركة الرائدة في تصنيع لوحات التحكم الكهربائية وأنظمة الأتمتة الصناعية وحلول الأجهزة. نخدم الصناعات في جميع أنحاء الهند بمنتجات وخدمات هندسية عالية الجودة.",
-    "defaultKeywords": "لوحات التحكم الكهربائية، الأتمتة الصناعية، مركز التحكم في الطاقة، مركز التحكم في المحركات، الأجهزة، الهندسة الكهربائية، الهند",
-    "companyName": "Powerton Engineering المحدودة",
-    "companyDescription": "الشركة الرائدة في تصنيع لوحات التحكم الكهربائية وحلول الأتمتة الصناعية",
-    "siteName": "Powerton Engineering",
-    "twitterHandle": "@powertoneng",
-    "businessAddress": {
-      "street": "الطابق الثاني، F-25، المبنى F، القطاع 6",
-      "city": "نويدا", 
-      "state": "أوتار براديش",
-      "postal": "201301",
-      "country": "الهند"
-    },
-    "contact": {
-      "phone": "+91-94627-71662",
-      "email": "info@powertonengineering.com"
-    },
-    "businessInfo": {
-      "industry": "الأتمتة الصناعية، الهندسة الكهربائية، الأجهزة",
-      "category": "الخدمات الهندسية، حلول الأتمتة، الأنظمة الكهربائية",
-      "targetAudience": "المهندسون الصناعيون، مدراء المصانع، محترفو الأتمتة",
-      "companyType": "مقدم حلول هندسية B2B",
-      "serviceArea": "الهند، خدمة شاملة في الهند"
-    }
   },
   "tags": {
     "award": "جائزة",
@@ -533,24 +425,54 @@
       "comment": "هندسة باورتون وفت بما وعدت به تماماً. نظام الأجهزة الذي قاموا بتركيبه يعمل بشكل مثالي لأكثر من عامين. دعمهم ما بعد البيع رائع ومتجاوب دائماً."
     }
   },
-  "projectCategories": {
-    "Power Plant": "محطة كهرباء",
-    "Manufacturing": "التصنيع",
-    "Solar": "الطاقة الشمسية",
-    "Water Treatment": "معالجة المياه",
-    "Process Automation": "أتمتة العمليات",
-    "Power Systems": "أنظمة الطاقة"
+  "products": {
+    "sections": {
+      "industrialProducts": "[TRANSLATE] Industrial Products",
+      "applications": "[TRANSLATE] {{product}} Applications",
+      "keyFeatures": "[TRANSLATE] Key Features:"
+    },
+    "badges": {
+      "highEfficiency": "[TRANSLATE] High Efficiency",
+      "variableSpeed": "[TRANSLATE] Variable Speed",
+      "lowNoise": "[TRANSLATE] Low Noise",
+      "smartControl": "[TRANSLATE] Smart Control",
+      "durable": "[TRANSLATE] Durable",
+      "energySaving": "[TRANSLATE] Energy Saving",
+      "reliable": "[TRANSLATE] Reliable",
+      "costEffective": "[TRANSLATE] Cost Effective"
+    }
   },
-  "aria": {
-    "toggleNavigation": "تبديل مساعد التنقل",
-    "openLocation": "فتح موقع المكتب في خرائط جوجل",
-    "exploreServices": "استكشف خدمات الأتمتة الصناعية والهندسة لدينا",
-    "requestConsultation": "طلب استشارة مجانية لمشروع الهندسة الخاص بك",
-    "companyHighlights": "أبرز ما في الشركة والخدمات الرئيسية",
-    "performanceStats": "إحصائيات أداء الشركة",
-    "previousTestimonial": "الشهادة السابقة",
-    "nextTestimonial": "الشهادة التالية",
-    "mainNavigation": "التنقل الرئيسي",
-    "companyInfo": "معلومات الشركة وتنقل الموقع"
+  "cta": {
+    "getQuote": "[TRANSLATE] Get Quote",
+    "callNow": "[TRANSLATE] Call Now",
+    "emailUs": "[TRANSLATE] Email Us",
+    "learnMore": "[TRANSLATE] Learn More",
+    "viewMore": "[TRANSLATE] View More",
+    "contactUs": "[TRANSLATE] Contact Us",
+    "getStarted": "[TRANSLATE] Get Started",
+    "downloadBrochure": "[TRANSLATE] Download Brochure"
+  },
+  "quote": {
+    "projectTypes": {
+      "processAutomation": "[TRANSLATE] Process Automation",
+      "powerControlSystems": "[TRANSLATE] Power Control Systems",
+      "instrumentationControl": "[TRANSLATE] Instrumentation & Control",
+      "solarAutomation": "[TRANSLATE] Solar Automation",
+      "buildingAutomation": "[TRANSLATE] Building Automation",
+      "manufacturingAutomation": "[TRANSLATE] Manufacturing Automation"
+    },
+    "industries": {
+      "manufacturing": "[TRANSLATE] Manufacturing",
+      "powerGeneration": "[TRANSLATE] Power Generation",
+      "oilGas": "[TRANSLATE] Oil & Gas",
+      "chemicalProcessing": "[TRANSLATE] Chemical Processing",
+      "waterTreatment": "[TRANSLATE] Water Treatment",
+      "foodBeverage": "[TRANSLATE] Food & Beverage",
+      "pharmaceutical": "[TRANSLATE] Pharmaceutical",
+      "renewableEnergy": "[TRANSLATE] Renewable Energy"
+    }
+  },
+  "common": {
+    "keyFeatures": "[TRANSLATE] Key Features"
   }
 }

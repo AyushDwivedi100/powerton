@@ -22,41 +22,32 @@
     "ha": "Hausa"
   },
   "navigation": {
-    "backToProducts": "Retour aux Produits",
-    "backToInstrumentationComponents": "Retour aux Composants d'Instrumentation",
-    "backToElectricalComponents": "Retour aux Composants Électriques",
-    "backToSolarProducts": "Retour aux Produits Solaires",
-    "backToMechanicalPumps": "Retour aux Pompes Mécaniques et Pièces",
-    "backToMeasurementInstruments": "Retour aux Instruments de Mesure",
-    "backToSafetyDevices": "Retour aux Dispositifs de Sécurité",
-    "backToIndustrialTools": "Retour aux Outils Industriels",
-    "backToAutomationSystems": "Retour aux Systèmes d'Automatisation",
-    "backToBLDC": "Retour aux Produits BLDC"
+    "backToProducts": "[TRANSLATE] Back to Products",
+    "backToElectricalComponents": "[TRANSLATE] Back to Electrical Components",
+    "backToSolarProducts": "[TRANSLATE] Back to Solar Products",
+    "backToMechanicalPumps": "[TRANSLATE] Back to Mechanical Pumps & Spares",
+    "backToMeasurementInstruments": "[TRANSLATE] Back to Measurement Instruments",
+    "backToIndustrialTools": "[TRANSLATE] Back to Industrial Tools & Tackles",
+    "backToAutomationSystems": "[TRANSLATE] Back to Automation & Control Systems",
+    "backToBLDC": "[TRANSLATE] Back to BLDC Products"
   },
   "buttons": {
-    "learnMore": "En savoir plus",
-    "getQuote": "Obtenir un devis",
-    "contact": "Nous contacter",
-    "contactUs": "Nous contacter",
-    "requestQuote": "Demander un devis",
-    "viewAll": "Voir tout",
-    "readMore": "Lire la suite",
-    "viewDetails": "Voir les détails",
-    "download": "Télécharger",
-    "downloadCatalog": "Télécharger le catalogue",
-    "downloadBrochure": "Télécharger la brochure",
-    "downloadGuide": "Télécharger le guide",
-    "downloadDatasheet": "Télécharger la fiche technique",
-    "downloadPortfolio": "Télécharger le portfolio",
-    "showMore": "Afficher plus",
-    "showFilters": "Afficher les filtres",
-    "hideFilters": "Masquer les filtres",
-    "upload": "Téléverser",
-    "expertTeam": "Équipe d'experts",
-    "successfulProjects": "Projets réussis",
-    "qualityProducts": "Produits de qualité",
-    "contactProtectionExperts": "Contacter les Experts en Protection",
-    "contactSolarExperts": "Contacter les Experts Solaires"
+    "backTo": "[TRANSLATE] Back to {{category}}",
+    "backToBldcProducts": "[TRANSLATE] Back to BLDC Products",
+    "backToProducts": "[TRANSLATE] Back to Products",
+    "requestQuote": "[TRANSLATE] Request Quote",
+    "expertTeam": "[TRANSLATE] Expert Team",
+    "successfulProjects": "[TRANSLATE] Successful Projects",
+    "qualityProducts": "[TRANSLATE] Quality Products",
+    "sendMessage": "[TRANSLATE] Send Message",
+    "sending": "[TRANSLATE] Sending...",
+    "submit": "[TRANSLATE] Submit",
+    "viewProducts": "[TRANSLATE] View Products",
+    "viewServices": "[TRANSLATE] View Services",
+    "getInTouch": "[TRANSLATE] Get In Touch",
+    "exploreProducts": "[TRANSLATE] Explore Products",
+    "viewCatalog": "[TRANSLATE] View Catalog",
+    "quickQuote": "[TRANSLATE] Quick Quote"
   },
   "productSections": {
     "keyFeatures": "Caractéristiques principales:",
@@ -75,17 +66,8 @@
   "error": "Quelque chose s'est mal passé",
   "success": "Succès !",
   "messages": {
-    "toggleTheme": "Changer de thème",
-    "close": "Fermer",
-    "imageNotFound": "Image non trouvée",
-    "loading": "Chargement...",
-    "error": "Une erreur s'est produite",
-    "openMobileMenu": "Ouvrir le menu mobile"
-  },
-  "navigation": {
-    "backToInstrumentationComponents": "Retour aux Composants d'Instrumentation",
-    "phoneNumbers": "Numéros de téléphone",
-    "backToSafetyDevices": "Retour aux Dispositifs de Sécurité et de Protection"
+    "toggleTheme": "Changer de Thème",
+    "close": "Fermer"
   },
   "aria": {
     "toggleNavigation": "Basculer l'assistant de navigation",
@@ -185,66 +167,30 @@
     }
   },
   "seo": {
-    "days": {
-      "monday": "Lundi",
-      "tuesday": "Mardi",
-      "wednesday": "Mercredi",
-      "thursday": "Jeudi",
-      "friday": "Vendredi",
-      "saturday": "Samedi",
-      "sunday": "Dimanche"
+    "powerton": {
+      "name": "[TRANSLATE] Powerton Engineering Pvt. Ltd.",
+      "description": "[TRANSLATE] Leading industrial automation and electrical engineering company serving clients globally. Specializing in power plant automation, solar installations, and manufacturing control systems.",
+      "keywords": "[TRANSLATE] Industrial Automation, Electrical Engineering, Power Plant, Solar Energy, Manufacturing, Control Systems, Instrumentation, SCADA, PLC, Automation Solutions, Electrical Installation, Industrial Control Panels, Process Automation, Power Distribution, Motor Control Centers, Electrical Maintenance, Industrial Electrical Services, Automation Consulting, Electrical Design, Power Systems",
+      "author": "[TRANSLATE] Powerton Engineering Team"
     },
-    "schemaTypes": {
-      "breadcrumbList": "Liste de navigation",
-      "listItem": "Élément de liste",
-      "faqPage": "Page FAQ",
-      "question": "Question",
-      "answer": "Réponse",
-      "itemList": "Liste d'éléments",
-      "service": "Service",
-      "localBusiness": "Entreprise locale",
-      "openingHours": "Spécification des heures d'ouverture"
+    "location": {
+      "name": "[TRANSLATE] Noida, Uttar Pradesh, India",
+      "region": "[TRANSLATE] Uttar Pradesh",
+      "country": "[TRANSLATE] India"
     }
   },
   "labels": {
-    "responseTime": "Temps de réponse",
-    "availability": "Disponibilité",
-    "coverage": "Couverture",
-    "technologies": "Technologies",
-    "parameters": "Paramètres",
-    "specifications": "Spécifications",
-    "applications": "Applications",
-    "industries": "Industries",
-    "keyFeatures": "Caractéristiques principales",
-    "includes": "Inclut",
-    "projectType": "Type de projet",
-    "industry": "Industrie",
-    "projectSize": "Taille du projet",
-    "timeline": "Calendrier",
-    "location": "Emplacement",
-    "budget": "Budget",
-    "requirements": "Exigences",
-    "category": "Catégorie",
-    "status": "Statut",
-    "popular": "Populaire",
-    "duration": "Durée",
-    "projectsCompleted": "Projets Terminés",
-    "satisfiedClients": "Clients Satisfaits",
-    "yearsExperience": "Années d'Expérience"
-  },
-  "buttons": {
-    "downloadPortfolio": "Télécharger le portfolio",
-    "showFilters": "Afficher les filtres",
-    "quickQuote": "Devis Rapide"
-  },
-  "messages": {
-    "serviceNotFound": "Service non trouvé",
-    "readyToStart": "Prêt à commencer ?",
-    "consultation": "Contactez-nous pour une consultation détaillée et une solution personnalisée.",
-    "availability": "Lundi - Samedi, Support d'urgence disponible",
-    "coverage": "Couverture de service dans toute l'Inde",
-    "needHelp": "Besoin d'aide pour trouver quelque chose ?",
-    "cantFind": "Vous ne trouvez pas ce que vous cherchez ? Contactez-nous directement ou utilisez notre chatbot intelligent disponible sur chaque page."
+    "category": "[TRANSLATE] Category",
+    "status": "[TRANSLATE] Status",
+    "industry": "[TRANSLATE] Industry",
+    "projectType": "[TRANSLATE] Project Type",
+    "popular": "[TRANSLATE] Popular",
+    "duration": "[TRANSLATE] Duration",
+    "keyFeatures": "[TRANSLATE] Key Features",
+    "projectsCompleted": "[TRANSLATE] Projects Completed",
+    "satisfiedClients": "[TRANSLATE] Satisfied Clients",
+    "yearsExperience": "[TRANSLATE] Years Experience",
+    "responseTime": "[TRANSLATE] Response Time"
   },
   "placeholders": {
     "selectProjectType": "Sélectionner le type de projet",
@@ -276,48 +222,52 @@
     "Power Systems": "Systèmes Électriques"
   },
   "projects": {
-    "industrial-automation-demo": {
-      "title": "Démo: Système d'Automatisation Industrielle",
-      "client": "Client de Fabrication du Futur",
-      "category": "Automatisation des Processus",
-      "description": "Démonstration des capacités complètes d'automatisation manufacturière incluant l'intégration PLC, les systèmes SCADA et les solutions de surveillance en temps réel.",
-      "location": "Site du Projet TBD",
-      "duration": "12-18 mois",
-      "budget": "₹50-75 Lakhs",
-      "status": "Démo de Capacités",
-      "technologies": {
-        "plcProgramming": "Programmation PLC",
-        "scada": "SCADA",
-        "hmi": "IHM",
-        "industrialIot": "IoT Industriel"
-      },
+    "thermal-plant": {
+      "title": "[TRANSLATE] Thermal Power Plant Automation",
+      "description": "[TRANSLATE] Complete automation solution for 250MW thermal power plant including control panels, SCADA systems, and safety interlocks.",
+      "location": "[TRANSLATE] Uttar Pradesh",
+      "duration": "[TRANSLATE] 12 months",
       "highlights": {
-        "plcIntegration": "Intégration PLC",
-        "scadaSystems": "Systèmes SCADA",
-        "realtimeMonitoring": "Surveillance en Temps Réel",
-        "processOptimization": "Optimisation des Processus"
+        "scada": "[TRANSLATE] SCADA Implementation",
+        "safety": "[TRANSLATE] Safety Systems",
+        "control": "[TRANSLATE] Control Panels",
+        "monitoring": "[TRANSLATE] Performance Monitoring"
       }
     },
-    "power-distribution-demo": {
-      "title": "Exemple: Contrôle de Distribution Électrique",
-      "client": "Partenaire Électrique du Futur",
-      "category": "Systèmes Électriques",
-      "description": "Exemple de système de distribution électrique présentant l'équilibrage automatique de charge et les capacités de surveillance à distance pour les installations de production d'énergie.",
-      "location": "Diverses Localisations",
-      "duration": "10-15 mois",
-      "budget": "₹1-2 Crores",
-      "status": "Démo de Capacités",
-      "technologies": {
-        "mccPanels": "Panneaux MCC",
-        "protectionSystems": "Systèmes de Protection",
-        "energyManagement": "Gestion Énergétique",
-        "remoteMonitoring": "Surveillance à Distance"
-      },
+    "pharma-plant": {
+      "title": "[TRANSLATE] Pharmaceutical Plant Control System",
+      "description": "[TRANSLATE] Advanced process control and monitoring system for pharmaceutical manufacturing with FDA compliance and data integrity features.",
+      "location": "[TRANSLATE] Maharashtra",
+      "duration": "[TRANSLATE] 8 months",
       "highlights": {
-        "loadBalancing": "Équilibrage de Charge",
-        "protectionSystems": "Systèmes de Protection",
-        "energyManagement": "Gestion Énergétique",
-        "remoteControl": "Contrôle à Distance"
+        "fda": "[TRANSLATE] FDA Compliance",
+        "data": "[TRANSLATE] Data Integrity",
+        "process": "[TRANSLATE] Process Control",
+        "quality": "[TRANSLATE] Quality Monitoring"
+      }
+    },
+    "solar-plant": {
+      "title": "[TRANSLATE] 10MW Solar Power Installation",
+      "description": "[TRANSLATE] Complete design and installation of grid-connected solar power plant with monitoring systems and grid synchronization equipment.",
+      "location": "[TRANSLATE] Rajasthan",
+      "duration": "[TRANSLATE] 6 months",
+      "highlights": {
+        "grid": "[TRANSLATE] Grid Connection",
+        "monitoring": "[TRANSLATE] Monitoring Systems",
+        "optimization": "[TRANSLATE] Performance Optimization",
+        "maintenance": "[TRANSLATE] Maintenance Planning"
+      }
+    },
+    "water-treatment": {
+      "title": "[TRANSLATE] Municipal Water Treatment Automation",
+      "description": "[TRANSLATE] Automated control system for water treatment plant serving 500,000 residents with real-time monitoring and quality control.",
+      "location": "[TRANSLATE] West Bengal",
+      "duration": "[TRANSLATE] 10 months",
+      "highlights": {
+        "monitoring": "[TRANSLATE] Real-time Monitoring",
+        "quality": "[TRANSLATE] Quality Control",
+        "automation": "[TRANSLATE] Automated Operations",
+        "remote": "[TRANSLATE] Remote Management"
       }
     }
   },
@@ -328,15 +278,13 @@
     "additionalInformation": "Informations supplémentaires"
   },
   "altTexts": {
-    "companyLogo": "Logo de Powerton Engineering Pvt. Ltd.",
-    "contactCenterBackground": "Arrière-plan du centre de contact et du bureau de support client pour une entreprise d'ingénierie",
-    "aboutCompanyFacility": "Installation d'automatisation industrielle de Powerton Engineering avec des systèmes de contrôle modernes",
-    "officeLocation": "Emplacement du bureau de Powerton Engineering"
+    "contactBackground": "[TRANSLATE] ID-834: Contact center and customer support office background for engineering company",
+    "aboutBackground": "[TRANSLATE] ID-004: Powerton Engineering industrial automation facility with modern control systems"
   },
   "sitemap": {
     "sections": {
       "mainPages": "Pages principales",
-      "servicesProjects": "Services et projets", 
+      "servicesProjects": "Services et projets",
       "productCategories": "Catégories de produits",
       "resourcesTools": "Ressources et outils",
       "legalInformation": "Informations légales"
@@ -410,36 +358,6 @@
       "responseTime": "2 heures"
     }
   },
-  "buttons": {
-    "getQuote": "Obtenir un Devis",
-    "callNow": "Appeler Maintenant",
-    "emailUs": "Nous Envoyer un Email",
-    "learnMore": "En Savoir Plus",
-    "viewMore": "Voir Plus",
-    "viewAll": "Voir Tout",
-    "contactUs": "Nous Contacter",
-    "getStarted": "Commencer",
-    "downloadBrochure": "Télécharger la Brochure",
-    "downloadPortfolio": "Télécharger le Portfolio",
-    "showFilters": "Afficher les Filtres",
-    "readMore": "Lire Plus",
-    "downloadCatalog": "Télécharger le Catalogue",
-    "viewDetails": "Voir les Détails"
-  },
-  "labels": {
-    "businessHours": "Heures d'Ouverture",
-    "mondayToSaturday": "Lundi - Samedi",
-    "workingHours": "9h00 - 18h00",
-    "sunday": "Dimanche",
-    "emergencySupport": "Support d'Urgence Uniquement"
-  },
-  "altTexts": {
-    "companyLogo": "Logo de Powerton Engineering Pvt. Ltd."
-  },
-  "messages": {
-    "toggleTheme": "Changer de Thème",
-    "close": "Fermer"
-  },
   "clients": {
     "sci-group": "Corporation de Navigation de l'Inde",
     "agribio": "AgriBio Allemagne",
@@ -460,33 +378,6 @@
   "copyright": {
     "text": "© {{year}} Powerton Engineering Pvt. Ltd. Tous droits réservés.",
     "madeWith": "Fait avec 💙 par l'équipe Powerton Engineering"
-  },
-  "seo": {
-    "defaultTitle": "Powerton Engineering Pvt. Ltd. - Panneaux de contrôle industriels et solutions d'automatisation",
-    "defaultDescription": "Fabricant leader de panneaux de contrôle électriques, systèmes d'automatisation industrielle et solutions d'instrumentation. Au service des industries à travers l'Inde avec des produits et services d'ingénierie de qualité.",
-    "defaultKeywords": "panneaux de contrôle électriques, automatisation industrielle, centre de contrôle d'énergie, centre de contrôle moteur, instrumentation, ingénierie électrique, Inde",
-    "companyName": "Powerton Engineering Pvt. Ltd.",
-    "companyDescription": "Fabricant leader de panneaux de contrôle électriques et solutions d'automatisation industrielle",
-    "siteName": "Powerton Engineering",
-    "twitterHandle": "@powertoneng",
-    "businessAddress": {
-      "street": "2ème étage, F-25, Bloc F, Secteur 6",
-      "city": "Noida", 
-      "state": "Uttar Pradesh",
-      "postal": "201301",
-      "country": "Inde"
-    },
-    "contact": {
-      "phone": "+91-94627-71662",
-      "email": "info@powertonengineering.com"
-    },
-    "businessInfo": {
-      "industry": "Automatisation industrielle, Ingénierie électrique, Instrumentation",
-      "category": "Services d'ingénierie, Solutions d'automatisation, Systèmes électriques",
-      "targetAudience": "Ingénieurs industriels, Gestionnaires d'usine, Professionnels de l'automatisation",
-      "companyType": "Fournisseur de solutions d'ingénierie B2B",
-      "serviceArea": "Inde, Service pan-indien"
-    }
   },
   "tags": {
     "award": "Prix",
@@ -539,12 +430,54 @@
       "comment": "Powerton Engineering a livré exactement ce qu'ils avaient promis. Le système d'instrumentation qu'ils ont installé fonctionne parfaitement depuis plus de deux ans. Leur support après-vente est remarquable et toujours réactif."
     }
   },
-  "projectCategories": {
-    "Power Plant": "Centrale Électrique",
-    "Manufacturing": "Fabrication",
-    "Solar": "Solaire",
-    "Water Treatment": "Traitement de l'Eau",
-    "Process Automation": "Automatisation des Processus",
-    "Power Systems": "Systèmes Électriques"
+  "products": {
+    "sections": {
+      "industrialProducts": "[TRANSLATE] Industrial Products",
+      "applications": "[TRANSLATE] {{product}} Applications",
+      "keyFeatures": "[TRANSLATE] Key Features:"
+    },
+    "badges": {
+      "highEfficiency": "[TRANSLATE] High Efficiency",
+      "variableSpeed": "[TRANSLATE] Variable Speed",
+      "lowNoise": "[TRANSLATE] Low Noise",
+      "smartControl": "[TRANSLATE] Smart Control",
+      "durable": "[TRANSLATE] Durable",
+      "energySaving": "[TRANSLATE] Energy Saving",
+      "reliable": "[TRANSLATE] Reliable",
+      "costEffective": "[TRANSLATE] Cost Effective"
+    }
+  },
+  "cta": {
+    "getQuote": "[TRANSLATE] Get Quote",
+    "callNow": "[TRANSLATE] Call Now",
+    "emailUs": "[TRANSLATE] Email Us",
+    "learnMore": "[TRANSLATE] Learn More",
+    "viewMore": "[TRANSLATE] View More",
+    "contactUs": "[TRANSLATE] Contact Us",
+    "getStarted": "[TRANSLATE] Get Started",
+    "downloadBrochure": "[TRANSLATE] Download Brochure"
+  },
+  "quote": {
+    "projectTypes": {
+      "processAutomation": "[TRANSLATE] Process Automation",
+      "powerControlSystems": "[TRANSLATE] Power Control Systems",
+      "instrumentationControl": "[TRANSLATE] Instrumentation & Control",
+      "solarAutomation": "[TRANSLATE] Solar Automation",
+      "buildingAutomation": "[TRANSLATE] Building Automation",
+      "manufacturingAutomation": "[TRANSLATE] Manufacturing Automation"
+    },
+    "industries": {
+      "manufacturing": "[TRANSLATE] Manufacturing",
+      "powerGeneration": "[TRANSLATE] Power Generation",
+      "oilGas": "[TRANSLATE] Oil & Gas",
+      "chemicalProcessing": "[TRANSLATE] Chemical Processing",
+      "waterTreatment": "[TRANSLATE] Water Treatment",
+      "foodBeverage": "[TRANSLATE] Food & Beverage",
+      "pharmaceutical": "[TRANSLATE] Pharmaceutical",
+      "renewableEnergy": "[TRANSLATE] Renewable Energy"
+    }
+  },
+  "common": {
+    "keyFeatures": "[TRANSLATE] Key Features"
   }
 }

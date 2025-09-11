@@ -1,230 +1,190 @@
 {
   "home": {
-    "seo": {
-      "title": "Powerton Engineering - Automatisation Industrielle et Panneaux de Contrôle | Inde",
-      "description": "Fabricant leader de panneaux de contrôle électrique, systèmes d'automatisation industrielle et solutions d'instrumentation. Services d'ingénierie spécialisés à travers l'Inde avec plus de 15 ans d'expérience."
-    },
     "hero": {
       "title": {
-        "main": "Solutions Complètes pour le",
-        "highlight": "Succès Industriel"
+        "main": "[TRANSLATE] Comprehensive Solutions for",
+        "highlight": "[TRANSLATE] Industrial Success"
       },
-      "subtitle": "Notre large portefeuille de produits et services fournit des solutions complètes qui stimulent le succès industriel, garantissant que chaque aspect de vos besoins d'ingénierie est couvert.",
+      "subtitle": "[TRANSLATE] Our broad portfolio of products and services provides all-encompassing solutions that drive industrial success, ensuring that every aspect of your engineering needs is covered.",
       "buttons": {
-        "exploreServices": "Explorez Nos Services",
-        "requestConsultation": "Demander une Consultation"
+        "exploreServices": "[TRANSLATE] Explore Our Services",
+        "requestConsultation": "[TRANSLATE] Request Consultation"
       },
       "features": {
-        "experience": "Plus de 15 Ans d'Expérience",
-        "support": "Support Technique 24/7",
-        "service": "Service Pan-Inde"
+        "experience": "[TRANSLATE] 15+ Years Experience",
+        "support": "[TRANSLATE] 24/7 Technical Support",
+        "service": "[TRANSLATE] Global Service Coverage"
       },
       "stats": {
-        "yearsExperience": "Années d'Expérience",
-        "projectsCompleted": "Projets Terminés",
-        "happyClients": "Clients Satisfaits",
-        "supportAvailable": "Support Disponible"
+        "yearsExperience": "[TRANSLATE] Years Experience",
+        "projectsCompleted": "[TRANSLATE] Projects Completed",
+        "happyClients": "[TRANSLATE] Happy Clients",
+        "supportAvailable": "[TRANSLATE] Support Available"
+      }
+    },
+    "services": {
+      "label": "[TRANSLATE] Our Services",
+      "title": "[TRANSLATE] Expert Solutions for All Requirements, Delivered with Exceptional Care",
+      "description": "[TRANSLATE] From process automation to maintenance contracts, we provide comprehensive engineering solutions tailored to meet your industrial requirements."
+    },
+    "products": {
+      "label": "[TRANSLATE] Our Products",
+      "title": "[TRANSLATE] Industrial Automation Equipment Solutions",
+      "description": "[TRANSLATE] Comprehensive range of electrical and automation products designed for reliability, efficiency, and superior performance in industrial environments.",
+      "viewProducts": "[TRANSLATE] View Products",
+      "viewCatalog": "[TRANSLATE] View Complete Product Catalog"
+    },
+    "contact": {
+      "label": "[TRANSLATE] Contact Us",
+      "title": "[TRANSLATE] Let's Discuss Your Engineering Requirements",
+      "description": "[TRANSLATE] Ready to start your next project? Contact our expert team for customized solutions and professional consultation.",
+      "getInTouch": "[TRANSLATE] Get In Touch",
+      "methods": {
+        "phone": {
+          "title": "[TRANSLATE] Phone",
+          "description": "[TRANSLATE] Available 24/7 for emergency support"
+        },
+        "email": {
+          "title": "[TRANSLATE] Email",
+          "description": "[TRANSLATE] We'll respond within 24 hours"
+        },
+        "address": {
+          "title": "[TRANSLATE] Address",
+          "metro": "[TRANSLATE] Nearest Metro"
+        }
       }
     },
     "about": {
-      "label": "À Propos de Nous",
-      "title": "Bienvenue chez Powerton Engineering Pvt. Ltd.",
-      "description": "Votre partenaire de confiance dans la livraison de solutions et services d'ingénierie de haute qualité. Fondée avec la vision d'autonomiser les industries par l'innovation et l'excellence, nous nous spécialisons dans la fourniture d'une gamme complète de produits électriques et d'instrumentation.",
-      "visualHeading": "Ingénierie Professionnelle",
-      "visualDescription": "Ingénieurs français professionnels travaillant sur l'automatisation industrielle et les systèmes de contrôle",
+      "label": "[TRANSLATE] About Us",
+      "title": "[TRANSLATE] Welcome to Powerton Engineering Pvt. Ltd.",
+      "description": "[TRANSLATE] Your trusted partner in delivering high-quality engineering solutions and services. Founded with a vision to empower industries through innovation and excellence, we specialize in providing a comprehensive range of electrical and instrumentation products.",
+      "visualHeading": "[TRANSLATE] Professional Engineering",
+      "visualDescription": "[TRANSLATE] Professional Indian engineers working on industrial automation and control systems",
       "features": {
         "electrical": {
-          "title": "Électrique et Instrumentation",
-          "description": "Gamme complète de systèmes de contrôle"
+          "title": "[TRANSLATE] Electrical & Instrumentation",
+          "description": "[TRANSLATE] Complete range of control systems"
         },
         "mechanical": {
-          "title": "Pompes Mécaniques",
-          "description": "Solutions de pompes durables et pièces de rechange"
+          "title": "[TRANSLATE] Mechanical Pumps",
+          "description": "[TRANSLATE] Durable pump solutions & spares"
         },
         "solar": {
-          "title": "Solutions Solaires",
-          "description": "Installations d'énergie durable"
+          "title": "[TRANSLATE] Solar Solutions",
+          "description": "[TRANSLATE] Sustainable energy installations"
         },
         "tools": {
-          "title": "Outils Industriels",
-          "description": "Équipement de qualité professionnelle"
+          "title": "[TRANSLATE] Industrial Tools",
+          "description": "[TRANSLATE] Professional grade equipment"
         }
       },
-      "button": "En Savoir Plus Sur Nous"
-    },
-    "services": {
-      "label": "Nos Services",
-      "title": "Solutions Expertes pour Tous les Besoins, Livrées avec un Soin Exceptionnel",
-      "description": "De l'automatisation des processus aux contrats de maintenance, nous fournissons des solutions d'ingénierie complètes adaptées pour répondre à vos exigences industrielles."
-    },
-    "products": {
-      "label": "Nos Produits",
-      "title": "Solutions d'Équipements d'Automatisation Industrielle",
-      "description": "Gamme complète de produits électriques et d'automatisation conçus pour la fiabilité, l'efficacité et des performances supérieures dans les environnements industriels.",
-      "viewProducts": "Voir les Produits",
-      "viewCatalog": "Voir le Catalogue Complet des Produits"
+      "button": "[TRANSLATE] Learn More About Us"
     },
     "clients": {
-      "label": "Nos Clients",
-      "title": "Approuvé par les Marques et Organisations Leaders",
-      "description": "Nous avons collaboré avec les leaders de l'industrie dans divers secteurs pour livrer des solutions d'ingénierie exceptionnelles.",
-      "testimonialsTitle": "Ce Que Disent Nos Clients"
+      "label": "[TRANSLATE] Our Clients",
+      "title": "[TRANSLATE] Trusted By Leading Brands and Organizations",
+      "description": "[TRANSLATE] We've partnered with industry leaders across various sectors to deliver exceptional engineering solutions.",
+      "testimonialsTitle": "[TRANSLATE] What Our Clients Say"
     },
     "projects": {
-      "label": "Nos Projets",
-      "title": "Solutions d'Ingénierie Livrées avec Succès",
-      "description": "Explorez notre portefeuille de projets terminés qui montrent notre expertise en automatisation industrielle et ingénierie électrique.",
-      "keyFeatures": "Caractéristiques Clés :",
-      "completed": "Terminé",
-      "viewDetails": "Voir les Détails",
-      "viewAllProjects": "Voir Tous les Projets",
-      "downloadPortfolio": "Télécharger le Portfolio"
-    },
-    "services": {
-      "label": "Nos Services",
-      "title": "Solutions d'Ingénierie Complètes",
-      "description": "De l'automatisation à l'instrumentation, nous fournissons des solutions d'ingénierie complètes qui favorisent l'excellence industrielle et l'efficacité opérationnelle."
-    },
-    "products": {
-      "label": "Nos Produits",
-      "title": "Produits et Équipements Industriels",
-      "description": "Découvrez notre vaste gamme de produits industriels de haute qualité, des systèmes d'automatisation aux instruments de précision, conçus pour des performances optimales.",
-      "viewProducts": "Voir les Produits",
-      "viewCatalog": "Voir le Catalogue"
-    },
-    "contact": {
-      "label": "Prendre Contact",
-      "title": "Prêt à Commencer Votre Projet ?",
-      "description": "Discutons de la façon dont notre expertise en ingénierie peut vous aider à atteindre vos objectifs d'automatisation industrielle et de systèmes de contrôle.",
-      "getInTouch": "Prendre Contact",
-      "methods": {
-        "phone": {
-          "title": "Appelez-nous Aujourd'hui",
-          "description": "Parlez directement avec nos experts en ingénierie"
-        },
-        "email": {
-          "title": "Envoyez-nous un Email",
-          "description": "Envoyez-nous vos exigences de projet"
-        },
-        "address": {
-          "title": "Visitez Notre Bureau",
-          "metro": "Métro le plus proche : Secteur 15"
-        }
-      }
+      "label": "[TRANSLATE] Our Projects",
+      "title": "[TRANSLATE] Successfully Delivered Engineering Solutions",
+      "description": "[TRANSLATE] Explore our portfolio of completed projects showcasing our expertise in industrial automation and electrical engineering.",
+      "keyFeatures": "[TRANSLATE] Key Features:",
+      "completed": "[TRANSLATE] Completed",
+      "viewDetails": "[TRANSLATE] View Details",
+      "viewAllProjects": "[TRANSLATE] View All Projects",
+      "downloadPortfolio": "[TRANSLATE] Download Portfolio"
     }
   },
   "about": {
-    "seo": {
-      "keywords": "à propos powerton engineering, entreprise automatisation industrielle, entreprise ingénierie électrique, services instrumentation, experts automatisation Inde"
-    },
     "hero": {
-      "title": "Excellence en Ingénierie depuis 2008",
-      "subtitle": "Votre partenaire de confiance en automatisation industrielle et solutions d'ingénierie électrique"
+      "title": "[TRANSLATE] About Powerton Engineering",
+      "subtitle": "[TRANSLATE] Your trusted partner in delivering high-quality engineering solutions and services for over 15 years."
     },
     "story": {
-      "title": "Notre Parcours et Vision",
-      "description1": "Établie avec la vision d'autonomiser les industries par l'innovation et l'excellence, Powerton Engineering a été à l'avant-garde des solutions d'automatisation industrielle et d'ingénierie électrique depuis 2008. Notre parcours a commencé avec une mission simple mais puissante : fournir des solutions d'ingénierie de pointe qui stimulent la croissance industrielle et l'efficacité opérationnelle.",
-      "description2": "Au fil des années, nous avons évolué d'une petite entreprise d'ingénierie à un partenaire de confiance pour les industries en Inde et au-delà. Notre équipe d'ingénieurs expérimentés et d'experts techniques travaille sans relâche pour livrer des solutions qui non seulement répondent mais dépassent les attentes de nos clients. Nous sommes fiers de notre capacité à comprendre les défis industriels complexes et à fournir des solutions innovantes et durables."
-    },
-    "mission": {
-      "title": "Notre Mission",
-      "description": "Livrer des solutions d'ingénierie innovantes, fiables et durables qui permettent à nos clients d'atteindre l'excellence opérationnelle et de stimuler la croissance industrielle."
-    },
-    "vision": {
-      "title": "Notre Vision",
-      "description": "Être le fournisseur leader de solutions d'automatisation industrielle et d'ingénierie électrique, reconnu pour notre expertise technique, qualité et engagement envers le succès client."
-    },
-    "coreValues": {
-      "title": "Nos Valeurs Fondamentales",
-      "subtitle": "Les principes qui guident tout ce que nous faisons"
+      "title": "[TRANSLATE] Our Journey & Vision",
+      "description1": "[TRANSLATE] Founded with a vision to empower industries through innovation and excellence, Powerton Engineering has grown to become a leading provider of electrical and instrumentation solutions worldwide.",
+      "description2": "[TRANSLATE] From our headquarters in Noida, we serve clients nationwide with comprehensive engineering solutions including process automation, instrumentation, solar installations, and maintenance services."
     },
     "values": {
       "quality": {
-        "title": "Excellence Qualité",
-        "description": "Nous maintenons les plus hauts standards dans chaque projet que nous livrons"
+        "title": "[TRANSLATE] Quality Excellence",
+        "description": "[TRANSLATE] We are committed to delivering the highest quality products and services that exceed industry standards."
       },
       "customer": {
-        "title": "Focus Client",
-        "description": "Votre succès est notre priorité - nous construisons des partenariats durables"
+        "title": "[TRANSLATE] Customer Focus",
+        "description": "[TRANSLATE] Our clients are at the heart of everything we do. We work closely to understand and exceed their expectations."
       },
       "innovation": {
-        "title": "Innovation",
-        "description": "Solutions de pointe utilisant les dernières technologies de l'industrie"
+        "title": "[TRANSLATE] Technical Innovation",
+        "description": "[TRANSLATE] We continuously invest in latest technologies and innovative solutions to stay ahead of industry trends."
       },
       "reliability": {
-        "title": "Fiabilité",
-        "description": "Solutions fiables sur lesquelles vous pouvez compter pour les opérations critiques"
+        "title": "[TRANSLATE] Reliability",
+        "description": "[TRANSLATE] Our proven track record of on-time delivery and dependable service makes us a trusted partner."
       }
     },
     "stats": {
-      "engineers": "Ingénieurs",
-      "staff": "Personnel de Support",
-      "experience": "Années d'Expérience",
-      "support": "Support"
-    },
-    "certifications": {
-      "title": "Certifications et Standards de Qualité",
-      "subtitle": "Notre engagement envers la qualité est validé par des certifications reconnues par l'industrie et des standards de conformité.",
-      "iso9001": "ISO 9001:2015 Gestion de la Qualité",
-      "iso14001": "ISO 14001:2015 Gestion Environnementale",
-      "ohsas18001": "OHSAS 18001 Santé et Sécurité au Travail",
-      "ceMarking": "Marquage CE de Conformité",
-      "ulListed": "Produits Listés UL",
-      "cpriApproved": "Équipements Approuvés CPRI"
-    },
-    "cta": {
-      "title": "Partenaire avec Powerton Engineering",
-      "description": "Prêt à transformer vos opérations industrielles avec nos solutions d'ingénierie expertes ? Discutons de vos exigences de projet et livrons l'excellence ensemble.",
-      "startProject": "Démarrer Votre Projet",
-      "exploreServices": "Explorer Nos Services"
+      "engineers": "[TRANSLATE] Expert Engineers",
+      "staff": "[TRANSLATE] Technical Staff",
+      "experience": "[TRANSLATE] Years Average Experience",
+      "support": "[TRANSLATE] Support Coverage"
     }
   },
   "projects": {
-    "hero": {
-      "title": "Nos Projets",
-      "subtitle": "Découvrez notre excellence en ingénierie à travers plus de 1200 projets réussis dans diverses industries, montrant innovation, qualité et fiabilité."
-    },
-    "showing": "Affichage"
+    "tabs": {
+      "portfolio": "[TRANSLATE] Project Portfolio",
+      "showcase": "[TRANSLATE] Featured Projects"
+    }
   },
   "products": {
-    "seo": {
-      "title": "Catalogue de Produits Industriels - Automatisation et Équipements Électriques | Powerton Engineering",
-      "description": "Catalogue complet de produits d'automatisation industrielle, composants électriques, instrumentation, systèmes solaires, pompes et outils. Équipement de qualité pour applications industrielles."
+    "badges": {
+      "handTools": "[TRANSLATE] Hand Tools",
+      "powerTools": "[TRANSLATE] Power Tools",
+      "liftingEquipment": "[TRANSLATE] Lifting Equipment",
+      "safetyGear": "[TRANSLATE] Safety Gear",
+      "touchscreen": "[TRANSLATE] Touchscreen",
+      "industrialGrade": "[TRANSLATE] Industrial Grade",
+      "realTimeDisplay": "[TRANSLATE] Real-time Display",
+      "multiProtocol": "[TRANSLATE] Multi-Protocol",
+      "heatingElements": "[TRANSLATE] Heating Elements",
+      "industrialOvens": "[TRANSLATE] Industrial Ovens",
+      "heatTracing": "[TRANSLATE] Heat Tracing",
+      "temperatureControl": "[TRANSLATE] Temperature Control",
+      "precisionTools": "[TRANSLATE] Precision Tools",
+      "durableConstruction": "[TRANSLATE] Durable Construction",
+      "ergonomicDesign": "[TRANSLATE] Ergonomic Design",
+      "professionalGrade": "[TRANSLATE] Professional Grade"
+    },
+    "sections": {
+      "hmiSolutions": "[TRANSLATE] HMI Solutions",
+      "heatingSolutions": "[TRANSLATE] Heating Solutions",
+      "handToolCategories": "[TRANSLATE] Hand Tool Categories",
+      "diaphragmPumpTypes": "[TRANSLATE] Diaphragm Pump Types",
+      "calibrationSolutions": "[TRANSLATE] Calibration Solutions",
+      "industrialProducts": "[TRANSLATE] Industrial Products"
+    },
+    "cta": {
+      "needHmiSolutions": "[TRANSLATE] Need HMI Solutions?",
+      "hmiDescription": "[TRANSLATE] Our HMI specialists can design intuitive operator interfaces for your automation systems.",
+      "contactHmiExperts": "[TRANSLATE] Contact HMI Experts",
+      "requestQuote": "[TRANSLATE] Request Quote",
+      "needHeatingolutions": "[TRANSLATE] Need Industrial Heating Solutions?",
+      "heatingDescription": "[TRANSLATE] Our heating specialists can design custom heating systems for your industrial processes.",
+      "contactHeatingExperts": "[TRANSLATE] Contact Heating Experts",
+      "needDiaphragmPumps": "[TRANSLATE] Need Diaphragm Pump Solutions?",
+      "diaphragmDescription": "[TRANSLATE] Our pump engineers can help you select the right diaphragm pump for your chemical handling needs.",
+      "contactPumpExperts": "[TRANSLATE] Contact Pump Experts",
+      "needCalibration": "[TRANSLATE] Need Calibration Services?",
+      "calibrationDescription": "[TRANSLATE] Our calibration experts ensure your instruments meet the highest precision standards.",
+      "contactCalibrationExperts": "[TRANSLATE] Contact Calibration Experts"
     }
   },
   "services": {
-    "seo": {
-      "title": "Services d'Ingénierie Professionnels - Installation, Maintenance et Automatisation | Powerton Engineering",
-      "description": "Services d'ingénierie spécialisés : programmation PLC, systèmes SCADA, automatisation industrielle, installation de panneaux électriques, maintenance, calibration, solutions personnalisées et services EPC solaires à travers l'Inde."
-    },
     "hero": {
       "title": "Services d'Ingénierie Professionnels",
-      "subtitle": "Solutions complètes d'automatisation industrielle, d'ingénierie électrique et d'instrumentation conçues pour optimiser vos opérations et stimuler le succès commercial."
-    },
-    "whyChoose": {
-      "title": "Pourquoi Choisir Powerton Engineering ?"
-    },
-    "benefits": {
-      "expertTeam": {
-        "title": "Équipe d'Experts",
-        "description": "Professionnels certifiés avec une vaste expérience de l'industrie"
-      },
-      "rapidResponse": {
-        "title": "Réponse Rapide",
-        "description": "Temps de réponse moyen de 2 heures pour toutes les demandes de support"
-      },
-      "qualityAssured": {
-        "title": "Qualité Assurée",
-        "description": "Processus certifiés ISO et normes de qualité garanties"
-      },
-      "clientFocused": {
-        "title": "Axé sur le Client",
-        "description": "Solutions personnalisées adaptées à vos exigences spécifiques"
-      }
-    },
-    "cta": {
-      "title": "Prêt à Commencer ?",
-      "description": "Contactez-nous aujourd'hui pour discuter des exigences de votre projet et obtenir une solution personnalisée."
+      "subtitle": "Solutions complètes pour tous vos besoins d'automatisation industrielle et d'ingénierie électrique"
     }
   },
   "notFound": {
@@ -321,372 +281,9 @@
     }
   },
   "quote": {
-    "seo": {
-      "title": "Demander un Devis - Powerton Engineering | Solutions d'Automatisation Industrielle Personnalisées",
-      "description": "Obtenez un devis détaillé pour votre projet d'automatisation industrielle de Powerton Engineering. Consultation gratuite et réponse dans les 24-48 heures."
-    },
-    "benefits": {
-      "assessment": {
-        "title": "Évaluation Détaillée",
-        "description": "Évaluation complète du projet et spécifications techniques"
-      },
-      "response": {
-        "title": "Réponse Rapide",
-        "description": "Recevez votre devis détaillé dans les 24-48 heures"
-      },
-      "consultation": {
-        "title": "Consultation Experte",
-        "description": "Consultation technique gratuite avec notre équipe d'ingénierie"
-      },
-      "solutions": {
-        "title": "Solutions Personnalisées",
-        "description": "Solutions d'ingénierie adaptées à vos exigences spécifiques"
-      }
-    },
-    "process": {
-      "title": "Notre Processus de Devis",
-      "description": "De la demande initiale à la proposition détaillée, nous assurons un processus fluide et transparent.",
-      "submit": {
-        "title": "Soumettre la Demande",
-        "description": "Remplissez notre formulaire de devis complet ou utilisez notre calculateur de coûts"
-      },
-      "review": {
-        "title": "Révision Technique",
-        "description": "Notre équipe d'ingénierie analyse vos exigences et spécifications"
-      },
-      "assessment": {
-        "title": "Évaluation du Site",
-        "description": "Visite optionnelle sur site pour les projets complexes (si nécessaire)"
-      },
-      "quote": {
-        "title": "Devis Détaillé",
-        "description": "Recevez un prix complet avec calendrier et livrables"
-      }
-    },
-    "cta": {
-      "title": "Prêt à Commencer?",
-      "description": "Contactez-nous dès aujourd'hui pour votre solution d'ingénierie personnalisée. Notre équipe est prête à donner vie à votre projet."
-    }
-  },
-  "services": {
-    "hero": {
-      "title": "Services d'Ingénierie Professionnels",
-      "subtitle": "Solutions complètes pour tous vos besoins d'automatisation industrielle et d'ingénierie électrique"
-    }
-  },
-  "about": {
-    "hero": {
-      "title": "Excellence en Ingénierie depuis 2008",
-      "subtitle": "Votre partenaire de confiance en solutions d'automatisation industrielle et d'ingénierie électrique"
-    },
-    "story": {
-      "title": "Notre Histoire"
-    },
-    "values": {
-      "quality": {
-        "title": "Excellence Qualité",
-        "description": "Nous maintenons les plus hauts standards dans chaque projet que nous livrons"
-      },
-      "customer": {
-        "title": "Focus Client",
-        "description": "Votre succès est notre priorité - nous construisons des partenariats durables"
-      },
-      "innovation": {
-        "title": "Innovation",
-        "description": "Solutions de pointe utilisant les dernières technologies de l'industrie"
-      },
-      "reliability": {
-        "title": "Fiabilité",
-        "description": "Solutions fiables sur lesquelles vous pouvez compter pour des opérations critiques"
-      }
-    },
-    "stats": {
-      "engineers": "Ingénieurs",
-      "staff": "Personnel de Support",
-      "experience": "Années d'Expérience",
-      "support": "Support"
-    },
-    "certifications": {
-      "iso9001": "ISO 9001:2015 Management de la Qualité",
-      "iso14001": "ISO 14001:2015 Management Environnemental",
-      "ohsas18001": "OHSAS 18001 Santé et Sécurité au Travail",
-      "ceMarking": "Conformité Marquage CE",
-      "ulListed": "Produits Certifiés UL",
-      "cpriApproved": "Équipements Approuvés CPRI"
-    }
-  },
-  "home": {
-    "hero": {
-      "title": {
-        "main": "Solutions Complètes pour",
-        "highlight": "le Succès Industriel"
-      },
-      "subtitle": "Notre large portefeuille de produits et services fournit des solutions complètes qui favorisent le succès industriel, garantissant que chaque aspect de vos besoins d'ingénierie est couvert.",
-      "buttons": {
-        "exploreServices": "Explorez Nos Services",
-        "requestConsultation": "Demander une Consultation"
-      },
-      "features": {
-        "experience": "15+ Années d'Expérience",
-        "support": "Support Technique 24/7",
-        "service": "Service Pan-Indien"
-      },
-      "stats": {
-        "yearsExperience": "Années d'Expérience",
-        "projectsCompleted": "Projets Complétés",
-        "happyClients": "Clients Satisfaits",
-        "supportAvailable": "Support Disponible"
-      }
-    },
-    "services": {
-      "label": "Nos Services",
-      "title": "Solutions expertes pour tous les besoins, livrées avec un soin exceptionnel",
-      "description": "De l'automatisation des processus aux contrats de maintenance, nous fournissons des solutions d'ingénierie complètes adaptées à vos exigences industrielles."
-    },
-    "products": {
-      "label": "Nos Produits",
-      "title": "Solutions d'Équipements d'Automatisation Industrielle",
-      "description": "Gamme complète de produits électriques et d'automatisation conçus pour la fiabilité, l'efficacité et les performances supérieures dans les environnements industriels.",
-      "viewProducts": "Voir les Produits",
-      "viewCatalog": "Voir le Catalogue Complet des Produits"
-    },
-    "projects": {
-      "label": "Nos Projets",
-      "title": "Solutions d'Ingénierie Livrées avec Succès",
-      "description": "Explorez notre portefeuille de projets terminés présentant notre expertise en automatisation industrielle et ingénierie électrique.",
-      "completed": "Terminé",
-      "keyFeatures": "Caractéristiques Clés:",
-      "viewDetails": "Voir les Détails",
-      "viewAllProjects": "Voir Tous les Projets",
-      "downloadPortfolio": "Télécharger le Portfolio"
-    },
-    "about": {
-      "label": "À Propos de Nous",
-      "title": "Bienvenue chez Powerton Engineering Pvt. Ltd.",
-      "description": "Votre partenaire de confiance pour fournir des solutions et services d'ingénierie de haute qualité. Fondée avec la vision d'autonomiser les industries grâce à l'innovation et l'excellence, nous nous spécialisons dans la fourniture d'une gamme complète de produits électriques et d'instrumentation.",
-      "visualHeading": "Ingénierie Professionnelle",
-      "visualDescription": "Ingénieurs indiens professionnels travaillant sur l'automatisation industrielle et les systèmes de contrôle",
-      "button": "En Savoir Plus Sur Nous",
-      "features": {
-        "electrical": {
-          "title": "Électrique et Instrumentation",
-          "description": "Gamme complète de systèmes de contrôle"
-        },
-        "mechanical": {
-          "title": "Pompes Mécaniques",
-          "description": "Solutions de pompes durables et pièces de rechange"
-        },
-        "solar": {
-          "title": "Solutions Solaires",
-          "description": "Installations d'énergie durable"
-        },
-        "tools": {
-          "title": "Outils Industriels",
-          "description": "Équipements de qualité professionnelle"
-        }
-      }
-    },
-    "clients": {
-      "label": "Nos Clients",
-      "title": "Approuvé par les Marques et Organisations Leader",
-      "description": "Nous nous sommes associés avec les leaders de l'industrie de divers secteurs pour fournir des solutions d'ingénierie exceptionnelles.",
-      "testimonialsTitle": "Ce que Disent Nos Clients"
-    },
-    "contact": {
-      "label": "Contactez-nous",
-      "title": "Discutons de Vos Besoins d'Ingénierie",
-      "description": "Prêt à commencer votre prochain projet ? Contactez notre équipe d'experts pour des solutions personnalisées et des conseils professionnels.",
-      "getInTouch": "Entrez en Contact",
-      "methods": {
-        "phone": {
-          "title": "Téléphone",
-          "description": "Disponible 24/7 pour le support d'urgence"
-        },
-        "email": {
-          "title": "Email",
-          "description": "Nous répondrons dans les 24 heures"
-        },
-        "address": {
-          "title": "Adresse",
-          "metro": "Métro le Plus Proche"
-        }
-      }
-    }
-  },
-  "contact": {
-    "hero": {
-      "title": "Contactez Nos Experts en Ingénierie",
-      "subtitle": "Prêt à commencer votre prochain projet ? Notre équipe d'experts est là pour vous aider avec des solutions d'ingénierie personnalisées et des conseils professionnels.",
-      "benefits": {
-        "consultation": "Consultation Gratuite",
-        "support": "Support d'Urgence 24/7",
-        "experience": "15+ Années d'Expérience"
-      }
-    },
-    "methods": {
-      "title": "Plusieurs Façons de Nous Contacter",
-      "subtitle": "Choisissez la méthode de communication qui vous convient le mieux. Nous sommes disponibles 24/7 pour le support d'urgence."
-    },
-    "form": {
-      "title": "Envoyez-nous un Message",
-      "subtitle": "Contactez-nous pour des demandes générales, des informations sur les services ou des questions techniques."
-    },
-    "contactMethods": {
-      "phone": {
-        "title": "Appelez-nous Directement",
-        "subtitle": "Disponible 24/7 pour le support",
-        "description": "Parlez directement avec notre équipe technique"
-      },
-      "email": {
-        "title": "Support Email",
-        "subtitle": "Réponse sous 24 heures",
-        "description": "Envoyez-nous les exigences détaillées du projet"
-      },
-      "whatsapp": {
-        "title": "Support WhatsApp",
-        "subtitle": "Chat à réponse rapide",
-        "description": "Obtenez des réponses instantanées à vos questions"
-      },
-      "visit": {
-        "title": "Visitez Notre Bureau",
-        "subtitle": "Sur rendez-vous uniquement",
-        "description": "Planifiez une visite à notre siège social à Noida"
-      }
-    },
-    "office": {
-      "name": "Siège Social",
-      "hours": "Lun-Sam : 9h00 - 18h00"
-    },
-    "services": {
-      "technical": {
-        "title": "Support Technique",
-        "description": "Assistance technique experte pour tous nos produits et services"
-      },
-      "customer": {
-        "title": "Succès Client",
-        "description": "Support dédié pour assurer le succès de votre projet"
-      },
-      "onsite": {
-        "title": "Support Sur Site",
-        "description": "Support d'ingénierie de terrain à votre emplacement"
-      },
-      "remote": {
-        "title": "Support Distant",
-        "description": "Assistance virtuelle et diagnostics système à distance"
-      }
-    }
-  },
-  "about": {
-    "title": "À Propos de Powerton Engineering",
-    "subtitle": "Leader en Automatisation Industrielle et Solutions d'Ingénierie"
-  },
-  "projects": {
-    "title": "Nos Projets",
-    "subtitle": "Excellence en Automatisation Industrielle",
-    "showing": "Affichage de {{count}} sur {{total}} projets",
-    "hero": {
-      "title": "Nos Projets",
-      "subtitle": "Découvrez notre excellence en ingénierie à travers plus de 1200 projets réussis dans diverses industries, mettant en valeur l'innovation, la qualité et la fiabilité."
-    }
-  },
-  "ui": {
-    "projectPortfolio": "Portfolio de Projets",
-    "featuredProjects": "Projets Vedettes"
-  },
-  "gallery": {
-    "title": "Galerie de Projets",
-    "subtitle": "Vitrine de Notre Excellence en Ingénierie"
-  },
-  "news": {
-    "title": "Actualités et Mises à Jour",
-    "subtitle": "Dernières Perspectives de l'Industrie"
-  },
-  "quote": {
-    "hero": {
-      "title": "Devis d'Ingénierie",
-      "subtitle": "Obtenez des conseils professionnels en ingénierie et des estimations de coûts",
-      "benefits": {
-        "consultation": "Consultation Gratuite",
-        "estimates": "Estimations de Coût Instantanées",
-        "noCosts": "Aucun Coût Caché"
-      }
-    }
-  },
-  "home": {
-    "hero": {
-      "title": {
-        "main": "Solutions Complètes pour le",
-        "highlight": "Succès Industriel"
-      },
-      "subtitle": "Notre large portefeuille de produits et services fournit des solutions complètes qui favorisent le succès industriel, garantissant que chaque aspect de vos besoins d'ingénierie est couvert.",
-      "buttons": {
-        "exploreServices": "Explorez Nos Services",
-        "requestConsultation": "Demander une Consultation"
-      },
-      "features": {
-        "experience": "Plus de 15 Ans d'Expérience",
-        "support": "Support Technique 24/7",
-        "service": "Service dans Toute l'Inde"
-      },
-      "stats": {
-        "yearsExperience": "Années d'Expérience",
-        "projectsCompleted": "Projets Réalisés",
-        "happyClients": "Clients Satisfaits",
-        "supportAvailable": "Support Disponible"
-      }
-    },
-    "about": {
-      "label": "À Propos de Nous",
-      "title": "Bienvenue chez Powerton Engineering Pvt. Ltd.",
-      "description": "Votre partenaire de confiance dans la fourniture de solutions et services d'ingénierie de haute qualité. Fondée avec la vision d'autonomiser les industries par l'innovation et l'excellence, nous nous spécialisons dans la fourniture d'une gamme complète de produits électriques et d'instrumentation.",
-      "visualHeading": "Ingénierie Professionnelle",
-      "visualDescription": "Ingénieurs indiens professionnels travaillant sur l'automatisation industrielle et les systèmes de contrôle",
-      "features": {
-        "electrical": {
-          "title": "Électrique et Instrumentation",
-          "description": "Gamme complète de systèmes de contrôle"
-        },
-        "mechanical": {
-          "title": "Pompes Mécaniques",
-          "description": "Solutions de pompes durables et pièces de rechange"
-        },
-        "solar": {
-          "title": "Solutions Solaires",
-          "description": "Installations d'énergie durable"
-        },
-        "tools": {
-          "title": "Outils Industriels",
-          "description": "Équipement de qualité professionnelle"
-        }
-      },
-      "button": "En Savoir Plus Sur Nous"
-    },
-    "clients": {
-      "label": "Nos Clients",
-      "title": "Fait Confiance par les Marques et Organisations Leaders",
-      "description": "Nous nous sommes associés avec les leaders de l'industrie dans divers secteurs pour fournir des solutions d'ingénierie exceptionnelles.",
-      "testimonialsTitle": "Ce Que Disent Nos Clients"
-    },
-    "projects": {
-      "label": "Nos Projets",
-      "title": "Solutions d'Ingénierie Livrées avec Succès",
-      "description": "Explorez notre portefeuille de projets achevés qui mettent en valeur notre expertise en automatisation industrielle et ingénierie électrique.",
-      "keyFeatures": "Caractéristiques Clés :",
-      "completed": "Terminé",
-      "viewDetails": "Voir les Détails",
-      "viewAllProjects": "Voir Tous les Projets",
-      "downloadPortfolio": "Télécharger le Portfolio"
-    },
-    "seo": {
-      "title": "Powerton Engineering - Automatisation Industrielle et Panneaux de Contrôle | Inde",
-      "description": "Fabricant leader de panneaux de contrôle électriques, systèmes d'automatisation industrielle et solutions d'instrumentation. Services d'ingénierie experts dans toute l'Inde avec plus de 15 ans d'expérience.",
-      "keywords": "panneaux de contrôle électriques, automatisation industrielle, automatisation des processus, instrumentation, centre de contrôle de puissance, centre de contrôle moteur, ingénierie électrique, Inde, Noida"
-    }
-  },
-  "quote": {
     "projectSizes": {
       "small": "Petit (1-10 Points I/O)",
-      "medium": "Moyen (11-100 Points I/O)", 
+      "medium": "Moyen (11-100 Points I/O)",
       "large": "Grand (101-500 Points I/O)",
       "enterprise": "Entreprise (500+ Points I/O)"
     },
@@ -698,7 +295,7 @@
     },
     "requirements": {
       "plcProgramming": "Programmation PLC",
-      "scadaDevelopment": "Développement SCADA", 
+      "scadaDevelopment": "Développement SCADA",
       "hmiDesign": "Conception HMI",
       "networkIntegration": "Intégration Réseau",
       "safetySystems": "Systèmes de Sécurité",
@@ -711,7 +308,7 @@
       "cybersecurity": "Cybersécurité Avancée",
       "iotIntegration": "Intégration IoT",
       "aiMl": "Analyses IA/ML",
-      "predictiveMaintenance": "Maintenance Prédictive", 
+      "predictiveMaintenance": "Maintenance Prédictive",
       "energyManagement": "Gestion de l'Énergie",
       "cloudIntegration": "Intégration Cloud",
       "trainingSupport": "Formation et Support Étendus"
@@ -839,11 +436,243 @@
       "hotline": "Ligne d'Urgence"
     }
   },
-  "home": {
-    "seo": {
-      "title": "Powerton Engineering - Automatisation Industrielle et Panneaux de Contrôle | France",
-      "description": "Fabricant leader de panneaux de contrôle électrique, systèmes d'automatisation industrielle et solutions d'instrumentation. Services d'ingénierie spécialisés avec plus de 15 ans d'expérience.",
-      "keywords": "panneaux de contrôle électrique, automatisation industrielle, automatisation de processus, instrumentation, centre de contrôle de puissance, centre de contrôle moteur, ingénierie électrique, France, automatisation"
+  "ui": {
+    "projectPortfolio": "Portfolio de Projets",
+    "featuredProjects": "Projets Vedettes"
+  },
+  "gallery": {
+    "hero": {
+      "title": "[TRANSLATE] Our Gallery",
+      "subtitle": "[TRANSLATE] Discover our journey through images - from our dedicated team and modern facilities to successful projects and comprehensive product range."
+    },
+    "tabs": {
+      "company": "[TRANSLATE] Company & Team",
+      "projects": "[TRANSLATE] Projects",
+      "products": "[TRANSLATE] Products"
+    },
+    "company": {
+      "images": {
+        "modernFacility": {
+          "title": "[TRANSLATE] Modern Engineering Facility",
+          "description": "[TRANSLATE] Our state-of-the-art facility in Noida equipped with latest testing equipment"
+        },
+        "expertTeam": {
+          "title": "[TRANSLATE] Expert Engineering Team",
+          "description": "[TRANSLATE] Our skilled engineers working on industrial automation solutions"
+        },
+        "qualityLab": {
+          "title": "[TRANSLATE] Quality Control Laboratory",
+          "description": "[TRANSLATE] Advanced testing lab ensuring product quality and reliability"
+        },
+        "trainingCenter": {
+          "title": "[TRANSLATE] Training & Development Center",
+          "description": "[TRANSLATE] Continuous skill development for our technical team"
+        },
+        "supportCenter": {
+          "title": "[TRANSLATE] Customer Support Center",
+          "description": "[TRANSLATE] Dedicated 24/7 customer support and technical assistance"
+        },
+        "rdWing": {
+          "title": "[TRANSLATE] Research & Development Wing",
+          "description": "[TRANSLATE] Innovation hub for developing cutting-edge automation solutions"
+        }
+      },
+      "categories": {
+        "facility": "[TRANSLATE] Facility",
+        "team": "[TRANSLATE] Team",
+        "training": "[TRANSLATE] Training",
+        "support": "[TRANSLATE] Support",
+        "rd": "[TRANSLATE] R&D"
+      }
+    },
+    "projects": {
+      "images": {
+        "controlPanel": {
+          "title": "[TRANSLATE] Industrial Control Panel Installation",
+          "description": "[TRANSLATE] Complete automation system implementation for manufacturing plant",
+          "client": "[TRANSLATE] Manufacturing Industry"
+        },
+        "solarPlant": {
+          "title": "[TRANSLATE] Solar Power Plant - 1MW",
+          "description": "[TRANSLATE] Grid-tied solar installation with monitoring systems",
+          "client": "[TRANSLATE] Industrial Complex"
+        },
+        "scadaSystem": {
+          "title": "[TRANSLATE] SCADA System Implementation",
+          "description": "[TRANSLATE] Centralized monitoring and control system for water treatment plant",
+          "client": "[TRANSLATE] Water Authority"
+        },
+        "instrumentation": {
+          "title": "[TRANSLATE] Process Instrumentation Upgrade",
+          "description": "[TRANSLATE] Complete instrumentation overhaul for chemical processing unit",
+          "client": "[TRANSLATE] Chemical Industry"
+        },
+        "plcProgramming": {
+          "title": "[TRANSLATE] PLC Programming & Integration",
+          "description": "[TRANSLATE] Advanced PLC systems for production line automation",
+          "client": "[TRANSLATE] Automotive Sector"
+        },
+        "electricalPanel": {
+          "title": "[TRANSLATE] Electrical Panel Modernization",
+          "description": "[TRANSLATE] Safety compliance and efficiency improvement project",
+          "client": "[TRANSLATE] Manufacturing Unit"
+        }
+      },
+      "categories": {
+        "automation": "[TRANSLATE] Automation",
+        "solarEpc": "[TRANSLATE] Solar EPC",
+        "scada": "[TRANSLATE] SCADA",
+        "instrumentation": "[TRANSLATE] Instrumentation",
+        "plcProgramming": "[TRANSLATE] PLC Programming",
+        "electrical": "[TRANSLATE] Electrical"
+      }
+    },
+    "products": {
+      "images": {
+        "controlSystems": {
+          "title": "[TRANSLATE] Advanced Control Systems",
+          "description": "[TRANSLATE] State-of-the-art automation and control solutions"
+        },
+        "electricalPanels": {
+          "title": "[TRANSLATE] Electrical Control Panels",
+          "description": "[TRANSLATE] Custom-designed panels for industrial applications"
+        },
+        "instrumentation": {
+          "title": "[TRANSLATE] Precision Instrumentation",
+          "description": "[TRANSLATE] High-quality measurement and control instruments"
+        },
+        "pumps": {
+          "title": "[TRANSLATE] Industrial Pumps & Motors",
+          "description": "[TRANSLATE] Reliable pump solutions for various applications"
+        },
+        "solarProducts": {
+          "title": "[TRANSLATE] Solar Power Solutions",
+          "description": "[TRANSLATE] Complete solar energy systems and components"
+        },
+        "safetyEquipment": {
+          "title": "[TRANSLATE] Safety & Protection",
+          "description": "[TRANSLATE] Industrial safety equipment and protective devices"
+        }
+      },
+      "categories": {
+        "controlSystems": "[TRANSLATE] Control Systems",
+        "electricalPanels": "[TRANSLATE] Electrical Panels",
+        "instrumentation": "[TRANSLATE] Instrumentation",
+        "pumps": "[TRANSLATE] Pumps & Motors",
+        "solar": "[TRANSLATE] Solar Products",
+        "safety": "[TRANSLATE] Safety Equipment"
+      }
+    },
+    "ui": {
+      "viewLarger": "[TRANSLATE] View Larger",
+      "downloadImage": "[TRANSLATE] Download Image",
+      "requestDownload": "[TRANSLATE] Request Download",
+      "needCustomPortfolio": "[TRANSLATE] Need Custom Portfolio?",
+      "contactUs": "[TRANSLATE] Contact us for a personalized project portfolio showcasing our work relevant to your industry.",
+      "imageNotFound": "[TRANSLATE] Image not found",
+      "noImagesFound": "[TRANSLATE] No images found for this category",
+      "allCategories": "[TRANSLATE] All Categories",
+      "year": "[TRANSLATE] Year",
+      "location": "[TRANSLATE] Location",
+      "client": "[TRANSLATE] Client",
+      "category": "[TRANSLATE] Category"
+    },
+    "sections": {
+      "company": {
+        "title": "[TRANSLATE] Our Company & Team",
+        "description": "[TRANSLATE] Meet our dedicated team and explore our modern facilities that enable us to deliver excellence in every project."
+      },
+      "projects": {
+        "title": "[TRANSLATE] Our Completed Projects",
+        "description": "[TRANSLATE] Explore our successful project implementations across various industries, showcasing our expertise and commitment to quality."
+      },
+      "products": {
+        "title": "[TRANSLATE] Our Products & Solutions",
+        "description": "[TRANSLATE] Discover our comprehensive range of industrial products and solutions from leading global manufacturers."
+      }
+    }
+  },
+  "news": {
+    "hero": {
+      "title": "[TRANSLATE] News & Updates",
+      "subtitle": "[TRANSLATE] Latest Industry Insights"
+    },
+    "article": {
+      "backToNews": "[TRANSLATE] Back to News",
+      "share": "[TRANSLATE] Share",
+      "author": "[TRANSLATE] Powerton Engineering Team",
+      "categories": {
+        "projectSuccess": "[TRANSLATE] Project Success",
+        "technology": "[TRANSLATE] Technology",
+        "industryNews": "[TRANSLATE] Industry News",
+        "companyUpdate": "[TRANSLATE] Company Update"
+      },
+      "sampleArticle": {
+        "title": "[TRANSLATE] Powerton Engineering Completes Major Automation Project for Leading Manufacturing Plant",
+        "excerpt": "[TRANSLATE] Successfully implemented comprehensive industrial automation system reducing operational costs by 30% and improving efficiency by 45%.",
+        "content": {
+          "projectOverview": "[TRANSLATE] Project Overview",
+          "projectOverviewText": "[TRANSLATE] Powerton Engineering has successfully completed a comprehensive industrial automation project for one of India's leading manufacturing facilities. This project represents a significant milestone in our commitment to delivering cutting-edge automation solutions that drive operational excellence.",
+          "keyAchievements": "[TRANSLATE] Key Achievements",
+          "achievements": {
+            "costReduction": "[TRANSLATE] 30% reduction in operational costs",
+            "efficiency": "[TRANSLATE] 45% improvement in production efficiency",
+            "safety": "[TRANSLATE] Zero safety incidents during implementation",
+            "uptime": "[TRANSLATE] 100% system uptime since commissioning"
+          },
+          "technicalImplementation": "[TRANSLATE] Technical Implementation",
+          "technicalText": "[TRANSLATE] The project involved the integration of advanced PLC systems, SCADA implementation, and comprehensive instrumentation solutions. Our team worked closely with the client to ensure minimal disruption to ongoing operations while implementing state-of-the-art automation technology.",
+          "technologiesUsed": "[TRANSLATE] Technologies Used",
+          "technologies": {
+            "plc": "[TRANSLATE] Schneider Electric PLC Systems",
+            "scada": "[TRANSLATE] Advanced SCADA with real-time monitoring",
+            "iot": "[TRANSLATE] Industrial IoT sensors and connectivity",
+            "maintenance": "[TRANSLATE] Predictive maintenance systems",
+            "energy": "[TRANSLATE] Energy management and optimization"
+          },
+          "clientTestimonial": "[TRANSLATE] Client Testimonial",
+          "testimonialText": "[TRANSLATE] Powerton Engineering delivered beyond our expectations. The new automation system has transformed our operations, and we're seeing immediate benefits in efficiency and cost reduction. Their professional approach and technical expertise were exceptional.",
+          "futureCollaboration": "[TRANSLATE] Future Collaboration",
+          "futureText": "[TRANSLATE] Based on the success of this implementation, the client has already engaged Powerton Engineering for phase two of their automation journey, which will expand the system to additional production lines.",
+          "conclusionText": "[TRANSLATE] This project demonstrates our capability to handle complex industrial automation challenges and deliver measurable results that directly impact our clients' bottom line."
+        }
+      },
+      "cta": {
+        "title": "[TRANSLATE] Ready to Transform Your Operations?",
+        "description": "[TRANSLATE] Learn how Powerton Engineering can help you achieve similar results with our industrial automation solutions.",
+        "contactTeam": "[TRANSLATE] Contact Our Team",
+        "requestQuote": "[TRANSLATE] Request Project Quote"
+      },
+      "relatedArticles": {
+        "title": "[TRANSLATE] Related Articles",
+        "iotTrends": {
+          "title": "[TRANSLATE] Latest Trends in Industrial IoT Implementation",
+          "excerpt": "[TRANSLATE] Exploring how Industrial Internet of Things is revolutionizing manufacturing processes..."
+        },
+        "energyManagement": {
+          "title": "[TRANSLATE] Energy Management System Reduces Costs by 40%",
+          "excerpt": "[TRANSLATE] Case study: How our energy management solution delivered exceptional savings..."
+        },
+        "readMore": "[TRANSLATE] Read More →"
+      }
+    }
+  },
+  "backToProducts": "[TRANSLATE] Back to Products",
+  "sitemap": {
+    "quickActions": {
+      "title": "[TRANSLATE] Need Help Finding Something?",
+      "description": "[TRANSLATE] Can't find what you're looking for? Contact us directly or use our intelligent chatbot available on every page.",
+      "contactUs": "[TRANSLATE] Contact Us",
+      "requestQuote": "[TRANSLATE] Request Quote"
+    }
+  },
+  "portfolio": {
+    "features": {
+      "completedProjects": "[TRANSLATE] Successfully completed projects across various industries",
+      "highQuality": "[TRANSLATE] High-Quality Documentation",
+      "highQualityDesc": "[TRANSLATE] Professional portfolio with detailed project imagery",
+      "verifiedResults": "[TRANSLATE] Verified Results",
+      "verifiedResultsDesc": "[TRANSLATE] Real projects with measurable outcomes and client testimonials"
     }
   }
 }

@@ -2,395 +2,44 @@
   "title": "Bidhaa Zetu",
   "subtitle": "Vifaa vya Otomatiki ya Viwandani na Viungo vya Umeme",
   "categories": {
-    "automation": "Otomatiki na Udhibiti",
-    "electrical": "Viungo vya Umeme",
-    "instrumentation": "Vifaa vya Kipimo",
-    "solar": "Bidhaa za Jua",
-    "motors": "Mifumo ya Mitambo ya BLDC",
-    "pumps": "Pampu na Mitambo",
-    "safety": "Vifaa vya Usalama",
-    "tools": "Zana za Viwandani",
-    "instrumentation-components": {
-      "title": "Viungo vya Vifaa vya Kipimo",
-      "description": "Viungo vya usahihi vya vifaa vya kipimo kwa kupima na kudhibiti",
-      "features": {
-        "pressure-transmitters": "Vipitishaji vya Shinikizo",
-        "temperature-sensors": "Vihisi vya Joto",
-        "flow-meters": "Vipimo vya Mtiririko",
-        "level-indicators": "Vionyeshi vya Kiwango"
-      }
-    },
-    "electrical-components": {
-      "title": "Viungo vya Umeme",
-      "description": "Suluhisho kamili za viungo vya umeme kwa matumizi ya viwandani"
-    },
-    "measurement-instruments": {
-      "title": "Vifaa vya Kupima",
-      "description": "Vifaa vya kupima na kujaribu vya usahihi"
-    },
-    "solar-products": {
-      "title": "Bidhaa za Jua",
-      "description": "Suluhisho kamili na viungo vya nishati ya jua"
-    },
-    "automation-control-systems": {
-      "title": "Mifumo ya Otomatiki na Udhibiti",
-      "description": "Mifumo ya hali ya juu ya otomatiki na udhibiti kwa shughuli za viwandani"
-    },
-    "safety-protective-devices": {
-      "title": "Vifaa vya Usalama na Kinga",
-      "description": "Mifumo ya usalama ya viwandani na vifaa vya kinga"
-    },
-    "mechanical-pumps-spares": {
-      "title": "Pampu za Mitambo na Vipengele",
-      "description": "Pampu za mitambo na vipengele vya ziada kwa matumizi ya viwandani"
-    },
-    "industrial-tools-tackles": {
-      "title": "Zana na Vifaa vya Viwandani",
-      "description": "Zana nzito za viwandani na vifaa vya kuinua"
-    },
-    "bldc": {
-      "title": "Bidhaa za Mitambo isiyo na Brashi",
-      "description": "Bidhaa za mitambo isiyo na brashi kwa matumizi yanayokoa nishati"
-    }
+    "automation": "[TRANSLATE] Automation & Control",
+    "electrical": "[TRANSLATE] Electrical Components",
+    "instrumentation": "[TRANSLATE] Instrumentation",
+    "solar": "[TRANSLATE] Solar Products",
+    "motors": "[TRANSLATE] BLDC Motor Systems",
+    "pumps": "[TRANSLATE] Pumps & Motors",
+    "safety": "[TRANSLATE] Safety Equipment",
+    "tools": "[TRANSLATE] Industrial Tools"
   },
   "filters": {
-    "all": "Zote",
-    "category": "Kategoria",
+    "all": "Yote",
+    "category": "Aina",
     "industry": "Sekta",
     "status": "Hali"
   },
   "status": {
     "available": "Inapatikana",
     "outOfStock": "Haipatikani",
-    "discontinued": "Imeacha Kutengenezwa"
+    "discontinued": "Imeacha kutengenezwa"
   },
   "productPages": {
-    "analyzers": {
-      "title": "Vichambuzi vya Michakato",
-      "subtitle": "Vifaa vya hali ya juu vya uchambuzi kwa ufuatiliaji wa michakato"
-    },
-    "automationControl": {
-      "title": "Mifumo ya Otomatiki na Udhibiti",
-      "subtitle": "Suluhisho za hali ya juu za otomatiki na udhibiti kwa usimamizi na uboreshaji wa michakato ya viwandani"
-    },
-    "bldcCeilingFan": {
-      "title": "Panka za Dari za BLDC",
-      "subtitle": "Panka za dari za DC zisizo na brashi zinazokoa nishati zenye sifa za kisasa na utendaji wa hali ya juu"
-    },
-    "bldc": {
-      "title": "Bidhaa za Mitambo ya Umeme isiyo na Brashi",
-      "subtitle": "Bidhaa za mitambo ya DC isiyo na brashi kwa matumizi ya upokoaji, uongezaji wa hewa na upampuaji yanayokoa nishati"
-    },
-    "cables": {
-      "title": "Kebo na Waya",
-      "subtitle": "Suluhisho za kebo na waya za viwandani kwa matumizi ya nguvu na udhibiti"
-    },
-    "calibration": {
-      "title": "Vifaa vya Urekebishaji",
-      "subtitle": "Vifaa vya urekebishaji wa usahihi na vifaa vya uchunguzi"
-    },
-    "electricalComponents": {
-      "title": "Viungo vya Umeme",
-      "subtitle": "Suluhisho kamili za viungo vya umeme kwa matumizi ya viwandani"
-    },
-    "safetyProtective": {
-      "title": "Vifaa vya Usalama na Kinga",
-      "subtitle": "Mifumo ya usalama ya viwandani na vifaa vya kinga"
-    }
-  },
-  "subcategories": {
-    "sensors": {
-      "title": "Vihisi",
-      "description": "Vihisi vya viwandani kwa kupima na kudhibiti"
-    },
     "transmitters": {
-      "title": "Vituma na Vibadilishi",
-      "description": "Vituma vya michakato na vifaa vya kubadilisha ishara"
+      "title": "[TRANSLATE] Transmitters",
+      "transducers": "[TRANSLATE] Transducers"
     },
-    "controllers": {
-      "title": "Vadhibiti na Virekodia",
-      "description": "Mifumo ya udhibiti wa viwandani na vadhibiti wa otomatiki"
-    },
-    "switches": {
-      "title": "Vitufe na Viasibu",
-      "description": "Vitufe vya viwandani na vifaa vya udhibiti"
-    },
-    "valves": {
-      "title": "Valvu na Viendelezi",
-      "description": "Valvu za viwandani na mifumo ya udhibiti wa mtiririko"
-    },
-    "analyzers": {
-      "title": "Vichambuzi",
-      "description": "Vichambuzi vya michakato kwa udhibiti wa ubora"
-    },
-    "signal-conditioners": {
-      "title": "Vipangaji Ishara",
-      "description": "Vifaa vya kusindika na kupanga ishara"
-    },
-    "cables-wires": {
-      "title": "Kebo na Waya",
-      "description": "Kebo za viwandani na suluhisho za waya"
-    },
-    "connectors-terminals": {
-      "title": "Viunganishi na Vituo",
-      "description": "Viunganishi vya umeme na suluhisho za vituo"
-    },
-    "circuit-breakers-fuses": {
-      "title": "Vikati Mzunguko na Fiyuzi",
-      "description": "Vifaa vya kinga ya umeme kwa usalama wa mzunguko"
-    },
-    "power-supplies": {
-      "title": "Vimesho",
-      "description": "Vipande vya umeme vya viwandani na vibadilishi"
-    },
-    "enclosures-cabinets": {
-      "title": "Mafungu na Makabati",
-      "description": "Mafungu ya umeme na suluhisho za makabati ya udhibiti"
-    },
-    "heating-elements-appliances": {
-      "title": "Vipengele vya Kupasha na Vifaa",
-      "description": "Suluhisho za kupasha viwandani na vifaa vya joto"
-    },
-    "multimeters": {
-      "title": "Vipimo Vingi",
-      "description": "Vipimo vingi vya kidijitali na analogi kwa majaribio ya umeme"
-    },
-    "oscilloscopes": {
-      "title": "Osciloskopu",
-      "description": "Osciloskopu za kidijitali kwa uchambuzi wa ishara na majaribio"
-    },
-    "spectrum-analyzers": {
-      "title": "Vichambuzi vya Mpangilio",
-      "description": "Vifaa vya uchambuzi wa mpangilio wa RF na mawimbi-marefu"
-    },
-    "power-quality-analyzers": {
-      "title": "Vichambuzi vya Ubora wa Umeme",
-      "description": "Vifaa vya kupima na kuchambuza ubora wa umeme"
-    },
-    "calibration-equipment": {
-      "title": "Vifaa vya Urekebishaji",
-      "description": "Vifaa vya urekebishaji wa usahihi na vifaa vya jaribio"
-    },
-    "solar-panels": {
-      "title": "Paneli za Jua",
-      "description": "Paneli za jua za ufanisi wa juu na mifumo ya kielektroniki-jua"
-    },
-    "solar-inverters": {
-      "title": "Vibadilishi vya Jua",
-      "description": "Vibadilishi vya nishati ya jua na mifumo ya muunganisho wa mtandao"
-    },
-    "mounting-structures-racking": {
-      "title": "Miundo ya Kubanua na Mifumo ya Rafu",
-      "description": "Suluhisho za muundo wa kubanua kwa uwekaji wa jua"
-    },
-    "solar-charge-controllers": {
-      "title": "Vadhibiti wa Malipo ya Jua",
-      "description": "Vadhibiti wa malipo ya jua na usimamizi wa nishati"
-    },
-    "solar-batteries-energy-storage": {
-      "title": "Betri za Jua na Mifumo ya Kuhifadhi Nishati",
-      "description": "Suluhisho za kuhifadhi nishati kwa mifumo ya nishati ya jua"
-    },
-    "plcs": {
-      "title": "Vadhibiti wa Mantiki Inayoweza Kuprogramiwa",
-      "description": "Vadhibiti wa Mantiki Inayoweza Kuprogramiwa kwa otomatiki ya viwandani"
-    },
-    "scada": {
-      "title": "Mifumo ya Udhibiti wa Usimamizi na Ukusanyaji wa Data",
-      "description": "Mifumo ya Udhibiti wa Usimamizi na Ukusanyaji wa Data"
-    },
-    "dcs": {
-      "title": "Mifumo ya Udhibiti Iliyotawanyika",
-      "description": "Mifumo ya Udhibiti Iliyotawanyika kwa otomatiki ya michakato"
-    },
-    "hmi": {
-      "title": "Mifumo ya Kiolesura cha Binadamu-Mashine",
-      "description": "Mifumo ya Kiolesura cha Binadamu-Mashine kwa udhibiti wa mwendeshaji"
-    },
-    "surge-protectors": {
-      "title": "Walinda Mshtuko",
-      "description": "Vifaa vya kinga dhidi ya mshtuko wa umeme na mifumo"
-    },
-    "grounding-systems": {
-      "title": "Mifumo ya Kuunganisha Ardhini",
-      "description": "Suluhisho za kuunganisha ardhini kwa usalama"
-    },
-    "safety-relays-switches": {
-      "title": "Rile na Vitufe vya Usalama",
-      "description": "Rile za udhibiti wa usalama na mifumo ya kusimama kwa dharura"
-    },
-    "intrinsically-safe-equipment": {
-      "title": "Vifaa vya Usalama wa Asili",
-      "description": "Vifaa vilivyoidhinishwa kwa matumizi ya maeneo hatari"
-    },
-    "centrifugal-pumps": {
-      "title": "Pampu za Kikingo",
-      "description": "Pampu za kikingo za ufanisi wa juu kwa matumizi ya viwandani"
-    },
-    "diaphragm-pumps": {
-      "title": "Pampu za Utando",
-      "description": "Pampu za kipimo sahihi na kushughulikia kemikali"
-    },
-    "gear-pumps": {
-      "title": "Pampu za Gia",
-      "description": "Pampu za gia za usahihi kwa matumizi ya hydrauliki na viwandani"
-    },
-    "pump-parts-spares": {
-      "title": "Sehemu za Pampu na Vitu vya Ziada",
-      "description": "Sehemu za uongezaji na vipengele kwa mifumo ya pampu"
-    },
-    "hand-tools": {
-      "title": "Zana za Mikono",
-      "description": "Zana za mikono za kitaalamu kwa matengenezo ya viwandani"
-    },
-    "power-tools": {
-      "title": "Zana za Umeme",
-      "description": "Zana za umeme na za anga kwa matumizi ya viwandani"
-    },
-    "cutting-tools": {
-      "title": "Zana za Kukata",
-      "description": "Zana za kukata za viwandani na vifaa vya ujenzi"
-    },
-    "lifting-equipment": {
-      "title": "Vifaa vya Kuinua",
-      "description": "Suluhisho za kuinua viwandani na kushughulikia vifaa"
-    },
-    "safety-equipment": {
-      "title": "Vifaa vya Usalama",
-      "description": "Vifaa vya kinga ya kibinafsi na vifaa vya usalama"
-    },
-    "bldc-cooler-exhaust-motor": {
-      "title": "Mota ya BLDC Kipozi/Kutoa",
-      "description": "Mota za BLDC zinazokoa nishati kwa kupoza na uongezaji wa hewa"
-    },
-    "bldc-ceiling-fan": {
-      "title": "Panka ya Dari ya BLDC",
-      "description": "Panka za dari za ufanisi wa juu na teknolojia ya DC isiyo na brashi"
-    },
-    "bldc-submersible-surface-pump": {
-      "title": "Pampu ya BLDC ya Kuzama/Uso",
-      "description": "Pampu za BLDC zinazotumia nishati ya jua kwa matumizi ya maji"
-    },
-    "bldc-table-fan-wall-fan-motor": {
-      "title": "Mota ya BLDC ya Panka ya Meza/Ukutani",
-      "description": "Mota za BLDC za ufinyu kwa panka za kubeba na za ukutani"
-    }
-  },
-  "categories": {
-    "instrumentation-components": {
-      "title": "Vipengele vya Vifaa vya Kipimo",
-      "description": "Vipengele vya usahihi vya vifaa vya kipimo na udhibiti",
-      "features": {
-        "pressure-transmitters": "Vituma Shinikizo",
-        "temperature-sensors": "Vihisi vya Joto",
-        "flow-meters": "Vipimo vya Mtiririko",
-        "level-indicators": "Viasibu vya Kiwango"
+    "spectrumAnalyzers": {
+      "title": "[TRANSLATE] Spectrum Analyzers",
+      "sections": {
+        "featured": {
+          "title": "[TRANSLATE] Featured Spectrum Analyzers"
+        }
+      },
+      "cta": {
+        "title": "[TRANSLATE] Need RF Signal Analysis?",
+        "description": "[TRANSLATE] Our RF specialists can help you select the right spectrum analyzer for your measurement needs.",
+        "button": "[TRANSLATE] Contact RF Experts"
       }
-    },
-    "electrical-components": {
-      "title": "Vipengele vya Umeme",
-      "description": "Suluhisho kamili za vipengele vya umeme kwa matumizi ya viwandani"
-    },
-    "measurement-instruments": {
-      "title": "Vifaa vya Kipimo",
-      "description": "Vifaa vya kipimo na uchunguzi wa usahihi"
-    },
-    "solar-products": {
-      "title": "Bidhaa za Jua",
-      "description": "Suluhisho kamili za nishati ya jua na vipengele"
-    },
-    "automation-control-systems": {
-      "title": "Mifumo ya Otomatiki na Udhibiti",
-      "description": "Mifumo ya hali ya juu ya otomatiki na udhibiti kwa shughuli za viwandani"
-    },
-    "safety-protective-devices": {
-      "title": "Vifaa vya Usalama na Kinga",
-      "description": "Mifumo ya usalama ya viwandani na vifaa vya kinga"
-    },
-    "mechanical-pumps-spares": {
-      "title": "Pampu za Kiufundi na Vipuri",
-      "description": "Pampu za kiufundi na vipuri kwa matumizi ya viwandani"
-    },
-    "industrial-tools-tackles": {
-      "title": "Zana za Viwandani na Vifaa",
-      "description": "Zana nzito za viwandani na vifaa vya kuinua"
-    },
-    "bldc": {
-      "title": "Bidhaa za Mitambo ya Umeme isiyo na Brashi",
-      "description": "Bidhaa za mitambo ya DC isiyo na brashi kwa matumizi yanayokoa nishati"
     }
-  },
-  "subcategories": {
-    "sensors": {
-      "title": "Vihisi",
-      "description": "Vihisi vya viwandani kwa kipimo na udhibiti"
-    },
-    "transmitters": {
-      "title": "Vituma",
-      "description": "Vituma vya michakato na vifaa vya kubadilisha ishara"
-    },
-    "controllers": {
-      "title": "Vadhibiti",
-      "description": "Mifumo ya udhibiti wa viwandani na vadhibiti wa otomatiki"
-    },
-    "switches": {
-      "title": "Swichi",
-      "description": "Swichi za viwandani na vifaa vya udhibiti"
-    },
-    "valves": {
-      "title": "Valavu",
-      "description": "Valavu za viwandani na mifumo ya udhibiti wa mtiririko"
-    },
-    "analyzers": {
-      "title": "Vichambuzi",
-      "description": "Vichambuzi vya michakato kwa udhibiti wa ubora"
-    },
-    "signal-conditioners": {
-      "title": "Virekebisha Ishara",
-      "description": "Vifaa vya kusindika na kurekebisha ishara"
-    }
-  },
-  "common": {
-    "keyFeatures": "Vipengele Muhimu:",
-    "needHelp": "Unahitaji Msaada?",
-    "contactExperts": "Wasiliana na Wataalamu",
-    "requestQuote": "Omba Nukuu"
-  },
-  "features": {
-    "common": {
-      "highTorque": "Nguvu Kubwa",
-      "variableSpeed": "Kasi Inayobadilika",
-      "cordlessOptions": "Chaguo Zisizo na Waya",
-      "multipleSizes": "Ukubwa Mbalimbali",
-      "safetyGuards": "Vialinda vya Usalama",
-      "antiVibration": "Kukinga Mtetemo",
-      "powerfulMotors": "Mitambo Yenye Nguvu",
-      "highEfficiency": "Ufanisi wa Hali ya Juu",
-      "compactDesign": "Muundo wa Kifupi",
-      "shortCircuitProtection": "Kinga dhidi ya Mkato wa Umeme",
-      "batteryBackup": "Chelezo cha Betri",
-      "surgeProtection": "Kinga dhidi ya Mvua ya Umeme",
-      "lcdDisplay": "Onyesho la LCD"
-    }
-  },
-  "locations": {
-    "delhiNcr": "Delhi NCR",
-    "rajasthan": "Rajasthan",
-    "uttarPradesh": "Uttar Pradesh",
-    "gujarat": "Gujarat",
-    "maharashtra": "Maharashtra",
-    "haryana": "Haryana",
-    "westBengal": "Bengal ya Magharibi"
-  },
-  "brands": {
-    "customBuilt": "Imetengenezwa Kwa Mahitaji",
-    "fluke": "Fluke, Keysight",
-    "siemens": "Siemens, Allen Bradley",
-    "abb": "ABB, Schneider",
-    "honeywell": "Honeywell, Yokogawa",
-    "wonderware": "Wonderware, iFIX",
-    "grundfos": "Grundfos, KSB",
-    "3m": "3M, MSA"
   },
   "subcategories": {
     "sensors": {
@@ -570,16 +219,182 @@
       "description": "Mita ndogo za BLDC kwa mapankha ya kuhamishika na yale yaliyopachikwa ukutani"
     }
   },
-  "filters": {
-    "all": "Yote",
-    "category": "Aina",
-    "industry": "Sekta",
-    "status": "Hali"
+  "common": {
+    "hazardousAreaSolutions": "[TRANSLATE] Hazardous Area Solutions",
+    "needEquipment": "[TRANSLATE] Need Equipment?",
+    "specialists": "[TRANSLATE] specialists"
   },
-  "status": {
-    "available": "Inapatikana",
-    "outOfStock": "Haipatikani",
-    "discontinued": "Imeacha kutengenezwa"
+  "features": {
+    "safetyDevices": {
+      "surgeProtectors": {
+        "title": "[TRANSLATE] Surge Protectors",
+        "description": "[TRANSLATE] Electrical surge protection devices for equipment safety",
+        "features": {
+          "lightning": "[TRANSLATE] Lightning Protection",
+          "voltage": "[TRANSLATE] Voltage Surge Protection",
+          "equipment": "[TRANSLATE] Equipment Safety",
+          "power": "[TRANSLATE] Power Quality"
+        }
+      },
+      "groundingSystems": {
+        "title": "[TRANSLATE] Grounding Systems",
+        "description": "[TRANSLATE] Electrical grounding and earthing systems for safety",
+        "features": {
+          "electrodes": "[TRANSLATE] Earth Electrodes",
+          "rods": "[TRANSLATE] Ground Rods",
+          "conductors": "[TRANSLATE] Bonding Conductors",
+          "lightning": "[TRANSLATE] Lightning Rods"
+        }
+      },
+      "safetyRelays": {
+        "title": "[TRANSLATE] Safety Relays & Switches",
+        "description": "[TRANSLATE] Safety control devices for emergency shutdown systems",
+        "features": {
+          "emergency": "[TRANSLATE] Emergency Stop",
+          "monitoring": "[TRANSLATE] Safety Monitoring",
+          "failSafe": "[TRANSLATE] Fail-Safe Design",
+          "certified": "[TRANSLATE] Certified Safety"
+        }
+      },
+      "intrinsicallySafe": {
+        "title": "[TRANSLATE] Intrinsically Safe Equipment",
+        "description": "[TRANSLATE] Explosion-proof equipment for hazardous environments",
+        "features": {
+          "atex": "[TRANSLATE] ATEX Certified",
+          "explosion": "[TRANSLATE] Explosion Proof",
+          "hazardous": "[TRANSLATE] Hazardous Area",
+          "intrinsic": "[TRANSLATE] Intrinsic Safety"
+        }
+      },
+      "badges": {
+        "surgeProtection": "[TRANSLATE] Surge Protection",
+        "groundingSystems": "[TRANSLATE] Grounding Systems",
+        "safetyRelays": "[TRANSLATE] Safety Relays",
+        "intrinsicSafety": "[TRANSLATE] Intrinsic Safety"
+      }
+    },
+    "common": {
+      "chuckCapacity": "[TRANSLATE] Chuck Capacity: 13mm",
+      "highImpactForce": "[TRANSLATE] High Impact Force",
+      "socketCompatibility": "[TRANSLATE] Socket Compatibility",
+      "forwardReverse": "[TRANSLATE] Forward/Reverse",
+      "batteryPowered": "[TRANSLATE] Battery Powered",
+      "efficientSwitching": "[TRANSLATE] 85-265V AC Input",
+      "dcOutput": "[TRANSLATE] 12V/24V DC Output",
+      "dinRailMount": "[TRANSLATE] DIN Rail Mount",
+      "wideInputRange": "[TRANSLATE] Wide Input Range",
+      "ledStatus": "[TRANSLATE] LED Status",
+      "autoTransfer": "[TRANSLATE] Auto Transfer",
+      "castIronBronze": "[TRANSLATE] Cast Iron/Bronze",
+      "stainlessSteelSizes": "[TRANSLATE] Stainless Steel",
+      "balancedDesign": "[TRANSLATE] Balanced Design",
+      "singleDoubleSeals": "[TRANSLATE] Single/Double Seals",
+      "cartridgeType": "[TRANSLATE] Cartridge Type",
+      "highTemperature": "[TRANSLATE] High Temperature",
+      "chemicalResistant": "[TRANSLATE] Chemical Resistant",
+      "rollingElement": "[TRANSLATE] Rolling Element",
+      "sleeveBearings": "[TRANSLATE] Sleeve Bearings",
+      "flexibleCouplings": "[TRANSLATE] Flexible Couplings",
+      "alignmentTools": "[TRANSLATE] Alignment Tools",
+      "threePhase": "[TRANSLATE] Three-Phase Measurement",
+      "harmonicsAnalysis": "[TRANSLATE] Harmonics Analysis",
+      "transientCapture": "[TRANSLATE] Transient Capture",
+      "powerLogging": "[TRANSLATE] Power Logging",
+      "voltageDip": "[TRANSLATE] Voltage Dip Detection",
+      "flickerMeasurement": "[TRANSLATE] Flicker Measurement",
+      "energyAssessment": "[TRANSLATE] Energy Assessment",
+      "realTimeAnalysis": "[TRANSLATE] Real-time Analysis",
+      "continuousMonitoring": "[TRANSLATE] Continuous Monitoring",
+      "eventRecording": "[TRANSLATE] Event Recording",
+      "complianceTesting": "[TRANSLATE] Compliance Testing",
+      "remoteAccess": "[TRANSLATE] Remote Access",
+      "selfPriming": "[TRANSLATE] Self-Priming",
+      "dryRunSafe": "[TRANSLATE] Dry Run Safe",
+      "variableFlow": "[TRANSLATE] Variable Flow",
+      "preciseMeteringLow": "[TRANSLATE] Precise Metering",
+      "lowPulsation": "[TRANSLATE] Low Pulsation",
+      "digitalControl": "[TRANSLATE] Digital Control",
+      "easyMaintenance": "[TRANSLATE] Easy Maintenance",
+      "highPressure": "[TRANSLATE] High Pressure",
+      "lowFlowRates": "[TRANSLATE] Low Flow Rates",
+      "accurateDosing": "[TRANSLATE] Accurate Dosing",
+      "leakFreeOperation": "[TRANSLATE] Leak-Free Operation"
+    },
+    "product": {
+      "safetyEquipment": {
+        "fullBodyHarness": "[TRANSLATE] Full Body Harness",
+        "lanyards": "[TRANSLATE] Lanyards",
+        "anchorPoints": "[TRANSLATE] Anchor Points",
+        "selfRetracting": "[TRANSLATE] Self-Retracting",
+        "multiGasDetectors": "[TRANSLATE] Multi-Gas Detectors",
+        "singleGas": "[TRANSLATE] Single Gas",
+        "wirelessMonitoring": "[TRANSLATE] Wireless Monitoring",
+        "dataLogging": "[TRANSLATE] Data Logging"
+      },
+      "electrical": {
+        "powerCables": "[TRANSLATE] Power Cables",
+        "controlCables": "[TRANSLATE] Control Cables",
+        "instrumentationCables": "[TRANSLATE] Instrumentation Cables",
+        "communicationCables": "[TRANSLATE] Communication Cables",
+        "terminalBlocks": "[TRANSLATE] Terminal Blocks",
+        "wireConnectors": "[TRANSLATE] Wire Connectors",
+        "dinRailTerminals": "[TRANSLATE] DIN Rail Terminals",
+        "junctionBoxes": "[TRANSLATE] Junction Boxes",
+        "mcbs": "[TRANSLATE] MCBs",
+        "mccbs": "[TRANSLATE] MCCBs",
+        "rccbs": "[TRANSLATE] RCCBs",
+        "industrialFuses": "[TRANSLATE] Industrial Fuses",
+        "smps": "[TRANSLATE] SMPS",
+        "dcDcConverters": "[TRANSLATE] DC-DC Converters",
+        "upsSystems": "[TRANSLATE] UPS Systems",
+        "controlPanels": "[TRANSLATE] Control Panels",
+        "distributionBoards": "[TRANSLATE] Distribution Boards",
+        "weatherproofEnclosures": "[TRANSLATE] Weatherproof Enclosures",
+        "heatingElements": "[TRANSLATE] Heating Elements",
+        "industrialHeaters": "[TRANSLATE] Industrial Heaters",
+        "temperatureControllers": "[TRANSLATE] Temperature Controllers",
+        "thermalProtection": "[TRANSLATE] Thermal Protection"
+      },
+      "pumps": {
+        "viscousFluids": "[TRANSLATE] Viscous Fluids",
+        "preciseFlow": "[TRANSLATE] Precise Flow",
+        "castIronSteel": "[TRANSLATE] Cast Iron/Steel",
+        "gentleHandling": "[TRANSLATE] Gentle Handling",
+        "noMechanicalSeal": "[TRANSLATE] No Mechanical Seal",
+        "leakFree": "[TRANSLATE] Leak-Free"
+      },
+      "enclosures": {
+        "nema4xRating": "[TRANSLATE] NEMA 4X Rating",
+        "gasketSealed": "[TRANSLATE] Gasket Sealed",
+        "floorStanding": "[TRANSLATE] Floor Standing",
+        "wallMount": "[TRANSLATE] Wall Mount",
+        "cableManagement": "[TRANSLATE] Cable Management",
+        "coolingOptions": "[TRANSLATE] Cooling Options",
+        "ip65Ip67Rating": "[TRANSLATE] IP65/IP67 Rating",
+        "explosionProof": "[TRANSLATE] Explosion Proof",
+        "cableGlands": "[TRANSLATE] Cable Glands",
+        "corrosionResistant": "[TRANSLATE] Corrosion Resistant"
+      }
+    }
+  },
+  "locations": {
+    "delhiNcr": "Delhi NCR",
+    "rajasthan": "Rajasthan",
+    "uttarPradesh": "Uttar Pradesh",
+    "gujarat": "Gujarat",
+    "maharashtra": "Maharashtra",
+    "haryana": "Haryana",
+    "westBengal": "Bengal ya Magharibi"
+  },
+  "brands": {
+    "customBuilt": "Imetengenezwa Kwa Mahitaji",
+    "fluke": "Fluke, Keysight",
+    "siemens": "Siemens, Allen Bradley",
+    "abb": "ABB, Schneider",
+    "honeywell": "Honeywell, Yokogawa",
+    "wonderware": "Wonderware, iFIX",
+    "grundfos": "Grundfos, KSB",
+    "3m": "3M, MSA"
   },
   "items": {
     "solar-products": "Bidhaa za Jua",
@@ -591,5 +406,138 @@
     "instrumentation-components": "Viungo vya Ala",
     "electrical-components": "Viungo vya Umeme",
     "measurement-instruments": "Ala za Kipimo"
+  },
+  "hmi": {
+    "title": "[TRANSLATE] HMI (Human Machine Interface)",
+    "subtitle": "[TRANSLATE] Industrial human machine interfaces for operator control and system visualization",
+    "navigation": {
+      "backToAutomation": "[TRANSLATE] Back to Automation & Control Systems"
+    },
+    "badges": {
+      "touchscreen": "[TRANSLATE] Touchscreen",
+      "industrialGrade": "[TRANSLATE] Industrial Grade",
+      "realTimeDisplay": "[TRANSLATE] Real-time Display",
+      "multiProtocol": "[TRANSLATE] Multi-Protocol"
+    },
+    "solutionsTitle": "[TRANSLATE] HMI Solutions",
+    "products": {
+      "panelMount": {
+        "name": "[TRANSLATE] Panel Mount HMI Displays",
+        "description": "[TRANSLATE] Industrial touchscreen displays for machine interface",
+        "features": "[TRANSLATE] Touch Interface,Industrial Rating,Multiple Sizes,Communication Protocols"
+      },
+      "operatorInterface": {
+        "name": "[TRANSLATE] Operator Interface Terminals",
+        "description": "[TRANSLATE] Rugged operator terminals for harsh environments",
+        "features": "[TRANSLATE] IP65/IP67 Rating,Stainless Steel,Membrane Keypad,Backlit Display"
+      },
+      "mobile": {
+        "name": "[TRANSLATE] Mobile HMI Solutions",
+        "description": "[TRANSLATE] Wireless and mobile human machine interfaces",
+        "features": "[TRANSLATE] Wireless Connectivity,Mobile Apps,Remote Access,Real-time Data"
+      }
+    },
+    "cta": {
+      "title": "[TRANSLATE] Need HMI Solutions?",
+      "description": "[TRANSLATE] Our HMI specialists can design intuitive operator interfaces for your automation systems.",
+      "contactExperts": "[TRANSLATE] Contact HMI Experts"
+    }
+  },
+  "plcProducts": {
+    "siemens": {
+      "description": "[TRANSLATE] Compact PLC for small to medium automation applications",
+      "features": {
+        "integratedIO": "[TRANSLATE] Integrated I/O",
+        "ethernet": "[TRANSLATE] Ethernet Communication",
+        "programming": "[TRANSLATE] TIA Portal Programming",
+        "failSafe": "[TRANSLATE] Fail-Safe Options"
+      }
+    },
+    "allenBradley": {
+      "description": "[TRANSLATE] High-performance PLC with integrated safety",
+      "features": {
+        "safety": "[TRANSLATE] GuardLogix Safety",
+        "ethernet": "[TRANSLATE] Dual Ethernet Ports",
+        "software": "[TRANSLATE] Studio 5000 Software",
+        "motion": "[TRANSLATE] Motion Control"
+      }
+    },
+    "schneider": {
+      "description": "[TRANSLATE] High-end PLC for complex industrial processes",
+      "features": {
+        "hotStandby": "[TRANSLATE] Hot Standby CPU",
+        "ethernet": "[TRANSLATE] Ethernet Ring Topology",
+        "software": "[TRANSLATE] Unity Pro Software",
+        "security": "[TRANSLATE] Cyber Security"
+      }
+    }
+  },
+  "tags": {
+    "industrialAutomation": "[TRANSLATE] Industrial Automation",
+    "plcSystems": "[TRANSLATE] PLC Systems",
+    "scada": "[TRANSLATE] SCADA",
+    "manufacturing": "[TRANSLATE] Manufacturing",
+    "processOptimization": "[TRANSLATE] Process Optimization"
+  },
+  "gallery": {
+    "imagePlaceholder": "[TRANSLATE] Image placeholder",
+    "actualImages": "[TRANSLATE] Actual images to be uploaded"
+  },
+  "labels": {
+    "specifications": "[TRANSLATE] Specifications",
+    "applications": "[TRANSLATE] Applications",
+    "industries": "[TRANSLATE] Industries",
+    "keyFeatures": "[TRANSLATE] Key Features",
+    "technologies": "[TRANSLATE] Technologies:",
+    "parameters": "[TRANSLATE] Parameters:"
+  },
+  "badges": {
+    "signalIntelligence": "[TRANSLATE] Signal Intelligence",
+    "vectorAnalysis": "[TRANSLATE] Vector Analysis",
+    "rfAnalysis": "[TRANSLATE] RF Analysis",
+    "emiTesting": "[TRANSLATE] EMI Testing",
+    "monocrystalline": "[TRANSLATE] Monocrystalline",
+    "polycrystalline": "[TRANSLATE] Polycrystalline",
+    "bifacial": "[TRANSLATE] Bifacial",
+    "highEfficiency": "[TRANSLATE] High Efficiency",
+    "stringInverters": "[TRANSLATE] String Inverters",
+    "centralInverters": "[TRANSLATE] Central Inverters",
+    "hybridSystems": "[TRANSLATE] Hybrid Systems",
+    "gridTie": "[TRANSLATE] Grid-Tie",
+    "highPressure": "[TRANSLATE] High Pressure",
+    "viscousFluids": "[TRANSLATE] Viscous Fluids",
+    "preciseFlow": "[TRANSLATE] Precise Flow",
+    "selfPriming": "[TRANSLATE] Self-Priming",
+    "smartMonitoring": "[TRANSLATE] Smart Monitoring",
+    "batteryProtection": "[TRANSLATE] Battery Protection",
+    "weatherproof": "[TRANSLATE] Weatherproof",
+    "modularDesign": "[TRANSLATE] Modular Design",
+    "solarCompatible": "[TRANSLATE] Solar Compatible",
+    "corrosionResistant": "[TRANSLATE] Corrosion Resistant",
+    "smartControl": "[TRANSLATE] Smart Control",
+    "lithiumIon": "[TRANSLATE] Lithium-Ion",
+    "leadAcid": "[TRANSLATE] Lead-Acid",
+    "energyStorageSystems": "[TRANSLATE] Energy Storage Systems",
+    "gridBackup": "[TRANSLATE] Grid Backup",
+    "chemicalResistant": "[TRANSLATE] Chemical Resistant",
+    "preciseMetering": "[TRANSLATE] Precise Metering",
+    "dryRunSafe": "[TRANSLATE] Dry Run Safe",
+    "processControl": "[TRANSLATE] Process Control",
+    "safetySystems": "[TRANSLATE] Safety Systems",
+    "assetManagement": "[TRANSLATE] Asset Management",
+    "advancedAnalytics": "[TRANSLATE] Advanced Analytics",
+    "energyEfficient": "[TRANSLATE] Energy Efficient",
+    "silentOperation": "[TRANSLATE] Silent Operation",
+    "longLife": "[TRANSLATE] Long Life",
+    "realtimeMonitoring": "[TRANSLATE] Real-time Monitoring",
+    "dataLogging": "[TRANSLATE] Data Logging",
+    "alarmManagement": "[TRANSLATE] Alarm Management",
+    "remoteAccess": "[TRANSLATE] Remote Access",
+    "durableConstruction": "[TRANSLATE] Durable Construction",
+    "ergonomicDesign": "[TRANSLATE] Ergonomic Design",
+    "professionalGrade": "[TRANSLATE] Professional Grade",
+    "groundRods": "[TRANSLATE] Ground Rods",
+    "conductors": "[TRANSLATE] Conductors",
+    "safetyGrounding": "[TRANSLATE] Safety Grounding"
   }
 }

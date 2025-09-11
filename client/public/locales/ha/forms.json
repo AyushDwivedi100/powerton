@@ -49,134 +49,62 @@
     }
   },
   "quote": {
-    "projectTypes": {
-      "newInstallation": "Sabon Shigarwa",
-      "systemUpgrade": "Haɓaka Tsarin",
-      "retrofit": "Gyarawa",
-      "maintenance": "Kwangilar Kula",
-      "consultation": "Shawarwarin Fasaha",
-      "design": "Zane da Injiniya"
-    },
-    "timelines": {
-      "immediate": "Nan take (< wata 1)",
-      "1-3-months": "Watanni 1-3",
-      "3-6-months": "Watanni 3-6",
-      "6-12-months": "Watanni 6-12",
-      "1-year-plus": "Sama da shekara 1"
-    },
-    "budgetRanges": {
-      "under-1-lakh": "Ƙasa da ₹1 Lakh",
-      "1-5-lakh": "₹1-5 Lakhs",
-      "5-10-lakh": "₹5-10 Lakhs",
-      "10-25-lakh": "₹10-25 Lakhs",
-      "25-50-lakh": "₹25-50 Lakhs",
-      "50-lakh-plus": "₹50 Lakhs+",
-      "discuss": "Na fi son tattaunawa"
-    },
     "validation": {
-      "nameMin": "Suna dole ne ya kasance aƙalla haruffa 2",
-      "emailInvalid": "Da fatan za a shigar da ingantaccen adireshin imel",
-      "phoneMin": "Da fatan za a shigar da ingantaccen lambar waya",
-      "companyRequired": "Ana buƙatar sunan kamfani",
-      "projectTitleRequired": "Ana buƙatar taken aiki",
-      "projectTypeRequired": "Da fatan za a zaɓi nau'in aiki",
-      "timelineRequired": "Da fatan za a zaɓi lokacin da ake tsammani",
-      "servicesRequired": "Da fatan za a zaɓi aƙalla sabis ɗaya",
-      "specificationsMin": "Da fatan za a ba da cikakkun bayanai (aƙalla haruffa 20)"
-    },
-    "success": {
-      "title": "An aika buƙatar tambayi farashin da nasara!",
-      "description": "Ƙungiyar injiniyar mu za ta duba buƙatun ku kuma ta amsa cikin sa'o'i 24-48."
-    },
-    "placeholders": {
-      "selectIndustry": "Zaɓi masana'anta",
-      "selectProjectScale": "Zaɓi girman aiki",
-      "selectBudget": "Zaɓi kewayon kasafin kuɗi (na zaɓi)",
-      "detailedRequirements": "Da fatan za a ba da cikakkun bayanai da suka haɗa da:\n- Buƙatun fasaha da ka'idoji\n- Bayanin kayan aiki da adadi\n- Buƙatun aiki\n- Yanayin muhalli\n- Buƙatun bin ka'ida\n- Duk wani al'amari na musamman...",
-      "additionalRequirements": "Duk wani ƙarin buƙatu, yanayi na musamman ko tambayoyi...",
-      "preferredBrands": "misali Siemens, Allen-Bradley, Schneider..."
-    },
-    "labels": {
-      "industryType": "Nau'in Masana'anta",
-      "projectScale": "Girman Aiki",
-      "approximateBudget": "Kasafin Kuɗi na Kusa",
-      "detailedRequirements": "Cikakkun Buƙatu *",
-      "preferredBrands": "Alamomin Kasuwanci/Ka'idoji da Aka Fi So",
-      "additionalRequirements": "Ƙarin Buƙatu",
-      "projectTitle": "Taken Aiki *",
-      "projectType": "Nau'in Aiki *",
-      "expectedTimeline": "Lokacin da Ake Tsammani *",
-      "phoneNumber": "Lambar Waya *",
-      "companyName": "Sunan Kamfani *",
-      "projectInformation": "Bayanan Aiki",
-      "budgetRange": "Kewayon Kasafin Kuɗi"
+      "nameRequired": "[TRANSLATE] Name is required",
+      "phoneRequired": "[TRANSLATE] Phone number is required",
+      "subjectRequired": "[TRANSLATE] Subject is required",
+      "messageRequired": "[TRANSLATE] Message is required",
+      "firstNameRequired": "[TRANSLATE] First name is required",
+      "lastNameRequired": "[TRANSLATE] Last name is required",
+      "invalidEmail": "[TRANSLATE] Invalid email address",
+      "selectService": "[TRANSLATE] Please select a service",
+      "projectDetailsRequired": "[TRANSLATE] Project details are required"
     },
     "sections": {
-      "requiredServices": "Sabis da Ake Buƙata *"
+      "contactInfo": "[TRANSLATE] Contact Information"
     },
-    "submitting": "Ana Aika Buƙatar Tambayi Farashi...",
-    "buttons": {
-      "getProfessionalQuote": "Sami Tambayin Farashi na Ƙwararru"
-    },
-    "fields": {
-      "designation": {
-        "label": "Matsayi"
-      },
-      "additionalRequirements": {
-        "label": "Ƙarin buƙatu"
-      }
-    },
-    "industries": {
-      "manufacturing": "Masana'anta",
-      "powerGeneration": "Samar da Wutar Lantarki",
-      "waterTreatment": "Maganin Ruwa",
-      "foodProcessing": "Sarrafa Abinci",
-      "pharmaceutical": "Magani",
-      "chemical": "Sinadarai",
-      "renewableEnergy": "Makamashi mai sabuntawa",
-      "infrastructure": "Ababen more rayuwa",
-      "other": "Wani"
+    "error": {
+      "title": "[TRANSLATE] Quote submission failed",
+      "description": "[TRANSLATE] For immediate assistance: {{phone}} or email: {{email}}"
     }
   },
   "career": {
-    "validation": {
-      "nameMin": "Suna dole ya kasance aƙalla haruffa 2",
-      "emailInvalid": "Don Allah shigar da adireshin imel mai inganci",
-      "phoneMin": "Lambar wayar dole ta kasance aƙalla lambobi 10",
-      "specializationRequired": "Don Allah zaɓi fannin injiniya naka",
-      "experienceRequired": "Don Allah zaɓi matakin gogewa naka",
-      "educationRequired": "Don Allah bayar da cikakkun bayanai game da karatunka",
-      "joiningTimeRequired": "Don Allah bayyana yadda za ka iya shiga da sauri",
-      "skillsMin": "Don Allah bayar da cikakkun bayanai game da ƙwarewarku",
-      "coverLetterMin": "Don Allah rubuta taƙaita wasiƙar gabatarwa (aƙalla haruffa 20)",
-      "addressMin": "Don Allah bayar da cikakken adireshin ku"
+    "placeholders": {
+      "fullName": "[TRANSLATE] Enter your full name",
+      "email": "[TRANSLATE] your.email@example.com",
+      "phone": "[TRANSLATE] +91 9876543210",
+      "address": "[TRANSLATE] Enter your complete address (House/Flat No., Street, City, State, PIN)",
+      "currentCompany": "[TRANSLATE] Your current company (optional)",
+      "education": "[TRANSLATE] e.g., B.Tech Electrical Engineering",
+      "expectedSalary": "[TRANSLATE] e.g., 5-8 LPA or Negotiable",
+      "skills": "[TRANSLATE] List your technical skills, software knowledge, programming languages, certifications, etc.",
+      "coverLetter": "[TRANSLATE] Tell us about your motivation, career goals, and how you can contribute to our team...",
+      "selectSpecialization": "[TRANSLATE] Select your area of expertise",
+      "selectExperience": "[TRANSLATE] Select experience level",
+      "selectAvailability": "[TRANSLATE] Select your availability"
     },
-    "specializations": {
-      "electricalEngineering": "Injiniyan Lantarki",
-      "automationControl": "Tsarin Atomatik da Sarrafawa",
-      "instrumentation": "Injiniyan Kayan Aiki",
-      "projectManagement": "Gudanarwar Ayyuka",
-      "technicalSales": "Siyar da Fasaha",
-      "fieldService": "Sabis na Filin da Shirye-shirye",
-      "designEngineering": "Zane da Ci gaba",
-      "solarRenewable": "Makamashin Rana da mai sabuntawa",
-      "other": "Wani Fanni"
+    "labels": {
+      "title": "[TRANSLATE] Join Our Engineering Team",
+      "subtitle": "[TRANSLATE] Submit your application and become part of our innovative engineering solutions team",
+      "personalInfo": "[TRANSLATE] Personal Information",
+      "professionalInfo": "[TRANSLATE] Professional Information",
+      "fullName": "[TRANSLATE] Full Name",
+      "emailAddress": "[TRANSLATE] Email Address",
+      "phoneNumber": "[TRANSLATE] Phone Number",
+      "residingAddress": "[TRANSLATE] Current Residing Address",
+      "specialization": "[TRANSLATE] Engineering Specialization",
+      "experience": "[TRANSLATE] Experience Level",
+      "currentCompany": "[TRANSLATE] Current Company",
+      "availability": "[TRANSLATE] Availability/Notice Period",
+      "education": "[TRANSLATE] Education/Qualification",
+      "expectedSalary": "[TRANSLATE] Expected Salary",
+      "technicalSkills": "[TRANSLATE] Technical Skills & Expertise",
+      "coverLetter": "[TRANSLATE] Cover Letter & Motivation"
     },
-    "experience": {
-      "fresher": "Sabon (shekaru 0-1)",
-      "oneToThree": "Shekaru 1-3",
-      "threeToFive": "Shekaru 3-5",
-      "fiveToEight": "Shekaru 5-8",
-      "eightToTwelve": "Shekaru 8-12",
-      "twelvePlus": "Shekaru 12+"
-    },
-    "joiningTime": {
-      "immediate": "Iya shiga nan da nan",
-      "fifteenDays": "Lokacin sanarwa kwanaki 15",
-      "oneMonth": "Lokacin sanarwa wata 1",
-      "twoMonths": "Lokacin sanarwa watanni 2",
-      "threeMonths": "Lokacin sanarwa watanni 3",
-      "moreThanThree": "Sanarwa fiye da watanni 3"
+    "buttons": {
+      "submit": "[TRANSLATE] Submit Application",
+      "submitting": "[TRANSLATE] Submitting Application...",
+      "uploadResume": "[TRANSLATE] Upload Resume"
     }
   }
 }

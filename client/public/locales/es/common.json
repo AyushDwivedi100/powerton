@@ -25,12 +25,12 @@
     "anand": {
       "name": "Anand Awasthi",
       "location": "Bengala Occidental",
-      "comment": "Powerton Engineering hizo que el proceso de adoptar energía solar fuera fluido y fácil. Su equipo se encargó de todo de principio a fin, y estamos encantados con los resultados."
+      "comment": "Powerton Engineering hizo que el proceso de adoptar la energía solar fuera fluido y fácil. Su equipo manejó todo de principio a fin, y estamos emocionados con los resultados."
     },
     "sanjay": {
       "name": "Sanjay Patil",
       "location": "Uttar Pradesh",
-      "comment": "Me alegro de haber elegido Powerton Engineering para nuestra instalación, y no dudaría en recomendarlos a cualquiera de mis amigos."
+      "comment": "Me alegra haber elegido Powerton Engineering para nuestra instalación, y no dudaría en recomendarlos a cualquiera de mis amigos."
     },
     "rhea": {
       "name": "Rhea Sharma",
@@ -40,7 +40,7 @@
     "priya": {
       "name": "Priya Mehta",
       "location": "Gujarat",
-      "comment": "Trabajar con Powerton Engineering fue una experiencia fantástica. Sus soluciones de automatización transformaron nuestro proceso de fabricación y mejoraron la eficiencia en un 35%. Altamente recomendado para proyectos de automatización industrial."
+      "comment": "Trabajar con Powerton Engineering fue una experiencia fantástica. Sus soluciones de automatización transformaron nuestro proceso de manufactura y mejoraron la eficiencia en un 35%. Altamente recomendado para proyectos de automatización industrial."
     },
     "kavya": {
       "name": "Kavya Singh",
@@ -50,7 +50,7 @@
     "rajesh": {
       "name": "Rajesh Kumar",
       "location": "Tamil Nadu",
-      "comment": "Powerton Engineering entregó exactamente lo que prometieron. El sistema de instrumentación que instalaron ha estado funcionando perfectamente durante más de dos años. Su soporte postventa es notable y siempre receptivo."
+      "comment": "Powerton Engineering entregó exactamente lo que prometieron. El sistema de instrumentación que instalaron ha estado funcionando perfectamente por más de dos años. Su soporte post-venta es notable y siempre receptivo."
     }
   },
   "navigation": {
@@ -84,43 +84,34 @@
     "IEEE": "IEEE (Instituto de Ingenieros Eléctricos y Electrónicos)"
   },
   "buttons": {
-    "learnMore": "Saber más",
-    "getQuote": "Obtener cotización",
-    "contactUs": "Contáctanos",
-    "contactProtectionExperts": "Contactar Expertos en Protección",
-    "contactSolarExperts": "Contactar Expertos Solares",
-    "requestQuote": "Solicitar cotización",
-    "contact": "Contáctanos",
-    "contactUs": "Contáctanos",
-    "viewAll": "Ver todo",
-    "readMore": "Leer más",
-    "viewDetails": "Ver detalles",
-    "download": "Descargar",
-    "downloadCatalog": "Descargar catálogo",
-    "downloadBrochure": "Descargar folleto",
-    "downloadGuide": "Descargar guía",
-    "downloadDatasheet": "Descargar hoja de datos",
-    "downloadPortfolio": "Descargar portafolio",
-    "requestQuote": "Solicitar cotización",
-    "showMore": "Mostrar más",
-    "showFilters": "Mostrar filtros",
-    "hideFilters": "Ocultar filtros",
-    "upload": "Subir",
-    "expertTeam": "Equipo Experto",
-    "successfulProjects": "Proyectos Exitosos",
-    "qualityProducts": "Productos de Calidad",
-    "readMore": "Leer Más"
+    "downloadPortfolio": "[TRANSLATE] Download Portfolio",
+    "showFilters": "[TRANSLATE] Show Filters",
+    "readMore": "[TRANSLATE] Read More",
+    "downloadCatalog": "[TRANSLATE] Download Catalog",
+    "viewDetails": "[TRANSLATE] View Details",
+    "backTo": "[TRANSLATE] Back to {{category}}",
+    "backToBldcProducts": "[TRANSLATE] Back to BLDC Products",
+    "backToProducts": "[TRANSLATE] Back to Products",
+    "requestQuote": "[TRANSLATE] Request Quote",
+    "expertTeam": "[TRANSLATE] Expert Team",
+    "successfulProjects": "[TRANSLATE] Successful Projects",
+    "qualityProducts": "[TRANSLATE] Quality Products",
+    "sendMessage": "[TRANSLATE] Send Message",
+    "sending": "[TRANSLATE] Sending...",
+    "submit": "[TRANSLATE] Submit",
+    "viewProducts": "[TRANSLATE] View Products",
+    "viewServices": "[TRANSLATE] View Services",
+    "getInTouch": "[TRANSLATE] Get In Touch",
+    "exploreProducts": "[TRANSLATE] Explore Products",
+    "viewCatalog": "[TRANSLATE] View Catalog",
+    "quickQuote": "[TRANSLATE] Quick Quote"
   },
   "loading": "Cargando...",
   "error": "Algo salió mal",
   "success": "¡Éxito!",
   "messages": {
-    "toggleTheme": "Cambiar tema",
-    "close": "Cerrar",
-    "imageNotFound": "Imagen no encontrada",
-    "loading": "Cargando...",
-    "error": "Ha ocurrido un error",
-    "openMobileMenu": "Abrir menú móvil"
+    "toggleTheme": "Cambiar Tema",
+    "close": "Cerrar"
   },
   "aria": {
     "previousTestimonial": "Testimonio anterior",
@@ -198,25 +189,25 @@
     "relatedProducts": "Productos relacionados"
   },
   "chatbot": {
-    "welcome": "¡Bienvenido a Powerton Engineering! ¿Cómo puedo ayudarte hoy?",
-    "typeMessage": "Escribe tu mensaje...",
-    "sendMessage": "Enviar mensaje",
-    "openChat": "Abrir chat",
-    "closeChat": "Cerrar chat",
-    "typing": "Escribiendo...",
+    "welcome": "[TRANSLATE] Welcome to Powerton Engineering! How can I help you today?",
+    "typeMessage": "[TRANSLATE] Type your message...",
+    "sendMessage": "[TRANSLATE] Send message",
+    "openChat": "[TRANSLATE] Open chat",
+    "closeChat": "[TRANSLATE] Close chat",
+    "typing": "[TRANSLATE] Typing...",
     "defaultOptions": {
-      "products": "Productos y catálogo",
-      "services": "Nuestros servicios",
-      "contact": "Información de contacto",
-      "quote": "Solicitar cotización",
-      "support": "Soporte técnico"
+      "products": "[TRANSLATE] Products & Catalog",
+      "services": "[TRANSLATE] Our Services",
+      "contact": "[TRANSLATE] Contact Information",
+      "quote": "[TRANSLATE] Request Quote",
+      "support": "[TRANSLATE] Technical Support"
     },
     "responses": {
-      "products": "Ofrecemos una gama completa de productos de automatización industrial, componentes eléctricos, instrumentación, sistemas solares y más. ¿Qué productos específicos estás buscando?",
-      "services": "Nuestros servicios incluyen instalación, mantenimiento, calibración, soporte técnico y soluciones personalizadas. ¿Qué servicio te interesa?",
-      "contact": "Puedes contactarnos al +91-9911315121 o enviarnos un correo a info@powertonengineering.com. Nuestra oficina está ubicada en Delhi, India.",
-      "quote": "¡Me complace ayudarte a obtener una cotización! Por favor visita nuestra página de cotizaciones o proporcióname tus requisitos.",
-      "support": "¡Nuestro equipo de soporte técnico está aquí para ayudarte! Por favor describe tu pregunta técnica o problema."
+      "products": "[TRANSLATE] We offer a comprehensive range of industrial automation products, electrical components, instrumentation, solar systems, and more. What specific products are you looking for?",
+      "services": "[TRANSLATE] Our services include installation, maintenance, calibration, technical support, and custom solutions. Which service interests you?",
+      "contact": "[TRANSLATE] You can reach us at +91-94627-71662 or email us at info@powertonengineering.com. Our headquarters is located in Noida, India, and we serve clients worldwide.",
+      "quote": "[TRANSLATE] I'd be happy to help you get a quote! Please visit our quote page or provide me with your requirements.",
+      "support": "[TRANSLATE] Our technical support team is here to help! Please describe your technical question or issue."
     }
   },
   "productSections": {
@@ -233,92 +224,33 @@
     "energyStorageDescription": "Nuestros expertos en almacenamiento de energía pueden diseñar el sistema de batería óptimo para su instalación solar."
   },
   "seo": {
-    "days": {
-      "monday": "Lunes",
-      "tuesday": "Martes",
-      "wednesday": "Miércoles",
-      "thursday": "Jueves",
-      "friday": "Viernes",
-      "saturday": "Sábado",
-      "sunday": "Domingo"
+    "powerton": {
+      "name": "[TRANSLATE] Powerton Engineering Pvt. Ltd.",
+      "description": "[TRANSLATE] Leading industrial automation and electrical engineering company serving clients globally. Specializing in power plant automation, solar installations, and manufacturing control systems.",
+      "keywords": "[TRANSLATE] Industrial Automation, Electrical Engineering, Power Plant, Solar Energy, Manufacturing, Control Systems, Instrumentation, SCADA, PLC, Automation Solutions, Electrical Installation, Industrial Control Panels, Process Automation, Power Distribution, Motor Control Centers, Electrical Maintenance, Industrial Electrical Services, Automation Consulting, Electrical Design, Power Systems",
+      "author": "[TRANSLATE] Powerton Engineering Team"
     },
-    "schemaTypes": {
-      "breadcrumbList": "Lista de navegación",
-      "listItem": "Elemento de lista",
-      "faqPage": "Página de preguntas frecuentes",
-      "question": "Pregunta",
-      "answer": "Respuesta",
-      "itemList": "Lista de elementos",
-      "service": "Servicio",
-      "localBusiness": "Negocio local",
-      "openingHours": "Especificación de horarios de apertura"
+    "location": {
+      "name": "[TRANSLATE] Noida, Uttar Pradesh, India",
+      "region": "[TRANSLATE] Uttar Pradesh",
+      "country": "[TRANSLATE] India"
     }
   },
   "labels": {
-    "responseTime": "Tiempo de respuesta",
-    "availability": "Disponibilidad",
-    "coverage": "Cobertura",
-    "technologies": "Tecnologías",
-    "parameters": "Parámetros",
-    "specifications": "Especificaciones",
-    "applications": "Aplicaciones",
-    "industries": "Industrias",
-    "keyFeatures": "Características principales",
-    "includes": "Incluye",
-    "projectType": "Tipo de proyecto",
-    "industry": "Industria",
-    "projectSize": "Tamaño del proyecto",
-    "timeline": "Cronograma",
-    "location": "Ubicación",
-    "budget": "Presupuesto",
-    "requirements": "Requisitos",
-    "category": "Categoría",
-    "status": "Estado",
-    "popular": "Popular",
-    "duration": "Duración",
-    "projectsCompleted": "Proyectos Completados",
-    "satisfiedClients": "Clientes Satisfechos",
-    "yearsExperience": "Años de Experiencia",
-    "businessHours": "Horarios de Atención",
-    "mondayToSaturday": "Lunes - Sábado",
-    "workingHours": "9:00 AM - 6:00 PM",
-    "sunday": "Domingo",
-    "emergencySupport": "Solo Soporte de Emergencia",
-    "popular": "Popular",
-    "duration": "Duración",
-    "keyFeatures": "Características Principales"
-  },
-  "buttons": {
-    "getQuote": "Obtener Cotización",
-    "callNow": "Llamar Ahora",
-    "emailUs": "Envíanos Email",
-    "learnMore": "Saber Más",
-    "viewMore": "Ver Más",
-    "viewAll": "Ver Todo",
-    "contactUs": "Contáctanos",
-    "getStarted": "Comenzar",
-    "downloadBrochure": "Descargar Folleto",
-    "downloadPortfolio": "Descargar Portafolio",
-    "showFilters": "Mostrar Filtros",
-    "readMore": "Leer Más",
-    "downloadCatalog": "Descargar Catálogo",
-    "viewDetails": "Ver Detalles",
-    "backTo": "Volver a {{category}}",
-    "backToBldcProducts": "Volver a Productos BLDC",
-    "quickQuote": "Cotización Rápida"
-  },
-  "messages": {
-    "toggleTheme": "Cambiar Tema",
-    "close": "Cerrar",
-    "readyToStart": "¿Listo para comenzar?",
-    "consultation": "Contáctanos para una consulta detallada y solución personalizada.",
-    "availability": "Lunes - Sábado, Soporte de emergencia disponible",
-    "coverage": "Cobertura de servicio en toda la India"
+    "category": "[TRANSLATE] Category",
+    "status": "[TRANSLATE] Status",
+    "industry": "[TRANSLATE] Industry",
+    "projectType": "[TRANSLATE] Project Type",
+    "popular": "[TRANSLATE] Popular",
+    "duration": "[TRANSLATE] Duration",
+    "keyFeatures": "[TRANSLATE] Key Features",
+    "projectsCompleted": "[TRANSLATE] Projects Completed",
+    "satisfiedClients": "[TRANSLATE] Satisfied Clients",
+    "yearsExperience": "[TRANSLATE] Years Experience",
+    "responseTime": "[TRANSLATE] Response Time"
   },
   "altTexts": {
-    "companyLogo": "Logo de Powerton Engineering Pvt. Ltd.",
-    "contactBackground": "Centro de contacto y fondo de oficina de soporte al cliente para empresa de ingeniería",
-    "aboutBackground": "Instalación de automatización industrial Powerton Engineering con sistemas de control modernos"
+    "aboutBackground": "[TRANSLATE] ID-004: Powerton Engineering industrial automation facility with modern control systems"
   },
   "products": {
     "sections": {
@@ -361,7 +293,7 @@
     "briefProjectTitle": "Título breve para tu proyecto"
   },
   "projectCategories": {
-    "Power Plant": "Central Eléctrica",
+    "Power Plant": "Planta de Energía",
     "Manufacturing": "Manufactura",
     "Solar": "Solar",
     "Water Treatment": "Tratamiento de Agua",
@@ -468,43 +400,10 @@
     "requirementsFeatures": "Requisitos y Características",
     "additionalInformation": "Información Adicional"
   },
-  "altTexts": {
-    "companyLogo": "Logo de Powerton Engineering Pvt. Ltd.",
-    "contactCenterBackground": "Centro de contacto y fondo de oficina de soporte al cliente para empresa de ingeniería",
-    "aboutCompanyFacility": "Instalación de automatización industrial Powerton Engineering con sistemas de control modernos",
-    "officeLocation": "Ubicación de Oficina Powerton Engineering"
-  },
-  "chatbot": {
-    "welcomeMessage": "¡Hola! Soy su asesor técnico de Powerton Engineering. Estoy aquí para ayudarlo a encontrar las soluciones de automatización industrial adecuadas para su proyecto.",
-    "fallbackMessage": "Para asistencia detallada, contacte a nuestro equipo al +91-94627-71662 o info@powertonengineering.com",
-    "options": {
-      "findProduct": "🔍 Encontrar el Producto Correcto",
-      "chooseService": "⚙️ Elegir un Servicio",
-      "troubleshooting": "🔧 Solución de Problemas Técnicos",
-      "aboutCompany": "💼 Acerca de Nuestra Empresa",
-      "sensorsCategory": "🌡️ Sensores y Medición",
-      "electricalCategory": "⚡ Componentes Eléctricos",
-      "automationCategory": "🔧 Sistemas de Automatización",
-      "solarCategory": "☀️ Productos Solares",
-      "safetyCategory": "🛡️ Seguridad y Protección",
-      "installationService": "🔧 Instalación y Puesta en Marcha",
-      "maintenanceService": "🛠️ Mantenimiento y Reparación",
-      "calibrationService": "📏 Calibración y Pruebas",
-      "trainingService": "🎓 Entrenamiento y Consultoría",
-      "solarService": "☀️ Proyectos EPC Solares"
-    },
-    "responses": {
-      "productSelection": "¡Excelente! Permíteme ayudarte a encontrar los productos perfectos de automatización industrial.",
-      "serviceSelection": "¡Excelente! En Powerton Engineering, ofrecemos servicios integrales diseñados para apoyar todo el ciclo de vida de su proyecto.",
-      "troubleshootingMain": "Estoy aquí para ayudarlo a solucionar cualquier problema técnico que esté experimentando.",
-      "companyInfo": "¡Me enorgullece representar a Powerton Engineering Pvt. Ltd.! Somos su socio confiable con más de una década de experiencia en automatización industrial.",
-      "sensorsCategory": "¡Excelente elección! Nuestro portafolio de sensores incluye instrumentos de precisión para medición de temperatura, presión, flujo y nivel."
-    }
-  },
   "sitemap": {
     "sections": {
       "mainPages": "Páginas principales",
-      "servicesProjects": "Servicios y proyectos", 
+      "servicesProjects": "Servicios y proyectos",
       "productCategories": "Categorías de productos",
       "resourcesTools": "Recursos y herramientas",
       "legalInformation": "Información legal"
@@ -578,32 +477,6 @@
       "responseTime": "2 horas"
     }
   },
-  "buttons": {
-    "getQuote": "Obtener Cotización",
-    "callNow": "Llamar Ahora",
-    "emailUs": "Envíanos un Email",
-    "learnMore": "Saber Más",
-    "viewMore": "Ver Más",
-    "viewAll": "Ver Todo",
-    "contactUs": "Contáctanos",
-    "getStarted": "Comenzar",
-    "downloadBrochure": "Descargar Folleto"
-  },
-  "labels": {
-    "businessHours": "Horario Comercial",
-    "mondayToSaturday": "Lunes - Sábado",
-    "workingHours": "9:00 AM - 6:00 PM",
-    "sunday": "Domingo",
-    "emergencySupport": "Solo Soporte de Emergencia"
-  },
-  "altTexts": {
-    "companyLogo": "Logo de Powerton Engineering Pvt. Ltd.",
-    "contactBackground": "ID-834: Centro de contacto y fondo de oficina de soporte al cliente para empresa de ingeniería"
-  },
-  "messages": {
-    "toggleTheme": "Cambiar Tema",
-    "close": "Cerrar"
-  },
   "clients": {
     "sci-group": "Corporación Naviera de la India",
     "agribio": "AgriBio Alemania",
@@ -625,33 +498,6 @@
     "text": "© {{year}} Powerton Engineering Pvt. Ltd. Todos los derechos reservados.",
     "madeWith": "Hecho con 💙 por el equipo de Powerton Engineering"
   },
-  "seo": {
-    "defaultTitle": "Powerton Engineering Pvt. Ltd. - Paneles de Control Industrial y Soluciones de Automatización",
-    "defaultDescription": "Fabricante líder de paneles de control eléctrico, sistemas de automatización industrial y soluciones de instrumentación. Sirviendo industrias en toda India con productos y servicios de ingeniería de calidad.",
-    "defaultKeywords": "paneles de control eléctrico, automatización industrial, centro de control de energía, centro de control de motores, instrumentación, ingeniería eléctrica, India",
-    "companyName": "Powerton Engineering Pvt. Ltd.",
-    "companyDescription": "Fabricante líder de paneles de control eléctrico y soluciones de automatización industrial",
-    "siteName": "Powerton Engineering",
-    "twitterHandle": "@powertoneng",
-    "businessAddress": {
-      "street": "Segundo piso, F-25, Bloque F, Sector 6",
-      "city": "Noida", 
-      "state": "Uttar Pradesh",
-      "postal": "201301",
-      "country": "India"
-    },
-    "contact": {
-      "phone": "+91-94627-71662",
-      "email": "info@powertonengineering.com"
-    },
-    "businessInfo": {
-      "industry": "Automatización Industrial, Ingeniería Eléctrica, Instrumentación",
-      "category": "Servicios de Ingeniería, Soluciones de Automatización, Sistemas Eléctricos",
-      "targetAudience": "Ingenieros Industriales, Gerentes de Planta, Profesionales de Automatización",
-      "companyType": "Proveedor de Soluciones de Ingeniería B2B",
-      "serviceArea": "India, Servicio Pan-India"
-    }
-  },
   "tags": {
     "award": "Premio",
     "recognition": "Reconocimiento",
@@ -671,44 +517,37 @@
     "quality": "Calidad",
     "certification": "Certificación"
   },
-  "testimonials": {
-    "anand": {
-      "name": "Anand Awasthi",
-      "location": "Bengala Occidental",
-      "comment": "Powerton Engineering hizo que el proceso de adoptar la energía solar fuera fluido y fácil. Su equipo manejó todo de principio a fin, y estamos emocionados con los resultados."
+  "cta": {
+    "getQuote": "[TRANSLATE] Get Quote",
+    "callNow": "[TRANSLATE] Call Now",
+    "emailUs": "[TRANSLATE] Email Us",
+    "learnMore": "[TRANSLATE] Learn More",
+    "viewMore": "[TRANSLATE] View More",
+    "contactUs": "[TRANSLATE] Contact Us",
+    "getStarted": "[TRANSLATE] Get Started",
+    "downloadBrochure": "[TRANSLATE] Download Brochure"
+  },
+  "quote": {
+    "projectTypes": {
+      "processAutomation": "[TRANSLATE] Process Automation",
+      "powerControlSystems": "[TRANSLATE] Power Control Systems",
+      "instrumentationControl": "[TRANSLATE] Instrumentation & Control",
+      "solarAutomation": "[TRANSLATE] Solar Automation",
+      "buildingAutomation": "[TRANSLATE] Building Automation",
+      "manufacturingAutomation": "[TRANSLATE] Manufacturing Automation"
     },
-    "sanjay": {
-      "name": "Sanjay Patil",
-      "location": "Uttar Pradesh",
-      "comment": "Me alegra haber elegido Powerton Engineering para nuestra instalación, y no dudaría en recomendarlos a cualquiera de mis amigos."
-    },
-    "rhea": {
-      "name": "Rhea Sharma",
-      "location": "Maharashtra",
-      "comment": "Productos de excelente calidad y servicio al cliente excepcional. La experiencia técnica del equipo es impresionante y altamente profesional."
-    },
-    "priya": {
-      "name": "Priya Mehta",
-      "location": "Gujarat",
-      "comment": "Trabajar con Powerton Engineering fue una experiencia fantástica. Sus soluciones de automatización transformaron nuestro proceso de manufactura y mejoraron la eficiencia en un 35%. Altamente recomendado para proyectos de automatización industrial."
-    },
-    "kavya": {
-      "name": "Kavya Singh",
-      "location": "Karnataka",
-      "comment": "¡Servicio excepcional y soporte técnico! El equipo proporcionó orientación excepcional durante la implementación de nuestro proyecto solar. Su enfoque profesional y entrega oportuna superó completamente nuestras expectativas."
-    },
-    "rajesh": {
-      "name": "Rajesh Kumar",
-      "location": "Tamil Nadu",
-      "comment": "Powerton Engineering entregó exactamente lo que prometieron. El sistema de instrumentación que instalaron ha estado funcionando perfectamente por más de dos años. Su soporte post-venta es notable y siempre receptivo."
+    "industries": {
+      "manufacturing": "[TRANSLATE] Manufacturing",
+      "powerGeneration": "[TRANSLATE] Power Generation",
+      "oilGas": "[TRANSLATE] Oil & Gas",
+      "chemicalProcessing": "[TRANSLATE] Chemical Processing",
+      "waterTreatment": "[TRANSLATE] Water Treatment",
+      "foodBeverage": "[TRANSLATE] Food & Beverage",
+      "pharmaceutical": "[TRANSLATE] Pharmaceutical",
+      "renewableEnergy": "[TRANSLATE] Renewable Energy"
     }
   },
-  "projectCategories": {
-    "Power Plant": "Planta de Energía",
-    "Manufacturing": "Manufactura",
-    "Solar": "Solar",
-    "Water Treatment": "Tratamiento de Agua",
-    "Process Automation": "Automatización de Procesos",
-    "Power Systems": "Sistemas de Energía"
+  "common": {
+    "keyFeatures": "[TRANSLATE] Key Features"
   }
 }

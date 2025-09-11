@@ -22,42 +22,37 @@
     "ha": "Hausa"
   },
   "navigation": {
-    "backToProducts": "Назад к Продуктам",
-    "backToInstrumentationComponents": "Назад к Компонентам Приборостроения",
-    "backToElectricalComponents": "Назад к Электрическим Компонентам",
-    "backToSolarProducts": "Назад к Солнечным Продуктам",
-    "backToMechanicalPumps": "Назад к Механическим Насосам и Запчастям",
-    "backToMeasurementInstruments": "Назад к Измерительным Приборам",
-    "backToSafetyDevices": "Назад к Устройствам Безопасности",
-    "backToIndustrialTools": "Назад к Промышленным Инструментам",
-    "backToAutomationSystems": "Назад к Системам Автоматизации",
-    "backToBLDC": "Назад к Продуктам BLDC"
+    "backToProducts": "[TRANSLATE] Back to Products",
+    "backToElectricalComponents": "[TRANSLATE] Back to Electrical Components",
+    "backToSolarProducts": "[TRANSLATE] Back to Solar Products",
+    "backToMechanicalPumps": "[TRANSLATE] Back to Mechanical Pumps & Spares",
+    "backToMeasurementInstruments": "[TRANSLATE] Back to Measurement Instruments",
+    "backToIndustrialTools": "[TRANSLATE] Back to Industrial Tools & Tackles",
+    "backToAutomationSystems": "[TRANSLATE] Back to Automation & Control Systems",
+    "backToBLDC": "[TRANSLATE] Back to BLDC Products"
   },
   "buttons": {
-    "learnMore": "Узнать больше",
-    "getQuote": "Получить предложение",
-    "contact": "Свяжитесь с нами",
-    "contactUs": "Свяжитесь с нами",
-    "viewAll": "Просмотреть все",
-    "readMore": "Читать далее",
-    "viewDetails": "Посмотреть детали",
-    "download": "Скачать",
-    "downloadCatalog": "Скачать каталог",
-    "downloadBrochure": "Скачать брошюру",
-    "downloadGuide": "Скачать руководство",
-    "downloadDatasheet": "Скачать техпаспорт",
-    "downloadSelectionGuide": "Скачать руководство по выбору",
-    "downloadPortfolio": "Скачать портфолио",
-    "requestQuote": "Запросить предложение",
-    "showMore": "Показать больше",
-    "showFilters": "Показать фильтры",
-    "hideFilters": "Скрыть фильтры",
-    "upload": "Загрузить",
-    "expertTeam": "Команда экспертов",
-    "successfulProjects": "Успешные проекты",
-    "qualityProducts": "Качественные продукты",
-    "contactProtectionExperts": "Связаться с Экспертами по Защите",
-    "contactSolarExperts": "Связаться с Экспертами по Солнечной Энергии"
+    "downloadPortfolio": "[TRANSLATE] Download Portfolio",
+    "showFilters": "[TRANSLATE] Show Filters",
+    "readMore": "[TRANSLATE] Read More",
+    "downloadCatalog": "[TRANSLATE] Download Catalog",
+    "viewDetails": "[TRANSLATE] View Details",
+    "backTo": "[TRANSLATE] Back to {{category}}",
+    "backToBldcProducts": "[TRANSLATE] Back to BLDC Products",
+    "backToProducts": "[TRANSLATE] Back to Products",
+    "requestQuote": "[TRANSLATE] Request Quote",
+    "expertTeam": "[TRANSLATE] Expert Team",
+    "successfulProjects": "[TRANSLATE] Successful Projects",
+    "qualityProducts": "[TRANSLATE] Quality Products",
+    "sendMessage": "[TRANSLATE] Send Message",
+    "sending": "[TRANSLATE] Sending...",
+    "submit": "[TRANSLATE] Submit",
+    "viewProducts": "[TRANSLATE] View Products",
+    "viewServices": "[TRANSLATE] View Services",
+    "getInTouch": "[TRANSLATE] Get In Touch",
+    "exploreProducts": "[TRANSLATE] Explore Products",
+    "viewCatalog": "[TRANSLATE] View Catalog",
+    "quickQuote": "[TRANSLATE] Quick Quote"
   },
   "productSections": {
     "keyFeatures": "Основные характеристики:",
@@ -76,17 +71,8 @@
   "error": "Что-то пошло не так",
   "success": "Успех!",
   "messages": {
-    "toggleTheme": "Переключить тему",
-    "close": "Закрыть",
-    "imageNotFound": "Изображение не найдено",
-    "loading": "Загрузка...",
-    "error": "Произошла ошибка",
-    "openMobileMenu": "Открыть мобильное меню"
-  },
-  "navigation": {
-    "backToInstrumentationComponents": "Вернуться к Компонентам Приборостроения",
-    "phoneNumbers": "Номера телефонов",
-    "backToSafetyDevices": "Вернуться к Устройствам Безопасности и Защиты"
+    "toggleTheme": "Переключить Тему",
+    "close": "Закрыть"
   },
   "aria": {
     "toggleNavigation": "Переключить помощник навигации",
@@ -186,66 +172,30 @@
     }
   },
   "seo": {
-    "days": {
-      "monday": "Понедельник",
-      "tuesday": "Вторник",
-      "wednesday": "Среда",
-      "thursday": "Четверг",
-      "friday": "Пятница",
-      "saturday": "Суббота",
-      "sunday": "Воскресенье"
+    "powerton": {
+      "name": "[TRANSLATE] Powerton Engineering Pvt. Ltd.",
+      "description": "[TRANSLATE] Leading industrial automation and electrical engineering company serving clients globally. Specializing in power plant automation, solar installations, and manufacturing control systems.",
+      "keywords": "[TRANSLATE] Industrial Automation, Electrical Engineering, Power Plant, Solar Energy, Manufacturing, Control Systems, Instrumentation, SCADA, PLC, Automation Solutions, Electrical Installation, Industrial Control Panels, Process Automation, Power Distribution, Motor Control Centers, Electrical Maintenance, Industrial Electrical Services, Automation Consulting, Electrical Design, Power Systems",
+      "author": "[TRANSLATE] Powerton Engineering Team"
     },
-    "schemaTypes": {
-      "breadcrumbList": "Список навигации",
-      "listItem": "Элемент списка",
-      "faqPage": "Страница FAQ",
-      "question": "Вопрос",
-      "answer": "Ответ",
-      "itemList": "Список элементов",
-      "service": "Услуга",
-      "localBusiness": "Местный бизнес",
-      "openingHours": "Спецификация рабочих часов"
+    "location": {
+      "name": "[TRANSLATE] Noida, Uttar Pradesh, India",
+      "region": "[TRANSLATE] Uttar Pradesh",
+      "country": "[TRANSLATE] India"
     }
   },
   "labels": {
-    "responseTime": "Время отклика",
-    "availability": "Доступность",
-    "coverage": "Покрытие",
-    "technologies": "Технологии",
-    "parameters": "Параметры",
-    "specifications": "Спецификации",
-    "applications": "Применения",
-    "industries": "Отрасли",
-    "keyFeatures": "Ключевые особенности",
-    "includes": "Включает",
-    "projectType": "Тип проекта",
-    "industry": "Отрасль",
-    "projectSize": "Размер проекта",
-    "timeline": "График",
-    "location": "Местоположение",
-    "budget": "Бюджет",
-    "requirements": "Требования",
-    "category": "Категория",
-    "status": "Статус",
-    "businessHours": "Часы работы",
-    "mondayToSaturday": "Понедельник - Суббота",
-    "sunday": "Воскресенье",
-    "emergencySupport": "Только экстренная поддержка",
-    "workingHours": "9:00 - 18:00",
-    "popular": "Популярный",
-    "duration": "Продолжительность",
-    "projectsCompleted": "Завершенные Проекты",
-    "satisfiedClients": "Довольные Клиенты",
-    "yearsExperience": "Лет Опыта"
-  },
-  "messages": {
-    "serviceNotFound": "Услуга не найдена",
-    "readyToStart": "Готовы начать?",
-    "consultation": "Свяжитесь с нами для подробной консультации и индивидуального решения.",
-    "availability": "Понедельник - Суббота, Доступна экстренная поддержка",
-    "coverage": "Покрытие услуг по всей Индии",
-    "needHelp": "Нужна помощь в поиске?",
-    "cantFind": "Не можете найти то, что ищете? Свяжитесь с нами напрямую или используйте наш умный чат-бот, доступный на каждой странице."
+    "category": "[TRANSLATE] Category",
+    "status": "[TRANSLATE] Status",
+    "industry": "[TRANSLATE] Industry",
+    "projectType": "[TRANSLATE] Project Type",
+    "popular": "[TRANSLATE] Popular",
+    "duration": "[TRANSLATE] Duration",
+    "keyFeatures": "[TRANSLATE] Key Features",
+    "projectsCompleted": "[TRANSLATE] Projects Completed",
+    "satisfiedClients": "[TRANSLATE] Satisfied Clients",
+    "yearsExperience": "[TRANSLATE] Years Experience",
+    "responseTime": "[TRANSLATE] Response Time"
   },
   "placeholders": {
     "selectProjectType": "Выберите тип проекта",
@@ -273,52 +223,56 @@
     "Manufacturing": "Производство",
     "Solar": "Солнечная энергия",
     "Water Treatment": "Очистка воды",
-    "Process Automation": "Автоматизация Процессов",
-    "Power Systems": "Энергосистемы"
+    "Process Automation": "Автоматизация процессов",
+    "Power Systems": "Энергетические системы"
   },
   "projects": {
-    "industrial-automation-demo": {
-      "title": "Демо: Система Промышленной Автоматизации",
-      "client": "Клиент Производства Будущего",
-      "category": "Автоматизация Процессов",
-      "description": "Демонстрация полных возможностей производственной автоматизации, включая интеграцию ПЛК, системы SCADA и решения мониторинга в реальном времени.",
-      "location": "Место Проекта TBD",
-      "duration": "12-18 месяцев",
-      "budget": "₹50-75 лакхов",
-      "status": "Демо Возможностей",
-      "technologies": {
-        "plcProgramming": "Программирование ПЛК",
-        "scada": "SCADA",
-        "hmi": "ЧМИ",
-        "industrialIot": "Промышленный IoT"
-      },
+    "thermal-plant": {
+      "title": "[TRANSLATE] Thermal Power Plant Automation",
+      "description": "[TRANSLATE] Complete automation solution for 250MW thermal power plant including control panels, SCADA systems, and safety interlocks.",
+      "location": "[TRANSLATE] Uttar Pradesh",
+      "duration": "[TRANSLATE] 12 months",
       "highlights": {
-        "plcIntegration": "Интеграция ПЛК",
-        "scadaSystems": "Системы SCADA",
-        "realtimeMonitoring": "Мониторинг в Реальном Времени",
-        "processOptimization": "Оптимизация Процессов"
+        "scada": "[TRANSLATE] SCADA Implementation",
+        "safety": "[TRANSLATE] Safety Systems",
+        "control": "[TRANSLATE] Control Panels",
+        "monitoring": "[TRANSLATE] Performance Monitoring"
       }
     },
-    "power-distribution-demo": {
-      "title": "Пример: Управление Распределением Энергии",
-      "client": "Энергетический Партнер Будущего",
-      "category": "Энергосистемы",
-      "description": "Пример системы распределения энергии, демонстрирующий автоматическое балансирование нагрузки и возможности удаленного мониторинга для генерирующих энергетических объектов.",
-      "location": "Различные Локации",
-      "duration": "10-15 месяцев",
-      "budget": "₹1-2 крора",
-      "status": "Демо Возможностей",
-      "technologies": {
-        "mccPanels": "Панели MCC",
-        "protectionSystems": "Системы Защиты",
-        "energyManagement": "Управление Энергией",
-        "remoteMonitoring": "Удаленный Мониторинг"
-      },
+    "pharma-plant": {
+      "title": "[TRANSLATE] Pharmaceutical Plant Control System",
+      "description": "[TRANSLATE] Advanced process control and monitoring system for pharmaceutical manufacturing with FDA compliance and data integrity features.",
+      "location": "[TRANSLATE] Maharashtra",
+      "duration": "[TRANSLATE] 8 months",
       "highlights": {
-        "loadBalancing": "Балансирование Нагрузки",
-        "protectionSystems": "Системы Защиты",
-        "energyManagement": "Управление Энергией",
-        "remoteControl": "Удаленное Управление"
+        "fda": "[TRANSLATE] FDA Compliance",
+        "data": "[TRANSLATE] Data Integrity",
+        "process": "[TRANSLATE] Process Control",
+        "quality": "[TRANSLATE] Quality Monitoring"
+      }
+    },
+    "solar-plant": {
+      "title": "[TRANSLATE] 10MW Solar Power Installation",
+      "description": "[TRANSLATE] Complete design and installation of grid-connected solar power plant with monitoring systems and grid synchronization equipment.",
+      "location": "[TRANSLATE] Rajasthan",
+      "duration": "[TRANSLATE] 6 months",
+      "highlights": {
+        "grid": "[TRANSLATE] Grid Connection",
+        "monitoring": "[TRANSLATE] Monitoring Systems",
+        "optimization": "[TRANSLATE] Performance Optimization",
+        "maintenance": "[TRANSLATE] Maintenance Planning"
+      }
+    },
+    "water-treatment": {
+      "title": "[TRANSLATE] Municipal Water Treatment Automation",
+      "description": "[TRANSLATE] Automated control system for water treatment plant serving 500,000 residents with real-time monitoring and quality control.",
+      "location": "[TRANSLATE] West Bengal",
+      "duration": "[TRANSLATE] 10 months",
+      "highlights": {
+        "monitoring": "[TRANSLATE] Real-time Monitoring",
+        "quality": "[TRANSLATE] Quality Control",
+        "automation": "[TRANSLATE] Automated Operations",
+        "remote": "[TRANSLATE] Remote Management"
       }
     }
   },
@@ -329,15 +283,13 @@
     "additionalInformation": "Дополнительная информация"
   },
   "altTexts": {
-    "companyLogo": "Логотип Powerton Engineering Pvt. Ltd.",
-    "contactCenterBackground": "Фон контакт-центра и офиса поддержки клиентов для инженерной компании",
-    "aboutCompanyFacility": "Предприятие промышленной автоматизации Powerton Engineering с современными системами управления",
-    "officeLocation": "Местоположение офиса Powerton Engineering"
+    "contactBackground": "[TRANSLATE] ID-834: Contact center and customer support office background for engineering company",
+    "aboutBackground": "[TRANSLATE] ID-004: Powerton Engineering industrial automation facility with modern control systems"
   },
   "sitemap": {
     "sections": {
       "mainPages": "Основные страницы",
-      "servicesProjects": "Услуги и проекты", 
+      "servicesProjects": "Услуги и проекты",
       "productCategories": "Категории продуктов",
       "resourcesTools": "Ресурсы и инструменты",
       "legalInformation": "Правовая информация"
@@ -411,31 +363,6 @@
       "responseTime": "2 часа"
     }
   },
-  "buttons": {
-    "getQuote": "Получить Котировку",
-    "callNow": "Позвонить Сейчас",
-    "emailUs": "Напишите Нам",
-    "learnMore": "Узнать Больше",
-    "viewMore": "Посмотреть Больше",
-    "viewAll": "Посмотреть Всё",
-    "contactUs": "Связаться с Нами",
-    "getStarted": "Начать",
-    "downloadBrochure": "Скачать Брошюру"
-  },
-  "labels": {
-    "businessHours": "Рабочие Часы",
-    "mondayToSaturday": "Понедельник - Суббота",
-    "workingHours": "9:00 - 18:00",
-    "sunday": "Воскресенье",
-    "emergencySupport": "Только Экстренная Поддержка"
-  },
-  "altTexts": {
-    "companyLogo": "Логотип Powerton Engineering Pvt. Ltd."
-  },
-  "messages": {
-    "toggleTheme": "Переключить Тему",
-    "close": "Закрыть"
-  },
   "clients": {
     "sci-group": "Судоходная корпорация Индии",
     "agribio": "АгриБио Германия",
@@ -456,33 +383,6 @@
   "copyright": {
     "text": "© {{year}} Powerton Engineering Pvt. Ltd. Все права защищены.",
     "madeWith": "Сделано с 💙 командой Powerton Engineering"
-  },
-  "seo": {
-    "defaultTitle": "Powerton Engineering Pvt. Ltd. - Промышленные панели управления и решения автоматизации",
-    "defaultDescription": "Ведущий производитель электрических панелей управления, систем промышленной автоматизации и решений приборостроения. Обслуживание отраслей по всей Индии качественными инженерными продуктами и услугами.",
-    "defaultKeywords": "электрические панели управления, промышленная автоматизация, центр управления питанием, центр управления двигателями, приборостроение, электротехника, Индия",
-    "companyName": "Powerton Engineering Pvt. Ltd.",
-    "companyDescription": "Ведущий производитель электрических панелей управления и решений промышленной автоматизации",
-    "siteName": "Powerton Engineering",
-    "twitterHandle": "@powertoneng",
-    "businessAddress": {
-      "street": "2-й этаж, F-25, F блок, Сектор 6",
-      "city": "Нойда", 
-      "state": "Уттар-Прадеш",
-      "postal": "201301",
-      "country": "Индия"
-    },
-    "contact": {
-      "phone": "+91-94627-71662",
-      "email": "info@powertonengineering.com"
-    },
-    "businessInfo": {
-      "industry": "Промышленная автоматизация, Электротехника, Приборостроение",
-      "category": "Инженерные услуги, Решения автоматизации, Электрические системы",
-      "targetAudience": "Промышленные инженеры, Управляющие заводами, Специалисты по автоматизации",
-      "companyType": "Поставщик инженерных решений B2B",
-      "serviceArea": "Индия, Панъиндийский сервис"
-    }
   },
   "tags": {
     "award": "Награда",
@@ -535,12 +435,54 @@
       "comment": "Powerton Engineering поставила именно то, что обещала. Система контрольно-измерительных приборов, которую они установили, работает безупречно уже более двух лет. Их послепродажная поддержка замечательна и всегда отзывчива."
     }
   },
-  "projectCategories": {
-    "Power Plant": "Электростанция",
-    "Manufacturing": "Производство",
-    "Solar": "Солнечная энергия",
-    "Water Treatment": "Очистка воды",
-    "Process Automation": "Автоматизация процессов",
-    "Power Systems": "Энергетические системы"
+  "products": {
+    "sections": {
+      "industrialProducts": "[TRANSLATE] Industrial Products",
+      "applications": "[TRANSLATE] {{product}} Applications",
+      "keyFeatures": "[TRANSLATE] Key Features:"
+    },
+    "badges": {
+      "highEfficiency": "[TRANSLATE] High Efficiency",
+      "variableSpeed": "[TRANSLATE] Variable Speed",
+      "lowNoise": "[TRANSLATE] Low Noise",
+      "smartControl": "[TRANSLATE] Smart Control",
+      "durable": "[TRANSLATE] Durable",
+      "energySaving": "[TRANSLATE] Energy Saving",
+      "reliable": "[TRANSLATE] Reliable",
+      "costEffective": "[TRANSLATE] Cost Effective"
+    }
+  },
+  "cta": {
+    "getQuote": "[TRANSLATE] Get Quote",
+    "callNow": "[TRANSLATE] Call Now",
+    "emailUs": "[TRANSLATE] Email Us",
+    "learnMore": "[TRANSLATE] Learn More",
+    "viewMore": "[TRANSLATE] View More",
+    "contactUs": "[TRANSLATE] Contact Us",
+    "getStarted": "[TRANSLATE] Get Started",
+    "downloadBrochure": "[TRANSLATE] Download Brochure"
+  },
+  "quote": {
+    "projectTypes": {
+      "processAutomation": "[TRANSLATE] Process Automation",
+      "powerControlSystems": "[TRANSLATE] Power Control Systems",
+      "instrumentationControl": "[TRANSLATE] Instrumentation & Control",
+      "solarAutomation": "[TRANSLATE] Solar Automation",
+      "buildingAutomation": "[TRANSLATE] Building Automation",
+      "manufacturingAutomation": "[TRANSLATE] Manufacturing Automation"
+    },
+    "industries": {
+      "manufacturing": "[TRANSLATE] Manufacturing",
+      "powerGeneration": "[TRANSLATE] Power Generation",
+      "oilGas": "[TRANSLATE] Oil & Gas",
+      "chemicalProcessing": "[TRANSLATE] Chemical Processing",
+      "waterTreatment": "[TRANSLATE] Water Treatment",
+      "foodBeverage": "[TRANSLATE] Food & Beverage",
+      "pharmaceutical": "[TRANSLATE] Pharmaceutical",
+      "renewableEnergy": "[TRANSLATE] Renewable Energy"
+    }
+  },
+  "common": {
+    "keyFeatures": "[TRANSLATE] Key Features"
   }
 }

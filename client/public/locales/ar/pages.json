@@ -1,18 +1,14 @@
 {
   "home": {
-    "seo": {
-      "title": "هندسة باور تون - الأتمتة الصناعية ولوحات التحكم | الهند",
-      "description": "الشركة الرائدة في تصنيع لوحات التحكم الكهربائية وأنظمة الأتمتة الصناعية وحلول الأجهزة. خدمات هندسية متخصصة في جميع أنحاء الهند مع أكثر من 15 عاماً من الخبرة."
-    },
     "hero": {
       "title": {
         "main": "حلول شاملة للنجاح",
         "highlight": "الصناعي"
       },
-      "subtitle": "تقدم محفظتنا الواسعة من المنتجات والخدمات حلولاً شاملة تدفع النجاح الصناعي، مما يضمن تغطية كل جانب من جوانب احتياجاتك الهندسية.",
+      "subtitle": "تقدم محفظتنا الواسعة من المنتجات والخدمات حلولاً شاملة تدفع النجاح الصناعي، مما يضمن تغطية كل جانب من احتياجاتك الهندسية.",
       "buttons": {
         "exploreServices": "استكشف خدماتنا",
-        "requestConsultation": "طلب استشارة"
+        "requestConsultation": "اطلب استشارة"
       },
       "features": {
         "experience": "خبرة أكثر من 15 عاماً",
@@ -27,11 +23,11 @@
       }
     },
     "about": {
-      "label": "حولنا",
-      "title": "مرحباً بك في شركة باور تون للهندسة المحدودة",
-      "description": "شريكك الموثوق في تقديم حلول وخدمات هندسية عالية الجودة. تأسست برؤية تمكين الصناعات من خلال الابتكار والتميز، ونحن متخصصون في توفير مجموعة شاملة من المنتجات الكهربائية والأجهزة.",
+      "label": "معلومات عنا",
+      "title": "مرحباً بكم في شركة باورتون للهندسة المحدودة.",
+      "description": "شريكك الموثوق في تقديم حلول وخدمات هندسية عالية الجودة. تأسست برؤية لتمكين الصناعات من خلال الابتكار والتميز، نحن متخصصون في تقديم مجموعة شاملة من المنتجات الكهربائية والأجهزة.",
       "visualHeading": "الهندسة المهنية",
-      "visualDescription": "مهندسون عرب محترفون يعملون على الأتمتة الصناعية وأنظمة التحكم",
+      "visualDescription": "مهندسون هنود محترفون يعملون على الأتمتة الصناعية وأنظمة التحكم",
       "features": {
         "electrical": {
           "title": "الكهرباء والأجهزة",
@@ -43,11 +39,11 @@
         },
         "solar": {
           "title": "الحلول الشمسية",
-          "description": "تركيبات الطاقة المستدامة"
+          "description": "تركيبات طاقة مستدامة"
         },
         "tools": {
           "title": "الأدوات الصناعية",
-          "description": "معدات الدرجة المهنية"
+          "description": "معدات احترافية الجودة"
         }
       },
       "button": "تعرف على المزيد عنا"
@@ -58,7 +54,7 @@
       "description": "من الأتمتة إلى الأجهزة، نوفر حلول هندسية كاملة تدفع التميز الصناعي والكفاءة التشغيلية."
     },
     "products": {
-      "label": "منتجاتنا", 
+      "label": "منتجاتنا",
       "title": "المنتجات والمعدات الصناعية",
       "description": "اكتشف مجموعتنا الواسعة من المنتجات الصناعية عالية الجودة، من أنظمة الأتمتة إلى الأجهزة الدقيقة، مصممة للأداء الأمثل.",
       "viewProducts": "عرض المنتجات",
@@ -86,80 +82,73 @@
     },
     "clients": {
       "label": "عملاؤنا",
-      "title": "موثوق به من قبل العلامات التجارية والمنظمات الرائدة",
-      "description": "لقد شاركنا مع قادة الصناعة عبر قطاعات مختلفة لتقديم حلول هندسية استثنائية.",
-      "testimonialsTitle": "ما يقوله عملاؤنا"
+      "title": "موثوق من قبل العلامات التجارية والمؤسسات الرائدة",
+      "description": "لقد شاركنا مع قادة الصناعة في مختلف القطاعات لتقديم حلول هندسية استثنائية.",
+      "testimonialsTitle": "ماذا يقول عملاؤنا"
     },
     "projects": {
       "label": "مشاريعنا",
-      "title": "حلول هندسية مقدمة بنجاح",
+      "title": "حلول هندسية تم تسليمها بنجاح",
       "description": "استكشف محفظة مشاريعنا المكتملة التي تعرض خبرتنا في الأتمتة الصناعية والهندسة الكهربائية.",
       "keyFeatures": "الميزات الرئيسية:",
       "completed": "مكتمل",
       "viewDetails": "عرض التفاصيل",
       "viewAllProjects": "عرض جميع المشاريع",
-      "downloadPortfolio": "تحميل المعرض"
+      "downloadPortfolio": "تحميل المحفظة"
     },
-    "contact": {
-      "label": "تواصل معنا",
-      "title": "هل أنت مستعد لبدء مشروعك؟",
-      "description": "دعنا نناقش كيف يمكن لخبرتنا الهندسية أن تساعدك في تحقيق أهداف الأتمتة الصناعية وأنظمة التحكم.",
-      "getInTouch": "تواصل معنا",
-      "methods": {
-        "phone": {
-          "title": "اتصل بنا اليوم",
-          "description": "تحدث مباشرة مع خبراء الهندسة لدينا"
-        },
-        "email": {
-          "title": "راسلنا بالبريد الإلكتروني",
-          "description": "أرسل لنا متطلبات مشروعك"
-        },
-        "address": {
-          "title": "زر مكتبنا",
-          "metro": "أقرب محطة مترو: القطاع 15"
-        }
-      }
+    "seo": {
+      "title": "باورتون للهندسة - الأتمتة الصناعية ولوحات التحكم | الهند",
+      "description": "الشركة الرائدة في تصنيع لوحات التحكم الكهربائية وأنظمة الأتمتة الصناعية وحلول الأجهزة. خدمات هندسية خبيرة في جميع أنحاء الهند مع أكثر من 15 عاماً من الخبرة.",
+      "keywords": "لوحات التحكم الكهربائية، الأتمتة الصناعية، أتمتة العمليات، الأجهزة، مركز التحكم في الطاقة، مركز التحكم في المحركات، الهندسة الكهربائية، الهند، نويدا"
     }
   },
   "products": {
-    "seo": {
-      "title": "كتالوج المنتجات الصناعية - الأتمتة والمعدات الكهربائية | هندسة باور تون",
-      "description": "كتالوج شامل لمنتجات الأتمتة الصناعية والمكونات الكهربائية والأجهزة والأنظمة الشمسية والمضخات والأدوات. معدات عالية الجودة للتطبيقات الصناعية."
+    "badges": {
+      "handTools": "[TRANSLATE] Hand Tools",
+      "powerTools": "[TRANSLATE] Power Tools",
+      "liftingEquipment": "[TRANSLATE] Lifting Equipment",
+      "safetyGear": "[TRANSLATE] Safety Gear",
+      "touchscreen": "[TRANSLATE] Touchscreen",
+      "industrialGrade": "[TRANSLATE] Industrial Grade",
+      "realTimeDisplay": "[TRANSLATE] Real-time Display",
+      "multiProtocol": "[TRANSLATE] Multi-Protocol",
+      "heatingElements": "[TRANSLATE] Heating Elements",
+      "industrialOvens": "[TRANSLATE] Industrial Ovens",
+      "heatTracing": "[TRANSLATE] Heat Tracing",
+      "temperatureControl": "[TRANSLATE] Temperature Control",
+      "precisionTools": "[TRANSLATE] Precision Tools",
+      "durableConstruction": "[TRANSLATE] Durable Construction",
+      "ergonomicDesign": "[TRANSLATE] Ergonomic Design",
+      "professionalGrade": "[TRANSLATE] Professional Grade"
+    },
+    "sections": {
+      "hmiSolutions": "[TRANSLATE] HMI Solutions",
+      "heatingSolutions": "[TRANSLATE] Heating Solutions",
+      "handToolCategories": "[TRANSLATE] Hand Tool Categories",
+      "diaphragmPumpTypes": "[TRANSLATE] Diaphragm Pump Types",
+      "calibrationSolutions": "[TRANSLATE] Calibration Solutions",
+      "industrialProducts": "[TRANSLATE] Industrial Products"
+    },
+    "cta": {
+      "needHmiSolutions": "[TRANSLATE] Need HMI Solutions?",
+      "hmiDescription": "[TRANSLATE] Our HMI specialists can design intuitive operator interfaces for your automation systems.",
+      "contactHmiExperts": "[TRANSLATE] Contact HMI Experts",
+      "requestQuote": "[TRANSLATE] Request Quote",
+      "needHeatingolutions": "[TRANSLATE] Need Industrial Heating Solutions?",
+      "heatingDescription": "[TRANSLATE] Our heating specialists can design custom heating systems for your industrial processes.",
+      "contactHeatingExperts": "[TRANSLATE] Contact Heating Experts",
+      "needDiaphragmPumps": "[TRANSLATE] Need Diaphragm Pump Solutions?",
+      "diaphragmDescription": "[TRANSLATE] Our pump engineers can help you select the right diaphragm pump for your chemical handling needs.",
+      "contactPumpExperts": "[TRANSLATE] Contact Pump Experts",
+      "needCalibration": "[TRANSLATE] Need Calibration Services?",
+      "calibrationDescription": "[TRANSLATE] Our calibration experts ensure your instruments meet the highest precision standards.",
+      "contactCalibrationExperts": "[TRANSLATE] Contact Calibration Experts"
     }
   },
   "services": {
-    "seo": {
-      "title": "خدمات الهندسة المهنية - التركيب والصيانة والأتمتة | هندسة باور تون",
-      "description": "خدمات هندسية متخصصة: برمجة PLC، أنظمة SCADA، الأتمتة الصناعية، تركيب اللوحات الكهربائية، الصيانة، المعايرة، الحلول المخصصة وخدمات EPC الشمسية في جميع أنحاء الهند."
-    },
     "hero": {
       "title": "خدمات الهندسة المهنية",
-      "subtitle": "حلول شاملة للأتمتة الصناعية والهندسة الكهربائية والأجهزة مصممة لتحسين عملياتك ودفع نجاح الأعمال."
-    },
-    "whyChoose": {
-      "title": "لماذا تختار هندسة باور تون؟"
-    },
-    "benefits": {
-      "expertTeam": {
-        "title": "فريق خبراء",
-        "description": "محترفون معتمدون بخبرة واسعة في الصناعة"
-      },
-      "rapidResponse": {
-        "title": "استجابة سريعة",
-        "description": "متوسط وقت الاستجابة ساعتان لجميع طلبات الدعم"
-      },
-      "qualityAssured": {
-        "title": "جودة مضمونة",
-        "description": "عمليات معتمدة من ISO ومعايير جودة مضمونة"
-      },
-      "clientFocused": {
-        "title": "محور العميل",
-        "description": "حلول مخصصة مصممة حسب متطلباتك المحددة"
-      }
-    },
-    "cta": {
-      "title": "مستعد للبدء؟",
-      "description": "اتصل بنا اليوم لمناقشة متطلبات مشروعك والحصول على حل مخصص."
+      "subtitle": "حلول شاملة لجميع احتياجات الأتمتة الصناعية والهندسة الكهربائية"
     }
   },
   "notFound": {
@@ -256,259 +245,55 @@
     }
   },
   "quote": {
-    "seo": {
-      "title": "طلب عرض أسعار - باورتون إنجينيرينج | حلول الأتمتة الصناعية المخصصة",
-      "description": "احصل على عرض أسعار مفصّل لمشروع الأتمتة الصناعية من باورتون إنجينيرينج. استشارة مجانية ورد في 24-48 ساعة."
+    "projectSizes": {
+      "small": "صغير (1-10 نقاط I/O)",
+      "medium": "متوسط (11-100 نقاط I/O)",
+      "large": "كبير (101-500 نقاط I/O)",
+      "enterprise": "مؤسسي (500+ نقاط I/O)"
     },
-    "benefits": {
-      "assessment": {
-        "title": "تقييم مفصّل",
-        "description": "تقييم شامل للمشروع والمواصفات التقنية"
-      },
-      "response": {
-        "title": "استجابة سريعة",
-        "description": "احصل على عرض الأسعار المفصّل في 24-48 ساعة"
-      },
-      "consultation": {
-        "title": "استشارة متخصصة",
-        "description": "استشارة تقنية مجانية مع فريق الهندسة لدينا"
-      },
-      "solutions": {
-        "title": "حلول مخصصة",
-        "description": "حلول هندسية مصممة خصيصاً لمتطلباتك المحددة"
-      }
+    "timelines": {
+      "urgent": "عاجل (< 3 أشهر)",
+      "standard": "قياسي (3-6 أشهر)",
+      "extended": "ممدد (6-12 شهر)",
+      "longTerm": "طويل المدى (12+ شهر)"
     },
-    "process": {
-      "title": "عملية عرض الأسعار",
-      "description": "من الطلب الأولي إلى العرض المفصّل، نضمن عملية سلسة وشفافة.",
-      "submit": {
-        "title": "إرسال الطلب",
-        "description": "املأ نموذج عرض الأسعار الشامل أو استخدم حاسبة التكلفة"
-      },
-      "review": {
-        "title": "المراجعة التقنية",
-        "description": "يحلل فريق الهندسة متطلباتك ومواصفاتك"
-      },
-      "assessment": {
-        "title": "تقييم الموقع",
-        "description": "زيارة الموقع اختيارية للمشاريع المعقدة (عند الحاجة)"
-      },
-      "quote": {
-        "title": "عرض أسعار مفصّل",
-        "description": "احصل على تسعير شامل مع الجدول الزمني والمخرجات"
-      }
+    "requirements": {
+      "plcProgramming": "برمجة PLC",
+      "scadaDevelopment": "تطوير SCADA",
+      "hmiDesign": "تصميم HMI",
+      "networkIntegration": "تكامل الشبكة",
+      "safetySystems": "أنظمة الأمان",
+      "remoteMonitoring": "مراقبة عن بُعد",
+      "dataAnalytics": "تحليل البيانات",
+      "mobileApp": "واجهة التطبيق المحمول"
     },
-    "cta": {
-      "title": "مستعد للبدء؟",
-      "description": "اتصل بنا اليوم للحصول على حل الهندسة المخصص. فريقنا مستعد لمساعدتك في تحقيق مشروعك."
-    }
-  },
-  "services": {
-    "hero": {
-      "title": "خدمات الهندسة المهنية",
-      "subtitle": "حلول شاملة لجميع احتياجات الأتمتة الصناعية والهندسة الكهربائية"
-    }
-  },
-  "about": {
-    "hero": {
-      "title": "التميز الهندسي منذ 2008",
-      "subtitle": "شريكك الموثوق في حلول الأتمتة الصناعية والهندسة الكهربائية"
+    "additionalFeatures": {
+      "redundancy": "تكرار النظام",
+      "cybersecurity": "الأمن السيبراني المتقدم",
+      "iotIntegration": "تكامل إنترنت الأشياء",
+      "aiMl": "تحليل الذكاء الاصطناعي",
+      "predictiveMaintenance": "صيانة تنبؤية",
+      "energyManagement": "إدارة الطاقة",
+      "cloudIntegration": "تكامل السحابة",
+      "trainingSupport": "تدريب ودعم موسع"
     },
-    "story": {
-      "title": "قصتنا"
+    "industries": {
+      "manufacturing": "التصنيع",
+      "powerGeneration": "توليد الطاقة",
+      "oilGas": "النفط والغاز",
+      "chemicalProcessing": "المعالجة الكيميائية",
+      "waterTreatment": "معالجة المياه",
+      "foodBeverage": "الأغذية والمشروبات",
+      "pharmaceutical": "صيدلاني",
+      "renewableEnergy": "الطاقة المتجددة"
     },
-    "values": {
-      "quality": {
-        "title": "التميز في الجودة",
-        "description": "نحافظ على أعلى المعايير في كل مشروع نقوم بتسليمه"
-      },
-      "customer": {
-        "title": "التركيز على العملاء",
-        "description": "نجاحكم هو أولويتنا - نبني شراكات دائمة"
-      },
-      "innovation": {
-        "title": "الابتكار",
-        "description": "حلول متطورة باستخدام أحدث تقنيات الصناعة"
-      },
-      "reliability": {
-        "title": "الموثوقية",
-        "description": "حلول موثوقة يمكنكم الاعتماد عليها للعمليات الحرجة"
-      }
-    },
-    "stats": {
-      "engineers": "مهندسون",
-      "staff": "فريق الدعم",
-      "experience": "سنوات الخبرة",
-      "support": "الدعم"
-    },
-    "certifications": {
-      "iso9001": "ISO 9001:2015 إدارة الجودة",
-      "iso14001": "ISO 14001:2015 الإدارة البيئية",
-      "ohsas18001": "OHSAS 18001 الصحة والسلامة المهنية",
-      "ceMarking": "امتثال علامة CE",
-      "ulListed": "منتجات معتمدة UL",
-      "cpriApproved": "معدات معتمدة CPRI"
-    }
-  },
-  "home": {
-    "hero": {
-      "title": {
-        "main": "حلول شاملة",
-        "highlight": "للنجاح الصناعي"
-      },
-      "subtitle": "تقدم محفظتنا الواسعة من المنتجات والخدمات حلولاً شاملة تدفع النجاح الصناعي، مما يضمن تغطية كل جانب من جوانب احتياجاتكم الهندسية.",
-      "buttons": {
-        "exploreServices": "استكشف خدماتنا",
-        "requestConsultation": "طلب استشارة"
-      },
-      "features": {
-        "experience": "خبرة أكثر من 15 سنة",
-        "support": "دعم تقني 24/7",
-        "service": "خدمة في جميع أنحاء الهند"
-      },
-      "stats": {
-        "yearsExperience": "سنوات الخبرة",
-        "projectsCompleted": "المشاريع المكتملة",
-        "happyClients": "العملاء السعداء",
-        "supportAvailable": "الدعم المتاح"
-      }
-    },
-    "services": {
-      "label": "خدماتنا",
-      "title": "حلول خبيرة لجميع الاحتياجات، مقدمة بعناية استثنائية",
-      "description": "من أتمتة العمليات إلى عقود الصيانة، نقدم حلول هندسية شاملة مصممة خصيصاً لمتطلباتكم الصناعية."
-    },
-    "products": {
-      "label": "منتجاتنا",
-      "title": "حلول معدات الأتمتة الصناعية",
-      "description": "مجموعة شاملة من المنتجات الكهربائية والأتمتة المصممة للموثوقية والكفاءة والأداء المتفوق في البيئات الصناعية.",
-      "viewProducts": "عرض المنتجات",
-      "viewCatalog": "عرض كتالوج المنتجات الكامل"
-    },
-    "projects": {
-      "label": "مشاريعنا",
-      "title": "حلول هندسية تم تسليمها بنجاح",
-      "description": "استكشف محفظة مشاريعنا المكتملة التي تعرض خبرتنا في الأتمتة الصناعية والهندسة الكهربائية.",
-      "completed": "مكتمل",
-      "keyFeatures": "الميزات الرئيسية:",
-      "viewDetails": "عرض التفاصيل",
-      "viewAllProjects": "عرض جميع المشاريع",
-      "downloadPortfolio": "تحميل المعرض"
-    },
-    "about": {
-      "label": "حولنا",
-      "title": "مرحباً بكم في Powerton Engineering Pvt. Ltd.",
-      "description": "شريككم الموثوق في تقديم حلول وخدمات هندسية عالية الجودة. تأسست برؤية تمكين الصناعات من خلال الابتكار والتميز، ونحن نتخصص في توفير مجموعة شاملة من المنتجات الكهربائية والأجهزة.",
-      "visualHeading": "هندسة مهنية",
-      "visualDescription": "مهندسون هنود محترفون يعملون على الأتمتة الصناعية وأنظمة التحكم",
-      "button": "تعرف على المزيد عنا",
-      "features": {
-        "electrical": {
-          "title": "الكهرباء والأجهزة",
-          "description": "مجموعة كاملة من أنظمة التحكم"
-        },
-        "mechanical": {
-          "title": "المضخات الميكانيكية",
-          "description": "حلول مضخات متينة وقطع غيار"
-        },
-        "solar": {
-          "title": "حلول الطاقة الشمسية",
-          "description": "تركيبات طاقة مستدامة"
-        },
-        "tools": {
-          "title": "الأدوات الصناعية",
-          "description": "معدات ذات مستوى مهني"
-        }
-      }
-    },
-    "clients": {
-      "label": "عملاؤنا",
-      "title": "موثوق به من قبل العلامات التجارية والمنظمات الرائدة",
-      "description": "لقد تشاركنا مع رواد الصناعة في مختلف القطاعات لتقديم حلول هندسية استثنائية.",
-      "testimonialsTitle": "ما يقوله عملاؤنا"
-    },
-    "contact": {
-      "label": "اتصل بنا",
-      "title": "دعونا نناقش احتياجاتكم الهندسية",
-      "description": "مستعدون لبدء مشروعكم القادم؟ تواصلوا مع فريق خبرائنا للحصول على حلول مخصصة واستشارة مهنية.",
-      "getInTouch": "تواصل معنا",
-      "methods": {
-        "phone": {
-          "title": "الهاتف",
-          "description": "متاح 24/7 لدعم الطوارئ"
-        },
-        "email": {
-          "title": "البريد الإلكتروني",
-          "description": "سنرد خلال 24 ساعة"
-        },
-        "address": {
-          "title": "العنوان",
-          "metro": "أقرب محطة مترو"
-        }
-      }
-    }
-  },
-  "contact": {
-    "hero": {
-      "title": "تواصل مع خبراء الهندسة لدينا",
-      "subtitle": "مستعد لبدء مشروعك التالي؟ فريق الخبراء لدينا هنا لمساعدتك بحلول هندسية مخصصة واستشارة مهنية.",
-      "benefits": {
-        "consultation": "استشارة مجانية",
-        "support": "دعم طوارئ 24/7",
-        "experience": "خبرة أكثر من 15 سنة"
-      }
-    },
-    "methods": {
-      "title": "طرق متعددة للوصول إلينا",
-      "subtitle": "اختر طريقة التواصل التي تناسبك أكثر. نحن متاحون 24/7 لدعم الطوارئ."
-    },
-    "form": {
-      "title": "أرسل لنا رسالة",
-      "subtitle": "تواصل معنا للاستفسارات العامة أو معلومات الخدمة أو الأسئلة التقنية."
-    },
-    "contactMethods": {
-      "phone": {
-        "title": "اتصل بنا مباشرة",
-        "subtitle": "متاح 24/7 للدعم",
-        "description": "تحدث مباشرة مع فريقنا التقني"
-      },
-      "email": {
-        "title": "دعم البريد الإلكتروني",
-        "subtitle": "رد خلال 24 ساعة",
-        "description": "أرسل لنا متطلبات المشروع التفصيلية"
-      },
-      "whatsapp": {
-        "title": "دعم واتساب",
-        "subtitle": "دردشة سريعة الاستجابة",
-        "description": "احصل على إجابات فورية لأسئلتك"
-      },
-      "visit": {
-        "title": "زر مكتبنا",
-        "subtitle": "بموعد مسبق فقط",
-        "description": "حدد موعدًا لزيارة مقرنا الرئيسي في نويدا"
-      }
-    },
-    "office": {
-      "name": "المقر الرئيسي للشركة",
-      "hours": "الإثنين-السبت: 9:00 صباحًا - 6:00 مساءً"
-    },
-    "services": {
-      "technical": {
-        "title": "الدعم التقني",
-        "description": "مساعدة تقنية خبيرة لجميع منتجاتنا وخدماتنا"
-      },
-      "customer": {
-        "title": "نجاح العملاء",
-        "description": "دعم مخصص لضمان نجاح مشروعك"
-      },
-      "onsite": {
-        "title": "الدعم في الموقع",
-        "description": "دعم هندسي ميداني في موقعك"
-      },
-      "remote": {
-        "title": "الدعم عن بُعد",
-        "description": "مساعدة افتراضية وتشخيص أنظمة عن بُعد"
-      }
+    "projectTypes": {
+      "processAutomation": "أتمتة العمليات",
+      "powerControlSystems": "أنظمة التحكم بالطاقة",
+      "instrumentationControl": "أجهزة القياس والتحكم",
+      "solarAutomation": "أتمتة الطاقة الشمسية",
+      "buildingAutomation": "أتمتة المباني",
+      "manufacturingAutomation": "أتمتة التصنيع"
     }
   },
   "about": {
@@ -546,13 +331,15 @@
       "support": "تغطية الدعم"
     }
   },
+  "contact": {
+    "map": {
+      "title": "[TRANSLATE] Powerton Engineering Office Location"
+    }
+  },
   "projects": {
-    "title": "مشاريعنا",
-    "subtitle": "التميز في الأتمتة الصناعية",
-    "showing": "عرض {{count}} من {{total}} مشروع",
-    "hero": {
-      "title": "مشاريعنا",
-      "subtitle": "اكتشف تميزنا الهندسي من خلال أكثر من 1200 مشروع ناجح عبر صناعات متنوعة، يعرض الابتكار والجودة والموثوقية."
+    "tabs": {
+      "portfolio": "[TRANSLATE] Project Portfolio",
+      "showcase": "[TRANSLATE] Featured Projects"
     }
   },
   "ui": {
@@ -560,280 +347,238 @@
     "featuredProjects": "المشاريع المميزة"
   },
   "gallery": {
-    "title": "معرض المشاريع",
-    "subtitle": "عرض تميزنا الهندسي"
-  },
-  "news": {
-    "title": "الأخبار والتحديثات",
-    "subtitle": "أحدث رؤى الصناعة"
-  },
-  "quote": {
     "hero": {
-      "title": "عرض أسعار الهندسة",
-      "subtitle": "احصل على استشارة هندسية مهنية وتقديرات التكلفة",
-      "benefits": {
-        "consultation": "استشارة مجانية",
-        "estimates": "تقديرات فورية للتكلفة",
-        "response": "استجابة خلال 24-48 ساعة",
-        "noCosts": "بلا تكاليف خفية"
-      }
+      "title": "[TRANSLATE] Our Gallery",
+      "subtitle": "[TRANSLATE] Discover our journey through images - from our dedicated team and modern facilities to successful projects and comprehensive product range."
     },
-    "method": {
-      "title": "اختر طريقة عرض السعر",
-      "description": "احصل على تقديرات فورية للتكلفة باستخدام حاسبتنا أو اطلب عرض سعر مخصص مفصل من فريق الهندسة لدينا.",
-      "calculator": "حاسبة التكلفة",
-      "request": "طلب عرض سعر"
-    }
-  },
-  "home": {
-    "hero": {
-      "title": {
-        "main": "حلول شاملة للنجاح",
-        "highlight": "الصناعي"
-      },
-      "subtitle": "تقدم محفظتنا الواسعة من المنتجات والخدمات حلولاً شاملة تدفع النجاح الصناعي، مما يضمن تغطية كل جانب من احتياجاتك الهندسية.",
-      "buttons": {
-        "exploreServices": "استكشف خدماتنا",
-        "requestConsultation": "اطلب استشارة"
-      },
-      "features": {
-        "experience": "خبرة أكثر من 15 عاماً",
-        "support": "دعم تقني 24/7",
-        "service": "خدمة في جميع أنحاء الهند"
-      },
-      "stats": {
-        "yearsExperience": "سنوات الخبرة",
-        "projectsCompleted": "المشاريع المكتملة",
-        "happyClients": "العملاء السعداء",
-        "supportAvailable": "الدعم متاح"
-      }
+    "tabs": {
+      "company": "[TRANSLATE] Company & Team",
+      "projects": "[TRANSLATE] Projects",
+      "products": "[TRANSLATE] Products"
     },
-    "about": {
-      "label": "معلومات عنا",
-      "title": "مرحباً بكم في شركة باورتون للهندسة المحدودة.",
-      "description": "شريكك الموثوق في تقديم حلول وخدمات هندسية عالية الجودة. تأسست برؤية لتمكين الصناعات من خلال الابتكار والتميز، نحن متخصصون في تقديم مجموعة شاملة من المنتجات الكهربائية والأجهزة.",
-      "visualHeading": "الهندسة المهنية",
-      "visualDescription": "مهندسون هنود محترفون يعملون على الأتمتة الصناعية وأنظمة التحكم",
-      "features": {
-        "electrical": {
-          "title": "الكهرباء والأجهزة",
-          "description": "مجموعة كاملة من أنظمة التحكم"
+    "company": {
+      "images": {
+        "modernFacility": {
+          "title": "[TRANSLATE] Modern Engineering Facility",
+          "description": "[TRANSLATE] Our state-of-the-art facility in Noida equipped with latest testing equipment"
         },
-        "mechanical": {
-          "title": "المضخات الميكانيكية",
-          "description": "حلول مضخات متينة وقطع غيار"
+        "expertTeam": {
+          "title": "[TRANSLATE] Expert Engineering Team",
+          "description": "[TRANSLATE] Our skilled engineers working on industrial automation solutions"
         },
-        "solar": {
-          "title": "الحلول الشمسية",
-          "description": "تركيبات طاقة مستدامة"
+        "qualityLab": {
+          "title": "[TRANSLATE] Quality Control Laboratory",
+          "description": "[TRANSLATE] Advanced testing lab ensuring product quality and reliability"
         },
-        "tools": {
-          "title": "الأدوات الصناعية",
-          "description": "معدات احترافية الجودة"
+        "trainingCenter": {
+          "title": "[TRANSLATE] Training & Development Center",
+          "description": "[TRANSLATE] Continuous skill development for our technical team"
+        },
+        "supportCenter": {
+          "title": "[TRANSLATE] Customer Support Center",
+          "description": "[TRANSLATE] Dedicated 24/7 customer support and technical assistance"
+        },
+        "rdWing": {
+          "title": "[TRANSLATE] Research & Development Wing",
+          "description": "[TRANSLATE] Innovation hub for developing cutting-edge automation solutions"
         }
       },
-      "button": "تعرف على المزيد عنا"
-    },
-    "services": {
-      "label": "خدماتنا",
-      "title": "حلول هندسية شاملة",
-      "description": "من الأتمتة إلى الأجهزة، نوفر حلول هندسية كاملة تدفع التميز الصناعي والكفاءة التشغيلية."
-    },
-    "products": {
-      "label": "منتجاتنا", 
-      "title": "المنتجات والمعدات الصناعية",
-      "description": "اكتشف مجموعتنا الواسعة من المنتجات الصناعية عالية الجودة، من أنظمة الأتمتة إلى الأجهزة الدقيقة، مصممة للأداء الأمثل.",
-      "viewProducts": "عرض المنتجات",
-      "viewCatalog": "عرض الكتالوج"
-    },
-    "contact": {
-      "label": "تواصل معنا",
-      "title": "جاهز لبدء مشروعك؟",
-      "description": "دعنا نناقش كيف يمكن لخبرتنا الهندسية أن تساعدك في تحقيق أهداف الأتمتة الصناعية ونظم التحكم.",
-      "getInTouch": "تواصل معنا",
-      "methods": {
-        "phone": {
-          "title": "اتصل بنا اليوم",
-          "description": "تحدث مباشرة مع خبراء الهندسة لدينا"
-        },
-        "email": {
-          "title": "راسلنا بالبريد الإلكتروني",
-          "description": "أرسل لنا متطلبات مشروعك"
-        },
-        "address": {
-          "title": "زر مكتبنا",
-          "metro": "أقرب محطة مترو: القطاع 15"
-        }
+      "categories": {
+        "facility": "[TRANSLATE] Facility",
+        "team": "[TRANSLATE] Team",
+        "training": "[TRANSLATE] Training",
+        "support": "[TRANSLATE] Support",
+        "rd": "[TRANSLATE] R&D"
       }
-    },
-    "clients": {
-      "label": "عملاؤنا",
-      "title": "موثوق من قبل العلامات التجارية والمؤسسات الرائدة",
-      "description": "لقد شاركنا مع قادة الصناعة في مختلف القطاعات لتقديم حلول هندسية استثنائية.",
-      "testimonialsTitle": "ماذا يقول عملاؤنا"
     },
     "projects": {
-      "label": "مشاريعنا",
-      "title": "حلول هندسية تم تسليمها بنجاح",
-      "description": "استكشف محفظة مشاريعنا المكتملة التي تعرض خبرتنا في الأتمتة الصناعية والهندسة الكهربائية.",
-      "keyFeatures": "الميزات الرئيسية:",
-      "completed": "مكتمل",
-      "viewDetails": "عرض التفاصيل",
-      "viewAllProjects": "عرض جميع المشاريع",
-      "downloadPortfolio": "تحميل المحفظة"
-    },
-    "seo": {
-      "title": "باورتون للهندسة - الأتمتة الصناعية ولوحات التحكم | الهند",
-      "description": "الشركة الرائدة في تصنيع لوحات التحكم الكهربائية وأنظمة الأتمتة الصناعية وحلول الأجهزة. خدمات هندسية خبيرة في جميع أنحاء الهند مع أكثر من 15 عاماً من الخبرة.",
-      "keywords": "لوحات التحكم الكهربائية، الأتمتة الصناعية، أتمتة العمليات، الأجهزة، مركز التحكم في الطاقة، مركز التحكم في المحركات، الهندسة الكهربائية، الهند، نويدا"
-    }
-  },
-  "contact": {
-    "hero": {
-      "title": "اتصل بخبراء الهندسة لدينا",
-      "subtitle": "مستعد لبدء مشروعك التالي؟ فريقنا الخبير هنا لمساعدتك بحلول هندسية مخصصة واستشارة مهنية.",
-      "benefits": {
-        "consultation": "استشارة مجانية",
-        "support": "دعم طوارئ 24/7",
-        "experience": "خبرة أكثر من 15 عاماً"
+      "images": {
+        "controlPanel": {
+          "title": "[TRANSLATE] Industrial Control Panel Installation",
+          "description": "[TRANSLATE] Complete automation system implementation for manufacturing plant",
+          "client": "[TRANSLATE] Manufacturing Industry"
+        },
+        "solarPlant": {
+          "title": "[TRANSLATE] Solar Power Plant - 1MW",
+          "description": "[TRANSLATE] Grid-tied solar installation with monitoring systems",
+          "client": "[TRANSLATE] Industrial Complex"
+        },
+        "scadaSystem": {
+          "title": "[TRANSLATE] SCADA System Implementation",
+          "description": "[TRANSLATE] Centralized monitoring and control system for water treatment plant",
+          "client": "[TRANSLATE] Water Authority"
+        },
+        "instrumentation": {
+          "title": "[TRANSLATE] Process Instrumentation Upgrade",
+          "description": "[TRANSLATE] Complete instrumentation overhaul for chemical processing unit",
+          "client": "[TRANSLATE] Chemical Industry"
+        },
+        "plcProgramming": {
+          "title": "[TRANSLATE] PLC Programming & Integration",
+          "description": "[TRANSLATE] Advanced PLC systems for production line automation",
+          "client": "[TRANSLATE] Automotive Sector"
+        },
+        "electricalPanel": {
+          "title": "[TRANSLATE] Electrical Panel Modernization",
+          "description": "[TRANSLATE] Safety compliance and efficiency improvement project",
+          "client": "[TRANSLATE] Manufacturing Unit"
+        }
+      },
+      "categories": {
+        "automation": "[TRANSLATE] Automation",
+        "solarEpc": "[TRANSLATE] Solar EPC",
+        "scada": "[TRANSLATE] SCADA",
+        "instrumentation": "[TRANSLATE] Instrumentation",
+        "plcProgramming": "[TRANSLATE] PLC Programming",
+        "electrical": "[TRANSLATE] Electrical"
       }
     },
-    "methods": {
-      "title": "طرق متعددة للاتصال بنا",
-      "subtitle": "اختر طريقة التواصل التي تناسبك أكثر. نحن متاحون 24/7 للدعم الطارئ."
-    },
-    "form": {
-      "title": "أرسل لنا رسالة",
-      "subtitle": "اتصل بنا للاستفسارات العامة أو معلومات الخدمة أو الأسئلة التقنية."
-    },
-    "contactMethods": {
-      "phone": {
-        "title": "اتصل بنا مباشرة",
-        "subtitle": "متاح 24/7 للدعم",
-        "description": "تحدث مباشرة مع فريقنا التقني"
+    "products": {
+      "images": {
+        "controlSystems": {
+          "title": "[TRANSLATE] Advanced Control Systems",
+          "description": "[TRANSLATE] State-of-the-art automation and control solutions"
+        },
+        "electricalPanels": {
+          "title": "[TRANSLATE] Electrical Control Panels",
+          "description": "[TRANSLATE] Custom-designed panels for industrial applications"
+        },
+        "instrumentation": {
+          "title": "[TRANSLATE] Precision Instrumentation",
+          "description": "[TRANSLATE] High-quality measurement and control instruments"
+        },
+        "pumps": {
+          "title": "[TRANSLATE] Industrial Pumps & Motors",
+          "description": "[TRANSLATE] Reliable pump solutions for various applications"
+        },
+        "solarProducts": {
+          "title": "[TRANSLATE] Solar Power Solutions",
+          "description": "[TRANSLATE] Complete solar energy systems and components"
+        },
+        "safetyEquipment": {
+          "title": "[TRANSLATE] Safety & Protection",
+          "description": "[TRANSLATE] Industrial safety equipment and protective devices"
+        }
       },
-      "email": {
-        "title": "دعم بريد إلكتروني",
-        "subtitle": "رد خلال 24 ساعة",
-        "description": "أرسل لنا متطلبات مشروعك المفصلة"
-      },
-      "whatsapp": {
-        "title": "دعم واتساب",
-        "subtitle": "دردشة استجابة سريعة",
-        "description": "احصل على إجابات فورية لأسئلتك"
-      },
-      "visit": {
-        "title": "زر مكتبنا",
-        "subtitle": "بموعد فقط",
-        "description": "حدد موعد لزيارة مقرنا في نويدا"
+      "categories": {
+        "controlSystems": "[TRANSLATE] Control Systems",
+        "electricalPanels": "[TRANSLATE] Electrical Panels",
+        "instrumentation": "[TRANSLATE] Instrumentation",
+        "pumps": "[TRANSLATE] Pumps & Motors",
+        "solar": "[TRANSLATE] Solar Products",
+        "safety": "[TRANSLATE] Safety Equipment"
       }
     },
-    "office": {
-      "name": "المقر الرئيسي",
-      "hours": "الاثنين-السبت: 9:00 ص - 6:00 م"
-    },
-    "services": {
-      "technical": {
-        "title": "الدعم الفني",
-        "description": "مساعدة تقنية خبيرة لجميع منتجاتنا وخدماتنا"
-      },
-      "customer": {
-        "title": "نجاح العميل",
-        "description": "دعم مخصص لضمان نجاح مشروعك"
-      },
-      "onsite": {
-        "title": "دعم في الموقع",
-        "description": "دعم هندسي ميداني في موقعك"
-      },
-      "remote": {
-        "title": "دعم عن بعد",
-        "description": "مساعدة افتراضية وتشخيص عن بعد للأنظمة"
-      }
+    "ui": {
+      "viewLarger": "[TRANSLATE] View Larger",
+      "downloadImage": "[TRANSLATE] Download Image",
+      "requestDownload": "[TRANSLATE] Request Download",
+      "needCustomPortfolio": "[TRANSLATE] Need Custom Portfolio?",
+      "contactUs": "[TRANSLATE] Contact us for a personalized project portfolio showcasing our work relevant to your industry.",
+      "imageNotFound": "[TRANSLATE] Image not found",
+      "noImagesFound": "[TRANSLATE] No images found for this category",
+      "allCategories": "[TRANSLATE] All Categories",
+      "year": "[TRANSLATE] Year",
+      "location": "[TRANSLATE] Location",
+      "client": "[TRANSLATE] Client",
+      "category": "[TRANSLATE] Category"
     },
     "sections": {
-      "visitOffice": "زيارة مكتبنا",
-      "officeLocation": "موقع المكتب",
-      "supportServices": "خدمات الدعم",
-      "businessHours": "ساعات العمل والإتاحة",
-      "getDirections": "الحصول على الاتجاهات"
-    },
-    "formSection": {
-      "title": "نموذج الاتصال العام",
-      "description": "للاستفسارات العامة أو معلومات الخدمة أو الأسئلة التقنية"
-    },
-    "businessHours": {
-      "regular": {
-        "title": "الساعات العادية",
-        "days": "الإثنين - السبت",
-        "time": "9:00 ص - 6:00 م"
+      "company": {
+        "title": "[TRANSLATE] Our Company & Team",
+        "description": "[TRANSLATE] Meet our dedicated team and explore our modern facilities that enable us to deliver excellence in every project."
       },
-      "emergency": {
-        "title": "الدعم الطارئ",
-        "availability": "متاح 24/7",
-        "days": "جميع الأيام"
+      "projects": {
+        "title": "[TRANSLATE] Our Completed Projects",
+        "description": "[TRANSLATE] Explore our successful project implementations across various industries, showcasing our expertise and commitment to quality."
       },
-      "email": {
-        "title": "رد البريد الإلكتروني",
-        "time": "خلال 24 ساعة",
-        "guarantee": "مضمون"
+      "products": {
+        "title": "[TRANSLATE] Our Products & Solutions",
+        "description": "[TRANSLATE] Discover our comprehensive range of industrial products and solutions from leading global manufacturers."
       }
-    },
-    "emergency": {
-      "title": "الدعم الطارئ",
-      "description": "فشل نظام حرج؟ فريق الاستجابة الطارئة متاح 24/7 للمساعدة في تقليل وقت التوقف.",
-      "hotline": "الخط الساخن للطوارئ"
     }
   },
-  "quote": {
-    "projectSizes": {
-      "small": "صغير (1-10 نقاط I/O)",
-      "medium": "متوسط (11-100 نقاط I/O)", 
-      "large": "كبير (101-500 نقاط I/O)",
-      "enterprise": "مؤسسي (500+ نقاط I/O)"
+  "news": {
+    "hero": {
+      "title": "[TRANSLATE] News & Updates",
+      "subtitle": "[TRANSLATE] Latest Industry Insights"
     },
-    "timelines": {
-      "urgent": "عاجل (< 3 أشهر)",
-      "standard": "قياسي (3-6 أشهر)",
-      "extended": "ممدد (6-12 شهر)",
-      "longTerm": "طويل المدى (12+ شهر)"
-    },
-    "requirements": {
-      "plcProgramming": "برمجة PLC",
-      "scadaDevelopment": "تطوير SCADA", 
-      "hmiDesign": "تصميم HMI",
-      "networkIntegration": "تكامل الشبكة",
-      "safetySystems": "أنظمة الأمان",
-      "remoteMonitoring": "مراقبة عن بُعد",
-      "dataAnalytics": "تحليل البيانات",
-      "mobileApp": "واجهة التطبيق المحمول"
-    },
-    "additionalFeatures": {
-      "redundancy": "تكرار النظام",
-      "cybersecurity": "الأمن السيبراني المتقدم",
-      "iotIntegration": "تكامل إنترنت الأشياء",
-      "aiMl": "تحليل الذكاء الاصطناعي",
-      "predictiveMaintenance": "صيانة تنبؤية", 
-      "energyManagement": "إدارة الطاقة",
-      "cloudIntegration": "تكامل السحابة",
-      "trainingSupport": "تدريب ودعم موسع"
-    },
-    "industries": {
-      "manufacturing": "التصنيع",
-      "powerGeneration": "توليد الطاقة",
-      "oilGas": "النفط والغاز",
-      "chemicalProcessing": "المعالجة الكيميائية",
-      "waterTreatment": "معالجة المياه",
-      "foodBeverage": "الأغذية والمشروبات",
-      "pharmaceutical": "صيدلاني",
-      "renewableEnergy": "الطاقة المتجددة"
-    },
-    "projectTypes": {
-      "processAutomation": "أتمتة العمليات",
-      "powerControlSystems": "أنظمة التحكم بالطاقة",
-      "instrumentationControl": "أجهزة القياس والتحكم",
-      "solarAutomation": "أتمتة الطاقة الشمسية",
-      "buildingAutomation": "أتمتة المباني",
-      "manufacturingAutomation": "أتمتة التصنيع"
+    "article": {
+      "backToNews": "[TRANSLATE] Back to News",
+      "share": "[TRANSLATE] Share",
+      "author": "[TRANSLATE] Powerton Engineering Team",
+      "categories": {
+        "projectSuccess": "[TRANSLATE] Project Success",
+        "technology": "[TRANSLATE] Technology",
+        "industryNews": "[TRANSLATE] Industry News",
+        "companyUpdate": "[TRANSLATE] Company Update"
+      },
+      "sampleArticle": {
+        "title": "[TRANSLATE] Powerton Engineering Completes Major Automation Project for Leading Manufacturing Plant",
+        "excerpt": "[TRANSLATE] Successfully implemented comprehensive industrial automation system reducing operational costs by 30% and improving efficiency by 45%.",
+        "content": {
+          "projectOverview": "[TRANSLATE] Project Overview",
+          "projectOverviewText": "[TRANSLATE] Powerton Engineering has successfully completed a comprehensive industrial automation project for one of India's leading manufacturing facilities. This project represents a significant milestone in our commitment to delivering cutting-edge automation solutions that drive operational excellence.",
+          "keyAchievements": "[TRANSLATE] Key Achievements",
+          "achievements": {
+            "costReduction": "[TRANSLATE] 30% reduction in operational costs",
+            "efficiency": "[TRANSLATE] 45% improvement in production efficiency",
+            "safety": "[TRANSLATE] Zero safety incidents during implementation",
+            "uptime": "[TRANSLATE] 100% system uptime since commissioning"
+          },
+          "technicalImplementation": "[TRANSLATE] Technical Implementation",
+          "technicalText": "[TRANSLATE] The project involved the integration of advanced PLC systems, SCADA implementation, and comprehensive instrumentation solutions. Our team worked closely with the client to ensure minimal disruption to ongoing operations while implementing state-of-the-art automation technology.",
+          "technologiesUsed": "[TRANSLATE] Technologies Used",
+          "technologies": {
+            "plc": "[TRANSLATE] Schneider Electric PLC Systems",
+            "scada": "[TRANSLATE] Advanced SCADA with real-time monitoring",
+            "iot": "[TRANSLATE] Industrial IoT sensors and connectivity",
+            "maintenance": "[TRANSLATE] Predictive maintenance systems",
+            "energy": "[TRANSLATE] Energy management and optimization"
+          },
+          "clientTestimonial": "[TRANSLATE] Client Testimonial",
+          "testimonialText": "[TRANSLATE] Powerton Engineering delivered beyond our expectations. The new automation system has transformed our operations, and we're seeing immediate benefits in efficiency and cost reduction. Their professional approach and technical expertise were exceptional.",
+          "futureCollaboration": "[TRANSLATE] Future Collaboration",
+          "futureText": "[TRANSLATE] Based on the success of this implementation, the client has already engaged Powerton Engineering for phase two of their automation journey, which will expand the system to additional production lines.",
+          "conclusionText": "[TRANSLATE] This project demonstrates our capability to handle complex industrial automation challenges and deliver measurable results that directly impact our clients' bottom line."
+        }
+      },
+      "cta": {
+        "title": "[TRANSLATE] Ready to Transform Your Operations?",
+        "description": "[TRANSLATE] Learn how Powerton Engineering can help you achieve similar results with our industrial automation solutions.",
+        "contactTeam": "[TRANSLATE] Contact Our Team",
+        "requestQuote": "[TRANSLATE] Request Project Quote"
+      },
+      "relatedArticles": {
+        "title": "[TRANSLATE] Related Articles",
+        "iotTrends": {
+          "title": "[TRANSLATE] Latest Trends in Industrial IoT Implementation",
+          "excerpt": "[TRANSLATE] Exploring how Industrial Internet of Things is revolutionizing manufacturing processes..."
+        },
+        "energyManagement": {
+          "title": "[TRANSLATE] Energy Management System Reduces Costs by 40%",
+          "excerpt": "[TRANSLATE] Case study: How our energy management solution delivered exceptional savings..."
+        },
+        "readMore": "[TRANSLATE] Read More →"
+      }
+    }
+  },
+  "backToProducts": "[TRANSLATE] Back to Products",
+  "sitemap": {
+    "quickActions": {
+      "title": "[TRANSLATE] Need Help Finding Something?",
+      "description": "[TRANSLATE] Can't find what you're looking for? Contact us directly or use our intelligent chatbot available on every page.",
+      "contactUs": "[TRANSLATE] Contact Us",
+      "requestQuote": "[TRANSLATE] Request Quote"
+    }
+  },
+  "portfolio": {
+    "features": {
+      "completedProjects": "[TRANSLATE] Successfully completed projects across various industries",
+      "highQuality": "[TRANSLATE] High-Quality Documentation",
+      "highQualityDesc": "[TRANSLATE] Professional portfolio with detailed project imagery",
+      "verifiedResults": "[TRANSLATE] Verified Results",
+      "verifiedResultsDesc": "[TRANSLATE] Real projects with measurable outcomes and client testimonials"
     }
   }
 }

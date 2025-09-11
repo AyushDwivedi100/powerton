@@ -49,134 +49,62 @@
     }
   },
   "quote": {
-    "projectTypes": {
-      "newInstallation": "Новая установка",
-      "systemUpgrade": "Обновление системы",
-      "retrofit": "Модернизация",
-      "maintenance": "Контракт на обслуживание",
-      "consultation": "Техническая консультация",
-      "design": "Проектирование и инженерия"
-    },
-    "timelines": {
-      "immediate": "Немедленно (< 1 месяца)",
-      "1-3-months": "1-3 месяца",
-      "3-6-months": "3-6 месяцев",
-      "6-12-months": "6-12 месяцев",
-      "1-year-plus": "Более 1 года"
-    },
-    "budgetRanges": {
-      "under-1-lakh": "Менее ₹1 Лакх",
-      "1-5-lakh": "₹1-5 Лакх",
-      "5-10-lakh": "₹5-10 Лакх",
-      "10-25-lakh": "₹10-25 Лакх",
-      "25-50-lakh": "₹25-50 Лакх",
-      "50-lakh-plus": "₹50 Лакх+",
-      "discuss": "Предпочитаю обсудить"
-    },
     "validation": {
-      "nameMin": "Имя должно содержать минимум 2 символа",
-      "emailInvalid": "Пожалуйста, введите действительный адрес электронной почты",
-      "phoneMin": "Пожалуйста, введите действительный номер телефона",
-      "companyRequired": "Название компании обязательно",
-      "projectTitleRequired": "Название проекта обязательно",
-      "projectTypeRequired": "Пожалуйста, выберите тип проекта",
-      "timelineRequired": "Пожалуйста, выберите ожидаемые сроки",
-      "servicesRequired": "Пожалуйста, выберите хотя бы одну услугу",
-      "specificationsMin": "Пожалуйста, предоставьте подробные спецификации (минимум 20 символов)"
-    },
-    "success": {
-      "title": "Запрос на котировку успешно отправлен!",
-      "description": "Наша инженерная команда рассмотрит ваши требования и ответит в течение 24-48 часов."
-    },
-    "placeholders": {
-      "selectIndustry": "Выбрать отрасль",
-      "selectProjectScale": "Выбрать масштаб проекта",
-      "selectBudget": "Выбрать бюджетный диапазон (опционально)",
-      "detailedRequirements": "Пожалуйста, предоставьте подробные спецификации, включая:\n- Технические требования и стандарты\n- Спецификации и количество оборудования\n- Требования к производительности\n- Условия окружающей среды\n- Требования к соответствию\n- Любые особые соображения...",
-      "additionalRequirements": "Любые дополнительные требования, особые условия или вопросы...",
-      "preferredBrands": "напр., Siemens, Allen-Bradley, Schneider..."
-    },
-    "labels": {
-      "industryType": "Тип отрасли",
-      "projectScale": "Масштаб проекта",
-      "approximateBudget": "Приблизительный бюджет",
-      "detailedRequirements": "Подробные требования *",
-      "preferredBrands": "Предпочитаемые бренды/стандарты",
-      "additionalRequirements": "Дополнительные требования",
-      "projectTitle": "Название проекта *",
-      "projectType": "Тип проекта *",
-      "expectedTimeline": "Ожидаемые сроки *",
-      "phoneNumber": "Номер телефона *",
-      "companyName": "Название компании *",
-      "projectInformation": "Информация о проекте",
-      "budgetRange": "Бюджетный диапазон"
+      "nameRequired": "[TRANSLATE] Name is required",
+      "phoneRequired": "[TRANSLATE] Phone number is required",
+      "subjectRequired": "[TRANSLATE] Subject is required",
+      "messageRequired": "[TRANSLATE] Message is required",
+      "firstNameRequired": "[TRANSLATE] First name is required",
+      "lastNameRequired": "[TRANSLATE] Last name is required",
+      "invalidEmail": "[TRANSLATE] Invalid email address",
+      "selectService": "[TRANSLATE] Please select a service",
+      "projectDetailsRequired": "[TRANSLATE] Project details are required"
     },
     "sections": {
-      "requiredServices": "Необходимые услуги *"
+      "contactInfo": "[TRANSLATE] Contact Information"
     },
-    "submitting": "Отправка запроса на котировку...",
-    "buttons": {
-      "getProfessionalQuote": "Получить профессиональную котировку"
-    },
-    "fields": {
-      "designation": {
-        "label": "Должность"
-      },
-      "additionalRequirements": {
-        "label": "Дополнительные требования"
-      }
-    },
-    "industries": {
-      "manufacturing": "Производство",
-      "powerGeneration": "Производство энергии",
-      "waterTreatment": "Очистка воды",
-      "foodProcessing": "Переработка пищи",
-      "pharmaceutical": "Фармацевтика",
-      "chemical": "Химическая",
-      "renewableEnergy": "Возобновляемая энергия",
-      "infrastructure": "Инфраструктура",
-      "other": "Другое"
+    "error": {
+      "title": "[TRANSLATE] Quote submission failed",
+      "description": "[TRANSLATE] For immediate assistance: {{phone}} or email: {{email}}"
     }
   },
   "career": {
-    "validation": {
-      "nameMin": "Имя должно содержать не менее 2 символов",
-      "emailInvalid": "Пожалуйста, введите действительный адрес электронной почты",
-      "phoneMin": "Номер телефона должен содержать не менее 10 цифр",
-      "specializationRequired": "Пожалуйста, выберите вашу инженерную специализацию",
-      "experienceRequired": "Пожалуйста, выберите ваш уровень опыта",
-      "educationRequired": "Пожалуйста, предоставьте данные об образовании",
-      "joiningTimeRequired": "Пожалуйста, укажите, как скоро вы можете приступить к работе",
-      "skillsMin": "Пожалуйста, предоставьте подробности о ваших навыках",
-      "coverLetterMin": "Пожалуйста, напишите краткое сопроводительное письмо (минимум 20 символов)",
-      "addressMin": "Пожалуйста, укажите ваш полный адрес"
+    "placeholders": {
+      "fullName": "[TRANSLATE] Enter your full name",
+      "email": "[TRANSLATE] your.email@example.com",
+      "phone": "[TRANSLATE] +91 9876543210",
+      "address": "[TRANSLATE] Enter your complete address (House/Flat No., Street, City, State, PIN)",
+      "currentCompany": "[TRANSLATE] Your current company (optional)",
+      "education": "[TRANSLATE] e.g., B.Tech Electrical Engineering",
+      "expectedSalary": "[TRANSLATE] e.g., 5-8 LPA or Negotiable",
+      "skills": "[TRANSLATE] List your technical skills, software knowledge, programming languages, certifications, etc.",
+      "coverLetter": "[TRANSLATE] Tell us about your motivation, career goals, and how you can contribute to our team...",
+      "selectSpecialization": "[TRANSLATE] Select your area of expertise",
+      "selectExperience": "[TRANSLATE] Select experience level",
+      "selectAvailability": "[TRANSLATE] Select your availability"
     },
-    "specializations": {
-      "electricalEngineering": "Электротехника",
-      "automationControl": "Системы автоматизации и управления",
-      "instrumentation": "Приборостроение",
-      "projectManagement": "Управление проектами",
-      "technicalSales": "Технические продажи",
-      "fieldService": "Полевой сервис и ввод в эксплуатацию",
-      "designEngineering": "Проектирование и разработка",
-      "solarRenewable": "Солнечная и возобновляемая энергетика",
-      "other": "Другая специализация"
+    "labels": {
+      "title": "[TRANSLATE] Join Our Engineering Team",
+      "subtitle": "[TRANSLATE] Submit your application and become part of our innovative engineering solutions team",
+      "personalInfo": "[TRANSLATE] Personal Information",
+      "professionalInfo": "[TRANSLATE] Professional Information",
+      "fullName": "[TRANSLATE] Full Name",
+      "emailAddress": "[TRANSLATE] Email Address",
+      "phoneNumber": "[TRANSLATE] Phone Number",
+      "residingAddress": "[TRANSLATE] Current Residing Address",
+      "specialization": "[TRANSLATE] Engineering Specialization",
+      "experience": "[TRANSLATE] Experience Level",
+      "currentCompany": "[TRANSLATE] Current Company",
+      "availability": "[TRANSLATE] Availability/Notice Period",
+      "education": "[TRANSLATE] Education/Qualification",
+      "expectedSalary": "[TRANSLATE] Expected Salary",
+      "technicalSkills": "[TRANSLATE] Technical Skills & Expertise",
+      "coverLetter": "[TRANSLATE] Cover Letter & Motivation"
     },
-    "experience": {
-      "fresher": "Начинающий (0-1 год)",
-      "oneToThree": "1-3 года",
-      "threeToFive": "3-5 лет",
-      "fiveToEight": "5-8 лет",
-      "eightToTwelve": "8-12 лет",
-      "twelvePlus": "12+ лет"
-    },
-    "joiningTime": {
-      "immediate": "Может приступить немедленно",
-      "fifteenDays": "Уведомление за 15 дней",
-      "oneMonth": "Уведомление за 1 месяц",
-      "twoMonths": "Уведомление за 2 месяца",
-      "threeMonths": "Уведомление за 3 месяца",
-      "moreThanThree": "Уведомление более 3 месяцев"
+    "buttons": {
+      "submit": "[TRANSLATE] Submit Application",
+      "submitting": "[TRANSLATE] Submitting Application...",
+      "uploadResume": "[TRANSLATE] Upload Resume"
     }
   }
 }

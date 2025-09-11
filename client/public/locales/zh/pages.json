@@ -60,7 +60,7 @@
     },
     "products": {
       "label": "我们的产品",
-      "title": "工业自动化设备解决方案", 
+      "title": "工业自动化设备解决方案",
       "description": "为工业环境中的可靠性、效率和卓越性能而设计的全面电气和自动化产品系列。",
       "viewProducts": "查看产品",
       "viewCatalog": "查看完整产品目录"
@@ -103,39 +103,68 @@
     }
   },
   "news": {
-    "title": "新闻",
-    "subtitle": "更新",
-    "badges": {
-      "awardWinning": "获奖",
-      "growingStrong": "强劲增长",
-      "futureReady": "面向未来"
+    "hero": {
+      "title": "[TRANSLATE] News & Updates",
+      "subtitle": "[TRANSLATE] Latest Industry Insights"
     },
-    "latestNews": {
-      "excellenceAward": {
-        "title": "宝尔顿工程因工业自动化荣获卓越奖",
-        "excerpt": "我们自豪地宣布，宝尔顿工程因其在过程自动化方面的创新解决方案而被中国工程协会授予'工业自动化卓越奖'。",
-        "category": "奖项"
+    "article": {
+      "backToNews": "[TRANSLATE] Back to News",
+      "share": "[TRANSLATE] Share",
+      "author": "[TRANSLATE] Powerton Engineering Team",
+      "categories": {
+        "projectSuccess": "[TRANSLATE] Project Success",
+        "technology": "[TRANSLATE] Technology",
+        "industryNews": "[TRANSLATE] Industry News",
+        "companyUpdate": "[TRANSLATE] Company Update"
       },
-      "ntpcContract": {
-        "title": "与国家电力公司签订重要电厂自动化合同", 
-        "excerpt": "宝尔顿工程已签署一项价值5000万元的重要合同，为国家电力公司在广东省的新火电厂提供自动化服务，预计将于2025年第三季度完成。",
-        "category": "业务"
+      "sampleArticle": {
+        "title": "[TRANSLATE] Powerton Engineering Completes Major Automation Project for Leading Manufacturing Plant",
+        "excerpt": "[TRANSLATE] Successfully implemented comprehensive industrial automation system reducing operational costs by 30% and improving efficiency by 45%.",
+        "content": {
+          "projectOverview": "[TRANSLATE] Project Overview",
+          "projectOverviewText": "[TRANSLATE] Powerton Engineering has successfully completed a comprehensive industrial automation project for one of India's leading manufacturing facilities. This project represents a significant milestone in our commitment to delivering cutting-edge automation solutions that drive operational excellence.",
+          "keyAchievements": "[TRANSLATE] Key Achievements",
+          "achievements": {
+            "costReduction": "[TRANSLATE] 30% reduction in operational costs",
+            "efficiency": "[TRANSLATE] 45% improvement in production efficiency",
+            "safety": "[TRANSLATE] Zero safety incidents during implementation",
+            "uptime": "[TRANSLATE] 100% system uptime since commissioning"
+          },
+          "technicalImplementation": "[TRANSLATE] Technical Implementation",
+          "technicalText": "[TRANSLATE] The project involved the integration of advanced PLC systems, SCADA implementation, and comprehensive instrumentation solutions. Our team worked closely with the client to ensure minimal disruption to ongoing operations while implementing state-of-the-art automation technology.",
+          "technologiesUsed": "[TRANSLATE] Technologies Used",
+          "technologies": {
+            "plc": "[TRANSLATE] Schneider Electric PLC Systems",
+            "scada": "[TRANSLATE] Advanced SCADA with real-time monitoring",
+            "iot": "[TRANSLATE] Industrial IoT sensors and connectivity",
+            "maintenance": "[TRANSLATE] Predictive maintenance systems",
+            "energy": "[TRANSLATE] Energy management and optimization"
+          },
+          "clientTestimonial": "[TRANSLATE] Client Testimonial",
+          "testimonialText": "[TRANSLATE] Powerton Engineering delivered beyond our expectations. The new automation system has transformed our operations, and we're seeing immediate benefits in efficiency and cost reduction. Their professional approach and technical expertise were exceptional.",
+          "futureCollaboration": "[TRANSLATE] Future Collaboration",
+          "futureText": "[TRANSLATE] Based on the success of this implementation, the client has already engaged Powerton Engineering for phase two of their automation journey, which will expand the system to additional production lines.",
+          "conclusionText": "[TRANSLATE] This project demonstrates our capability to handle complex industrial automation challenges and deliver measurable results that directly impact our clients' bottom line."
+        }
       },
-      "renewableExpansion": {
-        "title": "扩展到可再生能源自动化解决方案",
-        "excerpt": "作为我们战略增长计划的一部分，我们正在扩展我们的服务，包括太阳能和风能项目的综合自动化解决方案，目标是中国不断增长的可再生能源领域。",
-        "category": "公司"
+      "cta": {
+        "title": "[TRANSLATE] Ready to Transform Your Operations?",
+        "description": "[TRANSLATE] Learn how Powerton Engineering can help you achieve similar results with our industrial automation solutions.",
+        "contactTeam": "[TRANSLATE] Contact Our Team",
+        "requestQuote": "[TRANSLATE] Request Project Quote"
+      },
+      "relatedArticles": {
+        "title": "[TRANSLATE] Related Articles",
+        "iotTrends": {
+          "title": "[TRANSLATE] Latest Trends in Industrial IoT Implementation",
+          "excerpt": "[TRANSLATE] Exploring how Industrial Internet of Things is revolutionizing manufacturing processes..."
+        },
+        "energyManagement": {
+          "title": "[TRANSLATE] Energy Management System Reduces Costs by 40%",
+          "excerpt": "[TRANSLATE] Case study: How our energy management solution delivered exceptional savings..."
+        },
+        "readMore": "[TRANSLATE] Read More →"
       }
-    },
-    "achievements": {
-      "title": "近期成就",
-      "list": [
-        "工业自动化卓越奖 - 中国工程协会",
-        "最佳工程服务提供商 - 自动化世界奖2024", 
-        "绿色能源实施奖 - 国家能源局认可",
-        "过程控制创新 - 中国电工技术协会奖",
-        "客户卓越奖 - 工业自动化协会"
-      ]
     }
   },
   "backToProducts": "返回产品",
@@ -200,16 +229,52 @@
     }
   },
   "projects": {
-    "hero": {
-      "title": "我们的项目",
-      "subtitle": "探索我们在多元化行业中1200+成功项目的工程卓越，展现创新、质量和可靠性。"
-    },
-    "showing": "显示"
+    "tabs": {
+      "portfolio": "[TRANSLATE] Project Portfolio",
+      "showcase": "[TRANSLATE] Featured Projects"
+    }
   },
   "products": {
-    "seo": {
-      "title": "工业产品目录 - 自动化与电气设备 | 宝尔顿工程",
-      "description": "工业自动化产品、电气元件、仪器仪表、太阳能系统、泵类和工具的全面目录。工业应用的优质设备。"
+    "badges": {
+      "handTools": "[TRANSLATE] Hand Tools",
+      "powerTools": "[TRANSLATE] Power Tools",
+      "liftingEquipment": "[TRANSLATE] Lifting Equipment",
+      "safetyGear": "[TRANSLATE] Safety Gear",
+      "touchscreen": "[TRANSLATE] Touchscreen",
+      "industrialGrade": "[TRANSLATE] Industrial Grade",
+      "realTimeDisplay": "[TRANSLATE] Real-time Display",
+      "multiProtocol": "[TRANSLATE] Multi-Protocol",
+      "heatingElements": "[TRANSLATE] Heating Elements",
+      "industrialOvens": "[TRANSLATE] Industrial Ovens",
+      "heatTracing": "[TRANSLATE] Heat Tracing",
+      "temperatureControl": "[TRANSLATE] Temperature Control",
+      "precisionTools": "[TRANSLATE] Precision Tools",
+      "durableConstruction": "[TRANSLATE] Durable Construction",
+      "ergonomicDesign": "[TRANSLATE] Ergonomic Design",
+      "professionalGrade": "[TRANSLATE] Professional Grade"
+    },
+    "sections": {
+      "hmiSolutions": "[TRANSLATE] HMI Solutions",
+      "heatingSolutions": "[TRANSLATE] Heating Solutions",
+      "handToolCategories": "[TRANSLATE] Hand Tool Categories",
+      "diaphragmPumpTypes": "[TRANSLATE] Diaphragm Pump Types",
+      "calibrationSolutions": "[TRANSLATE] Calibration Solutions",
+      "industrialProducts": "[TRANSLATE] Industrial Products"
+    },
+    "cta": {
+      "needHmiSolutions": "[TRANSLATE] Need HMI Solutions?",
+      "hmiDescription": "[TRANSLATE] Our HMI specialists can design intuitive operator interfaces for your automation systems.",
+      "contactHmiExperts": "[TRANSLATE] Contact HMI Experts",
+      "requestQuote": "[TRANSLATE] Request Quote",
+      "needHeatingolutions": "[TRANSLATE] Need Industrial Heating Solutions?",
+      "heatingDescription": "[TRANSLATE] Our heating specialists can design custom heating systems for your industrial processes.",
+      "contactHeatingExperts": "[TRANSLATE] Contact Heating Experts",
+      "needDiaphragmPumps": "[TRANSLATE] Need Diaphragm Pump Solutions?",
+      "diaphragmDescription": "[TRANSLATE] Our pump engineers can help you select the right diaphragm pump for your chemical handling needs.",
+      "contactPumpExperts": "[TRANSLATE] Contact Pump Experts",
+      "needCalibration": "[TRANSLATE] Need Calibration Services?",
+      "calibrationDescription": "[TRANSLATE] Our calibration experts ensure your instruments meet the highest precision standards.",
+      "contactCalibrationExperts": "[TRANSLATE] Contact Calibration Experts"
     }
   },
   "services": {
@@ -341,95 +406,327 @@
     }
   },
   "quote": {
-    "seo": {
-      "title": "询价请求 - 宝尔顿工程 | 定制工业自动化解决方案",
-      "description": "从宝尔顿工程获取您的工业自动化项目详细报价。免费咨询，24-48小时内回复。"
+    "projectSizes": {
+      "small": "[TRANSLATE] Small (1-10 I/O Points)",
+      "medium": "[TRANSLATE] Medium (11-100 I/O Points)",
+      "large": "[TRANSLATE] Large (101-500 I/O Points)",
+      "enterprise": "[TRANSLATE] Enterprise (500+ I/O Points)"
     },
-    "benefits": {
-      "assessment": {
-        "title": "详细评估",
-        "description": "全面的项目评估和技术规格"
-      },
-      "response": {
-        "title": "快速响应",
-        "description": "24-48小时内收到详细报价"
-      },
-      "consultation": {
-        "title": "专家咨询",
-        "description": "与我们工程团队的免费技术咨询"
-      },
-      "solutions": {
-        "title": "定制解决方案",
-        "description": "针对您特定需求的量身定制工程解决方案"
-      }
+    "timelines": {
+      "urgent": "[TRANSLATE] Urgent (< 3 months)",
+      "standard": "[TRANSLATE] Standard (3-6 months)",
+      "extended": "[TRANSLATE] Extended (6-12 months)",
+      "longTerm": "[TRANSLATE] Long-term (12+ months)"
     },
-    "process": {
-      "title": "我们的报价流程",
-      "description": "从初始请求到详细提案，我们确保流程顺畅透明。",
-      "submit": {
-        "title": "提交请求",
-        "description": "填写我们的全面报价表格或使用我们的成本计算器"
-      },
-      "review": {
-        "title": "技术审查",
-        "description": "我们的工程团队分析您的需求和规格"
-      },
-      "assessment": {
-        "title": "现场评估",
-        "description": "复杂项目的可选现场访问（如有需要）"
-      },
-      "quote": {
-        "title": "详细报价",
-        "description": "获得包含时间表和交付物的全面定价"
-      }
+    "requirements": {
+      "plcProgramming": "[TRANSLATE] PLC Programming",
+      "scadaDevelopment": "[TRANSLATE] SCADA Development",
+      "hmiDesign": "[TRANSLATE] HMI Design",
+      "networkIntegration": "[TRANSLATE] Network Integration",
+      "safetySystems": "[TRANSLATE] Safety Systems",
+      "remoteMonitoring": "[TRANSLATE] Remote Monitoring",
+      "dataAnalytics": "[TRANSLATE] Data Analytics",
+      "mobileApp": "[TRANSLATE] Mobile App Interface"
     },
-    "cta": {
-      "title": "准备开始了吗？",
-      "description": "立即联系我们获取您的定制工程解决方案。我们的团队准备帮助实现您的项目。"
+    "additionalFeatures": {
+      "redundancy": "[TRANSLATE] System Redundancy",
+      "cybersecurity": "[TRANSLATE] Advanced Cybersecurity",
+      "iotIntegration": "[TRANSLATE] IoT Integration",
+      "aiMl": "[TRANSLATE] AI/ML Analytics",
+      "predictiveMaintenance": "[TRANSLATE] Predictive Maintenance",
+      "energyManagement": "[TRANSLATE] Energy Management",
+      "cloudIntegration": "[TRANSLATE] Cloud Integration",
+      "trainingSupport": "[TRANSLATE] Extended Training & Support"
+    },
+    "industries": {
+      "manufacturing": "[TRANSLATE] Manufacturing",
+      "powerGeneration": "[TRANSLATE] Power Generation",
+      "oilGas": "[TRANSLATE] Oil & Gas",
+      "chemicalProcessing": "[TRANSLATE] Chemical Processing",
+      "waterTreatment": "[TRANSLATE] Water Treatment",
+      "foodBeverage": "[TRANSLATE] Food & Beverage",
+      "pharmaceutical": "[TRANSLATE] Pharmaceutical",
+      "renewableEnergy": "[TRANSLATE] Renewable Energy"
+    },
+    "projectTypes": {
+      "processAutomation": "[TRANSLATE] Process Automation",
+      "powerControlSystems": "[TRANSLATE] Power Control Systems",
+      "instrumentationControl": "[TRANSLATE] Instrumentation & Control",
+      "solarAutomation": "[TRANSLATE] Solar Automation",
+      "buildingAutomation": "[TRANSLATE] Building Automation",
+      "manufacturingAutomation": "[TRANSLATE] Manufacturing Automation"
     }
   },
   "gallery": {
-    "section": {
-      "label": "我们的工作",
-      "title": "工程卓越在行动",
-      "description": "探索我们在各个行业和领域成功交付的安装、自动化项目和工业解决方案组合。"
+    "hero": {
+      "title": "[TRANSLATE] Our Gallery",
+      "subtitle": "[TRANSLATE] Discover our journey through images - from our dedicated team and modern facilities to successful projects and comprehensive product range."
     },
-    "categories": {
-      "electricalSystems": "电气系统",
-      "automation": "自动化",
-      "safetyProtection": "安全与保护",
-      "renewableEnergy": "可再生能源",
-      "measurementSystems": "测量系统",
-      "mechanicalSystems": "机械系统"
+    "tabs": {
+      "company": "[TRANSLATE] Company & Team",
+      "projects": "[TRANSLATE] Projects",
+      "products": "[TRANSLATE] Products"
     },
-    "projects": {
-      "controlPanel": {
-        "title": "工业控制面板安装",
-        "description": "制造设施的先进控制面板设置"
+    "company": {
+      "images": {
+        "modernFacility": {
+          "title": "[TRANSLATE] Modern Engineering Facility",
+          "description": "[TRANSLATE] Our state-of-the-art facility in Noida equipped with latest testing equipment"
+        },
+        "expertTeam": {
+          "title": "[TRANSLATE] Expert Engineering Team",
+          "description": "[TRANSLATE] Our skilled engineers working on industrial automation solutions"
+        },
+        "qualityLab": {
+          "title": "[TRANSLATE] Quality Control Laboratory",
+          "description": "[TRANSLATE] Advanced testing lab ensuring product quality and reliability"
+        },
+        "trainingCenter": {
+          "title": "[TRANSLATE] Training & Development Center",
+          "description": "[TRANSLATE] Continuous skill development for our technical team"
+        },
+        "supportCenter": {
+          "title": "[TRANSLATE] Customer Support Center",
+          "description": "[TRANSLATE] Dedicated 24/7 customer support and technical assistance"
+        },
+        "rdWing": {
+          "title": "[TRANSLATE] Research & Development Wing",
+          "description": "[TRANSLATE] Innovation hub for developing cutting-edge automation solutions"
+        }
       },
-      "processAutomation": {
-        "title": "工艺自动化实施",
-        "description": "化工厂完整SCADA系统部署"
-      },
-      "safetySystem": {
-        "title": "安全系统集成",
-        "description": "全面安全继电器和保护系统安装"
-      },
-      "solarPower": {
-        "title": "太阳能发电安装",
-        "description": "配备完整监控系统的10MW太阳能农场"
-      },
-      "instrumentation": {
-        "title": "仪表设置",
-        "description": "精密测量和校准设备安装"
-      },
-      "pumpStation": {
-        "title": "泵站自动化",
-        "description": "自动泵控制和监控系统"
+      "categories": {
+        "facility": "[TRANSLATE] Facility",
+        "team": "[TRANSLATE] Team",
+        "training": "[TRANSLATE] Training",
+        "support": "[TRANSLATE] Support",
+        "rd": "[TRANSLATE] R&D"
       }
     },
-    "stats": {
-      "projectsCompleted": "已完成项目"
+    "projects": {
+      "images": {
+        "controlPanel": {
+          "title": "[TRANSLATE] Industrial Control Panel Installation",
+          "description": "[TRANSLATE] Complete automation system implementation for manufacturing plant",
+          "client": "[TRANSLATE] Manufacturing Industry"
+        },
+        "solarPlant": {
+          "title": "[TRANSLATE] Solar Power Plant - 1MW",
+          "description": "[TRANSLATE] Grid-tied solar installation with monitoring systems",
+          "client": "[TRANSLATE] Industrial Complex"
+        },
+        "scadaSystem": {
+          "title": "[TRANSLATE] SCADA System Implementation",
+          "description": "[TRANSLATE] Centralized monitoring and control system for water treatment plant",
+          "client": "[TRANSLATE] Water Authority"
+        },
+        "instrumentation": {
+          "title": "[TRANSLATE] Process Instrumentation Upgrade",
+          "description": "[TRANSLATE] Complete instrumentation overhaul for chemical processing unit",
+          "client": "[TRANSLATE] Chemical Industry"
+        },
+        "plcProgramming": {
+          "title": "[TRANSLATE] PLC Programming & Integration",
+          "description": "[TRANSLATE] Advanced PLC systems for production line automation",
+          "client": "[TRANSLATE] Automotive Sector"
+        },
+        "electricalPanel": {
+          "title": "[TRANSLATE] Electrical Panel Modernization",
+          "description": "[TRANSLATE] Safety compliance and efficiency improvement project",
+          "client": "[TRANSLATE] Manufacturing Unit"
+        }
+      },
+      "categories": {
+        "automation": "[TRANSLATE] Automation",
+        "solarEpc": "[TRANSLATE] Solar EPC",
+        "scada": "[TRANSLATE] SCADA",
+        "instrumentation": "[TRANSLATE] Instrumentation",
+        "plcProgramming": "[TRANSLATE] PLC Programming",
+        "electrical": "[TRANSLATE] Electrical"
+      }
+    },
+    "products": {
+      "images": {
+        "controlSystems": {
+          "title": "[TRANSLATE] Advanced Control Systems",
+          "description": "[TRANSLATE] State-of-the-art automation and control solutions"
+        },
+        "electricalPanels": {
+          "title": "[TRANSLATE] Electrical Control Panels",
+          "description": "[TRANSLATE] Custom-designed panels for industrial applications"
+        },
+        "instrumentation": {
+          "title": "[TRANSLATE] Precision Instrumentation",
+          "description": "[TRANSLATE] High-quality measurement and control instruments"
+        },
+        "pumps": {
+          "title": "[TRANSLATE] Industrial Pumps & Motors",
+          "description": "[TRANSLATE] Reliable pump solutions for various applications"
+        },
+        "solarProducts": {
+          "title": "[TRANSLATE] Solar Power Solutions",
+          "description": "[TRANSLATE] Complete solar energy systems and components"
+        },
+        "safetyEquipment": {
+          "title": "[TRANSLATE] Safety & Protection",
+          "description": "[TRANSLATE] Industrial safety equipment and protective devices"
+        }
+      },
+      "categories": {
+        "controlSystems": "[TRANSLATE] Control Systems",
+        "electricalPanels": "[TRANSLATE] Electrical Panels",
+        "instrumentation": "[TRANSLATE] Instrumentation",
+        "pumps": "[TRANSLATE] Pumps & Motors",
+        "solar": "[TRANSLATE] Solar Products",
+        "safety": "[TRANSLATE] Safety Equipment"
+      }
+    },
+    "ui": {
+      "viewLarger": "[TRANSLATE] View Larger",
+      "downloadImage": "[TRANSLATE] Download Image",
+      "requestDownload": "[TRANSLATE] Request Download",
+      "needCustomPortfolio": "[TRANSLATE] Need Custom Portfolio?",
+      "contactUs": "[TRANSLATE] Contact us for a personalized project portfolio showcasing our work relevant to your industry.",
+      "imageNotFound": "[TRANSLATE] Image not found",
+      "noImagesFound": "[TRANSLATE] No images found for this category",
+      "allCategories": "[TRANSLATE] All Categories",
+      "year": "[TRANSLATE] Year",
+      "location": "[TRANSLATE] Location",
+      "client": "[TRANSLATE] Client",
+      "category": "[TRANSLATE] Category"
+    },
+    "sections": {
+      "company": {
+        "title": "[TRANSLATE] Our Company & Team",
+        "description": "[TRANSLATE] Meet our dedicated team and explore our modern facilities that enable us to deliver excellence in every project."
+      },
+      "projects": {
+        "title": "[TRANSLATE] Our Completed Projects",
+        "description": "[TRANSLATE] Explore our successful project implementations across various industries, showcasing our expertise and commitment to quality."
+      },
+      "products": {
+        "title": "[TRANSLATE] Our Products & Solutions",
+        "description": "[TRANSLATE] Discover our comprehensive range of industrial products and solutions from leading global manufacturers."
+      }
+    }
+  },
+  "contact": {
+    "hero": {
+      "title": "[TRANSLATE] Contact Our Engineering Experts",
+      "subtitle": "[TRANSLATE] Ready to start your next project? Our expert team is here to help you with customized engineering solutions and professional consultation.",
+      "benefits": {
+        "consultation": "[TRANSLATE] Free Consultation",
+        "support": "[TRANSLATE] 24/7 Emergency Support",
+        "experience": "[TRANSLATE] 15+ Years Experience"
+      }
+    },
+    "methods": {
+      "title": "[TRANSLATE] Multiple Ways to Reach Us",
+      "subtitle": "[TRANSLATE] Choose the communication method that works best for you. We're available 24/7 for emergency support."
+    },
+    "form": {
+      "title": "[TRANSLATE] Send Us a Message",
+      "subtitle": "[TRANSLATE] Get in touch with us for general inquiries, service information, or technical questions."
+    },
+    "contactMethods": {
+      "phone": {
+        "title": "[TRANSLATE] Call Us Directly",
+        "subtitle": "[TRANSLATE] Available 24/7 for support",
+        "description": "[TRANSLATE] Speak directly with our technical team"
+      },
+      "email": {
+        "title": "[TRANSLATE] Email Support",
+        "subtitle": "[TRANSLATE] Response within 24 hours",
+        "description": "[TRANSLATE] Send us detailed project requirements"
+      },
+      "whatsapp": {
+        "title": "[TRANSLATE] WhatsApp Support",
+        "subtitle": "[TRANSLATE] Quick response chat",
+        "description": "[TRANSLATE] Get instant answers to your questions"
+      },
+      "visit": {
+        "title": "[TRANSLATE] Visit Our Office",
+        "subtitle": "[TRANSLATE] By appointment only",
+        "description": "[TRANSLATE] Schedule a visit to our headquarters in Noida"
+      }
+    },
+    "map": {
+      "title": "[TRANSLATE] Powerton Engineering Office Location"
+    },
+    "office": {
+      "name": "[TRANSLATE] Corporate Headquarters",
+      "hours": "[TRANSLATE] Mon-Sat: 9:00 AM - 6:00 PM"
+    },
+    "services": {
+      "technical": {
+        "title": "[TRANSLATE] Technical Support",
+        "description": "[TRANSLATE] Expert technical assistance for all our products and services"
+      },
+      "customer": {
+        "title": "[TRANSLATE] Customer Success",
+        "description": "[TRANSLATE] Dedicated support to ensure your project success"
+      },
+      "onsite": {
+        "title": "[TRANSLATE] On-Site Support",
+        "description": "[TRANSLATE] Field engineering support at your location"
+      },
+      "remote": {
+        "title": "[TRANSLATE] Remote Support",
+        "description": "[TRANSLATE] Virtual assistance and remote system diagnostics"
+      }
+    },
+    "sections": {
+      "visitOffice": "[TRANSLATE] Visit Our Office",
+      "officeLocation": "[TRANSLATE] Office Location",
+      "supportServices": "[TRANSLATE] Support Services",
+      "businessHours": "[TRANSLATE] Business Hours & Availability",
+      "getDirections": "[TRANSLATE] Get Directions"
+    },
+    "formSection": {
+      "title": "[TRANSLATE] General Contact Form",
+      "description": "[TRANSLATE] For general inquiries, service information, or technical questions"
+    },
+    "businessHours": {
+      "regular": {
+        "title": "[TRANSLATE] Regular Hours",
+        "days": "[TRANSLATE] Monday - Saturday",
+        "time": "[TRANSLATE] 9:00 AM - 6:00 PM"
+      },
+      "emergency": {
+        "title": "[TRANSLATE] Emergency Support",
+        "availability": "[TRANSLATE] 24/7 Availability",
+        "days": "[TRANSLATE] All Days"
+      },
+      "email": {
+        "title": "[TRANSLATE] Email Response",
+        "time": "[TRANSLATE] Within 24 Hours",
+        "guarantee": "[TRANSLATE] Guaranteed"
+      }
+    },
+    "emergency": {
+      "title": "[TRANSLATE] Emergency Support",
+      "description": "[TRANSLATE] Critical system failure? Our emergency response team is available 24/7 to help minimize downtime.",
+      "hotline": "[TRANSLATE] Emergency Hotline"
+    }
+  },
+  "ui": {
+    "projectPortfolio": "[TRANSLATE] Project Portfolio",
+    "featuredProjects": "[TRANSLATE] Featured Projects"
+  },
+  "sitemap": {
+    "quickActions": {
+      "title": "[TRANSLATE] Need Help Finding Something?",
+      "description": "[TRANSLATE] Can't find what you're looking for? Contact us directly or use our intelligent chatbot available on every page.",
+      "contactUs": "[TRANSLATE] Contact Us",
+      "requestQuote": "[TRANSLATE] Request Quote"
+    }
+  },
+  "portfolio": {
+    "features": {
+      "completedProjects": "[TRANSLATE] Successfully completed projects across various industries",
+      "highQuality": "[TRANSLATE] High-Quality Documentation",
+      "highQualityDesc": "[TRANSLATE] Professional portfolio with detailed project imagery",
+      "verifiedResults": "[TRANSLATE] Verified Results",
+      "verifiedResultsDesc": "[TRANSLATE] Real projects with measurable outcomes and client testimonials"
     }
   }
 }

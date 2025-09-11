@@ -1,371 +1,520 @@
 {
   "home": {
-    "seo": {
-      "title": "Powerton Engineering - Uongozaji wa Viwanda na Paneli za Udhibiti | India",
-      "description": "Mtengenezaji mkuu wa paneli za udhibiti wa umeme, mifumo ya uongozaji wa viwanda na suluhisho la vifaa. Huduma za kihandisi za kitaalamu katika India yote na uzoefu wa zaidi ya miaka 15."
-    },
     "hero": {
       "title": {
-        "main": "Suluhisho Kamili za",
-        "highlight": "Mafanikio ya Viwanda"
+        "main": "[TRANSLATE] Comprehensive Solutions for",
+        "highlight": "[TRANSLATE] Industrial Success"
       },
-      "subtitle": "Kumbuka yetu kubwa ya bidhaa na huduma hutoa suluhisho kamili yanayoongoza mafanikio ya viwanda, kuhakikisha kuwa kila kipengele cha mahitaji yako ya kihandisi kinashughulikiwa.",
+      "subtitle": "[TRANSLATE] Our broad portfolio of products and services provides all-encompassing solutions that drive industrial success, ensuring that every aspect of your engineering needs is covered.",
       "buttons": {
-        "exploreServices": "Chunguza Huduma Zetu",
-        "requestConsultation": "Omba Ushauri"
+        "exploreServices": "[TRANSLATE] Explore Our Services",
+        "requestConsultation": "[TRANSLATE] Request Consultation"
       },
       "features": {
-        "experience": "15+ Miaka ya Uzoefu",
-        "support": "Msaada wa Kiufundi 24/7",
-        "service": "Huduma za Pan-India"
+        "experience": "[TRANSLATE] 15+ Years Experience",
+        "support": "[TRANSLATE] 24/7 Technical Support",
+        "service": "[TRANSLATE] Global Service Coverage"
       },
       "stats": {
-        "yearsExperience": "Miaka ya Uzoefu",
-        "projectsCompleted": "Miradi Iliyokamilika",
-        "happyClients": "Wateja Wenye Furaha",
-        "supportAvailable": "Msaada Unapatikana"
+        "yearsExperience": "[TRANSLATE] Years Experience",
+        "projectsCompleted": "[TRANSLATE] Projects Completed",
+        "happyClients": "[TRANSLATE] Happy Clients",
+        "supportAvailable": "[TRANSLATE] Support Available"
       }
     },
     "services": {
-      "label": "Huduma Zetu",
-      "title": "Suluhisho za kitaalamu kwa mahitaji yote, zinazotolewa kwa utunzaji wa kipekee",
-      "description": "Kutoka kwa otomatiki ya michakato hadi mikataba ya matengenezo, tunatoa suluhisho kamili za kihandisi zilizobinafsishwa kwa mahitaji yako ya viwanda."
+      "label": "[TRANSLATE] Our Services",
+      "title": "[TRANSLATE] Expert Solutions for All Requirements, Delivered with Exceptional Care",
+      "description": "[TRANSLATE] From process automation to maintenance contracts, we provide comprehensive engineering solutions tailored to meet your industrial requirements."
     },
     "products": {
-      "label": "Bidhaa Zetu",
-      "title": "Suluhisho za Vifaa vya Otomatiki ya Viwanda",
-      "description": "Safu kamili ya bidhaa za umeme na otomatiki zilizoundwa kwa kuaminika, ufanisi na utendaji bora katika mazingira ya viwanda.",
-      "viewProducts": "Ona Bidhaa",
-      "viewCatalog": "Ona Katalogi Kamili ya Bidhaa"
+      "label": "[TRANSLATE] Our Products",
+      "title": "[TRANSLATE] Industrial Automation Equipment Solutions",
+      "description": "[TRANSLATE] Comprehensive range of electrical and automation products designed for reliability, efficiency, and superior performance in industrial environments.",
+      "viewProducts": "[TRANSLATE] View Products",
+      "viewCatalog": "[TRANSLATE] View Complete Product Catalog"
+    },
+    "contact": {
+      "label": "[TRANSLATE] Contact Us",
+      "title": "[TRANSLATE] Let's Discuss Your Engineering Requirements",
+      "description": "[TRANSLATE] Ready to start your next project? Contact our expert team for customized solutions and professional consultation.",
+      "getInTouch": "[TRANSLATE] Get In Touch",
+      "methods": {
+        "phone": {
+          "title": "[TRANSLATE] Phone",
+          "description": "[TRANSLATE] Available 24/7 for emergency support"
+        },
+        "email": {
+          "title": "[TRANSLATE] Email",
+          "description": "[TRANSLATE] We'll respond within 24 hours"
+        },
+        "address": {
+          "title": "[TRANSLATE] Address",
+          "metro": "[TRANSLATE] Nearest Metro"
+        }
+      }
     },
     "about": {
-      "label": "Kutuhusu",
-      "title": "Karibu Powerton Engineering Pvt. Ltd.",
-      "description": "Mshirika wako wa kuaminika katika kutoa suluhisho za kihandisi za ubora wa juu na huduma. Ilianzishwa na maono ya kuwezesha viwanda kupitia uvumbuzi na ubora, tunahusika katika kutoa safu kamili ya bidhaa za umeme na vifaa.",
-      "visualHeading": "Uhandisi wa Kitaalamu",
-      "visualDescription": "Wahandisi wa kitaalamu wa Kiswahili wakifanya kazi kwenye otomatiki ya viwanda na mifumo ya udhibiti",
+      "label": "[TRANSLATE] About Us",
+      "title": "[TRANSLATE] Welcome to Powerton Engineering Pvt. Ltd.",
+      "description": "[TRANSLATE] Your trusted partner in delivering high-quality engineering solutions and services. Founded with a vision to empower industries through innovation and excellence, we specialize in providing a comprehensive range of electrical and instrumentation products.",
+      "visualHeading": "[TRANSLATE] Professional Engineering",
+      "visualDescription": "[TRANSLATE] Professional Indian engineers working on industrial automation and control systems",
       "features": {
         "electrical": {
-          "title": "Umeme na Vifaa",
-          "description": "Safu kamili ya mifumo ya udhibiti"
+          "title": "[TRANSLATE] Electrical & Instrumentation",
+          "description": "[TRANSLATE] Complete range of control systems"
         },
         "mechanical": {
-          "title": "Pampu za Kimakanika",
-          "description": "Suluhisho za pampu zenye uimara na vipuri"
+          "title": "[TRANSLATE] Mechanical Pumps",
+          "description": "[TRANSLATE] Durable pump solutions & spares"
         },
         "solar": {
-          "title": "Suluhisho za Jua",
-          "description": "Usakinishaji wa nishati endelevu"
+          "title": "[TRANSLATE] Solar Solutions",
+          "description": "[TRANSLATE] Sustainable energy installations"
         },
         "tools": {
-          "title": "Zana za Viwanda",
-          "description": "Vifaa vya kiwango cha kitaalamu"
+          "title": "[TRANSLATE] Industrial Tools",
+          "description": "[TRANSLATE] Professional grade equipment"
         }
       },
-      "button": "Jifunze Zaidi Kutuhusu"
+      "button": "[TRANSLATE] Learn More About Us"
     },
     "clients": {
-      "label": "Wateja Wetu",
-      "title": "Wanaaminiwa na Chapa na Mashirika ya Kiongozi",
-      "description": "Tumeshirikiana na viongozi wa tasnia katika sekta mbalimbali kutoa suluhisho za kihandisi za kipekee.",
-      "testimonialsTitle": "Wateja Wetu Wanasema Nini"
+      "label": "[TRANSLATE] Our Clients",
+      "title": "[TRANSLATE] Trusted By Leading Brands and Organizations",
+      "description": "[TRANSLATE] We've partnered with industry leaders across various sectors to deliver exceptional engineering solutions.",
+      "testimonialsTitle": "[TRANSLATE] What Our Clients Say"
     },
     "projects": {
-      "label": "Miradi Yetu",
-      "title": "Suluhisho za Kihandisi Zilizofanikishwa",
-      "description": "Chunguza mkusanyiko wetu wa miradi iliyokamilika inayoonyesha utaalamu wetu katika otomatiki ya viwanda na uhandisi wa umeme.",
-      "keyFeatures": "Vipengele Muhimu:",
-      "completed": "Imekamilika",
-      "viewDetails": "Ona Maelezo",
-      "viewAllProjects": "Ona Miradi Yote",
-      "downloadPortfolio": "Pakua Kumbukumbu"
-    },
-    "contact": {
-      "label": "Wasiliana Nasi",
-      "title": "Uko Tayari Kuanza Mradi Wako?",
-      "description": "Hebu tujadili jinsi utaalamu wetu wa kihandisi unavyoweza kukusaidia kufikia malengo yako ya otomatiki ya viwanda na mifumo ya udhibiti.",
-      "getInTouch": "Wasiliana Nasi",
-      "methods": {
-        "phone": {
-          "title": "Tupige Simu Leo",
-          "description": "Zungumza moja kwa moja na wataalam wetu wa kihandisi"
-        },
-        "email": {
-          "title": "Tutumie Barua Pepe",
-          "description": "Tutumie mahitaji ya mradi wako"
-        },
-        "address": {
-          "title": "Tembelea Ofisi Yetu",
-          "metro": "Metro ya Karibu Zaidi: Sehemu 15"
-        }
-      }
-    },
-    "about": {
-      "label": "Kuhusu Sisi",
-      "title": "Karibu Powerton Engineering Pvt. Ltd.",
-      "description": "Mshirika wako wa kuaminika katika kutoa suluhisho na huduma za kihandisi za ubora wa juu. Ilianzishwa kwa maono ya kuwezesha viwanda kupitia uvumbuzi na ubora, tunashughulikia kutoa safu kamili ya bidhaa za umeme na vifaa.",
-      "visualHeading": "Uhandisi wa Kitaalamu",
-      "visualDescription": "Wahandisi wa Kihindi wa kitaalamu wanaofanya kazi kwenye otomatiki ya viwanda na mifumo ya udhibiti",
-      "button": "Jifunze Zaidi Kuhusu Sisi",
-      "features": {
-        "electrical": {
-          "title": "Umeme na Vifaa",
-          "description": "Safu kamili ya mifumo ya udhibiti"
-        },
-        "mechanical": {
-          "title": "Pampu za Mitambo",
-          "description": "Suluhisho za pampu za kudumu na vipuri"
-        },
-        "solar": {
-          "title": "Suluhisho za Jua",
-          "description": "Miundombinu ya nishati endelevu"
-        },
-        "tools": {
-          "title": "Vifaa vya Viwanda",
-          "description": "Vifaa vya kiwango cha kitaalamu"
-        }
-      }
-    },
-    "contact": {
-      "label": "Wasiliana Nasi",
-      "title": "Hebu Tuzungumze Kuhusu Mahitaji Yako ya Kihandisi",
-      "description": "Uko tayari kuanza mradi wako unaofuata? Wasiliana na timu yetu ya wataalamu kwa suluhisho maalum na ushauri wa kitaalamu.",
-      "getInTouch": "Kuungana",
-      "methods": {
-        "phone": {
-          "title": "Simu",
-          "description": "Inapatikana 24/7 kwa msaada wa dharura"
-        },
-        "email": {
-          "title": "Barua pepe",
-          "description": "Tutajibu ndani ya masaa 24"
-        },
-        "address": {
-          "title": "Anwani",
-          "metro": "Metro ya Karibu Zaidi"
-        }
-      }
+      "label": "[TRANSLATE] Our Projects",
+      "title": "[TRANSLATE] Successfully Delivered Engineering Solutions",
+      "description": "[TRANSLATE] Explore our portfolio of completed projects showcasing our expertise in industrial automation and electrical engineering.",
+      "keyFeatures": "[TRANSLATE] Key Features:",
+      "completed": "[TRANSLATE] Completed",
+      "viewDetails": "[TRANSLATE] View Details",
+      "viewAllProjects": "[TRANSLATE] View All Projects",
+      "downloadPortfolio": "[TRANSLATE] Download Portfolio"
     }
   },
   "products": {
-    "seo": {
-      "title": "Orodha ya Bidhaa za Viwanda - Uongozaji na Vifaa vya Umeme | Powerton Engineering",
-      "description": "Orodha kamili ya bidhaa za uongozaji wa viwanda, vipengele vya umeme, vifaa, mifumo ya jua, pampu na vifaa. Vifaa vya ubora kwa matumizi ya viwanda."
+    "badges": {
+      "handTools": "[TRANSLATE] Hand Tools",
+      "powerTools": "[TRANSLATE] Power Tools",
+      "liftingEquipment": "[TRANSLATE] Lifting Equipment",
+      "safetyGear": "[TRANSLATE] Safety Gear",
+      "touchscreen": "[TRANSLATE] Touchscreen",
+      "industrialGrade": "[TRANSLATE] Industrial Grade",
+      "realTimeDisplay": "[TRANSLATE] Real-time Display",
+      "multiProtocol": "[TRANSLATE] Multi-Protocol",
+      "heatingElements": "[TRANSLATE] Heating Elements",
+      "industrialOvens": "[TRANSLATE] Industrial Ovens",
+      "heatTracing": "[TRANSLATE] Heat Tracing",
+      "temperatureControl": "[TRANSLATE] Temperature Control",
+      "precisionTools": "[TRANSLATE] Precision Tools",
+      "durableConstruction": "[TRANSLATE] Durable Construction",
+      "ergonomicDesign": "[TRANSLATE] Ergonomic Design",
+      "professionalGrade": "[TRANSLATE] Professional Grade"
+    },
+    "sections": {
+      "hmiSolutions": "[TRANSLATE] HMI Solutions",
+      "heatingSolutions": "[TRANSLATE] Heating Solutions",
+      "handToolCategories": "[TRANSLATE] Hand Tool Categories",
+      "diaphragmPumpTypes": "[TRANSLATE] Diaphragm Pump Types",
+      "calibrationSolutions": "[TRANSLATE] Calibration Solutions",
+      "industrialProducts": "[TRANSLATE] Industrial Products"
+    },
+    "cta": {
+      "needHmiSolutions": "[TRANSLATE] Need HMI Solutions?",
+      "hmiDescription": "[TRANSLATE] Our HMI specialists can design intuitive operator interfaces for your automation systems.",
+      "contactHmiExperts": "[TRANSLATE] Contact HMI Experts",
+      "requestQuote": "[TRANSLATE] Request Quote",
+      "needHeatingolutions": "[TRANSLATE] Need Industrial Heating Solutions?",
+      "heatingDescription": "[TRANSLATE] Our heating specialists can design custom heating systems for your industrial processes.",
+      "contactHeatingExperts": "[TRANSLATE] Contact Heating Experts",
+      "needDiaphragmPumps": "[TRANSLATE] Need Diaphragm Pump Solutions?",
+      "diaphragmDescription": "[TRANSLATE] Our pump engineers can help you select the right diaphragm pump for your chemical handling needs.",
+      "contactPumpExperts": "[TRANSLATE] Contact Pump Experts",
+      "needCalibration": "[TRANSLATE] Need Calibration Services?",
+      "calibrationDescription": "[TRANSLATE] Our calibration experts ensure your instruments meet the highest precision standards.",
+      "contactCalibrationExperts": "[TRANSLATE] Contact Calibration Experts"
     }
   },
   "services": {
-    "seo": {
-      "title": "Huduma za Uhandisi wa Kitaalamu - Usakinishaji, Matengenezo na Uongozaji | Powerton Engineering",
-      "description": "Huduma za uhandisi wa kitaalamu: uprogramu wa PLC, mifumo ya SCADA, uongozaji wa viwanda, usakinishaji wa paneli za umeme, matengenezo, ukalibrasheni, suluhisho maalum na huduma za EPC za jua katika India yote."
-    },
     "hero": {
-      "title": "Huduma za Uhandisi wa Kitaalamu",
-      "subtitle": "Suluhisho kamili za uongozaji wa viwanda, uhandisi wa umeme na mitambo iliyoundwa kuongeza utendaji wako na kuendeleza mafanikio ya biashara."
-    },
-    "whyChoose": {
-      "title": "Kwa Nini Uchague Powerton Engineering?"
-    },
-    "benefits": {
-      "expertTeam": {
-        "title": "Timu ya Wataalamu",
-        "description": "Wataalamu wenye vyeti na uzoefu mkubwa wa sekta"
-      },
-      "rapidResponse": {
-        "title": "Mjibu wa Haraka",
-        "description": "Wastani wa muda wa kujibu ni masaa 2 kwa maombi yote ya msaada"
-      },
-      "qualityAssured": {
-        "title": "Ubora Uliohakikishwa",
-        "description": "Michakato iliyoidhinishwa na ISO na viwango vya ubora vilivyohakikishwa"
-      },
-      "clientFocused": {
-        "title": "Kulenga Wateja",
-        "description": "Suluhisho maalum zilizobinafsishwa kulingana na mahitaji yako maalum"
-      }
-    },
-    "cta": {
-      "title": "Uko Tayari Kuanza?",
-      "description": "Wasiliana nasi leo kujadili mahitaji ya mradi wako na kupata suluhisho maalum."
+      "title": "[TRANSLATE] Professional Engineering Services",
+      "subtitle": "[TRANSLATE] Comprehensive solutions for all your industrial automation and electrical engineering needs"
     }
   },
   "notFound": {
     "seo": {
-      "title": "Ukurasa Haujapatikana (404) - Powerton Engineering",
-      "description": "Ukurasa unaoutafuta haupo. Rudi kwenye ukurasa mkuu wa Powerton Engineering au chunguza huduma na bidhaa zetu za uongozaji wa viwanda."
+      "title": "[TRANSLATE] Page Not Found (404) - Powerton Engineering",
+      "description": "[TRANSLATE] The page you're looking for doesn't exist. Return to Powerton Engineering homepage or explore our industrial automation services and products."
     },
-    "title": "404",
-    "heading": "Ukurasa Haujapatikana",
-    "message": "Samahani, ukurasa unaoutafuta haupo. Labda umehamishwa, kufutwa au umeingiza URL isiyo sahihi.",
-    "buttons": {
-      "homepage": "Rudi Nyumbani",
-      "support": "Wasiliana na Msaada"
-    },
-    "quickLinks": "Viungo vya Haraka",
-    "links": {
-      "products": "Bidhaa",
-      "services": "Huduma",
-      "projects": "Miradi",
-      "about": "Kuhusu"
-    }
+    "title": "[TRANSLATE] 404"
   },
   "projects": {
-    "title": "Miradi Yetu",
-    "subtitle": "Ubora wa Otomatiki ya Viwanda",
-    "showing": "Kuonyesha {{count}} ya {{total}} miradi",
-    "hero": {
-      "title": "Miradi Yetu",
-      "subtitle": "Gundua ubora wetu wa uhandisi kupitia miradi zaidi ya 1200 iliyofanikiwa katika viwanda mbalimbali, ikishawishi uvumbuzi, ubora na utegemezi."
+    "tabs": {
+      "portfolio": "[TRANSLATE] Project Portfolio",
+      "showcase": "[TRANSLATE] Featured Projects"
     }
   },
   "ui": {
-    "projectPortfolio": "Kumbuka za Miradi",
-    "featuredProjects": "Miradi Iliyoangaziwa"
+    "projectPortfolio": "Portfolio ya Miradi",
+    "featuredProjects": "Miradi Zilizooneshwa"
   },
   "gallery": {
-    "title": "Onyesho la Miradi",
-    "subtitle": "Mfano wa Ubora Wetu wa Uhandisi"
-  },
-  "about": {
-    "title": "Kuhusu Powerton Engineering",
-    "subtitle": "Kiongozi katika Otomatiki ya Viwanda na Masuluhisho ya Uhandisi"
-  },
-  "services": {
-    "title": "Huduma Zetu",
-    "subtitle": "Huduma za uhandisi za kitaalamu"
-  },
-  "contact": {
-    "title": "Wasiliana Nasi",
-    "subtitle": "Hebu tuzungumze kuhusu mahitaji yako ya uhandisi"
-  },
-  "home": {
     "hero": {
-      "title": {
-        "main": "Masuluhisho ya Kina kwa",
-        "highlight": "Mafanikio ya Viwanda"
+      "title": "[TRANSLATE] Our Gallery",
+      "subtitle": "[TRANSLATE] Discover our journey through images - from our dedicated team and modern facilities to successful projects and comprehensive product range."
+    },
+    "tabs": {
+      "company": "[TRANSLATE] Company & Team",
+      "projects": "[TRANSLATE] Projects",
+      "products": "[TRANSLATE] Products"
+    },
+    "company": {
+      "images": {
+        "modernFacility": {
+          "title": "[TRANSLATE] Modern Engineering Facility",
+          "description": "[TRANSLATE] Our state-of-the-art facility in Noida equipped with latest testing equipment"
+        },
+        "expertTeam": {
+          "title": "[TRANSLATE] Expert Engineering Team",
+          "description": "[TRANSLATE] Our skilled engineers working on industrial automation solutions"
+        },
+        "qualityLab": {
+          "title": "[TRANSLATE] Quality Control Laboratory",
+          "description": "[TRANSLATE] Advanced testing lab ensuring product quality and reliability"
+        },
+        "trainingCenter": {
+          "title": "[TRANSLATE] Training & Development Center",
+          "description": "[TRANSLATE] Continuous skill development for our technical team"
+        },
+        "supportCenter": {
+          "title": "[TRANSLATE] Customer Support Center",
+          "description": "[TRANSLATE] Dedicated 24/7 customer support and technical assistance"
+        },
+        "rdWing": {
+          "title": "[TRANSLATE] Research & Development Wing",
+          "description": "[TRANSLATE] Innovation hub for developing cutting-edge automation solutions"
+        }
       },
-      "subtitle": "Mkusanyiko wetu wa bidhaa na huduma hutoa masuluhisho yote yanayohitajika ambayo husababisha mafanikio ya viwanda, yakihakikisha kwamba kila kipengele cha mahitaji yako ya uhandisi kimeshughulikiwa.",
-      "buttons": {
-        "exploreServices": "Chunguza Huduma Zetu",
-        "requestConsultation": "Omba Ushauri"
-      },
-      "features": {
-        "experience": "Miaka 15+ ya Uzoefu",
-        "support": "Msaada wa Kiufundi 24/7",
-        "service": "Huduma ya Pan-India"
-      },
-      "stats": {
-        "yearsExperience": "Miaka ya Uzoefu",
-        "projectsCompleted": "Miradi Iliyokamilika",
-        "happyClients": "Wateja Wenye Furaha",
-        "supportAvailable": "Msaada Unapatikana"
+      "categories": {
+        "facility": "[TRANSLATE] Facility",
+        "team": "[TRANSLATE] Team",
+        "training": "[TRANSLATE] Training",
+        "support": "[TRANSLATE] Support",
+        "rd": "[TRANSLATE] R&D"
       }
-    },
-    "services": {
-      "label": "Huduma Zetu",
-      "title": "Masuluhisho ya kitaalamu kwa mahitaji yote, yanapeanwa kwa malezi ya kipekee",
-      "description": "Kutoka kwa utaratibu wa michakato hadi mikataba ya matengenezo, tunatoa masuluhisho kamili ya uhandisi yaliyoundwa kulingana na mahitaji yako ya viwanda."
-    },
-    "products": {
-      "label": "Bidhaa Zetu",
-      "title": "Masuluhisho ya Vifaa vya Otomatiki ya Viwanda",
-      "description": "Safu kamili ya bidhaa za umeme na otomatiki zilizoundwa kwa kuaminika, ufanisi na utendaji bora katika mazingira ya viwanda.",
-      "viewProducts": "Ona Bidhaa",
-      "viewCatalog": "Ona Katalogi Kamili ya Bidhaa"
     },
     "projects": {
-      "label": "Miradi Yetu",
-      "title": "Masuluhisho ya Uhandisi Yaliyotolewa kwa Mafanikio",
-      "description": "Chunguza mkusanyiko wetu wa miradi iliyokamilika inayoonyesha utaalamu wetu katika otomatiki ya viwanda na uhandisi wa umeme.",
-      "completed": "Imekamilika",
-      "keyFeatures": "Vipengele Muhimu:",
-      "viewDetails": "Ona Maelezo",
-      "viewAllProjects": "Ona Miradi Yote",
-      "downloadPortfolio": "Pakua Portfolio"
-    },
-    "clients": {
-      "label": "Wateja Wetu",
-      "title": "Wanaaminiwa na Chapa na Mashirika Makuu",
-      "description": "Tumeshirikiana na viongozi wa viwanda katika sekta mbalimbali ili kutoa masuluhisho ya uhandisi ya kipekee.",
-      "testimonialsTitle": "Wateja Wetu Wanasema Nini"
-    },
-    "contact": {
-      "label": "Wasiliana Nasi",
-      "title": "Hebu Tuzungumze kuhusu Mahitaji Yako ya Uhandisi",
-      "description": "Tayari kuanza mradi wako unaofuata? Wasiliana na timu yetu ya wataalamu kwa masuluhisho maalum na ushauri wa kitaalamu.",
-      "getInTouch": "Kuwa Mawasiliano",
-      "methods": {
-        "phone": {
-          "title": "Simu",
-          "description": "Inapatikana 24/7 kwa msaada wa dharura"
+      "images": {
+        "controlPanel": {
+          "title": "[TRANSLATE] Industrial Control Panel Installation",
+          "description": "[TRANSLATE] Complete automation system implementation for manufacturing plant",
+          "client": "[TRANSLATE] Manufacturing Industry"
         },
-        "email": {
-          "title": "Barua pepe",
-          "description": "Tutajibu ndani ya masaa 24"
+        "solarPlant": {
+          "title": "[TRANSLATE] Solar Power Plant - 1MW",
+          "description": "[TRANSLATE] Grid-tied solar installation with monitoring systems",
+          "client": "[TRANSLATE] Industrial Complex"
         },
-        "address": {
-          "title": "Anwani",
-          "metro": "Metro ya Karibu"
+        "scadaSystem": {
+          "title": "[TRANSLATE] SCADA System Implementation",
+          "description": "[TRANSLATE] Centralized monitoring and control system for water treatment plant",
+          "client": "[TRANSLATE] Water Authority"
+        },
+        "instrumentation": {
+          "title": "[TRANSLATE] Process Instrumentation Upgrade",
+          "description": "[TRANSLATE] Complete instrumentation overhaul for chemical processing unit",
+          "client": "[TRANSLATE] Chemical Industry"
+        },
+        "plcProgramming": {
+          "title": "[TRANSLATE] PLC Programming & Integration",
+          "description": "[TRANSLATE] Advanced PLC systems for production line automation",
+          "client": "[TRANSLATE] Automotive Sector"
+        },
+        "electricalPanel": {
+          "title": "[TRANSLATE] Electrical Panel Modernization",
+          "description": "[TRANSLATE] Safety compliance and efficiency improvement project",
+          "client": "[TRANSLATE] Manufacturing Unit"
         }
+      },
+      "categories": {
+        "automation": "[TRANSLATE] Automation",
+        "solarEpc": "[TRANSLATE] Solar EPC",
+        "scada": "[TRANSLATE] SCADA",
+        "instrumentation": "[TRANSLATE] Instrumentation",
+        "plcProgramming": "[TRANSLATE] PLC Programming",
+        "electrical": "[TRANSLATE] Electrical"
       }
     },
-    "seo": {
-      "title": "Powerton Engineering - Otomatiki ya Viwanda na Mipangilio ya Kudhibiti | India",
-      "description": "Mtengenezaji mkuu wa mipangilio ya kudhibiti ya umeme, mifumo ya otomatiki ya viwanda na masuluhisho ya vifaa. Huduma za uhandisi wa kitaalamu duniani kote na uzoefu wa miaka 15+.",
-      "keywords": "mipangilio ya kudhibiti ya umeme, otomatiki ya viwanda, otomatiki ya michakato, vifaa, kituo cha kudhibiti cha nguvu, kituo cha kudhibiti cha mota, uhandisi wa umeme, India, Noida"
+    "products": {
+      "images": {
+        "controlSystems": {
+          "title": "[TRANSLATE] Advanced Control Systems",
+          "description": "[TRANSLATE] State-of-the-art automation and control solutions"
+        },
+        "electricalPanels": {
+          "title": "[TRANSLATE] Electrical Control Panels",
+          "description": "[TRANSLATE] Custom-designed panels for industrial applications"
+        },
+        "instrumentation": {
+          "title": "[TRANSLATE] Precision Instrumentation",
+          "description": "[TRANSLATE] High-quality measurement and control instruments"
+        },
+        "pumps": {
+          "title": "[TRANSLATE] Industrial Pumps & Motors",
+          "description": "[TRANSLATE] Reliable pump solutions for various applications"
+        },
+        "solarProducts": {
+          "title": "[TRANSLATE] Solar Power Solutions",
+          "description": "[TRANSLATE] Complete solar energy systems and components"
+        },
+        "safetyEquipment": {
+          "title": "[TRANSLATE] Safety & Protection",
+          "description": "[TRANSLATE] Industrial safety equipment and protective devices"
+        }
+      },
+      "categories": {
+        "controlSystems": "[TRANSLATE] Control Systems",
+        "electricalPanels": "[TRANSLATE] Electrical Panels",
+        "instrumentation": "[TRANSLATE] Instrumentation",
+        "pumps": "[TRANSLATE] Pumps & Motors",
+        "solar": "[TRANSLATE] Solar Products",
+        "safety": "[TRANSLATE] Safety Equipment"
+      }
+    },
+    "ui": {
+      "viewLarger": "[TRANSLATE] View Larger",
+      "downloadImage": "[TRANSLATE] Download Image",
+      "requestDownload": "[TRANSLATE] Request Download",
+      "needCustomPortfolio": "[TRANSLATE] Need Custom Portfolio?",
+      "contactUs": "[TRANSLATE] Contact us for a personalized project portfolio showcasing our work relevant to your industry.",
+      "imageNotFound": "[TRANSLATE] Image not found",
+      "noImagesFound": "[TRANSLATE] No images found for this category",
+      "allCategories": "[TRANSLATE] All Categories",
+      "year": "[TRANSLATE] Year",
+      "location": "[TRANSLATE] Location",
+      "client": "[TRANSLATE] Client",
+      "category": "[TRANSLATE] Category"
+    },
+    "sections": {
+      "company": {
+        "title": "[TRANSLATE] Our Company & Team",
+        "description": "[TRANSLATE] Meet our dedicated team and explore our modern facilities that enable us to deliver excellence in every project."
+      },
+      "projects": {
+        "title": "[TRANSLATE] Our Completed Projects",
+        "description": "[TRANSLATE] Explore our successful project implementations across various industries, showcasing our expertise and commitment to quality."
+      },
+      "products": {
+        "title": "[TRANSLATE] Our Products & Solutions",
+        "description": "[TRANSLATE] Discover our comprehensive range of industrial products and solutions from leading global manufacturers."
+      }
+    }
+  },
+  "about": {
+    "hero": {
+      "title": "[TRANSLATE] About Powerton Engineering",
+      "subtitle": "[TRANSLATE] Your trusted partner in delivering high-quality engineering solutions and services for over 15 years."
+    },
+    "story": {
+      "title": "[TRANSLATE] Our Journey & Vision",
+      "description1": "[TRANSLATE] Founded with a vision to empower industries through innovation and excellence, Powerton Engineering has grown to become a leading provider of electrical and instrumentation solutions worldwide.",
+      "description2": "[TRANSLATE] From our headquarters in Noida, we serve clients nationwide with comprehensive engineering solutions including process automation, instrumentation, solar installations, and maintenance services."
+    },
+    "values": {
+      "quality": {
+        "title": "[TRANSLATE] Quality Excellence",
+        "description": "[TRANSLATE] We are committed to delivering the highest quality products and services that exceed industry standards."
+      },
+      "customer": {
+        "title": "[TRANSLATE] Customer Focus",
+        "description": "[TRANSLATE] Our clients are at the heart of everything we do. We work closely to understand and exceed their expectations."
+      },
+      "innovation": {
+        "title": "[TRANSLATE] Technical Innovation",
+        "description": "[TRANSLATE] We continuously invest in latest technologies and innovative solutions to stay ahead of industry trends."
+      },
+      "reliability": {
+        "title": "[TRANSLATE] Reliability",
+        "description": "[TRANSLATE] Our proven track record of on-time delivery and dependable service makes us a trusted partner."
+      }
+    },
+    "stats": {
+      "engineers": "[TRANSLATE] Expert Engineers",
+      "staff": "[TRANSLATE] Technical Staff",
+      "experience": "[TRANSLATE] Years Average Experience",
+      "support": "[TRANSLATE] Support Coverage"
+    }
+  },
+  "contact": {
+    "hero": {
+      "title": "[TRANSLATE] Contact Our Engineering Experts",
+      "subtitle": "[TRANSLATE] Ready to start your next project? Our expert team is here to help you with customized engineering solutions and professional consultation.",
+      "benefits": {
+        "consultation": "[TRANSLATE] Free Consultation",
+        "support": "[TRANSLATE] 24/7 Emergency Support",
+        "experience": "[TRANSLATE] 15+ Years Experience"
+      }
+    },
+    "methods": {
+      "title": "[TRANSLATE] Multiple Ways to Reach Us",
+      "subtitle": "[TRANSLATE] Choose the communication method that works best for you. We're available 24/7 for emergency support."
+    },
+    "form": {
+      "title": "[TRANSLATE] Send Us a Message",
+      "subtitle": "[TRANSLATE] Get in touch with us for general inquiries, service information, or technical questions."
+    },
+    "contactMethods": {
+      "phone": {
+        "title": "[TRANSLATE] Call Us Directly",
+        "subtitle": "[TRANSLATE] Available 24/7 for support",
+        "description": "[TRANSLATE] Speak directly with our technical team"
+      },
+      "email": {
+        "title": "[TRANSLATE] Email Support",
+        "subtitle": "[TRANSLATE] Response within 24 hours",
+        "description": "[TRANSLATE] Send us detailed project requirements"
+      },
+      "whatsapp": {
+        "title": "[TRANSLATE] WhatsApp Support",
+        "subtitle": "[TRANSLATE] Quick response chat",
+        "description": "[TRANSLATE] Get instant answers to your questions"
+      },
+      "visit": {
+        "title": "[TRANSLATE] Visit Our Office",
+        "subtitle": "[TRANSLATE] By appointment only",
+        "description": "[TRANSLATE] Schedule a visit to our headquarters in Noida"
+      }
+    },
+    "map": {
+      "title": "[TRANSLATE] Powerton Engineering Office Location"
+    },
+    "office": {
+      "name": "[TRANSLATE] Corporate Headquarters",
+      "hours": "[TRANSLATE] Mon-Sat: 9:00 AM - 6:00 PM"
+    },
+    "services": {
+      "technical": {
+        "title": "[TRANSLATE] Technical Support",
+        "description": "[TRANSLATE] Expert technical assistance for all our products and services"
+      },
+      "customer": {
+        "title": "[TRANSLATE] Customer Success",
+        "description": "[TRANSLATE] Dedicated support to ensure your project success"
+      },
+      "onsite": {
+        "title": "[TRANSLATE] On-Site Support",
+        "description": "[TRANSLATE] Field engineering support at your location"
+      },
+      "remote": {
+        "title": "[TRANSLATE] Remote Support",
+        "description": "[TRANSLATE] Virtual assistance and remote system diagnostics"
+      }
+    },
+    "sections": {
+      "visitOffice": "[TRANSLATE] Visit Our Office",
+      "officeLocation": "[TRANSLATE] Office Location",
+      "supportServices": "[TRANSLATE] Support Services",
+      "businessHours": "[TRANSLATE] Business Hours & Availability",
+      "getDirections": "[TRANSLATE] Get Directions"
+    },
+    "formSection": {
+      "title": "[TRANSLATE] General Contact Form",
+      "description": "[TRANSLATE] For general inquiries, service information, or technical questions"
+    },
+    "businessHours": {
+      "regular": {
+        "title": "[TRANSLATE] Regular Hours",
+        "days": "[TRANSLATE] Monday - Saturday",
+        "time": "[TRANSLATE] 9:00 AM - 6:00 PM"
+      },
+      "emergency": {
+        "title": "[TRANSLATE] Emergency Support",
+        "availability": "[TRANSLATE] 24/7 Availability",
+        "days": "[TRANSLATE] All Days"
+      },
+      "email": {
+        "title": "[TRANSLATE] Email Response",
+        "time": "[TRANSLATE] Within 24 Hours",
+        "guarantee": "[TRANSLATE] Guaranteed"
+      }
+    },
+    "emergency": {
+      "title": "[TRANSLATE] Emergency Support",
+      "description": "[TRANSLATE] Critical system failure? Our emergency response team is available 24/7 to help minimize downtime.",
+      "hotline": "[TRANSLATE] Emergency Hotline"
     }
   },
   "news": {
-    "title": "Habari",
-    "subtitle": "Masasisho",
-    "badges": {
-      "awardWinning": "Mshindi wa Tuzo",
-      "growingStrong": "Ukuaji Mkuu",
-      "futureReady": "Tayari kwa Baadaye"
+    "hero": {
+      "title": "[TRANSLATE] News & Updates",
+      "subtitle": "[TRANSLATE] Latest Industry Insights"
     },
-    "latestNews": {
-      "excellenceAward": {
-        "title": "Powerton Engineering Ipokea Tuzo ya Ubora katika Otomatiki ya Viwanda",
-        "excerpt": "Tuna furaha kutangaza kuwa Powerton Engineering imepewa tuzo ya 'Ubora katika Otomatiki ya Viwanda' kutoka Chama cha Wahandisi wa India kwa masuluhisho yetu ya uvumbuzi katika otomatiki ya michakato.",
-        "category": "Tuzo"
+    "article": {
+      "backToNews": "[TRANSLATE] Back to News",
+      "share": "[TRANSLATE] Share",
+      "author": "[TRANSLATE] Powerton Engineering Team",
+      "categories": {
+        "projectSuccess": "[TRANSLATE] Project Success",
+        "technology": "[TRANSLATE] Technology",
+        "industryNews": "[TRANSLATE] Industry News",
+        "companyUpdate": "[TRANSLATE] Company Update"
       },
-      "ntpcContract": {
-        "title": "Mkataba Mkuu wa Otomatiki ya Kiwanda cha Umeme Umetiwa saini na NTPC",
-        "excerpt": "Powerton Engineering imeingiza mkataba muhimu wa ₹5 crore na NTPC kwa otomatiki ya kiwanda chao kipya cha umeme wa joto Gujarat, kinatarajiwa kumalizika Q3 2025.",
-        "category": "Biashara"
+      "sampleArticle": {
+        "title": "[TRANSLATE] Powerton Engineering Completes Major Automation Project for Leading Manufacturing Plant",
+        "excerpt": "[TRANSLATE] Successfully implemented comprehensive industrial automation system reducing operational costs by 30% and improving efficiency by 45%.",
+        "content": {
+          "projectOverview": "[TRANSLATE] Project Overview",
+          "projectOverviewText": "[TRANSLATE] Powerton Engineering has successfully completed a comprehensive industrial automation project for one of India's leading manufacturing facilities. This project represents a significant milestone in our commitment to delivering cutting-edge automation solutions that drive operational excellence.",
+          "keyAchievements": "[TRANSLATE] Key Achievements",
+          "achievements": {
+            "costReduction": "[TRANSLATE] 30% reduction in operational costs",
+            "efficiency": "[TRANSLATE] 45% improvement in production efficiency",
+            "safety": "[TRANSLATE] Zero safety incidents during implementation",
+            "uptime": "[TRANSLATE] 100% system uptime since commissioning"
+          },
+          "technicalImplementation": "[TRANSLATE] Technical Implementation",
+          "technicalText": "[TRANSLATE] The project involved the integration of advanced PLC systems, SCADA implementation, and comprehensive instrumentation solutions. Our team worked closely with the client to ensure minimal disruption to ongoing operations while implementing state-of-the-art automation technology.",
+          "technologiesUsed": "[TRANSLATE] Technologies Used",
+          "technologies": {
+            "plc": "[TRANSLATE] Schneider Electric PLC Systems",
+            "scada": "[TRANSLATE] Advanced SCADA with real-time monitoring",
+            "iot": "[TRANSLATE] Industrial IoT sensors and connectivity",
+            "maintenance": "[TRANSLATE] Predictive maintenance systems",
+            "energy": "[TRANSLATE] Energy management and optimization"
+          },
+          "clientTestimonial": "[TRANSLATE] Client Testimonial",
+          "testimonialText": "[TRANSLATE] Powerton Engineering delivered beyond our expectations. The new automation system has transformed our operations, and we're seeing immediate benefits in efficiency and cost reduction. Their professional approach and technical expertise were exceptional.",
+          "futureCollaboration": "[TRANSLATE] Future Collaboration",
+          "futureText": "[TRANSLATE] Based on the success of this implementation, the client has already engaged Powerton Engineering for phase two of their automation journey, which will expand the system to additional production lines.",
+          "conclusionText": "[TRANSLATE] This project demonstrates our capability to handle complex industrial automation challenges and deliver measurable results that directly impact our clients' bottom line."
+        }
       },
-      "renewableExpansion": {
-        "title": "Upanuzi katika Masuluhisho ya Otomatiki ya Nishati Mbadala",
-        "excerpt": "Kama sehemu ya mpango wetu wa kimkakati wa ukuaji, tunapanua huduma zetu kujumuisha masuluhisho kamili ya otomatiki kwa miradi ya umeme wa jua na upepo, ikilenga sekta inayokua ya nishati mbadala ya India.",
-        "category": "Kampuni"
+      "cta": {
+        "title": "[TRANSLATE] Ready to Transform Your Operations?",
+        "description": "[TRANSLATE] Learn how Powerton Engineering can help you achieve similar results with our industrial automation solutions.",
+        "contactTeam": "[TRANSLATE] Contact Our Team",
+        "requestQuote": "[TRANSLATE] Request Project Quote"
+      },
+      "relatedArticles": {
+        "title": "[TRANSLATE] Related Articles",
+        "iotTrends": {
+          "title": "[TRANSLATE] Latest Trends in Industrial IoT Implementation",
+          "excerpt": "[TRANSLATE] Exploring how Industrial Internet of Things is revolutionizing manufacturing processes..."
+        },
+        "energyManagement": {
+          "title": "[TRANSLATE] Energy Management System Reduces Costs by 40%",
+          "excerpt": "[TRANSLATE] Case study: How our energy management solution delivered exceptional savings..."
+        },
+        "readMore": "[TRANSLATE] Read More →"
       }
-    },
-    "achievements": {
-      "title": "Mafanikio ya Hivi Karibuni",
-      "list": [
-        "Tuzo ya Ubora katika Otomatiki ya Viwanda - Chama cha Wahandisi wa India",
-        "Mtoa Huduma Bora wa Uhandisi - Tuzo za Automation World 2024",
-        "Tuzo ya Uongozaji wa Nishati Safi - Utambulisho wa MNRE",
-        "Uvumbuzi katika Udhibiti wa Michakato - Tuzo za IET India",
-        "Tuzo ya Ubora wa Wateja - Chama cha Otomatiki ya Viwanda"
-      ]
     }
   },
   "backToProducts": "Rudi kwa Bidhaa",
-  "notFound": {
-    "heading": "Ukurasa Haujapatikana",
-    "message": "Ukurasa unaotafuta haupo. Unaweza kuwa umehamishwa, kufutwa au umeingiza URL isiyo sahihi.",
-    "quickLinks": "Viungo vya haraka kwa sehemu maarufu:",
-    "buttons": {
-      "homepage": "Rudi Nyumbani",
-      "support": "Wasiliana na Msaada"
-    },
-    "links": {
-      "products": "Bidhaa",
-      "services": "Huduma",
-      "projects": "Miradi",
-      "about": "Kuhusu sisi"
-    }
-  },
   "portfolioDownload": {
     "seo": {
       "title": "Pakua Portfolio - Powerton Engineering",
@@ -440,115 +589,9 @@
     }
   },
   "quote": {
-    "seo": {
-      "title": "Omba Nukuu - Powerton Engineering | Masuluhisho Maalum ya Otomatiki ya Viwanda",
-      "description": "Pata nukuu ya kina kwa mradi wako wa otomatiki ya viwanda kutoka Powerton Engineering. Ushauri wa bure na majibu ndani ya masaa 24-48."
-    },
-    "hero": {
-      "title": "Nukuu ya Uhandisi",
-      "subtitle": "Pata ushauri wa uhandisi wa kitaalamu na makadirio ya gharama",
-      "benefits": {
-        "consultation": "Ushauri wa Bure",
-        "estimates": "Makadirio ya Gharama ya Papo Hapo",
-        "response": "Majibu ya Masaa 24-48",
-        "noCosts": "Hakuna Gharama za Kufichwa"
-      }
-    },
-    "method": {
-      "title": "Chagua Njia Yako ya Nukuu",
-      "description": "Pata makadirio ya gharama ya papo hapo na kikokotozi chetu cha gharama au omba nukuu ya kina maalum kutoka timu yetu ya uhandisi.",
-      "calculator": "Kikokotozi cha Gharama",
-      "request": "Omba Nukuu"
-    },
-    "calculator": {
-      "title": "Kikokotozi cha Gharama cha Hali ya Juu",
-      "description": "Tunaweka mageuzi ya mwisho kwenye chombo chetu cha busara cha makadirio ya gharama. Kipengele hiki kitatoa bei za papo hapo na sahihi kwa miradi yako ya otomatiki.",
-      "launchingSoon": "Kinazinduliwa Hivi Karibuni",
-      "useQuoteForm": "Kwa nukuu za papo hapo, tafadhali tumia fomu yetu ya kina ya nukuu",
-      "getQuoteNow": "Pata Nukuu Sasa",
-      "projectTitle": "Kikokotozi cha Gharama ya Mradi",
-      "stepOf": "Hatua {{current}} ya {{total}}"
-    },
-    "benefits": {
-      "assessment": {
-        "title": "Tathmini ya Kina",
-        "description": "Tathmini kamili ya mradi na vipimo vya kiufundi"
-      },
-      "response": {
-        "title": "Majibu ya Haraka",
-        "description": "Pata nukuu yako ya kina ndani ya masaa 24-48"
-      },
-      "consultation": {
-        "title": "Ushauri wa Mtaalamu",
-        "description": "Ushauri wa kiufundi wa bure na timu yetu ya uhandisi"
-      },
-      "solutions": {
-        "title": "Masuluhisho Maalum",
-        "description": "Masuluhisho ya uhandisi yanayobinafsishwa kwa mahitaji yako mahususi"
-      }
-    },
-    "process": {
-      "title": "Mchakato Wetu wa Nukuu",
-      "description": "Kutoka ombi la kwanza hadi nukuu ya kina, tunahakikisha mchakato laini na uwazi.",
-      "submit": {
-        "title": "Wasilisha Ombi",
-        "description": "Jaza fomu yetu kamili ya nukuu au tumia kikokotozi chetu cha gharama"
-      },
-      "review": {
-        "title": "Mapitio ya Kiufundi",
-        "description": "Timu yetu ya uhandisi inachambua mahitaji yako na vipimo"
-      },
-      "assessment": {
-        "title": "Tathmini ya Tovuti",
-        "description": "Tembeleo la hiari la tovuti kwa miradi ngumu (ikiwa ni muhimu)"
-      },
-      "quote": {
-        "title": "Nukuu ya Kina",
-        "description": "Pata bei kamili na muda wa ukamilishaji na matokeo"
-      }
-    },
-    "cta": {
-      "title": "Tayari Kuanza?",
-      "description": "Wasiliana nasi leo kwa suluhisho lako maalum la uhandisi. Timu yetu iko tayari kusaidia kuleta mradi wako katika maisha."
-    }
-  },
-  "contact": {
-    "title": "Wasiliana Nasi",
-    "subtitle": "Hebu tuzungumze kuhusu mahitaji yako ya uhandisi",
-    "seo": {
-      "title": "Wasiliana Nasi - Powerton Engineering | Huduma za Uhandisi wa Viwanda",
-      "description": "Wasiliana na Powerton Engineering kwa mahitaji ya uhandisi wa viwanda. Ushauri wa bure, mafunzo na masuluhisho maalum. Piga simu +91-94627-71662 au tumia barua pepe info@powertonengineering.com."
-    }
-  },
-  "services": {
-    "title": "Huduma Zetu",
-    "subtitle": "Huduma za uhandisi za kitaalamu"
-  },
-  "about": {
-    "title": "Kuhusu Powerton Engineering",
-    "subtitle": "Kiongozi katika Otomatiki ya Viwanda na Masuluhisho ya Uhandisi"
-  },
-  "gallery": {
-    "title": "Picha za Miradi",
-    "subtitle": "Onyesho la Ubora wetu wa Uhandisi"
-  },
-  "projects": {
-    "title": "Miradi Yetu",
-    "subtitle": "Ubora katika Otomatiki ya Viwanda",
-    "showing": "Kuonyesha {{count}} kutoka {{total}} miradi",
-    "hero": {
-      "title": "Miradi Yetu",
-      "subtitle": "Gundua ubora wetu wa uhandisi kupitia miradi zaidi ya 1200 iliyofaulu katika tasnia mbalimbali, inayonyesha uvumbuzi, ubora na kuaminika."
-    }
-  },
-  "ui": {
-    "projectPortfolio": "Portfolio ya Miradi",
-    "featuredProjects": "Miradi Zilizooneshwa"
-  },
-  "quote": {
     "projectSizes": {
       "small": "Ndogo (Vidakuzi 1-10 vya I/O)",
-      "medium": "Kati (Vidakuzi 11-100 vya I/O)", 
+      "medium": "Kati (Vidakuzi 11-100 vya I/O)",
       "large": "Kubwa (Vidakuzi 101-500 vya I/O)",
       "enterprise": "Kibilafu (Vidakuzi 500+ vya I/O)"
     },
@@ -560,7 +603,7 @@
     },
     "requirements": {
       "plcProgramming": "Uprogramu wa PLC",
-      "scadaDevelopment": "Maendeleo ya SCADA", 
+      "scadaDevelopment": "Maendeleo ya SCADA",
       "hmiDesign": "Muundo wa HMI",
       "networkIntegration": "Muunganiko wa Mtandao",
       "safetySystems": "Mifumo ya Usalama",
@@ -573,7 +616,7 @@
       "cybersecurity": "Usalama wa Mtandao wa Hali ya Juu",
       "iotIntegration": "Muunganiko wa IoT",
       "aiMl": "Uchambuzi wa AI/ML",
-      "predictiveMaintenance": "Matengenezo ya Utabiri", 
+      "predictiveMaintenance": "Matengenezo ya Utabiri",
       "energyManagement": "Usimamizi wa Nishati",
       "cloudIntegration": "Muunganiko wa Wingu",
       "trainingSupport": "Mafunzo na Msaada Ulioongezwa"
@@ -597,11 +640,21 @@
       "manufacturingAutomation": "Otomatiki ya Utengenezaji"
     }
   },
-  "home": {
-    "seo": {
-      "title": "Powerton Engineering - Otomatiki ya Viwanda na Paneli za Udhibiti | Afrika",
-      "description": "Mtengenezaji mkuu wa paneli za udhibiti wa umeme, mifumo ya otomatiki ya viwanda na suluhisho za vifaa. Huduma za uhandisi mtaalamu na uzoefu wa zaidi ya miaka 15.",
-      "keywords": "paneli za udhibiti wa umeme, otomatiki ya viwanda, otomatiki ya michakato, vifaa vya kipimo, kituo cha udhibiti wa nguvu, kituo cha udhibiti wa injini, uhandisi wa umeme, Afrika, otomatiki"
+  "sitemap": {
+    "quickActions": {
+      "title": "[TRANSLATE] Need Help Finding Something?",
+      "description": "[TRANSLATE] Can't find what you're looking for? Contact us directly or use our intelligent chatbot available on every page.",
+      "contactUs": "[TRANSLATE] Contact Us",
+      "requestQuote": "[TRANSLATE] Request Quote"
+    }
+  },
+  "portfolio": {
+    "features": {
+      "completedProjects": "[TRANSLATE] Successfully completed projects across various industries",
+      "highQuality": "[TRANSLATE] High-Quality Documentation",
+      "highQualityDesc": "[TRANSLATE] Professional portfolio with detailed project imagery",
+      "verifiedResults": "[TRANSLATE] Verified Results",
+      "verifiedResultsDesc": "[TRANSLATE] Real projects with measurable outcomes and client testimonials"
     }
   }
 }

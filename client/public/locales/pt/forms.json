@@ -49,134 +49,62 @@
     }
   },
   "quote": {
-    "projectTypes": {
-      "newInstallation": "Nova Instalação",
-      "systemUpgrade": "Atualização do Sistema",
-      "retrofit": "Modernização",
-      "maintenance": "Contrato de Manutenção",
-      "consultation": "Consultoria Técnica",
-      "design": "Projeto e Engenharia"
-    },
-    "timelines": {
-      "immediate": "Imediato (< 1 mês)",
-      "1-3-months": "1-3 meses",
-      "3-6-months": "3-6 meses",
-      "6-12-months": "6-12 meses",
-      "1-year-plus": "Mais de 1 ano"
-    },
-    "budgetRanges": {
-      "under-1-lakh": "Abaixo de ₹1 Lakh",
-      "1-5-lakh": "₹1-5 Lakhs",
-      "5-10-lakh": "₹5-10 Lakhs",
-      "10-25-lakh": "₹10-25 Lakhs",
-      "25-50-lakh": "₹25-50 Lakhs",
-      "50-lakh-plus": "₹50 Lakhs+",
-      "discuss": "Prefere discutir"
-    },
     "validation": {
-      "nameMin": "O nome deve ter pelo menos 2 caracteres",
-      "emailInvalid": "Por favor, digite um endereço de e-mail válido",
-      "phoneMin": "Por favor, digite um número de telefone válido",
-      "companyRequired": "Nome da empresa é obrigatório",
-      "projectTitleRequired": "Título do projeto é obrigatório",
-      "projectTypeRequired": "Por favor, selecione um tipo de projeto",
-      "timelineRequired": "Por favor, selecione o cronograma esperado",
-      "servicesRequired": "Por favor, selecione pelo menos um serviço",
-      "specificationsMin": "Por favor, forneça especificações detalhadas (mínimo 20 caracteres)"
-    },
-    "success": {
-      "title": "Solicitação de orçamento enviada com sucesso!",
-      "description": "Nossa equipe de engenharia revisará seus requisitos e responderá dentro de 24-48 horas."
-    },
-    "placeholders": {
-      "selectIndustry": "Selecionar indústria",
-      "selectProjectScale": "Selecionar escala do projeto",
-      "selectBudget": "Selecionar faixa orçamentária (opcional)",
-      "detailedRequirements": "Por favor, forneça especificações detalhadas incluindo:\n- Requisitos e padrões técnicos\n- Especificações e quantidades de equipamentos\n- Requisitos de desempenho\n- Condições ambientais\n- Requisitos de conformidade\n- Qualquer consideração especial...",
-      "additionalRequirements": "Quaisquer requisitos adicionais, condições especiais ou perguntas...",
-      "preferredBrands": "ex. Siemens, Allen-Bradley, Schneider..."
-    },
-    "labels": {
-      "industryType": "Tipo de Indústria",
-      "projectScale": "Escala do Projeto",
-      "approximateBudget": "Orçamento Aproximado",
-      "detailedRequirements": "Requisitos Detalhados *",
-      "preferredBrands": "Marcas/Padrões Preferidos",
-      "additionalRequirements": "Requisitos Adicionais",
-      "projectTitle": "Título do Projeto *",
-      "projectType": "Tipo de Projeto *",
-      "expectedTimeline": "Cronograma Esperado *",
-      "phoneNumber": "Número de Telefone *",
-      "companyName": "Nome da Empresa *",
-      "projectInformation": "Informações do Projeto",
-      "budgetRange": "Faixa Orçamentária"
+      "nameRequired": "[TRANSLATE] Name is required",
+      "phoneRequired": "[TRANSLATE] Phone number is required",
+      "subjectRequired": "[TRANSLATE] Subject is required",
+      "messageRequired": "[TRANSLATE] Message is required",
+      "firstNameRequired": "[TRANSLATE] First name is required",
+      "lastNameRequired": "[TRANSLATE] Last name is required",
+      "invalidEmail": "[TRANSLATE] Invalid email address",
+      "selectService": "[TRANSLATE] Please select a service",
+      "projectDetailsRequired": "[TRANSLATE] Project details are required"
     },
     "sections": {
-      "requiredServices": "Serviços Necessários *"
+      "contactInfo": "[TRANSLATE] Contact Information"
     },
-    "submitting": "Enviando Solicitação de Orçamento...",
-    "buttons": {
-      "getProfessionalQuote": "Obter Orçamento Profissional"
-    },
-    "fields": {
-      "designation": {
-        "label": "Designação"
-      },
-      "additionalRequirements": {
-        "label": "Requisitos Adicionais"
-      }
-    },
-    "industries": {
-      "manufacturing": "Manufatura",
-      "powerGeneration": "Geração de Energia",
-      "waterTreatment": "Tratamento de Água",
-      "foodProcessing": "Processamento de Alimentos",
-      "pharmaceutical": "Farmacêutico",
-      "chemical": "Químico",
-      "renewableEnergy": "Energia Renovável",
-      "infrastructure": "Infraestrutura",
-      "other": "Outro"
+    "error": {
+      "title": "[TRANSLATE] Quote submission failed",
+      "description": "[TRANSLATE] For immediate assistance: {{phone}} or email: {{email}}"
     }
   },
   "career": {
-    "validation": {
-      "nameMin": "O nome deve ter pelo menos 2 caracteres",
-      "emailInvalid": "Por favor, insira um endereço de e-mail válido",
-      "phoneMin": "O número de telefone deve ter pelo menos 10 dígitos",
-      "specializationRequired": "Por favor, selecione sua especialização em engenharia",
-      "experienceRequired": "Por favor, selecione seu nível de experiência",
-      "educationRequired": "Por favor, forneça os detalhes de sua educação",
-      "joiningTimeRequired": "Por favor, especifique quão rapidamente você pode se juntar",
-      "skillsMin": "Por favor, forneça detalhes sobre suas habilidades",
-      "coverLetterMin": "Por favor, escreva uma breve carta de apresentação (mínimo 20 caracteres)",
-      "addressMin": "Por favor, forneça seu endereço completo"
+    "placeholders": {
+      "fullName": "[TRANSLATE] Enter your full name",
+      "email": "[TRANSLATE] your.email@example.com",
+      "phone": "[TRANSLATE] +91 9876543210",
+      "address": "[TRANSLATE] Enter your complete address (House/Flat No., Street, City, State, PIN)",
+      "currentCompany": "[TRANSLATE] Your current company (optional)",
+      "education": "[TRANSLATE] e.g., B.Tech Electrical Engineering",
+      "expectedSalary": "[TRANSLATE] e.g., 5-8 LPA or Negotiable",
+      "skills": "[TRANSLATE] List your technical skills, software knowledge, programming languages, certifications, etc.",
+      "coverLetter": "[TRANSLATE] Tell us about your motivation, career goals, and how you can contribute to our team...",
+      "selectSpecialization": "[TRANSLATE] Select your area of expertise",
+      "selectExperience": "[TRANSLATE] Select experience level",
+      "selectAvailability": "[TRANSLATE] Select your availability"
     },
-    "specializations": {
-      "electricalEngineering": "Engenharia Elétrica",
-      "automationControl": "Sistemas de Automação e Controle",
-      "instrumentation": "Engenharia de Instrumentação",
-      "projectManagement": "Gestão de Projetos",
-      "technicalSales": "Vendas Técnicas",
-      "fieldService": "Serviço de Campo e Comissionamento",
-      "designEngineering": "Projeto e Desenvolvimento",
-      "solarRenewable": "Energia Solar e Renovável",
-      "other": "Outra Especialização"
+    "labels": {
+      "title": "[TRANSLATE] Join Our Engineering Team",
+      "subtitle": "[TRANSLATE] Submit your application and become part of our innovative engineering solutions team",
+      "personalInfo": "[TRANSLATE] Personal Information",
+      "professionalInfo": "[TRANSLATE] Professional Information",
+      "fullName": "[TRANSLATE] Full Name",
+      "emailAddress": "[TRANSLATE] Email Address",
+      "phoneNumber": "[TRANSLATE] Phone Number",
+      "residingAddress": "[TRANSLATE] Current Residing Address",
+      "specialization": "[TRANSLATE] Engineering Specialization",
+      "experience": "[TRANSLATE] Experience Level",
+      "currentCompany": "[TRANSLATE] Current Company",
+      "availability": "[TRANSLATE] Availability/Notice Period",
+      "education": "[TRANSLATE] Education/Qualification",
+      "expectedSalary": "[TRANSLATE] Expected Salary",
+      "technicalSkills": "[TRANSLATE] Technical Skills & Expertise",
+      "coverLetter": "[TRANSLATE] Cover Letter & Motivation"
     },
-    "experience": {
-      "fresher": "Iniciante (0-1 anos)",
-      "oneToThree": "1-3 anos",
-      "threeToFive": "3-5 anos",
-      "fiveToEight": "5-8 anos",
-      "eightToTwelve": "8-12 anos",
-      "twelvePlus": "12+ anos"
-    },
-    "joiningTime": {
-      "immediate": "Pode se juntar imediatamente",
-      "fifteenDays": "Período de aviso de 15 dias",
-      "oneMonth": "Período de aviso de 1 mês",
-      "twoMonths": "Período de aviso de 2 meses",
-      "threeMonths": "Período de aviso de 3 meses",
-      "moreThanThree": "Aviso de mais de 3 meses"
+    "buttons": {
+      "submit": "[TRANSLATE] Submit Application",
+      "submitting": "[TRANSLATE] Submitting Application...",
+      "uploadResume": "[TRANSLATE] Upload Resume"
     }
   }
 }

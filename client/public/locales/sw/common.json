@@ -22,41 +22,32 @@
     "ha": "Hausa"
   },
   "navigation": {
-    "backToProducts": "Rudi kwa Bidhaa",
-    "backToInstrumentationComponents": "Rudi kwa Vipengele vya Mitambo",
-    "backToElectricalComponents": "Rudi kwa Vipengele vya Umeme",
-    "backToSolarProducts": "Rudi kwa Bidhaa za Jua",
-    "backToMechanicalPumps": "Rudi kwa Mapampu ya Mitambo na Vipuri",
-    "backToMeasurementInstruments": "Rudi kwa Vyombo vya Kipimo",
-    "backToSafetyDevices": "Rudi kwa Vifaa vya Usalama",
-    "backToIndustrialTools": "Rudi kwa Zana za Viwanda",
-    "backToAutomationSystems": "Rudi kwa Mifumo ya Utomati",
-    "backToBLDC": "Rudi kwa Bidhaa za BLDC"
+    "backToProducts": "[TRANSLATE] Back to Products",
+    "backToElectricalComponents": "[TRANSLATE] Back to Electrical Components",
+    "backToSolarProducts": "[TRANSLATE] Back to Solar Products",
+    "backToMechanicalPumps": "[TRANSLATE] Back to Mechanical Pumps & Spares",
+    "backToMeasurementInstruments": "[TRANSLATE] Back to Measurement Instruments",
+    "backToIndustrialTools": "[TRANSLATE] Back to Industrial Tools & Tackles",
+    "backToAutomationSystems": "[TRANSLATE] Back to Automation & Control Systems",
+    "backToBLDC": "[TRANSLATE] Back to BLDC Products"
   },
   "buttons": {
-    "learnMore": "Jifunze zaidi",
-    "getQuote": "Pata nukuu",
-    "contact": "Wasiliana nasi",
-    "contactUs": "Wasiliana nasi",
-    "viewAll": "Ona yote",
-    "readMore": "Soma zaidi",
-    "viewDetails": "Ona maelezo",
-    "download": "Pakua",
-    "downloadCatalog": "Pakua orodha",
-    "downloadBrochure": "Pakua kijitabu",
-    "downloadGuide": "Pakua mwongozo",
-    "downloadDatasheet": "Pakua ukurasa wa data",
-    "downloadPortfolio": "Pakua kazi",
-    "requestQuote": "Omba nukuu",
-    "showMore": "Onyesha zaidi",
-    "showFilters": "Onyesha vichungi",
-    "hideFilters": "Ficha vichungi",
-    "upload": "Pakia",
-    "expertTeam": "Timu ya wataalamu",
-    "successfulProjects": "Miradi iliyofanikiwa",
-    "qualityProducts": "Bidhaa za ubora",
-    "contactProtectionExperts": "Wasiliana na Wataalamu wa Ulinzi",
-    "contactSolarExperts": "Wasiliana na Wataalamu wa Nishati ya Jua"
+    "backTo": "[TRANSLATE] Back to {{category}}",
+    "backToBldcProducts": "[TRANSLATE] Back to BLDC Products",
+    "backToProducts": "[TRANSLATE] Back to Products",
+    "requestQuote": "[TRANSLATE] Request Quote",
+    "expertTeam": "[TRANSLATE] Expert Team",
+    "successfulProjects": "[TRANSLATE] Successful Projects",
+    "qualityProducts": "[TRANSLATE] Quality Products",
+    "sendMessage": "[TRANSLATE] Send Message",
+    "sending": "[TRANSLATE] Sending...",
+    "submit": "[TRANSLATE] Submit",
+    "viewProducts": "[TRANSLATE] View Products",
+    "viewServices": "[TRANSLATE] View Services",
+    "getInTouch": "[TRANSLATE] Get In Touch",
+    "exploreProducts": "[TRANSLATE] Explore Products",
+    "viewCatalog": "[TRANSLATE] View Catalog",
+    "quickQuote": "[TRANSLATE] Quick Quote"
   },
   "productSections": {
     "keyFeatures": "Vipengele Vikuu:",
@@ -75,17 +66,8 @@
   "error": "Kitu kimekwenda vibaya",
   "success": "Mafanikio!",
   "messages": {
-    "toggleTheme": "Badilisha mandhari",
-    "close": "Funga",
-    "imageNotFound": "Picha haijapatikana",
-    "loading": "Inapakia...",
-    "error": "Hitilafu imetokea",
-    "openMobileMenu": "Fungua menyu ya simu"
-  },
-  "navigation": {
-    "backToInstrumentationComponents": "Rudi kwa Vipengele vya Instrumentation",
-    "phoneNumbers": "Nambari za simu",
-    "backToSafetyDevices": "Rudi kwa Vifaa vya Usalama na Ulinzi"
+    "toggleTheme": "Badilisha Mandhari",
+    "close": "Funga"
   },
   "aria": {
     "toggleNavigation": "Geuza msaidizi wa uongozaji",
@@ -156,32 +138,32 @@
     "anand": {
       "name": "Anand Awasthi",
       "location": "Bengal ya Magharibi",
-      "comment": "Powerton Engineering ilifanya mchakato wa kupata nishati ya jua kuwa rahisi na urahisi. Timu yao ilishughulikia kila kitu kuanzia mwanzo hadi mwisho, na tunafurahi sana na matokeo."
+      "comment": "Powerton Engineering ilifanya mchakato wa kutumia nishati ya jua kuwa rahisi na nyepesi. Timu yao ilishughulikia kila kitu kutoka mwanzo hadi mwisho, na tunafurahi sana na matokeo."
     },
     "sanjay": {
       "name": "Sanjay Patil",
       "location": "Uttar Pradesh",
-      "comment": "Ninafurahi kuchagua Powerton Engineering kwa usakinishaji wetu, na singependa kusita kuwapendekeza kwa marafiki zangu yoyote."
+      "comment": "Nimefurahi kuchagua Powerton Engineering kwa usakinishaji wetu, na singependa kutoa shaka kuwapendelea kwa yeyote wa marafiki zangu."
     },
     "rhea": {
       "name": "Rhea Sharma",
       "location": "Maharashtra",
-      "comment": "Bidhaa za ubora bora na huduma ya kipekee ya wateja. Utaalamu wa kiufundi wa timu ni wa kuvutia na wa kitaalamu sana."
+      "comment": "Bidhaa za ubora wa hali ya juu na huduma ya wateja ya kipekee. Utaalamu wa kiufundi wa timu ni wa kuvutia na wa kitaaluma."
     },
     "priya": {
       "name": "Priya Mehta",
       "location": "Gujarat",
-      "comment": "Kufanya kazi na Powerton Engineering kulikuwa uzoefu wa ajabu. Suluhisho zao za otomatiki zilisonga mbele mchakato wetu wa utengenezaji na kuboresha ufanisi kwa asilimia 35. Inapendekezwa sana kwa miradi ya otomatiki ya viwandani."
+      "comment": "Kufanya kazi na Powerton Engineering kulikuwa uzoefu wa ajabu. Masuluhisho yao ya otomatiki yalibadilisha mchakato wetu wa utengenezaji na kuboresha ufanisi kwa asilimia 35. Inapendekezwa sana kwa miradi ya otomatiki ya viwandani."
     },
     "kavya": {
       "name": "Kavya Singh",
       "location": "Karnataka",
-      "comment": "Huduma ya kipekee na msaada wa kiufundi! Timu iliyotoa mwongozo wa kipekee wakati wa utekelezaji wa mradi wetu wa jua. Mbinu yao ya kitaalamu na utoaji wa kwa wakati ulizidi matarajio yetu kabisa."
+      "comment": "Huduma ya kipekee na msaada wa kiufundi! Timu ilitoa mwongozo wa kipekee wakati wa utekelezaji wa mradi wetu wa jua. Mbinu yao ya kitaaluma na utoaji wa wakati ulizidi matarajio yetu kabisa."
     },
     "rajesh": {
       "name": "Rajesh Kumar",
       "location": "Tamil Nadu",
-      "comment": "Powerton Engineering ilitoa hasa kile walichoahidi. Mfumo wa vifaa walikuwa wamesakinisha umekuwa ukifanya kazi bila dosari kwa zaidi ya miaka miwili. Msaada wao baada ya mauzo ni wa ajabu na daima wa kujibu."
+      "comment": "Powerton Engineering ilitoa haswa kile walichokuwa wameahidi. Mfumo wa ala za kipimo waliousakinisha umekuwa ukifanya kazi vizuri kwa zaidi ya miaka miwili. Msaada wao baada ya mauzo ni wa ajabu na daima wa kujibu."
     }
   },
   "technicalTerms": {
@@ -234,66 +216,30 @@
     }
   },
   "seo": {
-    "days": {
-      "monday": "Jumatatu",
-      "tuesday": "Jumanne",
-      "wednesday": "Jumatano",
-      "thursday": "Alhamisi",
-      "friday": "Ijumaa",
-      "saturday": "Jumamosi",
-      "sunday": "Jumapili"
+    "powerton": {
+      "name": "[TRANSLATE] Powerton Engineering Pvt. Ltd.",
+      "description": "[TRANSLATE] Leading industrial automation and electrical engineering company serving clients globally. Specializing in power plant automation, solar installations, and manufacturing control systems.",
+      "keywords": "[TRANSLATE] Industrial Automation, Electrical Engineering, Power Plant, Solar Energy, Manufacturing, Control Systems, Instrumentation, SCADA, PLC, Automation Solutions, Electrical Installation, Industrial Control Panels, Process Automation, Power Distribution, Motor Control Centers, Electrical Maintenance, Industrial Electrical Services, Automation Consulting, Electrical Design, Power Systems",
+      "author": "[TRANSLATE] Powerton Engineering Team"
     },
-    "schemaTypes": {
-      "breadcrumbList": "Orodha ya uongozaji",
-      "listItem": "Kipengee cha orodha",
-      "faqPage": "Ukurasa wa maswali yanayoulizwa mara kwa mara",
-      "question": "Swali",
-      "answer": "Jibu",
-      "itemList": "Orodha ya vipengee",
-      "service": "Huduma",
-      "localBusiness": "Biashara ya ndani",
-      "openingHours": "Ubainishi wa masaa ya ufunguzi"
+    "location": {
+      "name": "[TRANSLATE] Noida, Uttar Pradesh, India",
+      "region": "[TRANSLATE] Uttar Pradesh",
+      "country": "[TRANSLATE] India"
     }
   },
   "labels": {
-    "responseTime": "Muda wa majibu",
-    "availability": "Upatikanaji",
-    "coverage": "Ufikaji",
-    "technologies": "Teknolojia",
-    "parameters": "Vigezo",
-    "specifications": "Maelezo maalum",
-    "applications": "Matumizi",
-    "industries": "Viwanda",
-    "keyFeatures": "Vipengele muhimu",
-    "includes": "Inajumuisha",
-    "projectType": "Aina ya mradi",
-    "industry": "Uwanda",
-    "projectSize": "Ukubwa wa mradi",
-    "timeline": "Ratiba",
-    "location": "Mahali",
-    "budget": "Bajeti",
-    "requirements": "Mahitaji",
-    "category": "Jamii",
-    "status": "Hali",
-    "popular": "Maarufu",
-    "duration": "Muda",
-    "projectsCompleted": "Miradi Iliyokamilika",
-    "satisfiedClients": "Wateja Walioridhika",
-    "yearsExperience": "Miaka ya Uzoefu"
-  },
-  "buttons": {
-    "downloadPortfolio": "Pakua kazi",
-    "showFilters": "Onyesha vichungi",
-    "quickQuote": "Nukuu ya Haraka"
-  },
-  "messages": {
-    "serviceNotFound": "Huduma haikupatikana",
-    "readyToStart": "Uko tayari kuanza?",
-    "consultation": "Wasiliana nasi kwa mazungumzo ya kina na suluhisho maalum.",
-    "availability": "Jumatatu - Jumamosi, Msaada wa haraka unapatikana",
-    "coverage": "Huduma katika India yote",
-    "needHelp": "Unahitaji msaada kupata kitu?",
-    "cantFind": "Huwezi kupata unachokitafuta? Wasiliana nasi moja kwa moja au tumia chatbot yetu mahiri inayopatikana katika kila ukurasa."
+    "category": "[TRANSLATE] Category",
+    "status": "[TRANSLATE] Status",
+    "industry": "[TRANSLATE] Industry",
+    "projectType": "[TRANSLATE] Project Type",
+    "popular": "[TRANSLATE] Popular",
+    "duration": "[TRANSLATE] Duration",
+    "keyFeatures": "[TRANSLATE] Key Features",
+    "projectsCompleted": "[TRANSLATE] Projects Completed",
+    "satisfiedClients": "[TRANSLATE] Satisfied Clients",
+    "yearsExperience": "[TRANSLATE] Years Experience",
+    "responseTime": "[TRANSLATE] Response Time"
   },
   "placeholders": {
     "selectProjectType": "Chagua aina ya mradi",
@@ -317,7 +263,7 @@
     "briefProjectTitle": "Kichwa kifupi cha mradi wako"
   },
   "projectCategories": {
-    "Power Plant": "Kiwanda cha Umeme",
+    "Power Plant": "Kituo cha Umeme",
     "Manufacturing": "Utengenezaji",
     "Solar": "Jua",
     "Water Treatment": "Usafishaji wa Maji",
@@ -325,48 +271,52 @@
     "Power Systems": "Mifumo ya Umeme"
   },
   "projects": {
-    "industrial-automation-demo": {
-      "title": "Onyesho: Mfumo wa Otomatiki ya Viwandani",
-      "client": "Mteja wa Utengenezaji wa Baadaye",
-      "category": "Otomatiki ya Michakato",
-      "description": "Onyesho la uwezo kamili wa otomatiki ya utengenezaji ukijumuisha ujumuishaji wa PLC, mifumo ya SCADA na ufuatiliaji wa wakati halisi.",
-      "location": "Eneo la Mradi TBD",
-      "duration": "Miezi 12-18",
-      "budget": "₹50-75 Lakhs",
-      "status": "Onyesho la Uwezo",
-      "technologies": {
-        "plcProgramming": "Programu ya PLC",
-        "scada": "SCADA",
-        "hmi": "HMI",
-        "industrialIot": "IoT ya Viwandani"
-      },
+    "thermal-plant": {
+      "title": "[TRANSLATE] Thermal Power Plant Automation",
+      "description": "[TRANSLATE] Complete automation solution for 250MW thermal power plant including control panels, SCADA systems, and safety interlocks.",
+      "location": "[TRANSLATE] Uttar Pradesh",
+      "duration": "[TRANSLATE] 12 months",
       "highlights": {
-        "plcIntegration": "Ujumuishaji wa PLC",
-        "scadaSystems": "Mifumo ya SCADA",
-        "realtimeMonitoring": "Ufuatiliaji wa Wakati Halisi",
-        "processOptimization": "Kuboresha Michakato"
+        "scada": "[TRANSLATE] SCADA Implementation",
+        "safety": "[TRANSLATE] Safety Systems",
+        "control": "[TRANSLATE] Control Panels",
+        "monitoring": "[TRANSLATE] Performance Monitoring"
       }
     },
-    "power-distribution-demo": {
-      "title": "Mfano: Udhibiti wa Ugavi wa Umeme",
-      "client": "Mshirika wa Umeme wa Baadaye",
-      "category": "Mifumo ya Umeme",
-      "description": "Mfano wa mfumo wa ugavi wa umeme unaoonyesha usawazishaji otomatiki wa mizigo na uwezo wa ufuatiliaji wa mbali kwa vituo vya uzalishaji umeme.",
-      "location": "Maeneo Mbalimbali",
-      "duration": "Miezi 10-15",
-      "budget": "₹1-2 Crores",
-      "status": "Onyesho la Uwezo",
-      "technologies": {
-        "mccPanels": "Paneli za MCC",
-        "protectionSystems": "Mifumo ya Ulinzi",
-        "energyManagement": "Usimamizi wa Nishati",
-        "remoteMonitoring": "Ufuatiliaji wa Mbali"
-      },
+    "pharma-plant": {
+      "title": "[TRANSLATE] Pharmaceutical Plant Control System",
+      "description": "[TRANSLATE] Advanced process control and monitoring system for pharmaceutical manufacturing with FDA compliance and data integrity features.",
+      "location": "[TRANSLATE] Maharashtra",
+      "duration": "[TRANSLATE] 8 months",
       "highlights": {
-        "loadBalancing": "Usawazishaji wa Mizigo",
-        "protectionSystems": "Mifumo ya Ulinzi",
-        "energyManagement": "Usimamizi wa Nishati",
-        "remoteControl": "Udhibiti wa Mbali"
+        "fda": "[TRANSLATE] FDA Compliance",
+        "data": "[TRANSLATE] Data Integrity",
+        "process": "[TRANSLATE] Process Control",
+        "quality": "[TRANSLATE] Quality Monitoring"
+      }
+    },
+    "solar-plant": {
+      "title": "[TRANSLATE] 10MW Solar Power Installation",
+      "description": "[TRANSLATE] Complete design and installation of grid-connected solar power plant with monitoring systems and grid synchronization equipment.",
+      "location": "[TRANSLATE] Rajasthan",
+      "duration": "[TRANSLATE] 6 months",
+      "highlights": {
+        "grid": "[TRANSLATE] Grid Connection",
+        "monitoring": "[TRANSLATE] Monitoring Systems",
+        "optimization": "[TRANSLATE] Performance Optimization",
+        "maintenance": "[TRANSLATE] Maintenance Planning"
+      }
+    },
+    "water-treatment": {
+      "title": "[TRANSLATE] Municipal Water Treatment Automation",
+      "description": "[TRANSLATE] Automated control system for water treatment plant serving 500,000 residents with real-time monitoring and quality control.",
+      "location": "[TRANSLATE] West Bengal",
+      "duration": "[TRANSLATE] 10 months",
+      "highlights": {
+        "monitoring": "[TRANSLATE] Real-time Monitoring",
+        "quality": "[TRANSLATE] Quality Control",
+        "automation": "[TRANSLATE] Automated Operations",
+        "remote": "[TRANSLATE] Remote Management"
       }
     }
   },
@@ -376,25 +326,30 @@
     "requirementsFeatures": "Mahitaji na vipengele",
     "additionalInformation": "Maelezo ya ziada"
   },
-  "messages": {
-    "toggleTheme": "Badilisha Mandhari",
-    "close": "Funga"
-  },
   "products": {
     "sections": {
-      "industrialProducts": "Bidhaa za Viwandani"
+      "applications": "[TRANSLATE] {{product}} Applications",
+      "keyFeatures": "[TRANSLATE] Key Features:"
+    },
+    "badges": {
+      "highEfficiency": "[TRANSLATE] High Efficiency",
+      "variableSpeed": "[TRANSLATE] Variable Speed",
+      "lowNoise": "[TRANSLATE] Low Noise",
+      "smartControl": "[TRANSLATE] Smart Control",
+      "durable": "[TRANSLATE] Durable",
+      "energySaving": "[TRANSLATE] Energy Saving",
+      "reliable": "[TRANSLATE] Reliable",
+      "costEffective": "[TRANSLATE] Cost Effective"
     }
   },
   "altTexts": {
-    "companyLogo": "Nembo ya Powerton Engineering Pvt. Ltd.",
-    "contactCenterBackground": "Mazingira ya kituo cha mawasiliano na ofisi ya msaada kwa wateja kwa kampuni ya uhandisi",
-    "aboutCompanyFacility": "Kituo cha otomatiki ya viwandani cha Powerton Engineering chenye mifumo ya kisasa ya udhibiti",
-    "officeLocation": "Mahali pa ofisi ya Powerton Engineering"
+    "contactBackground": "[TRANSLATE] ID-834: Contact center and customer support office background for engineering company",
+    "aboutBackground": "[TRANSLATE] ID-004: Powerton Engineering industrial automation facility with modern control systems"
   },
   "sitemap": {
     "sections": {
       "mainPages": "Kurasa kuu",
-      "servicesProjects": "Huduma na miradi", 
+      "servicesProjects": "Huduma na miradi",
       "productCategories": "Makundi ya bidhaa",
       "resourcesTools": "Rasilimali na zana",
       "legalInformation": "Maelezo ya kisheria"
@@ -468,36 +423,6 @@
       "responseTime": "masaa 2"
     }
   },
-  "buttons": {
-    "getQuote": "Pata Nukuu",
-    "callNow": "Piga Simu Sasa",
-    "emailUs": "Tutumie Barua Pepe",
-    "learnMore": "Jifunze Zaidi",
-    "viewMore": "Ona Zaidi",
-    "viewAll": "Ona Yote",
-    "contactUs": "Wasiliana Nasi",
-    "getStarted": "Anza",
-    "downloadBrochure": "Pakua Kijitabu",
-    "downloadPortfolio": "Pakua Kumbukumbu",
-    "showFilters": "Onyesha Vichungi",
-    "readMore": "Soma Zaidi",
-    "downloadCatalog": "Pakua Orodha",
-    "viewDetails": "Ona Maelezo"
-  },
-  "labels": {
-    "businessHours": "Masaa ya Biashara",
-    "mondayToSaturday": "Jumatatu - Jumamosi",
-    "workingHours": "9:00 Asubuhi - 6:00 Jioni",
-    "sunday": "Jumapili",
-    "emergencySupport": "Msaada wa Haraka Pekee"
-  },
-  "altTexts": {
-    "companyLogo": "Nembo ya Powerton Engineering Pvt. Ltd."
-  },
-  "messages": {
-    "toggleTheme": "Badilisha Mandhari",
-    "close": "Funga"
-  },
   "clients": {
     "sci-group": "Shirika la Usafiri wa Bahari la India",
     "agribio": "AgriBio Ujerumani",
@@ -519,33 +444,6 @@
     "text": "© {{year}} Powerton Engineering Pvt. Ltd. Haki zote zimehifadhiwa.",
     "madeWith": "Imetengenezwa na 💙 na timu ya Powerton Engineering"
   },
-  "seo": {
-    "defaultTitle": "Powerton Engineering Pvt. Ltd. - Mapaneli ya udhibiti wa viwandani na masuluhisho ya otomatiki",
-    "defaultDescription": "Mtengenezaji mkuu wa mapaneli ya udhibiti wa umeme, mifumo ya otomatiki ya viwandani na masuluhisho ya ala za kipimo. Kuhudumia viwanda katika India yote kwa bidhaa na huduma za uhandisi za ubora.",
-    "defaultKeywords": "mapaneli ya udhibiti wa umeme, otomatiki ya viwandani, kituo cha udhibiti wa nguvu, kituo cha udhibiti wa injini, ala za kipimo, uhandisi wa umeme, India",
-    "companyName": "Powerton Engineering Pvt. Ltd.",
-    "companyDescription": "Mtengenezaji mkuu wa mapaneli ya udhibiti wa umeme na masuluhisho ya otomatiki ya viwandani",
-    "siteName": "Powerton Engineering",
-    "twitterHandle": "@powertoneng",
-    "businessAddress": {
-      "street": "Ghorofa ya 2, F-25, Kizuizi cha F, Sehemu ya 6",
-      "city": "Noida", 
-      "state": "Uttar Pradesh",
-      "postal": "201301",
-      "country": "India"
-    },
-    "contact": {
-      "phone": "+91-94627-71662",
-      "email": "info@powertonengineering.com"
-    },
-    "businessInfo": {
-      "industry": "Otomatiki ya viwandani, Uhandisi wa umeme, Ala za kipimo",
-      "category": "Huduma za uhandisi, Masuluhisho ya otomatiki, Mifumo ya umeme",
-      "targetAudience": "Wahandisi wa viwandani, Wakuu wa mazingira, Wataalamu wa otomatiki",
-      "companyType": "Mtoa masuluhisho ya uhandisi B2B",
-      "serviceArea": "India, Huduma ya India nzima"
-    }
-  },
   "tags": {
     "award": "Tuzo",
     "recognition": "Kutambuliwa",
@@ -565,44 +463,37 @@
     "quality": "Ubora",
     "certification": "Uthibitisho"
   },
-  "testimonials": {
-    "anand": {
-      "name": "Anand Awasthi",
-      "location": "Bengal ya Magharibi",
-      "comment": "Powerton Engineering ilifanya mchakato wa kutumia nishati ya jua kuwa rahisi na nyepesi. Timu yao ilishughulikia kila kitu kutoka mwanzo hadi mwisho, na tunafurahi sana na matokeo."
+  "cta": {
+    "getQuote": "[TRANSLATE] Get Quote",
+    "callNow": "[TRANSLATE] Call Now",
+    "emailUs": "[TRANSLATE] Email Us",
+    "learnMore": "[TRANSLATE] Learn More",
+    "viewMore": "[TRANSLATE] View More",
+    "contactUs": "[TRANSLATE] Contact Us",
+    "getStarted": "[TRANSLATE] Get Started",
+    "downloadBrochure": "[TRANSLATE] Download Brochure"
+  },
+  "quote": {
+    "projectTypes": {
+      "processAutomation": "[TRANSLATE] Process Automation",
+      "powerControlSystems": "[TRANSLATE] Power Control Systems",
+      "instrumentationControl": "[TRANSLATE] Instrumentation & Control",
+      "solarAutomation": "[TRANSLATE] Solar Automation",
+      "buildingAutomation": "[TRANSLATE] Building Automation",
+      "manufacturingAutomation": "[TRANSLATE] Manufacturing Automation"
     },
-    "sanjay": {
-      "name": "Sanjay Patil",
-      "location": "Uttar Pradesh",
-      "comment": "Nimefurahi kuchagua Powerton Engineering kwa usakinishaji wetu, na singependa kutoa shaka kuwapendelea kwa yeyote wa marafiki zangu."
-    },
-    "rhea": {
-      "name": "Rhea Sharma",
-      "location": "Maharashtra",
-      "comment": "Bidhaa za ubora wa hali ya juu na huduma ya wateja ya kipekee. Utaalamu wa kiufundi wa timu ni wa kuvutia na wa kitaaluma."
-    },
-    "priya": {
-      "name": "Priya Mehta",
-      "location": "Gujarat",
-      "comment": "Kufanya kazi na Powerton Engineering kulikuwa uzoefu wa ajabu. Masuluhisho yao ya otomatiki yalibadilisha mchakato wetu wa utengenezaji na kuboresha ufanisi kwa asilimia 35. Inapendekezwa sana kwa miradi ya otomatiki ya viwandani."
-    },
-    "kavya": {
-      "name": "Kavya Singh",
-      "location": "Karnataka",
-      "comment": "Huduma ya kipekee na msaada wa kiufundi! Timu ilitoa mwongozo wa kipekee wakati wa utekelezaji wa mradi wetu wa jua. Mbinu yao ya kitaaluma na utoaji wa wakati ulizidi matarajio yetu kabisa."
-    },
-    "rajesh": {
-      "name": "Rajesh Kumar",
-      "location": "Tamil Nadu",
-      "comment": "Powerton Engineering ilitoa haswa kile walichokuwa wameahidi. Mfumo wa ala za kipimo waliousakinisha umekuwa ukifanya kazi vizuri kwa zaidi ya miaka miwili. Msaada wao baada ya mauzo ni wa ajabu na daima wa kujibu."
+    "industries": {
+      "manufacturing": "[TRANSLATE] Manufacturing",
+      "powerGeneration": "[TRANSLATE] Power Generation",
+      "oilGas": "[TRANSLATE] Oil & Gas",
+      "chemicalProcessing": "[TRANSLATE] Chemical Processing",
+      "waterTreatment": "[TRANSLATE] Water Treatment",
+      "foodBeverage": "[TRANSLATE] Food & Beverage",
+      "pharmaceutical": "[TRANSLATE] Pharmaceutical",
+      "renewableEnergy": "[TRANSLATE] Renewable Energy"
     }
   },
-  "projectCategories": {
-    "Power Plant": "Kituo cha Umeme",
-    "Manufacturing": "Utengenezaji",
-    "Solar": "Jua",
-    "Water Treatment": "Usafishaji wa Maji",
-    "Process Automation": "Otomatiki ya Michakato",
-    "Power Systems": "Mifumo ya Umeme"
+  "common": {
+    "keyFeatures": "[TRANSLATE] Key Features"
   }
 }

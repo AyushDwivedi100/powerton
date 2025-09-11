@@ -49,102 +49,12 @@
     }
   },
   "quote": {
-    "projectTypes": {
-      "newInstallation": "Nueva Instalación",
-      "systemUpgrade": "Actualización del Sistema",
-      "retrofit": "Modernización",
-      "maintenance": "Contrato de Mantenimiento",
-      "consultation": "Consultoría Técnica",
-      "design": "Diseño e Ingeniería"
-    },
-    "timelines": {
-      "immediate": "Inmediato (< 1 mes)",
-      "1-3-months": "1-3 meses",
-      "3-6-months": "3-6 meses",
-      "6-12-months": "6-12 meses",
-      "1-year-plus": "Más de 1 año"
-    },
-    "budgetRanges": {
-      "under-1-lakh": "Menos de ₹1 Lakh",
-      "1-5-lakh": "₹1-5 Lakhs",
-      "5-10-lakh": "₹5-10 Lakhs",
-      "10-25-lakh": "₹10-25 Lakhs",
-      "25-50-lakh": "₹25-50 Lakhs",
-      "50-lakh-plus": "₹50 Lakhs+",
-      "discuss": "Prefiere discutir"
-    },
-    "validation": {
-      "nameMin": "El nombre debe tener al menos 2 caracteres",
-      "emailInvalid": "Por favor ingrese una dirección de correo válida",
-      "phoneMin": "Por favor ingrese un número de teléfono válido",
-      "companyRequired": "El nombre de la empresa es obligatorio",
-      "projectTitleRequired": "El título del proyecto es obligatorio",
-      "projectTypeRequired": "Por favor seleccione un tipo de proyecto",
-      "timelineRequired": "Por favor seleccione el cronograma esperado",
-      "servicesRequired": "Por favor seleccione al menos un servicio",
-      "specificationsMin": "Por favor proporcione especificaciones detalladas (mínimo 20 caracteres)",
-      "nameRequired": "El nombre es obligatorio",
-      "phoneRequired": "El número de teléfono es obligatorio",
-      "subjectRequired": "El asunto es obligatorio",
-      "messageRequired": "El mensaje es obligatorio",
-      "firstNameRequired": "El nombre es obligatorio",
-      "lastNameRequired": "El apellido es obligatorio",
-      "invalidEmail": "Dirección de correo inválida",
-      "selectService": "Por favor seleccione un servicio",
-      "projectDetailsRequired": "Los detalles del proyecto son obligatorios"
-    },
-    "success": {
-      "title": "¡Solicitud de cotización enviada exitosamente!",
-      "description": "Nuestro equipo de ingeniería revisará sus requisitos y responderá dentro de 24-48 horas."
-    },
-    "placeholders": {
-      "selectIndustry": "Seleccionar industria",
-      "selectProjectScale": "Seleccionar escala del proyecto",
-      "selectBudget": "Seleccionar rango de presupuesto (opcional)",
-      "detailedRequirements": "Por favor proporcione especificaciones detalladas incluyendo:\n- Requisitos técnicos y estándares\n- Especificaciones de equipos y cantidades\n- Requisitos de rendimiento\n- Condiciones ambientales\n- Requisitos de cumplimiento\n- Cualquier consideración especial...",
-      "additionalRequirements": "Cualquier requisito adicional, condiciones especiales o preguntas...",
-      "preferredBrands": "ej., Siemens, Allen-Bradley, Schneider..."
-    },
-    "labels": {
-      "industryType": "Tipo de Industria",
-      "projectScale": "Escala del Proyecto",
-      "approximateBudget": "Presupuesto Aproximado",
-      "detailedRequirements": "Requisitos Detallados *",
-      "preferredBrands": "Marcas/Estándares Preferidos",
-      "additionalRequirements": "Requisitos Adicionales",
-      "projectTitle": "Título del Proyecto *",
-      "projectType": "Tipo de Proyecto *",
-      "expectedTimeline": "Cronograma Esperado *",
-      "phoneNumber": "Número de Teléfono *",
-      "companyName": "Nombre de la Empresa *",
-      "projectInformation": "Información del Proyecto",
-      "budgetRange": "Rango de Presupuesto"
-    },
     "sections": {
-      "requiredServices": "Servicios Requeridos *"
+      "contactInfo": "[TRANSLATE] Contact Information"
     },
-    "submitting": "Enviando Solicitud de Cotización...",
-    "buttons": {
-      "getProfessionalQuote": "Obtener Cotización Profesional"
-    },
-    "fields": {
-      "designation": {
-        "label": "Designación"
-      },
-      "additionalRequirements": {
-        "label": "Requisitos Adicionales"
-      }
-    },
-    "industries": {
-      "manufacturing": "Manufactura",
-      "powerGeneration": "Generación de Energía",
-      "waterTreatment": "Tratamiento de Agua",
-      "foodProcessing": "Procesamiento de Alimentos",
-      "pharmaceutical": "Farmacéutico",
-      "chemical": "Químico",
-      "renewableEnergy": "Energía Renovable",
-      "infrastructure": "Infraestructura",
-      "other": "Otro"
+    "error": {
+      "title": "[TRANSLATE] Quote submission failed",
+      "description": "[TRANSLATE] For immediate assistance: {{phone}} or email: {{email}}"
     }
   },
   "career": {

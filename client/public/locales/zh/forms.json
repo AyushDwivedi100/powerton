@@ -153,44 +153,42 @@
     }
   },
   "career": {
-    "validation": {
-      "nameMin": "姓名至少需要2个字符",
-      "emailInvalid": "请输入有效的电子邮件地址",
-      "phoneMin": "电话号码至少需要10位数字",
-      "specializationRequired": "请选择您的工程专业",
-      "experienceRequired": "请选择您的经验水平",
-      "educationRequired": "请提供您的教育详情",
-      "joiningTimeRequired": "请说明您多快可以入职",
-      "skillsMin": "请提供您的技能详情",
-      "coverLetterMin": "请写一份简短的求职信（至少20个字符）",
-      "addressMin": "请提供您的完整地址"
+    "placeholders": {
+      "fullName": "[TRANSLATE] Enter your full name",
+      "email": "[TRANSLATE] your.email@example.com",
+      "phone": "[TRANSLATE] +91 9876543210",
+      "address": "[TRANSLATE] Enter your complete address (House/Flat No., Street, City, State, PIN)",
+      "currentCompany": "[TRANSLATE] Your current company (optional)",
+      "education": "[TRANSLATE] e.g., B.Tech Electrical Engineering",
+      "expectedSalary": "[TRANSLATE] e.g., 5-8 LPA or Negotiable",
+      "skills": "[TRANSLATE] List your technical skills, software knowledge, programming languages, certifications, etc.",
+      "coverLetter": "[TRANSLATE] Tell us about your motivation, career goals, and how you can contribute to our team...",
+      "selectSpecialization": "[TRANSLATE] Select your area of expertise",
+      "selectExperience": "[TRANSLATE] Select experience level",
+      "selectAvailability": "[TRANSLATE] Select your availability"
     },
-    "specializations": {
-      "electricalEngineering": "电气工程",
-      "automationControl": "自动化与控制系统",
-      "instrumentation": "仪表工程",
-      "projectManagement": "项目管理",
-      "technicalSales": "技术销售",
-      "fieldService": "现场服务与调试",
-      "designEngineering": "设计与开发",
-      "solarRenewable": "太阳能与可再生能源",
-      "other": "其他专业"
+    "labels": {
+      "title": "[TRANSLATE] Join Our Engineering Team",
+      "subtitle": "[TRANSLATE] Submit your application and become part of our innovative engineering solutions team",
+      "personalInfo": "[TRANSLATE] Personal Information",
+      "professionalInfo": "[TRANSLATE] Professional Information",
+      "fullName": "[TRANSLATE] Full Name",
+      "emailAddress": "[TRANSLATE] Email Address",
+      "phoneNumber": "[TRANSLATE] Phone Number",
+      "residingAddress": "[TRANSLATE] Current Residing Address",
+      "specialization": "[TRANSLATE] Engineering Specialization",
+      "experience": "[TRANSLATE] Experience Level",
+      "currentCompany": "[TRANSLATE] Current Company",
+      "availability": "[TRANSLATE] Availability/Notice Period",
+      "education": "[TRANSLATE] Education/Qualification",
+      "expectedSalary": "[TRANSLATE] Expected Salary",
+      "technicalSkills": "[TRANSLATE] Technical Skills & Expertise",
+      "coverLetter": "[TRANSLATE] Cover Letter & Motivation"
     },
-    "experience": {
-      "fresher": "应届生（0-1年）",
-      "oneToThree": "1-3年",
-      "threeToFive": "3-5年",
-      "fiveToEight": "5-8年",
-      "eightToTwelve": "8-12年",
-      "twelvePlus": "12年以上"
-    },
-    "joiningTime": {
-      "immediate": "可以立即入职",
-      "fifteenDays": "15天通知期",
-      "oneMonth": "1个月通知期",
-      "twoMonths": "2个月通知期",
-      "threeMonths": "3个月通知期",
-      "moreThanThree": "超过3个月通知期"
+    "buttons": {
+      "submit": "[TRANSLATE] Submit Application",
+      "submitting": "[TRANSLATE] Submitting Application...",
+      "uploadResume": "[TRANSLATE] Upload Resume"
     }
   }
 }

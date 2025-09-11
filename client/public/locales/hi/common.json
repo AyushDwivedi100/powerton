@@ -35,30 +35,33 @@
     "phoneNumbers": "फ़ोन नंबर"
   },
   "buttons": {
-    "getQuote": "कोटेशन प्राप्त करें",
-    "contactUs": "संपर्क करें",
-    "learnMore": "और जानें",
-    "viewAll": "सभी देखें",
-    "readMore": "और पढ़ें",
-    "downloadBrochure": "ब्रोशर डाउनलोड करें",
-    "requestDemo": "डेमो का अनुरोध करें",
-    "getTechnicalSupport": "तकनीकी सहायता प्राप्त करें",
-    "exploreProducts": "उत्पादों का अन्वेषण करें",
-    "viewServices": "सेवाएं देखें",
-    "contactProtectionExperts": "सुरक्षा विशेषज्ञों से संपर्क करें",
-    "contactSolarExperts": "सौर विशेषज्ञों से संपर्क करें",
-    "requestQuote": "कोटेशन का अनुरोध करें"
+    "callNow": "[TRANSLATE] Call Now",
+    "emailUs": "[TRANSLATE] Email Us",
+    "viewMore": "[TRANSLATE] View More",
+    "getStarted": "[TRANSLATE] Get Started",
+    "downloadBrochure": "[TRANSLATE] Download Brochure",
+    "readMore": "[TRANSLATE] Read More",
+    "downloadCatalog": "[TRANSLATE] Download Catalog",
+    "viewDetails": "[TRANSLATE] View Details",
+    "backTo": "[TRANSLATE] Back to {{category}}",
+    "backToBldcProducts": "[TRANSLATE] Back to BLDC Products",
+    "sendMessage": "[TRANSLATE] Send Message",
+    "sending": "[TRANSLATE] Sending...",
+    "submit": "[TRANSLATE] Submit",
+    "viewProducts": "[TRANSLATE] View Products",
+    "viewServices": "[TRANSLATE] View Services",
+    "getInTouch": "[TRANSLATE] Get In Touch",
+    "exploreProducts": "[TRANSLATE] Explore Products",
+    "viewCatalog": "[TRANSLATE] View Catalog",
+    "quickQuote": "[TRANSLATE] Quick Quote"
   },
   "messages": {
-    "close": "बंद करें",
-    "imageNotFound": "छवि नहीं मिली",
-    "loading": "लोड हो रहा है...",
-    "error": "त्रुटि हुई",
     "toggleTheme": "थीम टॉगल करें",
-    "openMobileMenu": "मोबाइल मेनू खोलें"
+    "close": "बंद करें"
   },
   "altTexts": {
-    "aboutBackground": "ID-004: पावरटन इंजीनियरिंग औद्योगिक स्वचालन सुविधा आधुनिक नियंत्रण प्रणालियों के साथ"
+    "contactBackground": "[TRANSLATE] ID-834: Contact center and customer support office background for engineering company",
+    "aboutBackground": "[TRANSLATE] ID-004: Powerton Engineering industrial automation facility with modern control systems"
   },
   "aria": {
     "toggleNavigation": "नेवीगेशन सहायक टॉगल करें",
@@ -171,25 +174,38 @@
     }
   },
   "seo": {
-    "days": {
-      "monday": "सोमवार",
-      "tuesday": "मंगलवार",
-      "wednesday": "बुधवार",
-      "thursday": "गुरुवार",
-      "friday": "शुक्रवार",
-      "saturday": "शनिवार",
-      "sunday": "रविवार"
+    "companyName": "Powerton Engineering Pvt. Ltd.",
+    "companyDescription": "भारत में अग्रणी औद्योगिक स्वचालन और विद्युत इंजीनियरिंग कंपनी। पावर प्लांट स्वचालन, सौर प्रतिष्ठान और विनिर्माण नियंत्रण प्रणालियों में विशेषज्ञता।",
+    "siteName": "Powerton Engineering",
+    "twitterHandle": "@powerton_eng",
+    "businessAddress": {
+      "street": "2nd Floor, F-25, F Block, Sector 6",
+      "city": "नोएडा",
+      "state": "उत्तर प्रदेश",
+      "postal": "201301",
+      "country": "भारत"
     },
-    "schemaTypes": {
-      "breadcrumbList": "ब्रेडक्रंब सूची",
-      "listItem": "सूची आइटम",
-      "faqPage": "FAQ पेज",
-      "question": "प्रश्न",
-      "answer": "उत्तर",
-      "itemList": "आइटम सूची",
-      "service": "सेवा",
-      "localBusiness": "स्थानीय व्यवसाय",
-      "openingHours": "खुलने का समय विनिर्देश"
+    "powerton": {
+      "name": "पावर्टन इंजीनियरिंग प्राइवेट लिमिटेड",
+      "description": "भारत में अग्रणी औद्योगिक ऑटोमेशन और इलेक्ट्रिकल इंजीनियरिंग कंपनी। पावर प्लांट ऑटोमेशन, सोलर इंस्टॉलेशन और विनिर्माण नियंत्रण प्रणालियों में विशेषज्ञता।",
+      "keywords": "औद्योगिक ऑटोमेशन, इलेक्ट्रिकल इंजीनियरिंग, पावर प्लांट, सोलर एनर्जी, विनिर्माण, नियंत्रण प्रणाली, इंस्ट्रूमेंटेशन, SCADA, PLC, ऑटोमेशन समाधान",
+      "author": "पावर्टन इंजीनियरिंग टीम"
+    },
+    "location": {
+      "name": "नोएडा, उत्तर प्रदेश, भारत",
+      "region": "उत्तर प्रदेश",
+      "country": "भारत"
+    },
+    "contact": {
+      "phone": "+91-94627-71662 / +91-82997-27291",
+      "email": "info@powertonengineering.com"
+    },
+    "businessInfo": {
+      "industry": "औद्योगिक ऑटोमेशन, इलेक्ट्रिकल इंजीनियरिंग, इंस्ट्रूमेंटेशन",
+      "category": "इंजीनियरिंग सेवाएं, ऑटोमेशन समाधान, इलेक्ट्रिकल सिस्टम",
+      "targetAudience": "औद्योगिक इंजीनियर, प्लांट मैनेजर, ऑटोमेशन पेशेवर",
+      "companyType": "B2B इंजीनियरिंग समाधान प्रदाता",
+      "serviceArea": "भारत, पैन-इंडिया सेवा"
     }
   },
   "projectCategories": {
@@ -201,48 +217,52 @@
     "Power Systems": "पावर सिस्टम"
   },
   "projects": {
-    "industrial-automation-demo": {
-      "title": "डेमो: औद्योगिक स्वचालन प्रणाली",
-      "client": "भविष्य की विनिर्माण कंपनी",
-      "category": "प्रक्रिया स्वचालन",
-      "description": "पीएलसी एकीकरण, स्काडा सिस्टम और रियल-टाइम मॉनिटरिंग समाधान सहित पूर्ण विनिर्माण स्वचालन क्षमताओं का प्रदर्शन।",
-      "location": "परियोजना स्थल TBD",
-      "duration": "12-18 महीने",
-      "budget": "₹50-75 लाख",
-      "status": "क्षमता प्रदर्शन",
-      "technologies": {
-        "plcProgramming": "पीएलसी प्रोग्रामिंग",
-        "scada": "स्काडा",
-        "hmi": "एचएमआई",
-        "industrialIot": "औद्योगिक IoT"
-      },
+    "thermal-plant": {
+      "title": "[TRANSLATE] Thermal Power Plant Automation",
+      "description": "[TRANSLATE] Complete automation solution for 250MW thermal power plant including control panels, SCADA systems, and safety interlocks.",
+      "location": "[TRANSLATE] Uttar Pradesh",
+      "duration": "[TRANSLATE] 12 months",
       "highlights": {
-        "plcIntegration": "पीएलसी एकीकरण",
-        "scadaSystems": "स्काडा सिस्टम",
-        "realtimeMonitoring": "रियल-टाइम मॉनिटरिंग",
-        "processOptimization": "प्रक्रिया अनुकूलन"
+        "scada": "[TRANSLATE] SCADA Implementation",
+        "safety": "[TRANSLATE] Safety Systems",
+        "control": "[TRANSLATE] Control Panels",
+        "monitoring": "[TRANSLATE] Performance Monitoring"
       }
     },
-    "power-distribution-demo": {
-      "title": "उदाहरण: विद्युत वितरण नियंत्रण",
-      "client": "भविष्य के विद्युत साझेदार",
-      "category": "पावर सिस्टम",
-      "description": "विद्युत उत्पादन सुविधाओं के लिए स्वचालित लोड संतुलन और दूरस्थ निगरानी क्षमताओं को प्रदर्शित करने वाली उदाहरण विद्युत वितरण प्रणाली।",
-      "location": "विभिन्न स्थान",
-      "duration": "10-15 महीने",
-      "budget": "₹1-2 करोड़",
-      "status": "क्षमता प्रदर्शन",
-      "technologies": {
-        "mccPanels": "एमसीसी पैनल",
-        "protectionSystems": "सुरक्षा प्रणाली",
-        "energyManagement": "ऊर्जा प्रबंधन",
-        "remoteMonitoring": "दूरस्थ निगरानी"
-      },
+    "pharma-plant": {
+      "title": "[TRANSLATE] Pharmaceutical Plant Control System",
+      "description": "[TRANSLATE] Advanced process control and monitoring system for pharmaceutical manufacturing with FDA compliance and data integrity features.",
+      "location": "[TRANSLATE] Maharashtra",
+      "duration": "[TRANSLATE] 8 months",
       "highlights": {
-        "loadBalancing": "लोड संतुलन",
-        "protectionSystems": "सुरक्षा प्रणाली",
-        "energyManagement": "ऊर्जा प्रबंधन",
-        "remoteControl": "रिमोट कंट्रोल"
+        "fda": "[TRANSLATE] FDA Compliance",
+        "data": "[TRANSLATE] Data Integrity",
+        "process": "[TRANSLATE] Process Control",
+        "quality": "[TRANSLATE] Quality Monitoring"
+      }
+    },
+    "solar-plant": {
+      "title": "[TRANSLATE] 10MW Solar Power Installation",
+      "description": "[TRANSLATE] Complete design and installation of grid-connected solar power plant with monitoring systems and grid synchronization equipment.",
+      "location": "[TRANSLATE] Rajasthan",
+      "duration": "[TRANSLATE] 6 months",
+      "highlights": {
+        "grid": "[TRANSLATE] Grid Connection",
+        "monitoring": "[TRANSLATE] Monitoring Systems",
+        "optimization": "[TRANSLATE] Performance Optimization",
+        "maintenance": "[TRANSLATE] Maintenance Planning"
+      }
+    },
+    "water-treatment": {
+      "title": "[TRANSLATE] Municipal Water Treatment Automation",
+      "description": "[TRANSLATE] Automated control system for water treatment plant serving 500,000 residents with real-time monitoring and quality control.",
+      "location": "[TRANSLATE] West Bengal",
+      "duration": "[TRANSLATE] 10 months",
+      "highlights": {
+        "monitoring": "[TRANSLATE] Real-time Monitoring",
+        "quality": "[TRANSLATE] Quality Control",
+        "automation": "[TRANSLATE] Automated Operations",
+        "remote": "[TRANSLATE] Remote Management"
       }
     }
   },
@@ -273,7 +293,7 @@
       "comment": "उत्कृष्ट सेवा और तकनीकी सहायता! टीम ने हमारी सौर परियोजना कार्यान्वयन के दौरान असाधारण मार्गदर्शन प्रदान किया। उनके पेशेवर दृष्टिकोण और समय पर डिलीवरी ने हमारी अपेक्षाओं को पूरी तरह से पार किया।"
     },
     "rajesh": {
-      "name": "राजेश कुमार", 
+      "name": "राजेश कुमार",
       "location": "तमिलनाडु",
       "comment": "पावरटन इंजीनियरिंग ने वही दिया जो उन्होंने वादा किया था। उन्होंने जो इंस्ट्रूमेंटेशन सिस्टम स्थापित किया है वह दो साल से भी ज्यादा समय से निर्दोष रूप से काम कर रहा है। उनका बिक्री के बाद सहायता उल्लेखनीय और हमेशा उत्तरदायी है।"
     }
@@ -327,37 +347,6 @@
         "remote": "रिमोट प्रबंधन"
       }
     }
-  },
-  "buttons": {
-    "getQuote": "कोटेशन प्राप्त करें",
-    "callNow": "अभी कॉल करें",
-    "emailUs": "हमें ईमेल करें",
-    "learnMore": "और जानें",
-    "viewMore": "और देखें",
-    "viewAll": "सभी देखें",
-    "contactUs": "संपर्क करें",
-    "getStarted": "शुरू करें",
-    "downloadBrochure": "ब्रोशर डाउनलोड करें",
-    "downloadPortfolio": "पोर्टफोलियो डाउनलोड करें",
-    "showFilters": "फिल्टर दिखाएं",
-    "readMore": "और पढ़ें",
-    "downloadCatalog": "कैटलॉग डाउनलोड करें",
-    "viewDetails": "विवरण देखें",
-    "backTo": "{{category}} पर वापस जाएं",
-    "backToBldcProducts": "BLDC उत्पादों पर वापस जाएं",
-    "quickQuote": "त्वरित कोटेशन"
-  },
-  "altTexts": {
-    "companyLogo": "पावरटन इंजीनियरिंग प्राइवेट लिमिटेड - औद्योगिक स्वचालन और इलेक्ट्रिकल इंजीनियरिंग कंपनी लोगो",
-    "contactBackground": "ID-834: इंजीनियरिंग कंपनी के लिए संपर्क केंद्र और ग्राहक सहायता कार्यालय पृष्ठभूमि",
-    "aboutBackground": "ID-004: आधुनिक नियंत्रण प्रणालियों के साथ पावरटन इंजीनियरिंग औद्योगिक स्वचालन सुविधा"
-  },
-  "messages": {
-    "toggleTheme": "थीम बदलें",
-    "close": "बंद करें",
-    "imageNotFound": "छवि नहीं मिली",
-    "loading": "लोड हो रहा है...",
-    "error": "त्रुटि हुई"
   },
   "products": {
     "sections": {
@@ -424,13 +413,6 @@
     "requirementsFeatures": "आवश्यकताएं और सुविधाएं",
     "additionalInformation": "अतिरिक्त जानकारी"
   },
-  "altTexts": {
-    "companyLogo": "Powerton Engineering Pvt. Ltd. का लोगो"
-  },
-  "messages": {
-    "toggleTheme": "थीम टॉगल करें",
-    "close": "बंद करें"
-  },
   "cta": {
     "getQuote": "कोटेशन प्राप्त करें",
     "callNow": "अभी कॉल करें",
@@ -440,41 +422,6 @@
     "contactUs": "संपर्क करें",
     "getStarted": "शुरू करें",
     "downloadBrochure": "ब्रोशर डाउनलोड करें"
-  },
-  "seo": {
-    "companyName": "Powerton Engineering Pvt. Ltd.",
-    "companyDescription": "भारत में अग्रणी औद्योगिक स्वचालन और विद्युत इंजीनियरिंग कंपनी। पावर प्लांट स्वचालन, सौर प्रतिष्ठान और विनिर्माण नियंत्रण प्रणालियों में विशेषज्ञता।",
-    "siteName": "Powerton Engineering",
-    "twitterHandle": "@powerton_eng",
-    "businessAddress": {
-      "street": "2nd Floor, F-25, F Block, Sector 6",
-      "city": "नोएडा",
-      "state": "उत्तर प्रदेश",
-      "postal": "201301",
-      "country": "भारत"
-    },
-    "powerton": {
-      "name": "पावर्टन इंजीनियरिंग प्राइवेट लिमिटेड",
-      "description": "भारत में अग्रणी औद्योगिक ऑटोमेशन और इलेक्ट्रिकल इंजीनियरिंग कंपनी। पावर प्लांट ऑटोमेशन, सोलर इंस्टॉलेशन और विनिर्माण नियंत्रण प्रणालियों में विशेषज्ञता।",
-      "keywords": "औद्योगिक ऑटोमेशन, इलेक्ट्रिकल इंजीनियरिंग, पावर प्लांट, सोलर एनर्जी, विनिर्माण, नियंत्रण प्रणाली, इंस्ट्रूमेंटेशन, SCADA, PLC, ऑटोमेशन समाधान",
-      "author": "पावर्टन इंजीनियरिंग टीम"
-    },
-    "location": {
-      "name": "नोएडा, उत्तर प्रदेश, भारत",
-      "region": "उत्तर प्रदेश",
-      "country": "भारत"
-    },
-    "contact": {
-      "phone": "+91-94627-71662 / +91-82997-27291",
-      "email": "info@powertonengineering.com"
-    },
-    "businessInfo": {
-      "industry": "औद्योगिक ऑटोमेशन, इलेक्ट्रिकल इंजीनियरिंग, इंस्ट्रूमेंटेशन",
-      "category": "इंजीनियरिंग सेवाएं, ऑटोमेशन समाधान, इलेक्ट्रिकल सिस्टम",
-      "targetAudience": "औद्योगिक इंजीनियर, प्लांट मैनेजर, ऑटोमेशन पेशेवर",
-      "companyType": "B2B इंजीनियरिंग समाधान प्रदाता",
-      "serviceArea": "भारत, पैन-इंडिया सेवा"
-    }
   },
   "company": {
     "name": "पावर्टन इंजीनियरिंग प्राइवेट लिमिटेड",
@@ -516,19 +463,6 @@
     "dhanuka": "धनुका एग्रिटेक",
     "mjson": "एमजेएसओएन",
     "procient": "प्रोसिएंट"
-  },
-  "buttons": {
-    "downloadPortfolio": "पोर्टफोलियो डाउनलोड करें",
-    "showFilters": "फिल्टर दिखाएं",
-    "requestQuote": "कोटेशन का अनुरोध करें",
-    "backToProducts": "उत्पादों पर वापस जाएं",
-    "expertTeam": "विशेषज्ञ टीम",
-    "successfulProjects": "सफल परियोजनाएं", 
-    "qualityProducts": "गुणवत्तापूर्ण उत्पाद",
-    "getQuote": "कोटेशन प्राप्त करें",
-    "contactUs": "संपर्क करें",
-    "learnMore": "और जानें",
-    "viewAll": "सभी देखें"
   },
   "common": {
     "keyFeatures": "मुख्य विशेषताएं"

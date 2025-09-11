@@ -22,47 +22,47 @@
     "ha": "Hausa"
   },
   "navigation": {
-    "backToProducts": "返回产品",
-    "backToInstrumentationComponents": "返回仪器组件",
-    "backToElectricalComponents": "返回电气组件",
-    "backToSolarProducts": "返回太阳能产品",
-    "backToMechanicalPumps": "返回机械泵和配件",
-    "backToMeasurementInstruments": "返回测量仪器",
-    "backToSafetyDevices": "返回安全设备",
-    "backToIndustrialTools": "返回工业工具",
-    "backToAutomationSystems": "返回自动化系统",
-    "backToBLDC": "返回BLDC产品"
+    "backToProducts": "[TRANSLATE] Back to Products",
+    "backToElectricalComponents": "[TRANSLATE] Back to Electrical Components",
+    "backToSolarProducts": "[TRANSLATE] Back to Solar Products",
+    "backToMechanicalPumps": "[TRANSLATE] Back to Mechanical Pumps & Spares",
+    "backToMeasurementInstruments": "[TRANSLATE] Back to Measurement Instruments",
+    "backToSafetyDevices": "[TRANSLATE] Back to Safety & Protective Devices",
+    "backToIndustrialTools": "[TRANSLATE] Back to Industrial Tools & Tackles",
+    "backToAutomationSystems": "[TRANSLATE] Back to Automation & Control Systems",
+    "backToBLDC": "[TRANSLATE] Back to BLDC Products",
+    "phoneNumbers": "[TRANSLATE] Phone Numbers"
   },
   "testimonials": {
     "anand": {
-      "name": "阿南德·阿瓦斯蒂",
+      "name": "Anand Awasthi",
       "location": "西孟加拉邦",
-      "comment": "Powerton Engineering让太阳能发电过程变得无缝且简单。他们的团队处理了从开始到结束的一切，我们对结果非常满意。"
+      "comment": "Powerton工程让我们的太阳能项目变得无缝且简单。他们的团队从头到尾处理一切，我们对结果非常满意。"
     },
     "sanjay": {
-      "name": "桑杰·帕蒂尔",
+      "name": "Sanjay Patil",
       "location": "北方邦",
-      "comment": "我很高兴选择Powerton Engineering进行我们的安装，我毫不犹豫地向我的任何朋友推荐他们。"
+      "comment": "我很高兴为我们的安装选择了Powerton工程，我毫不犹豫地向我的任何朋友推荐他们。"
     },
     "rhea": {
-      "name": "瑞亚·夏尔马",
+      "name": "Rhea Sharma",
       "location": "马哈拉施特拉邦",
-      "comment": "优质的产品和出色的客户服务。团队的技术专业知识令人印象深刻，非常专业。"
+      "comment": "优质的产品和出色的客户服务。团队的技术专长令人印象深刻且高度专业。"
     },
     "priya": {
-      "name": "普里亚·梅赫塔",
+      "name": "Priya Mehta",
       "location": "古吉拉特邦",
-      "comment": "与Powerton Engineering合作是一次绝佳的体验。他们的自动化解决方案改变了我们的制造流程，效率提高了35%。强烈推荐用于工业自动化项目。"
+      "comment": "与Powerton工程合作是一次美妙的体验。他们的自动化解决方案改变了我们的制造流程，提高了35%的效率。强烈推荐工业自动化项目。"
     },
     "kavya": {
-      "name": "卡维亚·辛格",
+      "name": "Kavya Singh",
       "location": "卡纳塔克邦",
-      "comment": "出色的服务和技术支持！团队在我们太阳能项目实施过程中提供了卓越的指导。他们的专业方法和及时交付完全超出了我们的预期。"
+      "comment": "出色的服务和技术支持！团队在我们的太阳能项目实施过程中提供了卓越的指导。他们的专业方法和及时交付完全超出了我们的期望。"
     },
     "rajesh": {
-      "name": "拉杰什·库马尔",
+      "name": "Rajesh Kumar",
       "location": "泰米尔纳德邦",
-      "comment": "Powerton Engineering完全兑现了他们的承诺。他们安装的仪表系统两年多来一直运行完美。他们的售后支持非常出色，反应迅速。"
+      "comment": "Powerton工程完全兑现了他们的承诺。他们安装的仪表系统已经完美运行了两年多。他们的售后支持非常出色且始终响应迅速。"
     }
   },
   "technicalTerms": {
@@ -82,42 +82,28 @@
     "ISO": "ISO（国际标准化组织）",
     "IEEE": "IEEE（电气电子工程师学会）"
   },
-  "navigation": {
-    "backToInstrumentationComponents": "返回仪器组件",
-    "phoneNumbers": "电话号码",
-    "backToSafetyDevices": "返回安全和保护设备"
-  },
   "buttons": {
-    "learnMore": "了解更多",
-    "getQuote": "获取报价",
-    "contactUs": "联系我们",
-    "contactProtectionExperts": "联系保护专家",
-    "contactSolarExperts": "联系太阳能专家",
-    "requestQuote": "请求报价",
-    "contact": "联系我们",
-    "contactUs": "联系我们",
-    "viewAll": "查看全部",
-    "readMore": "阅读更多",
-    "viewDetails": "查看详情",
-    "download": "下载",
-    "downloadCatalog": "下载目录",
-    "downloadBrochure": "下载手册",
-    "downloadGuide": "下载指南",
-    "downloadDatasheet": "下载数据表", 
-    "downloadPortfolio": "下载作品集",
-    "requestQuote": "请求报价",
-    "showMore": "显示更多",
-    "showFilters": "显示过滤器",
-    "hideFilters": "隐藏过滤器",
-    "upload": "上传",
-    "expertTeam": "专家团队",
-    "successfulProjects": "成功项目",
-    "qualityProducts": "优质产品",
-    "callNow": "立即致电",
-    "emailUs": "给我们发邮件",
-    "viewMore": "查看更多",
-    "getStarted": "开始",
-    "downloadBrochure": "下载手册"
+    "downloadPortfolio": "[TRANSLATE] Download Portfolio",
+    "showFilters": "[TRANSLATE] Show Filters",
+    "readMore": "[TRANSLATE] Read More",
+    "downloadCatalog": "[TRANSLATE] Download Catalog",
+    "viewDetails": "[TRANSLATE] View Details",
+    "backTo": "[TRANSLATE] Back to {{category}}",
+    "backToBldcProducts": "[TRANSLATE] Back to BLDC Products",
+    "backToProducts": "[TRANSLATE] Back to Products",
+    "requestQuote": "[TRANSLATE] Request Quote",
+    "expertTeam": "[TRANSLATE] Expert Team",
+    "successfulProjects": "[TRANSLATE] Successful Projects",
+    "qualityProducts": "[TRANSLATE] Quality Products",
+    "sendMessage": "[TRANSLATE] Send Message",
+    "sending": "[TRANSLATE] Sending...",
+    "submit": "[TRANSLATE] Submit",
+    "viewProducts": "[TRANSLATE] View Products",
+    "viewServices": "[TRANSLATE] View Services",
+    "getInTouch": "[TRANSLATE] Get In Touch",
+    "exploreProducts": "[TRANSLATE] Explore Products",
+    "viewCatalog": "[TRANSLATE] View Catalog",
+    "quickQuote": "[TRANSLATE] Quick Quote"
   },
   "loading": "正在加载...",
   "error": "出了点问题",
@@ -125,52 +111,41 @@
   "messages": {
     "toggleTheme": "切换主题",
     "close": "关闭",
-    "imageNotFound": "未找到图片",
-    "loading": "正在加载...",
-    "error": "发生错误",
-    "openMobileMenu": "打开移动菜单"
-  },
-  "navigation": {
-    "backToInstrumentationComponents": "返回仪表组件"
+    "imageNotFound": "未找到图像",
+    "loading": "加载中...",
+    "error": "发生错误"
   },
   "aria": {
-    "toggleNavigation": "切换导航助手",
-    "openLocation": "在Google地图中打开办公地点",
-    "exploreServices": "探索我们的工业自动化和工程服务",
-    "requestConsultation": "为您的工程项目申请免费咨询",
-    "companyHighlights": "公司主要亮点和服务",
-    "performanceStats": "公司业绩统计",
-    "previousTestimonial": "上一个推荐",
-    "nextTestimonial": "下一个推荐",
-    "mainNavigation": "主导航",
-    "companyInfo": "公司信息和网站导航",
-    "goToHomepage": "前往Powerton工程主页",
-    "followLinkedIn": "在LinkedIn上关注Powerton工程",
-    "followFacebook": "在Facebook上关注Powerton工程",
-    "servicesNavigation": "服务导航",
-    "productsNavigation": "产品导航",
-    "callCompany": "致电Powerton工程",
-    "emailCompany": "给Powerton工程发邮件",
-    "viewOfficeLocation": "在Google地图上查看Powerton工程办公地点",
-    "officeLocationTitle": "Powerton工程办公地点",
-    "controllerSystems": "控制器和记录仪",
-    "controllerDescription": "用于工业控制的过程控制器和数据记录系统",
-    "plcSystems": "PLC系统",
-    "processControllers": "过程控制器",
-    "dataLoggers": "数据记录仪",
-    "controlPanels": "控制面板",
-    "switchesIndicators": "开关和指示器",
-    "switchesDescription": "工业开关、指示器和信号设备",
-    "pushbuttonSwitches": "按钮开关",
-    "selectorSwitches": "选择开关",
-    "indicatorLights": "指示灯",
-    "emergencyStops": "紧急停止",
-    "valvesActuators": "阀门和执行器",
-    "valvesDescription": "用于过程控制系统的控制阀和执行器",
-    "controlValves": "控制阀",
-    "pneumaticActuators": "气动执行器",
-    "electricActuators": "电动执行器",
-    "valvePositioners": "阀门定位器"
+    "controllerSystems": "[TRANSLATE] Controllers & Recorders",
+    "controllerDescription": "[TRANSLATE] Process controllers and data recording systems for industrial control",
+    "plcSystems": "[TRANSLATE] PLC Systems",
+    "processControllers": "[TRANSLATE] Process Controllers",
+    "dataLoggers": "[TRANSLATE] Data Loggers",
+    "controlPanels": "[TRANSLATE] Control Panels",
+    "switchesIndicators": "[TRANSLATE] Switches & Indicators",
+    "switchesDescription": "[TRANSLATE] Industrial switches, indicators, and signaling devices",
+    "pushbuttonSwitches": "[TRANSLATE] Pushbutton Switches",
+    "selectorSwitches": "[TRANSLATE] Selector Switches",
+    "indicatorLights": "[TRANSLATE] Indicator Lights",
+    "emergencyStops": "[TRANSLATE] Emergency Stops",
+    "valvesActuators": "[TRANSLATE] Valves & Actuators",
+    "valvesDescription": "[TRANSLATE] Control valves and actuators for process control systems",
+    "controlValves": "[TRANSLATE] Control Valves",
+    "pneumaticActuators": "[TRANSLATE] Pneumatic Actuators",
+    "electricActuators": "[TRANSLATE] Electric Actuators",
+    "valvePositioners": "[TRANSLATE] Valve Positioners",
+    "analyzers": "[TRANSLATE] Analyzers",
+    "analyzersDescription": "[TRANSLATE] Gas, liquid, and process analyzers for quality control",
+    "gasAnalyzers": "[TRANSLATE] Gas Analyzers",
+    "liquidAnalyzers": "[TRANSLATE] Liquid Analyzers",
+    "processAnalyzers": "[TRANSLATE] Process Analyzers",
+    "multiParameterSystems": "[TRANSLATE] Multi-parameter Systems",
+    "signalConditioners": "[TRANSLATE] Signal Conditioners",
+    "signalConditionersDescription": "[TRANSLATE] Signal processing and conditioning equipment for measurement systems",
+    "isolationAmplifiers": "[TRANSLATE] Isolation Amplifiers",
+    "signalConverters": "[TRANSLATE] Signal Converters",
+    "measuringTransducers": "[TRANSLATE] Measuring Transducers",
+    "noiseFilters": "[TRANSLATE] Noise Filters"
   },
   "badges": {
     "energyEfficient": "节能高效",
@@ -197,118 +172,90 @@
     "relatedProducts": "相关产品"
   },
   "chatbot": {
-    "welcome": "欢迎来到Powerton工程！今天我可以为您做些什么？",
-    "typeMessage": "输入您的消息...",
-    "sendMessage": "发送消息",
-    "openChat": "打开聊天",
-    "closeChat": "关闭聊天",
-    "typing": "正在输入...",
+    "welcome": "[TRANSLATE] Welcome to Powerton Engineering! How can I help you today?",
+    "typeMessage": "[TRANSLATE] Type your message...",
+    "sendMessage": "[TRANSLATE] Send message",
+    "openChat": "[TRANSLATE] Open chat",
+    "closeChat": "[TRANSLATE] Close chat",
+    "typing": "[TRANSLATE] Typing...",
     "defaultOptions": {
-      "products": "产品和目录",
-      "services": "我们的服务",
-      "contact": "联系信息",
-      "quote": "申请报价",
-      "support": "技术支持"
+      "products": "[TRANSLATE] Products & Catalog",
+      "services": "[TRANSLATE] Our Services",
+      "contact": "[TRANSLATE] Contact Information",
+      "quote": "[TRANSLATE] Request Quote",
+      "support": "[TRANSLATE] Technical Support"
     },
     "responses": {
-      "products": "我们提供全面的工业自动化产品、电气元件、仪表、太阳能系统等。您在寻找哪些特定产品？",
-      "services": "我们的服务包括安装、维护、校准、技术支持和定制解决方案。您对哪项服务感兴趣？",
-      "contact": "您可以拨打+91-9911315121联系我们，或发送邮件至info@powertonengineering.com。我们的办公室位于印度德里。",
-      "quote": "我很乐意帮您获取报价！请访问我们的报价页面或向我提供您的需求。",
-      "support": "我们的技术支持团队随时为您提供帮助！请描述您的技术问题或需求。"
+      "products": "[TRANSLATE] We offer a comprehensive range of industrial automation products, electrical components, instrumentation, solar systems, and more. What specific products are you looking for?",
+      "services": "[TRANSLATE] Our services include installation, maintenance, calibration, technical support, and custom solutions. Which service interests you?",
+      "contact": "[TRANSLATE] You can reach us at +91-94627-71662 or email us at info@powertonengineering.com. Our headquarters is located in Noida, India, and we serve clients worldwide.",
+      "quote": "[TRANSLATE] I'd be happy to help you get a quote! Please visit our quote page or provide me with your requirements.",
+      "support": "[TRANSLATE] Our technical support team is here to help! Please describe your technical question or issue."
     }
   },
-  "aria": {
-    "analyzers": "分析仪",
-    "analyzersDescription": "用于质量控制的气体、液体和过程分析仪",
-    "gasAnalyzers": "气体分析仪",
-    "liquidAnalyzers": "液体分析仪",
-    "processAnalyzers": "过程分析仪",
-    "multiParameterSystems": "多参数系统",
-    "signalConditioners": "信号调节器",
-    "signalConditionersDescription": "用于测量系统的信号处理和调节设备",
-    "isolationAmplifiers": "隔离放大器",
-    "signalConverters": "信号转换器",
-    "measuringTransducers": "测量传感器",
-    "noiseFilters": "噪声滤波器"
-  },
   "productSections": {
-    "keyFeatures": "主要特征:",
+    "keyFeatures": "主要特性:",
     "specifications": "规格",
     "applications": "应用",
     "industries": "行业",
     "needSurgeProtection": "需要浪涌保护？",
     "needSolarInverterSolutions": "需要太阳能逆变器解决方案？",
     "needSolarChargeControl": "需要太阳能充电控制？",
-    "surgeProtectionDescription": "我们的保护专家可以为您的设施设计全面的浪涌保护系统。",
+    "surgeProtectionDescription": "我们的安全专家可以为您的设施设计全面的浪涌保护系统。",
     "solarInverterDescription": "我们的太阳能工程师可以为您的太阳能安装设计最佳逆变器系统。",
     "solarChargeDescription": "我们的太阳能专家可以帮助您为电池系统选择合适的充电控制器。",
     "energyStorageDescription": "我们的储能专家可以为您的太阳能安装设计最佳电池系统。"
   },
   "seo": {
-    "days": {
-      "monday": "星期一",
-      "tuesday": "星期二",
-      "wednesday": "星期三",
-      "thursday": "星期四",
-      "friday": "星期五",
-      "saturday": "星期六",
-      "sunday": "星期日"
+    "companyName": "[TRANSLATE] Powerton Engineering Pvt. Ltd.",
+    "companyDescription": "[TRANSLATE] Leading industrial automation and electrical engineering company serving clients worldwide. Specializing in power plant automation, solar installations, and manufacturing control systems.",
+    "siteName": "[TRANSLATE] Powerton Engineering",
+    "twitterHandle": "[TRANSLATE] @powerton_eng",
+    "businessAddress": {
+      "street": "[TRANSLATE] F-25, F Block, Sector 6",
+      "city": "[TRANSLATE] Noida",
+      "state": "[TRANSLATE] Uttar Pradesh",
+      "postal": "[TRANSLATE] 201301",
+      "country": "[TRANSLATE] India"
     },
-    "schemaTypes": {
-      "breadcrumbList": "面包屑列表",
-      "listItem": "列表项",
-      "faqPage": "常见问题页面",
-      "question": "问题",
-      "answer": "答案",
-      "itemList": "项目列表",
-      "service": "服务",
-      "localBusiness": "本地企业",
-      "openingHours": "营业时间规范"
+    "powerton": {
+      "name": "[TRANSLATE] Powerton Engineering Pvt. Ltd.",
+      "description": "[TRANSLATE] Leading industrial automation and electrical engineering company serving clients globally. Specializing in power plant automation, solar installations, and manufacturing control systems.",
+      "keywords": "[TRANSLATE] Industrial Automation, Electrical Engineering, Power Plant, Solar Energy, Manufacturing, Control Systems, Instrumentation, SCADA, PLC, Automation Solutions, Electrical Installation, Industrial Control Panels, Process Automation, Power Distribution, Motor Control Centers, Electrical Maintenance, Industrial Electrical Services, Automation Consulting, Electrical Design, Power Systems",
+      "author": "[TRANSLATE] Powerton Engineering Team"
+    },
+    "location": {
+      "name": "[TRANSLATE] Noida, Uttar Pradesh, India",
+      "region": "[TRANSLATE] Uttar Pradesh",
+      "country": "[TRANSLATE] India"
+    },
+    "contact": {
+      "phone": "[TRANSLATE] +91-94627-71662 / +91-82997-27291",
+      "email": "[TRANSLATE] info@powertonengineering.com"
+    },
+    "businessInfo": {
+      "industry": "[TRANSLATE] Industrial Automation, Electrical Engineering, Instrumentation",
+      "category": "[TRANSLATE] Engineering Services, Automation Solutions, Electrical Systems",
+      "targetAudience": "[TRANSLATE] Industrial Engineers, Plant Managers, Automation Professionals",
+      "companyType": "[TRANSLATE] B2B Engineering Solutions Provider",
+      "serviceArea": "[TRANSLATE] Global Service Coverage with International Project Delivery"
     }
   },
   "labels": {
-    "responseTime": "响应时间",
-    "availability": "可用性",
-    "coverage": "覆盖范围",
-    "technologies": "技术",
-    "parameters": "参数",
-    "specifications": "规格",
-    "applications": "应用",
-    "industries": "行业",
-    "keyFeatures": "主要特点",
-    "includes": "包含",
-    "projectType": "项目类型",
-    "industry": "行业",
-    "projectSize": "项目规模",
-    "timeline": "时间安排",
-    "location": "地点",
-    "budget": "预算",
-    "requirements": "需求",
-    "category": "类别",
-    "status": "状态",
-    "popular": "热门",
-    "duration": "持续时间",
-    "projectsCompleted": "完成项目",
-    "satisfiedClients": "满意客户",
-    "yearsExperience": "年经验"
-  },
-  "buttons": {
-    "downloadPortfolio": "下载作品集",
-    "showFilters": "显示过滤器",
-    "quickQuote": "快速报价"
+    "category": "[TRANSLATE] Category",
+    "status": "[TRANSLATE] Status",
+    "industry": "[TRANSLATE] Industry",
+    "projectType": "[TRANSLATE] Project Type",
+    "popular": "[TRANSLATE] Popular",
+    "duration": "[TRANSLATE] Duration",
+    "keyFeatures": "[TRANSLATE] Key Features",
+    "projectsCompleted": "[TRANSLATE] Projects Completed",
+    "satisfiedClients": "[TRANSLATE] Satisfied Clients",
+    "yearsExperience": "[TRANSLATE] Years Experience",
+    "responseTime": "[TRANSLATE] Response Time"
   },
   "keyFeatures": "主要特点",
   "requestQuote": "请求报价",
-  "messages": {
-    "serviceNotFound": "服务未找到",
-    "readyToStart": "准备开始了吗？",
-    "consultation": "联系我们进行详细咨询和定制解决方案。",
-    "availability": "周一至周六，提供紧急支持",
-    "coverage": "全印度服务覆盖",
-    "needHelp": "需要帮助查找什么吗？",
-    "cantFind": "找不到您要找的内容？直接联系我们或使用每个页面上都有的智能聊天机器人。"
-  },
   "placeholders": {
     "selectProjectType": "选择项目类型",
     "selectIndustry": "选择行业",
@@ -339,48 +286,52 @@
     "Power Systems": "电力系统"
   },
   "projects": {
-    "industrial-automation-demo": {
-      "title": "演示：工业自动化系统",
-      "client": "未来制造客户",
-      "category": "过程自动化",
-      "description": "展示完整的制造自动化能力，包括PLC集成、SCADA系统和实时监控解决方案。",
-      "location": "项目地点待定",
-      "duration": "12-18个月",
-      "budget": "₹50-75万",
-      "status": "能力展示",
-      "technologies": {
-        "plcProgramming": "PLC编程",
-        "scada": "SCADA",
-        "hmi": "人机界面",
-        "industrialIot": "工业物联网"
-      },
+    "thermal-plant": {
+      "title": "[TRANSLATE] Thermal Power Plant Automation",
+      "description": "[TRANSLATE] Complete automation solution for 250MW thermal power plant including control panels, SCADA systems, and safety interlocks.",
+      "location": "[TRANSLATE] Uttar Pradesh",
+      "duration": "[TRANSLATE] 12 months",
       "highlights": {
-        "plcIntegration": "PLC集成",
-        "scadaSystems": "SCADA系统",
-        "realtimeMonitoring": "实时监控",
-        "processOptimization": "过程优化"
+        "scada": "[TRANSLATE] SCADA Implementation",
+        "safety": "[TRANSLATE] Safety Systems",
+        "control": "[TRANSLATE] Control Panels",
+        "monitoring": "[TRANSLATE] Performance Monitoring"
       }
     },
-    "power-distribution-demo": {
-      "title": "示例：电力分配控制",
-      "client": "未来电力合作伙伴",
-      "category": "电力系统",
-      "description": "展示自动负载平衡和远程监控能力的电力分配系统示例，用于发电设施。",
-      "location": "多个地点",
-      "duration": "10-15个月",
-      "budget": "₹1-2千万",
-      "status": "能力展示",
-      "technologies": {
-        "mccPanels": "MCC面板",
-        "protectionSystems": "保护系统",
-        "energyManagement": "能源管理",
-        "remoteMonitoring": "远程监控"
-      },
+    "pharma-plant": {
+      "title": "[TRANSLATE] Pharmaceutical Plant Control System",
+      "description": "[TRANSLATE] Advanced process control and monitoring system for pharmaceutical manufacturing with FDA compliance and data integrity features.",
+      "location": "[TRANSLATE] Maharashtra",
+      "duration": "[TRANSLATE] 8 months",
       "highlights": {
-        "loadBalancing": "负载平衡",
-        "protectionSystems": "保护系统",
-        "energyManagement": "能源管理",
-        "remoteControl": "远程控制"
+        "fda": "[TRANSLATE] FDA Compliance",
+        "data": "[TRANSLATE] Data Integrity",
+        "process": "[TRANSLATE] Process Control",
+        "quality": "[TRANSLATE] Quality Monitoring"
+      }
+    },
+    "solar-plant": {
+      "title": "[TRANSLATE] 10MW Solar Power Installation",
+      "description": "[TRANSLATE] Complete design and installation of grid-connected solar power plant with monitoring systems and grid synchronization equipment.",
+      "location": "[TRANSLATE] Rajasthan",
+      "duration": "[TRANSLATE] 6 months",
+      "highlights": {
+        "grid": "[TRANSLATE] Grid Connection",
+        "monitoring": "[TRANSLATE] Monitoring Systems",
+        "optimization": "[TRANSLATE] Performance Optimization",
+        "maintenance": "[TRANSLATE] Maintenance Planning"
+      }
+    },
+    "water-treatment": {
+      "title": "[TRANSLATE] Municipal Water Treatment Automation",
+      "description": "[TRANSLATE] Automated control system for water treatment plant serving 500,000 residents with real-time monitoring and quality control.",
+      "location": "[TRANSLATE] West Bengal",
+      "duration": "[TRANSLATE] 10 months",
+      "highlights": {
+        "monitoring": "[TRANSLATE] Real-time Monitoring",
+        "quality": "[TRANSLATE] Quality Control",
+        "automation": "[TRANSLATE] Automated Operations",
+        "remote": "[TRANSLATE] Remote Management"
       }
     }
   },
@@ -391,42 +342,13 @@
     "additionalInformation": "附加信息"
   },
   "altTexts": {
-    "companyLogo": "Powerton Engineering私人有限公司标志",
-    "contactCenterBackground": "工程公司联系中心和客户支持办公室背景",
-    "aboutCompanyFacility": "Powerton Engineering工业自动化设施配备现代控制系统",
-    "officeLocation": "Powerton Engineering办公地点"
-  },
-  "chatbot": {
-    "welcomeMessage": "您好！我是Powerton Engineering的技术顾问。我在这里帮助您为您的项目找到合适的工业自动化解决方案。",
-    "fallbackMessage": "如需详细帮助，请致电+91-94627-71662联系我们的团队或发送邮件至info@powertonengineering.com",
-    "options": {
-      "findProduct": "🔍 找到合适的产品",
-      "chooseService": "⚙️ 选择服务",
-      "troubleshooting": "🔧 技术故障排除",
-      "aboutCompany": "💼 关于我们公司",
-      "sensorsCategory": "🌡️ 传感器和测量",
-      "electricalCategory": "⚡ 电气元件",
-      "automationCategory": "🔧 自动化系统",
-      "solarCategory": "☀️ 太阳能产品",
-      "safetyCategory": "🛡️ 安全与防护",
-      "installationService": "🔧 安装和调试",
-      "maintenanceService": "🛠️ 维护和修理",
-      "calibrationService": "📏 校准和测试",
-      "trainingService": "🎓 培训和咨询",
-      "solarService": "☀️ 太阳能EPC项目"
-    },
-    "responses": {
-      "productSelection": "太好了！让我帮您找到完美的工业自动化产品。",
-      "serviceSelection": "优秀！在Powerton Engineering，我们提供全面的服务来支持您的整个项目生命周期。",
-      "troubleshootingMain": "我来帮助您解决任何技术问题。",
-      "companyInfo": "我很荣幸代表Powerton Engineering私人有限公司！我们是您值得信赖的合作伙伴，在工业自动化方面拥有十多年的经验。",
-      "sensorsCategory": "完美的选择！我们的传感器产品组合包括用于温度、压力、流量和液位测量的精密仪器。"
-    }
+    "contactBackground": "[TRANSLATE] ID-834: Contact center and customer support office background for engineering company",
+    "aboutBackground": "[TRANSLATE] ID-004: Powerton Engineering industrial automation facility with modern control systems"
   },
   "sitemap": {
     "sections": {
       "mainPages": "主要页面",
-      "servicesProjects": "服务和项目", 
+      "servicesProjects": "服务和项目",
       "productCategories": "产品类别",
       "resourcesTools": "资源和工具",
       "legalInformation": "法律信息"
@@ -500,55 +422,6 @@
       "responseTime": "2小时"
     }
   },
-  "buttons": {
-    "getQuote": "获取报价",
-    "callNow": "立即致电",
-    "emailUs": "给我们发邮件",
-    "learnMore": "了解更多",
-    "viewMore": "查看更多",
-    "viewAll": "查看全部",
-    "contactUs": "联系我们",
-    "getStarted": "开始",
-    "downloadBrochure": "下载手册"
-  },
-  "labels": {
-    "businessHours": "营业时间",
-    "mondayToSaturday": "周一 - 周六",
-    "workingHours": "上午9:00 - 下午6:00",
-    "sunday": "周日",
-    "emergencySupport": "仅紧急支持"
-  },
-  "altTexts": {
-    "companyLogo": "Powerton Engineering私人有限公司标志"
-  },
-  "messages": {
-    "toggleTheme": "切换主题",
-    "close": "关闭",
-    "imageNotFound": "未找到图像",
-    "loading": "加载中...",
-    "error": "发生错误"
-  },
-  "aria": {
-    "toggleNavigation": "切换导航助手",
-    "openLocation": "在谷歌地图中打开办公地点",
-    "exploreServices": "探索我们的工业自动化和工程服务",
-    "requestConsultation": "为您的工程项目申请免费咨询",
-    "companyHighlights": "公司重点和服务",
-    "performanceStats": "公司业绩统计",
-    "previousTestimonial": "上一个推荐",
-    "nextTestimonial": "下一个推荐",
-    "mainNavigation": "主要导航",
-    "companyInfo": "公司信息和网站导航",
-    "goToHomepage": "前往Powerton Engineering主页",
-    "followLinkedIn": "在LinkedIn上关注Powerton Engineering",
-    "followFacebook": "在Facebook上关注Powerton Engineering",
-    "servicesNavigation": "服务导航",
-    "productsNavigation": "产品导航",
-    "callCompany": "致电Powerton Engineering",
-    "emailCompany": "发邮件给Powerton Engineering",
-    "viewOfficeLocation": "在谷歌地图上查看Powerton Engineering办公地点",
-    "officeLocationTitle": "Powerton Engineering办公地点"
-  },
   "clients": {
     "sci-group": "印度航运公司",
     "agribio": "德国农业生物公司",
@@ -570,33 +443,6 @@
     "text": "© {{year}} Powerton Engineering Pvt. Ltd. 版权所有。",
     "madeWith": "由 Powerton Engineering 团队 💙 制作"
   },
-  "seo": {
-    "defaultTitle": "Powerton Engineering私人有限公司 - 工业控制面板和自动化解决方案",
-    "defaultDescription": "电气控制面板、工业自动化系统和仪表解决方案的领先制造商。在印度为各行业提供优质工程产品和服务。",
-    "defaultKeywords": "电气控制面板，工业自动化，电源控制中心，电机控制中心，仪表，电气工程，印度",
-    "companyName": "Powerton Engineering私人有限公司",
-    "companyDescription": "电气控制面板和工业自动化解决方案的领先制造商",
-    "siteName": "Powerton Engineering",
-    "twitterHandle": "@powertoneng",
-    "businessAddress": {
-      "street": "二楼，F-25，F座，第6区",
-      "city": "诺伊达", 
-      "state": "北方邦",
-      "postal": "201301",
-      "country": "印度"
-    },
-    "contact": {
-      "phone": "+91-94627-71662",
-      "email": "info@powertonengineering.com"
-    },
-    "businessInfo": {
-      "industry": "工业自动化，电气工程，仪表",
-      "category": "工程服务，自动化解决方案，电气系统",
-      "targetAudience": "工业工程师，工厂经理，自动化专业人员",
-      "companyType": "B2B工程解决方案提供商",
-      "serviceArea": "印度，全印度服务"
-    }
-  },
   "tags": {
     "award": "奖项",
     "recognition": "认可",
@@ -615,59 +461,6 @@
     "iso": "ISO",
     "quality": "质量",
     "certification": "认证"
-  },
-  "testimonials": {
-    "anand": {
-      "name": "Anand Awasthi",
-      "location": "西孟加拉邦",
-      "comment": "Powerton工程让我们的太阳能项目变得无缝且简单。他们的团队从头到尾处理一切，我们对结果非常满意。"
-    },
-    "sanjay": {
-      "name": "Sanjay Patil",
-      "location": "北方邦",
-      "comment": "我很高兴为我们的安装选择了Powerton工程，我毫不犹豫地向我的任何朋友推荐他们。"
-    },
-    "rhea": {
-      "name": "Rhea Sharma",
-      "location": "马哈拉施特拉邦",
-      "comment": "优质的产品和出色的客户服务。团队的技术专长令人印象深刻且高度专业。"
-    },
-    "priya": {
-      "name": "Priya Mehta",
-      "location": "古吉拉特邦",
-      "comment": "与Powerton工程合作是一次美妙的体验。他们的自动化解决方案改变了我们的制造流程，提高了35%的效率。强烈推荐工业自动化项目。"
-    },
-    "kavya": {
-      "name": "Kavya Singh",
-      "location": "卡纳塔克邦",
-      "comment": "出色的服务和技术支持！团队在我们的太阳能项目实施过程中提供了卓越的指导。他们的专业方法和及时交付完全超出了我们的期望。"
-    },
-    "rajesh": {
-      "name": "Rajesh Kumar",
-      "location": "泰米尔纳德邦",
-      "comment": "Powerton工程完全兑现了他们的承诺。他们安装的仪表系统已经完美运行了两年多。他们的售后支持非常出色且始终响应迅速。"
-    }
-  },
-  "projectCategories": {
-    "Power Plant": "发电厂",
-    "Manufacturing": "制造业",
-    "Solar": "太阳能",
-    "Water Treatment": "水处理",
-    "Process Automation": "过程自动化",
-    "Power Systems": "电力系统"
-  },
-  "productSections": {
-    "keyFeatures": "主要特性:",
-    "specifications": "规格",
-    "applications": "应用",
-    "industries": "行业",
-    "needSurgeProtection": "需要浪涌保护？",
-    "needSolarInverterSolutions": "需要太阳能逆变器解决方案？",
-    "needSolarChargeControl": "需要太阳能充电控制？",
-    "surgeProtectionDescription": "我们的安全专家可以为您的设施设计全面的浪涌保护系统。",
-    "solarInverterDescription": "我们的太阳能工程师可以为您的太阳能安装设计最佳逆变器系统。",
-    "solarChargeDescription": "我们的太阳能专家可以帮助您为电池系统选择合适的充电控制器。",
-    "energyStorageDescription": "我们的储能专家可以为您的太阳能安装设计最佳电池系统。"
   },
   "portfolioProjects": {
     "thermal-plant": {
@@ -719,72 +512,54 @@
       }
     }
   },
-  "projects": {
-    "industrial-automation-demo": {
-      "title": "演示：工业自动化系统",
-      "client": "未来制造公司",
-      "category": "过程自动化",
-      "description": "展示完整的制造自动化能力，包括PLC集成、SCADA系统和实时监控解决方案。",
-      "location": "项目现场待定",
-      "duration": "12-18个月",
-      "budget": "₹50-75万",
-      "status": "能力演示",
-      "technologies": {
-        "plcProgramming": "PLC编程",
-        "scada": "SCADA",
-        "hmi": "HMI",
-        "industrialIot": "工业物联网"
-      },
-      "highlights": {
-        "plcIntegration": "PLC集成",
-        "scadaSystems": "SCADA系统",
-        "realtimeMonitoring": "实时监控",
-        "processOptimization": "过程优化"
-      }
+  "products": {
+    "sections": {
+      "industrialProducts": "[TRANSLATE] Industrial Products",
+      "applications": "[TRANSLATE] {{product}} Applications",
+      "keyFeatures": "[TRANSLATE] Key Features:"
     },
-    "power-distribution-demo": {
-      "title": "示例：电力分配控制",
-      "client": "未来电力合作伙伴",
-      "category": "电力系统",
-      "description": "演示电力生产设施自动负载平衡和远程监控能力的示例电力分配系统。",
-      "location": "各个地点",
-      "duration": "10-15个月",
-      "budget": "₹1-2亿",
-      "status": "能力演示",
-      "technologies": {
-        "mccPanels": "MCC面板",
-        "protectionSystems": "保护系统",
-        "energyManagement": "能源管理",
-        "remoteMonitoring": "远程监控"
-      },
-      "highlights": {
-        "loadBalancing": "负载平衡",
-        "protectionSystems": "保护系统",
-        "energyManagement": "能源管理",
-        "remoteControl": "远程控制"
-      }
+    "badges": {
+      "highEfficiency": "[TRANSLATE] High Efficiency",
+      "variableSpeed": "[TRANSLATE] Variable Speed",
+      "lowNoise": "[TRANSLATE] Low Noise",
+      "smartControl": "[TRANSLATE] Smart Control",
+      "durable": "[TRANSLATE] Durable",
+      "energySaving": "[TRANSLATE] Energy Saving",
+      "reliable": "[TRANSLATE] Reliable",
+      "costEffective": "[TRANSLATE] Cost Effective"
     }
   },
-  "seo": {
-    "days": {
-      "monday": "星期一",
-      "tuesday": "星期二",
-      "wednesday": "星期三",
-      "thursday": "星期四",
-      "friday": "星期五",
-      "saturday": "星期六",
-      "sunday": "星期日"
+  "cta": {
+    "getQuote": "[TRANSLATE] Get Quote",
+    "callNow": "[TRANSLATE] Call Now",
+    "emailUs": "[TRANSLATE] Email Us",
+    "learnMore": "[TRANSLATE] Learn More",
+    "viewMore": "[TRANSLATE] View More",
+    "contactUs": "[TRANSLATE] Contact Us",
+    "getStarted": "[TRANSLATE] Get Started",
+    "downloadBrochure": "[TRANSLATE] Download Brochure"
+  },
+  "quote": {
+    "projectTypes": {
+      "processAutomation": "[TRANSLATE] Process Automation",
+      "powerControlSystems": "[TRANSLATE] Power Control Systems",
+      "instrumentationControl": "[TRANSLATE] Instrumentation & Control",
+      "solarAutomation": "[TRANSLATE] Solar Automation",
+      "buildingAutomation": "[TRANSLATE] Building Automation",
+      "manufacturingAutomation": "[TRANSLATE] Manufacturing Automation"
     },
-    "schemaTypes": {
-      "breadcrumbList": "面包屑列表",
-      "listItem": "列表项",
-      "faqPage": "FAQ页面",
-      "question": "问题",
-      "answer": "答案",
-      "itemList": "项目列表",
-      "service": "服务",
-      "localBusiness": "本地业务",
-      "openingHours": "营业时间规范"
+    "industries": {
+      "manufacturing": "[TRANSLATE] Manufacturing",
+      "powerGeneration": "[TRANSLATE] Power Generation",
+      "oilGas": "[TRANSLATE] Oil & Gas",
+      "chemicalProcessing": "[TRANSLATE] Chemical Processing",
+      "waterTreatment": "[TRANSLATE] Water Treatment",
+      "foodBeverage": "[TRANSLATE] Food & Beverage",
+      "pharmaceutical": "[TRANSLATE] Pharmaceutical",
+      "renewableEnergy": "[TRANSLATE] Renewable Energy"
     }
+  },
+  "common": {
+    "keyFeatures": "[TRANSLATE] Key Features"
   }
 }

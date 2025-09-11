@@ -22,47 +22,45 @@
     "ha": "Hausa"
   },
   "navigation": {
-    "backToProducts": "Koma ga Samfuran",
-    "backToInstrumentationComponents": "Koma ga Kayan Aikin",
-    "backToElectricalComponents": "Koma ga Kayan Wutar Lantarki",
-    "backToSolarProducts": "Koma ga Samfuran Hasken Rana",
-    "backToMechanicalPumps": "Koma ga Famfunan Mashin da Kayan Gyara",
-    "backToMeasurementInstruments": "Koma ga Kayan Auna",
-    "backToSafetyDevices": "Koma ga Kayan Tsaro",
-    "backToIndustrialTools": "Koma ga Kayan Aikin Masana'antu",
-    "backToAutomationSystems": "Koma ga Tsarin Atomatik",
-    "backToBLDC": "Koma ga Samfuran BLDC"
+    "backToProducts": "[TRANSLATE] Back to Products",
+    "backToElectricalComponents": "[TRANSLATE] Back to Electrical Components",
+    "backToSolarProducts": "[TRANSLATE] Back to Solar Products",
+    "backToMechanicalPumps": "[TRANSLATE] Back to Mechanical Pumps & Spares",
+    "backToMeasurementInstruments": "[TRANSLATE] Back to Measurement Instruments",
+    "backToIndustrialTools": "[TRANSLATE] Back to Industrial Tools & Tackles",
+    "backToAutomationSystems": "[TRANSLATE] Back to Automation & Control Systems",
+    "backToBLDC": "[TRANSLATE] Back to BLDC Products"
   },
   "testimonials": {
     "anand": {
       "name": "Anand Awasthi",
-      "location": "Yammacin Bengal",
-      "comment": "Powerton Engineering ya sa tsarin samun makamashin hasken rana ya zama sauƙi kuma mai sauƙi. Ƙungiyarsu ta kula da komai daga farawa zuwa ƙarshe, kuma muna farin ciki da sakamakon."
+      "location": "West Bengal",
+      "comment": "Powerton Engineering ta sanya aikin amfani da makamashin rana ya zama mai sauƙi da kuma sauƙi. Ƙungiyarsu ta ɗauki kula da komai daga farko zuwa ƙarshe, kuma muna jin daɗi sosai da sakamakon."
     },
     "sanjay": {
       "name": "Sanjay Patil",
       "location": "Uttar Pradesh",
-      "comment": "Na yi murna da zaɓar Powerton Engineering don shigarwa, kuma ba zan yi shakka ba in ba da shawarar ga kowane abokina."
+      "comment": "Na yi farin ciki da zaɓar Powerton Engineering don shigarwar mu, kuma ba zan dadin yin wa kowane ɗan uwana shawara ba."
     },
     "rhea": {
       "name": "Rhea Sharma",
       "location": "Maharashtra",
-      "comment": "Kayayyaki masu inganci da sabis na abokan ciniki na musamman. Ƙwarewar fasaha ta ƙungiyar tana da ban sha'awa kuma ƙwararru sosai."
+      "comment": "Samfuran inganci na musamman da sabis na abokan ciniki na musamman. Ƙwarewar fasaha ta ƙungiyar tana da ban sha'awa kuma tana da ƙwarewa sosai."
     },
     "priya": {
       "name": "Priya Mehta",
       "location": "Gujarat",
-      "comment": "Yin aiki da Powerton Engineering ya kasance ƙwarewa mai ban mamaki. Hanyoyin sarrafa su sun canza tsarin masana'antuninmu kuma sun inganta ƙarfi da kashi 35. Ana ba da shawarar sosai don ayyukan sarrafa masana'antu."
+      "comment": "Yin aiki tare da Powerton Engineering ya kasance gogewa mai ban mamaki. Hanyoyin sarrafa su ta atomatik sun canza tsarin samarwa mu kuma sun inganta inganci da kashi 35%. An ba da shawarar sosai don ayyukan sarrafa masana'antu ta atomatik."
     },
     "kavya": {
       "name": "Kavya Singh",
       "location": "Karnataka",
-      "comment": "Sabis na musamman da tallafin fasaha! Ƙungiyar ta ba da jagorarwa ta musamman a lokacin aiwatar da aikinmu na hasken rana. Tsarin ƙwararrsu da isar da kaya a lokaci ya zarce tsammaninmu gaba ɗaya."
+      "comment": "Sabis na musamman da tallafin fasaha! Ƙungiyar ta ba da jagora na musamman yayin aiwatar da aikinmu na rana. Hanyarsu ta sana'a da isar da lokaci sun wuce tsammaninmu gaba ɗaya."
     },
     "rajesh": {
       "name": "Rajesh Kumar",
       "location": "Tamil Nadu",
-      "comment": "Powerton Engineering ta ba da ainihin abin da suka yi alkawari. Tsarin kayan aikin da suka shigar ya kasance yana aiki ba tare da wata matsala ba sama da shekaru biyu. Tallafin su bayan siyarwa yana da ban mamaki kuma yana amsawa koyaushe."
+      "comment": "Powerton Engineering ta kai daidai abin da suka yi alkawari. Tsarin kayan aikin auna da suka shigar ya kasance yana aiki da kyau sama da shekaru biyu. Tallafin su bayan sayar da kyan gani ne kuma ko da yaushe suna amsa."
     }
   },
   "technicalTerms": {
@@ -83,45 +81,34 @@
     "IEEE": "IEEE (Ƙungiyar Injiniyoyin Lantarki da Elektroniki)"
   },
   "buttons": {
-    "learnMore": "Koyi ƙari",
-    "getQuote": "Sami farashin",
-    "contact": "Tuntube mu",
-    "contactUs": "Tuntube mu",
-    "viewAll": "Duba duka",
-    "readMore": "Karanta ƙari",
-    "viewDetails": "Duba cikakkun bayanai",
-    "download": "Sauke",
-    "downloadCatalog": "Sauke catalog",
-    "downloadBrochure": "Sauke littafin",
-    "downloadGuide": "Sauke jagora",
-    "downloadDatasheet": "Sauke takardun bayanai",
-    "downloadPortfolio": "Sauke ayyuka",
-    "requestQuote": "Nemi farashin",
-    "contactProtectionExperts": "Tuntube Masana Kariya",
-    "contactSolarExperts": "Tuntube Masana Makamashin Rana",
-    "showMore": "Nuna ƙari",
-    "showFilters": "Nuna tacewa",
-    "hideFilters": "Ɓoye tacewa",
-    "upload": "Loda",
-    "expertTeam": "Ƙungiyar ƙwararru",
-    "successfulProjects": "Ayyukan da suka yi nasara",
-    "qualityProducts": "Samfuran inganci"
+    "downloadPortfolio": "[TRANSLATE] Download Portfolio",
+    "showFilters": "[TRANSLATE] Show Filters",
+    "readMore": "[TRANSLATE] Read More",
+    "downloadCatalog": "[TRANSLATE] Download Catalog",
+    "viewDetails": "[TRANSLATE] View Details",
+    "backTo": "[TRANSLATE] Back to {{category}}",
+    "backToBldcProducts": "[TRANSLATE] Back to BLDC Products",
+    "backToProducts": "[TRANSLATE] Back to Products",
+    "requestQuote": "[TRANSLATE] Request Quote",
+    "expertTeam": "[TRANSLATE] Expert Team",
+    "successfulProjects": "[TRANSLATE] Successful Projects",
+    "qualityProducts": "[TRANSLATE] Quality Products",
+    "sendMessage": "[TRANSLATE] Send Message",
+    "sending": "[TRANSLATE] Sending...",
+    "submit": "[TRANSLATE] Submit",
+    "viewProducts": "[TRANSLATE] View Products",
+    "viewServices": "[TRANSLATE] View Services",
+    "getInTouch": "[TRANSLATE] Get In Touch",
+    "exploreProducts": "[TRANSLATE] Explore Products",
+    "viewCatalog": "[TRANSLATE] View Catalog",
+    "quickQuote": "[TRANSLATE] Quick Quote"
   },
   "loading": "Ana lodawa...",
   "error": "Wani abu ya yi kuskure",
   "success": "Nasara!",
   "messages": {
-    "toggleTheme": "Canza jigo",
-    "close": "Rufe",
-    "imageNotFound": "Ba a sami hoton ba",
-    "loading": "Ana lodawa...",
-    "error": "Kuskure ya faru",
-    "openMobileMenu": "Buɗe menu na wayar hannu"
-  },
-  "navigation": {
-    "backToInstrumentationComponents": "Koma zuwa Abubuwan Instrumentation",
-    "phoneNumbers": "Lambobin waya",
-    "backToSafetyDevices": "Koma zuwa Na'urorin Aminci da Kariya"
+    "toggleTheme": "Canza Jigo",
+    "close": "Rufe"
   },
   "aria": {
     "toggleNavigation": "Juyawa mataimakin kewayawa",
@@ -234,66 +221,30 @@
     }
   },
   "seo": {
-    "days": {
-      "monday": "Litinin",
-      "tuesday": "Talata",
-      "wednesday": "Laraba",
-      "thursday": "Alhamis",
-      "friday": "Jumma'a",
-      "saturday": "Asabar",
-      "sunday": "Lahadi"
+    "powerton": {
+      "name": "[TRANSLATE] Powerton Engineering Pvt. Ltd.",
+      "description": "[TRANSLATE] Leading industrial automation and electrical engineering company serving clients globally. Specializing in power plant automation, solar installations, and manufacturing control systems.",
+      "keywords": "[TRANSLATE] Industrial Automation, Electrical Engineering, Power Plant, Solar Energy, Manufacturing, Control Systems, Instrumentation, SCADA, PLC, Automation Solutions, Electrical Installation, Industrial Control Panels, Process Automation, Power Distribution, Motor Control Centers, Electrical Maintenance, Industrial Electrical Services, Automation Consulting, Electrical Design, Power Systems",
+      "author": "[TRANSLATE] Powerton Engineering Team"
     },
-    "schemaTypes": {
-      "breadcrumbList": "Jerin kewayawa",
-      "listItem": "Abu na jeri",
-      "faqPage": "Shafin tambayoyin da ake yawan yi",
-      "question": "Tambaya",
-      "answer": "Amsa",
-      "itemList": "Jerin abubuwa",
-      "service": "Hidima",
-      "localBusiness": "Kasuwancin gida",
-      "openingHours": "Ƙayyadaddun lokutan buɗewa"
+    "location": {
+      "name": "[TRANSLATE] Noida, Uttar Pradesh, India",
+      "region": "[TRANSLATE] Uttar Pradesh",
+      "country": "[TRANSLATE] India"
     }
   },
   "labels": {
-    "responseTime": "Lokacin amsawa",
-    "availability": "Samun damar",
-    "coverage": "Rufewa",
-    "technologies": "Fasahohi",
-    "parameters": "Ma'auni",
-    "specifications": "Takaitaccen bayani",
-    "applications": "Amfani",
-    "industries": "Masana'antu",
-    "keyFeatures": "Mahimman abubuwa",
-    "includes": "Ya haɗa da",
-    "projectType": "Nau'in aikin",
-    "industry": "Masana'anta",
-    "projectSize": "Girman aikin",
-    "timeline": "Jadawalin lokaci",
-    "location": "Wuri",
-    "budget": "Kasafin kuɗi",
-    "requirements": "Buƙatu",
-    "category": "Rukuni",
-    "status": "Matsayi",
-    "popular": "Shahararru",
-    "duration": "Lokaci",
-    "projectsCompleted": "Ayyukan da Aka Gama",
-    "satisfiedClients": "Abokan Ciniki da Suka Gamsu",
-    "yearsExperience": "Shekarun Gogewa"
-  },
-  "buttons": {
-    "downloadPortfolio": "Sauke fayil",
-    "showFilters": "Nuna tacewa",
-    "quickQuote": "Farashin Gaggawa"
-  },
-  "messages": {
-    "serviceNotFound": "Ba a sami sabis ba",
-    "readyToStart": "Kuna shirye ku fara?",
-    "consultation": "Tuntube mu don samun cikakken shawarwari da madaidaicin bayani.",
-    "availability": "Litinin - Asabar, Ana samun tallafi na gaggawa",
-    "coverage": "Sabis a duk India",
-    "needHelp": "Kuna buƙatar taimako wajen neman wani abu?",
-    "cantFind": "Ba za ku iya samun abin da kuke nema ba? Tuntube mu kai tsaye ko amfana da chatbot mai hankali da ke samuwa a kowane shafi."
+    "category": "[TRANSLATE] Category",
+    "status": "[TRANSLATE] Status",
+    "industry": "[TRANSLATE] Industry",
+    "projectType": "[TRANSLATE] Project Type",
+    "popular": "[TRANSLATE] Popular",
+    "duration": "[TRANSLATE] Duration",
+    "keyFeatures": "[TRANSLATE] Key Features",
+    "projectsCompleted": "[TRANSLATE] Projects Completed",
+    "satisfiedClients": "[TRANSLATE] Satisfied Clients",
+    "yearsExperience": "[TRANSLATE] Years Experience",
+    "responseTime": "[TRANSLATE] Response Time"
   },
   "placeholders": {
     "selectProjectType": "Zaɓi nau'in aikin",
@@ -317,56 +268,60 @@
     "briefProjectTitle": "Taƙaicen taken aikinku"
   },
   "projectCategories": {
-    "Power Plant": "Gidajen Wutar Lantarki",
-    "Manufacturing": "Masana'anta",
-    "Solar": "Hasken Rana",
-    "Water Treatment": "Tsaftace Ruwa",
-    "Process Automation": "Sarrafa Ayyuka Ta Atomatik",
+    "Power Plant": "Masana'ar Wutar Lantarki",
+    "Manufacturing": "Samarwa",
+    "Solar": "Rana",
+    "Water Treatment": "Maganin Ruwa",
+    "Process Automation": "Sarrafa Ayyuka ta Atomatik",
     "Power Systems": "Tsarin Wutar Lantarki"
   },
   "projects": {
-    "industrial-automation-demo": {
-      "title": "Misali: Tsarin Sarrafa Masana'antu Ta Atomatik",
-      "client": "Abokin Ciniki na Masana'antu na Gobe",
-      "category": "Sarrafa Ayyuka Ta Atomatik",
-      "description": "Nuni na cikakken ikon sarrafa masana'antu ta atomatik da ya hada da haɗa PLC, tsarin SCADA da magudanar sa ido na lokaci-lokaci.",
-      "location": "Wurin Aikin TBD",
-      "duration": "Watanni 12-18",
-      "budget": "₹50-75 Lakhs",
-      "status": "Nuni na Iko",
-      "technologies": {
-        "plcProgramming": "Shirye-shiryen PLC",
-        "scada": "SCADA",
-        "hmi": "HMI",
-        "industrialIot": "IoT na Masana'antu"
-      },
+    "thermal-plant": {
+      "title": "[TRANSLATE] Thermal Power Plant Automation",
+      "description": "[TRANSLATE] Complete automation solution for 250MW thermal power plant including control panels, SCADA systems, and safety interlocks.",
+      "location": "[TRANSLATE] Uttar Pradesh",
+      "duration": "[TRANSLATE] 12 months",
       "highlights": {
-        "plcIntegration": "Haɗa PLC",
-        "scadaSystems": "Tsarin SCADA",
-        "realtimeMonitoring": "Sa ido na Lokaci-Lokaci",
-        "processOptimization": "Inganta Ayyuka"
+        "scada": "[TRANSLATE] SCADA Implementation",
+        "safety": "[TRANSLATE] Safety Systems",
+        "control": "[TRANSLATE] Control Panels",
+        "monitoring": "[TRANSLATE] Performance Monitoring"
       }
     },
-    "power-distribution-demo": {
-      "title": "Misali: Sarrafa Rarraba Wutar Lantarki",
-      "client": "Abokin Hulɗa na Wutar Lantarki na Gobe",
-      "category": "Tsarin Wutar Lantarki",
-      "description": "Misali na tsarin rarraba wutar lantarki da ke nuna daidaita kaya ta atomatik da ikon sa ido daga nesa don gidajen samar da wutar lantarki.",
-      "location": "Wurare Daban-daban",
-      "duration": "Watanni 10-15",
-      "budget": "₹1-2 Crores",
-      "status": "Nuni na Iko",
-      "technologies": {
-        "mccPanels": "Panels na MCC",
-        "protectionSystems": "Tsarin Kariya",
-        "energyManagement": "Sarrafa Makamashi",
-        "remoteMonitoring": "Sa ido daga Nesa"
-      },
+    "pharma-plant": {
+      "title": "[TRANSLATE] Pharmaceutical Plant Control System",
+      "description": "[TRANSLATE] Advanced process control and monitoring system for pharmaceutical manufacturing with FDA compliance and data integrity features.",
+      "location": "[TRANSLATE] Maharashtra",
+      "duration": "[TRANSLATE] 8 months",
       "highlights": {
-        "loadBalancing": "Daidaita Kaya",
-        "protectionSystems": "Tsarin Kariya",
-        "energyManagement": "Sarrafa Makamashi",
-        "remoteControl": "Sarrafa daga Nesa"
+        "fda": "[TRANSLATE] FDA Compliance",
+        "data": "[TRANSLATE] Data Integrity",
+        "process": "[TRANSLATE] Process Control",
+        "quality": "[TRANSLATE] Quality Monitoring"
+      }
+    },
+    "solar-plant": {
+      "title": "[TRANSLATE] 10MW Solar Power Installation",
+      "description": "[TRANSLATE] Complete design and installation of grid-connected solar power plant with monitoring systems and grid synchronization equipment.",
+      "location": "[TRANSLATE] Rajasthan",
+      "duration": "[TRANSLATE] 6 months",
+      "highlights": {
+        "grid": "[TRANSLATE] Grid Connection",
+        "monitoring": "[TRANSLATE] Monitoring Systems",
+        "optimization": "[TRANSLATE] Performance Optimization",
+        "maintenance": "[TRANSLATE] Maintenance Planning"
+      }
+    },
+    "water-treatment": {
+      "title": "[TRANSLATE] Municipal Water Treatment Automation",
+      "description": "[TRANSLATE] Automated control system for water treatment plant serving 500,000 residents with real-time monitoring and quality control.",
+      "location": "[TRANSLATE] West Bengal",
+      "duration": "[TRANSLATE] 10 months",
+      "highlights": {
+        "monitoring": "[TRANSLATE] Real-time Monitoring",
+        "quality": "[TRANSLATE] Quality Control",
+        "automation": "[TRANSLATE] Automated Operations",
+        "remote": "[TRANSLATE] Remote Management"
       }
     }
   },
@@ -377,15 +332,13 @@
     "additionalInformation": "Ƙarin bayani"
   },
   "altTexts": {
-    "companyLogo": "Alamar Powerton Engineering Pvt. Ltd.",
-    "contactCenterBackground": "Bangon cibiyar sadarwa da ofishin tallafi na abokan ciniki na kamfanin injiniya",
-    "aboutCompanyFacility": "Wurin sarrafa masana'antu na Powerton Engineering da zamani na tsarin sarrafawa",
-    "officeLocation": "Wurin ofishin Powerton Engineering"
+    "contactBackground": "[TRANSLATE] ID-834: Contact center and customer support office background for engineering company",
+    "aboutBackground": "[TRANSLATE] ID-004: Powerton Engineering industrial automation facility with modern control systems"
   },
   "sitemap": {
     "sections": {
       "mainPages": "Manyan shafuka",
-      "servicesProjects": "Ayyuka da ayyuka", 
+      "servicesProjects": "Ayyuka da ayyuka",
       "productCategories": "Rukkunan kayayyaki",
       "resourcesTools": "Albarkatu da kayan aiki",
       "legalInformation": "Bayanan doka"
@@ -459,31 +412,6 @@
       "responseTime": "awanni 2"
     }
   },
-  "buttons": {
-    "getQuote": "Samu Adadi",
-    "callNow": "Kira Yanzu",
-    "emailUs": "Aika Sakon Imel",
-    "learnMore": "Koyi Kara",
-    "viewMore": "Duba Kara",
-    "viewAll": "Duba Duka",
-    "contactUs": "Tuntube Mu",
-    "getStarted": "Fara",
-    "downloadBrochure": "Sauke Littafi"
-  },
-  "labels": {
-    "businessHours": "Lokuttan Kasuwanci",
-    "mondayToSaturday": "Litinin - Asabar",
-    "workingHours": "9:00 Safiya - 6:00 Yamma",
-    "sunday": "Lahadi",
-    "emergencySupport": "Tallafin Gaggawa Kawai"
-  },
-  "altTexts": {
-    "companyLogo": "Alamar Powerton Engineering Pvt. Ltd."
-  },
-  "messages": {
-    "toggleTheme": "Canza Jigo",
-    "close": "Rufe"
-  },
   "clients": {
     "sci-group": "Kamfanin Jiragen Ruwa na Indiya",
     "agribio": "AgriBio Jamus",
@@ -505,33 +433,6 @@
     "text": "© {{year}} Powerton Engineering Pvt. Ltd. Dukkan haƙƙoƙin an kiyaye su.",
     "madeWith": "An yi shi da 💙 ta ƙungiyar Powerton Engineering"
   },
-  "seo": {
-    "defaultTitle": "Powerton Engineering Pvt. Ltd. - Allunan sarrafa masana'antu da hanyoyin sarrafa ta atomatik",
-    "defaultDescription": "Babban mai kera allunan sarrafa wutar lantarki, tsarin sarrafa masana'antu ta atomatik da hanyoyin kayan aikin auna. Yin sabis ga masana'antu a duk India da ingantattun kayayyakin injiniya da ayyuka.",
-    "defaultKeywords": "allunan sarrafa wutar lantarki, sarrafa masana'antu ta atomatik, cibiyar sarrafa wutar lantarki, cibiyar sarrafa injina, kayan aikin auna, injiniyan wutar lantarki, India",
-    "companyName": "Powerton Engineering Pvt. Ltd.",
-    "companyDescription": "Babban mai kera allunan sarrafa wutar lantarki da hanyoyin sarrafa masana'antu ta atomatik",
-    "siteName": "Powerton Engineering",
-    "twitterHandle": "@powertoneng",
-    "businessAddress": {
-      "street": "Bene na 2, F-25, F Block, Sashe 6",
-      "city": "Noida", 
-      "state": "Uttar Pradesh",
-      "postal": "201301",
-      "country": "India"
-    },
-    "contact": {
-      "phone": "+91-94627-71662",
-      "email": "info@powertonengineering.com"
-    },
-    "businessInfo": {
-      "industry": "Sarrafa masana'antu ta atomatik, Injiniyan wutar lantarki, Kayan aikin auna",
-      "category": "Ayyukan injiniya, Hanyoyin sarrafa ta atomatik, Tsarin wutar lantarki",
-      "targetAudience": "Injiniyoyin masana'antu, Manajoji na masana'a, Kwararrun sarrafa ta atomatik",
-      "companyType": "Mai bayar da hanyoyin injiniya B2B",
-      "serviceArea": "India, Sabis na duk India"
-    }
-  },
   "tags": {
     "award": "Kyauta",
     "recognition": "Sanin",
@@ -551,44 +452,54 @@
     "quality": "Inganci",
     "certification": "Takaddama"
   },
-  "testimonials": {
-    "anand": {
-      "name": "Anand Awasthi",
-      "location": "West Bengal",
-      "comment": "Powerton Engineering ta sanya aikin amfani da makamashin rana ya zama mai sauƙi da kuma sauƙi. Ƙungiyarsu ta ɗauki kula da komai daga farko zuwa ƙarshe, kuma muna jin daɗi sosai da sakamakon."
+  "products": {
+    "sections": {
+      "industrialProducts": "[TRANSLATE] Industrial Products",
+      "applications": "[TRANSLATE] {{product}} Applications",
+      "keyFeatures": "[TRANSLATE] Key Features:"
     },
-    "sanjay": {
-      "name": "Sanjay Patil",
-      "location": "Uttar Pradesh",
-      "comment": "Na yi farin ciki da zaɓar Powerton Engineering don shigarwar mu, kuma ba zan dadin yin wa kowane ɗan uwana shawara ba."
-    },
-    "rhea": {
-      "name": "Rhea Sharma",
-      "location": "Maharashtra",
-      "comment": "Samfuran inganci na musamman da sabis na abokan ciniki na musamman. Ƙwarewar fasaha ta ƙungiyar tana da ban sha'awa kuma tana da ƙwarewa sosai."
-    },
-    "priya": {
-      "name": "Priya Mehta",
-      "location": "Gujarat",
-      "comment": "Yin aiki tare da Powerton Engineering ya kasance gogewa mai ban mamaki. Hanyoyin sarrafa su ta atomatik sun canza tsarin samarwa mu kuma sun inganta inganci da kashi 35%. An ba da shawarar sosai don ayyukan sarrafa masana'antu ta atomatik."
-    },
-    "kavya": {
-      "name": "Kavya Singh",
-      "location": "Karnataka",
-      "comment": "Sabis na musamman da tallafin fasaha! Ƙungiyar ta ba da jagora na musamman yayin aiwatar da aikinmu na rana. Hanyarsu ta sana'a da isar da lokaci sun wuce tsammaninmu gaba ɗaya."
-    },
-    "rajesh": {
-      "name": "Rajesh Kumar",
-      "location": "Tamil Nadu",
-      "comment": "Powerton Engineering ta kai daidai abin da suka yi alkawari. Tsarin kayan aikin auna da suka shigar ya kasance yana aiki da kyau sama da shekaru biyu. Tallafin su bayan sayar da kyan gani ne kuma ko da yaushe suna amsa."
+    "badges": {
+      "highEfficiency": "[TRANSLATE] High Efficiency",
+      "variableSpeed": "[TRANSLATE] Variable Speed",
+      "lowNoise": "[TRANSLATE] Low Noise",
+      "smartControl": "[TRANSLATE] Smart Control",
+      "durable": "[TRANSLATE] Durable",
+      "energySaving": "[TRANSLATE] Energy Saving",
+      "reliable": "[TRANSLATE] Reliable",
+      "costEffective": "[TRANSLATE] Cost Effective"
     }
   },
-  "projectCategories": {
-    "Power Plant": "Masana'ar Wutar Lantarki",
-    "Manufacturing": "Samarwa",
-    "Solar": "Rana",
-    "Water Treatment": "Maganin Ruwa",
-    "Process Automation": "Sarrafa Ayyuka ta Atomatik",
-    "Power Systems": "Tsarin Wutar Lantarki"
+  "cta": {
+    "getQuote": "[TRANSLATE] Get Quote",
+    "callNow": "[TRANSLATE] Call Now",
+    "emailUs": "[TRANSLATE] Email Us",
+    "learnMore": "[TRANSLATE] Learn More",
+    "viewMore": "[TRANSLATE] View More",
+    "contactUs": "[TRANSLATE] Contact Us",
+    "getStarted": "[TRANSLATE] Get Started",
+    "downloadBrochure": "[TRANSLATE] Download Brochure"
+  },
+  "quote": {
+    "projectTypes": {
+      "processAutomation": "[TRANSLATE] Process Automation",
+      "powerControlSystems": "[TRANSLATE] Power Control Systems",
+      "instrumentationControl": "[TRANSLATE] Instrumentation & Control",
+      "solarAutomation": "[TRANSLATE] Solar Automation",
+      "buildingAutomation": "[TRANSLATE] Building Automation",
+      "manufacturingAutomation": "[TRANSLATE] Manufacturing Automation"
+    },
+    "industries": {
+      "manufacturing": "[TRANSLATE] Manufacturing",
+      "powerGeneration": "[TRANSLATE] Power Generation",
+      "oilGas": "[TRANSLATE] Oil & Gas",
+      "chemicalProcessing": "[TRANSLATE] Chemical Processing",
+      "waterTreatment": "[TRANSLATE] Water Treatment",
+      "foodBeverage": "[TRANSLATE] Food & Beverage",
+      "pharmaceutical": "[TRANSLATE] Pharmaceutical",
+      "renewableEnergy": "[TRANSLATE] Renewable Energy"
+    }
+  },
+  "common": {
+    "keyFeatures": "[TRANSLATE] Key Features"
   }
 }

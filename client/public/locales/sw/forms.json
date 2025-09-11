@@ -49,134 +49,62 @@
     }
   },
   "quote": {
-    "projectTypes": {
-      "newInstallation": "Usakinishaji Mpya",
-      "systemUpgrade": "Uboreshaji wa Mfumo",
-      "retrofit": "Marekebisho",
-      "maintenance": "Mkataba wa Matengenezo",
-      "consultation": "Ushauri wa Kiufundi",
-      "design": "Muundo na Uhandisi"
-    },
-    "timelines": {
-      "immediate": "Mara Moja (< mwezi 1)",
-      "1-3-months": "Miezi 1-3",
-      "3-6-months": "Miezi 3-6",
-      "6-12-months": "Miezi 6-12",
-      "1-year-plus": "Zaidi ya mwaka 1"
-    },
-    "budgetRanges": {
-      "under-1-lakh": "Chini ya ₹1 Lakh",
-      "1-5-lakh": "₹1-5 Lakh",
-      "5-10-lakh": "₹5-10 Lakh",
-      "10-25-lakh": "₹10-25 Lakh",
-      "25-50-lakh": "₹25-50 Lakh",
-      "50-lakh-plus": "₹50 Lakh+",
-      "discuss": "Ninapendelea kujadili"
-    },
     "validation": {
-      "nameMin": "Jina lazima liwe na angalau herufi 2",
-      "emailInvalid": "Tafadhali ingiza anwani halali ya barua pepe",
-      "phoneMin": "Tafadhali ingiza nambari halali ya simu",
-      "companyRequired": "Jina la kampuni linahitajika",
-      "projectTitleRequired": "Kichwa cha mradi kinahitajika",
-      "projectTypeRequired": "Tafadhali chagua aina ya mradi",
-      "timelineRequired": "Tafadhali chagua ratiba inayotarajiwa",
-      "servicesRequired": "Tafadhali chagua angalau huduma moja",
-      "specificationsMin": "Tafadhali toa maelezo ya kina (angalau herufi 20)"
-    },
-    "success": {
-      "title": "Ombi la nukuu limetumwa kwa mafanikio!",
-      "description": "Timu yetu ya uhandisi itakagua mahitaji yako na kujibu ndani ya masaa 24-48."
-    },
-    "placeholders": {
-      "selectIndustry": "Chagua sekta",
-      "selectProjectScale": "Chagua ukubwa wa mradi",
-      "selectBudget": "Chagua kiwango cha bajeti (hiari)",
-      "detailedRequirements": "Tafadhali toa maelezo ya kina yakijumuisha:\n- Mahitaji ya kiufundi na viwango\n- Maelezo ya vifaa na idadi\n- Mahitaji ya utendaji\n- Mazingira\n- Mahitaji ya kufuata\n- Yoyote mengine ya kipekee...",
-      "additionalRequirements": "Mahitaji yoyote ya ziada, masharti maalum au maswali...",
-      "preferredBrands": "k.m. Siemens, Allen-Bradley, Schneider..."
-    },
-    "labels": {
-      "industryType": "Aina ya Sekta",
-      "projectScale": "Ukubwa wa Mradi",
-      "approximateBudget": "Bajeti ya Takribani",
-      "detailedRequirements": "Mahitaji ya Kina *",
-      "preferredBrands": "Chapa/Viwango Vinavyopendelewa",
-      "additionalRequirements": "Mahitaji ya Ziada",
-      "projectTitle": "Kichwa cha Mradi *",
-      "projectType": "Aina ya Mradi *",
-      "expectedTimeline": "Ratiba Inayotarajiwa *",
-      "phoneNumber": "Nambari ya Simu *",
-      "companyName": "Jina la Kampuni *",
-      "projectInformation": "Habari za Mradi",
-      "budgetRange": "Kiwango cha Bajeti"
+      "nameRequired": "[TRANSLATE] Name is required",
+      "phoneRequired": "[TRANSLATE] Phone number is required",
+      "subjectRequired": "[TRANSLATE] Subject is required",
+      "messageRequired": "[TRANSLATE] Message is required",
+      "firstNameRequired": "[TRANSLATE] First name is required",
+      "lastNameRequired": "[TRANSLATE] Last name is required",
+      "invalidEmail": "[TRANSLATE] Invalid email address",
+      "selectService": "[TRANSLATE] Please select a service",
+      "projectDetailsRequired": "[TRANSLATE] Project details are required"
     },
     "sections": {
-      "requiredServices": "Huduma Zinazohitajika *"
+      "contactInfo": "[TRANSLATE] Contact Information"
     },
-    "submitting": "Kutuma Ombi la Nukuu...",
-    "buttons": {
-      "getProfessionalQuote": "Pata Nukuu ya Kitaalamu"
-    },
-    "fields": {
-      "designation": {
-        "label": "Cheo"
-      },
-      "additionalRequirements": {
-        "label": "Mahitaji ya ziada"
-      }
-    },
-    "industries": {
-      "manufacturing": "Utengenezaji",
-      "powerGeneration": "Uzalishaji wa Umeme",
-      "waterTreatment": "Usafishaji wa Maji",
-      "foodProcessing": "Usindikaji wa Chakula",
-      "pharmaceutical": "Dawa",
-      "chemical": "Kemikali",
-      "renewableEnergy": "Nishati Mbadala",
-      "infrastructure": "Miundombinu",
-      "other": "Nyingine"
+    "error": {
+      "title": "[TRANSLATE] Quote submission failed",
+      "description": "[TRANSLATE] For immediate assistance: {{phone}} or email: {{email}}"
     }
   },
   "career": {
-    "validation": {
-      "nameMin": "Jina lazima liwe na angalau herufi 2",
-      "emailInvalid": "Tafadhali ingiza anwani sahihi ya barua pepe",
-      "phoneMin": "Nambari ya simu lazima iwe na angalau nambari 10",
-      "specializationRequired": "Tafadhali chagua utaalamu wako wa uhandisi",
-      "experienceRequired": "Tafadhali chagua kiwango chako cha uzoefu",
-      "educationRequired": "Tafadhali toa maelezo ya elimu yako",
-      "joiningTimeRequired": "Tafadhali bainisha ni kwa kasi gani unaweza kujiunga",
-      "skillsMin": "Tafadhali toa maelezo kuhusu ustadi wako",
-      "coverLetterMin": "Tafadhali andika barua ya kujitambulisha fupi (angalau herufi 20)",
-      "addressMin": "Tafadhali toa anwani yako kamili"
+    "placeholders": {
+      "fullName": "[TRANSLATE] Enter your full name",
+      "email": "[TRANSLATE] your.email@example.com",
+      "phone": "[TRANSLATE] +91 9876543210",
+      "address": "[TRANSLATE] Enter your complete address (House/Flat No., Street, City, State, PIN)",
+      "currentCompany": "[TRANSLATE] Your current company (optional)",
+      "education": "[TRANSLATE] e.g., B.Tech Electrical Engineering",
+      "expectedSalary": "[TRANSLATE] e.g., 5-8 LPA or Negotiable",
+      "skills": "[TRANSLATE] List your technical skills, software knowledge, programming languages, certifications, etc.",
+      "coverLetter": "[TRANSLATE] Tell us about your motivation, career goals, and how you can contribute to our team...",
+      "selectSpecialization": "[TRANSLATE] Select your area of expertise",
+      "selectExperience": "[TRANSLATE] Select experience level",
+      "selectAvailability": "[TRANSLATE] Select your availability"
     },
-    "specializations": {
-      "electricalEngineering": "Uhandisi wa Umeme",
-      "automationControl": "Mifumo ya Otomatiki na Udhibiti",
-      "instrumentation": "Uhandisi wa Vifaa",
-      "projectManagement": "Usimamizi wa Miradi",
-      "technicalSales": "Mauzo ya Kiufundi",
-      "fieldService": "Huduma za Shambani na Uwekaji",
-      "designEngineering": "Muundo na Maendeleo",
-      "solarRenewable": "Nishati ya Jua na Mbadala",
-      "other": "Utaalamu Mwingine"
+    "labels": {
+      "title": "[TRANSLATE] Join Our Engineering Team",
+      "subtitle": "[TRANSLATE] Submit your application and become part of our innovative engineering solutions team",
+      "personalInfo": "[TRANSLATE] Personal Information",
+      "professionalInfo": "[TRANSLATE] Professional Information",
+      "fullName": "[TRANSLATE] Full Name",
+      "emailAddress": "[TRANSLATE] Email Address",
+      "phoneNumber": "[TRANSLATE] Phone Number",
+      "residingAddress": "[TRANSLATE] Current Residing Address",
+      "specialization": "[TRANSLATE] Engineering Specialization",
+      "experience": "[TRANSLATE] Experience Level",
+      "currentCompany": "[TRANSLATE] Current Company",
+      "availability": "[TRANSLATE] Availability/Notice Period",
+      "education": "[TRANSLATE] Education/Qualification",
+      "expectedSalary": "[TRANSLATE] Expected Salary",
+      "technicalSkills": "[TRANSLATE] Technical Skills & Expertise",
+      "coverLetter": "[TRANSLATE] Cover Letter & Motivation"
     },
-    "experience": {
-      "fresher": "Mwanzo (miaka 0-1)",
-      "oneToThree": "Miaka 1-3",
-      "threeToFive": "Miaka 3-5",
-      "fiveToEight": "Miaka 5-8",
-      "eightToTwelve": "Miaka 8-12",
-      "twelvePlus": "Miaka 12+"
-    },
-    "joiningTime": {
-      "immediate": "Anaweza kujiunga mara moja",
-      "fifteenDays": "Kipindi cha notisi siku 15",
-      "oneMonth": "Kipindi cha notisi mwezi 1",
-      "twoMonths": "Kipindi cha notisi miezi 2",
-      "threeMonths": "Kipindi cha notisi miezi 3",
-      "moreThanThree": "Notisi zaidi ya miezi 3"
+    "buttons": {
+      "submit": "[TRANSLATE] Submit Application",
+      "submitting": "[TRANSLATE] Submitting Application...",
+      "uploadResume": "[TRANSLATE] Upload Resume"
     }
   }
 }

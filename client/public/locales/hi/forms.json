@@ -49,107 +49,23 @@
     }
   },
   "quote": {
-    "projectTypes": {
-      "newInstallation": "नया इंस्टॉलेशन",
-      "systemUpgrade": "सिस्टम अपग्रेड",
-      "retrofit": "रिट्रोफिट",
-      "maintenance": "रखरखाव कॉन्ट्रैक्ट",
-      "consultation": "तकनीकी परामर्श",
-      "design": "डिज़ाइन और इंजीनियरिंग"
-    },
     "validation": {
-      "nameRequired": "नाम आवश्यक है",
-      "phoneRequired": "फोन नंबर आवश्यक है",
-      "subjectRequired": "विषय आवश्यक है",
-      "messageRequired": "संदेश आवश्यक है",
-      "firstNameRequired": "पहला नाम आवश्यक है",
-      "lastNameRequired": "अंतिम नाम आवश्यक है",
-      "invalidEmail": "अमान्य ईमेल पता",
-      "selectService": "कृपया एक सेवा का चयन करें",
-      "projectDetailsRequired": "परियोजना विवरण आवश्यक है",
-      "nameMin": "नाम कम से कम 2 अक्षर का होना चाहिए",
-      "emailInvalid": "कृपया एक वैध ईमेल पता दर्ज करें",
-      "phoneMin": "कृपया एक वैध फोन नंबर दर्ज करें",
-      "companyRequired": "कंपनी का नाम आवश्यक है",
-      "projectTitleRequired": "परियोजना का शीर्षक आवश्यक है",
-      "projectTypeRequired": "कृपया एक परियोजना प्रकार का चयन करें",
-      "timelineRequired": "कृपया अपेक्षित समयसीमा का चयन करें",
-      "servicesRequired": "कृपया कम से कम एक सेवा का चयन करें",
-      "specificationsMin": "कृपया विस्तृत विशिष्टताएं प्रदान करें (न्यूनतम 20 अक्षर)"
-    },
-    "success": {
-      "title": "कोटेशन अनुरोध सफलतापूर्वक सबमिट हो गया!",
-      "description": "हमारी इंजीनियरिंग टीम आपकी आवश्यकताओं की समीक्षा करेगी और 24-48 घंटों के भीतर जवाब देगी।"
-    },
-    "placeholders": {
-      "selectIndustry": "उद्योग चुनें",
-      "selectProjectScale": "प्रोजेक्ट का पैमाना चुनें",
-      "selectBudget": "बजट रेंज चुनें (वैकल्पिक)",
-      "detailedRequirements": "कृपया विस्तृत विशिष्टताएं प्रदान करें जिनमें शामिल हैं:\n- तकनीकी आवश्यकताएं और मानक\n- उपकरण विशिष्टताएं और मात्राएं\n- प्रदर्शन आवश्यकताएं\n- पर्यावरणीय स्थितियां\n- अनुपालन आवश्यकताएं\n- कोई विशेष विचार...",
-      "additionalRequirements": "कोई अतिरिक्त आवश्यकताएं, विशेष शर्तें या प्रश्न...",
-      "preferredBrands": "जैसे, Siemens, Allen-Bradley, Schneider..."
-    },
-    "labels": {
-      "industryType": "उद्योग प्रकार",
-      "projectScale": "प्रोजेक्ट का पैमाना",
-      "approximateBudget": "अनुमानित बजट",
-      "detailedRequirements": "विस्तृत आवश्यकताएं *",
-      "preferredBrands": "पसंदीदा ब्रांड/मानक",
-      "additionalRequirements": "अतिरिक्त आवश्यकताएं",
-      "projectTitle": "परियोजना शीर्षक *",
-      "projectType": "परियोजना प्रकार *",
-      "expectedTimeline": "अपेक्षित समयसीमा *",
-      "phoneNumber": "फोन नंबर *",
-      "companyName": "कंपनी का नाम *",
-      "projectInformation": "परियोजना की जानकारी",
-      "budgetRange": "बजट रेंज"
-    },
-    "timelines": {
-      "immediate": "तत्काल (< 1 महीना)",
-      "1-3-months": "1-3 महीने",
-      "3-6-months": "3-6 महीने",
-      "6-12-months": "6-12 महीने",
-      "1-year-plus": "1 साल से अधिक"
-    },
-    "budgetRanges": {
-      "under-1-lakh": "1 लाख से कम",
-      "1-5-lakh": "1-5 लाख",
-      "5-10-lakh": "5-10 लाख",
-      "10-25-lakh": "10-25 लाख",
-      "25-50-lakh": "25-50 लाख",
-      "50-lakh-plus": "50 लाख+",
-      "discuss": "चर्चा करना पसंद है"
+      "nameRequired": "[TRANSLATE] Name is required",
+      "phoneRequired": "[TRANSLATE] Phone number is required",
+      "subjectRequired": "[TRANSLATE] Subject is required",
+      "messageRequired": "[TRANSLATE] Message is required",
+      "firstNameRequired": "[TRANSLATE] First name is required",
+      "lastNameRequired": "[TRANSLATE] Last name is required",
+      "invalidEmail": "[TRANSLATE] Invalid email address",
+      "selectService": "[TRANSLATE] Please select a service",
+      "projectDetailsRequired": "[TRANSLATE] Project details are required"
     },
     "sections": {
-      "contactInfo": "संपर्क जानकारी",
-      "requiredServices": "आवश्यक सेवाएं *"
+      "contactInfo": "[TRANSLATE] Contact Information"
     },
     "error": {
-      "title": "कोटेशन सबमिशन विफल",
-      "description": "तत्काल सहायता के लिए: {{phone}} या ईमेल: {{email}}"
-    },
-    "submitting": "कोटेशन अनुरोध सबमिट कर रहे हैं...",
-    "buttons": {
-      "getProfessionalQuote": "प्रोफेशनल कोटेशन प्राप्त करें"
-    },
-    "fields": {
-      "designation": {
-        "label": "पदनाम"
-      },
-      "additionalRequirements": {
-        "label": "अतिरिक्त आवश्यकताएं"
-      }
-    },
-    "industries": {
-      "manufacturing": "विनिर्माण",
-      "powerGeneration": "विद्युत उत्पादन",
-      "waterTreatment": "जल उपचार",
-      "foodProcessing": "खाद्य प्रसंस्करण",
-      "pharmaceutical": "फार्मास्युटिकल",
-      "chemical": "रासायनिक",
-      "renewableEnergy": "नवीकरणीय ऊर्जा",
-      "infrastructure": "बुनियादी ढांचा",
-      "other": "अन्य"
+      "title": "[TRANSLATE] Quote submission failed",
+      "description": "[TRANSLATE] For immediate assistance: {{phone}} or email: {{email}}"
     }
   },
   "career": {
