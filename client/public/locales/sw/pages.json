@@ -790,6 +790,90 @@
     "cta": {
       "title": "Uko Tayari Kuanza?",
       "description": "Wasiliana nasi leo kwa suluhisho lako maalum la uhandisi. Timu yetu iko tayari kusaidia kuleta mradi wako uhai."
+    },
+    "projectTypes": {
+      "processAutomation": "Otomatiki ya Michakato",
+      "powerControlSystems": "Mifumo ya Udhibiti wa Umeme",
+      "instrumentationControl": "Vyombo na Udhibiti",
+      "solarAutomation": "Otomatiki ya Jua",
+      "buildingAutomation": "Otomatiki ya Majengo",
+      "manufacturingAutomation": "Otomatiki ya Utengenezaji"
+    },
+    "industries": {
+      "manufacturing": "Utengenezaji",
+      "powerGeneration": "Uzalishaji wa Umeme",
+      "oilGas": "Mafuta na Gesi",
+      "chemicalProcessing": "Uchakataji wa Kemikali",
+      "waterTreatment": "Matibabu ya Maji",
+      "foodBeverage": "Chakula na Vinywaji",
+      "pharmaceutical": "Dawa",
+      "renewableEnergy": "Nishati Mbadala"
+    },
+    "projectSizes": {
+      "small": "Ndogo (1-10 Pointi za I/O)",
+      "medium": "Kati (11-100 Pointi za I/O)",
+      "large": "Kubwa (101-500 Pointi za I/O)",
+      "enterprise": "Kikuu (500+ Pointi za I/O)"
+    },
+    "timelines": {
+      "urgent": "Haraka (< miezi 3)",
+      "standard": "Kawaida (miezi 3-6)",
+      "extended": "Imeongezwa (miezi 6-12)",
+      "longTerm": "Muda Mrefu (miezi 12+)"
+    },
+    "requirements": {
+      "plcProgramming": "Upangaji wa PLC",
+      "scadaDevelopment": "Uundaji wa SCADA",
+      "hmiDesign": "Muundo wa HMI",
+      "networkIntegration": "Muunganiko wa Mtandao",
+      "safetySystems": "Mifumo ya Usalama",
+      "remoteMonitoring": "Ufuatiliaji wa Mbali",
+      "dataAnalytics": "Uchambuzi wa Data",
+      "mobileApp": "Kiolesura cha Programu ya Simu"
+    },
+    "additionalFeatures": {
+      "redundancy": "Urekebishaji wa Mfumo",
+      "cybersecurity": "Usalama wa Mtandao wa Hali ya Juu",
+      "iotIntegration": "Muunganiko wa IoT",
+      "aiMl": "Uchambuzi wa AI/ML",
+      "predictiveMaintenance": "Matengenezo ya Utabiri",
+      "energyManagement": "Usimamizi wa Nishati",
+      "cloudIntegration": "Muunganiko wa Wingu",
+      "trainingSupport": "Mafunzo na Msaada Ulioongezwa"
+    },
+    "hero": {
+      "title": "Pata Bei za Uhandisi wa Kitaalamu",
+      "subtitle": "Unganisha na timu yetu ya wataalamu kwa suluhisho za kipekee za otomatiki na vyombo vilivyotengenezwa kwa mahitaji yako ya viwandani.",
+      "benefits": {
+        "consultation": "Ushauri wa Kiufundi wa Bure",
+        "response": "Muda wa Majibu ya Masaa 24-48",
+        "estimates": "Makadirio ya Gharama ya Kina",
+        "noCosts": "Hakuna Gharama za Siri"
+      }
+    },
+    "benefits": {
+      "assessment": {
+        "title": "Tathmini ya Kina",
+        "description": "Tathmini kamili ya mradi na vipimo vya kiufundi"
+      },
+      "response": {
+        "title": "Majibu ya Haraka",
+        "description": "Pokea bei yako ya kina ndani ya masaa 24-48"
+      },
+      "consultation": {
+        "title": "Ushauri wa Wataalamu",
+        "description": "Ushauri wa kiufundi wa bure na timu yetu ya uhandisi"
+      },
+      "solutions": {
+        "title": "Suluhisho za Kipekee",
+        "description": "Suluhisho za uhandisi zilizotengenezwa kwa mahitaji yako maalum"
+      }
+    },
+    "method": {
+      "title": "Chagua Njia yako ya Bei",
+      "description": "Chagua njia rahisi zaidi ya kupata bei ya mradi wako. Chaguzi zote mbili zinatoa bei kamili na vipimo vya kiufundi.",
+      "calculator": "Kikokotozi cha Akili",
+      "request": "Ombi la Bei"
     }
   }
 }

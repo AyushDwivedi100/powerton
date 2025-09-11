@@ -944,6 +944,90 @@
     "cta": {
       "title": "¿Listo para Comenzar?",
       "description": "Contáctenos hoy para su solución de ingeniería personalizada. Nuestro equipo está listo para ayudar a dar vida a su proyecto."
+    },
+    "projectTypes": {
+      "processAutomation": "Automatización de Procesos",
+      "powerControlSystems": "Sistemas de Control de Energía",
+      "instrumentationControl": "Instrumentación y Control",
+      "solarAutomation": "Automatización Solar",
+      "buildingAutomation": "Automatización de Edificios",
+      "manufacturingAutomation": "Automatización de Manufactura"
+    },
+    "industries": {
+      "manufacturing": "Manufactura",
+      "powerGeneration": "Generación de Energía",
+      "oilGas": "Petróleo y Gas",
+      "chemicalProcessing": "Procesamiento Químico",
+      "waterTreatment": "Tratamiento de Agua",
+      "foodBeverage": "Alimentos y Bebidas",
+      "pharmaceutical": "Farmacéutica",
+      "renewableEnergy": "Energía Renovable"
+    },
+    "projectSizes": {
+      "small": "Pequeño (1-10 Puntos I/O)",
+      "medium": "Mediano (11-100 Puntos I/O)",
+      "large": "Grande (101-500 Puntos I/O)",
+      "enterprise": "Empresarial (500+ Puntos I/O)"
+    },
+    "timelines": {
+      "urgent": "Urgente (< 3 meses)",
+      "standard": "Estándar (3-6 meses)",
+      "extended": "Extendido (6-12 meses)",
+      "longTerm": "Largo Plazo (12+ meses)"
+    },
+    "requirements": {
+      "plcProgramming": "Programación PLC",
+      "scadaDevelopment": "Desarrollo SCADA",
+      "hmiDesign": "Diseño HMI",
+      "networkIntegration": "Integración de Red",
+      "safetySystems": "Sistemas de Seguridad",
+      "remoteMonitoring": "Monitoreo Remoto",
+      "dataAnalytics": "Análisis de Datos",
+      "mobileApp": "Interfaz de Aplicación Móvil"
+    },
+    "additionalFeatures": {
+      "redundancy": "Redundancia del Sistema",
+      "cybersecurity": "Ciberseguridad Avanzada",
+      "iotIntegration": "Integración IoT",
+      "aiMl": "Análisis AI/ML",
+      "predictiveMaintenance": "Mantenimiento Predictivo",
+      "energyManagement": "Gestión de Energía",
+      "cloudIntegration": "Integración en la Nube",
+      "trainingSupport": "Capacitación y Soporte Extendido"
+    },
+    "hero": {
+      "title": "Obtenga Cotizaciones Profesionales de Ingeniería",
+      "subtitle": "Conéctese con nuestro equipo experto para soluciones personalizadas de automatización e instrumentación adaptadas a sus requisitos industriales.",
+      "benefits": {
+        "consultation": "Consulta Técnica Gratuita",
+        "response": "Tiempo de Respuesta 24-48 Horas",
+        "estimates": "Estimaciones de Costos Detalladas",
+        "noCosts": "Sin Costos Ocultos"
+      }
+    },
+    "benefits": {
+      "assessment": {
+        "title": "Evaluación Detallada",
+        "description": "Evaluación integral del proyecto y especificaciones técnicas"
+      },
+      "response": {
+        "title": "Respuesta Rápida",
+        "description": "Reciba su cotización detallada en 24-48 horas"
+      },
+      "consultation": {
+        "title": "Consulta de Expertos",
+        "description": "Consulta técnica gratuita con nuestro equipo de ingeniería"
+      },
+      "solutions": {
+        "title": "Soluciones Personalizadas",
+        "description": "Soluciones de ingeniería adaptadas a sus requisitos específicos"
+      }
+    },
+    "method": {
+      "title": "Elija su Método de Cotización",
+      "description": "Seleccione la forma más conveniente de obtener la cotización de su proyecto. Ambas opciones proporcionan precios integrales y especificaciones técnicas.",
+      "calculator": "Calculadora Inteligente",
+      "request": "Solicitud de Cotización"
     }
   }
 }

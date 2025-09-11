@@ -844,6 +844,90 @@
     "cta": {
       "title": "准备开始了吗？",
       "description": "今天就联系我们获取您的定制工程解决方案。我们的团队随时准备帮助您实现项目。"
+    },
+    "projectTypes": {
+      "processAutomation": "流程自动化",
+      "powerControlSystems": "电力控制系统",
+      "instrumentationControl": "仪表与控制",
+      "solarAutomation": "太阳能自动化",
+      "buildingAutomation": "楼宇自动化",
+      "manufacturingAutomation": "制造自动化"
+    },
+    "industries": {
+      "manufacturing": "制造业",
+      "powerGeneration": "发电",
+      "oilGas": "石油天然气",
+      "chemicalProcessing": "化学处理",
+      "waterTreatment": "水处理",
+      "foodBeverage": "食品饮料",
+      "pharmaceutical": "制药",
+      "renewableEnergy": "可再生能源"
+    },
+    "projectSizes": {
+      "small": "小型（1-10个I/O点）",
+      "medium": "中型（11-100个I/O点）",
+      "large": "大型（101-500个I/O点）",
+      "enterprise": "企业级（500+个I/O点）"
+    },
+    "timelines": {
+      "urgent": "紧急（< 3个月）",
+      "standard": "标准（3-6个月）",
+      "extended": "延长（6-12个月）",
+      "longTerm": "长期（12+个月）"
+    },
+    "requirements": {
+      "plcProgramming": "PLC编程",
+      "scadaDevelopment": "SCADA开发",
+      "hmiDesign": "HMI设计",
+      "networkIntegration": "网络集成",
+      "safetySystems": "安全系统",
+      "remoteMonitoring": "远程监控",
+      "dataAnalytics": "数据分析",
+      "mobileApp": "移动应用接口"
+    },
+    "additionalFeatures": {
+      "redundancy": "系统冗余",
+      "cybersecurity": "高级网络安全",
+      "iotIntegration": "物联网集成",
+      "aiMl": "AI/ML分析",
+      "predictiveMaintenance": "预测性维护",
+      "energyManagement": "能源管理",
+      "cloudIntegration": "云集成",
+      "trainingSupport": "培训和扩展支持"
+    },
+    "hero": {
+      "title": "获取专业工程报价",
+      "subtitle": "联系我们的专家团队，为您的工业需求量身定制自动化和仪表解决方案。",
+      "benefits": {
+        "consultation": "免费技术咨询",
+        "response": "24-48小时响应时间",
+        "estimates": "详细成本估算",
+        "noCosts": "无隐藏费用"
+      }
+    },
+    "benefits": {
+      "assessment": {
+        "title": "详细评估",
+        "description": "全面的项目评估和技术规格"
+      },
+      "response": {
+        "title": "快速响应",
+        "description": "在24-48小时内收到您的详细报价"
+      },
+      "consultation": {
+        "title": "专家咨询",
+        "description": "与我们工程团队的免费技术咨询"
+      },
+      "solutions": {
+        "title": "定制解决方案",
+        "description": "针对您特定需求的定制工程解决方案"
+      }
+    },
+    "method": {
+      "title": "选择您的报价方式",
+      "description": "选择最方便的方式获取项目报价。两种选择都提供全面的定价和技术规格。",
+      "calculator": "智能计算器",
+      "request": "报价请求"
     }
   }
 }

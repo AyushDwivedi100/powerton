@@ -995,6 +995,90 @@
     "cta": {
       "title": "Kuna Shirye don Farawa?",
       "description": "Tuntuɓe mu yau don hanyar injiniya ta musamman. Gungunmu yana shirye don taimakawa wajen kawo aikinku cikin rayuwa."
+    },
+    "projectTypes": {
+      "processAutomation": "Sarrafa Aikin",
+      "powerControlSystems": "Tsarin Sarrafa Wutar Lantarki",
+      "instrumentationControl": "Kayan Aiki da Sarrafa",
+      "solarAutomation": "Sarrafa Hasken Rana",
+      "buildingAutomation": "Sarrafa Gine-gine",
+      "manufacturingAutomation": "Sarrafa Masanawa"
+    },
+    "industries": {
+      "manufacturing": "Masanawa",
+      "powerGeneration": "Samar da Wutar Lantarki",
+      "oilGas": "Mai da Gas",
+      "chemicalProcessing": "Sarrafa Sinadarai",
+      "waterTreatment": "Magani Ruwa",
+      "foodBeverage": "Abinci da Abubuwan Sha",
+      "pharmaceutical": "Magungunan",
+      "renewableEnergy": "Makamashin da ake Sabunta"
+    },
+    "projectSizes": {
+      "small": "Kanana (1-10 I/O Points)",
+      "medium": "Matsakaici (11-100 I/O Points)",
+      "large": "Babba (101-500 I/O Points)",
+      "enterprise": "Kamfani (500+ I/O Points)"
+    },
+    "timelines": {
+      "urgent": "Gaggawa (< watanni 3)",
+      "standard": "Daidaitacce (watanni 3-6)",
+      "extended": "Tsawaita (watanni 6-12)",
+      "longTerm": "Dogon Lokaci (watanni 12+)"
+    },
+    "requirements": {
+      "plcProgramming": "Shirye-shiryen PLC",
+      "scadaDevelopment": "Bunkasa SCADA",
+      "hmiDesign": "Tsarin HMI",
+      "networkIntegration": "Hada Cibiyar Sadarwa",
+      "safetySystems": "Tsarin Tsaro",
+      "remoteMonitoring": "Sa ido daga Nesa",
+      "dataAnalytics": "Bincike Bayanai",
+      "mobileApp": "Hanyar Amfani da Wayar Hannu"
+    },
+    "additionalFeatures": {
+      "redundancy": "Maimaita Tsarin",
+      "cybersecurity": "Tsaron Yanar Gizo mai Zurfi",
+      "iotIntegration": "Hada IoT",
+      "aiMl": "Binciken AI/ML",
+      "predictiveMaintenance": "Kula da Tsinkaya",
+      "energyManagement": "Sarrafa Makamashi",
+      "cloudIntegration": "Hada Gajimare",
+      "trainingSupport": "Horo da Tallafi mai Zurfi"
+    },
+    "hero": {
+      "title": "Sami Farashin Injiniya mai Kyau",
+      "subtitle": "Ku haɗu da ƙungiyar mu ta ƙwararru don neman maganganun sarrafa da kayan aikin da aka keɓanta don bukatun masana'antunku.",
+      "benefits": {
+        "consultation": "Shawarwari Fasaha kyauta",
+        "response": "Lokacin Amsa Sa'o'i 24-48",
+        "estimates": "Ƙididdigar Farashi mai Cikakki",
+        "noCosts": "Babu Farashin da aka ɓoye"
+      }
+    },
+    "benefits": {
+      "assessment": {
+        "title": "Tantance mai Zurfi",
+        "description": "Cikakkun tantance aikin da ƙayyadaddun fasaha"
+      },
+      "response": {
+        "title": "Amsa mai Sauri",
+        "description": "Karɓi farashinku mai cikakki cikin sa'o'i 24-48"
+      },
+      "consultation": {
+        "title": "Shawarwar Ƙwararru",
+        "description": "Shawarwar fasaha kyauta tare da ƙungiyar injiniyanmu"
+      },
+      "solutions": {
+        "title": "Maganganun Keɓantawa",
+        "description": "Maganganun injiniya da aka keɓanta don takamaiman bukatunku"
+      }
+    },
+    "method": {
+      "title": "Zaɓi Hanyar Farashinku",
+      "description": "Zaɓi hanya mafi sauƙi don samun farashin aikinku. Zaɓuɓɓuka biyu suna ba da farashin gaba ɗaya da ƙayyadaddun fasaha.",
+      "calculator": "Na'urar Kirga mai Hankali",
+      "request": "Buƙatar Farashi"
     }
   }
 }

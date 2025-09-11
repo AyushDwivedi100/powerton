@@ -811,6 +811,90 @@
     "cta": {
       "title": "शुरू करने के लिए तैयार हैं?",
       "description": "अपने कस्टम इंजीनियरिंग समाधान के लिए आज ही हमसे संपर्क करें। हमारी टीम आपकी परियोजना को जीवन में लाने में मदद करने के लिए तैयार है।"
+    },
+    "projectTypes": {
+      "processAutomation": "प्रक्रिया स्वचालन",
+      "powerControlSystems": "पावर कंट्रोल सिस्टम",
+      "instrumentationControl": "इंस्ट्रूमेंटेशन और कंट्रोल",
+      "solarAutomation": "सौर स्वचालन",
+      "buildingAutomation": "बिल्डिंग ऑटोमेशन",
+      "manufacturingAutomation": "मैन्युफैक्चरिंग ऑटोमेशन"
+    },
+    "industries": {
+      "manufacturing": "विनिर्माण",
+      "powerGeneration": "पावर जेनरेशन",
+      "oilGas": "तेल और गैस",
+      "chemicalProcessing": "रसायन प्रसंस्करण",
+      "waterTreatment": "जल उपचार",
+      "foodBeverage": "भोजन और पेय",
+      "pharmaceutical": "फार्मास्यूटिकल",
+      "renewableEnergy": "नवीकरणीय ऊर्जा"
+    },
+    "projectSizes": {
+      "small": "छोटे (1-10 I/O पॉइंट्स)",
+      "medium": "मध्यम (11-100 I/O पॉइंट्स)",
+      "large": "बड़े (101-500 I/O पॉइंट्स)",
+      "enterprise": "एंटरप्राइज (500+ I/O पॉइंट्स)"
+    },
+    "timelines": {
+      "urgent": "तुरंत (< 3 महीने)",
+      "standard": "मानक (3-6 महीने)",
+      "extended": "विस्तारित (6-12 महीने)",
+      "longTerm": "दीर्घकालिक (12+ महीने)"
+    },
+    "requirements": {
+      "plcProgramming": "PLC प्रोग्रामिंग",
+      "scadaDevelopment": "SCADA विकास",
+      "hmiDesign": "HMI डिज़ाइन",
+      "networkIntegration": "नेटवर्क संकलन",
+      "safetySystems": "सुरक्षा प्रणाली",
+      "remoteMonitoring": "रिमोट मॉनिटरिंग",
+      "dataAnalytics": "डेटा एनालिटिक्स",
+      "mobileApp": "मोबाइल ऐप इंटरफेस"
+    },
+    "additionalFeatures": {
+      "redundancy": "सिस्टम रिडंडेंसी",
+      "cybersecurity": "एडवांस्ड साइबरसिक्योरिटी",
+      "iotIntegration": "IoT संकलन",
+      "aiMl": "AI/ML एनालिटिक्स",
+      "predictiveMaintenance": "पूर्वानुमान रखरखाव",
+      "energyManagement": "ऊर्जा प्रबंधन",
+      "cloudIntegration": "क्लाउड संकलन",
+      "trainingSupport": "प्रशिक्षण और विस्तारित समर्थन"
+    },
+    "hero": {
+      "title": "प्रोफेशनल इंजीनियरिंग कोट प्राप्त करें",
+      "subtitle": "अपनी औद्योगिक आवश्यकताओं के अनुकूल कस्टमाइज़्ड ऑटोमेशन और इंस्ट्रूमेंटेशन समाधानों के लिए हमारी विशेषज्ञ टीम से जुड़ें।",
+      "benefits": {
+        "consultation": "मुफ्त तकनीकी परामर्श",
+        "response": "24-48 घंटे का जवाब समय",
+        "estimates": "विस्तृत लागत अनुमान",
+        "noCosts": "कोई छिपी लागत नहीं"
+      }
+    },
+    "benefits": {
+      "assessment": {
+        "title": "विस्तृत मूल्यांकन",
+        "description": "व्यापक परियोजना मूल्यांकन और तकनीकी विशिष्टताएं"
+      },
+      "response": {
+        "title": "त्वरित प्रतिक्रिया",
+        "description": "24-48 घंटों के भीतर अपना विस्तृत कोट प्राप्त करें"
+      },
+      "consultation": {
+        "title": "विशेषज्ञ परामर्श",
+        "description": "हमारी इंजीनियरिंग टीम के साथ मुफ्त तकनीकी परामर्श"
+      },
+      "solutions": {
+        "title": "कस्टमाइज़्ड समाधान",
+        "description": "आपकी विशिष्ट आवश्यकताओं के लिए तैयार इंजीनियरिंग समाधान"
+      }
+    },
+    "method": {
+      "title": "अपनी कोट प्रणाली चुनें",
+      "description": "अपने प्रोजेक्ट कोट प्राप्त करने का सबसे सुविधाजनक तरीका चुनें। दोनों विकल्प व्यापक मूल्य निर्धारण और तकनीकी विशिष्टताएं प्रदान करते हैं।",
+      "calculator": "स्मार्ट कैलकुलेटर",
+      "request": "कोट अनुरोध"
     }
   }
 }

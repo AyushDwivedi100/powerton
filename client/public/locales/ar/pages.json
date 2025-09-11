@@ -790,6 +790,90 @@
     "cta": {
       "title": "هل أنت مستعد للبدء؟",
       "description": "اتصل بنا اليوم للحصول على حل هندسي مخصص. فريقنا جاهز لمساعدتك في تحقيق مشروعك."
+    },
+    "projectTypes": {
+      "processAutomation": "أتمتة العمليات",
+      "powerControlSystems": "أنظمة التحكم في الطاقة",
+      "instrumentationControl": "الأجهزة والتحكم",
+      "solarAutomation": "الأتمتة الشمسية",
+      "buildingAutomation": "أتمتة المباني",
+      "manufacturingAutomation": "أتمتة التصنيع"
+    },
+    "industries": {
+      "manufacturing": "التصنيع",
+      "powerGeneration": "توليد الطاقة",
+      "oilGas": "النفط والغاز",
+      "chemicalProcessing": "المعالجة الكيميائية",
+      "waterTreatment": "معالجة المياه",
+      "foodBeverage": "الأغذية والمشروبات",
+      "pharmaceutical": "الأدوية",
+      "renewableEnergy": "الطاقة المتجددة"
+    },
+    "projectSizes": {
+      "small": "صغير (1-10 نقاط إدخال/إخراج)",
+      "medium": "متوسط (11-100 نقطة إدخال/إخراج)",
+      "large": "كبير (101-500 نقطة إدخال/إخراج)",
+      "enterprise": "مؤسسة (500+ نقطة إدخال/إخراج)"
+    },
+    "timelines": {
+      "urgent": "عاجل (< 3 أشهر)",
+      "standard": "قياسي (3-6 أشهر)",
+      "extended": "ممتد (6-12 شهراً)",
+      "longTerm": "طويل الأجل (12+ شهراً)"
+    },
+    "requirements": {
+      "plcProgramming": "برمجة PLC",
+      "scadaDevelopment": "تطوير SCADA",
+      "hmiDesign": "تصميم HMI",
+      "networkIntegration": "تكامل الشبكة",
+      "safetySystems": "أنظمة الأمان",
+      "remoteMonitoring": "المراقبة عن بُعد",
+      "dataAnalytics": "تحليل البيانات",
+      "mobileApp": "واجهة التطبيق المحمول"
+    },
+    "additionalFeatures": {
+      "redundancy": "تكرار النظام",
+      "cybersecurity": "الأمن السيبراني المتقدم",
+      "iotIntegration": "تكامل إنترنت الأشياء",
+      "aiMl": "تحليل الذكاء الاصطناعي/التعلم الآلي",
+      "predictiveMaintenance": "الصيانة التنبؤية",
+      "energyManagement": "إدارة الطاقة",
+      "cloudIntegration": "التكامل السحابي",
+      "trainingSupport": "التدريب والدعم الموسع"
+    },
+    "hero": {
+      "title": "احصل على عروض هندسية احترافية",
+      "subtitle": "اتصل بفريقنا المتخصص للحصول على حلول مخصصة للأتمتة والأجهزة المناسبة لمتطلباتك الصناعية.",
+      "benefits": {
+        "consultation": "استشارة تقنية مجانية",
+        "response": "وقت استجابة 24-48 ساعة",
+        "estimates": "تقديرات تكلفة تفصيلية",
+        "noCosts": "لا توجد تكاليف مخفية"
+      }
+    },
+    "benefits": {
+      "assessment": {
+        "title": "تقييم تفصيلي",
+        "description": "تقييم شامل للمشروع والمواصفات التقنية"
+      },
+      "response": {
+        "title": "رد سريع",
+        "description": "احصل على عرض الأسعار التفصيلي خلال 24-48 ساعة"
+      },
+      "consultation": {
+        "title": "استشارة الخبراء",
+        "description": "استشارة تقنية مجانية مع فريق الهندسة"
+      },
+      "solutions": {
+        "title": "حلول مخصصة",
+        "description": "حلول هندسية مصممة خصيصاً لمتطلباتك المحددة"
+      }
+    },
+    "method": {
+      "title": "اختر طريقة عرض الأسعار",
+      "description": "اختر الطريقة الأنسب للحصول على عرض أسعار مشروعك. كلا الخيارين يوفران أسعاراً شاملة ومواصفات تقنية.",
+      "calculator": "حاسبة ذكية",
+      "request": "طلب عرض أسعار"
     }
   }
 }
