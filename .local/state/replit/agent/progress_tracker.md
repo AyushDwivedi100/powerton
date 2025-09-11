@@ -14,3 +14,4 @@
 [x] 14. Verified translation key fallback working correctly across all languages
 [x] 15. Fixed BLDC abbreviation translations in dropdown menu - converted "BLDC" to native translations (Hindi: "ब्रशलेस डीसी", Arabic: "بدون فرش التيار المستمر", Russian: "Бесщеточный Двигатель")
 [x] 16. Integrated career application form with PHPMailer - created dedicated career-handler.php and updated form to send applications via PHP mailer like other forms
+[x] 17. Added CV/Resume upload functionality to career form - includes file validation, attachment to email, and resume status in email template

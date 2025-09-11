@@ -32,6 +32,23 @@ if(isset($_POST['name']) || isset($_POST['email'])){
     // Technical Information
     $skills = $_POST['skills'] ?? '';
     $coverLetter = $_POST['coverLetter'] ?? '';
+    
+    // Handle resume file upload
+    $resumeAttached = false;
+    $resumeFileName = '';
+    if (isset($_FILES['resume']) && $_FILES['resume']['error'] === UPLOAD_ERR_OK) {
+        $allowedTypes = ['application/pdf', 'application/msword', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document'];
+        $maxSize = 5 * 1024 * 1024; // 5MB
+        
+        $fileType = $_FILES['resume']['type'];
+        $fileSize = $_FILES['resume']['size'];
+        $fileName = $_FILES['resume']['name'];
+        
+        if (in_array($fileType, $allowedTypes) && $fileSize <= $maxSize) {
+            $resumeAttached = true;
+            $resumeFileName = $fileName;
+        }
+    }
 
     // Load Composer's autoloader
     require 'PHPMailer/Exception.php';
@@ -56,6 +73,11 @@ if(isset($_POST['name']) || isset($_POST['email'])){
         $mail->setFrom('info@powertonengineering.com', 'Powerton Engineering');
         $mail->addAddress('powertoneng@gmail.com', 'Admin');
         $mail->addReplyTo($email, $name);
+        
+        // Attach resume if uploaded
+        if ($resumeAttached) {
+            $mail->addAttachment($_FILES['resume']['tmp_name'], $resumeFileName);
+        }
 
         // Content
         $mail->isHTML(true);
@@ -142,6 +164,21 @@ if(isset($_POST['name']) || isset($_POST['email'])){
         <tr>
             <td style='padding: 10px; border: 1px solid #ccc; background: #f5f5f5; font-weight: bold;'>Cover Letter:</td>
             <td style='padding: 10px; border: 1px solid #ccc;'>" . nl2br(htmlspecialchars($coverLetter)) . "</td>
+        </tr>
+        
+        <!-- Resume Section -->
+        <tr>
+            <td colspan='2' style='padding: 10px; border: 1px solid #ccc; background: #f3e5f5; font-weight: bold; text-align: center;'>
+                CV/RESUME ATTACHMENT
+            </td>
+        </tr>
+        <tr>
+            <td style='padding: 10px; border: 1px solid #ccc; background: #f5f5f5; font-weight: bold;'>Resume Status:</td>
+            <td style='padding: 10px; border: 1px solid #ccc;'>" . 
+                ($resumeAttached ? 
+                    "<span style='color: #28a745; font-weight: bold;'>✓ Attached - " . htmlspecialchars($resumeFileName) . "</span>" : 
+                    "<span style='color: #dc3545;'>✗ No resume uploaded</span>") . 
+            "</td>
         </tr>
         
         <!-- Footer -->

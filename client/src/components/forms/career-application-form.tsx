@@ -10,7 +10,7 @@ import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { useToast } from "@/hooks/use-toast";
-import { Loader2, Send, Mail, Phone, FileUser } from "lucide-react";
+import { Loader2, Send, Mail, Phone, FileUser, Upload } from "lucide-react";
 import { FRONTEND_CONFIG } from "@/lib/frontend-config";
 
 // Career application form schema
@@ -46,6 +46,7 @@ type CareerFormData = {
 
 export default function CareerApplicationForm() {
   const [isSubmitting, setIsSubmitting] = useState(false);
+  const [resumeFile, setResumeFile] = useState<File | null>(null);
   const { toast } = useToast();
   const { t } = useTranslation('forms');
   
@@ -117,6 +118,11 @@ export default function CareerApplicationForm() {
       formData.append('skills', data.skills);
       formData.append('coverLetter', data.coverLetter);
       formData.append('residingAddress', data.residingAddress);
+      
+      // Add resume file if selected
+      if (resumeFile) {
+        formData.append('resume', resumeFile);
+      }
 
       // Send to PHP handler
       const response = await fetch('/career-handler.php', {
@@ -133,6 +139,7 @@ export default function CareerApplicationForm() {
           duration: 6000,
         });
         form.reset();
+        setResumeFile(null);
       } else {
         throw new Error(result.message);
       }
@@ -404,6 +411,47 @@ export default function CareerApplicationForm() {
                   </FormItem>
                 )}
               />
+
+              {/* CV/Resume Upload */}
+              <div className="space-y-2">
+                <label className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70">
+                  {t('forms:career.labels.resume')}
+                </label>
+                <div className="flex items-center space-x-2">
+                  <Input
+                    type="file"
+                    accept=".pdf,.doc,.docx"
+                    onChange={(e) => {
+                      const file = e.target.files?.[0];
+                      if (file) {
+                        // Validate file size (max 5MB)
+                        if (file.size > 5 * 1024 * 1024) {
+                          toast({
+                            title: "File too large",
+                            description: "Please select a file smaller than 5MB.",
+                            variant: "destructive",
+                          });
+                          e.target.value = '';
+                          return;
+                        }
+                        setResumeFile(file);
+                      } else {
+                        setResumeFile(null);
+                      }
+                    }}
+                    className="file:mr-2 file:px-4 file:py-2 file:rounded file:border-0 file:text-sm file:font-medium file:bg-primary file:text-primary-foreground hover:file:bg-primary/90"
+                  />
+                  <Upload className="h-4 w-4 text-muted-foreground" />
+                </div>
+                {resumeFile && (
+                  <p className="text-xs text-muted-foreground">
+                    Selected: {resumeFile.name} ({(resumeFile.size / 1024 / 1024).toFixed(2)} MB)
+                  </p>
+                )}
+                <p className="text-xs text-muted-foreground">
+                  {t('forms:career.helpers.resumeFormat')}
+                </p>
+              </div>
             </div>
 
             {/* Submit Buttons */}
