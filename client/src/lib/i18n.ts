@@ -158,5 +158,15 @@ i18n.on('languageChanged', (lng) => {
   updateDocumentDirection(lng);
 });
 
+// Set initial document direction when i18n is ready
+i18n.on('initialized', () => {
+  updateDocumentDirection(i18n.language);
+});
+
+// Ensure direction is set immediately if already initialized
+if (i18n.isInitialized) {
+  updateDocumentDirection(i18n.language);
+}
+
 export { languages };
 export default i18n;
