@@ -1,1 +1,8 @@
-{}
+{
+  "plc": "Controlador Lógico Programable",
+  "scada": "SCADA",
+  "hmi": "Interfaz Hombre-Máquina",
+  "dcs": "Sistema de Control Distribuido", 
+  "bldc": "Motor sin Escobillas",
+  "vfd": "Variador de Frecuencia"
+}

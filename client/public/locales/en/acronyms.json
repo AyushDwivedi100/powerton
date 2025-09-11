@@ -1,1 +1,8 @@
-{}
+{
+  "plc": "PLC",
+  "scada": "SCADA",
+  "hmi": "HMI",
+  "dcs": "DCS", 
+  "bldc": "BLDC",
+  "vfd": "VFD"
+}

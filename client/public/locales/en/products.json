@@ -42,27 +42,62 @@
     },
     "solar-products": {
       "title": "Solar Products",
-      "description": "Complete solar energy solutions and components"
+      "description": "Complete solar energy solutions and components",
+      "features": {
+        "solar-panels": "Solar Panels",
+        "inverters": "Inverters",
+        "battery-storage": "Battery Storage",
+        "monitoring-systems": "Monitoring Systems"
+      }
     },
     "automation-control-systems": {
       "title": "Automation & Control Systems",
-      "description": "Advanced automation and control systems for industrial operations"
+      "description": "Advanced automation and control systems for industrial operations",
+      "features": {
+        "hmi-systems": "HMI Systems",
+        "scada-software": "SCADA Software",
+        "industrial-networks": "Industrial Networks"
+      }
     },
     "safety-protective-devices": {
       "title": "Safety & Protective Devices",
-      "description": "Industrial safety systems and protective equipment"
+      "description": "Industrial safety systems and protective equipment",
+      "features": {
+        "safety-switches": "Safety Switches",
+        "emergency-stops": "Emergency Stops",
+        "light-curtains": "Light Curtains",
+        "protective-barriers": "Protective Barriers"
+      }
     },
     "mechanical-pumps-spares": {
       "title": "Mechanical Pumps & Spares",
-      "description": "Mechanical pumps and spare parts for industrial applications"
+      "description": "Mechanical pumps and spare parts for industrial applications",
+      "features": {
+        "centrifugal-pumps": "Centrifugal Pumps",
+        "positive-displacement-pumps": "Positive Displacement Pumps",
+        "pump-components": "Pump Components",
+        "maintenance-kits": "Maintenance Kits"
+      }
     },
     "industrial-tools-tackles": {
       "title": "Industrial Tools & Equipment",
-      "description": "Heavy-duty industrial tools and lifting equipment"
+      "description": "Heavy-duty industrial tools and lifting equipment",
+      "features": {
+        "hand-tools": "Hand Tools",
+        "power-tools": "Power Tools",
+        "lifting-equipment": "Lifting Equipment",
+        "cutting-tools": "Cutting Tools"
+      }
     },
     "bldc": {
       "title": "BLDC Products",
-      "description": "Brushless DC motor products for energy-efficient applications"
+      "description": "Brushless DC motor products for energy-efficient applications",
+      "features": {
+        "energy-efficient": "Energy Efficient",
+        "long-lifespan": "Long Lifespan",
+        "low-maintenance": "Low Maintenance",
+        "variable-speed-control": "Variable Speed Control"
+      }
     }
   },
   "productPages": {

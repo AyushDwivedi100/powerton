@@ -175,10 +175,10 @@ export const getProducts = (t: any) => [
     icon: "Activity",
     image: getProductImage("measurement-instruments")?.src || "",
     features: [
-      "Digital Multimeters",
-      "Oscilloscopes",
-      "Signal Analyzers",
-      "Calibrators"
+      t('products:categories.measurement-instruments.features.digital-multimeters'),
+      t('products:categories.measurement-instruments.features.oscilloscopes'),
+      t('products:categories.measurement-instruments.features.signal-analyzers'),
+      t('products:categories.measurement-instruments.features.calibrators')
     ],
     subcategories: [
       {
@@ -215,10 +215,10 @@ export const getProducts = (t: any) => [
     icon: "Sun",
     image: getProductImage("solar-products")?.src || "",
     features: [
-      "Solar Panels",
-      "Inverters",
-      "Battery Storage",
-      "Monitoring Systems"
+      t('products:categories.solar-products.features.solar-panels'),
+      t('products:categories.solar-products.features.inverters'),
+      t('products:categories.solar-products.features.battery-storage'),
+      t('products:categories.solar-products.features.monitoring-systems')
     ],
     subcategories: [
       {
@@ -255,10 +255,10 @@ export const getProducts = (t: any) => [
     icon: "Settings",
     image: getProductImage("automation-control-systems")?.src || "",
     features: [
-      "PLCs",
-      "HMI Systems",
-      "SCADA Software",
-      "Industrial Networks"
+      t('acronyms:plc'),
+      t('products:categories.automation-control-systems.features.hmi-systems'),
+      t('products:categories.automation-control-systems.features.scada-software'),
+      t('products:categories.automation-control-systems.features.industrial-networks')
     ],
     subcategories: [
       {
@@ -290,10 +290,10 @@ export const getProducts = (t: any) => [
     icon: "Shield",
     image: getProductImage("safety-protective-devices")?.src || "",
     features: [
-      "Safety Switches",
-      "Emergency Stops",
-      "Light Curtains",
-      "Protective Barriers"
+      t('products:categories.safety-protective-devices.features.safety-switches'),
+      t('products:categories.safety-protective-devices.features.emergency-stops'),
+      t('products:categories.safety-protective-devices.features.light-curtains'),
+      t('products:categories.safety-protective-devices.features.protective-barriers')
     ],
     subcategories: [
       {
@@ -325,10 +325,10 @@ export const getProducts = (t: any) => [
     icon: "Cog",
     image: getProductImage("mechanical-pumps-spares")?.src || "",
     features: [
-      "Centrifugal Pumps",
-      "Positive Displacement Pumps",
-      "Pump Components",
-      "Maintenance Kits"
+      t('products:categories.mechanical-pumps-spares.features.centrifugal-pumps'),
+      t('products:categories.mechanical-pumps-spares.features.positive-displacement-pumps'),
+      t('products:categories.mechanical-pumps-spares.features.pump-components'),
+      t('products:categories.mechanical-pumps-spares.features.maintenance-kits')
     ],
     subcategories: [
       {
@@ -360,10 +360,10 @@ export const getProducts = (t: any) => [
     icon: "Wrench",
     image: getProductImage("industrial-tools-tackles")?.src || "",
     features: [
-      "Hand Tools",
-      "Power Tools",
-      "Lifting Equipment",
-      "Cutting Tools"
+      t('products:categories.industrial-tools-tackles.features.hand-tools'),
+      t('products:categories.industrial-tools-tackles.features.power-tools'),
+      t('products:categories.industrial-tools-tackles.features.lifting-equipment'),
+      t('products:categories.industrial-tools-tackles.features.cutting-tools')
     ],
     subcategories: [
       {
@@ -400,10 +400,10 @@ export const getProducts = (t: any) => [
     icon: "Zap",
     image: getProductImage("bldc")?.src || "",
     features: [
-      "Energy Efficient",
-      "Long Lifespan",
-      "Low Maintenance",
-      "Variable Speed Control"
+      t('products:categories.bldc.features.energy-efficient'),
+      t('products:categories.bldc.features.long-lifespan'),
+      t('products:categories.bldc.features.low-maintenance'),
+      t('products:categories.bldc.features.variable-speed-control')
     ],
     subcategories: [
       {
