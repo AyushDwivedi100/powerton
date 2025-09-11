@@ -1,0 +1,203 @@
+{
+  "buttons": {
+    "learnMore": "En savoir plus",
+    "getQuote": "Obtenir un devis",
+    "contact": "Nous contacter",
+    "contactUs": "Nous contacter",
+    "requestQuote": "Demander un devis",
+    "viewAll": "Voir tout",
+    "readMore": "Lire la suite",
+    "viewDetails": "Voir les détails",
+    "download": "Télécharger",
+    "downloadCatalog": "Télécharger le catalogue",
+    "downloadBrochure": "Télécharger la brochure",
+    "downloadGuide": "Télécharger le guide",
+    "downloadDatasheet": "Télécharger la fiche technique",
+    "downloadPortfolio": "Télécharger le portfolio",
+    "showMore": "Afficher plus",
+    "showFilters": "Afficher les filtres",
+    "hideFilters": "Masquer les filtres",
+    "upload": "Téléverser",
+    "expertTeam": "Équipe d'experts",
+    "successfulProjects": "Projets réussis",
+    "qualityProducts": "Produits de qualité"
+  },
+  "loading": "Chargement...",
+  "error": "Quelque chose s'est mal passé",
+  "success": "Succès !",
+  "labels": {
+    "responseTime": "Temps de réponse",
+    "availability": "Disponibilité",
+    "coverage": "Couverture",
+    "technologies": "Technologies",
+    "parameters": "Paramètres",
+    "specifications": "Spécifications",
+    "applications": "Applications",
+    "industries": "Industries",
+    "keyFeatures": "Caractéristiques principales",
+    "includes": "Inclut",
+    "projectType": "Type de projet",
+    "industry": "Industrie",
+    "projectSize": "Taille du projet",
+    "timeline": "Calendrier",
+    "location": "Emplacement",
+    "budget": "Budget",
+    "requirements": "Exigences"
+  },
+  "messages": {
+    "serviceNotFound": "Service non trouvé",
+    "readyToStart": "Prêt à commencer ?",
+    "consultation": "Contactez-nous pour une consultation détaillée et une solution personnalisée.",
+    "availability": "Lundi - Samedi, Support d'urgence disponible",
+    "coverage": "Couverture de service dans toute l'Inde",
+    "needHelp": "Besoin d'aide pour trouver quelque chose ?",
+    "cantFind": "Vous ne trouvez pas ce que vous cherchez ? Contactez-nous directement ou utilisez notre chatbot intelligent disponible sur chaque page."
+  },
+  "placeholders": {
+    "selectProjectType": "Sélectionner le type de projet",
+    "selectIndustry": "Sélectionner l'industrie",
+    "selectProjectSize": "Sélectionner la taille du projet",
+    "selectTimeline": "Sélectionner le calendrier",
+    "projectTimeline": "Calendrier du projet",
+    "selectBudgetRange": "Sélectionner la fourchette budgétaire (optionnel)",
+    "cityState": "Ville, État",
+    "describeExisting": "Décrire tout système ou infrastructure existant...",
+    "searchProjects": "Rechercher des projets, clients ou technologies...",
+    "selectIndustryFilter": "Sélectionner l'industrie",
+    "selectCategory": "Sélectionner la catégorie",
+    "selectStatus": "Sélectionner le statut",
+    "askChatbot": "Demandez-moi des informations sur les produits, services ou aide technique...",
+    "yourFullName": "Votre nom complet",
+    "yourEmail": "votre@entreprise.com",
+    "yourPhone": "+91-XXXXX-XXXXX",
+    "yourRole": "Votre rôle/poste",
+    "yourCompanyName": "Le nom de votre entreprise",
+    "briefProjectTitle": "Titre bref de votre projet"
+  },
+  "projectCategories": {
+    "Power Plant": "Centrale Électrique",
+    "Manufacturing": "Fabrication",
+    "Solar": "Solaire",
+    "Water Treatment": "Traitement de l'Eau"
+  },
+  "steps": {
+    "projectTypeIndustry": "Type de projet et industrie",
+    "projectSpecifications": "Spécifications du projet",
+    "requirementsFeatures": "Exigences et fonctionnalités",
+    "additionalInformation": "Informations supplémentaires"
+  },
+  "altTexts": {
+    "companyLogo": "Logo de Powerton Engineering Pvt. Ltd.",
+    "contactCenterBackground": "Arrière-plan du centre de contact et du bureau de support client pour une entreprise d'ingénierie",
+    "aboutCompanyFacility": "Installation d'automatisation industrielle de Powerton Engineering avec des systèmes de contrôle modernes",
+    "officeLocation": "Emplacement du bureau de Powerton Engineering"
+  },
+  "sitemap": {
+    "sections": {
+      "mainPages": "Pages principales",
+      "servicesProjects": "Services et projets", 
+      "productCategories": "Catégories de produits",
+      "resourcesTools": "Ressources et outils",
+      "legalInformation": "Informations légales"
+    },
+    "categories": {
+      "automationControl": "Systèmes d'automatisation et de contrôle",
+      "bldcMotors": "Systèmes de moteurs BLDC",
+      "electricalComponents": "Composants électriques",
+      "measurementInstrumentation": "Mesure et instrumentation",
+      "industrialTools": "Outils et équipements industriels",
+      "pumpsFluid": "Pompes et systèmes fluides",
+      "solarRenewable": "Solaire et énergies renouvelables",
+      "safetyProtection": "Sécurité et protection",
+      "structuralMounting": "Structural et montage",
+      "networkCommunication": "Réseau et communication"
+    },
+    "pages": {
+      "home": "Accueil",
+      "aboutUs": "À propos de nous",
+      "contact": "Contact",
+      "gallery": "Galerie",
+      "ourServices": "Nos services",
+      "serviceDetails": "Détails du service",
+      "projects": "Projets",
+      "allProducts": "Tous les produits",
+      "requestQuote": "Demander un devis",
+      "downloadPortfolio": "Télécharger le portfolio",
+      "newsUpdates": "Actualités et mises à jour",
+      "newsArticles": "Articles d'actualités",
+      "termsOfService": "Conditions de service",
+      "sitemap": "Plan du site"
+    },
+    "descriptions": {
+      "home": "Bienvenue chez Powerton Engineering - Solutions d'automatisation industrielle",
+      "aboutUs": "Découvrez notre entreprise, notre mission et notre expertise",
+      "contact": "Contactez notre équipe d'ingénieurs",
+      "gallery": "Consultez notre galerie de projets et d'installations",
+      "ourServices": "Services d'automatisation industrielle et d'ingénierie électrique",
+      "serviceDetails": "Informations détaillées sur des services spécifiques",
+      "projects": "Portfolio de projets d'automatisation industrielle terminés",
+      "allProducts": "Catalogue complet de produits d'automatisation industrielle",
+      "requestQuote": "Obtenez un devis détaillé pour votre projet",
+      "downloadPortfolio": "Téléchargez les portfolios de projets et la documentation",
+      "newsUpdates": "Dernières nouvelles et mises à jour de l'entreprise",
+      "newsArticles": "Articles d'actualités et mises à jour individuels",
+      "termsOfService": "Conditions générales d'utilisation de nos services",
+      "sitemap": "Navigation complète du site et structure des pages"
+    }
+  },
+  "company": {
+    "name": "Powerton Engineering Pvt. Ltd.",
+    "tagline": "Votre partenaire de confiance en automatisation industrielle et ingénierie électrique",
+    "phone": "+91-94627-71662",
+    "email": "info@powertonengineering.com",
+    "address": {
+      "street": "2ème étage, F-25, Bloc F, Secteur 6",
+      "city": "Noida",
+      "state": "Uttar Pradesh",
+      "pincode": "201301",
+      "landmark": "métro le plus proche-Secteur 15",
+      "full": "2ème étage, F-25, Bloc F, Secteur 6, Noida, Uttar Pradesh 201301, Inde"
+    },
+    "businessHours": {
+      "weekdays": "Lundi - Samedi : 9h00 - 18h00",
+      "sunday": "Dimanche : Support d'urgence uniquement"
+    },
+    "stats": {
+      "projectsCompleted": "500+",
+      "clientsServed": "200+",
+      "yearsExperience": "15+",
+      "responseTime": "2 heures"
+    }
+  },
+  "copyright": {
+    "text": "© {{year}} Powerton Engineering Pvt. Ltd. Tous droits réservés.",
+    "madeWith": "Fait avec 💙 par l'équipe Powerton Engineering"
+  },
+  "seo": {
+    "defaultTitle": "Powerton Engineering Pvt. Ltd. - Panneaux de contrôle industriels et solutions d'automatisation",
+    "defaultDescription": "Fabricant leader de panneaux de contrôle électriques, systèmes d'automatisation industrielle et solutions d'instrumentation. Au service des industries à travers l'Inde avec des produits et services d'ingénierie de qualité.",
+    "defaultKeywords": "panneaux de contrôle électriques, automatisation industrielle, centre de contrôle d'énergie, centre de contrôle moteur, instrumentation, ingénierie électrique, Inde",
+    "companyName": "Powerton Engineering Pvt. Ltd.",
+    "companyDescription": "Fabricant leader de panneaux de contrôle électriques et solutions d'automatisation industrielle",
+    "siteName": "Powerton Engineering",
+    "twitterHandle": "@powertoneng",
+    "businessAddress": {
+      "street": "2ème étage, F-25, Bloc F, Secteur 6",
+      "city": "Noida", 
+      "state": "Uttar Pradesh",
+      "postal": "201301",
+      "country": "Inde"
+    },
+    "contact": {
+      "phone": "+91-94627-71662",
+      "email": "info@powertonengineering.com"
+    },
+    "businessInfo": {
+      "industry": "Automatisation industrielle, Ingénierie électrique, Instrumentation",
+      "category": "Services d'ingénierie, Solutions d'automatisation, Systèmes électriques",
+      "targetAudience": "Ingénieurs industriels, Gestionnaires d'usine, Professionnels de l'automatisation",
+      "companyType": "Fournisseur de solutions d'ingénierie B2B",
+      "serviceArea": "Inde, Service pan-indien"
+    }
+  }
+}
