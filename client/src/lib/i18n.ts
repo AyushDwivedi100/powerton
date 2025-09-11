@@ -76,35 +76,11 @@ const initConfig = {
     // Interpolation options
     interpolation: {
       escapeValue: false, // React already handles XSS
-      formatSeparator: ',',
-      format: function(value: any, format: any, lng: any) {
-        if (format === 'currency') {
-          const currencyMap: Record<string, string> = {
-            'en': 'USD',
-            'zh': 'CNY',
-            'hi': 'INR',
-            'es': 'EUR',
-            'ar': 'USD',
-            'fr': 'EUR',
-            'pt': 'EUR',
-            'ru': 'RUB',
-            'sw': 'USD',
-            'ha': 'USD'
-          };
-          return new Intl.NumberFormat(lng, {
-            style: 'currency',
-            currency: currencyMap[lng || 'en'] || 'USD'
-          }).format(value);
-        }
-        if (format === 'number') {
-          return new Intl.NumberFormat(lng).format(value);
-        }
-        return value;
-      }
+      formatSeparator: ','
     },
 
     // Namespace configuration
-    ns: ['common', 'navigation', 'pages', 'services', 'products', 'forms'],
+    ns: ['common', 'navigation', 'pages', 'services', 'products', 'forms', 'data', 'products-data', 'chatbot', 'acronyms'],
     defaultNS: 'common',
 
     // React i18next options
@@ -123,10 +99,8 @@ const initConfig = {
     returnObjects: false,
     saveMissing: false,
     
-    // Show translation key when missing instead of fallback text
-    missingKeyHandler: function(lngs: readonly string[], ns: string, key: string, fallbackValue: string, updateMissing: boolean, options: any) {
-      return `${ns}:${key}`;
-    },
+    // Return missing keys with namespace prefix for visibility
+    appendNamespaceToMissingKey: true,
 
     // Resources loading strategy
     partialBundledLanguages: true
@@ -156,6 +130,13 @@ export const updateDocumentDirection = (language: string) => {
 // Set up language change handler
 i18n.on('languageChanged', (lng) => {
   updateDocumentDirection(lng);
+});
+
+// Set up missing key logging for development
+i18n.on('missingKey', (lngs, namespace, key) => {
+  if (import.meta.env.DEV) {
+    console.warn(`Missing translation: ${namespace}:${key} for languages: ${lngs.join(', ')}`);
+  }
 });
 
 // Set initial document direction when i18n is ready
