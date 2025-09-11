@@ -300,6 +300,59 @@
     }
   },
   "quote": {
+    "seo": {
+      "title": "Nemi Farashin - Powerton Engineering | Hanyoyin Sarrafa Masana'antu na Musamman",
+      "description": "Sami cikakken farashin aikinku na sarrafa masana'antu daga Powerton Engineering. Shawarwar kyauta da amsawa cikin awa 24-48."
+    },
+    "hero": {
+      "title": "Sami Farashin Aikinku na Injiniya",
+      "subtitle": "Mu sami cikakken kiyasin farashin don aikinku na sarrafa masana'antu. Ƙungiyar mu ta ƙwararru a shirye take don taimaka muku.",
+      "benefits": {
+        "consultation": "Shawarwar Kyauta",
+        "response": "Amsawa Cikin Awa 24-48",
+        "estimates": "Kiyasin Farashi na Gaskiya",
+        "noCosts": "Babu Kuɗin Farko"
+      }
+    },
+    "method": {
+      "title": "Zaɓi Hanyarku ta Samun Farashin",
+      "description": "Mu ba ku hanyoyi biyu don samun farashin - cikakken fom ko na'urar ƙirga farashin da kansa.",
+      "calculator": "Na'urar Ƙirga Farashin",
+      "request": "Fom na Neman Farashin"
+    },
+    "calculator": {
+      "title": "Na'urar Ƙirga Farashin Mai Girma",
+      "description": "Muna ƙare ayyukan ƙarshe na kayan aikin ƙirga farashin mai hankali. Wannan fasalin zai ba da farashin nan take da inganci don ayyukan sarrafa ku.",
+      "launchingSoon": "Ana Buɗewa Ba Da Jimawa Ba",
+      "useQuoteForm": "Don samun farashin nan take, da fatan za ku yi amfani da cikakken fom ɗinmu",
+      "getQuoteNow": "Sami Farashin Yanzu",
+      "projectTitle": "Na'urar Ƙirga Farashin Aiki",
+      "stepOf": "Mataki {{current}} na {{total}}"
+    },
+    "process": {
+      "title": "Tsarin Farashinmu",
+      "description": "Daga buƙatar farko zuwa cikakken shawara, muna tabbatar da tsari mai santsi da gaskiya.",
+      "submit": {
+        "title": "Ƙaddamar da Buƙata",
+        "description": "Cika cikakken fom ɗin neman farashin ko amfani da na'urar ƙirga farashin"
+      },
+      "review": {
+        "title": "Nazarin Fasaha",
+        "description": "Ƙungiyar injiniyoyin mu tana nazarin bukatunku da ƙayyadaddun bayanai"
+      },
+      "assessment": {
+        "title": "Nazarin Wurin",
+        "description": "Ziyarar wurin aiki mai zaɓi don manyan ayyuka (idan akwai buƙata)"
+      },
+      "quote": {
+        "title": "Cikakken Farashin",
+        "description": "Karɓi cikakken farashin tare da jadawalin lokaci da abubuwan da za a kai"
+      }
+    },
+    "cta": {
+      "title": "Shirye ku don Farawa?",
+      "description": "Tuntuɓe mu a yau don samun maganin injiniya na musamman. Ƙungiyarmu a shirye take don taimaka muku kawo aikinku zuwa rayuwa."
+    },
     "projectSizes": {
       "small": "Karami (Maki 1-10 na I/O)",
       "medium": "Matsakaici (Maki 11-100 na I/O)",
@@ -702,6 +755,129 @@
       "highQualityDesc": "Professional portfolio with detailed project imagery",
       "verifiedResults": "Verified Results",
       "verifiedResultsDesc": "Real projects with measurable outcomes and client testimonials"
+    }
+  },
+  "quote": {
+    "seo": {
+      "title": "Samun Farashi - Automation na Masana'antu da Sabis na Injiniya | Powerton Engineering",
+      "description": "Bukatar cikakkiyar farashi don automation na masana'antu, injiniyan lantarki, da sabis na instrumentation. Shawara kyauta da farashi mai gasa."
+    },
+    "hero": {
+      "title": "Samun Farashi na Injiniya na Musamman",
+      "subtitle": "Karbi cikakkun farashi don ayyukan automation na masana'antu da injiniya tare da shawara masu gwaninta da farashi mai gasa.",
+      "benefits": {
+        "consultation": "Shawara Kyauta ta Masana",
+        "response": "Amsa Sauri 24-48 Sa'a",
+        "estimates": "Kimanin Farashi Daidai",
+        "noCosts": "Babu Farashi Boye"
+      }
+    },
+    "method": {
+      "title": "Zaɓi Hanyar Farashi",
+      "description": "Zaɓi hanyar da ta fi dacewa da bukatun aikin ku.",
+      "calculator": "Lissafin Farashi",
+      "request": "Fom Bukatun Farashi"
+    },
+    "benefits": {
+      "assessment": {
+        "title": "Cikakkiyar Kimanta",
+        "description": "Cikakkun kimantawa na aikin da ƙayyadaddun fasaha"
+      },
+      "response": {
+        "title": "Amsa Sauri",
+        "description": "Karɓi cikakkun farashi a cikin sa'o'i 24-48"
+      },
+      "consultation": {
+        "title": "Shawara Masana",
+        "description": "Shawara kyauta na fasaha tare da ƙungiyar injiniya"
+      },
+      "solutions": {
+        "title": "Maganganun Musamman",
+        "description": "Maganganun injiniya da aka keɓance don bukatun ku na musamman"
+      }
+    },
+    "process": {
+      "title": "Tsarin Farashi Namu",
+      "description": "Daga bukata ta farko zuwa cikakkiyar shawara, muna tabbatar da tsari mai sauƙi da bayyane.",
+      "submit": {
+        "title": "Tura Bukatan",
+        "description": "Cika cikakkiyar fom ɗin farashi ko amfani da lissafin farashi"
+      },
+      "review": {
+        "title": "Nazarin Fasaha",
+        "description": "Ƙungiyar injiniya tamu na binciken bukatunku da ƙayyadaddun fasaha"
+      },
+      "assessment": {
+        "title": "Kimantawar Wurin",
+        "description": "Ziyarar wurin da ba ta wajibi ba don manyan ayyuka (idan akwai bukatar)"
+      },
+      "quote": {
+        "title": "Cikakkiyar Farashi",
+        "description": "Karɓi cikakkun farashi tare da lokaci da abubuwan da za a kai"
+      }
+    },
+    "calculator": {
+      "title": "Babban Lissafin Farashi",
+      "description": "Muna sa farfashiyar ƙarshe akan kayan aikin kimanta farashi mai hankali. Wannan fasaha za ta ba da farashi nan take da daidai don ayyukan automation.",
+      "launchingSoon": "Ana Fara Nan Gaba",
+      "useQuoteForm": "Don farashi nan take, da fatan za a yi amfani da cikakkiyar fom ɗin farashi",
+      "getQuoteNow": "Samu Farashi Yanzu",
+      "projectTitle": "Lissafin Farashi na Aikin",
+      "stepOf": "Mataki {{current}} na {{total}}"
+    },
+    "cta": {
+      "title": "Shirye ku don Farawa?",
+      "description": "Tuntuɓe mu yau don maganin injiniya na musamman. Ƙungiyar mu a shirye take ta taimake ku kawo aikin ku zuwa rayuwa."
+    },
+    "projectSizes": {
+      "small": "Ƙarami (1-10 Ma'auni I/O)",
+      "medium": "Matsakaici (11-100 Ma'auni I/O)",
+      "large": "Babba (101-500 Ma'auni I/O)",
+      "enterprise": "Kasuwanci (500+ Ma'auni I/O)"
+    },
+    "timelines": {
+      "urgent": "Gaggawa (< 3 watanni)",
+      "standard": "Daidaitacce (3-6 watanni)",
+      "extended": "Tsawaita (6-12 watanni)",
+      "longTerm": "Dogon lokaci (12+ watanni)"
+    },
+    "requirements": {
+      "plcProgramming": "Shirye-shiryen PLC",
+      "scadaDevelopment": "Ci Gaban SCADA",
+      "hmiDesign": "Zane na HMI",
+      "networkIntegration": "Haɗin Cibiyar Sadarwa",
+      "safetySystems": "Tsarin Aminci",
+      "remoteMonitoring": "Sa ido Daga Nesa",
+      "dataAnalytics": "Nazarin Bayanai",
+      "mobileApp": "Tsarin Wayar Hannu"
+    },
+    "additionalFeatures": {
+      "redundancy": "Maimakon Tsarin",
+      "cybersecurity": "Babban Tsaron Cyber",
+      "iotIntegration": "Haɗin IoT",
+      "aiMl": "Nazarin AI/ML",
+      "predictiveMaintenance": "Kulawa Mai Tsinkaya",
+      "energyManagement": "Gudanar da Makamashi",
+      "cloudIntegration": "Haɗin Cloud",
+      "trainingSupport": "Tsawaita Horarwa da Tallafi"
+    },
+    "industries": {
+      "manufacturing": "Masanawa",
+      "powerGeneration": "Samar da Wutar Lantarki",
+      "oilGas": "Man Fetur da Gas",
+      "chemicalProcessing": "Aikin Sinadarai",
+      "waterTreatment": "Kula da Ruwa",
+      "foodBeverage": "Abinci da Shayi",
+      "pharmaceutical": "Magunguna",
+      "renewableEnergy": "Makamashi Mai Sabuntawa"
+    },
+    "projectTypes": {
+      "processAutomation": "Automation na Tsari",
+      "powerControlSystems": "Tsarin Sarrafa Wutar Lantarki",
+      "instrumentationControl": "Instrumentation da Sarrafa",
+      "solarAutomation": "Automation na Hasken Rana",
+      "buildingAutomation": "Automation na Gine-gine",
+      "manufacturingAutomation": "Automation na Masanawa"
     }
   }
 }

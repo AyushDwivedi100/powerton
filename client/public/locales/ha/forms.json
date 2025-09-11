@@ -49,6 +49,68 @@
     }
   },
   "quote": {
+    "fields": {
+      "name": {
+        "label": "Cikakken Suna",
+        "placeholder": "Shigar da cikakken sunanku"
+      },
+      "email": {
+        "label": "Adireshin Imel",
+        "placeholder": "Shigar da adireshin imel ɗinku"
+      },
+      "phone": {
+        "label": "Lambar Waya",
+        "placeholder": "Shigar da lambar waya taku"
+      },
+      "company": {
+        "label": "Sunan Kamfani",
+        "placeholder": "Shigar da sunan kamfaninku"
+      },
+      "designation": {
+        "label": "Matsayi",
+        "placeholder": "Shigar da matsayinku"
+      },
+      "projectTitle": {
+        "label": "Taken Aikin",
+        "placeholder": "Shigar da taken aikinku"
+      },
+      "projectType": {
+        "label": "Nau'in Aikin",
+        "placeholder": "Zaɓi nau'in aikin"
+      },
+      "budget": {
+        "label": "Kewayon Kasafin Kuɗi",
+        "placeholder": "Zaɓi kewayon kasafin kuɗi"
+      },
+      "timeline": {
+        "label": "Jadawalin Lokaci",
+        "placeholder": "Zaɓi jadawalin lokacin aikin"
+      },
+      "services": {
+        "label": "Ayyukan da Ake Buƙata",
+        "placeholder": "Zaɓi ayyukan da ake buƙata"
+      },
+      "specifications": {
+        "label": "Takaitaccen Bayanin Fasaha",
+        "placeholder": "Bayyana bukatun fasaha naku"
+      },
+      "additionalRequirements": {
+        "label": "Ƙarin Buƙatu",
+        "placeholder": "Wani ƙarin buƙatu"
+      },
+      "industryType": {
+        "label": "Nau'in Masana'antu",
+        "placeholder": "Zaɓi nau'in masana'antar ku"
+      },
+      "projectScale": {
+        "label": "Girman Aikin",
+        "placeholder": "Zaɓi girman aikin"
+      },
+      "preferredBrands": {
+        "label": "Brands da Ake Son",
+        "placeholder": "Wani brand ko masu kera da kuke so"
+      }
+    },
     "validation": {
       "nameRequired": "Name is required",
       "phoneRequired": "Phone number is required",
