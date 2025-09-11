@@ -2,7 +2,8 @@
   "home": {
     "seo": {
       "title": "宝尔顿工程 - 工业自动化与控制面板 | 中国",
-      "description": "电气控制面板、工业自动化系统和仪器仪表解决方案的领先制造商。拥有15年以上经验的专业工程服务，服务全球各地。"
+      "description": "电气控制面板、工业自动化系统和仪器仪表解决方案的领先制造商。拥有15年以上经验的专业工程服务，服务全球各地。",
+      "keywords": "电气控制面板, 工业自动化, 过程自动化, 仪器仪表, 电力控制中心, 电机控制中心, 电气工程, 中国, 自动化"
     },
     "hero": {
       "title": {
@@ -17,7 +18,7 @@
       "features": {
         "experience": "15年以上经验",
         "support": "24/7技术支持",
-        "service": "全国服务"
+        "service": "全球服务覆盖"
       },
       "stats": {
         "yearsExperience": "年经验",
@@ -66,21 +67,21 @@
     },
     "contact": {
       "label": "联系我们",
-      "title": "准备开始您的项目吗？",
-      "description": "让我们讨论我们的工程专业知识如何帮助您实现工业自动化和控制系统目标。",
+      "title": "让我们讨论您的工程需求",
+      "description": "准备开始您的下一个项目？联系我们的专家团队获取定制解决方案和专业咨询。",
       "getInTouch": "联系我们",
       "methods": {
         "phone": {
-          "title": "今天致电我们",
-          "description": "直接与我们的工程专家交谈"
+          "title": "电话",
+          "description": "全天候紧急支持"
         },
         "email": {
-          "title": "给我们发邮件",
-          "description": "向我们发送您的项目需求"
+          "title": "电子邮件",
+          "description": "我们将在24小时内回复"
         },
         "address": {
-          "title": "访问我们的办公室",
-          "metro": "最近的地铁：15号线"
+          "title": "地址",
+          "metro": "最近的地铁站"
         }
       }
     },
@@ -101,6 +102,43 @@
       "downloadPortfolio": "下载作品集"
     }
   },
+  "news": {
+    "title": "新闻",
+    "subtitle": "更新",
+    "badges": {
+      "awardWinning": "获奖",
+      "growingStrong": "强劲增长",
+      "futureReady": "面向未来"
+    },
+    "latestNews": {
+      "excellenceAward": {
+        "title": "宝尔顿工程因工业自动化荣获卓越奖",
+        "excerpt": "我们自豪地宣布，宝尔顿工程因其在过程自动化方面的创新解决方案而被中国工程协会授予'工业自动化卓越奖'。",
+        "category": "奖项"
+      },
+      "ntpcContract": {
+        "title": "与国家电力公司签订重要电厂自动化合同", 
+        "excerpt": "宝尔顿工程已签署一项价值5000万元的重要合同，为国家电力公司在广东省的新火电厂提供自动化服务，预计将于2025年第三季度完成。",
+        "category": "业务"
+      },
+      "renewableExpansion": {
+        "title": "扩展到可再生能源自动化解决方案",
+        "excerpt": "作为我们战略增长计划的一部分，我们正在扩展我们的服务，包括太阳能和风能项目的综合自动化解决方案，目标是中国不断增长的可再生能源领域。",
+        "category": "公司"
+      }
+    },
+    "achievements": {
+      "title": "近期成就",
+      "list": [
+        "工业自动化卓越奖 - 中国工程协会",
+        "最佳工程服务提供商 - 自动化世界奖2024", 
+        "绿色能源实施奖 - 国家能源局认可",
+        "过程控制创新 - 中国电工技术协会奖",
+        "客户卓越奖 - 工业自动化协会"
+      ]
+    }
+  },
+  "backToProducts": "返回产品",
   "about": {
     "seo": {
       "keywords": "关于宝尔顿工程, 工业自动化公司, 电气工程公司, 仪器仪表服务, 中国自动化专家"
@@ -112,7 +150,7 @@
     "story": {
       "title": "我们的旅程与愿景",
       "description1": "宝尔顿工程成立于2008年，以通过创新和卓越赋能工业的愿景，一直处于工业自动化和电气工程解决方案的前沿。我们的旅程始于一个简单而强大的使命：提供推动工业增长和运营效率的尖端工程解决方案。",
-      "description2": "多年来，我们从一个小型工程公司发展成为中国及全球工业的可信赖合作伙伴。我们经验丰富的工程师和技术专家团队不懈努力，提供不仅满足而且超越客户期望的解决方案。我们为理解复杂工业挑战并提供创新、可持续解决方案的能力感到自豪。"
+      "description2": "多年来，我们从一个小型工程公司发展成为中国及全球工业的可信赖合作伙伴。我们经验丰富的工程师和技术专家团队不懈努力，提供不仅满足而且超越客户期望的解决方案。"
     },
     "mission": {
       "title": "我们的使命",
@@ -159,12 +197,6 @@
       "ceMarking": "CE标记合规",
       "ulListed": "UL认证产品",
       "cpriApproved": "CPRI认可设备"
-    },
-    "cta": {
-      "title": "与宝尔顿工程合作",
-      "description": "准备好通过我们的专家工程解决方案改变您的工业运营吗？让我们讨论您的项目需求，共同实现卓越。",
-      "startProject": "开始您的项目",
-      "exploreServices": "探索我们的服务"
     }
   },
   "projects": {
@@ -237,8 +269,8 @@
   },
   "portfolioDownload": {
     "seo": {
-      "title": "下载作品集 - 宝华通工程",
-      "description": "下载展示宝华通工程工业自动化项目、能力和成就的综合作品集文档。"
+      "title": "下载作品集 - 宝尔顿工程",
+      "description": "下载展示宝尔顿工程工业自动化项目、能力和成就的综合作品集文档。"
     },
     "title": "作品集下载",
     "subtitle": "访问我们工业自动化项目、能力和工程卓越的综合文档。下载详细的作品集以了解更多关于我们的工作。",
@@ -305,13 +337,13 @@
     },
     "alert": {
       "downloading": "正在下载",
-      "contactMessage": "要访问我们的作品集文档，请直接通过 info@powertonengineering.com 联系我们或致电 +91-94627-71662。"
+      "contactMessage": "要访问我们的作品集文档，请直接通过 info@powertonengineering.com 联系我们或致电 +86-138-0000-0000。"
     }
   },
   "quote": {
     "seo": {
-      "title": "询价请求 - 力顿工程 | 定制工业自动化解决方案",
-      "description": "从力顿工程获取您的工业自动化项目详细报价。免费咨询，24-48小时内回复。"
+      "title": "询价请求 - 宝尔顿工程 | 定制工业自动化解决方案",
+      "description": "从宝尔顿工程获取您的工业自动化项目详细报价。免费咨询，24-48小时内回复。"
     },
     "benefits": {
       "assessment": {
@@ -398,500 +430,6 @@
     },
     "stats": {
       "projectsCompleted": "已完成项目"
-    }
-  },
-  "services": {
-    "hero": {
-      "title": "专业工程服务",
-      "subtitle": "为您的所有工业自动化和电气工程需求提供全面解决方案"
-    }
-  },
-  "about": {
-    "hero": {
-      "title": "自2008年以来的工程卓越",
-      "subtitle": "您在工业自动化和电气工程解决方案方面值得信赖的合作伙伴"
-    },
-    "story": {
-      "title": "我们的故事"
-    },
-    "values": {
-      "quality": {
-        "title": "质量卓越",
-        "description": "我们在每个项目中都保持最高标准"
-      },
-      "customer": {
-        "title": "客户为先",
-        "description": "您的成功是我们的优先考虑 - 我们建立持久的合作关系"
-      },
-      "innovation": {
-        "title": "创新",
-        "description": "使用最新行业技术的尖端解决方案"
-      },
-      "reliability": {
-        "title": "可靠性",
-        "description": "您可以信赖的关键运营可靠解决方案"
-      }
-    },
-    "stats": {
-      "engineers": "工程师",
-      "staff": "支持人员",
-      "experience": "年经验",
-      "support": "支持"
-    },
-    "certifications": {
-      "iso9001": "ISO 9001:2015 质量管理",
-      "iso14001": "ISO 14001:2015 环境管理",
-      "ohsas18001": "OHSAS 18001 职业健康与安全",
-      "ceMarking": "CE标记合规性",
-      "ulListed": "UL认证产品",
-      "cpriApproved": "CPRI批准设备"
-    }
-  },
-  "home": {
-    "hero": {
-      "title": {
-        "main": "全面解决方案",
-        "highlight": "工业成功"
-      },
-      "subtitle": "我们广泛的产品和服务组合提供全面的解决方案，推动工业成功，确保您的工程需求的每个方面都得到覆盖。",
-      "buttons": {
-        "exploreServices": "探索我们的服务",
-        "requestConsultation": "请求咨询"
-      },
-      "features": {
-        "experience": "15年以上经验",
-        "support": "24/7技术支持",
-        "service": "泛印度服务"
-      },
-      "stats": {
-        "yearsExperience": "年经验",
-        "projectsCompleted": "已完成项目",
-        "happyClients": "满意客户",
-        "supportAvailable": "支持可用"
-      }
-    },
-    "services": {
-      "label": "我们的服务",
-      "title": "所有需求的专业解决方案，以卓越的关怀提供",
-      "description": "从过程自动化到维护合同，我们提供针对您的工业要求量身定制的全面工程解决方案。"
-    },
-    "products": {
-      "label": "我们的产品",
-      "title": "工业自动化设备解决方案",
-      "description": "为工业环境中的可靠性、效率和卓越性能而设计的全面电气和自动化产品。",
-      "viewProducts": "查看产品",
-      "viewCatalog": "查看完整产品目录"
-    },
-    "projects": {
-      "label": "我们的项目",
-      "title": "成功交付的工程解决方案",
-      "description": "探索我们完成的项目组合，展示我们在工业自动化和电气工程方面的专业知识。",
-      "completed": "已完成",
-      "keyFeatures": "主要特征：",
-      "viewDetails": "查看详情",
-      "viewAllProjects": "查看所有项目",
-      "downloadPortfolio": "下载作品集"
-    },
-    "contact": {
-      "label": "联系我们",
-      "title": "让我们讨论您的工程需求",
-      "description": "准备开始您的下一个项目？联系我们的专家团队获取定制解决方案和专业咨询。",
-      "getInTouch": "联系",
-      "methods": {
-        "phone": {
-          "title": "电话",
-          "description": "全天候紧急支持"
-        },
-        "email": {
-          "title": "电子邮件",
-          "description": "我们将在24小时内回复"
-        },
-        "address": {
-          "title": "地址",
-          "metro": "最近的地铁站"
-        }
-      }
-    },
-    "clients": {
-      "label": "我们的客户",
-      "title": "受到领先品牌和组织的信赖",
-      "description": "我们与各个行业的行业领导者合作，提供卓越的工程解决方案。",
-      "testimonialsTitle": "客户评价"
-    },
-    "about": {
-      "label": "关于我们",
-      "title": "欢迎来到 Powerton Engineering Pvt. Ltd.",
-      "description": "您在提供高质量工程解决方案和服务方面的可信赖合作伙伴。公司秉承通过创新和卓越赋能工业的愿景而成立，我们专业提供全面的电气和仪表产品系列。",
-      "visualHeading": "专业工程",
-      "visualDescription": "专业的印度工程师致力于工业自动化和控制系统",
-      "button": "了解更多关于我们",
-      "features": {
-        "electrical": {
-          "title": "电气和仪表",
-          "description": "全面的控制系统系列"
-        },
-        "mechanical": {
-          "title": "机械泵",
-          "description": "耐用的泵解决方案和配件"
-        },
-        "solar": {
-          "title": "太阳能解决方案",
-          "description": "可持续能源安装"
-        },
-        "tools": {
-          "title": "工业工具",
-          "description": "专业级设备"
-        }
-      }
-    },
-    "contact": {
-      "label": "联系我们",
-      "title": "让我们讨论您的工程需求",
-      "description": "准备开始您的下一个项目？联系我们的专家团队，获得定制解决方案和专业咨询。",
-      "getInTouch": "联系我们",
-      "methods": {
-        "phone": {
-          "title": "电话",
-          "description": "24/7紧急支持可用"
-        },
-        "email": {
-          "title": "电子邮件",
-          "description": "我们将在24小时内回复"
-        },
-        "address": {
-          "title": "地址",
-          "metro": "最近的地铁"
-        }
-      }
-    }
-  },
-  "contact": {
-    "hero": {
-      "title": "联系我们的工程专家",
-      "subtitle": "准备开始您的下一个项目？我们的专家团队将为您提供定制工程解决方案和专业咨询。",
-      "benefits": {
-        "consultation": "免费咨询",
-        "support": "24/7紧急支持",
-        "experience": "15+年经验"
-      }
-    },
-    "methods": {
-      "title": "多种联系方式",
-      "subtitle": "选择最适合您的沟通方式。我们24/7提供紧急支持。"
-    },
-    "form": {
-      "title": "发送消息",
-      "subtitle": "联系我们获取一般咨询、服务信息或技术问题。"
-    },
-    "contactMethods": {
-      "phone": {
-        "title": "直接致电",
-        "subtitle": "24/7支持服务",
-        "description": "直接与我们的技术团队交谈"
-      },
-      "email": {
-        "title": "邮件支持",
-        "subtitle": "24小时内回复",
-        "description": "向我们发送详细的项目需求"
-      },
-      "whatsapp": {
-        "title": "WhatsApp支持",
-        "subtitle": "快速响应聊天",
-        "description": "立即获得问题答案"
-      },
-      "visit": {
-        "title": "访问我们的办公室",
-        "subtitle": "仅限预约",
-        "description": "预约参观我们在诺伊达的总部"
-      }
-    },
-    "office": {
-      "name": "公司总部",
-      "hours": "周一至周六：上午9:00 - 下午6:00"
-    },
-    "services": {
-      "technical": {
-        "title": "技术支持",
-        "description": "为我们所有产品和服务提供专业技术协助"
-      },
-      "customer": {
-        "title": "客户成功",
-        "description": "专门支持确保您的项目成功"
-      },
-      "onsite": {
-        "title": "现场支持",
-        "description": "在您的位置提供现场工程支持"
-      },
-      "remote": {
-        "title": "远程支持",
-        "description": "虚拟协助和远程系统诊断"
-      }
-    },
-    "sections": {
-      "visitOffice": "访问我们的办公室",
-      "officeLocation": "办公地点",
-      "supportServices": "支持服务",
-      "businessHours": "营业时间和可用性",
-      "getDirections": "获取路线"
-    },
-    "formSection": {
-      "title": "一般联系表格",
-      "description": "用于一般咨询、服务信息或技术问题"
-    },
-    "businessHours": {
-      "regular": {
-        "title": "常规时间",
-        "days": "周一至周六",
-        "time": "上午9:00 - 下午6:00"
-      },
-      "emergency": {
-        "title": "紧急支持",
-        "availability": "24/7可用",
-        "days": "所有日期"
-      },
-      "email": {
-        "title": "邮件回复",
-        "time": "24小时内",
-        "guarantee": "保证"
-      }
-    },
-    "emergency": {
-      "title": "紧急支持",
-      "description": "关键系统故障？我们的紧急响应团队24/7全天候为您提供服务，帮助减少停机时间。",
-      "hotline": "紧急热线"
-    }
-  },
-  "about": {
-    "hero": {
-      "title": "关于Powerton工程",
-      "subtitle": "您值得信赖的合作伙伴，15年来提供高质量工程解决方案和服务。"
-    },
-    "story": {
-      "title": "我们的历程与愿景",
-      "description1": "秉承通过创新和卓越赋能产业的愿景成立，Powerton工程已成为印度电气和仪表解决方案的领先供应商。",
-      "description2": "从我们位于诺伊达的总部出发，我们为全国客户提供全面的工程解决方案，包括过程自动化、仪表、太阳能安装和维护服务。"
-    },
-    "values": {
-      "quality": {
-        "title": "质量卓越",
-        "description": "我们致力于提供超越行业标准的最高质量产品和服务。"
-      },
-      "customer": {
-        "title": "客户为本",
-        "description": "我们的客户是我们所做一切的核心。我们共同努力理解并超越他们的期望。"
-      },
-      "innovation": {
-        "title": "技术创新",
-        "description": "我们持续投资于最新技术和创新解决方案，以保持行业领先地位。"
-      },
-      "reliability": {
-        "title": "可靠性",
-        "description": "我们在准时交付和可靠服务方面的卓越记录使我们成为值得信赖的合作伙伴。"
-      }
-    },
-    "stats": {
-      "engineers": "专业工程师",
-      "staff": "技术人员",
-      "experience": "平均经验年数",
-      "support": "支持覆盖"
-    }
-  },
-  "projects": {
-    "title": "我们的项目",
-    "subtitle": "工业自动化卓越"
-  },
-  "gallery": {
-    "title": "项目展示",
-    "subtitle": "我们工程卓越的展示"
-  },
-  "news": {
-    "title": "新闻与更新",
-    "subtitle": "最新行业洞察"
-  },
-  "quote": {
-    "hero": {
-      "title": "工程报价",
-      "subtitle": "获得专业工程咨询和成本估算",
-      "benefits": {
-        "consultation": "免费咨询",
-        "estimates": "即时成本估算",
-        "response": "24-48小时响应",
-        "noCosts": "无隐藏费用"
-      }
-    },
-    "method": {
-      "title": "选择您的报价方式",
-      "description": "使用我们的计算器获得即时成本估算，或向我们的工程团队请求详细的定制报价。",
-      "calculator": "成本计算器",
-      "request": "请求报价"
-    }
-  },
-  "projects": {
-    "title": "我们的项目",
-    "subtitle": "工业自动化卓越",
-    "showing": "显示 {{count}} 个项目，共 {{total}} 个",
-    "hero": {
-      "title": "我们的项目",
-      "subtitle": "通过1200多个成功项目发现我们的工程卓越，涵盖各个行业，展示创新、质量和可靠性。"
-    }
-  },
-  "ui": {
-    "projectPortfolio": "项目作品集",
-    "featuredProjects": "特色项目"
-  },
-  "home": {
-    "hero": {
-      "title": {
-        "main": "工业成功的",
-        "highlight": "全面解决方案"
-      },
-      "subtitle": "我们广泛的产品和服务组合提供全面的解决方案，推动工业成功，确保满足您工程需求的各个方面。",
-      "buttons": {
-        "exploreServices": "探索我们的服务",
-        "requestConsultation": "请求咨询"
-      },
-      "features": {
-        "experience": "15年以上经验",
-        "support": "24/7技术支持",
-        "service": "全印度服务"
-      },
-      "stats": {
-        "yearsExperience": "年经验",
-        "projectsCompleted": "已完成项目",
-        "happyClients": "满意客户",
-        "supportAvailable": "支持服务"
-      }
-    },
-    "about": {
-      "label": "关于我们",
-      "title": "欢迎来到Powerton工程私人有限公司。",
-      "description": "您值得信赖的合作伙伴，提供高质量的工程解决方案和服务。秉承通过创新和卓越赋能产业的愿景成立，我们专门提供全面的电气和仪表产品。",
-      "visualHeading": "专业工程",
-      "visualDescription": "从事工业自动化和控制系统的专业印度工程师",
-      "features": {
-        "electrical": {
-          "title": "电气与仪表",
-          "description": "控制系统的完整范围"
-        },
-        "mechanical": {
-          "title": "机械泵",
-          "description": "耐用的泵解决方案和备件"
-        },
-        "solar": {
-          "title": "太阳能解决方案",
-          "description": "可持续能源安装"
-        },
-        "tools": {
-          "title": "工业工具",
-          "description": "专业级设备"
-        }
-      },
-      "button": "了解更多关于我们"
-    },
-    "clients": {
-      "label": "我们的客户",
-      "title": "受到领先品牌和组织的信赖",
-      "description": "我们与各个行业的行业领导者合作，提供卓越的工程解决方案。",
-      "testimonialsTitle": "客户评价"
-    },
-    "projects": {
-      "label": "我们的项目",
-      "title": "成功交付的工程解决方案",
-      "description": "探索我们的已完成项目组合，展示我们在工业自动化和电气工程方面的专业知识。",
-      "keyFeatures": "主要特点：",
-      "completed": "已完成",
-      "viewDetails": "查看详情",
-      "viewAllProjects": "查看所有项目",
-      "downloadPortfolio": "下载作品集"
-    },
-    "seo": {
-      "title": "Powerton工程 - 工业自动化与控制面板 | 印度",
-      "description": "电气控制面板、工业自动化系统和仪表解决方案的领先制造商。在印度拥有15年以上经验的专业工程服务。",
-      "keywords": "电气控制面板，工业自动化，过程自动化，仪表，电力控制中心，电机控制中心，电气工程，印度，诺伊达"
-    },
-    "services": {
-      "label": "我们的服务",
-      "title": "所有需求的专业解决方案，以卓越的关怀交付",
-      "description": "从流程自动化到维护合同，我们提供量身定制的综合工程解决方案，满足您的工业需求。"
-    },
-    "products": {
-      "label": "我们的产品",
-      "title": "工业自动化设备解决方案",
-      "description": "为工业环境设计的全面的电气和自动化产品系列，具备可靠性、效率和卓越性能。",
-      "viewProducts": "查看产品",
-      "viewCatalog": "查看完整产品目录"
-    },
-    "contact": {
-      "label": "联系我们",
-      "title": "让我们讨论您的工程需求",
-      "description": "准备开始您的下一个项目？联系我们的专家团队获取定制解决方案和专业咨询。",
-      "getInTouch": "保持联系",
-      "methods": {
-        "phone": {
-          "title": "电话",
-          "description": "24/7提供紧急支持"
-        },
-        "email": {
-          "title": "电子邮件",
-          "description": "我们将在24小时内回复"
-        },
-        "address": {
-          "title": "地址",
-          "metro": "最近的地铁站"
-        }
-      }
-    }
-  },
-  "quote": {
-    "projectSizes": {
-      "small": "小型 (1-10个I/O点)",
-      "medium": "中型 (11-100个I/O点)", 
-      "large": "大型 (101-500个I/O点)",
-      "enterprise": "企业级 (500+个I/O点)"
-    },
-    "timelines": {
-      "urgent": "紧急 (< 3个月)",
-      "standard": "标准 (3-6个月)",
-      "extended": "延长 (6-12个月)",
-      "longTerm": "长期 (12+个月)"
-    },
-    "requirements": {
-      "plcProgramming": "PLC编程",
-      "scadaDevelopment": "SCADA开发", 
-      "hmiDesign": "HMI设计",
-      "networkIntegration": "网络集成",
-      "safetySystems": "安全系统",
-      "remoteMonitoring": "远程监控",
-      "dataAnalytics": "数据分析",
-      "mobileApp": "移动应用接口"
-    },
-    "additionalFeatures": {
-      "redundancy": "系统冗余",
-      "cybersecurity": "高级网络安全",
-      "iotIntegration": "物联网集成",
-      "aiMl": "AI/ML分析",
-      "predictiveMaintenance": "预测性维护", 
-      "energyManagement": "能源管理",
-      "cloudIntegration": "云集成",
-      "trainingSupport": "扩展培训和支持"
-    },
-    "industries": {
-      "manufacturing": "制造业",
-      "powerGeneration": "发电",
-      "oilGas": "石油天然气",
-      "chemicalProcessing": "化学处理",
-      "waterTreatment": "水处理",
-      "foodBeverage": "食品饮料",
-      "pharmaceutical": "制药",
-      "renewableEnergy": "可再生能源"
-    },
-    "projectTypes": {
-      "processAutomation": "过程自动化",
-      "powerControlSystems": "电力控制系统",
-      "instrumentationControl": "仪器仪表控制",
-      "solarAutomation": "太阳能自动化",
-      "buildingAutomation": "楼宇自动化",
-      "manufacturingAutomation": "制造自动化"
     }
   }
 }

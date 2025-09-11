@@ -80,16 +80,6 @@
       "viewAllProjects": "Ona Miradi Yote",
       "downloadPortfolio": "Pakua Kumbukumbu"
     },
-    "projects": {
-      "label": "Miradi Yetu",
-      "title": "Suluhisho za Kihandisi Zilizotolewa kwa Mafanikio",
-      "description": "Chunguza kumbuka za miradi yetu iliyokamilika inayoonyesha utaalamu wetu katika otomatiki ya viwanda na uhandisi wa umeme.",
-      "completed": "Imekamilika",
-      "keyFeatures": "Sifa Kuu:",
-      "viewDetails": "Ona Maelezo",
-      "viewAllProjects": "Ona Miradi Yote",
-      "downloadPortfolio": "Pakua Kumbukumbu"
-    },
     "contact": {
       "label": "Wasiliana Nasi",
       "title": "Uko Tayari Kuanza Mradi Wako?",
@@ -605,6 +595,13 @@
       "solarAutomation": "Otomatiki ya Jua",
       "buildingAutomation": "Otomatiki ya Majengo",
       "manufacturingAutomation": "Otomatiki ya Utengenezaji"
+    }
+  },
+  "home": {
+    "seo": {
+      "title": "Powerton Engineering - Otomatiki ya Viwanda na Paneli za Udhibiti | Afrika",
+      "description": "Mtengenezaji mkuu wa paneli za udhibiti wa umeme, mifumo ya otomatiki ya viwanda na suluhisho za vifaa. Huduma za uhandisi mtaalamu na uzoefu wa zaidi ya miaka 15.",
+      "keywords": "paneli za udhibiti wa umeme, otomatiki ya viwanda, otomatiki ya michakato, vifaa vya kipimo, kituo cha udhibiti wa nguvu, kituo cha udhibiti wa injini, uhandisi wa umeme, Afrika, otomatiki"
     }
   }
 }
