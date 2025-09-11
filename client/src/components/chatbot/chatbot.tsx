@@ -1054,7 +1054,7 @@ export default function Chatbot() {
     <>
       {/* Chatbot Toggle Button */}
       <motion.div
-        className="fixed bottom-6 right-6 z-50"
+        className="fixed bottom-6 right-6 z-30"
         initial={{ scale: 0 }}
         animate={{ scale: 1 }}
         transition={{ delay: 2 }}
@@ -1082,7 +1082,7 @@ export default function Chatbot() {
       <AnimatePresence>
         {isOpen && (
           <motion.div
-            className="fixed inset-0 bg-black/20 backdrop-blur-sm z-30"
+            className="fixed inset-0 bg-black/20 backdrop-blur-sm z-20"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
@@ -1096,7 +1096,7 @@ export default function Chatbot() {
         {isOpen && (
           <motion.div
             ref={chatWindowRef}
-            className="fixed right-4 left-4 sm:left-auto sm:right-6 z-40 w-auto sm:w-80 md:w-96 max-w-none"
+            className="fixed right-4 left-4 sm:left-auto sm:right-6 z-30 w-auto sm:w-80 md:w-96 max-w-none"
             style={{ 
               top: `${headerHeight + 16}px`, 
               bottom: '88px',
