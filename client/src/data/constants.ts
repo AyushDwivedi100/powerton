@@ -130,10 +130,10 @@ export const getProducts = (t: any) => [
     icon: "Zap",
     image: getProductImage("electrical-components")?.src || "",
     features: [
-      "Circuit Breakers",
-      "Contactors",
-      "Relays",
-      "Power Supplies"
+      t('products:categories.electrical-components.features.circuit-breakers'),
+      t('products:categories.electrical-components.features.contactors'),
+      t('products:categories.electrical-components.features.relays'),
+      t('products:categories.electrical-components.features.power-supplies')
     ],
     subcategories: [
       {
@@ -395,8 +395,8 @@ export const getProducts = (t: any) => [
   },
   {
     id: "bldc",
-    title: t('products:categories.bldc.title') || "BLDC Motors",
-    description: t('products:categories.bldc.description') || "High-efficiency Brushless DC motors for various industrial and commercial applications.",
+    title: t('products:categories.bldc.title'),
+    description: t('products:categories.bldc.description'),
     icon: "Zap",
     image: getProductImage("bldc")?.src || "",
     features: [
