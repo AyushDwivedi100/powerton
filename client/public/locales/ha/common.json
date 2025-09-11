@@ -21,6 +21,18 @@
     "sw": "Kiswahili",
     "ha": "Hausa"
   },
+  "navigation": {
+    "backToProducts": "Koma ga Samfuran",
+    "backToInstrumentationComponents": "Koma ga Kayan Aikin",
+    "backToElectricalComponents": "Koma ga Kayan Wutar Lantarki",
+    "backToSolarProducts": "Koma ga Samfuran Hasken Rana",
+    "backToMechanicalPumps": "Koma ga Famfunan Mashin da Kayan Gyara",
+    "backToMeasurementInstruments": "Koma ga Kayan Auna",
+    "backToSafetyDevices": "Koma ga Kayan Tsaro",
+    "backToIndustrialTools": "Koma ga Kayan Aikin Masana'antu",
+    "backToAutomationSystems": "Koma ga Tsarin Atomatik",
+    "backToBLDC": "Koma ga Samfuran BLDC"
+  },
   "testimonials": {
     "anand": {
       "name": "Anand Awasthi",

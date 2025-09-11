@@ -109,6 +109,63 @@
     "hero": {
       "title": "Excelencia en Ingeniería desde 2008",
       "subtitle": "Su socio de confianza en automatización industrial y soluciones de ingeniería eléctrica"
+    },
+    "story": {
+      "title": "Nuestro Viaje y Visión",
+      "description1": "Establecida con la visión de empoderar a las industrias a través de la innovación y la excelencia, Powerton Engineering ha estado a la vanguardia de las soluciones de automatización industrial e ingeniería eléctrica desde 2008. Nuestro viaje comenzó con una misión simple pero poderosa: proporcionar soluciones de ingeniería de vanguardia que impulsen el crecimiento industrial y la eficiencia operacional.",
+      "description2": "A lo largo de los años, hemos crecido de una pequeña empresa de ingeniería a un socio de confianza para industrias en toda la India y más allá. Nuestro equipo de ingenieros experimentados y expertos técnicos trabaja incansablemente para entregar soluciones que no solo cumplan sino que superen las expectativas de nuestros clientes. Nos enorgullecemos de nuestra capacidad para entender desafíos industriales complejos y proporcionar soluciones innovadoras y sostenibles."
+    },
+    "mission": {
+      "title": "Nuestra Misión",
+      "description": "Entregar soluciones de ingeniería innovadoras, confiables y sostenibles que empoderen a nuestros clientes para lograr la excelencia operacional e impulsar el crecimiento industrial."
+    },
+    "vision": {
+      "title": "Nuestra Visión",
+      "description": "Ser el proveedor líder de automatización industrial y soluciones de ingeniería eléctrica, reconocido por nuestra experiencia técnica, calidad y compromiso con el éxito del cliente."
+    },
+    "coreValues": {
+      "title": "Nuestros Valores Fundamentales",
+      "subtitle": "Los principios que guían todo lo que hacemos"
+    },
+    "values": {
+      "quality": {
+        "title": "Excelencia en Calidad",
+        "description": "Mantenemos los más altos estándares en cada proyecto que entregamos"
+      },
+      "customer": {
+        "title": "Enfoque en el Cliente",
+        "description": "Su éxito es nuestra prioridad - construimos asociaciones duraderas"
+      },
+      "innovation": {
+        "title": "Innovación",
+        "description": "Soluciones de vanguardia utilizando las últimas tecnologías de la industria"
+      },
+      "reliability": {
+        "title": "Confiabilidad",
+        "description": "Soluciones confiables en las que puede confiar para operaciones críticas"
+      }
+    },
+    "stats": {
+      "engineers": "Ingenieros",
+      "staff": "Personal de Apoyo",
+      "experience": "Años de Experiencia",
+      "support": "Soporte"
+    },
+    "certifications": {
+      "title": "Certificaciones y Estándares de Calidad",
+      "subtitle": "Nuestro compromiso con la calidad está validado por certificaciones reconocidas por la industria y estándares de cumplimiento.",
+      "iso9001": "ISO 9001:2015 Gestión de Calidad",
+      "iso14001": "ISO 14001:2015 Gestión Ambiental",
+      "ohsas18001": "OHSAS 18001 Salud y Seguridad Ocupacional",
+      "ceMarking": "Cumplimiento de Marcado CE",
+      "ulListed": "Productos Listados UL",
+      "cpriApproved": "Equipo Aprobado CPRI"
+    },
+    "cta": {
+      "title": "Asóciese con Powerton Engineering",
+      "description": "¿Listo para transformar sus operaciones industriales con nuestras soluciones de ingeniería expertas? Discutamos sus requisitos de proyecto y entreguemos excelencia juntos.",
+      "startProject": "Iniciar Su Proyecto",
+      "exploreServices": "Explorar Nuestros Servicios"
     }
   },
   "contact": {
@@ -218,10 +275,57 @@
   "projects": {
     "hero": {
       "title": "Nuestros Proyectos",
-      "subtitle": "Descubra nuestra excelencia en ingeniería a través de más de 1200 proyectos exitosos en diversas industrias."
+      "subtitle": "Descubra nuestra excelencia en ingeniería a través de más de 1200 proyectos exitosos en diversas industrias, mostrando innovación, calidad y confiabilidad."
+    },
+    "showing": "Mostrando",
+    "technologies": {
+      "protectionsystems": "Sistemas de Protección",
+      "energymanagement": "Gestión de Energía",
+      "solarinverters": "Inversores Solares",
+      "gridsync": "Sincronización de Red",
+      "weathermonitoring": "Monitoreo Climático",
+      "processcontrol": "Control de Procesos",
+      "safetysystems": "Sistemas de Seguridad",
+      "environmentalmonitoring": "Monitoreo Ambiental",
+      "industrialiot": "IoT Industrial",
+      "predictiveanalytics": "Análisis Predictivo",
+      "edgecomputing": "Computación de Borde"
+    },
+    "items": {
+      "solar-plant-demo": {
+        "title": "Muestra: Sistema de Control de Planta Solar",
+        "client": "Cliente de Energía Renovable del Futuro",
+        "description": "Sistema de automatización de seguimiento solar de muestra que demuestra capacidades de monitoreo climático y sincronización de red para proyectos de energía renovable.",
+        "location": "Múltiples Sitios",
+        "duration": "6-10 meses"
+      },
+      "process-control-demo": {
+        "title": "Demo: Solución de Control de Procesos",
+        "client": "Socio Industrial del Futuro",
+        "description": "Demostración de capacidades completas de automatización de procesos incluyendo sistemas de seguridad, monitoreo ambiental y control por lotes para aplicaciones industriales.",
+        "location": "Sitio del Proyecto TBD",
+        "duration": "8-12 meses"
+      },
+      "smart-factory-progress": {
+        "title": "Demo: Integración de Fábrica Inteligente",
+        "client": "Cliente de Desarrollo Actual",
+        "description": "Demostración continua de integración de fábrica inteligente mostrando conectividad IoT, mantenimiento predictivo y optimización basada en datos para manufactura moderna.",
+        "location": "Sitio de Desarrollo",
+        "duration": "14 meses"
+      }
+    },
+    "categories": {
+      "solarsolutions": "Soluciones Solares"
+    },
+    "statuses": {
+      "inprogress": "En Progreso"
     }
   },
   "quote": {
+    "seo": {
+      "title": "Solicitar Cotización - Powerton Engineering | Soluciones Personalizadas de Automatización Industrial",
+      "description": "Obtén una cotización detallada para tu proyecto de automatización industrial de Powerton Engineering. Consulta gratuita y respuesta en 24-48 horas."
+    },
     "hero": {
       "title": "Cotización de Ingeniería",
       "subtitle": "Obtén consultoría profesional de ingeniería y estimaciones de costos",
@@ -232,11 +336,62 @@
         "noCosts": "Sin Costos Ocultos"
       }
     },
+    "benefits": {
+      "assessment": {
+        "title": "Evaluación Detallada",
+        "description": "Evaluación integral del proyecto y especificaciones técnicas"
+      },
+      "response": {
+        "title": "Respuesta Rápida",
+        "description": "Recibe tu cotización detallada en 24-48 horas"
+      },
+      "consultation": {
+        "title": "Consulta Experta",
+        "description": "Consulta técnica gratuita con nuestro equipo de ingeniería"
+      },
+      "solutions": {
+        "title": "Soluciones Personalizadas",
+        "description": "Soluciones de ingeniería adaptadas a tus requisitos específicos"
+      }
+    },
+    "process": {
+      "title": "Nuestro Proceso de Cotización",
+      "description": "Desde la solicitud inicial hasta la propuesta detallada, aseguramos un proceso fluido y transparente.",
+      "submit": {
+        "title": "Enviar Solicitud",
+        "description": "Completa nuestro formulario integral de cotización o usa nuestra calculadora de costos"
+      },
+      "review": {
+        "title": "Revisión Técnica",
+        "description": "Nuestro equipo de ingeniería analiza tus requisitos y especificaciones"
+      },
+      "assessment": {
+        "title": "Evaluación del Sitio",
+        "description": "Visita opcional al sitio para proyectos complejos (si es necesario)"
+      },
+      "quote": {
+        "title": "Cotización Detallada",
+        "description": "Recibe precios integrales con cronograma y entregables"
+      }
+    },
     "method": {
       "title": "Elige Tu Método de Cotización",
       "description": "Obtén estimaciones de costos instantáneas con nuestra calculadora o solicita una cotización personalizada detallada de nuestro equipo de ingeniería.",
       "calculator": "Calculadora de Costos",
       "request": "Solicitar Cotización"
+    },
+    "calculator": {
+      "title": "Calculadora de Costos Avanzada",
+      "description": "Estamos dando los toques finales a nuestra herramienta inteligente de estimación de costos. Esta función proporcionará precios instantáneos y precisos para sus proyectos de automatización.",
+      "launchingSoon": "Próximamente",
+      "useQuoteForm": "Para cotizaciones inmediatas, utilice nuestro formulario detallado de cotización",
+      "getQuoteNow": "Obtener Cotización Ahora",
+      "projectTitle": "Calculadora de Costos del Proyecto",
+      "stepOf": "Paso {{current}} de {{total}}"
+    },
+    "cta": {
+      "title": "¿Listo para Comenzar?",
+      "description": "Contáctanos hoy para tu solución de ingeniería personalizada. Nuestro equipo está listo para ayudar a dar vida a tu proyecto."
     }
   },
   "backToProducts": "Volver a Productos",
@@ -363,6 +518,10 @@
     }
   },
   "products": {
+    "seo": {
+      "title": "Catálogo de Productos Industriales - Automatización y Equipos Eléctricos | Powerton Engineering",
+      "description": "Catálogo integral de productos de automatización industrial, componentes eléctricos, instrumentación, sistemas solares, bombas y herramientas. Equipos de calidad para aplicaciones industriales."
+    },
     "badges": {
       "handTools": "Herramientas Manuales",
       "powerTools": "Herramientas Eléctricas",
@@ -462,9 +621,38 @@
     }
   },
   "services": {
+    "seo": {
+      "title": "Servicios Profesionales de Ingeniería - Instalación, Mantenimiento y Automatización | Powerton Engineering",
+      "description": "Servicios expertos de ingeniería: programación PLC, sistemas SCADA, automatización industrial, instalación de paneles eléctricos, mantenimiento, calibración, soluciones personalizadas y servicios EPC solares a nivel mundial."
+    },
     "hero": {
-      "title": "Nuestros Servicios",
-      "subtitle": "Servicios integrales de ingeniería diseñados para impulsar la excelencia industrial y la eficiencia operacional."
+      "title": "Servicios Profesionales de Ingeniería",
+      "subtitle": "Soluciones integrales de automatización industrial, ingeniería eléctrica e instrumentación diseñadas para optimizar sus operaciones e impulsar el éxito empresarial."
+    },
+    "whyChoose": {
+      "title": "¿Por Qué Elegir Powerton Engineering?"
+    },
+    "benefits": {
+      "expertTeam": {
+        "title": "Equipo Experto",
+        "description": "Profesionales certificados con amplia experiencia en la industria"
+      },
+      "rapidResponse": {
+        "title": "Respuesta Rápida",
+        "description": "Tiempo promedio de respuesta de 2 horas para todas las solicitudes de soporte"
+      },
+      "qualityAssured": {
+        "title": "Calidad Asegurada",
+        "description": "Procesos certificados ISO y estándares de calidad garantizados"
+      },
+      "clientFocused": {
+        "title": "Enfocado en el Cliente",
+        "description": "Soluciones personalizadas adaptadas a sus requisitos específicos"
+      }
+    },
+    "cta": {
+      "title": "¿Listo para Comenzar?",
+      "description": "Contáctenos hoy para discutir los requisitos de su proyecto y obtener una solución personalizada."
     },
     "categories": {
       "automation": "Automatización Industrial",
@@ -510,21 +698,197 @@
     "last": "Último"
   },
   "quote": {
+    "seo": {
+      "title": "Solicitar Cotización - Powerton Engineering | Soluciones de Automatización Industrial Personalizadas",
+      "description": "Obtenga una cotización detallada para su proyecto de automatización industrial de Powerton Engineering. Consulta gratuita y respuesta en 24-48 horas."
+    },
+    "hero": {
+      "title": "Obtenga Su Cotización Personalizada",
+      "subtitle": "Soluciones de ingeniería personalizadas con precios transparentes y consulta experta para su proyecto de automatización industrial.",
+      "benefits": {
+        "consultation": "Consulta Técnica Gratuita",
+        "response": "Respuesta en 24-48 Horas",
+        "estimates": "Estimaciones Precisas",
+        "noCosts": "Sin Costos Ocultos"
+      }
+    },
+    "method": {
+      "title": "Seleccione Su Método Preferido",
+      "description": "Elija entre nuestro formulario detallado de cotización o use nuestra calculadora avanzada de costos para estimaciones instantáneas.",
+      "request": "Solicitar Cotización",
+      "calculator": "Calculadora de Costos"
+    },
+    "calculator": {
+      "title": "Calculadora Avanzada de Costos",
+      "description": "Estamos dando los toques finales a nuestra herramienta inteligente de estimación de costos. Esta función proporcionará precios instantáneos y precisos para sus proyectos de automatización.",
+      "launchingSoon": "Próximamente",
+      "useQuoteForm": "Para cotizaciones inmediatas, use nuestro formulario detallado de cotización",
+      "getQuoteNow": "Obtener Cotización Ahora",
+      "projectTitle": "Calculadora de Costos de Proyecto",
+      "stepOf": "Paso {{current}} de {{total}}"
+    },
+    "benefits": {
+      "assessment": {
+        "title": "Evaluación Detallada",
+        "description": "Evaluación integral del proyecto y especificaciones técnicas"
+      },
+      "response": {
+        "title": "Respuesta Rápida",
+        "description": "Reciba su cotización detallada en 24-48 horas"
+      },
+      "consultation": {
+        "title": "Consulta Experta",
+        "description": "Consulta técnica gratuita con nuestro equipo de ingeniería"
+      },
+      "solutions": {
+        "title": "Soluciones Personalizadas",
+        "description": "Soluciones de ingeniería personalizadas para sus requerimientos específicos"
+      }
+    },
+    "process": {
+      "title": "Nuestro Proceso de Cotización",
+      "description": "Desde la solicitud inicial hasta la propuesta detallada, garantizamos un proceso fluido y transparente.",
+      "submit": {
+        "title": "Enviar Solicitud",
+        "description": "Complete nuestro formulario integral de cotización o use nuestra calculadora de costos"
+      },
+      "review": {
+        "title": "Revisión Técnica",
+        "description": "Nuestro equipo de ingeniería analiza sus requerimientos y especificaciones"
+      },
+      "assessment": {
+        "title": "Evaluación del Sitio",
+        "description": "Visita opcional al sitio para proyectos complejos (si es requerida)"
+      },
+      "quote": {
+        "title": "Cotización Detallada",
+        "description": "Reciba precios integrales con cronograma y entregables"
+      }
+    },
+    "cta": {
+      "title": "¿Listo para Comenzar?",
+      "description": "Contáctenos hoy para su solución de ingeniería personalizada. Nuestro equipo está listo para ayudar a dar vida a su proyecto."
+    },
+    "benefits": {
+      "assessment": {
+        "title": "Evaluación Detallada",
+        "description": "Evaluación integral del proyecto y especificaciones técnicas"
+      },
+      "response": {
+        "title": "Respuesta Rápida",
+        "description": "Reciba su cotización detallada en 24-48 horas"
+      },
+      "consultation": {
+        "title": "Consulta Experta",
+        "description": "Consulta técnica gratuita con nuestro equipo de ingeniería"
+      },
+      "solutions": {
+        "title": "Soluciones Personalizadas",
+        "description": "Soluciones de ingeniería adaptadas a sus requisitos específicos"
+      }
+    },
+    "process": {
+      "title": "Nuestro Proceso de Cotización",
+      "description": "Desde la solicitud inicial hasta la propuesta detallada, aseguramos un proceso fluido y transparente.",
+      "submit": {
+        "title": "Enviar Solicitud",
+        "description": "Complete nuestro formulario integral de cotización o use nuestra calculadora de costos"
+      },
+      "review": {
+        "title": "Revisión Técnica",
+        "description": "Nuestro equipo de ingeniería analiza sus requisitos y especificaciones"
+      },
+      "assessment": {
+        "title": "Evaluación del Sitio",
+        "description": "Visita opcional al sitio para proyectos complejos (si es necesario)"
+      },
+      "quote": {
+        "title": "Cotización Detallada",
+        "description": "Reciba precios integrales con cronograma y entregables"
+      }
+    },
+    "cta": {
+      "title": "¿Listo para Comenzar?",
+      "description": "Contáctenos hoy para su solución de ingeniería personalizada. Nuestro equipo está listo para ayudar a dar vida a su proyecto."
+    },
+    "labels": {
+      "phoneNumber": "Número de Teléfono",
+      "companyName": "Nombre de la Empresa",
+      "projectTitle": "Título del Proyecto",
+      "projectType": "Tipo de Proyecto",
+      "expectedTimeline": "Cronograma Esperado",
+      "approximateBudget": "Presupuesto Aproximado",
+      "industryType": "Tipo de Industria",
+      "projectScale": "Escala del Proyecto",
+      "preferredBrands": "Marcas Preferidas",
+      "additionalRequirements": "Requisitos Adicionales",
+      "services": "Servicios",
+      "specifications": "Especificaciones"
+    },
+    "validation": {
+      "nameMin": "El nombre debe tener al menos 2 caracteres",
+      "emailInvalid": "Dirección de correo electrónico no válida",
+      "phoneMin": "El número de teléfono debe tener al menos 10 dígitos",
+      "companyRequired": "Nombre de la empresa es obligatorio",
+      "projectTitleRequired": "Título del proyecto es obligatorio",
+      "projectTypeRequired": "Tipo de proyecto es obligatorio",
+      "timelineRequired": "Cronograma es obligatorio",
+      "servicesRequired": "Seleccione al menos un servicio",
+      "specificationsMin": "Las especificaciones deben tener al menos 20 caracteres"
+    },
+    "timelines": {
+      "immediate": "Inmediato (< 1 mes)",
+      "1-3-months": "1-3 meses",
+      "3-6-months": "3-6 meses",
+      "6-12-months": "6-12 meses",
+      "1-year-plus": "1 año o más"
+    },
+    "projectTypes": {
+      "newInstallation": "Nueva Instalación",
+      "systemUpgrade": "Actualización del Sistema",
+      "retrofit": "Modernización",
+      "maintenance": "Contrato de Mantenimiento",
+      "consultation": "Consulta Técnica",
+      "design": "Diseño de Sistemas",
+      "processAutomation": "Automatización de Procesos",
+      "powerControlSystems": "Sistemas de Control de Energía",
+      "instrumentationControl": "Instrumentación y Control",
+      "solarAutomation": "Automatización Solar",
+      "buildingAutomation": "Automatización de Edificios",
+      "manufacturingAutomation": "Automatización de Manufactura"
+    },
+    "budgetRanges": {
+      "under-1-lakh": "Menos de ₹1 Lakh",
+      "1-5-lakh": "₹1-5 Lakhs",
+      "5-10-lakh": "₹5-10 Lakhs",
+      "10-25-lakh": "₹10-25 Lakhs",
+      "25-50-lakh": "₹25-50 Lakhs",
+      "50-lakh-plus": "₹50 Lakhs+",
+      "discuss": "Prefiero Discutir"
+    },
+    "success": {
+      "title": "¡Cotización Enviada Exitosamente!",
+      "description": "Hemos recibido su solicitud de cotización. Nuestro equipo se pondrá en contacto con usted en 24-48 horas."
+    },
+    "sections": {
+      "requiredServices": "Servicios Requeridos",
+      "projectInformation": "Información del Proyecto",
+      "technicalRequirements": "Requisitos Técnicos"
+    },
+    "placeholders": {
+      "selectBudget": "Seleccionar Rango de Presupuesto",
+      "selectIndustry": "Seleccionar Industria",
+      "selectProjectScale": "Seleccionar Escala del Proyecto"
+    },
     "projectSizes": {
       "small": "Pequeño (1-10 Puntos I/O)",
-      "medium": "Mediano (11-100 Puntos I/O)", 
+      "medium": "Mediano (11-100 Puntos I/O)",
       "large": "Grande (101-500 Puntos I/O)",
       "enterprise": "Empresarial (500+ Puntos I/O)"
     },
-    "timelines": {
-      "urgent": "Urgente (< 3 meses)",
-      "standard": "Estándar (3-6 meses)",
-      "extended": "Extendido (6-12 meses)",
-      "longTerm": "Largo plazo (12+ meses)"
-    },
     "requirements": {
       "plcProgramming": "Programación PLC",
-      "scadaDevelopment": "Desarrollo SCADA", 
+      "scadaDevelopment": "Desarrollo SCADA",
       "hmiDesign": "Diseño HMI",
       "networkIntegration": "Integración de Red",
       "safetySystems": "Sistemas de Seguridad",
@@ -537,7 +901,7 @@
       "cybersecurity": "Ciberseguridad Avanzada",
       "iotIntegration": "Integración IoT",
       "aiMl": "Análisis IA/ML",
-      "predictiveMaintenance": "Mantenimiento Predictivo", 
+      "predictiveMaintenance": "Mantenimiento Predictivo",
       "energyManagement": "Gestión de Energía",
       "cloudIntegration": "Integración en la Nube",
       "trainingSupport": "Capacitación y Soporte Extendido"
@@ -551,14 +915,130 @@
       "foodBeverage": "Alimentos y Bebidas",
       "pharmaceutical": "Farmacéutica",
       "renewableEnergy": "Energía Renovable"
+    }
+  },
+  "gallery": {
+    "section": {
+      "label": "Nuestro Trabajo",
+      "title": "Excelencia en Ingeniería en Acción",
+      "description": "Explore nuestro portafolio de instalaciones exitosas, proyectos de automatización y soluciones industriales entregadas en varios sectores e industrias."
     },
-    "projectTypes": {
-      "processAutomation": "Automatización de Procesos",
-      "powerControlSystems": "Sistemas de Control de Energía",
-      "instrumentationControl": "Instrumentación y Control",
-      "solarAutomation": "Automatización Solar",
-      "buildingAutomation": "Automatización de Edificios",
-      "manufacturingAutomation": "Automatización de Manufactura"
+    "sections": {
+      "company": {
+        "title": "Acerca de la Empresa",
+        "description": "Conozca más sobre Powerton Engineering, nuestra misión, valores y compromiso con la excelencia en ingeniería."
+      }
+    },
+    "tabs": {
+      "company": "Empresa",
+      "projects": "Proyectos",
+      "products": "Productos"
+    },
+    "categories": {
+      "electricalSystems": "Sistemas Eléctricos",
+      "automation": "Automatización",
+      "safetyProtection": "Seguridad y Protección",
+      "renewableEnergy": "Energía Renovable",
+      "measurementSystems": "Sistemas de Medición",
+      "mechanicalSystems": "Sistemas Mecánicos"
+    },
+    "projects": {
+      "controlPanel": {
+        "title": "Instalación de Panel de Control Industrial",
+        "description": "Configuración avanzada de panel de control para instalaciones de manufactura"
+      },
+      "processAutomation": {
+        "title": "Implementación de Automatización de Procesos",
+        "description": "Despliegue completo de sistema SCADA para planta química"
+      },
+      "safetySystem": {
+        "title": "Integración de Sistema de Seguridad",
+        "description": "Instalación integral de relés de seguridad y sistema de protección"
+      },
+      "solarPower": {
+        "title": "Instalación de Energía Solar",
+        "description": "Granja solar de 10MW con sistemas completos de monitoreo"
+      },
+      "instrumentation": {
+        "title": "Configuración de Instrumentación",
+        "description": "Instalación de equipos de medición de precisión y calibración"
+      },
+      "pumpStation": {
+        "title": "Automatización de Estación de Bombas",
+        "description": "Sistema automatizado de control y monitoreo de bombas"
+      },
+      "images": {
+        "solarPlant": {
+          "title": "Planta Solar Industrial",
+          "description": "Instalación solar completa con sistemas de monitoreo avanzados",
+          "client": "Cliente Energético"
+        },
+        "scadaSystem": {
+          "title": "Sistema SCADA",
+          "description": "Sistema SCADA completo para control de procesos industriales",
+          "client": "Cliente Industrial"
+        },
+        "instrumentation": {
+          "title": "Instrumentación Industrial",
+          "description": "Sistemas de instrumentación de precisión para control de procesos",
+          "client": "Cliente de Manufactura"
+        },
+        "plcProgramming": {
+          "title": "Programación PLC",
+          "description": "Programación avanzada de PLC para automatización industrial",
+          "client": "Cliente Automotriz"
+        },
+        "electricalPanel": {
+          "title": "Panel Eléctrico Industrial",
+          "description": "Paneles eléctricos personalizados para aplicaciones industriales",
+          "client": "Cliente de Energía"
+        }
+      },
+      "categories": {
+        "scada": "SCADA",
+        "instrumentation": "Instrumentación",
+        "plcProgramming": "Programación PLC",
+        "electrical": "Eléctrico"
+      }
+    },
+    "products": {
+      "images": {
+        "instrumentation": {
+          "title": "Productos de Instrumentación",
+          "description": "Gama completa de productos de instrumentación para control industrial"
+        },
+        "controlSystems": {
+          "title": "Sistemas de Control",
+          "description": "Sistemas avanzados de control para automatización industrial"
+        },
+        "solarProducts": {
+          "title": "Productos Solares",
+          "description": "Soluciones solares completas para aplicaciones industriales"
+        },
+        "electricalPanels": {
+          "title": "Paneles Eléctricos",
+          "description": "Paneles de control eléctrico personalizados"
+        },
+        "pumps": {
+          "title": "Bombas y Sistemas",
+          "description": "Bombas industriales y sistemas de bombeo"
+        },
+        "safetyEquipment": {
+          "title": "Equipos de Seguridad",
+          "description": "Equipos de seguridad industrial y protección"
+        }
+      },
+      "categories": {
+        "instrumentation": "Instrumentación",
+        "controlSystems": "Sistemas de Control",
+        "solar": "Solar",
+        "electricalPanels": "Paneles Eléctricos",
+        "pumps": "Bombas",
+        "safety": "Seguridad"
+      }
+    },
+    "stats": {
+      "projectsCompleted": "Proyectos Completados"
     }
   }
 }

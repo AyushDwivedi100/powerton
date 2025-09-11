@@ -60,10 +60,11 @@
     "backToSolarProducts": "Volver a Productos Solares",
     "backToMechanicalPumps": "Volver a Bombas Mecánicas y Repuestos",
     "backToMeasurementInstruments": "Volver a Instrumentos de Medición",
-    "backToSafetyDevices": "Volver a Dispositivos de Seguridad",
+    "backToSafetyDevices": "Volver a Dispositivos de Seguridad y Protección",
     "backToIndustrialTools": "Volver a Herramientas Industriales",
     "backToAutomationSystems": "Volver a Sistemas de Automatización",
-    "backToBLDC": "Volver a Productos BLDC"
+    "backToBLDC": "Volver a Productos BLDC",
+    "phoneNumbers": "Números de Teléfono"
   },
   "technicalTerms": {
     "BLDC": "BLDC (Motor de Corriente Continua Sin Escobillas)",
@@ -81,11 +82,6 @@
     "CPRI": "CPRI (Instituto Central de Investigación de Energía)",
     "ISO": "ISO (Organización Internacional de Normalización)",
     "IEEE": "IEEE (Instituto de Ingenieros Eléctricos y Electrónicos)"
-  },
-  "navigation": {
-    "backToInstrumentationComponents": "Volver a Componentes de Instrumentación",
-    "phoneNumbers": "Números de teléfono",
-    "backToSafetyDevices": "Volver a Dispositivos de Seguridad y Protección"
   },
   "buttons": {
     "learnMore": "Saber más",
@@ -110,9 +106,10 @@
     "showFilters": "Mostrar filtros",
     "hideFilters": "Ocultar filtros",
     "upload": "Subir",
-    "expertTeam": "Equipo experto",
-    "successfulProjects": "Proyectos exitosos",
-    "qualityProducts": "Productos de calidad"
+    "expertTeam": "Equipo Experto",
+    "successfulProjects": "Proyectos Exitosos",
+    "qualityProducts": "Productos de Calidad",
+    "readMore": "Leer Más"
   },
   "loading": "Cargando...",
   "error": "Algo salió mal",
@@ -125,9 +122,6 @@
     "error": "Ha ocurrido un error",
     "openMobileMenu": "Abrir menú móvil"
   },
-  "navigation": {
-    "backToInstrumentationComponents": "Volver a Componentes de Instrumentación"
-  },
   "aria": {
     "previousTestimonial": "Testimonio anterior",
     "nextTestimonial": "Siguiente testimonio",
@@ -137,8 +131,6 @@
     "requestConsultation": "Solicitar consulta gratuita para su proyecto de ingeniería",
     "companyHighlights": "Aspectos destacados de la empresa y servicios principales",
     "performanceStats": "Estadísticas de rendimiento de la empresa",
-    "openLocation": "Abrir ubicación de oficina en Google Maps",
-    "toggleNavigation": "Alternar asistente de navegación",
     "mainNavigation": "Navegación principal",
     "companyInfo": "Información de la empresa y navegación del sitio",
     "goToHomepage": "Ir a la página principal de Powerton Engineering",
@@ -167,7 +159,19 @@
     "controlValves": "Válvulas de control",
     "pneumaticActuators": "Actuadores neumáticos",
     "electricActuators": "Actuadores eléctricos",
-    "valvePositioners": "Posicionadores de válvulas"
+    "valvePositioners": "Posicionadores de válvulas",
+    "analyzers": "Analizadores",
+    "analyzersDescription": "Analizadores de gas, líquido y proceso para control de calidad",
+    "gasAnalyzers": "Analizadores de gas",
+    "liquidAnalyzers": "Analizadores de líquido",
+    "processAnalyzers": "Analizadores de proceso",
+    "multiParameterSystems": "Sistemas multiparámetro",
+    "signalConditioners": "Acondicionadores de señal",
+    "signalConditionersDescription": "Equipos de procesamiento y acondicionamiento de señales para sistemas de medición",
+    "isolationAmplifiers": "Amplificadores de aislamiento",
+    "signalConverters": "Convertidores de señal",
+    "measuringTransducers": "Transductores de medición",
+    "noiseFilters": "Filtros de ruido"
   },
   "badges": {
     "energyEfficient": "Eficiente energéticamente",
@@ -214,20 +218,6 @@
       "quote": "¡Me complace ayudarte a obtener una cotización! Por favor visita nuestra página de cotizaciones o proporcióname tus requisitos.",
       "support": "¡Nuestro equipo de soporte técnico está aquí para ayudarte! Por favor describe tu pregunta técnica o problema."
     }
-  },
-  "aria": {
-    "analyzers": "Analizadores",
-    "analyzersDescription": "Analizadores de gas, líquido y proceso para control de calidad",
-    "gasAnalyzers": "Analizadores de gas",
-    "liquidAnalyzers": "Analizadores de líquido",
-    "processAnalyzers": "Analizadores de proceso",
-    "multiParameterSystems": "Sistemas multiparámetro",
-    "signalConditioners": "Acondicionadores de señal",
-    "signalConditionersDescription": "Equipos de procesamiento y acondicionamiento de señales para sistemas de medición",
-    "isolationAmplifiers": "Amplificadores de aislamiento",
-    "signalConverters": "Convertidores de señal",
-    "measuringTransducers": "Transductores de medición",
-    "noiseFilters": "Filtros de ruido"
   },
   "productSections": {
     "keyFeatures": "Características principales:",
@@ -288,7 +278,15 @@
     "duration": "Duración",
     "projectsCompleted": "Proyectos Completados",
     "satisfiedClients": "Clientes Satisfechos",
-    "yearsExperience": "Años de Experiencia"
+    "yearsExperience": "Años de Experiencia",
+    "businessHours": "Horarios de Atención",
+    "mondayToSaturday": "Lunes - Sábado",
+    "workingHours": "9:00 AM - 6:00 PM",
+    "sunday": "Domingo",
+    "emergencySupport": "Solo Soporte de Emergencia",
+    "popular": "Popular",
+    "duration": "Duración",
+    "keyFeatures": "Características Principales"
   },
   "buttons": {
     "getQuote": "Obtener Cotización",
@@ -311,7 +309,17 @@
   },
   "messages": {
     "toggleTheme": "Cambiar Tema",
-    "close": "Cerrar"
+    "close": "Cerrar",
+    "readyToStart": "¿Listo para comenzar?",
+    "consultation": "Contáctanos para una consulta detallada y solución personalizada.",
+    "availability": "Lunes - Sábado, Soporte de emergencia disponible",
+    "coverage": "Cobertura de servicio en toda la India"
+  },
+  "altTexts": {
+    "companyLogo": "Logo de Powerton Engineering Pvt. Ltd.",
+    "contactBackground": "Centro de contacto y fondo de oficina de soporte al cliente para empresa de ingeniería",
+    "aboutBackground": "Instalación de automatización industrial Powerton Engineering con sistemas de control modernos"
+  },
   },
   "products": {
     "sections": {
@@ -332,15 +340,6 @@
   },
   "keyFeatures": "Características principales",
   "requestQuote": "Solicitar cotización",
-  "messages": {
-    "serviceNotFound": "Servicio no encontrado",
-    "readyToStart": "¿Listo para comenzar?",
-    "consultation": "Contáctanos para una consulta detallada y solución personalizada.",
-    "availability": "Lunes - Sábado, Soporte de emergencia disponible",
-    "coverage": "Cobertura de servicio en toda la India",
-    "needHelp": "¿Necesitas ayuda para encontrar algo?",
-    "cantFind": "¿No puedes encontrar lo que buscas? Contáctanos directamente o usa nuestro chatbot inteligente disponible en cada página."
-  },
   "placeholders": {
     "selectProjectType": "Selecciona tipo de proyecto",
     "selectIndustry": "Selecciona industria",
@@ -413,6 +412,54 @@
         "protectionSystems": "Sistemas de Protección",
         "energyManagement": "Gestión Energética",
         "remoteControl": "Control Remoto"
+      }
+    },
+    "thermal-plant": {
+      "title": "Automatización de Central Térmica",
+      "description": "Solución completa de automatización para central térmica de 250MW incluyendo paneles de control, sistemas SCADA e interbloqueos de seguridad.",
+      "location": "Uttar Pradesh",
+      "duration": "12 meses",
+      "highlights": {
+        "scada": "Implementación SCADA",
+        "safety": "Sistemas de Seguridad",
+        "control": "Paneles de Control",
+        "monitoring": "Monitoreo de Rendimiento"
+      }
+    },
+    "pharma-plant": {
+      "title": "Sistema de Control de Planta Farmacéutica",
+      "description": "Sistema avanzado de control y monitoreo de procesos para manufactura farmacéutica con cumplimiento FDA e integridad de datos.",
+      "location": "Maharashtra",
+      "duration": "8 meses",
+      "highlights": {
+        "fda": "Cumplimiento FDA",
+        "data": "Integridad de Datos",
+        "process": "Control de Procesos",
+        "quality": "Monitoreo de Calidad"
+      }
+    },
+    "solar-plant": {
+      "title": "Instalación de Energía Solar de 10MW",
+      "description": "Diseño e instalación completa de planta de energía solar conectada a la red con sistemas de monitoreo y equipos de sincronización de red.",
+      "location": "Rajasthan",
+      "duration": "6 meses",
+      "highlights": {
+        "grid": "Conexión a Red",
+        "monitoring": "Sistemas de Monitoreo",
+        "optimization": "Optimización de Rendimiento",
+        "maintenance": "Planificación de Mantenimiento"
+      }
+    },
+    "water-treatment": {
+      "title": "Automatización de Tratamiento de Agua Municipal",
+      "description": "Sistema de control automatizado para planta de tratamiento de agua que sirve a 500,000 residentes con monitoreo en tiempo real y control de calidad.",
+      "location": "Bengala Occidental",
+      "duration": "10 meses",
+      "highlights": {
+        "monitoring": "Monitoreo en Tiempo Real",
+        "quality": "Control de Calidad",
+        "automation": "Operaciones Automatizadas",
+        "remote": "Gestión Remota"
       }
     }
   },
@@ -551,7 +598,8 @@
     "emergencySupport": "Solo Soporte de Emergencia"
   },
   "altTexts": {
-    "companyLogo": "Logo de Powerton Engineering Pvt. Ltd."
+    "companyLogo": "Logo de Powerton Engineering Pvt. Ltd.",
+    "contactBackground": "ID-834: Centro de contacto y fondo de oficina de soporte al cliente para empresa de ingeniería"
   },
   "messages": {
     "toggleTheme": "Cambiar Tema",
