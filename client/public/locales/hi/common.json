@@ -35,25 +35,25 @@
     "phoneNumbers": "फ़ोन नंबर"
   },
   "buttons": {
-    "callNow": "[TRANSLATE] Call Now",
-    "emailUs": "[TRANSLATE] Email Us",
-    "viewMore": "[TRANSLATE] View More",
-    "getStarted": "[TRANSLATE] Get Started",
-    "downloadBrochure": "[TRANSLATE] Download Brochure",
-    "readMore": "[TRANSLATE] Read More",
-    "downloadCatalog": "[TRANSLATE] Download Catalog",
-    "viewDetails": "[TRANSLATE] View Details",
-    "backTo": "[TRANSLATE] Back to {{category}}",
-    "backToBldcProducts": "[TRANSLATE] Back to BLDC Products",
-    "sendMessage": "[TRANSLATE] Send Message",
-    "sending": "[TRANSLATE] Sending...",
-    "submit": "[TRANSLATE] Submit",
-    "viewProducts": "[TRANSLATE] View Products",
-    "viewServices": "[TRANSLATE] View Services",
-    "getInTouch": "[TRANSLATE] Get In Touch",
-    "exploreProducts": "[TRANSLATE] Explore Products",
-    "viewCatalog": "[TRANSLATE] View Catalog",
-    "quickQuote": "[TRANSLATE] Quick Quote",
+    "callNow": "अभी कॉल करें",
+    "emailUs": "ईमेल करें",
+    "viewMore": "और देखें",
+    "getStarted": "Get Started",
+    "downloadBrochure": "Download Brochure",
+    "readMore": "Read More",
+    "downloadCatalog": "Download Catalog",
+    "viewDetails": "View Details",
+    "backTo": "Back to {{category}}",
+    "backToBldcProducts": "Back to BLDC Products",
+    "sendMessage": "Send Message",
+    "sending": "Sending...",
+    "submit": "Submit",
+    "viewProducts": "View Products",
+    "viewServices": "View Services",
+    "getInTouch": "Get In Touch",
+    "exploreProducts": "Explore Products",
+    "viewCatalog": "View Catalog",
+    "quickQuote": "Quick Quote",
     "getQuote": "कोटेशन प्राप्त करें",
     "learnMore": "और जानें",
     "viewAll": "View All",
@@ -71,8 +71,8 @@
     "close": "बंद करें"
   },
   "altTexts": {
-    "contactBackground": "[TRANSLATE] ID-834: Contact center and customer support office background for engineering company",
-    "aboutBackground": "[TRANSLATE] ID-004: Powerton Engineering industrial automation facility with modern control systems",
+    "contactBackground": "ID-834: Contact center and customer support office background for engineering company",
+    "aboutBackground": "ID-004: Powerton Engineering industrial automation facility with modern control systems",
     "companyLogo": "Powerton Engineering Pvt. Ltd. - Industrial Automation & Electrical Engineering Company Logo"
   },
   "aria": {
@@ -230,51 +230,51 @@
   },
   "projects": {
     "thermal-plant": {
-      "title": "[TRANSLATE] Thermal Power Plant Automation",
-      "description": "[TRANSLATE] Complete automation solution for 250MW thermal power plant including control panels, SCADA systems, and safety interlocks.",
-      "location": "[TRANSLATE] Uttar Pradesh",
-      "duration": "[TRANSLATE] 12 months",
+      "title": "Thermal Power Plant Automation",
+      "description": "Complete automation solution for 250MW thermal power plant including control panels, SCADA systems, and safety interlocks.",
+      "location": "Uttar Pradesh",
+      "duration": "12 months",
       "highlights": {
-        "scada": "[TRANSLATE] SCADA Implementation",
-        "safety": "[TRANSLATE] Safety Systems",
-        "control": "[TRANSLATE] Control Panels",
-        "monitoring": "[TRANSLATE] Performance Monitoring"
+        "scada": "SCADA Implementation",
+        "safety": "Safety Systems",
+        "control": "Control Panels",
+        "monitoring": "Performance Monitoring"
       }
     },
     "pharma-plant": {
-      "title": "[TRANSLATE] Pharmaceutical Plant Control System",
-      "description": "[TRANSLATE] Advanced process control and monitoring system for pharmaceutical manufacturing with FDA compliance and data integrity features.",
-      "location": "[TRANSLATE] Maharashtra",
-      "duration": "[TRANSLATE] 8 months",
+      "title": "Pharmaceutical Plant Control System",
+      "description": "Advanced process control and monitoring system for pharmaceutical manufacturing with FDA compliance and data integrity features.",
+      "location": "Maharashtra",
+      "duration": "8 months",
       "highlights": {
-        "fda": "[TRANSLATE] FDA Compliance",
-        "data": "[TRANSLATE] Data Integrity",
-        "process": "[TRANSLATE] Process Control",
-        "quality": "[TRANSLATE] Quality Monitoring"
+        "fda": "FDA Compliance",
+        "data": "Data Integrity",
+        "process": "Process Control",
+        "quality": "Quality Monitoring"
       }
     },
     "solar-plant": {
-      "title": "[TRANSLATE] 10MW Solar Power Installation",
-      "description": "[TRANSLATE] Complete design and installation of grid-connected solar power plant with monitoring systems and grid synchronization equipment.",
-      "location": "[TRANSLATE] Rajasthan",
-      "duration": "[TRANSLATE] 6 months",
+      "title": "10MW Solar Power Installation",
+      "description": "Complete design and installation of grid-connected solar power plant with monitoring systems and grid synchronization equipment.",
+      "location": "Rajasthan",
+      "duration": "6 months",
       "highlights": {
-        "grid": "[TRANSLATE] Grid Connection",
-        "monitoring": "[TRANSLATE] Monitoring Systems",
-        "optimization": "[TRANSLATE] Performance Optimization",
-        "maintenance": "[TRANSLATE] Maintenance Planning"
+        "grid": "Grid Connection",
+        "monitoring": "Monitoring Systems",
+        "optimization": "Performance Optimization",
+        "maintenance": "Maintenance Planning"
       }
     },
     "water-treatment": {
-      "title": "[TRANSLATE] Municipal Water Treatment Automation",
-      "description": "[TRANSLATE] Automated control system for water treatment plant serving 500,000 residents with real-time monitoring and quality control.",
-      "location": "[TRANSLATE] West Bengal",
-      "duration": "[TRANSLATE] 10 months",
+      "title": "Municipal Water Treatment Automation",
+      "description": "Automated control system for water treatment plant serving 500,000 residents with real-time monitoring and quality control.",
+      "location": "West Bengal",
+      "duration": "10 months",
       "highlights": {
-        "monitoring": "[TRANSLATE] Real-time Monitoring",
-        "quality": "[TRANSLATE] Quality Control",
-        "automation": "[TRANSLATE] Automated Operations",
-        "remote": "[TRANSLATE] Remote Management"
+        "monitoring": "Real-time Monitoring",
+        "quality": "Quality Control",
+        "automation": "Automated Operations",
+        "remote": "Remote Management"
       }
     },
     "industrial-automation-demo": {

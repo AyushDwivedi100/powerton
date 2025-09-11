@@ -244,20 +244,20 @@
   },
   "productPages": {
     "transmitters": {
-      "title": "[TRANSLATE] Transmitters",
-      "transducers": "[TRANSLATE] Transducers"
+      "title": "Transmitters",
+      "transducers": "Transducers"
     },
     "spectrumAnalyzers": {
-      "title": "[TRANSLATE] Spectrum Analyzers",
+      "title": "Spectrum Analyzers",
       "sections": {
         "featured": {
-          "title": "[TRANSLATE] Featured Spectrum Analyzers"
+          "title": "Featured Spectrum Analyzers"
         }
       },
       "cta": {
-        "title": "[TRANSLATE] Need RF Signal Analysis?",
-        "description": "[TRANSLATE] Our RF specialists can help you select the right spectrum analyzer for your measurement needs.",
-        "button": "[TRANSLATE] Contact RF Experts"
+        "title": "Need RF Signal Analysis?",
+        "description": "Our RF specialists can help you select the right spectrum analyzer for your measurement needs.",
+        "button": "Contact RF Experts"
       }
     }
   },
@@ -282,22 +282,22 @@
     "bldc": "BLDC产品"
   },
   "hmi": {
-    "title": "[TRANSLATE] HMI (Human Machine Interface)",
-    "subtitle": "[TRANSLATE] Industrial human machine interfaces for operator control and system visualization",
+    "title": "HMI (Human Machine Interface)",
+    "subtitle": "Industrial human machine interfaces for operator control and system visualization",
     "navigation": {
-      "backToAutomation": "[TRANSLATE] Back to Automation & Control Systems"
+      "backToAutomation": "Back to Automation & Control Systems"
     },
     "badges": {
-      "touchscreen": "[TRANSLATE] Touchscreen",
-      "industrialGrade": "[TRANSLATE] Industrial Grade",
-      "realTimeDisplay": "[TRANSLATE] Real-time Display",
-      "multiProtocol": "[TRANSLATE] Multi-Protocol"
+      "touchscreen": "Touchscreen",
+      "industrialGrade": "Industrial Grade",
+      "realTimeDisplay": "Real-time Display",
+      "multiProtocol": "Multi-Protocol"
     },
-    "solutionsTitle": "[TRANSLATE] HMI Solutions",
+    "solutionsTitle": "HMI Solutions",
     "products": {
       "panelMount": {
-        "name": "[TRANSLATE] Panel Mount HMI Displays",
-        "description": "[TRANSLATE] Industrial touchscreen displays for machine interface",
+        "name": "Panel Mount HMI Displays",
+        "description": "Industrial touchscreen displays for machine interface",
         "features": [
           "Touch Interface",
           "Industrial Rating",
@@ -306,8 +306,8 @@
         ]
       },
       "operatorInterface": {
-        "name": "[TRANSLATE] Operator Interface Terminals",
-        "description": "[TRANSLATE] Rugged operator terminals for harsh environments",
+        "name": "Operator Interface Terminals",
+        "description": "Rugged operator terminals for harsh environments",
         "features": [
           "IP65/IP67 Rating",
           "Stainless Steel",
@@ -316,8 +316,8 @@
         ]
       },
       "mobile": {
-        "name": "[TRANSLATE] Mobile HMI Solutions",
-        "description": "[TRANSLATE] Wireless and mobile human machine interfaces",
+        "name": "Mobile HMI Solutions",
+        "description": "Wireless and mobile human machine interfaces",
         "features": [
           "Wireless Connectivity",
           "Mobile Apps",
@@ -327,291 +327,291 @@
       }
     },
     "cta": {
-      "title": "[TRANSLATE] Need HMI Solutions?",
-      "description": "[TRANSLATE] Our HMI specialists can design intuitive operator interfaces for your automation systems.",
-      "contactExperts": "[TRANSLATE] Contact HMI Experts"
+      "title": "Need HMI Solutions?",
+      "description": "Our HMI specialists can design intuitive operator interfaces for your automation systems.",
+      "contactExperts": "Contact HMI Experts"
     }
   },
   "plcProducts": {
     "siemens": {
-      "description": "[TRANSLATE] Compact PLC for small to medium automation applications",
+      "description": "Compact PLC for small to medium automation applications",
       "features": {
-        "integratedIO": "[TRANSLATE] Integrated I/O",
-        "ethernet": "[TRANSLATE] Ethernet Communication",
-        "programming": "[TRANSLATE] TIA Portal Programming",
-        "failSafe": "[TRANSLATE] Fail-Safe Options"
+        "integratedIO": "Integrated I/O",
+        "ethernet": "Ethernet Communication",
+        "programming": "TIA Portal Programming",
+        "failSafe": "Fail-Safe Options"
       }
     },
     "allenBradley": {
-      "description": "[TRANSLATE] High-performance PLC with integrated safety",
+      "description": "High-performance PLC with integrated safety",
       "features": {
-        "safety": "[TRANSLATE] GuardLogix Safety",
-        "ethernet": "[TRANSLATE] Dual Ethernet Ports",
-        "software": "[TRANSLATE] Studio 5000 Software",
-        "motion": "[TRANSLATE] Motion Control"
+        "safety": "GuardLogix Safety",
+        "ethernet": "Dual Ethernet Ports",
+        "software": "Studio 5000 Software",
+        "motion": "Motion Control"
       }
     },
     "schneider": {
-      "description": "[TRANSLATE] High-end PLC for complex industrial processes",
+      "description": "High-end PLC for complex industrial processes",
       "features": {
-        "hotStandby": "[TRANSLATE] Hot Standby CPU",
-        "ethernet": "[TRANSLATE] Ethernet Ring Topology",
-        "software": "[TRANSLATE] Unity Pro Software",
-        "security": "[TRANSLATE] Cyber Security"
+        "hotStandby": "Hot Standby CPU",
+        "ethernet": "Ethernet Ring Topology",
+        "software": "Unity Pro Software",
+        "security": "Cyber Security"
       }
     }
   },
   "features": {
     "safetyDevices": {
       "surgeProtectors": {
-        "title": "[TRANSLATE] Surge Protectors",
-        "description": "[TRANSLATE] Electrical surge protection devices for equipment safety",
+        "title": "Surge Protectors",
+        "description": "Electrical surge protection devices for equipment safety",
         "features": {
-          "lightning": "[TRANSLATE] Lightning Protection",
-          "voltage": "[TRANSLATE] Voltage Surge Protection",
-          "equipment": "[TRANSLATE] Equipment Safety",
-          "power": "[TRANSLATE] Power Quality"
+          "lightning": "Lightning Protection",
+          "voltage": "Voltage Surge Protection",
+          "equipment": "Equipment Safety",
+          "power": "Power Quality"
         }
       },
       "groundingSystems": {
-        "title": "[TRANSLATE] Grounding Systems",
-        "description": "[TRANSLATE] Electrical grounding and earthing systems for safety",
+        "title": "Grounding Systems",
+        "description": "Electrical grounding and earthing systems for safety",
         "features": {
-          "electrodes": "[TRANSLATE] Earth Electrodes",
-          "rods": "[TRANSLATE] Ground Rods",
-          "conductors": "[TRANSLATE] Bonding Conductors",
-          "lightning": "[TRANSLATE] Lightning Rods"
+          "electrodes": "Earth Electrodes",
+          "rods": "Ground Rods",
+          "conductors": "Bonding Conductors",
+          "lightning": "Lightning Rods"
         }
       },
       "safetyRelays": {
-        "title": "[TRANSLATE] Safety Relays & Switches",
-        "description": "[TRANSLATE] Safety control devices for emergency shutdown systems",
+        "title": "Safety Relays & Switches",
+        "description": "Safety control devices for emergency shutdown systems",
         "features": {
-          "emergency": "[TRANSLATE] Emergency Stop",
-          "monitoring": "[TRANSLATE] Safety Monitoring",
-          "failSafe": "[TRANSLATE] Fail-Safe Design",
-          "certified": "[TRANSLATE] Certified Safety"
+          "emergency": "Emergency Stop",
+          "monitoring": "Safety Monitoring",
+          "failSafe": "Fail-Safe Design",
+          "certified": "Certified Safety"
         }
       },
       "intrinsicallySafe": {
-        "title": "[TRANSLATE] Intrinsically Safe Equipment",
-        "description": "[TRANSLATE] Explosion-proof equipment for hazardous environments",
+        "title": "Intrinsically Safe Equipment",
+        "description": "Explosion-proof equipment for hazardous environments",
         "features": {
-          "atex": "[TRANSLATE] ATEX Certified",
-          "explosion": "[TRANSLATE] Explosion Proof",
-          "hazardous": "[TRANSLATE] Hazardous Area",
-          "intrinsic": "[TRANSLATE] Intrinsic Safety"
+          "atex": "ATEX Certified",
+          "explosion": "Explosion Proof",
+          "hazardous": "Hazardous Area",
+          "intrinsic": "Intrinsic Safety"
         }
       },
       "badges": {
-        "surgeProtection": "[TRANSLATE] Surge Protection",
-        "groundingSystems": "[TRANSLATE] Grounding Systems",
-        "safetyRelays": "[TRANSLATE] Safety Relays",
-        "intrinsicSafety": "[TRANSLATE] Intrinsic Safety"
+        "surgeProtection": "Surge Protection",
+        "groundingSystems": "Grounding Systems",
+        "safetyRelays": "Safety Relays",
+        "intrinsicSafety": "Intrinsic Safety"
       }
     },
     "common": {
-      "highTorque": "[TRANSLATE] High Torque",
-      "variableSpeed": "[TRANSLATE] Variable Speed",
-      "cordlessOptions": "[TRANSLATE] Cordless Options",
-      "chuckCapacity": "[TRANSLATE] Chuck Capacity: 13mm",
-      "multipleSizes": "[TRANSLATE] Multiple Sizes",
-      "safetyGuards": "[TRANSLATE] Safety Guards",
-      "antiVibration": "[TRANSLATE] Anti-Vibration",
-      "powerfulMotors": "[TRANSLATE] Powerful Motors",
-      "highImpactForce": "[TRANSLATE] High Impact Force",
-      "socketCompatibility": "[TRANSLATE] Socket Compatibility",
-      "forwardReverse": "[TRANSLATE] Forward/Reverse",
-      "batteryPowered": "[TRANSLATE] Battery Powered",
-      "efficientSwitching": "[TRANSLATE] 85-265V AC Input",
-      "dcOutput": "[TRANSLATE] 12V/24V DC Output",
-      "highEfficiency": "[TRANSLATE] High Efficiency",
-      "compactDesign": "[TRANSLATE] Compact Design",
-      "dinRailMount": "[TRANSLATE] DIN Rail Mount",
-      "wideInputRange": "[TRANSLATE] Wide Input Range",
-      "shortCircuitProtection": "[TRANSLATE] Short Circuit Protection",
-      "ledStatus": "[TRANSLATE] LED Status",
-      "batteryBackup": "[TRANSLATE] Battery Backup",
-      "surgeProtection": "[TRANSLATE] Surge Protection",
-      "autoTransfer": "[TRANSLATE] Auto Transfer",
-      "lcdDisplay": "[TRANSLATE] LCD Display",
-      "castIronBronze": "[TRANSLATE] Cast Iron/Bronze",
-      "stainlessSteelSizes": "[TRANSLATE] Stainless Steel",
-      "balancedDesign": "[TRANSLATE] Balanced Design",
-      "singleDoubleSeals": "[TRANSLATE] Single/Double Seals",
-      "cartridgeType": "[TRANSLATE] Cartridge Type",
-      "highTemperature": "[TRANSLATE] High Temperature",
-      "chemicalResistant": "[TRANSLATE] Chemical Resistant",
-      "rollingElement": "[TRANSLATE] Rolling Element",
-      "sleeveBearings": "[TRANSLATE] Sleeve Bearings",
-      "flexibleCouplings": "[TRANSLATE] Flexible Couplings",
-      "alignmentTools": "[TRANSLATE] Alignment Tools",
-      "threePhase": "[TRANSLATE] Three-Phase Measurement",
-      "harmonicsAnalysis": "[TRANSLATE] Harmonics Analysis",
-      "transientCapture": "[TRANSLATE] Transient Capture",
-      "powerLogging": "[TRANSLATE] Power Logging",
-      "voltageDip": "[TRANSLATE] Voltage Dip Detection",
-      "flickerMeasurement": "[TRANSLATE] Flicker Measurement",
-      "energyAssessment": "[TRANSLATE] Energy Assessment",
-      "realTimeAnalysis": "[TRANSLATE] Real-time Analysis",
-      "continuousMonitoring": "[TRANSLATE] Continuous Monitoring",
-      "eventRecording": "[TRANSLATE] Event Recording",
-      "complianceTesting": "[TRANSLATE] Compliance Testing",
-      "remoteAccess": "[TRANSLATE] Remote Access",
-      "selfPriming": "[TRANSLATE] Self-Priming",
-      "dryRunSafe": "[TRANSLATE] Dry Run Safe",
-      "variableFlow": "[TRANSLATE] Variable Flow",
-      "preciseMeteringLow": "[TRANSLATE] Precise Metering",
-      "lowPulsation": "[TRANSLATE] Low Pulsation",
-      "digitalControl": "[TRANSLATE] Digital Control",
-      "easyMaintenance": "[TRANSLATE] Easy Maintenance",
-      "highPressure": "[TRANSLATE] High Pressure",
-      "lowFlowRates": "[TRANSLATE] Low Flow Rates",
-      "accurateDosing": "[TRANSLATE] Accurate Dosing",
-      "leakFreeOperation": "[TRANSLATE] Leak-Free Operation"
+      "highTorque": "High Torque",
+      "variableSpeed": "Variable Speed",
+      "cordlessOptions": "Cordless Options",
+      "chuckCapacity": "Chuck Capacity: 13mm",
+      "multipleSizes": "Multiple Sizes",
+      "safetyGuards": "Safety Guards",
+      "antiVibration": "Anti-Vibration",
+      "powerfulMotors": "Powerful Motors",
+      "highImpactForce": "High Impact Force",
+      "socketCompatibility": "Socket Compatibility",
+      "forwardReverse": "Forward/Reverse",
+      "batteryPowered": "Battery Powered",
+      "efficientSwitching": "85-265V AC Input",
+      "dcOutput": "12V/24V DC Output",
+      "highEfficiency": "High Efficiency",
+      "compactDesign": "Compact Design",
+      "dinRailMount": "DIN Rail Mount",
+      "wideInputRange": "Wide Input Range",
+      "shortCircuitProtection": "Short Circuit Protection",
+      "ledStatus": "LED Status",
+      "batteryBackup": "Battery Backup",
+      "surgeProtection": "Surge Protection",
+      "autoTransfer": "Auto Transfer",
+      "lcdDisplay": "LCD Display",
+      "castIronBronze": "Cast Iron/Bronze",
+      "stainlessSteelSizes": "Stainless Steel",
+      "balancedDesign": "Balanced Design",
+      "singleDoubleSeals": "Single/Double Seals",
+      "cartridgeType": "Cartridge Type",
+      "highTemperature": "High Temperature",
+      "chemicalResistant": "Chemical Resistant",
+      "rollingElement": "Rolling Element",
+      "sleeveBearings": "Sleeve Bearings",
+      "flexibleCouplings": "Flexible Couplings",
+      "alignmentTools": "Alignment Tools",
+      "threePhase": "Three-Phase Measurement",
+      "harmonicsAnalysis": "Harmonics Analysis",
+      "transientCapture": "Transient Capture",
+      "powerLogging": "Power Logging",
+      "voltageDip": "Voltage Dip Detection",
+      "flickerMeasurement": "Flicker Measurement",
+      "energyAssessment": "Energy Assessment",
+      "realTimeAnalysis": "Real-time Analysis",
+      "continuousMonitoring": "Continuous Monitoring",
+      "eventRecording": "Event Recording",
+      "complianceTesting": "Compliance Testing",
+      "remoteAccess": "Remote Access",
+      "selfPriming": "Self-Priming",
+      "dryRunSafe": "Dry Run Safe",
+      "variableFlow": "Variable Flow",
+      "preciseMeteringLow": "Precise Metering",
+      "lowPulsation": "Low Pulsation",
+      "digitalControl": "Digital Control",
+      "easyMaintenance": "Easy Maintenance",
+      "highPressure": "High Pressure",
+      "lowFlowRates": "Low Flow Rates",
+      "accurateDosing": "Accurate Dosing",
+      "leakFreeOperation": "Leak-Free Operation"
     },
     "product": {
       "safetyEquipment": {
-        "fullBodyHarness": "[TRANSLATE] Full Body Harness",
-        "lanyards": "[TRANSLATE] Lanyards",
-        "anchorPoints": "[TRANSLATE] Anchor Points",
-        "selfRetracting": "[TRANSLATE] Self-Retracting",
-        "multiGasDetectors": "[TRANSLATE] Multi-Gas Detectors",
-        "singleGas": "[TRANSLATE] Single Gas",
-        "wirelessMonitoring": "[TRANSLATE] Wireless Monitoring",
-        "dataLogging": "[TRANSLATE] Data Logging"
+        "fullBodyHarness": "Full Body Harness",
+        "lanyards": "Lanyards",
+        "anchorPoints": "Anchor Points",
+        "selfRetracting": "Self-Retracting",
+        "multiGasDetectors": "Multi-Gas Detectors",
+        "singleGas": "Single Gas",
+        "wirelessMonitoring": "Wireless Monitoring",
+        "dataLogging": "Data Logging"
       },
       "electrical": {
-        "powerCables": "[TRANSLATE] Power Cables",
-        "controlCables": "[TRANSLATE] Control Cables",
-        "instrumentationCables": "[TRANSLATE] Instrumentation Cables",
-        "communicationCables": "[TRANSLATE] Communication Cables",
-        "terminalBlocks": "[TRANSLATE] Terminal Blocks",
-        "wireConnectors": "[TRANSLATE] Wire Connectors",
-        "dinRailTerminals": "[TRANSLATE] DIN Rail Terminals",
-        "junctionBoxes": "[TRANSLATE] Junction Boxes",
-        "mcbs": "[TRANSLATE] MCBs",
-        "mccbs": "[TRANSLATE] MCCBs",
-        "rccbs": "[TRANSLATE] RCCBs",
-        "industrialFuses": "[TRANSLATE] Industrial Fuses",
-        "smps": "[TRANSLATE] SMPS",
-        "dcDcConverters": "[TRANSLATE] DC-DC Converters",
-        "upsSystems": "[TRANSLATE] UPS Systems",
-        "controlPanels": "[TRANSLATE] Control Panels",
-        "distributionBoards": "[TRANSLATE] Distribution Boards",
-        "weatherproofEnclosures": "[TRANSLATE] Weatherproof Enclosures",
-        "heatingElements": "[TRANSLATE] Heating Elements",
-        "industrialHeaters": "[TRANSLATE] Industrial Heaters",
-        "temperatureControllers": "[TRANSLATE] Temperature Controllers",
-        "thermalProtection": "[TRANSLATE] Thermal Protection"
+        "powerCables": "Power Cables",
+        "controlCables": "Control Cables",
+        "instrumentationCables": "Instrumentation Cables",
+        "communicationCables": "Communication Cables",
+        "terminalBlocks": "Terminal Blocks",
+        "wireConnectors": "Wire Connectors",
+        "dinRailTerminals": "DIN Rail Terminals",
+        "junctionBoxes": "Junction Boxes",
+        "mcbs": "MCBs",
+        "mccbs": "MCCBs",
+        "rccbs": "RCCBs",
+        "industrialFuses": "Industrial Fuses",
+        "smps": "SMPS",
+        "dcDcConverters": "DC-DC Converters",
+        "upsSystems": "UPS Systems",
+        "controlPanels": "Control Panels",
+        "distributionBoards": "Distribution Boards",
+        "weatherproofEnclosures": "Weatherproof Enclosures",
+        "heatingElements": "Heating Elements",
+        "industrialHeaters": "Industrial Heaters",
+        "temperatureControllers": "Temperature Controllers",
+        "thermalProtection": "Thermal Protection"
       },
       "pumps": {
-        "viscousFluids": "[TRANSLATE] Viscous Fluids",
-        "preciseFlow": "[TRANSLATE] Precise Flow",
-        "castIronSteel": "[TRANSLATE] Cast Iron/Steel",
-        "gentleHandling": "[TRANSLATE] Gentle Handling",
-        "noMechanicalSeal": "[TRANSLATE] No Mechanical Seal",
-        "leakFree": "[TRANSLATE] Leak-Free"
+        "viscousFluids": "Viscous Fluids",
+        "preciseFlow": "Precise Flow",
+        "castIronSteel": "Cast Iron/Steel",
+        "gentleHandling": "Gentle Handling",
+        "noMechanicalSeal": "No Mechanical Seal",
+        "leakFree": "Leak-Free"
       },
       "enclosures": {
-        "nema4xRating": "[TRANSLATE] NEMA 4X Rating",
-        "gasketSealed": "[TRANSLATE] Gasket Sealed",
-        "floorStanding": "[TRANSLATE] Floor Standing",
-        "wallMount": "[TRANSLATE] Wall Mount",
-        "cableManagement": "[TRANSLATE] Cable Management",
-        "coolingOptions": "[TRANSLATE] Cooling Options",
-        "ip65Ip67Rating": "[TRANSLATE] IP65/IP67 Rating",
-        "explosionProof": "[TRANSLATE] Explosion Proof",
-        "cableGlands": "[TRANSLATE] Cable Glands",
-        "corrosionResistant": "[TRANSLATE] Corrosion Resistant"
+        "nema4xRating": "NEMA 4X Rating",
+        "gasketSealed": "Gasket Sealed",
+        "floorStanding": "Floor Standing",
+        "wallMount": "Wall Mount",
+        "cableManagement": "Cable Management",
+        "coolingOptions": "Cooling Options",
+        "ip65Ip67Rating": "IP65/IP67 Rating",
+        "explosionProof": "Explosion Proof",
+        "cableGlands": "Cable Glands",
+        "corrosionResistant": "Corrosion Resistant"
       }
     }
   },
   "locations": {
-    "delhiNcr": "[TRANSLATE] Delhi NCR",
-    "rajasthan": "[TRANSLATE] Rajasthan",
-    "uttarPradesh": "[TRANSLATE] Uttar Pradesh",
-    "gujarat": "[TRANSLATE] Gujarat",
-    "maharashtra": "[TRANSLATE] Maharashtra",
-    "haryana": "[TRANSLATE] Haryana",
-    "westBengal": "[TRANSLATE] West Bengal"
+    "delhiNcr": "Delhi NCR",
+    "rajasthan": "Rajasthan",
+    "uttarPradesh": "Uttar Pradesh",
+    "gujarat": "Gujarat",
+    "maharashtra": "Maharashtra",
+    "haryana": "Haryana",
+    "westBengal": "West Bengal"
   },
   "brands": {
-    "customBuilt": "[TRANSLATE] Custom Built",
-    "fluke": "[TRANSLATE] Fluke, Keysight",
-    "siemens": "[TRANSLATE] Siemens, Allen Bradley",
-    "abb": "[TRANSLATE] ABB, Schneider",
-    "honeywell": "[TRANSLATE] Honeywell, Yokogawa",
-    "wonderware": "[TRANSLATE] Wonderware, iFIX",
-    "grundfos": "[TRANSLATE] Grundfos, KSB",
-    "3m": "[TRANSLATE] 3M, MSA"
+    "customBuilt": "Custom Built",
+    "fluke": "Fluke, Keysight",
+    "siemens": "Siemens, Allen Bradley",
+    "abb": "ABB, Schneider",
+    "honeywell": "Honeywell, Yokogawa",
+    "wonderware": "Wonderware, iFIX",
+    "grundfos": "Grundfos, KSB",
+    "3m": "3M, MSA"
   },
   "tags": {
-    "industrialAutomation": "[TRANSLATE] Industrial Automation",
-    "plcSystems": "[TRANSLATE] PLC Systems",
-    "scada": "[TRANSLATE] SCADA",
-    "manufacturing": "[TRANSLATE] Manufacturing",
-    "processOptimization": "[TRANSLATE] Process Optimization"
+    "industrialAutomation": "Industrial Automation",
+    "plcSystems": "PLC Systems",
+    "scada": "SCADA",
+    "manufacturing": "Manufacturing",
+    "processOptimization": "Process Optimization"
   },
   "gallery": {
-    "imagePlaceholder": "[TRANSLATE] Image placeholder",
-    "actualImages": "[TRANSLATE] Actual images to be uploaded"
+    "imagePlaceholder": "Image placeholder",
+    "actualImages": "Actual images to be uploaded"
   },
   "labels": {
-    "specifications": "[TRANSLATE] Specifications",
-    "applications": "[TRANSLATE] Applications",
-    "industries": "[TRANSLATE] Industries",
-    "keyFeatures": "[TRANSLATE] Key Features",
-    "technologies": "[TRANSLATE] Technologies:",
-    "parameters": "[TRANSLATE] Parameters:"
+    "specifications": "Specifications",
+    "applications": "Applications",
+    "industries": "Industries",
+    "keyFeatures": "Key Features",
+    "technologies": "Technologies:",
+    "parameters": "Parameters:"
   },
   "badges": {
-    "signalIntelligence": "[TRANSLATE] Signal Intelligence",
-    "vectorAnalysis": "[TRANSLATE] Vector Analysis",
-    "rfAnalysis": "[TRANSLATE] RF Analysis",
-    "emiTesting": "[TRANSLATE] EMI Testing",
-    "monocrystalline": "[TRANSLATE] Monocrystalline",
-    "polycrystalline": "[TRANSLATE] Polycrystalline",
-    "bifacial": "[TRANSLATE] Bifacial",
-    "highEfficiency": "[TRANSLATE] High Efficiency",
-    "stringInverters": "[TRANSLATE] String Inverters",
-    "centralInverters": "[TRANSLATE] Central Inverters",
-    "hybridSystems": "[TRANSLATE] Hybrid Systems",
-    "gridTie": "[TRANSLATE] Grid-Tie",
-    "highPressure": "[TRANSLATE] High Pressure",
-    "viscousFluids": "[TRANSLATE] Viscous Fluids",
-    "preciseFlow": "[TRANSLATE] Precise Flow",
-    "selfPriming": "[TRANSLATE] Self-Priming",
-    "smartMonitoring": "[TRANSLATE] Smart Monitoring",
-    "batteryProtection": "[TRANSLATE] Battery Protection",
-    "weatherproof": "[TRANSLATE] Weatherproof",
-    "modularDesign": "[TRANSLATE] Modular Design",
-    "solarCompatible": "[TRANSLATE] Solar Compatible",
-    "corrosionResistant": "[TRANSLATE] Corrosion Resistant",
-    "smartControl": "[TRANSLATE] Smart Control",
-    "lithiumIon": "[TRANSLATE] Lithium-Ion",
-    "leadAcid": "[TRANSLATE] Lead-Acid",
-    "energyStorageSystems": "[TRANSLATE] Energy Storage Systems",
-    "gridBackup": "[TRANSLATE] Grid Backup",
-    "chemicalResistant": "[TRANSLATE] Chemical Resistant",
-    "preciseMetering": "[TRANSLATE] Precise Metering",
-    "dryRunSafe": "[TRANSLATE] Dry Run Safe",
-    "processControl": "[TRANSLATE] Process Control",
-    "safetySystems": "[TRANSLATE] Safety Systems",
-    "assetManagement": "[TRANSLATE] Asset Management",
-    "advancedAnalytics": "[TRANSLATE] Advanced Analytics",
-    "energyEfficient": "[TRANSLATE] Energy Efficient",
-    "silentOperation": "[TRANSLATE] Silent Operation",
-    "longLife": "[TRANSLATE] Long Life",
-    "realtimeMonitoring": "[TRANSLATE] Real-time Monitoring",
-    "dataLogging": "[TRANSLATE] Data Logging",
-    "alarmManagement": "[TRANSLATE] Alarm Management",
-    "remoteAccess": "[TRANSLATE] Remote Access",
-    "durableConstruction": "[TRANSLATE] Durable Construction",
-    "ergonomicDesign": "[TRANSLATE] Ergonomic Design",
-    "professionalGrade": "[TRANSLATE] Professional Grade",
-    "groundRods": "[TRANSLATE] Ground Rods",
-    "conductors": "[TRANSLATE] Conductors",
-    "safetyGrounding": "[TRANSLATE] Safety Grounding"
+    "signalIntelligence": "Signal Intelligence",
+    "vectorAnalysis": "Vector Analysis",
+    "rfAnalysis": "RF Analysis",
+    "emiTesting": "EMI Testing",
+    "monocrystalline": "Monocrystalline",
+    "polycrystalline": "Polycrystalline",
+    "bifacial": "Bifacial",
+    "highEfficiency": "High Efficiency",
+    "stringInverters": "String Inverters",
+    "centralInverters": "Central Inverters",
+    "hybridSystems": "Hybrid Systems",
+    "gridTie": "Grid-Tie",
+    "highPressure": "High Pressure",
+    "viscousFluids": "Viscous Fluids",
+    "preciseFlow": "Precise Flow",
+    "selfPriming": "Self-Priming",
+    "smartMonitoring": "Smart Monitoring",
+    "batteryProtection": "Battery Protection",
+    "weatherproof": "Weatherproof",
+    "modularDesign": "Modular Design",
+    "solarCompatible": "Solar Compatible",
+    "corrosionResistant": "Corrosion Resistant",
+    "smartControl": "Smart Control",
+    "lithiumIon": "Lithium-Ion",
+    "leadAcid": "Lead-Acid",
+    "energyStorageSystems": "Energy Storage Systems",
+    "gridBackup": "Grid Backup",
+    "chemicalResistant": "Chemical Resistant",
+    "preciseMetering": "Precise Metering",
+    "dryRunSafe": "Dry Run Safe",
+    "processControl": "Process Control",
+    "safetySystems": "Safety Systems",
+    "assetManagement": "Asset Management",
+    "advancedAnalytics": "Advanced Analytics",
+    "energyEfficient": "Energy Efficient",
+    "silentOperation": "Silent Operation",
+    "longLife": "Long Life",
+    "realtimeMonitoring": "Real-time Monitoring",
+    "dataLogging": "Data Logging",
+    "alarmManagement": "Alarm Management",
+    "remoteAccess": "Remote Access",
+    "durableConstruction": "Durable Construction",
+    "ergonomicDesign": "Ergonomic Design",
+    "professionalGrade": "Professional Grade",
+    "groundRods": "Ground Rods",
+    "conductors": "Conductors",
+    "safetyGrounding": "Safety Grounding"
   }
 }

@@ -50,12 +50,12 @@
   },
   "quote": {
     "sections": {
-      "contactInfo": "[TRANSLATE] Contact Information",
+      "contactInfo": "Contact Information",
       "requiredServices": "Required Services *"
     },
     "error": {
-      "title": "[TRANSLATE] Quote submission failed",
-      "description": "[TRANSLATE] For immediate assistance: {{phone}} or email: {{email}}"
+      "title": "Quote submission failed",
+      "description": "For immediate assistance: {{phone}} or email: {{email}}"
     },
     "projectTypes": {
       "newInstallation": "Nueva Instalación",

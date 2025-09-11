@@ -50,15 +50,15 @@
   },
   "quote": {
     "validation": {
-      "nameRequired": "[TRANSLATE] Name is required",
-      "phoneRequired": "[TRANSLATE] Phone number is required",
-      "subjectRequired": "[TRANSLATE] Subject is required",
-      "messageRequired": "[TRANSLATE] Message is required",
-      "firstNameRequired": "[TRANSLATE] First name is required",
-      "lastNameRequired": "[TRANSLATE] Last name is required",
-      "invalidEmail": "[TRANSLATE] Invalid email address",
-      "selectService": "[TRANSLATE] Please select a service",
-      "projectDetailsRequired": "[TRANSLATE] Project details are required",
+      "nameRequired": "Name is required",
+      "phoneRequired": "Phone number is required",
+      "subjectRequired": "Subject is required",
+      "messageRequired": "Message is required",
+      "firstNameRequired": "First name is required",
+      "lastNameRequired": "Last name is required",
+      "invalidEmail": "Invalid email address",
+      "selectService": "Please select a service",
+      "projectDetailsRequired": "Project details are required",
       "nameMin": "Name must be at least 2 characters",
       "emailInvalid": "Please enter a valid email address",
       "phoneMin": "Please enter a valid phone number",
@@ -70,12 +70,12 @@
       "specificationsMin": "Please provide detailed specifications (minimum 20 characters)"
     },
     "sections": {
-      "contactInfo": "[TRANSLATE] Contact Information",
+      "contactInfo": "Contact Information",
       "requiredServices": "Required Services *"
     },
     "error": {
-      "title": "[TRANSLATE] Quote submission failed",
-      "description": "[TRANSLATE] For immediate assistance: {{phone}} or email: {{email}}"
+      "title": "Quote submission failed",
+      "description": "For immediate assistance: {{phone}} or email: {{email}}"
     },
     "projectTypes": {
       "newInstallation": "تركيب جديد",

@@ -40,19 +40,19 @@
   },
   "features": {
     "installation-commissioning": {
-      "plc-dcs": "[TRANSLATE] PLC/DCS Installation",
-      "system-integration": "[TRANSLATE] System Integration",
-      "performance-testing": "[TRANSLATE] Performance Testing",
-      "compliance-certification": "[TRANSLATE] Compliance Certification"
+      "plc-dcs": "PLC/DCS Installation",
+      "system-integration": "System Integration",
+      "performance-testing": "Performance Testing",
+      "compliance-certification": "Compliance Certification"
     },
     "maintenance-repair": {
-      "preventive": "[TRANSLATE] Preventive Maintenance",
-      "emergency": "[TRANSLATE] Emergency Repairs (2hr)",
-      "replacement": "[TRANSLATE] Component Replacement",
-      "upgrades": "[TRANSLATE] System Upgrades"
+      "preventive": "Preventive Maintenance",
+      "emergency": "Emergency Repairs (2hr)",
+      "replacement": "Component Replacement",
+      "upgrades": "System Upgrades"
     },
     "calibration-testing": {
-      "nabl-certified": "[TRANSLATE] NABL Certified Calibration",
+      "nabl-certified": "NABL Certified Calibration",
       "accuracy-testing": "±0.25% Accuracy Testing",
       "compliance": "Compliance Verification",
       "certificates": "Traceability Certificates"

@@ -172,30 +172,36 @@ const basicTranslations = {
 };
 
 function translateValue(value, targetLang) {
+  // Strip [TRANSLATE] prefix if present
+  const clean = String(value).replace(/^\[TRANSLATE\]\s*/, '').trim();
+  
   // Keep technical abbreviations unchanged
-  for (const [key, val] of Object.entries(commonTranslations)) {
-    if (value.includes(key)) {
-      return value; // Keep original if contains technical terms
-    }
+  if (commonTranslations[clean]) {
+    return clean;
   }
   
   // Use basic translations for common terms
-  if (basicTranslations[targetLang] && basicTranslations[targetLang][value]) {
-    return basicTranslations[targetLang][value];
+  if (basicTranslations[targetLang] && basicTranslations[targetLang][clean]) {
+    return basicTranslations[targetLang][clean];
   }
   
-  // For now, return English (machine translation could be added here)
-  return value;
+  // Return clean value (English)
+  return clean;
 }
 
 function mergeFromEnglish(targetObj, englishObj, targetLang) {
   const result = { ...targetObj };
+  let additions = 0;
   
   for (const [key, value] of Object.entries(englishObj)) {
     if (typeof value === 'string') {
-      // Add missing key or translate if it's still English
-      if (!result[key] || result[key] === value) {
+      // Better backfill detection as per architect's guidance
+      if (typeof result[key] !== 'string' || 
+          result[key] === value || 
+          /^\[TRANSLATE\]/.test(result[key]) || 
+          result[key] === '') {
         result[key] = translateValue(value, targetLang);
+        additions++;
       }
     } else if (Array.isArray(value)) {
       // Preserve arrays - don't convert to objects
@@ -203,19 +209,23 @@ function mergeFromEnglish(targetObj, englishObj, targetLang) {
         result[key] = value.map(item => 
           typeof item === 'string' ? translateValue(item, targetLang) : item
         );
+        additions++;
       }
     } else if (typeof value === 'object' && value !== null) {
-      // Recursively merge objects
-      result[key] = mergeFromEnglish(result[key] || {}, value, targetLang);
+      // Recursively merge objects and count nested additions
+      const nestedResult = mergeFromEnglish(result[key] || {}, value, targetLang);
+      result[key] = nestedResult.result;
+      additions += nestedResult.additions;
     } else {
       // Copy other types as-is if missing
       if (result[key] === undefined) {
         result[key] = value;
+        additions++;
       }
     }
   }
   
-  return result;
+  return { result, additions };
 }
 
 function processLanguage(lang) {
@@ -236,12 +246,16 @@ function processLanguage(lang) {
         : {};
       
       const beforeCount = countKeys(targetContent);
-      const merged = mergeFromEnglish(targetContent, englishContent, lang);
-      const afterCount = countKeys(merged);
+      const mergedResult = mergeFromEnglish(targetContent, englishContent, lang);
+      const merged = mergedResult.result;
+      const additions = mergedResult.additions;
       
-      fs.writeFileSync(targetPath, JSON.stringify(merged, null, 2));
-      console.log(`  ✅ ${file}.json: +${afterCount - beforeCount} keys`);
-      keysAdded += (afterCount - beforeCount);
+      // Only write if there are additions
+      if (additions > 0) {
+        fs.writeFileSync(targetPath, JSON.stringify(merged, null, 2));
+      }
+      console.log(`  ✅ ${file}.json: +${additions} keys`);
+      keysAdded += additions;
       translatedCount++;
     }
   });

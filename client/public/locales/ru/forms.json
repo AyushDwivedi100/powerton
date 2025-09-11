@@ -50,15 +50,15 @@
   },
   "quote": {
     "validation": {
-      "nameRequired": "[TRANSLATE] Name is required",
-      "phoneRequired": "[TRANSLATE] Phone number is required",
-      "subjectRequired": "[TRANSLATE] Subject is required",
-      "messageRequired": "[TRANSLATE] Message is required",
-      "firstNameRequired": "[TRANSLATE] First name is required",
-      "lastNameRequired": "[TRANSLATE] Last name is required",
-      "invalidEmail": "[TRANSLATE] Invalid email address",
-      "selectService": "[TRANSLATE] Please select a service",
-      "projectDetailsRequired": "[TRANSLATE] Project details are required",
+      "nameRequired": "Name is required",
+      "phoneRequired": "Phone number is required",
+      "subjectRequired": "Subject is required",
+      "messageRequired": "Message is required",
+      "firstNameRequired": "First name is required",
+      "lastNameRequired": "Last name is required",
+      "invalidEmail": "Invalid email address",
+      "selectService": "Please select a service",
+      "projectDetailsRequired": "Project details are required",
       "nameMin": "Name must be at least 2 characters",
       "emailInvalid": "Please enter a valid email address",
       "phoneMin": "Please enter a valid phone number",
@@ -70,12 +70,12 @@
       "specificationsMin": "Please provide detailed specifications (minimum 20 characters)"
     },
     "sections": {
-      "contactInfo": "[TRANSLATE] Contact Information",
+      "contactInfo": "Contact Information",
       "requiredServices": "Required Services *"
     },
     "error": {
-      "title": "[TRANSLATE] Quote submission failed",
-      "description": "[TRANSLATE] For immediate assistance: {{phone}} or email: {{email}}"
+      "title": "Quote submission failed",
+      "description": "For immediate assistance: {{phone}} or email: {{email}}"
     },
     "projectTypes": {
       "newInstallation": "Новая Установка",
@@ -154,41 +154,41 @@
   },
   "career": {
     "placeholders": {
-      "fullName": "[TRANSLATE] Enter your full name",
-      "email": "[TRANSLATE] your.email@example.com",
-      "phone": "[TRANSLATE] +91 9876543210",
-      "address": "[TRANSLATE] Enter your complete address (House/Flat No., Street, City, State, PIN)",
-      "currentCompany": "[TRANSLATE] Your current company (optional)",
-      "education": "[TRANSLATE] e.g., B.Tech Electrical Engineering",
-      "expectedSalary": "[TRANSLATE] e.g., 5-8 LPA or Negotiable",
-      "skills": "[TRANSLATE] List your technical skills, software knowledge, programming languages, certifications, etc.",
-      "coverLetter": "[TRANSLATE] Tell us about your motivation, career goals, and how you can contribute to our team...",
-      "selectSpecialization": "[TRANSLATE] Select your area of expertise",
-      "selectExperience": "[TRANSLATE] Select experience level",
-      "selectAvailability": "[TRANSLATE] Select your availability"
+      "fullName": "Enter your full name",
+      "email": "your.email@example.com",
+      "phone": "+91 9876543210",
+      "address": "Enter your complete address (House/Flat No., Street, City, State, PIN)",
+      "currentCompany": "Your current company (optional)",
+      "education": "e.g., B.Tech Electrical Engineering",
+      "expectedSalary": "e.g., 5-8 LPA or Negotiable",
+      "skills": "List your technical skills, software knowledge, programming languages, certifications, etc.",
+      "coverLetter": "Tell us about your motivation, career goals, and how you can contribute to our team...",
+      "selectSpecialization": "Select your area of expertise",
+      "selectExperience": "Select experience level",
+      "selectAvailability": "Select your availability"
     },
     "labels": {
-      "title": "[TRANSLATE] Join Our Engineering Team",
-      "subtitle": "[TRANSLATE] Submit your application and become part of our innovative engineering solutions team",
-      "personalInfo": "[TRANSLATE] Personal Information",
-      "professionalInfo": "[TRANSLATE] Professional Information",
-      "fullName": "[TRANSLATE] Full Name",
-      "emailAddress": "[TRANSLATE] Email Address",
-      "phoneNumber": "[TRANSLATE] Phone Number",
-      "residingAddress": "[TRANSLATE] Current Residing Address",
-      "specialization": "[TRANSLATE] Engineering Specialization",
-      "experience": "[TRANSLATE] Experience Level",
-      "currentCompany": "[TRANSLATE] Current Company",
-      "availability": "[TRANSLATE] Availability/Notice Period",
-      "education": "[TRANSLATE] Education/Qualification",
-      "expectedSalary": "[TRANSLATE] Expected Salary",
-      "technicalSkills": "[TRANSLATE] Technical Skills & Expertise",
-      "coverLetter": "[TRANSLATE] Cover Letter & Motivation"
+      "title": "Join Our Engineering Team",
+      "subtitle": "Submit your application and become part of our innovative engineering solutions team",
+      "personalInfo": "Personal Information",
+      "professionalInfo": "Professional Information",
+      "fullName": "Full Name",
+      "emailAddress": "Email Address",
+      "phoneNumber": "Phone Number",
+      "residingAddress": "Current Residing Address",
+      "specialization": "Engineering Specialization",
+      "experience": "Experience Level",
+      "currentCompany": "Current Company",
+      "availability": "Availability/Notice Period",
+      "education": "Education/Qualification",
+      "expectedSalary": "Expected Salary",
+      "technicalSkills": "Technical Skills & Expertise",
+      "coverLetter": "Cover Letter & Motivation"
     },
     "buttons": {
-      "submit": "[TRANSLATE] Submit Application",
-      "submitting": "[TRANSLATE] Submitting Application...",
-      "uploadResume": "[TRANSLATE] Upload Resume"
+      "submit": "Submit Application",
+      "submitting": "Submitting Application...",
+      "uploadResume": "Upload Resume"
     },
     "validation": {
       "nameMin": "Name must be at least 2 characters",
