@@ -639,6 +639,57 @@
         "category": "Expansion",
         "excerpt": "New solar EPC capabilities and partnerships to support India's renewable energy transition."
       }
+    },
+    "upcomingProjects": {
+      "smartCity": {
+        "title": "Smart City Infrastructure Automation",
+        "client": "Noida Smart City Ltd.",
+        "description": "Complete automation infrastructure for smart city project including traffic management, waste management, and energy distribution systems.",
+        "status": "Planning Phase",
+        "technologies": [
+          "IoT",
+          "Smart Sensors",
+          "City Management Systems",
+          "Energy Automation"
+        ]
+      },
+      "pharma": {
+        "title": "Pharmaceutical Manufacturing Automation",
+        "client": "Cipla Limited",
+        "description": "Advanced automation for pharmaceutical manufacturing processes with compliance to international standards and quality control systems.",
+        "status": "Contract Signed",
+        "technologies": [
+          "GMP Compliance",
+          "Batch Processing",
+          "Quality Control",
+          "Traceability Systems"
+        ]
+      },
+      "solarFarm": {
+        "title": "Solar Farm Automation and Monitoring",
+        "client": "Adani Green Energy",
+        "description": "Comprehensive automation solution for 200MW solar farm including tracking systems, weather monitoring, and grid integration.",
+        "status": "Engineering Phase",
+        "technologies": [
+          "Solar Tracking",
+          "Weather Systems",
+          "Grid Integration",
+          "Remote Monitoring"
+        ]
+      }
+    },
+    "achievements": {
+      "2023": [
+        "Outstanding Engineering Solution - CII Manufacturing Excellence",
+        "Safety Excellence Award - National Safety Council"
+      ],
+      "2024": [
+        "Excellence in Industrial Automation Award - Indian Engineering Society",
+        "Best Innovation in Process Control - Automation India Awards",
+        "ISO 9001:2015 Quality Management Certification",
+        "Top 100 Engineering Companies - India Today"
+      ],
+      "title": "Recent Achievements"
     }
   },
   "backToProducts": "Voltar aos Produtos",
