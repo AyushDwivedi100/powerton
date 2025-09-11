@@ -720,5 +720,16 @@
     "CPRI": "CPRI (Central Power Research Institute)",
     "ISO": "ISO (International Organization for Standardization)",
     "IEEE": "IEEE (Institute of Electrical and Electronics Engineers)"
+  },
+  "placeholders": {
+    "selectIndustry": "Select Industry",
+    "yourFullName": "Your Full Name",
+    "yourEmail": "Your Email Address",
+    "yourPhone": "Your Phone Number",
+    "yourRole": "Your Role/Designation",
+    "yourCompanyName": "Your Company Name",
+    "briefProjectTitle": "Brief Project Title",
+    "selectProjectType": "Select Project Type",
+    "projectTimeline": "Project Timeline"
   }
 }

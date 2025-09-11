@@ -19,7 +19,8 @@
         "yearsExperience": "سنوات الخبرة",
         "projectsCompleted": "المشاريع المكتملة",
         "happyClients": "العملاء السعداء",
-        "supportAvailable": "الدعم متاح"
+        "supportAvailable": "الدعم متاح",
+        "heading": "Company Statistics and Achievements"
       }
     },
     "about": {
@@ -245,37 +246,80 @@
     }
   },
   "quote": {
-    "projectSizes": {
-      "small": "صغير (1-10 نقاط I/O)",
-      "medium": "متوسط (11-100 نقاط I/O)",
-      "large": "كبير (101-500 نقاط I/O)",
-      "enterprise": "مؤسسي (500+ نقاط I/O)"
+    "hero": {
+      "title": "احصل على عروض هندسية احترافية",
+      "subtitle": "اتصل بفريقنا المتخصص للحصول على حلول مخصصة للأتمتة والأجهزة المناسبة لمتطلباتك الصناعية.",
+      "benefits": {
+        "consultation": "استشارة تقنية مجانية",
+        "response": "وقت استجابة 24-48 ساعة",
+        "estimates": "تقديرات تكلفة تفصيلية",
+        "noCosts": "لا توجد تكاليف مخفية"
+      }
     },
-    "timelines": {
-      "urgent": "عاجل (< 3 أشهر)",
-      "standard": "قياسي (3-6 أشهر)",
-      "extended": "ممدد (6-12 شهر)",
-      "longTerm": "طويل المدى (12+ شهر)"
+    "benefits": {
+      "assessment": {
+        "title": "تقييم تفصيلي",
+        "description": "تقييم شامل للمشروع والمواصفات التقنية"
+      },
+      "response": {
+        "title": "رد سريع",
+        "description": "احصل على عرض الأسعار التفصيلي خلال 24-48 ساعة"
+      },
+      "consultation": {
+        "title": "استشارة الخبراء",
+        "description": "استشارة تقنية مجانية مع فريق الهندسة"
+      },
+      "solutions": {
+        "title": "حلول مخصصة",
+        "description": "حلول هندسية مصممة خصيصاً لمتطلباتك المحددة"
+      }
     },
-    "requirements": {
-      "plcProgramming": "برمجة PLC",
-      "scadaDevelopment": "تطوير SCADA",
-      "hmiDesign": "تصميم HMI",
-      "networkIntegration": "تكامل الشبكة",
-      "safetySystems": "أنظمة الأمان",
-      "remoteMonitoring": "مراقبة عن بُعد",
-      "dataAnalytics": "تحليل البيانات",
-      "mobileApp": "واجهة التطبيق المحمول"
+    "method": {
+      "title": "اختر طريقة عرض الأسعار",
+      "description": "اختر الطريقة الأنسب للحصول على عرض أسعار مشروعك. كلا الخيارين يوفران أسعاراً شاملة ومواصفات تقنية.",
+      "calculator": "حاسبة ذكية",
+      "request": "طلب عرض أسعار"
     },
-    "additionalFeatures": {
-      "redundancy": "تكرار النظام",
-      "cybersecurity": "الأمن السيبراني المتقدم",
-      "iotIntegration": "تكامل إنترنت الأشياء",
-      "aiMl": "تحليل الذكاء الاصطناعي",
-      "predictiveMaintenance": "صيانة تنبؤية",
-      "energyManagement": "إدارة الطاقة",
-      "cloudIntegration": "تكامل السحابة",
-      "trainingSupport": "تدريب ودعم موسع"
+    "calculator": {
+      "title": "حاسبة التكلفة المتقدمة",
+      "description": "نحن نضع اللمسات الأخيرة على أداة التقدير الذكية للتكلفة. ستوفر هذه الميزة أسعاراً فورية ودقيقة لمشاريع الأتمتة الخاصة بك.",
+      "launchingSoon": "قريباً",
+      "useQuoteForm": "للحصول على عروض أسعار فورية، يرجى استخدام نموذج عرض الأسعار المفصل الخاص بنا",
+      "getQuoteNow": "احصل على عرض سعر الآن",
+      "projectTitle": "حاسبة تكلفة المشروع",
+      "stepOf": "الخطوة {{current}} من {{total}}"
+    },
+    "process": {
+      "title": "عملية عرض الأسعار لدينا",
+      "description": "من الطلب الأولي إلى الاقتراح المفصل، نضمن عملية سلسة وشفافة.",
+      "submit": {
+        "title": "إرسال الطلب",
+        "description": "املأ نموذج عرض الأسعار الشامل أو استخدم حاسبة التكلفة الخاصة بنا"
+      },
+      "review": {
+        "title": "المراجعة التقنية",
+        "description": "يحلل فريق الهندسة لدينا متطلباتك ومواصفاتك"
+      },
+      "assessment": {
+        "title": "تقييم الموقع",
+        "description": "زيارة اختيارية للموقع للمشاريع المعقدة (إذا لزم الأمر)"
+      },
+      "quote": {
+        "title": "عرض أسعار مفصل",
+        "description": "احصل على أسعار شاملة مع الجدول الزمني والنتائج"
+      }
+    },
+    "cta": {
+      "title": "هل أنت مستعد للبدء؟",
+      "description": "اتصل بنا اليوم للحصول على حل هندسي مخصص. فريقنا جاهز لمساعدتك في تحقيق مشروعك."
+    },
+    "projectTypes": {
+      "processAutomation": "أتمتة العمليات",
+      "powerControlSystems": "أنظمة التحكم في الطاقة",
+      "instrumentationControl": "الأجهزة والتحكم",
+      "solarAutomation": "الأتمتة الشمسية",
+      "buildingAutomation": "أتمتة المباني",
+      "manufacturingAutomation": "أتمتة التصنيع"
     },
     "industries": {
       "manufacturing": "التصنيع",
@@ -284,16 +328,40 @@
       "chemicalProcessing": "المعالجة الكيميائية",
       "waterTreatment": "معالجة المياه",
       "foodBeverage": "الأغذية والمشروبات",
-      "pharmaceutical": "صيدلاني",
+      "pharmaceutical": "الأدوية",
       "renewableEnergy": "الطاقة المتجددة"
     },
-    "projectTypes": {
-      "processAutomation": "أتمتة العمليات",
-      "powerControlSystems": "أنظمة التحكم بالطاقة",
-      "instrumentationControl": "أجهزة القياس والتحكم",
-      "solarAutomation": "أتمتة الطاقة الشمسية",
-      "buildingAutomation": "أتمتة المباني",
-      "manufacturingAutomation": "أتمتة التصنيع"
+    "projectSizes": {
+      "small": "صغير (1-10 نقاط إدخال/إخراج)",
+      "medium": "متوسط (11-100 نقطة إدخال/إخراج)",
+      "large": "كبير (101-500 نقطة إدخال/إخراج)",
+      "enterprise": "مؤسسة (500+ نقطة إدخال/إخراج)"
+    },
+    "timelines": {
+      "urgent": "عاجل (< 3 أشهر)",
+      "standard": "قياسي (3-6 أشهر)",
+      "extended": "ممتد (6-12 شهراً)",
+      "longTerm": "طويل الأجل (12+ شهراً)"
+    },
+    "requirements": {
+      "plcProgramming": "برمجة PLC",
+      "scadaDevelopment": "تطوير SCADA",
+      "hmiDesign": "تصميم HMI",
+      "networkIntegration": "تكامل الشبكة",
+      "safetySystems": "أنظمة الأمان",
+      "remoteMonitoring": "المراقبة عن بُعد",
+      "dataAnalytics": "تحليل البيانات",
+      "mobileApp": "واجهة التطبيق المحمول"
+    },
+    "additionalFeatures": {
+      "redundancy": "تكرار النظام",
+      "cybersecurity": "الأمن السيبراني المتقدم",
+      "iotIntegration": "تكامل إنترنت الأشياء",
+      "aiMl": "تحليل الذكاء الاصطناعي/التعلم الآلي",
+      "predictiveMaintenance": "الصيانة التنبؤية",
+      "energyManagement": "إدارة الطاقة",
+      "cloudIntegration": "التكامل السحابي",
+      "trainingSupport": "التدريب والدعم الموسع"
     }
   },
   "about": {
@@ -428,6 +496,11 @@
       "title": "Emergency Support",
       "description": "Critical system failure? Our emergency response team is available 24/7 to help minimize downtime.",
       "hotline": "Emergency Hotline"
+    },
+    "seo": {
+      "title": "Contact Powerton Engineering - Get Expert Engineering Support",
+      "description": "Contact our engineering experts for industrial automation, electrical systems, and technical support. Call +91-94627-71662 or email info@powertonengineering.com",
+      "keywords": "contact powerton engineering, engineering support, industrial automation contact, electrical engineering help, noida engineering company contact"
     }
   },
   "projects": {
@@ -723,157 +796,40 @@
       "verifiedResultsDesc": "Real projects with measurable outcomes and client testimonials"
     }
   },
-  "quote": {
-    "hero": {
-      "title": "احصل على عرض أسعار احترافي وحاسبة التكلفة",
-      "subtitle": "اطلب أسعاراً مفصلة لمشاريع الأتمتة الخاصة بك. استخدم حاسبة التكلفة للحصول على تقديرات فورية أو قدم طلب عرض أسعار شامل للحصول على حلول مخصصة.",
-      "benefits": {
-        "consultation": "استشارة مجانية من الخبراء",
-        "response": "رد خلال 24-48 ساعة",
-        "estimates": "تقديرات تكلفة دقيقة",
-        "noCosts": "بدون تكاليف مخفية"
-      }
-    },
-    "benefits": {
-      "assessment": {
-        "title": "تقييم مفصل",
-        "description": "تقييم شامل للمشروع والمواصفات التقنية"
-      },
-      "response": {
-        "title": "استجابة سريعة",
-        "description": "احصل على عرض الأسعار المفصل خلال 24-48 ساعة"
-      },
-      "consultation": {
-        "title": "استشارة الخبراء",
-        "description": "استشارة تقنية مجانية مع فريق الهندسة لدينا"
-      },
-      "solutions": {
-        "title": "حلول مخصصة",
-        "description": "حلول هندسية مصممة خصيصاً لمتطلباتك المحددة"
-      }
-    },
-    "method": {
-      "title": "اختر طريقة عرض الأسعار الخاصة بك",
-      "description": "حدد الطريقة التي تناسب احتياجات مشروعك والجدول الزمني بشكل أفضل.",
-      "calculator": "حاسبة التكلفة",
-      "request": "طلب عرض أسعار"
-    },
-    "calculator": {
-      "title": "حاسبة التكلفة المتقدمة",
-      "description": "نحن نضع اللمسات الأخيرة على أداة التقدير الذكية للتكلفة. ستوفر هذه الميزة أسعاراً فورية ودقيقة لمشاريع الأتمتة الخاصة بك.",
-      "launchingSoon": "قريباً",
-      "useQuoteForm": "للحصول على عروض أسعار فورية، يرجى استخدام نموذج عرض الأسعار المفصل الخاص بنا",
-      "getQuoteNow": "احصل على عرض سعر الآن",
-      "projectTitle": "حاسبة تكلفة المشروع",
-      "stepOf": "الخطوة {{current}} من {{total}}"
-    },
-    "process": {
-      "title": "عملية عرض الأسعار لدينا",
-      "description": "من الطلب الأولي إلى الاقتراح المفصل، نضمن عملية سلسة وشفافة.",
-      "submit": {
-        "title": "إرسال الطلب",
-        "description": "املأ نموذج عرض الأسعار الشامل أو استخدم حاسبة التكلفة الخاصة بنا"
-      },
-      "review": {
-        "title": "المراجعة التقنية",
-        "description": "يحلل فريق الهندسة لدينا متطلباتك ومواصفاتك"
-      },
-      "assessment": {
-        "title": "تقييم الموقع",
-        "description": "زيارة اختيارية للموقع للمشاريع المعقدة (إذا لزم الأمر)"
-      },
-      "quote": {
-        "title": "عرض أسعار مفصل",
-        "description": "احصل على أسعار شاملة مع الجدول الزمني والنتائج"
-      }
-    },
-    "cta": {
-      "title": "هل أنت مستعد للبدء؟",
-      "description": "اتصل بنا اليوم للحصول على حل هندسي مخصص. فريقنا جاهز لمساعدتك في تحقيق مشروعك."
-    },
-    "projectTypes": {
-      "processAutomation": "أتمتة العمليات",
-      "powerControlSystems": "أنظمة التحكم في الطاقة",
-      "instrumentationControl": "الأجهزة والتحكم",
-      "solarAutomation": "الأتمتة الشمسية",
-      "buildingAutomation": "أتمتة المباني",
-      "manufacturingAutomation": "أتمتة التصنيع"
-    },
-    "industries": {
-      "manufacturing": "التصنيع",
-      "powerGeneration": "توليد الطاقة",
-      "oilGas": "النفط والغاز",
-      "chemicalProcessing": "المعالجة الكيميائية",
-      "waterTreatment": "معالجة المياه",
-      "foodBeverage": "الأغذية والمشروبات",
-      "pharmaceutical": "الأدوية",
-      "renewableEnergy": "الطاقة المتجددة"
-    },
-    "projectSizes": {
-      "small": "صغير (1-10 نقاط إدخال/إخراج)",
-      "medium": "متوسط (11-100 نقطة إدخال/إخراج)",
-      "large": "كبير (101-500 نقطة إدخال/إخراج)",
-      "enterprise": "مؤسسة (500+ نقطة إدخال/إخراج)"
-    },
-    "timelines": {
-      "urgent": "عاجل (< 3 أشهر)",
-      "standard": "قياسي (3-6 أشهر)",
-      "extended": "ممتد (6-12 شهراً)",
-      "longTerm": "طويل الأجل (12+ شهراً)"
-    },
-    "requirements": {
-      "plcProgramming": "برمجة PLC",
-      "scadaDevelopment": "تطوير SCADA",
-      "hmiDesign": "تصميم HMI",
-      "networkIntegration": "تكامل الشبكة",
-      "safetySystems": "أنظمة الأمان",
-      "remoteMonitoring": "المراقبة عن بُعد",
-      "dataAnalytics": "تحليل البيانات",
-      "mobileApp": "واجهة التطبيق المحمول"
-    },
-    "additionalFeatures": {
-      "redundancy": "تكرار النظام",
-      "cybersecurity": "الأمن السيبراني المتقدم",
-      "iotIntegration": "تكامل إنترنت الأشياء",
-      "aiMl": "تحليل الذكاء الاصطناعي/التعلم الآلي",
-      "predictiveMaintenance": "الصيانة التنبؤية",
-      "energyManagement": "إدارة الطاقة",
-      "cloudIntegration": "التكامل السحابي",
-      "trainingSupport": "التدريب والدعم الموسع"
+  "career": {
+    "seo": {
+      "title": "Careers at Powerton Engineering - Join Our Engineering Team",
+      "description": "Explore career opportunities at Powerton Engineering. Join our team of skilled engineers and contribute to innovative industrial automation and electrical engineering projects.",
+      "keywords": "powerton engineering careers, engineering jobs, electrical engineer jobs, automation engineer jobs, industrial engineering careers, engineering jobs noida"
     },
     "hero": {
-      "title": "احصل على عروض هندسية احترافية",
-      "subtitle": "اتصل بفريقنا المتخصص للحصول على حلول مخصصة للأتمتة والأجهزة المناسبة لمتطلباتك الصناعية.",
-      "benefits": {
-        "consultation": "استشارة تقنية مجانية",
-        "response": "وقت استجابة 24-48 ساعة",
-        "estimates": "تقديرات تكلفة تفصيلية",
-        "noCosts": "لا توجد تكاليف مخفية"
-      }
+      "imageAlt": "Professional engineering workspace with modern industrial facility equipment"
     },
     "benefits": {
-      "assessment": {
-        "title": "تقييم تفصيلي",
-        "description": "تقييم شامل للمشروع والمواصفات التقنية"
+      "careerGrowth": {
+        "title": "Career Growth",
+        "description": "Structured career progression with regular performance reviews and promotion opportunities."
       },
-      "response": {
-        "title": "رد سريع",
-        "description": "احصل على عرض الأسعار التفصيلي خلال 24-48 ساعة"
+      "learningDevelopment": {
+        "title": "Learning & Development",
+        "description": "Continuous training programs, certifications, and skill enhancement opportunities."
       },
-      "consultation": {
-        "title": "استشارة الخبراء",
-        "description": "استشارة تقنية مجانية مع فريق الهندسة"
+      "workLifeBalance": {
+        "title": "Work-Life Balance",
+        "description": "Flexible working hours and comprehensive health benefits for employees and families."
       },
-      "solutions": {
-        "title": "حلول مخصصة",
-        "description": "حلول هندسية مصممة خصيصاً لمتطلباتك المحددة"
+      "teamCulture": {
+        "title": "Team Culture",
+        "description": "Collaborative work environment with supportive team members and open communication."
+      },
+      "recognitionRewards": {
+        "title": "Recognition & Rewards",
+        "description": "Performance-based incentives, bonuses, and recognition programs for outstanding work."
+      },
+      "innovationFocus": {
+        "title": "Innovation Focus",
+        "description": "Work on cutting-edge technologies and innovative solutions in industrial automation."
       }
-    },
-    "method": {
-      "title": "اختر طريقة عرض الأسعار",
-      "description": "اختر الطريقة الأنسب للحصول على عرض أسعار مشروعك. كلا الخيارين يوفران أسعاراً شاملة ومواصفات تقنية.",
-      "calculator": "حاسبة ذكية",
-      "request": "طلب عرض أسعار"
     }
   }
 }

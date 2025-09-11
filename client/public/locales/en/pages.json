@@ -1312,7 +1312,7 @@
     },
     "industries": {
       "manufacturing": "Manufacturing",
-      "powerGeneration": "Power Generation",
+      "powerGeneration": "Power Generation", 
       "oilGas": "Oil & Gas",
       "chemicalProcessing": "Chemical Processing",
       "waterTreatment": "Water Treatment",
@@ -1396,6 +1396,49 @@
     "cta": {
       "title": "Ready to Get Started?",
       "description": "Contact us today for your custom engineering solution. Our team is ready to help bring your project to life."
+    }
+  },
+  "career": {
+    "seo": {
+      "title": "Careers at Powerton Engineering - Join Our Engineering Team",
+      "description": "Explore career opportunities at Powerton Engineering. Join our team of skilled engineers and contribute to innovative industrial automation and electrical engineering projects.",
+      "keywords": "powerton engineering careers, engineering jobs, electrical engineer jobs, automation engineer jobs, industrial engineering careers, engineering jobs noida"
+    },
+    "hero": {
+      "imageAlt": "Professional engineering workspace with modern industrial facility equipment"
+    },
+    "benefits": {
+      "careerGrowth": {
+        "title": "Career Growth",
+        "description": "Structured career progression with regular performance reviews and promotion opportunities."
+      },
+      "learningDevelopment": {
+        "title": "Learning & Development",
+        "description": "Continuous training programs, certifications, and skill enhancement opportunities."
+      },
+      "workLifeBalance": {
+        "title": "Work-Life Balance",
+        "description": "Flexible working hours and comprehensive health benefits for employees and families."
+      },
+      "teamCulture": {
+        "title": "Team Culture",
+        "description": "Collaborative work environment with supportive team members and open communication."
+      },
+      "recognitionRewards": {
+        "title": "Recognition & Rewards",
+        "description": "Performance-based incentives, bonuses, and recognition programs for outstanding work."
+      },
+      "innovationFocus": {
+        "title": "Innovation Focus",
+        "description": "Work on cutting-edge technologies and innovative solutions in industrial automation."
+      }
+    }
+  },
+  "contact": {
+    "seo": {
+      "title": "Contact Powerton Engineering - Get Expert Engineering Support",
+      "description": "Contact our engineering experts for industrial automation, electrical systems, and technical support. Call +91-94627-71662 or email info@powertonengineering.com",
+      "keywords": "contact powerton engineering, engineering support, industrial automation contact, electrical engineering help, noida engineering company contact"
     }
   }
 }

@@ -387,5 +387,165 @@
         "power": "10.5-42.4V DC, Loop-powered"
       }
     }
+  },
+  "cablesWires": {
+    "instrumentation": {
+      "name": "Instrumentation Cables",
+      "description": "Low voltage cables for instrumentation and control applications",
+      "features": [
+        "Shielded Construction",
+        "Moisture Resistant",
+        "Temperature Rated",
+        "Multiple Pairs"
+      ]
+    },
+    "powerDistribution": {
+      "name": "Power Distribution Cables",
+      "description": "High voltage cables for power transmission and distribution",
+      "features": [
+        "XLPE Insulation",
+        "Armored Construction",
+        "Fire Resistant",
+        "High Current Rating"
+      ]
+    },
+    "communication": {
+      "name": "Communication Cables",
+      "description": "Data transmission cables for industrial communication networks",
+      "features": [
+        "Cat5e/Cat6",
+        "Fiber Optic",
+        "Industrial Grade",
+        "EMI Shielding"
+      ]
+    }
+  },
+  "handTools": {
+    "wrenchSets": {
+      "name": "Professional Wrench Sets",
+      "description": "Complete sets of combination and adjustable wrenches",
+      "features": [
+        "Chrome Vanadium Steel",
+        "Metric & SAE Sizes",
+        "Professional Grade",
+        "Lifetime Warranty"
+      ]
+    },
+    "screwdriverSets": {
+      "name": "Precision Screwdriver Sets",
+      "description": "High-quality screwdrivers for precision applications",
+      "features": [
+        "Ergonomic Handles",
+        "Magnetic Tips",
+        "Multiple Head Types",
+        "Anti-Slip Grip"
+      ]
+    },
+    "toolKits": {
+      "name": "Industrial Tool Kits",
+      "description": "Comprehensive tool kits for industrial maintenance",
+      "features": [
+        "Complete Tool Set",
+        "Organized Storage",
+        "Heavy-Duty Case",
+        "Professional Quality"
+      ]
+    }
+  },
+  "powerTools": {
+    "drillSets": {
+      "name": "Industrial Drill Sets",
+      "description": "Heavy-duty electric and cordless drills for industrial applications",
+      "features": [
+        "High Torque",
+        "Variable Speed",
+        "Cordless Options",
+        "Chuck Capacity: 13mm"
+      ]
+    },
+    "angleGrinders": {
+      "name": "Angle Grinders",
+      "description": "Professional angle grinders for cutting and grinding operations",
+      "features": [
+        "Multiple Disc Sizes",
+        "Safety Guards",
+        "Anti-Vibration",
+        "Powerful Motors"
+      ]
+    },
+    "impactWrenches": {
+      "name": "Impact Wrenches",
+      "description": "High-torque impact wrenches for heavy-duty fastening",
+      "features": [
+        "High Impact Force",
+        "Socket Compatibility",
+        "Forward/Reverse",
+        "Battery Powered"
+      ]
+    }
+  },
+  "cuttingTools": {
+    "sawBlades": {
+      "name": "Industrial Saw Blades",
+      "description": "High-quality saw blades for metal and wood cutting",
+      "features": [
+        "HSS/Carbide Tips",
+        "Multiple TPI",
+        "Bi-Metal Construction",
+        "Long Life"
+      ]
+    },
+    "drillBits": {
+      "name": "Drill Bits & Reamers",
+      "description": "Precision drilling and reaming tools",
+      "features": [
+        "HSS/Cobalt",
+        "Jobber Length",
+        "Spiral Flutes",
+        "Split Point"
+      ]
+    },
+    "millingCutters": {
+      "name": "Milling Cutters",
+      "description": "End mills and face mills for machining operations",
+      "features": [
+        "Carbide/HSS",
+        "Multiple Flutes",
+        "Coated Options",
+        "Various Geometries"
+      ]
+    }
+  },
+  "liftingEquipment": {
+    "chainHoists": {
+      "name": "Chain Hoists & Slings",
+      "description": "Manual and electric chain hoists for heavy lifting",
+      "features": [
+        "1-20 Ton Capacity",
+        "Electric/Manual",
+        "Safety Hooks",
+        "Overload Protection"
+      ]
+    },
+    "wireRope": {
+      "name": "Wire Rope & Cables",
+      "description": "High-strength wire rope for lifting applications",
+      "features": [
+        "Galvanized Steel",
+        "Multiple Lay Types",
+        "Various Diameters",
+        "IWRC Core"
+      ]
+    },
+    "liftingHardware": {
+      "name": "Lifting Hardware",
+      "description": "Shackles, hooks, and rigging hardware",
+      "features": [
+        "Stainless Steel",
+        "Safety Pins",
+        "Load Rated",
+        "ANSI/ASME Standards"
+      ]
+    }
   }
 }

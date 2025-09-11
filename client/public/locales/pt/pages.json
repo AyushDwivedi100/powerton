@@ -19,7 +19,8 @@
         "yearsExperience": "Years Experience",
         "projectsCompleted": "Projects Completed",
         "happyClients": "Happy Clients",
-        "supportAvailable": "Support Available"
+        "supportAvailable": "Support Available",
+        "heading": "Company Statistics and Achievements"
       }
     },
     "services": {
@@ -544,6 +545,11 @@
       "title": "Emergency Support",
       "description": "Critical system failure? Our emergency response team is available 24/7 to help minimize downtime.",
       "hotline": "Emergency Hotline"
+    },
+    "seo": {
+      "title": "Contact Powerton Engineering - Get Expert Engineering Support",
+      "description": "Contact our engineering experts for industrial automation, electrical systems, and technical support. Call +91-94627-71662 or email info@powertonengineering.com",
+      "keywords": "contact powerton engineering, engineering support, industrial automation contact, electrical engineering help, noida engineering company contact"
     }
   },
   "news": {
@@ -686,82 +692,13 @@
     }
   },
   "quote": {
-    "projectSizes": {
-      "small": "Pequeno (1-10 Pontos I/O)",
-      "medium": "Médio (11-100 Pontos I/O)",
-      "large": "Grande (101-500 Pontos I/O)",
-      "enterprise": "Empresarial (500+ Pontos I/O)"
-    },
-    "timelines": {
-      "urgent": "Urgente (< 3 meses)",
-      "standard": "Padrão (3-6 meses)",
-      "extended": "Estendido (6-12 meses)",
-      "longTerm": "Longo Prazo (12+ meses)"
-    },
-    "requirements": {
-      "plcProgramming": "Programação PLC",
-      "scadaDevelopment": "Desenvolvimento SCADA",
-      "hmiDesign": "Design HMI",
-      "networkIntegration": "Integração de Rede",
-      "safetySystems": "Sistemas de Segurança",
-      "remoteMonitoring": "Monitoramento Remoto",
-      "dataAnalytics": "Análise de Dados",
-      "mobileApp": "Interface de Aplicativo Móvel"
-    },
-    "additionalFeatures": {
-      "redundancy": "Redundância do Sistema",
-      "cybersecurity": "Cibersegurança Avançada",
-      "iotIntegration": "Integração IoT",
-      "aiMl": "Análise IA/ML",
-      "predictiveMaintenance": "Manutenção Preditiva",
-      "energyManagement": "Gestão de Energia",
-      "cloudIntegration": "Integração em Nuvem",
-      "trainingSupport": "Treinamento e Suporte Estendido"
-    },
-    "industries": {
-      "manufacturing": "Manufatura",
-      "powerGeneration": "Geração de Energia",
-      "oilGas": "Petróleo e Gás",
-      "chemicalProcessing": "Processamento Químico",
-      "waterTreatment": "Tratamento de Água",
-      "foodBeverage": "Alimentos e Bebidas",
-      "pharmaceutical": "Farmacêutica",
-      "renewableEnergy": "Energia Renovável"
-    },
-    "projectTypes": {
-      "processAutomation": "Automação de Processos",
-      "powerControlSystems": "Sistemas de Controle de Energia",
-      "instrumentationControl": "Instrumentação e Controle",
-      "solarAutomation": "Automação Solar",
-      "buildingAutomation": "Automação Predial",
-      "manufacturingAutomation": "Automação de Manufatura"
-    }
-  },
-  "sitemap": {
-    "quickActions": {
-      "title": "Precisa de Ajuda para Encontrar Algo?",
-      "description": "Não consegue encontrar o que está procurando? Entre em contato conosco diretamente ou use nosso chatbot inteligente disponível em cada página.",
-      "contactUs": "Entre em Contato",
-      "requestQuote": "Solicitar Orçamento"
-    }
-  },
-  "portfolio": {
-    "features": {
-      "completedProjects": "Projetos concluídos com sucesso em várias indústrias",
-      "highQuality": "Documentação de Alta Qualidade",
-      "highQualityDesc": "Portfólio profissional com imagens detalhadas de projetos",
-      "verifiedResults": "Resultados Verificados",
-      "verifiedResultsDesc": "Projetos reais com resultados mensuráveis e depoimentos de clientes"
-    }
-  },
-  "quote": {
     "hero": {
-      "title": "Obter Orçamento Profissional e Calculadora de Custos",
-      "subtitle": "Solicite preços detalhados para seus projetos de automação. Use nossa calculadora de custos para estimativas instantâneas ou envie uma solicitação abrangente de orçamento para soluções personalizadas.",
+      "title": "Obtenha Orçamentos Profissionais de Engenharia",
+      "subtitle": "Conecte-se com nossa equipe especializada para soluções personalizadas de automação e instrumentação adaptadas às suas necessidades industriais.",
       "benefits": {
-        "consultation": "Consulta Gratuita de Especialistas",
-        "response": "Resposta em 24-48 Horas",
-        "estimates": "Estimativas de Custos Precisas",
+        "consultation": "Consulta Técnica Gratuita",
+        "response": "Tempo de Resposta de 24-48 Horas",
+        "estimates": "Estimativas de Custo Detalhadas",
         "noCosts": "Sem Custos Ocultos"
       }
     },
@@ -780,13 +717,13 @@
       },
       "solutions": {
         "title": "Soluções Personalizadas",
-        "description": "Soluções de engenharia adaptadas aos seus requisitos específicos"
+        "description": "Soluções de engenharia adaptadas às suas necessidades específicas"
       }
     },
     "method": {
       "title": "Escolha Seu Método de Orçamento",
-      "description": "Selecione o método que melhor se adequa às necessidades e cronograma do seu projeto.",
-      "calculator": "Calculadora de Custos",
+      "description": "Selecione a maneira mais conveniente de obter o orçamento do seu projeto. Ambas as opções fornecem preços abrangentes e especificações técnicas.",
+      "calculator": "Calculadora Inteligente",
       "request": "Solicitação de Orçamento"
     },
     "calculator": {
@@ -871,40 +808,59 @@
       "energyManagement": "Gestão de Energia",
       "cloudIntegration": "Integração em Nuvem",
       "trainingSupport": "Treinamento e Suporte Estendido"
+    }
+  },
+  "sitemap": {
+    "quickActions": {
+      "title": "Precisa de Ajuda para Encontrar Algo?",
+      "description": "Não consegue encontrar o que está procurando? Entre em contato conosco diretamente ou use nosso chatbot inteligente disponível em cada página.",
+      "contactUs": "Entre em Contato",
+      "requestQuote": "Solicitar Orçamento"
+    }
+  },
+  "portfolio": {
+    "features": {
+      "completedProjects": "Projetos concluídos com sucesso em várias indústrias",
+      "highQuality": "Documentação de Alta Qualidade",
+      "highQualityDesc": "Portfólio profissional com imagens detalhadas de projetos",
+      "verifiedResults": "Resultados Verificados",
+      "verifiedResultsDesc": "Projetos reais com resultados mensuráveis e depoimentos de clientes"
+    }
+  },
+  "career": {
+    "seo": {
+      "title": "Careers at Powerton Engineering - Join Our Engineering Team",
+      "description": "Explore career opportunities at Powerton Engineering. Join our team of skilled engineers and contribute to innovative industrial automation and electrical engineering projects.",
+      "keywords": "powerton engineering careers, engineering jobs, electrical engineer jobs, automation engineer jobs, industrial engineering careers, engineering jobs noida"
     },
     "hero": {
-      "title": "Obtenha Orçamentos Profissionais de Engenharia",
-      "subtitle": "Conecte-se com nossa equipe especializada para soluções personalizadas de automação e instrumentação adaptadas às suas necessidades industriais.",
-      "benefits": {
-        "consultation": "Consulta Técnica Gratuita",
-        "response": "Tempo de Resposta de 24-48 Horas",
-        "estimates": "Estimativas de Custo Detalhadas",
-        "noCosts": "Sem Custos Ocultos"
-      }
+      "imageAlt": "Professional engineering workspace with modern industrial facility equipment"
     },
     "benefits": {
-      "assessment": {
-        "title": "Avaliação Detalhada",
-        "description": "Avaliação abrangente do projeto e especificações técnicas"
+      "careerGrowth": {
+        "title": "Career Growth",
+        "description": "Structured career progression with regular performance reviews and promotion opportunities."
       },
-      "response": {
-        "title": "Resposta Rápida",
-        "description": "Receba seu orçamento detalhado em 24-48 horas"
+      "learningDevelopment": {
+        "title": "Learning & Development",
+        "description": "Continuous training programs, certifications, and skill enhancement opportunities."
       },
-      "consultation": {
-        "title": "Consulta de Especialistas",
-        "description": "Consulta técnica gratuita com nossa equipe de engenharia"
+      "workLifeBalance": {
+        "title": "Work-Life Balance",
+        "description": "Flexible working hours and comprehensive health benefits for employees and families."
       },
-      "solutions": {
-        "title": "Soluções Personalizadas",
-        "description": "Soluções de engenharia adaptadas às suas necessidades específicas"
+      "teamCulture": {
+        "title": "Team Culture",
+        "description": "Collaborative work environment with supportive team members and open communication."
+      },
+      "recognitionRewards": {
+        "title": "Recognition & Rewards",
+        "description": "Performance-based incentives, bonuses, and recognition programs for outstanding work."
+      },
+      "innovationFocus": {
+        "title": "Innovation Focus",
+        "description": "Work on cutting-edge technologies and innovative solutions in industrial automation."
       }
-    },
-    "method": {
-      "title": "Escolha Seu Método de Orçamento",
-      "description": "Selecione a maneira mais conveniente de obter o orçamento do seu projeto. Ambas as opções fornecem preços abrangentes e especificações técnicas.",
-      "calculator": "Calculadora Inteligente",
-      "request": "Solicitação de Orçamento"
     }
   }
 }

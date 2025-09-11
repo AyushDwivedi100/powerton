@@ -19,7 +19,8 @@
         "yearsExperience": "Shekarun Gogewa",
         "projectsCompleted": "Ayyukan da aka Kammala",
         "happyClients": "Abokan Ciniki Masu Farin Ciki",
-        "supportAvailable": "Ana Samun Tallafi"
+        "supportAvailable": "Ana Samun Tallafi",
+        "heading": "Company Statistics and Achievements"
       }
     },
     "services": {
@@ -297,111 +298,130 @@
     "office": {
       "name": "Babban Ofishi na Kamfani",
       "hours": "Lit-Asa: 9:00 AM - 6:00 PM"
+    },
+    "seo": {
+      "title": "Contact Powerton Engineering - Get Expert Engineering Support",
+      "description": "Contact our engineering experts for industrial automation, electrical systems, and technical support. Call +91-94627-71662 or email info@powertonengineering.com",
+      "keywords": "contact powerton engineering, engineering support, industrial automation contact, electrical engineering help, noida engineering company contact"
     }
   },
   "quote": {
-    "seo": {
-      "title": "Nemi Farashin - Powerton Engineering | Hanyoyin Sarrafa Masana'antu na Musamman",
-      "description": "Sami cikakken farashin aikinku na sarrafa masana'antu daga Powerton Engineering. Shawarwar kyauta da amsawa cikin awa 24-48."
-    },
     "hero": {
-      "title": "Sami Farashin Aikinku na Injiniya",
-      "subtitle": "Mu sami cikakken kiyasin farashin don aikinku na sarrafa masana'antu. Ƙungiyar mu ta ƙwararru a shirye take don taimaka muku.",
+      "title": "Sami Farashin Injiniya mai Kyau",
+      "subtitle": "Ku haɗu da ƙungiyar mu ta ƙwararru don neman maganganun sarrafa da kayan aikin da aka keɓanta don bukatun masana'antunku.",
       "benefits": {
-        "consultation": "Shawarwar Kyauta",
-        "response": "Amsawa Cikin Awa 24-48",
-        "estimates": "Kiyasin Farashi na Gaskiya",
-        "noCosts": "Babu Kuɗin Farko"
+        "consultation": "Shawarwari Fasaha kyauta",
+        "response": "Lokacin Amsa Sa'o'i 24-48",
+        "estimates": "Ƙididdigar Farashi mai Cikakki",
+        "noCosts": "Babu Farashin da aka ɓoye"
+      }
+    },
+    "benefits": {
+      "assessment": {
+        "title": "Tantance mai Zurfi",
+        "description": "Cikakkun tantance aikin da ƙayyadaddun fasaha"
+      },
+      "response": {
+        "title": "Amsa mai Sauri",
+        "description": "Karɓi farashinku mai cikakki cikin sa'o'i 24-48"
+      },
+      "consultation": {
+        "title": "Shawarwar Ƙwararru",
+        "description": "Shawarwar fasaha kyauta tare da ƙungiyar injiniyanmu"
+      },
+      "solutions": {
+        "title": "Maganganun Keɓantawa",
+        "description": "Maganganun injiniya da aka keɓanta don takamaiman bukatunku"
       }
     },
     "method": {
-      "title": "Zaɓi Hanyarku ta Samun Farashin",
-      "description": "Mu ba ku hanyoyi biyu don samun farashin - cikakken fom ko na'urar ƙirga farashin da kansa.",
-      "calculator": "Na'urar Ƙirga Farashin",
-      "request": "Fom na Neman Farashin"
+      "title": "Zaɓi Hanyar Farashinku",
+      "description": "Zaɓi hanya mafi sauƙi don samun farashin aikinku. Zaɓuɓɓuka biyu suna ba da farashin gaba ɗaya da ƙayyadaddun fasaha.",
+      "calculator": "Na'urar Kirga mai Hankali",
+      "request": "Buƙatar Farashi"
     },
     "calculator": {
-      "title": "Na'urar Ƙirga Farashin Mai Girma",
-      "description": "Muna ƙare ayyukan ƙarshe na kayan aikin ƙirga farashin mai hankali. Wannan fasalin zai ba da farashin nan take da inganci don ayyukan sarrafa ku.",
-      "launchingSoon": "Ana Buɗewa Ba Da Jimawa Ba",
-      "useQuoteForm": "Don samun farashin nan take, da fatan za ku yi amfani da cikakken fom ɗinmu",
-      "getQuoteNow": "Sami Farashin Yanzu",
-      "projectTitle": "Na'urar Ƙirga Farashin Aiki",
-      "stepOf": "Mataki {{current}} na {{total}}"
+      "title": "Lissafin Farashi na Zamani",
+      "description": "Muna kammala kayan aikin mu na lissafin farashi mai hankali. Wannan fasali zai samar da farashin nan take da kuma daidai don ayyukan sarrafawa ku.",
+      "launchingSoon": "Yana Zuwa Nan Gaba",
+      "useQuoteForm": "Don kwato nan take, da fatan za a yi amfani da cikakken fom din kwato namu",
+      "getQuoteNow": "Sami Kwato Yanzu",
+      "projectTitle": "Lissafin Farashin Aiki",
+      "stepOf": "Mataki na {{current}} cikin {{total}}"
     },
     "process": {
-      "title": "Tsarin Farashinmu",
-      "description": "Daga buƙatar farko zuwa cikakken shawara, muna tabbatar da tsari mai santsi da gaskiya.",
+      "title": "Tsarin Kwaton mu",
+      "description": "Daga bukata ta farko zuwa shawara mai cikakke, muna tabbatar da tsari mai santsi da kuma bayyana gaskiya.",
       "submit": {
-        "title": "Ƙaddamar da Buƙata",
-        "description": "Cika cikakken fom ɗin neman farashin ko amfani da na'urar ƙirga farashin"
+        "title": "Aika Bukatar",
+        "description": "Cika cikakken fom din kwato namu ko kuma yi amfani da lissafin farashinmu"
       },
       "review": {
-        "title": "Nazarin Fasaha",
-        "description": "Ƙungiyar injiniyoyin mu tana nazarin bukatunku da ƙayyadaddun bayanai"
+        "title": "Bincike na Fasaha",
+        "description": "Gungun injiniyoyinmu suna nazarin bukatunku da kuma bayananku"
       },
       "assessment": {
-        "title": "Nazarin Wurin",
-        "description": "Ziyarar wurin aiki mai zaɓi don manyan ayyuka (idan akwai buƙata)"
+        "title": "Kimanta Wurin",
+        "description": "Ziyara ta wurin da ba dole ba don ayyuka masu wuyar gaske (idan ana bukata)"
       },
       "quote": {
-        "title": "Cikakken Farashin",
-        "description": "Karɓi cikakken farashin tare da jadawalin lokaci da abubuwan da za a kai"
+        "title": "Kwato Mai Cikakke",
+        "description": "Karbi farashin da ya kamata tare da jadawalin da kuma abubuwan da za a bayar"
       }
     },
     "cta": {
-      "title": "Shirye ku don Farawa?",
-      "description": "Tuntuɓe mu a yau don samun maganin injiniya na musamman. Ƙungiyarmu a shirye take don taimaka muku kawo aikinku zuwa rayuwa."
+      "title": "Kuna Shirye don Farawa?",
+      "description": "Tuntuɓe mu yau don hanyar injiniya ta musamman. Gungunmu yana shirye don taimakawa wajen kawo aikinku cikin rayuwa."
     },
-    "projectSizes": {
-      "small": "Karami (Maki 1-10 na I/O)",
-      "medium": "Matsakaici (Maki 11-100 na I/O)",
-      "large": "Babba (Maki 101-500 na I/O)",
-      "enterprise": "Kamfani (Maki 500+ na I/O)"
-    },
-    "timelines": {
-      "urgent": "Gaggawa (< Watanni 3)",
-      "standard": "Na yau da kullun (Watanni 3-6)",
-      "extended": "An tsawaita (Watanni 6-12)",
-      "longTerm": "Dogon lokaci (Watanni 12+)"
-    },
-    "requirements": {
-      "plcProgramming": "Shirye-shiryen PLC",
-      "scadaDevelopment": "Haɓakar SCADA",
-      "hmiDesign": "Ƙirar HMI",
-      "networkIntegration": "Haɗin Sadarwa",
-      "safetySystems": "Tsarin Aminci",
-      "remoteMonitoring": "Sa ido daga Nesa",
-      "dataAnalytics": "Binciken Bayanai",
-      "mobileApp": "Hanyar Aikace-aikacen Wayar"
-    },
-    "additionalFeatures": {
-      "redundancy": "Maimaita Tsarin",
-      "cybersecurity": "Tsaro na Yanar Gizo na Ci Gaba",
-      "iotIntegration": "Haɗin IoT",
-      "aiMl": "Binciken AI/ML",
-      "predictiveMaintenance": "Gyaran da ake Tsinkaya",
-      "energyManagement": "Gudanar da Kuzari",
-      "cloudIntegration": "Haɗin Gajimare",
-      "trainingSupport": "Horon da Tallafi da aka Kara"
+    "projectTypes": {
+      "processAutomation": "Sarrafa Aikin",
+      "powerControlSystems": "Tsarin Sarrafa Wutar Lantarki",
+      "instrumentationControl": "Kayan Aiki da Sarrafa",
+      "solarAutomation": "Sarrafa Hasken Rana",
+      "buildingAutomation": "Sarrafa Gine-gine",
+      "manufacturingAutomation": "Sarrafa Masanawa"
     },
     "industries": {
-      "manufacturing": "Masana'antu",
+      "manufacturing": "Masanawa",
       "powerGeneration": "Samar da Wutar Lantarki",
       "oilGas": "Mai da Gas",
       "chemicalProcessing": "Sarrafa Sinadarai",
-      "waterTreatment": "Maganin Ruwa",
-      "foodBeverage": "Abinci da Abubuwan sha",
-      "pharmaceutical": "Magunguna",
-      "renewableEnergy": "Makamashin da ake Sabuntawa"
+      "waterTreatment": "Magani Ruwa",
+      "foodBeverage": "Abinci da Abubuwan Sha",
+      "pharmaceutical": "Magungunan",
+      "renewableEnergy": "Makamashin da ake Sabunta"
     },
-    "projectTypes": {
-      "processAutomation": "Sarrafa Ayyuka",
-      "powerControlSystems": "Tsarin Sarrafa Wutar Lantarki",
-      "instrumentationControl": "Kayan aiki da Sarrafa",
-      "solarAutomation": "Sarrafa Hasken Rana",
-      "buildingAutomation": "Sarrafa Gine-gine",
-      "manufacturingAutomation": "Sarrafa Masana'antu"
+    "projectSizes": {
+      "small": "Kanana (1-10 I/O Points)",
+      "medium": "Matsakaici (11-100 I/O Points)",
+      "large": "Babba (101-500 I/O Points)",
+      "enterprise": "Kamfani (500+ I/O Points)"
+    },
+    "timelines": {
+      "urgent": "Gaggawa (< watanni 3)",
+      "standard": "Daidaitacce (watanni 3-6)",
+      "extended": "Tsawaita (watanni 6-12)",
+      "longTerm": "Dogon Lokaci (watanni 12+)"
+    },
+    "requirements": {
+      "plcProgramming": "Shirye-shiryen PLC",
+      "scadaDevelopment": "Bunkasa SCADA",
+      "hmiDesign": "Tsarin HMI",
+      "networkIntegration": "Hada Cibiyar Sadarwa",
+      "safetySystems": "Tsarin Tsaro",
+      "remoteMonitoring": "Sa ido daga Nesa",
+      "dataAnalytics": "Bincike Bayanai",
+      "mobileApp": "Hanyar Amfani da Wayar Hannu"
+    },
+    "additionalFeatures": {
+      "redundancy": "Maimaita Tsarin",
+      "cybersecurity": "Tsaron Yanar Gizo mai Zurfi",
+      "iotIntegration": "Hada IoT",
+      "aiMl": "Binciken AI/ML",
+      "predictiveMaintenance": "Kula da Tsinkaya",
+      "energyManagement": "Sarrafa Makamashi",
+      "cloudIntegration": "Hada Gajimare",
+      "trainingSupport": "Horo da Tallafi mai Zurfi"
     }
   },
   "news": {
@@ -805,280 +825,40 @@
       "verifiedResultsDesc": "Ayyuka na gaske tare da sakamako da za a iya aunawa da shaidar abokan ciniki"
     }
   },
-  "quote": {
+  "career": {
     "seo": {
-      "title": "Samun Farashi - Automation na Masana'antu da Sabis na Injiniya | Powerton Engineering",
-      "description": "Bukatar cikakkiyar farashi don automation na masana'antu, injiniyan lantarki, da sabis na instrumentation. Shawara kyauta da farashi mai gasa."
+      "title": "Careers at Powerton Engineering - Join Our Engineering Team",
+      "description": "Explore career opportunities at Powerton Engineering. Join our team of skilled engineers and contribute to innovative industrial automation and electrical engineering projects.",
+      "keywords": "powerton engineering careers, engineering jobs, electrical engineer jobs, automation engineer jobs, industrial engineering careers, engineering jobs noida"
     },
     "hero": {
-      "title": "Samun Farashi na Injiniya na Musamman",
-      "subtitle": "Karbi cikakkun farashi don ayyukan automation na masana'antu da injiniya tare da shawara masu gwaninta da farashi mai gasa.",
-      "benefits": {
-        "consultation": "Shawara Kyauta ta Masana",
-        "response": "Amsa Sauri 24-48 Sa'a",
-        "estimates": "Kimanin Farashi Daidai",
-        "noCosts": "Babu Farashi Boye"
-      }
-    },
-    "method": {
-      "title": "Zaɓi Hanyar Farashi",
-      "description": "Zaɓi hanyar da ta fi dacewa da bukatun aikin ku.",
-      "calculator": "Lissafin Farashi",
-      "request": "Fom Bukatun Farashi"
+      "imageAlt": "Professional engineering workspace with modern industrial facility equipment"
     },
     "benefits": {
-      "assessment": {
-        "title": "Cikakkiyar Kimanta",
-        "description": "Cikakkun kimantawa na aikin da ƙayyadaddun fasaha"
+      "careerGrowth": {
+        "title": "Career Growth",
+        "description": "Structured career progression with regular performance reviews and promotion opportunities."
       },
-      "response": {
-        "title": "Amsa Sauri",
-        "description": "Karɓi cikakkun farashi a cikin sa'o'i 24-48"
+      "learningDevelopment": {
+        "title": "Learning & Development",
+        "description": "Continuous training programs, certifications, and skill enhancement opportunities."
       },
-      "consultation": {
-        "title": "Shawara Masana",
-        "description": "Shawara kyauta na fasaha tare da ƙungiyar injiniya"
+      "workLifeBalance": {
+        "title": "Work-Life Balance",
+        "description": "Flexible working hours and comprehensive health benefits for employees and families."
       },
-      "solutions": {
-        "title": "Maganganun Musamman",
-        "description": "Maganganun injiniya da aka keɓance don bukatun ku na musamman"
+      "teamCulture": {
+        "title": "Team Culture",
+        "description": "Collaborative work environment with supportive team members and open communication."
+      },
+      "recognitionRewards": {
+        "title": "Recognition & Rewards",
+        "description": "Performance-based incentives, bonuses, and recognition programs for outstanding work."
+      },
+      "innovationFocus": {
+        "title": "Innovation Focus",
+        "description": "Work on cutting-edge technologies and innovative solutions in industrial automation."
       }
-    },
-    "process": {
-      "title": "Tsarin Farashi Namu",
-      "description": "Daga bukata ta farko zuwa cikakkiyar shawara, muna tabbatar da tsari mai sauƙi da bayyane.",
-      "submit": {
-        "title": "Tura Bukatan",
-        "description": "Cika cikakkiyar fom ɗin farashi ko amfani da lissafin farashi"
-      },
-      "review": {
-        "title": "Nazarin Fasaha",
-        "description": "Ƙungiyar injiniya tamu na binciken bukatunku da ƙayyadaddun fasaha"
-      },
-      "assessment": {
-        "title": "Kimantawar Wurin",
-        "description": "Ziyarar wurin da ba ta wajibi ba don manyan ayyuka (idan akwai bukatar)"
-      },
-      "quote": {
-        "title": "Cikakkiyar Farashi",
-        "description": "Karɓi cikakkun farashi tare da lokaci da abubuwan da za a kai"
-      }
-    },
-    "calculator": {
-      "title": "Babban Lissafin Farashi",
-      "description": "Muna sa farfashiyar ƙarshe akan kayan aikin kimanta farashi mai hankali. Wannan fasaha za ta ba da farashi nan take da daidai don ayyukan automation.",
-      "launchingSoon": "Ana Fara Nan Gaba",
-      "useQuoteForm": "Don farashi nan take, da fatan za a yi amfani da cikakkiyar fom ɗin farashi",
-      "getQuoteNow": "Samu Farashi Yanzu",
-      "projectTitle": "Lissafin Farashi na Aikin",
-      "stepOf": "Mataki {{current}} na {{total}}"
-    },
-    "cta": {
-      "title": "Shirye ku don Farawa?",
-      "description": "Tuntuɓe mu yau don maganin injiniya na musamman. Ƙungiyar mu a shirye take ta taimake ku kawo aikin ku zuwa rayuwa."
-    },
-    "projectSizes": {
-      "small": "Ƙarami (1-10 Ma'auni I/O)",
-      "medium": "Matsakaici (11-100 Ma'auni I/O)",
-      "large": "Babba (101-500 Ma'auni I/O)",
-      "enterprise": "Kasuwanci (500+ Ma'auni I/O)"
-    },
-    "timelines": {
-      "urgent": "Gaggawa (< 3 watanni)",
-      "standard": "Daidaitacce (3-6 watanni)",
-      "extended": "Tsawaita (6-12 watanni)",
-      "longTerm": "Dogon lokaci (12+ watanni)"
-    },
-    "requirements": {
-      "plcProgramming": "Shirye-shiryen PLC",
-      "scadaDevelopment": "Ci Gaban SCADA",
-      "hmiDesign": "Zane na HMI",
-      "networkIntegration": "Haɗin Cibiyar Sadarwa",
-      "safetySystems": "Tsarin Aminci",
-      "remoteMonitoring": "Sa ido Daga Nesa",
-      "dataAnalytics": "Nazarin Bayanai",
-      "mobileApp": "Tsarin Wayar Hannu"
-    },
-    "additionalFeatures": {
-      "redundancy": "Maimakon Tsarin",
-      "cybersecurity": "Babban Tsaron Cyber",
-      "iotIntegration": "Haɗin IoT",
-      "aiMl": "Nazarin AI/ML",
-      "predictiveMaintenance": "Kulawa Mai Tsinkaya",
-      "energyManagement": "Gudanar da Makamashi",
-      "cloudIntegration": "Haɗin Cloud",
-      "trainingSupport": "Tsawaita Horarwa da Tallafi"
-    },
-    "industries": {
-      "manufacturing": "Masanawa",
-      "powerGeneration": "Samar da Wutar Lantarki",
-      "oilGas": "Man Fetur da Gas",
-      "chemicalProcessing": "Aikin Sinadarai",
-      "waterTreatment": "Kula da Ruwa",
-      "foodBeverage": "Abinci da Shayi",
-      "pharmaceutical": "Magunguna",
-      "renewableEnergy": "Makamashi Mai Sabuntawa"
-    },
-    "projectTypes": {
-      "processAutomation": "Automation na Tsari",
-      "powerControlSystems": "Tsarin Sarrafa Wutar Lantarki",
-      "instrumentationControl": "Instrumentation da Sarrafa",
-      "solarAutomation": "Automation na Hasken Rana",
-      "buildingAutomation": "Automation na Gine-gine",
-      "manufacturingAutomation": "Automation na Masanawa"
-    }
-  },
-  "quote": {
-    "hero": {
-      "title": "Samu Kwato na Lissafin Farashi na Masana",
-      "subtitle": "Nemi bayani mai cikakke na farashin ayyukan ku na sarrafa kayan aiki. Yi amfani da lissafin farashinmu don samun lissafi nan take ko kuma aika da cikakken bukata na kwato don samun hanyoyin da suka dace da ku.",
-      "benefits": {
-        "consultation": "Shawara ta Kyauta daga Masana",
-        "response": "Amsawa cikin Awa 24-48",
-        "estimates": "Lissafin Farashi Mai Kyau",
-        "noCosts": "Babu Farashin da aka Boye"
-      }
-    },
-    "benefits": {
-      "assessment": {
-        "title": "Kimanta Mai Zurfi",
-        "description": "Kimanta aikin gaba daya da kuma bayani na fasaha"
-      },
-      "response": {
-        "title": "Amsa Mai Sauri",
-        "description": "Karbi kwaton ku mai cikakke cikin awa 24-48"
-      },
-      "consultation": {
-        "title": "Shawarar Masana",
-        "description": "Shawarar fasaha ta kyauta tare da gungun injiniyoyinmu"
-      },
-      "solutions": {
-        "title": "Hanyoyin Da Suka Dace",
-        "description": "Hanyoyin injiniya da aka tsara musamman don bukatunku"
-      }
-    },
-    "method": {
-      "title": "Zaɓi Hanyar Kwaton ku",
-      "description": "Zaɓi hanyar da ta fi dacewa da bukatun aikinku da kuma jadawalin.",
-      "calculator": "Lissafin Farashi",
-      "request": "Bukatar Kwato"
-    },
-    "calculator": {
-      "title": "Lissafin Farashi na Zamani",
-      "description": "Muna kammala kayan aikin mu na lissafin farashi mai hankali. Wannan fasali zai samar da farashin nan take da kuma daidai don ayyukan sarrafawa ku.",
-      "launchingSoon": "Yana Zuwa Nan Gaba",
-      "useQuoteForm": "Don kwato nan take, da fatan za a yi amfani da cikakken fom din kwato namu",
-      "getQuoteNow": "Sami Kwato Yanzu",
-      "projectTitle": "Lissafin Farashin Aiki",
-      "stepOf": "Mataki na {{current}} cikin {{total}}"
-    },
-    "process": {
-      "title": "Tsarin Kwaton mu",
-      "description": "Daga bukata ta farko zuwa shawara mai cikakke, muna tabbatar da tsari mai santsi da kuma bayyana gaskiya.",
-      "submit": {
-        "title": "Aika Bukatar",
-        "description": "Cika cikakken fom din kwato namu ko kuma yi amfani da lissafin farashinmu"
-      },
-      "review": {
-        "title": "Bincike na Fasaha",
-        "description": "Gungun injiniyoyinmu suna nazarin bukatunku da kuma bayananku"
-      },
-      "assessment": {
-        "title": "Kimanta Wurin",
-        "description": "Ziyara ta wurin da ba dole ba don ayyuka masu wuyar gaske (idan ana bukata)"
-      },
-      "quote": {
-        "title": "Kwato Mai Cikakke",
-        "description": "Karbi farashin da ya kamata tare da jadawalin da kuma abubuwan da za a bayar"
-      }
-    },
-    "cta": {
-      "title": "Kuna Shirye don Farawa?",
-      "description": "Tuntuɓe mu yau don hanyar injiniya ta musamman. Gungunmu yana shirye don taimakawa wajen kawo aikinku cikin rayuwa."
-    },
-    "projectTypes": {
-      "processAutomation": "Sarrafa Aikin",
-      "powerControlSystems": "Tsarin Sarrafa Wutar Lantarki",
-      "instrumentationControl": "Kayan Aiki da Sarrafa",
-      "solarAutomation": "Sarrafa Hasken Rana",
-      "buildingAutomation": "Sarrafa Gine-gine",
-      "manufacturingAutomation": "Sarrafa Masanawa"
-    },
-    "industries": {
-      "manufacturing": "Masanawa",
-      "powerGeneration": "Samar da Wutar Lantarki",
-      "oilGas": "Mai da Gas",
-      "chemicalProcessing": "Sarrafa Sinadarai",
-      "waterTreatment": "Magani Ruwa",
-      "foodBeverage": "Abinci da Abubuwan Sha",
-      "pharmaceutical": "Magungunan",
-      "renewableEnergy": "Makamashin da ake Sabunta"
-    },
-    "projectSizes": {
-      "small": "Kanana (1-10 I/O Points)",
-      "medium": "Matsakaici (11-100 I/O Points)",
-      "large": "Babba (101-500 I/O Points)",
-      "enterprise": "Kamfani (500+ I/O Points)"
-    },
-    "timelines": {
-      "urgent": "Gaggawa (< watanni 3)",
-      "standard": "Daidaitacce (watanni 3-6)",
-      "extended": "Tsawaita (watanni 6-12)",
-      "longTerm": "Dogon Lokaci (watanni 12+)"
-    },
-    "requirements": {
-      "plcProgramming": "Shirye-shiryen PLC",
-      "scadaDevelopment": "Bunkasa SCADA",
-      "hmiDesign": "Tsarin HMI",
-      "networkIntegration": "Hada Cibiyar Sadarwa",
-      "safetySystems": "Tsarin Tsaro",
-      "remoteMonitoring": "Sa ido daga Nesa",
-      "dataAnalytics": "Bincike Bayanai",
-      "mobileApp": "Hanyar Amfani da Wayar Hannu"
-    },
-    "additionalFeatures": {
-      "redundancy": "Maimaita Tsarin",
-      "cybersecurity": "Tsaron Yanar Gizo mai Zurfi",
-      "iotIntegration": "Hada IoT",
-      "aiMl": "Binciken AI/ML",
-      "predictiveMaintenance": "Kula da Tsinkaya",
-      "energyManagement": "Sarrafa Makamashi",
-      "cloudIntegration": "Hada Gajimare",
-      "trainingSupport": "Horo da Tallafi mai Zurfi"
-    },
-    "hero": {
-      "title": "Sami Farashin Injiniya mai Kyau",
-      "subtitle": "Ku haɗu da ƙungiyar mu ta ƙwararru don neman maganganun sarrafa da kayan aikin da aka keɓanta don bukatun masana'antunku.",
-      "benefits": {
-        "consultation": "Shawarwari Fasaha kyauta",
-        "response": "Lokacin Amsa Sa'o'i 24-48",
-        "estimates": "Ƙididdigar Farashi mai Cikakki",
-        "noCosts": "Babu Farashin da aka ɓoye"
-      }
-    },
-    "benefits": {
-      "assessment": {
-        "title": "Tantance mai Zurfi",
-        "description": "Cikakkun tantance aikin da ƙayyadaddun fasaha"
-      },
-      "response": {
-        "title": "Amsa mai Sauri",
-        "description": "Karɓi farashinku mai cikakki cikin sa'o'i 24-48"
-      },
-      "consultation": {
-        "title": "Shawarwar Ƙwararru",
-        "description": "Shawarwar fasaha kyauta tare da ƙungiyar injiniyanmu"
-      },
-      "solutions": {
-        "title": "Maganganun Keɓantawa",
-        "description": "Maganganun injiniya da aka keɓanta don takamaiman bukatunku"
-      }
-    },
-    "method": {
-      "title": "Zaɓi Hanyar Farashinku",
-      "description": "Zaɓi hanya mafi sauƙi don samun farashin aikinku. Zaɓuɓɓuka biyu suna ba da farashin gaba ɗaya da ƙayyadaddun fasaha.",
-      "calculator": "Na'urar Kirga mai Hankali",
-      "request": "Buƙatar Farashi"
     }
   }
 }

@@ -19,7 +19,8 @@
         "yearsExperience": "Years Experience",
         "projectsCompleted": "Projects Completed",
         "happyClients": "Happy Clients",
-        "supportAvailable": "Support Available"
+        "supportAvailable": "Support Available",
+        "heading": "Company Statistics and Achievements"
       }
     },
     "services": {
@@ -513,6 +514,11 @@
       "title": "Emergency Support",
       "description": "Critical system failure? Our emergency response team is available 24/7 to help minimize downtime.",
       "hotline": "Emergency Hotline"
+    },
+    "seo": {
+      "title": "Contact Powerton Engineering - Get Expert Engineering Support",
+      "description": "Contact our engineering experts for industrial automation, electrical systems, and technical support. Call +91-94627-71662 or email info@powertonengineering.com",
+      "keywords": "contact powerton engineering, engineering support, industrial automation contact, electrical engineering help, noida engineering company contact"
     }
   },
   "news": {
@@ -655,83 +661,14 @@
     }
   },
   "quote": {
-    "projectSizes": {
-      "small": "Ndogo (Vidakuzi 1-10 vya I/O)",
-      "medium": "Kati (Vidakuzi 11-100 vya I/O)",
-      "large": "Kubwa (Vidakuzi 101-500 vya I/O)",
-      "enterprise": "Kibilafu (Vidakuzi 500+ vya I/O)"
-    },
-    "timelines": {
-      "urgent": "Dharura (< Miezi 3)",
-      "standard": "Kawaida (Miezi 3-6)",
-      "extended": "Imeongezwa (Miezi 6-12)",
-      "longTerm": "Muda mrefu (Miezi 12+)"
-    },
-    "requirements": {
-      "plcProgramming": "Uprogramu wa PLC",
-      "scadaDevelopment": "Maendeleo ya SCADA",
-      "hmiDesign": "Muundo wa HMI",
-      "networkIntegration": "Muunganiko wa Mtandao",
-      "safetySystems": "Mifumo ya Usalama",
-      "remoteMonitoring": "Ufuatiliaji wa Mbali",
-      "dataAnalytics": "Uchambuzi wa Data",
-      "mobileApp": "Kiolesura cha Programu ya Simu"
-    },
-    "additionalFeatures": {
-      "redundancy": "Urekebishaji wa Mfumo",
-      "cybersecurity": "Usalama wa Mtandao wa Hali ya Juu",
-      "iotIntegration": "Muunganiko wa IoT",
-      "aiMl": "Uchambuzi wa AI/ML",
-      "predictiveMaintenance": "Matengenezo ya Utabiri",
-      "energyManagement": "Usimamizi wa Nishati",
-      "cloudIntegration": "Muunganiko wa Wingu",
-      "trainingSupport": "Mafunzo na Msaada Ulioongezwa"
-    },
-    "industries": {
-      "manufacturing": "Utengenezaji",
-      "powerGeneration": "Uzalishaji wa Umeme",
-      "oilGas": "Mafuta na Gesi",
-      "chemicalProcessing": "Uchakataji wa Kemikali",
-      "waterTreatment": "Matibabu ya Maji",
-      "foodBeverage": "Chakula na Vinywaji",
-      "pharmaceutical": "Dawa",
-      "renewableEnergy": "Nishati Mbadala"
-    },
-    "projectTypes": {
-      "processAutomation": "Otomatiki ya Michakato",
-      "powerControlSystems": "Mifumo ya Udhibiti wa Umeme",
-      "instrumentationControl": "Vyombo na Udhibiti",
-      "solarAutomation": "Otomatiki ya Jua",
-      "buildingAutomation": "Otomatiki ya Majengo",
-      "manufacturingAutomation": "Otomatiki ya Utengenezaji"
-    }
-  },
-  "sitemap": {
-    "quickActions": {
-      "title": "Need Help Finding Something?",
-      "description": "Can't find what you're looking for? Contact us directly or use our intelligent chatbot available on every page.",
-      "contactUs": "Wasiliana Nasi",
-      "requestQuote": "Request Quote"
-    }
-  },
-  "portfolio": {
-    "features": {
-      "completedProjects": "Successfully completed projects across various industries",
-      "highQuality": "High-Quality Documentation",
-      "highQualityDesc": "Professional portfolio with detailed project imagery",
-      "verifiedResults": "Verified Results",
-      "verifiedResultsDesc": "Real projects with measurable outcomes and client testimonials"
-    }
-  },
-  "quote": {
     "hero": {
-      "title": "Pata Bei ya Kitaalamu na Kokotoa ya Gharama",
-      "subtitle": "Omba bei za kina kwa miradi yako ya otomatiki. Tumia kokotoa yetu ya gharama kwa makadirio ya papo hapo au wasilisha ombi kamili la bei kwa suluhisho maalum.",
+      "title": "Pata Bei za Uhandisi wa Kitaalamu",
+      "subtitle": "Unganisha na timu yetu ya wataalamu kwa suluhisho za kipekee za otomatiki na vyombo vilivyotengenezwa kwa mahitaji yako ya viwandani.",
       "benefits": {
-        "consultation": "Ushauri wa Bure wa Wataalamu",
-        "response": "Majibu ndani ya Masaa 24-48",
-        "estimates": "Makadirio Sahihi ya Gharama",
-        "noCosts": "Hakuna Gharama Zilizoficha"
+        "consultation": "Ushauri wa Kiufundi wa Bure",
+        "response": "Muda wa Majibu ya Masaa 24-48",
+        "estimates": "Makadirio ya Gharama ya Kina",
+        "noCosts": "Hakuna Gharama za Siri"
       }
     },
     "benefits": {
@@ -745,17 +682,17 @@
       },
       "consultation": {
         "title": "Ushauri wa Wataalamu",
-        "description": "Ushauri wa bure wa kiufundi na timu yetu ya uhandisi"
+        "description": "Ushauri wa kiufundi wa bure na timu yetu ya uhandisi"
       },
       "solutions": {
-        "title": "Suluhisho Maalum",
-        "description": "Suluhisho za uhandisi zilizoratibiwa kwa mahitaji yako mahususi"
+        "title": "Suluhisho za Kipekee",
+        "description": "Suluhisho za uhandisi zilizotengenezwa kwa mahitaji yako maalum"
       }
     },
     "method": {
-      "title": "Chagua Njia Yako ya Bei",
-      "description": "Chagua njia inayofaa zaidi mahitaji ya mradi wako na ratiba.",
-      "calculator": "Kokotoa ya Gharama",
+      "title": "Chagua Njia yako ya Bei",
+      "description": "Chagua njia rahisi zaidi ya kupata bei ya mradi wako. Chaguzi zote mbili zinatoa bei kamili na vipimo vya kiufundi.",
+      "calculator": "Kikokotozi cha Akili",
       "request": "Ombi la Bei"
     },
     "calculator": {
@@ -840,40 +777,59 @@
       "energyManagement": "Usimamizi wa Nishati",
       "cloudIntegration": "Muunganiko wa Wingu",
       "trainingSupport": "Mafunzo na Msaada Ulioongezwa"
+    }
+  },
+  "sitemap": {
+    "quickActions": {
+      "title": "Need Help Finding Something?",
+      "description": "Can't find what you're looking for? Contact us directly or use our intelligent chatbot available on every page.",
+      "contactUs": "Wasiliana Nasi",
+      "requestQuote": "Request Quote"
+    }
+  },
+  "portfolio": {
+    "features": {
+      "completedProjects": "Successfully completed projects across various industries",
+      "highQuality": "High-Quality Documentation",
+      "highQualityDesc": "Professional portfolio with detailed project imagery",
+      "verifiedResults": "Verified Results",
+      "verifiedResultsDesc": "Real projects with measurable outcomes and client testimonials"
+    }
+  },
+  "career": {
+    "seo": {
+      "title": "Careers at Powerton Engineering - Join Our Engineering Team",
+      "description": "Explore career opportunities at Powerton Engineering. Join our team of skilled engineers and contribute to innovative industrial automation and electrical engineering projects.",
+      "keywords": "powerton engineering careers, engineering jobs, electrical engineer jobs, automation engineer jobs, industrial engineering careers, engineering jobs noida"
     },
     "hero": {
-      "title": "Pata Bei za Uhandisi wa Kitaalamu",
-      "subtitle": "Unganisha na timu yetu ya wataalamu kwa suluhisho za kipekee za otomatiki na vyombo vilivyotengenezwa kwa mahitaji yako ya viwandani.",
-      "benefits": {
-        "consultation": "Ushauri wa Kiufundi wa Bure",
-        "response": "Muda wa Majibu ya Masaa 24-48",
-        "estimates": "Makadirio ya Gharama ya Kina",
-        "noCosts": "Hakuna Gharama za Siri"
-      }
+      "imageAlt": "Professional engineering workspace with modern industrial facility equipment"
     },
     "benefits": {
-      "assessment": {
-        "title": "Tathmini ya Kina",
-        "description": "Tathmini kamili ya mradi na vipimo vya kiufundi"
+      "careerGrowth": {
+        "title": "Career Growth",
+        "description": "Structured career progression with regular performance reviews and promotion opportunities."
       },
-      "response": {
-        "title": "Majibu ya Haraka",
-        "description": "Pokea bei yako ya kina ndani ya masaa 24-48"
+      "learningDevelopment": {
+        "title": "Learning & Development",
+        "description": "Continuous training programs, certifications, and skill enhancement opportunities."
       },
-      "consultation": {
-        "title": "Ushauri wa Wataalamu",
-        "description": "Ushauri wa kiufundi wa bure na timu yetu ya uhandisi"
+      "workLifeBalance": {
+        "title": "Work-Life Balance",
+        "description": "Flexible working hours and comprehensive health benefits for employees and families."
       },
-      "solutions": {
-        "title": "Suluhisho za Kipekee",
-        "description": "Suluhisho za uhandisi zilizotengenezwa kwa mahitaji yako maalum"
+      "teamCulture": {
+        "title": "Team Culture",
+        "description": "Collaborative work environment with supportive team members and open communication."
+      },
+      "recognitionRewards": {
+        "title": "Recognition & Rewards",
+        "description": "Performance-based incentives, bonuses, and recognition programs for outstanding work."
+      },
+      "innovationFocus": {
+        "title": "Innovation Focus",
+        "description": "Work on cutting-edge technologies and innovative solutions in industrial automation."
       }
-    },
-    "method": {
-      "title": "Chagua Njia yako ya Bei",
-      "description": "Chagua njia rahisi zaidi ya kupata bei ya mradi wako. Chaguzi zote mbili zinatoa bei kamili na vipimo vya kiufundi.",
-      "calculator": "Kikokotozi cha Akili",
-      "request": "Ombi la Bei"
     }
   }
 }

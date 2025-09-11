@@ -24,7 +24,8 @@
         "yearsExperience": "Лет опыта",
         "projectsCompleted": "Завершенных проектов",
         "happyClients": "Довольных клиентов",
-        "supportAvailable": "Поддержка доступна"
+        "supportAvailable": "Поддержка доступна",
+        "heading": "Company Statistics and Achievements"
       }
     },
     "about": {
@@ -454,55 +455,72 @@
     }
   },
   "quote": {
-    "projectSizes": {
-      "small": "Small (1-10 I/O Points)",
-      "medium": "Medium (11-100 I/O Points)",
-      "large": "Large (101-500 I/O Points)",
-      "enterprise": "Enterprise (500+ I/O Points)"
+    "hero": {
+      "title": "Получить профессиональное предложение и калькулятор стоимости",
+      "subtitle": "Запросите подробные цены на ваши проекты автоматизации. Используйте наш калькулятор стоимости для мгновенных оценок или отправьте комплексный запрос предложения для индивидуальных решений.",
+      "benefits": {
+        "consultation": "Бесплатная экспертная консультация",
+        "response": "Ответ в течение 24-48 часов",
+        "estimates": "Точная оценка стоимости",
+        "noCosts": "Без скрытых расходов"
+      }
     },
-    "timelines": {
-      "urgent": "Urgent (< 3 months)",
-      "standard": "Standard (3-6 months)",
-      "extended": "Extended (6-12 months)",
-      "longTerm": "Long-term (12+ months)"
+    "benefits": {
+      "assessment": {
+        "title": "Детальная оценка",
+        "description": "Комплексная оценка проекта и технические спецификации"
+      },
+      "response": {
+        "title": "Быстрый ответ",
+        "description": "Получите ваше подробное предложение в течение 24-48 часов"
+      },
+      "consultation": {
+        "title": "Экспертная консультация",
+        "description": "Бесплатная техническая консультация с нашей инженерной командой"
+      },
+      "solutions": {
+        "title": "Индивидуальные решения",
+        "description": "Инженерные решения, адаптированные к вашим конкретным требованиям"
+      }
     },
-    "requirements": {
-      "plcProgramming": "PLC Programming",
-      "scadaDevelopment": "SCADA Development",
-      "hmiDesign": "HMI Design",
-      "networkIntegration": "Network Integration",
-      "safetySystems": "Safety Systems",
-      "remoteMonitoring": "Remote Monitoring",
-      "dataAnalytics": "Data Analytics",
-      "mobileApp": "Mobile App Interface"
+    "method": {
+      "title": "Выберите метод получения предложения",
+      "description": "Выберите метод, который лучше всего подходит для потребностей и сроков вашего проекта.",
+      "calculator": "Калькулятор стоимости",
+      "request": "Запрос предложения"
     },
-    "additionalFeatures": {
-      "redundancy": "System Redundancy",
-      "cybersecurity": "Advanced Cybersecurity",
-      "iotIntegration": "IoT Integration",
-      "aiMl": "AI/ML Analytics",
-      "predictiveMaintenance": "Predictive Maintenance",
-      "energyManagement": "Energy Management",
-      "cloudIntegration": "Cloud Integration",
-      "trainingSupport": "Extended Training & Support"
+    "calculator": {
+      "title": "Продвинутый калькулятор стоимости",
+      "description": "Мы дорабатываем наш интеллектуальный инструмент оценки стоимости. Эта функция обеспечит мгновенные, точные цены для ваших проектов автоматизации.",
+      "launchingSoon": "Скоро запуск",
+      "useQuoteForm": "Для немедленных предложений, пожалуйста, используйте нашу подробную форму запроса",
+      "getQuoteNow": "Получить предложение сейчас",
+      "projectTitle": "Калькулятор стоимости проекта",
+      "stepOf": "Шаг {{current}} из {{total}}"
     },
-    "industries": {
-      "manufacturing": "Manufacturing",
-      "powerGeneration": "Power Generation",
-      "oilGas": "Oil & Gas",
-      "chemicalProcessing": "Chemical Processing",
-      "waterTreatment": "Water Treatment",
-      "foodBeverage": "Food & Beverage",
-      "pharmaceutical": "Pharmaceutical",
-      "renewableEnergy": "Renewable Energy"
+    "process": {
+      "title": "Наш процесс создания предложений",
+      "description": "От первоначального запроса до подробного предложения мы обеспечиваем гладкий и прозрачный процесс.",
+      "submit": {
+        "title": "Отправить запрос",
+        "description": "Заполните нашу комплексную форму запроса или используйте калькулятор стоимости"
+      },
+      "review": {
+        "title": "Техническая проверка",
+        "description": "Наша инженерная команда анализирует ваши требования и спецификации"
+      },
+      "assessment": {
+        "title": "Оценка объекта",
+        "description": "Дополнительный выезд на объект для сложных проектов (при необходимости)"
+      },
+      "quote": {
+        "title": "Подробное предложение",
+        "description": "Получите комплексные цены с временными рамками и результатами"
+      }
     },
-    "projectTypes": {
-      "processAutomation": "Process Automation",
-      "powerControlSystems": "Power Control Systems",
-      "instrumentationControl": "Instrumentation & Control",
-      "solarAutomation": "Solar Automation",
-      "buildingAutomation": "Building Automation",
-      "manufacturingAutomation": "Manufacturing Automation"
+    "cta": {
+      "title": "Готовы начать?",
+      "description": "Свяжитесь с нами сегодня для вашего индивидуального инженерного решения. Наша команда готова помочь воплотить ваш проект в жизнь."
     }
   },
   "gallery": {
@@ -754,6 +772,11 @@
       "title": "Emergency Support",
       "description": "Critical system failure? Our emergency response team is available 24/7 to help minimize downtime.",
       "hotline": "Emergency Hotline"
+    },
+    "seo": {
+      "title": "Contact Powerton Engineering - Get Expert Engineering Support",
+      "description": "Contact our engineering experts for industrial automation, electrical systems, and technical support. Call +91-94627-71662 or email info@powertonengineering.com",
+      "keywords": "contact powerton engineering, engineering support, industrial automation contact, electrical engineering help, noida engineering company contact"
     }
   },
   "ui": {
@@ -777,73 +800,40 @@
       "verifiedResultsDesc": "Real projects with measurable outcomes and client testimonials"
     }
   },
-  "quote": {
+  "career": {
+    "seo": {
+      "title": "Careers at Powerton Engineering - Join Our Engineering Team",
+      "description": "Explore career opportunities at Powerton Engineering. Join our team of skilled engineers and contribute to innovative industrial automation and electrical engineering projects.",
+      "keywords": "powerton engineering careers, engineering jobs, electrical engineer jobs, automation engineer jobs, industrial engineering careers, engineering jobs noida"
+    },
     "hero": {
-      "title": "Получить профессиональное предложение и калькулятор стоимости",
-      "subtitle": "Запросите подробные цены на ваши проекты автоматизации. Используйте наш калькулятор стоимости для мгновенных оценок или отправьте комплексный запрос предложения для индивидуальных решений.",
-      "benefits": {
-        "consultation": "Бесплатная экспертная консультация",
-        "response": "Ответ в течение 24-48 часов",
-        "estimates": "Точная оценка стоимости",
-        "noCosts": "Без скрытых расходов"
-      }
+      "imageAlt": "Professional engineering workspace with modern industrial facility equipment"
     },
     "benefits": {
-      "assessment": {
-        "title": "Детальная оценка",
-        "description": "Комплексная оценка проекта и технические спецификации"
+      "careerGrowth": {
+        "title": "Career Growth",
+        "description": "Structured career progression with regular performance reviews and promotion opportunities."
       },
-      "response": {
-        "title": "Быстрый ответ", 
-        "description": "Получите ваше подробное предложение в течение 24-48 часов"
+      "learningDevelopment": {
+        "title": "Learning & Development",
+        "description": "Continuous training programs, certifications, and skill enhancement opportunities."
       },
-      "consultation": {
-        "title": "Экспертная консультация",
-        "description": "Бесплатная техническая консультация с нашей инженерной командой"
+      "workLifeBalance": {
+        "title": "Work-Life Balance",
+        "description": "Flexible working hours and comprehensive health benefits for employees and families."
       },
-      "solutions": {
-        "title": "Индивидуальные решения",
-        "description": "Инженерные решения, адаптированные к вашим конкретным требованиям"
+      "teamCulture": {
+        "title": "Team Culture",
+        "description": "Collaborative work environment with supportive team members and open communication."
+      },
+      "recognitionRewards": {
+        "title": "Recognition & Rewards",
+        "description": "Performance-based incentives, bonuses, and recognition programs for outstanding work."
+      },
+      "innovationFocus": {
+        "title": "Innovation Focus",
+        "description": "Work on cutting-edge technologies and innovative solutions in industrial automation."
       }
-    },
-    "method": {
-      "title": "Выберите метод получения предложения",
-      "description": "Выберите метод, который лучше всего подходит для потребностей и сроков вашего проекта.",
-      "calculator": "Калькулятор стоимости",
-      "request": "Запрос предложения"
-    },
-    "calculator": {
-      "title": "Продвинутый калькулятор стоимости",
-      "description": "Мы дорабатываем наш интеллектуальный инструмент оценки стоимости. Эта функция обеспечит мгновенные, точные цены для ваших проектов автоматизации.",
-      "launchingSoon": "Скоро запуск",
-      "useQuoteForm": "Для немедленных предложений, пожалуйста, используйте нашу подробную форму запроса",
-      "getQuoteNow": "Получить предложение сейчас",
-      "projectTitle": "Калькулятор стоимости проекта",
-      "stepOf": "Шаг {{current}} из {{total}}"
-    },
-    "process": {
-      "title": "Наш процесс создания предложений",
-      "description": "От первоначального запроса до подробного предложения мы обеспечиваем гладкий и прозрачный процесс.",
-      "submit": {
-        "title": "Отправить запрос",
-        "description": "Заполните нашу комплексную форму запроса или используйте калькулятор стоимости"
-      },
-      "review": {
-        "title": "Техническая проверка",
-        "description": "Наша инженерная команда анализирует ваши требования и спецификации"
-      },
-      "assessment": {
-        "title": "Оценка объекта",
-        "description": "Дополнительный выезд на объект для сложных проектов (при необходимости)"
-      },
-      "quote": {
-        "title": "Подробное предложение",
-        "description": "Получите комплексные цены с временными рамками и результатами"
-      }
-    },
-    "cta": {
-      "title": "Готовы начать?",
-      "description": "Свяжитесь с нами сегодня для вашего индивидуального инженерного решения. Наша команда готова помочь воплотить ваш проект в жизнь."
     }
   }
 }

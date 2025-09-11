@@ -355,8 +355,8 @@ export const getProducts = (t: any) => [
   },
   {
     id: "industrial-tools-tackles",
-    title: t('products:categories.industrial-tools-tackles.title') || "Industrial Tools and Tackles",
-    description: t('products:categories.industrial-tools-tackles.description') || "Professional industrial tools and equipment for construction, maintenance, and assembly operations.",
+    title: t('products:categories.industrial-tools-tackles.title'),
+    description: t('products:categories.industrial-tools-tackles.description'),
     icon: "Wrench",
     image: getProductImage("industrial-tools-tackles")?.src || "",
     features: [

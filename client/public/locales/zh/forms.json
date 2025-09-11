@@ -2,260 +2,222 @@
   "contact": {
     "fields": {
       "name": {
-        "label": "全名",
-        "placeholder": "请输入您的全名",
-        "error": "姓名为必填项"
+        "label": "Full Name",
+        "placeholder": "Enter your full name",
+        "error": "Name is required"
       },
       "email": {
-        "label": "电子邮件地址",
-        "placeholder": "请输入您的电子邮件地址",
-        "error": "请输入有效的电子邮件地址"
+        "label": "Email Address",
+        "placeholder": "Enter your email address",
+        "error": "Please enter a valid email address"
       },
       "phone": {
-        "label": "电话号码",
-        "placeholder": "请输入您的电话号码",
-        "error": "电话号码为必填项"
+        "label": "Phone Number",
+        "placeholder": "Enter your phone number",
+        "error": "Phone number is required"
       },
       "company": {
-        "label": "公司名称",
-        "placeholder": "请输入您的公司名称"
+        "label": "Company Name",
+        "placeholder": "Enter your company name"
       },
       "serviceType": {
-        "label": "服务类型",
-        "placeholder": "选择服务类型"
+        "label": "Service Type",
+        "placeholder": "Select service type"
       },
       "subject": {
-        "label": "主题",
-        "placeholder": "请输入主题",
-        "error": "主题为必填项"
+        "label": "Subject",
+        "placeholder": "Enter subject",
+        "error": "Subject is required"
       },
       "message": {
-        "label": "消息",
-        "placeholder": "请输入您的消息",
-        "error": "消息为必填项"
+        "label": "Message",
+        "placeholder": "Enter your message",
+        "error": "Message is required"
       }
     },
     "buttons": {
-      "submit": "发送消息",
-      "sending": "发送中...",
-      "callNow": "立即致电",
-      "emailUs": "发送邮件"
+      "submit": "Send Message",
+      "sending": "Sending...",
+      "callNow": "Call Now",
+      "emailUs": "Email Us"
     },
     "messages": {
-      "success": "谢谢！您的消息已成功发送。",
-      "successDesc": "我们将在24小时内回复您。",
-      "error": "发送消息失败",
-      "errorDesc": "请重试或直接联系我们 {{phone}} 或 {{email}}"
+      "success": "Thank you! Your message has been sent successfully.",
+      "successDesc": "We'll get back to you within 24 hours.",
+      "error": "Failed to send message",
+      "errorDesc": "Please try again or contact us directly at {{phone}} or {{email}}"
     }
   },
   "quote": {
+    "fields": {
+      "name": {
+        "label": "Full Name *"
+      },
+      "email": {
+        "label": "Email Address *"
+      }
+    },
+    "validation": {
+      "nameMin": "Name must be at least 2 characters",
+      "emailInvalid": "Please enter a valid email address",
+      "phoneMin": "Please enter a valid phone number",
+      "companyRequired": "Company name is required",
+      "projectTitleRequired": "Project title is required",
+      "projectTypeRequired": "Please select a project type",
+      "timelineRequired": "Please select expected timeline",
+      "servicesRequired": "Please select at least one service",
+      "specificationsMin": "Please provide detailed specifications (minimum 20 characters)",
+      "nameRequired": "Name is required",
+      "phoneRequired": "Phone number is required",
+      "subjectRequired": "Subject is required",
+      "messageRequired": "Message is required",
+      "firstNameRequired": "First name is required",
+      "lastNameRequired": "Last name is required",
+      "invalidEmail": "Invalid email address",
+      "selectService": "Please select a service",
+      "projectDetailsRequired": "Project details are required"
+    },
     "projectTypes": {
-      "newInstallation": "新安装",
-      "systemUpgrade": "系统升级",
-      "retrofit": "改造升级",
-      "maintenance": "维护合同",
-      "consultation": "技术咨询",
-      "design": "设计和工程"
+      "newInstallation": "New Installation",
+      "systemUpgrade": "System Upgrade",
+      "retrofit": "Retrofit",
+      "maintenance": "Maintenance Contract",
+      "consultation": "Technical Consultation",
+      "design": "Design & Engineering"
     },
     "timelines": {
-      "immediate": "立即（< 1个月）",
-      "1-3-months": "1-3个月",
-      "3-6-months": "3-6个月",
-      "6-12-months": "6-12个月",
-      "1-year-plus": "超过1年"
+      "immediate": "Immediate (< 1 month)",
+      "1-3-months": "1-3 months",
+      "3-6-months": "3-6 months",
+      "6-12-months": "6-12 months",
+      "1-year-plus": "More than 1 year"
     },
     "budgetRanges": {
-      "under-1-lakh": "低于₹1 Lakh",
+      "under-1-lakh": "Under ₹1 Lakh",
       "1-5-lakh": "₹1-5 Lakhs",
       "5-10-lakh": "₹5-10 Lakhs",
       "10-25-lakh": "₹10-25 Lakhs",
       "25-50-lakh": "₹25-50 Lakhs",
       "50-lakh-plus": "₹50 Lakhs+",
-      "discuss": "希望讨论"
-    },
-    "validation": {
-      "nameRequired": "姓名是必需的",
-      "phoneRequired": "电话号码是必需的",
-      "subjectRequired": "主题是必需的",
-      "messageRequired": "消息是必需的",
-      "firstNameRequired": "名字是必需的",
-      "lastNameRequired": "姓氏是必需的",
-      "invalidEmail": "无效的电子邮件地址",
-      "selectService": "请选择一项服务",
-      "projectDetailsRequired": "项目详情是必需的",
-      "nameMin": "姓名至少需要2个字符",
-      "emailInvalid": "请输入有效的电子邮件地址",
-      "phoneMin": "请输入有效的电话号码",
-      "companyRequired": "公司名称为必填项",
-      "projectTitleRequired": "项目标题为必填项",
-      "projectTypeRequired": "请选择项目类型",
-      "timelineRequired": "请选择预期时间表",
-      "servicesRequired": "请至少选择一项服务",
-      "specificationsMin": "请提供详细规格（至少20个字符）"
+      "discuss": "Prefer to discuss"
     },
     "success": {
-      "title": "报价请求提交成功！",
-      "description": "我们的工程团队将审查您的需求并在24-48小时内回复。"
+      "title": "Quote request submitted successfully!",
+      "description": "Our engineering team will review your requirements and respond within 24-48 hours."
     },
     "placeholders": {
-      "selectIndustry": "选择行业",
-      "selectProjectScale": "选择项目规模",
-      "selectBudget": "选择预算范围（可选）",
-      "detailedRequirements": "请提供详细规格，包括：\n- 技术要求和标准\n- 设备规格和数量\n- 性能要求\n- 环境条件\n- 合规要求\n- 任何特殊考虑...",
-      "additionalRequirements": "任何附加要求、特殊条件或问题...",
-      "preferredBrands": "例如 Siemens, Allen-Bradley, Schneider..."
+      "selectIndustry": "Select industry",
+      "selectProjectScale": "Select project scale",
+      "selectBudget": "Select budget range (optional)",
+      "detailedRequirements": "Please provide detailed specifications including:\n- Technical requirements and standards\n- Equipment specifications and quantities\n- Performance requirements\n- Environmental conditions\n- Compliance requirements\n- Any special considerations...",
+      "additionalRequirements": "Any additional requirements, special conditions, or questions...",
+      "preferredBrands": "e.g., Siemens, Allen-Bradley, Schneider..."
     },
     "labels": {
-      "industryType": "行业类型",
-      "projectScale": "项目规模",
-      "approximateBudget": "预算估算",
-      "detailedRequirements": "详细需求 *",
-      "preferredBrands": "首选品牌/标准",
-      "additionalRequirements": "附加要求",
-      "projectTitle": "项目标题 *",
-      "projectType": "项目类型 *",
-      "expectedTimeline": "预期时间表 *",
-      "phoneNumber": "电话号码 *",
-      "companyName": "公司名称 *",
-      "projectInformation": "项目信息",
-      "budgetRange": "预算范围"
+      "industryType": "Industry Type",
+      "projectScale": "Project Scale",
+      "approximateBudget": "Approximate Budget",
+      "detailedRequirements": "Detailed Requirements *",
+      "preferredBrands": "Preferred Brands/Standards",
+      "additionalRequirements": "Additional Requirements",
+      "projectTitle": "Project Title *",
+      "projectType": "Project Type *",
+      "expectedTimeline": "Expected Timeline *",
+      "phoneNumber": "Phone Number *",
+      "companyName": "Company Name *",
+      "projectInformation": "Project Information",
+      "budgetRange": "Budget Range"
     },
     "sections": {
-      "contactInfo": "联系信息",
-      "requiredServices": "所需服务 *",
-      "technicalSpecifications": "技术规格"
+      "requiredServices": "Required Services *",
+      "contactInfo": "Contact Information",
+      "technicalSpecifications": "Technical Specifications"
     },
     "error": {
-      "title": "报价提交失败",
-      "description": "如需即时帮助：{{phone}} 或邮箱：{{email}}"
+      "title": "Quote submission failed",
+      "description": "For immediate assistance: {{phone}} or email: {{email}}"
     },
-    "submitting": "正在提交报价请求...",
-    "buttons": {
-      "getProfessionalQuote": "获取专业报价",
-      "submitRequest": "提交报价请求",
-      "callUrgent": "紧急需求请致电",
-      "emailRequirements": "邮件发送需求"
-    },
-    "fields": {
-      "name": {
-        "label": "姓名 *"
-      },
-      "email": {
-        "label": "邮箱地址 *"
-      },
-      "designation": {
-        "label": "职位"
-      },
-      "additionalRequirements": {
-        "label": "附加要求"
-      }
-    },
-    "projectTypes": {
-      "newInstallation": "新安装",
-      "systemUpgrade": "系统升级",
-      "retrofit": "改造",
-      "maintenance": "维护",
-      "consultation": "咨询",
-      "design": "设计"
-    },
-    "timelines": {
-      "immediate": "立即（< 1个月）",
-      "1-3-months": "1-3个月",
-      "3-6-months": "3-6个月",
-      "6-12-months": "6-12个月",
-      "1-year-plus": "1年以上"
-    },
-    "budgetRanges": {
-      "under-1-lakh": "低于₹1万",
-      "1-5-lakh": "₹1-5万",
-      "5-10-lakh": "₹5-10万",
-      "10-25-lakh": "₹10-25万",
-      "25-50-lakh": "₹25-50万",
-      "50-lakh-plus": "₹50万以上",
-      "discuss": "详细讨论"
-    },
+    "submitting": "Submitting Quote Request...",
     "industries": {
-      "manufacturing": "制造业",
-      "powerGeneration": "发电",
-      "waterTreatment": "水处理",
-      "foodProcessing": "食品加工",
-      "pharmaceutical": "制药",
-      "chemical": "化工",
-      "oilGas": "石油天然气",
-      "renewableEnergy": "可再生能源",
-      "infrastructure": "基础设施",
-      "other": "其他"
+      "manufacturing": "Manufacturing",
+      "powerGeneration": "Power Generation",
+      "waterTreatment": "Water Treatment",
+      "foodProcessing": "Food Processing",
+      "pharmaceutical": "Pharmaceutical",
+      "chemical": "Chemical",
+      "oilGas": "Oil & Gas",
+      "renewableEnergy": "Renewable Energy",
+      "infrastructure": "Infrastructure",
+      "other": "Other"
     },
     "projectScale": {
-      "small": "小规模（< 10个I/O点）",
-      "medium": "中等规模（10-100个I/O点）",
-      "large": "大规模（100-500个I/O点）",
-      "enterprise": "企业级（500+个I/O点）"
+      "small": "Small Scale (< 10 I/O points)",
+      "medium": "Medium Scale (10-100 I/O points)",
+      "large": "Large Scale (100-500 I/O points)",
+      "enterprise": "Enterprise (500+ I/O points)"
+    },
+    "buttons": {
+      "getProfessionalQuote": "Get Professional Quote",
+      "submitRequest": "Submit Quote Request",
+      "callUrgent": "Call for Urgent Requirements",
+      "emailRequirements": "Email Requirements"
     },
     "process": {
-      "heading": "接下来会发生什么？",
+      "heading": "What happens next?",
       "steps": {
-        "technicalReview": "24小时内技术审查",
-        "detailedProposal": "带有规格的详细提案",
-        "costBreakdown": "成本细分和时间表",
-        "followUpCall": "后续咨询电话"
+        "technicalReview": "Technical review within 24 hours",
+        "detailedProposal": "Detailed proposal with specifications",
+        "costBreakdown": "Cost breakdown and timeline",
+        "followUpCall": "Follow-up consultation call"
       }
     },
     "assistance": {
-      "heading": "需要即时帮助吗？",
-      "technicalTeam": "+91-94627-71662 (技术团队)",
+      "heading": "Need immediate assistance?",
+      "technicalTeam": "+91-94627-71662 (Technical Team)",
       "email": "info@powertonengineering.com"
     }
   },
   "career": {
     "placeholders": {
-      "fullName": "请输入您的全名",
-      "email": "您的邮箱@example.com",
+      "fullName": "Enter your full name",
+      "email": "your.email@example.com",
       "phone": "+91 9876543210",
-      "address": "请输入您的完整地址（房屋/公寓号、街道、城市、州、邮编）",
-      "currentCompany": "您的当前公司（可选）",
-      "education": "例如：电气工程学士",
-      "expectedSalary": "例如：年薪5-8万或面议",
-      "skills": "列出您的技术技能、软件知识、编程语言、认证等",
-      "coverLetter": "告诉我们您的动机、职业目标以及您如何为我们的团队做出贡献...",
-      "selectSpecialization": "选择您的专业领域",
-      "selectExperience": "选择经验级别",
-      "selectAvailability": "选择您的可用性"
+      "address": "Enter your complete address (House/Flat No., Street, City, State, PIN)",
+      "currentCompany": "Your current company (optional)",
+      "education": "e.g., B.Tech Electrical Engineering",
+      "expectedSalary": "e.g., 5-8 LPA or Negotiable",
+      "skills": "List your technical skills, software knowledge, programming languages, certifications, etc.",
+      "coverLetter": "Tell us about your motivation, career goals, and how you can contribute to our team...",
+      "selectSpecialization": "Select your area of expertise",
+      "selectExperience": "Select experience level",
+      "selectAvailability": "Select your availability"
     },
     "labels": {
-      "title": "加入我们的工程团队",
-      "subtitle": "提交您的申请，成为我们创新工程解决方案团队的一部分",
-      "personalInfo": "个人信息",
-      "professionalInfo": "职业信息",
-      "fullName": "全名",
-      "emailAddress": "邮箱地址",
-      "phoneNumber": "电话号码",
-      "residingAddress": "当前居住地址",
-      "specialization": "工程专业",
-      "experience": "经验级别",
-      "currentCompany": "当前公司",
-      "availability": "可用性/通知期",
-      "education": "教育/资格",
-      "expectedSalary": "期望薪资",
-      "technicalSkills": "技术技能和专业知识",
-      "coverLetter": "求职信和动机"
+      "title": "Join Our Engineering Team",
+      "subtitle": "Submit your application and become part of our innovative engineering solutions team",
+      "personalInfo": "Personal Information",
+      "professionalInfo": "Professional Information",
+      "fullName": "Full Name",
+      "emailAddress": "Email Address",
+      "phoneNumber": "Phone Number",
+      "residingAddress": "Current Residing Address",
+      "specialization": "Engineering Specialization",
+      "experience": "Experience Level",
+      "currentCompany": "Current Company",
+      "availability": "Availability/Notice Period",
+      "education": "Education/Qualification",
+      "expectedSalary": "Expected Salary",
+      "technicalSkills": "Technical Skills & Expertise",
+      "coverLetter": "Cover Letter & Motivation",
+      "resume": "CV/Resume"
     },
     "buttons": {
-      "submit": "提交申请",
-      "submitting": "正在提交申请...",
-      "uploadResume": "上传简历"
+      "submit": "Submit Application",
+      "submitting": "Submitting Application...",
+      "uploadResume": "Upload Resume"
     },
     "validation": {
-      "nameMin": "姓名至少需要2个字符",
-      "emailInvalid": "请输入有效的电子邮件地址",
-      "phoneMin": "电话号码至少需要10位数字",
-      "specializationRequired": "请选择您的工程专业",
-      "experienceRequired": "请选择您的经验水平",
-      "educationRequired": "请提供您的教育详情",
-      "joiningTimeRequired": "请说明您何时可以入职",
-      "skillsMin": "请提供您的技能详情",
-      "coverLetterMin": "请写一份简短的求职信（至少20个字符）",
-      "addressMin": "请提供您的完整居住地址"
+      "nameMin": "Name must be at least 2 characters",
       "emailInvalid": "Please enter a valid email address",
       "phoneMin": "Phone number must be at least 10 digits",
       "specializationRequired": "Please select your engineering specialization",
@@ -285,32 +247,24 @@
       "eightToTwelve": "8-12 years",
       "twelvePlus": "12+ years"
     },
-    "specializations": {
-      "electricalEngineering": "电气工程",
-      "automationControl": "自动化控制系统",
-      "instrumentation": "仪表工程",
-      "projectManagement": "项目管理",
-      "technicalSales": "技术销售",
-      "fieldService": "现场服务和调试",
-      "designEngineering": "设计开发",
-      "solarRenewable": "太阳能和可再生能源",
-      "other": "其他专业"
-    },
-    "experience": {
-      "fresher": "应届生 (0-1年)",
-      "oneToThree": "1-3年",
-      "threeToFive": "3-5年",
-      "fiveToEight": "5-8年",
-      "eightToTwelve": "8-12年",
-      "twelvePlus": "12+年"
-    },
     "joiningTime": {
-      "immediate": "可立即入职",
-      "fifteenDays": "15天通知期",
-      "oneMonth": "1个月通知期",
-      "twoMonths": "2个月通知期",
-      "threeMonths": "3个月通知期",
-      "moreThanThree": "超过3个月通知期"
+      "immediate": "Can join immediately",
+      "fifteenDays": "15 days notice period",
+      "oneMonth": "1 month notice period",
+      "twoMonths": "2 months notice period",
+      "threeMonths": "3 months notice period",
+      "moreThanThree": "More than 3 months notice"
+    },
+    "helpers": {
+      "resumeFormat": "Accepted formats: PDF, DOC, DOCX (Max size: 5MB)"
+    },
+    "success": {
+      "title": "Application Submitted Successfully!",
+      "description": "Thank you for applying! We will review your application and contact you within 2-3 business days."
+    },
+    "error": {
+      "title": "Application Submission Failed",
+      "description": "Please try again or contact us directly at {{phone}} or {{email}}"
     }
   }
 }

@@ -24,7 +24,8 @@
         "yearsExperience": "वर्षों का अनुभव",
         "projectsCompleted": "पूर्ण परियोजनाएं",
         "happyClients": "संतुष्ट ग्राहक",
-        "supportAvailable": "सहायता उपलब्ध"
+        "supportAvailable": "सहायता उपलब्ध",
+        "heading": "Company Statistics and Achievements"
       }
     },
     "about": {
@@ -353,58 +354,130 @@
       "title": "Emergency Support",
       "description": "Critical system failure? Our emergency response team is available 24/7 to help minimize downtime.",
       "hotline": "Emergency Hotline"
+    },
+    "seo": {
+      "title": "Contact Powerton Engineering - Get Expert Engineering Support",
+      "description": "Contact our engineering experts for industrial automation, electrical systems, and technical support. Call +91-94627-71662 or email info@powertonengineering.com",
+      "keywords": "contact powerton engineering, engineering support, industrial automation contact, electrical engineering help, noida engineering company contact"
     }
   },
   "quote": {
-    "projectSizes": {
-      "small": "Small (1-10 I/O Points)",
-      "medium": "Medium (11-100 I/O Points)",
-      "large": "Large (101-500 I/O Points)",
-      "enterprise": "Enterprise (500+ I/O Points)"
+    "hero": {
+      "title": "प्रोफेशनल इंजीनियरिंग कोट प्राप्त करें",
+      "subtitle": "अपनी औद्योगिक आवश्यकताओं के अनुकूल कस्टमाइज़्ड ऑटोमेशन और इंस्ट्रूमेंटेशन समाधानों के लिए हमारी विशेषज्ञ टीम से जुड़ें।",
+      "benefits": {
+        "consultation": "मुफ्त तकनीकी परामर्श",
+        "response": "24-48 घंटे का जवाब समय",
+        "estimates": "विस्तृत लागत अनुमान",
+        "noCosts": "कोई छिपी लागत नहीं"
+      }
     },
-    "timelines": {
-      "urgent": "Urgent (< 3 months)",
-      "standard": "Standard (3-6 months)",
-      "extended": "Extended (6-12 months)",
-      "longTerm": "Long-term (12+ months)"
+    "benefits": {
+      "assessment": {
+        "title": "विस्तृत मूल्यांकन",
+        "description": "व्यापक परियोजना मूल्यांकन और तकनीकी विशिष्टताएं"
+      },
+      "response": {
+        "title": "त्वरित प्रतिक्रिया",
+        "description": "24-48 घंटों के भीतर अपना विस्तृत कोट प्राप्त करें"
+      },
+      "consultation": {
+        "title": "विशेषज्ञ परामर्श",
+        "description": "हमारी इंजीनियरिंग टीम के साथ मुफ्त तकनीकी परामर्श"
+      },
+      "solutions": {
+        "title": "कस्टमाइज़्ड समाधान",
+        "description": "आपकी विशिष्ट आवश्यकताओं के लिए तैयार इंजीनियरिंग समाधान"
+      }
     },
-    "requirements": {
-      "plcProgramming": "PLC Programming",
-      "scadaDevelopment": "SCADA Development",
-      "hmiDesign": "HMI Design",
-      "networkIntegration": "Network Integration",
-      "safetySystems": "Safety Systems",
-      "remoteMonitoring": "Remote Monitoring",
-      "dataAnalytics": "Data Analytics",
-      "mobileApp": "Mobile App Interface"
+    "method": {
+      "title": "अपनी कोट प्रणाली चुनें",
+      "description": "अपने प्रोजेक्ट कोट प्राप्त करने का सबसे सुविधाजनक तरीका चुनें। दोनों विकल्प व्यापक मूल्य निर्धारण और तकनीकी विशिष्टताएं प्रदान करते हैं।",
+      "calculator": "स्मार्ट कैलकुलेटर",
+      "request": "कोट अनुरोध"
     },
-    "additionalFeatures": {
-      "redundancy": "System Redundancy",
-      "cybersecurity": "Advanced Cybersecurity",
-      "iotIntegration": "IoT Integration",
-      "aiMl": "AI/ML Analytics",
-      "predictiveMaintenance": "Predictive Maintenance",
-      "energyManagement": "Energy Management",
-      "cloudIntegration": "Cloud Integration",
-      "trainingSupport": "Extended Training & Support"
+    "calculator": {
+      "title": "उन्नत लागत कैलकुलेटर",
+      "description": "हम अपने बुद्धिमान लागत अनुमान उपकरण को अंतिम रूप दे रहे हैं। यह फीचर आपकी ऑटोमेशन परियोजनाओं के लिए तुरंत और सटीक मूल्य निर्धारण प्रदान करेगा।",
+      "launchingSoon": "जल्द आ रहा है",
+      "useQuoteForm": "तत्काल कोटेशन के लिए, कृपया हमारा विस्तृत कोटेशन फॉर्म उपयोग करें",
+      "getQuoteNow": "अभी कोटेशन प्राप्त करें",
+      "projectTitle": "परियोजना लागत कैलकुलेटर",
+      "stepOf": "चरण {{current}} का {{total}}"
     },
-    "industries": {
-      "manufacturing": "Manufacturing",
-      "powerGeneration": "Power Generation",
-      "oilGas": "Oil & Gas",
-      "chemicalProcessing": "Chemical Processing",
-      "waterTreatment": "Water Treatment",
-      "foodBeverage": "Food & Beverage",
-      "pharmaceutical": "Pharmaceutical",
-      "renewableEnergy": "Renewable Energy"
+    "process": {
+      "title": "हमारी कोटेशन प्रक्रिया",
+      "description": "प्रारंभिक अनुरोध से विस्तृत प्रस्ताव तक, हम एक चिकनी और पारदर्शी प्रक्रिया सुनिश्चित करते हैं।",
+      "submit": {
+        "title": "अनुरोध जमा करें",
+        "description": "हमारा व्यापक कोटेशन फॉर्म भरें या हमारे लागत कैलकुलेटर का उपयोग करें"
+      },
+      "review": {
+        "title": "तकनीकी समीक्षा",
+        "description": "हमारी इंजीनियरिंग टीम आपकी आवश्यकताओं और विनिर्देशों का विश्लेषण करती है"
+      },
+      "assessment": {
+        "title": "साइट मूल्यांकन",
+        "description": "जटिल परियोजनाओं के लिए वैकल्पिक साइट विज़िट (यदि आवश्यक हो)"
+      },
+      "quote": {
+        "title": "विस्तृत कोटेशन",
+        "description": "समयसीमा और डिलिवरेबल के साथ व्यापक मूल्य निर्धारण प्राप्त करें"
+      }
+    },
+    "cta": {
+      "title": "शुरू करने के लिए तैयार हैं?",
+      "description": "अपने कस्टम इंजीनियरिंग समाधान के लिए आज ही हमसे संपर्क करें। हमारी टीम आपकी परियोजना को जीवन में लाने में मदद करने के लिए तैयार है।"
     },
     "projectTypes": {
-      "processAutomation": "Process Automation",
-      "powerControlSystems": "Power Control Systems",
-      "instrumentationControl": "Instrumentation & Control",
-      "solarAutomation": "Solar Automation",
-      "buildingAutomation": "Building Automation",
-      "manufacturingAutomation": "Manufacturing Automation"
+      "processAutomation": "प्रक्रिया स्वचालन",
+      "powerControlSystems": "पावर कंट्रोल सिस्टम",
+      "instrumentationControl": "इंस्ट्रूमेंटेशन और कंट्रोल",
+      "solarAutomation": "सौर स्वचालन",
+      "buildingAutomation": "बिल्डिंग ऑटोमेशन",
+      "manufacturingAutomation": "मैन्युफैक्चरिंग ऑटोमेशन"
+    },
+    "industries": {
+      "manufacturing": "विनिर्माण",
+      "powerGeneration": "पावर जेनरेशन",
+      "oilGas": "तेल और गैस",
+      "chemicalProcessing": "रसायन प्रसंस्करण",
+      "waterTreatment": "जल उपचार",
+      "foodBeverage": "भोजन और पेय",
+      "pharmaceutical": "फार्मास्यूटिकल",
+      "renewableEnergy": "नवीकरणीय ऊर्जा"
+    },
+    "projectSizes": {
+      "small": "छोटे (1-10 I/O पॉइंट्स)",
+      "medium": "मध्यम (11-100 I/O पॉइंट्स)",
+      "large": "बड़े (101-500 I/O पॉइंट्स)",
+      "enterprise": "एंटरप्राइज (500+ I/O पॉइंट्स)"
+    },
+    "timelines": {
+      "urgent": "तुरंत (< 3 महीने)",
+      "standard": "मानक (3-6 महीने)",
+      "extended": "विस्तारित (6-12 महीने)",
+      "longTerm": "दीर्घकालिक (12+ महीने)"
+    },
+    "requirements": {
+      "plcProgramming": "PLC प्रोग्रामिंग",
+      "scadaDevelopment": "SCADA विकास",
+      "hmiDesign": "HMI डिज़ाइन",
+      "networkIntegration": "नेटवर्क संकलन",
+      "safetySystems": "सुरक्षा प्रणाली",
+      "remoteMonitoring": "रिमोट मॉनिटरिंग",
+      "dataAnalytics": "डेटा एनालिटिक्स",
+      "mobileApp": "मोबाइल ऐप इंटरफेस"
+    },
+    "additionalFeatures": {
+      "redundancy": "सिस्टम रिडंडेंसी",
+      "cybersecurity": "एडवांस्ड साइबरसिक्योरिटी",
+      "iotIntegration": "IoT संकलन",
+      "aiMl": "AI/ML एनालिटिक्स",
+      "predictiveMaintenance": "पूर्वानुमान रखरखाव",
+      "energyManagement": "ऊर्जा प्रबंधन",
+      "cloudIntegration": "क्लाउड संकलन",
+      "trainingSupport": "प्रशिक्षण और विस्तारित समर्थन"
     }
   },
   "gallery": {
@@ -744,157 +817,40 @@
       "verifiedResultsDesc": "Real projects with measurable outcomes and client testimonials"
     }
   },
-  "quote": {
-    "hero": {
-      "title": "पेशेवर कोटेशन और लागत कैलकुलेटर प्राप्त करें",
-      "subtitle": "अपनी ऑटोमेशन परियोजनाओं के लिए विस्तृत मूल्य निर्धारण का अनुरोध करें। तुरंत अनुमान के लिए हमारे लागत कैलकुलेटर का उपयोग करें या कस्टम समाधानों के लिए व्यापक कोटेशन अनुरोध जमा करें।",
-      "benefits": {
-        "consultation": "मुफ्त विशेषज्ञ सलाह",
-        "response": "24-48 घंटे में जवाब",
-        "estimates": "सटीक लागत अनुमान",
-        "noCosts": "कोई छिपी हुई लागत नहीं"
-      }
-    },
-    "benefits": {
-      "assessment": {
-        "title": "विस्तृत मूल्यांकन",
-        "description": "व्यापक परियोजना मूल्यांकन और तकनीकी विनिर्देश"
-      },
-      "response": {
-        "title": "त्वरित प्रतिक्रिया",
-        "description": "24-48 घंटे में अपना विस्तृत कोटेशन प्राप्त करें"
-      },
-      "consultation": {
-        "title": "विशेषज्ञ सलाह",
-        "description": "हमारी इंजीनियरिंग टीम के साथ मुफ्त तकनीकी सलाह"
-      },
-      "solutions": {
-        "title": "कस्टम समाधान",
-        "description": "आपकी विशिष्ट आवश्यकताओं के लिए तैयार इंजीनियरिंग समाधान"
-      }
-    },
-    "method": {
-      "title": "अपना कोटेशन तरीका चुनें",
-      "description": "वह विधि चुनें जो आपकी परियोजना की जरूरतों और समयसीमा के लिए सबसे अच्छी हो।",
-      "calculator": "लागत कैलकुलेटर",
-      "request": "कोटेशन अनुरोध"
-    },
-    "calculator": {
-      "title": "उन्नत लागत कैलकुलेटर",
-      "description": "हम अपने बुद्धिमान लागत अनुमान उपकरण को अंतिम रूप दे रहे हैं। यह फीचर आपकी ऑटोमेशन परियोजनाओं के लिए तुरंत और सटीक मूल्य निर्धारण प्रदान करेगा।",
-      "launchingSoon": "जल्द आ रहा है",
-      "useQuoteForm": "तत्काल कोटेशन के लिए, कृपया हमारा विस्तृत कोटेशन फॉर्म उपयोग करें",
-      "getQuoteNow": "अभी कोटेशन प्राप्त करें",
-      "projectTitle": "परियोजना लागत कैलकुलेटर",
-      "stepOf": "चरण {{current}} का {{total}}"
-    },
-    "process": {
-      "title": "हमारी कोटेशन प्रक्रिया",
-      "description": "प्रारंभिक अनुरोध से विस्तृत प्रस्ताव तक, हम एक चिकनी और पारदर्शी प्रक्रिया सुनिश्चित करते हैं।",
-      "submit": {
-        "title": "अनुरोध जमा करें",
-        "description": "हमारा व्यापक कोटेशन फॉर्म भरें या हमारे लागत कैलकुलेटर का उपयोग करें"
-      },
-      "review": {
-        "title": "तकनीकी समीक्षा",
-        "description": "हमारी इंजीनियरिंग टीम आपकी आवश्यकताओं और विनिर्देशों का विश्लेषण करती है"
-      },
-      "assessment": {
-        "title": "साइट मूल्यांकन",
-        "description": "जटिल परियोजनाओं के लिए वैकल्पिक साइट विज़िट (यदि आवश्यक हो)"
-      },
-      "quote": {
-        "title": "विस्तृत कोटेशन",
-        "description": "समयसीमा और डिलिवरेबल के साथ व्यापक मूल्य निर्धारण प्राप्त करें"
-      }
-    },
-    "cta": {
-      "title": "शुरू करने के लिए तैयार हैं?",
-      "description": "अपने कस्टम इंजीनियरिंग समाधान के लिए आज ही हमसे संपर्क करें। हमारी टीम आपकी परियोजना को जीवन में लाने में मदद करने के लिए तैयार है।"
-    },
-    "projectTypes": {
-      "processAutomation": "प्रक्रिया स्वचालन",
-      "powerControlSystems": "पावर कंट्रोल सिस्टम",
-      "instrumentationControl": "इंस्ट्रूमेंटेशन और कंट्रोल",
-      "solarAutomation": "सौर स्वचालन",
-      "buildingAutomation": "बिल्डिंग ऑटोमेशन",
-      "manufacturingAutomation": "मैन्युफैक्चरिंग ऑटोमेशन"
-    },
-    "industries": {
-      "manufacturing": "विनिर्माण",
-      "powerGeneration": "पावर जेनरेशन",
-      "oilGas": "तेल और गैस",
-      "chemicalProcessing": "रसायन प्रसंस्करण",
-      "waterTreatment": "जल उपचार",
-      "foodBeverage": "भोजन और पेय",
-      "pharmaceutical": "फार्मास्यूटिकल",
-      "renewableEnergy": "नवीकरणीय ऊर्जा"
-    },
-    "projectSizes": {
-      "small": "छोटे (1-10 I/O पॉइंट्स)",
-      "medium": "मध्यम (11-100 I/O पॉइंट्स)",
-      "large": "बड़े (101-500 I/O पॉइंट्स)",
-      "enterprise": "एंटरप्राइज (500+ I/O पॉइंट्स)"
-    },
-    "timelines": {
-      "urgent": "तुरंत (< 3 महीने)",
-      "standard": "मानक (3-6 महीने)",
-      "extended": "विस्तारित (6-12 महीने)",
-      "longTerm": "दीर्घकालिक (12+ महीने)"
-    },
-    "requirements": {
-      "plcProgramming": "PLC प्रोग्रामिंग",
-      "scadaDevelopment": "SCADA विकास",
-      "hmiDesign": "HMI डिज़ाइन",
-      "networkIntegration": "नेटवर्क संकलन",
-      "safetySystems": "सुरक्षा प्रणाली",
-      "remoteMonitoring": "रिमोट मॉनिटरिंग",
-      "dataAnalytics": "डेटा एनालिटिक्स",
-      "mobileApp": "मोबाइल ऐप इंटरफेस"
-    },
-    "additionalFeatures": {
-      "redundancy": "सिस्टम रिडंडेंसी",
-      "cybersecurity": "एडवांस्ड साइबरसिक्योरिटी",
-      "iotIntegration": "IoT संकलन",
-      "aiMl": "AI/ML एनालिटिक्स",
-      "predictiveMaintenance": "पूर्वानुमान रखरखाव",
-      "energyManagement": "ऊर्जा प्रबंधन",
-      "cloudIntegration": "क्लाउड संकलन",
-      "trainingSupport": "प्रशिक्षण और विस्तारित समर्थन"
+  "career": {
+    "seo": {
+      "title": "Careers at Powerton Engineering - Join Our Engineering Team",
+      "description": "Explore career opportunities at Powerton Engineering. Join our team of skilled engineers and contribute to innovative industrial automation and electrical engineering projects.",
+      "keywords": "powerton engineering careers, engineering jobs, electrical engineer jobs, automation engineer jobs, industrial engineering careers, engineering jobs noida"
     },
     "hero": {
-      "title": "प्रोफेशनल इंजीनियरिंग कोट प्राप्त करें",
-      "subtitle": "अपनी औद्योगिक आवश्यकताओं के अनुकूल कस्टमाइज़्ड ऑटोमेशन और इंस्ट्रूमेंटेशन समाधानों के लिए हमारी विशेषज्ञ टीम से जुड़ें।",
-      "benefits": {
-        "consultation": "मुफ्त तकनीकी परामर्श",
-        "response": "24-48 घंटे का जवाब समय",
-        "estimates": "विस्तृत लागत अनुमान",
-        "noCosts": "कोई छिपी लागत नहीं"
-      }
+      "imageAlt": "Professional engineering workspace with modern industrial facility equipment"
     },
     "benefits": {
-      "assessment": {
-        "title": "विस्तृत मूल्यांकन",
-        "description": "व्यापक परियोजना मूल्यांकन और तकनीकी विशिष्टताएं"
+      "careerGrowth": {
+        "title": "Career Growth",
+        "description": "Structured career progression with regular performance reviews and promotion opportunities."
       },
-      "response": {
-        "title": "त्वरित प्रतिक्रिया",
-        "description": "24-48 घंटों के भीतर अपना विस्तृत कोट प्राप्त करें"
+      "learningDevelopment": {
+        "title": "Learning & Development",
+        "description": "Continuous training programs, certifications, and skill enhancement opportunities."
       },
-      "consultation": {
-        "title": "विशेषज्ञ परामर्श",
-        "description": "हमारी इंजीनियरिंग टीम के साथ मुफ्त तकनीकी परामर्श"
+      "workLifeBalance": {
+        "title": "Work-Life Balance",
+        "description": "Flexible working hours and comprehensive health benefits for employees and families."
       },
-      "solutions": {
-        "title": "कस्टमाइज़्ड समाधान",
-        "description": "आपकी विशिष्ट आवश्यकताओं के लिए तैयार इंजीनियरिंग समाधान"
+      "teamCulture": {
+        "title": "Team Culture",
+        "description": "Collaborative work environment with supportive team members and open communication."
+      },
+      "recognitionRewards": {
+        "title": "Recognition & Rewards",
+        "description": "Performance-based incentives, bonuses, and recognition programs for outstanding work."
+      },
+      "innovationFocus": {
+        "title": "Innovation Focus",
+        "description": "Work on cutting-edge technologies and innovative solutions in industrial automation."
       }
-    },
-    "method": {
-      "title": "अपनी कोट प्रणाली चुनें",
-      "description": "अपने प्रोजेक्ट कोट प्राप्त करने का सबसे सुविधाजनक तरीका चुनें। दोनों विकल्प व्यापक मूल्य निर्धारण और तकनीकी विशिष्टताएं प्रदान करते हैं।",
-      "calculator": "स्मार्ट कैलकुलेटर",
-      "request": "कोट अनुरोध"
     }
   }
 }

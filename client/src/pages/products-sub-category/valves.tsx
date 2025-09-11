@@ -25,41 +25,46 @@ export default function ProductValves() {
   useScrollAnimations();
 
   const product = {
-    title: "Valves & Actuators",
-    shortDescription: "Industrial valve automation solutions with pneumatic, electric, and hydraulic actuators",
-    fullDescription: "Comprehensive valve automation portfolio including quarter-turn and linear valves with smart technologies, IoT connectivity, and condition monitoring.",
+    title: t('products:productPages.valves.title'),
+    shortDescription: t('products:productPages.valves.shortDescription'),
+    fullDescription: t('products:productPages.valves.fullDescription'),
     image: valvesLabImage,
-    keyBenefits: ["Precise Flow Control", "Enhanced Safety & Reliability", "Reduced Energy Consumption", "Predictive Maintenance Capability"],
+    keyBenefits: [
+      t('products:productPages.valves.keyBenefits.preciseFlowControl'),
+      t('products:productPages.valves.keyBenefits.enhancedSafety'),
+      t('products:productPages.valves.keyBenefits.reducedEnergyConsumption'),
+      t('products:productPages.valves.keyBenefits.predictiveMaintenance')
+    ],
     specifications: [
-      { label: "Actuator Types", value: "Pneumatic, Electric, Hydraulic" },
-      { label: "Valve Sizes", value: "1/4\" to 48\" (DN8 to DN1200)" },
-      { label: "Pressure Rating", value: "Up to 6000 PSI (414 bar)" },
-      { label: "Temperature Range", value: "-40°F to 1000°F (-40°C to 538°C)" }
+      { label: t('products:productPages.valves.specifications.actuatorTypes.label'), value: t('products:productPages.valves.specifications.actuatorTypes.value') },
+      { label: t('products:productPages.valves.specifications.valveSizes.label'), value: t('products:productPages.valves.specifications.valveSizes.value') },
+      { label: t('products:productPages.valves.specifications.pressureRating.label'), value: t('products:productPages.valves.specifications.pressureRating.value') },
+      { label: t('products:productPages.valves.specifications.temperatureRange.label'), value: t('products:productPages.valves.specifications.temperatureRange.value') }
     ],
     applications: [
-      "Process Control",
-      "Oil & Gas",
-      "Chemical Processing",
-      "Water Treatment",
-      "Power Generation",
-      "HVAC Systems"
+      t('products:productPages.valves.applications.processControl'),
+      t('products:productPages.valves.applications.oilGas'),
+      t('products:productPages.valves.applications.chemicalProcessing'),
+      t('products:productPages.valves.applications.waterTreatment'),
+      t('products:productPages.valves.applications.powerGeneration'),
+      t('products:productPages.valves.applications.hvacSystems')
     ],
     industries: [
-      "Oil & Gas",
-      "Chemical & Petrochemical",
-      "Power Generation",
-      "Water & Wastewater",
-      "Food & Beverage",
-      "Pharmaceutical"
+      t('products:productPages.valves.industries.oilGas'),
+      t('products:productPages.valves.industries.chemicalPetrochemical'),
+      t('products:productPages.valves.industries.powerGeneration'),
+      t('products:productPages.valves.industries.waterWastewater'),
+      t('products:productPages.valves.industries.foodBeverage'),
+      t('products:productPages.valves.industries.pharmaceutical')
     ]
   };
 
   return (
     <>
       <SEO
-        title="Industrial Valves & Actuators - Automated Control Solutions | Powerton Engineering"
-        description="Industrial valve automation with pneumatic, electric, and hydraulic actuators. Ball valves, butterfly valves, control valves with smart positioners and fail-safe operation."
-        keywords="industrial valves, valve actuators, pneumatic actuators, electric actuators, control valves, automated valves, smart positioners"
+        title={t('products:productPages.valves.seo.title')}
+        description={t('products:productPages.valves.seo.description')}
+        keywords={t('products:productPages.valves.seo.keywords')}
         canonicalUrl="https://powertonengineering.in/products/valves"
       />
 
@@ -77,7 +82,7 @@ export default function ProductValves() {
             <Link href="/products/automation-control-systems">
               <Button variant="ghost" className="mb-6 hover:bg-white/10 text-white">
                 <ArrowLeft className="mr-2 h-4 w-4" />
-                Back to Automation & Control Systems
+{t('common:navigation.backToAutomationSystems')}
               </Button>
             </Link>
           </div>

@@ -19,7 +19,8 @@
         "yearsExperience": "Years Experience",
         "projectsCompleted": "Projects Completed",
         "happyClients": "Happy Clients",
-        "supportAvailable": "Support Available"
+        "supportAvailable": "Support Available",
+        "heading": "Company Statistics and Achievements"
       }
     },
     "services": {
@@ -334,55 +335,72 @@
     }
   },
   "quote": {
-    "projectSizes": {
-      "small": "Petit (1-10 Points I/O)",
-      "medium": "Moyen (11-100 Points I/O)",
-      "large": "Grand (101-500 Points I/O)",
-      "enterprise": "Entreprise (500+ Points I/O)"
+    "hero": {
+      "title": "Obtenir un devis professionnel et calculateur de coûts",
+      "subtitle": "Demandez des prix détaillés pour vos projets d'automatisation. Utilisez notre calculateur de coûts pour des estimations instantanées ou soumettez une demande de devis complète pour des solutions personnalisées.",
+      "benefits": {
+        "consultation": "Consultation d'expert gratuite",
+        "response": "Réponse sous 24-48 heures",
+        "estimates": "Estimations de coûts précises",
+        "noCosts": "Aucun coût caché"
+      }
     },
-    "timelines": {
-      "urgent": "Urgent (< 3 mois)",
-      "standard": "Standard (3-6 mois)",
-      "extended": "Étendu (6-12 mois)",
-      "longTerm": "Long terme (12+ mois)"
+    "benefits": {
+      "assessment": {
+        "title": "Évaluation détaillée",
+        "description": "Évaluation complète du projet et spécifications techniques"
+      },
+      "response": {
+        "title": "Réponse rapide",
+        "description": "Recevez votre devis détaillé dans les 24-48 heures"
+      },
+      "consultation": {
+        "title": "Consultation d'expert",
+        "description": "Consultation technique gratuite avec notre équipe d'ingénierie"
+      },
+      "solutions": {
+        "title": "Solutions personnalisées",
+        "description": "Solutions d'ingénierie adaptées à vos exigences spécifiques"
+      }
     },
-    "requirements": {
-      "plcProgramming": "Programmation PLC",
-      "scadaDevelopment": "Développement SCADA",
-      "hmiDesign": "Conception HMI",
-      "networkIntegration": "Intégration Réseau",
-      "safetySystems": "Systèmes de Sécurité",
-      "remoteMonitoring": "Surveillance Distante",
-      "dataAnalytics": "Analyse de Données",
-      "mobileApp": "Interface Application Mobile"
+    "method": {
+      "title": "Choisissez votre méthode de devis",
+      "description": "Sélectionnez la méthode qui convient le mieux aux besoins et au calendrier de votre projet.",
+      "calculator": "Calculateur de coûts",
+      "request": "Demande de devis"
     },
-    "additionalFeatures": {
-      "redundancy": "Redondance Système",
-      "cybersecurity": "Cybersécurité Avancée",
-      "iotIntegration": "Intégration IoT",
-      "aiMl": "Analyses IA/ML",
-      "predictiveMaintenance": "Maintenance Prédictive",
-      "energyManagement": "Gestion de l'Énergie",
-      "cloudIntegration": "Intégration Cloud",
-      "trainingSupport": "Formation et Support Étendus"
+    "calculator": {
+      "title": "Calculateur de coûts avancé",
+      "description": "Nous peaufinons notre outil intelligent d'estimation des coûts. Cette fonctionnalité fournira des prix instantanés et précis pour vos projets d'automatisation.",
+      "launchingSoon": "Lancement prochainement",
+      "useQuoteForm": "Pour des devis immédiats, veuillez utiliser notre formulaire de devis détaillé",
+      "getQuoteNow": "Obtenir un devis maintenant",
+      "projectTitle": "Calculateur de coûts de projet",
+      "stepOf": "Étape {{current}} sur {{total}}"
     },
-    "industries": {
-      "manufacturing": "Fabrication",
-      "powerGeneration": "Production d'Énergie",
-      "oilGas": "Pétrole et Gaz",
-      "chemicalProcessing": "Traitement Chimique",
-      "waterTreatment": "Traitement de l'Eau",
-      "foodBeverage": "Alimentation et Boissons",
-      "pharmaceutical": "Pharmaceutique",
-      "renewableEnergy": "Énergie Renouvelable"
+    "process": {
+      "title": "Notre processus de devis",
+      "description": "De la demande initiale à la proposition détaillée, nous assurons un processus fluide et transparent.",
+      "submit": {
+        "title": "Soumettre la demande",
+        "description": "Remplissez notre formulaire de devis complet ou utilisez notre calculateur de coûts"
+      },
+      "review": {
+        "title": "Révision technique",
+        "description": "Notre équipe d'ingénierie analyse vos exigences et spécifications"
+      },
+      "assessment": {
+        "title": "Évaluation du site",
+        "description": "Visite sur site optionnelle pour les projets complexes (si nécessaire)"
+      },
+      "quote": {
+        "title": "Devis détaillé",
+        "description": "Recevez des prix complets avec calendrier et livrables"
+      }
     },
-    "projectTypes": {
-      "processAutomation": "Automatisation de Processus",
-      "powerControlSystems": "Systèmes de Contrôle d'Énergie",
-      "instrumentationControl": "Instrumentation et Contrôle",
-      "solarAutomation": "Automatisation Solaire",
-      "buildingAutomation": "Automatisation de Bâtiment",
-      "manufacturingAutomation": "Automatisation de Fabrication"
+    "cta": {
+      "title": "Prêt à commencer ?",
+      "description": "Contactez-nous aujourd'hui pour votre solution d'ingénierie personnalisée. Notre équipe est prête à vous aider à donner vie à votre projet."
     }
   },
   "contact": {
@@ -728,73 +746,40 @@
       "verifiedResultsDesc": "Real projects with measurable outcomes and client testimonials"
     }
   },
-  "quote": {
+  "career": {
+    "seo": {
+      "title": "Careers at Powerton Engineering - Join Our Engineering Team",
+      "description": "Explore career opportunities at Powerton Engineering. Join our team of skilled engineers and contribute to innovative industrial automation and electrical engineering projects.",
+      "keywords": "powerton engineering careers, engineering jobs, electrical engineer jobs, automation engineer jobs, industrial engineering careers, engineering jobs noida"
+    },
     "hero": {
-      "title": "Obtenir un devis professionnel et calculateur de coûts",
-      "subtitle": "Demandez des prix détaillés pour vos projets d'automatisation. Utilisez notre calculateur de coûts pour des estimations instantanées ou soumettez une demande de devis complète pour des solutions personnalisées.",
-      "benefits": {
-        "consultation": "Consultation d'expert gratuite",
-        "response": "Réponse sous 24-48 heures",
-        "estimates": "Estimations de coûts précises",
-        "noCosts": "Aucun coût caché"
-      }
+      "imageAlt": "Professional engineering workspace with modern industrial facility equipment"
     },
     "benefits": {
-      "assessment": {
-        "title": "Évaluation détaillée",
-        "description": "Évaluation complète du projet et spécifications techniques"
+      "careerGrowth": {
+        "title": "Career Growth",
+        "description": "Structured career progression with regular performance reviews and promotion opportunities."
       },
-      "response": {
-        "title": "Réponse rapide",
-        "description": "Recevez votre devis détaillé dans les 24-48 heures"
+      "learningDevelopment": {
+        "title": "Learning & Development",
+        "description": "Continuous training programs, certifications, and skill enhancement opportunities."
       },
-      "consultation": {
-        "title": "Consultation d'expert",
-        "description": "Consultation technique gratuite avec notre équipe d'ingénierie"
+      "workLifeBalance": {
+        "title": "Work-Life Balance",
+        "description": "Flexible working hours and comprehensive health benefits for employees and families."
       },
-      "solutions": {
-        "title": "Solutions personnalisées",
-        "description": "Solutions d'ingénierie adaptées à vos exigences spécifiques"
+      "teamCulture": {
+        "title": "Team Culture",
+        "description": "Collaborative work environment with supportive team members and open communication."
+      },
+      "recognitionRewards": {
+        "title": "Recognition & Rewards",
+        "description": "Performance-based incentives, bonuses, and recognition programs for outstanding work."
+      },
+      "innovationFocus": {
+        "title": "Innovation Focus",
+        "description": "Work on cutting-edge technologies and innovative solutions in industrial automation."
       }
-    },
-    "method": {
-      "title": "Choisissez votre méthode de devis",
-      "description": "Sélectionnez la méthode qui convient le mieux aux besoins et au calendrier de votre projet.",
-      "calculator": "Calculateur de coûts",
-      "request": "Demande de devis"
-    },
-    "calculator": {
-      "title": "Calculateur de coûts avancé",
-      "description": "Nous peaufinons notre outil intelligent d'estimation des coûts. Cette fonctionnalité fournira des prix instantanés et précis pour vos projets d'automatisation.",
-      "launchingSoon": "Lancement prochainement",
-      "useQuoteForm": "Pour des devis immédiats, veuillez utiliser notre formulaire de devis détaillé",
-      "getQuoteNow": "Obtenir un devis maintenant",
-      "projectTitle": "Calculateur de coûts de projet",
-      "stepOf": "Étape {{current}} sur {{total}}"
-    },
-    "process": {
-      "title": "Notre processus de devis",
-      "description": "De la demande initiale à la proposition détaillée, nous assurons un processus fluide et transparent.",
-      "submit": {
-        "title": "Soumettre la demande",
-        "description": "Remplissez notre formulaire de devis complet ou utilisez notre calculateur de coûts"
-      },
-      "review": {
-        "title": "Révision technique",
-        "description": "Notre équipe d'ingénierie analyse vos exigences et spécifications"
-      },
-      "assessment": {
-        "title": "Évaluation du site",
-        "description": "Visite sur site optionnelle pour les projets complexes (si nécessaire)"
-      },
-      "quote": {
-        "title": "Devis détaillé",
-        "description": "Recevez des prix complets avec calendrier et livrables"
-      }
-    },
-    "cta": {
-      "title": "Prêt à commencer ?",
-      "description": "Contactez-nous aujourd'hui pour votre solution d'ingénierie personnalisée. Notre équipe est prête à vous aider à donner vie à votre projet."
     }
   }
 }

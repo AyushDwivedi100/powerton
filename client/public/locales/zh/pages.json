@@ -24,7 +24,8 @@
         "yearsExperience": "年经验",
         "projectsCompleted": "完成项目",
         "happyClients": "满意客户",
-        "supportAvailable": "支持可用"
+        "supportAvailable": "支持可用",
+        "heading": "Company Statistics and Achievements"
       }
     },
     "about": {
@@ -454,55 +455,122 @@
     }
   },
   "quote": {
-    "projectSizes": {
-      "small": "Small (1-10 I/O Points)",
-      "medium": "Medium (11-100 I/O Points)",
-      "large": "Large (101-500 I/O Points)",
-      "enterprise": "Enterprise (500+ I/O Points)"
+    "hero": {
+      "title": "获取专业工程报价",
+      "subtitle": "联系我们的专家团队，为您的工业需求量身定制自动化和仪表解决方案。",
+      "benefits": {
+        "consultation": "免费技术咨询",
+        "response": "24-48小时响应时间",
+        "estimates": "详细成本估算",
+        "noCosts": "无隐藏费用"
+      }
     },
-    "timelines": {
-      "urgent": "Urgent (< 3 months)",
-      "standard": "Standard (3-6 months)",
-      "extended": "Extended (6-12 months)",
-      "longTerm": "Long-term (12+ months)"
+    "benefits": {
+      "assessment": {
+        "title": "详细评估",
+        "description": "全面的项目评估和技术规格"
+      },
+      "response": {
+        "title": "快速响应",
+        "description": "在24-48小时内收到您的详细报价"
+      },
+      "consultation": {
+        "title": "专家咨询",
+        "description": "与我们工程团队的免费技术咨询"
+      },
+      "solutions": {
+        "title": "定制解决方案",
+        "description": "针对您特定需求的定制工程解决方案"
+      }
     },
-    "requirements": {
-      "plcProgramming": "PLC Programming",
-      "scadaDevelopment": "SCADA Development",
-      "hmiDesign": "HMI Design",
-      "networkIntegration": "Network Integration",
-      "safetySystems": "Safety Systems",
-      "remoteMonitoring": "Remote Monitoring",
-      "dataAnalytics": "Data Analytics",
-      "mobileApp": "Mobile App Interface"
+    "method": {
+      "title": "选择您的报价方式",
+      "description": "选择最方便的方式获取项目报价。两种选择都提供全面的定价和技术规格。",
+      "calculator": "智能计算器",
+      "request": "报价请求"
     },
-    "additionalFeatures": {
-      "redundancy": "System Redundancy",
-      "cybersecurity": "Advanced Cybersecurity",
-      "iotIntegration": "IoT Integration",
-      "aiMl": "AI/ML Analytics",
-      "predictiveMaintenance": "Predictive Maintenance",
-      "energyManagement": "Energy Management",
-      "cloudIntegration": "Cloud Integration",
-      "trainingSupport": "Extended Training & Support"
+    "calculator": {
+      "title": "高级成本计算器",
+      "description": "我们正在完善我们的智能成本估算工具。此功能将为您的自动化项目提供即时、准确的定价。",
+      "launchingSoon": "即将推出",
+      "useQuoteForm": "如需即时报价，请使用我们的详细报价表单",
+      "getQuoteNow": "立即获取报价",
+      "projectTitle": "项目成本计算器",
+      "stepOf": "第{{current}}步，共{{total}}步"
     },
-    "industries": {
-      "manufacturing": "Manufacturing",
-      "powerGeneration": "Power Generation",
-      "oilGas": "Oil & Gas",
-      "chemicalProcessing": "Chemical Processing",
-      "waterTreatment": "Water Treatment",
-      "foodBeverage": "Food & Beverage",
-      "pharmaceutical": "Pharmaceutical",
-      "renewableEnergy": "Renewable Energy"
+    "process": {
+      "title": "我们的报价流程",
+      "description": "从初始请求到详细提案，我们确保流程顺畅透明。",
+      "submit": {
+        "title": "提交请求",
+        "description": "填写我们的综合报价表单或使用我们的成本计算器"
+      },
+      "review": {
+        "title": "技术审查",
+        "description": "我们的工程团队分析您的要求和规格"
+      },
+      "assessment": {
+        "title": "现场评估",
+        "description": "复杂项目的可选现场访问（如有需要）"
+      },
+      "quote": {
+        "title": "详细报价",
+        "description": "获得包含时间表和交付成果的全面定价"
+      }
+    },
+    "cta": {
+      "title": "准备开始了吗？",
+      "description": "今天就联系我们获取您的定制工程解决方案。我们的团队随时准备帮助您实现项目。"
     },
     "projectTypes": {
-      "processAutomation": "Process Automation",
-      "powerControlSystems": "Power Control Systems",
-      "instrumentationControl": "Instrumentation & Control",
-      "solarAutomation": "Solar Automation",
-      "buildingAutomation": "Building Automation",
-      "manufacturingAutomation": "Manufacturing Automation"
+      "processAutomation": "流程自动化",
+      "powerControlSystems": "电力控制系统",
+      "instrumentationControl": "仪表与控制",
+      "solarAutomation": "太阳能自动化",
+      "buildingAutomation": "楼宇自动化",
+      "manufacturingAutomation": "制造自动化"
+    },
+    "industries": {
+      "manufacturing": "制造业",
+      "powerGeneration": "发电",
+      "oilGas": "石油天然气",
+      "chemicalProcessing": "化学处理",
+      "waterTreatment": "水处理",
+      "foodBeverage": "食品饮料",
+      "pharmaceutical": "制药",
+      "renewableEnergy": "可再生能源"
+    },
+    "projectSizes": {
+      "small": "小型（1-10个I/O点）",
+      "medium": "中型（11-100个I/O点）",
+      "large": "大型（101-500个I/O点）",
+      "enterprise": "企业级（500+个I/O点）"
+    },
+    "timelines": {
+      "urgent": "紧急（< 3个月）",
+      "standard": "标准（3-6个月）",
+      "extended": "延长（6-12个月）",
+      "longTerm": "长期（12+个月）"
+    },
+    "requirements": {
+      "plcProgramming": "PLC编程",
+      "scadaDevelopment": "SCADA开发",
+      "hmiDesign": "HMI设计",
+      "networkIntegration": "网络集成",
+      "safetySystems": "安全系统",
+      "remoteMonitoring": "远程监控",
+      "dataAnalytics": "数据分析",
+      "mobileApp": "移动应用接口"
+    },
+    "additionalFeatures": {
+      "redundancy": "系统冗余",
+      "cybersecurity": "高级网络安全",
+      "iotIntegration": "物联网集成",
+      "aiMl": "AI/ML分析",
+      "predictiveMaintenance": "预测性维护",
+      "energyManagement": "能源管理",
+      "cloudIntegration": "云集成",
+      "trainingSupport": "培训和扩展支持"
     }
   },
   "gallery": {
@@ -754,6 +822,11 @@
       "title": "Emergency Support",
       "description": "Critical system failure? Our emergency response team is available 24/7 to help minimize downtime.",
       "hotline": "Emergency Hotline"
+    },
+    "seo": {
+      "title": "Contact Powerton Engineering - Get Expert Engineering Support",
+      "description": "Contact our engineering experts for industrial automation, electrical systems, and technical support. Call +91-94627-71662 or email info@powertonengineering.com",
+      "keywords": "contact powerton engineering, engineering support, industrial automation contact, electrical engineering help, noida engineering company contact"
     }
   },
   "ui": {
@@ -777,157 +850,40 @@
       "verifiedResultsDesc": "Real projects with measurable outcomes and client testimonials"
     }
   },
-  "quote": {
-    "hero": {
-      "title": "获取专业报价和成本计算器",
-      "subtitle": "为您的自动化项目申请详细定价。使用我们的成本计算器获得即时估价，或提交全面的报价请求以获得定制解决方案。",
-      "benefits": {
-        "consultation": "免费专家咨询",
-        "response": "24-48小时响应",
-        "estimates": "准确的成本估算",
-        "noCosts": "无隐藏费用"
-      }
-    },
-    "benefits": {
-      "assessment": {
-        "title": "详细评估",
-        "description": "全面的项目评估和技术规格"
-      },
-      "response": {
-        "title": "快速响应",
-        "description": "在24-48小时内收到您的详细报价"
-      },
-      "consultation": {
-        "title": "专家咨询",
-        "description": "与我们的工程团队进行免费技术咨询"
-      },
-      "solutions": {
-        "title": "定制解决方案",
-        "description": "针对您特定要求量身定制的工程解决方案"
-      }
-    },
-    "method": {
-      "title": "选择您的报价方式",
-      "description": "选择最适合您项目需求和时间表的方式。",
-      "calculator": "成本计算器",
-      "request": "报价请求"
-    },
-    "calculator": {
-      "title": "高级成本计算器",
-      "description": "我们正在完善我们的智能成本估算工具。此功能将为您的自动化项目提供即时、准确的定价。",
-      "launchingSoon": "即将推出",
-      "useQuoteForm": "如需即时报价，请使用我们的详细报价表单",
-      "getQuoteNow": "立即获取报价",
-      "projectTitle": "项目成本计算器",
-      "stepOf": "第{{current}}步，共{{total}}步"
-    },
-    "process": {
-      "title": "我们的报价流程",
-      "description": "从初始请求到详细提案，我们确保流程顺畅透明。",
-      "submit": {
-        "title": "提交请求",
-        "description": "填写我们的综合报价表单或使用我们的成本计算器"
-      },
-      "review": {
-        "title": "技术审查",
-        "description": "我们的工程团队分析您的要求和规格"
-      },
-      "assessment": {
-        "title": "现场评估",
-        "description": "复杂项目的可选现场访问（如有需要）"
-      },
-      "quote": {
-        "title": "详细报价",
-        "description": "获得包含时间表和交付成果的全面定价"
-      }
-    },
-    "cta": {
-      "title": "准备开始了吗？",
-      "description": "今天就联系我们获取您的定制工程解决方案。我们的团队随时准备帮助您实现项目。"
-    },
-    "projectTypes": {
-      "processAutomation": "流程自动化",
-      "powerControlSystems": "电力控制系统",
-      "instrumentationControl": "仪表与控制",
-      "solarAutomation": "太阳能自动化",
-      "buildingAutomation": "楼宇自动化",
-      "manufacturingAutomation": "制造自动化"
-    },
-    "industries": {
-      "manufacturing": "制造业",
-      "powerGeneration": "发电",
-      "oilGas": "石油天然气",
-      "chemicalProcessing": "化学处理",
-      "waterTreatment": "水处理",
-      "foodBeverage": "食品饮料",
-      "pharmaceutical": "制药",
-      "renewableEnergy": "可再生能源"
-    },
-    "projectSizes": {
-      "small": "小型（1-10个I/O点）",
-      "medium": "中型（11-100个I/O点）",
-      "large": "大型（101-500个I/O点）",
-      "enterprise": "企业级（500+个I/O点）"
-    },
-    "timelines": {
-      "urgent": "紧急（< 3个月）",
-      "standard": "标准（3-6个月）",
-      "extended": "延长（6-12个月）",
-      "longTerm": "长期（12+个月）"
-    },
-    "requirements": {
-      "plcProgramming": "PLC编程",
-      "scadaDevelopment": "SCADA开发",
-      "hmiDesign": "HMI设计",
-      "networkIntegration": "网络集成",
-      "safetySystems": "安全系统",
-      "remoteMonitoring": "远程监控",
-      "dataAnalytics": "数据分析",
-      "mobileApp": "移动应用接口"
-    },
-    "additionalFeatures": {
-      "redundancy": "系统冗余",
-      "cybersecurity": "高级网络安全",
-      "iotIntegration": "物联网集成",
-      "aiMl": "AI/ML分析",
-      "predictiveMaintenance": "预测性维护",
-      "energyManagement": "能源管理",
-      "cloudIntegration": "云集成",
-      "trainingSupport": "培训和扩展支持"
+  "career": {
+    "seo": {
+      "title": "Careers at Powerton Engineering - Join Our Engineering Team",
+      "description": "Explore career opportunities at Powerton Engineering. Join our team of skilled engineers and contribute to innovative industrial automation and electrical engineering projects.",
+      "keywords": "powerton engineering careers, engineering jobs, electrical engineer jobs, automation engineer jobs, industrial engineering careers, engineering jobs noida"
     },
     "hero": {
-      "title": "获取专业工程报价",
-      "subtitle": "联系我们的专家团队，为您的工业需求量身定制自动化和仪表解决方案。",
-      "benefits": {
-        "consultation": "免费技术咨询",
-        "response": "24-48小时响应时间",
-        "estimates": "详细成本估算",
-        "noCosts": "无隐藏费用"
-      }
+      "imageAlt": "Professional engineering workspace with modern industrial facility equipment"
     },
     "benefits": {
-      "assessment": {
-        "title": "详细评估",
-        "description": "全面的项目评估和技术规格"
+      "careerGrowth": {
+        "title": "Career Growth",
+        "description": "Structured career progression with regular performance reviews and promotion opportunities."
       },
-      "response": {
-        "title": "快速响应",
-        "description": "在24-48小时内收到您的详细报价"
+      "learningDevelopment": {
+        "title": "Learning & Development",
+        "description": "Continuous training programs, certifications, and skill enhancement opportunities."
       },
-      "consultation": {
-        "title": "专家咨询",
-        "description": "与我们工程团队的免费技术咨询"
+      "workLifeBalance": {
+        "title": "Work-Life Balance",
+        "description": "Flexible working hours and comprehensive health benefits for employees and families."
       },
-      "solutions": {
-        "title": "定制解决方案",
-        "description": "针对您特定需求的定制工程解决方案"
+      "teamCulture": {
+        "title": "Team Culture",
+        "description": "Collaborative work environment with supportive team members and open communication."
+      },
+      "recognitionRewards": {
+        "title": "Recognition & Rewards",
+        "description": "Performance-based incentives, bonuses, and recognition programs for outstanding work."
+      },
+      "innovationFocus": {
+        "title": "Innovation Focus",
+        "description": "Work on cutting-edge technologies and innovative solutions in industrial automation."
       }
-    },
-    "method": {
-      "title": "选择您的报价方式",
-      "description": "选择最方便的方式获取项目报价。两种选择都提供全面的定价和技术规格。",
-      "calculator": "智能计算器",
-      "request": "报价请求"
     }
   }
 }

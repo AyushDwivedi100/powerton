@@ -214,7 +214,8 @@
       "education": "التعليم/المؤهلات",
       "expectedSalary": "الراتب المتوقع",
       "technicalSkills": "المهارات التقنية والخبرة",
-      "coverLetter": "خطاب التغطية والدافع"
+      "coverLetter": "خطاب التغطية والدافع",
+      "resume": "CV/Resume"
     },
     "buttons": {
       "submit": "تقديم الطلب",
@@ -259,6 +260,17 @@
       "twoMonths": "شهران فترة إشعار",
       "threeMonths": "3 أشهر فترة إشعار",
       "moreThanThree": "أكثر من 3 أشهر فترة إشعار"
+    },
+    "helpers": {
+      "resumeFormat": "Accepted formats: PDF, DOC, DOCX (Max size: 5MB)"
+    },
+    "success": {
+      "title": "Application Submitted Successfully!",
+      "description": "Thank you for applying! We will review your application and contact you within 2-3 business days."
+    },
+    "error": {
+      "title": "Application Submission Failed",
+      "description": "Please try again or contact us directly at {{phone}} or {{email}}"
     }
   }
 }

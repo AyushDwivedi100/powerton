@@ -30,33 +30,33 @@ export default function Career() {
   const benefits = [
     {
       icon: TrendingUp,
-      title: "Career Growth",
-      description: "Structured career progression with regular performance reviews and promotion opportunities."
+      title: t('pages:career.benefits.careerGrowth.title'),
+      description: t('pages:career.benefits.careerGrowth.description')
     },
     {
       icon: GraduationCap,
-      title: "Learning & Development",
-      description: "Continuous training programs, certifications, and skill enhancement opportunities."
+      title: t('pages:career.benefits.learningDevelopment.title'),
+      description: t('pages:career.benefits.learningDevelopment.description')
     },
     {
       icon: Heart,
-      title: "Work-Life Balance",
-      description: "Flexible working hours and comprehensive health benefits for employees and families."
+      title: t('pages:career.benefits.workLifeBalance.title'),
+      description: t('pages:career.benefits.workLifeBalance.description')
     },
     {
       icon: Users,
-      title: "Team Culture",
-      description: "Collaborative work environment with supportive team members and open communication."
+      title: t('pages:career.benefits.teamCulture.title'),
+      description: t('pages:career.benefits.teamCulture.description')
     },
     {
       icon: Award,
-      title: "Recognition & Rewards",
-      description: "Performance-based incentives, bonuses, and recognition programs for outstanding work."
+      title: t('pages:career.benefits.recognitionRewards.title'),
+      description: t('pages:career.benefits.recognitionRewards.description')
     },
     {
       icon: Target,
-      title: "Innovation Focus",
-      description: "Work on cutting-edge technologies and innovative solutions in industrial automation."
+      title: t('pages:career.benefits.innovationFocus.title'),
+      description: t('pages:career.benefits.innovationFocus.description')
     }
   ];
 
@@ -64,9 +64,9 @@ export default function Career() {
   return (
     <>
       <SEO
-        title="Careers at Powerton Engineering - Join Our Engineering Team"
-        description="Explore career opportunities at Powerton Engineering. Join our team of skilled engineers and contribute to innovative industrial automation and electrical engineering projects."
-        keywords="powerton engineering careers, engineering jobs, electrical engineer jobs, automation engineer jobs, industrial engineering careers, engineering jobs noida"
+        title={t('pages:career.seo.title')}
+        description={t('pages:career.seo.description')}
+        keywords={t('pages:career.seo.keywords')}
         canonicalUrl="https://powertonengineering.in/career"
       />
 
@@ -75,7 +75,7 @@ export default function Career() {
         <div className="absolute inset-0">
           <img 
             src={careerHeroImage} 
-            alt="ID-900: Professional engineering workspace with modern industrial facility equipment" 
+            alt={t('pages:career.hero.imageAlt')} 
             className="w-full h-full object-cover"
           />
         </div>

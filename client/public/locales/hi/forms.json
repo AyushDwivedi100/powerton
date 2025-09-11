@@ -71,7 +71,8 @@
     },
     "sections": {
       "contactInfo": "Contact Information",
-      "requiredServices": "Required Services *"
+      "requiredServices": "Required Services *",
+      "technicalSpecifications": "Technical Specifications"
     },
     "error": {
       "title": "Quote submission failed",
@@ -134,11 +135,20 @@
       },
       "additionalRequirements": {
         "label": "Additional Requirements"
+      },
+      "name": {
+        "label": "Full Name *"
+      },
+      "email": {
+        "label": "Email Address *"
       }
     },
     "submitting": "Submitting Quote Request...",
     "buttons": {
-      "getProfessionalQuote": "Get Professional Quote"
+      "getProfessionalQuote": "Get Professional Quote",
+      "submitRequest": "Submit Quote Request",
+      "callUrgent": "Call for Urgent Requirements",
+      "emailRequirements": "Email Requirements"
     },
     "industries": {
       "manufacturing": "Manufacturing",
@@ -149,7 +159,28 @@
       "chemical": "Chemical",
       "renewableEnergy": "Renewable Energy",
       "infrastructure": "Infrastructure",
-      "other": "Other"
+      "other": "Other",
+      "oilGas": "Oil & Gas"
+    },
+    "projectScale": {
+      "small": "Small Scale (< 10 I/O points)",
+      "medium": "Medium Scale (10-100 I/O points)",
+      "large": "Large Scale (100-500 I/O points)",
+      "enterprise": "Enterprise (500+ I/O points)"
+    },
+    "process": {
+      "heading": "What happens next?",
+      "steps": {
+        "technicalReview": "Technical review within 24 hours",
+        "detailedProposal": "Detailed proposal with specifications",
+        "costBreakdown": "Cost breakdown and timeline",
+        "followUpCall": "Follow-up consultation call"
+      }
+    },
+    "assistance": {
+      "heading": "Need immediate assistance?",
+      "technicalTeam": "+91-94627-71662 (Technical Team)",
+      "email": "info@powertonengineering.com"
     }
   },
   "career": {
@@ -183,7 +214,8 @@
       "education": "शिक्षा/योग्यता",
       "expectedSalary": "अपेक्षित वेतन",
       "technicalSkills": "तकनीकी कौशल और विशेषज्ञता",
-      "coverLetter": "कवर लेटर और प्रेरणा"
+      "coverLetter": "कवर लेटर और प्रेरणा",
+      "resume": "CV/Resume"
     },
     "buttons": {
       "submit": "आवेदन जमा करें",
@@ -228,6 +260,17 @@
       "twoMonths": "2 महीने की नोटिस अवधि",
       "threeMonths": "3 महीने की नोटिस अवधि",
       "moreThanThree": "3 महीने से अधिक नोटिस"
+    },
+    "helpers": {
+      "resumeFormat": "Accepted formats: PDF, DOC, DOCX (Max size: 5MB)"
+    },
+    "success": {
+      "title": "Application Submitted Successfully!",
+      "description": "Thank you for applying! We will review your application and contact you within 2-3 business days."
+    },
+    "error": {
+      "title": "Application Submission Failed",
+      "description": "Please try again or contact us directly at {{phone}} or {{email}}"
     }
   }
 }
