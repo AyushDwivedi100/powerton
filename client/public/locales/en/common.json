@@ -50,6 +50,10 @@
     "contactProtectionExperts": "Contact Protection Experts",
     "contactSolarExperts": "Contact Solar Experts"
   },
+  "chatbot": {
+    "welcome": "Hello! Welcome to Powerton Engineering. I'm here to help you learn about our industrial automation solutions.",
+    "fallback": "For detailed assistance, please contact our team at +91-94627-71662 or +91-82997-27291 or email info@powertonengineering.com"
+  },
   "messages": {
     "close": "Close",
     "imageNotFound": "Image not found",

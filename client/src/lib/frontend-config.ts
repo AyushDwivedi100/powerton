@@ -26,11 +26,12 @@ export const FRONTEND_CONFIG = {
   chatbot: {
     // Use static keyword-based responses
     mode: 'static' as const,
-    welcomeMessage: "Hello! Welcome to Powerton Engineering. I'm here to help you learn about our industrial automation solutions.",
-    fallbackMessage: "For detailed assistance, please contact our team at +91-94627-71662 or +91-82997-27291 or email info@powertonengineering.com"
+    // Messages will be handled by translation keys in components
+    welcomeMessageKey: 'common:chatbot.welcome',
+    fallbackMessageKey: 'common:chatbot.fallback'
   },
   
-  // Company information
+  // Company information (static data - actual values come from translations)
   company: {
     name: 'Powerton Engineering Pvt. Ltd.',
     email: 'info@powertonengineering.com',
