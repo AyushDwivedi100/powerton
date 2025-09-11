@@ -615,6 +615,30 @@
         },
         "readMore": "Leia Mais →"
       }
+    },
+    "title": "News",
+    "subtitle": "Updates",
+    "badges": {
+      "awardWinning": "Award Winning",
+      "growingStrong": "Growing Strong",
+      "futureReady": "Future Ready"
+    },
+    "latestNews": {
+      "excellenceAward": {
+        "title": "Powerton Engineering Wins Excellence Award 2024",
+        "category": "Awards",
+        "excerpt": "Recognized for outstanding innovation in industrial automation and electrical engineering solutions."
+      },
+      "ntpcContract": {
+        "title": "Major NTPC Contract Secured for Power Plant Automation",
+        "category": "Contracts",
+        "excerpt": "Awarded comprehensive automation contract for 500MW thermal power plant modernization project."
+      },
+      "renewableExpansion": {
+        "title": "Expanding Renewable Energy Solutions Across India",
+        "category": "Expansion",
+        "excerpt": "New solar EPC capabilities and partnerships to support India's renewable energy transition."
+      }
     }
   },
   "backToProducts": "Voltar aos Produtos",
