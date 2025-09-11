@@ -1,0 +1,207 @@
+{
+  "projects": {
+    "tabs": {
+      "portfolio": "[TRANSLATE] Project Portfolio",
+      "showcase": "[TRANSLATE] Featured Projects"
+    }
+  },
+  "notFound": {
+    "seo": {
+      "title": "[TRANSLATE] Page Not Found (404) - Powerton Engineering",
+      "description": "[TRANSLATE] The page you're looking for doesn't exist. Return to Powerton Engineering homepage or explore our industrial automation services and products."
+    },
+    "heading": "[TRANSLATE] Page Not Found",
+    "message": "[TRANSLATE] The page you're looking for doesn't exist. It may have been moved, deleted, or you entered the wrong URL.",
+    "quickLinks": "[TRANSLATE] Quick links to popular sections:",
+    "buttons": {
+      "homepage": "[TRANSLATE] Return to Homepage",
+      "support": "[TRANSLATE] Contact Support"
+    },
+    "links": {
+      "products": "[TRANSLATE] Products",
+      "services": "[TRANSLATE] Services",
+      "projects": "[TRANSLATE] Projects",
+      "about": "[TRANSLATE] About"
+    }
+  },
+  "portfolioDownload": {
+    "seo": {
+      "title": "[TRANSLATE] Download Portfolio - Powerton Engineering",
+      "description": "[TRANSLATE] Download comprehensive portfolio documents showcasing Powerton Engineering's industrial automation projects, capabilities, and achievements."
+    },
+    "title": "[TRANSLATE] Portfolio Downloads",
+    "subtitle": "[TRANSLATE] Access comprehensive documentation of our industrial automation projects, capabilities, and engineering excellence. Download detailed portfolios to learn more about our work.",
+    "features": {
+      "projects": {
+        "title": "[TRANSLATE] 1200+ Projects",
+        "description": "[TRANSLATE] Successfully completed projects across various industries"
+      },
+      "documentation": {
+        "title": "[TRANSLATE] High-Quality Documentation",
+        "description": "[TRANSLATE] Professional portfolio with detailed project imagery"
+      },
+      "results": {
+        "title": "[TRANSLATE] Verified Results",
+        "description": "[TRANSLATE] Real projects with measurable outcomes and client testimonials"
+      }
+    },
+    "items": {
+      "complete": {
+        "title": "[TRANSLATE] Complete Company Portfolio",
+        "description": "[TRANSLATE] Comprehensive portfolio showcasing all our industrial automation projects, capabilities, and achievements."
+      },
+      "automation": {
+        "title": "[TRANSLATE] Industrial Automation Projects",
+        "description": "[TRANSLATE] Focused collection of our automation and control system implementations across various industries."
+      },
+      "electrical": {
+        "title": "[TRANSLATE] Power Systems & Electrical",
+        "description": "[TRANSLATE] Documentation of power distribution, electrical control panels, and energy management projects."
+      },
+      "caseStudies": {
+        "title": "[TRANSLATE] Project Case Studies",
+        "description": "[TRANSLATE] Detailed case studies of our most successful industrial automation implementations with technical insights."
+      }
+    },
+    "categories": {
+      "allProjects": "[TRANSLATE] All Projects",
+      "companyOverview": "[TRANSLATE] Company Overview",
+      "certifications": "[TRANSLATE] Certifications",
+      "clientTestimonials": "[TRANSLATE] Client Testimonials",
+      "processAutomation": "[TRANSLATE] Process Automation",
+      "controlSystems": "[TRANSLATE] Control Systems",
+      "scada": "[TRANSLATE] SCADA",
+      "plcProgramming": "[TRANSLATE] PLC Programming",
+      "powerDistribution": "[TRANSLATE] Power Distribution",
+      "controlPanels": "[TRANSLATE] Control Panels",
+      "motorControlCenters": "[TRANSLATE] Motor Control Centers",
+      "energyManagement": "[TRANSLATE] Energy Management",
+      "caseStudies": "[TRANSLATE] Case Studies",
+      "technicalSolutions": "[TRANSLATE] Technical Solutions",
+      "roiAnalysis": "[TRANSLATE] ROI Analysis",
+      "implementationStrategies": "[TRANSLATE] Implementation Strategies"
+    },
+    "pages": "[TRANSLATE] pages",
+    "includes": "[TRANSLATE] Includes",
+    "requestDownload": "[TRANSLATE] Request Download",
+    "custom": {
+      "title": "[TRANSLATE] Need a Custom Portfolio?",
+      "description": "[TRANSLATE] Looking for specific project information or a customized portfolio for your industry? Contact our team to get tailored documentation."
+    },
+    "disclaimer": {
+      "note": "[TRANSLATE] Note",
+      "text": "[TRANSLATE] Portfolio documents are provided for informational purposes. For the most current information and specific project details, please contact our team directly. Some project details may be confidential and available only under NDA."
+    },
+    "alert": {
+      "downloading": "[TRANSLATE] Downloading",
+      "contactMessage": "[TRANSLATE] To get access to our portfolio documents, please contact us directly at info@powertonengineering.com or call +91-94627-71662."
+    }
+  },
+  "quote": {
+    "timelines": {
+      "urgent": "[TRANSLATE] Urgent (< 3 months)",
+      "standard": "[TRANSLATE] Standard (3-6 months)",
+      "extended": "[TRANSLATE] Extended (6-12 months)",
+      "longTerm": "[TRANSLATE] Long-term (12+ months)"
+    }
+  },
+  "gallery": {
+    "hero": {
+      "title": "[TRANSLATE] Our Gallery",
+      "subtitle": "[TRANSLATE] Discover our journey through images - from our dedicated team and modern facilities to successful projects and comprehensive product range."
+    },
+    "company": {
+      "images": {
+        "modernFacility": {
+          "title": "[TRANSLATE] Modern Engineering Facility",
+          "description": "[TRANSLATE] Our state-of-the-art facility in Noida equipped with latest testing equipment"
+        },
+        "expertTeam": {
+          "title": "[TRANSLATE] Expert Engineering Team",
+          "description": "[TRANSLATE] Our skilled engineers working on industrial automation solutions"
+        },
+        "qualityLab": {
+          "title": "[TRANSLATE] Quality Control Laboratory",
+          "description": "[TRANSLATE] Advanced testing lab ensuring product quality and reliability"
+        },
+        "trainingCenter": {
+          "title": "[TRANSLATE] Training & Development Center",
+          "description": "[TRANSLATE] Continuous skill development for our technical team"
+        },
+        "supportCenter": {
+          "title": "[TRANSLATE] Customer Support Center",
+          "description": "[TRANSLATE] Dedicated 24/7 customer support and technical assistance"
+        },
+        "rdWing": {
+          "title": "[TRANSLATE] Research & Development Wing",
+          "description": "[TRANSLATE] Innovation hub for developing cutting-edge automation solutions"
+        }
+      },
+      "categories": {
+        "facility": "[TRANSLATE] Facility",
+        "team": "[TRANSLATE] Team",
+        "training": "[TRANSLATE] Training",
+        "support": "[TRANSLATE] Support",
+        "rd": "[TRANSLATE] R&D"
+      }
+    },
+    "projects": {
+      "images": {
+        "controlPanel": {
+          "title": "[TRANSLATE] Industrial Control Panel Installation",
+          "description": "[TRANSLATE] Complete automation system implementation for manufacturing plant",
+          "client": "[TRANSLATE] Manufacturing Industry"
+        }
+      },
+      "categories": {
+        "automation": "[TRANSLATE] Automation",
+        "solarEpc": "[TRANSLATE] Solar EPC"
+      }
+    },
+    "ui": {
+      "viewLarger": "[TRANSLATE] View Larger",
+      "downloadImage": "[TRANSLATE] Download Image",
+      "requestDownload": "[TRANSLATE] Request Download",
+      "needCustomPortfolio": "[TRANSLATE] Need Custom Portfolio?",
+      "contactUs": "[TRANSLATE] Contact us for a personalized project portfolio showcasing our work relevant to your industry.",
+      "imageNotFound": "[TRANSLATE] Image not found",
+      "noImagesFound": "[TRANSLATE] No images found for this category",
+      "allCategories": "[TRANSLATE] All Categories",
+      "year": "[TRANSLATE] Year",
+      "location": "[TRANSLATE] Location",
+      "client": "[TRANSLATE] Client",
+      "category": "[TRANSLATE] Category"
+    },
+    "sections": {
+      "projects": {
+        "title": "[TRANSLATE] Our Completed Projects",
+        "description": "[TRANSLATE] Explore our successful project implementations across various industries, showcasing our expertise and commitment to quality."
+      },
+      "products": {
+        "title": "[TRANSLATE] Our Products & Solutions",
+        "description": "[TRANSLATE] Discover our comprehensive range of industrial products and solutions from leading global manufacturers."
+      }
+    }
+  },
+  "ui": {
+    "projectPortfolio": "[TRANSLATE] Project Portfolio",
+    "featuredProjects": "[TRANSLATE] Featured Projects"
+  },
+  "sitemap": {
+    "quickActions": {
+      "title": "[TRANSLATE] Need Help Finding Something?",
+      "description": "[TRANSLATE] Can't find what you're looking for? Contact us directly or use our intelligent chatbot available on every page.",
+      "contactUs": "[TRANSLATE] Contact Us",
+      "requestQuote": "[TRANSLATE] Request Quote"
+    }
+  },
+  "portfolio": {
+    "features": {
+      "completedProjects": "[TRANSLATE] Successfully completed projects across various industries",
+      "highQuality": "[TRANSLATE] High-Quality Documentation",
+      "highQualityDesc": "[TRANSLATE] Professional portfolio with detailed project imagery",
+      "verifiedResults": "[TRANSLATE] Verified Results",
+      "verifiedResultsDesc": "[TRANSLATE] Real projects with measurable outcomes and client testimonials"
+    }
+  }
+}

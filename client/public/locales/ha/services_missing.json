@@ -1,0 +1,19 @@
+{
+  "features": {
+    "installation-commissioning": {
+      "plc-dcs": "[TRANSLATE] PLC/DCS Installation",
+      "system-integration": "[TRANSLATE] System Integration",
+      "performance-testing": "[TRANSLATE] Performance Testing",
+      "compliance-certification": "[TRANSLATE] Compliance Certification"
+    },
+    "maintenance-repair": {
+      "preventive": "[TRANSLATE] Preventive Maintenance",
+      "emergency": "[TRANSLATE] Emergency Repairs (2hr)",
+      "replacement": "[TRANSLATE] Component Replacement",
+      "upgrades": "[TRANSLATE] System Upgrades"
+    },
+    "calibration-testing": {
+      "nabl-certified": "[TRANSLATE] NABL Certified Calibration"
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "quote": {
+    "sections": {
+      "contactInfo": "[TRANSLATE] Contact Information"
+    },
+    "error": {
+      "title": "[TRANSLATE] Quote submission failed",
+      "description": "[TRANSLATE] For immediate assistance: {{phone}} or email: {{email}}"
+    }
+  }
+}
