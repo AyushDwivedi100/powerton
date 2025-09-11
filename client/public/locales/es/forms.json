@@ -7,9 +7,9 @@
         "error": "El nombre es obligatorio"
       },
       "email": {
-        "label": "Dirección de correo",
-        "placeholder": "Ingrese su dirección de correo",
-        "error": "Por favor ingrese una dirección de correo válida"
+        "label": "Dirección de correo electrónico",
+        "placeholder": "Ingrese su dirección de correo electrónico",
+        "error": "Por favor ingrese una dirección de correo electrónico válida"
       },
       "phone": {
         "label": "Número de teléfono",
@@ -49,107 +49,138 @@
     }
   },
   "quote": {
+    "fields": {
+      "name": {
+        "label": "Nombre completo *"
+      },
+      "email": {
+        "label": "Dirección de correo electrónico *"
+      },
+      "designation": {
+        "label": "Cargo/Designación"
+      },
+      "additionalRequirements": {
+        "label": "Requisitos adicionales"
+      }
+    },
     "sections": {
-      "contactInfo": "Contact Information",
-      "requiredServices": "Required Services *"
+      "contactInfo": "Información de contacto",
+      "requiredServices": "Servicios requeridos *",
+      "technicalSpecifications": "Especificaciones técnicas"
     },
     "error": {
-      "title": "Quote submission failed",
-      "description": "For immediate assistance: {{phone}} or email: {{email}}"
+      "title": "Error al enviar la cotización",
+      "description": "Para asistencia inmediata: {{phone}} o email: {{email}}"
     },
     "projectTypes": {
-      "newInstallation": "Nueva Instalación",
-      "systemUpgrade": "Actualización del Sistema",
+      "newInstallation": "Nueva instalación",
+      "systemUpgrade": "Actualización del sistema",
       "retrofit": "Modernización",
-      "maintenance": "Maintenance Contract",
-      "consultation": "Technical Consultation",
-      "design": "Design & Engineering"
+      "maintenance": "Contrato de mantenimiento",
+      "consultation": "Consulta técnica",
+      "design": "Diseño e ingeniería"
     },
     "timelines": {
-      "immediate": "Immediate (< 1 month)",
-      "1-3-months": "1-3 months",
-      "3-6-months": "3-6 months",
-      "6-12-months": "6-12 months",
-      "1-year-plus": "More than 1 year"
+      "immediate": "Inmediato (< 1 mes)",
+      "1-3-months": "1-3 meses",
+      "3-6-months": "3-6 meses",
+      "6-12-months": "6-12 meses",
+      "1-year-plus": "Más de 1 año"
     },
     "budgetRanges": {
-      "under-1-lakh": "Under ₹1 Lakh",
+      "under-1-lakh": "Menos de ₹1 Lakh",
       "1-5-lakh": "₹1-5 Lakhs",
       "5-10-lakh": "₹5-10 Lakhs",
       "10-25-lakh": "₹10-25 Lakhs",
       "25-50-lakh": "₹25-50 Lakhs",
       "50-lakh-plus": "₹50 Lakhs+",
-      "discuss": "Prefer to discuss"
+      "discuss": "Prefiero discutir"
     },
     "validation": {
-      "nameMin": "Name must be at least 2 characters",
-      "emailInvalid": "Please enter a valid email address",
-      "phoneMin": "Please enter a valid phone number",
-      "companyRequired": "Company name is required",
-      "projectTitleRequired": "Project title is required",
-      "projectTypeRequired": "Please select a project type",
-      "timelineRequired": "Please select expected timeline",
-      "servicesRequired": "Please select at least one service",
-      "specificationsMin": "Please provide detailed specifications (minimum 20 characters)",
-      "nameRequired": "Name is required",
-      "phoneRequired": "Phone number is required",
-      "subjectRequired": "Subject is required",
-      "messageRequired": "Message is required",
-      "firstNameRequired": "First name is required",
-      "lastNameRequired": "Last name is required",
-      "invalidEmail": "Invalid email address",
-      "selectService": "Please select a service",
-      "projectDetailsRequired": "Project details are required"
+      "nameRequired": "El nombre es obligatorio",
+      "phoneRequired": "El número de teléfono es obligatorio",
+      "subjectRequired": "El asunto es obligatorio",
+      "messageRequired": "El mensaje es obligatorio",
+      "firstNameRequired": "El nombre es obligatorio",
+      "lastNameRequired": "El apellido es obligatorio",
+      "invalidEmail": "Dirección de correo electrónico inválida",
+      "selectService": "Por favor seleccione un servicio",
+      "projectDetailsRequired": "Los detalles del proyecto son obligatorios",
+      "nameMin": "El nombre debe tener al menos 2 caracteres",
+      "emailInvalid": "Por favor ingrese una dirección de correo electrónico válida",
+      "phoneMin": "Por favor ingrese un número de teléfono válido",
+      "companyRequired": "El nombre de la empresa es obligatorio",
+      "projectTitleRequired": "El título del proyecto es obligatorio",
+      "projectTypeRequired": "Por favor seleccione un tipo de proyecto",
+      "timelineRequired": "Por favor seleccione el cronograma esperado",
+      "servicesRequired": "Por favor seleccione al menos un servicio",
+      "specificationsMin": "Por favor proporcione especificaciones detalladas (mínimo 20 caracteres)"
     },
     "success": {
-      "title": "Quote request submitted successfully!",
-      "description": "Our engineering team will review your requirements and respond within 24-48 hours."
+      "title": "¡Solicitud de cotización enviada exitosamente!",
+      "description": "Nuestro equipo de ingeniería revisará sus requisitos y responderá dentro de 24-48 horas."
     },
     "placeholders": {
-      "selectIndustry": "Select industry",
-      "selectProjectScale": "Select project scale",
-      "selectBudget": "Select budget range (optional)",
-      "detailedRequirements": "Please provide detailed specifications including:\n- Technical requirements and standards\n- Equipment specifications and quantities\n- Performance requirements\n- Environmental conditions\n- Compliance requirements\n- Any special considerations...",
-      "additionalRequirements": "Any additional requirements, special conditions, or questions...",
-      "preferredBrands": "e.g., Siemens, Allen-Bradley, Schneider..."
+      "selectIndustry": "Seleccionar industria",
+      "selectProjectScale": "Seleccionar escala del proyecto",
+      "selectBudget": "Seleccionar rango de presupuesto (opcional)",
+      "detailedRequirements": "Por favor proporcione especificaciones detalladas incluyendo:\n- Requisitos técnicos y estándares\n- Especificaciones de equipos y cantidades\n- Requisitos de rendimiento\n- Condiciones ambientales\n- Requisitos de cumplimiento\n- Cualquier consideración especial...",
+      "additionalRequirements": "Cualquier requisito adicional, condiciones especiales o preguntas...",
+      "preferredBrands": "ej. Siemens, Allen-Bradley, Schneider..."
     },
     "labels": {
-      "industryType": "Industry Type",
-      "projectScale": "Project Scale",
-      "approximateBudget": "Approximate Budget",
-      "detailedRequirements": "Detailed Requirements *",
-      "preferredBrands": "Preferred Brands/Standards",
-      "additionalRequirements": "Additional Requirements",
-      "projectTitle": "Project Title *",
-      "projectType": "Project Type *",
-      "expectedTimeline": "Expected Timeline *",
-      "phoneNumber": "Phone Number *",
-      "companyName": "Company Name *",
-      "projectInformation": "Project Information",
-      "budgetRange": "Budget Range"
+      "industryType": "Tipo de industria",
+      "projectScale": "Escala del proyecto",
+      "approximateBudget": "Presupuesto aproximado",
+      "detailedRequirements": "Requisitos detallados *",
+      "preferredBrands": "Marcas/Estándares preferidos",
+      "additionalRequirements": "Requisitos adicionales",
+      "projectTitle": "Título del proyecto *",
+      "projectType": "Tipo de proyecto *",
+      "expectedTimeline": "Cronograma esperado *",
+      "phoneNumber": "Número de teléfono *",
+      "companyName": "Nombre de la empresa *",
+      "projectInformation": "Información del proyecto",
+      "budgetRange": "Rango de presupuesto"
     },
-    "fields": {
-      "designation": {
-        "label": "Designation"
-      },
-      "additionalRequirements": {
-        "label": "Additional Requirements"
-      }
-    },
-    "submitting": "Submitting Quote Request...",
+    "submitting": "Enviando solicitud de cotización...",
     "buttons": {
-      "getProfessionalQuote": "Get Professional Quote"
+      "getProfessionalQuote": "Obtener cotización profesional",
+      "submitRequest": "Enviar solicitud de cotización",
+      "callUrgent": "Llamar para requisitos urgentes",
+      "emailRequirements": "Enviar requisitos por correo"
     },
     "industries": {
-      "manufacturing": "Manufacturing",
-      "powerGeneration": "Power Generation",
-      "waterTreatment": "Water Treatment",
-      "foodProcessing": "Food Processing",
-      "pharmaceutical": "Pharmaceutical",
-      "chemical": "Chemical",
-      "renewableEnergy": "Renewable Energy",
-      "infrastructure": "Infrastructure",
-      "other": "Other"
+      "manufacturing": "Manufactura",
+      "powerGeneration": "Generación de energía",
+      "waterTreatment": "Tratamiento de agua",
+      "foodProcessing": "Procesamiento de alimentos",
+      "pharmaceutical": "Farmacéutica",
+      "chemical": "Química",
+      "oilGas": "Petróleo y gas",
+      "renewableEnergy": "Energía renovable",
+      "infrastructure": "Infraestructura",
+      "other": "Otro"
+    },
+    "projectScale": {
+      "small": "Escala pequeña (< 10 puntos I/O)",
+      "medium": "Escala mediana (10-100 puntos I/O)",
+      "large": "Escala grande (100-500 puntos I/O)",
+      "enterprise": "Empresa (500+ puntos I/O)"
+    },
+    "process": {
+      "heading": "¿Qué sucede después?",
+      "steps": {
+        "technicalReview": "Revisión técnica dentro de 24 horas",
+        "detailedProposal": "Propuesta detallada con especificaciones",
+        "costBreakdown": "Desglose de costos y cronograma",
+        "followUpCall": "Llamada de consulta de seguimiento"
+      }
+    },
+    "assistance": {
+      "heading": "¿Necesita asistencia inmediata?",
+      "technicalTeam": "+91-94627-71662 (Equipo técnico)",
+      "email": "info@powertonengineering.com"
     }
   },
   "career": {
@@ -168,27 +199,27 @@
       "selectAvailability": "Seleccione su disponibilidad"
     },
     "labels": {
-      "title": "Únete a Nuestro Equipo de Ingeniería",
+      "title": "Únete a nuestro equipo de ingeniería",
       "subtitle": "Envía tu solicitud y forma parte de nuestro equipo de soluciones de ingeniería innovadoras",
-      "personalInfo": "Información Personal",
-      "professionalInfo": "Información Profesional",
-      "fullName": "Nombre Completo",
-      "emailAddress": "Dirección de Correo Electrónico",
-      "phoneNumber": "Número de Teléfono",
-      "residingAddress": "Dirección Actual de Residencia",
-      "specialization": "Especialización en Ingeniería",
-      "experience": "Nivel de Experiencia",
-      "currentCompany": "Empresa Actual",
-      "availability": "Disponibilidad/Período de Aviso",
+      "personalInfo": "Información personal",
+      "professionalInfo": "Información profesional",
+      "fullName": "Nombre completo",
+      "emailAddress": "Dirección de correo electrónico",
+      "phoneNumber": "Número de teléfono",
+      "residingAddress": "Dirección actual de residencia",
+      "specialization": "Especialización en ingeniería",
+      "experience": "Nivel de experiencia",
+      "currentCompany": "Empresa actual",
+      "availability": "Disponibilidad/Período de aviso",
       "education": "Educación/Calificación",
-      "expectedSalary": "Salario Esperado",
-      "technicalSkills": "Habilidades Técnicas y Experiencia",
-      "coverLetter": "Carta de Presentación y Motivación"
+      "expectedSalary": "Salario esperado",
+      "technicalSkills": "Habilidades técnicas y experiencia",
+      "coverLetter": "Carta de presentación y motivación"
     },
     "buttons": {
-      "submit": "Enviar Solicitud",
-      "submitting": "Enviando Solicitud...",
-      "uploadResume": "Subir Currículum"
+      "submit": "Enviar solicitud",
+      "submitting": "Enviando solicitud...",
+      "uploadResume": "Subir currículum"
     },
     "validation": {
       "nameMin": "El nombre debe tener al menos 2 caracteres",
@@ -199,19 +230,19 @@
       "educationRequired": "Por favor proporcione los detalles de su educación",
       "joiningTimeRequired": "Por favor especifique qué tan pronto puede unirse",
       "skillsMin": "Por favor proporcione detalles sobre sus habilidades",
-      "coverLetterMin": "Por favor escriba una carta de presentación breve (mínimo 20 caracteres)",
-      "addressMin": "Por favor proporcione su dirección completa"
+      "coverLetterMin": "Por favor escriba una breve carta de presentación (mínimo 20 caracteres)",
+      "addressMin": "Por favor proporcione su dirección completa de residencia"
     },
     "specializations": {
-      "electricalEngineering": "Ingeniería Eléctrica",
-      "automationControl": "Sistemas de Automatización y Control",
-      "instrumentation": "Ingeniería de Instrumentación",
-      "projectManagement": "Gestión de Proyectos",
-      "technicalSales": "Ventas Técnicas",
-      "fieldService": "Servicio de Campo y Comisionamiento",
-      "designEngineering": "Diseño y Desarrollo",
-      "solarRenewable": "Energía Solar y Renovable",
-      "other": "Otra Especialización"
+      "electricalEngineering": "Ingeniería eléctrica",
+      "automationControl": "Automatización y sistemas de control",
+      "instrumentation": "Ingeniería de instrumentación",
+      "projectManagement": "Gestión de proyectos",
+      "technicalSales": "Ventas técnicas",
+      "fieldService": "Servicio de campo y puesta en marcha",
+      "designEngineering": "Ingeniería de diseño y desarrollo",
+      "solarRenewable": "Energía solar y renovable",
+      "other": "Otra especialización"
     },
     "experience": {
       "fresher": "Principiante (0-1 años)",
@@ -223,11 +254,11 @@
     },
     "joiningTime": {
       "immediate": "Puede unirse inmediatamente",
-      "fifteenDays": "Período de aviso de 15 días",
-      "oneMonth": "Período de aviso de 1 mes",
-      "twoMonths": "Período de aviso de 2 meses",
-      "threeMonths": "Período de aviso de 3 meses",
-      "moreThanThree": "Aviso de más de 3 meses"
+      "fifteenDays": "15 días de período de aviso",
+      "oneMonth": "1 mes de período de aviso",
+      "twoMonths": "2 meses de período de aviso",
+      "threeMonths": "3 meses de período de aviso",
+      "moreThanThree": "Más de 3 meses de período de aviso"
     }
   }
 }
