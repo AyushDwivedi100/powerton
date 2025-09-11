@@ -47,10 +47,11 @@
     "imageNotFound": "Image not found",
     "loading": "Loading...",
     "error": "Error occurred",
-    "toggleTheme": "Toggle Theme"
+    "toggleTheme": "Toggle Theme",
+    "openMobileMenu": "Open mobile menu"
   },
   "aria": {
-    "toggleNavigation": "Toggle navigation assistant",
+    "toggleNavigation": "Toggle navigation",
     "openLocation": "Open office location in Google Maps",
     "exploreServices": "Explore our industrial automation and engineering services",
     "requestConsultation": "Request free consultation for your engineering project",
