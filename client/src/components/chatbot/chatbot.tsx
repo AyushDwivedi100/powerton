@@ -494,14 +494,14 @@ export default function Chatbot() {
     // Service Detail Responses
     if (input === 'installation-service') {
       return {
-        message: "Our installation and commissioning service ensures your equipment is set up perfectly from day one. We handle everything from site preparation to final testing and validation, with complete compliance certification.",
+        message: t('chatbot.responses.installationService'),
         options: [
-          { label: "⚙️ Equipment Installation", action: "chat", response: "installation-details" },
-          { label: "🔧 System Integration", action: "chat", response: "integration-details" },
-          { label: "✅ Performance Testing", action: "chat", response: "testing-details" },
-          { label: "📜 Compliance Certification", action: "chat", response: "certification-details" },
-          { label: "📋 Request Installation Quote", action: "external", url: "mailto:info@powertonengineering.com?subject=Installation Service Quote" },
-          { label: "🔙 Back to Services", action: "chat", response: "service-selection" }
+          { label: t('chatbot.options.equipmentInstallation'), action: "chat", response: "installation-details" },
+          { label: t('chatbot.options.systemIntegration'), action: "chat", response: "integration-details" },
+          { label: t('chatbot.options.performanceTesting'), action: "chat", response: "testing-details" },
+          { label: t('chatbot.options.complianceCertification'), action: "chat", response: "certification-details" },
+          { label: t('chatbot.options.requestInstallationQuote'), action: "external", url: "mailto:info@powertonengineering.com?subject=Installation Service Quote" },
+          { label: t('chatbot.options.backToServices'), action: "chat", response: "service-selection" }
         ]
       };
     }
@@ -509,60 +509,60 @@ export default function Chatbot() {
     // Technical Troubleshooting Responses
     if (input === 'electrical-troubleshooting') {
       return {
-        message: "Electrical issues can be complex! Common problems include power fluctuations, circuit overloads, grounding issues, and component failures. Our solutions comply with IEC 60204 and IS 732 standards for industrial electrical safety. What specific electrical problem are you experiencing?",
+        message: t('chatbot.responses.electricalTroubleshooting'),
         options: [
-          { label: "⚡ Power Supply Issues", action: "chat", response: "power-supply-help" },
-          { label: "🔌 Circuit Protection Problems", action: "chat", response: "circuit-protection-help" },
-          { label: "🌍 Grounding & Earthing Issues", action: "chat", response: "grounding-help" },
-          { label: "🔥 Overheating Components", action: "chat", response: "overheating-help" },
-          { label: "🔍 Browse Electrical Solutions", action: "page", page: "products" },
-          { label: "📧 Get Professional Diagnosis", action: "external", url: "mailto:info@powertonengineering.com?subject=Electrical System Diagnosis" },
-          { label: "🔙 Back to Troubleshooting Menu", action: "chat", response: "troubleshooting" }
+          { label: t('chatbot.options.powerSupplyIssues'), action: "chat", response: "power-supply-help" },
+          { label: t('chatbot.options.circuitProtectionProblems'), action: "chat", response: "circuit-protection-help" },
+          { label: t('chatbot.options.groundingEarthingIssues'), action: "chat", response: "grounding-help" },
+          { label: t('chatbot.options.overheatingComponents'), action: "chat", response: "overheating-help" },
+          { label: t('chatbot.options.browseElectricalSolutions'), action: "page", page: "products" },
+          { label: t('chatbot.options.getProfessionalDiagnosis'), action: "external", url: "mailto:info@powertonengineering.com?subject=Electrical System Diagnosis" },
+          { label: t('chatbot.options.backToTroubleshooting'), action: "chat", response: "troubleshooting" }
         ]
       };
     }
 
     if (input === 'sensor-troubleshooting') {
       return {
-        message: "Sensor and measurement problems often involve calibration drift, signal interference, or environmental factors. Our instruments meet ASTM and ISA standards for industrial measurement accuracy. What measurement issue are you facing?",
+        message: t('chatbot.responses.sensorTroubleshooting'),
         options: [
-          { label: "🌡️ Temperature Reading Issues", action: "chat", response: "temperature-sensor-help" },
-          { label: "📊 Pressure Measurement Problems", action: "chat", response: "pressure-sensor-help" },
-          { label: "🔄 Flow Measurement Errors", action: "chat", response: "flow-sensor-help" },
-          { label: "📏 Level Detection Issues", action: "chat", response: "level-sensor-help" },
-          { label: "🔍 Explore Sensor Solutions", action: "page", page: "products" },
-          { label: "📞 Book Calibration Service", action: "external", url: "tel:+91-94627-71662" },
-          { label: "🔙 Back to Troubleshooting Menu", action: "chat", response: "troubleshooting" }
+          { label: t('chatbot.options.temperatureReadingIssues'), action: "chat", response: "temperature-sensor-help" },
+          { label: t('chatbot.options.pressureMeasurementProblems'), action: "chat", response: "pressure-sensor-help" },
+          { label: t('chatbot.options.flowMeasurementErrors'), action: "chat", response: "flow-sensor-help" },
+          { label: t('chatbot.options.levelDetectionIssues'), action: "chat", response: "level-sensor-help" },
+          { label: t('chatbot.options.exploreSensorSolutions'), action: "page", page: "products" },
+          { label: t('chatbot.options.bookCalibrationService'), action: "external", url: "tel:+91-94627-71662" },
+          { label: t('chatbot.options.backToTroubleshooting'), action: "chat", response: "troubleshooting" }
         ]
       };
     }
 
     if (input === 'control-troubleshooting') {
       return {
-        message: "Control system issues can disrupt entire operations! Common problems include communication failures, logic errors, HMI malfunctions, and integration issues. Our systems follow IEC 61131 PLC programming standards. What control problem needs attention?",
+        message: t('chatbot.responses.controlTroubleshooting'),
         options: [
-          { label: "🖥️ PLC Programming Issues", action: "chat", response: "plc-troubleshooting" },
-          { label: "📊 SCADA Communication Problems", action: "chat", response: "scada-troubleshooting" },
-          { label: "👥 HMI Display Issues", action: "chat", response: "hmi-troubleshooting" },
-          { label: "🔗 Network Connectivity Problems", action: "chat", response: "network-troubleshooting" },
-          { label: "🔍 View Control Solutions", action: "page", page: "products" },
-          { label: "🎯 Request System Audit", action: "external", url: "mailto:info@powertonengineering.com?subject=Control System Audit Request" },
-          { label: "🔙 Back to Troubleshooting Menu", action: "chat", response: "troubleshooting" }
+          { label: t('chatbot.options.plcProgrammingIssues'), action: "chat", response: "plc-troubleshooting" },
+          { label: t('chatbot.options.scadaCommunicationProblems'), action: "chat", response: "scada-troubleshooting" },
+          { label: t('chatbot.options.hmiDisplayIssues'), action: "chat", response: "hmi-troubleshooting" },
+          { label: t('chatbot.options.networkConnectivityProblems'), action: "chat", response: "network-troubleshooting" },
+          { label: t('chatbot.options.viewControlSolutions'), action: "page", page: "products" },
+          { label: t('chatbot.options.requestSystemAudit'), action: "external", url: "mailto:info@powertonengineering.com?subject=Control System Audit Request" },
+          { label: t('chatbot.options.backToTroubleshooting'), action: "chat", response: "troubleshooting" }
         ]
       };
     }
 
     if (input === 'solar-troubleshooting') {
       return {
-        message: "Solar system problems can significantly impact energy generation! Issues often include inverter faults, panel degradation, battery problems, or monitoring failures. Our solutions comply with CEA and MNRE guidelines. What solar issue needs fixing?",
+        message: t('chatbot.responses.solarTroubleshooting'),
         options: [
-          { label: "☀️ Low Power Generation", action: "chat", response: "solar-performance-help" },
-          { label: "🔄 Inverter Faults", action: "chat", response: "inverter-troubleshooting" },
-          { label: "🔋 Battery Storage Issues", action: "chat", response: "battery-troubleshooting" },
-          { label: "📊 Monitoring System Problems", action: "chat", response: "monitoring-troubleshooting" },
-          { label: "🔍 Browse Solar Products", action: "page", page: "products" },
-          { label: "📋 Schedule Solar Inspection", action: "external", url: "mailto:info@powertonengineering.com?subject=Solar System Inspection" },
-          { label: "🔙 Back to Troubleshooting Menu", action: "chat", response: "troubleshooting" }
+          { label: t('chatbot.options.lowPowerGeneration'), action: "chat", response: "solar-performance-help" },
+          { label: t('chatbot.options.inverterFaults'), action: "chat", response: "inverter-troubleshooting" },
+          { label: t('chatbot.options.batteryStorageIssues'), action: "chat", response: "battery-troubleshooting" },
+          { label: t('chatbot.options.monitoringSystemProblems'), action: "chat", response: "monitoring-troubleshooting" },
+          { label: t('chatbot.options.browseSolarProducts'), action: "page", page: "products" },
+          { label: t('chatbot.options.scheduleSolarInspection'), action: "external", url: "mailto:info@powertonengineering.com?subject=Solar System Inspection" },
+          { label: t('chatbot.options.backToTroubleshooting'), action: "chat", response: "troubleshooting" }
         ]
       };
     }
@@ -570,28 +570,28 @@ export default function Chatbot() {
     // Testimonials and achievements
     if (input === 'client-testimonials') {
       return {
-        message: "Our customers love working with us! Anand Awasthi from West Bengal says: 'Powerton Engineering made the process seamless and easy.' Sanjay Patil from UP states: 'I would not hesitate to recommend them to any of my friends.' We've successfully served 50+ major clients across India.",
+        message: t('chatbot.responses.clientTestimonials'),
         options: [
-          { label: "🏆 Our Major Clients", action: "chat", response: "major-clients" },
-          { label: "📊 Success Stories", action: "page", page: "projects" },
-          { label: "🎯 Our Success Stories", action: "page", page: "projects" },
-          { label: "📞 Become Our Client", action: "external", url: "tel:+91-94627-71662" },
-          { label: "📧 Get in Touch", action: "external", url: "mailto:info@powertonengineering.com" },
-          { label: "🔙 Back to Company Menu", action: "chat", response: "company-info" }
+          { label: t('chatbot.options.ourMajorClients'), action: "chat", response: "major-clients" },
+          { label: t('chatbot.options.successStories'), action: "page", page: "projects" },
+          { label: t('chatbot.options.ourSuccessStories'), action: "page", page: "projects" },
+          { label: t('chatbot.options.becomeOurClient'), action: "external", url: "tel:+91-94627-71662" },
+          { label: t('chatbot.options.getInTouch'), action: "external", url: "mailto:info@powertonengineering.com" },
+          { label: t('chatbot.options.backToCompanyMenu'), action: "chat", response: "company-info" }
         ]
       };
     }
 
     if (input === 'major-clients') {
       return {
-        message: "We're proud to work with industry leaders! Our clients include Thermax, Motherson, Praj Industries, SCI Group, Agribio Ltd, DLS Group, Ankur Scientific, and many more. Each partnership strengthens our expertise and commitment to excellence.",
+        message: t('chatbot.responses.majorClients'),
         options: [
-          { label: "🏭 Manufacturing Clients", action: "page", page: "about" },
-          { label: "⚡ Power Industry Clients", action: "page", page: "about" },
-          { label: "⚗️ Chemical Industry Clients", action: "page", page: "about" },
-          { label: "📈 See Project Portfolio", action: "page", page: "projects" },
-          { label: "🤝 Partner With Us", action: "external", url: "mailto:info@powertonengineering.com?subject=Partnership Opportunity" },
-          { label: "🔙 Back to Company Menu", action: "chat", response: "company-info" }
+          { label: t('chatbot.options.manufacturingClients'), action: "page", page: "about" },
+          { label: t('chatbot.options.powerIndustryClients'), action: "page", page: "about" },
+          { label: t('chatbot.options.chemicalIndustryClients'), action: "page", page: "about" },
+          { label: t('chatbot.options.seeProjectPortfolio'), action: "page", page: "projects" },
+          { label: t('chatbot.options.partnerWithUs'), action: "external", url: "mailto:info@powertonengineering.com?subject=Partnership Opportunity" },
+          { label: t('chatbot.options.backToCompanyMenu'), action: "chat", response: "company-info" }
         ]
       };
     }
@@ -599,36 +599,36 @@ export default function Chatbot() {
     // Specific troubleshooting responses
     if (input === 'power-supply-help') {
       return {
-        message: "Power supply issues often stem from voltage fluctuations, load imbalances, or component aging. Check for proper voltage regulation, adequate current capacity, and thermal management. Our power supplies meet IEC 60950 safety standards. Need a replacement or upgrade?",
+        message: t('chatbot.responses.powerSupplyHelp'),
         options: [
-          { label: "⚡ View Power Supply Products", action: "page", page: "products" },
-          { label: "📋 Request Quote for Power Supply", action: "external", url: "mailto:info@powertonengineering.com?subject=Power Supply Quote Request" },
-          { label: "🔄 Back to Electrical Help", action: "chat", response: "electrical-troubleshooting" },
-          { label: "📞 Emergency Technical Support", action: "external", url: "tel:+91-94627-71662" }
+          { label: t('chatbot.options.viewPowerSupplyProducts'), action: "page", page: "products" },
+          { label: t('chatbot.options.requestQuoteForPowerSupply'), action: "external", url: "mailto:info@powertonengineering.com?subject=Power Supply Quote Request" },
+          { label: t('chatbot.options.backToElectricalHelp'), action: "chat", response: "electrical-troubleshooting" },
+          { label: t('chatbot.options.emergencyTechnicalSupport'), action: "external", url: "tel:+91-94627-71662" }
         ]
       };
     }
 
     if (input === 'temperature-sensor-help') {
       return {
-        message: "Temperature sensor issues include drift, response lag, or environmental interference. Check for proper calibration (±0.1°C accuracy), adequate thermal coupling, and EMI shielding. Our sensors comply with ASTM E1137 standards. What's the specific temperature range and application?",
+        message: t('chatbot.responses.temperatureSensorHelp'),
         options: [
-          { label: "🌡️ Browse Temperature Sensors", action: "page", page: "products" },
-          { label: "🔧 Request Calibration Service", action: "external", url: "mailto:info@powertonengineering.com?subject=Temperature Sensor Calibration" },
-          { label: "🔄 Back to Sensor Help", action: "chat", response: "sensor-troubleshooting" },
-          { label: "📞 Speak with Sensor Expert", action: "external", url: "tel:+91-94627-71662" }
+          { label: t('chatbot.options.browseTemperatureSensors'), action: "page", page: "products" },
+          { label: t('chatbot.options.requestCalibrationService'), action: "external", url: "mailto:info@powertonengineering.com?subject=Temperature Sensor Calibration" },
+          { label: t('chatbot.options.backToSensorHelp'), action: "chat", response: "sensor-troubleshooting" },
+          { label: t('chatbot.options.speakWithSensorExpert'), action: "external", url: "tel:+91-94627-71662" }
         ]
       };
     }
 
     if (input === 'plc-troubleshooting') {
       return {
-        message: "PLC issues range from programming errors to hardware failures. Check I/O status, communication links, and program logic. Our systems follow IEC 61131-3 standards for programming languages and IEC 61508 for functional safety. What specific PLC problem are you experiencing?",
+        message: t('chatbot.responses.plcTroubleshooting'),
         options: [
-          { label: "🖥️ View PLC Solutions", action: "page", page: "products" },
-          { label: "💻 Request Programming Service", action: "external", url: "mailto:info@powertonengineering.com?subject=PLC Programming Service" },
-          { label: "🔄 Back to Control Help", action: "chat", response: "control-troubleshooting" },
-          { label: "🚨 Emergency PLC Support", action: "external", url: "tel:+91-94627-71662" }
+          { label: t('chatbot.options.viewPlcSolutions'), action: "page", page: "products" },
+          { label: t('chatbot.options.requestProgrammingService'), action: "external", url: "mailto:info@powertonengineering.com?subject=PLC Programming Service" },
+          { label: t('chatbot.options.backToControlHelp'), action: "chat", response: "control-troubleshooting" },
+          { label: t('chatbot.options.emergencyPlcSupport'), action: "external", url: "tel:+91-94627-71662" }
         ]
       };
     }
