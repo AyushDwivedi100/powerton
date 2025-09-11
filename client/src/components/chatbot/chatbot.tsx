@@ -635,26 +635,26 @@ export default function Chatbot() {
 
     if (input === 'solar-performance-help') {
       return {
-        message: "Low solar generation can result from panel soiling, shading, inverter issues, or degradation. Check panel cleanliness, system monitoring, and compare against expected performance (typically 80% after 25 years). Our systems meet IEC 61215 and IEC 61730 standards. What's your current performance vs expected?",
+        message: t('chatbot.responses.solarPerformanceHelp'),
         options: [
-          { label: "☀️ Solar System Products", action: "page", page: "products" },
-          { label: "📊 Request Performance Analysis", action: "external", url: "mailto:info@powertonengineering.com?subject=Solar Performance Analysis" },
-          { label: "🔄 Back to Solar Help", action: "chat", response: "solar-troubleshooting" },
-          { label: "🔧 Schedule Maintenance", action: "external", url: "tel:+91-94627-71662" }
+          { label: t('chatbot.options.solarSystemProducts'), action: "page", page: "products" },
+          { label: t('chatbot.options.requestPerformanceAnalysis'), action: "external", url: "mailto:info@powertonengineering.com?subject=Solar Performance Analysis" },
+          { label: t('chatbot.options.backToSolarHelp'), action: "chat", response: "solar-troubleshooting" },
+          { label: t('chatbot.options.scheduleMaintenance'), action: "external", url: "tel:+91-94627-71662" }
         ]
       };
     }
 
     if (input === 'selection-help') {
       return {
-        message: "Choosing the right equipment is crucial for project success! I can help you navigate technical specifications, compatibility requirements, and industry standards to find the perfect solution. What type of equipment or system are you trying to select?",
+        message: t('chatbot.responses.selectionHelp'),
         options: [
-          { label: "🌡️ Sensor & Measurement Selection", action: "chat", response: "sensor-selection-help" },
-          { label: "⚡ Electrical Component Selection", action: "chat", response: "electrical-selection-help" },
-          { label: "🖥️ Control System Selection", action: "chat", response: "control-selection-help" },
-          { label: "☀️ Solar System Design", action: "chat", response: "solar-selection-help" },
-          { label: "🔍 Browse All Products", action: "page", page: "products" },
-          { label: "📞 Consultation Call", action: "external", url: "tel:+91-94627-71662" }
+          { label: t('chatbot.options.sensorMeasurementSelection'), action: "chat", response: "sensor-selection-help" },
+          { label: t('chatbot.options.electricalComponentSelection'), action: "chat", response: "electrical-selection-help" },
+          { label: t('chatbot.options.controlSystemSelection'), action: "chat", response: "control-selection-help" },
+          { label: t('chatbot.options.solarSystemDesign'), action: "chat", response: "solar-selection-help" },
+          { label: t('chatbot.options.browseAllProducts'), action: "page", page: "products" },
+          { label: t('chatbot.options.consultationCall'), action: "external", url: "tel:+91-94627-71662" }
         ]
       };
     }
@@ -662,53 +662,53 @@ export default function Chatbot() {
     // Natural language product searches with standards
     if (input.includes('sensor') || input.includes('temperature') || input.includes('pressure') || input.includes('measurement')) {
       return {
-        message: "I can help you find the right sensors! We offer precision instruments with high accuracy: temperature (-40°C to +125°C), pressure (vacuum to 7500 PSI), flow, and level measurement. All certified to ASTM, ISA, and IEC standards for industrial applications. Visit our products page for detailed specifications.",
+        message: t('chatbot.responses.sensorSearch'),
         options: [
-          { label: "🌡️ Temperature Measurement", action: "page", page: "products" },
-          { label: "📊 Pressure Measurement", action: "page", page: "products" },
-          { label: "🔄 Flow & Level Measurement", action: "page", page: "products" },
-          { label: "📋 Request Technical Quote", action: "external", url: "mailto:info@powertonengineering.com?subject=Sensor Technical Quote" },
-          { label: "📞 Speak with Expert", action: "external", url: "tel:+91-94627-71662" }
+          { label: t('chatbot.options.temperatureMeasurement'), action: "page", page: "products" },
+          { label: t('chatbot.options.pressureMeasurement'), action: "page", page: "products" },
+          { label: t('chatbot.options.flowLevelMeasurement'), action: "page", page: "products" },
+          { label: t('chatbot.options.requestTechnicalQuote'), action: "external", url: "mailto:info@powertonengineering.com?subject=Sensor Technical Quote" },
+          { label: t('chatbot.options.speakWithExpert'), action: "external", url: "tel:+91-94627-71662" }
         ]
       };
     }
 
     if (input.includes('plc') || input.includes('automation') || input.includes('control') || input.includes('scada')) {
       return {
-        message: "Automation is our specialty! Our control systems feature PLCs with sub-millisecond response times, SCADA for real-time monitoring, and DCS for complex processes. All systems comply with IEC 61131-3 programming standards and IEC 61508 safety requirements. Visit our products page to explore detailed specifications and get a custom quote.",
+        message: t('chatbot.responses.automationSearch'),
         options: [
-          { label: "🖥️ PLC & Control Systems", action: "page", page: "products" },
-          { label: "📊 SCADA & HMI Solutions", action: "page", page: "products" },
-          { label: "🌐 Complete Automation Package", action: "page", page: "products" },
-          { label: "📋 Request Custom Quote", action: "external", url: "mailto:info@powertonengineering.com?subject=Custom Automation Quote" },
-          { label: "📞 Technical Consultation", action: "external", url: "tel:+91-94627-71662" }
+          { label: t('chatbot.options.plcControlSystems'), action: "page", page: "products" },
+          { label: t('chatbot.options.scadaHmiSolutions'), action: "page", page: "products" },
+          { label: t('chatbot.options.completeAutomationPackage'), action: "page", page: "products" },
+          { label: t('chatbot.options.requestCustomQuote'), action: "external", url: "mailto:info@powertonengineering.com?subject=Custom Automation Quote" },
+          { label: t('chatbot.options.technicalConsultation'), action: "external", url: "tel:+91-94627-71662" }
         ]
       };
     }
 
     if (input.includes('solar') || input.includes('renewable') || input.includes('green energy') || input.includes('sustainable')) {
       return {
-        message: "Solar energy is the future! We provide complete EPC services for projects from 1kW to 10MW+, all meeting CEA technical standards and MNRE guidelines. Our solutions include high-efficiency panels, smart inverters, battery storage, and monitoring systems. Visit our products page for detailed specifications and request a customized quote.",
+        message: t('chatbot.responses.solarSearch'),
         options: [
-          { label: "☀️ Complete Solar Solutions", action: "page", page: "products" },
-          { label: "🔋 Solar + Battery Systems", action: "page", page: "products" },
-          { label: "🔋 Energy Storage", action: "page", page: "product-solar-batteries-energy-storage" },
-          { label: "📊 Our Solar Projects", action: "page", page: "projects" },
-          { label: "💰 Get Solar Quote", action: "external", url: "mailto:info@powertonengineering.com?subject=Solar Project Quote" },
-          { label: "🌟 Solar EPC Services", action: "page", page: "services" }
+          { label: t('chatbot.options.completeSolarSolutions'), action: "page", page: "products" },
+          { label: t('chatbot.options.solarBatterySystems'), action: "page", page: "products" },
+          { label: t('chatbot.options.energyStorage'), action: "page", page: "product-solar-batteries-energy-storage" },
+          { label: t('chatbot.options.ourSolarProjects'), action: "page", page: "projects" },
+          { label: t('chatbot.options.getSolarQuote'), action: "external", url: "mailto:info@powertonengineering.com?subject=Solar Project Quote" },
+          { label: t('chatbot.options.solarEpcServices'), action: "page", page: "services" }
         ]
       };
     }
 
     if (input.includes('pump') || input.includes('motor') || input.includes('bldc') || input.includes('valve')) {
       return {
-        message: "Excellent choice! Our mechanical solutions include high-efficiency BLDC motors, centrifugal pumps, gear pumps, and automated valve systems meeting IE3/IE4 efficiency standards and API specifications. Visit our products page for detailed technical specifications and request a custom quote for your application.",
+        message: t('chatbot.responses.mechanicalSearch'),
         options: [
-          { label: "🔄 Motors & Drives", action: "page", page: "products" },
-          { label: "💧 Pumps & Fluid Handling", action: "page", page: "products" },
-          { label: "🔧 Valves & Actuators", action: "page", page: "products" },
-          { label: "🛠️ Spare Parts & Service", action: "page", page: "services" },
-          { label: "📋 Request Equipment Quote", action: "external", url: "mailto:info@powertonengineering.com?subject=Motor Pump Equipment Quote" },
+          { label: t('chatbot.options.motorsDrives'), action: "page", page: "products" },
+          { label: t('chatbot.options.pumpsFluidHandling'), action: "page", page: "products" },
+          { label: t('chatbot.options.valvesActuators'), action: "page", page: "products" },
+          { label: t('chatbot.options.sparePartsService'), action: "page", page: "services" },
+          { label: t('chatbot.options.requestEquipmentQuote'), action: "external", url: "mailto:info@powertonengineering.com?subject=Motor Pump Equipment Quote" },
           { label: "📞 Technical Consultation", action: "external", url: "tel:+91-94627-71662" }
         ]
       };
@@ -716,14 +716,14 @@ export default function Chatbot() {
 
     if (input.includes('calibration') || input.includes('testing') || input.includes('maintenance') || input.includes('service')) {
       return {
-        message: "Our service team is here to support you! We offer precision calibration, comprehensive testing, preventive maintenance, and 24/7 technical support to keep your systems running at peak performance.",
+        message: t('chatbot.responses.serviceSearch'),
         options: [
-          { label: "📏 Calibration Services", action: "page", page: "services" },
-          { label: "🔧 Maintenance Programs", action: "page", page: "services" },
-          { label: "⚡ Emergency Support", action: "external", url: "tel:+91-94627-71662" },
-          { label: "📚 Training Programs", action: "page", page: "services" },
-          { label: "💼 Service Contract", action: "external", url: "mailto:info@powertonengineering.com?subject=Service Contract Inquiry" },
-          { label: "🔍 All Services", action: "page", page: "services" }
+          { label: t('chatbot.options.calibrationServices'), action: "page", page: "services" },
+          { label: t('chatbot.options.maintenancePrograms'), action: "page", page: "services" },
+          { label: t('chatbot.options.emergencySupport'), action: "external", url: "tel:+91-94627-71662" },
+          { label: t('chatbot.options.trainingPrograms'), action: "page", page: "services" },
+          { label: t('chatbot.options.serviceContract'), action: "external", url: "mailto:info@powertonengineering.com?subject=Service Contract Inquiry" },
+          { label: t('chatbot.options.allServices'), action: "page", page: "services" }
         ]
       };
     }
@@ -731,7 +731,7 @@ export default function Chatbot() {
     // Contact and support queries
     if (input.includes('contact') || input.includes('phone') || input.includes('email') || input.includes('location') || input.includes('address')) {
       return {
-        message: "I'm here to connect you with our team! We're located in Noida, Sector 6, and available Monday-Saturday (9 AM - 6 PM). For immediate assistance, call us or visit our office. We're always happy to help!",
+        message: t('chatbot.responses.contactSearch'),
         options: [
           { label: "📞 Call Now (+91-94627-71662)", action: "external", url: "tel:+91-94627-71662" },
           { label: "📧 Email Us", action: "external", url: "mailto:info@powertonengineering.com" },
