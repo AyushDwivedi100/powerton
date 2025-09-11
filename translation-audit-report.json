@@ -1,5 +1,5 @@
 {
-  "timestamp": "2025-09-11T07:32:16.282Z",
+  "timestamp": "2025-09-11T07:34:32.778Z",
   "summary": {},
   "missingKeys": {
     "zh": {
@@ -700,18 +700,6 @@
         "badges.safetyGrounding"
       ],
       "forms": [
-        "quote.validation.nameRequired",
-        "quote.validation.phoneRequired",
-        "quote.validation.subjectRequired",
-        "quote.validation.messageRequired",
-        "quote.validation.firstNameRequired",
-        "quote.validation.lastNameRequired",
-        "quote.validation.invalidEmail",
-        "quote.validation.selectService",
-        "quote.validation.projectDetailsRequired",
-        "quote.sections.contactInfo",
-        "quote.error.title",
-        "quote.error.description",
         "career.placeholders.fullName",
         "career.placeholders.email",
         "career.placeholders.phone",
@@ -1366,20 +1354,7 @@
         "badges.conductors",
         "badges.safetyGrounding"
       ],
-      "forms": [
-        "quote.validation.nameRequired",
-        "quote.validation.phoneRequired",
-        "quote.validation.subjectRequired",
-        "quote.validation.messageRequired",
-        "quote.validation.firstNameRequired",
-        "quote.validation.lastNameRequired",
-        "quote.validation.invalidEmail",
-        "quote.validation.selectService",
-        "quote.validation.projectDetailsRequired",
-        "quote.sections.contactInfo",
-        "quote.error.title",
-        "quote.error.description"
-      ]
+      "forms": []
     },
     "es": {
       "common": [
@@ -2356,20 +2331,7 @@
         "badges.conductors",
         "badges.safetyGrounding"
       ],
-      "forms": [
-        "quote.validation.nameRequired",
-        "quote.validation.phoneRequired",
-        "quote.validation.subjectRequired",
-        "quote.validation.messageRequired",
-        "quote.validation.firstNameRequired",
-        "quote.validation.lastNameRequired",
-        "quote.validation.invalidEmail",
-        "quote.validation.selectService",
-        "quote.validation.projectDetailsRequired",
-        "quote.sections.contactInfo",
-        "quote.error.title",
-        "quote.error.description"
-      ]
+      "forms": []
     },
     "fr": {
       "common": [
@@ -2952,18 +2914,6 @@
         "badges.safetyGrounding"
       ],
       "forms": [
-        "quote.validation.nameRequired",
-        "quote.validation.phoneRequired",
-        "quote.validation.subjectRequired",
-        "quote.validation.messageRequired",
-        "quote.validation.firstNameRequired",
-        "quote.validation.lastNameRequired",
-        "quote.validation.invalidEmail",
-        "quote.validation.selectService",
-        "quote.validation.projectDetailsRequired",
-        "quote.sections.contactInfo",
-        "quote.error.title",
-        "quote.error.description",
         "career.placeholders.fullName",
         "career.placeholders.email",
         "career.placeholders.phone",
@@ -5727,13 +5677,13 @@
   "statistics": {
     "zh": {
       "totalKeys": 1406,
-      "missingKeys": 731,
-      "completeness": "48%",
+      "missingKeys": 719,
+      "completeness": "49%",
       "status": "Critical"
     },
     "hi": {
       "totalKeys": 1406,
-      "missingKeys": 624,
+      "missingKeys": 612,
       "completeness": "56%",
       "status": "Critical"
     },
@@ -5745,14 +5695,14 @@
     },
     "ar": {
       "totalKeys": 1406,
-      "missingKeys": 555,
+      "missingKeys": 543,
       "completeness": "61%",
       "status": "Needs Work"
     },
     "fr": {
       "totalKeys": 1406,
-      "missingKeys": 614,
-      "completeness": "56%",
+      "missingKeys": 602,
+      "completeness": "57%",
       "status": "Critical"
     },
     "pt": {

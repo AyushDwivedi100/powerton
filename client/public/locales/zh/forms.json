@@ -74,6 +74,15 @@
       "discuss": "希望讨论"
     },
     "validation": {
+      "nameRequired": "姓名是必需的",
+      "phoneRequired": "电话号码是必需的",
+      "subjectRequired": "主题是必需的",
+      "messageRequired": "消息是必需的",
+      "firstNameRequired": "名字是必需的",
+      "lastNameRequired": "姓氏是必需的",
+      "invalidEmail": "无效的电子邮件地址",
+      "selectService": "请选择一项服务",
+      "projectDetailsRequired": "项目详情是必需的",
       "nameMin": "姓名至少鄀2个字符",
       "emailInvalid": "请输入有效的电子邮件地址",
       "phoneMin": "请输入有效的电话号码",
@@ -112,7 +121,12 @@
       "budgetRange": "预算范围"
     },
     "sections": {
+      "contactInfo": "联系信息",
       "requiredServices": "所需服务 *"
+    },
+    "error": {
+      "title": "报价提交失败",
+      "description": "如需即时帮助：{{phone}} 或邮箱：{{email}}"
     },
     "submitting": "正在提交报价请求...",
     "buttons": {

@@ -74,6 +74,15 @@
       "discuss": "يفضل المناقشة"
     },
     "validation": {
+      "nameRequired": "الاسم مطلوب",
+      "phoneRequired": "رقم الهاتف مطلوب",
+      "subjectRequired": "الموضوع مطلوب",
+      "messageRequired": "الرسالة مطلوبة",
+      "firstNameRequired": "الاسم الأول مطلوب",
+      "lastNameRequired": "اسم العائلة مطلوب",
+      "invalidEmail": "عنوان بريد إلكتروني غير صحيح",
+      "selectService": "يرجى اختيار خدمة",
+      "projectDetailsRequired": "تفاصيل المشروع مطلوبة",
       "nameMin": "يجب أن يكون الاسم على الأقل حرفين",
       "emailInvalid": "يرجى إدخال عنوان بريد إلكتروني صحيح",
       "phoneMin": "يرجى إدخال رقم هاتف صحيح",
@@ -112,7 +121,12 @@
       "budgetRange": "نطاق الميزانية"
     },
     "sections": {
+      "contactInfo": "معلومات الاتصال",
       "requiredServices": "الخدمات المطلوبة *"
+    },
+    "error": {
+      "title": "فشل في إرسال طلب الاقتباس",
+      "description": "للمساعدة الفورية: {{phone}} أو البريد الإلكتروني: {{email}}"
     },
     "submitting": "إرسال طلب الاقتباس...",
     "buttons": {

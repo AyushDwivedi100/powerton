@@ -58,6 +58,15 @@
       "design": "डिज़ाइन और इंजीनियरिंग"
     },
     "validation": {
+      "nameRequired": "नाम आवश्यक है",
+      "phoneRequired": "फोन नंबर आवश्यक है",
+      "subjectRequired": "विषय आवश्यक है",
+      "messageRequired": "संदेश आवश्यक है",
+      "firstNameRequired": "पहला नाम आवश्यक है",
+      "lastNameRequired": "अंतिम नाम आवश्यक है",
+      "invalidEmail": "अमान्य ईमेल पता",
+      "selectService": "कृपया एक सेवा का चयन करें",
+      "projectDetailsRequired": "परियोजना विवरण आवश्यक है",
       "nameMin": "नाम कम से कम 2 अक्षर का होना चाहिए",
       "emailInvalid": "कृपया एक वैध ईमेल पता दर्ज करें",
       "phoneMin": "कृपया एक वैध फोन नंबर दर्ज करें",
@@ -112,7 +121,12 @@
       "discuss": "चर्चा करना पसंद है"
     },
     "sections": {
+      "contactInfo": "संपर्क जानकारी",
       "requiredServices": "आवश्यक सेवाएं *"
+    },
+    "error": {
+      "title": "कोटेशन सबमिशन विफल",
+      "description": "तत्काल सहायता के लिए: {{phone}} या ईमेल: {{email}}"
     },
     "submitting": "कोटेशन अनुरोध सबमिट कर रहे हैं...",
     "buttons": {

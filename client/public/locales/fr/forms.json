@@ -74,6 +74,15 @@
       "discuss": "Préfère discuter"
     },
     "validation": {
+      "nameRequired": "Le nom est requis",
+      "phoneRequired": "Le numéro de téléphone est requis",
+      "subjectRequired": "Le sujet est requis",
+      "messageRequired": "Le message est requis",
+      "firstNameRequired": "Le prénom est requis",
+      "lastNameRequired": "Le nom de famille est requis",
+      "invalidEmail": "Adresse e-mail invalide",
+      "selectService": "Veuillez sélectionner un service",
+      "projectDetailsRequired": "Les détails du projet sont requis",
       "nameMin": "Le nom doit comporter au moins 2 caractères",
       "emailInvalid": "Veuillez entrer une adresse e-mail valide",
       "phoneMin": "Veuillez entrer un numéro de téléphone valide",
@@ -112,7 +121,12 @@
       "budgetRange": "Fourchette Budgétaire"
     },
     "sections": {
+      "contactInfo": "Informations de Contact",
       "requiredServices": "Services Requis *"
+    },
+    "error": {
+      "title": "Échec de soumission du devis",
+      "description": "Pour une aide immédiate : {{phone}} ou email : {{email}}"
     },
     "submitting": "Soumission de la Demande de Devis...",
     "buttons": {
