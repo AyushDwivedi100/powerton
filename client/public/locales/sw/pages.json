@@ -722,5 +722,74 @@
       "verifiedResults": "Verified Results",
       "verifiedResultsDesc": "Real projects with measurable outcomes and client testimonials"
     }
+  },
+  "quote": {
+    "hero": {
+      "title": "Pata Bei ya Kitaalamu na Kokotoa ya Gharama",
+      "subtitle": "Omba bei za kina kwa miradi yako ya otomatiki. Tumia kokotoa yetu ya gharama kwa makadirio ya papo hapo au wasilisha ombi kamili la bei kwa suluhisho maalum.",
+      "benefits": {
+        "consultation": "Ushauri wa Bure wa Wataalamu",
+        "response": "Majibu ndani ya Masaa 24-48",
+        "estimates": "Makadirio Sahihi ya Gharama",
+        "noCosts": "Hakuna Gharama Zilizoficha"
+      }
+    },
+    "benefits": {
+      "assessment": {
+        "title": "Tathmini ya Kina",
+        "description": "Tathmini kamili ya mradi na vipimo vya kiufundi"
+      },
+      "response": {
+        "title": "Majibu ya Haraka",
+        "description": "Pokea bei yako ya kina ndani ya masaa 24-48"
+      },
+      "consultation": {
+        "title": "Ushauri wa Wataalamu",
+        "description": "Ushauri wa bure wa kiufundi na timu yetu ya uhandisi"
+      },
+      "solutions": {
+        "title": "Suluhisho Maalum",
+        "description": "Suluhisho za uhandisi zilizoratibiwa kwa mahitaji yako mahususi"
+      }
+    },
+    "method": {
+      "title": "Chagua Njia Yako ya Bei",
+      "description": "Chagua njia inayofaa zaidi mahitaji ya mradi wako na ratiba.",
+      "calculator": "Kokotoa ya Gharama",
+      "request": "Ombi la Bei"
+    },
+    "calculator": {
+      "title": "Kokotoa ya Hali ya Juu ya Gharama",
+      "description": "Tunamaliza zana yetu mahiri ya kukadiria gharama. Kipengele hiki kitatoa bei za papo hapo na sahihi kwa miradi yako ya otomatiki.",
+      "launchingSoon": "Inakuja Hivi Karibuni",
+      "useQuoteForm": "Kwa bei za papo hapo, tafadhali tumia fomu yetu ya kina ya bei",
+      "getQuoteNow": "Pata Bei Sasa",
+      "projectTitle": "Kokotoa ya Gharama ya Mradi",
+      "stepOf": "Hatua ya {{current}} kati ya {{total}}"
+    },
+    "process": {
+      "title": "Mchakato Wetu wa Bei",
+      "description": "Kutoka ombi la kwanza hadi pendekezo la kina, tunahakikisha mchakato laini na uwazi.",
+      "submit": {
+        "title": "Wasilisha Ombi",
+        "description": "Jaza fomu yetu kamili ya bei au tumia kokotoa yetu ya gharama"
+      },
+      "review": {
+        "title": "Mapitio ya Kiufundi",
+        "description": "Timu yetu ya uhandisi inachambua mahitaji na vipimo vyako"
+      },
+      "assessment": {
+        "title": "Tathmini ya Tovuti",
+        "description": "Ziara ya hiari ya tovuti kwa miradi ngumu (ikiwa inahitajika)"
+      },
+      "quote": {
+        "title": "Bei ya Kina",
+        "description": "Pokea bei kamili pamoja na ratiba na vitu vya kutolewa"
+      }
+    },
+    "cta": {
+      "title": "Uko Tayari Kuanza?",
+      "description": "Wasiliana nasi leo kwa suluhisho lako maalum la uhandisi. Timu yetu iko tayari kusaidia kuleta mradi wako uhai."
+    }
   }
 }

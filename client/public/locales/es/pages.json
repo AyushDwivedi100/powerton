@@ -876,5 +876,74 @@
   "ui": {
     "projectPortfolio": "Project Portfolio",
     "featuredProjects": "Featured Projects"
+  },
+  "quote": {
+    "hero": {
+      "title": "Obtener Cotización Profesional y Calculadora de Costos",
+      "subtitle": "Solicite precios detallados para sus proyectos de automatización. Use nuestra calculadora de costos para estimaciones instantáneas o envíe una solicitud de cotización integral para soluciones personalizadas.",
+      "benefits": {
+        "consultation": "Consulta Gratuita de Expertos",
+        "response": "Respuesta en 24-48 Horas",
+        "estimates": "Estimaciones de Costos Precisas",
+        "noCosts": "Sin Costos Ocultos"
+      }
+    },
+    "benefits": {
+      "assessment": {
+        "title": "Evaluación Detallada",
+        "description": "Evaluación integral del proyecto y especificaciones técnicas"
+      },
+      "response": {
+        "title": "Respuesta Rápida",
+        "description": "Reciba su cotización detallada en 24-48 horas"
+      },
+      "consultation": {
+        "title": "Consulta de Expertos",
+        "description": "Consulta técnica gratuita con nuestro equipo de ingeniería"
+      },
+      "solutions": {
+        "title": "Soluciones Personalizadas",
+        "description": "Soluciones de ingeniería adaptadas a sus requisitos específicos"
+      }
+    },
+    "method": {
+      "title": "Elija Su Método de Cotización",
+      "description": "Seleccione el método que mejor se adapte a las necesidades y cronograma de su proyecto.",
+      "calculator": "Calculadora de Costos",
+      "request": "Solicitud de Cotización"
+    },
+    "calculator": {
+      "title": "Calculadora de Costos Avanzada",
+      "description": "Estamos dando los toques finales a nuestra herramienta inteligente de estimación de costos. Esta función proporcionará precios instantáneos y precisos para sus proyectos de automatización.",
+      "launchingSoon": "Próximamente",
+      "useQuoteForm": "Para cotizaciones inmediatas, use nuestro formulario de cotización detallado",
+      "getQuoteNow": "Obtener Cotización Ahora",
+      "projectTitle": "Calculadora de Costos de Proyecto",
+      "stepOf": "Paso {{current}} de {{total}}"
+    },
+    "process": {
+      "title": "Nuestro Proceso de Cotización",
+      "description": "Desde la solicitud inicial hasta la propuesta detallada, garantizamos un proceso fluido y transparente.",
+      "submit": {
+        "title": "Enviar Solicitud",
+        "description": "Complete nuestro formulario integral de cotización o use nuestra calculadora de costos"
+      },
+      "review": {
+        "title": "Revisión Técnica",
+        "description": "Nuestro equipo de ingeniería analiza sus requisitos y especificaciones"
+      },
+      "assessment": {
+        "title": "Evaluación del Sitio",
+        "description": "Visita opcional al sitio para proyectos complejos (si es necesario)"
+      },
+      "quote": {
+        "title": "Cotización Detallada",
+        "description": "Reciba precios integrales con cronograma y entregables"
+      }
+    },
+    "cta": {
+      "title": "¿Listo para Comenzar?",
+      "description": "Contáctenos hoy para su solución de ingeniería personalizada. Nuestro equipo está listo para ayudar a dar vida a su proyecto."
+    }
   }
 }

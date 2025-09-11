@@ -753,5 +753,74 @@
       "verifiedResults": "Resultados Verificados",
       "verifiedResultsDesc": "Projetos reais com resultados mensuráveis e depoimentos de clientes"
     }
+  },
+  "quote": {
+    "hero": {
+      "title": "Obter Orçamento Profissional e Calculadora de Custos",
+      "subtitle": "Solicite preços detalhados para seus projetos de automação. Use nossa calculadora de custos para estimativas instantâneas ou envie uma solicitação abrangente de orçamento para soluções personalizadas.",
+      "benefits": {
+        "consultation": "Consulta Gratuita de Especialistas",
+        "response": "Resposta em 24-48 Horas",
+        "estimates": "Estimativas de Custos Precisas",
+        "noCosts": "Sem Custos Ocultos"
+      }
+    },
+    "benefits": {
+      "assessment": {
+        "title": "Avaliação Detalhada",
+        "description": "Avaliação abrangente do projeto e especificações técnicas"
+      },
+      "response": {
+        "title": "Resposta Rápida",
+        "description": "Receba seu orçamento detalhado em 24-48 horas"
+      },
+      "consultation": {
+        "title": "Consulta de Especialistas",
+        "description": "Consulta técnica gratuita com nossa equipe de engenharia"
+      },
+      "solutions": {
+        "title": "Soluções Personalizadas",
+        "description": "Soluções de engenharia adaptadas aos seus requisitos específicos"
+      }
+    },
+    "method": {
+      "title": "Escolha Seu Método de Orçamento",
+      "description": "Selecione o método que melhor se adequa às necessidades e cronograma do seu projeto.",
+      "calculator": "Calculadora de Custos",
+      "request": "Solicitação de Orçamento"
+    },
+    "calculator": {
+      "title": "Calculadora de Custos Avançada",
+      "description": "Estamos finalizando nossa ferramenta inteligente de estimativa de custos. Este recurso fornecerá preços instantâneos e precisos para seus projetos de automação.",
+      "launchingSoon": "Em Breve",
+      "useQuoteForm": "Para orçamentos imediatos, use nosso formulário de orçamento detalhado",
+      "getQuoteNow": "Obter Orçamento Agora",
+      "projectTitle": "Calculadora de Custos de Projeto",
+      "stepOf": "Passo {{current}} de {{total}}"
+    },
+    "process": {
+      "title": "Nosso Processo de Orçamento",
+      "description": "Da solicitação inicial à proposta detalhada, garantimos um processo suave e transparente.",
+      "submit": {
+        "title": "Enviar Solicitação",
+        "description": "Preencha nosso formulário abrangente de orçamento ou use nossa calculadora de custos"
+      },
+      "review": {
+        "title": "Revisão Técnica",
+        "description": "Nossa equipe de engenharia analisa seus requisitos e especificações"
+      },
+      "assessment": {
+        "title": "Avaliação do Local",
+        "description": "Visita opcional ao local para projetos complexos (se necessário)"
+      },
+      "quote": {
+        "title": "Orçamento Detalhado",
+        "description": "Receba preços abrangentes com cronograma e entregáveis"
+      }
+    },
+    "cta": {
+      "title": "Pronto para Começar?",
+      "description": "Entre em contato conosco hoje para sua solução de engenharia personalizada. Nossa equipe está pronta para ajudar a dar vida ao seu projeto."
+    }
   }
 }

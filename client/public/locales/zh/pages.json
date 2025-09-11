@@ -776,5 +776,74 @@
       "verifiedResults": "Verified Results",
       "verifiedResultsDesc": "Real projects with measurable outcomes and client testimonials"
     }
+  },
+  "quote": {
+    "hero": {
+      "title": "获取专业报价和成本计算器",
+      "subtitle": "为您的自动化项目申请详细定价。使用我们的成本计算器获得即时估价，或提交全面的报价请求以获得定制解决方案。",
+      "benefits": {
+        "consultation": "免费专家咨询",
+        "response": "24-48小时响应",
+        "estimates": "准确的成本估算",
+        "noCosts": "无隐藏费用"
+      }
+    },
+    "benefits": {
+      "assessment": {
+        "title": "详细评估",
+        "description": "全面的项目评估和技术规格"
+      },
+      "response": {
+        "title": "快速响应",
+        "description": "在24-48小时内收到您的详细报价"
+      },
+      "consultation": {
+        "title": "专家咨询",
+        "description": "与我们的工程团队进行免费技术咨询"
+      },
+      "solutions": {
+        "title": "定制解决方案",
+        "description": "针对您特定要求量身定制的工程解决方案"
+      }
+    },
+    "method": {
+      "title": "选择您的报价方式",
+      "description": "选择最适合您项目需求和时间表的方式。",
+      "calculator": "成本计算器",
+      "request": "报价请求"
+    },
+    "calculator": {
+      "title": "高级成本计算器",
+      "description": "我们正在完善我们的智能成本估算工具。此功能将为您的自动化项目提供即时、准确的定价。",
+      "launchingSoon": "即将推出",
+      "useQuoteForm": "如需即时报价，请使用我们的详细报价表单",
+      "getQuoteNow": "立即获取报价",
+      "projectTitle": "项目成本计算器",
+      "stepOf": "第{{current}}步，共{{total}}步"
+    },
+    "process": {
+      "title": "我们的报价流程",
+      "description": "从初始请求到详细提案，我们确保流程顺畅透明。",
+      "submit": {
+        "title": "提交请求",
+        "description": "填写我们的综合报价表单或使用我们的成本计算器"
+      },
+      "review": {
+        "title": "技术审查",
+        "description": "我们的工程团队分析您的要求和规格"
+      },
+      "assessment": {
+        "title": "现场评估",
+        "description": "复杂项目的可选现场访问（如有需要）"
+      },
+      "quote": {
+        "title": "详细报价",
+        "description": "获得包含时间表和交付成果的全面定价"
+      }
+    },
+    "cta": {
+      "title": "准备开始了吗？",
+      "description": "今天就联系我们获取您的定制工程解决方案。我们的团队随时准备帮助您实现项目。"
+    }
   }
 }

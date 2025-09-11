@@ -927,5 +927,74 @@
       "buildingAutomation": "Automation na Gine-gine",
       "manufacturingAutomation": "Automation na Masanawa"
     }
+  },
+  "quote": {
+    "hero": {
+      "title": "Samu Kwato na Lissafin Farashi na Masana",
+      "subtitle": "Nemi bayani mai cikakke na farashin ayyukan ku na sarrafa kayan aiki. Yi amfani da lissafin farashinmu don samun lissafi nan take ko kuma aika da cikakken bukata na kwato don samun hanyoyin da suka dace da ku.",
+      "benefits": {
+        "consultation": "Shawara ta Kyauta daga Masana",
+        "response": "Amsawa cikin Awa 24-48",
+        "estimates": "Lissafin Farashi Mai Kyau",
+        "noCosts": "Babu Farashin da aka Boye"
+      }
+    },
+    "benefits": {
+      "assessment": {
+        "title": "Kimanta Mai Zurfi",
+        "description": "Kimanta aikin gaba daya da kuma bayani na fasaha"
+      },
+      "response": {
+        "title": "Amsa Mai Sauri",
+        "description": "Karbi kwaton ku mai cikakke cikin awa 24-48"
+      },
+      "consultation": {
+        "title": "Shawarar Masana",
+        "description": "Shawarar fasaha ta kyauta tare da gungun injiniyoyinmu"
+      },
+      "solutions": {
+        "title": "Hanyoyin Da Suka Dace",
+        "description": "Hanyoyin injiniya da aka tsara musamman don bukatunku"
+      }
+    },
+    "method": {
+      "title": "Zaɓi Hanyar Kwaton ku",
+      "description": "Zaɓi hanyar da ta fi dacewa da bukatun aikinku da kuma jadawalin.",
+      "calculator": "Lissafin Farashi",
+      "request": "Bukatar Kwato"
+    },
+    "calculator": {
+      "title": "Lissafin Farashi na Zamani",
+      "description": "Muna kammala kayan aikin mu na lissafin farashi mai hankali. Wannan fasali zai samar da farashin nan take da kuma daidai don ayyukan sarrafawa ku.",
+      "launchingSoon": "Yana Zuwa Nan Gaba",
+      "useQuoteForm": "Don kwato nan take, da fatan za a yi amfani da cikakken fom din kwato namu",
+      "getQuoteNow": "Sami Kwato Yanzu",
+      "projectTitle": "Lissafin Farashin Aiki",
+      "stepOf": "Mataki na {{current}} cikin {{total}}"
+    },
+    "process": {
+      "title": "Tsarin Kwaton mu",
+      "description": "Daga bukata ta farko zuwa shawara mai cikakke, muna tabbatar da tsari mai santsi da kuma bayyana gaskiya.",
+      "submit": {
+        "title": "Aika Bukatar",
+        "description": "Cika cikakken fom din kwato namu ko kuma yi amfani da lissafin farashinmu"
+      },
+      "review": {
+        "title": "Bincike na Fasaha",
+        "description": "Gungun injiniyoyinmu suna nazarin bukatunku da kuma bayananku"
+      },
+      "assessment": {
+        "title": "Kimanta Wurin",
+        "description": "Ziyara ta wurin da ba dole ba don ayyuka masu wuyar gaske (idan ana bukata)"
+      },
+      "quote": {
+        "title": "Kwato Mai Cikakke",
+        "description": "Karbi farashin da ya kamata tare da jadawalin da kuma abubuwan da za a bayar"
+      }
+    },
+    "cta": {
+      "title": "Kuna Shirye don Farawa?",
+      "description": "Tuntuɓe mu yau don hanyar injiniya ta musamman. Gungunmu yana shirye don taimakawa wajen kawo aikinku cikin rayuwa."
+    }
   }
 }
