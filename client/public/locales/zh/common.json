@@ -643,5 +643,136 @@
     "Water Treatment": "水处理",
     "Process Automation": "过程自动化",
     "Power Systems": "电力系统"
+  },
+  "productSections": {
+    "keyFeatures": "主要特性:",
+    "specifications": "规格",
+    "applications": "应用",
+    "industries": "行业",
+    "needSurgeProtection": "需要浪涌保护？",
+    "needSolarInverterSolutions": "需要太阳能逆变器解决方案？",
+    "needSolarChargeControl": "需要太阳能充电控制？",
+    "surgeProtectionDescription": "我们的安全专家可以为您的设施设计全面的浪涌保护系统。",
+    "solarInverterDescription": "我们的太阳能工程师可以为您的太阳能安装设计最佳逆变器系统。",
+    "solarChargeDescription": "我们的太阳能专家可以帮助您为电池系统选择合适的充电控制器。",
+    "energyStorageDescription": "我们的储能专家可以为您的太阳能安装设计最佳电池系统。"
+  },
+  "portfolioProjects": {
+    "thermal-plant": {
+      "title": "火力发电厂自动化",
+      "description": "为250MW火力发电厂提供包括控制面板、SCADA系统和安全联锁在内的完整自动化解决方案。",
+      "location": "北方邦",
+      "duration": "12个月",
+      "highlights": {
+        "scada": "SCADA实施",
+        "safety": "安全系统",
+        "control": "控制面板",
+        "monitoring": "性能监控"
+      }
+    },
+    "pharma-plant": {
+      "title": "制药厂控制系统",
+      "description": "具有FDA合规性和数据完整性功能的制药制造先进过程控制和监控系统。",
+      "location": "马哈拉施特拉邦",
+      "duration": "8个月",
+      "highlights": {
+        "fda": "FDA合规性",
+        "data": "数据完整性",
+        "process": "过程控制",
+        "quality": "质量监控"
+      }
+    },
+    "solar-plant": {
+      "title": "10MW太阳能发电安装",
+      "description": "具有监控系统和并网同步设备的并网太阳能发电厂的完整设计和安装。",
+      "location": "拉贾斯坦邦",
+      "duration": "6个月",
+      "highlights": {
+        "grid": "并网连接",
+        "monitoring": "监控系统",
+        "optimization": "性能优化",
+        "maintenance": "维护计划"
+      }
+    },
+    "water-treatment": {
+      "title": "市政水处理自动化",
+      "description": "为服务500,000居民的水处理厂提供实时监控和质量控制的自动控制系统。",
+      "location": "西孟加拉邦",
+      "duration": "10个月",
+      "highlights": {
+        "monitoring": "实时监控",
+        "quality": "质量控制",
+        "automation": "自动操作",
+        "remote": "远程管理"
+      }
+    }
+  },
+  "projects": {
+    "industrial-automation-demo": {
+      "title": "演示：工业自动化系统",
+      "client": "未来制造公司",
+      "category": "过程自动化",
+      "description": "展示完整的制造自动化能力，包括PLC集成、SCADA系统和实时监控解决方案。",
+      "location": "项目现场待定",
+      "duration": "12-18个月",
+      "budget": "₹50-75万",
+      "status": "能力演示",
+      "technologies": {
+        "plcProgramming": "PLC编程",
+        "scada": "SCADA",
+        "hmi": "HMI",
+        "industrialIot": "工业物联网"
+      },
+      "highlights": {
+        "plcIntegration": "PLC集成",
+        "scadaSystems": "SCADA系统",
+        "realtimeMonitoring": "实时监控",
+        "processOptimization": "过程优化"
+      }
+    },
+    "power-distribution-demo": {
+      "title": "示例：电力分配控制",
+      "client": "未来电力合作伙伴",
+      "category": "电力系统",
+      "description": "演示电力生产设施自动负载平衡和远程监控能力的示例电力分配系统。",
+      "location": "各个地点",
+      "duration": "10-15个月",
+      "budget": "₹1-2亿",
+      "status": "能力演示",
+      "technologies": {
+        "mccPanels": "MCC面板",
+        "protectionSystems": "保护系统",
+        "energyManagement": "能源管理",
+        "remoteMonitoring": "远程监控"
+      },
+      "highlights": {
+        "loadBalancing": "负载平衡",
+        "protectionSystems": "保护系统",
+        "energyManagement": "能源管理",
+        "remoteControl": "远程控制"
+      }
+    }
+  },
+  "seo": {
+    "days": {
+      "monday": "星期一",
+      "tuesday": "星期二",
+      "wednesday": "星期三",
+      "thursday": "星期四",
+      "friday": "星期五",
+      "saturday": "星期六",
+      "sunday": "星期日"
+    },
+    "schemaTypes": {
+      "breadcrumbList": "面包屑列表",
+      "listItem": "列表项",
+      "faqPage": "FAQ页面",
+      "question": "问题",
+      "answer": "答案",
+      "itemList": "项目列表",
+      "service": "服务",
+      "localBusiness": "本地业务",
+      "openingHours": "营业时间规范"
+    }
   }
 }

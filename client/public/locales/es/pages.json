@@ -2,7 +2,8 @@
   "home": {
     "seo": {
       "title": "Powerton Engineering - Automatización Industrial y Paneles de Control | India",
-      "description": "Fabricante líder de paneles de control eléctrico, sistemas de automatización industrial y soluciones de instrumentación. Servicios de ingeniería especializada en toda India con más de 15 años de experiencia."
+      "description": "Fabricante líder de paneles de control eléctrico, sistemas de automatización industrial y soluciones de instrumentación. Servicios de ingeniería especializada en toda India con más de 15 años de experiencia.",
+      "keywords": "paneles de control eléctrico, automatización industrial, automatización de procesos, instrumentación, centro de control de potencia, centro de control de motores, ingeniería eléctrica, India, automatización"
     },
     "hero": {
       "title": {
@@ -17,7 +18,7 @@
       "features": {
         "experience": "Más de 15 Años de Experiencia",
         "support": "Soporte Técnico 24/7",
-        "service": "Servicio en Toda la India"
+        "service": "Servicio Global"
       },
       "stats": {
         "yearsExperience": "Años de Experiencia",
@@ -31,7 +32,7 @@
       "title": "Bienvenido a Powerton Engineering Pvt. Ltd.",
       "description": "Su socio de confianza en la entrega de soluciones y servicios de ingeniería de alta calidad. Fundada con la visión de empoderar a las industrias a través de la innovación y la excelencia, nos especializamos en proporcionar una gama integral de productos eléctricos e instrumentación.",
       "visualHeading": "Ingeniería Profesional",
-      "visualDescription": "Ingenieros españoles profesionales trabajando en automatización industrial y sistemas de control",
+      "visualDescription": "Ingenieros profesionales trabajando en automatización industrial y sistemas de control",
       "features": {
         "electrical": {
           "title": "Eléctrica e Instrumentación",
@@ -81,22 +82,22 @@
       "downloadPortfolio": "Descargar Portafolio"
     },
     "contact": {
-      "label": "Ponerse en Contacto",
-      "title": "¿Listo para Comenzar su Proyecto?",
-      "description": "Discutamos cómo nuestra experiencia en ingeniería puede ayudarle a lograr sus objetivos de automatización industrial y sistemas de control.",
+      "label": "Contacto",
+      "title": "Discutamos Sus Necesidades de Ingeniería",
+      "description": "¿Listo para comenzar su próximo proyecto? Contacte a nuestro equipo de expertos para soluciones personalizadas y consultas profesionales.",
       "getInTouch": "Ponerse en Contacto",
       "methods": {
         "phone": {
-          "title": "Llámenos Hoy",
-          "description": "Hable directamente con nuestros expertos en ingeniería"
+          "title": "Teléfono",
+          "description": "Soporte de emergencia 24/7"
         },
         "email": {
-          "title": "Envíenos un Correo",
-          "description": "Envíenos los requisitos de su proyecto"
+          "title": "Correo Electrónico",
+          "description": "Responderemos en 24 horas"
         },
         "address": {
-          "title": "Visite Nuestra Oficina",
-          "metro": "Metro más cercano: Sector 15"
+          "title": "Dirección",
+          "metro": "Estación de metro más cercana"
         }
       }
     }
@@ -113,7 +114,105 @@
   "contact": {
     "hero": {
       "title": "Contacte a Nuestros Expertos en Ingeniería",
-      "subtitle": "¿Listo para comenzar su próximo proyecto? Nuestro equipo de expertos está aquí para ayudarle con soluciones de ingeniería personalizadas y consulta profesional."
+      "subtitle": "¿Listo para comenzar su próximo proyecto? Nuestro equipo de expertos está aquí para ayudarle con soluciones de ingeniería personalizadas y consulta profesional.",
+      "benefits": {
+        "consultation": "Consulta Gratuita",
+        "support": "Soporte de Emergencia 24/7",
+        "experience": "15+ Años de Experiencia"
+      }
+    },
+    "methods": {
+      "title": "Múltiples Formas de Contactarnos",
+      "subtitle": "Elija el método de comunicación que mejor funcione para usted. Estamos disponibles 24/7 para soporte de emergencia."
+    },
+    "form": {
+      "title": "Envíenos un Mensaje",
+      "subtitle": "Póngase en contacto con nosotros para consultas generales, información de servicios o preguntas técnicas."
+    },
+    "contactMethods": {
+      "phone": {
+        "title": "Llámenos Directamente",
+        "subtitle": "Disponible 24/7 para soporte",
+        "description": "Hable directamente con nuestro equipo técnico"
+      },
+      "email": {
+        "title": "Soporte por Email",
+        "subtitle": "Respuesta en 24 horas",
+        "description": "Envíenos los requisitos detallados de su proyecto"
+      },
+      "whatsapp": {
+        "title": "Soporte por WhatsApp",
+        "subtitle": "Chat de respuesta rápida",
+        "description": "Obtenga respuestas instantáneas a sus preguntas"
+      },
+      "visit": {
+        "title": "Visite Nuestra Oficina",
+        "subtitle": "Solo con cita previa",
+        "description": "Programe una visita a nuestra sede en Noida"
+      }
+    },
+    "map": {
+      "title": "Ubicación de la Oficina de Powerton Engineering"
+    },
+    "office": {
+      "name": "Sede Corporativa",
+      "hours": "Lun-Sáb: 9:00 AM - 6:00 PM"
+    },
+    "services": {
+      "technical": {
+        "title": "Soporte Técnico",
+        "description": "Asistencia técnica experta para todos nuestros productos y servicios"
+      },
+      "customer": {
+        "title": "Éxito del Cliente",
+        "description": "Soporte dedicado para asegurar el éxito de su proyecto"
+      },
+      "onsite": {
+        "title": "Soporte en Sitio",
+        "description": "Soporte de ingeniería de campo en su ubicación"
+      },
+      "remote": {
+        "title": "Soporte Remoto",
+        "description": "Asistencia virtual y diagnósticos remotos del sistema"
+      }
+    },
+    "sections": {
+      "visitOffice": "Visite Nuestra Oficina",
+      "officeLocation": "Ubicación de la Oficina",
+      "supportServices": "Servicios de Soporte",
+      "businessHours": "Horarios Comerciales y Disponibilidad",
+      "getDirections": "Obtener Direcciones"
+    },
+    "formSection": {
+      "title": "Formulario de Contacto General",
+      "description": "Para consultas generales, información de servicios o preguntas técnicas"
+    },
+    "businessHours": {
+      "regular": {
+        "title": "Horarios Regulares",
+        "days": "Lunes - Sábado",
+        "time": "9:00 AM - 6:00 PM"
+      },
+      "emergency": {
+        "title": "Soporte de Emergencia",
+        "availability": "Disponibilidad 24/7",
+        "days": "Todos los Días"
+      },
+      "email": {
+        "title": "Respuesta por Email",
+        "time": "Dentro de 24 Horas",
+        "guarantee": "Garantizado"
+      }
+    },
+    "emergency": {
+      "title": "Soporte de Emergencia",
+      "description": "¿Falla crítica del sistema? Nuestro equipo de respuesta de emergencia está disponible 24/7 para ayudar a minimizar el tiempo de inactividad.",
+      "hotline": "Línea Directa de Emergencia"
+    },
+    "seo": {
+      "title": "Contactar Powerton Engineering - Obtener Soporte de Ingeniería Experto",
+      "description": "Contacte a Powerton Engineering para automatización industrial, ingeniería eléctrica y servicios de instrumentación. Soporte 24/7 disponible. Ubicado en Noida, sirviendo toda la India.",
+      "keywords": "contactar powerton engineering, soporte automatización industrial, contacto ingeniería eléctrica, servicios instrumentación, empresa ingeniería Noida, soporte técnico India"
     }
   },
   "projects": {
@@ -460,13 +559,6 @@
       "solarAutomation": "Automatización Solar",
       "buildingAutomation": "Automatización de Edificios",
       "manufacturingAutomation": "Automatización de Manufactura"
-    }
-  },
-  "home": {
-    "seo": {
-      "title": "Powerton Engineering - Automatización Industrial y Paneles de Control | España",
-      "description": "Fabricante líder de paneles de control eléctrico, sistemas de automatización industrial y soluciones de instrumentación. Servicios de ingeniería especializada con más de 15 años de experiencia.",
-      "keywords": "paneles de control eléctrico, automatización industrial, automatización de procesos, instrumentación, centro de control de potencia, centro de control de motores, ingeniería eléctrica, España, automatización"
     }
   }
 }

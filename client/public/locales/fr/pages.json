@@ -735,6 +735,110 @@
       "manufacturingAutomation": "Automatisation de Fabrication"
     }
   },
+  "contact": {
+    "seo": {
+      "title": "Contacter Powerton Engineering - Obtenir un Support d'Ingénierie Expert",
+      "description": "Contactez Powerton Engineering pour l'automatisation industrielle, l'ingénierie électrique et les services d'instrumentation. Support 24/7 disponible. Situé à Noida, servant toute l'Inde.",
+      "keywords": "contacter powerton engineering, support automatisation industrielle, contact ingénierie électrique, services instrumentation, entreprise ingénierie Noida, support technique Inde"
+    },
+    "hero": {
+      "title": "Contactez Nos Experts en Ingénierie",
+      "subtitle": "Prêt à commencer votre prochain projet ? Notre équipe d'experts est là pour vous aider avec des solutions d'ingénierie personnalisées et une consultation professionnelle.",
+      "benefits": {
+        "consultation": "Consultation Gratuite",
+        "support": "Support d'Urgence 24/7",
+        "experience": "15+ Années d'Expérience"
+      }
+    },
+    "methods": {
+      "title": "Plusieurs Façons de Nous Contacter",
+      "subtitle": "Choisissez la méthode de communication qui vous convient le mieux. Nous sommes disponibles 24/7 pour le support d'urgence."
+    },
+    "form": {
+      "title": "Envoyez-nous un Message",
+      "subtitle": "Contactez-nous pour des demandes générales, des informations de service ou des questions techniques."
+    },
+    "contactMethods": {
+      "phone": {
+        "title": "Appelez-nous Directement",
+        "subtitle": "Disponible 24/7 pour le support",
+        "description": "Parlez directement avec notre équipe technique"
+      },
+      "email": {
+        "title": "Support Email",
+        "subtitle": "Réponse sous 24 heures",
+        "description": "Envoyez-nous les exigences détaillées de votre projet"
+      },
+      "whatsapp": {
+        "title": "Support WhatsApp",
+        "subtitle": "Chat à réponse rapide",
+        "description": "Obtenez des réponses instantanées à vos questions"
+      },
+      "visit": {
+        "title": "Visitez Notre Bureau",
+        "subtitle": "Sur rendez-vous uniquement",
+        "description": "Planifiez une visite à notre siège social à Noida"
+      }
+    },
+    "map": {
+      "title": "Emplacement du Bureau Powerton Engineering"
+    },
+    "office": {
+      "name": "Siège Social",
+      "hours": "Lun-Sam: 9h00 - 18h00"
+    },
+    "services": {
+      "technical": {
+        "title": "Support Technique",
+        "description": "Assistance technique experte pour tous nos produits et services"
+      },
+      "customer": {
+        "title": "Succès Client",
+        "description": "Support dédié pour assurer le succès de votre projet"
+      },
+      "onsite": {
+        "title": "Support Sur Site",
+        "description": "Support d'ingénierie de terrain à votre emplacement"
+      },
+      "remote": {
+        "title": "Support À Distance",
+        "description": "Assistance virtuelle et diagnostics système à distance"
+      }
+    },
+    "sections": {
+      "visitOffice": "Visitez Notre Bureau",
+      "officeLocation": "Emplacement du Bureau",
+      "supportServices": "Services de Support",
+      "businessHours": "Heures d'Ouverture et Disponibilité",
+      "getDirections": "Obtenir les Directions"
+    },
+    "formSection": {
+      "title": "Formulaire de Contact Général",
+      "description": "Pour les demandes générales, les informations de service ou les questions techniques"
+    },
+    "businessHours": {
+      "regular": {
+        "title": "Heures Régulières",
+        "days": "Lundi - Samedi",
+        "time": "9h00 - 18h00"
+      },
+      "emergency": {
+        "title": "Support d'Urgence",
+        "availability": "Disponibilité 24/7",
+        "days": "Tous les Jours"
+      },
+      "email": {
+        "title": "Réponse Email",
+        "time": "Sous 24 Heures",
+        "guarantee": "Garanti"
+      }
+    },
+    "emergency": {
+      "title": "Support d'Urgence",
+      "description": "Panne système critique ? Notre équipe de réponse d'urgence est disponible 24/7 pour aider à minimiser les temps d'arrêt.",
+      "hotline": "Ligne d'Urgence"
+    }
+  },
   "home": {
     "seo": {
       "title": "Powerton Engineering - Automatisation Industrielle et Panneaux de Contrôle | France",
