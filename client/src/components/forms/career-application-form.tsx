@@ -413,44 +413,69 @@ export default function CareerApplicationForm() {
               />
 
               {/* CV/Resume Upload */}
-              <div className="space-y-2">
-                <label className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70">
-                  {t('forms:career.labels.resume')}
-                </label>
+              <div className="space-y-3">
                 <div className="flex items-center space-x-2">
-                  <Input
-                    type="file"
-                    accept=".pdf,.doc,.docx"
-                    onChange={(e) => {
-                      const file = e.target.files?.[0];
-                      if (file) {
-                        // Validate file size (max 5MB)
-                        if (file.size > 5 * 1024 * 1024) {
-                          toast({
-                            title: "File too large",
-                            description: "Please select a file smaller than 5MB.",
-                            variant: "destructive",
-                          });
-                          e.target.value = '';
-                          return;
-                        }
-                        setResumeFile(file);
-                      } else {
-                        setResumeFile(null);
-                      }
-                    }}
-                    className="file:mr-2 file:px-4 file:py-2 file:rounded file:border-0 file:text-sm file:font-medium file:bg-primary file:text-primary-foreground hover:file:bg-primary/90"
-                  />
-                  <Upload className="h-4 w-4 text-muted-foreground" />
+                  <Upload className="h-4 w-4 text-primary" />
+                  <label className="text-sm font-medium text-foreground">
+                    {t('forms:career.labels.resume')}
+                  </label>
                 </div>
+                
+                <div className="border-2 border-dashed border-border rounded-lg p-4 bg-background hover:bg-muted/50 transition-colors">
+                  <div className="flex flex-col items-center justify-center space-y-3">
+                    <div className="flex flex-col items-center space-y-2">
+                      <Upload className="h-8 w-8 text-muted-foreground" />
+                      <div className="text-center">
+                        <p className="text-sm text-foreground font-medium">
+                          {resumeFile ? "Change Resume" : "Upload Your Resume"}
+                        </p>
+                        <p className="text-xs text-muted-foreground">
+                          {t('forms:career.helpers.resumeFormat')}
+                        </p>
+                      </div>
+                    </div>
+                    
+                    <input
+                      type="file"
+                      accept=".pdf,.doc,.docx"
+                      onChange={(e) => {
+                        const file = e.target.files?.[0];
+                        if (file) {
+                          // Validate file size (max 5MB)
+                          if (file.size > 5 * 1024 * 1024) {
+                            toast({
+                              title: "File too large",
+                              description: "Please select a file smaller than 5MB.",
+                              variant: "destructive",
+                            });
+                            e.target.value = '';
+                            return;
+                          }
+                          setResumeFile(file);
+                        } else {
+                          setResumeFile(null);
+                        }
+                      }}
+                      className="block w-full text-sm text-muted-foreground
+                        file:mr-4 file:py-2 file:px-4
+                        file:rounded-md file:border-0
+                        file:text-sm file:font-medium
+                        file:bg-primary file:text-primary-foreground
+                        hover:file:bg-primary/90 file:cursor-pointer
+                        cursor-pointer"
+                    />
+                  </div>
+                </div>
+                
                 {resumeFile && (
-                  <p className="text-xs text-muted-foreground">
-                    Selected: {resumeFile.name} ({(resumeFile.size / 1024 / 1024).toFixed(2)} MB)
-                  </p>
+                  <div className="flex items-center space-x-2 p-2 bg-green-50 dark:bg-green-900/20 rounded border border-green-200 dark:border-green-800">
+                    <div className="h-2 w-2 bg-green-500 rounded-full"></div>
+                    <p className="text-sm text-green-700 dark:text-green-400">
+                      <span className="font-medium">{resumeFile.name}</span> 
+                      <span className="text-xs ml-2">({(resumeFile.size / 1024 / 1024).toFixed(2)} MB)</span>
+                    </p>
+                  </div>
                 )}
-                <p className="text-xs text-muted-foreground">
-                  {t('forms:career.helpers.resumeFormat')}
-                </p>
               </div>
             </div>
 
