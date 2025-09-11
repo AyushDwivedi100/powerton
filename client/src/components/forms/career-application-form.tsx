@@ -119,7 +119,7 @@ export default function CareerApplicationForm() {
       formData.append('residingAddress', data.residingAddress);
 
       // Send to PHP handler
-      const response = await fetch('/contact-handler.php', {
+      const response = await fetch('/career-handler.php', {
         method: 'POST',
         body: formData,
       });
