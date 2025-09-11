@@ -19,21 +19,21 @@ import { getServiceOptions } from "@/data/constants";
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 const createQuoteFormSchema = (t: (translationKey: string) => string) => z.object({
   // Contact Information
-  name: z.string().min(2, t('quote.validation.nameMin')),
-  email: z.string().email(t('quote.validation.emailInvalid')),
-  phone: z.string().min(10, t('quote.validation.phoneMin')),
-  company: z.string().min(1, t('quote.validation.companyRequired')),
+  name: z.string().min(2, t('forms:quote.validation.nameMin')),
+  email: z.string().email(t('forms:quote.validation.emailInvalid')),
+  phone: z.string().min(10, t('forms:quote.validation.phoneMin')),
+  company: z.string().min(1, t('forms:quote.validation.companyRequired')),
   designation: z.string().optional(),
   
   // Project Information
-  projectTitle: z.string().min(1, t('quote.validation.projectTitleRequired')),
-  projectType: z.string().min(1, t('quote.validation.projectTypeRequired')),
+  projectTitle: z.string().min(1, t('forms:quote.validation.projectTitleRequired')),
+  projectType: z.string().min(1, t('forms:quote.validation.projectTypeRequired')),
   budget: z.string().optional(),
-  timeline: z.string().min(1, t('quote.validation.timelineRequired')),
+  timeline: z.string().min(1, t('forms:quote.validation.timelineRequired')),
   
   // Technical Requirements
-  services: z.array(z.string()).min(1, t('quote.validation.servicesRequired')),
-  specifications: z.string().min(20, t('quote.validation.specificationsMin')),
+  services: z.array(z.string()).min(1, t('forms:quote.validation.servicesRequired')),
+  specifications: z.string().min(20, t('forms:quote.validation.specificationsMin')),
   additionalRequirements: z.string().optional(),
   
   // Project Details
@@ -121,8 +121,8 @@ export default function FrontendQuoteForm() {
 
       if (result.success) {
         toast({
-          title: t('quote.success.title'),
-          description: t('quote.success.description'),
+          title: t('forms:quote.success.title'),
+          description: t('forms:quote.success.description'),
           duration: 6000,
         });
         form.reset();
@@ -132,8 +132,8 @@ export default function FrontendQuoteForm() {
     } catch (error) {
       console.error('Quote form error:', error);
       toast({
-        title: t('quote.error.title'),
-        description: t('quote.error.description', { phone: FRONTEND_CONFIG.company.phone, email: FRONTEND_CONFIG.company.email }),
+        title: t('forms:quote.error.title'),
+        description: t('forms:quote.error.description', { phone: FRONTEND_CONFIG.company.phone, email: FRONTEND_CONFIG.company.email }),
         duration: 6000,
       });
     }
@@ -149,7 +149,7 @@ export default function FrontendQuoteForm() {
             {/* Contact Information Section */}
             <div className="space-y-4">
               <h3 className="text-lg font-semibold text-foreground border-b border-border pb-2">
-                {t('quote.sections.contactInfo')}
+                {t('forms:quote.sections.contactInfo')}
               </h3>
               
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -158,7 +158,7 @@ export default function FrontendQuoteForm() {
                   name="name"
                   render={({ field }) => (
                     <FormItem>
-                      <FormLabel>{t('quote.fields.name.label')}</FormLabel>
+                      <FormLabel>{t('forms:quote.fields.name.label')}</FormLabel>
                       <FormControl>
                         <Input placeholder={t('common:placeholders.yourFullName')} {...field} />
                       </FormControl>
@@ -172,7 +172,7 @@ export default function FrontendQuoteForm() {
                   name="email"
                   render={({ field }) => (
                     <FormItem>
-                      <FormLabel>{t('quote.fields.email.label')}</FormLabel>
+                      <FormLabel>{t('forms:quote.fields.email.label')}</FormLabel>
                       <FormControl>
                         <Input type="email" placeholder={t('common:placeholders.yourEmail')} {...field} />
                       </FormControl>
@@ -188,7 +188,7 @@ export default function FrontendQuoteForm() {
                   name="phone"
                   render={({ field }) => (
                     <FormItem>
-                      <FormLabel>{t('quote.labels.phoneNumber')}</FormLabel>
+                      <FormLabel>{t('forms:quote.labels.phoneNumber')}</FormLabel>
                       <FormControl>
                         <Input placeholder={t('common:placeholders.yourPhone')} {...field} />
                       </FormControl>
@@ -217,7 +217,7 @@ export default function FrontendQuoteForm() {
                 name="company"
                 render={({ field }) => (
                   <FormItem>
-                    <FormLabel>{t('quote.labels.companyName')}</FormLabel>
+                    <FormLabel>{t('forms:quote.labels.companyName')}</FormLabel>
                     <FormControl>
                       <Input placeholder={t('common:placeholders.yourCompanyName')} {...field} />
                     </FormControl>
@@ -230,7 +230,7 @@ export default function FrontendQuoteForm() {
             {/* Project Information Section */}
             <div className="space-y-4">
               <h3 className="text-lg font-semibold text-foreground border-b border-border pb-2">
-                {t('quote.labels.projectInformation')}
+                {t('forms:quote.labels.projectInformation')}
               </h3>
               
               <FormField
@@ -238,7 +238,7 @@ export default function FrontendQuoteForm() {
                 name="projectTitle"
                 render={({ field }) => (
                   <FormItem>
-                    <FormLabel>{t('quote.labels.projectTitle')}</FormLabel>
+                    <FormLabel>{t('forms:quote.labels.projectTitle')}</FormLabel>
                     <FormControl>
                       <Input placeholder={t('common:placeholders.briefProjectTitle')} {...field} />
                     </FormControl>
@@ -253,7 +253,7 @@ export default function FrontendQuoteForm() {
                   name="projectType"
                   render={({ field }) => (
                     <FormItem>
-                      <FormLabel>{t('quote.labels.projectType')}</FormLabel>
+                      <FormLabel>{t('forms:quote.labels.projectType')}</FormLabel>
                       <Select onValueChange={field.onChange} defaultValue={field.value}>
                         <FormControl>
                           <SelectTrigger>
@@ -266,7 +266,7 @@ export default function FrontendQuoteForm() {
                           <SelectItem value="retrofit">{t('forms:quote.projectTypes.retrofit')}</SelectItem>
                           <SelectItem value="maintenance">{t('forms:quote.projectTypes.maintenance')}</SelectItem>
                           <SelectItem value="consultation">{t('forms:quote.projectTypes.consultation')}</SelectItem>
-                          <SelectItem value="design">{t('quote.projectTypes.design')}</SelectItem>
+                          <SelectItem value="design">{t('forms:quote.projectTypes.design')}</SelectItem>
                         </SelectContent>
                       </Select>
                       <FormMessage />
@@ -279,7 +279,7 @@ export default function FrontendQuoteForm() {
                   name="timeline"
                   render={({ field }) => (
                     <FormItem>
-                      <FormLabel>{t('quote.labels.expectedTimeline')}</FormLabel>
+                      <FormLabel>{t('forms:quote.labels.expectedTimeline')}</FormLabel>
                       <Select onValueChange={field.onChange} defaultValue={field.value}>
                         <FormControl>
                           <SelectTrigger>
@@ -287,11 +287,11 @@ export default function FrontendQuoteForm() {
                           </SelectTrigger>
                         </FormControl>
                         <SelectContent>
-                          <SelectItem value="immediate">{t('quote.timelines.immediate')}</SelectItem>
-                          <SelectItem value="1-3-months">{t('quote.timelines.1-3-months')}</SelectItem>
-                          <SelectItem value="3-6-months">{t('quote.timelines.3-6-months')}</SelectItem>
-                          <SelectItem value="6-12-months">{t('quote.timelines.6-12-months')}</SelectItem>
-                          <SelectItem value="1-year-plus">{t('quote.timelines.1-year-plus')}</SelectItem>
+                          <SelectItem value="immediate">{t('forms:quote.timelines.immediate')}</SelectItem>
+                          <SelectItem value="1-3-months">{t('forms:quote.timelines.1-3-months')}</SelectItem>
+                          <SelectItem value="3-6-months">{t('forms:quote.timelines.3-6-months')}</SelectItem>
+                          <SelectItem value="6-12-months">{t('forms:quote.timelines.6-12-months')}</SelectItem>
+                          <SelectItem value="1-year-plus">{t('forms:quote.timelines.1-year-plus')}</SelectItem>
                         </SelectContent>
                       </Select>
                       <FormMessage />
@@ -306,21 +306,21 @@ export default function FrontendQuoteForm() {
                   name="budget"
                   render={({ field }) => (
                     <FormItem>
-                      <FormLabel>{t('quote.labels.approximateBudget')}</FormLabel>
+                      <FormLabel>{t('forms:quote.labels.approximateBudget')}</FormLabel>
                       <Select onValueChange={field.onChange} defaultValue={field.value}>
                         <FormControl>
                           <SelectTrigger>
-                            <SelectValue placeholder={t('quote.placeholders.selectBudget')} />
+                            <SelectValue placeholder={t('forms:quote.placeholders.selectBudget')} />
                           </SelectTrigger>
                         </FormControl>
                         <SelectContent>
-                          <SelectItem value="under-1-lakh">{t('quote.budgetRanges.under-1-lakh')}</SelectItem>
-                          <SelectItem value="1-5-lakh">{t('quote.budgetRanges.1-5-lakh')}</SelectItem>
-                          <SelectItem value="5-10-lakh">{t('quote.budgetRanges.5-10-lakh')}</SelectItem>
-                          <SelectItem value="10-25-lakh">{t('quote.budgetRanges.10-25-lakh')}</SelectItem>
-                          <SelectItem value="25-50-lakh">{t('quote.budgetRanges.25-50-lakh')}</SelectItem>
-                          <SelectItem value="50-lakh-plus">{t('quote.budgetRanges.50-lakh-plus')}</SelectItem>
-                          <SelectItem value="discuss">{t('quote.budgetRanges.discuss')}</SelectItem>
+                          <SelectItem value="under-1-lakh">{t('forms:quote.budgetRanges.under-1-lakh')}</SelectItem>
+                          <SelectItem value="1-5-lakh">{t('forms:quote.budgetRanges.1-5-lakh')}</SelectItem>
+                          <SelectItem value="5-10-lakh">{t('forms:quote.budgetRanges.5-10-lakh')}</SelectItem>
+                          <SelectItem value="10-25-lakh">{t('forms:quote.budgetRanges.10-25-lakh')}</SelectItem>
+                          <SelectItem value="25-50-lakh">{t('forms:quote.budgetRanges.25-50-lakh')}</SelectItem>
+                          <SelectItem value="50-lakh-plus">{t('forms:quote.budgetRanges.50-lakh-plus')}</SelectItem>
+                          <SelectItem value="discuss">{t('forms:quote.budgetRanges.discuss')}</SelectItem>
                         </SelectContent>
                       </Select>
                       <FormMessage />
@@ -333,11 +333,11 @@ export default function FrontendQuoteForm() {
                   name="industryType"
                   render={({ field }) => (
                     <FormItem>
-                      <FormLabel>{t('quote.labels.industryType')}</FormLabel>
+                      <FormLabel>{t('forms:quote.labels.industryType')}</FormLabel>
                       <Select onValueChange={field.onChange} defaultValue={field.value}>
                         <FormControl>
                           <SelectTrigger>
-                            <SelectValue placeholder={t('quote.placeholders.selectIndustry')} />
+                            <SelectValue placeholder={t('forms:quote.placeholders.selectIndustry')} />
                           </SelectTrigger>
                         </FormControl>
                         <SelectContent>
@@ -363,7 +363,7 @@ export default function FrontendQuoteForm() {
             {/* Services Section */}
             <div className="space-y-4">
               <h3 className="text-lg font-semibold text-foreground border-b border-border pb-2">
-                {t('quote.sections.requiredServices')}
+                {t('forms:quote.sections.requiredServices')}
               </h3>
               
               <FormField
@@ -413,7 +413,7 @@ export default function FrontendQuoteForm() {
             {/* Technical Specifications Section */}
             <div className="space-y-4">
               <h3 className="text-lg font-semibold text-foreground border-b border-border pb-2">
-                {t('quote.sections.technicalSpecifications')}
+                {t('forms:quote.sections.technicalSpecifications')}
               </h3>
               
               <FormField
@@ -421,10 +421,10 @@ export default function FrontendQuoteForm() {
                 name="specifications"
                 render={({ field }) => (
                   <FormItem>
-                    <FormLabel>{t('quote.labels.detailedRequirements')}</FormLabel>
+                    <FormLabel>{t('forms:quote.labels.detailedRequirements')}</FormLabel>
                     <FormControl>
                       <Textarea 
-                        placeholder={t('quote.placeholders.detailedRequirements')}
+                        placeholder={t('forms:quote.placeholders.detailedRequirements')}
                         className="min-h-[120px] resize-none"
                         {...field}
                       />
@@ -440,18 +440,18 @@ export default function FrontendQuoteForm() {
                   name="projectScale"
                   render={({ field }) => (
                     <FormItem>
-                      <FormLabel>{t('quote.labels.projectScale')}</FormLabel>
+                      <FormLabel>{t('forms:quote.labels.projectScale')}</FormLabel>
                       <Select onValueChange={field.onChange} defaultValue={field.value}>
                         <FormControl>
                           <SelectTrigger>
-                            <SelectValue placeholder={t('quote.placeholders.selectProjectScale')} />
+                            <SelectValue placeholder={t('forms:quote.placeholders.selectProjectScale')} />
                           </SelectTrigger>
                         </FormControl>
                         <SelectContent>
-                          <SelectItem value="small">{t('quote.projectScale.small')}</SelectItem>
-                          <SelectItem value="medium">{t('quote.projectScale.medium')}</SelectItem>
-                          <SelectItem value="large">{t('quote.projectScale.large')}</SelectItem>
-                          <SelectItem value="enterprise">{t('quote.projectScale.enterprise')}</SelectItem>
+                          <SelectItem value="small">{t('forms:quote.projectScale.small')}</SelectItem>
+                          <SelectItem value="medium">{t('forms:quote.projectScale.medium')}</SelectItem>
+                          <SelectItem value="large">{t('forms:quote.projectScale.large')}</SelectItem>
+                          <SelectItem value="enterprise">{t('forms:quote.projectScale.enterprise')}</SelectItem>
                         </SelectContent>
                       </Select>
                       <FormMessage />
@@ -464,10 +464,10 @@ export default function FrontendQuoteForm() {
                   name="preferredBrands"
                   render={({ field }) => (
                     <FormItem>
-                      <FormLabel>{t('quote.labels.preferredBrands')}</FormLabel>
+                      <FormLabel>{t('forms:quote.labels.preferredBrands')}</FormLabel>
                       <FormControl>
                         <Input 
-                          placeholder={t('quote.placeholders.preferredBrands')}
+                          placeholder={t('forms:quote.placeholders.preferredBrands')}
                           {...field}
                         />
                       </FormControl>
@@ -485,7 +485,7 @@ export default function FrontendQuoteForm() {
                     <FormLabel>{t('forms:quote.fields.additionalRequirements.label')}</FormLabel>
                     <FormControl>
                       <Textarea 
-                        placeholder={t('quote.placeholders.additionalRequirements')}
+                        placeholder={t('forms:quote.placeholders.additionalRequirements')}
                         className="min-h-[80px] resize-none"
                         {...field}
                       />
@@ -508,12 +508,12 @@ export default function FrontendQuoteForm() {
                 {isSubmitting ? (
                   <>
                     <Loader2 className="mr-2 h-4 w-4 animate-spin" />
-                    {t('quote.submitting')}
+                    {t('forms:quote.submitting')}
                   </>
                 ) : (
                   <>
                     <FileText className="mr-2 h-4 w-4" />
-                    {t('quote.buttons.submitRequest')}
+                    {t('forms:quote.buttons.submitRequest')}
                   </>
                 )}
               </Button>
@@ -528,7 +528,7 @@ export default function FrontendQuoteForm() {
                 >
                   <a href="tel:+91-94627-71662" className="flex items-center justify-center">
                     <Phone className="mr-2 h-4 w-4" />
-                    {t('quote.buttons.callUrgent')}
+                    {t('forms:quote.buttons.callUrgent')}
                   </a>
                 </Button>
                 
@@ -541,7 +541,7 @@ export default function FrontendQuoteForm() {
                 >
                   <a href="mailto:info@powertonengineering.com" className="flex items-center justify-center">
                     <Mail className="mr-2 h-4 w-4" />
-                    {t('quote.buttons.emailRequirements')}
+                    {t('forms:quote.buttons.emailRequirements')}
                   </a>
                 </Button>
               </div>
@@ -553,24 +553,24 @@ export default function FrontendQuoteForm() {
         <div className="mt-6 pt-6 border-t border-border">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-sm">
             <div>
-              <h4 className="font-medium text-foreground mb-2">{t('quote.process.heading')}</h4>
+              <h4 className="font-medium text-foreground mb-2">{t('forms:quote.process.heading')}</h4>
               <ul className="space-y-1 text-muted-foreground">
-                <li>• {t('quote.process.steps.technicalReview')}</li>
-                <li>• {t('quote.process.steps.detailedProposal')}</li>
-                <li>• {t('quote.process.steps.costBreakdown')}</li>
-                <li>• {t('quote.process.steps.followUpCall')}</li>
+                <li>• {t('forms:quote.process.steps.technicalReview')}</li>
+                <li>• {t('forms:quote.process.steps.detailedProposal')}</li>
+                <li>• {t('forms:quote.process.steps.costBreakdown')}</li>
+                <li>• {t('forms:quote.process.steps.followUpCall')}</li>
               </ul>
             </div>
             <div>
-              <h4 className="font-medium text-foreground mb-2">{t('quote.assistance.heading')}</h4>
+              <h4 className="font-medium text-foreground mb-2">{t('forms:quote.assistance.heading')}</h4>
               <div className="space-y-1 text-muted-foreground">
                 <div className="flex items-center gap-2">
                   <Phone className="h-3 w-3 text-primary" />
-                  <span>{t('quote.assistance.technicalTeam')}</span>
+                  <span>{t('forms:quote.assistance.technicalTeam')}</span>
                 </div>
                 <div className="flex items-center gap-2">
                   <Mail className="h-3 w-3 text-primary" />
-                  <span>{t('quote.assistance.email')}</span>
+                  <span>{t('forms:quote.assistance.email')}</span>
                 </div>
               </div>
             </div>
