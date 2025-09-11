@@ -21,6 +21,18 @@
     "sw": "Kiswahili",
     "ha": "Hausa"
   },
+  "navigation": {
+    "backToProducts": "العودة إلى المنتجات",
+    "backToInstrumentationComponents": "العودة إلى مكونات الأجهزة",
+    "backToElectricalComponents": "العودة إلى المكونات الكهربائية",
+    "backToSolarProducts": "العودة إلى المنتجات الشمسية",
+    "backToMechanicalPumps": "العودة إلى المضخات الميكانيكية وقطع الغيار",
+    "backToMeasurementInstruments": "العودة إلى أدوات القياس",
+    "backToSafetyDevices": "العودة إلى أجهزة السلامة",
+    "backToIndustrialTools": "العودة إلى الأدوات الصناعية",
+    "backToAutomationSystems": "العودة إلى أنظمة الأتمتة",
+    "backToBLDC": "العودة إلى منتجات BLDC"
+  },
   "buttons": {
     "getQuote": "احصل على عرض سعر",
     "learnMore": "تعلم أكثر",

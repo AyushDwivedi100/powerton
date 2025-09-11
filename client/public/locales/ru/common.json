@@ -21,6 +21,18 @@
     "sw": "Kiswahili",
     "ha": "Hausa"
   },
+  "navigation": {
+    "backToProducts": "Назад к Продуктам",
+    "backToInstrumentationComponents": "Назад к Компонентам Приборостроения",
+    "backToElectricalComponents": "Назад к Электрическим Компонентам",
+    "backToSolarProducts": "Назад к Солнечным Продуктам",
+    "backToMechanicalPumps": "Назад к Механическим Насосам и Запчастям",
+    "backToMeasurementInstruments": "Назад к Измерительным Приборам",
+    "backToSafetyDevices": "Назад к Устройствам Безопасности",
+    "backToIndustrialTools": "Назад к Промышленным Инструментам",
+    "backToAutomationSystems": "Назад к Системам Автоматизации",
+    "backToBLDC": "Назад к Продуктам BLDC"
+  },
   "buttons": {
     "learnMore": "Узнать больше",
     "getQuote": "Получить предложение",

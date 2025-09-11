@@ -22,8 +22,16 @@
     "ha": "Hausa"
   },
   "navigation": {
+    "backToProducts": "Back to Products",
     "backToInstrumentationComponents": "Back to Instrumentation Components",
+    "backToElectricalComponents": "Back to Electrical Components",
+    "backToSolarProducts": "Back to Solar Products", 
+    "backToMechanicalPumps": "Back to Mechanical Pumps & Spares",
+    "backToMeasurementInstruments": "Back to Measurement Instruments",
     "backToSafetyDevices": "Back to Safety & Protective Devices",
+    "backToIndustrialTools": "Back to Industrial Tools & Tackles",
+    "backToAutomationSystems": "Back to Automation & Control Systems",
+    "backToBLDC": "Back to BLDC Products",
     "phoneNumbers": "Phone Numbers"
   },
   "buttons": {

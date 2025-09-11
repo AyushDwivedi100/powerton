@@ -21,6 +21,18 @@
     "sw": "Kiswahili",
     "ha": "Hausa"
   },
+  "navigation": {
+    "backToProducts": "返回产品",
+    "backToInstrumentationComponents": "返回仪器组件",
+    "backToElectricalComponents": "返回电气组件",
+    "backToSolarProducts": "返回太阳能产品",
+    "backToMechanicalPumps": "返回机械泵和配件",
+    "backToMeasurementInstruments": "返回测量仪器",
+    "backToSafetyDevices": "返回安全设备",
+    "backToIndustrialTools": "返回工业工具",
+    "backToAutomationSystems": "返回自动化系统",
+    "backToBLDC": "返回BLDC产品"
+  },
   "testimonials": {
     "anand": {
       "name": "阿南德·阿瓦斯蒂",

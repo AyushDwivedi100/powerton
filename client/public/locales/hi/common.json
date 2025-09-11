@@ -22,9 +22,17 @@
     "ha": "Hausa"
   },
   "navigation": {
+    "backToProducts": "उत्पादों पर वापस जाएं",
     "backToInstrumentationComponents": "इंस्ट्रूमेंटेशन कंपोनेंट्स पर वापस जाएं",
-    "phoneNumbers": "फ़ोन नंबर",
-    "backToSafetyDevices": "सुरक्षा और सुरक्षात्मक उपकरणों पर वापस जाएं"
+    "backToElectricalComponents": "विद्युत घटकों पर वापस जाएं",
+    "backToSolarProducts": "सौर उत्पादों पर वापस जाएं",
+    "backToMechanicalPumps": "यांत्रिक पंप और स्पेयर पार्ट्स पर वापस जाएं",
+    "backToMeasurementInstruments": "मापन उपकरणों पर वापस जाएं",
+    "backToSafetyDevices": "सुरक्षा और सुरक्षात्मक उपकरणों पर वापस जाएं",
+    "backToIndustrialTools": "औद्योगिक उपकरणों पर वापस जाएं",
+    "backToAutomationSystems": "स्वचालन और नियंत्रण प्रणालियों पर वापस जाएं",
+    "backToBLDC": "BLDC उत्पादों पर वापस जाएं",
+    "phoneNumbers": "फ़ोन नंबर"
   },
   "buttons": {
     "getQuote": "कोटेशन प्राप्त करें",

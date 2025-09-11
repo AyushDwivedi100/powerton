@@ -21,6 +21,18 @@
     "sw": "Kiswahili",
     "ha": "Hausa"
   },
+  "navigation": {
+    "backToProducts": "Retour aux Produits",
+    "backToInstrumentationComponents": "Retour aux Composants d'Instrumentation",
+    "backToElectricalComponents": "Retour aux Composants Électriques",
+    "backToSolarProducts": "Retour aux Produits Solaires",
+    "backToMechanicalPumps": "Retour aux Pompes Mécaniques et Pièces",
+    "backToMeasurementInstruments": "Retour aux Instruments de Mesure",
+    "backToSafetyDevices": "Retour aux Dispositifs de Sécurité",
+    "backToIndustrialTools": "Retour aux Outils Industriels",
+    "backToAutomationSystems": "Retour aux Systèmes d'Automatisation",
+    "backToBLDC": "Retour aux Produits BLDC"
+  },
   "buttons": {
     "learnMore": "En savoir plus",
     "getQuote": "Obtenir un devis",

@@ -53,6 +53,18 @@
       "comment": "Powerton Engineering entregó exactamente lo que prometieron. El sistema de instrumentación que instalaron ha estado funcionando perfectamente durante más de dos años. Su soporte postventa es notable y siempre receptivo."
     }
   },
+  "navigation": {
+    "backToProducts": "Volver a Productos",
+    "backToInstrumentationComponents": "Volver a Componentes de Instrumentación",
+    "backToElectricalComponents": "Volver a Componentes Eléctricos",
+    "backToSolarProducts": "Volver a Productos Solares",
+    "backToMechanicalPumps": "Volver a Bombas Mecánicas y Repuestos",
+    "backToMeasurementInstruments": "Volver a Instrumentos de Medición",
+    "backToSafetyDevices": "Volver a Dispositivos de Seguridad",
+    "backToIndustrialTools": "Volver a Herramientas Industriales",
+    "backToAutomationSystems": "Volver a Sistemas de Automatización",
+    "backToBLDC": "Volver a Productos BLDC"
+  },
   "technicalTerms": {
     "BLDC": "BLDC (Motor de Corriente Continua Sin Escobillas)",
     "PLC": "PLC (Controlador Lógico Programable)",

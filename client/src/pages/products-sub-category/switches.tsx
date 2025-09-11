@@ -98,7 +98,7 @@ export default function ProductSwitches() {
             <Link href="/products/instrumentation-components">
               <Button variant="ghost" className="mb-6 hover:bg-white/10 text-white">
                 <ArrowLeft className="mr-2 h-4 w-4" />
-                Back to Instrumentation Components
+{t('common:navigation.backToInstrumentationComponents')}
               </Button>
             </Link>
           </div>
