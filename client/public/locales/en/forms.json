@@ -121,7 +121,20 @@
       "budgetRange": "Budget Range"
     },
     "sections": {
-      "requiredServices": "Required Services *"
+      "requiredServices": "Required Services *",
+      "contactInfo": "Contact Information"
+    },
+    "fields": {
+      "name": {
+        "label": "Full Name *"
+      },
+      "email": {
+        "label": "Email Address *"
+      }
+    },
+    "error": {
+      "title": "Quote submission failed",
+      "description": "For immediate assistance: {{phone}} or email: {{email}}"
     },
     "submitting": "Submitting Quote Request...",
     "buttons": {

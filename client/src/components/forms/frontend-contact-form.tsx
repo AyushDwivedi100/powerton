@@ -12,7 +12,7 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@
 import { useToast } from "@/hooks/use-toast";
 import { Loader2, Send, Mail, Phone } from "lucide-react";
 import { FRONTEND_CONFIG } from "@/lib/frontend-config";
-import { SERVICE_OPTIONS } from "@/data/constants";
+import { getServiceOptions } from "@/data/constants";
 
 // Create schema function that uses translations
 const createContactFormSchema = (t: any) => z.object({
@@ -178,7 +178,7 @@ export default function FrontendContactForm() {
                         </SelectTrigger>
                       </FormControl>
                       <SelectContent>
-                        {SERVICE_OPTIONS.map((service) => (
+                        {getServiceOptions(t).map((service) => (
                           <SelectItem key={service.value} value={service.value}>
                             {service.label}
                           </SelectItem>

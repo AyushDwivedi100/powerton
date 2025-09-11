@@ -13,7 +13,7 @@ import { Checkbox } from "@/components/ui/checkbox";
 import { useToast } from "@/hooks/use-toast";
 import { Loader2, Send, FileText, Mail, Phone } from "lucide-react";
 import { FRONTEND_CONFIG } from "@/lib/frontend-config";
-import { SERVICE_OPTIONS } from "@/data/constants";
+import { getServiceOptions } from "@/data/constants";
 
 // Frontend-only quote form schema - validation messages will be handled by translation keys
 const createQuoteFormSchema = (t: (key: string) => string) => z.object({
@@ -44,11 +44,7 @@ const createQuoteFormSchema = (t: (key: string) => string) => z.object({
 
 type QuoteFormData = z.infer<ReturnType<typeof createQuoteFormSchema>>;
 
-// Use real services from constants
-const serviceOptions = SERVICE_OPTIONS.map(service => ({
-  id: service.value,
-  label: service.label
-}));
+// Service options will be populated inside the component where t is available
 
 export default function FrontendQuoteForm() {
   const [isSubmitting, setIsSubmitting] = useState(false);
@@ -57,6 +53,12 @@ export default function FrontendQuoteForm() {
 
   const quoteFormSchema = createQuoteFormSchema(t);
   
+  // Get translated service options
+  const serviceOptions = getServiceOptions(t).map(service => ({
+    id: service.value,
+    label: service.label
+  }));
+
   const form = useForm<QuoteFormData>({
     resolver: zodResolver(quoteFormSchema),
     defaultValues: {
@@ -129,8 +131,8 @@ export default function FrontendQuoteForm() {
     } catch (error) {
       console.error('Quote form error:', error);
       toast({
-        title: "Quote submission failed",
-        description: `For immediate assistance: ${FRONTEND_CONFIG.company.phone} or email: ${FRONTEND_CONFIG.company.email}`,
+        title: t('quote.error.title'),
+        description: t('quote.error.description', { phone: FRONTEND_CONFIG.company.phone, email: FRONTEND_CONFIG.company.email }),
         duration: 6000,
       });
     }
@@ -146,7 +148,7 @@ export default function FrontendQuoteForm() {
             {/* Contact Information Section */}
             <div className="space-y-4">
               <h3 className="text-lg font-semibold text-foreground border-b border-border pb-2">
-                Contact Information
+                {t('quote.sections.contactInfo')}
               </h3>
               
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -155,7 +157,7 @@ export default function FrontendQuoteForm() {
                   name="name"
                   render={({ field }) => (
                     <FormItem>
-                      <FormLabel>Full Name *</FormLabel>
+                      <FormLabel>{t('quote.fields.name.label')}</FormLabel>
                       <FormControl>
                         <Input placeholder={t('common:placeholders.yourFullName')} {...field} />
                       </FormControl>
@@ -169,7 +171,7 @@ export default function FrontendQuoteForm() {
                   name="email"
                   render={({ field }) => (
                     <FormItem>
-                      <FormLabel>Email Address *</FormLabel>
+                      <FormLabel>{t('quote.fields.email.label')}</FormLabel>
                       <FormControl>
                         <Input type="email" placeholder={t('common:placeholders.yourEmail')} {...field} />
                       </FormControl>
