@@ -2,55 +2,102 @@
   "title": "Bidhaa Zetu",
   "subtitle": "Vifaa vya Otomatiki ya Viwandani na Viungo vya Umeme",
   "categories": {
-    "automation": "Automation & Control",
-    "electrical": "Electrical Components",
-    "instrumentation": "Instrumentation",
-    "solar": "Solar Products",
-    "motors": "BLDC Motor Systems",
-    "pumps": "Pumps & Motors",
-    "safety": "Safety Equipment",
-    "tools": "Industrial Tools",
+    "automation": "Otomatiki na Udhibiti",
+    "electrical": "Vipengele vya Umeme",
+    "instrumentation": "Vifaa vya Kupima",
+    "solar": "Bidhaa za Jua",
+    "motors": "Mifumo ya Injini za BLDC",
+    "pumps": "Pampu na Injini",
+    "safety": "Vifaa vya Usalama",
+    "tools": "Zana za Viwandani",
     "instrumentation-components": {
-      "title": "Instrumentation Components",
-      "description": "Precision instrumentation components for measurement and control",
+      "title": "Vipengele vya Vifaa vya Kupima",
+      "description": "Vipengele sahihi vya vifaa vya kupima kwa kipimo na udhibiti",
       "features": {
-        "pressure-transmitters": "Pressure Transmitters",
-        "temperature-sensors": "Temperature Sensors",
-        "flow-meters": "Flow Meters",
-        "level-indicators": "Level Indicators"
+        "pressure-transmitters": "Vipitishaji vya Shinikizo",
+        "temperature-sensors": "Vihisi vya Joto",
+        "flow-meters": "Vipimo vya Mtiririko",
+        "level-indicators": "Vielekezo vya Kiwango"
       }
     },
     "electrical-components": {
-      "title": "Electrical Components",
-      "description": "Comprehensive electrical components solutions for industrial applications"
+      "title": "Vipengele vya Umeme",
+      "description": "Ufumbuzi mkuu wa vipengele vya umeme kwa matumizi ya viwandani",
+      "features": {
+        "circuit-breakers": "Vikato vya Mzunguko",
+        "contactors": "Viungao",
+        "relays": "Vipitishaji",
+        "power-supplies": "Chanzo cha Umeme"
+      }
     },
     "measurement-instruments": {
-      "title": "Measurement Instruments",
-      "description": "Precision measurement and testing instruments"
+      "title": "Vyombo vya Kipimo",
+      "description": "Vyombo vya kipimo sahihi na vya majaribio",
+      "features": {
+        "digital-multimeters": "Vipimo vya Dijiti",
+        "oscilloscopes": "Viongozo vya Ishara",
+        "signal-analyzers": "Vichambua Ishara",
+        "calibrators": "Vipimo Sahihi"
+      }
     },
     "solar-products": {
-      "title": "Solar Products",
-      "description": "Complete solar energy solutions and components"
+      "title": "Bidhaa za Jua",
+      "description": "Ufumbuzi mkuu wa nishati ya jua na vipengele",
+      "features": {
+        "solar-panels": "Paneli za Jua",
+        "inverters": "Vibadilishaji",
+        "battery-storage": "Hifadhi ya Betri",
+        "monitoring-systems": "Mifumo ya Ufuatiliaji"
+      }
     },
     "automation-control-systems": {
-      "title": "Automation & Control Systems",
-      "description": "Advanced automation and control systems for industrial operations"
+      "title": "Mifumo ya Otomatiki na Udhibiti",
+      "description": "Mifumo ya hali ya juu ya otomatiki na udhibiti kwa shughuli za viwandani",
+      "features": {
+        "hmi-systems": "Mifumo ya HMI",
+        "scada-software": "Programu ya SCADA",
+        "industrial-networks": "Mitandao ya Viwandani"
+      }
     },
     "safety-protective-devices": {
-      "title": "Safety & Protective Devices",
-      "description": "Industrial safety systems and protective equipment"
+      "title": "Vifaa vya Usalama na Kinga",
+      "description": "Mifumo ya usalama wa viwandani na vifaa vya kinga",
+      "features": {
+        "safety-switches": "Vifungo vya Usalama",
+        "emergency-stops": "Vikomo vya Dharura",
+        "light-curtains": "Mapazia ya Mwanga",
+        "protective-barriers": "Vizuizi vya Kinga"
+      }
     },
     "mechanical-pumps-spares": {
-      "title": "Mechanical Pumps & Spares",
-      "description": "Mechanical pumps and spare parts for industrial applications"
+      "title": "Pampu za Mitambo na Vipuri",
+      "description": "Pampu za mitambo na vipuri kwa matumizi ya viwandani",
+      "features": {
+        "centrifugal-pumps": "Pampu za Centrifugal",
+        "positive-displacement-pumps": "Pampu za Uhamishaji Chanya",
+        "pump-components": "Vipengele vya Pampu",
+        "maintenance-kits": "Vifurushi vya Matengenezo"
+      }
     },
     "industrial-tools-tackles": {
-      "title": "Industrial Tools & Equipment",
-      "description": "Heavy-duty industrial tools and lifting equipment"
+      "title": "Zana na Vifaa vya Viwandani",
+      "description": "Zana za viwandani zenye nguvu na vifaa vya kuinua",
+      "features": {
+        "hand-tools": "Zana za Mikono",
+        "power-tools": "Zana za Umeme",
+        "lifting-equipment": "Vifaa vya Kuinua",
+        "cutting-tools": "Zana za Kukata"
+      }
     },
     "bldc": {
-      "title": "BLDC Products",
-      "description": "Brushless DC motor products for energy-efficient applications"
+      "title": "Bidhaa za BLDC",
+      "description": "Bidhaa za mota za DC bila brashi kwa matumizi ya ufanisi wa nishati",
+      "features": {
+        "energy-efficient": "Ufanisi wa Nishati",
+        "long-lifespan": "Maisha Marefu",
+        "low-maintenance": "Matengenezo Machache",
+        "variable-speed-control": "Udhibiti wa Kasi Inayobadilika"
+      }
     }
   },
   "filters": {

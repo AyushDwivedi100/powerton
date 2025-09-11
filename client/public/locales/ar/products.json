@@ -2,55 +2,102 @@
   "title": "منتجاتنا",
   "subtitle": "الأتمتة الصناعية والمكونات الكهربائية",
   "categories": {
-    "automation": "Automation & Control",
-    "electrical": "Electrical Components",
-    "instrumentation": "Instrumentation",
-    "solar": "Solar Products",
-    "motors": "BLDC Motor Systems",
-    "pumps": "Pumps & Motors",
-    "safety": "Safety Equipment",
-    "tools": "Industrial Tools",
+    "automation": "الأتمتة والتحكم",
+    "electrical": "المكونات الكهربائية",
+    "instrumentation": "الأجهزة",
+    "solar": "المنتجات الشمسية",
+    "motors": "أنظمة محركات BLDC",
+    "pumps": "مضخات ومحركات",
+    "safety": "معدات الأمان",
+    "tools": "أدوات صناعية",
     "instrumentation-components": {
-      "title": "Instrumentation Components",
-      "description": "Precision instrumentation components for measurement and control",
+      "title": "مكونات الأجهزة",
+      "description": "مكونات أجهزة دقيقة للقياس والتحكم",
       "features": {
-        "pressure-transmitters": "Pressure Transmitters",
-        "temperature-sensors": "Temperature Sensors",
-        "flow-meters": "Flow Meters",
-        "level-indicators": "Level Indicators"
+        "pressure-transmitters": "مرسلات الضغط",
+        "temperature-sensors": "مستشعرات الحرارة",
+        "flow-meters": "مقاييس التدفق",
+        "level-indicators": "مؤشرات المستوى"
       }
     },
     "electrical-components": {
-      "title": "Electrical Components",
-      "description": "Comprehensive electrical components solutions for industrial applications"
+      "title": "المكونات الكهربائية",
+      "description": "حلول شاملة للمكونات الكهربائية للتطبيقات الصناعية",
+      "features": {
+        "circuit-breakers": "قواطع الدوائر",
+        "contactors": "الموصلات",
+        "relays": "المرحلات",
+        "power-supplies": "مزودات الطاقة"
+      }
     },
     "measurement-instruments": {
-      "title": "Measurement Instruments",
-      "description": "Precision measurement and testing instruments"
+      "title": "أدوات القياس",
+      "description": "أدوات قياس واختبار دقيقة",
+      "features": {
+        "digital-multimeters": "أجهزة القياس الرقمية",
+        "oscilloscopes": "أجهزة الذبذبات",
+        "signal-analyzers": "محللات الإشارة",
+        "calibrators": "أجهزة المعايرة"
+      }
     },
     "solar-products": {
-      "title": "Solar Products",
-      "description": "Complete solar energy solutions and components"
+      "title": "المنتجات الشمسية",
+      "description": "حلول ومكونات شاملة للطاقة الشمسية",
+      "features": {
+        "solar-panels": "الألواح الشمسية",
+        "inverters": "العاكسات",
+        "battery-storage": "تخزين البطارية",
+        "monitoring-systems": "أنظمة المراقبة"
+      }
     },
     "automation-control-systems": {
-      "title": "Automation & Control Systems",
-      "description": "Advanced automation and control systems for industrial operations"
+      "title": "أنظمة الأتمتة والتحكم",
+      "description": "أنظمة متقدمة للأتمتة والتحكم للعمليات الصناعية",
+      "features": {
+        "hmi-systems": "أنظمة HMI",
+        "scada-software": "برمجيات SCADA",
+        "industrial-networks": "الشبكات الصناعية"
+      }
     },
     "safety-protective-devices": {
-      "title": "Safety & Protective Devices",
-      "description": "Industrial safety systems and protective equipment"
+      "title": "أجهزة الأمان والحماية",
+      "description": "أنظمة الأمان الصناعي ومعدات الحماية",
+      "features": {
+        "safety-switches": "مفاتيح الأمان",
+        "emergency-stops": "محابس الطوارئ",
+        "light-curtains": "الحواجز الضوئية",
+        "protective-barriers": "الحواجز الواقية"
+      }
     },
     "mechanical-pumps-spares": {
-      "title": "Mechanical Pumps & Spares",
-      "description": "Mechanical pumps and spare parts for industrial applications"
+      "title": "المضخات الميكانيكية وقطع الغيار",
+      "description": "مضخات ميكانيكية وقطع غيار للتطبيقات الصناعية",
+      "features": {
+        "centrifugal-pumps": "مضخات طاردة مركزية",
+        "positive-displacement-pumps": "مضخات إزاحة إيجابية",
+        "pump-components": "مكونات المضخة",
+        "maintenance-kits": "مجموعات الصيانة"
+      }
     },
     "industrial-tools-tackles": {
-      "title": "Industrial Tools & Equipment",
-      "description": "Heavy-duty industrial tools and lifting equipment"
+      "title": "الأدوات والمعدات الصناعية",
+      "description": "أدوات صناعية ثقيلة ومعدات الرفع",
+      "features": {
+        "hand-tools": "الأدوات اليدوية",
+        "power-tools": "الأدوات الكهربائية",
+        "lifting-equipment": "معدات الرفع",
+        "cutting-tools": "أدوات القطع"
+      }
     },
     "bldc": {
-      "title": "BLDC Products",
-      "description": "Brushless DC motor products for energy-efficient applications"
+      "title": "منتجات BLDC",
+      "description": "منتجات محركات التيار المستمر عديمة الفرش للتطبيقات الموفرة للطاقة",
+      "features": {
+        "energy-efficient": "موفر للطاقة",
+        "long-lifespan": "عمر طويل",
+        "low-maintenance": "صيانة قليلة",
+        "variable-speed-control": "تحكم في السرعة المتغيرة"
+      }
     }
   },
   "items": {

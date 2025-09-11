@@ -22,35 +22,82 @@
     },
     "electrical-components": {
       "title": "विद्युत घटक",
-      "description": "औद्योगिक अनुप्रयोगों के लिए व्यापक विद्युत घटक समाधान"
+      "description": "औद्योगिक अनुप्रयोगों के लिए व्यापक विद्युत घटक समाधान",
+      "features": {
+        "circuit-breakers": "सर्किट ब्रेकर",
+        "contactors": "कॉन्टैक्टर",
+        "relays": "रिले",
+        "power-supplies": "पावर सप्लाई"
+      }
     },
     "measurement-instruments": {
       "title": "मापन उपकरण",
-      "description": "सटीक मापन और परीक्षण उपकरण"
+      "description": "सटीक मापन और परीक्षण उपकरण",
+      "features": {
+        "digital-multimeters": "डिजिटल मल्टीमीटर",
+        "oscilloscopes": "ऑसिलोस्कोप",
+        "signal-analyzers": "सिग्नल एनालाइज़र",
+        "calibrators": "कैलिब्रेटर"
+      }
     },
     "solar-products": {
       "title": "सौर उत्पाद",
-      "description": "पूर्ण सौर ऊर्जा समाधान और घटक"
+      "description": "पूर्ण सौर ऊर्जा समाधान और घटक",
+      "features": {
+        "solar-panels": "सौर पैनल",
+        "inverters": "इन्वर्टर",
+        "battery-storage": "बैटरी भंडारण",
+        "monitoring-systems": "निगरानी प्रणाली"
+      }
     },
     "automation-control-systems": {
       "title": "स्वचालन और नियंत्रण प्रणाली",
-      "description": "औद्योगिक संचालन के लिए उन्नत स्वचालन और नियंत्रण सिस्टम"
+      "description": "औद्योगिक संचालन के लिए उन्नत स्वचालन और नियंत्रण सिस्टम",
+      "features": {
+        "hmi-systems": "HMI सिस्टम",
+        "scada-software": "SCADA सॉफ्टवेयर",
+        "industrial-networks": "औद्योगिक नेटवर्क"
+      }
     },
     "safety-protective-devices": {
       "title": "सुरक्षा और सुरक्षात्मक उपकरण",
-      "description": "औद्योगिक सुरक्षा सिस्टम और सुरक्षात्मक उपकरण"
+      "description": "औद्योगिक सुरक्षा सिस्टम और सुरक्षात्मक उपकरण",
+      "features": {
+        "safety-switches": "सुरक्षा स्विच",
+        "emergency-stops": "आपातकालीन रोक",
+        "light-curtains": "लाइट कर्टेन",
+        "protective-barriers": "सुरक्षात्मक बैरियर"
+      }
     },
     "mechanical-pumps-spares": {
       "title": "यांत्रिक पंप और स्पेयर पार्ट्स",
-      "description": "औद्योगिक अनुप्रयोगों के लिए यांत्रिक पंप और स्पेयर पार्ट्स"
+      "description": "औद्योगिक अनुप्रयोगों के लिए यांत्रिक पंप और स्पेयर पार्ट्स",
+      "features": {
+        "centrifugal-pumps": "अपकेंद्रीय पंप",
+        "positive-displacement-pumps": "पॉज़िटिव डिस्प्लेसमेंट पंप",
+        "pump-components": "पंप कॉम्पोनेंट्स",
+        "maintenance-kits": "रखरखाव किट"
+      }
     },
     "industrial-tools-tackles": {
       "title": "औद्योगिक उपकरण और सामान",
-      "description": "भारी-शुल्क औद्योगिक उपकरण और लिफ्टिंग उपकरण"
+      "description": "भारी-शुल्क औद्योगिक उपकरण और लिफ्टिंग उपकरण",
+      "features": {
+        "hand-tools": "हस्त उपकरण",
+        "power-tools": "पावर टूल्स",
+        "lifting-equipment": "लिफ्टिंग उपकरण",
+        "cutting-tools": "कटिंग टूल्स"
+      }
     },
     "bldc": {
       "title": "BLDC उत्पाद",
-      "description": "ऊर्जा-कुशल अनुप्रयोगों के लिए ब्रशलेस DC मोटर उत्पाद"
+      "description": "ऊर्जा-कुशल अनुप्रयोगों के लिए ब्रशलेस DC मोटर उत्पाद",
+      "features": {
+        "energy-efficient": "ऊर्जा दक्ष",
+        "long-lifespan": "लंबी आयु",
+        "low-maintenance": "कम रखरखाव",
+        "variable-speed-control": "स्पीड कंट्रोल"
+      }
     }
   },
   "subcategories": {

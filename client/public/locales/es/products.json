@@ -2,55 +2,102 @@
   "title": "Nuestros Productos",
   "subtitle": "Automatización Industrial y Componentes Eléctricos",
   "categories": {
-    "automation": "Automation & Control",
-    "electrical": "Electrical Components",
-    "instrumentation": "Instrumentation",
-    "solar": "Solar Products",
-    "motors": "BLDC Motor Systems",
-    "pumps": "Pumps & Motors",
-    "safety": "Safety Equipment",
-    "tools": "Industrial Tools",
+    "automation": "Automatización y Control",
+    "electrical": "Componentes Eléctricos",
+    "instrumentation": "Instrumentación",
+    "solar": "Productos Solares",
+    "motors": "Sistemas de Motores BLDC",
+    "pumps": "Bombas y Motores",
+    "safety": "Equipos de Seguridad",
+    "tools": "Herramientas Industriales",
     "instrumentation-components": {
-      "title": "Instrumentation Components",
-      "description": "Precision instrumentation components for measurement and control",
+      "title": "Componentes de Instrumentación",
+      "description": "Componentes de instrumentación de precisión para medición y control",
       "features": {
-        "pressure-transmitters": "Pressure Transmitters",
-        "temperature-sensors": "Temperature Sensors",
-        "flow-meters": "Flow Meters",
-        "level-indicators": "Level Indicators"
+        "pressure-transmitters": "Transmisores de Presión",
+        "temperature-sensors": "Sensores de Temperatura",
+        "flow-meters": "Medidores de Flujo",
+        "level-indicators": "Indicadores de Nivel"
       }
     },
     "electrical-components": {
-      "title": "Electrical Components",
-      "description": "Comprehensive electrical components solutions for industrial applications"
+      "title": "Componentes Eléctricos",
+      "description": "Soluciones integrales de componentes eléctricos para aplicaciones industriales",
+      "features": {
+        "circuit-breakers": "Interruptores Automáticos",
+        "contactors": "Contactores",
+        "relays": "Relés",
+        "power-supplies": "Fuentes de Alimentación"
+      }
     },
     "measurement-instruments": {
-      "title": "Measurement Instruments",
-      "description": "Precision measurement and testing instruments"
+      "title": "Instrumentos de Medición",
+      "description": "Instrumentos de medición y prueba de precisión",
+      "features": {
+        "digital-multimeters": "Multímetros Digitales",
+        "oscilloscopes": "Osciloscopios",
+        "signal-analyzers": "Analizadores de Señal",
+        "calibrators": "Calibradores"
+      }
     },
     "solar-products": {
-      "title": "Solar Products",
-      "description": "Complete solar energy solutions and components"
+      "title": "Productos Solares",
+      "description": "Soluciones completas de energía solar y componentes",
+      "features": {
+        "solar-panels": "Paneles Solares",
+        "inverters": "Inversores",
+        "battery-storage": "Almacenamiento de Baterías",
+        "monitoring-systems": "Sistemas de Monitoreo"
+      }
     },
     "automation-control-systems": {
-      "title": "Automation & Control Systems",
-      "description": "Advanced automation and control systems for industrial operations"
+      "title": "Sistemas de Automatización y Control",
+      "description": "Sistemas avanzados de automatización y control para operaciones industriales",
+      "features": {
+        "hmi-systems": "Sistemas HMI",
+        "scada-software": "Software SCADA",
+        "industrial-networks": "Redes Industriales"
+      }
     },
     "safety-protective-devices": {
-      "title": "Safety & Protective Devices",
-      "description": "Industrial safety systems and protective equipment"
+      "title": "Dispositivos de Seguridad y Protección",
+      "description": "Sistemas de seguridad industrial y equipos de protección",
+      "features": {
+        "safety-switches": "Interruptores de Seguridad",
+        "emergency-stops": "Paradas de Emergencia",
+        "light-curtains": "Cortinas de Luz",
+        "protective-barriers": "Barreras Protectoras"
+      }
     },
     "mechanical-pumps-spares": {
-      "title": "Mechanical Pumps & Spares",
-      "description": "Mechanical pumps and spare parts for industrial applications"
+      "title": "Bombas Mecánicas y Repuestos",
+      "description": "Bombas mecánicas y repuestos para aplicaciones industriales",
+      "features": {
+        "centrifugal-pumps": "Bombas Centrífugas",
+        "positive-displacement-pumps": "Bombas de Desplazamiento Positivo",
+        "pump-components": "Componentes de Bombas",
+        "maintenance-kits": "Kits de Mantenimiento"
+      }
     },
     "industrial-tools-tackles": {
-      "title": "Industrial Tools & Equipment",
-      "description": "Heavy-duty industrial tools and lifting equipment"
+      "title": "Herramientas y Equipos Industriales",
+      "description": "Herramientas industriales de servicio pesado y equipos de elevación",
+      "features": {
+        "hand-tools": "Herramientas Manuales",
+        "power-tools": "Herramientas Eléctricas",
+        "lifting-equipment": "Equipos de Elevación",
+        "cutting-tools": "Herramientas de Corte"
+      }
     },
     "bldc": {
-      "title": "BLDC Products",
-      "description": "Brushless DC motor products for energy-efficient applications"
+      "title": "Productos BLDC",
+      "description": "Productos de motor DC sin escobillas para aplicaciones de eficiencia energética",
+      "features": {
+        "energy-efficient": "Eficiente en Energía",
+        "long-lifespan": "Vida Útil Larga",
+        "low-maintenance": "Bajo Mantenimiento",
+        "variable-speed-control": "Control de Velocidad Variable"
+      }
     }
   },
   "subcategories": {

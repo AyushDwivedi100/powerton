@@ -22,35 +22,82 @@
     },
     "electrical-components": {
       "title": "Sassan Lantarki",
-      "description": "Cikakkun maganganun sassan lantarki don ayyukan masana'antu"
+      "description": "Cikakkun maganganun sassan lantarki don ayyukan masana'antu",
+      "features": {
+        "circuit-breakers": "Masu Kashe Da'ira",
+        "contactors": "Masu Haɗawa",
+        "relays": "Masu Ƙarawa",
+        "power-supplies": "Masu Samar Da Wutar Lantarki"
+      }
     },
     "measurement-instruments": {
       "title": "Kayan Aikin Auna",
-      "description": "Kayan aikin auna da gwadawa masu daidaici"
+      "description": "Kayan aikin auna da gwadawa masu daidaici",
+      "features": {
+        "digital-multimeters": "Masu Auna Da Yawa Na Dijital",
+        "oscilloscopes": "Masu Gani Motsin Sigina",
+        "signal-analyzers": "Masu Nazari Sigina",
+        "calibrators": "Masu Daidaitawa"
+      }
     },
     "solar-products": {
       "title": "Kayayyakin Hasken Rana",
-      "description": "Cikakkun maganganun makamashi na hasken rana da sassan"
+      "description": "Cikakkun maganganun makamashi na hasken rana da sassan",
+      "features": {
+        "solar-panels": "Alluna Na Hasken Rana",
+        "inverters": "Masu Canja Wutar Lantarki",
+        "battery-storage": "Ajiyar Baturi",
+        "monitoring-systems": "Tsarin Sa Ido"
+      }
     },
     "automation-control-systems": {
       "title": "Tsarin Sarrafa Atomatik",
-      "description": "Ci gaban tsarin sarrafa atomatik don gudanar da ayyukan masana'antu"
+      "description": "Ci gaban tsarin sarrafa atomatik don gudanar da ayyukan masana'antu",
+      "features": {
+        "hmi-systems": "Tsarin HMI",
+        "scada-software": "Software SCADA",
+        "industrial-networks": "Sadarwar Masana'antu"
+      }
     },
     "safety-protective-devices": {
       "title": "Na'urorin Aminci da Kariya",
-      "description": "Tsarin amincin masana'antu da kayan kariya"
+      "description": "Tsarin amincin masana'antu da kayan kariya",
+      "features": {
+        "safety-switches": "Masu Juya Aminci",
+        "emergency-stops": "Tsayawar Gaggawa",
+        "light-curtains": "Labulen Haske",
+        "protective-barriers": "Shingaye Kariya"
+      }
     },
     "mechanical-pumps-spares": {
       "title": "Pamfunan Inji da Kayan Gyara",
-      "description": "Pamfunan inji da kayan gyara don ayyukan masana'antu"
+      "description": "Pamfunan inji da kayan gyara don ayyukan masana'antu",
+      "features": {
+        "centrifugal-pumps": "Pamfunan Centrifugal",
+        "positive-displacement-pumps": "Pamfunan Matsawa Tabbatacce",
+        "pump-components": "Sassan Pamfu",
+        "maintenance-kits": "Kayan Gyarawa"
+      }
     },
     "industrial-tools-tackles": {
       "title": "Kayan Aiki da Kayan Masana'antu",
-      "description": "Manyan kayan aikin masana'antu da kayan ɗagawa"
+      "description": "Manyan kayan aikin masana'antu da kayan ɗagawa",
+      "features": {
+        "hand-tools": "Kayan Aikin Hannu",
+        "power-tools": "Kayan Aikin Wutar Lantarki",
+        "lifting-equipment": "Kayan ɗagawa",
+        "cutting-tools": "Kayan Yanke"
+      }
     },
     "bldc": {
-      "title": "Kayayyakin Injunan Wutar Lantarki maras Brush",
-      "description": "Kayayyakin injunan DC marasa goga don ayyukan da ke adana makamashi"
+      "title": "Kayayyakin BLDC",
+      "description": "Kayayyakin injunan DC marasa goga don ayyukan da ke adana makamashi",
+      "features": {
+        "energy-efficient": "Mai Adana Makamashi",
+        "long-lifespan": "Tsawon Rayuwa",
+        "low-maintenance": "Gyara Kadan",
+        "variable-speed-control": "Sarrafa Gudun Da Ya Bambanta"
+      }
     }
   },
   "subcategories": {
