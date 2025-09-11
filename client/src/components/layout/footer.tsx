@@ -29,11 +29,11 @@ export default function Footer() {
           {/* Company Info */}
           <div itemScope itemType="https://schema.org/Organization">
             <div className="mb-4">
-              <Link href="/" aria-label="Go to Powerton Engineering homepage">
+              <Link href="/" aria-label={t('common:ui.ariaLabels.goToHomepage')}>
                 <div className="relative w-[280px] sm:w-[300px] md:w-[220px] lg:w-[240px] h-16 sm:h-18 md:h-14 overflow-hidden cursor-pointer">
                   <img 
                     src={logoImage} 
-                    alt={t('common:altTexts.companyLogo')} 
+                    alt={t('common:ui.altTexts.companyLogo')} 
                     className="absolute inset-0 w-full h-full object-contain object-left -ml-2 sm:-ml-3 md:-ml-1"
                     loading="eager"
                     width="240"
@@ -52,7 +52,7 @@ export default function Footer() {
               <a 
                 href={COMPANY_INFO.socialMedia.linkedin} 
                 className="text-slate-400 hover:text-orange-400 transition-colors" 
-                aria-label="Follow Powerton Engineering on LinkedIn"
+                aria-label={t('common:ui.ariaLabels.followLinkedIn')}
                 rel="noopener noreferrer"
                 target="_blank"
               >
@@ -63,7 +63,7 @@ export default function Footer() {
               <a 
                 href={COMPANY_INFO.socialMedia.twitter} 
                 className="text-slate-400 hover:text-orange-400 transition-colors" 
-                aria-label="Follow Powerton Engineering on X (formerly Twitter)"
+                aria-label={t('common:ui.ariaLabels.followTwitter')}
                 rel="noopener noreferrer"
                 target="_blank"
               >
@@ -74,7 +74,7 @@ export default function Footer() {
               <a 
                 href={COMPANY_INFO.socialMedia.facebook} 
                 className="text-slate-400 hover:text-orange-400 transition-colors" 
-                aria-label="Follow Powerton Engineering on Facebook"
+                aria-label={t('common:ui.ariaLabels.followFacebook')}
                 rel="noopener noreferrer"
                 target="_blank"
               >

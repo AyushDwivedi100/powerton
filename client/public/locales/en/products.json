@@ -816,6 +816,35 @@
       "contactExperts": "Contact HMI Experts"
     }
   },
+  "solarPanels": {
+    "monocrystalline": {
+      "description": "High-efficiency monocrystalline silicon solar panels",
+      "features": {
+        "efficiency": "21.5% Efficiency",
+        "warranty": "25 Year Warranty",
+        "weatherResistant": "Weather Resistant",
+        "antiReflective": "Anti-Reflective Coating"
+      }
+    },
+    "polycrystalline": {
+      "description": "Cost-effective polycrystalline solar panel solution",
+      "features": {
+        "efficiency": "19.2% Efficiency", 
+        "warranty": "20 Year Warranty",
+        "durable": "Durable Construction",
+        "installation": "Easy Installation"
+      }
+    },
+    "bifacial": {
+      "description": "Advanced bifacial technology for maximum energy harvest",
+      "features": {
+        "frontBack": "Front + Back Generation",
+        "moreEnergy": "25% More Energy", 
+        "glassDesign": "Glass-Glass Design",
+        "longLifespan": "Long Lifespan"
+      }
+    }
+  },
   "plcProducts": {
     "siemens": {
       "description": "Compact PLC for small to medium automation applications",

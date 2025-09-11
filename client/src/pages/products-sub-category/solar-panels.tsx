@@ -10,24 +10,39 @@ import { getProductImageSrc, getProductImageAlt } from '@/assets/images';
 import { useTranslation } from 'react-i18next';
 
 const SolarPanelsPage = () => {
-  const { t } = useTranslation(['products', 'common']);
+  const { t } = useTranslation(['products', 'common', 'products-data', 'pages']);
   const products = [
     {
-      name: "Monocrystalline Solar Panels - 400W",
-      description: "High-efficiency monocrystalline silicon solar panels",
-      features: ["21.5% Efficiency", "25 Year Warranty", "Weather Resistant", "Anti-Reflective Coating"],
+      name: t('products-data:productNames.solar.monocrystalline400W'),
+      description: t('products:solarPanels.monocrystalline.description'),
+      features: [
+        t('products:solarPanels.monocrystalline.features.efficiency'), 
+        t('products:solarPanels.monocrystalline.features.warranty'), 
+        t('products:solarPanels.monocrystalline.features.weatherResistant'), 
+        t('products:solarPanels.monocrystalline.features.antiReflective')
+      ],
       image: getProductImageSrc('solar-panels')
     },
     {
-      name: "Polycrystalline Solar Panels - 320W",
-      description: "Cost-effective polycrystalline solar panel solution",
-      features: ["19.2% Efficiency", "20 Year Warranty", "Durable Construction", "Easy Installation"],
+      name: t('products-data:productNames.solar.polycrystalline320W'),
+      description: t('products:solarPanels.polycrystalline.description'),
+      features: [
+        t('products:solarPanels.polycrystalline.features.efficiency'), 
+        t('products:solarPanels.polycrystalline.features.warranty'), 
+        t('products:solarPanels.polycrystalline.features.durable'), 
+        t('products:solarPanels.polycrystalline.features.installation')
+      ],
       image: getProductImageSrc('solar-panels')
     },
     {
-      name: "Bifacial Solar Panels - 450W",
-      description: "Advanced bifacial technology for maximum energy harvest",
-      features: ["Front + Back Generation", "25% More Energy", "Glass-Glass Design", "Long Lifespan"],
+      name: t('products-data:productNames.solar.bifacial450W'),
+      description: t('products:solarPanels.bifacial.description'),
+      features: [
+        t('products:solarPanels.bifacial.features.frontBack'), 
+        t('products:solarPanels.bifacial.features.moreEnergy'), 
+        t('products:solarPanels.bifacial.features.glassDesign'), 
+        t('products:solarPanels.bifacial.features.longLifespan')
+      ],
       image: getProductImageSrc('solar-panels')
     }
   ];
@@ -35,16 +50,16 @@ const SolarPanelsPage = () => {
   return (
     <>
       <SEO 
-        title="Solar Panels - Monocrystalline & Polycrystalline | Powerton Engineering"
-        description="High-efficiency solar panels: Monocrystalline (400W), Polycrystalline (320W), and Bifacial (450W). Complete solar energy solutions with installation support across India."
-        keywords="solar panels, monocrystalline solar panels, polycrystalline solar panels, bifacial solar panels, solar energy systems, renewable energy, solar installation India"
+        title={t('pages:seo.productPages.solarPanels.title')}
+        description={t('pages:seo.productPages.solarPanels.description')}
+        keywords={t('pages:seo.productPages.solarPanels.keywords')}
         canonicalUrl="https://powertonengineering.in/product-solar-panels"
         structuredData={{
           "@context": "https://schema.org",
           "@type": "Product",
-          "name": "Solar Panels",
-          "description": "High-efficiency solar panel solutions for renewable energy generation",
-          "category": "Solar Energy Equipment",
+          "name": t('products:solarPanels.title'),
+          "description": t('products:solarPanels.metaDescription'),
+          "category": t('products:categories.solarEquipment'),
           "brand": {
             "@type": "Organization",
             "name": "Powerton Engineering Pvt. Ltd."
@@ -77,14 +92,14 @@ const SolarPanelsPage = () => {
             <Link href="/products/solar-products">
               <Button variant="ghost" className="mb-6 hover:bg-primary/10">
                 <ArrowLeft className="mr-2 h-4 w-4" />
-                Back to Solar Products
+                {t('common:navigation.backToSolarProducts')}
               </Button>
             </Link>
             <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
-              Solar Panels
+              {t('products:solarPanels.title')}
             </h1>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto mb-8">
-              High-efficiency photovoltaic solar panels for residential and commercial installations
+              {t('products:solarPanels.subtitle')}
             </p>
             <div className="flex flex-wrap justify-center gap-2 mb-8">
               <Badge variant="secondary">{t('products:badges.monocrystalline', 'Monocrystalline')}</Badge>
@@ -99,7 +114,7 @@ const SolarPanelsPage = () => {
       {/* Products Section */}
       <div className="py-16 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
         <h2 className="text-3xl font-bold text-foreground text-center mb-12">
-          Solar Panel Types
+          {t('products:solarPanels.sectionTitle')}
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {products.map((product, index) => (
