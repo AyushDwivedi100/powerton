@@ -1,0 +1,69 @@
+{
+  "testimonials": {
+    "anand": {
+      "name": "Anand Awasthi",
+      "location": "West Bengal",
+      "comment": "Powerton Engineering made the process of going solar seamless and easy. Their team handled everything from start to finish, and we're thrilled with the results."
+    },
+    "sanjay": {
+      "name": "Sanjay Patil",
+      "location": "Uttar Pradesh",
+      "comment": "I am glad I chose Powerton Engineering for our installation, and I would not hesitate to recommend them to any of my friends."
+    },
+    "rhea": {
+      "name": "Rhea Sharma",
+      "location": "Maharashtra",
+      "comment": "Excellent quality products and outstanding customer service. The technical expertise of the team is impressive and highly professional."
+    }
+  },
+  "projects": {
+    "thermal-plant": {
+      "title": "Thermal Power Plant Automation",
+      "description": "Complete automation solution for 250MW thermal power plant including control panels, SCADA systems, and safety interlocks.",
+      "location": "Uttar Pradesh",
+      "duration": "12 months",
+      "highlights": {
+        "scada": "SCADA Implementation",
+        "safety": "Safety Systems",
+        "control": "Control Panels",
+        "monitoring": "Performance Monitoring"
+      }
+    },
+    "pharma-plant": {
+      "title": "Pharmaceutical Plant Control System",
+      "description": "Advanced process control and monitoring system for pharmaceutical manufacturing with FDA compliance and data integrity features.",
+      "location": "Maharashtra",
+      "duration": "8 months",
+      "highlights": {
+        "fda": "FDA Compliance",
+        "data": "Data Integrity",
+        "process": "Process Control",
+        "quality": "Quality Monitoring"
+      }
+    },
+    "solar-plant": {
+      "title": "10MW Solar Power Installation",
+      "description": "Complete design and installation of grid-connected solar power plant with monitoring systems and grid synchronization equipment.",
+      "location": "Rajasthan",
+      "duration": "6 months",
+      "highlights": {
+        "grid": "Grid Connection",
+        "monitoring": "Monitoring Systems",
+        "optimization": "Performance Optimization",
+        "maintenance": "Maintenance Planning"
+      }
+    },
+    "water-treatment": {
+      "title": "Municipal Water Treatment Automation",
+      "description": "Automated control system for water treatment plant serving 500,000 residents with real-time monitoring and quality control.",
+      "location": "West Bengal",
+      "duration": "10 months",
+      "highlights": {
+        "monitoring": "Real-time Monitoring",
+        "quality": "Quality Control",
+        "automation": "Automated Operations",
+        "remote": "Remote Management"
+      }
+    }
+  }
+}

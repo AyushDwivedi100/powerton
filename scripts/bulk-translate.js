@@ -221,7 +221,7 @@ function mergeFromEnglish(targetObj, englishObj, targetLang) {
 function processLanguage(lang) {
   console.log(`\n📋 Processing ${lang.toUpperCase()} (${languageMap[lang]}):`);
   
-  const files = ['common', 'pages', 'forms', 'services', 'products'];
+  const files = ['common', 'navigation', 'pages', 'forms', 'services', 'products', 'products-data', 'data'];
   let translatedCount = 0;
   let keysAdded = 0;
   

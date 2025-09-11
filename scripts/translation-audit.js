@@ -4,7 +4,7 @@ import { readFileSync, writeFileSync, existsSync } from 'fs';
 import { join } from 'path';
 
 const LANGUAGES = ['en', 'zh', 'hi', 'es', 'ar', 'fr', 'pt', 'ru', 'sw', 'ha'];
-const NAMESPACES = ['common', 'navigation', 'pages', 'services', 'products', 'forms'];
+const NAMESPACES = ['common', 'navigation', 'pages', 'services', 'products', 'forms', 'products-data', 'data'];
 
 // Function to recursively flatten nested JSON objects
 function flattenKeys(obj, prefix = '') {
