@@ -48,33 +48,33 @@ export default function Contact() {
   const contactMethods = [
     {
       icon: Phone,
-      title: t('pages:contact.contactMethods.phone.title', 'Call Us'),
-      subtitle: t('pages:contact.contactMethods.phone.subtitle', 'Speak directly with our experts'),
+      title: t('pages:contact.contactMethods.phone.title'),
+      subtitle: t('pages:contact.contactMethods.phone.subtitle'),
       content: {
         primary: COMPANY_INFO.phoneNumbers.primary,
         secondary: COMPANY_INFO.phoneNumbers.secondary
       },
       action: `tel:${COMPANY_INFO.phoneNumbers.primary}`,
-      description: t('pages:contact.contactMethods.phone.description', 'Our technical support team is available to help you with all your engineering needs.')
+      description: t('pages:contact.contactMethods.phone.description')
     },
     {
       icon: Mail,
-      title: t('pages:contact.contactMethods.email.title', 'Email Us'),
-      subtitle: t('pages:contact.contactMethods.email.subtitle', 'Get detailed responses'),
+      title: t('pages:contact.contactMethods.email.title'),
+      subtitle: t('pages:contact.contactMethods.email.subtitle'),
       content: COMPANY_INFO.email,
       action: `mailto:${COMPANY_INFO.email}`,
-      description: t('pages:contact.contactMethods.email.description', 'Send us your requirements and get comprehensive solutions and quotations.')
+      description: t('pages:contact.contactMethods.email.description')
     },
     {
       icon: MessageCircle,
-      title: t('pages:contact.contactMethods.whatsapp.title', 'WhatsApp'),
-      subtitle: t('pages:contact.contactMethods.whatsapp.subtitle', 'Quick & convenient chat'),
+      title: t('pages:contact.contactMethods.whatsapp.title'),
+      subtitle: t('pages:contact.contactMethods.whatsapp.subtitle'),
       content: {
         primary: COMPANY_INFO.phoneNumbers.primary,
         secondary: COMPANY_INFO.phoneNumbers.secondary
       },
       action: "https://wa.me/919462771662",
-      description: t('pages:contact.contactMethods.whatsapp.description', 'Chat with us instantly for quick quotes and technical queries.')
+      description: t('pages:contact.contactMethods.whatsapp.description')
     },
     {
       icon: MapPin,
@@ -129,7 +129,7 @@ export default function Contact() {
       <SEO
         title={t('pages:contact.seo.title')}
         description={t('pages:contact.seo.description')}
-        keywords={t('pages:contact.seo.keywords', 'contact powerton engineering, industrial automation support, electrical engineering contact, instrumentation services, Noida engineering company, technical support India')}
+        keywords={t('pages:contact.seo.keywords')}
         canonicalUrl="https://powertonengineering.in/contact"
       />
 
@@ -138,7 +138,7 @@ export default function Contact() {
         <div className="absolute inset-0">
           <img 
             src={contactHeroImage} 
-            alt={t('common:altTexts.contactBackground', 'ID-834: Contact center and customer support office background for engineering company')} 
+            alt={t('common:altTexts.contactBackground')} 
             className="w-full h-full object-cover"
           />
         </div>
@@ -360,7 +360,7 @@ export default function Contact() {
  
                       referrerPolicy="no-referrer-when-downgrade"
                       className="w-full h-full transition-all duration-300"
-                      title={t('pages:contact.map.title', 'Powerton Engineering Office Location')}
+                      title={t('pages:contact.map.title')}
                     />
                   </div>
                 </CardContent>

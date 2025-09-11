@@ -30,23 +30,23 @@ export default function About() {
   const values = [
     {
       icon: Target,
-      title: t('pages:about.values.quality.title', 'Quality Excellence'),
-      description: t('pages:about.values.quality.description', 'Commitment to delivering superior quality in every project and service we provide.'),
+      title: t('pages:about.values.quality.title'),
+      description: t('pages:about.values.quality.description'),
     },
     {
       icon: Users,
-      title: t('pages:about.values.customer.title', 'Customer Focus'),
-      description: t('pages:about.values.customer.description', 'Dedicated to understanding and exceeding our customers\' expectations and requirements.'),
+      title: t('pages:about.values.customer.title'),
+      description: t('pages:about.values.customer.description'),
     },
     {
       icon: Award,
-      title: t('pages:about.values.innovation.title', 'Innovation'),
-      description: t('pages:about.values.innovation.description', 'Continuously adopting latest technologies and innovative solutions for complex challenges.'),
+      title: t('pages:about.values.innovation.title'),
+      description: t('pages:about.values.innovation.description'),
     },
     {
       icon: Globe,
-      title: t('pages:about.values.reliability.title', 'Reliability'),
-      description: t('pages:about.values.reliability.description', 'Building dependable systems and maintaining long-term partnerships with our clients.'),
+      title: t('pages:about.values.reliability.title'),
+      description: t('pages:about.values.reliability.description'),
     },
   ];
 
@@ -71,7 +71,7 @@ export default function About() {
       <SEO
         title="About Powerton Engineering - 15+ Years of Industrial Automation Excellence"
         description="Learn about Powerton Engineering's journey in industrial automation, electrical engineering, and instrumentation solutions. Expert team serving industries across India since 2008."
-        keywords={t('pages:about.seo.keywords', 'about powerton engineering, industrial automation company, electrical engineering company, instrumentation services, automation experts India')}
+        keywords={t('pages:about.seo.keywords')}
         canonicalUrl="https://powertonengineering.in/about"
       />
 

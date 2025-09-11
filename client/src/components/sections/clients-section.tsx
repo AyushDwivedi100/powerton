@@ -169,7 +169,7 @@ export default function ClientsSection() {
             size="icon"
             onClick={goToPrevious}
             className="absolute left-0 top-1/2 -translate-y-1/2 z-10 bg-card hover:bg-muted border-border shadow-lg"
-            aria-label={t('common:aria.previousTestimonial', 'Previous testimonial')}
+            aria-label={t('common:aria.previousTestimonial')}
             data-testid="button-previous-testimonial"
           >
             <ChevronLeft className="w-5 h-5" />
@@ -180,7 +180,7 @@ export default function ClientsSection() {
             size="icon"
             onClick={goToNext}
             className="absolute right-0 top-1/2 -translate-y-1/2 z-10 bg-card hover:bg-muted border-border shadow-lg"
-            aria-label={t('common:aria.nextTestimonial', 'Next testimonial')}
+            aria-label={t('common:aria.nextTestimonial')}
             data-testid="button-next-testimonial"
           >
             <ChevronRight className="w-5 h-5" />

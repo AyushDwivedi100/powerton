@@ -129,19 +129,19 @@ export default function GallerySection() {
               <div className="text-2xl sm:text-3xl lg:text-4xl font-bold text-primary mb-1 sm:mb-2">
                 <AnimatedCounter target={150} suffix="+" />
               </div>
-              <div className="text-foreground/70 text-xs sm:text-sm lg:text-base">{t('common:company.stats.clientsServed', 'Happy Clients')}</div>
+              <div className="text-foreground/70 text-xs sm:text-sm lg:text-base">{t('common:company.stats.clientsServed')}</div>
             </div>
             <div>
               <div className="text-2xl sm:text-3xl lg:text-4xl font-bold text-primary mb-1 sm:mb-2">
                 <AnimatedCounter target={15} suffix="+" />
               </div>
-              <div className="text-foreground/70 text-xs sm:text-sm lg:text-base">{t('common:company.stats.yearsExperience', 'Years Experience')}</div>
+              <div className="text-foreground/70 text-xs sm:text-sm lg:text-base">{t('common:company.stats.yearsExperience')}</div>
             </div>
             <div>
               <div className="text-2xl sm:text-3xl lg:text-4xl font-bold text-primary mb-1 sm:mb-2">
                 <AnimatedCounter target={50} suffix="+" />
               </div>
-              <div className="text-foreground/70 text-xs sm:text-sm lg:text-base">{t('common:company.stats.citiesServed', 'Cities Served')}</div>
+              <div className="text-foreground/70 text-xs sm:text-sm lg:text-base">{t('common:company.stats.citiesServed')}</div>
             </div>
           </div>
         </div>

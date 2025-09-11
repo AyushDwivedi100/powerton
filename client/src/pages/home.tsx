@@ -61,9 +61,9 @@ export default function Home() {
   return (
     <>
       <SEO
-        title={t('pages:home.seo.title', 'Powerton Engineering - Industrial Automation & Control Panels | India')}
-        description={t('pages:home.seo.description', 'Leading manufacturer of electrical control panels, industrial automation systems, and instrumentation solutions. Expert engineering services across India with 15+ years experience.')}
-        keywords={t('pages:home.seo.keywords', 'electrical control panels, industrial automation, process automation, instrumentation, power control center, motor control center, electrical engineering, India, Noida')}
+        title={t('pages:home.seo.title')}
+        description={t('pages:home.seo.description')}
+        keywords={t('pages:home.seo.keywords')}
         structuredData={structuredData}
       />
       

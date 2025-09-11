@@ -10,23 +10,23 @@ export default function AboutSection() {
   const features = [
     {
       icon: Cog,
-      title: t('pages:home.about.features.electrical.title', 'Electrical & Instrumentation'),
-      description: t('pages:home.about.features.electrical.description', 'Complete range of control systems')
+      title: t('pages:home.about.features.electrical.title'),
+      description: t('pages:home.about.features.electrical.description')
     },
     {
       icon: Wrench,
-      title: t('pages:home.about.features.mechanical.title', 'Mechanical Pumps'),
-      description: t('pages:home.about.features.mechanical.description', 'Durable pump solutions & spares')
+      title: t('pages:home.about.features.mechanical.title'),
+      description: t('pages:home.about.features.mechanical.description')
     },
     {
       icon: Sun,
-      title: t('pages:home.about.features.solar.title', 'Solar Solutions'),
-      description: t('pages:home.about.features.solar.description', 'Sustainable energy installations')
+      title: t('pages:home.about.features.solar.title'),
+      description: t('pages:home.about.features.solar.description')
     },
     {
       icon: Settings,
-      title: t('pages:home.about.features.tools.title', 'Industrial Tools'),
-      description: t('pages:home.about.features.tools.description', 'Professional grade equipment')
+      title: t('pages:home.about.features.tools.title'),
+      description: t('pages:home.about.features.tools.description')
     }
   ];
 
@@ -70,7 +70,7 @@ export default function AboutSection() {
                       <div className="w-16 h-16 bg-secondary rounded-full flex items-center justify-center mx-auto mb-4">
                         <Cog className="w-8 h-8 text-white" aria-hidden="true" />
                       </div>
-                      <h3 className="text-xl font-bold mb-2" id="about-visual-heading">{t('pages:home.about.visualHeading', 'Professional Engineering')}</h3>
+                      <h3 className="text-xl font-bold mb-2" id="about-visual-heading">{t('pages:home.about.visualHeading')}</h3>
                       <p className="text-white/90 text-sm">
                         {t('pages:home.about.visualDescription', 'Professional Indian engineers working on industrial automation and control systems')}
                       </p>

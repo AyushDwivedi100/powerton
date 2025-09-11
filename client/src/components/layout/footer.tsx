@@ -30,7 +30,7 @@ export default function Footer() {
                 <div className="relative w-[280px] sm:w-[300px] md:w-[220px] lg:w-[240px] h-16 sm:h-18 md:h-14 overflow-hidden cursor-pointer">
                   <img 
                     src={logoImage} 
-                    alt={t('common:altTexts.companyLogo', 'Powerton Engineering Pvt. Ltd. - Industrial Automation & Electrical Engineering Company Logo')} 
+                    alt={t('common:altTexts.companyLogo')} 
                     className="absolute inset-0 w-full h-full object-contain object-left -ml-2 sm:-ml-3 md:-ml-1"
                     loading="eager"
                     width="240"
@@ -41,7 +41,7 @@ export default function Footer() {
               </Link>
             </div>
             <p className="text-slate-300 dark:text-slate-400 mb-6" itemProp="description">
-              {t('navigation:footer.companyDescription', 'Your trusted partner in delivering high-quality engineering solutions and services for industrial automation and electrical systems.')}
+              {t('navigation:footer.companyDescription')}
             </p>
             <meta itemProp="name" content="Powerton Engineering Pvt. Ltd." />
             <meta itemProp="url" content="https://powertonengineering.in" />
@@ -86,7 +86,7 @@ export default function Footer() {
           <nav aria-label="Services navigation">
             <Link href="/services">
               <h4 className="text-lg font-semibold mb-4 text-slate-100 hover:text-primary transition-colors cursor-pointer">
-                {t('navigation:footer.services', 'Services')}
+                {t('navigation:footer.services')}
               </h4>
             </Link>
             <ul className="space-y-3 text-slate-300 dark:text-slate-400">
@@ -107,7 +107,7 @@ export default function Footer() {
           <nav aria-label="Products navigation">
             <Link href="/products">
               <h4 className="text-lg font-semibold mb-4 text-slate-100 hover:text-primary transition-colors cursor-pointer">
-                {t('navigation:footer.products', 'Products')}
+                {t('navigation:footer.products')}
               </h4>
             </Link>
             <ul className="space-y-3 text-slate-300 dark:text-slate-400">

@@ -301,8 +301,8 @@ export default function Products() {
   return (
     <>
       <SEO
-        title={t('pages:products.seo.title', 'Industrial Products Catalog - Automation & Electrical Equipment | Powerton Engineering')}
-        description={t('pages:products.seo.description', 'Comprehensive catalog of industrial automation products, electrical components, instrumentation, solar systems, pumps, and tools. Quality equipment for industrial applications.')}
+        title={t('pages:products.seo.title')}
+        description={t('pages:products.seo.description')}
         keywords="industrial products, automation equipment, electrical components, instrumentation products, solar panels, industrial pumps, measurement instruments, safety equipment"
         canonicalUrl="https://powertonengineering.in/products"
       />
@@ -322,12 +322,12 @@ export default function Products() {
               <span className="text-secondary">{t('products.sections.industrialProducts')}</span>
             </h1>
             <p className="text-sm sm:text-base md:text-lg lg:text-xl mb-6 sm:mb-8 opacity-90 max-w-3xl mx-auto px-2 sm:px-0">
-              {t('products:subtitle', 'Comprehensive range of industrial automation products, electrical components, instrumentation, solar systems, pumps, and tools. Quality equipment for industrial applications.')}
+              {t('products:subtitle')}
             </p>
             <div className="flex flex-col sm:flex-row justify-center gap-2 sm:gap-3 md:gap-4 max-w-md mx-auto px-2 sm:px-0">
               <Button className="bg-secondary hover:bg-secondary/90 text-secondary-foreground px-8 py-3 text-lg font-semibold w-full sm:w-auto">
                 <Download className="mr-2 w-5 h-5" />
-                {t('common:buttons.downloadCatalog', 'Download Catalog')}
+                {t('common:buttons.downloadCatalog')}
               </Button>
               <Link href="/quote">
                 <Button
@@ -408,7 +408,7 @@ export default function Products() {
                                 variant="ghost"
                                 className="text-secondary hover:bg-transparent hover:text-secondary p-0"
                               >
-                                {t('common:buttons.viewDetails', 'View Details')}{" "}
+                                {t('common:buttons.viewDetails')}{" "}
                                 <span className="ml-2 transform group-hover:translate-x-2 transition-transform duration-300">
                                   →
                                 </span>
@@ -452,7 +452,7 @@ export default function Products() {
                   className="border-2 border-border text-foreground hover:bg-foreground hover:text-background px-8 py-3 text-lg font-semibold w-full sm:w-auto"
                 >
                   <Mail className="mr-2 w-5 h-5" />
-                  {t('common:buttons.getQuote', 'Get Quote')}
+                  {t('common:buttons.getQuote')}
                 </Button>
               </Link>
             </div>

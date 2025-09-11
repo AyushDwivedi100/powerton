@@ -50,8 +50,8 @@ export default function Services() {
   return (
     <>
       <SEO
-        title={t('pages:services.seo.title', 'Professional Engineering Services - Installation, Maintenance & Automation | Powerton Engineering')}
-        description={t('pages:services.seo.description', 'Expert engineering services: PLC programming, SCADA systems, industrial automation, electrical panel installation, maintenance, calibration, custom solutions & solar EPC services across India.')}
+        title={t('pages:services.seo.title')}
+        description={t('pages:services.seo.description')}
         keywords="engineering services, industrial automation services, PLC programming, SCADA implementation, electrical panel installation, maintenance services, calibration services, custom automation solutions, solar EPC contractor, technical support India"
         canonicalUrl="https://powertonengineering.in/services"
       />
@@ -71,17 +71,17 @@ export default function Services() {
             <div className="max-w-7xl mx-auto px-3 sm:px-4 md:px-6 lg:px-8 text-center text-white">
               <AnimatedSection animation="fadeInUp" delay={0.1} duration={0.8}>
                 <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold mb-4 sm:mb-6">
-                  {t('pages:services.hero.title', 'Professional Engineering Services')}
+                  {t('pages:services.hero.title')}
                 </h1>
                 <p className="text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl mb-6 sm:mb-8 max-w-3xl mx-auto px-2 sm:px-0">
-                  {t('pages:services.hero.subtitle', 'Comprehensive industrial automation, electrical engineering, and instrumentation solutions designed to optimize your operations and drive business success.')}
+                  {t('pages:services.hero.subtitle')}
                 </p>
                 <Link href="/quote">
                   <Button
                     size="lg"
                     className="bg-secondary hover:bg-secondary/90 text-white"
                   >
-                    {t('common:buttons.getQuote', 'Get Quote')} <ArrowRight className="ml-2 h-5 w-5" />
+                    {t('common:buttons.getQuote')} <ArrowRight className="ml-2 h-5 w-5" />
                   </Button>
                 </Link>
               </AnimatedSection>
@@ -95,10 +95,10 @@ export default function Services() {
             <AnimatedSection animation="fadeInUp" delay={0.2}>
               <div className="text-center mb-8 sm:mb-12">
                 <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
-                  {t('services:title', 'Our Services')}
+                  {t('services:title')}
                 </h2>
                 <p className="text-muted-foreground max-w-2xl mx-auto">
-                  {t('services:subtitle', 'Comprehensive Industrial Engineering Solutions')}
+                  {t('services:subtitle')}
                 </p>
               </div>
             </AnimatedSection>
@@ -127,7 +127,7 @@ export default function Services() {
                           <div className="absolute top-4 right-4 z-10">
                             <Badge className="bg-secondary text-white text-xs px-2 py-1 flex items-center gap-1">
                               <Star className="w-3 h-3" />
-                              {t('common:labels.popular', 'Popular')}
+                              {t('common:labels.popular')}
                             </Badge>
                           </div>
                         )}
@@ -142,7 +142,7 @@ export default function Services() {
                           {service.duration && (
                             <div className="flex items-center text-sm text-muted-foreground">
                               <Timer className="w-4 h-4 mr-2" />
-                              {t('common:labels.duration', 'Duration')}: {service.duration}
+                              {t('common:labels.duration')}: {service.duration}
                             </div>
                           )}
                         </CardHeader>
@@ -154,7 +154,7 @@ export default function Services() {
 
                           <div className="space-y-3 mb-6 flex-1">
                             <h4 className="font-semibold text-foreground text-sm">
-                              {t('common:labels.keyFeatures', 'Key Features')}:
+                              {t('common:labels.keyFeatures')}:
                             </h4>
                             <ul className="space-y-2">
                               {service.features.map((feature, featureIndex) => (
@@ -181,7 +181,7 @@ export default function Services() {
                                   size="sm"
                                   className="w-full bg-primary hover:bg-primary/90 text-xs"
                                 >
-                                  {t('common:buttons.quickQuote', 'Quick Quote')}
+                                  {t('common:buttons.quickQuote')}
                                 </Button>
                               </Link>
                               <Link href={`tel:${companyInfo.phone}`}>
@@ -222,7 +222,7 @@ export default function Services() {
             <AnimatedSection animation="fadeInUp" delay={0.2}>
               <div className="text-center mb-8 sm:mb-12">
                 <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
-                  {t('pages:services.whyChoose.title', 'Why Choose Powerton Engineering?')}
+                  {t('pages:services.whyChoose.title')}
                 </h2>
                 <p className="text-muted-foreground max-w-2xl mx-auto mb-8">
                   With {companyInfo.stats.yearsExperience} years of experience
@@ -235,7 +235,7 @@ export default function Services() {
                       {companyInfo.stats.projectsCompleted}
                     </div>
                     <div className="text-sm text-muted-foreground">
-                      {t('common:labels.projectsCompleted', 'Projects Completed')}
+                      {t('common:labels.projectsCompleted')}
                     </div>
                   </div>
                   <div className="text-center">
@@ -243,7 +243,7 @@ export default function Services() {
                       {companyInfo.stats.clientsServed}
                     </div>
                     <div className="text-sm text-muted-foreground">
-                      {t('common:labels.satisfiedClients', 'Satisfied Clients')}
+                      {t('common:labels.satisfiedClients')}
                     </div>
                   </div>
                   <div className="text-center">
@@ -251,7 +251,7 @@ export default function Services() {
                       {companyInfo.stats.yearsExperience}
                     </div>
                     <div className="text-sm text-muted-foreground">
-                      {t('common:labels.yearsExperience', 'Years Experience')}
+                      {t('common:labels.yearsExperience')}
                     </div>
                   </div>
                   <div className="text-center">
@@ -259,7 +259,7 @@ export default function Services() {
                       {companyInfo.stats.responseTime}
                     </div>
                     <div className="text-sm text-muted-foreground">
-                      {t('common:labels.responseTime', 'Response Time')}
+                      {t('common:labels.responseTime')}
                     </div>
                   </div>
                 </div>
@@ -274,10 +274,10 @@ export default function Services() {
                       <Award className="w-8 h-8 text-primary" />
                     </div>
                     <h3 className="font-semibold text-foreground mb-2">
-                      {t('pages:services.benefits.expertTeam.title', 'Expert Team')}
+                      {t('pages:services.benefits.expertTeam.title')}
                     </h3>
                     <p className="text-muted-foreground text-sm">
-                      {t('pages:services.benefits.expertTeam.description', 'Certified professionals with extensive industry experience')}
+                      {t('pages:services.benefits.expertTeam.description')}
                     </p>
                   </CardContent>
                 </Card>
@@ -290,10 +290,10 @@ export default function Services() {
                       <Clock className="w-8 h-8 text-primary" />
                     </div>
                     <h3 className="font-semibold text-foreground mb-2">
-                      {t('pages:services.benefits.rapidResponse.title', 'Rapid Response')}
+                      {t('pages:services.benefits.rapidResponse.title')}
                     </h3>
                     <p className="text-muted-foreground text-sm">
-                      {t('pages:services.benefits.rapidResponse.description', `Average ${companyInfo.stats.responseTime} response time for all support requests`)}
+                      {t('pages:services.benefits.rapidResponse.description')}
                     </p>
                   </CardContent>
                 </Card>
@@ -306,10 +306,10 @@ export default function Services() {
                       <Shield className="w-8 h-8 text-primary" />
                     </div>
                     <h3 className="font-semibold text-foreground mb-2">
-                      {t('pages:services.benefits.qualityAssured.title', 'Quality Assured')}
+                      {t('pages:services.benefits.qualityAssured.title')}
                     </h3>
                     <p className="text-muted-foreground text-sm">
-                      {t('pages:services.benefits.qualityAssured.description', 'ISO certified processes and guaranteed quality standards')}
+                      {t('pages:services.benefits.qualityAssured.description')}
                     </p>
                   </CardContent>
                 </Card>
@@ -322,10 +322,10 @@ export default function Services() {
                       <Users className="w-8 h-8 text-primary" />
                     </div>
                     <h3 className="font-semibold text-foreground mb-2">
-                      {t('pages:services.benefits.clientFocused.title', 'Client Focused')}
+                      {t('pages:services.benefits.clientFocused.title')}
                     </h3>
                     <p className="text-muted-foreground text-sm">
-                      {t('pages:services.benefits.clientFocused.description', 'Customized solutions tailored to your specific requirements')}
+                      {t('pages:services.benefits.clientFocused.description')}
                     </p>
                   </CardContent>
                 </Card>
@@ -339,10 +339,10 @@ export default function Services() {
           <div className="max-w-4xl mx-auto px-4 md:px-6 lg:px-8 text-center">
             <AnimatedSection animation="fadeInUp" delay={0.2}>
               <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">
-                {t('pages:services.cta.title', 'Ready to Get Started?')}
+                {t('pages:services.cta.title')}
               </h2>
               <p className="text-white mb-8 text-lg">
-                {t('pages:services.cta.description', 'Contact us today to discuss your project requirements and get a customized solution.')}
+                {t('pages:services.cta.description')}
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Link href="/quote">
@@ -370,7 +370,7 @@ export default function Services() {
                     className="hover:scale-105 transition-all duration-300"
                   >
                     <Phone className="mr-2 h-5 w-5" />
-                    {t('common:buttons.callNow', 'Call Now')}
+                    {t('common:buttons.callNow')}
                   </Button>
                 </Link>
               </div>

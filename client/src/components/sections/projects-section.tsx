@@ -29,13 +29,11 @@ export default function ProjectsSection() {
       <div className="max-w-7xl mx-auto px-3 sm:px-4 md:px-6 lg:px-8">
         <div className="text-center mb-8 sm:mb-12 md:mb-16">
           <span className="text-secondary font-semibold text-lg">
-            {t("pages:home.projects.label", "Our Projects")}
+            {t("pages:home.projects.label")}
           </span>
           <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-primary mt-3 sm:mt-4 mb-4 sm:mb-6">
             {t(
-              "pages:home.projects.title",
-              "Engineering Capability Demonstrations",
-            )}
+              "pages:home.projects.title")}
           </h2>
           <p className="text-sm sm:text-base md:text-lg lg:text-xl text-muted-foreground max-w-3xl mx-auto px-2 sm:px-0">
             {t("pages:home.projects.description")}
@@ -75,7 +73,7 @@ export default function ProjectsSection() {
                     )}
                   </Badge>
                   <span className="text-muted-foreground text-sm">
-                    {t("pages:home.projects.completed", "Completed")}{" "}
+                    {t("pages:home.projects.completed")}{" "}
                     {project.year}
                   </span>
                 </div>
@@ -95,7 +93,7 @@ export default function ProjectsSection() {
                 {/* Project Highlights */}
                 <div className="mb-6">
                   <h4 className="text-sm font-semibold text-foreground mb-2">
-                    {t("pages:home.projects.keyFeatures", "Key Features:")}
+                    {t("pages:home.projects.keyFeatures")}
                   </h4>
                   <div className="flex flex-wrap gap-2">
                     {project.highlights.map((highlight, index) => {
@@ -141,7 +139,7 @@ export default function ProjectsSection() {
                       variant="ghost"
                       className="text-secondary hover:text-secondary hover:bg-transparent font-semibold transition-all duration-300"
                     >
-                      {t("pages:home.projects.viewDetails", "View Details")}
+                      {t("pages:home.projects.viewDetails")}
                       <span className="ml-2 transform group-hover:translate-x-2 transition-transform duration-300">
                         →
                       </span>{" "}
@@ -157,7 +155,7 @@ export default function ProjectsSection() {
         <div className="text-center px-2 sm:px-0">
           <Link href="/projects">
             <Button className="bg-primary hover:bg-primary/90 text-primary-foreground text-sm sm:text-base md:text-lg px-4 sm:px-6 md:px-8 py-3 sm:py-4 mr-2 sm:mr-4 hover:shadow-xl hover:scale-[1.02] transition-all duration-300">
-              {t("pages:home.projects.viewAllProjects", "View All Projects")}
+              {t("pages:home.projects.viewAllProjects")}
             </Button>
           </Link>
           <a href="/portfolio-download">
@@ -165,7 +163,7 @@ export default function ProjectsSection() {
               variant="outline"
               className="border-2 border-primary text-primary hover:bg-primary hover:text-primary-foreground text-sm sm:text-base md:text-lg px-4 sm:px-6 md:px-8 py-3 sm:py-4 hover:shadow-xl hover:scale-[1.02] transition-all duration-300"
             >
-              {t("pages:home.projects.downloadPortfolio", "Download Portfolio")}
+              {t("pages:home.projects.downloadPortfolio")}
             </Button>
           </a>
         </div>

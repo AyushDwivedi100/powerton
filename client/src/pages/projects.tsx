@@ -122,19 +122,19 @@ export default function Projects() {
     {
       number: 50,
       suffix: "+",
-      label: t("common:company.stats.projectsCompleted", "Projects Completed"),
+      label: t("common:company.stats.projectsCompleted"),
       icon: Award,
     },
     {
       number: 25,
       suffix: "+",
-      label: t("common:company.stats.clientsServed", "Happy Clients"),
+      label: t("common:company.stats.clientsServed"),
       icon: Users,
     },
     {
       number: 15,
       suffix: "+",
-      label: t("common:company.stats.yearsExperience", "Years Experience"),
+      label: t("common:company.stats.yearsExperience"),
       icon: Calendar,
     },
     { number: 98, suffix: "%", label: "Success Rate", icon: Target },
