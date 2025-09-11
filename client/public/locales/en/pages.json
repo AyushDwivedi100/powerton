@@ -1328,5 +1328,74 @@
       "buildingAutomation": "Building Automation",
       "manufacturingAutomation": "Manufacturing Automation"
     }
+  },
+  "quote": {
+    "hero": {
+      "title": "Get Professional Quote & Cost Calculator",
+      "subtitle": "Request detailed pricing for your automation projects. Use our cost calculator for instant estimates or submit a comprehensive quote request for customized solutions.",
+      "benefits": {
+        "consultation": "Free Expert Consultation",
+        "response": "24-48 Hour Response",
+        "estimates": "Accurate Cost Estimates", 
+        "noCosts": "No Hidden Costs"
+      }
+    },
+    "benefits": {
+      "assessment": {
+        "title": "Detailed Assessment",
+        "description": "Comprehensive project evaluation and technical specifications"
+      },
+      "response": {
+        "title": "Quick Response",
+        "description": "Receive your detailed quote within 24-48 hours"
+      },
+      "consultation": {
+        "title": "Expert Consultation", 
+        "description": "Free technical consultation with our engineering team"
+      },
+      "solutions": {
+        "title": "Customized Solutions",
+        "description": "Tailored engineering solutions for your specific requirements"
+      }
+    },
+    "method": {
+      "title": "Choose Your Quote Method",
+      "description": "Select the method that best suits your project needs and timeline.",
+      "calculator": "Cost Calculator",
+      "request": "Quote Request"
+    },
+    "calculator": {
+      "title": "Advanced Cost Calculator",
+      "description": "We're putting the finishing touches on our intelligent cost estimation tool. This feature will provide instant, accurate pricing for your automation projects.",
+      "launchingSoon": "Launching Soon",
+      "useQuoteForm": "For immediate quotes, please use our detailed quote form",
+      "getQuoteNow": "Get Quote Now",
+      "projectTitle": "Project Cost Calculator",
+      "stepOf": "Step {{current}} of {{total}}"
+    },
+    "process": {
+      "title": "Our Quote Process",
+      "description": "From initial request to detailed proposal, we ensure a smooth and transparent process.",
+      "submit": {
+        "title": "Submit Request",
+        "description": "Fill out our comprehensive quote form or use our cost calculator"
+      },
+      "review": {
+        "title": "Technical Review", 
+        "description": "Our engineering team analyzes your requirements and specifications"
+      },
+      "assessment": {
+        "title": "Site Assessment",
+        "description": "Optional on-site visit for complex projects (if required)"
+      },
+      "quote": {
+        "title": "Detailed Quote",
+        "description": "Receive comprehensive pricing with timeline and deliverables"
+      }
+    },
+    "cta": {
+      "title": "Ready to Get Started?",
+      "description": "Contact us today for your custom engineering solution. Our team is ready to help bring your project to life."
+    }
   }
 }
