@@ -95,6 +95,11 @@
       "viewDetails": "[TRANSLATE] View Details",
       "viewAllProjects": "[TRANSLATE] View All Projects",
       "downloadPortfolio": "[TRANSLATE] Download Portfolio"
+    },
+    "seo": {
+      "title": "Powerton Engineering - Industrial Automation & Control Panels | India",
+      "description": "Leading manufacturer of electrical control panels, industrial automation systems, and instrumentation solutions. Expert engineering services worldwide with 15+ years experience.",
+      "keywords": "electrical control panels, industrial automation, process automation, instrumentation, power control center, motor control center, electrical engineering, India, Noida"
     }
   },
   "products": {
@@ -151,7 +156,20 @@
       "title": "[TRANSLATE] Page Not Found (404) - Powerton Engineering",
       "description": "[TRANSLATE] The page you're looking for doesn't exist. Return to Powerton Engineering homepage or explore our industrial automation services and products."
     },
-    "title": "[TRANSLATE] 404"
+    "title": "[TRANSLATE] 404",
+    "heading": "Page Not Found",
+    "message": "The page you're looking for doesn't exist. It may have been moved, deleted, or you entered the wrong URL.",
+    "quickLinks": "Quick links to popular sections:",
+    "buttons": {
+      "homepage": "Return to Homepage",
+      "support": "Contact Support"
+    },
+    "links": {
+      "products": "Products",
+      "services": "Services",
+      "projects": "Projects",
+      "about": "About"
+    }
   },
   "projects": {
     "tabs": {

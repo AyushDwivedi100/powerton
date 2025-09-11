@@ -284,6 +284,50 @@
       "standard": "[TRANSLATE] Standard (3-6 months)",
       "extended": "[TRANSLATE] Extended (6-12 months)",
       "longTerm": "[TRANSLATE] Long-term (12+ months)"
+    },
+    "projectSizes": {
+      "small": "Small (1-10 I/O Points)",
+      "medium": "Medium (11-100 I/O Points)",
+      "large": "Large (101-500 I/O Points)",
+      "enterprise": "Enterprise (500+ I/O Points)"
+    },
+    "requirements": {
+      "plcProgramming": "PLC Programming",
+      "scadaDevelopment": "SCADA Development",
+      "hmiDesign": "HMI Design",
+      "networkIntegration": "Network Integration",
+      "safetySystems": "Safety Systems",
+      "remoteMonitoring": "Remote Monitoring",
+      "dataAnalytics": "Data Analytics",
+      "mobileApp": "Mobile App Interface"
+    },
+    "additionalFeatures": {
+      "redundancy": "System Redundancy",
+      "cybersecurity": "Advanced Cybersecurity",
+      "iotIntegration": "IoT Integration",
+      "aiMl": "AI/ML Analytics",
+      "predictiveMaintenance": "Predictive Maintenance",
+      "energyManagement": "Energy Management",
+      "cloudIntegration": "Cloud Integration",
+      "trainingSupport": "Extended Training & Support"
+    },
+    "industries": {
+      "manufacturing": "Manufacturing",
+      "powerGeneration": "Power Generation",
+      "oilGas": "Oil & Gas",
+      "chemicalProcessing": "Chemical Processing",
+      "waterTreatment": "Water Treatment",
+      "foodBeverage": "Food & Beverage",
+      "pharmaceutical": "Pharmaceutical",
+      "renewableEnergy": "Renewable Energy"
+    },
+    "projectTypes": {
+      "processAutomation": "Process Automation",
+      "powerControlSystems": "Power Control Systems",
+      "instrumentationControl": "Instrumentation & Control",
+      "solarAutomation": "Solar Automation",
+      "buildingAutomation": "Building Automation",
+      "manufacturingAutomation": "Manufacturing Automation"
     }
   },
   "backToProducts": "Volver a Productos",
@@ -314,13 +358,13 @@
     },
     "achievements": {
       "title": "Logros Recientes",
-      "list": [
-        "Premio de Excelencia en Automatización Industrial - Sociedad de Ingenieros de la India",
-        "Mejor Proveedor de Servicios de Ingeniería - Premios Automation World 2024",
-        "Premio de Implementación de Energía Verde - Reconocimiento MNRE",
-        "Innovación en Control de Procesos - Premios IET India",
-        "Premio de Excelencia al Cliente - Asociación de Automatización Industrial"
-      ]
+      "list": {
+        "0": "Premio de Excelencia en Automatización Industrial - Sociedad de Ingenieros de la India",
+        "1": "Mejor Proveedor de Servicios de Ingeniería - Premios Automation World 2024",
+        "2": "Premio de Implementación de Energía Verde - Reconocimiento MNRE",
+        "3": "Innovación en Control de Procesos - Premios IET India",
+        "4": "Premio de Excelencia al Cliente - Asociación de Automatización Industrial"
+      }
     },
     "hero": {
       "title": "Noticias y Actualizaciones",
@@ -391,36 +435,36 @@
         "client": "Noida Smart City Ltd.",
         "description": "Infraestructura de automatización completa para proyecto de ciudad inteligente incluyendo gestión de tráfico, gestión de residuos, y sistemas de distribución de energía.",
         "status": "Fase de Planificación",
-        "technologies": [
-          "IoT",
-          "Sensores Inteligentes",
-          "Sistemas de Gestión Urbana",
-          "Automatización de Energía"
-        ]
+        "technologies": {
+          "0": "IoT",
+          "1": "Sensores Inteligentes",
+          "2": "Sistemas de Gestión Urbana",
+          "3": "Automatización de Energía"
+        }
       },
       "pharma": {
         "title": "Automatización de Manufactura Farmacéutica",
         "client": "Cipla Limited",
         "description": "Automatización avanzada para procesos de manufactura farmacéutica con cumplimiento de estándares internacionales y sistemas de control de calidad.",
         "status": "Contrato Firmado",
-        "technologies": [
-          "Cumplimiento GMP",
-          "Procesamiento por Lotes",
-          "Control de Calidad",
-          "Sistemas de Trazabilidad"
-        ]
+        "technologies": {
+          "0": "Cumplimiento GMP",
+          "1": "Procesamiento por Lotes",
+          "2": "Control de Calidad",
+          "3": "Sistemas de Trazabilidad"
+        }
       },
       "solarFarm": {
         "title": "Automatización y Monitoreo de Granja Solar",
         "client": "Adani Green Energy",
         "description": "Solución de automatización integral para granja solar de 200MW incluyendo sistemas de seguimiento, monitoreo climático, e integración de red.",
         "status": "Fase de Ingeniería",
-        "technologies": [
-          "Seguimiento Solar",
-          "Sistemas Climáticos",
-          "Integración de Red",
-          "Monitoreo Remoto"
-        ]
+        "technologies": {
+          "0": "Seguimiento Solar",
+          "1": "Sistemas Climáticos",
+          "2": "Integración de Red",
+          "3": "Monitoreo Remoto"
+        }
       }
     }
   },
@@ -523,11 +567,40 @@
           "title": "[TRANSLATE] Industrial Control Panel Installation",
           "description": "[TRANSLATE] Complete automation system implementation for manufacturing plant",
           "client": "[TRANSLATE] Manufacturing Industry"
+        },
+        "solarPlant": {
+          "title": "Solar Power Plant - 1MW",
+          "description": "Grid-tied solar installation with monitoring systems",
+          "client": "Industrial Complex"
+        },
+        "scadaSystem": {
+          "title": "SCADA System Implementation",
+          "description": "Centralized monitoring and control system for water treatment plant",
+          "client": "Water Authority"
+        },
+        "instrumentation": {
+          "title": "Process Instrumentation Upgrade",
+          "description": "Complete instrumentation overhaul for chemical processing unit",
+          "client": "Chemical Industry"
+        },
+        "plcProgramming": {
+          "title": "PLC Programming & Integration",
+          "description": "Advanced PLC systems for production line automation",
+          "client": "Automotive Sector"
+        },
+        "electricalPanel": {
+          "title": "Electrical Panel Modernization",
+          "description": "Safety compliance and efficiency improvement project",
+          "client": "Manufacturing Unit"
         }
       },
       "categories": {
         "automation": "[TRANSLATE] Automation",
-        "solarEpc": "[TRANSLATE] Solar EPC"
+        "solarEpc": "[TRANSLATE] Solar EPC",
+        "scada": "SCADA",
+        "instrumentation": "Instrumentation",
+        "plcProgramming": "PLC Programming",
+        "electrical": "Electrical"
       }
     },
     "ui": {
@@ -552,6 +625,51 @@
       "products": {
         "title": "[TRANSLATE] Our Products & Solutions",
         "description": "[TRANSLATE] Discover our comprehensive range of industrial products and solutions from leading global manufacturers."
+      },
+      "company": {
+        "title": "Our Company & Team",
+        "description": "Meet our dedicated team and explore our modern facilities that enable us to deliver excellence in every project."
+      }
+    },
+    "tabs": {
+      "company": "Company & Team",
+      "projects": "Projects",
+      "products": "Products"
+    },
+    "products": {
+      "images": {
+        "controlSystems": {
+          "title": "Advanced Control Systems",
+          "description": "State-of-the-art automation and control solutions"
+        },
+        "electricalPanels": {
+          "title": "Electrical Control Panels",
+          "description": "Custom-designed panels for industrial applications"
+        },
+        "instrumentation": {
+          "title": "Precision Instrumentation",
+          "description": "High-quality measurement and control instruments"
+        },
+        "pumps": {
+          "title": "Industrial Pumps & Motors",
+          "description": "Reliable pump solutions for various applications"
+        },
+        "solarProducts": {
+          "title": "Solar Power Solutions",
+          "description": "Complete solar energy systems and components"
+        },
+        "safetyEquipment": {
+          "title": "Safety & Protection",
+          "description": "Industrial safety equipment and protective devices"
+        }
+      },
+      "categories": {
+        "controlSystems": "Control Systems",
+        "electricalPanels": "Electrical Panels",
+        "instrumentation": "Instrumentation",
+        "pumps": "Pumps & Motors",
+        "solar": "Solar Products",
+        "safety": "Safety Equipment"
       }
     }
   },
@@ -572,7 +690,8 @@
       "services": "[TRANSLATE] Services",
       "projects": "[TRANSLATE] Projects",
       "about": "[TRANSLATE] About"
-    }
+    },
+    "title": "404"
   },
   "portfolio": {
     "features": {

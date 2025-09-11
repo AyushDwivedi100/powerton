@@ -9,7 +9,49 @@
     "motors": "[TRANSLATE] BLDC Motor Systems",
     "pumps": "[TRANSLATE] Pumps & Motors",
     "safety": "[TRANSLATE] Safety Equipment",
-    "tools": "[TRANSLATE] Industrial Tools"
+    "tools": "[TRANSLATE] Industrial Tools",
+    "instrumentation-components": {
+      "title": "Instrumentation Components",
+      "description": "Precision instrumentation components for measurement and control",
+      "features": {
+        "pressure-transmitters": "Pressure Transmitters",
+        "temperature-sensors": "Temperature Sensors",
+        "flow-meters": "Flow Meters",
+        "level-indicators": "Level Indicators"
+      }
+    },
+    "electrical-components": {
+      "title": "Electrical Components",
+      "description": "Comprehensive electrical components solutions for industrial applications"
+    },
+    "measurement-instruments": {
+      "title": "Measurement Instruments",
+      "description": "Precision measurement and testing instruments"
+    },
+    "solar-products": {
+      "title": "Solar Products",
+      "description": "Complete solar energy solutions and components"
+    },
+    "automation-control-systems": {
+      "title": "Automation & Control Systems",
+      "description": "Advanced automation and control systems for industrial operations"
+    },
+    "safety-protective-devices": {
+      "title": "Safety & Protective Devices",
+      "description": "Industrial safety systems and protective equipment"
+    },
+    "mechanical-pumps-spares": {
+      "title": "Mechanical Pumps & Spares",
+      "description": "Mechanical pumps and spare parts for industrial applications"
+    },
+    "industrial-tools-tackles": {
+      "title": "Industrial Tools & Equipment",
+      "description": "Heavy-duty industrial tools and lifting equipment"
+    },
+    "bldc": {
+      "title": "BLDC Products",
+      "description": "Brushless DC motor products for energy-efficient applications"
+    }
   },
   "items": {
     "solar-products": "المنتجات الشمسية",
@@ -313,7 +355,31 @@
       "highPressure": "[TRANSLATE] High Pressure",
       "lowFlowRates": "[TRANSLATE] Low Flow Rates",
       "accurateDosing": "[TRANSLATE] Accurate Dosing",
-      "leakFreeOperation": "[TRANSLATE] Leak-Free Operation"
+      "leakFreeOperation": "[TRANSLATE] Leak-Free Operation",
+      "highTorque": "High Torque",
+      "variableSpeed": "Variable Speed",
+      "cordlessOptions": "Cordless Options",
+      "chuckCapacity": "Chuck Capacity: 13mm",
+      "multipleSizes": "Multiple Sizes",
+      "safetyGuards": "Safety Guards",
+      "antiVibration": "Anti-Vibration",
+      "powerfulMotors": "Powerful Motors",
+      "highImpactForce": "High Impact Force",
+      "socketCompatibility": "Socket Compatibility",
+      "forwardReverse": "Forward/Reverse",
+      "batteryPowered": "Battery Powered",
+      "efficientSwitching": "85-265V AC Input",
+      "dcOutput": "12V/24V DC Output",
+      "highEfficiency": "High Efficiency",
+      "compactDesign": "Compact Design",
+      "dinRailMount": "DIN Rail Mount",
+      "wideInputRange": "Wide Input Range",
+      "shortCircuitProtection": "Short Circuit Protection",
+      "ledStatus": "LED Status",
+      "batteryBackup": "Battery Backup",
+      "surgeProtection": "Surge Protection",
+      "autoTransfer": "Auto Transfer",
+      "lcdDisplay": "LCD Display"
     },
     "product": {
       "safetyEquipment": {
@@ -428,17 +494,32 @@
       "panelMount": {
         "name": "[TRANSLATE] Panel Mount HMI Displays",
         "description": "[TRANSLATE] Industrial touchscreen displays for machine interface",
-        "features": "[TRANSLATE] Touch Interface,Industrial Rating,Multiple Sizes,Communication Protocols"
+        "features": [
+          "Touch Interface",
+          "Industrial Rating",
+          "Multiple Sizes",
+          "Communication Protocols"
+        ]
       },
       "operatorInterface": {
         "name": "[TRANSLATE] Operator Interface Terminals",
         "description": "[TRANSLATE] Rugged operator terminals for harsh environments",
-        "features": "[TRANSLATE] IP65/IP67 Rating,Stainless Steel,Membrane Keypad,Backlit Display"
+        "features": [
+          "IP65/IP67 Rating",
+          "Stainless Steel",
+          "Membrane Keypad",
+          "Backlit Display"
+        ]
       },
       "mobile": {
         "name": "[TRANSLATE] Mobile HMI Solutions",
         "description": "[TRANSLATE] Wireless and mobile human machine interfaces",
-        "features": "[TRANSLATE] Wireless Connectivity,Mobile Apps,Remote Access,Real-time Data"
+        "features": [
+          "Wireless Connectivity",
+          "Mobile Apps",
+          "Remote Access",
+          "Real-time Data"
+        ]
       }
     },
     "cta": {

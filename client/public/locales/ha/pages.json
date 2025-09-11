@@ -95,6 +95,11 @@
       "viewDetails": "[TRANSLATE] View Details",
       "viewAllProjects": "[TRANSLATE] View All Projects",
       "downloadPortfolio": "[TRANSLATE] Download Portfolio"
+    },
+    "seo": {
+      "title": "Powerton Engineering - Industrial Automation & Control Panels | India",
+      "description": "Leading manufacturer of electrical control panels, industrial automation systems, and instrumentation solutions. Expert engineering services worldwide with 15+ years experience.",
+      "keywords": "electrical control panels, industrial automation, process automation, instrumentation, power control center, motor control center, electrical engineering, India, Noida"
     }
   },
   "products": {
@@ -207,6 +212,14 @@
       "remote": {
         "title": "[TRANSLATE] Remote Support",
         "description": "[TRANSLATE] Virtual assistance and remote system diagnostics"
+      },
+      "technical": {
+        "title": "Technical Support",
+        "description": "Expert technical assistance for all our products and services"
+      },
+      "customer": {
+        "title": "Customer Success",
+        "description": "Dedicated support to ensure your project success"
       }
     },
     "sections": {
@@ -241,6 +254,49 @@
       "title": "[TRANSLATE] Emergency Support",
       "description": "[TRANSLATE] Critical system failure? Our emergency response team is available 24/7 to help minimize downtime.",
       "hotline": "[TRANSLATE] Emergency Hotline"
+    },
+    "hero": {
+      "title": "Contact Our Engineering Experts",
+      "subtitle": "Ready to start your next project? Our expert team is here to help you with customized engineering solutions and professional consultation.",
+      "benefits": {
+        "consultation": "Free Consultation",
+        "support": "24/7 Emergency Support",
+        "experience": "15+ Years Experience"
+      }
+    },
+    "methods": {
+      "title": "Multiple Ways to Reach Us",
+      "subtitle": "Choose the communication method that works best for you. We're available 24/7 for emergency support."
+    },
+    "form": {
+      "title": "Send Us a Message",
+      "subtitle": "Get in touch with us for general inquiries, service information, or technical questions."
+    },
+    "contactMethods": {
+      "phone": {
+        "title": "Call Us Directly",
+        "subtitle": "Available 24/7 for support",
+        "description": "Speak directly with our technical team"
+      },
+      "email": {
+        "title": "Email Support",
+        "subtitle": "Response within 24 hours",
+        "description": "Send us detailed project requirements"
+      },
+      "whatsapp": {
+        "title": "WhatsApp Support",
+        "subtitle": "Quick response chat",
+        "description": "Get instant answers to your questions"
+      },
+      "visit": {
+        "title": "Visit Our Office",
+        "subtitle": "By appointment only",
+        "description": "Schedule a visit to our headquarters in Noida"
+      }
+    },
+    "office": {
+      "name": "Corporate Headquarters",
+      "hours": "Mon-Sat: 9:00 AM - 6:00 PM"
     }
   },
   "quote": {

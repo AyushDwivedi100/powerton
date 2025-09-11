@@ -196,6 +196,10 @@
       "staff": "[TRANSLATE] Technical Staff",
       "experience": "[TRANSLATE] Years Average Experience",
       "support": "[TRANSLATE] Support Coverage"
+    },
+    "hero": {
+      "title": "About Powerton Engineering",
+      "subtitle": "Your trusted partner in delivering high-quality engineering solutions and services for over 15 years."
     }
   },
   "projects": {
@@ -210,7 +214,9 @@
         "consultation": "[TRANSLATE] Free Consultation",
         "support": "[TRANSLATE] 24/7 Emergency Support",
         "experience": "[TRANSLATE] 15+ Years Experience"
-      }
+      },
+      "title": "Contact Our Engineering Experts",
+      "subtitle": "Ready to start your next project? Our expert team is here to help you with customized engineering solutions and professional consultation."
     },
     "methods": {
       "title": "[TRANSLATE] Multiple Ways to Reach Us",
@@ -645,7 +651,13 @@
     "alert": {
       "downloading": "[TRANSLATE] Downloading",
       "contactMessage": "[TRANSLATE] To get access to our portfolio documents, please contact us directly at info@powertonengineering.com or call +91-94627-71662."
-    }
+    },
+    "seo": {
+      "title": "Download Portfolio - Powerton Engineering",
+      "description": "Download comprehensive portfolio documents showcasing Powerton Engineering's industrial automation projects, capabilities, and achievements."
+    },
+    "title": "Portfolio Downloads",
+    "subtitle": "Access comprehensive documentation of our industrial automation projects, capabilities, and engineering excellence. Download detailed portfolios to learn more about our work."
   },
   "sitemap": {
     "quickActions": {

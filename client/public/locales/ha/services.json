@@ -52,7 +52,40 @@
       "upgrades": "[TRANSLATE] System Upgrades"
     },
     "calibration-testing": {
-      "nabl-certified": "[TRANSLATE] NABL Certified Calibration"
+      "nabl-certified": "[TRANSLATE] NABL Certified Calibration",
+      "accuracy-testing": "±0.25% Accuracy Testing",
+      "compliance": "Compliance Verification",
+      "certificates": "Traceability Certificates"
+    },
+    "technical-support": {
+      "24-7-support": "24/7/365 Support",
+      "remote-diagnostics": "Remote Diagnostics",
+      "onsite-response": "4hr On-site Response",
+      "emergency-hotline": "Emergency Hotline"
+    },
+    "custom-solutions": {
+      "mcc-panels": "Custom MCC Panels",
+      "process-automation": "Process Automation",
+      "unique-applications": "Unique Applications",
+      "end-to-end": "End-to-End Solutions"
+    },
+    "consultation-training": {
+      "plc-programming": "PLC Programming Training",
+      "system-design": "System Design Consultation",
+      "isa-certified": "ISA Certified Modules",
+      "hands-on": "Hands-on Workshops"
+    },
+    "supply-chain-management": {
+      "authorized-distributors": "Authorized Distributors",
+      "genuine-parts": "Genuine Parts Only",
+      "warranty": "1-Year Warranty",
+      "express-delivery": "Express Delivery"
+    },
+    "solar-epc": {
+      "mnre-approved": "MNRE Approved Designs",
+      "capacity": "1kW to 1MW+ Capacity",
+      "guarantee": "25-Year Guarantee",
+      "grid-connection": "Grid Connection Support"
     }
   }
 }

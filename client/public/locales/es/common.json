@@ -104,7 +104,16 @@
     "getInTouch": "[TRANSLATE] Get In Touch",
     "exploreProducts": "[TRANSLATE] Explore Products",
     "viewCatalog": "[TRANSLATE] View Catalog",
-    "quickQuote": "[TRANSLATE] Quick Quote"
+    "quickQuote": "[TRANSLATE] Quick Quote",
+    "getQuote": "Obtener Cotización",
+    "callNow": "Llamar Ahora",
+    "emailUs": "Enviar Email",
+    "learnMore": "Más Información",
+    "viewMore": "Ver Más",
+    "viewAll": "View All",
+    "contactUs": "Contáctanos",
+    "getStarted": "Get Started",
+    "downloadBrochure": "Download Brochure"
   },
   "loading": "Cargando...",
   "error": "Algo salió mal",
@@ -234,6 +243,28 @@
       "name": "[TRANSLATE] Noida, Uttar Pradesh, India",
       "region": "[TRANSLATE] Uttar Pradesh",
       "country": "[TRANSLATE] India"
+    },
+    "companyName": "Powerton Engineering Pvt. Ltd.",
+    "companyDescription": "Leading industrial automation and electrical engineering company serving clients worldwide. Specializing in power plant automation, solar installations, and manufacturing control systems.",
+    "siteName": "Powerton Engineering",
+    "twitterHandle": "@powerton_eng",
+    "businessAddress": {
+      "street": "F-25, F Block, Sector 6",
+      "city": "Noida",
+      "state": "Uttar Pradesh",
+      "postal": "201301",
+      "country": "India"
+    },
+    "contact": {
+      "phone": "+91-94627-71662 / +91-82997-27291",
+      "email": "info@powertonengineering.com"
+    },
+    "businessInfo": {
+      "industry": "Industrial Automation, Electrical Engineering, Instrumentation",
+      "category": "Engineering Services, Automation Solutions, Electrical Systems",
+      "targetAudience": "Industrial Engineers, Plant Managers, Automation Professionals",
+      "companyType": "B2B Engineering Solutions Provider",
+      "serviceArea": "Global Service Coverage with International Project Delivery"
     }
   },
   "labels": {
@@ -247,10 +278,17 @@
     "projectsCompleted": "[TRANSLATE] Projects Completed",
     "satisfiedClients": "[TRANSLATE] Satisfied Clients",
     "yearsExperience": "[TRANSLATE] Years Experience",
-    "responseTime": "[TRANSLATE] Response Time"
+    "responseTime": "[TRANSLATE] Response Time",
+    "businessHours": "Business Hours",
+    "mondayToSaturday": "Monday - Saturday",
+    "workingHours": "9:00 AM - 6:00 PM",
+    "sunday": "Sunday",
+    "emergencySupport": "Emergency Support Only"
   },
   "altTexts": {
-    "aboutBackground": "[TRANSLATE] ID-004: Powerton Engineering industrial automation facility with modern control systems"
+    "aboutBackground": "[TRANSLATE] ID-004: Powerton Engineering industrial automation facility with modern control systems",
+    "companyLogo": "Powerton Engineering Pvt. Ltd. - Industrial Automation & Electrical Engineering Company Logo",
+    "contactBackground": "ID-834: Contact center and customer support office background for engineering company"
   },
   "products": {
     "sections": {

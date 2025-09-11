@@ -298,17 +298,32 @@
       "panelMount": {
         "name": "[TRANSLATE] Panel Mount HMI Displays",
         "description": "[TRANSLATE] Industrial touchscreen displays for machine interface",
-        "features": "[TRANSLATE] Touch Interface,Industrial Rating,Multiple Sizes,Communication Protocols"
+        "features": [
+          "Touch Interface",
+          "Industrial Rating",
+          "Multiple Sizes",
+          "Communication Protocols"
+        ]
       },
       "operatorInterface": {
         "name": "[TRANSLATE] Operator Interface Terminals",
         "description": "[TRANSLATE] Rugged operator terminals for harsh environments",
-        "features": "[TRANSLATE] IP65/IP67 Rating,Stainless Steel,Membrane Keypad,Backlit Display"
+        "features": [
+          "IP65/IP67 Rating",
+          "Stainless Steel",
+          "Membrane Keypad",
+          "Backlit Display"
+        ]
       },
       "mobile": {
         "name": "[TRANSLATE] Mobile HMI Solutions",
         "description": "[TRANSLATE] Wireless and mobile human machine interfaces",
-        "features": "[TRANSLATE] Wireless Connectivity,Mobile Apps,Remote Access,Real-time Data"
+        "features": [
+          "Wireless Connectivity",
+          "Mobile Apps",
+          "Remote Access",
+          "Real-time Data"
+        ]
       }
     },
     "cta": {
