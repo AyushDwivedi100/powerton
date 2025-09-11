@@ -14,10 +14,13 @@ import { COMPANY_INFO, SERVICES, getProducts } from "@/data/constants";
 import { motion, AnimatePresence } from "framer-motion";
 import { ThemeToggle } from "@/components/ui/theme-toggle";
 import { LanguageSwitcher } from "@/components/ui/language-switcher";
+import { useRTLClasses } from "@/hooks/use-rtl";
+import { cn } from "@/lib/utils";
 import logoImage from "@assets/mainlogopowerton (1)_1755674514195.png";
 
 export default function Header() {
   const { t } = useTranslation(['navigation', 'common']);
+  const rtl = useRTLClasses();
   const [location] = useLocation();
   const [isOpen, setIsOpen] = useState(false);
   const [isMobileServicesOpen, setIsMobileServicesOpen] = useState(false);
@@ -115,7 +118,7 @@ export default function Header() {
       >
         <div className="max-w-7xl mx-auto px-2 sm:px-4 md:px-6 lg:px-8 flex flex-row justify-center sm:justify-between items-center gap-4 sm:gap-0 text-base md:text-sm">
           <motion.div
-            className="flex items-center gap-4 sm:gap-6 md:gap-8 flex-wrap justify-start"
+            className={cn("flex items-center gap-4 sm:gap-6 md:gap-8 flex-wrap", rtl.justifyStart)}
             initial="hidden"
             animate="visible"
             variants={{
@@ -142,8 +145,8 @@ export default function Header() {
                 whileHover={{ scale: 1.05 }}
                 transition={{ duration: 0.2 }}
               >
-                <Phone className="w-4 h-4 sm:w-5 sm:h-5 mr-1 text-secondary shrink-0" aria-hidden="true" />
-                <span className="whitespace-nowrap text-sm md:text-base">
+                <Phone className={cn("w-4 h-4 sm:w-5 sm:h-5 text-secondary shrink-0", rtl.me("1"))} aria-hidden="true" />
+                <span className="whitespace-nowrap text-sm md:text-base truncate max-w-40">
                   {COMPANY_INFO.phoneNumbers.primary}
                 </span>
               </motion.a>
@@ -155,8 +158,8 @@ export default function Header() {
                 whileHover={{ scale: 1.05 }}
                 transition={{ duration: 0.2 }}
               >
-                <Phone className="w-4 h-4 sm:w-5 sm:h-5 mr-1 text-secondary shrink-0" aria-hidden="true" />
-                <span className="whitespace-nowrap text-sm md:text-base">
+                <Phone className={cn("w-4 h-4 sm:w-5 sm:h-5 text-secondary shrink-0", rtl.me("1"))} aria-hidden="true" />
+                <span className="whitespace-nowrap text-sm md:text-base truncate max-w-40">
                   {COMPANY_INFO.phoneNumbers.secondary}
                 </span>
               </motion.a>
@@ -173,10 +176,10 @@ export default function Header() {
               transition={{ duration: 0.2 }}
             >
               <Mail
-                className="w-4 h-4 sm:w-5 sm:h-5 mr-1 text-secondary shrink-0"
+                className={cn("w-4 h-4 sm:w-5 sm:h-5 text-secondary shrink-0", rtl.me("1"))}
                 aria-hidden="true"
               />
-              <span className="whitespace-nowrap text-base md:text-sm">
+              <span className="whitespace-nowrap text-base md:text-sm truncate max-w-48">
                 {COMPANY_INFO.email}
               </span>
             </motion.a>
@@ -210,10 +213,10 @@ export default function Header() {
             >
               <span className="flex items-center">
                 <MapPin
-                  className="w-5 h-5 mr-2 text-secondary"
+                  className={cn("w-5 h-5 text-secondary", rtl.me("2"))}
                   aria-hidden="true"
                 />
-                <span className="text-base md:text-sm">
+                <span className="text-base md:text-sm truncate max-w-64">
                   {COMPANY_INFO.address.city}, {COMPANY_INFO.address.state} -
                   {t('navigation:header.servingWorldwide')}
                 </span>
@@ -235,8 +238,8 @@ export default function Header() {
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.6, delay: 0.2 }}
           >
-            <Link href="/" className="flex items-center ml-2 lg:ml-4">
-              <div className="relative w-[190px] sm:w-[200px] md:w-[190px] lg:w-[200px] xl:w-[220px] h-12 sm:h-13 md:h-12 lg:h-13 xl:h-14 overflow-hidden mr-4 lg:mr-6 xl:mr-8">
+            <Link href="/" className={cn("flex items-center", rtl.isRtl ? "mr-2 lg:mr-4" : "ml-2 lg:ml-4")}>
+              <div className={cn("relative w-[190px] sm:w-[200px] md:w-[190px] lg:w-[200px] xl:w-[220px] h-12 sm:h-13 md:h-12 lg:h-13 xl:h-14 overflow-hidden", rtl.isRtl ? "ml-4 lg:ml-6 xl:ml-8" : "mr-4 lg:mr-6 xl:mr-8")}>
                 <img
                   src={logoImage}
                   alt={t('common:altTexts.companyLogo')}
@@ -249,7 +252,7 @@ export default function Header() {
 
           {/* Desktop navigation */}
           <motion.div
-            className="hidden lg:flex items-center space-x-4 xl:space-x-6 2xl:space-x-8"
+            className={cn("hidden lg:flex items-center gap-4 xl:gap-6 2xl:gap-8", rtl.spaceXReverse)}
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.3 }}
@@ -306,7 +309,7 @@ export default function Header() {
                         <Link href="/services">
                           {t('navigation:dropdowns.services')}
                         </Link>
-                        <ChevronDown className="h-4 w-4" />
+                        <ChevronDown className={cn("h-4 w-4", rtl.flipIcon)} />
                         {/* Active page indicator */}
                         {isActive("/services") && (
                           <motion.div
@@ -375,7 +378,7 @@ export default function Header() {
                         <Link href="/products">
                           {t('navigation:dropdowns.products', 'Products')}
                         </Link>
-                        <ChevronDown className="h-4 w-4" />
+                        <ChevronDown className={cn("h-4 w-4", rtl.flipIcon)} />
                         {/* Active page indicator */}
                         {isActive("/products") && (
                           <motion.div
@@ -417,12 +420,12 @@ export default function Header() {
 
                                   {/* Show subcategories for products that have them */}
                                   {product.subcategories && (
-                                    <div className="ml-2 lg:ml-4 space-y-1">
+                                    <div className={cn("space-y-1", rtl.isRtl ? "mr-2 lg:mr-4" : "ml-2 lg:ml-4")}>
                                       {product.subcategories.map((subcategory) => (
                                         <Link
                                           key={subcategory.id}
                                           href={`/products/${subcategory.id}`}
-                                          className="block px-2 lg:px-3 py-1 lg:py-2 rounded-sm hover:bg-slate-100 dark:hover:bg-slate-800 hover:text-foreground cursor-pointer transition-colors text-xs lg:text-sm border-l-2 border-primary/40 hover:border-secondary"
+                                          className={cn("block px-2 lg:px-3 py-1 lg:py-2 rounded-sm hover:bg-slate-100 dark:hover:bg-slate-800 hover:text-foreground cursor-pointer transition-colors text-xs lg:text-sm border-primary/40 hover:border-secondary", rtl.isRtl ? "border-r-2" : "border-l-2")}
                                           onClick={() => setIsProductsDropdownOpen(false)}
                                         >
                                           <div className="font-medium text-foreground line-clamp-1">

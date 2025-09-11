@@ -4,10 +4,13 @@ import { useTranslation } from "react-i18next";
 import { ThemeToggle } from "@/components/ui/theme-toggle";
 import { LanguageSwitcher } from "@/components/ui/language-switcher";
 import { COMPANY_INFO, SERVICES, PRODUCTS, getCompanyInfo } from "@/data/constants";
+import { useRTLClasses } from "@/hooks/use-rtl";
+import { cn } from "@/lib/utils";
 import logoImage from "@assets/mainlogopowerton (1)_1755674514195.png";
 
 export default function Footer() {
   const { t } = useTranslation(['navigation', 'common']);
+  const rtl = useRTLClasses();
   const currentYear = new Date().getFullYear();
   const companyInfo = getCompanyInfo(t);
 
@@ -40,12 +43,12 @@ export default function Footer() {
                 </div>
               </Link>
             </div>
-            <p className="text-slate-300 dark:text-slate-400 mb-6" itemProp="description">
+            <p className="text-slate-300 dark:text-slate-400 mb-6 break-words" itemProp="description">
               {t('navigation:footer.companyDescription')}
             </p>
             <meta itemProp="name" content="Powerton Engineering Pvt. Ltd." />
             <meta itemProp="url" content="https://powertonengineering.in" />
-            <div className="flex space-x-4">
+            <div className={cn("flex gap-4", rtl.spaceXReverse)}>
               <a 
                 href={COMPANY_INFO.socialMedia.linkedin} 
                 className="text-slate-400 hover:text-orange-400 transition-colors" 
@@ -94,7 +97,7 @@ export default function Footer() {
                 <li key={service.id}>
                   <Link 
                     href={`/services-category/${service.id}`} 
-                    className="hover:text-orange-400 transition-colors"
+                    className="hover:text-orange-400 transition-colors break-words"
                   >
                     {t(`services:items.${service.id}`, service.title)}
                   </Link>
@@ -115,7 +118,7 @@ export default function Footer() {
                 <li key={product.id}>
                   <Link 
                     href={`/products/${product.id}`} 
-                    className="hover:text-orange-400 transition-colors"
+                    className="hover:text-orange-400 transition-colors break-words"
                   >
                     {t(`products:items.${product.id}`, product.title)}
                   </Link>
@@ -134,10 +137,10 @@ export default function Footer() {
             <ul className="space-y-3 text-slate-300 dark:text-slate-400" role="list">
               <li className="space-y-2" role="listitem">
                 <div className="flex items-center">
-                  <Phone className="w-5 h-5 mr-3 text-orange-400 flex-shrink-0" aria-hidden="true" />
-                  <span className="text-slate-100 font-medium">{t('common:navigation.phoneNumbers')}</span>
+                  <Phone className={cn("w-5 h-5 text-orange-400 flex-shrink-0", rtl.me("3"))} aria-hidden="true" />
+                  <span className="text-slate-100 font-medium break-words">{t('common:navigation.phoneNumbers')}</span>
                 </div>
-                <div className="ml-8 space-y-1">
+                <div className={cn("space-y-1", rtl.isRtl ? "mr-8" : "ml-8")}>
                   <div>
                     <a href={`tel:${COMPANY_INFO.phoneNumbers.primary}`} className="hover:text-orange-400 transition-colors block" itemProp="telephone" aria-label="Call Powerton Engineering - Primary">
                       {COMPANY_INFO.phoneNumbers.primary}
@@ -151,13 +154,13 @@ export default function Footer() {
                 </div>
               </li>
               <li className="flex items-center" role="listitem">
-                <Mail className="w-5 h-5 mr-3 text-orange-400 flex-shrink-0" aria-hidden="true" />
-                <a href={`mailto:${companyInfo.email}`} className="hover:text-orange-400 transition-colors" itemProp="email" aria-label="Email Powerton Engineering">
+                <Mail className={cn("w-5 h-5 text-orange-400 flex-shrink-0", rtl.me("3"))} aria-hidden="true" />
+                <a href={`mailto:${companyInfo.email}`} className="hover:text-orange-400 transition-colors break-words" itemProp="email" aria-label="Email Powerton Engineering">
                   {companyInfo.email}
                 </a>
               </li>
               <li className="flex items-start" role="listitem">
-                <MapPin className="w-5 h-5 mr-3 text-orange-400 mt-1 flex-shrink-0" aria-hidden="true" />
+                <MapPin className={cn("w-5 h-5 text-orange-400 mt-1 flex-shrink-0", rtl.me("3"))} aria-hidden="true" />
                 <a
                   href="https://maps.app.goo.gl/jiap3sBYbM3r8Pn68"
                   target="_blank"
@@ -179,7 +182,7 @@ export default function Footer() {
             <p className="text-slate-400 text-sm mb-4 md:mb-0">
               {t('navigation:footer.copyright', `© ${currentYear} Powerton Engineering Pvt. Ltd. All rights reserved.`, { year: currentYear })}
             </p>
-            <div className="flex items-center space-x-4 text-sm text-slate-400">
+            <div className={cn("flex items-center gap-4 text-sm text-slate-400", rtl.spaceXReverse)}>
               <LanguageSwitcher />
               <ThemeToggle />
               <a href="/sitemap" className="hover:text-orange-400 transition-colors">{t('navigation:footer.sitemap', 'Sitemap')}</a>
