@@ -25,7 +25,7 @@
     "backToProducts": "Back to Products",
     "backToInstrumentationComponents": "Back to Instrumentation Components",
     "backToElectricalComponents": "Back to Electrical Components",
-    "backToSolarProducts": "Back to Solar Products", 
+    "backToSolarProducts": "Back to Solar Products",
     "backToMechanicalPumps": "Back to Mechanical Pumps & Spares",
     "backToMeasurementInstruments": "Back to Measurement Instruments",
     "backToSafetyDevices": "Back to Safety & Protective Devices",
@@ -36,193 +36,85 @@
   },
   "buttons": {
     "getQuote": "Get Quote",
-    "contactUs": "Contact Us",
+    "callNow": "Call Now",
+    "emailUs": "Email Us",
     "learnMore": "Learn More",
+    "viewMore": "View More",
     "viewAll": "View All",
-    "readMore": "Read More",
+    "contactUs": "Contact Us",
+    "getStarted": "Get Started",
     "downloadBrochure": "Download Brochure",
-    "requestDemo": "Request Demo",
-    "getTechnicalSupport": "Get Technical Support",
-    "exploreProducts": "Explore Products",
-    "viewServices": "View Services",
+    "downloadPortfolio": "Download Portfolio",
+    "showFilters": "Show Filters",
+    "readMore": "Read More",
+    "downloadCatalog": "Download Catalog",
+    "viewDetails": "View Details",
+    "backTo": "Back to {{category}}",
+    "backToBldcProducts": "Back to BLDC Products",
+    "backToProducts": "Back to Products",
     "requestQuote": "Request Quote",
-    "contactExperts": "Contact Experts",
-    "contactProtectionExperts": "Contact Protection Experts",
-    "contactSolarExperts": "Contact Solar Experts",
-    "callNow": "Call Now"
+    "expertTeam": "Expert Team",
+    "successfulProjects": "Successful Projects",
+    "qualityProducts": "Quality Products",
+    "sendMessage": "Send Message",
+    "sending": "Sending...",
+    "submit": "Submit",
+    "viewProducts": "View Products",
+    "viewServices": "View Services",
+    "getInTouch": "Get In Touch",
+    "exploreProducts": "Explore Products",
+    "viewCatalog": "View Catalog",
+    "quickQuote": "Quick Quote"
   },
   "badges": {
     "energyEfficient": "Energy Efficient",
-    "smartControl": "Smart Control", 
+    "smartControl": "Smart Control",
     "silentOperation": "Silent Operation",
     "longLife": "Long Life",
-    "highEfficiency": "High Efficiency",
-    "variableSpeed": "Variable Speed",
-    "lowNoise": "Low Noise",
-    "precisionTools": "Precision Tools",
-    "durableConstruction": "Durable Construction",
-    "lightningProtection": "Lightning Protection",
-    "powerSurge": "Power Surge",
-    "signalProtection": "Signal Protection",
-    "equipmentSafety": "Equipment Safety",
-    "industrialGrade": "Industrial Grade",
-    "certifiedQuality": "Certified Quality",
-    "solarCompatible": "Solar Compatible", 
-    "corrosionResistant": "Corrosion Resistant",
-    "powerCables": "Power Cables",
-    "instrumentation": "Instrumentation",
-    "communication": "Communication",
-    "shielded": "Shielded",
-    "ergonomicDesign": "Ergonomic Design",
-    "professionalGrade": "Professional Grade",
     "highPerformance": "High Performance",
-    "variableSpeed": "Variable Speed",
-    "cordlessOptions": "Cordless Options",
-    "industrialDuty": "Industrial Duty",
-    "sawBlades": "Saw Blades",
-    "drillBits": "Drill Bits",
-    "millingCutters": "Milling Cutters",
-    "chainHoists": "Chain Hoists",
-    "wireRope": "Wire Rope",
-    "riggingHardware": "Rigging Hardware",
-    "loadRated": "Load Rated"
+    "ecoFriendly": "Eco Friendly",
+    "costEffective": "Cost Effective",
+    "premiumQuality": "Premium Quality",
+    "industrialGrade": "Industrial Grade",
+    "certified": "Certified",
+    "warrantyIncluded": "Warranty Included",
+    "fastDelivery": "Fast Delivery"
   },
   "headings": {
     "bldcCeilingFanModels": "BLDC Ceiling Fan Models",
-    "bldcPumpSolutions": "BLDC Pump Solutions",
-    "bldcFanMotorTypes": "BLDC Fan Motor Types",
-    "cableSolutions": "Cable Solutions",
-    "surgeProtectionSolutions": "Surge Protection Solutions",
-    "handToolRange": "Hand Tool Range",
-    "powerToolSelection": "Power Tool Selection",
-    "cuttingToolsCollection": "Cutting Tools Collection",
-    "liftingEquipmentSeries": "Lifting Equipment Series",
-    "safetyEquipmentRange": "Safety Equipment Range"
+    "ourProducts": "Our Products",
+    "specifications": "Specifications",
+    "keyFeatures": "Key Features",
+    "technicalDetails": "Technical Details",
+    "availableModels": "Available Models",
+    "productOverview": "Product Overview",
+    "relatedProducts": "Related Products"
   },
   "chatbot": {
-    "welcome": "Hello! Welcome to Powerton Engineering. I'm here to help you learn about our industrial automation solutions.",
-    "fallback": "For detailed assistance, please contact our team at +91-94627-71662 or +91-82997-27291 or email info@powertonengineering.com",
-    "responses": {
-      "installationService": "Our installation and commissioning service ensures your equipment is set up perfectly from day one. We handle everything from site preparation to final testing and validation, with complete compliance certification.",
-      "electricalTroubleshooting": "Electrical issues can be complex! Common problems include power fluctuations, circuit overloads, grounding issues, and component failures. Our solutions comply with IEC 60204 and IS 732 standards for industrial electrical safety. What specific electrical problem are you experiencing?",
-      "sensorTroubleshooting": "Sensor and measurement problems often involve calibration drift, signal interference, or environmental factors. Our instruments meet ASTM and ISA standards for industrial measurement accuracy. What measurement issue are you facing?",
-      "controlTroubleshooting": "Control system issues can disrupt entire operations! Common problems include communication failures, logic errors, HMI malfunctions, and integration issues. Our systems follow IEC 61131 PLC programming standards. What control problem needs attention?",
-      "solarTroubleshooting": "Solar system problems can significantly impact energy generation! Issues often include inverter faults, panel degradation, battery problems, or monitoring failures. Our solutions comply with CEA and MNRE guidelines. What solar issue needs fixing?",
-      "clientTestimonials": "Our customers love working with us! Anand Awasthi from West Bengal says: 'Powerton Engineering made the process seamless and easy.' Sanjay Patil from UP states: 'I would not hesitate to recommend them to any of my friends.' We've successfully served 50+ major clients across India.",
-      "majorClients": "We're proud to work with industry leaders! Our clients include Thermax, Motherson, Praj Industries, SCI Group, Agribio Ltd, DLS Group, Ankur Scientific, and many more. Each partnership strengthens our expertise and commitment to excellence.",
-      "powerSupplyHelp": "Power supply issues often stem from voltage fluctuations, load imbalances, or component aging. Check for proper voltage regulation, adequate current capacity, and thermal management. Our power supplies meet IEC 60950 safety standards. Need a replacement or upgrade?",
-      "temperatureSensorHelp": "Temperature sensor issues include drift, response lag, or environmental interference. Check for proper calibration (±0.1°C accuracy), adequate thermal coupling, and EMI shielding. Our sensors comply with ASTM E1137 standards. What's the specific temperature range and application?",
-      "plcTroubleshooting": "PLC issues range from programming errors to hardware failures. Check I/O status, communication links, and program logic. Our systems follow IEC 61131-3 standards for programming languages and IEC 61508 for functional safety. What specific PLC problem are you experiencing?",
-      "solarPerformanceHelp": "Low solar generation can result from panel soiling, shading, inverter issues, or degradation. Check panel cleanliness, system monitoring, and compare against expected performance (typically 80% after 25 years). Our systems meet IEC 61215 and IEC 61730 standards. What's your current performance vs expected?",
-      "selectionHelp": "Choosing the right equipment is crucial for project success! I can help you navigate technical specifications, compatibility requirements, and industry standards to find the perfect solution. What type of equipment or system are you trying to select?",
-      "sensorSearch": "I can help you find the right sensors! We offer precision instruments with high accuracy: temperature (-40°C to +125°C), pressure (vacuum to 7500 PSI), flow, and level measurement. All certified to ASTM, ISA, and IEC standards for industrial applications. Visit our products page for detailed specifications.",
-      "automationSearch": "Automation is our specialty! Our control systems feature PLCs with sub-millisecond response times, SCADA for real-time monitoring, and DCS for complex processes. All systems comply with IEC 61131-3 programming standards and IEC 61508 safety requirements. Visit our products page to explore detailed specifications and get a custom quote.",
-      "solarSearch": "Solar energy is the future! We provide complete EPC services for projects from 1kW to 10MW+, all meeting CEA technical standards and MNRE guidelines. Our solutions include high-efficiency panels, smart inverters, battery storage, and monitoring systems. Visit our products page for detailed specifications and request a customized quote.",
-      "mechanicalSearch": "Excellent choice! Our mechanical solutions include high-efficiency BLDC motors, centrifugal pumps, gear pumps, and automated valve systems meeting IE3/IE4 efficiency standards and API specifications. Visit our products page for detailed technical specifications and request a custom quote for your application.",
-      "serviceSearch": "Our service team is here to support you! We offer precision calibration, comprehensive testing, preventive maintenance, and 24/7 technical support to keep your systems running at peak performance.",
-      "contactSearch": "I'm here to connect you with our team! We're located in Noida, Sector 6, and available Monday-Saturday (9 AM - 6 PM). For immediate assistance, call us or visit our office. We're always happy to help!"
+    "welcome": "Welcome to Powerton Engineering! How can I help you today?",
+    "typeMessage": "Type your message...",
+    "sendMessage": "Send message",
+    "openChat": "Open chat",
+    "closeChat": "Close chat",
+    "typing": "Typing...",
+    "defaultOptions": {
+      "products": "Products & Catalog",
+      "services": "Our Services",
+      "contact": "Contact Information",
+      "quote": "Request Quote",
+      "support": "Technical Support"
     },
-    "options": {
-      "equipmentInstallation": "⚙️ Equipment Installation",
-      "systemIntegration": "🔧 System Integration", 
-      "performanceTesting": "✅ Performance Testing",
-      "complianceCertification": "📜 Compliance Certification",
-      "requestInstallationQuote": "📋 Request Installation Quote",
-      "backToServices": "🔙 Back to Services",
-      "powerSupplyIssues": "⚡ Power Supply Issues",
-      "circuitProtectionProblems": "🔌 Circuit Protection Problems",
-      "groundingEarthingIssues": "🌍 Grounding & Earthing Issues",
-      "overheatingComponents": "🔥 Overheating Components",
-      "browseElectricalSolutions": "🔍 Browse Electrical Solutions",
-      "getProfessionalDiagnosis": "📧 Get Professional Diagnosis",
-      "backToTroubleshooting": "🔙 Back to Troubleshooting Menu",
-      "temperatureReadingIssues": "🌡️ Temperature Reading Issues",
-      "pressureMeasurementProblems": "📊 Pressure Measurement Problems",
-      "flowMeasurementErrors": "🔄 Flow Measurement Errors",
-      "levelDetectionIssues": "📏 Level Detection Issues",
-      "exploreSensorSolutions": "🔍 Explore Sensor Solutions",
-      "bookCalibrationService": "📞 Book Calibration Service",
-      "plcProgrammingIssues": "🖥️ PLC Programming Issues",
-      "scadaCommunicationProblems": "📊 SCADA Communication Problems",
-      "hmiDisplayIssues": "👥 HMI Display Issues",
-      "networkConnectivityProblems": "🔗 Network Connectivity Problems",
-      "viewControlSolutions": "🔍 View Control Solutions",
-      "requestSystemAudit": "🎯 Request System Audit",
-      "lowPowerGeneration": "☀️ Low Power Generation",
-      "inverterFaults": "🔄 Inverter Faults",
-      "batteryStorageIssues": "🔋 Battery Storage Issues",
-      "monitoringSystemProblems": "📊 Monitoring System Problems",
-      "browseSolarProducts": "🔍 Browse Solar Products",
-      "scheduleSolarInspection": "📋 Schedule Solar Inspection",
-      "ourMajorClients": "🏆 Our Major Clients",
-      "successStories": "📊 Success Stories",
-      "ourSuccessStories": "🎯 Our Success Stories",
-      "becomeOurClient": "📞 Become Our Client",
-      "getInTouch": "📧 Get in Touch",
-      "backToCompanyMenu": "🔙 Back to Company Menu",
-      "manufacturingClients": "🏭 Manufacturing Clients",
-      "powerIndustryClients": "⚡ Power Industry Clients",
-      "chemicalIndustryClients": "⚗️ Chemical Industry Clients",
-      "seeProjectPortfolio": "📈 See Project Portfolio",
-      "partnerWithUs": "🤝 Partner With Us",
-      "viewPowerSupplyProducts": "⚡ View Power Supply Products",
-      "requestQuoteForPowerSupply": "📋 Request Quote for Power Supply",
-      "backToElectricalHelp": "🔄 Back to Electrical Help",
-      "emergencyTechnicalSupport": "📞 Emergency Technical Support",
-      "browseTemperatureSensors": "🌡️ Browse Temperature Sensors",
-      "requestCalibrationService": "🔧 Request Calibration Service",
-      "backToSensorHelp": "🔄 Back to Sensor Help",
-      "speakWithSensorExpert": "📞 Speak with Sensor Expert",
-      "viewPlcSolutions": "🖥️ View PLC Solutions",
-      "requestProgrammingService": "💻 Request Programming Service",
-      "backToControlHelp": "🔄 Back to Control Help",
-      "emergencyPlcSupport": "🚨 Emergency PLC Support",
-      "solarSystemProducts": "☀️ Solar System Products",
-      "requestPerformanceAnalysis": "📊 Request Performance Analysis",
-      "backToSolarHelp": "🔄 Back to Solar Help",
-      "scheduleMaintenance": "🔧 Schedule Maintenance",
-      "sensorMeasurementSelection": "🌡️ Sensor & Measurement Selection",
-      "electricalComponentSelection": "⚡ Electrical Component Selection",
-      "controlSystemSelection": "🖥️ Control System Selection",
-      "solarSystemDesign": "☀️ Solar System Design",
-      "browseAllProducts": "🔍 Browse All Products",
-      "consultationCall": "📞 Consultation Call",
-      "temperatureMeasurement": "🌡️ Temperature Measurement",
-      "pressureMeasurement": "📊 Pressure Measurement",
-      "flowLevelMeasurement": "🔄 Flow & Level Measurement",
-      "requestTechnicalQuote": "📋 Request Technical Quote",
-      "speakWithExpert": "📞 Speak with Expert",
-      "plcControlSystems": "🖥️ PLC & Control Systems",
-      "scadaHmiSolutions": "📊 SCADA & HMI Solutions",
-      "completeAutomationPackage": "🌐 Complete Automation Package",
-      "requestCustomQuote": "📋 Request Custom Quote",
-      "technicalConsultation": "📞 Technical Consultation",
-      "completeSolarSolutions": "☀️ Complete Solar Solutions",
-      "solarBatterySystems": "🔋 Solar + Battery Systems",
-      "energyStorage": "🔋 Energy Storage",
-      "ourSolarProjects": "📊 Our Solar Projects",
-      "getSolarQuote": "💰 Get Solar Quote",
-      "solarEpcServices": "🌟 Solar EPC Services",
-      "motorsDrives": "🔄 Motors & Drives",
-      "pumpsFluidHandling": "💧 Pumps & Fluid Handling",
-      "valvesActuators": "🔧 Valves & Actuators",
-      "sparePartsService": "🛠️ Spare Parts & Service",
-      "requestEquipmentQuote": "📋 Request Equipment Quote",
-      "calibrationServices": "📏 Calibration Services",
-      "maintenancePrograms": "🔧 Maintenance Programs",
-      "emergencySupport": "⚡ Emergency Support",
-      "trainingPrograms": "📚 Training Programs",
-      "serviceContract": "💼 Service Contract",
-      "allServices": "🔍 All Services"
+    "responses": {
+      "products": "We offer a comprehensive range of industrial automation products, electrical components, instrumentation, solar systems, and more. What specific products are you looking for?",
+      "services": "Our services include installation, maintenance, calibration, technical support, and custom solutions. Which service interests you?",
+      "contact": "You can reach us at +91-94627-71662 or email us at info@powertonengineering.com. Our headquarters is located in Noida, India, and we serve clients worldwide.",
+      "quote": "I'd be happy to help you get a quote! Please visit our quote page or provide me with your requirements.",
+      "support": "Our technical support team is here to help! Please describe your technical question or issue."
     }
   },
   "messages": {
-    "close": "Close",
-    "imageNotFound": "Image not found",
-    "loading": "Loading...",
-    "error": "Error occurred",
     "toggleTheme": "Toggle Theme",
-    "openMobileMenu": "Open mobile menu"
+    "close": "Close"
   },
   "aria": {
     "toggleNavigation": "Toggle navigation",
@@ -278,7 +170,7 @@
   "productSections": {
     "keyFeatures": "Key Features:",
     "specifications": "Specifications",
-    "applications": "Applications", 
+    "applications": "Applications",
     "industries": "Industries",
     "needSurgeProtection": "Need Surge Protection?",
     "needSolarInverterSolutions": "Need Solar Inverter Solutions?",
@@ -289,25 +181,38 @@
     "energyStorageDescription": "Our energy storage experts can design the optimal battery system for your solar installation."
   },
   "seo": {
-    "days": {
-      "monday": "Monday",
-      "tuesday": "Tuesday",
-      "wednesday": "Wednesday",
-      "thursday": "Thursday",
-      "friday": "Friday",
-      "saturday": "Saturday",
-      "sunday": "Sunday"
+    "companyName": "Powerton Engineering Pvt. Ltd.",
+    "companyDescription": "Leading industrial automation and electrical engineering company serving clients worldwide. Specializing in power plant automation, solar installations, and manufacturing control systems.",
+    "siteName": "Powerton Engineering",
+    "twitterHandle": "@powerton_eng",
+    "businessAddress": {
+      "street": "F-25, F Block, Sector 6",
+      "city": "Noida",
+      "state": "Uttar Pradesh",
+      "postal": "201301",
+      "country": "India"
     },
-    "schemaTypes": {
-      "breadcrumbList": "BreadcrumbList",
-      "listItem": "ListItem",
-      "faqPage": "FAQPage",
-      "question": "Question",
-      "answer": "Answer",
-      "itemList": "ItemList",
-      "service": "Service",
-      "localBusiness": "LocalBusiness",
-      "openingHours": "OpeningHoursSpecification"
+    "powerton": {
+      "name": "Powerton Engineering Pvt. Ltd.",
+      "description": "Leading industrial automation and electrical engineering company serving clients globally. Specializing in power plant automation, solar installations, and manufacturing control systems.",
+      "keywords": "Industrial Automation, Electrical Engineering, Power Plant, Solar Energy, Manufacturing, Control Systems, Instrumentation, SCADA, PLC, Automation Solutions, Electrical Installation, Industrial Control Panels, Process Automation, Power Distribution, Motor Control Centers, Electrical Maintenance, Industrial Electrical Services, Automation Consulting, Electrical Design, Power Systems",
+      "author": "Powerton Engineering Team"
+    },
+    "location": {
+      "name": "Noida, Uttar Pradesh, India",
+      "region": "Uttar Pradesh",
+      "country": "India"
+    },
+    "contact": {
+      "phone": "+91-94627-71662 / +91-82997-27291",
+      "email": "info@powertonengineering.com"
+    },
+    "businessInfo": {
+      "industry": "Industrial Automation, Electrical Engineering, Instrumentation",
+      "category": "Engineering Services, Automation Solutions, Electrical Systems",
+      "targetAudience": "Industrial Engineers, Plant Managers, Automation Professionals",
+      "companyType": "B2B Engineering Solutions Provider",
+      "serviceArea": "Global Service Coverage with International Project Delivery"
     }
   },
   "projectCategories": {
@@ -341,7 +246,7 @@
     },
     "kavya": {
       "name": "Kavya Singh",
-      "location": "Karnataka", 
+      "location": "Karnataka",
       "comment": "Outstanding service and technical support! The team provided exceptional guidance throughout our solar project implementation. Their professional approach and timely delivery exceeded our expectations completely."
     },
     "rajesh": {
@@ -444,46 +349,10 @@
       }
     }
   },
-  "buttons": {
-    "getQuote": "Get Quote",
-    "callNow": "Call Now",
-    "emailUs": "Email Us",
-    "learnMore": "Learn More",
-    "viewMore": "View More",
-    "viewAll": "View All",
-    "contactUs": "Contact Us",
-    "getStarted": "Get Started",
-    "downloadBrochure": "Download Brochure",
-    "downloadPortfolio": "Download Portfolio",
-    "showFilters": "Show Filters",
-    "readMore": "Read More",
-    "downloadCatalog": "Download Catalog",
-    "viewDetails": "View Details",
-    "backTo": "Back to {{category}}",
-    "backToBldcProducts": "Back to BLDC Products",
-    "backToProducts": "Back to Products",
-    "requestQuote": "Request Quote",
-    "expertTeam": "Expert Team",
-    "successfulProjects": "Successful Projects",
-    "qualityProducts": "Quality Products",
-    "sendMessage": "Send Message",
-    "sending": "Sending...",
-    "submit": "Submit",
-    "viewProducts": "View Products",
-    "viewServices": "View Services",
-    "getInTouch": "Get In Touch",
-    "exploreProducts": "Explore Products",
-    "viewCatalog": "View Catalog",
-    "quickQuote": "Quick Quote"
-  },
   "altTexts": {
     "companyLogo": "Powerton Engineering Pvt. Ltd. - Industrial Automation & Electrical Engineering Company Logo",
     "contactBackground": "ID-834: Contact center and customer support office background for engineering company",
     "aboutBackground": "ID-004: Powerton Engineering industrial automation facility with modern control systems"
-  },
-  "messages": {
-    "toggleTheme": "Toggle Theme",
-    "close": "Close"
   },
   "products": {
     "sections": {
@@ -530,41 +399,6 @@
     "getStarted": "Get Started",
     "downloadBrochure": "Download Brochure"
   },
-  "seo": {
-    "companyName": "Powerton Engineering Pvt. Ltd.",
-    "companyDescription": "Leading industrial automation and electrical engineering company serving clients worldwide. Specializing in power plant automation, solar installations, and manufacturing control systems.",
-    "siteName": "Powerton Engineering",
-    "twitterHandle": "@powerton_eng",
-    "businessAddress": {
-      "street": "F-25, F Block, Sector 6",
-      "city": "Noida",
-      "state": "Uttar Pradesh",
-      "postal": "201301",
-      "country": "India"
-    },
-    "powerton": {
-      "name": "Powerton Engineering Pvt. Ltd.",
-      "description": "Leading industrial automation and electrical engineering company serving clients globally. Specializing in power plant automation, solar installations, and manufacturing control systems.",
-      "keywords": "Industrial Automation, Electrical Engineering, Power Plant, Solar Energy, Manufacturing, Control Systems, Instrumentation, SCADA, PLC, Automation Solutions, Electrical Installation, Industrial Control Panels, Process Automation, Power Distribution, Motor Control Centers, Electrical Maintenance, Industrial Electrical Services, Automation Consulting, Electrical Design, Power Systems",
-      "author": "Powerton Engineering Team"
-    },
-    "location": {
-      "name": "Noida, Uttar Pradesh, India",
-      "region": "Uttar Pradesh",
-      "country": "India"
-    },
-    "contact": {
-      "phone": "+91-94627-71662 / +91-82997-27291",
-      "email": "info@powertonengineering.com"
-    },
-    "businessInfo": {
-      "industry": "Industrial Automation, Electrical Engineering, Instrumentation",
-      "category": "Engineering Services, Automation Solutions, Electrical Systems",
-      "targetAudience": "Industrial Engineers, Plant Managers, Automation Professionals",
-      "companyType": "B2B Engineering Solutions Provider",
-      "serviceArea": "Global Service Coverage with International Project Delivery"
-    }
-  },
   "company": {
     "name": "Powerton Engineering Pvt. Ltd.",
     "tagline": "Your trusted partner in industrial automation and electrical engineering",
@@ -609,7 +443,7 @@
   "quote": {
     "projectTypes": {
       "processAutomation": "Process Automation",
-      "powerControlSystems": "Power Control Systems", 
+      "powerControlSystems": "Power Control Systems",
       "instrumentationControl": "Instrumentation & Control",
       "solarAutomation": "Solar Automation",
       "buildingAutomation": "Building Automation",
@@ -627,60 +461,19 @@
     }
   },
   "placeholders": {
-    "searchProjects": "Search projects, clients, or technologies...",
-    "selectIndustryFilter": "Select Industry Filter",
-    "selectCategory": "Select Category",
-    "selectStatus": "Select Status"
+    "selectIndustry": "Select Industry",
+    "yourFullName": "Your Full Name",
+    "yourEmail": "Your Email Address",
+    "yourPhone": "Your Phone Number",
+    "yourRole": "Your Role/Designation",
+    "yourCompanyName": "Your Company Name",
+    "briefProjectTitle": "Brief Project Title",
+    "selectProjectType": "Select Project Type",
+    "projectTimeline": "Project Timeline"
   },
   "copyright": {
     "text": "© {{year}} Powerton Engineering Pvt. Ltd. All rights reserved.",
     "madeWith": "Made with 💙 by Powerton Engineering Team"
-  },
-  "badges": {
-    "energyEfficient": "Energy Efficient",
-    "smartControl": "Smart Control",
-    "silentOperation": "Silent Operation",
-    "longLife": "Long Life",
-    "highPerformance": "High Performance",
-    "ecoFriendly": "Eco Friendly",
-    "costEffective": "Cost Effective",
-    "premiumQuality": "Premium Quality",
-    "industrialGrade": "Industrial Grade",
-    "certified": "Certified",
-    "warrantyIncluded": "Warranty Included",
-    "fastDelivery": "Fast Delivery"
-  },
-  "headings": {
-    "bldcCeilingFanModels": "BLDC Ceiling Fan Models",
-    "ourProducts": "Our Products",
-    "specifications": "Specifications",
-    "keyFeatures": "Key Features",
-    "technicalDetails": "Technical Details",
-    "availableModels": "Available Models",
-    "productOverview": "Product Overview",
-    "relatedProducts": "Related Products"
-  },
-  "chatbot": {
-    "welcome": "Welcome to Powerton Engineering! How can I help you today?",
-    "typeMessage": "Type your message...",
-    "sendMessage": "Send message",
-    "openChat": "Open chat",
-    "closeChat": "Close chat",
-    "typing": "Typing...",
-    "defaultOptions": {
-      "products": "Products & Catalog",
-      "services": "Our Services",
-      "contact": "Contact Information",
-      "quote": "Request Quote",
-      "support": "Technical Support"
-    },
-    "responses": {
-      "products": "We offer a comprehensive range of industrial automation products, electrical components, instrumentation, solar systems, and more. What specific products are you looking for?",
-      "services": "Our services include installation, maintenance, calibration, technical support, and custom solutions. Which service interests you?",
-      "contact": "You can reach us at +91-94627-71662 or email us at info@powertonengineering.com. Our headquarters is located in Noida, India, and we serve clients worldwide.",
-      "quote": "I'd be happy to help you get a quote! Please visit our quote page or provide me with your requirements.",
-      "support": "Our technical support team is here to help! Please describe your technical question or issue."
-    }
   },
   "common": {
     "keyFeatures": "Key Features"
@@ -721,15 +514,21 @@
     "ISO": "ISO (International Organization for Standardization)",
     "IEEE": "IEEE (Institute of Electrical and Electronics Engineers)"
   },
-  "placeholders": {
-    "selectIndustry": "Select Industry",
-    "yourFullName": "Your Full Name",
-    "yourEmail": "Your Email Address",
-    "yourPhone": "Your Phone Number",
-    "yourRole": "Your Role/Designation",
-    "yourCompanyName": "Your Company Name",
-    "briefProjectTitle": "Brief Project Title",
-    "selectProjectType": "Select Project Type",
-    "projectTimeline": "Project Timeline"
+  "ui": {
+    "ariaLabels": {
+      "callUs": "Call us at {{phone}}",
+      "goToHomepage": "Go to Powerton Engineering homepage",
+      "followLinkedIn": "Follow Powerton Engineering on LinkedIn",
+      "followTwitter": "Follow Powerton Engineering on X (formerly Twitter)",
+      "followFacebook": "Follow Powerton Engineering on Facebook",
+      "toggleMobileMenu": "Toggle mobile menu",
+      "closeMobileMenu": "Close mobile menu",
+      "openMobileMenu": "Open mobile menu"
+    },
+    "altTexts": {
+      "companyLogo": "Powerton Engineering Company Logo",
+      "heroImage": "Industrial automation and electrical engineering solutions",
+      "productImage": "Product image for {{productName}}"
+    }
   }
 }

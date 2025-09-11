@@ -87,5 +87,55 @@
     "consultation-training": "PLC编程、HMI开发和工业自动化的专家技术咨询和实践培训课程。",
     "supply-chain-management": "电气元件和备件的综合供应链管理。授权经销商网络确保正品零件。",
     "solar-epc": "为1kW到1MW+项目提供完整的太阳能工程、采购和建设服务。MNRE批准的设计，25年性能保证。"
+  },
+  "serviceDetails": {
+    "technicalSupport": {
+      "overview": "24/7 technical support services for troubleshooting, remote assistance, and on-site support for all electrical and automation systems with rapid response times.",
+      "benefits": [
+        "24/7 technical support availability",
+        "Remote diagnostic and troubleshooting services",
+        "On-site emergency support when needed",
+        "Rapid response times for critical issues",
+        "Comprehensive problem resolution and follow-up"
+      ],
+      "technologies": [
+        "Remote Diagnostics",
+        "Troubleshooting",
+        "On-site Support",
+        "System Monitoring",
+        "Emergency Response"
+      ],
+      "industries": [
+        "All Industries",
+        "Critical Infrastructure",
+        "Process Industries",
+        "Manufacturing",
+        "Commercial Facilities"
+      ]
+    },
+    "installationCommissioning": {
+      "overview": "Complete installation and commissioning services for industrial automation systems, electrical panels, and instrumentation with professional certification and testing.",
+      "benefits": [
+        "Professional installation by certified engineers",
+        "Comprehensive system testing and commissioning",
+        "Complete documentation and certification",
+        "Training and handover support",
+        "Post-installation support and warranty"
+      ],
+      "technologies": [
+        "System Installation",
+        "Commissioning",
+        "Testing",
+        "Certification",
+        "Documentation"
+      ],
+      "industries": [
+        "Manufacturing",
+        "Power Generation",
+        "Oil & Gas",
+        "Chemical",
+        "Water Treatment"
+      ]
+    }
   }
 }

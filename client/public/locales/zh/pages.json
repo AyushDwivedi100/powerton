@@ -960,5 +960,24 @@
         "description": "Work on cutting-edge technologies and innovative solutions in industrial automation."
       }
     }
+  },
+  "seo": {
+    "productPages": {
+      "plcs": {
+        "title": "PLCs (Programmable Logic Controllers) - Industrial Automation | Powerton Engineering",
+        "description": "High-quality PLCs from leading manufacturers: Siemens SIMATIC, Allen-Bradley CompactLogix, Schneider Modicon. Expert PLC programming, installation & support across India.",
+        "keywords": "PLCs, programmable logic controllers, Siemens SIMATIC, Allen-Bradley CompactLogix, Schneider Modicon, industrial automation controllers, PLC programming, factory automation"
+      },
+      "solarPanels": {
+        "title": "Solar Panels - Monocrystalline & Polycrystalline | Powerton Engineering",
+        "description": "High-efficiency solar panels: Monocrystalline (400W), Polycrystalline (320W), and Bifacial (450W). Complete solar energy solutions with installation support across India.",
+        "keywords": "solar panels, monocrystalline solar panels, polycrystalline solar panels, bifacial solar panels, solar energy systems, renewable energy, solar installation India"
+      },
+      "scada": {
+        "title": "SCADA Systems - Industrial Monitoring & Control | Powerton Engineering",
+        "description": "Advanced SCADA systems for real-time monitoring, data acquisition, and process control. Complete SCADA solutions with HMI integration and remote access capabilities.",
+        "keywords": "SCADA systems, supervisory control, data acquisition, industrial monitoring, process control, HMI integration, remote monitoring, SCADA software"
+      }
+    }
   }
 }

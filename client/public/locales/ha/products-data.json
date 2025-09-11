@@ -547,5 +547,27 @@
         "ANSI/ASME Standards"
       ]
     }
+  },
+  "productNames": {
+    "siemens": {
+      "simaticS7_1200": "Siemens SIMATIC S7-1200",
+      "simaticS7_1500": "Siemens SIMATIC S7-1500",
+      "logoSeries": "Siemens LOGO! Series"
+    },
+    "allenBradley": {
+      "compactLogix5380": "Allen-Bradley CompactLogix 5380",
+      "micrologix1400": "Allen-Bradley MicroLogix 1400",
+      "controlLogix5580": "Allen-Bradley ControlLogix 5580"
+    },
+    "schneider": {
+      "modiconM580": "Schneider Electric Modicon M580",
+      "modiconM340": "Schneider Electric Modicon M340",
+      "zelio": "Schneider Electric Zelio Logic"
+    },
+    "solar": {
+      "monocrystalline400W": "Monocrystalline Solar Panels - 400W",
+      "polycrystalline320W": "Polycrystalline Solar Panels - 320W",
+      "bifacial450W": "Bifacial Solar Panels - 450W"
+    }
   }
 }

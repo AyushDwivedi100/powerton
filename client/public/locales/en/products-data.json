@@ -3,136 +3,256 @@
     "acPower": {
       "name": "AC Power Surge Protectors",
       "description": "Transient voltage surge suppressors for AC power systems",
-      "features": ["Class I/II/III", "MOV Technology", "Status Indicators", "DIN Rail Mount"]
+      "features": [
+        "Class I/II/III",
+        "MOV Technology",
+        "Status Indicators",
+        "DIN Rail Mount"
+      ]
     },
     "dcSolar": {
-      "name": "DC Solar Surge Protectors", 
+      "name": "DC Solar Surge Protectors",
       "description": "DC surge protection devices for solar panel systems",
-      "features": ["1000V DC Rating", "Type 1+2 Protection", "Remote Indication", "Quick Disconnect"]
+      "features": [
+        "1000V DC Rating",
+        "Type 1+2 Protection",
+        "Remote Indication",
+        "Quick Disconnect"
+      ]
     },
     "signalLine": {
       "name": "Signal Line Protectors",
-      "description": "Surge protection for communication and control lines", 
-      "features": ["Data Line Protection", "Low Capacitance", "Fast Response", "Multiple Channels"]
+      "description": "Surge protection for communication and control lines",
+      "features": [
+        "Data Line Protection",
+        "Low Capacitance",
+        "Fast Response",
+        "Multiple Channels"
+      ]
     }
   },
   "bldcCeilingFan": {
     "smart1200": {
       "name": "Smart BLDC Ceiling Fan - 1200mm",
       "description": "Energy-efficient smart ceiling fan with remote control",
-      "features": ["28W Power Consumption", "Remote Control", "5 Speed Settings", "Timer Function"]
+      "features": [
+        "28W Power Consumption",
+        "Remote Control",
+        "5 Speed Settings",
+        "Timer Function"
+      ]
     },
     "premium1400": {
-      "name": "Premium BLDC Ceiling Fan - 1400mm", 
+      "name": "Premium BLDC Ceiling Fan - 1400mm",
       "description": "High-performance ceiling fan with LED lighting",
-      "features": ["35W Power Consumption", "LED Light Integrated", "Reversible Motor", "Silent Operation"]
+      "features": [
+        "35W Power Consumption",
+        "LED Light Integrated",
+        "Reversible Motor",
+        "Silent Operation"
+      ]
     },
     "commercial1500": {
       "name": "Commercial BLDC Ceiling Fan - 1500mm",
-      "description": "Heavy-duty ceiling fan for commercial applications", 
-      "features": ["45W Power Consumption", "Heavy-Duty Motor", "High Air Flow", "Durable Construction"]
+      "description": "Heavy-duty ceiling fan for commercial applications",
+      "features": [
+        "45W Power Consumption",
+        "Heavy-Duty Motor",
+        "High Air Flow",
+        "Durable Construction"
+      ]
     }
   },
   "bldcCoolerExhaust": {
     "exhaustFan": {
       "name": "BLDC Exhaust Fan Motors",
       "description": "High-efficiency motors for exhaust fan applications",
-      "features": ["Variable Speed", "Low Noise", "Energy Efficient", "Long Life"]
+      "features": [
+        "Variable Speed",
+        "Low Noise",
+        "Energy Efficient",
+        "Long Life"
+      ]
     },
     "coolerMotors": {
       "name": "BLDC Cooler Motors",
-      "description": "Energy-efficient motors for air cooler applications", 
-      "features": ["High Torque", "Weather Resistant", "Speed Control", "Maintenance Free"]
+      "description": "Energy-efficient motors for air cooler applications",
+      "features": [
+        "High Torque",
+        "Weather Resistant",
+        "Speed Control",
+        "Maintenance Free"
+      ]
     },
     "ventilation": {
       "name": "BLDC Ventilation Motors",
       "description": "Specialized motors for industrial ventilation systems",
-      "features": ["High CFM", "Temperature Rated", "Vibration Resistant", "Smart Control"]
+      "features": [
+        "High CFM",
+        "Temperature Rated",
+        "Vibration Resistant",
+        "Smart Control"
+      ]
     }
   },
   "cablesWires": {
     "instrumentation": {
       "name": "Instrumentation Cables",
       "description": "Low voltage cables for instrumentation and control applications",
-      "features": ["Shielded Construction", "Moisture Resistant", "Temperature Rated", "Multiple Pairs"]
+      "features": [
+        "Shielded Construction",
+        "Moisture Resistant",
+        "Temperature Rated",
+        "Multiple Pairs"
+      ]
     },
     "powerDistribution": {
-      "name": "Power Distribution Cables", 
+      "name": "Power Distribution Cables",
       "description": "High voltage cables for power transmission and distribution",
-      "features": ["XLPE Insulation", "Armored Construction", "Fire Resistant", "High Current Rating"]
+      "features": [
+        "XLPE Insulation",
+        "Armored Construction",
+        "Fire Resistant",
+        "High Current Rating"
+      ]
     },
     "communication": {
       "name": "Communication Cables",
-      "description": "Data transmission cables for industrial communication networks", 
-      "features": ["Cat5e/Cat6", "Fiber Optic", "Industrial Grade", "EMI Shielding"]
+      "description": "Data transmission cables for industrial communication networks",
+      "features": [
+        "Cat5e/Cat6",
+        "Fiber Optic",
+        "Industrial Grade",
+        "EMI Shielding"
+      ]
     }
   },
   "handTools": {
     "wrenchSets": {
       "name": "Professional Wrench Sets",
       "description": "Complete sets of combination and adjustable wrenches",
-      "features": ["Chrome Vanadium Steel", "Metric & SAE Sizes", "Professional Grade", "Lifetime Warranty"]
+      "features": [
+        "Chrome Vanadium Steel",
+        "Metric & SAE Sizes",
+        "Professional Grade",
+        "Lifetime Warranty"
+      ]
     },
     "screwdriverSets": {
       "name": "Precision Screwdriver Sets",
       "description": "High-quality screwdrivers for precision applications",
-      "features": ["Ergonomic Handles", "Magnetic Tips", "Multiple Head Types", "Anti-Slip Grip"]
+      "features": [
+        "Ergonomic Handles",
+        "Magnetic Tips",
+        "Multiple Head Types",
+        "Anti-Slip Grip"
+      ]
     },
     "toolKits": {
       "name": "Industrial Tool Kits",
       "description": "Comprehensive tool kits for industrial maintenance",
-      "features": ["Complete Tool Set", "Organized Storage", "Heavy-Duty Case", "Professional Quality"]
+      "features": [
+        "Complete Tool Set",
+        "Organized Storage",
+        "Heavy-Duty Case",
+        "Professional Quality"
+      ]
     }
   },
   "powerTools": {
     "drillSets": {
       "name": "Industrial Drill Sets",
       "description": "Heavy-duty electric and cordless drills for industrial applications",
-      "features": ["High Torque", "Variable Speed", "Cordless Options", "Chuck Capacity: 13mm"]
+      "features": [
+        "High Torque",
+        "Variable Speed",
+        "Cordless Options",
+        "Chuck Capacity: 13mm"
+      ]
     },
     "angleGrinders": {
       "name": "Angle Grinders",
       "description": "Professional angle grinders for cutting and grinding operations",
-      "features": ["Multiple Disc Sizes", "Safety Guards", "Anti-Vibration", "Powerful Motors"]
+      "features": [
+        "Multiple Disc Sizes",
+        "Safety Guards",
+        "Anti-Vibration",
+        "Powerful Motors"
+      ]
     },
     "impactWrenches": {
       "name": "Impact Wrenches",
       "description": "High-torque impact wrenches for heavy-duty fastening",
-      "features": ["High Impact Force", "Socket Compatibility", "Forward/Reverse", "Battery Powered"]
+      "features": [
+        "High Impact Force",
+        "Socket Compatibility",
+        "Forward/Reverse",
+        "Battery Powered"
+      ]
     }
   },
   "cuttingTools": {
     "sawBlades": {
       "name": "Industrial Saw Blades",
       "description": "High-quality saw blades for metal and wood cutting",
-      "features": ["HSS/Carbide Tips", "Multiple TPI", "Bi-Metal Construction", "Long Life"]
+      "features": [
+        "HSS/Carbide Tips",
+        "Multiple TPI",
+        "Bi-Metal Construction",
+        "Long Life"
+      ]
     },
     "drillBits": {
       "name": "Drill Bits & Reamers",
       "description": "Precision drilling and reaming tools",
-      "features": ["HSS/Cobalt", "Jobber Length", "Spiral Flutes", "Split Point"]
+      "features": [
+        "HSS/Cobalt",
+        "Jobber Length",
+        "Spiral Flutes",
+        "Split Point"
+      ]
     },
     "millingCutters": {
       "name": "Milling Cutters",
       "description": "End mills and face mills for machining operations",
-      "features": ["Carbide/HSS", "Multiple Flutes", "Coated Options", "Various Geometries"]
+      "features": [
+        "Carbide/HSS",
+        "Multiple Flutes",
+        "Coated Options",
+        "Various Geometries"
+      ]
     }
   },
   "liftingEquipment": {
     "chainHoists": {
       "name": "Chain Hoists & Slings",
       "description": "Manual and electric chain hoists for heavy lifting",
-      "features": ["1-20 Ton Capacity", "Electric/Manual", "Safety Hooks", "Overload Protection"]
+      "features": [
+        "1-20 Ton Capacity",
+        "Electric/Manual",
+        "Safety Hooks",
+        "Overload Protection"
+      ]
     },
     "wireRope": {
       "name": "Wire Rope & Cables",
       "description": "High-strength wire rope for lifting applications",
-      "features": ["Galvanized Steel", "Multiple Lay Types", "Various Diameters", "IWRC Core"]
+      "features": [
+        "Galvanized Steel",
+        "Multiple Lay Types",
+        "Various Diameters",
+        "IWRC Core"
+      ]
     },
     "liftingHardware": {
       "name": "Lifting Hardware",
       "description": "Shackles, hooks, and rigging hardware",
-      "features": ["Stainless Steel", "Safety Pins", "Load Rated", "ANSI/ASME Standards"]
+      "features": [
+        "Stainless Steel",
+        "Safety Pins",
+        "Load Rated",
+        "ANSI/ASME Standards"
+      ]
     }
   },
   "instrumentation": {
@@ -180,11 +300,24 @@
         "Food & Beverage",
         "Automotive Manufacturing"
       ],
-      "certifications": ["CE", "UL", "CSA", "ATEX", "IECEx", "SIL 2/3"],
+      "certifications": [
+        "CE",
+        "UL",
+        "CSA",
+        "ATEX",
+        "IECEx",
+        "SIL 2/3"
+      ],
       "technicalData": {
         "operatingTemp": "-40°C to +125°C",
         "protection": "IP65/IP67/IP69K",
-        "communication": ["4-20mA", "HART", "Modbus", "Ethernet", "Wireless"],
+        "communication": [
+          "4-20mA",
+          "HART",
+          "Modbus",
+          "Ethernet",
+          "Wireless"
+        ],
         "accuracy": "±0.1% to ±0.5% of span",
         "power": "24V DC, 115/230V AC, Loop-powered"
       }
@@ -233,11 +366,23 @@
         "Pulp & Paper",
         "Mining & Metals"
       ],
-      "certifications": ["SIL 2/3", "ATEX", "IECEx", "FM", "CSA", "NEPSI"],
+      "certifications": [
+        "SIL 2/3",
+        "ATEX",
+        "IECEx",
+        "FM",
+        "CSA",
+        "NEPSI"
+      ],
       "technicalData": {
         "operatingTemp": "-40°C to +85°C",
         "protection": "IP66/IP67",
-        "communication": ["HART", "Foundation Fieldbus", "Profibus", "Wireless"],
+        "communication": [
+          "HART",
+          "Foundation Fieldbus",
+          "Profibus",
+          "Wireless"
+        ],
         "accuracy": "±0.05% to ±0.25% of span",
         "power": "10.5-42.4V DC, Loop-powered"
       }
@@ -247,85 +392,182 @@
     "solar1HP": {
       "name": "Solar BLDC Submersible Pump - 1HP",
       "description": "Solar-powered BLDC submersible pump for water wells",
-      "features": ["Solar Compatible", "1HP Motor", "High Efficiency", "Water-Cooled Design"]
+      "features": [
+        "Solar Compatible",
+        "1HP Motor",
+        "High Efficiency",
+        "Water-Cooled Design"
+      ]
     },
     "surface2HP": {
-      "name": "DC Surface Pump - 2HP", 
+      "name": "DC Surface Pump - 2HP",
       "description": "High-efficiency BLDC surface pump for irrigation",
-      "features": ["2HP Power", "Self-Priming", "Dry Run Protection", "Variable Speed"]
+      "features": [
+        "2HP Power",
+        "Self-Priming",
+        "Dry Run Protection",
+        "Variable Speed"
+      ]
     },
     "hybrid": {
       "name": "Hybrid BLDC Pump System",
       "description": "Intelligent pump system with solar and grid backup",
-      "features": ["Hybrid Operation", "Smart Controller", "Remote Monitoring", "Energy Optimization"]
+      "features": [
+        "Hybrid Operation",
+        "Smart Controller",
+        "Remote Monitoring",
+        "Energy Optimization"
+      ]
     }
   },
   "bldcTableWallFan": {
     "tableFan": {
       "name": "BLDC Table Fan Motors",
       "description": "Compact BLDC motors for table and desk fans",
-      "features": ["Compact Design", "Silent Operation", "Remote Control", "Timer Function"]
+      "features": [
+        "Compact Design",
+        "Silent Operation",
+        "Remote Control",
+        "Timer Function"
+      ]
     },
     "wallFan": {
       "name": "BLDC Wall Fan Motors",
       "description": "Wall-mounted fan motors with BLDC technology",
-      "features": ["Wall Mount Design", "Oscillating Function", "Speed Control", "Energy Saving"]
+      "features": [
+        "Wall Mount Design",
+        "Oscillating Function",
+        "Speed Control",
+        "Energy Saving"
+      ]
     },
     "pedestalFan": {
       "name": "BLDC Pedestal Fan Motors",
-      "description": "Height-adjustable pedestal fan motors", 
-      "features": ["Height Adjustment", "Tilt Function", "LED Display", "Sleep Mode"]
+      "description": "Height-adjustable pedestal fan motors",
+      "features": [
+        "Height Adjustment",
+        "Tilt Function",
+        "LED Display",
+        "Sleep Mode"
+      ]
     }
   },
   "centrifugalPumps": {
     "endSuction": {
       "name": "End Suction Centrifugal Pumps",
       "description": "Single-stage end suction pumps for general applications",
-      "features": ["Flow: 10-5000 GPM", "Head: up to 400 ft", "Cast Iron/Stainless Steel", "ANSI/ISO Standards"]
+      "features": [
+        "Flow: 10-5000 GPM",
+        "Head: up to 400 ft",
+        "Cast Iron/Stainless Steel",
+        "ANSI/ISO Standards"
+      ]
     },
     "multiStage": {
       "name": "Multi-Stage Centrifugal Pumps",
-      "description": "High-pressure multi-stage pumps for demanding applications", 
-      "features": ["High Pressure Capability", "Compact Design", "Energy Efficient", "Balanced Impellers"]
+      "description": "High-pressure multi-stage pumps for demanding applications",
+      "features": [
+        "High Pressure Capability",
+        "Compact Design",
+        "Energy Efficient",
+        "Balanced Impellers"
+      ]
     },
     "chemicalProcess": {
       "name": "Chemical Process Pumps",
       "description": "Corrosion-resistant pumps for chemical processing",
-      "features": ["Corrosion Resistant", "Seal-less Design Options", "API 610 Compliant", "High Temperature"]
+      "features": [
+        "Corrosion Resistant",
+        "Seal-less Design Options",
+        "API 610 Compliant",
+        "High Temperature"
+      ]
     }
   },
   "circuitBreakersFuses": {
     "mcb": {
       "name": "Miniature Circuit Breakers (MCB)",
       "description": "Low voltage circuit breakers for residential and commercial use",
-      "features": ["B, C, D Curves", "6-63A Rating", "10kA Breaking Capacity", "DIN Rail Mount"]
+      "features": [
+        "B, C, D Curves",
+        "6-63A Rating",
+        "10kA Breaking Capacity",
+        "DIN Rail Mount"
+      ]
     },
     "mccb": {
       "name": "Molded Case Circuit Breakers (MCCB)",
       "description": "Industrial circuit breakers for motor and power protection",
-      "features": ["Adjustable Trip", "High Breaking Capacity", "Electronic Trip Units", "Up to 1600A"]
+      "features": [
+        "Adjustable Trip",
+        "High Breaking Capacity",
+        "Electronic Trip Units",
+        "Up to 1600A"
+      ]
     },
     "industrialFuses": {
-      "name": "Industrial Fuses", 
+      "name": "Industrial Fuses",
       "description": "High-speed fuses for equipment protection",
-      "features": ["Fast Acting", "Time Delay", "High Voltage", "Ceramic Body"]
+      "features": [
+        "Fast Acting",
+        "Time Delay",
+        "High Voltage",
+        "Ceramic Body"
+      ]
     }
   },
   "connectorsTerminals": {
     "terminalBlocks": {
       "name": "Terminal Blocks",
       "description": "Industrial terminal blocks for secure wire connections",
-      "features": ["Spring Clamp", "Screw Type", "DIN Rail Mount", "Multiple Sizes"]
+      "features": [
+        "Spring Clamp",
+        "Screw Type",
+        "DIN Rail Mount",
+        "Multiple Sizes"
+      ]
     },
     "industrialConnectors": {
       "name": "Industrial Connectors",
       "description": "Heavy-duty connectors for industrial applications",
-      "features": ["IP67 Rating", "Locking Mechanism", "Multi-Pin", "Cable Glands"]
+      "features": [
+        "IP67 Rating",
+        "Locking Mechanism",
+        "Multi-Pin",
+        "Cable Glands"
+      ]
     },
     "signalConnectors": {
       "name": "Signal Connectors",
-      "description": "Precision connectors for instrumentation signals", 
-      "features": ["Low Noise", "Shielded Design", "Miniature Size", "High Reliability"]
+      "description": "Precision connectors for instrumentation signals",
+      "features": [
+        "Low Noise",
+        "Shielded Design",
+        "Miniature Size",
+        "High Reliability"
+      ]
+    }
+  },
+  "productNames": {
+    "siemens": {
+      "simaticS7_1200": "Siemens SIMATIC S7-1200",
+      "simaticS7_1500": "Siemens SIMATIC S7-1500",
+      "logoSeries": "Siemens LOGO! Series"
+    },
+    "allenBradley": {
+      "compactLogix5380": "Allen-Bradley CompactLogix 5380",
+      "micrologix1400": "Allen-Bradley MicroLogix 1400",
+      "controlLogix5580": "Allen-Bradley ControlLogix 5580"
+    },
+    "schneider": {
+      "modiconM580": "Schneider Electric Modicon M580",
+      "modiconM340": "Schneider Electric Modicon M340",
+      "zelio": "Schneider Electric Zelio Logic"
+    },
+    "solar": {
+      "monocrystalline400W": "Monocrystalline Solar Panels - 400W",
+      "polycrystalline320W": "Polycrystalline Solar Panels - 320W",
+      "bifacial450W": "Bifacial Solar Panels - 450W"
     }
   }
 }

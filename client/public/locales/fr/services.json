@@ -87,5 +87,55 @@
     "consultation-training": "Consultation technique experte et programmes de formation pratique pour programmation PLC, développement HMI et automatisation industrielle.",
     "supply-chain-management": "Gestion complète de la chaîne d'approvisionnement pour composants électriques et pièces de rechange. Réseau de distributeurs autorisés garantit des pièces authentiques.",
     "solar-epc": "Services complets d'Ingénierie, Approvisionnement et Construction Solaire pour projets de 1kW à 1MW+. Designs approuvés MNRE avec garantie de performance de 25 ans."
+  },
+  "serviceDetails": {
+    "technicalSupport": {
+      "overview": "24/7 technical support services for troubleshooting, remote assistance, and on-site support for all electrical and automation systems with rapid response times.",
+      "benefits": [
+        "24/7 technical support availability",
+        "Remote diagnostic and troubleshooting services",
+        "On-site emergency support when needed",
+        "Rapid response times for critical issues",
+        "Comprehensive problem resolution and follow-up"
+      ],
+      "technologies": [
+        "Remote Diagnostics",
+        "Troubleshooting",
+        "On-site Support",
+        "System Monitoring",
+        "Emergency Response"
+      ],
+      "industries": [
+        "All Industries",
+        "Critical Infrastructure",
+        "Process Industries",
+        "Manufacturing",
+        "Commercial Facilities"
+      ]
+    },
+    "installationCommissioning": {
+      "overview": "Complete installation and commissioning services for industrial automation systems, electrical panels, and instrumentation with professional certification and testing.",
+      "benefits": [
+        "Professional installation by certified engineers",
+        "Comprehensive system testing and commissioning",
+        "Complete documentation and certification",
+        "Training and handover support",
+        "Post-installation support and warranty"
+      ],
+      "technologies": [
+        "System Installation",
+        "Commissioning",
+        "Testing",
+        "Certification",
+        "Documentation"
+      ],
+      "industries": [
+        "Manufacturing",
+        "Power Generation",
+        "Oil & Gas",
+        "Chemical",
+        "Water Treatment"
+      ]
+    }
   }
 }

@@ -585,5 +585,22 @@
     "CPRI": "CPRI (Instituto Central de Pesquisa em Energia)",
     "ISO": "ISO (Organização Internacional de Normalização)",
     "IEEE": "IEEE (Instituto de Engenheiros Elétricos e Eletrônicos)"
+  },
+  "ui": {
+    "ariaLabels": {
+      "callUs": "Call us at {{phone}}",
+      "goToHomepage": "Go to Powerton Engineering homepage",
+      "followLinkedIn": "Follow Powerton Engineering on LinkedIn",
+      "followTwitter": "Follow Powerton Engineering on X (formerly Twitter)",
+      "followFacebook": "Follow Powerton Engineering on Facebook",
+      "toggleMobileMenu": "Toggle mobile menu",
+      "closeMobileMenu": "Close mobile menu",
+      "openMobileMenu": "Open mobile menu"
+    },
+    "altTexts": {
+      "companyLogo": "Powerton Engineering Company Logo",
+      "heroImage": "Industrial automation and electrical engineering solutions",
+      "productImage": "Product image for {{productName}}"
+    }
   }
 }

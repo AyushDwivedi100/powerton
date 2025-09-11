@@ -67,19 +67,19 @@
     "phoneNumbers": "Números de Teléfono"
   },
   "technicalTerms": {
-    "BLDC": "BLDC (Motor de Corriente Continua Sin Escobillas)",
+    "BLDC": "BLDC (Motores de Corriente Continua Sin Escobillas)",
     "PLC": "PLC (Controlador Lógico Programable)",
-    "SCADA": "SCADA (Supervisión y Adquisición de Datos)",
-    "HMI": "HMI (Interfaz Humano-Máquina)",
+    "SCADA": "SCADA (Control Supervisor y Adquisición de Datos)",
+    "HMI": "HMI (Interfaz Hombre-Máquina)",
     "DCS": "DCS (Sistema de Control Distribuido)",
     "VFD": "VFD (Variador de Frecuencia)",
     "MCC": "MCC (Centro de Control de Motores)",
     "PCC": "PCC (Centro de Control de Potencia)",
-    "RTU": "RTU (Unidad Terminal Remota)",
-    "IED": "IED (Dispositivo Electrónico Inteligente)",
-    "NABL": "NABL (Junta Nacional de Acreditación de Laboratorios)",
-    "MNRE": "MNRE (Ministerio de Energía Nueva y Renovable)",
-    "CPRI": "CPRI (Instituto Central de Investigación de Energía)",
+    "RTU": "RTU (Unidades de Terminal Remoto)",
+    "IED": "IED (Dispositivos Electrónicos Inteligentes)",
+    "NABL": "NABL (Junta Nacional de Acreditación para Laboratorios de Prueba y Calibración)",
+    "MNRE": "MNRE (Ministerio de Energías Nuevas y Renovables)",
+    "CPRI": "CPRI (Instituto Central de Investigación Eléctrica)",
     "ISO": "ISO (Organización Internacional de Normalización)",
     "IEEE": "IEEE (Instituto de Ingenieros Eléctricos y Electrónicos)"
   },
@@ -588,21 +588,21 @@
   "common": {
     "keyFeatures": "Key Features"
   },
-  "technicalTerms": {
-    "BLDC": "BLDC (Motores de Corriente Continua Sin Escobillas)",
-    "PLC": "PLC (Controlador Lógico Programable)",
-    "SCADA": "SCADA (Control Supervisor y Adquisición de Datos)",
-    "HMI": "HMI (Interfaz Hombre-Máquina)",
-    "DCS": "DCS (Sistema de Control Distribuido)",
-    "VFD": "VFD (Variador de Frecuencia)",
-    "MCC": "MCC (Centro de Control de Motores)",
-    "PCC": "PCC (Centro de Control de Potencia)",
-    "RTU": "RTU (Unidades de Terminal Remoto)",
-    "IED": "IED (Dispositivos Electrónicos Inteligentes)",
-    "NABL": "NABL (Junta Nacional de Acreditación para Laboratorios de Prueba y Calibración)",
-    "MNRE": "MNRE (Ministerio de Energías Nuevas y Renovables)",
-    "CPRI": "CPRI (Instituto Central de Investigación Eléctrica)",
-    "ISO": "ISO (Organización Internacional de Normalización)",
-    "IEEE": "IEEE (Instituto de Ingenieros Eléctricos y Electrónicos)"
+  "ui": {
+    "ariaLabels": {
+      "callUs": "Call us at {{phone}}",
+      "goToHomepage": "Go to Powerton Engineering homepage",
+      "followLinkedIn": "Follow Powerton Engineering on LinkedIn",
+      "followTwitter": "Follow Powerton Engineering on X (formerly Twitter)",
+      "followFacebook": "Follow Powerton Engineering on Facebook",
+      "toggleMobileMenu": "Toggle mobile menu",
+      "closeMobileMenu": "Close mobile menu",
+      "openMobileMenu": "Open mobile menu"
+    },
+    "altTexts": {
+      "companyLogo": "Powerton Engineering Company Logo",
+      "heroImage": "Industrial automation and electrical engineering solutions",
+      "productImage": "Product image for {{productName}}"
+    }
   }
 }

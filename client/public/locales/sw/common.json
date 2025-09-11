@@ -184,21 +184,21 @@
     }
   },
   "technicalTerms": {
-    "BLDC": "BLDC (Motori za DC Zisizo na Brashi)",
-    "PLC": "PLC (Udhibiti wa Kilogiki wa Programu)",
-    "SCADA": "SCADA (Udhibiti wa Kina na Ukusanyaji wa Data)",
-    "HMI": "HMI (Kiolesura cha Binadamu-Mashine)",
-    "DCS": "DCS (Mfumo wa Udhibiti wa Kusambaza)",
-    "VFD": "VFD (Kiendeshaji cha Marudio Tofauti)",
-    "MCC": "MCC (Kituo cha Udhibiti wa Motori)",
+    "BLDC": "BLDC (Mita za Sasa Zinazoendelea Bila Brashi)",
+    "PLC": "PLC (Kidhibiti cha Mantiki Kinachoweza Kupangwa)",
+    "SCADA": "SCADA (Udhibiti wa Usimamizi na Ukusanyaji wa Data)",
+    "HMI": "HMI (Kiolesura cha Binadamu na Mashine)",
+    "DCS": "DCS (Mfumo wa Udhibiti Uliogawanywa)",
+    "VFD": "VFD (Kiendeshaji cha Marudio Tofautishi)",
+    "MCC": "MCC (Kituo cha Udhibiti wa Mitambo)",
     "PCC": "PCC (Kituo cha Udhibiti wa Nguvu)",
-    "RTU": "RTU (Vitengo vya Udhibiti wa Mbali)",
-    "IED": "IED (Vifaa vya Kielektroniki vya Kijanja)",
-    "NABL": "NABL (Bodi ya Kitaifa ya Maabara za Ujaribu)",
-    "MNRE": "MNRE (Wizara ya Nishati Inayojiongeza)",
-    "CPRI": "CPRI (Taasisi ya Utafiti wa Nguvu ya Kati)",
+    "RTU": "RTU (Vitengo vya Terminal za Mbali)",
+    "IED": "IED (Vifaa vya Kielektroniki Mahiri)",
+    "NABL": "NABL (Bodi ya Kitaifa ya Uhalalishaji wa Maabara ya Upimaji na Usahihi)",
+    "MNRE": "MNRE (Wizara ya Nishati Mpya na Inayoweza Kutumika Tena)",
+    "CPRI": "CPRI (Taasisi Kuu ya Utafiti wa Nishati)",
     "ISO": "ISO (Shirika la Kimataifa la Viwango)",
-    "IEEE": "IEEE (Shirika la Wahandisi wa Umeme na Elektroniki)"
+    "IEEE": "IEEE (Taasisi ya Wahandisi wa Umeme na Elektroniki)"
   },
   "headings": {
     "bldcCeilingFanModels": "Miundo ya Punkah za Dari za BLDC",
@@ -586,21 +586,21 @@
   "common": {
     "keyFeatures": "Key Features"
   },
-  "technicalTerms": {
-    "BLDC": "BLDC (Mita za Sasa Zinazoendelea Bila Brashi)",
-    "PLC": "PLC (Kidhibiti cha Mantiki Kinachoweza Kupangwa)",
-    "SCADA": "SCADA (Udhibiti wa Usimamizi na Ukusanyaji wa Data)",
-    "HMI": "HMI (Kiolesura cha Binadamu na Mashine)",
-    "DCS": "DCS (Mfumo wa Udhibiti Uliogawanywa)",
-    "VFD": "VFD (Kiendeshaji cha Marudio Tofautishi)",
-    "MCC": "MCC (Kituo cha Udhibiti wa Mitambo)",
-    "PCC": "PCC (Kituo cha Udhibiti wa Nguvu)",
-    "RTU": "RTU (Vitengo vya Terminal za Mbali)",
-    "IED": "IED (Vifaa vya Kielektroniki Mahiri)",
-    "NABL": "NABL (Bodi ya Kitaifa ya Uhalalishaji wa Maabara ya Upimaji na Usahihi)",
-    "MNRE": "MNRE (Wizara ya Nishati Mpya na Inayoweza Kutumika Tena)",
-    "CPRI": "CPRI (Taasisi Kuu ya Utafiti wa Nishati)",
-    "ISO": "ISO (Shirika la Kimataifa la Viwango)",
-    "IEEE": "IEEE (Taasisi ya Wahandisi wa Umeme na Elektroniki)"
+  "ui": {
+    "ariaLabels": {
+      "callUs": "Call us at {{phone}}",
+      "goToHomepage": "Go to Powerton Engineering homepage",
+      "followLinkedIn": "Follow Powerton Engineering on LinkedIn",
+      "followTwitter": "Follow Powerton Engineering on X (formerly Twitter)",
+      "followFacebook": "Follow Powerton Engineering on Facebook",
+      "toggleMobileMenu": "Toggle mobile menu",
+      "closeMobileMenu": "Close mobile menu",
+      "openMobileMenu": "Open mobile menu"
+    },
+    "altTexts": {
+      "companyLogo": "Powerton Engineering Company Logo",
+      "heroImage": "Industrial automation and electrical engineering solutions",
+      "productImage": "Product image for {{productName}}"
+    }
   }
 }

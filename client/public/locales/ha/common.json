@@ -67,21 +67,21 @@
     }
   },
   "technicalTerms": {
-    "BLDC": "BLDC (Injunan DC Marasa Brush)",
-    "PLC": "PLC (Sarrafa Dabam na Shirye-shirye)",
-    "SCADA": "SCADA (Sarrafa da Tattara Bayanai na Zuriya)",
-    "HMI": "HMI (Hanyar Sadarwa tsakanin Mutum da Na'ura)",
-    "DCS": "DCS (Tsarin Sarrafa da aka Rarraba)",
-    "VFD": "VFD (Mai Gudanar da Mitar Variable)",
-    "MCC": "MCC (Cibiyar Sarrafa Motar)",
-    "PCC": "PCC (Cibiyar Sarrafa Wuta)",
-    "RTU": "RTU (Sassan Sarrafa Nesa)",
-    "IED": "IED (Na'urorin Lantarki na Filin)",
-    "NABL": "NABL (Hukumar Dakunan Gwaji ta Ƙasa)",
-    "MNRE": "MNRE (Ma'aikatar Makamashi Mai Sabuntawa)",
-    "CPRI": "CPRI (Cibiyar Bincike ta Wutar Lantarki)",
-    "ISO": "ISO (Ƙungiyar Ma'auni ta Duniya)",
-    "IEEE": "IEEE (Ƙungiyar Injiniyoyin Lantarki da Elektroniki)"
+    "BLDC": "BLDC (Injunan Lantarki Mai Ci Gaba Ba Tare da Brush Ba)",
+    "PLC": "PLC (Mai Sarrafa Dabaru Mai Iya Shirye-shirye)",
+    "SCADA": "SCADA (Sarrafa Kulawa da Tattara Bayanai)",
+    "HMI": "HMI (Mu'amalar Mutum da Na'ura)",
+    "DCS": "DCS (Tsarin Sarrafa da Ya Raba)",
+    "VFD": "VFD (Mai Tuka Mitar da Ya Canza)",
+    "MCC": "MCC (Cibiyar Sarrafa Injuna)",
+    "PCC": "PCC (Cibiyar Sarrafa Wutar Lantarki)",
+    "RTU": "RTU (Sassan Terminal na Nesa)",
+    "IED": "IED (Na'urorin Lantarki masu Hankali)",
+    "NABL": "NABL (Hukumar Tabbatar da Dakunan Gwaji da Gyara ta Kasa)",
+    "MNRE": "MNRE (Ma'aikatar Sabuwar Makamashi da Mai Sabuntawa)",
+    "CPRI": "CPRI (Cibiyar Binciken Makamashi ta Tsakiya)",
+    "ISO": "ISO (Kungiyar Kasa da Kasa ta Daidaitawa)",
+    "IEEE": "IEEE (Kungiyar Injiniyoyin Lantarki da Na'urorin Lantarki)"
   },
   "buttons": {
     "downloadPortfolio": "Sauke Portfolio",
@@ -689,21 +689,21 @@
   "common": {
     "keyFeatures": "Key Features"
   },
-  "technicalTerms": {
-    "BLDC": "BLDC (Injunan Lantarki Mai Ci Gaba Ba Tare da Brush Ba)",
-    "PLC": "PLC (Mai Sarrafa Dabaru Mai Iya Shirye-shirye)",
-    "SCADA": "SCADA (Sarrafa Kulawa da Tattara Bayanai)",
-    "HMI": "HMI (Mu'amalar Mutum da Na'ura)",
-    "DCS": "DCS (Tsarin Sarrafa da Ya Raba)",
-    "VFD": "VFD (Mai Tuka Mitar da Ya Canza)",
-    "MCC": "MCC (Cibiyar Sarrafa Injuna)",
-    "PCC": "PCC (Cibiyar Sarrafa Wutar Lantarki)",
-    "RTU": "RTU (Sassan Terminal na Nesa)",
-    "IED": "IED (Na'urorin Lantarki masu Hankali)",
-    "NABL": "NABL (Hukumar Tabbatar da Dakunan Gwaji da Gyara ta Kasa)",
-    "MNRE": "MNRE (Ma'aikatar Sabuwar Makamashi da Mai Sabuntawa)",
-    "CPRI": "CPRI (Cibiyar Binciken Makamashi ta Tsakiya)",
-    "ISO": "ISO (Kungiyar Kasa da Kasa ta Daidaitawa)",
-    "IEEE": "IEEE (Kungiyar Injiniyoyin Lantarki da Na'urorin Lantarki)"
+  "ui": {
+    "ariaLabels": {
+      "callUs": "Call us at {{phone}}",
+      "goToHomepage": "Go to Powerton Engineering homepage",
+      "followLinkedIn": "Follow Powerton Engineering on LinkedIn",
+      "followTwitter": "Follow Powerton Engineering on X (formerly Twitter)",
+      "followFacebook": "Follow Powerton Engineering on Facebook",
+      "toggleMobileMenu": "Toggle mobile menu",
+      "closeMobileMenu": "Close mobile menu",
+      "openMobileMenu": "Open mobile menu"
+    },
+    "altTexts": {
+      "companyLogo": "Powerton Engineering Company Logo",
+      "heroImage": "Industrial automation and electrical engineering solutions",
+      "productImage": "Product image for {{productName}}"
+    }
   }
 }
