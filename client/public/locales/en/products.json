@@ -122,6 +122,90 @@
       "title": "Power Quality Analyzers",
       "description": "Power quality measurement and analysis instruments"
     },
+    "solar-batteries-energy-storage": {
+      "title": "Solar Batteries & Energy Storage",
+      "description": "Battery storage systems for solar energy applications"
+    },
+    "scada": {
+      "title": "SCADA Systems",
+      "description": "Supervisory Control And Data Acquisition systems"
+    },
+    "dcs": {
+      "title": "DCS (Distributed Control Systems)",
+      "description": "Distributed control systems for process automation"
+    },
+    "hmi": {
+      "title": "HMI (Human Machine Interface)",
+      "description": "Human machine interface systems for industrial control"
+    },
+    "surge-protectors": {
+      "title": "Surge Protectors",
+      "description": "Electrical surge protection devices"
+    },
+    "grounding-systems": {
+      "title": "Grounding Systems",
+      "description": "Electrical grounding and earthing systems"
+    },
+    "safety-relays-switches": {
+      "title": "Safety Relays & Switches",
+      "description": "Safety relay systems and emergency switches"
+    },
+    "intrinsically-safe-equipment": {
+      "title": "Intrinsically Safe Equipment",
+      "description": "Intrinsically safe equipment for hazardous areas"
+    },
+    "centrifugal-pumps": {
+      "title": "Centrifugal Pumps",
+      "description": "Industrial centrifugal pump systems"
+    },
+    "diaphragm-pumps": {
+      "title": "Diaphragm Pumps",
+      "description": "Positive displacement diaphragm pumps"
+    },
+    "gear-pumps": {
+      "title": "Gear Pumps",
+      "description": "Precision gear pump systems"
+    },
+    "pump-parts-spares": {
+      "title": "Pump Parts & Spares",
+      "description": "Spare parts and components for industrial pumps"
+    },
+    "hand-tools": {
+      "title": "Hand Tools",
+      "description": "Professional hand tools for industrial use"
+    },
+    "power-tools": {
+      "title": "Power Tools",
+      "description": "Electric and pneumatic power tools"
+    },
+    "cutting-tools": {
+      "title": "Cutting Tools",
+      "description": "Industrial cutting and machining tools"
+    },
+    "lifting-equipment": {
+      "title": "Lifting Equipment",
+      "description": "Industrial lifting and material handling equipment"
+    },
+    "safety-equipment": {
+      "title": "Safety Equipment",
+      "description": "Personal protective equipment and safety devices"
+    },
+    "bldc-cooler-exhaust-motor": {
+      "title": "BLDC Cooler & Exhaust Motors",
+      "description": "Brushless DC motors for cooling and ventilation"
+    },
+    "bldc-ceiling-fan": {
+      "title": "BLDC Ceiling Fans",
+      "description": "Energy-efficient BLDC ceiling fan motors"
+    },
+    "bldc-submersible-surface-pump": {
+      "title": "BLDC Submersible & Surface Pumps",
+      "description": "BLDC motor pumps for water applications"
+    },
+    "bldc-table-fan-wall-fan-motor": {
+      "title": "BLDC Table & Wall Fan Motors",
+      "description": "Compact BLDC motors for table and wall fans"
+    },
     "calibration-equipment": {
       "title": "Calibration Equipment",
       "description": "Precision calibration instruments and testing equipment"

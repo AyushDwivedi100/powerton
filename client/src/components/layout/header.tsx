@@ -87,12 +87,12 @@ export default function Header() {
   }, []);
 
   const navigation = [
-    { name: t('navigation:menu.about', 'About'), href: "/about" },
-    { name: t('navigation:menu.projects', 'Projects'), href: "/projects" },
-    { name: t('navigation:menu.gallery', 'Gallery'), href: "/gallery" },
-    { name: t('navigation:menu.news', 'News'), href: "/news" },
-    { name: t('navigation:menu.career', 'Career'), href: "/career" },
-    { name: t('navigation:menu.contact', 'Contact'), href: "/contact" },
+    { name: t('navigation:menu.about'), href: "/about" },
+    { name: t('navigation:menu.projects'), href: "/projects" },
+    { name: t('navigation:menu.gallery'), href: "/gallery" },
+    { name: t('navigation:menu.news'), href: "/news" },
+    { name: t('navigation:menu.career'), href: "/career" },
+    { name: t('navigation:menu.contact'), href: "/contact" },
   ];
 
   const isActive = (href: string) => {
