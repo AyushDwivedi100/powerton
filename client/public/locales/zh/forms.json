@@ -83,7 +83,7 @@
       "invalidEmail": "无效的电子邮件地址",
       "selectService": "请选择一项服务",
       "projectDetailsRequired": "项目详情是必需的",
-      "nameMin": "姓名至少鄀2个字符",
+      "nameMin": "姓名至少需要2个字符",
       "emailInvalid": "请输入有效的电子邮件地址",
       "phoneMin": "请输入有效的电话号码",
       "companyRequired": "公司名称为必填项",
@@ -122,7 +122,8 @@
     },
     "sections": {
       "contactInfo": "联系信息",
-      "requiredServices": "所需服务 *"
+      "requiredServices": "所需服务 *",
+      "technicalSpecifications": "技术规格"
     },
     "error": {
       "title": "报价提交失败",
@@ -130,7 +131,10 @@
     },
     "submitting": "正在提交报价请求...",
     "buttons": {
-      "getProfessionalQuote": "获取专业报价"
+      "getProfessionalQuote": "获取专业报价",
+      "submitRequest": "提交报价请求",
+      "callUrgent": "紧急需求请致电",
+      "emailRequirements": "邮件发送需求"
     },
     "fields": {
       "designation": {
@@ -147,51 +151,81 @@
       "foodProcessing": "食品加工",
       "pharmaceutical": "制药",
       "chemical": "化工",
+      "oilGas": "石油天然气",
       "renewableEnergy": "可再生能源",
       "infrastructure": "基础设施",
       "other": "其他"
+    },
+    "projectScale": {
+      "small": "小规模（< 10个I/O点）",
+      "medium": "中等规模（10-100个I/O点）",
+      "large": "大规模（100-500个I/O点）",
+      "enterprise": "企业级（500+个I/O点）"
+    },
+    "process": {
+      "heading": "接下来会发生什么？",
+      "steps": {
+        "technicalReview": "24小时内技术审查",
+        "detailedProposal": "带有规格的详细提案",
+        "costBreakdown": "成本细分和时间表",
+        "followUpCall": "后续咨询电话"
+      }
+    },
+    "assistance": {
+      "heading": "需要即时帮助吗？",
+      "technicalTeam": "+91-94627-71662 (技术团队)",
+      "email": "info@powertonengineering.com"
     }
   },
   "career": {
     "placeholders": {
-      "fullName": "Enter your full name",
-      "email": "your.email@example.com",
+      "fullName": "请输入您的全名",
+      "email": "您的邮箱@example.com",
       "phone": "+91 9876543210",
-      "address": "Enter your complete address (House/Flat No., Street, City, State, PIN)",
-      "currentCompany": "Your current company (optional)",
-      "education": "e.g., B.Tech Electrical Engineering",
-      "expectedSalary": "e.g., 5-8 LPA or Negotiable",
-      "skills": "List your technical skills, software knowledge, programming languages, certifications, etc.",
-      "coverLetter": "Tell us about your motivation, career goals, and how you can contribute to our team...",
-      "selectSpecialization": "Select your area of expertise",
-      "selectExperience": "Select experience level",
-      "selectAvailability": "Select your availability"
+      "address": "请输入您的完整地址（房屋/公寓号、街道、城市、州、邮编）",
+      "currentCompany": "您的当前公司（可选）",
+      "education": "例如：电气工程学士",
+      "expectedSalary": "例如：年薪5-8万或面议",
+      "skills": "列出您的技术技能、软件知识、编程语言、认证等",
+      "coverLetter": "告诉我们您的动机、职业目标以及您如何为我们的团队做出贡献...",
+      "selectSpecialization": "选择您的专业领域",
+      "selectExperience": "选择经验级别",
+      "selectAvailability": "选择您的可用性"
     },
     "labels": {
-      "title": "Join Our Engineering Team",
-      "subtitle": "Submit your application and become part of our innovative engineering solutions team",
-      "personalInfo": "Personal Information",
-      "professionalInfo": "Professional Information",
-      "fullName": "Full Name",
-      "emailAddress": "Email Address",
-      "phoneNumber": "Phone Number",
-      "residingAddress": "Current Residing Address",
-      "specialization": "Engineering Specialization",
-      "experience": "Experience Level",
-      "currentCompany": "Current Company",
-      "availability": "Availability/Notice Period",
-      "education": "Education/Qualification",
-      "expectedSalary": "Expected Salary",
-      "technicalSkills": "Technical Skills & Expertise",
-      "coverLetter": "Cover Letter & Motivation"
+      "title": "加入我们的工程团队",
+      "subtitle": "提交您的申请，成为我们创新工程解决方案团队的一部分",
+      "personalInfo": "个人信息",
+      "professionalInfo": "职业信息",
+      "fullName": "全名",
+      "emailAddress": "邮箱地址",
+      "phoneNumber": "电话号码",
+      "residingAddress": "当前居住地址",
+      "specialization": "工程专业",
+      "experience": "经验级别",
+      "currentCompany": "当前公司",
+      "availability": "可用性/通知期",
+      "education": "教育/资格",
+      "expectedSalary": "期望薪资",
+      "technicalSkills": "技术技能和专业知识",
+      "coverLetter": "求职信和动机"
     },
     "buttons": {
-      "submit": "Submit Application",
-      "submitting": "Submitting Application...",
-      "uploadResume": "Upload Resume"
+      "submit": "提交申请",
+      "submitting": "正在提交申请...",
+      "uploadResume": "上传简历"
     },
     "validation": {
-      "nameMin": "Name must be at least 2 characters",
+      "nameMin": "姓名至少需要2个字符",
+      "emailInvalid": "请输入有效的电子邮件地址",
+      "phoneMin": "电话号码至少需要10位数字",
+      "specializationRequired": "请选择您的工程专业",
+      "experienceRequired": "请选择您的经验水平",
+      "educationRequired": "请提供您的教育详情",
+      "joiningTimeRequired": "请说明您何时可以入职",
+      "skillsMin": "请提供您的技能详情",
+      "coverLetterMin": "请写一份简短的求职信（至少20个字符）",
+      "addressMin": "请提供您的完整居住地址"
       "emailInvalid": "Please enter a valid email address",
       "phoneMin": "Phone number must be at least 10 digits",
       "specializationRequired": "Please select your engineering specialization",
@@ -221,13 +255,32 @@
       "eightToTwelve": "8-12 years",
       "twelvePlus": "12+ years"
     },
+    "specializations": {
+      "electricalEngineering": "电气工程",
+      "automationControl": "自动化控制系统",
+      "instrumentation": "仪表工程",
+      "projectManagement": "项目管理",
+      "technicalSales": "技术销售",
+      "fieldService": "现场服务和调试",
+      "designEngineering": "设计开发",
+      "solarRenewable": "太阳能和可再生能源",
+      "other": "其他专业"
+    },
+    "experience": {
+      "fresher": "应届生 (0-1年)",
+      "oneToThree": "1-3年",
+      "threeToFive": "3-5年",
+      "fiveToEight": "5-8年",
+      "eightToTwelve": "8-12年",
+      "twelvePlus": "12+年"
+    },
     "joiningTime": {
-      "immediate": "Can join immediately",
-      "fifteenDays": "15 days notice period",
-      "oneMonth": "1 month notice period",
-      "twoMonths": "2 months notice period",
-      "threeMonths": "3 months notice period",
-      "moreThanThree": "More than 3 months notice"
+      "immediate": "可立即入职",
+      "fifteenDays": "15天通知期",
+      "oneMonth": "1个月通知期",
+      "twoMonths": "2个月通知期",
+      "threeMonths": "3个月通知期",
+      "moreThanThree": "超过3个月通知期"
     }
   }
 }

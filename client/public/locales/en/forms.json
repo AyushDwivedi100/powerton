@@ -211,17 +211,6 @@
       "description": "For immediate assistance: {{phone}} or email: {{email}}"
     },
     "submitting": "Submitting Quote Request...",
-    "buttons": {
-      "getProfessionalQuote": "Get Professional Quote"
-    },
-    "fields": {
-      "designation": {
-        "label": "Designation"
-      },
-      "additionalRequirements": {
-        "label": "Additional Requirements"
-      }
-    },
     "industries": {
       "manufacturing": "Manufacturing",
       "powerGeneration": "Power Generation",
@@ -241,6 +230,7 @@
       "enterprise": "Enterprise (500+ I/O points)"
     },
     "buttons": {
+      "getProfessionalQuote": "Get Professional Quote",
       "submitRequest": "Submit Quote Request",
       "callUrgent": "Call for Urgent Requirements",
       "emailRequirements": "Email Requirements"

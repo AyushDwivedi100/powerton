@@ -130,7 +130,10 @@
     },
     "submitting": "Soumission de la Demande de Devis...",
     "buttons": {
-      "getProfessionalQuote": "Obtenir un Devis Professionnel"
+      "getProfessionalQuote": "Obtenir un devis professionnel",
+      "submitRequest": "Soumettre une demande de devis",
+      "callUrgent": "Appeler pour les exigences urgentes",
+      "emailRequirements": "Envoyer les exigences par e-mail"
     },
     "fields": {
       "designation": {
@@ -147,51 +150,81 @@
       "foodProcessing": "Transformation Alimentaire",
       "pharmaceutical": "Pharmaceutique",
       "chemical": "Chimique",
+      "oilGas": "Pétrole et Gaz",
       "renewableEnergy": "Énergie Renouvelable",
       "infrastructure": "Infrastructure",
       "other": "Autre"
+    },
+    "projectScale": {
+      "small": "Petite échelle (< 10 points I/O)",
+      "medium": "Échelle moyenne (10-100 points I/O)",
+      "large": "Grande échelle (100-500 points I/O)",
+      "enterprise": "Entreprise (500+ points I/O)"
+    },
+    "process": {
+      "heading": "Que se passe-t-il ensuite ?",
+      "steps": {
+        "technicalReview": "Révision technique dans les 24 heures",
+        "detailedProposal": "Proposition détaillée avec spécifications",
+        "costBreakdown": "Répartition des coûts et calendrier",
+        "followUpCall": "Appel de consultation de suivi"
+      }
+    },
+    "assistance": {
+      "heading": "Besoin d'aide immédiate ?",
+      "technicalTeam": "+91-94627-71662 (Équipe technique)",
+      "email": "info@powertonengineering.com"
     }
   },
   "career": {
     "placeholders": {
-      "fullName": "Enter your full name",
-      "email": "your.email@example.com",
+      "fullName": "Entrez votre nom complet",
+      "email": "votre.email@exemple.com",
       "phone": "+91 9876543210",
-      "address": "Enter your complete address (House/Flat No., Street, City, State, PIN)",
-      "currentCompany": "Your current company (optional)",
-      "education": "e.g., B.Tech Electrical Engineering",
-      "expectedSalary": "e.g., 5-8 LPA or Negotiable",
-      "skills": "List your technical skills, software knowledge, programming languages, certifications, etc.",
-      "coverLetter": "Tell us about your motivation, career goals, and how you can contribute to our team...",
-      "selectSpecialization": "Select your area of expertise",
-      "selectExperience": "Select experience level",
-      "selectAvailability": "Select your availability"
+      "address": "Entrez votre adresse complète (Numéro de maison/appartement, rue, ville, état, code postal)",
+      "currentCompany": "Votre entreprise actuelle (optionnel)",
+      "education": "ex. Licence en Génie Électrique",
+      "expectedSalary": "ex. 5-8 LPA ou Négociable",
+      "skills": "Listez vos compétences techniques, connaissance des logiciels, langages de programmation, certifications, etc.",
+      "coverLetter": "Parlez-nous de votre motivation, objectifs de carrière et comment vous pouvez contribuer à notre équipe...",
+      "selectSpecialization": "Sélectionnez votre domaine d'expertise",
+      "selectExperience": "Sélectionnez le niveau d'expérience",
+      "selectAvailability": "Sélectionnez votre disponibilité"
     },
     "labels": {
-      "title": "Join Our Engineering Team",
-      "subtitle": "Submit your application and become part of our innovative engineering solutions team",
-      "personalInfo": "Personal Information",
-      "professionalInfo": "Professional Information",
-      "fullName": "Full Name",
-      "emailAddress": "Email Address",
-      "phoneNumber": "Phone Number",
-      "residingAddress": "Current Residing Address",
-      "specialization": "Engineering Specialization",
-      "experience": "Experience Level",
-      "currentCompany": "Current Company",
-      "availability": "Availability/Notice Period",
-      "education": "Education/Qualification",
-      "expectedSalary": "Expected Salary",
-      "technicalSkills": "Technical Skills & Expertise",
-      "coverLetter": "Cover Letter & Motivation"
+      "title": "Rejoignez notre équipe d'ingénierie",
+      "subtitle": "Soumettez votre candidature et devenez partie de notre équipe de solutions d'ingénierie innovantes",
+      "personalInfo": "Informations personnelles",
+      "professionalInfo": "Informations professionnelles",
+      "fullName": "Nom complet",
+      "emailAddress": "Adresse e-mail",
+      "phoneNumber": "Numéro de téléphone",
+      "residingAddress": "Adresse de résidence actuelle",
+      "specialization": "Spécialisation en ingénierie",
+      "experience": "Niveau d'expérience",
+      "currentCompany": "Entreprise actuelle",
+      "availability": "Disponibilité/Période de préavis",
+      "education": "Éducation/Qualification",
+      "expectedSalary": "Salaire attendu",
+      "technicalSkills": "Compétences techniques et expertise",
+      "coverLetter": "Lettre de motivation"
     },
     "buttons": {
-      "submit": "Submit Application",
-      "submitting": "Submitting Application...",
-      "uploadResume": "Upload Resume"
+      "submit": "Soumettre la candidature",
+      "submitting": "Soumission en cours...",
+      "uploadResume": "Télécharger le CV"
     },
     "validation": {
-      "nameMin": "Name must be at least 2 characters",
+      "nameMin": "Le nom doit comporter au moins 2 caractères",
+      "emailInvalid": "Veuillez entrer une adresse e-mail valide",
+      "phoneMin": "Le numéro de téléphone doit comporter au moins 10 chiffres",
+      "specializationRequired": "Veuillez sélectionner votre spécialisation en ingénierie",
+      "experienceRequired": "Veuillez sélectionner votre niveau d'expérience",
+      "educationRequired": "Veuillez fournir vos détails d'éducation",
+      "joiningTimeRequired": "Veuillez spécifier quand vous pouvez commencer",
+      "skillsMin": "Veuillez fournir des détails sur vos compétences",
+      "coverLetterMin": "Veuillez écrire une brève lettre de motivation (minimum 20 caractères)",
+      "addressMin": "Veuillez fournir votre adresse complète de résidence"
       "emailInvalid": "Please enter a valid email address",
       "phoneMin": "Phone number must be at least 10 digits",
       "specializationRequired": "Please select your engineering specialization",
@@ -228,6 +261,33 @@
       "twoMonths": "2 months notice period",
       "threeMonths": "3 months notice period",
       "moreThanThree": "More than 3 months notice"
+    },
+    "specializations": {
+      "electricalEngineering": "Génie électrique",
+      "automationControl": "Systèmes d'automatisation et de contrôle",
+      "instrumentation": "Génie de l'instrumentation",
+      "projectManagement": "Gestion de projet",
+      "technicalSales": "Ventes techniques",
+      "fieldService": "Service sur le terrain et mise en service",
+      "designEngineering": "Ingénierie de conception et développement",
+      "solarRenewable": "Énergie solaire et renouvelable",
+      "other": "Autre spécialisation"
+    },
+    "experience": {
+      "fresher": "Débutant (0-1 ans)",
+      "oneToThree": "1-3 ans",
+      "threeToFive": "3-5 ans",
+      "fiveToEight": "5-8 ans",
+      "eightToTwelve": "8-12 ans",
+      "twelvePlus": "12+ ans"
+    },
+    "joiningTime": {
+      "immediate": "Peut commencer immédiatement",
+      "fifteenDays": "15 jours de préavis",
+      "oneMonth": "1 mois de préavis",
+      "twoMonths": "2 mois de préavis",
+      "threeMonths": "3 mois de préavis",
+      "moreThanThree": "Plus de 3 mois de préavis"
     }
   }
 }
