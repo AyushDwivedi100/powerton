@@ -654,5 +654,22 @@
     "iso": "ISO",
     "quality": "Quality",
     "certification": "Certification"
+  },
+  "technicalTerms": {
+    "BLDC": "BLDC (Brushless DC Motors)",
+    "PLC": "PLC (Programmable Logic Controller)",
+    "SCADA": "SCADA (Supervisory Control and Data Acquisition)",
+    "HMI": "HMI (Human Machine Interface)",
+    "DCS": "DCS (Distributed Control System)",
+    "VFD": "VFD (Variable Frequency Drive)",
+    "MCC": "MCC (Motor Control Center)",
+    "PCC": "PCC (Power Control Center)",
+    "RTU": "RTU (Remote Terminal Units)",
+    "IED": "IED (Intelligent Electronic Devices)",
+    "NABL": "NABL (National Accreditation Board for Testing and Calibration Laboratories)",
+    "MNRE": "MNRE (Ministry of New and Renewable Energy)",
+    "CPRI": "CPRI (Central Power Research Institute)",
+    "ISO": "ISO (International Organization for Standardization)",
+    "IEEE": "IEEE (Institute of Electrical and Electronics Engineers)"
   }
 }

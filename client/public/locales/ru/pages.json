@@ -264,6 +264,54 @@
     "tabs": {
       "portfolio": "Project Portfolio",
       "showcase": "Featured Projects"
+    },
+    "hero": {
+      "title": "Наши Проекты",
+      "subtitle": "Откройте для себя наше инженерное совершенство через более чем 1200 успешных проектов в различных отраслях, демонстрирующих инновации, качество и надежность."
+    },
+    "showing": "Показано",
+    "technologies": {
+      "plcprogramming": "Программирование ПЛК",
+      "scada": "Системы SCADA",
+      "hmi": "Интерфейс Человек-Машина",
+      "industrialiot": "Промышленный IoT",
+      "environmentalmonitoring": "Экологический Мониторинг",
+      "predictiveanalytics": "Прогностическая Аналитика",
+      "edgecomputing": "Периферийные Вычисления",
+      "mccpanels": "Панели УДП",
+      "protectionsystems": "Системы Защиты",
+      "energymanagement": "Управление Энергией",
+      "remotemonitoring": "Удаленный Мониторинг"
+    },
+    "statuses": {
+      "capabilitydemo": "Демонстрация Возможностей",
+      "inprogress": "В Процессе",
+      "completed": "Завершено",
+      "planning": "Этап Планирования",
+      "contractsigned": "Контракт Подписан",
+      "engineeringphase": "Инженерный Этап"
+    },
+    "categories": {
+      "processautomation": "Автоматизация Процессов",
+      "powersystems": "Энергетические Системы",
+      "solarsolutions": "Солнечные Решения",
+      "manufacturing": "Производство",
+      "watertreatment": "Очистка Воды",
+      "powerplant": "Электростанция"
+    },
+    "highlights": {
+      "plcintegration": "Интеграция ПЛК",
+      "scadasystems": "Системы SCADA",
+      "realtimemonitoring": "Мониторинг в Реальном Времени",
+      "processoptimization": "Оптимизация Процессов",
+      "loadbalancing": "Балансировка Нагрузки",
+      "remotecontrol": "Удаленное Управление",
+      "gridconnection": "Подключение к Сети",
+      "performanceoptimization": "Оптимизация Производительности",
+      "maintenanceplanning": "Планирование Обслуживания",
+      "qualitycontrol": "Контроль Качества",
+      "automatedoperations": "Автоматизированные Операции",
+      "remotemanagement": "Удаленное Управление"
     }
   },
   "news": {

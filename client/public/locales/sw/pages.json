@@ -175,6 +175,54 @@
     "tabs": {
       "portfolio": "Project Portfolio",
       "showcase": "Featured Projects"
+    },
+    "hero": {
+      "title": "Miradi Yetu",
+      "subtitle": "Gundua ubora wetu wa kiufundi kupitia miradi zaidi ya 1200 iliyofanikiwa katika tasnia mbalimbali, ikionyesha ubunifu, ubora na uongozi."
+    },
+    "showing": "Inaonyesha",
+    "technologies": {
+      "plcprogramming": "Programu za PLC",
+      "scada": "Mifumo ya SCADA",
+      "hmi": "Kiolesura cha Binadamu na Mashine",
+      "industrialiot": "IoT ya Viwanda",
+      "environmentalmonitoring": "Ufuatiliaji wa Mazingira",
+      "predictiveanalytics": "Uchanganuzi wa Kutabiri",
+      "edgecomputing": "Kukokotoa kwa Ukingo",
+      "mccpanels": "Paneli za MCC",
+      "protectionsystems": "Mifumo ya Ulinzi",
+      "energymanagement": "Usimamizi wa Nishati",
+      "remotemonitoring": "Ufuatiliaji wa Mbali"
+    },
+    "statuses": {
+      "capabilitydemo": "Onyesho la Uwezo",
+      "inprogress": "Inaendelea",
+      "completed": "Imekamilika",
+      "planning": "Hatua ya Kupanga",
+      "contractsigned": "Mkataba Umetiwa Sahihi",
+      "engineeringphase": "Hatua ya Uhandisi"
+    },
+    "categories": {
+      "processautomation": "Uongeza Kiotomatiki wa Michakato",
+      "powersystems": "Mifumo ya Nguvu",
+      "solarsolutions": "Suluhisho za Jua",
+      "manufacturing": "Utengenezaji",
+      "watertreatment": "Matibabu ya Maji",
+      "powerplant": "Kiwanda cha Umeme"
+    },
+    "highlights": {
+      "plcintegration": "Ujumuishaji wa PLC",
+      "scadasystems": "Mifumo ya SCADA",
+      "realtimemonitoring": "Ufuatiliaji wa Wakati Halisi",
+      "processoptimization": "Kuboresha Michakato",
+      "loadbalancing": "Usawa wa Mizigo",
+      "remotecontrol": "Udhibiti wa Mbali",
+      "gridconnection": "Muunganisho wa Gridi",
+      "performanceoptimization": "Kuboresha Utendaji",
+      "maintenanceplanning": "Kupanga Utunzaji",
+      "qualitycontrol": "Udhibiti wa Ubora",
+      "automatedoperations": "Shughuli za Kiotomatiki",
+      "remotemanagement": "Usimamizi wa Mbali"
     }
   },
   "ui": {

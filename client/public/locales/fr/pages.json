@@ -141,6 +141,54 @@
     "tabs": {
       "portfolio": "Project Portfolio",
       "showcase": "Featured Projects"
+    },
+    "hero": {
+      "title": "Nos Projets",
+      "subtitle": "Découvrez notre excellence en ingénierie à travers plus de 1200 projets réussis dans diverses industries, démontrant innovation, qualité et fiabilité."
+    },
+    "showing": "Affichage",
+    "technologies": {
+      "plcprogramming": "Programmation PLC",
+      "scada": "Systèmes SCADA",
+      "hmi": "Interface Homme-Machine",
+      "industrialiot": "IoT Industriel",
+      "environmentalmonitoring": "Surveillance Environnementale",
+      "predictiveanalytics": "Analyse Prédictive",
+      "edgecomputing": "Informatique en Périphérie",
+      "mccpanels": "Panneaux MCC",
+      "protectionsystems": "Systèmes de Protection",
+      "energymanagement": "Gestion de l'Énergie",
+      "remotemonitoring": "Surveillance à Distance"
+    },
+    "statuses": {
+      "capabilitydemo": "Démonstration des Capacités",
+      "inprogress": "En Cours",
+      "completed": "Terminé",
+      "planning": "Phase de Planification",
+      "contractsigned": "Contrat Signé",
+      "engineeringphase": "Phase d'Ingénierie"
+    },
+    "categories": {
+      "processautomation": "Automatisation des Processus",
+      "powersystems": "Systèmes d'Alimentation",
+      "solarsolutions": "Solutions Solaires",
+      "manufacturing": "Fabrication",
+      "watertreatment": "Traitement de l'Eau",
+      "powerplant": "Centrale Électrique"
+    },
+    "highlights": {
+      "plcintegration": "Intégration PLC",
+      "scadasystems": "Systèmes SCADA",
+      "realtimemonitoring": "Surveillance en Temps Réel",
+      "processoptimization": "Optimisation des Processus",
+      "loadbalancing": "Équilibrage de Charge",
+      "remotecontrol": "Contrôle à Distance",
+      "gridconnection": "Connexion au Réseau",
+      "performanceoptimization": "Optimisation des Performances",
+      "maintenanceplanning": "Planification de la Maintenance",
+      "qualitycontrol": "Contrôle Qualité",
+      "automatedoperations": "Opérations Automatisées",
+      "remotemanagement": "Gestion à Distance"
     }
   },
   "products": {

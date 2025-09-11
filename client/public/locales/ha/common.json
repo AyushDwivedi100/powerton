@@ -688,5 +688,22 @@
   },
   "common": {
     "keyFeatures": "Key Features"
+  },
+  "technicalTerms": {
+    "BLDC": "BLDC (Injunan Lantarki Mai Ci Gaba Ba Tare da Brush Ba)",
+    "PLC": "PLC (Mai Sarrafa Dabaru Mai Iya Shirye-shirye)",
+    "SCADA": "SCADA (Sarrafa Kulawa da Tattara Bayanai)",
+    "HMI": "HMI (Mu'amalar Mutum da Na'ura)",
+    "DCS": "DCS (Tsarin Sarrafa da Ya Raba)",
+    "VFD": "VFD (Mai Tuka Mitar da Ya Canza)",
+    "MCC": "MCC (Cibiyar Sarrafa Injuna)",
+    "PCC": "PCC (Cibiyar Sarrafa Wutar Lantarki)",
+    "RTU": "RTU (Sassan Terminal na Nesa)",
+    "IED": "IED (Na'urorin Lantarki masu Hankali)",
+    "NABL": "NABL (Hukumar Tabbatar da Dakunan Gwaji da Gyara ta Kasa)",
+    "MNRE": "MNRE (Ma'aikatar Sabuwar Makamashi da Mai Sabuntawa)",
+    "CPRI": "CPRI (Cibiyar Binciken Makamashi ta Tsakiya)",
+    "ISO": "ISO (Kungiyar Kasa da Kasa ta Daidaitawa)",
+    "IEEE": "IEEE (Kungiyar Injiniyoyin Lantarki da Na'urorin Lantarki)"
   }
 }

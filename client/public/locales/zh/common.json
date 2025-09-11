@@ -640,5 +640,22 @@
   },
   "common": {
     "keyFeatures": "Key Features"
+  },
+  "technicalTerms": {
+    "BLDC": "BLDC (无刷直流电机)",
+    "PLC": "PLC (可编程逻辑控制器)",
+    "SCADA": "SCADA (监控和数据采集)",
+    "HMI": "HMI (人机界面)",
+    "DCS": "DCS (分布式控制系统)",
+    "VFD": "VFD (变频驱动器)",
+    "MCC": "MCC (电机控制中心)",
+    "PCC": "PCC (电源控制中心)",
+    "RTU": "RTU (远程终端单元)",
+    "IED": "IED (智能电子设备)",
+    "NABL": "NABL (国家测试和校准实验室认证委员会)",
+    "MNRE": "MNRE (新能源和可再生能源部)",
+    "CPRI": "CPRI (中央电力研究院)",
+    "ISO": "ISO (国际标准化组织)",
+    "IEEE": "IEEE (电气电子工程师学会)"
   }
 }

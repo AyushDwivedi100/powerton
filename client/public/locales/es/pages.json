@@ -276,6 +276,54 @@
     "tabs": {
       "portfolio": "Project Portfolio",
       "showcase": "Featured Projects"
+    },
+    "hero": {
+      "title": "Nuestros Proyectos",
+      "subtitle": "Descubra nuestra excelencia en ingeniería a través de más de 1200 proyectos exitosos en diversas industrias, mostrando innovación, calidad y confiabilidad."
+    },
+    "showing": "Mostrando",
+    "technologies": {
+      "plcprogramming": "Programación de PLC",
+      "scada": "Sistemas SCADA",
+      "hmi": "Interfaz Hombre-Máquina",
+      "industrialiot": "IoT Industrial",
+      "environmentalmonitoring": "Monitoreo Ambiental",
+      "predictiveanalytics": "Análisis Predictivo",
+      "edgecomputing": "Computación en el Borde",
+      "mccpanels": "Paneles MCC",
+      "protectionsystems": "Sistemas de Protección",
+      "energymanagement": "Gestión de Energía",
+      "remotemonitoring": "Monitoreo Remoto"
+    },
+    "statuses": {
+      "capabilitydemo": "Demostración de Capacidades",
+      "inprogress": "En Progreso",
+      "completed": "Completado",
+      "planning": "Fase de Planificación",
+      "contractsigned": "Contrato Firmado",
+      "engineeringphase": "Fase de Ingeniería"
+    },
+    "categories": {
+      "processautomation": "Automatización de Procesos",
+      "powersystems": "Sistemas de Potencia",
+      "solarsolutions": "Soluciones Solares",
+      "manufacturing": "Manufactura",
+      "watertreatment": "Tratamiento de Agua",
+      "powerplant": "Planta de Energía"
+    },
+    "highlights": {
+      "plcintegration": "Integración PLC",
+      "scadasystems": "Sistemas SCADA",
+      "realtimemonitoring": "Monitoreo en Tiempo Real",
+      "processoptimization": "Optimización de Procesos",
+      "loadbalancing": "Balance de Carga",
+      "remotecontrol": "Control Remoto",
+      "gridconnection": "Conexión a Red",
+      "performanceoptimization": "Optimización de Rendimiento",
+      "maintenanceplanning": "Planificación de Mantenimiento",
+      "qualitycontrol": "Control de Calidad",
+      "automatedoperations": "Operaciones Automatizadas",
+      "remotemanagement": "Gestión Remota"
     }
   },
   "quote": {

@@ -63,7 +63,50 @@
       "title": "Our Projects",
       "subtitle": "Discover our engineering excellence through 1200+ successful projects across diverse industries, showcasing innovation, quality, and reliability."
     },
-    "showing": "Showing"
+    "showing": "Showing",
+    "technologies": {
+      "plcprogramming": "PLC Programming",
+      "scada": "SCADA Systems",
+      "hmi": "Human Machine Interface",
+      "industrialiot": "Industrial IoT",
+      "environmentalmonitoring": "Environmental Monitoring",
+      "predictiveanalytics": "Predictive Analytics",
+      "edgecomputing": "Edge Computing",
+      "mccpanels": "MCC Panels",
+      "protectionsystems": "Protection Systems",
+      "energymanagement": "Energy Management",
+      "remotemonitoring": "Remote Monitoring"
+    },
+    "statuses": {
+      "capabilitydemo": "Capability Demo",
+      "inprogress": "In Progress",
+      "completed": "Completed",
+      "planning": "Planning Phase",
+      "contractsigned": "Contract Signed",
+      "engineeringphase": "Engineering Phase"
+    },
+    "categories": {
+      "processautomation": "Process Automation",
+      "powersystems": "Power Systems",
+      "solarsolutions": "Solar Solutions",
+      "manufacturing": "Manufacturing",
+      "watertreatment": "Water Treatment",
+      "powerplant": "Power Plant"
+    },
+    "highlights": {
+      "plcintegration": "PLC Integration",
+      "scadasystems": "SCADA Systems",
+      "realtimemonitoring": "Real-time Monitoring",
+      "processoptimization": "Process Optimization",
+      "loadbalancing": "Load Balancing",
+      "remotecontrol": "Remote Control",
+      "gridconnection": "Grid Connection",
+      "performanceoptimization": "Performance Optimization",
+      "maintenanceplanning": "Maintenance Planning",
+      "qualitycontrol": "Quality Control",
+      "automatedoperations": "Automated Operations",
+      "remotemanagement": "Remote Management"
+    }
   },
   "home": {
     "seo": {

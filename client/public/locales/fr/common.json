@@ -568,5 +568,22 @@
   },
   "common": {
     "keyFeatures": "Key Features"
+  },
+  "technicalTerms": {
+    "BLDC": "BLDC (Moteurs à Courant Continu sans Balais)",
+    "PLC": "PLC (Contrôleur Logique Programmable)",
+    "SCADA": "SCADA (Contrôle de Supervision et Acquisition de Données)",
+    "HMI": "HMI (Interface Homme-Machine)",
+    "DCS": "DCS (Système de Contrôle Distribué)",
+    "VFD": "VFD (Variateur de Fréquence)",
+    "MCC": "MCC (Centre de Contrôle Moteur)",
+    "PCC": "PCC (Centre de Contrôle de Puissance)",
+    "RTU": "RTU (Unités de Terminal à Distance)",
+    "IED": "IED (Dispositifs Électroniques Intelligents)",
+    "NABL": "NABL (Conseil National d'Accréditation des Laboratoires d'Étalonnage et d'Essais)",
+    "MNRE": "MNRE (Ministère de l'Énergie Nouvelle et Renouvelable)",
+    "CPRI": "CPRI (Institut Central de Recherche Électrique)",
+    "ISO": "ISO (Organisation Internationale de Normalisation)",
+    "IEEE": "IEEE (Institut des Ingénieurs Électriciens et Électroniciens)"
   }
 }

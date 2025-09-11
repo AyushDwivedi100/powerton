@@ -434,6 +434,54 @@
     "tabs": {
       "portfolio": "Project Portfolio",
       "showcase": "Featured Projects"
+    },
+    "hero": {
+      "title": "مشاريعنا",
+      "subtitle": "اكتشف التميز الهندسي لدينا من خلال أكثر من 1200 مشروع ناجح عبر صناعات متنوعة، يُظهر الابتكار والجودة والموثوقية."
+    },
+    "showing": "عرض",
+    "technologies": {
+      "plcprogramming": "برمجة أنظمة التحكم المنطقي",
+      "scada": "أنظمة المراقبة والتحكم",
+      "hmi": "واجهة الإنسان والآلة",
+      "industrialiot": "إنترنت الأشياء الصناعي",
+      "environmentalmonitoring": "مراقبة البيئة",
+      "predictiveanalytics": "التحليلات التنبؤية",
+      "edgecomputing": "الحوسبة الطرفية",
+      "mccpanels": "لوحات التحكم في المحركات",
+      "protectionsystems": "أنظمة الحماية",
+      "energymanagement": "إدارة الطاقة",
+      "remotemonitoring": "المراقبة عن بُعد"
+    },
+    "statuses": {
+      "capabilitydemo": "عرض القدرات",
+      "inprogress": "قيد التنفيذ",
+      "completed": "مكتمل",
+      "planning": "مرحلة التخطيط",
+      "contractsigned": "تم توقيع العقد",
+      "engineeringphase": "مرحلة الهندسة"
+    },
+    "categories": {
+      "processautomation": "أتمتة العمليات",
+      "powersystems": "أنظمة الطاقة",
+      "solarsolutions": "حلول الطاقة الشمسية",
+      "manufacturing": "التصنيع",
+      "watertreatment": "معالجة المياه",
+      "powerplant": "محطة الطاقة"
+    },
+    "highlights": {
+      "plcintegration": "تكامل أنظمة التحكم",
+      "scadasystems": "أنظمة المراقبة",
+      "realtimemonitoring": "المراقبة الفورية",
+      "processoptimization": "تحسين العمليات",
+      "loadbalancing": "توزيع الأحمال",
+      "remotecontrol": "التحكم عن بُعد",
+      "gridconnection": "الاتصال بالشبكة",
+      "performanceoptimization": "تحسين الأداء",
+      "maintenanceplanning": "تخطيط الصيانة",
+      "qualitycontrol": "مراقبة الجودة",
+      "automatedoperations": "العمليات الآلية",
+      "remotemanagement": "الإدارة عن بُعد"
     }
   },
   "ui": {

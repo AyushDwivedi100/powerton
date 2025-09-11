@@ -173,13 +173,56 @@
   },
   "projects": {
     "hero": {
-      "title": "Projetos e Portfólio",
-      "subtitle": "Excelência em Automação Industrial"
+      "title": "Nossos Projetos",
+      "subtitle": "Descubra nossa excelência em engenharia através de mais de 1200 projetos bem-sucedidos em diversas indústrias, mostrando inovação, qualidade e confiabilidade."
     },
-    "showing": "Mostrando {{count}} de {{total}} projetos",
+    "showing": "Mostrando",
     "tabs": {
       "portfolio": "Portfólio de Projetos",
       "showcase": "Projetos em Destaque"
+    },
+    "technologies": {
+      "plcprogramming": "Programação de CLP",
+      "scada": "Sistemas SCADA",
+      "hmi": "Interface Homem-Máquina",
+      "industrialiot": "IoT Industrial",
+      "environmentalmonitoring": "Monitoramento Ambiental",
+      "predictiveanalytics": "Análise Preditiva",
+      "edgecomputing": "Computação de Borda",
+      "mccpanels": "Painéis CCM",
+      "protectionsystems": "Sistemas de Proteção",
+      "energymanagement": "Gestão de Energia",
+      "remotemonitoring": "Monitoramento Remoto"
+    },
+    "statuses": {
+      "capabilitydemo": "Demonstração de Capacidade",
+      "inprogress": "Em Andamento",
+      "completed": "Concluído",
+      "planning": "Fase de Planejamento",
+      "contractsigned": "Contrato Assinado",
+      "engineeringphase": "Fase de Engenharia"
+    },
+    "categories": {
+      "processautomation": "Automação de Processos",
+      "powersystems": "Sistemas de Energia",
+      "solarsolutions": "Soluções Solares",
+      "manufacturing": "Manufatura",
+      "watertreatment": "Tratamento de Água",
+      "powerplant": "Usina de Energia"
+    },
+    "highlights": {
+      "plcintegration": "Integração CLP",
+      "scadasystems": "Sistemas SCADA",
+      "realtimemonitoring": "Monitoramento em Tempo Real",
+      "processoptimization": "Otimização de Processos",
+      "loadbalancing": "Balanceamento de Carga",
+      "remotecontrol": "Controle Remoto",
+      "gridconnection": "Conexão à Rede",
+      "performanceoptimization": "Otimização de Desempenho",
+      "maintenanceplanning": "Planejamento de Manutenção",
+      "qualitycontrol": "Controle de Qualidade",
+      "automatedoperations": "Operações Automatizadas",
+      "remotemanagement": "Gestão Remota"
     }
   },
   "ui": {

@@ -585,5 +585,22 @@
   },
   "common": {
     "keyFeatures": "Key Features"
+  },
+  "technicalTerms": {
+    "BLDC": "BLDC (Mita za Sasa Zinazoendelea Bila Brashi)",
+    "PLC": "PLC (Kidhibiti cha Mantiki Kinachoweza Kupangwa)",
+    "SCADA": "SCADA (Udhibiti wa Usimamizi na Ukusanyaji wa Data)",
+    "HMI": "HMI (Kiolesura cha Binadamu na Mashine)",
+    "DCS": "DCS (Mfumo wa Udhibiti Uliogawanywa)",
+    "VFD": "VFD (Kiendeshaji cha Marudio Tofautishi)",
+    "MCC": "MCC (Kituo cha Udhibiti wa Mitambo)",
+    "PCC": "PCC (Kituo cha Udhibiti wa Nguvu)",
+    "RTU": "RTU (Vitengo vya Terminal za Mbali)",
+    "IED": "IED (Vifaa vya Kielektroniki Mahiri)",
+    "NABL": "NABL (Bodi ya Kitaifa ya Uhalalishaji wa Maabara ya Upimaji na Usahihi)",
+    "MNRE": "MNRE (Wizara ya Nishati Mpya na Inayoweza Kutumika Tena)",
+    "CPRI": "CPRI (Taasisi Kuu ya Utafiti wa Nishati)",
+    "ISO": "ISO (Shirika la Kimataifa la Viwango)",
+    "IEEE": "IEEE (Taasisi ya Wahandisi wa Umeme na Elektroniki)"
   }
 }

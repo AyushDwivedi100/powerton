@@ -509,6 +509,54 @@
     "tabs": {
       "portfolio": "Project Portfolio",
       "showcase": "Featured Projects"
+    },
+    "hero": {
+      "title": "Ayyukanmu",
+      "subtitle": "Gano kyawun aikinmu ta hanyar sama da ayyuka 1200 da suka yi nasara a masana'antu daban-daban, suna nuna kirkire-kirkire, inganci da aminci."
+    },
+    "showing": "Ana nuna",
+    "technologies": {
+      "plcprogramming": "Shirye-shiryen PLC",
+      "scada": "Tsarin SCADA",
+      "hmi": "Mu'amalar Mutum da Injin",
+      "industrialiot": "IoT na Masana'antu",
+      "environmentalmonitoring": "Sa ido kan Muhalli",
+      "predictiveanalytics": "Nazarin Hasashe",
+      "edgecomputing": "Kwamfuta na Gefe",
+      "mccpanels": "Allunan MCC",
+      "protectionsystems": "Tsarin Kariya",
+      "energymanagement": "Gudanar da Makamashi",
+      "remotemonitoring": "Sa ido daga Nesa"
+    },
+    "statuses": {
+      "capabilitydemo": "Nunin Iya",
+      "inprogress": "Ana ci gaba",
+      "completed": "An kammala",
+      "planning": "Matakin Tsarawa",
+      "contractsigned": "An rattaba hannu kan Kwangila",
+      "engineeringphase": "Matakin Injiniya"
+    },
+    "categories": {
+      "processautomation": "Sarrafa Ayyuka ta Atomatik",
+      "powersystems": "Tsarin Wutar Lantarki",
+      "solarsolutions": "Hanyoyin Hasken Rana",
+      "manufacturing": "Masana'anta",
+      "watertreatment": "Maganin Ruwa",
+      "powerplant": "Masana'antar Wutar Lantarki"
+    },
+    "highlights": {
+      "plcintegration": "Hade da PLC",
+      "scadasystems": "Tsarin SCADA",
+      "realtimemonitoring": "Sa ido na Yanzu",
+      "processoptimization": "Inganta Ayyuka",
+      "loadbalancing": "Daidaita Nauyi",
+      "remotecontrol": "Sarrafawa ta Nesa",
+      "gridconnection": "Haɗa Grid",
+      "performanceoptimization": "Inganta Aiki",
+      "maintenanceplanning": "Tsarin Kulawa",
+      "qualitycontrol": "Sarrafa Inganci",
+      "automatedoperations": "Ayyuka ta Atomatik",
+      "remotemanagement": "Gudanarwa ta Nesa"
     }
   },
   "portfolioDownload": {

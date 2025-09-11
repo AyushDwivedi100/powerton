@@ -232,6 +232,54 @@
     "tabs": {
       "portfolio": "Project Portfolio",
       "showcase": "Featured Projects"
+    },
+    "hero": {
+      "title": "我们的项目",
+      "subtitle": "通过1200多个成功项目探索我们在不同行业的工程卓越，展现创新、质量和可靠性。"
+    },
+    "showing": "显示",
+    "technologies": {
+      "plcprogramming": "PLC编程",
+      "scada": "SCADA系统",
+      "hmi": "人机界面",
+      "industrialiot": "工业物联网",
+      "environmentalmonitoring": "环境监测",
+      "predictiveanalytics": "预测分析",
+      "edgecomputing": "边缘计算",
+      "mccpanels": "电机控制中心",
+      "protectionsystems": "保护系统",
+      "energymanagement": "能源管理",
+      "remotemonitoring": "远程监控"
+    },
+    "statuses": {
+      "capabilitydemo": "能力演示",
+      "inprogress": "进行中",
+      "completed": "已完成",
+      "planning": "规划阶段",
+      "contractsigned": "合同已签署",
+      "engineeringphase": "工程阶段"
+    },
+    "categories": {
+      "processautomation": "过程自动化",
+      "powersystems": "电力系统",
+      "solarsolutions": "太阳能解决方案",
+      "manufacturing": "制造业",
+      "watertreatment": "水处理",
+      "powerplant": "发电厂"
+    },
+    "highlights": {
+      "plcintegration": "PLC集成",
+      "scadasystems": "SCADA系统",
+      "realtimemonitoring": "实时监控",
+      "processoptimization": "过程优化",
+      "loadbalancing": "负载均衡",
+      "remotecontrol": "远程控制",
+      "gridconnection": "电网连接",
+      "performanceoptimization": "性能优化",
+      "maintenanceplanning": "维护计划",
+      "qualitycontrol": "质量控制",
+      "automatedoperations": "自动化操作",
+      "remotemanagement": "远程管理"
     }
   },
   "products": {
