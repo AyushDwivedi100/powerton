@@ -75,6 +75,15 @@
       "label": "联系我们",
       "title": "让我们讨论您的工程需求",
       "description": "准备开始您的下一个项目？联系我们的专家团队获取定制解决方案和专业咨询。",
+      "hero": {
+        "title": "联系我们的工程专家",
+        "subtitle": "为您的工业自动化和电气工程项目获得专业支持。我们经验丰富的团队随时准备帮助您成功。",
+        "benefits": {
+          "consultation": "免费专家咨询",
+          "support": "24/7技术支持",
+          "experience": "15+年经验"
+        }
+      },
       "getInTouch": "联系我们",
       "methods": {
         "phone": {
@@ -807,12 +816,12 @@
   },
   "contact": {
     "hero": {
-      "title": "Contact Our Engineering Experts",
-      "subtitle": "Ready to start your next project? Our expert team is here to help you with customized engineering solutions and professional consultation.",
+      "title": "联系我们的工程专家",
+      "subtitle": "为您的工业自动化和电气工程项目获得专业支持。我们经验丰富的团队随时准备帮助您成功。",
       "benefits": {
-        "consultation": "Free Consultation",
-        "support": "24/7 Emergency Support",
-        "experience": "15+ Years Experience"
+        "consultation": "免费专家咨询",
+        "support": "24/7技术支持",
+        "experience": "15+年经验"
       }
     },
     "methods": {
@@ -937,6 +946,13 @@
       "keywords": "powerton engineering careers, engineering jobs, electrical engineer jobs, automation engineer jobs, industrial engineering careers, engineering jobs noida"
     },
     "hero": {
+      "title": "与我们一起建立您的工程职业生涯",
+      "subtitle": "加入我们充满激情的工程师团队，为创新的工业自动化解决方案做出贡献",
+      "benefits": {
+        "growth": "成长机会",
+        "innovation": "创新项目",
+        "culture": "协作文化"
+      },
       "imageAlt": "Professional engineering workspace with modern industrial facility equipment"
     },
     "benefits": {
