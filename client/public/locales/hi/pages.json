@@ -345,13 +345,13 @@
   },
   "contact": {
     "hero": {
+      "title": "हमारे इंजीनियरिंग विशेषज्ञों से संपर्क करें",
+      "subtitle": "अपनी औद्योगिक स्वचालन और विद्युत इंजीनियरिंग परियोजनाओं के लिए पेशेवर सहायता प्राप्त करें। हमारी अनुभवी टीम आपकी सफलता में मदद करने के लिए तैयार है।",
       "benefits": {
-        "consultation": "Free Consultation",
-        "support": "24/7 Emergency Support",
-        "experience": "15+ Years Experience"
-      },
-      "title": "Contact Our Engineering Experts",
-      "subtitle": "Ready to start your next project? Our expert team is here to help you with customized engineering solutions and professional consultation."
+        "consultation": "निःशुल्क विशेषज्ञ परामर्श",
+        "support": "24/7 तकनीकी सहायता",
+        "experience": "15+ वर्षों का अनुभव"
+      }
     },
     "methods": {
       "title": "Multiple Ways to Reach Us",
@@ -568,8 +568,8 @@
   },
   "gallery": {
     "hero": {
-      "title": "Our Gallery",
-      "subtitle": "Discover our journey through images - from our dedicated team and modern facilities to successful projects and comprehensive product range."
+      "title": "हमारी गैलरी",
+      "subtitle": "चित्रों के माध्यम से हमारी यात्रा की खोज करें - हमारी समर्पित टीम और आधुनिक सुविधाओं से लेकर सफल परियोजनाओं और व्यापक उत्पाद श्रृंखला तक।"
     },
     "tabs": {
       "company": "Company & Team",
@@ -910,6 +910,13 @@
       "keywords": "powerton engineering careers, engineering jobs, electrical engineer jobs, automation engineer jobs, industrial engineering careers, engineering jobs noida"
     },
     "hero": {
+      "title": "हमारे साथ अपना इंजीनियरिंग करियर बनाएं",
+      "subtitle": "हमारी भावुक इंजीनियरों की टीम में शामिल हों और नवाचार औद्योगिक स्वचालन समाधानों में योगदान दें",
+      "benefits": {
+        "growth": "विकास के अवसर",
+        "innovation": "नवाचार परियोजनाएं",
+        "culture": "सहयोगी संस्कृति"
+      },
       "imageAlt": "Professional engineering workspace with modern industrial facility equipment"
     },
     "benefits": {

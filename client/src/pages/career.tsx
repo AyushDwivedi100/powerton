@@ -83,23 +83,23 @@ export default function Career() {
         <div className="relative max-w-7xl mx-auto px-4 md:px-6 lg:px-8 text-white">
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
-              Build Your Engineering Career With Us
+              {t('pages:career.hero.title')}
             </h1>
             <p className="text-xl lg:text-2xl mb-8 opacity-90">
-              Join our team of passionate engineers and contribute to innovative industrial automation solutions
+              {t('pages:career.hero.subtitle')}
             </p>
             <div className="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-8 text-lg">
               <div className="flex items-center justify-center">
                 <CheckCircle className="w-6 h-6 text-secondary mr-3" />
-                <span>Growth Opportunities</span>
+                <span>{t('pages:career.hero.benefits.growth')}</span>
               </div>
               <div className="flex items-center justify-center">
                 <CheckCircle className="w-6 h-6 text-secondary mr-3" />
-                <span>Innovative Projects</span>
+                <span>{t('pages:career.hero.benefits.innovation')}</span>
               </div>
               <div className="flex items-center justify-center">
                 <CheckCircle className="w-6 h-6 text-secondary mr-3" />
-                <span>Collaborative Culture</span>
+                <span>{t('pages:career.hero.benefits.culture')}</span>
               </div>
             </div>
           </div>
