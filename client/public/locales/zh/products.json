@@ -129,6 +129,16 @@
         "lifting-equipment": "起重设备",
         "cutting-tools": "切割工具"
       }
+    },
+    "bldc": {
+      "title": "BLDC产品",
+      "description": "节能应用的无刷直流电机产品",
+      "features": {
+        "energy-efficient": "节能高效",
+        "long-lifespan": "使用寿命长",
+        "low-maintenance": "低维护",
+        "variable-speed-control": "变速控制"
+      }
     }
   },
   "subcategories": {
