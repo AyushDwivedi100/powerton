@@ -16,3 +16,4 @@
 [x] 16. Integrated career application form with PHPMailer - created dedicated career-handler.php and updated form to send applications via PHP mailer like other forms
 [x] 17. Added CV/Resume upload functionality to career form - includes file validation, attachment to email, and resume status in email template
 [x] 18. Fixed UI styling and translation keys for resume upload - improved drag-drop interface, fixed cut-off button, added missing translations
+[x] 19. Fixed "View Details" button translation issue across all languages - updated common.json files to properly translate "View Details" button on products page from English to native languages (Chinese: 查看详情, Arabic: عرض التفاصيل, Hindi: विवरण देखें, Spanish: Ver Detalles, Russian: Посмотреть детали, French: Voir Détails, Portuguese: Ver Detalhes, Swahili: Ona Maelezo, Hausa: Duba Cikakkun Bayanai)
