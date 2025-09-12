@@ -38,8 +38,11 @@
     "callNow": "अभी कॉल करें",
     "emailUs": "ईमेल करें",
     "viewMore": "और देखें",
-    "getStarted": "Get Started",
-    "downloadBrochure": "Download Brochure",
+    "getStarted": "शुरू करें",
+    "downloadBrochure": "ब्रोशर डाउनलोड करें",
+    "getQuote": "कोटेशन प्राप्त करें",
+    "contactUs": "हमसे संपर्क करें",
+    "discussProject": "अपनी परियोजना पर चर्चा करें",
     "readMore": "Read More",
     "downloadCatalog": "कैटलॉग डाउनलोड करें",
     "viewDetails": "विवरण देखें",
@@ -314,10 +317,11 @@
       "sunday": "रविवार: केवल आपातकालीन सहायता"
     },
     "stats": {
-      "projectsCompleted": "विशेषज्ञ इंजीनियर",
-      "clientsServed": "तकनीकी कर्मचारी",
-      "yearsExperience": "वर्षों का औसत अनुभव",
-      "successRate": "सफलता दर"
+      "projectsCompleted": "पूर्ण परियोजनाएं",
+      "clientsServed": "सेवा में ग्राहक",
+      "yearsExperience": "वर्षों का अनुभव",
+      "successRate": "सफलता दर",
+      "responseTime": "प्रतिक्रिया समय"
     }
   },
   "seo": {
