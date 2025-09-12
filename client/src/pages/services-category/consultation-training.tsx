@@ -35,20 +35,15 @@ const iconMap = {
 
 export default function ConsultationTraining() {
   useScrollAnimations();
-  const { t } = useTranslation(['pages', 'common']);
+  const { t } = useTranslation(['pages', 'common', 'services']);
   
   const service = SERVICES.find(s => s.id === "consultation-training")!;
+  const serviceId = "consultation-training";
   const details = {
-    overview: "Expert technical consultation and comprehensive training programs for electrical systems, automation, and industrial engineering solutions tailored to your specific needs.",
-    benefits: [
-      "Expert technical consultation from experienced engineers",
-      "Customized training programs for your team",
-      "Best practices and industry standards guidance",
-      "System design and optimization recommendations",
-      "Ongoing technical support and mentoring"
-    ],
-    technologies: ["Technical Consultation", "Training Programs", "System Design", "Process Optimization", "Best Practices"],
-    industries: ["All Industries", "Educational Institutions", "Government Agencies", "Engineering Firms", "Technology Companies"]
+    overview: t(`services:serviceDetails.${serviceId}.overview`),
+    benefits: t(`services:serviceDetails.${serviceId}.benefits`, { returnObjects: true }) as string[],
+    technologies: t(`services:serviceDetails.${serviceId}.technologies`, { returnObjects: true }) as string[],
+    industries: t(`services:serviceDetails.${serviceId}.industries`, { returnObjects: true }) as string[]
   };
 
   const IconComponent = iconMap[service.icon as keyof typeof iconMap] || Settings;

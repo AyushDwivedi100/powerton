@@ -35,20 +35,15 @@ const iconMap = {
 
 export default function SupplyChainManagement() {
   useScrollAnimations();
-  const { t } = useTranslation(['pages', 'common']);
+  const { t } = useTranslation(['pages', 'common', 'services']);
   
   const service = SERVICES.find(s => s.id === "supply-chain-management")!;
+  const serviceId = "supply-chain-management";
   const details = {
-    overview: "Comprehensive supply chain management services for electrical components, spare parts, and industrial equipment with reliable sourcing and quality assurance.",
-    benefits: [
-      "Reliable sourcing from authorized manufacturers",
-      "Quality assurance and genuine parts guarantee",
-      "Inventory management and stock optimization",
-      "Timely delivery and logistics coordination",
-      "Cost-effective procurement solutions"
-    ],
-    technologies: ["Component Sourcing", "Inventory Management", "Quality Control", "Logistics Coordination", "Vendor Management"],
-    industries: ["Manufacturing", "Process Industries", "Infrastructure", "Commercial Buildings", "Industrial Facilities"]
+    overview: t(`services:serviceDetails.${serviceId}.overview`),
+    benefits: t(`services:serviceDetails.${serviceId}.benefits`, { returnObjects: true }) as string[],
+    technologies: t(`services:serviceDetails.${serviceId}.technologies`, { returnObjects: true }) as string[],
+    industries: t(`services:serviceDetails.${serviceId}.industries`, { returnObjects: true }) as string[]
   };
 
   const IconComponent = iconMap[service.icon as keyof typeof iconMap] || Settings;

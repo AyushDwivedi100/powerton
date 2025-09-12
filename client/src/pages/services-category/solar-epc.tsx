@@ -35,20 +35,15 @@ const iconMap = {
 
 export default function SolarEPC() {
   useScrollAnimations();
-  const { t } = useTranslation(['pages', 'common']);
+  const { t } = useTranslation(['pages', 'common', 'services']);
   
   const service = SERVICES.find(s => s.id === "solar-epc")!;
+  const serviceId = "solar-epc";
   const details = {
-    overview: "Complete Engineering, Procurement, and Construction services for solar power projects including design, installation, commissioning, and grid connection with performance optimization.",
-    benefits: [
-      "Complete turnkey solar project solutions",
-      "Professional design and engineering services",
-      "Quality installation and commissioning",
-      "Grid connection and regulatory compliance",
-      "Performance monitoring and optimization"
-    ],
-    technologies: ["Solar System Design", "Project Management", "Installation Services", "Grid Integration", "Performance Monitoring"],
-    industries: ["Renewable Energy", "Commercial Buildings", "Industrial Facilities", "Residential Projects", "Utility Scale Projects"]
+    overview: t(`services:serviceDetails.${serviceId}.overview`),
+    benefits: t(`services:serviceDetails.${serviceId}.benefits`, { returnObjects: true }) as string[],
+    technologies: t(`services:serviceDetails.${serviceId}.technologies`, { returnObjects: true }) as string[],
+    industries: t(`services:serviceDetails.${serviceId}.industries`, { returnObjects: true }) as string[]
   };
 
   const IconComponent = iconMap[service.icon as keyof typeof iconMap] || Settings;
