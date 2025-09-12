@@ -652,9 +652,17 @@
       "sunday": "周日：仅紧急支持"
     },
     "stats": {
+      "projectsCompleted": "完成项目",
+      "clientsServed": "服务客户", 
+      "yearsExperience": "年经验",
+      "successRate": "成功率",
+      "responseTime": "响应时间"
+    },
+    "statistics": {
       "projectsCompleted": "500+",
-      "clientsServed": "200+",
+      "clientsServed": "200+", 
       "yearsExperience": "15+",
+      "successRate": "98%",
       "responseTime": "2小时"
     }
   },
