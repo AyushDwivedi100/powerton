@@ -26,11 +26,21 @@ import {
 import { Link } from "wouter";
 import { getHeroImage } from "@/assets/images";
 import { useTranslation } from "react-i18next";
+import { useToast } from "@/hooks/use-toast";
 
 export default function Products() {
   useScrollAnimations();
   const { t } = useTranslation(['common', 'products', 'pages']);
+  const { toast } = useToast();
   const PRODUCTS = getProducts(t);
+
+  const handleDownloadCatalog = () => {
+    toast({
+      title: t('common:messages.comingSoon'),
+      description: t('common:messages.catalogComingSoon'),
+      duration: 4000,
+    });
+  };
 
   const getIconComponent = (iconName: string) => {
     const icons = {
@@ -314,7 +324,10 @@ export default function Products() {
               {t('products:subtitle')}
             </p>
             <div className="flex flex-col sm:flex-row justify-center gap-2 sm:gap-3 md:gap-4 max-w-md mx-auto px-2 sm:px-0">
-              <Button className="bg-secondary hover:bg-secondary/90 text-secondary-foreground px-8 py-3 text-lg font-semibold w-full sm:w-auto">
+              <Button 
+                onClick={handleDownloadCatalog}
+                className="bg-secondary hover:bg-secondary/90 text-secondary-foreground px-8 py-3 text-lg font-semibold w-full sm:w-auto"
+              >
                 <Download className="mr-2 w-5 h-5" />
                 {t('common:buttons.downloadCatalog')}
               </Button>

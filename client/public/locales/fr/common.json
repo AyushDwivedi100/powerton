@@ -63,7 +63,7 @@
     "downloadPortfolio": "Télécharger le Portfolio",
     "showFilters": "Show Filters",
     "readMore": "Read More",
-    "downloadCatalog": "Download Catalog",
+    "downloadCatalog": "Télécharger le Catalogue",
     "viewDetails": "Voir Détails"
   },
   "productSections": {
@@ -85,7 +85,9 @@
   "messages": {
     "toggleTheme": "Changer de Thème",
     "close": "Fermer",
-    "engineeringAdvisor": "Conseiller en ingénierie"
+    "engineeringAdvisor": "Conseiller en ingénierie",
+    "comingSoon": "Bientôt Disponible",
+    "catalogComingSoon": "Le téléchargement du catalogue produit sera bientôt disponible!"
   },
   "aria": {
     "toggleNavigation": "Basculer l'assistant de navigation",

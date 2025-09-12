@@ -41,7 +41,7 @@
     "getStarted": "Get Started",
     "downloadBrochure": "Download Brochure",
     "readMore": "Read More",
-    "downloadCatalog": "Download Catalog",
+    "downloadCatalog": "कैटलॉग डाउनलोड करें",
     "viewDetails": "विवरण देखें",
     "backTo": "Back to {{category}}",
     "backToBldcProducts": "Back to BLDC Products",
@@ -69,7 +69,9 @@
   "messages": {
     "toggleTheme": "थीम टॉगल करें",
     "close": "बंद करें",
-    "engineeringAdvisor": "इंजीनियरिंग सलाहकार"
+    "engineeringAdvisor": "इंजीनियरिंग सलाहकार",
+    "comingSoon": "जल्द आ रहा है",
+    "catalogComingSoon": "उत्पाद कैटलॉग डाउनलोड जल्द ही उपलब्ध होगा!"
   },
   "altTexts": {
     "contactBackground": "ID-834: Contact center and customer support office background for engineering company",

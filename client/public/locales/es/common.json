@@ -87,7 +87,7 @@
     "downloadPortfolio": "Descargar Portafolio",
     "showFilters": "Show Filters",
     "readMore": "Read More",
-    "downloadCatalog": "Download Catalog",
+    "downloadCatalog": "Descargar Catálogo",
     "viewDetails": "Ver Detalles",
     "backTo": "Back to {{category}}",
     "backToBldcProducts": "Back to BLDC Products",
@@ -121,7 +121,9 @@
   "messages": {
     "toggleTheme": "Cambiar Tema",
     "close": "Cerrar",
-    "engineeringAdvisor": "Asesor de Ingeniería"
+    "engineeringAdvisor": "Asesor de Ingeniería",
+    "comingSoon": "Próximamente",
+    "catalogComingSoon": "¡La descarga del catálogo de productos estará disponible pronto!"
   },
   "aria": {
     "previousTestimonial": "Testimonio anterior",

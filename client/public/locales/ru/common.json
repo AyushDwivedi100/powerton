@@ -38,7 +38,7 @@
     "downloadPortfolio": "Скачать Портфолио",
     "showFilters": "Show Filters",
     "readMore": "Read More",
-    "downloadCatalog": "Download Catalog",
+    "downloadCatalog": "Скачать Каталог",
     "viewDetails": "Посмотреть детали",
     "backTo": "Back to {{category}}",
     "backToBldcProducts": "Back to BLDC Products",
@@ -85,7 +85,9 @@
   "messages": {
     "toggleTheme": "Переключить Тему",
     "close": "Закрыть",
-    "engineeringAdvisor": "Консультант по инжинирингу"
+    "engineeringAdvisor": "Консультант по инжинирингу",
+    "comingSoon": "Скоро",
+    "catalogComingSoon": "Загрузка каталога продуктов будет доступна в ближайшее время!"
   },
   "aria": {
     "toggleNavigation": "Переключить помощник навигации",

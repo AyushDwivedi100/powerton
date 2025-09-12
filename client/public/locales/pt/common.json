@@ -38,7 +38,7 @@
     "downloadPortfolio": "Baixar Portfólio",
     "showFilters": "Show Filters",
     "readMore": "Read More",
-    "downloadCatalog": "Download Catalog",
+    "downloadCatalog": "Baixar Catálogo",
     "viewDetails": "Ver Detalhes",
     "backTo": "Back to {{category}}",
     "backToBldcProducts": "Back to BLDC Products",
@@ -85,7 +85,9 @@
   "messages": {
     "toggleTheme": "Alterar Tema",
     "close": "Fechar",
-    "engineeringAdvisor": "Consultor de Engenharia"
+    "engineeringAdvisor": "Consultor de Engenharia",
+    "comingSoon": "Em Breve",
+    "catalogComingSoon": "O download do catálogo de produtos estará disponível em breve!"
   },
   "aria": {
     "toggleNavigation": "Alternar assistente de navegação",

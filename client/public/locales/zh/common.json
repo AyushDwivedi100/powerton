@@ -98,7 +98,7 @@
     "downloadPortfolio": "下载作品集",
     "showFilters": "Show Filters",
     "readMore": "Read More",
-    "downloadCatalog": "Download Catalog",
+    "downloadCatalog": "下载产品目录",
     "viewDetails": "查看详情",
     "contactExpert": "联系专家",
     "backTo": "Back to {{category}}",
@@ -136,7 +136,9 @@
     "imageNotFound": "未找到图像",
     "loading": "加载中...",
     "error": "发生错误",
-    "engineeringAdvisor": "工程顾问"
+    "engineeringAdvisor": "工程顾问",
+    "comingSoon": "即将推出",
+    "catalogComingSoon": "产品目录下载即将推出！"
   },
   "aria": {
     "controllerSystems": "Controllers & Recorders",

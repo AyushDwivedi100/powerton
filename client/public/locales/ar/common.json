@@ -38,7 +38,7 @@
     "downloadPortfolio": "تحميل المحفظة",
     "showFilters": "Show Filters",
     "readMore": "Read More",
-    "downloadCatalog": "Download Catalog",
+    "downloadCatalog": "تحميل الكتالوج",
     "viewDetails": "عرض التفاصيل",
     "backTo": "Back to {{category}}",
     "backToBldcProducts": "Back to BLDC Products",
@@ -90,7 +90,9 @@
   "messages": {
     "toggleTheme": "تبديل الموضوع",
     "close": "إغلاق",
-    "engineeringAdvisor": "مستشار الهندسة"
+    "engineeringAdvisor": "مستشار الهندسة",
+    "comingSoon": "قريباً",
+    "catalogComingSoon": "تحميل كتالوج المنتجات سيكون متاحاً قريباً!"
   },
   "aria": {
     "goToHomepage": "Go to Powerton Engineering homepage",

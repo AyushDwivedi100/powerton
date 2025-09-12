@@ -87,7 +87,7 @@
     "downloadPortfolio": "Sauke Portfolio",
     "showFilters": "Show Filters",
     "readMore": "Read More",
-    "downloadCatalog": "Download Catalog",
+    "downloadCatalog": "Sauke Katalogi",
     "viewDetails": "Duba Cikakkun Bayanai",
     "backTo": "Back to {{category}}",
     "backToBldcProducts": "Back to BLDC Products",
@@ -121,7 +121,9 @@
   "messages": {
     "toggleTheme": "Canza Jigo",
     "close": "Rufe",
-    "engineeringAdvisor": "Mai Ba da Shawara na Injiniya"
+    "engineeringAdvisor": "Mai Ba da Shawara na Injiniya",
+    "comingSoon": "Nan Gaba Kadan",
+    "catalogComingSoon": "Sauke katalogi na samfur zai kasance da sauri!"
   },
   "aria": {
     "toggleNavigation": "Juyawa mataimakin kewayawa",
