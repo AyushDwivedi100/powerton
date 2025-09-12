@@ -494,10 +494,10 @@
       }
     },
     "industrial-automation-demo": {
-      "title": "Demo: Industrial Automation System",
-      "client": "Future Manufacturing Client",
-      "category": "Process Automation",
-      "description": "Demonstration of complete manufacturing automation capabilities including PLC integration, SCADA systems, and real-time monitoring solutions.",
+      "title": "演示：工业自动化系统",
+      "client": "未来制造客户",
+      "category": "过程自动化",
+      "description": "展示完整的制造自动化能力，包括PLC集成、SCADA系统和实时监控解决方案。",
       "location": "Project Site TBD",
       "duration": "12-18 months",
       "budget": "₹50-75 Lakhs",
@@ -516,10 +516,10 @@
       }
     },
     "power-distribution-demo": {
-      "title": "Example: Power Distribution Control",
-      "client": "Future Power Partner",
-      "category": "Power Systems",
-      "description": "Example power distribution system showcasing automated load balancing and remote monitoring capabilities for power generation facilities.",
+      "title": "示例：电力分配控制",
+      "client": "未来电力合作伙伴",
+      "category": "电力系统",
+      "description": "展示自动化负载平衡和电力生产设施远程监控能力的示例电力分配系统。",
       "location": "Various Locations",
       "duration": "10-15 months",
       "budget": "₹1-2 Crores",
@@ -536,6 +536,38 @@
         "energyManagement": "Energy Management",
         "remoteControl": "Remote Control"
       }
+    },
+    "solar-plant-demo": {
+      "title": "示例：太阳能电站控制系统",
+      "client": "未来可再生能源客户",
+      "category": "太阳能解决方案",
+      "description": "演示太阳能跟踪自动化系统的天气监控和电网同步能力，适用于可再生能源项目。",
+      "location": "Multiple Sites",
+      "duration": "6-10 months",
+      "budget": "₹25-50 Lakhs",
+      "status": "Capability Demo",
+      "technologies": {
+        "solarInverters": "Solar Inverters",
+        "gridSync": "Grid Sync", 
+        "weatherMonitoring": "Weather Monitoring",
+        "dataAnalytics": "Data Analytics"
+      },
+      "highlights": {
+        "gridSynchronization": "Grid Synchronization",
+        "weatherMonitoring": "Weather Monitoring",
+        "performanceAnalytics": "Performance Analytics",
+        "remoteManagement": "Remote Management"
+      }
+    },
+    "process-control-demo": {
+      "title": "演示：过程控制解决方案",
+      "client": "未来工业合作伙伴",
+      "category": "过程自动化",
+      "description": "展示完整的过程自动化能力，包括安全系统、环境监控和工业应用的批处理控制。",
+      "location": "Project Site TBD",
+      "duration": "8-12 months",
+      "budget": "₹60-90 Lakhs",
+      "status": "Capability Demo"
     }
   },
   "steps": {
