@@ -164,6 +164,13 @@
     }
   },
   "projects": {
+    "hero": {
+      "title": "Engineering Excellence Portfolio",
+      "subtitle": "Discover our engineering excellence through 1200+ successful projects across diverse industries, showcasing innovation, quality, and reliability."
+    },
+    "portfolioDescription": "Explore our engineering capabilities through demonstration projects showcasing innovative solutions across various industries. Real project portfolio coming soon.",
+    "showing": "Showing {{count}} projects",
+    "featured": "Featured",
     "tabs": {
       "portfolio": "Project Portfolio",
       "showcase": "Featured Projects"
@@ -171,7 +178,8 @@
     "categories": {
       "powerautomation": "Power Automation",
       "processautomation": "Process Automation",
-      "solarsolutions": "Solar Solutions"
+      "solarsolutions": "Solar Solutions",
+      "powersystems": "Power Systems"
     },
     "technologies": {
       "plcs": "PLCs",
@@ -187,12 +195,29 @@
       "environmentalmonitoring": "Environmental Monitoring",
       "industrialiot": "Industrial IoT",
       "predictiveanalytics": "Predictive Analytics",
-      "edgecomputing": "Edge Computing"
+      "edgecomputing": "Edge Computing",
+      "plcprogramming": "PLC Programming",
+      "hmi": "HMI"
     },
     "statuses": {
-      "inprogress": "In Progress"
+      "inprogress": "In Progress",
+      "capabilitydemo": "Capability Demo"
     },
     "items": {
+      "industrial-automation-demo": {
+        "title": "Demo: Industrial Automation System",
+        "client": "Future Manufacturing Client",
+        "description": "Demonstration of complete manufacturing automation capabilities including PLC integration, SCADA systems, and real-time monitoring solutions.",
+        "location": "Project Site TBD",
+        "duration": "12-18 months"
+      },
+      "power-distribution-demo": {
+        "title": "Example: Power Distribution Control",
+        "client": "Future Power Partner",
+        "description": "Example power distribution system showcasing automated load balancing and remote monitoring capabilities for power generation facilities.",
+        "location": "Various Locations",
+        "duration": "10-15 months"
+      },
       "solar-plant-demo": {
         "title": "Sample: Solar Plant Control System",
         "client": "Future Renewable Client",
@@ -214,7 +239,8 @@
         "location": "Development Site",
         "duration": "14 months"
       }
-    }
+    },
+    "moreItems": "+{{count}} more"
   },
   "home": {
     "hero": {

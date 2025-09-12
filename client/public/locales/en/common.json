@@ -228,7 +228,11 @@
     }
   },
   "placeholders": {
-    "askChatbot": "Ask me anything about our products and services..."
+    "askChatbot": "Ask me anything about our products and services...",
+    "searchProjects": "Search projects...",
+    "selectIndustryFilter": "Select industry filter",
+    "selectCategory": "Select category",
+    "selectStatus": "Select status"
   },
   "chatbotMessages": {
     "quoteHelp": "I'd be happy to help you get a customized quote! Our pricing is competitive and transparent. For accurate pricing, we'll need to understand your specific requirements. Let's connect you with our sales team for a detailed discussion.",
