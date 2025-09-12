@@ -344,6 +344,30 @@
     "servicesPageResponse": "Chaguo bora! Ukurasa wetu wa huduma unaonyesha matoleo ya usaidizi kamili kuanzia usakinishaji hadi matengenezo. Sisi ni mshirika wako kamili wa uhandisi kwa mzunguko wote wa maisha ya mradi. Ni aina gani ya msaada wa huduma unautafuta?",
     "contactPageResponse": "Bora! Ukurasa wa mawasiliano una maelezo yetu yote ikiwa ni pamoja na mahali pa ofisi, nambari za simu na fomu ya mawasiliano. Tuko Noida na tunapatikana Jumatatu hadi Jumamosi. Usisite kutuwasiliana wakati wowote! Ungependa kujadili kitu maalum na timu yetu?"
   },
+  "company": {
+    "name": "Powerton Engineering Pvt. Ltd.",
+    "tagline": "Mshirika wako wa kuaminika katika utomaji wa viwanda na uhandisi wa umeme",
+    "phone": "+91-94627-71662 / +91-82997-27291",
+    "email": "info@powertonengineering.com",
+    "address": {
+      "street": "F-25, F Block, Sector 6",
+      "city": "Noida",
+      "state": "Uttar Pradesh",
+      "pincode": "201301",
+      "landmark": "nearest metro-Sector 15",
+      "full": "2nd Floor, F-25, F Block, Sector 6, Noida, Uttar Pradesh 201301, India"
+    },
+    "businessHours": {
+      "weekdays": "Jumatatu - Jumamosi: 9:00 AM - 6:00 PM",
+      "sunday": "Jumapili: Msaada wa dharura tu"
+    },
+    "stats": {
+      "projectsCompleted": "Wahandisi Wataalam",
+      "clientsServed": "Wafanyakazi wa Kiufundi",
+      "yearsExperience": "Miaka ya Uzoefu wa Wastani",
+      "successRate": "Kiwango cha Mafanikio"
+    }
+  },
   "seo": {
     "powerton": {
       "name": "Powerton Engineering Pvt. Ltd.",

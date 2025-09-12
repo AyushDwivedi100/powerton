@@ -301,6 +301,30 @@
     "servicesPageResponse": "اختيار ممتاز! صفحة خدماتنا تعرض عروض الدعم الشامل من التركيب إلى الصيانة. نحن شريكك الهندسي الكامل لدورة حياة المشروع بأكملها. أي نوع من دعم الخدمة تبحث عنه؟",
     "contactPageResponse": "رائع! صفحة الاتصال تحتوي على جميع تفاصيلنا بما في ذلك موقع المكتب وأرقام الهواتف ونموذج الاتصال. نحن موجودون في نويدا ومتاحون من الإثنين إلى السبت. لا تتردد في التواصل في أي وقت! هل هناك شيء محدد تريد مناقشته مع فريقنا؟"
   },
+  "company": {
+    "name": "Powerton Engineering Pvt. Ltd.",
+    "tagline": "شريكك الموثوق في الأتمتة الصناعية والهندسة الكهربائية",
+    "phone": "+91-94627-71662 / +91-82997-27291",
+    "email": "info@powertonengineering.com",
+    "address": {
+      "street": "F-25, F Block, Sector 6",
+      "city": "نويدا",
+      "state": "أوتار براديش",
+      "pincode": "201301",
+      "landmark": "nearest metro-Sector 15",
+      "full": "2nd Floor, F-25, F Block, Sector 6, نويدا, أوتار براديش 201301, الهند"
+    },
+    "businessHours": {
+      "weekdays": "الإثنين - السبت: 9:00 صباحاً - 6:00 مساءً",
+      "sunday": "الأحد: الدعم الطارئ فقط"
+    },
+    "stats": {
+      "projectsCompleted": "مهندسون خبراء",
+      "clientsServed": "طاقم فني",
+      "yearsExperience": "سنوات الخبرة المتوسطة",
+      "successRate": "معدل النجاح"
+    }
+  },
   "seo": {
     "powerton": {
       "name": "Powerton Engineering Pvt. Ltd.",

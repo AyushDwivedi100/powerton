@@ -284,6 +284,30 @@
     "solarChargeDescription": "Nuestros especialistas solares pueden ayudarle a seleccionar el controlador de carga adecuado para su sistema de batería.",
     "energyStorageDescription": "Nuestros expertos en almacenamiento de energía pueden diseñar el sistema de batería óptimo para su instalación solar."
   },
+  "company": {
+    "name": "Powerton Engineering Pvt. Ltd.",
+    "tagline": "Su socio de confianza en automatización industrial e ingeniería eléctrica",
+    "phone": "+91-94627-71662 / +91-82997-27291",
+    "email": "info@powertonengineering.com",
+    "address": {
+      "street": "F-25, F Block, Sector 6",
+      "city": "Noida",
+      "state": "Uttar Pradesh",
+      "pincode": "201301",
+      "landmark": "nearest metro-Sector 15",
+      "full": "2nd Floor, F-25, F Block, Sector 6, Noida, Uttar Pradesh 201301, India"
+    },
+    "businessHours": {
+      "weekdays": "Lunes - Sábado: 9:00 AM - 6:00 PM",
+      "sunday": "Domingo: Solo soporte de emergencia"
+    },
+    "stats": {
+      "projectsCompleted": "Ingenieros Expertos",
+      "clientsServed": "Personal Técnico",
+      "yearsExperience": "Años de Experiencia Promedio",
+      "successRate": "Tasa de Éxito"
+    }
+  },
   "seo": {
     "powerton": {
       "name": "Powerton Engineering Pvt. Ltd.",

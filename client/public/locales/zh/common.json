@@ -361,6 +361,30 @@
     "solarChargeDescription": "我们的太阳能专家可以帮助您为电池系统选择合适的充电控制器。",
     "energyStorageDescription": "我们的储能专家可以为您的太阳能安装设计最佳电池系统。"
   },
+  "company": {
+    "name": "宝尔顿工程私人有限公司",
+    "tagline": "您在工业自动化和电气工程方面值得信赖的合作伙伴",
+    "phone": "+91-94627-71662 / +91-82997-27291",
+    "email": "info@powertonengineering.com",
+    "address": {
+      "street": "F-25, F Block, Sector 6",
+      "city": "诺伊达",
+      "state": "北方邦",
+      "pincode": "201301",
+      "landmark": "nearest metro-Sector 15",
+      "full": "2nd Floor, F-25, F Block, Sector 6, 诺伊达, 北方邦 201301, 印度"
+    },
+    "businessHours": {
+      "weekdays": "周一 - 周六：上午9:00 - 下午6:00",
+      "sunday": "周日：仅紧急支持"
+    },
+    "stats": {
+      "projectsCompleted": "专家工程师",
+      "clientsServed": "技术人员",
+      "yearsExperience": "平均经验年数",
+      "successRate": "成功率"
+    }
+  },
   "seo": {
     "companyName": "Powerton Engineering Pvt. Ltd.",
     "companyDescription": "Leading industrial automation and electrical engineering company serving clients worldwide. Specializing in power plant automation, solar installations, and manufacturing control systems.",

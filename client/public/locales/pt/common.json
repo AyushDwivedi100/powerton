@@ -295,6 +295,30 @@
     "servicesPageResponse": "Excelente escolha! Nossa página de serviços apresenta ofertas de suporte abrangente desde instalação até manutenção. Somos seu parceiro completo de engenharia para todo o ciclo de vida do projeto. Que tipo de assistência de serviço você está procurando?",
     "contactPageResponse": "Excelente! A página de contato tem todos os nossos detalhes, incluindo localização do escritório, números de telefone e formulário de contato. Estamos localizados em Noida e disponíveis de segunda a sábado. Sinta-se à vontade para entrar em contato conosco a qualquer momento! Gostaria de discutir algo específico com nossa equipe?"
   },
+  "company": {
+    "name": "Powerton Engineering Pvt. Ltd.",
+    "tagline": "Seu parceiro confiável em automação industrial e engenharia elétrica",
+    "phone": "+91-94627-71662 / +91-82997-27291",
+    "email": "info@powertonengineering.com",
+    "address": {
+      "street": "F-25, F Block, Sector 6",
+      "city": "Noida",
+      "state": "Uttar Pradesh",
+      "pincode": "201301",
+      "landmark": "nearest metro-Sector 15",
+      "full": "2nd Floor, F-25, F Block, Sector 6, Noida, Uttar Pradesh 201301, Índia"
+    },
+    "businessHours": {
+      "weekdays": "Segunda - Sábado: 9:00 - 18:00",
+      "sunday": "Domingo: Apenas suporte de emergência"
+    },
+    "stats": {
+      "projectsCompleted": "Engenheiros Especialistas",
+      "clientsServed": "Equipe Técnica",
+      "yearsExperience": "Anos de Experiência Média",
+      "successRate": "Taxa de Sucesso"
+    }
+  },
   "seo": {
     "powerton": {
       "name": "Powerton Engineering Pvt. Ltd.",
