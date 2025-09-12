@@ -1,4 +1,16 @@
 {
+  "news": {
+    "hero": {
+      "title": "Noticias",
+      "titleHighlight": "Actualizaciones",
+      "subtitle": "Manténgase informado sobre nuestros últimos logros, proyectos próximos, reconocimiento de la industria y nuestra visión estratégica para el futuro de la automatización industrial.",
+      "badges": {
+        "awardWinning": "Galardonada",
+        "growingStrong": "Crecimiento Sólido",
+        "futureReady": "Lista para el Futuro"
+      }
+    }
+  },
   "home": {
     "seo": {
       "title": "Powerton Engineering - Automatización Industrial y Paneles de Control | India",

@@ -1,4 +1,16 @@
 {
+  "news": {
+    "hero": {
+      "title": "Actualités",
+      "titleHighlight": "Mises à jour",
+      "subtitle": "Restez informé de nos dernières réalisations, projets à venir, reconnaissance de l'industrie et notre vision stratégique pour l'avenir de l'automatisation industrielle.",
+      "badges": {
+        "awardWinning": "Lauréat de prix",
+        "growingStrong": "Croissance solide",
+        "futureReady": "Prêt pour l'avenir"
+      }
+    }
+  },
   "home": {
     "hero": {
       "title": {

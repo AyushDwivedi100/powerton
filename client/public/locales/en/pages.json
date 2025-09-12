@@ -8,8 +8,14 @@
       "futureReady": "Future Ready"
     },
     "hero": {
-      "title": "News & Updates",
-      "subtitle": "Latest Industry Insights"
+      "title": "News",
+      "titleHighlight": "Updates",
+      "subtitle": "Stay informed about our latest achievements, upcoming projects, industry recognition, and strategic vision for the future of industrial automation.",
+      "badges": {
+        "awardWinning": "Award Winning",
+        "growingStrong": "Growing Strong",
+        "futureReady": "Future Ready"
+      }
     },
     "latestNews": {
       "excellenceAward": {

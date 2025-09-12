@@ -1,4 +1,16 @@
 {
+  "news": {
+    "hero": {
+      "title": "新闻",
+      "titleHighlight": "更新",
+      "subtitle": "了解我们的最新成就、即将到来的项目、行业认可，以及我们对工业自动化未来的战略愿景。",
+      "badges": {
+        "awardWinning": "获奖企业",
+        "growingStrong": "强劲增长",
+        "futureReady": "面向未来"
+      }
+    }
+  },
   "home": {
     "seo": {
       "title": "宝尔顿工程 - 工业自动化与控制面板 | 中国",
