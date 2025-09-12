@@ -36,20 +36,15 @@ const iconMap = {
 
 export default function InstallationCommissioning() {
   useScrollAnimations();
-  const { t } = useTranslation(['pages', 'common']);
+  const { t } = useTranslation(['pages', 'common', 'services']);
   
   const service = SERVICES.find(s => s.id === "installation-commissioning")!;
+  const serviceId = "installation-commissioning";
   const details = {
-    overview: "Professional installation and commissioning services for electrical panels, control systems, and industrial equipment with complete system validation and performance optimization.",
-    benefits: [
-      "Certified installation by experienced technicians",
-      "Complete system validation and testing",
-      "Compliance with industry standards and regulations",
-      "Minimal disruption to ongoing operations",
-      "Comprehensive documentation and training provided"
-    ],
-    technologies: ["Electrical Panels", "Control Systems", "SCADA Integration", "Safety Systems", "Performance Testing"],
-    industries: ["Manufacturing", "Power Generation", "Process Industries", "Commercial Buildings", "Infrastructure"]
+    overview: t(`services:serviceDetails.${serviceId}.overview`),
+    benefits: t(`services:serviceDetails.${serviceId}.benefits`, { returnObjects: true }) as string[],
+    technologies: t(`services:serviceDetails.${serviceId}.technologies`, { returnObjects: true }) as string[],
+    industries: t(`services:serviceDetails.${serviceId}.industries`, { returnObjects: true }) as string[]
   };
 
   const IconComponent = iconMap[service.icon as keyof typeof iconMap] || Settings;
@@ -106,7 +101,7 @@ export default function InstallationCommissioning() {
                     <CardHeader>
                       <CardTitle className="flex items-center gap-3">
                         <IconComponent className="w-6 h-6 text-primary" />
-                        Service Overview
+                        {t('services:serviceDetails.sectionTitles.overview')}
                       </CardTitle>
                     </CardHeader>
                     <CardContent>
@@ -122,7 +117,7 @@ export default function InstallationCommissioning() {
                     <CardHeader>
                       <CardTitle className="flex items-center gap-3">
                         <CheckCircle className="w-6 h-6 text-primary" />
-                        Key Benefits
+                        {t('services:serviceDetails.sectionTitles.keyBenefits')}
                       </CardTitle>
                     </CardHeader>
                     <CardContent>
@@ -143,7 +138,7 @@ export default function InstallationCommissioning() {
                     <CardHeader>
                       <CardTitle className="flex items-center gap-3">
                         <Settings className="w-6 h-6 text-primary" />
-                        Technologies & Methods
+                        {t('services:serviceDetails.sectionTitles.technologies')}
                       </CardTitle>
                     </CardHeader>
                     <CardContent>
@@ -191,7 +186,7 @@ export default function InstallationCommissioning() {
                     <CardHeader>
                       <CardTitle className="flex items-center gap-3">
                         <Award className="w-6 h-6 text-primary" />
-                        Industry Applications
+                        {t('services:serviceDetails.sectionTitles.industriesServed')}
                       </CardTitle>
                     </CardHeader>
                     <CardContent>

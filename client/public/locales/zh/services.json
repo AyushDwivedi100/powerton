@@ -89,53 +89,107 @@
     "solar-epc": "为1kW到1MW+项目提供完整的太阳能工程、采购和建设服务。MNRE批准的设计，25年性能保证。"
   },
   "serviceDetails": {
-    "technicalSupport": {
-      "overview": "24/7 technical support services for troubleshooting, remote assistance, and on-site support for all electrical and automation systems with rapid response times.",
-      "benefits": [
-        "24/7 technical support availability",
-        "Remote diagnostic and troubleshooting services",
-        "On-site emergency support when needed",
-        "Rapid response times for critical issues",
-        "Comprehensive problem resolution and follow-up"
-      ],
-      "technologies": [
-        "Remote Diagnostics",
-        "Troubleshooting",
-        "On-site Support",
-        "System Monitoring",
-        "Emergency Response"
-      ],
-      "industries": [
-        "All Industries",
-        "Critical Infrastructure",
-        "Process Industries",
-        "Manufacturing",
-        "Commercial Facilities"
-      ]
+    "sectionTitles": {
+      "overview": "概述",
+      "keyBenefits": "主要优势", 
+      "technologies": "技术",
+      "industriesServed": "服务行业"
     },
-    "installationCommissioning": {
-      "overview": "Complete installation and commissioning services for industrial automation systems, electrical panels, and instrumentation with professional certification and testing.",
+    "installation-commissioning": {
+      "overview": "为电气面板、控制系统和工业设备提供专业的安装和调试服务，包括完整的系统验证和性能优化。",
       "benefits": [
-        "Professional installation by certified engineers",
-        "Comprehensive system testing and commissioning",
-        "Complete documentation and certification",
-        "Training and handover support",
-        "Post-installation support and warranty"
+        "经验丰富的技术人员认证安装",
+        "完整的系统验证和测试",
+        "符合行业标准和法规",
+        "对正在进行的操作的最小干扰",
+        "提供综合文档和培训"
       ],
-      "technologies": [
-        "System Installation",
-        "Commissioning",
-        "Testing",
-        "Certification",
-        "Documentation"
+      "technologies": ["电气面板", "控制系统", "SCADA集成", "安全系统", "性能测试"],
+      "industries": ["制造业", "发电", "过程工业", "商业建筑", "基础设施"]
+    },
+    "maintenance-repair": {
+      "overview": "为电气系统、控制面板和工业自动化设备提供全面的维护和维修服务，以确保最佳性能并延长设备使用寿命。",
+      "benefits": [
+        "预防性维护计划以避免故障",
+        "24/7紧急维修服务可用",
+        "原装配件更换和系统升级",
+        "减少停机时间和运营成本",
+        "延长设备寿命并提高可靠性"
       ],
-      "industries": [
-        "Manufacturing",
-        "Power Generation",
-        "Oil & Gas",
-        "Chemical",
-        "Water Treatment"
-      ]
+      "technologies": ["预防性维护", "紧急维修", "组件更换", "系统诊断", "性能监控"],
+      "industries": ["制造业", "过程工业", "发电厂", "商业设施", "工业自动化"]
+    },
+    "calibration-testing": {
+      "overview": "为仪器、仪表和控制系统提供精确的校准和测试服务，以保持准确性、合规性和最佳性能标准。",
+      "benefits": [
+        "具有认证标准的高精度校准",
+        "符合行业法规和标准",
+        "提高测量准确性和可靠性",
+        "提供综合校准证书",
+        "定期校准计划和提醒"
+      ],
+      "technologies": ["仪器校准", "压力测试", "温度校准", "流量计测试", "电气测试"],
+      "industries": ["制药", "化学处理", "食品饮料", "石油天然气", "环境监测"]
+    },
+    "technical-support": {
+      "overview": "24/7技术支持服务，提供故障排除、远程协助和所有电气和自动化系统的现场支持，响应时间快。",
+      "benefits": [
+        "24/7技术支持可用性",
+        "远程诊断和故障排除服务",
+        "需要时提供现场紧急支持",
+        "关键问题的快速响应时间",
+        "全面的问题解决和跟进"
+      ],
+      "technologies": ["远程诊断", "故障排除", "现场支持", "系统监控", "紧急响应"],
+      "industries": ["所有行业", "关键基础设施", "过程工业", "制造业", "商业设施"]
+    },
+    "custom-solutions": {
+      "overview": "专为独特工业需求设计的定制工程解决方案，包括定制控制面板、自动化系统和专用设备。",
+      "benefits": [
+        "针对特定需求的定制设计解决方案",
+        "应对复杂工程挑战的创新方法",
+        "与现有系统和流程集成",
+        "随业务增长的可扩展解决方案",
+        "长期技术支持和维护"
+      ],
+      "technologies": ["定制控制面板", "自动化系统", "专用设备", "软件开发", "系统集成"],
+      "industries": ["专业制造", "研究设施", "独特应用", "新兴技术", "定制项目"]
+    },
+    "consultation-training": {
+      "overview": "针对电气系统、自动化和工业工程解决方案的专家技术咨询和综合培训计划，根据您的具体需求定制。",
+      "benefits": [
+        "来自经验丰富工程师的专家技术咨询",
+        "为您的团队定制培训计划",
+        "最佳实践和行业标准指导",
+        "系统设计和优化建议",
+        "持续的技术支持和指导"
+      ],
+      "technologies": ["技术咨询", "培训计划", "系统设计", "过程优化", "最佳实践"],
+      "industries": ["所有行业", "教育机构", "政府机构", "工程公司", "技术公司"]
+    },
+    "supply-chain-management": {
+      "overview": "为电气组件、备件和工业设备提供全面的供应链管理服务，具有可靠的采购和质量保证。",
+      "benefits": [
+        "来自授权制造商的可靠采购",
+        "质量保证和原装配件保证",
+        "库存管理和库存优化",
+        "及时交付和物流协调",
+        "经济高效的采购解决方案"
+      ],
+      "technologies": ["组件采购", "库存管理", "质量控制", "物流协调", "供应商管理"],
+      "industries": ["制造业", "过程工业", "基础设施", "商业建筑", "工业设施"]
+    },
+    "solar-epc": {
+      "overview": "太阳能发电项目的完整工程、采购和建设服务，包括设计、安装、调试和电网连接以及性能优化。",
+      "benefits": [
+        "完整的交钥匙太阳能项目解决方案",
+        "专业的设计和工程服务",
+        "质量安装和调试",
+        "电网连接和监管合规",
+        "性能监控和优化"
+      ],
+      "technologies": ["太阳能系统设计", "项目管理", "安装服务", "电网集成", "性能监控"],
+      "industries": ["可再生能源", "商业建筑", "工业设施", "住宅项目", "公用事业规模项目"]
     }
   }
 }

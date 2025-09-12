@@ -35,20 +35,15 @@ const iconMap = {
 
 export default function CustomSolutions() {
   useScrollAnimations();
-  const { t } = useTranslation(['pages', 'common']);
+  const { t } = useTranslation(['pages', 'common', 'services']);
   
   const service = SERVICES.find(s => s.id === "custom-solutions")!;
+  const serviceId = "custom-solutions";
   const details = {
-    overview: "Tailored engineering solutions designed specifically for unique industrial requirements, including custom control panels, automation systems, and specialized equipment.",
-    benefits: [
-      "Custom-designed solutions for specific requirements",
-      "Innovative approach to complex engineering challenges",
-      "Integration with existing systems and processes",
-      "Scalable solutions that grow with your business",
-      "Long-term technical support and maintenance"
-    ],
-    technologies: ["Custom Control Panels", "Automation Systems", "Specialized Equipment", "Software Development", "System Integration"],
-    industries: ["Specialized Manufacturing", "Research Facilities", "Unique Applications", "Emerging Technologies", "Custom Projects"]
+    overview: t(`services:serviceDetails.${serviceId}.overview`),
+    benefits: t(`services:serviceDetails.${serviceId}.benefits`, { returnObjects: true }) as string[],
+    technologies: t(`services:serviceDetails.${serviceId}.technologies`, { returnObjects: true }) as string[],
+    industries: t(`services:serviceDetails.${serviceId}.industries`, { returnObjects: true }) as string[]
   };
 
   const IconComponent = iconMap[service.icon as keyof typeof iconMap] || Settings;

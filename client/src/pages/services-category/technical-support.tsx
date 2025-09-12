@@ -36,20 +36,15 @@ const iconMap = {
 
 export default function TechnicalSupport() {
   useScrollAnimations();
-  const { t } = useTranslation(['pages', 'common']);
+  const { t } = useTranslation(['pages', 'common', 'services']);
   
   const service = SERVICES.find(s => s.id === "technical-support")!;
+  const serviceId = "technical-support";
   const details = {
-    overview: "24/7 technical support services for troubleshooting, remote assistance, and on-site support for all electrical and automation systems with rapid response times.",
-    benefits: [
-      "24/7 technical support availability",
-      "Remote diagnostic and troubleshooting services",
-      "On-site emergency support when needed",
-      "Rapid response times for critical issues",
-      "Comprehensive problem resolution and follow-up"
-    ],
-    technologies: ["Remote Diagnostics", "Troubleshooting", "On-site Support", "System Monitoring", "Emergency Response"],
-    industries: ["All Industries", "Critical Infrastructure", "Process Industries", "Manufacturing", "Commercial Facilities"]
+    overview: t(`services:serviceDetails.${serviceId}.overview`),
+    benefits: t(`services:serviceDetails.${serviceId}.benefits`, { returnObjects: true }) as string[],
+    technologies: t(`services:serviceDetails.${serviceId}.technologies`, { returnObjects: true }) as string[],
+    industries: t(`services:serviceDetails.${serviceId}.industries`, { returnObjects: true }) as string[]
   };
 
   const IconComponent = iconMap[service.icon as keyof typeof iconMap] || Settings;

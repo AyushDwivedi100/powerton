@@ -35,20 +35,15 @@ const iconMap = {
 
 export default function CalibrationTesting() {
   useScrollAnimations();
-  const { t } = useTranslation(['pages', 'common']);
+  const { t } = useTranslation(['pages', 'common', 'services']);
   
   const service = SERVICES.find(s => s.id === "calibration-testing")!;
+  const serviceId = "calibration-testing";
   const details = {
-    overview: "Precision calibration and testing services for instruments, meters, and control systems to maintain accuracy, compliance, and optimal performance standards.",
-    benefits: [
-      "High-precision calibration with certified standards",
-      "Compliance with industry regulations and standards",
-      "Improved measurement accuracy and reliability",
-      "Comprehensive calibration certificates provided",
-      "Regular calibration scheduling and reminders"
-    ],
-    technologies: ["Instrument Calibration", "Pressure Testing", "Temperature Calibration", "Flow Meter Testing", "Electrical Testing"],
-    industries: ["Pharmaceuticals", "Chemical Processing", "Food & Beverage", "Oil & Gas", "Environmental Monitoring"]
+    overview: t(`services:serviceDetails.${serviceId}.overview`),
+    benefits: t(`services:serviceDetails.${serviceId}.benefits`, { returnObjects: true }) as string[],
+    technologies: t(`services:serviceDetails.${serviceId}.technologies`, { returnObjects: true }) as string[],
+    industries: t(`services:serviceDetails.${serviceId}.industries`, { returnObjects: true }) as string[]
   };
 
   const IconComponent = iconMap[service.icon as keyof typeof iconMap] || Settings;

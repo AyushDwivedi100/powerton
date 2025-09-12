@@ -35,20 +35,15 @@ const iconMap = {
 
 export default function MaintenanceRepair() {
   useScrollAnimations();
-  const { t } = useTranslation(['pages', 'common']);
+  const { t } = useTranslation(['pages', 'common', 'services']);
   
   const service = SERVICES.find(s => s.id === "maintenance-repair")!;
+  const serviceId = "maintenance-repair";
   const details = {
-    overview: "Comprehensive maintenance and repair services for electrical systems, control panels, and industrial equipment to ensure optimal performance and extend equipment lifespan.",
-    benefits: [
-      "Preventive maintenance scheduling to avoid breakdowns",
-      "24/7 emergency repair services available",
-      "Genuine parts replacement and system upgrades",
-      "Reduced downtime and operational costs",
-      "Extended equipment life and improved reliability"
-    ],
-    technologies: ["Preventive Maintenance", "Emergency Repairs", "Component Replacement", "System Diagnostics", "Performance Monitoring"],
-    industries: ["Manufacturing", "Process Industries", "Power Plants", "Commercial Facilities", "Industrial Automation"]
+    overview: t(`services:serviceDetails.${serviceId}.overview`),
+    benefits: t(`services:serviceDetails.${serviceId}.benefits`, { returnObjects: true }) as string[],
+    technologies: t(`services:serviceDetails.${serviceId}.technologies`, { returnObjects: true }) as string[],
+    industries: t(`services:serviceDetails.${serviceId}.industries`, { returnObjects: true }) as string[]
   };
 
   const IconComponent = iconMap[service.icon as keyof typeof iconMap] || Settings;
