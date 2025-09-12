@@ -221,6 +221,20 @@
       "support": "Support technique"
     }
   },
+  "chatbotMessages": {
+    "quoteHelp": "Je serais ravi de vous aider à obtenir un devis personnalisé ! Notre processus de devis est compétitif et transparent. Pour un devis précis, nous devons comprendre vos exigences spécifiques. Permettez-moi de vous connecter avec notre équipe commerciale pour une discussion détaillée.",
+    "helpAssist": "Je suis là pour vous aider à chaque étape ! Que vous ayez besoin de conseils sur la sélection de produits, des spécifications techniques, une assistance de service ou simplement en savoir plus sur notre entreprise, je suis à votre service. En quoi puis-je vous aider aujourd'hui ?",
+    "businessHoursInfo": "Nous sommes là quand vous avez besoin de nous ! Nos heures d'ouverture sont du lundi au samedi : 9h00 - 18h00. Nous fournissons également un support d'urgence le dimanche pour les situations critiques. Localisation : Noida, Secteur 6, F-25, F Block (Métro le plus proche : Secteur 15).",
+    "pricingInfo": "Notre processus de devis est toujours compétitif et transparent ! Nous croyons en la fourniture de valeur pour l'argent sans coûts cachés. Les prix dépendent des spécifications, des quantités et de la portée du projet. Pour le devis le plus précis, notre équipe évaluera vos exigences spécifiques.",
+    "achievements": "Nous sommes fiers de nos réalisations ! Plus de 500 projets réussis achevés, servant 50+ clients majeurs, 15+ années d'expérience, et des partenariats avec des leaders de l'industrie comme Thermax, Motherson et Praj Industries. Nos projets remarquables incluent l'installation solaire de 10MW et les systèmes d'automatisation pharmaceutique.",
+    "mainMenu": "Bienvenue de retour au menu principal ! Je suis ici pour vous aider avec tout besoin d'automatisation industrielle. Que vous recherchiez des produits, des services, un support technique ou des informations sur l'entreprise, je vous guiderai vers la bonne solution. Comment puis-je vous aider ?",
+    "urgentSupport": "Les situations urgentes incluent : pannes d'équipement affectant la production, problèmes de sécurité critiques, pannes d'urgence, échéances d'installation et défaillances du système. Pour ces situations, appelez immédiatement le +91-94627-71662. Nous fournissons un support d'urgence 24/7 pour les situations critiques.",
+    "productComparison": "Je peux vous aider à comparer les produits ! Notre large gamme comprend des capteurs, des systèmes d'automatisation, des composants électriques et des produits solaires. Dites-moi quels produits spécifiques vous comparez ou pour quelle application vous en avez besoin, et je vous guiderai à travers les meilleures options.",
+    "defaultResponse": "Merci de nous avoir contactés ! Je suis ici pour vous aider à trouver la solution parfaite d'automatisation industrielle. Chez Powerton Engineering, nous croyons que chaque client mérite une attention personnalisée et des conseils d'experts. Avec quel défi ou exigence spécifique puis-je vous aider aujourd'hui ?",
+    "productsPageResponse": "Parfait ! Je vous ai amené à notre page de produits où vous pouvez explorer notre large gamme de solutions d'automatisation industrielle. Vous trouverez des spécifications détaillées, des images et des données techniques pour chaque catégorie de produits. Avez-vous besoin d'aide pour trouver quelque chose de spécifique ou avez-vous des questions sur un produit ?",
+    "servicesPageResponse": "Excellent choix ! Notre page de services présente des offres de support complet de l'installation à la maintenance. Nous sommes votre partenaire d'ingénierie complet pour tout le cycle de vie du projet. Quel type d'assistance de service recherchez-vous ?",
+    "contactPageResponse": "Excellent ! La page de contact contient tous nos détails, y compris l'emplacement du bureau, les numéros de téléphone et le formulaire de contact. Nous sommes situés à Noida et disponibles du lundi au samedi. N'hésitez pas à nous contacter à tout moment ! Aimeriez-vous discuter de quelque chose de spécifique avec notre équipe ?"
+  },
   "seo": {
     "powerton": {
       "name": "Powerton Engineering Pvt. Ltd.",
