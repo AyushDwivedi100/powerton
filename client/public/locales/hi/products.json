@@ -689,5 +689,183 @@
         "longLifespan": "Long Lifespan"
       }
     }
+  },
+  "productDetails": {
+    "instrumentation": {
+      "fullDescription": "Comprehensive range of precision instrumentation components for industrial monitoring and control applications.",
+      "specifications": {
+        "highAccuracy": "High accuracy: ±0.1% to ±0.5%",
+        "operatingTemperature": "Operating temperature: -40°C to +85°C",
+        "protectionRating": "IP65/IP67 protection rating",
+        "outputTypes": "4-20mA, 0-10V, HART, Profibus outputs",
+        "explosionProof": "Explosion-proof variants available"
+      },
+      "applications": {
+        "processControl": "Process Control",
+        "qualityMonitoring": "Quality Monitoring",
+        "safetySystems": "Safety Systems",
+        "environmentalMonitoring": "Environmental Monitoring"
+      },
+      "features": {
+        "smartDiagnostics": "Smart Diagnostics",
+        "digitalCommunication": "Digital Communication",
+        "easyCalibration": "Easy Calibration",
+        "longTermStability": "Long-term Stability"
+      }
+    },
+    "electrical": {
+      "fullDescription": "Complete range of electrical components including switches, relays, contactors, and power distribution equipment for industrial applications.",
+      "specifications": {
+        "voltageRange": "Voltage range: 24V DC to 690V AC",
+        "currentRatings": "Current ratings: 1A to 1000A",
+        "protectionLevel": "IP54 to IP67 protection",
+        "standardsCompliant": "IEC/IS standards compliant",
+        "temperatureRated": "Temperature rated: -25°C to +70°C"
+      },
+      "applications": {
+        "motorControl": "Motor Control",
+        "powerDistribution": "Power Distribution",
+        "switchingApplications": "Switching Applications",
+        "protectionSystems": "Protection Systems"
+      },
+      "features": {
+        "highReliability": "High Reliability",
+        "modularDesign": "Modular Design",
+        "easyInstallation": "Easy Installation",
+        "maintenanceFree": "Maintenance-Free"
+      }
+    },
+    "measurement": {
+      "fullDescription": "Advanced digital meters, analyzers, and calibration equipment for precise measurement and monitoring of electrical and process parameters.",
+      "specifications": {
+        "accuracyClass": "Accuracy class: 0.1 to 1.0",
+        "displayType": "Display: Digital LCD/LED",
+        "communicationOptions": "Communication: RS485, Ethernet, Wireless",
+        "dataLogging": "Data logging capability",
+        "multipleParameter": "Multiple parameter measurement"
+      },
+      "applications": {
+        "powerQualityAnalysis": "Power Quality Analysis",
+        "energyManagement": "Energy Management",
+        "processMonitoring": "Process Monitoring",
+        "complianceMeasurement": "Compliance Measurement"
+      },
+      "features": {
+        "realTimeMonitoring": "Real-time Monitoring",
+        "dataAnalytics": "Data Analytics",
+        "alarmManagement": "Alarm Management",
+        "remoteAccess": "Remote Access"
+      }
+    },
+    "solar": {
+      "fullDescription": "Complete solar energy solutions including panels, inverters, monitoring systems, and grid-tie equipment for sustainable energy generation.",
+      "specifications": {
+        "panelEfficiency": "Panel efficiency: 19-22%",
+        "powerRange": "Power range: 300W to 500W per panel",
+        "inverterEfficiency": "Inverter efficiency: >98%",
+        "warranty": "25-year warranty on panels",
+        "gridOptions": "Grid-tie and off-grid solutions"
+      },
+      "applications": {
+        "rooftopSolar": "Rooftop Solar",
+        "groundMountSystems": "Ground Mount Systems",
+        "solarFarms": "Solar Farms",
+        "hybridSystems": "Hybrid Systems"
+      },
+      "features": {
+        "highEfficiency": "High Efficiency",
+        "weatherResistant": "Weather Resistant",
+        "smartMonitoring": "Smart Monitoring",
+        "gridSynchronization": "Grid Synchronization"
+      }
+    },
+    "automation": {
+      "fullDescription": "Advanced automation and control systems including PLCs, HMIs, SCADA solutions, and industrial communication devices.",
+      "specifications": {
+        "ioCapacity": "I/O capacity: 16 to 2048 points",
+        "communicationProtocols": "Communication: Ethernet, Profibus, Modbus",
+        "programmingStandards": "Programming: IEC 61131-3 compliant",
+        "operatingTemperature": "Operating temperature: 0°C to +60°C",
+        "redundancyOptions": "Redundancy options available"
+      },
+      "applications": {
+        "manufacturingAutomation": "Manufacturing Automation",
+        "processControl": "Process Control",
+        "buildingManagement": "Building Management",
+        "machineControl": "Machine Control"
+      },
+      "features": {
+        "flexibleProgramming": "Flexible Programming",
+        "scalableArchitecture": "Scalable Architecture",
+        "diagnosticTools": "Diagnostic Tools",
+        "remoteMonitoring": "Remote Monitoring"
+      }
+    },
+    "safety": {
+      "fullDescription": "Comprehensive safety and protection equipment including circuit breakers, safety relays, emergency stop systems, and protective devices.",
+      "specifications": {
+        "breakingCapacity": "Breaking capacity: 6kA to 100kA",
+        "safetyIntegrityLevel": "Safety integrity level: SIL 2/3",
+        "responseTime": "Response time: <10ms",
+        "multipleProtectionFunctions": "Multiple protection functions",
+        "arcFaultProtection": "Arc fault protection available"
+      },
+      "applications": {
+        "personnelSafety": "Personnel Safety",
+        "equipmentProtection": "Equipment Protection",
+        "fireSafety": "Fire Safety",
+        "emergencySystems": "Emergency Systems"
+      },
+      "features": {
+        "failSafeOperation": "Fail-Safe Operation",
+        "selfMonitoring": "Self-Monitoring",
+        "quickResponse": "Quick Response",
+        "easyTesting": "Easy Testing"
+      }
+    },
+    "pumps": {
+      "fullDescription": "High-quality mechanical pumps, spare parts, and maintenance kits for various industrial and commercial applications.",
+      "specifications": {
+        "flowRate": "Flow rate: 10 LPM to 5000 LPM",
+        "head": "Head: 10m to 500m",
+        "materials": "Material: Cast iron, SS316, Bronze",
+        "temperatureRange": "Temperature: -20°C to +180°C",
+        "efficiency": "Efficiency: up to 85%"
+      },
+      "applications": {
+        "waterSupply": "Water Supply",
+        "chemicalProcessing": "Chemical Processing",
+        "hvacSystems": "HVAC Systems",
+        "industrialProcesses": "Industrial Processes"
+      },
+      "features": {
+        "energyEfficient": "Energy Efficient",
+        "corrosionResistant": "Corrosion Resistant",
+        "lowMaintenance": "Low Maintenance",
+        "reliableOperation": "Reliable Operation"
+      }
+    },
+    "tools": {
+      "fullDescription": "Professional grade industrial tools, tackles, and maintenance equipment for various engineering and maintenance applications.",
+      "specifications": {
+        "material": "Material: High-grade steel/alloy",
+        "precision": "Precision: ±0.1mm accuracy",
+        "operatingRange": "Operating range: Various sizes",
+        "ergonomicDesign": "Ergonomic design",
+        "certifiedStandards": "Certified to international standards"
+      },
+      "applications": {
+        "maintenanceWork": "Maintenance Work",
+        "installation": "Installation",
+        "calibration": "Calibration",
+        "testingCommissioning": "Testing & Commissioning"
+      },
+      "features": {
+        "durableConstruction": "Durable Construction",
+        "ergonomicDesign": "Ergonomic Design",
+        "precisionEngineering": "Precision Engineering",
+        "multiPurposeUse": "Multi-Purpose Use"
+      }
+    }
   }
 }

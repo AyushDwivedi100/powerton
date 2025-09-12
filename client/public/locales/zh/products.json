@@ -882,5 +882,183 @@
         "longLifespan": "Long Lifespan"
       }
     }
+  },
+  "productDetails": {
+    "instrumentation": {
+      "fullDescription": "用于工业监控和控制应用的精密仪表组件综合系列。",
+      "specifications": {
+        "highAccuracy": "高精度：±0.1% 至 ±0.5%",
+        "operatingTemperature": "工作温度：-40°C 至 +85°C",
+        "protectionRating": "防护等级：IP65/IP67",
+        "outputTypes": "输出：4-20mA, 0-10V, HART, Profibus",
+        "explosionProof": "提供防爆型号"
+      },
+      "applications": {
+        "processControl": "过程控制",
+        "qualityMonitoring": "质量监控",
+        "safetySystems": "安全系统",
+        "environmentalMonitoring": "环境监测"
+      },
+      "features": {
+        "smartDiagnostics": "智能诊断",
+        "digitalCommunication": "数字通讯",
+        "easyCalibration": "易于校准",
+        "longTermStability": "长期稳定性"
+      }
+    },
+    "electrical": {
+      "fullDescription": "包括开关、继电器、接触器和配电设备在内的工业应用电气元件全系列。",
+      "specifications": {
+        "voltageRange": "电压范围：24V DC 至 690V AC",
+        "currentRatings": "电流额定：1A 至 1000A",
+        "protectionLevel": "防护等级：IP54 至 IP67",
+        "standardsCompliant": "符合IEC/IS标准",
+        "temperatureRated": "温度额定：-25°C 至 +70°C"
+      },
+      "applications": {
+        "motorControl": "电机控制",
+        "powerDistribution": "配电",
+        "switchingApplications": "开关应用",
+        "protectionSystems": "保护系统"
+      },
+      "features": {
+        "highReliability": "高可靠性",
+        "modularDesign": "模块化设计",
+        "easyInstallation": "易于安装",
+        "maintenanceFree": "免维护"
+      }
+    },
+    "measurement": {
+      "fullDescription": "用于精确测量和监控电气及过程参数的先进数字仪表、分析仪和校准设备。",
+      "specifications": {
+        "accuracyClass": "精度等级：0.1 至 1.0",
+        "displayType": "显示：数字LCD/LED",
+        "communicationOptions": "通讯：RS485、以太网、无线",
+        "dataLogging": "数据记录功能",
+        "multipleParameter": "多参数测量"
+      },
+      "applications": {
+        "powerQualityAnalysis": "电能质量分析",
+        "energyManagement": "能源管理",
+        "processMonitoring": "过程监控",
+        "complianceMeasurement": "合规测量"
+      },
+      "features": {
+        "realTimeMonitoring": "实时监控",
+        "dataAnalytics": "数据分析",
+        "alarmManagement": "报警管理",
+        "remoteAccess": "远程访问"
+      }
+    },
+    "solar": {
+      "fullDescription": "包括面板、逆变器、监控系统和并网设备的完整太阳能解决方案，用于可持续能源发电。",
+      "specifications": {
+        "panelEfficiency": "面板效率：19-22%",
+        "powerRange": "功率范围：每块面板300W至500W",
+        "inverterEfficiency": "逆变器效率：>98%",
+        "warranty": "面板25年质保",
+        "gridOptions": "并网和离网解决方案"
+      },
+      "applications": {
+        "rooftopSolar": "屋顶太阳能",
+        "groundMountSystems": "地面安装系统",
+        "solarFarms": "太阳能发电站",
+        "hybridSystems": "混合系统"
+      },
+      "features": {
+        "highEfficiency": "高效率",
+        "weatherResistant": "耐候性",
+        "smartMonitoring": "智能监控",
+        "gridSynchronization": "电网同步"
+      }
+    },
+    "automation": {
+      "fullDescription": "包括PLC、HMI、SCADA解决方案和工业通讯设备的先进自动化和控制系统。",
+      "specifications": {
+        "ioCapacity": "I/O容量：16至2048点",
+        "communicationProtocols": "通讯：以太网、Profibus、Modbus",
+        "programmingStandards": "编程：符合IEC 61131-3",
+        "operatingTemperature": "工作温度：0°C 至 +60°C",
+        "redundancyOptions": "提供冗余选项"
+      },
+      "applications": {
+        "manufacturingAutomation": "制造自动化",
+        "processControl": "过程控制",
+        "buildingManagement": "楼宇管理",
+        "machineControl": "机器控制"
+      },
+      "features": {
+        "flexibleProgramming": "灵活编程",
+        "scalableArchitecture": "可扩展架构",
+        "diagnosticTools": "诊断工具",
+        "remoteMonitoring": "远程监控"
+      }
+    },
+    "safety": {
+      "fullDescription": "包括断路器、安全继电器、急停系统和保护设备的综合安全防护设备。",
+      "specifications": {
+        "breakingCapacity": "分断能力：6kA至100kA",
+        "safetyIntegrityLevel": "安全完整性等级：SIL 2/3",
+        "responseTime": "响应时间：<10ms",
+        "multipleProtectionFunctions": "多重保护功能",
+        "arcFaultProtection": "提供电弧故障保护"
+      },
+      "applications": {
+        "personnelSafety": "人员安全",
+        "equipmentProtection": "设备保护",
+        "fireSafety": "消防安全",
+        "emergencySystems": "应急系统"
+      },
+      "features": {
+        "failSafeOperation": "故障安全操作",
+        "selfMonitoring": "自监控",
+        "quickResponse": "快速响应",
+        "easyTesting": "易于测试"
+      }
+    },
+    "pumps": {
+      "fullDescription": "用于各种工业和商业应用的高质量机械泵、备件和维护套件。",
+      "specifications": {
+        "flowRate": "流量：10 LPM 至 5000 LPM",
+        "head": "扬程：10m 至 500m",
+        "materials": "材料：铸铁、SS316、青铜",
+        "temperatureRange": "温度：-20°C 至 +180°C",
+        "efficiency": "效率：高达85%"
+      },
+      "applications": {
+        "waterSupply": "供水",
+        "chemicalProcessing": "化工处理",
+        "hvacSystems": "暖通空调系统",
+        "industrialProcesses": "工业过程"
+      },
+      "features": {
+        "energyEfficient": "节能",
+        "corrosionResistant": "耐腐蚀",
+        "lowMaintenance": "低维护",
+        "reliableOperation": "可靠运行"
+      }
+    },
+    "tools": {
+      "fullDescription": "用于各种工程和维护应用的专业级工业工具、设备和维护装备。",
+      "specifications": {
+        "material": "材料：高级钢/合金",
+        "precision": "精度：±0.1mm精度",
+        "operatingRange": "操作范围：各种规格",
+        "ergonomicDesign": "人体工学设计",
+        "certifiedStandards": "符合国际标准认证"
+      },
+      "applications": {
+        "maintenanceWork": "维护工作",
+        "installation": "安装",
+        "calibration": "校准",
+        "testingCommissioning": "测试和调试"
+      },
+      "features": {
+        "durableConstruction": "耐用结构",
+        "ergonomicDesign": "人体工学设计",
+        "precisionEngineering": "精密工程",
+        "multiPurposeUse": "多用途使用"
+      }
+    }
   }
 }

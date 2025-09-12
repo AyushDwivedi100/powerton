@@ -9,6 +9,17 @@
     "blog": "博客",
     "quote": "获取报价"
   },
+  "buttons": {
+    "getQuote": "获取报价",
+    "contactUs": "联系我们"
+  },
+  "messages": {
+    "toggleTheme": "切换主题",
+    "close": "关闭"
+  },
+  "aria": {
+    "toggleNavigation": "切换导航"
+  },
   "language": {
     "en": "English",
     "hi": "हिन्दी",
@@ -22,17 +33,17 @@
     "ha": "Hausa"
   },
   "navigation": {
-    "backToProducts": "Back to Products",
-    "backToElectricalComponents": "Back to Electrical Components",
-    "backToSolarProducts": "Back to Solar Products",
-    "backToMechanicalPumps": "Back to Mechanical Pumps & Spares",
-    "backToMeasurementInstruments": "Back to Measurement Instruments",
-    "backToSafetyDevices": "Back to Safety & Protective Devices",
-    "backToIndustrialTools": "Back to Industrial Tools & Tackles",
-    "backToAutomationSystems": "Back to Automation & Control Systems",
-    "backToBLDC": "Back to BLDC Products",
-    "phoneNumbers": "Phone Numbers",
-    "backToInstrumentationComponents": "Back to Instrumentation Components"
+    "backToProducts": "返回产品",
+    "backToElectricalComponents": "返回电气元件",
+    "backToSolarProducts": "返回太阳能产品",
+    "backToMechanicalPumps": "返回机械泵及备件",
+    "backToMeasurementInstruments": "返回测量仪器",
+    "backToSafetyDevices": "返回安全防护设备",
+    "backToIndustrialTools": "返回工业工具设备",
+    "backToAutomationSystems": "返回自动化控制系统",
+    "backToBLDC": "返回BLDC产品",
+    "phoneNumbers": "电话号码",
+    "backToInstrumentationComponents": "返回仪表组件"
   },
   "testimonials": {
     "anand": {

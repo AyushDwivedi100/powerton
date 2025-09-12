@@ -690,4 +690,52 @@
       }
     }
   }
+
+,
+  "productDetails": {
+    "instrumentation": {
+      "fullDescription": "Gama completa de componentes de instrumentación de precisión para aplicaciones de monitoreo y control industrial.",
+      "specifications": {
+        "highAccuracy": "Alta precisión: ±0.1% a ±0.5%",
+        "operatingTemperature": "Temperatura de operación: -40°C a +85°C",
+        "protectionRating": "Clasificación de protección IP65/IP67",
+        "outputTypes": "Salidas: 4-20mA, 0-10V, HART, Profibus",
+        "explosionProof": "Variantes a prueba de explosiones disponibles"
+      },
+      "applications": {
+        "processControl": "Control de Procesos",
+        "qualityMonitoring": "Monitoreo de Calidad",
+        "safetySystems": "Sistemas de Seguridad",
+        "environmentalMonitoring": "Monitoreo Ambiental"
+      },
+      "features": {
+        "smartDiagnostics": "Diagnósticos Inteligentes",
+        "digitalCommunication": "Comunicación Digital",
+        "easyCalibration": "Calibración Fácil",
+        "longTermStability": "Estabilidad a Largo Plazo"
+      }
+    },
+    "electrical": {
+      "fullDescription": "Gama completa de componentes eléctricos incluyendo interruptores, relés, contactores y equipos de distribución de energía para aplicaciones industriales.",
+      "specifications": {
+        "voltageRange": "Rango de voltaje: 24V DC a 690V AC",
+        "currentRatings": "Clasificación de corriente: 1A a 1000A",
+        "protectionLevel": "Protección IP54 a IP67",
+        "standardsCompliant": "Cumple con estándares IEC/IS",
+        "temperatureRated": "Clasificación de temperatura: -25°C a +70°C"
+      },
+      "applications": {
+        "motorControl": "Control de Motor",
+        "powerDistribution": "Distribución de Energía",
+        "switchingApplications": "Aplicaciones de Conmutación",
+        "protectionSystems": "Sistemas de Protección"
+      },
+      "features": {
+        "highReliability": "Alta Confiabilidad",
+        "modularDesign": "Diseño Modular",
+        "easyInstallation": "Instalación Fácil",
+        "maintenanceFree": "Libre de Mantenimiento"
+      }
+    }
+  }
 }

@@ -690,4 +690,52 @@
       }
     }
   }
+
+,
+  "productDetails": {
+    "instrumentation": {
+      "fullDescription": "مجموعة شاملة من مكونات الأجهزة الدقيقة للمراقبة والتحكم الصناعي.",
+      "specifications": {
+        "highAccuracy": "دقة عالية: ±0.1% إلى ±0.5%",
+        "operatingTemperature": "درجة حرارة التشغيل: -40°م إلى +85°م",
+        "protectionRating": "تصنيف الحماية: IP65/IP67",
+        "outputTypes": "المخرجات: 4-20mA, 0-10V, HART, Profibus",
+        "explosionProof": "متوفرة بأنواع مقاومة للانفجار"
+      },
+      "applications": {
+        "processControl": "التحكم في العملية",
+        "qualityMonitoring": "مراقبة الجودة",
+        "safetySystems": "أنظمة السلامة",
+        "environmentalMonitoring": "المراقبة البيئية"
+      },
+      "features": {
+        "smartDiagnostics": "التشخيص الذكي",
+        "digitalCommunication": "الاتصال الرقمي",
+        "easyCalibration": "معايرة سهلة",
+        "longTermStability": "الاستقرار طويل الأمد"
+      }
+    },
+    "electrical": {
+      "fullDescription": "مجموعة كاملة من المكونات الكهربائية بما في ذلك المفاتيح والمرحلات والموصلات ومعدات توزيع الطاقة للتطبيقات الصناعية.",
+      "specifications": {
+        "voltageRange": "نطاق الجهد: 24V DC إلى 690V AC",
+        "currentRatings": "تصنيف التيار: 1A إلى 1000A",
+        "protectionLevel": "حماية IP54 إلى IP67",
+        "standardsCompliant": "متوافق مع معايير IEC/IS",
+        "temperatureRated": "تصنيف درجة الحرارة: -25°م إلى +70°م"
+      },
+      "applications": {
+        "motorControl": "التحكم في المحرك",
+        "powerDistribution": "توزيع الطاقة",
+        "switchingApplications": "تطبيقات التبديل",
+        "protectionSystems": "أنظمة الحماية"
+      },
+      "features": {
+        "highReliability": "موثوقية عالية",
+        "modularDesign": "تصميم معياري",
+        "easyInstallation": "تركيب سهل",
+        "maintenanceFree": "خالي من الصيانة"
+      }
+    }
+  }
 }
