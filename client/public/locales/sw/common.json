@@ -22,22 +22,22 @@
     "ha": "Hausa"
   },
   "navigation": {
-    "backToProducts": "Back to Products",
-    "backToElectricalComponents": "Back to Electrical Components",
-    "backToSolarProducts": "Back to Solar Products",
-    "backToMechanicalPumps": "Back to Mechanical Pumps & Spares",
-    "backToMeasurementInstruments": "Back to Measurement Instruments",
-    "backToIndustrialTools": "Back to Industrial Tools & Tackles",
-    "backToAutomationSystems": "Back to Automation & Control Systems",
-    "backToBLDC": "Back to BLDC Products",
-    "backToInstrumentationComponents": "Back to Instrumentation Components",
-    "backToSafetyDevices": "Back to Safety & Protective Devices",
+    "backToProducts": "Rudi kwenye Products",
+    "backToElectricalComponents": "Rudi kwenye Electrical Components",
+    "backToSolarProducts": "Rudi kwenye Solar Products",
+    "backToMechanicalPumps": "Rudi kwenye Mechanical Pumps & Spares",
+    "backToMeasurementInstruments": "Rudi kwenye Measurement Instruments",
+    "backToIndustrialTools": "Rudi kwenye Industrial Tools & Tackles",
+    "backToAutomationSystems": "Rudi kwenye Automation & Control Systems",
+    "backToBLDC": "Rudi kwenye BLDC Products",
+    "backToInstrumentationComponents": "Rudi kwenye Instrumentation Components",
+    "backToSafetyDevices": "Rudi kwenye Safety & Protective Devices",
     "phoneNumbers": "Phone Numbers"
   },
   "buttons": {
-    "backTo": "Back to {{category}}",
-    "backToBldcProducts": "Back to BLDC Products",
-    "backToProducts": "Back to Products",
+    "backTo": "Rudi kwenye {{category}}",
+    "backToBldcProducts": "Rudi kwenye BLDC Products",
+    "backToProducts": "Rudi kwenye Products",
     "requestQuote": "Request Quote",
     "expertTeam": "Expert Team",
     "successfulProjects": "Successful Projects",
@@ -630,6 +630,12 @@
     }
   },
   "company": {
+    "stats": {
+      "yearsExperience": "Uzoefu wa Miaka 15+",
+      "projectsCompleted": "Miradi 1200+ Iliyokamilika", 
+      "clientsServed": "Wateja 50+ Wenye Furaha",
+      "responseTime": "Masaa 24"
+    },
     "name": "Powerton Engineering Pvt. Ltd.",
     "tagline": "Mshirika wako wa kuaminika katika otomatiki ya viwanda na uhandisi wa umeme",
     "phone": "+91-94627-71662",

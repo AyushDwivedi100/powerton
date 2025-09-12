@@ -22,16 +22,16 @@
     "ha": "Hausa"
   },
   "navigation": {
-    "backToProducts": "Back to Products",
-    "backToElectricalComponents": "Back to Electrical Components",
-    "backToSolarProducts": "Back to Solar Products",
-    "backToMechanicalPumps": "Back to Mechanical Pumps & Spares",
-    "backToMeasurementInstruments": "Back to Measurement Instruments",
-    "backToIndustrialTools": "Back to Industrial Tools & Tackles",
-    "backToAutomationSystems": "Back to Automation & Control Systems",
-    "backToBLDC": "Back to BLDC Products",
-    "backToInstrumentationComponents": "Back to Instrumentation Components",
-    "backToSafetyDevices": "Back to Safety & Protective Devices",
+    "backToProducts": "Voltar para Products",
+    "backToElectricalComponents": "Voltar para Electrical Components",
+    "backToSolarProducts": "Voltar para Solar Products",
+    "backToMechanicalPumps": "Voltar para Mechanical Pumps & Spares",
+    "backToMeasurementInstruments": "Voltar para Measurement Instruments",
+    "backToIndustrialTools": "Voltar para Industrial Tools & Tackles",
+    "backToAutomationSystems": "Voltar para Automation & Control Systems",
+    "backToBLDC": "Voltar para BLDC Products",
+    "backToInstrumentationComponents": "Voltar para Instrumentation Components",
+    "backToSafetyDevices": "Voltar para Safety & Protective Devices",
     "phoneNumbers": "Phone Numbers"
   },
   "buttons": {
@@ -40,9 +40,9 @@
     "readMore": "Read More",
     "downloadCatalog": "Baixar Catálogo",
     "viewDetails": "Ver Detalhes",
-    "backTo": "Back to {{category}}",
-    "backToBldcProducts": "Back to BLDC Products",
-    "backToProducts": "Back to Products",
+    "backTo": "Voltar para {{category}}",
+    "backToBldcProducts": "Voltar para BLDC Products",
+    "backToProducts": "Voltar para Products",
     "requestQuote": "Request Quote",
     "expertTeam": "Expert Team",
     "successfulProjects": "Successful Projects",
@@ -651,6 +651,14 @@
       "name": "Rajesh Kumar",
       "location": "Tamil Nadu",
       "comment": "A Powerton Engineering entregou exatamente o que prometeram. O sistema de instrumentação que instalaram tem funcionado perfeitamente por mais de dois anos. Seu suporte pós-venda é notável e sempre responsivo."
+    }
+  },
+  "company": {
+    "stats": {
+      "yearsExperience": "15+ Anos de Experiência",
+      "projectsCompleted": "1200+ Projetos Concluídos",
+      "clientsServed": "50+ Clientes Satisfeitos",
+      "responseTime": "24 Horas"
     }
   },
   "products": {

@@ -111,7 +111,7 @@
     "sendMessage": "Send Message",
     "sending": "Sending...",
     "submit": "Submit",
-    "viewProducts": "View Products",
+    "viewProducts": "查看产品",
     "viewServices": "View Services",
     "getInTouch": "Get In Touch",
     "exploreProducts": "Explore Products",
@@ -597,6 +597,14 @@
       "duration": "8-12 months",
       "budget": "₹60-90 Lakhs",
       "status": "Capability Demo"
+    }
+  },
+  "company": {
+    "stats": {
+      "yearsExperience": "15+ 年经验",
+      "projectsCompleted": "1200+ 已完成项目",
+      "clientsServed": "50+ 满意客户",
+      "responseTime": "24 小时"
     }
   },
   "steps": {

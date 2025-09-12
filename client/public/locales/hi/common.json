@@ -69,6 +69,14 @@
     "successfulProjects": "Successful Projects",
     "qualityProducts": "Quality Products"
   },
+  "ui": {
+    "ariaLabels": {
+      "openLocation": "स्थान खोलें"
+    }
+  },
+  "aria": {
+    "toggleNavigation": "नेविगेशन टॉगल करें"
+  },
   "messages": {
     "toggleTheme": "थीम टॉगल करें",
     "close": "बंद करें",

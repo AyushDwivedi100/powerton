@@ -50,18 +50,18 @@
     "sendMessage": "Send Message",
     "sending": "Sending...",
     "submit": "Submit",
-    "viewProducts": "View Products",
-    "viewServices": "View Services",
+    "viewProducts": "Посмотреть Товары",
+    "viewServices": "Посмотреть Услуги",
     "getInTouch": "Get In Touch",
     "exploreProducts": "Explore Products",
-    "viewCatalog": "View Catalog",
+    "viewCatalog": "Посмотреть Каталог",
     "quickQuote": "Quick Quote",
     "getQuote": "Получить Предложение",
     "callNow": "Позвонить Сейчас",
     "emailUs": "Написать Email",
     "learnMore": "Узнать Больше",
     "viewMore": "Посмотреть Больше",
-    "viewAll": "View All",
+    "viewAll": "Посмотреть Все",
     "contactUs": "Связаться с Нами",
     "getStarted": "Get Started",
     "downloadBrochure": "Download Brochure"
@@ -565,6 +565,12 @@
     }
   },
   "company": {
+    "stats": {
+      "yearsExperience": "15+ Лет Опыта",
+      "projectsCompleted": "1200+ Завершенных Проектов", 
+      "clientsServed": "50+ Довольных Клиентов",
+      "responseTime": "24 Часа"
+    },
     "name": "Powerton Engineering Pvt. Ltd.",
     "tagline": "Ваш надежный партнер в промышленной автоматизации и электротехнике",
     "phone": "+91-94627-71662",

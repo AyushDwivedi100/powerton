@@ -22,16 +22,16 @@
     "ha": "Hausa"
   },
   "navigation": {
-    "backToProducts": "Back to Products",
-    "backToElectricalComponents": "Back to Electrical Components",
-    "backToSolarProducts": "Back to Solar Products",
-    "backToMechanicalPumps": "Back to Mechanical Pumps & Spares",
-    "backToMeasurementInstruments": "Back to Measurement Instruments",
-    "backToIndustrialTools": "Back to Industrial Tools & Tackles",
-    "backToAutomationSystems": "Back to Automation & Control Systems",
-    "backToBLDC": "Back to BLDC Products",
-    "backToInstrumentationComponents": "Back to Instrumentation Components",
-    "backToSafetyDevices": "Back to Safety & Protective Devices",
+    "backToProducts": "Komawa zuwa Products",
+    "backToElectricalComponents": "Komawa zuwa Electrical Components",
+    "backToSolarProducts": "Komawa zuwa Solar Products",
+    "backToMechanicalPumps": "Komawa zuwa Mechanical Pumps & Spares",
+    "backToMeasurementInstruments": "Komawa zuwa Measurement Instruments",
+    "backToIndustrialTools": "Komawa zuwa Industrial Tools & Tackles",
+    "backToAutomationSystems": "Komawa zuwa Automation & Control Systems",
+    "backToBLDC": "Komawa zuwa BLDC Products",
+    "backToInstrumentationComponents": "Komawa zuwa Instrumentation Components",
+    "backToSafetyDevices": "Komawa zuwa Safety & Protective Devices",
     "phoneNumbers": "Phone Numbers"
   },
   "testimonials": {
@@ -89,9 +89,9 @@
     "readMore": "Read More",
     "downloadCatalog": "Sauke Katalogi",
     "viewDetails": "Duba Cikakkun Bayanai",
-    "backTo": "Back to {{category}}",
-    "backToBldcProducts": "Back to BLDC Products",
-    "backToProducts": "Back to Products",
+    "backTo": "Komawa zuwa {{category}}",
+    "backToBldcProducts": "Komawa zuwa BLDC Products",
+    "backToProducts": "Komawa zuwa Products",
     "requestQuote": "Request Quote",
     "expertTeam": "Expert Team",
     "successfulProjects": "Successful Projects",
@@ -99,18 +99,18 @@
     "sendMessage": "Send Message",
     "sending": "Sending...",
     "submit": "Submit",
-    "viewProducts": "View Products",
-    "viewServices": "View Services",
+    "viewProducts": "Duba Kayayyaki",
+    "viewServices": "Duba Ayyuka",
     "getInTouch": "Get In Touch",
     "exploreProducts": "Explore Products",
-    "viewCatalog": "View Catalog",
+    "viewCatalog": "Duba Jerin Kayayyaki",
     "quickQuote": "Quick Quote",
     "getQuote": "Samu Tsari",
     "callNow": "Kira Yanzu",
     "emailUs": "Aiko Mu Email",
     "learnMore": "Koyi Ƙari",
     "viewMore": "Duba Ƙari",
-    "viewAll": "View All",
+    "viewAll": "Duba Duk",
     "contactUs": "Tuntuɓe Mu",
     "getStarted": "Get Started",
     "downloadBrochure": "Download Brochure"
@@ -558,6 +558,14 @@
     "contactBackground": "ID-834: Contact center and customer support office background for engineering company",
     "aboutBackground": "ID-004: Powerton Engineering industrial automation facility with modern control systems",
     "companyLogo": "Powerton Engineering Pvt. Ltd. - Industrial Automation & Electrical Engineering Company Logo"
+  },
+  "company": {
+    "stats": {
+      "yearsExperience": "Gogewa Sama da Shekara 15",
+      "projectsCompleted": "Ayyuka 1200+ Da Aka Kammala",
+      "clientsServed": "Abokan Ciniki 50+ Masu Farin Ciki",
+      "responseTime": "Awanni 24"
+    }
   },
   "sitemap": {
     "sections": {

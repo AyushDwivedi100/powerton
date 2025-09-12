@@ -22,22 +22,22 @@
     "ha": "Hausa"
   },
   "navigation": {
-    "backToProducts": "Back to Products",
-    "backToElectricalComponents": "Back to Electrical Components",
-    "backToSolarProducts": "Back to Solar Products",
-    "backToMechanicalPumps": "Back to Mechanical Pumps & Spares",
-    "backToMeasurementInstruments": "Back to Measurement Instruments",
-    "backToIndustrialTools": "Back to Industrial Tools & Tackles",
-    "backToAutomationSystems": "Back to Automation & Control Systems",
-    "backToBLDC": "Back to BLDC Products",
-    "backToInstrumentationComponents": "Back to Instrumentation Components",
-    "backToSafetyDevices": "Back to Safety & Protective Devices",
+    "backToProducts": "Retour à Products",
+    "backToElectricalComponents": "Retour à Electrical Components",
+    "backToSolarProducts": "Retour à Solar Products",
+    "backToMechanicalPumps": "Retour à Mechanical Pumps & Spares",
+    "backToMeasurementInstruments": "Retour à Measurement Instruments",
+    "backToIndustrialTools": "Retour à Industrial Tools & Tackles",
+    "backToAutomationSystems": "Retour à Automation & Control Systems",
+    "backToBLDC": "Retour à BLDC Products",
+    "backToInstrumentationComponents": "Retour à Instrumentation Components",
+    "backToSafetyDevices": "Retour à Safety & Protective Devices",
     "phoneNumbers": "Phone Numbers"
   },
   "buttons": {
-    "backTo": "Back to {{category}}",
-    "backToBldcProducts": "Back to BLDC Products",
-    "backToProducts": "Back to Products",
+    "backTo": "Retour à {{category}}",
+    "backToBldcProducts": "Retour à BLDC Products",
+    "backToProducts": "Retour à Products",
     "requestQuote": "Request Quote",
     "expertTeam": "Expert Team",
     "successfulProjects": "Successful Projects",
@@ -608,6 +608,14 @@
       "energySaving": "Energy Saving",
       "reliable": "Reliable",
       "costEffective": "Cost Effective"
+    }
+  },
+  "company": {
+    "stats": {
+      "yearsExperience": "15+ Années d'Expérience",
+      "projectsCompleted": "1200+ Projets Complétés",
+      "clientsServed": "50+ Clients Satisfaits", 
+      "responseTime": "24 Heures"
     }
   },
   "cta": {
