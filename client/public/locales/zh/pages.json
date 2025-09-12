@@ -936,5 +936,78 @@
         "keywords": "SCADA systems, supervisory control, data acquisition, industrial monitoring, process control, HMI integration, remote monitoring, SCADA software"
       }
     }
+  },
+  "projects": {
+    "hero": {
+      "title": "项目组合",
+      "subtitle": "通过我们在不同行业的1200+成功项目发现我们的工程卓越，展现创新、质量和可靠性。"
+    },
+    "portfolioDescription": "通过展示各行业创新解决方案的演示项目探索我们的工程能力。真实项目组合即将推出。",
+    "showing": "显示 {{count}} 个项目，共 {{total}} 个",
+    "featured": "特色",
+    "moreItems": "+{{count}} 更多",
+    "items": {
+      "industrial-automation-demo": {
+        "title": "演示：工业自动化系统",
+        "client": "未来制造客户",
+        "description": "展示完整的制造自动化能力，包括PLC集成、SCADA系统和实时监控解决方案。",
+        "location": "项目现场待定",
+        "duration": "12-18个月"
+      },
+      "power-distribution-demo": {
+        "title": "示例：电力分配控制",
+        "client": "未来电力合作伙伴", 
+        "description": "展示自动化负载平衡和电力生产设施远程监控能力的示例电力分配系统。",
+        "location": "多个地点",
+        "duration": "10-15个月"
+      },
+      "solar-plant-demo": {
+        "title": "示例：太阳能电站控制系统",
+        "client": "未来可再生能源客户",
+        "description": "演示太阳能跟踪自动化系统的天气监控和电网同步能力，适用于可再生能源项目。",
+        "location": "多个站点",
+        "duration": "6-10个月"
+      },
+      "process-control-demo": {
+        "title": "演示：过程控制解决方案",
+        "client": "未来工业合作伙伴",
+        "description": "展示完整的过程自动化能力，包括安全系统、环境监控和工业应用的批处理控制。",
+        "location": "项目现场待定",
+        "duration": "8-12个月"
+      },
+      "smart-factory-demo": {
+        "title": "演示：智能工厂集成",
+        "client": "当前开发客户",
+        "description": "正在进行的智能工厂集成演示，展示物联网连接、预测性维护和工业4.0能力。",
+        "location": "开发现场",
+        "duration": "14个月"
+      }
+    },
+    "categories": {
+      "processautomation": "过程自动化",
+      "powersystems": "电力系统",
+      "solarsolutions": "太阳能解决方案"
+    },
+    "statuses": {
+      "capabilityDemo": "能力演示",
+      "inprogress": "进行中",
+      "completed": "已完成"
+    },
+    "technologies": {
+      "plcprogramming": "PLC编程",
+      "scada": "SCADA",
+      "hmi": "HMI",
+      "industrialiot": "工业物联网",
+      "mccpanels": "MCC面板",
+      "protectionsystems": "保护系统",
+      "energymanagement": "能源管理",
+      "remotemonitoring": "远程监控",
+      "solarinverters": "太阳能逆变器",
+      "gridsync": "电网同步",
+      "weathermonitoring": "天气监控",
+      "dataanalytics": "数据分析",
+      "processcontrol": "过程控制",
+      "safetysystems": "安全系统"
+    }
   }
 }
