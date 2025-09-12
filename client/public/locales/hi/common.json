@@ -81,6 +81,12 @@
     "aboutBackground": "ID-004: Powerton Engineering industrial automation facility with modern control systems",
     "companyLogo": "Powerton Engineering Pvt. Ltd. - Industrial Automation & Electrical Engineering Company Logo"
   },
+  "ui": {
+    "ariaLabels": {
+      "openLocation": "गूगल मैप्स में कार्यालय स्थान खोलें",
+      "mainNavigation": "मुख्य नेवीगेशन"
+    }
+  },
   "aria": {
     "toggleNavigation": "नेवीगेशन सहायक टॉगल करें",
     "openLocation": "गूगल मैप्स में कार्यालय स्थान खोलें",
