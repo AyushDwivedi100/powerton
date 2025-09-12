@@ -205,7 +205,7 @@ export default function Header() {
               target="_blank"
               rel="noopener noreferrer"
               className="hidden md:flex items-center hover:text-secondary transition-colors cursor-pointer hover-scale"
-              aria-label="Open office location in Google Maps"
+              aria-label={t('common:ui.ariaLabels.openLocation')}
               initial={{ opacity: 0, x: 20 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.2 }}
@@ -230,7 +230,7 @@ export default function Header() {
       <nav
         className="max-w-7xl mx-auto px-2 md:px-4 lg:px-6 xl:px-8"
         role="navigation"
-        aria-label="Main navigation"
+        aria-label={t('common:ui.ariaLabels.mainNavigation')}
       >
         <div className="flex justify-between items-center py-3 sm:py-4">
           <motion.div
@@ -461,7 +461,7 @@ export default function Header() {
                   >
                     <span>
                       <span className="xl:hidden">
-                        {item.name === "News & Updates" ? "News" : item.name}
+                        {item.name === "News & Updates" ? t('navigation:menu.news') : item.name}
                       </span>
                       <span className="hidden xl:inline">
                         {item.name}
@@ -818,7 +818,7 @@ export default function Header() {
                           rel="noopener noreferrer"
                           className="flex items-start transition-colors cursor-pointer"
                           onClick={() => setIsOpen(false)}
-                          aria-label="Open office location in Google Maps"
+                          aria-label={t('common:ui.ariaLabels.openLocation')}
                         >
                           <MapPin className="w-4 h-4 mr-3 text-secondary flex-shrink-0 mt-0.5" />
                           <div className="text-sm text-foreground hover:text-primary transition-colors">
