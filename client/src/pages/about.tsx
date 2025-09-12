@@ -60,10 +60,10 @@ export default function About() {
   ];
 
   const teamStats = [
-    { number: 50, suffix: "+", label: t('pages:about.stats.engineers') },
-    { number: 25, suffix: "+", label: t('pages:about.stats.staff') },
-    { number: 15, suffix: "+", label: t('pages:about.stats.experience') },
-    { number: null, displayValue: "24/7", label: t('pages:about.stats.support') },
+    { number: 50, suffix: "+", label: t('common:company.stats.projectsCompleted') },
+    { number: 25, suffix: "+", label: t('common:company.stats.clientsServed') },
+    { number: 15, suffix: "+", label: t('common:company.stats.yearsExperience') },
+    { number: null, displayValue: "24/7", label: t('common:company.stats.responseTime') },
   ];
 
   return (

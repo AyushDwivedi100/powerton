@@ -177,25 +177,25 @@ export default function HeroSection() {
               <div className="text-3xl lg:text-4xl font-bold text-secondary mb-2" aria-label="15 plus years of experience">
                 <AnimatedCounter target={15} suffix="+" />
               </div>
-              <div className="text-sm lg:text-base text-white/90">{t('pages:home.hero.stats.yearsExperience')}</div>
+              <div className="text-sm lg:text-base text-white/90">{t('common:company.stats.yearsExperience')}</div>
             </div>
             <div role="listitem">
               <div className="text-3xl lg:text-4xl font-bold text-secondary mb-2" aria-label="1200 plus projects completed">
                 <AnimatedCounter target={1200} suffix="+" />
               </div>
-              <div className="text-sm lg:text-base text-white/90">{t('pages:home.hero.stats.projectsCompleted')}</div>
+              <div className="text-sm lg:text-base text-white/90">{t('common:company.stats.projectsCompleted')}</div>
             </div>
             <div role="listitem">
               <div className="text-3xl lg:text-4xl font-bold text-secondary mb-2" aria-label="450 plus happy clients">
                 <AnimatedCounter target={450} suffix="+" />
               </div>
-              <div className="text-sm lg:text-base text-white/90">{t('pages:home.hero.stats.happyClients')}</div>
+              <div className="text-sm lg:text-base text-white/90">{t('common:company.stats.clientsServed')}</div>
             </div>
             <div role="listitem">
               <div className="text-3xl lg:text-4xl font-bold text-secondary mb-2" aria-label="24/7 support available">
                 <span>24/7</span>
               </div>
-              <div className="text-sm lg:text-base text-white/90">{t('pages:home.hero.stats.supportAvailable')}</div>
+              <div className="text-sm lg:text-base text-white/90">{t('common:company.stats.responseTime')}</div>
             </div>
           </StaggeredList>
         </div>
