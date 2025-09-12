@@ -63,7 +63,7 @@ const CATEGORIES = [
 const STATUSES = ["All", "Capability Demo", "In Progress", "Completed"];
 
 export default function Projects() {
-  const { t } = useTranslation(["pages", "common"]);
+  const { t, i18n, ready } = useTranslation(["pages", "common"]);
   const [searchTerm, setSearchTerm] = useState("");
   const [selectedIndustry, setSelectedIndustry] = useState("All");
   const [selectedCategory, setSelectedCategory] = useState("All");
@@ -138,7 +138,7 @@ export default function Projects() {
       icon: Calendar,
     },
     { number: 98, suffix: "%", label: t("common:company.stats.successRate"), icon: Target },
-  ], [t]);
+  ], [i18n.resolvedLanguage, ready]);
 
   return (
     <>

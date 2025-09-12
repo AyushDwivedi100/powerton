@@ -69,9 +69,11 @@ const initConfig = {
 
     // Backend configuration for loading translations
     backend: {
-      loadPath: `/locales/{{lng}}/{{ns}}.json?v=${Date.now()}`,
+      loadPath: `/locales/{{lng}}/{{ns}}.json?v=${Date.now()}&bust=${Math.random()}`,
       addPath: '/locales/add/{{lng}}/{{ns}}',
-      cache: false // Disable caching in development
+      cache: false, // Disable caching in development
+      allowMultiLoading: false,
+      reloadInterval: false
     },
 
     // Interpolation options
