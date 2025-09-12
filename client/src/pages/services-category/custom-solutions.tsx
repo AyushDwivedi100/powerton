@@ -209,7 +209,7 @@ export default function CustomSolutions() {
                       <div className="space-y-3">
                         <Link href="/quote">
                           <Button className="w-full">
-                            Request Quote
+                            {t('common:buttons.getQuote')}
                           </Button>
                         </Link>
                         <Link href="/contact">
