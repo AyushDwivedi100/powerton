@@ -256,7 +256,62 @@
     },
     "grounding-systems": {
       "title": "接地系统",
-      "description": "电气安全接地解决方案"
+      "description": "电气安全接地解决方案",
+      "subtitle": "电气接地和设备保护系统的安全接地解决方案",
+      "backButton": "返回安全防护设备",
+      "badges": {
+        "groundRods": "接地棒",
+        "conductors": "导体",
+        "clampsLugs": "卡具和接线头",
+        "safetyGrounding": "安全接地"
+      },
+      "componentsSection": {
+        "title": "接地组件"
+      },
+      "products": {
+        "electrodes": {
+          "name": "接地电极",
+          "description": "电气安全用铜钢接地棒",
+          "features": {
+            "copperBonded": "铜包钢",
+            "steelCore": "钢芯",
+            "multipleLengths": "多种长度",
+            "ulListed": "UL认证"
+          }
+        },
+        "conductors": {
+          "name": "接地导体",
+          "description": "接地系统用裸铜导体",
+          "features": {
+            "solidStranded": "实心/绞合",
+            "highConductivity": "高导电性",
+            "corrosionResistant": "耐腐蚀",
+            "multipleSizes": "多种尺寸"
+          }
+        },
+        "accessories": {
+          "name": "接地附件",
+          "description": "接地安装用夹具、接线头和配件",
+          "features": {
+            "groundClamps": "接地夹",
+            "compressionLugs": "压缩接线头",
+            "testWells": "测试井",
+            "bondsJumpers": "连接线和跳线"
+          }
+        }
+      },
+      "cta": {
+        "title": "需要接地解决方案？",
+        "description": "我们的接地专家可以为您的设施设计安全且符合规范的接地系统。",
+        "contactButton": "联系接地专家",
+        "quoteButton": "请求报价"
+      },
+      "keyFeatures": "主要特点：",
+      "seo": {
+        "title": "接地系统 - 电气安全设备 | 派沃顿工程",
+        "description": "专业的电气安全接地和接地系统。来自领先制造商的铜接地棒、导体、夹具和附件。",
+        "keywords": "接地系统，电气接地，接地系统，接地棒，接地导体，电气安全设备，铜接地棒，接地附件，工业接地"
+      }
     },
     "safety-relays-switches": {
       "title": "安全继电器开关",

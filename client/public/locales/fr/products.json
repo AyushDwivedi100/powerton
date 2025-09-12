@@ -215,7 +215,62 @@
     },
     "grounding-systems": {
       "title": "Systèmes de Mise à la Terre",
-      "description": "Solutions de mise à la terre et de mise à la terre électrique pour la sécurité"
+      "description": "Solutions de mise à la terre et de mise à la terre électrique pour la sécurité",
+      "subtitle": "Systèmes de mise à la terre et de mise à la terre électrique pour la sécurité et la protection des équipements",
+      "backButton": "Retour aux Dispositifs de Sécurité et de Protection",
+      "badges": {
+        "groundRods": "Tiges de Terre",
+        "conductors": "Conducteurs",
+        "clampsLugs": "Pinces et Cosses",
+        "safetyGrounding": "Mise à la Terre de Sécurité"
+      },
+      "componentsSection": {
+        "title": "Composants de Mise à la Terre"
+      },
+      "products": {
+        "electrodes": {
+          "name": "Électrodes de Mise à la Terre",
+          "description": "Tiges de mise à la terre en cuivre et acier pour la sécurité électrique",
+          "features": {
+            "copperBonded": "Lié au Cuivre",
+            "steelCore": "Âme en Acier",
+            "multipleLengths": "Longueurs Multiples",
+            "ulListed": "Certifié UL"
+          }
+        },
+        "conductors": {
+          "name": "Conducteurs de Mise à la Terre",
+          "description": "Conducteurs en cuivre nu pour systèmes de mise à la terre",
+          "features": {
+            "solidStranded": "Massif/Toronné",
+            "highConductivity": "Haute Conductivité",
+            "corrosionResistant": "Résistant à la Corrosion",
+            "multipleSizes": "Tailles Multiples"
+          }
+        },
+        "accessories": {
+          "name": "Accessoires de Mise à la Terre",
+          "description": "Pinces, cosses et raccords pour installations de mise à la terre",
+          "features": {
+            "groundClamps": "Pinces de Terre",
+            "compressionLugs": "Cosses de Compression",
+            "testWells": "Puits de Test",
+            "bondsJumpers": "Liaisons et Cavaliers"
+          }
+        }
+      },
+      "cta": {
+        "title": "Besoin de Solutions de Mise à la Terre ?",
+        "description": "Nos spécialistes de la mise à la terre peuvent concevoir des systèmes de mise à la terre sûrs et conformes au code pour votre installation.",
+        "contactButton": "Contacter les Experts en Mise à la Terre",
+        "quoteButton": "Demander un Devis"
+      },
+      "keyFeatures": "Caractéristiques Principales :",
+      "seo": {
+        "title": "Systèmes de Mise à la Terre - Équipements de Sécurité Électrique | Powerton Engineering",
+        "description": "Systèmes professionnels de mise à la terre et de mise à la terre pour la sécurité électrique. Tiges de terre en cuivre, conducteurs, pinces et accessoires de fabricants leaders.",
+        "keywords": "systèmes de mise à la terre, mise à la terre électrique, systèmes de mise à la terre, tiges de terre, conducteurs de mise à la terre, équipements de sécurité électrique, tiges de terre en cuivre, accessoires de mise à la terre, mise à la terre industrielle"
+      }
     },
     "safety-relays-switches": {
       "title": "Relais et Commutateurs de Sécurité",

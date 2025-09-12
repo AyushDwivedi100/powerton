@@ -279,7 +279,62 @@
     },
     "grounding-systems": {
       "title": "Grounding Systems",
-      "description": "Electrical grounding and earthing systems"
+      "description": "Electrical grounding and earthing systems",
+      "subtitle": "Electrical grounding and earthing systems for safety and equipment protection",
+      "backButton": "Back to Safety & Protective Devices",
+      "badges": {
+        "groundRods": "Ground Rods",
+        "conductors": "Conductors",
+        "clampsLugs": "Clamps & Lugs",
+        "safetyGrounding": "Safety Grounding"
+      },
+      "componentsSection": {
+        "title": "Grounding Components"
+      },
+      "products": {
+        "electrodes": {
+          "name": "Grounding Electrodes",
+          "description": "Copper and steel grounding rods for electrical safety",
+          "features": {
+            "copperBonded": "Copper Bonded",
+            "steelCore": "Steel Core",
+            "multipleLengths": "Multiple Lengths",
+            "ulListed": "UL Listed"
+          }
+        },
+        "conductors": {
+          "name": "Grounding Conductors",
+          "description": "Bare copper conductors for grounding systems",
+          "features": {
+            "solidStranded": "Solid/Stranded",
+            "highConductivity": "High Conductivity",
+            "corrosionResistant": "Corrosion Resistant",
+            "multipleSizes": "Multiple Sizes"
+          }
+        },
+        "accessories": {
+          "name": "Grounding Accessories",
+          "description": "Clamps, lugs, and fittings for grounding installations",
+          "features": {
+            "groundClamps": "Ground Clamps",
+            "compressionLugs": "Compression Lugs",
+            "testWells": "Test Wells",
+            "bondsJumpers": "Bonds & Jumpers"
+          }
+        }
+      },
+      "cta": {
+        "title": "Need Grounding Solutions?",
+        "description": "Our grounding specialists can design safe and code-compliant grounding systems for your facility.",
+        "contactButton": "Contact Grounding Experts",
+        "quoteButton": "Request Quote"
+      },
+      "keyFeatures": "Key Features:",
+      "seo": {
+        "title": "Grounding Systems - Electrical Safety Equipment | Powerton Engineering",
+        "description": "Professional grounding and earthing systems for electrical safety. Copper grounding rods, conductors, clamps & accessories from leading manufacturers.",
+        "keywords": "grounding systems, electrical grounding, earthing systems, ground rods, grounding conductors, electrical safety equipment, copper grounding rods, grounding accessories, industrial grounding"
+      }
     },
     "safety-relays-switches": {
       "title": "Safety Relays & Switches",

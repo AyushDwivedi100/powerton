@@ -215,7 +215,62 @@
     },
     "grounding-systems": {
       "title": "Sistemas de Puesta a Tierra",
-      "description": "Soluciones de puesta a tierra eléctrica para seguridad"
+      "description": "Soluciones de puesta a tierra eléctrica para seguridad",
+      "subtitle": "Sistemas de puesta a tierra y conexión a tierra eléctrica para seguridad y protección de equipos",
+      "backButton": "Volver a Dispositivos de Seguridad y Protección",
+      "badges": {
+        "groundRods": "Varillas de Tierra",
+        "conductors": "Conductores",
+        "clampsLugs": "Abrazaderas y Terminales",
+        "safetyGrounding": "Puesta a Tierra de Seguridad"
+      },
+      "componentsSection": {
+        "title": "Componentes de Puesta a Tierra"
+      },
+      "products": {
+        "electrodes": {
+          "name": "Electrodos de Puesta a Tierra",
+          "description": "Varillas de puesta a tierra de cobre y acero para seguridad eléctrica",
+          "features": {
+            "copperBonded": "Recubierto de Cobre",
+            "steelCore": "Núcleo de Acero",
+            "multipleLengths": "Múltiples Longitudes",
+            "ulListed": "Certificado UL"
+          }
+        },
+        "conductors": {
+          "name": "Conductores de Puesta a Tierra",
+          "description": "Conductores de cobre desnudo para sistemas de puesta a tierra",
+          "features": {
+            "solidStranded": "Sólido/Trenzado",
+            "highConductivity": "Alta Conductividad",
+            "corrosionResistant": "Resistente a la Corrosión",
+            "multipleSizes": "Múltiples Tamaños"
+          }
+        },
+        "accessories": {
+          "name": "Accesorios de Puesta a Tierra",
+          "description": "Abrazaderas, terminales y accesorios para instalaciones de puesta a tierra",
+          "features": {
+            "groundClamps": "Abrazaderas de Tierra",
+            "compressionLugs": "Terminales de Compresión",
+            "testWells": "Pozos de Prueba",
+            "bondsJumpers": "Puentes y Conexiones"
+          }
+        }
+      },
+      "cta": {
+        "title": "¿Necesita Soluciones de Puesta a Tierra?",
+        "description": "Nuestros especialistas en puesta a tierra pueden diseñar sistemas de puesta a tierra seguros y conformes con el código para su instalación.",
+        "contactButton": "Contactar Expertos en Puesta a Tierra",
+        "quoteButton": "Solicitar Cotización"
+      },
+      "keyFeatures": "Características Principales:",
+      "seo": {
+        "title": "Sistemas de Puesta a Tierra - Equipos de Seguridad Eléctrica | Powerton Engineering",
+        "description": "Sistemas profesionales de puesta a tierra y conexión a tierra para seguridad eléctrica. Varillas de tierra de cobre, conductores, abrazaderas y accesorios de fabricantes líderes.",
+        "keywords": "sistemas de puesta a tierra, puesta a tierra eléctrica, sistemas de conexión a tierra, varillas de tierra, conductores de puesta a tierra, equipos de seguridad eléctrica, varillas de tierra de cobre, accesorios de puesta a tierra, puesta a tierra industrial"
+      }
     },
     "safety-relays-switches": {
       "title": "Relés y Interruptores de Seguridad",

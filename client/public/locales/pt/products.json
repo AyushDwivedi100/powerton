@@ -215,7 +215,62 @@
     },
     "grounding-systems": {
       "title": "Sistemas de Aterramento",
-      "description": "Soluções de aterramento elétrico e aterramento para segurança"
+      "description": "Soluções de aterramento elétrico e aterramento para segurança",
+      "subtitle": "Sistemas de aterramento elétrico e aterramento para segurança e proteção de equipamentos",
+      "backButton": "Voltar para Dispositivos de Segurança e Proteção",
+      "badges": {
+        "groundRods": "Hastes de Terra",
+        "conductors": "Condutores",
+        "clampsLugs": "Grampos e Terminais",
+        "safetyGrounding": "Aterramento de Segurança"
+      },
+      "componentsSection": {
+        "title": "Componentes de Aterramento"
+      },
+      "products": {
+        "electrodes": {
+          "name": "Eletrodos de Aterramento",
+          "description": "Hastes de aterramento de cobre e aço para segurança elétrica",
+          "features": {
+            "copperBonded": "Revestido com Cobre",
+            "steelCore": "Núcleo de Aço",
+            "multipleLengths": "Múltiplos Comprimentos",
+            "ulListed": "Certificado UL"
+          }
+        },
+        "conductors": {
+          "name": "Condutores de Aterramento",
+          "description": "Condutores de cobre nu para sistemas de aterramento",
+          "features": {
+            "solidStranded": "Sólido/Encordoado",
+            "highConductivity": "Alta Condutividade",
+            "corrosionResistant": "Resistente à Corrosão",
+            "multipleSizes": "Múltiplos Tamanhos"
+          }
+        },
+        "accessories": {
+          "name": "Acessórios de Aterramento",
+          "description": "Grampos, terminais e conexões para instalações de aterramento",
+          "features": {
+            "groundClamps": "Grampos de Terra",
+            "compressionLugs": "Terminais de Compressão",
+            "testWells": "Poços de Teste",
+            "bondsJumpers": "Ligações e Pontes"
+          }
+        }
+      },
+      "cta": {
+        "title": "Precisa de Soluções de Aterramento?",
+        "description": "Nossos especialistas em aterramento podem projetar sistemas de aterramento seguros e em conformidade com códigos para sua instalação.",
+        "contactButton": "Contatar Especialistas em Aterramento",
+        "quoteButton": "Solicitar Orçamento"
+      },
+      "keyFeatures": "Características Principais:",
+      "seo": {
+        "title": "Sistemas de Aterramento - Equipamentos de Segurança Elétrica | Powerton Engineering",
+        "description": "Sistemas profissionais de aterramento e aterramento para segurança elétrica. Hastes de aterramento de cobre, condutores, grampos e acessórios de fabricantes líderes.",
+        "keywords": "sistemas de aterramento, aterramento elétrico, sistemas de aterramento, hastes de terra, condutores de aterramento, equipamentos de segurança elétrica, hastes de aterramento de cobre, acessórios de aterramento, aterramento industrial"
+      }
     },
     "safety-relays-switches": {
       "title": "Relés e Chaves de Segurança",
