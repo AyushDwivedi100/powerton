@@ -123,7 +123,8 @@
     "close": "关闭",
     "imageNotFound": "未找到图像",
     "loading": "加载中...",
-    "error": "发生错误"
+    "error": "发生错误",
+    "engineeringAdvisor": "工程顾问"
   },
   "aria": {
     "controllerSystems": "Controllers & Recorders",
@@ -201,25 +202,60 @@
     "relatedProducts": "相关产品"
   },
   "chatbot": {
-    "welcome": "Welcome to Powerton Engineering! How can I help you today?",
-    "typeMessage": "Type your message...",
-    "sendMessage": "Send message",
-    "openChat": "Open chat",
-    "closeChat": "Close chat",
-    "typing": "Typing...",
-    "defaultOptions": {
-      "products": "Products & Catalog",
-      "services": "Our Services",
-      "contact": "Contact Information",
-      "quote": "Request Quote",
-      "support": "Technical Support"
+    "welcome": "欢迎来到宝尔顿工程！今天我能为您提供什么帮助？",
+    "welcomeMessage": "欢迎来到宝尔顿工程！今天我能为您提供什么帮助？",
+    "typeMessage": "输入您的消息...",
+    "sendMessage": "发送消息",
+    "openChat": "打开聊天",
+    "closeChat": "关闭聊天",
+    "typing": "正在输入...",
+    "options": {
+      "findProduct": "🔍 查找产品",
+      "chooseService": "⚙️ 选择服务",
+      "troubleshooting": "🔧 故障排除",
+      "aboutCompany": "🏢 关于公司",
+      "sensorsCategory": "🌡️ 传感器和变送器",
+      "electricalCategory": "⚡ 电气元件",
+      "automationCategory": "🤖 自动化系统",
+      "solarCategory": "☀️ 太阳能产品",
+      "safetyCategory": "🛡️ 安全设备",
+      "browseAllProducts": "📦 浏览所有产品",
+      "installationService": "🔧 安装和调试",
+      "maintenanceService": "🛠️ 维护和维修",
+      "calibrationService": "⚖️ 校准和测试",
+      "trainingService": "📚 培训和咨询",
+      "solarService": "☀️ 太阳能EPC服务",
+      "viewAllServices": "📋 查看所有服务",
+      "backToMainMenu": "🏠 返回主菜单",
+      "electricalIssues": "⚡ 电气问题",
+      "sensorProblems": "🌡️ 传感器问题",
+      "controlSystemIssues": "🖥️ 控制系统问题",
+      "solarSystemProblems": "☀️ 太阳能系统问题",
+      "equipmentSelectionHelp": "🎯 设备选择帮助",
+      "speakWithExpert": "👨‍💼 与专家交谈",
+      "ourAchievements": "🏆 我们的成就",
+      "meetOurTeam": "👥 认识我们的团队",
+      "ourClients": "🤝 我们的客户",
+      "visitOurOffice": "📍 访问我们的办公室",
+      "contactUs": "📞 联系我们"
     },
     "responses": {
-      "products": "We offer a comprehensive range of industrial automation products, electrical components, instrumentation, solar systems, and more. What specific products are you looking for?",
-      "services": "Our services include installation, maintenance, calibration, technical support, and custom solutions. Which service interests you?",
-      "contact": "You can reach us at +91-94627-71662 or email us at info@powertonengineering.com. Our headquarters is located in Noida, India, and we serve clients worldwide.",
-      "quote": "I'd be happy to help you get a quote! Please visit our quote page or provide me with your requirements.",
-      "support": "Our technical support team is here to help! Please describe your technical question or issue."
+      "products": "我们提供全面的工业自动化产品、电气元件、仪器仪表、太阳能系统等。您正在寻找哪些特定产品？",
+      "services": "我们的服务包括安装、维护、校准、技术支持和定制解决方案。您对哪项服务感兴趣？",
+      "contact": "您可以通过 +91-94627-71662 联系我们，或发送邮件至 info@powertonengineering.com。我们的总部位于印度诺伊达，为全球客户提供服务。",
+      "quote": "我很乐意帮助您获取报价！请访问我们的报价页面或向我提供您的需求。",
+      "support": "我们的技术支持团队随时为您提供帮助！请描述您的技术问题或疑问。",
+      "productSelection": "很好！我们在多个类别中拥有广泛的工业产品。您最感兴趣的是哪个类别？",
+      "serviceSelection": "我们提供全面的工程服务，从头到尾支持您的项目。我们可以在哪项服务上为您提供帮助？",
+      "troubleshootingMain": "我在这里帮助您解决技术问题。您遇到了什么类型的问题？",
+      "companyInfo": "宝尔顿工程是工业自动化和电气工程领域的领导企业，拥有15年以上的经验。我们为全球客户提供全面的解决方案。"
+    },
+    "defaultOptions": {
+      "products": "产品与目录",
+      "services": "我们的服务",
+      "contact": "联系信息",
+      "quote": "请求报价",
+      "support": "技术支持"
     }
   },
   "productSections": {

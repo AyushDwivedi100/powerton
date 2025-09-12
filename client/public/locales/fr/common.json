@@ -84,7 +84,8 @@
   "success": "Succès !",
   "messages": {
     "toggleTheme": "Changer de Thème",
-    "close": "Fermer"
+    "close": "Fermer",
+    "engineeringAdvisor": "Conseiller en ingénierie"
   },
   "aria": {
     "toggleNavigation": "Basculer l'assistant de navigation",
@@ -163,24 +164,59 @@
   },
   "chatbot": {
     "welcome": "Bienvenue chez Powerton Engineering ! Comment puis-je vous aider aujourd'hui ?",
+    "welcomeMessage": "Bienvenue chez Powerton Engineering ! Comment puis-je vous aider aujourd'hui ?",
     "typeMessage": "Tapez votre message...",
     "sendMessage": "Envoyer le message",
     "openChat": "Ouvrir le chat",
     "closeChat": "Fermer le chat",
     "typing": "En train de taper...",
+    "options": {
+      "findProduct": "🔍 Trouver des produits",
+      "chooseService": "⚙️ Choisir un service",
+      "troubleshooting": "🔧 Dépannage",
+      "aboutCompany": "🏢 À propos de l'entreprise",
+      "sensorsCategory": "🌡️ Capteurs et transmetteurs",
+      "electricalCategory": "⚡ Composants électriques",
+      "automationCategory": "🤖 Systèmes d'automatisation",
+      "solarCategory": "☀️ Produits solaires",
+      "safetyCategory": "🛡️ Équipements de sécurité",
+      "browseAllProducts": "📦 Parcourir tous les produits",
+      "installationService": "🔧 Installation et mise en service",
+      "maintenanceService": "🛠️ Maintenance et réparation",
+      "calibrationService": "⚖️ Étalonnage et test",
+      "trainingService": "📚 Formation et conseil",
+      "solarService": "☀️ Services EPC solaires",
+      "viewAllServices": "📋 Voir tous les services",
+      "backToMainMenu": "🏠 Retour au menu principal",
+      "electricalIssues": "⚡ Problèmes électriques",
+      "sensorProblems": "🌡️ Problèmes de capteurs",
+      "controlSystemIssues": "🖥️ Problèmes de système de contrôle",
+      "solarSystemProblems": "☀️ Problèmes de système solaire",
+      "equipmentSelectionHelp": "🎯 Aide à la sélection d'équipement",
+      "speakWithExpert": "👨‍💼 Parler avec un expert",
+      "ourAchievements": "🏆 Nos réalisations",
+      "meetOurTeam": "👥 Rencontrez notre équipe",
+      "ourClients": "🤝 Nos clients",
+      "visitOurOffice": "📍 Visitez notre bureau",
+      "contactUs": "📞 Contactez-nous"
+    },
+    "responses": {
+      "products": "Nous offrons une gamme complète de produits d'automatisation industrielle, composants électriques, instrumentation, systèmes solaires et plus. Quels produits spécifiques recherchez-vous ?",
+      "services": "Nos services incluent l'installation, la maintenance, l'étalonnage, le support technique et les solutions personnalisées. Quel service vous intéresse ?",
+      "contact": "Vous pouvez nous contacter au +91-94627-71662 ou nous envoyer un e-mail à info@powertonengineering.com. Notre siège social est situé à Noida, Inde, et nous servons des clients dans le monde entier.",
+      "quote": "Je serais ravi de vous aider à obtenir un devis ! Veuillez visiter notre page de devis ou me fournir vos exigences.",
+      "support": "Notre équipe de support technique est là pour vous aider ! Veuillez décrire votre question technique ou votre problème.",
+      "productSelection": "Excellent ! Nous avons une large gamme de produits industriels dans plusieurs catégories. Quelle catégorie vous intéresse le plus ?",
+      "serviceSelection": "Nous offrons des services d'ingénierie complets pour soutenir vos projets du début à la fin. Dans quel service pouvons-nous vous aider ?",
+      "troubleshootingMain": "Je suis ici pour vous aider à résoudre vos problèmes techniques. Quel type de problème rencontrez-vous ?",
+      "companyInfo": "Powerton Engineering est une entreprise leader en automatisation industrielle et ingénierie électrique avec plus de 15 ans d'expérience. Nous servons des clients dans le monde entier avec des solutions complètes."
+    },
     "defaultOptions": {
       "products": "Produits et catalogue",
       "services": "Nos services",
       "contact": "Informations de contact",
       "quote": "Demander un devis",
       "support": "Support technique"
-    },
-    "responses": {
-      "products": "Nous offrons une gamme complète de produits d'automatisation industrielle, composants électriques, instrumentation, systèmes solaires et plus. Quels produits spécifiques recherchez-vous ?",
-      "services": "Nos services incluent l'installation, la maintenance, l'étalonnage, le support technique et les solutions personnalisées. Quel service vous intéresse ?",
-      "contact": "Vous pouvez nous contacter au +91-9911315121 ou nous envoyer un e-mail à info@powertonengineering.com. Notre bureau est situé à Delhi, Inde.",
-      "quote": "Je serais ravi de vous aider à obtenir un devis ! Veuillez visiter notre page de devis ou me fournir vos exigences.",
-      "support": "Notre équipe de support technique est là pour vous aider ! Veuillez décrire votre question technique ou votre problème."
     }
   },
   "seo": {

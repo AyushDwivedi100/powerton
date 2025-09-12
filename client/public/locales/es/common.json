@@ -120,7 +120,8 @@
   "success": "¡Éxito!",
   "messages": {
     "toggleTheme": "Cambiar Tema",
-    "close": "Cerrar"
+    "close": "Cerrar",
+    "engineeringAdvisor": "Asesor de Ingeniería"
   },
   "aria": {
     "previousTestimonial": "Testimonio anterior",
@@ -198,25 +199,60 @@
     "relatedProducts": "Productos relacionados"
   },
   "chatbot": {
-    "welcome": "Welcome to Powerton Engineering! How can I help you today?",
-    "typeMessage": "Type your message...",
-    "sendMessage": "Send message",
-    "openChat": "Open chat",
-    "closeChat": "Close chat",
-    "typing": "Typing...",
-    "defaultOptions": {
-      "products": "Products & Catalog",
-      "services": "Our Services",
-      "contact": "Contact Information",
-      "quote": "Request Quote",
-      "support": "Technical Support"
+    "welcome": "¡Bienvenido a Powerton Engineering! ¿Cómo puedo ayudarte hoy?",
+    "welcomeMessage": "¡Bienvenido a Powerton Engineering! ¿Cómo puedo ayudarte hoy?",
+    "typeMessage": "Escribe tu mensaje...",
+    "sendMessage": "Enviar mensaje",
+    "openChat": "Abrir chat",
+    "closeChat": "Cerrar chat",
+    "typing": "Escribiendo...",
+    "options": {
+      "findProduct": "🔍 Encontrar productos",
+      "chooseService": "⚙️ Elegir servicio",
+      "troubleshooting": "🔧 Solución de problemas",
+      "aboutCompany": "🏢 Acerca de la empresa",
+      "sensorsCategory": "🌡️ Sensores y transmisores",
+      "electricalCategory": "⚡ Componentes eléctricos",
+      "automationCategory": "🤖 Sistemas de automatización",
+      "solarCategory": "☀️ Productos solares",
+      "safetyCategory": "🛡️ Equipos de seguridad",
+      "browseAllProducts": "📦 Ver todos los productos",
+      "installationService": "🔧 Instalación y puesta en marcha",
+      "maintenanceService": "🛠️ Mantenimiento y reparación",
+      "calibrationService": "⚖️ Calibración y pruebas",
+      "trainingService": "📚 Entrenamiento y consultoría",
+      "solarService": "☀️ Servicios EPC solares",
+      "viewAllServices": "📋 Ver todos los servicios",
+      "backToMainMenu": "🏠 Volver al menú principal",
+      "electricalIssues": "⚡ Problemas eléctricos",
+      "sensorProblems": "🌡️ Problemas de sensores",
+      "controlSystemIssues": "🖥️ Problemas del sistema de control",
+      "solarSystemProblems": "☀️ Problemas del sistema solar",
+      "equipmentSelectionHelp": "🎯 Ayuda en selección de equipos",
+      "speakWithExpert": "👨‍💼 Hablar con un experto",
+      "ourAchievements": "🏆 Nuestros logros",
+      "meetOurTeam": "👥 Conoce nuestro equipo",
+      "ourClients": "🤝 Nuestros clientes",
+      "visitOurOffice": "📍 Visita nuestra oficina",
+      "contactUs": "📞 Contáctanos"
     },
     "responses": {
-      "products": "We offer a comprehensive range of industrial automation products, electrical components, instrumentation, solar systems, and more. What specific products are you looking for?",
-      "services": "Our services include installation, maintenance, calibration, technical support, and custom solutions. Which service interests you?",
-      "contact": "You can reach us at +91-94627-71662 or email us at info@powertonengineering.com. Our headquarters is located in Noida, India, and we serve clients worldwide.",
-      "quote": "I'd be happy to help you get a quote! Please visit our quote page or provide me with your requirements.",
-      "support": "Our technical support team is here to help! Please describe your technical question or issue."
+      "products": "Ofrecemos una amplia gama de productos de automatización industrial, componentes eléctricos, instrumentación, sistemas solares y más. ¿Qué productos específicos estás buscando?",
+      "services": "Nuestros servicios incluyen instalación, mantenimiento, calibración, soporte técnico y soluciones personalizadas. ¿Qué servicio te interesa?",
+      "contact": "Puedes contactarnos al +91-94627-71662 o enviarnos un email a info@powertonengineering.com. Nuestra sede principal está en Noida, India, y servimos clientes en todo el mundo.",
+      "quote": "¡Estaré encantado de ayudarte a obtener una cotización! Por favor visita nuestra página de cotizaciones o proporciona tus requerimientos.",
+      "support": "¡Nuestro equipo de soporte técnico está aquí para ayudarte! Por favor describe tu pregunta técnica o problema.",
+      "productSelection": "¡Excelente! Tenemos una amplia gama de productos industriales en múltiples categorías. ¿Qué categoría te interesa más?",
+      "serviceSelection": "Ofrecemos servicios de ingeniería integral para apoyar tus proyectos de principio a fin. ¿En qué servicio podemos ayudarte?",
+      "troubleshootingMain": "Estoy aquí para ayudarte a resolver tus problemas técnicos. ¿Qué tipo de problema estás enfrentando?",
+      "companyInfo": "Powerton Engineering es una empresa líder en automatización industrial e ingeniería eléctrica con más de 15 años de experiencia. Servimos clientes en todo el mundo con soluciones integrales."
+    },
+    "defaultOptions": {
+      "products": "Productos y catálogo",
+      "services": "Nuestros servicios",
+      "contact": "Información de contacto",
+      "quote": "Solicitar cotización",
+      "support": "Soporte técnico"
     }
   },
   "productSections": {
