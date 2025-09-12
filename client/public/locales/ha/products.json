@@ -215,7 +215,62 @@
     },
     "grounding-systems": {
       "title": "Tsarin Grounding",
-      "description": "Suluhisho grounding wutar lantarki don aminci"
+      "description": "Suluhisho grounding wutar lantarki don aminci",
+      "subtitle": "Tsarin grounding wutar lantarki da grounding don aminci da kariya kayan",
+      "backButton": "Koma zuwa Kayan Aminci da Kariya",
+      "badges": {
+        "groundRods": "Sandunan Kasa",
+        "conductors": "Masu Jagoranci",
+        "clampsLugs": "Manne da Lugs",
+        "safetyGrounding": "Grounding Aminci"
+      },
+      "componentsSection": {
+        "title": "Kayan Grounding"
+      },
+      "products": {
+        "electrodes": {
+          "name": "Electrodes Grounding",
+          "description": "Sandunan grounding tagulla da karfe don amincin wutar lantarki",
+          "features": {
+            "copperBonded": "Haɗaɗɗen Tagulla",
+            "steelCore": "Tsakiyar Karfe",
+            "multipleLengths": "Tsayin Daban-daban",
+            "ulListed": "Shaida UL"
+          }
+        },
+        "conductors": {
+          "name": "Masu Jagoranci Grounding",
+          "description": "Masu jagoranci tagulla mara sutura don tsarin grounding",
+          "features": {
+            "solidStranded": "Kauri/Naɗaɗɗe",
+            "highConductivity": "Babban Aiki",
+            "corrosionResistant": "Juriya Lalata",
+            "multipleSizes": "Girman Daban-daban"
+          }
+        },
+        "accessories": {
+          "name": "Kayan Grounding",
+          "description": "Manne, lugs da haɗin don shigar grounding",
+          "features": {
+            "groundClamps": "Manne Kasa",
+            "compressionLugs": "Lugs Matse",
+            "testWells": "Rijiyoyin Gwaji",
+            "bondsJumpers": "Haɗi da Masu Tsalle"
+          }
+        }
+      },
+      "cta": {
+        "title": "Kuna Bukatar Suluhisho Grounding?",
+        "description": "Kwararrun grounding namu za su iya zana tsarin grounding mai aminci da dacewa da ka'ida don shigar ku.",
+        "contactButton": "Tuntuɓar Kwararrun Grounding",
+        "quoteButton": "Nemi Farashin"
+      },
+      "keyFeatures": "Manyan Fasali:",
+      "seo": {
+        "title": "Tsarin Grounding - Kayan Amincin Wutar Lantarki | Powerton Engineering",
+        "description": "Tsarin grounding da grounding na ƙwararru don amincin wutar lantarki. Sandunan grounding tagulla, masu jagoranci, manne da kayan daga manyan masana'antun.",
+        "keywords": "tsarin grounding, grounding wutar lantarki, tsarin grounding, sandunan kasa, masu jagoranci grounding, kayan amincin wutar lantarki, sandunan grounding tagulla, kayan grounding, grounding masana'antu"
+      }
     },
     "safety-relays-switches": {
       "title": "Relays da Switches Aminci",

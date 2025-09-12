@@ -245,7 +245,62 @@
     },
     "grounding-systems": {
       "title": "Mifumo ya Kujitegemeza Ardhini",
-      "description": "Suluhisho za kujitegemeza ardhini kwa umeme kwa usalama"
+      "description": "Suluhisho za kujitegemeza ardhini kwa umeme kwa usalama",
+      "subtitle": "Mifumo ya kujitegemeza ardhini ya umeme na kujitegemeza ardhini kwa usalama na ulinzi wa vifaa",
+      "backButton": "Rudi kwa Vifaa vya Usalama na Ulinzi",
+      "badges": {
+        "groundRods": "Fimbo za Ardhi",
+        "conductors": "Waongozaji",
+        "clampsLugs": "Vifungo na Vichungi",
+        "safetyGrounding": "Kujitegemeza Ardhini kwa Usalama"
+      },
+      "componentsSection": {
+        "title": "Vipengele vya Kujitegemeza Ardhini"
+      },
+      "products": {
+        "electrodes": {
+          "name": "Elektrodi za Kujitegemeza Ardhini",
+          "description": "Fimbo za kujitegemeza ardhini za shaba na chuma kwa usalama wa umeme",
+          "features": {
+            "copperBonded": "Zilizounganishwa na Shaba",
+            "steelCore": "Kiini cha Chuma",
+            "multipleLengths": "Urefu Mbalimbali",
+            "ulListed": "Iliyothibitishwa UL"
+          }
+        },
+        "conductors": {
+          "name": "Waongozaji wa Kujitegemeza Ardhini",
+          "description": "Waongozaji wa shaba tupu kwa mifumo ya kujitegemeza ardhini",
+          "features": {
+            "solidStranded": "Imara/Iliyosokotwa",
+            "highConductivity": "Uongozaji wa Hali ya Juu",
+            "corrosionResistant": "Upinzani wa Kutu",
+            "multipleSizes": "Ukubwa Mbalimbali"
+          }
+        },
+        "accessories": {
+          "name": "Vifaa vya Kujitegemeza Ardhini",
+          "description": "Vifungo, vichungi na viunganishi kwa usakinishaji wa kujitegemeza ardhini",
+          "features": {
+            "groundClamps": "Vifungo vya Ardhi",
+            "compressionLugs": "Vichungi vya Kukandamiza",
+            "testWells": "Visima vya Kupima",
+            "bondsJumpers": "Viungo na Vipandaji"
+          }
+        }
+      },
+      "cta": {
+        "title": "Unahitaji Suluhisho za Kujitegemeza Ardhini?",
+        "description": "Wataalamu wetu wa kujitegemeza ardhini wanaweza kubuni mifumo ya kujitegemeza ardhini salama na inayofuata kanuni kwa usakinishaji wako.",
+        "contactButton": "Wasiliana na Wataalamu wa Kujitegemeza Ardhini",
+        "quoteButton": "Omba Bei"
+      },
+      "keyFeatures": "Vipengele Vikuu:",
+      "seo": {
+        "title": "Mifumo ya Kujitegemeza Ardhini - Vifaa vya Usalama wa Umeme | Powerton Engineering",
+        "description": "Mifumo ya kitaalamu ya kujitegemeza ardhini na kujitegemeza ardhini kwa usalama wa umeme. Fimbo za kujitegemeza ardhini za shaba, waongozaji, vifungo na vifaa kutoka kwa wazalishaji wakuu.",
+        "keywords": "mifumo ya kujitegemeza ardhini, kujitegemeza ardhini kwa umeme, mifumo ya kujitegemeza ardhini, fimbo za ardhi, waongozaji wa kujitegemeza ardhini, vifaa vya usalama wa umeme, fimbo za kujitegemeza ardhini za shaba, vifaa vya kujitegemeza ardhini, kujitegemeza ardhini kwa viwandani"
+      }
     },
     "safety-relays-switches": {
       "title": "Relays na Swichi za Usalama",
