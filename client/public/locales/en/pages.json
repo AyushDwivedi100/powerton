@@ -167,6 +167,53 @@
     "tabs": {
       "portfolio": "Project Portfolio",
       "showcase": "Featured Projects"
+    },
+    "categories": {
+      "powerautomation": "Power Automation",
+      "processautomation": "Process Automation",
+      "solarsolutions": "Solar Solutions"
+    },
+    "technologies": {
+      "plcs": "PLCs",
+      "scada": "SCADA",
+      "mccpanels": "MCC Panels",
+      "protectionsystems": "Protection Systems",
+      "energymanagement": "Energy Management",
+      "solarinverters": "Solar Inverters",
+      "gridsync": "Grid Sync",
+      "weathermonitoring": "Weather Monitoring",
+      "processcontrol": "Process Control",
+      "safetysystems": "Safety Systems",
+      "environmentalmonitoring": "Environmental Monitoring",
+      "industrialiot": "Industrial IoT",
+      "predictiveanalytics": "Predictive Analytics",
+      "edgecomputing": "Edge Computing"
+    },
+    "statuses": {
+      "inprogress": "In Progress"
+    },
+    "items": {
+      "solar-plant-demo": {
+        "title": "Sample: Solar Plant Control System",
+        "client": "Future Renewable Client",
+        "description": "Sample solar tracking automation system demonstrating weather monitoring and grid synchronization capabilities for renewable energy projects.",
+        "location": "Multiple Sites",
+        "duration": "6-10 months"
+      },
+      "process-control-demo": {
+        "title": "Demo: Process Control Solution",
+        "client": "Future Industrial Partner",
+        "description": "Demonstration of complete process automation capabilities including safety systems, environmental monitoring, and batch control for industrial applications.",
+        "location": "Project Site TBD",
+        "duration": "8-12 months"
+      },
+      "smart-factory-progress": {
+        "title": "Demo: Smart Factory Integration",
+        "client": "Current Development Client",
+        "description": "Ongoing demonstration of smart factory integration showcasing IoT connectivity, predictive maintenance, and data-driven optimization for modern manufacturing.",
+        "location": "Development Site",
+        "duration": "14 months"
+      }
     }
   },
   "home": {
