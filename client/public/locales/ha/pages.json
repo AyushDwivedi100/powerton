@@ -1,4 +1,33 @@
 {
+  "news": {
+    "hero": {
+      "title": "Labarai",
+      "titleHighlight": "Sabuntawa",
+      "subtitle": "Kasance a kan labarin sabuwar nasarorinmu, ayyukan da za mu yi, amincin masana'antu, da manufarmu ta dabaru don makomar sarrafa masana'antu.",
+      "badges": {
+        "awardWinning": "Mai Karɓar Lamuni",
+        "growingStrong": "Girma Mai Ƙarfi",
+        "futureReady": "Shirye don Gobe"
+      }
+    },
+    "latestNews": {
+      "excellenceAward": {
+        "title": "Powerton Engineering Ta Ci Lamunin Nagarta 2024",
+        "category": "Lamuni",
+        "excerpt": "An gane ta saboda kerari na musamman a cikin sarrafa masana'antu da maganganun injiniyan lantarki."
+      },
+      "ntpcContract": {
+        "title": "Babban Kwangilar NTPC Da Aka Kama don Sarrafa Masana'antar Wutar Lantarki",
+        "category": "Kwangiloli",
+        "excerpt": "An ba da cikakkiyar kwangilar sarrafa don aikin sabunta masana'antar wutar lantarki ta 500MW."
+      },
+      "renewableExpansion": {
+        "title": "Faɗaɗa Maganganun Makamashin da za a Sabunta a Duk Indiya",
+        "category": "Faɗaɗa",
+        "excerpt": "Sabbin damar EPC na hasken rana da haɗin gwiwa don tallafawa canjin makamashin India da za a sabunta."
+      }
+    }
+  },
   "home": {
     "hero": {
       "title": {

@@ -1,4 +1,33 @@
 {
+  "news": {
+    "hero": {
+      "title": "Habari",
+      "titleHighlight": "Masasisho",
+      "subtitle": "Juu na maarifa kuhusu mafanikio yetu ya hivi karibuni, miradi ijayo, utambuzi wa sekta, na maono yetu ya kimkakati kwa mustakabali wa ufundi wa viwanda.",
+      "badges": {
+        "awardWinning": "Mshindi wa Tuzo",
+        "growingStrong": "Ukuaji Mkuu",
+        "futureReady": "Tayari kwa Mustakabali"
+      }
+    },
+    "latestNews": {
+      "excellenceAward": {
+        "title": "Powerton Engineering Inashinda Tuzo ya Ubora 2024",
+        "category": "Tuzo",
+        "excerpt": "Kutambuliwa kwa ubunifu wa kipekee katika ufundi wa viwanda na mifumo ya umeme."
+      },
+      "ntpcContract": {
+        "title": "Mkataba Mkuu wa NTPC Umehifadhiwa kwa Ufundi wa Mitambo",
+        "category": "Mikataba",
+        "excerpt": "Imetunukiwa mkataba kamili wa ufundi kwa mradi wa kukarabati kiwanda cha nishati cha joto cha 500MW."
+      },
+      "renewableExpansion": {
+        "title": "Kupanua Mifumo ya Nishati Inayoweza Kufufuka nchini India",
+        "category": "Upanuzi",
+        "excerpt": "Uwezo mpya wa EPC wa jua na ushirikiano wa kusaidia mpito wa India wa nishati inayoweza kufufuka."
+      }
+    }
+  },
   "home": {
     "hero": {
       "title": {

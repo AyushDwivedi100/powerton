@@ -1,4 +1,33 @@
 {
+  "news": {
+    "hero": {
+      "title": "Notícias",
+      "titleHighlight": "Atualizações",
+      "subtitle": "Mantenha-se informado sobre nossas conquistas mais recentes, projetos futuros, reconhecimento da indústria e nossa visão estratégica para o futuro da automação industrial.",
+      "badges": {
+        "awardWinning": "Premiada",
+        "growingStrong": "Crescimento Forte",
+        "futureReady": "Pronta para o Futuro"
+      }
+    },
+    "latestNews": {
+      "excellenceAward": {
+        "title": "Powerton Engineering Ganha Prêmio de Excelência 2024",
+        "category": "Prêmios",
+        "excerpt": "Reconhecida pela inovação excepcional em automação industrial e soluções de engenharia elétrica."
+      },
+      "ntpcContract": {
+        "title": "Contrato Principal NTPC Assegurado para Automação de Usina",
+        "category": "Contratos",
+        "excerpt": "Contrato de automação abrangente concedido para projeto de modernização de usina térmica de 500MW."
+      },
+      "renewableExpansion": {
+        "title": "Expansão de Soluções de Energia Renovável na Índia",
+        "category": "Expansão",
+        "excerpt": "Novas capacidades EPC solares e parcerias para apoiar a transição de energia renovável da Índia."
+      }
+    }
+  },
   "home": {
     "hero": {
       "title": {

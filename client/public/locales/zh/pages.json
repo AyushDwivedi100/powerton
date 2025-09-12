@@ -9,6 +9,23 @@
         "growingStrong": "强劲增长",
         "futureReady": "面向未来"
       }
+    },
+    "latestNews": {
+      "excellenceAward": {
+        "title": "宝尔顿工程荣获2024年卓越奖",
+        "category": "奖项",
+        "excerpt": "因在工业自动化和电气工程解决方案方面的杰出创新而获得认可。"
+      },
+      "ntpcContract": {
+        "title": "获得NTPC重大合同用于电厂自动化",
+        "category": "合同",
+        "excerpt": "获得500MW火电厂现代化项目的全面自动化合同。"
+      },
+      "renewableExpansion": {
+        "title": "在印度扩展可再生能源解决方案",
+        "category": "扩张",
+        "excerpt": "新的太阳能EPC能力和合作伙伴关系，支持印度的可再生能源转型。"
+      }
     }
   },
   "home": {
