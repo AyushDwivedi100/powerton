@@ -324,7 +324,9 @@
       "contactPumpExperts": "Contact Pump Experts",
       "needCalibration": "Need Calibration Services?",
       "calibrationDescription": "Our calibration experts ensure your instruments meet the highest precision standards.",
-      "contactCalibrationExperts": "Contact Calibration Experts"
+      "contactCalibrationExperts": "Contact Calibration Experts",
+      "needExpertSolutions": "Need Expert Solutions?",
+      "expertDescription": "Our engineering experts can help you find the perfect solution for your industrial automation needs."
     }
   },
   "services": {
@@ -725,6 +727,12 @@
         "title": "Innovation Focus",
         "description": "Work on cutting-edge technologies and innovative solutions in industrial automation."
       }
+    }
+  },
+  "products": {
+    "seo": {
+      "title": "Industrial Products & Solutions - Powerton Engineering",
+      "description": "Comprehensive range of industrial automation products, electrical components, instrumentation, solar systems, pumps, and tools. Quality equipment for industrial applications."
     }
   },
   "seo": {
