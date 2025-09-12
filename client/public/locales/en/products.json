@@ -261,6 +261,63 @@
       "title": "Solar Batteries & Energy Storage",
       "description": "Battery storage systems for solar energy applications"
     },
+    "grounding-systems": {
+      "title": "Grounding Systems"
+    },
+    "surge-protectors": {
+      "title": "Surge Protectors"
+    },
+    "safety-relays-switches": {
+      "title": "Safety Relays & Switches"
+    },
+    "intrinsically-safe-equipment": {
+      "title": "Intrinsically Safe Equipment"
+    },
+    "centrifugal-pumps": {
+      "title": "Centrifugal Pumps"
+    },
+    "diaphragm-pumps": {
+      "title": "Diaphragm Pumps"
+    },
+    "gear-pumps": {
+      "title": "Gear Pumps"
+    },
+    "pump-parts-spares": {
+      "title": "Pump Parts & Spares"
+    },
+    "hand-tools": {
+      "title": "Hand Tools"
+    },
+    "power-tools": {
+      "title": "Power Tools"
+    },
+    "cutting-tools": {
+      "title": "Cutting Tools"
+    },
+    "lifting-equipment": {
+      "title": "Lifting Equipment"
+    },
+    "safety-equipment": {
+      "title": "Safety Equipment"
+    },
+    "bldc-cooler-exhaust-motor": {
+      "title": "BLDC Cooler & Exhaust Motors"
+    },
+    "bldc-ceiling-fan": {
+      "title": "BLDC Ceiling Fans"
+    },
+    "bldc-submersible-surface-pump": {
+      "title": "BLDC Submersible & Surface Pumps"
+    },
+    "bldc-table-fan-wall-fan-motor": {
+      "title": "BLDC Table & Wall Fan Motors"
+    },
+    "solar-inverters": {
+      "title": "Solar Inverters"
+    },
+    "plcs": {
+      "title": "PLCs (Programmable Logic Controllers)"
+    },
     "scada": {
       "title": "SCADA Systems",
       "description": "Supervisory Control And Data Acquisition systems"
