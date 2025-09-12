@@ -137,7 +137,7 @@ export default function Projects() {
       label: t("common:company.stats.yearsExperience"),
       icon: Calendar,
     },
-    { number: 98, suffix: "%", label: "Success Rate", icon: Target },
+    { number: 98, suffix: "%", label: t("common:company.stats.successRate"), icon: Target },
   ];
 
   return (
