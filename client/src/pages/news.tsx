@@ -199,44 +199,44 @@ export default function News() {
     },
     {
       id: 4,
-      title: "New State-of-the-Art R&D Facility Inaugurated in Noida",
+      title: t('pages:news.latestNews.rdFacility.title'),
       date: "2024-11-28",
-      category: "Infrastructure",
-      excerpt: "Our new 5,000 sq ft research and development facility in Noida has been inaugurated, equipped with the latest testing equipment and advanced automation laboratories for product development.",
+      category: t('pages:news.latestNews.rdFacility.category'),
+      excerpt: t('pages:news.latestNews.rdFacility.excerpt'),
       image: "https://images.unsplash.com/photo-1581094794329-c8112a89af12?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400",
-      tags: ["R&D", "Infrastructure", "Innovation"],
+      tags: [t('common:tags.rd'), t('common:tags.infrastructure'), t('common:tags.innovation')],
       featured: false,
     },
     {
       id: 5,
-      title: "Partnership with Leading European Automation Technology Provider",
+      title: t('pages:news.latestNews.europeanPartnership.title'),
       date: "2024-11-20",
-      category: "Partnership",
-      excerpt: "We have entered into a strategic partnership with a leading European automation technology provider to bring cutting-edge PLC and SCADA solutions to the Indian market.",
+      category: t('pages:news.latestNews.europeanPartnership.category'),
+      excerpt: t('pages:news.latestNews.europeanPartnership.excerpt'),
       image: "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400",
-      tags: ["Partnership", "Technology", "Europe"],
+      tags: [t('common:tags.partnership'), t('common:tags.technology'), t('common:tags.europe')],
       featured: false,
     },
     {
       id: 6,
-      title: "ISO 9001:2015 Certification Achievement",
+      title: t('pages:news.latestNews.isoAchievement.title'),
       date: "2024-11-15",
-      category: "Quality",
-      excerpt: "Powerton Engineering has successfully achieved ISO 9001:2015 certification, demonstrating our commitment to quality management systems and continuous improvement in all our processes.",
+      category: t('pages:news.latestNews.isoAchievement.category'),
+      excerpt: t('pages:news.latestNews.isoAchievement.excerpt'),
       image: "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400",
-      tags: ["ISO", "Quality", "Certification"],
+      tags: [t('common:tags.iso'), t('common:tags.quality'), t('common:tags.certification')],
       featured: false,
     },
   ];
 
   const categories = [
     "all",
-    "Awards",
-    "Business",
-    "Company",
-    "Infrastructure",
-    "Partnership",
-    "Quality",
+    t('pages:news.latestNews.excellenceAward.category'),
+    t('pages:news.latestNews.ntpcContract.category'),
+    t('pages:news.latestNews.renewableExpansion.category'),
+    t('pages:news.latestNews.rdFacility.category'),
+    t('pages:news.latestNews.europeanPartnership.category'),
+    t('pages:news.latestNews.isoAchievement.category'),
   ];
 
   const filteredNews =
@@ -354,22 +354,22 @@ export default function News() {
             <TabsList className="grid w-full grid-cols-4 max-w-2xl mx-auto mb-12">
               <TabsTrigger value="news" className="flex items-center gap-2">
                 <Newspaper className="w-4 h-4" />
-                Latest News
+                {t('pages:news.tabs.latestNews')}
               </TabsTrigger>
               <TabsTrigger value="projects" className="flex items-center gap-2">
                 <Rocket className="w-4 h-4" />
-                Upcoming Projects
+                {t('pages:news.tabs.upcomingProjects')}
               </TabsTrigger>
               <TabsTrigger
                 value="achievements"
                 className="flex items-center gap-2"
               >
                 <Trophy className="w-4 h-4" />
-                Achievements
+                {t('pages:news.tabs.achievements')}
               </TabsTrigger>
               <TabsTrigger value="goals" className="flex items-center gap-2">
                 <Target className="w-4 h-4" />
-                Future Goals
+                {t('pages:news.tabs.futureGoals')}
               </TabsTrigger>
             </TabsList>
 
@@ -377,7 +377,7 @@ export default function News() {
               {/* Featured News */}
               <div>
                 <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-8">
-                  Featured News
+                  {t('pages:news.sections.featuredNews')}
                 </h2>
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
                   {featuredNews.map((item) => (
@@ -446,7 +446,7 @@ export default function News() {
               {/* Category Filter */}
               <div>
                 <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-8">
-                  All News
+                  {t('pages:news.sections.allNews')}
                 </h2>
                 <div className="flex flex-wrap gap-2 mb-8">
                   {categories.map((category) => (
@@ -463,7 +463,7 @@ export default function News() {
                           : "border-2 border-primary text-primary hover:bg-primary hover:text-primary-foreground"
                       }
                     >
-                      {category === "all" ? "All Categories" : category}
+                      {category === "all" ? t('pages:news.sections.allCategories') : category}
                     </Button>
                   ))}
                 </div>
@@ -529,7 +529,7 @@ export default function News() {
             <TabsContent value="projects" className="space-y-8">
               <div>
                 <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-8">
-                  Upcoming Projects
+                  {t('pages:news.sections.upcomingProjects')}
                 </h2>
                 <p className="text-xl text-muted-foreground mb-8">
                   Exciting projects on the horizon that demonstrate our

@@ -18,14 +18,40 @@
       },
       "ntpcContract": {
         "title": "获得NTPC重大合同用于电厂自动化",
-        "category": "合同",
+        "category": "商业",
         "excerpt": "获得500MW火电厂现代化项目的全面自动化合同。"
       },
       "renewableExpansion": {
         "title": "在印度扩展可再生能源解决方案",
-        "category": "扩张",
+        "category": "公司",
         "excerpt": "新的太阳能EPC能力和合作伙伴关系，支持印度的可再生能源转型。"
-      }
+      },
+      "rdFacility": {
+        "title": "诺伊达新建最先进研发设施启用",
+        "category": "基础设施",
+        "excerpt": "我们在诺伊达新建的5000平方英尺研发设施已启用，配备最新测试设备和先进自动化实验室用于产品开发。"
+      },
+      "europeanPartnership": {
+        "title": "与领先欧洲自动化技术供应商建立合作伙伴关系",
+        "category": "合作伙伴关系",
+        "excerpt": "我们与领先的欧洲自动化技术供应商建立了战略合作伙伴关系，将尖端PLC和SCADA解决方案引入印度市场。"
+      },
+      "isoAchievement": {
+        "title": "ISO 9001:2015认证成就",
+        "category": "质量",
+        "excerpt": "宝尔顿工程已成功获得ISO 9001:2015认证，证明了我们对质量管理体系和所有流程持续改进的承诺。"
+    },
+    "tabs": {
+      "latestNews": "最新新闻",
+      "upcomingProjects": "即将到来的项目",
+      "achievements": "成就",
+      "futureGoals": "未来目标"
+    },
+    "sections": {
+      "featuredNews": "特色新闻",
+      "allNews": "所有新闻",
+      "allCategories": "所有类别",
+      "upcomingProjects": "即将到来的项目"
     }
   },
   "home": {
