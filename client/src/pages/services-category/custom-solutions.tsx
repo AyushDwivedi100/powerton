@@ -160,7 +160,7 @@ export default function CustomSolutions() {
                     <CardHeader>
                       <CardTitle className="flex items-center gap-3">
                         <Clock className="w-6 h-6 text-primary" />
-                        Quick Facts
+                        {t('common:headings.quickFacts')}
                       </CardTitle>
                     </CardHeader>
                     <CardContent className="space-y-4">
@@ -185,7 +185,7 @@ export default function CustomSolutions() {
                     <CardHeader>
                       <CardTitle className="flex items-center gap-3">
                         <Award className="w-6 h-6 text-primary" />
-                        Industry Applications
+                        {t('common:headings.industryApplications')}
                       </CardTitle>
                     </CardHeader>
                     <CardContent>
@@ -232,7 +232,7 @@ export default function CustomSolutions() {
             <AnimatedSection animation="fadeInUp" delay={0.2}>
               <div className="text-center mb-12">
                 <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
-                  Related Services
+                  {t('common:headings.relatedServices')}
                 </h2>
                 <p className="text-muted-foreground max-w-2xl mx-auto">
                   Explore our other professional services that complement {service.title.toLowerCase()}

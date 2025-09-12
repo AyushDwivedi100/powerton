@@ -65,7 +65,21 @@
     "exploreProducts": "Explore Products",
     "viewCatalog": "View Catalog",
     "quickQuote": "Quick Quote",
-    "contactExpert": "Contact Expert"
+    "contactExpert": "Contact Expert",
+    "next": "Next",
+    "previous": "Previous",
+    "complete": "Complete",
+    "backToNews": "Back to News",
+    "learnMoreAbout": "Learn More About Us",
+    "viewAllProjects": "View All Projects",
+    "homepage": "Homepage",
+    "support": "Support",
+    "aboutUs": "About Us",
+    "products": "Products",
+    "services": "Services",
+    "projects": "Projects",
+    "exploreServices": "Explore Services",
+    "requestConsultation": "Request Consultation"
   },
   "badges": {
     "energyEfficient": "Energy Efficient",
@@ -89,7 +103,11 @@
     "technicalDetails": "Technical Details",
     "availableModels": "Available Models",
     "productOverview": "Product Overview",
-    "relatedProducts": "Related Products"
+    "relatedProducts": "Related Products",
+    "industryApplications": "Industry Applications",
+    "relatedServices": "Related Services",
+    "quickFacts": "Quick Facts",
+    "technologiesAndMethods": "Technologies & Methods"
   },
   "chatbot": {
     "welcome": "Welcome to Powerton Engineering! How can I help you today?",

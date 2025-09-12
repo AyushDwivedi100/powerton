@@ -210,7 +210,7 @@ export default function InstallationCommissioning() {
                       <div className="space-y-3">
                         <Link href="/quote">
                           <Button className="w-full">
-                            Request Quote
+                            {t('common:buttons.getQuote')}
                           </Button>
                         </Link>
                         <Link href="/contact">
@@ -233,7 +233,7 @@ export default function InstallationCommissioning() {
             <AnimatedSection animation="fadeInUp" delay={0.2}>
               <div className="text-center mb-12">
                 <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
-                  Related Services
+                  {t('common:headings.relatedServices')}
                 </h2>
                 <p className="text-muted-foreground max-w-2xl mx-auto">
                   Explore our other professional services that complement {service.title.toLowerCase()}

@@ -186,7 +186,7 @@ export default function TechnicalSupport() {
                     <CardHeader>
                       <CardTitle className="flex items-center gap-3">
                         <Award className="w-6 h-6 text-primary" />
-                        Industry Applications
+                        {t('common:headings.industryApplications')}
                       </CardTitle>
                     </CardHeader>
                     <CardContent>
@@ -210,7 +210,7 @@ export default function TechnicalSupport() {
                       <div className="space-y-3">
                         <Link href="/quote">
                           <Button className="w-full">
-                            Request Quote
+                            {t('common:buttons.getQuote')}
                           </Button>
                         </Link>
                         <Link href="/contact">
