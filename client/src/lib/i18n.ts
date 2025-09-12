@@ -51,7 +51,7 @@ export const detectLanguage = (): string => {
 };
 
 const initConfig = {
-  fallbackLng: false as const, // Completely disable fallback to prevent English showing
+  fallbackLng: 'en', // Enable fallback to English
   lng: detectLanguage(), // Use our custom detection logic
   debug: import.meta.env.DEV, // Console logging only in development
   
@@ -69,8 +69,9 @@ const initConfig = {
 
     // Backend configuration for loading translations
     backend: {
-      loadPath: '/locales/{{lng}}/{{ns}}.json',
-      addPath: '/locales/add/{{lng}}/{{ns}}'
+      loadPath: `/locales/{{lng}}/{{ns}}.json?v=${Date.now()}`,
+      addPath: '/locales/add/{{lng}}/{{ns}}',
+      cache: false // Disable caching in development
     },
 
     // Interpolation options
