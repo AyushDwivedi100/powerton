@@ -540,43 +540,57 @@
       "subtitle": "通过图像发现我们的旅程 - 从我们敬业的团队和现代化设施到成功的项目和全面的产品系列。"
     },
     "tabs": {
-      "company": "Company & Team",
-      "projects": "Projects",
-      "products": "Products"
+      "company": "公司团队",
+      "projects": "项目",
+      "products": "产品"
     },
     "company": {
       "images": {
         "modernFacility": {
-          "title": "Modern Engineering Facility",
-          "description": "Our state-of-the-art facility in Noida equipped with latest testing equipment"
+          "title": "现代化工程设施",
+          "description": "我们位于诺伊达的最先进设施，配备最新的测试设备"
         },
         "expertTeam": {
-          "title": "Expert Engineering Team",
-          "description": "Our skilled engineers working on industrial automation solutions"
+          "title": "专家工程团队",
+          "description": "我们技能精湛的工程师致力于工业自动化解决方案"
         },
         "qualityLab": {
-          "title": "Quality Control Laboratory",
-          "description": "Advanced testing lab ensuring product quality and reliability"
+          "title": "质量控制实验室",
+          "description": "先进的测试实验室，确保产品质量和可靠性"
         },
         "trainingCenter": {
-          "title": "Training & Development Center",
-          "description": "Continuous skill development for our technical team"
+          "title": "培训与发展中心",
+          "description": "为我们技术团队持续提供技能发展"
         },
         "supportCenter": {
-          "title": "Customer Support Center",
-          "description": "Dedicated 24/7 customer support and technical assistance"
+          "title": "客户支持中心",
+          "description": "专业的24/7客户支持和技术帮助"
         },
         "rdWing": {
-          "title": "Research & Development Wing",
-          "description": "Innovation hub for developing cutting-edge automation solutions"
+          "title": "研发部门",
+          "description": "开发前沿自动化解决方案的创新中心"
         }
       },
       "categories": {
-        "facility": "Facility",
-        "team": "Team",
-        "training": "Training",
-        "support": "Support",
-        "rd": "R&D"
+        "facility": "设施",
+        "team": "团队",
+        "training": "培训",
+        "support": "支持",
+        "rd": "研发"
+      }
+    },
+    "sections": {
+      "company": {
+        "title": "我们的公司与团队",
+        "description": "认识我们敬业的团队，探索我们先进的设施，这些使我们能够在每个项目中提供卓越的服务。"
+      },
+      "projects": {
+        "title": "我们完成的项目",
+        "description": "探索我们在各个行业成功实施的项目，展示我们的专业知识和对质量的承诺。"
+      },
+      "products": {
+        "title": "我们的产品与解决方案",
+        "description": "发现我们来自全球领先制造商的工业产品和解决方案综合系列。"
       }
     },
     "projects": {
