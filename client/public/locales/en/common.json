@@ -92,29 +92,73 @@
   },
   "chatbot": {
     "welcome": "Welcome to Powerton Engineering! How can I help you today?",
+    "welcomeMessage": "Welcome to Powerton Engineering! How can I help you today?",
     "typeMessage": "Type your message...",
     "sendMessage": "Send message",
     "openChat": "Open chat",
     "closeChat": "Close chat",
     "typing": "Typing...",
-    "defaultOptions": {
-      "products": "Products & Catalog",
-      "services": "Our Services",
-      "contact": "Contact Information",
-      "quote": "Request Quote",
-      "support": "Technical Support"
+    "options": {
+      "findProduct": "🔍 Find Products",
+      "chooseService": "⚙️ Choose Service",
+      "troubleshooting": "🔧 Troubleshooting",
+      "aboutCompany": "🏢 About Company",
+      "sensorsCategory": "🌡️ Sensors & Transmitters",
+      "electricalCategory": "⚡ Electrical Components",
+      "automationCategory": "🤖 Automation Systems",
+      "solarCategory": "☀️ Solar Products",
+      "safetyCategory": "🛡️ Safety Equipment",
+      "browseAllProducts": "📦 Browse All Products",
+      "installationService": "🔧 Installation & Commissioning",
+      "maintenanceService": "🛠️ Maintenance & Repair",
+      "calibrationService": "⚖️ Calibration & Testing",
+      "trainingService": "📚 Training & Consultation",
+      "solarService": "☀️ Solar EPC Services",
+      "viewAllServices": "📋 View All Services",
+      "backToMainMenu": "🏠 Back to Main Menu",
+      "electricalIssues": "⚡ Electrical Issues",
+      "sensorProblems": "🌡️ Sensor Problems",
+      "controlSystemIssues": "🖥️ Control System Issues",
+      "solarSystemProblems": "☀️ Solar System Problems",
+      "equipmentSelectionHelp": "🎯 Equipment Selection Help",
+      "speakWithExpert": "👨‍💼 Speak with Expert",
+      "ourAchievements": "🏆 Our Achievements",
+      "meetOurTeam": "👥 Meet Our Team",
+      "ourClients": "🤝 Our Clients",
+      "visitOurOffice": "📍 Visit Our Office",
+      "contactUs": "📞 Contact Us"
     },
     "responses": {
       "products": "We offer a comprehensive range of industrial automation products, electrical components, instrumentation, solar systems, and more. What specific products are you looking for?",
       "services": "Our services include installation, maintenance, calibration, technical support, and custom solutions. Which service interests you?",
       "contact": "You can reach us at +91-94627-71662 or email us at info@powertonengineering.com. Our headquarters is located in Noida, India, and we serve clients worldwide.",
       "quote": "I'd be happy to help you get a quote! Please visit our quote page or provide me with your requirements.",
-      "support": "Our technical support team is here to help! Please describe your technical question or issue."
+      "support": "Our technical support team is here to help! Please describe your technical question or issue.",
+      "productSelection": "Great! We have a wide range of industrial products across multiple categories. Which category interests you most?",
+      "serviceSelection": "We provide comprehensive engineering services to support your projects from start to finish. Which service can we help you with?",
+      "troubleshootingMain": "I'm here to help you troubleshoot your technical issues. What type of problem are you experiencing?",
+      "companyInfo": "Powerton Engineering is a leading industrial automation and electrical engineering company with 15+ years of experience. We serve clients worldwide with comprehensive solutions.",
+      "sensorsCategory": "Our sensor and instrumentation range includes precision measurement devices for industrial applications. What type of sensing do you need?",
+      "electricalCategory": "We supply comprehensive electrical components for industrial applications including power distribution, control, and protection equipment. What electrical components do you need?",
+      "automationCategory": "Our automation solutions include PLCs, SCADA, DCS, and HMI systems for complete industrial control. What automation challenge can we solve for you?",
+      "solarCategory": "We provide complete solar solutions from panels to installation and maintenance. What solar project are you planning?",
+      "safetyCategory": "Safety is paramount in industrial applications. We offer a full range of protection and safety equipment. What safety equipment do you need?",
+      "installationService": "Our expert installation teams ensure proper setup and commissioning of your industrial systems. What equipment needs installation?",
+      "electricalTroubleshooting": "I can help diagnose electrical issues. Common problems include power supply failures, circuit protection trips, and grounding issues. What symptoms are you experiencing?",
+      "sensorTroubleshooting": "Sensor issues can affect measurement accuracy. Common problems include calibration drift, signal interference, and environmental factors. What sensor problem are you facing?"
+    },
+    "defaultOptions": {
+      "products": "Products & Catalog",
+      "services": "Our Services",
+      "contact": "Contact Information",
+      "quote": "Request Quote",
+      "support": "Technical Support"
     }
   },
   "messages": {
     "toggleTheme": "Toggle Theme",
-    "close": "Close"
+    "close": "Close",
+    "engineeringAdvisor": "Engineering Advisor"
   },
   "aria": {
     "toggleNavigation": "Toggle navigation",
