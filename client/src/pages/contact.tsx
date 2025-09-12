@@ -201,14 +201,14 @@ export default function Contact() {
                       <div className="space-y-2 mb-3">
                         <a 
                           href={`tel:${method.content.primary}`}
-                          className="text-base font-semibold text-primary hover:text-secondary transition-colors block break-words flex items-center justify-center"
+                          className="text-base font-semibold text-primary hover:text-secondary transition-colors break-words flex items-center justify-center"
                         >
                           <Phone className="w-4 h-4 mr-2" />
                           {method.content.primary}
                         </a>
                         <a 
                           href={`tel:${method.content.secondary}`}
-                          className="text-base font-semibold text-primary hover:text-secondary transition-colors block break-words flex items-center justify-center"
+                          className="text-base font-semibold text-primary hover:text-secondary transition-colors break-words flex items-center justify-center"
                         >
                           <Phone className="w-4 h-4 mr-2" />
                           {method.content.secondary}
