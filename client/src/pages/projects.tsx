@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useMemo } from "react";
 import { motion } from "framer-motion";
 import { SEO } from "@/lib/seo";
 import { Button } from "@/components/ui/button";
@@ -118,7 +118,7 @@ export default function Projects() {
     }
   };
 
-  const stats = [
+  const stats = useMemo(() => [
     {
       number: 50,
       suffix: "+",
@@ -138,7 +138,7 @@ export default function Projects() {
       icon: Calendar,
     },
     { number: 98, suffix: "%", label: t("common:company.stats.successRate"), icon: Target },
-  ];
+  ], [t]);
 
   return (
     <>
