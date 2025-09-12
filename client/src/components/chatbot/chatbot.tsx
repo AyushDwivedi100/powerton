@@ -421,13 +421,13 @@ export default function Chatbot() {
       return {
         message: t('chatbot.responses.sensorsCategory'),
         options: [
-          { label: "🌡️ Temperature Sensors", action: "page", page: "product-sensors" },
-          { label: "📡 Pressure Transmitters", action: "page", page: "product-transmitters" },
-          { label: "🔄 Flow Meters", action: "page", page: "product-sensors" },
-          { label: "📊 Level Indicators", action: "page", page: "product-sensors" },
-          { label: "🔬 Process Analyzers", action: "page", page: "product-analyzers" },
-          { label: "📧 Get Technical Specs", action: "external", url: "mailto:info@powertonengineering.com?subject=Sensor Technical Specifications" },
-          { label: "🔙 Back to Products Menu", action: "chat", response: "product-selection" }
+          { label: t('chatbot.options.temperatureSensors'), action: "page", page: "product-sensors" },
+          { label: t('chatbot.options.pressureTransmitters'), action: "page", page: "product-transmitters" },
+          { label: t('chatbot.options.flowMeters'), action: "page", page: "product-sensors" },
+          { label: t('chatbot.options.levelIndicators'), action: "page", page: "product-sensors" },
+          { label: t('chatbot.options.processAnalyzers'), action: "page", page: "product-analyzers" },
+          { label: t('chatbot.options.getTechnicalSpecs'), action: "external", url: "mailto:info@powertonengineering.com?subject=Sensor Technical Specifications" },
+          { label: t('chatbot.options.backToProductsMenu'), action: "chat", response: "product-selection" }
         ]
       };
     }
@@ -436,13 +436,13 @@ export default function Chatbot() {
       return {
         message: t('chatbot.responses.electricalCategory'),
         options: [
-          { label: "🔌 Circuit Breakers & Fuses", action: "page", page: "product-circuit-breakers-fuses" },
-          { label: "⚡ Power Supplies", action: "page", page: "product-power-supplies" },
-          { label: "🔗 Cables & Connectors", action: "page", page: "product-cables-wires" },
-          { label: "📦 Enclosures & Cabinets", action: "page", page: "product-enclosures-cabinets" },
-          { label: "🌡️ Heating Elements", action: "page", page: "product-heating-elements-appliances" },
-          { label: "💰 Get Pricing", action: "external", url: "tel:+91-94627-71662" },
-          { label: "🔙 Back to Products Menu", action: "chat", response: "product-selection" }
+          { label: t('chatbot.options.circuitBreakersFuses'), action: "page", page: "product-circuit-breakers-fuses" },
+          { label: t('chatbot.options.powerSupplies'), action: "page", page: "product-power-supplies" },
+          { label: t('chatbot.options.cablesConnectors'), action: "page", page: "product-cables-wires" },
+          { label: t('chatbot.options.enclosuresCabinets'), action: "page", page: "product-enclosures-cabinets" },
+          { label: t('chatbot.options.heatingElements'), action: "page", page: "product-heating-elements-appliances" },
+          { label: t('chatbot.options.getPricing'), action: "external", url: "tel:+91-94627-71662" },
+          { label: t('chatbot.options.backToProductsMenu'), action: "chat", response: "product-selection" }
         ]
       };
     }
@@ -457,7 +457,7 @@ export default function Chatbot() {
           { label: "👥 HMI (Human Machine Interface)", action: "page", page: "product-hmi" },
           { label: "⚙️ Custom Control Panels", action: "chat", response: "custom-panels" },
           { label: "🎯 Let's Discuss Your Project", action: "external", url: "mailto:info@powertonengineering.com?subject=Automation Project Discussion" },
-          { label: "🔙 Back to Products Menu", action: "chat", response: "product-selection" }
+          { label: t('chatbot.options.backToProductsMenu'), action: "chat", response: "product-selection" }
         ]
       };
     }
@@ -471,7 +471,7 @@ export default function Chatbot() {
           { label: "🔧 Solar Installation & EPC", action: "page", page: "services" },
           { label: "📋 Get Custom Solar Quote", action: "external", url: "mailto:info@powertonengineering.com?subject=Solar Project Quote Request" },
           { label: "📞 Solar Consultation", action: "external", url: "tel:+91-94627-71662" },
-          { label: "🔙 Back to Products Menu", action: "chat", response: "product-selection" }
+          { label: t('chatbot.options.backToProductsMenu'), action: "chat", response: "product-selection" }
         ]
       };
     }
@@ -486,7 +486,7 @@ export default function Chatbot() {
           { label: "💥 Intrinsically Safe Equipment", action: "page", page: "product-intrinsically-safe-equipment" },
           { label: "🦺 Personal Protective Equipment", action: "page", page: "product-safety-equipment" },
           { label: "📋 Safety Consultation", action: "external", url: "tel:+91-94627-71662" },
-          { label: "🔙 Back to Products Menu", action: "chat", response: "product-selection" }
+          { label: t('chatbot.options.backToProductsMenu'), action: "chat", response: "product-selection" }
         ]
       };
     }
@@ -815,7 +815,7 @@ export default function Chatbot() {
     // Additional response handlers for navigation flows
     if (input === 'main-menu') {
       return {
-        message: "Welcome back to the main menu! I'm here to help you with any industrial automation needs. Whether you're looking for products, services, technical support, or company information, I'll guide you to the right solution. What can I help you with?",
+        message: t('chatbotMessages.mainMenu'),
         options: [
           { label: "🔍 Find the Right Product", action: "chat", response: "product-selection" },
           { label: "⚙️ Choose a Service", action: "chat", response: "service-selection" },
@@ -869,7 +869,7 @@ export default function Chatbot() {
 
     // Default intelligent response
     return {
-      message: "Thank you for reaching out! I'm here to help you find the perfect industrial automation solution. At Powerton Engineering, we believe every customer deserves personalized attention and expert guidance. What specific challenge or requirement can I help you with today?",
+      message: t('chatbotMessages.defaultResponse'),
       options: [
         { label: "🔍 Find the Right Product", action: "chat", response: "product-selection" },
         { label: "⚙️ Explore Our Services", action: "chat", response: "service-selection" },
