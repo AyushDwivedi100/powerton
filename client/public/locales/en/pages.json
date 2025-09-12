@@ -826,5 +826,45 @@
         "keywords": "SCADA systems, supervisory control, data acquisition, industrial monitoring, process control, HMI integration, remote monitoring, SCADA software"
       }
     }
+  },
+  "projects": {
+    "badges": {
+      "featured": "Featured"
+    },
+    "items": {
+      "industrial-automation-demo": {
+        "title": "Demo: Industrial Automation System",
+        "client": "Future Manufacturing Client",
+        "category": "Process Automation",
+        "industry": "Manufacturing",
+        "description": "Demonstration of complete manufacturing automation capabilities including PLC integration, SCADA systems, and real-time monitoring solutions.",
+        "location": "Project Site TBD",
+        "duration": "12-18 months",
+        "status": "Capability Demo",
+        "complexity": "Advanced"
+      },
+      "power-distribution-demo": {
+        "title": "Example: Power Distribution Control",
+        "client": "Future Power Partner", 
+        "category": "Power Systems",
+        "industry": "Power Generation",
+        "description": "Example power distribution system showcasing automated load balancing and remote monitoring capabilities for power generation facilities.",
+        "location": "Various Locations",
+        "duration": "10-15 months",
+        "status": "Capability Demo",
+        "complexity": "Advanced"
+      },
+      "solar-plant-demo": {
+        "title": "Sample: Solar Plant Control System",
+        "client": "Future Renewable Client",
+        "category": "Solar Solutions", 
+        "industry": "Renewable Energy",
+        "description": "Sample solar tracking automation system demonstrating weather monitoring and grid synchronization capabilities for renewable energy projects.",
+        "location": "Multiple Sites",
+        "duration": "6-10 months",
+        "status": "Capability Demo",
+        "complexity": "Intermediate"
+      }
+    }
   }
 }

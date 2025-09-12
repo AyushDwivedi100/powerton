@@ -671,6 +671,26 @@
     "ISO": "ISO (International Organization for Standardization)",
     "IEEE": "IEEE (Institute of Electrical and Electronics Engineers)"
   },
+  "projects": {
+    "industrial-automation-demo": {
+      "title": "Demo: Industrial Automation System",
+      "description": "Demonstration of complete manufacturing automation capabilities including PLC integration, SCADA systems, and real-time monitoring solutions.",
+      "location": "Project Site TBD",
+      "duration": "12-18 months"
+    },
+    "power-distribution-demo": {
+      "title": "Example: Power Distribution Control",
+      "description": "Example power distribution system showcasing automated load balancing and remote monitoring capabilities for power generation facilities.",
+      "location": "Various Locations",
+      "duration": "10-15 months"
+    },
+    "solar-plant-demo": {
+      "title": "Sample: Solar Plant Control System",
+      "description": "Sample solar tracking automation system demonstrating weather monitoring and grid synchronization capabilities for renewable energy projects.",
+      "location": "Multiple Sites",
+      "duration": "6-10 months"
+    }
+  },
   "ui": {
     "ariaLabels": {
       "callUs": "Call us at {{phone}}",

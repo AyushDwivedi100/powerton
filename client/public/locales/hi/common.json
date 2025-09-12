@@ -81,6 +81,26 @@
     "aboutBackground": "ID-004: Powerton Engineering industrial automation facility with modern control systems",
     "companyLogo": "Powerton Engineering Pvt. Ltd. - Industrial Automation & Electrical Engineering Company Logo"
   },
+  "projects": {
+    "industrial-automation-demo": {
+      "title": "डेमो: औद्योगिक स्वचालन प्रणाली",
+      "description": "PLC एकीकरण, SCADA प्रणाली, और रीयल-टाइम निगरानी समाधान सहित संपूर्ण विनिर्माण स्वचालन क्षमताओं का प्रदर्शन।",
+      "location": "परियोजना स्थल TBD",
+      "duration": "12-18 महीने"
+    },
+    "power-distribution-demo": {
+      "title": "उदाहरण: पावर वितरण नियंत्रण",
+      "description": "पावर जेनेरेशन सुविधाओं के लिए स्वचालित लोड संतुलन और दूरस्थ निगरानी क्षमताओं को दिखाने वाला उदाहरण पावर वितरण प्रणाली।",
+      "location": "विभिन्न स्थान",
+      "duration": "10-15 महीने"
+    },
+    "solar-plant-demo": {
+      "title": "सैंपल: सोलर प्लांट कंट्रोल सिस्टम",
+      "description": "नवीकरणीय ऊर्जा परियोजनाओं के लिए मौसम निगरानी और ग्रिड सिंक्रोनाइज़ेशन क्षमताओं को दिखाने वाला सैंपल सौर ट्रैकिंग स्वचालन प्रणाली।",
+      "location": "कई साइटें",
+      "duration": "6-10 महीने"
+    }
+  },
   "ui": {
     "ariaLabels": {
       "openLocation": "गूगल मैप्स में कार्यालय स्थान खोलें",
