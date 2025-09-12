@@ -28,6 +28,64 @@
       }
     }
   },
+  "projects": {
+    "hero": {
+      "title": "محفظة التميز الهندسي",
+      "subtitle": "اكتشف تميزنا الهندسي من خلال 1200+ مشروع ناجح عبر صناعات متنوعة، يعرض الابتكار والجودة والموثوقية."
+    },
+    "portfolioDescription": "استكشف قدراتنا الهندسية من خلال مشاريع عرض تظهر حلول مبتكرة عبر صناعات مختلفة. محفظة المشاريع الحقيقية قادمة قريباً.",
+    "showing": "عرض {{count}} مشاريع",
+    "featured": "مميز",
+    "statuses": {
+      "capabilitydemo": "عرض القدرات",
+      "inprogress": "قيد التنفيذ"
+    },
+    "categories": {
+      "processautomation": "أتمتة العمليات",
+      "powersystems": "أنظمة الطاقة",
+      "solarsolutions": "الحلول الشمسية"
+    },
+    "technologies": {
+      "plcprogramming": "برمجة PLC",
+      "scada": "سكادا",
+      "hmi": "HMI",
+      "mccpanels": "لوحات MCC",
+      "protectionsystems": "أنظمة الحماية",
+      "energymanagement": "إدارة الطاقة",
+      "solarinverters": "العاكسات الشمسية",
+      "gridsync": "مزامنة الشبكة",
+      "weathermonitoring": "مراقبة الطقس",
+      "processcontrol": "تحكم العمليات",
+      "safetysystems": "أنظمة السلامة",
+      "environmentalmonitoring": "المراقبة البيئية",
+      "industrialiot": "إنترنت الأشياء الصناعي",
+      "predictiveanalytics": "التحليلات التنبؤية",
+      "edgecomputing": "الحوسبة الطرفية"
+    },
+    "moreItems": "+{{count}} المزيد",
+    "items": {
+      "process-control-demo": {
+        "title": "عرض: حل التحكم في العمليات",
+        "client": "شريك صناعي مستقبلي",
+        "description": "عرض قدرات أتمتة العمليات الكاملة بما في ذلك أنظمة السلامة والمراقبة البيئية والتحكم بالدفعات للتطبيقات الصناعية.",
+        "location": "موقع المشروع TBD",
+        "duration": "8-12 شهر"
+      },
+      "smart-factory-progress": {
+        "title": "عرض: تكامل المصنع الذكي",
+        "client": "عميل التطوير الحالي",
+        "description": "عرض مستمر لتكامل المصنع الذكي يعرض الاتصال بإنترنت الأشياء والصيانة التنبؤية والتحسين القائم على البيانات للتصنيع الحديث.",
+        "location": "موقع التطوير",
+        "duration": "14 شهر"
+      }
+    },
+    "cta": {
+      "title": "جاهز لبدء مشروعك التالي؟",
+      "description": "يمكن لمهندسينا ذوي الخبرة تصميم حلول مخصصة لاحتياجاتك في الأتمتة الصناعية والهندسة الكهربائية.",
+      "getProjectQuote": "احصل على عرض أسعار المشروع",
+      "contactTeam": "اتصل بالفريق"
+    }
+  },
   "home": {
     "hero": {
       "title": {
@@ -49,7 +107,7 @@
         "projectsCompleted": "المشاريع المكتملة",
         "happyClients": "العملاء السعداء",
         "supportAvailable": "الدعم متاح",
-        "heading": "Company Statistics and Achievements"
+        "heading": "إحصائيات ومنجزات الشركة"
       }
     },
     "about": {

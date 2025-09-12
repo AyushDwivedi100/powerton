@@ -28,6 +28,64 @@
       }
     }
   },
+  "projects": {
+    "hero": {
+      "title": "Portafolio de Excelencia en Ingeniería",
+      "subtitle": "Descubra nuestra excelencia en ingeniería a través de más de 1200 proyectos exitosos en diversas industrias, mostrando innovación, calidad y confiabilidad."
+    },
+    "portfolioDescription": "Explore nuestras capacidades de ingeniería a través de proyectos de demostración que muestran soluciones innovadoras en varias industrias. El portafolio de proyectos reales vendrá pronto.",
+    "showing": "Mostrando {{count}} proyectos",
+    "featured": "Destacados",
+    "statuses": {
+      "capabilitydemo": "Demo de Capacidades",
+      "inprogress": "En Progreso"
+    },
+    "categories": {
+      "processautomation": "Automatización de Procesos",
+      "powersystems": "Sistemas de Energía",
+      "solarsolutions": "Soluciones Solares"
+    },
+    "technologies": {
+      "plcprogramming": "Programación PLC",
+      "scada": "SCADA",
+      "hmi": "HMI",
+      "mccpanels": "Paneles MCC",
+      "protectionsystems": "Sistemas de Protección",
+      "energymanagement": "Gestión de Energía",
+      "solarinverters": "Inversores Solares",
+      "gridsync": "Sincronización de Red",
+      "weathermonitoring": "Monitoreo del Clima",
+      "processcontrol": "Control de Procesos",
+      "safetysystems": "Sistemas de Seguridad",
+      "environmentalmonitoring": "Monitoreo Ambiental",
+      "industrialiot": "IoT Industrial",
+      "predictiveanalytics": "Análisis Predictivo",
+      "edgecomputing": "Computación de Borde"
+    },
+    "moreItems": "+{{count}} más",
+    "items": {
+      "process-control-demo": {
+        "title": "Demo: Solución de Control de Procesos",
+        "client": "Socio Industrial Futuro",
+        "description": "Demostración de capacidades completas de automatización de procesos incluyendo sistemas de seguridad, monitoreo ambiental y control por lotes para aplicaciones industriales.",
+        "location": "Sitio de Proyecto TBD",
+        "duration": "8-12 meses"
+      },
+      "smart-factory-progress": {
+        "title": "Demo: Integración de Fábrica Inteligente",
+        "client": "Cliente de Desarrollo Actual",
+        "description": "Demostración continua de integración de fábrica inteligente mostrando conectividad IoT, mantenimiento predictivo y optimización basada en datos para manufactura moderna.",
+        "location": "Sitio de Desarrollo",
+        "duration": "14 meses"
+      }
+    },
+    "cta": {
+      "title": "¿Listo para comenzar su próximo proyecto?",
+      "description": "Nuestros ingenieros experimentados pueden diseñar soluciones personalizadas para sus necesidades de automatización industrial e ingeniería eléctrica.",
+      "getProjectQuote": "Obtener Cotización de Proyecto",
+      "contactTeam": "Contactar Equipo"
+    }
+  },
   "home": {
     "seo": {
       "title": "Powerton Engineering - Automatización Industrial y Paneles de Control | India",
@@ -54,7 +112,7 @@
         "projectsCompleted": "Proyectos Completados",
         "happyClients": "Clientes Satisfechos",
         "supportAvailable": "Soporte Disponible",
-        "heading": "Company Statistics and Achievements"
+        "heading": "Estadísticas y Logros de la Empresa"
       }
     },
     "about": {

@@ -28,47 +28,105 @@
       }
     }
   },
+  "projects": {
+    "hero": {
+      "title": "Jalada la Ubora wa Uhandisi",
+      "subtitle": "Gundua ubora wetu wa uhandisi kupitia miradi zaidi ya 1200 iliyofanikiwa katika tasnia mbalimbali, ikinyesha uvumbuzi, ubora na utegemezi."
+    },
+    "portfolioDescription": "Chunguza uwezo wetu wa uhandisi kupitia miradi ya onyesho inayonyesha mifumo ya kubuni katika tasnia mbalimbali. Jalada halisi la miradi litakuja hivi karibuni.",
+    "showing": "Inaonyesha miradi {{count}}",
+    "featured": "Maalumu",
+    "statuses": {
+      "capabilitydemo": "Onyesho la Uwezo",
+      "inprogress": "Inaendelea"
+    },
+    "categories": {
+      "processautomation": "Uongozi wa Michakato",
+      "powersystems": "Mifumo ya Nishati",
+      "solarsolutions": "Mifumo ya Jua"
+    },
+    "technologies": {
+      "plcprogramming": "Mpangilio wa PLC",
+      "scada": "SCADA",
+      "hmi": "HMI",
+      "mccpanels": "Paneli za MCC",
+      "protectionsystems": "Mifumo ya Ulinzi",
+      "energymanagement": "Usimamizi wa Nishati",
+      "solarinverters": "Vibadilishi vya Jua",
+      "gridsync": "Ulandanishi wa Mtandao",
+      "weathermonitoring": "Ufuatiliaji wa Hali ya Hewa",
+      "processcontrol": "Udhibiti wa Michakato",
+      "safetysystems": "Mifumo ya Usalama",
+      "environmentalmonitoring": "Ufuatiliaji wa Mazingira",
+      "industrialiot": "IoT ya Viwanda",
+      "predictiveanalytics": "Uchambuzi wa Utabiri",
+      "edgecomputing": "Uhesabu wa Mipakani"
+    },
+    "moreItems": "+{{count}} zaidi",
+    "items": {
+      "process-control-demo": {
+        "title": "Onyesho: Suluhisho la Udhibiti wa Michakato",
+        "client": "Mshirika wa Viwanda wa Baadaye",
+        "description": "Onyesho la uwezo kamili wa uongozi wa michakato ikijumuisha mifumo ya usalama, ufuatiliaji wa mazingira na udhibiti wa makundi kwa matumizi ya viwanda.",
+        "location": "Eneo la Mradi TBD",
+        "duration": "miezi 8-12"
+      },
+      "smart-factory-progress": {
+        "title": "Onyesho: Muunganiko wa Kiwanda Mahiri",
+        "client": "Mteja wa Maendeleo ya Sasa",
+        "description": "Onyesho linaloendelea la muunganiko wa kiwanda mahiri linaloonyesha muunganiko wa IoT, utunzaji wa utabiri na uboresha kulingana na data kwa uzalishaji wa kisasa.",
+        "location": "Eneo la Maendeleo",
+        "duration": "miezi 14"
+      }
+    },
+    "cta": {
+      "title": "Tayari kuanza mradi wako ujao?",
+      "description": "Wahandisi wetu wenye uzoefu wanaweza kubuni mifumo maalumu kwa mahitaji yako ya uongozi wa viwanda na uhandisi wa umeme.",
+      "getProjectQuote": "Pata Nukuu ya Mradi",
+      "contactTeam": "Wasiliana na Timu"
+    }
+  },
   "home": {
     "hero": {
       "title": {
-        "main": "Comprehensive Solutions for",
-        "highlight": "Industrial Success"
+        "main": "Mifumo Kamili kwa",
+        "highlight": "Mafanikio ya Viwanda"
       },
-      "subtitle": "Our broad portfolio of products and services provides all-encompassing solutions that drive industrial success, ensuring that every aspect of your engineering needs is covered.",
+      "subtitle": "Jalada letu pana la bidhaa na huduma linatoa mifumo yote inayohitajika inayoongoza mafanikio ya viwanda, ikihakikisha kuwa kila kipengele cha mahitaji yako ya uhandisi kimeshughulikiwa.",
       "buttons": {
-        "exploreServices": "Explore Our Services",
-        "requestConsultation": "Request Consultation"
+        "exploreServices": "Chunguza Huduma Zetu",
+        "requestConsultation": "Omba Ushauri"
       },
       "features": {
-        "experience": "15+ Years Experience",
-        "support": "24/7 Technical Support",
-        "service": "Global Service Coverage"
+        "experience": "Uzoefu wa Miaka 15+",
+        "support": "Msaada wa Kiufundi 24/7",
+        "service": "Huduma Duniani Kote"
       },
       "stats": {
-        "yearsExperience": "Years Experience",
-        "projectsCompleted": "Projects Completed",
-        "happyClients": "Happy Clients",
-        "supportAvailable": "Support Available",
-        "heading": "Company Statistics and Achievements"
+        "yearsExperience": "Miaka ya Uzoefu",
+        "projectsCompleted": "Miradi Iliyokamilika",
+        "happyClients": "Wateja Wenye Furaha",
+        "supportAvailable": "Msaada Unapatikana",
+        "heading": "Takwimu na Mafanikio ya Kampuni"
       }
     },
     "services": {
-      "label": "Our Services",
-      "title": "Expert Solutions for All Requirements, Delivered with Exceptional Care",
-      "description": "From process automation to maintenance contracts, we provide comprehensive engineering solutions tailored to meet your industrial requirements."
+      "label": "Huduma Zetu",
+      "title": "Mifumo ya Kitaalamu kwa Mahitaji Yote, Imetolewa kwa Utunzaji wa Kipekee",
+      "description": "Kutoka uongozi wa michakato hadi mikataba ya utunzaji, tunatoa mifumo kamili ya uhandisi iliyotengenezwa kulingana na mahitaji yako ya viwanda."
     },
     "products": {
-      "label": "Our Products",
-      "title": "Industrial Automation Equipment Solutions",
-      "description": "Comprehensive range of electrical and automation products designed for reliability, efficiency, and superior performance in industrial environments.",
-      "viewProducts": "View Products",
-      "viewCatalog": "View Complete Product Catalog"
+      "label": "Bidhaa Zetu",
+      "title": "Mifumo ya Vifaa vya Uongozi wa Viwanda",
+      "description": "Aina mbalimbali za bidhaa za umeme na uongozi zilizoundwa kwa utegemezi, ufanisi na utendaji bora katika mazingira ya viwanda.",
+      "viewProducts": "Angalia Bidhaa",
+      "viewCatalog": "Angalia Katalogi Kamili ya Bidhaa"
     },
     "contact": {
       "label": "Wasiliana Nasi",
-      "title": "Let's Discuss Your Engineering Requirements",
-      "description": "Ready to start your next project? Contact our expert team for customized solutions and professional consultation.",
-      "getInTouch": "Get In Touch",
+      "title": "Hebu Tujadili Mahitaji Yako ya Uhandisi",
+      "description": "Tayari kuanza mradi wako ujao? Wasiliana na timu yetu ya wataalamu kwa mifumo maalumu na ushauri wa kitaalamu.",
+      "getInTouch": "Wasiliana Nasi",
       "methods": {
         "phone": {
           "title": "Phone",

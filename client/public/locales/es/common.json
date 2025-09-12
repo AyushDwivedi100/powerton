@@ -572,6 +572,12 @@
     }
   },
   "company": {
+    "stats": {
+      "yearsExperience": "15+ Años de Experiencia",
+      "projectsCompleted": "1200+ Proyectos Completados", 
+      "clientsServed": "50+ Clientes Satisfechos",
+      "responseTime": "24 Horas"
+    },
     "name": "Powerton Engineering Pvt. Ltd.",
     "tagline": "Su socio de confianza en automatización industrial e ingeniería eléctrica",
     "phone": "+91-94627-71662",

@@ -55,6 +55,64 @@
       "upcomingProjects": "即将到来的项目"
     }
   },
+  "projects": {
+    "hero": {
+      "title": "工程卓越作品集",
+      "subtitle": "通过1200多个在不同行业的成功项目展示我们的工程卓越，彰显创新、质量和可靠性。"
+    },
+    "portfolioDescription": "通过展示各行业创新解决方案的示范项目探索我们的工程能力。真正的项目作品集即将推出。",
+    "showing": "显示{{count}}个项目",
+    "featured": "精选",
+    "statuses": {
+      "capabilitydemo": "能力演示",
+      "inprogress": "进行中"
+    },
+    "categories": {
+      "processautomation": "过程自动化",
+      "powersystems": "电力系统",
+      "solarsolutions": "太阳能解决方案"
+    },
+    "technologies": {
+      "plcprogramming": "PLC编程",
+      "scada": "SCADA",
+      "hmi": "HMI",
+      "mccpanels": "MCC面板",
+      "protectionsystems": "保护系统",
+      "energymanagement": "能源管理",
+      "solarinverters": "太阳能逆变器",
+      "gridsync": "电网同步",
+      "weathermonitoring": "天气监测",
+      "processcontrol": "过程控制",
+      "safetysystems": "安全系统",
+      "environmentalmonitoring": "环境监测",
+      "industrialiot": "工业物联网",
+      "predictiveanalytics": "预测分析",
+      "edgecomputing": "边缘计算"
+    },
+    "moreItems": "+{{count}}更多",
+    "items": {
+      "process-control-demo": {
+        "title": "演示：过程控制解决方案",
+        "client": "未来工业伙伴",
+        "description": "演示完整的过程自动化能力，包括安全系统、环境监测和工业应用的批量控制。",
+        "location": "项目地点待定",
+        "duration": "8-12个月"
+      },
+      "smart-factory-progress": {
+        "title": "演示：智能工厂集成",
+        "client": "当前开发客户",
+        "description": "持续展示智能工厂集成，展现物联网连接、预测性维护和数据驱动优化，用于现代制造业。",
+        "location": "开发场地",
+        "duration": "14个月"
+      }
+    },
+    "cta": {
+      "title": "准备开始您的下一个项目？",
+      "description": "我们经验丰富的工程师可以为您的工业自动化和电气工程需求设计定制解决方案。",
+      "getProjectQuote": "获取项目报价",
+      "contactTeam": "联系团队"
+    }
+  },
   "home": {
     "seo": {
       "title": "宝尔顿工程 - 工业自动化与控制面板 | 中国",

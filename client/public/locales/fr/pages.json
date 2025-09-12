@@ -28,47 +28,105 @@
       }
     }
   },
+  "projects": {
+    "hero": {
+      "title": "Portfolio d'Excellence en Ingénierie",
+      "subtitle": "Découvrez notre excellence en ingénierie à travers plus de 1200 projets réussis dans diverses industries, démontrant innovation, qualité et fiabilité."
+    },
+    "portfolioDescription": "Explorez nos capacités d'ingénierie à travers des projets de démonstration présentant des solutions innovantes dans diverses industries. Le vrai portfolio de projets arrive bientôt.",
+    "showing": "Affichage de {{count}} projets",
+    "featured": "En vedette",
+    "statuses": {
+      "capabilitydemo": "Démo de Capacités",
+      "inprogress": "En Cours"
+    },
+    "categories": {
+      "processautomation": "Automatisation des Processus",
+      "powersystems": "Systèmes Électriques",
+      "solarsolutions": "Solutions Solaires"
+    },
+    "technologies": {
+      "plcprogramming": "Programmation PLC",
+      "scada": "SCADA",
+      "hmi": "HMI",
+      "mccpanels": "Panneaux MCC",
+      "protectionsystems": "Systèmes de Protection",
+      "energymanagement": "Gestion de l'Énergie",
+      "solarinverters": "Onduleurs Solaires",
+      "gridsync": "Synchronisation Réseau",
+      "weathermonitoring": "Surveillance Météorologique",
+      "processcontrol": "Contrôle de Processus",
+      "safetysystems": "Systèmes de Sécurité",
+      "environmentalmonitoring": "Surveillance Environnementale",
+      "industrialiot": "IoT Industriel",
+      "predictiveanalytics": "Analytique Prédictive",
+      "edgecomputing": "Computing en Périphérie"
+    },
+    "moreItems": "+{{count}} de plus",
+    "items": {
+      "process-control-demo": {
+        "title": "Démo: Solution de Contrôle de Processus",
+        "client": "Partenaire Industriel Futur",
+        "description": "Démonstration de capacités complètes d'automatisation de processus incluant systèmes de sécurité, surveillance environnementale et contrôle par lots pour applications industrielles.",
+        "location": "Site de Projet TBD",
+        "duration": "8-12 mois"
+      },
+      "smart-factory-progress": {
+        "title": "Démo: Intégration d'Usine Intelligente",
+        "client": "Client de Développement Actuel",
+        "description": "Démonstration continue d'intégration d'usine intelligente présentant connectivité IoT, maintenance prédictive et optimisation basée sur données pour fabrication moderne.",
+        "location": "Site de Développement",
+        "duration": "14 mois"
+      }
+    },
+    "cta": {
+      "title": "Prêt à commencer votre prochain projet?",
+      "description": "Nos ingénieurs expérimentés peuvent concevoir des solutions personnalisées pour vos besoins d'automatisation industrielle et d'ingénierie électrique.",
+      "getProjectQuote": "Obtenir Devis de Projet",
+      "contactTeam": "Contacter l'Équipe"
+    }
+  },
   "home": {
     "hero": {
       "title": {
-        "main": "Comprehensive Solutions for",
-        "highlight": "Industrial Success"
+        "main": "Solutions Complètes pour le",
+        "highlight": "Succès Industriel"
       },
-      "subtitle": "Our broad portfolio of products and services provides all-encompassing solutions that drive industrial success, ensuring that every aspect of your engineering needs is covered.",
+      "subtitle": "Notre large portefeuille de produits et services fournit des solutions globales qui stimulent le succès industriel, assurant que chaque aspect de vos besoins d'ingénierie soit couvert.",
       "buttons": {
-        "exploreServices": "Explore Our Services",
-        "requestConsultation": "Request Consultation"
+        "exploreServices": "Explorez Nos Services",
+        "requestConsultation": "Demander une Consultation"
       },
       "features": {
-        "experience": "15+ Years Experience",
-        "support": "24/7 Technical Support",
-        "service": "Global Service Coverage"
+        "experience": "15+ Années d'Expérience",
+        "support": "Support Technique 24/7",
+        "service": "Couverture de Service Mondiale"
       },
       "stats": {
-        "yearsExperience": "Years Experience",
-        "projectsCompleted": "Projects Completed",
-        "happyClients": "Happy Clients",
-        "supportAvailable": "Support Available",
-        "heading": "Company Statistics and Achievements"
+        "yearsExperience": "Années d'Expérience",
+        "projectsCompleted": "Projets Complétés",
+        "happyClients": "Clients Satisfaits",
+        "supportAvailable": "Support Disponible",
+        "heading": "Statistiques et Réalisations de l'Entreprise"
       }
     },
     "services": {
-      "label": "Our Services",
-      "title": "Expert Solutions for All Requirements, Delivered with Exceptional Care",
-      "description": "From process automation to maintenance contracts, we provide comprehensive engineering solutions tailored to meet your industrial requirements."
+      "label": "Nos Services",
+      "title": "Solutions Expertes pour Tous les Besoins, Livrées avec un Soin Exceptionnel",
+      "description": "De l'automatisation des processus aux contrats de maintenance, nous fournissons des solutions d'ingénierie complètes adaptées à vos besoins industriels."
     },
     "products": {
-      "label": "Our Products",
-      "title": "Industrial Automation Equipment Solutions",
-      "description": "Comprehensive range of electrical and automation products designed for reliability, efficiency, and superior performance in industrial environments.",
-      "viewProducts": "View Products",
-      "viewCatalog": "View Complete Product Catalog"
+      "label": "Nos Produits",
+      "title": "Solutions d'Équipement d'Automatisation Industrielle",
+      "description": "Gamme complète de produits électriques et d'automatisation conçus pour la fiabilité, l'efficacité et les performances supérieures dans les environnements industriels.",
+      "viewProducts": "Voir les Produits",
+      "viewCatalog": "Voir le Catalogue Complet des Produits"
     },
     "contact": {
       "label": "Nous Contacter",
-      "title": "Let's Discuss Your Engineering Requirements",
-      "description": "Ready to start your next project? Contact our expert team for customized solutions and professional consultation.",
-      "getInTouch": "Get In Touch",
+      "title": "Discutons de Vos Exigences d'Ingénierie",
+      "description": "Prêt à commencer votre prochain projet? Contactez notre équipe d'experts pour des solutions personnalisées et une consultation professionnelle.",
+      "getInTouch": "Contactez-Nous",
       "methods": {
         "phone": {
           "title": "Phone",

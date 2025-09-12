@@ -28,6 +28,64 @@
       }
     }
   },
+  "projects": {
+    "hero": {
+      "title": "Jagorar Nagarta ta Injiniya",
+      "subtitle": "Gano nagartarmu ta injiniya ta hanyar ayyuka sama da 1200 da suka yi nasara a masana'antu daban-daban, suna nuna kirkira, inganci da aminci."
+    },
+    "portfolioDescription": "Bincika iyawarmu ta injiniya ta hanyar ayyukan nunawa da ke nuna maganganun kirkira a masana'antu daban-daban. Ainihin jagorar ayyuka zata zo ba da daɗewa ba.",
+    "showing": "Ana nuna ayyuka {{count}}",
+    "featured": "Na Musamman",
+    "statuses": {
+      "capabilitydemo": "Nunin Iyawa",
+      "inprogress": "Ana Aiki"
+    },
+    "categories": {
+      "processautomation": "Sarrafa Tsari",
+      "powersystems": "Tsarin Wutar Lantarki",
+      "solarsolutions": "Maganganun Hasken Rana"
+    },
+    "technologies": {
+      "plcprogramming": "Shirye-shiryen PLC",
+      "scada": "SCADA",
+      "hmi": "HMI",
+      "mccpanels": "Panelolin MCC",
+      "protectionsystems": "Tsarin Kariya",
+      "energymanagement": "Sarrafa Makamashi",
+      "solarinverters": "Masu Canja Wurin Hasken Rana",
+      "gridsync": "Haɗin Hanyar Sadarwa",
+      "weathermonitoring": "Lura da Yanayi",
+      "processcontrol": "Sarrafa Tsari",
+      "safetysystems": "Tsarin Aminci",
+      "environmentalmonitoring": "Lura da Muhalli",
+      "industrialiot": "IoT na Masana'antu",
+      "predictiveanalytics": "Bincike na Hasashe",
+      "edgecomputing": "Kwamfuta ta Gefe"
+    },
+    "moreItems": "+{{count}} ƙara",
+    "items": {
+      "process-control-demo": {
+        "title": "Nuni: Maganin Sarrafa Tsari",
+        "client": "Abokin Hulɗa na Masana'antu na Nan Gaba",
+        "description": "Nunin cikakkun iyawar sarrafa tsari da suka haɗa da tsarin aminci, lura da muhalli da sarrafa rukuni don amfani da masana'antu.",
+        "location": "Wurin Aikin TBD",
+        "duration": "watanni 8-12"
+      },
+      "smart-factory-progress": {
+        "title": "Nuni: Haɗin Masana'antar Wayo",
+        "client": "Abokin Ciniki na Ci Gaba na Yanzu",
+        "description": "Nunin ci gaba na haɗin masana'antar wayo yana nuna haɗin IoT, kula da hasashe da inganta tushen bayanai don kera na zamani.",
+        "location": "Wurin Ci Gaba",
+        "duration": "watanni 14"
+      }
+    },
+    "cta": {
+      "title": "Shirye don fara aikinku na gaba?",
+      "description": "Injiniyoyinmu masu gogewa za su iya tsara maganganun da suka dace da bukatunku na sarrafa masana'antu da injiniyan lantarki.",
+      "getProjectQuote": "Sami Kimanin Aikin",
+      "contactTeam": "Tuntubi Ƙungiya"
+    }
+  },
   "home": {
     "hero": {
       "title": {
@@ -49,7 +107,7 @@
         "projectsCompleted": "Ayyukan da aka Kammala",
         "happyClients": "Abokan Ciniki Masu Farin Ciki",
         "supportAvailable": "Ana Samun Tallafi",
-        "heading": "Company Statistics and Achievements"
+        "heading": "Kididdigar Kamfani da Nasarori"
       }
     },
     "services": {
