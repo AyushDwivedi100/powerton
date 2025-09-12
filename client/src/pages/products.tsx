@@ -45,70 +45,66 @@ export default function Products() {
     return icons[iconName as keyof typeof icons] || Thermometer;
   };
 
-  // Map feature names to their corresponding product routes
-  const getFeatureRoute = (feature: string) => {
+  // Map feature IDs to their corresponding product routes
+  const getFeatureRoute = (featureId: string) => {
     const featureRoutes: { [key: string]: string } = {
       // Instrumentation Components features
-      "Pressure Transmitters": "/products/transmitters",
-      "Temperature Sensors": "/products/sensors",
-      "Flow Meters": "/products/analyzers",
-      "Level Indicators": "/products/switches",
+      "pressure-transmitters": "/products/transmitters",
+      "temperature-sensors": "/products/sensors",
+      "flow-meters": "/products/analyzers",
+      "level-indicators": "/products/switches",
 
       // Electrical Components features
-      "Circuit Breakers": "/products/circuit-breakers-fuses",
-      Contactors: "/products/electrical-components",
-      Relays: "/products/electrical-components",
-      "Power Supplies": "/products/power-supplies",
+      "circuit-breakers": "/products/circuit-breakers-fuses",
+      "contactors": "/products/electrical-components",
+      "relays": "/products/electrical-components",
+      "power-supplies": "/products/power-supplies",
 
       // Measurement Instruments features
-      "Digital Multimeters": "/products/multimeters",
-      Oscilloscopes: "/products/oscilloscopes",
-      "Signal Analyzers": "/products/spectrum-analyzers",
-      Calibrators: "/products/calibration-equipment",
+      "digital-multimeters": "/products/multimeters",
+      "oscilloscopes": "/products/oscilloscopes",
+      "signal-analyzers": "/products/spectrum-analyzers",
+      "calibrators": "/products/calibration-equipment",
 
       // Solar Products features
-      "Solar Panels": "/products/solar-panels",
-      "Solar Inverters": "/products/solar-inverters",
-      "Mounting Systems": "/products/mounting-structures-racking",
-      "Monitoring Systems": "/products/solar-products",
+      "solar-panels": "/products/solar-panels",
+      "inverters": "/products/solar-inverters",
+      "monitoring-systems": "/products/solar-products",
+      "battery-storage": "/products/solar-batteries-energy-storage",
 
       // Automation Control Systems features
-      PLCs: "/products/plcs",
-      "SCADA Systems": "/products/scada",
-      "HMI Panels": "/products/hmi",
-      "DCS Systems": "/products/dcs",
+      "hmi-systems": "/products/hmi",
+      "scada-software": "/products/scada",
+      "industrial-networks": "/products/dcs",
 
       // Safety & Protective Devices features
-      "Emergency Stops": "/products/safety-relays-switches",
-      "Safety Relays": "/products/safety-relays-switches",
-      "Protective Equipment": "/products/intrinsically-safe-equipment",
-      "Fire Safety": "/products/safety-protective-devices",
+      "safety-switches": "/products/safety-relays-switches",
+      "emergency-stops": "/products/safety-relays-switches",
+      "light-curtains": "/products/intrinsically-safe-equipment",
+      "protective-barriers": "/products/safety-protective-devices",
 
       // Mechanical Pumps & Spares features
-      "Centrifugal Pumps": "/products/centrifugal-pumps",
-      "Diaphragm Pumps": "/products/diaphragm-pumps",
-      "Gear Pumps": "/products/gear-pumps",
-      "Pump Spares": "/products/pump-parts-spares",
+      "centrifugal-pumps": "/products/centrifugal-pumps",
+      "positive-displacement-pumps": "/products/diaphragm-pumps",
+      "pump-components": "/products/gear-pumps",
+      "maintenance-kits": "/products/pump-parts-spares",
 
       // Industrial Tools & Tackles features
-      "Hand Tools": "/products/hand-tools",
-      "Power Tools": "/products/power-tools",
-      "Cutting Tools": "/products/cutting-tools",
-      "Lifting Equipment": "/products/lifting-equipment",
+      "hand-tools": "/products/hand-tools",
+      "power-tools": "/products/power-tools",
+      "cutting-tools": "/products/cutting-tools",
+      "lifting-equipment": "/products/lifting-equipment",
 
       // BLDC Products features
-      "BLDC Motors": "/products/bldc",
-      "Ceiling Fans": "/products/bldc-ceiling-fan",
-      "Submersible Pumps": "/products/bldc-submersible-surface-pump",
-      "Exhaust Motors": "/products/bldc-cooler-exhaust-motor",
+      "energy-efficient": "/products/bldc",
+      "long-lifespan": "/products/bldc-ceiling-fan",
+      "low-maintenance": "/products/bldc-submersible-surface-pump",
+      "variable-speed-control": "/products/bldc-cooler-exhaust-motor",
     };
 
     return (
-      featureRoutes[feature] ||
-      `/products/${feature
-        .toLowerCase()
-        .replace(/\s+/g, "-")
-        .replace(/[^\w-]/g, "")}`
+      featureRoutes[featureId] ||
+      `/products/${featureId}`
     );
   };
 
@@ -386,7 +382,7 @@ export default function Products() {
                           {product.features.slice(0, 4).map((feature, idx) => (
                             <Link
                               key={idx}
-                              href={getFeatureRoute(feature)}
+                              href={getFeatureRoute(`feature-${idx}`)}
                               className="inline-block"
                             >
                               <Badge

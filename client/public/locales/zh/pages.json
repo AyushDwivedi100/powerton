@@ -294,52 +294,47 @@
       "description": "工业自动化产品、电气元件、仪表、太阳能系统、泵和工具的综合系列。用于工业应用的优质设备。"
     },
     "sections": {
-      "industrialProducts": "工业产品类别"
+      "industrialProducts": "工业产品类别",
+      "hmiSolutions": "HMI解决方案",
+      "heatingSolutions": "加热解决方案",
+      "handToolCategories": "手工工具类别",
+      "diaphragmPumpTypes": "隔膜泵类型",
+      "calibrationSolutions": "校准解决方案"
     },
     "cta": {
       "needExpertSolutions": "需要专业工业解决方案？",
-      "expertDescription": "我们的技术专家随时准备帮助您为自动化和电气需求选择完美的工业产品和工程解决方案。"
+      "expertDescription": "我们的技术专家随时准备帮助您为自动化和电气需求选择完美的工业产品和工程解决方案。",
+      "needHmiSolutions": "需要HMI解决方案？",
+      "hmiDescription": "我们的HMI专家可以为您的自动化系统设计直观的操作员界面。",
+      "contactHmiExperts": "联系HMI专家",
+      "requestQuote": "请求报价",
+      "needHeatingolutions": "需要工业加热解决方案？",
+      "heatingDescription": "我们的加热专家可以为您的工业过程设计定制加热系统。",
+      "contactHeatingExperts": "联系加热专家",
+      "needDiaphragmPumps": "需要隔膜泵解决方案？",
+      "diaphragmDescription": "我们的泵工程师可以帮助您为化学品处理需求选择合适的隔膜泵。",
+      "contactPumpExperts": "联系泵专家",
+      "needCalibration": "需要校准服务？",
+      "calibrationDescription": "我们的校准专家确保您的仪器满足最高精度标准。",
+      "contactCalibrationExperts": "联系校准专家"
     },
     "badges": {
-      "handTools": "Hand Tools",
-      "powerTools": "Power Tools",
-      "liftingEquipment": "Lifting Equipment",
-      "safetyGear": "Safety Gear",
-      "touchscreen": "Touchscreen",
-      "industrialGrade": "Industrial Grade",
-      "realTimeDisplay": "Real-time Display",
-      "multiProtocol": "Multi-Protocol",
-      "heatingElements": "Heating Elements",
-      "industrialOvens": "Industrial Ovens",
-      "heatTracing": "Heat Tracing",
-      "temperatureControl": "Temperature Control",
-      "precisionTools": "Precision Tools",
-      "durableConstruction": "Durable Construction",
-      "ergonomicDesign": "Ergonomic Design",
-      "professionalGrade": "Professional Grade"
-    },
-    "sections": {
-      "hmiSolutions": "HMI Solutions",
-      "heatingSolutions": "Heating Solutions",
-      "handToolCategories": "Hand Tool Categories",
-      "diaphragmPumpTypes": "Diaphragm Pump Types",
-      "calibrationSolutions": "Calibration Solutions",
-      "industrialProducts": "Industrial Products"
-    },
-    "cta": {
-      "needHmiSolutions": "Need HMI Solutions?",
-      "hmiDescription": "Our HMI specialists can design intuitive operator interfaces for your automation systems.",
-      "contactHmiExperts": "Contact HMI Experts",
-      "requestQuote": "Request Quote",
-      "needHeatingolutions": "Need Industrial Heating Solutions?",
-      "heatingDescription": "Our heating specialists can design custom heating systems for your industrial processes.",
-      "contactHeatingExperts": "Contact Heating Experts",
-      "needDiaphragmPumps": "Need Diaphragm Pump Solutions?",
-      "diaphragmDescription": "Our pump engineers can help you select the right diaphragm pump for your chemical handling needs.",
-      "contactPumpExperts": "Contact Pump Experts",
-      "needCalibration": "Need Calibration Services?",
-      "calibrationDescription": "Our calibration experts ensure your instruments meet the highest precision standards.",
-      "contactCalibrationExperts": "Contact Calibration Experts"
+      "handTools": "手工工具",
+      "powerTools": "电动工具",
+      "liftingEquipment": "起重设备",
+      "safetyGear": "安全装备",
+      "touchscreen": "触摸屏",
+      "industrialGrade": "工业级",
+      "realTimeDisplay": "实时显示",
+      "multiProtocol": "多协议",
+      "heatingElements": "加热元件",
+      "industrialOvens": "工业烤箱",
+      "heatTracing": "伴热",
+      "temperatureControl": "温度控制",
+      "precisionTools": "精密工具",
+      "durableConstruction": "坚固构造",
+      "ergonomicDesign": "人体工学设计",
+      "professionalGrade": "专业级"
     }
   },
   "services": {

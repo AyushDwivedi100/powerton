@@ -98,6 +98,26 @@
         "low-maintenance": "低维护",
         "variable-speed-control": "变速控制"
       }
+    },
+    "mechanical-pumps-spares": {
+      "title": "机械泵和备件",
+      "description": "工业应用的机械泵和备件",
+      "features": {
+        "centrifugal-pumps": "离心泵",
+        "positive-displacement-pumps": "容积式泵",
+        "pump-components": "泵组件",
+        "maintenance-kits": "维护套件"
+      }
+    },
+    "industrial-tools-tackles": {
+      "title": "工业工具设备",
+      "description": "重型工业工具和起重设备",
+      "features": {
+        "hand-tools": "手工工具",
+        "power-tools": "电动工具",
+        "lifting-equipment": "起重设备",
+        "cutting-tools": "切割工具"
+      }
     }
   },
   "subcategories": {
@@ -123,6 +143,159 @@
     },
     "analyzers": {
       "title": "分析仪",
+      "description": "用于过程分析和质量控制的先进分析仪器"
+    },
+    "signal-conditioners": {
+      "title": "信号调节器",
+      "description": "工业信号处理和调节设备"
+    },
+    "cables-wires": {
+      "title": "电缆线材",
+      "description": "工业级电缆和导线解决方案"
+    },
+    "connectors-terminals": {
+      "title": "连接器和端子",
+      "description": "电气连接组件和端子系统"
+    },
+    "circuit-breakers-fuses": {
+      "title": "断路器和保险丝",
+      "description": "电路保护设备和组件"
+    },
+    "power-supplies": {
+      "title": "电源",
+      "description": "工业电源和电源管理系统"
+    },
+    "enclosures-cabinets": {
+      "title": "机柜外壳",
+      "description": "电气设备机柜和保护外壳"
+    },
+    "heating-elements-appliances": {
+      "title": "加热元件设备",
+      "description": "工业加热解决方案和设备"
+    },
+    "multimeters": {
+      "title": "万用表",
+      "description": "数字和模拟测量仪表"
+    },
+    "oscilloscopes": {
+      "title": "示波器",
+      "description": "信号分析和波形显示设备"
+    },
+    "spectrum-analyzers": {
+      "title": "频谱分析仪",
+      "description": "频谱和信号质量分析仪器"
+    },
+    "power-quality-analyzers": {
+      "title": "电能质量分析仪",
+      "description": "电力系统质量监测设备"
+    },
+    "calibration-equipment": {
+      "title": "校准设备",
+      "description": "精密校准和测试仪器"
+    },
+    "solar-panels": {
+      "title": "太阳能电池板",
+      "description": "高效太阳能发电板"
+    },
+    "solar-inverters": {
+      "title": "太阳能逆变器",
+      "description": "太阳能系统电力转换设备"
+    },
+    "mounting-structures-racking": {
+      "title": "安装结构支架",
+      "description": "太阳能板安装系统"
+    },
+    "solar-charge-controllers": {
+      "title": "太阳能充电控制器",
+      "description": "太阳能充电管理系统"
+    },
+    "solar-batteries-energy-storage": {
+      "title": "太阳能电池储能",
+      "description": "能量存储解决方案"
+    },
+    "plcs": {
+      "title": "PLC",
+      "description": "可编程逻辑控制器"
+    },
+    "scada": {
+      "title": "SCADA",
+      "description": "数据采集与监视控制系统"
+    },
+    "dcs": {
+      "title": "DCS",
+      "description": "分布式控制系统"
+    },
+    "hmi": {
+      "title": "HMI",
+      "description": "人机界面系统"
+    },
+    "surge-protectors": {
+      "title": "浪涌保护器",
+      "description": "电气设备浪涌保护"
+    },
+    "grounding-systems": {
+      "title": "接地系统",
+      "description": "电气安全接地解决方案"
+    },
+    "safety-relays-switches": {
+      "title": "安全继电器开关",
+      "description": "工业安全控制设备"
+    },
+    "intrinsically-safe-equipment": {
+      "title": "本安设备",
+      "description": "防爆本质安全设备"
+    },
+    "centrifugal-pumps": {
+      "title": "离心泵",
+      "description": "高效离心泵解决方案"
+    },
+    "diaphragm-pumps": {
+      "title": "隔膜泵",
+      "description": "化学处理隔膜泵系统"
+    },
+    "gear-pumps": {
+      "title": "齿轮泵",
+      "description": "精密齿轮泵产品"
+    },
+    "pump-parts-spares": {
+      "title": "泵配件备件",
+      "description": "泵系统配件和维护部件"
+    },
+    "hand-tools": {
+      "title": "手工工具",
+      "description": "专业手工工具套装"
+    },
+    "power-tools": {
+      "title": "电动工具",
+      "description": "高性能电动工具设备"
+    },
+    "cutting-tools": {
+      "title": "切割工具",
+      "description": "精密切割工具和设备"
+    },
+    "lifting-equipment": {
+      "title": "起重设备",
+      "description": "工业起重和搬运设备"
+    },
+    "safety-equipment": {
+      "title": "安全设备",
+      "description": "工作场所安全防护设备"
+    },
+    "bldc-cooler-exhaust-motor": {
+      "title": "BLDC冷却排气电机",
+      "description": "节能冷却系统电机"
+    },
+    "bldc-ceiling-fan": {
+      "title": "BLDC吊扇",
+      "description": "节能智能吊扇产品"
+    },
+    "bldc-submersible-surface-pump": {
+      "title": "BLDC潜水泵",
+      "description": "高效潜水泵系统"
+    },
+    "bldc-table-fan-wall-fan-motor": {
+      "title": "BLDC台扇壁扇电机",
+      "description": "节能台扇壁扇驱动电机"
       "description": "用于质量控制的过程分析仪"
     },
     "signal-conditioners": {
