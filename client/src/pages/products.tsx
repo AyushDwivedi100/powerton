@@ -7,7 +7,7 @@ import {
   AnimatedSection,
   useScrollAnimations,
 } from "@/hooks/use-scroll-animation";
-import { PRODUCTS } from "@/data/constants";
+import { getProducts } from "@/data/constants";
 import {
   Download,
   ArrowRight,
@@ -29,7 +29,8 @@ import { useTranslation } from "react-i18next";
 
 export default function Products() {
   useScrollAnimations();
-  const { t } = useTranslation(['common', 'products']);
+  const { t } = useTranslation(['common', 'products', 'pages']);
+  const PRODUCTS = getProducts(t);
 
   const getIconComponent = (iconName: string) => {
     const icons = {
@@ -319,7 +320,7 @@ export default function Products() {
         <div className="relative max-w-7xl mx-auto px-3 sm:px-4 md:px-6 lg:px-8 text-white">
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold mb-4 sm:mb-6">
-              <span className="text-secondary">{t('products.sections.industrialProducts')}</span>
+              <span className="text-secondary">{t('products:title')}</span>
             </h1>
             <p className="text-sm sm:text-base md:text-lg lg:text-xl mb-6 sm:mb-8 opacity-90 max-w-3xl mx-auto px-2 sm:px-0">
               {t('products:subtitle')}
@@ -334,7 +335,7 @@ export default function Products() {
                   variant="outline"
                   className="border-2 border-border text-foreground hover:bg-foreground hover:text-background px-8 py-3 text-lg font-semibold w-full sm:w-auto"
                 >
-                  Request Quote
+                  {t('common:buttons.getQuote')}
                 </Button>
               </Link>
             </div>
@@ -348,12 +349,10 @@ export default function Products() {
           <AnimatedSection animation="fade-in-up">
             <div className="text-center mb-8 sm:mb-12 md:mb-16">
               <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-primary mb-4 sm:mb-6">
-                Industrial Product Categories
+                {t('pages:products.sections.industrialProducts')}
               </h2>
               <p className="text-sm sm:text-base md:text-lg text-muted-foreground max-w-3xl mx-auto px-2 sm:px-0">
-                Comprehensive range of industrial automation products,
-                electrical components, instrumentation, solar systems, pumps,
-                and tools for all your engineering needs.
+                {t('products:subtitle')}
               </p>
             </div>
           </AnimatedSection>
@@ -432,18 +431,16 @@ export default function Products() {
         <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8 text-center">
           <AnimatedSection animation="fade-in-up">
             <h2 className="text-3xl md:text-4xl font-bold mb-6">
-              Need Expert Industrial Solutions?
+              {t('pages:products.cta.needExpertSolutions')}
             </h2>
             <p className="text-xl mb-8 opacity-90 max-w-2xl mx-auto">
-              Our technical experts are ready to help you select the perfect
-              industrial products and engineering solutions for your automation
-              and electrical needs.
+              {t('pages:products.cta.expertDescription')}
             </p>
             <div className="flex flex-col sm:flex-row justify-center gap-2 sm:gap-3 md:gap-4 max-w-md mx-auto px-2 sm:px-0">
               <Link href="/contact">
                 <Button className="bg-secondary hover:bg-secondary/90 text-secondary-foreground px-8 py-3 text-lg font-semibold w-full sm:w-auto">
                   <Phone className="mr-2 w-5 h-5" />
-                  Contact Expert
+                  {t('common:buttons.contactExpert')}
                 </Button>
               </Link>
               <Link href="/quote">

@@ -289,6 +289,17 @@
     }
   },
   "products": {
+    "seo": {
+      "title": "工业产品和自动化设备 - 宝尔顿工程",
+      "description": "工业自动化产品、电气元件、仪表、太阳能系统、泵和工具的综合系列。用于工业应用的优质设备。"
+    },
+    "sections": {
+      "industrialProducts": "工业产品类别"
+    },
+    "cta": {
+      "needExpertSolutions": "需要专业工业解决方案？",
+      "expertDescription": "我们的技术专家随时准备帮助您为自动化和电气需求选择完美的工业产品和工程解决方案。"
+    },
     "badges": {
       "handTools": "Hand Tools",
       "powerTools": "Power Tools",
