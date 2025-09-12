@@ -337,9 +337,9 @@
       "sunday": "Sunday: Emergency Support Only"
     },
     "stats": {
-      "projectsCompleted": "Expert Engineers",
-      "clientsServed": "Technical Staff", 
-      "yearsExperience": "Years Average Experience",
+      "projectsCompleted": "Projects Completed",
+      "clientsServed": "Clients Served", 
+      "yearsExperience": "Years Experience",
       "successRate": "Success Rate"
     }
   },
