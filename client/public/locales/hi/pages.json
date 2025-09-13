@@ -112,7 +112,7 @@
         "projectsCompleted": "पूर्ण परियोजनाएं",
         "happyClients": "संतुष्ट ग्राहक",
         "supportAvailable": "सहायता उपलब्ध",
-        "heading": "Company Statistics and Achievements"
+        "heading": "कंपनी आँकड़े और उपलब्धियां"
       }
     },
     "about": {
@@ -197,173 +197,200 @@
   },
   "news": {
     "hero": {
-      "title": "News & Updates",
-      "subtitle": "Latest Industry Insights"
+      "title": "समाचार और अपडेट",
+      "subtitle": "नवीनतम उद्योग अंतर्दृष्टि"
     },
     "article": {
-      "backToNews": "Back to News",
-      "share": "Share",
-      "author": "Powerton Engineering Team",
+      "backToNews": "समाचार पर वापस जाएं",
+      "share": "साझा करें",
+      "author": "पावरटन इंजीनियरिंग टीम",
       "categories": {
-        "projectSuccess": "Project Success",
-        "technology": "Technology",
-        "industryNews": "Industry News",
-        "companyUpdate": "Company Update"
+        "projectSuccess": "परियोजना सफलता",
+        "technology": "प्रौद्योगिकी",
+        "industryNews": "उद्योग समाचार",
+        "companyUpdate": "कंपनी अपडेट"
       },
       "sampleArticle": {
-        "title": "Powerton Engineering Completes Major Automation Project for Leading Manufacturing Plant",
-        "excerpt": "Successfully implemented comprehensive industrial automation system reducing operational costs by 30% and improving efficiency by 45%.",
+        "title": "पावरटन इंजीनियरिंग ने अग्रणी विनिर्माण संयंत्र के लिए प्रमुख स्वचालन परियोजना पूर्ण की",
+        "excerpt": "परिचालन लागत में 30% की कमी और दक्षता में 45% सुधार के साथ व्यापक औद्योगिक स्वचालन प्रणाली सफलतापूर्वक लागू की गई।",
         "content": {
-          "projectOverview": "Project Overview",
-          "projectOverviewText": "Powerton Engineering has successfully completed a comprehensive industrial automation project for one of India's leading manufacturing facilities. This project represents a significant milestone in our commitment to delivering cutting-edge automation solutions that drive operational excellence.",
-          "keyAchievements": "Key Achievements",
+          "projectOverview": "परियोजना अवलोकन",
+          "projectOverviewText": "पावरटन इंजीनियरिंग ने भारत की एक प्रमुख विनिर्माण सुविधा के लिए एक व्यापक औद्योगिक स्वचालन परियोजना सफलतापूर्वक पूर्ण की है। यह परियोजना परिचालन उत्कृष्टता को चलाने वाले अत्याधुनिक स्वचालन समाधान प्रदान करने की हमारी प्रतिबद्धता में एक महत्वपूर्ण मील का पत्थर है।",
+          "keyAchievements": "मुख्य उपलब्धियां",
           "achievements": {
-            "costReduction": "30% reduction in operational costs",
-            "efficiency": "45% improvement in production efficiency",
-            "safety": "Zero safety incidents during implementation",
-            "uptime": "100% system uptime since commissioning"
+            "costReduction": "परिचालन लागत में 30% कमी",
+            "efficiency": "उत्पादन दक्षता में 45% सुधार",
+            "safety": "कार्यान्वयन के दौरान शून्य सुरक्षा घटनाएं",
+            "uptime": "कमीशनिंग के बाद से 100% सिस्टम अपटाइम"
           },
-          "technicalImplementation": "Technical Implementation",
-          "technicalText": "The project involved the integration of advanced PLC systems, SCADA implementation, and comprehensive instrumentation solutions. Our team worked closely with the client to ensure minimal disruption to ongoing operations while implementing state-of-the-art automation technology.",
-          "technologiesUsed": "Technologies Used",
+          "technicalImplementation": "तकनीकी कार्यान्वयन",
+          "technicalText": "इस परियोजना में उन्नत PLC सिस्टम का एकीकरण, SCADA कार्यान्वयन, और व्यापक इंस्ट्रूमेंटेशन समाधान शामिल थे। हमारी टीम ने अत्याधुनिक स्वचालन प्रौद्योगिकी को लागू करते समय चल रहे परिचालन में न्यूनतम बाधा सुनिश्चित करने के लिए ग्राहक के साथ मिलकर काम किया।",
+          "technologiesUsed": "उपयोग की गई तकनीकें",
           "technologies": {
-            "plc": "Schneider Electric PLC Systems",
-            "scada": "Advanced SCADA with real-time monitoring",
-            "iot": "Industrial IoT sensors and connectivity",
-            "maintenance": "Predictive maintenance systems",
-            "energy": "Energy management and optimization"
+            "plc": "श्नाइडर इलेक्ट्रिक PLC सिस्टम",
+            "scada": "रीयल-टाइम मॉनिटरिंग के साथ उन्नत SCADA",
+            "iot": "औद्योगिक IoT सेंसर और कनेक्टिविटी",
+            "maintenance": "भविष्यसूचक रखरखाव प्रणाली",
+            "energy": "ऊर्जा प्रबंधन और अनुकूलन"
           },
-          "clientTestimonial": "Client Testimonial",
-          "testimonialText": "Powerton Engineering delivered beyond our expectations. The new automation system has transformed our operations, and we're seeing immediate benefits in efficiency and cost reduction. Their professional approach and technical expertise were exceptional.",
-          "futureCollaboration": "Future Collaboration",
-          "futureText": "Based on the success of this implementation, the client has already engaged Powerton Engineering for phase two of their automation journey, which will expand the system to additional production lines.",
-          "conclusionText": "This project demonstrates our capability to handle complex industrial automation challenges and deliver measurable results that directly impact our clients' bottom line."
+          "clientTestimonial": "ग्राहक साक्ष्य",
+          "testimonialText": "पावरटन इंजीनियरिंग ने हमारी अपेक्षाओं से कहीं ज्यादा प्रदान किया। नई स्वचालन प्रणाली ने हमारे परिचालन को बदल दिया है, और हम दक्षता और लागत में कमी में तत्काल लाभ देख रहे हैं। उनका प्रोफेशनल दृष्टिकोण और तकनीकी विशेषज्ञता असाधारण थी।",
+          "futureCollaboration": "भविष्य सहयोग",
+          "futureText": "इस कार्यान्वयन की सफलता के आधार पर, ग्राहक ने पावरटन इंजीनियरिंग को अपनी स्वचालन यात्रा के दूसरे चरण के लिए पहले ही संलग्न कर लिया है, जो अतिरिक्त उत्पादन लाइनों में सिस्टम का विस्तार करेगा।",
+          "conclusionText": "यह परियोजना जटिल औद्योगिक स्वचालन चुनौतियों को संभालने और मापने योग्य परिणाम प्रदान करने की हमारी क्षमता को प्रदर्शित करती है जो सीधे हमारे ग्राहकों की मूल लाइन को प्रभावित करते हैं।"
         }
       },
       "cta": {
-        "title": "Ready to Transform Your Operations?",
-        "description": "Learn how Powerton Engineering can help you achieve similar results with our industrial automation solutions.",
-        "contactTeam": "Contact Our Team",
-        "requestQuote": "Request Project Quote"
+        "title": "अपने परिचालन को बदलने के लिए तैयार हैं?",
+        "description": "जानिए कि पावरटन इंजीनियरिंग कैसे हमारे औद्योगिक स्वचालन समाधानों के साथ आपको समान परिणाम प्राप्त करने में मदद कर सकता है।",
+        "contactTeam": "हमारी टीम से संपर्क करें",
+        "requestQuote": "परियोजना कोटेशन का अनुरोध करें"
       },
       "relatedArticles": {
-        "title": "Related Articles",
+        "title": "संबंधित लेख",
         "iotTrends": {
-          "title": "Latest Trends in Industrial IoT Implementation",
-          "excerpt": "Exploring how Industrial Internet of Things is revolutionizing manufacturing processes..."
+          "title": "औद्योगिक IoT कार्यान्वयन में नवीनतम रुझान",
+          "excerpt": "कैसे इंडस्ट्रियल इंटरनेट ऑफ थिंग्स विनिर्माण प्रक्रियाओं में क्रांति ला रहा है..."
         },
         "energyManagement": {
-          "title": "Energy Management System Reduces Costs by 40%",
-          "excerpt": "Case study: How our energy management solution delivered exceptional savings..."
+          "title": "ऊर्जा प्रबंधन प्रणाली 40% लागत कम करती है",
+          "excerpt": "केस स्टडी: कैसे हमारे ऊर्जा प्रबंधन समाधान ने असाधारण बचत प्रदान की..."
         },
-        "readMore": "Read More →"
+        "readMore": "और पढ़ें →"
       }
     },
-    "title": "News",
-    "subtitle": "Updates",
+    "title": "समाचार",
+    "subtitle": "अपडेट",
     "badges": {
-      "awardWinning": "Award Winning",
-      "growingStrong": "Growing Strong",
-      "futureReady": "Future Ready"
+      "awardWinning": "पुरस्कार विजेता",
+      "growingStrong": "मजबूत वृद्धि",
+      "futureReady": "भविष्य के लिए तैयार"
     },
     "latestNews": {
       "excellenceAward": {
-        "title": "Powerton Engineering Wins Excellence Award 2024",
-        "category": "Awards",
-        "excerpt": "Recognized for outstanding innovation in industrial automation and electrical engineering solutions."
+        "title": "पावरटन इंजीनियरिंग ने 2024 उत्कृष्टता पुरस्कार जीता",
+        "category": "पुरस्कार",
+        "excerpt": "औद्योगिक स्वचालन और विद्युत इंजीनियरिंग समाधान में उत्कृष्ट नवाचार के लिए पहचान।"
       },
       "ntpcContract": {
-        "title": "Major NTPC Contract Secured for Power Plant Automation",
-        "category": "Contracts",
-        "excerpt": "Awarded comprehensive automation contract for 500MW thermal power plant modernization project."
+        "title": "पावर प्लांट ऑटोमेशन के लिए प्रमुख NTPC अनुबंध प्राप्त",
+        "category": "अनुबंध",
+        "excerpt": "500MW थर्मल पावर प्लांट आधुनिकीकरण परियोजना के लिए व्यापक स्वचालन अनुबंध प्रदान किया गया।"
       },
       "renewableExpansion": {
-        "title": "Expanding Renewable Energy Solutions Across India",
-        "category": "Expansion",
-        "excerpt": "New solar EPC capabilities and partnerships to support India's renewable energy transition."
+        "title": "भारत भर में नवीकरणीय ऊर्जा समाधान का विस्तार",
+        "category": "विस्तार",
+        "excerpt": "भारत के नवीकरणीय ऊर्जा संक्रमण का समर्थन करने के लिए नई सौर EPC क्षमताएं और साझेदारी।"
+      },
+      "rdFacility": {
+        "title": "नई R&D सुविधा का उद्घाटन",
+        "category": "अनुसंधान और विकास",
+        "excerpt": "उन्नत औद्योगिक स्वचालन समाधानों के लिए अत्याधुनिक अनुसंधान और विकास केंद्र की स्थापना।"
+      },
+      "europeanPartnership": {
+        "title": "यूरोपीय तकनीकी साझेदारी की घोषणा",
+        "category": "साझेदारी",
+        "excerpt": "अग्रणी यूरोपीय इंजीनियरिंग फर्मों के साथ रणनीतिक तकनीकी सहयोग और ज्ञान साझाकरण समझौता।"
+      },
+      "isoAchievement": {
+        "title": "ISO 45001:2018 सुरक्षा प्रमाणन प्राप्त",
+        "category": "प्रमाणन",
+        "excerpt": "कार्यस्थल सुरक्षा और स्वास्थ्य प्रबंधन में उत्कृष्टता के लिए अंतर्राष्ट्रीय मानक प्रमाणन।"
       }
     },
     "upcomingProjects": {
       "smartCity": {
-        "title": "Smart City Infrastructure Automation",
-        "client": "Noida Smart City Ltd.",
-        "description": "Complete automation infrastructure for smart city project including traffic management, waste management, and energy distribution systems.",
-        "status": "Planning Phase",
+        "title": "स्मार्ट सिटी इंफ्रास्ट्रक्चर स्वचालन",
+        "client": "नोएडा स्मार्ट सिटी लिमिटेड",
+        "description": "स्मार्ट सिटी परियोजना के लिए संपूर्ण स्वचालन इंफ्रास्ट्रक्चर जिसमें यातायात प्रबंधन, अपशिष्ट प्रबंधन, और ऊर्जा वितरण प्रणाली शामिल है।",
+        "status": "योजना चरण",
         "technologies": [
           "IoT",
-          "Smart Sensors",
-          "City Management Systems",
-          "Energy Automation"
+          "स्मार्ट सेंसर",
+          "शहर प्रबंधन प्रणाली",
+          "ऊर्जा स्वचालन"
         ]
       },
       "pharma": {
-        "title": "Pharmaceutical Manufacturing Automation",
-        "client": "Cipla Limited",
-        "description": "Advanced automation for pharmaceutical manufacturing processes with compliance to international standards and quality control systems.",
-        "status": "Contract Signed",
+        "title": "फार्मास्यूटिकल विनिर्माण स्वचालन",
+        "client": "सिप्ला लिमिटेड",
+        "description": "अंतर्राष्ट्रीय मानकों के अनुपालन और गुणवत्ता नियंत्रण प्रणालियों के साथ फार्मास्यूटिकल विनिर्माण प्रक्रियाओं के लिए उन्नत स्वचालन।",
+        "status": "अनुबंध हस्ताक्षरित",
         "technologies": [
-          "GMP Compliance",
-          "Batch Processing",
-          "Quality Control",
-          "Traceability Systems"
+          "GMP अनुपालन",
+          "बैच प्रोसेसिंग",
+          "गुणवत्ता नियंत्रण",
+          "ट्रेसेबिलिटी प्रणाली"
         ]
       },
       "solarFarm": {
-        "title": "Solar Farm Automation and Monitoring",
-        "client": "Adani Green Energy",
-        "description": "Comprehensive automation solution for 200MW solar farm including tracking systems, weather monitoring, and grid integration.",
-        "status": "Engineering Phase",
+        "title": "सौर फार्म स्वचालन और निगरानी",
+        "client": "अदानी ग्रीन एनर्जी",
+        "description": "200MW सौर फार्म के लिए व्यापक स्वचालन समाधान जिसमें ट्रैकिंग प्रणाली, मौसम निगरानी, और ग्रिड एकीकरण शामिल है।",
+        "status": "इंजीनियरिंग चरण",
         "technologies": [
-          "Solar Tracking",
-          "Weather Systems",
-          "Grid Integration",
-          "Remote Monitoring"
+          "सौर ट्रैकिंग",
+          "मौसम प्रणाली",
+          "ग्रिड एकीकरण",
+          "रिमोट मॉनिटरिंग"
         ]
       }
     },
     "achievements": {
       "2023": [
-        "Outstanding Engineering Solution - CII Manufacturing Excellence",
-        "Safety Excellence Award - National Safety Council"
+        "उत्कृष्ट इंजीनियरिंग समाधान - CII विनिर्माण उत्कृष्टता",
+        "सुरक्षा उत्कृष्टता पुरस्कार - राष्ट्रीय सुरक्षा परिषद"
       ],
       "2024": [
-        "Excellence in Industrial Automation Award - Indian Engineering Society",
-        "Best Innovation in Process Control - Automation India Awards",
-        "ISO 9001:2015 Quality Management Certification",
-        "Top 100 Engineering Companies - India Today"
+        "औद्योगिक स्वचालन में उत्कृष्टता पुरस्कार - भारतीय इंजीनियरिंग सोसाइटी",
+        "प्रक्रिया नियंत्रण में सर्वश्रेष्ठ नवाचार - ऑटोमेशन इंडिया अवार्ड्स",
+        "ISO 9001:2015 गुणवत्ता प्रबंधन प्रमाणन",
+        "शीर्ष 100 इंजीनियरिंग कंपनियां - इंडिया टुडे"
       ],
-      "title": "Recent Achievements"
+      "title": "हाल की उपलब्धियां"
+    },
+    "tabs": {
+      "latestNews": "नवीनतम समाचार",
+      "upcomingProjects": "आगामी परियोजनाएं",
+      "achievements": "उपलब्धियां",
+      "futureGoals": "भविष्य के लक्ष्य"
+    },
+    "sections": {
+      "featuredNews": "विशेष समाचार",
+      "allNews": "सभी समाचार",
+      "allCategories": "सभी श्रेणियां",
+      "upcomingProjects": "आगामी परियोजनाएं"
     }
   },
   "about": {
     "story": {
-      "title": "Our Journey & Vision",
-      "description1": "Founded with a vision to empower industries through innovation and excellence, Powerton Engineering has grown to become a leading provider of electrical and instrumentation solutions worldwide.",
-      "description2": "From our headquarters in Noida, we serve clients nationwide with comprehensive engineering solutions including process automation, instrumentation, solar installations, and maintenance services."
+      "title": "हमारी यात्रा और दृष्टिकोण",
+      "description1": "नवाचार और उत्कृष्टता के माध्यम से उद्योगों को सशक्त बनाने की दृष्टि के साथ स्थापित, पावरटन इंजीनियरिंग दुनिया भर में विद्युत और इंस्ट्रूमेंटेशन समाधानों की एक अग्रणी प्रदाता बन गई है।",
+      "description2": "नोएडा में हमारे मुख्यालय से, हम प्रक्रिया स्वचालन, इंस्ट्रूमेंटेशन, सौर स्थापना, और रखरखाव सेवाओं सहित व्यापक इंजीनियरिंग समाधानों के साथ राष्ट्रव्यापी ग्राहकों की सेवा करते हैं।"
     },
     "values": {
       "quality": {
-        "title": "Quality Excellence",
-        "description": "We are committed to delivering the highest quality products and services that exceed industry standards."
+        "title": "गुणवत्ता उत्कृष्टता",
+        "description": "हम उद्योग मानकों से अधिक उच्च गुणवत्ता वाले उत्पाद और सेवाएं प्रदान करने के लिए प्रतिबद्ध हैं।"
       },
       "customer": {
-        "title": "Customer Focus",
-        "description": "Our clients are at the heart of everything we do. We work closely to understand and exceed their expectations."
+        "title": "ग्राहक फोकस",
+        "description": "हमारे ग्राहक हम जो कुछ भी करते हैं उसके केंद्र में हैं। हम उनकी अपेक्षाओं को समझने और उनसे आगे बढ़ने के लिए मिलकर काम करते हैं।"
       },
       "innovation": {
-        "title": "Technical Innovation",
-        "description": "We continuously invest in latest technologies and innovative solutions to stay ahead of industry trends."
+        "title": "तकनीकी नवाचार",
+        "description": "हम उद्योग रुझानों से आगे रहने के लिए नवीनतम तकनीकों और नवाचार समाधानों में लगातार निवेश करते हैं।"
       },
       "reliability": {
-        "title": "Reliability",
-        "description": "Our proven track record of on-time delivery and dependable service makes us a trusted partner."
+        "title": "विश्वसनीयता",
+        "description": "समय पर डिलिवरी और भरोसेमंद सेवा का हमारा सिद्ध ट्रैक रिकॉर्ड हमें एक विश्वसनीय साझीदार बनाता है।"
       }
     },
     "stats": {
       "engineers": "विशेषज्ञ इंजीनियर",
       "staff": "तकनीकी कर्मचारी",
       "experience": "वर्षों का औसत अनुभव",
-      "support": "Support Coverage"
+      "support": "सहायता कवरेज"
     },
     "hero": {
       "title": "About Powerton Engineering",
@@ -991,18 +1018,18 @@
   },
   "portfolio": {
     "features": {
-      "completedProjects": "Successfully completed projects across various industries",
-      "highQuality": "High-Quality Documentation",
-      "highQualityDesc": "Professional portfolio with detailed project imagery",
-      "verifiedResults": "Verified Results",
-      "verifiedResultsDesc": "Real projects with measurable outcomes and client testimonials"
+      "completedProjects": "विभिन्न उद्योगों में सफलतापूर्वक पूर्ण की गई परियोजनाएं",
+      "highQuality": "उच्च गुणवत्ता दस्तावेजीकरण",
+      "highQualityDesc": "विस्तृत परियोजना छवियों के साथ पेशेवर पोर्टफोलियो",
+      "verifiedResults": "प्रमाणित परिणाम",
+      "verifiedResultsDesc": "मापने योग्य परिणामों और ग्राहक प्रशंसापत्र के साथ वास्तविक परियोजनाएं"
     }
   },
   "career": {
     "seo": {
-      "title": "Careers at Powerton Engineering - Join Our Engineering Team",
-      "description": "Explore career opportunities at Powerton Engineering. Join our team of skilled engineers and contribute to innovative industrial automation and electrical engineering projects.",
-      "keywords": "powerton engineering careers, engineering jobs, electrical engineer jobs, automation engineer jobs, industrial engineering careers, engineering jobs noida"
+      "title": "पावरटन इंजीनियरिंग में करियर - हमारी इंजीनियरिंग टीम में शामिल हों",
+      "description": "पावरटन इंजीनियरिंग में करियर के अवसरों को एक्सप्लोर करें। कुशल इंजीनियरों की हमारी टीम में शामिल हों और नवाचार औद्योगिक स्वचालन और विद्युत इंजीनियरिंग परियोजनाओं में योगदान दें।",
+      "keywords": "पावरटन इंजीनियरिंग करियर, इंजीनियरिंग जॉब, इलेक्ट्रिकल इंजीनियर जॉब, ऑटोमेशन इंजीनियर जॉब, औद्योगिक इंजीनियरिंग करियर, इंजीनियरिंग जॉब नोएडा"
     },
     "hero": {
       "title": "हमारे साथ अपना इंजीनियरिंग करियर बनाएं",
@@ -1016,47 +1043,47 @@
     },
     "benefits": {
       "careerGrowth": {
-        "title": "Career Growth",
-        "description": "Structured career progression with regular performance reviews and promotion opportunities."
+        "title": "करियर विकास",
+        "description": "नियमित प्रदर्शन समीक्षा और पदोन्नति के अवसरों के साथ संरचित करियर प्रगति।"
       },
       "learningDevelopment": {
-        "title": "Learning & Development",
-        "description": "Continuous training programs, certifications, and skill enhancement opportunities."
+        "title": "सीखना और विकास",
+        "description": "निरंतर प्रशिक्षण कार्यक्रम, प्रमाणन, और कौशल वृद्धि के अवसर।"
       },
       "workLifeBalance": {
-        "title": "Work-Life Balance",
-        "description": "Flexible working hours and comprehensive health benefits for employees and families."
+        "title": "वर्क-लाइफ बैलेंस",
+        "description": "कर्मचारियों और परिवारों के लिए लचीले कार्य समय और व्यापक स्वास्थ्य लाभ।"
       },
       "teamCulture": {
-        "title": "Team Culture",
-        "description": "Collaborative work environment with supportive team members and open communication."
+        "title": "टीम कल्चर",
+        "description": "सहायक टीम सदस्यों और खुले संचार के साथ सहयोगी कार्य वातावरण।"
       },
       "recognitionRewards": {
-        "title": "Recognition & Rewards",
-        "description": "Performance-based incentives, bonuses, and recognition programs for outstanding work."
+        "title": "मान्यता और पुरस्कार",
+        "description": "उत्कृष्ट काम के लिए प्रदर्शन-आधारित प्रोत्साहन, बोनस, और मान्यता कार्यक्रम।"
       },
       "innovationFocus": {
-        "title": "Innovation Focus",
-        "description": "Work on cutting-edge technologies and innovative solutions in industrial automation."
+        "title": "इनोवेशन फोकस",
+        "description": "औद्योगिक स्वचालन में अत्याधुनिक प्रौद्योगिकियों और नवाचार समाधानों पर काम करें।"
       }
     }
   },
   "seo": {
     "productPages": {
       "plcs": {
-        "title": "PLCs (Programmable Logic Controllers) - Industrial Automation | Powerton Engineering",
-        "description": "High-quality PLCs from leading manufacturers: Siemens SIMATIC, Allen-Bradley CompactLogix, Schneider Modicon. Expert PLC programming, installation & support across India.",
-        "keywords": "PLCs, programmable logic controllers, Siemens SIMATIC, Allen-Bradley CompactLogix, Schneider Modicon, industrial automation controllers, PLC programming, factory automation"
+        "title": "PLCs (प्रोग्रामेबल लॉजिक कंट्रोलर) - औद्योगिक स्वचालन | पावरटन इंजीनियरिंग",
+        "description": "अग्रणी निर्माताओं से उच्च गुणवत्ता वाले PLCs: Siemens SIMATIC, Allen-Bradley CompactLogix, Schneider Modicon। भारत भर में विशेषज्ञ PLC प्रोग्रामिंग, स्थापना और समर्थन।",
+        "keywords": "PLCs, प्रोग्रामेबल लॉजिक कंट्रोलर, Siemens SIMATIC, Allen-Bradley CompactLogix, Schneider Modicon, औद्योगिक स्वचालन कंट्रोलर, PLC प्रोग्रामिंग, फैक्ट्री ओटोमेशन"
       },
       "solarPanels": {
-        "title": "Solar Panels - Monocrystalline & Polycrystalline | Powerton Engineering",
-        "description": "High-efficiency solar panels: Monocrystalline (400W), Polycrystalline (320W), and Bifacial (450W). Complete solar energy solutions with installation support across India.",
-        "keywords": "solar panels, monocrystalline solar panels, polycrystalline solar panels, bifacial solar panels, solar energy systems, renewable energy, solar installation India"
+        "title": "सौर पैनल - मोनोक्रिस्टलाइन और पॉलीक्रिस्टलाइन | पावरटन इंजीनियरिंग",
+        "description": "उच्च दक्षता वाले सौर पैनल: मोनोक्रिस्टलाइन (400W), पॉलीक्रिस्टलाइन (320W), और बाइफेशियल (450W)। भारत भर में स्थापना समर्थन के साथ संपूर्ण सौर ऊर्जा समाधान।",
+        "keywords": "सौर पैनल, मोनोक्रिस्टलाइन सौर पैनल, पॉलीक्रिस्टलाइन सौर पैनल, बाइफेशियल सौर पैनल, सौर ऊर्जा सिस्टम, नवीकरणीय ऊर्जा, सौर स्थापना भारत"
       },
       "scada": {
-        "title": "SCADA Systems - Industrial Monitoring & Control | Powerton Engineering",
-        "description": "Advanced SCADA systems for real-time monitoring, data acquisition, and process control. Complete SCADA solutions with HMI integration and remote access capabilities.",
-        "keywords": "SCADA systems, supervisory control, data acquisition, industrial monitoring, process control, HMI integration, remote monitoring, SCADA software"
+        "title": "SCADA सिस्टम - औद्योगिक निगरानी और नियंत्रण | पावरटन इंजीनियरिंग",
+        "description": "रीयल-टाइम मॉनिटरिंग, डेटा एक्विजिशन, और प्रोसेस कंट्रोल के लिए उन्नत SCADA सिस्टम। HMI एकीकरण और रिमोट एक्सेस क्षमताओं के साथ संपूर्ण SCADA समाधान।",
+        "keywords": "SCADA सिस्टम, सुपरवाइजरी कंट्रोल, डेटा एक्विजिशन, औद्योगिक मॉनिटरिंग, प्रोसेस कंट्रोल, HMI एकीकरण, रिमोट मॉनिटरिंग, SCADA सॉफ्टवेयर"
       }
     }
   },
