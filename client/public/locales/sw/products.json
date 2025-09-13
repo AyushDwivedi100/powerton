@@ -1,6 +1,125 @@
 {
   "title": "Bidhaa Zetu",
   "subtitle": "Vifaa vya Otomatiki ya Viwandani na Viungo vya Umeme",
+  "bldcCeilingFan": {
+    "smart1200": {
+      "title": "Panka ya Dari ya BLDC ya Akili 1200mm",
+      "description": "Panka ya dari ya kinaenergy yenye udhibiti wa umbali na utendakazi wa muda",
+      "features": ["Matumizi ya Umeme 28W", "Udhibiti wa Umbali", "Mipangilio 5 ya Kasi", "Utendakazi wa Muda"]
+    },
+    "premium1400": {
+      "title": "Panka ya Dari ya BLDC Bora 1400mm", 
+      "description": "Panka ya dari ya utendakazi wa juu na taa za LED na injini inayoweza kurudi nyuma",
+      "features": ["Matumizi ya Umeme 35W", "Taa za LED Zilizounganishwa", "Injini Inayoweza Kurudi Nyuma", "Utendakazi wa Kimya"]
+    },
+    "commercial1500": {
+      "title": "Panka ya Dari ya BLDC ya Kibiashara 1500mm",
+      "description": "Panka ya dari imara kwa matumizi ya kibiashara na viwandani", 
+      "features": ["Matumizi ya Umeme 45W", "Injini Imara", "Mtiririko wa Hewa wa Juu", "Ujenzi Imara"]
+    }
+  },
+  "bldcCoolerExhaust": {
+    "exhaustFan": {
+      "title": "Injini ya Panka ya Kutoa Hewa ya BLDC",
+      "description": "Injini ya ufanisi wa juu bila brashi kwa matumizi ya panka ya kutoa hewa",
+      "features": ["Udhibiti wa Kasi Unaobadilika", "Utendakazi wa Kelele Chini", "Muundo wa Ufanisi", "Maisha Marefu"]
+    },
+    "coolerMotors": {
+      "title": "Injini ya Kibaridi ya BLDC",
+      "description": "Injini ya ufanisi iliyoundwa kwa matumizi ya kibaridi cha hewa",
+      "features": ["Matokeo ya Kasi ya Juu", "Imara kwa Hali ya Hewa", "Udhibiti wa Kasi", "Utendakazi bila Matengenezo"]
+    },
+    "ventilation": {
+      "title": "Injini ya Mfumo wa Uingizaji Hewa ya BLDC", 
+      "description": "Injini maalum kwa mifumo ya uingizaji hewa ya viwandani na kushughulikia hewa",
+      "features": ["Kiwango cha CFM cha Juu", "Kiwango cha Joto", "Imara kwa Mitetemeko", "Inaendana na Udhibiti wa Akili"]
+    }
+  },
+  "bldcPumps": {
+    "solarSubmersible1hp": {
+      "title": "Pampu ya Kuzama ya Jua ya BLDC 1HP",
+      "description": "Pampu ya kuzama inayoendeshwa na nishati ya jua kwa visima vya maji na matumizi ya kuchimba",
+      "features": ["Utendakazi Unaofaa Jua", "Nguvu ya Injini 1HP", "Muundo wa Ufanisi wa Juu", "Ujenzi Unaopozwa kwa Maji"]
+    },
+    "dcSurface2hp": {
+      "title": "Pampu ya Uso ya DC 2HP",
+      "description": "Pampu ya uso ya ufanisi wa juu kwa umwagiliaji na uhamisho wa maji",
+      "features": ["Kiwango cha Nguvu 2HP", "Muundo wa Kujichunga", "Ulinzi wa Utendakazi wa Kavu", "Udhibiti wa Kasi Unaobadilika"]
+    },
+    "hybridSystem": {
+      "title": "Mfumo wa Pampu ya BLDC wa Mchanganyiko",
+      "description": "Mfumo wa pampu wa akili na uwezo wa kuhifadhi kwa jua na mtandao",
+      "features": ["Hali ya Utendakazi wa Mchanganyiko", "Kidhibiti cha Akili", "Ufuatiliaji wa Mbali", "Utengano wa Nishati"]
+    }
+  },
+  "bldcFans": {
+    "tableFan": {
+      "title": "Injini ya Panka ya Meza ya BLDC",
+      "description": "Injini ya mkondoni wa kutokuwa na brashi ya kipimo kifupi kwa matumizi ya panka za meza na ofisi",
+      "features": ["Muundo wa Kimwakilishi", "Utendakazi wa Kimya", "Udhibiti wa Umbali", "Kazi ya Muda"]
+    },
+    "wallFan": {
+      "title": "Injini ya Panka ya Ukuta ya BLDC", 
+      "description": "Injini ya panka ya ukuta na teknolojia ya BLDC kwa matumizi ya nyumbani",
+      "features": ["Muundo wa Uwekaji Ukutani", "Kazi ya Mzunguko", "Udhibiti wa Kasi", "Utendakazi wa Kuokoa Nishati"]
+    },
+    "pedestalFan": {
+      "title": "Injini ya Panka ya Nguzo ya BLDC",
+      "description": "Injini ya panka ya nguzo inayoweza kuongezeka urefu na onyesho la LED",
+      "features": ["Marekebisho ya Urefu", "Kazi ya Kuinama", "Onyesho la LED", "Kwa Muda wa Hali ya Usingizi"]
+    }
+  },
+  "cablesWires": {
+    "instrumentation": {
+      "title": "Kebo za Vifaa vya Kupima",
+      "description": "Kebo zilizofunikwa za umeme wa chini kwa matumizi ya vifaa vya kupima na udhibiti",
+      "features": ["Muundo Uliofunikwa", "Imara kwa Unyevu", "Kiwango cha Joto", "Usanidi wa Jozi Nyingi"]
+    },
+    "powerDistribution": {
+      "title": "Kebo za Ugawaji wa Nishati",
+      "description": "Kebo za umeme wa juu kwa mifumo ya maambukizi na ugawaji wa nishati",
+      "features": ["Kizuizi cha XLPE", "Muundo Uliofunikwa", "Imara kwa Moto", "Kiwango cha Mkondo wa Juu"]
+    },
+    "communication": {
+      "title": "Kebo za Mawasiliano",
+      "description": "Kebo za kupitisha data kwa mitandao ya mawasiliano ya viwandani",
+      "features": ["Viwango vya Cat5e/Cat6", "Chaguo za Fiber Optiki", "Kiwango cha Viwandani", "Kinga ya EMI"]
+    }
+  },
+  "circuitBreakers": {
+    "mcb": {
+      "title": "Vikato vya Mzunguko Vidogo (MCB)",
+      "description": "Vikato vya mzunguko vya umeme wa chini kwa ulinzi wa nyumba na kibiashara",
+      "features": ["Mipango ya Kuzima B/C/D", "Kiwango cha 6-63A", "Uwezo wa Kuvunja 10kA", "Kuweka kwenye Reli ya DIN"]
+    },
+    "mccb": {
+      "title": "Vikato vya Mzunguko vya Kesi Moto (MCCB)",
+      "description": "Vikato vya mzunguko vya viwandani kwa ulinzi wa mitambo na vifaa vya umeme",
+      "features": ["Mipangilio ya Kuzima Inayoweza Kurekebishwa", "Uwezo wa Kuvunja wa Juu", "Vitengo vya Kuzima vya Kielektroniki", "Kiwango hadi 1600A"]
+    },
+    "industrialFuses": {
+      "title": "Fyuzi za Viwandani",
+      "description": "Fyuzi za kasi ya juu kwa ulinzi wa vifaa vya umeme",
+      "features": ["Mwitikio wa Haraka", "Chaguo za Kuchelewa kwa Muda", "Kiwango cha Umeme wa Juu", "Ujenzi wa Mwanga wa Udongo"]
+    }
+  },
+  "connectorsTerminals": {
+    "terminalBlocks": {
+      "title": "Vifungo vya Mwisho vya Viwandani",
+      "description": "Vifungo vya mwisho vya usalama kwa miunganiko ya kebo za viwandani",
+      "features": ["Teknolojia ya Chuma cha Chemchemi", "Miunganiko ya Aina ya Skrubu", "Kuweka kwenye Reli ya DIN", "Chaguo za Ukubwa Mbalimbali"]
+    },
+    "industrialConnectors": {
+      "title": "Viunganishi vya Viwandani",
+      "description": "Viunganishi viongovu kwa matumizi ya viwandani ya hali ngumu",
+      "features": ["Kiwango cha Ulinzi IP67", "Utaratibu wa Kufunga", "Usanidi wa Pin Nyingi", "Ujumuishaji wa Mkanda wa Kebo"]
+    },
+    "signalConnectors": {
+      "title": "Viunganishi vya Ishara",
+      "description": "Viunganishi vya usahihi kwa vifaa vya kupima na kupitisha ishara",
+      "features": ["Muundo wa Kelele Chini", "Ujenzi Uliofunikwa", "Ukubwa wa Kitwana", "Utendakazi wa Kuaminika Kwa Hali ya Juu"]
+    }
+  },
   "categories": {
     "automation": "Otomatiki na Udhibiti",
     "electrical": "Vipengele vya Umeme",

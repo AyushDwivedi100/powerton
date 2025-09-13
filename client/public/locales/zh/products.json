@@ -1,16 +1,56 @@
 {
   "title": "我们的产品",
   "subtitle": "工业自动化产品、电气元件、仪表、太阳能系统、泵和工具的综合系列。用于工业应用的优质设备。",
-  "items": {
-    "instrumentation-components": "仪表组件",
-    "electrical-components": "电气元件",
-    "measurement-instruments": "测量仪器",
-    "solar-products": "太阳能产品",
-    "automation-control-systems": "自动化控制系统",
-    "safety-protective-devices": "安全防护设备",
-    "mechanical-pumps-spares": "机械泵和备件",
-    "industrial-tools-tackles": "工业工具设备",
-    "bldc": "BLDC产品"
+  "bldcCeilingFan": {
+    "smart1200": {
+      "title": "智能BLDC吊扇1200毫米",
+      "description": "节能智能吊扇，配备遥控器和定时功能",
+      "features": ["28瓦功率消耗", "遥控器", "5档调速", "定时功能"]
+    },
+    "premium1400": {
+      "title": "高级BLDC吊扇1400毫米", 
+      "description": "高性能吊扇，配备LED照明和可逆电机",
+      "features": ["35瓦功率消耗", "集成LED灯", "可逆电机", "静音运行"]
+    },
+    "commercial1500": {
+      "title": "商用BLDC吊扇1500毫米",
+      "description": "适用于商业和工业应用的重型吊扇", 
+      "features": ["45瓦功率消耗", "重型电机", "大风量", "耐用结构"]
+    }
+  },
+  "bldcCoolerExhaust": {
+    "exhaustFan": {
+      "title": "BLDC排风扇电机",
+      "description": "用于排风扇应用的高效无刷直流电机",
+      "features": ["变速控制", "低噪音运行", "节能设计", "延长寿命"]
+    },
+    "coolerMotors": {
+      "title": "BLDC冷却器电机",
+      "description": "专为空气冷却器应用设计的节能电机",
+      "features": ["高扭矩输出", "耐候性", "速度控制", "免维护运行"]
+    },
+    "ventilation": {
+      "title": "BLDC通风系统电机", 
+      "description": "专用于工业通风和空气处理系统的电机",
+      "features": ["高CFM额定值", "温度额定", "抗振动", "智能控制兼容"]
+    }
+  },
+  "bldcPumps": {
+    "solarSubmersible1hp": {
+      "title": "太阳能BLDC潜水泵1马力",
+      "description": "太阳能驱动的潜水泵，用于水井和钻孔应用",
+      "features": ["太阳能兼容运行", "1马力电机功率", "高效设计", "水冷结构"]
+    },
+    "dcSurface2hp": {
+      "title": "直流表面泵2马力",
+      "description": "用于灌溉和水传输的高效表面泵",
+      "features": ["2马力功率等级", "自吸设计", "干运行保护", "变速控制"]
+    },
+    "hybridSystem": {
+      "title": "混合BLDC泵系统",
+      "description": "具有太阳能和电网备份能力的智能泵系统",
+      "features": ["混合运行模式", "智能控制器", "远程监控", "能源优化"]
+    }
   },
   "categories": {
     "automation": "自动化与控制",

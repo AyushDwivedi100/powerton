@@ -1,6 +1,125 @@
 {
   "title": "Nuestros Productos",
   "subtitle": "Automatización Industrial y Componentes Eléctricos",
+  "bldcCeilingFan": {
+    "smart1200": {
+      "title": "Ventilador de Techo BLDC Inteligente 1200mm",
+      "description": "Ventilador de techo eficiente con control remoto y función de temporizador",
+      "features": ["Consumo de 28W", "Control Remoto", "5 Configuraciones de Velocidad", "Función Temporizador"]
+    },
+    "premium1400": {
+      "title": "Ventilador de Techo BLDC Premium 1400mm", 
+      "description": "Ventilador de techo de alto rendimiento con iluminación LED y motor reversible",
+      "features": ["Consumo de 35W", "Luz LED Integrada", "Motor Reversible", "Operación Silenciosa"]
+    },
+    "commercial1500": {
+      "title": "Ventilador de Techo BLDC Comercial 1500mm",
+      "description": "Ventilador de techo resistente para aplicaciones comerciales e industriales", 
+      "features": ["Consumo de 45W", "Motor Resistente", "Alto Flujo de Aire", "Construcción Duradera"]
+    }
+  },
+  "bldcCoolerExhaust": {
+    "exhaustFan": {
+      "title": "Motor de Ventilador de Escape BLDC",
+      "description": "Motor de alta eficiencia sin escobillas para aplicaciones de ventilador de escape",
+      "features": ["Control de Velocidad Variable", "Operación de Bajo Ruido", "Diseño Eficiente", "Vida Útil Extendida"]
+    },
+    "coolerMotors": {
+      "title": "Motor de Enfriador BLDC",
+      "description": "Motor eficiente diseñado para aplicaciones de enfriador de aire",
+      "features": ["Salida de Alto Torque", "Resistente al Clima", "Control de Velocidad", "Operación Libre de Mantenimiento"]
+    },
+    "ventilation": {
+      "title": "Motor de Sistema de Ventilación BLDC", 
+      "description": "Motor especializado para sistemas de ventilación industrial y manejo de aire",
+      "features": ["Clasificación CFM Alta", "Clasificado por Temperatura", "Resistente a Vibraciones", "Compatible con Control Inteligente"]
+    }
+  },
+  "bldcPumps": {
+    "solarSubmersible1hp": {
+      "title": "Bomba Sumergible Solar BLDC 1HP",
+      "description": "Bomba sumergible alimentada por energía solar para pozos de agua y aplicaciones de perforación",
+      "features": ["Operación Compatible Solar", "Potencia del Motor 1HP", "Diseño de Alta Eficiencia", "Construcción Enfriada por Agua"]
+    },
+    "dcSurface2hp": {
+      "title": "Bomba de Superficie DC 2HP",
+      "description": "Bomba de superficie de alta eficiencia para riego y transferencia de agua",
+      "features": ["Clasificación de Potencia 2HP", "Diseño Autocebante", "Protección de Funcionamiento en Seco", "Control de Velocidad Variable"]
+    },
+    "hybridSystem": {
+      "title": "Sistema de Bomba BLDC Híbrido",
+      "description": "Sistema de bomba inteligente con capacidad de respaldo solar y de red",
+      "features": ["Modo de Operación Híbrido", "Controlador Inteligente", "Monitoreo Remoto", "Optimización de Energía"]
+    }
+  },
+  "bldcFans": {
+    "tableFan": {
+      "title": "Motor de Ventilador de Mesa BLDC",
+      "description": "Motor de corriente continua sin escobillas compacto para aplicaciones de ventiladores de mesa y escritorio",
+      "features": ["Diseño Compacto", "Operación Silenciosa", "Control Remoto", "Función Temporizador"]
+    },
+    "wallFan": {
+      "title": "Motor de Ventilador de Pared BLDC", 
+      "description": "Motor de ventilador montado en pared con tecnología BLDC para uso residencial",
+      "features": ["Diseño de Montaje en Pared", "Función Oscilante", "Control de Velocidad", "Operación de Ahorro Energético"]
+    },
+    "pedestalFan": {
+      "title": "Motor de Ventilador de Pedestal BLDC",
+      "description": "Motor de ventilador de pedestal ajustable en altura con pantalla LED",
+      "features": ["Ajuste de Altura", "Función de Inclinación", "Pantalla LED", "Temporizador Modo Sueño"]
+    }
+  },
+  "cablesWires": {
+    "instrumentation": {
+      "title": "Cables de Instrumentación",
+      "description": "Cables blindados de bajo voltaje para aplicaciones de instrumentación y control",
+      "features": ["Construcción Blindada", "Resistente a la Humedad", "Clasificado por Temperatura", "Configuración de Múltiples Pares"]
+    },
+    "powerDistribution": {
+      "title": "Cables de Distribución de Energía",
+      "description": "Cables de alto voltaje para sistemas de transmisión y distribución de energía",
+      "features": ["Aislamiento XLPE", "Construcción Blindada", "Resistente al Fuego", "Clasificación de Alta Corriente"]
+    },
+    "communication": {
+      "title": "Cables de Comunicación",
+      "description": "Cables de transmisión de datos para redes de comunicación industrial",
+      "features": ["Estándares Cat5e/Cat6", "Opciones de Fibra Óptica", "Grado Industrial", "Blindaje EMI"]
+    }
+  },
+  "circuitBreakers": {
+    "mcb": {
+      "title": "Interruptores Automáticos Miniatura (MCB)",
+      "description": "Interruptores automáticos de bajo voltaje para protección residencial y comercial",
+      "features": ["Curvas de Disparo B/C/D", "Clasificación 6-63A", "Capacidad de Ruptura 10kA", "Montaje en Riel DIN"]
+    },
+    "mccb": {
+      "title": "Interruptores Automáticos de Caja Moldeada (MCCB)",
+      "description": "Interruptores automáticos industriales para protección de motores y equipos eléctricos",
+      "features": ["Configuraciones de Disparo Ajustables", "Alta Capacidad de Ruptura", "Unidades de Disparo Electrónicas", "Clasificación hasta 1600A"]
+    },
+    "industrialFuses": {
+      "title": "Fusibles Industriales",
+      "description": "Fusibles de alta velocidad para protección de equipos eléctricos",
+      "features": ["Respuesta de Acción Rápida", "Opciones de Retardo de Tiempo", "Clasificación de Alto Voltaje", "Construcción de Cuerpo Cerámico"]
+    }
+  },
+  "connectorsTerminals": {
+    "terminalBlocks": {
+      "title": "Bloques de Terminales Industriales",
+      "description": "Bloques de terminales seguros para conexiones de cables industriales",
+      "features": ["Tecnología de Abrazadera de Resorte", "Conexiones Tipo Tornillo", "Montaje en Riel DIN", "Múltiples Opciones de Tamaño"]
+    },
+    "industrialConnectors": {
+      "title": "Conectores Industriales",
+      "description": "Conectores de servicio pesado para aplicaciones industriales exigentes",
+      "features": ["Clasificación de Protección IP67", "Mecanismo de Bloqueo", "Configuración Multi-Pin", "Integración Cable Gland"]
+    },
+    "signalConnectors": {
+      "title": "Conectores de Señal",
+      "description": "Conectores de precisión para instrumentación y transmisión de señales",
+      "features": ["Diseño de Bajo Ruido", "Construcción Blindada", "Tamaño Miniatura", "Rendimiento de Alta Confiabilidad"]
+    }
+  },
   "categories": {
     "automation": "Automatización y Control",
     "electrical": "Componentes Eléctricos",

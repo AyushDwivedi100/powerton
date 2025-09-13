@@ -188,6 +188,125 @@
       }
     }
   },
+  "bldcCeilingFan": {
+    "smart1200": {
+      "title": "Smart BLDC Ceiling Fan 1200mm",
+      "description": "Energy-efficient smart ceiling fan with remote control and timer function",
+      "features": ["28W Power Consumption", "Remote Control", "5 Speed Settings", "Timer Function"]
+    },
+    "premium1400": {
+      "title": "Premium BLDC Ceiling Fan 1400mm", 
+      "description": "High-performance ceiling fan with LED lighting and reversible motor",
+      "features": ["35W Power Consumption", "LED Light Integrated", "Reversible Motor", "Silent Operation"]
+    },
+    "commercial1500": {
+      "title": "Commercial BLDC Ceiling Fan 1500mm",
+      "description": "Heavy-duty ceiling fan for commercial and industrial applications", 
+      "features": ["45W Power Consumption", "Heavy-Duty Motor", "High Air Flow", "Durable Construction"]
+    }
+  },
+  "bldcCoolerExhaust": {
+    "exhaustFan": {
+      "title": "BLDC Exhaust Fan Motor",
+      "description": "High-efficiency brushless DC motor for exhaust fan applications",
+      "features": ["Variable Speed Control", "Low Noise Operation", "Energy Efficient Design", "Extended Life Span"]
+    },
+    "coolerMotors": {
+      "title": "BLDC Cooler Motor",
+      "description": "Energy-efficient motor designed for air cooler applications",
+      "features": ["High Torque Output", "Weather Resistant", "Speed Control", "Maintenance Free Operation"]
+    },
+    "ventilation": {
+      "title": "BLDC Ventilation System Motor", 
+      "description": "Specialized motor for industrial ventilation and air handling systems",
+      "features": ["High CFM Rating", "Temperature Rated", "Vibration Resistant", "Smart Control Compatible"]
+    }
+  },
+  "bldcPumps": {
+    "solarSubmersible1hp": {
+      "title": "Solar BLDC Submersible Pump 1HP",
+      "description": "Solar-powered submersible pump for water wells and borehole applications",
+      "features": ["Solar Compatible Operation", "1HP Motor Power", "High Efficiency Design", "Water-Cooled Construction"]
+    },
+    "dcSurface2hp": {
+      "title": "DC Surface Pump 2HP",
+      "description": "High-efficiency surface pump for irrigation and water transfer",
+      "features": ["2HP Power Rating", "Self-Priming Design", "Dry Run Protection", "Variable Speed Control"]
+    },
+    "hybridSystem": {
+      "title": "Hybrid BLDC Pump System",
+      "description": "Intelligent pump system with solar and grid backup capability",
+      "features": ["Hybrid Operation Mode", "Smart Controller", "Remote Monitoring", "Energy Optimization"]
+    }
+  },
+  "bldcFans": {
+    "tableFan": {
+      "title": "BLDC Table Fan Motor",
+      "description": "Compact brushless DC motor for table and desk fan applications",
+      "features": ["Compact Design", "Silent Operation", "Remote Control", "Timer Function"]
+    },
+    "wallFan": {
+      "title": "BLDC Wall Fan Motor", 
+      "description": "Wall-mounted fan motor with BLDC technology for residential use",
+      "features": ["Wall Mount Design", "Oscillating Function", "Speed Control", "Energy Saving Operation"]
+    },
+    "pedestalFan": {
+      "title": "BLDC Pedestal Fan Motor",
+      "description": "Height-adjustable pedestal fan motor with LED display",
+      "features": ["Height Adjustment", "Tilt Function", "LED Display", "Sleep Mode Timer"]
+    }
+  },
+  "cablesWires": {
+    "instrumentation": {
+      "title": "Instrumentation Cables",
+      "description": "Low voltage shielded cables for instrumentation and control applications",
+      "features": ["Shielded Construction", "Moisture Resistant", "Temperature Rated", "Multiple Pair Configuration"]
+    },
+    "powerDistribution": {
+      "title": "Power Distribution Cables",
+      "description": "High voltage cables for power transmission and distribution systems",
+      "features": ["XLPE Insulation", "Armored Construction", "Fire Resistant", "High Current Rating"]
+    },
+    "communication": {
+      "title": "Communication Cables",
+      "description": "Data transmission cables for industrial communication networks",
+      "features": ["Cat5e/Cat6 Standards", "Fiber Optic Options", "Industrial Grade", "EMI Shielding"]
+    }
+  },
+  "circuitBreakers": {
+    "mcb": {
+      "title": "Miniature Circuit Breakers (MCB)",
+      "description": "Low voltage circuit breakers for residential and commercial protection",
+      "features": ["B/C/D Trip Curves", "6-63A Rating", "10kA Breaking Capacity", "DIN Rail Mounting"]
+    },
+    "mccb": {
+      "title": "Molded Case Circuit Breakers (MCCB)",
+      "description": "Industrial circuit breakers for motor and power equipment protection",
+      "features": ["Adjustable Trip Settings", "High Breaking Capacity", "Electronic Trip Units", "Up to 1600A Rating"]
+    },
+    "industrialFuses": {
+      "title": "Industrial Fuses",
+      "description": "High-speed fuses for electrical equipment protection",
+      "features": ["Fast Acting Response", "Time Delay Options", "High Voltage Rating", "Ceramic Body Construction"]
+    }
+  },
+  "connectorsTerminals": {
+    "terminalBlocks": {
+      "title": "Industrial Terminal Blocks",
+      "description": "Secure terminal blocks for industrial wire connections",
+      "features": ["Spring Clamp Technology", "Screw Type Connections", "DIN Rail Mounting", "Multiple Size Options"]
+    },
+    "industrialConnectors": {
+      "title": "Industrial Connectors",
+      "description": "Heavy-duty connectors for demanding industrial applications",
+      "features": ["IP67 Protection Rating", "Locking Mechanism", "Multi-Pin Configuration", "Cable Gland Integration"]
+    },
+    "signalConnectors": {
+      "title": "Signal Connectors",
+      "description": "Precision connectors for instrumentation and signal transmission",
+      "features": ["Low Noise Design", "Shielded Construction", "Miniature Size", "High Reliability Performance"]
+    }
+  },
   "subcategories": {
     "sensors": {
       "title": "Sensors",

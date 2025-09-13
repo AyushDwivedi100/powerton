@@ -1,6 +1,125 @@
 {
   "title": "Kayayyakinmu",
   "subtitle": "Sarrafa Masana'antu da Kayan Lantarki",
+  "bldcCeilingFan": {
+    "smart1200": {
+      "title": "Fandar Rufi ta BLDC mai Hankali 1200mm",
+      "description": "Fandar rufi mai tsinke makamashi tare da sarrafa nesa da aikin lokaci",
+      "features": ["Amfani da Wutar Lantarki 28W", "Sarrafa Nesa", "Saiti 5 na Sauri", "Aikin Lokaci"]
+    },
+    "premium1400": {
+      "title": "Fandar Rufi ta BLDC Premium 1400mm", 
+      "description": "Fandar rufi mai aiki da yawa tare da hasken LED da injin mai juyawa",
+      "features": ["Amfani da Wutar Lantarki 35W", "Hasken LED da Aka Haɗa", "Injin Mai Juyawa", "Aiki Cikin Nutsuwa"]
+    },
+    "commercial1500": {
+      "title": "Fandar Rufi ta BLDC ta Kasuwanci 1500mm",
+      "description": "Fandar rufi mai karfi don amfani na kasuwanci da masana'antu", 
+      "features": ["Amfani da Wutar Lantarki 45W", "Injin Mai Karfi", "Kwararar Iska Mai Yawa", "Ginin Da Ya Dore"]
+    }
+  },
+  "bldcCoolerExhaust": {
+    "exhaustFan": {
+      "title": "Injin Fandar Fitar da Iska ta BLDC",
+      "description": "Injin mai inganci sosai mara brush don amfani da fandar fitar da iska",
+      "features": ["Sarrafa Sauri Mai Canzawa", "Aiki da Ƙananan Motsi", "Tsarin Inganci", "Dogon Rayuwa"]
+    },
+    "coolerMotors": {
+      "title": "Injin Sanyaya ta BLDC",
+      "description": "Injin mai inganci da aka tsara don amfani da sanyaya na iska",
+      "features": ["Sakar Karfi Mai Yawa", "Mai Jure Yanayi", "Sarrafa Sauri", "Aiki Ba Tare Da Gyara Ba"]
+    },
+    "ventilation": {
+      "title": "Injin Tsarin Samun Iska ta BLDC", 
+      "description": "Injin na musamman don tsarin samun iska na masana'antu da kula da iska",
+      "features": ["Matsayi CFM Mai Yawa", "Matsayi Zafi", "Mai Jure Girgiza", "Ya Dace Da Sarrafa Hankali"]
+    }
+  },
+  "bldcPumps": {
+    "solarSubmersible1hp": {
+      "title": "Famfo ta Nutsewa ta Hasken Rana ta BLDC 1HP",
+      "description": "Famfo ta nutsewa da hasken rana ke motsa don rijiyoyin ruwa da aikace-aikacen hakowa",
+      "features": ["Aiki Ya Dace Da Hasken Rana", "Karfin Injin 1HP", "Tsarin Inganci Mai Yawa", "Ginin Da Ruwa Ke Sanyaya"]
+    },
+    "dcSurface2hp": {
+      "title": "Famfo ta Saman DC 2HP",
+      "description": "Famfo ta saman mai inganci mai yawa don ban ruwa da canja wurin ruwa",
+      "features": ["Matsayin Karfi 2HP", "Tsarin Kai-da-Kai", "Kariya ta Aiki Bushe", "Sarrafa Sauri Mai Canzawa"]
+    },
+    "hybridSystem": {
+      "title": "Tsarin Famfo ta BLDC Hybrid",
+      "description": "Tsarin famfo mai hankali tare da karfin ajiyar hasken rana da cibiyar sadarwa",
+      "features": ["Yanayin Aiki Hybrid", "Mai Sarrafa Hankali", "Sa ido Daga Nesa", "Inganta Makamashi"]
+    }
+  },
+  "bldcFans": {
+    "tableFan": {
+      "title": "Injin Fandar Tebura ta BLDC",
+      "description": "Injin mara brush mai karami don amfani da fanduran tebura da ofis",
+      "features": ["Tsarin Karami", "Aiki Cikin Nutsuwa", "Sarrafa Nesa", "Aikin Lokaci"]
+    },
+    "wallFan": {
+      "title": "Injin Fandar Bango ta BLDC", 
+      "description": "Injin fandar bango tare da fasahar BLDC don amfani na gida",
+      "features": ["Tsarin Dorawa a Bango", "Aikin Juyawa", "Sarrafa Sauri", "Aiki Mai Tsinke Makamashi"]
+    },
+    "pedestalFan": {
+      "title": "Injin Fandar Ginshiƙi ta BLDC",
+      "description": "Injin fandar ginshiƙi mai canza tsayi tare da nunin LED",
+      "features": ["Canja Tsayi", "Aikin Karkatar", "Nunin LED", "Lokacin Barci"]
+    }
+  },
+  "cablesWires": {
+    "instrumentation": {
+      "title": "Kebabul Kayan Aiki",
+      "description": "Kebabul masu kariya na ƙananan wutar lantarki don kayan aiki da sarrafa",
+      "features": ["Ginin Kariya", "Mai Jure Ruwa", "Matsayin Zafi", "Saiti Na Biyu Da Yawa"]
+    },
+    "powerDistribution": {
+      "title": "Kebabul Rarraba Makamashi",
+      "description": "Kebabul manyan wutar lantarki don tsarin isar da makamashi da rarrabawa",
+      "features": ["Rufewa XLPE", "Ginin Kariya", "Mai Jure Wuta", "Matsayin Wutar Lantarki Mai Yawa"]
+    },
+    "communication": {
+      "title": "Kebabul Sadarwa",
+      "description": "Kebabul watsar da bayanai don cibiyoyin sadarwa na masana'antu",
+      "features": ["Ma'auni Cat5e/Cat6", "Zaɓuɓɓukan Fiber Optic", "Matsayin Masana'antu", "Kariya EMI"]
+    }
+  },
+  "circuitBreakers": {
+    "mcb": {
+      "title": "Ƙananan Masu Katsewa Da'ira (MCB)",
+      "description": "Masu katsewa da'ira na ƙananan wutar lantarki don kariya ta gida da kasuwanci",
+      "features": ["Matsayi Katsewa B/C/D", "Matsayi 6-63A", "Ikon Katsewa 10kA", "Dorawa akan Dogo DIN"]
+    },
+    "mccb": {
+      "title": "Masu Katsewa Da'ira Na Akwati (MCCB)",
+      "description": "Masu katsewa da'ira na masana'antu don kariya injuna da kayan lantarki",
+      "features": ["Saitunan Katsewa Da Za A Iya Gyara", "Babban Ikon Katsewa", "Sassan Katsewa Na Lantarki", "Matsayi Har 1600A"]
+    },
+    "industrialFuses": {
+      "title": "Fyuz Na Masana'antu",
+      "description": "Fyuz masu sauri don kariya kayan lantarki",
+      "features": ["Amsa Mai Sauri", "Zaɓuɓɓukan Jinkirin Lokaci", "Matsayin Babban Lantarki", "Ginin Jiki Na Yumbu"]
+    }
+  },
+  "connectorsTerminals": {
+    "terminalBlocks": {
+      "title": "Katakan Ƙarshe Na Masana'antu",
+      "description": "Katakan ƙarshe masu aminci don haɗin kebabul masana'antu",
+      "features": ["Fasahar Matse Maɓuɓɓugi", "Haɗin Irin Skur", "Dorawa akan Dogo DIN", "Zaɓuɓɓukan Girma Daban-daban"]
+    },
+    "industrialConnectors": {
+      "title": "Masu Haɗawa Na Masana'antu",
+      "description": "Masu haɗawa masu karfi don ayyukan masana'antu masu wahala",
+      "features": ["Matsayin Kariya IP67", "Tsarin Kulle", "Saiti Na Pin Da Yawa", "Haɗin Kebabul Gland"]
+    },
+    "signalConnectors": {
+      "title": "Masu Haɗawa Sigina",
+      "description": "Masu haɗawa masu daidaici don kayan aiki da watsar da sigina",
+      "features": ["Tsarin Ƙananan Motsi", "Ginin Kariya", "Girman Karami", "Aikin Dogon Aminci"]
+    }
+  },
   "categories": {
     "automation": "Sarrafa da Gudanarwa",
     "electrical": "Kayan Lantarki",
