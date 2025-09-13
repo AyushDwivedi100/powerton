@@ -142,11 +142,7 @@ html {
   text-align: right;
 }
 
-/* RTL Button icon adjustments */
-[dir="rtl"] .lucide {
-  transform: scaleX(-1);
-}
-
+/* RTL Button icon adjustments - removed global lucide flip to use explicit .rtl-flip utility */
 [dir="rtl"] .rotate-180 {
   transform: rotate(0deg);
 }

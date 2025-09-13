@@ -116,9 +116,9 @@ export default function Header() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5, ease: [0.25, 0.46, 0.45, 0.94] }}
       >
-        <div className="max-w-7xl mx-auto px-2 sm:px-4 md:px-6 lg:px-8 flex flex-row justify-center sm:justify-between items-center gap-4 sm:gap-0 text-base md:text-sm">
+        <div className="max-w-7xl mx-auto px-2 sm:px-4 md:px-6 lg:px-8 flex flex-row justify-center sm:justify-between items-center gap-4 sm:gap-0 text-base md:text-sm container-safe">
           <motion.div
-            className={cn("flex items-center gap-4 sm:gap-6 md:gap-8 flex-wrap", rtl.justifyStart)}
+            className={cn("flex items-center gap-4 sm:gap-6 md:gap-8 flex-wrap flex-safe", rtl.justifyStart)}
             initial="hidden"
             animate="visible"
             variants={{
@@ -145,8 +145,8 @@ export default function Header() {
                 whileHover={{ scale: 1.05 }}
                 transition={{ duration: 0.2 }}
               >
-                <Phone className={cn("w-4 h-4 sm:w-5 sm:h-5 text-secondary shrink-0", rtl.me("1"))} aria-hidden="true" />
-                <span className="whitespace-nowrap text-sm md:text-base">
+                <Phone className="w-4 h-4 sm:w-5 sm:h-5 text-secondary shrink-0 rtl-flip me-1" aria-hidden="true" />
+                <span className="text-wrap-safe text-sm md:text-base">
                   {COMPANY_INFO.phoneNumbers.primary}
                 </span>
               </motion.a>
@@ -158,8 +158,8 @@ export default function Header() {
                 whileHover={{ scale: 1.05 }}
                 transition={{ duration: 0.2 }}
               >
-                <Phone className={cn("w-4 h-4 sm:w-5 sm:h-5 text-secondary shrink-0", rtl.me("1"))} aria-hidden="true" />
-                <span className="whitespace-nowrap text-sm md:text-base">
+                <Phone className="w-4 h-4 sm:w-5 sm:h-5 text-secondary shrink-0 rtl-flip me-1" aria-hidden="true" />
+                <span className="text-wrap-safe text-sm md:text-base">
                   {COMPANY_INFO.phoneNumbers.secondary}
                 </span>
               </motion.a>
@@ -176,10 +176,10 @@ export default function Header() {
               transition={{ duration: 0.2 }}
             >
               <Mail
-                className={cn("w-4 h-4 sm:w-5 sm:h-5 text-secondary shrink-0", rtl.me("1"))}
+                className="w-4 h-4 sm:w-5 sm:h-5 text-secondary shrink-0 rtl-flip me-1"
                 aria-hidden="true"
               />
-              <span className="whitespace-nowrap text-base md:text-sm">
+              <span className="text-wrap-safe text-base md:text-sm">
                 {COMPANY_INFO.email}
               </span>
             </motion.a>
@@ -213,10 +213,10 @@ export default function Header() {
             >
               <span className="flex items-center">
                 <MapPin
-                  className={cn("w-5 h-5 text-secondary", rtl.me("2"))}
+                  className="w-5 h-5 text-secondary rtl-flip me-2"
                   aria-hidden="true"
                 />
-                <span className="text-base md:text-sm">
+                <span className="text-wrap-safe text-base md:text-sm">
                   {t('common:company.address.city')}, {t('common:company.address.state')} -
                   {t('navigation:header.servingWorldwide')}
                 </span>
@@ -238,8 +238,8 @@ export default function Header() {
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.6, delay: 0.2 }}
           >
-            <Link href="/" className={cn("flex items-center", rtl.isRtl ? "mr-2 lg:mr-4" : "ml-2 lg:ml-4")}>
-              <div className={cn("relative w-[190px] sm:w-[200px] md:w-[190px] lg:w-[200px] xl:w-[220px] h-12 sm:h-13 md:h-12 lg:h-13 xl:h-14 overflow-hidden", rtl.isRtl ? "ml-4 lg:ml-6 xl:ml-8" : "mr-4 lg:mr-6 xl:mr-8")}>
+            <Link href="/" className="flex items-center ms-2 lg:ms-4">
+              <div className="relative w-[190px] sm:w-[200px] md:w-[190px] lg:w-[200px] xl:w-[220px] h-12 sm:h-13 md:h-12 lg:h-13 xl:h-14 overflow-hidden me-4 lg:me-6 xl:me-8">
                 <img
                   src={logoImage}
                   alt={t('common:altTexts.companyLogo')}
@@ -252,7 +252,7 @@ export default function Header() {
 
           {/* Desktop navigation */}
           <motion.div
-            className={cn("hidden lg:flex items-center gap-4 xl:gap-6 2xl:gap-8", rtl.spaceXReverse)}
+            className="hidden lg:flex items-center gap-4 xl:gap-6 2xl:gap-8 flex-safe"
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.3 }}
@@ -309,7 +309,7 @@ export default function Header() {
                         <Link href="/services">
                           {t('navigation:dropdowns.services')}
                         </Link>
-                        <ChevronDown className={cn("h-4 w-4", rtl.flipIcon)} />
+                        <ChevronDown className="h-4 w-4 rtl-flip" />
                         {/* Active page indicator */}
                         {isActive("/services") && (
                           <motion.div
@@ -333,20 +333,20 @@ export default function Header() {
                       >
                         <div className="w-max max-w-[95vw] max-h-[90vh] bg-popover border-2 border-slate-300 dark:border-slate-600 rounded-md shadow-lg overflow-y-auto">
                           <div className="p-6 lg:p-8">
-                            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 lg:gap-8 items-stretch">
+                            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 lg:gap-6 items-stretch">
                               {SERVICES.map((service) => (
                                 <Link
                                   key={service.id}
                                   href={`/services-category/${service.id}`}
-                                  className="block px-4 py-4 lg:py-6 rounded-sm hover:bg-slate-100 dark:hover:bg-slate-800 hover:text-foreground cursor-pointer transition-colors border border-slate-200 dark:border-slate-700 hover:border-slate-400 dark:hover:border-slate-500 min-w-0 min-h-[120px] lg:min-h-[140px]"
+                                  className="block px-4 py-4 lg:py-6 rounded-sm hover:bg-slate-100 dark:hover:bg-slate-800 hover:text-foreground cursor-pointer transition-colors border border-slate-200 dark:border-slate-700 hover:border-slate-400 dark:hover:border-slate-500 flex-safe min-h-[120px] lg:min-h-[140px]"
                                   onClick={() => setIsServicesDropdownOpen(false)}
                                 >
                                   <div className="flex flex-col h-full justify-between">
-                                    <div className="font-semibold text-foreground text-sm lg:text-base line-clamp-2 mb-2">
+                                    <div className="font-semibold text-foreground text-sm lg:text-base line-clamp-safe mb-2 responsive-text">
                                       {t(`services:items.${service.id}`)}
                                     </div>
-                                    <div className="text-xs lg:text-sm text-muted-foreground line-clamp-3 mt-auto">
-                                      {t(`services:descriptions.${service.id}`).slice(0, 80)}...
+                                    <div className="text-xs lg:text-sm text-muted-foreground line-clamp-safe mt-auto responsive-text">
+                                      {t(`services:descriptions.${service.id}`)}
                                     </div>
                                   </div>
                                 </Link>
@@ -378,7 +378,7 @@ export default function Header() {
                         <Link href="/products">
                           {t('navigation:dropdowns.products', 'Products')}
                         </Link>
-                        <ChevronDown className={cn("h-4 w-4", rtl.flipIcon)} />
+                        <ChevronDown className="h-4 w-4 rtl-flip" />
                         {/* Active page indicator */}
                         {isActive("/products") && (
                           <motion.div
@@ -402,33 +402,33 @@ export default function Header() {
                       >
                         <div className="w-max max-w-[95vw] max-h-[70vh] bg-popover border-2 border-slate-300 dark:border-slate-600 rounded-md shadow-lg overflow-y-auto">
                           <div className="p-4 lg:p-6">
-                            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 2xl:grid-cols-5 gap-3 lg:gap-4 max-w-none">
+                            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-3 lg:gap-4">
                               {getProducts(t).map((product) => (
                                 <div
                                   key={product.id}
-                                  className="min-w-0 flex-shrink-0"
+                                  className="flex-safe"
                                 >
                                   <Link
                                     href={`/products/${product.id}`}
                                     className="block px-3 lg:px-4 py-2 lg:py-3 rounded-md hover:bg-slate-100 dark:hover:bg-slate-800 hover:text-foreground cursor-pointer transition-colors border border-slate-200 dark:border-slate-700 hover:border-slate-400 dark:hover:border-slate-500 mb-2"
                                     onClick={() => setIsProductsDropdownOpen(false)}
                                   >
-                                    <div className="font-semibold text-foreground text-sm lg:text-base line-clamp-2">
+                                    <div className="font-semibold text-foreground text-sm lg:text-base line-clamp-safe responsive-text">
                                       {String(t(`products:items.${product.id}`, product.title))}
                                     </div>
                                   </Link>
 
                                   {/* Show subcategories for products that have them */}
                                   {product.subcategories && (
-                                    <div className={cn("space-y-1", rtl.isRtl ? "mr-2 lg:mr-4" : "ml-2 lg:ml-4")}>
+                                    <div className="space-y-1 ms-2 lg:ms-4">
                                       {product.subcategories.map((subcategory) => (
                                         <Link
                                           key={subcategory.id}
                                           href={`/products/${subcategory.id}`}
-                                          className={cn("block px-2 lg:px-3 py-1 lg:py-2 rounded-sm hover:bg-slate-100 dark:hover:bg-slate-800 hover:text-foreground cursor-pointer transition-colors text-xs lg:text-sm border-primary/40 hover:border-secondary", rtl.isRtl ? "border-r-2" : "border-l-2")}
+                                          className="block px-2 lg:px-3 py-1 lg:py-2 rounded-sm hover:bg-slate-100 dark:hover:bg-slate-800 hover:text-foreground cursor-pointer transition-colors text-xs lg:text-sm border-primary/40 hover:border-secondary bs-2"
                                           onClick={() => setIsProductsDropdownOpen(false)}
                                         >
-                                          <div className="font-medium text-foreground line-clamp-1">
+                                          <div className="font-medium text-foreground text-safe responsive-text">
                                             {String(t(`products:subcategories.${subcategory.id}.title`, subcategory.title))}
                                           </div>
                                         </Link>
@@ -617,13 +617,13 @@ export default function Header() {
                                     animate={{ opacity: 1, height: "auto" }}
                                     exit={{ opacity: 0, height: 0 }}
                                     transition={{ duration: 0.3 }}
-                                    className="ml-4 space-y-2 overflow-hidden"
+                                    className="ms-4 space-y-2 overflow-hidden container-safe"
                                   >
                                     {SERVICES.map((service) => (
                                       <Link
                                         key={service.id}
                                         href={`/services-category/${service.id}`}
-                                        className="text-sm text-muted-foreground hover:text-primary transition-colors block py-1"
+                                        className="text-sm text-muted-foreground hover:text-primary transition-colors block py-1 text-wrap-safe"
                                         onClick={() => {
                                           setIsOpen(false);
                                           setIsMobileServicesOpen(false);
@@ -683,13 +683,13 @@ export default function Header() {
                                     animate={{ opacity: 1, height: "auto" }}
                                     exit={{ opacity: 0, height: 0 }}
                                     transition={{ duration: 0.3 }}
-                                    className="ml-4 space-y-2 overflow-hidden"
+                                    className="ms-4 space-y-2 overflow-hidden container-safe"
                                   >
                                     {getProducts(t).map((product) => (
                                       <div key={product.id}>
                                         <Link
                                           href={`/products/${product.id}`}
-                                          className="text-sm text-muted-foreground hover:text-primary transition-colors block py-1 font-medium"
+                                          className="text-sm text-muted-foreground hover:text-primary transition-colors block py-1 font-medium text-wrap-safe"
                                           onClick={() => {
                                             setIsOpen(false);
                                             setIsMobileProductsOpen(false);
@@ -700,13 +700,13 @@ export default function Header() {
 
                                         {/* Show subcategories for products that have them */}
                                         {product.subcategories && (
-                                          <div className="ml-3 mt-1 space-y-1">
+                                          <div className="ms-3 mt-1 space-y-1">
                                             {product.subcategories.map(
                                               (subcategory) => (
                                                 <Link
                                                   key={subcategory.id}
                                                   href={`/products/${subcategory.id}`}
-                                                  className="text-xs text-muted-foreground hover:text-secondary transition-colors block py-1 border-l-2 border-secondary/30 hover:border-secondary pl-2"
+                                                  className="text-xs text-muted-foreground hover:text-secondary transition-colors block py-1 border-secondary/30 hover:border-secondary ps-2 bs-2 text-wrap-safe"
                                                   onClick={() => {
                                                     setIsOpen(false);
                                                     setIsMobileProductsOpen(
@@ -782,20 +782,20 @@ export default function Header() {
                       <div className="space-y-3">
                         <div className="space-y-2">
                           <div className="flex items-center">
-                            <Phone className="w-4 h-4 mr-3 text-secondary flex-shrink-0" />
+                            <Phone className="w-4 h-4 me-3 text-secondary flex-shrink-0 rtl-flip" />
                             <a
                               href={`tel:${COMPANY_INFO.phoneNumbers.primary}`}
-                              className="text-sm text-foreground hover:text-primary transition-colors"
+                              className="text-sm text-foreground hover:text-primary transition-colors text-wrap-safe"
                               onClick={() => setIsOpen(false)}
                             >
                               {COMPANY_INFO.phoneNumbers.primary}
                             </a>
                           </div>
                           <div className="flex items-center">
-                            <Phone className="w-4 h-4 mr-3 text-secondary flex-shrink-0" />
+                            <Phone className="w-4 h-4 me-3 text-secondary flex-shrink-0 rtl-flip" />
                             <a
                               href={`tel:${COMPANY_INFO.phoneNumbers.secondary}`}
-                              className="text-sm text-foreground hover:text-primary transition-colors"
+                              className="text-sm text-foreground hover:text-primary transition-colors text-wrap-safe"
                               onClick={() => setIsOpen(false)}
                             >
                               {COMPANY_INFO.phoneNumbers.secondary}
@@ -803,10 +803,10 @@ export default function Header() {
                           </div>
                         </div>
                         <div className="flex items-center">
-                          <Mail className="w-4 h-4 mr-3 text-secondary flex-shrink-0" />
+                          <Mail className="w-4 h-4 me-3 text-secondary flex-shrink-0 rtl-flip" />
                           <a
                             href={`mailto:${COMPANY_INFO.email}`}
-                            className="text-sm text-foreground hover:text-primary transition-colors break-all"
+                            className="text-sm text-foreground hover:text-primary transition-colors text-wrap-safe"
                             onClick={() => setIsOpen(false)}
                           >
                             {COMPANY_INFO.email}
@@ -820,8 +820,8 @@ export default function Header() {
                           onClick={() => setIsOpen(false)}
                           aria-label={t('common:ui.ariaLabels.openLocation')}
                         >
-                          <MapPin className="w-4 h-4 mr-3 text-secondary flex-shrink-0 mt-0.5" />
-                          <div className="text-sm text-foreground hover:text-primary transition-colors">
+                          <MapPin className="w-4 h-4 me-3 text-secondary flex-shrink-0 mt-0.5 rtl-flip" />
+                          <div className="text-sm text-foreground hover:text-primary transition-colors text-wrap-safe">
                             <div>{COMPANY_INFO.address.street}</div>
                             <div>
                               {COMPANY_INFO.address.city},{" "}
