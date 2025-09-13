@@ -38,72 +38,72 @@
     "buttons": {
       "submit": "Envoyer le message",
       "sending": "Envoi en cours...",
-      "callNow": "Call Now",
-      "emailUs": "Email Us"
+      "callNow": "Appeler maintenant",
+      "emailUs": "Nous contacter"
     },
     "messages": {
-      "success": "Thank you! Your message has been sent successfully.",
-      "successDesc": "We'll get back to you within 24 hours.",
-      "error": "Failed to send message",
-      "errorDesc": "Please try again or contact us directly at {{phone}} or {{email}}"
+      "success": "Merci ! Votre message a été envoyé avec succès.",
+      "successDesc": "Nous vous recontacterons dans les 24 heures.",
+      "error": "Échec de l'envoi du message",
+      "errorDesc": "Veuillez réessayer ou nous contacter directement au {{phone}} ou {{email}}"
     }
   },
   "quote": {
     "fields": {
       "name": {
-        "label": "Full Name *"
+        "label": "Nom complet *"
       },
       "email": {
-        "label": "Email Address *"
+        "label": "Adresse e-mail *"
       }
     },
     "validation": {
-      "nameMin": "Name must be at least 2 characters",
-      "emailInvalid": "Please enter a valid email address",
-      "phoneMin": "Please enter a valid phone number",
-      "companyRequired": "Company name is required",
-      "projectTitleRequired": "Project title is required",
-      "projectTypeRequired": "Please select a project type",
-      "timelineRequired": "Please select expected timeline",
-      "servicesRequired": "Please select at least one service",
-      "specificationsMin": "Please provide detailed specifications (minimum 20 characters)",
-      "nameRequired": "Name is required",
-      "phoneRequired": "Phone number is required",
-      "subjectRequired": "Subject is required",
-      "messageRequired": "Message is required",
-      "firstNameRequired": "First name is required",
-      "lastNameRequired": "Last name is required",
-      "invalidEmail": "Invalid email address",
-      "selectService": "Please select a service",
-      "projectDetailsRequired": "Project details are required"
+      "nameMin": "Le nom doit contenir au moins 2 caractères",
+      "emailInvalid": "Veuillez entrer une adresse e-mail valide",
+      "phoneMin": "Veuillez entrer un numéro de téléphone valide",
+      "companyRequired": "Le nom de l'entreprise est requis",
+      "projectTitleRequired": "Le titre du projet est requis",
+      "projectTypeRequired": "Veuillez sélectionner un type de projet",
+      "timelineRequired": "Veuillez sélectionner les délais prévus",
+      "servicesRequired": "Veuillez sélectionner au moins un service",
+      "specificationsMin": "Veuillez fournir des spécifications détaillées (minimum 20 caractères)",
+      "nameRequired": "Le nom est requis",
+      "phoneRequired": "Le numéro de téléphone est requis",
+      "subjectRequired": "Le sujet est requis",
+      "messageRequired": "Le message est requis",
+      "firstNameRequired": "Le prénom est requis",
+      "lastNameRequired": "Le nom de famille est requis",
+      "invalidEmail": "Adresse e-mail invalide",
+      "selectService": "Veuillez sélectionner un service",
+      "projectDetailsRequired": "Les détails du projet sont requis"
     },
     "projectTypes": {
-      "newInstallation": "New Installation",
-      "systemUpgrade": "System Upgrade",
-      "retrofit": "Retrofit",
-      "maintenance": "Maintenance Contract",
-      "consultation": "Technical Consultation",
-      "design": "Design & Engineering"
+      "newInstallation": "Nouvelle installation",
+      "systemUpgrade": "Mise à niveau du système",
+      "retrofit": "Rétrofit",
+      "maintenance": "Contrat de maintenance",
+      "consultation": "Consultation technique",
+      "design": "Conception et ingénierie"
     },
     "timelines": {
-      "immediate": "Immediate (< 1 month)",
-      "1-3-months": "1-3 months",
-      "3-6-months": "3-6 months",
-      "6-12-months": "6-12 months",
-      "1-year-plus": "More than 1 year"
+      "immediate": "Immédiat (< 1 mois)",
+      "1-3-months": "1-3 mois",
+      "3-6-months": "3-6 mois",
+      "6-12-months": "6-12 mois",
+      "1-year-plus": "Plus d'un an"
     },
     "budgetRanges": {
-      "under-1-lakh": "Under ₹1 Lakh",
-      "1-5-lakh": "₹1-5 Lakhs",
-      "5-10-lakh": "₹5-10 Lakhs",
-      "10-25-lakh": "₹10-25 Lakhs",
-      "25-50-lakh": "₹25-50 Lakhs",
-      "50-lakh-plus": "₹50 Lakhs+",
-      "discuss": "Prefer to discuss"
+      "under-1-lakh": "Moins de ₹100 000",
+      "1-5-lakh": "₹100 000-500 000",
+      "5-10-lakh": "₹500 000-1 000 000",
+      "10-25-lakh": "₹1 000 000-2 500 000",
+      "25-50-lakh": "₹2 500 000-5 000 000",
+      "50-lakh-plus": "₹5 000 000+",
+      "discuss": "Préfère discuter"
     },
     "success": {
-      "title": "Quote request submitted successfully!",
-      "description": "Our engineering team will review your requirements and respond within 24-48 hours."
+      "title": "Demande de devis envoyée avec succès !",
+      "description": "Notre équipe d'ingénierie examinera vos besoins et répondra sous 24 à 48 heures."
     },
     "placeholders": {
       "selectIndustry": "Select industry",
@@ -157,10 +157,10 @@
       "enterprise": "Enterprise (500+ I/O points)"
     },
     "buttons": {
-      "getProfessionalQuote": "Get Professional Quote",
+      "getProfessionalQuote": "Obtenir un devis professionnel",
       "submitRequest": "Submit Quote Request",
-      "callUrgent": "Call for Urgent Requirements",
-      "emailRequirements": "Email Requirements"
+      "callUrgent": "Appeler pour une demande urgente",
+      "emailRequirements": "Envoyer les exigences par e-mail"
     },
     "process": {
       "heading": "What happens next?",
@@ -217,8 +217,8 @@
       "uploadResume": "Upload Resume"
     },
     "validation": {
-      "nameMin": "Name must be at least 2 characters",
-      "emailInvalid": "Please enter a valid email address",
+      "nameMin": "Le nom doit contenir au moins 2 caractères",
+      "emailInvalid": "Veuillez entrer une adresse e-mail valide",
       "phoneMin": "Phone number must be at least 10 digits",
       "specializationRequired": "Please select your engineering specialization",
       "experienceRequired": "Please select your experience level",
