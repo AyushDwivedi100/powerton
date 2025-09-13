@@ -159,10 +159,10 @@ export default function CareerApplicationForm() {
     <Card className="text-foreground">
       <CardContent className="p-6">
         <div className="text-center mb-6">
-          <h3 className="text-2xl font-bold text-primary mb-2">
+          <h3 className="text-2xl font-bold text-primary mb-2 text-wrap-safe responsive-text">
             {t('forms:career.labels.title')}
           </h3>
-          <p className="text-muted-foreground">
+          <p className="text-muted-foreground text-wrap-safe">
             {t('forms:career.labels.subtitle')}
           </p>
         </div>
@@ -171,17 +171,17 @@ export default function CareerApplicationForm() {
           <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-6">
             {/* Personal Information Section */}
             <div className="space-y-4">
-              <h4 className="text-lg font-semibold text-foreground border-b border-border pb-2">
+              <h4 className="text-lg font-semibold text-foreground border-b border-border pb-2 text-wrap-safe responsive-text">
                 {t('forms:career.labels.personalInfo')}
               </h4>
               
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4 flex-safe">
                 <FormField
                   control={form.control}
                   name="name"
                   render={({ field }) => (
                     <FormItem>
-                      <FormLabel>{t('forms:career.labels.fullName')} *</FormLabel>
+                      <FormLabel className="text-wrap-safe">{t('forms:career.labels.fullName')} *</FormLabel>
                       <FormControl>
                         <Input placeholder={t('forms:career.placeholders.fullName')} {...field} />
                       </FormControl>
@@ -195,7 +195,7 @@ export default function CareerApplicationForm() {
                   name="email"
                   render={({ field }) => (
                     <FormItem>
-                      <FormLabel>{t('forms:career.labels.emailAddress')} *</FormLabel>
+                      <FormLabel className="text-wrap-safe">{t('forms:career.labels.emailAddress')} *</FormLabel>
                       <FormControl>
                         <Input type="email" placeholder={t('forms:career.placeholders.email')} {...field} />
                       </FormControl>
@@ -205,13 +205,13 @@ export default function CareerApplicationForm() {
                 />
               </div>
 
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4 flex-safe">
                 <FormField
                   control={form.control}
                   name="phone"
                   render={({ field }) => (
                     <FormItem>
-                      <FormLabel>{t('forms:career.labels.phoneNumber')} *</FormLabel>
+                      <FormLabel className="text-wrap-safe">{t('forms:career.labels.phoneNumber')} *</FormLabel>
                       <FormControl>
                         <Input placeholder={t('forms:career.placeholders.phone')} {...field} />
                       </FormControl>
@@ -225,7 +225,7 @@ export default function CareerApplicationForm() {
                   name="residingAddress"
                   render={({ field }) => (
                     <FormItem>
-                      <FormLabel>{t('forms:career.labels.residingAddress')} *</FormLabel>
+                      <FormLabel className="text-wrap-safe">{t('forms:career.labels.residingAddress')} *</FormLabel>
                       <FormControl>
                         <Textarea 
                           placeholder={t('forms:career.placeholders.address')}
@@ -242,17 +242,17 @@ export default function CareerApplicationForm() {
 
             {/* Professional Information Section */}
             <div className="space-y-4">
-              <h4 className="text-lg font-semibold text-foreground border-b border-border pb-2">
+              <h4 className="text-lg font-semibold text-foreground border-b border-border pb-2 text-wrap-safe responsive-text">
                 {t('forms:career.labels.professionalInfo')}
               </h4>
               
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4 flex-safe">
                 <FormField
                   control={form.control}
                   name="specialization"
                   render={({ field }) => (
                     <FormItem>
-                      <FormLabel>{t('forms:career.labels.specialization')} *</FormLabel>
+                      <FormLabel className="text-wrap-safe">{t('forms:career.labels.specialization')} *</FormLabel>
                       <Select onValueChange={field.onChange} defaultValue={field.value}>
                         <FormControl>
                           <SelectTrigger>
@@ -277,7 +277,7 @@ export default function CareerApplicationForm() {
                   name="experience"
                   render={({ field }) => (
                     <FormItem>
-                      <FormLabel>{t('forms:career.labels.experience')} *</FormLabel>
+                      <FormLabel className="text-wrap-safe">{t('forms:career.labels.experience')} *</FormLabel>
                       <Select onValueChange={field.onChange} defaultValue={field.value}>
                         <FormControl>
                           <SelectTrigger>
@@ -298,13 +298,13 @@ export default function CareerApplicationForm() {
                 />
               </div>
 
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4 flex-safe">
                 <FormField
                   control={form.control}
                   name="currentCompany"
                   render={({ field }) => (
                     <FormItem>
-                      <FormLabel>{t('forms:career.labels.currentCompany')}</FormLabel>
+                      <FormLabel className="text-wrap-safe">{t('forms:career.labels.currentCompany')}</FormLabel>
                       <FormControl>
                         <Input placeholder={t('forms:career.placeholders.currentCompany')} {...field} />
                       </FormControl>
@@ -318,7 +318,7 @@ export default function CareerApplicationForm() {
                   name="joiningTime"
                   render={({ field }) => (
                     <FormItem>
-                      <FormLabel>{t('forms:career.labels.availability')} *</FormLabel>
+                      <FormLabel className="text-wrap-safe">{t('forms:career.labels.availability')} *</FormLabel>
                       <Select onValueChange={field.onChange} defaultValue={field.value}>
                         <FormControl>
                           <SelectTrigger>
@@ -339,13 +339,13 @@ export default function CareerApplicationForm() {
                 />
               </div>
 
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4 flex-safe">
                 <FormField
                   control={form.control}
                   name="education"
                   render={({ field }) => (
                     <FormItem>
-                      <FormLabel>{t('forms:career.labels.education')} *</FormLabel>
+                      <FormLabel className="text-wrap-safe">{t('forms:career.labels.education')} *</FormLabel>
                       <FormControl>
                         <Input placeholder={t('forms:career.placeholders.education')} {...field} />
                       </FormControl>
@@ -359,7 +359,7 @@ export default function CareerApplicationForm() {
                   name="expectedSalary"
                   render={({ field }) => (
                     <FormItem>
-                      <FormLabel>{t('forms:career.labels.expectedSalary')}</FormLabel>
+                      <FormLabel className="text-wrap-safe">{t('forms:career.labels.expectedSalary')}</FormLabel>
                       <FormControl>
                         <Input placeholder={t('forms:career.placeholders.expectedSalary')} {...field} />
                       </FormControl>
@@ -372,7 +372,7 @@ export default function CareerApplicationForm() {
 
             {/* Additional Information Section */}
             <div className="space-y-4">
-              <h4 className="text-lg font-semibold text-foreground border-b border-border pb-2">
+              <h4 className="text-lg font-semibold text-foreground border-b border-border pb-2 text-wrap-safe responsive-text">
                 {t('forms:career.labels.technicalSkills')}
               </h4>
               
@@ -457,7 +457,7 @@ export default function CareerApplicationForm() {
                         }
                       }}
                       className="block w-full text-sm text-muted-foreground
-                        file:mr-4 file:py-2 file:px-4
+                        file:me-4 file:py-2 file:px-4
                         file:rounded-md file:border-0
                         file:text-sm file:font-medium
                         file:bg-primary file:text-primary-foreground
@@ -489,12 +489,12 @@ export default function CareerApplicationForm() {
               >
                 {isSubmitting ? (
                   <>
-                    <Loader2 className="mr-2 h-4 w-4 animate-spin" />
+                    <Loader2 className="me-2 h-4 w-4 animate-spin rtl-flip" />
                     {t('forms:career.buttons.submitting')}
                   </>
                 ) : (
                   <>
-                    <FileUser className="mr-2 h-4 w-4" />
+                    <FileUser className="me-2 h-4 w-4 rtl-flip" />
                     {t('forms:career.buttons.submit')}
                   </>
                 )}
@@ -509,7 +509,7 @@ export default function CareerApplicationForm() {
                   className="flex-1 border-border text-foreground hover:bg-transparent hover:text-foreground hover:border-border"
                 >
                   <a href="tel:+91-94627-71662" className="flex items-center justify-center">
-                    <Phone className="mr-2 h-4 w-4" />
+                    <Phone className="me-2 h-4 w-4 rtl-flip" />
                     {t('forms:contact.buttons.callNow')}
                   </a>
                 </Button>
@@ -522,7 +522,7 @@ export default function CareerApplicationForm() {
                   className="flex-1 border-border text-foreground hover:bg-transparent hover:text-foreground hover:border-border"
                 >
                   <a href="mailto:info@powertonengineering.com" className="flex items-center justify-center">
-                    <Mail className="mr-2 h-4 w-4" />
+                    <Mail className="me-2 h-4 w-4 rtl-flip" />
                     {t('forms:contact.buttons.emailUs')}
                   </a>
                 </Button>

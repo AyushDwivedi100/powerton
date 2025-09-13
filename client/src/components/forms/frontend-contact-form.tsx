@@ -104,13 +104,13 @@ export default function FrontendContactForm() {
       <CardContent className="p-3 sm:p-4 md:p-6">
         <Form {...form}>
           <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-3 sm:space-y-4 contact-form">
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-3 sm:gap-4">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-3 sm:gap-4 flex-safe">
               <FormField
                 control={form.control}
                 name="name"
                 render={({ field }) => (
                   <FormItem>
-                    <FormLabel>{t('contact.fields.name.label')}</FormLabel>
+                    <FormLabel className="text-wrap-safe">{t('contact.fields.name.label')}</FormLabel>
                     <FormControl>
                       <Input placeholder={t('contact.fields.name.placeholder')} {...field} />
                     </FormControl>
@@ -124,7 +124,7 @@ export default function FrontendContactForm() {
                 name="email"
                 render={({ field }) => (
                   <FormItem>
-                    <FormLabel>{t('contact.fields.email.label')}</FormLabel>
+                    <FormLabel className="text-wrap-safe">{t('contact.fields.email.label')}</FormLabel>
                     <FormControl>
                       <Input type="email" placeholder={t('contact.fields.email.placeholder')} {...field} />
                     </FormControl>
@@ -134,13 +134,13 @@ export default function FrontendContactForm() {
               />
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-3 sm:gap-4">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-3 sm:gap-4 flex-safe">
               <FormField
                 control={form.control}
                 name="phone"
                 render={({ field }) => (
                   <FormItem>
-                    <FormLabel>{t('contact.fields.phone.label')}</FormLabel>
+                    <FormLabel className="text-wrap-safe">{t('contact.fields.phone.label')}</FormLabel>
                     <FormControl>
                       <Input placeholder={t('contact.fields.phone.placeholder')} {...field} />
                     </FormControl>
@@ -154,7 +154,7 @@ export default function FrontendContactForm() {
                 name="company"
                 render={({ field }) => (
                   <FormItem>
-                    <FormLabel>{t('contact.fields.company.label')}</FormLabel>
+                    <FormLabel className="text-wrap-safe">{t('contact.fields.company.label')}</FormLabel>
                     <FormControl>
                       <Input placeholder={t('contact.fields.company.placeholder')} {...field} />
                     </FormControl>
@@ -164,13 +164,13 @@ export default function FrontendContactForm() {
               />
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-3 sm:gap-4">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-3 sm:gap-4 flex-safe">
               <FormField
                 control={form.control}
                 name="serviceType"
                 render={({ field }) => (
                   <FormItem>
-                    <FormLabel>{t('contact.fields.serviceType.label')}</FormLabel>
+                    <FormLabel className="text-wrap-safe">{t('contact.fields.serviceType.label')}</FormLabel>
                     <Select onValueChange={field.onChange} defaultValue={field.value}>
                       <FormControl>
                         <SelectTrigger>
@@ -195,7 +195,7 @@ export default function FrontendContactForm() {
                 name="subject"
                 render={({ field }) => (
                   <FormItem>
-                    <FormLabel>{t('contact.fields.subject.label')}</FormLabel>
+                    <FormLabel className="text-wrap-safe">{t('contact.fields.subject.label')}</FormLabel>
                     <FormControl>
                       <Input placeholder={t('contact.fields.subject.placeholder')} {...field} />
                     </FormControl>
@@ -210,7 +210,7 @@ export default function FrontendContactForm() {
               name="message"
               render={({ field }) => (
                 <FormItem>
-                  <FormLabel>{t('contact.fields.message.label')}</FormLabel>
+                  <FormLabel className="text-wrap-safe">{t('contact.fields.message.label')}</FormLabel>
                   <FormControl>
                     <Textarea 
                       placeholder={t('contact.fields.message.placeholder')}
@@ -231,12 +231,12 @@ export default function FrontendContactForm() {
               >
                 {isSubmitting ? (
                   <>
-                    <Loader2 className="mr-2 h-4 w-4 animate-spin" />
+                    <Loader2 className="me-2 h-4 w-4 animate-spin rtl-flip" />
                     {t('contact.buttons.sending')}
                   </>
                 ) : (
                   <>
-                    <Send className="mr-2 h-4 w-4" />
+                    <Send className="me-2 h-4 w-4 rtl-flip" />
                     {t('contact.buttons.submit')}
                   </>
                 )}
@@ -251,7 +251,7 @@ export default function FrontendContactForm() {
                   className="flex-1 button-outline"
                 >
                   <a href="tel:+91-94627-71662" className="flex items-center justify-center">
-                    <Phone className="mr-2 h-4 w-4" />
+                    <Phone className="me-2 h-4 w-4 rtl-flip" />
                     {t('contact.buttons.callNow')}
                   </a>
                 </Button>
@@ -264,7 +264,7 @@ export default function FrontendContactForm() {
                   className="flex-1 button-outline"
                 >
                   <a href="mailto:info@powertonengineering.com" className="flex items-center justify-center">
-                    <Mail className="mr-2 h-4 w-4" />
+                    <Mail className="me-2 h-4 w-4 rtl-flip" />
                     {t('contact.buttons.emailUs')}
                   </a>
                 </Button>

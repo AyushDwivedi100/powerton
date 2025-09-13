@@ -148,17 +148,17 @@ export default function FrontendQuoteForm() {
           <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-6">
             {/* Contact Information Section */}
             <div className="space-y-4">
-              <h3 className="text-lg font-semibold text-foreground border-b border-border pb-2">
+              <h3 className="text-lg font-semibold text-foreground border-b border-border pb-2 text-wrap-safe responsive-text">
                 {t('forms:quote.sections.contactInfo')}
               </h3>
               
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4 flex-safe">
                 <FormField
                   control={form.control}
                   name="name"
                   render={({ field }) => (
                     <FormItem>
-                      <FormLabel>{t('forms:quote.fields.name.label')}</FormLabel>
+                      <FormLabel className="text-wrap-safe">{t('forms:quote.fields.name.label')}</FormLabel>
                       <FormControl>
                         <Input placeholder={t('common:placeholders.yourFullName')} {...field} />
                       </FormControl>
@@ -172,7 +172,7 @@ export default function FrontendQuoteForm() {
                   name="email"
                   render={({ field }) => (
                     <FormItem>
-                      <FormLabel>{t('forms:quote.fields.email.label')}</FormLabel>
+                      <FormLabel className="text-wrap-safe">{t('forms:quote.fields.email.label')}</FormLabel>
                       <FormControl>
                         <Input type="email" placeholder={t('common:placeholders.yourEmail')} {...field} />
                       </FormControl>
@@ -182,13 +182,13 @@ export default function FrontendQuoteForm() {
                 />
               </div>
 
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4 flex-safe">
                 <FormField
                   control={form.control}
                   name="phone"
                   render={({ field }) => (
                     <FormItem>
-                      <FormLabel>{t('forms:quote.labels.phoneNumber')}</FormLabel>
+                      <FormLabel className="text-wrap-safe">{t('forms:quote.labels.phoneNumber')}</FormLabel>
                       <FormControl>
                         <Input placeholder={t('common:placeholders.yourPhone')} {...field} />
                       </FormControl>
@@ -202,7 +202,7 @@ export default function FrontendQuoteForm() {
                   name="designation"
                   render={({ field }) => (
                     <FormItem>
-                      <FormLabel>{t('forms:quote.fields.designation.label')}</FormLabel>
+                      <FormLabel className="text-wrap-safe">{t('forms:quote.fields.designation.label')}</FormLabel>
                       <FormControl>
                         <Input placeholder={t('common:placeholders.yourRole')} {...field} />
                       </FormControl>
@@ -217,7 +217,7 @@ export default function FrontendQuoteForm() {
                 name="company"
                 render={({ field }) => (
                   <FormItem>
-                    <FormLabel>{t('forms:quote.labels.companyName')}</FormLabel>
+                    <FormLabel className="text-wrap-safe">{t('forms:quote.labels.companyName')}</FormLabel>
                     <FormControl>
                       <Input placeholder={t('common:placeholders.yourCompanyName')} {...field} />
                     </FormControl>
@@ -229,7 +229,7 @@ export default function FrontendQuoteForm() {
 
             {/* Project Information Section */}
             <div className="space-y-4">
-              <h3 className="text-lg font-semibold text-foreground border-b border-border pb-2">
+              <h3 className="text-lg font-semibold text-foreground border-b border-border pb-2 text-wrap-safe responsive-text">
                 {t('forms:quote.labels.projectInformation')}
               </h3>
               
@@ -247,13 +247,13 @@ export default function FrontendQuoteForm() {
                 )}
               />
 
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4 flex-safe">
                 <FormField
                   control={form.control}
                   name="projectType"
                   render={({ field }) => (
                     <FormItem>
-                      <FormLabel>{t('forms:quote.labels.projectType')}</FormLabel>
+                      <FormLabel className="text-wrap-safe">{t('forms:quote.labels.projectType')}</FormLabel>
                       <Select onValueChange={field.onChange} defaultValue={field.value}>
                         <FormControl>
                           <SelectTrigger>
@@ -279,7 +279,7 @@ export default function FrontendQuoteForm() {
                   name="timeline"
                   render={({ field }) => (
                     <FormItem>
-                      <FormLabel>{t('forms:quote.labels.expectedTimeline')}</FormLabel>
+                      <FormLabel className="text-wrap-safe">{t('forms:quote.labels.expectedTimeline')}</FormLabel>
                       <Select onValueChange={field.onChange} defaultValue={field.value}>
                         <FormControl>
                           <SelectTrigger>
@@ -300,13 +300,13 @@ export default function FrontendQuoteForm() {
                 />
               </div>
 
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4 flex-safe">
                 <FormField
                   control={form.control}
                   name="budget"
                   render={({ field }) => (
                     <FormItem>
-                      <FormLabel>{t('forms:quote.labels.approximateBudget')}</FormLabel>
+                      <FormLabel className="text-wrap-safe">{t('forms:quote.labels.approximateBudget')}</FormLabel>
                       <Select onValueChange={field.onChange} defaultValue={field.value}>
                         <FormControl>
                           <SelectTrigger>
@@ -333,7 +333,7 @@ export default function FrontendQuoteForm() {
                   name="industryType"
                   render={({ field }) => (
                     <FormItem>
-                      <FormLabel>{t('forms:quote.labels.industryType')}</FormLabel>
+                      <FormLabel className="text-wrap-safe">{t('forms:quote.labels.industryType')}</FormLabel>
                       <Select onValueChange={field.onChange} defaultValue={field.value}>
                         <FormControl>
                           <SelectTrigger>
@@ -362,7 +362,7 @@ export default function FrontendQuoteForm() {
 
             {/* Services Section */}
             <div className="space-y-4">
-              <h3 className="text-lg font-semibold text-foreground border-b border-border pb-2">
+              <h3 className="text-lg font-semibold text-foreground border-b border-border pb-2 text-wrap-safe responsive-text">
                 {t('forms:quote.sections.requiredServices')}
               </h3>
               
@@ -412,7 +412,7 @@ export default function FrontendQuoteForm() {
 
             {/* Technical Specifications Section */}
             <div className="space-y-4">
-              <h3 className="text-lg font-semibold text-foreground border-b border-border pb-2">
+              <h3 className="text-lg font-semibold text-foreground border-b border-border pb-2 text-wrap-safe responsive-text">
                 {t('forms:quote.sections.technicalSpecifications')}
               </h3>
               
@@ -434,13 +434,13 @@ export default function FrontendQuoteForm() {
                 )}
               />
 
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4 flex-safe">
                 <FormField
                   control={form.control}
                   name="projectScale"
                   render={({ field }) => (
                     <FormItem>
-                      <FormLabel>{t('forms:quote.labels.projectScale')}</FormLabel>
+                      <FormLabel className="text-wrap-safe">{t('forms:quote.labels.projectScale')}</FormLabel>
                       <Select onValueChange={field.onChange} defaultValue={field.value}>
                         <FormControl>
                           <SelectTrigger>
@@ -464,7 +464,7 @@ export default function FrontendQuoteForm() {
                   name="preferredBrands"
                   render={({ field }) => (
                     <FormItem>
-                      <FormLabel>{t('forms:quote.labels.preferredBrands')}</FormLabel>
+                      <FormLabel className="text-wrap-safe">{t('forms:quote.labels.preferredBrands')}</FormLabel>
                       <FormControl>
                         <Input 
                           placeholder={t('forms:quote.placeholders.preferredBrands')}
@@ -507,12 +507,12 @@ export default function FrontendQuoteForm() {
               >
                 {isSubmitting ? (
                   <>
-                    <Loader2 className="mr-2 h-4 w-4 animate-spin" />
+                    <Loader2 className="me-2 h-4 w-4 animate-spin rtl-flip" />
                     {t('forms:quote.submitting')}
                   </>
                 ) : (
                   <>
-                    <FileText className="mr-2 h-4 w-4" />
+                    <FileText className="me-2 h-4 w-4 rtl-flip" />
                     {t('forms:quote.buttons.submitRequest')}
                   </>
                 )}
@@ -527,7 +527,7 @@ export default function FrontendQuoteForm() {
                   className="flex-1 border-border text-foreground hover:bg-transparent hover:text-foreground hover:border-border"
                 >
                   <a href="tel:+91-94627-71662" className="flex items-center justify-center">
-                    <Phone className="mr-2 h-4 w-4" />
+                    <Phone className="me-2 h-4 w-4 rtl-flip" />
                     {t('forms:quote.buttons.callUrgent')}
                   </a>
                 </Button>
@@ -540,7 +540,7 @@ export default function FrontendQuoteForm() {
                   className="flex-1 border-border text-foreground hover:bg-transparent hover:text-foreground hover:border-border"
                 >
                   <a href="mailto:info@powertonengineering.com" className="flex items-center justify-center">
-                    <Mail className="mr-2 h-4 w-4" />
+                    <Mail className="me-2 h-4 w-4 rtl-flip" />
                     {t('forms:quote.buttons.emailRequirements')}
                   </a>
                 </Button>
