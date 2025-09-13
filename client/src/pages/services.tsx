@@ -79,9 +79,9 @@ export default function Services() {
                 <Link href="/quote">
                   <Button
                     size="lg"
-                    className="bg-secondary hover:bg-secondary/90 text-white"
+                    className="bg-secondary hover:bg-secondary/90 text-white text-wrap-safe"
                   >
-                    {t('common:buttons.getQuote')} <ArrowRight className="ml-2 h-5 w-5" />
+                    {t('common:buttons.getQuote')} <ArrowRight className="ms-2 h-5 w-5 rtl-flip" />
                   </Button>
                 </Link>
               </AnimatedSection>
@@ -97,13 +97,13 @@ export default function Services() {
                 <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
                   {t('services:title')}
                 </h2>
-                <p className="text-muted-foreground max-w-2xl mx-auto">
+                <p className="text-muted-foreground max-w-2xl mx-auto text-wrap-safe responsive-text">
                   {t('services:subtitle')}
                 </p>
               </div>
             </AnimatedSection>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 md:gap-8 items-stretch">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 md:gap-8 items-stretch flex-safe">
               {services.map((service, index) => {
                 const IconComponent =
                   iconMap[service.icon as keyof typeof iconMap] || Settings;
@@ -136,24 +136,24 @@ export default function Services() {
                           <div className="w-16 h-16 bg-gradient-to-br from-primary to-secondary rounded-xl flex items-center justify-center mb-4 group-hover:scale-110 group-hover:rotate-3 transition-all duration-300">
                             <IconComponent className="w-8 h-8 text-white" />
                           </div>
-                          <CardTitle className="text-xl font-bold text-foreground group-hover:text-primary transition-colors mb-2">
+                          <CardTitle className="text-xl font-bold text-foreground group-hover:text-primary transition-colors mb-2 text-wrap-safe responsive-text line-clamp-safe">
                             {service.title}
                           </CardTitle>
                           {service.duration && (
-                            <div className="flex items-center text-sm text-muted-foreground">
-                              <Timer className="w-4 h-4 mr-2" />
+                            <div className="flex items-center text-sm text-muted-foreground text-wrap-safe">
+                              <Timer className="w-4 h-4 me-2 rtl-flip" />
                               {t('common:labels.duration')}: {service.duration}
                             </div>
                           )}
                         </CardHeader>
 
                         <CardContent className="flex-1 flex flex-col">
-                          <p className="text-muted-foreground mb-6 leading-relaxed text-sm">
+                          <p className="text-muted-foreground mb-6 leading-relaxed text-sm text-wrap-safe responsive-text line-clamp-safe">
                             {service.description}
                           </p>
 
                           <div className="space-y-3 mb-6 flex-1">
-                            <h4 className="font-semibold text-foreground text-sm">
+                            <h4 className="font-semibold text-foreground text-sm text-wrap-safe">
                               {t('common:labels.keyFeatures')}:
                             </h4>
                             <ul className="space-y-2">
@@ -162,8 +162,8 @@ export default function Services() {
                                   key={featureIndex}
                                   className="flex items-start text-sm text-muted-foreground"
                                 >
-                                  <CheckCircle className="w-4 h-4 text-secondary mr-2 flex-shrink-0 mt-0.5" />
-                                  <span className="group-hover:text-foreground transition-colors">
+                                  <CheckCircle className="w-4 h-4 text-secondary me-2 flex-shrink-0 mt-0.5 rtl-flip" />
+                                  <span className="group-hover:text-foreground transition-colors text-wrap-safe">
                                     {feature}
                                   </span>
                                 </li>
@@ -179,7 +179,7 @@ export default function Services() {
                               >
                                 <Button
                                   size="sm"
-                                  className="w-full bg-primary hover:bg-primary/90 text-xs"
+                                  className="w-full bg-primary hover:bg-primary/90 text-xs text-wrap-safe"
                                 >
                                   {t('common:buttons.quickQuote')}
                                 </Button>
@@ -200,7 +200,7 @@ export default function Services() {
                               className="text-secondary hover:bg-transparent hover:text-secondary p-0 font-semibold transition-all duration-300 w-full justify-center"
                             >
                               {t('common:buttons.learnMore')}
-                              <span className="ml-2 transform group-hover:translate-x-2 transition-transform duration-300">
+                              <span className="ms-2 transform group-hover:translate-x-2 transition-transform duration-300 rtl-flip">
                                 →
                               </span>
                             </Button>

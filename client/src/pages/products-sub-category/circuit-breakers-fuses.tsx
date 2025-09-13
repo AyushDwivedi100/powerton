@@ -6,27 +6,30 @@ import { Badge } from '@/components/ui/badge';
 import { ArrowLeft, Shield, Zap, AlertTriangle } from 'lucide-react';
 import electricalBgImage from '@assets/generated_images/Electrical_Components_Warehouse_31ec85d7.png';
 import { getProductImageSrc, getProductImageAlt } from '@/assets/images';
+import { useTranslation } from 'react-i18next';
 import circuitBreakersImage from '@assets/generated_images/Circuit_breakers_fuses_control_6ca48d78.png';
 
 const CircuitBreakersFusesPage = () => {
+  const { t } = useTranslation(['common', 'products', 'products-data']);
+  
   const products = [
     {
-      name: "Miniature Circuit Breakers (MCB)",
-      description: "Low voltage circuit breakers for residential and commercial use",
-      features: ["B, C, D Curves", "6-63A Rating", "10kA Breaking Capacity", "DIN Rail Mount"],
-image: getProductImageSrc('circuit-breakers-fuses')
+      name: t('products-data:circuitBreakers.mcb.name'),
+      description: t('products-data:circuitBreakers.mcb.description'),
+      features: t('products-data:circuitBreakers.mcb.features', { returnObjects: true }) as string[],
+      image: getProductImageSrc('circuit-breakers-fuses')
     },
     {
-      name: "Molded Case Circuit Breakers (MCCB)",
-      description: "Industrial circuit breakers for motor and power protection",
-      features: ["Adjustable Trip", "High Breaking Capacity", "Electronic Trip Units", "Up to 1600A"],
-image: getProductImageSrc('circuit-breakers-fuses')
+      name: t('products-data:circuitBreakers.mccb.name'),
+      description: t('products-data:circuitBreakers.mccb.description'),
+      features: t('products-data:circuitBreakers.mccb.features', { returnObjects: true }) as string[],
+      image: getProductImageSrc('circuit-breakers-fuses')
     },
     {
-      name: "Industrial Fuses",
-      description: "High-speed fuses for equipment protection",
-      features: ["Fast Acting", "Time Delay", "High Voltage", "Ceramic Body"],
-image: getProductImageSrc('circuit-breakers-fuses')
+      name: t('products-data:circuitBreakers.industrialFuses.name'),
+      description: t('products-data:circuitBreakers.industrialFuses.description'),
+      features: t('products-data:circuitBreakers.industrialFuses.features', { returnObjects: true }) as string[],
+      image: getProductImageSrc('circuit-breakers-fuses')
     }
   ];
 
@@ -44,28 +47,28 @@ image: getProductImageSrc('circuit-breakers-fuses')
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-white">
           <div className="text-center">
             <Link href="/products/electrical-components">
-              <Button variant="ghost" className="mb-6 hover:bg-white/10 text-white">
-                <ArrowLeft className="mr-2 h-4 w-4" />
-                Back to Electrical Components
+              <Button variant="ghost" className="mb-6 hover:bg-white/10 text-white text-wrap-safe">
+                <ArrowLeft className="me-2 h-4 w-4 rtl-flip" />
+                {t('common:navigation.backToElectricalComponents')}
               </Button>
             </Link>
-            <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-6">Circuit Breakers & Fuses</h1>
-            <p className="text-xl text-muted-foreground max-w-3xl mx-auto mb-8">
-              Electrical protection devices for overcurrent and short circuit protection
+            <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-6 text-wrap-safe responsive-text">{t('products:productPages.circuitBreakersFuses.title')}</h1>
+            <p className="text-xl text-muted-foreground max-w-3xl mx-auto mb-8 text-wrap-safe responsive-text">
+              {t('products:productPages.circuitBreakersFuses.subtitle')}
             </p>
             <div className="flex flex-wrap justify-center gap-2 mb-8">
-              <Badge variant="secondary">MCB</Badge>
-              <Badge variant="secondary">MCCB</Badge>
-              <Badge variant="secondary">Industrial Fuses</Badge>
-              <Badge variant="secondary">Overcurrent Protection</Badge>
+              <Badge variant="secondary">{t('common:badges.mcb')}</Badge>
+              <Badge variant="secondary">{t('common:badges.mccb')}</Badge>
+              <Badge variant="secondary">{t('common:badges.industrialFuses')}</Badge>
+              <Badge variant="secondary">{t('common:badges.overcurrentProtection')}</Badge>
             </div>
           </div>
         </div>
       </div>
 
       <div className="py-16 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
-        <h2 className="text-3xl font-bold text-foreground text-center mb-12">Protection Solutions</h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <h2 className="text-3xl font-bold text-foreground text-center mb-12 text-wrap-safe responsive-text">{t('common:headings.protectionSolutions')}</h2>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 flex-safe">
           {products.map((product, index) => (
             <Card key={index} className="hover:shadow-lg transition-shadow duration-300 hover:scale-[1.02] group cursor-pointer border border-border/50 hover:border-primary/50">
               <CardHeader className="pb-4">
@@ -74,16 +77,16 @@ image: getProductImageSrc('circuit-breakers-fuses')
                   alt={getProductImageAlt('circuit-breakers-fuses', product.name, product.description)}
                   className="w-full h-48 object-cover rounded-lg mb-4"
                 />
-                <CardTitle className="text-xl font-semibold text-foreground group-hover:text-primary transition-colors">{product.name}</CardTitle>
-                <CardDescription className="text-muted-foreground">{product.description}</CardDescription>
+                <CardTitle className="text-xl font-semibold text-foreground group-hover:text-primary transition-colors text-wrap-safe responsive-text line-clamp-safe">{product.name}</CardTitle>
+                <CardDescription className="text-muted-foreground text-wrap-safe responsive-text line-clamp-safe">{product.description}</CardDescription>
               </CardHeader>
               <CardContent>
                 <div className="space-y-2">
-                  <h4 className="font-medium text-sm text-foreground mb-3">Key Features:</h4>
+                  <h4 className="font-medium text-sm text-foreground mb-3 text-wrap-safe">{t('common:headings.keyFeatures')}:</h4>
                   <ul className="space-y-1">
                     {product.features.map((feature, featureIndex) => (
-                      <li key={featureIndex} className="text-sm text-muted-foreground flex items-center">
-                        <div className="w-1.5 h-1.5 bg-secondary rounded-full mr-2" />
+                      <li key={featureIndex} className="text-sm text-muted-foreground flex items-center text-wrap-safe">
+                        <div className="w-1.5 h-1.5 bg-secondary rounded-full me-2" />
                         {feature}
                       </li>
                     ))}
@@ -97,14 +100,14 @@ image: getProductImageSrc('circuit-breakers-fuses')
 
       <div className="py-16 px-4 sm:px-6 lg:px-8">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-3xl font-bold text-foreground mb-6">Need Electrical Protection?</h2>
-          <p className="text-lg text-muted-foreground mb-8">Our protection specialists can help you select the right circuit breakers and fuses for your electrical systems.</p>
+          <h2 className="text-3xl font-bold text-foreground mb-6 text-wrap-safe responsive-text">{t('products:productPages.circuitBreakersFuses.ctaTitle')}</h2>
+          <p className="text-lg text-muted-foreground mb-8 text-wrap-safe responsive-text">{t('products:productPages.circuitBreakersFuses.ctaDescription')}</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact">
-              <Button size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground">Contact Protection Experts</Button>
+              <Button size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground text-wrap-safe">{t('products:productPages.circuitBreakersFuses.contactExperts')}</Button>
             </Link>
             <Link href="/quote">
-              <Button size="lg" variant="outline" className="border-primary text-primary hover:bg-primary hover:text-primary-foreground">Request Quote</Button>
+              <Button size="lg" variant="outline" className="border-primary text-primary hover:bg-primary hover:text-primary-foreground text-wrap-safe">{t('common:buttons.requestQuote')}</Button>
             </Link>
           </div>
         </div>
