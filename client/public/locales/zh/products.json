@@ -355,7 +355,46 @@
     },
     "safety-equipment": {
       "title": "安全设备",
-      "description": "工作场所安全防护设备"
+      "description": "工业应用的综合安全设备和个人防护设备",
+      "sectionsTitle": "安全解决方案",
+      "products": {
+        "ppe": {
+          "name": "个人防护设备（PPE）",
+          "description": "工人保护安全设备",
+          "features": {
+            "hardHats": "安全帽",
+            "safetyGlasses": "安全眼镜",
+            "hearingProtection": "听力保护",
+            "workGloves": "工作手套"
+          }
+        },
+        "fallProtection": {
+          "name": "防坠落系统",
+          "description": "安全带和防坠落设备",
+          "features": {
+            "fullBodyHarness": "全身安全带",
+            "lanyards": "安全绳",
+            "anchorPoints": "锚点",
+            "selfRetracting": "自动收缩"
+          }
+        },
+        "gasDetection": {
+          "name": "气体检测设备",
+          "description": "便携式和固定式气体监测系统",
+          "features": {
+            "multiGasDetectors": "多气体检测器",
+            "singleGas": "单一气体",
+            "wirelessMonitoring": "无线监控",
+            "dataLogging": "数据记录"
+          }
+        }
+      },
+      "cta": {
+        "title": "需要安全设备？",
+        "description": "我们的安全专家可以提供全面的安全解决方案来保护您的员工。",
+        "contactExpertsCta": "联系安全专家",
+        "requestQuoteCta": "请求报价"
+      }
     },
     "bldc-cooler-exhaust-motor": {
       "title": "BLDC冷却排气电机",

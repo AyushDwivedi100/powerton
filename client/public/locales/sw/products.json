@@ -344,7 +344,46 @@
     },
     "safety-equipment": {
       "title": "Vifaa vya Usalama",
-      "description": "Vifaa vya ulinzi wa kibinafsi na vifaa vya usalama"
+      "description": "Vifaa kamili vya usalama na vifaa vya ulinzi wa kibinafsi kwa matumizi ya viwandani",
+      "sectionsTitle": "Suluhisho za Usalama",
+      "products": {
+        "ppe": {
+          "name": "Vifaa vya Ulinzi wa Kibinafsi (PPE)",
+          "description": "Vifaa vya usalama kwa ulinzi wa wafanyakazi",
+          "features": {
+            "hardHats": "Kofia za Kujilinda",
+            "safetyGlasses": "Miwani ya Usalama",
+            "hearingProtection": "Ulinzi wa Masikio",
+            "workGloves": "Glavu za Kazi"
+          }
+        },
+        "fallProtection": {
+          "name": "Mifumo ya Ulinzi dhidi ya Kuanguka",
+          "description": "Mikanda na vifaa vya kuzuia kuanguka",
+          "features": {
+            "fullBodyHarness": "Mkanda wa Mwili Mzima",
+            "lanyards": "Kamba za Usalama",
+            "anchorPoints": "Vipande vya Kutegemeza",
+            "selfRetracting": "Kujikokota"
+          }
+        },
+        "gasDetection": {
+          "name": "Vifaa vya Kutambua Gesi",
+          "description": "Mifumo ya kupima gesi inayobebeka na isiyobebeka",
+          "features": {
+            "multiGasDetectors": "Vitambua Gesi Nyingi",
+            "singleGas": "Gesi Moja",
+            "wirelessMonitoring": "Ufuatiliaji Usio na Waya",
+            "dataLogging": "Kurekodi Data"
+          }
+        }
+      },
+      "cta": {
+        "title": "Unahitaji Vifaa vya Usalama?",
+        "description": "Wataalamu wetu wa usalama wanaweza kutoa suluhisho kamili za usalama kulinda wafanyakazi wako.",
+        "contactExpertsCta": "Wasiliana na Wataalamu wa Usalama",
+        "requestQuoteCta": "Omba Nukuu"
+      }
     },
     "bldc-cooler-exhaust-motor": {
       "title": "Mota ya BLDC ya Kipozaji/Kutoa",

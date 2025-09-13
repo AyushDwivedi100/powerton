@@ -325,7 +325,46 @@
     },
     "safety-equipment": {
       "title": "معدات السلامة",
-      "description": "معدات الحماية الشخصية وأجهزة السلامة"
+      "description": "معدات سلامة شاملة ومعدات الحماية الشخصية للتطبيقات الصناعية",
+      "sectionsTitle": "حلول السلامة",
+      "products": {
+        "ppe": {
+          "name": "معدات الحماية الشخصية (PPE)",
+          "description": "معدات السلامة لحماية العمال",
+          "features": {
+            "hardHats": "الخوذات الصلبة",
+            "safetyGlasses": "نظارات السلامة",
+            "hearingProtection": "حماية السمع",
+            "workGloves": "قفازات العمل"
+          }
+        },
+        "fallProtection": {
+          "name": "أنظمة الحماية من السقوط",
+          "description": "الأحزمة ومعدات منع السقوط",
+          "features": {
+            "fullBodyHarness": "حزام الجسم الكامل",
+            "lanyards": "الحبال الأمان",
+            "anchorPoints": "نقاط التثبيت",
+            "selfRetracting": "الانكماش الذاتي"
+          }
+        },
+        "gasDetection": {
+          "name": "معدات كشف الغازات",
+          "description": "أنظمة مراقبة الغازات المحمولة والثابتة",
+          "features": {
+            "multiGasDetectors": "أجهزة كشف الغازات المتعددة",
+            "singleGas": "الغاز الواحد",
+            "wirelessMonitoring": "المراقبة اللاسلكية",
+            "dataLogging": "تسجيل البيانات"
+          }
+        }
+      },
+      "cta": {
+        "title": "هل تحتاج معدات السلامة؟",
+        "description": "يمكن لمتخصصي السلامة لدينا توفير حلول سلامة شاملة لحماية قوة العمل لديك.",
+        "contactExpertsCta": "اتصل بخبراء السلامة",
+        "requestQuoteCta": "طلب عرض أسعار"
+      }
     },
     "bldc-cooler-exhaust-motor": {
       "title": "محرك بدون فرش التيار المستمر للتبريد/العادم",

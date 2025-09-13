@@ -314,7 +314,46 @@
     },
     "safety-equipment": {
       "title": "Kayan Aminci",
-      "description": "Kayan kariyar mutum da na'urori aminci"
+      "description": "Kayan aminci na duka da kayan kariyar mutum don amfani masana'antu",
+      "sectionsTitle": "Suluhisho Aminci",
+      "products": {
+        "ppe": {
+          "name": "Kayan Kariyar Mutum (PPE)",
+          "description": "Kayan aminci don kariyar ma'aikata",
+          "features": {
+            "hardHats": "Hular Kariya",
+            "safetyGlasses": "Gilashin Aminci",
+            "hearingProtection": "Kariyar Kunne",
+            "workGloves": "Safar Aiki"
+          }
+        },
+        "fallProtection": {
+          "name": "Tsarin Kariya daga Fadowa",
+          "description": "Ɗamara da kayan hana fadowa",
+          "features": {
+            "fullBodyHarness": "Ɗamara Jiki Cikakke",
+            "lanyards": "Igiyar Aminci",
+            "anchorPoints": "Wuraren Dauri",
+            "selfRetracting": "Mai Janye Kansa"
+          }
+        },
+        "gasDetection": {
+          "name": "Kayan Gano Gas",
+          "description": "Tsarin lura da gas na ɗaukar hannu da na tsaye",
+          "features": {
+            "multiGasDetectors": "Masu Gano Gas da Yawa",
+            "singleGas": "Gas Ɗaya",
+            "wirelessMonitoring": "Lura Ba tare da Waya ba",
+            "dataLogging": "Rubuta Bayanai"
+          }
+        }
+      },
+      "cta": {
+        "title": "Kuna Buƙatar Kayan Aminci?",
+        "description": "Ƙwararrun mu na aminci za su iya samar da cikakkun suluhisho na aminci don kare ma'aikatanku.",
+        "contactExpertsCta": "Tuntuɓi Ƙwararrun Aminci",
+        "requestQuoteCta": "Nemi Tambaya"
+      }
     },
     "bldc-cooler-exhaust-motor": {
       "title": "Injin BLDC Mai Sanyaya/Fitar",

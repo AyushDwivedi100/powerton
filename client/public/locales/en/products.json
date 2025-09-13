@@ -298,7 +298,47 @@
       "title": "Lifting Equipment"
     },
     "safety-equipment": {
-      "title": "Safety Equipment"
+      "title": "Safety Equipment",
+      "description": "Comprehensive safety equipment and personal protective equipment for industrial applications",
+      "sectionsTitle": "Safety Solutions",
+      "products": {
+        "ppe": {
+          "name": "Personal Protective Equipment (PPE)",
+          "description": "Safety equipment for worker protection",
+          "features": {
+            "hardHats": "Hard Hats",
+            "safetyGlasses": "Safety Glasses", 
+            "hearingProtection": "Hearing Protection",
+            "workGloves": "Work Gloves"
+          }
+        },
+        "fallProtection": {
+          "name": "Fall Protection Systems",
+          "description": "Harnesses and fall arrest equipment", 
+          "features": {
+            "fullBodyHarness": "Full Body Harness",
+            "lanyards": "Lanyards",
+            "anchorPoints": "Anchor Points", 
+            "selfRetracting": "Self-Retracting"
+          }
+        },
+        "gasDetection": {
+          "name": "Gas Detection Equipment",
+          "description": "Portable and fixed gas monitoring systems",
+          "features": {
+            "multiGasDetectors": "Multi-Gas Detectors",
+            "singleGas": "Single Gas",
+            "wirelessMonitoring": "Wireless Monitoring",
+            "dataLogging": "Data Logging"
+          }
+        }
+      },
+      "cta": {
+        "title": "Need Safety Equipment?",
+        "description": "Our safety specialists can provide comprehensive safety solutions to protect your workforce.",
+        "contactExpertsCta": "Contact Safety Experts",
+        "requestQuoteCta": "Request Quote"
+      }
     },
     "bldc-cooler-exhaust-motor": {
       "title": "BLDC Cooler & Exhaust Motors"
@@ -1213,6 +1253,10 @@
     "parameters": "Parameters:"
   },
   "badges": {
+    "ppe": "PPE",
+    "fallProtection": "Fall Protection",
+    "gasDetection": "Gas Detection", 
+    "oshaCompliant": "OSHA Compliant",
     "signalIntelligence": "Signal Intelligence",
     "vectorAnalysis": "Vector Analysis",
     "rfAnalysis": "RF Analysis",

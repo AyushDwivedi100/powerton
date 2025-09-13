@@ -314,7 +314,46 @@
     },
     "safety-equipment": {
       "title": "Équipements de Sécurité",
-      "description": "Équipements de protection individuelle et dispositifs de sécurité"
+      "description": "Équipements de sécurité complets et équipements de protection individuelle pour applications industrielles",
+      "sectionsTitle": "Solutions de Sécurité",
+      "products": {
+        "ppe": {
+          "name": "Équipements de Protection Individuelle (EPI)",
+          "description": "Équipements de sécurité pour la protection des travailleurs",
+          "features": {
+            "hardHats": "Casques de Sécurité",
+            "safetyGlasses": "Lunettes de Sécurité",
+            "hearingProtection": "Protection Auditive",
+            "workGloves": "Gants de Travail"
+          }
+        },
+        "fallProtection": {
+          "name": "Systèmes de Protection contre les Chutes",
+          "description": "Harnais et équipements d'arrêt de chute",
+          "features": {
+            "fullBodyHarness": "Harnais Complet",
+            "lanyards": "Longes",
+            "anchorPoints": "Points d'Ancrage",
+            "selfRetracting": "Auto-Rétractable"
+          }
+        },
+        "gasDetection": {
+          "name": "Équipements de Détection de Gaz",
+          "description": "Systèmes de surveillance de gaz portables et fixes",
+          "features": {
+            "multiGasDetectors": "Détecteurs Multi-Gaz",
+            "singleGas": "Gaz Unique",
+            "wirelessMonitoring": "Surveillance Sans Fil",
+            "dataLogging": "Enregistrement de Données"
+          }
+        }
+      },
+      "cta": {
+        "title": "Besoin d'Équipements de Sécurité?",
+        "description": "Nos spécialistes de la sécurité peuvent fournir des solutions de sécurité complètes pour protéger votre personnel.",
+        "contactExpertsCta": "Contacter les Experts en Sécurité",
+        "requestQuoteCta": "Demander un Devis"
+      }
     },
     "bldc-cooler-exhaust-motor": {
       "title": "Moteur BLDC Refroidisseur/Extraction",

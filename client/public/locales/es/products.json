@@ -314,7 +314,46 @@
     },
     "safety-equipment": {
       "title": "Equipos de Seguridad",
-      "description": "Equipos de protección personal y dispositivos de seguridad"
+      "description": "Equipos de seguridad integrales y equipos de protección personal para aplicaciones industriales",
+      "sectionsTitle": "Soluciones de Seguridad",
+      "products": {
+        "ppe": {
+          "name": "Equipos de Protección Personal (EPP)",
+          "description": "Equipos de seguridad para protección de trabajadores",
+          "features": {
+            "hardHats": "Cascos de Seguridad",
+            "safetyGlasses": "Gafas de Seguridad",
+            "hearingProtection": "Protección Auditiva",
+            "workGloves": "Guantes de Trabajo"
+          }
+        },
+        "fallProtection": {
+          "name": "Sistemas de Protección contra Caídas",
+          "description": "Arneses y equipos de detención de caídas",
+          "features": {
+            "fullBodyHarness": "Arnés de Cuerpo Completo",
+            "lanyards": "Cuerdas de Seguridad",
+            "anchorPoints": "Puntos de Anclaje",
+            "selfRetracting": "Autorretráctil"
+          }
+        },
+        "gasDetection": {
+          "name": "Equipos de Detección de Gas",
+          "description": "Sistemas de monitoreo de gas portátiles y fijos",
+          "features": {
+            "multiGasDetectors": "Detectores de Múltiples Gases",
+            "singleGas": "Gas Individual",
+            "wirelessMonitoring": "Monitoreo Inalámbrico",
+            "dataLogging": "Registro de Datos"
+          }
+        }
+      },
+      "cta": {
+        "title": "¿Necesita Equipos de Seguridad?",
+        "description": "Nuestros especialistas en seguridad pueden proporcionar soluciones de seguridad integrales para proteger su fuerza laboral.",
+        "contactExpertsCta": "Contactar Expertos en Seguridad",
+        "requestQuoteCta": "Solicitar Cotización"
+      }
     },
     "bldc-cooler-exhaust-motor": {
       "title": "Motor BLDC para Enfriador/Extractor",

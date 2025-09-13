@@ -314,7 +314,46 @@
     },
     "safety-equipment": {
       "title": "Equipamentos de Segurança",
-      "description": "Equipamentos de proteção individual e dispositivos de segurança"
+      "description": "Equipamentos de segurança abrangentes e equipamentos de proteção individual para aplicações industriais",
+      "sectionsTitle": "Soluções de Segurança",
+      "products": {
+        "ppe": {
+          "name": "Equipamentos de Proteção Individual (EPI)",
+          "description": "Equipamentos de segurança para proteção de trabalhadores",
+          "features": {
+            "hardHats": "Capacetes de Segurança",
+            "safetyGlasses": "Óculos de Segurança",
+            "hearingProtection": "Proteção Auditiva",
+            "workGloves": "Luvas de Trabalho"
+          }
+        },
+        "fallProtection": {
+          "name": "Sistemas de Proteção contra Quedas",
+          "description": "Arneses e equipamentos de prevenção de quedas",
+          "features": {
+            "fullBodyHarness": "Arnês de Corpo Inteiro",
+            "lanyards": "Cabos de Segurança",
+            "anchorPoints": "Pontos de Ancoragem",
+            "selfRetracting": "Auto-retrátil"
+          }
+        },
+        "gasDetection": {
+          "name": "Equipamentos de Detecção de Gás",
+          "description": "Sistemas de monitoramento de gás portáteis e fixos",
+          "features": {
+            "multiGasDetectors": "Detectores Multi-Gás",
+            "singleGas": "Gás Único",
+            "wirelessMonitoring": "Monitoramento Sem Fio",
+            "dataLogging": "Registro de Dados"
+          }
+        }
+      },
+      "cta": {
+        "title": "Precisa de Equipamentos de Segurança?",
+        "description": "Nossos especialistas em segurança podem fornecer soluções de segurança abrangentes para proteger sua força de trabalho.",
+        "contactExpertsCta": "Contatar Especialistas em Segurança",
+        "requestQuoteCta": "Solicitar Cotação"
+      }
     },
     "bldc-cooler-exhaust-motor": {
       "title": "Motor BLDC Resfriador/Exaustor",

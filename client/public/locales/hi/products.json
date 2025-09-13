@@ -314,7 +314,46 @@
     },
     "safety-equipment": {
       "title": "सुरक्षा उपकरण",
-      "description": "व्यक्तिगत सुरक्षा उपकरण और सुरक्षा उपकरण"
+      "description": "औद्योगिक अनुप्रयोगों के लिए व्यापक सुरक्षा उपकरण और व्यक्तिगत सुरक्षा उपकरण",
+      "sectionsTitle": "सुरक्षा समाधान",
+      "products": {
+        "ppe": {
+          "name": "व्यक्तिगत सुरक्षा उपकरण (PPE)",
+          "description": "कार्यकर्ता सुरक्षा के लिए सुरक्षा उपकरण",
+          "features": {
+            "hardHats": "हार्ड हैट",
+            "safetyGlasses": "सुरक्षा चश्मे",
+            "hearingProtection": "श्रवण सुरक्षा",
+            "workGloves": "कार्य दस्ताने"
+          }
+        },
+        "fallProtection": {
+          "name": "गिरावट सुरक्षा प्रणालियां",
+          "description": "हार्नेस और गिरावट गिरफ्तारी उपकरण",
+          "features": {
+            "fullBodyHarness": "पूर्ण शरीर हार्नेस",
+            "lanyards": "लेनयार्ड",
+            "anchorPoints": "एंकर पॉइंट्स",
+            "selfRetracting": "स्व-वापसी"
+          }
+        },
+        "gasDetection": {
+          "name": "गैस डिटेक्शन उपकरण",
+          "description": "पोर्टेबल और फिक्स्ड गैस मॉनिटरिंग सिस्टम",
+          "features": {
+            "multiGasDetectors": "मल्टी-गैस डिटेक्टर",
+            "singleGas": "सिंगल गैस",
+            "wirelessMonitoring": "वायरलेस मॉनिटरिंग",
+            "dataLogging": "डेटा लॉगिंग"
+          }
+        }
+      },
+      "cta": {
+        "title": "सुरक्षा उपकरण की आवश्यकता है?",
+        "description": "हमारे सुरक्षा विशेषज्ञ आपकी कार्यशक्ति की सुरक्षा के लिए व्यापक सुरक्षा समाधान प्रदान कर सकते हैं।",
+        "contactExpertsCta": "सुरक्षा विशेषज्ञों से संपर्क करें",
+        "requestQuoteCta": "कोटेशन का अनुरोध करें"
+      }
     },
     "bldc-cooler-exhaust-motor": {
       "title": "ब्रशलेस डीसी कूलर/एक्जॉस्ट मोटर",

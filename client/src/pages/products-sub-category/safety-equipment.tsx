@@ -6,25 +6,43 @@ import { Badge } from '@/components/ui/badge';
 import { ArrowLeft, Shield, AlertTriangle, HardHat } from 'lucide-react';
 import safetyBgImage from '@assets/generated_images/Safety_Equipment_Display_ed04b621.png';
 import { getProductImageSrc, getFileBaseName } from '@/assets/images';
+import { useTranslation } from 'react-i18next';
 
 const SafetyEquipmentPage = () => {
+  const { t } = useTranslation(['products', 'common']);
+  
   const products = [
     {
-      name: "Personal Protective Equipment (PPE)",
-      description: "Safety equipment for worker protection",
-      features: ["Hard Hats", "Safety Glasses", "Hearing Protection", "Work Gloves"],
+      name: t('products:subcategories.safety-equipment.products.ppe.name'),
+      description: t('products:subcategories.safety-equipment.products.ppe.description'),
+      features: [
+        t('products:subcategories.safety-equipment.products.ppe.features.hardHats'),
+        t('products:subcategories.safety-equipment.products.ppe.features.safetyGlasses'),
+        t('products:subcategories.safety-equipment.products.ppe.features.hearingProtection'),
+        t('products:subcategories.safety-equipment.products.ppe.features.workGloves')
+      ],
       image: getProductImageSrc(getFileBaseName())
     },
     {
-      name: "Fall Protection Systems",
-      description: "Harnesses and fall arrest equipment",
-      features: ["Full Body Harness", "Lanyards", "Anchor Points", "Self-Retracting"],
+      name: t('products:subcategories.safety-equipment.products.fallProtection.name'),
+      description: t('products:subcategories.safety-equipment.products.fallProtection.description'),
+      features: [
+        t('products:subcategories.safety-equipment.products.fallProtection.features.fullBodyHarness'),
+        t('products:subcategories.safety-equipment.products.fallProtection.features.lanyards'),
+        t('products:subcategories.safety-equipment.products.fallProtection.features.anchorPoints'),
+        t('products:subcategories.safety-equipment.products.fallProtection.features.selfRetracting')
+      ],
       image: getProductImageSrc(getFileBaseName())
     },
     {
-      name: "Gas Detection Equipment",
-      description: "Portable and fixed gas monitoring systems",
-      features: ["Multi-Gas Detectors", "Single Gas", "Wireless Monitoring", "Data Logging"],
+      name: t('products:subcategories.safety-equipment.products.gasDetection.name'),
+      description: t('products:subcategories.safety-equipment.products.gasDetection.description'),
+      features: [
+        t('products:subcategories.safety-equipment.products.gasDetection.features.multiGasDetectors'),
+        t('products:subcategories.safety-equipment.products.gasDetection.features.singleGas'),
+        t('products:subcategories.safety-equipment.products.gasDetection.features.wirelessMonitoring'),
+        t('products:subcategories.safety-equipment.products.gasDetection.features.dataLogging')
+      ],
       image: getProductImageSrc(getFileBaseName())
     }
   ];
@@ -42,28 +60,32 @@ const SafetyEquipmentPage = () => {
         <div className="absolute inset-0 bg-black/60" />
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
-            <Link href="/products/industrial-tools-tackles">
+            <Link href="/products/safety-protective-devices">
               <Button variant="ghost" className="mb-6 hover:bg-primary/10">
                 <ArrowLeft className="mr-2 h-4 w-4" />
-                Back to Industrial Tools & Tackles
+                {t('common:navigation.backToSafetyDevices')}
               </Button>
             </Link>
-            <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-6">Safety Equipment</h1>
+            <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
+              {t('products:subcategories.safety-equipment.title')}
+            </h1>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto mb-8">
-              Comprehensive safety equipment and personal protective equipment for industrial applications
+              {t('products:subcategories.safety-equipment.description')}
             </p>
             <div className="flex flex-wrap justify-center gap-2 mb-8">
-              <Badge variant="secondary">PPE</Badge>
-              <Badge variant="secondary">Fall Protection</Badge>
-              <Badge variant="secondary">Gas Detection</Badge>
-              <Badge variant="secondary">OSHA Compliant</Badge>
+              <Badge variant="secondary">{t('products:badges.ppe')}</Badge>
+              <Badge variant="secondary">{t('products:badges.fallProtection')}</Badge>
+              <Badge variant="secondary">{t('products:badges.gasDetection')}</Badge>
+              <Badge variant="secondary">{t('products:badges.oshaCompliant')}</Badge>
             </div>
           </div>
         </div>
       </div>
 
       <div className="py-16 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
-        <h2 className="text-3xl font-bold text-foreground text-center mb-12">Safety Solutions</h2>
+        <h2 className="text-3xl font-bold text-foreground text-center mb-12">
+          {t('products:subcategories.safety-equipment.sectionsTitle')}
+        </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {products.map((product, index) => (
             <Card key={index} className="hover:shadow-lg transition-shadow duration-300 hover:scale-[1.02] group cursor-pointer border border-border/50 hover:border-primary/50">
@@ -76,7 +98,7 @@ const SafetyEquipmentPage = () => {
               </CardHeader>
               <CardContent>
                 <div className="space-y-2">
-                  <h4 className="font-medium text-sm text-foreground mb-3">Key Features:</h4>
+                  <h4 className="font-medium text-sm text-foreground mb-3">{t('common:labels.keyFeatures')}</h4>
                   <ul className="space-y-1">
                     {product.features.map((feature, featureIndex) => (
                       <li key={featureIndex} className="text-sm text-muted-foreground flex items-center">
@@ -94,14 +116,14 @@ const SafetyEquipmentPage = () => {
 
       <div className="py-16 px-4 sm:px-6 lg:px-8">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-3xl font-bold text-foreground mb-6">Need Safety Equipment?</h2>
-          <p className="text-lg text-muted-foreground mb-8">Our safety specialists can provide comprehensive safety solutions to protect your workforce.</p>
+          <h2 className="text-3xl font-bold text-foreground mb-6">{t('products:subcategories.safety-equipment.cta.title')}</h2>
+          <p className="text-lg text-muted-foreground mb-8">{t('products:subcategories.safety-equipment.cta.description')}</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact">
-              <Button size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground">Contact Safety Experts</Button>
+              <Button size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground">{t('products:subcategories.safety-equipment.cta.contactExpertsCta')}</Button>
             </Link>
             <Link href="/quote">
-              <Button size="lg" variant="outline" className="border-primary text-primary hover:bg-primary hover:text-primary-foreground">Request Quote</Button>
+              <Button size="lg" variant="outline" className="border-primary text-primary hover:bg-primary hover:text-primary-foreground">{t('products:subcategories.safety-equipment.cta.requestQuoteCta')}</Button>
             </Link>
           </div>
         </div>
