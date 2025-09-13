@@ -420,10 +420,10 @@
     "safety-protective-devices": "सुरक्षा और सुरक्षात्मक उपकरण",
     "mechanical-pumps-spares": "यांत्रिक पंप और स्पेयर पार्ट्स",
     "industrial-tools-tackles": "औद्योगिक उपकरण और सामान",
-    "bldc": "BLDC उत्पाद"
+    "bldc": "ब्रशलेस डीसी (BLDC) उत्पाद"
   },
   "hmi": {
-    "title": "HMI (ह्यूमन मशीन इंटरफेस)",
+    "title": "ह्यूमन मशीन इंटरफेस (HMI)",
     "subtitle": "ऑपरेटर नियंत्रण और सिस्टम विज़ुअलाइज़ेशन के लिए औद्योगिक ह्यूमन मशीन इंटरफेस",
     "navigation": {
       "backToAutomation": "स्वचालन और नियंत्रण प्रणालियों पर वापस जाएं"
@@ -434,150 +434,150 @@
       "realTimeDisplay": "रीयल-टाइम डिस्प्ले",
       "multiProtocol": "मल्टी-प्रोटोकॉल"
     },
-    "solutionsTitle": "HMI Solutions",
+    "solutionsTitle": "ह्यूमन मशीन इंटरफेस (HMI) समाधान",
     "products": {
       "panelMount": {
-        "name": "Panel Mount HMI Displays",
-        "description": "Industrial touchscreen displays for machine interface",
+        "name": "पैनल माउंट एचएमआई (HMI) डिस्प्ले",
+        "description": "मशीन इंटरफेस के लिए औद्योगिक टचस्क्रीन डिस्प्ले",
         "features": [
-          "Touch Interface",
-          "Industrial Rating",
-          "Multiple Sizes",
-          "Communication Protocols"
+          "टच इंटरफेस",
+          "औद्योगिक रेटिंग",
+          "विभिन्न आकार",
+          "संचार प्रोटोकॉल"
         ]
       },
       "operatorInterface": {
-        "name": "Operator Interface Terminals",
-        "description": "Rugged operator terminals for harsh environments",
+        "name": "ऑपरेटर इंटरफेस टर्मिनल्स",
+        "description": "कठिन वातावरण के लिए मजबूत ऑपरेटर टर्मिनल्स",
         "features": [
-          "IP65/IP67 Rating",
-          "Stainless Steel",
-          "Membrane Keypad",
-          "Backlit Display"
+          "IP65/IP67 रेटिंग",
+          "स्टेनलेस स्टील",
+          "मेम्ब्रेन कीपैड",
+          "बैकलिट डिस्प्ले"
         ]
       },
       "mobile": {
-        "name": "Mobile HMI Solutions",
-        "description": "Wireless and mobile human machine interfaces",
+        "name": "मोबाइल एचएमआई (HMI) समाधान",
+        "description": "वायरलेस और मोबाइल ह्यूमन मशीन इंटरफेस",
         "features": [
-          "Wireless Connectivity",
-          "Mobile Apps",
-          "Remote Access",
-          "Real-time Data"
+          "वायरलेस कनेक्टिविटी",
+          "मोबाइल एप्स",
+          "रिमोट एक्सेस",
+          "रीयल-टाइम डेटा"
         ]
       }
     },
     "cta": {
-      "title": "Need HMI Solutions?",
-      "description": "Our HMI specialists can design intuitive operator interfaces for your automation systems.",
-      "contactExperts": "Contact HMI Experts"
+      "title": "एचएमआई (HMI) समाधान की आवश्यकता है?",
+      "description": "हमारे एचएमआई (HMI) विशेषज्ञ आपके स्वचालन प्रणालियों के लिए सहज ऑपरेटर इंटरफेस डिजाइन कर सकते हैं।",
+      "contactExperts": "एचएमआई (HMI) विशेषज्ञों से संपर्क करें"
     }
   },
   "plcProducts": {
     "siemens": {
-      "description": "Compact PLC for small to medium automation applications",
+      "description": "छोटे से मध्यम स्वचालन अनुप्रयोगों के लिए कॉम्पैक्ट प्रोग्रामेबल लॉजिक कंट्रोलर (PLC)",
       "features": {
-        "integratedIO": "Integrated I/O",
-        "ethernet": "Ethernet Communication",
-        "programming": "TIA Portal Programming",
-        "failSafe": "Fail-Safe Options"
+        "integratedIO": "एकीकृत आई/ओ (I/O)",
+        "ethernet": "ईथरनेट संचार",
+        "programming": "टीआए (TIA) पोर्टल प्रोग्रामिंग",
+        "failSafe": "फेल-सेफ विकल्प"
       }
     },
     "allenBradley": {
-      "description": "High-performance PLC with integrated safety",
+      "description": "एकीकृत सुरक्षा के साथ उच्च प्रदर्शन प्रोग्रामेबल लॉजिक कंट्रोलर (PLC)",
       "features": {
-        "safety": "GuardLogix Safety",
-        "ethernet": "Dual Ethernet Ports",
-        "software": "Studio 5000 Software",
-        "motion": "Motion Control"
+        "safety": "गार्डलॉजिक्स सेफ्टी",
+        "ethernet": "दोहरे ईथरनेट पोर्ट्स",
+        "software": "स्टूडियो ५००० सॉफ्टवेयर",
+        "motion": "मोशन कंट्रोल"
       }
     },
     "schneider": {
-      "description": "High-end PLC for complex industrial processes",
+      "description": "जटिल औद्योगिक प्रक्रियाओं के लिए उच्च-अंत प्रोग्रामेबल लॉजिक कंट्रोलर (PLC)",
       "features": {
-        "hotStandby": "Hot Standby CPU",
-        "ethernet": "Ethernet Ring Topology",
-        "software": "Unity Pro Software",
-        "security": "Cyber Security"
+        "hotStandby": "हॉट स्टैंडबाई सीपीयू (CPU)",
+        "ethernet": "ईथरनेट रिंग टोपोलॉजी",
+        "software": "यूनिटी प्रो सॉफ्टवेयर",
+        "security": "साइबर सेक्यूरिटी"
       }
     }
   },
   "features": {
     "safetyDevices": {
       "surgeProtectors": {
-        "title": "Surge Protectors",
-        "description": "Electrical surge protection devices for equipment safety",
+        "title": "सर्ज प्रोटेक्टर्स",
+        "description": "उपकरण सुरक्षा के लिए विद्युत सर्ज सुरक्षा उपकरण",
         "features": {
-          "lightning": "Lightning Protection",
-          "voltage": "Voltage Surge Protection",
-          "equipment": "Equipment Safety",
-          "power": "Power Quality"
+          "lightning": "बिजली सुरक्षा",
+          "voltage": "वोल्टेज सर्ज सुरक्षा",
+          "equipment": "उपकरण सुरक्षा",
+          "power": "पावर क्वालिटी"
         }
       },
       "groundingSystems": {
-        "title": "Grounding Systems",
-        "description": "Electrical grounding and earthing systems for safety",
+        "title": "ग्राउंडिंग सिस्टम्स",
+        "description": "सुरक्षा के लिए विद्युत ग्राउंडिंग और अर्थिंग प्रणालियां",
         "features": {
-          "electrodes": "Earth Electrodes",
-          "rods": "Ground Rods",
-          "conductors": "Bonding Conductors",
-          "lightning": "Lightning Rods"
+          "electrodes": "भूमि इलेक्ट्रोड",
+          "rods": "ग्राउंड रॉड्स",
+          "conductors": "बॉन्डिंग कंडक्टर्स",
+          "lightning": "बिजली रॉड्स"
         }
       },
       "safetyRelays": {
-        "title": "Safety Relays & Switches",
-        "description": "Safety control devices for emergency shutdown systems",
+        "title": "सेफ्टी रिले और स्विचेस",
+        "description": "आपातकालीन शटडाउन सिस्टम्स के लिए सेफ्टी कंट्रोल उपकरण",
         "features": {
-          "emergency": "Emergency Stop",
-          "monitoring": "Safety Monitoring",
-          "failSafe": "Fail-Safe Design",
-          "certified": "Certified Safety"
+          "emergency": "आपातकालीन स्टॉप",
+          "monitoring": "सेफ्टी मॉनिटरिंग",
+          "failSafe": "फेल-सेफ डिजाइन",
+          "certified": "प्रमाणित सेफ्टी"
         }
       },
       "intrinsicallySafe": {
-        "title": "Intrinsically Safe Equipment",
-        "description": "Explosion-proof equipment for hazardous environments",
+        "title": "इंट्रिंसिकली सेफ उपकरण",
+        "description": "खतरनाक वातावरण के लिए विस्फोट-प्रूफ उपकरण",
         "features": {
-          "atex": "ATEX Certified",
-          "explosion": "Explosion Proof",
-          "hazardous": "Hazardous Area",
-          "intrinsic": "Intrinsic Safety"
+          "atex": "एटेक्स (ATEX) प्रमाणित",
+          "explosion": "विस्फोट प्रूफ",
+          "hazardous": "खतरनाक क्षेत्र",
+          "intrinsic": "इंट्रिंसिक सेफ्टी"
         }
       },
       "badges": {
-        "surgeProtection": "Surge Protection",
-        "groundingSystems": "Grounding Systems",
-        "safetyRelays": "Safety Relays",
-        "intrinsicSafety": "Intrinsic Safety"
+        "surgeProtection": "सर्ज प्रोटेक्शन",
+        "groundingSystems": "ग्राउंडिंग सिस्टम्स",
+        "safetyRelays": "सेफ्टी रिले",
+        "intrinsicSafety": "इंट्रिंसिक सेफ्टी"
       }
     },
     "common": {
-      "highTorque": "High Torque",
-      "variableSpeed": "Variable Speed",
-      "cordlessOptions": "Cordless Options",
-      "chuckCapacity": "Chuck Capacity: 13mm",
-      "multipleSizes": "Multiple Sizes",
-      "safetyGuards": "Safety Guards",
-      "antiVibration": "Anti-Vibration",
-      "powerfulMotors": "Powerful Motors",
-      "highImpactForce": "High Impact Force",
-      "socketCompatibility": "Socket Compatibility",
-      "forwardReverse": "Forward/Reverse",
-      "batteryPowered": "Battery Powered",
-      "efficientSwitching": "85-265V AC Input",
-      "dcOutput": "12V/24V DC Output",
-      "highEfficiency": "High Efficiency",
-      "compactDesign": "Compact Design",
-      "dinRailMount": "DIN Rail Mount",
-      "wideInputRange": "Wide Input Range",
-      "shortCircuitProtection": "Short Circuit Protection",
-      "ledStatus": "LED Status",
-      "batteryBackup": "Battery Backup",
-      "surgeProtection": "Surge Protection",
-      "autoTransfer": "Auto Transfer",
-      "lcdDisplay": "LCD Display",
-      "castIronBronze": "Cast Iron/Bronze",
-      "stainlessSteelSizes": "Stainless Steel",
+      "highTorque": "उच्च टॉर्क",
+      "variableSpeed": "परिवर्तीय गति",
+      "cordlessOptions": "कॉर्डलेस विकल्प",
+      "chuckCapacity": "चक क्षमता: 13मिमी",
+      "multipleSizes": "विभिन्न आकार",
+      "safetyGuards": "सेफ्टी गार्ड्स",
+      "antiVibration": "एंटी-वाइब्रेशन",
+      "powerfulMotors": "शक्तिशाली मोटर्स",
+      "highImpactForce": "उच्च इम्पैक्ट फोर्स",
+      "socketCompatibility": "सॉकेट संगतता",
+      "forwardReverse": "फॉरवर्ड/रिवर्स",
+      "batteryPowered": "बैटरी पावर्ड",
+      "efficientSwitching": "85-265वी एसी (AC) इनपुट",
+      "dcOutput": "12वी/24वी डीसी (DC) आउटपुट",
+      "highEfficiency": "उच्च दक्षता",
+      "compactDesign": "कॉम्पैक्ट डिजाइन",
+      "dinRailMount": "डीआईएन (DIN) रेल माउंट",
+      "wideInputRange": "वाइड इनपुट रेंज",
+      "shortCircuitProtection": "शॉर्ट सर्किट प्रोटेक्शन",
+      "ledStatus": "एलईडी (LED) स्थिति",
+      "batteryBackup": "बैटरी बैकअप",
+      "surgeProtection": "सर्ज प्रोटेक्शन",
+      "autoTransfer": "ऑटो ट्रांसफर",
+      "lcdDisplay": "एलसीडी (LCD) डिस्प्ले",
+      "castIronBronze": "कास्ट आयरन/ब्रान्ज",
+      "stainlessSteelSizes": "स्टेनलेस स्टील",
       "balancedDesign": "Balanced Design",
       "singleDoubleSeals": "Single/Double Seals",
       "cartridgeType": "Cartridge Type",
@@ -867,7 +867,7 @@
         "hybridSystems": "Hybrid Systems"
       },
       "features": {
-        "highEfficiency": "High Efficiency",
+        "highEfficiency": "उच्च दक्षता",
         "weatherResistant": "Weather Resistant",
         "smartMonitoring": "Smart Monitoring",
         "gridSynchronization": "Grid Synchronization"
