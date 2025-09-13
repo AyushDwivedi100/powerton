@@ -96,25 +96,25 @@ export default function ProductSensors() {
           <div className="text-center">
             <Link href="/products/instrumentation-components">
               <Button variant="ghost" className="mb-6 hover:bg-white/10 text-white">
-                <ArrowLeft className="mr-2 h-4 w-4" />
+                <ArrowLeft className="me-2 h-4 w-4 rtl-flip" />
 {t('common:navigation.backToInstrumentationComponents')}
               </Button>
             </Link>
           </div>
           <div className="max-w-4xl mx-auto text-center">
             <div className="flex items-center justify-center mb-6">
-              <Thermometer className="w-16 h-16 text-secondary mr-4" />
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold">
+              <Thermometer className="w-16 h-16 text-secondary me-4 rtl-flip" />
+              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-wrap-safe responsive-text">
                 Industrial <span className="text-secondary">Sensors</span>
               </h1>
             </div>
-            <p className="text-lg md:text-xl mb-8 opacity-90 max-w-3xl mx-auto">
+            <p className="text-lg md:text-xl mb-8 opacity-90 max-w-3xl mx-auto text-wrap-safe">
               {product.shortDescription}
             </p>
             <div className="flex flex-col sm:flex-row justify-center gap-4 max-w-md mx-auto">
               <Link href="/quote">
                 <Button className="bg-secondary hover:bg-secondary/90 text-secondary-foreground px-8 py-3 text-lg font-semibold w-full sm:w-auto">
-                  {t('common:buttons.getQuote')} <ArrowRight className="ml-2 w-5 h-5" />
+                  <span className="text-wrap-safe">{t('common:buttons.getQuote')}</span> <ArrowRight className="ms-2 w-5 h-5 rtl-flip" />
                 </Button>
               </Link>
               <Link href="/contact">
@@ -122,7 +122,7 @@ export default function ProductSensors() {
                   variant="outline" 
                   className="border-2 border-border text-white hover:bg-background hover:text-foreground px-8 py-3 text-lg font-semibold w-full sm:w-auto"
                 >
-                  {t('common:buttons.contactUs')}
+                  <span className="text-wrap-safe">{t('common:buttons.contactUs')}</span>
                 </Button>
               </Link>
             </div>

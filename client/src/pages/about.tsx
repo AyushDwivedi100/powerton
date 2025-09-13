@@ -86,10 +86,10 @@ export default function About() {
         <div className="absolute inset-0 bg-black/60"></div>
         <div className="relative max-w-7xl mx-auto px-4 md:px-6 lg:px-8 text-white">
           <div className="max-w-4xl mx-auto text-center">
-            <h1 className="text-4xl lg:text-6xl font-bold mb-6">
+            <h1 className="text-4xl lg:text-6xl font-bold mb-6 text-wrap-safe responsive-text">
               {t('pages:about.hero.title')}
             </h1>
-            <p className="text-xl lg:text-2xl mb-8 opacity-90">
+            <p className="text-xl lg:text-2xl mb-8 opacity-90 text-wrap-safe">
               {t('pages:about.hero.subtitle')}
             </p>
           </div>

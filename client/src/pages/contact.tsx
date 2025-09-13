@@ -145,24 +145,24 @@ export default function Contact() {
         <div className="absolute inset-0 bg-black/60"></div>
         <div className="relative max-w-7xl mx-auto px-4 md:px-6 lg:px-8 text-white">
           <div className="max-w-4xl mx-auto text-center">
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4 sm:mb-6">
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4 sm:mb-6 text-wrap-safe responsive-text">
               {t('pages:contact.hero.title')}
             </h1>
-            <p className="text-lg md:text-xl lg:text-2xl mb-6 sm:mb-8 opacity-90 max-w-3xl mx-auto">
+            <p className="text-lg md:text-xl lg:text-2xl mb-6 sm:mb-8 opacity-90 max-w-3xl mx-auto text-wrap-safe">
               {t('pages:contact.hero.subtitle')}
             </p>
-            <div className="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-8 text-base md:text-lg">
+            <div className="flex flex-col sm:flex-row justify-center gap-4 sm:gap-8 text-base md:text-lg">
               <div className="flex items-center justify-center sm:justify-start">
-                <CheckCircle className="w-5 h-5 md:w-6 md:h-6 text-secondary mr-2 md:mr-3 flex-shrink-0" />
-                <span>{t('pages:contact.hero.benefits.consultation')}</span>
+                <CheckCircle className="w-5 h-5 md:w-6 md:h-6 text-secondary me-2 md:me-3 flex-shrink-0 rtl-flip" />
+                <span className="text-wrap-safe">{t('pages:contact.hero.benefits.consultation')}</span>
               </div>
               <div className="flex items-center justify-center sm:justify-start">
-                <CheckCircle className="w-5 h-5 md:w-6 md:h-6 text-secondary mr-2 md:mr-3 flex-shrink-0" />
-                <span>{t('pages:contact.hero.benefits.support')}</span>
+                <CheckCircle className="w-5 h-5 md:w-6 md:h-6 text-secondary me-2 md:me-3 flex-shrink-0 rtl-flip" />
+                <span className="text-wrap-safe">{t('pages:contact.hero.benefits.support')}</span>
               </div>
               <div className="flex items-center justify-center sm:justify-start">
-                <CheckCircle className="w-5 h-5 md:w-6 md:h-6 text-secondary mr-2 md:mr-3 flex-shrink-0" />
-                <span>{t('pages:contact.hero.benefits.experience')}</span>
+                <CheckCircle className="w-5 h-5 md:w-6 md:h-6 text-secondary me-2 md:me-3 flex-shrink-0 rtl-flip" />
+                <span className="text-wrap-safe">{t('pages:contact.hero.benefits.experience')}</span>
               </div>
             </div>
           </div>
