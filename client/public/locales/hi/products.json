@@ -385,20 +385,20 @@
   },
   "productPages": {
     "transmitters": {
-      "title": "Transmitters",
-      "transducers": "Transducers"
+      "title": "ट्रांसमीटर",
+      "transducers": "ट्रांसड्यूसर"
     },
     "spectrumAnalyzers": {
-      "title": "Spectrum Analyzers",
+      "title": "स्पेक्ट्रम एनालाइज़र",
       "sections": {
         "featured": {
-          "title": "Featured Spectrum Analyzers"
+          "title": "फीचर्ड स्पेक्ट्रम एनालाइज़र"
         }
       },
       "cta": {
-        "title": "Need RF Signal Analysis?",
-        "description": "Our RF specialists can help you select the right spectrum analyzer for your measurement needs.",
-        "button": "Contact RF Experts"
+        "title": "RF सिग्नल विश्लेषण की आवश्यकता है?",
+        "description": "हमारे RF विशेषज्ञ आपकी मापन आवश्यकताओं के लिए सही स्पेक्ट्रम एनालाइज़र चुनने में आपकी सहायता कर सकते हैं।",
+        "button": "RF विशेषज्ञों से संपर्क करें"
       }
     }
   },
@@ -423,16 +423,16 @@
     "bldc": "BLDC उत्पाद"
   },
   "hmi": {
-    "title": "HMI (Human Machine Interface)",
-    "subtitle": "Industrial human machine interfaces for operator control and system visualization",
+    "title": "HMI (ह्यूमन मशीन इंटरफेस)",
+    "subtitle": "ऑपरेटर नियंत्रण और सिस्टम विज़ुअलाइज़ेशन के लिए औद्योगिक ह्यूमन मशीन इंटरफेस",
     "navigation": {
-      "backToAutomation": "Back to Automation & Control Systems"
+      "backToAutomation": "स्वचालन और नियंत्रण प्रणालियों पर वापस जाएं"
     },
     "badges": {
-      "touchscreen": "Touchscreen",
-      "industrialGrade": "Industrial Grade",
-      "realTimeDisplay": "Real-time Display",
-      "multiProtocol": "Multi-Protocol"
+      "touchscreen": "टचस्क्रीन",
+      "industrialGrade": "औद्योगिक ग्रेड",
+      "realTimeDisplay": "रीयल-टाइम डिस्प्ले",
+      "multiProtocol": "मल्टी-प्रोटोकॉल"
     },
     "solutionsTitle": "HMI Solutions",
     "products": {
