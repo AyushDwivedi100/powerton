@@ -147,6 +147,15 @@ html {
   transform: rotate(0deg);
 }
 
+/* Logical object positioning utilities */
+.object-inline-start {
+  object-position: left center;
+}
+
+[dir="rtl"] .object-inline-start {
+  object-position: right center;
+}
+
 /* === COMPREHENSIVE RTL LOGICAL UTILITY LAYER === */
 /* Logical Margin Utilities - Start (ms-*) and End (me-*) */
 [dir="ltr"] .ms-0 { margin-left: 0; }
