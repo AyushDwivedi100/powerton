@@ -5,7 +5,7 @@ import { ThemeToggle } from "@/components/ui/theme-toggle";
 import { LanguageSwitcher } from "@/components/ui/language-switcher";
 import { COMPANY_INFO, SERVICES, PRODUCTS, getCompanyInfo } from "@/data/constants";
 import { cn } from "@/lib/utils";
-import logoImage from "@assets/mainlogopowerton (1)_1755674514195.png";
+import { LEGACY_IMAGES } from "@/assets/images";
 
 export default function Footer() {
   const { t } = useTranslation(['navigation', 'common']);
@@ -30,7 +30,7 @@ export default function Footer() {
               <Link href="/" aria-label={t('common:ui.ariaLabels.goToHomepage')}>
                 <div className="relative w-[280px] sm:w-[300px] md:w-[220px] lg:w-[240px] h-16 sm:h-18 md:h-14 overflow-hidden cursor-pointer">
                   <img 
-                    src={logoImage} 
+                    src={LEGACY_IMAGES.companyLogo} 
                     alt={t('common:ui.altTexts.companyLogo')} 
                     className="absolute inset-0 w-full h-full object-contain object-inline-start"
                     loading="eager"

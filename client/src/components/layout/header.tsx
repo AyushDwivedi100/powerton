@@ -16,7 +16,7 @@ import { ThemeToggle } from "@/components/ui/theme-toggle";
 import { LanguageSwitcher } from "@/components/ui/language-switcher";
 import { useRTLClasses } from "@/hooks/use-rtl";
 import { cn } from "@/lib/utils";
-import logoImage from "@assets/mainlogopowerton (1)_1755674514195.png";
+import { LEGACY_IMAGES } from "@/assets/images";
 
 export default function Header() {
   const { t } = useTranslation(['navigation', 'common']);
@@ -241,7 +241,7 @@ export default function Header() {
             <Link href="/" className="flex items-center ms-2 lg:ms-4">
               <div className="relative w-[190px] sm:w-[200px] md:w-[190px] lg:w-[200px] xl:w-[220px] h-12 sm:h-13 md:h-12 lg:h-13 xl:h-14 overflow-hidden me-4 lg:me-6 xl:me-8">
                 <img
-                  src={logoImage}
+                  src={LEGACY_IMAGES.companyLogo}
                   alt={t('common:altTexts.companyLogo')}
                   className="absolute inset-0 w-full h-full object-contain"
                   loading="eager"
