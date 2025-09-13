@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { SEO } from "@/lib/seo";
 import { Button } from "@/components/ui/button";
-import { Card, CardContent } from "@/components/ui/card";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import {
   CheckCircle,
@@ -11,6 +11,10 @@ import {
   Target,
   Eye,
   Heart,
+  Trophy,
+  Rocket,
+  TrendingUp,
+  Zap,
 } from "lucide-react";
 import { Link } from "wouter";
 import { useTranslation } from "react-i18next";
@@ -22,6 +26,83 @@ import {
   useScrollAnimations,
 } from "@/hooks/use-scroll-animation";
 import industryFacilityImage from "@assets/generated_images/Industrial_automation_facility_interior_3c4562ec.png";
+
+const ACHIEVEMENTS = [
+  {
+    year: "2024",
+    awards: [
+      "Excellence in Industrial Automation Award - Indian Engineering Society",
+      "Best Innovation in Process Control - Automation India Awards",
+      "ISO 9001:2015 Quality Management Certification",
+      "Top 100 Engineering Companies - India Today",
+    ],
+  },
+  {
+    year: "2023",
+    awards: [
+      "Outstanding Engineering Solution - CII Manufacturing Excellence",
+      "Safety Excellence Award - National Safety Council",
+      "Technology Innovation Award - Engineering Export Promotion Council",
+      "Best SME in Automation Sector - MSME Ministry",
+    ],
+  },
+  {
+    year: "2022",
+    awards: [
+      "Engineering Excellence Award - Federation of Indian Chambers",
+      "Sustainable Technology Award - Green Business Council",
+      "Quality Excellence Recognition - Bureau of Indian Standards",
+    ],
+  },
+];
+
+const FUTURE_GOALS = [
+  {
+    goal: "Market Leadership",
+    description:
+      "Become the leading automation solutions provider in North India by 2026",
+    target: "2026",
+    progress: 75,
+    icon: Trophy,
+  },
+  {
+    goal: "Technology Innovation",
+    description:
+      "Launch 5 new AI-powered automation solutions for Industry 4.0",
+    target: "2025",
+    progress: 45,
+    icon: Rocket,
+  },
+  {
+    goal: "Geographic Expansion",
+    description: "Establish operations in 3 new states across India",
+    target: "2025",
+    progress: 30,
+    icon: Globe,
+  },
+  {
+    goal: "Team Growth",
+    description: "Expand our engineering team to 200+ professionals",
+    target: "2026",
+    progress: 60,
+    icon: Users,
+  },
+  {
+    goal: "Revenue Milestone",
+    description: "Achieve ₹100 Crores annual revenue milestone",
+    target: "2026",
+    progress: 55,
+    icon: TrendingUp,
+  },
+  {
+    goal: "Sustainability Focus",
+    description:
+      "Implement carbon-neutral operations and green technology solutions",
+    target: "2025",
+    progress: 40,
+    icon: Zap,
+  },
+];
 
 export default function About() {
   useScrollAnimations();
@@ -261,6 +342,126 @@ export default function About() {
                   <span className="font-medium text-foreground">{cert}</span>
                 </div>
               ))}
+            </div>
+          </div>
+        </section>
+      </AnimatedSection>
+
+      {/* Awards & Achievements */}
+      <AnimatedSection animation="fadeInLeft" delay={0.15} duration={0.7}>
+        <section className="py-12 md:py-16 lg:py-20 bg-background">
+          <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8">
+            <div className="text-center mb-16">
+              <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-8">
+                Awards & Achievements
+              </h2>
+              <p className="text-xl text-muted-foreground mb-8">
+                Recognition of our commitment to excellence, innovation, and
+                quality in industrial automation.
+              </p>
+            </div>
+
+            <div className="space-y-8">
+              {ACHIEVEMENTS.map((yearData) => (
+                <motion.div
+                  key={yearData.year}
+                  initial={{ opacity: 0, y: 20 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{ duration: 0.5 }}
+                >
+                <Card
+                  key={yearData.year}
+                  className="bg-card border border-border rounded-lg shadow-sm"
+                >
+                  <CardHeader className="p-6">
+                    <CardTitle className="text-2xl font-bold text-primary flex items-center gap-2">
+                      <Trophy className="w-6 h-6 text-secondary" />
+                      {yearData.year}
+                    </CardTitle>
+                  </CardHeader>
+                  <CardContent className="p-6 pt-0">
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                      {yearData.awards.map((award, index) => (
+                        <div
+                          key={index}
+                          className="flex items-start gap-3 p-4 bg-muted rounded-lg"
+                        >
+                          <Award className="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" />
+                          <span className="text-foreground font-medium">
+                            {award}
+                          </span>
+                        </div>
+                      ))}
+                    </div>
+                  </CardContent>
+                  </Card>
+                </motion.div>
+              ))}
+            </div>
+          </div>
+        </section>
+      </AnimatedSection>
+
+      {/* Future Goals & Vision */}
+      <AnimatedSection animation="fadeInRight" delay={0.1} duration={0.8}>
+        <section className="py-12 md:py-16 lg:py-20 bg-muted">
+          <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8">
+            <div className="text-center mb-16">
+              <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-8">
+                Future Goals & Vision
+              </h2>
+              <p className="text-xl text-muted-foreground mb-8">
+                Our strategic roadmap towards becoming India's leading
+                industrial automation solutions provider.
+              </p>
+            </div>
+
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+              {FUTURE_GOALS.map((goal) => {
+                const Icon = goal.icon;
+                return (
+                  <Card
+                    key={goal.goal}
+                    className="bg-card border border-border rounded-lg shadow-sm"
+                  >
+                    <CardContent className="p-6">
+                      <div className="flex items-start gap-4 mb-4">
+                        <div className="w-12 h-12 bg-gradient-to-br from-primary to-secondary rounded-lg flex items-center justify-center flex-shrink-0">
+                          <Icon className="w-6 h-6 text-white" />
+                        </div>
+                        <div className="flex-1">
+                          <h3 className="text-xl font-semibold text-foreground mb-1">
+                            {goal.goal}
+                          </h3>
+                          <div className="flex items-center gap-2 text-sm text-muted-foreground mb-2">
+                            <Target className="w-4 h-4" />
+                            <span>Target: {goal.target}</span>
+                          </div>
+                        </div>
+                      </div>
+                      <p className="text-muted-foreground mb-4">
+                        {goal.description}
+                      </p>
+                      <div className="space-y-2">
+                        <div className="flex items-center justify-between text-sm">
+                          <span className="text-muted-foreground">
+                            Progress
+                          </span>
+                          <span className="font-medium text-foreground">
+                            {goal.progress}%
+                          </span>
+                        </div>
+                        <div className="w-full bg-muted rounded-full h-2">
+                          <div
+                            className="bg-gradient-to-r from-primary to-secondary h-2 rounded-full transition-all duration-500"
+                            style={{ width: `${goal.progress}%` }}
+                          ></div>
+                        </div>
+                      </div>
+                    </CardContent>
+                  </Card>
+                );
+              })}
             </div>
           </div>
         </section>
