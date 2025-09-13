@@ -2,50 +2,50 @@
   "contact": {
     "fields": {
       "name": {
-        "label": "Full Name",
-        "placeholder": "Enter your full name",
-        "error": "Name is required"
+        "label": "姓名",
+        "placeholder": "请输入您的姓名",
+        "error": "姓名是必填项"
       },
       "email": {
-        "label": "Email Address",
-        "placeholder": "Enter your email address",
-        "error": "Please enter a valid email address"
+        "label": "电子邮件",
+        "placeholder": "请输入您的电子邮件",
+        "error": "请输入有效的电子邮件地址"
       },
       "phone": {
-        "label": "Phone Number",
-        "placeholder": "Enter your phone number",
-        "error": "Phone number is required"
+        "label": "电话号码",
+        "placeholder": "请输入您的电话号码",
+        "error": "电话号码是必填项"
       },
       "company": {
-        "label": "Company Name",
-        "placeholder": "Enter your company name"
+        "label": "公司名称",
+        "placeholder": "请输入您的公司名称"
       },
       "serviceType": {
-        "label": "Service Type",
-        "placeholder": "Select service type"
+        "label": "服务类型",
+        "placeholder": "请选择服务类型"
       },
       "subject": {
-        "label": "Subject",
-        "placeholder": "Enter subject",
-        "error": "Subject is required"
+        "label": "主题",
+        "placeholder": "请输入主题",
+        "error": "主题是必填项"
       },
       "message": {
-        "label": "Message",
-        "placeholder": "Enter your message",
-        "error": "Message is required"
+        "label": "消息",
+        "placeholder": "请输入您的消息",
+        "error": "消息是必填项"
       }
     },
     "buttons": {
-      "submit": "Send Message",
-      "sending": "Sending...",
-      "callNow": "Call Now",
-      "emailUs": "Email Us"
+      "submit": "发送消息",
+      "sending": "发送中...",
+      "callNow": "立即致电",
+      "emailUs": "联系我们"
     },
     "messages": {
-      "success": "Thank you! Your message has been sent successfully.",
-      "successDesc": "We'll get back to you within 24 hours.",
-      "error": "Failed to send message",
-      "errorDesc": "Please try again or contact us directly at {{phone}} or {{email}}"
+      "success": "谢谢！您的消息已成功发送。",
+      "successDesc": "我们将在24小时内回复您。",
+      "error": "消息发送失败",
+      "errorDesc": "请重试或直接联系我们：{{phone}} 或 {{email}}"
     }
   },
   "quote": {
@@ -137,7 +137,7 @@
       "title": "Quote submission failed",
       "description": "For immediate assistance: {{phone}} or email: {{email}}"
     },
-    "submitting": "Submitting Quote Request...",
+    "submitting": "提交报价请求中...",
     "industries": {
       "manufacturing": "Manufacturing",
       "powerGeneration": "Power Generation",
@@ -158,7 +158,7 @@
     },
     "buttons": {
       "getProfessionalQuote": "Get Professional Quote",
-      "submitRequest": "Submit Quote Request",
+      "submitRequest": "提交报价请求",
       "callUrgent": "Call for Urgent Requirements",
       "emailRequirements": "Email Requirements"
     },
@@ -194,7 +194,7 @@
     },
     "labels": {
       "title": "Join Our Engineering Team",
-      "subtitle": "Submit your application and become part of our innovative engineering solutions team",
+      "subtitle": "提交您的申请，成为我们创新工程解决方案团队的一员",
       "personalInfo": "Personal Information",
       "professionalInfo": "Professional Information",
       "fullName": "Full Name",
@@ -212,8 +212,8 @@
       "resume": "CV/Resume"
     },
     "buttons": {
-      "submit": "Submit Application",
-      "submitting": "Submitting Application...",
+      "submit": "提交申请",
+      "submitting": "正在提交申请...",
       "uploadResume": "Upload Resume"
     },
     "validation": {
@@ -259,7 +259,7 @@
       "resumeFormat": "Accepted formats: PDF, DOC, DOCX (Max size: 5MB)"
     },
     "success": {
-      "title": "Application Submitted Successfully!",
+      "title": "申请提交成功！",
       "description": "Thank you for applying! We will review your application and contact you within 2-3 business days."
     },
     "error": {
