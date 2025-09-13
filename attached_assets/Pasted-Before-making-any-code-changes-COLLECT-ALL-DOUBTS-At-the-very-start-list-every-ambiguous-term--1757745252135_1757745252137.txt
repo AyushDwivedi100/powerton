@@ -1,0 +1,60 @@
+Before making any code changes: COLLECT ALL DOUBTS.
+- At the very start, list every ambiguous term (acronyms, brand/product names, technical jargon) and ask me those questions in one batch.
+- Do not modify files until I answer all your questions.
+
+TASK: Find and fix English values inside non-English locale files, and ensure all non-English locales contain real translations (no English fallback).
+
+1) SCOPE & SAFETY
+- Do NOT edit `en` locale files or English UI at all.
+- Work only on non-English locale files.
+- Do NOT rename or delete existing translation keys.
+- When adding new keys (only for hardcoded text), follow the project’s invented naming convention (based on existing keys) and apply it consistently to new keys only.
+
+2) DETECTION: Find Wrong English Values
+- For every non-English locale file, detect keys whose value is incorrectly English by BOTH:
+  a) exact-match with the `en` master value, OR
+  b) language-detection classifying the value as English (use a language-detection lib such as `franc`/`cld` or a reliable heuristic).
+- Produce a list of all such keys grouped by locale and file before making changes.
+
+3) TRANSLATION ACTION
+- For each detected key in a non-English locale:
+  a) Replace the English value with a proper translation into that language.
+  b) Prefer a correct, natural translation. If literal translation would be awkward, prefer a **clear, simple localized phrasing** that fits the UI.
+  c) If translation is ambiguous or requires domain knowledge (technical acronyms, product names), pause and include that item in your upfront questions (do not guess).
+  d) If a translation cannot be produced for a key after attempts, set the locale value to the **translation key itself** (never English). Flag the key in the final report as "placeholder".
+
+4) MACHINE TRANSLATION RULES
+- You may use machine translation to fill large numbers of entries, but:
+  - Mark machine-translated entries in your **report** (do NOT change the UI to indicate machine translation).
+  - Prefer context-aware translations (use surrounding text when available).
+  - Wherever possible, run a quick sanity-check and shorten/adjust machine output for readability in UI (no extremely long phrases that break layout).
+- All machine-translated values must be reviewed later (flagged in the report as "MT").
+
+5) IMMEDIATE SYNCHRONIZATION
+- When you create new keys (for hardcoded UI strings), add that key **immediately** to **all non-English locale files** with real translations (or placeholder key if no translation possible).
+- Never leave a newly added key untranslated in any non-English locale.
+
+6) VALIDATION & BUILD
+- After applying translations:
+  - Run `npm run i18n:validate` (or the repo's i18n validation script) to confirm all locale files have identical key sets.
+  - Run `npm run build` and fix any build/i18n errors.
+  - Validate language switching and Arabic RTL UI still work.
+- If any `en` file or English UI is accidentally modified, immediately revert that change and fail the run; notify me.
+
+7) REPORTING (MANDATORY)
+- Before changes: submit the list of ambiguous terms you need clarification on.
+- After changes (deliverables):
+  - CSV/JSON listing every key changed, the file path, original English value, new translated value, and whether translation was machine-generated.
+  - A list of keys left as placeholders (translation key used), with reason.
+  - A list of files deleted during cleanup (if any) with reasons.
+  - Confirmation that `i18n:validate` passed and `npm run build` succeeded.
+  - Screenshots (desktop + mobile) for a sample of pages showing the updated non-English UI (include Arabic RTL screenshots).
+
+8) RULES SUMMARY (must be enforced)
+- Never use English as fallback text in non-English files.
+- Never rename existing keys.
+- Ask all clarification questions up-front; wait for answers before edits.
+- If you detect ambiguous domain terms, add them to the upfront question list instead of guessing.
+- Work only after answers are provided; continue until i18n validation + build + re-scan pass with zero issues.
+
+Begin by scanning all non-English locale files, detect English-valued keys (per rule 2), and post the ambiguous-items question list and the detection report for my review. Do not modify files yet.
