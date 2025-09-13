@@ -791,6 +791,138 @@
         "easyInstallation": "Instalación Fácil",
         "maintenanceFree": "Libre de Mantenimiento"
       }
+    },
+    "automation": {
+      "fullDescription": "Sistemas avanzados de automatización y control incluyendo PLCs, HMIs, soluciones SCADA y dispositivos de comunicación industrial.",
+      "specifications": {
+        "ioCapacity": "Capacidad de E/S: 16 a 2048 puntos",
+        "communicationProtocols": "Comunicación: Ethernet, Profibus, Modbus",
+        "programmingStandards": "Programación: Compatible con IEC 61131-3",
+        "operatingTemperature": "Temperatura de operación: 0°C a +60°C",
+        "redundancyOptions": "Opciones de redundancia disponibles"
+      },
+      "applications": {
+        "manufacturingAutomation": "Automatización de Manufactura",
+        "processControl": "Control de Procesos",
+        "buildingManagement": "Gestión de Edificios",
+        "machineControl": "Control de Máquinas"
+      },
+      "features": {
+        "flexibleProgramming": "Programación Flexible",
+        "scalableArchitecture": "Arquitectura Escalable",
+        "diagnosticTools": "Herramientas de Diagnóstico",
+        "remoteMonitoring": "Monitoreo Remoto"
+      }
+    },
+    "measurement": {
+      "fullDescription": "Medidores digitales avanzados, analizadores y equipos de calibración para medición y monitoreo preciso de parámetros eléctricos y de proceso.",
+      "specifications": {
+        "accuracyClass": "Clase de precisión: 0.1 a 1.0",
+        "displayType": "Pantalla: LCD/LED digital",
+        "communicationOptions": "Comunicación: RS485, Ethernet, Inalámbrico",
+        "dataLogging": "Capacidad de registro de datos",
+        "multipleParameter": "Medición de múltiples parámetros"
+      },
+      "applications": {
+        "powerQualityAnalysis": "Análisis de Calidad de Energía",
+        "energyManagement": "Gestión de Energía",
+        "processMonitoring": "Monitoreo de Procesos",
+        "complianceMeasurement": "Medición de Cumplimiento"
+      },
+      "features": {
+        "realTimeMonitoring": "Monitoreo en Tiempo Real",
+        "dataAnalytics": "Análisis de Datos",
+        "alarmManagement": "Gestión de Alarmas",
+        "remoteAccess": "Acceso Remoto"
+      }
+    },
+    "solar": {
+      "fullDescription": "Soluciones completas de energía solar incluyendo paneles, inversores, sistemas de monitoreo y equipos de conexión a red para generación de energía sostenible.",
+      "specifications": {
+        "panelEfficiency": "Eficiencia del panel: 19-22%",
+        "powerRange": "Rango de potencia: 300W a 500W por panel",
+        "inverterEfficiency": "Eficiencia del inversor: >98%",
+        "warranty": "Garantía de 25 años en paneles",
+        "gridOptions": "Soluciones conectadas a red y aisladas"
+      },
+      "applications": {
+        "rooftopSolar": "Solar de Azotea",
+        "groundMountSystems": "Sistemas de Montaje en Suelo",
+        "solarFarms": "Granjas Solares",
+        "hybridSystems": "Sistemas Híbridos"
+      },
+      "features": {
+        "highEfficiency": "Alta Eficiencia",
+        "weatherResistant": "Resistente al Clima",
+        "smartMonitoring": "Monitoreo Inteligente",
+        "gridSynchronization": "Sincronización de Red"
+      }
+    },
+    "safety": {
+      "fullDescription": "Equipos completos de seguridad y protección incluyendo interruptores automáticos, relés de seguridad, sistemas de parada de emergencia y dispositivos protectivos.",
+      "specifications": {
+        "breakingCapacity": "Capacidad de ruptura: 6kA a 100kA",
+        "safetyIntegrityLevel": "Nivel de integridad de seguridad: SIL 2/3",
+        "responseTime": "Tiempo de respuesta: <10ms",
+        "multipleProtectionFunctions": "Múltiples funciones de protección",
+        "arcFaultProtection": "Protección contra fallas de arco disponible"
+      },
+      "applications": {
+        "personnelSafety": "Seguridad del Personal",
+        "equipmentProtection": "Protección de Equipos",
+        "fireSafety": "Seguridad contra Incendios",
+        "emergencySystems": "Sistemas de Emergencia"
+      },
+      "features": {
+        "failSafeOperation": "Operación a Prueba de Fallas",
+        "selfMonitoring": "Automonitoreo",
+        "quickResponse": "Respuesta Rápida",
+        "easyTesting": "Prueba Fácil"
+      }
+    },
+    "pumps": {
+      "fullDescription": "Bombas mecánicas de alta calidad, repuestos y kits de mantenimiento para diversas aplicaciones industriales y comerciales.",
+      "specifications": {
+        "flowRate": "Caudal: 10 LPM a 5000 LPM",
+        "head": "Altura: 10m a 500m",
+        "materials": "Material: Hierro fundido, SS316, Bronce",
+        "temperatureRange": "Temperatura: -20°C a +180°C",
+        "efficiency": "Eficiencia: hasta 85%"
+      },
+      "applications": {
+        "waterSupply": "Suministro de Agua",
+        "chemicalProcessing": "Procesamiento Químico",
+        "hvacSystems": "Sistemas HVAC",
+        "industrialProcesses": "Procesos Industriales"
+      },
+      "features": {
+        "energyEfficient": "Eficiente en Energía",
+        "corrosionResistant": "Resistente a la Corrosión",
+        "lowMaintenance": "Bajo Mantenimiento",
+        "reliableOperation": "Operación Confiable"
+      }
+    },
+    "tools": {
+      "fullDescription": "Herramientas industriales de grado profesional, aparejos y equipos de mantenimiento para diversas aplicaciones de ingeniería y mantenimiento.",
+      "specifications": {
+        "material": "Material: Acero/aleación de alta calidad",
+        "precision": "Precisión: ±0.1mm de exactitud",
+        "operatingRange": "Rango de operación: Varios tamaños",
+        "ergonomicDesign": "Diseño ergonómico",
+        "certifiedStandards": "Certificado según estándares internacionales"
+      },
+      "applications": {
+        "maintenanceWork": "Trabajo de Mantenimiento",
+        "installation": "Instalación",
+        "calibration": "Calibración",
+        "testingCommissioning": "Pruebas y Puesta en Marcha"
+      },
+      "features": {
+        "durableConstruction": "Construcción Durable",
+        "ergonomicDesign": "Diseño Ergonómico",
+        "precisionEngineering": "Ingeniería de Precisión",
+        "multiPurposeUse": "Uso Multifuncional"
+      }
     }
   }
 }

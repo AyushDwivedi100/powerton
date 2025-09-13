@@ -791,6 +791,138 @@
         "easyInstallation": "تركيب سهل",
         "maintenanceFree": "خالي من الصيانة"
       }
+    },
+    "automation": {
+      "fullDescription": "أنظمة أتمتة وتحكم متطورة تشمل أجهزة PLC وHMI وحلول SCADA وأجهزة الاتصال الصناعية.",
+      "specifications": {
+        "ioCapacity": "سعة الإدخال/الإخراج: 16 إلى 2048 نقطة",
+        "communicationProtocols": "الاتصال: Ethernet, Profibus, Modbus",
+        "programmingStandards": "البرمجة: متوافق مع IEC 61131-3",
+        "operatingTemperature": "درجة حرارة التشغيل: 0°م إلى +60°م",
+        "redundancyOptions": "خيارات التكرار متاحة"
+      },
+      "applications": {
+        "manufacturingAutomation": "أتمتة التصنيع",
+        "processControl": "التحكم في العمليات",
+        "buildingManagement": "إدارة المباني",
+        "machineControl": "التحكم في الآلات"
+      },
+      "features": {
+        "flexibleProgramming": "برمجة مرنة",
+        "scalableArchitecture": "هندسة قابلة للتوسع",
+        "diagnosticTools": "أدوات التشخيص",
+        "remoteMonitoring": "المراقبة عن بُعد"
+      }
+    },
+    "measurement": {
+      "fullDescription": "أجهزة القياس الرقمية المتطورة وأجهزة التحليل ومعدات المعايرة للقياس والمراقبة الدقيقة للمعاملات الكهربائية والعمليات.",
+      "specifications": {
+        "accuracyClass": "فئة الدقة: 0.1 إلى 1.0",
+        "displayType": "الشاشة: LCD/LED رقمية",
+        "communicationOptions": "الاتصال: RS485, Ethernet, اللاسلكي",
+        "dataLogging": "إمكانية تسجيل البيانات",
+        "multipleParameter": "قياس معاملات متعددة"
+      },
+      "applications": {
+        "powerQualityAnalysis": "تحليل جودة الطاقة",
+        "energyManagement": "إدارة الطاقة",
+        "processMonitoring": "مراقبة العمليات",
+        "complianceMeasurement": "قياس الامتثال"
+      },
+      "features": {
+        "realTimeMonitoring": "المراقبة في الوقت الفعلي",
+        "dataAnalytics": "تحليل البيانات",
+        "alarmManagement": "إدارة التنبيهات",
+        "remoteAccess": "الوصول عن بُعد"
+      }
+    },
+    "solar": {
+      "fullDescription": "حلول الطاقة الشمسية الكاملة تشمل الألواح والعاكسات وأنظمة المراقبة ومعدات ربط الشبكة لتوليد الطاقة المستدامة.",
+      "specifications": {
+        "panelEfficiency": "كفاءة اللوح: 19-22%",
+        "powerRange": "نطاق الطاقة: 300W إلى 500W لكل لوح",
+        "inverterEfficiency": "كفاءة العاكس: >98%",
+        "warranty": "ضمان 25 سنة على الألواح",
+        "gridOptions": "حلول ربط الشبكة ومنفصلة عن الشبكة"
+      },
+      "applications": {
+        "rooftopSolar": "الطاقة الشمسية للأسطح",
+        "groundMountSystems": "أنظمة التركيب الأرضي",
+        "solarFarms": "مزارع الطاقة الشمسية",
+        "hybridSystems": "الأنظمة الهجينة"
+      },
+      "features": {
+        "highEfficiency": "كفاءة عالية",
+        "weatherResistant": "مقاوم للطقس",
+        "smartMonitoring": "مراقبة ذكية",
+        "gridSynchronization": "مزامنة الشبكة"
+      }
+    },
+    "safety": {
+      "fullDescription": "معدات السلامة والحماية الشاملة تشمل قواطع الدوائر ومرحلات السلامة وأنظمة التوقف الطارئ والأجهزة الوقائية.",
+      "specifications": {
+        "breakingCapacity": "قدرة القطع: 6kA إلى 100kA",
+        "safetyIntegrityLevel": "مستوى سلامة النظام: SIL 2/3",
+        "responseTime": "وقت الاستجابة: <10ms",
+        "multipleProtectionFunctions": "وظائف حماية متعددة",
+        "arcFaultProtection": "حماية من أخطاء القوس متاحة"
+      },
+      "applications": {
+        "personnelSafety": "سلامة الأفراد",
+        "equipmentProtection": "حماية المعدات",
+        "fireSafety": "سلامة الحريق",
+        "emergencySystems": "أنظمة الطوارئ"
+      },
+      "features": {
+        "failSafeOperation": "تشغيل آمن من الأعطال",
+        "selfMonitoring": "مراقبة ذاتية",
+        "quickResponse": "استجابة سريعة",
+        "easyTesting": "اختبار سهل"
+      }
+    },
+    "pumps": {
+      "fullDescription": "مضخات ميكانيكية عالية الجودة وقطع غيار ومجموعات صيانة لمختلف التطبيقات الصناعية والتجارية.",
+      "specifications": {
+        "flowRate": "معدل التدفق: 10 LPM إلى 5000 LPM",
+        "head": "الارتفاع: 10m إلى 500m",
+        "materials": "المواد: حديد مصبوب، SS316، برونز",
+        "temperatureRange": "درجة الحرارة: -20°م إلى +180°م",
+        "efficiency": "الكفاءة: حتى 85%"
+      },
+      "applications": {
+        "waterSupply": "إمداد المياه",
+        "chemicalProcessing": "المعالجة الكيميائية",
+        "hvacSystems": "أنظمة HVAC",
+        "industrialProcesses": "العمليات الصناعية"
+      },
+      "features": {
+        "energyEfficient": "موفر للطاقة",
+        "corrosionResistant": "مقاوم للتآكل",
+        "lowMaintenance": "صيانة قليلة",
+        "reliableOperation": "تشغيل موثوق"
+      }
+    },
+    "tools": {
+      "fullDescription": "أدوات صناعية ومعدات صيانة احترافية الجودة لمختلف تطبيقات الهندسة والصيانة.",
+      "specifications": {
+        "material": "المواد: فولاذ/سبائك عالية الجودة",
+        "precision": "الدقة: ±0.1mm دقة",
+        "operatingRange": "نطاق التشغيل: أحجام مختلفة",
+        "ergonomicDesign": "تصميم مريح",
+        "certifiedStandards": "معتمد للمعايير الدولية"
+      },
+      "applications": {
+        "maintenanceWork": "أعمال الصيانة",
+        "installation": "التركيب",
+        "calibration": "المعايرة",
+        "testingCommissioning": "الاختبار والتشغيل"
+      },
+      "features": {
+        "durableConstruction": "بناء متين",
+        "ergonomicDesign": "تصميم مريح",
+        "precisionEngineering": "هندسة دقيقة",
+        "multiPurposeUse": "استخدام متعدد الأغراض"
+      }
     }
   }
 }
