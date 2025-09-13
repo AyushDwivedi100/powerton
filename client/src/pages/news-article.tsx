@@ -92,7 +92,7 @@ export default function NewsArticle() {
           <div className="mb-8">
             <Link href="/news">
               <Button variant="ghost" className="text-primary hover:text-primary/80">
-                <ArrowLeft className="w-4 h-4 mr-2" />
+                <ArrowLeft className="w-4 h-4 me-2 rtl-flip" />
                 {t('news.article.backToNews')}
               </Button>
             </Link>
@@ -124,8 +124,8 @@ export default function NewsArticle() {
                 <span>{formatDate(article.date)}</span>
               </div>
               <Button variant="ghost" size="sm" className="p-0 h-auto">
-                <Share2 className="w-4 h-4 mr-1" />
-                {t('news.article.share')}
+                <Share2 className="w-4 h-4 me-1 rtl-flip" />
+                <span className="text-wrap-safe">{t('news.article.share')}</span>
               </Button>
             </div>
             

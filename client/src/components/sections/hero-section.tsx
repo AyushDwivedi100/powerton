@@ -114,8 +114,8 @@ export default function HeroSection() {
                   className="bg-secondary hover:bg-primary text-secondary-foreground hover:text-primary-foreground w-full sm:w-auto text-xs sm:text-sm md:text-base lg:text-lg px-3 sm:px-4 md:px-6 lg:px-8 py-2 sm:py-3 md:py-4 transition-all duration-200"
                   aria-label={t('common:aria.exploreServices')}
                 >
-                  {t('pages:home.hero.buttons.exploreServices')}
-                  <ArrowRight className="ml-2 w-4 h-4 sm:w-5 sm:h-5" aria-hidden="true" />
+                  <span className="text-wrap-safe">{t('pages:home.hero.buttons.exploreServices')}</span>
+                  <ArrowRight className="ms-2 w-4 h-4 sm:w-5 sm:h-5 rtl-flip" aria-hidden="true" />
                 </Button>
               </Link>
             </motion.div>
@@ -126,7 +126,7 @@ export default function HeroSection() {
                   className="w-full sm:w-auto text-xs sm:text-sm md:text-base lg:text-lg px-3 sm:px-4 md:px-6 lg:px-8 py-2 sm:py-3 md:py-4 border-border text-white hover:bg-white hover:text-primary dark:border-border dark:text-white dark:hover:bg-white dark:hover:text-primary transition-all duration-300 bg-white/10"
                   aria-label={t('common:aria.requestConsultation')}
                 >
-                  {t('pages:home.hero.buttons.requestConsultation')}
+                  <span className="text-wrap-safe">{t('pages:home.hero.buttons.requestConsultation')}</span>
                 </Button>
               </Link>
             </motion.div>
@@ -139,15 +139,15 @@ export default function HeroSection() {
             role="list"
             aria-label={t('common:aria.companyHighlights')}
           >
-            <div className="flex items-center space-x-3" role="listitem">
+            <div className="flex items-center gap-3" role="listitem">
               <CheckCircle className="w-6 h-6 text-secondary flex-shrink-0" aria-hidden="true" />
               <span className="text-lg text-white">{t('pages:home.hero.features.experience')}</span>
             </div>
-            <div className="flex items-center space-x-3" role="listitem">
+            <div className="flex items-center gap-3" role="listitem">
               <CheckCircle className="w-6 h-6 text-secondary flex-shrink-0" aria-hidden="true" />
               <span className="text-lg text-white">{t('pages:home.hero.features.support')}</span>
             </div>
-            <div className="flex items-center space-x-3" role="listitem">
+            <div className="flex items-center gap-3" role="listitem">
               <CheckCircle className="w-6 h-6 text-secondary flex-shrink-0" aria-hidden="true" />
               <span className="text-lg text-white">{t('pages:home.hero.features.service')}</span>
             </div>

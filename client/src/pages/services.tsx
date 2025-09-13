@@ -350,7 +350,7 @@ export default function Services() {
                     size="lg"
                     className="bg-foreground text-background border-border hover:bg-primary/90 hover:scale-105 transition-all duration-300"
                   >
-                    {t('common:buttons.getQuote')} <ArrowRight className="ml-2 h-5 w-5 " />
+                    <span className="text-wrap-safe">{t('common:buttons.getQuote')}</span> <ArrowRight className="me-2 h-5 w-5 rtl-flip" />
                   </Button>
                 </Link>
                 <Link href="/contact">
@@ -359,8 +359,8 @@ export default function Services() {
                     variant="outline"
                     className="hover:scale-105 transition-all duration-300"
                   >
-                    <MessageSquare className="mr-2 h-5 w-5" />
-                    {t('common:buttons.contactUs')}
+                    <MessageSquare className="me-2 h-5 w-5 rtl-flip" />
+                    <span className="text-wrap-safe">{t('common:buttons.contactUs')}</span>
                   </Button>
                 </Link>
                 <Link href={`tel:${companyInfo.phone}`}>
@@ -369,8 +369,8 @@ export default function Services() {
                     variant="secondary"
                     className="hover:scale-105 transition-all duration-300"
                   >
-                    <Phone className="mr-2 h-5 w-5" />
-                    {t('common:buttons.callNow')}
+                    <Phone className="me-2 h-5 w-5 rtl-flip" />
+                    <span className="text-wrap-safe">{t('common:buttons.callNow')}</span>
                   </Button>
                 </Link>
               </div>

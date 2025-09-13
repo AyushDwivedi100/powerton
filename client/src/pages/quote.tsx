@@ -525,8 +525,8 @@ export default function Quote() {
                         onClick={() => setSelectedTab("quote")}
                         className="bg-primary hover:bg-primary/90 text-primary-foreground"
                       >
-                        {t('pages:quote.calculator.getQuoteNow', 'Get Quote Now')}
-                        <ArrowRight className="w-4 h-4 ml-2" />
+                        <span className="text-wrap-safe">{t('pages:quote.calculator.getQuoteNow', 'Get Quote Now')}</span>
+                        <ArrowRight className="w-4 h-4 me-2 rtl-flip" />
                       </Button>
                     </div>
                   </div>
