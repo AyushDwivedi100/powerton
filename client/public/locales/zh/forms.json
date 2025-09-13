@@ -109,9 +109,9 @@
       "selectIndustry": "选择行业",
       "selectProjectScale": "选择项目规模",
       "selectBudget": "选择预算范围（可选）",
-      "detailedRequirements": "Please provide detailed specifications including:\n- Technical requirements and standards\n- Equipment specifications and quantities\n- Performance requirements\n- Environmental conditions\n- Compliance requirements\n- Any special considerations...",
-      "additionalRequirements": "Any additional requirements, special conditions, or questions...",
-      "preferredBrands": "e.g., Siemens, Allen-Bradley, Schneider..."
+      "detailedRequirements": "\u8bf7\u63d0\u4f9b\u8be6\u7ec6\u89c4\u683c\uff0c\u5305\u62ec\uff1a\n- \u6280\u672f\u8981\u6c42\u548c\u6807\u51c6\n- \u8bbe\u5907\u89c4\u683c\u548c\u6570\u91cf\n- \u6027\u80fd\u8981\u6c42\n- \u73af\u5883\u6761\u4ef6\n- \u5408\u89c4\u8981\u6c42\n- \u4efb\u4f55\u7279\u6b8a\u8003\u8651...",
+      "additionalRequirements": "\u4efb\u4f55\u9644\u52a0\u8981\u6c42\u3001\u7279\u6b8a\u6761\u4ef6\u6216\u95ee\u9898...",
+      "preferredBrands": "\u4f8b\u5982\uff1aSiemens\u3001Allen-Bradley\u3001Schneider..."
     },
     "labels": {
       "industryType": "行业类型",
@@ -129,38 +129,38 @@
       "budgetRange": "预算范围"
     },
     "sections": {
-      "requiredServices": "Required Services *",
-      "contactInfo": "Contact Information",
-      "technicalSpecifications": "Technical Specifications"
+      "requiredServices": "所需服务 *",
+      "contactInfo": "联系信息",
+      "technicalSpecifications": "技术规格"
     },
     "error": {
-      "title": "Quote submission failed",
-      "description": "For immediate assistance: {{phone}} or email: {{email}}"
+      "title": "报价提交失败",
+      "description": "如需立即协助：{{phone}} 或邮箱：{{email}}"
     },
     "submitting": "提交报价请求中...",
     "industries": {
-      "manufacturing": "Manufacturing",
-      "powerGeneration": "Power Generation",
-      "waterTreatment": "Water Treatment",
-      "foodProcessing": "Food Processing",
-      "pharmaceutical": "Pharmaceutical",
-      "chemical": "Chemical",
-      "oilGas": "Oil & Gas",
-      "renewableEnergy": "Renewable Energy",
-      "infrastructure": "Infrastructure",
-      "other": "Other"
+      "manufacturing": "制造业",
+      "powerGeneration": "发电",
+      "waterTreatment": "水处理",
+      "foodProcessing": "食品加工",
+      "pharmaceutical": "制药",
+      "chemical": "化学工业",
+      "oilGas": "石油天然气",
+      "renewableEnergy": "可再生能源",
+      "infrastructure": "基础设施",
+      "other": "其他"
     },
     "projectScale": {
-      "small": "Small Scale (< 10 I/O points)",
-      "medium": "Medium Scale (10-100 I/O points)",
-      "large": "Large Scale (100-500 I/O points)",
-      "enterprise": "Enterprise (500+ I/O points)"
+      "small": "小型项目（< 10个 I/O 点）",
+      "medium": "中型项目（10-100个 I/O 点）",
+      "large": "大型项目（100-500个 I/O 点）",
+      "enterprise": "企业级（500+ I/O 点）"
     },
     "buttons": {
-      "getProfessionalQuote": "Get Professional Quote",
+      "getProfessionalQuote": "获取专业报价",
       "submitRequest": "提交报价请求",
-      "callUrgent": "Call for Urgent Requirements",
-      "emailRequirements": "Email Requirements"
+      "callUrgent": "紧急需求请致电",
+      "emailRequirements": "邮件发送需求"
     },
     "process": {
       "heading": "What happens next?",

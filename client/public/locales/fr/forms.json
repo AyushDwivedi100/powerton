@@ -106,74 +106,74 @@
       "description": "Notre équipe d'ingénierie examinera vos besoins et répondra sous 24 à 48 heures."
     },
     "placeholders": {
-      "selectIndustry": "Select industry",
-      "selectProjectScale": "Select project scale",
-      "selectBudget": "Select budget range (optional)",
-      "detailedRequirements": "Please provide detailed specifications including:\n- Technical requirements and standards\n- Equipment specifications and quantities\n- Performance requirements\n- Environmental conditions\n- Compliance requirements\n- Any special considerations...",
-      "additionalRequirements": "Any additional requirements, special conditions, or questions...",
-      "preferredBrands": "e.g., Siemens, Allen-Bradley, Schneider..."
+      "selectIndustry": "Sélectionner le secteur",
+      "selectProjectScale": "Sélectionner l'échelle du projet",
+      "selectBudget": "Sélectionner la fourchette budgétaire (optionnel)",
+      "detailedRequirements": "Veuillez fournir des sp\u00e9cifications d\u00e9taill\u00e9es incluant :\n- Exigences techniques et normes\n- Sp\u00e9cifications et quantit\u00e9s d'\u00e9quipement\n- Exigences de performance\n- Conditions environnementales\n- Exigences de conformit\u00e9\n- Toute consid\u00e9ration sp\u00e9ciale...",
+      "additionalRequirements": "Toute exigence suppl\u00e9mentaire, condition sp\u00e9ciale ou question...",
+      "preferredBrands": "p. ex., Siemens, Allen-Bradley, Schneider..."
     },
     "labels": {
-      "industryType": "Industry Type",
-      "projectScale": "Project Scale",
-      "approximateBudget": "Approximate Budget",
-      "detailedRequirements": "Detailed Requirements *",
-      "preferredBrands": "Preferred Brands/Standards",
-      "additionalRequirements": "Additional Requirements",
-      "projectTitle": "Project Title *",
-      "projectType": "Project Type *",
-      "expectedTimeline": "Expected Timeline *",
-      "phoneNumber": "Phone Number *",
-      "companyName": "Company Name *",
-      "projectInformation": "Project Information",
-      "budgetRange": "Budget Range"
+      "industryType": "Type de secteur",
+      "projectScale": "Échelle du projet",
+      "approximateBudget": "Budget approximatif",
+      "detailedRequirements": "Exigences détaillées *",
+      "preferredBrands": "Marques/Normes préférées",
+      "additionalRequirements": "Exigences supplémentaires",
+      "projectTitle": "Titre du projet *",
+      "projectType": "Type de projet *",
+      "expectedTimeline": "Calendrier prévu *",
+      "phoneNumber": "Numéro de téléphone *",
+      "companyName": "Nom de l'entreprise *",
+      "projectInformation": "Informations sur le projet",
+      "budgetRange": "Fourchette budgétaire"
     },
     "sections": {
-      "requiredServices": "Required Services *",
-      "contactInfo": "Contact Information",
-      "technicalSpecifications": "Technical Specifications"
+      "requiredServices": "Services requis *",
+      "contactInfo": "Informations de contact",
+      "technicalSpecifications": "Spécifications techniques"
     },
     "error": {
-      "title": "Quote submission failed",
-      "description": "For immediate assistance: {{phone}} or email: {{email}}"
+      "title": "Échec de l'envoi du devis",
+      "description": "Pour une assistance immédiate : {{phone}} ou e-mail : {{email}}"
     },
-    "submitting": "Submitting Quote Request...",
+    "submitting": "Envoi de la demande de devis en cours...",
     "industries": {
-      "manufacturing": "Manufacturing",
-      "powerGeneration": "Power Generation",
-      "waterTreatment": "Water Treatment",
-      "foodProcessing": "Food Processing",
-      "pharmaceutical": "Pharmaceutical",
-      "chemical": "Chemical",
-      "oilGas": "Oil & Gas",
-      "renewableEnergy": "Renewable Energy",
+      "manufacturing": "Fabrication",
+      "powerGeneration": "Production d'énergie",
+      "waterTreatment": "Traitement de l'eau",
+      "foodProcessing": "Transformation alimentaire",
+      "pharmaceutical": "Pharmaceutique",
+      "chemical": "Chimique",
+      "oilGas": "Pétrole et gaz",
+      "renewableEnergy": "Énergie renouvelable",
       "infrastructure": "Infrastructure",
-      "other": "Other"
+      "other": "Autre"
     },
     "projectScale": {
-      "small": "Small Scale (< 10 I/O points)",
-      "medium": "Medium Scale (10-100 I/O points)",
-      "large": "Large Scale (100-500 I/O points)",
-      "enterprise": "Enterprise (500+ I/O points)"
+      "small": "Petite échelle (< 10 points E/S)",
+      "medium": "Échelle moyenne (10-100 points E/S)",
+      "large": "Grande échelle (100-500 points E/S)",
+      "enterprise": "Entreprise (500+ points E/S)"
     },
     "buttons": {
       "getProfessionalQuote": "Obtenir un devis professionnel",
-      "submitRequest": "Submit Quote Request",
+      "submitRequest": "Soumettre la demande de devis",
       "callUrgent": "Appeler pour une demande urgente",
       "emailRequirements": "Envoyer les exigences par e-mail"
     },
     "process": {
-      "heading": "What happens next?",
+      "heading": "Que se passe-t-il ensuite ?",
       "steps": {
-        "technicalReview": "Technical review within 24 hours",
-        "detailedProposal": "Detailed proposal with specifications",
-        "costBreakdown": "Cost breakdown and timeline",
-        "followUpCall": "Follow-up consultation call"
+        "technicalReview": "Examen technique sous 24 heures",
+        "detailedProposal": "Proposition détaillée avec spécifications",
+        "costBreakdown": "Répartition des coûts et calendrier",
+        "followUpCall": "Appel de consultation de suivi"
       }
     },
     "assistance": {
-      "heading": "Need immediate assistance?",
-      "technicalTeam": "+91-94627-71662 (Technical Team)",
+      "heading": "Besoin d'aide immédiate ?",
+      "technicalTeam": "+91-94627-71662 (Équipe technique)",
       "email": "info@powertonengineering.com"
     }
   },
