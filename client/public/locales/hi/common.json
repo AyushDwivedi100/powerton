@@ -181,7 +181,7 @@
     "fastDelivery": "तेज डिलीवरी"
   },
   "tags": {
-    "rd": "R&D"
+    "rd": "अनुसंधान एवं विकास (R&D)"
   },
   "headings": {
     "bldcCeilingFanModels": "बीएलडीसी सीलिंग फैन मॉडल",
@@ -397,95 +397,95 @@
   },
   "projects": {
     "thermal-plant": {
-      "title": "Thermal Power Plant Automation",
-      "description": "Complete automation solution for 250MW thermal power plant including control panels, SCADA systems, and safety interlocks.",
-      "location": "Uttar Pradesh",
-      "duration": "12 months",
+      "title": "थर्मल पावर प्लांट ऑटोमेशन",
+      "description": "250MW थर्मल पावर प्लांट के लिए नियंत्रण पैनल, स्काडा सिस्टम और सुरक्षा इंटरलॉक के साथ संपूर्ण ऑटोमेशन समाधान।",
+      "location": "उत्तर प्रदेश",
+      "duration": "12 महीने",
       "highlights": {
-        "scada": "SCADA Implementation",
-        "safety": "Safety Systems",
-        "control": "Control Panels",
-        "monitoring": "Performance Monitoring"
+        "scada": "स्काडा कार्यान्वयन",
+        "safety": "सुरक्षा प्रणालियां",
+        "control": "नियंत्रण पैनल",
+        "monitoring": "प्रदर्शन निगरानी"
       }
     },
     "pharma-plant": {
-      "title": "Pharmaceutical Plant Control System",
-      "description": "Advanced process control and monitoring system for pharmaceutical manufacturing with FDA compliance and data integrity features.",
-      "location": "Maharashtra",
-      "duration": "8 months",
+      "title": "फार्मास्यूटिकल प्लांट नियंत्रण प्रणाली",
+      "description": "FDA अनुपालन और डेटा अखंडता सुविधाओं के साथ फार्मास्यूटिकल विनिर्माण के लिए उन्नत प्रक्रिया नियंत्रण और निगरानी प्रणाली।",
+      "location": "महाराष्ट्र",
+      "duration": "8 महीने",
       "highlights": {
-        "fda": "FDA Compliance",
-        "data": "Data Integrity",
-        "process": "Process Control",
-        "quality": "Quality Monitoring"
+        "fda": "FDA अनुपालन",
+        "data": "डेटा अखंडता",
+        "process": "प्रक्रिया नियंत्रण",
+        "quality": "गुणवत्ता निगरानी"
       }
     },
     "solar-plant": {
       "title": "10MW Solar Power Installation",
-      "description": "Complete design and installation of grid-connected solar power plant with monitoring systems and grid synchronization equipment.",
-      "location": "Rajasthan",
-      "duration": "6 months",
+      "description": "निगरानी प्रणालियों और ग्रिड सिंक्रोनाइजेशन उपकरण के साथ ग्रिड-कनेक्टेड सौर पावर प्लांट का संपूर्ण डिजाइन और स्थापना।",
+      "location": "राजस्थान",
+      "duration": "6 महीने",
       "highlights": {
-        "grid": "Grid Connection",
-        "monitoring": "Monitoring Systems",
-        "optimization": "Performance Optimization",
-        "maintenance": "Maintenance Planning"
+        "grid": "ग्रिड कनेक्शन",
+        "monitoring": "निगरानी प्रणालियां",
+        "optimization": "प्रदर्शन अनुकूलन",
+        "maintenance": "रखरखाव योजना"
       }
     },
     "water-treatment": {
-      "title": "Municipal Water Treatment Automation",
-      "description": "Automated control system for water treatment plant serving 500,000 residents with real-time monitoring and quality control.",
-      "location": "West Bengal",
-      "duration": "10 months",
+      "title": "नगरपालिका जल उपचार स्वचालन",
+      "description": "रियल-टाइम निगरानी और गुणवत्ता नियंत्रण के साथ 500,000 निवासियों की सेवा करने वाले जल उपचार संयंत्र के लिए स्वचालित नियंत्रण प्रणाली।",
+      "location": "पश्चिम बंगाल",
+      "duration": "10 महीने",
       "highlights": {
-        "monitoring": "Real-time Monitoring",
-        "quality": "Quality Control",
-        "automation": "Automated Operations",
-        "remote": "Remote Management"
+        "monitoring": "रियल-टाइम निगरानी",
+        "quality": "गुणवत्ता नियंत्रण",
+        "automation": "स्वचालित संचालन",
+        "remote": "दूरस्थ प्रबंधन"
       }
     },
     "industrial-automation-demo": {
-      "title": "Demo: Industrial Automation System",
-      "client": "Future Manufacturing Client",
-      "category": "Process Automation",
-      "description": "Demonstration of complete manufacturing automation capabilities including PLC integration, SCADA systems, and real-time monitoring solutions.",
-      "location": "Project Site TBD",
-      "duration": "12-18 months",
-      "budget": "₹50-75 Lakhs",
-      "status": "Capability Demo",
+      "title": "डेमो: औद्योगिक स्वचालन प्रणाली",
+      "client": "भविष्य का विनिर्माण ग्राहक",
+      "category": "प्रक्रिया स्वचालन",
+      "description": "PLC एकीकरण, SCADA सिस्टम और रियल-टाइम निगरानी समाधान सहित संपूर्ण विनिर्माण स्वचालन क्षमताओं का प्रदर्शन।",
+      "location": "परियोजना स्थल TBD",
+      "duration": "12-18 महीने",
+      "budget": "₹50-75 लाख",
+      "status": "क्षमता प्रदर्शन",
       "technologies": {
-        "plcProgramming": "PLC Programming",
+        "plcProgramming": "PLC प्रोग्रामिंग",
         "scada": "SCADA",
         "hmi": "HMI",
-        "industrialIot": "Industrial IoT"
+        "industrialIot": "औद्योगिक IoT"
       },
       "highlights": {
-        "plcIntegration": "PLC Integration",
-        "scadaSystems": "SCADA Systems",
-        "realtimeMonitoring": "Real-time Monitoring",
-        "processOptimization": "Process Optimization"
+        "plcIntegration": "PLC एकीकरण",
+        "scadaSystems": "SCADA सिस्टम",
+        "realtimeMonitoring": "रियल-टाइम निगरानी",
+        "processOptimization": "प्रक्रिया अनुकूलन"
       }
     },
     "power-distribution-demo": {
-      "title": "Example: Power Distribution Control",
-      "client": "Future Power Partner",
-      "category": "Power Systems",
-      "description": "Example power distribution system showcasing automated load balancing and remote monitoring capabilities for power generation facilities.",
-      "location": "Various Locations",
-      "duration": "10-15 months",
-      "budget": "₹1-2 Crores",
-      "status": "Capability Demo",
+      "title": "उदाहरण: पावर वितरण नियंत्रण",
+      "client": "भविष्य का पावर पार्टनर",
+      "category": "पावर सिस्टम",
+      "description": "पावर जेनेरेशन सुविधाओं के लिए स्वचालित लोड बैलेंसिंग और दूरस्थ निगरानी क्षमताओं को प्रदर्शित करने वाला उदाहरण पावर वितरण सिस्टम।",
+      "location": "विभिन्न स्थान",
+      "duration": "10-15 महीने",
+      "budget": "₹1-2 करोड़",
+      "status": "क्षमता प्रदर्शन",
       "technologies": {
-        "mccPanels": "MCC Panels",
-        "protectionSystems": "Protection Systems",
-        "energyManagement": "Energy Management",
-        "remoteMonitoring": "Remote Monitoring"
+        "mccPanels": "MCC पैनल",
+        "protectionSystems": "सुरक्षा प्रणाली",
+        "energyManagement": "ऊर्जा प्रबंधन",
+        "remoteMonitoring": "दूरस्थ निगरानी"
       },
       "highlights": {
-        "loadBalancing": "Load Balancing",
-        "protectionSystems": "Protection Systems",
-        "energyManagement": "Energy Management",
-        "remoteControl": "Remote Control"
+        "loadBalancing": "लोड बैलेंसिंग",
+        "protectionSystems": "सुरक्षा प्रणाली",
+        "energyManagement": "ऊर्जा प्रबंधन",
+        "remoteControl": "दूरस्थ नियंत्रण"
       }
     }
   },
@@ -754,6 +754,9 @@
     "quality": "गुणवत्ता",
     "certification": "प्रमाणीकरण"
   },
+  "aria": {
+    "toggleNavigation": "नेविगेशन टॉगल करें"
+  },
   "technicalTerms": {
     "BLDC": "BLDC (ब्रशलेस डीसी मोटर्स)",
     "PLC": "PLC (प्रोग्रामेबल लॉजिक कंट्रोलर)",
@@ -773,20 +776,21 @@
   },
   "ui": {
     "ariaLabels": {
-      "callUs": "Call us at {{phone}}",
-      "goToHomepage": "Go to Powerton Engineering homepage",
-      "followLinkedIn": "Follow Powerton Engineering on LinkedIn",
-      "followTwitter": "Follow Powerton Engineering on X (formerly Twitter)",
-      "followFacebook": "Follow Powerton Engineering on Facebook",
-      "toggleMobileMenu": "Toggle mobile menu",
-      "closeMobileMenu": "Close mobile menu",
-      "openMobileMenu": "Open mobile menu",
-      "emailUs": "Email us at {{email}}"
+      "callUs": "हमें {{phone}} पर कॉल करें",
+      "goToHomepage": "पावरटन इंजीनियरिंग होमपेज पर जाएं",
+      "followLinkedIn": "लिंक्डइन पर पावरटन इंजीनियरिंग को फॉलो करें",
+      "followTwitter": "X (पूर्व में Twitter) पर पावरटन इंजीनियरिंग को फॉलो करें",
+      "followFacebook": "फेसबुक पर पावरटन इंजीनियरिंग को फॉलो करें",
+      "toggleMobileMenu": "मोबाइल मेन्यू टॉगल करें",
+      "closeMobileMenu": "मोबाइल मेन्यू बंद करें",
+      "openMobileMenu": "मोबाइल मेन्यू खोलें",
+      "emailUs": "हमें {{email}} पर ईमेल करें",
+      "openLocation": "स्थान खोलें"
     },
     "altTexts": {
-      "companyLogo": "Powerton Engineering Company Logo",
-      "heroImage": "Industrial automation and electrical engineering solutions",
-      "productImage": "Product image for {{productName}}"
+      "companyLogo": "पावरटन इंजीनियरिंग कंपनी लोगो",
+      "heroImage": "औद्योगिक स्वचालन और विद्युत इंजीनियरिंग समाधान",
+      "productImage": "{{productName}} के लिए उत्पाद छवि"
     }
   }
 }
