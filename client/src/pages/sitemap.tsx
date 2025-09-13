@@ -152,7 +152,7 @@ export default function Sitemap() {
     <Link key={index} href={route.path}>
       <div className="group block p-4 rounded-lg border border-border hover:border-primary/20 hover:bg-accent/50 transition-all duration-200 cursor-pointer">
         <div className="flex items-center gap-4">
-          <ChevronRight className="w-4 h-4 text-muted-foreground group-hover:text-primary group-hover:translate-x-1 transition-all" />
+          <ChevronRight className="w-4 h-4 text-muted-foreground group-hover:text-primary group-hover:translate-x-1 transition-all rtl-flip" />
           <div className="flex-1">
             <h3 className="font-semibold text-foreground group-hover:text-primary transition-colors mb-1">
               {t(`sitemap.pages.${route.title}`, {
