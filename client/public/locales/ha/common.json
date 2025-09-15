@@ -29,7 +29,7 @@
     "backToMeasurementInstruments": "Komawa zuwa Kayan Aikin Auna",
     "backToIndustrialTools": "Komawa zuwa Kayan Aikin Masana'antu",
     "backToAutomationSystems": "Komawa zuwa Tsarin Sarrafa da Gudanarwa",
-    "backToBLDC": "Komawa zuwa Kayayyakin BLDC",
+    "backToBLDC": "Komawa zuwa Kayayyakin Injunan DC marasa goga (BLDC)",
     "backToInstrumentationComponents": "Komawa zuwa Sassan Kayan Aiki",
     "backToSafetyDevices": "Komawa zuwa Kayan Aminci da Kariya",
     "phoneNumbers": "Lambobin Waya"
@@ -67,7 +67,7 @@
     }
   },
   "technicalTerms": {
-    "BLDC": "BLDC (Injunan Lantarki Mai Ci Gaba Ba Tare da Brush Ba)",
+    "BLDC": "BLDC (Injunan DC marasa goga)",
     "PLC": "PLC (Mai Sarrafa Dabaru Mai Iya Shirye-shirye)",
     "SCADA": "SCADA (Sarrafa Kulawa da Tattara Bayanai)",
     "HMI": "HMI (Mu'amalar Mutum da Na'ura)",
@@ -90,7 +90,7 @@
     "downloadCatalog": "Sauke Katalogi",
     "viewDetails": "Duba Cikakkun Bayanai",
     "backTo": "Komawa zuwa {{category}}",
-    "backToBldcProducts": "Komawa zuwa Kayayyakin BLDC",
+    "backToBldcProducts": "Komawa zuwa Kayayyakin Injunan DC marasa goga (BLDC)",
     "backToProducts": "Komawa zuwa Kayayyaki",
     "requestQuote": "Nemi Tsari",
     "expertTeam": "Ƙungiyar Masana",

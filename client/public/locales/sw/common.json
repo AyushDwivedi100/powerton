@@ -29,14 +29,14 @@
     "backToMeasurementInstruments": "Rudi kwenye Vyombo vya Kupima",
     "backToIndustrialTools": "Rudi kwenye Zana za Viwandani",
     "backToAutomationSystems": "Rudi kwenye Mifumo ya Otomatiki na Udhibiti",
-    "backToBLDC": "Rudi kwenye Bidhaa za BLDC",
+    "backToBLDC": "Rudi kwenye Bidhaa za mota za mkondo wa moja kwa moja zisizo na brashi (BLDC)",
     "backToInstrumentationComponents": "Rudi kwenye Vipengele vya Vifaa vya Kupima",
     "backToSafetyDevices": "Rudi kwenye Vifaa vya Usalama na Ulinzi",
     "phoneNumbers": "Nambari za Simu"
   },
   "buttons": {
     "backTo": "Rudi kwenye {{category}}",
-    "backToBldcProducts": "Rudi kwenye Bidhaa za BLDC",
+    "backToBldcProducts": "Rudi kwenye Bidhaa za mota za mkondo wa moja kwa moja zisizo na brashi (BLDC)",
     "backToProducts": "Rudi kwenye Bidhaa",
     "requestQuote": "Omba Bei",
     "expertTeam": "Timu ya Wataalamu",
@@ -191,7 +191,7 @@
     }
   },
   "technicalTerms": {
-    "BLDC": "BLDC (Mita za Sasa Zinazoendelea Bila Brashi)",
+    "BLDC": "BLDC (Mota za mkondo wa moja kwa moja zisizo na brashi)",
     "PLC": "PLC (Kidhibiti cha Mantiki Kinachoweza Kupangwa)",
     "SCADA": "SCADA (Udhibiti wa Usimamizi na Ukusanyaji wa Data)",
     "HMI": "HMI (Kiolesura cha Binadamu na Mashine)",
