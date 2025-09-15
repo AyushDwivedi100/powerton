@@ -19,14 +19,14 @@
     "solar-epc": "सोलर ईपीसी समाधान"
   },
   "durations": {
-    "installation-commissioning": "१-४ सप्ताह",
-    "maintenance-repair": "उसी दिन - १ सप्ताह",
-    "calibration-testing": "२-५ दिन",
+    "installation-commissioning": "1-4 सप्ताह",
+    "maintenance-repair": "उसी दिन - 1 सप्ताह",
+    "calibration-testing": "2-5 दिन",
     "technical-support": "तत्काल - चालू",
-    "custom-solutions": "२-१२ सप्ताह",
-    "consultation-training": "१-५ दिन",
-    "supply-chain-management": "१-७ दिन",
-    "solar-epc": "४-१६ सप्ताह"
+    "custom-solutions": "2-12 सप्ताह",
+    "consultation-training": "1-5 दिन",
+    "supply-chain-management": "1-7 दिन",
+    "solar-epc": "4-16 सप्ताह"
   },
   "features": {
     "installation-commissioning": {
@@ -37,20 +37,20 @@
     },
     "maintenance-repair": {
       "preventive": "निवारक रखरखाव",
-      "emergency": "आपातकालीन मरम्मत (२ घंटे)",
+      "emergency": "आपातकालीन मरम्मत (2 घंटे)",
       "replacement": "घटक प्रतिस्थापन",
       "upgrades": "प्रणाली उन्नयन"
     },
     "calibration-testing": {
       "nabl-certified": "राष्ट्रीय परीक्षण और अंशांकन प्रयोगशाला प्रामाणन बोर्ड प्रमाणित अंशांकन",
-      "accuracy-testing": "±०.२५% सटीकता परीक्षण",
+      "accuracy-testing": "±0.25% सटीकता परीक्षण",
       "compliance": "अनुपालन सत्यापन",
       "certificates": "ट्रेसेबिलिटी प्रमाणपत्र"
     },
     "technical-support": {
-      "24-7-support": "२४/७/३६५ सहायता",
+      "24-7-support": "24/7/365 सहायता",
       "remote-diagnostics": "दूरस्थ निदान",
-      "onsite-response": "४ घंटे स्थल पर प्रतिक्रिया",
+      "onsite-response": "4 घंटे स्थल पर प्रतिक्रिया",
       "emergency-hotline": "आपातकालीन हॉटलाइन"
     },
     "custom-solutions": {
@@ -68,7 +68,7 @@
     "supply-chain-management": {
       "authorized-distributors": "अधिकृत वितरक",
       "genuine-parts": "केवल मूल पुर्ज़े",
-      "warranty": "१-वर्ष की वारंटी",
+      "warranty": "1-वर्ष की वारंटी",
       "express-delivery": "त्वरित वितरण"
     },
     "solar-epc": {
@@ -165,7 +165,7 @@
       "overview": "दबाव, तापमान, प्रवाह उपकरण और नियंत्रण प्रणालियों के लिए राष्ट्रीय परीक्षण और अंशांकन प्रयोगशाला प्रामाणन बोर्ड-प्रमाणित सटीक अंशांकन और परीक्षण सेवाएं जो नियामक अनुपालन और माप सटीकता सुनिश्चित करती हैं।",
       "benefits": [
         "राष्ट्रीय परीक्षण और अंशांकन प्रयोगशाला प्रामाणन बोर्ड प्रमाणित अंशांकन सेवाएं",
-        "±०.२५% की उच्च सटीकता परीक्षण",
+        "±0.25% की उच्च सटीकता परीक्षण",
         "अंतर्राष्ट्रीय मानकों के साथ अनुपालन सत्यापन",
         "पूर्ण ट्रेसेबिलिटी प्रमाणपत्र और प्रलेखन",
         "नियमित अंशांकन कार्यक्रम और निगरानी"
