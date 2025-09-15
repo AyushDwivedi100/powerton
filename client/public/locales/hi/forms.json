@@ -143,43 +143,43 @@
         "label": "ईमेल पता *"
       }
     },
-    "submitting": "Submitting Quote Request...",
+    "submitting": "कोटेशन अनुरोध जमा कर रहे हैं...",
     "buttons": {
-      "getProfessionalQuote": "Get Professional Quote",
-      "submitRequest": "Submit Quote Request",
-      "callUrgent": "Call for Urgent Requirements",
-      "emailRequirements": "Email Requirements"
+      "getProfessionalQuote": "व्यावसायिक कोटेशन प्राप्त करें",
+      "submitRequest": "कोटेशन अनुरोध जमा करें",
+      "callUrgent": "तत्काल आवश्यकताओं के लिए कॉल करें",
+      "emailRequirements": "आवश्यकताएं ईमेल करें"
     },
     "industries": {
-      "manufacturing": "Manufacturing",
-      "powerGeneration": "Power Generation",
-      "waterTreatment": "Water Treatment",
-      "foodProcessing": "Food Processing",
-      "pharmaceutical": "Pharmaceutical",
-      "chemical": "Chemical",
-      "renewableEnergy": "Renewable Energy",
-      "infrastructure": "Infrastructure",
-      "other": "Other",
-      "oilGas": "Oil & Gas"
+      "manufacturing": "विनिर्माण",
+      "powerGeneration": "विद्युत उत्पादन",
+      "waterTreatment": "जल उपचार",
+      "foodProcessing": "खाद्य प्रसंस्करण",
+      "pharmaceutical": "दवा निर्माण",
+      "chemical": "रसायन उद्योग",
+      "renewableEnergy": "नवीकरणीय ऊर्जा",
+      "infrastructure": "अवसंरचना",
+      "other": "अन्य",
+      "oilGas": "तेल और गैस"
     },
     "projectScale": {
-      "small": "Small Scale (< 10 I/O points)",
-      "medium": "Medium Scale (10-100 I/O points)",
-      "large": "Large Scale (100-500 I/O points)",
-      "enterprise": "Enterprise (500+ I/O points)"
+      "small": "छोटे पैमाने (< 10 इनपुट/आउटपुट पॉइंट्स)",
+      "medium": "मध्यम पैमाने (10-100 इनपुट/आउटपुट पॉइंट्स)",
+      "large": "बड़े पैमाने (100-500 इनपुट/आउटपुट पॉइंट्स)",
+      "enterprise": "उद्यम स्तर (500+ इनपुट/आउटपुट पॉइंट्स)"
     },
     "process": {
-      "heading": "What happens next?",
+      "heading": "आगे क्या होता है?",
       "steps": {
-        "technicalReview": "Technical review within 24 hours",
-        "detailedProposal": "Detailed proposal with specifications",
-        "costBreakdown": "Cost breakdown and timeline",
-        "followUpCall": "Follow-up consultation call"
+        "technicalReview": "24 घंटों के भीतर तकनीकी समीक्षा",
+        "detailedProposal": "विनिर्देशों के साथ विस्तृत प्रस्ताव",
+        "costBreakdown": "लागत विवरण और समयसीमा",
+        "followUpCall": "फॉलो-अप परामर्श कॉल"
       }
     },
     "assistance": {
-      "heading": "Need immediate assistance?",
-      "technicalTeam": "+91-94627-71662 (Technical Team)",
+      "heading": "तत्काल सहायता चाहिए?",
+      "technicalTeam": "+91-94627-71662 (तकनीकी टीम)",
       "email": "info@powertonengineering.com"
     }
   },
@@ -266,11 +266,11 @@
     },
     "success": {
       "title": "आवेदन सफलतापूर्वक जमा किया गया!",
-      "description": "Thank you for applying! We will review your application and contact you within 2-3 business days."
+      "description": "आवेदन करने के लिए धन्यवाद! हम आपके आवेदन की समीक्षा करेंगे और 2-3 कार्यदिवसों के भीतर आपसे संपर्क करेंगे।"
     },
     "error": {
-      "title": "Application Submission Failed",
-      "description": "Please try again or contact us directly at {{phone}} or {{email}}"
+      "title": "आवेदन जमा करने में असफल",
+      "description": "कृपया पुनः प्रयास करें या हमसे सीधे संपर्क करें {{phone}} या {{email}}"
     }
   }
 }
