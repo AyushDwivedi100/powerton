@@ -6,8 +6,8 @@
     "products": "Samfuran",
     "projects": "Ayyuka",
     "contact": "Tuntube mu",
-    "blog": "Blog",
-    "quote": "Sami farashin"
+    "blog": "Rubutu",
+    "quote": "Nemi Farashi"
   },
   "language": {
     "en": "Turanci",
@@ -36,34 +36,34 @@
   },
   "testimonials": {
     "anand": {
-      "name": "Anand Awasthi",
-      "location": "West Bengal",
-      "comment": "Powerton Engineering ta sanya aikin amfani da makamashin rana ya zama mai sauƙi da kuma sauƙi. Ƙungiyarsu ta ɗauki kula da komai daga farko zuwa ƙarshe, kuma muna jin daɗi sosai da sakamakon."
+      "name": "Ahmad Musa",
+      "location": "Yammacin Bengal",
+      "comment": "Kamfanin Injiniyan Powerton ta sanya aikin amfani da makamashin rana ya zama mai sauƙi da kuma sauƙi. Ƙungiyarsu ta ɗauki kula da komai daga farko zuwa ƙarshe, kuma muna jin daɗi sosai da sakamakon."
     },
     "sanjay": {
-      "name": "Sanjay Patil",
+      "name": "Sanusi Ahmad",
       "location": "Uttar Pradesh",
-      "comment": "Na yi farin ciki da zaɓar Powerton Engineering don shigarwar mu, kuma ba zan dadin yin wa kowane ɗan uwana shawara ba."
+      "comment": "Na yi farin ciki da zaɓar Kamfanin Injiniyan Powerton don shigarwar mu, kuma ba zan dadin yin wa kowane ɗan uwana shawara ba."
     },
     "rhea": {
-      "name": "Rhea Sharma",
+      "name": "Rahma Salihu",
       "location": "Maharashtra",
       "comment": "Samfuran inganci na musamman da sabis na abokan ciniki na musamman. Ƙwarewar fasaha ta ƙungiyar tana da ban sha'awa kuma tana da ƙwarewa sosai."
     },
     "priya": {
-      "name": "Priya Mehta",
+      "name": "Fatima Musa",
       "location": "Gujarat",
-      "comment": "Yin aiki tare da Powerton Engineering ya kasance gogewa mai ban mamaki. Hanyoyin sarrafa su ta atomatik sun canza tsarin samarwa mu kuma sun inganta inganci da kashi 35%. An ba da shawarar sosai don ayyukan sarrafa masana'antu ta atomatik."
+      "comment": "Yin aiki tare da Kamfanin Injiniyan Powerton ya kasance gogewa mai ban mamaki. Hanyoyin sarrafa su ta atomatik sun canza tsarin samarwa mu kuma sun inganta inganci da kashi talatin da biyar. An ba da shawarar sosai don ayyukan sarrafa masana'antu ta atomatik."
     },
     "kavya": {
-      "name": "Kavya Singh",
+      "name": "Hadiza Sani",
       "location": "Karnataka",
       "comment": "Sabis na musamman da tallafin fasaha! Ƙungiyar ta ba da jagora na musamman yayin aiwatar da aikinmu na rana. Hanyarsu ta sana'a da isar da lokaci sun wuce tsammaninmu gaba ɗaya."
     },
     "rajesh": {
-      "name": "Rajesh Kumar",
+      "name": "Usman Ahmad",
       "location": "Tamil Nadu",
-      "comment": "Powerton Engineering ta kai daidai abin da suka yi alkawari. Tsarin kayan aikin auna da suka shigar ya kasance yana aiki da kyau sama da shekaru biyu. Tallafin su bayan sayar da kyan gani ne kuma ko da yaushe suna amsa."
+      "comment": "Kamfanin Injiniyan Powerton ta kai daidai abin da suka yi alkawari. Tsarin kayan aikin auna da suka shigar ya kasance yana aiki da kyau sama da shekaru biyu. Tallafin su bayan sayar da kyan gani ne kuma ko da yaushe suna amsa."
     }
   },
   "technicalTerms": {
@@ -92,7 +92,7 @@
     "backTo": "Komawa zuwa {{category}}",
     "backToBldcProducts": "Komawa zuwa Kayayyakin Injunan DC marasa goga (BLDC)",
     "backToProducts": "Komawa zuwa Kayayyaki",
-    "requestQuote": "Nemi Tsari",
+    "requestQuote": "Nemi Farashi",
     "expertTeam": "Ƙungiyar Masana",
     "successfulProjects": "Ayyukan Nasara",
     "qualityProducts": "Kayayyaki Masu Inganci",
@@ -104,8 +104,8 @@
     "getInTouch": "Tuntuɓe Mu",
     "exploreProducts": "Bincika Kayayyaki",
     "viewCatalog": "Duba Jerin Kayayyaki",
-    "quickQuote": "Neman farashi cikin sauri",
-    "getQuote": "Samu Tsari",
+    "quickQuote": "Nemi Farashi cikin sauri",
+    "getQuote": "Nemi Farashi",
     "callNow": "Kira Yanzu",
     "emailUs": "Aiko Mu Email",
     "learnMore": "Koyi Ƙari",
@@ -161,12 +161,12 @@
     "selectorSwitches": "Maɓallan zaɓi",
     "indicatorLights": "Fitilun masu nuni",
     "emergencyStops": "Tsayuwar gaggawa",
-    "valvesActuators": "Valves da Masu Tafiyar da Aiki",
-    "valvesDescription": "Valves na sarrafawa da masu tafiyar da aiki don tsarin sarrafa tsari",
-    "controlValves": "Valves na sarrafawa",
+    "valvesActuators": "Bawuloli da Masu Tafiyar da Aiki",
+    "valvesDescription": "Bawuloli na sarrafawa da masu tafiyar da aiki don tsarin sarrafa tsari",
+    "controlValves": "Bawuloli na sarrafawa",
     "pneumaticActuators": "Masu tafiyar da aiki na pneumatic",
     "electricActuators": "Masu tafiyar da aiki na lantarki",
-    "valvePositioners": "Masu sanya valves",
+    "valvePositioners": "Masu sanya bawuloli",
     "analyzers": "Masu Nazari",
     "analyzersDescription": "Masu nazarin gas, ruwa da tsari don sarrafa inganci",
     "gasAnalyzers": "Masu nazarin gas",
@@ -232,7 +232,7 @@
       "products": "Samfurori da catalog",
       "services": "Hidimominmu",
       "contact": "Bayanin tuntuɓa",
-      "quote": "Nemi farashin",
+      "quote": "Nemi Farashi",
       "support": "Tallafin fasaha",
       "findProduct": "🔍 Nemo samfurori",
       "chooseService": "⚙️ Zaɓi hidima",
@@ -312,13 +312,13 @@
     "responses": {
       "products": "Muna ba da cikakkun samfuran sarrafa masana'antu, kayan lantarki, na'urori, tsarin hasken rana da sauransu. Wanne irin samfurori ne kuke nema?",
       "services": "Hidimominmu sun haɗa da shigarwa, kulawa, daidaitawa, tallafin fasaha da mafita na musamman. Wanne hidimar ne kuka fi so?",
-      "contact": "Kuna iya kiran mu a +91-9911315121 ko aika mana imel a info@powertonengineering.com. Ofishinmu yana Delhi, India.",
+      "contact": "Kuna iya kiran mu a +91-9462771662 ko aika mana imel a info@powertonengineering.com. Ofishinmu yana Noida, Indiya.",
       "quote": "Zan yi farin ciki in taimaka muku sami farashin! Don Allah ku ziyarci shafin farashinmu ko ku ba ni bukatunku.",
       "support": "Ƙungiyar tallafin fasaharmu tana nan don taimaka! Don Allah bayyana tambayar fasaha ko matsalar ku.",
       "productSelection": "Kyakkyawa! Muna da iri-iri na samfuran masana'antu a rukuni daban-daban. Wanne rukuni ne ya fi sha'awarku?",
       "serviceSelection": "Muna ba da cikakkun hidimun injiniya don tallafa wa ayyukanku daga farko har ƙarshe. Wanne hidimar ne za mu iya taimaka muku?",
       "troubleshootingMain": "Ina nan don taimaka muku wajen warware matsalolin fasaha. Wanne irin matsalar ne kuke fuskanta?",
-      "companyInfo": "Powerton Engineering babbar kamfani ce a fannin sarrafa masana'antu da injiniyan lantarki mai shekaru sama da 15 na gwaninta. Muna hidima ga abokan ciniki a duk faɗin duniya da cikakkun mafita.",
+      "companyInfo": "Kamfanin Injiniyan Powerton babbar kamfani ce a fannin sarrafa masana'antu da injiniyan lantarki mai shekaru sama da goma sha biyar na gwaninta. Muna hidima ga abokan ciniki a duk faɗin duniya da cikakkun mafita.",
       "sensorsCategory": "Layinmu na na'urori da kayan aunawa ya ƙunshi na'urori masu daidaito don amfanin masana'antu. Wanne irin auna ne kuke bukata?",
       "electricalCategory": "Muna ba da iri-iri na kayan lantarki don amfanin masana'antu, har da kayan rarraba wutar lantarki, sarrafawa da aminci. Wanne kayan lantarki ne kuke bukata?",
       "automationCategory": "Tsarinmu na sarrafa kai ya ƙunshi tsarin PLC, SCADA, DCS da HMI don cikakken sarrafa masana'antu. Wanne aikin sarrafa kai ne za mu iya warware muku?",
@@ -343,11 +343,11 @@
     "helpAssist": "Ina nan don taimaka muku a kowane mataki! Ko kuwa kuna bukata jagora wajen zaɓar samfurori, takaitaccen bayanin fasaha, tallafin hidima ko kawai sanin ƙari game da kamfaninmu, ina cikin hidimar ku. Yaya zan iya taimaka muku yau?",
     "businessHoursInfo": "Muna nan lokacin da kuke bukatarmu! Lokutan aikinmu shine Litinin har Asabar: 9:00 AM - 6:00 PM. Muna kuma ba da tallafin gaggawa ranar Lahadi don yanayi masu muhimmanci. Wurin: Noida, Yanki 6, F-25, F Block (Metro mafi kusa: Yanki 15).",
     "pricingInfo": "Tsarinmu na farashin koyaushe yana da gasa kuma a fili! Mun gaskata wajen ba da kima ga kuɗi ba tare da boye farashi ba. Farashin ya danganta da takaitaccen bayani, yawa da fa'idar aikin. Don mafi madaidaicin farashin, ƙungiyarmu za ta kimanta bukatunku na musamman.",
-    "achievements": "Muna alfahari da nasarorinmu! Sama da ayyuka 500 da suka yi nasara an kammala, hidima ga manyan abokan ciniki sama da 50, shekaru sama da 15 na gwaninta, da haɗin gwiwa da jagororin masana'antu kamar Thermax, Motherson da Praj Industries. Ayyukanmu na musamman sun haɗa da shigarwar hasken rana na 10MW da tsarin sarrafa magunguna.",
+    "achievements": "Muna alfahari da nasarorinmu! Sama da ayyuka ɗari biyar da suka yi nasara an kammala, hidima ga manyan abokan ciniki sama da hamsin, shekaru sama da goma sha biyar na gwaninta, da haɗin gwiwa da jagororin masana'antu kamar Thermax, Motherson da Praj Industries. Ayyukanmu na musamman sun haɗa da shigarwar hasken rana na megawatt goma da tsarin sarrafa magunguna.",
     "mainMenu": "Barka da dawo babban menu! Ina nan don taimaka da duk wani bukatu na sarrafa masana'antu. Ko kuna neman samfurori, hidimomi, tallafin fasaha ko bayanin kamfani, zan jagorance ku zuwa daidai mafita. Yaya zan iya taimakawa?",
     "urgentSupport": "Yanayi masu gaggawa sun haɗa da: gazawar kayan da ke shafar samarwa, batutuwa masu muhimmanci na aminci, lalacewar gaggawa, lokutan shigarwa da gazawar tsarin. Don waɗannan yanayi, ku kira nan da nan +91-94627-71662. Muna ba da tallafin gaggawa na 24/7 don yanayi masu muhimmanci.",
     "productComparison": "Zan iya taimaka muku kwatanta samfurori! Fa'idojeninmu sun haɗa da na'urori, tsarin sarrafa kai, kayan lantarki da samfuran hasken rana. Gaya mini wanne takaitaccen samfurori kuke kwatantawa ko don wanne amfani kuke bukatarsu, kuma zan jagorance ku ta hanyar mafi kyawun zaɓuɓɓuka.",
-    "defaultResponse": "Na gode da tuntuɓe mu! Ina nan don taimaka muku newan cikakkiyar mafita ta sarrafa masana'antu. A Powerton Engineering, mun gaskata cewa kowane abokin ciniki ya cancanci kulawa na musamman da jagorar ƙwararru. Wanne ƙalubale ko bukata na musamman zan iya taimaka muku da ita yau?",
+    "defaultResponse": "Na gode da tuntuɓe mu! Ina nan don taimaka muku neman cikakkiyar mafita ta sarrafa masana'antu. A Kamfanin Injiniyan Powerton, mun gaskata cewa kowane abokin ciniki ya cancanci kulawa na musamman da jagorar ƙwararru. Wanne ƙalubale ko bukata na musamman zan iya taimaka muku da ita yau?",
     "productsPageResponse": "Cikakke! Na kai ku shafin samfurorinmu inda za ku iya bincika fa'idojenmu na mafita na sarrafa masana'antu. Za ku sami cikakkun takaitaccen bayani, hotuna da bayanan fasaha na kowanne rukuni na samfur. Kuna bukata taimako neman wani abu na musamman ko kuna da tambayoyi game da samfur?",
     "servicesPageResponse": "Zaɓi mai kyau! Shafin hidimominmu yana nuna cikakkun tallafi daga shigarwa har zuwa kulawa. Mu abokin ciniki ne na cikakkiyar injiniya don dukan rayuwar aikin. Wanne irin tallafin hidima kuke nema?",
     "contactPageResponse": "Kyakkyawa! Shafin tuntuɓa yana da duk bayananmu har da wurin ofishi, lambobin waya da takardar tuntuɓa. Muna Noida kuma muna samuwa Litinin har Asabar. Kada ku yi shakka ku tuntuɓe mu kowane lokaci! Kuna so ku tattauna wani abu na musamman da ƙungiyarmu?"
@@ -370,9 +370,9 @@
       "sunday": "Lahadi: Tallafin Gaggawa Kawai"
     },
     "stats": {
-      "projectsCompleted": "Injiniyoyi Ƙwararru",
-      "clientsServed": "Ma'aikatan Fasaha",
-      "yearsExperience": "Shekarun Gwaninta na Matsakaici",
+      "projectsCompleted": "Ayyukan da aka Kammala",
+      "clientsServed": "Abokan Ciniki da aka Yi Hidima",
+      "yearsExperience": "Shekarun Gwaninta",
       "successRate": "Adadin Nasara"
     }
   },
@@ -803,7 +803,7 @@
     }
   },
   "cta": {
-    "getQuote": "Samu Tsari",
+    "getQuote": "Nemi Farashi",
     "callNow": "Kira Yanzu",
     "emailUs": "Aiko Mu Email",
     "learnMore": "Koyi Ƙari",
