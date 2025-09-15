@@ -304,11 +304,6 @@
         }
       }
     },
-    "projects": {
-      "label": "Our Projects",
-      "title": "Successfully Delivered Engineering Solutions",
-      "featured": "Featured Projects"
-    },
     "about": {
       "label": "About Us",
       "title": "Welcome to Powerton Engineering Pvt. Ltd.",
@@ -353,6 +348,7 @@
       "description": "Explore our portfolio of completed projects showcasing our expertise in industrial automation and electrical engineering.",
       "keyFeatures": "Key Features:",
       "completed": "Completed",
+      "featured": "Featured",
       "viewDetails": "View Details",
       "viewAllProjects": "View All Projects",
       "downloadPortfolio": "Download Portfolio"

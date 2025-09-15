@@ -121,14 +121,14 @@ export default function ProjectsSection() {
                 </div>
 
                 <div className="flex items-center justify-between mt-auto">
-                  <div className="flex items-center space-x-4 text-sm text-muted-foreground">
+                  <div className="flex flex-col space-y-2 sm:flex-row sm:space-y-0 sm:space-x-6 text-sm text-muted-foreground">
                     <span className="flex items-center">
-                      <MapPin className="w-4 h-4 mr-1" aria-hidden="true" />
-                      {t(`common:projects.${project.id}.location`, project.location)}
+                      <MapPin className="w-4 h-4 mr-2 text-primary flex-shrink-0" aria-hidden="true" />
+                      <span className="font-medium">{t(`common:projects.${project.id}.location`, project.location)}</span>
                     </span>
                     <span className="flex items-center">
-                      <Calendar className="w-4 h-4 mr-1" aria-hidden="true" />
-                      {t(`common:projects.${project.id}.duration`, project.duration)}
+                      <Calendar className="w-4 h-4 mr-2 text-primary flex-shrink-0" aria-hidden="true" />
+                      <span className="font-medium">{t(`common:projects.${project.id}.duration`, project.duration)}</span>
                     </span>
                   </div>
                   <Link href="/projects" className="group/button">
