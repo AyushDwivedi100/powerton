@@ -1,77 +1,77 @@
 {
   "surgeProtectors": {
     "acPower": {
-      "name": "AC Power Surge Protectors",
-      "description": "Transient voltage surge suppressors for AC power systems",
+      "name": "交流电源浪涌保护器",
+      "description": "用于交流电源系统的瞬态电压浪涌抑制器",
       "features": [
-        "Class I/II/III",
-        "MOV Technology",
-        "Status Indicators",
-        "DIN Rail Mount"
+        "一类/二类/三类",
+        "金属氧化物变阻器技术",
+        "状态指示器",
+        "德国标准导轨安装"
       ]
     },
     "dcSolar": {
-      "name": "DC Solar Surge Protectors",
-      "description": "DC surge protection devices for solar panel systems",
+      "name": "直流太阳能浪涌保护器",
+      "description": "用于太阳能电池板系统的直流浪涌保护设备",
       "features": [
-        "1000V DC Rating",
-        "Type 1+2 Protection",
-        "Remote Indication",
-        "Quick Disconnect"
+        "一千伏直流额定值",
+        "一类加二类保护",
+        "远程指示",
+        "快速断开"
       ]
     },
     "signalLine": {
-      "name": "Signal Line Protectors",
-      "description": "Surge protection for communication and control lines",
+      "name": "信号线保护器",
+      "description": "用于通信和控制线路的浪涌保护",
       "features": [
-        "Data Line Protection",
-        "Low Capacitance",
-        "Fast Response",
-        "Multiple Channels"
+        "数据线保护",
+        "低电容",
+        "快速响应",
+        "多通道"
       ]
     }
   },
   "bldcCeilingFan": {
     "smart1200": {
-      "name": "Smart BLDC Ceiling Fan - 1200mm",
-      "description": "Energy-efficient smart ceiling fan with remote control",
+      "name": "智能无刷直流吸顶扇 - 一千二百毫米",
+      "description": "带遥控器的高能效智能吸顶扇",
       "features": [
-        "28W Power Consumption",
-        "Remote Control",
-        "5 Speed Settings",
-        "Timer Function"
+        "二十八瓦功率消耗",
+        "遥控器",
+        "五档调速",
+        "定时功能"
       ]
     },
     "premium1400": {
-      "name": "Premium BLDC Ceiling Fan - 1400mm",
-      "description": "High-performance ceiling fan with LED lighting",
+      "name": "高级无刷直流吸顶扇 - 一千四百毫米",
+      "description": "带发光二极管照明的高性能吸顶扇",
       "features": [
-        "35W Power Consumption",
-        "LED Light Integrated",
-        "Reversible Motor",
-        "Silent Operation"
+        "三十五瓦功率消耗",
+        "集成发光二极管灯",
+        "可逆电机",
+        "静音运行"
       ]
     },
     "commercial1500": {
-      "name": "Commercial BLDC Ceiling Fan - 1500mm",
-      "description": "Heavy-duty ceiling fan for commercial applications",
+      "name": "商用无刷直流吸顶扇 - 一千五百毫米",
+      "description": "适用于商业应用的重型吸顶扇",
       "features": [
-        "45W Power Consumption",
-        "Heavy-Duty Motor",
-        "High Air Flow",
-        "Durable Construction"
+        "四十五瓦功率消耗",
+        "重型电机",
+        "大风量",
+        "耐用结构"
       ]
     }
   },
   "bldcCoolerExhaust": {
     "exhaustFan": {
-      "name": "BLDC Exhaust Fan Motors",
-      "description": "High-efficiency motors for exhaust fan applications",
+      "name": "无刷直流排风扇电机",
+      "description": "用于排风扇应用的高效电机",
       "features": [
-        "Variable Speed",
-        "Low Noise",
-        "Energy Efficient",
-        "Long Life"
+        "变速",
+        "低噪音",
+        "高能效",
+        "使用寿命长"
       ]
     },
     "coolerMotors": {
@@ -113,7 +113,7 @@
         "2HP Power",
         "Self-Priming",
         "Dry Run Protection",
-        "Variable Speed"
+        "变速"
       ]
     },
     "hybrid": {
@@ -133,9 +133,9 @@
       "description": "Compact BLDC motors for table and desk fans",
       "features": [
         "Compact Design",
-        "Silent Operation",
-        "Remote Control",
-        "Timer Function"
+        "静音运行",
+        "遥控器",
+        "定时功能"
       ]
     },
     "wallFan": {
@@ -176,7 +176,7 @@
       "features": [
         "High Pressure Capability",
         "Compact Design",
-        "Energy Efficient",
+        "高能效",
         "Balanced Impellers"
       ]
     },
@@ -199,7 +199,7 @@
         "B, C, D Curves",
         "6-63A Rating",
         "10kA Breaking Capacity",
-        "DIN Rail Mount"
+        "德国标准导轨安装"
       ]
     },
     "mccb": {
@@ -230,7 +230,7 @@
       "features": [
         "Spring Clamp",
         "Screw Type",
-        "DIN Rail Mount",
+        "德国标准导轨安装",
         "Multiple Sizes"
       ]
     },
@@ -248,7 +248,7 @@
       "name": "Signal Connectors",
       "description": "Precision connectors for instrumentation signals",
       "features": [
-        "Low Noise",
+        "低噪音",
         "Shielded Design",
         "Miniature Size",
         "High Reliability"
@@ -458,7 +458,7 @@
       "description": "Heavy-duty electric and cordless drills for industrial applications",
       "features": [
         "High Torque",
-        "Variable Speed",
+        "变速",
         "Cordless Options",
         "Chuck Capacity: 13mm"
       ]
@@ -492,7 +492,7 @@
         "HSS/Carbide Tips",
         "Multiple TPI",
         "Bi-Metal Construction",
-        "Long Life"
+        "使用寿命长"
       ]
     },
     "drillBits": {

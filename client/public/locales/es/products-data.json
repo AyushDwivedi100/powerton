@@ -4,18 +4,18 @@
       "name": "Protectores de sobretensión de CA",
       "description": "Supresores de sobretensión transitoria para sistemas de alimentación de CA",
       "features": [
-        "Clase I/II/III",
-        "Tecnología MOV",
+        "Clase primero/segundo/tercero",
+        "Tecnología varistor de óxido metálico",
         "Indicadores de estado",
-        "Montaje en riel DIN"
+        "Montaje en riel institut alemán de normalización"
       ]
     },
     "dcSolar": {
       "name": "Protectores de sobretensión solar de CC",
       "description": "Dispositivos de protección contra sobretensiones de CC para sistemas de paneles solares",
       "features": [
-        "Clasificación de 1000 V CC",
-        "Protección tipo 1+2",
+        "Clasificación de mil V CC",
+        "Protección tipo uno más dos",
         "Indicación remota",
         "Desconexión rápida"
       ]
@@ -33,30 +33,30 @@
   },
   "bldcCeilingFan": {
     "smart1200": {
-      "name": "Ventilador de techo BLDC inteligente - 1200 mm",
+      "name": "Ventilador de techo MCCSE inteligente - mil doscientos mm",
       "description": "Ventilador de techo inteligente de bajo consumo con control remoto",
       "features": [
-        "Consumo de energía de 28 W",
+        "Consumo de energía de veintiocho vatios",
         "Control remoto",
-        "5 velocidades",
+        "cinco velocidades",
         "Función de temporizador"
       ]
     },
     "premium1400": {
-      "name": "Ventilador de techo BLDC premium - 1400 mm",
-      "description": "Ventilador de techo de alto rendimiento con iluminación LED",
+      "name": "Ventilador de techo MCCSE premium - mil cuatrocientos mm",
+      "description": "Ventilador de techo de alto rendimiento con iluminación diodo emisor de luz",
       "features": [
-        "Consumo de energía de 35 W",
-        "Luz LED integrada",
+        "Consumo de energía de treinta y cinco vatios",
+        "Luz diodo emisor de luz integrada",
         "Motor reversible",
         "Funcionamiento silencioso"
       ]
     },
     "commercial1500": {
-      "name": "Ventilador de techo BLDC comercial - 1500 mm",
+      "name": "Ventilador de techo MCCSE comercial - mil quinientos mm",
       "description": "Ventilador de techo de servicio pesado para aplicaciones comerciales",
       "features": [
-        "Consumo de energía de 45 W",
+        "Consumo de energía de cuarenta y cinco vatios",
         "Motor de servicio pesado",
         "Alto flujo de aire",
         "Construcción duradera"
@@ -65,7 +65,7 @@
   },
   "bldcCoolerExhaust": {
     "exhaustFan": {
-      "name": "Motores de ventilador de escape BLDC",
+      "name": "Motores de ventilador de escape MCCSE",
       "description": "Motores de alta eficiencia para aplicaciones de ventiladores de escape",
       "features": [
         "Velocidad variable",
@@ -75,7 +75,7 @@
       ]
     },
     "coolerMotors": {
-      "name": "Motores de enfriador BLDC",
+      "name": "Motores de enfriador MCCSE",
       "description": "Motores de bajo consumo para aplicaciones de enfriadores de aire",
       "features": [
         "Alto par",
@@ -85,7 +85,7 @@
       ]
     },
     "ventilation": {
-      "name": "Motores de ventilación BLDC",
+      "name": "Motores de ventilación MCCSE",
       "description": "Motores especializados para sistemas de ventilación industrial",
       "features": [
         "Alto CFM",
@@ -97,8 +97,8 @@
   },
   "bldcSubmersibleSurface": {
     "solar1HP": {
-      "name": "Bomba sumergible solar BLDC - 1HP",
-      "description": "Bomba sumergible BLDC alimentada por energía solar para pozos de agua",
+      "name": "Bomba sumergible solar MCCSE - 1HP",
+      "description": "Bomba sumergible MCCSE alimentada por energía solar para pozos de agua",
       "features": [
         "Compatible con energía solar",
         "Motor de 1HP",
@@ -108,7 +108,7 @@
     },
     "surface2HP": {
       "name": "Bomba de superficie de CC - 2HP",
-      "description": "Bomba de superficie BLDC de alta eficiencia para riego",
+      "description": "Bomba de superficie MCCSE de alta eficiencia para riego",
       "features": [
         "Potencia de 2HP",
         "Autocebante",
@@ -117,7 +117,7 @@
       ]
     },
     "hybrid": {
-      "name": "Sistema de bomba BLDC híbrido",
+      "name": "Sistema de bomba MCCSE híbrido",
       "description": "Sistema de bomba inteligente con respaldo solar y de red",
       "features": [
         "Operación híbrida",
@@ -129,8 +129,8 @@
   },
   "bldcTableWallFan": {
     "tableFan": {
-      "name": "Motores de ventilador de mesa BLDC",
-      "description": "Motores BLDC compactos para ventiladores de mesa y de escritorio",
+      "name": "Motores de ventilador de mesa MCCSE",
+      "description": "Motores MCCSE compactos para ventiladores de mesa y de escritorio",
       "features": [
         "Diseño compacto",
         "Funcionamiento silencioso",
@@ -139,8 +139,8 @@
       ]
     },
     "wallFan": {
-      "name": "Motores de ventilador de pared BLDC",
-      "description": "Motores de ventilador de pared con tecnología BLDC",
+      "name": "Motores de ventilador de pared MCCSE",
+      "description": "Motores de ventilador de pared con tecnología MCCSE",
       "features": [
         "Diseño de montaje en pared",
         "Función de oscilación",
@@ -149,12 +149,12 @@
       ]
     },
     "pedestalFan": {
-      "name": "Motores de ventilador de pedestal BLDC",
+      "name": "Motores de ventilador de pedestal MCCSE",
       "description": "Motores de ventilador de pedestal de altura ajustable",
       "features": [
         "Ajuste de altura",
         "Función de inclinación",
-        "Pantalla LED",
+        "Pantalla diodo emisor de luz",
         "Modo de suspensión"
       ]
     }
@@ -199,7 +199,7 @@
         "Curvas B, C, D",
         "Clasificación 6-63A",
         "Capacidad de ruptura de 10 kA",
-        "Montaje en riel DIN"
+        "Montaje en riel institut alemán de normalización"
       ]
     },
     "mccb": {
@@ -230,7 +230,7 @@
       "features": [
         "Abrazadera de resorte",
         "Tipo de tornillo",
-        "Montaje en riel DIN",
+        "Montaje en riel institut alemán de normalización",
         "Múltiples tamaños"
       ]
     },

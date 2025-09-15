@@ -3,51 +3,51 @@
   "subtitle": "工业自动化产品、电气元件、仪表、太阳能系统、泵和工具的综合系列。用于工业应用的优质设备。",
   "bldcCeilingFan": {
     "smart1200": {
-      "title": "智能BLDC吊扇1200毫米",
+      "title": "智能无刷直流电机吊扇一千二百毫米",
       "description": "节能智能吊扇，配备遥控器和定时功能",
-      "features": ["28瓦功率消耗", "遥控器", "5档调速", "定时功能"]
+      "features": ["二十八瓦功率消耗", "遥控器", "五档调速", "定时功能"]
     },
     "premium1400": {
-      "title": "高级BLDC吊扇1400毫米", 
-      "description": "高性能吊扇，配备LED照明和可逆电机",
-      "features": ["35瓦功率消耗", "集成LED灯", "可逆电机", "静音运行"]
+      "title": "高级无刷直流电机吊扇一千四百毫米", 
+      "description": "高性能吊扇，配备发光二极管照明和可逆电机",
+      "features": ["三十五瓦功率消耗", "集成发光二极管灯", "可逆电机", "静音运行"]
     },
     "commercial1500": {
-      "title": "商用BLDC吊扇1500毫米",
+      "title": "商用无刷直流电机吊扇一千五百毫米",
       "description": "适用于商业和工业应用的重型吊扇", 
-      "features": ["45瓦功率消耗", "重型电机", "大风量", "耐用结构"]
+      "features": ["四十五瓦功率消耗", "重型电机", "大风量", "耐用结构"]
     }
   },
   "bldcCoolerExhaust": {
     "exhaustFan": {
-      "title": "BLDC排风扇电机",
+      "title": "无刷直流电机排风扇电机",
       "description": "用于排风扇应用的高效无刷直流电机",
       "features": ["变速控制", "低噪音运行", "节能设计", "延长寿命"]
     },
     "coolerMotors": {
-      "title": "BLDC冷却器电机",
+      "title": "无刷直流电机冷却器电机",
       "description": "专为空气冷却器应用设计的节能电机",
       "features": ["高扭矩输出", "耐候性", "速度控制", "免维护运行"]
     },
     "ventilation": {
-      "title": "BLDC通风系统电机", 
+      "title": "无刷直流电机通风系统电机", 
       "description": "专用于工业通风和空气处理系统的电机",
-      "features": ["高CFM额定值", "温度额定", "抗振动", "智能控制兼容"]
+      "features": ["高立方英尺每分钟额定值", "温度额定", "抗振动", "智能控制兼容"]
     }
   },
   "bldcPumps": {
     "solarSubmersible1hp": {
-      "title": "太阳能BLDC潜水泵1马力",
+      "title": "太阳能无刷直流电机潜水泵一马力",
       "description": "太阳能驱动的潜水泵，用于水井和钻孔应用",
-      "features": ["太阳能兼容运行", "1马力电机功率", "高效设计", "水冷结构"]
+      "features": ["太阳能兼容运行", "一马力电机功率", "高效设计", "水冷结构"]
     },
     "dcSurface2hp": {
-      "title": "直流表面泵2马力",
+      "title": "直流表面泵二马力",
       "description": "用于灌溉和水传输的高效表面泵",
-      "features": ["2马力功率等级", "自吸设计", "干运行保护", "变速控制"]
+      "features": ["二马力功率等级", "自吸设计", "干运行保护", "变速控制"]
     },
     "hybridSystem": {
-      "title": "混合BLDC泵系统",
+      "title": "混合无刷直流电机泵系统",
       "description": "具有太阳能和电网备份能力的智能泵系统",
       "features": ["混合运行模式", "智能控制器", "远程监控", "能源优化"]
     }
@@ -57,7 +57,7 @@
     "electrical": "电气元件",
     "instrumentation": "仪表",
     "solar": "太阳能产品",
-    "motors": "BLDC电机系统",
+    "motors": "无刷直流电机电机系统",
     "pumps": "泵和电机",
     "safety": "安全设备",
     "tools": "工业工具",
@@ -105,8 +105,8 @@
       "title": "自动化控制系统",
       "description": "工业运营的先进自动化和控制系统",
       "features": {
-        "hmi-systems": "HMI系统",
-        "scada-software": "SCADA软件",
+        "hmi-systems": "人机界面系统",
+        "scada-software": "监控数据采集软件",
         "industrial-networks": "工业网络"
       }
     },
@@ -171,7 +171,7 @@
       }
     },
     "bldc": {
-      "title": "BLDC产品",
+      "title": "无刷直流电机产品",
       "description": "节能应用的无刷直流电机产品",
       "features": {
         "energy-efficient": "节能高效",
@@ -437,19 +437,19 @@
       }
     },
     "bldc-cooler-exhaust-motor": {
-      "title": "BLDC冷却排气电机",
+      "title": "无刷直流电机冷却排气电机",
       "description": "节能冷却系统电机"
     },
     "bldc-ceiling-fan": {
-      "title": "BLDC吊扇",
+      "title": "无刷直流电机吊扇",
       "description": "节能智能吊扇产品"
     },
     "bldc-submersible-surface-pump": {
-      "title": "BLDC潜水泵",
+      "title": "无刷直流电机潜水泵",
       "description": "高效潜水泵系统"
     },
     "bldc-table-fan-wall-fan-motor": {
-      "title": "BLDC台扇壁扇电机",
+      "title": "无刷直流电机台扇壁扇电机",
       "description": "节能台扇壁扇驱动电机"
     },
     "signal-conditioners": {
@@ -590,7 +590,7 @@
     },
     "bldc-cooler-exhaust-motor": {
       "title": "无刷直流电机冷却器/排气电机",
-      "description": "用于冷却和通风的节能BLDC电机"
+      "description": "用于冷却和通风的节能无刷直流电机电机"
     },
     "bldc-ceiling-fan": {
       "title": "无刷直流电机吊扇",
@@ -598,11 +598,11 @@
     },
     "bldc-submersible-surface-pump": {
       "title": "无刷直流电机潜水/地面泵",
-      "description": "用于水应用的太阳能供电BLDC泵"
+      "description": "用于水应用的太阳能供电无刷直流电机泵"
     },
     "bldc-table-fan-wall-fan-motor": {
       "title": "无刷直流电机台扇/壁扇电机",
-      "description": "用于便携式和壁挂式风扇的紧凑型BLDC电机"
+      "description": "用于便携式和壁挂式风扇的紧凑型无刷直流电机电机"
     }
   },
   "filters": {
@@ -653,7 +653,7 @@
     "safety-protective-devices": "安全保护设备",
     "mechanical-pumps-spares": "机械泵和备件",
     "industrial-tools-tackles": "工业工具设备",
-    "bldc": "BLDC产品"
+    "bldc": "无刷直流电机产品"
   },
   "hmi": {
     "title": "HMI (Human Machine Interface)",
@@ -804,7 +804,7 @@
       "dinRailMount": "DIN Rail Mount",
       "wideInputRange": "Wide Input Range",
       "shortCircuitProtection": "Short Circuit Protection",
-      "ledStatus": "LED Status",
+      "ledStatus": "发光二极管 Status",
       "batteryBackup": "Battery Backup",
       "surgeProtection": "Surge Protection",
       "autoTransfer": "Auto Transfer",
@@ -1066,7 +1066,7 @@
       "fullDescription": "用于精确测量和监控电气及过程参数的先进数字仪表、分析仪和校准设备。",
       "specifications": {
         "accuracyClass": "精度等级：0.1 至 1.0",
-        "displayType": "显示：数字LCD/LED",
+        "displayType": "显示：数字LCD/发光二极管",
         "communicationOptions": "通讯：RS485、以太网、无线",
         "dataLogging": "数据记录功能",
         "multipleParameter": "多参数测量"

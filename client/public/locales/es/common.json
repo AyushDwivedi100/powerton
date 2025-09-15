@@ -67,21 +67,21 @@
     "phoneNumbers": "Números de Teléfono"
   },
   "technicalTerms": {
-    "BLDC": "BLDC (Motores de Corriente Continua Sin Escobillas)",
-    "PLC": "PLC (Controlador Lógico Programable)",
-    "SCADA": "SCADA (Control Supervisor y Adquisición de Datos)",
-    "HMI": "HMI (Interfaz Hombre-Máquina)",
-    "DCS": "DCS (Sistema de Control Distribuido)",
-    "VFD": "VFD (Variador de Frecuencia)",
-    "MCC": "MCC (Centro de Control de Motores)",
-    "PCC": "PCC (Centro de Control de Potencia)",
-    "RTU": "RTU (Unidades de Terminal Remoto)",
-    "IED": "IED (Dispositivos Electrónicos Inteligentes)",
-    "NABL": "NABL (Junta Nacional de Acreditación para Laboratorios de Prueba y Calibración)",
-    "MNRE": "MNRE (Ministerio de Energías Nuevas y Renovables)",
-    "CPRI": "CPRI (Instituto Central de Investigación Eléctrica)",
-    "ISO": "ISO (Organización Internacional de Normalización)",
-    "IEEE": "IEEE (Instituto de Ingenieros Eléctricos y Electrónicos)"
+    "BLDC": "MCCSE (Motores de Corriente Continua Sin Escobillas)",
+    "PLC": "CLP (Controlador Lógico Programable)",
+    "SCADA": "CSAD (Control Supervisor y Adquisición de Datos)",
+    "HMI": "IHM (Interfaz Hombre-Máquina)",
+    "DCS": "SCD (Sistema de Control Distribuido)",
+    "VFD": "VF (Variador de Frecuencia)",
+    "MCC": "CCM (Centro de Control de Motores)",
+    "PCC": "CCP (Centro de Control de Potencia)",
+    "RTU": "UTR (Unidades de Terminal Remoto)",
+    "IED": "DEI (Dispositivos Electrónicos Inteligentes)",
+    "NABL": "JNALPC (Junta Nacional de Acreditación para Laboratorios de Prueba y Calibración)",
+    "MNRE": "MENR (Ministerio de Energías Nuevas y Renovables)",
+    "CPRI": "ICIE (Instituto Central de Investigación Eléctrica)",
+    "ISO": "OIN (Organización Internacional de Normalización)",
+    "IEEE": "IIEE (Instituto de Ingenieros Eléctricos y Electrónicos)"
   },
   "buttons": {
     "downloadPortfolio": "Descargar Portafolio",
@@ -195,7 +195,7 @@
     "fastDelivery": "Entrega rápida"
   },
   "headings": {
-    "bldcCeilingFanModels": "Modelos de ventiladores de techo BLDC",
+    "bldcCeilingFanModels": "Modelos de ventiladores de techo MCCSE",
     "ourProducts": "Nuestros productos",
     "specifications": "Especificaciones",
     "keyFeatures": "Características principales",
@@ -231,7 +231,7 @@
       "maintenanceService": "🛠️ Mantenimiento y reparación",
       "calibrationService": "⚖️ Calibración y pruebas",
       "trainingService": "📚 Entrenamiento y consultoría",
-      "solarService": "☀️ Servicios EPC solares",
+      "solarService": "☀️ Servicios IPC solares",
       "viewAllServices": "📋 Ver todos los servicios",
       "backToMainMenu": "🏠 Volver al menú principal",
       "electricalIssues": "⚡ Problemas eléctricos",
@@ -320,7 +320,7 @@
     "powerton": {
       "name": "Powerton Engineering Pvt. Ltd.",
       "description": "Empresa líder en automatización industrial e ingeniería eléctrica que atiende a clientes en todo el mundo. Especializada en automatización de centrales eléctricas, instalaciones solares y sistemas de control de fabricación.",
-      "keywords": "Automatización Industrial, Ingeniería Eléctrica, Central Eléctrica, Energía Solar, Fabricación, Sistemas de Control, Instrumentación, SCADA, PLC, Soluciones de Automatización, Instalación Eléctrica, Paneles de Control Industrial, Automatización de Procesos, Distribución de Energía, Centros de Control de Motores, Mantenimiento Eléctrico, Servicios Eléctricos Industriales, Consultoría de Automatización, Diseño Eléctrico, Sistemas de Potencia",
+      "keywords": "Automatización Industrial, Ingeniería Eléctrica, Central Eléctrica, Energía Solar, Fabricación, Sistemas de Control, Instrumentación, CSAD, CLP, Soluciones de Automatización, Instalación Eléctrica, Paneles de Control Industrial, Automatización de Procesos, Distribución de Energía, Centros de Control de Motores, Mantenimiento Eléctrico, Servicios Eléctricos Industriales, Consultoría de Automatización, Diseño Eléctrico, Sistemas de Potencia",
       "author": "Equipo de Powerton Engineering"
     },
     "location": {

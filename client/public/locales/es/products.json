@@ -3,70 +3,70 @@
   "subtitle": "Automatización Industrial y Componentes Eléctricos",
   "bldcCeilingFan": {
     "smart1200": {
-      "title": "Ventilador de Techo BLDC Inteligente 1200mm",
+      "title": "Ventilador de Techo MCCSE Inteligente mil doscientos mm",
       "description": "Ventilador de techo eficiente con control remoto y función de temporizador",
-      "features": ["Consumo de 28W", "Control Remoto", "5 Configuraciones de Velocidad", "Función Temporizador"]
+      "features": ["Consumo de veintiocho vatios", "Control Remoto", "cinco Configuraciones de Velocidad", "Función Temporizador"]
     },
     "premium1400": {
-      "title": "Ventilador de Techo BLDC Premium 1400mm", 
-      "description": "Ventilador de techo de alto rendimiento con iluminación LED y motor reversible",
-      "features": ["Consumo de 35W", "Luz LED Integrada", "Motor Reversible", "Operación Silenciosa"]
+      "title": "Ventilador de Techo MCCSE Premium mil cuatrocientos mm", 
+      "description": "Ventilador de techo de alto rendimiento con iluminación diodo emisor de luz y motor reversible",
+      "features": ["Consumo de treinta y cinco vatios", "Luz diodo emisor de luz Integrada", "Motor Reversible", "Operación Silenciosa"]
     },
     "commercial1500": {
-      "title": "Ventilador de Techo BLDC Comercial 1500mm",
+      "title": "Ventilador de Techo MCCSE Comercial mil quinientos mm",
       "description": "Ventilador de techo resistente para aplicaciones comerciales e industriales", 
-      "features": ["Consumo de 45W", "Motor Resistente", "Alto Flujo de Aire", "Construcción Duradera"]
+      "features": ["Consumo de cuarenta y cinco vatios", "Motor Resistente", "Alto Flujo de Aire", "Construcción Duradera"]
     }
   },
   "bldcCoolerExhaust": {
     "exhaustFan": {
-      "title": "Motor de Ventilador de Escape BLDC",
+      "title": "Motor de Ventilador de Escape MCCSE",
       "description": "Motor de alta eficiencia sin escobillas para aplicaciones de ventilador de escape",
       "features": ["Control de Velocidad Variable", "Operación de Bajo Ruido", "Diseño Eficiente", "Vida Útil Extendida"]
     },
     "coolerMotors": {
-      "title": "Motor de Enfriador BLDC",
+      "title": "Motor de Enfriador MCCSE",
       "description": "Motor eficiente diseñado para aplicaciones de enfriador de aire",
       "features": ["Salida de Alto Torque", "Resistente al Clima", "Control de Velocidad", "Operación Libre de Mantenimiento"]
     },
     "ventilation": {
-      "title": "Motor de Sistema de Ventilación BLDC", 
+      "title": "Motor de Sistema de Ventilación MCCSE", 
       "description": "Motor especializado para sistemas de ventilación industrial y manejo de aire",
-      "features": ["Clasificación CFM Alta", "Clasificado por Temperatura", "Resistente a Vibraciones", "Compatible con Control Inteligente"]
+      "features": ["Clasificación pies cúbicos por minuto Alta", "Clasificado por Temperatura", "Resistente a Vibraciones", "Compatible con Control Inteligente"]
     }
   },
   "bldcPumps": {
     "solarSubmersible1hp": {
-      "title": "Bomba Sumergible Solar BLDC 1HP",
+      "title": "Bomba Sumergible Solar MCCSE un caballo de fuerza",
       "description": "Bomba sumergible alimentada por energía solar para pozos de agua y aplicaciones de perforación",
-      "features": ["Operación Compatible Solar", "Potencia del Motor 1HP", "Diseño de Alta Eficiencia", "Construcción Enfriada por Agua"]
+      "features": ["Operación Compatible Solar", "Potencia del Motor un caballo de fuerza", "Diseño de Alta Eficiencia", "Construcción Enfriada por Agua"]
     },
     "dcSurface2hp": {
-      "title": "Bomba de Superficie DC 2HP",
+      "title": "Bomba de Superficie corriente continua dos caballos de fuerza",
       "description": "Bomba de superficie de alta eficiencia para riego y transferencia de agua",
-      "features": ["Clasificación de Potencia 2HP", "Diseño Autocebante", "Protección de Funcionamiento en Seco", "Control de Velocidad Variable"]
+      "features": ["Clasificación de Potencia dos caballos de fuerza", "Diseño Autocebante", "Protección de Funcionamiento en Seco", "Control de Velocidad Variable"]
     },
     "hybridSystem": {
-      "title": "Sistema de Bomba BLDC Híbrido",
+      "title": "Sistema de Bomba MCCSE Híbrido",
       "description": "Sistema de bomba inteligente con capacidad de respaldo solar y de red",
       "features": ["Modo de Operación Híbrido", "Controlador Inteligente", "Monitoreo Remoto", "Optimización de Energía"]
     }
   },
   "bldcFans": {
     "tableFan": {
-      "title": "Motor de Ventilador de Mesa BLDC",
+      "title": "Motor de Ventilador de Mesa MCCSE",
       "description": "Motor de corriente continua sin escobillas compacto para aplicaciones de ventiladores de mesa y escritorio",
       "features": ["Diseño Compacto", "Operación Silenciosa", "Control Remoto", "Función Temporizador"]
     },
     "wallFan": {
-      "title": "Motor de Ventilador de Pared BLDC", 
-      "description": "Motor de ventilador montado en pared con tecnología BLDC para uso residencial",
+      "title": "Motor de Ventilador de Pared MCCSE", 
+      "description": "Motor de ventilador montado en pared con tecnología MCCSE para uso residencial",
       "features": ["Diseño de Montaje en Pared", "Función Oscilante", "Control de Velocidad", "Operación de Ahorro Energético"]
     },
     "pedestalFan": {
-      "title": "Motor de Ventilador de Pedestal BLDC",
-      "description": "Motor de ventilador de pedestal ajustable en altura con pantalla LED",
-      "features": ["Ajuste de Altura", "Función de Inclinación", "Pantalla LED", "Temporizador Modo Sueño"]
+      "title": "Motor de Ventilador de Pedestal MCCSE",
+      "description": "Motor de ventilador de pedestal ajustable en altura con pantalla diodo emisor de luz",
+      "features": ["Ajuste de Altura", "Función de Inclinación", "Pantalla diodo emisor de luz", "Temporizador Modo Sueño"]
     }
   },
   "cablesWires": {
@@ -78,24 +78,24 @@
     "powerDistribution": {
       "title": "Cables de Distribución de Energía",
       "description": "Cables de alto voltaje para sistemas de transmisión y distribución de energía",
-      "features": ["Aislamiento XLPE", "Construcción Blindada", "Resistente al Fuego", "Clasificación de Alta Corriente"]
+      "features": ["Aislamiento polietileno reticulado", "Construcción Blindada", "Resistente al Fuego", "Clasificación de Alta Corriente"]
     },
     "communication": {
       "title": "Cables de Comunicación",
       "description": "Cables de transmisión de datos para redes de comunicación industrial",
-      "features": ["Estándares Cat5e/Cat6", "Opciones de Fibra Óptica", "Grado Industrial", "Blindaje EMI"]
+      "features": ["Estándares categoría cinco E/categoría seis", "Opciones de Fibra Óptica", "Grado Industrial", "Blindaje interferencia electromagnética"]
     }
   },
   "circuitBreakers": {
     "mcb": {
-      "title": "Interruptores Automáticos Miniatura (MCB)",
+      "title": "Interruptores Automáticos Miniatura (IAM)",
       "description": "Interruptores automáticos de bajo voltaje para protección residencial y comercial",
-      "features": ["Curvas de Disparo B/C/D", "Clasificación 6-63A", "Capacidad de Ruptura 10kA", "Montaje en Riel DIN"]
+      "features": ["Curvas de Disparo B/C/D", "Clasificación seis a sesenta y tres amperios", "Capacidad de Ruptura diez kiloamperios", "Montaje en Riel institut alemán de normalización"]
     },
     "mccb": {
-      "title": "Interruptores Automáticos de Caja Moldeada (MCCB)",
+      "title": "Interruptores Automáticos de Caja Moldeada (IACM)",
       "description": "Interruptores automáticos industriales para protección de motores y equipos eléctricos",
-      "features": ["Configuraciones de Disparo Ajustables", "Alta Capacidad de Ruptura", "Unidades de Disparo Electrónicas", "Clasificación hasta 1600A"]
+      "features": ["Configuraciones de Disparo Ajustables", "Alta Capacidad de Ruptura", "Unidades de Disparo Electrónicas", "Clasificación hasta mil seiscientos amperios"]
     },
     "industrialFuses": {
       "title": "Fusibles Industriales",
@@ -107,12 +107,12 @@
     "terminalBlocks": {
       "title": "Bloques de Terminales Industriales",
       "description": "Bloques de terminales seguros para conexiones de cables industriales",
-      "features": ["Tecnología de Abrazadera de Resorte", "Conexiones Tipo Tornillo", "Montaje en Riel DIN", "Múltiples Opciones de Tamaño"]
+      "features": ["Tecnología de Abrazadera de Resorte", "Conexiones Tipo Tornillo", "Montaje en Riel institut alemán de normalización", "Múltiples Opciones de Tamaño"]
     },
     "industrialConnectors": {
       "title": "Conectores Industriales",
       "description": "Conectores de servicio pesado para aplicaciones industriales exigentes",
-      "features": ["Clasificación de Protección IP67", "Mecanismo de Bloqueo", "Configuración Multi-Pin", "Integración Cable Gland"]
+      "features": ["Clasificación de Protección protección de ingreso sesenta y siete", "Mecanismo de Bloqueo", "Configuración Multi-Pin", "Integración prensaestopas de cable"]
     },
     "signalConnectors": {
       "title": "Conectores de Señal",
@@ -125,7 +125,7 @@
     "electrical": "Componentes Eléctricos",
     "instrumentation": "Instrumentación",
     "solar": "Productos Solares",
-    "motors": "Sistemas de Motores BLDC",
+    "motors": "Sistemas de Motores MCCSE",
     "pumps": "Bombas y Motores",
     "safety": "Equipos de Seguridad",
     "tools": "Herramientas Industriales",
@@ -209,7 +209,7 @@
       }
     },
     "bldc": {
-      "title": "Productos BLDC",
+      "title": "Productos MCCSE",
       "description": "Productos de motor DC sin escobillas para aplicaciones de eficiencia energética",
       "features": {
         "energy-efficient": "Eficiente en Energía",
@@ -475,20 +475,20 @@
       }
     },
     "bldc-cooler-exhaust-motor": {
-      "title": "Motor BLDC para Enfriador/Extractor",
-      "description": "Motores BLDC eficientes energéticamente para enfriamiento y ventilación"
+      "title": "Motor MCCSE para Enfriador/Extractor",
+      "description": "Motores MCCSE eficientes energéticamente para enfriamiento y ventilación"
     },
     "bldc-ceiling-fan": {
-      "title": "Ventilador de Techo BLDC",
+      "title": "Ventilador de Techo MCCSE",
       "description": "Ventiladores de techo de alta eficiencia con tecnología DC sin escobillas"
     },
     "bldc-submersible-surface-pump": {
-      "title": "Bomba BLDC Sumergible/Superficial",
-      "description": "Bombas BLDC alimentadas por energía solar para aplicaciones de agua"
+      "title": "Bomba MCCSE Sumergible/Superficial",
+      "description": "Bombas MCCSE alimentadas por energía solar para aplicaciones de agua"
     },
     "bldc-table-fan-wall-fan-motor": {
-      "title": "Motor BLDC para Ventilador de Mesa/Pared",
-      "description": "Motores BLDC compactos para ventiladores portátiles y montados en pared"
+      "title": "Motor MCCSE para Ventilador de Mesa/Pared",
+      "description": "Motores MCCSE compactos para ventiladores portátiles y montados en pared"
     }
   },
   "items": {
@@ -632,10 +632,10 @@
       "dcOutput": "12V/24V DC Output",
       "highEfficiency": "High Efficiency",
       "compactDesign": "Compact Design",
-      "dinRailMount": "DIN Rail Mount",
+      "dinRailMount": "institut alemán de normalización Rail Mount",
       "wideInputRange": "Wide Input Range",
       "shortCircuitProtection": "Short Circuit Protection",
-      "ledStatus": "LED Status",
+      "ledStatus": "diodo emisor de luz Status",
       "batteryBackup": "Battery Backup",
       "surgeProtection": "Surge Protection",
       "autoTransfer": "Auto Transfer",
@@ -659,7 +659,7 @@
         "communicationCables": "Communication Cables",
         "terminalBlocks": "Terminal Blocks",
         "wireConnectors": "Wire Connectors",
-        "dinRailTerminals": "DIN Rail Terminals",
+        "dinRailTerminals": "institut alemán de normalización Rail Terminals",
         "junctionBoxes": "Junction Boxes",
         "mcbs": "MCBs",
         "mccbs": "MCCBs",
@@ -691,9 +691,9 @@
         "wallMount": "Wall Mount",
         "cableManagement": "Cable Management",
         "coolingOptions": "Cooling Options",
-        "ip65Ip67Rating": "IP65/IP67 Rating",
+        "ip65Ip67Rating": "IP65/protección de ingreso sesenta y siete Rating",
         "explosionProof": "Explosion Proof",
-        "cableGlands": "Cable Glands",
+        "cableGlands": "prensaestopas de cables",
         "corrosionResistant": "Corrosion Resistant"
       }
     }
@@ -765,7 +765,7 @@
         "name": "Operator Interface Terminals",
         "description": "Rugged operator terminals for harsh environments",
         "features": [
-          "IP65/IP67 Rating",
+          "IP65/protección de ingreso sesenta y siete Rating",
           "Stainless Steel",
           "Membrane Keypad",
           "Backlit Display"
@@ -829,7 +829,7 @@
     "signalIntelligence": "Signal Intelligence",
     "vectorAnalysis": "Vector Analysis",
     "rfAnalysis": "RF Analysis",
-    "emiTesting": "EMI Testing",
+    "emiTesting": "interferencia electromagnética Testing",
     "monocrystalline": "Monocrystalline",
     "polycrystalline": "Polycrystalline",
     "bifacial": "Bifacial",
@@ -911,7 +911,7 @@
       "specifications": {
         "highAccuracy": "Alta precisión: ±0.1% a ±0.5%",
         "operatingTemperature": "Temperatura de operación: -40°C a +85°C",
-        "protectionRating": "Clasificación de protección IP65/IP67",
+        "protectionRating": "Clasificación de protección IP65/protección de ingreso sesenta y siete",
         "outputTypes": "Salidas: 4-20mA, 0-10V, HART, Profibus",
         "explosionProof": "Variantes a prueba de explosiones disponibles"
       },
@@ -933,7 +933,7 @@
       "specifications": {
         "voltageRange": "Rango de voltaje: 24V DC a 690V AC",
         "currentRatings": "Clasificación de corriente: 1A a 1000A",
-        "protectionLevel": "Protección IP54 a IP67",
+        "protectionLevel": "Protección IP54 a protección de ingreso sesenta y siete",
         "standardsCompliant": "Cumple con estándares IEC/IS",
         "temperatureRated": "Clasificación de temperatura: -25°C a +70°C"
       },
@@ -976,7 +976,7 @@
       "fullDescription": "Medidores digitales avanzados, analizadores y equipos de calibración para medición y monitoreo preciso de parámetros eléctricos y de proceso.",
       "specifications": {
         "accuracyClass": "Clase de precisión: 0.1 a 1.0",
-        "displayType": "Pantalla: LCD/LED digital",
+        "displayType": "Pantalla: LCD/diodo emisor de luz digital",
         "communicationOptions": "Comunicación: RS485, Ethernet, Inalámbrico",
         "dataLogging": "Capacidad de registro de datos",
         "multipleParameter": "Medición de múltiples parámetros"

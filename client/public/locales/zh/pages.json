@@ -12,34 +12,34 @@
     },
     "latestNews": {
       "excellenceAward": {
-        "title": "宝尔顿工程荣获2024年卓越奖",
+        "title": "帕龙鼠工程荣获2024年卓越奖",
         "category": "奖项",
         "excerpt": "因在工业自动化和电气工程解决方案方面的杰出创新而获得认可。"
       },
       "ntpcContract": {
-        "title": "获得NTPC重大合同用于电厂自动化",
+        "title": "获得国家火电公司重大合同用于电厂自动化",
         "category": "商业",
-        "excerpt": "获得500MW火电厂现代化项目的全面自动化合同。"
+        "excerpt": "获得五百兆瓦火电厂现代化项目的全面自动化合同。"
       },
       "renewableExpansion": {
         "title": "在印度扩展可再生能源解决方案",
         "category": "公司",
-        "excerpt": "新的太阳能EPC能力和合作伙伴关系，支持印度的可再生能源转型。"
+        "excerpt": "新的太阳能工程采购建设能力和合作伙伴关系，支持印度的可再生能源转型。"
       },
       "rdFacility": {
         "title": "诺伊达新建最先进研发设施启用",
         "category": "基础设施",
-        "excerpt": "我们在诺伊达新建的5000平方英尺研发设施已启用，配备最新测试设备和先进自动化实验室用于产品开发。"
+        "excerpt": "我们在诺伊达新建的五千平方英尺研发设施已启用，配备最新测试设备和先进自动化实验室用于产品开发。"
       },
       "europeanPartnership": {
         "title": "与领先欧洲自动化技术供应商建立合作伙伴关系",
         "category": "合作伙伴关系",
-        "excerpt": "我们与领先的欧洲自动化技术供应商建立了战略合作伙伴关系，将尖端PLC和SCADA解决方案引入印度市场。"
+        "excerpt": "我们与领先的欧洲自动化技术供应商建立了战略合作伙伴关系，将尖端可编程逻辑控制器和监控数据采集系统解决方案引入印度市场。"
       },
       "isoAchievement": {
-        "title": "ISO 9001:2015认证成就",
+        "title": "国际标准化组织九千零一：二千零一五认证成就",
         "category": "质量",
-        "excerpt": "宝尔顿工程已成功获得ISO 9001:2015认证，证明了我们对质量管理体系和所有流程持续改进的承诺。"
+        "excerpt": "帕龙鼠工程已成功获得国际标准化组织九千零一：二千零一五认证，证明了我们对质量管理体系和所有流程持续改进的承诺。"
       }
     },
     "tabs": {
@@ -58,7 +58,7 @@
   "projects": {
     "hero": {
       "title": "工程卓越作品集",
-      "subtitle": "通过1200多个在不同行业的成功项目展示我们的工程卓越，彰显创新、质量和可靠性。"
+      "subtitle": "通过一千二百多个在不同行业的成功项目展示我们的工程卓越，彰显创新、质量和可靠性。"
     },
     "portfolioDescription": "通过展示各行业创新解决方案的示范项目探索我们的工程能力。真正的项目作品集即将推出。",
     "showing": "显示{{count}}个项目",
@@ -73,10 +73,10 @@
       "solarsolutions": "太阳能解决方案"
     },
     "technologies": {
-      "plcprogramming": "PLC编程",
-      "scada": "SCADA",
-      "hmi": "HMI",
-      "mccpanels": "MCC面板",
+      "plcprogramming": "可编程逻辑控制器编程",
+      "scada": "监控数据采集系统",
+      "hmi": "人机界面",
+      "mccpanels": "电机控制中心面板",
       "protectionsystems": "保护系统",
       "energymanagement": "能源管理",
       "solarinverters": "太阳能逆变器",
@@ -85,7 +85,7 @@
       "processcontrol": "过程控制",
       "safetysystems": "安全系统",
       "environmentalmonitoring": "环境监测",
-      "industrialiot": "工业物联网",
+      "industrialiot": "工业互联网",
       "predictiveanalytics": "预测分析",
       "edgecomputing": "边缘计算"
     },
@@ -96,14 +96,14 @@
         "client": "未来工业伙伴",
         "description": "演示完整的过程自动化能力，包括安全系统、环境监测和工业应用的批量控制。",
         "location": "项目地点待定",
-        "duration": "8-12个月"
+        "duration": "八至十二个月"
       },
       "smart-factory-progress": {
         "title": "演示：智能工厂集成",
         "client": "当前开发客户",
         "description": "持续展示智能工厂集成，展现物联网连接、预测性维护和数据驱动优化，用于现代制造业。",
         "location": "开发场地",
-        "duration": "14个月"
+        "duration": "十四个月"
       }
     },
     "cta": {
@@ -115,8 +115,8 @@
   },
   "home": {
     "seo": {
-      "title": "宝尔顿工程 - 工业自动化与控制面板 | 中国",
-      "description": "电气控制面板、工业自动化系统和仪器仪表解决方案的领先制造商。拥有15年以上经验的专业工程服务，服务全球各地。",
+      "title": "帕龙鼠工程 - 工业自动化与控制面板 | 中国",
+      "description": "电气控制面板、工业自动化系统和仪器仪表解决方案的领先制造商。拥有十五年以上经验的专业工程服务，服务全球各地。",
       "keywords": "电气控制面板, 工业自动化, 过程自动化, 仪器仪表, 电力控制中心, 电机控制中心, 电气工程, 中国, 自动化"
     },
     "hero": {
@@ -130,7 +130,7 @@
         "requestConsultation": "请求咨询"
       },
       "features": {
-        "experience": "15年以上经验",
+        "experience": "十五年以上经验",
         "support": "24/7技术支持",
         "service": "全球服务覆盖"
       },
@@ -144,7 +144,7 @@
     },
     "about": {
       "label": "关于我们",
-      "title": "欢迎来到宝尔顿工程私人有限公司",
+      "title": "欢迎来到帕龙鼠工程私人有限公司",
       "description": "您提供高质量工程解决方案和服务的可信赖合作伙伴。以通过创新和卓越赋能工业的愿景成立，我们专门提供全面的电气和仪器产品。",
       "visualHeading": "专业工程",
       "visualDescription": "专业的中国工程师从事工业自动化和控制系统工作",
@@ -234,7 +234,7 @@
   "backToProducts": "返回产品",
   "about": {
     "seo": {
-      "keywords": "关于宝尔顿工程, 工业自动化公司, 电气工程公司, 仪器仪表服务, 中国自动化专家"
+      "keywords": "关于帕龙鼠工程, 工业自动化公司, 电气工程公司, 仪器仪表服务, 中国自动化专家"
     },
     "hero": {
       "title": "自2008年以来的工程卓越",
@@ -242,7 +242,7 @@
     },
     "story": {
       "title": "我们的旅程与愿景",
-      "description1": "宝尔顿工程成立于2008年，以通过创新和卓越赋能工业的愿景，一直处于工业自动化和电气工程解决方案的前沿。我们的旅程始于一个简单而强大的使命：提供推动工业增长和运营效率的尖端工程解决方案。",
+      "description1": "帕龙鼠工程成立于2008年，以通过创新和卓越赋能工业的愿景，一直处于工业自动化和电气工程解决方案的前沿。我们的旅程始于一个简单而强大的使命：提供推动工业增长和运营效率的尖端工程解决方案。",
       "description2": "多年来，我们从一个小型工程公司发展成为中国及全球工业的可信赖合作伙伴。我们经验丰富的工程师和技术专家团队不懈努力，提供不仅满足而且超越客户期望的解决方案。"
     },
     "mission": {
@@ -284,7 +284,7 @@
     "certifications": {
       "title": "认证和质量标准",
       "subtitle": "我们对质量的承诺通过行业认可的认证和合规标准得到验证。",
-      "iso9001": "ISO 9001:2015 质量管理",
+      "iso9001": "国际标准化组织九千零一：二千零一五 质量管理",
       "iso14001": "ISO 14001:2015 环境管理",
       "ohsas18001": "OHSAS 18001 职业健康与安全",
       "ceMarking": "CE标记合规",
@@ -299,14 +299,14 @@
     },
     "hero": {
       "title": "我们的项目",
-      "subtitle": "通过1200多个成功项目探索我们在不同行业的工程卓越，展现创新、质量和可靠性。"
+      "subtitle": "通过一千二百多个成功项目探索我们在不同行业的工程卓越，展现创新、质量和可靠性。"
     },
     "showing": "显示",
     "technologies": {
-      "plcprogramming": "PLC编程",
+      "plcprogramming": "可编程逻辑控制器编程",
       "scada": "SCADA系统",
       "hmi": "人机界面",
-      "industrialiot": "工业物联网",
+      "industrialiot": "工业互联网",
       "environmentalmonitoring": "环境监测",
       "predictiveanalytics": "预测分析",
       "edgecomputing": "边缘计算",
@@ -348,7 +348,7 @@
   },
   "products": {
     "seo": {
-      "title": "工业产品和自动化设备 - 宝尔顿工程",
+      "title": "工业产品和自动化设备 - 帕龙鼠工程",
       "description": "工业自动化产品、电气元件、仪表、太阳能系统、泵和工具的综合系列。用于工业应用的优质设备。"
     },
     "sections": {
@@ -397,15 +397,15 @@
   },
   "services": {
     "seo": {
-      "title": "专业工程服务 - 安装、维护与自动化 | 宝尔顿工程",
-      "description": "专业工程服务：PLC编程、SCADA系统、工业自动化、电气面板安装、维护、校准、定制解决方案和太阳能EPC服务遍布中国。"
+      "title": "专业工程服务 - 安装、维护与自动化 | 帕龙鼠工程",
+      "description": "专业工程服务：PLC编程、SCADA系统、工业自动化、电气面板安装、维护、校准、定制解决方案和太阳能工程采购建设服务遍布中国。"
     },
     "hero": {
       "title": "专业工程服务",
       "subtitle": "全面的工业自动化、电气工程和仪器仪表解决方案，旨在优化您的运营并推动业务成功。"
     },
     "whyChoose": {
-      "title": "为什么选择宝尔顿工程？"
+      "title": "为什么选择帕龙鼠工程？"
     },
     "benefits": {
       "expertTeam": {
@@ -432,8 +432,8 @@
   },
   "notFound": {
     "seo": {
-      "title": "页面未找到 (404) - 宝尔顿工程",
-      "description": "您要查找的页面不存在。返回宝尔顿工程主页或探索我们的工业自动化服务和产品。"
+      "title": "页面未找到 (404) - 帕龙鼠工程",
+      "description": "您要查找的页面不存在。返回帕龙鼠工程主页或探索我们的工业自动化服务和产品。"
     },
     "title": "404",
     "heading": "页面未找到",
@@ -452,8 +452,8 @@
   },
   "portfolioDownload": {
     "seo": {
-      "title": "下载作品集 - 宝尔顿工程",
-      "description": "下载展示宝尔顿工程工业自动化项目、能力和成就的综合作品集文档。"
+      "title": "下载作品集 - 帕龙鼠工程",
+      "description": "下载展示帕龙鼠工程工业自动化项目、能力和成就的综合作品集文档。"
     },
     "title": "作品集下载",
     "subtitle": "访问我们工业自动化项目、能力和工程卓越的综合文档。下载详细的作品集以了解更多关于我们的工作。",
@@ -496,7 +496,7 @@
       "clientTestimonials": "客户推荐",
       "processAutomation": "过程自动化",
       "controlSystems": "控制系统",
-      "scada": "SCADA",
+      "scada": "监控数据采集系统",
       "plcProgramming": "PLC编程",
       "powerDistribution": "电力分配",
       "controlPanels": "控制面板",
@@ -736,8 +736,8 @@
       },
       "categories": {
         "automation": "Automation",
-        "solarEpc": "Solar EPC",
-        "scada": "SCADA",
+        "solarEpc": "Solar 工程采购建设",
+        "scada": "监控数据采集系统",
         "instrumentation": "Instrumentation",
         "plcProgramming": "PLC Programming",
         "electrical": "Electrical"
@@ -1031,14 +1031,14 @@
         "client": "未来工业合作伙伴",
         "description": "展示完整的过程自动化能力，包括安全系统、环境监控和工业应用的批处理控制。",
         "location": "项目现场待定",
-        "duration": "8-12个月"
+        "duration": "八至十二个月"
       },
       "smart-factory-demo": {
         "title": "演示：智能工厂集成",
         "client": "当前开发客户",
         "description": "正在进行的智能工厂集成演示，展示物联网连接、预测性维护和工业4.0能力。",
         "location": "开发现场",
-        "duration": "14个月"
+        "duration": "十四个月"
       }
     },
     "categories": {
@@ -1052,11 +1052,11 @@
       "completed": "已完成"
     },
     "technologies": {
-      "plcprogramming": "PLC编程",
-      "scada": "SCADA",
-      "hmi": "HMI",
-      "industrialiot": "工业物联网",
-      "mccpanels": "MCC面板",
+      "plcprogramming": "可编程逻辑控制器编程",
+      "scada": "监控数据采集系统",
+      "hmi": "人机界面",
+      "industrialiot": "工业互联网",
+      "mccpanels": "电机控制中心面板",
       "protectionsystems": "保护系统",
       "energymanagement": "能源管理",
       "remotemonitoring": "远程监控",

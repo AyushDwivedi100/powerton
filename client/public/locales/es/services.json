@@ -16,77 +16,77 @@
     "custom-solutions": "Soluciones Personalizadas",
     "consultation-training": "Consultoría y Capacitación",
     "supply-chain-management": "Gestión de Cadena de Suministro",
-    "solar-epc": "Soluciones EPC Solares"
+    "solar-epc": "Soluciones IPC Solares"
   },
   "durations": {
-    "installation-commissioning": "1-4 semanas",
-    "maintenance-repair": "Mismo día - 1 semana",
-    "calibration-testing": "2-5 días",
+    "installation-commissioning": "una a cuatro semanas",
+    "maintenance-repair": "Mismo día - una semana",
+    "calibration-testing": "dos a cinco días",
     "technical-support": "Inmediato - Continuo",
-    "custom-solutions": "2-12 semanas",
-    "consultation-training": "1-5 días",
-    "supply-chain-management": "1-7 días",
-    "solar-epc": "4-16 semanas"
+    "custom-solutions": "dos a doce semanas",
+    "consultation-training": "uno a cinco días",
+    "supply-chain-management": "uno a siete días",
+    "solar-epc": "cuatro a dieciséis semanas"
   },
   "features": {
     "installation-commissioning": {
-      "plc-dcs": "Instalación PLC/DCS",
+      "plc-dcs": "Instalación CLP/SCD",
       "system-integration": "Integración de Sistemas",
       "performance-testing": "Pruebas de Rendimiento",
       "compliance-certification": "Certificación de Cumplimiento"
     },
     "maintenance-repair": {
       "preventive": "Mantenimiento Preventivo",
-      "emergency": "Reparaciones de Emergencia (2h)",
+      "emergency": "Reparaciones de Emergencia (dos horas)",
       "replacement": "Reemplazo de Componentes",
       "upgrades": "Actualizaciones del Sistema"
     },
     "calibration-testing": {
-      "nabl-certified": "Calibración Certificada NABL",
-      "accuracy-testing": "Pruebas de Precisión ±0.25%",
+      "nabl-certified": "Calibración Certificada junta nacional de acreditación para laboratorios",
+      "accuracy-testing": "Pruebas de Precisión ±cero coma veinticinco por ciento",
       "compliance": "Verificación de Cumplimiento",
       "certificates": "Certificados de Trazabilidad"
     },
     "technical-support": {
-      "24-7-support": "Soporte 24/7/365",
+      "24-7-support": "Soporte veinticuatro siete trescientos sesenta y cinco",
       "remote-diagnostics": "Diagnósticos Remotos",
-      "onsite-response": "Respuesta en Sitio 4h",
+      "onsite-response": "Respuesta en Sitio cuatro horas",
       "emergency-hotline": "Línea de Emergencia"
     },
     "custom-solutions": {
-      "mcc-panels": "Paneles MCC Personalizados",
+      "mcc-panels": "Paneles CCM Personalizados",
       "process-automation": "Automatización de Procesos",
       "unique-applications": "Aplicaciones Únicas",
       "end-to-end": "Soluciones Completas"
     },
     "consultation-training": {
-      "plc-programming": "Capacitación en Programación PLC",
+      "plc-programming": "Capacitación en Programación CLP",
       "system-design": "Consultoría de Diseño de Sistemas",
-      "isa-certified": "Módulos Certificados ISA",
+      "isa-certified": "Módulos Certificados sociedad internacional de automatización",
       "hands-on": "Talleres Prácticos"
     },
     "supply-chain-management": {
       "authorized-distributors": "Distribuidores Autorizados",
       "genuine-parts": "Solo Piezas Genuinas",
-      "warranty": "Garantía de 1 Año",
+      "warranty": "Garantía de un año",
       "express-delivery": "Entrega Express"
     },
     "solar-epc": {
-      "mnre-approved": "Diseños Aprobados MNRE",
+      "mnre-approved": "Diseños Aprobados ministerio de energías nuevas y renovables",
       "capacity": "Capacidad 1kW a 1MW+",
       "guarantee": "Garantía de 25 Años",
       "grid-connection": "Soporte de Conexión a Red"
     }
   },
   "descriptions": {
-    "installation-commissioning": "Servicios profesionales de instalación y puesta en marcha para paneles eléctricos, PLCs, sistemas SCADA y equipos industriales con validación completa del sistema.",
+    "installation-commissioning": "Servicios profesionales de instalación y puesta en marcha para paneles eléctricos, CLPs, sistemas SCADA y equipos industriales con validación completa del sistema.",
     "maintenance-repair": "Servicios integrales de mantenimiento preventivo y de emergencia para sistemas eléctricos, paneles de control y equipos de automatización industrial.",
-    "calibration-testing": "Servicios de calibración y pruebas de precisión certificados por NABL para instrumentos de presión, temperatura, flujo y sistemas de control.",
-    "technical-support": "Servicios de soporte técnico 24/7/365 con diagnósticos remotos, solución de problemas en sitio y respuesta de emergencia.",
-    "custom-solutions": "Soluciones de ingeniería personalizadas para requisitos industriales únicos, incluyendo paneles MCC personalizados, sistemas de automatización y soluciones de control de procesos.",
-    "consultation-training": "Consultoría técnica experta y programas de capacitación práctica para programación PLC, desarrollo HMI y automatización industrial.",
+    "calibration-testing": "Servicios de calibración y pruebas de precisión certificados por junta nacional de acreditación para laboratorios para instrumentos de presión, temperatura, flujo y sistemas de control.",
+    "technical-support": "Servicios de soporte técnico veinticuatro siete trescientos sesenta y cinco con diagnósticos remotos, solución de problemas en sitio y respuesta de emergencia.",
+    "custom-solutions": "Soluciones de ingeniería personalizadas para requisitos industriales únicos, incluyendo paneles CCM personalizados, sistemas de automatización y soluciones de control de procesos.",
+    "consultation-training": "Consultoría técnica experta y programas de capacitación práctica para programación CLP, desarrollo HMI y automatización industrial.",
     "supply-chain-management": "Gestión integral de cadena de suministro para componentes eléctricos y repuestos. La red de distribuidores autorizados garantiza piezas genuinas.",
-    "solar-epc": "Servicios completos de Ingeniería, Adquisiciones y Construcción Solar para proyectos de 1kW a 1MW+. Diseños aprobados por MNRE con garantía de rendimiento de 25 años."
+    "solar-epc": "Servicios completos de Ingeniería, Adquisiciones y Construcción Solar para proyectos de 1kW a 1MW+. Diseños aprobados por ministerio de energías nuevas y renovables con garantía de rendimiento de 25 años."
   },
   "serviceDetails": {
     "technicalSupport": {

@@ -12,26 +12,26 @@
     },
     "latestNews": {
       "excellenceAward": {
-        "title": "Powerton Engineering Gana el Premio de Excelencia 2024",
+        "title": "Powerton Engineering Gana el Premio de Excelencia dos mil veinticuatro",
         "category": "Premios",
         "excerpt": "Reconocida por la innovación sobresaliente en automatización industrial y soluciones de ingeniería eléctrica."
       },
       "ntpcContract": {
-        "title": "Contrato Principal NTPC Asegurado para Automatización de Planta",
+        "title": "Contrato Principal Corporación Nacional de Energía Térmica Asegurado para Automatización de Planta",
         "category": "Contratos",
-        "excerpt": "Otorgado contrato integral de automatización para proyecto de modernización de planta térmica de 500MW."
+        "excerpt": "Otorgado contrato integral de automatización para proyecto de modernización de planta térmica de 500 megavatios."
       },
       "renewableExpansion": {
         "title": "Expansión de Soluciones de Energía Renovable en India",
         "category": "Expansión",
-        "excerpt": "Nuevas capacidades EPC solares y asociaciones para apoyar la transición de energía renovable de India."
+        "excerpt": "Nuevas capacidades IPC solares y asociaciones para apoyar la transición de energía renovable de India."
       }
     }
   },
   "projects": {
     "hero": {
       "title": "Portafolio de Excelencia en Ingeniería",
-      "subtitle": "Descubra nuestra excelencia en ingeniería a través de más de 1200 proyectos exitosos en diversas industrias, mostrando innovación, calidad y confiabilidad."
+      "subtitle": "Descubra nuestra excelencia en ingeniería a través de más de mil doscientos proyectos exitosos en diversas industrias, mostrando innovación, calidad y confiabilidad."
     },
     "portfolioDescription": "Explore nuestras capacidades de ingeniería a través de proyectos de demostración que muestran soluciones innovadoras en varias industrias. El portafolio de proyectos reales vendrá pronto.",
     "showing": "Mostrando {{count}} proyectos",
@@ -46,10 +46,10 @@
       "solarsolutions": "Soluciones Solares"
     },
     "technologies": {
-      "plcprogramming": "Programación PLC",
-      "scada": "SCADA",
-      "hmi": "HMI",
-      "mccpanels": "Paneles MCC",
+      "plcprogramming": "Programación CLP",
+      "scada": "CSAD",
+      "hmi": "IHM",
+      "mccpanels": "Paneles CCM",
       "protectionsystems": "Sistemas de Protección",
       "energymanagement": "Gestión de Energía",
       "solarinverters": "Inversores Solares",
@@ -58,7 +58,7 @@
       "processcontrol": "Control de Procesos",
       "safetysystems": "Sistemas de Seguridad",
       "environmentalmonitoring": "Monitoreo Ambiental",
-      "industrialiot": "IoT Industrial",
+      "industrialiot": "IdC Industrial",
       "predictiveanalytics": "Análisis Predictivo",
       "edgecomputing": "Computación de Borde"
     },
@@ -69,14 +69,14 @@
         "client": "Socio Industrial Futuro",
         "description": "Demostración de capacidades completas de automatización de procesos incluyendo sistemas de seguridad, monitoreo ambiental y control por lotes para aplicaciones industriales.",
         "location": "Sitio de Proyecto por definir",
-        "duration": "8-12 meses"
+        "duration": "ocho-doce meses"
       },
       "smart-factory-progress": {
         "title": "Demo: Integración de Fábrica Inteligente",
         "client": "Cliente de Desarrollo Actual",
         "description": "Demostración continua de integración de fábrica inteligente mostrando conectividad IoT, mantenimiento predictivo y optimización basada en datos para manufactura moderna.",
         "location": "Sitio de Desarrollo",
-        "duration": "14 meses"
+        "duration": "catorce meses"
       }
     },
     "cta": {
@@ -103,8 +103,8 @@
         "requestConsultation": "Solicitar Consulta"
       },
       "features": {
-        "experience": "Más de 15 Años de Experiencia",
-        "support": "Soporte Técnico 24/7",
+        "experience": "Más de quince Años de Experiencia",
+        "support": "Soporte Técnico veinticuatro/siete",
         "service": "Servicio Global"
       },
       "stats": {
@@ -177,7 +177,7 @@
       "methods": {
         "phone": {
           "title": "Teléfono",
-          "description": "Soporte de emergencia 24/7"
+          "description": "Soporte de emergencia veinticuatro/siete"
         },
         "email": {
           "title": "Correo Electrónico",
@@ -262,13 +262,13 @@
       "subtitle": "¿Listo para comenzar su próximo proyecto? Nuestro equipo de expertos está aquí para ayudarle con soluciones de ingeniería personalizadas y consulta profesional.",
       "benefits": {
         "consultation": "Consulta Gratuita",
-        "support": "Soporte de Emergencia 24/7",
+        "support": "Soporte de Emergencia veinticuatro/siete",
         "experience": "15+ Años de Experiencia"
       }
     },
     "methods": {
       "title": "Múltiples Formas de Contactarnos",
-      "subtitle": "Elija el método de comunicación que mejor funcione para usted. Estamos disponibles 24/7 para soporte de emergencia."
+      "subtitle": "Elija el método de comunicación que mejor funcione para usted. Estamos disponibles veinticuatro/siete para soporte de emergencia."
     },
     "form": {
       "title": "Envíenos un Mensaje",
@@ -277,7 +277,7 @@
     "contactMethods": {
       "phone": {
         "title": "Llámenos Directamente",
-        "subtitle": "Disponible 24/7 para soporte",
+        "subtitle": "Disponible veinticuatro/siete para soporte",
         "description": "Hable directamente con nuestro equipo técnico"
       },
       "email": {
@@ -340,7 +340,7 @@
       },
       "emergency": {
         "title": "Soporte de Emergencia",
-        "availability": "Disponibilidad 24/7",
+        "availability": "Disponibilidad veinticuatro/siete",
         "days": "Todos los Días"
       },
       "email": {
@@ -351,12 +351,12 @@
     },
     "emergency": {
       "title": "Soporte de Emergencia",
-      "description": "¿Falla crítica del sistema? Nuestro equipo de respuesta de emergencia está disponible 24/7 para ayudar a minimizar el tiempo de inactividad.",
+      "description": "¿Falla crítica del sistema? Nuestro equipo de respuesta de emergencia está disponible veinticuatro/siete para ayudar a minimizar el tiempo de inactividad.",
       "hotline": "Línea Directa de Emergencia"
     },
     "seo": {
       "title": "Contactar Powerton Engineering - Obtener Soporte de Ingeniería Experto",
-      "description": "Contacte a Powerton Engineering para automatización industrial, ingeniería eléctrica y servicios de instrumentación. Soporte 24/7 disponible. Ubicado en Noida, sirviendo toda la India.",
+      "description": "Contacte a Powerton Engineering para automatización industrial, ingeniería eléctrica y servicios de instrumentación. Soporte veinticuatro/siete disponible. Ubicado en Noida, sirviendo toda la India.",
       "keywords": "contactar powerton engineering, soporte automatización industrial, contacto ingeniería eléctrica, servicios instrumentación, empresa ingeniería Noida, soporte técnico India"
     }
   },
@@ -367,18 +367,18 @@
     },
     "hero": {
       "title": "Nuestros Proyectos",
-      "subtitle": "Descubra nuestra excelencia en ingeniería a través de más de 1200 proyectos exitosos en diversas industrias, mostrando innovación, calidad y confiabilidad."
+      "subtitle": "Descubra nuestra excelencia en ingeniería a través de más de mil doscientos proyectos exitosos en diversas industrias, mostrando innovación, calidad y confiabilidad."
     },
     "showing": "Mostrando",
     "technologies": {
       "plcprogramming": "Programación de PLC",
       "scada": "Sistemas SCADA",
       "hmi": "Interfaz Hombre-Máquina",
-      "industrialiot": "IoT Industrial",
+      "industrialiot": "IdC Industrial",
       "environmentalmonitoring": "Monitoreo Ambiental",
       "predictiveanalytics": "Análisis Predictivo",
       "edgecomputing": "Computación en el Borde",
-      "mccpanels": "Paneles MCC",
+      "mccpanels": "Paneles CCM",
       "protectionsystems": "Sistemas de Protección",
       "energymanagement": "Gestión de Energía",
       "remotemonitoring": "Monitoreo Remoto"
@@ -549,8 +549,8 @@
         "category": "Premios"
       },
       "ntpcContract": {
-        "title": "Contrato Mayor de Automatización de Planta Eléctrica Asegurado con NTPC",
-        "excerpt": "Powerton Engineering ha asegurado un contrato significativo por valor de ₹5 Crores con NTPC para la automatización de su nueva planta térmica en Gujarat, que se espera completar en el Q3 2025.",
+        "title": "Contrato Mayor de Automatización de Planta Eléctrica Asegurado con Corporación Nacional de Energía Térmica",
+        "excerpt": "Powerton Engineering ha asegurado un contrato significativo por valor de ₹5 Crores con Corporación Nacional de Energía Térmica para la automatización de su nueva planta térmica en Gujarat, que se espera completar en el Q3 2025.",
         "category": "Negocios"
       },
       "renewableExpansion": {
@@ -564,7 +564,7 @@
         "Solución de Ingeniería Sobresaliente - Excelencia en Manufactura CII",
         "Premio a la Excelencia en Seguridad - Consejo Nacional de Seguridad"
       ],
-      "2024": [
+      "dos mil veinticuatro": [
         "Premio a la Excelencia en Automatización Industrial - Sociedad de Ingenieros de la India",
         "Mejor Innovación en Control de Procesos - Premios Automation India",
         "Certificación de Gestión de Calidad ISO 9001:2015",
@@ -573,7 +573,7 @@
       "title": "Logros Recientes",
       "list": {
         "0": "Premio de Excelencia en Automatización Industrial - Sociedad de Ingenieros de la India",
-        "1": "Mejor Proveedor de Servicios de Ingeniería - Premios Automation World 2024",
+        "1": "Mejor Proveedor de Servicios de Ingeniería - Premios Automation World dos mil veinticuatro",
         "2": "Premio de Implementación de Energía Verde - Reconocimiento MNRE",
         "3": "Innovación en Control de Procesos - Premios IET India",
         "4": "Premio de Excelencia al Cliente - Asociación de Automatización Industrial"
@@ -761,7 +761,7 @@
         },
         "supportCenter": {
           "title": "Centro de Soporte al Cliente",
-          "description": "Soporte al cliente dedicado 24/7 y asistencia técnica"
+          "description": "Soporte al cliente dedicado veinticuatro/siete y asistencia técnica"
         },
         "rdWing": {
           "title": "Ala de Investigación y Desarrollo",
@@ -812,7 +812,7 @@
       "categories": {
         "automation": "Automatización",
         "solarEpc": "EPC Solar",
-        "scada": "SCADA",
+        "scada": "CSAD",
         "instrumentation": "Instrumentación",
         "plcProgramming": "Programación de PLC",
         "electrical": "Eléctrico"
@@ -963,7 +963,7 @@
       "clientTestimonials": "Testimonios de Clientes",
       "processAutomation": "Automatización de Procesos",
       "controlSystems": "Sistemas de Control",
-      "scada": "SCADA",
+      "scada": "CSAD",
       "plcProgramming": "Programación PLC",
       "powerDistribution": "Distribución de Energía",
       "controlPanels": "Paneles de Control",
@@ -993,7 +993,7 @@
   "services": {
     "seo": {
       "title": "Servicios Profesionales de Ingeniería - Instalación, Mantenimiento y Automatización | Powerton Engineering",
-      "description": "Servicios expertos de ingeniería: programación PLC, sistemas SCADA, automatización industrial, instalación de paneles eléctricos, mantenimiento, calibración, soluciones personalizadas y servicios EPC solares a nivel mundial."
+      "description": "Servicios expertos de ingeniería: programación PLC, sistemas SCADA, automatización industrial, instalación de paneles eléctricos, mantenimiento, calibración, soluciones personalizadas y servicios IPC solares a nivel mundial."
     },
     "hero": {
       "title": "Servicios Profesionales de Ingeniería",

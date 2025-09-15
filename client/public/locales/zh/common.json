@@ -31,7 +31,7 @@
     "backToSafetyDevices": "返回安全防护设备",
     "backToIndustrialTools": "返回工业工具设备",
     "backToAutomationSystems": "返回自动化控制系统",
-    "backToBLDC": "返回无刷直流电机产品 (BLDC)",
+    "backToBLDC": "返回无刷直流电机产品",
     "phoneNumbers": "电话号码",
     "backToInstrumentationComponents": "返回仪表组件"
   },
@@ -39,12 +39,12 @@
     "anand": {
       "name": "阿南德·阿瓦斯蒂",
       "location": "西孟加拉邦",
-      "comment": "Powerton工程让我们的太阳能项目变得无缝且简单。他们的团队从头到尾处理一切，我们对结果非常满意。"
+      "comment": "帕龙鼠工程让我们的太阳能项目变得无缝且简单。他们的团队从头到尾处理一切，我们对结果非常满意。"
     },
     "sanjay": {
       "name": "桑杰·帕蒂尔",
       "location": "北方邦",
-      "comment": "我很高兴为我们的安装选择了Powerton工程，我毫不犹豫地向我的任何朋友推荐他们。"
+      "comment": "我很高兴为我们的安装选择了帕龙鼠工程，我毫不犹豫地向我的任何朋友推荐他们。"
     },
     "rhea": {
       "name": "瑞亚·夏尔马",
@@ -54,7 +54,7 @@
     "priya": {
       "name": "普里亚·梅塔",
       "location": "古吉拉特邦",
-      "comment": "与Powerton工程合作是一次美妙的体验。他们的自动化解决方案改变了我们的制造流程，提高了35%的效率。强烈推荐工业自动化项目。"
+      "comment": "与帕龙鼠工程合作是一次美妙的体验。他们的自动化解决方案改变了我们的制造流程，提高了百分之三十五的效率。强烈推荐工业自动化项目。"
     },
     "kavya": {
       "name": "卡维娅·辛格",
@@ -64,25 +64,25 @@
     "rajesh": {
       "name": "拉杰什·库马尔",
       "location": "泰米尔纳德邦",
-      "comment": "Powerton工程完全兑现了他们的承诺。他们安装的仪表系统已经完美运行了两年多。他们的售后支持非常出色且始终响应迅速。"
+      "comment": "帕龙鼠工程完全兑现了他们的承诺。他们安装的仪表系统已经完美运行了两年多。他们的售后支持非常出色且始终响应迅速。"
     }
   },
   "technicalTerms": {
-    "BLDC": "BLDC (无刷直流电机)",
-    "PLC": "PLC (可编程逻辑控制器)",
-    "SCADA": "SCADA (监控和数据采集)",
-    "HMI": "HMI (人机界面)",
-    "DCS": "DCS (分布式控制系统)",
-    "VFD": "VFD (变频驱动器)",
-    "MCC": "MCC (电机控制中心)",
-    "PCC": "PCC (电源控制中心)",
-    "RTU": "RTU (远程终端单元)",
-    "IED": "IED (智能电子设备)",
-    "NABL": "NABL (国家测试和校准实验室认证委员会)",
-    "MNRE": "MNRE (新能源和可再生能源部)",
-    "CPRI": "CPRI (中央电力研究院)",
-    "ISO": "ISO (国际标准化组织)",
-    "IEEE": "IEEE (电气电子工程师学会)"
+    "BLDC": "无刷直流电机",
+    "PLC": "可编程逻辑控制器",
+    "SCADA": "监控和数据采集系统",
+    "HMI": "人机界面",
+    "DCS": "分布式控制系统",
+    "VFD": "变频驱动器",
+    "MCC": "电机控制中心",
+    "PCC": "电源控制中心",
+    "RTU": "远程终端单元",
+    "IED": "智能电子设备",
+    "NABL": "国家测试和校准实验室认证委员会",
+    "MNRE": "新能源和可再生能源部",
+    "CPRI": "中央电力研究院",
+    "ISO": "国际标准化组织",
+    "IEEE": "电气电子工程师学会"
   },
   "buttons": {
     "downloadPortfolio": "下载作品集",
@@ -95,7 +95,7 @@
     "previous": "上一步",
     "complete": "完成",
     "backTo": "返回{{category}}",
-    "backToBldcProducts": "返回无刷直流电机产品 (BLDC)",
+    "backToBldcProducts": "返回无刷直流电机产品",
     "backToProducts": "返回产品",
     "requestQuote": "请求报价",
     "expertTeam": "专家团队",

@@ -16,77 +16,77 @@
     "custom-solutions": "定制解决方案",
     "consultation-training": "咨询和培训",
     "supply-chain-management": "供应链管理",
-    "solar-epc": "太阳能EPC解决方案"
+    "solar-epc": "太阳能工程采购建设解决方案"
   },
   "durations": {
-    "installation-commissioning": "1-4周",
-    "maintenance-repair": "当天 - 1周",
-    "calibration-testing": "2-5天",
+    "installation-commissioning": "一至四周",
+    "maintenance-repair": "当天 - 一周",
+    "calibration-testing": "二至五天",
     "technical-support": "立即 - 持续",
-    "custom-solutions": "2-12周",
-    "consultation-training": "1-5天",
-    "supply-chain-management": "1-7天",
-    "solar-epc": "4-16周"
+    "custom-solutions": "二至十二周",
+    "consultation-training": "一至五天",
+    "supply-chain-management": "一至七天",
+    "solar-epc": "四至十六周"
   },
   "features": {
     "installation-commissioning": {
-      "plc-dcs": "PLC/DCS安装",
+      "plc-dcs": "可编程逻辑控制器/分布式控制系统安装",
       "system-integration": "系统集成",
       "performance-testing": "性能测试",
       "compliance-certification": "合规认证"
     },
     "maintenance-repair": {
       "preventive": "预防性维护",
-      "emergency": "紧急维修（2小时）",
+      "emergency": "紧急维修（二小时）",
       "replacement": "组件更换",
       "upgrades": "系统升级"
     },
     "calibration-testing": {
-      "nabl-certified": "NABL认证校准",
-      "accuracy-testing": "±0.25%精度测试",
+      "nabl-certified": "国家测试和校准实验室认证委员会认证校准",
+      "accuracy-testing": "正负零点二五百分比精度测试",
       "compliance": "合规验证",
       "certificates": "可追溯性证书"
     },
     "technical-support": {
-      "24-7-support": "24/7/365支持",
+      "24-7-support": "全天候二十四小时七天三百六十五天支持",
       "remote-diagnostics": "远程诊断",
-      "onsite-response": "4小时现场响应",
+      "onsite-response": "四小时现场响应",
       "emergency-hotline": "紧急热线"
     },
     "custom-solutions": {
-      "mcc-panels": "定制MCC面板",
+      "mcc-panels": "定制电机控制中心面板",
       "process-automation": "过程自动化",
       "unique-applications": "独特应用",
       "end-to-end": "端到端解决方案"
     },
     "consultation-training": {
-      "plc-programming": "PLC编程培训",
+      "plc-programming": "可编程逻辑控制器编程培训",
       "system-design": "系统设计咨询",
-      "isa-certified": "ISA认证模块",
+      "isa-certified": "国际自动化学会认证模块",
       "hands-on": "实践研讨会"
     },
     "supply-chain-management": {
       "authorized-distributors": "授权经销商",
       "genuine-parts": "仅正品零件",
-      "warranty": "1年保修",
+      "warranty": "一年保修",
       "express-delivery": "快递配送"
     },
     "solar-epc": {
-      "mnre-approved": "MNRE批准设计",
+      "mnre-approved": "新能源和可再生能源部批准设计",
       "capacity": "1kW至1MW+容量",
       "guarantee": "25年保证",
       "grid-connection": "并网支持"
     }
   },
   "descriptions": {
-    "installation-commissioning": "为电气面板、PLC、SCADA系统和工业设备提供专业安装和调试服务，包括完整的系统验证。",
+    "installation-commissioning": "为电气面板、可编程逻辑控制器、SCADA系统和工业设备提供专业安装和调试服务，包括完整的系统验证。",
     "maintenance-repair": "为电气系统、控制面板和工业自动化设备提供全面的预防性和应急维护服务。",
-    "calibration-testing": "为压力、温度、流量仪表和控制系统提供NABL认证的精密校准和测试服务。",
-    "technical-support": "24/7/365技术支持服务，包括远程诊断、现场故障排除和紧急响应。",
-    "custom-solutions": "为独特的工业需求提供定制工程解决方案，包括定制MCC面板、自动化系统和过程控制解决方案。",
-    "consultation-training": "PLC编程、HMI开发和工业自动化的专家技术咨询和实践培训课程。",
+    "calibration-testing": "为压力、温度、流量仪表和控制系统提供国家测试和校准实验室认证委员会认证的精密校准和测试服务。",
+    "technical-support": "全天候二十四小时七天三百六十五天技术支持服务，包括远程诊断、现场故障排除和紧急响应。",
+    "custom-solutions": "为独特的工业需求提供定制工程解决方案，包括定制电机控制中心面板、自动化系统和过程控制解决方案。",
+    "consultation-training": "可编程逻辑控制器编程、HMI开发和工业自动化的专家技术咨询和实践培训课程。",
     "supply-chain-management": "电气元件和备件的综合供应链管理。授权经销商网络确保正品零件。",
-    "solar-epc": "为1kW到1MW+项目提供完整的太阳能工程、采购和建设服务。MNRE批准的设计，25年性能保证。"
+    "solar-epc": "为1kW到1MW+项目提供完整的太阳能工程、采购和建设服务。新能源和可再生能源部批准的设计，25年性能保证。"
   },
   "serviceDetails": {
     "sectionTitles": {

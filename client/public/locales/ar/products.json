@@ -2,71 +2,71 @@
   "title": "منتجاتنا",
   "subtitle": "الأتمتة الصناعية والمكونات الكهربائية",
   "bldcCeilingFan": {
-    "smart1200": {
-      "title": "مروحة سقف BLDC ذكية 1200 مم",
+    "smart١٢٠٠": {
+      "title": "مروحة سقف بدون فرش التيار المستمر ذكية ١٢٠٠ مم",
       "description": "مروحة سقف موفرة للطاقة مع جهاز تحكم عن بعد ووظيفة مؤقت",
-      "features": ["استهلاك طاقة 28 واط", "جهاز تحكم عن بعد", "5 إعدادات سرعة", "وظيفة المؤقت"]
+      "features": ["استهلاك طاقة ٢٨ واط", "جهاز تحكم عن بعد", "٥ إعدادات سرعة", "وظيفة المؤقت"]
     },
-    "premium1400": {
-      "title": "مروحة سقف BLDC بريميوم 1400 مم",
-      "description": "مروحة سقف عالية الأداء مع إضاءة LED ومحرك قابل للعكس",
-      "features": ["استهلاك طاقة 35 واط", "إضاءة LED متكاملة", "محرك قابل للعكس", "تشغيل صامت"]
+    "premium١٤٠٠": {
+      "title": "مروحة سقف بدون فرش التيار المستمر بريميوم ١٤٠٠ مم",
+      "description": "مروحة سقف عالية الأداء مع إضاءة دايود باعث للضوء ومحرك قابل للعكس",
+      "features": ["استهلاك طاقة ٣٥ واط", "إضاءة دايود باعث للضوء متكاملة", "محرك قابل للعكس", "تشغيل صامت"]
     },
-    "commercial1500": {
-      "title": "مروحة سقف BLDC تجارية 1500 مم",
+    "commercial١٥٠٠": {
+      "title": "مروحة سقف بدون فرش التيار المستمر تجارية ١٥٠٠ مم",
       "description": "مروحة سقف متينة للتطبيقات التجارية والصناعية",
-      "features": ["استهلاك طاقة 45 واط", "محرك متين", "تدفق هواء عالي", "بناء متين"]
+      "features": ["استهلاك طاقة ٤٥ واط", "محرك متين", "تدفق هواء عالي", "بناء متين"]
     }
   },
   "bldcCoolerExhaust": {
     "exhaustFan": {
-      "title": "محرك مروحة العادم BLDC",
+      "title": "محرك مروحة العادم بدون فرش التيار المستمر",
       "description": "محرك عالي الكفاءة بدون فرش للتطبيقات مروحة العادم",
       "features": ["تحكم سرعة متغيرة", "تشغيل منخفض الضوضاء", "تصميم موفر للطاقة", "عمر ممتد"]
     },
     "coolerMotors": {
-      "title": "محرك المبرد BLDC",
+      "title": "محرك المبرد بدون فرش التيار المستمر",
       "description": "محرك موفر للطاقة مصمم لتطبيقات مبرد الهواء",
       "features": ["خرج عزم دوران عالي", "مقاوم للطقس", "تحكم السرعة", "تشغيل خالي من الصيانة"]
     },
     "ventilation": {
-      "title": "محرك نظام التهوية BLDC",
+      "title": "محرك نظام التهوية بدون فرش التيار المستمر",
       "description": "محرك متخصص لأنظمة التهوية الصناعية ومناولة الهواء",
-      "features": ["تصنيف CFM عالي", "مقدر للحرارة", "مقاوم للاهتزاز", "متوافق مع التحكم الذكي"]
+      "features": ["تصنيف قدم مكعب في الدقيقة عالي", "مقدر للحرارة", "مقاوم للاهتزاز", "متوافق مع التحكم الذكي"]
     }
   },
   "bldcPumps": {
     "solarSubmersible1hp": {
-      "title": "مضخة BLDC غاطسة شمسية 1 حصان",
+      "title": "مضخة بدون فرش التيار المستمر غاطسة شمسية 1 حصان",
       "description": "مضخة غاطسة تعمل بالطاقة الشمسية لآبار المياه وتطبيقات الثقوب",
       "features": ["تشغيل متوافق شمسي", "قوة محرك 1 حصان", "تصميم عالي الكفاءة", "بناء مبرد بالماء"]
     },
     "dcSurface2hp": {
-      "title": "مضخة سطحية DC 2 حصان",
+      "title": "مضخة سطحية تيار مستمر ٢ حصان",
       "description": "مضخة سطحية عالية الكفاءة للري ونقل المياه",
       "features": ["تقييم طاقة 2 حصان", "تصميم ذاتي التحضير", "حماية التشغيل الجاف", "تحكم سرعة متغيرة"]
     },
     "hybridSystem": {
-      "title": "نظام مضخة BLDC هجين",
+      "title": "نظام مضخة بدون فرش التيار المستمر هجين",
       "description": "نظام مضخة ذكي مع قدرة احتياطية شمسية وشبكة",
       "features": ["وضع تشغيل هجين", "وحدة تحكم ذكية", "مراقبة عن بعد", "تحسين الطاقة"]
     }
   },
   "bldcFans": {
     "tableFan": {
-      "title": "محرك مروحة طاولة BLDC",
+      "title": "محرك مروحة طاولة بدون فرش التيار المستمر",
       "description": "محرك تيار مستمر بدون فرش مدمج لتطبيقات مراوح الطاولة والمكتب",
       "features": ["تصميم مدمج", "تشغيل صامت", "تحكم عن بعد", "وظيفة المؤقت"]
     },
     "wallFan": {
-      "title": "محرك مروحة حائط BLDC", 
-      "description": "محرك مروحة معلقة على الحائط بتقنية BLDC للاستخدام السكني",
+      "title": "محرك مروحة حائط بدون فرش التيار المستمر", 
+      "description": "محرك مروحة معلقة على الحائط بتقنية بدون فرش التيار المستمر للاستخدام السكني",
       "features": ["تصميم حائطي", "وظيفة الدوران", "تحكم السرعة", "تشغيل موفر للطاقة"]
     },
     "pedestalFan": {
-      "title": "محرك مروحة عمودية BLDC",
-      "description": "محرك مروحة عمودية قابل للتعديل بالارتفاع مع شاشة LED",
-      "features": ["تعديل الارتفاع", "وظيفة الميل", "شاشة LED", "مؤقت وضع النوم"]
+      "title": "محرك مروحة عمودية بدون فرش التيار المستمر",
+      "description": "محرك مروحة عمودية قابل للتعديل بالارتفاع مع شاشة دايود باعث للضوء",
+      "features": ["تعديل الارتفاع", "وظيفة الميل", "شاشة دايود باعث للضوء", "مؤقت وضع النوم"]
     }
   },
   "cablesWires": {
@@ -78,24 +78,24 @@
     "powerDistribution": {
       "title": "كابلات توزيع الطاقة",
       "description": "كابلات عالية الجهد لأنظمة نقل وتوزيع الطاقة",
-      "features": ["عزل XLPE", "بناء مدرع", "مقاوم للحريق", "تقييم تيار عالي"]
+      "features": ["عزل بولي إيثيلين متصالب", "بناء مدرع", "مقاوم للحريق", "تقييم تيار عالي"]
     },
     "communication": {
       "title": "كابلات الاتصالات",
       "description": "كابلات نقل البيانات لشبكات الاتصالات الصناعية",
-      "features": ["معايير Cat5e/Cat6", "خيارات الألياف البصرية", "درجة صناعية", "حماية EMI"]
+      "features": ["معايير فئة ٥ه/فئة ٦", "خيارات الألياف البصرية", "درجة صناعية", "حماية تداخل كهرومغناطيسي"]
     }
   },
   "circuitBreakers": {
     "mcb": {
-      "title": "قواطع دوائر مصغرة (MCB)",
+      "title": "قواطع دوائر مصغرة (قاطع دائرة مصغر)",
       "description": "قواطع دوائر منخفضة الجهد للحماية السكنية والتجارية",
-      "features": ["منحنيات التشغيل B/C/D", "تقييم 6-63A", "قدرة قطع 10kA", "تركيب DIN Rail"]
+      "features": ["منحنيات التشغيل ب/ج/د", "تقييم ٦-٦٣أ", "قدرة قطع ١٠ كيلو أمبير", "تركيب قضيب دين"]
     },
     "mccb": {
-      "title": "قواطع دوائر مصبوبة (MCCB)",
+      "title": "قواطع دوائر مصبوبة (قاطع دائرة مقولب)",
       "description": "قواطع دوائر صناعية لحماية المحركات والمعدات الكهربائية",
-      "features": ["إعدادات تشغيل قابلة للتعديل", "قدرة قطع عالية", "وحدات تشغيل إلكترونية", "تقييم حتى 1600A"]
+      "features": ["إعدادات تشغيل قابلة للتعديل", "قدرة قطع عالية", "وحدات تشغيل إلكترونية", "تقييم حتى ١٦٠٠أ"]
     },
     "industrialFuses": {
       "title": "المصهرات الصناعية",
@@ -107,12 +107,12 @@
     "terminalBlocks": {
       "title": "كتل طرفية صناعية",
       "description": "كتل طرفية آمنة لاتصالات الأسلاك الصناعية",
-      "features": ["تقنية المشبك الزنبركي", "اتصالات نوع برغي", "تركيب DIN Rail", "خيارات أحجام متعددة"]
+      "features": ["تقنية المشبك الزنبركي", "اتصالات نوع برغي", "تركيب قضيب دين", "خيارات أحجام متعددة"]
     },
     "industrialConnectors": {
       "title": "موصلات صناعية",
       "description": "موصلات شديدة التحمل للتطبيقات الصناعية المتطلبة",
-      "features": ["تقييم حماية IP67", "آلية قفل", "تكوين متعدد الأطراف", "تكامل Cable Gland"]
+      "features": ["تقييم حماية درجة حماية صناعية ٦٧", "آلية قفل", "تكوين متعدد الأطراف", "تكامل وصلة الكابل"]
     },
     "signalConnectors": {
       "title": "موصلات الإشارات",
@@ -125,7 +125,7 @@
     "electrical": "المكونات الكهربائية",
     "instrumentation": "الأجهزة",
     "solar": "المنتجات الشمسية",
-    "motors": "أنظمة محركات BLDC",
+    "motors": "أنظمة محركات بدون فرش التيار المستمر",
     "pumps": "مضخات ومحركات",
     "safety": "معدات الأمان",
     "tools": "أدوات صناعية",
@@ -209,7 +209,7 @@
       }
     },
     "bldc": {
-      "title": "منتجات BLDC",
+      "title": "منتجات بدون فرش التيار المستمر",
       "description": "منتجات محركات التيار المستمر عديمة الفرش للتطبيقات الموفرة للطاقة",
       "features": {
         "energy-efficient": "موفر للطاقة",
@@ -487,7 +487,7 @@
     },
     "bldc-cooler-exhaust-motor": {
       "title": "محرك بدون فرش التيار المستمر للتبريد/العادم",
-      "description": "محركات BLDC موفرة للطاقة للتبريد والتهوية"
+      "description": "محركات بدون فرش التيار المستمر موفرة للطاقة للتبريد والتهوية"
     },
     "bldc-ceiling-fan": {
       "title": "مروحة السقف بدون فرش التيار المستمر",
@@ -495,11 +495,11 @@
     },
     "bldc-submersible-surface-pump": {
       "title": "مضخة بدون فرش التيار المستمر الغاطسة/السطحية",
-      "description": "مضخات BLDC تعمل بالطاقة الشمسية لتطبيقات المياه"
+      "description": "مضخات بدون فرش التيار المستمر تعمل بالطاقة الشمسية لتطبيقات المياه"
     },
     "bldc-table-fan-wall-fan-motor": {
       "title": "محرك مروحة بدون فرش التيار المستمر للطاولة/الحائط",
-      "description": "محركات BLDC مدمجة للمراوح المحمولة والمثبتة على الحائط"
+      "description": "محركات بدون فرش التيار المستمر مدمجة للمراوح المحمولة والمثبتة على الحائط"
     }
   },
   "filters": {
@@ -632,10 +632,10 @@
       "dcOutput": "12V/24V DC Output",
       "highEfficiency": "High Efficiency",
       "compactDesign": "Compact Design",
-      "dinRailMount": "DIN Rail Mount",
+      "dinRailMount": "قضيب دين Mount",
       "wideInputRange": "Wide Input Range",
       "shortCircuitProtection": "Short Circuit Protection",
-      "ledStatus": "LED Status",
+      "ledStatus": "دايود باعث للضوء Status",
       "batteryBackup": "Battery Backup",
       "surgeProtection": "Surge Protection",
       "autoTransfer": "Auto Transfer",
@@ -659,9 +659,9 @@
         "communicationCables": "Communication Cables",
         "terminalBlocks": "Terminal Blocks",
         "wireConnectors": "Wire Connectors",
-        "dinRailTerminals": "DIN Rail Terminals",
+        "dinRailTerminals": "قضيب دين Terminals",
         "junctionBoxes": "Junction Boxes",
-        "mcbs": "MCBs",
+        "mcbs": "قواطع دوائر مصغرة",
         "mccbs": "MCCBs",
         "rccbs": "RCCBs",
         "industrialFuses": "Industrial Fuses",
@@ -691,9 +691,9 @@
         "wallMount": "Wall Mount",
         "cableManagement": "Cable Management",
         "coolingOptions": "Cooling Options",
-        "ip65Ip67Rating": "IP65/IP67 Rating",
+        "ip65Ip67Rating": "IP65/درجة حماية صناعية ٦٧ Rating",
         "explosionProof": "Explosion Proof",
-        "cableGlands": "Cable Glands",
+        "cableGlands": "وصلة الكابلs",
         "corrosionResistant": "Corrosion Resistant"
       }
     }
@@ -765,7 +765,7 @@
         "name": "Operator Interface Terminals",
         "description": "Rugged operator terminals for harsh environments",
         "features": [
-          "IP65/IP67 Rating",
+          "IP65/درجة حماية صناعية ٦٧ Rating",
           "Stainless Steel",
           "Membrane Keypad",
           "Backlit Display"
@@ -829,7 +829,7 @@
     "signalIntelligence": "Signal Intelligence",
     "vectorAnalysis": "Vector Analysis",
     "rfAnalysis": "RF Analysis",
-    "emiTesting": "EMI Testing",
+    "emiTesting": "تداخل كهرومغناطيسي Testing",
     "monocrystalline": "Monocrystalline",
     "polycrystalline": "Polycrystalline",
     "bifacial": "Bifacial",
@@ -911,7 +911,7 @@
       "specifications": {
         "highAccuracy": "دقة عالية: ±0.1% إلى ±0.5%",
         "operatingTemperature": "درجة حرارة التشغيل: -40°م إلى +85°م",
-        "protectionRating": "تصنيف الحماية: IP65/IP67",
+        "protectionRating": "تصنيف الحماية: IP65/درجة حماية صناعية ٦٧",
         "outputTypes": "المخرجات: 4-20mA, 0-10V, HART, Profibus",
         "explosionProof": "متوفرة بأنواع مقاومة للانفجار"
       },
@@ -933,7 +933,7 @@
       "specifications": {
         "voltageRange": "نطاق الجهد: 24V DC إلى 690V AC",
         "currentRatings": "تصنيف التيار: 1A إلى 1000A",
-        "protectionLevel": "حماية IP54 إلى IP67",
+        "protectionLevel": "حماية IP54 إلى درجة حماية صناعية ٦٧",
         "standardsCompliant": "متوافق مع معايير IEC/IS",
         "temperatureRated": "تصنيف درجة الحرارة: -25°م إلى +70°م"
       },
@@ -976,7 +976,7 @@
       "fullDescription": "أجهزة القياس الرقمية المتطورة وأجهزة التحليل ومعدات المعايرة للقياس والمراقبة الدقيقة للمعاملات الكهربائية والعمليات.",
       "specifications": {
         "accuracyClass": "فئة الدقة: 0.1 إلى 1.0",
-        "displayType": "الشاشة: LCD/LED رقمية",
+        "displayType": "الشاشة: LCD/دايود باعث للضوء رقمية",
         "communicationOptions": "الاتصال: RS485, Ethernet, اللاسلكي",
         "dataLogging": "إمكانية تسجيل البيانات",
         "multipleParameter": "قياس معاملات متعددة"
