@@ -31,7 +31,7 @@
       },
       "message": {
         "label": "Saƙo",
-        "placeholder": "Shigar da saƙon ka",
+        "placeholder": "Shigar da saƙon ku",
         "error": "Ana buƙatar saƙo"
       }
     },
@@ -121,7 +121,7 @@
       "description": "Ƙungiyar injiniyoyin mu za ta duba bukatun ku kuma ta amsa cikin sa'o'i 24-48."
     },
     "placeholders": {
-      "selectIndustry": "Zaɓi masana'anta",
+      "selectIndustry": "Zaɓi masana'antu",
       "selectProjectScale": "Zaɓi girman aikin",
       "selectBudget": "Zaɓi kewayon kasafin kuɗi (zaɓi)",
       "detailedRequirements": "Da fatan za a bayar da cikakkun bayanai gami da:\n- Bukatun fasaha da ma'auni\n- Bayanin kayan aiki da adadi\n- Bukatun aiki\n- Yanayin muhalli\n- Bukatun bin doka\n- Duk wani la'akari na musamman...",
@@ -191,7 +191,7 @@
       "address": "Shigar da cikakken adireshin ku (Lambar gida/ginin, titi, birni, jiha, lambar gidan waya)",
       "currentCompany": "Kamfaninku na yanzu (zaɓi)",
       "education": "misali B.Tech Injiniyancin Lantarki",
-      "expectedSalary": "misali 5-8 LPA ko Abin da za a tattauna",
+      "expectedSalary": "misali lakhs a shekara 5-8 ko Abin da za a tattauna",
       "skills": "Jera fasahar ku ta fasaha, ilimin software, harsunan shirye-shirye, takaddun shaida, da sauransu.",
       "coverLetter": "Faɗa mana game da dalilai ku, burin aiki da yadda za ku iya taimakawa ƙungiyar mu...",
       "selectSpecialization": "Zaɓi yankin gwaninta ku",
@@ -215,7 +215,7 @@
       "expectedSalary": "Albashin da ake tsammani",
       "technicalSkills": "Fasahar fasaha da gwaninta",
       "coverLetter": "Wasiƙar rufe da dalili",
-      "resume": "CV/Resume"
+      "resume": "CV/Tarihin rayuwa"
     },
     "buttons": {
       "submit": "Ɗa aiki",
@@ -262,15 +262,15 @@
       "moreThanThree": "Fiye da watanni 3 na lokacin sanar"
     },
     "helpers": {
-      "resumeFormat": "Accepted formats: PDF, DOC, DOCX (Max size: 5MB)"
+      "resumeFormat": "Nau'o'in da aka yarda: PDF, DOC, DOCX (Mafi girman girma: 5MB)"
     },
     "success": {
       "title": "An tura Aikace-aikacen cikin nasara!",
-      "description": "Thank you for applying! We will review your application and contact you within 2-3 business days."
+      "description": "Na gode da aikace-aikacenku! Za mu bincike aikace-aikacen ku kuma mu tuntube ku cikin kwanaki 2-3 na aiki."
     },
     "error": {
-      "title": "Application Submission Failed",
-      "description": "Please try again or contact us directly at {{phone}} or {{email}}"
+      "title": "Ba a iya tura aikace-aikacen ba",
+      "description": "Da fatan za a sake gwada ko tuntuɓe mu kai tsaye a {{phone}} ko {{email}}"
     }
   }
 }
