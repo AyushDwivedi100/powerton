@@ -3,66 +3,66 @@
     "anand": {
       "name": "Anand Awasthi",
       "location": "West Bengal",
-      "comment": "Powerton Engineering made the process of going solar seamless and easy. Their team handled everything from start to finish, and we're thrilled with the results."
+      "comment": "पावर टौन इंजीनियरिंग ने सौर ऊर्जा अपनाने की प्रक्रिया को आसान और निर्बाध बनाया। उनकी टीम ने शुरू से अंत तक सब कुछ संभाला, और हम परिणामों से बहुत खुश हैं।"
     },
     "sanjay": {
       "name": "Sanjay Patil",
       "location": "Uttar Pradesh",
-      "comment": "I am glad I chose Powerton Engineering for our installation, and I would not hesitate to recommend them to any of my friends."
+      "comment": "मुझे खुशी है कि मैंने हमारी स्थापना के लिए पावर टौन इंजीनियरिंग को चुना, और मैं अपने किसी भी मित्र को इन्हें सुझाने में संकोच नहीं करूंगा।"
     },
     "rhea": {
       "name": "Rhea Sharma",
       "location": "Maharashtra",
-      "comment": "Excellent quality products and outstanding customer service. The technical expertise of the team is impressive and highly professional."
+      "comment": "उत्कृष्ट गुणवत्ता वाले उत्पाद और शानदार ग्राहक सेवा। टीम की तकनीकी विशेषज्ञता प्रभावशाली और अत्यधिक पेशेवर है।"
     }
   },
   "projects": {
     "thermal-plant": {
-      "title": "Thermal Power Plant Automation",
-      "description": "Complete automation solution for 250MW thermal power plant including control panels, SCADA systems, and safety interlocks.",
+      "title": "थर्मल पावर प्लांट स्वचालन",
+      "description": "नियंत्रण पैनल, एससीएडीए सिस्टम, और सुरक्षा इंटरलॉक सहित 250 मेगावाट थर्मल पावर प्लांट के लिए संपूर्ण स्वचालन समाधान।",
       "location": "Uttar Pradesh",
-      "duration": "12 months",
+      "duration": "12 महीने",
       "highlights": {
-        "scada": "SCADA Implementation",
-        "safety": "Safety Systems",
-        "control": "Control Panels",
-        "monitoring": "Performance Monitoring"
+        "scada": "एससीएडीए कार्यान्वयन",
+        "safety": "सुरक्षा प्रणाली",
+        "control": "नियंत्रण पैनल",
+        "monitoring": "प्रदर्शन निगरानी"
       }
     },
     "pharma-plant": {
-      "title": "Pharmaceutical Plant Control System",
-      "description": "Advanced process control and monitoring system for pharmaceutical manufacturing with FDA compliance and data integrity features.",
+      "title": "फार्मास्युटिकल प्लांट नियंत्रण प्रणाली",
+      "description": "एफडीए अनुपालन और डेटा अखंडता सुविधाओं के साथ फार्मास्युटिकल निर्माण के लिए उन्नत प्रक्रिया नियंत्रण और निगरानी प्रणाली।",
       "location": "Maharashtra",
-      "duration": "8 months",
+      "duration": "8 महीने",
       "highlights": {
-        "fda": "FDA Compliance",
-        "data": "Data Integrity",
-        "process": "Process Control",
-        "quality": "Quality Monitoring"
+        "fda": "एफडीए अनुपालन",
+        "data": "डेटा अखंडता",
+        "process": "प्रक्रिया नियंत्रण",
+        "quality": "गुणवत्ता निगरानी"
       }
     },
     "solar-plant": {
-      "title": "10MW Solar Power Installation",
-      "description": "Complete design and installation of grid-connected solar power plant with monitoring systems and grid synchronization equipment.",
+      "title": "10 मेगावाट सौर ऊर्जा स्थापना",
+      "description": "निगरानी प्रणाली और ग्रिड सिंक्रोनाइज़ेशन उपकरण के साथ ग्रिड-कनेक्टेड सौर ऊर्जा संयंत्र का संपूर्ण डिज़ाइन और स्थापना।",
       "location": "Rajasthan",
-      "duration": "6 months",
+      "duration": "6 महीने",
       "highlights": {
-        "grid": "Grid Connection",
-        "monitoring": "Monitoring Systems",
-        "optimization": "Performance Optimization",
-        "maintenance": "Maintenance Planning"
+        "grid": "ग्रिड कनेक्शन",
+        "monitoring": "निगरानी प्रणाली",
+        "optimization": "प्रदर्शन अनुकूलन",
+        "maintenance": "रखरखाव योजना"
       }
     },
     "water-treatment": {
-      "title": "Municipal Water Treatment Automation",
-      "description": "Automated control system for water treatment plant serving 500,000 residents with real-time monitoring and quality control.",
+      "title": "नगरपालिका जल उपचार स्वचालन",
+      "description": "रीयल-टाइम निगरानी और गुणवत्ता नियंत्रण के साथ 500,000 निवासियों की सेवा करने वाले जल उपचार संयंत्र के लिए स्वचालित नियंत्रण प्रणाली।",
       "location": "West Bengal",
-      "duration": "10 months",
+      "duration": "10 महीने",
       "highlights": {
-        "monitoring": "Real-time Monitoring",
-        "quality": "Quality Control",
-        "automation": "Automated Operations",
-        "remote": "Remote Management"
+        "monitoring": "रीयल-टाइम निगरानी",
+        "quality": "गुणवत्ता नियंत्रण",
+        "automation": "स्वचालित संचालन",
+        "remote": "दूरस्थ प्रबंधन"
       }
     }
   }
