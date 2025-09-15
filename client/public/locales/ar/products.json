@@ -515,164 +515,164 @@
   },
   "productPages": {
     "transmitters": {
-      "title": "Transmitters",
-      "transducers": "Transducers"
+      "title": "أجهزة الإرسال",
+      "transducers": "محولات الطاقة"
     },
     "spectrumAnalyzers": {
-      "title": "Spectrum Analyzers",
+      "title": "محللات الطيف",
       "sections": {
         "featured": {
-          "title": "Featured Spectrum Analyzers"
+          "title": "محللات الطيف المميزة"
         }
       },
       "cta": {
-        "title": "Need RF Signal Analysis?",
-        "description": "Our RF specialists can help you select the right spectrum analyzer for your measurement needs.",
-        "button": "Contact RF Experts"
+        "title": "هل تحتاج إلى تحليل إشارات الترددات الراديوية؟",
+        "description": "يمكن لمتخصصي الترددات الراديوية لدينا مساعدتك في اختيار محلل الطيف المناسب لاحتياجات القياس الخاصة بك.",
+        "button": "اتصل بخبراء الترددات الراديوية"
       }
     }
   },
   "features": {
     "safetyDevices": {
       "surgeProtectors": {
-        "title": "Surge Protectors",
-        "description": "Electrical surge protection devices for equipment safety",
+        "title": "واقيات الجهد",
+        "description": "أجهزة حماية من التيار الزائد الكهربائي لسلامة المعدات",
         "features": {
-          "lightning": "Lightning Protection",
-          "voltage": "Voltage Surge Protection",
-          "equipment": "Equipment Safety",
-          "power": "Power Quality"
+          "lightning": "حماية من البرق",
+          "voltage": "حماية من ارتفاع الجهد",
+          "equipment": "سلامة المعدات",
+          "power": "جودة الطاقة"
         }
       },
       "groundingSystems": {
-        "title": "Grounding Systems",
-        "description": "Electrical grounding and earthing systems for safety",
+        "title": "أنظمة التأريض",
+        "description": "أنظمة التأريض والتوصيل الأرضي الكهربائية للسلامة",
         "features": {
-          "electrodes": "Earth Electrodes",
-          "rods": "Ground Rods",
-          "conductors": "Bonding Conductors",
-          "lightning": "Lightning Rods"
+          "electrodes": "أقطاب أرضية",
+          "rods": "قضبان التأريض",
+          "conductors": "موصلات الربط",
+          "lightning": "مانعات الصواعق"
         }
       },
       "safetyRelays": {
-        "title": "Safety Relays & Switches",
-        "description": "Safety control devices for emergency shutdown systems",
+        "title": "مرحلات ومفاتيح السلامة",
+        "description": "أجهزة التحكم في السلامة لأنظمة الإغلاق الطارئ",
         "features": {
-          "emergency": "Emergency Stop",
-          "monitoring": "Safety Monitoring",
-          "failSafe": "Fail-Safe Design",
-          "certified": "Certified Safety"
+          "emergency": "إيقاف طارئ",
+          "monitoring": "مراقبة السلامة",
+          "failSafe": "تصميم آمن عند الفشل",
+          "certified": "سلامة معتمدة"
         }
       },
       "intrinsicallySafe": {
-        "title": "Intrinsically Safe Equipment",
-        "description": "Explosion-proof equipment for hazardous environments",
+        "title": "المعدات الآمنة ذاتياً",
+        "description": "معدات مقاومة للانفجار للبيئات الخطرة",
         "features": {
-          "atex": "ATEX Certified",
-          "explosion": "Explosion Proof",
-          "hazardous": "Hazardous Area",
-          "intrinsic": "Intrinsic Safety"
+          "atex": "معتمد ATEX",
+          "explosion": "مقاوم للانفجار",
+          "hazardous": "منطقة خطرة",
+          "intrinsic": "سلامة جوهرية"
         }
       },
       "badges": {
-        "surgeProtection": "Surge Protection",
-        "groundingSystems": "Grounding Systems",
-        "safetyRelays": "Safety Relays",
-        "intrinsicSafety": "Intrinsic Safety"
+        "surgeProtection": "حماية من التيار الزائد",
+        "groundingSystems": "أنظمة التأريض",
+        "safetyRelays": "مرحلات السلامة",
+        "intrinsicSafety": "سلامة جوهرية"
       }
     },
     "common": {
-      "castIronBronze": "Cast Iron/Bronze",
-      "stainlessSteelSizes": "Stainless Steel",
-      "balancedDesign": "Balanced Design",
-      "singleDoubleSeals": "Single/Double Seals",
-      "cartridgeType": "Cartridge Type",
-      "highTemperature": "High Temperature",
-      "chemicalResistant": "Chemical Resistant",
-      "rollingElement": "Rolling Element",
-      "sleeveBearings": "Sleeve Bearings",
-      "flexibleCouplings": "Flexible Couplings",
-      "alignmentTools": "Alignment Tools",
-      "threePhase": "Three-Phase Measurement",
-      "harmonicsAnalysis": "Harmonics Analysis",
-      "transientCapture": "Transient Capture",
-      "powerLogging": "Power Logging",
-      "voltageDip": "Voltage Dip Detection",
-      "flickerMeasurement": "Flicker Measurement",
-      "energyAssessment": "Energy Assessment",
-      "realTimeAnalysis": "Real-time Analysis",
-      "continuousMonitoring": "Continuous Monitoring",
-      "eventRecording": "Event Recording",
-      "complianceTesting": "Compliance Testing",
-      "remoteAccess": "Remote Access",
+      "castIronBronze": "حديد زهر/برونز",
+      "stainlessSteelSizes": "فولاذ مقاوم للصدأ",
+      "balancedDesign": "تصميم متوازن",
+      "singleDoubleSeals": "أختام مفردة/مزدوجة",
+      "cartridgeType": "نوع الخرطوشة",
+      "highTemperature": "درجة حرارة عالية",
+      "chemicalResistant": "مقاوم للمواد الكيميائية",
+      "rollingElement": "عناصر دوارة",
+      "sleeveBearings": "محامل كمية",
+      "flexibleCouplings": "اقترانات مرنة",
+      "alignmentTools": "أدوات المحاذاة",
+      "threePhase": "قياس ثلاثي الطور",
+      "harmonicsAnalysis": "تحليل التوافقيات",
+      "transientCapture": "التقاط العابر",
+      "powerLogging": "تسجيل الطاقة",
+      "voltageDip": "كشف انخفاض الجهد",
+      "flickerMeasurement": "قياس الوميض",
+      "energyAssessment": "تقييم الطاقة",
+      "realTimeAnalysis": "التحليل في الوقت الفعلي",
+      "continuousMonitoring": "المراقبة المستمرة",
+      "eventRecording": "تسجيل الأحداث",
+      "complianceTesting": "اختبار الامتثال",
+      "remoteAccess": "الوصول عن بُعد",
       "selfPriming": "Self-Priming",
-      "dryRunSafe": "Dry Run Safe",
-      "variableFlow": "Variable Flow",
-      "preciseMeteringLow": "Precise Metering",
-      "lowPulsation": "Low Pulsation",
-      "digitalControl": "Digital Control",
-      "easyMaintenance": "Easy Maintenance",
-      "highPressure": "High Pressure",
-      "lowFlowRates": "Low Flow Rates",
-      "accurateDosing": "Accurate Dosing",
-      "leakFreeOperation": "Leak-Free Operation",
-      "highTorque": "High Torque",
-      "variableSpeed": "Variable Speed",
-      "cordlessOptions": "Cordless Options",
-      "chuckCapacity": "Chuck Capacity: 13mm",
-      "multipleSizes": "Multiple Sizes",
-      "safetyGuards": "Safety Guards",
+      "dryRunSafe": "آمن للتشغيل الجاف",
+      "variableFlow": "تدفق متغير",
+      "preciseMeteringLow": "قياس دقيق",
+      "lowPulsation": "نبض منخفض",
+      "digitalControl": "تحكم رقمي",
+      "easyMaintenance": "صيانة سهلة",
+      "highPressure": "ضغط عالي",
+      "lowFlowRates": "معدلات تدفق منخفضة",
+      "accurateDosing": "جرعات دقيقة",
+      "leakFreeOperation": "تشغيل خالي من التسرب",
+      "highTorque": "عزم دوران عالي",
+      "variableSpeed": "سرعة متغيرة",
+      "cordlessOptions": "خيارات لاسلكية",
+      "chuckCapacity": "سعة الظرف: ١٣ مم",
+      "multipleSizes": "أحجام متعددة",
+      "safetyGuards": "حواجز الأمان",
       "antiVibration": "Anti-Vibration",
-      "powerfulMotors": "Powerful Motors",
-      "highImpactForce": "High Impact Force",
-      "socketCompatibility": "Socket Compatibility",
+      "powerfulMotors": "محركات قوية",
+      "highImpactForce": "قوة صدم عالية",
+      "socketCompatibility": "توافق المقابس",
       "forwardReverse": "Forward/Reverse",
-      "batteryPowered": "Battery Powered",
+      "batteryPowered": "يعمل بالبطارية",
       "efficientSwitching": "85-265V AC Input",
       "dcOutput": "12V/24V DC Output",
-      "highEfficiency": "High Efficiency",
-      "compactDesign": "Compact Design",
+      "highEfficiency": "كفاءة عالية",
+      "compactDesign": "تصميم مدمج",
       "dinRailMount": "قضيب دين Mount",
-      "wideInputRange": "Wide Input Range",
-      "shortCircuitProtection": "Short Circuit Protection",
+      "wideInputRange": "نطاق دخل واسع",
+      "shortCircuitProtection": "حماية من الدارة القصيرة",
       "ledStatus": "دايود باعث للضوء Status",
-      "batteryBackup": "Battery Backup",
-      "surgeProtection": "Surge Protection",
-      "autoTransfer": "Auto Transfer",
+      "batteryBackup": "نسخة احتياطية بالبطارية",
+      "surgeProtection": "حماية من التيار الزائد",
+      "autoTransfer": "نقل تلقائي",
       "lcdDisplay": "LCD Display"
     },
     "product": {
       "safetyEquipment": {
-        "fullBodyHarness": "Full Body Harness",
+        "fullBodyHarness": "حزام الجسم الكامل",
         "lanyards": "Lanyards",
-        "anchorPoints": "Anchor Points",
+        "anchorPoints": "نقاط التثبيت",
         "selfRetracting": "Self-Retracting",
-        "multiGasDetectors": "Multi-Gas Detectors",
-        "singleGas": "Single Gas",
-        "wirelessMonitoring": "Wireless Monitoring",
-        "dataLogging": "Data Logging"
+        "multiGasDetectors": "أجهزة كشف الغازات المتعددة",
+        "singleGas": "غاز واحد",
+        "wirelessMonitoring": "المراقبة اللاسلكية",
+        "dataLogging": "تسجيل البيانات"
       },
       "electrical": {
-        "powerCables": "Power Cables",
-        "controlCables": "Control Cables",
-        "instrumentationCables": "Instrumentation Cables",
-        "communicationCables": "Communication Cables",
-        "terminalBlocks": "Terminal Blocks",
-        "wireConnectors": "Wire Connectors",
+        "powerCables": "كوابل الطاقة",
+        "controlCables": "كوابل التحكم",
+        "instrumentationCables": "كوابل الأجهزة",
+        "communicationCables": "كوابل الاتصالات",
+        "terminalBlocks": "الكتل الطرفية",
+        "wireConnectors": "موصلات الأسلاك",
         "dinRailTerminals": "قضيب دين Terminals",
-        "junctionBoxes": "Junction Boxes",
+        "junctionBoxes": "صناديق التوصيل",
         "mcbs": "قواطع دوائر مصغرة",
         "mccbs": "MCCBs",
         "rccbs": "RCCBs",
-        "industrialFuses": "Industrial Fuses",
+        "industrialFuses": "المصهرات الصناعية",
         "smps": "SMPS",
         "dcDcConverters": "DC-DC Converters",
         "upsSystems": "UPS Systems",
-        "controlPanels": "Control Panels",
-        "distributionBoards": "Distribution Boards",
-        "weatherproofEnclosures": "Weatherproof Enclosures",
-        "heatingElements": "Heating Elements",
-        "industrialHeaters": "Industrial Heaters",
+        "controlPanels": "لوحات التحكم",
+        "distributionBoards": "لوحات التوزيع",
+        "weatherproofEnclosures": "خزائن مقاومة للطقس",
+        "heatingElements": "عناصر التسخين",
+        "industrialHeaters": "سخانات صناعية",
         "temperatureControllers": "Temperature Controllers",
         "thermalProtection": "Thermal Protection"
       },
@@ -691,7 +691,7 @@
         "wallMount": "Wall Mount",
         "cableManagement": "Cable Management",
         "coolingOptions": "Cooling Options",
-        "ip65Ip67Rating": "IP65/درجة حماية صناعية ٦٧ Rating",
+        "ip65Ip67Rating": "تصنيف الحماية IP65/IP67",
         "explosionProof": "Explosion Proof",
         "cableGlands": "وصلة الكابلs",
         "corrosionResistant": "Corrosion Resistant"
@@ -729,31 +729,31 @@
     "actualImages": "سيتم تحميل الصور الفعلية"
   },
   "common": {
-    "keyFeatures": "Key Features:",
-    "needHelp": "Need Help?",
-    "contactExperts": "Contact Experts",
-    "requestQuote": "Request Quote",
-    "hazardousAreaSolutions": "Hazardous Area Solutions",
-    "needEquipment": "Need Equipment?",
-    "specialists": "specialists"
+    "keyFeatures": "الميزات الرئيسية:",
+    "needHelp": "تحتاج مساعدة؟",
+    "contactExperts": "اتصل بالخبراء",
+    "requestQuote": "اطلب عرض سعر",
+    "hazardousAreaSolutions": "حلول المناطق الخطرة",
+    "needEquipment": "تحتاج معدات؟",
+    "specialists": "متخصصون"
   },
   "hmi": {
-    "title": "HMI (Human Machine Interface)",
-    "subtitle": "Industrial human machine interfaces for operator control and system visualization",
+    "title": "واجهة الإنسان والآلة (HMI)",
+    "subtitle": "واجهات الإنسان والآلة الصناعية للتحكم والعرض المرئي للأنظمة",
     "navigation": {
-      "backToAutomation": "Back to Automation & Control Systems"
+      "backToAutomation": "العودة إلى أنظمة الأتمتة والتحكم"
     },
     "badges": {
-      "touchscreen": "Touchscreen",
-      "industrialGrade": "Industrial Grade",
-      "realTimeDisplay": "Real-time Display",
-      "multiProtocol": "Multi-Protocol"
+      "touchscreen": "شاشة لمس",
+      "industrialGrade": "درجة صناعية",
+      "realTimeDisplay": "عرض فوري",
+      "multiProtocol": "متعدد البروتوكولات"
     },
-    "solutionsTitle": "HMI Solutions",
+    "solutionsTitle": "حلول واجهة الإنسان والآلة",
     "products": {
       "panelMount": {
-        "name": "Panel Mount HMI Displays",
-        "description": "Industrial touchscreen displays for machine interface",
+        "name": "شاشات واجهة الإنسان والآلة مثبتة على لوحة",
+        "description": "شاشات لمس صناعية لواجهة الآلة",
         "features": [
           "Touch Interface",
           "Industrial Rating",
@@ -765,7 +765,7 @@
         "name": "Operator Interface Terminals",
         "description": "Rugged operator terminals for harsh environments",
         "features": [
-          "IP65/درجة حماية صناعية ٦٧ Rating",
+          "تصنيف الحماية IP65/IP67",
           "Stainless Steel",
           "Membrane Keypad",
           "Backlit Display"
@@ -783,7 +783,7 @@
       }
     },
     "cta": {
-      "title": "Need HMI Solutions?",
+      "title": "تحتاج حلول واجهة الإنسان والآلة؟",
       "description": "Our HMI specialists can design intuitive operator interfaces for your automation systems.",
       "contactExperts": "Contact HMI Experts"
     }
@@ -911,7 +911,7 @@
       "specifications": {
         "highAccuracy": "دقة عالية: ±0.1% إلى ±0.5%",
         "operatingTemperature": "درجة حرارة التشغيل: -40°م إلى +85°م",
-        "protectionRating": "تصنيف الحماية: IP65/درجة حماية صناعية ٦٧",
+        "protectionRating": "تصنيف الحماية IP65/IP67",
         "outputTypes": "المخرجات: 4-20mA, 0-10V, HART, Profibus",
         "explosionProof": "متوفرة بأنواع مقاومة للانفجار"
       },
@@ -933,7 +933,7 @@
       "specifications": {
         "voltageRange": "نطاق الجهد: 24V DC إلى 690V AC",
         "currentRatings": "تصنيف التيار: 1A إلى 1000A",
-        "protectionLevel": "حماية IP54 إلى درجة حماية صناعية ٦٧",
+        "protectionLevel": "حماية IP54 إلى IP67",
         "standardsCompliant": "متوافق مع معايير IEC/IS",
         "temperatureRated": "تصنيف درجة الحرارة: -25°م إلى +70°م"
       },
