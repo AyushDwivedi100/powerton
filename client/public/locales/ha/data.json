@@ -1,68 +1,68 @@
 {
   "testimonials": {
     "anand": {
-      "name": "Anand Awasthi",
+      "name": "Ahmad Musa",
       "location": "West Bengal",
-      "comment": "Powerton Engineering made the process of going solar seamless and easy. Their team handled everything from start to finish, and we're thrilled with the results."
+      "comment": "Kamfanin Injiniyan Powerton ya sa aikin komawa makamashin rana ya kasance cikin sauƙi kuma ba tare da wata matsala ba. Ƙungiyarsu ta kula da komai tun daga farko har zuwa ƙarshe, kuma muna matuƙar farin ciki da sakamakon."
     },
     "sanjay": {
-      "name": "Sanjay Patil",
+      "name": "Sanusi Ahmad",
       "location": "Uttar Pradesh",
-      "comment": "I am glad I chose Powerton Engineering for our installation, and I would not hesitate to recommend them to any of my friends."
+      "comment": "Na yi farin ciki da zaɓar Kamfanin Injiniyan Powerton don shigarwarmu, kuma ba zan yi shakka ba in ba da shawarar su ga kowane abokina."
     },
     "rhea": {
-      "name": "Rhea Sharma",
+      "name": "Rahma Salihu",
       "location": "Maharashtra",
-      "comment": "Excellent quality products and outstanding customer service. The technical expertise of the team is impressive and highly professional."
+      "comment": "Kayayyaki masu inganci ƙwarai da sabis na abokan ciniki abin kallo. Ƙwarewar fasaha ta ƙungiyar ta burge mu matuƙa kuma ƙwararriya ce."
     }
   },
   "projects": {
     "thermal-plant": {
-      "title": "Thermal Power Plant Automation",
-      "description": "Complete automation solution for 250MW thermal power plant including control panels, SCADA systems, and safety interlocks.",
+      "title": "Sarrafa Tashar Wutar Lantarki ta Thermal",
+      "description": "Cikakken mafita na sarrafa kansa don tashar wutar lantarki mai karfin 250MW ciki har da kwamitocin sarrafawa, tsarin SCADA, da kulle-kullen tsaro.",
       "location": "Uttar Pradesh",
-      "duration": "12 months",
+      "duration": "watanni 12",
       "highlights": {
-        "scada": "SCADA Implementation",
-        "safety": "Safety Systems",
-        "control": "Control Panels",
-        "monitoring": "Performance Monitoring"
+        "scada": "Aiwatar da SCADA",
+        "safety": "Tsarin Tsaro",
+        "control": "Kwamitocin Sarrafawa",
+        "monitoring": "Sa ido kan aiki"
       }
     },
     "pharma-plant": {
-      "title": "Pharmaceutical Plant Control System",
-      "description": "Advanced process control and monitoring system for pharmaceutical manufacturing with FDA compliance and data integrity features.",
+      "title": "Tsarin Sarrafa Masana'antar Magunguna",
+      "description": "Babban tsarin sarrafa tsari da sa ido don masana'antar magunguna tare da bin ka'idojin FDA da siffofin amincin bayanai.",
       "location": "Maharashtra",
-      "duration": "8 months",
+      "duration": "watanni 8",
       "highlights": {
-        "fda": "FDA Compliance",
-        "data": "Data Integrity",
-        "process": "Process Control",
-        "quality": "Quality Monitoring"
+        "fda": "Bin Ka'idojin FDA",
+        "data": "Amincin Bayanai",
+        "process": "Sarrafa Tsari",
+        "quality": "Sa ido kan inganci"
       }
     },
     "solar-plant": {
-      "title": "10MW Solar Power Installation",
-      "description": "Complete design and installation of grid-connected solar power plant with monitoring systems and grid synchronization equipment.",
+      "title": "Shigar da Wutar Lantarki ta Rana 10MW",
+      "description": "Cikakken zane da shigar da tashar wutar lantarki ta rana da aka haɗa da grid tare da tsarin sa ido da kayan aikin daidaita grid.",
       "location": "Rajasthan",
-      "duration": "6 months",
+      "duration": "watanni 6",
       "highlights": {
-        "grid": "Grid Connection",
-        "monitoring": "Monitoring Systems",
-        "optimization": "Performance Optimization",
-        "maintenance": "Maintenance Planning"
+        "grid": "Haɗin Grid",
+        "monitoring": "Tsarin Sa ido",
+        "optimization": "Inganta Ayyuka",
+        "maintenance": "Shirye-shiryen Kulawa"
       }
     },
     "water-treatment": {
-      "title": "Municipal Water Treatment Automation",
-      "description": "Automated control system for water treatment plant serving 500,000 residents with real-time monitoring and quality control.",
+      "title": "Sarrafa Tsaftar Ruwa ta Birni",
+      "description": "Tsarin sarrafa kansa don masana'antar tsaftar ruwa da ke hidima ga mazauna 500,000 tare da sa ido a ainihin lokaci da sarrafa inganci.",
       "location": "West Bengal",
-      "duration": "10 months",
+      "duration": "watanni 10",
       "highlights": {
-        "monitoring": "Real-time Monitoring",
-        "quality": "Quality Control",
-        "automation": "Automated Operations",
-        "remote": "Remote Management"
+        "monitoring": "Sa ido a ainihin lokaci",
+        "quality": "Sarrafa Inganci",
+        "automation": "Ayyukan Sarrafa Kansa",
+        "remote": "Gudanarwa ta Nesa"
       }
     }
   }
