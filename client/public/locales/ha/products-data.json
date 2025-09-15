@@ -1,304 +1,304 @@
 {
   "surgeProtectors": {
     "acPower": {
-      "name": "AC Power Surge Protectors",
-      "description": "Transient voltage surge suppressors for AC power systems",
+      "name": "Masu Kariyar Rarrafe AC",
+      "description": "Masu kashe rarrafe na wutar lantarki don tsarin AC",
       "features": [
-        "Class I/II/III",
-        "MOV Technology",
-        "Status Indicators",
-        "DIN Rail Mount"
+        "Aji I/II/III",
+        "Fasahar MOV",
+        "Masu Nuna Matsayi",
+        "Dorawa a Dogo DIN"
       ]
     },
     "dcSolar": {
-      "name": "DC Solar Surge Protectors",
-      "description": "DC surge protection devices for solar panel systems",
+      "name": "Masu Kariyar Rarrafe DC na Hasken Rana",
+      "description": "Na'urorin kariyar rarrafe DC don tsarin alluna hasken rana",
       "features": [
-        "1000V DC Rating",
-        "Type 1+2 Protection",
-        "Remote Indication",
-        "Quick Disconnect"
+        "Matsayin 1000V DC",
+        "Kariyar Iri 1+2",
+        "Nunin Nesa",
+        "Cire Da Sauri"
       ]
     },
     "signalLine": {
-      "name": "Signal Line Protectors",
-      "description": "Surge protection for communication and control lines",
+      "name": "Masu Kariyar Layin Sigina",
+      "description": "Kariyar rarrafe don layin sadarwa da sarrafawa",
       "features": [
-        "Data Line Protection",
-        "Low Capacitance",
-        "Fast Response",
-        "Multiple Channels"
+        "Kariyar Layin Bayanai",
+        "Ƙananan Ƙarfi",
+        "Amsa Mai Sauri",
+        "Tashoshi Da Yawa"
       ]
     }
   },
   "bldcCeilingFan": {
     "smart1200": {
-      "name": "Smart BLDC Ceiling Fan - 1200mm",
-      "description": "Energy-efficient smart ceiling fan with remote control",
+      "name": "Fandar Rufi ta BLDC mai Hankali - 1200mm",
+      "description": "Fandar rufi mai tsinke makamashi tare da sarrafa nesa",
       "features": [
-        "28W Power Consumption",
-        "Remote Control",
-        "5 Speed Settings",
-        "Timer Function"
+        "Amfani da Wutar Lantarki 28W",
+        "Sarrafa Nesa",
+        "Saiti Sauri 5",
+        "Aikin Lokaci"
       ]
     },
     "premium1400": {
-      "name": "Premium BLDC Ceiling Fan - 1400mm",
-      "description": "High-performance ceiling fan with LED lighting",
+      "name": "Fandar Rufi ta BLDC na musamman - 1400mm",
+      "description": "Fandar rufi mai aiki da yawa tare da hasken LED",
       "features": [
-        "35W Power Consumption",
-        "LED Light Integrated",
-        "Reversible Motor",
-        "Silent Operation"
+        "Amfani da Wutar Lantarki 35W",
+        "Hasken LED da Aka Haɗa",
+        "Injin Mai Juyawa",
+        "Aiki Cikin Nutsuwa"
       ]
     },
     "commercial1500": {
-      "name": "Commercial BLDC Ceiling Fan - 1500mm",
-      "description": "Heavy-duty ceiling fan for commercial applications",
+      "name": "Fandar Rufi ta BLDC ta Kasuwanci - 1500mm",
+      "description": "Fandar rufi mai ƙarfi don amfani na kasuwanci",
       "features": [
-        "45W Power Consumption",
-        "Heavy-Duty Motor",
-        "High Air Flow",
-        "Durable Construction"
+        "Amfani da Wutar Lantarki 45W",
+        "Injin Mai Ƙarfi",
+        "Kwararar Iska Mai Yawa",
+        "Ginin Da Ya Dore"
       ]
     }
   },
   "bldcCoolerExhaust": {
     "exhaustFan": {
-      "name": "BLDC Exhaust Fan Motors",
-      "description": "High-efficiency motors for exhaust fan applications",
+      "name": "Injunan Fandar Fitar Da Iska ta BLDC",
+      "description": "Injuna masu inganci sosai don amfani da fandar fitar da iska",
       "features": [
-        "Variable Speed",
-        "Low Noise",
-        "Energy Efficient",
-        "Long Life"
+        "Sauri Mai Canzawa",
+        "Ƙarancin Motsi",
+        "Mai Tsinke Makamashi",
+        "Dogon Rayuwa"
       ]
     },
     "coolerMotors": {
-      "name": "BLDC Cooler Motors",
-      "description": "Energy-efficient motors for air cooler applications",
+      "name": "Injunan Sanyaya ta BLDC",
+      "description": "Injuna masu tsinke makamashi don amfani da na'urorin sanyaya",
       "features": [
-        "High Torque",
-        "Weather Resistant",
-        "Speed Control",
-        "Maintenance Free"
+        "Sakar Karfi Mai Yawa",
+        "Mai Jure Yanayi",
+        "Sarrafa Sauri",
+        "Babu Buƙatar Gyara"
       ]
     },
     "ventilation": {
-      "name": "BLDC Ventilation Motors",
-      "description": "Specialized motors for industrial ventilation systems",
+      "name": "Injunan Samun Iska ta BLDC",
+      "description": "Injuna na musamman don tsarin samun iska na masana'antu",
       "features": [
-        "High CFM",
-        "Temperature Rated",
-        "Vibration Resistant",
-        "Smart Control"
+        "CFM Mai Yawa",
+        "Matsayin Zafi",
+        "Mai Jure Girgiza",
+        "Sarrafa Hankali"
       ]
     }
   },
   "bldcSubmersibleSurface": {
     "solar1HP": {
-      "name": "Solar BLDC Submersible Pump - 1HP",
-      "description": "Solar-powered BLDC submersible pump for water wells",
+      "name": "Pamfar Nutsewa ta Hasken Rana ta BLDC - 1HP",
+      "description": "Pamfar nutsewa ta hasken rana ta BLDC don rijiyoyin ruwa",
       "features": [
-        "Solar Compatible",
-        "1HP Motor",
-        "High Efficiency",
-        "Water-Cooled Design"
+        "Ya Dace Da Hasken Rana",
+        "Injin 1HP",
+        "Inganci Mai Yawa",
+        "Zane Da Ruwa Ke Sanyaya"
       ]
     },
     "surface2HP": {
-      "name": "DC Surface Pump - 2HP",
-      "description": "High-efficiency BLDC surface pump for irrigation",
+      "name": "Pamfar Saman DC - 2HP",
+      "description": "Pamfar saman BLDC mai inganci don ban ruwa",
       "features": [
-        "2HP Power",
-        "Self-Priming",
-        "Dry Run Protection",
-        "Variable Speed"
+        "Ikon 2HP",
+        "Mai Cire Iska Da Kansa",
+        "Kariyar Aiki Bushe",
+        "Sauri Mai Canzawa"
       ]
     },
     "hybrid": {
-      "name": "Hybrid BLDC Pump System",
-      "description": "Intelligent pump system with solar and grid backup",
+      "name": "Tsarin Pamfar BLDC haɗaɗɗe",
+      "description": "Tsarin pamfar mai hankali tare da hasken rana da ajiyar grid",
       "features": [
-        "Hybrid Operation",
-        "Smart Controller",
-        "Remote Monitoring",
-        "Energy Optimization"
+        "Aikin haɗaɗɗe",
+        "Mai Sarrafa Hankali",
+        "Sa Ido Daga Nesa",
+        "Inganta Makamashi"
       ]
     }
   },
   "bldcTableWallFan": {
     "tableFan": {
-      "name": "BLDC Table Fan Motors",
-      "description": "Compact BLDC motors for table and desk fans",
+      "name": "Injunan Fandar Tebura ta BLDC",
+      "description": "Injuna ƙarami ta BLDC don fanduran tebura da tebur",
       "features": [
-        "Compact Design",
-        "Silent Operation",
-        "Remote Control",
-        "Timer Function"
+        "Zane Karami",
+        "Aiki Cikin Nutsuwa",
+        "Sarrafa Nesa",
+        "Aikin Lokaci"
       ]
     },
     "wallFan": {
-      "name": "BLDC Wall Fan Motors",
-      "description": "Wall-mounted fan motors with BLDC technology",
+      "name": "Injunan Fandar Bango ta BLDC",
+      "description": "Injunan fandar bango tare da fasahar BLDC",
       "features": [
-        "Wall Mount Design",
-        "Oscillating Function",
-        "Speed Control",
-        "Energy Saving"
+        "Zane Dorawa a Bango",
+        "Aikin Juyawa",
+        "Sarrafa Sauri",
+        "Adana Makamashi"
       ]
     },
     "pedestalFan": {
-      "name": "BLDC Pedestal Fan Motors",
-      "description": "Height-adjustable pedestal fan motors",
+      "name": "Injunan Fandar Ginshiƙi ta BLDC",
+      "description": "Injunan fandar ginshiƙi mai canza tsayi",
       "features": [
-        "Height Adjustment",
-        "Tilt Function",
-        "LED Display",
-        "Sleep Mode"
+        "Gyaran Tsayi",
+        "Aikin Karkata",
+        "Nunin LED",
+        "Yanayin Barci"
       ]
     }
   },
   "centrifugalPumps": {
     "endSuction": {
-      "name": "End Suction Centrifugal Pumps",
-      "description": "Single-stage end suction pumps for general applications",
+      "name": "Pamfunan Centrifugal Na Ƙarshe",
+      "description": "Pamfunan ƙarshe ɗaya don amfani gabaɗaya",
       "features": [
-        "Flow: 10-5000 GPM",
-        "Head: up to 400 ft",
-        "Cast Iron/Stainless Steel",
-        "ANSI/ISO Standards"
+        "Kwarara: 10-5000 GPM",
+        "Kai: har zuwa ƙafa 400",
+        "Ƙarfen Simintin/Baƙin Ƙarfe",
+        "Ma'auni ANSI/ISO"
       ]
     },
     "multiStage": {
-      "name": "Multi-Stage Centrifugal Pumps",
-      "description": "High-pressure multi-stage pumps for demanding applications",
+      "name": "Pamfunan Centrifugal Masu Mataki Da Yawa",
+      "description": "Pamfuna masu mataki da yawa don amfani masu wahala",
       "features": [
-        "High Pressure Capability",
-        "Compact Design",
-        "Energy Efficient",
-        "Balanced Impellers"
+        "Ikon Matsananciyar Matsa Lamba",
+        "Zane Karami",
+        "Mai Tsinke Makamashi",
+        "Masu Motsa Da Aka Daidaita"
       ]
     },
     "chemicalProcess": {
-      "name": "Chemical Process Pumps",
-      "description": "Corrosion-resistant pumps for chemical processing",
+      "name": "Pamfunan Tsarin Sinadarai",
+      "description": "Pamfuna masu jure lalata don sarrafa sinadarai",
       "features": [
-        "Corrosion Resistant",
-        "Seal-less Design Options",
-        "API 610 Compliant",
-        "High Temperature"
+        "Mai Jure Lalata",
+        "Zaɓuɓɓukan Zane Ba Tare Da Hatimi ba",
+        "Ya Bi Ka'idar API 610",
+        "Babban Zafi"
       ]
     }
   },
   "circuitBreakersFuses": {
     "mcb": {
-      "name": "Miniature Circuit Breakers (MCB)",
-      "description": "Low voltage circuit breakers for residential and commercial use",
+      "name": "Ƙananan Masu Kashe Da'ira (MCB)",
+      "description": "Masu kashe da'ira na ƙananan wutar lantarki don amfani na gida da kasuwanci",
       "features": [
-        "B, C, D Curves",
-        "6-63A Rating",
-        "10kA Breaking Capacity",
-        "DIN Rail Mount"
+        "Masu Lanƙwasa B, C, D",
+        "Matsayi 6-63A",
+        "Ikon Kashewa 10kA",
+        "Dorawa a Dogo DIN"
       ]
     },
     "mccb": {
-      "name": "Molded Case Circuit Breakers (MCCB)",
-      "description": "Industrial circuit breakers for motor and power protection",
+      "name": "Masu Kashe Da'ira Na Akwati (MCCB)",
+      "description": "Masu kashe da'ira na masana'antu don kariya injuna da wutar lantarki",
       "features": [
-        "Adjustable Trip",
-        "High Breaking Capacity",
-        "Electronic Trip Units",
-        "Up to 1600A"
+        "Tafiya Mai Gyara",
+        "Babban Ikon Kashewa",
+        "Sassan Kashewa Na Lantarki",
+        "Har zuwa 1600A"
       ]
     },
     "industrialFuses": {
-      "name": "Industrial Fuses",
-      "description": "High-speed fuses for equipment protection",
+      "name": "Fyuzogin Masana'antu",
+      "description": "Fyuzogin masu sauri don kariyar kayan aiki",
       "features": [
-        "Fast Acting",
-        "Time Delay",
-        "High Voltage",
-        "Ceramic Body"
+        "Aiki Da Sauri",
+        "Jinkirin Lokaci",
+        "Babban Lantarki",
+        "Jikin Yumbu"
       ]
     }
   },
   "connectorsTerminals": {
     "terminalBlocks": {
-      "name": "Terminal Blocks",
-      "description": "Industrial terminal blocks for secure wire connections",
+      "name": "Katakan Ƙarshe",
+      "description": "Katakan ƙarshe na masana'antu don amintaccen haɗin wayoyi",
       "features": [
-        "Spring Clamp",
-        "Screw Type",
-        "DIN Rail Mount",
-        "Multiple Sizes"
+        "Maɓuɓɓugi Matse",
+        "Irin Skur",
+        "Dorawa a Dogo DIN",
+        "Girman Da Yawa"
       ]
     },
     "industrialConnectors": {
-      "name": "Industrial Connectors",
-      "description": "Heavy-duty connectors for industrial applications",
+      "name": "Masu Haɗawa Na Masana'antu",
+      "description": "Masu haɗawa masu ƙarfi don amfani na masana'antu",
       "features": [
-        "IP67 Rating",
-        "Locking Mechanism",
-        "Multi-Pin",
-        "Cable Glands"
+        "Matsayi IP67",
+        "Tsarin Kulle",
+        "Pin Da Yawa",
+        "Haɗin Kebul"
       ]
     },
     "signalConnectors": {
-      "name": "Signal Connectors",
-      "description": "Precision connectors for instrumentation signals",
+      "name": "Masu Haɗawa Sigina",
+      "description": "Masu haɗawa masu daidaici don siginar kayan aiki",
       "features": [
-        "Low Noise",
-        "Shielded Design",
-        "Miniature Size",
-        "High Reliability"
+        "Ƙarancin Motsi",
+        "Zane Kariya",
+        "Girman Karami",
+        "Babban Aminci"
       ]
     }
   },
   "instrumentation": {
     "sensors": {
-      "title": "Industrial Sensors",
-      "shortDescription": "Comprehensive range of industrial-grade sensors for automation and process control",
-      "fullDescription": "Advanced sensor solutions including temperature, pressure, position, motion, flow, level, proximity, and specialized sensors. Our sensor portfolio features digital temperature sensors with silicon-based ICs, pressure sensors for water conservancy and industrial applications, position sensors with MEMS technology, and vision sensors with image processing systems for quality control.",
+      "title": "Na'urorin Gano Masana'antu",
+      "shortDescription": "Babban kewayon na'urorin gano matakin masana'antu don sarrafa atomatik da sarrafa tsari",
+      "fullDescription": "Ci gaban suluhisho na'urorin gano har da zafi, matsa lamba, matsayi, motsi, kwarara, mataki, kusanci, da na'urori na musamman. Ɗakin tallace-tallacenmu na na'urorin gano ya ƙunshi na'urorin gano zafi na dijital tare da IC na tushen silicon, na'urorin gano matsa lamba don amfani da ruwa da masana'antu, na'urorin gano matsayi tare da fasahar MEMS, da na'urorin gano hangen nesa tare da tsarin sarrafa hoto don sarrafa inganci.",
       "specifications": [
-        "Temperature Range: -40°C to +125°C",
-        "Pressure Range: Vacuum to 7500 PSI",
-        "Signal Output: 4-20mA, 0-10V, Digital (USB, PNP/NPN)",
-        "Resolution: Up to 24-bit for high precision",
-        "Response Time: <10ms for critical applications",
-        "IP Protection: IP65/IP67/IP69K ratings available"
+        "Iyakar Zafi: -40°C zuwa +125°C",
+        "Iyakar Matsa Lamba: Wuta zuwa 7500 PSI",
+        "Fitarwar Sigina: 4-20mA, 0-10V, Dijital (USB, PNP/NPN)",
+        "Ƙuduri: Har zuwa bit 24 don babban daidaici",
+        "Lokacin Amsa: <10ms don amfani mai muhimmanci",
+        "Kariyar IP: Matsayoyi IP65/IP67/IP69K ana samun su"
       ],
       "applications": [
-        "Process Control & Monitoring",
-        "Manufacturing Automation",
-        "Quality Control Systems",
-        "Safety & Security Systems",
-        "Environmental Monitoring",
-        "Predictive Maintenance"
+        "Sarrafa da Sa Ido Tsari",
+        "Sarrafa Masana'antu ta Atomatik",
+        "Tsarin Sarrafa Inganci",
+        "Tsarin Aminci da Tsaro",
+        "Sa Ido Muhalli",
+        "Kulawa Mai Hasashen"
       ],
       "features": [
-        "Industry 4.0 Ready with IoT Connectivity",
-        "Self-Diagnostics & Calibration",
-        "Multiple Communication Protocols",
-        "Explosion-Proof Variants Available",
-        "Extended Temperature Stability",
-        "Low Power Consumption"
+        "Shirye don Masana'antu 4.0 tare da Haɗin IoT",
+        "Binciken Kai da Daidaitawa",
+        "Ka'idoji Da Yawa na Sadarwa",
+        "Bambancin Tashe-tashen Hankula",
+        "Kwanciyar Hankali Na Zafi Tsaye",
+        "Ƙarancin Amfani da Wutar Lantarki"
       ],
       "keyBenefits": [
-        "High Accuracy & Reliability",
-        "Easy Integration & Configuration",
-        "Reduced Maintenance Requirements",
-        "Enhanced Safety Compliance",
-        "Long-Term Stability",
-        "Cost-Effective Operation"
+        "Babban Daidaici da Aminci",
+        "Sauƙin Haɗawa da Saitin",
+        "Raguwar Buƙatun Kulawa",
+        "Ingantaccen Bin Aminci",
+        "Kwanciyar Hankali Na Tsayin Lokaci",
+        "Aiki Mai Rahusa"
       ],
       "industries": [
-        "Oil & Gas",
-        "Chemical & Petrochemical",
-        "Power Generation",
-        "Water Treatment",
-        "Food & Beverage",
-        "Automotive Manufacturing"
+        "Mai da Iskar Gas",
+        "Sinadari da Petrochemical",
+        "Samar da Wutar Lantarki",
+        "Maganin Ruwa",
+        "Abinci da Sha",
+        "Masana'antar Motoci"
       ],
       "certifications": [
         "CE",
@@ -309,62 +309,62 @@
         "SIL 2/3"
       ],
       "technicalData": {
-        "operatingTemp": "-40°C to +125°C",
+        "operatingTemp": "-40°C zuwa +125°C",
         "protection": "IP65/IP67/IP69K",
         "communication": [
           "4-20mA",
           "HART",
           "Modbus",
           "Ethernet",
-          "Wireless"
+          "Mara Waya"
         ],
-        "accuracy": "±0.1% to ±0.5% of span",
-        "power": "24V DC, 115/230V AC, Loop-powered"
+        "accuracy": "±0.1% zuwa ±0.5% na fadi",
+        "power": "24V DC, 115/230V AC, mai cin wuta daga madauwari"
       }
     },
     "transmitters": {
-      "title": "Transmitters & Transducers",
-      "shortDescription": "Precision transmitters for pressure, temperature, flow, and level measurement",
-      "fullDescription": "Comprehensive range of industrial transmitters including pressure transmitters (gauge, absolute, differential), temperature transmitters, flow measurement devices, and multivariable transmitters. Features advanced technologies like strain gauge, capacitive, and piezoresistive sensing with HART digital communication. Market leaders like Emerson Rosemount, ABB, Yokogawa, and Honeywell provide reliable solutions for process industries.",
+      "title": "Masu Watarwa da Masu Canja",
+      "shortDescription": "Masu watarwa masu daidaici don aunawa matsa lamba, zafi, kwarara, da mataki",
+      "fullDescription": "Babban kewayon masu watarwa na masana'antu har da masu watarwar matsa lamba (ma'auni, cikakke, bambanci), masu watarwar zafi, na'urorin aunawa kwarara, da masu watarwa masu bambanci. Yana da ci gaban fasahoji kamar ma'aunin matsananciya, capacitive, da piezoresistive sensing tare da sadarwar dijital HART. Jagororin kasuwa kamar Emerson Rosemount, ABB, Yokogawa, da Honeywell suna ba da suluhisso masu aminci don masana'antun tsari.",
       "specifications": [
-        "Accuracy: ±0.05% to ±0.25% of span",
-        "Stability: 5-year ±0.1% span stability",
-        "Operating Range: Up to 7,500 PSI pressure",
-        "Rangeability: Up to 400:1 turndown ratio",
-        "Output: 4-20mA + HART digital",
-        "Multivariable: Pressure, flow, temperature in one device"
+        "Daidaici: ±0.05% zuwa ±0.25% na fadi",
+        "Kwanciyar Hankali: Kwanciyar hankali na shekara 5 ±0.1%",
+        "Kewayon Aiki: Har zuwa 7,500 PSI matsa lamba",
+        "Ikon Canzawa: Har zuwa 400:1 turndown ratio",
+        "Fitarwar: 4-20mA + HART dijital",
+        "Bambanci: Matsa lamba, kwarara, zafi a na'ura ɗaya"
       ],
       "applications": [
-        "Pipeline Monitoring",
-        "Process Control",
-        "Tank Level Measurement",
-        "Flow Measurement",
-        "Safety Systems",
-        "Regulatory Compliance"
+        "Sa Ido Bututun Iskar Gas",
+        "Sarrafa Tsari",
+        "Aunawa Matakin Tanki",
+        "Aunawa Kwarara",
+        "Tsarin Aminci",
+        "Bin Ka'idoji"
       ],
       "features": [
-        "Smart Diagnostics & Predictive Maintenance",
-        "Coplanar Technology for Easy Installation",
-        "Remote Seal Capability",
-        "Wireless HART Options",
-        "Temperature Compensation",
-        "Self-Diagnostics"
+        "Binciken Hankali da Kulawa Mai Hasashen",
+        "Fasahar Coplanar don Sauƙin Shigarwa",
+        "Ikon Hatimi Nesa",
+        "Zaɓuɓɓukan HART Mara Waya",
+        "Daidaitawar Zafi",
+        "Binciken Kai"
       ],
       "keyBenefits": [
-        "Industry-Leading Accuracy",
-        "Reduced Total Cost of Ownership",
-        "Enhanced Process Optimization",
-        "Improved Safety & Reliability",
-        "Easy Maintenance & Support",
-        "Future-Proof Technology"
+        "Daidaici Na Jagora Masana'antu",
+        "Raguwar Jimlar Farashin Mallaka",
+        "Ingantaccen Inganta Tsari",
+        "Ingantaccen Aminci da Aminci",
+        "Sauƙin Kulawa da Tallafi",
+        "Fasaha Mai Tabbatar da Gaba"
       ],
       "industries": [
-        "Oil & Gas",
-        "Chemical Processing",
-        "Refining",
-        "Power Generation",
-        "Pulp & Paper",
-        "Mining & Metals"
+        "Mai da Iskar Gas",
+        "Sarrafa Sinadari",
+        "Gyara",
+        "Samar da Wutar Lantarki",
+        "Takarda da Takarda",
+        "Hakar Ma'adinai da Ƙarfe"
       ],
       "certifications": [
         "SIL 2/3",
@@ -375,176 +375,176 @@
         "NEPSI"
       ],
       "technicalData": {
-        "operatingTemp": "-40°C to +85°C",
+        "operatingTemp": "-40°C zuwa +85°C",
         "protection": "IP66/IP67",
         "communication": [
           "HART",
           "Foundation Fieldbus",
           "Profibus",
-          "Wireless"
+          "Mara Waya"
         ],
-        "accuracy": "±0.05% to ±0.25% of span",
-        "power": "10.5-42.4V DC, Loop-powered"
+        "accuracy": "±0.05% zuwa ±0.25% na fadi",
+        "power": "10.5-42.4V DC, mai cin wuta daga madauwari"
       }
     }
   },
   "cablesWires": {
     "instrumentation": {
-      "name": "Instrumentation Cables",
-      "description": "Low voltage cables for instrumentation and control applications",
+      "name": "Kebabul Kayan Auki",
+      "description": "Kebabul ƙananan wutar lantarki don kayan auki da sarrafa",
       "features": [
-        "Shielded Construction",
-        "Moisture Resistant",
-        "Temperature Rated",
-        "Multiple Pairs"
+        "Ginin Kariya",
+        "Mai Jure Ruwa",
+        "Matsayin Zafi",
+        "Biyu Da Yawa"
       ]
     },
     "powerDistribution": {
-      "name": "Power Distribution Cables",
-      "description": "High voltage cables for power transmission and distribution",
+      "name": "Kebabul Rarraba Wutar Lantarki",
+      "description": "Kebabul babban wutar lantarki don isar da wutar lantarki da rarrabawa",
       "features": [
-        "XLPE Insulation",
-        "Armored Construction",
-        "Fire Resistant",
-        "High Current Rating"
+        "Rufin XLPE",
+        "Ginin Kariya",
+        "Mai Jure Wuta",
+        "Babban Matsayin Wutar Lantarki"
       ]
     },
     "communication": {
-      "name": "Communication Cables",
-      "description": "Data transmission cables for industrial communication networks",
+      "name": "Kebabul Sadarwa",
+      "description": "Kebabul watsar da bayanai don cibiyoyin sadarwa na masana'antu",
       "features": [
         "Cat5e/Cat6",
-        "Fiber Optic",
-        "Industrial Grade",
-        "EMI Shielding"
+        "zaren haske",
+        "Matsayin Masana'antu",
+        "Kariya EMI"
       ]
     }
   },
   "handTools": {
     "wrenchSets": {
-      "name": "Professional Wrench Sets",
-      "description": "Complete sets of combination and adjustable wrenches",
+      "name": "Kayan Aikin Maƙalli Na Ƙwararru",
+      "description": "Cikakkun kayan aikin haɗe-haɗe da masu gyarawa",
       "features": [
-        "Chrome Vanadium Steel",
-        "Metric & SAE Sizes",
-        "Professional Grade",
-        "Lifetime Warranty"
+        "Karfen Chrome Vanadium",
+        "Girman na tsarin mita da SAE",
+        "Matsayin Ƙwararru",
+        "Garantin Rayuwa"
       ]
     },
     "screwdriverSets": {
-      "name": "Precision Screwdriver Sets",
-      "description": "High-quality screwdrivers for precision applications",
+      "name": "Kayan Aikin Sukuru Masu Daidaici",
+      "description": "Kayan aikin sukuru masu inganci don amfani masu daidaici",
       "features": [
-        "Ergonomic Handles",
-        "Magnetic Tips",
-        "Multiple Head Types",
-        "Anti-Slip Grip"
+        "Hannun Ergonomic",
+        "Bayar Da Maganadisu",
+        "Iri-irin Nau'ikan Kai",
+        "Riƙon Anti-Slip"
       ]
     },
     "toolKits": {
-      "name": "Industrial Tool Kits",
-      "description": "Comprehensive tool kits for industrial maintenance",
+      "name": "Kayan Aikin Masana'antu",
+      "description": "Cikakkun kayan aikin don kulawa masana'antu",
       "features": [
-        "Complete Tool Set",
-        "Organized Storage",
-        "Heavy-Duty Case",
-        "Professional Quality"
+        "Cikakken Kayan Aiki",
+        "Ajiyar Da Aka Tsara",
+        "Akwati Mai Ƙarfi",
+        "Ingancin Ƙwararru"
       ]
     }
   },
   "powerTools": {
     "drillSets": {
-      "name": "Industrial Drill Sets",
-      "description": "Heavy-duty electric and cordless drills for industrial applications",
+      "name": "Kayan Aikin Huda Na Masana'antu",
+      "description": "Kayan aikin huda na lantarki da marasa waya masu ƙarfi don amfani na masana'antu",
       "features": [
-        "High Torque",
-        "Variable Speed",
-        "Cordless Options",
-        "Chuck Capacity: 13mm"
+        "Babban Torque",
+        "Sauri Mai Canzawa",
+        "Zaɓuɓɓukan Marasa Waya",
+        "Ikon Chuck: 13mm"
       ]
     },
     "angleGrinders": {
-      "name": "Angle Grinders",
-      "description": "Professional angle grinders for cutting and grinding operations",
+      "name": "Masu Niƙa Kusurwa",
+      "description": "Masu niƙa kusurwa na ƙwararru don ayyukan yanke da niƙa",
       "features": [
-        "Multiple Disc Sizes",
-        "Safety Guards",
-        "Anti-Vibration",
-        "Powerful Motors"
+        "Girman Faifai Da Yawa",
+        "Masu Kariya Aminci",
+        "rage girgiza",
+        "Injuna Masu Ƙarfi"
       ]
     },
     "impactWrenches": {
-      "name": "Impact Wrenches",
-      "description": "High-torque impact wrenches for heavy-duty fastening",
+      "name": "Maƙallan Tasiri",
+      "description": "Maƙallan tasiri masu babban torque don ɗaure masu ƙarfi",
       "features": [
-        "High Impact Force",
-        "Socket Compatibility",
-        "Forward/Reverse",
-        "Battery Powered"
+        "Babban Ƙarfin Tasiri",
+        "Dacewa Socket",
+        "Gaba/Baya",
+        "Wutar Lantarki Baturi"
       ]
     }
   },
   "cuttingTools": {
     "sawBlades": {
-      "name": "Industrial Saw Blades",
-      "description": "High-quality saw blades for metal and wood cutting",
+      "name": "Ruwan Yanke Na Masana'antu",
+      "description": "Ruwan yanke masu inganci don yanke ƙarfe da itace",
       "features": [
-        "HSS/Carbide Tips",
-        "Multiple TPI",
-        "Bi-Metal Construction",
-        "Long Life"
+        "Bayar HSS/Carbide",
+        "TPI Da Yawa",
+        "Ginin Bi-Metal",
+        "Dogon Rayuwa"
       ]
     },
     "drillBits": {
-      "name": "Drill Bits & Reamers",
-      "description": "Precision drilling and reaming tools",
+      "name": "Bayar Huda da Masu Gyara",
+      "description": "Kayan aikin huda da gyara masu daidaici",
       "features": [
         "HSS/Cobalt",
-        "Jobber Length",
-        "Spiral Flutes",
-        "Split Point"
+        "Tsawon al'ada",
+        "Flutes Karkace",
+        "Mahaɗin Raba"
       ]
     },
     "millingCutters": {
-      "name": "Milling Cutters",
-      "description": "End mills and face mills for machining operations",
+      "name": "Masu Yanke Niƙa",
+      "description": "Masu yanke ƙarshe da fuskar niƙa don ayyukan injina",
       "features": [
         "Carbide/HSS",
-        "Multiple Flutes",
-        "Coated Options",
-        "Various Geometries"
+        "Flutes Da Yawa",
+        "Zaɓuɓɓukan Da Aka Rufe",
+        "Nau'ikan Geometry Daban-daban"
       ]
     }
   },
   "liftingEquipment": {
     "chainHoists": {
-      "name": "Chain Hoists & Slings",
-      "description": "Manual and electric chain hoists for heavy lifting",
+      "name": "Masu Ɗagawa Sarƙa da Slings",
+      "description": "Masu ɗagawa sarƙa na hannu da lantarki don ɗagawa mai nauyi",
       "features": [
-        "1-20 Ton Capacity",
-        "Electric/Manual",
-        "Safety Hooks",
-        "Overload Protection"
+        "Ikon 1-20 Ton",
+        "Lantarki/Hannu",
+        "Ƙugiya Aminci",
+        "Kariyar Wuce Kaya"
       ]
     },
     "wireRope": {
-      "name": "Wire Rope & Cables",
-      "description": "High-strength wire rope for lifting applications",
+      "name": "Igiyar Waya da Kebabul",
+      "description": "Igiyar waya mai ƙarfi don amfani ɗagawa",
       "features": [
-        "Galvanized Steel",
-        "Multiple Lay Types",
-        "Various Diameters",
-        "IWRC Core"
+        "Karfen Galvanized",
+        "Iri-irin Nau'ikan Kwance",
+        "Diamita Daban-daban",
+        "Tsakiya IWRC"
       ]
     },
     "liftingHardware": {
-      "name": "Lifting Hardware",
-      "description": "Shackles, hooks, and rigging hardware",
+      "name": "Kayan Ɗagawa",
+      "description": "Masu ƙulle, ƙugiya, da kayan rigging",
       "features": [
-        "Stainless Steel",
-        "Safety Pins",
-        "Load Rated",
-        "ANSI/ASME Standards"
+        "Baƙin Ƙarfe Mara Tsatsa",
+        "Fil Aminci",
+        "An Auna Kaya",
+        "Ma'auni ANSI/ASME"
       ]
     }
   },
@@ -565,9 +565,9 @@
       "zelio": "Schneider Electric Zelio Logic"
     },
     "solar": {
-      "monocrystalline400W": "Monocrystalline Solar Panels - 400W",
-      "polycrystalline320W": "Polycrystalline Solar Panels - 320W",
-      "bifacial450W": "Bifacial Solar Panels - 450W"
+      "monocrystalline400W": "Alluna Hasken Rana guda ɗaya kristal - 400W",
+      "polycrystalline320W": "Alluna Hasken Rana da yawa kristal - 320W",
+      "bifacial450W": "Alluna Hasken Rana mai fuska biyu - 450W"
     }
   }
 }
