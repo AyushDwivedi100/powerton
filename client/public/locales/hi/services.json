@@ -19,60 +19,60 @@
     "solar-epc": "सोलर ईपीसी समाधान"
   },
   "durations": {
-    "installation-commissioning": "1-4 सप्ताह",
-    "maintenance-repair": "उसी दिन - 1 सप्ताह",
-    "calibration-testing": "2-5 दिन",
+    "installation-commissioning": "१-४ सप्ताह",
+    "maintenance-repair": "उसी दिन - १ सप्ताह",
+    "calibration-testing": "२-५ दिन",
     "technical-support": "तत्काल - चालू",
-    "custom-solutions": "2-12 सप्ताह",
-    "consultation-training": "1-5 दिन",
-    "supply-chain-management": "1-7 दिन",
-    "solar-epc": "4-16 सप्ताह"
+    "custom-solutions": "२-१२ सप्ताह",
+    "consultation-training": "१-५ दिन",
+    "supply-chain-management": "१-७ दिन",
+    "solar-epc": "४-१६ सप्ताह"
   },
   "features": {
     "installation-commissioning": {
-      "plc-dcs": "PLC/DCS स्थापना",
+      "plc-dcs": "प्रोग्रामेबल लॉजिक कंट्रोलर/वितरित नियंत्रण प्रणाली स्थापना",
       "system-integration": "सिस्टम एकीकरण",
       "performance-testing": "प्रदर्शन परीक्षण",
       "compliance-certification": "अनुपालन प्रमाणन"
     },
     "maintenance-repair": {
       "preventive": "निवारक रखरखाव",
-      "emergency": "आपातकालीन मरम्मत (2घंटे)",
+      "emergency": "आपातकालीन मरम्मत (२ घंटे)",
       "replacement": "कंपोनेंट बदलना",
       "upgrades": "सिस्टम अपग्रेड"
     },
     "calibration-testing": {
-      "nabl-certified": "NABL प्रमाणित अंशांकन",
-      "accuracy-testing": "±0.25% सटीकता परीक्षण",
+      "nabl-certified": "राष्ट्रीय परीक्षण और अंशांकन प्रयोगशाला प्रामाणन बोर्ड प्रमाणित अंशांकन",
+      "accuracy-testing": "±०.२५% सटीकता परीक्षण",
       "compliance": "अनुपालन सत्यापन",
       "certificates": "ट्रेसेबिलिटी प्रमाणपत्र"
     },
     "technical-support": {
-      "24-7-support": "24/7/365 सहायता",
+      "24-7-support": "२४/७/३६५ सहायता",
       "remote-diagnostics": "रिमोट डायग्नोस्टिक्स",
-      "onsite-response": "4घंटे ऑन-साइट प्रतिक्रिया",
+      "onsite-response": "४ घंटे ऑन-साइट प्रतिक्रिया",
       "emergency-hotline": "आपातकालीन हॉटलाइन"
     },
     "custom-solutions": {
-      "mcc-panels": "कस्टम MCC पैनल",
+      "mcc-panels": "कस्टम मोटर कंट्रोल केंद्र पैनल",
       "process-automation": "प्रक्रिया स्वचालन",
       "unique-applications": "अनूठे अनुप्रयोग",
       "end-to-end": "एंड-टू-एंड समाधान"
     },
     "consultation-training": {
-      "plc-programming": "PLC प्रोग्रामिंग प्रशिक्षण",
+      "plc-programming": "प्रोग्रामेबल लॉजिक कंट्रोलर प्रोग्रामिंग प्रशिक्षण",
       "system-design": "सिस्टम डिजाइन परामर्श",
-      "isa-certified": "ISA प्रमाणित मॉड्यूल",
+      "isa-certified": "इंस्ट्रूमेंटेशन सिस्टम और ऑटोमेशन सोसायटी प्रमाणित मॉड्यूल",
       "hands-on": "व्यावहारिक कार्यशालाएं"
     },
     "supply-chain-management": {
       "authorized-distributors": "अधिकृत वितरक",
       "genuine-parts": "केवल वास्तविक पार्ट्स",
-      "warranty": "1-वर्ष की वारंटी",
+      "warranty": "१-वर्ष की वारंटी",
       "express-delivery": "एक्सप्रेस डिलीवरी"
     },
     "solar-epc": {
-      "mnre-approved": "MNRE अनुमोदित डिज़ाइन",
+      "mnre-approved": "नवीन और नवीकरणीय ऊर्जा मंत्रालय अनुमोदित डिज़ाइन",
       "capacity": "1kW से 1MW+ क्षमता",
       "guarantee": "25-वर्ष की गारंटी",
       "grid-connection": "ग्रिड कनेक्शन सहायता"
@@ -81,12 +81,12 @@
   "descriptions": {
     "installation-commissioning": "विद्युत पैनल, पीएलसी, स्काडा सिस्टम और औद्योगिक उपकरण के लिए पेशेवर स्थापना और कमीशनिंग सेवाएं।",
     "maintenance-repair": "विद्युत सिस्टम, कंट्रोल पैनल और औद्योगिक स्वचालन उपकरण के लिए व्यापक निवारक और आपातकालीन रखरखाव सेवाएं।",
-    "calibration-testing": "दबाव, तापमान, प्रवाह उपकरण और नियंत्रण सिस्टम के लिए NABL-प्रमाणित सटीक अंशांकन और परीक्षण सेवाएं।",
-    "technical-support": "रिमोट डायग्नोस्टिक्स, ऑन-साइट समस्या निवारण और आपातकालीन प्रतिक्रिया के साथ 24/7/365 तकनीकी सहायता सेवाएं।",
+    "calibration-testing": "दबाव, तापमान, प्रवाह उपकरण और नियंत्रण सिस्टम के लिए राष्ट्रीय परीक्षण और अंशांकन प्रयोगशाला प्रामाणन बोर्ड-प्रमाणित सटीक अंशांकन और परीक्षण सेवाएं।",
+    "technical-support": "रिमोट डायग्नोस्टिक्स, ऑन-साइट समस्या निवारण और आपातकालीन प्रतिक्रिया के साथ २४/७/३६५ तकनीकी सहायता सेवाएं।",
     "custom-solutions": "कस्टम एमसीसी पैनल, स्वचालन सिस्टम और प्रक्रिया नियंत्रण समाधान सहित अनूठी औद्योगिक आवश्यकताओं के लिए अनुकूलित इंजीनियरिंग समाधान।",
     "consultation-training": "पीएलसी प्रोग्रामिंग, एचएमआई विकास और औद्योगिक स्वचालन के लिए विशेषज्ञ तकनीकी परामर्श और व्यावहारिक प्रशिक्षण कार्यक्रम।",
     "supply-chain-management": "विद्युत घटकों और स्पेयर पार्ट्स के लिए व्यापक आपूर्ति श्रृंखला प्रबंधन। अधिकृत वितरक नेटवर्क वास्तविक पार्ट्स सुनिश्चित करता है।",
-    "solar-epc": "1kW से 1MW+ परियोजनाओं के लिए पूर्ण सोलर इंजीनियरिंग, खरीद और निर्माण सेवाएं। MNRE-अनुमोदित डिज़ाइन के साथ 25-वर्ष की प्रदर्शन गारंटी।"
+    "solar-epc": "1kW से 1MW+ परियोजनाओं के लिए पूर्ण सोलर इंजीनियरिंग, खरीद और निर्माण सेवाएं। नवीन और नवीकरणीय ऊर्जा मंत्रालय-अनुमोदित डिज़ाइन के साथ 25-वर्ष की प्रदर्शन गारंटी।"
   },
   "serviceDetails": {
     "technicalSupport": {

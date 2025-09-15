@@ -43,7 +43,7 @@
     },
     "messages": {
       "success": "धन्यवाद! आपका संदेश सफलतापूर्वक भेज दिया गया है।",
-      "successDesc": "हम 24 घंटों के भीतर आपसे संपर्क करेंगे।",
+      "successDesc": "हम २४ घंटों के भीतर आपसे संपर्क करेंगे।",
       "error": "संदेश भेजने में असफल",
       "errorDesc": "कृपया पुनः प्रयास करें या हमसे सीधे संपर्क करें {{phone}} या {{email}}"
     }
@@ -75,72 +75,72 @@
       "technicalSpecifications": "तकनीकी विशिष्टाएं"
     },
     "error": {
-      "title": "Quote submission failed",
-      "description": "For immediate assistance: {{phone}} or email: {{email}}"
+      "title": "कोटेशन जमा करने में असफल",
+      "description": "तत्काल सहायता के लिए: {{phone}} या ईमेल: {{email}}"
     },
     "projectTypes": {
       "newInstallation": "नई स्थापना",
       "systemUpgrade": "सिस्टम अपग्रेड",
       "retrofit": "रेट्रोफिट",
-      "maintenance": "Maintenance Contract",
-      "consultation": "Technical Consultation",
-      "design": "Design & Engineering"
+      "maintenance": "रखरखाव अनुबंध",
+      "consultation": "तकनीकी परामर्श",
+      "design": "डिजाइन और इंजीनियरिंग"
     },
     "timelines": {
-      "immediate": "Immediate (< 1 month)",
-      "1-3-months": "1-3 months",
-      "3-6-months": "3-6 months",
-      "6-12-months": "6-12 months",
-      "1-year-plus": "More than 1 year"
+      "immediate": "तत्काल (एक महीने से कम)",
+      "1-3-months": "एक से तीन महीने",
+      "3-6-months": "तीन से छह महीने",
+      "6-12-months": "छह से बारह महीने",
+      "1-year-plus": "एक साल से अधिक"
     },
     "budgetRanges": {
-      "under-1-lakh": "Under ₹1 Lakh",
-      "1-5-lakh": "₹1-5 Lakhs",
-      "5-10-lakh": "₹5-10 Lakhs",
-      "10-25-lakh": "₹10-25 Lakhs",
-      "25-50-lakh": "₹25-50 Lakhs",
-      "50-lakh-plus": "₹50 Lakhs+",
-      "discuss": "Prefer to discuss"
+      "under-1-lakh": "₹१ लाख से कम",
+      "1-5-lakh": "₹१-५ लाख",
+      "5-10-lakh": "₹५-१० लाख",
+      "10-25-lakh": "₹१०-२५ लाख",
+      "25-50-lakh": "₹२५-५० लाख",
+      "50-lakh-plus": "₹५० लाख+",
+      "discuss": "चर्चा करना पसंद करते हैं"
     },
     "success": {
-      "title": "Quote request submitted successfully!",
-      "description": "Our engineering team will review your requirements and respond within 24-48 hours."
+      "title": "कोटेशन अनुरोध सफलतापूर्वक जमा किया गया!",
+      "description": "हमारी इंजीनियरिंग टीम आपकी आवश्यकताओं की समीक्षा करेगी और २४-४८ घंटों के भीतर जवाब देगी।"
     },
     "placeholders": {
-      "selectIndustry": "Select industry",
-      "selectProjectScale": "Select project scale",
-      "selectBudget": "Select budget range (optional)",
-      "detailedRequirements": "Please provide detailed specifications including:\n- Technical requirements and standards\n- Equipment specifications and quantities\n- Performance requirements\n- Environmental conditions\n- Compliance requirements\n- Any special considerations...",
-      "additionalRequirements": "Any additional requirements, special conditions, or questions...",
-      "preferredBrands": "e.g., Siemens, Allen-Bradley, Schneider..."
+      "selectIndustry": "उद्योग का चयन करें",
+      "selectProjectScale": "परियोजना का पैमाना चुनें",
+      "selectBudget": "बजट की सीमा चुनें (वैकल्पिक)",
+      "detailedRequirements": "कृपया विस्तृत विशिष्टाएं प्रदान करें जिनमें शामिल हैं:\n- तकनीकी आवश्यकताएं और मानक\n- उपकरण विशिष्टाएं और मात्रा\n- प्रदर्शन आवश्यकताएं\n- पर्यावरणीय स्थितियां\n- अनुपालन आवश्यकताएं\n- कोई विशेष विचार...",
+      "additionalRequirements": "कोई अतिरिक्त आवश्यकताएं, विशेष शर्तें, या प्रश्न...",
+      "preferredBrands": "उदाहरण: सीमेंस, एलेन-ब्रैडली, श्नाइडर..."
     },
     "labels": {
-      "industryType": "Industry Type",
-      "projectScale": "Project Scale",
-      "approximateBudget": "Approximate Budget",
-      "detailedRequirements": "Detailed Requirements *",
-      "preferredBrands": "Preferred Brands/Standards",
-      "additionalRequirements": "Additional Requirements",
-      "projectTitle": "Project Title *",
-      "projectType": "Project Type *",
-      "expectedTimeline": "Expected Timeline *",
-      "phoneNumber": "Phone Number *",
-      "companyName": "Company Name *",
-      "projectInformation": "Project Information",
-      "budgetRange": "Budget Range"
+      "industryType": "उद्योग प्रकार",
+      "projectScale": "परियोजना का पैमाना",
+      "approximateBudget": "अनुमानित बजट",
+      "detailedRequirements": "विस्तृत आवश्यकताएं *",
+      "preferredBrands": "पसंदीदा ब्रांड/मानक",
+      "additionalRequirements": "अतिरिक्त आवश्यकताएं",
+      "projectTitle": "परियोजना शीर्षक *",
+      "projectType": "परियोजना प्रकार *",
+      "expectedTimeline": "प्रत्याशित समयसीमा *",
+      "phoneNumber": "फोन नंबर *",
+      "companyName": "कंपनी का नाम *",
+      "projectInformation": "परियोजना की जानकारी",
+      "budgetRange": "बजट की सीमा"
     },
     "fields": {
       "designation": {
-        "label": "Designation"
+        "label": "पदनाम"
       },
       "additionalRequirements": {
-        "label": "Additional Requirements"
+        "label": "अतिरिक्त आवश्यकताएं"
       },
       "name": {
-        "label": "Full Name *"
+        "label": "पूरा नाम *"
       },
       "email": {
-        "label": "Email Address *"
+        "label": "ईमेल पता *"
       }
     },
     "submitting": "Submitting Quote Request...",
