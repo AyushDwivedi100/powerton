@@ -120,6 +120,94 @@
       "features": ["लो नॉइज़ डिजाइन", "शील्डेड निर्माण", "मिनिएचर साइज़", "उच्च रिलायबिलिटी प्रदर्शन"]
     }
   },
+  "items": {
+    "instrumentation-components": "उपकरण घटक",
+    "electrical-components": "विद्युत घटक",
+    "measurement-instruments": "मापन उपकरण",
+    "solar-products": "सौर उत्पाद",
+    "automation-control-systems": "स्वचालन और नियंत्रण प्रणाली",
+    "safety-protective-devices": "सुरक्षा और सुरक्षात्मक उपकरण",
+    "mechanical-pumps-spares": "यांत्रिक पंप और स्पेयर पार्ट्स",
+    "industrial-tools-tackles": "औद्योगिक उपकरण और सामान",
+    "bldc": "BLDC मोटर प्रणाली"
+  },
+  "productPages": {
+    "bldcSubmersibleSurfacePump": {
+      "title": "BLDC सबमर्सिबल और सरफेस पंप",
+      "subtitle": "जल आपूर्ति, सिंचाई और सौर अनुप्रयोगों के लिए ऊर्जा-कुशल BLDC पंप"
+    },
+    "cablesWires": {
+      "title": "केबल और वायर",
+      "subtitle": "शक्ति संचरण, इंस्ट्रूमेंटेशन और डेटा संचार के लिए औद्योगिक केबल और वायर"
+    },
+    "handTools": {
+      "title": "हस्त उपकरण",
+      "subtitle": "औद्योगिक रखरखाव और विनिर्माण अनुप्रयोगों के लिए पेशेवर ग्रेड हस्त उपकरण"
+    },
+    "powerTools": {
+      "title": "पावर टूल्स",
+      "subtitle": "भारी-शुल्क विनिर्माण और रखरखाव कार्यों के लिए औद्योगिक-ग्रेड पावर टूल्स"
+    },
+    "cuttingTools": {
+      "title": "कटिंग टूल्स",
+      "subtitle": "मशीनिंग, ड्रिलिंग और सामग्री प्रसंस्करण अनुप्रयोगों के लिए पेशेवर कटिंग टूल्स"
+    },
+    "liftingEquipment": {
+      "title": "लिफ्टिंग उपकरण",
+      "subtitle": "सुरक्षित सामग्री हैंडलिंग कार्यों के लिए औद्योगिक लिफ्टिंग और रिगिंग उपकरण"
+    },
+    "valves": {
+      "title": "वाल्व और एक्चुएटर",
+      "subtitle": "वायुमण्डलीय, विद्युत और हाइड्रोलिक एक्चुएटर के साथ औद्योगिक वाल्व स्वचालन समाधान",
+      "shortDescription": "वायुमण्डलीय, विद्युत और हाइड्रोलिक एक्चुएटर के साथ औद्योगिक वाल्व स्वचालन समाधान",
+      "fullDescription": "स्मार्ट तकनीकों, IoT कनेक्टिविटी और कंडीशन मॉनिटरिंग के साथ क्वार्टर-टर्न और लिनियर वाल्व सहित व्यापक वाल्व स्वचालन पोर्टफोलियो।",
+      "seo": {
+        "title": "औद्योगिक वाल्व और एक्चुएटर - स्वचालित नियंत्रण समाधान | Powerton Engineering",
+        "description": "वायुमण्डलीय, विद्युत और हाइड्रोलिक एक्चुएटर के साथ औद्योगिक वाल्व स्वचालन। बॉल वाल्व, बटरफ्लाइ वाल्व, स्मार्ट पोजिशनर और फेल-सेफ ऑपरेशन के साथ नियंत्रण वाल्व।",
+        "keywords": "औद्योगिक वाल्व, वाल्व एक्चुएटर, वायुमण्डलीय एक्चुएटर, विद्युत एक्चुएटर, नियंत्रण वाल्व, स्वचालित वाल्व, स्मार्ट पोजिशनर"
+      },
+      "keyBenefits": {
+        "preciseFlowControl": "सटीक प्रवाह नियंत्रण",
+        "enhancedSafety": "बढ़ी सुरक्षा और विश्वसनीयता",
+        "reducedEnergyConsumption": "कम ऊर्जा खपत",
+        "predictiveMaintenance": "पूर्वानुमान रखरखाव क्षमता"
+      },
+      "specifications": {
+        "actuatorTypes": {
+          "label": "एक्चुएटर प्रकार",
+          "value": "वायुमण्डलीय, विद्युत, हाइड्रोलिक"
+        },
+        "valveSizes": {
+          "label": "वाल्व आकार",
+          "value": "1/4\" से 48\" (DN8 से DN1200)"
+        },
+        "pressureRating": {
+          "label": "दबाव रेटिंग",
+          "value": "6000 PSI (414 बार) तक"
+        },
+        "temperatureRange": {
+          "label": "तापमान श्रेणी",
+          "value": "-40°F से 1000°F (-40°C से 538°C)"
+        }
+      },
+      "applications": {
+        "processControl": "प्रक्रिया नियंत्रण",
+        "oilGas": "तेल और गैस",
+        "chemicalProcessing": "रासायनिक प्रसंस्करण",
+        "waterTreatment": "जल उपचार",
+        "powerGeneration": "विद्युत उत्पादन",
+        "hvacSystems": "HVAC प्रणालियां"
+      },
+      "industries": {
+        "oilGas": "तेल और गैस",
+        "chemicalPetrochemical": "रासायनिक और पेट्रोकेमिकल",
+        "powerGeneration": "विद्युत उत्पादन",
+        "waterWastewater": "जल और अपशिष्ट जल",
+        "foodBeverage": "खाद्य और पेय",
+        "pharmaceutical": "फार्मास्यूटिकल"
+      }
+    }
+  },
   "categories": {
     "automation": "स्वचालन और नियंत्रण",
     "electrical": "विद्युत घटक",
@@ -209,8 +297,8 @@
       }
     },
     "bldc": {
-      "title": "ब्रशलेस डीसी उत्पाद",
-      "description": "ऊर्जा-कुशल अनुप्रयोगों के लिए ब्रशलेस DC मोटर उत्पाद",
+      "title": "BLDC उत्पाद",
+      "description": "ऊर्जा-कुशल अनुप्रयोगों के लिए ब्रशलेस डीसी मोटर उत्पाद",
       "features": {
         "energy-efficient": "ऊर्जा दक्ष",
         "long-lifespan": "लंबी आयु",
@@ -892,107 +980,107 @@
   },
   "solarPanels": {
     "monocrystalline": {
-      "description": "High-efficiency monocrystalline silicon solar panels",
+      "description": "उच्च-दक्षता मोनोक्रिस्टलाइन सिलिकॉन सौर पैनल",
       "features": {
-        "efficiency": "21.5% Efficiency",
-        "warranty": "25 Year Warranty",
-        "weatherResistant": "Weather Resistant",
-        "antiReflective": "Anti-Reflective Coating"
+        "efficiency": "२१.५% दक्षता",
+        "warranty": "२५ वर्षीय वारंटी",
+        "weatherResistant": "मौसम प्रतिरोधी",
+        "antiReflective": "एंटी-रिफ्लेक्टिव कोटिंग"
       }
     },
     "polycrystalline": {
-      "description": "Cost-effective polycrystalline solar panel solution",
+      "description": "लागत-प्रभावी पॉलीक्रिस्टलाइन सौर पैनल समाधान",
       "features": {
-        "efficiency": "19.2% Efficiency",
-        "warranty": "20 Year Warranty",
-        "durable": "Durable Construction",
-        "installation": "Easy Installation"
+        "efficiency": "१९.२% दक्षता",
+        "warranty": "२० वर्षीय वारंटी",
+        "durable": "टिकाऊ निर्माण",
+        "installation": "आसान स्थापना"
       }
     },
     "bifacial": {
-      "description": "Advanced bifacial technology for maximum energy harvest",
+      "description": "अधिकतम ऊर्जा उत्पादन के लिए उन्नत बाइफेशियल तकनीक",
       "features": {
-        "frontBack": "Front + Back Generation",
-        "moreEnergy": "25% More Energy",
-        "glassDesign": "Glass-Glass Design",
-        "longLifespan": "Long Lifespan"
+        "frontBack": "आगे + पीछे ऊर्जा उत्पादन",
+        "moreEnergy": "२५% अधिक ऊर्जा",
+        "glassDesign": "ग्लास-ग्लास डिजाइन",
+        "longLifespan": "लंबी आयु"
       }
     }
   },
   "productDetails": {
     "instrumentation": {
-      "fullDescription": "Comprehensive range of precision instrumentation components for industrial monitoring and control applications.",
+      "fullDescription": "औद्योगिक निगरानी और नियंत्रण अनुप्रयोगों के लिए सटीक इंस्ट्रूमेंटेशन घटकों की व्यापक श्रेणी।",
       "specifications": {
-        "highAccuracy": "High accuracy: ±0.1% to ±0.5%",
-        "operatingTemperature": "Operating temperature: -40°C to +85°C",
-        "protectionRating": "IP65/IP67 protection rating",
-        "outputTypes": "4-20mA, 0-10V, HART, Profibus outputs",
-        "explosionProof": "Explosion-proof variants available"
+        "highAccuracy": "उच्च सटीकता: ±०.१% से ±०.५%",
+        "operatingTemperature": "कार्य तापमान: -४०°C से +८५°C",
+        "protectionRating": "IP६५/IP६१ सुरक्षा रेटिंग",
+        "outputTypes": "४-२०mA, ०-१०V, HART, प्रोफिबस आउटपुट",
+        "explosionProof": "बिस्फोट-प्रूफ वैरिएंट उपलब्ध"
       },
       "applications": {
-        "processControl": "Process Control",
-        "qualityMonitoring": "Quality Monitoring",
-        "safetySystems": "Safety Systems",
-        "environmentalMonitoring": "Environmental Monitoring"
+        "processControl": "प्रक्रिया नियंत्रण",
+        "qualityMonitoring": "गुणवत्ता निगरानी",
+        "safetySystems": "सुरक्षा प्रणालियां",
+        "environmentalMonitoring": "पर्यावरणीय निगरानी"
       },
       "features": {
-        "smartDiagnostics": "Smart Diagnostics",
-        "digitalCommunication": "Digital Communication",
-        "easyCalibration": "Easy Calibration",
-        "longTermStability": "Long-term Stability"
+        "smartDiagnostics": "स्मार्ट निदान",
+        "digitalCommunication": "डिजिटल संचार",
+        "easyCalibration": "आसान अंशांकन",
+        "longTermStability": "दीर्घकालिक स्थिरता"
       }
     },
     "electrical": {
-      "fullDescription": "Complete range of electrical components including switches, relays, contactors, and power distribution equipment for industrial applications.",
+      "fullDescription": "औद्योगिक अनुप्रयोगों के लिए स्विच, रिले, कॉन्टैक्टर और पावर डिस्ट्रिब्यूशन उपकरण सहित विद्युत घटकों की संपूर्ण श्रेणी।",
       "specifications": {
-        "voltageRange": "Voltage range: 24V DC to 690V AC",
-        "currentRatings": "Current ratings: 1A to 1000A",
-        "protectionLevel": "IP54 to IP67 protection",
-        "standardsCompliant": "IEC/IS standards compliant",
-        "temperatureRated": "Temperature rated: -25°C to +70°C"
+        "voltageRange": "वोल्टेज रेंज: २४वी डीसी से ६९०वी एसी",
+        "currentRatings": "करंट रेटिंग: १ए से १०००ए",
+        "protectionLevel": "IP५४ से IP६१ सुरक्षा",
+        "standardsCompliant": "IEC/IS मानक अनुपालन",
+        "temperatureRated": "तापमान रेटिंग: -२५°C से +१०°C"
       },
       "applications": {
-        "motorControl": "Motor Control",
-        "powerDistribution": "Power Distribution",
-        "switchingApplications": "Switching Applications",
-        "protectionSystems": "Protection Systems"
+        "motorControl": "मोटर नियंत्रण",
+        "powerDistribution": "विद्युत वितरण",
+        "switchingApplications": "स्विचिंग अनुप्रयोग",
+        "protectionSystems": "सुरक्षा प्रणालियां"
       },
       "features": {
-        "highReliability": "High Reliability",
-        "modularDesign": "Modular Design",
-        "easyInstallation": "Easy Installation",
-        "maintenanceFree": "Maintenance-Free"
+        "highReliability": "उच्च विश्वसनीयता",
+        "modularDesign": "मॉड्यूलर डिजाइन",
+        "easyInstallation": "आसान स्थापना",
+        "maintenanceFree": "रखरखाव मुक्त"
       }
     },
     "measurement": {
-      "fullDescription": "Advanced digital meters, analyzers, and calibration equipment for precise measurement and monitoring of electrical and process parameters.",
+      "fullDescription": "विद्युत और प्रक्रिया मापदंडों के सटीक माप और निगरानी के लिए उन्नत डिजिटल मीटर, एनालाइजर और कैलिब्रेशन उपकरण।",
       "specifications": {
-        "accuracyClass": "Accuracy class: 0.1 to 1.0",
-        "displayType": "Display: Digital LCD/LED",
-        "communicationOptions": "Communication: RS485, Ethernet, Wireless",
-        "dataLogging": "Data logging capability",
-        "multipleParameter": "Multiple parameter measurement"
+        "accuracyClass": "सटीकता वर्ग: ०.१ से १.०",
+        "displayType": "डिस्प्ले: डिजिटल LCD/LED",
+        "communicationOptions": "संचार: RS४८५, ईथरनेट, वायरलेस",
+        "dataLogging": "डेटा लॉगिंग क्षमता",
+        "multipleParameter": "बहु पारामीटर माप"
       },
       "applications": {
-        "powerQualityAnalysis": "Power Quality Analysis",
-        "energyManagement": "Energy Management",
-        "processMonitoring": "Process Monitoring",
-        "complianceMeasurement": "Compliance Measurement"
+        "powerQualityAnalysis": "विद्युत गुणवत्ता विश्लेषण",
+        "energyManagement": "ऊर्जा प्रबंधन",
+        "processMonitoring": "प्रक्रिया निगरानी",
+        "complianceMeasurement": "अनुपालन माप"
       },
       "features": {
-        "realTimeMonitoring": "Real-time Monitoring",
-        "dataAnalytics": "Data Analytics",
-        "alarmManagement": "Alarm Management",
-        "remoteAccess": "Remote Access"
+        "realTimeMonitoring": "वास्तविक समय निगरानी",
+        "dataAnalytics": "डेटा एनालिटिक्स",
+        "alarmManagement": "अलार्म प्रबंधन",
+        "remoteAccess": "दूरस्थ पहुंच"
       }
     },
     "solar": {
-      "fullDescription": "Complete solar energy solutions including panels, inverters, monitoring systems, and grid-tie equipment for sustainable energy generation.",
+      "fullDescription": "स्थायी ऊर्जा उत्पादन के लिए पैनल, इन्वर्टर, निगरानी प्रणालियां और ग्रिड-टाई उपकरण सहित संपूर्ण सौर ऊर्जा समाधान।",
       "specifications": {
-        "panelEfficiency": "पैनल दक्षता: 19-22%",
-        "powerRange": "शक्ति रेंज: प्रति पैनल 300W से 500W",
-        "inverterEfficiency": "इन्वर्टर दक्षता: >98%",
-        "warranty": "पैनल पर 25-वर्षीय वारंटी",
+        "panelEfficiency": "पैनल दक्षता: १९-२२%",
+        "powerRange": "शक्ति रेंज: प्रति पैनल ३००वाट से ५००वाट",
+        "inverterEfficiency": "इन्वर्टर दक्षता: >९८%",
+        "warranty": "पैनल पर २५-वर्षीय वारंटी",
         "gridOptions": "ग्रिड-टाई और ऑफ-ग्रिड समाधान"
       },
       "applications": {
@@ -1011,10 +1099,10 @@
     "automation": {
       "fullDescription": "प्रोग्रामेबल लॉजिक नियंत्रणर, ह्यूमन मशीन इंटरफेस, स्काडा समाधान, और औद्योगिक संचार उपकरणों सहित उन्नत स्वचालन और नियंत्रण प्रणालियां।",
       "specifications": {
-        "ioCapacity": "I/O क्षमता: 16 से 2048 पॉइंट्स",
+        "ioCapacity": "I/O क्षमता: १६ से २०४८ बिंदु",
         "communicationProtocols": "संचार: ईथरनेट, प्रोफिबस, मोडबस",
-        "programmingStandards": "प्रोग्रामिंग: IEC 61131-3 अनुपालन",
-        "operatingTemperature": "संचालन तापमान: 0°C से +60°C",
+        "programmingStandards": "प्रोग्रामिंग: IEC ६११३१-३ अनुपालन",
+        "operatingTemperature": "संचालन तापमान: ०°C से +६०°C",
         "redundancyOptions": "रिडंडेंसी विकल्प उपलब्ध"
       },
       "applications": {
@@ -1033,9 +1121,9 @@
     "safety": {
       "fullDescription": "सर्किट ब्रेकर, सुरक्षा रिले, आपातकालीन रोक प्रणाली, और सुरक्षात्मक उपकरणों सहित व्यापक सुरक्षा और सुरक्षा उपकरण।",
       "specifications": {
-        "breakingCapacity": "ब्रेकिंग क्षमता: 6kA से 100kA",
-        "safetyIntegrityLevel": "सुरक्षा अखंडता स्तर: SIL 2/3",
-        "responseTime": "प्रतिक्रिया समय: <10ms",
+        "breakingCapacity": "ब्रेकिंग क्षमता: ६किलोएम्पियर से १००किलोएम्पियर",
+        "safetyIntegrityLevel": "सुरक्षा अखंडता स्तर: SIL २/३",
+        "responseTime": "प्रतिक्रिया समय: <१०मिलीसेकंड",
         "multipleProtectionFunctions": "बहु सुरक्षा कार्य",
         "arcFaultProtection": "आर्क फॉल्ट सुरक्षा उपलब्ध"
       },
@@ -1055,11 +1143,11 @@
     "pumps": {
       "fullDescription": "विभिन्न औद्योगिक और वाणिज्यिक अनुप्रयोगों के लिए उच्च-गुणवत्ता यांत्रिक पंप, स्पेयर पार्ट्स, और रखरखाव किट।",
       "specifications": {
-        "flowRate": "प्रवाह दर: 10 LPM से 5000 LPM",
-        "head": "हेड: 10m से 500m",
-        "materials": "सामग्री: कास्ट आयरन, SS316, ब्रांज़",
-        "temperatureRange": "तापमान: -20°C से +180°C",
-        "efficiency": "दक्षता: 85% तक"
+        "flowRate": "प्रवाह दर: १० लीटर प्रति मिनट से ५००० लीटर प्रति मिनट",
+        "head": "हेड: १०मीटर से ५००मीटर",
+        "materials": "सामग्री: कास्ट आयरन, SS३१६, ब्रांज़",
+        "temperatureRange": "तापमान: -२०°C से +१८०°C",
+        "efficiency": "दक्षता: ८५% तक"
       },
       "applications": {
         "waterSupply": "जल आपूर्ति",
@@ -1078,7 +1166,7 @@
       "fullDescription": "विभिन्न इंजीनियरिंग और रखरखाव अनुप्रयोगों के लिए पेशेवर ग्रेड औद्योगिक उपकरण, सामान, और रखरखाव उपकरण।",
       "specifications": {
         "material": "सामग्री: उच्च-ग्रेड स्टील/मिश्र धातु",
-        "precision": "परिशुद्धता: ±0.1mm आकूरेसी",
+        "precision": "परिशुद्धता: ±०.१मिमी सटीकता",
         "operatingRange": "संचालन रेंज: विभिन्न आकार",
         "ergonomicDesign": "एर्गोनॉमिक डिजाइन",
         "certifiedStandards": "अंतर्राष्ट्रीय मानकों के लिए प्रमाणित"
