@@ -588,14 +588,14 @@
         "description": "नोएडा में हमारे मुख्यालय की यात्रा का कार्यक्रम बनाएं"
       }
     },
-    "map": {
-      "title": "पावरटन इंजीनियरिंग कार्यालय स्थान"
-    },
-    "office": {
-      "name": "कॉर्पोरेट मुख्यालय",
-      "hours": "सोम-शनि: सुबह 9:00 - शाम 6:00"
-    },
-    "services": {
+    "sitemap": {
+    "quickActions": {
+      "title": "कुछ खोजने में मदद चाहिए?",
+      "description": "क्या आप वह नहीं ढूंढ पाए जो आप ढूंढ रहे हैं? सीधे हमसे संपर्क करें या प्रत्येक पृष्ठ पर उपलब्ध हमारे बुद्धिमान चैटबोट का उपयोग करें।",
+      "contactUs": "संपर्क करें",
+      "requestQuote": "कोट अनुरोध करें"
+    }
+  },
       "technical": {
         "title": "तकनीकी सहायता",
         "description": "हमारे सभी उत्पादों और सेवाओं के लिए विशेषज्ञ तकनीकी सहायता"
@@ -895,18 +895,18 @@
       }
     },
     "ui": {
-      "viewLarger": "View Larger",
-      "downloadImage": "Download Image",
-      "requestDownload": "Request Download",
-      "needCustomPortfolio": "Need Custom Portfolio?",
-      "contactUs": "Contact us for a personalized project portfolio showcasing our work relevant to your industry.",
-      "imageNotFound": "Image not found",
-      "noImagesFound": "No images found for this category",
-      "allCategories": "All Categories",
-      "year": "Year",
-      "location": "Location",
-      "client": "Client",
-      "category": "Category"
+      "viewLarger": "बड़ा देखें",
+      "downloadImage": "छवि डाउनलोड करें",
+      "requestDownload": "पोर्टफोलियो अनुरोध करें",
+      "needCustomPortfolio": "क्या आपको अनुकूलित पोर्टफोलियो चाहिए?",
+      "contactUs": "कृपया हमारे उद्योग के लिए उपयुक्त कार्यों का अनुकूलित पोर्टफोलियो पाने के लिए हमसे संपर्क करें।",
+      "imageNotFound": "छवि नहीं मिली",
+      "noImagesFound": "इस श्रेणी के लिए कोई छवियाँ नहीं मिलीं",
+      "allCategories": "सभी श्रेणियाँ",
+      "year": "वर्ष",
+      "location": "स्थान",
+      "client": "क्लाइंट",
+      "category": "श्रेणी"
     },
     "sections": {
       "company": {
@@ -923,9 +923,9 @@
       }
     }
   },
-  "ui": {
+    "ui": {
     "projectPortfolio": "प्रोजेक्ट पोर्टफोलियो",
-    "featuredProjects": "विशेष परियोजनाएं"
+    "featuredProjects": "विशेष परियोजनाएँ"
   },
   "services": {
     "seo": {
@@ -1053,7 +1053,7 @@
     },
     "pages": "pages",
     "includes": "Includes",
-    "requestDownload": "Request Download",
+  "requestDownload": "पोर्टफोलियो अनुरोध",
     "custom": {
       "title": "Need a Custom Portfolio?",
       "description": "Looking for specific project information or a customized portfolio for your industry? Contact our team to get tailored documentation."

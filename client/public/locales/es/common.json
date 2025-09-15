@@ -302,8 +302,8 @@
       "city": "Noida",
       "state": "Uttar Pradesh",
       "pincode": "201301",
-      "landmark": "nearest metro-Sector 15",
-      "full": "2nd Floor, F-25, F Block, Sector 6, Noida, Uttar Pradesh 201301, India"
+      "landmark": "metro más cercano-Sector 15",
+      "full": "Segundo Piso, F-25, Bloque F, Sector 6, Noida, Uttar Pradesh 201301, India"
     },
     "businessHours": {
       "weekdays": "Lunes - Sábado: 9:00 AM - 6:00 PM",
@@ -319,9 +319,9 @@
   "seo": {
     "powerton": {
       "name": "Powerton Engineering Pvt. Ltd.",
-      "description": "Leading industrial automation and electrical engineering company serving clients globally. Specializing in power plant automation, solar installations, and manufacturing control systems.",
-      "keywords": "Industrial Automation, Electrical Engineering, Power Plant, Solar Energy, Manufacturing, Control Systems, Instrumentation, SCADA, PLC, Automation Solutions, Electrical Installation, Industrial Control Panels, Process Automation, Power Distribution, Motor Control Centers, Electrical Maintenance, Industrial Electrical Services, Automation Consulting, Electrical Design, Power Systems",
-      "author": "Powerton Engineering Team"
+      "description": "Empresa líder en automatización industrial e ingeniería eléctrica que atiende a clientes en todo el mundo. Especializada en automatización de centrales eléctricas, instalaciones solares y sistemas de control de fabricación.",
+      "keywords": "Automatización Industrial, Ingeniería Eléctrica, Central Eléctrica, Energía Solar, Fabricación, Sistemas de Control, Instrumentación, SCADA, PLC, Soluciones de Automatización, Instalación Eléctrica, Paneles de Control Industrial, Automatización de Procesos, Distribución de Energía, Centros de Control de Motores, Mantenimiento Eléctrico, Servicios Eléctricos Industriales, Consultoría de Automatización, Diseño Eléctrico, Sistemas de Potencia",
+      "author": "Equipo de Powerton Engineering"
     },
     "location": {
       "name": "Noida, Uttar Pradesh, India",
@@ -329,7 +329,7 @@
       "country": "India"
     },
     "companyName": "Powerton Engineering Pvt. Ltd.",
-    "companyDescription": "Leading industrial automation and electrical engineering company serving clients worldwide. Specializing in power plant automation, solar installations, and manufacturing control systems.",
+    "companyDescription": "Empresa líder en automatización industrial e ingeniería eléctrica que atiende a clientes en todo el mundo. Especializada en automatización de centrales eléctricas, instalaciones solares y sistemas de control de fabricación.",
     "siteName": "Powerton Engineering",
     "twitterHandle": "@powerton_eng",
     "businessAddress": {
@@ -344,35 +344,35 @@
       "email": "info@powertonengineering.com"
     },
     "businessInfo": {
-      "industry": "Industrial Automation, Electrical Engineering, Instrumentation",
-      "category": "Engineering Services, Automation Solutions, Electrical Systems",
-      "targetAudience": "Industrial Engineers, Plant Managers, Automation Professionals",
-      "companyType": "B2B Engineering Solutions Provider",
-      "serviceArea": "Global Service Coverage with International Project Delivery"
+      "industry": "Automatización Industrial, Ingeniería Eléctrica, Instrumentación",
+      "category": "Servicios de Ingeniería, Soluciones de Automatización, Sistemas Eléctricos",
+      "targetAudience": "Ingenieros Industriales, Gerentes de Planta, Profesionales de la Automatización",
+      "companyType": "Proveedor de Soluciones de Ingeniería B2B",
+      "serviceArea": "Cobertura de Servicio Global con Entrega de Proyectos Internacionales"
     }
   },
   "labels": {
-    "category": "Category",
-    "status": "Status",
-    "industry": "Industry",
-    "projectType": "Project Type",
+    "category": "Categoría",
+    "status": "Estado",
+    "industry": "Industria",
+    "projectType": "Tipo de Proyecto",
     "popular": "Popular",
-    "duration": "Duration",
-    "keyFeatures": "Key Features",
-    "projectsCompleted": "Projects Completed",
-    "satisfiedClients": "Satisfied Clients",
-    "yearsExperience": "Years Experience",
-    "responseTime": "Response Time",
-    "businessHours": "Business Hours",
-    "mondayToSaturday": "Monday - Saturday",
+    "duration": "Duración",
+    "keyFeatures": "Características Clave",
+    "projectsCompleted": "Proyectos Completados",
+    "satisfiedClients": "Clientes Satisfechos",
+    "yearsExperience": "Años de Experiencia",
+    "responseTime": "Tiempo de Respuesta",
+    "businessHours": "Horario de Oficina",
+    "mondayToSaturday": "Lunes - Sábado",
     "workingHours": "9:00 AM - 6:00 PM",
-    "sunday": "Sunday",
-    "emergencySupport": "Emergency Support Only"
+    "sunday": "Domingo",
+    "emergencySupport": "Solo Soporte de Emergencia"
   },
   "altTexts": {
-    "aboutBackground": "ID-004: Powerton Engineering industrial automation facility with modern control systems",
-    "companyLogo": "Powerton Engineering Pvt. Ltd. - Industrial Automation & Electrical Engineering Company Logo",
-    "contactBackground": "ID-834: Contact center and customer support office background for engineering company"
+    "aboutBackground": "ID-004: Instalación de automatización industrial de Powerton Engineering con sistemas de control modernos",
+    "companyLogo": "Powerton Engineering Pvt. Ltd. - Logotipo de la empresa de automatización industrial e ingeniería eléctrica",
+    "contactBackground": "ID-834: Fondo de oficina de centro de contacto y soporte al cliente para empresa de ingeniería"
   },
   "products": {
     "sections": {
@@ -651,43 +651,43 @@
   },
   "quote": {
     "projectTypes": {
-      "processAutomation": "Process Automation",
-      "powerControlSystems": "Power Control Systems",
-      "instrumentationControl": "Instrumentation & Control",
-      "solarAutomation": "Solar Automation",
-      "buildingAutomation": "Building Automation",
-      "manufacturingAutomation": "Manufacturing Automation"
+      "processAutomation": "Automatización de Procesos",
+      "powerControlSystems": "Sistemas de Control de Potencia",
+      "instrumentationControl": "Instrumentación y Control",
+      "solarAutomation": "Automatización Solar",
+      "buildingAutomation": "Automatización de Edificios",
+      "manufacturingAutomation": "Automatización de la Fabricación"
     },
     "industries": {
-      "manufacturing": "Manufacturing",
-      "powerGeneration": "Power Generation",
-      "oilGas": "Oil & Gas",
-      "chemicalProcessing": "Chemical Processing",
-      "waterTreatment": "Water Treatment",
-      "foodBeverage": "Food & Beverage",
-      "pharmaceutical": "Pharmaceutical",
-      "renewableEnergy": "Renewable Energy"
+      "manufacturing": "Fabricación",
+      "powerGeneration": "Generación de Energía",
+      "oilGas": "Petróleo y Gas",
+      "chemicalProcessing": "Procesamiento Químico",
+      "waterTreatment": "Tratamiento de Agua",
+      "foodBeverage": "Alimentos y Bebidas",
+      "pharmaceutical": "Farmacéutica",
+      "renewableEnergy": "Energía Renovable"
     }
   },
   "common": {
-    "keyFeatures": "Key Features"
+    "keyFeatures": "Características Clave"
   },
   "ui": {
     "ariaLabels": {
-      "callUs": "Call us at {{phone}}",
-      "goToHomepage": "Go to Powerton Engineering homepage",
-      "followLinkedIn": "Follow Powerton Engineering on LinkedIn",
-      "followTwitter": "Follow Powerton Engineering on X (formerly Twitter)",
-      "followFacebook": "Follow Powerton Engineering on Facebook",
-      "toggleMobileMenu": "Toggle mobile menu",
-      "closeMobileMenu": "Close mobile menu",
-      "openMobileMenu": "Open mobile menu",
-      "emailUs": "Email us at {{email}}"
+      "callUs": "Llámanos al {{phone}}",
+      "goToHomepage": "Ir a la página de inicio de Powerton Engineering",
+      "followLinkedIn": "Sigue a Powerton Engineering en LinkedIn",
+      "followTwitter": "Sigue a Powerton Engineering en X (anteriormente Twitter)",
+      "followFacebook": "Sigue a Powerton Engineering en Facebook",
+      "toggleMobileMenu": "Alternar menú móvil",
+      "closeMobileMenu": "Cerrar menú móvil",
+      "openMobileMenu": "Abrir menú móvil",
+      "emailUs": "Envíanos un correo electrónico a {{email}}"
     },
     "altTexts": {
-      "companyLogo": "Powerton Engineering Company Logo",
-      "heroImage": "Industrial automation and electrical engineering solutions",
-      "productImage": "Product image for {{productName}}"
+      "companyLogo": "Logotipo de la empresa Powerton Engineering",
+      "heroImage": "Soluciones de automatización industrial e ingeniería eléctrica",
+      "productImage": "Imagen del producto para {{productName}}"
     }
   }
 }

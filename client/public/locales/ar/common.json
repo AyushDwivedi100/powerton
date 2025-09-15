@@ -85,8 +85,8 @@
   },
   "altTexts": {
     "contactBackground": "ID-834: خلفية مركز الاتصال ومكتب دعم العملاء لشركة الهندسة",
-    "aboutBackground": "ID-004: منشأة Powerton Engineering للأتمتة الصناعية مع أنظمة التحكم الحديثة",
-    "companyLogo": "Powerton Engineering Pvt. Ltd. - شعار شركة الأتمتة الصناعية والهندسة الكهربائية"
+    "aboutBackground": "ID-004: منشأة     باورتون للهندسة للأتمتة الصناعية مع أنظمة التحكم الحديثة",
+    "companyLogo": "باورتون للهندسة الخاصة المحدودة - شعار شركة الأتمتة الصناعية والهندسة الكهربائية"
   },
   "loading": "جاري التحميل...",
   "error": "حدث خطأ ما",
@@ -99,15 +99,15 @@
     "catalogComingSoon": "تحميل كتالوج المنتجات سيكون متاحاً قريباً!"
   },
   "aria": {
-    "goToHomepage": "الذهاب إلى صفحة Powerton Engineering الرئيسية",
-    "followLinkedIn": "تابع Powerton Engineering على LinkedIn",
-    "followFacebook": "تابع Powerton Engineering على Facebook",
+    "goToHomepage": "الذهاب إلى صفحة هندسة باورتون الرئيسية",
+    "followLinkedIn": "تابع هندسة باورتون على LinkedIn",
+    "followFacebook": "تابع هندسة باورتون على Facebook",
     "servicesNavigation": "التنقل في الخدمات",
     "productsNavigation": "التنقل في المنتجات",
-    "callCompany": "اتصل بـ Powerton Engineering",
-    "emailCompany": "راسل Powerton Engineering",
-    "viewOfficeLocation": "عرض موقع مكتب Powerton Engineering على خرائط جوجل",
-    "officeLocationTitle": "موقع مكتب Powerton Engineering",
+    "callCompany": "اتصل بـ هندسة باورتون",
+    "emailCompany": "راسل هندسة باورتون",
+    "viewOfficeLocation": "عرض موقع مكتب هندسة باورتون على خرائط جوجل",
+    "officeLocationTitle": "موقع مكتب هندسة باورتون",
     "controllerSystems": "أنظمة التحكم والتسجيل",
     "controllerDescription": "أنظمة التحكم في العمليات وتسجيل البيانات للتحكم الصناعي",
     "plcSystems": "أنظمة PLC",
@@ -178,8 +178,8 @@
     "technologiesAndMethods": "التقنيات والأساليب"
   },
   "chatbot": {
-    "welcome": "مرحباً بكم في Powerton Engineering! كيف يمكنني مساعدتكم اليوم؟",
-    "welcomeMessage": "مرحباً بكم في Powerton Engineering! كيف يمكنني مساعدتكم اليوم؟",
+    "welcome": "مرحباً بكم في هندسة باورتون! كيف يمكنني مساعدتكم اليوم؟",
+    "welcomeMessage": "مرحباً بكم في هندسة باورتون! كيف يمكنني مساعدتكم اليوم؟",
     "typeMessage": "اكتب رسالتك...",
     "sendMessage": "إرسال الرسالة",
     "openChat": "فتح المحادثة",
@@ -273,7 +273,7 @@
       "productSelection": "ممتاز! لدينا مجموعة واسعة من المنتجات الصناعية عبر فئات متعددة. أي فئة تهمك أكثر؟",
       "serviceSelection": "نحن نقدم خدمات هندسية شاملة لدعم مشاريعكم من البداية إلى النهاية. أي خدمة يمكننا مساعدتكم بها؟",
       "troubleshootingMain": "أنا هنا لمساعدتكم في حل مشاكلكم الفنية. ما نوع المشكلة التي تواجهونها؟",
-      "companyInfo": "Powerton Engineering هي شركة رائدة في الأتمتة الصناعية والهندسة الكهربائية مع أكثر من 15 عاماً من الخبرة. نحن نخدم العملاء في جميع أنحاء العالم بحلول شاملة.",
+      "companyInfo": "هندسة باورتون هي شركة رائدة في الأتمتة الصناعية والهندسة الكهربائية مع أكثر من 15 عاماً من الخبرة. نحن نخدم العملاء في جميع أنحاء العالم بحلول شاملة.",
       "automationSearch": "يمكنني مساعدتك في العثور على حل الأتمتة المثالي! تشمل مجموعتنا أنظمة PLC و SCADA وواجهات HMI وحزم التحكم الكاملة.",
       "solarSearch": "ممتاز! تشمل حلولنا الشمسية التصميم الكامل للنظام والتركيب وخدمات الصيانة للتطبيقات السكنية والتجارية والصناعية.",
       "mechanicalSearch": "خيار رائع! نحن نقدم مجموعة شاملة من المحركات والمضخات والصمامات والمعدات الميكانيكية لمختلف التطبيقات الصناعية.",
@@ -293,100 +293,7 @@
     }
   },
   "placeholders": {
-    "askChatbot": "اسألني عن المنتجات، الخدمات، أو المساعدة التقنية..."
-  },
-  "chatbotMessages": {
-    "quoteHelp": "سأكون سعيداً لمساعدتك في الحصول على عرض سعر مخصص! تسعيرنا تنافسي وشفاف. للحصول على تسعير دقيق، نحتاج إلى فهم متطلباتك المحددة. دعنا نربطك مع فريق المبيعات لدينا لمناقشة مفصلة.",
-    "helpAssist": "أنا هنا لمساعدتك في كل خطوة! سواء كنت تحتاج إلى إرشادات لاختيار المنتج أو المواصفات التقنية أو دعم الخدمة أو مجرد تريد معرفة المزيد عن شركتنا، أنا في خدمتك. بماذا تريد المساعدة؟",
-    "businessHoursInfo": "نحن هنا عندما تحتاجنا! ساعات عملنا من الإثنين إلى السبت: 9:00 صباحاً - 6:00 مساءً. نحن نقدم أيضاً الدعم الطارئ أيام الأحد للحالات الحرجة. الموقع: نويدا، القطاع 6، F-25، كتلة F (أقرب مترو: القطاع 15).",
-    "pricingInfo": "تسعيرنا دائماً تنافسي وشفاف! نحن نؤمن بتقديم قيمة مقابل المال بدون تكاليف مخفية. التسعير يعتمد على المواصفات والكمية ونطاق المشروع. للحصول على أدق عرض سعر، سيقوم فريقنا بتقييم متطلباتك المحددة.",
-    "achievements": "نحن فخورون بإنجازاتنا! أكثر من 500 مشروع ناجح مكتمل، 50+ عميل رئيسي يخدمونه، 15+ سنة من الخبرة، وشراكات مع قادة الصناعة مثل Thermax و Motherson و Praj Industries. مشروع محطة الطاقة الشمسية 10 ميجاوات وأنظمة الأتمتة الصيدلانية من بين إنجازاتنا الرائدة.",
-    "mainMenu": "مرحباً بك مرة أخرى في القائمة الرئيسية! أنا هنا لمساعدتك في أي احتياجات للأتمتة الصناعية. سواء كنت تبحث عن منتجات أو خدمات أو دعم فني أو معلومات عن الشركة، سأرشدك إلى الحل المناسب. بماذا يمكنني مساعدتك؟",
-    "urgentSupport": "الأمور العاجلة تشمل: أعطال المعدات التي تؤثر على الإنتاج، قضايا السلامة الحرجة، الأعطال الطارئة، مواعيد التركيب النهائية، وأعطال النظام. لهذه الحالات، اتصل بنا فوراً على +91-94627-71662. نحن نقدم دعماً طارئاً 24/7 للحالات الحرجة.",
-    "productComparison": "يمكنني مساعدتك في مقارنة المنتجات! مجموعتنا الواسعة تشمل أجهزة الاستشعار وأنظمة الأتمتة والمكونات الكهربائية والمنتجات الشمسية. أخبرني أي منتجات محددة تقارنها أو ما التطبيق الذي تحتاجها له، وسأرشدك إلى أفضل الخيارات.",
-    "defaultResponse": "شكراً لتواصلك معنا! أنا هنا لمساعدتك في العثور على الحل المثالي للأتمتة الصناعية. في Powerton Engineering، نحن نؤمن أن كل عميل يستحق اهتماماً شخصياً وإرشاداً من الخبراء. ما التحدي أو المتطلب المحدد الذي يمكنني مساعدتك به اليوم؟",
-    "productsPageResponse": "مثالي! لقد أخذتك إلى صفحة منتجاتنا حيث يمكنك استكشاف مجموعتنا الواسعة من حلول الأتمتة الصناعية. ستجد مواصفات مفصلة وصوراً وبيانات تقنية لكل فئة منتج. تحتاج مساعدة في العثور على شيء محدد أو لديك أسئلة حول أي منتج؟",
-    "servicesPageResponse": "اختيار ممتاز! صفحة خدماتنا تعرض عروض الدعم الشامل من التركيب إلى الصيانة. نحن شريكك الهندسي الكامل لدورة حياة المشروع بأكملها. أي نوع من دعم الخدمة تبحث عنه؟",
-    "contactPageResponse": "رائع! صفحة الاتصال تحتوي على جميع تفاصيلنا بما في ذلك موقع المكتب وأرقام الهواتف ونموذج الاتصال. نحن موجودون في نويدا ومتاحون من الإثنين إلى السبت. لا تتردد في التواصل في أي وقت! هل هناك شيء محدد تريد مناقشته مع فريقنا؟"
-  },
-  "company": {
-    "name": "Powerton Engineering Pvt. Ltd.",
-    "tagline": "شريكك الموثوق في الأتمتة الصناعية والهندسة الكهربائية",
-    "phone": "+91-94627-71662 / +91-82997-27291",
-    "email": "info@powertonengineering.com",
-    "address": {
-      "street": "F-25, F Block, Sector 6",
-      "city": "نويدا",
-      "state": "أوتار براديش",
-      "pincode": "201301",
-      "landmark": "nearest metro-Sector 15",
-      "full": "2nd Floor, F-25, F Block, Sector 6, نويدا, أوتار براديش 201301, الهند"
-    },
-    "businessHours": {
-      "weekdays": "الإثنين - السبت: 9:00 صباحاً - 6:00 مساءً",
-      "sunday": "الأحد: الدعم الطارئ فقط"
-    },
-    "stats": {
-      "projectsCompleted": "مهندسون خبراء",
-      "clientsServed": "طاقم فني",
-      "yearsExperience": "سنوات الخبرة المتوسطة",
-      "successRate": "معدل النجاح"
-    }
-  },
-  "seo": {
-    "powerton": {
-      "name": "Powerton Engineering Pvt. Ltd.",
-      "description": "Leading industrial automation and electrical engineering company serving clients globally. Specializing in power plant automation, solar installations, and manufacturing control systems.",
-      "keywords": "Industrial Automation, Electrical Engineering, Power Plant, Solar Energy, Manufacturing, Control Systems, Instrumentation, SCADA, PLC, Automation Solutions, Electrical Installation, Industrial Control Panels, Process Automation, Power Distribution, Motor Control Centers, Electrical Maintenance, Industrial Electrical Services, Automation Consulting, Electrical Design, Power Systems",
-      "author": "Powerton Engineering Team"
-    },
-    "location": {
-      "name": "Noida, Uttar Pradesh, India",
-      "region": "Uttar Pradesh",
-      "country": "India"
-    },
-    "companyName": "Powerton Engineering Pvt. Ltd.",
-    "companyDescription": "Leading industrial automation and electrical engineering company serving clients worldwide. Specializing in power plant automation, solar installations, and manufacturing control systems.",
-    "siteName": "Powerton Engineering",
-    "twitterHandle": "@powerton_eng",
-    "businessAddress": {
-      "street": "F-25, F Block, Sector 6",
-      "city": "Noida",
-      "state": "Uttar Pradesh",
-      "postal": "201301",
-      "country": "India"
-    },
-    "contact": {
-      "phone": "+91-94627-71662 / +91-82997-27291",
-      "email": "info@powertonengineering.com"
-    },
-    "businessInfo": {
-      "industry": "Industrial Automation, Electrical Engineering, Instrumentation",
-      "category": "Engineering Services, Automation Solutions, Electrical Systems",
-      "targetAudience": "Industrial Engineers, Plant Managers, Automation Professionals",
-      "companyType": "B2B Engineering Solutions Provider",
-      "serviceArea": "Global Service Coverage with International Project Delivery"
-    }
-  },
-  "labels": {
-    "category": "Category",
-    "status": "Status",
-    "industry": "Industry",
-    "projectType": "Project Type",
-    "popular": "Popular",
-    "duration": "Duration",
-    "keyFeatures": "Key Features",
-    "projectsCompleted": "المشاريع المكتملة",
-    "satisfiedClients": "العملاء الراضون",
-    "yearsExperience": "سنوات الخبرة",
-    "responseTime": "وقت الاستجابة",
-    "businessHours": "Business Hours",
-    "mondayToSaturday": "Monday - Saturday",
-    "workingHours": "9:00 AM - 6:00 PM",
-    "sunday": "Sunday",
-    "emergencySupport": "Emergency Support Only"
-  },
-  "placeholders": {
+    "askChatbot": "اسألني عن المنتجات، الخدمات، أو المساعدة التقنية...",
     "selectProjectType": "اختر نوع المشروع",
     "selectIndustry": "اختر الصناعة",
     "selectProjectSize": "اختر حجم المشروع",
@@ -399,13 +306,103 @@
     "selectIndustryFilter": "اختر الصناعة",
     "selectCategory": "اختر الفئة",
     "selectStatus": "اختر الحالة",
-    "askChatbot": "اسألني عن المنتجات، الخدمات، أو المساعدة التقنية...",
     "yourFullName": "اسمك الكامل",
     "yourEmail": "بريدك@شركة.com",
     "yourPhone": "+91-XXXXX-XXXXX",
     "yourRole": "دورك/منصبك",
     "yourCompanyName": "اسم شركتك",
     "briefProjectTitle": "عنوان موجز لمشروعك"
+  },
+  "chatbotMessages": {
+    "quoteHelp": "سأكون سعيداً لمساعدتك في الحصول على عرض سعر مخصص! تسعيرنا تنافسي وشفاف. للحصول على تسعير دقيق، نحتاج إلى فهم متطلباتك المحددة. دعنا نربطك مع فريق المبيعات لدينا لمناقشة مفصلة.",
+    "helpAssist": "أنا هنا لمساعدتك في كل خطوة! سواء كنت تحتاج إلى إرشادات لاختيار المنتج أو المواصفات التقنية أو دعم الخدمة أو مجرد تريد معرفة المزيد عن شركتنا، أنا في خدمتك. بماذا تريد المساعدة؟",
+    "businessHoursInfo": "نحن هنا عندما تحتاجنا! ساعات عملنا من الإثنين إلى السبت: 9:00 صباحاً - 6:00 مساءً. نحن نقدم أيضاً الدعم الطارئ أيام الأحد للحالات الحرجة. الموقع: نويدا، القطاع 6، F-25، كتلة F (أقرب مترو: القطاع 15).",
+    "pricingInfo": "تسعيرنا دائماً تنافسي وشفاف! نحن نؤمن بتقديم قيمة مقابل المال بدون تكاليف مخفية. التسعير يعتمد على المواصفات والكمية ونطاق المشروع. للحصول على أدق عرض سعر، سيقوم فريقنا بتقييم متطلباتك المحددة.",
+    "achievements": "نحن فخورون بإنجازاتنا! أكثر من 500 مشروع ناجح مكتمل، 50+ عميل رئيسي يخدمونه، 15+ سنة من الخبرة، وشراكات مع قادة الصناعة مثل Thermax و Motherson و Praj Industries. مشروع محطة الطاقة الشمسية 10 ميجاوات وأنظمة الأتمتة الصيدلانية من بين إنجازاتنا الرائدة.",
+    "mainMenu": "مرحباً بك مرة أخرى في القائمة الرئيسية! أنا هنا لمساعدتك في أي احتياجات للأتمتة الصناعية. سواء كنت تبحث عن منتجات أو خدمات أو دعم فني أو معلومات عن الشركة، سأرشدك إلى الحل المناسب. بماذا يمكنني مساعدتك؟",
+    "urgentSupport": "الأمور العاجلة تشمل: أعطال المعدات التي تؤثر على الإنتاج، قضايا السلامة الحرجة، الأعطال الطارئة، مواعيد التركيب النهائية، وأعطال النظام. لهذه الحالات، اتصل بنا فوراً على +91-94627-71662. نحن نقدم دعماً طارئاً 24/7 للحالات الحرجة.",
+    "productComparison": "يمكنني مساعدتك في مقارنة المنتجات! مجموعتنا الواسعة تشمل أجهزة الاستشعار وأنظمة الأتمتة والمكونات الكهربائية والمنتجات الشمسية. أخبرني أي منتجات محددة تقارنها أو ما التطبيق الذي تحتاجها له، وسأرشدك إلى أفضل الخيارات.",
+    "defaultResponse": "شكراً لتواصلك معنا! أنا هنا لمساعدتك في العثور على الحل المثالي للأتمتة الصناعية. في هندسة باورتون، نحن نؤمن أن كل عميل يستحق اهتماماً شخصياً وإرشاداً من الخبراء. ما التحدي أو المتطلب المحدد الذي يمكنني مساعدتك به اليوم؟",
+    "productsPageResponse": "مثالي! لقد أخذتك إلى صفحة منتجاتنا حيث يمكنك استكشاف مجموعتنا الواسعة من حلول الأتمتة الصناعية. ستجد مواصفات مفصلة وصوراً وبيانات تقنية لكل فئة منتج. تحتاج مساعدة في العثور على شيء محدد أو لديك أسئلة حول أي منتج؟",
+    "servicesPageResponse": "اختيار ممتاز! صفحة خدماتنا تعرض عروض الدعم الشامل من التركيب إلى الصيانة. نحن شريكك الهندسي الكامل لدورة حياة المشروع بأكملها. أي نوع من دعم الخدمة تبحث عنه؟",
+    "contactPageResponse": "رائع! صفحة الاتصال تحتوي على جميع تفاصيلنا بما في ذلك موقع المكتب وأرقام الهواتف ونموذج الاتصال. نحن موجودون في نويدا ومتاحون من الإثنين إلى السبت. لا تتردد في التواصل في أي وقت! هل هناك شيء محدد تريد مناقشته مع فريقنا؟"
+  },
+  "company": {
+    "name": "باورتون للهندسة",
+    "tagline": "شريكك الموثوق في الأتمتة الصناعية والهندسة الكهربائية",
+    "phone": "+91-94627-71662 / +91-82997-27291",
+    "email": "info@powertonengineering.com",
+    "address": {
+      "street": "الطابق الثاني، F-25، مبنى F، القطاع 6",
+      "city": "نويدا",
+      "state": "أوتار براديش",
+      "pincode": "201301",
+      "landmark": "أقرب محطة مترو - القطاع 15",
+      "full": "الطابق الثاني، F-25، مبنى F، القطاع 6، نويدا، أوتار براديش 201301، الهند"
+    },
+    "businessHours": {
+      "weekdays": "الاثنين - السبت: 9:00 صباحاً - 6:00 مساءً",
+      "sunday": "الأحد: دعم الطوارئ فقط"
+    },
+    "stats": {
+      "projectsCompleted": "مهندسون خبراء",
+      "clientsServed": "طاقم فني",
+      "yearsExperience": "سنوات الخبرة المتوسطة",
+      "successRate": "معدل النجاح"
+    }
+  },
+  "seo": {
+    "powerton": {
+      "name": "باورتون للهندسة الخاصة المحدودة",
+      "description": "شركة رائدة في مجال الأتمتة الصناعية والهندسة الكهربائية تخدم العملاء على مستوى العالم. متخصصة في أتمتة محطات الطاقة، تركيبات الطاقة الشمسية، وأنظمة التحكم في التصنيع.",
+      "keywords": "الأتمتة الصناعية، الهندسة الكهربائية، محطة طاقة، طاقة شمسية، تصنيع، أنظمة تحكم، أجهزة قياس، سكادا، PLC، حلول أتمتة، تركيبات كهربائية، لوحات تحكم صناعية، أتمتة العمليات، توزيع الطاقة، مراكز تحكم المحركات، صيانة كهربائية، خدمات كهربائية صناعية، استشارات أتمتة، تصميم كهربائي، أنظمة طاقة",
+      "author": "فريق هندسة باورتون"
+    },
+    "location": {
+      "name": "نويدا، أوتار براديش، الهند",
+      "region": "أوتار براديش",
+      "country": "الهند"
+    },
+    "companyName": "باورتون للهندسة الخاصة المحدودة",
+    "companyDescription": "شركة رائدة في مجال الأتمتة الصناعية والهندسة الكهربائية تخدم العملاء في جميع أنحاء العالم. متخصصة في أتمتة محطات الطاقة، تركيبات الطاقة الشمسية، وأنظمة التحكم في التصنيع.",
+    "siteName": "هندسة باورتون",
+    "twitterHandle": "@powerton_eng",
+    "businessAddress": {
+      "street": "F-25, F Block, Sector 6",
+      "city": "نويدا",
+      "state": "أوتار براديش",
+      "postal": "201301",
+      "country": "الهند"
+    },
+    "contact": {
+      "phone": "+91-94627-71662 / +91-82997-27291",
+      "email": "info@powertonengineering.com"
+    },
+    "businessInfo": {
+      "industry": "الأتمتة الصناعية، الهندسة الكهربائية، الأجهزة",
+      "category": "خدمات هندسية، حلول أتمتة، أنظمة كهربائية",
+      "targetAudience": "مهندسون صناعيون، مديرو مصانع، متخصصون في الأتمتة",
+      "companyType": "مزود حلول هندسية بين الشركات",
+      "serviceArea": "تغطية خدمة عالمية مع تسليم مشاريع دولية"
+    }
+  },
+  "labels": {
+    "category": "الفئة",
+    "status": "الحالة",
+    "industry": "الصناعة",
+    "projectType": "نوع المشروع",
+    "popular": "شائع",
+    "duration": "المدة",
+    "keyFeatures": "الميزات الرئيسية",
+    "projectsCompleted": "المشاريع المكتملة",
+    "satisfiedClients": "العملاء الراضون",
+    "yearsExperience": "سنوات الخبرة",
+    "responseTime": "وقت الاستجابة",
+    "businessHours": "ساعات العمل",
+    "mondayToSaturday": "الاثنين - السبت",
+    "workingHours": "9:00 صباحًا - 6:00 مساءً",
+    "sunday": "الأحد",
+    "emergencySupport": "دعم الطوارئ فقط"
   },
   "projectCategories": {
     "Power Plant": "محطة كهرباء",
@@ -417,95 +414,95 @@
   },
   "projects": {
     "thermal-plant": {
-      "title": "Thermal Power Plant Automation",
-      "description": "Complete automation solution for 250MW thermal power plant including control panels, SCADA systems, and safety interlocks.",
-      "location": "Uttar Pradesh",
-      "duration": "12 months",
+      "title": "أتمتة محطة الطاقة الحرارية",
+      "description": "حل أتمتة كامل لمحطة طاقة حرارية بقدرة 250 ميجاوات بما في ذلك لوحات التحكم وأنظمة SCADA وأقفال الأمان.",
+      "location": "أوتار براديش",
+      "duration": "12 شهرًا",
       "highlights": {
-        "scada": "SCADA Implementation",
-        "safety": "Safety Systems",
-        "control": "Control Panels",
-        "monitoring": "Performance Monitoring"
+        "scada": "تنفيذ SCADA",
+        "safety": "أنظمة السلامة",
+        "control": "لوحات التحكم",
+        "monitoring": "مراقبة الأداء"
       }
     },
     "pharma-plant": {
-      "title": "Pharmaceutical Plant Control System",
-      "description": "Advanced process control and monitoring system for pharmaceutical manufacturing with FDA compliance and data integrity features.",
-      "location": "Maharashtra",
-      "duration": "8 months",
+      "title": "نظام التحكم في مصنع الأدوية",
+      "description": "نظام متقدم للتحكم في العمليات ومراقبتها لتصنيع الأدوية مع ميزات الامتثال لإدارة الغذاء والدواء وسلامة البيانات.",
+      "location": "ماهاراشترا",
+      "duration": "8 أشهر",
       "highlights": {
-        "fda": "FDA Compliance",
-        "data": "Data Integrity",
-        "process": "Process Control",
-        "quality": "Quality Monitoring"
+        "fda": "الامتثال لإدارة الغذاء والدواء",
+        "data": "سلامة البيانات",
+        "process": "التحكم في العمليات",
+        "quality": "مراقبة الجودة"
       }
     },
     "solar-plant": {
-      "title": "10MW Solar Power Installation",
-      "description": "Complete design and installation of grid-connected solar power plant with monitoring systems and grid synchronization equipment.",
-      "location": "Rajasthan",
-      "duration": "6 months",
+      "title": "تركيب محطة طاقة شمسية بقدرة 10 ميجاوات",
+      "description": "تصميم وتركيب كامل لمحطة طاقة شمسية متصلة بالشبكة مع أنظمة مراقبة ومعدات مزامنة الشبكة.",
+      "location": "راجستان",
+      "duration": "6 أشهر",
       "highlights": {
-        "grid": "Grid Connection",
-        "monitoring": "Monitoring Systems",
-        "optimization": "Performance Optimization",
-        "maintenance": "Maintenance Planning"
+        "grid": "اتصال بالشبكة",
+        "monitoring": "أنظمة المراقبة",
+        "optimization": "تحسين الأداء",
+        "maintenance": "تخطيط الصيانة"
       }
     },
     "water-treatment": {
-      "title": "Municipal Water Treatment Automation",
-      "description": "Automated control system for water treatment plant serving 500,000 residents with real-time monitoring and quality control.",
-      "location": "West Bengal",
-      "duration": "10 months",
+      "title": "أتمتة معالجة المياه البلدية",
+      "description": "نظام تحكم آلي لمحطة معالجة مياه تخدم 500000 ساكن مع مراقبة في الوقت الفعلي ومراقبة الجودة.",
+      "location": "غرب البنغال",
+      "duration": "10 أشهر",
       "highlights": {
-        "monitoring": "Real-time Monitoring",
-        "quality": "Quality Control",
-        "automation": "Automated Operations",
-        "remote": "Remote Management"
+        "monitoring": "مراقبة في الوقت الفعلي",
+        "quality": "مراقبة الجودة",
+        "automation": "عمليات آلية",
+        "remote": "إدارة عن بعد"
       }
     },
     "industrial-automation-demo": {
-      "title": "Demo: Industrial Automation System",
-      "client": "Future Manufacturing Client",
-      "category": "Process Automation",
-      "description": "Demonstration of complete manufacturing automation capabilities including PLC integration, SCADA systems, and real-time monitoring solutions.",
-      "location": "Project Site TBD",
-      "duration": "12-18 months",
-      "budget": "₹50-75 Lakhs",
-      "status": "Capability Demo",
+      "title": "عرض توضيحي: نظام أتمتة صناعي",
+      "client": "عميل تصنيع مستقبلي",
+      "category": "أتمتة العمليات",
+      "description": "عرض توضيحي لقدرات أتمتة التصنيع الكاملة بما في ذلك تكامل PLC وأنظمة SCADA وحلول المراقبة في الوقت الفعلي.",
+      "location": "موقع المشروع يحدد لاحقًا",
+      "duration": "12-18 شهرًا",
+      "budget": "50-75 لكح روبية",
+      "status": "عرض توضيحي للقدرات",
       "technologies": {
-        "plcProgramming": "PLC Programming",
+        "plcProgramming": "برمجة PLC",
         "scada": "SCADA",
         "hmi": "HMI",
-        "industrialIot": "Industrial IoT"
+        "industrialIot": "إنترنت الأشياء الصناعي"
       },
       "highlights": {
-        "plcIntegration": "PLC Integration",
-        "scadaSystems": "SCADA Systems",
-        "realtimeMonitoring": "Real-time Monitoring",
-        "processOptimization": "Process Optimization"
+        "plcIntegration": "تكامل PLC",
+        "scadaSystems": "أنظمة SCADA",
+        "realtimeMonitoring": "مراقبة في الوقت الفعلي",
+        "processOptimization": "تحسين العمليات"
       }
     },
     "power-distribution-demo": {
-      "title": "Example: Power Distribution Control",
-      "client": "Future Power Partner",
-      "category": "Power Systems",
-      "description": "Example power distribution system showcasing automated load balancing and remote monitoring capabilities for power generation facilities.",
-      "location": "Various Locations",
-      "duration": "10-15 months",
-      "budget": "₹1-2 Crores",
-      "status": "Capability Demo",
+      "title": "مثال: التحكم في توزيع الطاقة",
+      "client": "شريك طاقة مستقبلي",
+      "category": "أنظمة الطاقة",
+      "description": "مثال على نظام توزيع طاقة يعرض موازنة الحمل الآلية وقدرات المراقبة عن بعد لمنشآت توليد الطاقة.",
+      "location": "مواقع مختلفة",
+      "duration": "10-15 شهرًا",
+      "budget": "1-2 كرور روبية",
+      "status": "عرض توضيحي للقدرات",
       "technologies": {
-        "mccPanels": "MCC Panels",
-        "protectionSystems": "Protection Systems",
-        "energyManagement": "Energy Management",
-        "remoteMonitoring": "Remote Monitoring"
+        "mccPanels": "لوحات MCC",
+        "protectionSystems": "أنظمة الحماية",
+        "energyManagement": "إدارة الطاقة",
+        "remoteMonitoring": "مراقبة عن بعد"
       },
       "highlights": {
-        "loadBalancing": "Load Balancing",
-        "protectionSystems": "Protection Systems",
-        "energyManagement": "Energy Management",
-        "remoteControl": "Remote Control"
+        "loadBalancing": "موازنة الحمل",
+        "protectionSystems": "أنظمة الحماية",
+        "energyManagement": "إدارة الطاقة",
+        "remoteControl": "تحكم عن بعد"
       }
     }
   },
@@ -552,7 +549,7 @@
       "sitemap": "خريطة الموقع"
     },
     "descriptions": {
-      "home": "مرحباً بك في Powerton Engineering - حلول الأتمتة الصناعية",
+      "home": "مرحباً بك في هندسة باورتون - حلول الأتمتة الصناعية",
       "aboutUs": "تعرف على شركتنا ومهمتنا وخبرتنا",
       "contact": "تواصل مع فريق الهندسة لدينا",
       "gallery": "اطلع على معرض مشاريعنا وتركيباتنا",
@@ -566,30 +563,6 @@
       "newsArticles": "مقالات الأخبار والتحديثات الفردية",
       "termsOfService": "شروط وأحكام استخدام خدماتنا",
       "sitemap": "التنقل الكامل للموقع وهيكل الصفحة"
-    }
-  },
-  "company": {
-    "stats": {
-      "yearsExperience": "15+ سنة خبرة",
-      "projectsCompleted": "1200+ مشروع مكتمل", 
-      "clientsServed": "50+ عميل راضي",
-      "responseTime": "24 ساعة"
-    },
-    "name": "Powerton Engineering Pvt. Ltd.",
-    "tagline": "شريكك الموثوق في الأتمتة الصناعية والهندسة الكهربائية",
-    "phone": "+91-94627-71662",
-    "email": "info@powertonengineering.com",
-    "address": {
-      "street": "الطابق الثاني، F-25، مبنى F، القطاع 6",
-      "city": "نويدا",
-      "state": "أوتار براديش",
-      "pincode": "201301",
-      "landmark": "أقرب محطة مترو - القطاع 15",
-      "full": "الطابق الثاني، F-25، مبنى F، القطاع 6، نويدا، أوتار براديش 201301، الهند"
-    },
-    "businessHours": {
-      "weekdays": "الاثنين - السبت: 9:00 صباحاً - 6:00 مساءً",
-      "sunday": "الأحد: دعم الطوارئ فقط"
     }
   },
   "clients": {
@@ -610,8 +583,8 @@
     "procient": "بروسينت"
   },
   "copyright": {
-    "text": "© {{year}} Powerton Engineering Pvt. Ltd. جميع الحقوق محفوظة.",
-    "madeWith": "صُنع بـ 💙 من قبل فريق Powerton Engineering"
+    "text": "© {{year}} باورتون للهندسة الخاصة المحدودة جميع الحقوق محفوظة.",
+    "madeWith": "صُنع بـ 💙 من قبل فريق هندسة باورتون"
   },
   "tags": {
     "award": "جائزة",
@@ -634,51 +607,51 @@
   },
   "testimonials": {
     "anand": {
-      "name": "Anand Awasthi",
+      "name": "أناند أواستي",
       "location": "غرب البنغال",
       "comment": "جعلت هندسة باورتون عملية الانتقال إلى الطاقة الشمسية سلسة وسهلة. تولى فريقهم كل شيء من البداية إلى النهاية، ونحن سعداء جداً بالنتائج."
     },
     "sanjay": {
-      "name": "Sanjay Patil",
+      "name": "سانجاي باتيل",
       "location": "أوتار براديش",
       "comment": "أنا سعيد لأنني اخترت هندسة باورتون لتركيبنا، ولن أتردد في التوصية بهم لأي من أصدقائي."
     },
     "rhea": {
-      "name": "Rhea Sharma",
+      "name": "ريا شارما",
       "location": "ماهاراشترا",
       "comment": "منتجات ممتازة الجودة وخدمة عملاء متميزة. الخبرة التقنية للفريق مثيرة للإعجاب ومهنية للغاية."
     },
     "priya": {
-      "name": "Priya Mehta",
+      "name": "بريا ميهتا",
       "location": "غوجارات",
       "comment": "العمل مع هندسة باورتون كان تجربة رائعة. حلول الأتمتة الخاصة بهم غيرت عملية التصنيع لدينا وحسنت الكفاءة بنسبة 35%. موصى به بشدة لمشاريع الأتمتة الصناعية."
     },
     "kavya": {
-      "name": "Kavya Singh",
+      "name": "كافيا سينغ",
       "location": "كارناتاكا",
       "comment": "خدمة متميزة ودعم فني رائع! قدم الفريق توجيهاً استثنائياً طوال تنفيذ مشروع الطاقة الشمسية لدينا. نهجهم المهني والتسليم في الوقت المحدد فاق توقعاتنا تماماً."
     },
     "rajesh": {
-      "name": "Rajesh Kumar",
+      "name": "راجيش كومار",
       "location": "تاميل نادو",
       "comment": "هندسة باورتون وفت بما وعدت به تماماً. نظام الأجهزة الذي قاموا بتركيبه يعمل بشكل مثالي لأكثر من عامين. دعمهم ما بعد البيع رائع ومتجاوب دائماً."
     }
   },
   "products": {
     "sections": {
-      "industrialProducts": "Industrial Products",
-      "applications": "{{product}} Applications",
-      "keyFeatures": "Key Features:"
+      "industrialProducts": "منتجات صناعية",
+      "applications": "تطبيقات {{product}}",
+      "keyFeatures": "الميزات الرئيسية:"
     },
     "badges": {
-      "highEfficiency": "High Efficiency",
-      "variableSpeed": "Variable Speed",
-      "lowNoise": "Low Noise",
-      "smartControl": "Smart Control",
-      "durable": "Durable",
-      "energySaving": "Energy Saving",
-      "reliable": "Reliable",
-      "costEffective": "Cost Effective"
+      "highEfficiency": "كفاءة عالية",
+      "variableSpeed": "سرعة متغيرة",
+      "lowNoise": "ضوضاء منخفضة",
+      "smartControl": "تحكم ذكي",
+      "durable": "متين",
+      "energySaving": "موفر للطاقة",
+      "reliable": "موثوق",
+      "costEffective": "فعال من حيث التكلفة"
     }
   },
   "cta": {
@@ -693,26 +666,26 @@
   },
   "quote": {
     "projectTypes": {
-      "processAutomation": "Process Automation",
-      "powerControlSystems": "Power Control Systems",
-      "instrumentationControl": "Instrumentation & Control",
-      "solarAutomation": "Solar Automation",
-      "buildingAutomation": "Building Automation",
-      "manufacturingAutomation": "Manufacturing Automation"
+      "processAutomation": "أتمتة العمليات",
+      "powerControlSystems": "أنظمة التحكم في الطاقة",
+      "instrumentationControl": "الأجهزة والتحكم",
+      "solarAutomation": "أتمتة الطاقة الشمسية",
+      "buildingAutomation": "أتمتة المباني",
+      "manufacturingAutomation": "أتمتة التصنيع"
     },
     "industries": {
-      "manufacturing": "Manufacturing",
-      "powerGeneration": "Power Generation",
-      "oilGas": "Oil & Gas",
-      "chemicalProcessing": "Chemical Processing",
-      "waterTreatment": "Water Treatment",
-      "foodBeverage": "Food & Beverage",
-      "pharmaceutical": "Pharmaceutical",
-      "renewableEnergy": "Renewable Energy"
+      "manufacturing": "التصنيع",
+      "powerGeneration": "توليد الطاقة",
+      "oilGas": "النفط والغاز",
+      "chemicalProcessing": "المعالجة الكيميائية",
+      "waterTreatment": "معالجة المياه",
+      "foodBeverage": "الأغذية والمشروبات",
+      "pharmaceutical": "الأدوية",
+      "renewableEnergy": "الطاقة المتجددة"
     }
   },
   "common": {
-    "keyFeatures": "Key Features"
+    "keyFeatures": "الميزات الرئيسية"
   },
   "technicalTerms": {
     "BLDC": "BLDC (محركات التيار المستمر بدون فرش)",
@@ -733,20 +706,20 @@
   },
   "ui": {
     "ariaLabels": {
-      "callUs": "Call us at {{phone}}",
-      "goToHomepage": "Go to Powerton Engineering homepage",
-      "followLinkedIn": "Follow Powerton Engineering on LinkedIn",
-      "followTwitter": "Follow Powerton Engineering on X (formerly Twitter)",
-      "followFacebook": "Follow Powerton Engineering on Facebook",
-      "toggleMobileMenu": "Toggle mobile menu",
-      "closeMobileMenu": "Close mobile menu",
-      "openMobileMenu": "Open mobile menu",
-      "emailUs": "Email us at {{email}}"
+      "callUs": "اتصل بنا على {{phone}}",
+      "goToHomepage": "اذهب إلى الصفحة الرئيسية لهندسة باورتون",
+      "followLinkedIn": "تابع هندسة باورتون على لينكد إن",
+      "followTwitter": "تابع هندسة باورتون على X (تويتر سابقًا)",
+      "followFacebook": "تابع هندسة باورتون على فيسبوك",
+      "toggleMobileMenu": "تبديل قائمة الجوال",
+      "closeMobileMenu": "إغلاق قائمة الجوال",
+      "openMobileMenu": "فتح قائمة الجوال",
+      "emailUs": "راسلنا على {{email}}"
     },
     "altTexts": {
-      "companyLogo": "Powerton Engineering Company Logo",
-      "heroImage": "Industrial automation and electrical engineering solutions",
-      "productImage": "Product image for {{productName}}"
+      "companyLogo": "شعار شركة هندسة باورتون",
+      "heroImage": "حلول الأتمتة الصناعية والهندسة الكهربائية",
+      "productImage": "صورة المنتج لـ {{productName}}"
     }
   }
 }

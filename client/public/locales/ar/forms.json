@@ -262,15 +262,15 @@
       "moreThanThree": "أكثر من 3 أشهر فترة إشعار"
     },
     "helpers": {
-      "resumeFormat": "Accepted formats: PDF, DOC, DOCX (Max size: 5MB)"
+      "resumeFormat": "التنسيقات المقبولة: PDF, DOC, DOCX (الحجم الأقصى: 5 ميجابايت)"
     },
     "success": {
       "title": "تم إرسال الطلب بنجاح!",
-      "description": "Thank you for applying! We will review your application and contact you within 2-3 business days."
+      "description": "شكرا لتقديمك! سنراجع طلبك ونتصل بك في غضون 2-3 أيام عمل."
     },
     "error": {
-      "title": "Application Submission Failed",
-      "description": "Please try again or contact us directly at {{phone}} or {{email}}"
+      "title": "فشل تقديم الطلب",
+      "description": "يرجى المحاولة مرة أخرى أو الاتصال بنا مباشرة على {{phone}} أو {{email}}"
     }
   }
 }

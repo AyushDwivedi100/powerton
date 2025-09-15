@@ -10,7 +10,7 @@
     "quote": "Pata nukuu"
   },
   "language": {
-    "en": "English",
+    "en": "Kiingereza",
     "hi": "हिन्दी",
     "ar": "العربية",
     "es": "Español",
@@ -177,7 +177,7 @@
     "priya": {
       "name": "Priya Mehta",
       "location": "Gujarat",
-      "comment": "Kufanya kazi na Powerton Engineering kulikuwa uzoefu wa ajabu. Masuluhisho yao ya otomatiki yalibadilisha mchakato wetu wa utengenezaji na kuboresha ufanisi kwa asilimia 35. Inapendekezwa sana kwa miradi ya otomatiki ya viwandani."
+      "comment": "Kufanya kazi na Powerton Engineering kulikuwa uzoefu wa ajabu. Masuluhisho yao ya otomatiki yalibadilisha mchakato wetu wa utengenezaji na kuboresha ufanisi kwa asilimia 35%. Inapendekezwa sana kwa miradi ya otomatiki ya viwandani."
     },
     "kavya": {
       "name": "Kavya Singh",
@@ -353,7 +353,7 @@
     "contactPageResponse": "Bora! Ukurasa wa mawasiliano una maelezo yetu yote ikiwa ni pamoja na mahali pa ofisi, nambari za simu na fomu ya mawasiliano. Tuko Noida na tunapatikana Jumatatu hadi Jumamosi. Usisite kutuwasiliana wakati wowote! Ungependa kujadili kitu maalum na timu yetu?"
   },
   "company": {
-    "name": "Powerton Engineering Pvt. Ltd.",
+    "name": "Uhandisi wa Powerton Pvt. Ltd.",
     "tagline": "Mshirika wako wa kuaminika katika utomaji wa viwanda na uhandisi wa umeme",
     "phone": "+91-94627-71662 / +91-82997-27291",
     "email": "info@powertonengineering.com",
@@ -362,8 +362,8 @@
       "city": "Noida",
       "state": "Uttar Pradesh",
       "pincode": "201301",
-      "landmark": "nearest metro-Sector 15",
-      "full": "2nd Floor, F-25, F Block, Sector 6, Noida, Uttar Pradesh 201301, India"
+      "landmark": "metro ya karibu-Sehemu ya 15",
+      "full": "Ghorofa ya pili, F-25, Jengo la F, Sehemu ya 6, Noida, Uttar Pradesh 201301, India"
     },
     "businessHours": {
       "weekdays": "Jumatatu - Jumamosi: 9:00 AM - 6:00 PM",
@@ -378,19 +378,19 @@
   },
   "seo": {
     "powerton": {
-      "name": "Powerton Engineering Pvt. Ltd.",
-      "description": "Leading industrial automation and electrical engineering company serving clients globally. Specializing in power plant automation, solar installations, and manufacturing control systems.",
-      "keywords": "Industrial Automation, Electrical Engineering, Power Plant, Solar Energy, Manufacturing, Control Systems, Instrumentation, SCADA, PLC, Automation Solutions, Electrical Installation, Industrial Control Panels, Process Automation, Power Distribution, Motor Control Centers, Electrical Maintenance, Industrial Electrical Services, Automation Consulting, Electrical Design, Power Systems",
-      "author": "Powerton Engineering Team"
+      "name": "Uhandisi wa Powerton Pvt. Ltd.",
+      "description": "Kampuni inayoongoza ya utomaji wa viwanda na uhandisi wa umeme inayohudumia wateja ulimwenguni kote. Maalum katika utomaji wa mitambo ya umeme, mitambo ya jua, na mifumo ya udhibiti wa utengenezaji.",
+      "keywords": "Utomaji wa Viwanda, Uhandisi wa Umeme, Kiwanda cha Nguvu, Nishati ya jua, Utengenezaji, Mifumo ya Udhibiti, Vifaa, SCADA, PLC, Suluhisho za Utomaji, Ufungaji wa Umeme, Paneli za Udhibiti wa Viwanda, Utomaji wa Mchakato, Usambazaji wa Nguvu, Vituo vya Udhibiti wa Magari, Matengenezo ya Umeme, Huduma za Umeme za Viwanda, Ushauri wa Utomaji, Ubunifu wa Umeme, Mifumo ya Nguvu",
+      "author": "Timu ya Uhandisi wa Powerton"
     },
     "location": {
       "name": "Noida, Uttar Pradesh, India",
       "region": "Uttar Pradesh",
       "country": "India"
     },
-    "companyName": "Powerton Engineering Pvt. Ltd.",
-    "companyDescription": "Leading industrial automation and electrical engineering company serving clients worldwide. Specializing in power plant automation, solar installations, and manufacturing control systems.",
-    "siteName": "Powerton Engineering",
+    "companyName": "Uhandisi wa Powerton Pvt. Ltd.",
+    "companyDescription": "Kampuni inayoongoza ya utomaji wa viwanda na uhandisi wa umeme inayohudumia wateja ulimwenguni kote. Maalum katika utomaji wa mitambo ya umeme, mitambo ya jua, na mifumo ya udhibiti wa utengenezaji.",
+    "siteName": "Uhandisi wa Powerton",
     "twitterHandle": "@powerton_eng",
     "businessAddress": {
       "street": "F-25, F Block, Sector 6",
@@ -404,30 +404,30 @@
       "email": "info@powertonengineering.com"
     },
     "businessInfo": {
-      "industry": "Industrial Automation, Electrical Engineering, Instrumentation",
-      "category": "Engineering Services, Automation Solutions, Electrical Systems",
-      "targetAudience": "Industrial Engineers, Plant Managers, Automation Professionals",
-      "companyType": "B2B Engineering Solutions Provider",
-      "serviceArea": "Global Service Coverage with International Project Delivery"
+      "industry": "Utomaji wa Viwanda, Uhandisi wa Umeme, Vifaa",
+      "category": "Huduma za Uhandisi, Suluhisho za Utomaji, Mifumo ya Umeme",
+      "targetAudience": "Wahandisi wa Viwanda, Wasimamizi wa Mitambo, Wataalamu wa Utomaji",
+      "companyType": "Mtoaji wa Suluhisho za Uhandisi wa B2B",
+      "serviceArea": "Huduma ya Ulimwenguni Pote na Uwasilishaji wa Miradi ya Kimataifa"
     }
   },
   "labels": {
-    "category": "Category",
-    "status": "Status",
-    "industry": "Industry",
-    "projectType": "Project Type",
-    "popular": "Popular",
-    "duration": "Duration",
-    "keyFeatures": "Key Features",
+    "category": "Jamii",
+    "status": "Hali",
+    "industry": "Sekta",
+    "projectType": "Aina ya Mradi",
+    "popular": "Maarufu",
+    "duration": "Muda",
+    "keyFeatures": "Vipengele muhimu",
     "projectsCompleted": "Miradi Iliyokamilika",
     "satisfiedClients": "Wateja Walioridhishwa",
     "yearsExperience": "Miaka ya Uzoefu",
     "responseTime": "Muda wa Kujibu",
-    "businessHours": "Business Hours",
-    "mondayToSaturday": "Monday - Saturday",
-    "workingHours": "9:00 AM - 6:00 PM",
-    "sunday": "Sunday",
-    "emergencySupport": "Emergency Support Only"
+    "businessHours": "Saa za Biashara",
+    "mondayToSaturday": "Jumatatu - Jumamosi",
+    "workingHours": "9:00 asubuhi - 6:00 jioni",
+    "sunday": "Jumapili",
+    "emergencySupport": "Msaada wa Dharura Pekee"
   },
   "placeholders": {
     "selectProjectType": "Chagua aina ya mradi",
@@ -460,95 +460,95 @@
   },
   "projects": {
     "thermal-plant": {
-      "title": "Thermal Power Plant Automation",
-      "description": "Complete automation solution for 250MW thermal power plant including control panels, SCADA systems, and safety interlocks.",
+      "title": "Utomaji wa Kiwanda cha Nguvu za Joto",
+      "description": "Suluhisho kamili la utomaji kwa kiwanda cha nguvu za joto cha 250MW ikijumuisha paneli za kudhibiti, mifumo ya SCADA, na viunganishi vya usalama.",
       "location": "Uttar Pradesh",
-      "duration": "12 months",
+      "duration": "miezi 12",
       "highlights": {
-        "scada": "SCADA Implementation",
-        "safety": "Safety Systems",
-        "control": "Control Panels",
-        "monitoring": "Performance Monitoring"
+        "scada": "Utekelezaji wa SCADA",
+        "safety": "Mifumo ya Usalama",
+        "control": "Paneli za Kudhibiti",
+        "monitoring": "Ufuatiliaji wa Utendaji"
       }
     },
     "pharma-plant": {
-      "title": "Pharmaceutical Plant Control System",
-      "description": "Advanced process control and monitoring system for pharmaceutical manufacturing with FDA compliance and data integrity features.",
+      "title": "Mfumo wa Udhibiti wa Kiwanda cha Dawa",
+      "description": "Mfumo wa hali ya juu wa kudhibiti na kufuatilia mchakato wa utengenezaji wa dawa na kufuata kanuni za FDA na vipengele vya uadilifu wa data.",
       "location": "Maharashtra",
-      "duration": "8 months",
+      "duration": "miezi 8",
       "highlights": {
-        "fda": "FDA Compliance",
-        "data": "Data Integrity",
-        "process": "Process Control",
-        "quality": "Quality Monitoring"
+        "fda": "Ufuataji wa FDA",
+        "data": "Uadilifu wa Data",
+        "process": "Udhibiti wa Mchakato",
+        "quality": "Ufuatiliaji wa Ubora"
       }
     },
     "solar-plant": {
-      "title": "10MW Solar Power Installation",
-      "description": "Complete design and installation of grid-connected solar power plant with monitoring systems and grid synchronization equipment.",
+      "title": "Ufungaji wa Umeme wa Jua wa 10MW",
+      "description": "Ubunifu kamili na ufungaji wa kiwanda cha umeme wa jua kilichounganishwa na gridi na mifumo ya ufuatiliaji na vifaa vya kusawazisha gridi.",
       "location": "Rajasthan",
-      "duration": "6 months",
+      "duration": "miezi 6",
       "highlights": {
-        "grid": "Grid Connection",
-        "monitoring": "Monitoring Systems",
-        "optimization": "Performance Optimization",
-        "maintenance": "Maintenance Planning"
+        "grid": "Uunganisho wa Gridi",
+        "monitoring": "Mifumo ya Ufuatiliaji",
+        "optimization": "Uboreshaji wa Utendaji",
+        "maintenance": "Upangaji wa Matengenezo"
       }
     },
     "water-treatment": {
-      "title": "Municipal Water Treatment Automation",
-      "description": "Automated control system for water treatment plant serving 500,000 residents with real-time monitoring and quality control.",
-      "location": "West Bengal",
-      "duration": "10 months",
+      "title": "Utomaji wa Matibabu ya Maji ya Manispaa",
+      "description": "Mfumo wa udhibiti wa kiotomatiki kwa kiwanda cha matibabu ya maji kinachohudumia wakaazi 500,000 na ufuatiliaji wa wakati halisi na udhibiti wa ubora.",
+      "location": "Bengal Magharibi",
+      "duration": "miezi 10",
       "highlights": {
-        "monitoring": "Real-time Monitoring",
-        "quality": "Quality Control",
-        "automation": "Automated Operations",
-        "remote": "Remote Management"
+        "monitoring": "Ufuatiliaji wa Wakati Halisi",
+        "quality": "Udhibiti wa Ubora",
+        "automation": "Operesheni za Kiotomatiki",
+        "remote": "Usimamizi wa Mbali"
       }
     },
     "industrial-automation-demo": {
-      "title": "Demo: Industrial Automation System",
-      "client": "Future Manufacturing Client",
-      "category": "Process Automation",
-      "description": "Demonstration of complete manufacturing automation capabilities including PLC integration, SCADA systems, and real-time monitoring solutions.",
-      "location": "Project Site TBD",
-      "duration": "12-18 months",
-      "budget": "₹50-75 Lakhs",
-      "status": "Capability Demo",
+      "title": "Demo: Mfumo wa Utomaji wa Viwanda",
+      "client": "Mteja wa Baadaye wa Utengenezaji",
+      "category": "Utomaji wa Mchakato",
+      "description": "Maonyesho ya uwezo kamili wa utomaji wa utengenezaji ikiwa ni pamoja na ujumuishaji wa PLC, mifumo ya SCADA, na suluhisho za ufuatiliaji wa wakati halisi.",
+      "location": "Tovuti ya Mradi itabainishwa",
+      "duration": "miezi 12-18",
+      "budget": "Laki 50-75 za Rupia",
+      "status": "Demo ya Uwezo",
       "technologies": {
-        "plcProgramming": "PLC Programming",
+        "plcProgramming": "Upangaji wa PLC",
         "scada": "SCADA",
         "hmi": "HMI",
-        "industrialIot": "Industrial IoT"
+        "industrialIot": "IoT ya Viwanda"
       },
       "highlights": {
-        "plcIntegration": "PLC Integration",
-        "scadaSystems": "SCADA Systems",
-        "realtimeMonitoring": "Real-time Monitoring",
-        "processOptimization": "Process Optimization"
+        "plcIntegration": "Ujumuishaji wa PLC",
+        "scadaSystems": "Mifumo ya SCADA",
+        "realtimeMonitoring": "Ufuatiliaji wa Wakati Halisi",
+        "processOptimization": "Uboreshaji wa Mchakato"
       }
     },
     "power-distribution-demo": {
-      "title": "Example: Power Distribution Control",
-      "client": "Future Power Partner",
-      "category": "Power Systems",
-      "description": "Example power distribution system showcasing automated load balancing and remote monitoring capabilities for power generation facilities.",
-      "location": "Various Locations",
-      "duration": "10-15 months",
-      "budget": "₹1-2 Crores",
-      "status": "Capability Demo",
+      "title": "Mfano: Udhibiti wa Usambazaji wa Nguvu",
+      "client": "Mshirika wa Nguvu wa Baadaye",
+      "category": "Mifumo ya Nguvu",
+      "description": "Mfano wa mfumo wa usambazaji wa nguvu unaoonyesha usawazishaji wa mzigo wa kiotomatiki na uwezo wa ufuatiliaji wa mbali kwa vituo vya uzalishaji wa umeme.",
+      "location": "Maeneo Mbalimbali",
+      "duration": "miezi 10-15",
+      "budget": "Koror 1-2 za Rupia",
+      "status": "Demo ya Uwezo",
       "technologies": {
-        "mccPanels": "MCC Panels",
-        "protectionSystems": "Protection Systems",
-        "energyManagement": "Energy Management",
-        "remoteMonitoring": "Remote Monitoring"
+        "mccPanels": "Paneli za MCC",
+        "protectionSystems": "Mifumo ya Ulinzi",
+        "energyManagement": "Usimamizi wa Nishati",
+        "remoteMonitoring": "Ufuatiliaji wa Mbali"
       },
       "highlights": {
-        "loadBalancing": "Load Balancing",
-        "protectionSystems": "Protection Systems",
-        "energyManagement": "Energy Management",
-        "remoteControl": "Remote Control"
+        "loadBalancing": "Usawazishaji wa Mzigo",
+        "protectionSystems": "Mifumo ya Ulinzi",
+        "energyManagement": "Usimamizi wa Nishati",
+        "remoteControl": "Udhibiti wa Mbali"
       }
     }
   },
@@ -560,25 +560,25 @@
   },
   "products": {
     "sections": {
-      "applications": "{{product}} Applications",
-      "keyFeatures": "Key Features:",
-      "industrialProducts": "Industrial Products"
+      "applications": "Matumizi ya {{product}}",
+      "keyFeatures": "Sifa Muhimu:",
+      "industrialProducts": "Bidhaa za Viwandani"
     },
     "badges": {
-      "highEfficiency": "High Efficiency",
-      "variableSpeed": "Variable Speed",
-      "lowNoise": "Low Noise",
-      "smartControl": "Smart Control",
-      "durable": "Durable",
-      "energySaving": "Energy Saving",
-      "reliable": "Reliable",
-      "costEffective": "Cost Effective"
+      "highEfficiency": "Ufanisi wa Juu",
+      "variableSpeed": "Kasi Inayobadilika",
+      "lowNoise": "Kelele ya Chini",
+      "smartControl": "Udhibiti Mahiri",
+      "durable": "Imara",
+      "energySaving": "Kuokoa Nishati",
+      "reliable": "Inayoaminika",
+      "costEffective": "Gharama nafuu"
     }
   },
   "altTexts": {
-    "contactBackground": "ID-834: Contact center and customer support office background for engineering company",
-    "aboutBackground": "ID-004: Powerton Engineering industrial automation facility with modern control systems",
-    "companyLogo": "Powerton Engineering Pvt. Ltd. - Industrial Automation & Electrical Engineering Company Logo"
+    "contactBackground": "ID-834: Mandharinyuma ya kituo cha mawasiliano na ofisi ya usaidizi kwa wateja kwa kampuni ya uhandisi",
+    "aboutBackground": "ID-004: Kituo cha utomaji wa viwanda cha Powerton Engineering chenye mifumo ya kisasa ya udhibiti",
+    "companyLogo": "Powerton Engineering Pvt. Ltd. - Nembo ya Kampuni ya Utomaji wa Viwanda na Uhandisi wa Umeme"
   },
   "sitemap": {
     "sections": {
@@ -639,22 +639,6 @@
       "projectsCompleted": "Miradi 1200+ Iliyokamilika", 
       "clientsServed": "Wateja 50+ Wenye Furaha",
       "responseTime": "Masaa 24"
-    },
-    "name": "Powerton Engineering Pvt. Ltd.",
-    "tagline": "Mshirika wako wa kuaminika katika otomatiki ya viwanda na uhandisi wa umeme",
-    "phone": "+91-94627-71662",
-    "email": "info@powertonengineering.com",
-    "address": {
-      "street": "Ghorofa ya pili, F-25, Jengo la F, Sehemu ya 6",
-      "city": "Noida",
-      "state": "Uttar Pradesh",
-      "pincode": "201301",
-      "landmark": "metro ya karibu-Sehemu ya 15",
-      "full": "Ghorofa ya pili, F-25, Jengo la F, Sehemu ya 6, Noida, Uttar Pradesh 201301, India"
-    },
-    "businessHours": {
-      "weekdays": "Jumatatu - Jumamosi: 9:00 Asubuhi - 6:00 Jioni",
-      "sunday": "Jumapili: Msaada wa Haraka Pekee"
     }
   },
   "clients": {
@@ -704,48 +688,48 @@
     "learnMore": "Jifunze Zaidi",
     "viewMore": "Ona Zaidi",
     "contactUs": "Wasiliana Nasi",
-    "getStarted": "Get Started",
-    "downloadBrochure": "Download Brochure"
+    "getStarted": "Anza",
+    "downloadBrochure": "Pakua Kijitabu"
   },
   "quote": {
     "projectTypes": {
-      "processAutomation": "Process Automation",
-      "powerControlSystems": "Power Control Systems",
-      "instrumentationControl": "Instrumentation & Control",
-      "solarAutomation": "Solar Automation",
-      "buildingAutomation": "Building Automation",
-      "manufacturingAutomation": "Manufacturing Automation"
+      "processAutomation": "Utomaji wa Mchakato",
+      "powerControlSystems": "Mifumo ya Udhibiti wa Nguvu",
+      "instrumentationControl": "Vifaa na Udhibiti",
+      "solarAutomation": "Utomaji wa Jua",
+      "buildingAutomation": "Utomaji wa Majengo",
+      "manufacturingAutomation": "Utomaji wa Utengenezaji"
     },
     "industries": {
-      "manufacturing": "Manufacturing",
-      "powerGeneration": "Power Generation",
-      "oilGas": "Oil & Gas",
-      "chemicalProcessing": "Chemical Processing",
-      "waterTreatment": "Water Treatment",
-      "foodBeverage": "Food & Beverage",
-      "pharmaceutical": "Pharmaceutical",
-      "renewableEnergy": "Renewable Energy"
+      "manufacturing": "Utengenezaji",
+      "powerGeneration": "Uzalishaji wa Nguvu",
+      "oilGas": "Mafuta na Gesi",
+      "chemicalProcessing": "Usindikaji wa Kemikali",
+      "waterTreatment": "Matibabu ya Maji",
+      "foodBeverage": "Chakula na Vinywaji",
+      "pharmaceutical": "Dawa",
+      "renewableEnergy": "Nishati Mbadala"
     }
   },
   "common": {
-    "keyFeatures": "Key Features"
+    "keyFeatures": "Sifa Muhimu"
   },
   "ui": {
     "ariaLabels": {
-      "callUs": "Call us at {{phone}}",
-      "goToHomepage": "Go to Powerton Engineering homepage",
-      "followLinkedIn": "Follow Powerton Engineering on LinkedIn",
-      "followTwitter": "Follow Powerton Engineering on X (formerly Twitter)",
-      "followFacebook": "Follow Powerton Engineering on Facebook",
-      "toggleMobileMenu": "Toggle mobile menu",
-      "closeMobileMenu": "Close mobile menu",
-      "openMobileMenu": "Open mobile menu",
-      "emailUs": "Email us at {{email}}"
+      "callUs": "Tupigie kwa {{phone}}",
+      "goToHomepage": "Nenda kwenye ukurasa wa nyumbani wa Powerton Engineering",
+      "followLinkedIn": "Fuata Powerton Engineering kwenye LinkedIn",
+      "followTwitter": "Fuata Powerton Engineering kwenye X (zamani Twitter)",
+      "followFacebook": "Fuata Powerton Engineering kwenye Facebook",
+      "toggleMobileMenu": "Geuza menyu ya rununu",
+      "closeMobileMenu": "Funga menyu ya rununu",
+      "openMobileMenu": "Fungua menyu ya rununu",
+      "emailUs": "Tutumie barua pepe kwa {{email}}"
     },
     "altTexts": {
-      "companyLogo": "Powerton Engineering Company Logo",
-      "heroImage": "Industrial automation and electrical engineering solutions",
-      "productImage": "Product image for {{productName}}"
+      "companyLogo": "Nembo ya Kampuni ya Powerton Engineering",
+      "heroImage": "Ufumbuzi wa utomaji wa viwanda na uhandisi wa umeme",
+      "productImage": "Picha ya bidhaa kwa {{productName}}"
     }
   }
 }

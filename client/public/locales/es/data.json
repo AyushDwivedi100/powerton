@@ -2,67 +2,67 @@
   "testimonials": {
     "anand": {
       "name": "Anand Awasthi",
-      "location": "West Bengal",
-      "comment": "Powerton Engineering made the process of going solar seamless and easy. Their team handled everything from start to finish, and we're thrilled with the results."
+      "location": "Bengala Occidental",
+      "comment": "Powerton Engineering hizo que el proceso de pasarse a la energía solar fuera sencillo y fácil. Su equipo se encargó de todo de principio a fin, y estamos encantados con los resultados."
     },
     "sanjay": {
       "name": "Sanjay Patil",
       "location": "Uttar Pradesh",
-      "comment": "I am glad I chose Powerton Engineering for our installation, and I would not hesitate to recommend them to any of my friends."
+      "comment": "Me alegro de haber elegido Powerton Engineering para nuestra instalación, y no dudaría en recomendarlos a cualquiera de mis amigos."
     },
     "rhea": {
       "name": "Rhea Sharma",
       "location": "Maharashtra",
-      "comment": "Excellent quality products and outstanding customer service. The technical expertise of the team is impressive and highly professional."
+      "comment": "Productos de excelente calidad y un servicio al cliente excepcional. La experiencia técnica del equipo es impresionante y muy profesional."
     }
   },
   "projects": {
     "thermal-plant": {
-      "title": "Thermal Power Plant Automation",
-      "description": "Complete automation solution for 250MW thermal power plant including control panels, SCADA systems, and safety interlocks.",
+      "title": "Automatización de Centrales Térmicas",
+      "description": "Solución completa de automatización para central térmica de 250MW que incluye paneles de control, sistemas SCADA y enclavamientos de seguridad.",
       "location": "Uttar Pradesh",
-      "duration": "12 months",
+      "duration": "12 meses",
       "highlights": {
-        "scada": "SCADA Implementation",
-        "safety": "Safety Systems",
-        "control": "Control Panels",
-        "monitoring": "Performance Monitoring"
+        "scada": "Implementación de SCADA",
+        "safety": "Sistemas de Seguridad",
+        "control": "Paneles de Control",
+        "monitoring": "Monitorización del Rendimiento"
       }
     },
     "pharma-plant": {
-      "title": "Pharmaceutical Plant Control System",
-      "description": "Advanced process control and monitoring system for pharmaceutical manufacturing with FDA compliance and data integrity features.",
+      "title": "Sistema de Control de Planta Farmacéutica",
+      "description": "Sistema avanzado de control y monitorización de procesos para la fabricación farmacéutica con cumplimiento de la FDA y características de integridad de datos.",
       "location": "Maharashtra",
-      "duration": "8 months",
+      "duration": "8 meses",
       "highlights": {
-        "fda": "FDA Compliance",
-        "data": "Data Integrity",
-        "process": "Process Control",
-        "quality": "Quality Monitoring"
+        "fda": "Cumplimiento de la FDA",
+        "data": "Integridad de los Datos",
+        "process": "Control de Procesos",
+        "quality": "Monitorización de la Calidad"
       }
     },
     "solar-plant": {
-      "title": "10MW Solar Power Installation",
-      "description": "Complete design and installation of grid-connected solar power plant with monitoring systems and grid synchronization equipment.",
-      "location": "Rajasthan",
-      "duration": "6 months",
+      "title": "Instalación de Energía Solar de 10MW",
+      "description": "Diseño e instalación completos de una planta de energía solar conectada a la red con sistemas de monitorización y equipos de sincronización de red.",
+      "location": "Rajastán",
+      "duration": "6 meses",
       "highlights": {
-        "grid": "Grid Connection",
-        "monitoring": "Monitoring Systems",
-        "optimization": "Performance Optimization",
-        "maintenance": "Maintenance Planning"
+        "grid": "Conexión a la Red",
+        "monitoring": "Sistemas de Monitorización",
+        "optimization": "Optimización del Rendimiento",
+        "maintenance": "Planificación del Mantenimiento"
       }
     },
     "water-treatment": {
-      "title": "Municipal Water Treatment Automation",
-      "description": "Automated control system for water treatment plant serving 500,000 residents with real-time monitoring and quality control.",
-      "location": "West Bengal",
-      "duration": "10 months",
+      "title": "Automatización del Tratamiento de Aguas Municipales",
+      "description": "Sistema de control automatizado para planta de tratamiento de agua que da servicio a 500.000 residentes con monitorización en tiempo real y control de calidad.",
+      "location": "Bengala Occidental",
+      "duration": "10 meses",
       "highlights": {
-        "monitoring": "Real-time Monitoring",
-        "quality": "Quality Control",
-        "automation": "Automated Operations",
-        "remote": "Remote Management"
+        "monitoring": "Monitorización en Tiempo Real",
+        "quality": "Control de Calidad",
+        "automation": "Operaciones Automatizadas",
+        "remote": "Gestión Remota"
       }
     }
   }

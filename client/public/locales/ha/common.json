@@ -10,7 +10,7 @@
     "quote": "Sami farashin"
   },
   "language": {
-    "en": "English",
+    "en": "Turanci",
     "hi": "हिन्दी",
     "ar": "العربية",
     "es": "Español",
@@ -104,7 +104,7 @@
     "getInTouch": "Tuntuɓe Mu",
     "exploreProducts": "Bincika Kayayyaki",
     "viewCatalog": "Duba Jerin Kayayyaki",
-    "quickQuote": "Quick Quote",
+    "quickQuote": "Neman farashi cikin sauri",
     "getQuote": "Samu Tsari",
     "callNow": "Kira Yanzu",
     "emailUs": "Aiko Mu Email",
@@ -354,20 +354,20 @@
   },
   "company": {
     "name": "Powerton Engineering Pvt. Ltd.",
-    "tagline": "Abokin cinikinka mai aminci a cikin sarrafa masana'antu da injiniyan lantarki",
+    "tagline": "Abokin hulɗarku na aminci a cikin sarrafa masana'antu da injiniyan lantarki",
     "phone": "+91-94627-71662 / +91-82997-27291",
     "email": "info@powertonengineering.com",
     "address": {
-      "street": "F-25, F Block, Sector 6",
+      "street": "Bene na biyu, F-25, Ginin F, Yanki 6",
       "city": "Noida",
       "state": "Uttar Pradesh",
       "pincode": "201301",
-      "landmark": "nearest metro-Sector 15",
-      "full": "2nd Floor, F-25, F Block, Sector 6, Noida, Uttar Pradesh 201301, Indiya"
+      "landmark": "metro mafi kusa-Yanki 15",
+      "full": "Bene na biyu, F-25, Ginin F, Yanki 6, Noida, Uttar Pradesh 201301, Indiya"
     },
     "businessHours": {
-      "weekdays": "Litinin - Asabar: 9:00 AM - 6:00 PM",
-      "sunday": "Lahadi: Tallafin gaggawa kawai"
+      "weekdays": "Litinin - Asabar: 9:00 Safiya - 6:00 Yamma",
+      "sunday": "Lahadi: Tallafin Gaggawa Kawai"
     },
     "stats": {
       "projectsCompleted": "Injiniyoyi Ƙwararru",
@@ -379,55 +379,55 @@
   "seo": {
     "powerton": {
       "name": "Powerton Engineering Pvt. Ltd.",
-      "description": "Leading industrial automation and electrical engineering company serving clients globally. Specializing in power plant automation, solar installations, and manufacturing control systems.",
-      "keywords": "Industrial Automation, Electrical Engineering, Power Plant, Solar Energy, Manufacturing, Control Systems, Instrumentation, SCADA, PLC, Automation Solutions, Electrical Installation, Industrial Control Panels, Process Automation, Power Distribution, Motor Control Centers, Electrical Maintenance, Industrial Electrical Services, Automation Consulting, Electrical Design, Power Systems",
-      "author": "Powerton Engineering Team"
+      "description": "Babban kamfanin sarrafa masana'antu da injiniyan lantarki da ke hidima ga abokan ciniki a duniya. Kwarewa a sarrafa tashar wutar lantarki, shigarwar hasken rana, da tsarin sarrafa masana'antu.",
+      "keywords": "Sarrafa Masana'antu, Injiniyan Lantarki, Tashar Wutar Lantarki, Makamashin Rana, Masana'antu, Tsarin Sarrafawa, Kayan Aiki, SCADA, PLC, Mafita na Sarrafawa, Shigarwar Lantarki, Kwamitin Sarrafa Masana'antu, Sarrafa Tsari, Rarraba Wutar Lantarki, Cibiyoyin Sarrafa Injin, Kula da Lantarki, Hidimomin Lantarki na Masana'antu, Shawarwari kan Sarrafawa, Zane na Lantarki, Tsarin Wutar Lantarki",
+      "author": "Ƙungiyar Injiniyan Powerton"
     },
     "location": {
-      "name": "Noida, Uttar Pradesh, India",
+      "name": "Noida, Uttar Pradesh, Indiya",
       "region": "Uttar Pradesh",
-      "country": "India"
+      "country": "Indiya"
     },
     "companyName": "Powerton Engineering Pvt. Ltd.",
-    "companyDescription": "Leading industrial automation and electrical engineering company serving clients worldwide. Specializing in power plant automation, solar installations, and manufacturing control systems.",
-    "siteName": "Powerton Engineering",
+    "companyDescription": "Babban kamfanin sarrafa masana'antu da injiniyan lantarki da ke hidima ga abokan ciniki a duniya. Kwarewa a sarrafa tashar wutar lantarki, shigarwar hasken rana, da tsarin sarrafa masana'antu.",
+    "siteName": "Injiniyan Powerton",
     "twitterHandle": "@powerton_eng",
     "businessAddress": {
       "street": "F-25, F Block, Sector 6",
       "city": "Noida",
       "state": "Uttar Pradesh",
       "postal": "201301",
-      "country": "India"
+      "country": "Indiya"
     },
     "contact": {
       "phone": "+91-94627-71662 / +91-82997-27291",
       "email": "info@powertonengineering.com"
     },
     "businessInfo": {
-      "industry": "Industrial Automation, Electrical Engineering, Instrumentation",
-      "category": "Engineering Services, Automation Solutions, Electrical Systems",
-      "targetAudience": "Industrial Engineers, Plant Managers, Automation Professionals",
-      "companyType": "B2B Engineering Solutions Provider",
-      "serviceArea": "Global Service Coverage with International Project Delivery"
+      "industry": "Sarrafa Masana'antu, Injiniyan Lantarki, Kayan Aiki",
+      "category": "Hidimomin Injiniya, Mafita na Sarrafawa, Tsarin Lantarki",
+      "targetAudience": "Injiniyoyin Masana'antu, Manajojin Masana'antu, Ƙwararrun Sarrafawa",
+      "companyType": "Mai Ba da Mafita na Injiniya na B2B",
+      "serviceArea": "Sabis na Duniya tare da Isar da Ayyuka na Ƙasashen Duniya"
     }
   },
   "labels": {
-    "category": "Category",
-    "status": "Status",
-    "industry": "Industry",
-    "projectType": "Project Type",
-    "popular": "Popular",
-    "duration": "Duration",
-    "keyFeatures": "Key Features",
+    "category": "Rukuni",
+    "status": "Matsayi",
+    "industry": "Masana'antu",
+    "projectType": "Nau'in Aiki",
+    "popular": "Shahararre",
+    "duration": "Tsawon Lokaci",
+    "keyFeatures": "Muhimman Abubuwa",
     "projectsCompleted": "Ayyukan da aka Kammala",
     "satisfiedClients": "Abokan Ciniki masu Gamsuwa",
     "yearsExperience": "Shekarun Gwaninta",
     "responseTime": "Lokacin Amsa",
-    "businessHours": "Business Hours",
-    "mondayToSaturday": "Monday - Saturday",
-    "workingHours": "9:00 AM - 6:00 PM",
-    "sunday": "Sunday",
-    "emergencySupport": "Emergency Support Only"
+    "businessHours": "Lokutan Kasuwanci",
+    "mondayToSaturday": "Litinin - Asabar",
+    "workingHours": "9:00 na safe - 6:00 na yamma",
+    "sunday": "Lahadi",
+    "emergencySupport": "Tallafin Gaggawa Kawai"
   },
   "placeholders": {
     "selectProjectType": "Zaɓi nau'in aikin",
@@ -460,95 +460,95 @@
   },
   "projects": {
     "thermal-plant": {
-      "title": "Thermal Power Plant Automation",
-      "description": "Complete automation solution for 250MW thermal power plant including control panels, SCADA systems, and safety interlocks.",
+      "title": "Sarrafa Tashar Wutar Lantarki ta Thermal",
+      "description": "Cikakken mafita na sarrafa kansa don tashar wutar lantarki mai karfin 250MW ciki har da kwamitocin sarrafawa, tsarin SCADA, da makullan tsaro.",
       "location": "Uttar Pradesh",
-      "duration": "12 months",
+      "duration": "watanni 12",
       "highlights": {
-        "scada": "SCADA Implementation",
-        "safety": "Safety Systems",
-        "control": "Control Panels",
-        "monitoring": "Performance Monitoring"
+        "scada": "Aiwatar da SCADA",
+        "safety": "Tsarin Tsaro",
+        "control": "Kwamitocin Sarrafawa",
+        "monitoring": "Kula da Ayyuka"
       }
     },
     "pharma-plant": {
-      "title": "Pharmaceutical Plant Control System",
-      "description": "Advanced process control and monitoring system for pharmaceutical manufacturing with FDA compliance and data integrity features.",
+      "title": "Tsarin Sarrafa Masana'antar Magunguna",
+      "description": "Babban tsarin sarrafa tsari da sa ido don masana'antar magunguna tare da bin ka'idojin FDA da fasalulluka na amincin bayanai.",
       "location": "Maharashtra",
-      "duration": "8 months",
+      "duration": "watanni 8",
       "highlights": {
-        "fda": "FDA Compliance",
-        "data": "Data Integrity",
-        "process": "Process Control",
-        "quality": "Quality Monitoring"
+        "fda": "Bin Ka'idojin FDA",
+        "data": "Amincin Bayanai",
+        "process": "Sarrafa Tsari",
+        "quality": "Kula da Inganci"
       }
     },
     "solar-plant": {
-      "title": "10MW Solar Power Installation",
-      "description": "Complete design and installation of grid-connected solar power plant with monitoring systems and grid synchronization equipment.",
+      "title": "Shigar da Wutar Lantarki ta Rana 10MW",
+      "description": "Cikakken zane da shigar da tashar wutar lantarki ta rana da aka haɗa da grid tare da tsarin sa ido da kayan aikin aiki tare na grid.",
       "location": "Rajasthan",
-      "duration": "6 months",
+      "duration": "watanni 6",
       "highlights": {
-        "grid": "Grid Connection",
-        "monitoring": "Monitoring Systems",
-        "optimization": "Performance Optimization",
-        "maintenance": "Maintenance Planning"
+        "grid": "Haɗin Grid",
+        "monitoring": "Tsarin Sa ido",
+        "optimization": "Inganta Ayyuka",
+        "maintenance": "Shirya Kulawa"
       }
     },
     "water-treatment": {
-      "title": "Municipal Water Treatment Automation",
-      "description": "Automated control system for water treatment plant serving 500,000 residents with real-time monitoring and quality control.",
+      "title": "Sarrafa Maganin Ruwa na Birni",
+      "description": "Tsarin sarrafa kansa don masana'antar sarrafa ruwa da ke hidimtawa mazauna 500,000 tare da sa ido na ainihi da sarrafa inganci.",
       "location": "West Bengal",
-      "duration": "10 months",
+      "duration": "watanni 10",
       "highlights": {
-        "monitoring": "Real-time Monitoring",
-        "quality": "Quality Control",
-        "automation": "Automated Operations",
-        "remote": "Remote Management"
+        "monitoring": "Sa ido na Ainihi",
+        "quality": "Sarrafa Inganci",
+        "automation": "Ayyuka na Atomatik",
+        "remote": "Gudanarwa daga Nesa"
       }
     },
     "industrial-automation-demo": {
-      "title": "Demo: Industrial Automation System",
-      "client": "Future Manufacturing Client",
-      "category": "Process Automation",
-      "description": "Demonstration of complete manufacturing automation capabilities including PLC integration, SCADA systems, and real-time monitoring solutions.",
-      "location": "Project Site TBD",
-      "duration": "12-18 months",
+      "title": "Demo: Tsarin Sarrafa Masana'antu",
+      "client": "Abokin Ciniki na Masana'antu na gaba",
+      "category": "Sarrafa Tsari",
+      "description": "Nuna cikakkun damar sarrafa masana'antu ciki har da haɗin PLC, tsarin SCADA, da mafita na sa ido na ainihi.",
+      "location": "Wurin Aiki TBD",
+      "duration": "watanni 12-18",
       "budget": "₹50-75 Lakhs",
-      "status": "Capability Demo",
+      "status": "Demo na Iya aiki",
       "technologies": {
-        "plcProgramming": "PLC Programming",
+        "plcProgramming": "Shirye-shiryen PLC",
         "scada": "SCADA",
         "hmi": "HMI",
-        "industrialIot": "Industrial IoT"
+        "industrialIot": "IoT na Masana'antu"
       },
       "highlights": {
-        "plcIntegration": "PLC Integration",
-        "scadaSystems": "SCADA Systems",
-        "realtimeMonitoring": "Real-time Monitoring",
-        "processOptimization": "Process Optimization"
+        "plcIntegration": "Haɗin PLC",
+        "scadaSystems": "Tsarin SCADA",
+        "realtimeMonitoring": "Sa ido na Ainihi",
+        "processOptimization": "Inganta Tsari"
       }
     },
     "power-distribution-demo": {
-      "title": "Example: Power Distribution Control",
-      "client": "Future Power Partner",
-      "category": "Power Systems",
-      "description": "Example power distribution system showcasing automated load balancing and remote monitoring capabilities for power generation facilities.",
-      "location": "Various Locations",
-      "duration": "10-15 months",
+      "title": "Misali: Sarrafa Rarraba Wutar Lantarki",
+      "client": "Abokin Hulɗa na Wutar Lantarki na gaba",
+      "category": "Tsarin Wutar Lantarki",
+      "description": "Misalin tsarin rarraba wutar lantarki da ke nuna daidaita nauyi ta atomatik da damar sa ido daga nesa don wuraren samar da wutar lantarki.",
+      "location": "Wuraren daban-daban",
+      "duration": "watanni 10-15",
       "budget": "₹1-2 Crores",
-      "status": "Capability Demo",
+      "status": "Demo na Iya aiki",
       "technologies": {
-        "mccPanels": "MCC Panels",
-        "protectionSystems": "Protection Systems",
-        "energyManagement": "Energy Management",
-        "remoteMonitoring": "Remote Monitoring"
+        "mccPanels": "Kwamitocin MCC",
+        "protectionSystems": "Tsarin Kariya",
+        "energyManagement": "Gudanar da Makamashi",
+        "remoteMonitoring": "Sa ido daga Nesa"
       },
       "highlights": {
-        "loadBalancing": "Load Balancing",
-        "protectionSystems": "Protection Systems",
-        "energyManagement": "Energy Management",
-        "remoteControl": "Remote Control"
+        "loadBalancing": "Daidaita Nauyi",
+        "protectionSystems": "Tsarin Kariya",
+        "energyManagement": "Gudanar da Makamashi",
+        "remoteControl": "Sarrafa daga Nesa"
       }
     }
   },
@@ -559,9 +559,9 @@
     "additionalInformation": "Ƙarin bayani"
   },
   "altTexts": {
-    "contactBackground": "ID-834: Contact center and customer support office background for engineering company",
-    "aboutBackground": "ID-004: Powerton Engineering industrial automation facility with modern control systems",
-    "companyLogo": "Powerton Engineering Pvt. Ltd. - Industrial Automation & Electrical Engineering Company Logo"
+    "contactBackground": "ID-834: Cibiyar sadarwa da ofishin tallafin abokin ciniki don kamfanin injiniya",
+    "aboutBackground": "ID-004: Ginin sarrafa masana'antu na Powerton Engineering tare da tsarin sarrafawa na zamani",
+    "companyLogo": "Powerton Engineering Pvt. Ltd. - Alamar Kamfanin Sarrafa Masana'antu & Injiniyan Lantarki"
   },
   "company": {
     "stats": {
@@ -714,7 +714,7 @@
       "liftingEquipmentDescription": "Kayan aikin ɗagawa don jigilar nauyi",
       "bldcCeilingFanDescription": "Fanukan rufin BLDC masu cin ƙarancin wutar lantarki",
       "bldcCoolerExhaustMotorDescription": "Injunan BLDC don na'urorin sanyaya da fitar da iska",
-      "bldcSubmersibleSurfacePumpDescription": "Famfunan BLDC don ayyukan ruwa",
+      "bldcSubmersibleSurfacePumpDescription": "Famfon BLDC don ayyukan ruwa",
       "bldcTableFanWallFanMotorDescription": "Injunan BLDC don fanukan tebur da bango",
       "requestQuoteDescription": "Sami cikakken farashin don aikinku na injiniya",
       "downloadPortfolioDescription": "Sauke cikakkun takaddun ayyukanmu",
@@ -787,19 +787,19 @@
   },
   "products": {
     "sections": {
-      "industrialProducts": "Industrial Products",
-      "applications": "{{product}} Applications",
-      "keyFeatures": "Key Features:"
+      "industrialProducts": "Kayayyakin Masana'antu",
+      "applications": "Amfanin {{product}}",
+      "keyFeatures": "Muhimman Siffofin:"
     },
     "badges": {
-      "highEfficiency": "High Efficiency",
-      "variableSpeed": "Variable Speed",
-      "lowNoise": "Low Noise",
-      "smartControl": "Smart Control",
-      "durable": "Durable",
-      "energySaving": "Energy Saving",
-      "reliable": "Reliable",
-      "costEffective": "Cost Effective"
+      "highEfficiency": "Babban Inganci",
+      "variableSpeed": "Gudun da Ya Canza",
+      "lowNoise": "Ƙananan Hayaniya",
+      "smartControl": "Sarrafa Mai Hankali",
+      "durable": "Mai Ɗorewa",
+      "energySaving": "Ajiye Makamashi",
+      "reliable": "Abin Dogaro",
+      "costEffective": "Mai Rahusa"
     }
   },
   "cta": {
@@ -809,48 +809,48 @@
     "learnMore": "Koyi Ƙari",
     "viewMore": "Duba Ƙari",
     "contactUs": "Tuntuɓe Mu",
-    "getStarted": "Get Started",
-    "downloadBrochure": "Download Brochure"
+    "getStarted": "Fara",
+    "downloadBrochure": "Sauke Ƙasidar Bayani"
   },
   "quote": {
     "projectTypes": {
-      "processAutomation": "Process Automation",
-      "powerControlSystems": "Power Control Systems",
-      "instrumentationControl": "Instrumentation & Control",
-      "solarAutomation": "Solar Automation",
-      "buildingAutomation": "Building Automation",
-      "manufacturingAutomation": "Manufacturing Automation"
+      "processAutomation": "Sarrafa Tsari ta Atomatik",
+      "powerControlSystems": "Tsarin Sarrafa Wutar Lantarki",
+      "instrumentationControl": "Kayan Aiki & Sarrafawa",
+      "solarAutomation": "Sarrafa Rana ta Atomatik",
+      "buildingAutomation": "Sarrafa Gini ta Atomatik",
+      "manufacturingAutomation": "Sarrafa Masana'antu ta Atomatik"
     },
     "industries": {
-      "manufacturing": "Manufacturing",
-      "powerGeneration": "Power Generation",
-      "oilGas": "Oil & Gas",
-      "chemicalProcessing": "Chemical Processing",
-      "waterTreatment": "Water Treatment",
-      "foodBeverage": "Food & Beverage",
-      "pharmaceutical": "Pharmaceutical",
-      "renewableEnergy": "Renewable Energy"
+      "manufacturing": "Masana'antu",
+      "powerGeneration": "Samar da Wutar Lantarki",
+      "oilGas": "Mai & Gas",
+      "chemicalProcessing": "Sarrafa Sinadarai",
+      "waterTreatment": "Maganin Ruwa",
+      "foodBeverage": "Abinci & Abin Sha",
+      "pharmaceutical": "Magunguna",
+      "renewableEnergy": "Makamashi Mai Sabuntawa"
     }
   },
   "common": {
-    "keyFeatures": "Key Features"
+    "keyFeatures": "Muhimman Abubuwa"
   },
   "ui": {
     "ariaLabels": {
-      "callUs": "Call us at {{phone}}",
-      "goToHomepage": "Go to Powerton Engineering homepage",
-      "followLinkedIn": "Follow Powerton Engineering on LinkedIn",
-      "followTwitter": "Follow Powerton Engineering on X (formerly Twitter)",
-      "followFacebook": "Follow Powerton Engineering on Facebook",
-      "toggleMobileMenu": "Toggle mobile menu",
-      "closeMobileMenu": "Close mobile menu",
-      "openMobileMenu": "Open mobile menu",
-      "emailUs": "Email us at {{email}}"
+      "callUs": "Kira mu a {{phone}}",
+      "goToHomepage": "Tafi zuwa shafin gida na Powerton Engineering",
+      "followLinkedIn": "Bi Powerton Engineering a LinkedIn",
+      "followTwitter": "Bi Powerton Engineering a X (wanda da ake kira Twitter)",
+      "followFacebook": "Bi Powerton Engineering a Facebook",
+      "toggleMobileMenu": "Canja menu na wayar hannu",
+      "closeMobileMenu": "Rufe menu na wayar hannu",
+      "openMobileMenu": "Buɗe menu na wayar hannu",
+      "emailUs": "Aika mana imel a {{email}}"
     },
     "altTexts": {
-      "companyLogo": "Powerton Engineering Company Logo",
-      "heroImage": "Industrial automation and electrical engineering solutions",
-      "productImage": "Product image for {{productName}}"
+      "companyLogo": "Alamar Kamfanin Powerton Engineering",
+      "heroImage": "Sarrafa masana'antu ta atomatik da mafita na injiniyan lantarki",
+      "productImage": "Hoton samfurin {{productName}}"
     }
   }
 }

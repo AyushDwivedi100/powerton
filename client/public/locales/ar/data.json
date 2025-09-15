@@ -1,68 +1,68 @@
 {
   "testimonials": {
     "anand": {
-      "name": "Anand Awasthi",
-      "location": "West Bengal",
-      "comment": "Powerton Engineering made the process of going solar seamless and easy. Their team handled everything from start to finish, and we're thrilled with the results."
+      "name": "أناند أواستي",
+      "location": "غرب البنغال",
+      "comment": "جعلت هندسة باورتون عملية الانتقال إلى الطاقة الشمسية سلسة وسهلة. تولى فريقهم كل شيء من البداية إلى النهاية، ونحن سعداء جدًا بالنتائج."
     },
     "sanjay": {
-      "name": "Sanjay Patil",
-      "location": "Uttar Pradesh",
-      "comment": "I am glad I chose Powerton Engineering for our installation, and I would not hesitate to recommend them to any of my friends."
+      "name": "سانجاي باتيل",
+      "location": "أوتار براديش",
+      "comment": "أنا سعيد لأنني اخترت هندسة باورتون لتركيبنا، ولن أتردد في التوصية بهم لأي من أصدقائي."
     },
     "rhea": {
-      "name": "Rhea Sharma",
-      "location": "Maharashtra",
-      "comment": "Excellent quality products and outstanding customer service. The technical expertise of the team is impressive and highly professional."
+      "name": "ريا شارما",
+      "location": "ماهاراشترا",
+      "comment": "منتجات ذات جودة ممتازة وخدمة عملاء متميزة. الخبرة الفنية للفريق مثيرة للإعجاب ومحترفة للغاية."
     }
   },
   "projects": {
     "thermal-plant": {
-      "title": "Thermal Power Plant Automation",
-      "description": "Complete automation solution for 250MW thermal power plant including control panels, SCADA systems, and safety interlocks.",
-      "location": "Uttar Pradesh",
-      "duration": "12 months",
+      "title": "أتمتة محطة الطاقة الحرارية",
+      "description": "حل أتمتة كامل لمحطة طاقة حرارية بقدرة 250 ميجاوات بما في ذلك لوحات التحكم وأنظمة SCADA وأقفال الأمان.",
+      "location": "أوتار براديش",
+      "duration": "12 شهرًا",
       "highlights": {
-        "scada": "SCADA Implementation",
-        "safety": "Safety Systems",
-        "control": "Control Panels",
-        "monitoring": "Performance Monitoring"
+        "scada": "تنفيذ SCADA",
+        "safety": "أنظمة السلامة",
+        "control": "لوحات التحكم",
+        "monitoring": "مراقبة الأداء"
       }
     },
     "pharma-plant": {
-      "title": "Pharmaceutical Plant Control System",
-      "description": "Advanced process control and monitoring system for pharmaceutical manufacturing with FDA compliance and data integrity features.",
-      "location": "Maharashtra",
-      "duration": "8 months",
+      "title": "نظام التحكم في مصنع الأدوية",
+      "description": "نظام متقدم للتحكم في العمليات ومراقبتها لتصنيع الأدوية مع الامتثال لـ FDA وميزات سلامة البيانات.",
+      "location": "ماهاراشترا",
+      "duration": "8 أشهر",
       "highlights": {
-        "fda": "FDA Compliance",
-        "data": "Data Integrity",
-        "process": "Process Control",
-        "quality": "Quality Monitoring"
+        "fda": "الامتثال لـ FDA",
+        "data": "سلامة البيانات",
+        "process": "التحكم في العمليات",
+        "quality": "مراقبة الجودة"
       }
     },
     "solar-plant": {
-      "title": "10MW Solar Power Installation",
-      "description": "Complete design and installation of grid-connected solar power plant with monitoring systems and grid synchronization equipment.",
-      "location": "Rajasthan",
-      "duration": "6 months",
+      "title": "تركيب طاقة شمسية 10 ميجاوات",
+      "description": "تصميم وتركيب كامل لمحطة طاقة شمسية متصلة بالشبكة مع أنظمة مراقبة ومعدات مزامنة الشبكة.",
+      "location": "راجستان",
+      "duration": "6 أشهر",
       "highlights": {
-        "grid": "Grid Connection",
-        "monitoring": "Monitoring Systems",
-        "optimization": "Performance Optimization",
-        "maintenance": "Maintenance Planning"
+        "grid": "اتصال بالشبكة",
+        "monitoring": "أنظمة المراقبة",
+        "optimization": "تحسين الأداء",
+        "maintenance": "تخطيط الصيانة"
       }
     },
     "water-treatment": {
-      "title": "Municipal Water Treatment Automation",
-      "description": "Automated control system for water treatment plant serving 500,000 residents with real-time monitoring and quality control.",
-      "location": "West Bengal",
-      "duration": "10 months",
+      "title": "أتمتة معالجة المياه البلدية",
+      "description": "نظام تحكم آلي لمحطة معالجة مياه تخدم 500,000 ساكن مع مراقبة في الوقت الفعلي ومراقبة الجودة.",
+      "location": "غرب البنغال",
+      "duration": "10 أشهر",
       "highlights": {
-        "monitoring": "Real-time Monitoring",
-        "quality": "Quality Control",
-        "automation": "Automated Operations",
-        "remote": "Remote Management"
+        "monitoring": "مراقبة في الوقت الفعلي",
+        "quality": "مراقبة الجودة",
+        "automation": "عمليات آلية",
+        "remote": "إدارة عن بعد"
       }
     }
   }

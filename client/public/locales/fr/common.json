@@ -246,17 +246,17 @@
   "seo": {
     "powerton": {
       "name": "Powerton Engineering Pvt. Ltd.",
-      "description": "Leading industrial automation and electrical engineering company serving clients globally. Specializing in power plant automation, solar installations, and manufacturing control systems.",
-      "keywords": "Industrial Automation, Electrical Engineering, Power Plant, Solar Energy, Manufacturing, Control Systems, Instrumentation, SCADA, PLC, Automation Solutions, Electrical Installation, Industrial Control Panels, Process Automation, Power Distribution, Motor Control Centers, Electrical Maintenance, Industrial Electrical Services, Automation Consulting, Electrical Design, Power Systems",
-      "author": "Powerton Engineering Team"
+      "description": "Société leader en automatisation industrielle et en ingénierie électrique au service de clients dans le monde entier. Spécialisée dans l'automatisation de centrales électriques, les installations solaires et les systèmes de contrôle de fabrication.",
+      "keywords": "Automatisation Industrielle, Ingénierie Électrique, Centrale Électrique, Énergie Solaire, Fabrication, Systèmes de Contrôle, Instrumentation, SCADA, PLC, Solutions d'Automatisation, Installation Électrique, Panneaux de Contrôle Industriels, Automatisation de Processus, Distribution d'Énergie, Centres de Contrôle de Moteurs, Maintenance Électrique, Services Électriques Industriels, Conseil en Automatisation, Conception Électrique, Systèmes d'Alimentation",
+      "author": "Équipe de Powerton Engineering"
     },
     "location": {
-      "name": "Noida, Uttar Pradesh, India",
+      "name": "Noida, Uttar Pradesh, Inde",
       "region": "Uttar Pradesh",
-      "country": "India"
+      "country": "Inde"
     },
     "companyName": "Powerton Engineering Pvt. Ltd.",
-    "companyDescription": "Leading industrial automation and electrical engineering company serving clients worldwide. Specializing in power plant automation, solar installations, and manufacturing control systems.",
+    "companyDescription": "Société leader en automatisation industrielle et en ingénierie électrique au service de clients dans le monde entier. Spécialisée dans l'automatisation de centrales électriques, les installations solaires et les systèmes de contrôle de fabrication.",
     "siteName": "Powerton Engineering",
     "twitterHandle": "@powerton_eng",
     "businessAddress": {
@@ -264,37 +264,37 @@
       "city": "Noida",
       "state": "Uttar Pradesh",
       "postal": "201301",
-      "country": "India"
+      "country": "Inde"
     },
     "contact": {
       "phone": "+91-94627-71662 / +91-82997-27291",
       "email": "info@powertonengineering.com"
     },
     "businessInfo": {
-      "industry": "Industrial Automation, Electrical Engineering, Instrumentation",
-      "category": "Engineering Services, Automation Solutions, Electrical Systems",
-      "targetAudience": "Industrial Engineers, Plant Managers, Automation Professionals",
-      "companyType": "B2B Engineering Solutions Provider",
-      "serviceArea": "Global Service Coverage with International Project Delivery"
+      "industry": "Automatisation Industrielle, Ingénierie Électrique, Instrumentation",
+      "category": "Services d'Ingénierie, Solutions d'Automatisation, Systèmes Électriques",
+      "targetAudience": "Ingénieurs Industriels, Directeurs d'Usine, Professionnels de l'Automatisation",
+      "companyType": "Fournisseur de Solutions d'Ingénierie B2B",
+      "serviceArea": "Couverture de Service Mondiale avec Livraison de Projets Internationaux"
     }
   },
   "labels": {
-    "category": "Category",
-    "status": "Status",
-    "industry": "Industry",
-    "projectType": "Project Type",
-    "popular": "Popular",
-    "duration": "Duration",
-    "keyFeatures": "Key Features",
+    "category": "Catégorie",
+    "status": "Statut",
+    "industry": "Industrie",
+    "projectType": "Type de Projet",
+    "popular": "Populaire",
+    "duration": "Durée",
+    "keyFeatures": "Caractéristiques Clés",
     "projectsCompleted": "Projets Terminés",
     "satisfiedClients": "Clients Satisfaits",
     "yearsExperience": "Années d'Expérience",
     "responseTime": "Temps de Réponse",
-    "businessHours": "Business Hours",
-    "mondayToSaturday": "Monday - Saturday",
-    "workingHours": "9:00 AM - 6:00 PM",
-    "sunday": "Sunday",
-    "emergencySupport": "Emergency Support Only"
+    "businessHours": "Heures d'Ouverture",
+    "mondayToSaturday": "Lundi - Samedi",
+    "workingHours": "9:00 - 18:00",
+    "sunday": "Dimanche",
+    "emergencySupport": "Support d'Urgence Uniquement"
   },
   "company": {
     "name": "Powerton Engineering Pvt. Ltd.",
@@ -306,8 +306,8 @@
       "city": "Noida",
       "state": "Uttar Pradesh",
       "pincode": "201301",
-      "landmark": "nearest metro-Sector 15",
-      "full": "2nd Floor, F-25, F Block, Sector 6, Noida, Uttar Pradesh 201301, Inde"
+      "landmark": "métro le plus proche-Secteur 15",
+      "full": "2ème étage, F-25, Bloc F, Secteur 6, Noida, Uttar Pradesh 201301, Inde"
     },
     "businessHours": {
       "weekdays": "Lundi - Samedi : 9h00 - 18h00",
@@ -351,95 +351,95 @@
   },
   "projects": {
     "thermal-plant": {
-      "title": "Thermal Power Plant Automation",
-      "description": "Complete automation solution for 250MW thermal power plant including control panels, SCADA systems, and safety interlocks.",
+      "title": "Automatisation de centrale thermique",
+      "description": "Solution complète d'automatisation pour une centrale thermique de 250 MW comprenant des panneaux de contrôle, des systèmes SCADA et des verrouillages de sécurité.",
       "location": "Uttar Pradesh",
-      "duration": "12 months",
+      "duration": "12 mois",
       "highlights": {
-        "scada": "SCADA Implementation",
-        "safety": "Safety Systems",
-        "control": "Control Panels",
-        "monitoring": "Performance Monitoring"
+        "scada": "Mise en œuvre SCADA",
+        "safety": "Systèmes de sécurité",
+        "control": "Panneaux de contrôle",
+        "monitoring": "Surveillance des performances"
       }
     },
     "pharma-plant": {
-      "title": "Pharmaceutical Plant Control System",
-      "description": "Advanced process control and monitoring system for pharmaceutical manufacturing with FDA compliance and data integrity features.",
+      "title": "Système de contrôle d'usine pharmaceutique",
+      "description": "Système avancé de contrôle et de surveillance des processus pour la fabrication pharmaceutique avec conformité FDA et fonctionnalités d'intégrité des données.",
       "location": "Maharashtra",
-      "duration": "8 months",
+      "duration": "8 mois",
       "highlights": {
-        "fda": "FDA Compliance",
-        "data": "Data Integrity",
-        "process": "Process Control",
-        "quality": "Quality Monitoring"
+        "fda": "Conformité FDA",
+        "data": "Intégrité des données",
+        "process": "Contrôle de processus",
+        "quality": "Surveillance de la qualité"
       }
     },
     "solar-plant": {
-      "title": "10MW Solar Power Installation",
-      "description": "Complete design and installation of grid-connected solar power plant with monitoring systems and grid synchronization equipment.",
+      "title": "Installation d'énergie solaire de 10 MW",
+      "description": "Conception et installation complètes d'une centrale solaire connectée au réseau avec des systèmes de surveillance et des équipements de synchronisation au réseau.",
       "location": "Rajasthan",
-      "duration": "6 months",
+      "duration": "6 mois",
       "highlights": {
-        "grid": "Grid Connection",
-        "monitoring": "Monitoring Systems",
-        "optimization": "Performance Optimization",
-        "maintenance": "Maintenance Planning"
+        "grid": "Connexion au réseau",
+        "monitoring": "Systèmes de surveillance",
+        "optimization": "Optimisation des performances",
+        "maintenance": "Planification de la maintenance"
       }
     },
     "water-treatment": {
-      "title": "Municipal Water Treatment Automation",
-      "description": "Automated control system for water treatment plant serving 500,000 residents with real-time monitoring and quality control.",
-      "location": "West Bengal",
-      "duration": "10 months",
+      "title": "Automatisation du traitement de l'eau municipal",
+      "description": "Système de contrôle automatisé pour une usine de traitement de l'eau desservant 500 000 habitants avec surveillance en temps réel et contrôle de la qualité.",
+      "location": "Bengale occidental",
+      "duration": "10 mois",
       "highlights": {
-        "monitoring": "Real-time Monitoring",
-        "quality": "Quality Control",
-        "automation": "Automated Operations",
-        "remote": "Remote Management"
+        "monitoring": "Surveillance en temps réel",
+        "quality": "Contrôle de la qualité",
+        "automation": "Opérations automatisées",
+        "remote": "Gestion à distance"
       }
     },
     "industrial-automation-demo": {
-      "title": "Demo: Industrial Automation System",
-      "client": "Future Manufacturing Client",
-      "category": "Process Automation",
-      "description": "Demonstration of complete manufacturing automation capabilities including PLC integration, SCADA systems, and real-time monitoring solutions.",
-      "location": "Project Site TBD",
-      "duration": "12-18 months",
+      "title": "Démo : Système d'automatisation industrielle",
+      "client": "Futur client de fabrication",
+      "category": "Automatisation des processus",
+      "description": "Démonstration des capacités complètes d'automatisation de la fabrication, y compris l'intégration de PLC, les systèmes SCADA et les solutions de surveillance en temps réel.",
+      "location": "Site du projet à déterminer",
+      "duration": "12-18 mois",
       "budget": "₹50-75 Lakhs",
-      "status": "Capability Demo",
+      "status": "Démo de capacité",
       "technologies": {
-        "plcProgramming": "PLC Programming",
+        "plcProgramming": "Programmation PLC",
         "scada": "SCADA",
         "hmi": "HMI",
-        "industrialIot": "Industrial IoT"
+        "industrialIot": "IoT industriel"
       },
       "highlights": {
-        "plcIntegration": "PLC Integration",
-        "scadaSystems": "SCADA Systems",
-        "realtimeMonitoring": "Real-time Monitoring",
-        "processOptimization": "Process Optimization"
+        "plcIntegration": "Intégration PLC",
+        "scadaSystems": "Systèmes SCADA",
+        "realtimeMonitoring": "Surveillance en temps réel",
+        "processOptimization": "Optimisation des processus"
       }
     },
     "power-distribution-demo": {
-      "title": "Example: Power Distribution Control",
-      "client": "Future Power Partner",
-      "category": "Power Systems",
-      "description": "Example power distribution system showcasing automated load balancing and remote monitoring capabilities for power generation facilities.",
-      "location": "Various Locations",
-      "duration": "10-15 months",
+      "title": "Exemple : Contrôle de la distribution d'énergie",
+      "client": "Futur partenaire énergétique",
+      "category": "Systèmes d'alimentation",
+      "description": "Exemple de système de distribution d'énergie présentant des capacités de répartition de charge automatisée et de surveillance à distance pour les installations de production d'énergie.",
+      "location": "Divers emplacements",
+      "duration": "10-15 mois",
       "budget": "₹1-2 Crores",
-      "status": "Capability Demo",
+      "status": "Démo de capacité",
       "technologies": {
-        "mccPanels": "MCC Panels",
-        "protectionSystems": "Protection Systems",
-        "energyManagement": "Energy Management",
-        "remoteMonitoring": "Remote Monitoring"
+        "mccPanels": "Panneaux MCC",
+        "protectionSystems": "Systèmes de protection",
+        "energyManagement": "Gestion de l'énergie",
+        "remoteMonitoring": "Surveillance à distance"
       },
       "highlights": {
-        "loadBalancing": "Load Balancing",
-        "protectionSystems": "Protection Systems",
-        "energyManagement": "Energy Management",
-        "remoteControl": "Remote Control"
+        "loadBalancing": "Répartition de charge",
+        "protectionSystems": "Systèmes de protection",
+        "energyManagement": "Gestion de l'énergie",
+        "remoteControl": "Contrôle à distance"
       }
     }
   },
@@ -450,9 +450,9 @@
     "additionalInformation": "Informations supplémentaires"
   },
   "altTexts": {
-    "contactBackground": "ID-834: Contact center and customer support office background for engineering company",
-    "aboutBackground": "ID-004: Powerton Engineering industrial automation facility with modern control systems",
-    "companyLogo": "Powerton Engineering Pvt. Ltd. - Industrial Automation & Electrical Engineering Company Logo"
+    "contactBackground": "ID-834: Arrière-plan du centre de contact et du bureau de support client pour une société d'ingénierie",
+    "aboutBackground": "ID-004: Installation d'automatisation industrielle de Powerton Engineering avec des systèmes de contrôle modernes",
+    "companyLogo": "Powerton Engineering Pvt. Ltd. - Logo de la société d'automatisation industrielle et d'ingénierie électrique"
   },
   "sitemap": {
     "sections": {
@@ -594,24 +594,24 @@
     "rajesh": {
       "name": "Rajesh Kumar",
       "location": "Tamil Nadu",
-      "comment": "Powerton Engineering a livré exactement ce qu'ils avaient promis. Le système d'instrumentation qu'ils ont installé fonctionne parfaitement depuis plus de deux ans. Leur support après-vente est remarquable et toujours réactif."
+      "comment": "Powerton Engineering a livré exactly ce qu'ils avaient promis. Le système d'instrumentation qu'ils ont installé fonctionne parfaitement depuis plus de deux ans. Leur support après-vente est remarquable et toujours réactif."
     }
   },
   "products": {
     "sections": {
-      "industrialProducts": "Industrial Products",
-      "applications": "{{product}} Applications",
-      "keyFeatures": "Key Features:"
+      "industrialProducts": "Produits Industriels",
+      "applications": "Applications {{product}}",
+      "keyFeatures": "Caractéristiques Clés:"
     },
     "badges": {
-      "highEfficiency": "High Efficiency",
-      "variableSpeed": "Variable Speed",
-      "lowNoise": "Low Noise",
-      "smartControl": "Smart Control",
+      "highEfficiency": "Haute Efficacité",
+      "variableSpeed": "Vitesse Variable",
+      "lowNoise": "Faible Bruit",
+      "smartControl": "Contrôle Intelligent",
       "durable": "Durable",
-      "energySaving": "Energy Saving",
-      "reliable": "Reliable",
-      "costEffective": "Cost Effective"
+      "energySaving": "Économie d'Énergie",
+      "reliable": "Fiable",
+      "costEffective": "Rentable"
     }
   },
   "company": {
@@ -634,26 +634,26 @@
   },
   "quote": {
     "projectTypes": {
-      "processAutomation": "Process Automation",
-      "powerControlSystems": "Power Control Systems",
-      "instrumentationControl": "Instrumentation & Control",
-      "solarAutomation": "Solar Automation",
-      "buildingAutomation": "Building Automation",
-      "manufacturingAutomation": "Manufacturing Automation"
+      "processAutomation": "Automatisation des Processus",
+      "powerControlSystems": "Systèmes de Contrôle de Puissance",
+      "instrumentationControl": "Instrumentation et Contrôle",
+      "solarAutomation": "Automatisation Solaire",
+      "buildingAutomation": "Automatisation des Bâtiments",
+      "manufacturingAutomation": "Automatisation de la Fabrication"
     },
     "industries": {
-      "manufacturing": "Manufacturing",
-      "powerGeneration": "Power Generation",
-      "oilGas": "Oil & Gas",
-      "chemicalProcessing": "Chemical Processing",
-      "waterTreatment": "Water Treatment",
-      "foodBeverage": "Food & Beverage",
-      "pharmaceutical": "Pharmaceutical",
-      "renewableEnergy": "Renewable Energy"
+      "manufacturing": "Fabrication",
+      "powerGeneration": "Production d'Énergie",
+      "oilGas": "Pétrole et Gaz",
+      "chemicalProcessing": "Traitement Chimique",
+      "waterTreatment": "Traitement de l'Eau",
+      "foodBeverage": "Agroalimentaire",
+      "pharmaceutical": "Pharmaceutique",
+      "renewableEnergy": "Énergie Renouvelable"
     }
   },
   "common": {
-    "keyFeatures": "Key Features"
+    "keyFeatures": "Caractéristiques Clés"
   },
   "technicalTerms": {
     "BLDC": "BLDC (Moteurs à Courant Continu sans Balais)",
@@ -674,20 +674,20 @@
   },
   "ui": {
     "ariaLabels": {
-      "callUs": "Call us at {{phone}}",
-      "goToHomepage": "Go to Powerton Engineering homepage",
-      "followLinkedIn": "Follow Powerton Engineering on LinkedIn",
-      "followTwitter": "Follow Powerton Engineering on X (formerly Twitter)",
-      "followFacebook": "Follow Powerton Engineering on Facebook",
-      "toggleMobileMenu": "Toggle mobile menu",
-      "closeMobileMenu": "Close mobile menu",
-      "openMobileMenu": "Open mobile menu",
-      "emailUs": "Email us at {{email}}"
+      "callUs": "Appelez-nous au {{phone}}",
+      "goToHomepage": "Aller à la page d'accueil de Powerton Engineering",
+      "followLinkedIn": "Suivre Powerton Engineering sur LinkedIn",
+      "followTwitter": "Suivre Powerton Engineering sur X (anciennement Twitter)",
+      "followFacebook": "Suivre Powerton Engineering sur Facebook",
+      "toggleMobileMenu": "Basculer le menu mobile",
+      "closeMobileMenu": "Fermer le menu mobile",
+      "openMobileMenu": "Ouvrir le menu mobile",
+      "emailUs": "Envoyez-nous un e-mail à {{email}}"
     },
     "altTexts": {
-      "companyLogo": "Powerton Engineering Company Logo",
-      "heroImage": "Industrial automation and electrical engineering solutions",
-      "productImage": "Product image for {{productName}}"
+      "companyLogo": "Logo de la société Powerton Engineering",
+      "heroImage": "Solutions d'automatisation industrielle et d'ingénierie électrique",
+      "productImage": "Image du produit pour {{productName}}"
     }
   }
 }

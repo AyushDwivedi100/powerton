@@ -262,15 +262,15 @@
       "moreThanThree": "Más de 3 meses de período de aviso"
     },
     "helpers": {
-      "resumeFormat": "Accepted formats: PDF, DOC, DOCX (Max size: 5MB)"
+      "resumeFormat": "Formatos aceptados: PDF, DOC, DOCX (Tamaño máximo: 5MB)"
     },
     "success": {
       "title": "¡Solicitud enviada con éxito!",
-      "description": "Thank you for applying! We will review your application and contact you within 2-3 business days."
+      "description": "¡Gracias por postular! Revisaremos su solicitud y nos pondremos en contacto con usted dentro de 2-3 días hábiles."
     },
     "error": {
-      "title": "Application Submission Failed",
-      "description": "Please try again or contact us directly at {{phone}} or {{email}}"
+      "title": "Error al enviar la solicitud",
+      "description": "Por favor, inténtelo de nuevo o contáctenos directamente al {{phone}} o {{email}}"
     }
   }
 }
