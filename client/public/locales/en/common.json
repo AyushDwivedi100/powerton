@@ -581,11 +581,27 @@
     "downloadBrochure": "Download Brochure"
   },
   "company": {
+    "name": "Powerton Engineering Pvt. Ltd.",
+    "tagline": "Your trusted partner in industrial automation and electrical engineering",
+    "phone": "+91-94627-71662 / +91-82997-27291",
+    "email": "info@powertonengineering.com",
+    "address": {
+      "street": "F-25, F Block, Sector 6",
+      "city": "Noida",
+      "state": "Uttar Pradesh",
+      "pincode": "201301",
+      "landmark": "nearest metro-Sector 15",
+      "full": "2nd Floor, F-25, F Block, Sector 6, Noida, Uttar Pradesh 201301, India"
+    },
+    "businessHours": {
+      "weekdays": "Monday - Saturday: 9:00 AM - 6:00 PM",
+      "sunday": "Sunday: Emergency Support Only"
+    },
     "stats": {
-      "yearsExperience": "15+ Years Experience",
-      "projectsCompleted": "1200+ Projects Completed",
-      "clientsServed": "50+ Satisfied Clients",
-      "responseTime": "24 Hours"
+      "yearsExperience": "Years Experience",
+      "projectsCompleted": "Projects Completed",
+      "clientsServed": "Satisfied Clients",
+      "support": "24/7 Support"
     }
   },
   "clients": {

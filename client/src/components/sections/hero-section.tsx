@@ -195,7 +195,7 @@ export default function HeroSection() {
               <div className="text-3xl lg:text-4xl font-bold text-secondary mb-2" aria-label="24/7 support available">
                 <span>24/7</span>
               </div>
-              <div className="text-sm lg:text-base text-white/90">{t('common:company.stats.responseTime')}</div>
+              <div className="text-sm lg:text-base text-white/90">{t('common:company.stats.support')}</div>
             </div>
           </StaggeredList>
         </div>
