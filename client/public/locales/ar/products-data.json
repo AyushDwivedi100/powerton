@@ -1,200 +1,200 @@
 {
   "surgeProtectors": {
     "acPower": {
-      "name": "AC Power Surge Protectors",
-      "description": "Transient voltage surge suppressors for AC power systems",
+      "name": "واقيات التيار المتردد",
+      "description": "كبت الجهد الزائد العابر لأنظمة الطاقة التيار المتردد",
       "features": [
-        "Class I/II/III",
-        "MOV Technology",
-        "Status Indicators",
-        "DIN Rail Mount"
+        "الفئة الأولى / الثانية / الثالثة",
+        "تكنولوجيا MOV",
+        "مؤشرات الحالة",
+        "تركيب على سكة DIN"
       ]
     },
     "dcSolar": {
-      "name": "DC Solar Surge Protectors",
-      "description": "DC surge protection devices for solar panel systems",
+      "name": "واقيات التيار المستمر للطاقة الشمسية",
+      "description": "أجهزة حماية من التيار المستمر للأنظمة الشمسية",
       "features": [
-        "1000V DC Rating",
-        "Type 1+2 Protection",
-        "Remote Indication",
-        "Quick Disconnect"
+        "تصنيف 1000 فولت تيار مستمر",
+        "حماية من النوع 1+2",
+        "إشارة عن بعد",
+        "فصل سريع"
       ]
     },
     "signalLine": {
-      "name": "Signal Line Protectors",
-      "description": "Surge protection for communication and control lines",
+      "name": "واقيات خط الإشارة",
+      "description": "الحماية من زيادة التيار لخطوط الاتصال والتحكم",
       "features": [
-        "Data Line Protection",
-        "Low Capacitance",
-        "Fast Response",
-        "Multiple Channels"
+        "حماية خط البيانات",
+        "سعة منخفضة",
+        "استجابة سريعة",
+        "قنوات متعددة"
       ]
     }
   },
   "bldcCeilingFan": {
     "smart1200": {
-      "name": "Smart BLDC Ceiling Fan - 1200mm",
-      "description": "Energy-efficient smart ceiling fan with remote control",
+      "name": "مروحة سقف ذكية BLDC - 1200 مم",
+      "description": "مروحة سقف ذكية موفرة للطاقة مع جهاز تحكم عن بعد",
       "features": [
-        "28W Power Consumption",
-        "Remote Control",
-        "5 Speed Settings",
-        "Timer Function"
+        "استهلاك طاقة 28 واط",
+        "جهاز التحكم عن بعد",
+        "5 إعدادات للسرعة",
+        "وظيفة المؤقت"
       ]
     },
     "premium1400": {
-      "name": "Premium BLDC Ceiling Fan - 1400mm",
-      "description": "High-performance ceiling fan with LED lighting",
+      "name": "مروحة سقف بريميوم BLDC - 1400 مم",
+      "description": "مروحة سقف عالية الأداء مع إضاءة LED",
       "features": [
-        "35W Power Consumption",
-        "LED Light Integrated",
-        "Reversible Motor",
-        "Silent Operation"
+        "استهلاك طاقة 35 واط",
+        "إضاءة LED مدمجة",
+        "محرك عكسي",
+        "عملية صامتة"
       ]
     },
     "commercial1500": {
-      "name": "Commercial BLDC Ceiling Fan - 1500mm",
-      "description": "Heavy-duty ceiling fan for commercial applications",
+      "name": "مروحة سقف تجارية BLDC - 1500 مم",
+      "description": "مروحة سقف للخدمة الشاقة للتطبيقات التجارية",
       "features": [
-        "45W Power Consumption",
-        "Heavy-Duty Motor",
-        "High Air Flow",
-        "Durable Construction"
+        "استهلاك طاقة 45 واط",
+        "محرك للخدمة الشاقة",
+        "تدفق هواء عالي",
+        "بناء دائم"
       ]
     }
   },
   "bldcCoolerExhaust": {
     "exhaustFan": {
-      "name": "BLDC Exhaust Fan Motors",
-      "description": "High-efficiency motors for exhaust fan applications",
+      "name": "محركات مروحة العادم BLDC",
+      "description": "محركات عالية الكفاءة لتطبيقات مروحة العادم",
       "features": [
-        "Variable Speed",
-        "Low Noise",
-        "Energy Efficient",
-        "Long Life"
+        "سرعة متغيرة",
+        "ضوضاء منخفضة",
+        "كفاءة في استخدام الطاقة",
+        "حياة طويلة"
       ]
     },
     "coolerMotors": {
-      "name": "BLDC Cooler Motors",
-      "description": "Energy-efficient motors for air cooler applications",
+      "name": "محركات تبريد BLDC",
+      "description": "محركات موفرة للطاقة لتطبيقات تبريد الهواء",
       "features": [
-        "High Torque",
-        "Weather Resistant",
-        "Speed Control",
-        "Maintenance Free"
+        "عزم دوران عالية",
+        "مقاوم للعوامل الجوية",
+        "التحكم في السرعة",
+        "صيانة مجانية"
       ]
     },
     "ventilation": {
-      "name": "BLDC Ventilation Motors",
-      "description": "Specialized motors for industrial ventilation systems",
+      "name": "محركات تهوية BLDC",
+      "description": "محركات متخصصة لأنظمة التهوية الصناعية",
       "features": [
-        "High CFM",
-        "Temperature Rated",
-        "Vibration Resistant",
-        "Smart Control"
+        "CFM عالية",
+        "تصنيف درجة الحرارة",
+        "مقاومة للاهتزاز",
+        "تحكم ذكي"
       ]
     }
   },
   "cablesWires": {
     "instrumentation": {
-      "name": "Instrumentation Cables",
-      "description": "Low voltage cables for instrumentation and control applications",
+      "name": "كابلات الأجهزة",
+      "description": "كابلات الجهد المنخفض لتطبيقات الأجهزة والتحكم",
       "features": [
-        "Shielded Construction",
-        "Moisture Resistant",
-        "Temperature Rated",
-        "Multiple Pairs"
+        "بناء محمي",
+        "مقاومة للرطوبة",
+        "تصنيف درجة الحرارة",
+        "أزواج متعددة"
       ]
     },
     "powerDistribution": {
-      "name": "Power Distribution Cables",
-      "description": "High voltage cables for power transmission and distribution",
+      "name": "كابلات توزيع الطاقة",
+      "description": "كابلات الجهد العالي لنقل وتوزيع الطاقة",
       "features": [
-        "XLPE Insulation",
-        "Armored Construction",
-        "Fire Resistant",
-        "High Current Rating"
+        "عزل XLPE",
+        "بناء مدرع",
+        "مقاومة للحريق",
+        "تصنيف التيار العالي"
       ]
     },
     "communication": {
-      "name": "Communication Cables",
-      "description": "Data transmission cables for industrial communication networks",
+      "name": "كابلات الاتصالات",
+      "description": "كابلات نقل البيانات لشبكات الاتصالات الصناعية",
       "features": [
         "Cat5e/Cat6",
-        "Fiber Optic",
-        "Industrial Grade",
-        "EMI Shielding"
+        "الألياف البصرية",
+        "الصف الصناعي",
+        "حماية EMI"
       ]
     }
   },
   "handTools": {
     "wrenchSets": {
-      "name": "Professional Wrench Sets",
-      "description": "Complete sets of combination and adjustable wrenches",
+      "name": "مجموعات مفاتيح الربط الاحترافية",
+      "description": "مجموعات كاملة من مفاتيح الربط المركبة والقابلة للتعديل",
       "features": [
-        "Chrome Vanadium Steel",
-        "Metric & SAE Sizes",
-        "Professional Grade",
-        "Lifetime Warranty"
+        "صلب كروم فاناديوم",
+        "أحجام متري و SAE",
+        "درجة احترافية",
+        "ضمان مدى الحياة"
       ]
     },
     "screwdriverSets": {
-      "name": "Precision Screwdriver Sets",
-      "description": "High-quality screwdrivers for precision applications",
+      "name": "مجموعات مفكات البراغي الدقيقة",
+      "description": "مفكات براغي عالية الجودة للتطبيقات الدقيقة",
       "features": [
-        "Ergonomic Handles",
-        "Magnetic Tips",
-        "Multiple Head Types",
-        "Anti-Slip Grip"
+        "مقابض مريحة",
+        "نصائح مغناطيسية",
+        "أنواع رؤوس متعددة",
+        "مقبض مضاد للانزلاق"
       ]
     },
     "toolKits": {
-      "name": "Industrial Tool Kits",
-      "description": "Comprehensive tool kits for industrial maintenance",
+      "name": "مجموعات الأدوات الصناعية",
+      "description": "مجموعات أدوات شاملة للصيانة الصناعية",
       "features": [
-        "Complete Tool Set",
-        "Organized Storage",
-        "Heavy-Duty Case",
-        "Professional Quality"
+        "مجموعة أدوات كاملة",
+        "تخزين منظم",
+        "حقيبة للخدمة الشاقة",
+        "جودة احترافية"
       ]
     }
   },
   "powerTools": {
     "drillSets": {
-      "name": "Industrial Drill Sets",
-      "description": "Heavy-duty electric and cordless drills for industrial applications",
+      "name": "مجموعات المثقاب الصناعية",
+      "description": "مثاقب كهربائية ولاسلكية للخدمة الشاقة للتطبيقات الصناعية",
       "features": [
-        "High Torque",
-        "Variable Speed",
-        "Cordless Options",
-        "Chuck Capacity: 13mm"
+        "عزم دوران عالية",
+        "سرعة متغيرة",
+        "خيارات لاسلكية",
+        "سعة ظرف: 13 مم"
       ]
     },
     "angleGrinders": {
-      "name": "Angle Grinders",
-      "description": "Professional angle grinders for cutting and grinding operations",
+      "name": "جلخ زاوية",
+      "description": "جلخ زاوية احترافي لعمليات القطع والطحن",
       "features": [
-        "Multiple Disc Sizes",
-        "Safety Guards",
-        "Anti-Vibration",
-        "Powerful Motors"
+        "أحجام أقراص متعددة",
+        "حراس السلامة",
+        "مضاد للاهتزاز",
+        "محركات قوية"
       ]
     },
     "impactWrenches": {
-      "name": "Impact Wrenches",
-      "description": "High-torque impact wrenches for heavy-duty fastening",
+      "name": "مفاتيح ربط الصدمات",
+      "description": "مفاتيح ربط صدمات عالية عزم الدوران للتثبيت الشاق",
       "features": [
-        "High Impact Force",
-        "Socket Compatibility",
-        "Forward/Reverse",
-        "Battery Powered"
+        "قوة تأثير عالية",
+        "توافق المقبس",
+        "إلى الأمام/الخلف",
+        "تعمل بالبطارية"
       ]
     }
   },
   "cuttingTools": {
     "sawBlades": {
-      "name": "Industrial Saw Blades",
-      "description": "High-quality saw blades for metal and wood cutting",
+      "name": "شفرات المنشار الصناعية",
+      "description": "شفرات منشار عالية الجودة لقطع المعادن والخشب",
       "features": [
         "HSS/Carbide Tips",
         "Multiple TPI",
@@ -203,8 +203,8 @@
       ]
     },
     "drillBits": {
-      "name": "Drill Bits & Reamers",
-      "description": "Precision drilling and reaming tools",
+      "name": "مثاقب وريش",
+      "description": "أدوات حفر وتوسيع دقيقة",
       "features": [
         "HSS/Cobalt",
         "Jobber Length",
@@ -213,8 +213,8 @@
       ]
     },
     "millingCutters": {
-      "name": "Milling Cutters",
-      "description": "End mills and face mills for machining operations",
+      "name": "قواطع الطحن",
+      "description": "قواطع طرفية وقواطع مواجهة لعمليات التشغيل الآلي",
       "features": [
         "Carbide/HSS",
         "Multiple Flutes",
@@ -225,8 +225,8 @@
   },
   "liftingEquipment": {
     "chainHoists": {
-      "name": "Chain Hoists & Slings",
-      "description": "Manual and electric chain hoists for heavy lifting",
+      "name": "روافع وسلاسل",
+      "description": "روافع يدوية وكهربائية لرفع الأحمال الثقيلة",
       "features": [
         "1-20 Ton Capacity",
         "Electric/Manual",
@@ -235,8 +235,8 @@
       ]
     },
     "wireRope": {
-      "name": "Wire Rope & Cables",
-      "description": "High-strength wire rope for lifting applications",
+      "name": "حبال وأسلاك",
+      "description": "حبال أسلاك عالية القوة لتطبيقات الرفع",
       "features": [
         "Galvanized Steel",
         "Multiple Lay Types",
@@ -245,8 +245,8 @@
       ]
     },
     "liftingHardware": {
-      "name": "Lifting Hardware",
-      "description": "Shackles, hooks, and rigging hardware",
+      "name": "أدوات الرفع",
+      "description": "أغلال وخطافات وأدوات تزويد",
       "features": [
         "Stainless Steel",
         "Safety Pins",
@@ -257,9 +257,9 @@
   },
   "instrumentation": {
     "sensors": {
-      "title": "Industrial Sensors",
-      "shortDescription": "Comprehensive range of industrial-grade sensors for automation and process control",
-      "fullDescription": "Advanced sensor solutions including temperature, pressure, position, motion, flow, level, proximity, and specialized sensors. Our sensor portfolio features digital temperature sensors with silicon-based ICs, pressure sensors for water conservancy and industrial applications, position sensors with MEMS technology, and vision sensors with image processing systems for quality control.",
+      "title": "المستشعرات الصناعية",
+      "shortDescription": "مجموعة شاملة من المستشعرات الصناعية للتحكم الآلي والعملية",
+      "fullDescription": "حلول استشعار متقدمة بما في ذلك مستشعرات درجة الحرارة والضغط والموضع والحركة والتدفق والمستوى والتقارب والمستشعرات المتخصصة. تتميز مجموعة المستشعرات لدينا بمستشعرات درجة الحرارة الرقمية مع الدوائر المتكاملة القائمة على السيليكون ، ومستشعرات الضغط للحفاظ على المياه والتطبيقات الصناعية ، ومستشعرات الموضع مع تقنية MEMS ، ومستشعرات الرؤية مع أنظمة معالجة الصور لمراقبة الجودة.",
       "specifications": [
         "Temperature Range: -40°C to +125°C",
         "Pressure Range: Vacuum to 7500 PSI",
@@ -323,9 +323,9 @@
       }
     },
     "transmitters": {
-      "title": "Transmitters & Transducers",
-      "shortDescription": "Precision transmitters for pressure, temperature, flow, and level measurement",
-      "fullDescription": "Comprehensive range of industrial transmitters including pressure transmitters (gauge, absolute, differential), temperature transmitters, flow measurement devices, and multivariable transmitters. Features advanced technologies like strain gauge, capacitive, and piezoresistive sensing with HART digital communication. Market leaders like Emerson Rosemount, ABB, Yokogawa, and Honeywell provide reliable solutions for process industries.",
+      "title": "أجهزة الإرسال والمحولات",
+      "shortDescription": "أجهزة إرسال دقيقة لقياس الضغط ودرجة الحرارة والتدفق والمستوى",
+      "fullDescription": "مجموعة شاملة من أجهزة الإرسال الصناعية بما في ذلك أجهزة إرسال الضغط (قياس ، مطلق ، تفاضلي) ، وأجهزة إرسال درجة الحرارة ، وأجهزة قياس التدفق ، وأجهزة الإرسال متعددة المتغيرات. يتميز بتقنيات متقدمة مثل مقياس الإجهاد والسعة والاستشعار المقاوم للضغط مع اتصال رقمي HART. يقدم قادة السوق مثل Emerson Rosemount و ABB و Yokogawa و Honeywell حلولًا موثوقة للصناعات العملية.",
       "specifications": [
         "Accuracy: ±0.05% to ±0.25% of span",
         "Stability: 5-year ±0.1% span stability",
@@ -390,8 +390,8 @@
   },
   "bldcSubmersibleSurface": {
     "solar1HP": {
-      "name": "Solar BLDC Submersible Pump - 1HP",
-      "description": "Solar-powered BLDC submersible pump for water wells",
+      "name": "مضخة غاطسة بالطاقة الشمسية BLDC - 1HP",
+      "description": "مضخة غاطسة BLDC تعمل بالطاقة الشمسية لآبار المياه",
       "features": [
         "Solar Compatible",
         "1HP Motor",
@@ -400,8 +400,8 @@
       ]
     },
     "surface2HP": {
-      "name": "DC Surface Pump - 2HP",
-      "description": "High-efficiency BLDC surface pump for irrigation",
+      "name": "مضخة سطحية DC - 2HP",
+      "description": "مضخة سطحية BLDC عالية الكفاءة للري",
       "features": [
         "2HP Power",
         "Self-Priming",
@@ -410,8 +410,8 @@
       ]
     },
     "hybrid": {
-      "name": "Hybrid BLDC Pump System",
-      "description": "Intelligent pump system with solar and grid backup",
+      "name": "نظام مضخة BLDC الهجين",
+      "description": "نظام مضخة ذكي مع دعم احتياطي للطاقة الشمسية والشبكة",
       "features": [
         "Hybrid Operation",
         "Smart Controller",
@@ -422,8 +422,8 @@
   },
   "bldcTableWallFan": {
     "tableFan": {
-      "name": "BLDC Table Fan Motors",
-      "description": "Compact BLDC motors for table and desk fans",
+      "name": "محركات مروحة طاولة BLDC",
+      "description": "محركات BLDC مدمجة للمراوح المكتبية والطاولة",
       "features": [
         "Compact Design",
         "Silent Operation",
@@ -432,8 +432,8 @@
       ]
     },
     "wallFan": {
-      "name": "BLDC Wall Fan Motors",
-      "description": "Wall-mounted fan motors with BLDC technology",
+      "name": "محركات مروحة حائط BLDC",
+      "description": "محركات مروحة مثبتة على الحائط بتقنية BLDC",
       "features": [
         "Wall Mount Design",
         "Oscillating Function",
@@ -442,8 +442,8 @@
       ]
     },
     "pedestalFan": {
-      "name": "BLDC Pedestal Fan Motors",
-      "description": "Height-adjustable pedestal fan motors",
+      "name": "محركات مروحة قاعدة BLDC",
+      "description": "محركات مروحة قاعدة قابلة لضبط الارتفاع",
       "features": [
         "Height Adjustment",
         "Tilt Function",
@@ -454,235 +454,235 @@
   },
   "centrifugalPumps": {
     "endSuction": {
-      "name": "End Suction Centrifugal Pumps",
-      "description": "Single-stage end suction pumps for general applications",
+      "name": "مضخات طرد مركزي ذات شفط طرفي",
+      "description": "مضخات شفط طرفي أحادية المرحلة للتطبيقات العامة",
       "features": [
-        "Flow: 10-5000 GPM",
-        "Head: up to 400 ft",
-        "Cast Iron/Stainless Steel",
-        "ANSI/ISO Standards"
+        "التدفق: 10-5000 جالون في الدقيقة",
+        "الرأس: حتى 400 قدم",
+        "حديد الزهر / الفولاذ المقاوم للصدأ",
+        "معايير ANSI / ISO"
       ]
     },
     "multiStage": {
-      "name": "Multi-Stage Centrifugal Pumps",
-      "description": "High-pressure multi-stage pumps for demanding applications",
+      "name": "مضخات طرد مركزي متعددة المراحل",
+      "description": "مضخات متعددة المراحل عالية الضغط للتطبيقات الصعبة",
       "features": [
-        "High Pressure Capability",
-        "Compact Design",
-        "Energy Efficient",
-        "Balanced Impellers"
+        "قدرة ضغط عالية",
+        "تصميم مدمج",
+        "كفاءة في استخدام الطاقة",
+        "مكره متوازنة"
       ]
     },
     "chemicalProcess": {
-      "name": "Chemical Process Pumps",
-      "description": "Corrosion-resistant pumps for chemical processing",
+      "name": "مضخات العمليات الكيميائية",
+      "description": "مضخات مقاومة للتآكل للمعالجة الكيميائية",
       "features": [
-        "Corrosion Resistant",
-        "Seal-less Design Options",
-        "API 610 Compliant",
-        "High Temperature"
+        "مقاومة للتآكل",
+        "خيارات تصميم بدون ختم",
+        "متوافق مع API 610",
+        "درجة حرارة عالية"
       ]
     }
   },
   "circuitBreakersFuses": {
     "mcb": {
-      "name": "Miniature Circuit Breakers (MCB)",
-      "description": "Low voltage circuit breakers for residential and commercial use",
+      "name": "قواطع الدائرة المصغرة (MCB)",
+      "description": "قواطع دوائر الجهد المنخفض للاستخدام السكني والتجاري",
       "features": [
-        "B, C, D Curves",
-        "6-63A Rating",
-        "10kA Breaking Capacity",
-        "DIN Rail Mount"
+        "منحنيات B ، C ، D",
+        "تصنيف 6-63A",
+        "قدرة كسر 10 كيلو أمبير",
+        "تركيب السكك الحديدية DIN"
       ]
     },
     "mccb": {
-      "name": "Molded Case Circuit Breakers (MCCB)",
-      "description": "Industrial circuit breakers for motor and power protection",
+      "name": "قواطع الدائرة ذات العلبة المقولبة (MCCB)",
+      "description": "قواطع دوائر صناعية لحماية المحرك والطاقة",
       "features": [
-        "Adjustable Trip",
-        "High Breaking Capacity",
-        "Electronic Trip Units",
-        "Up to 1600A"
+        "رحلة قابلة للتعديل",
+        "قدرة كسر عالية",
+        "وحدات رحلة إلكترونية",
+        "حتى 1600A"
       ]
     },
     "industrialFuses": {
-      "name": "Industrial Fuses",
-      "description": "High-speed fuses for equipment protection",
+      "name": "الصمامات الصناعية",
+      "description": "صمامات عالية السرعة لحماية المعدات",
       "features": [
-        "Fast Acting",
-        "Time Delay",
-        "High Voltage",
-        "Ceramic Body"
+        "التمثيل السريع",
+        "تأخير الوقت",
+        "الجهد العالي",
+        "هيكل سيراميكي"
       ]
     }
   },
   "connectorsTerminals": {
     "terminalBlocks": {
-      "name": "Terminal Blocks",
-      "description": "Industrial terminal blocks for secure wire connections",
+      "name": "كتل طرفية",
+      "description": "كتل طرفية صناعية لتوصيلات الأسلاك الآمنة",
       "features": [
-        "Spring Clamp",
-        "Screw Type",
-        "DIN Rail Mount",
-        "Multiple Sizes"
+        "مشبك زنبركي",
+        "نوع المسمار",
+        "تركيب السكك الحديدية DIN",
+        "أحجام متعددة"
       ]
     },
     "industrialConnectors": {
-      "name": "Industrial Connectors",
-      "description": "Heavy-duty connectors for industrial applications",
+      "name": "موصلات صناعية",
+      "description": "موصلات للخدمة الشاقة للتطبيقات الصناعية",
       "features": [
-        "IP67 Rating",
-        "Locking Mechanism",
-        "Multi-Pin",
-        "Cable Glands"
+        "تصنيف IP67",
+        "آلية القفل",
+        "متعددة الدبابيس",
+        "غدد الكابلات"
       ]
     },
     "signalConnectors": {
-      "name": "Signal Connectors",
-      "description": "Precision connectors for instrumentation signals",
+      "name": "موصلات الإشارة",
+      "description": "موصلات دقيقة لإشارات الأجهزة",
       "features": [
-        "Low Noise",
-        "Shielded Design",
-        "Miniature Size",
-        "High Reliability"
+        "ضوضاء منخفضة",
+        "تصميم محمي",
+        "حجم صغير",
+        "موثوقية عالية"
       ]
     }
   },
   "automation": {
     "plcs": {
       "siemensS7": {
-        "name": "Siemens SIMATIC S7-1200",
-        "description": "Compact modular PLC for small to medium automation applications",
+        "name": "سيمنز SIMATIC S7-1200",
+        "description": "وحدة تحكم منطقية قابلة للبرمجة (PLC) معيارية مدمجة لتطبيقات الأتمتة الصغيرة والمتوسطة",
         "features": [
-          "Integrated Digital and Analog I/O",
-          "Built-in Ethernet Communication",
-          "TIA Portal Programming",
-          "Failsafe Technology Available"
+          "وحدات إدخال وإخراج رقمية وتناظرية مدمجة",
+          "اتصال إيثرنت مدمج",
+          "برمجة TIA Portal",
+          "تكنولوجيا مقاومة الأعطال متاحة"
         ]
       },
       "allenBradley": {
         "name": "Allen-Bradley CompactLogix 5380",
-        "description": "High-performance PLC with integrated safety capabilities",
+        "description": "وحدة تحكم منطقية قابلة للبرمجة عالية الأداء مع إمكانات أمان مدمجة",
         "features": [
-          "Integrated Safety Functions",
-          "EtherNet/IP Communication",
-          "Studio 5000 Programming",
-          "Motion Control Integration"
+          "وظائف السلامة المتكاملة",
+          "اتصال EtherNet / IP",
+          "برمجة Studio 5000",
+          "تكامل التحكم في الحركة"
         ]
       },
       "schneider": {
-        "name": "Schneider Electric Modicon M580",
-        "description": "Enterprise PLC platform with hot standby redundancy",
+        "name": "شنايدر إلكتريك Modicon M580",
+        "description": "منصة PLC للمؤسسات مع تكرار الاستعداد الساخن",
         "features": [
-          "Hot Standby Redundancy",
-          "Ethernet Backbone Architecture",
-          "Unity Pro Programming",
-          "Advanced Cybersecurity"
+          "تكرار الاستعداد الساخن",
+          "هندسة العمود الفقري للإيثرنت",
+          "برمجة Unity Pro",
+          "الأمن السيبراني المتقدم"
         ]
       }
     },
     "hmi": {
       "panelMount": {
-        "name": "Panel Mount HMI",
-        "description": "Industrial touchscreen panels for process visualization",
+        "name": "HMI لتثبيت اللوحة",
+        "description": "لوحات تعمل باللمس صناعية لتصور العمليات",
         "features": [
-          "Multi-touch Capacitive Display",
-          "Web-based Configuration",
-          "Alarm Management",
-          "Data Logging"
+          "شاشة سعوية متعددة اللمس",
+          "تكوين قائم على الويب",
+          "إدارة الإنذار",
+          "تسجيل البيانات"
         ]
       },
       "operatorInterface": {
-        "name": "Operator Interface Station",
-        "description": "Advanced operator workstations for process control",
+        "name": "محطة واجهة المشغل",
+        "description": "محطات عمل متقدمة للمشغل للتحكم في العمليات",
         "features": [
-          "High-resolution Display",
-          "Multi-protocol Support",
-          "Historical Trending",
-          "Report Generation"
+          "شاشة عالية الدقة",
+          "دعم متعدد البروتوكولات",
+          "تحديد الاتجاه التاريخي",
+          "توليد التقارير"
         ]
       },
       "mobile": {
-        "name": "Mobile HMI",
-        "description": "Mobile solutions for remote process monitoring",
+        "name": "HMI المحمول",
+        "description": "حلول متنقلة لمراقبة العمليات عن بعد",
         "features": [
-          "Wireless Connectivity",
-          "Mobile App Support",
-          "Remote Access",
-          "Real-time Notifications"
+          "اتصال لاسلكي",
+          "دعم تطبيق الهاتف المحمول",
+          "الوصول عن بعد",
+          "إشعارات في الوقت الفعلي"
         ]
       }
     },
     "scada": {
       "wonderware": {
-        "name": "Wonderware System Platform",
-        "description": "Comprehensive SCADA platform for industrial automation",
+        "name": "منصة Wonderware System",
+        "description": "منصة SCADA شاملة للأتمتة الصناعية",
         "features": [
-          "Real-time Data Acquisition",
-          "Historical Trending",
-          "Alarm Management",
-          "Web-based HMI"
+          "اكتساب البيانات في الوقت الحقيقي",
+          "تحديد الاتجاه التاريخي",
+          "إدارة الإنذار",
+          "HMI المستندة إلى الويب"
         ]
       },
       "geFix": {
         "name": "GE iFIX SCADA",
-        "description": "Advanced SCADA software for process visualization",
+        "description": "برنامج SCADA متقدم لتصور العمليات",
         "features": [
-          "Process Graphics",
-          "Data Logging",
-          "Report Generation",
-          "OPC Connectivity"
+          "رسومات العمليات",
+          "تسجيل البيانات",
+          "توليد التقارير",
+          "اتصال OPC"
         ]
       },
       "siemensWinCC": {
-        "name": "Siemens WinCC SCADA",
-        "description": "Industrial SCADA system for monitoring and control",
+        "name": "سيمنز WinCC SCADA",
+        "description": "نظام SCADA الصناعي للمراقبة والتحكم",
         "features": [
-          "TIA Portal Integration",
-          "Web Client Support",
-          "Mobile Access",
-          "Redundancy Options"
+          "تكامل بوابة TIA",
+          "دعم عميل الويب",
+          "الوصول عبر الهاتف المحمول",
+          "خيارات التكرار"
         ]
       }
     },
     "dcs": {
       "honeywellExperion": {
-        "name": "Honeywell Experion PKS",
-        "description": "Distributed control system for process industries",
+        "name": "هانيويل Experion PKS",
+        "description": "نظام التحكم الموزع للصناعات العملية",
         "features": [
-          "Process Control",
-          "Safety Systems",
-          "Asset Management",
-          "Advanced Control"
+          "التحكم في العمليات",
+          "أنظمة السلامة",
+          "إدارة الأصول",
+          "تحكم متقدم"
         ]
       },
       "abbSystem800xA": {
         "name": "ABB System 800xA",
-        "description": "Extended automation system for industrial processes",
+        "description": "نظام أتمتة موسع للعمليات الصناعية",
         "features": [
-          "Integrated Engineering",
-          "Safety Certified",
-          "Cybersecurity",
-          "Lifecycle Management"
+          "هندسة متكاملة",
+          "السلامة المعتمدة",
+          "الأمن السيبراني",
+          "إدارة دورة الحياة"
         ]
       },
       "emersonDeltaV": {
-        "name": "Emerson DeltaV",
-        "description": "Modern DCS with digital transformation capabilities",
+        "name": "إيمرسون دلتاV",
+        "description": "DCS الحديث مع إمكانات التحول الرقمي",
         "features": [
-          "Digital Twin Technology",
-          "Predictive Analytics",
-          "Wireless Integration",
-          "Cloud Connectivity"
+          "تكنولوجيا التوأم الرقمي",
+          "التحليلات التنبؤية",
+          "التكامل اللاسلكي",
+          "الاتصال السحابي"
         ]
       }
     }
   },
   "productNames": {
     "siemens": {
-      "simaticS7_1200": "Siemens SIMATIC S7-1200",
-      "simaticS7_1500": "Siemens SIMATIC S7-1500",
-      "logoSeries": "Siemens LOGO! Series"
+      "simaticS7_1200": "سيمنز SIMATIC S7-1200",
+      "simaticS7_1500": "سيمنز SIMATIC S7-1500",
+      "logoSeries": "سلسلة سيمنز LOGO!"
     },
     "allenBradley": {
       "compactLogix5380": "Allen-Bradley CompactLogix 5380",
@@ -690,14 +690,14 @@
       "controlLogix5580": "Allen-Bradley ControlLogix 5580"
     },
     "schneider": {
-      "modiconM580": "Schneider Electric Modicon M580",
-      "modiconM340": "Schneider Electric Modicon M340",
-      "zelio": "Schneider Electric Zelio Logic"
+      "modiconM580": "شنايدر إلكتريك Modicon M580",
+      "modiconM340": "شنايدر إلكتريك Modicon M340",
+      "zelio": "شنايدر إلكتريك Zelio Logic"
     },
     "solar": {
-      "monocrystalline400W": "Monocrystalline Solar Panels - 400W",
-      "polycrystalline320W": "Polycrystalline Solar Panels - 320W",
-      "bifacial450W": "Bifacial Solar Panels - 450W"
+      "monocrystalline400W": "ألواح شمسية أحادية البلورة - 400 واط",
+      "polycrystalline320W": "ألواح شمسية متعددة الكريستالات - 320 واط",
+      "bifacial450W": "ألواح شمسية ثنائية الوجه - 450 واط"
     }
   }
 }
