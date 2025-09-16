@@ -51,7 +51,7 @@ export const detectLanguage = (): string => {
 };
 
 const initConfig = {
-  fallbackLng: 'en', // Enable fallback to English
+  fallbackLng: false as const, // Disable fallback to English - show translation keys instead
   lng: detectLanguage(), // Use our custom detection logic
   debug: import.meta.env.DEV, // Console logging only in development
   
