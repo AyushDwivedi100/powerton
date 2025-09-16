@@ -548,6 +548,136 @@
       ]
     }
   },
+  "automation": {
+    "plcs": {
+      "siemensS7": {
+        "name": "Siemens SIMATIC S7-1200",
+        "description": "Compact modular PLC for small to medium automation applications",
+        "features": [
+          "Integrated Digital and Analog I/O",
+          "Built-in Ethernet Communication",
+          "TIA Portal Programming",
+          "Failsafe Technology Available"
+        ]
+      },
+      "allenBradley": {
+        "name": "Allen-Bradley CompactLogix 5380",
+        "description": "High-performance PLC with integrated safety capabilities",
+        "features": [
+          "Integrated Safety Functions",
+          "EtherNet/IP Communication",
+          "Studio 5000 Programming",
+          "Motion Control Integration"
+        ]
+      },
+      "schneider": {
+        "name": "Schneider Electric Modicon M580",
+        "description": "Enterprise PLC platform with hot standby redundancy",
+        "features": [
+          "Hot Standby Redundancy",
+          "Ethernet Backbone Architecture",
+          "Unity Pro Programming",
+          "Advanced Cybersecurity"
+        ]
+      }
+    },
+    "hmi": {
+      "panelMount": {
+        "name": "Panel Mount HMI",
+        "description": "Industrial touchscreen panels for process visualization",
+        "features": [
+          "Multi-touch Capacitive Display",
+          "Web-based Configuration",
+          "Alarm Management",
+          "Data Logging"
+        ]
+      },
+      "operatorInterface": {
+        "name": "Operator Interface Station",
+        "description": "Advanced operator workstations for process control",
+        "features": [
+          "High-resolution Display",
+          "Multi-protocol Support",
+          "Historical Trending",
+          "Report Generation"
+        ]
+      },
+      "mobile": {
+        "name": "Mobile HMI",
+        "description": "Mobile solutions for remote process monitoring",
+        "features": [
+          "Wireless Connectivity",
+          "Mobile App Support",
+          "Remote Access",
+          "Real-time Notifications"
+        ]
+      }
+    },
+    "scada": {
+      "wonderware": {
+        "name": "Wonderware System Platform",
+        "description": "Comprehensive SCADA platform for industrial automation",
+        "features": [
+          "Real-time Data Acquisition",
+          "Historical Trending",
+          "Alarm Management",
+          "Web-based HMI"
+        ]
+      },
+      "geFix": {
+        "name": "GE iFIX SCADA",
+        "description": "Advanced SCADA software for process visualization",
+        "features": [
+          "Process Graphics",
+          "Data Logging",
+          "Report Generation",
+          "OPC Connectivity"
+        ]
+      },
+      "siemensWinCC": {
+        "name": "Siemens WinCC SCADA",
+        "description": "Industrial SCADA system for monitoring and control",
+        "features": [
+          "TIA Portal Integration",
+          "Web Client Support",
+          "Mobile Access",
+          "Redundancy Options"
+        ]
+      }
+    },
+    "dcs": {
+      "honeywellExperion": {
+        "name": "Honeywell Experion PKS",
+        "description": "Distributed control system for process industries",
+        "features": [
+          "Process Control",
+          "Safety Systems",
+          "Asset Management",
+          "Advanced Control"
+        ]
+      },
+      "abbSystem800xA": {
+        "name": "ABB System 800xA",
+        "description": "Extended automation system for industrial processes",
+        "features": [
+          "Integrated Engineering",
+          "Safety Certified",
+          "Cybersecurity",
+          "Lifecycle Management"
+        ]
+      },
+      "emersonDeltaV": {
+        "name": "Emerson DeltaV",
+        "description": "Modern DCS with digital transformation capabilities",
+        "features": [
+          "Digital Twin Technology",
+          "Predictive Analytics",
+          "Wireless Integration",
+          "Cloud Connectivity"
+        ]
+      }
+    }
+  },
   "productNames": {
     "siemens": {
       "simaticS7_1200": "Siemens SIMATIC S7-1200",
