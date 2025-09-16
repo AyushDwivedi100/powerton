@@ -1,44 +1,44 @@
 {
   "nav": {
     "home": "Gida",
-    "about": "Game da mu",
+    "about": "Game da Mu",
     "services": "Ayyuka",
-    "products": "Samfuran",
+    "products": "Kayan aiki",
     "projects": "Ayyuka",
     "contact": "Tuntube mu",
-    "blog": "Rubutu",
+    "blog": "Shafin yanar gizo",
     "quote": "Nemi Farashi"
   },
   "language": {
     "en": "Turanci",
-    "hi": "Hindi",
-    "ar": "Larabci",
-    "es": "Sifen",
+    "hi": "Harshen Hindi",
+    "ar": "Laraba",
+    "es": "Spanish",
     "fr": "Faransanci",
     "zh": "Sinanci",
-    "pt": "Harshen Fotugal",
+    "pt": "Harshen Portugal",
     "ru": "Rashanci",
-    "sw": "Siswahili",
+    "sw": "Swahili",
     "ha": "Hausa"
   },
   "navigation": {
-    "backToProducts": "Komawa zuwa Kayayyaki",
-    "backToElectricalComponents": "Komawa zuwa Kayan Lantarki",
-    "backToSolarProducts": "Komawa zuwa Kayayyakin Hasken Rana",
-    "backToMechanicalPumps": "Komawa zuwa Famfunan Injina da Kayan Gyara",
-    "backToMeasurementInstruments": "Komawa zuwa Kayan Aikin Auna",
+    "backToProducts": "Komawa zuwa Kayan aiki",
+    "backToElectricalComponents": "Komawa zuwa Kayan Wutar Lantarki",
+    "backToSolarProducts": "Komawa zuwa Kayan Rana",
+    "backToMechanicalPumps": "Komawa zuwa Famfunan Inji",
+    "backToMeasurementInstruments": "Komawa zuwa Kayan Auna",
     "backToIndustrialTools": "Komawa zuwa Kayan Aikin Masana'antu",
-    "backToAutomationSystems": "Komawa zuwa Tsarin Sarrafa da Gudanarwa",
-    "backToBLDC": "Komawa zuwa Kayayyakin Injunan DC marasa goga (BLDC)",
+    "backToAutomationSystems": "Komawa zuwa Tsarin Kula da Kai",
+    "backToBLDC": "Komawa zuwa kayayyakin BLDC",
     "backToInstrumentationComponents": "Komawa zuwa Sassan Kayan Aiki",
-    "backToSafetyDevices": "Komawa zuwa Kayan Aminci da Kariya",
-    "phoneNumbers": "Lambobin Waya"
+    "backToSafetyDevices": "Komawa zuwa Kayan Tsaro da Kariyar",
+    "phoneNumbers": "Lambobin waya"
   },
   "testimonials": {
     "anand": {
       "name": "Ahmad Musa",
       "location": "Yammacin Bengal",
-      "comment": "Kamfanin Injiniyan Powerton ta sanya aikin amfani da makamashin rana ya zama mai sauƙi da kuma sauƙi. Ƙungiyarsu ta ɗauki kula da komai daga farko zuwa ƙarshe, kuma muna jin daɗi sosai da sakamakon."
+      "comment": "Kamfanin Injiniyan Powerton ya sanya aikin amfani da makamashin rana ya zama mai sauƙi da kuma sauƙi. Ƙungiyarsu ta ɗauki kula da komai daga farko zuwa ƙarshe, kuma muna jin daɗi sosai da sakamakon."
     },
     "sanjay": {
       "name": "Sanusi Ahmad",
@@ -130,8 +130,8 @@
     "catalogComingSoon": "Sauke katalogi na samfur zai kasance da sauri!"
   },
   "aria": {
-    "toggleNavigation": "Juyawa mataimakin kewayawa",
-    "openLocation": "Buɗe wurin ofis a Google Maps",
+    "toggleNavigation": "Juya mataimakin kewayawa",
+    "openLocation": "Bude wurin ofis a Google Maps",
     "exploreServices": "Bincika ayyukanmu na sarrafa masana'antu da injiniya",
     "requestConsultation": "Nemi shawarwari kyauta don aikin injiniya",
     "companyHighlights": "Manyan abubuwan kamfani da hidimomi",
@@ -149,7 +149,7 @@
     "emailCompany": "Aika imel zuwa Powerton Engineering",
     "viewOfficeLocation": "Duba wurin ofishin Powerton Engineering akan Google Maps",
     "officeLocationTitle": "Wurin ofishin Powerton Engineering",
-    "controllerSystems": "Masu Sarrafawa da Masu Rikodi",
+    "controllerSystems": "Tsarin Masu Sarrafawa",
     "controllerDescription": "Masu sarrafa tsari da tsarin rikodin bayanai don sarrafa masana'antu",
     "plcSystems": "Tsarin PLC",
     "processControllers": "Masu sarrafa tsari",
@@ -582,24 +582,6 @@
       "newsUpdatesDescription": "Sabbin labarai da sabuntawar kamfani"
     }
   },
-  "company": {
-    "name": "Powerton Engineering Pvt. Ltd.",
-    "tagline": "Abokin hulɗarku na aminci a cikin sarrafa masana'antu da injiniyan lantarki",
-    "phone": "+91-94627-71662",
-    "email": "info@powertonengineering.com",
-    "address": {
-      "street": "Bene na biyu, F-25, Ginin F, Yanki 6",
-      "city": "Noida",
-      "state": "Uttar Pradesh",
-      "pincode": "201301",
-      "landmark": "metro mafi kusa-Yanki 15",
-      "full": "Bene na biyu, F-25, Ginin F, Yanki 6, Noida, Uttar Pradesh 201301, Indiya"
-    },
-    "businessHours": {
-      "weekdays": "Litinin - Asabar: 9:00 Safiya - 6:00 Yamma",
-      "sunday": "Lahadi: Tallafin Gaggawa Kawai"
-    }
-  },
   "clients": {
     "sci-group": "Kamfanin Jiragen Ruwa na Indiya",
     "agribio": "AgriBio Jamus",
@@ -618,12 +600,12 @@
     "procient": "Procient"
   },
   "copyright": {
-    "text": "© {{year}} Powerton Engineering Pvt. Ltd. Dukkan haƙƙoƙin an kiyaye su.",
+    "text": "© {{year}} Powerton Engineering Pvt. Ltd. An adana duk haƙƙoƙi.",
     "madeWith": "An yi shi da 💙 ta ƙungiyar Powerton Engineering"
   },
   "quickActions": {
-    "title": "Hanyoyin Sauri",
-    "subtitle": "Duba hanyoyin sauri don samun bukatunku",
+    "title": "Matakai Masu Saurin",
+    "subtitle": "Duba matakai masu sauri don samun bukatunku",
     "contactUs": "Tuntuɓe Mu",
     "requestQuote": "Nemi Farashin"
   },
@@ -635,16 +617,16 @@
     "powerPlant": "Masana'ar Wutar Lantarki",
     "ntpc": "NTPC",
     "renewableEnergy": "Makamashi Mai Sabuntawa",
-    "expansion": "Fadada",
+    "expansion": "Faɗaɗawa",
     "solar": "Rana",
-    "infrastructure": "Kayan Gini",
-    "innovation": "Kirkire-kirkire",
+    "infrastructure": "Kayan Aiki",
+    "innovation": "Ƙirƙire-ƙirƙire",
     "partnership": "Haɗin Gwiwa",
     "technology": "Fasaha",
     "europe": "Turai",
     "iso": "ISO",
     "quality": "Inganci",
-    "certification": "Takaddama"
+    "certification": "Takaddun shaida"
   },
   "products": {
     "sections": {
@@ -666,7 +648,7 @@
   "cta": {
     "getQuote": "Nemi Farashi",
     "callNow": "Kira Yanzu",
-    "emailUs": "Aiko Mu Email",
+    "emailUs": "Aiko Mana Imel",
     "learnMore": "Koyi Ƙari",
     "viewMore": "Duba Ƙari",
     "contactUs": "Tuntuɓe Mu",

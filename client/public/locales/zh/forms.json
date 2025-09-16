@@ -2,165 +2,219 @@
   "contact": {
     "fields": {
       "name": {
-        "label": "姓名",
-        "placeholder": "请输入您的姓名",
-        "error": "姓名是必填项"
+        "label": "Full Name",
+        "placeholder": "Enter your full name",
+        "error": "Name is required"
       },
       "email": {
-        "label": "电子邮件",
-        "placeholder": "请输入您的电子邮件",
-        "error": "请输入有效的电子邮件地址"
+        "label": "Email Address",
+        "placeholder": "Enter your email address",
+        "error": "Please enter a valid email address"
       },
       "phone": {
-        "label": "电话号码",
-        "placeholder": "请输入您的电话号码",
-        "error": "电话号码是必填项"
+        "label": "Phone Number",
+        "placeholder": "Enter your phone number",
+        "error": "Phone number is required"
       },
       "company": {
-        "label": "公司名称",
-        "placeholder": "请输入您的公司名称"
+        "label": "Company Name",
+        "placeholder": "Enter your company name"
       },
       "serviceType": {
-        "label": "服务类型",
-        "placeholder": "请选择服务类型"
+        "label": "Service Type",
+        "placeholder": "Select service type"
       },
       "subject": {
-        "label": "主题",
-        "placeholder": "请输入主题",
-        "error": "主题是必填项"
+        "label": "Subject",
+        "placeholder": "Enter subject",
+        "error": "Subject is required"
       },
       "message": {
-        "label": "消息",
-        "placeholder": "请输入您的消息",
-        "error": "消息是必填项"
+        "label": "Message",
+        "placeholder": "Enter your message",
+        "error": "Message is required"
       }
     },
     "buttons": {
-      "submit": "发送消息",
-      "sending": "发送中...",
-      "callNow": "立即致电",
-      "emailUs": "联系我们"
+      "submit": "Send Message",
+      "sending": "Sending...",
+      "callNow": "Call Now",
+      "emailUs": "Email Us"
     },
     "messages": {
-      "success": "谢谢！您的消息已成功发送。",
-      "successDesc": "我们将在24小时内回复您。",
-      "error": "消息发送失败",
-      "errorDesc": "请重试或直接联系我们：{{phone}} 或 {{email}}"
+      "success": "Thank you! Your message has been sent successfully.",
+      "successDesc": "We'll get back to you within 24 hours.",
+      "error": "Failed to send message",
+      "errorDesc": "Please try again or contact us directly at {{phone}} or {{email}}"
     }
   },
   "quote": {
     "fields": {
       "name": {
-        "label": "姓名 *"
+        "label": "Full Name",
+        "placeholder": "Enter your full name"
       },
       "email": {
-        "label": "电子邮件 *"
+        "label": "Email Address",
+        "placeholder": "Enter your email address"
+      },
+      "phone": {
+        "label": "Phone Number",
+        "placeholder": "Enter your phone number"
+      },
+      "company": {
+        "label": "Company Name",
+        "placeholder": "Enter your company name"
+      },
+      "designation": {
+        "label": "Designation",
+        "placeholder": "Enter your designation"
+      },
+      "projectTitle": {
+        "label": "Project Title",
+        "placeholder": "Enter project title"
+      },
+      "projectType": {
+        "label": "Project Type",
+        "placeholder": "Select project type"
+      },
+      "budget": {
+        "label": "Budget Range",
+        "placeholder": "Select budget range"
+      },
+      "timeline": {
+        "label": "Timeline",
+        "placeholder": "Select project timeline"
+      },
+      "services": {
+        "label": "Services Required",
+        "placeholder": "Select required services"
+      },
+      "specifications": {
+        "label": "Technical Specifications",
+        "placeholder": "Describe your technical requirements"
+      },
+      "additionalRequirements": {
+        "label": "Additional Requirements",
+        "placeholder": "Any additional requirements"
+      },
+      "industryType": {
+        "label": "Industry Type",
+        "placeholder": "Select your industry"
+      },
+      "projectScale": {
+        "label": "Project Scale",
+        "placeholder": "Select project scale"
+      },
+      "preferredBrands": {
+        "label": "Preferred Brands",
+        "placeholder": "Any preferred brands or manufacturers"
       }
     },
-    "validation": {
-      "nameMin": "姓名必须至少2个字符",
-      "emailInvalid": "请输入有效的电子邮件地址",
-      "phoneMin": "请输入有效的电话号码",
-      "companyRequired": "公司名称是必填项",
-      "projectTitleRequired": "项目标题是必填项",
-      "projectTypeRequired": "请选择项目类型",
-      "timelineRequired": "请选择期望的时间表",
-      "servicesRequired": "请选择至少一项服务",
-      "specificationsMin": "请提供详细规格（最少20个字符）",
-      "nameRequired": "姓名是必填项",
-      "phoneRequired": "电话号码是必填项",
-      "subjectRequired": "主题是必填项",
-      "messageRequired": "消息是必填项",
-      "firstNameRequired": "名字是必填项",
-      "lastNameRequired": "姓氏是必填项",
-      "invalidEmail": "无效的电子邮件地址",
-      "selectService": "请选择服务",
-      "projectDetailsRequired": "项目详情是必填项"
-    },
     "projectTypes": {
-      "newInstallation": "新安装",
-      "systemUpgrade": "系统升级",
-      "retrofit": "改造",
-      "maintenance": "维护合同",
-      "consultation": "技术咨询",
-      "design": "设计与工程"
+      "newInstallation": "New Installation",
+      "systemUpgrade": "System Upgrade",
+      "retrofit": "Retrofit",
+      "maintenance": "Maintenance Contract",
+      "consultation": "Technical Consultation",
+      "design": "Design & Engineering"
     },
     "timelines": {
-      "immediate": "立即（< 1个月）",
-      "1-3-months": "1-3个月",
-      "3-6-months": "3-6个月",
-      "6-12-months": "6-12个月",
-      "1-year-plus": "超过1年"
+      "immediate": "Immediate (< 1 month)",
+      "1-3-months": "1-3 months",
+      "3-6-months": "3-6 months",
+      "6-12-months": "6-12 months",
+      "1-year-plus": "More than 1 year"
     },
     "budgetRanges": {
-      "under-1-lakh": "低于₹10万",
-      "1-5-lakh": "₹10-50万",
-      "5-10-lakh": "₹50-100万",
-      "10-25-lakh": "₹100-250万",
-      "25-50-lakh": "₹250-500万",
-      "50-lakh-plus": "₹500万+",
-      "discuss": "稍后讨论"
+      "under-1-lakh": "Under ₹1 Lakh",
+      "1-5-lakh": "₹1-5 Lakhs",
+      "5-10-lakh": "₹5-10 Lakhs",
+      "10-25-lakh": "₹10-25 Lakhs",
+      "25-50-lakh": "₹25-50 Lakhs",
+      "50-lakh-plus": "₹50 Lakhs+",
+      "discuss": "Prefer to discuss"
+    },
+    "validation": {
+      "nameMin": "Name must be at least 2 characters",
+      "emailInvalid": "Please enter a valid email address",
+      "phoneMin": "Please enter a valid phone number",
+      "companyRequired": "Company name is required",
+      "projectTitleRequired": "Project title is required",
+      "projectTypeRequired": "Please select a project type",
+      "timelineRequired": "Please select expected timeline",
+      "servicesRequired": "Please select at least one service",
+      "specificationsMin": "Please provide detailed specifications (minimum 20 characters)",
+      "nameRequired": "Name is required",
+      "phoneRequired": "Phone number is required",
+      "subjectRequired": "Subject is required",
+      "messageRequired": "Message is required",
+      "firstNameRequired": "First name is required",
+      "lastNameRequired": "Last name is required",
+      "invalidEmail": "Invalid email address",
+      "selectService": "Please select a service",
+      "projectDetailsRequired": "Project details are required"
     },
     "success": {
-      "title": "报价请求提交成功！",
-      "description": "我们的工程团队将审查您的要求并在24-48小时内回复。"
+      "title": "Quote request submitted successfully!",
+      "description": "Our engineering team will review your requirements and respond within 24-48 hours."
     },
     "placeholders": {
-      "selectIndustry": "选择行业",
-      "selectProjectScale": "选择项目规模",
-      "selectBudget": "选择预算范围（可选）",
-      "detailedRequirements": "\u8bf7\u63d0\u4f9b\u8be6\u7ec6\u89c4\u683c\uff0c\u5305\u62ec\uff1a\n- \u6280\u672f\u8981\u6c42\u548c\u6807\u51c6\n- \u8bbe\u5907\u89c4\u683c\u548c\u6570\u91cf\n- \u6027\u80fd\u8981\u6c42\n- \u73af\u5883\u6761\u4ef6\n- \u5408\u89c4\u8981\u6c42\n- \u4efb\u4f55\u7279\u6b8a\u8003\u8651...",
-      "additionalRequirements": "\u4efb\u4f55\u9644\u52a0\u8981\u6c42\u3001\u7279\u6b8a\u6761\u4ef6\u6216\u95ee\u9898...",
-      "preferredBrands": "\u4f8b\u5982\uff1aSiemens\u3001Allen-Bradley\u3001Schneider..."
+      "selectIndustry": "Select industry",
+      "selectProjectScale": "Select project scale",
+      "selectBudget": "Select budget range (optional)",
+      "detailedRequirements": "Please provide detailed specifications including:\n- Technical requirements and standards\n- Equipment specifications and quantities\n- Performance requirements\n- Environmental conditions\n- Compliance requirements\n- Any special considerations...",
+      "additionalRequirements": "Any additional requirements, special conditions, or questions...",
+      "preferredBrands": "e.g., Siemens, Allen-Bradley, Schneider..."
     },
     "labels": {
-      "industryType": "行业类型",
-      "projectScale": "项目规模",
-      "approximateBudget": "预估预算",
-      "detailedRequirements": "详细要求 *",
-      "preferredBrands": "首选品牌/标准",
-      "additionalRequirements": "附加要求",
-      "projectTitle": "项目标题 *",
-      "projectType": "项目类型 *",
-      "expectedTimeline": "预期时间表 *",
-      "phoneNumber": "电话号码 *",
-      "companyName": "公司名称 *",
-      "projectInformation": "项目信息",
-      "budgetRange": "预算范围"
+      "industryType": "Industry Type",
+      "projectScale": "Project Scale",
+      "approximateBudget": "Approximate Budget",
+      "detailedRequirements": "Detailed Requirements *",
+      "preferredBrands": "Preferred Brands/Standards",
+      "additionalRequirements": "Additional Requirements",
+      "projectTitle": "Project Title *",
+      "projectType": "Project Type *",
+      "expectedTimeline": "Expected Timeline *",
+      "phoneNumber": "Phone Number *",
+      "companyName": "Company Name *",
+      "projectInformation": "Project Information",
+      "budgetRange": "Budget Range"
     },
     "sections": {
-      "requiredServices": "所需服务 *",
-      "contactInfo": "联系信息",
-      "technicalSpecifications": "技术规格"
+      "requiredServices": "Required Services *",
+      "contactInfo": "Contact Information",
+      "technicalSpecifications": "Technical Specifications"
     },
     "error": {
-      "title": "报价提交失败",
-      "description": "如需立即协助：{{phone}} 或邮箱：{{email}}"
+      "title": "Quote submission failed",
+      "description": "For immediate assistance: {{phone}} or email: {{email}}"
     },
-    "submitting": "提交报价请求中...",
+    "submitting": "Submitting Quote Request...",
     "industries": {
-      "manufacturing": "制造业",
-      "powerGeneration": "发电",
-      "waterTreatment": "水处理",
-      "foodProcessing": "食品加工",
-      "pharmaceutical": "制药",
-      "chemical": "化学工业",
-      "oilGas": "石油天然气",
-      "renewableEnergy": "可再生能源",
-      "infrastructure": "基础设施",
-      "other": "其他"
+      "manufacturing": "Manufacturing",
+      "powerGeneration": "Power Generation",
+      "waterTreatment": "Water Treatment",
+      "foodProcessing": "Food Processing",
+      "pharmaceutical": "Pharmaceutical",
+      "chemical": "Chemical",
+      "oilGas": "Oil & Gas",
+      "renewableEnergy": "Renewable Energy",
+      "infrastructure": "Infrastructure",
+      "other": "Other"
     },
     "projectScale": {
-      "small": "小型项目（< 10个 I/O 点）",
-      "medium": "中型项目（10-100个 I/O 点）",
-      "large": "大型项目（100-500个 I/O 点）",
-      "enterprise": "企业级（500+ I/O 点）"
+      "small": "Small Scale (< 10 I/O points)",
+      "medium": "Medium Scale (10-100 I/O points)",
+      "large": "Large Scale (100-500 I/O points)",
+      "enterprise": "Enterprise (500+ I/O points)"
     },
     "buttons": {
-      "getProfessionalQuote": "获取专业报价",
-      "submitRequest": "提交报价请求",
-      "callUrgent": "紧急需求请致电",
-      "emailRequirements": "邮件发送需求"
+      "getProfessionalQuote": "Get Professional Quote",
+      "submitRequest": "Submit Quote Request",
+      "callUrgent": "Call for Urgent Requirements",
+      "emailRequirements": "Email Requirements"
     },
     "process": {
       "heading": "What happens next?",
@@ -194,7 +248,7 @@
     },
     "labels": {
       "title": "Join Our Engineering Team",
-      "subtitle": "提交您的申请，成为我们创新工程解决方案团队的一员",
+      "subtitle": "Submit your application and become part of our innovative engineering solutions team",
       "personalInfo": "Personal Information",
       "professionalInfo": "Professional Information",
       "fullName": "Full Name",
@@ -212,13 +266,13 @@
       "resume": "CV/Resume"
     },
     "buttons": {
-      "submit": "提交申请",
-      "submitting": "正在提交申请...",
+      "submit": "Submit Application",
+      "submitting": "Submitting Application...",
       "uploadResume": "Upload Resume"
     },
     "validation": {
-      "nameMin": "姓名必须至少2个字符",
-      "emailInvalid": "请输入有效的电子邮件地址",
+      "nameMin": "Name must be at least 2 characters",
+      "emailInvalid": "Please enter a valid email address",
       "phoneMin": "Phone number must be at least 10 digits",
       "specializationRequired": "Please select your engineering specialization",
       "experienceRequired": "Please select your experience level",
@@ -259,7 +313,7 @@
       "resumeFormat": "Accepted formats: PDF, DOC, DOCX (Max size: 5MB)"
     },
     "success": {
-      "title": "申请提交成功！",
+      "title": "Application Submitted Successfully!",
       "description": "Thank you for applying! We will review your application and contact you within 2-3 business days."
     },
     "error": {

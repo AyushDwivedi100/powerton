@@ -1,21 +1,21 @@
 {
   "nav": {
-    "home": "الرئيسية",
-    "about": "عنا",
-    "services": "الخدمات",
-    "products": "المنتجات",
+    "home": "الصفحة الرئيسية",
+    "about": "معلومات عنا",
+    "services": "خدمات",
+    "products": "منتجات",
     "projects": "المشاريع",
     "contact": "اتصل بنا",
-    "blog": "المدونة",
-    "quote": "احصل على عرض أسعار"
+    "blog": "مدونة",
+    "quote": "طلب اقتباس"
   },
   "language": {
     "en": "الإنجليزية",
     "hi": "الهندية",
-    "ar": "العربية",
-    "es": "الإسبانية",
+    "ar": "عربي",
+    "es": "الأسبانية",
     "fr": "الفرنسية",
-    "zh": "الصينية",
+    "zh": "صينى",
     "pt": "البرتغالية",
     "ru": "الروسية",
     "sw": "السواحيلية",
@@ -24,94 +24,135 @@
   "navigation": {
     "backToProducts": "العودة إلى المنتجات",
     "backToElectricalComponents": "العودة إلى المكونات الكهربائية",
-    "backToSolarProducts": "العودة إلى المنتجات الشمسية",
-    "backToMechanicalPumps": "العودة إلى المضخات الميكانيكية والقطع الاحتياطية",
+    "backToSolarProducts": "العودة إلى منتجات الطاقة الشمسية",
+    "backToMechanicalPumps": "العودة إلى المضخات الميكانيكية",
     "backToMeasurementInstruments": "العودة إلى أدوات القياس",
-    "backToIndustrialTools": "العودة إلى الأدوات الصناعية والمعدات",
-    "backToAutomationSystems": "العودة إلى أنظمة الأتمتة والتحكم",
-    "backToBLDC": "العودة إلى منتجات بدون فرش التيار المستمر",
+    "backToIndustrialTools": "العودة إلى الأدوات الصناعية",
+    "backToAutomationSystems": "العودة إلى أنظمة الأتمتة",
+    "backToBLDC": "العودة إلى منتجات BLDC",
     "backToInstrumentationComponents": "العودة إلى مكونات الأجهزة",
     "backToSafetyDevices": "العودة إلى أجهزة السلامة والحماية",
-    "phoneNumbers": "أرقام الهاتف"
+    "phoneNumbers": "أرقام الهواتف"
+  },
+  "testimonials": {
+    "anand": {
+      "name": "أحمد موسى",
+      "location": "غرب البنغال",
+      "comment": "لقد جعلت شركة Powerton Engineering مشروع الطاقة الشمسية الخاص بنا سهلاً وخالٍ من الإجهاد. اهتم فريقهم بكل شيء من البداية إلى النهاية، ونحن سعداء للغاية بالنتائج."
+    },
+    "sanjay": {
+      "name": "سنوسي أحمد",
+      "location": "أوتار براديش",
+      "comment": "أنا سعيد لأنني اخترت شركة Powerton Engineering للتثبيت لدينا، ولن أتردد في التوصية بهم لأي من زملائي."
+    },
+    "rhea": {
+      "name": "رحمة صالحو",
+      "location": "ماهاراشترا",
+      "comment": "منتجات ذات جودة استثنائية وخدمة عملاء متميزة. الخبرة الفنية للفريق رائعة وماهرة للغاية."
+    },
+    "priya": {
+      "name": "فاطمة موسى",
+      "location": "غوجارات",
+      "comment": "لقد كانت الشراكة مع شركة Powerton Engineering تجربة رائعة. لقد حولت حلول الأتمتة الخاصة بهم عملية الإنتاج لدينا وحسنت الكفاءة بنسبة خمسة وثلاثين بالمائة. موصى به للغاية لمشاريع أتمتة المصانع."
+    },
+    "kavya": {
+      "name": "حذيزة ساني",
+      "location": "كارناتاكا",
+      "comment": "خدمة استثنائية ودعم فني! قدم الفريق توجيهات استثنائية خلال تنفيذ مشروع الطاقة الشمسية لدينا. تجاوز احترافهم والتسليم في الوقت المناسب توقعاتنا تمامًا."
+    },
+    "rajesh": {
+      "name": "عثمان أحمد",
+      "location": "تاميل نادو",
+      "comment": "لقد أوفت شركة Powerton Engineering بما وعدت به بالضبط. كان نظام أدوات القياس الذي قاموا بتثبيته يعمل بشكل لا تشوبه شائبة لأكثر من عامين. دعمهم بعد البيع رائع وهم دائمًا متجاوبون."
+    }
+  },
+  "technicalTerms": {
+    "BLDC": "BLDC (محركات DC بدون فرش)",
+    "PLC": "PLC (وحدة تحكم منطقية قابلة للبرمجة)",
+    "SCADA": "SCADA (التحكم الإشرافي والحصول على البيانات)",
+    "HMI": "HMI (واجهة الإنسان والآلة)",
+    "DCS": "DCS (نظام التحكم الموزع)",
+    "VFD": "VFD (محرك متغير التردد)",
+    "MCC": "MCC (مركز التحكم في المحركات)",
+    "PCC": "PCC (مركز التحكم في الطاقة)",
+    "RTU": "RTU (وحدات طرفية بعيدة)",
+    "IED": "IED (الأجهزة الإلكترونية الذكية)",
+    "NABL": "NABL (المجلس الوطني للاعتماد للمختبرات والمعايرة)",
+    "MNRE": "MNRE (وزارة الطاقة الجديدة والمتجددة)",
+    "CPRI": "CPRI (معهد بحوث الطاقة المركزي)",
+    "ISO": "ISO (المنظمة الدولية للتوحيد القياسي)",
+    "IEEE": "IEEE (معهد مهندسي الكهرباء والإلكترونيات)"
   },
   "buttons": {
     "downloadPortfolio": "تحميل المحفظة",
-    "showFilters": "إظهار المرشحات",
-    "readMore": "اقرأ المزيد",
+    "showFilters": "إظهار عوامل التصفية",
+    "readMore": "اقرأ أكثر",
     "downloadCatalog": "تحميل الكتالوج",
     "viewDetails": "عرض التفاصيل",
     "backTo": "العودة إلى {{category}}",
-    "backToBldcProducts": "العودة إلى منتجات بدون فرش التيار المستمر",
+    "backToBldcProducts": "العودة إلى منتجات محركات التيار المستمر بدون فرش (BLDC)",
     "backToProducts": "العودة إلى المنتجات",
-    "requestQuote": "طلب عرض سعر",
+    "requestQuote": "طلب عرض أسعار",
     "expertTeam": "فريق الخبراء",
-    "successfulProjects": "مشاريع ناجحة",
-    "qualityProducts": "منتجات عالية الجودة",
-    "sendMessage": "إرسال رسالة",
-    "sending": "جارٍ الإرسال...",
+    "successfulProjects": "المشاريع الناجحة",
+    "qualityProducts": "منتجات ذات جودة عالية",
+    "sendMessage": "أرسل رسالة",
+    "sending": "إرسال...",
     "submit": "إرسال",
     "viewProducts": "عرض المنتجات",
     "viewServices": "عرض الخدمات",
-    "getInTouch": "تواصل معنا",
-    "exploreProducts": "استكشف المنتجات",
+    "getInTouch": "ابقى على تواصل",
+    "exploreProducts": "اكتشف المنتجات",
     "viewCatalog": "عرض الكتالوج",
-    "quickQuote": "عرض سعر سريع",
-    "getQuote": "احصل على عرض سعر",
+    "quickQuote": "طلب عرض أسعار سريع",
+    "getQuote": "طلب عرض أسعار",
     "callNow": "اتصل الآن",
-    "emailUs": "راسلنا",
-    "learnMore": "اعرف المزيد",
+    "emailUs": "ارسل لنا بريد الكتروني",
+    "learnMore": "تعلم المزيد",
     "viewMore": "عرض المزيد",
     "viewAll": "عرض الكل",
     "contactUs": "اتصل بنا",
-    "getStarted": "ابدأ الآن",
+    "getStarted": "البدء",
     "downloadBrochure": "تحميل الكتيب",
-    "contactExpert": "اتصل بخبير",
+    "contactExpert": "الاتصال بخبير",
     "next": "التالي",
     "previous": "السابق",
-    "complete": "مكتمل"
+    "complete": "أكمل"
   },
-  "productSections": {
-    "keyFeatures": "الميزات الرئيسية:",
-    "specifications": "المواصفات",
-    "applications": "التطبيقات",
-    "industries": "الصناعات",
-    "needSurgeProtection": "هل تحتاج إلى حماية ضد التيار الزائد؟",
-    "needSolarInverterSolutions": "هل تحتاج إلى حلول محولات الطاقة الشمسية؟",
-    "needSolarChargeControl": "هل تحتاج إلى تحكم في شحن الطاقة الشمسية؟",
-    "surgeProtectionDescription": "يمكن لمتخصصي الحماية لدينا تصميم أنظمة حماية شاملة ضد التيار الزائد لمنشأتك.",
-    "solarInverterDescription": "يمكن لمهندسي الطاقة الشمسية لدينا تصميم نظام المحول الأمثل لمنشأتك الشمسية.",
-    "solarChargeDescription": "يمكن لمتخصصي الطاقة الشمسية لدينا مساعدتك في اختيار متحكم الشحن المناسب لنظام البطارية الخاص بك.",
-    "energyStorageDescription": "يمكن لخبراء تخزين الطاقة لدينا تصميم نظام البطارية الأمثل لمنشأتك الشمسية."
-  },
-  "altTexts": {
-    "contactBackground": "ID-834: خلفية مركز الاتصال ومكتب دعم العملاء لشركة الهندسة",
-    "aboutBackground": "ID-004: منشأة     باورتون للهندسة للأتمتة الصناعية مع أنظمة التحكم الحديثة",
-    "companyLogo": "باورتون للهندسة الخاصة المحدودة - شعار شركة الأتمتة الصناعية والهندسة الكهربائية"
-  },
-  "loading": "جاري التحميل...",
-  "error": "حدث خطأ ما",
-  "success": "نجح!",
+  "loading": "جار التحميل...",
+  "error": "حدث خطأ",
+  "success": "نجاح!",
   "messages": {
-    "toggleTheme": "تبديل الموضوع",
+    "toggleTheme": "تبديل المظهر",
     "close": "إغلاق",
-    "engineeringAdvisor": "مستشار الهندسة",
-    "comingSoon": "قريباً",
-    "catalogComingSoon": "تحميل كتالوج المنتجات سيكون متاحاً قريباً!"
+    "engineeringAdvisor": "مستشار هندسي",
+    "comingSoon": "قريبا",
+    "catalogComingSoon": "سيكون تنزيل كتالوج المنتج متاحًا قريبًا!"
   },
   "aria": {
-    "goToHomepage": "الذهاب إلى صفحة هندسة باورتون الرئيسية",
-    "followLinkedIn": "تابع هندسة باورتون على LinkedIn",
-    "followFacebook": "تابع هندسة باورتون على Facebook",
+    "toggleNavigation": "تبديل مساعد التنقل",
+    "openLocation": "افتح موقع المكتب في خرائط جوجل",
+    "exploreServices": "استكشف خدماتنا في مجال التحكم الصناعي والهندسة",
+    "requestConsultation": "اطلب استشارة مجانية لمشروع هندسي",
+    "companyHighlights": "أبرز مميزات الشركة وخدماتها",
+    "performanceStats": "إحصائيات أداء الشركة",
+    "previousTestimonial": "الشهادة السابقة",
+    "nextTestimonial": "الشهادة التالية",
+    "mainNavigation": "التنقل الرئيسي",
+    "companyInfo": "معلومات الشركة وتنقل الموقع",
+    "goToHomepage": "اذهب إلى الصفحة الرئيسية لموقع Powerton Engineering",
+    "followLinkedIn": "تابع Powerton Engineering على LinkedIn",
+    "followFacebook": "تابع Powerton Engineering على Facebook",
     "servicesNavigation": "التنقل في الخدمات",
     "productsNavigation": "التنقل في المنتجات",
-    "callCompany": "اتصل بـ هندسة باورتون",
-    "emailCompany": "راسل هندسة باورتون",
-    "viewOfficeLocation": "عرض موقع مكتب هندسة باورتون على خرائط جوجل",
-    "officeLocationTitle": "موقع مكتب هندسة باورتون",
-    "controllerSystems": "أنظمة التحكم والتسجيل",
-    "controllerDescription": "أنظمة التحكم في العمليات وتسجيل البيانات للتحكم الصناعي",
-    "plcSystems": "أنظمة متحكم منطقي قابل للبرمجة",
-    "processControllers": "أنظمة التحكم في العمليات",
+    "callCompany": "اتصل بـ Powerton Engineering",
+    "emailCompany": "أرسل بريدًا إلكترونيًا إلى Powerton Engineering",
+    "viewOfficeLocation": "عرض موقع مكتب Powerton Engineering على خرائط جوجل",
+    "officeLocationTitle": "موقع مكتب Powerton Engineering",
+    "controllerSystems": "أنظمة التحكم",
+    "controllerDescription": "وحدات التحكم في العمليات وأنظمة تسجيل البيانات للتحكم الصناعي",
+    "plcSystems": "أنظمة PLC",
+    "processControllers": "وحدات التحكم في العمليات",
     "dataLoggers": "مسجلات البيانات",
     "controlPanels": "لوحات التحكم",
     "switchesIndicators": "المفاتيح والمؤشرات",
@@ -120,37 +161,40 @@
     "selectorSwitches": "مفاتيح الاختيار",
     "indicatorLights": "أضواء المؤشرات",
     "emergencyStops": "مفاتيح الإيقاف الطارئ",
-    "valvesActuators": "الصمامات والمحركات",
-    "valvesDescription": "صمامات التحكم والمحركات لأنظمة التحكم في العمليات",
+    "valvesActuators": "الصمامات والمشغلات",
+    "valvesDescription": "صمامات التحكم والمشغلات لأنظمة التحكم في العمليات",
     "controlValves": "صمامات التحكم",
-    "pneumaticActuators": "المحركات الهوائية",
-    "electricActuators": "المحركات الكهربائية",
-    "valvePositioners": "أجهزة تحديد موضع الصمام",
-    "analyzers": "أجهزة التحليل",
-    "analyzersDescription": "محللات الغاز والسائل والعمليات لمراقبة الجودة",
+    "pneumaticActuators": "المشغلات الهوائية",
+    "electricActuators": "المشغلات الكهربائية",
+    "valvePositioners": "محدِّدات موضع الصمام",
+    "analyzers": "المحللات",
+    "analyzersDescription": "محللات الغاز والسوائل والعمليات لمراقبة الجودة",
     "gasAnalyzers": "محللات الغاز",
     "liquidAnalyzers": "محللات السوائل",
     "processAnalyzers": "محللات العمليات",
-    "multiParameterSystems": "أنظمة متعددة المعاملات",
-    "signalConditioners": "معالجات الإشارات",
-    "signalConditionersDescription": "معدات معالجة وتكييف الإشارات لأنظمة القياس",
-    "isolationAmplifiers": "مضخمات عزل",
-    "signalConverters": "محولات الإشارات",
+    "multiParameterSystems": "أنظمة متعددة المعلمات",
+    "signalConditioners": "محولات الإشارة",
+    "signalConditionersDescription": "أجهزة معالجة الإشارة وتحويلها لأنظمة القياس",
+    "isolationAmplifiers": "مكبرات العزل",
+    "signalConverters": "محولات الإشارة",
     "measuringTransducers": "محولات القياس",
-    "noiseFilters": "مرشحات الضوضاء",
-    "toggleNavigation": "تبديل التنقل",
-    "openLocation": "فتح موقع المكتب في خرائط جوجل",
-    "exploreServices": "استكشف خدمات الأتمتة الصناعية والهندسة",
-    "requestConsultation": "اطلب استشارة مجانية لمشروعك الهندسي",
-    "companyHighlights": "أبرز معالم الشركة والخدمات",
-    "performanceStats": "إحصائيات أداء الشركة",
-    "previousTestimonial": "الشهادة السابقة",
-    "nextTestimonial": "الشهادة التالية",
-    "mainNavigation": "التنقل الرئيسي",
-    "companyInfo": "معلومات الشركة وتنقل الموقع"
+    "noiseFilters": "مرشحات الضوضاء"
+  },
+  "productSections": {
+    "keyFeatures": "الميزات الرئيسية:",
+    "specifications": "المواصفات",
+    "applications": "الاستخدامات",
+    "industries": "الصناعات",
+    "needSurgeProtection": "هل تحتاج إلى حماية من زيادة التيار؟",
+    "needSolarInverterSolutions": "هل تحتاج إلى حلول العاكس الشمسي؟",
+    "needSolarChargeControl": "هل تحتاج إلى التحكم في شحن الطاقة الشمسية؟",
+    "surgeProtectionDescription": "يمكن لخبرائنا في الحماية من زيادة التيار تصميم أنظمة حماية كاملة من زيادة التيار لتركيبك.",
+    "solarInverterDescription": "يمكن لمهندسي الطاقة الشمسية لدينا تصميم أفضل نظام عاكس لتركيب الطاقة الشمسية الخاص بك.",
+    "solarChargeDescription": "يمكن لخبرائنا في مجال الطاقة الشمسية مساعدتك في اختيار جهاز التحكم بالشحن المناسب لنظام البطارية الخاص بك.",
+    "energyStorageDescription": "يمكن لخبرائنا في تخزين الطاقة تصميم أفضل نظام بطارية لتركيب الطاقة الشمسية الخاص بك."
   },
   "badges": {
-    "energyEfficient": "موفر للطاقة",
+    "energyEfficient": "كفاءة في استخدام الطاقة",
     "smartControl": "تحكم ذكي",
     "silentOperation": "تشغيل صامت",
     "longLife": "عمر طويل",
@@ -158,58 +202,37 @@
     "ecoFriendly": "صديق للبيئة",
     "costEffective": "فعال من حيث التكلفة",
     "premiumQuality": "جودة ممتازة",
-    "industrialGrade": "درجة صناعية",
+    "industrialGrade": "مستوى صناعي",
     "certified": "معتمد",
     "warrantyIncluded": "الضمان مشمول",
     "fastDelivery": "توصيل سريع"
   },
   "headings": {
-    "bldcCeilingFanModels": "نماذج مراوح السقف بدون فرش التيار المستمر",
+    "bldcCeilingFanModels": "موديلات مراوح السقف BLDC",
     "ourProducts": "منتجاتنا",
     "specifications": "المواصفات",
     "keyFeatures": "الميزات الرئيسية",
     "technicalDetails": "التفاصيل الفنية",
-    "availableModels": "النماذج المتاحة",
+    "availableModels": "الموديلات المتاحة",
     "productOverview": "نظرة عامة على المنتج",
     "relatedProducts": "المنتجات ذات الصلة",
-    "industryApplications": "التطبيقات الصناعية",
+    "industryApplications": "تطبيقات الصناعة",
     "relatedServices": "الخدمات ذات الصلة",
     "quickFacts": "حقائق سريعة",
     "technologiesAndMethods": "التقنيات والأساليب"
   },
-  "placeholders": {
-    "askChatbot": "اسألني عن المنتجات، الخدمات، أو المساعدة التقنية...",
-    "selectProjectType": "اختر نوع المشروع",
-    "selectIndustry": "اختر الصناعة",
-    "selectProjectSize": "اختر حجم المشروع",
-    "selectTimeline": "اختر الجدول الزمني",
-    "projectTimeline": "جدول المشروع الزمني",
-    "selectBudgetRange": "اختر نطاق الميزانية (اختياري)",
-    "cityState": "المدينة، الولاية",
-    "describeExisting": "وصف أي أنظمة أو بنية تحتية موجودة...",
-    "searchProjects": "بحث في المشاريع، العملاء، أو التقنيات...",
-    "selectIndustryFilter": "اختر الصناعة",
-    "selectCategory": "اختر الفئة",
-    "selectStatus": "اختر الحالة",
-    "yourFullName": "اسمك الكامل",
-    "yourEmail": "بريدك@شركة.com",
-    "yourPhone": "+91-XXXXX-XXXXX",
-    "yourRole": "دورك/منصبك",
-    "yourCompanyName": "اسم شركتك",
-    "briefProjectTitle": "عنوان موجز لمشروعك"
-  },
   "company": {
-    "name": "باورتون للهندسة الخاصة المحدودة",
-    "tagline": "شريكك الموثوق في الأتمتة الصناعية والهندسة الكهربائية",
+    "name": "Powerton Engineering Pvt. Ltd.",
+    "tagline": "شريكك الموثوق به في مجال التحكم الصناعي والهندسة الكهربائية",
     "phone": "+91-94627-71662 / +91-82997-27291",
     "email": "info@powertonengineering.com",
     "address": {
-      "street": "F-25, F Block, Sector 6",
+      "street": "F-25, المبنى F, القطاع 6",
       "city": "نويدا",
       "state": "أوتار براديش",
       "pincode": "201301",
       "landmark": "أقرب مترو - القطاع 15",
-      "full": "الطابق الثاني، F-25، F Block، Sector 6، نويدا، أوتار براديش 201301، الهند"
+      "full": "الطابق الثاني, F-25, المبنى F, القطاع 6, نويدا, أوتار براديش 201301, الهند"
     },
     "businessHours": {
       "weekdays": "الاثنين - السبت: 9:00 صباحًا - 6:00 مساءً",
@@ -224,22 +247,22 @@
   },
   "seo": {
     "powerton": {
-      "name": "باورتون للهندسة الخاصة المحدودة",
-      "description": "شركة رائدة في مجال الأتمتة الصناعية والهندسة الكهربائية تخدم العملاء على مستوى العالم. متخصصة في أتمتة محطات الطاقة، تركيبات الطاقة الشمسية، وأنظمة التحكم في التصنيع.",
-      "keywords": "الأتمتة الصناعية، الهندسة الكهربائية، محطة طاقة، طاقة شمسية، تصنيع، أنظمة تحكم، أجهزة قياس، مراقبة وتحكم واكتساب البيانات الإشرافية، متحكم منطقي قابل للبرمجة، حلول أتمتة، تركيبات كهربائية، لوحات تحكم صناعية، أتمتة العمليات، توزيع الطاقة، مراكز تحكم المحركات، صيانة كهربائية، خدمات كهربائية صناعية، استشارات أتمتة، تصميم كهربائي، أنظمة طاقة",
-      "author": "فريق هندسة باورتون"
+      "name": "Powerton Engineering Pvt. Ltd.",
+      "description": "شركة رائدة في مجال التحكم الصناعي والهندسة الكهربائية تخدم العملاء في جميع أنحاء العالم. متخصصون في التحكم في محطات الطاقة وتركيب الطاقة الشمسية وأنظمة التحكم الصناعية.",
+      "keywords": "التحكم الصناعي, الهندسة الكهربائية, محطة الطاقة, الطاقة الشمسية, الصناعات, أنظمة التحكم, الأجهزة, SCADA, PLC, حلول التحكم, التركيبات الكهربائية, لوحة التحكم الصناعية, التحكم في العمليات, توزيع الطاقة, مراكز التحكم في المحركات, التحكم الكهربائي, خدمات كهربائية صناعية, استشارات التحكم, التصميم الكهربائي, أنظمة الطاقة",
+      "author": "فريق Powerton Engineering"
     },
     "location": {
       "name": "نويدا، أوتار براديش، الهند",
       "region": "أوتار براديش",
       "country": "الهند"
     },
-    "companyName": "باورتون للهندسة الخاصة المحدودة",
-    "companyDescription": "شركة رائدة في مجال الأتمتة الصناعية والهندسة الكهربائية تخدم العملاء في جميع أنحاء العالم. متخصصة في أتمتة محطات الطاقة، تركيبات الطاقة الشمسية، وأنظمة التحكم في التصنيع.",
-    "siteName": "هندسة باورتون",
+    "companyName": "Powerton Engineering Pvt. Ltd.",
+    "companyDescription": "شركة رائدة في مجال التحكم الصناعي والهندسة الكهربائية تخدم العملاء في جميع أنحاء العالم. متخصصون في التحكم في محطات الطاقة وتركيب الطاقة الشمسية وأنظمة التحكم الصناعية.",
+    "siteName": "باورتون للهندسة",
     "twitterHandle": "@powerton_eng",
     "businessAddress": {
-      "street": "F-25, F Block, Sector 6",
+      "street": "F-25, F بلوك, القطاع 6",
       "city": "نويدا",
       "state": "أوتار براديش",
       "postal": "201301",
@@ -250,11 +273,11 @@
       "email": "info@powertonengineering.com"
     },
     "businessInfo": {
-      "industry": "الأتمتة الصناعية، الهندسة الكهربائية، الأجهزة",
-      "category": "خدمات هندسية، حلول أتمتة، أنظمة كهربائية",
-      "targetAudience": "مهندسون صناعيون، مديرو مصانع، متخصصون في الأتمتة",
-      "companyType": "مزود حلول هندسية بين الشركات",
-      "serviceArea": "تغطية خدمة عالمية مع تسليم مشاريع دولية"
+      "industry": "التحكم الصناعي, الهندسة الكهربائية, الأجهزة",
+      "category": "خدمات هندسية, حلول التحكم, الأنظمة الكهربائية",
+      "targetAudience": "مهندسو الصناعة, مديرو المصانع, متخصصو التحكم",
+      "companyType": "مقد�� حلول هندسية B2B",
+      "serviceArea": "خدمات عالمية مع تسليم المشاريع الدولية"
     }
   },
   "labels": {
@@ -275,96 +298,117 @@
     "sunday": "الأحد",
     "emergencySupport": "دعم الطوارئ فقط"
   },
+  "placeholders": {
+    "selectProjectType": "اختر نوع المشروع",
+    "selectIndustry": "اختر الصناعة",
+    "selectProjectSize": "اختر حجم المشروع",
+    "selectTimeline": "اختر الجدول الزمني",
+    "projectTimeline": "الجدول الزمني للمشروع",
+    "selectBudgetRange": "اختر نطاق الميزانية (اختياري)",
+    "cityState": "المدينة، الولاية",
+    "describeExisting": "وصف أي أنظمة أو معدات موجودة...",
+    "searchProjects": "ابحث عن المشاريع أو العملاء أو التقنيات...",
+    "selectIndustryFilter": "اختر فلتر الصناعة",
+    "selectCategory": "اختر الفئة",
+    "selectStatus": "اختر الحالة",
+    "askChatbot": "اسألني عن المنتجات أو الخدمات أو الدعم الفني...",
+    "yourFullName": "اسمك الكامل",
+    "yourEmail": "naku@kamfani.com",
+    "yourPhone": "+91-XXXXX-XXXXX",
+    "yourRole": "دورك/منصبك",
+    "yourCompanyName": "اسم شركتك",
+    "briefProjectTitle": "عنوان مشروعك الموجز"
+  },
   "projectCategories": {
-    "Power Plant": "محطة كهرباء",
-    "Manufacturing": "التصنيع",
-    "Solar": "الطاقة الشمسية",
+    "Power Plant": "محطة توليد الكهرباء",
+    "Manufacturing": "تصنيع",
+    "Solar": "طاقة شمسية",
     "Water Treatment": "معالجة المياه",
     "Process Automation": "أتمتة العمليات",
     "Power Systems": "أنظمة الطاقة"
   },
   "projects": {
     "thermal-plant": {
-      "title": "أتمتة محطة الطاقة الحرارية",
-      "description": "حل أتمتة كامل لمحطة طاقة حرارية بقدرة ٢٥٠ ميجاوات بما في ذلك لوحات التحكم وأنظمة مراقبة وتحكم واكتساب البيانات الإشرافية وأقفال الأمان."
+      "title": "أتمتة محطة توليد الطاقة الحرارية",
+      "description": "حلول أتمتة كاملة لمحطة توليد الطاقة الحرارية بقدرة 250 ميجاوات بما في ذلك لوحات التحكم ونظام SCADA وأقفال السلامة.",
       "location": "أوتار براديش",
-      "duration": "12 شهرًا",
+      "duration": "12 شهرا",
       "highlights": {
-        "scada": "تنفيذ مراقبة وتحكم واكتساب البيانات الإشرافية"
+        "scada": "تنفيذ SCADA",
         "safety": "أنظمة السلامة",
         "control": "لوحات التحكم",
-        "monitoring": "مراقبة الأداء"
+        "monitoring": "مراقبة العمليات"
       }
     },
     "pharma-plant": {
       "title": "نظام التحكم في مصنع الأدوية",
-      "description": "نظام متقدم للتحكم في العمليات ومراقبتها لتصنيع الأدوية مع ميزات الامتثال لإدارة الغذاء والدواء الأمريكية وسلامة البيانات."
+      "description": "نظام شامل للتحكم في العمليات ومراقبتها لمصنع أدوية مع الامتثال للوائح إدارة الغذاء والدواء الأمريكية وميزات أمان البيانات.",
       "location": "ماهاراشترا",
       "duration": "8 أشهر",
       "highlights": {
-        "fda": "الامتثال لإدارة الغذاء والدواء الأمريكية"
-        "data": "سلامة البيانات",
+        "fda": "الامتثال لإدارة الغذاء والدواء",
+        "data": "أمن البيانات",
         "process": "التحكم في العمليات",
         "quality": "مراقبة الجودة"
       }
     },
     "solar-plant": {
-      "title": "تركيب محطة طاقة شمسية بقدرة ١٠ ميجاوات"
-      "description": "تصميم وتركيب كامل لمحطة طاقة شمسية متصلة بالشبكة مع أنظمة مراقبة ومعدات مزامنة الشبكة."
+      "title": "تركيب محطة طاقة شمسية بقدرة 10 ميجاوات",
+      "description": "تصميم وتركيب كامل لمحطة طاقة شمسية متصلة بالشبكة مع أنظمة المراقبة ومعدات مزامنة الشبكة.",
       "location": "راجستان",
       "duration": "6 أشهر",
       "highlights": {
-        "grid": "اتصال بالشبكة",
+        "grid": "اتصال الشبكة",
         "monitoring": "أنظمة المراقبة",
         "optimization": "تحسين الأداء",
-        "maintenance": "تخطيط الصيانة"
+        "maintenance": "صيانة مجدولة"
       }
     },
     "water-treatment": {
-      "title": "أتمتة معالجة المياه البلدية",
-      "description": "نظام تحكم آلي لمحطة معالجة مياه تخدم ٥٠٠٠٠٠ ساكن مع مراقبة في الوقت الفعلي ومراقبة الجودة."
-      "location": "غرب البنغال",
+      "title": "التحكم في معالجة المياه البلدية",
+      "description": "نظام أتمتة لمحطة معالجة مياه تخدم 500000 من السكان مع مراقبة في الوقت الفعلي والتحكم في الجودة.",
+      "location": "البنغال الغربية",
       "duration": "10 أشهر",
       "highlights": {
-        "monitoring": "مراقبة في الوقت الفعلي",
+        "monitoring": "مراقبة في الوقت الحقيقي",
         "quality": "مراقبة الجودة",
-        "automation": "عمليات آلية",
+        "automation": "عمليات تلقائية",
         "remote": "إدارة عن بعد"
       }
     },
     "industrial-automation-demo": {
-      "title": "عرض توضيحي: نظام أتمتة صناعي",
-      "client": "عميل تصنيع مستقبلي",
+      "title": "عرض توضيحي: نظام أتمتة صناعية",
+      "client": "عميل صناعي مستقبلي",
       "category": "أتمتة العمليات",
-      "description": "عرض توضيحي لقدرات أتمتة التصنيع الكاملة بما في ذلك تكامل متحكم منطقي قابل للبرمجة وأنظمة مراقبة وتحكم واكتساب البيانات الإشرافية وحلول المراقبة في الوقت الفعلي."
-      "location": "موقع المشروع يحدد لاحقًا",
-      "duration": "١٢-١٨ شهرًا"
-      "budget": "٥٠-٧٥ لكح روبية"
-      "status": "عرض توضيحي للقدرات",
+      "description": "عرض توضيحي لقدرات الأتمتة الصناعية الكاملة بما في ذلك تكامل PLC وأنظمة SCADA وحلول المراقبة في الوقت الفعلي.",
+      "location": "موقع العمل قيد التحديد",
+      "duration": "12-18 شهرا",
+      "budget": "₹50-75 ألف روبية",
+      "status": "عرض توضيحي قابل للتشغيل",
       "technologies": {
-        "plcProgramming": "برمجة متحكم منطقي قابل للبرمجة"
-        "scada": "مراقبة وتحكم واكتساب البيانات الإشرافية"
-        "hmi": "واجهة الإنسان والآلة"
-        "industrialIot": "إنترنت الأشياء الصناعي"
+        "plcProgramming": "برمجة PLC",
+        "scada": "SCADA",
+        "hmi": "HMI",
+        "industrialIot": "إنترنت الأشياء الصناعية"
       },
       "highlights": {
-        "plcIntegration": "تكامل متحكم منطقي قابل للبرمجة"
-        "scadaSystems": "أنظمة مراقبة وتحكم واكتساب البيانات الإشرافية"
-        "realtimeMonitoring": "مراقبة في الوقت الفعلي",
+        "plcIntegration": "تكامل PLC",
+        "scadaSystems": "أنظمة SCADA",
+        "realtimeMonitoring": "مراقبة في الوقت الحقيقي",
         "processOptimization": "تحسين العمليات"
       }
     },
     "power-distribution-demo": {
       "title": "مثال: التحكم في توزيع الطاقة",
-      "client": "شريك طاقة مستقبلي",
+      "client": "شريك توزيع الطاقة المستقبلي",
       "category": "أنظمة الطاقة",
-      "description": "مثال على نظام توزيع طاقة يعرض موازنة الحمل الآلية وقدرات المراقبة عن بعد لمنشآت توليد الطاقة.",
+      "description": "مثال لنظام توزيع الطاقة يعرض موازنة الحمل التلقائي وقدرات المراقبة عن بعد لمحطات الطاقة.",
       "location": "مواقع مختلفة",
-      "duration": "١٠-١٥ شهرًا"
-      "budget": "١-٢ كرور روبية"
-      "status": "عرض توضيحي للقدرات",
+      "duration": "10-15 شهرا",
+      "budget": "₹1-2 كرور",
+      "status": "عرض توضيحي قابل للتشغيل",
       "technologies": {
-        "mccPanels": "لوحات مركز التحكم في المحرك"
+        "mccPanels": "لوحات MCC",
         "protectionSystems": "أنظمة الحماية",
         "energyManagement": "إدارة الطاقة",
         "remoteMonitoring": "مراقبة عن بعد"
@@ -383,87 +427,195 @@
     "requirementsFeatures": "المتطلبات والميزات",
     "additionalInformation": "معلومات إضافية"
   },
+  "altTexts": {
+    "contactBackground": "معرف-834: شبكة دعم العملاء والمكتب لشركة هندسية",
+    "aboutBackground": "معرف-004: مبنى التحكم الصناعي لشركة Powerton Engineering مع أنظمة تحكم حديثة",
+    "companyLogo": "Powerton Engineering Pvt. Ltd. - شعار شركة التحكم الصناعي والهندسة الكهربائية"
+  },
   "sitemap": {
     "sections": {
       "mainPages": "الصفحات الرئيسية",
       "servicesProjects": "الخدمات والمشاريع",
       "productCategories": "فئات المنتجات",
       "resourcesTools": "الموارد والأدوات",
-      "legalInformation": "المعلومات القانونية"
+      "legalInformation": "معلومات قانونية"
     },
     "categories": {
-      "automationControl": "أنظمة الأتمتة والتحكم",
-      "bldcMotors": "أنظمة محركات بدون فرش التيار المستمر"
+      "automationControl": "الأتمتة والتحكم",
+      "bldcMotors": "محركات BLDC",
       "electricalComponents": "المكونات الكهربائية",
-      "measurementInstrumentation": "القياس والأجهزة",
+      "measurementInstrumentation": "أجهزة القياس",
       "industrialTools": "الأدوات والمعدات الصناعية",
       "pumpsFluid": "المضخات وأنظمة السوائل",
       "solarRenewable": "الطاقة الشمسية والمتجددة",
       "safetyProtection": "السلامة والحماية",
-      "structuralMounting": "الهيكلية والتركيب",
-      "networkCommunication": "الشبكة والاتصالات"
+      "structuralMounting": "التركيب الهيكلي",
+      "networkCommunication": "الشبكات والاتصالات",
+      "measurementInstruments": "أدوات القياس",
+      "solarProducts": "منتجات الطاقة الشمسية",
+      "automationControlSystems": "أنظمة التحكم الآلي",
+      "safetyProtectiveDevices": "أجهزة السلامة والحماية",
+      "mechanicalPumpsSpares": "قطع غيار المضخات الميكانيكية",
+      "industrialToolsTackles": "أدوات ومعدات صناعية"
     },
     "pages": {
-      "home": "الرئيسية",
-      "aboutUs": "من نحن",
+      "home": "الصفحة الرئيسية",
+      "aboutUs": "معلومات عنا",
       "contact": "اتصل بنا",
-      "gallery": "المعرض",
+      "gallery": "الصور",
       "ourServices": "خدماتنا",
       "serviceDetails": "تفاصيل الخدمة",
       "projects": "المشاريع",
       "allProducts": "جميع المنتجات",
       "requestQuote": "طلب عرض أسعار",
-      "downloadPortfolio": "تحميل المعرض",
-      "newsUpdates": "الأخبار والتحديثات",
-      "newsArticles": "مقالات الأخبار",
+      "downloadPortfolio": "تحميل المشاريع",
+      "newsUpdates": "آخر الأخبار والتحديثات",
+      "newsArticles": "مقالات إخبارية",
       "termsOfService": "شروط الخدمة",
-      "sitemap": "خريطة الموقع"
+      "sitemap": "خريطة الموقع",
+      "sensors": "أجهزة الاستشعار",
+      "transmitters": "أجهزة الإرسال",
+      "controllers": "وحدات التحكم",
+      "switches": "المفاتيح",
+      "valves": "الصمامات",
+      "analyzers": "أجهزة التحليل",
+      "signalConditioners": "مكيفات الإشارة",
+      "cablesWires": "الكابلات والأسلاك",
+      "connectorsTerminals": "الموصلات والمحطات",
+      "circuitBreakersFuses": "قواطع الدائرة والفيوزات",
+      "powerSupplies": "إمدادات الطاقة",
+      "enclosuresCabinets": "الخزائن",
+      "heatingElementsAppliances": "عناصر التسخين والأجهزة",
+      "surgeProtectors": "واقيات الطفرة",
+      "groundingSystems": "أنظمة التأريض",
+      "multimeters": "أجهزة القياس المتعددة",
+      "oscilloscopes": "راسمات الذبذبات",
+      "spectrumAnalyzers": "محللات الطيف",
+      "powerQualityAnalyzers": "محللات جودة الطاقة",
+      "calibrationEquipment": "معدات المعايرة",
+      "solarPanels": "الألواح الشمسية",
+      "solarInverters": "محولات الطاقة الشمسية",
+      "solarChargeControllers": "وحدات التحكم في شحن الطاقة الشمسية",
+      "solarBatteriesEnergyStorage": "بطاريات الطاقة الشمسية وتخزين الطاقة",
+      "mountingStructuresRacking": "هياكل التركيب",
+      "plcs": "PLCs",
+      "scada": "SCADA",
+      "dcs": "DCS",
+      "hmi": "HMI",
+      "safetyEquipment": "معدات السلامة",
+      "safetyRelaysSwitches": "مرحلات ومفاتيح السلامة",
+      "intrinsicallySafeEquipment": "معدات السلامة الجوهرية",
+      "centrifugalPumps": "المضخات الطاردة المركزية",
+      "diaphragmPumps": "مضخات الحجاب الحاجز",
+      "gearPumps": "المضخات الترسية",
+      "pumpPartsSpares": "قطع غيار المضخات",
+      "handTools": "أدوات يدوية",
+      "powerTools": "أدوات كهربائية",
+      "cuttingTools": "أدوات القطع",
+      "liftingEquipment": "معدات الرفع",
+      "bldcCeilingFan": "مراوح السقف BLDC",
+      "bldcCoolerExhaustMotor": "محركات تبريد BLDC",
+      "bldcSubmersibleSurfacePump": "مضخات غاطسة BLDC",
+      "bldcTableFanWallFanMotor": "محركات مروحة BLDC"
     },
     "descriptions": {
-      "home": "مرحباً بك في هندسة باورتون - حلول الأتمتة الصناعية",
-      "aboutUs": "تعرف على شركتنا ومهمتنا وخبرتنا",
-      "contact": "تواصل مع فريق الهندسة لدينا",
-      "gallery": "اطلع على معرض مشاريعنا وتركيباتنا",
-      "ourServices": "خدمات الأتمتة الصناعية والهندسة الكهربائية",
-      "serviceDetails": "معلومات مفصلة حول خدمات محددة",
-      "projects": "محفظة مشاريع الأتمتة الصناعية المكتملة",
-      "allProducts": "كتالوج شامل لمنتجات الأتمتة الصناعية",
-      "requestQuote": "احصل على عرض أسعار مفصل لمشروعك",
-      "downloadPortfolio": "تحميل محافظ المشاريع والوثائق",
-      "newsUpdates": "آخر الأخبار وتحديثات الشركة",
-      "newsArticles": "مقالات الأخبار والتحديثات الفردية",
-      "termsOfService": "شروط وأحكام استخدام خدماتنا",
-      "sitemap": "التنقل الكامل للموقع وهيكل الصفحة"
+      "home": "مرحبًا بكم في Powerton Engineering - حلول التحكم الصناعي",
+      "aboutUs": "تعرف على شركتنا ورؤيتنا وخبراتنا",
+      "contact": "اتصل بفريق الهندسة لدينا",
+      "gallery": "عرض صور لمشاريعنا",
+      "ourServices": "خدمات التحكم الصناعي",
+      "serviceDetails": "تفاصيل محددة حول الخدمات",
+      "projects": "قائمة بمشاريع التحكم",
+      "allProducts": "قائمة كاملة بمنتجات التحكم",
+      "requestQuote": "احصل على عرض أسعار",
+      "downloadPortfolio": "تحميل قائمة المشاريع",
+      "newsUpdates": "آخر الأخبار",
+      "newsArticles": "مقالات إخبارية",
+      "termsOfService": "شروط الخدمة",
+      "sitemap": "دليل الموقع",
+      "sensorsDescription": "أجهزة استشعار",
+      "transmittersDescription": "مرسلات الإشارات",
+      "controllersDescription": "أجهزة التحكم",
+      "switchesDescription": "مفاتيح صناعية",
+      "valvesDescription": "صمامات",
+      "analyzersDescription": "أجهزة تحليل",
+      "signalConditionersDescription": "مكيفات الإشارة",
+      "cablesWiresDescription": "كابلات وأسلاك",
+      "connectorsTerminalsDescription": "موصلات",
+      "circuitBreakersFusesDescription": "قواطع دوائر",
+      "powerSuppliesDescription": "إمدادات الطاقة",
+      "enclosuresCabinetsDescription": "خزائن",
+      "heatingElementsAppliancesDescription": "عناصر تسخين",
+      "surgeProtectorsDescription": "حماية من زيادة التيار",
+      "groundingSystemsDescription": "أنظمة التأريض",
+      "multimetersDescription": "أجهزة قياس",
+      "oscilloscopesDescription": "راسمات الذبذبات",
+      "spectrumAnalyzersDescription": "محللات الطيف",
+      "powerQualityAnalyzersDescription": "محللات جودة الطاقة",
+      "calibrationEquipmentDescription": "معدات المعايرة",
+      "solarPanelsDescription": "الألواح الشمسية",
+      "solarInvertersDescription": "محولات الطاقة الشمسية",
+      "solarChargeControllersDescription": "وحدات التحكم بالشحن",
+      "solarBatteriesEnergyStorageDescription": "بطاريات الطاقة الشمسية",
+      "mountingStructuresRackingDescription": "هياكل التركيب",
+      "plcsDescription": "PLCs",
+      "scadaDescription": "SCADA",
+      "dcsDescription": "DCS",
+      "hmiDescription": "HMI",
+      "safetyEquipmentDescription": "معدات السلامة",
+      "safetyRelaysSwitchesDescription": "مفاتيح السلامة",
+      "intrinsicallySafeEquipmentDescription": "معدات آمنة",
+      "centrifugalPumpsDescription": "مضخات طرد مركزي",
+      "diaphragmPumpsDescription": "مضخات الحجاب الحاجز",
+      "gearPumpsDescription": "مضخات ترسية",
+      "pumpPartsSparesDescription": "قطع غيار المضخات",
+      "handToolsDescription": "أدوات يدوية",
+      "powerToolsDescription": "أدوات كهربائية",
+      "cuttingToolsDescription": "أدوات القطع",
+      "liftingEquipmentDescription": "معدات الرفع",
+      "bldcCeilingFanDescription": "مراوح سقف",
+      "bldcCoolerExhaustMotorDescription": "محركات تبريد",
+      "bldcSubmersibleSurfacePumpDescription": "مضخات غاطسة",
+      "bldcTableFanWallFanMotorDescription": "محركات مروحة",
+      "requestQuoteDescription": "احصل على عرض أسعار لمشروعك الهندسي",
+      "downloadPortfolioDescription": "قم بتنزيل مستندات مشاريعنا التفصيلية",
+      "newsUpdatesDescription": "آخر الأخبار والتحديثات للشركة"
     }
   },
   "clients": {
-    "sci-group": "شركة النقل البحري الهندية",
-    "agribio": "أجريبايو ألمانيا",
-    "motherson": "مجموعة ماذرسون",
-    "praj": "براج اندستريز",
-    "thermax": "ثيرماكس ليميتيد",
-    "ankur": "أنكور تقنيات الطاقة العلمية",
-    "dls": "دي إل إس الهند",
-    "boudh": "بود ديستيليري",
-    "lokmangal": "مجموعة لوكمانجال",
-    "marcuras": "ماركوراس لمعالجة المياه",
-    "nv-group": "مجموعة إن في",
-    "anand-nv": "أناند إن في",
-    "dhanuka": "دانوكا أجريتيك",
-    "mjson": "إم جي إس أو إن",
+    "sci-group": "شركة الشحن الهندية",
+    "agribio": "أغري بيو ألمانيا",
+    "motherson": "مجموعة موثرسون",
+    "praj": "صناعات براج",
+    "thermax": "ثيرماكس المحدودة",
+    "ankur": "تقنيات الطاقة العلمية أنكور",
+    "dls": "DLS الهند",
+    "boudh": "صناعة الكحول بود",
+    "lokmangal": "مجموعة لوكمنجال",
+    "marcuras": "معالجة المياه ماركوراس",
+    "nv-group": "مجموعة NV",
+    "anand-nv": "أناند NV",
+    "dhanuka": "دهانوكا أجريتك",
+    "mjson": "MJSON",
     "procient": "بروسينت"
   },
   "copyright": {
-    "text": "© {{year}} باورتون للهندسة الخاصة المحدودة جميع الحقوق محفوظة.",
-    "madeWith": "صُنع بـ 💙 من قبل فريق هندسة باورتون"
+    "text": "© {{year}} Powerton Engineering Pvt. المحدودة. جميع الحقوق محفوظة.",
+    "madeWith": "صنع بـ 💙 بواسطة فريق Powerton Engineering"
+  },
+  "quickActions": {
+    "title": "إجراءات سريعة",
+    "subtitle": "تحقق من الإجراءات السريعة للحصول على متطلباتك",
+    "contactUs": "اتصل بنا",
+    "requestQuote": "طلب عرض أسعار"
   },
   "tags": {
     "award": "جائزة",
     "recognition": "اعتراف",
     "automation": "أتمتة",
     "contract": "عقد",
-    "powerPlant": "محطة كهرباء",
-    "ntpc": "شركة الطاقة الحرارية الوطنية"
+    "powerPlant": "محطة توليد الكهرباء",
+    "ntpc": "NTPC",
     "renewableEnergy": "طاقة متجددة",
     "expansion": "توسع",
     "solar": "شمسي",
@@ -472,45 +624,13 @@
     "partnership": "شراكة",
     "technology": "تكنولوجيا",
     "europe": "أوروبا",
-    "iso": "المنظمة الدولية للمعايير"
+    "iso": "ISO",
     "quality": "جودة",
     "certification": "شهادة"
   },
-  "testimonials": {
-    "anand": {
-      "name": "أناند أواستي",
-      "location": "غرب البنغال",
-      "comment": "جعلت هندسة باورتون عملية الانتقال إلى الطاقة الشمسية سلسة وسهلة. تولى فريقهم كل شيء من البداية إلى النهاية، ونحن سعداء جداً بالنتائج."
-    },
-    "sanjay": {
-      "name": "سانجاي باتيل",
-      "location": "أوتار براديش",
-      "comment": "أنا سعيد لأنني اخترت هندسة باورتون لتركيبنا، ولن أتردد في التوصية بهم لأي من أصدقائي."
-    },
-    "rhea": {
-      "name": "ريا شارما",
-      "location": "ماهاراشترا",
-      "comment": "منتجات ممتازة الجودة وخدمة عملاء متميزة. الخبرة التقنية للفريق مثيرة للإعجاب ومهنية للغاية."
-    },
-    "priya": {
-      "name": "بريا ميهتا",
-      "location": "غوجارات",
-      "comment": "العمل مع هندسة باورتون كان تجربة رائعة. حلول الأتمتة الخاصة بهم غيرت عملية التصنيع لدينا وحسنت الكفاءة بنسبة 35%. موصى به بشدة لمشاريع الأتمتة الصناعية."
-    },
-    "kavya": {
-      "name": "كافيا سينغ",
-      "location": "كارناتاكا",
-      "comment": "خدمة متميزة ودعم فني رائع! قدم الفريق توجيهاً استثنائياً طوال تنفيذ مشروع الطاقة الشمسية لدينا. نهجهم المهني والتسليم في الوقت المحدد فاق توقعاتنا تماماً."
-    },
-    "rajesh": {
-      "name": "راجيش كومار",
-      "location": "تاميل نادو",
-      "comment": "هندسة باورتون وفت بما وعدت به تماماً. نظام الأجهزة الذي قاموا بتركيبه يعمل بشكل مثالي لأكثر من عامين. دعمهم ما بعد البيع رائع ومتجاوب دائماً."
-    }
-  },
   "products": {
     "sections": {
-      "industrialProducts": "منتجات صناعية",
+      "industrialProducts": "المنتجات الصناعية",
       "applications": "تطبيقات {{product}}",
       "keyFeatures": "الميزات الرئيسية:"
     },
@@ -520,77 +640,60 @@
       "lowNoise": "ضوضاء منخفضة",
       "smartControl": "تحكم ذكي",
       "durable": "متين",
-      "energySaving": "موفر للطاقة",
+      "energySaving": "توفير الطاقة",
       "reliable": "موثوق",
       "costEffective": "فعال من حيث التكلفة"
     }
   },
   "cta": {
-    "getQuote": "احصل على عرض سعر",
+    "getQuote": "طلب عرض أسعار",
     "callNow": "اتصل الآن",
-    "emailUs": "راسلنا",
-    "learnMore": "اعرف المزيد",
+    "emailUs": "ارسل لنا بريد الكتروني",
+    "learnMore": "تعلم المزيد",
     "viewMore": "عرض المزيد",
     "contactUs": "اتصل بنا",
-    "getStarted": "ابدأ الآن",
+    "getStarted": "ابدأ",
     "downloadBrochure": "تحميل الكتيب"
   },
   "quote": {
     "projectTypes": {
       "processAutomation": "أتمتة العمليات",
       "powerControlSystems": "أنظمة التحكم في الطاقة",
-      "instrumentationControl": "الأجهزة والتحكم",
+      "instrumentationControl": "التحكم في الأجهزة",
       "solarAutomation": "أتمتة الطاقة الشمسية",
       "buildingAutomation": "أتمتة المباني",
       "manufacturingAutomation": "أتمتة التصنيع"
     },
     "industries": {
-      "manufacturing": "التصنيع",
+      "manufacturing": "تصنيع",
       "powerGeneration": "توليد الطاقة",
-      "oilGas": "النفط والغاز",
-      "chemicalProcessing": "المعالجة الكيميائية",
+      "oilGas": "نفط وغاز",
+      "chemicalProcessing": "معالجة كيميائية",
       "waterTreatment": "معالجة المياه",
-      "foodBeverage": "الأغذية والمشروبات",
+      "foodBeverage": "المأكولات والمشروبات",
       "pharmaceutical": "الأدوية",
-      "renewableEnergy": "الطاقة المتجددة"
+      "renewableEnergy": "طاقة متجددة"
     }
   },
   "common": {
     "keyFeatures": "الميزات الرئيسية"
   },
-  "technicalTerms": {
-    "BLDC": "BLDC (محركات التيار المستمر بدون فرش)",
-    "PLC": "PLC (وحدة التحكم المنطقي القابل للبرمجة)",
-    "SCADA": "SCADA (المراقبة والتحكم وجمع البيانات)",
-    "HMI": "HMI (واجهة الإنسان والآلة)",
-    "DCS": "DCS (نظام التحكم الموزع)",
-    "VFD": "VFD (محرك تردد متغير)",
-    "MCC": "MCC (مركز التحكم في المحرك)",
-    "PCC": "PCC (مركز التحكم في الطاقة)",
-    "RTU": "RTU (وحدات المحطة الطرفية البعيدة)",
-    "IED": "IED (الأجهزة الإلكترونية الذكية)",
-    "NABL": "NABL (المجلس الوطني لاعتماد مختبرات الاختبار والمعايرة)",
-    "MNRE": "MNRE (وزارة الطاقة الجديدة والمتجددة)",
-    "CPRI": "CPRI (معهد أبحاث الطاقة المركزي)",
-    "ISO": "ISO (المنظمة الدولية للمعايرة)",
-    "IEEE": "IEEE (معهد مهندسي الكهرباء والإلكترونيات)"
-  },
   "ui": {
     "ariaLabels": {
       "callUs": "اتصل بنا على {{phone}}",
-      "goToHomepage": "اذهب إلى الصفحة الرئيسية لهندسة باورتون",
-      "followLinkedIn": "تابع هندسة باورتون على لينكد إن",
-      "followTwitter": "تابع هندسة باورتون على X (تويتر سابقًا)",
-      "followFacebook": "تابع هندسة باورتون على فيسبوك",
+      "goToHomepage": "اذهب إلى الصفحة الرئيسية لـ Powerton Engineering",
+      "followLinkedIn": "تابع Powerton Engineering على LinkedIn",
+      "followTwitter": "تابع Powerton Engineering على X (المعروفة سابقًا باسم Twitter)",
+      "followFacebook": "تابع Powerton Engineering على Facebook",
       "toggleMobileMenu": "تبديل قائمة الجوال",
       "closeMobileMenu": "إغلاق قائمة الجوال",
       "openMobileMenu": "فتح قائمة الجوال",
-      "emailUs": "راسلنا على {{email}}"
+      "emailUs": "أرسل لنا بريدًا إلكترونيًا على {{email}}"
     },
     "altTexts": {
-      "companyLogo": "شعار شركة هندسة باورتون",
-      "heroImage": "حلول الأتمتة الصناعية والهندسة الكهربائية",
-      "productImage": "صورة المنتج لـ {{productName}}"
+      "companyLogo": "شعار شركة Powerton Engineering",
+      "heroImage": "حلول أتمتة العمليات الصناعية والهندسة الكهربائية",
+      "productImage": "صورة المنتج {{productName}}"
     }
   }
 }

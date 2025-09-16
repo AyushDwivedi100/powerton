@@ -1,13 +1,13 @@
 {
   "nav": {
-    "home": "Inicio",
-    "about": "Acerca de",
+    "home": "Casa",
+    "about": "Acerca de nosotros",
     "services": "Servicios",
     "products": "Productos",
     "projects": "Proyectos",
-    "contact": "Contacto",
+    "contact": "Contáctenos",
     "blog": "Blog",
-    "quote": "Obtener cotización"
+    "quote": "Solicitar presupuesto"
   },
   "language": {
     "en": "Inglés",
@@ -18,70 +18,70 @@
     "zh": "Chino",
     "pt": "Portugués",
     "ru": "Ruso",
-    "sw": "Suajili",
+    "sw": "Swahili",
     "ha": "Hausa"
-  },
-  "testimonials": {
-    "anand": {
-      "name": "Anand Awasthi",
-      "location": "Bengala Occidental",
-      "comment": "Powerton Engineering hizo que el proceso de adoptar la energía solar fuera fluido y fácil. Su equipo manejó todo de principio a fin, y estamos emocionados con los resultados."
-    },
-    "sanjay": {
-      "name": "Sanjay Patil",
-      "location": "Uttar Pradesh",
-      "comment": "Me alegra haber elegido Powerton Engineering para nuestra instalación, y no dudaría en recomendarlos a cualquiera de mis amigos."
-    },
-    "rhea": {
-      "name": "Rhea Sharma",
-      "location": "Maharashtra",
-      "comment": "Productos de excelente calidad y servicio al cliente excepcional. La experiencia técnica del equipo es impresionante y altamente profesional."
-    },
-    "priya": {
-      "name": "Priya Mehta",
-      "location": "Gujarat",
-      "comment": "Trabajar con Powerton Engineering fue una experiencia fantástica. Sus soluciones de automatización transformaron nuestro proceso de manufactura y mejoraron la eficiencia en un 35%. Altamente recomendado para proyectos de automatización industrial."
-    },
-    "kavya": {
-      "name": "Kavya Singh",
-      "location": "Karnataka",
-      "comment": "¡Servicio excepcional y soporte técnico! El equipo proporcionó orientación excepcional durante la implementación de nuestro proyecto solar. Su enfoque profesional y entrega oportuna superó completamente nuestras expectativas."
-    },
-    "rajesh": {
-      "name": "Rajesh Kumar",
-      "location": "Tamil Nadu",
-      "comment": "Powerton Engineering entregó exactamente lo que prometieron. El sistema de instrumentación que instalaron ha estado funcionando perfectamente por más de dos años. Su soporte post-venta es notable y siempre receptivo."
-    }
   },
   "navigation": {
     "backToProducts": "Volver a Productos",
-    "backToInstrumentationComponents": "Volver a Componentes de Instrumentación",
     "backToElectricalComponents": "Volver a Componentes Eléctricos",
     "backToSolarProducts": "Volver a Productos Solares",
-    "backToMechanicalPumps": "Volver a Bombas Mecánicas y Repuestos",
+    "backToMechanicalPumps": "Volver a Bombas Mecánicas",
     "backToMeasurementInstruments": "Volver a Instrumentos de Medición",
-    "backToSafetyDevices": "Volver a Dispositivos de Seguridad y Protección",
     "backToIndustrialTools": "Volver a Herramientas Industriales",
     "backToAutomationSystems": "Volver a Sistemas de Automatización",
-    "backToBLDC": "Volver a Productos de Motores de corriente continua sin escobillas (BLDC)",
-    "phoneNumbers": "Números de Teléfono"
+    "backToBLDC": "Volver a productos BLDC",
+    "backToInstrumentationComponents": "Volver a Componentes de Instrumentación",
+    "backToSafetyDevices": "Volver a Dispositivos de Seguridad y Protección",
+    "phoneNumbers": "Números de teléfono"
+  },
+  "testimonials": {
+    "anand": {
+      "name": "Ahmad Musa",
+      "location": "Bengala Occidental",
+      "comment": "Powerton Engineering hizo que nuestro proyecto de energía solar fuera fácil y sin estrés. Su equipo se encargó de todo de principio a fin, y estamos muy contentos con los resultados."
+    },
+    "sanjay": {
+      "name": "Sanusi Ahmad",
+      "location": "Uttar Pradesh",
+      "comment": "Estoy contento de haber elegido Powerton Engineering para nuestra instalación, y no dudaría en recomendarlos a cualquiera."
+    },
+    "rhea": {
+      "name": "Rahma Salihu",
+      "location": "Maharashtra",
+      "comment": "Productos de calidad excepcional y un servicio al cliente excepcional. La experiencia técnica del equipo es impresionante y muy eficiente."
+    },
+    "priya": {
+      "name": "Fatima Musa",
+      "location": "Gujarat",
+      "comment": "Trabajar con Powerton Engineering ha sido una experiencia increíble. Sus soluciones de automatización han transformado nuestro proceso de producción y han mejorado la eficiencia en un treinta y cinco por ciento. Muy recomendado para proyectos de automatización industrial."
+    },
+    "kavya": {
+      "name": "Hadiza Sani",
+      "location": "Karnataka",
+      "comment": "¡Excelente servicio y soporte técnico! El equipo brindó una guía excepcional durante la implementación de nuestro proyecto solar. Su enfoque profesional y entrega oportuna superaron nuestras expectativas por completo."
+    },
+    "rajesh": {
+      "name": "Usman Ahmad",
+      "location": "Tamil Nadu",
+      "comment": "Powerton Engineering cumplió exactamente lo que prometió. El sistema de instrumentos de medición que instalaron ha estado funcionando sin problemas durante más de dos años. Su soporte postventa es excelente y siempre responden."
+    }
   },
   "technicalTerms": {
-    "BLDC": "MCCSE (Motores de Corriente Continua Sin Escobillas)",
-    "PLC": "CLP (Controlador Lógico Programable)",
-    "SCADA": "CSAD (Control Supervisor y Adquisición de Datos)",
-    "HMI": "IHM (Interfaz Hombre-Máquina)",
-    "DCS": "SCD (Sistema de Control Distribuido)",
-    "VFD": "VF (Variador de Frecuencia)",
-    "MCC": "CCM (Centro de Control de Motores)",
-    "PCC": "CCP (Centro de Control de Potencia)",
-    "RTU": "UTR (Unidades de Terminal Remoto)",
-    "IED": "DEI (Dispositivos Electrónicos Inteligentes)",
-    "NABL": "JNALPC (Junta Nacional de Acreditación para Laboratorios de Prueba y Calibración)",
-    "MNRE": "MENR (Ministerio de Energías Nuevas y Renovables)",
-    "CPRI": "ICIE (Instituto Central de Investigación Eléctrica)",
-    "ISO": "OIN (Organización Internacional de Normalización)",
-    "IEEE": "IIEE (Instituto de Ingenieros Eléctricos y Electrónicos)"
+    "BLDC": "BLDC (Motores de CC sin escobillas)",
+    "PLC": "PLC (Controlador Lógico Programable)",
+    "SCADA": "SCADA (Control de Supervisión y Adquisición de Datos)",
+    "HMI": "HMI (Interfaz Humano-Máquina)",
+    "DCS": "DCS (Sistema de Control Distribuido)",
+    "VFD": "VFD (Variador de Frecuencia Variable)",
+    "MCC": "MCC (Centro de Control de Motores)",
+    "PCC": "PCC (Centro de Control de Energía)",
+    "RTU": "RTU (Unidades Terminales Remotas)",
+    "IED": "IED (Dispositivos Electrónicos Inteligentes)",
+    "NABL": "NABL (Junta Nacional de Acreditación para Laboratorios de Pruebas y Calibración)",
+    "MNRE": "MNRE (Ministerio de Energías Nuevas y Renovables)",
+    "CPRI": "CPRI (Instituto Central de Investigación de Energía)",
+    "ISO": "ISO (Organización Internacional de Normalización)",
+    "IEEE": "IEEE (Instituto de Ingenieros Eléctricos y Electrónicos)"
   },
   "buttons": {
     "downloadPortfolio": "Descargar Portafolio",
@@ -90,10 +90,10 @@
     "downloadCatalog": "Descargar Catálogo",
     "viewDetails": "Ver Detalles",
     "backTo": "Volver a {{category}}",
-    "backToBldcProducts": "Volver a Productos de Motores de corriente continua sin escobillas (BLDC)",
+    "backToBldcProducts": "Volver a productos de motores de CC sin escobillas (BLDC)",
     "backToProducts": "Volver a Productos",
-    "requestQuote": "Solicitar Cotización",
-    "expertTeam": "Equipo Experto",
+    "requestQuote": "Solicitar Presupuesto",
+    "expertTeam": "Equipo de Expertos",
     "successfulProjects": "Proyectos Exitosos",
     "qualityProducts": "Productos de Calidad",
     "sendMessage": "Enviar Mensaje",
@@ -101,21 +101,21 @@
     "submit": "Enviar",
     "viewProducts": "Ver Productos",
     "viewServices": "Ver Servicios",
-    "getInTouch": "Contactarse",
+    "getInTouch": "Contáctenos",
     "exploreProducts": "Explorar Productos",
     "viewCatalog": "Ver Catálogo",
-    "quickQuote": "Cotización Rápida",
-    "getQuote": "Obtener Cotización",
+    "quickQuote": "Obtener una cotización rápida",
+    "getQuote": "Solicitar Presupuesto",
     "callNow": "Llamar Ahora",
-    "emailUs": "Enviar Email",
-    "learnMore": "Más Información",
+    "emailUs": "Envíanos un Correo Electrónico",
+    "learnMore": "Aprender Más",
     "viewMore": "Ver Más",
     "viewAll": "Ver Todo",
-    "contactUs": "Contáctanos",
+    "contactUs": "Contáctenos",
     "getStarted": "Comenzar",
     "downloadBrochure": "Descargar Folleto",
-    "contactExpert": "Contactar Experto",
-    "next": "Siguiente",
+    "contactExpert": "Contactar a un Experto",
+    "next": "Próximo",
     "previous": "Anterior",
     "complete": "Completar"
   },
@@ -123,40 +123,40 @@
   "error": "Algo salió mal",
   "success": "¡Éxito!",
   "messages": {
-    "toggleTheme": "Cambiar Tema",
+    "toggleTheme": "Cambiar tema",
     "close": "Cerrar",
     "engineeringAdvisor": "Asesor de Ingeniería",
     "comingSoon": "Próximamente",
     "catalogComingSoon": "¡La descarga del catálogo de productos estará disponible pronto!"
   },
   "aria": {
-    "previousTestimonial": "Testimonio anterior",
-    "nextTestimonial": "Siguiente testimonio",
-    "toggleNavigation": "Alternar navegación",
-    "openLocation": "Abrir ubicación de oficina en Google Maps",
+    "toggleNavigation": "Alternar el menú de navegación",
+    "openLocation": "Abrir la ubicación de la oficina en Google Maps",
     "exploreServices": "Explorar nuestros servicios de automatización industrial e ingeniería",
-    "requestConsultation": "Solicitar consulta gratuita para su proyecto de ingeniería",
-    "companyHighlights": "Aspectos destacados de la empresa y servicios principales",
+    "requestConsultation": "Solicitar una consulta gratuita para un proyecto de ingeniería",
+    "companyHighlights": "Aspectos destacados de la empresa y servicios",
     "performanceStats": "Estadísticas de rendimiento de la empresa",
+    "previousTestimonial": "Testimonio anterior",
+    "nextTestimonial": "Testimonio siguiente",
     "mainNavigation": "Navegación principal",
     "companyInfo": "Información de la empresa y navegación del sitio",
-    "goToHomepage": "Ir a la página principal de Powerton Engineering",
+    "goToHomepage": "Ir a la página de inicio de Powerton Engineering",
     "followLinkedIn": "Seguir a Powerton Engineering en LinkedIn",
     "followFacebook": "Seguir a Powerton Engineering en Facebook",
     "servicesNavigation": "Navegación de servicios",
     "productsNavigation": "Navegación de productos",
     "callCompany": "Llamar a Powerton Engineering",
-    "emailCompany": "Enviar correo a Powerton Engineering",
-    "viewOfficeLocation": "Ver ubicación de oficina de Powerton Engineering en Google Maps",
-    "officeLocationTitle": "Ubicación de oficina de Powerton Engineering",
-    "controllerSystems": "Controladores y Registradores",
-    "controllerDescription": "Controladores de proceso y sistemas de registro de datos para control industrial",
+    "emailCompany": "Enviar un correo electrónico a Powerton Engineering",
+    "viewOfficeLocation": "Ver la ubicación de la oficina de Powerton Engineering en Google Maps",
+    "officeLocationTitle": "Ubicación de la oficina de Powerton Engineering",
+    "controllerSystems": "Sistemas de Controladores",
+    "controllerDescription": "Controladores de proceso y sistemas de registro de datos para automatización industrial",
     "plcSystems": "Sistemas PLC",
     "processControllers": "Controladores de proceso",
     "dataLoggers": "Registradores de datos",
     "controlPanels": "Paneles de control",
     "switchesIndicators": "Interruptores e Indicadores",
-    "switchesDescription": "Interruptores industriales, indicadores y equipos de señalización",
+    "switchesDescription": "Interruptores industriales, indicadores y dispositivos de señalización",
     "pushbuttonSwitches": "Interruptores de botón",
     "selectorSwitches": "Interruptores selectores",
     "indicatorLights": "Luces indicadoras",
@@ -174,59 +174,83 @@
     "processAnalyzers": "Analizadores de proceso",
     "multiParameterSystems": "Sistemas multiparámetro",
     "signalConditioners": "Acondicionadores de señal",
-    "signalConditionersDescription": "Equipos de procesamiento y acondicionamiento de señales para sistemas de medición",
+    "signalConditionersDescription": "Equipos de procesamiento y acondicionamiento de señal para sistemas de medición",
     "isolationAmplifiers": "Amplificadores de aislamiento",
     "signalConverters": "Convertidores de señal",
     "measuringTransducers": "Transductores de medición",
     "noiseFilters": "Filtros de ruido"
   },
-  "badges": {
-    "energyEfficient": "Eficiente energéticamente",
-    "smartControl": "Control inteligente",
-    "silentOperation": "Funcionamiento silencioso",
-    "longLife": "Larga vida útil",
-    "highPerformance": "Alto rendimiento",
-    "ecoFriendly": "Ecológico",
-    "costEffective": "Rentable",
-    "premiumQuality": "Calidad premium",
-    "industrialGrade": "Grado industrial",
-    "certified": "Certificado",
-    "warrantyIncluded": "Garantía incluida",
-    "fastDelivery": "Entrega rápida"
-  },
-  "headings": {
-    "bldcCeilingFanModels": "Modelos de ventiladores de techo MCCSE",
-    "ourProducts": "Nuestros productos",
-    "specifications": "Especificaciones",
-    "keyFeatures": "Características principales",
-    "technicalDetails": "Detalles técnicos",
-    "availableModels": "Modelos disponibles",
-    "productOverview": "Resumen del producto",
-    "relatedProducts": "Productos relacionados",
-    "industryApplications": "Aplicaciones industriales",
-    "relatedServices": "Servicios relacionados",
-    "quickFacts": "Datos rápidos",
-    "technologiesAndMethods": "Tecnologías y métodos"
-  },
   "productSections": {
-    "keyFeatures": "Características principales:",
+    "keyFeatures": "Características Clave:",
     "specifications": "Especificaciones",
     "applications": "Aplicaciones",
     "industries": "Industrias",
-    "needSurgeProtection": "¿Necesita protección contra sobretensiones?",
-    "needSolarInverterSolutions": "¿Necesita soluciones de inversores solares?",
-    "needSolarChargeControl": "¿Necesita control de carga solar?",
-    "surgeProtectionDescription": "Nuestros especialistas en protección pueden diseñar sistemas integrales de protección contra sobretensiones para su instalación.",
-    "solarInverterDescription": "Nuestros ingenieros solares pueden diseñar el sistema de inversor óptimo para su instalación solar.",
-    "solarChargeDescription": "Nuestros especialistas solares pueden ayudarle a seleccionar el controlador de carga adecuado para su sistema de batería.",
-    "energyStorageDescription": "Nuestros expertos en almacenamiento de energía pueden diseñar el sistema de batería óptimo para su instalación solar."
+    "needSurgeProtection": "¿Necesita Protección contra Sobretensiones?",
+    "needSolarInverterSolutions": "¿Necesita Soluciones de Inversores Solares?",
+    "needSolarChargeControl": "¿Necesita Control de Carga Solar?",
+    "surgeProtectionDescription": "Nuestros expertos en protección pueden diseñar sistemas completos de protección contra sobretensiones para su instalación.",
+    "solarInverterDescription": "Nuestros ingenieros solares pueden diseñar el sistema inversor óptimo para su instalación solar.",
+    "solarChargeDescription": "Nuestros expertos en energía solar pueden ayudarlo a seleccionar el controlador de carga adecuado para su sistema de baterías.",
+    "energyStorageDescription": "Nuestros expertos en almacenamiento de energía pueden diseñar el sistema de baterías óptimo para su instalación solar."
+  },
+  "badges": {
+    "energyEfficient": "Eficiencia Energética",
+    "smartControl": "Control Inteligente",
+    "silentOperation": "Funcionamiento Silencioso",
+    "longLife": "Larga Vida Útil",
+    "highPerformance": "Alto Rendimiento",
+    "ecoFriendly": "Ecológico",
+    "costEffective": "Rentable",
+    "premiumQuality": "Calidad Premium",
+    "industrialGrade": "Grado Industrial",
+    "certified": "Certificado",
+    "warrantyIncluded": "Garantía Incluida",
+    "fastDelivery": "Entrega Rápida"
+  },
+  "headings": {
+    "bldcCeilingFanModels": "Modelos de Ventiladores de Techo BLDC",
+    "ourProducts": "Nuestros Productos",
+    "specifications": "Especificaciones",
+    "keyFeatures": "Características Clave",
+    "technicalDetails": "Detalles Técnicos",
+    "availableModels": "Modelos Disponibles",
+    "productOverview": "Descripción General del Producto",
+    "relatedProducts": "Productos Relacionados",
+    "industryApplications": "Aplicaciones Industriales",
+    "relatedServices": "Servicios Relacionados",
+    "quickFacts": "Datos Rápidos",
+    "technologiesAndMethods": "Tecnologías y Métodos"
+  },
+  "company": {
+    "name": "Powerton Engineering Pvt. Ltd.",
+    "tagline": "Su socio confiable en automatización industrial e ingeniería eléctrica",
+    "phone": "+91-94627-71662 / +91-82997-27291",
+    "email": "info@powertonengineering.com",
+    "address": {
+      "street": "F-25, Edificio F, Sector 6",
+      "city": "Noida",
+      "state": "Uttar Pradesh",
+      "pincode": "201301",
+      "landmark": "metro más cercano - Sector 15",
+      "full": "Segundo piso, F-25, Edificio F, Sector 6, Noida, Uttar Pradesh 201301, India"
+    },
+    "businessHours": {
+      "weekdays": "Lunes - Sábado: 9:00 AM - 6:00 PM",
+      "sunday": "Domingo: Solo soporte de emergencia"
+    },
+    "stats": {
+      "yearsExperience": "Años de Experiencia",
+      "projectsCompleted": "Proyectos Completados",
+      "clientsServed": "Clientes Satisfechos",
+      "support": "Soporte"
+    }
   },
   "seo": {
     "powerton": {
       "name": "Powerton Engineering Pvt. Ltd.",
-      "description": "Empresa líder en automatización industrial e ingeniería eléctrica que atiende a clientes en todo el mundo. Especializada en automatización de centrales eléctricas, instalaciones solares y sistemas de control de fabricación.",
-      "keywords": "Automatización Industrial, Ingeniería Eléctrica, Central Eléctrica, Energía Solar, Fabricación, Sistemas de Control, Instrumentación, CSAD, CLP, Soluciones de Automatización, Instalación Eléctrica, Paneles de Control Industrial, Automatización de Procesos, Distribución de Energía, Centros de Control de Motores, Mantenimiento Eléctrico, Servicios Eléctricos Industriales, Consultoría de Automatización, Diseño Eléctrico, Sistemas de Potencia",
-      "author": "Equipo de Powerton Engineering"
+      "description": "Empresa líder en automatización industrial e ingeniería eléctrica que presta servicios a clientes en todo el mundo. Experiencia en automatización de centrales eléctricas, instalaciones solares y sistemas de control industrial.",
+      "keywords": "Automatización Industrial, Ingeniería Eléctrica, Central Eléctrica, Energía Solar, Fabricación, Sistemas de Control, Instrumentación, SCADA, PLC, Soluciones de Automatización, Instalaciones Eléctricas, Panel de Control Industrial, Control de Procesos, Distribución de Energía, Centros de Control de Motores, Monitoreo Eléctrico, Servicios Eléctricos Industriales, Consultoría de Automatización, Diseño Eléctrico, Sistemas de Energía",
+      "author": "Equipo de Ingeniería de Powerton"
     },
     "location": {
       "name": "Noida, Uttar Pradesh, India",
@@ -234,8 +258,8 @@
       "country": "India"
     },
     "companyName": "Powerton Engineering Pvt. Ltd.",
-    "companyDescription": "Empresa líder en automatización industrial e ingeniería eléctrica que atiende a clientes en todo el mundo. Especializada en automatización de centrales eléctricas, instalaciones solares y sistemas de control de fabricación.",
-    "siteName": "Powerton Engineering",
+    "companyDescription": "Empresa líder en automatización industrial e ingeniería eléctrica que presta servicios a clientes en todo el mundo. Experiencia en automatización de centrales eléctricas, instalaciones solares y sistemas de control industrial.",
+    "siteName": "Ingeniería de Powerton",
     "twitterHandle": "@powerton_eng",
     "businessAddress": {
       "street": "F-25, F Block, Sector 6",
@@ -251,9 +275,9 @@
     "businessInfo": {
       "industry": "Automatización Industrial, Ingeniería Eléctrica, Instrumentación",
       "category": "Servicios de Ingeniería, Soluciones de Automatización, Sistemas Eléctricos",
-      "targetAudience": "Ingenieros Industriales, Gerentes de Planta, Profesionales de la Automatización",
+      "targetAudience": "Ingenieros Industriales, Gerentes de Fabricación, Profesionales de Automatización",
       "companyType": "Proveedor de Soluciones de Ingeniería B2B",
-      "serviceArea": "Cobertura de Servicio Global con Entrega de Proyectos Internacionales"
+      "serviceArea": "Servicio Global con Entrega de Proyectos Internacionales"
     }
   },
   "labels": {
@@ -268,150 +292,82 @@
     "satisfiedClients": "Clientes Satisfechos",
     "yearsExperience": "Años de Experiencia",
     "responseTime": "Tiempo de Respuesta",
-    "businessHours": "Horario de Oficina",
+    "businessHours": "Horario Comercial",
     "mondayToSaturday": "Lunes - Sábado",
     "workingHours": "9:00 AM - 6:00 PM",
     "sunday": "Domingo",
     "emergencySupport": "Solo Soporte de Emergencia"
   },
-  "altTexts": {
-    "aboutBackground": "ID-004: Instalación de automatización industrial de Powerton Engineering con sistemas de control modernos",
-    "companyLogo": "Powerton Engineering Pvt. Ltd. - Logotipo de la empresa de automatización industrial e ingeniería eléctrica",
-    "contactBackground": "ID-834: Fondo de oficina de centro de contacto y soporte al cliente para empresa de ingeniería"
-  },
-  "products": {
-    "sections": {
-      "industrialProducts": "Productos Industriales",
-      "applications": "Aplicaciones de {{product}}",
-      "keyFeatures": "Características Principales:"
-    },
-    "badges": {
-      "highEfficiency": "Alta Eficiencia",
-      "variableSpeed": "Velocidad Variable",
-      "lowNoise": "Bajo Ruido",
-      "smartControl": "Control Inteligente",
-      "durable": "Duradero",
-      "energySaving": "Ahorro de Energía",
-      "reliable": "Confiable",
-      "costEffective": "Costo-Efectivo"
-    }
-  },
-  "keyFeatures": "Características principales",
-  "requestQuote": "Solicitar cotización",
   "placeholders": {
-    "selectProjectType": "Selecciona tipo de proyecto",
-    "selectIndustry": "Selecciona industria",
-    "selectProjectSize": "Selecciona tamaño del proyecto",
-    "selectTimeline": "Selecciona cronograma",
+    "selectProjectType": "Seleccionar tipo de proyecto",
+    "selectIndustry": "Seleccionar industria",
+    "selectProjectSize": "Seleccionar tamaño del proyecto",
+    "selectTimeline": "Seleccionar cronograma",
     "projectTimeline": "Cronograma del proyecto",
-    "selectBudgetRange": "Selecciona rango de presupuesto (opcional)",
+    "selectBudgetRange": "Seleccionar rango de presupuesto (opcional)",
     "cityState": "Ciudad, Estado",
-    "describeExisting": "Describe cualquier sistema o infraestructura existente...",
+    "describeExisting": "Describa cualquier sistema o equipo existente...",
     "searchProjects": "Buscar proyectos, clientes o tecnologías...",
-    "selectIndustryFilter": "Selecciona Industria",
-    "selectCategory": "Selecciona Categoría",
-    "selectStatus": "Selecciona Estado",
-    "askChatbot": "Pregúntame sobre productos, servicios o ayuda técnica...",
-    "yourFullName": "Tu nombre completo",
-    "yourEmail": "tu@empresa.com",
+    "selectIndustryFilter": "Seleccionar industria",
+    "selectCategory": "Seleccionar categoría",
+    "selectStatus": "Seleccionar estado",
+    "askChatbot": "Pregúntame sobre productos, servicios o soporte técnico...",
+    "yourFullName": "Su nombre completo",
+    "yourEmail": "sucorreo@empresa.com",
     "yourPhone": "+91-XXXXX-XXXXX",
-    "yourRole": "Tu cargo/posición",
-    "yourCompanyName": "Nombre de tu empresa",
-    "briefProjectTitle": "Título breve para tu proyecto"
+    "yourRole": "Su rol/posición",
+    "yourCompanyName": "Nombre de su empresa",
+    "briefProjectTitle": "Título breve de su proyecto"
   },
   "projectCategories": {
-    "Power Plant": "Planta de Energía",
-    "Manufacturing": "Manufactura",
+    "Power Plant": "Central Eléctrica",
+    "Manufacturing": "Fabricación",
     "Solar": "Solar",
     "Water Treatment": "Tratamiento de Agua",
     "Process Automation": "Automatización de Procesos",
     "Power Systems": "Sistemas de Energía"
   },
   "projects": {
-    "industrial-automation-demo": {
-      "title": "Demo: Sistema de Automatización Industrial",
-      "client": "Cliente de Manufactura del Futuro",
-      "category": "Automatización de Procesos",
-      "description": "Demostración de capacidades completas de automatización manufacturera incluyendo integración PLC, sistemas SCADA y soluciones de monitoreo en tiempo real.",
-      "location": "Sitio del Proyecto TBD",
-      "duration": "12-18 meses",
-      "budget": "₹50-75 Lakhs",
-      "status": "Demo de Capacidades",
-      "technologies": {
-        "plcProgramming": "Programación PLC",
-        "scada": "SCADA",
-        "hmi": "HMI",
-        "industrialIot": "IoT Industrial"
-      },
-      "highlights": {
-        "plcIntegration": "Integración PLC",
-        "scadaSystems": "Sistemas SCADA",
-        "realtimeMonitoring": "Monitoreo en Tiempo Real",
-        "processOptimization": "Optimización de Procesos"
-      }
-    },
-    "power-distribution-demo": {
-      "title": "Ejemplo: Control de Distribución de Energía",
-      "client": "Socio de Energía del Futuro",
-      "category": "Sistemas de Energía",
-      "description": "Ejemplo de sistema de distribución de energía que muestra capacidades de balanceo automático de cargas y monitoreo remoto para instalaciones de generación de energía.",
-      "location": "Varias Ubicaciones",
-      "duration": "10-15 meses",
-      "budget": "₹1-2 Crores",
-      "status": "Demo de Capacidades",
-      "technologies": {
-        "mccPanels": "Paneles MCC",
-        "protectionSystems": "Sistemas de Protección",
-        "energyManagement": "Gestión Energética",
-        "remoteMonitoring": "Monitoreo Remoto"
-      },
-      "highlights": {
-        "loadBalancing": "Balanceo de Cargas",
-        "protectionSystems": "Sistemas de Protección",
-        "energyManagement": "Gestión Energética",
-        "remoteControl": "Control Remoto"
-      }
-    },
     "thermal-plant": {
-      "title": "Automatización de Central Térmica",
-      "description": "Solución completa de automatización para central térmica de 250MW incluyendo paneles de control, sistemas SCADA e interbloqueos de seguridad.",
+      "title": "Automatización de Planta de Energía Térmica",
+      "description": "Soluciones completas de automatización para una planta de energía térmica de 250MW, incluyendo paneles de control, sistemas SCADA y enclavamientos de seguridad.",
       "location": "Uttar Pradesh",
       "duration": "12 meses",
       "highlights": {
-        "scada": "Implementación SCADA",
+        "scada": "Implementación de SCADA",
         "safety": "Sistemas de Seguridad",
         "control": "Paneles de Control",
-        "monitoring": "Monitoreo de Rendimiento"
+        "monitoring": "Monitoreo de Operaciones"
       }
     },
     "pharma-plant": {
-      "title": "Sistema de Control de Planta Farmacéutica",
-      "description": "Sistema avanzado de control y monitoreo de procesos para manufactura farmacéutica con cumplimiento FDA e integridad de datos.",
+      "title": "Sistema de Automatización de Planta Farmacéutica",
+      "description": "Sistema integral de control y monitoreo de procesos para una planta farmacéutica, cumpliendo con las regulaciones de la FDA y características de seguridad de datos.",
       "location": "Maharashtra",
       "duration": "8 meses",
       "highlights": {
-        "fda": "Cumplimiento FDA",
-        "data": "Integridad de Datos",
+        "fda": "Cumplimiento de Regulaciones de la FDA",
+        "data": "Seguridad de Datos",
         "process": "Control de Procesos",
-        "quality": "Monitoreo de Calidad"
+        "quality": "Control de Calidad"
       }
     },
     "solar-plant": {
-      "title": "Instalación de Energía Solar de 10MW",
-      "description": "Diseño e instalación completa de planta de energía solar conectada a la red con sistemas de monitoreo y equipos de sincronización de red.",
+      "title": "Instalación de Planta de Energía Solar de 10MW",
+      "description": "Diseño e instalación completos de una planta de energía solar conectada a la red con sistemas de monitoreo y equipo de sincronización de red.",
       "location": "Rajasthan",
       "duration": "6 meses",
       "highlights": {
-        "grid": "Conexión a Red",
+        "grid": "Conexión a la Red",
         "monitoring": "Sistemas de Monitoreo",
-        "optimization": "Optimización de Rendimiento",
-        "maintenance": "Planificación de Mantenimiento"
+        "optimization": "Optimización del Rendimiento",
+        "maintenance": "Mantenimiento Programado"
       }
     },
     "water-treatment": {
       "title": "Automatización de Tratamiento de Agua Municipal",
-      "description": "Sistema de control automatizado para planta de tratamiento de agua que sirve a 500,000 residentes con monitoreo en tiempo real y control de calidad.",
-      "location": "Bengala Occidental",
+      "description": "Sistema de automatización para una planta de tratamiento de agua que sirve a 500,000 residentes con monitoreo en tiempo real y control de calidad.",
+      "location": "West Bengal",
       "duration": "10 meses",
       "highlights": {
         "monitoring": "Monitoreo en Tiempo Real",
@@ -419,13 +375,62 @@
         "automation": "Operaciones Automatizadas",
         "remote": "Gestión Remota"
       }
+    },
+    "industrial-automation-demo": {
+      "title": "Demo: Sistema de Automatización Industrial",
+      "client": "Futuro Cliente Industrial",
+      "category": "Automatización de Procesos",
+      "description": "Demostración de capacidades integrales de automatización industrial, incluyendo integración de PLC, sistemas SCADA y soluciones de monitoreo en tiempo real.",
+      "location": "Ubicación TBD",
+      "duration": "12-18 meses",
+      "budget": "₹50-75 Lakhs",
+      "status": "Demo Funcional",
+      "technologies": {
+        "plcProgramming": "Programación de PLC",
+        "scada": "SCADA",
+        "hmi": "HMI",
+        "industrialIot": "IoT Industrial"
+      },
+      "highlights": {
+        "plcIntegration": "Integración de PLC",
+        "scadaSystems": "Sistemas SCADA",
+        "realtimeMonitoring": "Monitoreo en Tiempo Real",
+        "processOptimization": "Optimización de Procesos"
+      }
+    },
+    "power-distribution-demo": {
+      "title": "Ejemplo: Automatización de Distribución de Energía",
+      "client": "Futuro Socio de Distribución de Energía",
+      "category": "Sistemas de Energía",
+      "description": "Ejemplo de sistema de distribución de energía que muestra el equilibrio de carga automatizado y capacidades de monitoreo remoto para instalaciones de generación de energía.",
+      "location": "Varias Ubicaciones",
+      "duration": "10-15 meses",
+      "budget": "₹1-2 Crores",
+      "status": "Demo Funcional",
+      "technologies": {
+        "mccPanels": "Paneles MCC",
+        "protectionSystems": "Sistemas de Protección",
+        "energyManagement": "Gestión de Energía",
+        "remoteMonitoring": "Monitoreo Remoto"
+      },
+      "highlights": {
+        "loadBalancing": "Equilibrio de Carga",
+        "protectionSystems": "Sistemas de Protección",
+        "energyManagement": "Gestión de Energía",
+        "remoteControl": "Control Remoto"
+      }
     }
   },
   "steps": {
-    "projectTypeIndustry": "Tipo de Proyecto e Industria",
-    "projectSpecifications": "Especificaciones del Proyecto",
-    "requirementsFeatures": "Requisitos y Características",
+    "projectTypeIndustry": "Tipo de proyecto e industria",
+    "projectSpecifications": "Especificaciones del proyecto",
+    "requirementsFeatures": "Requisitos y características",
     "additionalInformation": "Información Adicional"
+  },
+  "altTexts": {
+    "contactBackground": "ID-834: Red y oficina de soporte al cliente para empresa de ingeniería",
+    "aboutBackground": "ID-004: Edificio de automatización industrial de Powerton Engineering con sistemas de control modernos",
+    "companyLogo": "Powerton Engineering Pvt. Ltd. - Logotipo de la empresa de automatización industrial e ingeniería eléctrica"
   },
   "sitemap": {
     "sections": {
@@ -442,10 +447,16 @@
       "measurementInstrumentation": "Medición e instrumentación",
       "industrialTools": "Herramientas y equipos industriales",
       "pumpsFluid": "Bombas y sistemas de fluidos",
-      "solarRenewable": "Solar y energías renovables",
+      "solarRenewable": "Energía solar y renovable",
       "safetyProtection": "Seguridad y protección",
-      "structuralMounting": "Estructural y montaje",
-      "networkCommunication": "Red y comunicación"
+      "structuralMounting": "Estructura y montaje",
+      "networkCommunication": "Red y comunicación",
+      "measurementInstruments": "Instrumentos de Medición",
+      "solarProducts": "Productos Solares",
+      "automationControlSystems": "Sistemas de Control de Automatización",
+      "safetyProtectiveDevices": "Dispositivos de Seguridad y Protección",
+      "mechanicalPumpsSpares": "Bombas Mecánicas y Repuestos",
+      "industrialToolsTackles": "Herramientas Industriales"
     },
     "pages": {
       "home": "Inicio",
@@ -456,52 +467,119 @@
       "serviceDetails": "Detalles del servicio",
       "projects": "Proyectos",
       "allProducts": "Todos los productos",
-      "requestQuote": "Solicitar cotización",
+      "requestQuote": "Solicitar presupuesto",
       "downloadPortfolio": "Descargar portafolio",
       "newsUpdates": "Noticias y actualizaciones",
       "newsArticles": "Artículos de noticias",
       "termsOfService": "Términos de servicio",
-      "sitemap": "Mapa del sitio"
+      "sitemap": "Mapa del sitio",
+      "sensors": "Sensores",
+      "transmitters": "Transmisores",
+      "controllers": "Controladores",
+      "switches": "Interruptores",
+      "valves": "Válvulas",
+      "analyzers": "Analizadores",
+      "signalConditioners": "Acondicionadores de señal",
+      "cablesWires": "Cables e hilos",
+      "connectorsTerminals": "Conectores y terminales",
+      "circuitBreakersFuses": "Interruptores automáticos y fusibles",
+      "powerSupplies": "Fuentes de alimentación",
+      "enclosuresCabinets": "Cajas y armarios",
+      "heatingElementsAppliances": "Elementos calefactores y aparatos",
+      "surgeProtectors": "Protectores contra sobretensiones",
+      "groundingSystems": "Sistemas de puesta a tierra",
+      "multimeters": "Multímetros",
+      "oscilloscopes": "Osciloscopios",
+      "spectrumAnalyzers": "Analizadores de espectro",
+      "powerQualityAnalyzers": "Analizadores de calidad de energía",
+      "calibrationEquipment": "Equipo de calibración",
+      "solarPanels": "Paneles solares",
+      "solarInverters": "Inversores solares",
+      "solarChargeControllers": "Controladores de carga solar",
+      "solarBatteriesEnergyStorage": "Baterías solares y almacenamiento de energía",
+      "mountingStructuresRacking": "Estructuras de montaje y estanterías",
+      "plcs": "PLCs",
+      "scada": "SCADA",
+      "dcs": "DCS",
+      "hmi": "HMI",
+      "safetyEquipment": "Equipo de seguridad",
+      "safetyRelaysSwitches": "Relés e interruptores de seguridad",
+      "intrinsicallySafeEquipment": "Equipo de seguridad intrínseca",
+      "centrifugalPumps": "Bombas centrífugas",
+      "diaphragmPumps": "Bombas de diafragma",
+      "gearPumps": "Bombas de engranajes",
+      "pumpPartsSpares": "Piezas y repuestos de bombas",
+      "handTools": "Herramientas de mano",
+      "powerTools": "Herramientas eléctricas",
+      "cuttingTools": "Herramientas de corte",
+      "liftingEquipment": "Equipo de elevación",
+      "bldcCeilingFan": "Ventilador de techo BLDC",
+      "bldcCoolerExhaustMotor": "Motores de refrigerador y escape BLDC",
+      "bldcSubmersibleSurfacePump": "Bomba sumergible BLDC",
+      "bldcTableFanWallFanMotor": "Motores de ventilador de mesa y pared BLDC"
     },
     "descriptions": {
       "home": "Bienvenido a Powerton Engineering - Soluciones de automatización industrial",
-      "aboutUs": "Conoce nuestra empresa, misión y experiencia",
-      "contact": "Ponte en contacto con nuestro equipo de ingeniería",
-      "gallery": "Ve nuestra galería de proyectos e instalaciones",
+      "aboutUs": "Aprenda sobre nuestra empresa, misión y experiencia",
+      "contact": "Contacte a nuestro equipo de ingeniería",
+      "gallery": "Vea fotos de nuestros proyectos e instalaciones",
       "ourServices": "Servicios de automatización industrial e ingeniería eléctrica",
-      "serviceDetails": "Información detallada sobre servicios específicos",
-      "projects": "Portafolio de proyectos de automatización industrial completados",
-      "allProducts": "Catálogo completo de productos de automatización industrial",
-      "requestQuote": "Obtén una cotización detallada para tu proyecto",
-      "downloadPortfolio": "Descarga portafolios de proyectos y documentación",
+      "serviceDetails": "Detalles sobre servicios específicos",
+      "projects": "Lista de proyectos de automatización industrial completados",
+      "allProducts": "Lista completa de productos de automatización industrial",
+      "requestQuote": "Obtenga un presupuesto detallado para su proyecto",
+      "downloadPortfolio": "Descargue una lista de proyectos y credenciales",
       "newsUpdates": "Últimas noticias y actualizaciones de la empresa",
-      "newsArticles": "Artículos de noticias y actualizaciones individuales",
+      "newsArticles": "Artículos de noticias individuales y actualizaciones",
       "termsOfService": "Términos y condiciones para usar nuestros servicios",
-      "sitemap": "Navegación completa del sitio y estructura de páginas"
-    }
-  },
-  "company": {
-    "stats": {
-      "yearsExperience": "Años de Experiencia",
-      "projectsCompleted": "Proyectos Completados", 
-      "clientsServed": "Clientes Satisfechos",
-      "responseTime": "apoyo"
-    },
-    "name": "Powerton Engineering Pvt. Ltd.",
-    "tagline": "Su socio de confianza en automatización industrial e ingeniería eléctrica",
-    "phone": "+91-94627-71662",
-    "email": "info@powertonengineering.com",
-    "address": {
-      "street": "Segundo Piso, F-25, Bloque F, Sector 6",
-      "city": "Noida",
-      "state": "Uttar Pradesh",
-      "pincode": "201301",
-      "landmark": "metro más cercano-Sector 15",
-      "full": "Segundo Piso, F-25, Bloque F, Sector 6, Noida, Uttar Pradesh 201301, India"
-    },
-    "businessHours": {
-      "weekdays": "Lunes - Sábado: 9:00 AM - 6:00 PM",
-      "sunday": "Domingo: Solo Soporte de Emergencia"
+      "sitemap": "Guía completa del sitio y estructura de la página",
+      "sensorsDescription": "Sensores para medir condiciones y procesos industriales",
+      "transmittersDescription": "Transmisores para enviar datos a los sistemas de control",
+      "controllersDescription": "Controladores de proceso y equipos de registro de datos",
+      "switchesDescription": "Interruptores industriales, indicadores y dispositivos de señalización",
+      "valvesDescription": "Válvulas de control y actuadores para sistemas de control",
+      "analyzersDescription": "Analizadores de gas, líquido y proceso para control de calidad",
+      "signalConditionersDescription": "Equipos de procesamiento y acondicionamiento de señales",
+      "cablesWiresDescription": "Cables e hilos para conexión eléctrica y comunicación",
+      "connectorsTerminalsDescription": "Conectores y terminales para conexiones eléctricas",
+      "circuitBreakersFusesDescription": "Protección de circuitos e interruptores para sistemas eléctricos",
+      "powerSuppliesDescription": "Fuentes de alimentación para equipos industriales",
+      "enclosuresCabinetsDescription": "Cajas y gabinetes para equipos eléctricos",
+      "heatingElementsAppliancesDescription": "Elementos de calefacción y electrodomésticos para aplicaciones industriales",
+      "surgeProtectorsDescription": "Protección contra sobretensiones y rayos para sistemas eléctricos",
+      "groundingSystemsDescription": "Sistemas de puesta a tierra para seguridad eléctrica",
+      "multimetersDescription": "Multímetros para medir condiciones eléctricas",
+      "oscilloscopesDescription": "Osciloscopios para analizar señales eléctricas",
+      "spectrumAnalyzersDescription": "Analizadores de espectro para medir señales",
+      "powerQualityAnalyzersDescription": "Analizadores de calidad de energía",
+      "calibrationEquipmentDescription": "Equipos de calibración para asegurar la precisión",
+      "solarPanelsDescription": "Paneles solares para generación de energía limpia",
+      "solarInvertersDescription": "Inversores solares para conversión de energía",
+      "solarChargeControllersDescription": "Controladores de carga solar para sistemas de batería",
+      "solarBatteriesEnergyStorageDescription": "Baterías solares y sistemas de almacenamiento de energía",
+      "mountingStructuresRackingDescription": "Estructuras de montaje para equipos solares",
+      "plcsDescription": "PLCs para controlar procesos automatizados",
+      "scadaDescription": "SCADA para monitoreo y control remoto",
+      "dcsDescription": "DCS para controlar procesos complejos",
+      "hmiDescription": "HMI para interacción hombre-máquina",
+      "safetyEquipmentDescription": "Equipo de seguridad para protección en el lugar de trabajo",
+      "safetyRelaysSwitchesDescription": "Relés e interruptores de seguridad para protección",
+      "intrinsicallySafeEquipmentDescription": "Equipo de seguridad intrínseca para ubicaciones peligrosas",
+      "centrifugalPumpsDescription": "Bombas centrífugas para transportar fluidos y líquidos",
+      "diaphragmPumpsDescription": "Bombas de diafragma para transportar químicos",
+      "gearPumpsDescription": "Bombas de engranajes para transportar aceite y lubricantes",
+      "pumpPartsSparesDescription": "Piezas y repuestos de bombas",
+      "handToolsDescription": "Herramientas de mano para tareas industriales",
+      "powerToolsDescription": "Herramientas eléctricas para tareas de construcción",
+      "cuttingToolsDescription": "Herramientas de corte para procesar metales",
+      "liftingEquipmentDescription": "Equipo de elevación para transportar cargas pesadas",
+      "bldcCeilingFanDescription": "Ventiladores de techo BLDC de bajo consumo",
+      "bldcCoolerExhaustMotorDescription": "Motores BLDC para refrigeradores y extractores",
+      "bldcSubmersibleSurfacePumpDescription": "Bomba sumergible BLDC para aplicaciones de agua",
+      "bldcTableFanWallFanMotorDescription": "Motores BLDC para ventiladores de mesa y pared",
+      "requestQuoteDescription": "Obtenga un presupuesto detallado para su proyecto de ingeniería",
+      "downloadPortfolioDescription": "Descargue nuestros documentos de información de proyectos",
+      "newsUpdatesDescription": "Las últimas noticias y actualizaciones de la empresa"
     }
   },
   "clients": {
@@ -509,12 +587,12 @@
     "agribio": "AgriBio Alemania",
     "motherson": "Grupo Motherson",
     "praj": "Industrias Praj",
-    "thermax": "Thermax Limitada",
+    "thermax": "Thermax Limited",
     "ankur": "Tecnologías de Energía Científica Ankur",
     "dls": "DLS India",
     "boudh": "Destilería Boudh",
     "lokmangal": "Grupo Lokmangal",
-    "marcuras": "Tratamiento de Agua Marcuras",
+    "marcuras": "Marcuras Control de Agua",
     "nv-group": "Grupo NV",
     "anand-nv": "Anand NV",
     "dhanuka": "Dhanuka Agritech",
@@ -524,6 +602,12 @@
   "copyright": {
     "text": "© {{year}} Powerton Engineering Pvt. Ltd. Todos los derechos reservados.",
     "madeWith": "Hecho con 💙 por el equipo de Powerton Engineering"
+  },
+  "quickActions": {
+    "title": "Acciones rápidas",
+    "subtitle": "Consulte los pasos rápidos para obtener sus requisitos",
+    "contactUs": "Contáctenos",
+    "requestQuote": "Solicitar Presupuesto"
   },
   "tags": {
     "award": "Premio",
@@ -537,31 +621,48 @@
     "solar": "Solar",
     "infrastructure": "Infraestructura",
     "innovation": "Innovación",
-    "partnership": "Sociedad",
+    "partnership": "Asociación",
     "technology": "Tecnología",
     "europe": "Europa",
     "iso": "ISO",
     "quality": "Calidad",
     "certification": "Certificación"
   },
+  "products": {
+    "sections": {
+      "industrialProducts": "Productos Industriales",
+      "applications": "Aplicaciones de {{product}}",
+      "keyFeatures": "Características Clave:"
+    },
+    "badges": {
+      "highEfficiency": "Alta Eficiencia",
+      "variableSpeed": "Velocidad Variable",
+      "lowNoise": "Bajo Ruido",
+      "smartControl": "Control Inteligente",
+      "durable": "Durable",
+      "energySaving": "Ahorro de Energía",
+      "reliable": "Confiable",
+      "costEffective": "Rentable"
+    }
+  },
   "cta": {
     "getQuote": "Obtener Cotización",
     "callNow": "Llamar Ahora",
-    "emailUs": "Enviar Email",
-    "learnMore": "Más Información",
+    "emailUs": "Envíanos un Correo Electrónico",
+    "learnMore": "Aprender Más",
     "viewMore": "Ver Más",
-    "contactUs": "Contáctanos",
+    "contactUs": "Contáctenos",
     "getStarted": "Comenzar",
     "downloadBrochure": "Descargar Folleto"
   },
   "quote": {
     "projectTypes": {
       "processAutomation": "Automatización de Procesos",
-      "powerControlSystems": "Sistemas de Control de Potencia",
+      "powerControlSystems": "Sistemas de Control de Energía",
       "instrumentationControl": "Instrumentación y Control",
       "solarAutomation": "Automatización Solar",
       "buildingAutomation": "Automatización de Edificios",
-      "manufacturingAutomation": "Automatización de la Fabricación"
+      "manufacturingAutomation": "Automatización de Fabricación"
     },
     "industries": {
       "manufacturing": "Fabricación",
@@ -579,11 +680,11 @@
   },
   "ui": {
     "ariaLabels": {
-      "callUs": "Llámanos al {{phone}}",
+      "callUs": "Llámenos al {{phone}}",
       "goToHomepage": "Ir a la página de inicio de Powerton Engineering",
-      "followLinkedIn": "Sigue a Powerton Engineering en LinkedIn",
-      "followTwitter": "Sigue a Powerton Engineering en X (anteriormente Twitter)",
-      "followFacebook": "Sigue a Powerton Engineering en Facebook",
+      "followLinkedIn": "Seguir a Powerton Engineering en LinkedIn",
+      "followTwitter": "Seguir a Powerton Engineering en X (anteriormente Twitter)",
+      "followFacebook": "Seguir a Powerton Engineering en Facebook",
       "toggleMobileMenu": "Alternar menú móvil",
       "closeMobileMenu": "Cerrar menú móvil",
       "openMobileMenu": "Abrir menú móvil",
@@ -592,7 +693,7 @@
     "altTexts": {
       "companyLogo": "Logotipo de la empresa Powerton Engineering",
       "heroImage": "Soluciones de automatización industrial e ingeniería eléctrica",
-      "productImage": "Imagen del producto para {{productName}}"
+      "productImage": "Imagen del producto {{productName}}"
     }
   }
 }

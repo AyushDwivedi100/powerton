@@ -95,6 +95,299 @@
       ]
     }
   },
+  "cablesWires": {
+    "instrumentation": {
+      "name": "Instrumentation Cables",
+      "description": "Low voltage cables for instrumentation and control applications",
+      "features": [
+        "Shielded Construction",
+        "Moisture Resistant",
+        "Temperature Rated",
+        "Multiple Pairs"
+      ]
+    },
+    "powerDistribution": {
+      "name": "Power Distribution Cables",
+      "description": "High voltage cables for power transmission and distribution",
+      "features": [
+        "XLPE Insulation",
+        "Armored Construction",
+        "Fire Resistant",
+        "High Current Rating"
+      ]
+    },
+    "communication": {
+      "name": "Communication Cables",
+      "description": "Data transmission cables for industrial communication networks",
+      "features": [
+        "Cat5e/Cat6",
+        "Fiber Optic",
+        "Industrial Grade",
+        "EMI Shielding"
+      ]
+    }
+  },
+  "handTools": {
+    "wrenchSets": {
+      "name": "Professional Wrench Sets",
+      "description": "Complete sets of combination and adjustable wrenches",
+      "features": [
+        "Chrome Vanadium Steel",
+        "Metric & SAE Sizes",
+        "Professional Grade",
+        "Lifetime Warranty"
+      ]
+    },
+    "screwdriverSets": {
+      "name": "Precision Screwdriver Sets",
+      "description": "High-quality screwdrivers for precision applications",
+      "features": [
+        "Ergonomic Handles",
+        "Magnetic Tips",
+        "Multiple Head Types",
+        "Anti-Slip Grip"
+      ]
+    },
+    "toolKits": {
+      "name": "Industrial Tool Kits",
+      "description": "Comprehensive tool kits for industrial maintenance",
+      "features": [
+        "Complete Tool Set",
+        "Organized Storage",
+        "Heavy-Duty Case",
+        "Professional Quality"
+      ]
+    }
+  },
+  "powerTools": {
+    "drillSets": {
+      "name": "Industrial Drill Sets",
+      "description": "Heavy-duty electric and cordless drills for industrial applications",
+      "features": [
+        "High Torque",
+        "Variable Speed",
+        "Cordless Options",
+        "Chuck Capacity: 13mm"
+      ]
+    },
+    "angleGrinders": {
+      "name": "Angle Grinders",
+      "description": "Professional angle grinders for cutting and grinding operations",
+      "features": [
+        "Multiple Disc Sizes",
+        "Safety Guards",
+        "Anti-Vibration",
+        "Powerful Motors"
+      ]
+    },
+    "impactWrenches": {
+      "name": "Impact Wrenches",
+      "description": "High-torque impact wrenches for heavy-duty fastening",
+      "features": [
+        "High Impact Force",
+        "Socket Compatibility",
+        "Forward/Reverse",
+        "Battery Powered"
+      ]
+    }
+  },
+  "cuttingTools": {
+    "sawBlades": {
+      "name": "Industrial Saw Blades",
+      "description": "High-quality saw blades for metal and wood cutting",
+      "features": [
+        "HSS/Carbide Tips",
+        "Multiple TPI",
+        "Bi-Metal Construction",
+        "Long Life"
+      ]
+    },
+    "drillBits": {
+      "name": "Drill Bits & Reamers",
+      "description": "Precision drilling and reaming tools",
+      "features": [
+        "HSS/Cobalt",
+        "Jobber Length",
+        "Spiral Flutes",
+        "Split Point"
+      ]
+    },
+    "millingCutters": {
+      "name": "Milling Cutters",
+      "description": "End mills and face mills for machining operations",
+      "features": [
+        "Carbide/HSS",
+        "Multiple Flutes",
+        "Coated Options",
+        "Various Geometries"
+      ]
+    }
+  },
+  "liftingEquipment": {
+    "chainHoists": {
+      "name": "Chain Hoists & Slings",
+      "description": "Manual and electric chain hoists for heavy lifting",
+      "features": [
+        "1-20 Ton Capacity",
+        "Electric/Manual",
+        "Safety Hooks",
+        "Overload Protection"
+      ]
+    },
+    "wireRope": {
+      "name": "Wire Rope & Cables",
+      "description": "High-strength wire rope for lifting applications",
+      "features": [
+        "Galvanized Steel",
+        "Multiple Lay Types",
+        "Various Diameters",
+        "IWRC Core"
+      ]
+    },
+    "liftingHardware": {
+      "name": "Lifting Hardware",
+      "description": "Shackles, hooks, and rigging hardware",
+      "features": [
+        "Stainless Steel",
+        "Safety Pins",
+        "Load Rated",
+        "ANSI/ASME Standards"
+      ]
+    }
+  },
+  "instrumentation": {
+    "sensors": {
+      "title": "Industrial Sensors",
+      "shortDescription": "Comprehensive range of industrial-grade sensors for automation and process control",
+      "fullDescription": "Advanced sensor solutions including temperature, pressure, position, motion, flow, level, proximity, and specialized sensors. Our sensor portfolio features digital temperature sensors with silicon-based ICs, pressure sensors for water conservancy and industrial applications, position sensors with MEMS technology, and vision sensors with image processing systems for quality control.",
+      "specifications": [
+        "Temperature Range: -40°C to +125°C",
+        "Pressure Range: Vacuum to 7500 PSI",
+        "Signal Output: 4-20mA, 0-10V, Digital (USB, PNP/NPN)",
+        "Resolution: Up to 24-bit for high precision",
+        "Response Time: <10ms for critical applications",
+        "IP Protection: IP65/IP67/IP69K ratings available"
+      ],
+      "applications": [
+        "Process Control & Monitoring",
+        "Manufacturing Automation",
+        "Quality Control Systems",
+        "Safety & Security Systems",
+        "Environmental Monitoring",
+        "Predictive Maintenance"
+      ],
+      "features": [
+        "Industry 4.0 Ready with IoT Connectivity",
+        "Self-Diagnostics & Calibration",
+        "Multiple Communication Protocols",
+        "Explosion-Proof Variants Available",
+        "Extended Temperature Stability",
+        "Low Power Consumption"
+      ],
+      "keyBenefits": [
+        "High Accuracy & Reliability",
+        "Easy Integration & Configuration",
+        "Reduced Maintenance Requirements",
+        "Enhanced Safety Compliance",
+        "Long-Term Stability",
+        "Cost-Effective Operation"
+      ],
+      "industries": [
+        "Oil & Gas",
+        "Chemical & Petrochemical",
+        "Power Generation",
+        "Water Treatment",
+        "Food & Beverage",
+        "Automotive Manufacturing"
+      ],
+      "certifications": [
+        "CE",
+        "UL",
+        "CSA",
+        "ATEX",
+        "IECEx",
+        "SIL 2/3"
+      ],
+      "technicalData": {
+        "operatingTemp": "-40°C to +125°C",
+        "protection": "IP65/IP67/IP69K",
+        "communication": [
+          "4-20mA",
+          "HART",
+          "Modbus",
+          "Ethernet",
+          "Wireless"
+        ],
+        "accuracy": "±0.1% to ±0.5% of span",
+        "power": "24V DC, 115/230V AC, Loop-powered"
+      }
+    },
+    "transmitters": {
+      "title": "Transmitters & Transducers",
+      "shortDescription": "Precision transmitters for pressure, temperature, flow, and level measurement",
+      "fullDescription": "Comprehensive range of industrial transmitters including pressure transmitters (gauge, absolute, differential), temperature transmitters, flow measurement devices, and multivariable transmitters. Features advanced technologies like strain gauge, capacitive, and piezoresistive sensing with HART digital communication. Market leaders like Emerson Rosemount, ABB, Yokogawa, and Honeywell provide reliable solutions for process industries.",
+      "specifications": [
+        "Accuracy: ±0.05% to ±0.25% of span",
+        "Stability: 5-year ±0.1% span stability",
+        "Operating Range: Up to 7,500 PSI pressure",
+        "Rangeability: Up to 400:1 turndown ratio",
+        "Output: 4-20mA + HART digital",
+        "Multivariable: Pressure, flow, temperature in one device"
+      ],
+      "applications": [
+        "Pipeline Monitoring",
+        "Process Control",
+        "Tank Level Measurement",
+        "Flow Measurement",
+        "Safety Systems",
+        "Regulatory Compliance"
+      ],
+      "features": [
+        "Smart Diagnostics & Predictive Maintenance",
+        "Coplanar Technology for Easy Installation",
+        "Remote Seal Capability",
+        "Wireless HART Options",
+        "Temperature Compensation",
+        "Self-Diagnostics"
+      ],
+      "keyBenefits": [
+        "Industry-Leading Accuracy",
+        "Reduced Total Cost of Ownership",
+        "Enhanced Process Optimization",
+        "Improved Safety & Reliability",
+        "Easy Maintenance & Support",
+        "Future-Proof Technology"
+      ],
+      "industries": [
+        "Oil & Gas",
+        "Chemical Processing",
+        "Refining",
+        "Power Generation",
+        "Pulp & Paper",
+        "Mining & Metals"
+      ],
+      "certifications": [
+        "SIL 2/3",
+        "ATEX",
+        "IECEx",
+        "FM",
+        "CSA",
+        "NEPSI"
+      ],
+      "technicalData": {
+        "operatingTemp": "-40°C to +85°C",
+        "protection": "IP66/IP67",
+        "communication": [
+          "HART",
+          "Foundation Fieldbus",
+          "Profibus",
+          "Wireless"
+        ],
+        "accuracy": "±0.05% to ±0.25% of span",
+        "power": "10.5-42.4V DC, Loop-powered"
+      }
+    }
+  },
   "bldcSubmersibleSurface": {
     "solar1HP": {
       "name": "Solar BLDC Submersible Pump - 1HP",
@@ -255,297 +548,134 @@
       ]
     }
   },
-  "instrumentation": {
-    "sensors": {
-      "title": "Industrial Sensors",
-      "shortDescription": "Comprehensive range of industrial-grade sensors for automation and process control",
-      "fullDescription": "Advanced sensor solutions including temperature, pressure, position, motion, flow, level, proximity, and specialized sensors. Our sensor portfolio features digital temperature sensors with silicon-based ICs, pressure sensors for water conservancy and industrial applications, position sensors with MEMS technology, and vision sensors with image processing systems for quality control.",
-      "specifications": [
-        "Temperature Range: -40°C to +125°C",
-        "Pressure Range: Vacuum to 7500 PSI",
-        "Signal Output: 4-20mA, 0-10V, Digital (USB, PNP/NPN)",
-        "Resolution: Up to 24-bit for high precision",
-        "Response Time: <10ms for critical applications",
-        "IP Protection: IP65/IP67/IP69K ratings available"
-      ],
-      "applications": [
-        "Process Control & Monitoring",
-        "Manufacturing Automation",
-        "Quality Control Systems",
-        "Safety & Security Systems",
-        "Environmental Monitoring",
-        "Predictive Maintenance"
-      ],
-      "features": [
-        "Industry 4.0 Ready with IoT Connectivity",
-        "Self-Diagnostics & Calibration",
-        "Multiple Communication Protocols",
-        "Explosion-Proof Variants Available",
-        "Extended Temperature Stability",
-        "Low Power Consumption"
-      ],
-      "keyBenefits": [
-        "High Accuracy & Reliability",
-        "Easy Integration & Configuration",
-        "Reduced Maintenance Requirements",
-        "Enhanced Safety Compliance",
-        "Long-Term Stability",
-        "Cost-Effective Operation"
-      ],
-      "industries": [
-        "Oil & Gas",
-        "Chemical & Petrochemical",
-        "Power Generation",
-        "Water Treatment",
-        "Food & Beverage",
-        "Automotive Manufacturing"
-      ],
-      "certifications": [
-        "CE",
-        "UL",
-        "CSA",
-        "ATEX",
-        "IECEx",
-        "SIL 2/3"
-      ],
-      "technicalData": {
-        "operatingTemp": "-40°C to +125°C",
-        "protection": "IP65/IP67/IP69K",
-        "communication": [
-          "4-20mA",
-          "HART",
-          "Modbus",
-          "Ethernet",
-          "Wireless"
-        ],
-        "accuracy": "±0.1% to ±0.5% of span",
-        "power": "24V DC, 115/230V AC, Loop-powered"
+  "automation": {
+    "plcs": {
+      "siemensS7": {
+        "name": "Siemens SIMATIC S7-1200",
+        "description": "Compact modular PLC for small to medium automation applications",
+        "features": [
+          "Integrated Digital and Analog I/O",
+          "Built-in Ethernet Communication",
+          "TIA Portal Programming",
+          "Failsafe Technology Available"
+        ]
+      },
+      "allenBradley": {
+        "name": "Allen-Bradley CompactLogix 5380",
+        "description": "High-performance PLC with integrated safety capabilities",
+        "features": [
+          "Integrated Safety Functions",
+          "EtherNet/IP Communication",
+          "Studio 5000 Programming",
+          "Motion Control Integration"
+        ]
+      },
+      "schneider": {
+        "name": "Schneider Electric Modicon M580",
+        "description": "Enterprise PLC platform with hot standby redundancy",
+        "features": [
+          "Hot Standby Redundancy",
+          "Ethernet Backbone Architecture",
+          "Unity Pro Programming",
+          "Advanced Cybersecurity"
+        ]
       }
     },
-    "transmitters": {
-      "title": "Transmitters & Transducers",
-      "shortDescription": "Precision transmitters for pressure, temperature, flow, and level measurement",
-      "fullDescription": "Comprehensive range of industrial transmitters including pressure transmitters (gauge, absolute, differential), temperature transmitters, flow measurement devices, and multivariable transmitters. Features advanced technologies like strain gauge, capacitive, and piezoresistive sensing with HART digital communication. Market leaders like Emerson Rosemount, ABB, Yokogawa, and Honeywell provide reliable solutions for process industries.",
-      "specifications": [
-        "Accuracy: ±0.05% to ±0.25% of span",
-        "Stability: 5-year ±0.1% span stability",
-        "Operating Range: Up to 7,500 PSI pressure",
-        "Rangeability: Up to 400:1 turndown ratio",
-        "Output: 4-20mA + HART digital",
-        "Multivariable: Pressure, flow, temperature in one device"
-      ],
-      "applications": [
-        "Pipeline Monitoring",
-        "Process Control",
-        "Tank Level Measurement",
-        "Flow Measurement",
-        "Safety Systems",
-        "Regulatory Compliance"
-      ],
-      "features": [
-        "Smart Diagnostics & Predictive Maintenance",
-        "Coplanar Technology for Easy Installation",
-        "Remote Seal Capability",
-        "Wireless HART Options",
-        "Temperature Compensation",
-        "Self-Diagnostics"
-      ],
-      "keyBenefits": [
-        "Industry-Leading Accuracy",
-        "Reduced Total Cost of Ownership",
-        "Enhanced Process Optimization",
-        "Improved Safety & Reliability",
-        "Easy Maintenance & Support",
-        "Future-Proof Technology"
-      ],
-      "industries": [
-        "Oil & Gas",
-        "Chemical Processing",
-        "Refining",
-        "Power Generation",
-        "Pulp & Paper",
-        "Mining & Metals"
-      ],
-      "certifications": [
-        "SIL 2/3",
-        "ATEX",
-        "IECEx",
-        "FM",
-        "CSA",
-        "NEPSI"
-      ],
-      "technicalData": {
-        "operatingTemp": "-40°C to +85°C",
-        "protection": "IP66/IP67",
-        "communication": [
-          "HART",
-          "Foundation Fieldbus",
-          "Profibus",
-          "Wireless"
-        ],
-        "accuracy": "±0.05% to ±0.25% of span",
-        "power": "10.5-42.4V DC, Loop-powered"
+    "hmi": {
+      "panelMount": {
+        "name": "Panel Mount HMI",
+        "description": "Industrial touchscreen panels for process visualization",
+        "features": [
+          "Multi-touch Capacitive Display",
+          "Web-based Configuration",
+          "Alarm Management",
+          "Data Logging"
+        ]
+      },
+      "operatorInterface": {
+        "name": "Operator Interface Station",
+        "description": "Advanced operator workstations for process control",
+        "features": [
+          "High-resolution Display",
+          "Multi-protocol Support",
+          "Historical Trending",
+          "Report Generation"
+        ]
+      },
+      "mobile": {
+        "name": "Mobile HMI",
+        "description": "Mobile solutions for remote process monitoring",
+        "features": [
+          "Wireless Connectivity",
+          "Mobile App Support",
+          "Remote Access",
+          "Real-time Notifications"
+        ]
       }
-    }
-  },
-  "cablesWires": {
-    "instrumentation": {
-      "name": "Instrumentation Cables",
-      "description": "Low voltage cables for instrumentation and control applications",
-      "features": [
-        "Shielded Construction",
-        "Moisture Resistant",
-        "Temperature Rated",
-        "Multiple Pairs"
-      ]
     },
-    "powerDistribution": {
-      "name": "Power Distribution Cables",
-      "description": "High voltage cables for power transmission and distribution",
-      "features": [
-        "XLPE Insulation",
-        "Armored Construction",
-        "Fire Resistant",
-        "High Current Rating"
-      ]
+    "scada": {
+      "wonderware": {
+        "name": "Wonderware System Platform",
+        "description": "Comprehensive SCADA platform for industrial automation",
+        "features": [
+          "Real-time Data Acquisition",
+          "Historical Trending",
+          "Alarm Management",
+          "Web-based HMI"
+        ]
+      },
+      "geFix": {
+        "name": "GE iFIX SCADA",
+        "description": "Advanced SCADA software for process visualization",
+        "features": [
+          "Process Graphics",
+          "Data Logging",
+          "Report Generation",
+          "OPC Connectivity"
+        ]
+      },
+      "siemensWinCC": {
+        "name": "Siemens WinCC SCADA",
+        "description": "Industrial SCADA system for monitoring and control",
+        "features": [
+          "TIA Portal Integration",
+          "Web Client Support",
+          "Mobile Access",
+          "Redundancy Options"
+        ]
+      }
     },
-    "communication": {
-      "name": "Communication Cables",
-      "description": "Data transmission cables for industrial communication networks",
-      "features": [
-        "Cat5e/Cat6",
-        "Fiber Optic",
-        "Industrial Grade",
-        "EMI Shielding"
-      ]
-    }
-  },
-  "handTools": {
-    "wrenchSets": {
-      "name": "Professional Wrench Sets",
-      "description": "Complete sets of combination and adjustable wrenches",
-      "features": [
-        "Chrome Vanadium Steel",
-        "Metric & SAE Sizes",
-        "Professional Grade",
-        "Lifetime Warranty"
-      ]
-    },
-    "screwdriverSets": {
-      "name": "Precision Screwdriver Sets",
-      "description": "High-quality screwdrivers for precision applications",
-      "features": [
-        "Ergonomic Handles",
-        "Magnetic Tips",
-        "Multiple Head Types",
-        "Anti-Slip Grip"
-      ]
-    },
-    "toolKits": {
-      "name": "Industrial Tool Kits",
-      "description": "Comprehensive tool kits for industrial maintenance",
-      "features": [
-        "Complete Tool Set",
-        "Organized Storage",
-        "Heavy-Duty Case",
-        "Professional Quality"
-      ]
-    }
-  },
-  "powerTools": {
-    "drillSets": {
-      "name": "Industrial Drill Sets",
-      "description": "Heavy-duty electric and cordless drills for industrial applications",
-      "features": [
-        "High Torque",
-        "Variable Speed",
-        "Cordless Options",
-        "Chuck Capacity: 13mm"
-      ]
-    },
-    "angleGrinders": {
-      "name": "Angle Grinders",
-      "description": "Professional angle grinders for cutting and grinding operations",
-      "features": [
-        "Multiple Disc Sizes",
-        "Safety Guards",
-        "Anti-Vibration",
-        "Powerful Motors"
-      ]
-    },
-    "impactWrenches": {
-      "name": "Impact Wrenches",
-      "description": "High-torque impact wrenches for heavy-duty fastening",
-      "features": [
-        "High Impact Force",
-        "Socket Compatibility",
-        "Forward/Reverse",
-        "Battery Powered"
-      ]
-    }
-  },
-  "cuttingTools": {
-    "sawBlades": {
-      "name": "Industrial Saw Blades",
-      "description": "High-quality saw blades for metal and wood cutting",
-      "features": [
-        "HSS/Carbide Tips",
-        "Multiple TPI",
-        "Bi-Metal Construction",
-        "Long Life"
-      ]
-    },
-    "drillBits": {
-      "name": "Drill Bits & Reamers",
-      "description": "Precision drilling and reaming tools",
-      "features": [
-        "HSS/Cobalt",
-        "Jobber Length",
-        "Spiral Flutes",
-        "Split Point"
-      ]
-    },
-    "millingCutters": {
-      "name": "Milling Cutters",
-      "description": "End mills and face mills for machining operations",
-      "features": [
-        "Carbide/HSS",
-        "Multiple Flutes",
-        "Coated Options",
-        "Various Geometries"
-      ]
-    }
-  },
-  "liftingEquipment": {
-    "chainHoists": {
-      "name": "Chain Hoists & Slings",
-      "description": "Manual and electric chain hoists for heavy lifting",
-      "features": [
-        "1-20 Ton Capacity",
-        "Electric/Manual",
-        "Safety Hooks",
-        "Overload Protection"
-      ]
-    },
-    "wireRope": {
-      "name": "Wire Rope & Cables",
-      "description": "High-strength wire rope for lifting applications",
-      "features": [
-        "Galvanized Steel",
-        "Multiple Lay Types",
-        "Various Diameters",
-        "IWRC Core"
-      ]
-    },
-    "liftingHardware": {
-      "name": "Lifting Hardware",
-      "description": "Shackles, hooks, and rigging hardware",
-      "features": [
-        "Stainless Steel",
-        "Safety Pins",
-        "Load Rated",
-        "ANSI/ASME Standards"
-      ]
+    "dcs": {
+      "honeywellExperion": {
+        "name": "Honeywell Experion PKS",
+        "description": "Distributed control system for process industries",
+        "features": [
+          "Process Control",
+          "Safety Systems",
+          "Asset Management",
+          "Advanced Control"
+        ]
+      },
+      "abbSystem800xA": {
+        "name": "ABB System 800xA",
+        "description": "Extended automation system for industrial processes",
+        "features": [
+          "Integrated Engineering",
+          "Safety Certified",
+          "Cybersecurity",
+          "Lifecycle Management"
+        ]
+      },
+      "emersonDeltaV": {
+        "name": "Emerson DeltaV",
+        "description": "Modern DCS with digital transformation capabilities",
+        "features": [
+          "Digital Twin Technology",
+          "Predictive Analytics",
+          "Wireless Integration",
+          "Cloud Connectivity"
+        ]
+      }
     }
   },
   "productNames": {

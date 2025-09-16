@@ -1,1044 +1,979 @@
 {
   "news": {
     "hero": {
-      "title": "الأخبار",
-      "titleHighlight": "التحديثات",
-      "subtitle": "ابقَ على اطلاع بآخر إنجازاتنا والمشاريع القادمة والاعتراف الصناعي ورؤيتنا الاستراتيجية لمستقبل الأتمتة الصناعية.",
+      "title": "News",
+      "titleHighlight": "Updates",
+      "subtitle": "Stay informed about our latest achievements, upcoming projects, industry recognitions, and our strategic vision for the future of industrial automation.",
       "badges": {
-        "awardWinning": "حائزة على جوائز",
-        "growingStrong": "نمو قوي",
-        "futureReady": "مستعدة للمستقبل"
+        "awardWinning": "Award Winning",
+        "growingStrong": "Growing Strong",
+        "futureReady": "Future Ready"
       }
     },
     "latestNews": {
       "excellenceAward": {
-        "title": "هندسة باورتون تفوز بجائزة التميز ٢٠٢٤",
-        "category": "جوائز",
-        "excerpt": "معترف بها للابتكار المتميز في حلول الأتمتة الصناعية والهندسة الكهربائية."
+        "title": "Powerton Engineering Receives 2024 Excellence Award",
+        "category": "Awards",
+        "excerpt": "Recognized for outstanding innovation in industrial automation and electrical engineering solutions."
       },
       "ntpcContract": {
-        "title": "تأمين عقد شركة الطاقة الحرارية الوطنية الكبير لأتمتة محطة الطاقة",
-        "category": "عقود",
-        "excerpt": "منح عقد أتمتة شامل لمشروع تحديث محطة طاقة حرارية بقدرة ٥٠٠ ميجاوات."
+        "title": "Secures Major Contract with NTPC for Power Plant Automation",
+        "category": "Business",
+        "excerpt": "Awarded comprehensive automation contract for a 500MW thermal power plant modernization project."
       },
       "renewableExpansion": {
-        "title": "توسيع حلول الطاقة المتجددة عبر الهند",
-        "category": "توسع",
-        "excerpt": "قدرات جديدة للطاقة الشمسية وشراكات لدعم انتقال الهند للطاقة المتجددة."
+        "title": "Expanding Renewable Energy Solutions in India",
+        "category": "Company",
+        "excerpt": "New solar EPC capabilities and partnerships supporting India's renewable energy transition."
       },
       "rdFacility": {
-        "title": "افتتاح مركز البحث والتطوير المتطور الجديد في نويدا",
-        "category": "البنية التحتية",
-        "excerpt": "تم افتتاح مرفق البحث والتطوير الجديد بمساحة 5000 قدم مربع في نويدا، مجهز بأحدث معدات الاختبار ومختبرات الأتمتة المتقدمة لتطوير المنتجات."
+        "title": "New State-of-the-Art R&D Facility Launched in Noida",
+        "category": "Infrastructure",
+        "excerpt": "Our new 5,000 sq ft R&D facility in Noida is now operational, equipped with the latest testing equipment and advanced automation labs for product development."
       },
       "europeanPartnership": {
-        "title": "شراكة مع موردي تكنولوجيا الأتمتة الأوروبيين الرائدين",
-        "category": "شراكة",
-        "excerpt": "أقمنا شراكة استراتيجية مع مورد تكنولوجيا الأتمتة الأوروبي الرائد، مما يجلب حلول PLC وSCADA المتطورة إلى السوق الهندية."
+        "title": "Partnership Established with Leading European Automation Technology Provider",
+        "category": "Partnerships",
+        "excerpt": "We have formed a strategic partnership with a leading European automation technology provider to bring cutting-edge PLC and SCADA solutions to the Indian market."
       },
       "isoAchievement": {
-        "title": "إنجاز شهادة ISO 9001:2015",
-        "category": "الجودة",
-        "excerpt": "حققت هندسة باورتون بنجاح شهادة ISO 9001:2015، مما يدل على التزامنا بأنظمة إدارة الجودة والتحسين المستمر في جميع العمليات."
+        "title": "ISO 9001:2015 Certification Achievement",
+        "category": "Quality",
+        "excerpt": "Powerton Engineering has successfully achieved ISO 9001:2015 certification, demonstrating our commitment to quality management systems and continuous improvement across all processes."
       }
     },
     "tabs": {
-      "latestNews": "آخر الأخبار",
-      "upcomingProjects": "المشاريع القادمة",
-      "achievements": "الإنجازات",
-      "futureGoals": "الأهداف المستقبلية"
+      "latestNews": "Latest News",
+      "upcomingProjects": "Upcoming Projects",
+      "achievements": "Achievements",
+      "futureGoals": "Future Goals"
     },
     "sections": {
-      "featuredNews": "الأخبار المميزة",
-      "allNews": "جميع الأخبار",
-      "allCategories": "جميع الفئات",
-      "upcomingProjects": "المشاريع القادمة"
-    }
-  },
-  "projects": {
-    "hero": {
-      "title": "محفظة التميز الهندسي",
-      "subtitle": "اكتشف تميزنا الهندسي من خلال ١٢٠٠+ مشروع ناجح عبر صناعات متنوعة، يعرض الابتكار والجودة والموثوقية."
-    },
-    "portfolioDescription": "استكشف قدراتنا الهندسية من خلال مشاريع عرض تظهر حلول مبتكرة عبر صناعات مختلفة. محفظة المشاريع الحقيقية قادمة قريباً.",
-    "showing": "عرض {{count}} مشاريع",
-    "featured": "مميز",
-    "statuses": {
-      "capabilitydemo": "عرض القدرات",
-      "inprogress": "قيد التنفيذ"
-    },
-    "categories": {
-      "processautomation": "أتمتة العمليات",
-      "powersystems": "أنظمة الطاقة",
-      "solarsolutions": "الحلول الشمسية"
-    },
-    "technologies": {
-      "plcprogramming": "برمجة متحكم منطقي قابل للبرمجة",
-      "scada": "مراقبة وتحكم واكتساب البيانات الإشرافية",
-      "hmi": "واجهة الإنسان والآلة",
-      "mccpanels": "لوحات مركز التحكم في المحرك",
-      "protectionsystems": "أنظمة الحماية",
-      "energymanagement": "إدارة الطاقة",
-      "solarinverters": "العاكسات الشمسية",
-      "gridsync": "مزامنة الشبكة",
-      "weathermonitoring": "مراقبة الطقس",
-      "processcontrol": "تحكم العمليات",
-      "safetysystems": "أنظمة السلامة",
-      "environmentalmonitoring": "المراقبة البيئية",
-      "industrialiot": "إنترنت الأشياء الصناعي",
-      "predictiveanalytics": "التحليلات التنبؤية",
-      "edgecomputing": "الحوسبة الطرفية"
-    },
-    "moreItems": "+{{count}} المزيد",
-    "items": {
-      "process-control-demo": {
-        "title": "عرض: حل التحكم في العمليات",
-        "client": "شريك صناعي مستقبلي",
-        "description": "عرض قدرات أتمتة العمليات الكاملة بما في ذلك أنظمة السلامة والمراقبة البيئية والتحكم بالدفعات للتطبيقات الصناعية.",
-        "location": "موقع المشروع يحدد لاحقاً",
-        "duration": "٨-١٢ شهر"
-      },
-      "smart-factory-progress": {
-        "title": "عرض: تكامل المصنع الذكي",
-        "client": "عميل التطوير الحالي",
-        "description": "عرض مستمر لتكامل المصنع الذكي يعرض الاتصال بإنترنت الأشياء والصيانة التنبؤية والتحسين القائم على البيانات للتصنيع الحديث.",
-        "location": "موقع التطوير",
-        "duration": "١٤ شهر"
-      }
-    },
-    "cta": {
-      "title": "جاهز لبدء مشروعك التالي؟",
-      "description": "يمكن لمهندسينا ذوي الخبرة تصميم حلول مخصصة لاحتياجاتك في الأتمتة الصناعية والهندسة الكهربائية.",
-      "getProjectQuote": "احصل على عرض أسعار المشروع",
-      "contactTeam": "اتصل بالفريق"
+      "featuredNews": "Featured News",
+      "allNews": "All News",
+      "allCategories": "All Categories",
+      "upcomingProjects": "Upcoming Projects"
     }
   },
   "home": {
+    "seo": {
+      "title": "Powerton Engineering - Industrial Automation & Control Panels | China",
+      "description": "Leading manufacturer of electrical control panels, industrial automation systems, and instrumentation solutions. Professional engineering services with 15+ years of experience, serving globally.",
+      "keywords": "electrical control panels, industrial automation, process automation, instrumentation, power control center, motor control center, electrical engineering, china, automation"
+    },
     "hero": {
       "title": {
-        "main": "حلول شاملة للنجاح",
-        "highlight": "الصناعي"
+        "main": "Comprehensive Solutions for",
+        "highlight": "Industrial Success"
       },
-      "subtitle": "تقدم محفظتنا الواسعة من المنتجات والخدمات حلولاً شاملة تدفع النجاح الصناعي، مما يضمن تغطية كل جانب من احتياجاتك الهندسية.",
+      "subtitle": "Our extensive portfolio of products and services provides a full spectrum of solutions, driving industrial success and ensuring every aspect of your engineering needs is covered.",
       "buttons": {
-        "exploreServices": "استكشف خدماتنا",
-        "requestConsultation": "اطلب استشارة"
+        "exploreServices": "Explore Our Services",
+        "requestConsultation": "Request Consultation"
       },
       "features": {
-        "experience": "خبرة أكثر من ١٥ عاماً",
-        "support": "دعم تقني ٢٤/٧",
-        "service": "خدمة في جميع أنحاء الهند"
+        "experience": "15+ Years Experience",
+        "support": "24/7 Technical Support",
+        "service": "Global Service Coverage"
       },
       "stats": {
-        "yearsExperience": "سنوات الخبرة",
-        "projectsCompleted": "المشاريع المكتملة",
-        "happyClients": "العملاء السعداء",
-        "supportAvailable": "الدعم متاح",
-        "heading": "إحصائيات ومنجزات الشركة"
+        "yearsExperience": "Years Experience",
+        "projectsCompleted": "Projects Completed",
+        "happyClients": "Happy Clients",
+        "supportAvailable": "Support Available",
+        "heading": "Company Statistics and Achievements"
       }
     },
     "about": {
-      "label": "معلومات عنا",
-      "title": "مرحباً بكم في شركة باورتون للهندسة المحدودة.",
-      "description": "شريكك الموثوق في تقديم حلول وخدمات هندسية عالية الجودة. تأسست برؤية لتمكين الصناعات من خلال الابتكار والتميز، نحن متخصصون في تقديم مجموعة شاملة من المنتجات الكهربائية والأجهزة.",
-      "visualHeading": "الهندسة المهنية",
-      "visualDescription": "مهندسون هنود محترفون يعملون على الأتمتة الصناعية وأنظمة التحكم",
+      "label": "About Us",
+      "title": "Welcome to Powerton Engineering Pvt. Ltd.",
+      "description": "Your trusted partner in providing high-quality engineering solutions and services. Founded with a vision to empower industries through innovation and excellence, we specialize in delivering a comprehensive range of electrical and instrumentation products.",
+      "visualHeading": "Professional Engineering",
+      "visualDescription": "Professional Chinese engineers working on industrial automation and control systems",
       "features": {
         "electrical": {
-          "title": "الكهرباء والأجهزة",
-          "description": "مجموعة كاملة من أنظمة التحكم"
+          "title": "Electrical & Instrumentation",
+          "description": "Complete range of control systems"
         },
         "mechanical": {
-          "title": "المضخات الميكانيكية",
-          "description": "حلول مضخات متينة وقطع غيار"
+          "title": "Mechanical Pumps",
+          "description": "Durable pump solutions and spares"
         },
         "solar": {
-          "title": "الحلول الشمسية",
-          "description": "تركيبات طاقة مستدامة"
+          "title": "Solar Solutions",
+          "description": "Sustainable energy installations"
         },
         "tools": {
-          "title": "الأدوات الصناعية",
-          "description": "معدات احترافية الجودة"
+          "title": "Industrial Tools",
+          "description": "Professional-grade equipment"
         }
       },
-      "button": "تعرف على المزيد عنا"
+      "button": "Learn More About Us"
     },
     "services": {
-      "label": "خدماتنا",
-      "title": "حلول هندسية شاملة",
-      "description": "من الأتمتة إلى الأجهزة، نوفر حلول هندسية كاملة تدفع التميز الصناعي والكفاءة التشغيلية."
+      "label": "Our Services",
+      "title": "Expert Solutions for All Needs, Delivered with Exceptional Care",
+      "description": "From process automation to maintenance contracts, we deliver comprehensive engineering solutions tailored to your industrial needs."
     },
     "products": {
-      "label": "منتجاتنا",
-      "title": "المنتجات والمعدات الصناعية",
-      "description": "اكتشف مجموعتنا الواسعة من المنتجات الصناعية عالية الجودة، من أنظمة الأتمتة إلى الأجهزة الدقيقة، مصممة للأداء الأمثل.",
-      "viewProducts": "عرض المنتجات",
-      "viewCatalog": "عرض الكتالوج"
+      "label": "Our Products",
+      "title": "Industrial Automation Equipment Solutions",
+      "description": "A comprehensive range of electrical and automation products designed for reliability, efficiency, and superior performance in industrial environments.",
+      "viewProducts": "View Products",
+      "viewCatalog": "View Full Product Catalog"
     },
     "contact": {
-      "label": "تواصل معنا",
-      "title": "جاهز لبدء مشروعك؟",
-      "description": "دعنا نناقش كيف يمكن لخبرتنا الهندسية أن تساعدك في تحقيق أهداف الأتمتة الصناعية ونظم التحكم.",
-      "getInTouch": "تواصل معنا",
+      "label": "Contact Us",
+      "title": "Let's Discuss Your Engineering Needs",
+      "description": "Ready to start your next project? Contact our expert team for custom solutions and professional consultation.",
+      "hero": {
+        "title": "Contact Our Engineering Experts",
+        "subtitle": "Get expert support for your industrial automation and electrical engineering projects. Our experienced team is ready to help you succeed.",
+        "benefits": {
+          "consultation": "Free Expert Consultation",
+          "support": "24/7 Technical Support",
+          "experience": "15+ Years Experience"
+        }
+      },
+      "getInTouch": "Get In Touch",
       "methods": {
         "phone": {
-          "title": "اتصل بنا اليوم",
-          "description": "تحدث مباشرة مع خبراء الهندسة لدينا"
+          "title": "Phone",
+          "description": "24/7 Emergency Support"
         },
         "email": {
-          "title": "راسلنا بالبريد الإلكتروني",
-          "description": "أرسل لنا متطلبات مشروعك"
+          "title": "Email",
+          "description": "We will respond within 24 hours"
         },
         "address": {
-          "title": "زر مكتبنا",
-          "metro": "أقرب محطة مترو: القطاع 15"
+          "title": "Address",
+          "metro": "Nearest Metro Station"
         }
       }
     },
     "clients": {
-      "label": "عملاؤنا",
-      "title": "موثوق من قبل العلامات التجارية والمؤسسات الرائدة",
-      "description": "لقد شاركنا مع قادة الصناعة في مختلف القطاعات لتقديم حلول هندسية استثنائية.",
-      "testimonialsTitle": "ماذا يقول عملاؤنا"
+      "label": "Our Clients",
+      "title": "Trusted by Leading Brands and Organizations",
+      "description": "We partner with industry leaders across various sectors, delivering exceptional engineering solutions.",
+      "testimonialsTitle": "What Our Clients Say"
     },
     "projects": {
-      "label": "مشاريعنا",
-      "title": "حلول هندسية تم تسليمها بنجاح",
-      "description": "استكشف محفظة مشاريعنا المكتملة التي تعرض خبرتنا في الأتمتة الصناعية والهندسة الكهربائية.",
-      "keyFeatures": "الميزات الرئيسية:",
-      "completed": "مكتمل",
-      "viewDetails": "عرض التفاصيل",
-      "viewAllProjects": "عرض جميع المشاريع",
-      "downloadPortfolio": "تحميل المحفظة"
-    },
+      "label": "Our Projects",
+      "title": "Successfully Delivered Engineering Solutions",
+      "featured": "Featured",
+      "description": "Explore our portfolio of completed projects, showcasing our expertise in industrial automation and electrical engineering.",
+      "keyFeatures": "Key Features:",
+      "completed": "Completed",
+      "viewDetails": "View Details",
+      "viewAllProjects": "View All Projects",
+      "downloadPortfolio": "Download Portfolio"
+    }
+  },
+  "backToProducts": "Back to Products",
+  "about": {
     "seo": {
-      "title": "باورتون للهندسة - الأتمتة الصناعية ولوحات التحكم | الهند",
-      "description": "الشركة الرائدة في تصنيع لوحات التحكم الكهربائية وأنظمة الأتمتة الصناعية وحلول الأجهزة. خدمات هندسية خبيرة في جميع أنحاء الهند مع أكثر من ١٥ عاماً من الخبرة.",
-      "keywords": "لوحات التحكم الكهربائية، الأتمتة الصناعية، أتمتة العمليات، الأجهزة، مركز التحكم في الطاقة، مركز التحكم في المحركات، الهندسة الكهربائية، الهند، نويدا"
+      "keywords": "About Powerton Engineering, Industrial Automation Company, Electrical Engineering Company, Instrumentation Services, China Automation Experts"
+    },
+    "hero": {
+      "title": "Engineering Excellence Since 2008",
+      "subtitle": "Your Trusted Partner in Industrial Automation and Electrical Engineering Solutions"
+    },
+    "story": {
+      "title": "Our Journey and Vision",
+      "description1": "Founded in 2008 with a vision to empower industries through innovation and excellence, Powerton Engineering has been at the forefront of industrial automation and electrical engineering solutions. Our journey began with a simple yet powerful mission: to deliver cutting-edge engineering solutions that drive industrial growth and operational efficiency.",
+      "description2": "Over the years, we have grown from a small engineering firm to a trusted partner for industries across China and globally. Our team of experienced engineers and technical experts work tirelessly to deliver solutions that not only meet but exceed our clients' expectations."
+    },
+    "mission": {
+      "title": "Our Mission",
+      "description": "To provide innovative, reliable, and sustainable engineering solutions that enable our clients to achieve operational excellence and drive industrial growth."
+    },
+    "vision": {
+      "title": "Our Vision",
+      "description": "To be the leading provider of industrial automation and electrical engineering solutions, recognized for our technical expertise, quality, and commitment to client success."
+    },
+    "coreValues": {
+      "title": "Our Core Values",
+      "subtitle": "Principles that guide everything we do"
+    },
+    "values": {
+      "quality": {
+        "title": "Quality Excellence",
+        "description": "We uphold the highest standards in every project we deliver"
+      },
+      "customer": {
+        "title": "Customer Focus",
+        "description": "Your success is our priority - we build lasting partnerships"
+      },
+      "innovation": {
+        "title": "Innovation",
+        "description": "Cutting-edge solutions using the latest industry technologies"
+      },
+      "reliability": {
+        "title": "Reliability",
+        "description": "Dependable solutions you can trust for critical operations"
+      }
+    },
+    "stats": {
+      "engineers": "Engineers",
+      "staff": "Support Staff",
+      "experience": "Years Experience",
+      "support": "Support"
+    },
+    "certifications": {
+      "title": "Certifications and Quality Standards",
+      "subtitle": "Our commitment to quality is validated through industry-recognized certifications and compliance standards.",
+      "iso9001": "ISO 9001:2015 Quality Management",
+      "iso14001": "ISO 14001:2015 Environmental Management",
+      "ohsas18001": "OHSAS 18001 Occupational Health and Safety",
+      "ceMarking": "CE Marking Compliance",
+      "ulListed": "UL Listed Products",
+      "cpriApproved": "CPRI Approved Equipment"
+    },
+    "cta": {
+      "title": "Ready to Start Your Project?",
+      "description": "Our expert team is ready to help you bring your industrial automation and electrical engineering projects to life.",
+      "startProject": "Start Your Project Today",
+      "exploreServices": "Explore Our Services"
+    }
+  },
+  "projects": {
+    "portfolioDescription": "Explore our engineering capabilities through demonstration projects showcasing innovative solutions across industries. A true project portfolio is coming soon.",
+    "featured": "Featured",
+    "moreItems": "+{{count}} More",
+    "cta": {
+      "title": "Ready to Start Your Next Project?",
+      "description": "Our experienced engineers can design custom solutions for your industrial automation and electrical engineering needs.",
+      "getProjectQuote": "Get Project Quote",
+      "contactTeam": "Contact Team"
+    },
+    "showing": "Showing {{count}} projects of {{total}}",
+    "items": {
+      "industrial-automation-demo": {
+        "title": "Demo: Industrial Automation Systems",
+        "client": "Future Manufacturing Client",
+        "description": "Demonstrates complete manufacturing automation capabilities, including PLC integration, SCADA systems, and real-time monitoring solutions.",
+        "location": "Project Site TBD",
+        "duration": "12-18 Months"
+      },
+      "power-distribution-demo": {
+        "title": "Example: Power Distribution Control",
+        "client": "Future Power Partner",
+        "description": "Example power distribution system showcasing automated load balancing and remote monitoring capabilities for power production facilities.",
+        "location": "Multiple Locations",
+        "duration": "10-15 Months"
+      },
+      "solar-plant-demo": {
+        "title": "Example: Solar Power Plant Control System",
+        "client": "Future Renewable Energy Client",
+        "description": "Demonstrates weather monitoring and grid synchronization capabilities of a solar tracking automation system suitable for renewable energy projects.",
+        "location": "Multiple Sites",
+        "duration": "6-10 Months"
+      },
+      "process-control-demo": {
+        "title": "Demo: Process Control Solutions",
+        "client": "Future Industrial Partner",
+        "description": "Demonstrates complete process automation capabilities, including safety systems, environmental monitoring, and batch control for industrial applications.",
+        "location": "Project Site TBD",
+        "duration": "Eight to Twelve Months"
+      },
+      "smart-factory-demo": {
+        "title": "Demo: Smart Factory Integration",
+        "client": "Current Development Client",
+        "description": "Ongoing smart factory integration demonstration showcasing IoT connectivity, predictive maintenance, and Industry 4.0 capabilities.",
+        "location": "Development Site",
+        "duration": "Fourteen Months"
+      }
+    },
+    "technologies": {
+      "mccpanels": "MCC Panels",
+      "protectionsystems": "Protection Systems",
+      "energymanagement": "Energy Management",
+      "remotemonitoring": "Remote Monitoring",
+      "solarinverters": "Solar Inverters",
+      "gridsync": "Grid Sync",
+      "weathermonitoring": "Weather Monitoring",
+      "dataanalytics": "Data Analytics",
+      "processcontrol": "Process Control",
+      "safetysystems": "Safety Systems",
+      "plcprogramming": "PLC Programming",
+      "scada": "SCADA Systems",
+      "hmi": "HMI",
+      "industrialiot": "Industrial IoT",
+      "environmentalmonitoring": "Environmental Monitoring",
+      "predictiveanalytics": "Predictive Analytics",
+      "edgecomputing": "Edge Computing"
+    },
+    "tabs": {
+      "portfolio": "Project Portfolio",
+      "showcase": "Featured Projects"
+    },
+    "hero": {
+      "title": "Our Projects",
+      "subtitle": "Explore our engineering excellence through 1200+ successful projects across various industries, showcasing innovation, quality, and reliability."
+    },
+    "statuses": {
+      "capabilitydemo": "Capability Demo",
+      "inprogress": "In Progress",
+      "completed": "Completed",
+      "planning": "Planning Phase",
+      "contractsigned": "Contract Signed",
+      "engineeringphase": "Engineering Phase"
+    },
+    "categories": {
+      "processautomation": "Process Automation",
+      "powersystems": "Power Systems",
+      "solarsolutions": "Solar Solutions",
+      "manufacturing": "Manufacturing",
+      "watertreatment": "Water Treatment",
+      "powerplant": "Power Plant"
+    },
+    "highlights": {
+      "plcintegration": "PLC Integration",
+      "scadasystems": "SCADA Systems",
+      "realtimemonitoring": "Real-time Monitoring",
+      "processoptimization": "Process Optimization",
+      "loadbalancing": "Load Balancing",
+      "remotecontrol": "Remote Control",
+      "gridconnection": "Grid Connection",
+      "performanceoptimization": "Performance Optimization",
+      "maintenanceplanning": "Maintenance Planning",
+      "qualitycontrol": "Quality Control",
+      "automatedoperations": "Automated Operations",
+      "remotemanagement": "Remote Management"
     }
   },
   "products": {
-    "badges": {
-      "handTools": "أدوات يدوية",
-      "powerTools": "أدوات كهربائية",
-      "liftingEquipment": "معدات الرفع",
-      "safetyGear": "معدات السلامة",
-      "touchscreen": "شاشة لمس",
-      "industrialGrade": "درجة صناعية",
-      "realTimeDisplay": "عرض في الوقت الفعلي",
-      "multiProtocol": "متعدد البروتوكولات",
-      "heatingElements": "عناصر التسخين",
-      "industrialOvens": "أفران صناعية",
-      "heatTracing": "تتبع الحرارة",
-      "temperatureControl": "تحكم في درجة الحرارة",
-      "precisionTools": "أدوات دقيقة",
-      "durableConstruction": "بناء متين",
-      "ergonomicDesign": "تصميم مريح",
-      "professionalGrade": "درجة احترافية"
+    "seo": {
+      "title": "Industrial Products and Automation Equipment - Powerton Engineering",
+      "description": "Comprehensive range of industrial automation products, electrical components, instrumentation, solar systems, pumps, and tools. Quality equipment for industrial applications."
     },
     "sections": {
-      "hmiSolutions": "حلول واجهة الإنسان والآلة"
-      "heatingSolutions": "حلول التسخين",
-      "handToolCategories": "فئات الأدوات اليدوية",
-      "diaphragmPumpTypes": "أنواع مضخات الحجاب الحاجز",
-      "calibrationSolutions": "حلول المعايرة",
-      "industrialProducts": "منتجات صناعية"
+      "industrialProducts": "Industrial Products Categories",
+      "hmiSolutions": "HMI Solutions",
+      "heatingSolutions": "Heating Solutions",
+      "handToolCategories": "Hand Tool Categories",
+      "diaphragmPumpTypes": "Diaphragm Pump Types",
+      "calibrationSolutions": "Calibration Solutions"
     },
     "cta": {
-      "needHmiSolutions": "هل تحتاج إلى حلول واجهة الإنسان والآلة؟"
-      "hmiDescription": "يمكن لمتخصصي واجهة الإنسان والآلة لدينا تصميم واجهات مشغل سهلة الاستخدام لأنظمة التشغيل الآلي الخاصة بك."
-      "contactHmiExperts": "اتصل بخبراء واجهة الإنسان والآلة"
-      "requestQuote": "اطلب عرض سعر",
-      "needHeatingolutions": "هل تحتاج إلى حلول تسخين صناعية؟",
-      "heatingDescription": "يمكن لمتخصصي التدفئة لدينا تصميم أنظمة تدفئة مخصصة لعملياتك الصناعية.",
-      "contactHeatingExperts": "اتصل بخبراء التدفئة",
-      "needDiaphragmPumps": "هل تحتاج إلى حلول مضخات الحجاب الحاجز؟",
-      "diaphragmDescription": "يمكن لمهندسي المضخات لدينا مساعدتك في اختيار مضخة الحجاب الحاجز المناسبة لاحتياجات مناولة المواد الكيميائية الخاصة بك.",
-      "contactPumpExperts": "اتصل بخبراء المضخات",
-      "needCalibration": "هل تحتاج إلى خدمات المعايرة؟",
-      "calibrationDescription": "يضمن خبراء المعايرة لدينا أن أجهزتك تلبي أعلى معايير الدقة.",
-      "contactCalibrationExperts": "اتصل بخبراء المعايرة",
-      "needExpertSolutions": "هل تحتاج إلى حلول خبراء؟",
-      "expertDescription": "يمكن لخبراء الهندسة لدينا مساعدتك في العثور على الحل المثالي لاحتياجات الأتمتة الصناعية الخاصة بك."
+      "needExpertSolutions": "Need Expert Industrial Solutions?",
+      "expertDescription": "Our technical experts are ready to assist you in selecting the perfect industrial products and engineering solutions for your automation and electrical needs.",
+      "needHmiSolutions": "Need HMI Solutions?",
+      "hmiDescription": "Our HMI experts can design intuitive operator interfaces for your automation systems.",
+      "contactHmiExperts": "Contact HMI Experts",
+      "requestQuote": "Request a Quote",
+      "needHeatingolutions": "Need Industrial Heating Solutions?",
+      "heatingDescription": "Our heating experts can design custom heating systems for your industrial processes.",
+      "contactHeatingExperts": "Contact Heating Experts",
+      "needDiaphragmPumps": "Need Diaphragm Pump Solutions?",
+      "diaphragmDescription": "Our pump engineers can help you select the right diaphragm pump for your chemical handling needs.",
+      "contactPumpExperts": "Contact Pump Experts",
+      "needCalibration": "Need Calibration Services?",
+      "calibrationDescription": "Our calibration experts ensure your instruments meet the highest standards of accuracy.",
+      "contactCalibrationExperts": "Contact Calibration Experts"
+    },
+    "badges": {
+      "handTools": "Hand Tools",
+      "powerTools": "Power Tools",
+      "liftingEquipment": "Lifting Equipment",
+      "safetyGear": "Safety Gear",
+      "touchscreen": "Touchscreen",
+      "industrialGrade": "Industrial Grade",
+      "realTimeDisplay": "Real-Time Display",
+      "multiProtocol": "Multi-Protocol",
+      "heatingElements": "Heating Elements",
+      "industrialOvens": "Industrial Ovens",
+      "heatTracing": "Heat Tracing",
+      "temperatureControl": "Temperature Control",
+      "precisionTools": "Precision Tools",
+      "durableConstruction": "Durable Construction",
+      "ergonomicDesign": "Ergonomic Design",
+      "professionalGrade": "Professional Grade"
     }
   },
   "services": {
+    "seo": {
+      "title": "Professional Engineering Services - Installation, Maintenance & Automation | Powerton Engineering",
+      "description": "Expert engineering services: PLC programming, SCADA systems, industrial automation, electrical panel installation, maintenance, calibration, custom solutions, and solar EPC services across China."
+    },
     "hero": {
-      "title": "خدمات الهندسة المهنية",
-      "subtitle": "حلول شاملة لجميع احتياجات الأتمتة الصناعية والهندسة الكهربائية"
+      "title": "Professional Engineering Services",
+      "subtitle": "Comprehensive industrial automation, electrical engineering, and instrumentation solutions designed to optimize your operations and drive business success."
+    },
+    "whyChoose": {
+      "title": "Why Choose Powerton Engineering?"
+    },
+    "benefits": {
+      "expertTeam": {
+        "title": "Expert Team",
+        "description": "Certified professionals with extensive industry experience"
+      },
+      "rapidResponse": {
+        "title": "Rapid Response",
+        "description": "Average 2-hour response time for all support requests"
+      },
+      "qualityAssured": {
+        "title": "Quality Assured",
+        "description": "ISO-certified processes and guaranteed quality standards"
+      },
+      "clientFocused": {
+        "title": "Client-Focused",
+        "description": "Solutions tailored to your specific requirements"
+      }
+    },
+    "cta": {
+      "title": "Ready to Get Started?",
+      "description": "Contact us today to discuss your project needs and receive a custom solution."
     }
   },
   "notFound": {
     "seo": {
-      "title": "الصفحة غير موجودة (404) - هندسة باور تون",
-      "description": "الصفحة التي تبحث عنها غير موجودة. ارجع إلى الصفحة الرئيسية لهندسة باور تون أو استكشف خدماتنا ومنتجاتنا للأتمتة الصناعية."
+      "title": "Page Not Found (404) - Powerton Engineering",
+      "description": "The page you are looking for does not exist. Return to the Powerton Engineering homepage or explore our industrial automation services and products."
     },
     "title": "404",
-    "heading": "الصفحة غير موجودة",
-    "message": "عذراً، الصفحة التي تبحث عنها غير موجودة. ربما تم نقلها أو حذفها أو أدخلت رابطاً خاطئاً.",
+    "heading": "Page Not Found",
+    "message": "Sorry, the page you are looking for does not exist. It may have been moved, deleted, or an incorrect URL was entered.",
     "buttons": {
-      "homepage": "العودة للرئيسية",
-      "support": "الاتصال بالدعم"
+      "homepage": "Back to Homepage",
+      "support": "Contact Support"
     },
-    "quickLinks": "روابط سريعة",
+    "quickLinks": "Quick Links",
     "links": {
-      "products": "المنتجات",
-      "services": "الخدمات",
-      "projects": "المشاريع",
-      "about": "حولنا"
+      "products": "Products",
+      "services": "Services",
+      "projects": "Projects",
+      "about": "About Us"
     }
   },
   "portfolioDownload": {
     "seo": {
-      "title": "تحميل المعرض - هندسة باور تون",
-      "description": "تحميل وثائق معرض شاملة تعرض مشاريع الأتمتة الصناعية وقدرات وإنجازات شركة باور تون للهندسة."
+      "title": "Download Portfolio - Powerton Engineering",
+      "description": "Download a comprehensive portfolio document showcasing Powerton Engineering's industrial automation projects, capabilities, and achievements."
     },
-    "title": "تحميلات المعرض",
-    "subtitle": "الوصول إلى التوثيق الشامل لمشاريع الأتمتة الصناعية وقدراتنا وتميزنا الهندسي. تحميل معارض مفصلة لمعرفة المزيد عن عملنا.",
+    "title": "Portfolio Download",
+    "subtitle": "Access our comprehensive documentation of industrial automation projects, capabilities, and engineering excellence. Download detailed portfolios to learn more about our work.",
     "features": {
       "projects": {
-        "title": "١٢٠٠+ مشروع",
-        "description": "مشاريع مكتملة بنجاح عبر صناعات مختلفة"
+        "title": "1200+ Projects",
+        "description": "Successfully completed projects across various industries"
       },
       "documentation": {
-        "title": "توثيق عالي الجودة",
-        "description": "معرض مهني مع صور مشاريع مفصلة"
+        "title": "High-Quality Documentation",
+        "description": "Professional portfolio with detailed project imagery"
       },
       "results": {
-        "title": "نتائج موثقة",
-        "description": "مشاريع حقيقية بنتائج قابلة للقياس وشهادات العملاء"
+        "title": "Verified Results",
+        "description": "Real projects with measurable outcomes and client testimonials"
       }
     },
     "items": {
       "complete": {
-        "title": "معرض الشركة الكامل",
-        "description": "معرض شامل يعرض جميع مشاريع الأتمتة الصناعية وقدراتنا وإنجازاتنا."
+        "title": "Complete Company Portfolio",
+        "description": "A comprehensive portfolio showcasing all our industrial automation projects, capabilities, and achievements."
       },
       "automation": {
-        "title": "مشاريع الأتمتة الصناعية",
-        "description": "مجموعة مركزة من تطبيقات أنظمة الأتمتة والتحكم عبر صناعات مختلفة."
+        "title": "Industrial Automation Projects",
+        "description": "A focused collection of our automation and control systems implementations across various industries."
       },
       "electrical": {
-        "title": "أنظمة الطاقة والكهرباء",
-        "description": "توثيق توزيع الطاقة ولوحات التحكم الكهربائية ومشاريع إدارة الطاقة."
+        "title": "Power Systems and Electrical",
+        "description": "Documentation of power distribution, electrical control panels, and energy management projects."
       },
       "caseStudies": {
-        "title": "دراسات حالة المشاريع",
-        "description": "دراسات حالة مفصلة لأنجح تطبيقات الأتمتة الصناعية لدينا مع رؤى تقنية."
+        "title": "Project Case Studies",
+        "description": "Detailed case studies of our most successful industrial automation implementations, with technical insights."
       }
     },
     "categories": {
-      "allProjects": "جميع المشاريع",
-      "companyOverview": "نظرة عامة على الشركة",
-      "certifications": "الشهادات",
-      "clientTestimonials": "شهادات العملاء",
-      "processAutomation": "أتمتة العمليات",
-      "controlSystems": "أنظمة التحكم",
-      "scada": "مراقبة وتحكم واكتساب البيانات الإشرافية",
-      "plcProgramming": "برمجة متحكم منطقي قابل للبرمجة",
-      "powerDistribution": "توزيع الطاقة",
-      "controlPanels": "لوحات التحكم",
-      "motorControlCenters": "مراكز التحكم في المحركات",
-      "energyManagement": "إدارة الطاقة",
-      "caseStudies": "دراسات الحالة",
-      "technicalSolutions": "الحلول التقنية",
-      "roiAnalysis": "تحليل العائد على الاستثمار",
-      "implementationStrategies": "استراتيجيات التنفيذ"
+      "allProjects": "All Projects",
+      "companyOverview": "Company Overview",
+      "certifications": "Certifications",
+      "clientTestimonials": "Client Testimonials",
+      "processAutomation": "Process Automation",
+      "controlSystems": "Control Systems",
+      "scada": "SCADA",
+      "plcProgramming": "PLC Programming",
+      "powerDistribution": "Power Distribution",
+      "controlPanels": "Control Panels",
+      "motorControlCenters": "Motor Control Centers",
+      "energyManagement": "Energy Management",
+      "caseStudies": "Case Studies",
+      "technicalSolutions": "Technical Solutions",
+      "roiAnalysis": "ROI Analysis",
+      "implementationStrategies": "Implementation Strategies"
     },
-    "pages": "صفحات",
-    "includes": "يتضمن",
-    "requestDownload": "طلب التحميل",
+    "pages": "Pages",
+    "includes": "Includes",
+    "requestDownload": "Request Download",
     "custom": {
-      "title": "تحتاج معرض مخصص؟",
-      "description": "تبحث عن معلومات مشروع محددة أو معرض مخصص لصناعتك؟ اتصل بفريقنا للحصول على توثيق مخصص."
+      "title": "Need a Custom Portfolio?",
+      "description": "Looking for specific project information or a portfolio tailored to your industry? Contact our team for a customized document."
     },
     "disclaimer": {
-      "note": "ملاحظة",
-      "text": "وثائق المعرض مقدمة لأغراض إعلامية فقط. للحصول على أحدث المعلومات وتفاصيل المشروع المحددة، يرجى الاتصال بفريقنا مباشرة. قد تكون بعض تفاصيل المشروع سرية ومتاحة فقط تحت اتفاقية عدم الإفشاء."
+      "note": "Note",
+      "text": "The portfolio documentation is provided for informational purposes only. For the most current information and specific project details, please contact our team directly. Certain project details may be confidential and are provided under NDA only."
     },
     "alert": {
-      "downloading": "جاري التحميل",
-      "contactMessage": "للوصول إلى وثائق معرضنا، يرجى الاتصال بنا مباشرة على info@powertonengineering.com أو الاتصال على +91-94627-71662."
+      "downloading": "Downloading",
+      "contactMessage": "To access our portfolio documentation, please contact us directly at info@powertonengineering.com or call +86-138-0000-0000."
     }
   },
   "quote": {
     "hero": {
-      "title": "احصل على عروض هندسية احترافية",
-      "subtitle": "اتصل بفريقنا المتخصص للحصول على حلول مخصصة للأتمتة والأجهزة المناسبة لمتطلباتك الصناعية.",
+      "title": "Get a Professional Engineering Quote",
+      "subtitle": "Contact our expert team for tailored automation and instrumentation solutions for your industrial needs.",
       "benefits": {
-        "consultation": "استشارة تقنية مجانية",
-        "response": "وقت استجابة 24-48 ساعة",
-        "estimates": "تقديرات تكلفة تفصيلية",
-        "noCosts": "لا توجد تكاليف مخفية"
+        "consultation": "Free Technical Consultation",
+        "response": "24-48 Hour Response Time",
+        "estimates": "Detailed Cost Estimates",
+        "noCosts": "No Hidden Costs"
       }
     },
     "benefits": {
       "assessment": {
-        "title": "تقييم تفصيلي",
-        "description": "تقييم شامل للمشروع والمواصفات التقنية"
+        "title": "Detailed Assessment",
+        "description": "Comprehensive project evaluation and technical specifications"
       },
       "response": {
-        "title": "رد سريع",
-        "description": "احصل على عرض الأسعار التفصيلي خلال 24-48 ساعة"
+        "title": "Rapid Response",
+        "description": "Receive your detailed quote within 24-48 hours"
       },
       "consultation": {
-        "title": "استشارة الخبراء",
-        "description": "استشارة تقنية مجانية مع فريق الهندسة"
+        "title": "Expert Consultation",
+        "description": "Free technical consultation with our engineering team"
       },
       "solutions": {
-        "title": "حلول مخصصة",
-        "description": "حلول هندسية مصممة خصيصاً لمتطلباتك المحددة"
+        "title": "Custom Solutions",
+        "description": "Tailored engineering solutions for your specific needs"
       }
     },
     "method": {
-      "title": "اختر طريقة عرض الأسعار",
-      "description": "اختر الطريقة الأنسب للحصول على عرض أسعار مشروعك. كلا الخيارين يوفران أسعاراً شاملة ومواصفات تقنية.",
-      "calculator": "حاسبة ذكية",
-      "request": "طلب عرض أسعار"
+      "title": "Choose Your Quote Method",
+      "description": "Select the most convenient way to get a project quote. Both options provide comprehensive pricing and technical specifications.",
+      "calculator": "Smart Calculator",
+      "request": "Quote Request"
     },
     "calculator": {
-      "title": "حاسبة التكلفة المتقدمة",
-      "description": "نحن نضع اللمسات الأخيرة على أداة التقدير الذكية للتكلفة. ستوفر هذه الميزة أسعاراً فورية ودقيقة لمشاريع الأتمتة الخاصة بك.",
-      "launchingSoon": "قريباً",
-      "useQuoteForm": "للحصول على عروض أسعار فورية، يرجى استخدام نموذج عرض الأسعار المفصل الخاص بنا",
-      "getQuoteNow": "احصل على عرض سعر الآن",
-      "projectTitle": "حاسبة تكلفة المشروع",
-      "stepOf": "الخطوة {{current}} من {{total}}"
+      "title": "Advanced Cost Calculator",
+      "description": "We're refining our smart cost estimation tool. This feature will provide instant, accurate pricing for your automation projects.",
+      "launchingSoon": "Launching Soon",
+      "useQuoteForm": "For an immediate quote, please use our detailed quote form",
+      "getQuoteNow": "Get Quote Now",
+      "projectTitle": "Project Cost Calculator",
+      "stepOf": "Step {{current}} of {{total}}"
     },
     "process": {
-      "title": "عملية عرض الأسعار لدينا",
-      "description": "من الطلب الأولي إلى الاقتراح المفصل، نضمن عملية سلسة وشفافة.",
+      "title": "Our Quote Process",
+      "description": "From initial request to detailed proposal, we ensure a smooth and transparent process.",
       "submit": {
-        "title": "إرسال الطلب",
-        "description": "املأ نموذج عرض الأسعار الشامل أو استخدم حاسبة التكلفة الخاصة بنا"
+        "title": "Submit Request",
+        "description": "Fill out our comprehensive quote form or use our cost calculator"
       },
       "review": {
-        "title": "المراجعة التقنية",
-        "description": "يحلل فريق الهندسة لدينا متطلباتك ومواصفاتك"
+        "title": "Technical Review",
+        "description": "Our engineering team analyzes your requirements and specifications"
       },
       "assessment": {
-        "title": "تقييم الموقع",
-        "description": "زيارة اختيارية للموقع للمشاريع المعقدة (إذا لزم الأمر)"
+        "title": "On-Site Assessment",
+        "description": "Optional on-site visit for complex projects, if required"
       },
       "quote": {
-        "title": "عرض أسعار مفصل",
-        "description": "احصل على أسعار شاملة مع الجدول الزمني والنتائج"
+        "title": "Detailed Quote",
+        "description": "Receive comprehensive pricing with timelines and deliverables"
       }
     },
     "cta": {
-      "title": "هل أنت مستعد للبدء؟",
-      "description": "اتصل بنا اليوم للحصول على حل هندسي مخصص. فريقنا جاهز لمساعدتك في تحقيق مشروعك."
+      "title": "Ready to Get Started?",
+      "description": "Contact us today to get your custom engineering solutions. Our team is ready to help you bring your project to life."
     },
     "projectTypes": {
-      "processAutomation": "أتمتة العمليات",
-      "powerControlSystems": "أنظمة التحكم في الطاقة",
-      "instrumentationControl": "الأجهزة والتحكم",
-      "solarAutomation": "الأتمتة الشمسية",
-      "buildingAutomation": "أتمتة المباني",
-      "manufacturingAutomation": "أتمتة التصنيع"
+      "processAutomation": "Process Automation",
+      "powerControlSystems": "Power Control Systems",
+      "instrumentationControl": "Instrumentation & Control",
+      "solarAutomation": "Solar Automation",
+      "buildingAutomation": "Building Automation",
+      "manufacturingAutomation": "Manufacturing Automation"
     },
     "industries": {
-      "manufacturing": "التصنيع",
-      "powerGeneration": "توليد الطاقة",
-      "oilGas": "النفط والغاز",
-      "chemicalProcessing": "المعالجة الكيميائية",
-      "waterTreatment": "معالجة المياه",
-      "foodBeverage": "الأغذية والمشروبات",
-      "pharmaceutical": "الأدوية",
-      "renewableEnergy": "الطاقة المتجددة"
+      "manufacturing": "Manufacturing",
+      "powerGeneration": "Power Generation",
+      "oilGas": "Oil & Gas",
+      "chemicalProcessing": "Chemical Processing",
+      "waterTreatment": "Water Treatment",
+      "foodBeverage": "Food & Beverage",
+      "pharmaceutical": "Pharmaceutical",
+      "renewableEnergy": "Renewable Energy"
     },
     "projectSizes": {
-      "small": "صغير (1-10 نقاط إدخال/إخراج)",
-      "medium": "متوسط (11-100 نقطة إدخال/إخراج)",
-      "large": "كبير (101-500 نقطة إدخال/إخراج)",
-      "enterprise": "مؤسسة (500+ نقطة إدخال/إخراج)"
+      "small": "Small (1-10 I/O Points)",
+      "medium": "Medium (11-100 I/O Points)",
+      "large": "Large (101-500 I/O Points)",
+      "enterprise": "Enterprise (500+ I/O Points)"
     },
     "timelines": {
-      "urgent": "عاجل (< 3 أشهر)",
-      "standard": "قياسي (3-6 أشهر)",
-      "extended": "ممتد (6-12 شهراً)",
-      "longTerm": "طويل الأجل (12+ شهراً)"
+      "urgent": "Urgent (< 3 Months)",
+      "standard": "Standard (3-6 Months)",
+      "extended": "Extended (6-12 Months)",
+      "longTerm": "Long Term (12+ Months)"
     },
     "requirements": {
-      "plcProgramming": "برمجة متحكم منطقي قابل للبرمجة",
-      "scadaDevelopment": "تطوير SCADA",
-      "hmiDesign": "تصميم واجهة الإنسان والآلة",
-      "networkIntegration": "تكامل الشبكة",
-      "safetySystems": "أنظمة الأمان",
-      "remoteMonitoring": "المراقبة عن بُعد",
-      "dataAnalytics": "تحليل البيانات",
-      "mobileApp": "واجهة التطبيق المحمول"
+      "plcProgramming": "PLC Programming",
+      "scadaDevelopment": "SCADA Development",
+      "hmiDesign": "HMI Design",
+      "networkIntegration": "Network Integration",
+      "safetySystems": "Safety Systems",
+      "remoteMonitoring": "Remote Monitoring",
+      "dataAnalytics": "Data Analytics",
+      "mobileApp": "Mobile App Interface"
     },
     "additionalFeatures": {
-      "redundancy": "تكرار النظام",
-      "cybersecurity": "الأمن السيبراني المتقدم",
-      "iotIntegration": "تكامل إنترنت الأشياء",
-      "aiMl": "تحليل الذكاء الاصطناعي/التعلم الآلي",
-      "predictiveMaintenance": "الصيانة التنبؤية",
-      "energyManagement": "إدارة الطاقة",
-      "cloudIntegration": "التكامل السحابي",
-      "trainingSupport": "التدريب والدعم الموسع"
+      "redundancy": "System Redundancy",
+      "cybersecurity": "Advanced Cybersecurity",
+      "iotIntegration": "IoT Integration",
+      "aiMl": "AI/ML Analytics",
+      "predictiveMaintenance": "Predictive Maintenance",
+      "energyManagement": "Energy Management",
+      "cloudIntegration": "Cloud Integration",
+      "trainingSupport": "Training and Extended Support"
     }
-  },
-  "about": {
-    "hero": {
-      "title": "حول شركة بواورتون للهندسة",
-      "subtitle": "شريكك الموثوق في تقديم حلول وخدمات هندسية عالية الجودة لأكثر من 15 عامًا."
-    },
-    "story": {
-      "title": "رحلتنا ورؤيتنا",
-      "description1": "تأسست برؤية تمكين الصناعات من خلال الابتكار والتميز، أصبحت شركة بواورتون للهندسة مزودًا رائدًا للحلول الكهربائية والأجهزة في جميع أنحاء الهند.",
-      "description2": "من مقرنا الرئيسي في نويدا، نخدم العملاء على الصعيد الوطني بحلول هندسية شاملة تشمل أتمتة العمليات والأجهزة والتركيب الشمسي وخدمات الصيانة."
-    },
-    "values": {
-      "quality": {
-        "title": "التميز في الجودة",
-        "description": "نحن ملتزمون بتقديم منتجات وخدمات بأعلى جودة تتفوق على معايير الصناعة."
-      },
-      "customer": {
-        "title": "التركيز على العملاء",
-        "description": "عملاؤنا في قلب كل ما نفعله. نعمل معًا لفهم توقعاتهم والتفوق عليها."
-      },
-      "innovation": {
-        "title": "الابتكار التقني",
-        "description": "نستثمر باستمرار في أحدث التقنيات والحلول المبتكرة للبقاء في المقدمة في الصناعة."
-      },
-      "reliability": {
-        "title": "الموثوقية",
-        "description": "سجلنا المثبت في التسليم في الوقت المحدد والخدمة الموثوقة يجعلنا شريكًا موثوقًا."
-      }
-    },
-    "stats": {
-      "engineers": "مهندسون خبراء",
-      "staff": "موظفون تقنيون",
-      "experience": "سنوات الخبرة المتوسطة",
-      "support": "تغطية الدعم"
-    }
-  },
-  "contact": {
-    "map": {
-      "title": "موقع مكتب هندسة باورتون"
-    },
-    "hero": {
-      "title": "اتصل بخبراء الهندسة لدينا",
-      "subtitle": "هل أنت مستعد لبدء مشروعك التالي؟ فريق الخبراء لدينا هنا لمساعدتك في حلول هندسية مخصصة واستشارات مهنية.",
-      "benefits": {
-        "consultation": "استشارة مجانية",
-        "support": "دعم طارئ على مدار الساعة طوال أيام الأسبوع",
-        "experience": "خبرة تزيد عن 15 عامًا"
-      }
-    },
-    "methods": {
-      "title": "طرق متعددة للوصول إلينا",
-      "subtitle": "اختر طريقة الاتصال التي تناسبك. نحن متاحون على مدار الساعة طوال أيام الأسبوع للدعم في حالات الطوارئ."
-    },
-    "form": {
-      "title": "أرسل لنا رسالة",
-      "subtitle": "تواصل معنا للاستفسارات العامة أو معلومات الخدمة أو الأسئلة الفنية."
-    },
-    "contactMethods": {
-      "phone": {
-        "title": "اتصل بنا مباشرة",
-        "subtitle": "متاح ٢٤/٧ للدعم",
-        "description": "تحدث مباشرة مع فريقنا الفني"
-      },
-      "email": {
-        "title": "دعم البريد الإلكتروني",
-        "subtitle": "الرد في غضون 24 ساعة",
-        "description": "أرسل لنا متطلبات المشروع التفصيلية"
-      },
-      "whatsapp": {
-        "title": "دعم WhatsApp",
-        "subtitle": "دردشة استجابة سريعة",
-        "description": "احصل على إجابات فورية لأسئلتك"
-      },
-      "visit": {
-        "title": "قم بزيارة مكتبنا",
-        "subtitle": "عن طريق التعيين فقط",
-        "description": "حدد موعدًا لزيارة مقرنا الرئيسي في نويدا"
-      }
-    },
-    "office": {
-      "name": "المقر الرئيسي للشركة",
-      "hours": "الاثنين - السبت: 9:00 صباحًا - 6:00 مساءً"
-    },
-    "services": {
-      "technical": {
-        "title": "دعم فني",
-        "description": "مساعدة فنية متخصصة لجميع منتجاتنا وخدماتنا"
-      },
-      "customer": {
-        "title": "نجاح العميل",
-        "description": "دعم مخصص لضمان نجاح مشروعك"
-      },
-      "onsite": {
-        "title": "الدعم في الموقع",
-        "description": "دعم هندسي ميداني في موقعك"
-      },
-      "remote": {
-        "title": "الدعم عن بعد",
-        "description": "المساعدة الاftراضية وتشخيص النظام عن بعد"
-      }
-    },
-    "sections": {
-      "visitOffice": "قم بزيارة مكتبنا",
-      "officeLocation": "موقع المكتب",
-      "supportServices": "خدمات الدعم",
-      "businessHours": "ساعات العمل والتوافر",
-      "getDirections": "الحصول على الاتجاهات"
-    },
-    "formSection": {
-      "title": "نموذج الاتصال العام",
-      "description": "للاستفسارات العامة أو معلومات الخدمة أو الأسئلة الفنية"
-    },
-    "businessHours": {
-      "regular": {
-        "title": "ساعات العمل العادية",
-        "days": "الاثنين - السبت",
-        "time": "9:00 صباحًا - 6:00 مساءً"
-      },
-      "emergency": {
-        "title": "دعم الطوارئ",
-        "availability": "متاح ٢٤/٧",
-        "days": "كل الأيام"
-      },
-      "email": {
-        "title": "الرد عبر البريد الإلكتروني",
-        "time": "في غضون 24 ساعة",
-        "guarantee": "مضمون"
-      }
-    },
-    "emergency": {
-      "title": "دعم الطوارئ",
-      "description": "فشل نظام حرج؟ فريق الاستجابة للطوارئ لدينا متاح على مدار الساعة طوال أيام الأسبوع للمساعدة في تقليل وقت التوقف عن العمل.",
-      "hotline": "الخط الساخن للطوارئ"
-    },
-    "seo": {
-      "title": "اتصل بهندسة باورتون - احصل على دعم هندسي متخصص",
-      "description": "اتصل بخبراء الهندسة لدينا للحصول على الأتمتة الصناعية والأنظمة الكهربائية والدعم الفني. اتصل على +91-94627-71662 أو أرسل بريدًا إلكترونيًا إلى info@powertonengineering.com",
-      "keywords": "الاتصال بهندسة باورتون, دعم هندسي, الاتصال بالأتمتة الصناعية, مساعدة في الهندسة الكهربائية, الاتصال بشركة هندسة في نويدا"
-    }
-  },
-  "projects": {
-    "tabs": {
-      "portfolio": "محفظة المشاريع",
-      "showcase": "المشاريع المميزة"
-    },
-    "hero": {
-      "title": "مشاريعنا",
-      "subtitle": "اكتشف التميز الهندسي لدينا من خلال أكثر من 1200 مشروع ناجح عبر صناعات متنوعة، يُظهر الابتكار والجودة والموثوقية."
-    },
-    "showing": "عرض",
-    "technologies": {
-      "plcprogramming": "برمجة أنظمة التحكم المنطقي",
-      "scada": "أنظمة المراقبة والتحكم",
-      "hmi": "واجهة الإنسان والآلة",
-      "industrialiot": "إنترنت الأشياء الصناعي",
-      "environmentalmonitoring": "مراقبة البيئة",
-      "predictiveanalytics": "التحليلات التنبؤية",
-      "edgecomputing": "الحوسبة الطرفية",
-      "mccpanels": "لوحات التحكم في المحركات",
-      "protectionsystems": "أنظمة الحماية",
-      "energymanagement": "إدارة الطاقة",
-      "remotemonitoring": "المراقبة عن بُعد"
-    },
-    "statuses": {
-      "capabilitydemo": "عرض القدرات",
-      "inprogress": "قيد التنفيذ",
-      "completed": "مكتمل",
-      "planning": "مرحلة التخطيط",
-      "contractsigned": "تم توقيع العقد",
-      "engineeringphase": "مرحلة الهندسة"
-    },
-    "categories": {
-      "processautomation": "أتمتة العمليات",
-      "powersystems": "أنظمة الطاقة",
-      "solarsolutions": "حلول الطاقة الشمسية",
-      "manufacturing": "التصنيع",
-      "watertreatment": "معالجة المياه",
-      "powerplant": "محطة الطاقة"
-    },
-    "highlights": {
-      "plcintegration": "تكامل أنظمة التحكم",
-      "scadasystems": "أنظمة المراقبة",
-      "realtimemonitoring": "المراقبة الفورية",
-      "processoptimization": "تحسين العمليات",
-      "loadbalancing": "توزيع الأحمال",
-      "remotecontrol": "التحكم عن بُعد",
-      "gridconnection": "الاتصال بالشبكة",
-      "performanceoptimization": "تحسين الأداء",
-      "maintenanceplanning": "تخطيط الصيانة",
-      "qualitycontrol": "مراقبة الجودة",
-      "automatedoperations": "العمليات الآلية",
-      "remotemanagement": "الإدارة عن بُعد"
-    }
-  },
-  "ui": {
-    "projectPortfolio": "محفظة المشاريع",
-    "featuredProjects": "المشاريع المميزة"
   },
   "gallery": {
     "hero": {
-      "title": "معرض الصور",
-      "subtitle": "اكتشف رحلتنا من خلال الصور - من فريقنا المختص ومرافقنا الحديثة إلى مشاريعنا الناجحة ومجموعة منتجاتنا الشاملة."
+      "title": "Our Gallery",
+      "subtitle": "Discover our journey through images - from our dedicated team and modern facilities to successful projects and comprehensive product range."
     },
     "tabs": {
-      "company": "الشركة والفريق",
-      "projects": "المشاريع",
-      "products": "المنتجات"
+      "company": "Company Team",
+      "projects": "Projects",
+      "products": "Products"
     },
     "company": {
       "images": {
         "modernFacility": {
-          "title": "منشأة هندسية حديثة",
-          "description": "منشأتنا الحديثة في نويدا والمجهزة بأحدث معدات الاختبار"
+          "title": "Modern Engineering Facility",
+          "description": "Our state-of-the-art facility in Noida, equipped with the latest testing equipment"
         },
         "expertTeam": {
-          "title": "فريق هندسي خبير",
-          "description": "مهندسونا المهرة يعملون على حلول الأتمتة الصناعية"
+          "title": "Expert Engineering Team",
+          "description": "Our highly skilled engineers dedicated to industrial automation solutions"
         },
         "qualityLab": {
-          "title": "مختبر مراقبة الجودة",
-          "description": "مختبر اختبار متقدم يضمن جودة المنتج وموثوقيته"
+          "title": "Quality Control Lab",
+          "description": "Advanced testing laboratory ensuring product quality and reliability"
         },
         "trainingCenter": {
-          "title": "مركز التدريب والتطوير",
-          "description": "التطوير المستمر للمهارات لفريقنا الفني"
+          "title": "Training and Development Center",
+          "description": "Continuous skill development for our technical team"
         },
         "supportCenter": {
-          "title": "مركز دعم العملاء",
-          "description": "دعم عملاء مخصص على مدار الساعة طوال أيام الأسبوع ومساعدة فنية"
+          "title": "Customer Support Center",
+          "description": "Professional 24/7 customer support and technical assistance"
         },
         "rdWing": {
-          "title": "جناح البحث والتطوير",
-          "description": "مركز ابتكار لتطوير حلول أتمتة متطورة"
+          "title": "R&D Department",
+          "description": "Innovation hub developing cutting-edge automation solutions"
         }
       },
       "categories": {
-        "facility": "منشأة",
-        "team": "الفريق",
-        "training": "التدريب",
-        "support": "الدعم",
-        "rd": "البحث والتطوير"
+        "facility": "Facility",
+        "team": "Team",
+        "training": "Training",
+        "support": "Support",
+        "rd": "R&D"
+      }
+    },
+    "sections": {
+      "company": {
+        "title": "Our Company & Team",
+        "description": "Meet our dedicated team and explore our advanced facilities that enable us to deliver excellence in every project."
+      },
+      "projects": {
+        "title": "Our Completed Projects",
+        "description": "Explore our successful project implementations across various industries, showcasing our expertise and commitment to quality."
+      },
+      "products": {
+        "title": "Our Products & Solutions",
+        "description": "Discover our comprehensive range of industrial products and solutions from leading global manufacturers."
       }
     },
     "projects": {
       "images": {
         "controlPanel": {
-          "title": "تركيب لوحة تحكم صناعية",
-          "description": "تنفيذ نظام أتمتة كامل لمصنع التصنيع",
-          "client": "صناعة التصنيع"
+          "title": "Industrial Control Panel Installation",
+          "description": "Complete automation system implementation for manufacturing plant",
+          "client": "Manufacturing Industry"
         },
         "solarPlant": {
-          "title": "محطة طاقة شمسية - 1 ميجاوات",
-          "description": "تركيب شمسي متصل بالشبكة مع أنظمة مراقبة",
-          "client": "مجمع صناعي"
+          "title": "Solar Power Plant - 1MW",
+          "description": "Grid-tied solar installation with monitoring systems",
+          "client": "Industrial Complex"
         },
         "scadaSystem": {
-          "title": "تنفيذ نظام SCADA",
-          "description": "نظام مراقبة وتحكم مركزي لمحطة معالجة المياه",
-          "client": "هيئة المياه"
+          "title": "SCADA System Implementation",
+          "description": "Centralized monitoring and control system for water treatment plant",
+          "client": "Water Authority"
         },
         "instrumentation": {
-          "title": "ترقية أجهزة العمليات",
-          "description": "إصلاح شامل للأجهزة لوحدة المعالجة الكيميائية",
-          "client": "الصناعة الكيميائية"
+          "title": "Process Instrumentation Upgrade",
+          "description": "Complete instrumentation overhaul for chemical processing unit",
+          "client": "Chemical Industry"
         },
         "plcProgramming": {
-          "title": "برمجة متحكم منطقي قابل للبرمجة والتكامل",
-          "description": "أنظمة PLC متقدمة لأتمتة خط الإنتاج",
-          "client": "قطاع السيارات"
+          "title": "PLC Programming & Integration",
+          "description": "Advanced PLC systems for production line automation",
+          "client": "Automotive Sector"
         },
         "electricalPanel": {
-          "title": "تحديث اللوحة الكهربائية",
-          "description": "مشروع الامتثال للسلامة وتحسين الكفاءة",
-          "client": "وحدة التصنيع"
+          "title": "Electrical Panel Modernization",
+          "description": "Safety compliance and efficiency improvement project",
+          "client": "Manufacturing Unit"
         }
       },
       "categories": {
-        "automation": "الأتمتة",
-        "solarEpc": "الطاقة الشمسية EPC",
-        "scada": "مراقبة وتحكم واكتساب البيانات الإشرافية",
-        "instrumentation": "الأجهزة",
-        "plcProgramming": "برمجة متحكم منطقي قابل للبرمجة",
-        "electrical": "الكهرباء"
+        "automation": "Automation",
+        "solarEpc": "Solar EPC",
+        "scada": "SCADA",
+        "instrumentation": "Instrumentation",
+        "plcProgramming": "PLC Programming",
+        "electrical": "Electrical"
       }
     },
     "products": {
       "images": {
         "controlSystems": {
-          "title": "أنظمة تحكم متقدمة",
-          "description": "حلول أتمتة وتحكم حديثة"
+          "title": "Advanced Control Systems",
+          "description": "State-of-the-art automation and control solutions"
         },
         "electricalPanels": {
-          "title": "لوحات تحكم كهربائية",
-          "description": "لوحات مصممة خصيصًا للتطبيقات الصناعية"
+          "title": "Electrical Control Panels",
+          "description": "Custom-designed panels for industrial applications"
         },
         "instrumentation": {
-          "title": "أجهزة دقيقة",
-          "description": "أدوات قياس وتحكم عالية الجودة"
+          "title": "Precision Instrumentation",
+          "description": "High-quality measurement and control instruments"
         },
         "pumps": {
-          "title": "مضخات ومحركات صناعية",
-          "description": "حلول مضخات موثوقة لمختلف التطبيقات"
+          "title": "Industrial Pumps & Motors",
+          "description": "Reliable pump solutions for various applications"
         },
         "solarProducts": {
-          "title": "حلول الطاقة الشمسية",
-          "description": "أنظمة ومكونات طاقة شمسية كاملة"
+          "title": "Solar Power Solutions",
+          "description": "Complete solar energy systems and components"
         },
         "safetyEquipment": {
-          "title": "السلامة والحماية",
-          "description": "معدات السلامة الصناعية وأجهزة الحماية"
+          "title": "Safety & Protection",
+          "description": "Industrial safety equipment and protective devices"
         }
       },
       "categories": {
-        "controlSystems": "أنظمة التحكم",
-        "electricalPanels": "لوحات كهربائية",
-        "instrumentation": "الأجهزة",
-        "pumps": "مضخات ومحركات",
-        "solar": "منتجات الطاقة الشمسية",
-        "safety": "معدات السلامة"
+        "controlSystems": "Control Systems",
+        "electricalPanels": "Electrical Panels",
+        "instrumentation": "Instrumentation",
+        "pumps": "Pumps & Motors",
+        "solar": "Solar Products",
+        "safety": "Safety Equipment"
       }
     },
     "ui": {
-      "viewLarger": "عرض أكبر",
-      "downloadImage": "تحميل الصورة",
-      "requestDownload": "طلب تحميل",
-      "needCustomPortfolio": "هل تحتاج إلى محفظة مخصصة؟",
-      "contactUs": "اتصل بنا للحصول على محفظة مشاريع مخصصة تعرض أعمالنا ذات الصلة بصناعتك.",
-      "imageNotFound": "لم يتم العثور على الصورة",
-      "noImagesFound": "لم يتم العثور على صور لهذه الفئة",
-      "allCategories": "جميع الفئات",
-      "year": "سنة",
-      "location": "الموقع",
-      "client": "العميل",
-      "category": "الفئة"
+      "viewLarger": "View Larger",
+      "downloadImage": "Download Image",
+      "requestDownload": "Request Download",
+      "needCustomPortfolio": "Need Custom Portfolio?",
+      "contactUs": "Contact us for a personalized project portfolio showcasing our work relevant to your industry.",
+      "imageNotFound": "Image not found",
+      "noImagesFound": "No images found for this category",
+      "allCategories": "All Categories",
+      "year": "Year",
+      "location": "Location",
+      "client": "Client",
+      "category": "Category"
+    }
+  },
+  "contact": {
+    "hero": {
+      "title": "Contact Our Engineering Experts",
+      "subtitle": "Get expert support for your industrial automation and electrical engineering projects. Our experienced team is ready to help you succeed.",
+      "benefits": {
+        "consultation": "Free Expert Consultation",
+        "support": "24/7 Technical Support",
+        "experience": "15+ Years Experience"
+      }
+    },
+    "methods": {
+      "title": "Multiple Ways to Reach Us",
+      "subtitle": "Choose the communication method that works best for you. We're available 24/7 for emergency support."
+    },
+    "form": {
+      "title": "Send Us a Message",
+      "subtitle": "Get in touch with us for general inquiries, service information, or technical questions."
+    },
+    "contactMethods": {
+      "phone": {
+        "title": "Call Us Directly",
+        "subtitle": "Available 24/7 for support",
+        "description": "Speak directly with our technical team"
+      },
+      "email": {
+        "title": "Email Support",
+        "subtitle": "Response within 24 hours",
+        "description": "Send us detailed project requirements"
+      },
+      "whatsapp": {
+        "title": "WhatsApp Support",
+        "subtitle": "Quick response chat",
+        "description": "Get instant answers to your questions"
+      },
+      "visit": {
+        "title": "Visit Our Office",
+        "subtitle": "By appointment only",
+        "description": "Schedule a visit to our headquarters in Noida"
+      }
+    },
+    "map": {
+      "title": "Powerton Engineering Office Location"
+    },
+    "office": {
+      "name": "Corporate Headquarters",
+      "hours": "Mon-Sat: 9:00 AM - 6:00 PM"
+    },
+    "services": {
+      "technical": {
+        "title": "Technical Support",
+        "description": "Expert technical assistance for all our products and services"
+      },
+      "customer": {
+        "title": "Customer Success",
+        "description": "Dedicated support to ensure your project success"
+      },
+      "onsite": {
+        "title": "On-Site Support",
+        "description": "Field engineering support at your location"
+      },
+      "remote": {
+        "title": "Remote Support",
+        "description": "Virtual assistance and remote system diagnostics"
+      }
     },
     "sections": {
-      "company": {
-        "title": "شركتنا وفريقنا",
-        "description": "تعرف على فريقنا المتفاني واستكشف منشآتنا الحديثة التي تمكننا من تحقيق التميز في كل مشروع."
+      "visitOffice": "Visit Our Office",
+      "officeLocation": "Office Location",
+      "supportServices": "Support Services",
+      "businessHours": "Business Hours & Availability",
+      "getDirections": "Get Directions"
+    },
+    "formSection": {
+      "title": "General Contact Form",
+      "description": "For general inquiries, service information, or technical questions"
+    },
+    "businessHours": {
+      "regular": {
+        "title": "Regular Hours",
+        "days": "Monday - Saturday",
+        "time": "9:00 AM - 6:00 PM"
       },
-      "projects": {
-        "title": "مشاريعنا المكتملة",
-        "description": "استكشف تطبيقات مشاريعنا الناجحة في مختلف الصناعات، والتي تعرض خبرتنا والتزامنا بالجودة."
+      "emergency": {
+        "title": "Emergency Support",
+        "availability": "24/7 Availability",
+        "days": "All Days"
       },
-      "products": {
-        "title": "منتجاتنا وحلولنا",
-        "description": "اكتشف مجموعتنا الشاملة من المنتجات والحلول الصناعية من الشركات المصنعة العالمية الرائدة."
+      "email": {
+        "title": "Email Response",
+        "time": "Within 24 Hours",
+        "guarantee": "Guaranteed"
       }
+    },
+    "emergency": {
+      "title": "Emergency Support",
+      "description": "Critical system failure? Our emergency response team is available 24/7 to help minimize downtime.",
+      "hotline": "Emergency Hotline"
+    },
+    "seo": {
+      "title": "Contact Powerton Engineering - Get Expert Engineering Support",
+      "description": "Contact our engineering experts for industrial automation, electrical systems, and technical support. Call +91-94627-71662 or email info@powertonengineering.com",
+      "keywords": "contact powerton engineering, engineering support, industrial automation contact, electrical engineering help, noida engineering company contact"
     }
   },
-  "news": {
-    "hero": {
-      "title": "الأخبار والتحديثات",
-      "subtitle": "أحدث رؤى الصناعة"
-    },
-    "article": {
-      "backToNews": "العودة إلى الأخبار",
-      "share": "شارك",
-      "author": "فريق هندسة باورتون",
-      "categories": {
-        "projectSuccess": "نجاح المشروع",
-        "technology": "تقنية",
-        "industryNews": "أخبار الصناعة",
-        "companyUpdate": "تحديث الشركة"
-      },
-      "sampleArticle": {
-        "title": "هندسة باورتون تكمل مشروع أتمتة كبير لمصنع تصنيع رائد",
-        "excerpt": "تم تنفيذ نظام أتمتة صناعي شامل بنجاح مما أدى إلى خفض التكاليف التشغيلية بنسبة 30٪ وتحسين الكفاءة بنسبة 45٪.",
-        "content": {
-          "projectOverview": "نظرة عامة على المشروع",
-          "projectOverviewText": "أكملت هندسة باورتون بنجاح مشروع أتمتة صناعي شامل لأحد مرافق التصنيع الرائدة في الهند. يمثل هذا المشروع علامة فارقة مهمة في التزامنا بتقديم حلول أتمتة متطورة تدفع التميز التشغيلي.",
-          "keyAchievements": "الإنجازات الرئيسية",
-          "achievements": {
-            "costReduction": "خفض التكاليف التشغيلية بنسبة 30٪",
-            "efficiency": "تحسين كفاءة الإنتاج بنسبة 45٪",
-            "safety": "صفر حوادث سلامة أثناء التنفيذ",
-            "uptime": "100٪ وقت تشغيل النظام منذ بدء التشغيل"
-          },
-          "technicalImplementation": "التنفيذ الفني",
-          "technicalText": "تضمن المشروع تكامل أنظمة PLC المتقدمة، وتنفيذ SCADA، وحلول أجهزة شاملة. عمل فريقنا عن كثب مع العميل لضمان الحد الأدنى من الاضطراب في العمليات الجارية أثناء تنفيذ أحدث تقنيات الأتمتة.",
-          "technologiesUsed": "التقنيات المستخدمة",
-          "technologies": {
-            "plc": "أنظمة PLC من شنايدر إلكتريك",
-            "scada": "SCADA متقدم مع مراقبة في الوقت الفعلي",
-            "iot": "مستشعرات إنترنت الأشياء الصناعية والاتصال",
-            "maintenance": "أنظمة الصيانة التنبؤية",
-            "energy": "إدارة الطاقة وتحسينها"
-          },
-          "clientTestimonial": "شهادة العميل",
-          "testimonialText": "قدمت هندسة باورتون ما يفوق توقعاتنا. لقد أحدث نظام الأتمتة الجديد تحولًا في عملياتنا، ونحن نرى فوائد فورية في الكفاءة وخفض التكاليف. كان نهجهم المهني وخبرتهم الفنية استثنائيين.",
-          "futureCollaboration": "التعاون المستقبلي",
-          "futureText": "بناءً على نجاح هذا التنفيذ، قام العميل بالفعل بإشراك هندسة باورتون في المرحلة الثانية من رحلة الأتمتة الخاصة بهم، والتي ستوسع النظام ليشمل خطوط إنتاج إضافية.",
-          "conclusionText": "يوضح هذا المشروع قدرتنا على التعامل مع تحديات الأتمتة الصناعية المعقدة وتقديم نتائج قابلة للقياس تؤثر بشكل مباشر على صافي أرباح عملائنا."
-        }
-      },
-      "cta": {
-        "title": "هل أنت مستعد لتحويل عملياتك؟",
-        "description": "تعرف على كيف يمكن لهندسة باورتون مساعدتك في تحقيق نتائج مماثلة من خلال حلول الأتمتة الصناعية لدينا.",
-        "contactTeam": "اتصل بفريقنا",
-        "requestQuote": "اطلب عرض أسعار المشروع"
-      },
-      "relatedArticles": {
-        "title": "مقالات ذات صلة",
-        "iotTrends": {
-          "title": "أحدث الاتجاهات في تنفيذ إنترنت الأشياء الصناعي",
-          "excerpt": "استكشاف كيف يُحدث إنترنت الأشياء الصناعي ثورة في عمليات التصنيع..."
-        },
-        "energyManagement": {
-          "title": "نظام إدارة الطاقة يقلل التكاليف بنسبة 40٪",
-          "excerpt": "دراسة حالة: كيف حقق حل إدارة الطاقة لدينا وفورات استثنائية..."
-        },
-        "readMore": "اقرأ المزيد ←"
-      }
-    },
-    "title": "الأخبار",
-    "subtitle": "التحديثات",
-    "badges": {
-      "awardWinning": "حائز على جوائز",
-      "growingStrong": "نمو قوي",
-      "futureReady": "مستعدة للمستقبل"
-    },
-    "latestNews": {
-      "excellenceAward": {
-        "title": "هندسة باورتون تفوز بجائزة التميز ٢٠٢٤",
-        "category": "جوائز",
-        "excerpt": "معترف بها للابتكار المتميز في حلول الأتمتة الصناعية والهندسة الكهربائية."
-      },
-      "ntpcContract": {
-        "title": "تأمين عقد شركة الطاقة الحرارية الوطنية الكبير لأتمتة محطة الطاقة",
-        "category": "عقود",
-        "excerpt": "منح عقد أتمتة شامل لمشروع تحديث محطة طاقة حرارية بقدرة ٥٠٠ ميجاوات."
-      },
-      "renewableExpansion": {
-        "title": "توسيع حلول الطاقة المتجددة عبر الهند",
-        "category": "توسع",
-        "excerpt": "قدرات جديدة للطاقة الشمسية وشراكات لدعم انتقال الهند للطاقة المتجددة."
-      }
-    },
-    "upcomingProjects": {
-      "smartCity": {
-        "title": "أتمتة البنية التحتية للمدينة الذكية",
-        "client": "مدينة نويدا الذكية المحدودة",
-        "description": "بنية تحتية كاملة للأتمتة لمشروع المدينة الذكية بما في ذلك إدارة حركة المرور وإدارة النفايات وأنظمة توزيع الطاقة.",
-        "status": "مرحلة التخطيط",
-        "technologies": [
-          "إنترنت الأشياء",
-          "مستشعرات ذكية",
-          "أنظمة إدارة المدن",
-          "أتمتة الطاقة"
-        ]
-      },
-      "pharma": {
-        "title": "أتمتة تصنيع الأدوية",
-        "client": "سيبلا المحدودة",
-        "description": "أتمتة متقدمة لعمليات تصنيع الأدوية مع الامتثال للمعايير الدولية وأنظمة مراقبة الجودة.",
-        "status": "تم توقيع العقد",
-        "technologies": [
-          "الامتثال لـ GMP",
-          "معالجة الدُفعات",
-          "مراقبة الجودة",
-          "أنظمة التتبع"
-        ]
-      },
-      "solarFarm": {
-        "title": "أتمتة ومراقبة مزرعة الطاقة الشمسية",
-        "client": "أداني للطاقة الخضراء",
-        "description": "حل أتمتة شامل لمزرعة طاقة شمسية بقدرة 200 ميجاوات بما في ذلك أنظمة التتبع ومراقبة الطقس وتكامل الشبكة.",
-        "status": "مرحلة الهندسة",
-        "technologies": [
-          "تتبع الطاقة الشمسية",
-          "أنظمة الطقس",
-          "تكامل الشبكة",
-          "المراقبة عن بعد"
-        ]
-      }
-    },
-    "achievements": {
-      "2023": [
-        "حل هندسي متميز - تميز التصنيع CII",
-        "جائزة التميز في السلامة - المجلس الوطني للسلامة"
-      ],
-      "٢٠٢٤": [
-        "جائزة التميز في الأتمتة الصناعية - الجمعية الهندسية الهندية",
-        "أفضل ابتكار في التحكم في العمليات - جوائز أتمتة الهند",
-        "شهادة إدارة الجودة ISO 9001:2015",
-        "أفضل 100 شركة هندسية - India Today"
-      ],
-      "title": "الإنجازات الأخيرة"
-    }
+  "ui": {
+    "projectPortfolio": "Project Portfolio",
+    "featuredProjects": "Featured Projects"
   },
-  "backToProducts": "العودة إلى المنتجات",
   "sitemap": {
     "quickActions": {
-      "title": "هل تحتاج إلى مساعدة في العثور على شيء ما؟",
-      "description": "لا يمكنك العثور على ما تبحث عنه؟ اتصل بنا مباشرة أو استخدم برنامج الدردشة الآلي الذكي المتاح في كل صفحة.",
-      "contactUs": "اتصل بنا",
-      "requestQuote": "اطلب عرض سعر"
+      "title": "Need Help Finding Something?",
+      "description": "Can't find what you're looking for? Contact us directly or use our intelligent chatbot available on every page.",
+      "contactUs": "Contact Us",
+      "requestQuote": "Request Quote"
     }
   },
   "portfolio": {
     "features": {
-      "completedProjects": "مشاريع مكتملة بنجاح في مختلف الصناعات",
-      "highQuality": "وثائق عالية الجودة",
-      "highQualityDesc": "محفظة احترافية مع صور مفصلة للمشروع",
-      "verifiedResults": "نتائج معتمدة",
-      "verifiedResultsDesc": "مشاريع حقيقية بنتائج قابلة للقياس وشهادات العملاء"
+      "completedProjects": "Successfully completed projects across various industries",
+      "highQuality": "High-Quality Documentation",
+      "highQualityDesc": "Professional portfolio with detailed project imagery",
+      "verifiedResults": "Verified Results",
+      "verifiedResultsDesc": "Real projects with measurable outcomes and client testimonials"
     }
   },
   "career": {
     "seo": {
-      "title": "وظائف في هندسة باورتون - انضم إلى فريقنا الهندسي",
-      "description": "استكشف فرص العمل في هندسة باورتون. انضم إلى فريقنا من المهندسين المهرة وساهم في مشاريع الأتمتة الصناعية والهندسة الكهربائية المبتكرة.",
-      "keywords": "وظائف هندسة باورتون, وظائف هندسية, وظائف مهندس كهرباء, وظائف مهندس أتمتة, وظائف هندسة صناعية, وظائف هندسية في نويدا"
+      "title": "Careers at Powerton Engineering - Join Our Engineering Team",
+      "description": "Explore career opportunities at Powerton Engineering. Join our team of skilled engineers and contribute to innovative industrial automation and electrical engineering projects.",
+      "keywords": "powerton engineering careers, engineering jobs, electrical engineer jobs, automation engineer jobs, industrial engineering careers, engineering jobs noida"
     },
     "hero": {
-      "imageAlt": "مساحة عمل هندسية احترافية مع معدات منشأة صناعية حديثة"
+      "title": "Build Your Engineering Career With Us",
+      "subtitle": "Join our passionate team of engineers and contribute to innovative industrial automation solutions",
+      "benefits": {
+        "growth": "Growth Opportunities",
+        "innovation": "Innovative Projects",
+        "culture": "Collaborative Culture"
+      },
+      "imageAlt": "Professional engineering workspace with modern industrial facility equipment"
     },
     "benefits": {
       "careerGrowth": {
-        "title": "النمو الوظيفي",
-        "description": "تقدم وظيفي منظم مع مراجعات أداء منتظمة وفرص ترقية."
+        "title": "Career Growth",
+        "description": "Structured career progression with regular performance reviews and promotion opportunities."
       },
       "learningDevelopment": {
-        "title": "التعلم والتطوير",
-        "description": "برامج تدريب مستمرة وشهادات وفرص لتعزيز المهارات."
+        "title": "Learning & Development",
+        "description": "Continuous training programs, certifications, and skill enhancement opportunities."
       },
       "workLifeBalance": {
-        "title": "التوازن بين العمل والحياة",
-        "description": "ساعات عمل مرنة ومزايا صحية شاملة للموظفين وعائلاتهم."
+        "title": "Work-Life Balance",
+        "description": "Flexible working hours and comprehensive health benefits for employees and families."
       },
       "teamCulture": {
-        "title": "ثقافة الفريق",
-        "description": "بيئة عمل تعاونية مع أعضاء فريق داعمين وتواصل مفتوح."
+        "title": "Team Culture",
+        "description": "Collaborative work environment with supportive team members and open communication."
       },
       "recognitionRewards": {
-        "title": "التقدير والمكافآت",
-        "description": "حوافز ومكافآت وبرامج تقدير قائمة على الأداء للعمل المتميز."
+        "title": "Recognition & Rewards",
+        "description": "Performance-based incentives, bonuses, and recognition programs for outstanding work."
       },
       "innovationFocus": {
-        "title": "التركيز على الابتكار",
-        "description": "العمل على أحدث التقنيات والحلول المبتكرة في الأتمتة الصناعية."
+        "title": "Innovation Focus",
+        "description": "Work on cutting-edge technologies and innovative solutions in industrial automation."
       }
     }
   },
   "seo": {
     "productPages": {
       "plcs": {
-        "title": "PLCs (وحدات التحكم المنطقية القابلة للبرمجة) - الأتمتة الصناعية | هندسة باورتون",
-        "description": "PLCs عالية الجودة من الشركات المصنعة الرائدة: Siemens SIMATIC, Allen-Bradley CompactLogix, Schneider Modicon. برمجة متحكم منطقي قابل للبرمجة متخصصة وتركيب ودعم في جميع أنحاء الهند.",
-        "keywords": "PLCs, وحدات التحكم المنطقية القابلة للبرمجة, Siemens SIMATIC, Allen-Bradley CompactLogix, Schneider Modicon, وحدات تحكم الأتمتة الصناعية, برمجة متحكم منطقي قابل للبرمجة, أتمتة المصانع"
+        "title": "PLCs (Programmable Logic Controllers) - Industrial Automation | Powerton Engineering",
+        "description": "High-quality PLCs from leading manufacturers: Siemens SIMATIC, Allen-Bradley CompactLogix, Schneider Modicon. Expert PLC programming, installation & support across India.",
+        "keywords": "PLCs, programmable logic controllers, Siemens SIMATIC, Allen-Bradley CompactLogix, Schneider Modicon, industrial automation controllers, PLC programming, factory automation"
       },
       "solarPanels": {
-        "title": "الألواح الشمسية - أحادية البلورة ومتعددة البلورات | هندسة باورتون",
-        "description": "ألواح شمسية عالية الكفاءة: أحادية البلورة (400 واط) ومتعددة البلورات (320 واط) وثنائية الوجه (450 واط). حلول طاقة شمسية كاملة مع دعم التركيب في جميع أنحاء الهند.",
-        "keywords": "الألواح الشمسية, الألواح الشمسية أحادية البلورة, الألواح الشمسية متعددة البلورات, الألواح الشمسية ثنائية الوجه, أنظمة الطاقة الشمسية, الطاقة المتجددة, تركيب الطاقة الشمسية في الهند"
+        "title": "Solar Panels - Monocrystalline & Polycrystalline | Powerton Engineering",
+        "description": "High-efficiency solar panels: Monocrystalline (400W), Polycrystalline (320W), and Bifacial (450W). Complete solar energy solutions with installation support across India.",
+        "keywords": "solar panels, monocrystalline solar panels, polycrystalline solar panels, bifacial solar panels, solar energy systems, renewable energy, solar installation India"
       },
       "scada": {
-        "title": "أنظمة مراقبة وتحكم واكتساب البيانات الإشرافية - المراقبة والتحكم الصناعي | هندسة باورتون",
-        "description": "أنظمة مراقبة وتحكم واكتساب البيانات الإشرافية متقدمة للمراقبة في الوقت الفعلي والحصول على البيانات والتحكم في العمليات. حلول مراقبة وتحكم واكتساب البيانات الإشرافية كاملة مع تكامل واجهة الإنسان والآلة وقدرات الوصول عن بعد.",
-        "keywords": "أنظمة مراقبة وتحكم واكتساب البيانات الإشرافية, التحكم الإشرافي, الحصول على البيانات, المراقبة الصناعية, التحكم في العمليات, تكامل واجهة الإنسان والآلة, المراقبة عن بعد, برنامج مراقبة وتحكم واكتساب البيانات الإشرافية"
+        "title": "SCADA Systems - Industrial Monitoring & Control | Powerton Engineering",
+        "description": "Advanced SCADA systems for real-time monitoring, data acquisition, and process control. Complete SCADA solutions with HMI integration and remote access capabilities.",
+        "keywords": "SCADA systems, supervisory control, data acquisition, industrial monitoring, process control, HMI integration, remote monitoring, SCADA software"
       }
     }
   }

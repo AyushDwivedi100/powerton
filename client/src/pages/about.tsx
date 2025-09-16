@@ -61,45 +61,33 @@ const FUTURE_GOALS = [
     goal: "Market Leadership",
     description:
       "Become the leading automation solutions provider in North India by 2026",
-    target: "2026",
-    progress: 75,
     icon: Trophy,
   },
   {
     goal: "Technology Innovation",
     description:
       "Launch 5 new AI-powered automation solutions for Industry 4.0",
-    target: "2025",
-    progress: 45,
     icon: Rocket,
   },
   {
     goal: "Geographic Expansion",
     description: "Establish operations in 3 new states across India",
-    target: "2025",
-    progress: 30,
     icon: Globe,
   },
   {
     goal: "Team Growth",
     description: "Expand our engineering team to 200+ professionals",
-    target: "2026",
-    progress: 60,
     icon: Users,
   },
   {
     goal: "Revenue Milestone",
     description: "Achieve ₹100 Crores annual revenue milestone",
-    target: "2026",
-    progress: 55,
     icon: TrendingUp,
   },
   {
     goal: "Sustainability Focus",
     description:
       "Implement carbon-neutral operations and green technology solutions",
-    target: "2025",
-    progress: 40,
     icon: Zap,
   },
 ];
@@ -451,31 +439,11 @@ export default function About() {
                           <h3 className="text-xl font-semibold text-foreground mb-1">
                             {goal.goal}
                           </h3>
-                          <div className="flex items-center gap-2 text-sm text-muted-foreground mb-2">
-                            <Target className="w-4 h-4" />
-                            <span>Target: {goal.target}</span>
-                          </div>
                         </div>
                       </div>
                       <p className="text-muted-foreground mb-4">
                         {goal.description}
                       </p>
-                      <div className="space-y-2">
-                        <div className="flex items-center justify-between text-sm">
-                          <span className="text-muted-foreground">
-                            Progress
-                          </span>
-                          <span className="font-medium text-foreground">
-                            {goal.progress}%
-                          </span>
-                        </div>
-                        <div className="w-full bg-muted rounded-full h-2">
-                          <div
-                            className="bg-gradient-to-r from-primary to-secondary h-2 rounded-full transition-all duration-500"
-                            style={{ width: `${goal.progress}%` }}
-                          ></div>
-                        </div>
-                      </div>
                     </CardContent>
                   </Card>
                 );

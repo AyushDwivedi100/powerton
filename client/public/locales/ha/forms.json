@@ -2,275 +2,323 @@
   "contact": {
     "fields": {
       "name": {
-        "label": "Cikakken suna",
-        "placeholder": "Shigar da cikakken sunanku",
-        "error": "Ana buƙatar suna"
+        "label": "Full Name",
+        "placeholder": "Enter your full name",
+        "error": "Name is required"
       },
       "email": {
-        "label": "Adireshin imel",
-        "placeholder": "Shigar da adireshin imel ɗinku",
-        "error": "Da fatan za a shigar da adireshin imel mai inganci"
+        "label": "Email Address",
+        "placeholder": "Enter your email address",
+        "error": "Please enter a valid email address"
       },
       "phone": {
-        "label": "Lambar waya",
-        "placeholder": "Shigar da lambar waya taku",
-        "error": "Ana buƙatar lambar waya"
+        "label": "Phone Number",
+        "placeholder": "Enter your phone number",
+        "error": "Phone number is required"
       },
       "company": {
-        "label": "Sunan kamfani",
-        "placeholder": "Shigar da sunan kamfaninku"
+        "label": "Company Name",
+        "placeholder": "Enter your company name"
       },
       "serviceType": {
-        "label": "Nau'in sabis",
-        "placeholder": "Zaɓi nau'in sabis"
+        "label": "Service Type",
+        "placeholder": "Select service type"
       },
       "subject": {
-        "label": "Jigo",
-        "placeholder": "Shigar da jigo",
-        "error": "Ana buƙatar jigo"
+        "label": "Subject",
+        "placeholder": "Enter subject",
+        "error": "Subject is required"
       },
       "message": {
-        "label": "Saƙo",
-        "placeholder": "Shigar da saƙon ku",
-        "error": "Ana buƙatar saƙo"
+        "label": "Message",
+        "placeholder": "Enter your message",
+        "error": "Message is required"
       }
     },
     "buttons": {
-      "submit": "Aika saƙo",
-      "sending": "Ana aikawa...",
-      "callNow": "Kira yanzu",
-      "emailUs": "Aika mana imel"
+      "submit": "Send Message",
+      "sending": "Sending...",
+      "callNow": "Call Now",
+      "emailUs": "Email Us"
     },
     "messages": {
-      "success": "Na gode! An aika saƙon ku da nasara.",
-      "successDesc": "Za mu tuntube ku cikin sa'o'i 24.",
-      "error": "Ba a iya aika saƙo ba",
-      "errorDesc": "Da fatan za a sake gwadawa ko tuntuɓe mu kai tsaye a {{phone}} ko {{email}}"
+      "success": "Thank you! Your message has been sent successfully.",
+      "successDesc": "We'll get back to you within 24 hours.",
+      "error": "Failed to send message",
+      "errorDesc": "Please try again or contact us directly at {{phone}} or {{email}}"
     }
   },
   "quote": {
     "fields": {
       "name": {
-        "label": "Cikakken suna *"
+        "label": "Full Name",
+        "placeholder": "Enter your full name"
       },
       "email": {
-        "label": "Adireshin imel *"
+        "label": "Email Address",
+        "placeholder": "Enter your email address"
+      },
+      "phone": {
+        "label": "Phone Number",
+        "placeholder": "Enter your phone number"
+      },
+      "company": {
+        "label": "Company Name",
+        "placeholder": "Enter your company name"
       },
       "designation": {
-        "label": "Matsayi/Mukamin"
+        "label": "Designation",
+        "placeholder": "Enter your designation"
+      },
+      "projectTitle": {
+        "label": "Project Title",
+        "placeholder": "Enter project title"
+      },
+      "projectType": {
+        "label": "Project Type",
+        "placeholder": "Select project type"
+      },
+      "budget": {
+        "label": "Budget Range",
+        "placeholder": "Select budget range"
+      },
+      "timeline": {
+        "label": "Timeline",
+        "placeholder": "Select project timeline"
+      },
+      "services": {
+        "label": "Services Required",
+        "placeholder": "Select required services"
+      },
+      "specifications": {
+        "label": "Technical Specifications",
+        "placeholder": "Describe your technical requirements"
       },
       "additionalRequirements": {
-        "label": "Ƙarin buƙatu"
+        "label": "Additional Requirements",
+        "placeholder": "Any additional requirements"
+      },
+      "industryType": {
+        "label": "Industry Type",
+        "placeholder": "Select your industry"
+      },
+      "projectScale": {
+        "label": "Project Scale",
+        "placeholder": "Select project scale"
+      },
+      "preferredBrands": {
+        "label": "Preferred Brands",
+        "placeholder": "Any preferred brands or manufacturers"
       }
     },
-    "validation": {
-      "nameRequired": "Ana buƙatar suna",
-      "phoneRequired": "Ana buƙatar lambar waya",
-      "subjectRequired": "Ana buƙatar jigo",
-      "messageRequired": "Ana buƙatar saƙo",
-      "firstNameRequired": "Ana buƙatar sunan farko",
-      "lastNameRequired": "Ana buƙatar sunan iyali",
-      "invalidEmail": "Adireshin imel ba daidai ba",
-      "selectService": "Da fatan za a zaɓi sabis",
-      "projectDetailsRequired": "Ana buƙatar bayanin aikin",
-      "nameMin": "Suna ya kamata ya kasance aƙalla haruffa 2",
-      "emailInvalid": "Da fatan za a shigar da adireshin imel mai inganci",
-      "phoneMin": "Da fatan za a shigar da lambar waya mai inganci",
-      "companyRequired": "Ana buƙatar sunan kamfani",
-      "projectTitleRequired": "Ana buƙatar taken aikin",
-      "projectTypeRequired": "Da fatan za a zaɓi nau'in aikin",
-      "timelineRequired": "Da fatan za a zaɓi lokacin da ake tsammani",
-      "servicesRequired": "Da fatan za a zaɓi sabis guda ɗaya aƙalla",
-      "specificationsMin": "Da fatan za a bayar da cikakkun bayanai (aƙalla haruffa 20)"
-    },
-    "sections": {
-      "contactInfo": "Bayanan tuntuɓar",
-      "requiredServices": "Ayyukan da ake buƙata *",
-      "technicalSpecifications": "Takaitaccen bayanin fasaha"
-    },
-    "error": {
-      "title": "Ba a iya aika buƙatar farashin ba",
-      "description": "Don taimako nan take: {{phone}} ko imel: {{email}}"
-    },
     "projectTypes": {
-      "newInstallation": "Sabon sanya kaya",
-      "systemUpgrade": "Haɓaka tsarin",
-      "retrofit": "Gyaran kayan",
-      "maintenance": "Yarjejeniyar kulawa",
-      "consultation": "Shawarwarin fasaha",
-      "design": "Ƙira da injiniyanci"
+      "newInstallation": "New Installation",
+      "systemUpgrade": "System Upgrade", 
+      "retrofit": "Retrofit",
+      "maintenance": "Maintenance Contract",
+      "consultation": "Technical Consultation",
+      "design": "Design & Engineering"
     },
     "timelines": {
-      "immediate": "Nan take (< wata 1)",
-      "1-3-months": "Watanni 1-3",
-      "3-6-months": "Watanni 3-6",
-      "6-12-months": "Watanni 6-12",
-      "1-year-plus": "Fiye da shekara 1"
+      "immediate": "Immediate (< 1 month)",
+      "1-3-months": "1-3 months",
+      "3-6-months": "3-6 months",
+      "6-12-months": "6-12 months",
+      "1-year-plus": "More than 1 year"
     },
     "budgetRanges": {
-      "under-1-lakh": "Ƙasa da ₹1 Lakh",
+      "under-1-lakh": "Under ₹1 Lakh",
       "1-5-lakh": "₹1-5 Lakhs",
       "5-10-lakh": "₹5-10 Lakhs",
       "10-25-lakh": "₹10-25 Lakhs",
       "25-50-lakh": "₹25-50 Lakhs",
       "50-lakh-plus": "₹50 Lakhs+",
-      "discuss": "Na fi son mu tattauna"
+      "discuss": "Prefer to discuss"
+    },
+    "validation": {
+      "nameMin": "Name must be at least 2 characters",
+      "emailInvalid": "Please enter a valid email address",
+      "phoneMin": "Please enter a valid phone number",
+      "companyRequired": "Company name is required",
+      "projectTitleRequired": "Project title is required",
+      "projectTypeRequired": "Please select a project type",
+      "timelineRequired": "Please select expected timeline",
+      "servicesRequired": "Please select at least one service",
+      "specificationsMin": "Please provide detailed specifications (minimum 20 characters)",
+      "nameRequired": "Name is required",
+      "phoneRequired": "Phone number is required",
+      "subjectRequired": "Subject is required",
+      "messageRequired": "Message is required",
+      "firstNameRequired": "First name is required",
+      "lastNameRequired": "Last name is required",
+      "invalidEmail": "Invalid email address",
+      "selectService": "Please select a service",
+      "projectDetailsRequired": "Project details are required"
     },
     "success": {
-      "title": "An aika buƙatar farashin da nasara!",
-      "description": "Ƙungiyar injiniyoyin mu za ta duba bukatun ku kuma ta amsa cikin sa'o'i 24-48."
+      "title": "Quote request submitted successfully!",
+      "description": "Our engineering team will review your requirements and respond within 24-48 hours."
     },
     "placeholders": {
-      "selectIndustry": "Zaɓi masana'antu",
-      "selectProjectScale": "Zaɓi girman aikin",
-      "selectBudget": "Zaɓi kewayon kasafin kuɗi (zaɓi)",
-      "detailedRequirements": "Da fatan za a bayar da cikakkun bayanai gami da:\n- Bukatun fasaha da ma'auni\n- Bayanin kayan aiki da adadi\n- Bukatun aiki\n- Yanayin muhalli\n- Bukatun bin doka\n- Duk wani la'akari na musamman...",
-      "additionalRequirements": "Duk wani ƙarin buƙatu, sharuɗɗa na musamman ko tambayoyi...",
-      "preferredBrands": "misali Siemens, Allen-Bradley, Schneider..."
+      "selectIndustry": "Select industry",
+      "selectProjectScale": "Select project scale",
+      "selectBudget": "Select budget range (optional)",
+      "detailedRequirements": "Please provide detailed specifications including:\n- Technical requirements and standards\n- Equipment specifications and quantities\n- Performance requirements\n- Environmental conditions\n- Compliance requirements\n- Any special considerations...",
+      "additionalRequirements": "Any additional requirements, special conditions, or questions...",
+      "preferredBrands": "e.g., Siemens, Allen-Bradley, Schneider..."
     },
     "labels": {
-      "industryType": "Nau'in masana'antu",
-      "projectScale": "Girman aikin",
-      "approximateBudget": "Kasafin kuɗi na tsinkaya",
-      "detailedRequirements": "Cikakkun buƙatu *",
-      "preferredBrands": "Alamu/Ma'auni da ake so",
-      "additionalRequirements": "Ƙarin buƙatu",
-      "projectTitle": "Taken aikin *",
-      "projectType": "Nau'in aikin *",
-      "expectedTimeline": "Lokacin da ake tsammani *",
-      "phoneNumber": "Lambar waya *",
-      "companyName": "Sunan kamfani *",
-      "projectInformation": "Bayanin aikin",
-      "budgetRange": "Kewayon kasafin kuɗi"
+      "industryType": "Industry Type",
+      "projectScale": "Project Scale",
+      "approximateBudget": "Approximate Budget",
+      "detailedRequirements": "Detailed Requirements *",
+      "preferredBrands": "Preferred Brands/Standards",
+      "additionalRequirements": "Additional Requirements",
+      "projectTitle": "Project Title *",
+      "projectType": "Project Type *",
+      "expectedTimeline": "Expected Timeline *",
+      "phoneNumber": "Phone Number *",
+      "companyName": "Company Name *",
+      "projectInformation": "Project Information",
+      "budgetRange": "Budget Range"
     },
-    "submitting": "Ana aika buƙatar farashin...",
-    "buttons": {
-      "getProfessionalQuote": "Sami farashin ƙwararru",
-      "submitRequest": "Aika buƙatar farashin",
-      "callUrgent": "Kira don buƙatun gaggawa",
-      "emailRequirements": "Aika buƙatu ta imel"
+    "sections": {
+      "requiredServices": "Required Services *",
+      "contactInfo": "Contact Information",
+      "technicalSpecifications": "Technical Specifications"
     },
+    "error": {
+      "title": "Quote submission failed",
+      "description": "For immediate assistance: {{phone}} or email: {{email}}"
+    },
+    "submitting": "Submitting Quote Request...",
     "industries": {
-      "manufacturing": "Masana'anta",
-      "powerGeneration": "Samar da wutar lantarki",
-      "waterTreatment": "Maganin ruwa",
-      "foodProcessing": "Sarrafa abinci",
-      "pharmaceutical": "Magunguna",
-      "chemical": "Sinadarai",
-      "oilGas": "Mai da iskar gas",
-      "renewableEnergy": "Makamashi mai sabuntawa",
-      "infrastructure": "Ababen more rayuwa",
-      "other": "Wani"
+      "manufacturing": "Manufacturing",
+      "powerGeneration": "Power Generation",
+      "waterTreatment": "Water Treatment",
+      "foodProcessing": "Food Processing",
+      "pharmaceutical": "Pharmaceutical",
+      "chemical": "Chemical",
+      "oilGas": "Oil & Gas",
+      "renewableEnergy": "Renewable Energy",
+      "infrastructure": "Infrastructure",
+      "other": "Other"
     },
     "projectScale": {
-      "small": "Ƙanana (< wuraren shiga/fita 10)",
-      "medium": "Matsakaita (wuraren shiga/fita 10-100)",
-      "large": "Babba (wuraren shiga/fita 100-500)",
-      "enterprise": "Kamfani (wuraren shiga/fita 500+)"
+      "small": "Small Scale (< 10 I/O points)",
+      "medium": "Medium Scale (10-100 I/O points)",
+      "large": "Large Scale (100-500 I/O points)",
+      "enterprise": "Enterprise (500+ I/O points)"
+    },
+    "buttons": {
+      "getProfessionalQuote": "Get Professional Quote",
+      "submitRequest": "Submit Quote Request",
+      "callUrgent": "Call for Urgent Requirements",
+      "emailRequirements": "Email Requirements"
     },
     "process": {
-      "heading": "Me ke faruwa biye da haka?",
+      "heading": "What happens next?",
       "steps": {
-        "technicalReview": "Bitar fasaha cikin sa'o'i 24",
-        "detailedProposal": "Cikakken shawara tare da bayanai",
-        "costBreakdown": "Rarrabar kuɗi da lokaci",
-        "followUpCall": "Kiran shawarwari na biye da haka"
+        "technicalReview": "Technical review within 24 hours",
+        "detailedProposal": "Detailed proposal with specifications",
+        "costBreakdown": "Cost breakdown and timeline",
+        "followUpCall": "Follow-up consultation call"
       }
     },
     "assistance": {
-      "heading": "Kuna buƙatar taimako nan take?",
-      "technicalTeam": "+91-94627-71662 (Ƙungiyar fasaha)",
+      "heading": "Need immediate assistance?",
+      "technicalTeam": "+91-94627-71662 (Technical Team)",
       "email": "info@powertonengineering.com"
     }
   },
   "career": {
     "placeholders": {
-      "fullName": "Shigar da cikakken sunanku",
-      "email": "imel.ku@misali.com",
+      "fullName": "Enter your full name",
+      "email": "your.email@example.com",
       "phone": "+91 9876543210",
-      "address": "Shigar da cikakken adireshin ku (Lambar gida/ginin, titi, birni, jiha, lambar gidan waya)",
-      "currentCompany": "Kamfaninku na yanzu (zaɓi)",
-      "education": "misali B.Tech Injiniyancin Lantarki",
-      "expectedSalary": "misali lakhs a shekara 5-8 ko Abin da za a tattauna",
-      "skills": "Jera fasahar ku ta fasaha, ilimin software, harsunan shirye-shirye, takaddun shaida, da sauransu.",
-      "coverLetter": "Faɗa mana game da dalilai ku, burin aiki da yadda za ku iya taimakawa ƙungiyar mu...",
-      "selectSpecialization": "Zaɓi yankin gwaninta ku",
-      "selectExperience": "Zaɓi matakin gogewa",
-      "selectAvailability": "Zaɓi samuwar ku"
+      "address": "Enter your complete address (House/Flat No., Street, City, State, PIN)",
+      "currentCompany": "Your current company (optional)",
+      "education": "e.g., B.Tech Electrical Engineering",
+      "expectedSalary": "e.g., 5-8 LPA or Negotiable",
+      "skills": "List your technical skills, software knowledge, programming languages, certifications, etc.",
+      "coverLetter": "Tell us about your motivation, career goals, and how you can contribute to our team...",
+      "selectSpecialization": "Select your area of expertise",
+      "selectExperience": "Select experience level",
+      "selectAvailability": "Select your availability"
     },
     "labels": {
-      "title": "Shiga ƙungiyar injiniyoyin mu",
-      "subtitle": "Ka ɗa aikinka ka zama sashi na ƙungiyar sulhullullai na injiniyanci mai sabbin dabaru",
-      "personalInfo": "Bayanan sirri",
-      "professionalInfo": "Bayanan ƙwararru",
-      "fullName": "Cikakken suna",
-      "emailAddress": "Adireshin imel",
-      "phoneNumber": "Lambar waya",
-      "residingAddress": "Adireshin zama na yanzu",
-      "specialization": "Gwaninta a injiniyanci",
-      "experience": "Matakin gogewa",
-      "currentCompany": "Kamfani na yanzu",
-      "availability": "Samun/Lokacin sanar",
-      "education": "Ilimi/Cancantar",
-      "expectedSalary": "Albashin da ake tsammani",
-      "technicalSkills": "Fasahar fasaha da gwaninta",
-      "coverLetter": "Wasiƙar rufe da dalili",
-      "resume": "CV/Tarihin rayuwa"
+      "title": "Join Our Engineering Team",
+      "subtitle": "Submit your application and become part of our innovative engineering solutions team",
+      "personalInfo": "Personal Information",
+      "professionalInfo": "Professional Information",
+      "fullName": "Full Name",
+      "emailAddress": "Email Address",
+      "phoneNumber": "Phone Number",
+      "residingAddress": "Current Residing Address",
+      "specialization": "Engineering Specialization",
+      "experience": "Experience Level",
+      "currentCompany": "Current Company",
+      "availability": "Availability/Notice Period",
+      "education": "Education/Qualification",
+      "expectedSalary": "Expected Salary",
+      "technicalSkills": "Technical Skills & Expertise",
+      "coverLetter": "Cover Letter & Motivation",
+      "resume": "CV/Resume"
     },
     "buttons": {
-      "submit": "Ɗa aiki",
-      "submitting": "Ana ɗa aiki...",
-      "uploadResume": "Loda takardun tarihin rayuwa"
+      "submit": "Submit Application",
+      "submitting": "Submitting Application...",
+      "uploadResume": "Upload Resume"
     },
     "validation": {
-      "nameMin": "Suna ya kamata ya kasance aƙalla haruffa 2",
-      "emailInvalid": "Da fatan za a shigar da adireshin imel mai inganci",
-      "phoneMin": "Lambar waya ya kamata ta kasance aƙalla lambobi 10",
-      "specializationRequired": "Da fatan za a zaɓi gwaninta ku a injiniyanci",
-      "experienceRequired": "Da fatan za a zaɓi matakin gogewa ku",
-      "educationRequired": "Da fatan za a bayar da bayanin ilimin ku",
-      "joiningTimeRequired": "Da fatan za a ƙayyade lokacin da za ku iya farawa",
-      "skillsMin": "Da fatan za a bayar da bayanai game da fasahar ku",
-      "coverLetterMin": "Da fatan za a rubuta gajeriyar wasiƙar rufe (aƙalla haruffa 20)",
-      "addressMin": "Da fatan za a bayar da cikakken adireshin zama"
+      "nameMin": "Name must be at least 2 characters",
+      "emailInvalid": "Please enter a valid email address",
+      "phoneMin": "Phone number must be at least 10 digits",
+      "specializationRequired": "Please select your engineering specialization",
+      "experienceRequired": "Please select your experience level",
+      "educationRequired": "Please provide your education details",
+      "joiningTimeRequired": "Please specify how soon you can join",
+      "skillsMin": "Please provide details about your skills",
+      "coverLetterMin": "Please write a brief cover letter (minimum 20 characters)",
+      "addressMin": "Please provide your complete residing address"
     },
     "specializations": {
-      "electricalEngineering": "Injiniyancin lantarki",
-      "automationControl": "Tsarukan sarrafa kansa da sarrafawa",
-      "instrumentation": "Injiniyancin kayan aiki",
-      "projectManagement": "Sarrafa ayyuka",
-      "technicalSales": "Siyarwar fasaha",
-      "fieldService": "Sabis na fili da kafa",
-      "designEngineering": "Injiniyancin ƙira da ci gaba",
-      "solarRenewable": "Makamashi na hasken rana da mai sabuntawa",
-      "other": "Wani gwaninta"
+      "electricalEngineering": "Electrical Engineering",
+      "automationControl": "Automation & Control Systems",
+      "instrumentation": "Instrumentation Engineering",
+      "projectManagement": "Project Management",
+      "technicalSales": "Technical Sales",
+      "fieldService": "Field Service & Commissioning",
+      "designEngineering": "Design & Development",
+      "solarRenewable": "Solar & Renewable Energy",
+      "other": "Other Specialization"
     },
     "experience": {
-      "fresher": "Sabon (shekaru 0-1)",
-      "oneToThree": "Shekaru 1-3",
-      "threeToFive": "Shekaru 3-5",
-      "fiveToEight": "Shekaru 5-8",
-      "eightToTwelve": "Shekaru 8-12",
-      "twelvePlus": "Shekaru 12+"
+      "fresher": "Fresher (0-1 years)",
+      "oneToThree": "1-3 years",
+      "threeToFive": "3-5 years",
+      "fiveToEight": "5-8 years",
+      "eightToTwelve": "8-12 years",
+      "twelvePlus": "12+ years"
     },
     "joiningTime": {
-      "immediate": "Yana iya farawa nan take",
-      "fifteenDays": "Kwanaki 15 na lokacin sanar",
-      "oneMonth": "Wata 1 na lokacin sanar",
-      "twoMonths": "Watanni 2 na lokacin sanar",
-      "threeMonths": "Watanni 3 na lokacin sanar",
-      "moreThanThree": "Fiye da watanni 3 na lokacin sanar"
+      "immediate": "Can join immediately",
+      "fifteenDays": "15 days notice period",
+      "oneMonth": "1 month notice period",
+      "twoMonths": "2 months notice period",
+      "threeMonths": "3 months notice period",
+      "moreThanThree": "More than 3 months notice"
     },
     "helpers": {
-      "resumeFormat": "Nau'o'in da aka yarda: PDF, DOC, DOCX (Mafi girman girma: 5MB)"
+      "resumeFormat": "Accepted formats: PDF, DOC, DOCX (Max size: 5MB)"
     },
     "success": {
-      "title": "An tura Aikace-aikacen cikin nasara!",
-      "description": "Na gode da aikace-aikacenku! Za mu bincike aikace-aikacen ku kuma mu tuntube ku cikin kwanaki 2-3 na aiki."
+      "title": "Application Submitted Successfully!",
+      "description": "Thank you for applying! We will review your application and contact you within 2-3 business days."
     },
     "error": {
-      "title": "Ba a iya tura aikace-aikacen ba",
-      "description": "Da fatan za a sake gwada ko tuntuɓe mu kai tsaye a {{phone}} ko {{email}}"
+      "title": "Application Submission Failed",
+      "description": "Please try again or contact us directly at {{phone}} or {{email}}"
     }
   }
 }

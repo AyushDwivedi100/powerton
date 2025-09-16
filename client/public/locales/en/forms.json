@@ -111,17 +111,6 @@
         "placeholder": "Any preferred brands or manufacturers"
       }
     },
-    "validation": {
-      "nameMin": "Name must be at least 2 characters",
-      "emailInvalid": "Please enter a valid email address",
-      "phoneMin": "Phone number must be at least 10 digits",
-      "companyRequired": "Company name is required",
-      "projectTitleRequired": "Project title is required",
-      "projectTypeRequired": "Project type is required",
-      "timelineRequired": "Timeline is required",
-      "servicesRequired": "At least one service must be selected",
-      "specificationsMin": "Technical specifications must be at least 20 characters"
-    },
     "projectTypes": {
       "newInstallation": "New Installation",
       "systemUpgrade": "System Upgrade", 
@@ -197,14 +186,6 @@
       "requiredServices": "Required Services *",
       "contactInfo": "Contact Information",
       "technicalSpecifications": "Technical Specifications"
-    },
-    "fields": {
-      "name": {
-        "label": "Full Name *"
-      },
-      "email": {
-        "label": "Email Address *"
-      }
     },
     "error": {
       "title": "Quote submission failed",

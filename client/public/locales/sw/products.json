@@ -1,234 +1,594 @@
 {
-  "title": "Bidhaa Zetu",
-  "subtitle": "Vifaa vya Otomatiki ya Viwandani na Viungo vya Umeme",
+  "title": "Our Products",
+  "subtitle": "Comprehensive range of industrial automation products, electrical components, instrumentation, solar systems, pumps, and tools. Quality equipment for industrial applications.",
+  "categories": {
+    "automation": "Automation & Control",
+    "electrical": "Electrical Components",
+    "instrumentation": "Instrumentation",
+    "solar": "Solar Products",
+    "motors": "BLDC Motor Systems",
+    "pumps": "Pumps & Motors",
+    "safety": "Safety Equipment",
+    "tools": "Industrial Tools",
+    "instrumentation-components": {
+      "title": "Instrumentation Components",
+      "description": "Precision instrumentation components for measurement and control",
+      "features": {
+        "pressure-transmitters": "Pressure Transmitters",
+        "temperature-sensors": "Temperature Sensors",
+        "flow-meters": "Flow Meters",
+        "level-indicators": "Level Indicators"
+      }
+    },
+    "electrical-components": {
+      "title": "Electrical Components",
+      "description": "Comprehensive electrical components solutions for industrial applications",
+      "features": {
+        "circuit-breakers": "Circuit Breakers",
+        "contactors": "Contactors",
+        "relays": "Relays",
+        "power-supplies": "Power Supplies"
+      }
+    },
+    "measurement-instruments": {
+      "title": "Measurement Instruments",
+      "description": "Precision measurement and testing instruments",
+      "features": {
+        "digital-multimeters": "Digital Multimeters",
+        "oscilloscopes": "Oscilloscopes",
+        "signal-analyzers": "Signal Analyzers",
+        "calibrators": "Calibrators"
+      }
+    },
+    "solar-products": {
+      "title": "Solar Products",
+      "description": "Complete solar energy solutions and components",
+      "features": {
+        "solar-panels": "Solar Panels",
+        "inverters": "Inverters",
+        "battery-storage": "Battery Storage",
+        "monitoring-systems": "Monitoring Systems"
+      }
+    },
+    "automation-control-systems": {
+      "title": "Automation & Control Systems",
+      "description": "Advanced automation and control systems for industrial operations",
+      "features": {
+        "hmi-systems": "HMI Systems",
+        "scada-software": "SCADA Software",
+        "industrial-networks": "Industrial Networks"
+      }
+    },
+    "safety-protective-devices": {
+      "title": "Safety & Protective Devices",
+      "description": "Industrial safety systems and protective equipment",
+      "features": {
+        "safety-switches": "Safety Switches",
+        "emergency-stops": "Emergency Stops",
+        "light-curtains": "Light Curtains",
+        "protective-barriers": "Protective Barriers"
+      }
+    },
+    "mechanical-pumps-spares": {
+      "title": "Mechanical Pumps & Spares",
+      "description": "Mechanical pumps and spare parts for industrial applications",
+      "features": {
+        "centrifugal-pumps": "Centrifugal Pumps",
+        "positive-displacement-pumps": "Positive Displacement Pumps",
+        "pump-components": "Pump Components",
+        "maintenance-kits": "Maintenance Kits"
+      }
+    },
+    "industrial-tools-tackles": {
+      "title": "Industrial Tools & Equipment",
+      "description": "Heavy-duty industrial tools and lifting equipment",
+      "features": {
+        "hand-tools": "Hand Tools",
+        "power-tools": "Power Tools",
+        "lifting-equipment": "Lifting Equipment",
+        "cutting-tools": "Cutting Tools"
+      }
+    },
+    "bldc": {
+      "title": "BLDC Products",
+      "description": "Brushless DC motor products for energy-efficient applications",
+      "features": {
+        "energy-efficient": "Energy Efficient",
+        "long-lifespan": "Long Lifespan",
+        "low-maintenance": "Low Maintenance",
+        "variable-speed-control": "Variable Speed Control"
+      }
+    }
+  },
   "bldcCeilingFan": {
     "smart1200": {
-      "title": "Panka ya Dari ya BLDC ya Akili 1200mm",
-      "description": "Panka ya dari ya kinaenergy yenye udhibiti wa umbali na utendakazi wa muda",
-      "features": ["Matumizi ya Umeme 28W", "Udhibiti wa Umbali", "Mipangilio 5 ya Kasi", "Utendakazi wa Muda"]
+      "title": "Smart BLDC Ceiling Fan 1200mm",
+      "description": "Energy-efficient smart ceiling fan with remote control and timer function",
+      "features": [
+        "28W Power Consumption",
+        "Remote Control",
+        "5 Speed Settings",
+        "Timer Function"
+      ]
     },
     "premium1400": {
-      "title": "Panka ya Dari ya BLDC Bora 1400mm", 
-      "description": "Panka ya dari ya utendakazi wa juu na taa za LED na injini inayoweza kurudi nyuma",
-      "features": ["Matumizi ya Umeme 35W", "Taa za LED Zilizounganishwa", "Injini Inayoweza Kurudi Nyuma", "Utendakazi wa Kimya"]
+      "title": "Premium BLDC Ceiling Fan 1400mm",
+      "description": "High-performance ceiling fan with LED lighting and reversible motor",
+      "features": [
+        "35W Power Consumption",
+        "LED Light Integrated",
+        "Reversible Motor",
+        "Silent Operation"
+      ]
     },
     "commercial1500": {
-      "title": "Panka ya Dari ya BLDC ya Kibiashara 1500mm",
-      "description": "Panka ya dari imara kwa matumizi ya kibiashara na viwandani", 
-      "features": ["Matumizi ya Umeme 45W", "Injini Imara", "Mtiririko wa Hewa wa Juu", "Ujenzi Imara"]
+      "title": "Commercial BLDC Ceiling Fan 1500mm",
+      "description": "Heavy-duty ceiling fan for commercial and industrial applications",
+      "features": [
+        "45W Power Consumption",
+        "Heavy-Duty Motor",
+        "High Air Flow",
+        "Durable Construction"
+      ]
     }
   },
   "bldcCoolerExhaust": {
     "exhaustFan": {
-      "title": "Injini ya Panka ya Kutoa Hewa ya BLDC",
-      "description": "Injini ya ufanisi wa juu bila brashi kwa matumizi ya panka ya kutoa hewa",
-      "features": ["Udhibiti wa Kasi Unaobadilika", "Utendakazi wa Kelele Chini", "Muundo wa Ufanisi", "Maisha Marefu"]
+      "title": "BLDC Exhaust Fan Motor",
+      "description": "High-efficiency brushless DC motor for exhaust fan applications",
+      "features": [
+        "Variable Speed Control",
+        "Low Noise Operation",
+        "Energy Efficient Design",
+        "Extended Life Span"
+      ]
     },
     "coolerMotors": {
-      "title": "Injini ya Kibaridi ya BLDC",
-      "description": "Injini ya ufanisi iliyoundwa kwa matumizi ya kibaridi cha hewa",
-      "features": ["Matokeo ya Kasi ya Juu", "Imara kwa Hali ya Hewa", "Udhibiti wa Kasi", "Utendakazi bila Matengenezo"]
+      "title": "BLDC Cooler Motor",
+      "description": "Energy-efficient motor designed for air cooler applications",
+      "features": [
+        "High Torque Output",
+        "Weather Resistant",
+        "Speed Control",
+        "Maintenance Free Operation"
+      ]
     },
     "ventilation": {
-      "title": "Injini ya Mfumo wa Uingizaji Hewa ya BLDC", 
-      "description": "Injini maalum kwa mifumo ya uingizaji hewa ya viwandani na kushughulikia hewa",
-      "features": ["Kiwango cha CFM cha Juu", "Kiwango cha Joto", "Imara kwa Mitetemeko", "Inaendana na Udhibiti wa Akili"]
+      "title": "BLDC Ventilation System Motor",
+      "description": "Specialized motor for industrial ventilation and air handling systems",
+      "features": [
+        "High CFM Rating",
+        "Temperature Rated",
+        "Vibration Resistant",
+        "Smart Control Compatible"
+      ]
     }
   },
   "bldcPumps": {
     "solarSubmersible1hp": {
-      "title": "Pampu ya Kuzama ya Jua ya BLDC 1HP",
-      "description": "Pampu ya kuzama inayoendeshwa na nishati ya jua kwa visima vya maji na matumizi ya kuchimba",
-      "features": ["Utendakazi Unaofaa Jua", "Nguvu ya Injini 1HP", "Muundo wa Ufanisi wa Juu", "Ujenzi Unaopozwa kwa Maji"]
+      "title": "Solar BLDC Submersible Pump 1HP",
+      "description": "Solar-powered submersible pump for water wells and borehole applications",
+      "features": [
+        "Solar Compatible Operation",
+        "1HP Motor Power",
+        "High Efficiency Design",
+        "Water-Cooled Construction"
+      ]
     },
     "dcSurface2hp": {
-      "title": "Pampu ya Uso ya DC 2HP",
-      "description": "Pampu ya uso ya ufanisi wa juu kwa umwagiliaji na uhamisho wa maji",
-      "features": ["Kiwango cha Nguvu 2HP", "Muundo wa Kujichunga", "Ulinzi wa Utendakazi wa Kavu", "Udhibiti wa Kasi Unaobadilika"]
+      "title": "DC Surface Pump 2HP",
+      "description": "High-efficiency surface pump for irrigation and water transfer",
+      "features": [
+        "2HP Power Rating",
+        "Self-Priming Design",
+        "Dry Run Protection",
+        "Variable Speed Control"
+      ]
     },
     "hybridSystem": {
-      "title": "Mfumo wa Pampu ya BLDC wa Mchanganyiko",
-      "description": "Mfumo wa pampu wa akili na uwezo wa kuhifadhi kwa jua na mtandao",
-      "features": ["Hali ya Utendakazi wa Mchanganyiko", "Kidhibiti cha Akili", "Ufuatiliaji wa Mbali", "Utengano wa Nishati"]
+      "title": "Hybrid BLDC Pump System",
+      "description": "Intelligent pump system with solar and grid backup capability",
+      "features": [
+        "Hybrid Operation Mode",
+        "Smart Controller",
+        "Remote Monitoring",
+        "Energy Optimization"
+      ]
     }
   },
   "bldcFans": {
     "tableFan": {
-      "title": "Injini ya Panka ya Meza ya BLDC",
-      "description": "Injini ya mkondoni wa kutokuwa na brashi ya kipimo kifupi kwa matumizi ya panka za meza na ofisi",
-      "features": ["Muundo wa Kimwakilishi", "Utendakazi wa Kimya", "Udhibiti wa Umbali", "Kazi ya Muda"]
+      "title": "BLDC Table Fan Motor",
+      "description": "Compact brushless DC motor for table and desk fan applications",
+      "features": [
+        "Compact Design",
+        "Silent Operation",
+        "Remote Control",
+        "Timer Function"
+      ]
     },
     "wallFan": {
-      "title": "Injini ya Panka ya Ukuta ya BLDC", 
-      "description": "Injini ya panka ya ukuta na teknolojia ya BLDC kwa matumizi ya nyumbani",
-      "features": ["Muundo wa Uwekaji Ukutani", "Kazi ya Mzunguko", "Udhibiti wa Kasi", "Utendakazi wa Kuokoa Nishati"]
+      "title": "BLDC Wall Fan Motor",
+      "description": "Wall-mounted fan motor with BLDC technology for residential use",
+      "features": [
+        "Wall Mount Design",
+        "Oscillating Function",
+        "Speed Control",
+        "Energy Saving Operation"
+      ]
     },
     "pedestalFan": {
-      "title": "Injini ya Panka ya Nguzo ya BLDC",
-      "description": "Injini ya panka ya nguzo inayoweza kuongezeka urefu na onyesho la LED",
-      "features": ["Marekebisho ya Urefu", "Kazi ya Kuinama", "Onyesho la LED", "Kwa Muda wa Hali ya Usingizi"]
+      "title": "BLDC Pedestal Fan Motor",
+      "description": "Height-adjustable pedestal fan motor with LED display",
+      "features": [
+        "Height Adjustment",
+        "Tilt Function",
+        "LED Display",
+        "Sleep Mode Timer"
+      ]
     }
   },
   "cablesWires": {
     "instrumentation": {
-      "title": "Kebo za Vifaa vya Kupima",
-      "description": "Kebo zilizofunikwa za umeme wa chini kwa matumizi ya vifaa vya kupima na udhibiti",
-      "features": ["Muundo Uliofunikwa", "Imara kwa Unyevu", "Kiwango cha Joto", "Usanidi wa Jozi Nyingi"]
+      "title": "Instrumentation Cables",
+      "description": "Low voltage shielded cables for instrumentation and control applications",
+      "features": [
+        "Shielded Construction",
+        "Moisture Resistant",
+        "Temperature Rated",
+        "Multiple Pair Configuration"
+      ]
     },
     "powerDistribution": {
-      "title": "Kebo za Ugawaji wa Nishati",
-      "description": "Kebo za umeme wa juu kwa mifumo ya maambukizi na ugawaji wa nishati",
-      "features": ["Kizuizi cha XLPE", "Muundo Uliofunikwa", "Imara kwa Moto", "Kiwango cha Mkondo wa Juu"]
+      "title": "Power Distribution Cables",
+      "description": "High voltage cables for power transmission and distribution systems",
+      "features": [
+        "XLPE Insulation",
+        "Armored Construction",
+        "Fire Resistant",
+        "High Current Rating"
+      ]
     },
     "communication": {
-      "title": "Kebo za Mawasiliano",
-      "description": "Kebo za kupitisha data kwa mitandao ya mawasiliano ya viwandani",
-      "features": ["Viwango vya Cat5e/Cat6", "Chaguo za Fiber Optiki", "Kiwango cha Viwandani", "Kinga ya EMI"]
+      "title": "Communication Cables",
+      "description": "Data transmission cables for industrial communication networks",
+      "features": [
+        "Cat5e/Cat6 Standards",
+        "Fiber Optic Options",
+        "Industrial Grade",
+        "EMI Shielding"
+      ]
     }
   },
   "circuitBreakers": {
     "mcb": {
-      "title": "Vikato vya Mzunguko Vidogo (MCB)",
-      "description": "Vikato vya mzunguko vya umeme wa chini kwa ulinzi wa nyumba na kibiashara",
-      "features": ["Mipango ya Kuzima B/C/D", "Kiwango cha 6-63A", "Uwezo wa Kuvunja 10kA", "Kuweka kwenye Reli ya DIN"]
+      "title": "Miniature Circuit Breakers (MCB)",
+      "description": "Low voltage circuit breakers for residential and commercial protection",
+      "features": [
+        "B/C/D Trip Curves",
+        "6-63A Rating",
+        "10kA Breaking Capacity",
+        "DIN Rail Mounting"
+      ]
     },
     "mccb": {
-      "title": "Vikato vya Mzunguko vya Kesi Moto (MCCB)",
-      "description": "Vikato vya mzunguko vya viwandani kwa ulinzi wa mitambo na vifaa vya umeme",
-      "features": ["Mipangilio ya Kuzima Inayoweza Kurekebishwa", "Uwezo wa Kuvunja wa Juu", "Vitengo vya Kuzima vya Kielektroniki", "Kiwango hadi 1600A"]
+      "title": "Molded Case Circuit Breakers (MCCB)",
+      "description": "Industrial circuit breakers for motor and power equipment protection",
+      "features": [
+        "Adjustable Trip Settings",
+        "High Breaking Capacity",
+        "Electronic Trip Units",
+        "Up to 1600A Rating"
+      ]
     },
     "industrialFuses": {
-      "title": "Fyuzi za Viwandani",
-      "description": "Fyuzi za kasi ya juu kwa ulinzi wa vifaa vya umeme",
-      "features": ["Mwitikio wa Haraka", "Chaguo za Kuchelewa kwa Muda", "Kiwango cha Umeme wa Juu", "Ujenzi wa Mwanga wa Udongo"]
+      "title": "Industrial Fuses",
+      "description": "High-speed fuses for electrical equipment protection",
+      "features": [
+        "Fast Acting Response",
+        "Time Delay Options",
+        "High Voltage Rating",
+        "Ceramic Body Construction"
+      ]
     }
   },
   "connectorsTerminals": {
     "terminalBlocks": {
-      "title": "Vifungo vya Mwisho vya Viwandani",
-      "description": "Vifungo vya mwisho vya usalama kwa miunganiko ya kebo za viwandani",
-      "features": ["Teknolojia ya Chuma cha Chemchemi", "Miunganiko ya Aina ya Skrubu", "Kuweka kwenye Reli ya DIN", "Chaguo za Ukubwa Mbalimbali"]
+      "title": "Industrial Terminal Blocks",
+      "description": "Secure terminal blocks for industrial wire connections",
+      "features": [
+        "Spring Clamp Technology",
+        "Screw Type Connections",
+        "DIN Rail Mounting",
+        "Multiple Size Options"
+      ]
     },
     "industrialConnectors": {
-      "title": "Viunganishi vya Viwandani",
-      "description": "Viunganishi viongovu kwa matumizi ya viwandani ya hali ngumu",
-      "features": ["Kiwango cha Ulinzi IP67", "Utaratibu wa Kufunga", "Usanidi wa Pin Nyingi", "Ujumuishaji wa Mkanda wa Kebo"]
+      "title": "Industrial Connectors",
+      "description": "Heavy-duty connectors for demanding industrial applications",
+      "features": [
+        "IP67 Protection Rating",
+        "Locking Mechanism",
+        "Multi-Pin Configuration",
+        "Cable Gland Integration"
+      ]
     },
     "signalConnectors": {
-      "title": "Viunganishi vya Ishara",
-      "description": "Viunganishi vya usahihi kwa vifaa vya kupima na kupitisha ishara",
-      "features": ["Muundo wa Kelele Chini", "Ujenzi Uliofunikwa", "Ukubwa wa Kitwana", "Utendakazi wa Kuaminika Kwa Hali ya Juu"]
+      "title": "Signal Connectors",
+      "description": "Precision connectors for instrumentation and signal transmission",
+      "features": [
+        "Low Noise Design",
+        "Shielded Construction",
+        "Miniature Size",
+        "High Reliability Performance"
+      ]
     }
   },
-  "categories": {
-    "automation": "Otomatiki na Udhibiti",
-    "electrical": "Vipengele vya Umeme",
-    "instrumentation": "Vifaa vya Kupima",
-    "solar": "Bidhaa za Jua",
-    "motors": "Mifumo ya Injini za BLDC",
-    "pumps": "Pampu na Injini",
-    "safety": "Vifaa vya Usalama",
-    "tools": "Zana za Viwandani",
-    "instrumentation-components": {
-      "title": "Vipengele vya Vifaa vya Kupima",
-      "description": "Vipengele sahihi vya vifaa vya kupima kwa kipimo na udhibiti",
-      "features": {
-        "pressure-transmitters": "Vipitishaji vya Shinikizo",
-        "temperature-sensors": "Vihisi vya Joto",
-        "flow-meters": "Vipimo vya Mtiririko",
-        "level-indicators": "Vielekezo vya Kiwango"
+  "subcategories": {
+    "sensors": {
+      "title": "Sensors",
+      "description": "Industrial sensors for measurement and control"
+    },
+    "transmitters": {
+      "title": "Transmitters & Transducers",
+      "description": "Process transmitters and signal conversion equipment"
+    },
+    "controllers": {
+      "title": "Controllers & Recorders",
+      "description": "Industrial control systems and automation controllers"
+    },
+    "switches": {
+      "title": "Switches & Indicators",
+      "description": "Industrial switches and control equipment"
+    },
+    "valves": {
+      "title": "Valves & Actuators",
+      "description": "Industrial valves and flow control systems"
+    },
+    "analyzers": {
+      "title": "Analyzers",
+      "description": "Process analyzers for quality control"
+    },
+    "signal-conditioners": {
+      "title": "Signal Conditioners",
+      "description": "Signal processing and conditioning equipment"
+    },
+    "cables-wires": {
+      "title": "Cables & Wires",
+      "description": "Industrial cables and wiring solutions"
+    },
+    "connectors-terminals": {
+      "title": "Connectors & Terminals",
+      "description": "Electrical connectors and terminal solutions"
+    },
+    "circuit-breakers-fuses": {
+      "title": "Circuit Breakers & Fuses",
+      "description": "Electrical protection devices for circuit safety"
+    },
+    "power-supplies": {
+      "title": "Power Supplies",
+      "description": "Industrial power supply units and converters"
+    },
+    "enclosures-cabinets": {
+      "title": "Enclosures & Cabinets",
+      "description": "Electrical enclosures and control cabinet solutions"
+    },
+    "heating-elements-appliances": {
+      "title": "Heating Elements & Appliances",
+      "description": "Industrial heating solutions and thermal equipment"
+    },
+    "multimeters": {
+      "title": "Multimeters",
+      "description": "Digital and analog multimeters for electrical testing"
+    },
+    "oscilloscopes": {
+      "title": "Oscilloscopes",
+      "description": "Digital oscilloscopes for signal analysis and testing"
+    },
+    "spectrum-analyzers": {
+      "title": "Spectrum Analyzers",
+      "description": "RF and microwave spectrum analysis equipment"
+    },
+    "power-quality-analyzers": {
+      "title": "Power Quality Analyzers",
+      "description": "Power quality measurement and analysis instruments"
+    },
+    "solar-batteries-energy-storage": {
+      "title": "Solar Batteries & Energy Storage",
+      "description": "Battery storage systems for solar energy applications"
+    },
+    "surge-protectors": {
+      "title": "Surge Protectors"
+    },
+    "safety-relays-switches": {
+      "title": "Safety Relays & Switches"
+    },
+    "intrinsically-safe-equipment": {
+      "title": "Intrinsically Safe Equipment"
+    },
+    "centrifugal-pumps": {
+      "title": "Centrifugal Pumps"
+    },
+    "diaphragm-pumps": {
+      "title": "Diaphragm Pumps"
+    },
+    "gear-pumps": {
+      "title": "Gear Pumps"
+    },
+    "pump-parts-spares": {
+      "title": "Pump Parts & Spares"
+    },
+    "hand-tools": {
+      "title": "Hand Tools"
+    },
+    "power-tools": {
+      "title": "Power Tools"
+    },
+    "cutting-tools": {
+      "title": "Cutting Tools"
+    },
+    "lifting-equipment": {
+      "title": "Lifting Equipment"
+    },
+    "safety-equipment": {
+      "title": "Safety Equipment",
+      "description": "Comprehensive safety equipment and personal protective equipment for industrial applications",
+      "sectionsTitle": "Safety Solutions",
+      "products": {
+        "ppe": {
+          "name": "Personal Protective Equipment (PPE)",
+          "description": "Safety equipment for worker protection",
+          "features": {
+            "hardHats": "Hard Hats",
+            "safetyGlasses": "Safety Glasses",
+            "hearingProtection": "Hearing Protection",
+            "workGloves": "Work Gloves"
+          }
+        },
+        "fallProtection": {
+          "name": "Fall Protection Systems",
+          "description": "Harnesses and fall arrest equipment",
+          "features": {
+            "fullBodyHarness": "Full Body Harness",
+            "lanyards": "Lanyards",
+            "anchorPoints": "Anchor Points",
+            "selfRetracting": "Self-Retracting"
+          }
+        },
+        "gasDetection": {
+          "name": "Gas Detection Equipment",
+          "description": "Portable and fixed gas monitoring systems",
+          "features": {
+            "multiGasDetectors": "Multi-Gas Detectors",
+            "singleGas": "Single Gas",
+            "wirelessMonitoring": "Wireless Monitoring",
+            "dataLogging": "Data Logging"
+          }
+        }
+      },
+      "cta": {
+        "title": "Need Safety Equipment?",
+        "description": "Our safety specialists can provide comprehensive safety solutions to protect your workforce.",
+        "contactExpertsCta": "Contact Safety Experts",
+        "requestQuoteCta": "Request Quote"
       }
     },
-    "electrical-components": {
-      "title": "Vipengele vya Umeme",
-      "description": "Ufumbuzi mkuu wa vipengele vya umeme kwa matumizi ya viwandani",
-      "features": {
-        "circuit-breakers": "Vikato vya Mzunguko",
-        "contactors": "Viungao",
-        "relays": "Vipitishaji",
-        "power-supplies": "Chanzo cha Umeme"
+    "bldc-cooler-exhaust-motor": {
+      "title": "BLDC Cooler & Exhaust Motors"
+    },
+    "bldc-ceiling-fan": {
+      "title": "BLDC Ceiling Fans"
+    },
+    "bldc-submersible-surface-pump": {
+      "title": "BLDC Submersible & Surface Pumps"
+    },
+    "bldc-table-fan-wall-fan-motor": {
+      "title": "BLDC Table & Wall Fan Motors"
+    },
+    "solar-inverters": {
+      "title": "Solar Inverters"
+    },
+    "plcs": {
+      "title": "PLCs (Programmable Logic Controllers)"
+    },
+    "scada": {
+      "title": "SCADA Systems",
+      "description": "Supervisory Control And Data Acquisition systems"
+    },
+    "dcs": {
+      "title": "DCS (Distributed Control Systems)",
+      "description": "Distributed control systems for process automation"
+    },
+    "hmi": {
+      "title": "HMI (Human Machine Interface)",
+      "description": "Human machine interface systems for industrial control"
+    },
+    "grounding-systems": {
+      "title": "Grounding Systems",
+      "description": "Electrical grounding and earthing systems",
+      "subtitle": "Electrical grounding and earthing systems for safety and equipment protection",
+      "backButton": "Back to Safety & Protective Devices",
+      "badges": {
+        "groundRods": "Ground Rods",
+        "conductors": "Conductors",
+        "clampsLugs": "Clamps & Lugs",
+        "safetyGrounding": "Safety Grounding"
+      },
+      "componentsSection": {
+        "title": "Grounding Components"
+      },
+      "products": {
+        "electrodes": {
+          "name": "Grounding Electrodes",
+          "description": "Copper and steel grounding rods for electrical safety",
+          "features": {
+            "copperBonded": "Copper Bonded",
+            "steelCore": "Steel Core",
+            "multipleLengths": "Multiple Lengths",
+            "ulListed": "UL Listed"
+          }
+        },
+        "conductors": {
+          "name": "Grounding Conductors",
+          "description": "Bare copper conductors for grounding systems",
+          "features": {
+            "solidStranded": "Solid/Stranded",
+            "highConductivity": "High Conductivity",
+            "corrosionResistant": "Corrosion Resistant",
+            "multipleSizes": "Multiple Sizes"
+          }
+        },
+        "accessories": {
+          "name": "Grounding Accessories",
+          "description": "Clamps, lugs, and fittings for grounding installations",
+          "features": {
+            "groundClamps": "Ground Clamps",
+            "compressionLugs": "Compression Lugs",
+            "testWells": "Test Wells",
+            "bondsJumpers": "Bonds & Jumpers"
+          }
+        }
+      },
+      "cta": {
+        "title": "Need Grounding Solutions?",
+        "description": "Our grounding specialists can design safe and code-compliant grounding systems for your facility.",
+        "contactButton": "Contact Grounding Experts",
+        "quoteButton": "Request Quote"
+      },
+      "keyFeatures": "Key Features:",
+      "seo": {
+        "title": "Grounding Systems - Electrical Safety Equipment | Powerton Engineering",
+        "description": "Professional grounding and earthing systems for electrical safety. Copper grounding rods, conductors, clamps & accessories from leading manufacturers.",
+        "keywords": "grounding systems, electrical grounding, earthing systems, ground rods, grounding conductors, electrical safety equipment, copper grounding rods, grounding accessories, industrial grounding"
       }
     },
-    "measurement-instruments": {
-      "title": "Vyombo vya Kipimo",
-      "description": "Vyombo vya kipimo sahihi na vya majaribio",
-      "features": {
-        "digital-multimeters": "Vipimo vya Dijiti",
-        "oscilloscopes": "Viongozo vya Ishara",
-        "signal-analyzers": "Vichambua Ishara",
-        "calibrators": "Vipimo Sahihi"
-      }
+    "calibration-equipment": {
+      "title": "Calibration Equipment",
+      "description": "Precision calibration instruments and testing equipment"
     },
-    "solar-products": {
-      "title": "Bidhaa za Jua",
-      "description": "Ufumbuzi mkuu wa nishati ya jua na vipengele",
-      "features": {
-        "solar-panels": "Paneli za Jua",
-        "inverters": "Vibadilishaji",
-        "battery-storage": "Hifadhi ya Betri",
-        "monitoring-systems": "Mifumo ya Ufuatiliaji"
-      }
+    "solar-panels": {
+      "title": "Solar Panels",
+      "description": "High-efficiency solar panels and photovoltaic systems"
     },
-    "automation-control-systems": {
-      "title": "Mifumo ya Otomatiki na Udhibiti",
-      "description": "Mifumo ya hali ya juu ya otomatiki na udhibiti kwa shughuli za viwandani",
-      "features": {
-        "hmi-systems": "Mifumo ya HMI",
-        "scada-software": "Programu ya SCADA",
-        "industrial-networks": "Mitandao ya Viwandani"
-      }
+    "mounting-structures-racking": {
+      "title": "Mounting Structures & Racking Systems",
+      "description": "Structural mounting solutions for solar installations"
     },
-    "safety-protective-devices": {
-      "title": "Vifaa vya Usalama na Kinga",
-      "description": "Mifumo ya usalama wa viwandani na vifaa vya kinga",
-      "features": {
-        "safety-switches": "Vifungo vya Usalama",
-        "emergency-stops": "Vikomo vya Dharura",
-        "light-curtains": "Mapazia ya Mwanga",
-        "protective-barriers": "Vizuizi vya Kinga"
-      }
-    },
-    "mechanical-pumps-spares": {
-      "title": "Pampu za Mitambo na Vipuri",
-      "description": "Pampu za mitambo na vipuri kwa matumizi ya viwandani",
-      "features": {
-        "centrifugal-pumps": "Pampu za Centrifugal",
-        "positive-displacement-pumps": "Pampu za Uhamishaji Chanya",
-        "pump-components": "Vipengele vya Pampu",
-        "maintenance-kits": "Vifurushi vya Matengenezo"
-      }
-    },
-    "industrial-tools-tackles": {
-      "title": "Zana na Vifaa vya Viwandani",
-      "description": "Zana za viwandani zenye nguvu na vifaa vya kuinua",
-      "features": {
-        "hand-tools": "Zana za Mikono",
-        "power-tools": "Zana za Umeme",
-        "lifting-equipment": "Vifaa vya Kuinua",
-        "cutting-tools": "Zana za Kukata"
-      }
-    },
-    "bldc": {
-      "title": "Bidhaa za BLDC",
-      "description": "Bidhaa za mota za DC bila brashi kwa matumizi ya ufanisi wa nishati",
-      "features": {
-        "energy-efficient": "Ufanisi wa Nishati",
-        "long-lifespan": "Maisha Marefu",
-        "low-maintenance": "Matengenezo Machache",
-        "variable-speed-control": "Udhibiti wa Kasi Inayobadilika"
-      }
+    "solar-charge-controllers": {
+      "title": "Solar Charge Controllers",
+      "description": "Solar charge controllers and power management"
     }
   },
   "filters": {
-    "all": "Yote",
-    "category": "Aina",
-    "industry": "Sekta",
-    "status": "Hali"
+    "all": "All",
+    "category": "Category",
+    "industry": "Industry",
+    "status": "Status"
   },
   "status": {
-    "available": "Inapatikana",
-    "outOfStock": "Haipatikani",
-    "discontinued": "Imeacha kutengenezwa"
+    "available": "Available",
+    "outOfStock": "Out of Stock",
+    "discontinued": "Discontinued"
   },
   "productPages": {
     "transmitters": {
@@ -247,288 +607,484 @@
         "description": "Our RF specialists can help you select the right spectrum analyzer for your measurement needs.",
         "button": "Contact RF Experts"
       }
-    }
-  },
-  "subcategories": {
-    "sensors": {
-      "title": "Vihisi",
-      "description": "Vihisi vya viwandani kwa kipimo na udhibiti"
     },
-    "transmitters": {
-      "title": "Vitumizi na Vibadilishi",
-      "description": "Vitumizi vya mchakato na vifaa vya kubadilisha ishara"
+    "bldcSubmersibleSurfacePump": {
+      "title": "BLDC Submersible & Surface Pumps",
+      "subtitle": "Energy-efficient BLDC pumps for water supply, irrigation, and solar applications"
     },
-    "controllers": {
-      "title": "Vadhibiti na Virekodia",
-      "description": "Mifumo ya udhibiti wa viwandani na vadhibiti wa otomatiki"
+    "cablesWires": {
+      "title": "Cables & Wires",
+      "subtitle": "Industrial cables and wires for power transmission, instrumentation, and data communication"
     },
-    "switches": {
-      "title": "Vifungo na Vielekezo",
-      "description": "Vifungo vya viwandani na vifaa vya udhibiti"
+    "handTools": {
+      "title": "Hand Tools",
+      "subtitle": "Professional-grade hand tools for industrial maintenance and manufacturing applications"
+    },
+    "powerTools": {
+      "title": "Power Tools",
+      "subtitle": "Industrial-grade power tools for heavy-duty manufacturing and maintenance operations"
+    },
+    "cuttingTools": {
+      "title": "Cutting Tools",
+      "subtitle": "Professional cutting tools for machining, drilling, and material processing applications"
+    },
+    "liftingEquipment": {
+      "title": "Lifting Equipment",
+      "subtitle": "Industrial lifting and rigging equipment for safe material handling operations"
     },
     "valves": {
-      "title": "Valvu na Viendeshaji",
-      "description": "Valvu za viwandani na mifumo ya udhibiti wa mtiririko"
+      "title": "Valves & Actuators",
+      "subtitle": "Industrial valve automation solutions with pneumatic, electric, and hydraulic actuators",
+      "shortDescription": "Industrial valve automation solutions with pneumatic, electric, and hydraulic actuators",
+      "fullDescription": "Comprehensive valve automation portfolio including quarter-turn and linear valves with smart technologies, IoT connectivity, and condition monitoring.",
+      "seo": {
+        "title": "Industrial Valves & Actuators - Automated Control Solutions | Powerton Engineering",
+        "description": "Industrial valve automation with pneumatic, electric, and hydraulic actuators. Ball valves, butterfly valves, control valves with smart positioners and fail-safe operation.",
+        "keywords": "industrial valves, valve actuators, pneumatic actuators, electric actuators, control valves, automated valves, smart positioners"
+      },
+      "keyBenefits": {
+        "preciseFlowControl": "Precise Flow Control",
+        "enhancedSafety": "Enhanced Safety & Reliability",
+        "reducedEnergyConsumption": "Reduced Energy Consumption",
+        "predictiveMaintenance": "Predictive Maintenance Capability"
+      },
+      "specifications": {
+        "actuatorTypes": {
+          "label": "Actuator Types",
+          "value": "Pneumatic, Electric, Hydraulic"
+        },
+        "valveSizes": {
+          "label": "Valve Sizes",
+          "value": "1/4\" to 48\" (DN8 to DN1200)"
+        },
+        "pressureRating": {
+          "label": "Pressure Rating",
+          "value": "Up to 6000 PSI (414 bar)"
+        },
+        "temperatureRange": {
+          "label": "Temperature Range",
+          "value": "-40°F to 1000°F (-40°C to 538°C)"
+        }
+      },
+      "applications": {
+        "processControl": "Process Control",
+        "oilGas": "Oil & Gas",
+        "chemicalProcessing": "Chemical Processing",
+        "waterTreatment": "Water Treatment",
+        "powerGeneration": "Power Generation",
+        "hvacSystems": "HVAC Systems"
+      },
+      "industries": {
+        "oilGas": "Oil & Gas",
+        "chemicalPetrochemical": "Chemical & Petrochemical",
+        "powerGeneration": "Power Generation",
+        "waterWastewater": "Water & Wastewater",
+        "foodBeverage": "Food & Beverage",
+        "pharmaceutical": "Pharmaceutical"
+      }
     },
     "analyzers": {
-      "title": "Vichambua",
-      "description": "Vichambua vya michakato kwa udhibiti wa ubora"
+      "title": "Process Analyzers",
+      "subtitle": "Advanced analytical instruments for process monitoring",
+      "product": {
+        "title": "Process Analyzers",
+        "shortDescription": "Advanced gas and liquid analyzers for industrial process measurement and monitoring",
+        "fullDescription": "Comprehensive process analyzer solutions including gas analyzers, liquid analyzers, and multi-parameter measurement systems with Tunable Diode Laser technology.",
+        "keyBenefits": {
+          "processControl": "Improved Process Control",
+          "productQuality": "Enhanced Product Quality",
+          "compliance": "Regulatory Compliance",
+          "safety": "Enhanced Safety"
+        },
+        "altText": "ID-842: Process Analyzers - Industrial gas and liquid process analyzers"
+      },
+      "seo": {
+        "keywords": "process analyzers, gas analyzers, liquid analyzers, pH analyzers, conductivity meters, gas chromatography, process monitoring"
+      },
+      "sections": {
+        "overview": {
+          "title": "Advanced Process Analysis"
+        },
+        "technologies": {
+          "title": "Analysis Technologies",
+          "description": "Advanced measurement technologies for precise process analysis"
+        },
+        "specifications": {
+          "title": "Technical Specifications",
+          "description": "Precision specifications for reliable process monitoring"
+        }
+      },
+      "buttons": {
+        "consultation": "Analysis Consultation"
+      },
+      "labels": {
+        "technologies": "Technologies:",
+        "parameters": "Parameters:",
+        "specifications": "Specifications",
+        "applications": "Applications",
+        "industries": "Industries"
+      },
+      "cta": {
+        "title": "Need Process Analysis Solutions?",
+        "description": "Our process analysis experts can help you select the right analyzers for your monitoring and compliance requirements.",
+        "button": "Analysis Expert"
+      }
     },
-    "signal-conditioners": {
-      "title": "Vikarabati vya Ishara",
-      "description": "Vifaa vya usindikaji na ukarabati wa ishara"
+    "automationControl": {
+      "title": "Automation & Control Systems",
+      "subtitle": "Advanced automation and control solutions for industrial process management and optimization",
+      "description": "Industrial automation controllers for process control",
+      "features": {
+        "digitalIO": "Digital I/O",
+        "analogProcessing": "Analog Processing",
+        "communicationModules": "Communication Modules",
+        "programmingSoftware": "Programming Software",
+        "realtimeMonitoring": "Real-time Monitoring",
+        "dataLogging": "Data Logging",
+        "alarmManagement": "Alarm Management",
+        "remoteAccess": "Remote Access",
+        "processControl": "Process Control",
+        "distributedArchitecture": "Distributed Architecture",
+        "redundancy": "Redundancy",
+        "advancedControl": "Advanced Control",
+        "touchscreenDisplays": "Touchscreen Displays",
+        "graphicInterface": "Graphic Interface",
+        "dataVisualization": "Data Visualization",
+        "operatorControl": "Operator Control"
+      },
+      "subcategories": {
+        "plcs": {
+          "title": "PLCs (Programmable Logic Controllers)",
+          "description": "Industrial automation controllers for process control"
+        },
+        "scada": {
+          "title": "SCADA Systems",
+          "description": "Supervisory control and data acquisition systems"
+        },
+        "dcs": {
+          "title": "DCS (Distributed Control Systems)",
+          "description": "Distributed control systems for large-scale processes"
+        },
+        "hmi": {
+          "title": "HMI (Human Machine Interface)",
+          "description": "User interfaces for industrial control systems"
+        }
+      },
+      "sections": {
+        "controlSystemSolutions": "Control System Solutions",
+        "keyFeatures": "Key Features:"
+      },
+      "cta": {
+        "needAutomationSolutions": "Need Automation Solutions?",
+        "engineersDescription": "Our automation engineers can design and implement comprehensive control systems for your facility.",
+        "contactAutomationExperts": "Contact Automation Experts",
+        "requestQuote": "Request Quote"
+      }
     },
-    "cables-wires": {
-      "title": "Kebo na Waya",
-      "description": "Kebo za viwandani na suluhisho za waya"
+    "bldcCeilingFan": {
+      "title": "BLDC Ceiling Fans",
+      "subtitle": "Energy-efficient brushless DC ceiling fans with smart features and superior performance",
+      "upgradeTitle": "Upgrade to BLDC Ceiling Fans?",
+      "upgradeDescription": "Our BLDC specialists can help you choose energy-efficient ceiling fan solutions for your space.",
+      "contactExperts": "Contact BLDC Experts"
     },
-    "connectors-terminals": {
-      "title": "Viunganishi na Mipaka",
-      "description": "Viunganishi vya umeme na suluhisho za mipaka"
+    "bldcCoolerExhaust": {
+      "title": "BLDC Cooler & Exhaust Motors",
+      "subtitle": "Energy-efficient BLDC motors for cooling, ventilation, and exhaust applications"
     },
-    "circuit-breakers-fuses": {
-      "title": "Vimegea vya Mzunguko na Fyuzi",
-      "description": "Vifaa vya ulinzi wa umeme kwa usalama wa mzunguko"
+    "bldcSubmersible": {
+      "title": "BLDC Submersible & Surface Pumps",
+      "subtitle": "Energy-efficient BLDC pumps for water supply, irrigation, and solar applications"
     },
-    "power-supplies": {
-      "title": "Vifaa vya Nguvu",
-      "description": "Vifaa vya nguvu vya viwandani na vibadilishi"
+    "bldcTableWall": {
+      "title": "BLDC Table & Wall Fan Motors",
+      "subtitle": "Energy-efficient BLDC motors for table fans, wall fans, and pedestal fans"
     },
-    "enclosures-cabinets": {
-      "title": "Vifuniko na Makabati",
-      "description": "Vifuniko vya umeme na suluhisho za makabati ya udhibiti"
+    "bldc": {
+      "title": "BLDC Products",
+      "subtitle": "Brushless DC motor products for energy-efficient cooling, ventilation, and pumping applications"
     },
-    "heating-elements-appliances": {
-      "title": "Vitu vya Joto na Vifaa",
-      "description": "Suluhisho za joto za viwandani na vifaa vya joto"
+    "cables": {
+      "title": "Cables & Wires",
+      "subtitle": "Industrial cables and wiring solutions for power and control applications"
+    },
+    "calibration": {
+      "title": "Calibration Equipment",
+      "subtitle": "Precision calibration instruments and testing equipment"
+    },
+    "centrifugalPumps": {
+      "title": "Centrifugal Pumps",
+      "subtitle": "High-efficiency centrifugal pumps for industrial applications"
+    },
+    "circuitBreakers": {
+      "title": "Circuit Breakers & Fuses",
+      "subtitle": "Electrical protection devices for circuit safety"
+    },
+    "connectors": {
+      "title": "Connectors & Terminals",
+      "subtitle": "Electrical connectors and terminal solutions"
+    },
+    "controllers": {
+      "title": "Controllers",
+      "subtitle": "Industrial control systems and automation controllers"
+    },
+    "dcs": {
+      "title": "DCS (Distributed Control Systems)",
+      "subtitle": "Advanced distributed control systems for process industries"
+    },
+    "diaphragmPumps": {
+      "title": "Diaphragm Pumps",
+      "subtitle": "Precision dosing and chemical handling pumps"
+    },
+    "electricalComponents": {
+      "title": "Electrical Components",
+      "subtitle": "Complete electrical component solutions for industrial applications"
+    },
+    "enclosures": {
+      "title": "Enclosures & Cabinets",
+      "subtitle": "Electrical enclosures and control cabinet solutions"
+    },
+    "gearPumps": {
+      "title": "Gear Pumps",
+      "subtitle": "Precision gear pumps for hydraulic and industrial applications"
+    },
+    "grounding": {
+      "title": "Grounding Systems",
+      "subtitle": "Electrical grounding and earthing solutions for safety"
+    },
+    "heating": {
+      "title": "Heating Elements & Appliances",
+      "subtitle": "Industrial heating solutions and thermal equipment"
+    },
+    "hmi": {
+      "title": "HMI (Human Machine Interface)",
+      "subtitle": "Interactive operator interfaces for industrial automation"
+    },
+    "industrialTools": {
+      "title": "Industrial Tools & Tackles",
+      "subtitle": "Heavy-duty industrial tools and lifting equipment"
+    },
+    "instrumentation": {
+      "title": "Instrumentation Components",
+      "subtitle": "Precision instrumentation and measurement components"
+    },
+    "intrinsicallySafe": {
+      "title": "Intrinsically Safe Equipment",
+      "subtitle": "Certified equipment for hazardous area applications"
+    },
+    "lifting": {
+      "title": "Lifting Equipment",
+      "subtitle": "Industrial lifting and material handling solutions"
+    },
+    "measurement": {
+      "title": "Measurement Instruments",
+      "subtitle": "Precision measurement and testing instruments"
+    },
+    "mechanical": {
+      "title": "Mechanical Pumps & Spares",
+      "subtitle": "Mechanical pumps and spare parts for industrial applications"
     },
     "multimeters": {
-      "title": "Vipima Vingi",
-      "description": "Vipima vingi vya kidijitali na analogi kwa majaribio ya umeme"
+      "title": "Multimeters",
+      "subtitle": "Digital and analog multimeters for electrical testing"
     },
     "oscilloscopes": {
       "title": "Oscilloscopes",
-      "description": "Oscilloscopes za kidijitali kwa uchambuzi na majaribio ya ishara"
-    },
-    "spectrum-analyzers": {
-      "title": "Vichambua vya Spectrum",
-      "description": "Vifaa vya uchambuzi wa RF na microwave spectrum"
-    },
-    "power-quality-analyzers": {
-      "title": "Vichambua vya Ubora wa Nguvu",
-      "description": "Vifaa vya kipimo na uchambuzi wa ubora wa nguvu"
-    },
-    "calibration-equipment": {
-      "title": "Vifaa vya Urekebishaji",
-      "description": "Vifaa vya urekebishaji wa usahihi na vifaa vya majaribio"
-    },
-    "solar-panels": {
-      "title": "Paneli za Jua",
-      "description": "Paneli za jua zenye ufanisi wa hali ya juu na mifumo ya photovoltaic"
-    },
-    "solar-inverters": {
-      "title": "Vibadilishi vya Jua",
-      "description": "Vibadilishi vya nguvu ya jua na mifumo ya kuunganisha kwenye mtandao"
-    },
-    "mounting-structures-racking": {
-      "title": "Miundo ya Kupandisha na Mifumo ya Rafu",
-      "description": "Suluhisho za kupandisha za kimuundo kwa usakinishaji wa jua"
-    },
-    "solar-charge-controllers": {
-      "title": "Vadhibiti wa Malipo ya Jua",
-      "description": "Vadhibiti wa malipo ya jua na usimamizi wa nguvu"
-    },
-    "solar-batteries-energy-storage": {
-      "title": "Betri za Jua na Mifumo ya Uhifadhi wa Nishati",
-      "description": "Suluhisho za uhifadhi wa nishati kwa mifumo ya nishati ya jua"
+      "subtitle": "Digital oscilloscopes for signal analysis and testing"
     },
     "plcs": {
-      "title": "PLC",
-      "description": "Vadhibiti wa mantiki zinazoweza kuprograms kwa otomatiki ya viwandani"
+      "title": "PLCs (Programmable Logic Controllers)",
+      "subtitle": "Industrial programmable logic controllers for automation"
+    },
+    "powerQuality": {
+      "title": "Power Quality Analyzers",
+      "subtitle": "Power quality measurement and analysis instruments"
+    },
+    "powerSupplies": {
+      "title": "Power Supplies",
+      "subtitle": "Industrial power supply units and converters"
+    },
+    "pumpParts": {
+      "title": "Pump Parts & Spares",
+      "subtitle": "Replacement parts and components for pump systems"
+    },
+    "safetyEquipment": {
+      "title": "Safety Equipment",
+      "subtitle": "Personal protective equipment and safety devices"
+    },
+    "safetyProtective": {
+      "title": "Safety & Protective Devices",
+      "subtitle": "Industrial safety systems and protective equipment",
+      "description": "Comprehensive safety and protective equipment to ensure personnel and equipment safety in industrial environments",
+      "sectionsTitle": "Safety Solutions",
+      "cta": {
+        "title": "Prioritizing Safety in Your Operations?",
+        "description": "Our safety engineers can assess your facility and recommend comprehensive protective solutions.",
+        "contactButton": "Contact Safety Experts"
+      }
+    },
+    "safetyRelays": {
+      "title": "Safety Relays & Switches",
+      "subtitle": "Safety control relays and emergency stop systems"
     },
     "scada": {
-      "title": "SCADA",
-      "description": "Mifumo ya udhibiti wa usimamizi na ukusanyaji wa data"
+      "title": "SCADA Systems",
+      "subtitle": "Supervisory control and data acquisition systems"
     },
-    "dcs": {
-      "title": "DCS",
-      "description": "Mifumo ya udhibiti iliyogawanywa kwa otomatiki ya michakato"
+    "sensors": {
+      "title": "Sensors",
+      "subtitle": "Industrial sensors for measurement and control"
     },
-    "hmi": {
-      "title": "HMI",
-      "description": "Mifumo ya kiolesura cha binadamu-mashine kwa udhibiti wa opereta"
+    "signalConditioners": {
+      "title": "Signal Conditioners",
+      "subtitle": "Signal processing and conditioning equipment"
     },
-    "surge-protectors": {
-      "title": "Walinda wa Mvua",
-      "description": "Vifaa na mifumo ya ulinzi dhidi ya mvua za umeme"
+    "solarBatteries": {
+      "title": "Solar Batteries & Energy Storage",
+      "subtitle": "Energy storage solutions for solar power systems"
     },
-    "grounding-systems": {
-      "title": "Mifumo ya Kujitegemeza Ardhini",
-      "description": "Suluhisho za kujitegemeza ardhini kwa umeme kwa usalama",
-      "subtitle": "Mifumo ya kujitegemeza ardhini ya umeme na kujitegemeza ardhini kwa usalama na ulinzi wa vifaa",
-      "backButton": "Rudi kwa Vifaa vya Usalama na Ulinzi",
-      "badges": {
-        "groundRods": "Fimbo za Ardhi",
-        "conductors": "Waongozaji",
-        "clampsLugs": "Vifungo na Vichungi",
-        "safetyGrounding": "Kujitegemeza Ardhini kwa Usalama"
-      },
-      "componentsSection": {
-        "title": "Vipengele vya Kujitegemeza Ardhini"
-      },
-      "products": {
-        "electrodes": {
-          "name": "Elektrodi za Kujitegemeza Ardhini",
-          "description": "Fimbo za kujitegemeza ardhini za shaba na chuma kwa usalama wa umeme",
-          "features": {
-            "copperBonded": "Zilizounganishwa na Shaba",
-            "steelCore": "Kiini cha Chuma",
-            "multipleLengths": "Urefu Mbalimbali",
-            "ulListed": "Iliyothibitishwa UL"
-          }
-        },
-        "conductors": {
-          "name": "Waongozaji wa Kujitegemeza Ardhini",
-          "description": "Waongozaji wa shaba tupu kwa mifumo ya kujitegemeza ardhini",
-          "features": {
-            "solidStranded": "Imara/Iliyosokotwa",
-            "highConductivity": "Uongozaji wa Hali ya Juu",
-            "corrosionResistant": "Upinzani wa Kutu",
-            "multipleSizes": "Ukubwa Mbalimbali"
-          }
-        },
-        "accessories": {
-          "name": "Vifaa vya Kujitegemeza Ardhini",
-          "description": "Vifungo, vichungi na viunganishi kwa usakinishaji wa kujitegemeza ardhini",
-          "features": {
-            "groundClamps": "Vifungo vya Ardhi",
-            "compressionLugs": "Vichungi vya Kukandamiza",
-            "testWells": "Visima vya Kupima",
-            "bondsJumpers": "Viungo na Vipandaji"
-          }
-        }
-      },
-      "cta": {
-        "title": "Unahitaji Suluhisho za Kujitegemeza Ardhini?",
-        "description": "Wataalamu wetu wa kujitegemeza ardhini wanaweza kubuni mifumo ya kujitegemeza ardhini salama na inayofuata kanuni kwa usakinishaji wako.",
-        "contactButton": "Wasiliana na Wataalamu wa Kujitegemeza Ardhini",
-        "quoteButton": "Omba Bei"
-      },
-      "keyFeatures": "Vipengele Vikuu:",
-      "seo": {
-        "title": "Mifumo ya Kujitegemeza Ardhini - Vifaa vya Usalama wa Umeme | Powerton Engineering",
-        "description": "Mifumo ya kitaalamu ya kujitegemeza ardhini na kujitegemeza ardhini kwa usalama wa umeme. Fimbo za kujitegemeza ardhini za shaba, waongozaji, vifungo na vifaa kutoka kwa wazalishaji wakuu.",
-        "keywords": "mifumo ya kujitegemeza ardhini, kujitegemeza ardhini kwa umeme, mifumo ya kujitegemeza ardhini, fimbo za ardhi, waongozaji wa kujitegemeza ardhini, vifaa vya usalama wa umeme, fimbo za kujitegemeza ardhini za shaba, vifaa vya kujitegemeza ardhini, kujitegemeza ardhini kwa viwandani"
-      }
+    "solarChargeControllers": {
+      "title": "Solar Charge Controllers",
+      "subtitle": "Solar charge controllers and power management"
     },
-    "safety-relays-switches": {
-      "title": "Relays na Swichi za Usalama",
-      "description": "Relays za udhibiti wa usalama na mifumo ya kusimamisha dharura"
+    "solarInverters": {
+      "title": "Solar Inverters",
+      "subtitle": "Solar power inverters and grid-tie systems"
     },
-    "intrinsically-safe-equipment": {
-      "title": "Vifaa vya Usalama wa Ndani",
-      "description": "Vifaa vilivyothibitishwa kwa matumizi ya maeneo ya hatari"
+    "solarPanels": {
+      "title": "Solar Panels",
+      "subtitle": "High-efficiency solar panels and photovoltaic systems"
     },
-    "centrifugal-pumps": {
-      "title": "Pampu za Centrifugal",
-      "description": "Pampu za centrifugal zenye ufanisi wa hali ya juu kwa matumizi ya viwandani"
+    "solarProducts": {
+      "title": "Solar Products",
+      "subtitle": "Complete solar energy solutions and components"
     },
-    "diaphragm-pumps": {
-      "title": "Pampu za Diaphragm",
-      "description": "Pampu za kipimo chenye usahihi na kutunza kemikali"
+    "surgeProtectors": {
+      "title": "Surge Protectors",
+      "subtitle": "Electrical surge protection devices and systems"
     },
-    "gear-pumps": {
-      "title": "Pampu za Gia",
-      "description": "Pampu za gia zenye usahihi kwa matumizi ya hydraulic na viwandani"
-    },
-    "pump-parts-spares": {
-      "title": "Sehemu za Pampu na Vipuri",
-      "description": "Sehemu za kubadilisha na viungo kwa mifumo ya pampu"
-    },
-    "hand-tools": {
-      "title": "Zana za Mikono",
-      "description": "Zana za mikono za kitaalamu kwa matengenezo ya viwandani"
-    },
-    "power-tools": {
-      "title": "Zana za Nguvu",
-      "description": "Zana za umeme na pneumatic kwa matumizi ya viwandani"
-    },
-    "cutting-tools": {
-      "title": "Zana za Kukata",
-      "description": "Zana za kukata za viwandani na vifaa vya kutengeneza"
-    },
-    "lifting-equipment": {
-      "title": "Vifaa vya Kuinua",
-      "description": "Suluhisho za kuinua za viwandani na kutunza vitu"
-    },
-    "safety-equipment": {
-      "title": "Vifaa vya Usalama",
-      "description": "Vifaa kamili vya usalama na vifaa vya ulinzi wa kibinafsi kwa matumizi ya viwandani",
-      "sectionsTitle": "Suluhisho za Usalama",
-      "products": {
-        "ppe": {
-          "name": "Vifaa vya Ulinzi wa Kibinafsi (PPE)",
-          "description": "Vifaa vya usalama kwa ulinzi wa wafanyakazi",
-          "features": {
-            "hardHats": "Kofia za Kujilinda",
-            "safetyGlasses": "Miwani ya Usalama",
-            "hearingProtection": "Ulinzi wa Masikio",
-            "workGloves": "Glavu za Kazi"
-          }
-        },
-        "fallProtection": {
-          "name": "Mifumo ya Ulinzi dhidi ya Kuanguka",
-          "description": "Mikanda na vifaa vya kuzuia kuanguka",
-          "features": {
-            "fullBodyHarness": "Mkanda wa Mwili Mzima",
-            "lanyards": "Kamba za Usalama",
-            "anchorPoints": "Vipande vya Kutegemeza",
-            "selfRetracting": "Kujikokota"
-          }
-        },
-        "gasDetection": {
-          "name": "Vifaa vya Kutambua Gesi",
-          "description": "Mifumo ya kupima gesi inayobebeka na isiyobebeka",
-          "features": {
-            "multiGasDetectors": "Vitambua Gesi Nyingi",
-            "singleGas": "Gesi Moja",
-            "wirelessMonitoring": "Ufuatiliaji Usio na Waya",
-            "dataLogging": "Kurekodi Data"
-          }
-        }
-      },
-      "cta": {
-        "title": "Unahitaji Vifaa vya Usalama?",
-        "description": "Wataalamu wetu wa usalama wanaweza kutoa suluhisho kamili za usalama kulinda wafanyakazi wako.",
-        "contactExpertsCta": "Wasiliana na Wataalamu wa Usalama",
-        "requestQuoteCta": "Omba Nukuu"
-      }
-    },
-    "bldc-cooler-exhaust-motor": {
-      "title": "Mota ya BLDC ya Kipozaji/Kutoa",
-      "description": "Mita za BLDC zenye kutumia nishati kidogo kwa kupoza na uongozaji"
-    },
-    "bldc-ceiling-fan": {
-      "title": "Pankha ya Dari ya BLDC",
-      "description": "Mapankha ya dari yenye ufanisi wa hali ya juu na teknolojia ya DC isiyo na brashi"
-    },
-    "bldc-submersible-surface-pump": {
-      "title": "Pampu ya BLDC ya Chini/Juu ya Maji",
-      "description": "Pampu za BLDC zinazotumia nishati ya jua kwa matumizi ya maji"
-    },
-    "bldc-table-fan-wall-fan-motor": {
-      "title": "Mota ya Pankha ya Meza/Ukuta ya BLDC",
-      "description": "Mita ndogo za BLDC kwa mapankha ya kuhamishika na yale yaliyopachikwa ukutani"
+    "switches": {
+      "title": "Switches",
+      "subtitle": "Industrial switches and control devices"
     }
   },
   "common": {
-    "hazardousAreaSolutions": "Hazardous Area Solutions",
-    "needEquipment": "Need Equipment?",
-    "specialists": "specialists",
     "keyFeatures": "Key Features:",
     "needHelp": "Need Help?",
     "contactExperts": "Contact Experts",
-    "requestQuote": "Request Quote"
+    "requestQuote": "Request Quote",
+    "hazardousAreaSolutions": "Hazardous Area Solutions",
+    "needEquipment": "Need Equipment?",
+    "specialists": "specialists"
+  },
+  "hmi": {
+    "title": "HMI (Human Machine Interface)",
+    "subtitle": "Industrial human machine interfaces for operator control and system visualization",
+    "navigation": {
+      "backToAutomation": "Back to Automation & Control Systems"
+    },
+    "badges": {
+      "touchscreen": "Touchscreen",
+      "industrialGrade": "Industrial Grade",
+      "realTimeDisplay": "Real-time Display",
+      "multiProtocol": "Multi-Protocol"
+    },
+    "solutionsTitle": "HMI Solutions",
+    "products": {
+      "panelMount": {
+        "name": "Panel Mount HMI Displays",
+        "description": "Industrial touchscreen displays for machine interface",
+        "features": [
+          "Touch Interface",
+          "Industrial Rating",
+          "Multiple Sizes",
+          "Communication Protocols"
+        ]
+      },
+      "operatorInterface": {
+        "name": "Operator Interface Terminals",
+        "description": "Rugged operator terminals for harsh environments",
+        "features": [
+          "IP65/IP67 Rating",
+          "Stainless Steel",
+          "Membrane Keypad",
+          "Backlit Display"
+        ]
+      },
+      "mobile": {
+        "name": "Mobile HMI Solutions",
+        "description": "Wireless and mobile human machine interfaces",
+        "features": [
+          "Wireless Connectivity",
+          "Mobile Apps",
+          "Remote Access",
+          "Real-time Data"
+        ]
+      }
+    },
+    "cta": {
+      "title": "Need HMI Solutions?",
+      "description": "Our HMI specialists can design intuitive operator interfaces for your automation systems.",
+      "contactExperts": "Contact HMI Experts"
+    }
+  },
+  "solarPanels": {
+    "monocrystalline": {
+      "description": "High-efficiency monocrystalline silicon solar panels",
+      "features": {
+        "efficiency": "21.5% Efficiency",
+        "warranty": "25 Year Warranty",
+        "weatherResistant": "Weather Resistant",
+        "antiReflective": "Anti-Reflective Coating"
+      }
+    },
+    "polycrystalline": {
+      "description": "Cost-effective polycrystalline solar panel solution",
+      "features": {
+        "efficiency": "19.2% Efficiency",
+        "warranty": "20 Year Warranty",
+        "durable": "Durable Construction",
+        "installation": "Easy Installation"
+      }
+    },
+    "bifacial": {
+      "description": "Advanced bifacial technology for maximum energy harvest",
+      "features": {
+        "frontBack": "Front + Back Generation",
+        "moreEnergy": "25% More Energy",
+        "glassDesign": "Glass-Glass Design",
+        "longLifespan": "Long Lifespan"
+      }
+    }
+  },
+  "plcProducts": {
+    "siemens": {
+      "description": "Compact PLC for small to medium automation applications",
+      "features": {
+        "integratedIO": "Integrated I/O",
+        "ethernet": "Ethernet Communication",
+        "programming": "TIA Portal Programming",
+        "failSafe": "Fail-Safe Options"
+      }
+    },
+    "allenBradley": {
+      "description": "High-performance PLC with integrated safety",
+      "features": {
+        "safety": "GuardLogix Safety",
+        "ethernet": "Dual Ethernet Ports",
+        "software": "Studio 5000 Software",
+        "motion": "Motion Control"
+      }
+    },
+    "schneider": {
+      "description": "High-end PLC for complex industrial processes",
+      "features": {
+        "hotStandby": "Hot Standby CPU",
+        "ethernet": "Ethernet Ring Topology",
+        "software": "Unity Pro Software",
+        "security": "Cyber Security"
+      }
+    }
   },
   "features": {
     "safetyDevices": {
@@ -580,17 +1136,30 @@
       }
     },
     "common": {
+      "highTorque": "High Torque",
+      "variableSpeed": "Variable Speed",
+      "cordlessOptions": "Cordless Options",
       "chuckCapacity": "Chuck Capacity: 13mm",
+      "multipleSizes": "Multiple Sizes",
+      "safetyGuards": "Safety Guards",
+      "antiVibration": "Anti-Vibration",
+      "powerfulMotors": "Powerful Motors",
       "highImpactForce": "High Impact Force",
       "socketCompatibility": "Socket Compatibility",
       "forwardReverse": "Forward/Reverse",
       "batteryPowered": "Battery Powered",
       "efficientSwitching": "85-265V AC Input",
       "dcOutput": "12V/24V DC Output",
+      "highEfficiency": "High Efficiency",
+      "compactDesign": "Compact Design",
       "dinRailMount": "DIN Rail Mount",
       "wideInputRange": "Wide Input Range",
+      "shortCircuitProtection": "Short Circuit Protection",
       "ledStatus": "LED Status",
+      "batteryBackup": "Battery Backup",
+      "surgeProtection": "Surge Protection",
       "autoTransfer": "Auto Transfer",
+      "lcdDisplay": "LCD Display",
       "castIronBronze": "Cast Iron/Bronze",
       "stainlessSteelSizes": "Stainless Steel",
       "balancedDesign": "Balanced Design",
@@ -624,20 +1193,7 @@
       "highPressure": "High Pressure",
       "lowFlowRates": "Low Flow Rates",
       "accurateDosing": "Accurate Dosing",
-      "leakFreeOperation": "Leak-Free Operation",
-      "highTorque": "High Torque",
-      "variableSpeed": "Variable Speed",
-      "cordlessOptions": "Cordless Options",
-      "multipleSizes": "Multiple Sizes",
-      "safetyGuards": "Safety Guards",
-      "antiVibration": "Anti-Vibration",
-      "powerfulMotors": "Powerful Motors",
-      "highEfficiency": "High Efficiency",
-      "compactDesign": "Compact Design",
-      "shortCircuitProtection": "Short Circuit Protection",
-      "batteryBackup": "Battery Backup",
-      "surgeProtection": "Surge Protection",
-      "lcdDisplay": "LCD Display"
+      "leakFreeOperation": "Leak-Free Operation"
     },
     "product": {
       "safetyEquipment": {
@@ -703,10 +1259,10 @@
     "gujarat": "Gujarat",
     "maharashtra": "Maharashtra",
     "haryana": "Haryana",
-    "westBengal": "Bengal ya Magharibi"
+    "westBengal": "West Bengal"
   },
   "brands": {
-    "customBuilt": "Imetengenezwa Kwa Mahitaji",
+    "customBuilt": "Custom Built",
     "fluke": "Fluke, Keysight",
     "siemens": "Siemens, Allen Bradley",
     "abb": "ABB, Schneider",
@@ -716,95 +1272,15 @@
     "3m": "3M, MSA"
   },
   "items": {
-    "solar-products": "Bidhaa za Jua",
-    "automation-control-systems": "Mifumo ya Otomatiki na Udhibiti",
-    "safety-protective-devices": "Vifaa vya Usalama na Kinga",
-    "mechanical-pumps-spares": "Pampu za Kiufundi na Vipuri",
-    "industrial-tools-tackles": "Zana za Viwandani na Vifaa",
-    "bldc": "Mitambo ya Umeme isiyo na Brashi",
-    "instrumentation-components": "Viungo vya Ala",
-    "electrical-components": "Viungo vya Umeme",
-    "measurement-instruments": "Ala za Kipimo"
-  },
-  "hmi": {
-    "title": "HMI (Human Machine Interface)",
-    "subtitle": "Industrial human machine interfaces for operator control and system visualization",
-    "navigation": {
-      "backToAutomation": "Back to Automation & Control Systems"
-    },
-    "badges": {
-      "touchscreen": "Touchscreen",
-      "industrialGrade": "Industrial Grade",
-      "realTimeDisplay": "Real-time Display",
-      "multiProtocol": "Multi-Protocol"
-    },
-    "solutionsTitle": "HMI Solutions",
-    "products": {
-      "panelMount": {
-        "name": "Panel Mount HMI Displays",
-        "description": "Industrial touchscreen displays for machine interface",
-        "features": [
-          "Touch Interface",
-          "Industrial Rating",
-          "Multiple Sizes",
-          "Communication Protocols"
-        ]
-      },
-      "operatorInterface": {
-        "name": "Operator Interface Terminals",
-        "description": "Rugged operator terminals for harsh environments",
-        "features": [
-          "IP65/IP67 Rating",
-          "Stainless Steel",
-          "Membrane Keypad",
-          "Backlit Display"
-        ]
-      },
-      "mobile": {
-        "name": "Mobile HMI Solutions",
-        "description": "Wireless and mobile human machine interfaces",
-        "features": [
-          "Wireless Connectivity",
-          "Mobile Apps",
-          "Remote Access",
-          "Real-time Data"
-        ]
-      }
-    },
-    "cta": {
-      "title": "Need HMI Solutions?",
-      "description": "Our HMI specialists can design intuitive operator interfaces for your automation systems.",
-      "contactExperts": "Contact HMI Experts"
-    }
-  },
-  "plcProducts": {
-    "siemens": {
-      "description": "Compact PLC for small to medium automation applications",
-      "features": {
-        "integratedIO": "Integrated I/O",
-        "ethernet": "Ethernet Communication",
-        "programming": "TIA Portal Programming",
-        "failSafe": "Fail-Safe Options"
-      }
-    },
-    "allenBradley": {
-      "description": "High-performance PLC with integrated safety",
-      "features": {
-        "safety": "GuardLogix Safety",
-        "ethernet": "Dual Ethernet Ports",
-        "software": "Studio 5000 Software",
-        "motion": "Motion Control"
-      }
-    },
-    "schneider": {
-      "description": "High-end PLC for complex industrial processes",
-      "features": {
-        "hotStandby": "Hot Standby CPU",
-        "ethernet": "Ethernet Ring Topology",
-        "software": "Unity Pro Software",
-        "security": "Cyber Security"
-      }
-    }
+    "instrumentation-components": "Instrumentation Components",
+    "electrical-components": "Electrical Components",
+    "measurement-instruments": "Measurement Instruments",
+    "solar-products": "Solar Products",
+    "automation-control-systems": "Automation & Control Systems",
+    "safety-protective-devices": "Safety & Protective Devices",
+    "mechanical-pumps-spares": "Mechanical Pumps & Spares",
+    "industrial-tools-tackles": "Industrial Tools & Tackles",
+    "bldc": "BLDC Products"
   },
   "tags": {
     "industrialAutomation": "Industrial Automation",
@@ -826,6 +1302,10 @@
     "parameters": "Parameters:"
   },
   "badges": {
+    "ppe": "PPE",
+    "fallProtection": "Fall Protection",
+    "gasDetection": "Gas Detection",
+    "oshaCompliant": "OSHA Compliant",
     "signalIntelligence": "Signal Intelligence",
     "vectorAnalysis": "Vector Analysis",
     "rfAnalysis": "RF Analysis",
@@ -873,35 +1353,6 @@
     "groundRods": "Ground Rods",
     "conductors": "Conductors",
     "safetyGrounding": "Safety Grounding"
-  },
-  "solarPanels": {
-    "monocrystalline": {
-      "description": "High-efficiency monocrystalline silicon solar panels",
-      "features": {
-        "efficiency": "21.5% Efficiency",
-        "warranty": "25 Year Warranty",
-        "weatherResistant": "Weather Resistant",
-        "antiReflective": "Anti-Reflective Coating"
-      }
-    },
-    "polycrystalline": {
-      "description": "Cost-effective polycrystalline solar panel solution",
-      "features": {
-        "efficiency": "19.2% Efficiency",
-        "warranty": "20 Year Warranty",
-        "durable": "Durable Construction",
-        "installation": "Easy Installation"
-      }
-    },
-    "bifacial": {
-      "description": "Advanced bifacial technology for maximum energy harvest",
-      "features": {
-        "frontBack": "Front + Back Generation",
-        "moreEnergy": "25% More Energy",
-        "glassDesign": "Glass-Glass Design",
-        "longLifespan": "Long Lifespan"
-      }
-    }
   },
   "productDetails": {
     "instrumentation": {

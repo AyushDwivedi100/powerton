@@ -9,7 +9,7 @@
       "email": {
         "label": "عنوان البريد الإلكتروني",
         "placeholder": "أدخل عنوان بريدك الإلكتروني",
-        "error": "يرجى إدخال عنوان بريد إلكتروني صالح"
+        "error": "الرجاء إدخال عنوان بريد إلكتروني صالح"
       },
       "phone": {
         "label": "رقم الهاتف",
@@ -22,7 +22,7 @@
       },
       "serviceType": {
         "label": "نوع الخدمة",
-        "placeholder": "اختر نوع الخدمة"
+        "placeholder": "حدد نوع الخدمة"
       },
       "subject": {
         "label": "الموضوع",
@@ -36,104 +36,143 @@
       }
     },
     "buttons": {
-      "submit": "إرسال الرسالة",
-      "sending": "جاري الإرسال...",
+      "submit": "أرسل الرسالة",
+      "sending": "إرسال...",
       "callNow": "اتصل الآن",
-      "emailUs": "راسلنا"
+      "emailUs": "راسلنا عبر البريد الإلكتروني"
     },
     "messages": {
-      "success": "شكراً! تم إرسال رسالتك بنجاح.",
-      "successDesc": "سنتواصل معك خلال ٢٤ ساعة."
-      "error": "فشل في إرسال الرسالة",
-      "errorDesc": "يرجى المحاولة مرة أخرى أو التواصل معنا مباشرة على {{phone}} أو {{email}}"
+      "success": "شكرا لك! تم إرسال رسالتك بنجاح.",
+      "successDesc": "سنعود إليك في غضون 24 ساعة.",
+      "error": "فشل إرسال الرسالة",
+      "errorDesc": "يرجى المحاولة مرة أخرى أو الاتصال بنا مباشرة على {{phone}} أو {{email}}"
     }
   },
   "quote": {
     "fields": {
       "name": {
-        "label": "الاسم الكامل *"
+        "label": "الاسم الكامل",
+        "placeholder": "أدخل اسمك الكامل"
       },
       "email": {
-        "label": "عنوان البريد الإلكتروني *"
+        "label": "عنوان البريد الإلكتروني",
+        "placeholder": "أدخل عنوان بريدك الإلكتروني"
+      },
+      "phone": {
+        "label": "رقم الهاتف",
+        "placeholder": "أدخل رقم هاتفك"
+      },
+      "company": {
+        "label": "اسم الشركة",
+        "placeholder": "أدخل اسم شركتك"
       },
       "designation": {
-        "label": "المنصب/التسمية الوظيفية"
+        "label": "المسمى الوظيفي",
+        "placeholder": "أدخل المسمى الوظيفي الخاص بك"
+      },
+      "projectTitle": {
+        "label": "عنوان المشروع",
+        "placeholder": "أدخل عنوان المشروع"
+      },
+      "projectType": {
+        "label": "نوع المشروع",
+        "placeholder": "حدد نوع المشروع"
+      },
+      "budget": {
+        "label": "النطاق المالي",
+        "placeholder": "حدد النطاق المالي"
+      },
+      "timeline": {
+        "label": "الجدول الزمني",
+        "placeholder": "حدد الجدول الزمني للمشروع"
+      },
+      "services": {
+        "label": "الخدمات المطلوبة",
+        "placeholder": "حدد الخدمات المطلوبة"
+      },
+      "specifications": {
+        "label": "المواصفات الفنية",
+        "placeholder": "صف المتطلبات التقنية الخاصة بك"
       },
       "additionalRequirements": {
-        "label": "متطلبات إضافية"
+        "label": "متطلبات إضافية",
+        "placeholder": "أي متطلبات إضافية"
+      },
+      "industryType": {
+        "label": "نوع الصناعة",
+        "placeholder": "حدد مجال عملك"
+      },
+      "projectScale": {
+        "label": "حجم المشروع",
+        "placeholder": "حدد حجم المشروع"
+      },
+      "preferredBrands": {
+        "label": "العلامات التجارية المفضلة",
+        "placeholder": "أي علامات تجارية أو مصنعين مفضلين"
       }
-    },
-    "validation": {
-      "nameRequired": "الاسم مطلوب",
-      "phoneRequired": "رقم الهاتف مطلوب",
-      "subjectRequired": "الموضوع مطلوب",
-      "messageRequired": "الرسالة مطلوبة",
-      "firstNameRequired": "الاسم الأول مطلوب",
-      "lastNameRequired": "اسم العائلة مطلوب",
-      "invalidEmail": "عنوان بريد إلكتروني غير صالح",
-      "selectService": "يرجى اختيار خدمة",
-      "projectDetailsRequired": "تفاصيل المشروع مطلوبة",
-      "nameMin": "يجب أن يكون الاسم حرفين على الأقل",
-      "emailInvalid": "يرجى إدخال عنوان بريد إلكتروني صالح",
-      "phoneMin": "يرجى إدخال رقم هاتف صالح",
-      "companyRequired": "اسم الشركة مطلوب",
-      "projectTitleRequired": "عنوان المشروع مطلوب",
-      "projectTypeRequired": "يرجى اختيار نوع المشروع",
-      "timelineRequired": "يرجى اختيار الجدول الزمني المتوقع",
-      "servicesRequired": "يرجى اختيار خدمة واحدة على الأقل",
-      "specificationsMin": "يرجى تقديم مواصفات مفصلة (20 حرفاً كحد أدنى)"
-    },
-    "sections": {
-      "contactInfo": "معلومات الاتصال",
-      "requiredServices": "الخدمات المطلوبة *",
-      "technicalSpecifications": "المواصفات التقنية"
-    },
-    "error": {
-      "title": "فشل في إرسال طلب العرض",
-      "description": "للمساعدة الفورية: {{phone}} أو البريد الإلكتروني: {{email}}"
     },
     "projectTypes": {
       "newInstallation": "تركيب جديد",
       "systemUpgrade": "ترقية النظام",
-      "retrofit": "التحديث",
+      "retrofit": "تحديث",
       "maintenance": "عقد صيانة",
       "consultation": "استشارة تقنية",
       "design": "التصميم والهندسة"
     },
     "timelines": {
-      "immediate": "فوري (< شهر واحد)",
-      "1-3-months": "١-٣ أشهر"
-      "3-6-months": "٣-٦ أشهر"
-      "6-12-months": "٦-١٢ شهراً"
+      "immediate": "فوري (أقل من شهر)",
+      "1-3-months": "1-3 أشهر",
+      "3-6-months": "3-6 أشهر",
+      "6-12-months": "6-12 شهرا",
       "1-year-plus": "أكثر من سنة"
     },
     "budgetRanges": {
-      "under-1-lakh": "أقل من ١ لاخ روبية"
-      "1-5-lakh": "١-٥ لاخ روبية"
-      "5-10-lakh": "٥-١٠ لاخ روبية"
-      "10-25-lakh": "١٠-٢٥ لاخ روبية"
-      "25-50-lakh": "٢٥-٥٠ لاخ روبية"
-      "50-lakh-plus": "٥٠ لاخ روبية+"
-      "discuss": "أفضل المناقشة"
+      "under-1-lakh": "أقل من 1 لاك روبية هندية",
+      "1-5-lakh": "1-5 لاك روبية هندية",
+      "5-10-lakh": "5-10 لاك روبية هندية",
+      "10-25-lakh": "10-25 لاك روبية هندية",
+      "25-50-lakh": "25-50 لاك روبية هندية",
+      "50-lakh-plus": "50 لاك روبية هندية +",
+      "discuss": "يفضل المناقشة"
+    },
+    "validation": {
+      "nameMin": "يجب أن يكون الاسم مكونًا من حرفين على الأقل",
+      "emailInvalid": "الرجاء إدخال عنوان بريد إلكتروني صالح",
+      "phoneMin": "الرجاء إدخال رقم هاتف صالح",
+      "companyRequired": "اسم الشركة مطلوب",
+      "projectTitleRequired": "عنوان المشروع مطلوب",
+      "projectTypeRequired": "الرجاء تحديد نوع المشروع",
+      "timelineRequired": "الرجاء تحديد الجدول الزمني المتوقع",
+      "servicesRequired": "الرجاء تحديد خدمة واحدة على الأقل",
+      "specificationsMin": "الرجاء تقديم مواصفات تفصيلية (20 حرفًا كحد أدنى)",
+      "nameRequired": "الاسم مطلوب",
+      "phoneRequired": "رقم الهاتف مطلوب",
+      "subjectRequired": "الموضوع مطلوب",
+      "messageRequired": "الرسالة مطلوبة",
+      "firstNameRequired": "الاسم الأول مطلوب",
+      "lastNameRequired": "الاسم الأخير مطلوب",
+      "invalidEmail": "عنوان بريد إلكتروني خاطئ",
+      "selectService": "الرجاء تحديد خدمة",
+      "projectDetailsRequired": "تفاصيل المشروع مطلوبة"
     },
     "success": {
-      "title": "تم إرسال طلب العرض بنجاح!",
-      "description": "سيراجع فريق الهندسة لدينا متطلباتك وسيرد خلال ٢٤-٤٨ ساعة."
+      "title": "تم إرسال طلب التسعير بنجاح!",
+      "description": "سيقوم فريق الهندسة لدينا بمراجعة متطلباتك والرد في غضون 24-48 ساعة."
     },
     "placeholders": {
-      "selectIndustry": "اختر الصناعة",
-      "selectProjectScale": "اختر نطاق المشروع",
-      "selectBudget": "اختر نطاق الميزانية (اختياري)",
-      "detailedRequirements": "يرجى تقديم مواصفات مفصلة تتضمن:\n- المتطلبات التقنية والمعايير\n- مواصفات المعدات والكميات\n- متطلبات الأداء\n- الظروف البيئية\n- متطلبات الامتثال\n- أي اعتبارات خاصة...",
+      "selectIndustry": "حدد الصناعة",
+      "selectProjectScale": "حدد حجم المشروع",
+      "selectBudget": "حدد النطاق المالي (اختياري)",
+      "detailedRequirements": "الرجاء تقديم مواصفات تفصيلية بما في ذلك:\n- المتطلبات والمعايير الفنية\n- مواصفات وكميات المعدات\n- متطلبات الأداء\n- الظروف البيئية\n- متطلبات الامتثال\n- أي اعتبارات خاصة...",
       "additionalRequirements": "أي متطلبات إضافية أو شروط خاصة أو أسئلة...",
-      "preferredBrands": "مثل سيمنز، آلن-برادلي، شنايدر..."
+      "preferredBrands": "على سبيل المثال، سيمنز، ألين-برادلي، شنايدر..."
     },
     "labels": {
       "industryType": "نوع الصناعة",
-      "projectScale": "نطاق المشروع",
+      "projectScale": "حجم المشروع",
       "approximateBudget": "الميزانية التقريبية",
-      "detailedRequirements": "المتطلبات المفصلة *",
-      "preferredBrands": "العلامات التجارية/المعايير المفضلة",
+      "detailedRequirements": "المتطلبات التفصيلية *",
+      "preferredBrands": "العلامات التجارية / المعايير المفضلة",
       "additionalRequirements": "متطلبات إضافية",
       "projectTitle": "عنوان المشروع *",
       "projectType": "نوع المشروع *",
@@ -141,136 +180,145 @@
       "phoneNumber": "رقم الهاتف *",
       "companyName": "اسم الشركة *",
       "projectInformation": "معلومات المشروع",
-      "budgetRange": "نطاق الميزانية"
+      "budgetRange": "النطاق المالي"
     },
-    "submitting": "جاري إرسال طلب العرض...",
-    "buttons": {
-      "getProfessionalQuote": "احصل على عرض مهني",
-      "submitRequest": "إرسال طلب العرض",
-      "callUrgent": "اتصل للمتطلبات العاجلة",
-      "emailRequirements": "إرسال المتطلبات بالبريد الإلكتروني"
+    "sections": {
+      "requiredServices": "الخدمات المطلوبة *",
+      "contactInfo": "معلومات الاتصال",
+      "technicalSpecifications": "المواصفات الفنية"
     },
+    "error": {
+      "title": "فشل إرسال طلب التسعير",
+      "description": "للمساعدة الفورية: {{phone}} أو البريد الإلكتروني: {{email}}"
+    },
+    "submitting": "إرسال طلب التسعير...",
     "industries": {
-      "manufacturing": "التصنيع",
+      "manufacturing": "تصنيع",
       "powerGeneration": "توليد الطاقة",
       "waterTreatment": "معالجة المياه",
-      "foodProcessing": "تصنيع الأغذية",
-      "pharmaceutical": "الأدوية",
-      "chemical": "الصناعات الكيميائية",
+      "foodProcessing": "معالجة الطعام",
+      "pharmaceutical": "صيدلاني",
+      "chemical": "كيميائي",
       "oilGas": "النفط والغاز",
-      "renewableEnergy": "الطاقة المتجددة",
-      "infrastructure": "البنية التحتية",
+      "renewableEnergy": "طاقة متجددة",
+      "infrastructure": "بنية تحتية",
       "other": "أخرى"
     },
     "projectScale": {
-      "small": "نطاق صغير (< ١٠ نقاط إدخال/إخراج)"
-      "medium": "نطاق متوسط (١٠-١٠٠ نقطة إدخال/إخراج)"
-      "large": "نطاق كبير (١٠٠-٥٠٠ نقطة إدخال/إخراج)"
-      "enterprise": "مؤسسة (٥٠٠+ نقطة إدخال/إخراج)"
+      "small": "نطاق صغير (أقل من 10 نقاط إدخال / إخراج)",
+      "medium": "نطاق متوسط (10-100 نقطة إدخال / إخراج)",
+      "large": "نطاق كبير (100-500 نقطة إدخال / إخراج)",
+      "enterprise": "مؤسسة (500+ نقطة إدخال / إخراج)"
+    },
+    "buttons": {
+      "getProfessionalQuote": "احصل على عرض أسعار احترافي",
+      "submitRequest": "إرسال طلب التسعير",
+      "callUrgent": "اتصل للاحتياجات العاجلة",
+      "emailRequirements": "متطلبات البريد الإلكتروني"
     },
     "process": {
-      "heading": "ما الذي يحدث بعد ذلك؟",
+      "heading": "ماذا يحدث بعد ذلك؟",
       "steps": {
-        "technicalReview": "مراجعة تقنية خلال ٢٤ ساعة"
-        "detailedProposal": "اقتراح مفصل مع المواصفات",
-        "costBreakdown": "تفصيل التكاليف والجدول الزمني",
-        "followUpCall": "مكالمة استشارة متابعة"
+        "technicalReview": "مراجعة فنية خلال 24 ساعة",
+        "detailedProposal": "اقتراح تفصيلي مع المواصفات",
+        "costBreakdown": "تفصيل التكلفة والجدول الزمني",
+        "followUpCall": "مكالمة استشارة للمتابعة"
       }
     },
     "assistance": {
-      "heading": "هل تحتاج مساعدة فورية؟",
-      "technicalTeam": "+٩١-٩٤٦٢٧-٧١٦٦٢ (الفريق التقني)"
+      "heading": "هل تحتاج إلى مساعدة فورية؟",
+      "technicalTeam": "+91-94627-71662 (الفريق الفني)",
       "email": "info@powertonengineering.com"
     }
   },
   "career": {
     "placeholders": {
       "fullName": "أدخل اسمك الكامل",
-      "email": "بريدك.الإلكتروني@مثال.com"
-      "phone": "+٩١ ٩٨٧٦٥٤٣٢١٠"
-      "address": "أدخل عنوانك الكامل (رقم المنزل/الشقة، الشارع، المدينة، الولاية، الرمز البريدي)",
+      "email": "your.email@example.com",
+      "phone": "+91 9876543210",
+      "address": "أدخل عنوانك كاملاً (رقم المنزل / الشقة ، الشارع ، المدينة ، الولاية ، الرمز البريدي)",
       "currentCompany": "شركتك الحالية (اختياري)",
-      "education": "مثال: بكالوريوس هندسة كهربائية",
-      "expectedSalary": "مثال: ٥-٨ لاخ سنوياً أو قابل للتفاوض"
-      "skills": "اذكر مهاراتك التقنية، معرفة البرمجيات، لغات البرمجة، الشهادات، إلخ",
-      "coverLetter": "أخبرنا عن دوافعك وأهدافك المهنية وكيف يمكنك المساهمة في فريقنا...",
-      "selectSpecialization": "اختر مجال خبرتك",
-      "selectExperience": "اختر مستوى الخبرة",
-      "selectAvailability": "اختر مدى توفرك"
+      "education": "على سبيل المثال ، بكالوريوس هندسة كهربائية",
+      "expectedSalary": "على سبيل المثال ، 5-8 LPA أو قابل للتفاوض",
+      "skills": "اذكر مهاراتك التقنية ومعرفتك بالبرامج ولغات البرمجة والشهادات وما إلى ذلك.",
+      "coverLetter": "أخبرنا عن دوافعك وأهدافك المهنية وكيف يمكنك المساهمة في فريقنا ...",
+      "selectSpecialization": "حدد مجال خبرتك",
+      "selectExperience": "حدد مستوى الخبرة",
+      "selectAvailability": "حدد مدى توفرك"
     },
     "labels": {
       "title": "انضم إلى فريق الهندسة لدينا",
-      "subtitle": "قدم طلبك وكن جزءاً من فريق الحلول الهندسية المبتكرة",
-      "personalInfo": "المعلومات الشخصية",
-      "professionalInfo": "المعلومات المهنية",
+      "subtitle": "أرسل طلبك وكن جزءًا من فريق حلول الهندسة المبتكرة لدينا",
+      "personalInfo": "معلومات شخصية",
+      "professionalInfo": "معلومات مهنية",
       "fullName": "الاسم الكامل",
       "emailAddress": "عنوان البريد الإلكتروني",
       "phoneNumber": "رقم الهاتف",
-      "residingAddress": "العنوان الحالي",
+      "residingAddress": "عنوان الإقامة الحالي",
       "specialization": "التخصص الهندسي",
       "experience": "مستوى الخبرة",
       "currentCompany": "الشركة الحالية",
-      "availability": "التوفر/فترة الإشعار",
-      "education": "التعليم/المؤهلات",
+      "availability": "التوفر / فترة الإشعار",
+      "education": "التعليم / المؤهل",
       "expectedSalary": "الراتب المتوقع",
-      "technicalSkills": "المهارات التقنية والخبرة",
-      "coverLetter": "خطاب التغطية والدافع",
-      "resume": "CV/Resume"
+      "technicalSkills": "المهارات والخبرات الفنية",
+      "coverLetter": "رسالة تعريفية والدافع",
+      "resume": "السيرة الذاتية / ملخص"
     },
     "buttons": {
-      "submit": "تقديم الطلب",
-      "submitting": "جاري تقديم الطلب...",
-      "uploadResume": "رفع السيرة الذاتية"
+      "submit": "إرسال الطلب",
+      "submitting": "إرسال الطلب...",
+      "uploadResume": "تحميل السيرة الذاتية"
     },
     "validation": {
-      "nameMin": "يجب أن يكون الاسم حرفين على الأقل",
-      "emailInvalid": "يرجى إدخال عنوان بريد إلكتروني صالح",
-      "phoneMin": "يجب أن يكون رقم الهاتف ١٠ أرقام على الأقل"
-      "specializationRequired": "يرجى اختيار تخصصك الهندسي",
-      "experienceRequired": "يرجى اختيار مستوى خبرتك",
-      "educationRequired": "يرجى تقديم تفاصيل تعليمك",
-      "joiningTimeRequired": "يرجى تحديد متى يمكنك البدء",
-      "skillsMin": "يرجى تقديم تفاصيل عن مهاراتك"
-      "coverLetterMin": "يرجى كتابة خطاب تغطية موجز (٢٠ حرفاً كحد أدنى)",
-      "addressMin": "يرجى تقديم عنوانك الكامل للإقامة"
+      "nameMin": "يجب أن يكون الاسم مكونًا من حرفين على الأقل",
+      "emailInvalid": "الرجاء إدخال عنوان بريد إلكتروني صالح",
+      "phoneMin": "يجب أن يتكون رقم الهاتف من 10 أرقام على الأقل",
+      "specializationRequired": "الرجاء تحديد تخصصك الهندسي",
+      "experienceRequired": "الرجاء تحديد مستوى خبرتك",
+      "educationRequired": "الرجاء تقديم تفاصيل التعليم الخاص بك",
+      "joiningTimeRequired": "الرجاء تحديد متى يمكنك الانضمام",
+      "skillsMin": "الرجاء تقديم تفاصيل حول مهاراتك",
+      "coverLetterMin": "الرجاء كتابة رسالة تعريفية موجزة (20 حرفًا كحد أدنى)",
+      "addressMin": "الرجاء تقديم عنوان إقامتك الكامل"
     },
     "specializations": {
-      "electricalEngineering": "الهندسة الكهربائية",
-      "automationControl": "أنظمة الأتمتة والتحكم",
+      "electricalEngineering": "هندسة كهربائية",
+      "automationControl": "الأتمتة وأنظمة التحكم",
       "instrumentation": "هندسة الأجهزة",
       "projectManagement": "إدارة المشاريع",
-      "technicalSales": "المبيعات التقنية",
-      "fieldService": "الخدمة الميدانية والتشغيل",
-      "designEngineering": "هندسة التصميم والتطوير",
+      "technicalSales": "المبيعات الفنية",
+      "fieldService": "الخدمة الميدانية والتكليف",
+      "designEngineering": "التصميم والتطوير",
       "solarRenewable": "الطاقة الشمسية والمتجددة",
       "other": "تخصص آخر"
     },
     "experience": {
-      "fresher": "مبتدئ (٠-١ سنة)"
-      "oneToThree": "١-٣ سنوات"
-      "threeToFive": "٣-٥ سنوات"
-      "fiveToEight": "٥-٨ سنوات"
-      "eightToTwelve": "٨-١٢ سنة"
-      "twelvePlus": "١٢+ سنة"
+      "fresher": "حديث التخرج (0-1 سنوات)",
+      "oneToThree": "1-3 سنوات",
+      "threeToFive": "3-5 سنوات",
+      "fiveToEight": "5-8 سنوات",
+      "eightToTwelve": "8-12 سنة",
+      "twelvePlus": "12+ سنة"
     },
     "joiningTime": {
-      "immediate": "يمكن البدء فوراً",
-      "fifteenDays": "١٥ يوماً فترة إشعار"
-      "oneMonth": "شهر واحد فترة إشعار",
-      "twoMonths": "شهران فترة إشعار",
-      "threeMonths": "٣ أشهر فترة إشعار"
-      "moreThanThree": "أكثر من ٣ أشهر فترة إشعار"
+      "immediate": "يمكن الانضمام على الفور",
+      "fifteenDays": "فترة إشعار مدتها 15 يومًا",
+      "oneMonth": "فترة إشعار مدتها شهر واحد",
+      "twoMonths": "فترة إشعار مدتها شهران",
+      "threeMonths": "فترة إشعار مدتها 3 أشهر",
+      "moreThanThree": "فترة إشعار أطول من 3 أشهر"
     },
     "helpers": {
-      "resumeFormat": "التنسيقات المقبولة: ملف بي دي إف، ملف وورد، ملف وورد متقدم (الحجم الأقصى: ٥ ميجابايت)"
+      "resumeFormat": "التنسيقات المقبولة: PDF, DOC, DOCX (الحد الأقصى للحجم: 5 ميجابايت)"
     },
     "success": {
       "title": "تم إرسال الطلب بنجاح!",
-      "description": "شكرا لتقديمك! سنراجع طلبك ونتصل بك في غضون ٢-٣ أيام عمل."
+      "description": "شكرا لك على تقديم طلبك! سنراجع طلبك ونتصل بك في غضون 2-3 أيام عمل."
     },
     "error": {
-      "title": "فشل تقديم الطلب",
-      "description": "يرجى المحاولة مرة أخرى أو الاتصال بنا مباشرة على {{phone}} أو {{email}}"
+      "title": "فشل إرسال الطلب",
+      "description": "الرجاء المحاولة مرة أخرى أو الاتصال بنا مباشرة على {{phone}} أو {{email}}"
     }
   }
 }

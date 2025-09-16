@@ -1,848 +1,979 @@
 {
   "news": {
     "hero": {
-      "title": "Labarai",
-      "titleHighlight": "Sabuntawa",
-      "subtitle": "Kasance a kan labarin sabuwar nasarorinmu, ayyukan da za mu yi, amincin masana'antu, da manufarmu ta dabaru don makomar sarrafa masana'antu.",
+      "title": "News",
+      "titleHighlight": "Updates",
+      "subtitle": "Stay informed about our latest achievements, upcoming projects, industry recognitions, and our strategic vision for the future of industrial automation.",
       "badges": {
-        "awardWinning": "Mai Karɓar Kyauta",
-        "growingStrong": "Girma Mai Ƙarfi",
-        "futureReady": "Shirye don Gobe"
+        "awardWinning": "Award Winning",
+        "growingStrong": "Growing Strong",
+        "futureReady": "Future Ready"
       }
     },
     "latestNews": {
       "excellenceAward": {
-        "title": "Powerton Engineering Ta Ci Kyautar Nagarta 2024",
-        "category": "Kyauta",
-        "excerpt": "An gane ta saboda kerari na musamman a cikin sarrafa masana'antu da maganganun injiniyan lantarki."
+        "title": "Powerton Engineering Receives 2024 Excellence Award",
+        "category": "Awards",
+        "excerpt": "Recognized for outstanding innovation in industrial automation and electrical engineering solutions."
       },
       "ntpcContract": {
-        "title": "Babban Kwangilar NTPC Da Aka Kama don Sarrafa Masana'antar Wutar Lantarki",
-        "category": "Kwangiloli",
-        "excerpt": "An ba da cikakkiyar kwangilar sarrafa don aikin sabunta masana'antar wutar lantarki ta 500MW."
+        "title": "Secures Major Contract with NTPC for Power Plant Automation",
+        "category": "Business",
+        "excerpt": "Awarded comprehensive automation contract for a 500MW thermal power plant modernization project."
       },
       "renewableExpansion": {
-        "title": "Faɗaɗa Maganganun Makamashin da za a Sabunta a Duk Indiya",
-        "category": "Faɗaɗa",
-        "excerpt": "Sabbin damar EPC na hasken rana da haɗin gwiwa don tallafawa canjin makamashin India da za a sabunta."
+        "title": "Expanding Renewable Energy Solutions in India",
+        "category": "Company",
+        "excerpt": "New solar EPC capabilities and partnerships supporting India's renewable energy transition."
+      },
+      "rdFacility": {
+        "title": "New State-of-the-Art R&D Facility Launched in Noida",
+        "category": "Infrastructure",
+        "excerpt": "Our new 5,000 sq ft R&D facility in Noida is now operational, equipped with the latest testing equipment and advanced automation labs for product development."
+      },
+      "europeanPartnership": {
+        "title": "Partnership Established with Leading European Automation Technology Provider",
+        "category": "Partnerships",
+        "excerpt": "We have formed a strategic partnership with a leading European automation technology provider to bring cutting-edge PLC and SCADA solutions to the Indian market."
+      },
+      "isoAchievement": {
+        "title": "ISO 9001:2015 Certification Achievement",
+        "category": "Quality",
+        "excerpt": "Powerton Engineering has successfully achieved ISO 9001:2015 certification, demonstrating our commitment to quality management systems and continuous improvement across all processes."
       }
+    },
+    "tabs": {
+      "latestNews": "Latest News",
+      "upcomingProjects": "Upcoming Projects",
+      "achievements": "Achievements",
+      "futureGoals": "Future Goals"
+    },
+    "sections": {
+      "featuredNews": "Featured News",
+      "allNews": "All News",
+      "allCategories": "All Categories",
+      "upcomingProjects": "Upcoming Projects"
     }
   },
   "home": {
+    "seo": {
+      "title": "Powerton Engineering - Industrial Automation & Control Panels | China",
+      "description": "Leading manufacturer of electrical control panels, industrial automation systems, and instrumentation solutions. Professional engineering services with 15+ years of experience, serving globally.",
+      "keywords": "electrical control panels, industrial automation, process automation, instrumentation, power control center, motor control center, electrical engineering, china, automation"
+    },
     "hero": {
       "title": {
-        "main": "Cikakkun Maganganun don",
-        "highlight": "Nasarar Masana'antu"
+        "main": "Comprehensive Solutions for",
+        "highlight": "Industrial Success"
       },
-      "subtitle": "Fayilolin mu na samfurori da ayyuka yana samar da cikakkun maganganun da ke haifar da nasarar masana'antu, yana tabbatar da cewa kowane bangare na bukatunku na injiniya an rufe shi.",
+      "subtitle": "Our extensive portfolio of products and services provides a full spectrum of solutions, driving industrial success and ensuring every aspect of your engineering needs is covered.",
       "buttons": {
-        "exploreServices": "Binciki Ayyukanmu",
-        "requestConsultation": "Buƙaci Shawarwari"
+        "exploreServices": "Explore Our Services",
+        "requestConsultation": "Request Consultation"
       },
       "features": {
-        "experience": "Gogewa Sama da Shekara 15",
-        "support": "Tallafin Fasaha 24/7",
-        "service": "Rarraba Sabis a Duk Duniya"
+        "experience": "15+ Years Experience",
+        "support": "24/7 Technical Support",
+        "service": "Global Service Coverage"
       },
       "stats": {
-        "yearsExperience": "Shekarun Gogewa",
-        "projectsCompleted": "Ayyukan da aka Kammala",
-        "happyClients": "Abokan Ciniki Masu Farin Ciki",
-        "supportAvailable": "Ana Samun Tallafi",
-        "heading": "Kididdigar Kamfani da Nasarori"
-      }
-    },
-    "services": {
-      "label": "Ayyukanmu",
-      "title": "Maganganun Ƙwararru don Duk Buƙatu, Da aka Gabatar tare da Kulawa na Musamman",
-      "description": "Daga sarrafa tsari zuwa kwangilodin kulawa, muna samar da cikakkun maganganun injiniya da aka keɓanta don biyan bukatunku na masana'antu."
-    },
-    "products": {
-      "label": "Samfuranmu",
-      "title": "Maganganun Kayan Aikin Sarrafa Masana'antu",
-      "description": "Cikakkun kewayon samfurori na lantarki da sarrafa da aka tsara don aminci, inganci, da babban aiki a muhallin masana'antu.",
-      "viewProducts": "Duba Samfurori",
-      "viewCatalog": "Duba Cikakken Kundin Samfurori"
-    },
-    "contact": {
-      "label": "Tuntuɓe Mu",
-      "title": "Bari Mu Tattauna Bukatun Injiniyar ku",
-      "description": "Shirye ku don fara aikinku na gaba? Tuntuɓi ƙungiyarmu ta ƙwararru don maganganun keɓaɓɓu da shawarwarin ƙwararru.",
-      "getInTouch": "Tuntuɓe Mu",
-      "methods": {
-        "phone": {
-          "title": "Waya",
-          "description": "Ana samunsa 24/7 don tallafin gaggawa"
-        },
-        "email": {
-          "title": "Imel",
-          "description": "Za mu amsa cikin sa'o'i 24"
-        },
-        "address": {
-          "title": "Adireshi",
-          "metro": "Metro Mafi Kusa"
-        }
+        "yearsExperience": "Years Experience",
+        "projectsCompleted": "Projects Completed",
+        "happyClients": "Happy Clients",
+        "supportAvailable": "Support Available",
+        "heading": "Company Statistics and Achievements"
       }
     },
     "about": {
-      "label": "Game da Mu",
-      "title": "Maraba zuwa Powerton Engineering Pvt. Ltd.",
-      "description": "Abokin huldarku mai aminci wajen ba da maganganun injiniya da ayyuka masu inganci. An kafa shi tare da hangen nesa na ƙarfafa masana'antu ta hanyar kirkire-kirkire da fifiko, mun ƙware wajen samar da cikakkun kewayon samfuran lantarki da kayan aiki.",
-      "visualHeading": "Injiniya na Ƙwararru",
-      "visualDescription": "Injiniyoyin Indiya masu ƙwarewa suna aiki akan tsarin sarrafa masana'antu da sarrafawa",
+      "label": "About Us",
+      "title": "Welcome to Powerton Engineering Pvt. Ltd.",
+      "description": "Your trusted partner in providing high-quality engineering solutions and services. Founded with a vision to empower industries through innovation and excellence, we specialize in delivering a comprehensive range of electrical and instrumentation products.",
+      "visualHeading": "Professional Engineering",
+      "visualDescription": "Professional Chinese engineers working on industrial automation and control systems",
       "features": {
         "electrical": {
-          "title": "Lantarki da Kayan Aiki",
-          "description": "Cikakkun kewayon tsarin sarrafawa"
+          "title": "Electrical & Instrumentation",
+          "description": "Complete range of control systems"
         },
         "mechanical": {
-          "title": "Famfunan Inji",
-          "description": "Maganganun famfo masu dorewa da kayan gyara"
+          "title": "Mechanical Pumps",
+          "description": "Durable pump solutions and spares"
         },
         "solar": {
-          "title": "Maganganun Hasken Rana",
-          "description": "Shigar da makamashi mai dorewa"
+          "title": "Solar Solutions",
+          "description": "Sustainable energy installations"
         },
         "tools": {
-          "title": "Kayan Aikin Masana'antu",
-          "description": "Kayan aiki na matsayin ƙwararru"
+          "title": "Industrial Tools",
+          "description": "Professional-grade equipment"
         }
       },
-      "button": "Koyi Ƙari Game da Mu"
+      "button": "Learn More About Us"
+    },
+    "services": {
+      "label": "Our Services",
+      "title": "Expert Solutions for All Needs, Delivered with Exceptional Care",
+      "description": "From process automation to maintenance contracts, we deliver comprehensive engineering solutions tailored to your industrial needs."
+    },
+    "products": {
+      "label": "Our Products",
+      "title": "Industrial Automation Equipment Solutions",
+      "description": "A comprehensive range of electrical and automation products designed for reliability, efficiency, and superior performance in industrial environments.",
+      "viewProducts": "View Products",
+      "viewCatalog": "View Full Product Catalog"
+    },
+    "contact": {
+      "label": "Contact Us",
+      "title": "Let's Discuss Your Engineering Needs",
+      "description": "Ready to start your next project? Contact our expert team for custom solutions and professional consultation.",
+      "hero": {
+        "title": "Contact Our Engineering Experts",
+        "subtitle": "Get expert support for your industrial automation and electrical engineering projects. Our experienced team is ready to help you succeed.",
+        "benefits": {
+          "consultation": "Free Expert Consultation",
+          "support": "24/7 Technical Support",
+          "experience": "15+ Years Experience"
+        }
+      },
+      "getInTouch": "Get In Touch",
+      "methods": {
+        "phone": {
+          "title": "Phone",
+          "description": "24/7 Emergency Support"
+        },
+        "email": {
+          "title": "Email",
+          "description": "We will respond within 24 hours"
+        },
+        "address": {
+          "title": "Address",
+          "metro": "Nearest Metro Station"
+        }
+      }
     },
     "clients": {
-      "label": "Abokan Cinikinmu",
-      "title": "Jagororin Alamomi da Ƙungiyoyi Sun Amince da Mu",
-      "description": "Mun haɗa hannu da jagororin masana'antu a fage daban-daban don samar da maganganun injiniya na musamman.",
-      "testimonialsTitle": "Abin da Abokan Cinikinmu Suke Faɗa"
+      "label": "Our Clients",
+      "title": "Trusted by Leading Brands and Organizations",
+      "description": "We partner with industry leaders across various sectors, delivering exceptional engineering solutions.",
+      "testimonialsTitle": "What Our Clients Say"
     },
     "projects": {
-      "label": "Ayyukanmu",
-      "title": "Maganganun Injiniya da aka Gabatar da Nasara",
-      "description": "Binciki fayilin ayyukan mu da aka kammala suna nuna gwanintarmu a sarrafa masana'antu da injiniyan lantarki.",
-      "keyFeatures": "Muhimman Abubuwa:",
-      "completed": "An Kammala",
-      "viewDetails": "Duba Cikakkun Bayanai",
-      "viewAllProjects": "Duba Duk Ayyukan",
-      "downloadPortfolio": "Sauke Fayilin Ayyuka"
-    },
+      "label": "Our Projects",
+      "title": "Successfully Delivered Engineering Solutions",
+      "featured": "Featured",
+      "description": "Explore our portfolio of completed projects, showcasing our expertise in industrial automation and electrical engineering.",
+      "keyFeatures": "Key Features:",
+      "completed": "Completed",
+      "viewDetails": "View Details",
+      "viewAllProjects": "View All Projects",
+      "downloadPortfolio": "Download Portfolio"
+    }
+  },
+  "backToProducts": "Back to Products",
+  "about": {
     "seo": {
-      "title": "Powerton Engineering - Sarrafa Masana'antu da Allunan Sarrafawa | Indiya",
-      "description": "Jagoran masana'anta na allunan sarrafawa na lantarki, tsarin sarrafa masana'antu, da maganganun kayan aiki. Ayyukan injiniya na ƙwararru a duniya tare da gogewa sama da shekara 15.",
-      "keywords": "allunan sarrafawa na lantarki, sarrafa masana'antu, sarrafa tsari, kayan aiki, cibiyar sarrafa wutar lantarki, cibiyar sarrafa injuna, injiniyan lantarki, Indiya, Noida"
+      "keywords": "About Powerton Engineering, Industrial Automation Company, Electrical Engineering Company, Instrumentation Services, China Automation Experts"
+    },
+    "hero": {
+      "title": "Engineering Excellence Since 2008",
+      "subtitle": "Your Trusted Partner in Industrial Automation and Electrical Engineering Solutions"
+    },
+    "story": {
+      "title": "Our Journey and Vision",
+      "description1": "Founded in 2008 with a vision to empower industries through innovation and excellence, Powerton Engineering has been at the forefront of industrial automation and electrical engineering solutions. Our journey began with a simple yet powerful mission: to deliver cutting-edge engineering solutions that drive industrial growth and operational efficiency.",
+      "description2": "Over the years, we have grown from a small engineering firm to a trusted partner for industries across China and globally. Our team of experienced engineers and technical experts work tirelessly to deliver solutions that not only meet but exceed our clients' expectations."
+    },
+    "mission": {
+      "title": "Our Mission",
+      "description": "To provide innovative, reliable, and sustainable engineering solutions that enable our clients to achieve operational excellence and drive industrial growth."
+    },
+    "vision": {
+      "title": "Our Vision",
+      "description": "To be the leading provider of industrial automation and electrical engineering solutions, recognized for our technical expertise, quality, and commitment to client success."
+    },
+    "coreValues": {
+      "title": "Our Core Values",
+      "subtitle": "Principles that guide everything we do"
+    },
+    "values": {
+      "quality": {
+        "title": "Quality Excellence",
+        "description": "We uphold the highest standards in every project we deliver"
+      },
+      "customer": {
+        "title": "Customer Focus",
+        "description": "Your success is our priority - we build lasting partnerships"
+      },
+      "innovation": {
+        "title": "Innovation",
+        "description": "Cutting-edge solutions using the latest industry technologies"
+      },
+      "reliability": {
+        "title": "Reliability",
+        "description": "Dependable solutions you can trust for critical operations"
+      }
+    },
+    "stats": {
+      "engineers": "Engineers",
+      "staff": "Support Staff",
+      "experience": "Years Experience",
+      "support": "Support"
+    },
+    "certifications": {
+      "title": "Certifications and Quality Standards",
+      "subtitle": "Our commitment to quality is validated through industry-recognized certifications and compliance standards.",
+      "iso9001": "ISO 9001:2015 Quality Management",
+      "iso14001": "ISO 14001:2015 Environmental Management",
+      "ohsas18001": "OHSAS 18001 Occupational Health and Safety",
+      "ceMarking": "CE Marking Compliance",
+      "ulListed": "UL Listed Products",
+      "cpriApproved": "CPRI Approved Equipment"
+    },
+    "cta": {
+      "title": "Ready to Start Your Project?",
+      "description": "Our expert team is ready to help you bring your industrial automation and electrical engineering projects to life.",
+      "startProject": "Start Your Project Today",
+      "exploreServices": "Explore Our Services"
+    }
+  },
+  "projects": {
+    "portfolioDescription": "Explore our engineering capabilities through demonstration projects showcasing innovative solutions across industries. A true project portfolio is coming soon.",
+    "featured": "Featured",
+    "moreItems": "+{{count}} More",
+    "cta": {
+      "title": "Ready to Start Your Next Project?",
+      "description": "Our experienced engineers can design custom solutions for your industrial automation and electrical engineering needs.",
+      "getProjectQuote": "Get Project Quote",
+      "contactTeam": "Contact Team"
+    },
+    "showing": "Showing {{count}} projects of {{total}}",
+    "items": {
+      "industrial-automation-demo": {
+        "title": "Demo: Industrial Automation Systems",
+        "client": "Future Manufacturing Client",
+        "description": "Demonstrates complete manufacturing automation capabilities, including PLC integration, SCADA systems, and real-time monitoring solutions.",
+        "location": "Project Site TBD",
+        "duration": "12-18 Months"
+      },
+      "power-distribution-demo": {
+        "title": "Example: Power Distribution Control",
+        "client": "Future Power Partner",
+        "description": "Example power distribution system showcasing automated load balancing and remote monitoring capabilities for power production facilities.",
+        "location": "Multiple Locations",
+        "duration": "10-15 Months"
+      },
+      "solar-plant-demo": {
+        "title": "Example: Solar Power Plant Control System",
+        "client": "Future Renewable Energy Client",
+        "description": "Demonstrates weather monitoring and grid synchronization capabilities of a solar tracking automation system suitable for renewable energy projects.",
+        "location": "Multiple Sites",
+        "duration": "6-10 Months"
+      },
+      "process-control-demo": {
+        "title": "Demo: Process Control Solutions",
+        "client": "Future Industrial Partner",
+        "description": "Demonstrates complete process automation capabilities, including safety systems, environmental monitoring, and batch control for industrial applications.",
+        "location": "Project Site TBD",
+        "duration": "Eight to Twelve Months"
+      },
+      "smart-factory-demo": {
+        "title": "Demo: Smart Factory Integration",
+        "client": "Current Development Client",
+        "description": "Ongoing smart factory integration demonstration showcasing IoT connectivity, predictive maintenance, and Industry 4.0 capabilities.",
+        "location": "Development Site",
+        "duration": "Fourteen Months"
+      }
+    },
+    "technologies": {
+      "mccpanels": "MCC Panels",
+      "protectionsystems": "Protection Systems",
+      "energymanagement": "Energy Management",
+      "remotemonitoring": "Remote Monitoring",
+      "solarinverters": "Solar Inverters",
+      "gridsync": "Grid Sync",
+      "weathermonitoring": "Weather Monitoring",
+      "dataanalytics": "Data Analytics",
+      "processcontrol": "Process Control",
+      "safetysystems": "Safety Systems",
+      "plcprogramming": "PLC Programming",
+      "scada": "SCADA Systems",
+      "hmi": "HMI",
+      "industrialiot": "Industrial IoT",
+      "environmentalmonitoring": "Environmental Monitoring",
+      "predictiveanalytics": "Predictive Analytics",
+      "edgecomputing": "Edge Computing"
+    },
+    "tabs": {
+      "portfolio": "Project Portfolio",
+      "showcase": "Featured Projects"
+    },
+    "hero": {
+      "title": "Our Projects",
+      "subtitle": "Explore our engineering excellence through 1200+ successful projects across various industries, showcasing innovation, quality, and reliability."
+    },
+    "statuses": {
+      "capabilitydemo": "Capability Demo",
+      "inprogress": "In Progress",
+      "completed": "Completed",
+      "planning": "Planning Phase",
+      "contractsigned": "Contract Signed",
+      "engineeringphase": "Engineering Phase"
+    },
+    "categories": {
+      "processautomation": "Process Automation",
+      "powersystems": "Power Systems",
+      "solarsolutions": "Solar Solutions",
+      "manufacturing": "Manufacturing",
+      "watertreatment": "Water Treatment",
+      "powerplant": "Power Plant"
+    },
+    "highlights": {
+      "plcintegration": "PLC Integration",
+      "scadasystems": "SCADA Systems",
+      "realtimemonitoring": "Real-time Monitoring",
+      "processoptimization": "Process Optimization",
+      "loadbalancing": "Load Balancing",
+      "remotecontrol": "Remote Control",
+      "gridconnection": "Grid Connection",
+      "performanceoptimization": "Performance Optimization",
+      "maintenanceplanning": "Maintenance Planning",
+      "qualitycontrol": "Quality Control",
+      "automatedoperations": "Automated Operations",
+      "remotemanagement": "Remote Management"
     }
   },
   "products": {
-    "badges": {
-      "handTools": "Kayan Aikin Hannu",
-      "powerTools": "Kayan Aikin Wutar Lantarki",
-      "liftingEquipment": "Kayan Ɗagawa",
-      "safetyGear": "Kayan Aminci",
-      "touchscreen": "Allon Taɓawa",
-      "industrialGrade": "Matsayin Masana'antu",
-      "realTimeDisplay": "Nunin Lokaci-Lokaci",
-      "multiProtocol": "Yawan Hanyoyin Sadarwa",
-      "heatingElements": "Abubuwan Dumama",
-      "industrialOvens": "Tandiru na Masana'antu",
-      "heatTracing": "Bin Zafi",
-      "temperatureControl": "Sarrafa Zafi",
-      "precisionTools": "Kayan Aikin Daidaici",
-      "durableConstruction": "Ginin Mai Dorewa",
-      "ergonomicDesign": "Ƙirar Dacewa da Jiki",
-      "professionalGrade": "Matsayin Ƙwararru"
+    "seo": {
+      "title": "Industrial Products and Automation Equipment - Powerton Engineering",
+      "description": "Comprehensive range of industrial automation products, electrical components, instrumentation, solar systems, pumps, and tools. Quality equipment for industrial applications."
     },
     "sections": {
-      "hmiSolutions": "Maganganun HMI",
-      "heatingSolutions": "Maganganun Dumama",
-      "handToolCategories": "Nau'o'in Kayan Aikin Hannu",
-      "diaphragmPumpTypes": "Nau'o'in Famfon Diaphragm",
-      "calibrationSolutions": "Maganganun Daidaitawa",
-      "industrialProducts": "Kayayyakin Masana'antu"
+      "industrialProducts": "Industrial Products Categories",
+      "hmiSolutions": "HMI Solutions",
+      "heatingSolutions": "Heating Solutions",
+      "handToolCategories": "Hand Tool Categories",
+      "diaphragmPumpTypes": "Diaphragm Pump Types",
+      "calibrationSolutions": "Calibration Solutions"
     },
     "cta": {
-      "needHmiSolutions": "Kuna Buƙatar Maganganun HMI?",
-      "hmiDescription": "Ƙwararrun mu na HMI na iya tsara mu'amalar mai amfani mai sauƙi don tsarin sarrafa ku na atomatik.",
-      "contactHmiExperts": "Tuntuɓi Ƙwararrun HMI",
-      "requestQuote": "Nemi Farashin",
-      "needHeatingolutions": "Kuna Buƙatar Maganganun Dumama na Masana'antu?",
-      "heatingDescription": "Ƙwararrun mu na dumama na iya tsara tsarin dumama na musamman don ayyukan masana'antar ku.",
-      "contactHeatingExperts": "Tuntuɓi Ƙwararrun Dumama",
-      "needDiaphragmPumps": "Kuna Buƙatar Maganganun Famfon Diaphragm?",
-      "diaphragmDescription": "Injiniyoyin famfo namu na iya taimaka muku zaɓar famfon diaphragm mai dacewa don bukatun sarrafa sinadarai.",
-      "contactPumpExperts": "Tuntuɓi Ƙwararrun Famfo",
-      "needCalibration": "Kuna Buƙatar Sabis na Daidaitawa?",
-      "calibrationDescription": "Ƙwararrun daidaitawa namu suna tabbatar da kayan aikin ku sun cika matsayi mafi girman daidaici.",
-      "contactCalibrationExperts": "Tuntuɓi Ƙwararrun Daidaitawa",
-      "needExpertSolutions": "Kuna Buƙatar Maganganun Ƙwararru?",
-      "expertDescription": "Ƙwararrun injiniya namu na iya taimaka muku nemo cikakkun maganganu don bukatun sarrafa masana'antar ku."
+      "needExpertSolutions": "Need Expert Industrial Solutions?",
+      "expertDescription": "Our technical experts are ready to assist you in selecting the perfect industrial products and engineering solutions for your automation and electrical needs.",
+      "needHmiSolutions": "Need HMI Solutions?",
+      "hmiDescription": "Our HMI experts can design intuitive operator interfaces for your automation systems.",
+      "contactHmiExperts": "Contact HMI Experts",
+      "requestQuote": "Request a Quote",
+      "needHeatingolutions": "Need Industrial Heating Solutions?",
+      "heatingDescription": "Our heating experts can design custom heating systems for your industrial processes.",
+      "contactHeatingExperts": "Contact Heating Experts",
+      "needDiaphragmPumps": "Need Diaphragm Pump Solutions?",
+      "diaphragmDescription": "Our pump engineers can help you select the right diaphragm pump for your chemical handling needs.",
+      "contactPumpExperts": "Contact Pump Experts",
+      "needCalibration": "Need Calibration Services?",
+      "calibrationDescription": "Our calibration experts ensure your instruments meet the highest standards of accuracy.",
+      "contactCalibrationExperts": "Contact Calibration Experts"
+    },
+    "badges": {
+      "handTools": "Hand Tools",
+      "powerTools": "Power Tools",
+      "liftingEquipment": "Lifting Equipment",
+      "safetyGear": "Safety Gear",
+      "touchscreen": "Touchscreen",
+      "industrialGrade": "Industrial Grade",
+      "realTimeDisplay": "Real-Time Display",
+      "multiProtocol": "Multi-Protocol",
+      "heatingElements": "Heating Elements",
+      "industrialOvens": "Industrial Ovens",
+      "heatTracing": "Heat Tracing",
+      "temperatureControl": "Temperature Control",
+      "precisionTools": "Precision Tools",
+      "durableConstruction": "Durable Construction",
+      "ergonomicDesign": "Ergonomic Design",
+      "professionalGrade": "Professional Grade"
     }
   },
   "services": {
     "seo": {
-      "title": "Sabis na Injiniya na Ƙwararru - Shigarwa, Kulawa da Sarrafa | Powerton Engineering",
-      "description": "Sabis na injiniya na musamman: shirye-shiryen PLC, tsarin SCADA, sarrafa masana'antu, shigar da paneli na lantarki, kulawa, daidaitawa, hanyoyin keɓancewa da sabis na EPC na hasken rana a duk faɗin Indiya."
+      "title": "Professional Engineering Services - Installation, Maintenance & Automation | Powerton Engineering",
+      "description": "Expert engineering services: PLC programming, SCADA systems, industrial automation, electrical panel installation, maintenance, calibration, custom solutions, and solar EPC services across China."
     },
     "hero": {
-      "title": "Sabis na Injiniya na Ƙwararru",
-      "subtitle": "Cikakkun hanyoyin magance na sarrafa masana'antu, injiniyan lantarki da na'urori da aka tsara don inganta ayyukanku da ci gaba na kasuwanci."
+      "title": "Professional Engineering Services",
+      "subtitle": "Comprehensive industrial automation, electrical engineering, and instrumentation solutions designed to optimize your operations and drive business success."
     },
     "whyChoose": {
-      "title": "Me yasa Za ku Zaɓi Powerton Engineering?"
+      "title": "Why Choose Powerton Engineering?"
     },
     "benefits": {
       "expertTeam": {
-        "title": "Ƙungiyar Ƙwararru",
-        "description": "Ƙwararrun ma'aikata masu takaddun shaida da gogewa mai yawa a fannin"
+        "title": "Expert Team",
+        "description": "Certified professionals with extensive industry experience"
       },
       "rapidResponse": {
-        "title": "Saurin Amsawa",
-        "description": "Matsakaicin lokacin amsawa awa 2 don duk bukatun tallafi"
+        "title": "Rapid Response",
+        "description": "Average 2-hour response time for all support requests"
       },
       "qualityAssured": {
-        "title": "Ingancin da Aka Tabbatar",
-        "description": "Tsarin ISO da aka amince da shi da tabbatattun ma'auni na inganci"
+        "title": "Quality Assured",
+        "description": "ISO-certified processes and guaranteed quality standards"
       },
       "clientFocused": {
-        "title": "Mayar da Hankali ga Abokin Ciniki",
-        "description": "Hanyoyin magance na musamman da aka tsara don bukatunku na musamman"
+        "title": "Client-Focused",
+        "description": "Solutions tailored to your specific requirements"
       }
     },
     "cta": {
-      "title": "Shirye ku don Farawa?",
-      "description": "Tuntuɓe mu a yau don tattauna bukatun aikinku da samun magani na musamman."
+      "title": "Ready to Get Started?",
+      "description": "Contact us today to discuss your project needs and receive a custom solution."
     }
   },
   "notFound": {
     "seo": {
-      "title": "Shafin Ba a Samu ba (404) - Powerton Engineering",
-      "description": "Shafin da kuke nemo babu. Koma shafin farko na Powerton Engineering ko bincika sabis da kayayyakinmu na sarrafa masana'antu."
+      "title": "Page Not Found (404) - Powerton Engineering",
+      "description": "The page you are looking for does not exist. Return to the Powerton Engineering homepage or explore our industrial automation services and products."
     },
     "title": "404",
-    "heading": "Shafin Ba a Samu ba",
-    "message": "Yi hakuri, shafin da kuke nemo babu. Wataƙila an motsa shi, an share shi ko kun shigar da URL mara daidai.",
+    "heading": "Page Not Found",
+    "message": "Sorry, the page you are looking for does not exist. It may have been moved, deleted, or an incorrect URL was entered.",
     "buttons": {
-      "homepage": "Koma Gida",
-      "support": "Tuntuɓi Taimako"
+      "homepage": "Back to Homepage",
+      "support": "Contact Support"
     },
-    "quickLinks": "Hanyoyin Sauri",
+    "quickLinks": "Quick Links",
     "links": {
-      "products": "Kayayyaki",
-      "services": "Sabis",
-      "projects": "Ayyuka",
-      "about": "Game da Mu"
-    }
-  },
-  "contact": {
-    "map": {
-      "title": "Wurin Ofishin Powerton Engineering"
-    },
-    "services": {
-      "onsite": {
-        "title": "Tallafi a Wurin",
-        "description": "Tallafin injiniya a filin aiki a wurinku"
-      },
-      "remote": {
-        "title": "Tallafi Daga Nesa",
-        "description": "Taimakon dijital da binciken tsari daga nesa"
-      },
-      "technical": {
-        "title": "Tallafin Fasaha",
-        "description": "Taimakon fasaha na ƙwararru don duk samfuranmu da ayyukanmu"
-      },
-      "customer": {
-        "title": "Nasarar Abokin Ciniki",
-        "description": "Tallafi na musamman don tabbatar da nasarar aikinku"
-      }
-    },
-    "sections": {
-      "visitOffice": "Ziyarci Ofishinmu",
-      "officeLocation": "Wurin Ofishi",
-      "supportServices": "Ayyukan Tallafi",
-      "businessHours": "Lokutan Kasuwanci da Samunwa",
-      "getDirections": "Sami Jagora"
-    },
-    "formSection": {
-      "title": "Babban Fom na Tuntuɓar",
-      "description": "Don tambayoyi na gabaɗaya, bayanan sabis, ko tambayoyin fasaha"
-    },
-    "businessHours": {
-      "regular": {
-        "title": "Lokutan Yau da Kullun",
-        "days": "Litinin - Asabar",
-        "time": "9:00 AM - 6:00 PM"
-      },
-      "emergency": {
-        "title": "Tallafin Gaggawa",
-        "availability": "Ana Samunsa 24/7",
-        "days": "Duk Ranaku"
-      },
-      "email": {
-        "title": "Amsawar Imel",
-        "time": "Cikin Sa'o'i 24",
-        "guarantee": "An Tabbata"
-      }
-    },
-    "emergency": {
-      "title": "Tallafin Gaggawa",
-      "description": "Rashin aiki na muhimmin tsari? Ƙungiyar mu ta gaggawa tana nan 24/7 don taimakawa rage lokacin rashin aiki.",
-      "hotline": "Layin Gaggawa"
-    },
-    "hero": {
-      "title": "Tuntuɓi Ƙwararrun Injiniyar Mu",
-      "subtitle": "Shirye ku don fara aikinku na gaba? Ƙungiyarmu ta ƙwararru a nan take don taimaka muku da maganganun injiniya na keɓantacce da shawarwari na ƙwararru.",
-      "benefits": {
-        "consultation": "Shawarwari Kyauta",
-        "support": "Tallafin Gaggawa 24/7",
-        "experience": "Gogewa Sama da Shekara 15"
-      }
-    },
-    "methods": {
-      "title": "Hanyoyi Masu Yawa Don Isa Gare Mu",
-      "subtitle": "Zaɓi hanyar sadarwar da ta fi dacewa da ku. Muna nan 24/7 don tallafin gaggawa."
-    },
-    "form": {
-      "title": "Aiko Mana da Saƙo",
-      "subtitle": "Tuntuɓe mu don tambayoyi na gabaɗaya, bayanan sabis, ko tambayoyin fasaha."
-    },
-    "contactMethods": {
-      "phone": {
-        "title": "Kira Mu Kai Tsaye",
-        "subtitle": "Ana samunmu 24/7 don tallafi",
-        "description": "Yi magana kai tsaye da ƙungiyarmu ta fasaha"
-      },
-      "email": {
-        "title": "Tallafin Imel",
-        "subtitle": "Amsa cikin sa'o'i 24",
-        "description": "Aiko mana cikakkun bukatun aiki"
-      },
-      "whatsapp": {
-        "title": "Tallafin WhatsApp",
-        "subtitle": "Hira mai saurin amsa",
-        "description": "Samun amsoshi nan take ga tambayoyinku"
-      },
-      "visit": {
-        "title": "Ziyarci Ofishinmu",
-        "subtitle": "Ta hanyar alƙawari kawai",
-        "description": "Tsara ziyara zuwa babban ofishinmu a Noida"
-      }
-    },
-    "office": {
-      "name": "Babban Ofishi na Kamfani",
-      "hours": "Lit-Asa: 9:00 AM - 6:00 PM"
-    },
-    "seo": {
-      "title": "Tuntuɓi Kamfanin Injiniyan Powerton - Sami Tallafin Injiniya na Ƙwararru",
-      "description": "Tuntuɓi ƙwararrun injiniyar mu don sarrafa masana'antu, tsarin lantarki, da tallafin fasaha. Kira +91-94627-71662 ko aiko imel zuwa info@powertonengineering.com",
-      "keywords": "tuntuɓi kamfanin injiniyan powerton, tallafin injiniya, tuntuɓar sarrafa masana'antu, taimakon injiniyan lantarki, tuntuɓar kamfanin injiniya noida"
-    }
-  },
-  "quote": {
-    "hero": {
-      "title": "Sami Farashin Injiniya mai Kyau",
-      "subtitle": "Ku haɗu da ƙungiyar mu ta ƙwararru don neman maganganun sarrafa da kayan aikin da aka keɓanta don bukatun masana'antunku.",
-      "benefits": {
-        "consultation": "Shawarwari Fasaha kyauta",
-        "response": "Lokacin Amsa Sa'o'i 24-48",
-        "estimates": "Ƙididdigar Farashi mai Cikakki",
-        "noCosts": "Babu Farashin da aka ɓoye"
-      }
-    },
-    "benefits": {
-      "assessment": {
-        "title": "Tantance mai Zurfi",
-        "description": "Cikakkun tantance aikin da ƙayyadaddun fasaha"
-      },
-      "response": {
-        "title": "Amsa mai Sauri",
-        "description": "Karɓi farashinku mai cikakki cikin sa'o'i 24-48"
-      },
-      "consultation": {
-        "title": "Shawarwar Ƙwararru",
-        "description": "Shawarwar fasaha kyauta tare da ƙungiyar injiniyanmu"
-      },
-      "solutions": {
-        "title": "Maganganun Keɓantawa",
-        "description": "Maganganun injiniya da aka keɓanta don takamaiman bukatunku"
-      }
-    },
-    "method": {
-      "title": "Zaɓi Hanyar Farashinku",
-      "description": "Zaɓi hanya mafi sauƙi don samun farashin aikinku. Zaɓuɓɓuka biyu suna ba da farashin gaba ɗaya da ƙayyadaddun fasaha.",
-      "calculator": "Na'urar Kirga mai Hankali",
-      "request": "Buƙatar Farashi"
-    },
-    "calculator": {
-      "title": "Lissafin Farashi na Zamani",
-      "description": "Muna kammala kayan aikin mu na lissafin farashi mai hankali. Wannan fasali zai samar da farashin nan take da kuma daidai don ayyukan sarrafawa ku.",
-      "launchingSoon": "Yana Zuwa Nan Gaba",
-      "useQuoteForm": "Don kwato nan take, da fatan za a yi amfani da cikakken fom din kwato namu",
-      "getQuoteNow": "Sami Kwato Yanzu",
-      "projectTitle": "Lissafin Farashin Aiki",
-      "stepOf": "Mataki na {{current}} cikin {{total}}"
-    },
-    "process": {
-      "title": "Tsarin Kwaton mu",
-      "description": "Daga bukata ta farko zuwa shawara mai cikakke, muna tabbatar da tsari mai santsi da kuma bayyana gaskiya.",
-      "submit": {
-        "title": "Aika Bukatar",
-        "description": "Cika cikakken fom din kwato namu ko kuma yi amfani da lissafin farashinmu"
-      },
-      "review": {
-        "title": "Bincike na Fasaha",
-        "description": "Gungun injiniyoyinmu suna nazarin bukatunku da kuma bayananku"
-      },
-      "assessment": {
-        "title": "Kimanta Wurin",
-        "description": "Ziyara ta wurin da ba dole ba don ayyuka masu wuyar gaske (idan ana bukata)"
-      },
-      "quote": {
-        "title": "Kwato Mai Cikakke",
-        "description": "Karbi farashin da ya kamata tare da jadawalin da kuma abubuwan da za a bayar"
-      }
-    },
-    "cta": {
-      "title": "Kuna Shirye don Farawa?",
-      "description": "Tuntuɓe mu yau don hanyar injiniya ta musamman. Gungunmu yana shirye don taimakawa wajen kawo aikinku cikin rayuwa."
-    },
-    "projectTypes": {
-      "processAutomation": "Sarrafa Aikin",
-      "powerControlSystems": "Tsarin Sarrafa Wutar Lantarki",
-      "instrumentationControl": "Kayan Aiki da Sarrafa",
-      "solarAutomation": "Sarrafa Hasken Rana",
-      "buildingAutomation": "Sarrafa Gine-gine",
-      "manufacturingAutomation": "Sarrafa Masanawa"
-    },
-    "industries": {
-      "manufacturing": "Masanawa",
-      "powerGeneration": "Samar da Wutar Lantarki",
-      "oilGas": "Mai da Gas",
-      "chemicalProcessing": "Sarrafa Sinadarai",
-      "waterTreatment": "Magani Ruwa",
-      "foodBeverage": "Abinci da Abubuwan Sha",
-      "pharmaceutical": "Magungunan",
-      "renewableEnergy": "Makamashin da ake Sabunta"
-    },
-    "projectSizes": {
-      "small": "Kanana (makin I/O 1-10)",
-      "medium": "Matsakaici (makin I/O 11-100)",
-      "large": "Babba (makin I/O 101-500)",
-      "enterprise": "Kamfani (makin I/O 500+)"
-    },
-    "timelines": {
-      "urgent": "Gaggawa (< watanni 3)",
-      "standard": "Daidaitacce (watanni 3-6)",
-      "extended": "Tsawaita (watanni 6-12)",
-      "longTerm": "Dogon Lokaci (watanni 12+)"
-    },
-    "requirements": {
-      "plcProgramming": "Shirye-shiryen PLC",
-      "scadaDevelopment": "Bunkasa SCADA",
-      "hmiDesign": "Tsarin HMI",
-      "networkIntegration": "Hada Cibiyar Sadarwa",
-      "safetySystems": "Tsarin Tsaro",
-      "remoteMonitoring": "Sa ido daga Nesa",
-      "dataAnalytics": "Bincike Bayanai",
-      "mobileApp": "Hanyar Amfani da Wayar Hannu"
-    },
-    "additionalFeatures": {
-      "redundancy": "Maimaita Tsarin",
-      "cybersecurity": "Tsaron Yanar Gizo mai Zurfi",
-      "iotIntegration": "Hada IoT",
-      "aiMl": "Binciken AI/ML",
-      "predictiveMaintenance": "Kula da Tsinkaya",
-      "energyManagement": "Sarrafa Makamashi",
-      "cloudIntegration": "Hada Gajimare",
-      "trainingSupport": "Horo da Tallafi mai Zurfi"
-    }
-  },
-  "backToProducts": "Koma zuwa Samfurori",
-  "about": {
-    "hero": {
-      "title": "Game da Powerton Engineering",
-      "subtitle": "Abokin huldarku mai aminci wajen ba da maganganun injiniya da ayyuka masu inganci tsawon sama da shekara 15."
-    },
-    "story": {
-      "title": "Tafiyarmu da Hangen Nesa",
-      "description1": "An kafa shi tare da hangen nesa na ƙarfafa masana'antu ta hanyar kirkire-kirkire da fifiko, Powerton Engineering ta yi girma ta zama jagoran samar da maganganun lantarki da kayan aiki a duk duniya.",
-      "description2": "Daga babban ofishinmu a Noida, muna bauta abokan ciniki a duk ƙasar tare da cikakkun maganganun injiniya da suka haɗa da sarrafa tsari, kayan aiki, shigar da hasken rana, da ayyukan kulawa."
-    },
-    "values": {
-      "quality": {
-        "title": "Fifikon Inganci",
-        "description": "Mun ɗaure kanmu don samar da samfurori da ayyuka mafi girman inganci waɗanda suka zarce ma'aunin masana'antu."
-      },
-      "customer": {
-        "title": "Mayar da Hankali ga Abokin Ciniki",
-        "description": "Abokan cinikinmu suna cikin zuciyar duk abin da muke yi. Muna aiki tare don fahimta da zarce tsammaninsu."
-      },
-      "innovation": {
-        "title": "Kirkire-kirkiren Fasaha",
-        "description": "Muna ci gaba da saka hannun jari a sabbin fasahohi da maganganun kirkire-kirkire don kasancewa gaba a yanayin masana'antu."
-      },
-      "reliability": {
-        "title": "Dogara",
-        "description": "Bayyanannun lambobin mu na isarwa a daidai lokaci da sabis mai dogara ya sa mu zama abokin hulda mai aminci."
-      }
-    },
-    "stats": {
-      "engineers": "Ƙwararrun Injiniyoyi",
-      "staff": "Ma'aikatan Fasaha",
-      "experience": "Matsakaicin Shekarun Gogewa",
-      "support": "Rufewar Tallafi"
-    }
-  },
-  "projects": {
-    "tabs": {
-      "portfolio": "Fayilin Ayyuka",
-      "showcase": "Manyan Ayyuka"
-    },
-    "hero": {
-      "title": "Ayyukanmu",
-      "subtitle": "Gano kyawun aikinmu ta hanyar sama da ayyuka 1200 da suka yi nasara a masana'antu daban-daban, suna nuna kirkire-kirkire, inganci da aminci."
-    },
-    "showing": "Ana nuna",
-    "technologies": {
-      "plcprogramming": "Shirye-shiryen PLC",
-      "scada": "Tsarin SCADA",
-      "hmi": "Mu'amalar Mutum da Injin",
-      "industrialiot": "IoT na Masana'antu",
-      "environmentalmonitoring": "Sa ido kan Muhalli",
-      "predictiveanalytics": "Nazarin Hasashe",
-      "edgecomputing": "Kwamfuta na Gefe",
-      "mccpanels": "Allunan MCC",
-      "protectionsystems": "Tsarin Kariya",
-      "energymanagement": "Gudanar da Makamashi",
-      "remotemonitoring": "Sa ido daga Nesa"
-    },
-    "statuses": {
-      "capabilitydemo": "Nunin Iya",
-      "inprogress": "Ana ci gaba",
-      "completed": "An kammala",
-      "planning": "Matakin Tsarawa",
-      "contractsigned": "An rattaba hannu kan Kwangila",
-      "engineeringphase": "Matakin Injiniya"
-    },
-    "categories": {
-      "processautomation": "Sarrafa Ayyuka ta Atomatik",
-      "powersystems": "Tsarin Wutar Lantarki",
-      "solarsolutions": "Hanyoyin Hasken Rana",
-      "manufacturing": "Masana'anta",
-      "watertreatment": "Maganin Ruwa",
-      "powerplant": "Masana'antar Wutar Lantarki"
-    },
-    "highlights": {
-      "plcintegration": "Hade da PLC",
-      "scadasystems": "Tsarin SCADA",
-      "realtimemonitoring": "Sa ido na Yanzu",
-      "processoptimization": "Inganta Ayyuka",
-      "loadbalancing": "Daidaita Nauyi",
-      "remotecontrol": "Sarrafawa ta Nesa",
-      "gridconnection": "Haɗa Grid",
-      "performanceoptimization": "Inganta Aiki",
-      "maintenanceplanning": "Tsarin Kulawa",
-      "qualitycontrol": "Sarrafa Inganci",
-      "automatedoperations": "Ayyuka ta Atomatik",
-      "remotemanagement": "Gudanarwa ta Nesa"
+      "products": "Products",
+      "services": "Services",
+      "projects": "Projects",
+      "about": "About Us"
     }
   },
   "portfolioDownload": {
     "seo": {
-      "title": "Sauke Fayilin Ayyuka - Kamfanin Injiniyan Powerton",
-      "description": "Sauke cikakkun takardun fayilin ayyuka da ke nuna ayyukan sarrafa masana'antu, iyawa, da nasarori na Kamfanin Injiniyan Powerton."
+      "title": "Download Portfolio - Powerton Engineering",
+      "description": "Download a comprehensive portfolio document showcasing Powerton Engineering's industrial automation projects, capabilities, and achievements."
     },
-    "title": "Sauke Fayilin Ayyuka",
-    "subtitle": "Samun cikakkun takardun ayyukan sarrafa masana'antunmu, iyawa, da kyawun injiniya. Sauke cikakkun fayiloli don koyi ƙari game da aikinmu.",
+    "title": "Portfolio Download",
+    "subtitle": "Access our comprehensive documentation of industrial automation projects, capabilities, and engineering excellence. Download detailed portfolios to learn more about our work.",
     "features": {
       "projects": {
-        "title": "Ayyuka Sama da 1200",
-        "description": "Ayyukan da aka kammala da nasara a masana'antu daban-daban"
+        "title": "1200+ Projects",
+        "description": "Successfully completed projects across various industries"
       },
       "documentation": {
-        "title": "Takardun da suke da Inganci",
-        "description": "Fayil na ƙwararru tare da cikakkun hotunan ayyuka"
+        "title": "High-Quality Documentation",
+        "description": "Professional portfolio with detailed project imagery"
       },
       "results": {
-        "title": "Sakamakon da aka Tabbatar",
-        "description": "Ayyuka na gaske tare da sakamako da za a iya aunawa da shaidar abokan ciniki"
+        "title": "Verified Results",
+        "description": "Real projects with measurable outcomes and client testimonials"
       }
     },
     "items": {
       "complete": {
-        "title": "Cikakken Fayilin Kamfani",
-        "description": "Cikakken fayili da ke nuna duk ayyukan sarrafa masana'antunmu, iyawa, da nasarori."
+        "title": "Complete Company Portfolio",
+        "description": "A comprehensive portfolio showcasing all our industrial automation projects, capabilities, and achievements."
       },
       "automation": {
-        "title": "Ayyukan Sarrafa Masana'antu",
-        "description": "Tarin da ke mayar da hankali kan aiwatar da tsarin sarrafa da sarrafawa a masana'antu daban-daban."
+        "title": "Industrial Automation Projects",
+        "description": "A focused collection of our automation and control systems implementations across various industries."
       },
       "electrical": {
-        "title": "Tsarin Wutar Lantarki da Lantarki",
-        "description": "Takardun rarraba wutar lantarki, allunan sarrafa lantarki, da ayyukan gudanar da makamashi."
+        "title": "Power Systems and Electrical",
+        "description": "Documentation of power distribution, electrical control panels, and energy management projects."
       },
       "caseStudies": {
-        "title": "Nazarin Ayyuka",
-        "description": "Cikakkun nazarin ayyukan mafi kyawun aiwatar da sarrafa masana'antunmu da hasashen fasaha."
+        "title": "Project Case Studies",
+        "description": "Detailed case studies of our most successful industrial automation implementations, with technical insights."
       }
     },
     "categories": {
-      "allProjects": "Duk Ayyuka",
-      "companyOverview": "Bayyaninan Kamfani",
-      "certifications": "Takaddun Shaida",
-      "clientTestimonials": "Shaidun Abokan Ciniki",
-      "processAutomation": "Sarrafa Ayyuka",
-      "controlSystems": "Tsarin Sarrafawa",
+      "allProjects": "All Projects",
+      "companyOverview": "Company Overview",
+      "certifications": "Certifications",
+      "clientTestimonials": "Client Testimonials",
+      "processAutomation": "Process Automation",
+      "controlSystems": "Control Systems",
       "scada": "SCADA",
-      "plcProgramming": "Shirye-shiryen PLC",
-      "powerDistribution": "Rarraba Wutar Lantarki",
-      "controlPanels": "Allunan Sarrafawa",
-      "motorControlCenters": "Cibiyoyin Sarrafa Injuna",
-      "energyManagement": "Gudanar da Makamashi",
-      "caseStudies": "Nazarin Ayyuka",
-      "technicalSolutions": "Maganganun Fasaha",
-      "roiAnalysis": "Nazarin Ribar Saka Hannun Jari",
-      "implementationStrategies": "Dabarun Aiwatarwa"
+      "plcProgramming": "PLC Programming",
+      "powerDistribution": "Power Distribution",
+      "controlPanels": "Control Panels",
+      "motorControlCenters": "Motor Control Centers",
+      "energyManagement": "Energy Management",
+      "caseStudies": "Case Studies",
+      "technicalSolutions": "Technical Solutions",
+      "roiAnalysis": "ROI Analysis",
+      "implementationStrategies": "Implementation Strategies"
     },
-    "pages": "shafuka",
-    "includes": "Ya ƙunshi",
-    "requestDownload": "Buƙaci Sauke",
+    "pages": "Pages",
+    "includes": "Includes",
+    "requestDownload": "Request Download",
     "custom": {
-      "title": "Kuna Buƙatar Fayil na Musamman?",
-      "description": "Kuna neman bayanan aikin musamman ko fayilin ayyuka na musamman don masana'antarku? Tuntuɓe ƙungiyarmu don samun takardun da aka keɓanta."
+      "title": "Need a Custom Portfolio?",
+      "description": "Looking for specific project information or a portfolio tailored to your industry? Contact our team for a customized document."
     },
     "disclaimer": {
-      "note": "Lura",
-      "text": "Ana ba da takardun fayilin ayyuka don dalilai na bayani ne kawai. Don bayanan da suka fi sabunta da cikakkun bayanan aiki, da fatan za a tuntuɓi ƙungiyarmu kai tsaye. Wasu bayanan ayyuka na iya zama sirri kuma ana samun su ne kawai ƙarƙashin NDA."
+      "note": "Note",
+      "text": "The portfolio documentation is provided for informational purposes only. For the most current information and specific project details, please contact our team directly. Certain project details may be confidential and are provided under NDA only."
     },
     "alert": {
-      "downloading": "Ana Sauke",
-      "contactMessage": "Don samun damar zuwa takardun fayilin ayyukanmu, da fatan za a tuntuɓe mu kai tsaye a info@powertonengineering.com ko kira +91-94627-71662."
+      "downloading": "Downloading",
+      "contactMessage": "To access our portfolio documentation, please contact us directly at info@powertonengineering.com or call +86-138-0000-0000."
+    }
+  },
+  "quote": {
+    "hero": {
+      "title": "Get a Professional Engineering Quote",
+      "subtitle": "Contact our expert team for tailored automation and instrumentation solutions for your industrial needs.",
+      "benefits": {
+        "consultation": "Free Technical Consultation",
+        "response": "24-48 Hour Response Time",
+        "estimates": "Detailed Cost Estimates",
+        "noCosts": "No Hidden Costs"
+      }
+    },
+    "benefits": {
+      "assessment": {
+        "title": "Detailed Assessment",
+        "description": "Comprehensive project evaluation and technical specifications"
+      },
+      "response": {
+        "title": "Rapid Response",
+        "description": "Receive your detailed quote within 24-48 hours"
+      },
+      "consultation": {
+        "title": "Expert Consultation",
+        "description": "Free technical consultation with our engineering team"
+      },
+      "solutions": {
+        "title": "Custom Solutions",
+        "description": "Tailored engineering solutions for your specific needs"
+      }
+    },
+    "method": {
+      "title": "Choose Your Quote Method",
+      "description": "Select the most convenient way to get a project quote. Both options provide comprehensive pricing and technical specifications.",
+      "calculator": "Smart Calculator",
+      "request": "Quote Request"
+    },
+    "calculator": {
+      "title": "Advanced Cost Calculator",
+      "description": "We're refining our smart cost estimation tool. This feature will provide instant, accurate pricing for your automation projects.",
+      "launchingSoon": "Launching Soon",
+      "useQuoteForm": "For an immediate quote, please use our detailed quote form",
+      "getQuoteNow": "Get Quote Now",
+      "projectTitle": "Project Cost Calculator",
+      "stepOf": "Step {{current}} of {{total}}"
+    },
+    "process": {
+      "title": "Our Quote Process",
+      "description": "From initial request to detailed proposal, we ensure a smooth and transparent process.",
+      "submit": {
+        "title": "Submit Request",
+        "description": "Fill out our comprehensive quote form or use our cost calculator"
+      },
+      "review": {
+        "title": "Technical Review",
+        "description": "Our engineering team analyzes your requirements and specifications"
+      },
+      "assessment": {
+        "title": "On-Site Assessment",
+        "description": "Optional on-site visit for complex projects, if required"
+      },
+      "quote": {
+        "title": "Detailed Quote",
+        "description": "Receive comprehensive pricing with timelines and deliverables"
+      }
+    },
+    "cta": {
+      "title": "Ready to Get Started?",
+      "description": "Contact us today to get your custom engineering solutions. Our team is ready to help you bring your project to life."
+    },
+    "projectTypes": {
+      "processAutomation": "Process Automation",
+      "powerControlSystems": "Power Control Systems",
+      "instrumentationControl": "Instrumentation & Control",
+      "solarAutomation": "Solar Automation",
+      "buildingAutomation": "Building Automation",
+      "manufacturingAutomation": "Manufacturing Automation"
+    },
+    "industries": {
+      "manufacturing": "Manufacturing",
+      "powerGeneration": "Power Generation",
+      "oilGas": "Oil & Gas",
+      "chemicalProcessing": "Chemical Processing",
+      "waterTreatment": "Water Treatment",
+      "foodBeverage": "Food & Beverage",
+      "pharmaceutical": "Pharmaceutical",
+      "renewableEnergy": "Renewable Energy"
+    },
+    "projectSizes": {
+      "small": "Small (1-10 I/O Points)",
+      "medium": "Medium (11-100 I/O Points)",
+      "large": "Large (101-500 I/O Points)",
+      "enterprise": "Enterprise (500+ I/O Points)"
+    },
+    "timelines": {
+      "urgent": "Urgent (< 3 Months)",
+      "standard": "Standard (3-6 Months)",
+      "extended": "Extended (6-12 Months)",
+      "longTerm": "Long Term (12+ Months)"
+    },
+    "requirements": {
+      "plcProgramming": "PLC Programming",
+      "scadaDevelopment": "SCADA Development",
+      "hmiDesign": "HMI Design",
+      "networkIntegration": "Network Integration",
+      "safetySystems": "Safety Systems",
+      "remoteMonitoring": "Remote Monitoring",
+      "dataAnalytics": "Data Analytics",
+      "mobileApp": "Mobile App Interface"
+    },
+    "additionalFeatures": {
+      "redundancy": "System Redundancy",
+      "cybersecurity": "Advanced Cybersecurity",
+      "iotIntegration": "IoT Integration",
+      "aiMl": "AI/ML Analytics",
+      "predictiveMaintenance": "Predictive Maintenance",
+      "energyManagement": "Energy Management",
+      "cloudIntegration": "Cloud Integration",
+      "trainingSupport": "Training and Extended Support"
     }
   },
   "gallery": {
     "hero": {
-      "title": "Gidan Hotunanmu",
-      "subtitle": "Gano tafiyarmu ta hanyar hotuna - daga ƙungiyarmu mai himma da kayan aikin zamani zuwa ayyukan da suka yi nasara da cikakkun kewayon samfurori."
+      "title": "Our Gallery",
+      "subtitle": "Discover our journey through images - from our dedicated team and modern facilities to successful projects and comprehensive product range."
     },
     "tabs": {
-      "company": "Kamfani da Ƙungiya",
-      "projects": "Ayyuka",
-      "products": "Samfurori"
+      "company": "Company Team",
+      "projects": "Projects",
+      "products": "Products"
     },
     "company": {
       "images": {
         "modernFacility": {
-          "title": "Ginin Injiniya na Zamani",
-          "description": "Gininmu na zamani a Noida mai kayan gwaji na sabbo"
+          "title": "Modern Engineering Facility",
+          "description": "Our state-of-the-art facility in Noida, equipped with the latest testing equipment"
         },
         "expertTeam": {
-          "title": "Ƙungiyar Injiniyoyi Ƙwararru",
-          "description": "Injiniyoyinmu masu ƙwarewa suna aiki akan maganganun sarrafa masana'antu"
+          "title": "Expert Engineering Team",
+          "description": "Our highly skilled engineers dedicated to industrial automation solutions"
         },
         "qualityLab": {
-          "title": "Dakin Gwaji na Sarrafa Inganci",
-          "description": "Babban dakin gwaji da ke tabbatar da ingancin samfurori da aminci"
+          "title": "Quality Control Lab",
+          "description": "Advanced testing laboratory ensuring product quality and reliability"
         },
         "trainingCenter": {
-          "title": "Cibiyar Horo da Ci Gaba",
-          "description": "Ci gaban ƙwarewa da ba ya tsayawa don ƙungiyarmu ta fasaha"
+          "title": "Training and Development Center",
+          "description": "Continuous skill development for our technical team"
         },
         "supportCenter": {
-          "title": "Cibiyar Tallafin Abokan Ciniki",
-          "description": "Tallafin abokan ciniki da taimakon fasaha 24/7"
+          "title": "Customer Support Center",
+          "description": "Professional 24/7 customer support and technical assistance"
         },
         "rdWing": {
-          "title": "Reshe na Bincike da Ci Gaba",
-          "description": "Cibiyar kirkire-kirkire don haɓaka maganganun sarrafa na zamani"
+          "title": "R&D Department",
+          "description": "Innovation hub developing cutting-edge automation solutions"
         }
       },
       "categories": {
-        "facility": "Gini",
-        "team": "Ƙungiya",
-        "training": "Horo",
-        "support": "Tallafi",
-        "rd": "Bincike da Ci Gaba"
+        "facility": "Facility",
+        "team": "Team",
+        "training": "Training",
+        "support": "Support",
+        "rd": "R&D"
+      }
+    },
+    "sections": {
+      "company": {
+        "title": "Our Company & Team",
+        "description": "Meet our dedicated team and explore our advanced facilities that enable us to deliver excellence in every project."
+      },
+      "projects": {
+        "title": "Our Completed Projects",
+        "description": "Explore our successful project implementations across various industries, showcasing our expertise and commitment to quality."
+      },
+      "products": {
+        "title": "Our Products & Solutions",
+        "description": "Discover our comprehensive range of industrial products and solutions from leading global manufacturers."
       }
     },
     "projects": {
       "images": {
         "controlPanel": {
-          "title": "Shigar da Allon Sarrafa Masana'antu",
-          "description": "Cikakkun tsarin sarrafa na atomatik don masana'antar masanawa",
-          "client": "Masana'antar Masanawa"
+          "title": "Industrial Control Panel Installation",
+          "description": "Complete automation system implementation for manufacturing plant",
+          "client": "Manufacturing Industry"
         },
         "solarPlant": {
-          "title": "Masana'antar Wutar Lantarki ta Hasken Rana - 1MW",
-          "description": "Shigar da hasken rana da ke haɗe da grid tare da tsarin sa ido",
-          "client": "Hadiɗin Masana'antu"
+          "title": "Solar Power Plant - 1MW",
+          "description": "Grid-tied solar installation with monitoring systems",
+          "client": "Industrial Complex"
         },
         "scadaSystem": {
-          "title": "Aiwatar da Tsarin SCADA",
-          "description": "Tsarin sa ido da sarrafa na tsakiya don masana'antar maganin ruwa",
-          "client": "Hukumar Ruwa"
+          "title": "SCADA System Implementation",
+          "description": "Centralized monitoring and control system for water treatment plant",
+          "client": "Water Authority"
         },
         "instrumentation": {
-          "title": "Sabunta Kayan Aikin Tsari",
-          "description": "Cikakkun gyare-gyaren kayan aiki don sashen sarrafa sinadarai",
-          "client": "Masana'antar Sinadarai"
+          "title": "Process Instrumentation Upgrade",
+          "description": "Complete instrumentation overhaul for chemical processing unit",
+          "client": "Chemical Industry"
         },
         "plcProgramming": {
-          "title": "Shirye-shiryen PLC da Haɗewar",
-          "description": "Ci gaban tsarin PLC don sarrafa layin samarwa",
-          "client": "Sashen Kera Motoci"
+          "title": "PLC Programming & Integration",
+          "description": "Advanced PLC systems for production line automation",
+          "client": "Automotive Sector"
         },
         "electricalPanel": {
-          "title": "Sabunta Allon Lantarki",
-          "description": "Aikin bin aminci da inganta aiki",
-          "client": "Sashen Masanawa"
+          "title": "Electrical Panel Modernization",
+          "description": "Safety compliance and efficiency improvement project",
+          "client": "Manufacturing Unit"
         }
       },
       "categories": {
-        "automation": "Sarrafa",
-        "solarEpc": "EPC na Hasken Rana",
+        "automation": "Automation",
+        "solarEpc": "Solar EPC",
         "scada": "SCADA",
-        "instrumentation": "Kayan Aiki",
-        "plcProgramming": "Shirye-shiryen PLC",
-        "electrical": "Lantarki"
+        "instrumentation": "Instrumentation",
+        "plcProgramming": "PLC Programming",
+        "electrical": "Electrical"
       }
     },
     "products": {
       "images": {
         "controlSystems": {
-          "title": "Ci Gaban Tsarin Sarrafawa",
-          "description": "Maganganun sarrafa da sarrafawa na zamani"
+          "title": "Advanced Control Systems",
+          "description": "State-of-the-art automation and control solutions"
         },
         "electricalPanels": {
-          "title": "Allunan Sarrafa Lantarki",
-          "description": "Allunan da aka ƙera musamman don amfani da masana'antu"
+          "title": "Electrical Control Panels",
+          "description": "Custom-designed panels for industrial applications"
         },
         "instrumentation": {
-          "title": "Kayan Aiki mai Daidaici",
-          "description": "Kayan aunawa da sarrafa mai inganci"
+          "title": "Precision Instrumentation",
+          "description": "High-quality measurement and control instruments"
         },
         "pumps": {
-          "title": "Famfunan Masana'antu da Injuna",
-          "description": "Maganganun famfo masu aminci don amfani daban-daban"
+          "title": "Industrial Pumps & Motors",
+          "description": "Reliable pump solutions for various applications"
         },
         "solarProducts": {
-          "title": "Maganganun Wutar Lantarki ta Hasken Rana",
-          "description": "Cikakkun tsarin makamashi na hasken rana da kayan haɗawa"
+          "title": "Solar Power Solutions",
+          "description": "Complete solar energy systems and components"
         },
         "safetyEquipment": {
-          "title": "Aminci da Kariya",
-          "description": "Kayan aminci na masana'antu da na'urori masu kariya"
+          "title": "Safety & Protection",
+          "description": "Industrial safety equipment and protective devices"
         }
       },
       "categories": {
-        "controlSystems": "Tsarin Sarrafawa",
-        "electricalPanels": "Allunan Lantarki",
-        "instrumentation": "Kayan Aiki",
-        "pumps": "Famfuna da Injuna",
-        "solar": "Samfuran Hasken Rana",
-        "safety": "Kayan Aminci"
+        "controlSystems": "Control Systems",
+        "electricalPanels": "Electrical Panels",
+        "instrumentation": "Instrumentation",
+        "pumps": "Pumps & Motors",
+        "solar": "Solar Products",
+        "safety": "Safety Equipment"
       }
     },
     "ui": {
-      "viewLarger": "Duba Babba",
-      "downloadImage": "Sauke Hoto",
-      "requestDownload": "Buƙaci Sauke",
-      "needCustomPortfolio": "Kuna Buƙatar Fayil na Musamman?",
-      "contactUs": "Tuntuɓe mu don samun fayilin ayyuka na musamman da ke nuna ayyukanmu masu dacewa da masana'antar ku.",
-      "imageNotFound": "Ba a sami hoto ba",
-      "noImagesFound": "Ba a sami hotuna ba don wannan nau'i",
-      "allCategories": "Duk Nau'o'i",
-      "year": "Shekara",
-      "location": "Wuri",
-      "client": "Abokin Ciniki",
-      "category": "Nau'i"
+      "viewLarger": "View Larger",
+      "downloadImage": "Download Image",
+      "requestDownload": "Request Download",
+      "needCustomPortfolio": "Need Custom Portfolio?",
+      "contactUs": "Contact us for a personalized project portfolio showcasing our work relevant to your industry.",
+      "imageNotFound": "Image not found",
+      "noImagesFound": "No images found for this category",
+      "allCategories": "All Categories",
+      "year": "Year",
+      "location": "Location",
+      "client": "Client",
+      "category": "Category"
+    }
+  },
+  "contact": {
+    "hero": {
+      "title": "Contact Our Engineering Experts",
+      "subtitle": "Get expert support for your industrial automation and electrical engineering projects. Our experienced team is ready to help you succeed.",
+      "benefits": {
+        "consultation": "Free Expert Consultation",
+        "support": "24/7 Technical Support",
+        "experience": "15+ Years Experience"
+      }
+    },
+    "methods": {
+      "title": "Multiple Ways to Reach Us",
+      "subtitle": "Choose the communication method that works best for you. We're available 24/7 for emergency support."
+    },
+    "form": {
+      "title": "Send Us a Message",
+      "subtitle": "Get in touch with us for general inquiries, service information, or technical questions."
+    },
+    "contactMethods": {
+      "phone": {
+        "title": "Call Us Directly",
+        "subtitle": "Available 24/7 for support",
+        "description": "Speak directly with our technical team"
+      },
+      "email": {
+        "title": "Email Support",
+        "subtitle": "Response within 24 hours",
+        "description": "Send us detailed project requirements"
+      },
+      "whatsapp": {
+        "title": "WhatsApp Support",
+        "subtitle": "Quick response chat",
+        "description": "Get instant answers to your questions"
+      },
+      "visit": {
+        "title": "Visit Our Office",
+        "subtitle": "By appointment only",
+        "description": "Schedule a visit to our headquarters in Noida"
+      }
+    },
+    "map": {
+      "title": "Powerton Engineering Office Location"
+    },
+    "office": {
+      "name": "Corporate Headquarters",
+      "hours": "Mon-Sat: 9:00 AM - 6:00 PM"
+    },
+    "services": {
+      "technical": {
+        "title": "Technical Support",
+        "description": "Expert technical assistance for all our products and services"
+      },
+      "customer": {
+        "title": "Customer Success",
+        "description": "Dedicated support to ensure your project success"
+      },
+      "onsite": {
+        "title": "On-Site Support",
+        "description": "Field engineering support at your location"
+      },
+      "remote": {
+        "title": "Remote Support",
+        "description": "Virtual assistance and remote system diagnostics"
+      }
     },
     "sections": {
-      "company": {
-        "title": "Kamfaninmu da Ƙungiyar Mu",
-        "description": "Haɗu da ƙungiyarmu mai himma da bincika kayan aikinmu na zamani da ke ba mu damar isar da nagarta a kowace aiki."
+      "visitOffice": "Visit Our Office",
+      "officeLocation": "Office Location",
+      "supportServices": "Support Services",
+      "businessHours": "Business Hours & Availability",
+      "getDirections": "Get Directions"
+    },
+    "formSection": {
+      "title": "General Contact Form",
+      "description": "For general inquiries, service information, or technical questions"
+    },
+    "businessHours": {
+      "regular": {
+        "title": "Regular Hours",
+        "days": "Monday - Saturday",
+        "time": "9:00 AM - 6:00 PM"
       },
-      "projects": {
-        "title": "Ayyukan da Muka Kammala",
-        "description": "Binciki aiwatar da ayyukanmu masu nasara a masana'antu daban-daban, suna nuna ƙwarewarmu da ƙaddamarwa ga inganci."
+      "emergency": {
+        "title": "Emergency Support",
+        "availability": "24/7 Availability",
+        "days": "All Days"
       },
-      "products": {
-        "title": "Samfuranmu da Maganganun Mu",
-        "description": "Gano cikakkun kewayon samfuran masana'antu da maganganu daga manyan masana'antarmu na duniya."
+      "email": {
+        "title": "Email Response",
+        "time": "Within 24 Hours",
+        "guarantee": "Guaranteed"
       }
+    },
+    "emergency": {
+      "title": "Emergency Support",
+      "description": "Critical system failure? Our emergency response team is available 24/7 to help minimize downtime.",
+      "hotline": "Emergency Hotline"
+    },
+    "seo": {
+      "title": "Contact Powerton Engineering - Get Expert Engineering Support",
+      "description": "Contact our engineering experts for industrial automation, electrical systems, and technical support. Call +91-94627-71662 or email info@powertonengineering.com",
+      "keywords": "contact powerton engineering, engineering support, industrial automation contact, electrical engineering help, noida engineering company contact"
     }
   },
   "ui": {
-    "projectPortfolio": "Fayilin Ayyuka",
-    "featuredProjects": "Manyan Ayyuka"
+    "projectPortfolio": "Project Portfolio",
+    "featuredProjects": "Featured Projects"
   },
   "sitemap": {
     "quickActions": {
-      "title": "Kuna Buƙatar Taimako Wajen Nema Wani Abu?",
-      "description": "Ba ku iya samun abin da kuke nema ba? Tuntuɓe mu kai tsaye ko amfani da chatbot ɗinmu mai hankali da ke samuwa a kowane shafi.",
-      "contactUs": "Tuntuɓe Mu",
-      "requestQuote": "Nemi Farashin"
+      "title": "Need Help Finding Something?",
+      "description": "Can't find what you're looking for? Contact us directly or use our intelligent chatbot available on every page.",
+      "contactUs": "Contact Us",
+      "requestQuote": "Request Quote"
     }
   },
   "portfolio": {
     "features": {
-      "completedProjects": "Ayyukan da aka kammala da nasara a masana'antu daban-daban",
-      "highQuality": "Takardun da suke da Inganci",
-      "highQualityDesc": "Fayil na ƙwararru tare da cikakkun hotunan ayyuka",
-      "verifiedResults": "Sakamakon da aka Tabbatar",
-      "verifiedResultsDesc": "Ayyuka na gaske tare da sakamako da za a iya aunawa da shaidar abokan ciniki"
+      "completedProjects": "Successfully completed projects across various industries",
+      "highQuality": "High-Quality Documentation",
+      "highQualityDesc": "Professional portfolio with detailed project imagery",
+      "verifiedResults": "Verified Results",
+      "verifiedResultsDesc": "Real projects with measurable outcomes and client testimonials"
     }
   },
   "career": {
     "seo": {
-      "title": "Ayyukan Aiki a Kamfanin Injiniyan Powerton - Shiga Ƙungiyar Injiniyoyinmu",
-      "description": "Binciki damar aiki a Kamfanin Injiniyan Powerton. Shiga ƙungiyar injiniyoyinmu masu ƙwarewa ku ba da gudummawa ga ayyukan sarrafa masana'antu da injiniyan lantarki masu kirkire-kirkire.",
-      "keywords": "ayyukan aiki kamfanin injiniyan powerton, ayyukan injiniya, ayyukan injiniyan lantarki, ayyukan injiniyan sarrafa, ayyukan injiniyan masana'antu, ayyukan injiniya noida"
+      "title": "Careers at Powerton Engineering - Join Our Engineering Team",
+      "description": "Explore career opportunities at Powerton Engineering. Join our team of skilled engineers and contribute to innovative industrial automation and electrical engineering projects.",
+      "keywords": "powerton engineering careers, engineering jobs, electrical engineer jobs, automation engineer jobs, industrial engineering careers, engineering jobs noida"
     },
     "hero": {
-      "imageAlt": "Wurin aiki na ƙwararru na injiniya tare da kayan aikin masana'antar zamani"
+      "title": "Build Your Engineering Career With Us",
+      "subtitle": "Join our passionate team of engineers and contribute to innovative industrial automation solutions",
+      "benefits": {
+        "growth": "Growth Opportunities",
+        "innovation": "Innovative Projects",
+        "culture": "Collaborative Culture"
+      },
+      "imageAlt": "Professional engineering workspace with modern industrial facility equipment"
     },
     "benefits": {
       "careerGrowth": {
-        "title": "Ci Gaban Aiki",
-        "description": "Ci gaban aiki mai tsari tare da nazarin aiki na yau da kullun da damar ci gaba."
+        "title": "Career Growth",
+        "description": "Structured career progression with regular performance reviews and promotion opportunities."
       },
       "learningDevelopment": {
-        "title": "Koyo da Ci Gaba",
-        "description": "Shirye-shiryen horarwa da ba ya tsayawa, takaddun shaida, da damar inganta ƙwarewa."
+        "title": "Learning & Development",
+        "description": "Continuous training programs, certifications, and skill enhancement opportunities."
       },
       "workLifeBalance": {
-        "title": "Daidaiton Aiki da Rayuwa",
-        "description": "Lokutan aiki masu sassauci da cikakkun fa'idojin lafiya don ma'aikata da iyalai."
+        "title": "Work-Life Balance",
+        "description": "Flexible working hours and comprehensive health benefits for employees and families."
       },
       "teamCulture": {
-        "title": "Al'adar Ƙungiya",
-        "description": "Yanayin aiki na haɗin gwiwa tare da membobin ƙungiya masu tallafi da buɗe sadarwa."
+        "title": "Team Culture",
+        "description": "Collaborative work environment with supportive team members and open communication."
       },
       "recognitionRewards": {
-        "title": "Gane da Lada",
-        "description": "Karbuwa dangane da aiki, kari, da shirye-shiryen gane wa don aiki mai kyau."
+        "title": "Recognition & Rewards",
+        "description": "Performance-based incentives, bonuses, and recognition programs for outstanding work."
       },
       "innovationFocus": {
-        "title": "Mayar da Hankali kan Kirkire-kirkire",
-        "description": "Aiki akan fasahohi na zamani da maganganun kirkire-kirkire a sarrafa masana'antu."
+        "title": "Innovation Focus",
+        "description": "Work on cutting-edge technologies and innovative solutions in industrial automation."
       }
     }
   },
   "seo": {
     "productPages": {
       "plcs": {
-        "title": "PLCs (Masu Sarrafa Dabaru masu Tsarawa) - Sarrafa Masana'antu | Kamfanin Injiniyan Powerton",
-        "description": "PLCs masu inganci daga manyan masana'anta: Siemens SIMATIC, Allen-Bradley CompactLogix, Schneider Modicon. Shirye-shiryen PLC na ƙwarewa, shigarwa da tallafi a duk Indiya.",
-        "keywords": "PLCs, masu sarrafa dabaru masu tsarawa, Siemens SIMATIC, Allen-Bradley CompactLogix, Schneider Modicon, masu sarrafa masana'antu, shirye-shiryen PLC, sarrafa masana'anta"
+        "title": "PLCs (Programmable Logic Controllers) - Industrial Automation | Powerton Engineering",
+        "description": "High-quality PLCs from leading manufacturers: Siemens SIMATIC, Allen-Bradley CompactLogix, Schneider Modicon. Expert PLC programming, installation & support across India.",
+        "keywords": "PLCs, programmable logic controllers, Siemens SIMATIC, Allen-Bradley CompactLogix, Schneider Modicon, industrial automation controllers, PLC programming, factory automation"
       },
       "solarPanels": {
-        "title": "Allunan Hasken Rana - Monocrystalline & Polycrystalline | Kamfanin Injiniyan Powerton",
-        "description": "Allunan hasken rana masu inganci: Monocrystalline (400W), Polycrystalline (320W), da Bifacial (450W). Cikakkun maganganun makamashi na hasken rana tare da tallafin shigarwa a duk Indiya.",
-        "keywords": "allunan hasken rana, allunan hasken rana monocrystalline, allunan hasken rana polycrystalline, allunan hasken rana bifacial, tsarin makamashi na hasken rana, makamashi mai sabuntawa, shigar da hasken rana Indiya"
+        "title": "Solar Panels - Monocrystalline & Polycrystalline | Powerton Engineering",
+        "description": "High-efficiency solar panels: Monocrystalline (400W), Polycrystalline (320W), and Bifacial (450W). Complete solar energy solutions with installation support across India.",
+        "keywords": "solar panels, monocrystalline solar panels, polycrystalline solar panels, bifacial solar panels, solar energy systems, renewable energy, solar installation India"
       },
       "scada": {
-        "title": "Tsarin SCADA - Sa ido da Sarrafa Masana'antu | Kamfanin Injiniyan Powerton",
-        "description": "Ci gaban tsarin SCADA don sa ido na lokaci-lokaci, karbar bayanai, da sarrafa tsari. Cikakkun maganganun SCADA tare da haɗewar HMI da iyawar shiga daga nesa.",
-        "keywords": "tsarin SCADA, sarrafa kulawa, karbar bayanai, sa idon masana'antu, sarrafa tsari, haɗewar HMI, sa ido daga nesa, software na SCADA"
+        "title": "SCADA Systems - Industrial Monitoring & Control | Powerton Engineering",
+        "description": "Advanced SCADA systems for real-time monitoring, data acquisition, and process control. Complete SCADA solutions with HMI integration and remote access capabilities.",
+        "keywords": "SCADA systems, supervisory control, data acquisition, industrial monitoring, process control, HMI integration, remote monitoring, SCADA software"
       }
     }
   }

@@ -1,759 +1,999 @@
 {
-  "title": "منتجاتنا",
-  "subtitle": "الأتمتة الصناعية والمكونات الكهربائية",
+  "title": "Our Products",
+  "subtitle": "Comprehensive range of industrial automation products, electrical components, instrumentation, solar systems, pumps, and tools. Quality equipment for industrial applications.",
+  "categories": {
+    "automation": "Automation & Control",
+    "electrical": "Electrical Components",
+    "instrumentation": "Instrumentation",
+    "solar": "Solar Products",
+    "motors": "BLDC Motor Systems",
+    "pumps": "Pumps & Motors",
+    "safety": "Safety Equipment",
+    "tools": "Industrial Tools",
+    "instrumentation-components": {
+      "title": "Instrumentation Components",
+      "description": "Precision instrumentation components for measurement and control",
+      "features": {
+        "pressure-transmitters": "Pressure Transmitters",
+        "temperature-sensors": "Temperature Sensors",
+        "flow-meters": "Flow Meters",
+        "level-indicators": "Level Indicators"
+      }
+    },
+    "electrical-components": {
+      "title": "Electrical Components",
+      "description": "Comprehensive electrical components solutions for industrial applications",
+      "features": {
+        "circuit-breakers": "Circuit Breakers",
+        "contactors": "Contactors",
+        "relays": "Relays",
+        "power-supplies": "Power Supplies"
+      }
+    },
+    "measurement-instruments": {
+      "title": "Measurement Instruments",
+      "description": "Precision measurement and testing instruments",
+      "features": {
+        "digital-multimeters": "Digital Multimeters",
+        "oscilloscopes": "Oscilloscopes",
+        "signal-analyzers": "Signal Analyzers",
+        "calibrators": "Calibrators"
+      }
+    },
+    "solar-products": {
+      "title": "Solar Products",
+      "description": "Complete solar energy solutions and components",
+      "features": {
+        "solar-panels": "Solar Panels",
+        "inverters": "Inverters",
+        "battery-storage": "Battery Storage",
+        "monitoring-systems": "Monitoring Systems"
+      }
+    },
+    "automation-control-systems": {
+      "title": "Automation & Control Systems",
+      "description": "Advanced automation and control systems for industrial operations",
+      "features": {
+        "hmi-systems": "HMI Systems",
+        "scada-software": "SCADA Software",
+        "industrial-networks": "Industrial Networks"
+      }
+    },
+    "safety-protective-devices": {
+      "title": "Safety & Protective Devices",
+      "description": "Industrial safety systems and protective equipment",
+      "features": {
+        "safety-switches": "Safety Switches",
+        "emergency-stops": "Emergency Stops",
+        "light-curtains": "Light Curtains",
+        "protective-barriers": "Protective Barriers"
+      }
+    },
+    "mechanical-pumps-spares": {
+      "title": "Mechanical Pumps & Spares",
+      "description": "Mechanical pumps and spare parts for industrial applications",
+      "features": {
+        "centrifugal-pumps": "Centrifugal Pumps",
+        "positive-displacement-pumps": "Positive Displacement Pumps",
+        "pump-components": "Pump Components",
+        "maintenance-kits": "Maintenance Kits"
+      }
+    },
+    "industrial-tools-tackles": {
+      "title": "Industrial Tools & Equipment",
+      "description": "Heavy-duty industrial tools and lifting equipment",
+      "features": {
+        "hand-tools": "Hand Tools",
+        "power-tools": "Power Tools",
+        "lifting-equipment": "Lifting Equipment",
+        "cutting-tools": "Cutting Tools"
+      }
+    },
+    "bldc": {
+      "title": "BLDC Products",
+      "description": "Brushless DC motor products for energy-efficient applications",
+      "features": {
+        "energy-efficient": "Energy Efficient",
+        "long-lifespan": "Long Lifespan",
+        "low-maintenance": "Low Maintenance",
+        "variable-speed-control": "Variable Speed Control"
+      }
+    }
+  },
   "bldcCeilingFan": {
-    "smart١٢٠٠": {
-      "title": "مروحة سقف بدون فرش التيار المستمر ذكية ١٢٠٠ مم",
-      "description": "مروحة سقف موفرة للطاقة مع جهاز تحكم عن بعد ووظيفة مؤقت",
-      "features": ["استهلاك طاقة ٢٨ واط", "جهاز تحكم عن بعد", "٥ إعدادات سرعة", "وظيفة المؤقت"]
+    "smart1200": {
+      "title": "Smart BLDC Ceiling Fan 1200mm",
+      "description": "Energy-efficient smart ceiling fan with remote control and timer function",
+      "features": [
+        "28W Power Consumption",
+        "Remote Control",
+        "5 Speed Settings",
+        "Timer Function"
+      ]
     },
-    "premium١٤٠٠": {
-      "title": "مروحة سقف بدون فرش التيار المستمر بريميوم ١٤٠٠ مم",
-      "description": "مروحة سقف عالية الأداء مع إضاءة دايود باعث للضوء ومحرك قابل للعكس",
-      "features": ["استهلاك طاقة ٣٥ واط", "إضاءة دايود باعث للضوء متكاملة", "محرك قابل للعكس", "تشغيل صامت"]
+    "premium1400": {
+      "title": "Premium BLDC Ceiling Fan 1400mm",
+      "description": "High-performance ceiling fan with LED lighting and reversible motor",
+      "features": [
+        "35W Power Consumption",
+        "LED Light Integrated",
+        "Reversible Motor",
+        "Silent Operation"
+      ]
     },
-    "commercial١٥٠٠": {
-      "title": "مروحة سقف بدون فرش التيار المستمر تجارية ١٥٠٠ مم",
-      "description": "مروحة سقف متينة للتطبيقات التجارية والصناعية",
-      "features": ["استهلاك طاقة ٤٥ واط", "محرك متين", "تدفق هواء عالي", "بناء متين"]
+    "commercial1500": {
+      "title": "Commercial BLDC Ceiling Fan 1500mm",
+      "description": "Heavy-duty ceiling fan for commercial and industrial applications",
+      "features": [
+        "45W Power Consumption",
+        "Heavy-Duty Motor",
+        "High Air Flow",
+        "Durable Construction"
+      ]
     }
   },
   "bldcCoolerExhaust": {
     "exhaustFan": {
-      "title": "محرك مروحة العادم بدون فرش التيار المستمر",
-      "description": "محرك عالي الكفاءة بدون فرش للتطبيقات مروحة العادم",
-      "features": ["تحكم سرعة متغيرة", "تشغيل منخفض الضوضاء", "تصميم موفر للطاقة", "عمر ممتد"]
+      "title": "BLDC Exhaust Fan Motor",
+      "description": "High-efficiency brushless DC motor for exhaust fan applications",
+      "features": [
+        "Variable Speed Control",
+        "Low Noise Operation",
+        "Energy Efficient Design",
+        "Extended Life Span"
+      ]
     },
     "coolerMotors": {
-      "title": "محرك المبرد بدون فرش التيار المستمر",
-      "description": "محرك موفر للطاقة مصمم لتطبيقات مبرد الهواء",
-      "features": ["خرج عزم دوران عالي", "مقاوم للطقس", "تحكم السرعة", "تشغيل خالي من الصيانة"]
+      "title": "BLDC Cooler Motor",
+      "description": "Energy-efficient motor designed for air cooler applications",
+      "features": [
+        "High Torque Output",
+        "Weather Resistant",
+        "Speed Control",
+        "Maintenance Free Operation"
+      ]
     },
     "ventilation": {
-      "title": "محرك نظام التهوية بدون فرش التيار المستمر",
-      "description": "محرك متخصص لأنظمة التهوية الصناعية ومناولة الهواء",
-      "features": ["تصنيف قدم مكعب في الدقيقة عالي", "مقدر للحرارة", "مقاوم للاهتزاز", "متوافق مع التحكم الذكي"]
+      "title": "BLDC Ventilation System Motor",
+      "description": "Specialized motor for industrial ventilation and air handling systems",
+      "features": [
+        "High CFM Rating",
+        "Temperature Rated",
+        "Vibration Resistant",
+        "Smart Control Compatible"
+      ]
     }
   },
   "bldcPumps": {
     "solarSubmersible1hp": {
-      "title": "مضخة بدون فرش التيار المستمر غاطسة شمسية 1 حصان",
-      "description": "مضخة غاطسة تعمل بالطاقة الشمسية لآبار المياه وتطبيقات الثقوب",
-      "features": ["تشغيل متوافق شمسي", "قوة محرك 1 حصان", "تصميم عالي الكفاءة", "بناء مبرد بالماء"]
+      "title": "Solar BLDC Submersible Pump 1HP",
+      "description": "Solar-powered submersible pump for water wells and borehole applications",
+      "features": [
+        "Solar Compatible Operation",
+        "1HP Motor Power",
+        "High Efficiency Design",
+        "Water-Cooled Construction"
+      ]
     },
     "dcSurface2hp": {
-      "title": "مضخة سطحية تيار مستمر ٢ حصان",
-      "description": "مضخة سطحية عالية الكفاءة للري ونقل المياه",
-      "features": ["تقييم طاقة 2 حصان", "تصميم ذاتي التحضير", "حماية التشغيل الجاف", "تحكم سرعة متغيرة"]
+      "title": "DC Surface Pump 2HP",
+      "description": "High-efficiency surface pump for irrigation and water transfer",
+      "features": [
+        "2HP Power Rating",
+        "Self-Priming Design",
+        "Dry Run Protection",
+        "Variable Speed Control"
+      ]
     },
     "hybridSystem": {
-      "title": "نظام مضخة بدون فرش التيار المستمر هجين",
-      "description": "نظام مضخة ذكي مع قدرة احتياطية شمسية وشبكة",
-      "features": ["وضع تشغيل هجين", "وحدة تحكم ذكية", "مراقبة عن بعد", "تحسين الطاقة"]
+      "title": "Hybrid BLDC Pump System",
+      "description": "Intelligent pump system with solar and grid backup capability",
+      "features": [
+        "Hybrid Operation Mode",
+        "Smart Controller",
+        "Remote Monitoring",
+        "Energy Optimization"
+      ]
     }
   },
   "bldcFans": {
     "tableFan": {
-      "title": "محرك مروحة طاولة بدون فرش التيار المستمر",
-      "description": "محرك تيار مستمر بدون فرش مدمج لتطبيقات مراوح الطاولة والمكتب",
-      "features": ["تصميم مدمج", "تشغيل صامت", "تحكم عن بعد", "وظيفة المؤقت"]
+      "title": "BLDC Table Fan Motor",
+      "description": "Compact brushless DC motor for table and desk fan applications",
+      "features": [
+        "Compact Design",
+        "Silent Operation",
+        "Remote Control",
+        "Timer Function"
+      ]
     },
     "wallFan": {
-      "title": "محرك مروحة حائط بدون فرش التيار المستمر", 
-      "description": "محرك مروحة معلقة على الحائط بتقنية بدون فرش التيار المستمر للاستخدام السكني",
-      "features": ["تصميم حائطي", "وظيفة الدوران", "تحكم السرعة", "تشغيل موفر للطاقة"]
+      "title": "BLDC Wall Fan Motor",
+      "description": "Wall-mounted fan motor with BLDC technology for residential use",
+      "features": [
+        "Wall Mount Design",
+        "Oscillating Function",
+        "Speed Control",
+        "Energy Saving Operation"
+      ]
     },
     "pedestalFan": {
-      "title": "محرك مروحة عمودية بدون فرش التيار المستمر",
-      "description": "محرك مروحة عمودية قابل للتعديل بالارتفاع مع شاشة دايود باعث للضوء",
-      "features": ["تعديل الارتفاع", "وظيفة الميل", "شاشة دايود باعث للضوء", "مؤقت وضع النوم"]
+      "title": "BLDC Pedestal Fan Motor",
+      "description": "Height-adjustable pedestal fan motor with LED display",
+      "features": [
+        "Height Adjustment",
+        "Tilt Function",
+        "LED Display",
+        "Sleep Mode Timer"
+      ]
     }
   },
   "cablesWires": {
     "instrumentation": {
-      "title": "كابلات الأجهزة",
-      "description": "كابلات منخفضة الجهد محمية للأجهزة وتطبيقات التحكم",
-      "features": ["بناء محمي", "مقاوم للرطوبة", "معدل للحرارة", "تكوين أزواج متعددة"]
+      "title": "Instrumentation Cables",
+      "description": "Low voltage shielded cables for instrumentation and control applications",
+      "features": [
+        "Shielded Construction",
+        "Moisture Resistant",
+        "Temperature Rated",
+        "Multiple Pair Configuration"
+      ]
     },
     "powerDistribution": {
-      "title": "كابلات توزيع الطاقة",
-      "description": "كابلات عالية الجهد لأنظمة نقل وتوزيع الطاقة",
-      "features": ["عزل بولي إيثيلين متصالب", "بناء مدرع", "مقاوم للحريق", "تقييم تيار عالي"]
+      "title": "Power Distribution Cables",
+      "description": "High voltage cables for power transmission and distribution systems",
+      "features": [
+        "XLPE Insulation",
+        "Armored Construction",
+        "Fire Resistant",
+        "High Current Rating"
+      ]
     },
     "communication": {
-      "title": "كابلات الاتصالات",
-      "description": "كابلات نقل البيانات لشبكات الاتصالات الصناعية",
-      "features": ["معايير فئة ٥ه/فئة ٦", "خيارات الألياف البصرية", "درجة صناعية", "حماية تداخل كهرومغناطيسي"]
+      "title": "Communication Cables",
+      "description": "Data transmission cables for industrial communication networks",
+      "features": [
+        "Cat5e/Cat6 Standards",
+        "Fiber Optic Options",
+        "Industrial Grade",
+        "EMI Shielding"
+      ]
     }
   },
   "circuitBreakers": {
     "mcb": {
-      "title": "قواطع دوائر مصغرة (قاطع دائرة مصغر)",
-      "description": "قواطع دوائر منخفضة الجهد للحماية السكنية والتجارية",
-      "features": ["منحنيات التشغيل ب/ج/د", "تقييم ٦-٦٣أ", "قدرة قطع ١٠ كيلو أمبير", "تركيب قضيب دين"]
+      "title": "Miniature Circuit Breakers (MCB)",
+      "description": "Low voltage circuit breakers for residential and commercial protection",
+      "features": [
+        "B/C/D Trip Curves",
+        "6-63A Rating",
+        "10kA Breaking Capacity",
+        "DIN Rail Mounting"
+      ]
     },
     "mccb": {
-      "title": "قواطع دوائر مصبوبة (قاطع دائرة مقولب)",
-      "description": "قواطع دوائر صناعية لحماية المحركات والمعدات الكهربائية",
-      "features": ["إعدادات تشغيل قابلة للتعديل", "قدرة قطع عالية", "وحدات تشغيل إلكترونية", "تقييم حتى ١٦٠٠أ"]
+      "title": "Molded Case Circuit Breakers (MCCB)",
+      "description": "Industrial circuit breakers for motor and power equipment protection",
+      "features": [
+        "Adjustable Trip Settings",
+        "High Breaking Capacity",
+        "Electronic Trip Units",
+        "Up to 1600A Rating"
+      ]
     },
     "industrialFuses": {
-      "title": "المصهرات الصناعية",
-      "description": "مصهرات عالية السرعة لحماية المعدات الكهربائية",
-      "features": ["استجابة سريعة", "خيارات تأخير زمني", "تقييم جهد عالي", "بناء جسم سيراميكي"]
+      "title": "Industrial Fuses",
+      "description": "High-speed fuses for electrical equipment protection",
+      "features": [
+        "Fast Acting Response",
+        "Time Delay Options",
+        "High Voltage Rating",
+        "Ceramic Body Construction"
+      ]
     }
   },
   "connectorsTerminals": {
     "terminalBlocks": {
-      "title": "كتل طرفية صناعية",
-      "description": "كتل طرفية آمنة لاتصالات الأسلاك الصناعية",
-      "features": ["تقنية المشبك الزنبركي", "اتصالات نوع برغي", "تركيب قضيب دين", "خيارات أحجام متعددة"]
+      "title": "Industrial Terminal Blocks",
+      "description": "Secure terminal blocks for industrial wire connections",
+      "features": [
+        "Spring Clamp Technology",
+        "Screw Type Connections",
+        "DIN Rail Mounting",
+        "Multiple Size Options"
+      ]
     },
     "industrialConnectors": {
-      "title": "موصلات صناعية",
-      "description": "موصلات شديدة التحمل للتطبيقات الصناعية المتطلبة",
-      "features": ["تقييم حماية درجة حماية صناعية ٦٧", "آلية قفل", "تكوين متعدد الأطراف", "تكامل وصلة الكابل"]
+      "title": "Industrial Connectors",
+      "description": "Heavy-duty connectors for demanding industrial applications",
+      "features": [
+        "IP67 Protection Rating",
+        "Locking Mechanism",
+        "Multi-Pin Configuration",
+        "Cable Gland Integration"
+      ]
     },
     "signalConnectors": {
-      "title": "موصلات الإشارات",
-      "description": "موصلات دقيقة للأجهزة ونقل الإشارات",
-      "features": ["تصميم ضوضاء منخفضة", "بناء محمي", "حجم مصغر", "أداء موثوقية عالية"]
+      "title": "Signal Connectors",
+      "description": "Precision connectors for instrumentation and signal transmission",
+      "features": [
+        "Low Noise Design",
+        "Shielded Construction",
+        "Miniature Size",
+        "High Reliability Performance"
+      ]
     }
-  },
-  "categories": {
-    "automation": "الأتمتة والتحكم",
-    "electrical": "المكونات الكهربائية",
-    "instrumentation": "الأجهزة",
-    "solar": "المنتجات الشمسية",
-    "motors": "أنظمة محركات بدون فرش التيار المستمر",
-    "pumps": "مضخات ومحركات",
-    "safety": "معدات الأمان",
-    "tools": "أدوات صناعية",
-    "instrumentation-components": {
-      "title": "مكونات الأجهزة",
-      "description": "مكونات أجهزة دقيقة للقياس والتحكم",
-      "features": {
-        "pressure-transmitters": "مرسلات الضغط",
-        "temperature-sensors": "مستشعرات الحرارة",
-        "flow-meters": "مقاييس التدفق",
-        "level-indicators": "مؤشرات المستوى"
-      }
-    },
-    "electrical-components": {
-      "title": "المكونات الكهربائية",
-      "description": "حلول شاملة للمكونات الكهربائية للتطبيقات الصناعية",
-      "features": {
-        "circuit-breakers": "قواطع الدوائر",
-        "contactors": "الموصلات",
-        "relays": "المرحلات",
-        "power-supplies": "مزودات الطاقة"
-      }
-    },
-    "measurement-instruments": {
-      "title": "أدوات القياس",
-      "description": "أدوات قياس واختبار دقيقة",
-      "features": {
-        "digital-multimeters": "أجهزة القياس الرقمية",
-        "oscilloscopes": "أجهزة الذبذبات",
-        "signal-analyzers": "محللات الإشارة",
-        "calibrators": "أجهزة المعايرة"
-      }
-    },
-    "solar-products": {
-      "title": "المنتجات الشمسية",
-      "description": "حلول ومكونات شاملة للطاقة الشمسية",
-      "features": {
-        "solar-panels": "الألواح الشمسية",
-        "inverters": "العاكسات",
-        "battery-storage": "تخزين البطارية",
-        "monitoring-systems": "أنظمة المراقبة"
-      }
-    },
-    "automation-control-systems": {
-      "title": "أنظمة الأتمتة والتحكم",
-      "description": "أنظمة متقدمة للأتمتة والتحكم للعمليات الصناعية",
-      "features": {
-        "hmi-systems": "أنظمة HMI",
-        "scada-software": "برمجيات SCADA",
-        "industrial-networks": "الشبكات الصناعية"
-      }
-    },
-    "safety-protective-devices": {
-      "title": "أجهزة الأمان والحماية",
-      "description": "أنظمة الأمان الصناعي ومعدات الحماية",
-      "features": {
-        "safety-switches": "مفاتيح الأمان",
-        "emergency-stops": "محابس الطوارئ",
-        "light-curtains": "الحواجز الضوئية",
-        "protective-barriers": "الحواجز الواقية"
-      }
-    },
-    "mechanical-pumps-spares": {
-      "title": "المضخات الميكانيكية وقطع الغيار",
-      "description": "مضخات ميكانيكية وقطع غيار للتطبيقات الصناعية",
-      "features": {
-        "centrifugal-pumps": "مضخات طاردة مركزية",
-        "positive-displacement-pumps": "مضخات إزاحة إيجابية",
-        "pump-components": "مكونات المضخة",
-        "maintenance-kits": "مجموعات الصيانة"
-      }
-    },
-    "industrial-tools-tackles": {
-      "title": "الأدوات والمعدات الصناعية",
-      "description": "أدوات صناعية ثقيلة ومعدات الرفع",
-      "features": {
-        "hand-tools": "الأدوات اليدوية",
-        "power-tools": "الأدوات الكهربائية",
-        "lifting-equipment": "معدات الرفع",
-        "cutting-tools": "أدوات القطع"
-      }
-    },
-    "bldc": {
-      "title": "منتجات بدون فرش التيار المستمر",
-      "description": "منتجات محركات التيار المستمر عديمة الفرش للتطبيقات الموفرة للطاقة",
-      "features": {
-        "energy-efficient": "موفر للطاقة",
-        "long-lifespan": "عمر طويل",
-        "low-maintenance": "صيانة قليلة",
-        "variable-speed-control": "تحكم في السرعة المتغيرة"
-      }
-    }
-  },
-  "items": {
-    "solar-products": "المنتجات الشمسية",
-    "automation-control-systems": "أنظمة الأتمتة والتحكم",
-    "safety-protective-devices": "أجهزة السلامة والحماية",
-    "mechanical-pumps-spares": "المضخات الميكانيكية وقطع الغيار",
-    "industrial-tools-tackles": "الأدوات والمعدات الصناعية",
-    "bldc": "محركات التيار المستمر بدون فرش",
-    "instrumentation-components": "مكونات الأجهزة",
-    "electrical-components": "المكونات الكهربائية",
-    "measurement-instruments": "أدوات القياس"
   },
   "subcategories": {
     "sensors": {
-      "title": "أجهزة الاستشعار",
-      "description": "أجهزة استشعار صناعية للقياس والتحكم"
+      "title": "Sensors",
+      "description": "Industrial sensors for measurement and control"
     },
     "transmitters": {
-      "title": "أجهزة الإرسال والمحولات",
-      "description": "أجهزة إرسال العمليات ومعدات تحويل الإشارة"
+      "title": "Transmitters & Transducers",
+      "description": "Process transmitters and signal conversion equipment"
     },
     "controllers": {
-      "title": "أجهزة التحكم والمسجلات",
-      "description": "أنظمة التحكم الصناعية وأجهزة التحكم في الأتمتة"
+      "title": "Controllers & Recorders",
+      "description": "Industrial control systems and automation controllers"
     },
     "switches": {
-      "title": "المفاتيح والمؤشرات",
-      "description": "المفاتيح الصناعية وأجهزة التحكم"
+      "title": "Switches & Indicators",
+      "description": "Industrial switches and control equipment"
     },
     "valves": {
-      "title": "الصمامات والمحركات",
-      "description": "الصمامات الصناعية وأنظمة التحكم في التدفق"
+      "title": "Valves & Actuators",
+      "description": "Industrial valves and flow control systems"
     },
     "analyzers": {
-      "title": "أجهزة التحليل",
-      "description": "أجهزة تحليل العمليات لمراقبة الجودة"
+      "title": "Analyzers",
+      "description": "Process analyzers for quality control"
     },
     "signal-conditioners": {
-      "title": "مكيفات الإشارة",
-      "description": "معدات معالجة وتكييف الإشارة"
+      "title": "Signal Conditioners",
+      "description": "Signal processing and conditioning equipment"
     },
     "cables-wires": {
-      "title": "الكابلات والأسلاك",
-      "description": "الكابلات والأسلاك الصناعية للطاقة والتحكم"
+      "title": "Cables & Wires",
+      "description": "Industrial cables and wiring solutions"
     },
     "connectors-terminals": {
-      "title": "الموصلات والأطراف",
-      "description": "الموصلات الكهربائية وحلول الأطراف"
+      "title": "Connectors & Terminals",
+      "description": "Electrical connectors and terminal solutions"
     },
     "circuit-breakers-fuses": {
-      "title": "قواطع الدوائر والصمامات",
-      "description": "أجهزة الحماية الكهربائية لسلامة الدوائر"
+      "title": "Circuit Breakers & Fuses",
+      "description": "Electrical protection devices for circuit safety"
     },
     "power-supplies": {
-      "title": "مزودات الطاقة",
-      "description": "وحدات الطاقة الصناعية والمحولات"
+      "title": "Power Supplies",
+      "description": "Industrial power supply units and converters"
     },
     "enclosures-cabinets": {
-      "title": "الخزائن والصناديق",
-      "description": "الخزائن الكهربائية وحلول خزائن التحكم"
+      "title": "Enclosures & Cabinets",
+      "description": "Electrical enclosures and control cabinet solutions"
     },
     "heating-elements-appliances": {
-      "title": "عناصر التسخين والأجهزة",
-      "description": "حلول التسخين الصناعية والمعدات الحرارية"
+      "title": "Heating Elements & Appliances",
+      "description": "Industrial heating solutions and thermal equipment"
     },
     "multimeters": {
-      "title": "أجهزة القياس المتعددة",
-      "description": "أجهزة القياس الرقمية والتناظرية للاختبار الكهربائي"
+      "title": "Multimeters",
+      "description": "Digital and analog multimeters for electrical testing"
     },
     "oscilloscopes": {
-      "title": "الراسمات الذبذبية",
-      "description": "الراسمات الرقمية لتحليل الإشارات والاختبار"
+      "title": "Oscilloscopes",
+      "description": "Digital oscilloscopes for signal analysis and testing"
     },
     "spectrum-analyzers": {
-      "title": "محللات الطيف",
-      "description": "معدات تحليل الطيف اللاسلكي والموجات الدقيقة"
+      "title": "Spectrum Analyzers",
+      "description": "RF and microwave spectrum analysis equipment"
     },
     "power-quality-analyzers": {
-      "title": "محللات جودة الطاقة",
-      "description": "أجهزة قياس وتحليل جودة الطاقة"
-    },
-    "calibration-equipment": {
-      "title": "معدات المعايرة",
-      "description": "أجهزة المعايرة الدقيقة ومعدات الاختبار"
-    },
-    "solar-panels": {
-      "title": "الألواح الشمسية",
-      "description": "الألواح الشمسية عالية الكفاءة والأنظمة الكهروضوئية"
-    },
-    "solar-inverters": {
-      "title": "العاكسات الشمسية",
-      "description": "عاكسات الطاقة الشمسية وأنظمة الربط بالشبكة"
-    },
-    "mounting-structures-racking": {
-      "title": "هياكل التثبيت وأنظمة الرفوف",
-      "description": "حلول التثبيت الهيكلية للتركيبات الشمسية"
-    },
-    "solar-charge-controllers": {
-      "title": "متحكمات الشحن الشمسية",
-      "description": "متحكمات الشحن الشمسية وإدارة الطاقة"
+      "title": "Power Quality Analyzers",
+      "description": "Power quality measurement and analysis instruments"
     },
     "solar-batteries-energy-storage": {
-      "title": "البطاريات الشمسية وأنظمة تخزين الطاقة",
-      "description": "حلول تخزين الطاقة لأنظمة الطاقة الشمسية"
-    },
-    "plcs": {
-      "title": "أجهزة التحكم المنطقية القابلة للبرمجة",
-      "description": "متحكمات منطقية قابلة للبرمجة للأتمتة الصناعية"
-    },
-    "scada": {
-      "title": "أنظمة المراقبة والتحكم وجمع البيانات",
-      "description": "أنظمة المراقبة والتحكم وجمع البيانات"
-    },
-    "dcs": {
-      "title": "أنظمة التحكم الموزعة",
-      "description": "أنظمة التحكم الموزعة لأتمتة العمليات"
-    },
-    "hmi": {
-      "title": "واجهة الإنسان والآلة",
-      "description": "أنظمة واجهة الإنسان والآلة لتحكم المشغل"
+      "title": "Solar Batteries & Energy Storage",
+      "description": "Battery storage systems for solar energy applications"
     },
     "surge-protectors": {
-      "title": "واقيات الجهد",
-      "description": "أجهزة حماية من الجهد الكهربائي والأنظمة"
-    },
-    "grounding-systems": {
-      "title": "أنظمة التأريض",
-      "description": "حلول التأريض والأرضي الكهربائية للسلامة",
-      "subtitle": "أنظمة التأريض والأرضي الكهربائية للسلامة وحماية المعدات",
-      "backButton": "العودة إلى أجهزة السلامة والحماية",
-      "badges": {
-        "groundRods": "قضبان التأريض",
-        "conductors": "الموصلات",
-        "clampsLugs": "المشابك والأطراف",
-        "safetyGrounding": "التأريض الآمن"
-      },
-      "componentsSection": {
-        "title": "مكونات التأريض"
-      },
-      "products": {
-        "electrodes": {
-          "name": "أقطاب التأريض",
-          "description": "قضبان التأريض النحاسية والفولاذية للسلامة الكهربائية",
-          "features": {
-            "copperBonded": "مطلي بالنحاس",
-            "steelCore": "قلب فولاذي",
-            "multipleLengths": "أطوال متعددة",
-            "ulListed": "معتمد UL"
-          }
-        },
-        "conductors": {
-          "name": "موصلات التأريض",
-          "description": "موصلات نحاسية عارية لأنظمة التأريض",
-          "features": {
-            "solidStranded": "صلب/مجدول",
-            "highConductivity": "موصلية عالية",
-            "corrosionResistant": "مقاوم للتآكل",
-            "multipleSizes": "أحجام متعددة"
-          }
-        },
-        "accessories": {
-          "name": "ملحقات التأريض",
-          "description": "مشابك وأطراف ووصلات لتركيبات التأريض",
-          "features": {
-            "groundClamps": "مشابك التأريض",
-            "compressionLugs": "أطراف الضغط",
-            "testWells": "آبار الاختبار",
-            "bondsJumpers": "الروابط والوصلات"
-          }
-        }
-      },
-      "cta": {
-        "title": "تحتاج حلول التأريض؟",
-        "description": "يمكن لمتخصصي التأريض لدينا تصميم أنظمة تأريض آمنة ومتوافقة مع الأكواد لمنشأتك.",
-        "contactButton": "اتصل بخبراء التأريض",
-        "quoteButton": "طلب عرض سعر"
-      },
-      "keyFeatures": "الميزات الرئيسية:",
-      "seo": {
-        "title": "أنظمة التأريض - معدات السلامة الكهربائية | باورتن إنجينيرنغ",
-        "description": "أنظمة التأريض والأرضي المهنية للسلامة الكهربائية. قضبان التأريض النحاسية، الموصلات، المشابك والملحقات من الشركات المصنعة الرائدة.",
-        "keywords": "أنظمة التأريض، التأريض الكهربائي، أنظمة الأرضي، قضبان التأريض، موصلات التأريض، معدات السلامة الكهربائية، قضبان التأريض النحاسية، ملحقات التأريض، التأريض الصناعي"
-      }
+      "title": "Surge Protectors"
     },
     "safety-relays-switches": {
-      "title": "مرحلات ومفاتيح السلامة",
-      "description": "مرحلات التحكم في السلامة وأنظمة الإيقاف الطارئ"
+      "title": "Safety Relays & Switches"
     },
     "intrinsically-safe-equipment": {
-      "title": "المعدات الآمنة ذاتياً",
-      "description": "معدات معتمدة لتطبيقات المناطق الخطرة"
+      "title": "Intrinsically Safe Equipment"
     },
     "centrifugal-pumps": {
-      "title": "المضخات الطاردة المركزية",
-      "description": "مضخات طاردة مركزية عالية الكفاءة للتطبيقات الصناعية"
+      "title": "Centrifugal Pumps"
     },
     "diaphragm-pumps": {
-      "title": "مضخات الحجاب الحاجز",
-      "description": "مضخات الجرعات الدقيقة ومعالجة المواد الكيميائية"
+      "title": "Diaphragm Pumps"
     },
     "gear-pumps": {
-      "title": "المضخات التروسية",
-      "description": "مضخات تروسية دقيقة للتطبيقات الهيدروليكية والصناعية"
+      "title": "Gear Pumps"
     },
     "pump-parts-spares": {
-      "title": "قطع غيار المضخات",
-      "description": "قطع الغيار والمكونات لأنظمة المضخات"
+      "title": "Pump Parts & Spares"
     },
     "hand-tools": {
-      "title": "الأدوات اليدوية",
-      "description": "أدوات يدوية احترافية للصيانة الصناعية"
+      "title": "Hand Tools"
     },
     "power-tools": {
-      "title": "الأدوات الكهربائية",
-      "description": "أدوات كهربائية وهوائية للاستخدام الصناعي"
+      "title": "Power Tools"
     },
     "cutting-tools": {
-      "title": "أدوات القطع",
-      "description": "أدوات القطع الصناعية ومعدات التصنيع"
+      "title": "Cutting Tools"
     },
     "lifting-equipment": {
-      "title": "معدات الرفع",
-      "description": "حلول الرفع الصناعي ومناولة المواد"
+      "title": "Lifting Equipment"
     },
     "safety-equipment": {
-      "title": "معدات السلامة",
-      "description": "معدات سلامة شاملة ومعدات الحماية الشخصية للتطبيقات الصناعية",
-      "sectionsTitle": "حلول السلامة",
+      "title": "Safety Equipment",
+      "description": "Comprehensive safety equipment and personal protective equipment for industrial applications",
+      "sectionsTitle": "Safety Solutions",
       "products": {
         "ppe": {
-          "name": "معدات الحماية الشخصية (PPE)",
-          "description": "معدات السلامة لحماية العمال",
+          "name": "Personal Protective Equipment (PPE)",
+          "description": "Safety equipment for worker protection",
           "features": {
-            "hardHats": "الخوذات الصلبة",
-            "safetyGlasses": "نظارات السلامة",
-            "hearingProtection": "حماية السمع",
-            "workGloves": "قفازات العمل"
+            "hardHats": "Hard Hats",
+            "safetyGlasses": "Safety Glasses",
+            "hearingProtection": "Hearing Protection",
+            "workGloves": "Work Gloves"
           }
         },
         "fallProtection": {
-          "name": "أنظمة الحماية من السقوط",
-          "description": "الأحزمة ومعدات منع السقوط",
+          "name": "Fall Protection Systems",
+          "description": "Harnesses and fall arrest equipment",
           "features": {
-            "fullBodyHarness": "حزام الجسم الكامل",
-            "lanyards": "الحبال الأمان",
-            "anchorPoints": "نقاط التثبيت",
-            "selfRetracting": "الانكماش الذاتي"
+            "fullBodyHarness": "Full Body Harness",
+            "lanyards": "Lanyards",
+            "anchorPoints": "Anchor Points",
+            "selfRetracting": "Self-Retracting"
           }
         },
         "gasDetection": {
-          "name": "معدات كشف الغازات",
-          "description": "أنظمة مراقبة الغازات المحمولة والثابتة",
+          "name": "Gas Detection Equipment",
+          "description": "Portable and fixed gas monitoring systems",
           "features": {
-            "multiGasDetectors": "أجهزة كشف الغازات المتعددة",
-            "singleGas": "الغاز الواحد",
-            "wirelessMonitoring": "المراقبة اللاسلكية",
-            "dataLogging": "تسجيل البيانات"
+            "multiGasDetectors": "Multi-Gas Detectors",
+            "singleGas": "Single Gas",
+            "wirelessMonitoring": "Wireless Monitoring",
+            "dataLogging": "Data Logging"
           }
         }
       },
       "cta": {
-        "title": "هل تحتاج معدات السلامة؟",
-        "description": "يمكن لمتخصصي السلامة لدينا توفير حلول سلامة شاملة لحماية قوة العمل لديك.",
-        "contactExpertsCta": "اتصل بخبراء السلامة",
-        "requestQuoteCta": "طلب عرض أسعار"
+        "title": "Need Safety Equipment?",
+        "description": "Our safety specialists can provide comprehensive safety solutions to protect your workforce.",
+        "contactExpertsCta": "Contact Safety Experts",
+        "requestQuoteCta": "Request Quote"
       }
     },
     "bldc-cooler-exhaust-motor": {
-      "title": "محرك بدون فرش التيار المستمر للتبريد/العادم",
-      "description": "محركات بدون فرش التيار المستمر موفرة للطاقة للتبريد والتهوية"
+      "title": "BLDC Cooler & Exhaust Motors"
     },
     "bldc-ceiling-fan": {
-      "title": "مروحة السقف بدون فرش التيار المستمر",
-      "description": "مراوح سقف عالية الكفاءة بتقنية DC بدون فرش"
+      "title": "BLDC Ceiling Fans"
     },
     "bldc-submersible-surface-pump": {
-      "title": "مضخة بدون فرش التيار المستمر الغاطسة/السطحية",
-      "description": "مضخات بدون فرش التيار المستمر تعمل بالطاقة الشمسية لتطبيقات المياه"
+      "title": "BLDC Submersible & Surface Pumps"
     },
     "bldc-table-fan-wall-fan-motor": {
-      "title": "محرك مروحة بدون فرش التيار المستمر للطاولة/الحائط",
-      "description": "محركات بدون فرش التيار المستمر مدمجة للمراوح المحمولة والمثبتة على الحائط"
-    }
-  },
-  "filters": {
-    "all": "الكل",
-    "category": "الفئة",
-    "industry": "الصناعة",
-    "status": "الحالة"
-  },
-  "status": {
-    "available": "متوفر",
-    "outOfStock": "نفدت الكمية",
-    "discontinued": "متوقف"
-  },
-  "productPages": {
-    "transmitters": {
-      "title": "أجهزة الإرسال",
-      "transducers": "محولات الطاقة"
+      "title": "BLDC Table & Wall Fan Motors"
     },
-    "spectrumAnalyzers": {
-      "title": "محللات الطيف",
-      "sections": {
-        "featured": {
-          "title": "محللات الطيف المميزة"
+    "solar-inverters": {
+      "title": "Solar Inverters"
+    },
+    "plcs": {
+      "title": "PLCs (Programmable Logic Controllers)"
+    },
+    "scada": {
+      "title": "SCADA Systems",
+      "description": "Supervisory Control And Data Acquisition systems"
+    },
+    "dcs": {
+      "title": "DCS (Distributed Control Systems)",
+      "description": "Distributed control systems for process automation"
+    },
+    "hmi": {
+      "title": "HMI (Human Machine Interface)",
+      "description": "Human machine interface systems for industrial control"
+    },
+    "grounding-systems": {
+      "title": "Grounding Systems",
+      "description": "Electrical grounding and earthing systems",
+      "subtitle": "Electrical grounding and earthing systems for safety and equipment protection",
+      "backButton": "Back to Safety & Protective Devices",
+      "badges": {
+        "groundRods": "Ground Rods",
+        "conductors": "Conductors",
+        "clampsLugs": "Clamps & Lugs",
+        "safetyGrounding": "Safety Grounding"
+      },
+      "componentsSection": {
+        "title": "Grounding Components"
+      },
+      "products": {
+        "electrodes": {
+          "name": "Grounding Electrodes",
+          "description": "Copper and steel grounding rods for electrical safety",
+          "features": {
+            "copperBonded": "Copper Bonded",
+            "steelCore": "Steel Core",
+            "multipleLengths": "Multiple Lengths",
+            "ulListed": "UL Listed"
+          }
+        },
+        "conductors": {
+          "name": "Grounding Conductors",
+          "description": "Bare copper conductors for grounding systems",
+          "features": {
+            "solidStranded": "Solid/Stranded",
+            "highConductivity": "High Conductivity",
+            "corrosionResistant": "Corrosion Resistant",
+            "multipleSizes": "Multiple Sizes"
+          }
+        },
+        "accessories": {
+          "name": "Grounding Accessories",
+          "description": "Clamps, lugs, and fittings for grounding installations",
+          "features": {
+            "groundClamps": "Ground Clamps",
+            "compressionLugs": "Compression Lugs",
+            "testWells": "Test Wells",
+            "bondsJumpers": "Bonds & Jumpers"
+          }
         }
       },
       "cta": {
-        "title": "هل تحتاج إلى تحليل إشارات الترددات الراديوية؟",
-        "description": "يمكن لمتخصصي الترددات الراديوية لدينا مساعدتك في اختيار محلل الطيف المناسب لاحتياجات القياس الخاصة بك.",
-        "button": "اتصل بخبراء الترددات الراديوية"
-      }
-    }
-  },
-  "features": {
-    "safetyDevices": {
-      "surgeProtectors": {
-        "title": "واقيات الجهد",
-        "description": "أجهزة حماية من التيار الزائد الكهربائي لسلامة المعدات",
-        "features": {
-          "lightning": "حماية من البرق",
-          "voltage": "حماية من ارتفاع الجهد",
-          "equipment": "سلامة المعدات",
-          "power": "جودة الطاقة"
-        }
+        "title": "Need Grounding Solutions?",
+        "description": "Our grounding specialists can design safe and code-compliant grounding systems for your facility.",
+        "contactButton": "Contact Grounding Experts",
+        "quoteButton": "Request Quote"
       },
-      "groundingSystems": {
-        "title": "أنظمة التأريض",
-        "description": "أنظمة التأريض والتوصيل الأرضي الكهربائية للسلامة",
-        "features": {
-          "electrodes": "أقطاب أرضية",
-          "rods": "قضبان التأريض",
-          "conductors": "موصلات الربط",
-          "lightning": "مانعات الصواعق"
-        }
-      },
-      "safetyRelays": {
-        "title": "مرحلات ومفاتيح السلامة",
-        "description": "أجهزة التحكم في السلامة لأنظمة الإغلاق الطارئ",
-        "features": {
-          "emergency": "إيقاف طارئ",
-          "monitoring": "مراقبة السلامة",
-          "failSafe": "تصميم آمن عند الفشل",
-          "certified": "سلامة معتمدة"
-        }
-      },
-      "intrinsicallySafe": {
-        "title": "المعدات الآمنة ذاتياً",
-        "description": "معدات مقاومة للانفجار للبيئات الخطرة",
-        "features": {
-          "atex": "معتمد ATEX",
-          "explosion": "مقاوم للانفجار",
-          "hazardous": "منطقة خطرة",
-          "intrinsic": "سلامة جوهرية"
-        }
-      },
-      "badges": {
-        "surgeProtection": "حماية من التيار الزائد",
-        "groundingSystems": "أنظمة التأريض",
-        "safetyRelays": "مرحلات السلامة",
-        "intrinsicSafety": "سلامة جوهرية"
+      "keyFeatures": "Key Features:",
+      "seo": {
+        "title": "Grounding Systems - Electrical Safety Equipment | Powerton Engineering",
+        "description": "Professional grounding and earthing systems for electrical safety. Copper grounding rods, conductors, clamps & accessories from leading manufacturers.",
+        "keywords": "grounding systems, electrical grounding, earthing systems, ground rods, grounding conductors, electrical safety equipment, copper grounding rods, grounding accessories, industrial grounding"
       }
     },
-    "common": {
-      "castIronBronze": "حديد زهر/برونز",
-      "stainlessSteelSizes": "فولاذ مقاوم للصدأ",
-      "balancedDesign": "تصميم متوازن",
-      "singleDoubleSeals": "أختام مفردة/مزدوجة",
-      "cartridgeType": "نوع الخرطوشة",
-      "highTemperature": "درجة حرارة عالية",
-      "chemicalResistant": "مقاوم للمواد الكيميائية",
-      "rollingElement": "عناصر دوارة",
-      "sleeveBearings": "محامل كمية",
-      "flexibleCouplings": "اقترانات مرنة",
-      "alignmentTools": "أدوات المحاذاة",
-      "threePhase": "قياس ثلاثي الطور",
-      "harmonicsAnalysis": "تحليل التوافقيات",
-      "transientCapture": "التقاط العابر",
-      "powerLogging": "تسجيل الطاقة",
-      "voltageDip": "كشف انخفاض الجهد",
-      "flickerMeasurement": "قياس الوميض",
-      "energyAssessment": "تقييم الطاقة",
-      "realTimeAnalysis": "التحليل في الوقت الفعلي",
-      "continuousMonitoring": "المراقبة المستمرة",
-      "eventRecording": "تسجيل الأحداث",
-      "complianceTesting": "اختبار الامتثال",
-      "remoteAccess": "الوصول عن بُعد",
-      "selfPriming": "Self-Priming",
-      "dryRunSafe": "آمن للتشغيل الجاف",
-      "variableFlow": "تدفق متغير",
-      "preciseMeteringLow": "قياس دقيق",
-      "lowPulsation": "نبض منخفض",
-      "digitalControl": "تحكم رقمي",
-      "easyMaintenance": "صيانة سهلة",
-      "highPressure": "ضغط عالي",
-      "lowFlowRates": "معدلات تدفق منخفضة",
-      "accurateDosing": "جرعات دقيقة",
-      "leakFreeOperation": "تشغيل خالي من التسرب",
-      "highTorque": "عزم دوران عالي",
-      "variableSpeed": "سرعة متغيرة",
-      "cordlessOptions": "خيارات لاسلكية",
-      "chuckCapacity": "سعة الظرف: ١٣ مم",
-      "multipleSizes": "أحجام متعددة",
-      "safetyGuards": "حواجز الأمان",
-      "antiVibration": "Anti-Vibration",
-      "powerfulMotors": "محركات قوية",
-      "highImpactForce": "قوة صدم عالية",
-      "socketCompatibility": "توافق المقابس",
-      "forwardReverse": "Forward/Reverse",
-      "batteryPowered": "يعمل بالبطارية",
-      "efficientSwitching": "85-265V AC Input",
-      "dcOutput": "12V/24V DC Output",
-      "highEfficiency": "كفاءة عالية",
-      "compactDesign": "تصميم مدمج",
-      "dinRailMount": "قضيب دين Mount",
-      "wideInputRange": "نطاق دخل واسع",
-      "shortCircuitProtection": "حماية من الدارة القصيرة",
-      "ledStatus": "دايود باعث للضوء Status",
-      "batteryBackup": "نسخة احتياطية بالبطارية",
-      "surgeProtection": "حماية من التيار الزائد",
-      "autoTransfer": "نقل تلقائي",
-      "lcdDisplay": "LCD Display"
+    "calibration-equipment": {
+      "title": "Calibration Equipment",
+      "description": "Precision calibration instruments and testing equipment"
     },
-    "product": {
-      "safetyEquipment": {
-        "fullBodyHarness": "حزام الجسم الكامل",
-        "lanyards": "Lanyards",
-        "anchorPoints": "نقاط التثبيت",
-        "selfRetracting": "Self-Retracting",
-        "multiGasDetectors": "أجهزة كشف الغازات المتعددة",
-        "singleGas": "غاز واحد",
-        "wirelessMonitoring": "المراقبة اللاسلكية",
-        "dataLogging": "تسجيل البيانات"
-      },
-      "electrical": {
-        "powerCables": "كوابل الطاقة",
-        "controlCables": "كوابل التحكم",
-        "instrumentationCables": "كوابل الأجهزة",
-        "communicationCables": "كوابل الاتصالات",
-        "terminalBlocks": "الكتل الطرفية",
-        "wireConnectors": "موصلات الأسلاك",
-        "dinRailTerminals": "قضيب دين Terminals",
-        "junctionBoxes": "صناديق التوصيل",
-        "mcbs": "قواطع دوائر مصغرة",
-        "mccbs": "MCCBs",
-        "rccbs": "RCCBs",
-        "industrialFuses": "المصهرات الصناعية",
-        "smps": "SMPS",
-        "dcDcConverters": "DC-DC Converters",
-        "upsSystems": "UPS Systems",
-        "controlPanels": "لوحات التحكم",
-        "distributionBoards": "لوحات التوزيع",
-        "weatherproofEnclosures": "خزائن مقاومة للطقس",
-        "heatingElements": "عناصر التسخين",
-        "industrialHeaters": "سخانات صناعية",
-        "temperatureControllers": "Temperature Controllers",
-        "thermalProtection": "Thermal Protection"
-      },
-      "pumps": {
-        "viscousFluids": "Viscous Fluids",
-        "preciseFlow": "Precise Flow",
-        "castIronSteel": "Cast Iron/Steel",
-        "gentleHandling": "Gentle Handling",
-        "noMechanicalSeal": "No Mechanical Seal",
-        "leakFree": "Leak-Free"
-      },
-      "enclosures": {
-        "nema4xRating": "NEMA 4X Rating",
-        "gasketSealed": "Gasket Sealed",
-        "floorStanding": "Floor Standing",
-        "wallMount": "Wall Mount",
-        "cableManagement": "Cable Management",
-        "coolingOptions": "Cooling Options",
-        "ip65Ip67Rating": "تصنيف الحماية IP65/IP67",
-        "explosionProof": "Explosion Proof",
-        "cableGlands": "وصلة الكابلs",
-        "corrosionResistant": "Corrosion Resistant"
-      }
+    "solar-panels": {
+      "title": "Solar Panels",
+      "description": "High-efficiency solar panels and photovoltaic systems"
+    },
+    "mounting-structures-racking": {
+      "title": "Mounting Structures & Racking Systems",
+      "description": "Structural mounting solutions for solar installations"
+    },
+    "solar-charge-controllers": {
+      "title": "Solar Charge Controllers",
+      "description": "Solar charge controllers and power management"
     }
   },
-  "locations": {
-    "delhiNcr": "دلهي NCR",
-    "rajasthan": "راجستان",
-    "uttarPradesh": "أوتار براديش",
-    "gujarat": "غوجارات",
-    "maharashtra": "ماهاراشترا",
-    "haryana": "هاريانا",
-    "westBengal": "البنغال الغربية"
+  "filters": {
+    "all": "All",
+    "category": "Category",
+    "industry": "Industry",
+    "status": "Status"
   },
-  "brands": {
-    "customBuilt": "مبني خصيصاً",
-    "fluke": "Fluke, Keysight",
-    "siemens": "Siemens, Allen Bradley",
-    "abb": "ABB, Schneider",
-    "honeywell": "Honeywell, Yokogawa",
-    "wonderware": "Wonderware, iFIX",
-    "grundfos": "Grundfos, KSB",
-    "3m": "3M, MSA"
+  "status": {
+    "available": "Available",
+    "outOfStock": "Out of Stock",
+    "discontinued": "Discontinued"
   },
-  "tags": {
-    "industrialAutomation": "الأتمتة الصناعية",
-    "plcSystems": "أنظمة PLC",
-    "scada": "SCADA",
-    "manufacturing": "التصنيع",
-    "processOptimization": "تحسين العمليات"
-  },
-  "gallery": {
-    "imagePlaceholder": "عنصر نائب للصورة",
-    "actualImages": "سيتم تحميل الصور الفعلية"
+  "productPages": {
+    "transmitters": {
+      "title": "Transmitters",
+      "transducers": "Transducers"
+    },
+    "spectrumAnalyzers": {
+      "title": "Spectrum Analyzers",
+      "sections": {
+        "featured": {
+          "title": "Featured Spectrum Analyzers"
+        }
+      },
+      "cta": {
+        "title": "Need RF Signal Analysis?",
+        "description": "Our RF specialists can help you select the right spectrum analyzer for your measurement needs.",
+        "button": "Contact RF Experts"
+      }
+    },
+    "bldcSubmersibleSurfacePump": {
+      "title": "BLDC Submersible & Surface Pumps",
+      "subtitle": "Energy-efficient BLDC pumps for water supply, irrigation, and solar applications"
+    },
+    "cablesWires": {
+      "title": "Cables & Wires",
+      "subtitle": "Industrial cables and wires for power transmission, instrumentation, and data communication"
+    },
+    "handTools": {
+      "title": "Hand Tools",
+      "subtitle": "Professional-grade hand tools for industrial maintenance and manufacturing applications"
+    },
+    "powerTools": {
+      "title": "Power Tools",
+      "subtitle": "Industrial-grade power tools for heavy-duty manufacturing and maintenance operations"
+    },
+    "cuttingTools": {
+      "title": "Cutting Tools",
+      "subtitle": "Professional cutting tools for machining, drilling, and material processing applications"
+    },
+    "liftingEquipment": {
+      "title": "Lifting Equipment",
+      "subtitle": "Industrial lifting and rigging equipment for safe material handling operations"
+    },
+    "valves": {
+      "title": "Valves & Actuators",
+      "subtitle": "Industrial valve automation solutions with pneumatic, electric, and hydraulic actuators",
+      "shortDescription": "Industrial valve automation solutions with pneumatic, electric, and hydraulic actuators",
+      "fullDescription": "Comprehensive valve automation portfolio including quarter-turn and linear valves with smart technologies, IoT connectivity, and condition monitoring.",
+      "seo": {
+        "title": "Industrial Valves & Actuators - Automated Control Solutions | Powerton Engineering",
+        "description": "Industrial valve automation with pneumatic, electric, and hydraulic actuators. Ball valves, butterfly valves, control valves with smart positioners and fail-safe operation.",
+        "keywords": "industrial valves, valve actuators, pneumatic actuators, electric actuators, control valves, automated valves, smart positioners"
+      },
+      "keyBenefits": {
+        "preciseFlowControl": "Precise Flow Control",
+        "enhancedSafety": "Enhanced Safety & Reliability",
+        "reducedEnergyConsumption": "Reduced Energy Consumption",
+        "predictiveMaintenance": "Predictive Maintenance Capability"
+      },
+      "specifications": {
+        "actuatorTypes": {
+          "label": "Actuator Types",
+          "value": "Pneumatic, Electric, Hydraulic"
+        },
+        "valveSizes": {
+          "label": "Valve Sizes",
+          "value": "1/4\" to 48\" (DN8 to DN1200)"
+        },
+        "pressureRating": {
+          "label": "Pressure Rating",
+          "value": "Up to 6000 PSI (414 bar)"
+        },
+        "temperatureRange": {
+          "label": "Temperature Range",
+          "value": "-40°F to 1000°F (-40°C to 538°C)"
+        }
+      },
+      "applications": {
+        "processControl": "Process Control",
+        "oilGas": "Oil & Gas",
+        "chemicalProcessing": "Chemical Processing",
+        "waterTreatment": "Water Treatment",
+        "powerGeneration": "Power Generation",
+        "hvacSystems": "HVAC Systems"
+      },
+      "industries": {
+        "oilGas": "Oil & Gas",
+        "chemicalPetrochemical": "Chemical & Petrochemical",
+        "powerGeneration": "Power Generation",
+        "waterWastewater": "Water & Wastewater",
+        "foodBeverage": "Food & Beverage",
+        "pharmaceutical": "Pharmaceutical"
+      }
+    },
+    "analyzers": {
+      "title": "Process Analyzers",
+      "subtitle": "Advanced analytical instruments for process monitoring",
+      "product": {
+        "title": "Process Analyzers",
+        "shortDescription": "Advanced gas and liquid analyzers for industrial process measurement and monitoring",
+        "fullDescription": "Comprehensive process analyzer solutions including gas analyzers, liquid analyzers, and multi-parameter measurement systems with Tunable Diode Laser technology.",
+        "keyBenefits": {
+          "processControl": "Improved Process Control",
+          "productQuality": "Enhanced Product Quality",
+          "compliance": "Regulatory Compliance",
+          "safety": "Enhanced Safety"
+        },
+        "altText": "ID-842: Process Analyzers - Industrial gas and liquid process analyzers"
+      },
+      "seo": {
+        "keywords": "process analyzers, gas analyzers, liquid analyzers, pH analyzers, conductivity meters, gas chromatography, process monitoring"
+      },
+      "sections": {
+        "overview": {
+          "title": "Advanced Process Analysis"
+        },
+        "technologies": {
+          "title": "Analysis Technologies",
+          "description": "Advanced measurement technologies for precise process analysis"
+        },
+        "specifications": {
+          "title": "Technical Specifications",
+          "description": "Precision specifications for reliable process monitoring"
+        }
+      },
+      "buttons": {
+        "consultation": "Analysis Consultation"
+      },
+      "labels": {
+        "technologies": "Technologies:",
+        "parameters": "Parameters:",
+        "specifications": "Specifications",
+        "applications": "Applications",
+        "industries": "Industries"
+      },
+      "cta": {
+        "title": "Need Process Analysis Solutions?",
+        "description": "Our process analysis experts can help you select the right analyzers for your monitoring and compliance requirements.",
+        "button": "Analysis Expert"
+      }
+    },
+    "automationControl": {
+      "title": "Automation & Control Systems",
+      "subtitle": "Advanced automation and control solutions for industrial process management and optimization",
+      "description": "Industrial automation controllers for process control",
+      "features": {
+        "digitalIO": "Digital I/O",
+        "analogProcessing": "Analog Processing",
+        "communicationModules": "Communication Modules",
+        "programmingSoftware": "Programming Software",
+        "realtimeMonitoring": "Real-time Monitoring",
+        "dataLogging": "Data Logging",
+        "alarmManagement": "Alarm Management",
+        "remoteAccess": "Remote Access",
+        "processControl": "Process Control",
+        "distributedArchitecture": "Distributed Architecture",
+        "redundancy": "Redundancy",
+        "advancedControl": "Advanced Control",
+        "touchscreenDisplays": "Touchscreen Displays",
+        "graphicInterface": "Graphic Interface",
+        "dataVisualization": "Data Visualization",
+        "operatorControl": "Operator Control"
+      },
+      "subcategories": {
+        "plcs": {
+          "title": "PLCs (Programmable Logic Controllers)",
+          "description": "Industrial automation controllers for process control"
+        },
+        "scada": {
+          "title": "SCADA Systems",
+          "description": "Supervisory control and data acquisition systems"
+        },
+        "dcs": {
+          "title": "DCS (Distributed Control Systems)",
+          "description": "Distributed control systems for large-scale processes"
+        },
+        "hmi": {
+          "title": "HMI (Human Machine Interface)",
+          "description": "User interfaces for industrial control systems"
+        }
+      },
+      "sections": {
+        "controlSystemSolutions": "Control System Solutions",
+        "keyFeatures": "Key Features:"
+      },
+      "cta": {
+        "needAutomationSolutions": "Need Automation Solutions?",
+        "engineersDescription": "Our automation engineers can design and implement comprehensive control systems for your facility.",
+        "contactAutomationExperts": "Contact Automation Experts",
+        "requestQuote": "Request Quote"
+      }
+    },
+    "bldcCeilingFan": {
+      "title": "BLDC Ceiling Fans",
+      "subtitle": "Energy-efficient brushless DC ceiling fans with smart features and superior performance",
+      "upgradeTitle": "Upgrade to BLDC Ceiling Fans?",
+      "upgradeDescription": "Our BLDC specialists can help you choose energy-efficient ceiling fan solutions for your space.",
+      "contactExperts": "Contact BLDC Experts"
+    },
+    "bldcCoolerExhaust": {
+      "title": "BLDC Cooler & Exhaust Motors",
+      "subtitle": "Energy-efficient BLDC motors for cooling, ventilation, and exhaust applications"
+    },
+    "bldcSubmersible": {
+      "title": "BLDC Submersible & Surface Pumps",
+      "subtitle": "Energy-efficient BLDC pumps for water supply, irrigation, and solar applications"
+    },
+    "bldcTableWall": {
+      "title": "BLDC Table & Wall Fan Motors",
+      "subtitle": "Energy-efficient BLDC motors for table fans, wall fans, and pedestal fans"
+    },
+    "bldc": {
+      "title": "BLDC Products",
+      "subtitle": "Brushless DC motor products for energy-efficient cooling, ventilation, and pumping applications"
+    },
+    "cables": {
+      "title": "Cables & Wires",
+      "subtitle": "Industrial cables and wiring solutions for power and control applications"
+    },
+    "calibration": {
+      "title": "Calibration Equipment",
+      "subtitle": "Precision calibration instruments and testing equipment"
+    },
+    "centrifugalPumps": {
+      "title": "Centrifugal Pumps",
+      "subtitle": "High-efficiency centrifugal pumps for industrial applications"
+    },
+    "circuitBreakers": {
+      "title": "Circuit Breakers & Fuses",
+      "subtitle": "Electrical protection devices for circuit safety"
+    },
+    "connectors": {
+      "title": "Connectors & Terminals",
+      "subtitle": "Electrical connectors and terminal solutions"
+    },
+    "controllers": {
+      "title": "Controllers",
+      "subtitle": "Industrial control systems and automation controllers"
+    },
+    "dcs": {
+      "title": "DCS (Distributed Control Systems)",
+      "subtitle": "Advanced distributed control systems for process industries"
+    },
+    "diaphragmPumps": {
+      "title": "Diaphragm Pumps",
+      "subtitle": "Precision dosing and chemical handling pumps"
+    },
+    "electricalComponents": {
+      "title": "Electrical Components",
+      "subtitle": "Complete electrical component solutions for industrial applications"
+    },
+    "enclosures": {
+      "title": "Enclosures & Cabinets",
+      "subtitle": "Electrical enclosures and control cabinet solutions"
+    },
+    "gearPumps": {
+      "title": "Gear Pumps",
+      "subtitle": "Precision gear pumps for hydraulic and industrial applications"
+    },
+    "grounding": {
+      "title": "Grounding Systems",
+      "subtitle": "Electrical grounding and earthing solutions for safety"
+    },
+    "heating": {
+      "title": "Heating Elements & Appliances",
+      "subtitle": "Industrial heating solutions and thermal equipment"
+    },
+    "hmi": {
+      "title": "HMI (Human Machine Interface)",
+      "subtitle": "Interactive operator interfaces for industrial automation"
+    },
+    "industrialTools": {
+      "title": "Industrial Tools & Tackles",
+      "subtitle": "Heavy-duty industrial tools and lifting equipment"
+    },
+    "instrumentation": {
+      "title": "Instrumentation Components",
+      "subtitle": "Precision instrumentation and measurement components"
+    },
+    "intrinsicallySafe": {
+      "title": "Intrinsically Safe Equipment",
+      "subtitle": "Certified equipment for hazardous area applications"
+    },
+    "lifting": {
+      "title": "Lifting Equipment",
+      "subtitle": "Industrial lifting and material handling solutions"
+    },
+    "measurement": {
+      "title": "Measurement Instruments",
+      "subtitle": "Precision measurement and testing instruments"
+    },
+    "mechanical": {
+      "title": "Mechanical Pumps & Spares",
+      "subtitle": "Mechanical pumps and spare parts for industrial applications"
+    },
+    "multimeters": {
+      "title": "Multimeters",
+      "subtitle": "Digital and analog multimeters for electrical testing"
+    },
+    "oscilloscopes": {
+      "title": "Oscilloscopes",
+      "subtitle": "Digital oscilloscopes for signal analysis and testing"
+    },
+    "plcs": {
+      "title": "PLCs (Programmable Logic Controllers)",
+      "subtitle": "Industrial programmable logic controllers for automation"
+    },
+    "powerQuality": {
+      "title": "Power Quality Analyzers",
+      "subtitle": "Power quality measurement and analysis instruments"
+    },
+    "powerSupplies": {
+      "title": "Power Supplies",
+      "subtitle": "Industrial power supply units and converters"
+    },
+    "pumpParts": {
+      "title": "Pump Parts & Spares",
+      "subtitle": "Replacement parts and components for pump systems"
+    },
+    "safetyEquipment": {
+      "title": "Safety Equipment",
+      "subtitle": "Personal protective equipment and safety devices"
+    },
+    "safetyProtective": {
+      "title": "Safety & Protective Devices",
+      "subtitle": "Industrial safety systems and protective equipment",
+      "description": "Comprehensive safety and protective equipment to ensure personnel and equipment safety in industrial environments",
+      "sectionsTitle": "Safety Solutions",
+      "cta": {
+        "title": "Prioritizing Safety in Your Operations?",
+        "description": "Our safety engineers can assess your facility and recommend comprehensive protective solutions.",
+        "contactButton": "Contact Safety Experts"
+      }
+    },
+    "safetyRelays": {
+      "title": "Safety Relays & Switches",
+      "subtitle": "Safety control relays and emergency stop systems"
+    },
+    "scada": {
+      "title": "SCADA Systems",
+      "subtitle": "Supervisory control and data acquisition systems"
+    },
+    "sensors": {
+      "title": "Sensors",
+      "subtitle": "Industrial sensors for measurement and control"
+    },
+    "signalConditioners": {
+      "title": "Signal Conditioners",
+      "subtitle": "Signal processing and conditioning equipment"
+    },
+    "solarBatteries": {
+      "title": "Solar Batteries & Energy Storage",
+      "subtitle": "Energy storage solutions for solar power systems"
+    },
+    "solarChargeControllers": {
+      "title": "Solar Charge Controllers",
+      "subtitle": "Solar charge controllers and power management"
+    },
+    "solarInverters": {
+      "title": "Solar Inverters",
+      "subtitle": "Solar power inverters and grid-tie systems"
+    },
+    "solarPanels": {
+      "title": "Solar Panels",
+      "subtitle": "High-efficiency solar panels and photovoltaic systems"
+    },
+    "solarProducts": {
+      "title": "Solar Products",
+      "subtitle": "Complete solar energy solutions and components"
+    },
+    "surgeProtectors": {
+      "title": "Surge Protectors",
+      "subtitle": "Electrical surge protection devices and systems"
+    },
+    "switches": {
+      "title": "Switches",
+      "subtitle": "Industrial switches and control devices"
+    }
   },
   "common": {
-    "keyFeatures": "الميزات الرئيسية:",
-    "needHelp": "تحتاج مساعدة؟",
-    "contactExperts": "اتصل بالخبراء",
-    "requestQuote": "اطلب عرض سعر",
-    "hazardousAreaSolutions": "حلول المناطق الخطرة",
-    "needEquipment": "تحتاج معدات؟",
-    "specialists": "متخصصون"
+    "keyFeatures": "Key Features:",
+    "needHelp": "Need Help?",
+    "contactExperts": "Contact Experts",
+    "requestQuote": "Request Quote",
+    "hazardousAreaSolutions": "Hazardous Area Solutions",
+    "needEquipment": "Need Equipment?",
+    "specialists": "specialists"
   },
   "hmi": {
-    "title": "واجهة الإنسان والآلة (HMI)",
-    "subtitle": "واجهات الإنسان والآلة الصناعية للتحكم والعرض المرئي للأنظمة",
+    "title": "HMI (Human Machine Interface)",
+    "subtitle": "Industrial human machine interfaces for operator control and system visualization",
     "navigation": {
-      "backToAutomation": "العودة إلى أنظمة الأتمتة والتحكم"
+      "backToAutomation": "Back to Automation & Control Systems"
     },
     "badges": {
-      "touchscreen": "شاشة لمس",
-      "industrialGrade": "درجة صناعية",
-      "realTimeDisplay": "عرض فوري",
-      "multiProtocol": "متعدد البروتوكولات"
+      "touchscreen": "Touchscreen",
+      "industrialGrade": "Industrial Grade",
+      "realTimeDisplay": "Real-time Display",
+      "multiProtocol": "Multi-Protocol"
     },
-    "solutionsTitle": "حلول واجهة الإنسان والآلة",
+    "solutionsTitle": "HMI Solutions",
     "products": {
       "panelMount": {
-        "name": "شاشات واجهة الإنسان والآلة مثبتة على لوحة",
-        "description": "شاشات لمس صناعية لواجهة الآلة",
+        "name": "Panel Mount HMI Displays",
+        "description": "Industrial touchscreen displays for machine interface",
         "features": [
           "Touch Interface",
           "Industrial Rating",
@@ -765,7 +1005,7 @@
         "name": "Operator Interface Terminals",
         "description": "Rugged operator terminals for harsh environments",
         "features": [
-          "تصنيف الحماية IP65/IP67",
+          "IP65/IP67 Rating",
           "Stainless Steel",
           "Membrane Keypad",
           "Backlit Display"
@@ -783,9 +1023,38 @@
       }
     },
     "cta": {
-      "title": "تحتاج حلول واجهة الإنسان والآلة؟",
+      "title": "Need HMI Solutions?",
       "description": "Our HMI specialists can design intuitive operator interfaces for your automation systems.",
       "contactExperts": "Contact HMI Experts"
+    }
+  },
+  "solarPanels": {
+    "monocrystalline": {
+      "description": "High-efficiency monocrystalline silicon solar panels",
+      "features": {
+        "efficiency": "21.5% Efficiency",
+        "warranty": "25 Year Warranty",
+        "weatherResistant": "Weather Resistant",
+        "antiReflective": "Anti-Reflective Coating"
+      }
+    },
+    "polycrystalline": {
+      "description": "Cost-effective polycrystalline solar panel solution",
+      "features": {
+        "efficiency": "19.2% Efficiency",
+        "warranty": "20 Year Warranty",
+        "durable": "Durable Construction",
+        "installation": "Easy Installation"
+      }
+    },
+    "bifacial": {
+      "description": "Advanced bifacial technology for maximum energy harvest",
+      "features": {
+        "frontBack": "Front + Back Generation",
+        "moreEnergy": "25% More Energy",
+        "glassDesign": "Glass-Glass Design",
+        "longLifespan": "Long Lifespan"
+      }
     }
   },
   "plcProducts": {
@@ -817,6 +1086,213 @@
       }
     }
   },
+  "features": {
+    "safetyDevices": {
+      "surgeProtectors": {
+        "title": "Surge Protectors",
+        "description": "Electrical surge protection devices for equipment safety",
+        "features": {
+          "lightning": "Lightning Protection",
+          "voltage": "Voltage Surge Protection",
+          "equipment": "Equipment Safety",
+          "power": "Power Quality"
+        }
+      },
+      "groundingSystems": {
+        "title": "Grounding Systems",
+        "description": "Electrical grounding and earthing systems for safety",
+        "features": {
+          "electrodes": "Earth Electrodes",
+          "rods": "Ground Rods",
+          "conductors": "Bonding Conductors",
+          "lightning": "Lightning Rods"
+        }
+      },
+      "safetyRelays": {
+        "title": "Safety Relays & Switches",
+        "description": "Safety control devices for emergency shutdown systems",
+        "features": {
+          "emergency": "Emergency Stop",
+          "monitoring": "Safety Monitoring",
+          "failSafe": "Fail-Safe Design",
+          "certified": "Certified Safety"
+        }
+      },
+      "intrinsicallySafe": {
+        "title": "Intrinsically Safe Equipment",
+        "description": "Explosion-proof equipment for hazardous environments",
+        "features": {
+          "atex": "ATEX Certified",
+          "explosion": "Explosion Proof",
+          "hazardous": "Hazardous Area",
+          "intrinsic": "Intrinsic Safety"
+        }
+      },
+      "badges": {
+        "surgeProtection": "Surge Protection",
+        "groundingSystems": "Grounding Systems",
+        "safetyRelays": "Safety Relays",
+        "intrinsicSafety": "Intrinsic Safety"
+      }
+    },
+    "common": {
+      "highTorque": "High Torque",
+      "variableSpeed": "Variable Speed",
+      "cordlessOptions": "Cordless Options",
+      "chuckCapacity": "Chuck Capacity: 13mm",
+      "multipleSizes": "Multiple Sizes",
+      "safetyGuards": "Safety Guards",
+      "antiVibration": "Anti-Vibration",
+      "powerfulMotors": "Powerful Motors",
+      "highImpactForce": "High Impact Force",
+      "socketCompatibility": "Socket Compatibility",
+      "forwardReverse": "Forward/Reverse",
+      "batteryPowered": "Battery Powered",
+      "efficientSwitching": "85-265V AC Input",
+      "dcOutput": "12V/24V DC Output",
+      "highEfficiency": "High Efficiency",
+      "compactDesign": "Compact Design",
+      "dinRailMount": "DIN Rail Mount",
+      "wideInputRange": "Wide Input Range",
+      "shortCircuitProtection": "Short Circuit Protection",
+      "ledStatus": "LED Status",
+      "batteryBackup": "Battery Backup",
+      "surgeProtection": "Surge Protection",
+      "autoTransfer": "Auto Transfer",
+      "lcdDisplay": "LCD Display",
+      "castIronBronze": "Cast Iron/Bronze",
+      "stainlessSteelSizes": "Stainless Steel",
+      "balancedDesign": "Balanced Design",
+      "singleDoubleSeals": "Single/Double Seals",
+      "cartridgeType": "Cartridge Type",
+      "highTemperature": "High Temperature",
+      "chemicalResistant": "Chemical Resistant",
+      "rollingElement": "Rolling Element",
+      "sleeveBearings": "Sleeve Bearings",
+      "flexibleCouplings": "Flexible Couplings",
+      "alignmentTools": "Alignment Tools",
+      "threePhase": "Three-Phase Measurement",
+      "harmonicsAnalysis": "Harmonics Analysis",
+      "transientCapture": "Transient Capture",
+      "powerLogging": "Power Logging",
+      "voltageDip": "Voltage Dip Detection",
+      "flickerMeasurement": "Flicker Measurement",
+      "energyAssessment": "Energy Assessment",
+      "realTimeAnalysis": "Real-time Analysis",
+      "continuousMonitoring": "Continuous Monitoring",
+      "eventRecording": "Event Recording",
+      "complianceTesting": "Compliance Testing",
+      "remoteAccess": "Remote Access",
+      "selfPriming": "Self-Priming",
+      "dryRunSafe": "Dry Run Safe",
+      "variableFlow": "Variable Flow",
+      "preciseMeteringLow": "Precise Metering",
+      "lowPulsation": "Low Pulsation",
+      "digitalControl": "Digital Control",
+      "easyMaintenance": "Easy Maintenance",
+      "highPressure": "High Pressure",
+      "lowFlowRates": "Low Flow Rates",
+      "accurateDosing": "Accurate Dosing",
+      "leakFreeOperation": "Leak-Free Operation"
+    },
+    "product": {
+      "safetyEquipment": {
+        "fullBodyHarness": "Full Body Harness",
+        "lanyards": "Lanyards",
+        "anchorPoints": "Anchor Points",
+        "selfRetracting": "Self-Retracting",
+        "multiGasDetectors": "Multi-Gas Detectors",
+        "singleGas": "Single Gas",
+        "wirelessMonitoring": "Wireless Monitoring",
+        "dataLogging": "Data Logging"
+      },
+      "electrical": {
+        "powerCables": "Power Cables",
+        "controlCables": "Control Cables",
+        "instrumentationCables": "Instrumentation Cables",
+        "communicationCables": "Communication Cables",
+        "terminalBlocks": "Terminal Blocks",
+        "wireConnectors": "Wire Connectors",
+        "dinRailTerminals": "DIN Rail Terminals",
+        "junctionBoxes": "Junction Boxes",
+        "mcbs": "MCBs",
+        "mccbs": "MCCBs",
+        "rccbs": "RCCBs",
+        "industrialFuses": "Industrial Fuses",
+        "smps": "SMPS",
+        "dcDcConverters": "DC-DC Converters",
+        "upsSystems": "UPS Systems",
+        "controlPanels": "Control Panels",
+        "distributionBoards": "Distribution Boards",
+        "weatherproofEnclosures": "Weatherproof Enclosures",
+        "heatingElements": "Heating Elements",
+        "industrialHeaters": "Industrial Heaters",
+        "temperatureControllers": "Temperature Controllers",
+        "thermalProtection": "Thermal Protection"
+      },
+      "pumps": {
+        "viscousFluids": "Viscous Fluids",
+        "preciseFlow": "Precise Flow",
+        "castIronSteel": "Cast Iron/Steel",
+        "gentleHandling": "Gentle Handling",
+        "noMechanicalSeal": "No Mechanical Seal",
+        "leakFree": "Leak-Free"
+      },
+      "enclosures": {
+        "nema4xRating": "NEMA 4X Rating",
+        "gasketSealed": "Gasket Sealed",
+        "floorStanding": "Floor Standing",
+        "wallMount": "Wall Mount",
+        "cableManagement": "Cable Management",
+        "coolingOptions": "Cooling Options",
+        "ip65Ip67Rating": "IP65/IP67 Rating",
+        "explosionProof": "Explosion Proof",
+        "cableGlands": "Cable Glands",
+        "corrosionResistant": "Corrosion Resistant"
+      }
+    }
+  },
+  "locations": {
+    "delhiNcr": "Delhi NCR",
+    "rajasthan": "Rajasthan",
+    "uttarPradesh": "Uttar Pradesh",
+    "gujarat": "Gujarat",
+    "maharashtra": "Maharashtra",
+    "haryana": "Haryana",
+    "westBengal": "West Bengal"
+  },
+  "brands": {
+    "customBuilt": "Custom Built",
+    "fluke": "Fluke, Keysight",
+    "siemens": "Siemens, Allen Bradley",
+    "abb": "ABB, Schneider",
+    "honeywell": "Honeywell, Yokogawa",
+    "wonderware": "Wonderware, iFIX",
+    "grundfos": "Grundfos, KSB",
+    "3m": "3M, MSA"
+  },
+  "items": {
+    "instrumentation-components": "Instrumentation Components",
+    "electrical-components": "Electrical Components",
+    "measurement-instruments": "Measurement Instruments",
+    "solar-products": "Solar Products",
+    "automation-control-systems": "Automation & Control Systems",
+    "safety-protective-devices": "Safety & Protective Devices",
+    "mechanical-pumps-spares": "Mechanical Pumps & Spares",
+    "industrial-tools-tackles": "Industrial Tools & Tackles",
+    "bldc": "BLDC Products"
+  },
+  "tags": {
+    "industrialAutomation": "Industrial Automation",
+    "plcSystems": "PLC Systems",
+    "scada": "SCADA",
+    "manufacturing": "Manufacturing",
+    "processOptimization": "Process Optimization"
+  },
+  "gallery": {
+    "imagePlaceholder": "Image placeholder",
+    "actualImages": "Actual images to be uploaded"
+  },
   "labels": {
     "specifications": "Specifications",
     "applications": "Applications",
@@ -826,10 +1302,14 @@
     "parameters": "Parameters:"
   },
   "badges": {
+    "ppe": "PPE",
+    "fallProtection": "Fall Protection",
+    "gasDetection": "Gas Detection",
+    "oshaCompliant": "OSHA Compliant",
     "signalIntelligence": "Signal Intelligence",
     "vectorAnalysis": "Vector Analysis",
     "rfAnalysis": "RF Analysis",
-    "emiTesting": "تداخل كهرومغناطيسي Testing",
+    "emiTesting": "EMI Testing",
     "monocrystalline": "Monocrystalline",
     "polycrystalline": "Polycrystalline",
     "bifacial": "Bifacial",
@@ -874,212 +1354,181 @@
     "conductors": "Conductors",
     "safetyGrounding": "Safety Grounding"
   },
-  "solarPanels": {
-    "monocrystalline": {
-      "description": "High-efficiency monocrystalline silicon solar panels",
-      "features": {
-        "efficiency": "21.5% Efficiency",
-        "warranty": "25 Year Warranty",
-        "weatherResistant": "Weather Resistant",
-        "antiReflective": "Anti-Reflective Coating"
-      }
-    },
-    "polycrystalline": {
-      "description": "Cost-effective polycrystalline solar panel solution",
-      "features": {
-        "efficiency": "19.2% Efficiency",
-        "warranty": "20 Year Warranty",
-        "durable": "Durable Construction",
-        "installation": "Easy Installation"
-      }
-    },
-    "bifacial": {
-      "description": "Advanced bifacial technology for maximum energy harvest",
-      "features": {
-        "frontBack": "Front + Back Generation",
-        "moreEnergy": "25% More Energy",
-        "glassDesign": "Glass-Glass Design",
-        "longLifespan": "Long Lifespan"
-      }
-    }
-  }
-
-,
   "productDetails": {
     "instrumentation": {
-      "fullDescription": "مجموعة شاملة من مكونات الأجهزة الدقيقة للمراقبة والتحكم الصناعي.",
+      "fullDescription": "Comprehensive range of precision instrumentation components for industrial monitoring and control applications.",
       "specifications": {
-        "highAccuracy": "دقة عالية: ±0.1% إلى ±0.5%",
-        "operatingTemperature": "درجة حرارة التشغيل: -40°م إلى +85°م",
-        "protectionRating": "تصنيف الحماية IP65/IP67",
-        "outputTypes": "المخرجات: 4-20mA, 0-10V, HART, Profibus",
-        "explosionProof": "متوفرة بأنواع مقاومة للانفجار"
+        "highAccuracy": "High accuracy: ±0.1% to ±0.5%",
+        "operatingTemperature": "Operating temperature: -40°C to +85°C",
+        "protectionRating": "IP65/IP67 protection rating",
+        "outputTypes": "4-20mA, 0-10V, HART, Profibus outputs",
+        "explosionProof": "Explosion-proof variants available"
       },
       "applications": {
-        "processControl": "التحكم في العملية",
-        "qualityMonitoring": "مراقبة الجودة",
-        "safetySystems": "أنظمة السلامة",
-        "environmentalMonitoring": "المراقبة البيئية"
+        "processControl": "Process Control",
+        "qualityMonitoring": "Quality Monitoring",
+        "safetySystems": "Safety Systems",
+        "environmentalMonitoring": "Environmental Monitoring"
       },
       "features": {
-        "smartDiagnostics": "التشخيص الذكي",
-        "digitalCommunication": "الاتصال الرقمي",
-        "easyCalibration": "معايرة سهلة",
-        "longTermStability": "الاستقرار طويل الأمد"
+        "smartDiagnostics": "Smart Diagnostics",
+        "digitalCommunication": "Digital Communication",
+        "easyCalibration": "Easy Calibration",
+        "longTermStability": "Long-term Stability"
       }
     },
     "electrical": {
-      "fullDescription": "مجموعة كاملة من المكونات الكهربائية بما في ذلك المفاتيح والمرحلات والموصلات ومعدات توزيع الطاقة للتطبيقات الصناعية.",
+      "fullDescription": "Complete range of electrical components including switches, relays, contactors, and power distribution equipment for industrial applications.",
       "specifications": {
-        "voltageRange": "نطاق الجهد: 24V DC إلى 690V AC",
-        "currentRatings": "تصنيف التيار: 1A إلى 1000A",
-        "protectionLevel": "حماية IP54 إلى IP67",
-        "standardsCompliant": "متوافق مع معايير IEC/IS",
-        "temperatureRated": "تصنيف درجة الحرارة: -25°م إلى +70°م"
+        "voltageRange": "Voltage range: 24V DC to 690V AC",
+        "currentRatings": "Current ratings: 1A to 1000A",
+        "protectionLevel": "IP54 to IP67 protection",
+        "standardsCompliant": "IEC/IS standards compliant",
+        "temperatureRated": "Temperature rated: -25°C to +70°C"
       },
       "applications": {
-        "motorControl": "التحكم في المحرك",
-        "powerDistribution": "توزيع الطاقة",
-        "switchingApplications": "تطبيقات التبديل",
-        "protectionSystems": "أنظمة الحماية"
+        "motorControl": "Motor Control",
+        "powerDistribution": "Power Distribution",
+        "switchingApplications": "Switching Applications",
+        "protectionSystems": "Protection Systems"
       },
       "features": {
-        "highReliability": "موثوقية عالية",
-        "modularDesign": "تصميم معياري",
-        "easyInstallation": "تركيب سهل",
-        "maintenanceFree": "خالي من الصيانة"
-      }
-    },
-    "automation": {
-      "fullDescription": "أنظمة أتمتة وتحكم متطورة تشمل أجهزة PLC وHMI وحلول SCADA وأجهزة الاتصال الصناعية.",
-      "specifications": {
-        "ioCapacity": "سعة الإدخال/الإخراج: 16 إلى 2048 نقطة",
-        "communicationProtocols": "الاتصال: Ethernet, Profibus, Modbus",
-        "programmingStandards": "البرمجة: متوافق مع IEC 61131-3",
-        "operatingTemperature": "درجة حرارة التشغيل: 0°م إلى +60°م",
-        "redundancyOptions": "خيارات التكرار متاحة"
-      },
-      "applications": {
-        "manufacturingAutomation": "أتمتة التصنيع",
-        "processControl": "التحكم في العمليات",
-        "buildingManagement": "إدارة المباني",
-        "machineControl": "التحكم في الآلات"
-      },
-      "features": {
-        "flexibleProgramming": "برمجة مرنة",
-        "scalableArchitecture": "هندسة قابلة للتوسع",
-        "diagnosticTools": "أدوات التشخيص",
-        "remoteMonitoring": "المراقبة عن بُعد"
+        "highReliability": "High Reliability",
+        "modularDesign": "Modular Design",
+        "easyInstallation": "Easy Installation",
+        "maintenanceFree": "Maintenance-Free"
       }
     },
     "measurement": {
-      "fullDescription": "أجهزة القياس الرقمية المتطورة وأجهزة التحليل ومعدات المعايرة للقياس والمراقبة الدقيقة للمعاملات الكهربائية والعمليات.",
+      "fullDescription": "Advanced digital meters, analyzers, and calibration equipment for precise measurement and monitoring of electrical and process parameters.",
       "specifications": {
-        "accuracyClass": "فئة الدقة: 0.1 إلى 1.0",
-        "displayType": "الشاشة: LCD/دايود باعث للضوء رقمية",
-        "communicationOptions": "الاتصال: RS485, Ethernet, اللاسلكي",
-        "dataLogging": "إمكانية تسجيل البيانات",
-        "multipleParameter": "قياس معاملات متعددة"
+        "accuracyClass": "Accuracy class: 0.1 to 1.0",
+        "displayType": "Display: Digital LCD/LED",
+        "communicationOptions": "Communication: RS485, Ethernet, Wireless",
+        "dataLogging": "Data logging capability",
+        "multipleParameter": "Multiple parameter measurement"
       },
       "applications": {
-        "powerQualityAnalysis": "تحليل جودة الطاقة",
-        "energyManagement": "إدارة الطاقة",
-        "processMonitoring": "مراقبة العمليات",
-        "complianceMeasurement": "قياس الامتثال"
+        "powerQualityAnalysis": "Power Quality Analysis",
+        "energyManagement": "Energy Management",
+        "processMonitoring": "Process Monitoring",
+        "complianceMeasurement": "Compliance Measurement"
       },
       "features": {
-        "realTimeMonitoring": "المراقبة في الوقت الفعلي",
-        "dataAnalytics": "تحليل البيانات",
-        "alarmManagement": "إدارة التنبيهات",
-        "remoteAccess": "الوصول عن بُعد"
+        "realTimeMonitoring": "Real-time Monitoring",
+        "dataAnalytics": "Data Analytics",
+        "alarmManagement": "Alarm Management",
+        "remoteAccess": "Remote Access"
       }
     },
     "solar": {
-      "fullDescription": "حلول الطاقة الشمسية الكاملة تشمل الألواح والعاكسات وأنظمة المراقبة ومعدات ربط الشبكة لتوليد الطاقة المستدامة.",
+      "fullDescription": "Complete solar energy solutions including panels, inverters, monitoring systems, and grid-tie equipment for sustainable energy generation.",
       "specifications": {
-        "panelEfficiency": "كفاءة اللوح: 19-22%",
-        "powerRange": "نطاق الطاقة: 300W إلى 500W لكل لوح",
-        "inverterEfficiency": "كفاءة العاكس: >98%",
-        "warranty": "ضمان 25 سنة على الألواح",
-        "gridOptions": "حلول ربط الشبكة ومنفصلة عن الشبكة"
+        "panelEfficiency": "Panel efficiency: 19-22%",
+        "powerRange": "Power range: 300W to 500W per panel",
+        "inverterEfficiency": "Inverter efficiency: >98%",
+        "warranty": "25-year warranty on panels",
+        "gridOptions": "Grid-tie and off-grid solutions"
       },
       "applications": {
-        "rooftopSolar": "الطاقة الشمسية للأسطح",
-        "groundMountSystems": "أنظمة التركيب الأرضي",
-        "solarFarms": "مزارع الطاقة الشمسية",
-        "hybridSystems": "الأنظمة الهجينة"
+        "rooftopSolar": "Rooftop Solar",
+        "groundMountSystems": "Ground Mount Systems",
+        "solarFarms": "Solar Farms",
+        "hybridSystems": "Hybrid Systems"
       },
       "features": {
-        "highEfficiency": "كفاءة عالية",
-        "weatherResistant": "مقاوم للطقس",
-        "smartMonitoring": "مراقبة ذكية",
-        "gridSynchronization": "مزامنة الشبكة"
+        "highEfficiency": "High Efficiency",
+        "weatherResistant": "Weather Resistant",
+        "smartMonitoring": "Smart Monitoring",
+        "gridSynchronization": "Grid Synchronization"
+      }
+    },
+    "automation": {
+      "fullDescription": "Advanced automation and control systems including PLCs, HMIs, SCADA solutions, and industrial communication devices.",
+      "specifications": {
+        "ioCapacity": "I/O capacity: 16 to 2048 points",
+        "communicationProtocols": "Communication: Ethernet, Profibus, Modbus",
+        "programmingStandards": "Programming: IEC 61131-3 compliant",
+        "operatingTemperature": "Operating temperature: 0°C to +60°C",
+        "redundancyOptions": "Redundancy options available"
+      },
+      "applications": {
+        "manufacturingAutomation": "Manufacturing Automation",
+        "processControl": "Process Control",
+        "buildingManagement": "Building Management",
+        "machineControl": "Machine Control"
+      },
+      "features": {
+        "flexibleProgramming": "Flexible Programming",
+        "scalableArchitecture": "Scalable Architecture",
+        "diagnosticTools": "Diagnostic Tools",
+        "remoteMonitoring": "Remote Monitoring"
       }
     },
     "safety": {
-      "fullDescription": "معدات السلامة والحماية الشاملة تشمل قواطع الدوائر ومرحلات السلامة وأنظمة التوقف الطارئ والأجهزة الوقائية.",
+      "fullDescription": "Comprehensive safety and protection equipment including circuit breakers, safety relays, emergency stop systems, and protective devices.",
       "specifications": {
-        "breakingCapacity": "قدرة القطع: 6kA إلى 100kA",
-        "safetyIntegrityLevel": "مستوى سلامة النظام: SIL 2/3",
-        "responseTime": "وقت الاستجابة: <10ms",
-        "multipleProtectionFunctions": "وظائف حماية متعددة",
-        "arcFaultProtection": "حماية من أخطاء القوس متاحة"
+        "breakingCapacity": "Breaking capacity: 6kA to 100kA",
+        "safetyIntegrityLevel": "Safety integrity level: SIL 2/3",
+        "responseTime": "Response time: <10ms",
+        "multipleProtectionFunctions": "Multiple protection functions",
+        "arcFaultProtection": "Arc fault protection available"
       },
       "applications": {
-        "personnelSafety": "سلامة الأفراد",
-        "equipmentProtection": "حماية المعدات",
-        "fireSafety": "سلامة الحريق",
-        "emergencySystems": "أنظمة الطوارئ"
+        "personnelSafety": "Personnel Safety",
+        "equipmentProtection": "Equipment Protection",
+        "fireSafety": "Fire Safety",
+        "emergencySystems": "Emergency Systems"
       },
       "features": {
-        "failSafeOperation": "تشغيل آمن من الأعطال",
-        "selfMonitoring": "مراقبة ذاتية",
-        "quickResponse": "استجابة سريعة",
-        "easyTesting": "اختبار سهل"
+        "failSafeOperation": "Fail-Safe Operation",
+        "selfMonitoring": "Self-Monitoring",
+        "quickResponse": "Quick Response",
+        "easyTesting": "Easy Testing"
       }
     },
     "pumps": {
-      "fullDescription": "مضخات ميكانيكية عالية الجودة وقطع غيار ومجموعات صيانة لمختلف التطبيقات الصناعية والتجارية.",
+      "fullDescription": "High-quality mechanical pumps, spare parts, and maintenance kits for various industrial and commercial applications.",
       "specifications": {
-        "flowRate": "معدل التدفق: 10 LPM إلى 5000 LPM",
-        "head": "الارتفاع: 10m إلى 500m",
-        "materials": "المواد: حديد مصبوب، SS316، برونز",
-        "temperatureRange": "درجة الحرارة: -20°م إلى +180°م",
-        "efficiency": "الكفاءة: حتى 85%"
+        "flowRate": "Flow rate: 10 LPM to 5000 LPM",
+        "head": "Head: 10m to 500m",
+        "materials": "Material: Cast iron, SS316, Bronze",
+        "temperatureRange": "Temperature: -20°C to +180°C",
+        "efficiency": "Efficiency: up to 85%"
       },
       "applications": {
-        "waterSupply": "إمداد المياه",
-        "chemicalProcessing": "المعالجة الكيميائية",
-        "hvacSystems": "أنظمة HVAC",
-        "industrialProcesses": "العمليات الصناعية"
+        "waterSupply": "Water Supply",
+        "chemicalProcessing": "Chemical Processing",
+        "hvacSystems": "HVAC Systems",
+        "industrialProcesses": "Industrial Processes"
       },
       "features": {
-        "energyEfficient": "موفر للطاقة",
-        "corrosionResistant": "مقاوم للتآكل",
-        "lowMaintenance": "صيانة قليلة",
-        "reliableOperation": "تشغيل موثوق"
+        "energyEfficient": "Energy Efficient",
+        "corrosionResistant": "Corrosion Resistant",
+        "lowMaintenance": "Low Maintenance",
+        "reliableOperation": "Reliable Operation"
       }
     },
     "tools": {
-      "fullDescription": "أدوات صناعية ومعدات صيانة احترافية الجودة لمختلف تطبيقات الهندسة والصيانة.",
+      "fullDescription": "Professional grade industrial tools, tackles, and maintenance equipment for various engineering and maintenance applications.",
       "specifications": {
-        "material": "المواد: فولاذ/سبائك عالية الجودة",
-        "precision": "الدقة: ±0.1mm دقة",
-        "operatingRange": "نطاق التشغيل: أحجام مختلفة",
-        "ergonomicDesign": "تصميم مريح",
-        "certifiedStandards": "معتمد للمعايير الدولية"
+        "material": "Material: High-grade steel/alloy",
+        "precision": "Precision: ±0.1mm accuracy",
+        "operatingRange": "Operating range: Various sizes",
+        "ergonomicDesign": "Ergonomic design",
+        "certifiedStandards": "Certified to international standards"
       },
       "applications": {
-        "maintenanceWork": "أعمال الصيانة",
-        "installation": "التركيب",
-        "calibration": "المعايرة",
-        "testingCommissioning": "الاختبار والتشغيل"
+        "maintenanceWork": "Maintenance Work",
+        "installation": "Installation",
+        "calibration": "Calibration",
+        "testingCommissioning": "Testing & Commissioning"
       },
       "features": {
-        "durableConstruction": "بناء متين",
-        "ergonomicDesign": "تصميم مريح",
-        "precisionEngineering": "هندسة دقيقة",
-        "multiPurposeUse": "استخدام متعدد الأغراض"
+        "durableConstruction": "Durable Construction",
+        "ergonomicDesign": "Ergonomic Design",
+        "precisionEngineering": "Precision Engineering",
+        "multiPurposeUse": "Multi-Purpose Use"
       }
     }
   }

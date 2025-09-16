@@ -1,1539 +1,980 @@
 {
   "news": {
     "hero": {
-      "title": "समाचार",
-      "titleHighlight": "अपडेट",
-      "subtitle": "हमारी नवीनतम उपलब्धियों, आगामी परियोजनाओं, उद्योग की मान्यता और औद्योगिक स्वचालन के भविष्य के लिए हमारी रणनीतिक दृष्टि के बारे में जानें।",
+      "title": "News",
+      "titleHighlight": "Updates",
+      "subtitle": "Stay informed about our latest achievements, upcoming projects, industry recognitions, and our strategic vision for the future of industrial automation.",
       "badges": {
-        "awardWinning": "पुरस्कार विजेता उद्यम",
-        "growingStrong": "मजबूत विकास",
-        "futureReady": "भविष्य के लिए तैयार"
+        "awardWinning": "Award Winning",
+        "growingStrong": "Growing Strong",
+        "futureReady": "Future Ready"
       }
     },
     "latestNews": {
       "excellenceAward": {
-        "title": "पावरटन इंजीनियरिंग ने 2024 उत्कृष्टता पुरस्कार जीता",
-        "category": "पुरस्कार",
-        "excerpt": "औद्योगिक स्वचालन और विद्युत इंजीनियरिंग समाधानों में उत्कृष्ट नवाचार के लिए मान्यता प्राप्त।"
+        "title": "Powerton Engineering Receives 2024 Excellence Award",
+        "category": "Awards",
+        "excerpt": "Recognized for outstanding innovation in industrial automation and electrical engineering solutions."
       },
       "ntpcContract": {
-        "title": "एनटीपीसी को विद्युत संयंत्र स्वचालन के लिए महत्वपूर्ण अनुबंध मिला",
-        "category": "व्यापार",
-        "excerpt": "पांच सौ मेगावाट के ताप विद्युत संयंत्र के आधुनिकीकरण के लिए व्यापक स्वचालन अनुबंध प्राप्त हुआ।"
+        "title": "Secures Major Contract with NTPC for Power Plant Automation",
+        "category": "Business",
+        "excerpt": "Awarded comprehensive automation contract for a 500MW thermal power plant modernization project."
       },
       "renewableExpansion": {
-        "title": "भारत में नवीकरणीय ऊर्जा समाधानों का विस्तार",
-        "category": "कंपनी",
-        "excerpt": "भारत के नवीकरणीय ऊर्जा परिवर्तन का समर्थन करने के लिए नई सौर ईपीसी क्षमताएं और साझेदारी।"
+        "title": "Expanding Renewable Energy Solutions in India",
+        "category": "Company",
+        "excerpt": "New solar EPC capabilities and partnerships supporting India's renewable energy transition."
       },
       "rdFacility": {
-        "title": "नोएडा में नया अत्याधुनिक अनुसंधान एवं विकास सुविधा केंद्र खुला",
-        "category": "बुनियादी ढाँचा",
-        "excerpt": "उत्पाद विकास के लिए नवीनतम परीक्षण उपकरणों और उन्नत स्वचालन प्रयोगशालाओं से सुसज्जित नोएडा में हमारी नई पाँच हजार वर्ग फुट की अनुसंधान एवं विकास सुविधा खोली गई है।"
+        "title": "New State-of-the-Art R&D Facility Launched in Noida",
+        "category": "Infrastructure",
+        "excerpt": "Our new 5,000 sq ft R&D facility in Noida is now operational, equipped with the latest testing equipment and advanced automation labs for product development."
       },
       "europeanPartnership": {
-        "title": "प्रमुख यूरोपीय स्वचालन प्रौद्योगिकी आपूर्तिकर्ता के साथ साझेदारी",
-        "category": "साझेदारी",
-        "excerpt": "हमने अग्रणी यूरोपीय स्वचालन प्रौद्योगिकी आपूर्तिकर्ता के साथ एक रणनीतिक साझेदारी की है, जो भारतीय बाजार में अत्याधुनिक पीएलसी और एससीएडीए समाधान लाती है।"
+        "title": "Partnership Established with Leading European Automation Technology Provider",
+        "category": "Partnerships",
+        "excerpt": "We have formed a strategic partnership with a leading European automation technology provider to bring cutting-edge PLC and SCADA solutions to the Indian market."
       },
       "isoAchievement": {
-        "title": "आईएसओ 9001:2015 प्रमाणन उपलब्धि",
-        "category": "गुणवत्ता",
-        "excerpt": "पावरटन इंजीनियरिंग ने सफलतापूर्वक आईएसओ 9001:2015 प्रमाणन प्राप्त किया है, जो हमारी गुणवत्ता प्रबंधन प्रणालियों और सभी प्रक्रियाओं में निरंतर सुधार के प्रति हमारी प्रतिबद्धता को दर्शाता है।"
+        "title": "ISO 9001:2015 Certification Achievement",
+        "category": "Quality",
+        "excerpt": "Powerton Engineering has successfully achieved ISO 9001:2015 certification, demonstrating our commitment to quality management systems and continuous improvement across all processes."
       }
     },
     "tabs": {
-      "latestNews": "नवीनतम समाचार",
-      "upcomingProjects": "आगामी परियोजनाएँ",
-      "achievements": "उपलब्धियाँ",
-      "futureGoals": "भविष्य के लक्ष्य"
+      "latestNews": "Latest News",
+      "upcomingProjects": "Upcoming Projects",
+      "achievements": "Achievements",
+      "futureGoals": "Future Goals"
     },
     "sections": {
-      "featuredNews": "विशेष रुप से प्रदर्शित समाचार",
-      "allNews": "सभी समाचार",
-      "allCategories": "सभी श्रेणियाँ",
-      "upcomingProjects": "आगामी परियोजनाएँ"
-    }
-  },
-  "projects": {
-    "hero": {
-      "title": "इंजीनियरिंग उत्कृष्टता पोर्टफोलियो",
-      "subtitle": "1200 से अधिक विभिन्न उद्योगों में सफल परियोजनाओं के माध्यम से हमारी इंजीनियरिंग उत्कृष्टता का प्रदर्शन, नवाचार, गुणवत्ता और विश्वसनीयता पर प्रकाश डालता है।"
-    },
-    "portfolioDescription": "विभिन्न उद्योगों में नवीन समाधानों को प्रदर्शित करने वाली प्रदर्शन परियोजनाओं के माध्यम से हमारी इंजीनियरिंग क्षमताओं का अन्वेषण करें। वास्तविक परियोजना पोर्टफोलियो जल्द ही आ रहा है।",
-    "showing": "{{count}} परियोजनाएँ दिखाई जा रही हैं",
-    "featured": "विशेष रुप से प्रदर्शित",
-    "statuses": {
-      "capabilitydemo": "क्षमता प्रदर्शन",
-      "inprogress": "प्रगति में"
-    },
-    "categories": {
-      "processautomation": "प्रक्रिया स्वचालन",
-      "powersystems": "विद्युत प्रणालियाँ",
-      "solarsolutions": "सौर समाधान"
-    },
-    "technologies": {
-      "plcprogramming": "प्रोग्रामेबल लॉजिक कंट्रोलर प्रोग्रामिंग",
-      "scada": "निगरानी नियंत्रण और डेटा अधिग्रहण प्रणाली",
-      "hmi": "मानव मशीन इंटरफेस",
-      "mccpanels": "मोटर नियंत्रण केंद्र पैनल",
-      "protectionsystems": "सुरक्षा प्रणाली",
-      "energymanagement": "ऊर्जा प्रबंधन",
-      "solarinverters": "सौर इन्वर्टर",
-      "gridsync": "ग्रिड सिंक्रनाइज़ेशन",
-      "weathermonitoring": "मौसम निगरानी",
-      "processcontrol": "प्रक्रिया नियंत्रण",
-      "safetysystems": "सुरक्षा प्रणाली",
-      "environmentalmonitoring": "पर्यावरण निगरानी",
-      "industrialiot": "औद्योगिक इंटरनेट ऑफ थिंग्स",
-      "predictiveanalytics": "भविष्य कहनेवाला विश्लेषण",
-      "edgecomputing": "एज कंप्यूटिंग"
-    },
-    "moreItems": "+{{count}} अधिक",
-    "items": {
-      "process-control-demo": {
-        "title": "प्रदर्शन: प्रक्रिया नियंत्रण समाधान",
-        "client": "भविष्य के औद्योगिक भागीदार",
-        "description": "सुरक्षा प्रणाली, पर्यावरण निगरानी और औद्योगिक अनुप्रयोगों के लिए बैच नियंत्रण सहित पूर्ण प्रक्रिया स्वचालन क्षमताओं का प्रदर्शन।",
-        "location": "परियोजना स्थल का निर्धारण किया जाना है",
-        "duration": "आठ से बारह महीने"
-      },
-      "smart-factory-progress": {
-        "title": "प्रदर्शन: स्मार्ट फैक्टरी एकीकरण",
-        "client": "वर्तमान विकास ग्राहक",
-        "description": "स्मार्ट फैक्टरी एकीकरण का एक निरंतर प्रदर्शन, आधुनिक विनिर्माण के लिए IoT कनेक्टिविटी, भविष्य कहनेवाला रखरखाव और डेटा-संचालित अनुकूलन का प्रदर्शन।",
-        "location": "विकास स्थल",
-        "duration": "चौदह महीने"
-      }
-    },
-    "cta": {
-      "title": "अपनी अगली परियोजना शुरू करने के लिए तैयार हैं?",
-      "description": "हमारे अनुभवी इंजीनियर आपकी औद्योगिक स्वचालन और विद्युत इंजीनियरिंग आवश्यकताओं के लिए अनुकूलित समाधान डिजाइन कर सकते हैं।",
-      "getProjectQuote": "एक परियोजना उद्धरण प्राप्त करें",
-      "contactTeam": "टीम से संपर्क करें"
+      "featuredNews": "Featured News",
+      "allNews": "All News",
+      "allCategories": "All Categories",
+      "upcomingProjects": "Upcoming Projects"
     }
   },
   "home": {
     "seo": {
-      "title": "पॉवरटन इंजीनियरिंग - औद्योगिक स्वचालन और नियंत्रण पैनल | चीन",
-      "description": "विद्युत नियंत्रण पैनल, औद्योगिक स्वचालन प्रणाली और उपकरण समाधान के प्रमुख निर्माता। पंद्रह वर्षों से अधिक के अनुभव के साथ विशेषज्ञ इंजीनियरिंग सेवाएं, विश्व स्तर पर सेवा प्रदान करती हैं।",
-      "keywords": "विद्युत नियंत्रण पैनल, औद्योगिक स्वचालन, प्रक्रिया स्वचालन, उपकरण, पावर कंट्रोल सेंटर, मोटर कंट्रोल सेंटर, इलेक्ट्रिकल इंजीनियरिंग, चीन, स्वचालन"
+      "title": "Powerton Engineering - Industrial Automation & Control Panels | China",
+      "description": "Leading manufacturer of electrical control panels, industrial automation systems, and instrumentation solutions. Professional engineering services with 15+ years of experience, serving globally.",
+      "keywords": "electrical control panels, industrial automation, process automation, instrumentation, power control center, motor control center, electrical engineering, china, automation"
     },
     "hero": {
       "title": {
-        "main": "औद्योगिक सफलता के लिए",
-        "highlight": "व्यापक समाधान"
+        "main": "Comprehensive Solutions for",
+        "highlight": "Industrial Success"
       },
-      "subtitle": "उत्पादों और सेवाओं का हमारा व्यापक पोर्टफोलियो औद्योगिक सफलता को बढ़ावा देने वाले समाधानों की पूरी श्रृंखला प्रदान करता है, जिससे यह सुनिश्चित होता है कि आपकी इंजीनियरिंग आवश्यकताओं के हर पहलू को कवर किया जाए।",
+      "subtitle": "Our extensive portfolio of products and services provides a full spectrum of solutions, driving industrial success and ensuring every aspect of your engineering needs is covered.",
       "buttons": {
-        "exploreServices": "हमारी सेवाओं का अन्वेषण करें",
-        "requestConsultation": "परामर्श का अनुरोध करें"
+        "exploreServices": "Explore Our Services",
+        "requestConsultation": "Request Consultation"
       },
       "features": {
-        "experience": "पंद्रह वर्षों से अधिक का अनुभव",
-        "support": "24/7 तकनीकी सहायता",
-        "service": "वैश्विक सेवा कवरेज"
+        "experience": "15+ Years Experience",
+        "support": "24/7 Technical Support",
+        "service": "Global Service Coverage"
       },
       "stats": {
-        "yearsExperience": "वर्षों का अनुभव",
-        "projectsCompleted": "परियोजनाएँ पूर्ण हुईं",
-        "happyClients": "खुश ग्राहक",
-        "supportAvailable": "समर्थन उपलब्ध",
-        "heading": "कंपनी के आँकड़े और उपलब्धियाँ"
+        "yearsExperience": "Years Experience",
+        "projectsCompleted": "Projects Completed",
+        "happyClients": "Happy Clients",
+        "supportAvailable": "Support Available",
+        "heading": "Company Statistics and Achievements"
       }
     },
     "about": {
-      "label": "हमारे बारे में",
-      "title": "पॉवरटन इंजीनियरिंग प्राइवेट लिमिटेड में आपका स्वागत है",
-      "description": "आपकी उच्च गुणवत्ता वाले इंजीनियरिंग समाधान और सेवाएँ प्रदान करने वाला भरोसेमंद भागीदार। नवाचार और उत्कृष्टता के माध्यम से उद्योगों को सशक्त बनाने की दृष्टि से स्थापित, हम व्यापक विद्युत और उपकरण उत्पाद प्रदान करने में विशेषज्ञता रखते हैं।",
-      "visualHeading": "विशेषज्ञ इंजीनियरिंग",
-      "visualDescription": "औद्योगिक स्वचालन और नियंत्रण प्रणालियों पर काम करने वाले पेशेवर चीनी इंजीनियर",
+      "label": "About Us",
+      "title": "Welcome to Powerton Engineering Pvt. Ltd.",
+      "description": "Your trusted partner in providing high-quality engineering solutions and services. Founded with a vision to empower industries through innovation and excellence, we specialize in delivering a comprehensive range of electrical and instrumentation products.",
+      "visualHeading": "Professional Engineering",
+      "visualDescription": "Professional Chinese engineers working on industrial automation and control systems",
       "features": {
         "electrical": {
-          "title": "विद्युत और उपकरण",
-          "description": "नियंत्रण प्रणालियों की पूरी श्रृंखला"
+          "title": "Electrical & Instrumentation",
+          "description": "Complete range of control systems"
         },
         "mechanical": {
-          "title": "यांत्रिक पंप",
-          "description": "टिकाऊ पंप समाधान और स्पेयर पार्ट्स"
+          "title": "Mechanical Pumps",
+          "description": "Durable pump solutions and spares"
         },
         "solar": {
-          "title": "सौर समाधान",
-          "description": "सतत ऊर्जा स्थापनाएँ"
+          "title": "Solar Solutions",
+          "description": "Sustainable energy installations"
         },
         "tools": {
-          "title": "औद्योगिक उपकरण",
-          "description": "पेशेवर ग्रेड उपकरण"
+          "title": "Industrial Tools",
+          "description": "Professional-grade equipment"
         }
       },
-      "button": "हमारे बारे में अधिक जानें"
-    },
-    "projects": {
-      "label": "हमारी परियोजनाएँ",
-      "title": "सफलतापूर्वक वितरित इंजीनियरिंग समाधान",
-      "featured": "विशेष रुप से प्रदर्शित परियोजनाएँ"
+      "button": "Learn More About Us"
     },
     "services": {
-      "label": "हमारी सेवाएँ",
-      "title": "उत्कृष्ट देखभाल के साथ प्रदान की जाने वाली सभी आवश्यकताओं के लिए विशेषज्ञ समाधान",
-      "description": "प्रक्रिया स्वचालन से लेकर रखरखाव अनुबंधों तक, हम आपकी औद्योगिक आवश्यकताओं को पूरा करने के लिए अनुरूप व्यापक इंजीनियरिंग समाधान प्रदान करते हैं।"
+      "label": "Our Services",
+      "title": "Expert Solutions for All Needs, Delivered with Exceptional Care",
+      "description": "From process automation to maintenance contracts, we deliver comprehensive engineering solutions tailored to your industrial needs."
     },
     "products": {
-      "label": "हमारे उत्पाद",
-      "title": "औद्योगिक स्वचालन उपकरण समाधान",
-      "description": "औद्योगिक वातावरण में विश्वसनीयता, दक्षता और बेहतर प्रदर्शन के लिए डिज़ाइन किए गए विद्युत और स्वचालन उत्पादों की एक व्यापक श्रृंखला।",
-      "viewProducts": "उत्पाद देखें",
-      "viewCatalog": "पूरी उत्पाद सूची देखें"
+      "label": "Our Products",
+      "title": "Industrial Automation Equipment Solutions",
+      "description": "A comprehensive range of electrical and automation products designed for reliability, efficiency, and superior performance in industrial environments.",
+      "viewProducts": "View Products",
+      "viewCatalog": "View Full Product Catalog"
     },
     "contact": {
-      "label": "संपर्क करें",
-      "title": "आइए आपकी इंजीनियरिंग आवश्यकताओं पर चर्चा करें",
-      "description": "अपनी अगली परियोजना शुरू करने के लिए तैयार हैं? अनुकूलित समाधानों और विशेषज्ञ परामर्श के लिए हमारी विशेषज्ञ टीम से संपर्क करें।",
+      "label": "Contact Us",
+      "title": "Let's Discuss Your Engineering Needs",
+      "description": "Ready to start your next project? Contact our expert team for custom solutions and professional consultation.",
       "hero": {
-        "title": "हमारे इंजीनियरिंग विशेषज्ञों से संपर्क करें",
-        "subtitle": "अपनी औद्योगिक स्वचालन और विद्युत इंजीनियरिंग परियोजनाओं के लिए पेशेवर सहायता प्राप्त करें। हमारी अनुभवी टीम आपकी सफलता में मदद करने के लिए तैयार है।",
+        "title": "Contact Our Engineering Experts",
+        "subtitle": "Get expert support for your industrial automation and electrical engineering projects. Our experienced team is ready to help you succeed.",
         "benefits": {
-          "consultation": "मुफ्त विशेषज्ञ परामर्श",
-          "support": "24/7 तकनीकी सहायता",
-          "experience": "15+ वर्ष का अनुभव"
+          "consultation": "Free Expert Consultation",
+          "support": "24/7 Technical Support",
+          "experience": "15+ Years Experience"
         }
       },
-      "getInTouch": "संपर्क में रहें",
+      "getInTouch": "Get In Touch",
       "methods": {
         "phone": {
-          "title": "फ़ोन",
-          "description": "आपातकालीन सहायता के लिए 24/7"
+          "title": "Phone",
+          "description": "24/7 Emergency Support"
         },
         "email": {
-          "title": "ईमेल",
-          "description": "हम 24 घंटों के भीतर जवाब देंगे"
+          "title": "Email",
+          "description": "We will respond within 24 hours"
         },
         "address": {
-          "title": "पता",
-          "metro": "निकटतम मेट्रो स्टेशन"
+          "title": "Address",
+          "metro": "Nearest Metro Station"
         }
       }
     },
     "clients": {
-      "label": "हमारे ग्राहक",
-      "title": "अग्रणी ब्रांडों और संगठनों द्वारा विश्वसनीय",
-      "description": "हम विभिन्न उद्योगों में उद्योग के नेताओं के साथ उत्कृष्ट इंजीनियरिंग समाधान प्रदान करने के लिए सहयोग करते हैं।",
-      "testimonialsTitle": "हमारे ग्राहकों का क्या कहना है"
+      "label": "Our Clients",
+      "title": "Trusted by Leading Brands and Organizations",
+      "description": "We partner with industry leaders across various sectors, delivering exceptional engineering solutions.",
+      "testimonialsTitle": "What Our Clients Say"
     },
     "projects": {
-      "label": "हमारी परियोजनाएँ",
-      "title": "सफलतापूर्वक वितरित इंजीनियरिंग समाधान",
-      "description": "औद्योगिक स्वचालन और विद्युत इंजीनियरिंग में हमारी विशेषज्ञता का प्रदर्शन करते हुए, हमारे पूर्ण किए गए परियोजनाओं के पोर्टफोलियो का अन्वेषण करें।",
-      "keyFeatures": "मुख्य विशेषताएं:",
-      "completed": "पूर्ण",
-      "viewDetails": "विवरण देखें",
-      "viewAllProjects": "सभी परियोजनाएँ देखें",
-      "downloadPortfolio": "पोर्टफोलियो डाउनलोड करें"
+      "label": "Our Projects",
+      "title": "Successfully Delivered Engineering Solutions",
+      "featured": "Featured",
+      "description": "Explore our portfolio of completed projects, showcasing our expertise in industrial automation and electrical engineering.",
+      "keyFeatures": "Key Features:",
+      "completed": "Completed",
+      "viewDetails": "View Details",
+      "viewAllProjects": "View All Projects",
+      "downloadPortfolio": "Download Portfolio"
     }
   },
-  "backToProducts": "उत्पादों पर वापस जाएँ",
+  "backToProducts": "Back to Products",
   "about": {
     "seo": {
-      "keywords": "पावरटन इंजीनियरिंग के बारे में, औद्योगिक स्वचालन कंपनी, विद्युत इंजीनियरिंग कंपनी, इंस्ट्रूमेंटेशन सेवाएँ, चीन स्वचालन विशेषज्ञ"
+      "keywords": "About Powerton Engineering, Industrial Automation Company, Electrical Engineering Company, Instrumentation Services, China Automation Experts"
     },
     "hero": {
-      "title": "2008 से इंजीनियरिंग उत्कृष्टता",
-      "subtitle": "औद्योगिक स्वचालन और विद्युत इंजीनियरिंग समाधानों में आपका भरोसेमंद भागीदार"
+      "title": "Engineering Excellence Since 2008",
+      "subtitle": "Your Trusted Partner in Industrial Automation and Electrical Engineering Solutions"
     },
     "story": {
-      "title": "हमारी यात्रा और दृष्टिकोण",
-      "description1": "पावरटन इंजीनियरिंग की स्थापना 2008 में नवाचार और उत्कृष्टता के माध्यम से उद्योगों को सशक्त बनाने की दृष्टि से की गई थी, और यह औद्योगिक स्वचालन और विद्युत इंजीनियरिंग समाधानों में सबसे आगे रहा है। हमारी यात्रा एक सरल लेकिन शक्तिशाली मिशन के साथ शुरू हुई: अत्याधुनिक इंजीनियरिंग समाधान प्रदान करना जो औद्योगिक विकास और परिचालन दक्षता को बढ़ावा दें।",
-      "description2": "इन वर्षों में, हम एक छोटी इंजीनियरिंग कंपनी से बढ़कर चीन और दुनिया भर के उद्योगों के लिए एक विश्वसनीय भागीदार बन गए हैं। हमारे अनुभवी इंजीनियरों और तकनीकी विशेषज्ञों की टीम ग्राहकों की अपेक्षाओं को पूरा करने वाले समाधान प्रदान करने के लिए अथक प्रयास करती है।"
+      "title": "Our Journey and Vision",
+      "description1": "Founded in 2008 with a vision to empower industries through innovation and excellence, Powerton Engineering has been at the forefront of industrial automation and electrical engineering solutions. Our journey began with a simple yet powerful mission: to deliver cutting-edge engineering solutions that drive industrial growth and operational efficiency.",
+      "description2": "Over the years, we have grown from a small engineering firm to a trusted partner for industries across China and globally. Our team of experienced engineers and technical experts work tirelessly to deliver solutions that not only meet but exceed our clients' expectations."
     },
     "mission": {
-      "title": "हमारा मिशन",
-      "description": "नवीन, विश्वसनीय और टिकाऊ इंजीनियरिंग समाधान प्रदान करना जो हमारे ग्राहकों को परिचालन उत्कृष्टता प्राप्त करने और औद्योगिक विकास को बढ़ावा देने में सक्षम बनाते हैं।"
+      "title": "Our Mission",
+      "description": "To provide innovative, reliable, and sustainable engineering solutions that enable our clients to achieve operational excellence and drive industrial growth."
     },
     "vision": {
-      "title": "हमारी दृष्टि",
-      "description": "औद्योगिक स्वचालन और विद्युत इंजीनियरिंग समाधानों का अग्रणी प्रदाता बनना, अपनी तकनीकी विशेषज्ञता, गुणवत्ता और ग्राहकों की सफलता के प्रति प्रतिबद्धता के लिए मान्यता प्राप्त है।"
+      "title": "Our Vision",
+      "description": "To be the leading provider of industrial automation and electrical engineering solutions, recognized for our technical expertise, quality, and commitment to client success."
     },
     "coreValues": {
-      "title": "हमारे मूल मूल्य",
-      "subtitle": "सिद्धांत जो हमारे सभी कार्यों का मार्गदर्शन करते हैं"
+      "title": "Our Core Values",
+      "subtitle": "Principles that guide everything we do"
     },
     "values": {
       "quality": {
-        "title": "गुणवत्ता उत्कृष्टता",
-        "description": "हम वितरित किए गए प्रत्येक परियोजना में उच्चतम मानकों को बनाए रखते हैं"
+        "title": "Quality Excellence",
+        "description": "We uphold the highest standards in every project we deliver"
       },
       "customer": {
-        "title": "ग्राहक फोकस",
-        "description": "आपकी सफलता हमारी प्राथमिकता है - हम स्थायी भागीदारी बनाते हैं"
+        "title": "Customer Focus",
+        "description": "Your success is our priority - we build lasting partnerships"
       },
       "innovation": {
-        "title": "नवाचार",
-        "description": "नवीनतम उद्योग प्रौद्योगिकियों का उपयोग करके अत्याधुनिक समाधान"
+        "title": "Innovation",
+        "description": "Cutting-edge solutions using the latest industry technologies"
       },
       "reliability": {
-        "title": "विश्वसनीयता",
-        "description": "विश्वसनीय समाधान जिन पर आप महत्वपूर्ण कार्यों के लिए भरोसा कर सकते हैं"
+        "title": "Reliability",
+        "description": "Dependable solutions you can trust for critical operations"
       }
     },
     "stats": {
-      "engineers": "इंजीनियर",
-      "staff": "सहायक कर्मचारी",
-      "experience": "वर्षों का अनुभव",
-      "support": "समर्थन"
+      "engineers": "Engineers",
+      "staff": "Support Staff",
+      "experience": "Years Experience",
+      "support": "Support"
     },
     "certifications": {
-      "title": "प्रमाणन और गुणवत्ता मानक",
-      "subtitle": "गुणवत्ता के प्रति हमारी प्रतिबद्धता उद्योग-मान्यता प्राप्त प्रमाणपत्रों और अनुपालन मानकों द्वारा मान्य है।",
-      "iso9001": "आईएसओ 9001:2015 गुणवत्ता प्रबंधन",
-      "iso14001": "आईएसओ 14001:2015 पर्यावरण प्रबंधन",
-      "ohsas18001": "ओएचएसएएस 18001 व्यावसायिक स्वास्थ्य और सुरक्षा",
-      "ceMarking": "सीई मार्किंग अनुपालन",
-      "ulListed": "यूएल लिस्टेड उत्पाद",
-      "cpriApproved": "सीपीआरआई स्वीकृत उपकरण"
+      "title": "Certifications and Quality Standards",
+      "subtitle": "Our commitment to quality is validated through industry-recognized certifications and compliance standards.",
+      "iso9001": "ISO 9001:2015 Quality Management",
+      "iso14001": "ISO 14001:2015 Environmental Management",
+      "ohsas18001": "OHSAS 18001 Occupational Health and Safety",
+      "ceMarking": "CE Marking Compliance",
+      "ulListed": "UL Listed Products",
+      "cpriApproved": "CPRI Approved Equipment"
+    },
+    "cta": {
+      "title": "Ready to Start Your Project?",
+      "description": "Our expert team is ready to help you bring your industrial automation and electrical engineering projects to life.",
+      "startProject": "Start Your Project Today",
+      "exploreServices": "Explore Our Services"
     }
   },
   "projects": {
+    "portfolioDescription": "Explore our engineering capabilities through demonstration projects showcasing innovative solutions across industries. A true project portfolio is coming soon.",
+    "featured": "Featured",
+    "moreItems": "+{{count}} More",
+    "cta": {
+      "title": "Ready to Start Your Next Project?",
+      "description": "Our experienced engineers can design custom solutions for your industrial automation and electrical engineering needs.",
+      "getProjectQuote": "Get Project Quote",
+      "contactTeam": "Contact Team"
+    },
+    "showing": "Showing {{count}} projects of {{total}}",
+    "items": {
+      "industrial-automation-demo": {
+        "title": "Demo: Industrial Automation Systems",
+        "client": "Future Manufacturing Client",
+        "description": "Demonstrates complete manufacturing automation capabilities, including PLC integration, SCADA systems, and real-time monitoring solutions.",
+        "location": "Project Site TBD",
+        "duration": "12-18 Months"
+      },
+      "power-distribution-demo": {
+        "title": "Example: Power Distribution Control",
+        "client": "Future Power Partner",
+        "description": "Example power distribution system showcasing automated load balancing and remote monitoring capabilities for power production facilities.",
+        "location": "Multiple Locations",
+        "duration": "10-15 Months"
+      },
+      "solar-plant-demo": {
+        "title": "Example: Solar Power Plant Control System",
+        "client": "Future Renewable Energy Client",
+        "description": "Demonstrates weather monitoring and grid synchronization capabilities of a solar tracking automation system suitable for renewable energy projects.",
+        "location": "Multiple Sites",
+        "duration": "6-10 Months"
+      },
+      "process-control-demo": {
+        "title": "Demo: Process Control Solutions",
+        "client": "Future Industrial Partner",
+        "description": "Demonstrates complete process automation capabilities, including safety systems, environmental monitoring, and batch control for industrial applications.",
+        "location": "Project Site TBD",
+        "duration": "Eight to Twelve Months"
+      },
+      "smart-factory-demo": {
+        "title": "Demo: Smart Factory Integration",
+        "client": "Current Development Client",
+        "description": "Ongoing smart factory integration demonstration showcasing IoT connectivity, predictive maintenance, and Industry 4.0 capabilities.",
+        "location": "Development Site",
+        "duration": "Fourteen Months"
+      }
+    },
+    "technologies": {
+      "mccpanels": "MCC Panels",
+      "protectionsystems": "Protection Systems",
+      "energymanagement": "Energy Management",
+      "remotemonitoring": "Remote Monitoring",
+      "solarinverters": "Solar Inverters",
+      "gridsync": "Grid Sync",
+      "weathermonitoring": "Weather Monitoring",
+      "dataanalytics": "Data Analytics",
+      "processcontrol": "Process Control",
+      "safetysystems": "Safety Systems",
+      "plcprogramming": "PLC Programming",
+      "scada": "SCADA Systems",
+      "hmi": "HMI",
+      "industrialiot": "Industrial IoT",
+      "environmentalmonitoring": "Environmental Monitoring",
+      "predictiveanalytics": "Predictive Analytics",
+      "edgecomputing": "Edge Computing"
+    },
     "tabs": {
-      "portfolio": "परियोजना पोर्टफोलियो",
-      "showcase": "विशेषीकृत परियोजनाएँ"
+      "portfolio": "Project Portfolio",
+      "showcase": "Featured Projects"
     },
     "hero": {
-      "title": "हमारी परियोजनाएँ",
-      "subtitle": "विभिन्न उद्योगों में 1200 से अधिक सफल परियोजनाओं के माध्यम से हमारी इंजीनियरिंग उत्कृष्टता का अन्वेषण करें, जो नवाचार, गुणवत्ता और विश्वसनीयता का प्रदर्शन करती हैं।"
-    },
-    "showing": "दिखा रहा है",
-    "technologies": {
-      "plcprogramming": "प्रोग्रामेबल लॉजिक कंट्रोलर प्रोग्रामिंग",
-      "scada": "एससीएडीए सिस्टम",
-      "hmi": "मानव मशीन इंटरफेस",
-      "industrialiot": "औद्योगिक इंटरनेट",
-      "environmentalmonitoring": "पर्यावरण निगरानी",
-      "predictiveanalytics": "भविष्य कहनेवाला विश्लेषण",
-      "edgecomputing": "एज कंप्यूटिंग",
-      "mccpanels": "मोटर नियंत्रण केंद्र",
-      "protectionsystems": "सुरक्षा प्रणाली",
-      "energymanagement": "ऊर्जा प्रबंधन",
-      "remotemonitoring": "दूरस्थ निगरानी"
+      "title": "Our Projects",
+      "subtitle": "Explore our engineering excellence through 1200+ successful projects across various industries, showcasing innovation, quality, and reliability."
     },
     "statuses": {
-      "capabilitydemo": "क्षमता प्रदर्शन",
-      "inprogress": "प्रगति में",
-      "completed": "पूर्ण",
-      "planning": "योजना चरण",
-      "contractsigned": "अनुबंध पर हस्ताक्षर किए गए",
-      "engineeringphase": "इंजीनियरिंग चरण"
+      "capabilitydemo": "Capability Demo",
+      "inprogress": "In Progress",
+      "completed": "Completed",
+      "planning": "Planning Phase",
+      "contractsigned": "Contract Signed",
+      "engineeringphase": "Engineering Phase"
     },
     "categories": {
-      "processautomation": "प्रक्रिया स्वचालन",
-      "powersystems": "विद्युत प्रणालियाँ",
-      "solarsolutions": "सौर समाधान",
-      "manufacturing": "विनिर्माण",
-      "watertreatment": "जल उपचार",
-      "powerplant": "बिजली संयंत्र"
+      "processautomation": "Process Automation",
+      "powersystems": "Power Systems",
+      "solarsolutions": "Solar Solutions",
+      "manufacturing": "Manufacturing",
+      "watertreatment": "Water Treatment",
+      "powerplant": "Power Plant"
     },
     "highlights": {
-      "plcintegration": "पीएलसी एकीकरण",
-      "scadasystems": "एससीएडीए सिस्टम",
-      "realtimemonitoring": "रियल टाइम मॉनिटरिंग",
-      "processoptimization": "प्रक्रिया अनुकूलन",
-      "loadbalancing": "भार संतुलन",
-      "remotecontrol": "दूरस्थ नियंत्रण",
-      "gridconnection": "ग्रिड कनेक्शन",
-      "performanceoptimization": "प्रदर्शन अनुकूलन",
-      "maintenanceplanning": "रखरखाव योजना",
-      "qualitycontrol": "गुणवत्ता नियंत्रण",
-      "automatedoperations": "स्वचालित संचालन",
-      "remotemanagement": "दूरस्थ प्रबंधन"
+      "plcintegration": "PLC Integration",
+      "scadasystems": "SCADA Systems",
+      "realtimemonitoring": "Real-time Monitoring",
+      "processoptimization": "Process Optimization",
+      "loadbalancing": "Load Balancing",
+      "remotecontrol": "Remote Control",
+      "gridconnection": "Grid Connection",
+      "performanceoptimization": "Performance Optimization",
+      "maintenanceplanning": "Maintenance Planning",
+      "qualitycontrol": "Quality Control",
+      "automatedoperations": "Automated Operations",
+      "remotemanagement": "Remote Management"
     }
   },
   "products": {
     "seo": {
-      "title": "औद्योगिक उत्पाद और स्वचालन उपकरण - पावरटन इंजीनियरिंग",
-      "description": "औद्योगिक स्वचालन उत्पादों, विद्युत घटकों, उपकरणों, सौर ऊर्जा प्रणालियों, पंपों और उपकरणों का व्यापक संग्रह। औद्योगिक अनुप्रयोगों के लिए उच्च गुणवत्ता वाले उपकरण।",
-      "keywords": ""
+      "title": "Industrial Products and Automation Equipment - Powerton Engineering",
+      "description": "Comprehensive range of industrial automation products, electrical components, instrumentation, solar systems, pumps, and tools. Quality equipment for industrial applications."
     },
     "sections": {
-      "industrialProducts": "औद्योगिक उत्पाद श्रेणियाँ",
-      "hmiSolutions": "एचएमआई समाधान",
-      "heatingSolutions": "हीटिंग समाधान",
-      "handToolCategories": "हाथ उपकरण श्रेणियाँ",
-      "diaphragmPumpTypes": "डायफ्राम पंप प्रकार",
-      "calibrationSolutions": "अंशांकन समाधान"
+      "industrialProducts": "Industrial Products Categories",
+      "hmiSolutions": "HMI Solutions",
+      "heatingSolutions": "Heating Solutions",
+      "handToolCategories": "Hand Tool Categories",
+      "diaphragmPumpTypes": "Diaphragm Pump Types",
+      "calibrationSolutions": "Calibration Solutions"
     },
     "cta": {
-      "needExpertSolutions": "विशेषज्ञ औद्योगिक समाधानों की आवश्यकता है?",
-      "expertDescription": "हमारे तकनीकी विशेषज्ञ आपकी स्वचालन और विद्युत आवश्यकताओं के लिए सही औद्योगिक उत्पाद और इंजीनियरिंग समाधान चुनने में मदद करने के लिए यहां हैं।",
-      "needHmiSolutions": "एचएमआई समाधानों की आवश्यकता है?",
-      "hmiDescription": "हमारे एचएमआई विशेषज्ञ आपके स्वचालन सिस्टम के लिए सहज ऑपरेटर इंटरफेस डिजाइन कर सकते हैं।",
-      "contactHmiExperts": "एचएमआई विशेषज्ञों से संपर्क करें",
-      "requestQuote": "उद्धरण का अनुरोध करें",
-      "needHeatingolutions": "औद्योगिक ताप समाधानों की आवश्यकता है?",
-      "heatingDescription": "हमारे ताप विशेषज्ञ आपकी औद्योगिक प्रक्रियाओं के लिए कस्टम हीटिंग सिस्टम डिजाइन कर सकते हैं।",
-      "contactHeatingExperts": "ताप विशेषज्ञों से संपर्क करें",
-      "needDiaphragmPumps": "डायफ्राम पंप समाधानों की आवश्यकता है?",
-      "diaphragmDescription": "हमारे पंप इंजीनियर रसायन हैंडलिंग आवश्यकताओं के लिए सही डायफ्राम पंप चुनने में आपकी सहायता कर सकते हैं।",
-      "contactPumpExperts": "पंप विशेषज्ञों से संपर्क करें",
-      "needCalibration": "अंशांकन सेवाओं की आवश्यकता है?",
-      "calibrationDescription": "हमारे अंशांकन विशेषज्ञ यह सुनिश्चित करते हैं कि आपके उपकरण उच्चतम सटीकता मानकों को पूरा करते हैं।",
-      "contactCalibrationExperts": "अंशांकन विशेषज्ञों से संपर्क करें"
+      "needExpertSolutions": "Need Expert Industrial Solutions?",
+      "expertDescription": "Our technical experts are ready to assist you in selecting the perfect industrial products and engineering solutions for your automation and electrical needs.",
+      "needHmiSolutions": "Need HMI Solutions?",
+      "hmiDescription": "Our HMI experts can design intuitive operator interfaces for your automation systems.",
+      "contactHmiExperts": "Contact HMI Experts",
+      "requestQuote": "Request a Quote",
+      "needHeatingolutions": "Need Industrial Heating Solutions?",
+      "heatingDescription": "Our heating experts can design custom heating systems for your industrial processes.",
+      "contactHeatingExperts": "Contact Heating Experts",
+      "needDiaphragmPumps": "Need Diaphragm Pump Solutions?",
+      "diaphragmDescription": "Our pump engineers can help you select the right diaphragm pump for your chemical handling needs.",
+      "contactPumpExperts": "Contact Pump Experts",
+      "needCalibration": "Need Calibration Services?",
+      "calibrationDescription": "Our calibration experts ensure your instruments meet the highest standards of accuracy.",
+      "contactCalibrationExperts": "Contact Calibration Experts"
     },
     "badges": {
-      "handTools": "हाथ उपकरण",
-      "powerTools": "बिजली उपकरण",
-      "liftingEquipment": "उठाने वाले उपकरण",
-      "safetyGear": "सुरक्षा उपकरण",
-      "touchscreen": "टच स्क्रीन",
-      "industrialGrade": "औद्योगिक ग्रेड",
-      "realTimeDisplay": "रीयल टाइम डिस्प्ले",
-      "multiProtocol": "बहु प्रोटोकॉल",
-      "heatingElements": "ताप तत्व",
-      "industrialOvens": "औद्योगिक ओवन",
-      "heatTracing": "हीट ट्रेसिंग",
-      "temperatureControl": "तापमान नियंत्रण",
-      "precisionTools": "सटीक उपकरण",
-      "durableConstruction": "टिकाऊ निर्माण",
-      "ergonomicDesign": "एर्गोनोमिक डिजाइन",
-      "professionalGrade": "व्यावसायिक ग्रेड"
+      "handTools": "Hand Tools",
+      "powerTools": "Power Tools",
+      "liftingEquipment": "Lifting Equipment",
+      "safetyGear": "Safety Gear",
+      "touchscreen": "Touchscreen",
+      "industrialGrade": "Industrial Grade",
+      "realTimeDisplay": "Real-Time Display",
+      "multiProtocol": "Multi-Protocol",
+      "heatingElements": "Heating Elements",
+      "industrialOvens": "Industrial Ovens",
+      "heatTracing": "Heat Tracing",
+      "temperatureControl": "Temperature Control",
+      "precisionTools": "Precision Tools",
+      "durableConstruction": "Durable Construction",
+      "ergonomicDesign": "Ergonomic Design",
+      "professionalGrade": "Professional Grade"
     }
   },
   "services": {
     "seo": {
-      "title": "विशेषज्ञ इंजीनियरिंग सेवाएं - स्थापना, रखरखाव और स्वचालन | पावरटन इंजीनियरिंग",
-      "description": "विशेषज्ञ इंजीनियरिंग सेवाएं: पीएलसी प्रोग्रामिंग, एससीएडीए सिस्टम, औद्योगिक स्वचालन, विद्युत पैनल स्थापना, रखरखाव, अंशांकन, कस्टम समाधान और सौर ईपीसी सेवाएं पूरे चीन में।"
+      "title": "Professional Engineering Services - Installation, Maintenance & Automation | Powerton Engineering",
+      "description": "Expert engineering services: PLC programming, SCADA systems, industrial automation, electrical panel installation, maintenance, calibration, custom solutions, and solar EPC services across China."
     },
     "hero": {
-      "title": "विशेषज्ञ इंजीनियरिंग सेवाएं",
-      "subtitle": "व्यापक औद्योगिक स्वचालन, विद्युत इंजीनियरिंग और उपकरण समाधान आपके संचालन को अनुकूलित करने और व्यावसायिक सफलता को बढ़ावा देने के लिए डिज़ाइन किए गए हैं।"
+      "title": "Professional Engineering Services",
+      "subtitle": "Comprehensive industrial automation, electrical engineering, and instrumentation solutions designed to optimize your operations and drive business success."
     },
     "whyChoose": {
-      "title": "पावरटन इंजीनियरिंग क्यों चुनें?"
+      "title": "Why Choose Powerton Engineering?"
     },
     "benefits": {
       "expertTeam": {
-        "title": "विशेषज्ञ टीम",
-        "description": "प्रमाणित पेशेवर जिनके पास उद्योग का व्यापक अनुभव है"
+        "title": "Expert Team",
+        "description": "Certified professionals with extensive industry experience"
       },
       "rapidResponse": {
-        "title": "शीघ्र प्रतिक्रिया",
-        "description": "सभी समर्थन अनुरोधों के लिए 2 घंटे का औसत प्रतिक्रिया समय"
+        "title": "Rapid Response",
+        "description": "Average 2-hour response time for all support requests"
       },
       "qualityAssured": {
-        "title": "गुणवत्ता सुनिश्चित",
-        "description": "आईएसओ प्रमाणित प्रक्रियाएं और गारंटीकृत गुणवत्ता मानक"
+        "title": "Quality Assured",
+        "description": "ISO-certified processes and guaranteed quality standards"
       },
       "clientFocused": {
-        "title": "ग्राहक केंद्रित",
-        "description": "आपकी विशिष्ट आवश्यकताओं के अनुरूप समाधान"
+        "title": "Client-Focused",
+        "description": "Solutions tailored to your specific requirements"
       }
     },
     "cta": {
-      "title": "शुरू करने के लिए तैयार हैं?",
-      "description": "अपनी परियोजना आवश्यकताओं पर चर्चा करने और अनुकूलित समाधान प्राप्त करने के लिए आज ही हमसे संपर्क करें।"
+      "title": "Ready to Get Started?",
+      "description": "Contact us today to discuss your project needs and receive a custom solution."
     }
   },
   "notFound": {
     "seo": {
-      "title": "पृष्ठ नहीं मिला (404) - पावरटन इंजीनियरिंग",
-      "description": "आपके द्वारा खोजा जा रहा पृष्ठ मौजूद नहीं है। पावरटन इंजीनियरिंग होमपेज पर वापस जाएं या हमारी औद्योगिक स्वचालन सेवाओं और उत्पादों का पता लगाएं।",
-      "keywords": "404, पृष्ठ नहीं मिला, पावरटन इंजीनियरिंग, औद्योगिक स्वचालन, इंजीनियरिंग सेवाएँ"
+      "title": "Page Not Found (404) - Powerton Engineering",
+      "description": "The page you are looking for does not exist. Return to the Powerton Engineering homepage or explore our industrial automation services and products."
     },
     "title": "404",
-    "heading": "पृष्ठ नहीं मिला",
-    "message": "क्षमा करें, आपके द्वारा खोजा जा रहा पृष्ठ मौजूद नहीं है। इसे स्थानांतरित कर दिया गया होगा, हटा दिया गया होगा, या आपने गलत URL दर्ज किया होगा।",
+    "heading": "Page Not Found",
+    "message": "Sorry, the page you are looking for does not exist. It may have been moved, deleted, or an incorrect URL was entered.",
     "buttons": {
-      "homepage": "मुखपृष्ठ पर वापस जाएँ",
-      "support": "समर्थन से संपर्क करें"
+      "homepage": "Back to Homepage",
+      "support": "Contact Support"
     },
-    "quickLinks": "त्वरित लिंक",
+    "quickLinks": "Quick Links",
     "links": {
-      "products": "उत्पाद",
-      "services": "सेवाएँ",
-      "projects": "परियोजनाएँ",
-      "about": "हमारे बारे में"
+      "products": "Products",
+      "services": "Services",
+      "projects": "Projects",
+      "about": "About Us"
     }
   },
   "portfolioDownload": {
     "seo": {
-      "title": "पोर्टफोलियो डाउनलोड करें - पावरटन इंजीनियरिंग",
-      "description": "पावरटन इंजीनियरिंग के औद्योगिक स्वचालन परियोजनाओं, क्षमताओं और उपलब्धियों को प्रदर्शित करने वाले एक व्यापक पोर्टफोलियो दस्तावेज़ को डाउनलोड करें।",
-      "keywords": "पोर्टफोलियो डाउनलोड करें, औद्योगिक स्वचालन, इंजीनियरिंग परियोजनाएँ, पावरटन इंजीनियरिंग"
+      "title": "Download Portfolio - Powerton Engineering",
+      "description": "Download a comprehensive portfolio document showcasing Powerton Engineering's industrial automation projects, capabilities, and achievements."
     },
-    "title": "पोर्टफोलियो डाउनलोड",
-    "subtitle": "हमारी औद्योगिक स्वचालन परियोजनाओं, क्षमताओं और इंजीनियरिंग उत्कृष्टता के व्यापक दस्तावेज़ तक पहुँचें। हमारे काम के बारे में अधिक जानने के लिए विस्तृत पोर्टफोलियो डाउनलोड करें।",
+    "title": "Portfolio Download",
+    "subtitle": "Access our comprehensive documentation of industrial automation projects, capabilities, and engineering excellence. Download detailed portfolios to learn more about our work.",
     "features": {
       "projects": {
-        "title": "1200+ परियोजनाएँ",
-        "description": "विभिन्न उद्योगों में सफलतापूर्वक पूरी की गई परियोजनाएँ"
+        "title": "1200+ Projects",
+        "description": "Successfully completed projects across various industries"
       },
       "documentation": {
-        "title": "उच्च गुणवत्ता वाले दस्तावेज़",
-        "description": "विस्तृत परियोजना दृश्यों के साथ पेशेवर पोर्टफोलियो"
+        "title": "High-Quality Documentation",
+        "description": "Professional portfolio with detailed project imagery"
       },
       "results": {
-        "title": "सत्यापित परिणाम",
-        "description": "मापने योग्य परिणामों और ग्राहक प्रशंसापत्रों के साथ वास्तविक परियोजनाएँ"
+        "title": "Verified Results",
+        "description": "Real projects with measurable outcomes and client testimonials"
       }
     },
     "items": {
       "complete": {
-        "title": "पूर्ण कंपनी पोर्टफोलियो",
-        "description": "हमारे सभी औद्योगिक स्वचालन परियोजनाओं, क्षमताओं और उपलब्धियों को प्रदर्शित करने वाला एक व्यापक पोर्टफोलियो।"
+        "title": "Complete Company Portfolio",
+        "description": "A comprehensive portfolio showcasing all our industrial automation projects, capabilities, and achievements."
       },
       "automation": {
-        "title": "औद्योगिक स्वचालन परियोजनाएँ",
-        "description": "विभिन्न उद्योगों में स्वचालन और नियंत्रण प्रणालियों के हमारे कार्यान्वयन का एक केंद्रित संग्रह।"
+        "title": "Industrial Automation Projects",
+        "description": "A focused collection of our automation and control systems implementations across various industries."
       },
       "electrical": {
-        "title": "विद्युत प्रणालियाँ और विद्युत",
-        "description": "विद्युत वितरण, विद्युत नियंत्रण पैनल और ऊर्जा प्रबंधन परियोजनाओं का दस्तावेज़ीकरण।"
+        "title": "Power Systems and Electrical",
+        "description": "Documentation of power distribution, electrical control panels, and energy management projects."
       },
       "caseStudies": {
-        "title": "परियोजना केस स्टडीज़",
-        "description": "तकनीकी अंतर्दृष्टि सहित हमारे सबसे सफल औद्योगिक स्वचालन कार्यान्वयनों के विस्तृत केस स्टडीज़।"
+        "title": "Project Case Studies",
+        "description": "Detailed case studies of our most successful industrial automation implementations, with technical insights."
       }
     },
     "categories": {
-      "allProjects": "सभी परियोजनाएँ",
-      "companyOverview": "कंपनी अवलोकन",
-      "certifications": "प्रमाणन",
-      "clientTestimonials": "ग्राहक प्रशंसापत्र",
-      "processAutomation": "प्रक्रिया स्वचालन",
-      "controlSystems": "नियंत्रण प्रणाली",
-      "scada": "निगरानी नियंत्रण और डेटा अधिग्रहण प्रणाली",
-      "plcProgramming": "पीएलसी प्रोग्रामिंग",
-      "powerDistribution": "विद्युत वितरण",
-      "controlPanels": "नियंत्रण पैनल",
-      "motorControlCenters": "मोटर नियंत्रण केंद्र",
-      "energyManagement": "ऊर्जा प्रबंधन",
-      "caseStudies": "केस स्टडीज़",
-      "technicalSolutions": "तकनीकी समाधान",
-      "roiAnalysis": "आरओआई विश्लेषण",
-      "implementationStrategies": "कार्यान्वयन रणनीतियाँ"
+      "allProjects": "All Projects",
+      "companyOverview": "Company Overview",
+      "certifications": "Certifications",
+      "clientTestimonials": "Client Testimonials",
+      "processAutomation": "Process Automation",
+      "controlSystems": "Control Systems",
+      "scada": "SCADA",
+      "plcProgramming": "PLC Programming",
+      "powerDistribution": "Power Distribution",
+      "controlPanels": "Control Panels",
+      "motorControlCenters": "Motor Control Centers",
+      "energyManagement": "Energy Management",
+      "caseStudies": "Case Studies",
+      "technicalSolutions": "Technical Solutions",
+      "roiAnalysis": "ROI Analysis",
+      "implementationStrategies": "Implementation Strategies"
     },
-    "pages": "पृष्ठ",
-    "includes": "शामिल हैं",
-    "requestDownload": "डाउनलोड का अनुरोध करें",
+    "pages": "Pages",
+    "includes": "Includes",
+    "requestDownload": "Request Download",
     "custom": {
-      "title": "अनुकूलित पोर्टफोलियो चाहिए?",
-      "description": "विशिष्ट परियोजना जानकारी या आपके उद्योग के लिए अनुकूलित पोर्टफोलियो ढूंढ रहे हैं? अनुरूप दस्तावेज़ के लिए हमारी टीम से संपर्क करें।"
+      "title": "Need a Custom Portfolio?",
+      "description": "Looking for specific project information or a portfolio tailored to your industry? Contact our team for a customized document."
     },
     "disclaimer": {
-      "note": "ध्यान दें",
-      "text": "पोर्टफोलियो दस्तावेज़ केवल सूचनात्मक उद्देश्यों के लिए प्रदान किए गए हैं। नवीनतम जानकारी और विशिष्ट परियोजना विवरणों के लिए, कृपया हमारी टीम से सीधे संपर्क करें। कुछ परियोजना विवरण गोपनीय हो सकते हैं और केवल गैर-प्रकटीकरण समझौते के तहत प्रदान किए जाते हैं।"
+      "note": "Note",
+      "text": "The portfolio documentation is provided for informational purposes only. For the most current information and specific project details, please contact our team directly. Certain project details may be confidential and are provided under NDA only."
     },
     "alert": {
-      "downloading": "डाउनलोड हो रहा है",
-      "contactMessage": "हमारे पोर्टफोलियो दस्तावेज़ तक पहुंचने के लिए, कृपया info@powertonengineering.com पर सीधे हमसे संपर्क करें या +86-138-0000-0000 पर कॉल करें।"
+      "downloading": "Downloading",
+      "contactMessage": "To access our portfolio documentation, please contact us directly at info@powertonengineering.com or call +86-138-0000-0000."
     }
   },
   "quote": {
     "hero": {
-      "title": "विशेषज्ञ इंजीनियरिंग उद्धरण प्राप्त करें",
-      "subtitle": "अपनी औद्योगिक जरूरतों के लिए तैयार किए गए स्वचालन और इंस्ट्रूमेंटेशन समाधानों के लिए हमारी विशेषज्ञ टीम से संपर्क करें।",
+      "title": "Get a Professional Engineering Quote",
+      "subtitle": "Contact our expert team for tailored automation and instrumentation solutions for your industrial needs.",
       "benefits": {
-        "consultation": "मुफ्त तकनीकी परामर्श",
-        "response": "24-48 घंटे की प्रतिक्रिया समय",
-        "estimates": "विस्तृत लागत अनुमान",
-        "noCosts": "कोई छिपी लागत नहीं"
+        "consultation": "Free Technical Consultation",
+        "response": "24-48 Hour Response Time",
+        "estimates": "Detailed Cost Estimates",
+        "noCosts": "No Hidden Costs"
       }
     },
     "benefits": {
       "assessment": {
-        "title": "विस्तृत मूल्यांकन",
-        "description": "व्यापक परियोजना मूल्यांकन और तकनीकी विनिर्देश"
+        "title": "Detailed Assessment",
+        "description": "Comprehensive project evaluation and technical specifications"
       },
       "response": {
-        "title": "त्वरित प्रतिक्रिया",
-        "description": "24-48 घंटों के भीतर अपना विस्तृत उद्धरण प्राप्त करें"
+        "title": "Rapid Response",
+        "description": "Receive your detailed quote within 24-48 hours"
       },
       "consultation": {
-        "title": "विशेषज्ञ परामर्श",
-        "description": "हमारी इंजीनियरिंग टीम के साथ मुफ्त तकनीकी परामर्श"
+        "title": "Expert Consultation",
+        "description": "Free technical consultation with our engineering team"
       },
       "solutions": {
-        "title": "अनुकूलित समाधान",
-        "description": "आपकी विशिष्ट आवश्यकताओं के अनुरूप अनुरूप इंजीनियरिंग समाधान"
+        "title": "Custom Solutions",
+        "description": "Tailored engineering solutions for your specific needs"
       }
     },
     "method": {
-      "title": "अपनी उद्धरण विधि चुनें",
-      "description": "परियोजना उद्धरण प्राप्त करने का सबसे सुविधाजनक तरीका चुनें। दोनों विकल्प व्यापक मूल्य निर्धारण और तकनीकी विनिर्देश प्रदान करते हैं।",
-      "calculator": "स्मार्ट कैलकुलेटर",
-      "request": "उद्धरण अनुरोध"
+      "title": "Choose Your Quote Method",
+      "description": "Select the most convenient way to get a project quote. Both options provide comprehensive pricing and technical specifications.",
+      "calculator": "Smart Calculator",
+      "request": "Quote Request"
     },
     "calculator": {
-      "title": "उन्नत लागत कैलकुलेटर",
-      "description": "हम अपने स्मार्ट लागत अनुमान उपकरण को परिष्कृत कर रहे हैं। यह सुविधा आपकी स्वचालन परियोजनाओं के लिए तत्काल, सटीक मूल्य निर्धारण प्रदान करेगी।",
-      "launchingSoon": "जल्द ही लॉन्च हो रहा है",
-      "useQuoteForm": "तत्काल उद्धरण के लिए, कृपया हमारे विस्तृत उद्धरण प्रपत्र का उपयोग करें",
-      "getQuoteNow": "अभी उद्धरण प्राप्त करें",
-      "projectTitle": "परियोजना लागत कैलकुलेटर",
-      "stepOf": "{{current}} कदम में से {{total}} कदम"
+      "title": "Advanced Cost Calculator",
+      "description": "We're refining our smart cost estimation tool. This feature will provide instant, accurate pricing for your automation projects.",
+      "launchingSoon": "Launching Soon",
+      "useQuoteForm": "For an immediate quote, please use our detailed quote form",
+      "getQuoteNow": "Get Quote Now",
+      "projectTitle": "Project Cost Calculator",
+      "stepOf": "Step {{current}} of {{total}}"
     },
     "process": {
-      "title": "हमारी उद्धरण प्रक्रिया",
-      "description": "प्रारंभिक अनुरोध से लेकर विस्तृत प्रस्ताव तक, हम एक सुचारू और पारदर्शी प्रक्रिया सुनिश्चित करते हैं।",
+      "title": "Our Quote Process",
+      "description": "From initial request to detailed proposal, we ensure a smooth and transparent process.",
       "submit": {
-        "title": "अनुरोध सबमिट करें",
-        "description": "हमारे व्यापक उद्धरण प्रपत्र को भरें या हमारे लागत कैलकुलेटर का उपयोग करें"
+        "title": "Submit Request",
+        "description": "Fill out our comprehensive quote form or use our cost calculator"
       },
       "review": {
-        "title": "तकनीकी समीक्षा",
-        "description": "हमारी इंजीनियरिंग टीम आपकी आवश्यकताओं और विशिष्टताओं का विश्लेषण करती है"
+        "title": "Technical Review",
+        "description": "Our engineering team analyzes your requirements and specifications"
       },
       "assessment": {
-        "title": "साइट मूल्यांकन",
-        "description": "जटिल परियोजनाओं के लिए वैकल्पिक साइट विज़िट (यदि आवश्यक हो)"
+        "title": "On-Site Assessment",
+        "description": "Optional on-site visit for complex projects, if required"
       },
       "quote": {
-        "title": "विस्तृत उद्धरण",
-        "description": "समय-सीमा और डिलिवरेबल्स सहित व्यापक मूल्य निर्धारण प्राप्त करें"
+        "title": "Detailed Quote",
+        "description": "Receive comprehensive pricing with timelines and deliverables"
       }
     },
     "cta": {
-      "title": "शुरू करने के लिए तैयार हैं?",
-      "description": "आज ही अपने अनुकूलित इंजीनियरिंग समाधान के लिए हमसे संपर्क करें। हमारी टीम आपके प्रोजेक्ट को वास्तविकता बनाने में मदद करने के लिए तैयार है।"
+      "title": "Ready to Get Started?",
+      "description": "Contact us today to get your custom engineering solutions. Our team is ready to help you bring your project to life."
     },
     "projectTypes": {
-      "processAutomation": "प्रक्रिया स्वचालन",
-      "powerControlSystems": "विद्युत नियंत्रण प्रणाली",
-      "instrumentationControl": "उपकरण और नियंत्रण",
-      "solarAutomation": "सौर स्वचालन",
-      "buildingAutomation": "भवन स्वचालन",
-      "manufacturingAutomation": "विनिर्माण स्वचालन"
+      "processAutomation": "Process Automation",
+      "powerControlSystems": "Power Control Systems",
+      "instrumentationControl": "Instrumentation & Control",
+      "solarAutomation": "Solar Automation",
+      "buildingAutomation": "Building Automation",
+      "manufacturingAutomation": "Manufacturing Automation"
     },
     "industries": {
-      "manufacturing": "उत्पादन",
-      "powerGeneration": "बिजली उत्पादन",
-      "oilGas": "तेल और गैस",
-      "chemicalProcessing": "रासायनिक प्रसंस्करण",
-      "waterTreatment": "जल उपचार",
-      "foodBeverage": "भोजन और पेय",
-      "pharmaceutical": "औषधीय",
-      "renewableEnergy": "नवीकरणीय ऊर्जा"
+      "manufacturing": "Manufacturing",
+      "powerGeneration": "Power Generation",
+      "oilGas": "Oil & Gas",
+      "chemicalProcessing": "Chemical Processing",
+      "waterTreatment": "Water Treatment",
+      "foodBeverage": "Food & Beverage",
+      "pharmaceutical": "Pharmaceutical",
+      "renewableEnergy": "Renewable Energy"
     },
     "projectSizes": {
-      "small": "छोटा (1-10 I/O पॉइंट्स)",
-      "medium": "मध्यम (11-100 I/O पॉइंट्स)",
-      "large": "बड़ा (101-500 I/O पॉइंट्स)",
-      "enterprise": "उद्यम-स्तर (500+ I/O पॉइंट्स)"
+      "small": "Small (1-10 I/O Points)",
+      "medium": "Medium (11-100 I/O Points)",
+      "large": "Large (101-500 I/O Points)",
+      "enterprise": "Enterprise (500+ I/O Points)"
     },
     "timelines": {
-      "urgent": "तत्काल (< 3 महीने)",
-      "standard": "मानक (3-6 महीने)",
-      "extended": "विस्तारित (6-12 महीने)",
-      "longTerm": "दीर्घकालिक (12+ महीने)"
+      "urgent": "Urgent (< 3 Months)",
+      "standard": "Standard (3-6 Months)",
+      "extended": "Extended (6-12 Months)",
+      "longTerm": "Long Term (12+ Months)"
     },
     "requirements": {
-      "plcProgramming": "पीएलसी प्रोग्रामिंग",
-      "scadaDevelopment": "एससीएडीए विकास",
-      "hmiDesign": "एचएमआई डिजाइन",
-      "networkIntegration": "नेटवर्क एकीकरण",
-      "safetySystems": "सुरक्षा प्रणाली",
-      "remoteMonitoring": "दूरस्थ निगरानी",
-      "dataAnalytics": "डेटा विश्लेषण",
-      "mobileApp": "मोबाइल ऐप इंटरफेस"
+      "plcProgramming": "PLC Programming",
+      "scadaDevelopment": "SCADA Development",
+      "hmiDesign": "HMI Design",
+      "networkIntegration": "Network Integration",
+      "safetySystems": "Safety Systems",
+      "remoteMonitoring": "Remote Monitoring",
+      "dataAnalytics": "Data Analytics",
+      "mobileApp": "Mobile App Interface"
     },
     "additionalFeatures": {
-      "redundancy": "सिस्टम अतिरेक",
-      "cybersecurity": "उन्नत साइबर सुरक्षा",
-      "iotIntegration": "आईओटी एकीकरण",
-      "aiMl": "एआई/एमएल विश्लेषण",
-      "predictiveMaintenance": "भविष्य कहनेवाला रखरखाव",
-      "energyManagement": "ऊर्जा प्रबंधन",
-      "cloudIntegration": "क्लाउड एकीकरण",
-      "trainingSupport": "प्रशिक्षण और विस्तारित समर्थन"
+      "redundancy": "System Redundancy",
+      "cybersecurity": "Advanced Cybersecurity",
+      "iotIntegration": "IoT Integration",
+      "aiMl": "AI/ML Analytics",
+      "predictiveMaintenance": "Predictive Maintenance",
+      "energyManagement": "Energy Management",
+      "cloudIntegration": "Cloud Integration",
+      "trainingSupport": "Training and Extended Support"
     }
   },
   "gallery": {
     "hero": {
-      "title": "हमारी गैलरी",
-      "subtitle": "चित्रों के माध्यम से हमारी यात्रा की खोज करें - हमारी समर्पित टीम और आधुनिक सुविधाओं से लेकर सफल परियोजनाओं और व्यापक उत्पाद श्रृंखला तक।"
+      "title": "Our Gallery",
+      "subtitle": "Discover our journey through images - from our dedicated team and modern facilities to successful projects and comprehensive product range."
     },
     "tabs": {
-      "company": "कंपनी टीम",
-      "projects": "परियोजनाएँ",
-      "products": "उत्पाद"
+      "company": "Company Team",
+      "projects": "Projects",
+      "products": "Products"
     },
     "company": {
       "images": {
         "modernFacility": {
-          "title": "आधुनिक इंजीनियरिंग सुविधा",
-          "description": "नोएडा में हमारी अत्याधुनिक सुविधा, नवीनतम परीक्षण उपकरणों से सुसज्जित है"
+          "title": "Modern Engineering Facility",
+          "description": "Our state-of-the-art facility in Noida, equipped with the latest testing equipment"
         },
         "expertTeam": {
-          "title": "विशेषज्ञ इंजीनियरिंग टीम",
-          "description": "हमारे कुशल इंजीनियर औद्योगिक स्वचालन समाधानों के लिए समर्पित हैं"
+          "title": "Expert Engineering Team",
+          "description": "Our highly skilled engineers dedicated to industrial automation solutions"
         },
         "qualityLab": {
-          "title": "गुणवत्ता नियंत्रण प्रयोगशाला",
-          "description": "उन्नत परीक्षण प्रयोगशाला, उत्पाद की गुणवत्ता और विश्वसनीयता सुनिश्चित करना"
+          "title": "Quality Control Lab",
+          "description": "Advanced testing laboratory ensuring product quality and reliability"
         },
         "trainingCenter": {
-          "title": "प्रशिक्षण और विकास केंद्र",
-          "description": "हमारी तकनीकी टीम के लिए निरंतर कौशल विकास प्रदान करना"
+          "title": "Training and Development Center",
+          "description": "Continuous skill development for our technical team"
         },
         "supportCenter": {
-          "title": "ग्राहक सहायता केंद्र",
-          "description": "व्यावसायिक 24/7 ग्राहक सहायता और तकनीकी सहायता"
+          "title": "Customer Support Center",
+          "description": "Professional 24/7 customer support and technical assistance"
         },
         "rdWing": {
-          "title": "अनुसंधान और विकास विभाग",
-          "description": "अत्याधुनिक स्वचालन समाधानों को विकसित करने के लिए नवाचार केंद्र"
+          "title": "R&D Department",
+          "description": "Innovation hub developing cutting-edge automation solutions"
         }
       },
       "categories": {
-        "facility": "सुविधा",
-        "team": "टीम",
-        "training": "प्रशिक्षण",
-        "support": "समर्थन",
-        "rd": "अनुसंधान और विकास"
+        "facility": "Facility",
+        "team": "Team",
+        "training": "Training",
+        "support": "Support",
+        "rd": "R&D"
       }
     },
     "sections": {
       "company": {
-        "title": "हमारी कंपनी और टीम",
-        "description": "हमारी समर्पित टीम से मिलें और हमारी उन्नत सुविधाओं का पता लगाएं जो हमें हर परियोजना में उत्कृष्टता प्रदान करने में सक्षम बनाती हैं।"
+        "title": "Our Company & Team",
+        "description": "Meet our dedicated team and explore our advanced facilities that enable us to deliver excellence in every project."
       },
       "projects": {
-        "title": "हमारी पूरी की गई परियोजनाएँ",
-        "description": "विभिन्न उद्योगों में हमारे सफल परियोजना कार्यान्वयन का अन्वेषण करें, जो गुणवत्ता के प्रति हमारी विशेषज्ञता और प्रतिबद्धता को प्रदर्शित करते हैं।"
+        "title": "Our Completed Projects",
+        "description": "Explore our successful project implementations across various industries, showcasing our expertise and commitment to quality."
       },
       "products": {
-        "title": "हमारे उत्पाद और समाधान",
-        "description": "वैश्विक स्तर पर अग्रणी निर्माताओं से औद्योगिक उत्पादों और समाधानों की हमारी व्यापक श्रृंखला की खोज करें।"
+        "title": "Our Products & Solutions",
+        "description": "Discover our comprehensive range of industrial products and solutions from leading global manufacturers."
       }
     },
     "projects": {
       "images": {
         "controlPanel": {
-          "title": "औद्योगिक नियंत्रण पैनल स्थापना",
-          "description": "विनिर्माण संयंत्र के लिए पूर्ण स्वचालन प्रणाली कार्यान्वयन",
-          "client": "विनिर्माण उद्योग"
+          "title": "Industrial Control Panel Installation",
+          "description": "Complete automation system implementation for manufacturing plant",
+          "client": "Manufacturing Industry"
         },
         "solarPlant": {
-          "title": "सौर ऊर्जा संयंत्र - 1 मेगावाट",
-          "description": "निगरानी प्रणालियों के साथ ग्रिड-टाईड सौर स्थापना",
-          "client": "औद्योगिक परिसर"
+          "title": "Solar Power Plant - 1MW",
+          "description": "Grid-tied solar installation with monitoring systems",
+          "client": "Industrial Complex"
         },
         "scadaSystem": {
-          "title": "एससीएडीए प्रणाली कार्यान्वयन",
-          "description": "जल उपचार संयंत्र के लिए केंद्रीकृत निगरानी और नियंत्रण प्रणाली",
-          "client": "जल प्राधिकरण"
+          "title": "SCADA System Implementation",
+          "description": "Centralized monitoring and control system for water treatment plant",
+          "client": "Water Authority"
         },
         "instrumentation": {
-          "title": "प्रक्रिया उपकरण अपग्रेड",
-          "description": "रासायनिक प्रसंस्करण इकाई के लिए पूर्ण उपकरण ओवरहाल",
-          "client": "रासायनिक उद्योग"
+          "title": "Process Instrumentation Upgrade",
+          "description": "Complete instrumentation overhaul for chemical processing unit",
+          "client": "Chemical Industry"
         },
         "plcProgramming": {
-          "title": "पीएलसी प्रोग्रामिंग और एकीकरण",
-          "description": "उत्पादन लाइन स्वचालन के लिए उन्नत पीएलसी प्रणाली",
-          "client": "ऑटोमोटिव सेक्टर"
+          "title": "PLC Programming & Integration",
+          "description": "Advanced PLC systems for production line automation",
+          "client": "Automotive Sector"
         },
         "electricalPanel": {
-          "title": "विद्युत पैनल आधुनिकीकरण",
-          "description": "सुरक्षा अनुपालन और दक्षता सुधार परियोजना",
-          "client": "विनिर्माण इकाई"
+          "title": "Electrical Panel Modernization",
+          "description": "Safety compliance and efficiency improvement project",
+          "client": "Manufacturing Unit"
         }
       },
       "categories": {
-        "automation": "स्वचालन",
-        "solarEpc": "सौर ईपीसी",
-        "scada": "पर्यवेक्षी नियंत्रण और डेटा अधिग्रहण प्रणाली",
-        "instrumentation": "उपकरण",
-        "plcProgramming": "पीएलसी प्रोग्रामिंग",
-        "electrical": "विद्युत"
+        "automation": "Automation",
+        "solarEpc": "Solar EPC",
+        "scada": "SCADA",
+        "instrumentation": "Instrumentation",
+        "plcProgramming": "PLC Programming",
+        "electrical": "Electrical"
       }
     },
     "products": {
       "images": {
         "controlSystems": {
-          "title": "उन्नत नियंत्रण प्रणाली",
-          "description": "अत्याधुनिक स्वचालन और नियंत्रण समाधान"
+          "title": "Advanced Control Systems",
+          "description": "State-of-the-art automation and control solutions"
         },
         "electricalPanels": {
-          "title": "विद्युत नियंत्रण पैनल",
-          "description": "औद्योगिक अनुप्रयोगों के लिए कस्टम-डिज़ाइन किए गए पैनल"
+          "title": "Electrical Control Panels",
+          "description": "Custom-designed panels for industrial applications"
         },
         "instrumentation": {
-          "title": "सटीक उपकरण",
-          "description": "उच्च गुणवत्ता वाले माप और नियंत्रण उपकरण"
+          "title": "Precision Instrumentation",
+          "description": "High-quality measurement and control instruments"
         },
         "pumps": {
-          "title": "औद्योगिक पंप और मोटर्स",
-          "description": "विभिन्न अनुप्रयोगों के लिए विश्वसनीय पंप समाधान"
+          "title": "Industrial Pumps & Motors",
+          "description": "Reliable pump solutions for various applications"
         },
         "solarProducts": {
-          "title": "सौर ऊर्जा समाधान",
-          "description": "पूर्ण सौर ऊर्जा प्रणाली और घटक"
+          "title": "Solar Power Solutions",
+          "description": "Complete solar energy systems and components"
         },
         "safetyEquipment": {
-          "title": "सुरक्षा और सुरक्षा",
-          "description": "औद्योगिक सुरक्षा उपकरण और सुरक्षात्मक उपकरण"
+          "title": "Safety & Protection",
+          "description": "Industrial safety equipment and protective devices"
         }
       },
       "categories": {
-        "controlSystems": "नियंत्रण प्रणाली",
-        "electricalPanels": "विद्युत पैनल",
-        "instrumentation": "उपकरण",
-        "pumps": "पंप और मोटर्स",
-        "solar": "सौर उत्पाद",
-        "safety": "सुरक्षा उपकरण"
+        "controlSystems": "Control Systems",
+        "electricalPanels": "Electrical Panels",
+        "instrumentation": "Instrumentation",
+        "pumps": "Pumps & Motors",
+        "solar": "Solar Products",
+        "safety": "Safety Equipment"
       }
     },
     "ui": {
-      "viewLarger": "बड़ा देखें",
-      "downloadImage": "छवि डाउनलोड करें",
-      "requestDownload": "डाउनलोड का अनुरोध करें",
-      "needCustomPortfolio": "कस्टम पोर्टफोलियो चाहिए?",
-      "contactUs": "अपनी उद्योग के लिए प्रासंगिक हमारे काम को प्रदर्शित करने वाले व्यक्तिगत परियोजना पोर्टफोलियो के लिए हमसे संपर्क करें।",
-      "imageNotFound": "छवि नहीं मिली",
-      "noImagesFound": "इस श्रेणी के लिए कोई छवि नहीं मिली",
-      "allCategories": "सभी श्रेणियाँ",
-      "year": "वर्ष",
-      "location": "स्थान",
-      "client": "ग्राहक",
-      "category": "श्रेणी"
-    },
-    "sections": {
-      "company": {
-        "title": "हमारी कंपनी और टीम",
-        "description": "हमारी समर्पित टीम से मिलें और हमारी आधुनिक सुविधाओं का पता लगाएं जो हमें हर परियोजना में उत्कृष्टता प्रदान करने में सक्षम बनाती हैं।"
-      },
-      "projects": {
-        "title": "हमारी पूरी की गई परियोजनाएँ",
-        "description": "विभिन्न उद्योगों में हमारे सफल परियोजना कार्यान्वयन का अन्वेषण करें, जो गुणवत्ता के प्रति हमारी विशेषज्ञता और प्रतिबद्धता को प्रदर्शित करते हैं।"
-      },
-      "products": {
-        "title": "हमारे उत्पाद और समाधान",
-        "description": "वैश्विक स्तर पर अग्रणी निर्माताओं से औद्योगिक उत्पादों और समाधानों की हमारी व्यापक श्रृंखला की खोज करें।"
-      }
+      "viewLarger": "View Larger",
+      "downloadImage": "Download Image",
+      "requestDownload": "Request Download",
+      "needCustomPortfolio": "Need Custom Portfolio?",
+      "contactUs": "Contact us for a personalized project portfolio showcasing our work relevant to your industry.",
+      "imageNotFound": "Image not found",
+      "noImagesFound": "No images found for this category",
+      "allCategories": "All Categories",
+      "year": "Year",
+      "location": "Location",
+      "client": "Client",
+      "category": "Category"
     }
   },
   "contact": {
     "hero": {
-      "title": "हमारे इंजीनियरिंग विशेषज्ञों से संपर्क करें",
-      "subtitle": "अपनी औद्योगिक स्वचालन और विद्युत इंजीनियरिंग परियोजनाओं के लिए पेशेवर सहायता प्राप्त करें। हमारी अनुभवी टीम आपकी सफलता में मदद करने के लिए तैयार है।",
+      "title": "Contact Our Engineering Experts",
+      "subtitle": "Get expert support for your industrial automation and electrical engineering projects. Our experienced team is ready to help you succeed.",
       "benefits": {
-        "consultation": "मुफ्त विशेषज्ञ परामर्श",
-        "support": "24/7 तकनीकी सहायता",
-        "experience": "15+ वर्ष का अनुभव"
+        "consultation": "Free Expert Consultation",
+        "support": "24/7 Technical Support",
+        "experience": "15+ Years Experience"
       }
     },
     "methods": {
-      "title": "हम तक पहुँचने के कई तरीके",
-      "subtitle": "वह संचार विधि चुनें जो आपके लिए सबसे अच्छी हो। हम आपातकालीन सहायता के लिए 24/7 उपलब्ध हैं।"
+      "title": "Multiple Ways to Reach Us",
+      "subtitle": "Choose the communication method that works best for you. We're available 24/7 for emergency support."
     },
     "form": {
-      "title": "हमें एक संदेश भेजें",
-      "subtitle": "सामान्य पूछताछ, सेवा जानकारी या तकनीकी प्रश्नों के लिए हमसे संपर्क करें।"
+      "title": "Send Us a Message",
+      "subtitle": "Get in touch with us for general inquiries, service information, or technical questions."
     },
     "contactMethods": {
       "phone": {
-        "title": "हमें सीधे कॉल करें",
-        "subtitle": "समर्थन के लिए 24/7 उपलब्ध",
-        "description": "हमारी तकनीकी टीम से सीधे बात करें"
+        "title": "Call Us Directly",
+        "subtitle": "Available 24/7 for support",
+        "description": "Speak directly with our technical team"
       },
       "email": {
-        "title": "ईमेल समर्थन",
-        "subtitle": "24 घंटे के भीतर प्रतिक्रिया",
-        "description": "हमें विस्तृत परियोजना आवश्यकताएँ भेजें"
+        "title": "Email Support",
+        "subtitle": "Response within 24 hours",
+        "description": "Send us detailed project requirements"
       },
       "whatsapp": {
-        "title": "व्हाट्सएप समर्थन",
-        "subtitle": "त्वरित प्रतिक्रिया चैट",
-        "description": "अपने प्रश्नों के तत्काल उत्तर प्राप्त करें"
+        "title": "WhatsApp Support",
+        "subtitle": "Quick response chat",
+        "description": "Get instant answers to your questions"
       },
       "visit": {
-        "title": "हमारे कार्यालय में जाएँ",
-        "subtitle": "केवल नियुक्ति द्वारा",
-        "description": "नोएडा में हमारे मुख्यालय की यात्रा का कार्यक्रम बनाएँ"
+        "title": "Visit Our Office",
+        "subtitle": "By appointment only",
+        "description": "Schedule a visit to our headquarters in Noida"
       }
     },
     "map": {
-      "title": "पावरटन इंजीनियरिंग कार्यालय स्थान"
+      "title": "Powerton Engineering Office Location"
     },
     "office": {
-      "name": "कॉर्पोरेट मुख्यालय",
-      "hours": "सोम-शनि: सुबह 9:00 बजे - शाम 6:00 बजे"
+      "name": "Corporate Headquarters",
+      "hours": "Mon-Sat: 9:00 AM - 6:00 PM"
     },
     "services": {
       "technical": {
-        "title": "तकनीकी सहायता",
-        "description": "हमारे सभी उत्पादों और सेवाओं के लिए विशेषज्ञ तकनीकी सहायता"
+        "title": "Technical Support",
+        "description": "Expert technical assistance for all our products and services"
       },
       "customer": {
-        "title": "ग्राहक सफलता",
-        "description": "आपकी परियोजना की सफलता सुनिश्चित करने के लिए समर्पित समर्थन"
+        "title": "Customer Success",
+        "description": "Dedicated support to ensure your project success"
       },
       "onsite": {
-        "title": "ऑन-साइट समर्थन",
-        "description": "आपके स्थान पर फील्ड इंजीनियरिंग समर्थन"
+        "title": "On-Site Support",
+        "description": "Field engineering support at your location"
       },
       "remote": {
-        "title": "दूरस्थ समर्थन",
-        "description": "आभासी सहायता और दूरस्थ सिस्टम निदान"
+        "title": "Remote Support",
+        "description": "Virtual assistance and remote system diagnostics"
       }
     },
     "sections": {
-      "visitOffice": "हमारे कार्यालय में जाएँ",
-      "officeLocation": "कार्यालय का स्थान",
-      "supportServices": "समर्थन सेवाएँ",
-      "businessHours": "व्यावसायिक घंटे और उपलब्धता",
-      "getDirections": "दिशा-निर्देश प्राप्त करें"
+      "visitOffice": "Visit Our Office",
+      "officeLocation": "Office Location",
+      "supportServices": "Support Services",
+      "businessHours": "Business Hours & Availability",
+      "getDirections": "Get Directions"
     },
     "formSection": {
-      "title": "सामान्य संपर्क फ़ॉर्म",
-      "description": "सामान्य पूछताछ, सेवा जानकारी या तकनीकी प्रश्नों के लिए"
+      "title": "General Contact Form",
+      "description": "For general inquiries, service information, or technical questions"
     },
     "businessHours": {
       "regular": {
-        "title": "नियमित घंटे",
-        "days": "सोमवार - शनिवार",
-        "time": "सुबह 9:00 बजे - शाम 6:00 बजे"
+        "title": "Regular Hours",
+        "days": "Monday - Saturday",
+        "time": "9:00 AM - 6:00 PM"
       },
       "emergency": {
-        "title": "आपातकालीन समर्थन",
-        "availability": "24/7 उपलब्धता",
-        "days": "सभी दिन"
+        "title": "Emergency Support",
+        "availability": "24/7 Availability",
+        "days": "All Days"
       },
       "email": {
-        "title": "ईमेल प्रतिक्रिया",
-        "time": "24 घंटे के भीतर",
-        "guarantee": "गारंटीकृत"
+        "title": "Email Response",
+        "time": "Within 24 Hours",
+        "guarantee": "Guaranteed"
       }
     },
     "emergency": {
-      "title": "आपातकालीन समर्थन",
-      "description": "महत्वपूर्ण सिस्टम विफलता? हमारी आपातकालीन प्रतिक्रिया टीम डाउनटाइम को कम करने में मदद करने के लिए 24/7 उपलब्ध है।",
-      "hotline": "आपातकालीन हॉटलाइन"
+      "title": "Emergency Support",
+      "description": "Critical system failure? Our emergency response team is available 24/7 to help minimize downtime.",
+      "hotline": "Emergency Hotline"
     },
     "seo": {
-      "title": "पावरटन इंजीनियरिंग से संपर्क करें - विशेषज्ञ इंजीनियरिंग सहायता प्राप्त करें",
-      "description": "औद्योगिक स्वचालन, विद्युत प्रणालियों और तकनीकी सहायता के लिए हमारे इंजीनियरिंग विशेषज्ञों से संपर्क करें। +91-94627-71662 पर कॉल करें या info@powertonengineering.com पर ईमेल करें",
-      "keywords": "पावरटन इंजीनियरिंग से संपर्क करें, इंजीनियरिंग सहायता, औद्योगिक स्वचालन संपर्क, विद्युत इंजीनियरिंग सहायता, नोएडा इंजीनियरिंग कंपनी संपर्क"
+      "title": "Contact Powerton Engineering - Get Expert Engineering Support",
+      "description": "Contact our engineering experts for industrial automation, electrical systems, and technical support. Call +91-94627-71662 or email info@powertonengineering.com",
+      "keywords": "contact powerton engineering, engineering support, industrial automation contact, electrical engineering help, noida engineering company contact"
     }
   },
   "ui": {
-    "projectPortfolio": "परियोजना पोर्टफोलियो",
-    "featuredProjects": "विशेषीकृत परियोजनाएँ"
+    "projectPortfolio": "Project Portfolio",
+    "featuredProjects": "Featured Projects"
   },
   "sitemap": {
     "quickActions": {
-      "title": "कुछ खोजने में मदद चाहिए?",
-      "description": "वह नहीं मिल रहा है जो आप ढूंढ रहे हैं? हमसे सीधे संपर्क करें या प्रत्येक पृष्ठ पर उपलब्ध हमारे बुद्धिमान चैटबॉट का उपयोग करें।",
-      "contactUs": "संपर्क करें",
-      "requestQuote": "उद्धरण का अनुरोध करें"
+      "title": "Need Help Finding Something?",
+      "description": "Can't find what you're looking for? Contact us directly or use our intelligent chatbot available on every page.",
+      "contactUs": "Contact Us",
+      "requestQuote": "Request Quote"
     }
   },
   "portfolio": {
     "features": {
-      "completedProjects": "विभिन्न उद्योगों में सफलतापूर्वक पूरी की गई परियोजनाएँ",
-      "highQuality": "उच्च गुणवत्ता दस्तावेज़ीकरण",
-      "highQualityDesc": "विस्तृत परियोजना कल्पना के साथ व्यावसायिक पोर्टफोलियो",
-      "verifiedResults": "सत्यापित परिणाम",
-      "verifiedResultsDesc": "मापने योग्य परिणामों और ग्राहक प्रशंसापत्रों के साथ वास्तविक परियोजनाएँ"
+      "completedProjects": "Successfully completed projects across various industries",
+      "highQuality": "High-Quality Documentation",
+      "highQualityDesc": "Professional portfolio with detailed project imagery",
+      "verifiedResults": "Verified Results",
+      "verifiedResultsDesc": "Real projects with measurable outcomes and client testimonials"
     }
   },
   "career": {
     "seo": {
-      "title": "पावरटन इंजीनियरिंग में करियर - हमारी इंजीनियरिंग टीम में शामिल हों",
-      "description": "पावरटन इंजीनियरिंग में करियर के अवसरों का अन्वेषण करें। कुशल इंजीनियरों की हमारी टीम में शामिल हों और नवीन औद्योगिक स्वचालन और विद्युत इंजीनियरिंग परियोजनाओं में योगदान करें।",
-      "keywords": "पावरटन इंजीनियरिंग करियर, इंजीनियरिंग नौकरियां, विद्युत इंजीनियर नौकरियां, स्वचालन इंजीनियर नौकरियां, औद्योगिक इंजीनियरिंग करियर, इंजीनियरिंग नौकरियां नोएडा"
+      "title": "Careers at Powerton Engineering - Join Our Engineering Team",
+      "description": "Explore career opportunities at Powerton Engineering. Join our team of skilled engineers and contribute to innovative industrial automation and electrical engineering projects.",
+      "keywords": "powerton engineering careers, engineering jobs, electrical engineer jobs, automation engineer jobs, industrial engineering careers, engineering jobs noida"
     },
     "hero": {
-      "title": "हमारे साथ अपना इंजीनियरिंग करियर बनाएं",
-      "subtitle": "नवीन औद्योगिक स्वचालन समाधानों में योगदान करने के लिए इंजीनियरों की हमारी उत्साही टीम में शामिल हों",
+      "title": "Build Your Engineering Career With Us",
+      "subtitle": "Join our passionate team of engineers and contribute to innovative industrial automation solutions",
       "benefits": {
-        "growth": "विकास के अवसर",
-        "innovation": "नवीन परियोजनाएँ",
-        "culture": "सहयोगात्मक संस्कृति"
+        "growth": "Growth Opportunities",
+        "innovation": "Innovative Projects",
+        "culture": "Collaborative Culture"
       },
-      "imageAlt": "आधुनिक औद्योगिक सुविधा उपकरण के साथ व्यावसायिक इंजीनियरिंग कार्यक्षेत्र"
+      "imageAlt": "Professional engineering workspace with modern industrial facility equipment"
     },
     "benefits": {
       "careerGrowth": {
-        "title": "कैरियर विकास",
-        "description": "नियमित प्रदर्शन समीक्षाओं और पदोन्नति अवसरों के साथ संरचित कैरियर प्रगति।"
+        "title": "Career Growth",
+        "description": "Structured career progression with regular performance reviews and promotion opportunities."
       },
       "learningDevelopment": {
-        "title": "सीखना और विकास",
-        "description": "निरंतर प्रशिक्षण कार्यक्रम, प्रमाणन और कौशल वृद्धि के अवसर।"
+        "title": "Learning & Development",
+        "description": "Continuous training programs, certifications, and skill enhancement opportunities."
       },
       "workLifeBalance": {
-        "title": "कार्य-जीवन संतुलन",
-        "description": "लचीले कार्य घंटे और कर्मचारियों और परिवारों के लिए व्यापक स्वास्थ्य लाभ।"
+        "title": "Work-Life Balance",
+        "description": "Flexible working hours and comprehensive health benefits for employees and families."
       },
       "teamCulture": {
-        "title": "टीम संस्कृति",
-        "description": "सहायक टीम के सदस्यों और खुले संचार के साथ सहयोगात्मक कार्य वातावरण।"
+        "title": "Team Culture",
+        "description": "Collaborative work environment with supportive team members and open communication."
       },
       "recognitionRewards": {
-        "title": "मान्यता और पुरस्कार",
-        "description": "उत्कृष्ट कार्य के लिए प्रदर्शन-आधारित प्रोत्साहन, बोनस और मान्यता कार्यक्रम।"
+        "title": "Recognition & Rewards",
+        "description": "Performance-based incentives, bonuses, and recognition programs for outstanding work."
       },
       "innovationFocus": {
-        "title": "नवाचार फोकस",
-        "description": "औद्योगिक स्वचालन में अत्याधुनिक तकनीकों और नवीन समाधानों पर कार्य करें।"
+        "title": "Innovation Focus",
+        "description": "Work on cutting-edge technologies and innovative solutions in industrial automation."
       }
     }
   },
   "seo": {
     "productPages": {
       "plcs": {
-        "title": "पीएलसी (प्रोग्रामेबल लॉजिक कंट्रोलर) - औद्योगिक स्वचालन | पावरटन इंजीनियरिंग",
-        "description": "अग्रणी निर्माताओं से उच्च गुणवत्ता वाले पीएलसी: सीमेंस सिमेटिक, एलन-ब्रैडली कॉम्पैक्टलॉगिक्स, श्नाइडर मोडिकॉन। पूरे भारत में विशेषज्ञ पीएलसी प्रोग्रामिंग, स्थापना और सहायता।",
-        "keywords": "पीएलसी, प्रोग्रामेबल लॉजिक कंट्रोलर, सीमेंस सिमेटिक, एलन-ब्रैडली कॉम्पैक्टलॉगिक्स, श्नाइडर मोडिकॉन, औद्योगिक स्वचालन नियंत्रक, पीएलसी प्रोग्रामिंग, फैक्ट्री स्वचालन"
+        "title": "PLCs (Programmable Logic Controllers) - Industrial Automation | Powerton Engineering",
+        "description": "High-quality PLCs from leading manufacturers: Siemens SIMATIC, Allen-Bradley CompactLogix, Schneider Modicon. Expert PLC programming, installation & support across India.",
+        "keywords": "PLCs, programmable logic controllers, Siemens SIMATIC, Allen-Bradley CompactLogix, Schneider Modicon, industrial automation controllers, PLC programming, factory automation"
       },
       "solarPanels": {
-        "title": "सौर पैनल - मोनोक्रिस्टलाइन और पॉलीक्रिस्टलाइन | पावरटन इंजीनियरिंग",
-        "description": "उच्च दक्षता वाले सौर पैनल: मोनोक्रिस्टलाइन (400W), पॉलीक्रिस्टलाइन (320W), और बाइफेशियल (450W)। पूरे भारत में स्थापना सहायता के साथ पूर्ण सौर ऊर्जा समाधान।",
-        "keywords": "सौर पैनल, मोनोक्रिस्टलाइन सौर पैनल, पॉलीक्रिस्टलाइन सौर पैनल, बाइफेशियल सौर पैनल, सौर ऊर्जा प्रणाली, नवीकरणीय ऊर्जा, सौर स्थापना भारत"
+        "title": "Solar Panels - Monocrystalline & Polycrystalline | Powerton Engineering",
+        "description": "High-efficiency solar panels: Monocrystalline (400W), Polycrystalline (320W), and Bifacial (450W). Complete solar energy solutions with installation support across India.",
+        "keywords": "solar panels, monocrystalline solar panels, polycrystalline solar panels, bifacial solar panels, solar energy systems, renewable energy, solar installation India"
       },
       "scada": {
-        "title": "SCADA सिस्टम - औद्योगिक निगरानी और नियंत्रण | पावरटन इंजीनियरिंग",
-        "description": "वास्तविक समय निगरानी, डेटा अधिग्रहण और प्रक्रिया नियंत्रण के लिए उन्नत SCADA सिस्टम। HMI एकीकरण और दूरस्थ पहुँच क्षमताओं के साथ पूर्ण SCADA समाधान।",
-        "keywords": "SCADA सिस्टम, पर्यवेक्षी नियंत्रण, डेटा अधिग्रहण, औद्योगिक निगरानी, प्रक्रिया नियंत्रण, HMI एकीकरण, दूरस्थ निगरानी, SCADA सॉफ्टवेयर"
+        "title": "SCADA Systems - Industrial Monitoring & Control | Powerton Engineering",
+        "description": "Advanced SCADA systems for real-time monitoring, data acquisition, and process control. Complete SCADA solutions with HMI integration and remote access capabilities.",
+        "keywords": "SCADA systems, supervisory control, data acquisition, industrial monitoring, process control, HMI integration, remote monitoring, SCADA software"
       }
-    }
-  },
-  "projects": {
-    "hero": {
-      "title": "परियोजना पोर्टफोलियो",
-      "subtitle": "विभिन्न उद्योगों में हमारी 1200+ सफल परियोजनाओं के माध्यम से हमारी इंजीनियरिंग उत्कृष्टता की खोज करें, जो नवाचार, गुणवत्ता और विश्वसनीयता का प्रदर्शन करती हैं।"
-    },
-    "portfolioDescription": "विभिन्न उद्योगों में नवीन समाधानों का प्रदर्शन करने वाली प्रदर्शन परियोजनाओं के माध्यम से हमारी इंजीनियरिंग क्षमताओं का अन्वेषण करें। वास्तविक परियोजना पोर्टफोलियो जल्द ही आ रहा है।",
-    "showing": "{{count}} परियोजनाएँ दिखाई जा रही हैं, कुल {{total}} में से",
-    "featured": "विशेषीकृत",
-    "moreItems": "+{{count}} और",
-    "items": {
-      "industrial-automation-demo": {
-        "title": "प्रदर्शन: औद्योगिक स्वचालन प्रणाली",
-        "client": "भविष्य का विनिर्माण ग्राहक",
-        "description": "PLC एकीकरण, SCADA सिस्टम और वास्तविक समय निगरानी समाधान सहित पूर्ण विनिर्माण स्वचालन क्षमताओं का प्रदर्शन।",
-        "location": "परियोजना स्थल निर्धारित किया जाना है",
-        "duration": "12-18 महीने"
-      },
-      "power-distribution-demo": {
-        "title": "उदाहरण: विद्युत वितरण नियंत्रण",
-        "client": "भविष्य का विद्युत भागीदार",
-        "description": "स्वचालित भार संतुलन और विद्युत उत्पादन सुविधाओं की रिमोट निगरानी क्षमताओं का प्रदर्शन करने वाली एक उदाहरण विद्युत वितरण प्रणाली।",
-        "location": "कई स्थान",
-        "duration": "10-15 महीने"
-      },
-      "solar-plant-demo": {
-        "title": "उदाहरण: सौर ऊर्जा संयंत्र नियंत्रण प्रणाली",
-        "client": "भविष्य का नवीकरणीय ऊर्जा ग्राहक",
-        "description": "नवीकरणीय ऊर्जा परियोजनाओं के लिए सौर ट्रैकिंग स्वचालन प्रणालियों की मौसम निगरानी और ग्रिड सिंक्रनाइज़ेशन क्षमताओं का प्रदर्शन।",
-        "location": "कई साइटें",
-        "duration": "6-10 महीने"
-      },
-      "process-control-demo": {
-        "title": "प्रदर्शन: प्रक्रिया नियंत्रण समाधान",
-        "client": "भविष्य का औद्योगिक भागीदार",
-        "description": "सुरक्षा प्रणालियों, पर्यावरण निगरानी और औद्योगिक अनुप्रयोगों के लिए बैच प्रसंस्करण नियंत्रण सहित पूर्ण प्रक्रिया स्वचालन क्षमताओं का प्रदर्शन।",
-        "location": "परियोजना स्थल निर्धारित किया जाना है",
-        "duration": "आठ से बारह महीने"
-      },
-      "smart-factory-demo": {
-        "title": "प्रदर्शन: स्मार्ट फैक्ट्री एकीकरण",
-        "client": "वर्तमान विकास ग्राहक",
-        "description": "IOT कनेक्टिविटी, भविष्य कहनेवाला रखरखाव और औद्योगिक 4.0 क्षमताओं का प्रदर्शन करने वाला एक सतत स्मार्ट फैक्ट्री एकीकरण प्रदर्शन।",
-        "location": "विकास स्थल",
-        "duration": "चौदह महीने"
-      }
-    },
-    "categories": {
-      "processautomation": "प्रक्रिया स्वचालन",
-      "powersystems": "विद्युत प्रणालियाँ",
-      "solarsolutions": "सौर समाधान"
-    },
-    "statuses": {
-      "capabilityDemo": "क्षमता प्रदर्शन",
-      "inprogress": "प्रगति में",
-      "completed": "पूर्ण"
-    },
-    "technologies": {
-      "plcprogramming": "प्रोग्रामेबल लॉजिक कंट्रोलर प्रोग्रामिंग",
-      "scada": "निगरानी नियंत्रण और डेटा अधिग्रहण प्रणाली",
-      "hmi": "मानव मशीन इंटरफेस",
-      "industrialiot": "औद्योगिक इंटरनेट ऑफ थिंग्स",
-      "mccpanels": "मोटर नियंत्रण केंद्र पैनल",
-      "protectionsystems": "सुरक्षा प्रणाली",
-      "energymanagement": "ऊर्जा प्रबंधन",
-      "remotemonitoring": "दूरस्थ निगरानी",
-      "solarinverters": "सौर इन्वर्टर",
-      "gridsync": "ग्रिड सिंक्रनाइज़ेशन",
-      "weathermonitoring": "मौसम निगरानी",
-      "dataanalytics": "डेटा विश्लेषण",
-      "processcontrol": "प्रक्रिया नियंत्रण",
-      "safetysystems": "सुरक्षा प्रणाली"
-    },
-    "cta": {
-      "title": "अपनी अगली परियोजना शुरू करने के लिए तैयार हैं?",
-      "description": "आइए चर्चा करें कि हमारी इंजीनियरिंग विशेषज्ञता आपके औद्योगिक स्वचालन परियोजनाओं को कैसे जीवन में ला सकती है।",
-      "getProjectQuote": "परियोजना उद्धरण प्राप्त करें",
-      "contactTeam": "हमारी टीम से संपर्क करें"
-    }
-  }
-}
-      "urgent": "तत्काल (< 3 महीने)",
-      "standard": "मानक (3-6 महीने)",
-      "extended": "विस्तारित (6-12 महीने)",
-      "longTerm": "दीर्घकालिक (12+ महीने)"
-    },
-    "requirements": {
-      "plcProgramming": "पीएलसी प्रोग्रामिंग",
-      "scadaDevelopment": "एससीएडीए विकास",
-      "hmiDesign": "एचएमआई डिजाइन",
-      "networkIntegration": "नेटवर्क एकीकरण",
-      "safetySystems": "सुरक्षा प्रणाली",
-      "remoteMonitoring": "दूरस्थ निगरानी",
-      "dataAnalytics": "डेटा विश्लेषण",
-      "mobileApp": "मोबाइल ऐप इंटरफेस"
-    },
-    "additionalFeatures": {
-      "redundancy": "सिस्टम अतिरेक",
-      "cybersecurity": "उन्नत साइबर सुरक्षा",
-      "iotIntegration": "आईओटी एकीकरण",
-      "aiMl": "एआई/एमएल विश्लेषण",
-      "predictiveMaintenance": "भविष्य कहनेवाला रखरखाव",
-      "energyManagement": "ऊर्जा प्रबंधन",
-      "cloudIntegration": "क्लाउड एकीकरण",
-      "trainingSupport": "प्रशिक्षण और विस्तारित समर्थन"
-    }
-  },
-  "gallery": {
-    "hero": {
-      "title": "हमारी गैलरी",
-      "subtitle": "चित्रों के माध्यम से हमारी यात्रा की खोज करें - हमारी समर्पित टीम और आधुनिक सुविधाओं से लेकर सफल परियोजनाओं और व्यापक उत्पाद श्रृंखला तक।"
-    },
-    "tabs": {
-      "company": "कंपनी टीम",
-      "projects": "परियोजनाएँ",
-      "products": "उत्पाद"
-    },
-    "company": {
-      "images": {
-        "modernFacility": {
-          "title": "आधुनिक इंजीनियरिंग सुविधा",
-          "description": "नोएडा में हमारी अत्याधुनिक सुविधा, नवीनतम परीक्षण उपकरणों से सुसज्जित है"
-        },
-        "expertTeam": {
-          "title": "विशेषज्ञ इंजीनियरिंग टीम",
-          "description": "हमारे कुशल इंजीनियर औद्योगिक स्वचालन समाधानों के लिए समर्पित हैं"
-        },
-        "qualityLab": {
-          "title": "गुणवत्ता नियंत्रण प्रयोगशाला",
-          "description": "उन्नत परीक्षण प्रयोगशाला, उत्पाद की गुणवत्ता और विश्वसनीयता सुनिश्चित करना"
-        },
-        "trainingCenter": {
-          "title": "प्रशिक्षण और विकास केंद्र",
-          "description": "हमारी तकनीकी टीम के लिए निरंतर कौशल विकास प्रदान करना"
-        },
-        "supportCenter": {
-          "title": "ग्राहक सहायता केंद्र",
-          "description": "व्यावसायिक 24/7 ग्राहक सहायता और तकनीकी मदद"
-        },
-        "rdWing": {
-          "title": "अनुसंधान और विकास विभाग",
-          "description": "अत्याधुनिक स्वचालन समाधानों को विकसित करने के लिए नवाचार केंद्र"
-        }
-      },
-      "categories": {
-        "facility": "सुविधा",
-        "team": "टीम",
-        "training": "प्रशिक्षण",
-        "support": "समर्थन",
-        "rd": "अनुसंधान और विकास"
-      }
-    },
-    "sections": {
-      "company": {
-        "title": "हमारी कंपनी और टीम",
-        "description": "हमारी समर्पित टीम से मिलें और हमारे आधुनिक सुविधाओं का पता लगाएं जो हमें हर परियोजना में उत्कृष्टता प्रदान करने में सक्षम बनाती हैं।"
-      },
-      "projects": {
-        "title": "हमारी पूरी की गई परियोजनाएँ",
-        "description": "विभिन्न उद्योगों में हमारे सफल परियोजना कार्यान्वयन का अन्वेषण करें, जो गुणवत्ता के प्रति हमारी विशेषज्ञता और प्रतिबद्धता को प्रदर्शित करते हैं।"
-      },
-      "products": {
-        "title": "हमारे उत्पाद और समाधान",
-        "description": "वैश्विक स्तर पर अग्रणी निर्माताओं से औद्योगिक उत्पादों और समाधानों की हमारी व्यापक श्रृंखला की खोज करें।"
-      }
-    },
-    "projects": {
-      "images": {
-        "controlPanel": {
-          "title": "औद्योगिक नियंत्रण पैनल स्थापना",
-          "description": "विनिर्माण संयंत्र के लिए पूर्ण स्वचालन प्रणाली कार्यान्वयन",
-          "client": "विनिर्माण उद्योग"
-        },
-        "solarPlant": {
-          "title": "सौर ऊर्जा संयंत्र - 1 मेगावाट",
-          "description": "निगरानी प्रणालियों के साथ ग्रिड-टाईड सौर स्थापना",
-          "client": "औद्योगिक परिसर"
-        },
-        "scadaSystem": {
-          "title": "एससीएडीए प्रणाली कार्यान्वयन",
-          "description": "जल उपचार संयंत्र के लिए केंद्रीकृत निगरानी और नियंत्रण प्रणाली",
-          "client": "जल प्राधिकरण"
-        },
-        "instrumentation": {
-          "title": "प्रक्रिया उपकरण अपग्रेड",
-          "description": "रासायनिक प्रसंस्करण इकाई के लिए पूर्ण उपकरण ओवरहाल",
-          "client": "रासायनिक उद्योग"
-        },
-        "plcProgramming": {
-          "title": "पीएलसी प्रोग्रामिंग और एकीकरण",
-          "description": "उत्पादन लाइन स्वचालन के लिए उन्नत पीएलसी प्रणाली",
-          "client": "ऑटोमोटिव सेक्टर"
-        },
-        "electricalPanel": {
-          "title": "विद्युत पैनल आधुनिकीकरण",
-          "description": "सुरक्षा अनुपालन और दक्षता सुधार परियोजना",
-          "client": "विनिर्माण इकाई"
-        }
-      },
-      "categories": {
-        "automation": "स्वचालन",
-        "solarEpc": "सौर ईपीसी",
-        "scada": "निगरानी नियंत्रण और डेटा अधिग्रहण प्रणाली",
-        "instrumentation": "उपकरण",
-        "plcProgramming": "पीएलसी प्रोग्रामिंग",
-        "electrical": "विद्युत"
-      }
-    },
-    "products": {
-      "images": {
-        "controlSystems": {
-          "title": "उन्नत नियंत्रण प्रणाली",
-          "description": "अत्याधुनिक स्वचालन और नियंत्रण समाधान"
-        },
-        "electricalPanels": {
-          "title": "विद्युत नियंत्रण पैनल",
-          "description": "औद्योगिक अनुप्रयोगों के लिए कस्टम-डिज़ाइन किए गए पैनल"
-        },
-        "instrumentation": {
-          "title": "सटीक उपकरण",
-          "description": "उच्च गुणवत्ता वाले माप और नियंत्रण उपकरण"
-        },
-        "pumps": {
-          "title": "औद्योगिक पंप और मोटर्स",
-          "description": "विभिन्न अनुप्रयोगों के लिए विश्वसनीय पंप समाधान"
-        },
-        "solarProducts": {
-          "title": "सौर ऊर्जा समाधान",
-          "description": "पूर्ण सौर ऊर्जा प्रणाली और घटक"
-        },
-        "safetyEquipment": {
-          "title": "सुरक्षा और सुरक्षा",
-          "description": "औद्योगिक सुरक्षा उपकरण और सुरक्षात्मक उपकरण"
-        }
-      },
-      "categories": {
-        "controlSystems": "नियंत्रण प्रणाली",
-        "electricalPanels": "विद्युत पैनल",
-        "instrumentation": "उपकरण",
-        "pumps": "पंप और मोटर्स",
-        "solar": "सौर उत्पाद",
-        "safety": "सुरक्षा उपकरण"
-      }
-    },
-    "ui": {
-      "viewLarger": "बड़ा देखें",
-      "downloadImage": "छवि डाउनलोड करें",
-      "requestDownload": "डाउनलोड का अनुरोध करें",
-      "needCustomPortfolio": "अनुकूलित पोर्टफोलियो चाहिए?",
-      "contactUs": "अपनी उद्योग के लिए प्रासंगिक हमारे काम को प्रदर्शित करने वाले व्यक्तिगत परियोजना पोर्टफोलियो के लिए हमसे संपर्क करें।",
-      "imageNotFound": "छवि नहीं मिली",
-      "noImagesFound": "इस श्रेणी के लिए कोई छवि नहीं मिली",
-      "allCategories": "सभी श्रेणियाँ",
-      "year": "वर्ष",
-      "location": "स्थान",
-      "client": "ग्राहक",
-      "category": "श्रेणी"
-    },
-    "sections": {
-      "company": {
-        "title": "हमारी कंपनी और टीम",
-        "description": "हमारी समर्पित टीम से मिलें और हमारी आधुनिक सुविधाओं का पता लगाएं जो हमें हर परियोजना में उत्कृष्टता प्रदान करने में सक्षम बनाती हैं।"
-      },
-      "projects": {
-        "title": "हमारी पूरी की गई परियोजनाएँ",
-        "description": "विभिन्न उद्योगों में हमारे सफल परियोजना कार्यान्वयन का अन्वेषण करें, जो गुणवत्ता के प्रति हमारी विशेषज्ञता और प्रतिबद्धता को प्रदर्शित करते हैं।"
-      },
-      "products": {
-        "title": "हमारे उत्पाद और समाधान",
-        "description": "वैश्विक स्तर पर अग्रणी निर्माताओं से औद्योगिक उत्पादों और समाधानों की हमारी व्यापक श्रृंखला की खोज करें।"
-      }
-    }
-  },
-  "contact": {
-    "hero": {
-      "title": "हमारे इंजीनियरिंग विशेषज्ञों से संपर्क करें",
-      "subtitle": "अपनी औद्योगिक स्वचालन और विद्युत इंजीनियरिंग परियोजनाओं के लिए पेशेवर सहायता प्राप्त करें। हमारी अनुभवी टीम आपकी सफलता में मदद करने के लिए तैयार है।",
-      "benefits": {
-        "consultation": "मुफ्त विशेषज्ञ परामर्श",
-        "support": "24/7 तकनीकी सहायता",
-        "experience": "15+ वर्ष का अनुभव"
-      }
-    },
-    "methods": {
-      "title": "हम तक पहुँचने के कई तरीके",
-      "subtitle": "वह संचार विधि चुनें जो आपके लिए सबसे अच्छी हो। हम आपातकालीन सहायता के लिए 24/7 उपलब्ध हैं।"
-    },
-    "form": {
-      "title": "हमें एक संदेश भेजें",
-      "subtitle": "सामान्य पूछताछ, सेवा जानकारी या तकनीकी प्रश्नों के लिए हमसे संपर्क करें।"
-    },
-    "contactMethods": {
-      "phone": {
-        "title": "हमें सीधे कॉल करें",
-        "subtitle": "समर्थन के लिए 24/7 उपलब्ध",
-        "description": "हमारी तकनीकी टीम से सीधे बात करें"
-      },
-      "email": {
-        "title": "ईमेल समर्थन",
-        "subtitle": "24 घंटे के भीतर प्रतिक्रिया",
-        "description": "हमें विस्तृत परियोजना आवश्यकताएँ भेजें"
-      },
-      "whatsapp": {
-        "title": "व्हाट्सएप समर्थन",
-        "subtitle": "त्वरित प्रतिक्रिया चैट",
-        "description": "अपने प्रश्नों के तत्काल उत्तर प्राप्त करें"
-      },
-      "visit": {
-        "title": "हमारे कार्यालय में जाएँ",
-        "subtitle": "केवल नियुक्ति द्वारा",
-        "description": "नोएडा में हमारे मुख्यालय की यात्रा का कार्यक्रम बनाएँ"
-      }
-    },
-    "map": {
-      "title": "पावरटन इंजीनियरिंग कार्यालय स्थान"
-    },
-    "office": {
-      "name": "कॉर्पोरेट मुख्यालय",
-      "hours": "सोम-शनि: सुबह 9:00 बजे - शाम 6:00 बजे"
-    },
-    "services": {
-      "technical": {
-        "title": "तकनीकी सहायता",
-        "description": "हमारे सभी उत्पादों और सेवाओं के लिए विशेषज्ञ तकनीकी सहायता"
-      },
-      "customer": {
-        "title": "ग्राहक सफलता",
-        "description": "आपकी परियोजना की सफलता सुनिश्चित करने के लिए समर्पित समर्थन"
-      },
-      "onsite": {
-        "title": "ऑन-साइट समर्थन",
-        "description": "आपके स्थान पर फील्ड इंजीनियरिंग समर्थन"
-      },
-      "remote": {
-        "title": "दूरस्थ समर्थन",
-        "description": "आभासी सहायता और दूरस्थ सिस्टम निदान"
-      }
-    },
-    "sections": {
-      "visitOffice": "हमारे कार्यालय में जाएँ",
-      "officeLocation": "कार्यालय का स्थान",
-      "supportServices": "समर्थन सेवाएँ",
-      "businessHours": "व्यावसायिक घंटे और उपलब्धता",
-      "getDirections": "दिशा-निर्देश प्राप्त करें"
-    },
-    "formSection": {
-      "title": "सामान्य संपर्क फ़ॉर्म",
-      "description": "सामान्य पूछताछ, सेवा जानकारी या तकनीकी प्रश्नों के लिए"
-    },
-    "businessHours": {
-      "regular": {
-        "title": "नियमित घंटे",
-        "days": "सोमवार - शनिवार",
-        "time": "सुबह 9:00 बजे - शाम 6:00 बजे"
-      },
-      "emergency": {
-        "title": "आपातकालीन समर्थन",
-        "availability": "24/7 उपलब्धता",
-        "days": "सभी दिन"
-      },
-      "email": {
-        "title": "ईमेल प्रतिक्रिया",
-        "time": "24 घंटे के भीतर",
-        "guarantee": "गारंटीकृत"
-      }
-    },
-    "emergency": {
-      "title": "आपातकालीन समर्थन",
-      "description": "महत्वपूर्ण सिस्टम विफलता? हमारी आपातकालीन प्रतिक्रिया टीम डाउनटाइम को कम करने में मदद करने के लिए 24/7 उपलब्ध है।",
-      "hotline": "आपातकालीन हॉटलाइन"
-    },
-    "seo": {
-      "title": "पावरटन इंजीनियरिंग से संपर्क करें - विशेषज्ञ इंजीनियरिंग सहायता प्राप्त करें",
-      "description": "औद्योगिक स्वचालन, विद्युत प्रणालियों और तकनीकी सहायता के लिए हमारे इंजीनियरिंग विशेषज्ञों से संपर्क करें। +91-94627-71662 पर कॉल करें या info@powertonengineering.com पर ईमेल करें",
-      "keywords": "पावरटन इंजीनियरिंग से संपर्क करें, इंजीनियरिंग सहायता, औद्योगिक स्वचालन संपर्क, विद्युत इंजीनियरिंग सहायता, नोएडा इंजीनियरिंग कंपनी संपर्क"
-    }
-  },
-  "ui": {
-    "projectPortfolio": "परियोजना पोर्टफोलियो",
-    "featuredProjects": "विशेषीकृत परियोजनाएँ"
-  },
-  "sitemap": {
-    "quickActions": {
-      "title": "कुछ खोजने में मदद चाहिए?",
-      "description": "वह नहीं मिल रहा है जो आप ढूंढ रहे हैं? हमसे सीधे संपर्क करें या प्रत्येक पृष्ठ पर उपलब्ध हमारे बुद्धिमान चैटबॉट का उपयोग करें।",
-      "contactUs": "संपर्क करें",
-      "requestQuote": "उद्धरण का अनुरोध करें"
-    }
-  },
-  "portfolio": {
-    "features": {
-      "completedProjects": "विभिन्न उद्योगों में सफलतापूर्वक पूरी की गई परियोजनाएँ",
-      "highQuality": "उच्च गुणवत्ता दस्तावेज़ीकरण",
-      "highQualityDesc": "विस्तृत परियोजना कल्पना के साथ व्यावसायिक पोर्टफोलियो",
-      "verifiedResults": "सत्यापित परिणाम",
-      "verifiedResultsDesc": "मापने योग्य परिणामों और ग्राहक प्रशंसापत्रों के साथ वास्तविक परियोजनाएँ"
-    }
-  },
-  "career": {
-    "seo": {
-      "title": "पावरटन इंजीनियरिंग में करियर - हमारी इंजीनियरिंग टीम में शामिल हों",
-      "description": "पावरटन इंजीनियरिंग में करियर के अवसरों का अन्वेषण करें। कुशल इंजीनियरों की हमारी टीम में शामिल हों और नवीन औद्योगिक स्वचालन और विद्युत इंजीनियरिंग परियोजनाओं में योगदान करें।",
-      "keywords": "पावरटन इंजीनियरिंग करियर, इंजीनियरिंग नौकरियां, विद्युत इंजीनियर नौकरियां, स्वचालन इंजीनियर नौकरियां, औद्योगिक इंजीनियरिंग करियर, इंजीनियरिंग नौकरियां नोएडा"
-    },
-    "hero": {
-      "title": "हमारे साथ अपना इंजीनियरिंग करियर बनाएं",
-      "subtitle": "नवीन औद्योगिक स्वचालन समाधानों में योगदान करने के लिए इंजीनियरों की हमारी उत्साही टीम में शामिल हों",
-      "benefits": {
-        "growth": "विकास के अवसर",
-        "innovation": "नवीन परियोजनाएँ",
-        "culture": "सहयोगात्मक संस्कृति"
-      },
-      "imageAlt": "आधुनिक औद्योगिक सुविधा उपकरण के साथ व्यावसायिक इंजीनियरिंग कार्यक्षेत्र"
-    },
-    "benefits": {
-      "careerGrowth": {
-        "title": "कैरियर विकास",
-        "description": "नियमित प्रदर्शन समीक्षाओं और पदोन्नति अवसरों के साथ संरचित कैरियर प्रगति।"
-      },
-      "learningDevelopment": {
-        "title": "सीखना और विकास",
-        "description": "निरंतर प्रशिक्षण कार्यक्रम, प्रमाणन और कौशल वृद्धि के अवसर।"
-      },
-      "workLifeBalance": {
-        "title": "कार्य-जीवन संतुलन",
-        "description": "लचीले कार्य घंटे और कर्मचारियों और परिवारों के लिए व्यापक स्वास्थ्य लाभ।"
-      },
-      "teamCulture": {
-        "title": "टीम संस्कृति",
-        "description": "सहायक टीम के सदस्यों और खुले संचार के साथ सहयोगात्मक कार्य वातावरण।"
-      },
-      "recognitionRewards": {
-        "title": "मान्यता और पुरस्कार",
-        "description": "उत्कृष्ट कार्य के लिए प्रदर्शन-आधारित प्रोत्साहन, बोनस और मान्यता कार्यक्रम।"
-      },
-      "innovationFocus": {
-        "title": "नवाचार फोकस",
-        "description": "औद्योगिक स्वचालन में अत्याधुनिक तकनीकों और नवीन समाधानों पर कार्य करें।"
-      }
-    }
-  },
-  "seo": {
-    "productPages": {
-      "plcs": {
-        "title": "पीएलसी (प्रोग्रामेबल लॉजिक कंट्रोलर) - औद्योगिक स्वचालन | पावरटन इंजीनियरिंग",
-        "description": "अग्रणी निर्माताओं से उच्च गुणवत्ता वाले पीएलसी: सीमेंस सिमेटिक, एलन-ब्रैडली कॉम्पैक्टलॉगिक्स, श्नाइडर मोडिकॉन। पूरे भारत में विशेषज्ञ पीएलसी प्रोग्रामिंग, स्थापना और सहायता।",
-        "keywords": "पीएलसी, प्रोग्रामेबल लॉजिक कंट्रोलर, सीमेंस सिमेटिक, एलन-ब्रैडली कॉम्पैक्टलॉगिक्स, श्नाइडर मोडिकॉन, औद्योगिक स्वचालन नियंत्रक, पीएलसी प्रोग्रामिंग, फैक्ट्री स्वचालन"
-      },
-      "solarPanels": {
-        "title": "सौर पैनल - मोनोक्रिस्टलाइन और पॉलीक्रिस्टलाइन | पावरटन इंजीनियरिंग",
-        "description": "उच्च दक्षता वाले सौर पैनल: मोनोक्रिस्टलाइन (400W), पॉलीक्रिस्टलाइन (320W), और बाइफेशियल (450W)। पूरे भारत में स्थापना सहायता के साथ पूर्ण सौर ऊर्जा समाधान।",
-        "keywords": "सौर पैनल, मोनोक्रिस्टलाइन सौर पैनल, पॉलीक्रिस्टलाइन सौर पैनल, बाइफेशियल सौर पैनल, सौर ऊर्जा प्रणाली, नवीकरणीय ऊर्जा, सौर स्थापना भारत"
-      },
-      "scada": {
-        "title": "SCADA सिस्टम - औद्योगिक निगरानी और नियंत्रण | पावरटन इंजीनियरिंग",
-        "description": "वास्तविक समय निगरानी, डेटा अधिग्रहण और प्रक्रिया नियंत्रण के लिए उन्नत SCADA सिस्टम। HMI एकीकरण और दूरस्थ पहुँच क्षमताओं के साथ पूर्ण SCADA समाधान।",
-        "keywords": "SCADA सिस्टम, पर्यवेक्षी नियंत्रण, डेटा अधिग्रहण, औद्योगिक निगरानी, प्रक्रिया नियंत्रण, HMI एकीकरण, दूरस्थ निगरानी, SCADA सॉफ्टवेयर"
-      }
-    }
-  },
-  "projects": {
-    "hero": {
-      "title": "परियोजना पोर्टफोलियो",
-      "subtitle": "विभिन्न उद्योगों में हमारी 1200+ सफल परियोजनाओं के माध्यम से हमारी इंजीनियरिंग उत्कृष्टता की खोज करें, जो नवाचार, गुणवत्ता और विश्वसनीयता का प्रदर्शन करती हैं।"
-    },
-    "portfolioDescription": "विभिन्न उद्योगों में नवीन समाधानों का प्रदर्शन करने वाली प्रदर्शन परियोजनाओं के माध्यम से हमारी इंजीनियरिंग क्षमताओं का अन्वेषण करें। वास्तविक परियोजना पोर्टफोलियो जल्द ही आ रहा है।",
-    "showing": "{{count}} परियोजनाएँ दिखाई जा रही हैं, कुल {{total}} में से",
-    "featured": "विशेषीकृत",
-    "moreItems": "+{{count}} और",
-    "items": {
-      "industrial-automation-demo": {
-        "title": "प्रदर्शन: औद्योगिक स्वचालन प्रणाली",
-        "client": "भविष्य का विनिर्माण ग्राहक",
-        "description": "PLC एकीकरण, SCADA सिस्टम और वास्तविक समय निगरानी समाधान सहित पूर्ण विनिर्माण स्वचालन क्षमताओं का प्रदर्शन।",
-        "location": "परियोजना स्थल निर्धारित किया जाना है",
-        "duration": "12-18 महीने"
-      },
-      "power-distribution-demo": {
-        "title": "उदाहरण: विद्युत वितरण नियंत्रण",
-        "client": "भविष्य का विद्युत भागीदार",
-        "description": "स्वचालित भार संतुलन और विद्युत उत्पादन सुविधाओं की रिमोट निगरानी क्षमताओं का प्रदर्शन करने वाली एक उदाहरण विद्युत वितरण प्रणाली।",
-        "location": "कई स्थान",
-        "duration": "10-15 महीने"
-      },
-      "solar-plant-demo": {
-        "title": "उदाहरण: सौर ऊर्जा संयंत्र नियंत्रण प्रणाली",
-        "client": "भविष्य का नवीकरणीय ऊर्जा ग्राहक",
-        "description": "नवीकरणीय ऊर्जा परियोजनाओं के लिए सौर ट्रैकिंग स्वचालन प्रणालियों की मौसम निगरानी और ग्रिड सिंक्रनाइज़ेशन क्षमताओं का प्रदर्शन।",
-        "location": "कई साइटें",
-        "duration": "6-10 महीने"
-      },
-      "process-control-demo": {
-        "title": "प्रदर्शन: प्रक्रिया नियंत्रण समाधान",
-        "client": "भविष्य का औद्योगिक भागीदार",
-        "description": "सुरक्षा प्रणालियों, पर्यावरण निगरानी और औद्योगिक अनुप्रयोगों के लिए बैच प्रसंस्करण नियंत्रण सहित पूर्ण प्रक्रिया स्वचालन क्षमताओं का प्रदर्शन।",
-        "location": "परियोजना स्थल निर्धारित किया जाना है",
-        "duration": "आठ से बारह महीने"
-      },
-      "smart-factory-demo": {
-        "title": "प्रदर्शन: स्मार्ट फैक्ट्री एकीकरण",
-        "client": "वर्तमान विकास ग्राहक",
-        "description": "IOT कनेक्टिविटी, भविष्य कहनेवाला रखरखाव और औद्योगिक 4.0 क्षमताओं का प्रदर्शन करने वाला एक सतत स्मार्ट फैक्ट्री एकीकरण प्रदर्शन।",
-        "location": "विकास स्थल",
-        "duration": "चौदह महीने"
-      }
-    },
-    "categories": {
-      "processautomation": "प्रक्रिया स्वचालन",
-      "powersystems": "विद्युत प्रणालियाँ",
-      "solarsolutions": "सौर समाधान"
-    },
-    "statuses": {
-      "capabilityDemo": "क्षमता प्रदर्शन",
-      "inprogress": "प्रगति में",
-      "completed": "पूर्ण"
-    },
-    "technologies": {
-      "plcprogramming": "प्रोग्रामेबल लॉजिक कंट्रोलर प्रोग्रामिंग",
-      "scada": "निगरानी नियंत्रण और डेटा अधिग्रहण प्रणाली",
-      "hmi": "मानव मशीन इंटरफेस",
-      "industrialiot": "औद्योगिक इंटरनेट ऑफ थिंग्स",
-      "mccpanels": "मोटर नियंत्रण केंद्र पैनल",
-      "protectionsystems": "सुरक्षा प्रणाली",
-      "energymanagement": "ऊर्जा प्रबंधन",
-      "remotemonitoring": "दूरस्थ निगरानी",
-      "solarinverters": "सौर इन्वर्टर",
-      "gridsync": "ग्रिड सिंक्रनाइज़ेशन",
-      "weathermonitoring": "मौसम निगरानी",
-      "dataanalytics": "डेटा विश्लेषण",
-      "processcontrol": "प्रक्रिया नियंत्रण",
-      "safetysystems": "सुरक्षा प्रणाली"
-    },
-    "cta": {
-      "title": "अपनी अगली परियोजना शुरू करने के लिए तैयार हैं?",
-      "description": "आइए चर्चा करें कि हमारी इंजीनियरिंग विशेषज्ञता आपके औद्योगिक स्वचालन परियोजनाओं को कैसे जीवन में ला सकती है।",
-      "getProjectQuote": "परियोजना उद्धरण प्राप्त करें",
-      "contactTeam": "हमारी टीम से संपर्क करें"
     }
   }
 }

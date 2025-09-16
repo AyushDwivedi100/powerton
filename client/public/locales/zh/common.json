@@ -1,15 +1,14 @@
 {
   "nav": {
-    "home": "首页",
+    "home": "家",
     "about": "关于我们",
     "services": "服务",
     "products": "产品",
     "projects": "项目",
     "contact": "联系我们",
     "blog": "博客",
-    "quote": "获取报价"
+    "quote": "询价"
   },
-
   "language": {
     "en": "英语",
     "hi": "印地语",
@@ -26,78 +25,74 @@
     "backToProducts": "返回产品",
     "backToElectricalComponents": "返回电气元件",
     "backToSolarProducts": "返回太阳能产品",
-    "backToMechanicalPumps": "返回机械泵及备件",
+    "backToMechanicalPumps": "返回机械泵",
     "backToMeasurementInstruments": "返回测量仪器",
-    "backToSafetyDevices": "返回安全防护设备",
-    "backToIndustrialTools": "返回工业工具设备",
-    "backToAutomationSystems": "返回自动化控制系统",
-    "backToBLDC": "返回无刷直流电机产品",
-    "phoneNumbers": "电话号码",
-    "backToInstrumentationComponents": "返回仪表组件"
+    "backToIndustrialTools": "返回工业工具",
+    "backToAutomationSystems": "返回自动化系统",
+    "backToBLDC": "返回BLDC产品",
+    "backToInstrumentationComponents": "返回仪器仪表组件",
+    "backToSafetyDevices": "返回安全和保护设备",
+    "phoneNumbers": "电话号码"
   },
   "testimonials": {
     "anand": {
-      "name": "阿南德·阿瓦斯蒂",
+      "name": "Ahmad Musa",
       "location": "西孟加拉邦",
-      "comment": "帕龙鼠工程让我们的太阳能项目变得无缝且简单。他们的团队从头到尾处理一切，我们对结果非常满意。"
+      "comment": "Powerton工程公司让太阳能项目变得简单轻松。他们的团队负责从头到尾的一切，我们对结果非常满意。"
     },
     "sanjay": {
-      "name": "桑杰·帕蒂尔",
+      "name": "Sanusi Ahmad",
       "location": "北方邦",
-      "comment": "我很高兴为我们的安装选择了帕龙鼠工程，我毫不犹豫地向我的任何朋友推荐他们。"
+      "comment": "我很高兴选择了Powerton工程公司进行安装，我非常乐意向我所有的熟人推荐他们。"
     },
     "rhea": {
-      "name": "瑞亚·夏尔马",
+      "name": "Rahma Salihu",
       "location": "马哈拉施特拉邦",
-      "comment": "优质的产品和出色的客户服务。团队的技术专长令人印象深刻且高度专业。"
+      "comment": "卓越的优质产品和卓越的客户服务。该团队的技术专长令人印象深刻且知识渊博。"
     },
     "priya": {
-      "name": "普里亚·梅塔",
+      "name": "Fatima Musa",
       "location": "古吉拉特邦",
-      "comment": "与帕龙鼠工程合作是一次美妙的体验。他们的自动化解决方案改变了我们的制造流程，提高了百分之三十五的效率。强烈推荐工业自动化项目。"
+      "comment": "与Powerton工程公司合作是一次非凡的体验。他们的自动化解决方案改变了我们的生产流程，并将效率提高了百分之三十五。强烈推荐用于工业自动化项目。"
     },
     "kavya": {
-      "name": "卡维娅·辛格",
+      "name": "Hadiza Sani",
       "location": "卡纳塔克邦",
-      "comment": "出色的服务和技术支持！团队在我们的太阳能项目实施过程中提供了卓越的指导。他们的专业方法和及时交付完全超出了我们的期望。"
+      "comment": "卓越的服务和技术支持！在我们的太阳能项目实施过程中，该团队提供了特殊的指导。他们的专业精神和及时交付完全超出了我们的预期。"
     },
     "rajesh": {
-      "name": "拉杰什·库马尔",
+      "name": "Usman Ahmad",
       "location": "泰米尔纳德邦",
-      "comment": "帕龙鼠工程完全兑现了他们的承诺。他们安装的仪表系统已经完美运行了两年多。他们的售后支持非常出色且始终响应迅速。"
+      "comment": "Powerton工程公司实现了他们承诺的一切。他们安装的测量仪器系统已经运行了两年多，而且运行良好。他们的售后支持非常棒，而且总是反应迅速。"
     }
   },
   "technicalTerms": {
-    "BLDC": "无刷直流电机",
-    "PLC": "可编程逻辑控制器",
-    "SCADA": "监控和数据采集系统",
-    "HMI": "人机界面",
-    "DCS": "分布式控制系统",
-    "VFD": "变频驱动器",
-    "MCC": "电机控制中心",
-    "PCC": "电源控制中心",
-    "RTU": "远程终端单元",
-    "IED": "智能电子设备",
-    "NABL": "国家测试和校准实验室认证委员会",
-    "MNRE": "新能源和可再生能源部",
-    "CPRI": "中央电力研究院",
-    "ISO": "国际标准化组织",
-    "IEEE": "电气电子工程师学会"
+    "BLDC": "BLDC（无刷直流电机）",
+    "PLC": "PLC（可编程逻辑控制器）",
+    "SCADA": "SCADA（监控和数据采集控制）",
+    "HMI": "HMI（人机界面）",
+    "DCS": "DCS（分布式控制系统）",
+    "VFD": "VFD（变频驱动器）",
+    "MCC": "MCC（电机控制中心）",
+    "PCC": "PCC（电源控制中心）",
+    "RTU": "RTU（远程终端单元）",
+    "IED": "IED（智能电子设备）",
+    "NABL": "NABL（国家测试和校准实验室认可委员会）",
+    "MNRE": "MNRE（新能源和可再生能源部）",
+    "CPRI": "CPRI（中央电力研究所）",
+    "ISO": "ISO（国际标准化组织）",
+    "IEEE": "IEEE（电气和电子工程师协会）"
   },
   "buttons": {
     "downloadPortfolio": "下载作品集",
     "showFilters": "显示过滤器",
     "readMore": "阅读更多",
-    "downloadCatalog": "下载产品目录",
+    "downloadCatalog": "下载目录",
     "viewDetails": "查看详情",
-    "contactExpert": "联系专家",
-    "next": "下一步",
-    "previous": "上一步",
-    "complete": "完成",
-    "backTo": "返回{{category}}",
-    "backToBldcProducts": "返回无刷直流电机产品",
+    "backTo": "返回 {{category}}",
+    "backToBldcProducts": "返回无刷直流电机（BLDC）产品",
     "backToProducts": "返回产品",
-    "requestQuote": "请求报价",
+    "requestQuote": "询价",
     "expertTeam": "专家团队",
     "successfulProjects": "成功项目",
     "qualityProducts": "优质产品",
@@ -107,103 +102,116 @@
     "viewProducts": "查看产品",
     "viewServices": "查看服务",
     "getInTouch": "联系我们",
-    "exploreProducts": "探索产品",
+    "exploreProducts": "浏览产品",
     "viewCatalog": "查看目录",
-    "quickQuote": "快速报价",
-    "getQuote": "获取报价",
+    "quickQuote": "快速询价",
+    "getQuote": "询价",
     "callNow": "立即致电",
-    "emailUs": "邮件联系",
+    "emailUs": "给我们发电子邮件",
     "learnMore": "了解更多",
     "viewMore": "查看更多",
     "viewAll": "查看全部",
     "contactUs": "联系我们",
-    "discussProject": "讨论您的项目",
-    "getStarted": "开始使用",
-    "downloadBrochure": "下载手册"
+    "getStarted": "开始",
+    "downloadBrochure": "下载宣传册",
+    "contactExpert": "联系专家",
+    "next": "下一个",
+    "previous": "上一个",
+    "complete": "完成"
   },
-  "loading": "正在加载...",
-  "error": "出了点问题",
+  "loading": "加载中...",
+  "error": "发生错误",
   "success": "成功！",
   "messages": {
     "toggleTheme": "切换主题",
     "close": "关闭",
-    "imageNotFound": "未找到图像",
-    "loading": "加载中...",
-    "error": "发生错误",
     "engineeringAdvisor": "工程顾问",
     "comingSoon": "即将推出",
-    "catalogComingSoon": "产品目录下载即将推出！"
+    "catalogComingSoon": "产品目录即将推出！"
   },
   "aria": {
-    "controllerSystems": "控制器与记录器",
-    "controllerDescription": "用于工业控制的过程控制器和数据记录系统",
-    "plcSystems": "PLC 系统",
+    "toggleNavigation": "切换导航",
+    "openLocation": "在Google地图中打开办公室位置",
+    "exploreServices": "浏览我们的工业自动化和工程服务",
+    "requestConsultation": "请求免费工程项目咨询",
+    "companyHighlights": "公司亮点及服务",
+    "performanceStats": "公司业绩统计",
+    "previousTestimonial": "上一条评价",
+    "nextTestimonial": "下一条评价",
+    "mainNavigation": "主导航",
+    "companyInfo": "公司信息和站点导航",
+    "goToHomepage": "转到Powerton工程公司主页",
+    "followLinkedIn": "在LinkedIn上关注Powerton工程公司",
+    "followFacebook": "在Facebook上关注Powerton工程公司",
+    "servicesNavigation": "服务导航",
+    "productsNavigation": "产品导航",
+    "callCompany": "致电Powerton工程公司",
+    "emailCompany": "向Powerton工程公司发送电子邮件",
+    "viewOfficeLocation": "在Google地图上查看Powerton工程公司的办公室位置",
+    "officeLocationTitle": "Powerton工程公司办公室位置",
+    "controllerSystems": "控制器系统",
+    "controllerDescription": "用于工业自动化的过程控制器和数据记录设备",
+    "plcSystems": "PLC系统",
     "processControllers": "过程控制器",
-    "dataLoggers": "数据记录仪",
+    "dataLoggers": "数据记录器",
     "controlPanels": "控制面板",
-    "switchesIndicators": "开关与指示灯",
-    "switchesDescription": "工业用开关、指示器和信号装置",
+    "switchesIndicators": "开关和指示器",
+    "switchesDescription": "工业开关、指示器和信号设备",
     "pushbuttonSwitches": "按钮开关",
     "selectorSwitches": "选择开关",
     "indicatorLights": "指示灯",
-    "emergencyStops": "急停开关",
-    "valvesActuators": "阀门与执行器",
+    "emergencyStops": "紧急停止",
+    "valvesActuators": "阀门和执行器",
     "valvesDescription": "用于过程控制系统的控制阀和执行器",
     "controlValves": "控制阀",
     "pneumaticActuators": "气动执行器",
     "electricActuators": "电动执行器",
-    "valvePositioners": "阀位调节器",
+    "valvePositioners": "阀门定位器",
     "analyzers": "分析仪",
     "analyzersDescription": "用于质量控制的气体、液体和过程分析仪",
     "gasAnalyzers": "气体分析仪",
     "liquidAnalyzers": "液体分析仪",
     "processAnalyzers": "过程分析仪",
     "multiParameterSystems": "多参数系统",
-    "signalConditioners": "信号调理器",
-    "signalConditionersDescription": "用于测量系统的信号处理和调理设备",
+    "signalConditioners": "信号调节器",
+    "signalConditionersDescription": "用于测量系统的信号处理和调节设备",
     "isolationAmplifiers": "隔离放大器",
     "signalConverters": "信号转换器",
-    "measuringTransducers": "测量变送器",
-    "noiseFilters": "噪声滤波器",
-    "toggleNavigation": "切换导航",
-    "openLocation": "在 Google 地图中打开办公地点",
-    "exploreServices": "探索我们的工业自动化和工程服务",
-    "requestConsultation": "请求免费工程咨询",
-    "companyHighlights": "公司亮点与服务",
-    "performanceStats": "公司绩效统计",
-    "previousTestimonial": "上一个客户评价",
-    "nextTestimonial": "下一个客户评价",
-    "mainNavigation": "主导航",
-    "companyInfo": "公司信息与站点导航",
-    "goToHomepage": "前往宝尔顿工程主页",
-    "followLinkedIn": "在 LinkedIn 上关注宝尔顿工程",
-    "followFacebook": "在 Facebook 上关注宝尔顿工程",
-    "servicesNavigation": "服务导航",
-    "productsNavigation": "产品导航",
-    "callCompany": "致电宝尔顿工程",
-    "emailCompany": "给宝尔顿工程发送邮件",
-    "viewOfficeLocation": "在 Google 地图中查看宝尔顿工程办公室位置",
-    "officeLocationTitle": "宝尔顿工程办公地点"
+    "measuringTransducers": "测量传感器",
+    "noiseFilters": "噪声滤波器"
+  },
+  "productSections": {
+    "keyFeatures": "主要特点：",
+    "specifications": "规格",
+    "applications": "应用",
+    "industries": "行业",
+    "needSurgeProtection": "您需要浪涌保护吗？",
+    "needSolarInverterSolutions": "您需要太阳能逆变器解决方案吗？",
+    "needSolarChargeControl": "您需要太阳能充电控制吗？",
+    "surgeProtectionDescription": "我们的保护专家可以为安装设计完整的浪涌保护系统。",
+    "solarInverterDescription": "我们的太阳能工程师可以为您的太阳能装置设计最佳的逆变器系统。",
+    "solarChargeDescription": "我们的太阳能专家可以帮助您为电池系统选择合适的充电控制器。",
+    "energyStorageDescription": "我们的储能专家可以为您的太阳能装置设计最佳的电池系统。"
   },
   "badges": {
-    "energyEfficient": "节能高效",
+    "energyEfficient": "节能",
     "smartControl": "智能控制",
-    "silentOperation": "静音运行",
-    "longLife": "使用寿命长",
+    "silentOperation": "静音操作",
+    "longLife": "长寿命",
     "highPerformance": "高性能",
     "ecoFriendly": "环保",
-    "costEffective": "成本效益",
-    "premiumQuality": "优质品质",
+    "costEffective": "经济高效",
+    "premiumQuality": "卓越品质",
     "industrialGrade": "工业级",
-    "certified": "认证",
+    "certified": "已认证",
     "warrantyIncluded": "包含保修",
     "fastDelivery": "快速交付"
   },
   "headings": {
     "bldcCeilingFanModels": "BLDC吊扇型号",
     "ourProducts": "我们的产品",
-    "specifications": "规格参数",
-    "keyFeatures": "主要特性",
+    "specifications": "规格",
+    "keyFeatures": "主要特点",
     "technicalDetails": "技术细节",
     "availableModels": "可用型号",
     "productOverview": "产品概述",
@@ -211,66 +219,53 @@
     "industryApplications": "行业应用",
     "relatedServices": "相关服务",
     "quickFacts": "快速事实",
-    "technologiesAndMethods": "技术和方法"
-  },
-  "productSections": {
-    "keyFeatures": "主要特性:",
-    "specifications": "规格",
-    "applications": "应用",
-    "industries": "行业",
-    "needSurgeProtection": "需要浪涌保护？",
-    "needSolarInverterSolutions": "需要太阳能逆变器解决方案？",
-    "needSolarChargeControl": "需要太阳能充电控制？",
-    "surgeProtectionDescription": "我们的安全专家可以为您的设施设计全面的浪涌保护系统。",
-    "solarInverterDescription": "我们的太阳能工程师可以为您的太阳能安装设计最佳逆变器系统。",
-    "solarChargeDescription": "我们的太阳能专家可以帮助您为电池系统选择合适的充电控制器。",
-    "energyStorageDescription": "我们的储能专家可以为您的太阳能安装设计最佳电池系统。"
+    "technologiesAndMethods": "技术与方法"
   },
   "company": {
-    "name": "宝尔顿工程私人有限公司",
+    "name": "Powerton Engineering Pvt. Ltd.",
     "tagline": "您在工业自动化和电气工程领域值得信赖的合作伙伴",
     "phone": "+91-94627-71662 / +91-82997-27291",
     "email": "info@powertonengineering.com",
     "address": {
-      "street": "F-25, F座，第6区",
+      "street": "F-25, F座, 6区",
       "city": "诺伊达",
       "state": "北方邦",
       "pincode": "201301",
-      "landmark": "最近的地铁-15区",
-      "full": "印度北方邦诺伊达第6区F座F-25 2楼，邮编201301"
+      "landmark": "最近的地铁站 - 15区",
+      "full": "二楼, F-25, F座, 6区, 诺伊达, 北方邦 201301, 印度"
     },
     "businessHours": {
-      "weekdays": "周一至周六：上午 9:00 - 下午 6:00",
-      "sunday": "星期日：仅限紧急支持"
+      "weekdays": "周一 - 周六：上午9:00 - 下午6:00",
+      "sunday": "周日：仅紧急支持"
     },
     "stats": {
       "yearsExperience": "多年经验",
       "projectsCompleted": "已完成项目",
-      "clientsServed": "满意客户",
+      "clientsServed": "满意的客户",
       "support": "支持"
     }
   },
   "seo": {
-    "companyName": "宝尔顿工程私人有限公司",
-    "companyDescription": "全球领先的工业自动化和电气工程公司。专注于发电厂自动化、太阳能安装和制造控制系统。",
-    "siteName": "宝尔顿工程",
-    "twitterHandle": "@powerton_eng",
-    "businessAddress": {
-      "street": "F-25, F Block, Sector 6",
-      "city": "诺伊达",
-      "state": "北方邦",
-      "postal": "201301",
-      "country": "印度"
-    },
     "powerton": {
-      "name": "宝尔顿工程私人有限公司",
-      "description": "全球领先的工业自动化和电气工程公司。专注于发电厂自动化、太阳能安装和制造控制系统。",
-      "keywords": "工业自动化, 电气工程, 发电厂, 太阳能, 制造业, 控制系统, 仪器仪表, SCADA, PLC, 自动化解决方案, 电气安装, 工业控制面板, 过程自动化, 配电, 电机控制中心, 电气维护, 工业电气服务, 自动化咨询, 电气设计, 电力系统",
-      "author": "宝尔顿工程团队"
+      "name": "Powerton Engineering Pvt. Ltd.",
+      "description": "领先的工业自动化和电气工程公司，服务于全球客户。在电厂自动化、太阳能装置和工业控制系统方面拥有专业知识。",
+      "keywords": "工业自动化, 电气工程, 电厂, 太阳能, 工业, 控制系统, 仪器仪表, SCADA, PLC, 自动化解决方案, 电气安装, 工业控制面板, 过程控制, 配电, 电机控制中心, 电气控制, 工业电气服务, 自动化咨询, 电气设计, 电气系统",
+      "author": "Powerton Engineering 团队"
     },
     "location": {
       "name": "诺伊达, 北方邦, 印度",
       "region": "北方邦",
+      "country": "印度"
+    },
+    "companyName": "Powerton Engineering Pvt. Ltd.",
+    "companyDescription": "领先的工业自动化和电气工程公司，服务于全球客户。在电厂自动化、太阳能装置和工业控制系统方面拥有专业知识。",
+    "siteName": "Powerton Engineering",
+    "twitterHandle": "@powerton_eng",
+    "businessAddress": {
+      "street": "F-25, F座, 6区",
+      "city": "诺伊达",
+      "state": "北方邦",
+      "postal": "201301",
       "country": "印度"
     },
     "contact": {
@@ -280,9 +275,9 @@
     "businessInfo": {
       "industry": "工业自动化, 电气工程, 仪器仪表",
       "category": "工程服务, 自动化解决方案, 电气系统",
-      "targetAudience": "工业工程师, 工厂经理, 自动化专业人员",
+      "targetAudience": "工业工程师, 工厂经理, 自动化专业人士",
       "companyType": "B2B工程解决方案提供商",
-      "serviceArea": "全球服务覆盖，国际项目交付"
+      "serviceArea": "全球服务，具有国际项目交付能力"
     }
   },
   "labels": {
@@ -294,40 +289,38 @@
     "duration": "持续时间",
     "keyFeatures": "主要特点",
     "projectsCompleted": "已完成项目",
-    "satisfiedClients": "满意客户",
-    "yearsExperience": "年经验",
+    "satisfiedClients": "满意的客户",
+    "yearsExperience": "多年经验",
     "responseTime": "响应时间",
     "businessHours": "营业时间",
     "mondayToSaturday": "周一至周六",
     "workingHours": "上午9:00 - 下午6:00",
-    "sunday": "星期日",
-    "emergencySupport": "仅限紧急支持"
+    "sunday": "周日",
+    "emergencySupport": "仅紧急支持"
   },
-  "keyFeatures": "主要特点",
-  "requestQuote": "请求报价",
   "placeholders": {
     "selectProjectType": "选择项目类型",
     "selectIndustry": "选择行业",
     "selectProjectSize": "选择项目规模",
-    "selectTimeline": "选择时间安排",
-    "projectTimeline": "项目时间安排",
+    "selectTimeline": "选择时间表",
+    "projectTimeline": "项目时间表",
     "selectBudgetRange": "选择预算范围（可选）",
-    "cityState": "城市，州",
-    "describeExisting": "描述任何现有系统或基础设施...",
+    "cityState": "城市，州/省",
+    "describeExisting": "描述任何现有的系统或设备...",
     "searchProjects": "搜索项目、客户或技术...",
     "selectIndustryFilter": "选择行业",
     "selectCategory": "选择类别",
     "selectStatus": "选择状态",
-    "askChatbot": "询问我有关产品、服务或技术帮助...",
+    "askChatbot": "问我关于产品、服务或技术支持...",
     "yourFullName": "您的全名",
     "yourEmail": "您的@公司.com",
     "yourPhone": "+91-XXXXX-XXXXX",
     "yourRole": "您的角色/职位",
     "yourCompanyName": "您的公司名称",
-    "briefProjectTitle": "您项目的简要标题"
+    "briefProjectTitle": "您的项目简短标题"
   },
   "projectCategories": {
-    "Power Plant": "发电厂",
+    "Power Plant": "电厂",
     "Manufacturing": "制造业",
     "Solar": "太阳能",
     "Water Treatment": "水处理",
@@ -336,62 +329,62 @@
   },
   "projects": {
     "thermal-plant": {
-      "title": "火力发电厂自动化",
-      "description": "为250MW火力发电厂提供包括控制面板、SCADA系统和安全联锁在内的完整自动化解决方案。",
+      "title": "火电厂自动化",
+      "description": "250MW火电厂的完整自动化解决方案，包括控制面板、SCADA系统和安全联锁。",
       "location": "北方邦",
       "duration": "12个月",
       "highlights": {
         "scada": "SCADA实施",
         "safety": "安全系统",
         "control": "控制面板",
-        "monitoring": "性能监控"
+        "monitoring": "运营监控"
       }
     },
     "pharma-plant": {
       "title": "制药厂控制系统",
-      "description": "具有FDA合规性和数据完整性功能的制药制造先进过程控制和监控系统。",
+      "description": "制药厂的关键过程控制和监控系统，符合FDA法规和数据安全功能。",
       "location": "马哈拉施特拉邦",
       "duration": "8个月",
       "highlights": {
-        "fda": "FDA合规性",
-        "data": "数据完整性",
+        "fda": "符合FDA法规",
+        "data": "数据安全",
         "process": "过程控制",
-        "quality": "质量监控"
+        "quality": "质量控制"
       }
     },
     "solar-plant": {
-      "title": "10MW太阳能发电安装",
-      "description": "具有监控系统和并网同步设备的并网太阳能发电厂的完整设计和安装。",
+      "title": "10MW太阳能电站安装",
+      "description": "完整的设计和安装并网太阳能电站，具有监控系统和并网同步设备。",
       "location": "拉贾斯坦邦",
       "duration": "6个月",
       "highlights": {
         "grid": "并网连接",
         "monitoring": "监控系统",
-        "optimization": "性能优化",
-        "maintenance": "维护计划"
+        "optimization": "运营优化",
+        "maintenance": "计划维护"
       }
     },
     "water-treatment": {
-      "title": "市政水处理自动化",
-      "description": "为服务500,000居民的水处理厂提供实时监控和质量控制的自动控制系统。",
+      "title": "城市水处理自动化",
+      "description": "服务于50万居民的水处理厂的自动化系统，具有实时监控和质量控制。",
       "location": "西孟加拉邦",
       "duration": "10个月",
       "highlights": {
         "monitoring": "实时监控",
         "quality": "质量控制",
-        "automation": "自动操作",
+        "automation": "自动化操作",
         "remote": "远程管理"
       }
     },
     "industrial-automation-demo": {
       "title": "演示：工业自动化系统",
-      "client": "未来制造客户",
-      "category": "过程自动化",
-      "description": "展示完整的制造自动化能力，包括PLC集成、SCADA系统和实时监控解决方案。",
-      "location": "项目现场待定",
+      "client": "潜在的工业客户",
+      "category": "过程控制",
+      "description": "展示完整的工业自动化能力，包括PLC集成、SCADA系统和实时监控解决方案。",
+      "location": "待定",
       "duration": "12-18个月",
-      "budget": "₹50-75万",
-      "status": "能力演示",
+      "budget": "₹50-75 Lakhs",
+      "status": "可运行的演示",
       "technologies": {
         "plcProgramming": "PLC编程",
         "scada": "SCADA",
@@ -406,14 +399,14 @@
       }
     },
     "power-distribution-demo": {
-      "title": "示例：电力分配控制",
-      "client": "未来电力合作伙伴",
+      "title": "示例：配电控制",
+      "client": "潜在的电力公司客户",
       "category": "电力系统",
-      "description": "展示自动化负载平衡和电力生产设施远程监控能力的示例电力分配系统。",
-      "location": "多个地点",
+      "description": "配电系统示例，展示了发电厂的自动负载平衡和远程监控能力。",
+      "location": "各地",
       "duration": "10-15个月",
-      "budget": "₹1-2千万",
-      "status": "能力演示",
+      "budget": "₹1-2 Crores",
+      "status": "可运行的演示",
       "technologies": {
         "mccPanels": "MCC面板",
         "protectionSystems": "保护系统",
@@ -426,124 +419,195 @@
         "energyManagement": "能源管理",
         "remoteControl": "远程控制"
       }
-    },
-    "solar-plant-demo": {
-      "title": "示例：太阳能电站控制系统",
-      "client": "未来可再生能源客户",
-      "category": "太阳能解决方案",
-      "description": "演示太阳能跟踪自动化系统的天气监控和电网同步能力，适用于可再生能源项目。",
-      "location": "多个站点",
-      "duration": "6-10个月",
-      "budget": "₹25-50万",
-      "status": "能力演示",
-      "technologies": {
-        "solarInverters": "太阳能逆变器",
-        "gridSync": "电网同步",
-        "weatherMonitoring": "天气监控",
-        "dataAnalytics": "数据分析"
-      },
-      "highlights": {
-        "gridSynchronization": "电网同步",
-        "weatherMonitoring": "天气监控",
-        "performanceAnalytics": "性能分析",
-        "remoteManagement": "远程管理"
-      }
-    },
-    "process-control-demo": {
-      "title": "演示：过程控制解决方案",
-      "client": "未来工业合作伙伴",
-      "category": "过程自动化",
-      "description": "展示完整的过程自动化能力，包括安全系统、环境监控和工业应用的批处理控制。",
-      "location": "项目现场待定",
-      "duration": "8-12个月",
-      "budget": "₹60-90万",
-      "status": "能力演示"
     }
   },
   "steps": {
     "projectTypeIndustry": "项目类型和行业",
     "projectSpecifications": "项目规格",
-    "requirementsFeatures": "需求和功能",
+    "requirementsFeatures": "要求和功能",
     "additionalInformation": "附加信息"
   },
   "altTexts": {
-    "contactBackground": "ID-834: 工程公司的联络中心和客户支持办公室背景",
-    "aboutBackground": "ID-004: 宝尔顿工程工业自动化设施与现代控制系统",
-    "companyLogo": "宝尔顿工程私人有限公司 - 工业自动化与电气工程公司标志"
+    "contactBackground": "ID-834：工程公司的网络和客户支持办公室中心",
+    "aboutBackground": "ID-004：Powerton Engineering 的工业控制建筑，配备现代控制系统",
+    "companyLogo": "Powerton Engineering Pvt. Ltd. - 工业自动化和电气工程公司标志"
   },
   "sitemap": {
     "sections": {
       "mainPages": "主要页面",
-      "servicesProjects": "服务和项目",
+      "servicesProjects": "服务与项目",
       "productCategories": "产品类别",
-      "resourcesTools": "资源和工具",
+      "resourcesTools": "资源与工具",
       "legalInformation": "法律信息"
     },
     "categories": {
-      "automationControl": "自动化和控制系统",
+      "automationControl": "自动化控制系统",
       "bldcMotors": "BLDC电机系统",
       "electricalComponents": "电气元件",
-      "measurementInstrumentation": "测量和仪表",
-      "industrialTools": "工业工具和设备",
-      "pumpsFluid": "泵和流体系统",
-      "solarRenewable": "太阳能和可再生能源",
-      "safetyProtection": "安全和保护",
-      "structuralMounting": "结构和安装",
-      "networkCommunication": "网络和通信"
+      "measurementInstrumentation": "测量与仪器仪表",
+      "industrialTools": "工业工具与设备",
+      "pumpsFluid": "泵与流体系统",
+      "solarRenewable": "太阳能与可再生能源",
+      "safetyProtection": "安全与防护",
+      "structuralMounting": "结构与安装",
+      "networkCommunication": "网络与通信",
+      "measurementInstruments": "测量仪器",
+      "solarProducts": "太阳能产品",
+      "automationControlSystems": "自动化控制系统",
+      "safetyProtectiveDevices": "安全防护设备",
+      "mechanicalPumpsSpares": "机械泵与备件",
+      "industrialToolsTackles": "工业工具与装备"
     },
     "pages": {
-      "home": "首页",
+      "home": "家",
       "aboutUs": "关于我们",
-      "contact": "联系我们",
+      "contact": "联系方式",
       "gallery": "图库",
       "ourServices": "我们的服务",
       "serviceDetails": "服务详情",
       "projects": "项目",
       "allProducts": "所有产品",
-      "requestQuote": "请求报价",
+      "requestQuote": "询价",
       "downloadPortfolio": "下载作品集",
-      "newsUpdates": "新闻和更新",
+      "newsUpdates": "新闻与更新",
       "newsArticles": "新闻文章",
       "termsOfService": "服务条款",
-      "sitemap": "网站地图"
+      "sitemap": "站点地图",
+      "sensors": "传感器",
+      "transmitters": "变送器",
+      "controllers": "控制器",
+      "switches": "开关",
+      "valves": "阀门",
+      "analyzers": "分析仪",
+      "signalConditioners": "信号调理器",
+      "cablesWires": "电缆与电线",
+      "connectorsTerminals": "连接器与端子",
+      "circuitBreakersFuses": "断路器与熔断器",
+      "powerSupplies": "电源",
+      "enclosuresCabinets": "外壳与机柜",
+      "heatingElementsAppliances": "加热元件与设备",
+      "surgeProtectors": "浪涌保护器",
+      "groundingSystems": "接地系统",
+      "multimeters": "万用表",
+      "oscilloscopes": "示波器",
+      "spectrumAnalyzers": "频谱分析仪",
+      "powerQualityAnalyzers": "电能质量分析仪",
+      "calibrationEquipment": "校准设备",
+      "solarPanels": "太阳能电池板",
+      "solarInverters": "太阳能逆变器",
+      "solarChargeControllers": "太阳能充电控制器",
+      "solarBatteriesEnergyStorage": "太阳能电池与储能",
+      "mountingStructuresRacking": "安装结构与支架",
+      "plcs": "PLC",
+      "scada": "SCADA",
+      "dcs": "DCS",
+      "hmi": "HMI",
+      "safetyEquipment": "安全设备",
+      "safetyRelaysSwitches": "安全继电器与开关",
+      "intrinsicallySafeEquipment": "本质安全设备",
+      "centrifugalPumps": "离心泵",
+      "diaphragmPumps": "隔膜泵",
+      "gearPumps": "齿轮泵",
+      "pumpPartsSpares": "泵零件与备件",
+      "handTools": "手动工具",
+      "powerTools": "电动工具",
+      "cuttingTools": "切割工具",
+      "liftingEquipment": "起重设备",
+      "bldcCeilingFan": "BLDC吊扇",
+      "bldcCoolerExhaustMotor": "BLDC冷却器电机",
+      "bldcSubmersibleSurfacePump": "BLDC潜水泵",
+      "bldcTableFanWallFanMotor": "BLDC桌面风扇电机"
     },
     "descriptions": {
       "home": "欢迎来到Powerton Engineering - 工业自动化解决方案",
       "aboutUs": "了解我们的公司、使命和专业知识",
       "contact": "联系我们的工程团队",
-      "gallery": "查看我们的项目图库和安装",
+      "gallery": "查看我们的项目和安装图片",
       "ourServices": "工业自动化和电气工程服务",
-      "serviceDetails": "特定服务的详细信息",
-      "projects": "已完成工业自动化项目的作品集",
-      "allProducts": "工业自动化产品的完整目录",
+      "serviceDetails": "关于特定服务的详细信息",
+      "projects": "已完成的工业自动化项目列表",
+      "allProducts": "工业自动化产品的完整列表",
       "requestQuote": "获取您项目的详细报价",
-      "downloadPortfolio": "下载项目作品集和文档",
-      "newsUpdates": "最新新闻和公司更新",
-      "newsArticles": "个别新闻文章和更新",
+      "downloadPortfolio": "下载项目列表和文档",
+      "newsUpdates": "最新的公司新闻和更新",
+      "newsArticles": "单独的新闻文章和更新",
       "termsOfService": "使用我们服务的条款和条件",
-      "sitemap": "完整的网站导航和页面结构"
+      "sitemap": "完整的网站导航和结构指南",
+      "sensorsDescription": "用于测量工业环境和过程的传感器",
+      "transmittersDescription": "用于将数据发送到控制系统的变送器",
+      "controllersDescription": "过程控制器和数据记录设备",
+      "switchesDescription": "工业开关、指示器和信号设备",
+      "valvesDescription": "用于过程控制系统的控制阀和执行器",
+      "analyzersDescription": "用于质量控制的气体、液体和过程分析仪",
+      "signalConditionersDescription": "用于测量系统的信号处理和调节设备",
+      "cablesWiresDescription": "用于电气连接和通信的电缆和电线",
+      "connectorsTerminalsDescription": "用于电气连接的连接器和端子",
+      "circuitBreakersFusesDescription": "用于电气系统的电路保护和熔断器",
+      "powerSuppliesDescription": "用于工业设备的电源",
+      "enclosuresCabinetsDescription": "用于电气设备的外壳和机柜",
+      "heatingElementsAppliancesDescription": "用于工业应用的加热元件和设备",
+      "surgeProtectorsDescription": "用于电气系统的浪涌和雷电保护",
+      "groundingSystemsDescription": "用于电气安全的接地系统",
+      "multimetersDescription": "用于测量电气参数的万用表",
+      "oscilloscopesDescription": "用于分析电信号的示波器",
+      "spectrumAnalyzersDescription": "用于测量信号的频谱分析仪",
+      "powerQualityAnalyzersDescription": "用于测量电能质量的电能质量分析仪",
+      "calibrationEquipmentDescription": "用于确保准确性的校准设备",
+      "solarPanelsDescription": "用于产生清洁能源的太阳能电池板",
+      "solarInvertersDescription": "用于转换能量的太阳能逆变器",
+      "solarChargeControllersDescription": "用于电池系统的太阳能充电控制器",
+      "solarBatteriesEnergyStorageDescription": "太阳能电池和储能系统",
+      "mountingStructuresRackingDescription": "用于太阳能设备的安装结构和支架",
+      "plcsDescription": "用于自动化工业过程的PLC",
+      "scadaDescription": "用于远程监控和控制的SCADA",
+      "dcsDescription": "用于复杂过程控制的DCS",
+      "hmiDescription": "用于人机交互的HMI",
+      "safetyEquipmentDescription": "用于工作场所保护的安全设备",
+      "safetyRelaysSwitchesDescription": "用于保护的安全继电器和开关",
+      "intrinsicallySafeEquipmentDescription": "用于危险场所的本质安全设备",
+      "centrifugalPumpsDescription": "用于流体输送的离心泵",
+      "diaphragmPumpsDescription": "用于化学品输送的隔膜泵",
+      "gearPumpsDescription": "用于油和润滑剂输送的齿轮泵",
+      "pumpPartsSparesDescription": "泵零件和备件",
+      "handToolsDescription": "用于工业维护的手动工具",
+      "powerToolsDescription": "用于建筑应用的电动工具",
+      "cuttingToolsDescription": "用于金属加工的切割工具",
+      "liftingEquipmentDescription": "用于重物搬运的起重设备",
+      "bldcCeilingFanDescription": "节能的BLDC吊扇",
+      "bldcCoolerExhaustMotorDescription": "用于冷却和排气设备的BLDC电机",
+      "bldcSubmersibleSurfacePumpDescription": "用于水应用的BLDC泵",
+      "bldcTableFanWallFanMotorDescription": "用于桌面和壁扇的BLDC电机",
+      "requestQuoteDescription": "获取工程项目的详细报价",
+      "downloadPortfolioDescription": "下载我们完整的项目文档",
+      "newsUpdatesDescription": "最新的公司新闻和更新"
     }
   },
   "clients": {
     "sci-group": "印度航运公司",
-    "agribio": "德国农业生物公司",
-    "motherson": "母子集团",
-    "praj": "普拉吉工业",
-    "thermax": "泰韩马克斯有限公司",
-    "ankur": "安库尔科学能源技术",
-    "dls": "DLS印度",
-    "boudh": "博德酿酒厂",
-    "lokmangal": "洛克曼加尔集团",
-    "marcuras": "马库拉斯水处理",
-    "nv-group": "NV集团",
-    "anand-nv": "阿南德NV",
-    "dhanuka": "达努卡农业科技",
+    "agribio": "AgriBio 德国",
+    "motherson": "Motherson 集团",
+    "praj": "Praj 工业",
+    "thermax": "Thermax 有限公司",
+    "ankur": "Ankur 科学能源技术",
+    "dls": "DLS 印度",
+    "boudh": "Boudh 酿酒厂",
+    "lokmangal": "Lokmangal 集团",
+    "marcuras": "Marcuras 水处理",
+    "nv-group": "NV 集团",
+    "anand-nv": "Anand NV",
+    "dhanuka": "Dhanuka Agritech",
     "mjson": "MJSON",
-    "procient": "普罗西恩特"
+    "procient": "Procient"
   },
   "copyright": {
     "text": "© {{year}} Powerton Engineering Pvt. Ltd. 版权所有。",
-    "madeWith": "由 Powerton Engineering 团队 💙 制作"
+    "madeWith": "由 Powerton Engineering 团队用 💙 制作"
+  },
+  "quickActions": {
+    "title": "快速操作",
+    "subtitle": "查看快速操作以获取您的需求",
+    "contactUs": "联系我们",
+    "requestQuote": "询价"
   },
   "tags": {
     "award": "奖项",
@@ -553,72 +617,22 @@
     "powerPlant": "发电厂",
     "ntpc": "NTPC",
     "renewableEnergy": "可再生能源",
-    "expansion": "扩张",
+    "expansion": "扩展",
     "solar": "太阳能",
     "infrastructure": "基础设施",
     "innovation": "创新",
-    "partnership": "合作伙伴关系",
+    "partnership": "合作",
     "technology": "技术",
     "europe": "欧洲",
     "iso": "ISO",
     "quality": "质量",
     "certification": "认证"
   },
-  "portfolioProjects": {
-    "thermal-plant": {
-      "title": "火力发电厂自动化",
-      "description": "为250MW火力发电厂提供包括控制面板、SCADA系统和安全联锁在内的完整自动化解决方案。",
-      "location": "北方邦",
-      "duration": "12个月",
-      "highlights": {
-        "scada": "SCADA实施",
-        "safety": "安全系统",
-        "control": "控制面板",
-        "monitoring": "性能监控"
-      }
-    },
-    "pharma-plant": {
-      "title": "制药厂控制系统",
-      "description": "具有FDA合规性和数据完整性功能的制药制造先进过程控制和监控系统。",
-      "location": "马哈拉施特拉邦",
-      "duration": "8个月",
-      "highlights": {
-        "fda": "FDA合规性",
-        "data": "数据完整性",
-        "process": "过程控制",
-        "quality": "质量监控"
-      }
-    },
-    "solar-plant": {
-      "title": "10MW太阳能发电安装",
-      "description": "具有监控系统和并网同步设备的并网太阳能发电厂的完整设计和安装。",
-      "location": "拉贾斯坦邦",
-      "duration": "6个月",
-      "highlights": {
-        "grid": "并网连接",
-        "monitoring": "监控系统",
-        "optimization": "性能优化",
-        "maintenance": "维护计划"
-      }
-    },
-    "water-treatment": {
-      "title": "市政水处理自动化",
-      "description": "为服务500,000居民的水处理厂提供实时监控和质量控制的自动控制系统。",
-      "location": "西孟加拉邦",
-      "duration": "10个月",
-      "highlights": {
-        "monitoring": "实时监控",
-        "quality": "质量控制",
-        "automation": "自动操作",
-        "remote": "远程管理"
-      }
-    }
-  },
   "products": {
     "sections": {
       "industrialProducts": "工业产品",
-      "applications": "{{product}} 应用",
-      "keyFeatures": "主要特点:"
+      "applications": "{{product}}的应用",
+      "keyFeatures": "主要特点："
     },
     "badges": {
       "highEfficiency": "高效率",
@@ -628,24 +642,24 @@
       "durable": "耐用",
       "energySaving": "节能",
       "reliable": "可靠",
-      "costEffective": "成本效益"
+      "costEffective": "经济高效"
     }
   },
   "cta": {
-    "getQuote": "获取报价",
+    "getQuote": "询价",
     "callNow": "立即致电",
-    "emailUs": "邮件联系",
+    "emailUs": "给我们发电子邮件",
     "learnMore": "了解更多",
     "viewMore": "查看更多",
     "contactUs": "联系我们",
-    "getStarted": "开始使用",
-    "downloadBrochure": "下载手册"
+    "getStarted": "开始",
+    "downloadBrochure": "下载宣传册"
   },
   "quote": {
     "projectTypes": {
       "processAutomation": "过程自动化",
       "powerControlSystems": "电力控制系统",
-      "instrumentationControl": "仪表与控制",
+      "instrumentationControl": "仪器仪表与控制",
       "solarAutomation": "太阳能自动化",
       "buildingAutomation": "楼宇自动化",
       "manufacturingAutomation": "制造自动化"
@@ -653,10 +667,10 @@
     "industries": {
       "manufacturing": "制造业",
       "powerGeneration": "发电",
-      "oilGas": "石油和天然气",
-      "chemicalProcessing": "化学处理",
+      "oilGas": "石油天然气",
+      "chemicalProcessing": "化学加工",
       "waterTreatment": "水处理",
-      "foodBeverage": "食品与饮料",
+      "foodBeverage": "食品饮料",
       "pharmaceutical": "制药",
       "renewableEnergy": "可再生能源"
     }
@@ -666,20 +680,20 @@
   },
   "ui": {
     "ariaLabels": {
-      "callUs": "致电我们 {{phone}}",
-      "goToHomepage": "前往 Powerton Engineering 主页",
+      "callUs": "致电我们：{{phone}}",
+      "goToHomepage": "转到 Powerton Engineering 主页",
       "followLinkedIn": "在 LinkedIn 上关注 Powerton Engineering",
-      "followTwitter": "在 X (前身为 Twitter)上关注 Powerton Engineering",
+      "followTwitter": "在 X（以前称为 Twitter）上关注 Powerton Engineering",
       "followFacebook": "在 Facebook 上关注 Powerton Engineering",
       "toggleMobileMenu": "切换移动菜单",
       "closeMobileMenu": "关闭移动菜单",
       "openMobileMenu": "打开移动菜单",
-      "emailUs": "给我们发送邮件 {{email}}"
+      "emailUs": "发送电子邮件至 {{email}}"
     },
     "altTexts": {
-      "companyLogo": "Powerton Engineering 公司徽标",
+      "companyLogo": "Powerton Engineering 公司标志",
       "heroImage": "工业自动化和电气工程解决方案",
-      "productImage": "{{productName}} 的产品图片"
+      "productImage": "{{productName}} 产品图片"
     }
   }
 }
