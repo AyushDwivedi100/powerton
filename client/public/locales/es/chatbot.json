@@ -1,1 +1,73 @@
-{}
+{
+  "chatbot": {
+    "welcome": "¡Bienvenido a Powerton Engineering! ¿Cómo puedo ayudarte hoy?",
+    "welcomeMessage": "¡Bienvenido a Powerton Engineering! ¿Cómo puedo ayudarte hoy?",
+    "typeMessage": "Escribe tu mensaje...",
+    "sendMessage": "Enviar mensaje",
+    "openChat": "Abrir chat",
+    "closeChat": "Cerrar chat",
+    "typing": "Escribiendo...",
+    "options": {
+      "findProduct": "🔍 Encontrar productos",
+      "chooseService": "⚙️ Elegir servicio",
+      "troubleshooting": "🔧 Solución de problemas",
+      "aboutCompany": "🏢 Acerca de la empresa",
+      "sensorsCategory": "🌡️ Sensores y transmisores",
+      "electricalCategory": "⚡ Componentes eléctricos",
+      "automationCategory": "🤖 Sistemas de automatización",
+      "solarCategory": "☀️ Productos solares",
+      "safetyCategory": "🛡️ Equipos de seguridad",
+      "browseAllProducts": "📦 Ver todos los productos",
+      "installationService": "🔧 Instalación y puesta en marcha",
+      "maintenanceService": "🛠️ Mantenimiento y reparación",
+      "calibrationService": "⚖️ Calibración y pruebas",
+      "trainingService": "📚 Entrenamiento y consultoría",
+      "solarService": "☀️ Servicios IPC solares",
+      "viewAllServices": "📋 Ver todos los servicios",
+      "backToMainMenu": "🏠 Volver al menú principal",
+      "electricalIssues": "⚡ Problemas eléctricos",
+      "sensorProblems": "🌡️ Problemas de sensores",
+      "controlSystemIssues": "🖥️ Problemas del sistema de control",
+      "solarSystemProblems": "☀️ Problemas del sistema solar",
+      "equipmentSelectionHelp": "🎯 Ayuda en selección de equipos",
+      "speakWithExpert": "👨‍💼 Hablar con un experto",
+      "ourAchievements": "🏆 Nuestros logros",
+      "meetOurTeam": "👥 Conoce nuestro equipo",
+      "ourClients": "🤝 Nuestros clientes",
+      "visitOurOffice": "📍 Visita nuestra oficina",
+      "contactUs": "📞 Contáctanos"
+    },
+    "responses": {
+      "products": "Ofrecemos una amplia gama de productos de automatización industrial, componentes eléctricos, instrumentación, sistemas solares y más. ¿Qué productos específicos estás buscando?",
+      "services": "Nuestros servicios incluyen instalación, mantenimiento, calibración, soporte técnico y soluciones personalizadas. ¿Qué servicio te interesa?",
+      "contact": "Puedes contactarnos al +91-94627-71662 o enviarnos un email a info@powertonengineering.com. Nuestra sede principal está en Noida, India, y servimos clientes en todo el mundo.",
+      "quote": "¡Estaré encantado de ayudarte a obtener una cotización! Por favor visita nuestra página de cotizaciones o proporciona tus requerimientos.",
+      "support": "¡Nuestro equipo de soporte técnico está aquí para ayudarte! Por favor describe tu pregunta técnica o problema.",
+      "productSelection": "¡Excelente! Tenemos una amplia gama de productos industriales en múltiples categorías. ¿Qué categoría te interesa más?",
+      "serviceSelection": "Ofrecemos servicios de ingeniería integral para apoyar tus proyectos de principio a fin. ¿En qué servicio podemos ayudarte?",
+      "troubleshootingMain": "Estoy aquí para ayudarte a resolver tus problemas técnicos. ¿Qué tipo de problema estás enfrentando?",
+      "companyInfo": "Powerton Engineering es una empresa líder en automatización industrial e ingeniería eléctrica con más de 15 años de experiencia. Servimos clientes en todo el mundo con soluciones integrales."
+    },
+    "defaultOptions": {
+      "products": "Productos y catálogo",
+      "services": "Nuestros servicios",
+      "contact": "Información de contacto",
+      "quote": "Solicitar cotización",
+      "support": "Soporte técnico"
+    }
+  },
+  "chatbotMessages": {
+    "quoteHelp": "¡Me complace ayudarte a obtener una cotización personalizada! Nuestro proceso de cotización es competitivo y transparente. Para una cotización precisa, necesitamos entender tus requisitos específicos. Permíteme conectarte con nuestro equipo de ventas para una discusión detallada.",
+    "helpAssist": "¡Estoy aquí para ayudarte en cada paso del camino! Ya sea que necesites orientación en la selección de productos, especificaciones técnicas, asistencia de servicio o simplemente saber más sobre nuestra empresa, estoy a tu servicio. ¿Con qué puedo ayudarte hoy?",
+    "businessHoursInfo": "¡Estamos aquí cuando nos necesitas! Nuestro horario comercial es de lunes a sábado: 9:00 AM - 6:00 PM. También proporcionamos soporte de emergencia los domingos para situaciones críticas. Ubicación: Noida, Sector 6, F-25, F Block (Metro más cercano: Sector 15).",
+    "pricingInfo": "¡Nuestro proceso de cotización siempre es competitivo y transparente! Creemos en proporcionar valor por el dinero sin costos ocultos. Los precios dependen de las especificaciones, cantidades y alcance del proyecto. Para la cotización más precisa, nuestro equipo evaluará tus requisitos específicos.",
+    "achievements": "¡Estamos orgullosos de nuestros logros! 500+ proyectos exitosos completados, sirviendo a 50+ clientes principales, 15+ años de experiencia, y asociaciones con líderes de la industria como Thermax, Motherson y Praj Industries. Nuestros proyectos destacados incluyen la planta solar de 10MW y sistemas de automatización farmacéutica.",
+    "mainMenu": "¡Bienvenido de vuelta al menú principal! Estoy aquí para ayudarte con cualquier necesidad de automatización industrial. Ya sea que estés buscando productos, servicios, soporte técnico o información de la empresa, te guiaré hacia la solución correcta. ¿Cómo puedo ayudarte?",
+    "urgentSupport": "Las situaciones urgentes incluyen: fallas de equipos que afectan la producción, problemas críticos de seguridad, averías de emergencia, plazos de instalación y fallas del sistema. Para estas situaciones, llama inmediatamente al +91-94627-71662. Proporcionamos soporte de emergencia 24/7 para situaciones críticas.",
+    "productComparison": "¡Puedo ayudarte a comparar productos! Nuestro amplio rango incluye sensores, sistemas de automatización, componentes eléctricos y productos solares. Dime qué productos específicos estás comparando o para qué aplicación los necesitas, y te guiaré a través de las mejores opciones.",
+    "defaultResponse": "¡Gracias por contactarnos! Estoy aquí para ayudarte a encontrar la solución perfecta de automatización industrial. En Powerton Engineering, creemos que cada cliente merece atención personalizada y orientación experta. ¿Con qué desafío o requisito específico puedo ayudarte hoy?",
+    "productsPageResponse": "¡Perfecto! Te he llevado a nuestra página de productos donde puedes explorar nuestro amplio rango de soluciones de automatización industrial. Encontrarás especificaciones detalladas, imágenes y datos técnicos para cada categoría de producto. ¿Necesitas ayuda encontrando algo específico o tienes preguntas sobre algún producto?",
+    "servicesPageResponse": "¡Excelente elección! Nuestra página de servicios muestra ofertas de soporte integral desde instalación hasta mantenimiento. Somos tu socio completo de ingeniería para todo el ciclo de vida del proyecto. ¿Qué tipo de asistencia de servicio estás buscando?",
+    "contactPageResponse": "¡Excelente! La página de contacto tiene todos nuestros detalles incluyendo ubicación de la oficina, números de teléfono y formulario de contacto. Estamos ubicados en Noida y disponibles de lunes a sábado. ¡No dudes en contactarnos en cualquier momento! ¿Te gustaría discutir algo específico con nuestro equipo?"
+  }
+}

@@ -108,7 +108,7 @@ export default function ServicesSection() {
                   >
                     <Card className="border border-border group h-full flex flex-col cursor-pointer">
                       <CardContent className="p-3 sm:p-4 md:p-6 lg:p-8 flex-1 flex flex-col">
-                        <motion.div className="w-12 h-12 sm:w-14 sm:h-14 md:w-16 md:h-16 bg-gradient-to-br from-primary to-accent rounded-lg flex items-center justify-center mb-4 sm:mb-6 group-hover:scale-110 transition-transform">
+                        <motion.div className="w-16 h-16 bg-gradient-to-br from-primary to-secondary rounded-xl flex items-center justify-center mb-4 group-hover:scale-110 group-hover:rotate-3 transition-all duration-300">
                           <IconComponent
                             className="w-6 h-6 sm:w-7 sm:h-7 md:w-8 md:h-8 text-white"
                             aria-hidden="true"
@@ -137,7 +137,7 @@ export default function ServicesSection() {
                           {service.features.map((feature, featureIndex) => (
                             <motion.li
                               key={feature}
-                              className="text-sm text-muted-foreground flex items-center"
+                              className="text-sm text-muted-foreground flex items-center group-hover:text-foreground transition-colors"
                               variants={{
                                 hidden: { opacity: 0, x: -20 },
                                 visible: { opacity: 1, x: 0 },

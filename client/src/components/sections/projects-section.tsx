@@ -9,10 +9,15 @@ import { useTranslation } from "react-i18next";
 
 export default function ProjectsSection() {
   const { t } = useTranslation();
-  
+
   // Get featured projects but use translation keys for the content
-  const featuredProjectIds = ["industrial-automation-demo", "power-distribution-demo"];
-  const projects = PROJECTS.filter(project => featuredProjectIds.includes(project.id));
+  const featuredProjectIds = [
+    "industrial-automation-demo",
+    "power-distribution-demo",
+  ];
+  const projects = PROJECTS.filter((project) =>
+    featuredProjectIds.includes(project.id),
+  );
   const categoryColors = {
     "Power Systems": "bg-secondary/10 text-secondary",
     Manufacturing: "bg-primary/10 text-primary",
@@ -32,8 +37,7 @@ export default function ProjectsSection() {
             {t("pages:home.projects.label")}
           </span>
           <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-primary mt-3 sm:mt-4 mb-4 sm:mb-6">
-            {t(
-              "pages:home.projects.title")}
+            {t("pages:home.projects.title")}
           </h2>
           <p className="text-sm sm:text-base md:text-lg lg:text-xl text-muted-foreground max-w-3xl mx-auto px-2 sm:px-0">
             {t("pages:home.projects.description")}
@@ -48,103 +52,122 @@ export default function ProjectsSection() {
               key={project.id}
             >
               <Card className="overflow-hidden group bg-card border border-border rounded-lg p-6 shadow-sm cursor-pointer h-full flex flex-col">
-            
-              <div className="relative overflow-hidden">
-                <img
-                  src={project.image}
-                  alt={`ID-050: ${project.title} - ${project.description}`}
-                  className="w-full h-64 object-cover group-hover:scale-[1.02] transition-transform duration-300"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-              </div>
-
-              <CardContent className="p-4 sm:p-6 md:p-8 flex-1 flex flex-col">
-                <div className="flex items-center mb-4">
-                  <Badge
-                    className={`mr-4 ${
-                      categoryColors[
-                        project.category as keyof typeof categoryColors
-                      ] || "bg-muted text-foreground"
-                    }`}
-                  >
-                    {t(`common:projectCategories.${project.category}`)}
-                  </Badge>
-                  <span className="text-muted-foreground text-sm">
-                    {t("pages:home.projects.completed")}{" "}
-                    {project.year}
-                  </span>
+                <div className="relative overflow-hidden">
+                  <img
+                    src={project.image}
+                    alt={`ID-050: ${project.title} - ${project.description}`}
+                    className="w-full h-64 object-cover group-hover:scale-[1.02] transition-transform duration-300"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                 </div>
 
-                <div className="flex items-start justify-between mb-4">
-                  <h3 className="text-xl font-bold text-foreground">
-                    {t(`common:projects.${project.id}.title`)}
-                  </h3>
-                  <Badge className="bg-gradient-to-r from-yellow-400 to-orange-500 text-white text-xs px-2 py-1 ml-2 flex-shrink-0">
-                    {t('pages:home.projects.featured')}
-                  </Badge>
-                </div>
-                <p className="text-muted-foreground mb-6">
-                  {t(`common:projects.${project.id}.description`)}
-                </p>
-
-                {/* Project Highlights */}
-                <div className="mb-6">
-                  <h4 className="text-sm font-semibold text-foreground mb-2">
-                    {t("pages:home.projects.keyFeatures")}
-                  </h4>
-                  <div className="flex flex-wrap gap-2">
-                    {project.highlights.map((highlight, index) => {
-                      // Map highlight text to translation keys
-                      const highlightMapping: { [key: string]: string } = {
-                        "PLC Integration": "plcIntegration",
-                        "SCADA Systems": "scadaSystems", 
-                        "Real-time Monitoring": "realtimeMonitoring",
-                        "Process Optimization": "processOptimization",
-                        "Load Balancing": "loadBalancing",
-                        "Protection Systems": "protectionSystems",
-                        "Energy Management": "energyManagement",
-                        "Remote Control": "remoteControl"
-                      };
-                      
-                      const translationKey = highlightMapping[highlight] || highlight.toLowerCase().replace(/\s+/g, '');
-                      
-                      return (
-                        <span
-                          key={highlight}
-                          className="text-xs bg-primary/10 text-primary px-2 py-1 rounded"
-                        >
-                          {t(`common:projects.${project.id}.highlights.${translationKey}`, highlight)}
-                        </span>
-                      );
-                    })}
-                  </div>
-                </div>
-
-                <div className="flex items-center justify-between mt-auto">
-                  <div className="flex flex-col space-y-2 sm:flex-row sm:space-y-0 sm:space-x-6 text-sm text-muted-foreground">
-                    <span className="flex items-center">
-                      <MapPin className="w-4 h-4 mr-2 text-primary flex-shrink-0" aria-hidden="true" />
-                      <span className="font-medium">{t(`common:projects.${project.id}.location`, project.location)}</span>
-                    </span>
-                    <span className="flex items-center">
-                      <Calendar className="w-4 h-4 mr-2 text-primary flex-shrink-0" aria-hidden="true" />
-                      <span className="font-medium">{t(`common:projects.${project.id}.duration`, project.duration)}</span>
-                    </span>
-                  </div>
-                  <Link href="/projects" className="group/button">
-                    <Button
-                      variant="ghost"
-                      className="text-secondary hover:text-secondary hover:bg-transparent font-semibold transition-all duration-300"
+                <CardContent className="p-4 sm:p-6 md:p-8 flex-1 flex flex-col">
+                  <div className="flex items-center mb-4">
+                    <Badge
+                      className={`mr-4 ${
+                        categoryColors[
+                          project.category as keyof typeof categoryColors
+                        ] || "bg-muted text-foreground"
+                      }`}
                     >
-                      {t("pages:home.projects.viewDetails")}
-                      <span className="ml-2 transform group-hover:translate-x-2 transition-transform duration-300">
-                        →
-                      </span>{" "}
-                    </Button>
-                  </Link>
-                </div>
-              </CardContent>
-            </Card>
+                      {t(`common:projectCategories.${project.category}`)}
+                    </Badge>
+                    <span className="text-muted-foreground text-sm">
+                      {t("pages:home.projects.completed")} {project.year}
+                    </span>
+                  </div>
+
+                  <div className="flex items-start justify-between mb-4">
+                    <h3 className="text-xl font-bold text-foreground">
+                      {t(`common:projects.${project.id}.title`)}
+                    </h3>
+                    <Badge className="bg-gradient-to-r from-yellow-400 to-orange-500 text-white text-xs px-2 py-1 ml-2 flex-shrink-0">
+                      {t("pages:home.projects.featured")}
+                    </Badge>
+                  </div>
+                  <p className="text-muted-foreground mb-6">
+                    {t(`common:projects.${project.id}.description`)}
+                  </p>
+
+                  {/* Project Highlights */}
+                  <div className="mb-6">
+                    <h4 className="text-sm font-semibold text-foreground mb-2">
+                      {t("pages:home.projects.keyFeatures")}
+                    </h4>
+                    <div className="flex flex-wrap gap-2">
+                      {project.highlights.map((highlight, index) => {
+                        // Map highlight text to translation keys
+                        const highlightMapping: { [key: string]: string } = {
+                          "PLC Integration": "plcIntegration",
+                          "SCADA Systems": "scadaSystems",
+                          "Real-time Monitoring": "realtimeMonitoring",
+                          "Process Optimization": "processOptimization",
+                          "Load Balancing": "loadBalancing",
+                          "Protection Systems": "protectionSystems",
+                          "Energy Management": "energyManagement",
+                          "Remote Control": "remoteControl",
+                        };
+
+                        const translationKey =
+                          highlightMapping[highlight] ||
+                          highlight.toLowerCase().replace(/\s+/g, "");
+
+                        return (
+                          <span
+                            key={highlight}
+                            className="text-xs bg-primary/10 text-primary px-2 py-1 rounded group-hover:text-foreground transition-colors"
+                          >
+                            {t(
+                              `common:projects.${project.id}.highlights.${translationKey}`,
+                              highlight,
+                            )}
+                          </span>
+                        );
+                      })}
+                    </div>
+                  </div>
+
+                  <div className="flex items-center justify-between mt-auto">
+                    <div className="flex flex-col space-y-2 sm:flex-row sm:space-y-0 sm:space-x-6 text-sm text-muted-foreground">
+                      <span className="flex items-center">
+                        <MapPin
+                          className="w-4 h-4 mr-2 text-primary flex-shrink-0"
+                          aria-hidden="true"
+                        />
+                        <span className="font-medium">
+                          {t(
+                            `common:projects.${project.id}.location`,
+                            project.location,
+                          )}
+                        </span>
+                      </span>
+                      <span className="flex items-center">
+                        <Calendar
+                          className="w-4 h-4 mr-2 text-primary flex-shrink-0"
+                          aria-hidden="true"
+                        />
+                        <span className="font-medium">
+                          {t(
+                            `common:projects.${project.id}.duration`,
+                            project.duration,
+                          )}
+                        </span>
+                      </span>
+                    </div>
+                    <Link href="/projects" className="group/button">
+                      <Button
+                        variant="ghost"
+                        className="text-secondary hover:text-secondary hover:bg-transparent font-semibold transition-all duration-300"
+                      >
+                        {t("pages:home.projects.viewDetails")}
+                        <span className="ml-2 transform group-hover:translate-x-2 transition-transform duration-300">
+                          →
+                        </span>{" "}
+                      </Button>
+                    </Link>
+                  </div>
+                </CardContent>
+              </Card>
             </motion.div>
           ))}
         </div>

@@ -43,15 +43,15 @@ const iconMap = {
 
 export default function Services() {
   useScrollAnimations();
-  const { t } = useTranslation(['pages', 'services', 'common']);
+  const { t } = useTranslation(["pages", "services", "common"]);
   const services = getServices(t);
   const companyInfo = getCompanyInfo(t);
 
   return (
     <>
       <SEO
-        title={t('pages:services.seo.title')}
-        description={t('pages:services.seo.description')}
+        title={t("pages:services.seo.title")}
+        description={t("pages:services.seo.description")}
         keywords="engineering services, industrial automation services, PLC programming, SCADA implementation, electrical panel installation, maintenance services, calibration services, custom automation solutions, solar EPC contractor, technical support India"
         canonicalUrl="https://powertonengineering.in/services"
       />
@@ -71,17 +71,18 @@ export default function Services() {
             <div className="max-w-7xl mx-auto px-3 sm:px-4 md:px-6 lg:px-8 text-center text-white">
               <AnimatedSection animation="fadeInUp" delay={0.1} duration={0.8}>
                 <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold mb-4 sm:mb-6">
-                  {t('pages:services.hero.title')}
+                  {t("pages:services.hero.title")}
                 </h1>
                 <p className="text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl mb-6 sm:mb-8 max-w-3xl mx-auto px-2 sm:px-0">
-                  {t('pages:services.hero.subtitle')}
+                  {t("pages:services.hero.subtitle")}
                 </p>
                 <Link href="/quote">
                   <Button
                     size="lg"
                     className="bg-secondary hover:bg-secondary/90 text-white text-wrap-safe"
                   >
-                    {t('common:buttons.getQuote')} <ArrowRight className="ms-2 h-5 w-5 rtl-flip" />
+                    {t("common:buttons.getQuote")}{" "}
+                    <ArrowRight className="ms-2 h-5 w-5 rtl-flip" />
                   </Button>
                 </Link>
               </AnimatedSection>
@@ -95,10 +96,10 @@ export default function Services() {
             <AnimatedSection animation="fadeInUp" delay={0.2}>
               <div className="text-center mb-8 sm:mb-12">
                 <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
-                  {t('services:title')}
+                  {t("services:title")}
                 </h2>
                 <p className="text-muted-foreground max-w-2xl mx-auto text-wrap-safe responsive-text">
-                  {t('services:subtitle')}
+                  {t("services:subtitle")}
                 </p>
               </div>
             </AnimatedSection>
@@ -122,90 +123,93 @@ export default function Services() {
                         className="h-full"
                       >
                         <Card className="w-full h-full cursor-pointer group border-border flex flex-col relative overflow-hidden">
-                        {/* Popular Badge */}
-                        {service.popular && (
-                          <div className="absolute top-4 right-4 z-10">
-                            <Badge className="bg-secondary text-white text-xs px-2 py-1 flex items-center gap-1">
-                              <Star className="w-3 h-3" />
-                              {t('common:labels.popular')}
-                            </Badge>
-                          </div>
-                        )}
-
-                        <CardHeader className="pb-4 pt-6">
-                          <div className="w-16 h-16 bg-gradient-to-br from-primary to-secondary rounded-xl flex items-center justify-center mb-4 group-hover:scale-110 group-hover:rotate-3 transition-all duration-300">
-                            <IconComponent className="w-8 h-8 text-white" />
-                          </div>
-                          <CardTitle className="text-xl font-bold text-foreground group-hover:text-primary transition-colors mb-2 text-wrap-safe responsive-text line-clamp-safe">
-                            {service.title}
-                          </CardTitle>
-                          {service.duration && (
-                            <div className="flex items-center text-sm text-muted-foreground text-wrap-safe">
-                              <Timer className="w-4 h-4 me-2 rtl-flip" />
-                              {t('common:labels.duration')}: {service.duration}
+                          {/* Popular Badge */}
+                          {service.popular && (
+                            <div className="absolute top-4 right-4 z-10">
+                              <Badge className="bg-secondary text-white text-xs px-2 py-1 flex items-center gap-1">
+                                <Star className="w-3 h-3" />
+                                {t("common:labels.popular")}
+                              </Badge>
                             </div>
                           )}
-                        </CardHeader>
 
-                        <CardContent className="flex-1 flex flex-col">
-                          <p className="text-muted-foreground mb-6 leading-relaxed text-sm text-wrap-safe responsive-text line-clamp-safe">
-                            {service.description}
-                          </p>
+                          <CardHeader className="pb-4 pt-6">
+                            <div className="w-16 h-16 bg-gradient-to-br from-primary to-secondary rounded-xl flex items-center justify-center mb-4 group-hover:scale-110 group-hover:rotate-3 transition-all duration-300">
+                              <IconComponent className="w-8 h-8 text-white" />
+                            </div>
+                            <CardTitle className="text-xl font-bold text-foreground group-hover:text-primary transition-colors mb-2 text-wrap-safe responsive-text line-clamp-safe">
+                              {service.title}
+                            </CardTitle>
+                            {service.duration && (
+                              <div className="flex items-center text-sm text-muted-foreground text-wrap-safe">
+                                <Timer className="w-4 h-4 me-2 rtl-flip" />
+                                {t("common:labels.duration")}:{" "}
+                                {service.duration}
+                              </div>
+                            )}
+                          </CardHeader>
 
-                          <div className="space-y-3 mb-6 flex-1">
-                            <h4 className="font-semibold text-foreground text-sm text-wrap-safe">
-                              {t('common:labels.keyFeatures')}:
-                            </h4>
-                            <ul className="space-y-2">
-                              {service.features.map((feature, featureIndex) => (
-                                <li
-                                  key={featureIndex}
-                                  className="flex items-start text-sm text-muted-foreground"
-                                >
-                                  <CheckCircle className="w-4 h-4 text-secondary me-2 flex-shrink-0 mt-0.5 rtl-flip" />
-                                  <span className="group-hover:text-foreground transition-colors text-wrap-safe">
-                                    {feature}
-                                  </span>
-                                </li>
-                              ))}
-                            </ul>
-                          </div>
+                          <CardContent className="flex-1 flex flex-col">
+                            <p className="text-muted-foreground mb-6 leading-relaxed text-sm text-wrap-safe responsive-text line-clamp-safe">
+                              {service.description}
+                            </p>
 
-                          <div className="mt-auto space-y-3 pt-4">
-                            <div className="flex gap-2">
-                              <Link
-                                href={`/quote?service=${service.id}`}
-                                className="flex-1"
-                              >
-                                <Button
-                                  size="sm"
-                                  className="w-full bg-primary hover:bg-primary/90 text-xs text-wrap-safe"
-                                >
-                                  {t('common:buttons.quickQuote')}
-                                </Button>
-                              </Link>
-                              <Link href={`tel:${companyInfo.phone}`}>
-                                <Button
-                                  size="sm"
-                                  variant="outline"
-                                  className="px-3"
-                                >
-                                  <Phone className="w-4 h-4" />
-                                </Button>
-                              </Link>
+                            <div className="space-y-3 mb-6 flex-1">
+                              <h4 className="font-semibold text-foreground text-sm text-wrap-safe">
+                                {t("common:labels.keyFeatures")}:
+                              </h4>
+                              <ul className="space-y-2">
+                                {service.features.map(
+                                  (feature, featureIndex) => (
+                                    <li
+                                      key={featureIndex}
+                                      className="flex items-start text-sm text-muted-foreground"
+                                    >
+                                      <CheckCircle className="w-4 h-4 text-secondary me-2 flex-shrink-0 mt-0.5 rtl-flip" />
+                                      <span className="group-hover:text-foreground transition-colors text-wrap-safe">
+                                        {feature}
+                                      </span>
+                                    </li>
+                                  ),
+                                )}
+                              </ul>
                             </div>
 
-                            <Button
-                              variant="ghost"
-                              className="text-secondary hover:bg-transparent hover:text-secondary p-0 font-semibold transition-all duration-300 w-full justify-center"
-                            >
-                              {t('common:buttons.learnMore')}
-                              <span className="ms-2 transform group-hover:translate-x-2 transition-transform duration-300 rtl-flip">
-                                →
-                              </span>
-                            </Button>
-                          </div>
-                        </CardContent>
+                            <div className="mt-auto space-y-3 pt-4">
+                              <div className="flex gap-2">
+                                <Link
+                                  href={`/quote?service=${service.id}`}
+                                  className="flex-1"
+                                >
+                                  <Button
+                                    size="sm"
+                                    className="w-full bg-primary hover:bg-primary/90 text-xs text-wrap-safe"
+                                  >
+                                    {t("common:buttons.quickQuote")}
+                                  </Button>
+                                </Link>
+                                <Link href={`tel:${companyInfo.phone}`}>
+                                  <Button
+                                    size="sm"
+                                    variant="outline"
+                                    className="px-3"
+                                  >
+                                    <Phone className="w-4 h-4" />
+                                  </Button>
+                                </Link>
+                              </div>
+
+                              <Button
+                                variant="ghost"
+                                className="text-secondary hover:bg-transparent hover:text-secondary p-0 font-semibold transition-all duration-300 w-full justify-center"
+                              >
+                                {t("common:buttons.learnMore")}
+                                <span className="ms-2 transform group-hover:translate-x-2 transition-transform duration-300 rtl-flip">
+                                  →
+                                </span>
+                              </Button>
+                            </div>
+                          </CardContent>
                         </Card>
                       </motion.div>
                     </Link>
@@ -222,11 +226,11 @@ export default function Services() {
             <AnimatedSection animation="fadeInUp" delay={0.2}>
               <div className="text-center mb-8 sm:mb-12">
                 <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
-                  {t('pages:services.whyChoose.title')}
+                  {t("pages:services.whyChoose.title")}
                 </h2>
                 <p className="text-muted-foreground max-w-2xl mx-auto mb-8">
-                  {t('pages:services.whyChoose.description', {
-                    yearsExperience: companyInfo.stats.yearsExperience
+                  {t("pages:services.whyChoose.description", {
+                    yearsExperience: companyInfo.stats.yearsExperience,
                   })}
                 </p>
                 <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
@@ -235,7 +239,7 @@ export default function Services() {
                       {companyInfo.stats.projectsCompleted}
                     </div>
                     <div className="text-sm text-muted-foreground">
-                      {t('common:labels.projectsCompleted')}
+                      {t("common:labels.projectsCompleted")}
                     </div>
                   </div>
                   <div className="text-center">
@@ -243,7 +247,7 @@ export default function Services() {
                       {companyInfo.stats.clientsServed}
                     </div>
                     <div className="text-sm text-muted-foreground">
-                      {t('common:labels.satisfiedClients')}
+                      {t("common:labels.satisfiedClients")}
                     </div>
                   </div>
                   <div className="text-center">
@@ -251,7 +255,7 @@ export default function Services() {
                       {companyInfo.stats.yearsExperience}
                     </div>
                     <div className="text-sm text-muted-foreground">
-                      {t('common:labels.yearsExperience')}
+                      {t("common:labels.yearsExperience")}
                     </div>
                   </div>
                   <div className="text-center">
@@ -259,7 +263,7 @@ export default function Services() {
                       {companyInfo.stats.responseTime}
                     </div>
                     <div className="text-sm text-muted-foreground">
-                      {t('common:labels.responseTime')}
+                      {t("common:labels.responseTime")}
                     </div>
                   </div>
                 </div>
@@ -274,10 +278,10 @@ export default function Services() {
                       <Award className="w-8 h-8 text-primary" />
                     </div>
                     <h3 className="font-semibold text-foreground mb-2">
-                      {t('pages:services.benefits.expertTeam.title')}
+                      {t("pages:services.benefits.expertTeam.title")}
                     </h3>
                     <p className="text-muted-foreground text-sm">
-                      {t('pages:services.benefits.expertTeam.description')}
+                      {t("pages:services.benefits.expertTeam.description")}
                     </p>
                   </CardContent>
                 </Card>
@@ -290,10 +294,10 @@ export default function Services() {
                       <Clock className="w-8 h-8 text-primary" />
                     </div>
                     <h3 className="font-semibold text-foreground mb-2">
-                      {t('pages:services.benefits.rapidResponse.title')}
+                      {t("pages:services.benefits.rapidResponse.title")}
                     </h3>
                     <p className="text-muted-foreground text-sm">
-                      {t('pages:services.benefits.rapidResponse.description')}
+                      {t("pages:services.benefits.rapidResponse.description")}
                     </p>
                   </CardContent>
                 </Card>
@@ -306,10 +310,10 @@ export default function Services() {
                       <Shield className="w-8 h-8 text-primary" />
                     </div>
                     <h3 className="font-semibold text-foreground mb-2">
-                      {t('pages:services.benefits.qualityAssured.title')}
+                      {t("pages:services.benefits.qualityAssured.title")}
                     </h3>
                     <p className="text-muted-foreground text-sm">
-                      {t('pages:services.benefits.qualityAssured.description')}
+                      {t("pages:services.benefits.qualityAssured.description")}
                     </p>
                   </CardContent>
                 </Card>
@@ -322,10 +326,10 @@ export default function Services() {
                       <Users className="w-8 h-8 text-primary" />
                     </div>
                     <h3 className="font-semibold text-foreground mb-2">
-                      {t('pages:services.benefits.clientFocused.title')}
+                      {t("pages:services.benefits.clientFocused.title")}
                     </h3>
                     <p className="text-muted-foreground text-sm">
-                      {t('pages:services.benefits.clientFocused.description')}
+                      {t("pages:services.benefits.clientFocused.description")}
                     </p>
                   </CardContent>
                 </Card>
@@ -339,10 +343,10 @@ export default function Services() {
           <div className="max-w-4xl mx-auto px-4 md:px-6 lg:px-8 text-center">
             <AnimatedSection animation="fadeInUp" delay={0.2}>
               <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">
-                {t('pages:services.cta.title')}
+                {t("pages:services.cta.title")}
               </h2>
               <p className="text-white mb-8 text-lg">
-                {t('pages:services.cta.description')}
+                {t("pages:services.cta.description")}
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Link href="/quote">
@@ -350,7 +354,10 @@ export default function Services() {
                     size="lg"
                     className="bg-foreground text-background border-border hover:bg-primary/90 hover:scale-105 transition-all duration-300"
                   >
-                    <span className="text-wrap-safe">{t('common:buttons.getQuote')}</span> <ArrowRight className="me-2 h-5 w-5 rtl-flip" />
+                    <span className="text-wrap-safe">
+                      {t("common:buttons.getQuote")}
+                    </span>{" "}
+                    <ArrowRight className="me-2 h-5 w-5 rtl-flip" />
                   </Button>
                 </Link>
                 <Link href="/contact">
@@ -360,7 +367,9 @@ export default function Services() {
                     className="hover:scale-105 transition-all duration-300"
                   >
                     <MessageSquare className="me-2 h-5 w-5 rtl-flip" />
-                    <span className="text-wrap-safe">{t('common:buttons.contactUs')}</span>
+                    <span className="text-wrap-safe">
+                      {t("common:buttons.contactUs")}
+                    </span>
                   </Button>
                 </Link>
                 <Link href={`tel:${companyInfo.phone}`}>
@@ -370,7 +379,9 @@ export default function Services() {
                     className="hover:scale-105 transition-all duration-300"
                   >
                     <Phone className="me-2 h-5 w-5 rtl-flip" />
-                    <span className="text-wrap-safe">{t('common:buttons.callNow')}</span>
+                    <span className="text-wrap-safe">
+                      {t("common:buttons.callNow")}
+                    </span>
                   </Button>
                 </Link>
               </div>

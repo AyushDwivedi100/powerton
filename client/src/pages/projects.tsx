@@ -118,27 +118,35 @@ export default function Projects() {
     }
   };
 
-  const stats = useMemo(() => [
-    {
-      number: 50,
-      suffix: "+",
-      label: t("common:company.stats.projectsCompleted"),
-      icon: Award,
-    },
-    {
-      number: 25,
-      suffix: "+",
-      label: t("common:company.stats.clientsServed"),
-      icon: Users,
-    },
-    {
-      number: 15,
-      suffix: "+",
-      label: t("common:company.stats.yearsExperience"),
-      icon: Calendar,
-    },
-    { number: 98, suffix: "%", label: t("common:company.stats.successRate"), icon: Target },
-  ], [i18n.resolvedLanguage, ready]);
+  const stats = useMemo(
+    () => [
+      {
+        number: 50,
+        suffix: "+",
+        label: t("common:company.stats.projectsCompleted"),
+        icon: Award,
+      },
+      {
+        number: 25,
+        suffix: "+",
+        label: t("common:company.stats.clientsServed"),
+        icon: Users,
+      },
+      {
+        number: 15,
+        suffix: "+",
+        label: t("common:company.stats.yearsExperience"),
+        icon: Calendar,
+      },
+      {
+        number: 98,
+        suffix: "%",
+        label: t("common:company.stats.successRate"),
+        icon: Target,
+      },
+    ],
+    [i18n.resolvedLanguage, ready],
+  );
 
   return (
     <>
@@ -231,7 +239,10 @@ export default function Projects() {
               {t("pages:ui.projectPortfolio")}
             </h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              {t("pages:projects.portfolioDescription", "Explore our engineering capabilities through demonstration projects showcasing innovative solutions across various industries. Real project portfolio coming soon.")}
+              {t(
+                "pages:projects.portfolioDescription",
+                "Explore our engineering capabilities through demonstration projects showcasing innovative solutions across various industries. Real project portfolio coming soon.",
+              )}
             </p>
           </div>
 
@@ -402,92 +413,126 @@ export default function Projects() {
                         </div>
 
                         <CardHeader className="p-0 mb-4">
-                        <div className="flex items-start justify-between mb-2">
-                          <CardTitle className="text-xl md:text-2xl font-semibold text-foreground line-clamp-2">
-                            {t(`pages:projects.items.${project.id}.title`, project.title)}
-                          </CardTitle>
-                          <div className="flex items-center gap-2 ml-2">
-                            {project.featured && (
-                              <Badge className="bg-gradient-to-r from-yellow-400 to-orange-500 text-white text-xs px-2 py-1">
-                                {t("pages:projects.featured")}
-                              </Badge>
+                          <div className="flex items-start justify-between mb-2">
+                            <CardTitle className="text-xl md:text-2xl font-semibold text-foreground line-clamp-2">
+                              {t(
+                                `pages:projects.items.${project.id}.title`,
+                                project.title,
+                              )}
+                            </CardTitle>
+                            <div className="flex items-center gap-2 ml-2">
+                              {project.featured && (
+                                <Badge className="bg-gradient-to-r from-yellow-400 to-orange-500 text-white text-xs px-2 py-1">
+                                  {t("pages:projects.featured")}
+                                </Badge>
+                              )}
+                              {Icon}
+                            </div>
+                          </div>
+                          <div className="flex items-center gap-2 text-sm text-muted-foreground">
+                            <Building className="w-4 h-4" />
+                            <span>
+                              {t(
+                                `pages:projects.items.${project.id}.client`,
+                                project.client,
+                              )}
+                            </span>
+                          </div>
+                        </CardHeader>
+
+                        <CardContent className="p-0 space-y-5">
+                          <p className="text-base text-muted-foreground line-clamp-3 leading-relaxed">
+                            {t(
+                              `pages:projects.items.${project.id}.description`,
+                              project.description,
                             )}
-                            {Icon}
-                          </div>
-                        </div>
-                        <div className="flex items-center gap-2 text-sm text-muted-foreground">
-                          <Building className="w-4 h-4" />
-                          <span>{t(`pages:projects.items.${project.id}.client`, project.client)}</span>
-                        </div>
-                      </CardHeader>
+                          </p>
 
-                      <CardContent className="p-0 space-y-5">
-                        <p className="text-base text-muted-foreground line-clamp-3 leading-relaxed">
-                          {t(`pages:projects.items.${project.id}.description`, project.description)}
-                        </p>
-
-                        <div className="space-y-4">
-                          <div className="flex items-center justify-between text-sm">
-                            <div className="flex items-center gap-1 text-muted-foreground">
-                              <MapPin className="w-4 h-4" />
-                              <span>{t(`pages:projects.items.${project.id}.location`, project.location)}</span>
+                          <div className="space-y-4">
+                            <div className="flex items-center justify-between text-sm">
+                              <div className="flex items-center gap-1 text-muted-foreground">
+                                <MapPin className="w-4 h-4" />
+                                <span>
+                                  {t(
+                                    `pages:projects.items.${project.id}.location`,
+                                    project.location,
+                                  )}
+                                </span>
+                              </div>
+                              <div className="flex items-center gap-1">
+                                {getStatusIcon(project.status)}
+                                <span
+                                  className={`text-sm ${project.status === "Completed" ? "text-green-600" : "text-primary"}`}
+                                >
+                                  {t(
+                                    `pages:projects.statuses.${project.status.toLowerCase().replace(/\s+/g, "")}`,
+                                    project.status,
+                                  )}
+                                </span>
+                              </div>
                             </div>
-                            <div className="flex items-center gap-1">
-                              {getStatusIcon(project.status)}
-                              <span
-                                className={`text-sm ${project.status === "Completed" ? "text-green-600" : "text-primary"}`}
-                              >
-                                {t(`pages:projects.statuses.${project.status.toLowerCase().replace(/\s+/g, '')}`, project.status)}
-                              </span>
-                            </div>
-                          </div>
 
-                          <div className="flex items-center justify-between text-sm">
-                            <div className="flex items-center gap-1 text-muted-foreground">
-                              <Calendar className="w-4 h-4" />
-                              <span>{t(`pages:projects.items.${project.id}.duration`, project.duration)}</span>
+                            <div className="flex items-center justify-between text-sm">
+                              <div className="flex items-center gap-1 text-muted-foreground">
+                                <Calendar className="w-4 h-4" />
+                                <span>
+                                  {t(
+                                    `pages:projects.items.${project.id}.duration`,
+                                    project.duration,
+                                  )}
+                                </span>
+                              </div>
+                              <div className="flex items-center gap-1 text-muted-foreground">
+                                <span>{project.year}</span>
+                              </div>
                             </div>
-                            <div className="flex items-center gap-1 text-muted-foreground">
-                              <span>{project.year}</span>
-                            </div>
-                          </div>
 
-                          <div className="flex flex-wrap gap-3">
-                            <Badge
-                              variant="secondary"
-                              className="text-sm px-3 py-1"
-                            >
-                              {t(`pages:projects.categories.${project.category.toLowerCase().replace(/\s+/g, '')}`, project.category)}
-                            </Badge>
-                            <Badge
-                              variant="outline"
-                              className="text-sm px-3 py-1"
-                            >
-                              {project.year}
-                            </Badge>
-                          </div>
-
-                          <div className="flex flex-wrap gap-2">
-                            {project.technologies.slice(0, 3).map((tech) => (
-                              <Badge
-                                key={tech}
-                                variant="outline"
-                                className="text-sm px-3 py-1 bg-muted/50"
-                              >
-                                {t(`pages:projects.technologies.${tech.toLowerCase().replace(/\s+/g, '')}`, tech)}
-                              </Badge>
-                            ))}
-                            {project.technologies.length > 3 && (
+                            <div className="flex flex-wrap gap-3">
                               <Badge
                                 variant="outline"
-                                className="text-sm px-3 py-1 bg-muted/50"
+                                className="text-xs bg-primary/10 text-primary px-2 py-1 rounded group-hover:text-foreground transition-colors"
                               >
-                                {t('pages:projects.moreItems', '+{{count}} more', { count: project.technologies.length - 3 })}
+                                {t(
+                                  `pages:projects.categories.${project.category.toLowerCase().replace(/\s+/g, "")}`,
+                                  project.category,
+                                )}
                               </Badge>
-                            )}
+                              <Badge
+                                variant="outline"
+                                className="text-xs bg-primary/10 text-primary px-2 py-1 rounded group-hover:text-foreground transition-colors"
+                              >
+                                {project.year}
+                              </Badge>
+                            </div>
+
+                            <div className="flex flex-wrap gap-2">
+                              {project.technologies.slice(0, 3).map((tech) => (
+                                <Badge
+                                  key={tech}
+                                  variant="outline"
+                                  className="text-xs bg-primary/10 text-primary px-2 py-1 rounded group-hover:text-foreground transition-colors"
+                                >
+                                  {t(
+                                    `pages:projects.technologies.${tech.toLowerCase().replace(/\s+/g, "")}`,
+                                    tech,
+                                  )}
+                                </Badge>
+                              ))}
+                              {project.technologies.length > 3 && (
+                                <Badge
+                                  variant="outline"
+                                  className="text-sm px-3 py-1 bg-muted/50"
+                                >
+                                  {t(
+                                    "pages:projects.moreItems",
+                                    "+{{count}} more",
+                                    { count: project.technologies.length - 3 },
+                                  )}
+                                </Badge>
+                              )}
+                            </div>
                           </div>
-                        </div>
-                      </CardContent>
+                        </CardContent>
                       </Card>
                     </motion.div>
                   );
@@ -533,61 +578,61 @@ export default function Projects() {
                           />
                         </div>
                         <CardContent className="p-8">
-                        <div className="flex items-start justify-between mb-2">
-                          <h3 className="text-xl md:text-2xl font-semibold text-foreground">
-                            {project.title}
-                          </h3>
-                          <Badge className="bg-gradient-to-r from-yellow-400 to-orange-500 text-white text-xs px-2 py-1 ml-2">
-                            Featured
-                          </Badge>
-                        </div>
-                        <p className="text-base text-muted-foreground mb-6 leading-relaxed">
-                          {project.description}
-                        </p>
+                          <div className="flex items-start justify-between mb-2">
+                            <h3 className="text-xl md:text-2xl font-semibold text-foreground">
+                              {project.title}
+                            </h3>
+                            <Badge className="bg-gradient-to-r from-yellow-400 to-orange-500 text-white text-xs px-2 py-1 ml-2">
+                              Featured
+                            </Badge>
+                          </div>
+                          <p className="text-base text-muted-foreground mb-6 leading-relaxed">
+                            {project.description}
+                          </p>
 
-                        <div className="space-y-4 mb-6">
-                          <h4 className="font-semibold text-foreground text-base">
-                            Key Features:
-                          </h4>
-                          <div className="flex flex-wrap gap-3">
-                            {project.highlights.map(
-                              (highlight: string, index: number) => (
-                                <Badge
-                                  key={index}
-                                  variant="outline"
-                                  className="text-sm px-4 py-2 bg-gray-100 text-gray-800 hover:bg-gray-200 cursor-pointer transition-colors border-gray-300"
-                                >
-                                  {highlight}
-                                </Badge>
-                              ),
-                            )}
+                          <div className="space-y-4 mb-6">
+                            <h4 className="font-semibold text-foreground text-base">
+                              Key Features:
+                            </h4>
+                            <div className="flex flex-wrap gap-3">
+                              {project.highlights.map(
+                                (highlight: string, index: number) => (
+                                  <Badge
+                                    key={index}
+                                    variant="outline"
+                                    className="text-sm px-4 py-2 bg-gray-100 text-gray-800 hover:bg-gray-200 cursor-pointer transition-colors border-gray-300"
+                                  >
+                                    {highlight}
+                                  </Badge>
+                                ),
+                              )}
+                            </div>
                           </div>
-                        </div>
 
-                        <div className="space-y-5 text-base text-muted-foreground">
-                          <div className="flex items-start gap-4">
-                            <MapPin className="w-5 h-5 flex-shrink-0 mt-0.5" />
-                            <span className="leading-relaxed text-base">
-                              {project.location}
-                            </span>
+                          <div className="space-y-5 text-base text-muted-foreground">
+                            <div className="flex items-start gap-4">
+                              <MapPin className="w-5 h-5 flex-shrink-0 mt-0.5" />
+                              <span className="leading-relaxed text-base">
+                                {project.location}
+                              </span>
+                            </div>
+                            <div className="flex items-start gap-4">
+                              <TrendingUp className="w-5 h-5 flex-shrink-0 mt-0.5" />
+                              <span className="leading-relaxed text-base">
+                                {project.duration}
+                              </span>
+                            </div>
                           </div>
-                          <div className="flex items-start gap-4">
-                            <TrendingUp className="w-5 h-5 flex-shrink-0 mt-0.5" />
-                            <span className="leading-relaxed text-base">
-                              {project.duration}
-                            </span>
-                          </div>
-                        </div>
-                        <Button
-                          className="mt-4 bg-primary hover:bg-primary/90 text-primary-foreground"
-                          size="sm"
-                        >
-                          {t("common:buttons.learnMore")}
-                          <span className="ml-2 transform group-hover:translate-x-2 transition-transform duration-300">
-                            →
-                          </span>{" "}
-                        </Button>
-                      </CardContent>
+                          <Button
+                            className="mt-4 bg-primary hover:bg-primary/90 text-primary-foreground"
+                            size="sm"
+                          >
+                            {t("common:buttons.learnMore")}
+                            <span className="ml-2 transform group-hover:translate-x-2 transition-transform duration-300">
+                              →
+                            </span>{" "}
+                          </Button>
+                        </CardContent>
                       </Card>
                     </motion.div>
                   ),
