@@ -516,6 +516,10 @@
     }
   },
   "quote": {
+    "form" : {
+      "title" : "Demander un devis personnalisé",
+      "description" : "Obtenez un devis détaillé adapté aux exigences spécifiques de votre projet auprès de nos experts en ingénierie."
+    },
     "hero": {
       "title": "Obtenez un devis d'ingénierie professionnel",
       "subtitle": "Contactez notre équipe d'experts pour des solutions d'automatisation et d'instrumentation sur mesure pour vos besoins industriels.",

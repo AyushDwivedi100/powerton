@@ -516,6 +516,10 @@
     }
   },
   "quote": {
+    "form" : {
+      "title" : "Solicitar Cotação Personalizada",
+      "description" : "Obtenha uma cotação detalhada, adaptada aos requisitos específicos do seu projeto, dos nossos especialistas em engenharia."
+    },
     "hero": {
       "title": "Obtenha uma Cotação de Engenharia Profissional",
       "subtitle": "Contate nossa equipe de especialistas para soluções de automação e instrumentação personalizadas para suas necessidades industriais.",

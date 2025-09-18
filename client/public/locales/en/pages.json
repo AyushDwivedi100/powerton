@@ -516,6 +516,10 @@
     }
   },
   "quote": {
+    "form" : {
+      "title" : "Request Custom Quote",
+      "description" : "Get a detailed quote tailored to your specific project requirements from our engineering experts."
+    },
     "hero": {
       "title": "Get a Professional Engineering Quote",
       "subtitle": "Contact our expert team for tailored automation and instrumentation solutions for your industrial needs.",

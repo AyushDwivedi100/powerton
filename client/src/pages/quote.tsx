@@ -1050,11 +1050,10 @@ export default function Quote() {
                   <Card className="bg-card border border-border rounded-lg shadow-sm hover:shadow-md transition-all duration-300">
                     <CardHeader className="p-6">
                       <CardTitle className="text-xl md:text-2xl font-semibold text-foreground">
-                        Request Custom Quote
+                        {t("pages:quote.form.title")}
                       </CardTitle>
                       <p className="text-muted-foreground">
-                        Get a detailed quote tailored to your specific project
-                        requirements from our engineering experts.
+                        {t("pages:quote.form.description")}
                       </p>
                     </CardHeader>
                     <CardContent className="p-6">

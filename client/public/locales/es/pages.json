@@ -516,6 +516,10 @@
     }
   },
   "quote": {
+    "form" : {
+      "title" : "Solicitar Cotización Personalizada",
+      "description" : "Obtenga una cotización detallada adaptada a los requisitos específicos de su proyecto de nuestros expertos en ingeniería."
+    },
     "hero": {
       "title": "Obtenga una Cotización de Ingeniería Profesional",
       "subtitle": "Póngase en contacto con nuestro equipo de expertos para obtener soluciones de automatización e instrumentación adaptadas a sus necesidades industriales.",
