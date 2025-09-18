@@ -239,6 +239,7 @@
   "projects": {
     "portfolioDescription": "Explore nossas capacidades de engenharia através de projetos de demonstração mostrando soluções inovadoras em vários setores. Um verdadeiro portfólio de projetos está chegando em breve.",
     "featured": "Destaque",
+    "keyFeatures": "Características Principais:",
     "moreItems": "+{{count}} Mais",
     "cta": {
       "title": "Pronto para Iniciar Seu Próximo Projeto?",
@@ -397,7 +398,8 @@
       "subtitle": "Soluções abrangentes de automação industrial, engenharia elétrica e instrumentação, projetadas para otimizar suas operações e impulsionar o sucesso dos negócios."
     },
     "whyChoose": {
-      "title": "Por Que Escolher a Powerton Engineering?"
+      "title": "Por Que Escolher a Powerton Engineering?",
+      "description": "Com nossa equipe de especialistas e equipamentos de ponta, oferecemos um parceiro confiável para soluções de engenharia de alta qualidade."
     },
     "benefits": {
       "expertTeam": {

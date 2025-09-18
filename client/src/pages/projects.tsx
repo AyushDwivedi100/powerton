@@ -582,7 +582,7 @@ export default function Projects() {
 
                           <div className="space-y-4 mb-6">
                             <h4 className="font-semibold text-foreground text-base">
-                              Key Features:
+                              {t("pages:projects.keyFeatures")}
                             </h4>
                             <div className="flex flex-wrap gap-3">
                               {project.highlights.map(
@@ -620,13 +620,14 @@ export default function Projects() {
                             </div>
                           </div>
                           <Button
-                            className="text-secondary bg-transparent hover:bg-transparent hover:text-secondary p-0 font-semibold transition-all duration-300 w-full justify-center"
-                            size="sm"
+                            variant="ghost"
+                            className="text-secondary hover:bg-transparent hover:text-secondary p-0 font-semibold transition-all duration-300 w-full justify-center"
                           >
                             {t("common:buttons.learnMore")}
-                            <span className="ml-2 transform group-hover:translate-x-2 transition-transform duration-300">
-                              →
-                            </span>{" "}
+                            <span className="ms-2 inline-block transition-transform duration-300 group-hover:translate-x-2 rtl:group-hover:-translate-x-2">
+                              <span className="ltr:inline rtl:hidden">→</span>
+                              <span className="ltr:hidden rtl:inline">←</span>
+                            </span>
                           </Button>
                         </CardContent>
                       </Card>

@@ -239,6 +239,7 @@
   "projects": {
     "portfolioDescription": "Gundua uwezo wetu wa uhandisi kupitia miradi ya maonyesho inayoonyesha suluhisho za ubunifu katika tasnia. Kwingineko ya mradi wa kweli inakuja hivi karibuni.",
     "featured": "Imeangaziwa",
+    "keyFeatures": "Vipengele Muhimu:",
     "moreItems": "+{{count}} Zaidi",
     "cta": {
       "title": "Uko Tayari Kuanza Mradi Wako Unaofuata?",
@@ -397,7 +398,8 @@
       "subtitle": "Suluhisho kamili za automatisheni ya viwandani, uhandisi wa umeme, na ala iliyoundwa ili kuboresha shughuli zako na kuendesha mafanikio ya biashara."
     },
     "whyChoose": {
-      "title": "Kwa nini Chagua Powerton Engineering?"
+      "title": "Kwa Nini Uchague Powerton Engineering?",
+      "description": "Tukiwa na timu yetu ya wataalamu na vifaa vya hali ya juu, tunakupa mshirika anayetegemewa kwa suluhisho za uhandisi za ubora wa juu."
     },
     "benefits": {
       "expertTeam": {

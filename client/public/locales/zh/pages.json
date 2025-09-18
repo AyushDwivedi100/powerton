@@ -239,6 +239,7 @@
   "projects": {
     "portfolioDescription": "通过展示跨行业创新解决方案的演示项目，探索我们的工程能力。真正的项目组合即将推出。",
     "featured": "精选",
+    "keyFeatures": "主要特点：",
     "moreItems": "+{{count}} 更多",
     "cta": {
       "title": "准备好开始您的下一个项目了吗？",
@@ -397,7 +398,8 @@
       "subtitle": "全面的工业自动化、电气工程和仪器仪表解决方案，旨在优化您的运营并推动业务成功。"
     },
     "whyChoose": {
-      "title": "为什么选择 Powerton Engineering？"
+      "title": "为什么选择 Powerton Engineering？",
+      "description": "凭借我们的专家团队和先进设备，我们为您提供值得信赖的高质量工程解决方案合作伙伴。"
     },
     "benefits": {
       "expertTeam": {

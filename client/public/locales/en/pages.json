@@ -239,6 +239,7 @@
   "projects": {
     "portfolioDescription": "Explore our engineering capabilities through demonstration projects showcasing innovative solutions across industries. A true project portfolio is coming soon.",
     "featured": "Featured",
+    "keyFeatures": "Key Features:",
     "moreItems": "+{{count}} More",
     "cta": {
       "title": "Ready to Start Your Next Project?",
@@ -397,7 +398,8 @@
       "subtitle": "Comprehensive industrial automation, electrical engineering, and instrumentation solutions designed to optimize your operations and drive business success."
     },
     "whyChoose": {
-      "title": "Why Choose Powerton Engineering?"
+      "title": "Why Choose Powerton Engineering?",
+      "description": "Our team of certified professionals delivers exceptional engineering solutions tailored to your specific needs."
     },
     "benefits": {
       "expertTeam": {
@@ -516,9 +518,9 @@
     }
   },
   "quote": {
-    "form" : {
-      "title" : "Request Custom Quote",
-      "description" : "Get a detailed quote tailored to your specific project requirements from our engineering experts."
+    "form": {
+      "title": "Request Custom Quote",
+      "description": "Get a detailed quote tailored to your specific project requirements from our engineering experts."
     },
     "hero": {
       "title": "Get a Professional Engineering Quote",
@@ -961,9 +963,9 @@
         "description": "Work on cutting-edge technologies and innovative solutions in industrial automation."
       }
     },
-    "whyJoinUs" : {
-      "title" : "Why Choose Powerton Engineering?",
-      "description" : "Be part of a dynamic team that is shaping the future of industrial automation and electrical engineering"
+    "whyJoinUs": {
+      "title": "Why Choose Powerton Engineering?",
+      "description": "Be part of a dynamic team that is shaping the future of industrial automation and electrical engineering"
     }
   },
   "seo": {

@@ -1,23 +1,30 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { TESTIMONIALS, CLIENTS, CLIENT_LOGOS, getTestimonials } from "@/data/constants";
+import {
+  TESTIMONIALS,
+  CLIENTS,
+  CLIENT_LOGOS,
+  getTestimonials,
+} from "@/data/constants";
 import { Star, ChevronLeft, ChevronRight } from "lucide-react";
 import { useState, useEffect, useCallback } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { useTranslation } from 'react-i18next';
+import { useTranslation } from "react-i18next";
 
 export default function ClientsSection() {
-  const { t, i18n } = useTranslation(['pages', 'common']);
+  const { t, i18n } = useTranslation(["pages", "common"]);
   const testimonials = getTestimonials(t);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isAutoPlaying, setIsAutoPlaying] = useState(true);
   const [logoCurrentIndex, setLogoCurrentIndex] = useState(0);
   const [triggerAnimation, setTriggerAnimation] = useState(0);
-  const [entryDirection, setEntryDirection] = useState<'left' | 'right'>('right');
-  const [exitDirection, setExitDirection] = useState<'left' | 'right'>('right');
-  
+  const [entryDirection, setEntryDirection] = useState<"left" | "right">(
+    "right",
+  );
+  const [exitDirection, setExitDirection] = useState<"left" | "right">("right");
+
   // Check if current language is Arabic (RTL)
-  const isRTL = i18n.language === 'ar';
+  const isRTL = i18n.language === "ar";
 
   // Auto-slide functionality for testimonials
   useEffect(() => {
@@ -25,16 +32,16 @@ export default function ClientsSection() {
 
     const interval = setInterval(() => {
       try {
-        setExitDirection('left');  // Auto-play: current exits LEFT
+        setExitDirection("left"); // Auto-play: current exits LEFT
         setTimeout(() => {
-          setEntryDirection('right');
+          setEntryDirection("right");
           setCurrentIndex((prevIndex) =>
             prevIndex === testimonials.length - 1 ? 0 : prevIndex + 1,
           );
-          setTriggerAnimation(prev => prev + 1);
+          setTriggerAnimation((prev) => prev + 1);
         }, 10);
       } catch (error) {
-        console.log('Testimonial auto-slide handled gracefully:', error);
+        console.log("Testimonial auto-slide handled gracefully:", error);
         clearInterval(interval);
       }
     }, 5000); // Change testimonial every 5 seconds
@@ -43,7 +50,7 @@ export default function ClientsSection() {
       try {
         clearInterval(interval);
       } catch (error) {
-        console.log('Clearing testimonial interval handled gracefully:', error);
+        console.log("Clearing testimonial interval handled gracefully:", error);
       }
     };
   }, [isAutoPlaying]);
@@ -52,39 +59,44 @@ export default function ClientsSection() {
   const [isHovered, setIsHovered] = useState(false);
 
   const goToPrevious = useCallback(() => {
-    setIsAutoPlaying(false);  // Stop autoplay immediately
-    const newIndex = currentIndex === 0 ? testimonials.length - 1 : currentIndex - 1;
-    setExitDirection('right');  // Current review should exit RIGHT (opposite of left arrow)
+    setIsAutoPlaying(false); // Stop autoplay immediately
+    const newIndex =
+      currentIndex === 0 ? testimonials.length - 1 : currentIndex - 1;
+    setExitDirection("right"); // Current review should exit RIGHT (opposite of left arrow)
     setTimeout(() => {
-      setEntryDirection('left');  // New review enters from LEFT
+      setEntryDirection("left"); // New review enters from LEFT
       setCurrentIndex(newIndex);
-      setTriggerAnimation(prev => prev + 1);
+      setTriggerAnimation((prev) => prev + 1);
     }, 10);
     // Resume auto-play after 8 seconds
     setTimeout(() => {
       try {
         setIsAutoPlaying(true);
       } catch (error) {
-        console.log('Previous button auto-play resume handled gracefully:', error);
+        console.log(
+          "Previous button auto-play resume handled gracefully:",
+          error,
+        );
       }
     }, 8000);
   }, [currentIndex, testimonials.length]);
 
   const goToNext = useCallback(() => {
-    setIsAutoPlaying(false);  // Stop autoplay immediately
-    const newIndex = currentIndex === testimonials.length - 1 ? 0 : currentIndex + 1;
-    setExitDirection('left');  // Current review should exit LEFT (opposite of right arrow)
+    setIsAutoPlaying(false); // Stop autoplay immediately
+    const newIndex =
+      currentIndex === testimonials.length - 1 ? 0 : currentIndex + 1;
+    setExitDirection("left"); // Current review should exit LEFT (opposite of right arrow)
     setTimeout(() => {
-      setEntryDirection('right');  // New review enters from RIGHT
+      setEntryDirection("right"); // New review enters from RIGHT
       setCurrentIndex(newIndex);
-      setTriggerAnimation(prev => prev + 1);
+      setTriggerAnimation((prev) => prev + 1);
     }, 10);
     // Resume auto-play after 8 seconds
     setTimeout(() => {
       try {
         setIsAutoPlaying(true);
       } catch (error) {
-        console.log('Next button auto-play resume handled gracefully:', error);
+        console.log("Next button auto-play resume handled gracefully:", error);
       }
     }, 8000);
   }, [currentIndex, testimonials.length]);
@@ -94,25 +106,25 @@ export default function ClientsSection() {
       <div className="max-w-7xl mx-auto px-3 sm:px-4 md:px-6 lg:px-8">
         <div className="text-center mb-8 sm:mb-12 md:mb-16">
           <span className="text-secondary font-semibold text-lg">
-            {t('pages:home.clients.label')}
+            {t("pages:home.clients.label")}
           </span>
           <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold text-primary mt-3 sm:mt-4 mb-4 sm:mb-6">
-            {t('pages:home.clients.title')}
+            {t("pages:home.clients.title")}
           </h2>
           <p className="text-sm sm:text-base md:text-lg lg:text-xl text-muted-foreground max-w-3xl mx-auto px-2 sm:px-0">
-            {t('pages:home.clients.description')}
+            {t("pages:home.clients.description")}
           </p>
         </div>
 
         {/* Client Logos Slideshow - Pure CSS infinite scroll */}
         <div className="mb-8 sm:mb-12 md:mb-16">
-          <div 
+          <div
             className="relative overflow-hidden bg-muted rounded-lg border border-border py-4 md:py-6 lg:py-8"
             onMouseEnter={() => setIsHovered(true)}
             onMouseLeave={() => setIsHovered(false)}
           >
-            <div 
-              className={`flex ${isRTL ? 'animate-infinite-scroll-rtl' : 'animate-infinite-scroll'} ${isHovered ? 'paused' : ''}`}
+            <div
+              className={`flex ${isRTL ? "animate-infinite-scroll-rtl" : "animate-infinite-scroll"} ${isHovered ? "paused" : ""}`}
               style={{
                 width: `${CLIENT_LOGOS.length * 2 * 162}px`, // Double width for seamless loop (162px per card)
               }}
@@ -145,20 +157,16 @@ export default function ClientsSection() {
               ))}
             </div>
 
-
-
             {/* Responsive gradient overlays */}
             <div className="absolute top-0 left-0 w-8 md:w-12 lg:w-16 h-full bg-gradient-to-r from-muted to-transparent pointer-events-none z-10"></div>
             <div className="absolute top-0 right-0 w-8 md:w-12 lg:w-16 h-full bg-gradient-to-l from-muted to-transparent pointer-events-none z-10"></div>
           </div>
-
-
         </div>
 
         {/* Testimonials Carousel Section */}
         <div className="text-center mb-8 sm:mb-12">
           <h3 className="text-xl sm:text-2xl font-bold text-primary mb-6 sm:mb-8">
-            {t('pages:home.clients.testimonialsTitle')}
+            {t("pages:home.clients.testimonialsTitle")}
           </h3>
         </div>
 
@@ -169,7 +177,7 @@ export default function ClientsSection() {
             size="icon"
             onClick={goToPrevious}
             className="absolute left-0 top-1/2 -translate-y-1/2 z-10 bg-card hover:bg-muted border-border shadow-lg"
-            aria-label={t('common:aria.previousTestimonial')}
+            aria-label={t("common:aria.previousTestimonial")}
             data-testid="button-previous-testimonial"
           >
             <ChevronLeft className="w-5 h-5" />
@@ -180,7 +188,7 @@ export default function ClientsSection() {
             size="icon"
             onClick={goToNext}
             className="absolute right-0 top-1/2 -translate-y-1/2 z-10 bg-card hover:bg-muted border-border shadow-lg"
-            aria-label={t('common:aria.nextTestimonial')}
+            aria-label={t("common:aria.nextTestimonial")}
             data-testid="button-next-testimonial"
           >
             <ChevronRight className="w-5 h-5" />
@@ -192,14 +200,14 @@ export default function ClientsSection() {
               <AnimatePresence mode="wait">
                 <motion.div
                   key={`testimonial-${currentIndex}-${triggerAnimation}`}
-                  initial={{ 
-                    opacity: 0, 
-                    x: entryDirection === 'left' ? -120 : 120 
+                  initial={{
+                    opacity: 0,
+                    x: entryDirection === "left" ? -120 : 120,
                   }}
                   animate={{ opacity: 1, x: 0 }}
-                  exit={{ 
-                    opacity: 0, 
-                    x: exitDirection === 'left' ? -120 : 120 
+                  exit={{
+                    opacity: 0,
+                    x: exitDirection === "left" ? -120 : 120,
                   }}
                   transition={{ duration: 0.6, ease: "easeOut" }}
                   className="w-full"
@@ -263,7 +271,10 @@ export default function ClientsSection() {
                     try {
                       setIsAutoPlaying(true);
                     } catch (error) {
-                      console.log('Pagination dot auto-play resume handled gracefully:', error);
+                      console.log(
+                        "Pagination dot auto-play resume handled gracefully:",
+                        error,
+                      );
                     }
                   }, 8000);
                 }}

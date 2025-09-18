@@ -30,14 +30,14 @@ import { useToast } from "@/hooks/use-toast";
 
 export default function Products() {
   useScrollAnimations();
-  const { t } = useTranslation(['common', 'products', 'pages']);
+  const { t } = useTranslation(["common", "products", "pages"]);
   const { toast } = useToast();
   const PRODUCTS = getProducts(t);
 
   const handleDownloadCatalog = () => {
     toast({
-      title: t('common:messages.comingSoon'),
-      description: t('common:messages.catalogComingSoon'),
+      title: t("common:messages.comingSoon"),
+      description: t("common:messages.catalogComingSoon"),
       duration: 4000,
     });
   };
@@ -66,19 +66,19 @@ export default function Products() {
 
       // Electrical Components features
       "circuit-breakers": "/products/circuit-breakers-fuses",
-      "contactors": "/products/electrical-components",
-      "relays": "/products/electrical-components",
+      contactors: "/products/electrical-components",
+      relays: "/products/electrical-components",
       "power-supplies": "/products/power-supplies",
 
       // Measurement Instruments features
       "digital-multimeters": "/products/multimeters",
-      "oscilloscopes": "/products/oscilloscopes",
+      oscilloscopes: "/products/oscilloscopes",
       "signal-analyzers": "/products/spectrum-analyzers",
-      "calibrators": "/products/calibration-equipment",
+      calibrators: "/products/calibration-equipment",
 
       // Solar Products features
       "solar-panels": "/products/solar-panels",
-      "inverters": "/products/solar-inverters",
+      inverters: "/products/solar-inverters",
       "monitoring-systems": "/products/solar-products",
       "battery-storage": "/products/solar-batteries-energy-storage",
 
@@ -112,187 +112,226 @@ export default function Products() {
       "variable-speed-control": "/products/bldc-cooler-exhaust-motor",
     };
 
-    return (
-      featureRoutes[featureId] ||
-      `/products/${featureId}`
-    );
+    return featureRoutes[featureId] || `/products/${featureId}`;
   };
 
   const productDetails = {
     instrumentation: {
-      fullDescription: t('products:productDetails.instrumentation.fullDescription'),
+      fullDescription: t(
+        "products:productDetails.instrumentation.fullDescription",
+      ),
       specifications: [
-        t('products:productDetails.instrumentation.specifications.highAccuracy'),
-        t('products:productDetails.instrumentation.specifications.operatingTemperature'),
-        t('products:productDetails.instrumentation.specifications.protectionRating'),
-        t('products:productDetails.instrumentation.specifications.outputTypes'),
-        t('products:productDetails.instrumentation.specifications.explosionProof'),
+        t(
+          "products:productDetails.instrumentation.specifications.highAccuracy",
+        ),
+        t(
+          "products:productDetails.instrumentation.specifications.operatingTemperature",
+        ),
+        t(
+          "products:productDetails.instrumentation.specifications.protectionRating",
+        ),
+        t("products:productDetails.instrumentation.specifications.outputTypes"),
+        t(
+          "products:productDetails.instrumentation.specifications.explosionProof",
+        ),
       ],
       applications: [
-        t('products:productDetails.instrumentation.applications.processControl'),
-        t('products:productDetails.instrumentation.applications.qualityMonitoring'),
-        t('products:productDetails.instrumentation.applications.safetySystems'),
-        t('products:productDetails.instrumentation.applications.environmentalMonitoring'),
+        t(
+          "products:productDetails.instrumentation.applications.processControl",
+        ),
+        t(
+          "products:productDetails.instrumentation.applications.qualityMonitoring",
+        ),
+        t("products:productDetails.instrumentation.applications.safetySystems"),
+        t(
+          "products:productDetails.instrumentation.applications.environmentalMonitoring",
+        ),
       ],
       features: [
-        t('products:productDetails.instrumentation.features.smartDiagnostics'),
-        t('products:productDetails.instrumentation.features.digitalCommunication'),
-        t('products:productDetails.instrumentation.features.easyCalibration'),
-        t('products:productDetails.instrumentation.features.longTermStability'),
+        t("products:productDetails.instrumentation.features.smartDiagnostics"),
+        t(
+          "products:productDetails.instrumentation.features.digitalCommunication",
+        ),
+        t("products:productDetails.instrumentation.features.easyCalibration"),
+        t("products:productDetails.instrumentation.features.longTermStability"),
       ],
     },
     electrical: {
-      fullDescription: t('products:productDetails.electrical.fullDescription'),
+      fullDescription: t("products:productDetails.electrical.fullDescription"),
       specifications: [
-        t('products:productDetails.electrical.specifications.voltageRange'),
-        t('products:productDetails.electrical.specifications.currentRatings'),
-        t('products:productDetails.electrical.specifications.protectionLevel'),
-        t('products:productDetails.electrical.specifications.standardsCompliant'),
-        t('products:productDetails.electrical.specifications.temperatureRated'),
+        t("products:productDetails.electrical.specifications.voltageRange"),
+        t("products:productDetails.electrical.specifications.currentRatings"),
+        t("products:productDetails.electrical.specifications.protectionLevel"),
+        t(
+          "products:productDetails.electrical.specifications.standardsCompliant",
+        ),
+        t("products:productDetails.electrical.specifications.temperatureRated"),
       ],
       applications: [
-        t('products:productDetails.electrical.applications.motorControl'),
-        t('products:productDetails.electrical.applications.powerDistribution'),
-        t('products:productDetails.electrical.applications.switchingApplications'),
-        t('products:productDetails.electrical.applications.protectionSystems'),
+        t("products:productDetails.electrical.applications.motorControl"),
+        t("products:productDetails.electrical.applications.powerDistribution"),
+        t(
+          "products:productDetails.electrical.applications.switchingApplications",
+        ),
+        t("products:productDetails.electrical.applications.protectionSystems"),
       ],
       features: [
-        t('products:productDetails.electrical.features.highReliability'),
-        t('products:productDetails.electrical.features.modularDesign'),
-        t('products:productDetails.electrical.features.easyInstallation'),
-        t('products:productDetails.electrical.features.maintenanceFree'),
+        t("products:productDetails.electrical.features.highReliability"),
+        t("products:productDetails.electrical.features.modularDesign"),
+        t("products:productDetails.electrical.features.easyInstallation"),
+        t("products:productDetails.electrical.features.maintenanceFree"),
       ],
     },
     measurement: {
-      fullDescription: t('products:productDetails.measurement.fullDescription'),
+      fullDescription: t("products:productDetails.measurement.fullDescription"),
       specifications: [
-        t('products:productDetails.measurement.specifications.accuracyClass'),
-        t('products:productDetails.measurement.specifications.displayType'),
-        t('products:productDetails.measurement.specifications.communicationOptions'),
-        t('products:productDetails.measurement.specifications.dataLogging'),
-        t('products:productDetails.measurement.specifications.multipleParameter'),
+        t("products:productDetails.measurement.specifications.accuracyClass"),
+        t("products:productDetails.measurement.specifications.displayType"),
+        t(
+          "products:productDetails.measurement.specifications.communicationOptions",
+        ),
+        t("products:productDetails.measurement.specifications.dataLogging"),
+        t(
+          "products:productDetails.measurement.specifications.multipleParameter",
+        ),
       ],
       applications: [
-        t('products:productDetails.measurement.applications.powerQualityAnalysis'),
-        t('products:productDetails.measurement.applications.energyManagement'),
-        t('products:productDetails.measurement.applications.processMonitoring'),
-        t('products:productDetails.measurement.applications.complianceMeasurement'),
+        t(
+          "products:productDetails.measurement.applications.powerQualityAnalysis",
+        ),
+        t("products:productDetails.measurement.applications.energyManagement"),
+        t("products:productDetails.measurement.applications.processMonitoring"),
+        t(
+          "products:productDetails.measurement.applications.complianceMeasurement",
+        ),
       ],
       features: [
-        t('products:productDetails.measurement.features.realTimeMonitoring'),
-        t('products:productDetails.measurement.features.dataAnalytics'),
-        t('products:productDetails.measurement.features.alarmManagement'),
-        t('products:productDetails.measurement.features.remoteAccess'),
+        t("products:productDetails.measurement.features.realTimeMonitoring"),
+        t("products:productDetails.measurement.features.dataAnalytics"),
+        t("products:productDetails.measurement.features.alarmManagement"),
+        t("products:productDetails.measurement.features.remoteAccess"),
       ],
     },
     solar: {
-      fullDescription: t('products:productDetails.solar.fullDescription'),
+      fullDescription: t("products:productDetails.solar.fullDescription"),
       specifications: [
-        t('products:productDetails.solar.specifications.panelEfficiency'),
-        t('products:productDetails.solar.specifications.powerRange'),
-        t('products:productDetails.solar.specifications.inverterEfficiency'),
-        t('products:productDetails.solar.specifications.warranty'),
-        t('products:productDetails.solar.specifications.gridOptions'),
+        t("products:productDetails.solar.specifications.panelEfficiency"),
+        t("products:productDetails.solar.specifications.powerRange"),
+        t("products:productDetails.solar.specifications.inverterEfficiency"),
+        t("products:productDetails.solar.specifications.warranty"),
+        t("products:productDetails.solar.specifications.gridOptions"),
       ],
       applications: [
-        t('products:productDetails.solar.applications.rooftopSolar'),
-        t('products:productDetails.solar.applications.groundMountSystems'),
-        t('products:productDetails.solar.applications.solarFarms'),
-        t('products:productDetails.solar.applications.hybridSystems'),
+        t("products:productDetails.solar.applications.rooftopSolar"),
+        t("products:productDetails.solar.applications.groundMountSystems"),
+        t("products:productDetails.solar.applications.solarFarms"),
+        t("products:productDetails.solar.applications.hybridSystems"),
       ],
       features: [
-        t('products:productDetails.solar.features.highEfficiency'),
-        t('products:productDetails.solar.features.weatherResistant'),
-        t('products:productDetails.solar.features.smartMonitoring'),
-        t('products:productDetails.solar.features.gridSynchronization'),
+        t("products:productDetails.solar.features.highEfficiency"),
+        t("products:productDetails.solar.features.weatherResistant"),
+        t("products:productDetails.solar.features.smartMonitoring"),
+        t("products:productDetails.solar.features.gridSynchronization"),
       ],
     },
     automation: {
-      fullDescription: t('products:productDetails.automation.fullDescription'),
+      fullDescription: t("products:productDetails.automation.fullDescription"),
       specifications: [
-        t('products:productDetails.automation.specifications.ioCapacity'),
-        t('products:productDetails.automation.specifications.communicationProtocols'),
-        t('products:productDetails.automation.specifications.programmingStandards'),
-        t('products:productDetails.automation.specifications.operatingTemperature'),
-        t('products:productDetails.automation.specifications.redundancyOptions'),
+        t("products:productDetails.automation.specifications.ioCapacity"),
+        t(
+          "products:productDetails.automation.specifications.communicationProtocols",
+        ),
+        t(
+          "products:productDetails.automation.specifications.programmingStandards",
+        ),
+        t(
+          "products:productDetails.automation.specifications.operatingTemperature",
+        ),
+        t(
+          "products:productDetails.automation.specifications.redundancyOptions",
+        ),
       ],
       applications: [
-        t('products:productDetails.automation.applications.manufacturingAutomation'),
-        t('products:productDetails.automation.applications.processControl'),
-        t('products:productDetails.automation.applications.buildingManagement'),
-        t('products:productDetails.automation.applications.machineControl'),
+        t(
+          "products:productDetails.automation.applications.manufacturingAutomation",
+        ),
+        t("products:productDetails.automation.applications.processControl"),
+        t("products:productDetails.automation.applications.buildingManagement"),
+        t("products:productDetails.automation.applications.machineControl"),
       ],
       features: [
-        t('products:productDetails.automation.features.flexibleProgramming'),
-        t('products:productDetails.automation.features.scalableArchitecture'),
-        t('products:productDetails.automation.features.diagnosticTools'),
-        t('products:productDetails.automation.features.remoteMonitoring'),
+        t("products:productDetails.automation.features.flexibleProgramming"),
+        t("products:productDetails.automation.features.scalableArchitecture"),
+        t("products:productDetails.automation.features.diagnosticTools"),
+        t("products:productDetails.automation.features.remoteMonitoring"),
       ],
     },
     safety: {
-      fullDescription: t('products:productDetails.safety.fullDescription'),
+      fullDescription: t("products:productDetails.safety.fullDescription"),
       specifications: [
-        t('products:productDetails.safety.specifications.breakingCapacity'),
-        t('products:productDetails.safety.specifications.safetyIntegrityLevel'),
-        t('products:productDetails.safety.specifications.responseTime'),
-        t('products:productDetails.safety.specifications.multipleProtectionFunctions'),
-        t('products:productDetails.safety.specifications.arcFaultProtection'),
+        t("products:productDetails.safety.specifications.breakingCapacity"),
+        t("products:productDetails.safety.specifications.safetyIntegrityLevel"),
+        t("products:productDetails.safety.specifications.responseTime"),
+        t(
+          "products:productDetails.safety.specifications.multipleProtectionFunctions",
+        ),
+        t("products:productDetails.safety.specifications.arcFaultProtection"),
       ],
       applications: [
-        t('products:productDetails.safety.applications.personnelSafety'),
-        t('products:productDetails.safety.applications.equipmentProtection'),
-        t('products:productDetails.safety.applications.fireSafety'),
-        t('products:productDetails.safety.applications.emergencySystems'),
+        t("products:productDetails.safety.applications.personnelSafety"),
+        t("products:productDetails.safety.applications.equipmentProtection"),
+        t("products:productDetails.safety.applications.fireSafety"),
+        t("products:productDetails.safety.applications.emergencySystems"),
       ],
       features: [
-        t('products:productDetails.safety.features.failSafeOperation'),
-        t('products:productDetails.safety.features.selfMonitoring'),
-        t('products:productDetails.safety.features.quickResponse'),
-        t('products:productDetails.safety.features.easyTesting'),
+        t("products:productDetails.safety.features.failSafeOperation"),
+        t("products:productDetails.safety.features.selfMonitoring"),
+        t("products:productDetails.safety.features.quickResponse"),
+        t("products:productDetails.safety.features.easyTesting"),
       ],
     },
     pumps: {
-      fullDescription: t('products:productDetails.pumps.fullDescription'),
+      fullDescription: t("products:productDetails.pumps.fullDescription"),
       specifications: [
-        t('products:productDetails.pumps.specifications.flowRate'),
-        t('products:productDetails.pumps.specifications.head'),
-        t('products:productDetails.pumps.specifications.materials'),
-        t('products:productDetails.pumps.specifications.temperatureRange'),
-        t('products:productDetails.pumps.specifications.efficiency'),
+        t("products:productDetails.pumps.specifications.flowRate"),
+        t("products:productDetails.pumps.specifications.head"),
+        t("products:productDetails.pumps.specifications.materials"),
+        t("products:productDetails.pumps.specifications.temperatureRange"),
+        t("products:productDetails.pumps.specifications.efficiency"),
       ],
       applications: [
-        t('products:productDetails.pumps.applications.waterSupply'),
-        t('products:productDetails.pumps.applications.chemicalProcessing'),
-        t('products:productDetails.pumps.applications.hvacSystems'),
-        t('products:productDetails.pumps.applications.industrialProcesses'),
+        t("products:productDetails.pumps.applications.waterSupply"),
+        t("products:productDetails.pumps.applications.chemicalProcessing"),
+        t("products:productDetails.pumps.applications.hvacSystems"),
+        t("products:productDetails.pumps.applications.industrialProcesses"),
       ],
       features: [
-        t('products:productDetails.pumps.features.energyEfficient'),
-        t('products:productDetails.pumps.features.corrosionResistant'),
-        t('products:productDetails.pumps.features.lowMaintenance'),
-        t('products:productDetails.pumps.features.reliableOperation'),
+        t("products:productDetails.pumps.features.energyEfficient"),
+        t("products:productDetails.pumps.features.corrosionResistant"),
+        t("products:productDetails.pumps.features.lowMaintenance"),
+        t("products:productDetails.pumps.features.reliableOperation"),
       ],
     },
     tools: {
-      fullDescription: t('products:productDetails.tools.fullDescription'),
+      fullDescription: t("products:productDetails.tools.fullDescription"),
       specifications: [
-        t('products:productDetails.tools.specifications.material'),
-        t('products:productDetails.tools.specifications.precision'),
-        t('products:productDetails.tools.specifications.operatingRange'),
-        t('products:productDetails.tools.specifications.ergonomicDesign'),
-        t('products:productDetails.tools.specifications.certifiedStandards'),
+        t("products:productDetails.tools.specifications.material"),
+        t("products:productDetails.tools.specifications.precision"),
+        t("products:productDetails.tools.specifications.operatingRange"),
+        t("products:productDetails.tools.specifications.ergonomicDesign"),
+        t("products:productDetails.tools.specifications.certifiedStandards"),
       ],
       applications: [
-        t('products:productDetails.tools.applications.maintenanceWork'),
-        t('products:productDetails.tools.applications.installation'),
-        t('products:productDetails.tools.applications.calibration'),
-        t('products:productDetails.tools.applications.testingCommissioning'),
+        t("products:productDetails.tools.applications.maintenanceWork"),
+        t("products:productDetails.tools.applications.installation"),
+        t("products:productDetails.tools.applications.calibration"),
+        t("products:productDetails.tools.applications.testingCommissioning"),
       ],
       features: [
-        t('products:productDetails.tools.features.durableConstruction'),
-        t('products:productDetails.tools.features.ergonomicDesign'),
-        t('products:productDetails.tools.features.precisionEngineering'),
-        t('products:productDetails.tools.features.multiPurposeUse'),
+        t("products:productDetails.tools.features.durableConstruction"),
+        t("products:productDetails.tools.features.ergonomicDesign"),
+        t("products:productDetails.tools.features.precisionEngineering"),
+        t("products:productDetails.tools.features.multiPurposeUse"),
       ],
     },
   };
@@ -300,8 +339,8 @@ export default function Products() {
   return (
     <>
       <SEO
-        title={t('pages:products.seo.title')}
-        description={t('pages:products.seo.description')}
+        title={t("pages:products.seo.title")}
+        description={t("pages:products.seo.description")}
         keywords="industrial products, automation equipment, electrical components, instrumentation products, solar panels, industrial pumps, measurement instruments, safety equipment"
         canonicalUrl="https://powertonengineering.in/products"
       />
@@ -318,25 +357,25 @@ export default function Products() {
         <div className="relative max-w-7xl mx-auto px-3 sm:px-4 md:px-6 lg:px-8 text-white">
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold mb-4 sm:mb-6">
-              <span className="text-secondary">{t('products:title')}</span>
+              <span className="text-secondary">{t("products:title")}</span>
             </h1>
             <p className="text-sm sm:text-base md:text-lg lg:text-xl mb-6 sm:mb-8 opacity-90 max-w-3xl mx-auto px-2 sm:px-0">
-              {t('products:subtitle')}
+              {t("products:subtitle")}
             </p>
             <div className="flex flex-col sm:flex-row justify-center gap-2 sm:gap-3 md:gap-4 max-w-md mx-auto px-2 sm:px-0">
-              <Button 
+              <Button
                 onClick={handleDownloadCatalog}
                 className="bg-secondary hover:bg-secondary/90 text-secondary-foreground px-8 py-3 text-lg font-semibold w-full sm:w-auto"
               >
                 <Download className="mr-2 w-5 h-5" />
-                {t('common:buttons.downloadCatalog')}
+                {t("common:buttons.downloadCatalog")}
               </Button>
               <Link href="/quote">
                 <Button
                   variant="outline"
                   className="border-2 border-border text-foreground hover:bg-foreground hover:text-background px-8 py-3 text-lg font-semibold w-full sm:w-auto"
                 >
-                  {t('common:buttons.getQuote')}
+                  {t("common:buttons.getQuote")}
                 </Button>
               </Link>
             </div>
@@ -350,10 +389,10 @@ export default function Products() {
           <AnimatedSection animation="fade-in-up">
             <div className="text-center mb-8 sm:mb-12 md:mb-16">
               <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-primary mb-4 sm:mb-6">
-                {t('pages:products.sections.industrialProducts')}
+                {t("pages:products.sections.industrialProducts")}
               </h2>
               <p className="text-sm sm:text-base md:text-lg text-muted-foreground max-w-3xl mx-auto px-2 sm:px-0">
-                {t('products:subtitle')}
+                {t("products:subtitle")}
               </p>
             </div>
           </AnimatedSection>
@@ -369,56 +408,66 @@ export default function Products() {
                     transition={{ duration: 0.3, ease: "easeOut" }}
                   >
                     <Card className="h-full group cursor-pointer">
-                    <CardContent className="p-4 sm:p-6 md:p-8 h-full flex flex-col items-center">
-                      <div className="w-16 h-16 bg-gradient-to-br from-primary to-secondary rounded-xl flex items-center justify-center mb-4 group-hover:scale-110 group-hover:rotate-3 transition-all duration-300">
-                        <IconComponent className="w-8 h-8 text-white" />
-                      </div>
-                      <Link href={`/products/${product.id}`} className="block">
-                        <h3 className="text-xl font-bold text-foreground mb-3 text-center group-hover:text-primary transition-colors cursor-pointer">
-                          {product.title}
-                        </h3>
-                      </Link>
-                      <p className="text-muted-foreground text-center mb-6 flex-grow">
-                        {product.description}
-                      </p>
-
-                      <div className="space-y-4 mt-auto">
-                        <div className="flex flex-wrap gap-2 justify-center min-h-[80px] items-center">
-                          {product.features.slice(0, 4).map((feature, idx) => (
-                            <Link
-                              key={idx}
-                              href={getFeatureRoute(`feature-${idx}`)}
-                              className="inline-block"
-                            >
-                              <Badge
-                                variant="secondary"
-                                className="bg-secondary/10 text-secondary border border-secondary/20 group-hover:bg-secondary group-hover:text-secondary-foreground transition-all duration-200 cursor-pointer text-sm px-3 py-1"
-                                data-testid={`badge-${feature.toLowerCase().replace(/\s+/g, "-")}`}
-                              >
-                                {feature}
-                              </Badge>
-                            </Link>
-                          ))}
+                      <CardContent className="p-4 sm:p-6 md:p-8 h-full flex flex-col items-center">
+                        <div className="w-16 h-16 bg-gradient-to-br from-primary to-secondary rounded-xl flex items-center justify-center mb-4 group-hover:scale-110 group-hover:rotate-3 transition-all duration-300">
+                          <IconComponent className="w-8 h-8 text-white" />
                         </div>
+                        <Link
+                          href={`/products/${product.id}`}
+                          className="block"
+                        >
+                          <h3 className="text-xl font-bold text-foreground mb-3 text-center group-hover:text-primary transition-colors cursor-pointer">
+                            {product.title}
+                          </h3>
+                        </Link>
+                        <p className="text-muted-foreground text-center mb-6 flex-grow">
+                          {product.description}
+                        </p>
 
-                        <div className="pt-4 border-t border-border">
-                          <div className="flex items-center justify-center">
-                            <Link href={`/products/${product.id}`}>
-                              <Button
-                                variant="ghost"
-                                className="text-secondary hover:bg-transparent hover:text-secondary p-0"
-                              >
-                                {t('common:buttons.viewDetails')}{" "}
-                                <span className="ml-2 transform group-hover:translate-x-2 transition-transform duration-300">
-                                  →
-                                </span>
-                              </Button>
-                            </Link>
+                        <div className="space-y-4 mt-auto">
+                          <div className="flex flex-wrap gap-2 justify-center min-h-[80px] items-center">
+                            {product.features
+                              .slice(0, 4)
+                              .map((feature, idx) => (
+                                <Link
+                                  key={idx}
+                                  href={getFeatureRoute(`feature-${idx}`)}
+                                  className="inline-block"
+                                >
+                                  <Badge
+                                    variant="secondary"
+                                    className="bg-secondary/10 text-secondary border border-secondary/20 group-hover:bg-secondary group-hover:text-secondary-foreground transition-all duration-200 cursor-pointer text-sm px-3 py-1"
+                                    data-testid={`badge-${feature.toLowerCase().replace(/\s+/g, "-")}`}
+                                  >
+                                    {feature}
+                                  </Badge>
+                                </Link>
+                              ))}
+                          </div>
+
+                          <div className="pt-4 border-t border-border">
+                            <div className="flex items-center justify-center">
+                              <Link href={`/products/${product.id}`}>
+                                <Button
+                                  variant="ghost"
+                                  className="text-secondary hover:bg-transparent hover:text-secondary p-0"
+                                >
+                                  {t("common:buttons.viewDetails")}{" "}
+                                  <span className="ms-2 inline-block transition-transform duration-300 group-hover:translate-x-2 rtl:group-hover:-translate-x-2">
+                                    <span className="ltr:inline rtl:hidden">
+                                      →
+                                    </span>
+                                    <span className="ltr:hidden rtl:inline">
+                                      ←
+                                    </span>
+                                  </span>
+                                </Button>
+                              </Link>
+                            </div>
                           </div>
                         </div>
-                      </div>
-                    </CardContent>
-                  </Card>
+                      </CardContent>
+                    </Card>
                   </motion.div>
                 </AnimatedSection>
               );
@@ -432,16 +481,16 @@ export default function Products() {
         <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8 text-center">
           <AnimatedSection animation="fade-in-up">
             <h2 className="text-3xl md:text-4xl font-bold mb-6">
-              {t('pages:products.cta.needExpertSolutions')}
+              {t("pages:products.cta.needExpertSolutions")}
             </h2>
             <p className="text-xl mb-8 opacity-90 max-w-2xl mx-auto">
-              {t('pages:products.cta.expertDescription')}
+              {t("pages:products.cta.expertDescription")}
             </p>
             <div className="flex flex-col sm:flex-row justify-center gap-2 sm:gap-3 md:gap-4 max-w-md mx-auto px-2 sm:px-0">
               <Link href="/contact">
                 <Button className="bg-secondary hover:bg-secondary/90 text-secondary-foreground px-8 py-3 text-lg font-semibold w-full sm:w-auto">
                   <Phone className="mr-2 w-5 h-5" />
-                  {t('common:buttons.contactExpert')}
+                  {t("common:buttons.contactExpert")}
                 </Button>
               </Link>
               <Link href="/quote">
@@ -450,7 +499,7 @@ export default function Products() {
                   className="border-2 border-border text-foreground hover:bg-foreground hover:text-background px-8 py-3 text-lg font-semibold w-full sm:w-auto"
                 >
                   <Mail className="mr-2 w-5 h-5" />
-                  {t('common:buttons.getQuote')}
+                  {t("common:buttons.getQuote")}
                 </Button>
               </Link>
             </div>
