@@ -1,8 +1,6 @@
 import { SEO } from "@/lib/seo";
 import { Link } from "wouter";
 import { useTranslation } from "react-i18next";
-import { routeRegistry } from "@/lib/route-registry";
-import { useMemo } from "react";
 import {
   Building2,
   FileText,
@@ -50,7 +48,489 @@ import {
   Download,
 } from "lucide-react";
 
-// Icon mapping for dynamic routing
+// Types for static sitemap data
+interface SitemapItem {
+  path: string;
+  title: string;
+  description: string;
+  icon?: string;
+}
+
+interface ProductCategory {
+  path: string;
+  title: string;
+  description: string;
+  icon?: string;
+  products: SitemapItem[];
+}
+
+// Static route data
+const MAIN_ROUTES: SitemapItem[] = [
+  {
+    path: "/",
+    title: "home",
+    description: "homeDescription",
+    icon: "Home"
+  },
+  {
+    path: "/about",
+    title: "aboutUs",
+    description: "aboutUsDescription",
+    icon: "User"
+  },
+  {
+    path: "/contact",
+    title: "contact",
+    description: "contactDescription",
+    icon: "Mail"
+  },
+  {
+    path: "/gallery",
+    title: "gallery",
+    description: "galleryDescription",
+    icon: "Camera"
+  },
+  {
+    path: "/career",
+    title: "career",
+    description: "careerDescription",
+    icon: "Briefcase"
+  }
+];
+
+const SERVICE_ROUTES: SitemapItem[] = [
+  {
+    path: "/services",
+    title: "ourServices",
+    description: "ourServicesDescription",
+    icon: "Settings"
+  },
+  {
+    path: "/services-category/installation-commissioning",
+    title: "installationCommissioning",
+    description: "installationCommissioningDescription",
+    icon: "Wrench"
+  },
+  {
+    path: "/services-category/maintenance-repair",
+    title: "maintenanceRepair",
+    description: "maintenanceRepairDescription",
+    icon: "Wrench"
+  },
+  {
+    path: "/services-category/calibration-testing",
+    title: "calibrationTesting",
+    description: "calibrationTestingDescription",
+    icon: "Gauge"
+  },
+  {
+    path: "/services-category/consultation-training",
+    title: "consultationTraining",
+    description: "consultationTrainingDescription",
+    icon: "User"
+  },
+  {
+    path: "/services-category/custom-solutions",
+    title: "customSolutions",
+    description: "customSolutionsDescription",
+    icon: "Settings"
+  },
+  {
+    path: "/services-category/supply-chain-management",
+    title: "supplyChainManagement",
+    description: "supplyChainManagementDescription",
+    icon: "Truck"
+  },
+  {
+    path: "/services-category/technical-support",
+    title: "technicalSupport",
+    description: "technicalSupportDescription",
+    icon: "Shield"
+  },
+  {
+    path: "/services-category/solar-epc",
+    title: "solarEPC",
+    description: "solarEPCDescription",
+    icon: "Sun"
+  },
+  {
+    path: "/projects",
+    title: "projects",
+    description: "projectsDescription",
+    icon: "Briefcase"
+  }
+];
+
+const PRODUCT_CATEGORIES: ProductCategory[] = [
+  {
+    path: "/products/instrumentation-components",
+    title: "instrumentationComponents",
+    description: "instrumentationComponentsDescription",
+    icon: "Gauge",
+    products: [
+      {
+        path: "/products/sensors",
+        title: "sensors",
+        description: "sensorsDescription",
+        icon: "Thermometer"
+      },
+      {
+        path: "/products/transmitters",
+        title: "transmitters",
+        description: "transmittersDescription",
+        icon: "Radio"
+      },
+      {
+        path: "/products/controllers",
+        title: "controllers",
+        description: "controllersDescription",
+        icon: "Cpu"
+      },
+      {
+        path: "/products/switches",
+        title: "switches",
+        description: "switchesDescription",
+        icon: "ToggleLeft"
+      },
+      {
+        path: "/products/valves",
+        title: "valves",
+        description: "valvesDescription",
+        icon: "Gauge"
+      },
+      {
+        path: "/products/analyzers",
+        title: "analyzers",
+        description: "analyzersDescription",
+        icon: "FlaskConical"
+      },
+      {
+        path: "/products/signal-conditioners",
+        title: "signalConditioners",
+        description: "signalConditionersDescription",
+        icon: "Zap"
+      }
+    ]
+  },
+  {
+    path: "/products/electrical-components",
+    title: "electricalComponents",
+    description: "electricalComponentsDescription",
+    icon: "Zap",
+    products: [
+      {
+        path: "/products/cables-wires",
+        title: "cablesWires",
+        description: "cablesWiresDescription",
+        icon: "Cable"
+      },
+      {
+        path: "/products/connectors-terminals",
+        title: "connectorsTerminals",
+        description: "connectorsTerminalsDescription",
+        icon: "Zap"
+      },
+      {
+        path: "/products/circuit-breakers-fuses",
+        title: "circuitBreakersFuses",
+        description: "circuitBreakersFusesDescription",
+        icon: "Shield"
+      },
+      {
+        path: "/products/power-supplies",
+        title: "powerSupplies",
+        description: "powerSuppliesDescription",
+        icon: "Power"
+      },
+      {
+        path: "/products/enclosures-cabinets",
+        title: "enclosuresCabinets",
+        description: "enclosuresCabinetsDescription",
+        icon: "Shield"
+      },
+      {
+        path: "/products/heating-elements-appliances",
+        title: "heatingElementsAppliances",
+        description: "heatingElementsAppliancesDescription",
+        icon: "Zap"
+      },
+      {
+        path: "/products/surge-protectors",
+        title: "surgeProtectors",
+        description: "surgeProtectorsDescription",
+        icon: "Zap"
+      },
+      {
+        path: "/products/grounding-systems",
+        title: "groundingSystems",
+        description: "groundingSystemsDescription",
+        icon: "Zap"
+      }
+    ]
+  },
+  {
+    path: "/products/measurement-instruments",
+    title: "measurementInstruments",
+    description: "measurementInstrumentsDescription",
+    icon: "Activity",
+    products: [
+      {
+        path: "/products/multimeters",
+        title: "multimeters",
+        description: "multimetersDescription",
+        icon: "Zap"
+      },
+      {
+        path: "/products/oscilloscopes",
+        title: "oscilloscopes",
+        description: "oscilloscopesDescription",
+        icon: "BarChart3"
+      },
+      {
+        path: "/products/spectrum-analyzers",
+        title: "spectrumAnalyzers",
+        description: "spectrumAnalyzersDescription",
+        icon: "Search"
+      },
+      {
+        path: "/products/power-quality-analyzers",
+        title: "powerQualityAnalyzers",
+        description: "powerQualityAnalyzersDescription",
+        icon: "Activity"
+      },
+      {
+        path: "/products/calibration-equipment",
+        title: "calibrationEquipment",
+        description: "calibrationEquipmentDescription",
+        icon: "Settings"
+      }
+    ]
+  },
+  {
+    path: "/products/solar-products",
+    title: "solarProducts",
+    description: "solarProductsDescription",
+    icon: "Sun",
+    products: [
+      {
+        path: "/products/solar-panels",
+        title: "solarPanels",
+        description: "solarPanelsDescription",
+        icon: "Sun"
+      },
+      {
+        path: "/products/solar-inverters",
+        title: "solarInverters",
+        description: "solarInvertersDescription",
+        icon: "Zap"
+      },
+      {
+        path: "/products/solar-charge-controllers",
+        title: "solarChargeControllers",
+        description: "solarChargeControllersDescription",
+        icon: "Battery"
+      },
+      {
+        path: "/products/solar-batteries-energy-storage",
+        title: "solarBatteriesEnergyStorage",
+        description: "solarBatteriesEnergyStorageDescription",
+        icon: "Battery"
+      },
+      {
+        path: "/products/mounting-structures-racking",
+        title: "mountingStructuresRacking",
+        description: "mountingStructuresRackingDescription",
+        icon: "Building2"
+      }
+    ]
+  },
+  {
+    path: "/products/automation-control-systems",
+    title: "automationControlSystems",
+    description: "automationControlSystemsDescription",
+    icon: "Cpu",
+    products: [
+      {
+        path: "/products/plcs",
+        title: "plcs",
+        description: "plcsDescription",
+        icon: "Cpu"
+      },
+      {
+        path: "/products/scada",
+        title: "scada",
+        description: "scadaDescription",
+        icon: "Monitor"
+      },
+      {
+        path: "/products/dcs",
+        title: "dcs",
+        description: "dcsDescription",
+        icon: "Network"
+      },
+      {
+        path: "/products/hmi",
+        title: "hmi",
+        description: "hmiDescription",
+        icon: "Monitor"
+      }
+    ]
+  },
+  {
+    path: "/products/safety-protective-devices",
+    title: "safetyProtectiveDevices",
+    description: "safetyProtectiveDevicesDescription",
+    icon: "Shield",
+    products: [
+      {
+        path: "/products/safety-equipment",
+        title: "safetyEquipment",
+        description: "safetyEquipmentDescription",
+        icon: "Shield"
+      },
+      {
+        path: "/products/safety-relays-switches",
+        title: "safetyRelaysSwitches",
+        description: "safetyRelaysSwitchesDescription",
+        icon: "ToggleLeft"
+      },
+      {
+        path: "/products/intrinsically-safe-equipment",
+        title: "intrinsicallySafeEquipment",
+        description: "intrinsicallySafeEquipmentDescription",
+        icon: "ShieldCheck"
+      }
+    ]
+  },
+  {
+    path: "/products/mechanical-pumps-spares",
+    title: "mechanicalPumpsSpares",
+    description: "mechanicalPumpsSparesDescription",
+    icon: "Truck",
+    products: [
+      {
+        path: "/products/centrifugal-pumps",
+        title: "centrifugalPumps",
+        description: "centrifugalPumpsDescription",
+        icon: "Truck"
+      },
+      {
+        path: "/products/diaphragm-pumps",
+        title: "diaphragmPumps",
+        description: "diaphragmPumpsDescription",
+        icon: "Truck"
+      },
+      {
+        path: "/products/gear-pumps",
+        title: "gearPumps",
+        description: "gearPumpsDescription",
+        icon: "Cog"
+      },
+      {
+        path: "/products/pump-parts-spares",
+        title: "pumpPartsSpares",
+        description: "pumpPartsSparesDescription",
+        icon: "Wrench"
+      }
+    ]
+  },
+  {
+    path: "/products/industrial-tools-tackles",
+    title: "industrialToolsTackles",
+    description: "industrialToolsTacklesDescription",
+    icon: "Hammer",
+    products: [
+      {
+        path: "/products/hand-tools",
+        title: "handTools",
+        description: "handToolsDescription",
+        icon: "Hammer"
+      },
+      {
+        path: "/products/power-tools",
+        title: "powerTools",
+        description: "powerToolsDescription",
+        icon: "Drill"
+      },
+      {
+        path: "/products/cutting-tools",
+        title: "cuttingTools",
+        description: "cuttingToolsDescription",
+        icon: "Scissors"
+      },
+      {
+        path: "/products/lifting-equipment",
+        title: "liftingEquipment",
+        description: "liftingEquipmentDescription",
+        icon: "Move"
+      }
+    ]
+  },
+  {
+    path: "/products/bldc",
+    title: "bldcMotors",
+    description: "bldcMotorsDescription",
+    icon: "Zap",
+    products: [
+      {
+        path: "/products/bldc-ceiling-fan",
+        title: "bldcCeilingFan",
+        description: "bldcCeilingFanDescription",
+        icon: "Fan"
+      },
+      {
+        path: "/products/bldc-cooler-exhaust-motor",
+        title: "bldcCoolerExhaustMotor",
+        description: "bldcCoolerExhaustMotorDescription",
+        icon: "Wind"
+      },
+      {
+        path: "/products/bldc-submersible-surface-pump",
+        title: "bldcSubmersibleSurfacePump",
+        description: "bldcSubmersibleSurfacePumpDescription",
+        icon: "Droplets"
+      },
+      {
+        path: "/products/bldc-table-fan-wall-fan-motor",
+        title: "bldcTableFanWallFanMotor",
+        description: "bldcTableFanWallFanMotorDescription",
+        icon: "Fan"
+      }
+    ]
+  }
+];
+
+const RESOURCES_ROUTES: SitemapItem[] = [
+  {
+    path: "/quote",
+    title: "requestQuote",
+    description: "requestQuoteDescription",
+    icon: "Calculator"
+  },
+  {
+    path: "/portfolio-download",
+    title: "downloadPortfolio",
+    description: "downloadPortfolioDescription",
+    icon: "Download"
+  },
+  {
+    path: "/news",
+    title: "newsUpdates",
+    description: "newsUpdatesDescription",
+    icon: "Newspaper"
+  }
+];
+
+const LEGAL_ROUTES: SitemapItem[] = [
+  {
+    path: "/sitemap",
+    title: "sitemap",
+    description: "sitemapDescription",
+    icon: "MapPin"
+  }
+];
+
+// Icon mapping for static routing
 const iconMap: Record<string, any> = {
   Home: HomeIcon,
   User,
@@ -100,44 +580,35 @@ const iconMap: Record<string, any> = {
 export default function Sitemap() {
   const { t } = useTranslation(["pages", "common"]);
 
-  // Get dynamic site structure from route registry
-  const siteStructure = useMemo(() => {
-    const publicRoutes = routeRegistry.getPublicRoutes();
-
-    return {
-      main: {
-        section: t("sitemap.sections.mainPages", { ns: "common" }),
-        icon: <HomeIcon className="w-5 h-5 text-primary" />,
-        routes: publicRoutes.filter((route) => route.category === "main"),
-      },
-      services: {
-        section: t("sitemap.sections.servicesProjects", { ns: "common" }),
-        icon: <Settings className="w-5 h-5 text-primary" />,
-        routes: publicRoutes.filter((route) => route.category === "services"),
-      },
-      products: {
-        section: t("sitemap.sections.productCategories", { ns: "common" }),
-        icon: <Package className="w-5 h-5 text-primary" />,
-        routes: publicRoutes.filter((route) => route.category === "products"),
-        categories: publicRoutes.filter(
-          (route) => route.category === "product-categories",
-        ),
-        subcategories: publicRoutes.filter(
-          (route) => route.category === "product-subcategories",
-        ),
-      },
-      resources: {
-        section: t("sitemap.sections.resourcesTools", { ns: "common" }),
-        icon: <Calculator className="w-5 h-5 text-primary" />,
-        routes: publicRoutes.filter((route) => route.category === "resources"),
-      },
-      legal: {
-        section: t("sitemap.sections.legalInformation", { ns: "common" }),
-        icon: <FileText className="w-5 h-5 text-primary" />,
-        routes: publicRoutes.filter((route) => route.category === "legal"),
-      },
-    };
-  }, [t]);
+  // Static site structure
+  const siteStructure = {
+    main: {
+      section: t("sitemap.sections.mainPages", { ns: "common" }),
+      icon: <HomeIcon className="w-5 h-5 text-primary" />,
+      routes: MAIN_ROUTES,
+    },
+    services: {
+      section: t("sitemap.sections.servicesProjects", { ns: "common" }),
+      icon: <Settings className="w-5 h-5 text-primary" />,
+      routes: SERVICE_ROUTES,
+    },
+    products: {
+      section: t("sitemap.sections.productCategories", { ns: "common" }),
+      icon: <Package className="w-5 h-5 text-primary" />,
+      routes: [{ path: "/products", title: "allProducts", description: "allProductsDescription", icon: "Package" }],
+      categories: PRODUCT_CATEGORIES,
+    },
+    resources: {
+      section: t("sitemap.sections.resourcesTools", { ns: "common" }),
+      icon: <Calculator className="w-5 h-5 text-primary" />,
+      routes: RESOURCES_ROUTES,
+    },
+    legal: {
+      section: t("sitemap.sections.legalInformation", { ns: "common" }),
+      icon: <FileText className="w-5 h-5 text-primary" />,
+      routes: LEGAL_ROUTES,
+    },
+  };
 
   const getIcon = (iconName: string, className: string = "w-4 h-4") => {
     const IconComponent = iconMap[iconName];
@@ -176,8 +647,7 @@ export default function Sitemap() {
   );
 
   const renderProductCategory = (
-    category: any,
-    subcategories: any[],
+    category: ProductCategory,
     categoryIndex: number,
   ) => (
     <div key={categoryIndex} className="ml-4">
@@ -192,13 +662,13 @@ export default function Sitemap() {
         </h4>
         <div className="flex-1 border-b border-border/30"></div>
         <span className="text-xs bg-primary/10 text-primary px-2 py-1 rounded-full">
-          {subcategories.length} products
+          {category.products.length} products
         </span>
       </div>
 
       {/* Category Products */}
       <div className="ml-6 flex flex-col gap-2">
-        {subcategories.map((product, productIndex) => (
+        {category.products.map((product, productIndex) => (
           <Link key={productIndex} href={product.path}>
             <div className="group block p-3 rounded-lg border border-border/50 hover:border-primary/20 hover:bg-accent/30 transition-all duration-200 cursor-pointer">
               <div className="flex items-center gap-3">
@@ -319,17 +789,8 @@ export default function Sitemap() {
                   </h3>
                   <div className="flex flex-col gap-6">
                     {siteStructure.products.categories.map(
-                      (category, categoryIndex) => {
-                        const subcategories =
-                          siteStructure.products.subcategories.filter(
-                            (subcat) => subcat.parentRoute === category.path,
-                          );
-                        return renderProductCategory(
-                          category,
-                          subcategories,
-                          categoryIndex,
-                        );
-                      },
+                      (category, categoryIndex) => 
+                        renderProductCategory(category, categoryIndex)
                     )}
                   </div>
                 </div>
