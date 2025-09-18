@@ -479,23 +479,250 @@ export const categories: Category[] = [
     ]
   },
   {
+    key: "instrumentation-components",
+    translationKey: "products:categories.instrumentationComponents",
+    subcategories: [
+      {
+        key: "sensors",
+        translationKey: "products:subcategories.sensors",
+        products: ["sensor-temperature-rtd-thermocouple", "sensor-pressure-strain-gauge", "sensor-flow-electromagnetic-ultrasonic"]
+      },
+      {
+        key: "transmitters",
+        translationKey: "products:subcategories.transmitters",
+        products: ["transmitter-pressure-hart-communication", "transmitter-temperature-wireless-monitoring", "transmitter-level-ultrasonic-radar"]
+      },
+      {
+        key: "controllers",
+        translationKey: "products:subcategories.controllers",
+        products: ["automation-controllers-recorders"]
+      },
+      {
+        key: "switches",
+        translationKey: "products:subcategories.switches",
+        products: ["switch-pushbutton-illuminated", "switch-selector-rotary", "switch-emergency-stop-safety"]
+      },
+      {
+        key: "valves",
+        translationKey: "products:subcategories.valves",
+        products: []
+      },
+      {
+        key: "analyzers",
+        translationKey: "products:subcategories.analyzers",
+        products: ["analyzer-gas-chromatography-spectrometry", "analyzer-liquid-ph-conductivity", "analyzer-oxygen-carbon-dioxide"]
+      },
+      {
+        key: "signal-conditioners",
+        translationKey: "products:subcategories.signalConditioners",
+        products: ["signal-conditioner-thermocouple-converter", "signal-conditioner-isolation-amplifier", "signal-conditioner-current-loop-converter", "automation-signal-conditioners"]
+      }
+    ]
+  },
+  {
     key: "electrical-components",
     translationKey: "products:categories.electricalComponents",
     subcategories: [
       {
         key: "cables-wires",
         translationKey: "products:subcategories.cablesWires",
-        products: ["instrumentation-cables", "power-distribution-cables", "communication-cables"]
+        products: ["instrumentation-cables", "power-distribution-cables", "communication-cables", "cable-instrumentation-shielded", "cable-power-distribution-medium-voltage", "cable-communication-fieldbus-ethernet"]
       },
       {
         key: "circuit-breakers-fuses",
         translationKey: "products:subcategories.circuitBreakers",
-        products: ["mcb-circuit-breakers", "mccb-circuit-breakers", "industrial-fuses"]
+        products: ["mcb-circuit-breakers", "mccb-circuit-breakers", "industrial-fuses", "circuit-breaker-mcb-miniature", "circuit-breaker-mccb-molded-case", "electrical-fuses-industrial-protection"]
       },
       {
         key: "connectors-terminals",
         translationKey: "products:subcategories.connectorsTerminals",
-        products: ["terminal-blocks", "industrial-connectors", "signal-connectors"]
+        products: ["terminal-blocks", "industrial-connectors", "signal-connectors", "connector-terminal-blocks-industrial", "connector-industrial-heavy-duty", "connector-signal-precision-miniature"]
+      },
+      {
+        key: "power-supplies",
+        translationKey: "products:subcategories.powerSupplies",
+        products: ["power-supply-dc-regulated-laboratory", "power-supply-industrial-switched-mode", "power-supply-ups-uninterruptible"]
+      },
+      {
+        key: "enclosures-cabinets",
+        translationKey: "products:subcategories.enclosuresCabinets",
+        products: ["enclosure-control-panel-cabinets", "enclosure-electrical-nema-rated", "enclosure-junction-boxes-weatherproof"]
+      },
+      {
+        key: "heating-elements-appliances",
+        translationKey: "products:subcategories.heatingElements",
+        products: ["heating-element-industrial-cartridge-band", "heating-electric-ovens-furnaces", "heating-heat-tracing-systems"]
+      }
+    ]
+  },
+  {
+    key: "measurement-instruments",
+    translationKey: "products:categories.measurementInstruments",
+    subcategories: [
+      {
+        key: "multimeters",
+        translationKey: "products:subcategories.multimeters",
+        products: ["multimeter-fluke-87v-industrial", "multimeter-keysight-u1272a-handheld", "multimeter-yokogawa-ty720-digital"]
+      },
+      {
+        key: "oscilloscopes",
+        translationKey: "products:subcategories.oscilloscopes",
+        products: ["oscilloscope-keysight-infiniivision-3000t-x-series", "oscilloscope-rohde-schwarz-rtm3000", "oscilloscope-tektronix-mdo3000-mixed-domain"]
+      },
+      {
+        key: "spectrum-analyzers",
+        translationKey: "products:subcategories.spectrumAnalyzers",
+        products: ["spectrum-analyzer-keysight-n9020a-mxa", "spectrum-analyzer-rohde-schwarz-fsw", "spectrum-analyzer-anritsu-ms2720t-master"]
+      },
+      {
+        key: "power-quality-analyzers",
+        translationKey: "products:subcategories.powerQualityAnalyzers",
+        products: ["power-quality-analyzer-fluke-435-ii", "power-quality-analyzer-hioki-pw3390", "power-quality-analyzer-dranetz-hdpq"]
+      },
+      {
+        key: "calibration-equipment",
+        translationKey: "products:subcategories.calibrationEquipment",
+        products: ["calibrator-pressure-dead-weight-tester", "calibrator-temperature-precision-reference", "calibrator-process-multifunction"]
+      }
+    ]
+  },
+  {
+    key: "solar-products",
+    translationKey: "products:categories.solarProducts",
+    subcategories: [
+      {
+        key: "solar-panels",
+        translationKey: "products:subcategories.solarPanels",
+        products: []
+      },
+      {
+        key: "solar-inverters",
+        translationKey: "products:subcategories.solarInverters",
+        products: []
+      },
+      {
+        key: "mounting-structures-racking",
+        translationKey: "products:subcategories.mountingStructures",
+        products: []
+      },
+      {
+        key: "solar-charge-controllers",
+        translationKey: "products:subcategories.solarChargeControllers",
+        products: []
+      },
+      {
+        key: "solar-batteries-energy-storage",
+        translationKey: "products:subcategories.solarBatteries",
+        products: []
+      }
+    ]
+  },
+  {
+    key: "automation-control-systems",
+    translationKey: "products:categories.automationControl",
+    subcategories: [
+      {
+        key: "plcs",
+        translationKey: "products:subcategories.plcs",
+        products: ["plc-siemens-simatic-s7-1200", "plc-allen-bradley-compactlogix-5380", "plc-schneider-electric-modicon-m580"]
+      },
+      {
+        key: "scada",
+        translationKey: "products:subcategories.scada",
+        products: ["scada-siemens-wincc", "scada-ge-ifix", "scada-wonderware-system-platform"]
+      },
+      {
+        key: "dcs",
+        translationKey: "products:subcategories.dcs",
+        products: ["dcs-abb-system-800xa", "dcs-emerson-deltav", "dcs-honeywell-experion-pks"]
+      },
+      {
+        key: "hmi",
+        translationKey: "products:subcategories.hmi",
+        products: ["hmi-panel-mount", "hmi-operator-interface-station", "hmi-mobile"]
+      }
+    ]
+  },
+  {
+    key: "safety-protective-devices",
+    translationKey: "products:categories.safetyProtective",
+    subcategories: [
+      {
+        key: "surge-protectors",
+        translationKey: "products:subcategories.surgeProtectors",
+        products: []
+      },
+      {
+        key: "grounding-systems",
+        translationKey: "products:subcategories.groundingSystems",
+        products: []
+      },
+      {
+        key: "safety-relays-switches",
+        translationKey: "products:subcategories.safetyRelays",
+        products: []
+      },
+      {
+        key: "intrinsically-safe-equipment",
+        translationKey: "products:subcategories.intrinsicallySafe",
+        products: []
+      }
+    ]
+  },
+  {
+    key: "mechanical-pumps-spares",
+    translationKey: "products:categories.mechanicalPumps",
+    subcategories: [
+      {
+        key: "centrifugal-pumps",
+        translationKey: "products:subcategories.centrifugalPumps",
+        products: ["centrifugal-pump-end-suction", "centrifugal-pump-multi-stage", "centrifugal-pump-chemical-process"]
+      },
+      {
+        key: "diaphragm-pumps",
+        translationKey: "products:subcategories.diaphragmPumps",
+        products: ["diaphragm-pump-air-operated", "diaphragm-pump-electric-metering", "diaphragm-pump-hydraulic-high-pressure"]
+      },
+      {
+        key: "gear-pumps",
+        translationKey: "products:subcategories.gearPumps",
+        products: ["gear-pump-external-positive-displacement", "gear-pump-internal-smooth-flow", "gear-pump-magnetic-drive-sealless"]
+      },
+      {
+        key: "pump-parts-spares",
+        translationKey: "products:subcategories.pumpPartsSpares",
+        products: []
+      }
+    ]
+  },
+  {
+    key: "industrial-tools-tackles",
+    translationKey: "products:categories.industrialTools",
+    subcategories: [
+      {
+        key: "hand-tools",
+        translationKey: "products:subcategories.handTools",
+        products: []
+      },
+      {
+        key: "power-tools",
+        translationKey: "products:subcategories.powerTools",
+        products: []
+      },
+      {
+        key: "cutting-tools",
+        translationKey: "products:subcategories.cuttingTools",
+        products: []
+      },
+      {
+        key: "lifting-equipment",
+        translationKey: "products:subcategories.liftingEquipment",
+        products: []
+      },
+      {
+        key: "safety-equipment",
+        translationKey: "products:subcategories.safetyEquipment",
+        products: []
       }
     ]
   }
