@@ -1246,7 +1246,7 @@ export const CLIENT_LOGOS = [
   {
     id: "dls",
     name: "DLS India",
-    logo: "https://dlsindia.co.in/wp-content/uploads/2021/02/DLS_Logo_Transparent.png",
+    logo: "/attached_assets/DLS-Short-Logo_1758191946430.png",
     fallback: corporateClientImage,
   },
   {
