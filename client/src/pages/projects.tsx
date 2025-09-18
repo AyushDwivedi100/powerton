@@ -415,10 +415,7 @@ export default function Projects() {
                         <CardHeader className="p-0 mb-4">
                           <div className="flex items-start justify-between mb-2">
                             <CardTitle className="text-xl md:text-2xl font-semibold text-foreground line-clamp-2">
-                              {t(
-                                `pages:projects.items.${project.id}.title`,
-                                project.title,
-                              )}
+                              {t(`pages:projects.items.${project.id}.title`)}
                             </CardTitle>
                             <div className="flex items-center gap-2 ml-2">
                               {project.featured && (
@@ -432,10 +429,7 @@ export default function Projects() {
                           <div className="flex items-center gap-2 text-sm text-muted-foreground">
                             <Building className="w-4 h-4" />
                             <span>
-                              {t(
-                                `pages:projects.items.${project.id}.client`,
-                                project.client,
-                              )}
+                              {t(`pages:projects.items.${project.id}.client`)}
                             </span>
                           </div>
                         </CardHeader>
@@ -444,7 +438,6 @@ export default function Projects() {
                           <p className="text-base text-muted-foreground line-clamp-3 leading-relaxed">
                             {t(
                               `pages:projects.items.${project.id}.description`,
-                              project.description,
                             )}
                           </p>
 
@@ -455,7 +448,6 @@ export default function Projects() {
                                 <span>
                                   {t(
                                     `pages:projects.items.${project.id}.location`,
-                                    project.location,
                                   )}
                                 </span>
                               </div>
@@ -466,7 +458,6 @@ export default function Projects() {
                                 >
                                   {t(
                                     `pages:projects.statuses.${project.status.toLowerCase().replace(/\s+/g, "")}`,
-                                    project.status,
                                   )}
                                 </span>
                               </div>
@@ -478,7 +469,6 @@ export default function Projects() {
                                 <span>
                                   {t(
                                     `pages:projects.items.${project.id}.duration`,
-                                    project.duration,
                                   )}
                                 </span>
                               </div>
@@ -494,7 +484,6 @@ export default function Projects() {
                               >
                                 {t(
                                   `pages:projects.categories.${project.category.toLowerCase().replace(/\s+/g, "")}`,
-                                  project.category,
                                 )}
                               </Badge>
                               <Badge
@@ -514,7 +503,6 @@ export default function Projects() {
                                 >
                                   {t(
                                     `pages:projects.technologies.${tech.toLowerCase().replace(/\s+/g, "")}`,
-                                    tech,
                                   )}
                                 </Badge>
                               ))}
@@ -580,14 +568,16 @@ export default function Projects() {
                         <CardContent className="p-8">
                           <div className="flex items-start justify-between mb-2">
                             <h3 className="text-xl md:text-2xl font-semibold text-foreground">
-                              {project.title}
+                              {t(`pages:projects.items.${project.id}.title`)}
                             </h3>
                             <Badge className="bg-gradient-to-r from-yellow-400 to-orange-500 text-white text-xs px-2 py-1 ml-2">
-                              Featured
+                              {t("pages:projects.featured")}
                             </Badge>
                           </div>
                           <p className="text-base text-muted-foreground mb-6 leading-relaxed">
-                            {project.description}
+                            {t(
+                              `pages:projects.items.${project.id}.description`,
+                            )}
                           </p>
 
                           <div className="space-y-4 mb-6">
@@ -602,7 +592,9 @@ export default function Projects() {
                                     variant="outline"
                                     className="text-sm px-4 py-2 bg-gray-100 text-gray-800 hover:bg-gray-200 cursor-pointer transition-colors border-gray-300"
                                   >
-                                    {highlight}
+                                    {t(
+                                      `pages:projects.highlights.${highlight.toLowerCase().replace(/\s+/g, "")}`,
+                                    )}
                                   </Badge>
                                 ),
                               )}
@@ -613,13 +605,17 @@ export default function Projects() {
                             <div className="flex items-start gap-4">
                               <MapPin className="w-5 h-5 flex-shrink-0 mt-0.5" />
                               <span className="leading-relaxed text-base">
-                                {project.location}
+                                {t(
+                                  `pages:projects.items.${project.id}.location`,
+                                )}
                               </span>
                             </div>
                             <div className="flex items-start gap-4">
                               <TrendingUp className="w-5 h-5 flex-shrink-0 mt-0.5" />
                               <span className="leading-relaxed text-base">
-                                {project.duration}
+                                {t(
+                                  `pages:projects.items.${project.id}.duration`,
+                                )}
                               </span>
                             </div>
                           </div>

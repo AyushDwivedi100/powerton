@@ -333,13 +333,9 @@
       "realtimemonitoring": "Monitoreo en Tiempo Real",
       "processoptimization": "Optimización de Procesos",
       "loadbalancing": "Equilibrio de Carga",
-      "remotecontrol": "Control Remoto",
-      "gridconnection": "Conexión a la Red",
-      "performanceoptimization": "Optimización del Rendimiento",
-      "maintenanceplanning": "Planificación del Mantenimiento",
-      "qualitycontrol": "Control de Calidad",
-      "automatedoperations": "Operaciones Automatizadas",
-      "remotemanagement": "Gestión Remota"
+      "protectionsystems": "Sistemas de Protección",
+      "energymanagement": "Gestión de la Energía",
+      "remotecontrol": "Control Remoto"
     }
   },
   "products": {
@@ -959,6 +955,10 @@
         "title": "Enfoque en la Innovación",
         "description": "Trabaje en tecnologías de vanguardia y soluciones innovadoras en automatización industrial."
       }
+    },
+    "whyJoinUs" : {
+      "title" : "¿Por Qué Unirse a Powerton Engineering?",
+      "description" : "Sea parte de un equipo dinámico que está dando forma al futuro de la automatización industrial y la ingeniería eléctrica"
     }
   },
   "seo": {

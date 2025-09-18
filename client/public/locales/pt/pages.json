@@ -328,18 +328,14 @@
       "powerplant": "Usina de Energia"
     },
     "highlights": {
-      "plcintegration": "Integração PLC",
+      "plcintegration": "Integração de CLP",
       "scadasystems": "Sistemas SCADA",
       "realtimemonitoring": "Monitoramento em Tempo Real",
       "processoptimization": "Otimização de Processo",
       "loadbalancing": "Balanceamento de Carga",
-      "remotecontrol": "Controle Remoto",
-      "gridconnection": "Conexão à Rede",
-      "performanceoptimization": "Otimização de Desempenho",
-      "maintenanceplanning": "Planejamento de Manutenção",
-      "qualitycontrol": "Controle de Qualidade",
-      "automatedoperations": "Operações Automatizadas",
-      "remotemanagement": "Gerenciamento Remoto"
+      "protectionsystems": "Sistemas de Proteção",
+      "energymanagement": "Gestão de Energia",
+      "remotecontrol": "Controle Remoto"
     }
   },
   "products": {
@@ -960,6 +956,10 @@
         "title": "Foco na Inovação",
         "description": "Trabalhe em tecnologias de ponta e soluções inovadoras em automação industrial."
       }
+    },
+    "whyJoinUs" : {
+      "title" : "Por Que Escolher a Powerton Engineering?",
+      "description" : "Faça parte de uma equipe dinâmica que está moldando o futuro da automação industrial e da engenharia elétrica"
     }
   },
   "seo": {

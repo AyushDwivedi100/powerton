@@ -1347,7 +1347,7 @@ export const PROJECTS = [
     highlights: [
       "PLC Integration",
       "SCADA Systems",
-      "Real-time Monitoring",
+      "RealTime Monitoring",
       "Process Optimization",
     ],
     results: {

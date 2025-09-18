@@ -276,7 +276,7 @@
         "location": "परियोजना स्थल टीबीडी",
         "duration": "आठ से बारह महीने"
       },
-      "smart-factory-demo": {
+      "smart-factory-progress": {
         "title": "डेमो: स्मार्ट फैक्ट्री एकीकरण",
         "client": "वर्तमान विकास ग्राहक",
         "description": "आईओटी कनेक्टिविटी, भविष्य कहनेवाला रखरखाव और उद्योग 4.0 क्षमताओं का प्रदर्शन करने वाला सतत स्मार्ट फैक्ट्री एकीकरण प्रदर्शन।",
@@ -328,18 +328,14 @@
       "powerplant": "बिजली संयंत्र"
     },
     "highlights": {
-      "plcintegration": "पीएलसी एकीकरण",
-      "scadasystems": "एससीएडीए सिस्टम",
-      "realtimemonitoring": "वास्तविक समय निगरानी",
-      "processoptimization": "प्रक्रिया अनुकूलन",
-      "loadbalancing": "भार संतुलन",
-      "remotecontrol": "रिमोट कंट्रोल",
-      "gridconnection": "ग्रिड कनेक्शन",
-      "performanceoptimization": "प्रदर्शन अनुकूलन",
-      "maintenanceplanning": "रखरखाव योजना",
-      "qualitycontrol": "गुणवत्ता नियंत्रण",
-      "automatedoperations": "स्वचालित संचालन",
-      "remotemanagement": "रिमोट प्रबंधन"
+      "plcintegration" : "पीएलसी एकीकरण",
+      "scadasystems" : "एससीएडीए सिस्टम",
+      "realtimemonitoring" : "वास्तविक समय निगरानी",
+      "processoptimization" : "प्रक्रिया अनुकूलन",
+      "loadbalancing" : "भार संतुलन",
+      "protectionsystems" : "सुरक्षा प्रणाली",
+      "energymanagement" : "ऊर्जा प्रबंधन",
+      "remotecontrol" : "रिमोट कंट्रोल"     
     }
   },
   "products": {
@@ -961,6 +957,10 @@
         "title": "नवाचार फोकस",
         "description": "औद्योगिक स्वचालन में अत्याधुनिक तकनीकों और नवीन समाधानों पर काम करें।"
       }
+    },
+    "whyJoinUs": {
+      "title": "पावरटन इंजीनियरिंग क्यों चुनें?",
+      "description": "एक गतिशील टीम का हिस्सा बनें जो औद्योगिक स्वचालन और विद्युत इंजीनियरिंग के भविष्य को आकार दे रही है"
     }
   },
   "seo": {

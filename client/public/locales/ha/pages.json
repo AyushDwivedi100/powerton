@@ -331,15 +331,11 @@
       "plcintegration": "Haɗin PLC",
       "scadasystems": "Tsarin SCADA",
       "realtimemonitoring": "Sa ido na Ainihi",
-      "processoptimization": "Haɓaka Tsari",
-      "loadbalancing": "Daidaita Kaya",
-      "remotecontrol": "Kula da Nesa",
-      "gridconnection": "Haɗin Grid",
-      "performanceoptimization": "Haɓaka Aiki",
-      "maintenanceplanning": "Shirye-shiryen Kulawa",
-      "qualitycontrol": "Kula da Inganci",
-      "automatedoperations": "Ayyukan atomatik",
-      "remotemanagement": "Gudanar da Nesa"
+      "processoptimization": "Inganta Tsari",
+      "loadbalancing": "Ma'aunin ɗaukar nauyi",
+      "protectionsystems": "Tsarin Kariyar",
+      "energymanagement": "Gudanar da Makamashi",
+      "remotecontrol": "Sarrafa Nesa"
     }
   },
   "products": {
@@ -960,6 +956,10 @@
         "title": "Mayar da Hankali ga Ƙirƙira",
         "description": "Yi aiki akan fasahohi masu yankan-kaifi da sabbin hanyoyin sarrafa masana'antu."
       }
+    },
+    "whyJoinUs" : {
+      "title" : "Me yasa Zaɓi Injiniya na Powerton?",
+      "description" : "Kasance wani ɓangare na ƙungiya mai ƙwazo da ke tsara makomar sarrafa masana'antu da injiniyan lantarki"
     }
   },
   "seo": {

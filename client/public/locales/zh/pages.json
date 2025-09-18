@@ -328,18 +328,14 @@
       "powerplant": "发电厂"
     },
     "highlights": {
-      "plcintegration": "PLC 集成",
-      "scadasystems": "SCADA 系统",
+      "plcintegration": "PLC集成",
+      "scadasystems": "SCADA系统",
       "realtimemonitoring": "实时监控",
       "processoptimization": "过程优化",
       "loadbalancing": "负载平衡",
-      "remotecontrol": "远程控制",
-      "gridconnection": "并网连接",
-      "performanceoptimization": "性能优化",
-      "maintenanceplanning": "维护计划",
-      "qualitycontrol": "质量控制",
-      "automatedoperations": "自动化运营",
-      "remotemanagement": "远程管理"
+      "protectionsystems": "保护系统",
+      "energymanagement": "能源管理",
+      "remotecontrol": "远程控制"
     }
   },
   "products": {
@@ -960,6 +956,10 @@
         "title": "创新重点",
         "description": "从事工业自动化领域的前沿技术和创新解决方案。"
       }
+    },
+    "whyJoinUs" : {
+      "title" : "为什么选择 Powerton Engineering？",
+      "description" : "加入一个充满活力的团队，共同塑造工业自动化和电气工程的未来"
     }
   },
   "seo": {

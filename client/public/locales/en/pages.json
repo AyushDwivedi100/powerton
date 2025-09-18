@@ -330,16 +330,12 @@
     "highlights": {
       "plcintegration": "PLC Integration",
       "scadasystems": "SCADA Systems",
-      "realtimemonitoring": "Real-time Monitoring",
+      "realtimemonitoring": "Real-Time Monitoring",
       "processoptimization": "Process Optimization",
       "loadbalancing": "Load Balancing",
-      "remotecontrol": "Remote Control",
-      "gridconnection": "Grid Connection",
-      "performanceoptimization": "Performance Optimization",
-      "maintenanceplanning": "Maintenance Planning",
-      "qualitycontrol": "Quality Control",
-      "automatedoperations": "Automated Operations",
-      "remotemanagement": "Remote Management"
+      "protectionsystems": "Protection Systems",
+      "energymanagement": "Energy Management",
+      "remotecontrol": "Remote Control"
     }
   },
   "products": {
@@ -960,6 +956,10 @@
         "title": "Innovation Focus",
         "description": "Work on cutting-edge technologies and innovative solutions in industrial automation."
       }
+    },
+    "whyJoinUs" : {
+      "title" : "Why Choose Powerton Engineering?",
+      "description" : "Be part of a dynamic team that is shaping the future of industrial automation and electrical engineering"
     }
   },
   "seo": {

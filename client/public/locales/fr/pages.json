@@ -332,14 +332,10 @@
       "scadasystems": "Systèmes SCADA",
       "realtimemonitoring": "Surveillance en temps réel",
       "processoptimization": "Optimisation des processus",
-      "loadbalancing": "Équilibrage de la charge",
+      "loadbalancing": "Équilibrage de charge",
+      "protectionsystems": "Systèmes de protection",
+      "energymanagement": "Gestion de l'énergie",
       "remotecontrol": "Télécommande",
-      "gridconnection": "Connexion au réseau",
-      "performanceoptimization": "Optimisation des performances",
-      "maintenanceplanning": "Planification de la maintenance",
-      "qualitycontrol": "Contrôle de la qualité",
-      "automatedoperations": "Opérations automatisées",
-      "remotemanagement": "Gestion à distance"
     }
   },
   "products": {
@@ -960,6 +956,10 @@
         "title": "Accent sur l'innovation",
         "description": "Travaillez sur des technologies de pointe et des solutions novatrices en automatisation industrielle."
       }
+    },
+    "whyJoinUs" : {
+      "title" : "Pourquoi choisir Powerton Engineering ?",
+      "description" : "Faites partie d'une équipe dynamique qui façonne l'avenir de l'automatisation industrielle et du génie électrique"
     }
   },
   "seo": {

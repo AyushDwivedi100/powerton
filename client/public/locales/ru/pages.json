@@ -331,15 +331,11 @@
       "plcintegration": "Интеграция ПЛК",
       "scadasystems": "Системы SCADA",
       "realtimemonitoring": "Мониторинг в реальном времени",
-      "processoptimization": "Оптимизация процессов",
+      "processoptimization": "Оптимизация процесса",
       "loadbalancing": "Балансировка нагрузки",
-      "remotecontrol": "Дистанционное управление",
-      "gridconnection": "Подключение к сети",
-      "performanceoptimization": "Оптимизация производительности",
-      "maintenanceplanning": "Планирование технического обслуживания",
-      "qualitycontrol": "Контроль качества",
-      "automatedoperations": "Автоматизированные операции",
-      "remotemanagement": "Удаленное управление"
+      "protectionsystems": "Системы защиты",
+      "energymanagement": "Управление энергией",
+      "remotecontrol": "Удаленное управление"
     }
   },
   "products": {
@@ -960,6 +956,10 @@
         "title": "Сосредоточенность на инновациях",
         "description": "Работа с передовыми технологиями и инновационными решениями в области промышленной автоматизации."
       }
+    },
+    "whyJoinUs" : {
+      "title" : "Почему стоит выбрать Powerton Engineering?",
+      "description" : "Станьте частью динамичной команды, формирующей будущее промышленной автоматизации и электротехники."
     }
   },
   "seo": {

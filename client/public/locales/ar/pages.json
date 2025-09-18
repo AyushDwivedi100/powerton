@@ -330,16 +330,12 @@
     "highlights": {
       "plcintegration": "تكامل PLC",
       "scadasystems": "أنظمة SCADA",
-      "realtimemonitoring": "مراقبة في الوقت الحقيقي",
-      "processoptimization": "تحسين العملية",
+      "realtimemonitoring": "المراقبة في الوقت الفعلي",
+      "processoptimization": "تحسين العمليات",
       "loadbalancing": "موازنة التحميل",
-      "remotecontrol": "جهاز التحكم عن بعد",
-      "gridconnection": "اتصال الشبكة",
-      "performanceoptimization": "تحسين الأداء",
-      "maintenanceplanning": "تخطيط الصيانة",
-      "qualitycontrol": "مراقبة الجودة",
-      "automatedoperations": "العمليات الآلية",
-      "remotemanagement": "إدارة عن بعد"
+      "protectionsystems": "أنظمة الحماية",
+      "energymanagement": "إدارة الطاقة",
+      "remotecontrol": "التحكم عن بعد"
     }
   },
   "products": {
@@ -960,6 +956,10 @@
         "title": "التركيز على الابتكار",
         "description": "العمل على أحدث التقنيات والحلول المبتكرة في مجال الأتمتة الصناعية."
       }
+    },
+    "whyJoinUs" : {
+      "title" : "لماذا تنضم إلى Powerton Engineering؟",
+      "description" : "كن جزءًا من فريق ديناميكي يشكل مستقبل الأتمتة الصناعية والهندسة الكهربائية"
     }
   },
   "seo": {
