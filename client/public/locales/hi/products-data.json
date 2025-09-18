@@ -1,703 +1,703 @@
 {
   "surgeProtectors": {
     "acPower": {
-      "name": "AC Power Surge Protectors",
-      "description": "Transient voltage surge suppressors for AC power systems",
+      "name": "एसी पावर सर्ज प्रोटेक्टर",
+      "description": "एसी पावर सिस्टम के लिए क्षणिक वोल्टेज सर्ज सप्रेसर",
       "features": [
-        "Class I/II/III",
-        "MOV Technology",
-        "Status Indicators",
-        "DIN Rail Mount"
+        "क्लास I/II/III",
+        "एमओवी टेक्नोलॉजी",
+        "स्टेटस इंडिकेटर",
+        "डीआईएन रेल माउंट"
       ]
     },
     "dcSolar": {
-      "name": "DC Solar Surge Protectors",
-      "description": "DC surge protection devices for solar panel systems",
+      "name": "डीसी सोलर सर्ज प्रोटेक्टर",
+      "description": "सोलर पैनल सिस्टम के लिए डीसी सर्ज प्रोटेक्शन डिवाइस",
       "features": [
-        "1000V DC Rating",
-        "Type 1+2 Protection",
-        "Remote Indication",
-        "Quick Disconnect"
+        "1000V डीसी रेटिंग",
+        "टाइप 1+2 प्रोटेक्शन",
+        "रिमोट इंडिकेशन",
+        "क्विक डिस्कनेक्ट"
       ]
     },
     "signalLine": {
-      "name": "Signal Line Protectors",
-      "description": "Surge protection for communication and control lines",
+      "name": "सिग्नल लाइन प्रोटेक्टर",
+      "description": "संचार और नियंत्रण लाइनों के लिए सर्ज प्रोटेक्शन",
       "features": [
-        "Data Line Protection",
-        "Low Capacitance",
-        "Fast Response",
-        "Multiple Channels"
+        "डेटा लाइन प्रोटेक्शन",
+        "लो कैपेसिटेंस",
+        "फ़ास्ट रिस्पांस",
+        "मल्टीपल चैनल"
       ]
     }
   },
   "bldcCeilingFan": {
     "smart1200": {
-      "name": "Smart BLDC Ceiling Fan - 1200mm",
-      "description": "Energy-efficient smart ceiling fan with remote control",
+      "name": "स्मार्ट बीएलडीसी सीलिंग फैन - 1200mm",
+      "description": "रिमोट कंट्रोल के साथ ऊर्जा-कुशल स्मार्ट सीलिंग पंखा",
       "features": [
-        "28W Power Consumption",
-        "Remote Control",
-        "5 Speed Settings",
-        "Timer Function"
+        "28W पावर कंसम्पशन",
+        "रिमोट कंट्रोल",
+        "5 स्पीड सेटिंग",
+        "टाइमर फंक्शन"
       ]
     },
     "premium1400": {
-      "name": "Premium BLDC Ceiling Fan - 1400mm",
-      "description": "High-performance ceiling fan with LED lighting",
+      "name": "प्रीमियम बीएलडीसी सीलिंग फैन - 1400mm",
+      "description": "एलईडी लाइटिंग के साथ हाई-परफॉर्मेंस सीलिंग पंखा",
       "features": [
-        "35W Power Consumption",
-        "LED Light Integrated",
-        "Reversible Motor",
-        "Silent Operation"
+        "35W पावर कंसम्पशन",
+        "एलईडी लाइट इंटीग्रेटेड",
+        "रिवर्सिबल मोटर",
+        "साइलेंट ऑपरेशन"
       ]
     },
     "commercial1500": {
-      "name": "Commercial BLDC Ceiling Fan - 1500mm",
-      "description": "Heavy-duty ceiling fan for commercial applications",
+      "name": "कमर्शियल बीएलडीसी सीलिंग फैन - 1500mm",
+      "description": "कमर्शियल एप्लीकेशन के लिए हैवी-ड्यूटी सीलिंग पंखा",
       "features": [
-        "45W Power Consumption",
-        "Heavy-Duty Motor",
-        "High Air Flow",
-        "Durable Construction"
+        "45W पावर कंसम्पशन",
+        "हैवी-ड्यूटी मोटर",
+        "हाई एयर फ्लो",
+        "ड्यूरेबल कंस्ट्रक्शन"
       ]
     }
   },
   "bldcCoolerExhaust": {
     "exhaustFan": {
-      "name": "BLDC Exhaust Fan Motors",
-      "description": "High-efficiency motors for exhaust fan applications",
+      "name": "बीएलडीसी एग्जॉस्ट फैन मोटर्स",
+      "description": "एग्जॉस्ट फैन एप्लीकेशन के लिए हाई-एफिशिएंसी मोटर्स",
       "features": [
-        "Variable Speed",
-        "Low Noise",
-        "Energy Efficient",
-        "Long Life"
+        "वेरिएबल स्पीड",
+        "लो नॉइज़",
+        "एनर्जी एफिशिएंट",
+        "लॉन्ग लाइफ"
       ]
     },
     "coolerMotors": {
-      "name": "BLDC Cooler Motors",
-      "description": "Energy-efficient motors for air cooler applications",
+      "name": "बीएलडीसी कूलर मोटर्स",
+      "description": "एयर कूलर एप्लीकेशन के लिए ऊर्जा-कुशल मोटर्स",
       "features": [
-        "High Torque",
-        "Weather Resistant",
-        "Speed Control",
-        "Maintenance Free"
+        "हाई टार्क",
+        "वेदर रेसिस्टेंट",
+        "स्पीड कंट्रोल",
+        "मेंटेनेंस फ्री"
       ]
     },
     "ventilation": {
-      "name": "BLDC Ventilation Motors",
-      "description": "Specialized motors for industrial ventilation systems",
+      "name": "बीएलडीसी वेंटिलेशन मोटर्स",
+      "description": "इंडस्ट्रियल वेंटिलेशन सिस्टम के लिए स्पेशलाइज्ड मोटर्स",
       "features": [
-        "High CFM",
-        "Temperature Rated",
-        "Vibration Resistant",
-        "Smart Control"
+        "हाई सीएमऍफ़",
+        "टेम्परेचर रेटेड",
+        "वाइब्रेशन रेसिस्टेंट",
+        "स्मार्ट कंट्रोल"
       ]
     }
   },
   "cablesWires": {
     "instrumentation": {
-      "name": "Instrumentation Cables",
-      "description": "Low voltage cables for instrumentation and control applications",
+      "name": "इंस्ट्रूमेंटेशन केबल",
+      "description": "इंस्ट्रूमेंटेशन और कंट्रोल एप्लीकेशन के लिए लो वोल्टेज केबल",
       "features": [
-        "Shielded Construction",
-        "Moisture Resistant",
-        "Temperature Rated",
-        "Multiple Pairs"
+        "शील्डेड कंस्ट्रक्शन",
+        "मॉइस्चर रेसिस्टेंट",
+        "टेम्परेचर रेटेड",
+        "मल्टीपल पेयर"
       ]
     },
     "powerDistribution": {
-      "name": "Power Distribution Cables",
-      "description": "High voltage cables for power transmission and distribution",
+      "name": "पावर डिस्ट्रीब्यूशन केबल",
+      "description": "पावर ट्रांसमिशन और डिस्ट्रीब्यूशन के लिए हाई वोल्टेज केबल",
       "features": [
-        "XLPE Insulation",
-        "Armored Construction",
-        "Fire Resistant",
-        "High Current Rating"
+        "एक्सएलपीई इंसुलेशन",
+        "आर्मर्ड कंस्ट्रक्शन",
+        "फायर रेसिस्टेंट",
+        "हाई करंट रेटिंग"
       ]
     },
     "communication": {
-      "name": "Communication Cables",
-      "description": "Data transmission cables for industrial communication networks",
+      "name": "कम्युनिकेशन केबल",
+      "description": "इंडस्ट्रियल कम्युनिकेशन नेटवर्क के लिए डाटा ट्रांसमिशन केबल",
       "features": [
-        "Cat5e/Cat6",
-        "Fiber Optic",
-        "Industrial Grade",
-        "EMI Shielding"
+        "कैट5e/कैट6",
+        "फाइबर ऑप्टिक",
+        "इंडस्ट्रियल ग्रेड",
+        "ईएमआई शील्डिंग"
       ]
     }
   },
   "handTools": {
     "wrenchSets": {
-      "name": "Professional Wrench Sets",
-      "description": "Complete sets of combination and adjustable wrenches",
+      "name": "प्रोफेशनल रिंच सेट",
+      "description": "कॉम्बिनेशन और एडजस्टेबल रिंच का पूरा सेट",
       "features": [
-        "Chrome Vanadium Steel",
-        "Metric & SAE Sizes",
-        "Professional Grade",
-        "Lifetime Warranty"
+        "क्रोम वैनेडियम स्टील",
+        "मीट्रिक और एसएई साइज",
+        "प्रोफेशनल ग्रेड",
+        "लाइफटाइम वारंटी"
       ]
     },
     "screwdriverSets": {
-      "name": "Precision Screwdriver Sets",
-      "description": "High-quality screwdrivers for precision applications",
+      "name": "प्रिसिशन स्क्रूड्राइवर सेट",
+      "description": "प्रिसिशन एप्लीकेशन के लिए हाई-क्वालिटी स्क्रूड्राइवर",
       "features": [
-        "Ergonomic Handles",
-        "Magnetic Tips",
-        "Multiple Head Types",
-        "Anti-Slip Grip"
+        "एर्गोनोमिक हैंडल",
+        "मैग्नेटिक टिप",
+        "मल्टीपल हेड टाइप",
+        "एंटी-स्लिप ग्रिप"
       ]
     },
     "toolKits": {
-      "name": "Industrial Tool Kits",
-      "description": "Comprehensive tool kits for industrial maintenance",
+      "name": "इंडस्ट्रियल टूल किट",
+      "description": "इंडस्ट्रियल मेंटेनेंस के लिए कॉम्प्रिहेंसिव टूल किट",
       "features": [
-        "Complete Tool Set",
-        "Organized Storage",
-        "Heavy-Duty Case",
-        "Professional Quality"
+        "कंप्लीट टूल सेट",
+        "ऑर्गनाइज्ड स्टोरेज",
+        "हेवी-ड्यूटी केस",
+        "प्रोफेशनल क्वालिटी"
       ]
     }
   },
   "powerTools": {
     "drillSets": {
-      "name": "Industrial Drill Sets",
-      "description": "Heavy-duty electric and cordless drills for industrial applications",
+      "name": "इंडस्ट्रियल ड्रिल सेट",
+      "description": "इंडस्ट्रियल एप्लीकेशन के लिए हैवी-ड्यूटी इलेक्ट्रिक और कॉर्डलेस ड्रिल",
       "features": [
-        "High Torque",
-        "Variable Speed",
-        "Cordless Options",
-        "Chuck Capacity: 13mm"
+        "हाई टार्क",
+        "वेरिएबल स्पीड",
+        "कॉर्डलेस ऑप्शन",
+        "चक कैपेसिटी: 13mm"
       ]
     },
     "angleGrinders": {
-      "name": "Angle Grinders",
-      "description": "Professional angle grinders for cutting and grinding operations",
+      "name": "एंगल ग्राइंडर",
+      "description": "कटिंग और ग्राइंडिंग ऑपरेशन के लिए प्रोफेशनल एंगल ग्राइंडर",
       "features": [
-        "Multiple Disc Sizes",
-        "Safety Guards",
-        "Anti-Vibration",
-        "Powerful Motors"
+        "मल्टीपल डिस्क साइज",
+        "सेफ्टी गार्ड",
+        "एंटी-वाइब्रेशन",
+        "पावरफुल मोटर्स"
       ]
     },
     "impactWrenches": {
-      "name": "Impact Wrenches",
-      "description": "High-torque impact wrenches for heavy-duty fastening",
+      "name": "इम्पैक्ट रिंच",
+      "description": "हेवी-ड्यूटी फास्टनिंग के लिए हाई-टार्क इम्पैक्ट रिंच",
       "features": [
-        "High Impact Force",
-        "Socket Compatibility",
-        "Forward/Reverse",
-        "Battery Powered"
+        "हाई इम्पैक्ट फ़ोर्स",
+        "सॉकेट कम्पैटिबिलिटी",
+        "फॉरवर्ड/रिवर्स",
+        "बैटरी पावर्ड"
       ]
     }
   },
   "cuttingTools": {
     "sawBlades": {
-      "name": "Industrial Saw Blades",
-      "description": "High-quality saw blades for metal and wood cutting",
+      "name": "इंडस्ट्रियल सॉ ब्लेड",
+      "description": "मेटल और वुड कटिंग के लिए हाई-क्वालिटी सॉ ब्लेड",
       "features": [
-        "HSS/Carbide Tips",
-        "Multiple TPI",
-        "Bi-Metal Construction",
-        "Long Life"
+        "एचएसएस/कार्बाइड टिप",
+        "मल्टीपल टीपीआई",
+        "बाय-मेटल कंस्ट्रक्शन",
+        "लॉन्ग लाइफ"
       ]
     },
     "drillBits": {
-      "name": "Drill Bits & Reamers",
-      "description": "Precision drilling and reaming tools",
+      "name": "ड्रिल बिट और रीमर",
+      "description": "प्रिसिशन ड्रिलिंग और रीमिंग टूल",
       "features": [
-        "HSS/Cobalt",
-        "Jobber Length",
-        "Spiral Flutes",
-        "Split Point"
+        "एचएसएस/कोबाल्ट",
+        "जॉबर लेंथ",
+        "स्पाइरल फ्लूट",
+        "स्प्लिट पॉइंट"
       ]
     },
     "millingCutters": {
-      "name": "Milling Cutters",
-      "description": "End mills and face mills for machining operations",
+      "name": "मिलिंग कटर",
+      "description": "मशीनिंग ऑपरेशन के लिए एंड मिल और फेस मिल",
       "features": [
-        "Carbide/HSS",
-        "Multiple Flutes",
-        "Coated Options",
-        "Various Geometries"
+        "कार्बाइड/एचएसएस",
+        "मल्टीपल फ्लूट",
+        "कोटेड ऑप्शन",
+        "वेरियस ज्योमेट्री"
       ]
     }
   },
   "liftingEquipment": {
     "chainHoists": {
-      "name": "Chain Hoists & Slings",
-      "description": "Manual and electric chain hoists for heavy lifting",
+      "name": "चेन होइस्ट और स्लिंग",
+      "description": "हेवी लिफ्टिंग के लिए मैनुअल और इलेक्ट्रिक चेन होइस्ट",
       "features": [
-        "1-20 Ton Capacity",
-        "Electric/Manual",
-        "Safety Hooks",
-        "Overload Protection"
+        "1-20 टन कैपेसिटी",
+        "इलेक्ट्रिक/मैनुअल",
+        "सेफ्टी हुक",
+        "ओवरलोड प्रोटेक्शन"
       ]
     },
     "wireRope": {
-      "name": "Wire Rope & Cables",
-      "description": "High-strength wire rope for lifting applications",
+      "name": "वायर रोप और केबल",
+      "description": "लिफ्टिंग एप्लीकेशन के लिए हाई-स्ट्रेंथ वायर रोप",
       "features": [
-        "Galvanized Steel",
-        "Multiple Lay Types",
-        "Various Diameters",
-        "IWRC Core"
+        "गैल्वेनाइज्ड स्टील",
+        "मल्टीपल ले टाइप",
+        "वेरियस डायमीटर",
+        "आईडब्ल्यूआरसी कोर"
       ]
     },
     "liftingHardware": {
-      "name": "Lifting Hardware",
-      "description": "Shackles, hooks, and rigging hardware",
+      "name": "लिफ्टिंग हार्डवेयर",
+      "description": "शैकल, हुक और रिगिंग हार्डवेयर",
       "features": [
-        "Stainless Steel",
-        "Safety Pins",
-        "Load Rated",
-        "ANSI/ASME Standards"
+        "स्टेनलेस स्टील",
+        "सेफ्टी पिन",
+        "लोड रेटेड",
+        "एएनएसआई/एएसएमई स्टैंडर्ड"
       ]
     }
   },
   "instrumentation": {
     "sensors": {
-      "title": "Industrial Sensors",
-      "shortDescription": "Comprehensive range of industrial-grade sensors for automation and process control",
-      "fullDescription": "Advanced sensor solutions including temperature, pressure, position, motion, flow, level, proximity, and specialized sensors. Our sensor portfolio features digital temperature sensors with silicon-based ICs, pressure sensors for water conservancy and industrial applications, position sensors with MEMS technology, and vision sensors with image processing systems for quality control.",
+      "title": "औद्योगिक सेंसर",
+      "shortDescription": "स्वचालन और प्रक्रिया नियंत्रण के लिए औद्योगिक-ग्रेड सेंसर की व्यापक रेंज",
+      "fullDescription": "तापमान, दबाव, स्थिति, गति, प्रवाह, स्तर, निकटता और विशेष सेंसर सहित उन्नत सेंसर समाधान। हमारे सेंसर पोर्टफोलियो में सिलिकॉन-आधारित आईसी के साथ डिजिटल तापमान सेंसर, जल संरक्षण और औद्योगिक अनुप्रयोगों के लिए दबाव सेंसर, एमईएमएस तकनीक वाले स्थिति सेंसर और गुणवत्ता नियंत्रण के लिए छवि प्रसंस्करण सिस्टम वाले विजन सेंसर शामिल हैं।",
       "specifications": [
-        "Temperature Range: -40°C to +125°C",
-        "Pressure Range: Vacuum to 7500 PSI",
-        "Signal Output: 4-20mA, 0-10V, Digital (USB, PNP/NPN)",
-        "Resolution: Up to 24-bit for high precision",
-        "Response Time: <10ms for critical applications",
-        "IP Protection: IP65/IP67/IP69K ratings available"
+        "तापमान रेंज: -40 डिग्री सेल्सियस से +125 डिग्री सेल्सियस",
+        "दबाव रेंज: वैक्यूम से 7500 पीएसआई",
+        "सिग्नल आउटपुट: 4-20mA, 0-10V, डिजिटल (USB, PNP/NPN)",
+        "रिज़ॉल्यूशन: उच्च परिशुद्धता के लिए 24-बिट तक",
+        "प्रतिक्रिया समय: महत्वपूर्ण अनुप्रयोगों के लिए <10ms",
+        "आईपी ​​सुरक्षा: IP65/IP67/IP69K रेटिंग उपलब्ध"
       ],
       "applications": [
-        "Process Control & Monitoring",
-        "Manufacturing Automation",
-        "Quality Control Systems",
-        "Safety & Security Systems",
-        "Environmental Monitoring",
-        "Predictive Maintenance"
+        "प्रक्रिया नियंत्रण और निगरानी",
+        "विनिर्माण स्वचालन",
+        "गुणवत्ता नियंत्रण प्रणाली",
+        "सुरक्षा और सुरक्षा प्रणाली",
+        "पर्यावरण निगरानी",
+        "भविष्य कहनेवाला रखरखाव"
       ],
       "features": [
-        "Industry 4.0 Ready with IoT Connectivity",
-        "Self-Diagnostics & Calibration",
-        "Multiple Communication Protocols",
-        "Explosion-Proof Variants Available",
-        "Extended Temperature Stability",
-        "Low Power Consumption"
+        "उद्योग 4.0 आईओटी कनेक्टिविटी के साथ तैयार",
+        "स्व-नैदानिक ​​और अंशांकन",
+        "एकाधिक संचार प्रोटोकॉल",
+        "विस्फोट-प्रूफ वेरिएंट उपलब्ध",
+        "विस्तारित तापमान स्थिरता",
+        "कम बिजली खपत"
       ],
       "keyBenefits": [
-        "High Accuracy & Reliability",
-        "Easy Integration & Configuration",
-        "Reduced Maintenance Requirements",
-        "Enhanced Safety Compliance",
-        "Long-Term Stability",
-        "Cost-Effective Operation"
+        "उच्च परिशुद्धता और विश्वसनीयता",
+        "आसान एकीकरण और विन्यास",
+        "कम रखरखाव आवश्यकताएँ",
+        "बढ़ी हुई सुरक्षा अनुपालन",
+        "दीर्घकालिक स्थिरता",
+        "किफायती संचालन"
       ],
       "industries": [
-        "Oil & Gas",
-        "Chemical & Petrochemical",
-        "Power Generation",
-        "Water Treatment",
-        "Food & Beverage",
-        "Automotive Manufacturing"
+        "तेल और गैस",
+        "रासायनिक और पेट्रोकेमिकल",
+        "बिजली उत्पादन",
+        "जल उपचार",
+        "भोजन और पेय",
+        "ऑटोमोटिव विनिर्माण"
       ],
       "certifications": [
-        "CE",
-        "UL",
-        "CSA",
-        "ATEX",
-        "IECEx",
-        "SIL 2/3"
+        "सीई",
+        "यूएल",
+        "सीएसए",
+        "एटीईएक्स",
+        "आईईसीएक्स",
+        "एसआईएल 2/3"
       ],
       "technicalData": {
-        "operatingTemp": "-40°C to +125°C",
+        "operatingTemp": "-40 डिग्री सेल्सियस से +125 डिग्री सेल्सियस",
         "protection": "IP65/IP67/IP69K",
         "communication": [
           "4-20mA",
-          "HART",
-          "Modbus",
-          "Ethernet",
-          "Wireless"
+          "हार्ट",
+          "मोडबस",
+          "ईथरनेट",
+          "वायरलेस"
         ],
-        "accuracy": "±0.1% to ±0.5% of span",
-        "power": "24V DC, 115/230V AC, Loop-powered"
+        "accuracy": "स्पैन का ±0.1% से ±0.5%",
+        "power": "24V डीसी, 115/230V एसी, लूप-संचालित"
       }
     },
     "transmitters": {
-      "title": "Transmitters & Transducers",
-      "shortDescription": "Precision transmitters for pressure, temperature, flow, and level measurement",
-      "fullDescription": "Comprehensive range of industrial transmitters including pressure transmitters (gauge, absolute, differential), temperature transmitters, flow measurement devices, and multivariable transmitters. Features advanced technologies like strain gauge, capacitive, and piezoresistive sensing with HART digital communication. Market leaders like Emerson Rosemount, ABB, Yokogawa, and Honeywell provide reliable solutions for process industries.",
+      "title": "ट्रांसमीटर और ट्रांसड्यूसर",
+      "shortDescription": "दबाव, तापमान, प्रवाह और स्तर माप के लिए सटीक ट्रांसमीटर",
+      "fullDescription": "दबाव ट्रांसमीटर (गेज, निरपेक्ष, अंतर), तापमान ट्रांसमीटर, प्रवाह माप उपकरण और मल्टीवेरिएबल ट्रांसमीटर सहित औद्योगिक ट्रांसमीटरों की व्यापक रेंज। हार्ट डिजिटल संचार के साथ स्ट्रेन गेज, कैपेसिटिव और पीजोरेसिस्टिव सेंसिंग जैसी उन्नत सुविधाएँ। एमर्सन रोजमाउंट, एबीबी, योकोगावा और हनीवेल जैसे बाजार नेता प्रक्रिया उद्योगों के लिए विश्वसनीय समाधान प्रदान करते हैं।",
       "specifications": [
-        "Accuracy: ±0.05% to ±0.25% of span",
-        "Stability: 5-year ±0.1% span stability",
-        "Operating Range: Up to 7,500 PSI pressure",
-        "Rangeability: Up to 400:1 turndown ratio",
-        "Output: 4-20mA + HART digital",
-        "Multivariable: Pressure, flow, temperature in one device"
+        "सटीकता: स्पैन का ±0.05% से ±0.25%",
+        "स्थिरता: 5-वर्ष ±0.1% स्पैन स्थिरता",
+        "ऑपरेटिंग रेंज: 7,500 पीएसआई दबाव तक",
+        "रेंज क्षमता: 400:1 टर्नडाउन अनुपात तक",
+        "आउटपुट: 4-20mA + हार्ट डिजिटल",
+        "मल्टीवेरिएबल: एक डिवाइस में दबाव, प्रवाह, तापमान"
       ],
       "applications": [
-        "Pipeline Monitoring",
-        "Process Control",
-        "Tank Level Measurement",
-        "Flow Measurement",
-        "Safety Systems",
-        "Regulatory Compliance"
+        "पाइपलाइन निगरानी",
+        "प्रक्रिया नियंत्रण",
+        "टैंक स्तर माप",
+        "प्रवाह माप",
+        "सुरक्षा प्रणाली",
+        "नियामक अनुपालन"
       ],
       "features": [
-        "Smart Diagnostics & Predictive Maintenance",
-        "Coplanar Technology for Easy Installation",
-        "Remote Seal Capability",
-        "Wireless HART Options",
-        "Temperature Compensation",
-        "Self-Diagnostics"
+        "स्मार्ट डायग्नोस्टिक्स और प्रेडिक्टिव मेंटेनेंस",
+        "आसान स्थापना के लिए कोप्लानर तकनीक",
+        "रिमोट सील क्षमता",
+        "वायरलेस हार्ट विकल्प",
+        "तापमान मुआवजा",
+        "स्व-नैदानिक"
       ],
       "keyBenefits": [
-        "Industry-Leading Accuracy",
-        "Reduced Total Cost of Ownership",
-        "Enhanced Process Optimization",
-        "Improved Safety & Reliability",
-        "Easy Maintenance & Support",
-        "Future-Proof Technology"
+        "उद्योग-अग्रणी सटीकता",
+        "स्वामित्व की कुल लागत कम",
+        "बढ़ी हुई प्रक्रिया अनुकूलन",
+        "बेहतर सुरक्षा और विश्वसनीयता",
+        "आसान रखरखाव और समर्थन",
+        "भविष्य-प्रूफ तकनीक"
       ],
       "industries": [
-        "Oil & Gas",
-        "Chemical Processing",
-        "Refining",
-        "Power Generation",
-        "Pulp & Paper",
-        "Mining & Metals"
+        "तेल और गैस",
+        "रासायनिक प्रसंस्करण",
+        "शोधन",
+        "बिजली उत्पादन",
+        "पल्प और पेपर",
+        "खनन और धातुएँ"
       ],
       "certifications": [
-        "SIL 2/3",
-        "ATEX",
-        "IECEx",
-        "FM",
-        "CSA",
-        "NEPSI"
+        "एसआईएल 2/3",
+        "एटीईएक्स",
+        "आईईसीएक्स",
+        "एफएम",
+        "सीएसए",
+        "एनईपीएसआई"
       ],
       "technicalData": {
-        "operatingTemp": "-40°C to +85°C",
+        "operatingTemp": "-40 डिग्री सेल्सियस से +85 डिग्री सेल्सियस",
         "protection": "IP66/IP67",
         "communication": [
-          "HART",
-          "Foundation Fieldbus",
-          "Profibus",
-          "Wireless"
+          "हार्ट",
+          "फाउंडेशन फील्डबस",
+          "प्रोफिबस",
+          "वायरलेस"
         ],
-        "accuracy": "±0.05% to ±0.25% of span",
-        "power": "10.5-42.4V DC, Loop-powered"
+        "accuracy": "स्पैन का ±0.05% से ±0.25%",
+        "power": "10.5-42.4V डीसी, लूप-संचालित"
       }
     }
   },
   "bldcSubmersibleSurface": {
     "solar1HP": {
-      "name": "Solar BLDC Submersible Pump - 1HP",
-      "description": "Solar-powered BLDC submersible pump for water wells",
+      "name": "सोलर बीएलडीसी सबमर्सिबल पंप - 1एचपी",
+      "description": "पानी के कुओं के लिए सौर-संचालित बीएलडीसी सबमर्सिबल पंप",
       "features": [
-        "Solar Compatible",
-        "1HP Motor",
-        "High Efficiency",
-        "Water-Cooled Design"
+        "सौर संगत",
+        "1एचपी मोटर",
+        "उच्च दक्षता",
+        "वाटर-कूल्ड डिजाइन"
       ]
     },
     "surface2HP": {
-      "name": "DC Surface Pump - 2HP",
-      "description": "High-efficiency BLDC surface pump for irrigation",
+      "name": "डीसी सरफेस पंप - 2एचपी",
+      "description": "सिंचाई के लिए उच्च दक्षता वाला बीएलडीसी सरफेस पंप",
       "features": [
-        "2HP Power",
-        "Self-Priming",
-        "Dry Run Protection",
-        "Variable Speed"
+        "2एचपी पावर",
+        "स्व-प्राइमिंग",
+        "ड्राई रन प्रोटेक्शन",
+        "परिवर्तनीय गति"
       ]
     },
     "hybrid": {
-      "name": "Hybrid BLDC Pump System",
-      "description": "Intelligent pump system with solar and grid backup",
+      "name": "हाइब्रिड बीएलडीसी पंप सिस्टम",
+      "description": "सौर और ग्रिड बैकअप के साथ बुद्धिमान पंप प्रणाली",
       "features": [
-        "Hybrid Operation",
-        "Smart Controller",
-        "Remote Monitoring",
-        "Energy Optimization"
+        "हाइब्रिड ऑपरेशन",
+        "स्मार्ट कंट्रोलर",
+        "रिमोट मॉनिटरिंग",
+        "ऊर्जा अनुकूलन"
       ]
     }
   },
   "bldcTableWallFan": {
     "tableFan": {
-      "name": "BLDC Table Fan Motors",
-      "description": "Compact BLDC motors for table and desk fans",
+      "name": "बीएलडीसी टेबल फैन मोटर्स",
+      "description": "टेबल और डेस्क पंखों के लिए कॉम्पैक्ट बीएलडीसी मोटर",
       "features": [
-        "Compact Design",
-        "Silent Operation",
-        "Remote Control",
-        "Timer Function"
+        "कॉम्पैक्ट डिजाइन",
+        "साइलेंट ऑपरेशन",
+        "रिमोट कंट्रोल",
+        "टाइमर फंक्शन"
       ]
     },
     "wallFan": {
-      "name": "BLDC Wall Fan Motors",
-      "description": "Wall-mounted fan motors with BLDC technology",
+      "name": "बीएलडीसी वॉल फैन मोटर्स",
+      "description": "बीएलडीसी तकनीक के साथ दीवार पर लगे पंखे की मोटरें",
       "features": [
-        "Wall Mount Design",
-        "Oscillating Function",
-        "Speed Control",
-        "Energy Saving"
+        "वॉल माउंट डिजाइन",
+        "दोलन समारोह",
+        "स्पीड कंट्रोल",
+        "ऊर्जा बचाना"
       ]
     },
     "pedestalFan": {
-      "name": "BLDC Pedestal Fan Motors",
-      "description": "Height-adjustable pedestal fan motors",
+      "name": "बीएलडीसी पेडस्टल फैन मोटर्स",
+      "description": "ऊंचाई-समायोज्य पेडस्टल पंखे की मोटरें",
       "features": [
-        "Height Adjustment",
-        "Tilt Function",
-        "LED Display",
-        "Sleep Mode"
+        "ऊंचाई समायोजन",
+        "झुकाव समारोह",
+        "एलईडी प्रदर्शन",
+        "स्लीप मोड"
       ]
     }
   },
   "centrifugalPumps": {
     "endSuction": {
-      "name": "End Suction Centrifugal Pumps",
-      "description": "Single-stage end suction pumps for general applications",
+      "name": "एंड सक्शन सेंट्रीफ्यूगल पंप",
+      "description": "सामान्य अनुप्रयोगों के लिए सिंगल-स्टेज एंड सक्शन पंप",
       "features": [
-        "Flow: 10-5000 GPM",
-        "Head: up to 400 ft",
-        "Cast Iron/Stainless Steel",
-        "ANSI/ISO Standards"
+        "प्रवाह: 10-5000 जीपीएम",
+        "हेड: 400 फीट तक",
+        "कास्ट आयरन/स्टेनलेस स्टील",
+        "एएनएसआई/आईएसओ मानक"
       ]
     },
     "multiStage": {
-      "name": "Multi-Stage Centrifugal Pumps",
-      "description": "High-pressure multi-stage pumps for demanding applications",
+      "name": "मल्टी-स्टेज सेंट्रीफ्यूगल पंप",
+      "description": "मांगलिक अनुप्रयोगों के लिए उच्च दबाव वाले मल्टी-स्टेज पंप",
       "features": [
-        "High Pressure Capability",
-        "Compact Design",
-        "Energy Efficient",
-        "Balanced Impellers"
+        "उच्च दबाव क्षमता",
+        "कॉम्पैक्ट डिजाइन",
+        "ऊर्जा कुशल",
+        "संतुलित इम्पेलर"
       ]
     },
     "chemicalProcess": {
-      "name": "Chemical Process Pumps",
-      "description": "Corrosion-resistant pumps for chemical processing",
+      "name": "रासायनिक प्रक्रिया पंप",
+      "description": "रासायनिक प्रसंस्करण के लिए संक्षारण प्रतिरोधी पंप",
       "features": [
-        "Corrosion Resistant",
-        "Seal-less Design Options",
-        "API 610 Compliant",
-        "High Temperature"
+        "संक्षारण प्रतिरोधी",
+        "सील-लेस डिजाइन विकल्प",
+        "एपीआई 610 अनुपालन",
+        "उच्च तापमान"
       ]
     }
   },
   "circuitBreakersFuses": {
     "mcb": {
-      "name": "Miniature Circuit Breakers (MCB)",
-      "description": "Low voltage circuit breakers for residential and commercial use",
+      "name": "मिनिएचर सर्किट ब्रेकर (एमसीबी)",
+      "description": "आवासीय और वाणिज्यिक उपयोग के लिए कम वोल्टेज सर्किट ब्रेकर",
       "features": [
-        "B, C, D Curves",
-        "6-63A Rating",
-        "10kA Breaking Capacity",
-        "DIN Rail Mount"
+        "बी, सी, डी कर्व्स",
+        "6-63ए रेटिंग",
+        "10kA ब्रेकिंग क्षमता",
+        "डीआईएन रेल माउंट"
       ]
     },
     "mccb": {
-      "name": "Molded Case Circuit Breakers (MCCB)",
-      "description": "Industrial circuit breakers for motor and power protection",
+      "name": "मोल्डेड केस सर्किट ब्रेकर (एमसीसीबी)",
+      "description": "मोटर और बिजली संरक्षण के लिए औद्योगिक सर्किट ब्रेकर",
       "features": [
-        "Adjustable Trip",
-        "High Breaking Capacity",
-        "Electronic Trip Units",
-        "Up to 1600A"
+        "समायोज्य ट्रिप",
+        "उच्च ब्रेकिंग क्षमता",
+        "इलेक्ट्रॉनिक ट्रिप यूनिट",
+        "1600ए तक"
       ]
     },
     "industrialFuses": {
-      "name": "Industrial Fuses",
-      "description": "High-speed fuses for equipment protection",
+      "name": "औद्योगिक फ्यूज",
+      "description": "उपकरण सुरक्षा के लिए हाई-स्पीड फ्यूज",
       "features": [
-        "Fast Acting",
-        "Time Delay",
-        "High Voltage",
-        "Ceramic Body"
+        "फास्ट एक्टिंग",
+        "समय में देरी",
+        "उच्च वोल्टेज",
+        "सिरेमिक बॉडी"
       ]
     }
   },
   "connectorsTerminals": {
     "terminalBlocks": {
-      "name": "Terminal Blocks",
-      "description": "Industrial terminal blocks for secure wire connections",
+      "name": "टर्मिनल ब्लॉक",
+      "description": "सुरक्षित वायर कनेक्शन के लिए औद्योगिक टर्मिनल ब्लॉक",
       "features": [
-        "Spring Clamp",
-        "Screw Type",
-        "DIN Rail Mount",
-        "Multiple Sizes"
+        "स्प्रिंग क्लैंप",
+        "पेंच प्रकार",
+        "डीआईएन रेल माउंट",
+        "एकाधिक आकार"
       ]
     },
     "industrialConnectors": {
-      "name": "Industrial Connectors",
-      "description": "Heavy-duty connectors for industrial applications",
+      "name": "औद्योगिक कनेक्टर्स",
+      "description": "औद्योगिक अनुप्रयोगों के लिए हैवी-ड्यूटी कनेक्टर्स",
       "features": [
-        "IP67 Rating",
-        "Locking Mechanism",
-        "Multi-Pin",
-        "Cable Glands"
+        "आईपी67 रेटिंग",
+        "लॉकिंग तंत्र",
+        "मल्टी-पिन",
+        "केबल ग्रंथि"
       ]
     },
     "signalConnectors": {
-      "name": "Signal Connectors",
-      "description": "Precision connectors for instrumentation signals",
+      "name": "सिग्नल कनेक्टर्स",
+      "description": "इंस्ट्रूमेंटेशन सिग्नल के लिए प्रिसिशन कनेक्टर्स",
       "features": [
-        "Low Noise",
-        "Shielded Design",
-        "Miniature Size",
-        "High Reliability"
+        "कम शोर",
+        "शील्डेड डिजाइन",
+        "लघु आकार",
+        "उच्च विश्वसनीयता"
       ]
     }
   },
   "automation": {
     "plcs": {
       "siemensS7": {
-        "name": "Siemens SIMATIC S7-1200",
-        "description": "Compact modular PLC for small to medium automation applications",
+        "name": "सीमन्स सिमेटिक एस7-1200",
+        "description": "छोटे से मध्यम स्वचालन अनुप्रयोगों के लिए कॉम्पैक्ट मॉड्यूलर पीएलसी",
         "features": [
-          "Integrated Digital and Analog I/O",
-          "Built-in Ethernet Communication",
-          "TIA Portal Programming",
-          "Failsafe Technology Available"
+          "एकीकृत डिजिटल और एनालॉग I/O",
+          "बिल्ट-इन ईथरनेट संचार",
+          "टीआईए पोर्टल प्रोग्रामिंग",
+          "विफल सुरक्षित तकनीक उपलब्ध है"
         ]
       },
       "allenBradley": {
-        "name": "Allen-Bradley CompactLogix 5380",
-        "description": "High-performance PLC with integrated safety capabilities",
+        "name": "एलेन-ब्रैडली कॉम्पैक्टलॉगिक्स 5380",
+        "description": "एकीकृत सुरक्षा क्षमताओं के साथ उच्च-प्रदर्शन पीएलसी",
         "features": [
-          "Integrated Safety Functions",
-          "EtherNet/IP Communication",
-          "Studio 5000 Programming",
-          "Motion Control Integration"
+          "एकीकृत सुरक्षा कार्य",
+          "ईथरनेट/आईपी संचार",
+          "स्टूडियो 5000 प्रोग्रामिंग",
+          "मोशन कंट्रोल एकीकरण"
         ]
       },
       "schneider": {
-        "name": "Schneider Electric Modicon M580",
-        "description": "Enterprise PLC platform with hot standby redundancy",
+        "name": "श्नाइडर इलेक्ट्रिक मोडिकॉन एम580",
+        "description": "हॉट स्टैंडबाय अतिरेक के साथ एंटरप्राइज पीएलसी प्लेटफॉर्म",
         "features": [
-          "Hot Standby Redundancy",
-          "Ethernet Backbone Architecture",
-          "Unity Pro Programming",
-          "Advanced Cybersecurity"
+          "हॉट स्टैंडबाय अतिरेक",
+          "ईथरनेट बैकबोन आर्किटेक्चर",
+          "यूनिटी प्रो प्रोग्रामिंग",
+          "उन्नत साइबर सुरक्षा"
         ]
       }
     },
     "hmi": {
       "panelMount": {
-        "name": "Panel Mount HMI",
-        "description": "Industrial touchscreen panels for process visualization",
+        "name": "पैनल माउंट एचएमआई",
+        "description": "प्रक्रिया विज़ुअलाइज़ेशन के लिए औद्योगिक टचस्क्रीन पैनल",
         "features": [
-          "Multi-touch Capacitive Display",
-          "Web-based Configuration",
-          "Alarm Management",
-          "Data Logging"
+          "मल्टी-टच कैपेसिटिव डिस्प्ले",
+          "वेब-आधारित कॉन्फ़िगरेशन",
+          "अलार्म प्रबंधन",
+          "डेटा लॉगिंग"
         ]
       },
       "operatorInterface": {
-        "name": "Operator Interface Station",
-        "description": "Advanced operator workstations for process control",
+        "name": "ऑपरेटर इंटरफ़ेस स्टेशन",
+        "description": "प्रक्रिया नियंत्रण के लिए उन्नत ऑपरेटर वर्कस्टेशन",
         "features": [
-          "High-resolution Display",
-          "Multi-protocol Support",
-          "Historical Trending",
-          "Report Generation"
+          "उच्च-रिज़ॉल्यूशन प्रदर्शन",
+          "मल्टी-प्रोटोकॉल समर्थन",
+          "ऐतिहासिक रुझान",
+          "रिपोर्ट जनरेशन"
         ]
       },
       "mobile": {
-        "name": "Mobile HMI",
-        "description": "Mobile solutions for remote process monitoring",
+        "name": "मोबाइल एचएमआई",
+        "description": "रिमोट प्रक्रिया निगरानी के लिए मोबाइल समाधान",
         "features": [
-          "Wireless Connectivity",
-          "Mobile App Support",
-          "Remote Access",
-          "Real-time Notifications"
+          "वायरलेस कनेक्टिविटी",
+          "मोबाइल ऐप समर्थन",
+          "रिमोट एक्सेस",
+          "रीयल-टाइम सूचनाएं"
         ]
       }
     },
     "scada": {
       "wonderware": {
-        "name": "Wonderware System Platform",
-        "description": "Comprehensive SCADA platform for industrial automation",
+        "name": "वंडरवेयर सिस्टम प्लेटफॉर्म",
+        "description": "औद्योगिक स्वचालन के लिए व्यापक स्काडा प्लेटफॉर्म",
         "features": [
-          "Real-time Data Acquisition",
-          "Historical Trending",
-          "Alarm Management",
-          "Web-based HMI"
+          "रीयल-टाइम डेटा अधिग्रहण",
+          "ऐतिहासिक रुझान",
+          "अलार्म प्रबंधन",
+          "वेब-आधारित एचएमआई"
         ]
       },
       "geFix": {
-        "name": "GE iFIX SCADA",
-        "description": "Advanced SCADA software for process visualization",
+        "name": "जीई आईफिक्स स्काडा",
+        "description": "प्रक्रिया विज़ुअलाइज़ेशन के लिए उन्नत स्काडा सॉफ्टवेयर",
         "features": [
-          "Process Graphics",
-          "Data Logging",
-          "Report Generation",
-          "OPC Connectivity"
+          "प्रक्रिया ग्राफिक्स",
+          "डेटा लॉगिंग",
+          "रिपोर्ट जनरेशन",
+          "ओपीसी कनेक्टिविटी"
         ]
       },
       "siemensWinCC": {
-        "name": "Siemens WinCC SCADA",
-        "description": "Industrial SCADA system for monitoring and control",
+        "name": "सीमन्स विनसीसी स्काडा",
+        "description": "निगरानी और नियंत्रण के लिए औद्योगिक स्काडा प्रणाली",
         "features": [
-          "TIA Portal Integration",
-          "Web Client Support",
-          "Mobile Access",
-          "Redundancy Options"
+          "टीआईए पोर्टल एकीकरण",
+          "वेब क्लाइंट समर्थन",
+          "मोबाइल एक्सेस",
+          "अतिरेक विकल्प"
         ]
       }
     },
     "dcs": {
       "honeywellExperion": {
-        "name": "Honeywell Experion PKS",
-        "description": "Distributed control system for process industries",
+        "name": "हनीवेल एक्सपेरियन पीकेएस",
+        "description": "प्रक्रिया उद्योगों के लिए वितरित नियंत्रण प्रणाली",
         "features": [
-          "Process Control",
-          "Safety Systems",
-          "Asset Management",
-          "Advanced Control"
+          "प्रक्रिया नियंत्रण",
+          "सुरक्षा प्रणाली",
+          "एसेट मैनेजमेंट",
+          "उन्नत नियंत्रण"
         ]
       },
       "abbSystem800xA": {
-        "name": "ABB System 800xA",
-        "description": "Extended automation system for industrial processes",
+        "name": "एबीबी सिस्टम 800xA",
+        "description": "औद्योगिक प्रक्रियाओं के लिए विस्तारित स्वचालन प्रणाली",
         "features": [
-          "Integrated Engineering",
-          "Safety Certified",
-          "Cybersecurity",
-          "Lifecycle Management"
+          "एकीकृत इंजीनियरिंग",
+          "सुरक्षा प्रमाणित",
+          "साइबर सुरक्षा",
+          "जीवनचक्र प्रबंधन"
         ]
       },
       "emersonDeltaV": {
-        "name": "Emerson DeltaV",
-        "description": "Modern DCS with digital transformation capabilities",
+        "name": "एमर्सन डेल्टावी",
+        "description": "डिजिटल परिवर्तन क्षमताओं के साथ आधुनिक डीसीएस",
         "features": [
-          "Digital Twin Technology",
-          "Predictive Analytics",
-          "Wireless Integration",
-          "Cloud Connectivity"
+          "डिजिटल ट्विन प्रौद्योगिकी",
+          "भविष्य कहनेवाला विश्लेषण",
+          "वायरलेस एकीकरण",
+          "क्लाउड कनेक्टिविटी"
         ]
       }
     }
   },
   "productNames": {
     "siemens": {
-      "simaticS7_1200": "Siemens SIMATIC S7-1200",
-      "simaticS7_1500": "Siemens SIMATIC S7-1500",
-      "logoSeries": "Siemens LOGO! Series"
+      "simaticS7_1200": "सीमन्स सिमेटिक एस7-1200",
+      "simaticS7_1500": "सीमन्स सिमेटिक एस7-1500",
+      "logoSeries": "सीमन्स लोगो! श्रृंखला"
     },
     "allenBradley": {
-      "compactLogix5380": "Allen-Bradley CompactLogix 5380",
-      "micrologix1400": "Allen-Bradley MicroLogix 1400",
-      "controlLogix5580": "Allen-Bradley ControlLogix 5580"
+      "compactLogix5380": "एलेन-ब्रैडली कॉम्पैक्टलॉगिक्स 5380",
+      "micrologix1400": "एलेन-ब्रैडली माइक्रोलॉगिक्स 1400",
+      "controlLogix5580": "एलेन-ब्रैडली कंट्रोललॉगिक्स 5580"
     },
     "schneider": {
-      "modiconM580": "Schneider Electric Modicon M580",
-      "modiconM340": "Schneider Electric Modicon M340",
-      "zelio": "Schneider Electric Zelio Logic"
+      "modiconM580": "श्नाइडर इलेक्ट्रिक मोडिकॉन एम580",
+      "modiconM340": "श्नाइडर इलेक्ट्रिक मोडिकॉन एम340",
+      "zelio": "श्नाइडर इलेक्ट्रिक ज़ेलियो लॉजिक"
     },
     "solar": {
-      "monocrystalline400W": "Monocrystalline Solar Panels - 400W",
-      "polycrystalline320W": "Polycrystalline Solar Panels - 320W",
-      "bifacial450W": "Bifacial Solar Panels - 450W"
+      "monocrystalline400W": "मोनोक्रिस्टलाइन सोलर पैनल - 400W",
+      "polycrystalline320W": "पॉलीक्रिस्टलाइन सोलर पैनल - 320W",
+      "bifacial450W": "बाइफेशियल सोलर पैनल - 450W"
     }
   }
 }

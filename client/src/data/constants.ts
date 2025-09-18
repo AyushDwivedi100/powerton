@@ -10,7 +10,6 @@ export const COMPANY_INFO = {
   name: "Powerton Engineering Pvt. Ltd.",
   tagline:
     "Your trusted partner in industrial automation and electrical engineering",
-  phone: "+91-94627-71662 / +91-82997-27291",
   phoneNumbers: {
     primary: "+91-94627-71662",
     secondary: "+91-82997-27291",
@@ -45,7 +44,7 @@ export const COMPANY_INFO = {
 export const getCompanyInfo = (t: any) => ({
   name: t("common:company.name"),
   tagline: t("common:company.tagline"),
-  phone: t("common:company.phone"),
+  phone: t("common:company.primaryPhone"),
   email: t("common:company.email"),
   address: {
     street: t("common:company.address.street"),

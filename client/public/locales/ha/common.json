@@ -36,32 +36,32 @@
   },
   "testimonials": {
     "anand": {
-      "name": "Ahmad Musa",
+      "name": "Anand Chakroborty",
       "location": "Yammacin Bengal",
       "comment": "Kamfanin Injiniyan Powerton ya sanya aikin amfani da makamashin rana ya zama mai sauƙi da kuma sauƙi. Ƙungiyarsu ta ɗauki kula da komai daga farko zuwa ƙarshe, kuma muna jin daɗi sosai da sakamakon."
     },
     "sanjay": {
-      "name": "Sanusi Ahmad",
+      "name": "Sanjay Shukla",
       "location": "Uttar Pradesh",
       "comment": "Na yi farin ciki da zaɓar Kamfanin Injiniyan Powerton don shigarwar mu, kuma ba zan dadin yin wa kowane ɗan uwana shawara ba."
     },
     "rhea": {
-      "name": "Rahma Salihu",
+      "name": "Rhea Sharma",
       "location": "Maharashtra",
       "comment": "Samfuran inganci na musamman da sabis na abokan ciniki na musamman. Ƙwarewar fasaha ta ƙungiyar tana da ban sha'awa kuma tana da ƙwarewa sosai."
     },
     "priya": {
-      "name": "Fatima Musa",
+      "name": "Priya Patil",
       "location": "Gujarat",
       "comment": "Yin aiki tare da Kamfanin Injiniyan Powerton ya kasance gogewa mai ban mamaki. Hanyoyin sarrafa su ta atomatik sun canza tsarin samarwa mu kuma sun inganta inganci da kashi talatin da biyar. An ba da shawarar sosai don ayyukan sarrafa masana'antu ta atomatik."
     },
     "kavya": {
-      "name": "Hadiza Sani",
+      "name": "Kavya Singh",
       "location": "Karnataka",
       "comment": "Sabis na musamman da tallafin fasaha! Ƙungiyar ta ba da jagora na musamman yayin aiwatar da aikinmu na rana. Hanyarsu ta sana'a da isar da lokaci sun wuce tsammaninmu gaba ɗaya."
     },
     "rajesh": {
-      "name": "Usman Ahmad",
+      "name": "Rajesh Iyer",
       "location": "Tamil Nadu",
       "comment": "Kamfanin Injiniyan Powerton ta kai daidai abin da suka yi alkawari. Tsarin kayan aikin auna da suka shigar ya kasance yana aiki da kyau sama da shekaru biyu. Tallafin su bayan sayar da kyan gani ne kuma ko da yaushe suna amsa."
     }
@@ -86,8 +86,10 @@
   "buttons": {
     "downloadPortfolio": "Sauke Portfolio",
     "showFilters": "Nuna Tacewa",
+    "hideFilters": "Ɓoye Tacewa",
     "readMore": "Karanta Ƙari",
     "downloadCatalog": "Sauke Katalogi",
+    "discussProject": "Tattara Aiki",
     "viewDetails": "Duba Cikakkun Bayanai",
     "backTo": "Komawa zuwa {{category}}",
     "backToBldcProducts": "Komawa zuwa Kayayyakin Injunan DC marasa goga (BLDC)",
@@ -224,7 +226,8 @@
   "company": {
     "name": "Powerton Engineering Pvt. Ltd.",
     "tagline": "Abokin hulɗarku na aminci a cikin sarrafa masana'antu da injiniyan lantarki",
-    "phone": "+91-94627-71662 / +91-82997-27291",
+    "primaryPhone": "+91-94627-71662",
+    "secondaryPhone": "+91-82997-27291",
     "email": "info@powertonengineering.com",
     "address": {
       "street": "F-25, Ginin F, Yanki 6",
@@ -242,7 +245,8 @@
       "yearsExperience": "Shekarun Gwaninta",
       "projectsCompleted": "Ayyukan da aka Kammala",
       "clientsServed": "Abokan Ciniki masu Gamsuwa",
-      "support": "Tallafi"
+      "support": "Tallafi",
+      "successRate": "Kididdigar Nasara"
     }
   },
   "seo": {

@@ -1,68 +1,51 @@
 {
-  "testimonials": {
-    "anand": {
-      "name": "Anand Awasthi",
-      "location": "West Bengal",
-      "comment": "Powerton Engineering made the process of going solar seamless and easy. Their team handled everything from start to finish, and we're thrilled with the results."
-    },
-    "sanjay": {
-      "name": "Sanjay Patil",
-      "location": "Uttar Pradesh",
-      "comment": "I am glad I chose Powerton Engineering for our installation, and I would not hesitate to recommend them to any of my friends."
-    },
-    "rhea": {
-      "name": "Rhea Sharma",
-      "location": "Maharashtra",
-      "comment": "Excellent quality products and outstanding customer service. The technical expertise of the team is impressive and highly professional."
-    }
-  },
   "projects": {
     "thermal-plant": {
-      "title": "Thermal Power Plant Automation",
-      "description": "Complete automation solution for 250MW thermal power plant including control panels, SCADA systems, and safety interlocks.",
+      "title": "Automation ya Mtambo wa Umeme wa Joto",
+      "description": "Suluhisho kamili la automation kwa mtambo wa umeme wa joto wa 250MW ikijumuisha paneli za udhibiti, mifumo ya SCADA, na vizuizi vya usalama.",
       "location": "Uttar Pradesh",
-      "duration": "12 months",
+      "duration": "Miezi 12",
       "highlights": {
-        "scada": "SCADA Implementation",
-        "safety": "Safety Systems",
-        "control": "Control Panels",
-        "monitoring": "Performance Monitoring"
+        "scada": "Utekelezaji wa SCADA",
+        "safety": "Mifumo ya Usalama",
+        "control": "Paneli za Udhibiti",
+        "monitoring": "Ufuatiliaji wa Utendaji"
       }
     },
     "pharma-plant": {
-      "title": "Pharmaceutical Plant Control System",
-      "description": "Advanced process control and monitoring system for pharmaceutical manufacturing with FDA compliance and data integrity features.",
+      "title": "Mfumo wa Udhibiti wa Kiwanda cha Dawa",
+      "description": "Mfumo wa hali ya juu wa udhibiti wa mchakato na ufuatiliaji wa utengenezaji wa dawa na utiifu wa FDA na vipengele vya uadilifu wa data.",
       "location": "Maharashtra",
-      "duration": "8 months",
+      "duration": "Miezi 8",
       "highlights": {
-        "fda": "FDA Compliance",
-        "data": "Data Integrity",
-        "process": "Process Control",
-        "quality": "Quality Monitoring"
+        "fda": "Utiifu wa FDA",
+        "data": "Uadilifu wa Data",
+        "process": "Udhibiti wa Mchakato",
+        "quality": "Ufuatiliaji wa Ubora"
       }
     },
     "solar-plant": {
-      "title": "10MW Solar Power Installation",
-      "description": "Complete design and installation of grid-connected solar power plant with monitoring systems and grid synchronization equipment.",
+      "title": "Usakinishaji wa Umeme wa Jua wa 10MW",
+      "description": "Muundo kamili na usakinishaji wa mtambo wa umeme wa jua uliounganishwa na gridi ya taifa na mifumo ya ufuatiliaji na vifaa vya kusawazisha gridi ya taifa.",
       "location": "Rajasthan",
-      "duration": "6 months",
+      "duration": "Miezi 6",
       "highlights": {
-        "grid": "Grid Connection",
-        "monitoring": "Monitoring Systems",
-        "optimization": "Performance Optimization",
-        "maintenance": "Maintenance Planning"
+        "grid": "Uunganisho wa Gridi",
+        "monitoring": "Mifumo ya Ufuatiliaji",
+        "optimization": "Uboreshaji wa Utendaji",
+        "maintenance": "Mipango ya Matengenezo"
       }
     },
     "water-treatment": {
-      "title": "Municipal Water Treatment Automation",
-      "description": "Automated control system for water treatment plant serving 500,000 residents with real-time monitoring and quality control.",
+      "title": "Automation ya Usafishaji Maji ya Manispaa",
+      "description": "Mfumo wa udhibiti wa kiotomatiki kwa mtambo wa kusafisha maji unaohudumia wakazi 500,000 na ufuatiliaji wa wakati halisi na udhibiti wa ubora.",
       "location": "West Bengal",
-      "duration": "10 months",
+      "duration": "Miezi 10",
       "highlights": {
-        "monitoring": "Real-time Monitoring",
-        "quality": "Quality Control",
-        "automation": "Automated Operations",
-        "remote": "Remote Management"
+        "monitoring": "Ufuatiliaji wa Wakati Halisi",
+        "quality": "Udhibiti wa Ubora",
+        "automation": "Uendeshaji Kiotomatiki",
+        "remote": "Usimamizi wa Mbali"
       }
     }
   }

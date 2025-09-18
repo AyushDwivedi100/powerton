@@ -1,304 +1,304 @@
 {
   "surgeProtectors": {
     "acPower": {
-      "name": "AC Power Surge Protectors",
-      "description": "Transient voltage surge suppressors for AC power systems",
+      "name": "Kinga za Mawimbi ya Nguvu za AC",
+      "description": "Vizuia umeme vya muda mfupi kwa mifumo ya nguvu za AC",
       "features": [
-        "Class I/II/III",
-        "MOV Technology",
-        "Status Indicators",
-        "DIN Rail Mount"
+        "Darasa la I/II/III",
+        "Teknolojia ya MOV",
+        "Viashiria vya Hali",
+        "Mlima wa Reli ya DIN"
       ]
     },
     "dcSolar": {
-      "name": "DC Solar Surge Protectors",
-      "description": "DC surge protection devices for solar panel systems",
+      "name": "Kinga za Mawimbi ya Sola za DC",
+      "description": "Vifaa vya ulinzi wa mawimbi ya DC kwa mifumo ya paneli za jua",
       "features": [
-        "1000V DC Rating",
-        "Type 1+2 Protection",
-        "Remote Indication",
-        "Quick Disconnect"
+        "Ukadiriaji wa 1000V DC",
+        "Ulinzi wa Aina ya 1+2",
+        "Dalili ya Mbali",
+        "Tenganisha Haraka"
       ]
     },
     "signalLine": {
-      "name": "Signal Line Protectors",
-      "description": "Surge protection for communication and control lines",
+      "name": "Kinga za Mstari wa Ishara",
+      "description": "Ulinzi wa mawimbi kwa mistari ya mawasiliano na udhibiti",
       "features": [
-        "Data Line Protection",
-        "Low Capacitance",
-        "Fast Response",
-        "Multiple Channels"
+        "Ulinzi wa Mstari wa Data",
+        "Uwezo Mdogo",
+        "Majibu ya Haraka",
+        "Njia Nyingi"
       ]
     }
   },
   "bldcCeilingFan": {
     "smart1200": {
-      "name": "Smart BLDC Ceiling Fan - 1200mm",
-      "description": "Energy-efficient smart ceiling fan with remote control",
+      "name": "Feni ya Dari ya Smart BLDC - 1200mm",
+      "description": "Feni ya dari yenye akili na inayotumia nishati kidogo na kidhibiti cha mbali",
       "features": [
-        "28W Power Consumption",
-        "Remote Control",
-        "5 Speed Settings",
-        "Timer Function"
+        "Matumizi ya Nguvu ya 28W",
+        "Kidhibiti cha Mbali",
+        "Mipangilio 5 ya Kasi",
+        "Kazi ya Kipima Muda"
       ]
     },
     "premium1400": {
-      "name": "Premium BLDC Ceiling Fan - 1400mm",
-      "description": "High-performance ceiling fan with LED lighting",
+      "name": "Feni ya Dari ya Premium BLDC - 1400mm",
+      "description": "Feni ya dari ya utendaji wa juu na taa ya LED",
       "features": [
-        "35W Power Consumption",
-        "LED Light Integrated",
-        "Reversible Motor",
-        "Silent Operation"
+        "Matumizi ya Nguvu ya 35W",
+        "Taa ya LED Iliyounganishwa",
+        "Motor Inayoweza Kubadilishwa",
+        "Uendeshaji Kimya"
       ]
     },
     "commercial1500": {
-      "name": "Commercial BLDC Ceiling Fan - 1500mm",
-      "description": "Heavy-duty ceiling fan for commercial applications",
+      "name": "Feni ya Dari ya Biashara BLDC - 1500mm",
+      "description": "Feni ya dari ya kazi nzito kwa matumizi ya kibiashara",
       "features": [
-        "45W Power Consumption",
-        "Heavy-Duty Motor",
-        "High Air Flow",
-        "Durable Construction"
+        "Matumizi ya Nguvu ya 45W",
+        "Motor ya Kazi Nzito",
+        "Mtiririko wa Hewa wa Juu",
+        "Ujenzi Imara"
       ]
     }
   },
   "bldcCoolerExhaust": {
     "exhaustFan": {
-      "name": "BLDC Exhaust Fan Motors",
-      "description": "High-efficiency motors for exhaust fan applications",
+      "name": "Motors za Feni ya Kutolea Nje ya BLDC",
+      "description": "Motors za ufanisi wa juu kwa matumizi ya feni ya kutolea nje",
       "features": [
-        "Variable Speed",
-        "Low Noise",
-        "Energy Efficient",
-        "Long Life"
+        "Kasi Inayobadilika",
+        "Kelele Chini",
+        "Ufanisi wa Nishati",
+        "Maisha Marefu"
       ]
     },
     "coolerMotors": {
-      "name": "BLDC Cooler Motors",
-      "description": "Energy-efficient motors for air cooler applications",
+      "name": "Motors za Kipoezi za BLDC",
+      "description": "Motors zinazotumia nishati kidogo kwa matumizi ya vipoezi vya hewa",
       "features": [
-        "High Torque",
-        "Weather Resistant",
-        "Speed Control",
-        "Maintenance Free"
+        "Torque ya Juu",
+        "Inayostahimili Hali ya Hewa",
+        "Udhibiti wa Kasi",
+        "Haitaji Matengenezo"
       ]
     },
     "ventilation": {
-      "name": "BLDC Ventilation Motors",
-      "description": "Specialized motors for industrial ventilation systems",
+      "name": "Motors za Uingizaji Hewa za BLDC",
+      "description": "Motors maalum kwa mifumo ya uingizaji hewa ya viwandani",
       "features": [
-        "High CFM",
-        "Temperature Rated",
-        "Vibration Resistant",
-        "Smart Control"
+        "CFM ya Juu",
+        "Imekadiriwa kwa Joto",
+        "Inayostahimili Mtetemo",
+        "Udhibiti Mahiri"
       ]
     }
   },
   "cablesWires": {
     "instrumentation": {
-      "name": "Instrumentation Cables",
-      "description": "Low voltage cables for instrumentation and control applications",
+      "name": "Kebo za Ala",
+      "description": "Kebo za volti ya chini kwa matumizi ya ala na udhibiti",
       "features": [
-        "Shielded Construction",
-        "Moisture Resistant",
-        "Temperature Rated",
-        "Multiple Pairs"
+        "Ujenzi Uliolindwa",
+        "Inayostahimili Unyevu",
+        "Imekadiriwa kwa Joto",
+        "Jozi Nyingi"
       ]
     },
     "powerDistribution": {
-      "name": "Power Distribution Cables",
-      "description": "High voltage cables for power transmission and distribution",
+      "name": "Kebo za Usambazaji wa Nguvu",
+      "description": "Kebo za volti ya juu kwa usafirishaji na usambazaji wa nguvu",
       "features": [
-        "XLPE Insulation",
-        "Armored Construction",
-        "Fire Resistant",
-        "High Current Rating"
+        " insulation ya XLPE",
+        "Ujenzi Uliolindwa",
+        "Inayostahimili Moto",
+        "Ukadiriaji wa Juu wa Sasa"
       ]
     },
     "communication": {
-      "name": "Communication Cables",
-      "description": "Data transmission cables for industrial communication networks",
+      "name": "Kebo za Mawasiliano",
+      "description": "Kebo za usambazaji data kwa mitandao ya mawasiliano ya viwandani",
       "features": [
         "Cat5e/Cat6",
         "Fiber Optic",
-        "Industrial Grade",
-        "EMI Shielding"
+        "Daraja la Viwanda",
+        "Ulinzi wa EMI"
       ]
     }
   },
   "handTools": {
     "wrenchSets": {
-      "name": "Professional Wrench Sets",
-      "description": "Complete sets of combination and adjustable wrenches",
+      "name": "Seti za Wrench za Kitaalamu",
+      "description": "Seti kamili za wrench za mchanganyiko na zinazoweza kubadilishwa",
       "features": [
-        "Chrome Vanadium Steel",
-        "Metric & SAE Sizes",
-        "Professional Grade",
-        "Lifetime Warranty"
+        "Chuma cha Vanadium cha Chrome",
+        "Ukubwa wa Metric & SAE",
+        "Daraja la Kitaalamu",
+        "Udhamini wa Maisha"
       ]
     },
     "screwdriverSets": {
-      "name": "Precision Screwdriver Sets",
-      "description": "High-quality screwdrivers for precision applications",
+      "name": "Seti za Bisibisi za Usahihi",
+      "description": "Bisibisi za ubora wa juu kwa matumizi ya usahihi",
       "features": [
-        "Ergonomic Handles",
-        "Magnetic Tips",
-        "Multiple Head Types",
-        "Anti-Slip Grip"
+        "Vichwa vya Ergonomic",
+        "Ncha za Sumaku",
+        "Aina Nyingi za Vichwa",
+        "Mshiko wa Kuzuia Kuteleza"
       ]
     },
     "toolKits": {
-      "name": "Industrial Tool Kits",
-      "description": "Comprehensive tool kits for industrial maintenance",
+      "name": "Vifaa vya Zana za Viwandani",
+      "description": "Vifaa kamili vya zana kwa matengenezo ya viwandani",
       "features": [
-        "Complete Tool Set",
-        "Organized Storage",
-        "Heavy-Duty Case",
-        "Professional Quality"
+        "Seti Kamili ya Zana",
+        "Hifadhi Iliyopangwa",
+        "Kesi ya Kazi Nzito",
+        "Ubora wa Kitaalamu"
       ]
     }
   },
   "powerTools": {
     "drillSets": {
-      "name": "Industrial Drill Sets",
-      "description": "Heavy-duty electric and cordless drills for industrial applications",
+      "name": "Seti za Mashine za Kuchimba za Viwandani",
+      "description": "Mashine za kuchimba umeme na zisizo na waya za kazi nzito kwa matumizi ya viwandani",
       "features": [
-        "High Torque",
-        "Variable Speed",
-        "Cordless Options",
-        "Chuck Capacity: 13mm"
+        "Torque ya Juu",
+        "Kasi Inayobadilika",
+        "Chaguo Zisizo na Waya",
+        "Uwezo wa Chuck: 13mm"
       ]
     },
     "angleGrinders": {
-      "name": "Angle Grinders",
-      "description": "Professional angle grinders for cutting and grinding operations",
+      "name": "Mashine za Kusaga Pembeni",
+      "description": "Mashine za kusaga pembeni za kitaalamu kwa shughuli za kukata na kusaga",
       "features": [
-        "Multiple Disc Sizes",
-        "Safety Guards",
-        "Anti-Vibration",
-        "Powerful Motors"
+        "Ukubwa Nyingi za Diski",
+        "Walinzi wa Usalama",
+        "Kuzuia Mtetemo",
+        "Motors Zenye Nguvu"
       ]
     },
     "impactWrenches": {
-      "name": "Impact Wrenches",
-      "description": "High-torque impact wrenches for heavy-duty fastening",
+      "name": "Wrench za Athari",
+      "description": "Wrench za athari za torque ya juu kwa kufunga kazi nzito",
       "features": [
-        "High Impact Force",
-        "Socket Compatibility",
-        "Forward/Reverse",
-        "Battery Powered"
+        "Nguvu ya Juu ya Athari",
+        "Utangamano wa Soketi",
+        "Mbele/Nyuma",
+        "Inaendeshwa na Betri"
       ]
     }
   },
   "cuttingTools": {
     "sawBlades": {
-      "name": "Industrial Saw Blades",
-      "description": "High-quality saw blades for metal and wood cutting",
+      "name": "Vipande vya Msumeno vya Viwandani",
+      "description": "Vipande vya msumeno vya ubora wa juu kwa kukata chuma na kuni",
       "features": [
-        "HSS/Carbide Tips",
-        "Multiple TPI",
-        "Bi-Metal Construction",
-        "Long Life"
+        "Ncha za HSS/Carbide",
+        "TPI Nyingi",
+        "Ujenzi wa Bimetali",
+        "Maisha Marefu"
       ]
     },
     "drillBits": {
-      "name": "Drill Bits & Reamers",
-      "description": "Precision drilling and reaming tools",
+      "name": "Bits za Kuchimba na Reamers",
+      "description": "Zana za usahihi za kuchimba visima na kurejesha",
       "features": [
         "HSS/Cobalt",
-        "Jobber Length",
-        "Spiral Flutes",
-        "Split Point"
+        "Urefu wa Jobber",
+        "Filimbi za Spiral",
+        "Ncha Iliyogawanyika"
       ]
     },
     "millingCutters": {
-      "name": "Milling Cutters",
-      "description": "End mills and face mills for machining operations",
+      "name": "Vipunguza vya Kusaga",
+      "description": "Vinu vya mwisho na vinu vya uso kwa shughuli za machining",
       "features": [
         "Carbide/HSS",
-        "Multiple Flutes",
-        "Coated Options",
-        "Various Geometries"
+        "Filimbi Nyingi",
+        "Chaguo Zilizopakwa",
+        "Jiometri Mbalimbali"
       ]
     }
   },
   "liftingEquipment": {
     "chainHoists": {
-      "name": "Chain Hoists & Slings",
-      "description": "Manual and electric chain hoists for heavy lifting",
+      "name": "Hoists za Mnyororo na Slingi",
+      "description": "Hoists za mnyororo za mwongozo na umeme kwa kuinua vitu vizito",
       "features": [
-        "1-20 Ton Capacity",
-        "Electric/Manual",
-        "Safety Hooks",
-        "Overload Protection"
+        "Uwezo wa 1-20 Tani",
+        "Umeme/Mwongozo",
+        "Huko za Usalama",
+        "Ulinzi wa Kupakia Kupita Kiasi"
       ]
     },
     "wireRope": {
-      "name": "Wire Rope & Cables",
-      "description": "High-strength wire rope for lifting applications",
+      "name": "Kamba na Kebo za Waya",
+      "description": "Kamba ya waya ya nguvu ya juu kwa matumizi ya kuinua",
       "features": [
-        "Galvanized Steel",
-        "Multiple Lay Types",
-        "Various Diameters",
-        "IWRC Core"
+        "Chuma Kilichoangaziwa",
+        "Aina Nyingi za Kuweka",
+        "Vipenyo Mbalimbali",
+        "Msingi wa IWRC"
       ]
     },
     "liftingHardware": {
-      "name": "Lifting Hardware",
-      "description": "Shackles, hooks, and rigging hardware",
+      "name": "Vifaa vya Kuinua",
+      "description": "Pingu, ndoano na vifaa vya kuunganisha",
       "features": [
-        "Stainless Steel",
-        "Safety Pins",
-        "Load Rated",
-        "ANSI/ASME Standards"
+        "Chuma cha pua",
+        "Pini za Usalama",
+        "Imekadiriwa kwa Mzigo",
+        "Viwango vya ANSI/ASME"
       ]
     }
   },
   "instrumentation": {
     "sensors": {
-      "title": "Industrial Sensors",
-      "shortDescription": "Comprehensive range of industrial-grade sensors for automation and process control",
-      "fullDescription": "Advanced sensor solutions including temperature, pressure, position, motion, flow, level, proximity, and specialized sensors. Our sensor portfolio features digital temperature sensors with silicon-based ICs, pressure sensors for water conservancy and industrial applications, position sensors with MEMS technology, and vision sensors with image processing systems for quality control.",
+      "title": "Sensorer za Viwandani",
+      "shortDescription": "Aina mbalimbali za sensorer za kiwango cha viwanda kwa ajili ya otomatiki na udhibiti wa mchakato",
+      "fullDescription": "Suluhisho za hali ya juu za sensorer ikiwa ni pamoja na joto, shinikizo, msimamo, mwendo, mtiririko, kiwango, ukaribu, na sensorer maalum. Kwingineko yetu ya sensorer ina sensorer za joto za dijiti na IC za msingi wa silikoni, sensorer za shinikizo kwa uhifadhi wa maji na matumizi ya viwandani, sensorer za msimamo na teknolojia ya MEMS, na sensorer za maono na mifumo ya usindikaji wa picha kwa udhibiti wa ubora.",
       "specifications": [
-        "Temperature Range: -40°C to +125°C",
-        "Pressure Range: Vacuum to 7500 PSI",
-        "Signal Output: 4-20mA, 0-10V, Digital (USB, PNP/NPN)",
-        "Resolution: Up to 24-bit for high precision",
-        "Response Time: <10ms for critical applications",
-        "IP Protection: IP65/IP67/IP69K ratings available"
+        "Kiwango cha Joto: -40°C hadi +125°C",
+        "Kiwango cha Shinikizo: Utupu hadi 7500 PSI",
+        "Pato la Ishara: 4-20mA, 0-10V, Dijitali (USB, PNP/NPN)",
+        "Azimio: Hadi biti 24 kwa usahihi wa hali ya juu",
+        "Muda wa Majibu: <10ms kwa matumizi muhimu",
+        "Ulinzi wa IP: Ukadiriaji wa IP65/IP67/IP69K unapatikana"
       ],
       "applications": [
-        "Process Control & Monitoring",
-        "Manufacturing Automation",
-        "Quality Control Systems",
-        "Safety & Security Systems",
-        "Environmental Monitoring",
-        "Predictive Maintenance"
+        "Udhibiti na Ufuatiliaji wa Mchakato",
+        "Automation ya Utengenezaji",
+        "Mifumo ya Udhibiti wa Ubora",
+        "Mifumo ya Usalama na Ulinzi",
+        "Ufuatiliaji wa Mazingira",
+        "Matengenezo ya Utabiri"
       ],
       "features": [
-        "Industry 4.0 Ready with IoT Connectivity",
-        "Self-Diagnostics & Calibration",
-        "Multiple Communication Protocols",
-        "Explosion-Proof Variants Available",
-        "Extended Temperature Stability",
-        "Low Power Consumption"
+        "Viwanda 4.0 Tayari na Muunganisho wa IoT",
+        "Uchunguzi wa Kibinafsi na Usawazishaji",
+        "Itifaki Nyingi za Mawasiliano",
+        "Toleo za Uthibitisho wa Mlipuko Zinapatikana",
+        "Utulivu wa Joto Uliopanuliwa",
+        "Matumizi ya Chini ya Nishati"
       ],
       "keyBenefits": [
-        "High Accuracy & Reliability",
-        "Easy Integration & Configuration",
-        "Reduced Maintenance Requirements",
-        "Enhanced Safety Compliance",
-        "Long-Term Stability",
-        "Cost-Effective Operation"
+        "Usahihi na Uaminifu wa Juu",
+        "Ujumuishaji na Usanidi Rahisi",
+        "Mahitaji ya Matengenezo Yaliyopunguzwa",
+        "Uzingatiaji wa Usalama Ulioimarishwa",
+        "Utulivu wa Muda Mrefu",
+        "Uendeshaji wa Gharama nafuu"
       ],
       "industries": [
-        "Oil & Gas",
-        "Chemical & Petrochemical",
-        "Power Generation",
-        "Water Treatment",
-        "Food & Beverage",
-        "Automotive Manufacturing"
+        "Mafuta na Gesi",
+        "Kemikali na Petrochemical",
+        "Uzaji wa Nguvu",
+        "Utengenezaji wa Maji",
+        "Chakula na Vinywaji",
+        "Utengenezaji wa Magari"
       ],
       "certifications": [
         "CE",
@@ -309,7 +309,7 @@
         "SIL 2/3"
       ],
       "technicalData": {
-        "operatingTemp": "-40°C to +125°C",
+        "operatingTemp": "-40°C hadi +125°C",
         "protection": "IP65/IP67/IP69K",
         "communication": [
           "4-20mA",
@@ -318,53 +318,53 @@
           "Ethernet",
           "Wireless"
         ],
-        "accuracy": "±0.1% to ±0.5% of span",
-        "power": "24V DC, 115/230V AC, Loop-powered"
+        "accuracy": "±0.1% hadi ±0.5% ya upeo",
+        "power": "24V DC, 115/230V AC, Inaendeshwa na Kitanzi"
       }
     },
     "transmitters": {
-      "title": "Transmitters & Transducers",
-      "shortDescription": "Precision transmitters for pressure, temperature, flow, and level measurement",
-      "fullDescription": "Comprehensive range of industrial transmitters including pressure transmitters (gauge, absolute, differential), temperature transmitters, flow measurement devices, and multivariable transmitters. Features advanced technologies like strain gauge, capacitive, and piezoresistive sensing with HART digital communication. Market leaders like Emerson Rosemount, ABB, Yokogawa, and Honeywell provide reliable solutions for process industries.",
+      "title": "Visambazaji na Vibadilishaji",
+      "shortDescription": "Visambazaji sahihi kwa shinikizo, joto, mtiririko, na kipimo cha kiwango",
+      "fullDescription": "Aina mbalimbali za visambazaji vya viwandani ikiwa ni pamoja na visambazaji shinikizo (geji, kamili, tofauti), visambazaji joto, vifaa vya kupimia mtiririko, na visambazaji vya vigezo vingi. Inaangazia teknolojia za hali ya juu kama vile kupima mkazo, uwezo, na kuhisi piezoresistive na mawasiliano ya dijiti ya HART. Viongozi wa soko kama vile Emerson Rosemount, ABB, Yokogawa, na Honeywell hutoa suluhisho za kuaminika kwa tasnia za mchakato.",
       "specifications": [
-        "Accuracy: ±0.05% to ±0.25% of span",
-        "Stability: 5-year ±0.1% span stability",
-        "Operating Range: Up to 7,500 PSI pressure",
-        "Rangeability: Up to 400:1 turndown ratio",
-        "Output: 4-20mA + HART digital",
-        "Multivariable: Pressure, flow, temperature in one device"
+        "Usahihi: ±0.05% hadi ±0.25% ya upeo",
+        "Utulivu: miaka 5 ±0.1% utulivu wa upeo",
+        "Kiwango cha Uendeshaji: Hadi shinikizo la 7,500 PSI",
+        "Uwezo wa Kiwango: Hadi uwiano wa 400:1",
+        "Pato: 4-20mA + dijiti ya HART",
+        "Vigezo vingi: Shinikizo, mtiririko, joto katika kifaa kimoja"
       ],
       "applications": [
-        "Pipeline Monitoring",
-        "Process Control",
-        "Tank Level Measurement",
-        "Flow Measurement",
-        "Safety Systems",
-        "Regulatory Compliance"
+        "Ufuatiliaji wa Bomba",
+        "Udhibiti wa Mchakato",
+        "Kipimo cha Kiwango cha Tangi",
+        "Kipimo cha Mtiririko",
+        "Mifumo ya Usalama",
+        "Uzingatiaji wa Udhibiti"
       ],
       "features": [
-        "Smart Diagnostics & Predictive Maintenance",
-        "Coplanar Technology for Easy Installation",
-        "Remote Seal Capability",
-        "Wireless HART Options",
-        "Temperature Compensation",
-        "Self-Diagnostics"
+        "Uchunguzi Mahiri na Matengenezo ya Utabiri",
+        "Teknolojia ya Coplanar kwa Usakinishaji Rahisi",
+        "Uwezo wa Muhuri wa Mbali",
+        "Chaguzi za Wireless HART",
+        "Fidia ya Joto",
+        "Uchunguzi wa Kibinafsi"
       ],
       "keyBenefits": [
-        "Industry-Leading Accuracy",
-        "Reduced Total Cost of Ownership",
-        "Enhanced Process Optimization",
-        "Improved Safety & Reliability",
-        "Easy Maintenance & Support",
-        "Future-Proof Technology"
+        "Usahihi Unaoongoza Katika Sekta",
+        "Gharama ya Jumla ya Umiliki Iliyopunguzwa",
+        "Uboreshaji wa Mchakato Ulioimarishwa",
+        "Usalama na Uaminifu Ulioboreshwa",
+        "Matengenezo na Usaidizi Rahisi",
+        "Teknolojia ya Baadaye"
       ],
       "industries": [
-        "Oil & Gas",
-        "Chemical Processing",
-        "Refining",
-        "Power Generation",
-        "Pulp & Paper",
-        "Mining & Metals"
+        "Mafuta na Gesi",
+        "Usindikaji wa Kemikali",
+        "Usafishaji",
+        "Uzaji wa Nguvu",
+        "Pulp na Karatasi",
+        "Uchimbaji Madini na Vyuma"
       ],
       "certifications": [
         "SIL 2/3",
@@ -375,7 +375,7 @@
         "NEPSI"
       ],
       "technicalData": {
-        "operatingTemp": "-40°C to +85°C",
+        "operatingTemp": "-40°C hadi +85°C",
         "protection": "IP66/IP67",
         "communication": [
           "HART",
@@ -383,168 +383,168 @@
           "Profibus",
           "Wireless"
         ],
-        "accuracy": "±0.05% to ±0.25% of span",
-        "power": "10.5-42.4V DC, Loop-powered"
+        "accuracy": "±0.05% hadi ±0.25% ya upeo",
+        "power": "10.5-42.4V DC, Inaendeshwa na Kitanzi"
       }
     }
   },
   "bldcSubmersibleSurface": {
     "solar1HP": {
-      "name": "Solar BLDC Submersible Pump - 1HP",
-      "description": "Solar-powered BLDC submersible pump for water wells",
+      "name": "Pampu ya Maji ya BLDC ya Sola - 1HP",
+      "description": "Pampu ya maji ya BLDC inayotumia sola kwa visima vya maji",
       "features": [
-        "Solar Compatible",
-        "1HP Motor",
-        "High Efficiency",
-        "Water-Cooled Design"
+        "Inayooana na Sola",
+        "Motor ya 1HP",
+        "Ufanisi wa Juu",
+        "Muundo Uliopozwa na Maji"
       ]
     },
     "surface2HP": {
-      "name": "DC Surface Pump - 2HP",
-      "description": "High-efficiency BLDC surface pump for irrigation",
+      "name": "Pampu ya Uso ya DC - 2HP",
+      "description": "Pampu ya uso ya BLDC yenye ufanisi wa hali ya juu kwa umwagiliaji",
       "features": [
-        "2HP Power",
-        "Self-Priming",
-        "Dry Run Protection",
-        "Variable Speed"
+        "Nguvu ya 2HP",
+        "Kujijaza",
+        "Ulinzi wa Kukauka",
+        "Kasi Inayobadilika"
       ]
     },
     "hybrid": {
-      "name": "Hybrid BLDC Pump System",
-      "description": "Intelligent pump system with solar and grid backup",
+      "name": "Mfumo wa Pampu ya Mseto ya BLDC",
+      "description": "Mfumo mahiri wa pampu na sola na akiba ya gridi ya taifa",
       "features": [
-        "Hybrid Operation",
-        "Smart Controller",
-        "Remote Monitoring",
-        "Energy Optimization"
+        "Uendeshaji wa Mseto",
+        "Kidhibiti Mahiri",
+        "Ufuatiliaji wa Mbali",
+        "Uboreshaji wa Nishati"
       ]
     }
   },
   "bldcTableWallFan": {
     "tableFan": {
-      "name": "BLDC Table Fan Motors",
-      "description": "Compact BLDC motors for table and desk fans",
+      "name": "Motors za Feni ya Meza ya BLDC",
+      "description": "Motors za BLDC zenye kompakt kwa feni za meza na dawati",
       "features": [
-        "Compact Design",
-        "Silent Operation",
-        "Remote Control",
-        "Timer Function"
+        "Muundo Ulioshikamana",
+        "Uendeshaji Kimya",
+        "Udhibiti wa Mbali",
+        "Kazi ya Kipima Muda"
       ]
     },
     "wallFan": {
-      "name": "BLDC Wall Fan Motors",
-      "description": "Wall-mounted fan motors with BLDC technology",
+      "name": "Motors za Feni ya Ukuta ya BLDC",
+      "description": "Motors za feni zilizowekwa ukutani na teknolojia ya BLDC",
       "features": [
-        "Wall Mount Design",
-        "Oscillating Function",
-        "Speed Control",
-        "Energy Saving"
+        "Muundo wa Ukuta",
+        "Kazi ya Oscillating",
+        "Udhibiti wa Kasi",
+        "Kuokoa Nishati"
       ]
     },
     "pedestalFan": {
-      "name": "BLDC Pedestal Fan Motors",
-      "description": "Height-adjustable pedestal fan motors",
+      "name": "Motors za Feni ya Msingi ya BLDC",
+      "description": "Motors za feni ya msingi inayoweza kurekebishwa kwa urefu",
       "features": [
-        "Height Adjustment",
-        "Tilt Function",
-        "LED Display",
-        "Sleep Mode"
+        "Marekebisho ya Urefu",
+        "Kazi ya Kuinamisha",
+        "Onyesho la LED",
+        "Hali ya Kulala"
       ]
     }
   },
   "centrifugalPumps": {
     "endSuction": {
-      "name": "End Suction Centrifugal Pumps",
-      "description": "Single-stage end suction pumps for general applications",
+      "name": "Pampu za Kati za Kuvuta Mwisho",
+      "description": "Pampu za kuvuta mwisho za hatua moja kwa matumizi ya jumla",
       "features": [
-        "Flow: 10-5000 GPM",
-        "Head: up to 400 ft",
-        "Cast Iron/Stainless Steel",
-        "ANSI/ISO Standards"
+        "Mtiririko: 10-5000 GPM",
+        "Kichwa: hadi futi 400",
+        "Chuma cha Kutupwa/Chuma cha pua",
+        "Viwango vya ANSI/ISO"
       ]
     },
     "multiStage": {
-      "name": "Multi-Stage Centrifugal Pumps",
-      "description": "High-pressure multi-stage pumps for demanding applications",
+      "name": "Pampu za Kati za Hatua Nyingi",
+      "description": "Pampu za hatua nyingi za shinikizo la juu kwa matumizi yanayohitaji",
       "features": [
-        "High Pressure Capability",
-        "Compact Design",
-        "Energy Efficient",
-        "Balanced Impellers"
+        "Uwezo wa Shinikizo la Juu",
+        "Muundo Ulioshikamana",
+        "Ufanisi wa Nishati",
+        "Impeller Zilizosawazishwa"
       ]
     },
     "chemicalProcess": {
-      "name": "Chemical Process Pumps",
-      "description": "Corrosion-resistant pumps for chemical processing",
+      "name": "Pampu za Mchakato wa Kemikali",
+      "description": "Pampu zinazostahimili kutu kwa usindikaji wa kemikali",
       "features": [
-        "Corrosion Resistant",
-        "Seal-less Design Options",
-        "API 610 Compliant",
-        "High Temperature"
+        "Inayostahimili Kutumia",
+        "Chaguzi za Muundo Usio na Muhuri",
+        "API 610 Inatii",
+        "Joto la Juu"
       ]
     }
   },
   "circuitBreakersFuses": {
     "mcb": {
-      "name": "Miniature Circuit Breakers (MCB)",
-      "description": "Low voltage circuit breakers for residential and commercial use",
+      "name": "Vivunja Mzunguko Vidogo (MCB)",
+      "description": "Vivunja mzunguko vya volti ya chini kwa matumizi ya makazi na biashara",
       "features": [
-        "B, C, D Curves",
-        "6-63A Rating",
-        "10kA Breaking Capacity",
-        "DIN Rail Mount"
+        "Mito ya B, C, D",
+        "Ukadiriaji wa 6-63A",
+        "Uwezo wa Kuvunja wa 10kA",
+        "Mlima wa Reli ya DIN"
       ]
     },
     "mccb": {
-      "name": "Molded Case Circuit Breakers (MCCB)",
-      "description": "Industrial circuit breakers for motor and power protection",
+      "name": "Vivunja Mzunguko vya Kesi Iliyoundwa (MCCB)",
+      "description": "Vivunja mzunguko vya viwandani kwa ulinzi wa injini na nguvu",
       "features": [
-        "Adjustable Trip",
-        "High Breaking Capacity",
-        "Electronic Trip Units",
-        "Up to 1600A"
+        "Safari Inayoweza Kurekebishwa",
+        "Uwezo wa Juu wa Kuvunja",
+        "Vitengo vya Safari vya Kielektroniki",
+        "Hadi 1600A"
       ]
     },
     "industrialFuses": {
-      "name": "Industrial Fuses",
-      "description": "High-speed fuses for equipment protection",
+      "name": "Fyuzi za Viwandani",
+      "description": "Fyuzi za kasi ya juu kwa ulinzi wa vifaa",
       "features": [
-        "Fast Acting",
-        "Time Delay",
-        "High Voltage",
-        "Ceramic Body"
+        "Kutenda Haraka",
+        "Ucheleweshaji wa Muda",
+        "Volti ya Juu",
+        "Mwiri wa Kauri"
       ]
     }
   },
   "connectorsTerminals": {
     "terminalBlocks": {
-      "name": "Terminal Blocks",
-      "description": "Industrial terminal blocks for secure wire connections",
+      "name": "Vitalu vya Kituo",
+      "description": "Vitalu vya kituo vya viwandani kwa miunganisho salama ya waya",
       "features": [
-        "Spring Clamp",
-        "Screw Type",
-        "DIN Rail Mount",
-        "Multiple Sizes"
+        "Kifaa cha Spring",
+        "Aina ya Screw",
+        "Mlima wa Reli ya DIN",
+        "Ukubwa Nyingi"
       ]
     },
     "industrialConnectors": {
-      "name": "Industrial Connectors",
-      "description": "Heavy-duty connectors for industrial applications",
+      "name": "Viunganishi vya Viwandani",
+      "description": "Viunganishi vya kazi nzito kwa matumizi ya viwandani",
       "features": [
-        "IP67 Rating",
-        "Locking Mechanism",
-        "Multi-Pin",
-        "Cable Glands"
+        "Ukadiriaji wa IP67",
+        "Utaratibu wa Kufunga",
+        "Pini Nyingi",
+        "Tezi za Kebo"
       ]
     },
     "signalConnectors": {
-      "name": "Signal Connectors",
-      "description": "Precision connectors for instrumentation signals",
+      "name": "Viunganishi vya Ishara",
+      "description": "Viunganishi vya usahihi kwa ishara za ala",
       "features": [
-        "Low Noise",
-        "Shielded Design",
-        "Miniature Size",
-        "High Reliability"
+        "Kelele Chini",
+        "Muundo Uliolindwa",
+        "Ukubwa Mdogo",
+        "Uaminifu wa Juu"
       ]
     }
   },
@@ -552,128 +552,128 @@
     "plcs": {
       "siemensS7": {
         "name": "Siemens SIMATIC S7-1200",
-        "description": "Compact modular PLC for small to medium automation applications",
+        "description": "PLC ya moduli iliyoshikana kwa matumizi madogo hadi ya kati ya otomatiki",
         "features": [
-          "Integrated Digital and Analog I/O",
-          "Built-in Ethernet Communication",
-          "TIA Portal Programming",
-          "Failsafe Technology Available"
+          "I/O ya Dijitali na Analogi Iliyounganishwa",
+          "Mawasiliano ya Ethernet Iliyojengwa",
+          "Programu ya TIA Portal",
+          "Teknolojia Salama Inapatikana"
         ]
       },
       "allenBradley": {
         "name": "Allen-Bradley CompactLogix 5380",
-        "description": "High-performance PLC with integrated safety capabilities",
+        "description": "PLC ya utendaji wa juu na uwezo jumuishi wa usalama",
         "features": [
-          "Integrated Safety Functions",
-          "EtherNet/IP Communication",
-          "Studio 5000 Programming",
-          "Motion Control Integration"
+          "Kazi za Usalama Zilizounganishwa",
+          "Mawasiliano ya EtherNet/IP",
+          "Programu ya Studio 5000",
+          "Ujumuishaji wa Udhibiti wa Mwendo"
         ]
       },
       "schneider": {
         "name": "Schneider Electric Modicon M580",
-        "description": "Enterprise PLC platform with hot standby redundancy",
+        "description": "Jukwaa la PLC la biashara na urudufishaji wa kusubiri moto",
         "features": [
-          "Hot Standby Redundancy",
-          "Ethernet Backbone Architecture",
-          "Unity Pro Programming",
-          "Advanced Cybersecurity"
+          "Ufumbuzi wa Kusubiri Moto",
+          "Usanifu wa Msingi wa Ethernet",
+          "Programu ya Unity Pro",
+          "Usalama wa Mtandao wa Juu"
         ]
       }
     },
     "hmi": {
       "panelMount": {
-        "name": "Panel Mount HMI",
-        "description": "Industrial touchscreen panels for process visualization",
+        "name": "HMI ya Kupachika Paneli",
+        "description": "Paneli za kugusa za viwandani kwa taswira ya mchakato",
         "features": [
-          "Multi-touch Capacitive Display",
-          "Web-based Configuration",
-          "Alarm Management",
-          "Data Logging"
+          "Onyesho la Uwezo wa Kugusa Nyingi",
+          "Usanidi wa Msingi wa Wavuti",
+          "Usimamizi wa Kengele",
+          "Uwekaji Kumbukumbu wa Data"
         ]
       },
       "operatorInterface": {
-        "name": "Operator Interface Station",
-        "description": "Advanced operator workstations for process control",
+        "name": "Kituo cha Kiolesura cha Opereta",
+        "description": "Vituo vya kazi vya opereta vya hali ya juu kwa udhibiti wa mchakato",
         "features": [
-          "High-resolution Display",
-          "Multi-protocol Support",
-          "Historical Trending",
-          "Report Generation"
+          "Onyesho la Ubora wa Juu",
+          "Usaidizi wa Itifaki Nyingi",
+          "Mielekeo ya Kihistoria",
+          "Uzalishaji wa Ripoti"
         ]
       },
       "mobile": {
-        "name": "Mobile HMI",
-        "description": "Mobile solutions for remote process monitoring",
+        "name": "HMI ya Simu",
+        "description": "Suluhisho za rununu kwa ufuatiliaji wa mchakato wa mbali",
         "features": [
-          "Wireless Connectivity",
-          "Mobile App Support",
-          "Remote Access",
-          "Real-time Notifications"
+          "Muunganisho wa Wireless",
+          "Msaada wa Programu ya Simu",
+          "Ufikiaji wa Mbali",
+          "Arifa za Wakati Halisi"
         ]
       }
     },
     "scada": {
       "wonderware": {
-        "name": "Wonderware System Platform",
-        "description": "Comprehensive SCADA platform for industrial automation",
+        "name": "Jukwaa la Mfumo wa Wonderware",
+        "description": "Jukwaa pana la SCADA kwa otomatiki ya viwandani",
         "features": [
-          "Real-time Data Acquisition",
-          "Historical Trending",
-          "Alarm Management",
-          "Web-based HMI"
+          "Upataji wa Data wa Wakati Halisi",
+          "Mielekeo ya Kihistoria",
+          "Usimamizi wa Kengele",
+          "HMI ya Msingi wa Wavuti"
         ]
       },
       "geFix": {
         "name": "GE iFIX SCADA",
-        "description": "Advanced SCADA software for process visualization",
+        "description": "Programu ya hali ya juu ya SCADA kwa taswira ya mchakato",
         "features": [
-          "Process Graphics",
-          "Data Logging",
-          "Report Generation",
-          "OPC Connectivity"
+          "Michoro ya Mchakato",
+          "Uwekaji Kumbukumbu wa Data",
+          "Uzalishaji wa Ripoti",
+          "Muunganisho wa OPC"
         ]
       },
       "siemensWinCC": {
         "name": "Siemens WinCC SCADA",
-        "description": "Industrial SCADA system for monitoring and control",
+        "description": "Mfumo wa SCADA wa viwandani kwa ufuatiliaji na udhibiti",
         "features": [
-          "TIA Portal Integration",
-          "Web Client Support",
-          "Mobile Access",
-          "Redundancy Options"
+          "Ujumuishaji wa TIA Portal",
+          "Msaada wa Mteja wa Wavuti",
+          "Ufikiaji wa Simu",
+          "Chaguzi za Rudufu"
         ]
       }
     },
     "dcs": {
       "honeywellExperion": {
         "name": "Honeywell Experion PKS",
-        "description": "Distributed control system for process industries",
+        "description": "Mfumo wa udhibiti uliosambazwa kwa tasnia za mchakato",
         "features": [
-          "Process Control",
-          "Safety Systems",
-          "Asset Management",
-          "Advanced Control"
+          "Udhibiti wa Mchakato",
+          "Mifumo ya Usalama",
+          "Usimamizi wa Mali",
+          "Udhibiti wa Juu"
         ]
       },
       "abbSystem800xA": {
-        "name": "ABB System 800xA",
-        "description": "Extended automation system for industrial processes",
+        "name": "Mfumo wa ABB 800xA",
+        "description": "Mfumo uliopanuliwa wa otomatiki kwa michakato ya viwandani",
         "features": [
-          "Integrated Engineering",
-          "Safety Certified",
-          "Cybersecurity",
-          "Lifecycle Management"
+          "Uhandisi Uliounganishwa",
+          "Imethibitishwa na Usalama",
+          "Usalama wa Mtandao",
+          "Usimamizi wa Mzunguko wa Maisha"
         ]
       },
       "emersonDeltaV": {
         "name": "Emerson DeltaV",
-        "description": "Modern DCS with digital transformation capabilities",
+        "description": "DCS ya kisasa yenye uwezo wa mabadiliko ya kidijitali",
         "features": [
-          "Digital Twin Technology",
-          "Predictive Analytics",
-          "Wireless Integration",
-          "Cloud Connectivity"
+          "Teknolojia Pacha ya Dijitali",
+          "Uchanganuzi wa Utabiri",
+          "Ujumuishaji wa Wireless",
+          "Muunganisho wa Wingu"
         ]
       }
     }
@@ -682,7 +682,7 @@
     "siemens": {
       "simaticS7_1200": "Siemens SIMATIC S7-1200",
       "simaticS7_1500": "Siemens SIMATIC S7-1500",
-      "logoSeries": "Siemens LOGO! Series"
+      "logoSeries": "Mfululizo wa Siemens LOGO!"
     },
     "allenBradley": {
       "compactLogix5380": "Allen-Bradley CompactLogix 5380",
@@ -695,9 +695,9 @@
       "zelio": "Schneider Electric Zelio Logic"
     },
     "solar": {
-      "monocrystalline400W": "Monocrystalline Solar Panels - 400W",
-      "polycrystalline320W": "Polycrystalline Solar Panels - 320W",
-      "bifacial450W": "Bifacial Solar Panels - 450W"
+      "monocrystalline400W": "Paneli za Sola za Monocrystalline - 400W",
+      "polycrystalline320W": "Paneli za Sola za Polycrystalline - 320W",
+      "bifacial450W": "Paneli za Sola za Bifacial - 450W"
     }
   }
 }

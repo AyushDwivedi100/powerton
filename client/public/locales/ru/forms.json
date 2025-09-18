@@ -2,323 +2,325 @@
   "contact": {
     "fields": {
       "name": {
-        "label": "Full Name",
-        "placeholder": "Enter your full name",
-        "error": "Name is required"
+        "label": "Полное имя",
+        "placeholder": "Введите ваше полное имя",
+        "error": "Имя обязательно для заполнения"
       },
       "email": {
-        "label": "Email Address",
-        "placeholder": "Enter your email address",
-        "error": "Please enter a valid email address"
+        "label": "Адрес электронной почты",
+        "placeholder": "Введите ваш адрес электронной почты",
+        "error": "Пожалуйста, введите действительный адрес электронной почты"
       },
       "phone": {
-        "label": "Phone Number",
-        "placeholder": "Enter your phone number",
-        "error": "Phone number is required"
+        "label": "Номер телефона",
+        "placeholder": "Введите ваш номер телефона",
+        "error": "Номер телефона обязателен для заполнения"
       },
       "company": {
-        "label": "Company Name",
-        "placeholder": "Enter your company name"
+        "label": "Название компании",
+        "placeholder": "Введите название вашей компании"
       },
       "serviceType": {
-        "label": "Service Type",
-        "placeholder": "Select service type"
+        "label": "Тип услуги",
+        "placeholder": "Выберите тип услуги"
       },
       "subject": {
-        "label": "Subject",
-        "placeholder": "Enter subject",
-        "error": "Subject is required"
+        "label": "Тема",
+        "placeholder": "Введите тему",
+        "error": "Тема обязательна для заполнения"
       },
       "message": {
-        "label": "Message",
-        "placeholder": "Enter your message",
-        "error": "Message is required"
+        "label": "Сообщение",
+        "placeholder": "Введите ваше сообщение",
+        "error": "Сообщение обязательно для заполнения"
       }
     },
     "buttons": {
-      "submit": "Send Message",
-      "sending": "Sending...",
-      "callNow": "Call Now",
-      "emailUs": "Email Us"
+      "submit": "Отправить сообщение",
+      "sending": "Отправка...",
+      "callNow": "Позвонить сейчас",
+      "emailUs": "Написать нам"
     },
     "messages": {
-      "success": "Thank you! Your message has been sent successfully.",
-      "successDesc": "We'll get back to you within 24 hours.",
-      "error": "Failed to send message",
-      "errorDesc": "Please try again or contact us directly at {{phone}} or {{email}}"
+      "success": "Спасибо! Ваше сообщение успешно отправлено.",
+      "successDesc": "Мы свяжемся с вами в течение 24 часов.",
+      "error": "Не удалось отправить сообщение",
+      "errorDesc": "Пожалуйста, попробуйте еще раз или свяжитесь с нами напрямую по телефону {{phone}} или электронной почте {{email}}"
     }
   },
   "quote": {
     "fields": {
       "name": {
-        "label": "Full Name",
-        "placeholder": "Enter your full name"
+        "label": "Полное имя",
+        "placeholder": "Введите ваше полное имя"
       },
       "email": {
-        "label": "Email Address",
-        "placeholder": "Enter your email address"
+        "label": "Адрес электронной почты",
+        "placeholder": "Введите ваш адрес электронной почты"
       },
       "phone": {
-        "label": "Phone Number",
-        "placeholder": "Enter your phone number"
+        "label": "Номер телефона",
+        "placeholder": "Введите ваш номер телефона"
       },
       "company": {
-        "label": "Company Name",
-        "placeholder": "Enter your company name"
+        "label": "Название компании",
+        "placeholder": "Введите название вашей компании"
       },
       "designation": {
-        "label": "Designation",
-        "placeholder": "Enter your designation"
+        "label": "Должность",
+        "placeholder": "Введите вашу должность"
       },
       "projectTitle": {
-        "label": "Project Title",
-        "placeholder": "Enter project title"
+        "label": "Название проекта",
+        "placeholder": "Введите название проекта"
       },
       "projectType": {
-        "label": "Project Type",
-        "placeholder": "Select project type"
+        "label": "Тип проекта",
+        "placeholder": "Выберите тип проекта"
       },
       "budget": {
-        "label": "Budget Range",
-        "placeholder": "Select budget range"
+        "label": "Диапазон бюджета",
+        "placeholder": "Выберите диапазон бюджета"
       },
       "timeline": {
-        "label": "Timeline",
-        "placeholder": "Select project timeline"
+        "label": "Сроки",
+        "placeholder": "Выберите сроки проекта"
       },
       "services": {
-        "label": "Services Required",
-        "placeholder": "Select required services"
+        "label": "Необходимые услуги",
+        "placeholder": "Выберите необходимые услуги"
       },
       "specifications": {
-        "label": "Technical Specifications",
-        "placeholder": "Describe your technical requirements"
+        "label": "Технические характеристики",
+        "placeholder": "Опишите ваши технические требования"
       },
       "additionalRequirements": {
-        "label": "Additional Requirements",
-        "placeholder": "Any additional requirements"
+        "label": "Дополнительные требования",
+        "placeholder": "Любые дополнительные требования"
       },
       "industryType": {
-        "label": "Industry Type",
-        "placeholder": "Select your industry"
+        "label": "Тип отрасли",
+        "placeholder": "Выберите вашу отрасль"
       },
       "projectScale": {
-        "label": "Project Scale",
-        "placeholder": "Select project scale"
+        "label": "Масштаб проекта",
+        "placeholder": "Выберите масштаб проекта"
       },
       "preferredBrands": {
-        "label": "Preferred Brands",
-        "placeholder": "Any preferred brands or manufacturers"
+        "label": "Предпочитаемые бренды",
+        "placeholder": "Любые предпочитаемые бренды или производители"
       }
     },
     "projectTypes": {
-      "newInstallation": "New Installation",
-      "systemUpgrade": "System Upgrade", 
-      "retrofit": "Retrofit",
-      "maintenance": "Maintenance Contract",
-      "consultation": "Technical Consultation",
-      "design": "Design & Engineering"
+      "newInstallation": "Новая установка",
+      "systemUpgrade": "Обновление системы",
+      "retrofit": "Модернизация",
+      "maintenance": "Контракт на обслуживание",
+      "consultation": "Техническая консультация",
+      "design": "Проектирование и инжиниринг"
     },
     "timelines": {
-      "immediate": "Immediate (< 1 month)",
-      "1-3-months": "1-3 months",
-      "3-6-months": "3-6 months",
-      "6-12-months": "6-12 months",
-      "1-year-plus": "More than 1 year"
+      "immediate": "Немедленно (< 1 месяца)",
+      "1-3-months": "1-3 месяца",
+      "3-6-months": "3-6 месяцев",
+      "6-12-months": "6-12 месяцев",
+      "1-year-plus": "Более 1 года"
     },
     "budgetRanges": {
-      "under-1-lakh": "Under ₹1 Lakh",
-      "1-5-lakh": "₹1-5 Lakhs",
-      "5-10-lakh": "₹5-10 Lakhs",
-      "10-25-lakh": "₹10-25 Lakhs",
-      "25-50-lakh": "₹25-50 Lakhs",
-      "50-lakh-plus": "₹50 Lakhs+",
-      "discuss": "Prefer to discuss"
+      "under-1-lakh": "Менее ₹1 Лакх",
+      "1-5-lakh": "₹1-5 Лакхов",
+      "5-10-lakh": "₹5-10 Лакхов",
+      "10-25-lakh": "₹10-25 Лакхов",
+      "25-50-lakh": "₹25-50 Лакхов",
+      "50-lakh-plus": "₹50 Лакхов+",
+      "discuss": "Предпочитаю обсудить"
     },
     "validation": {
-      "nameMin": "Name must be at least 2 characters",
-      "emailInvalid": "Please enter a valid email address",
-      "phoneMin": "Please enter a valid phone number",
-      "companyRequired": "Company name is required",
-      "projectTitleRequired": "Project title is required",
-      "projectTypeRequired": "Please select a project type",
-      "timelineRequired": "Please select expected timeline",
-      "servicesRequired": "Please select at least one service",
-      "specificationsMin": "Please provide detailed specifications (minimum 20 characters)",
-      "nameRequired": "Name is required",
-      "phoneRequired": "Phone number is required",
-      "subjectRequired": "Subject is required",
-      "messageRequired": "Message is required",
-      "firstNameRequired": "First name is required",
-      "lastNameRequired": "Last name is required",
-      "invalidEmail": "Invalid email address",
-      "selectService": "Please select a service",
-      "projectDetailsRequired": "Project details are required"
+      "nameMin": "Имя должно содержать не менее 2 символов",
+      "emailInvalid": "Пожалуйста, введите действительный адрес электронной почты",
+      "phoneMin": "Пожалуйста, введите действительный номер телефона",
+      "companyRequired": "Название компании обязательно для заполнения",
+      "projectTitleRequired": "Название проекта обязательно для заполнения",
+      "projectTypeRequired": "Пожалуйста, выберите тип проекта",
+      "timelineRequired": "Пожалуйста, выберите ожидаемые сроки",
+      "servicesRequired": "Пожалуйста, выберите хотя бы одну услугу",
+      "specificationsMin": "Пожалуйста, предоставьте подробные характеристики (минимум 20 символов)",
+      "nameRequired": "Имя обязательно для заполнения",
+      "phoneRequired": "Номер телефона обязателен для заполнения",
+      "subjectRequired": "Тема обязательна для заполнения",
+      "messageRequired": "Сообщение обязательно для заполнения",
+      "firstNameRequired": "Имя обязательно для заполнения",
+      "lastNameRequired": "Фамилия обязательна для заполнения",
+      "invalidEmail": "Недействительный адрес электронной почты",
+      "selectService": "Пожалуйста, выберите услугу",
+      "projectDetailsRequired": "Требуются детали проекта"
     },
     "success": {
-      "title": "Quote request submitted successfully!",
-      "description": "Our engineering team will review your requirements and respond within 24-48 hours."
+      "title": "Запрос на коммерческое предложение успешно отправлен!",
+      "description": "Наша команда инженеров рассмотрит ваши требования и ответит в течение 24-48 часов."
     },
     "placeholders": {
-      "selectIndustry": "Select industry",
-      "selectProjectScale": "Select project scale",
-      "selectBudget": "Select budget range (optional)",
-      "detailedRequirements": "Please provide detailed specifications including:\n- Technical requirements and standards\n- Equipment specifications and quantities\n- Performance requirements\n- Environmental conditions\n- Compliance requirements\n- Any special considerations...",
-      "additionalRequirements": "Any additional requirements, special conditions, or questions...",
-      "preferredBrands": "e.g., Siemens, Allen-Bradley, Schneider..."
+      "selectIndustry": "Выберите отрасль",
+      "selectProjectScale": "Выберите масштаб проекта",
+      "selectBudget": "Выберите диапазон бюджета (необязательно)",
+      "detailedRequirements": "Пожалуйста, предоставьте подробные характеристики, включая:\n- Технические требования и стандарты\n- Спецификации и количество оборудования\n- Требования к производительности\n- Условия окружающей среды\n- Требования соответствия\n- Любые особые соображения...",
+      "additionalRequirements": "Любые дополнительные требования, особые условия или вопросы...",
+      "preferredBrands": "например, Siemens, Allen-Bradley, Schneider..."
     },
     "labels": {
-      "industryType": "Industry Type",
-      "projectScale": "Project Scale",
-      "approximateBudget": "Approximate Budget",
-      "detailedRequirements": "Detailed Requirements *",
-      "preferredBrands": "Preferred Brands/Standards",
-      "additionalRequirements": "Additional Requirements",
-      "projectTitle": "Project Title *",
-      "projectType": "Project Type *",
-      "expectedTimeline": "Expected Timeline *",
-      "phoneNumber": "Phone Number *",
-      "companyName": "Company Name *",
-      "projectInformation": "Project Information",
-      "budgetRange": "Budget Range"
+      "industryType": "Тип отрасли",
+      "projectScale": "Масштаб проекта",
+      "approximateBudget": "Приблизительный бюджет",
+      "detailedRequirements": "Подробные требования *",
+      "preferredBrands": "Предпочитаемые бренды/стандарты",
+      "additionalRequirements": "Дополнительные требования",
+      "projectTitle": "Название проекта *",
+      "projectType": "Тип проекта *",
+      "expectedTimeline": "Ожидаемые сроки *",
+      "phoneNumber": "Номер телефона *",
+      "companyName": "Название компании *",
+      "projectInformation": "Информация о проекте",
+      "budgetRange": "Диапазон бюджета"
     },
     "sections": {
-      "requiredServices": "Required Services *",
-      "contactInfo": "Contact Information",
-      "technicalSpecifications": "Technical Specifications"
+      "requiredServices": "Необходимые услуги *",
+      "contactInfo": "Контактная информация",
+      "technicalSpecifications": "Технические характеристики"
     },
     "error": {
-      "title": "Quote submission failed",
-      "description": "For immediate assistance: {{phone}} or email: {{email}}"
+      "title": "Не удалось отправить запрос на коммерческое предложение",
+      "description": "Для немедленной помощи: {{phone}} или по электронной почте: {{email}}"
     },
-    "submitting": "Submitting Quote Request...",
+    "submitting": "Отправка запроса на коммерческое предложение...",
     "industries": {
-      "manufacturing": "Manufacturing",
-      "powerGeneration": "Power Generation",
-      "waterTreatment": "Water Treatment",
-      "foodProcessing": "Food Processing",
-      "pharmaceutical": "Pharmaceutical",
-      "chemical": "Chemical",
-      "oilGas": "Oil & Gas",
-      "renewableEnergy": "Renewable Energy",
-      "infrastructure": "Infrastructure",
-      "other": "Other"
+      "manufacturing": "Производство",
+      "powerGeneration": "Производство энергии",
+      "waterTreatment": "Очистка воды",
+      "foodProcessing": "Пищевая промышленность",
+      "pharmaceutical": "Фармацевтика",
+      "chemical": "Химическая промышленность",
+      "oilGas": "Нефть и газ",
+      "renewableEnergy": "Возобновляемая энергия",
+      "infrastructure": "Инфраструктура",
+      "other": "Другое"
     },
     "projectScale": {
-      "small": "Small Scale (< 10 I/O points)",
-      "medium": "Medium Scale (10-100 I/O points)",
-      "large": "Large Scale (100-500 I/O points)",
-      "enterprise": "Enterprise (500+ I/O points)"
+      "small": "Малый масштаб (< 10 точек ввода/вывода)",
+      "medium": "Средний масштаб (10-100 точек ввода/вывода)",
+      "large": "Крупный масштаб (100-500 точек ввода/вывода)",
+      "enterprise": "Предприятие (500+ точек ввода/вывода)"
     },
     "buttons": {
-      "getProfessionalQuote": "Get Professional Quote",
-      "submitRequest": "Submit Quote Request",
-      "callUrgent": "Call for Urgent Requirements",
-      "emailRequirements": "Email Requirements"
+      "getProfessionalQuote": "Получить профессиональное коммерческое предложение",
+      "submitRequest": "Отправить запрос на коммерческое предложение",
+      "callUrgent": "Позвонить для срочных требований",
+      "emailRequirements": "Отправить требования по электронной почте"
     },
     "process": {
-      "heading": "What happens next?",
+      "heading": "Что произойдет дальше?",
       "steps": {
-        "technicalReview": "Technical review within 24 hours",
-        "detailedProposal": "Detailed proposal with specifications",
-        "costBreakdown": "Cost breakdown and timeline",
-        "followUpCall": "Follow-up consultation call"
+        "technicalReview": "Технический обзор в течение 24 часов",
+        "detailedProposal": "Подробное предложение со спецификациями",
+        "costBreakdown": "Разбивка затрат и сроки",
+        "followUpCall": "Последующий консультационный звонок"
       }
     },
     "assistance": {
-      "heading": "Need immediate assistance?",
-      "technicalTeam": "+91-94627-71662 (Technical Team)",
+      "heading": "Нужна немедленная помощь?",
+      "technicalTeam": "+91-94627-71662 (Техническая команда)",
       "email": "info@powertonengineering.com"
     }
   },
   "career": {
     "placeholders": {
-      "fullName": "Enter your full name",
+      "fullName": "Введите ваше полное имя",
       "email": "your.email@example.com",
       "phone": "+91 9876543210",
-      "address": "Enter your complete address (House/Flat No., Street, City, State, PIN)",
-      "currentCompany": "Your current company (optional)",
-      "education": "e.g., B.Tech Electrical Engineering",
-      "expectedSalary": "e.g., 5-8 LPA or Negotiable",
-      "skills": "List your technical skills, software knowledge, programming languages, certifications, etc.",
-      "coverLetter": "Tell us about your motivation, career goals, and how you can contribute to our team...",
-      "selectSpecialization": "Select your area of expertise",
-      "selectExperience": "Select experience level",
-      "selectAvailability": "Select your availability"
+      "address": "Введите ваш полный адрес (Номер дома/квартиры, Улица, Город, Область, Индекс)",
+      "currentCompany": "Ваша текущая компания (необязательно)",
+      "education": "например, B.Tech Electrical Engineering",
+      "expectedSalary": "например, 5-8 LPA или Договорная",
+      "skills": "Перечислите ваши технические навыки, знания программного обеспечения, языки программирования, сертификаты и т. д.",
+      "coverLetter": "Расскажите нам о вашей мотивации, карьерных целях и о том, как вы можете внести свой вклад в нашу команду...",
+      "selectSpecialization": "Выберите область вашей экспертизы",
+      "selectExperience": "Выберите уровень опыта",
+      "selectAvailability": "Выберите вашу доступность"
     },
     "labels": {
-      "title": "Join Our Engineering Team",
-      "subtitle": "Submit your application and become part of our innovative engineering solutions team",
-      "personalInfo": "Personal Information",
-      "professionalInfo": "Professional Information",
-      "fullName": "Full Name",
-      "emailAddress": "Email Address",
-      "phoneNumber": "Phone Number",
-      "residingAddress": "Current Residing Address",
-      "specialization": "Engineering Specialization",
-      "experience": "Experience Level",
-      "currentCompany": "Current Company",
-      "availability": "Availability/Notice Period",
-      "education": "Education/Qualification",
-      "expectedSalary": "Expected Salary",
-      "technicalSkills": "Technical Skills & Expertise",
-      "coverLetter": "Cover Letter & Motivation",
-      "resume": "CV/Resume"
+      "title": "Присоединяйтесь к нашей инженерной команде",
+      "subtitle": "Отправьте свою заявку и станьте частью нашей инновационной команды инженерных решений",
+      "personalInfo": "Личная информация",
+      "professionalInfo": "Профессиональная информация",
+      "fullName": "Полное имя",
+      "emailAddress": "Адрес электронной почты",
+      "phoneNumber": "Номер телефона",
+      "residingAddress": "Текущий адрес проживания",
+      "specialization": "Инженерная специализация",
+      "experience": "Уровень опыта",
+      "currentCompany": "Текущая компания",
+      "availability": "Доступность/Срок уведомления",
+      "education": "Образование/Квалификация",
+      "expectedSalary": "Ожидаемая зарплата",
+      "technicalSkills": "Технические навыки и экспертиза",
+      "coverLetter": "Сопроводительное письмо и мотивация",
+      "resume": "CV/Резюме"
     },
     "buttons": {
-      "submit": "Submit Application",
-      "submitting": "Submitting Application...",
-      "uploadResume": "Upload Resume"
+      "submit": "Отправить заявку",
+      "submitting": "Отправка заявки...",
+      "uploadResume": "Загрузить резюме"
     },
     "validation": {
-      "nameMin": "Name must be at least 2 characters",
-      "emailInvalid": "Please enter a valid email address",
-      "phoneMin": "Phone number must be at least 10 digits",
-      "specializationRequired": "Please select your engineering specialization",
-      "experienceRequired": "Please select your experience level",
-      "educationRequired": "Please provide your education details",
-      "joiningTimeRequired": "Please specify how soon you can join",
-      "skillsMin": "Please provide details about your skills",
-      "coverLetterMin": "Please write a brief cover letter (minimum 20 characters)",
-      "addressMin": "Please provide your complete residing address"
+      "nameMin": "Имя должно содержать не менее 2 символов",
+      "emailInvalid": "Пожалуйста, введите действительный адрес электронной почты",
+      "phoneMin": "Номер телефона должен содержать не менее 10 цифр",
+      "specializationRequired": "Пожалуйста, выберите свою инженерную специализацию",
+      "experienceRequired": "Пожалуйста, выберите свой уровень опыта",
+      "educationRequired": "Пожалуйста, предоставьте информацию о вашем образовании",
+      "joiningTimeRequired": "Пожалуйста, укажите, как скоро вы сможете присоединиться",
+      "skillsMin": "Пожалуйста, предоставьте подробную информацию о ваших навыках",
+      "coverLetterMin": "Пожалуйста, напишите краткое сопроводительное письмо (минимум 20 символов)",
+      "addressMin": "Пожалуйста, укажите свой полный адрес проживания"
     },
     "specializations": {
-      "electricalEngineering": "Electrical Engineering",
-      "automationControl": "Automation & Control Systems",
-      "instrumentation": "Instrumentation Engineering",
-      "projectManagement": "Project Management",
-      "technicalSales": "Technical Sales",
-      "fieldService": "Field Service & Commissioning",
-      "designEngineering": "Design & Development",
-      "solarRenewable": "Solar & Renewable Energy",
-      "other": "Other Specialization"
+      "electricalEngineering": "Электротехника",
+      "automationControl": "Автоматизация и системы управления",
+      "instrumentation": "Инженерное приборостроение",
+      "projectManagement": "Управление проектами",
+      "technicalSales": "Технические продажи",
+      "fieldService": "Выездное обслуживание и ввод в эксплуатацию",
+      "designEngineering": "Проектирование и разработка",
+      "solarRenewable": "Солнечная и возобновляемая энергия",
+      "other": "Другая специализация"
     },
     "experience": {
-      "fresher": "Fresher (0-1 years)",
-      "oneToThree": "1-3 years",
-      "threeToFive": "3-5 years",
-      "fiveToEight": "5-8 years",
-      "eightToTwelve": "8-12 years",
-      "twelvePlus": "12+ years"
+      "fresher": "Новичок (0-1 год)",
+      "oneToThree": "1-3 года",
+      "threeToFive": "3-5 лет",
+      "fiveToEight": "5-8 лет",
+      "eightToTwelve": "8-12 лет",
+      "twelvePlus": "12+ лет"
     },
     "joiningTime": {
-      "immediate": "Can join immediately",
-      "fifteenDays": "15 days notice period",
-      "oneMonth": "1 month notice period",
-      "twoMonths": "2 months notice period",
-      "threeMonths": "3 months notice period",
-      "moreThanThree": "More than 3 months notice"
+      "immediate": "Могу присоединиться немедленно",
+      "fifteenDays": "Срок уведомления 15 дней",
+      "oneMonth": "Срок уведомления 1 месяц",
+      "twoMonths": "Срок уведомления 2 месяца",
+      "threeMonths": "Срок уведомления 3 месяца",
+      "moreThanThree": "Срок уведомления более 3 месяцев"
     },
     "helpers": {
-      "resumeFormat": "Accepted formats: PDF, DOC, DOCX (Max size: 5MB)"
+      "resumeFormat": "Принимаемые форматы: PDF, DOC, DOCX (Максимальный размер: 5 МБ)",
+      "changeResume": "Изменить резюме",
+      "uploadResume": "Загрузить резюме"
     },
     "success": {
-      "title": "Application Submitted Successfully!",
-      "description": "Thank you for applying! We will review your application and contact you within 2-3 business days."
+      "title": "Заявка успешно отправлена!",
+      "description": "Спасибо за вашу заявку! Мы рассмотрим вашу заявку и свяжемся с вами в течение 2-3 рабочих дней."
     },
     "error": {
-      "title": "Application Submission Failed",
-      "description": "Please try again or contact us directly at {{phone}} or {{email}}"
+      "title": "Не удалось отправить заявку",
+      "description": "Пожалуйста, выберите файл размером менее 5 МБ."
     }
   }
 }

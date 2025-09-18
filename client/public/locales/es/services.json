@@ -1,284 +1,287 @@
 {
-  "title": "हमारी सेवाएं",
-  "subtitle": "व्यापक औद्योगिक इंजीनियरिंग समाधान",
+  "title": "Nuestros servicios",
+  "subtitle": "Soluciones integrales de ingeniería industrial",
   "categories": {
-    "automation": "औद्योगिक स्वचालन",
-    "electrical": "विद्युत इंजीनियरिंग",
-    "instrumentation": "उपकरण और नियंत्रण",
-    "solar": "सौर समाधान",
-    "maintenance": "रखरखाव और सहायता"
+    "installation-commissioning": "Instalación y puesta en marcha",
+    "maintenance-repair": "Mantenimiento y reparación",
+    "calibration-testing": "Calibración y pruebas",
+    "technical-support": "Soporte técnico",
+    "custom-solutions": "Soluciones personalizadas",
+    "consultation-training": "Consultoría y capacitación",
+    "supply-chain-management": "Gestión de la cadena de suministro",
+    "solar-epc": "Soluciones solares EPC"
   },
   "items": {
-    "installation-commissioning": "स्थापना और कमीशनिंग",
-    "maintenance-repair": "रखरखाव और मरम्मत",
-    "calibration-testing": "अंशांकन और परीक्षण",
-    "technical-support": "तकनीकी सहायता",
-    "custom-solutions": "अनुकूलित समाधान",
-    "consultation-training": "परामर्श और प्रशिक्षण",
-    "supply-chain-management": "आपूर्ति श्रृंखला प्रबंधन",
-    "solar-epc": "सोलर ईपीसी समाधान"
+    "installation-commissioning": "Instalación y puesta en marcha",
+    "maintenance-repair": "Mantenimiento y reparación",
+    "calibration-testing": "Calibración y pruebas",
+    "technical-support": "Soporte técnico",
+    "custom-solutions": "Soluciones personalizadas",
+    "consultation-training": "Consultoría y capacitación",
+    "supply-chain-management": "Gestión de la cadena de suministro",
+    "solar-epc": "Soluciones solares EPC"
   },
   "durations": {
-    "installation-commissioning": "१-४ सप्ताह",
-    "maintenance-repair": "उसी दिन - १ सप्ताह",
-    "calibration-testing": "२-५ दिन",
-    "technical-support": "तत्काल - चालू",
-    "custom-solutions": "२-१२ सप्ताह",
-    "consultation-training": "१-५ दिन",
-    "supply-chain-management": "१-७ दिन",
-    "solar-epc": "४-१६ सप्ताह"
+    "installation-commissioning": "1-4 semanas",
+    "maintenance-repair": "El mismo día - 1 semana",
+    "calibration-testing": "2-5 días",
+    "technical-support": "Inmediato - continuo",
+    "custom-solutions": "2-12 semanas",
+    "consultation-training": "1-5 días",
+    "supply-chain-management": "1-7 días",
+    "solar-epc": "4-16 semanas"
   },
   "features": {
     "installation-commissioning": {
-      "plc-dcs": "प्रोग्रामेबल लॉजिक कंट्रोलर/वितरित नियंत्रण प्रणाली स्थापना",
-      "system-integration": "प्रणाली एकीकरण",
-      "performance-testing": "प्रदर्शन परीक्षण",
-      "compliance-certification": "अनुपालन प्रमाणन"
+      "plc-dcs": "Instalación de controlador lógico programable/sistema de control distribuido",
+      "system-integration": "Integración de sistemas",
+      "performance-testing": "Pruebas de rendimiento",
+      "compliance-certification": "Certificación de cumplimiento"
     },
     "maintenance-repair": {
-      "preventive": "निवारक रखरखाव",
-      "emergency": "आपातकालीन मरम्मत (२ घंटे)",
-      "replacement": "घटक प्रतिस्थापन",
-      "upgrades": "प्रणाली उन्नयन"
+      "preventive": "Mantenimiento preventivo",
+      "emergency": "Reparaciones de emergencia (2 horas)",
+      "replacement": "Reemplazo de componentes",
+      "upgrades": "Actualizaciones del sistema"
     },
     "calibration-testing": {
-      "nabl-certified": "राष्ट्रीय परीक्षण और अंशांकन प्रयोगशाला प्रामाणन बोर्ड प्रमाणित अंशांकन",
-      "accuracy-testing": "±०.२५% सटीकता परीक्षण",
-      "compliance": "अनुपालन सत्यापन",
-      "certificates": "ट्रेसेबिलिटी प्रमाणपत्र"
+      "nabl-certified": "Calibración certificada por la Junta Nacional de Acreditación de Laboratorios de Pruebas y Calibración",
+      "accuracy-testing": "Pruebas de precisión de ±0.25%",
+      "compliance": "Verificación de cumplimiento",
+      "certificates": "Certificados de trazabilidad"
     },
     "technical-support": {
-      "24-7-support": "२४/७/३६५ सहायता",
-      "remote-diagnostics": "दूरस्थ निदान",
-      "onsite-response": "४ घंटे स्थल पर प्रतिक्रिया",
-      "emergency-hotline": "आपातकालीन हॉटलाइन"
+      "24-7-support": "Soporte 24/7/365",
+      "remote-diagnostics": "Diagnóstico remoto",
+      "onsite-response": "Respuesta en sitio en 4 horas",
+      "emergency-hotline": "Línea directa de emergencia"
     },
     "custom-solutions": {
-      "mcc-panels": "अनुकूलित मोटर नियंत्रण केंद्र पैनल",
-      "process-automation": "प्रक्रिया स्वचालन",
-      "unique-applications": "अनूठे अनुप्रयोग",
-      "end-to-end": "पूर्ण समाधान"
+      "mcc-panels": "Paneles de centro de control de motores personalizados",
+      "process-automation": "Automatización de procesos",
+      "unique-applications": "Aplicaciones únicas",
+      "end-to-end": "Soluciones integrales"
     },
     "consultation-training": {
-      "plc-programming": "प्रोग्रामेबल लॉजिक कंट्रोलर प्रोग्रामिंग प्रशिक्षण",
-      "system-design": "प्रणाली डिज़ाइन परामर्श",
-      "isa-certified": "इंस्ट्रूमेंटेशन सिस्टम और ऑटोमेशन सोसायटी प्रमाणित मॉड्यूल",
-      "hands-on": "व्यावहारिक कार्यशालाएं"
+      "plc-programming": "Capacitación en programación de controlador lógico programable",
+      "system-design": "Consultoría de diseño de sistemas",
+      "isa-certified": "Módulos certificados por la Sociedad de Instrumentación, Sistemas y Automatización",
+      "hands-on": "Talleres prácticos"
     },
     "supply-chain-management": {
-      "authorized-distributors": "अधिकृत वितरक",
-      "genuine-parts": "केवल मूल पुर्ज़े",
-      "warranty": "१-वर्ष की वारंटी",
-      "express-delivery": "त्वरित वितरण"
+      "authorized-distributors": "Distribuidores autorizados",
+      "genuine-parts": "Solo piezas originales",
+      "warranty": "Garantía de 1 año",
+      "express-delivery": "Entrega rápida"
     },
     "solar-epc": {
-      "mnre-approved": "नवीन और नवीकरणीय ऊर्जा मंत्रालय अनुमोदित डिज़ाइन",
-      "capacity": "१kW से १MW+ क्षमता",
-      "guarantee": "२५-वर्ष की गारंटी",
-      "grid-connection": "ग्रिड कनेक्शन सहायता"
+      "mnre-approved": "Diseño aprobado por el Ministerio de Energías Nuevas y Renovables",
+      "capacity": "Capacidad de 1kW a 1MW+",
+      "guarantee": "Garantía de 25 años",
+      "grid-connection": "Asistencia para la conexión a la red"
     }
   },
   "descriptions": {
-    "installation-commissioning": "विद्युत पैनल, पीएलसी, स्काडा सिस्टम और औद्योगिक उपकरण के लिए पेशेवर स्थापना और कमीशनिंग सेवाएं।",
-    "maintenance-repair": "विद्युत सिस्टम, कंट्रोल पैनल और औद्योगिक स्वचालन उपकरण के लिए व्यापक निवारक और आपातकालीन रखरखाव सेवाएं।",
-    "calibration-testing": "दबाव, तापमान, प्रवाह उपकरण और नियंत्रण सिस्टम के लिए राष्ट्रीय परीक्षण और अंशांकन प्रयोगशाला प्रामाणन बोर्ड-प्रमाणित सटीक अंशांकन और परीक्षण सेवाएं।",
-    "technical-support": "दूरस्थ निदान, स्थल पर समस्या निवारण और आपातकालीन प्रतिक्रिया के साथ २४/७/३६५ तकनीकी सहायता सेवाएं।",
-    "custom-solutions": "अनुकूलित एमसीसी पैनल, स्वचालन प्रणाली और प्रक्रिया नियंत्रण समाधान सहित अनूठी औद्योगिक आवश्यकताओं के लिए अनुकूलित इंजीनियरिंग समाधान।",
-    "consultation-training": "पीएलसी प्रोग्रामिंग, एचएमआई विकास और औद्योगिक स्वचालन के लिए विशेषज्ञ तकनीकी परामर्श और व्यावहारिक प्रशिक्षण कार्यक्रम।",
-    "supply-chain-management": "विद्युत घटकों और स्पेयर पार्ट्स के लिए व्यापक आपूर्ति श्रृंखला प्रबंधन। अधिकृत वितरक नेटवर्क मूल पुर्ज़े सुनिश्चित करता है।",
-    "solar-epc": "१kW से १MW+ परियोजनाओं के लिए पूर्ण सोलर इंजीनियरिंग, खरीद और निर्माण सेवाएं। नवीन और नवीकरणीय ऊर्जा मंत्रालय-अनुमोदित डिज़ाइन के साथ २५-वर्ष की प्रदर्शन गारंटी।"
+    "installation-commissioning": "Servicios profesionales de instalación y puesta en marcha para paneles eléctricos, PLC, sistemas SCADA y equipos industriales.",
+    "maintenance-repair": "Servicios integrales de mantenimiento preventivo y de emergencia para sistemas eléctricos, paneles de control y equipos de automatización industrial.",
+    "calibration-testing": "Servicios de calibración y pruebas de precisión certificados por la Junta Nacional de Acreditación de Laboratorios de Pruebas y Calibración para presión, temperatura, instrumentos de flujo y sistemas de control.",
+    "technical-support": "Servicios de soporte técnico 24/7/365 con diagnóstico remoto, resolución de problemas en sitio y respuesta de emergencia.",
+    "custom-solutions": "Soluciones de ingeniería personalizadas para necesidades industriales únicas, incluidos paneles MCC personalizados, sistemas de automatización y soluciones de control de procesos.",
+    "consultation-training": "Consultoría técnica experta y programas de capacitación práctica para programación de PLC, desarrollo de HMI y automatización industrial.",
+    "supply-chain-management": "Gestión integral de la cadena de suministro para componentes eléctricos y repuestos. La red de distribuidores autorizados garantiza piezas originales.",
+    "solar-epc": "Servicios completos de ingeniería, adquisición y construcción solar para proyectos de 1kW a 1MW+. Garantía de rendimiento de 25 años con diseños aprobados por el Ministerio de Energías Nuevas y Renovables."
   },
   "serviceDetails": {
     "technicalSupport": {
-      "overview": "सभी विद्युत और स्वचालन प्रणालियों के लिए त्वरित प्रतिक्रिया समय के साथ समस्या निवारण, दूरस्थ सहायता, और स्थल पर सहायता के लिए २४/७ तकनीकी सहायता सेवाएं।",
+      "overview": "Servicios de soporte técnico 24/7 para resolución de problemas, asistencia remota y soporte en sitio con tiempos de respuesta rápidos para todos los sistemas eléctricos y de automatización.",
       "benefits": [
-        "२४/७ तकनीकी सहायता उपलब्धता",
-        "दूरस्थ निदान और समस्या निवारण सेवाएं",
-        "आवश्यकता पड़ने पर स्थल पर आपातकालीन सहायता",
-        "गंभीर मुद्दों के लिए त्वरित प्रतिक्रिया समय",
-        "व्यापक समस्या समाधान और अनुवर्ती कार्रवाई"
+        "Disponibilidad de soporte técnico 24/7",
+        "Servicios de diagnóstico remoto y resolución de problemas",
+        "Soporte de emergencia en sitio cuando sea necesario",
+        "Tiempos de respuesta rápidos para problemas críticos",
+        "Resolución integral de problemas y seguimiento"
       ],
       "technologies": [
-        "दूरस्थ निदान",
-        "समस्या निवारण",
-        "स्थल पर सहायता",
-        "प्रणाली निगरानी",
-        "आपातकालीन प्रतिक्रिया"
+        "Diagnóstico remoto",
+        "Resolución de problemas",
+        "Soporte en sitio",
+        "Monitoreo del sistema",
+        "Respuesta de emergencia"
       ],
       "industries": [
-        "सभी उद्योग",
-        "महत्वपूर्ण अवसंरचना",
-        "प्रक्रिया उद्योग",
-        "विनिर्माण",
-        "वाणिज्यिक सुविधाएं"
+        "Todas las industrias",
+        "Infraestructura crítica",
+        "Industrias de proceso",
+        "Fabricación",
+        "Instalaciones comerciales"
       ]
     },
     "installationCommissioning": {
-      "overview": "पेशेवर प्रमाणन और परीक्षण के साथ औद्योगिक स्वचालन प्रणालियों, विद्युत पैनलों, और उपकरणों के लिए पूर्ण स्थापना और कमीशनिंग सेवाएं।",
+      "overview": "Servicios completos de instalación y puesta en marcha para sistemas de automatización industrial, paneles eléctricos y equipos con certificación y pruebas profesionales.",
       "benefits": [
-        "प्रमाणित इंजीनियरों द्वारा पेशेवर स्थापना",
-        "व्यापक प्रणाली परीक्षण और कमीशनिंग",
-        "पूर्ण प्रलेखन और प्रमाणन",
-        "प्रशिक्षण और हस्तांतरण सहायता",
-        "स्थापना-पश्चात सहायता और वारंटी"
+        "Instalación profesional por ingenieros certificados",
+        "Pruebas y puesta en marcha integrales del sistema",
+        "Documentación y certificación completas",
+        "Capacitación y soporte de transferencia",
+        "Soporte post-instalación y garantía"
       ],
       "technologies": [
-        "प्रणाली स्थापना",
-        "कमीशनिंग",
-        "परीक्षण",
-        "प्रमाणन",
-        "प्रलेखन"
+        "Instalación del sistema",
+        "Puesta en marcha",
+        "Pruebas",
+        "Certificación",
+        "Documentación"
       ],
       "industries": [
-        "विनिर्माण",
-        "विद्युत उत्पादन",
-        "तेल और गैस",
-        "रसायन",
-        "जल उपचार"
+        "Fabricación",
+        "Generación de energía",
+        "Petróleo y gas",
+        "Químicos",
+        "Tratamiento de aguas"
       ]
     },
     "maintenanceRepair": {
-      "overview": "विद्युत प्रणालियों, नियंत्रण पैनलों, और औद्योगिक स्वचालन उपकरणों के लिए व्यापक निवारक और आपातकालीन रखरखाव सेवाएं जो डाउनटाइम को कम करने और परिचालन दक्षता सुनिश्चित करने के लिए डिज़ाइन की गई हैं।",
+      "overview": "Servicios integrales de mantenimiento preventivo y de emergencia para sistemas eléctricos, paneles de control y equipos de automatización industrial diseñados para minimizar el tiempo de inactividad y garantizar la eficiencia operativa.",
       "benefits": [
-        "निवारक रखरखाव कार्यक्रम जो असफलताओं को रोकते हैं",
-        "आपातकालीन मरम्मत के लिए तत्काल प्रतिक्रिया",
-        "घटक प्रतिस्थापन और प्रणाली उन्नयन",
-        "डाउनटाइम को कम करने के लिए योजनाबद्ध रखरखाव",
-        "व्यापक प्रणाली निदान और रिपोर्टिंग"
+        "Programas de mantenimiento preventivo que evitan fallas",
+        "Respuesta inmediata para reparaciones de emergencia",
+        "Reemplazo de componentes y actualizaciones del sistema",
+        "Mantenimiento programado para reducir el tiempo de inactividad",
+        "Diagnóstico e informes integrales del sistema"
       ],
       "technologies": [
-        "निवारक रखरखाव",
-        "आपातकालीन मरम्मत",
-        "घटक प्रतिस्थापन",
-        "प्रणाली उन्नयन",
-        "निदान परीक्षण"
+        "Mantenimiento preventivo",
+        "Reparaciones de emergencia",
+        "Reemplazo de componentes",
+        "Actualizaciones del sistema",
+        "Pruebas de diagnóstico"
       ],
       "industries": [
-        "भारी उद्योग",
-        "विनिर्माण संयंत्र",
-        "रसायन प्रसंस्करण",
-        "तेल रिफाइनरी",
-        "विद्युत उत्पादन"
+        "Industria pesada",
+        "Plantas de fabricación",
+        "Procesamiento químico",
+        "Refinerías de petróleo",
+        "Generación de energía"
       ]
     },
     "calibrationTesting": {
-      "overview": "दबाव, तापमान, प्रवाह उपकरण और नियंत्रण प्रणालियों के लिए राष्ट्रीय परीक्षण और अंशांकन प्रयोगशाला प्रामाणन बोर्ड-प्रमाणित सटीक अंशांकन और परीक्षण सेवाएं जो नियामक अनुपालन और माप सटीकता सुनिश्चित करती हैं।",
+      "overview": "Servicios de calibración y pruebas de precisión certificados por la Junta Nacional de Acreditación de Laboratorios de Pruebas y Calibración para presión, temperatura, instrumentos de flujo y sistemas de control que garantizan el cumplimiento normativo y la precisión de las mediciones.",
       "benefits": [
-        "राष्ट्रीय परीक्षण और अंशांकन प्रयोगशाला प्रामाणन बोर्ड प्रमाणित अंशांकन सेवाएं",
-        "±०.२५% की उच्च सटीकता परीक्षण",
-        "अंतर्राष्ट्रीय मानकों के साथ अनुपालन सत्यापन",
-        "पूर्ण ट्रेसेबिलिटी प्रमाणपत्र और प्रलेखन",
-        "नियमित अंशांकन कार्यक्रम और निगरानी"
+        "Servicios de calibración certificados por la Junta Nacional de Acreditación de Laboratorios de Pruebas y Calibración",
+        "Pruebas de alta precisión de ±0.25%",
+        "Verificación de cumplimiento con estándares internacionales",
+        "Certificados y documentación de trazabilidad completos",
+        "Programas y monitoreo de calibración regular"
       ],
       "technologies": [
-        "सटीक अंशांकन",
-        "माप परीक्षण",
-        "अनुपालन सत्यापन",
-        "ट्रेसेबिलिटी",
-        "गुणवत्ता आश्वासन"
+        "Calibración de precisión",
+        "Pruebas de medición",
+        "Verificación de cumplimiento",
+        "Trazabilidad",
+        "Garantía de calidad"
       ],
       "industries": [
-        "फार्मास्यूटिकल",
-        "रसायन उद्योग",
-        "तेल और गैस",
-        "खाद्य प्रसंस्करण",
-        "परमाणु ऊर्जा"
+        "Farmacéutica",
+        "Industria química",
+        "Petróleo y gas",
+        "Procesamiento de alimentos",
+        "Energía nuclear"
       ]
     },
     "customSolutions": {
-      "overview": "अनुकूलित एमसीसी पैनल, स्वचालन प्रणाली और प्रक्रिया नियंत्रण समाधान सहित अनूठी औद्योगिक आवश्यकताओं के लिए अनुकूलित इंजीनियरिंग समाधान जो विशिष्ट परिचालन चुनौतियों का समाधान करते हैं।",
+      "overview": "Soluciones de ingeniería personalizadas para necesidades industriales únicas, incluidos paneles MCC personalizados, sistemas de automatización y soluciones de control de procesos que abordan desafíos operativos específicos.",
       "benefits": [
-        "विशिष्ट आवश्यकताओं के लिए अनुकूलित एमसीसी पैनल",
-        "अनूठे अनुप्रयोगों के लिए प्रक्रिया स्वचालन",
-        "डिज़ाइन से लेकर कार्यान्वयन तक पूर्ण समाधान",
-        "अद्वितीय परिचालन चुनौतियों के लिए नवाचार",
-        "व्यापक प्रणाली एकीकरण और अनुकूलन"
+        "Paneles MCC personalizados para requisitos específicos",
+        "Automatización de procesos para aplicaciones únicas",
+        "Soluciones integrales desde el diseño hasta la implementación",
+        "Innovación para desafíos operativos únicos",
+        "Integración y optimización integral del sistema"
       ],
       "technologies": [
-        "अनुकूलित पैनल डिज़ाइन",
-        "प्रक्रिया स्वचालन",
-        "प्रणाली एकीकरण",
-        "नियंत्रण समाधान",
-        "इंजीनियरिंग नवाचार"
+        "Diseño de paneles personalizados",
+        "Automatización de procesos",
+        "Integración de sistemas",
+        "Soluciones de control",
+        "Innovación en ingeniería"
       ],
       "industries": [
-        "विशेष विनिर्माण",
-        "रसायन प्रसंस्करण",
-        "खनन और धातु",
-        "जल उपचार",
-        "नवीकरणीय ऊर्जा"
+        "Fabricación especializada",
+        "Procesamiento químico",
+        "Minería y metales",
+        "Tratamiento de aguas",
+        "Energía renovable"
       ]
     },
     "consultationTraining": {
-      "overview": "पीएलसी प्रोग्रामिंग, एचएमआई विकास और औद्योगिक स्वचालन के लिए विशेषज्ञ तकनीकी परामर्श और व्यावहारिक प्रशिक्षण कार्यक्रम जो तकनीकी क्षमताओं को बढ़ाते हैं और ज्ञान हस्तांतरण सुनिश्चित करते हैं।",
+      "overview": "Consultoría técnica experta y programas de capacitación práctica para programación de PLC, desarrollo de HMI y automatización industrial que mejoran las capacidades técnicas y garantizan la transferencia de conocimientos.",
       "benefits": [
-        "प्रोग्रामेबल लॉजिक कंट्रोलर प्रोग्रामिंग में विशेषज्ञ प्रशिक्षण",
-        "प्रणाली डिज़ाइन और आर्किटेक्चर में परामर्श",
-        "इंस्ट्रूमेंटेशन सिस्टम और ऑटोमेशन सोसायटी प्रमाणित मॉड्यूल",
-        "व्यावहारिक कार्यशालाएं और हैंड्स-ऑन अनुभव",
-        "निरंतर तकनीकी सहायता और मार्गदर्शन"
+        "Capacitación experta en programación de controlador lógico programable",
+        "Consultoría en diseño y arquitectura de sistemas",
+        "Módulos certificados por la Sociedad de Instrumentación, Sistemas y Automatización",
+        "Talleres prácticos y experiencia práctica",
+        "Soporte técnico y orientación continuos"
       ],
       "technologies": [
-        "प्रोग्रामेबल लॉजिक कंट्रोलर प्रोग्रामिंग",
-        "ह्यूमन मशीन इंटरफेस विकास",
-        "प्रणाली डिज़ाइन",
-        "स्वचालन रणनीति",
-        "तकनीकी प्रशिक्षण"
+        "Programación de controlador lógico programable",
+        "Desarrollo de interfaz hombre-máquina",
+        "Diseño de sistemas",
+        "Estrategia de automatización",
+        "Capacitación técnica"
       ],
       "industries": [
-        "सभी औद्योगिक क्षेत्र",
-        "शैक्षणिक संस्थान",
-        "अनुसंधान एवं विकास",
-        "सरकारी संगठन",
-        "तकनीकी सेवा प्रदाता"
+        "Todos los sectores industriales",
+        "Instituciones académicas",
+        "Investigación y desarrollo",
+        "Organizaciones gubernamentales",
+        "Proveedores de servicios técnicos"
       ]
     },
     "supplyChainManagement": {
-      "overview": "विद्युत घटकों और स्पेयर पार्ट्स के लिए व्यापक आपूर्ति श्रृंखला प्रबंधन। अधिकृत वितरक नेटवर्क मूल पुर्ज़े सुनिश्चित करता है और त्वरित वितरण के साथ परिचालन निरंतरता बनाए रखता है।",
+      "overview": "Gestión integral de la cadena de suministro para componentes eléctricos y repuestos. La red de distribuidores autorizados garantiza piezas originales y mantiene la continuidad operativa con una entrega rápida.",
       "benefits": [
-        "केवल अधिकृत वितरकों से मूल पुर्ज़े",
-        "सभी आपूर्ति की गई वस्तुओं पर १-वर्ष की वारंटी",
-        "तत्काल आवश्यकताओं के लिए त्वरित वितरण सेवा",
-        "व्यापक इन्वेंटरी प्रबंधन और उपलब्धता",
-        "लागत-प्रभावी सोर्सिंग और खरीद समाधान"
+        "Solo piezas originales de distribuidores autorizados",
+        "Garantía de 1 año en todos los artículos suministrados",
+        "Servicio de entrega rápida para necesidades inmediatas",
+        "Gestión y disponibilidad integral del inventario",
+        "Soluciones de abastecimiento y compra rentables"
       ],
       "technologies": [
-        "इन्वेंटरी प्रबंधन",
-        "खरीद समाधान",
-        "आपूर्ति श्रृंखला अनुकूलन",
-        "वितरण नेटवर्क",
-        "गुणवत्ता आश्वासन"
+        "Gestión de inventario",
+        "Soluciones de compra",
+        "Optimización de la cadena de suministro",
+        "Red de distribución",
+        "Garantía de calidad"
       ],
       "industries": [
-        "सभी विनिर्माण उद्योग",
-        "रखरखाव संगठन",
-        "निर्माण कंपनियां",
-        "सरकारी परियोजनाएं",
-        "वाणिज्यिक उद्यम"
+        "Todas las industrias manufactureras",
+        "Organizaciones de mantenimiento",
+        "Empresas constructoras",
+        "Proyectos gubernamentales",
+        "Empresas comerciales"
       ]
     },
     "solarEpc": {
-      "overview": "१kW से १MW+ परियोजनाओं के लिए पूर्ण सोलर इंजीनियरिंग, खरीद और निर्माण सेवाएं। नवीन और नवीकरणीय ऊर्जा मंत्रालय-अनुमोदित डिज़ाइन के साथ २५-वर्ष की प्रदर्शन गारंटी और पूर्ण ग्रिड कनेक्शन सहायता।",
+      "overview": "Servicios completos de ingeniería, adquisición y construcción solar para proyectos de 1kW a 1MW+. Garantía de rendimiento de 25 años con diseños aprobados por el Ministerio de Energías Nuevas y Renovables y soporte completo para la conexión a la red.",
       "benefits": [
-        "नवीन और नवीकरणीय ऊर्जा मंत्रालय अनुमोदित डिज़ाइन और इंजीनियरिंग",
-        "१kW से १MW+ तक की परियोजना क्षमता",
-        "२५-वर्ष की व्यापक प्रदर्शन गारंटी",
-        "पूर्ण ग्रिड कनेक्शन और नेट मीटरिंग सहायता",
-        "परियोजना प्रबंधन से लेकर चालू करने तक पूर्ण सेवा"
+        "Diseño e ingeniería aprobados por el Ministerio de Energías Nuevas y Renovables",
+        "Capacidad del proyecto de 1kW a 1MW+",
+        "Garantía de rendimiento integral de 25 años",
+        "Soporte completo para la conexión a la red y la medición neta",
+        "Servicio completo desde la gestión del proyecto hasta la puesta en marcha"
       ],
       "technologies": [
-        "सौर इंजीनियरिंग",
-        "परियोजना खरीद",
-        "निर्माण प्रबंधन",
-        "ग्रिड एकीकरण",
-        "प्रदर्शन निगरानी"
+        "Ingeniería solar",
+        "Adquisición de proyectos",
+        "Gestión de la construcción",
+        "Integración a la red",
+        "Monitoreo del rendimiento"
       ],
       "industries": [
-        "आवासीय परियोजनाएं",
-        "वाणिज्यिक और औद्योगिक",
-        "सरकारी संस्थान",
-        "कृषि अनुप्रयोग",
-        "उपयोगिता-स्केल परियोजनाएं"
+        "Proyectos residenciales",
+        "Comercial e industrial",
+        "Instituciones gubernamentales",
+        "Aplicaciones agrícolas",
+        "Proyectos a escala de servicios públicos"
       ]
     }
   }

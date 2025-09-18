@@ -1,304 +1,304 @@
 {
   "surgeProtectors": {
     "acPower": {
-      "name": "AC Power Surge Protectors",
-      "description": "Transient voltage surge suppressors for AC power systems",
+      "name": "Защита от перенапряжений сети переменного тока",
+      "description": "Устройства защиты от импульсных перенапряжений для систем питания переменного тока",
       "features": [
-        "Class I/II/III",
-        "MOV Technology",
-        "Status Indicators",
-        "DIN Rail Mount"
+        "Класс I/II/III",
+        "MOV технология",
+        "Индикаторы состояния",
+        "DIN-рейка"
       ]
     },
     "dcSolar": {
-      "name": "DC Solar Surge Protectors",
-      "description": "DC surge protection devices for solar panel systems",
+      "name": "Защита от перенапряжений постоянного тока для солнечных батарей",
+      "description": "Устройства защиты от перенапряжений постоянного тока для систем солнечных панелей",
       "features": [
-        "1000V DC Rating",
-        "Type 1+2 Protection",
-        "Remote Indication",
-        "Quick Disconnect"
+        "1000 В DC",
+        "Тип 1+2 защиты",
+        "Удаленная индикация",
+        "Быстрое отключение"
       ]
     },
     "signalLine": {
-      "name": "Signal Line Protectors",
-      "description": "Surge protection for communication and control lines",
+      "name": "Защита сигнальных линий",
+      "description": "Защита от перенапряжений для линий связи и управления",
       "features": [
-        "Data Line Protection",
-        "Low Capacitance",
-        "Fast Response",
-        "Multiple Channels"
+        "Защита линий передачи данных",
+        "Низкая емкость",
+        "Быстрый отклик",
+        "Несколько каналов"
       ]
     }
   },
   "bldcCeilingFan": {
     "smart1200": {
-      "name": "Smart BLDC Ceiling Fan - 1200mm",
-      "description": "Energy-efficient smart ceiling fan with remote control",
+      "name": "Умный потолочный вентилятор BLDC - 1200 мм",
+      "description": "Энергоэффективный умный потолочный вентилятор с дистанционным управлением",
       "features": [
-        "28W Power Consumption",
-        "Remote Control",
-        "5 Speed Settings",
-        "Timer Function"
+        "Потребляемая мощность 28 Вт",
+        "Дистанционное управление",
+        "5 настроек скорости",
+        "Функция таймера"
       ]
     },
     "premium1400": {
-      "name": "Premium BLDC Ceiling Fan - 1400mm",
-      "description": "High-performance ceiling fan with LED lighting",
+      "name": "Премиум потолочный вентилятор BLDC - 1400 мм",
+      "description": "Высокопроизводительный потолочный вентилятор со светодиодным освещением",
       "features": [
-        "35W Power Consumption",
-        "LED Light Integrated",
-        "Reversible Motor",
-        "Silent Operation"
+        "Потребляемая мощность 35 Вт",
+        "Встроенный светодиодный свет",
+        "Реверсивный двигатель",
+        "Бесшумная работа"
       ]
     },
     "commercial1500": {
-      "name": "Commercial BLDC Ceiling Fan - 1500mm",
-      "description": "Heavy-duty ceiling fan for commercial applications",
+      "name": "Коммерческий потолочный вентилятор BLDC - 1500 мм",
+      "description": "Сверхмощный потолочный вентилятор для коммерческого применения",
       "features": [
-        "45W Power Consumption",
-        "Heavy-Duty Motor",
-        "High Air Flow",
-        "Durable Construction"
+        "Потребляемая мощность 45 Вт",
+        "Сверхмощный двигатель",
+        "Высокий воздушный поток",
+        "Прочная конструкция"
       ]
     }
   },
   "bldcCoolerExhaust": {
     "exhaustFan": {
-      "name": "BLDC Exhaust Fan Motors",
-      "description": "High-efficiency motors for exhaust fan applications",
+      "name": "Двигатели вытяжных вентиляторов BLDC",
+      "description": "Высокоэффективные двигатели для вытяжных вентиляторов",
       "features": [
-        "Variable Speed",
-        "Low Noise",
-        "Energy Efficient",
-        "Long Life"
+        "Переменная скорость",
+        "Низкий уровень шума",
+        "Энергоэффективность",
+        "Долгий срок службы"
       ]
     },
     "coolerMotors": {
-      "name": "BLDC Cooler Motors",
-      "description": "Energy-efficient motors for air cooler applications",
+      "name": "Двигатели охладителей BLDC",
+      "description": "Энергоэффективные двигатели для воздушных охладителей",
       "features": [
-        "High Torque",
-        "Weather Resistant",
-        "Speed Control",
-        "Maintenance Free"
+        "Высокий крутящий момент",
+        "Устойчивость к погодным условиям",
+        "Регулировка скорости",
+        "Не требует обслуживания"
       ]
     },
     "ventilation": {
-      "name": "BLDC Ventilation Motors",
-      "description": "Specialized motors for industrial ventilation systems",
+      "name": "Вентиляционные двигатели BLDC",
+      "description": "Специализированные двигатели для промышленных вентиляционных систем",
       "features": [
-        "High CFM",
-        "Temperature Rated",
-        "Vibration Resistant",
-        "Smart Control"
+        "Высокий CFM",
+        "Температурный режим",
+        "Виброустойчивость",
+        "Интеллектуальное управление"
       ]
     }
   },
   "cablesWires": {
     "instrumentation": {
-      "name": "Instrumentation Cables",
-      "description": "Low voltage cables for instrumentation and control applications",
+      "name": "Инструментальные кабели",
+      "description": "Низковольтные кабели для измерительных приборов и систем управления",
       "features": [
-        "Shielded Construction",
-        "Moisture Resistant",
-        "Temperature Rated",
-        "Multiple Pairs"
+        "Экранированная конструкция",
+        "Влагостойкость",
+        "Температурный режим",
+        "Несколько пар"
       ]
     },
     "powerDistribution": {
-      "name": "Power Distribution Cables",
-      "description": "High voltage cables for power transmission and distribution",
+      "name": "Кабели распределения питания",
+      "description": "Высоковольтные кабели для передачи и распределения электроэнергии",
       "features": [
-        "XLPE Insulation",
-        "Armored Construction",
-        "Fire Resistant",
-        "High Current Rating"
+        "Изоляция XLPE",
+        "Бронированная конструкция",
+        "Огнестойкость",
+        "Высокий номинальный ток"
       ]
     },
     "communication": {
-      "name": "Communication Cables",
-      "description": "Data transmission cables for industrial communication networks",
+      "name": "Коммуникационные кабели",
+      "description": "Кабели передачи данных для промышленных сетей связи",
       "features": [
         "Cat5e/Cat6",
-        "Fiber Optic",
-        "Industrial Grade",
-        "EMI Shielding"
+        "Оптоволокно",
+        "Промышленный класс",
+        "Экранирование от электромагнитных помех"
       ]
     }
   },
   "handTools": {
     "wrenchSets": {
-      "name": "Professional Wrench Sets",
-      "description": "Complete sets of combination and adjustable wrenches",
+      "name": "Наборы профессиональных гаечных ключей",
+      "description": "Полные наборы комбинированных и разводных гаечных ключей",
       "features": [
-        "Chrome Vanadium Steel",
-        "Metric & SAE Sizes",
-        "Professional Grade",
-        "Lifetime Warranty"
+        "Хром-ванадиевая сталь",
+        "Метрические и SAE размеры",
+        "Профессиональный класс",
+        "Пожизненная гарантия"
       ]
     },
     "screwdriverSets": {
-      "name": "Precision Screwdriver Sets",
-      "description": "High-quality screwdrivers for precision applications",
+      "name": "Наборы прецизионных отверток",
+      "description": "Высококачественные отвертки для точных работ",
       "features": [
-        "Ergonomic Handles",
-        "Magnetic Tips",
-        "Multiple Head Types",
-        "Anti-Slip Grip"
+        "Эргономичные ручки",
+        "Магнитные наконечники",
+        "Несколько типов головок",
+        "Противоскользящая ручка"
       ]
     },
     "toolKits": {
-      "name": "Industrial Tool Kits",
-      "description": "Comprehensive tool kits for industrial maintenance",
+      "name": "Наборы промышленных инструментов",
+      "description": "Комплексные наборы инструментов для промышленного обслуживания",
       "features": [
-        "Complete Tool Set",
-        "Organized Storage",
-        "Heavy-Duty Case",
-        "Professional Quality"
+        "Полный набор инструментов",
+        "Организованное хранение",
+        "Сверхпрочный кейс",
+        "Профессиональное качество"
       ]
     }
   },
   "powerTools": {
     "drillSets": {
-      "name": "Industrial Drill Sets",
-      "description": "Heavy-duty electric and cordless drills for industrial applications",
+      "name": "Наборы промышленных дрелей",
+      "description": "Сверхмощные электрические и аккумуляторные дрели для промышленного применения",
       "features": [
-        "High Torque",
-        "Variable Speed",
-        "Cordless Options",
-        "Chuck Capacity: 13mm"
+        "Высокий крутящий момент",
+        "Переменная скорость",
+        "Аккумуляторные варианты",
+        "Диаметр патрона: 13 мм"
       ]
     },
     "angleGrinders": {
-      "name": "Angle Grinders",
-      "description": "Professional angle grinders for cutting and grinding operations",
+      "name": "Угловые шлифовальные машины",
+      "description": "Профессиональные угловые шлифовальные машины для резки и шлифования",
       "features": [
-        "Multiple Disc Sizes",
-        "Safety Guards",
-        "Anti-Vibration",
-        "Powerful Motors"
+        "Несколько размеров дисков",
+        "Защитные кожухи",
+        "Антивибрация",
+        "Мощные двигатели"
       ]
     },
     "impactWrenches": {
-      "name": "Impact Wrenches",
-      "description": "High-torque impact wrenches for heavy-duty fastening",
+      "name": "Импульсные гайковерты",
+      "description": "Импульсные гайковерты с высоким крутящим моментом для тяжелого крепежа",
       "features": [
-        "High Impact Force",
-        "Socket Compatibility",
-        "Forward/Reverse",
-        "Battery Powered"
+        "Высокая сила удара",
+        "Совместимость с головками",
+        "Прямой/обратный ход",
+        "Питание от аккумулятора"
       ]
     }
   },
   "cuttingTools": {
     "sawBlades": {
-      "name": "Industrial Saw Blades",
-      "description": "High-quality saw blades for metal and wood cutting",
+      "name": "Промышленные пильные полотна",
+      "description": "Высококачественные пильные полотна для резки металла и дерева",
       "features": [
-        "HSS/Carbide Tips",
-        "Multiple TPI",
-        "Bi-Metal Construction",
-        "Long Life"
+        "Наконечники HSS/Carbide",
+        "Несколько TPI",
+        "Биметаллическая конструкция",
+        "Долгий срок службы"
       ]
     },
     "drillBits": {
-      "name": "Drill Bits & Reamers",
-      "description": "Precision drilling and reaming tools",
+      "name": "Сверла и развертки",
+      "description": "Прецизионные инструменты для сверления и развертывания",
       "features": [
         "HSS/Cobalt",
-        "Jobber Length",
-        "Spiral Flutes",
-        "Split Point"
+        "Длина хвостовика",
+        "Спиральные канавки",
+        "Разделенная точка"
       ]
     },
     "millingCutters": {
-      "name": "Milling Cutters",
-      "description": "End mills and face mills for machining operations",
+      "name": "Фрезы",
+      "description": "Концевые и торцевые фрезы для обработки",
       "features": [
         "Carbide/HSS",
-        "Multiple Flutes",
-        "Coated Options",
-        "Various Geometries"
+        "Несколько канавок",
+        "Варианты с покрытием",
+        "Различные геометрии"
       ]
     }
   },
   "liftingEquipment": {
     "chainHoists": {
-      "name": "Chain Hoists & Slings",
-      "description": "Manual and electric chain hoists for heavy lifting",
+      "name": "Цепные тали и стропы",
+      "description": "Ручные и электрические цепные тали для тяжелых подъемов",
       "features": [
-        "1-20 Ton Capacity",
-        "Electric/Manual",
-        "Safety Hooks",
-        "Overload Protection"
+        "Грузоподъемность 1-20 тонн",
+        "Электрический/ручной",
+        "Предохранительные крюки",
+        "Защита от перегрузки"
       ]
     },
     "wireRope": {
-      "name": "Wire Rope & Cables",
-      "description": "High-strength wire rope for lifting applications",
+      "name": "Стальные тросы и канаты",
+      "description": "Высокопрочные стальные тросы для подъемных работ",
       "features": [
-        "Galvanized Steel",
-        "Multiple Lay Types",
-        "Various Diameters",
-        "IWRC Core"
+        "Оцинкованная сталь",
+        "Несколько типов укладки",
+        "Различные диаметры",
+        "Сердечник IWRC"
       ]
     },
     "liftingHardware": {
-      "name": "Lifting Hardware",
-      "description": "Shackles, hooks, and rigging hardware",
+      "name": "Подъемное оборудование",
+      "description": "Скобы, крюки и такелажные приспособления",
       "features": [
-        "Stainless Steel",
-        "Safety Pins",
-        "Load Rated",
-        "ANSI/ASME Standards"
+        "Нержавеющая сталь",
+        "Предохранительные штифты",
+        "Номинальная нагрузка",
+        "Стандарты ANSI/ASME"
       ]
     }
   },
   "instrumentation": {
     "sensors": {
-      "title": "Industrial Sensors",
-      "shortDescription": "Comprehensive range of industrial-grade sensors for automation and process control",
-      "fullDescription": "Advanced sensor solutions including temperature, pressure, position, motion, flow, level, proximity, and specialized sensors. Our sensor portfolio features digital temperature sensors with silicon-based ICs, pressure sensors for water conservancy and industrial applications, position sensors with MEMS technology, and vision sensors with image processing systems for quality control.",
+      "title": "Промышленные датчики",
+      "shortDescription": "Широкий ассортимент промышленных датчиков для автоматизации и управления процессами",
+      "fullDescription": "Современные сенсорные решения, включая датчики температуры, давления, положения, движения, потока, уровня, приближения и специализированные датчики. Наш ассортимент датчиков включает цифровые датчики температуры с кремниевыми интегральными схемами, датчики давления для водного хозяйства и промышленности, датчики положения с технологией MEMS и датчики машинного зрения с системами обработки изображений для контроля качества.",
       "specifications": [
-        "Temperature Range: -40°C to +125°C",
-        "Pressure Range: Vacuum to 7500 PSI",
-        "Signal Output: 4-20mA, 0-10V, Digital (USB, PNP/NPN)",
-        "Resolution: Up to 24-bit for high precision",
-        "Response Time: <10ms for critical applications",
-        "IP Protection: IP65/IP67/IP69K ratings available"
+        "Диапазон температур: от -40°C до +125°C",
+        "Диапазон давления: от вакуума до 7500 PSI",
+        "Выходной сигнал: 4-20 мА, 0-10 В, цифровой (USB, PNP/NPN)",
+        "Разрешение: до 24 бит для высокой точности",
+        "Время отклика: <10 мс для критических приложений",
+        "Степень защиты IP: доступны классы IP65/IP67/IP69K"
       ],
       "applications": [
-        "Process Control & Monitoring",
-        "Manufacturing Automation",
-        "Quality Control Systems",
-        "Safety & Security Systems",
-        "Environmental Monitoring",
-        "Predictive Maintenance"
+        "Управление и мониторинг процессов",
+        "Автоматизация производства",
+        "Системы контроля качества",
+        "Системы безопасности и охраны",
+        "Экологический мониторинг",
+        "Прогностическое обслуживание"
       ],
       "features": [
-        "Industry 4.0 Ready with IoT Connectivity",
-        "Self-Diagnostics & Calibration",
-        "Multiple Communication Protocols",
-        "Explosion-Proof Variants Available",
-        "Extended Temperature Stability",
-        "Low Power Consumption"
+        "Готовность к Industry 4.0 с подключением к IoT",
+        "Самодиагностика и калибровка",
+        "Несколько протоколов связи",
+        "Доступны взрывозащищенные варианты",
+        "Расширенная температурная стабильность",
+        "Низкое энергопотребление"
       ],
       "keyBenefits": [
-        "High Accuracy & Reliability",
-        "Easy Integration & Configuration",
-        "Reduced Maintenance Requirements",
-        "Enhanced Safety Compliance",
-        "Long-Term Stability",
-        "Cost-Effective Operation"
+        "Высокая точность и надежность",
+        "Простая интеграция и настройка",
+        "Сниженные требования к обслуживанию",
+        "Улучшенное соблюдение требований безопасности",
+        "Долгосрочная стабильность",
+        "Экономичная работа"
       ],
       "industries": [
-        "Oil & Gas",
-        "Chemical & Petrochemical",
-        "Power Generation",
-        "Water Treatment",
-        "Food & Beverage",
-        "Automotive Manufacturing"
+        "Нефть и газ",
+        "Химическая и нефтехимическая промышленность",
+        "Производство электроэнергии",
+        "Водоочистка",
+        "Производство продуктов питания и напитков",
+        "Автомобилестроение"
       ],
       "certifications": [
         "CE",
@@ -309,62 +309,62 @@
         "SIL 2/3"
       ],
       "technicalData": {
-        "operatingTemp": "-40°C to +125°C",
+        "operatingTemp": "от -40°C до +125°C",
         "protection": "IP65/IP67/IP69K",
         "communication": [
-          "4-20mA",
+          "4-20 мА",
           "HART",
           "Modbus",
           "Ethernet",
           "Wireless"
         ],
-        "accuracy": "±0.1% to ±0.5% of span",
-        "power": "24V DC, 115/230V AC, Loop-powered"
+        "accuracy": "±0,1% до ±0,5% от диапазона",
+        "power": "24 В DC, 115/230 В AC, с питанием от контура"
       }
     },
     "transmitters": {
-      "title": "Transmitters & Transducers",
-      "shortDescription": "Precision transmitters for pressure, temperature, flow, and level measurement",
-      "fullDescription": "Comprehensive range of industrial transmitters including pressure transmitters (gauge, absolute, differential), temperature transmitters, flow measurement devices, and multivariable transmitters. Features advanced technologies like strain gauge, capacitive, and piezoresistive sensing with HART digital communication. Market leaders like Emerson Rosemount, ABB, Yokogawa, and Honeywell provide reliable solutions for process industries.",
+      "title": "Преобразователи и датчики",
+      "shortDescription": "Прецизионные преобразователи для измерения давления, температуры, расхода и уровня",
+      "fullDescription": "Широкий ассортимент промышленных преобразователей, включая преобразователи давления (избыточного, абсолютного, дифференциального), преобразователи температуры, устройства измерения расхода и многопараметрические преобразователи. Особенности: передовые технологии, такие как тензодатчик, емкостное и пьезорезистивное зондирование с цифровой связью HART. Лидеры рынка, такие как Emerson Rosemount, ABB, Yokogawa и Honeywell, предлагают надежные решения для перерабатывающих отраслей.",
       "specifications": [
-        "Accuracy: ±0.05% to ±0.25% of span",
-        "Stability: 5-year ±0.1% span stability",
-        "Operating Range: Up to 7,500 PSI pressure",
-        "Rangeability: Up to 400:1 turndown ratio",
-        "Output: 4-20mA + HART digital",
-        "Multivariable: Pressure, flow, temperature in one device"
+        "Точность: ±0,05% до ±0,25% от диапазона",
+        "Стабильность: 5-летняя стабильность ±0,1% диапазона",
+        "Рабочий диапазон: давление до 7500 PSI",
+        "Изменяемость диапазона: до 400:1 коэффициент диапазона",
+        "Выход: 4-20 мА + цифровая связь HART",
+        "Многопараметрический: давление, расход, температура в одном устройстве"
       ],
       "applications": [
-        "Pipeline Monitoring",
-        "Process Control",
-        "Tank Level Measurement",
-        "Flow Measurement",
-        "Safety Systems",
-        "Regulatory Compliance"
+        "Мониторинг трубопроводов",
+        "Управление процессами",
+        "Измерение уровня в резервуарах",
+        "Измерение расхода",
+        "Системы безопасности",
+        "Соответствие нормативным требованиям"
       ],
       "features": [
-        "Smart Diagnostics & Predictive Maintenance",
-        "Coplanar Technology for Easy Installation",
-        "Remote Seal Capability",
-        "Wireless HART Options",
-        "Temperature Compensation",
-        "Self-Diagnostics"
+        "Интеллектуальная диагностика и прогностическое обслуживание",
+        "Копланарная технология для простой установки",
+        "Возможность удаленного уплотнения",
+        "Опции Wireless HART",
+        "Температурная компенсация",
+        "Самодиагностика"
       ],
       "keyBenefits": [
-        "Industry-Leading Accuracy",
-        "Reduced Total Cost of Ownership",
-        "Enhanced Process Optimization",
-        "Improved Safety & Reliability",
-        "Easy Maintenance & Support",
-        "Future-Proof Technology"
+        "Лучшая в отрасли точность",
+        "Сниженная общая стоимость владения",
+        "Улучшенная оптимизация процессов",
+        "Повышенная безопасность и надежность",
+        "Простое обслуживание и поддержка",
+        "Технология, ориентированная на будущее"
       ],
       "industries": [
-        "Oil & Gas",
-        "Chemical Processing",
-        "Refining",
-        "Power Generation",
-        "Pulp & Paper",
-        "Mining & Metals"
+        "Нефть и газ",
+        "Химическая обработка",
+        "Переработка",
+        "Производство электроэнергии",
+        "Целлюлозно-бумажная промышленность",
+        "Горнодобывающая промышленность и металлургия"
       ],
       "certifications": [
         "SIL 2/3",
@@ -375,7 +375,7 @@
         "NEPSI"
       ],
       "technicalData": {
-        "operatingTemp": "-40°C to +85°C",
+        "operatingTemp": "от -40°C до +85°C",
         "protection": "IP66/IP67",
         "communication": [
           "HART",
@@ -383,168 +383,168 @@
           "Profibus",
           "Wireless"
         ],
-        "accuracy": "±0.05% to ±0.25% of span",
-        "power": "10.5-42.4V DC, Loop-powered"
+        "accuracy": "±0,05% до ±0,25% от диапазона",
+        "power": "10,5-42,4 В DC, с питанием от контура"
       }
     }
   },
   "bldcSubmersibleSurface": {
     "solar1HP": {
-      "name": "Solar BLDC Submersible Pump - 1HP",
-      "description": "Solar-powered BLDC submersible pump for water wells",
+      "name": "Погружной насос Solar BLDC - 1 л.с.",
+      "description": "Погружной насос BLDC на солнечной энергии для водяных скважин",
       "features": [
-        "Solar Compatible",
-        "1HP Motor",
-        "High Efficiency",
-        "Water-Cooled Design"
+        "Совместимость с солнечными батареями",
+        "Двигатель 1 л.с.",
+        "Высокая эффективность",
+        "Водяное охлаждение"
       ]
     },
     "surface2HP": {
-      "name": "DC Surface Pump - 2HP",
-      "description": "High-efficiency BLDC surface pump for irrigation",
+      "name": "Поверхностный насос постоянного тока - 2 л.с.",
+      "description": "Высокоэффективный поверхностный насос BLDC для орошения",
       "features": [
-        "2HP Power",
-        "Self-Priming",
-        "Dry Run Protection",
-        "Variable Speed"
+        "Мощность 2 л.с.",
+        "Самовсасывание",
+        "Защита от сухого хода",
+        "Переменная скорость"
       ]
     },
     "hybrid": {
-      "name": "Hybrid BLDC Pump System",
-      "description": "Intelligent pump system with solar and grid backup",
+      "name": "Гибридная насосная система BLDC",
+      "description": "Интеллектуальная насосная система с солнечной и сетевой поддержкой",
       "features": [
-        "Hybrid Operation",
-        "Smart Controller",
-        "Remote Monitoring",
-        "Energy Optimization"
+        "Гибридная работа",
+        "Интеллектуальный контроллер",
+        "Удаленный мониторинг",
+        "Оптимизация энергопотребления"
       ]
     }
   },
   "bldcTableWallFan": {
     "tableFan": {
-      "name": "BLDC Table Fan Motors",
-      "description": "Compact BLDC motors for table and desk fans",
+      "name": "Двигатели настольных вентиляторов BLDC",
+      "description": "Компактные двигатели BLDC для настольных вентиляторов",
       "features": [
-        "Compact Design",
-        "Silent Operation",
-        "Remote Control",
-        "Timer Function"
+        "Компактный дизайн",
+        "Бесшумная работа",
+        "Дистанционное управление",
+        "Функция таймера"
       ]
     },
     "wallFan": {
-      "name": "BLDC Wall Fan Motors",
-      "description": "Wall-mounted fan motors with BLDC technology",
+      "name": "Двигатели настенных вентиляторов BLDC",
+      "description": "Настенные двигатели вентиляторов с технологией BLDC",
       "features": [
-        "Wall Mount Design",
-        "Oscillating Function",
-        "Speed Control",
-        "Energy Saving"
+        "Настенный дизайн",
+        "Функция колебания",
+        "Регулировка скорости",
+        "Экономия энергии"
       ]
     },
     "pedestalFan": {
-      "name": "BLDC Pedestal Fan Motors",
-      "description": "Height-adjustable pedestal fan motors",
+      "name": "Двигатели напольных вентиляторов BLDC",
+      "description": "Регулируемые по высоте двигатели напольных вентиляторов",
       "features": [
-        "Height Adjustment",
-        "Tilt Function",
-        "LED Display",
-        "Sleep Mode"
+        "Регулировка высоты",
+        "Функция наклона",
+        "Светодиодный дисплей",
+        "Спящий режим"
       ]
     }
   },
   "centrifugalPumps": {
     "endSuction": {
-      "name": "End Suction Centrifugal Pumps",
-      "description": "Single-stage end suction pumps for general applications",
+      "name": "Центробежные насосы с торцевым всасыванием",
+      "description": "Одноступенчатые насосы с торцевым всасыванием для общего применения",
       "features": [
-        "Flow: 10-5000 GPM",
-        "Head: up to 400 ft",
-        "Cast Iron/Stainless Steel",
-        "ANSI/ISO Standards"
+        "Расход: 10-5000 галлонов в минуту",
+        "Напор: до 400 футов",
+        "Чугун/нержавеющая сталь",
+        "Стандарты ANSI/ISO"
       ]
     },
     "multiStage": {
-      "name": "Multi-Stage Centrifugal Pumps",
-      "description": "High-pressure multi-stage pumps for demanding applications",
+      "name": "Многоступенчатые центробежные насосы",
+      "description": "Многоступенчатые насосы высокого давления для требовательных применений",
       "features": [
-        "High Pressure Capability",
-        "Compact Design",
-        "Energy Efficient",
-        "Balanced Impellers"
+        "Возможность высокого давления",
+        "Компактный дизайн",
+        "Энергоэффективность",
+        "Сбалансированные рабочие колеса"
       ]
     },
     "chemicalProcess": {
-      "name": "Chemical Process Pumps",
-      "description": "Corrosion-resistant pumps for chemical processing",
+      "name": "Насосы для химических процессов",
+      "description": "Коррозионностойкие насосы для химической обработки",
       "features": [
-        "Corrosion Resistant",
-        "Seal-less Design Options",
-        "API 610 Compliant",
-        "High Temperature"
+        "Коррозионностойкий",
+        "Варианты конструкции без уплотнений",
+        "Соответствие API 610",
+        "Высокая температура"
       ]
     }
   },
   "circuitBreakersFuses": {
     "mcb": {
-      "name": "Miniature Circuit Breakers (MCB)",
-      "description": "Low voltage circuit breakers for residential and commercial use",
+      "name": "Миниатюрные автоматические выключатели (MCB)",
+      "description": "Низковольтные автоматические выключатели для жилого и коммерческого использования",
       "features": [
-        "B, C, D Curves",
-        "6-63A Rating",
-        "10kA Breaking Capacity",
-        "DIN Rail Mount"
+        "Кривые B, C, D",
+        "Номинал 6-63A",
+        "Отключающая способность 10 кА",
+        "Крепление на DIN-рейку"
       ]
     },
     "mccb": {
-      "name": "Molded Case Circuit Breakers (MCCB)",
-      "description": "Industrial circuit breakers for motor and power protection",
+      "name": "Автоматические выключатели в литом корпусе (MCCB)",
+      "description": "Промышленные автоматические выключатели для защиты двигателя и питания",
       "features": [
-        "Adjustable Trip",
-        "High Breaking Capacity",
-        "Electronic Trip Units",
-        "Up to 1600A"
+        "Регулируемое отключение",
+        "Высокая отключающая способность",
+        "Электронные блоки отключения",
+        "До 1600A"
       ]
     },
     "industrialFuses": {
-      "name": "Industrial Fuses",
-      "description": "High-speed fuses for equipment protection",
+      "name": "Промышленные предохранители",
+      "description": "Высокоскоростные предохранители для защиты оборудования",
       "features": [
-        "Fast Acting",
-        "Time Delay",
-        "High Voltage",
-        "Ceramic Body"
+        "Быстродействующие",
+        "С задержкой по времени",
+        "Высокое напряжение",
+        "Керамический корпус"
       ]
     }
   },
   "connectorsTerminals": {
     "terminalBlocks": {
-      "name": "Terminal Blocks",
-      "description": "Industrial terminal blocks for secure wire connections",
+      "name": "Клеммные блоки",
+      "description": "Промышленные клеммные блоки для надежных проводных соединений",
       "features": [
-        "Spring Clamp",
-        "Screw Type",
-        "DIN Rail Mount",
-        "Multiple Sizes"
+        "Пружинный зажим",
+        "Винтовой тип",
+        "Крепление на DIN-рейку",
+        "Несколько размеров"
       ]
     },
     "industrialConnectors": {
-      "name": "Industrial Connectors",
-      "description": "Heavy-duty connectors for industrial applications",
+      "name": "Промышленные соединители",
+      "description": "Сверхмощные соединители для промышленного применения",
       "features": [
-        "IP67 Rating",
-        "Locking Mechanism",
-        "Multi-Pin",
-        "Cable Glands"
+        "Рейтинг IP67",
+        "Запорный механизм",
+        "Многоконтактный",
+        "Кабельные вводы"
       ]
     },
     "signalConnectors": {
-      "name": "Signal Connectors",
-      "description": "Precision connectors for instrumentation signals",
+      "name": "Сигнальные соединители",
+      "description": "Прецизионные соединители для измерительных сигналов",
       "features": [
-        "Low Noise",
-        "Shielded Design",
-        "Miniature Size",
-        "High Reliability"
+        "Низкий уровень шума",
+        "Экранированная конструкция",
+        "Миниатюрный размер",
+        "Высокая надежность"
       ]
     }
   },
@@ -552,128 +552,128 @@
     "plcs": {
       "siemensS7": {
         "name": "Siemens SIMATIC S7-1200",
-        "description": "Compact modular PLC for small to medium automation applications",
+        "description": "Компактный модульный ПЛК для малых и средних приложений автоматизации",
         "features": [
-          "Integrated Digital and Analog I/O",
-          "Built-in Ethernet Communication",
-          "TIA Portal Programming",
-          "Failsafe Technology Available"
+          "Встроенные дискретные и аналоговые входы/выходы",
+          "Встроенная связь Ethernet",
+          "Программирование TIA Portal",
+          "Доступна отказоустойчивая технология"
         ]
       },
       "allenBradley": {
         "name": "Allen-Bradley CompactLogix 5380",
-        "description": "High-performance PLC with integrated safety capabilities",
+        "description": "Высокопроизводительный ПЛК со встроенными функциями безопасности",
         "features": [
-          "Integrated Safety Functions",
-          "EtherNet/IP Communication",
-          "Studio 5000 Programming",
-          "Motion Control Integration"
+          "Встроенные функции безопасности",
+          "Связь EtherNet/IP",
+          "Программирование Studio 5000",
+          "Интеграция управления движением"
         ]
       },
       "schneider": {
         "name": "Schneider Electric Modicon M580",
-        "description": "Enterprise PLC platform with hot standby redundancy",
+        "description": "Корпоративная платформа ПЛК с резервированием в горячем режиме",
         "features": [
-          "Hot Standby Redundancy",
-          "Ethernet Backbone Architecture",
-          "Unity Pro Programming",
-          "Advanced Cybersecurity"
+          "Резервирование в горячем режиме",
+          "Базовая архитектура Ethernet",
+          "Программирование Unity Pro",
+          "Расширенная кибербезопасность"
         ]
       }
     },
     "hmi": {
       "panelMount": {
-        "name": "Panel Mount HMI",
-        "description": "Industrial touchscreen panels for process visualization",
+        "name": "Панель HMI",
+        "description": "Промышленные сенсорные панели для визуализации процессов",
         "features": [
-          "Multi-touch Capacitive Display",
-          "Web-based Configuration",
-          "Alarm Management",
-          "Data Logging"
+          "Емкостный дисплей с мультисенсорным управлением",
+          "Веб-конфигурация",
+          "Управление аварийными сигналами",
+          "Регистрация данных"
         ]
       },
       "operatorInterface": {
-        "name": "Operator Interface Station",
-        "description": "Advanced operator workstations for process control",
+        "name": "Станция операторского интерфейса",
+        "description": "Передовые операторские станции для управления процессами",
         "features": [
-          "High-resolution Display",
-          "Multi-protocol Support",
-          "Historical Trending",
-          "Report Generation"
+          "Дисплей высокого разрешения",
+          "Поддержка нескольких протоколов",
+          "Исторические тенденции",
+          "Генерация отчетов"
         ]
       },
       "mobile": {
-        "name": "Mobile HMI",
-        "description": "Mobile solutions for remote process monitoring",
+        "name": "Мобильный HMI",
+        "description": "Мобильные решения для удаленного мониторинга процессов",
         "features": [
-          "Wireless Connectivity",
-          "Mobile App Support",
-          "Remote Access",
-          "Real-time Notifications"
+          "Беспроводное подключение",
+          "Поддержка мобильных приложений",
+          "Удаленный доступ",
+          "Уведомления в реальном времени"
         ]
       }
     },
     "scada": {
       "wonderware": {
         "name": "Wonderware System Platform",
-        "description": "Comprehensive SCADA platform for industrial automation",
+        "description": "Комплексная платформа SCADA для промышленной автоматизации",
         "features": [
-          "Real-time Data Acquisition",
-          "Historical Trending",
-          "Alarm Management",
-          "Web-based HMI"
+          "Сбор данных в реальном времени",
+          "Исторические тенденции",
+          "Управление аварийными сигналами",
+          "Веб-HMI"
         ]
       },
       "geFix": {
         "name": "GE iFIX SCADA",
-        "description": "Advanced SCADA software for process visualization",
+        "description": "Передовое программное обеспечение SCADA для визуализации процессов",
         "features": [
-          "Process Graphics",
-          "Data Logging",
-          "Report Generation",
-          "OPC Connectivity"
+          "Графика процесса",
+          "Регистрация данных",
+          "Генерация отчетов",
+          "OPC-соединение"
         ]
       },
       "siemensWinCC": {
         "name": "Siemens WinCC SCADA",
-        "description": "Industrial SCADA system for monitoring and control",
+        "description": "Промышленная система SCADA для мониторинга и управления",
         "features": [
-          "TIA Portal Integration",
-          "Web Client Support",
-          "Mobile Access",
-          "Redundancy Options"
+          "Интеграция TIA Portal",
+          "Поддержка веб-клиентов",
+          "Мобильный доступ",
+          "Варианты резервирования"
         ]
       }
     },
     "dcs": {
       "honeywellExperion": {
         "name": "Honeywell Experion PKS",
-        "description": "Distributed control system for process industries",
+        "description": "Распределенная система управления для перерабатывающих отраслей",
         "features": [
-          "Process Control",
-          "Safety Systems",
-          "Asset Management",
-          "Advanced Control"
+          "Управление процессами",
+          "Системы безопасности",
+          "Управление активами",
+          "Расширенное управление"
         ]
       },
       "abbSystem800xA": {
         "name": "ABB System 800xA",
-        "description": "Extended automation system for industrial processes",
+        "description": "Расширенная система автоматизации для промышленных процессов",
         "features": [
-          "Integrated Engineering",
-          "Safety Certified",
-          "Cybersecurity",
-          "Lifecycle Management"
+          "Интегрированное проектирование",
+          "Сертификация безопасности",
+          "Кибербезопасность",
+          "Управление жизненным циклом"
         ]
       },
       "emersonDeltaV": {
         "name": "Emerson DeltaV",
-        "description": "Modern DCS with digital transformation capabilities",
+        "description": "Современная DCS с возможностями цифровой трансформации",
         "features": [
-          "Digital Twin Technology",
-          "Predictive Analytics",
-          "Wireless Integration",
-          "Cloud Connectivity"
+          "Технология цифрового двойника",
+          "Прогнозная аналитика",
+          "Беспроводная интеграция",
+          "Облачное подключение"
         ]
       }
     }

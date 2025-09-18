@@ -1,25 +1,8 @@
 {
-  "testimonials": {
-    "anand": {
-      "name": "Ahmad Musa",
-      "location": "West Bengal",
-      "comment": "Kamfanin Injiniyan Powerton ya sa aikin komawa makamashin rana ya kasance cikin sauƙi kuma ba tare da wata matsala ba. Ƙungiyarsu ta kula da komai tun daga farko har zuwa ƙarshe, kuma muna matuƙar farin ciki da sakamakon."
-    },
-    "sanjay": {
-      "name": "Sanusi Ahmad",
-      "location": "Uttar Pradesh",
-      "comment": "Na yi farin ciki da zaɓar Kamfanin Injiniyan Powerton don shigarwarmu, kuma ba zan yi shakka ba in ba da shawarar su ga kowane abokina."
-    },
-    "rhea": {
-      "name": "Rahma Salihu",
-      "location": "Maharashtra",
-      "comment": "Kayayyaki masu inganci ƙwarai da sabis na abokan ciniki abin kallo. Ƙwarewar fasaha ta ƙungiyar ta burge mu matuƙa kuma ƙwararriya ce."
-    }
-  },
   "projects": {
     "thermal-plant": {
-      "title": "Sarrafa Tashar Wutar Lantarki ta Thermal",
-      "description": "Cikakken mafita na sarrafa kansa don tashar wutar lantarki mai karfin 250MW ciki har da kwamitocin sarrafawa, tsarin SCADA, da kulle-kullen tsaro.",
+      "title": "Sarrafa Kamfanin Wutar Lantarki Mai Amfani da Thermal",
+      "description": "Cikakken mafita na sarrafa kansa don kamfanin wutar lantarki mai karfin 250MW ciki har da kwamitocin sarrafawa, tsarin SCADA, da kulle-kullen tsaro.",
       "location": "Uttar Pradesh",
       "duration": "watanni 12",
       "highlights": {
@@ -56,7 +39,7 @@
     "water-treatment": {
       "title": "Sarrafa Tsaftar Ruwa ta Birni",
       "description": "Tsarin sarrafa kansa don masana'antar tsaftar ruwa da ke hidima ga mazauna 500,000 tare da sa ido a ainihin lokaci da sarrafa inganci.",
-      "location": "West Bengal",
+      "location": "Yammacin Bengal",
       "duration": "watanni 10",
       "highlights": {
         "monitoring": "Sa ido a ainihin lokaci",

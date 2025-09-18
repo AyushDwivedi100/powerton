@@ -531,6 +531,8 @@
       }
     },
     "benefits": {
+      "title": "Why Choose Our Quote Service?",
+      "description": "Get accurate pricing and professional consultation for your engineering projects with our comprehensive quote service.",
       "assessment": {
         "title": "Detailed Assessment",
         "description": "Comprehensive project evaluation and technical specifications"
@@ -584,6 +586,8 @@
       }
     },
     "cta": {
+      "tryCalculator": "Try Cost Calculator",
+      "requestQuote": "Request Custom Quote",
       "title": "Ready to Get Started?",
       "description": "Contact us today to get your custom engineering solutions. Our team is ready to help you bring your project to life."
     },

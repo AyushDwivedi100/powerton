@@ -36,32 +36,32 @@
   },
   "testimonials": {
     "anand": {
-      "name": "Ahmad Musa",
+      "name": "阿南德·查克拉博蒂",
       "location": "西孟加拉邦",
       "comment": "Powerton工程公司让太阳能项目变得简单轻松。他们的团队负责从头到尾的一切，我们对结果非常满意。"
     },
     "sanjay": {
-      "name": "Sanusi Ahmad",
+      "name": "桑杰·舒克拉",
       "location": "北方邦",
       "comment": "我很高兴选择了Powerton工程公司进行安装，我非常乐意向我所有的熟人推荐他们。"
     },
     "rhea": {
-      "name": "Rahma Salihu",
+      "name": "瑞亚·夏尔马",
       "location": "马哈拉施特拉邦",
       "comment": "卓越的优质产品和卓越的客户服务。该团队的技术专长令人印象深刻且知识渊博。"
     },
     "priya": {
-      "name": "Fatima Musa",
+      "name": "普里亚·帕蒂尔",
       "location": "古吉拉特邦",
       "comment": "与Powerton工程公司合作是一次非凡的体验。他们的自动化解决方案改变了我们的生产流程，并将效率提高了百分之三十五。强烈推荐用于工业自动化项目。"
     },
     "kavya": {
-      "name": "Hadiza Sani",
+      "name": "卡维亚·辛格",
       "location": "卡纳塔克邦",
       "comment": "卓越的服务和技术支持！在我们的太阳能项目实施过程中，该团队提供了特殊的指导。他们的专业精神和及时交付完全超出了我们的预期。"
     },
     "rajesh": {
-      "name": "Usman Ahmad",
+      "name": "拉杰什·艾尔",
       "location": "泰米尔纳德邦",
       "comment": "Powerton工程公司实现了他们承诺的一切。他们安装的测量仪器系统已经运行了两年多，而且运行良好。他们的售后支持非常棒，而且总是反应迅速。"
     }
@@ -86,8 +86,10 @@
   "buttons": {
     "downloadPortfolio": "下载作品集",
     "showFilters": "显示过滤器",
+    "hideFilters": "隐藏过滤器",
     "readMore": "阅读更多",
     "downloadCatalog": "下载目录",
+    "discussProject": "讨论项目",
     "viewDetails": "查看详情",
     "backTo": "返回 {{category}}",
     "backToBldcProducts": "返回无刷直流电机（BLDC）产品",
@@ -224,7 +226,8 @@
   "company": {
     "name": "Powerton Engineering Pvt. Ltd.",
     "tagline": "您在工业自动化和电气工程领域值得信赖的合作伙伴",
-    "phone": "+91-94627-71662 / +91-82997-27291",
+    "primaryPhone": "+91-94627-71662",
+    "secondaryPhone": "+91-82997-27291",
     "email": "info@powertonengineering.com",
     "address": {
       "street": "F-25, F座, 6区",
@@ -242,7 +245,8 @@
       "yearsExperience": "多年经验",
       "projectsCompleted": "已完成项目",
       "clientsServed": "满意的客户",
-      "support": "支持"
+      "support": "支持",
+      "successRate": "成功率"
     }
   },
   "seo": {

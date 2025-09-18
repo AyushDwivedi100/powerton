@@ -36,32 +36,32 @@
   },
   "testimonials": {
     "anand": {
-      "name": "Ahmad Musa",
+      "name": "Anand Chakroborty",
       "location": "Bengala Occidental",
       "comment": "Powerton Engineering hizo que nuestro proyecto de energía solar fuera fácil y sin estrés. Su equipo se encargó de todo de principio a fin, y estamos muy contentos con los resultados."
     },
     "sanjay": {
-      "name": "Sanusi Ahmad",
+      "name": "Sanjay Shukla",
       "location": "Uttar Pradesh",
       "comment": "Estoy contento de haber elegido Powerton Engineering para nuestra instalación, y no dudaría en recomendarlos a cualquiera."
     },
     "rhea": {
-      "name": "Rahma Salihu",
+      "name": "Rhea Sharma",
       "location": "Maharashtra",
       "comment": "Productos de calidad excepcional y un servicio al cliente excepcional. La experiencia técnica del equipo es impresionante y muy eficiente."
     },
     "priya": {
-      "name": "Fatima Musa",
+      "name": "Priya Patil",
       "location": "Gujarat",
       "comment": "Trabajar con Powerton Engineering ha sido una experiencia increíble. Sus soluciones de automatización han transformado nuestro proceso de producción y han mejorado la eficiencia en un treinta y cinco por ciento. Muy recomendado para proyectos de automatización industrial."
     },
     "kavya": {
-      "name": "Hadiza Sani",
+      "name": "Kavya Singh",
       "location": "Karnataka",
       "comment": "¡Excelente servicio y soporte técnico! El equipo brindó una guía excepcional durante la implementación de nuestro proyecto solar. Su enfoque profesional y entrega oportuna superaron nuestras expectativas por completo."
     },
     "rajesh": {
-      "name": "Usman Ahmad",
+      "name": "Rajesh Iyer",
       "location": "Tamil Nadu",
       "comment": "Powerton Engineering cumplió exactamente lo que prometió. El sistema de instrumentos de medición que instalaron ha estado funcionando sin problemas durante más de dos años. Su soporte postventa es excelente y siempre responden."
     }
@@ -86,8 +86,10 @@
   "buttons": {
     "downloadPortfolio": "Descargar Portafolio",
     "showFilters": "Mostrar Filtros",
+    "hideFilters": "Ocultar Filtros",
     "readMore": "Leer Más",
     "downloadCatalog": "Descargar Catálogo",
+    "discussProject": "Discutir Proyecto",
     "viewDetails": "Ver Detalles",
     "backTo": "Volver a {{category}}",
     "backToBldcProducts": "Volver a productos de motores de CC sin escobillas (BLDC)",
@@ -224,7 +226,8 @@
   "company": {
     "name": "Powerton Engineering Pvt. Ltd.",
     "tagline": "Su socio confiable en automatización industrial e ingeniería eléctrica",
-    "phone": "+91-94627-71662 / +91-82997-27291",
+    "primaryPhone": "+91-94627-71662",
+    "secondaryPhone": "+91-82997-27291",
     "email": "info@powertonengineering.com",
     "address": {
       "street": "F-25, Edificio F, Sector 6",
@@ -242,7 +245,8 @@
       "yearsExperience": "Años de Experiencia",
       "projectsCompleted": "Proyectos Completados",
       "clientsServed": "Clientes Satisfechos",
-      "support": "Soporte"
+      "support": "Soporte",
+      "successRate": "Tasa de Éxito"
     }
   },
   "seo": {

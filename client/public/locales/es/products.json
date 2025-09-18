@@ -1,1254 +1,1254 @@
 {
-  "title": "Our Products",
-  "subtitle": "Comprehensive range of industrial automation products, electrical components, instrumentation, solar systems, pumps, and tools. Quality equipment for industrial applications.",
+  "title": "Nuestros Productos",
+  "subtitle": "Amplia gama de productos de automatización industrial, componentes eléctricos, instrumentación, sistemas solares, bombas y herramientas. Equipo de calidad para aplicaciones industriales.",
   "categories": {
-    "automation": "Automation & Control",
-    "electrical": "Electrical Components",
-    "instrumentation": "Instrumentation",
-    "solar": "Solar Products",
-    "motors": "BLDC Motor Systems",
-    "pumps": "Pumps & Motors",
-    "safety": "Safety Equipment",
-    "tools": "Industrial Tools",
+    "automation": "Automatización y Control",
+    "electrical": "Componentes Eléctricos",
+    "instrumentation": "Instrumentación",
+    "solar": "Productos Solares",
+    "motors": "Sistemas de Motor BLDC",
+    "pumps": "Bombas y Motores",
+    "safety": "Equipo de Seguridad",
+    "tools": "Herramientas Industriales",
     "instrumentation-components": {
-      "title": "Instrumentation Components",
-      "description": "Precision instrumentation components for measurement and control",
+      "title": "Componentes de Instrumentación",
+      "description": "Componentes de instrumentación de precisión para medición y control",
       "features": {
-        "pressure-transmitters": "Pressure Transmitters",
-        "temperature-sensors": "Temperature Sensors",
-        "flow-meters": "Flow Meters",
-        "level-indicators": "Level Indicators"
+        "pressure-transmitters": "Transmisores de Presión",
+        "temperature-sensors": "Sensores de Temperatura",
+        "flow-meters": "Medidores de Flujo",
+        "level-indicators": "Indicadores de Nivel"
       }
     },
     "electrical-components": {
-      "title": "Electrical Components",
-      "description": "Comprehensive electrical components solutions for industrial applications",
+      "title": "Componentes Eléctricos",
+      "description": "Soluciones integrales de componentes eléctricos para aplicaciones industriales",
       "features": {
-        "circuit-breakers": "Circuit Breakers",
-        "contactors": "Contactors",
-        "relays": "Relays",
-        "power-supplies": "Power Supplies"
+        "circuit-breakers": "Interruptores Automáticos",
+        "contactors": "Contactores",
+        "relays": "Relés",
+        "power-supplies": "Fuentes de Alimentación"
       }
     },
     "measurement-instruments": {
-      "title": "Measurement Instruments",
-      "description": "Precision measurement and testing instruments",
+      "title": "Instrumentos de Medición",
+      "description": "Instrumentos de medición y prueba de precisión",
       "features": {
-        "digital-multimeters": "Digital Multimeters",
-        "oscilloscopes": "Oscilloscopes",
-        "signal-analyzers": "Signal Analyzers",
-        "calibrators": "Calibrators"
+        "digital-multimeters": "Multímetros Digitales",
+        "oscilloscopes": "Osciloscopios",
+        "signal-analyzers": "Analizadores de Señal",
+        "calibrators": "Calibradores"
       }
     },
     "solar-products": {
-      "title": "Solar Products",
-      "description": "Complete solar energy solutions and components",
+      "title": "Productos Solares",
+      "description": "Soluciones y componentes completos de energía solar",
       "features": {
-        "solar-panels": "Solar Panels",
-        "inverters": "Inverters",
-        "battery-storage": "Battery Storage",
-        "monitoring-systems": "Monitoring Systems"
+        "solar-panels": "Paneles Solares",
+        "inverters": "Inversores",
+        "battery-storage": "Almacenamiento de Batería",
+        "monitoring-systems": "Sistemas de Monitoreo"
       }
     },
     "automation-control-systems": {
-      "title": "Automation & Control Systems",
-      "description": "Advanced automation and control systems for industrial operations",
+      "title": "Sistemas de Automatización y Control",
+      "description": "Sistemas avanzados de automatización y control para operaciones industriales",
       "features": {
-        "hmi-systems": "HMI Systems",
-        "scada-software": "SCADA Software",
-        "industrial-networks": "Industrial Networks"
+        "hmi-systems": "Sistemas HMI",
+        "scada-software": "Software SCADA",
+        "industrial-networks": "Redes Industriales"
       }
     },
     "safety-protective-devices": {
-      "title": "Safety & Protective Devices",
-      "description": "Industrial safety systems and protective equipment",
+      "title": "Dispositivos de Seguridad y Protección",
+      "description": "Sistemas de seguridad industrial y equipos de protección",
       "features": {
-        "safety-switches": "Safety Switches",
-        "emergency-stops": "Emergency Stops",
-        "light-curtains": "Light Curtains",
-        "protective-barriers": "Protective Barriers"
+        "safety-switches": "Interruptores de Seguridad",
+        "emergency-stops": "Paradas de Emergencia",
+        "light-curtains": "Cortinas de Luz",
+        "protective-barriers": "Barreras de Protección"
       }
     },
     "mechanical-pumps-spares": {
-      "title": "Mechanical Pumps & Spares",
-      "description": "Mechanical pumps and spare parts for industrial applications",
+      "title": "Bombas Mecánicas y Repuestos",
+      "description": "Bombas mecánicas y repuestos para aplicaciones industriales",
       "features": {
-        "centrifugal-pumps": "Centrifugal Pumps",
-        "positive-displacement-pumps": "Positive Displacement Pumps",
-        "pump-components": "Pump Components",
-        "maintenance-kits": "Maintenance Kits"
+        "centrifugal-pumps": "Bombas Centrifugas",
+        "positive-displacement-pumps": "Bombas de Desplazamiento Positivo",
+        "pump-components": "Componentes de Bombas",
+        "maintenance-kits": "Kits de Mantenimiento"
       }
     },
     "industrial-tools-tackles": {
-      "title": "Industrial Tools & Equipment",
-      "description": "Heavy-duty industrial tools and lifting equipment",
+      "title": "Herramientas y Equipos Industriales",
+      "description": "Herramientas industriales de alta resistencia y equipos de elevación",
       "features": {
-        "hand-tools": "Hand Tools",
-        "power-tools": "Power Tools",
-        "lifting-equipment": "Lifting Equipment",
-        "cutting-tools": "Cutting Tools"
+        "hand-tools": "Herramientas Manuales",
+        "power-tools": "Herramientas Eléctricas",
+        "lifting-equipment": "Equipos de Elevación",
+        "cutting-tools": "Herramientas de Corte"
       }
     },
     "bldc": {
-      "title": "BLDC Products",
-      "description": "Brushless DC motor products for energy-efficient applications",
+      "title": "Productos BLDC",
+      "description": "Productos de motor DC sin escobillas para aplicaciones de eficiencia energética",
       "features": {
-        "energy-efficient": "Energy Efficient",
-        "long-lifespan": "Long Lifespan",
-        "low-maintenance": "Low Maintenance",
-        "variable-speed-control": "Variable Speed Control"
+        "energy-efficient": "Eficiencia Energética",
+        "long-lifespan": "Larga Vida Útil",
+        "low-maintenance": "Bajo Mantenimiento",
+        "variable-speed-control": "Control de Velocidad Variable"
       }
     }
   },
   "bldcCeilingFan": {
     "smart1200": {
-      "title": "Smart BLDC Ceiling Fan 1200mm",
-      "description": "Energy-efficient smart ceiling fan with remote control and timer function",
+      "title": "Ventilador de Techo BLDC Inteligente 1200mm",
+      "description": "Ventilador de techo inteligente de bajo consumo con control remoto y función de temporizador",
       "features": [
-        "28W Power Consumption",
-        "Remote Control",
-        "5 Speed Settings",
-        "Timer Function"
+        "Consumo de Energía de 28W",
+        "Control Remoto",
+        "5 Configuraciones de Velocidad",
+        "Función de Temporizador"
       ]
     },
     "premium1400": {
-      "title": "Premium BLDC Ceiling Fan 1400mm",
-      "description": "High-performance ceiling fan with LED lighting and reversible motor",
+      "title": "Ventilador de Techo BLDC Premium 1400mm",
+      "description": "Ventilador de techo de alto rendimiento con iluminación LED y motor reversible",
       "features": [
-        "35W Power Consumption",
-        "LED Light Integrated",
-        "Reversible Motor",
-        "Silent Operation"
+        "Consumo de Energía de 35W",
+        "Luz LED Integrada",
+        "Motor Reversible",
+        "Funcionamiento Silencioso"
       ]
     },
     "commercial1500": {
-      "title": "Commercial BLDC Ceiling Fan 1500mm",
-      "description": "Heavy-duty ceiling fan for commercial and industrial applications",
+      "title": "Ventilador de Techo BLDC Comercial 1500mm",
+      "description": "Ventilador de techo de alta resistencia para aplicaciones comerciales e industriales",
       "features": [
-        "45W Power Consumption",
-        "Heavy-Duty Motor",
-        "High Air Flow",
-        "Durable Construction"
+        "Consumo de Energía de 45W",
+        "Motor de Alta Resistencia",
+        "Alto Flujo de Aire",
+        "Construcción Duradera"
       ]
     }
   },
   "bldcCoolerExhaust": {
     "exhaustFan": {
-      "title": "BLDC Exhaust Fan Motor",
-      "description": "High-efficiency brushless DC motor for exhaust fan applications",
+      "title": "Motor de Ventilador Extractor BLDC",
+      "description": "Motor DC sin escobillas de alta eficiencia para aplicaciones de ventilador extractor",
       "features": [
-        "Variable Speed Control",
-        "Low Noise Operation",
-        "Energy Efficient Design",
-        "Extended Life Span"
+        "Control de Velocidad Variable",
+        "Funcionamiento de Bajo Ruido",
+        "Diseño de Eficiencia Energética",
+        "Vida Útil Extendida"
       ]
     },
     "coolerMotors": {
-      "title": "BLDC Cooler Motor",
-      "description": "Energy-efficient motor designed for air cooler applications",
+      "title": "Motor de Enfriador BLDC",
+      "description": "Motor de bajo consumo diseñado para aplicaciones de enfriadores de aire",
       "features": [
-        "High Torque Output",
-        "Weather Resistant",
-        "Speed Control",
-        "Maintenance Free Operation"
+        "Salida de Alto Torque",
+        "Resistente a la Intemperie",
+        "Control de Velocidad",
+        "Operación Sin Mantenimiento"
       ]
     },
     "ventilation": {
-      "title": "BLDC Ventilation System Motor",
-      "description": "Specialized motor for industrial ventilation and air handling systems",
+      "title": "Motor de Sistema de Ventilación BLDC",
+      "description": "Motor especializado para sistemas industriales de ventilación y manejo de aire",
       "features": [
-        "High CFM Rating",
-        "Temperature Rated",
-        "Vibration Resistant",
-        "Smart Control Compatible"
+        "Alta Clasificación CFM",
+        "Clasificación de Temperatura",
+        "Resistente a la Vibración",
+        "Compatible con Control Inteligente"
       ]
     }
   },
   "bldcPumps": {
     "solarSubmersible1hp": {
-      "title": "Solar BLDC Submersible Pump 1HP",
-      "description": "Solar-powered submersible pump for water wells and borehole applications",
+      "title": "Bomba Sumergible Solar BLDC 1HP",
+      "description": "Bomba sumergible de energía solar para pozos de agua y aplicaciones de perforación",
       "features": [
-        "Solar Compatible Operation",
-        "1HP Motor Power",
-        "High Efficiency Design",
-        "Water-Cooled Construction"
+        "Operación Compatible con Energía Solar",
+        "Potencia del Motor de 1HP",
+        "Diseño de Alta Eficiencia",
+        "Construcción Refrigerada por Agua"
       ]
     },
     "dcSurface2hp": {
-      "title": "DC Surface Pump 2HP",
-      "description": "High-efficiency surface pump for irrigation and water transfer",
+      "title": "Bomba de Superficie DC 2HP",
+      "description": "Bomba de superficie de alta eficiencia para riego y transferencia de agua",
       "features": [
-        "2HP Power Rating",
-        "Self-Priming Design",
-        "Dry Run Protection",
-        "Variable Speed Control"
+        "Clasificación de Potencia de 2HP",
+        "Diseño Autocebante",
+        "Protección contra Funcionamiento en Seco",
+        "Control de Velocidad Variable"
       ]
     },
     "hybridSystem": {
-      "title": "Hybrid BLDC Pump System",
-      "description": "Intelligent pump system with solar and grid backup capability",
+      "title": "Sistema de Bomba BLDC Híbrido",
+      "description": "Sistema de bomba inteligente con capacidad de respaldo solar y de red",
       "features": [
-        "Hybrid Operation Mode",
-        "Smart Controller",
-        "Remote Monitoring",
-        "Energy Optimization"
+        "Modo de Operación Híbrido",
+        "Controlador Inteligente",
+        "Monitoreo Remoto",
+        "Optimización de Energía"
       ]
     }
   },
   "bldcFans": {
     "tableFan": {
-      "title": "BLDC Table Fan Motor",
-      "description": "Compact brushless DC motor for table and desk fan applications",
+      "title": "Motor de Ventilador de Mesa BLDC",
+      "description": "Motor DC sin escobillas compacto para aplicaciones de ventiladores de mesa y escritorio",
       "features": [
-        "Compact Design",
-        "Silent Operation",
-        "Remote Control",
-        "Timer Function"
+        "Diseño Compacto",
+        "Funcionamiento Silencioso",
+        "Control Remoto",
+        "Función de Temporizador"
       ]
     },
     "wallFan": {
-      "title": "BLDC Wall Fan Motor",
-      "description": "Wall-mounted fan motor with BLDC technology for residential use",
+      "title": "Motor de Ventilador de Pared BLDC",
+      "description": "Motor de ventilador de pared con tecnología BLDC para uso residencial",
       "features": [
-        "Wall Mount Design",
-        "Oscillating Function",
-        "Speed Control",
-        "Energy Saving Operation"
+        "Diseño de Montaje en Pared",
+        "Función Oscilante",
+        "Control de Velocidad",
+        "Operación de Ahorro de Energía"
       ]
     },
     "pedestalFan": {
-      "title": "BLDC Pedestal Fan Motor",
-      "description": "Height-adjustable pedestal fan motor with LED display",
+      "title": "Motor de Ventilador de Pedestal BLDC",
+      "description": "Motor de ventilador de pedestal con altura ajustable y pantalla LED",
       "features": [
-        "Height Adjustment",
-        "Tilt Function",
-        "LED Display",
-        "Sleep Mode Timer"
+        "Ajuste de Altura",
+        "Función de Inclinación",
+        "Pantalla LED",
+        "Temporizador de Modo de Reposo"
       ]
     }
   },
   "cablesWires": {
     "instrumentation": {
-      "title": "Instrumentation Cables",
-      "description": "Low voltage shielded cables for instrumentation and control applications",
+      "title": "Cables de Instrumentación",
+      "description": "Cables blindados de bajo voltaje para aplicaciones de instrumentación y control",
       "features": [
-        "Shielded Construction",
-        "Moisture Resistant",
-        "Temperature Rated",
-        "Multiple Pair Configuration"
+        "Construcción Blindada",
+        "Resistente a la Humedad",
+        "Clasificación de Temperatura",
+        "Configuración de Múltiples Pares"
       ]
     },
     "powerDistribution": {
-      "title": "Power Distribution Cables",
-      "description": "High voltage cables for power transmission and distribution systems",
+      "title": "Cables de Distribución de Energía",
+      "description": "Cables de alto voltaje para sistemas de transmisión y distribución de energía",
       "features": [
-        "XLPE Insulation",
-        "Armored Construction",
-        "Fire Resistant",
-        "High Current Rating"
+        "Aislamiento XLPE",
+        "Construcción Blindada",
+        "Resistente al Fuego",
+        "Alta Capacidad de Corriente"
       ]
     },
     "communication": {
-      "title": "Communication Cables",
-      "description": "Data transmission cables for industrial communication networks",
+      "title": "Cables de Comunicación",
+      "description": "Cables de transmisión de datos para redes de comunicación industrial",
       "features": [
-        "Cat5e/Cat6 Standards",
-        "Fiber Optic Options",
-        "Industrial Grade",
-        "EMI Shielding"
+        "Estándares Cat5e/Cat6",
+        "Opciones de Fibra Óptica",
+        "Grado Industrial",
+        "Blindaje EMI"
       ]
     }
   },
   "circuitBreakers": {
     "mcb": {
-      "title": "Miniature Circuit Breakers (MCB)",
-      "description": "Low voltage circuit breakers for residential and commercial protection",
+      "title": "Interruptores Automáticos en Miniatura (MCB)",
+      "description": "Interruptores automáticos de bajo voltaje para protección residencial y comercial",
       "features": [
-        "B/C/D Trip Curves",
-        "6-63A Rating",
-        "10kA Breaking Capacity",
-        "DIN Rail Mounting"
+        "Curvas de Disparo B/C/D",
+        "Clasificación de 6-63A",
+        "Capacidad de Ruptura de 10kA",
+        "Montaje en Riel DIN"
       ]
     },
     "mccb": {
-      "title": "Molded Case Circuit Breakers (MCCB)",
-      "description": "Industrial circuit breakers for motor and power equipment protection",
+      "title": "Interruptores Automáticos de Caja Moldeada (MCCB)",
+      "description": "Interruptores automáticos industriales para protección de motores y equipos de energía",
       "features": [
-        "Adjustable Trip Settings",
-        "High Breaking Capacity",
-        "Electronic Trip Units",
-        "Up to 1600A Rating"
+        "Ajustes de Disparo Ajustables",
+        "Alta Capacidad de Ruptura",
+        "Unidades de Disparo Electrónicas",
+        "Clasificación de hasta 1600A"
       ]
     },
     "industrialFuses": {
-      "title": "Industrial Fuses",
-      "description": "High-speed fuses for electrical equipment protection",
+      "title": "Fusibles Industriales",
+      "description": "Fusibles de alta velocidad para protección de equipos eléctricos",
       "features": [
-        "Fast Acting Response",
-        "Time Delay Options",
-        "High Voltage Rating",
-        "Ceramic Body Construction"
+        "Respuesta de Acción Rápida",
+        "Opciones de Retardo de Tiempo",
+        "Alta Clasificación de Voltaje",
+        "Construcción de Cuerpo Cerámico"
       ]
     }
   },
   "connectorsTerminals": {
     "terminalBlocks": {
-      "title": "Industrial Terminal Blocks",
-      "description": "Secure terminal blocks for industrial wire connections",
+      "title": "Bloques de Terminales Industriales",
+      "description": "Bloques de terminales seguros para conexiones de cables industriales",
       "features": [
-        "Spring Clamp Technology",
-        "Screw Type Connections",
-        "DIN Rail Mounting",
-        "Multiple Size Options"
+        "Tecnología de Abrazadera de Resorte",
+        "Conexiones Tipo Tornillo",
+        "Montaje en Riel DIN",
+        "Múltiples Opciones de Tamaño"
       ]
     },
     "industrialConnectors": {
-      "title": "Industrial Connectors",
-      "description": "Heavy-duty connectors for demanding industrial applications",
+      "title": "Conectores Industriales",
+      "description": "Conectores de alta resistencia para aplicaciones industriales exigentes",
       "features": [
-        "IP67 Protection Rating",
-        "Locking Mechanism",
-        "Multi-Pin Configuration",
-        "Cable Gland Integration"
+        "Clasificación de Protección IP67",
+        "Mecanismo de Bloqueo",
+        "Configuración de Múltiples Pines",
+        "Integración de Prensaestopas"
       ]
     },
     "signalConnectors": {
-      "title": "Signal Connectors",
-      "description": "Precision connectors for instrumentation and signal transmission",
+      "title": "Conectores de Señal",
+      "description": "Conectores de precisión para instrumentación y transmisión de señales",
       "features": [
-        "Low Noise Design",
-        "Shielded Construction",
-        "Miniature Size",
-        "High Reliability Performance"
+        "Diseño de Bajo Ruido",
+        "Construcción Blindada",
+        "Tamaño Miniatura",
+        "Rendimiento de Alta Fiabilidad"
       ]
     }
   },
   "subcategories": {
     "sensors": {
-      "title": "Sensors",
-      "description": "Industrial sensors for measurement and control"
+      "title": "Sensores",
+      "description": "Sensores industriales para medición y control"
     },
     "transmitters": {
-      "title": "Transmitters & Transducers",
-      "description": "Process transmitters and signal conversion equipment"
+      "title": "Transmisores y Transductores",
+      "description": "Transmisores de proceso y equipos de conversión de señal"
     },
     "controllers": {
-      "title": "Controllers & Recorders",
-      "description": "Industrial control systems and automation controllers"
+      "title": "Controladores y Registradores",
+      "description": "Sistemas de control industrial y controladores de automatización"
     },
     "switches": {
-      "title": "Switches & Indicators",
-      "description": "Industrial switches and control equipment"
+      "title": "Interruptores e Indicadores",
+      "description": "Interruptores industriales y equipos de control"
     },
     "valves": {
-      "title": "Valves & Actuators",
-      "description": "Industrial valves and flow control systems"
+      "title": "Válvulas y Actuadores",
+      "description": "Válvulas industriales y sistemas de control de flujo"
     },
     "analyzers": {
-      "title": "Analyzers",
-      "description": "Process analyzers for quality control"
+      "title": "Analizadores",
+      "description": "Analizadores de proceso para control de calidad"
     },
     "signal-conditioners": {
-      "title": "Signal Conditioners",
-      "description": "Signal processing and conditioning equipment"
+      "title": "Acondicionadores de Señal",
+      "description": "Equipos de procesamiento y acondicionamiento de señales"
     },
     "cables-wires": {
-      "title": "Cables & Wires",
-      "description": "Industrial cables and wiring solutions"
+      "title": "Cables y Alambres",
+      "description": "Cables industriales y soluciones de cableado"
     },
     "connectors-terminals": {
-      "title": "Connectors & Terminals",
-      "description": "Electrical connectors and terminal solutions"
+      "title": "Conectores y Terminales",
+      "description": "Conectores eléctricos y soluciones de terminales"
     },
     "circuit-breakers-fuses": {
-      "title": "Circuit Breakers & Fuses",
-      "description": "Electrical protection devices for circuit safety"
+      "title": "Interruptores Automáticos y Fusibles",
+      "description": "Dispositivos de protección eléctrica para seguridad del circuito"
     },
     "power-supplies": {
-      "title": "Power Supplies",
-      "description": "Industrial power supply units and converters"
+      "title": "Fuentes de Alimentación",
+      "description": "Unidades y convertidores de fuente de alimentación industrial"
     },
     "enclosures-cabinets": {
-      "title": "Enclosures & Cabinets",
-      "description": "Electrical enclosures and control cabinet solutions"
+      "title": "Gabinetes y Cajas",
+      "description": "Cajas eléctricas y soluciones de gabinetes de control"
     },
     "heating-elements-appliances": {
-      "title": "Heating Elements & Appliances",
-      "description": "Industrial heating solutions and thermal equipment"
+      "title": "Elementos y Aparatos de Calefacción",
+      "description": "Soluciones de calefacción industrial y equipos térmicos"
     },
     "multimeters": {
-      "title": "Multimeters",
-      "description": "Digital and analog multimeters for electrical testing"
+      "title": "Multímetros",
+      "description": "Multímetros digitales y analógicos para pruebas eléctricas"
     },
     "oscilloscopes": {
-      "title": "Oscilloscopes",
-      "description": "Digital oscilloscopes for signal analysis and testing"
+      "title": "Osciloscopios",
+      "description": "Osciloscopios digitales para análisis y pruebas de señales"
     },
     "spectrum-analyzers": {
-      "title": "Spectrum Analyzers",
-      "description": "RF and microwave spectrum analysis equipment"
+      "title": "Analizadores de Espectro",
+      "description": "Equipos de análisis de espectro de RF y microondas"
     },
     "power-quality-analyzers": {
-      "title": "Power Quality Analyzers",
-      "description": "Power quality measurement and analysis instruments"
+      "title": "Analizadores de Calidad de Energía",
+      "description": "Instrumentos de medición y análisis de calidad de energía"
     },
     "solar-batteries-energy-storage": {
-      "title": "Solar Batteries & Energy Storage",
-      "description": "Battery storage systems for solar energy applications"
+      "title": "Baterías Solares y Almacenamiento de Energía",
+      "description": "Sistemas de almacenamiento de baterías para aplicaciones de energía solar"
     },
     "surge-protectors": {
-      "title": "Surge Protectors"
+      "title": "Protectores contra Sobretensiones"
     },
     "safety-relays-switches": {
-      "title": "Safety Relays & Switches"
+      "title": "Relés e Interruptores de Seguridad"
     },
     "intrinsically-safe-equipment": {
-      "title": "Intrinsically Safe Equipment"
+      "title": "Equipos Intrínsecamente Seguros"
     },
     "centrifugal-pumps": {
-      "title": "Centrifugal Pumps"
+      "title": "Bombas Centrifugas"
     },
     "diaphragm-pumps": {
-      "title": "Diaphragm Pumps"
+      "title": "Bombas de Diafragma"
     },
     "gear-pumps": {
-      "title": "Gear Pumps"
+      "title": "Bombas de Engranajes"
     },
     "pump-parts-spares": {
-      "title": "Pump Parts & Spares"
+      "title": "Piezas de Bombas y Repuestos"
     },
     "hand-tools": {
-      "title": "Hand Tools"
+      "title": "Herramientas de Mano"
     },
     "power-tools": {
-      "title": "Power Tools"
+      "title": "Herramientas Eléctricas"
     },
     "cutting-tools": {
-      "title": "Cutting Tools"
+      "title": "Herramientas de Corte"
     },
     "lifting-equipment": {
-      "title": "Lifting Equipment"
+      "title": "Equipo de Elevación"
     },
     "safety-equipment": {
-      "title": "Safety Equipment",
-      "description": "Comprehensive safety equipment and personal protective equipment for industrial applications",
-      "sectionsTitle": "Safety Solutions",
+      "title": "Equipo de Seguridad",
+      "description": "Equipo de seguridad integral y equipo de protección personal para aplicaciones industriales",
+      "sectionsTitle": "Soluciones de Seguridad",
       "products": {
         "ppe": {
-          "name": "Personal Protective Equipment (PPE)",
-          "description": "Safety equipment for worker protection",
+          "name": "Equipo de Protección Personal (EPP)",
+          "description": "Equipo de seguridad para la protección del trabajador",
           "features": {
-            "hardHats": "Hard Hats",
-            "safetyGlasses": "Safety Glasses",
-            "hearingProtection": "Hearing Protection",
-            "workGloves": "Work Gloves"
+            "hardHats": "Cascos",
+            "safetyGlasses": "Gafas de Seguridad",
+            "hearingProtection": "Protección Auditiva",
+            "workGloves": "Guantes de Trabajo"
           }
         },
         "fallProtection": {
-          "name": "Fall Protection Systems",
-          "description": "Harnesses and fall arrest equipment",
+          "name": "Sistemas de Protección contra Caídas",
+          "description": "Arneses y equipos de detención de caídas",
           "features": {
-            "fullBodyHarness": "Full Body Harness",
-            "lanyards": "Lanyards",
-            "anchorPoints": "Anchor Points",
-            "selfRetracting": "Self-Retracting"
+            "fullBodyHarness": "Arnés de Cuerpo Completo",
+            "lanyards": "Cuerdas de Seguridad",
+            "anchorPoints": "Puntos de Anclaje",
+            "selfRetracting": "Auto-Retráctil"
           }
         },
         "gasDetection": {
-          "name": "Gas Detection Equipment",
-          "description": "Portable and fixed gas monitoring systems",
+          "name": "Equipo de Detección de Gases",
+          "description": "Sistemas portátiles y fijos de monitoreo de gases",
           "features": {
-            "multiGasDetectors": "Multi-Gas Detectors",
-            "singleGas": "Single Gas",
-            "wirelessMonitoring": "Wireless Monitoring",
-            "dataLogging": "Data Logging"
+            "multiGasDetectors": "Detectores Multigas",
+            "singleGas": "Gas Único",
+            "wirelessMonitoring": "Monitoreo Inalámbrico",
+            "dataLogging": "Registro de Datos"
           }
         }
       },
       "cta": {
-        "title": "Need Safety Equipment?",
-        "description": "Our safety specialists can provide comprehensive safety solutions to protect your workforce.",
-        "contactExpertsCta": "Contact Safety Experts",
-        "requestQuoteCta": "Request Quote"
+        "title": "¿Necesita Equipo de Seguridad?",
+        "description": "Nuestros especialistas en seguridad pueden proporcionar soluciones de seguridad integrales para proteger a su fuerza laboral.",
+        "contactExpertsCta": "Contactar con Expertos en Seguridad",
+        "requestQuoteCta": "Solicitar Presupuesto"
       }
     },
     "bldc-cooler-exhaust-motor": {
-      "title": "BLDC Cooler & Exhaust Motors"
+      "title": "Motores BLDC para Enfriadores y Extractores"
     },
     "bldc-ceiling-fan": {
-      "title": "BLDC Ceiling Fans"
+      "title": "Ventiladores de Techo BLDC"
     },
     "bldc-submersible-surface-pump": {
-      "title": "BLDC Submersible & Surface Pumps"
+      "title": "Bombas Sumergibles y de Superficie BLDC"
     },
     "bldc-table-fan-wall-fan-motor": {
-      "title": "BLDC Table & Wall Fan Motors"
+      "title": "Motores BLDC para Ventiladores de Mesa y de Pared"
     },
     "solar-inverters": {
-      "title": "Solar Inverters"
+      "title": "Inversores Solares"
     },
     "plcs": {
-      "title": "PLCs (Programmable Logic Controllers)"
+      "title": "PLCs (Controladores Lógicos Programables)"
     },
     "scada": {
-      "title": "SCADA Systems",
-      "description": "Supervisory Control And Data Acquisition systems"
+      "title": "Sistemas SCADA",
+      "description": "Sistemas de Supervisión, Control y Adquisición de Datos"
     },
     "dcs": {
-      "title": "DCS (Distributed Control Systems)",
-      "description": "Distributed control systems for process automation"
+      "title": "DCS (Sistemas de Control Distribuido)",
+      "description": "Sistemas de control distribuido para automatización de procesos"
     },
     "hmi": {
-      "title": "HMI (Human Machine Interface)",
-      "description": "Human machine interface systems for industrial control"
+      "title": "HMI (Interfaz Humano-Máquina)",
+      "description": "Sistemas de interfaz humano-máquina para control industrial"
     },
     "grounding-systems": {
-      "title": "Grounding Systems",
-      "description": "Electrical grounding and earthing systems",
-      "subtitle": "Electrical grounding and earthing systems for safety and equipment protection",
-      "backButton": "Back to Safety & Protective Devices",
+      "title": "Sistemas de Puesta a Tierra",
+      "description": "Sistemas de puesta a tierra y conexión a tierra eléctricos",
+      "subtitle": "Sistemas de puesta a tierra y conexión a tierra eléctricos para seguridad y protección de equipos",
+      "backButton": "Volver a Dispositivos de Seguridad y Protección",
       "badges": {
-        "groundRods": "Ground Rods",
-        "conductors": "Conductors",
-        "clampsLugs": "Clamps & Lugs",
-        "safetyGrounding": "Safety Grounding"
+        "groundRods": "Varillas de Tierra",
+        "conductors": "Conductores",
+        "clampsLugs": "Abrazaderas y Terminales",
+        "safetyGrounding": "Puesta a Tierra de Seguridad"
       },
       "componentsSection": {
-        "title": "Grounding Components"
+        "title": "Componentes de Puesta a Tierra"
       },
       "products": {
         "electrodes": {
-          "name": "Grounding Electrodes",
-          "description": "Copper and steel grounding rods for electrical safety",
+          "name": "Electrodos de Puesta a Tierra",
+          "description": "Varillas de puesta a tierra de cobre y acero para seguridad eléctrica",
           "features": {
-            "copperBonded": "Copper Bonded",
-            "steelCore": "Steel Core",
-            "multipleLengths": "Multiple Lengths",
-            "ulListed": "UL Listed"
+            "copperBonded": "Unión de Cobre",
+            "steelCore": "Núcleo de Acero",
+            "multipleLengths": "Múltiples Longitudes",
+            "ulListed": "Listado UL"
           }
         },
         "conductors": {
-          "name": "Grounding Conductors",
-          "description": "Bare copper conductors for grounding systems",
+          "name": "Conductores de Puesta a Tierra",
+          "description": "Conductores de cobre desnudo para sistemas de puesta a tierra",
           "features": {
-            "solidStranded": "Solid/Stranded",
-            "highConductivity": "High Conductivity",
-            "corrosionResistant": "Corrosion Resistant",
-            "multipleSizes": "Multiple Sizes"
+            "solidStranded": "Sólido/Trenzado",
+            "highConductivity": "Alta Conductividad",
+            "corrosionResistant": "Resistente a la Corrosión",
+            "multipleSizes": "Múltiples Tamaños"
           }
         },
         "accessories": {
-          "name": "Grounding Accessories",
-          "description": "Clamps, lugs, and fittings for grounding installations",
+          "name": "Accesorios de Puesta a Tierra",
+          "description": "Abrazaderas, terminales y accesorios para instalaciones de puesta a tierra",
           "features": {
-            "groundClamps": "Ground Clamps",
-            "compressionLugs": "Compression Lugs",
-            "testWells": "Test Wells",
-            "bondsJumpers": "Bonds & Jumpers"
+            "groundClamps": "Abrazaderas de Tierra",
+            "compressionLugs": "Terminales de Compresión",
+            "testWells": "Pozos de Prueba",
+            "bondsJumpers": "Puentes y Conexiones"
           }
         }
       },
       "cta": {
-        "title": "Need Grounding Solutions?",
-        "description": "Our grounding specialists can design safe and code-compliant grounding systems for your facility.",
-        "contactButton": "Contact Grounding Experts",
-        "quoteButton": "Request Quote"
+        "title": "¿Necesita Soluciones de Puesta a Tierra?",
+        "description": "Nuestros especialistas en puesta a tierra pueden diseñar sistemas de puesta a tierra seguros y que cumplen con los códigos para sus instalaciones.",
+        "contactButton": "Contactar con Expertos en Puesta a Tierra",
+        "quoteButton": "Solicitar Presupuesto"
       },
-      "keyFeatures": "Key Features:",
+      "keyFeatures": "Características Principales:",
       "seo": {
-        "title": "Grounding Systems - Electrical Safety Equipment | Powerton Engineering",
-        "description": "Professional grounding and earthing systems for electrical safety. Copper grounding rods, conductors, clamps & accessories from leading manufacturers.",
-        "keywords": "grounding systems, electrical grounding, earthing systems, ground rods, grounding conductors, electrical safety equipment, copper grounding rods, grounding accessories, industrial grounding"
+        "title": "Sistemas de Puesta a Tierra - Equipos de Seguridad Eléctrica | Powerton Engineering",
+        "description": "Sistemas profesionales de puesta a tierra y conexión a tierra para seguridad eléctrica. Varillas de tierra de cobre, conductores, abrazaderas y accesorios de fabricantes líderes.",
+        "keywords": "sistemas de puesta a tierra, puesta a tierra eléctrica, sistemas de conexión a tierra, varillas de tierra, conductores de puesta a tierra, equipos de seguridad eléctrica, varillas de tierra de cobre, accesorios de puesta a tierra, puesta a tierra industrial"
       }
     },
     "calibration-equipment": {
-      "title": "Calibration Equipment",
-      "description": "Precision calibration instruments and testing equipment"
+      "title": "Equipo de Calibración",
+      "description": "Instrumentos de calibración de precisión y equipo de prueba"
     },
     "solar-panels": {
-      "title": "Solar Panels",
-      "description": "High-efficiency solar panels and photovoltaic systems"
+      "title": "Paneles Solares",
+      "description": "Paneles solares de alta eficiencia y sistemas fotovoltaicos"
     },
     "mounting-structures-racking": {
-      "title": "Mounting Structures & Racking Systems",
-      "description": "Structural mounting solutions for solar installations"
+      "title": "Estructuras de Montaje y Sistemas de Racks",
+      "description": "Soluciones de montaje estructural para instalaciones solares"
     },
     "solar-charge-controllers": {
-      "title": "Solar Charge Controllers",
-      "description": "Solar charge controllers and power management"
+      "title": "Controladores de Carga Solar",
+      "description": "Controladores de carga solar y gestión de energía"
     }
   },
   "filters": {
-    "all": "All",
-    "category": "Category",
-    "industry": "Industry",
-    "status": "Status"
+    "all": "Todos",
+    "category": "Categoría",
+    "industry": "Industria",
+    "status": "Estado"
   },
   "status": {
-    "available": "Available",
-    "outOfStock": "Out of Stock",
-    "discontinued": "Discontinued"
+    "available": "Disponible",
+    "outOfStock": "Agotado",
+    "discontinued": "Discontinuado"
   },
   "productPages": {
     "transmitters": {
-      "title": "Transmitters",
-      "transducers": "Transducers"
+      "title": "Transmisores",
+      "transducers": "Transductores"
     },
     "spectrumAnalyzers": {
-      "title": "Spectrum Analyzers",
+      "title": "Analizadores de Espectro",
       "sections": {
         "featured": {
-          "title": "Featured Spectrum Analyzers"
+          "title": "Analizadores de Espectro Destacados"
         }
       },
       "cta": {
-        "title": "Need RF Signal Analysis?",
-        "description": "Our RF specialists can help you select the right spectrum analyzer for your measurement needs.",
-        "button": "Contact RF Experts"
+        "title": "¿Necesita Análisis de Señales de RF?",
+        "description": "Nuestros especialistas en RF pueden ayudarle a seleccionar el analizador de espectro adecuado para sus necesidades de medición.",
+        "button": "Contactar con Expertos en RF"
       }
     },
     "bldcSubmersibleSurfacePump": {
-      "title": "BLDC Submersible & Surface Pumps",
-      "subtitle": "Energy-efficient BLDC pumps for water supply, irrigation, and solar applications"
+      "title": "Bombas Sumergibles y de Superficie BLDC",
+      "subtitle": "Bombas BLDC de bajo consumo para suministro de agua, riego y aplicaciones solares"
     },
     "cablesWires": {
-      "title": "Cables & Wires",
-      "subtitle": "Industrial cables and wires for power transmission, instrumentation, and data communication"
+      "title": "Cables y Alambres",
+      "subtitle": "Cables y alambres industriales para transmisión de energía, instrumentación y comunicación de datos"
     },
     "handTools": {
-      "title": "Hand Tools",
-      "subtitle": "Professional-grade hand tools for industrial maintenance and manufacturing applications"
+      "title": "Herramientas de Mano",
+      "subtitle": "Herramientas de mano de calidad profesional para aplicaciones industriales de mantenimiento y fabricación"
     },
     "powerTools": {
-      "title": "Power Tools",
-      "subtitle": "Industrial-grade power tools for heavy-duty manufacturing and maintenance operations"
+      "title": "Herramientas Eléctricas",
+      "subtitle": "Herramientas eléctricas de grado industrial para operaciones de fabricación y mantenimiento de alta resistencia"
     },
     "cuttingTools": {
-      "title": "Cutting Tools",
-      "subtitle": "Professional cutting tools for machining, drilling, and material processing applications"
+      "title": "Herramientas de Corte",
+      "subtitle": "Herramientas de corte profesionales para aplicaciones de mecanizado, perforación y procesamiento de materiales"
     },
     "liftingEquipment": {
-      "title": "Lifting Equipment",
-      "subtitle": "Industrial lifting and rigging equipment for safe material handling operations"
+      "title": "Equipo de Elevación",
+      "subtitle": "Equipos industriales de elevación y aparejo para operaciones seguras de manipulación de materiales"
     },
     "valves": {
-      "title": "Valves & Actuators",
-      "subtitle": "Industrial valve automation solutions with pneumatic, electric, and hydraulic actuators",
-      "shortDescription": "Industrial valve automation solutions with pneumatic, electric, and hydraulic actuators",
-      "fullDescription": "Comprehensive valve automation portfolio including quarter-turn and linear valves with smart technologies, IoT connectivity, and condition monitoring.",
+      "title": "Válvulas y Actuadores",
+      "subtitle": "Soluciones de automatización de válvulas industriales con actuadores neumáticos, eléctricos e hidráulicos",
+      "shortDescription": "Soluciones de automatización de válvulas industriales con actuadores neumáticos, eléctricos e hidráulicos",
+      "fullDescription": "Cartera completa de automatización de válvulas que incluye válvulas de cuarto de vuelta y lineales con tecnologías inteligentes, conectividad IoT y monitoreo de estado.",
       "seo": {
-        "title": "Industrial Valves & Actuators - Automated Control Solutions | Powerton Engineering",
-        "description": "Industrial valve automation with pneumatic, electric, and hydraulic actuators. Ball valves, butterfly valves, control valves with smart positioners and fail-safe operation.",
-        "keywords": "industrial valves, valve actuators, pneumatic actuators, electric actuators, control valves, automated valves, smart positioners"
+        "title": "Válvulas y Actuadores Industriales - Soluciones de Control Automatizado | Powerton Engineering",
+        "description": "Automatización de válvulas industriales con actuadores neumáticos, eléctricos e hidráulicos. Válvulas de bola, válvulas de mariposa, válvulas de control con posicionadores inteligentes y operación a prueba de fallas.",
+        "keywords": "válvulas industriales, actuadores de válvulas, actuadores neumáticos, actuadores eléctricos, válvulas de control, válvulas automatizadas, posicionadores inteligentes"
       },
       "keyBenefits": {
-        "preciseFlowControl": "Precise Flow Control",
-        "enhancedSafety": "Enhanced Safety & Reliability",
-        "reducedEnergyConsumption": "Reduced Energy Consumption",
-        "predictiveMaintenance": "Predictive Maintenance Capability"
+        "preciseFlowControl": "Control Preciso del Flujo",
+        "enhancedSafety": "Seguridad y Fiabilidad Mejoradas",
+        "reducedEnergyConsumption": "Reducción del Consumo de Energía",
+        "predictiveMaintenance": "Capacidad de Mantenimiento Predictivo"
       },
       "specifications": {
         "actuatorTypes": {
-          "label": "Actuator Types",
-          "value": "Pneumatic, Electric, Hydraulic"
+          "label": "Tipos de Actuador",
+          "value": "Neumático, Eléctrico, Hidráulico"
         },
         "valveSizes": {
-          "label": "Valve Sizes",
-          "value": "1/4\" to 48\" (DN8 to DN1200)"
+          "label": "Tamaños de Válvula",
+          "value": "1/4\" a 48\" (DN8 a DN1200)"
         },
         "pressureRating": {
-          "label": "Pressure Rating",
-          "value": "Up to 6000 PSI (414 bar)"
+          "label": "Clasificación de Presión",
+          "value": "Hasta 6000 PSI (414 bar)"
         },
         "temperatureRange": {
-          "label": "Temperature Range",
-          "value": "-40°F to 1000°F (-40°C to 538°C)"
+          "label": "Rango de Temperatura",
+          "value": "-40°F a 1000°F (-40°C a 538°C)"
         }
       },
       "applications": {
-        "processControl": "Process Control",
-        "oilGas": "Oil & Gas",
-        "chemicalProcessing": "Chemical Processing",
-        "waterTreatment": "Water Treatment",
-        "powerGeneration": "Power Generation",
-        "hvacSystems": "HVAC Systems"
+        "processControl": "Control de Procesos",
+        "oilGas": "Petróleo y Gas",
+        "chemicalProcessing": "Procesamiento Químico",
+        "waterTreatment": "Tratamiento de Aguas",
+        "powerGeneration": "Generación de Energía",
+        "hvacSystems": "Sistemas HVAC"
       },
       "industries": {
-        "oilGas": "Oil & Gas",
-        "chemicalPetrochemical": "Chemical & Petrochemical",
-        "powerGeneration": "Power Generation",
-        "waterWastewater": "Water & Wastewater",
-        "foodBeverage": "Food & Beverage",
-        "pharmaceutical": "Pharmaceutical"
+        "oilGas": "Petróleo y Gas",
+        "chemicalPetrochemical": "Química y Petroquímica",
+        "powerGeneration": "Generación de Energía",
+        "waterWastewater": "Agua y Aguas Residuales",
+        "foodBeverage": "Alimentos y Bebidas",
+        "pharmaceutical": "Farmacéutica"
       }
     },
     "analyzers": {
-      "title": "Process Analyzers",
-      "subtitle": "Advanced analytical instruments for process monitoring",
+      "title": "Analizadores de Proceso",
+      "subtitle": "Instrumentos analíticos avanzados para el monitoreo de procesos",
       "product": {
-        "title": "Process Analyzers",
-        "shortDescription": "Advanced gas and liquid analyzers for industrial process measurement and monitoring",
-        "fullDescription": "Comprehensive process analyzer solutions including gas analyzers, liquid analyzers, and multi-parameter measurement systems with Tunable Diode Laser technology.",
+        "title": "Analizadores de Proceso",
+        "shortDescription": "Analizadores avanzados de gases y líquidos para la medición y el monitoreo de procesos industriales",
+        "fullDescription": "Soluciones integrales de analizadores de proceso que incluyen analizadores de gases, analizadores de líquidos y sistemas de medición multiparamétricos con tecnología láser de diodo sintonizable.",
         "keyBenefits": {
-          "processControl": "Improved Process Control",
-          "productQuality": "Enhanced Product Quality",
-          "compliance": "Regulatory Compliance",
-          "safety": "Enhanced Safety"
+          "processControl": "Control de Proceso Mejorado",
+          "productQuality": "Calidad del Producto Mejorada",
+          "compliance": "Cumplimiento Normativo",
+          "safety": "Seguridad Mejorada"
         },
-        "altText": "ID-842: Process Analyzers - Industrial gas and liquid process analyzers"
+        "altText": "ID-842: Analizadores de Proceso - Analizadores de procesos de gases y líquidos industriales"
       },
       "seo": {
-        "keywords": "process analyzers, gas analyzers, liquid analyzers, pH analyzers, conductivity meters, gas chromatography, process monitoring"
+        "keywords": "analizadores de proceso, analizadores de gases, analizadores de líquidos, analizadores de pH, medidores de conductividad, cromatografía de gases, monitoreo de procesos"
       },
       "sections": {
         "overview": {
-          "title": "Advanced Process Analysis"
+          "title": "Análisis de Proceso Avanzado"
         },
         "technologies": {
-          "title": "Analysis Technologies",
-          "description": "Advanced measurement technologies for precise process analysis"
+          "title": "Tecnologías de Análisis",
+          "description": "Tecnologías de medición avanzadas para un análisis de proceso preciso"
         },
         "specifications": {
-          "title": "Technical Specifications",
-          "description": "Precision specifications for reliable process monitoring"
+          "title": "Especificaciones Técnicas",
+          "description": "Especificaciones de precisión para un monitoreo de proceso confiable"
         }
       },
       "buttons": {
-        "consultation": "Analysis Consultation"
+        "consultation": "Consulta de Análisis"
       },
       "labels": {
-        "technologies": "Technologies:",
-        "parameters": "Parameters:",
-        "specifications": "Specifications",
-        "applications": "Applications",
-        "industries": "Industries"
+        "technologies": "Tecnologías:",
+        "parameters": "Parámetros:",
+        "specifications": "Especificaciones",
+        "applications": "Aplicaciones",
+        "industries": "Industrias"
       },
       "cta": {
-        "title": "Need Process Analysis Solutions?",
-        "description": "Our process analysis experts can help you select the right analyzers for your monitoring and compliance requirements.",
-        "button": "Analysis Expert"
+        "title": "¿Necesita Soluciones de Análisis de Procesos?",
+        "description": "Nuestros expertos en análisis de procesos pueden ayudarle a seleccionar los analizadores adecuados para sus requisitos de monitoreo y cumplimiento.",
+        "button": "Experto en Análisis"
       }
     },
     "automationControl": {
-      "title": "Automation & Control Systems",
-      "subtitle": "Advanced automation and control solutions for industrial process management and optimization",
-      "description": "Industrial automation controllers for process control",
+      "title": "Sistemas de Automatización y Control",
+      "subtitle": "Soluciones avanzadas de automatización y control para la gestión y optimización de procesos industriales",
+      "description": "Controladores de automatización industrial para control de procesos",
       "features": {
-        "digitalIO": "Digital I/O",
-        "analogProcessing": "Analog Processing",
-        "communicationModules": "Communication Modules",
-        "programmingSoftware": "Programming Software",
-        "realtimeMonitoring": "Real-time Monitoring",
-        "dataLogging": "Data Logging",
-        "alarmManagement": "Alarm Management",
-        "remoteAccess": "Remote Access",
-        "processControl": "Process Control",
-        "distributedArchitecture": "Distributed Architecture",
-        "redundancy": "Redundancy",
-        "advancedControl": "Advanced Control",
-        "touchscreenDisplays": "Touchscreen Displays",
-        "graphicInterface": "Graphic Interface",
-        "dataVisualization": "Data Visualization",
-        "operatorControl": "Operator Control"
+        "digitalIO": "E/S Digital",
+        "analogProcessing": "Procesamiento Analógico",
+        "communicationModules": "Módulos de Comunicación",
+        "programmingSoftware": "Software de Programación",
+        "realtimeMonitoring": "Monitoreo en Tiempo Real",
+        "dataLogging": "Registro de Datos",
+        "alarmManagement": "Gestión de Alarmas",
+        "remoteAccess": "Acceso Remoto",
+        "processControl": "Control de Procesos",
+        "distributedArchitecture": "Arquitectura Distribuida",
+        "redundancy": "Redundancia",
+        "advancedControl": "Control Avanzado",
+        "touchscreenDisplays": "Pantallas Táctiles",
+        "graphicInterface": "Interfaz Gráfica",
+        "dataVisualization": "Visualización de Datos",
+        "operatorControl": "Control del Operador"
       },
       "subcategories": {
         "plcs": {
-          "title": "PLCs (Programmable Logic Controllers)",
-          "description": "Industrial automation controllers for process control"
+          "title": "PLCs (Controladores Lógicos Programables)",
+          "description": "Controladores de automatización industrial para control de procesos"
         },
         "scada": {
-          "title": "SCADA Systems",
-          "description": "Supervisory control and data acquisition systems"
+          "title": "Sistemas SCADA",
+          "description": "Sistemas de supervisión, control y adquisición de datos"
         },
         "dcs": {
-          "title": "DCS (Distributed Control Systems)",
-          "description": "Distributed control systems for large-scale processes"
+          "title": "DCS (Sistemas de Control Distribuido)",
+          "description": "Sistemas de control distribuido para procesos a gran escala"
         },
         "hmi": {
-          "title": "HMI (Human Machine Interface)",
-          "description": "User interfaces for industrial control systems"
+          "title": "HMI (Interfaz Humano-Máquina)",
+          "description": "Interfaces de usuario para sistemas de control industrial"
         }
       },
       "sections": {
-        "controlSystemSolutions": "Control System Solutions",
-        "keyFeatures": "Key Features:"
+        "controlSystemSolutions": "Soluciones de Sistemas de Control",
+        "keyFeatures": "Características Clave:"
       },
       "cta": {
-        "needAutomationSolutions": "Need Automation Solutions?",
-        "engineersDescription": "Our automation engineers can design and implement comprehensive control systems for your facility.",
-        "contactAutomationExperts": "Contact Automation Experts",
-        "requestQuote": "Request Quote"
+        "needAutomationSolutions": "¿Necesita Soluciones de Automatización?",
+        "engineersDescription": "Nuestros ingenieros de automatización pueden diseñar e implementar sistemas de control integrales para sus instalaciones.",
+        "contactAutomationExperts": "Contactar con Expertos en Automatización",
+        "requestQuote": "Solicitar Presupuesto"
       }
     },
     "bldcCeilingFan": {
-      "title": "BLDC Ceiling Fans",
-      "subtitle": "Energy-efficient brushless DC ceiling fans with smart features and superior performance",
-      "upgradeTitle": "Upgrade to BLDC Ceiling Fans?",
-      "upgradeDescription": "Our BLDC specialists can help you choose energy-efficient ceiling fan solutions for your space.",
-      "contactExperts": "Contact BLDC Experts"
+      "title": "Ventiladores de Techo BLDC",
+      "subtitle": "Ventiladores de techo de CC sin escobillas de bajo consumo con características inteligentes y un rendimiento superior",
+      "upgradeTitle": "¿Actualizar a Ventiladores de Techo BLDC?",
+      "upgradeDescription": "Nuestros especialistas en BLDC pueden ayudarle a elegir soluciones de ventiladores de techo de bajo consumo para su espacio.",
+      "contactExperts": "Contactar con Expertos en BLDC"
     },
     "bldcCoolerExhaust": {
-      "title": "BLDC Cooler & Exhaust Motors",
-      "subtitle": "Energy-efficient BLDC motors for cooling, ventilation, and exhaust applications"
+      "title": "Motores BLDC para Enfriadores y Extractores",
+      "subtitle": "Motores BLDC de bajo consumo para aplicaciones de refrigeración, ventilación y extracción"
     },
     "bldcSubmersible": {
-      "title": "BLDC Submersible & Surface Pumps",
-      "subtitle": "Energy-efficient BLDC pumps for water supply, irrigation, and solar applications"
+      "title": "Bombas Sumergibles y de Superficie BLDC",
+      "subtitle": "Bombas BLDC de bajo consumo para suministro de agua, riego y aplicaciones solares"
     },
     "bldcTableWall": {
-      "title": "BLDC Table & Wall Fan Motors",
-      "subtitle": "Energy-efficient BLDC motors for table fans, wall fans, and pedestal fans"
+      "title": "Motores BLDC para Ventiladores de Mesa y de Pared",
+      "subtitle": "Motores BLDC de bajo consumo para ventiladores de mesa, ventiladores de pared y ventiladores de pedestal"
     },
     "bldc": {
-      "title": "BLDC Products",
-      "subtitle": "Brushless DC motor products for energy-efficient cooling, ventilation, and pumping applications"
+      "title": "Productos BLDC",
+      "subtitle": "Productos de motores de CC sin escobillas para aplicaciones de refrigeración, ventilación y bombeo de bajo consumo"
     },
     "cables": {
-      "title": "Cables & Wires",
-      "subtitle": "Industrial cables and wiring solutions for power and control applications"
+      "title": "Cables y Alambres",
+      "subtitle": "Soluciones de cables y alambres industriales para aplicaciones de energía y control"
     },
     "calibration": {
-      "title": "Calibration Equipment",
-      "subtitle": "Precision calibration instruments and testing equipment"
+      "title": "Equipo de Calibración",
+      "subtitle": "Instrumentos de calibración de precisión y equipos de prueba"
     },
     "centrifugalPumps": {
-      "title": "Centrifugal Pumps",
-      "subtitle": "High-efficiency centrifugal pumps for industrial applications"
+      "title": "Bombas Centrifugas",
+      "subtitle": "Bombas centrífugas de alta eficiencia para aplicaciones industriales"
     },
     "circuitBreakers": {
-      "title": "Circuit Breakers & Fuses",
-      "subtitle": "Electrical protection devices for circuit safety"
+      "title": "Interruptores Automáticos y Fusibles",
+      "subtitle": "Dispositivos de protección eléctrica para la seguridad del circuito"
     },
     "connectors": {
-      "title": "Connectors & Terminals",
-      "subtitle": "Electrical connectors and terminal solutions"
+      "title": "Conectores y Terminales",
+      "subtitle": "Conectores eléctricos y soluciones de terminales"
     },
     "controllers": {
-      "title": "Controllers",
-      "subtitle": "Industrial control systems and automation controllers"
+      "title": "Controladores",
+      "subtitle": "Sistemas de control industrial y controladores de automatización"
     },
     "dcs": {
-      "title": "DCS (Distributed Control Systems)",
-      "subtitle": "Advanced distributed control systems for process industries"
+      "title": "DCS (Sistemas de Control Distribuido)",
+      "subtitle": "Sistemas de control distribuido avanzados para industrias de procesos"
     },
     "diaphragmPumps": {
-      "title": "Diaphragm Pumps",
-      "subtitle": "Precision dosing and chemical handling pumps"
+      "title": "Bombas de Diafragma",
+      "subtitle": "Bombas de dosificación de precisión y manipulación de productos químicos"
     },
     "electricalComponents": {
-      "title": "Electrical Components",
-      "subtitle": "Complete electrical component solutions for industrial applications"
+      "title": "Componentes Eléctricos",
+      "subtitle": "Soluciones completas de componentes eléctricos para aplicaciones industriales"
     },
     "enclosures": {
-      "title": "Enclosures & Cabinets",
-      "subtitle": "Electrical enclosures and control cabinet solutions"
+      "title": "Gabinetes y Cajas",
+      "subtitle": "Soluciones de gabinetes eléctricos y gabinetes de control"
     },
     "gearPumps": {
-      "title": "Gear Pumps",
-      "subtitle": "Precision gear pumps for hydraulic and industrial applications"
+      "title": "Bombas de Engranajes",
+      "subtitle": "Bombas de engranajes de precisión para aplicaciones hidráulicas e industriales"
     },
     "grounding": {
-      "title": "Grounding Systems",
-      "subtitle": "Electrical grounding and earthing solutions for safety"
+      "title": "Sistemas de Puesta a Tierra",
+      "subtitle": "Soluciones de puesta a tierra eléctrica y conexión a tierra para seguridad"
     },
     "heating": {
-      "title": "Heating Elements & Appliances",
-      "subtitle": "Industrial heating solutions and thermal equipment"
+      "title": "Elementos y Aparatos de Calefacción",
+      "subtitle": "Soluciones de calefacción industrial y equipos térmicos"
     },
     "hmi": {
-      "title": "HMI (Human Machine Interface)",
-      "subtitle": "Interactive operator interfaces for industrial automation"
+      "title": "HMI (Interfaz Humano-Máquina)",
+      "subtitle": "Interfaces de operador interactivas para la automatización industrial"
     },
     "industrialTools": {
-      "title": "Industrial Tools & Tackles",
-      "subtitle": "Heavy-duty industrial tools and lifting equipment"
+      "title": "Herramientas y Equipos Industriales",
+      "subtitle": "Herramientas industriales de alta resistencia y equipos de elevación"
     },
     "instrumentation": {
-      "title": "Instrumentation Components",
-      "subtitle": "Precision instrumentation and measurement components"
+      "title": "Componentes de Instrumentación",
+      "subtitle": "Instrumentación de precisión y componentes de medición"
     },
     "intrinsicallySafe": {
-      "title": "Intrinsically Safe Equipment",
-      "subtitle": "Certified equipment for hazardous area applications"
+      "title": "Equipos Intrínsecamente Seguros",
+      "subtitle": "Equipos certificados para aplicaciones en áreas peligrosas"
     },
     "lifting": {
-      "title": "Lifting Equipment",
-      "subtitle": "Industrial lifting and material handling solutions"
+      "title": "Equipo de Elevación",
+      "subtitle": "Soluciones industriales de elevación y manipulación de materiales"
     },
     "measurement": {
-      "title": "Measurement Instruments",
-      "subtitle": "Precision measurement and testing instruments"
+      "title": "Instrumentos de Medición",
+      "subtitle": "Instrumentos de medición y prueba de precisión"
     },
     "mechanical": {
-      "title": "Mechanical Pumps & Spares",
-      "subtitle": "Mechanical pumps and spare parts for industrial applications"
+      "title": "Bombas Mecánicas y Repuestos",
+      "subtitle": "Bombas mecánicas y repuestos para aplicaciones industriales"
     },
     "multimeters": {
-      "title": "Multimeters",
-      "subtitle": "Digital and analog multimeters for electrical testing"
+      "title": "Multímetros",
+      "subtitle": "Multímetros digitales y analógicos para pruebas eléctricas"
     },
     "oscilloscopes": {
-      "title": "Oscilloscopes",
-      "subtitle": "Digital oscilloscopes for signal analysis and testing"
+      "title": "Osciloscopios",
+      "subtitle": "Osciloscopios digitales para análisis y pruebas de señales"
     },
     "plcs": {
-      "title": "PLCs (Programmable Logic Controllers)",
-      "subtitle": "Industrial programmable logic controllers for automation"
+      "title": "PLCs (Controladores Lógicos Programables)",
+      "subtitle": "Controladores lógicos programables industriales para automatización"
     },
     "powerQuality": {
-      "title": "Power Quality Analyzers",
-      "subtitle": "Power quality measurement and analysis instruments"
+      "title": "Analizadores de Calidad de Energía",
+      "subtitle": "Instrumentos de medición y análisis de calidad de energía"
     },
     "powerSupplies": {
-      "title": "Power Supplies",
-      "subtitle": "Industrial power supply units and converters"
+      "title": "Fuentes de Alimentación",
+      "subtitle": "Unidades y convertidores de fuente de alimentación industrial"
     },
     "pumpParts": {
-      "title": "Pump Parts & Spares",
-      "subtitle": "Replacement parts and components for pump systems"
+      "title": "Piezas de Bombas y Repuestos",
+      "subtitle": "Piezas de repuesto y componentes para sistemas de bombas"
     },
     "safetyEquipment": {
-      "title": "Safety Equipment",
-      "subtitle": "Personal protective equipment and safety devices"
+      "title": "Equipo de Seguridad",
+      "subtitle": "Equipo de protección personal y dispositivos de seguridad"
     },
     "safetyProtective": {
-      "title": "Safety & Protective Devices",
-      "subtitle": "Industrial safety systems and protective equipment",
-      "description": "Comprehensive safety and protective equipment to ensure personnel and equipment safety in industrial environments",
-      "sectionsTitle": "Safety Solutions",
+      "title": "Dispositivos de Seguridad y Protección",
+      "subtitle": "Sistemas de seguridad industrial y equipos de protección",
+      "description": "Equipo de seguridad y protección integral para garantizar la seguridad del personal y del equipo en entornos industriales",
+      "sectionsTitle": "Soluciones de Seguridad",
       "cta": {
-        "title": "Prioritizing Safety in Your Operations?",
-        "description": "Our safety engineers can assess your facility and recommend comprehensive protective solutions.",
-        "contactButton": "Contact Safety Experts"
+        "title": "¿Priorizando la Seguridad en Sus Operaciones?",
+        "description": "Nuestros ingenieros de seguridad pueden evaluar sus instalaciones y recomendar soluciones de protección integrales.",
+        "contactButton": "Contactar con Expertos en Seguridad"
       }
     },
     "safetyRelays": {
-      "title": "Safety Relays & Switches",
-      "subtitle": "Safety control relays and emergency stop systems"
+      "title": "Relés e Interruptores de Seguridad",
+      "subtitle": "Relés de control de seguridad y sistemas de parada de emergencia"
     },
     "scada": {
-      "title": "SCADA Systems",
-      "subtitle": "Supervisory control and data acquisition systems"
+      "title": "Sistemas SCADA",
+      "subtitle": "Sistemas de supervisión, control y adquisición de datos"
     },
     "sensors": {
-      "title": "Sensors",
-      "subtitle": "Industrial sensors for measurement and control"
+      "title": "Sensores",
+      "subtitle": "Sensores industriales para medición y control"
     },
     "signalConditioners": {
-      "title": "Signal Conditioners",
-      "subtitle": "Signal processing and conditioning equipment"
+      "title": "Acondicionadores de Señal",
+      "subtitle": "Equipos de procesamiento y acondicionamiento de señales"
     },
     "solarBatteries": {
-      "title": "Solar Batteries & Energy Storage",
-      "subtitle": "Energy storage solutions for solar power systems"
+      "title": "Baterías Solares y Almacenamiento de Energía",
+      "subtitle": "Soluciones de almacenamiento de energía para sistemas de energía solar"
     },
     "solarChargeControllers": {
-      "title": "Solar Charge Controllers",
-      "subtitle": "Solar charge controllers and power management"
+      "title": "Controladores de Carga Solar",
+      "subtitle": "Controladores de carga solar y gestión de energía"
     },
     "solarInverters": {
-      "title": "Solar Inverters",
-      "subtitle": "Solar power inverters and grid-tie systems"
+      "title": "Inversores Solares",
+      "subtitle": "Inversores de energía solar y sistemas de conexión a la red"
     },
     "solarPanels": {
-      "title": "Solar Panels",
-      "subtitle": "High-efficiency solar panels and photovoltaic systems"
+      "title": "Paneles Solares",
+      "subtitle": "Paneles solares de alta eficiencia y sistemas fotovoltaicos"
     },
     "solarProducts": {
-      "title": "Solar Products",
-      "subtitle": "Complete solar energy solutions and components"
+      "title": "Productos Solares",
+      "subtitle": "Soluciones y componentes completos de energía solar"
     },
     "surgeProtectors": {
-      "title": "Surge Protectors",
-      "subtitle": "Electrical surge protection devices and systems"
+      "title": "Protectores contra Sobretensiones",
+      "subtitle": "Dispositivos y sistemas de protección contra sobretensiones eléctricas"
     },
     "switches": {
-      "title": "Switches",
-      "subtitle": "Industrial switches and control devices"
+      "title": "Interruptores",
+      "subtitle": "Interruptores industriales y dispositivos de control"
     }
   },
   "common": {
-    "keyFeatures": "Key Features:",
-    "needHelp": "Need Help?",
-    "contactExperts": "Contact Experts",
-    "requestQuote": "Request Quote",
-    "hazardousAreaSolutions": "Hazardous Area Solutions",
-    "needEquipment": "Need Equipment?",
-    "specialists": "specialists"
+    "keyFeatures": "Características Clave:",
+    "needHelp": "¿Necesita Ayuda?",
+    "contactExperts": "Contactar con Expertos",
+    "requestQuote": "Solicitar Presupuesto",
+    "hazardousAreaSolutions": "Soluciones para Áreas Peligrosas",
+    "needEquipment": "¿Necesita Equipo?",
+    "specialists": "especialistas"
   },
   "hmi": {
-    "title": "HMI (Human Machine Interface)",
-    "subtitle": "Industrial human machine interfaces for operator control and system visualization",
+    "title": "HMI (Interfaz Humano-Máquina)",
+    "subtitle": "Interfaces industriales humano-máquina para el control del operador y la visualización del sistema",
     "navigation": {
-      "backToAutomation": "Back to Automation & Control Systems"
+      "backToAutomation": "Volver a Sistemas de Automatización y Control"
     },
     "badges": {
-      "touchscreen": "Touchscreen",
-      "industrialGrade": "Industrial Grade",
-      "realTimeDisplay": "Real-time Display",
-      "multiProtocol": "Multi-Protocol"
+      "touchscreen": "Pantalla Táctil",
+      "industrialGrade": "Grado Industrial",
+      "realTimeDisplay": "Visualización en Tiempo Real",
+      "multiProtocol": "Multi-Protocolo"
     },
-    "solutionsTitle": "HMI Solutions",
+    "solutionsTitle": "Soluciones HMI",
     "products": {
       "panelMount": {
-        "name": "Panel Mount HMI Displays",
-        "description": "Industrial touchscreen displays for machine interface",
+        "name": "Pantallas HMI de Montaje en Panel",
+        "description": "Pantallas táctiles industriales para interfaz de máquina",
         "features": [
-          "Touch Interface",
-          "Industrial Rating",
-          "Multiple Sizes",
-          "Communication Protocols"
+          "Interfaz Táctil",
+          "Clasificación Industrial",
+          "Múltiples Tamaños",
+          "Protocolos de Comunicación"
         ]
       },
       "operatorInterface": {
-        "name": "Operator Interface Terminals",
-        "description": "Rugged operator terminals for harsh environments",
+        "name": "Terminales de Interfaz de Operador",
+        "description": "Terminales de operador resistentes para entornos hostiles",
         "features": [
-          "IP65/IP67 Rating",
-          "Stainless Steel",
-          "Membrane Keypad",
-          "Backlit Display"
+          "Clasificación IP65/IP67",
+          "Acero Inoxidable",
+          "Teclado de Membrana",
+          "Pantalla Retroiluminada"
         ]
       },
       "mobile": {
-        "name": "Mobile HMI Solutions",
-        "description": "Wireless and mobile human machine interfaces",
+        "name": "Soluciones HMI Móviles",
+        "description": "Interfaces inalámbricas y móviles humano-máquina",
         "features": [
-          "Wireless Connectivity",
-          "Mobile Apps",
-          "Remote Access",
-          "Real-time Data"
+          "Conectividad Inalámbrica",
+          "Aplicaciones Móviles",
+          "Acceso Remoto",
+          "Datos en Tiempo Real"
         ]
       }
     },
     "cta": {
-      "title": "Need HMI Solutions?",
-      "description": "Our HMI specialists can design intuitive operator interfaces for your automation systems.",
-      "contactExperts": "Contact HMI Experts"
+      "title": "¿Necesita Soluciones HMI?",
+      "description": "Nuestros especialistas en HMI pueden diseñar interfaces de operador intuitivas para sus sistemas de automatización.",
+      "contactExperts": "Contactar con Expertos en HMI"
     }
   },
   "solarPanels": {
     "monocrystalline": {
-      "description": "High-efficiency monocrystalline silicon solar panels",
+      "description": "Paneles solares de silicio monocristalino de alta eficiencia",
       "features": {
-        "efficiency": "21.5% Efficiency",
-        "warranty": "25 Year Warranty",
-        "weatherResistant": "Weather Resistant",
-        "antiReflective": "Anti-Reflective Coating"
+        "efficiency": "21.5% Eficiencia",
+        "warranty": "25 Años de Garantía",
+        "weatherResistant": "Resistente a la Intemperie",
+        "antiReflective": "Recubrimiento Antirreflectante"
       }
     },
     "polycrystalline": {
-      "description": "Cost-effective polycrystalline solar panel solution",
+      "description": "Solución de panel solar policristalino rentable",
       "features": {
-        "efficiency": "19.2% Efficiency",
-        "warranty": "20 Year Warranty",
-        "durable": "Durable Construction",
-        "installation": "Easy Installation"
+        "efficiency": "19.2% Eficiencia",
+        "warranty": "20 Años de Garantía",
+        "durable": "Construcción Duradera",
+        "installation": "Fácil Instalación"
       }
     },
     "bifacial": {
-      "description": "Advanced bifacial technology for maximum energy harvest",
+      "description": "Tecnología bifacial avanzada para la máxima cosecha de energía",
       "features": {
-        "frontBack": "Front + Back Generation",
-        "moreEnergy": "25% More Energy",
-        "glassDesign": "Glass-Glass Design",
-        "longLifespan": "Long Lifespan"
+        "frontBack": "Generación Frontal + Trasera",
+        "moreEnergy": "25% Más Energía",
+        "glassDesign": "Diseño de Vidrio-Vidrio",
+        "longLifespan": "Larga Vida Útil"
       }
     }
   },
   "plcProducts": {
     "siemens": {
-      "description": "Compact PLC for small to medium automation applications",
+      "description": "PLC compacto para aplicaciones de automatización pequeñas a medianas",
       "features": {
-        "integratedIO": "Integrated I/O",
-        "ethernet": "Ethernet Communication",
-        "programming": "TIA Portal Programming",
-        "failSafe": "Fail-Safe Options"
+        "integratedIO": "E/S Integradas",
+        "ethernet": "Comunicación Ethernet",
+        "programming": "Programación TIA Portal",
+        "failSafe": "Opciones a Prueba de Fallos"
       }
     },
     "allenBradley": {
-      "description": "High-performance PLC with integrated safety",
+      "description": "PLC de alto rendimiento con seguridad integrada",
       "features": {
-        "safety": "GuardLogix Safety",
-        "ethernet": "Dual Ethernet Ports",
-        "software": "Studio 5000 Software",
-        "motion": "Motion Control"
+        "safety": "Seguridad GuardLogix",
+        "ethernet": "Puertos Ethernet Duales",
+        "software": "Software Studio 5000",
+        "motion": "Control de Movimiento"
       }
     },
     "schneider": {
-      "description": "High-end PLC for complex industrial processes",
+      "description": "PLC de gama alta para procesos industriales complejos",
       "features": {
-        "hotStandby": "Hot Standby CPU",
-        "ethernet": "Ethernet Ring Topology",
-        "software": "Unity Pro Software",
-        "security": "Cyber Security"
+        "hotStandby": "CPU Hot Standby",
+        "ethernet": "Topología de Anillo Ethernet",
+        "software": "Software Unity Pro",
+        "security": "Ciberseguridad"
       }
     }
   },
   "features": {
     "safetyDevices": {
       "surgeProtectors": {
-        "title": "Surge Protectors",
-        "description": "Electrical surge protection devices for equipment safety",
+        "title": "Protectores contra Sobretensiones",
+        "description": "Dispositivos de protección contra sobretensiones eléctricas para seguridad del equipo",
         "features": {
-          "lightning": "Lightning Protection",
-          "voltage": "Voltage Surge Protection",
-          "equipment": "Equipment Safety",
-          "power": "Power Quality"
+          "lightning": "Protección contra Rayos",
+          "voltage": "Protección contra Sobretensiones",
+          "equipment": "Seguridad del Equipo",
+          "power": "Calidad de Energía"
         }
       },
       "groundingSystems": {
-        "title": "Grounding Systems",
-        "description": "Electrical grounding and earthing systems for safety",
+        "title": "Sistemas de Puesta a Tierra",
+        "description": "Sistemas de puesta a tierra y conexión a tierra eléctricos para seguridad",
         "features": {
-          "electrodes": "Earth Electrodes",
-          "rods": "Ground Rods",
-          "conductors": "Bonding Conductors",
-          "lightning": "Lightning Rods"
+          "electrodes": "Electrodos de Tierra",
+          "rods": "Varillas de Tierra",
+          "conductors": "Conductores de Unión",
+          "lightning": "Pararrayos"
         }
       },
       "safetyRelays": {
-        "title": "Safety Relays & Switches",
-        "description": "Safety control devices for emergency shutdown systems",
+        "title": "Relés e Interruptores de Seguridad",
+        "description": "Dispositivos de control de seguridad para sistemas de parada de emergencia",
         "features": {
-          "emergency": "Emergency Stop",
-          "monitoring": "Safety Monitoring",
-          "failSafe": "Fail-Safe Design",
-          "certified": "Certified Safety"
+          "emergency": "Parada de Emergencia",
+          "monitoring": "Monitoreo de Seguridad",
+          "failSafe": "Diseño a Prueba de Fallos",
+          "certified": "Seguridad Certificada"
         }
       },
       "intrinsicallySafe": {
-        "title": "Intrinsically Safe Equipment",
-        "description": "Explosion-proof equipment for hazardous environments",
+        "title": "Equipos Intrínsecamente Seguros",
+        "description": "Equipo a prueba de explosiones para entornos peligrosos",
         "features": {
-          "atex": "ATEX Certified",
-          "explosion": "Explosion Proof",
-          "hazardous": "Hazardous Area",
-          "intrinsic": "Intrinsic Safety"
+          "atex": "Certificación ATEX",
+          "explosion": "A Prueba de Explosiones",
+          "hazardous": "Área Peligrosa",
+          "intrinsic": "Seguridad Intrínseca"
         }
       },
       "badges": {
-        "surgeProtection": "Surge Protection",
-        "groundingSystems": "Grounding Systems",
-        "safetyRelays": "Safety Relays",
-        "intrinsicSafety": "Intrinsic Safety"
+        "surgeProtection": "Protección contra Sobretensiones",
+        "groundingSystems": "Sistemas de Puesta a Tierra",
+        "safetyRelays": "Relés de Seguridad",
+        "intrinsicSafety": "Seguridad Intrínseca"
       }
     },
     "common": {
-      "highTorque": "High Torque",
-      "variableSpeed": "Variable Speed",
-      "cordlessOptions": "Cordless Options",
-      "chuckCapacity": "Chuck Capacity: 13mm",
-      "multipleSizes": "Multiple Sizes",
-      "safetyGuards": "Safety Guards",
-      "antiVibration": "Anti-Vibration",
-      "powerfulMotors": "Powerful Motors",
-      "highImpactForce": "High Impact Force",
-      "socketCompatibility": "Socket Compatibility",
-      "forwardReverse": "Forward/Reverse",
-      "batteryPowered": "Battery Powered",
-      "efficientSwitching": "85-265V AC Input",
-      "dcOutput": "12V/24V DC Output",
-      "highEfficiency": "High Efficiency",
-      "compactDesign": "Compact Design",
-      "dinRailMount": "DIN Rail Mount",
-      "wideInputRange": "Wide Input Range",
-      "shortCircuitProtection": "Short Circuit Protection",
-      "ledStatus": "LED Status",
-      "batteryBackup": "Battery Backup",
-      "surgeProtection": "Surge Protection",
-      "autoTransfer": "Auto Transfer",
-      "lcdDisplay": "LCD Display",
-      "castIronBronze": "Cast Iron/Bronze",
-      "stainlessSteelSizes": "Stainless Steel",
-      "balancedDesign": "Balanced Design",
-      "singleDoubleSeals": "Single/Double Seals",
-      "cartridgeType": "Cartridge Type",
-      "highTemperature": "High Temperature",
-      "chemicalResistant": "Chemical Resistant",
-      "rollingElement": "Rolling Element",
-      "sleeveBearings": "Sleeve Bearings",
-      "flexibleCouplings": "Flexible Couplings",
-      "alignmentTools": "Alignment Tools",
-      "threePhase": "Three-Phase Measurement",
-      "harmonicsAnalysis": "Harmonics Analysis",
-      "transientCapture": "Transient Capture",
-      "powerLogging": "Power Logging",
-      "voltageDip": "Voltage Dip Detection",
-      "flickerMeasurement": "Flicker Measurement",
-      "energyAssessment": "Energy Assessment",
-      "realTimeAnalysis": "Real-time Analysis",
-      "continuousMonitoring": "Continuous Monitoring",
-      "eventRecording": "Event Recording",
-      "complianceTesting": "Compliance Testing",
-      "remoteAccess": "Remote Access",
-      "selfPriming": "Self-Priming",
-      "dryRunSafe": "Dry Run Safe",
-      "variableFlow": "Variable Flow",
-      "preciseMeteringLow": "Precise Metering",
-      "lowPulsation": "Low Pulsation",
-      "digitalControl": "Digital Control",
-      "easyMaintenance": "Easy Maintenance",
-      "highPressure": "High Pressure",
-      "lowFlowRates": "Low Flow Rates",
-      "accurateDosing": "Accurate Dosing",
-      "leakFreeOperation": "Leak-Free Operation"
+      "highTorque": "Alto Par",
+      "variableSpeed": "Velocidad Variable",
+      "cordlessOptions": "Opciones Inalámbricas",
+      "chuckCapacity": "Capacidad del Mandril: 13mm",
+      "multipleSizes": "Múltiples Tamaños",
+      "safetyGuards": "Protectores de Seguridad",
+      "antiVibration": "Antivibración",
+      "powerfulMotors": "Motores Potentes",
+      "highImpactForce": "Alta Fuerza de Impacto",
+      "socketCompatibility": "Compatibilidad de Enchufes",
+      "forwardReverse": "Avance/Retroceso",
+      "batteryPowered": "Alimentado por Batería",
+      "efficientSwitching": "Entrada de 85-265V CA",
+      "dcOutput": "Salida de 12V/24V CC",
+      "highEfficiency": "Alta Eficiencia",
+      "compactDesign": "Diseño Compacto",
+      "dinRailMount": "Montaje en Riel DIN",
+      "wideInputRange": "Amplio Rango de Entrada",
+      "shortCircuitProtection": "Protección contra Cortocircuitos",
+      "ledStatus": "Estado del LED",
+      "batteryBackup": "Respaldo de Batería",
+      "surgeProtection": "Protección contra Sobretensiones",
+      "autoTransfer": "Transferencia Automática",
+      "lcdDisplay": "Pantalla LCD",
+      "castIronBronze": "Hierro Fundido/Bronce",
+      "stainlessSteelSizes": "Acero Inoxidable",
+      "balancedDesign": "Diseño Equilibrado",
+      "singleDoubleSeals": "Sellos Simples/Dobles",
+      "cartridgeType": "Tipo Cartucho",
+      "highTemperature": "Alta Temperatura",
+      "chemicalResistant": "Resistente a Químicos",
+      "rollingElement": "Elemento Rodante",
+      "sleeveBearings": "Cojinetes de Manguito",
+      "flexibleCouplings": "Acoplamientos Flexibles",
+      "alignmentTools": "Herramientas de Alineación",
+      "threePhase": "Medición Trifásica",
+      "harmonicsAnalysis": "Análisis de Armónicos",
+      "transientCapture": "Captura de Transitorios",
+      "powerLogging": "Registro de Energía",
+      "voltageDip": "Detección de Caída de Tensión",
+      "flickerMeasurement": "Medición de Parpadeo",
+      "energyAssessment": "Evaluación de Energía",
+      "realTimeAnalysis": "Análisis en Tiempo Real",
+      "continuousMonitoring": "Monitoreo Continuo",
+      "eventRecording": "Grabación de Eventos",
+      "complianceTesting": "Pruebas de Cumplimiento",
+      "remoteAccess": "Acceso Remoto",
+      "selfPriming": "Autocebante",
+      "dryRunSafe": "Seguro para Funcionamiento en Seco",
+      "variableFlow": "Flujo Variable",
+      "preciseMeteringLow": "Medición Precisa",
+      "lowPulsation": "Baja Pulsación",
+      "digitalControl": "Control Digital",
+      "easyMaintenance": "Fácil Mantenimiento",
+      "highPressure": "Alta Presión",
+      "lowFlowRates": "Bajos Caudales",
+      "accurateDosing": "Dosificación Precisa",
+      "leakFreeOperation": "Operación Sin Fugas"
     },
     "product": {
       "safetyEquipment": {
-        "fullBodyHarness": "Full Body Harness",
-        "lanyards": "Lanyards",
-        "anchorPoints": "Anchor Points",
-        "selfRetracting": "Self-Retracting",
-        "multiGasDetectors": "Multi-Gas Detectors",
-        "singleGas": "Single Gas",
-        "wirelessMonitoring": "Wireless Monitoring",
-        "dataLogging": "Data Logging"
+        "fullBodyHarness": "Arnés de Cuerpo Completo",
+        "lanyards": "Cuerdas de Seguridad",
+        "anchorPoints": "Puntos de Anclaje",
+        "selfRetracting": "Autorretráctil",
+        "multiGasDetectors": "Detectores Multigas",
+        "singleGas": "Gas Único",
+        "wirelessMonitoring": "Monitoreo Inalámbrico",
+        "dataLogging": "Registro de Datos"
       },
       "electrical": {
-        "powerCables": "Power Cables",
-        "controlCables": "Control Cables",
-        "instrumentationCables": "Instrumentation Cables",
-        "communicationCables": "Communication Cables",
-        "terminalBlocks": "Terminal Blocks",
-        "wireConnectors": "Wire Connectors",
-        "dinRailTerminals": "DIN Rail Terminals",
-        "junctionBoxes": "Junction Boxes",
+        "powerCables": "Cables de Alimentación",
+        "controlCables": "Cables de Control",
+        "instrumentationCables": "Cables de Instrumentación",
+        "communicationCables": "Cables de Comunicación",
+        "terminalBlocks": "Bloques de Terminales",
+        "wireConnectors": "Conectores de Cables",
+        "dinRailTerminals": "Terminales de Riel DIN",
+        "junctionBoxes": "Cajas de Empalmes",
         "mcbs": "MCBs",
         "mccbs": "MCCBs",
         "rccbs": "RCCBs",
-        "industrialFuses": "Industrial Fuses",
+        "industrialFuses": "Fusibles Industriales",
         "smps": "SMPS",
-        "dcDcConverters": "DC-DC Converters",
-        "upsSystems": "UPS Systems",
-        "controlPanels": "Control Panels",
-        "distributionBoards": "Distribution Boards",
-        "weatherproofEnclosures": "Weatherproof Enclosures",
-        "heatingElements": "Heating Elements",
-        "industrialHeaters": "Industrial Heaters",
-        "temperatureControllers": "Temperature Controllers",
-        "thermalProtection": "Thermal Protection"
+        "dcDcConverters": "Convertidores CC-CC",
+        "upsSystems": "Sistemas SAI",
+        "controlPanels": "Paneles de Control",
+        "distributionBoards": "Tableros de Distribución",
+        "weatherproofEnclosures": "Cajas a Prueba de Agua",
+        "heatingElements": "Elementos de Calefacción",
+        "industrialHeaters": "Calentadores Industriales",
+        "temperatureControllers": "Controladores de Temperatura",
+        "thermalProtection": "Protección Térmica"
       },
       "pumps": {
-        "viscousFluids": "Viscous Fluids",
-        "preciseFlow": "Precise Flow",
-        "castIronSteel": "Cast Iron/Steel",
-        "gentleHandling": "Gentle Handling",
-        "noMechanicalSeal": "No Mechanical Seal",
-        "leakFree": "Leak-Free"
+        "viscousFluids": "Fluidos Viscosos",
+        "preciseFlow": "Flujo Preciso",
+        "castIronSteel": "Hierro Fundido/Acero",
+        "gentleHandling": "Manejo Suave",
+        "noMechanicalSeal": "Sin Sello Mecánico",
+        "leakFree": "Sin Fugas"
       },
       "enclosures": {
-        "nema4xRating": "NEMA 4X Rating",
-        "gasketSealed": "Gasket Sealed",
-        "floorStanding": "Floor Standing",
-        "wallMount": "Wall Mount",
-        "cableManagement": "Cable Management",
-        "coolingOptions": "Cooling Options",
-        "ip65Ip67Rating": "IP65/IP67 Rating",
-        "explosionProof": "Explosion Proof",
-        "cableGlands": "Cable Glands",
-        "corrosionResistant": "Corrosion Resistant"
+        "nema4xRating": "Clasificación NEMA 4X",
+        "gasketSealed": "Sellado con Junta",
+        "floorStanding": "De Pie",
+        "wallMount": "Montaje en Pared",
+        "cableManagement": "Gestión de Cables",
+        "coolingOptions": "Opciones de Refrigeración",
+        "ip65Ip67Rating": "Clasificación IP65/IP67",
+        "explosionProof": "A Prueba de Explosiones",
+        "cableGlands": "Prensaestopas",
+        "corrosionResistant": "Resistente a la Corrosión"
       }
     }
   },
@@ -1259,10 +1259,10 @@
     "gujarat": "Gujarat",
     "maharashtra": "Maharashtra",
     "haryana": "Haryana",
-    "westBengal": "West Bengal"
+    "westBengal": "Bengala Occidental"
   },
   "brands": {
-    "customBuilt": "Custom Built",
+    "customBuilt": "Construido a Medida",
     "fluke": "Fluke, Keysight",
     "siemens": "Siemens, Allen Bradley",
     "abb": "ABB, Schneider",
@@ -1272,263 +1272,263 @@
     "3m": "3M, MSA"
   },
   "items": {
-    "instrumentation-components": "Instrumentation Components",
-    "electrical-components": "Electrical Components",
-    "measurement-instruments": "Measurement Instruments",
-    "solar-products": "Solar Products",
-    "automation-control-systems": "Automation & Control Systems",
-    "safety-protective-devices": "Safety & Protective Devices",
-    "mechanical-pumps-spares": "Mechanical Pumps & Spares",
-    "industrial-tools-tackles": "Industrial Tools & Tackles",
-    "bldc": "BLDC Products"
+    "instrumentation-components": "Componentes de Instrumentación",
+    "electrical-components": "Componentes Eléctricos",
+    "measurement-instruments": "Instrumentos de Medición",
+    "solar-products": "Productos Solares",
+    "automation-control-systems": "Sistemas de Automatización y Control",
+    "safety-protective-devices": "Dispositivos de Seguridad y Protección",
+    "mechanical-pumps-spares": "Bombas Mecánicas y Repuestos",
+    "industrial-tools-tackles": "Herramientas y Equipos Industriales",
+    "bldc": "Productos BLDC"
   },
   "tags": {
-    "industrialAutomation": "Industrial Automation",
-    "plcSystems": "PLC Systems",
+    "industrialAutomation": "Automatización Industrial",
+    "plcSystems": "Sistemas PLC",
     "scada": "SCADA",
-    "manufacturing": "Manufacturing",
-    "processOptimization": "Process Optimization"
+    "manufacturing": "Fabricación",
+    "processOptimization": "Optimización de Procesos"
   },
   "gallery": {
-    "imagePlaceholder": "Image placeholder",
-    "actualImages": "Actual images to be uploaded"
+    "imagePlaceholder": "Imagen de muestra",
+    "actualImages": "Imágenes reales para subir"
   },
   "labels": {
-    "specifications": "Specifications",
-    "applications": "Applications",
-    "industries": "Industries",
-    "keyFeatures": "Key Features",
-    "technologies": "Technologies:",
-    "parameters": "Parameters:"
+    "specifications": "Especificaciones",
+    "applications": "Aplicaciones",
+    "industries": "Industrias",
+    "keyFeatures": "Características Clave",
+    "technologies": "Tecnologías:",
+    "parameters": "Parámetros:"
   },
   "badges": {
-    "ppe": "PPE",
-    "fallProtection": "Fall Protection",
-    "gasDetection": "Gas Detection",
-    "oshaCompliant": "OSHA Compliant",
-    "signalIntelligence": "Signal Intelligence",
-    "vectorAnalysis": "Vector Analysis",
-    "rfAnalysis": "RF Analysis",
-    "emiTesting": "EMI Testing",
-    "monocrystalline": "Monocrystalline",
-    "polycrystalline": "Polycrystalline",
+    "ppe": "EPP",
+    "fallProtection": "Protección contra Caídas",
+    "gasDetection": "Detección de Gases",
+    "oshaCompliant": "Cumple con OSHA",
+    "signalIntelligence": "Inteligencia de Señales",
+    "vectorAnalysis": "Análisis Vectorial",
+    "rfAnalysis": "Análisis de RF",
+    "emiTesting": "Pruebas de EMI",
+    "monocrystalline": "Monocristalino",
+    "polycrystalline": "Policristalino",
     "bifacial": "Bifacial",
-    "highEfficiency": "High Efficiency",
-    "stringInverters": "String Inverters",
-    "centralInverters": "Central Inverters",
-    "hybridSystems": "Hybrid Systems",
-    "gridTie": "Grid-Tie",
-    "highPressure": "High Pressure",
-    "viscousFluids": "Viscous Fluids",
-    "preciseFlow": "Precise Flow",
-    "selfPriming": "Self-Priming",
-    "smartMonitoring": "Smart Monitoring",
-    "batteryProtection": "Battery Protection",
-    "weatherproof": "Weatherproof",
-    "modularDesign": "Modular Design",
-    "solarCompatible": "Solar Compatible",
-    "corrosionResistant": "Corrosion Resistant",
-    "smartControl": "Smart Control",
-    "lithiumIon": "Lithium-Ion",
-    "leadAcid": "Lead-Acid",
-    "energyStorageSystems": "Energy Storage Systems",
-    "gridBackup": "Grid Backup",
-    "chemicalResistant": "Chemical Resistant",
-    "preciseMetering": "Precise Metering",
-    "dryRunSafe": "Dry Run Safe",
-    "processControl": "Process Control",
-    "safetySystems": "Safety Systems",
-    "assetManagement": "Asset Management",
-    "advancedAnalytics": "Advanced Analytics",
-    "energyEfficient": "Energy Efficient",
-    "silentOperation": "Silent Operation",
-    "longLife": "Long Life",
-    "realtimeMonitoring": "Real-time Monitoring",
-    "dataLogging": "Data Logging",
-    "alarmManagement": "Alarm Management",
-    "remoteAccess": "Remote Access",
-    "durableConstruction": "Durable Construction",
-    "ergonomicDesign": "Ergonomic Design",
-    "professionalGrade": "Professional Grade",
-    "groundRods": "Ground Rods",
-    "conductors": "Conductors",
-    "safetyGrounding": "Safety Grounding"
+    "highEfficiency": "Alta Eficiencia",
+    "stringInverters": "Inversores de String",
+    "centralInverters": "Inversores Centrales",
+    "hybridSystems": "Sistemas Híbridos",
+    "gridTie": "Conexión a la Red",
+    "highPressure": "Alta Presión",
+    "viscousFluids": "Fluidos Viscosos",
+    "preciseFlow": "Flujo Preciso",
+    "selfPriming": "Autocebante",
+    "smartMonitoring": "Monitoreo Inteligente",
+    "batteryProtection": "Protección de Batería",
+    "weatherproof": "Resistente a la Intemperie",
+    "modularDesign": "Diseño Modular",
+    "solarCompatible": "Compatible con Energía Solar",
+    "corrosionResistant": "Resistente a la Corrosión",
+    "smartControl": "Control Inteligente",
+    "lithiumIon": "Ion de Litio",
+    "leadAcid": "Plomo-Ácido",
+    "energyStorageSystems": "Sistemas de Almacenamiento de Energía",
+    "gridBackup": "Respaldo de la Red",
+    "chemicalResistant": "Resistente a Químicos",
+    "preciseMetering": "Medición Precisa",
+    "dryRunSafe": "Seguro para Funcionamiento en Seco",
+    "processControl": "Control de Proceso",
+    "safetySystems": "Sistemas de Seguridad",
+    "assetManagement": "Gestión de Activos",
+    "advancedAnalytics": "Analítica Avanzada",
+    "energyEfficient": "Eficiencia Energética",
+    "silentOperation": "Funcionamiento Silencioso",
+    "longLife": "Larga Vida Útil",
+    "realtimeMonitoring": "Monitoreo en Tiempo Real",
+    "dataLogging": "Registro de Datos",
+    "alarmManagement": "Gestión de Alarmas",
+    "remoteAccess": "Acceso Remoto",
+    "durableConstruction": "Construcción Duradera",
+    "ergonomicDesign": "Diseño Ergonómico",
+    "professionalGrade": "Grado Profesional",
+    "groundRods": "Varillas de Tierra",
+    "conductors": "Conductores",
+    "safetyGrounding": "Puesta a Tierra de Seguridad"
   },
   "productDetails": {
     "instrumentation": {
-      "fullDescription": "Comprehensive range of precision instrumentation components for industrial monitoring and control applications.",
+      "fullDescription": "Amplia gama de componentes de instrumentación de precisión para aplicaciones de monitoreo y control industrial.",
       "specifications": {
-        "highAccuracy": "High accuracy: ±0.1% to ±0.5%",
-        "operatingTemperature": "Operating temperature: -40°C to +85°C",
-        "protectionRating": "IP65/IP67 protection rating",
-        "outputTypes": "4-20mA, 0-10V, HART, Profibus outputs",
-        "explosionProof": "Explosion-proof variants available"
+        "highAccuracy": "Alta precisión: ±0.1% a ±0.5%",
+        "operatingTemperature": "Temperatura de funcionamiento: -40°C a +85°C",
+        "protectionRating": "Clasificación de protección IP65/IP67",
+        "outputTypes": "Salidas de 4-20mA, 0-10V, HART, Profibus",
+        "explosionProof": "Variantes a prueba de explosiones disponibles"
       },
       "applications": {
-        "processControl": "Process Control",
-        "qualityMonitoring": "Quality Monitoring",
-        "safetySystems": "Safety Systems",
-        "environmentalMonitoring": "Environmental Monitoring"
+        "processControl": "Control de Procesos",
+        "qualityMonitoring": "Monitoreo de Calidad",
+        "safetySystems": "Sistemas de Seguridad",
+        "environmentalMonitoring": "Monitoreo Ambiental"
       },
       "features": {
-        "smartDiagnostics": "Smart Diagnostics",
-        "digitalCommunication": "Digital Communication",
-        "easyCalibration": "Easy Calibration",
-        "longTermStability": "Long-term Stability"
+        "smartDiagnostics": "Diagnóstico Inteligente",
+        "digitalCommunication": "Comunicación Digital",
+        "easyCalibration": "Fácil Calibración",
+        "longTermStability": "Estabilidad a Largo Plazo"
       }
     },
     "electrical": {
-      "fullDescription": "Complete range of electrical components including switches, relays, contactors, and power distribution equipment for industrial applications.",
+      "fullDescription": "Gama completa de componentes eléctricos que incluyen interruptores, relés, contactores y equipos de distribución de energía para aplicaciones industriales.",
       "specifications": {
-        "voltageRange": "Voltage range: 24V DC to 690V AC",
-        "currentRatings": "Current ratings: 1A to 1000A",
-        "protectionLevel": "IP54 to IP67 protection",
-        "standardsCompliant": "IEC/IS standards compliant",
-        "temperatureRated": "Temperature rated: -25°C to +70°C"
+        "voltageRange": "Rango de voltaje: 24V DC a 690V AC",
+        "currentRatings": "Clasificaciones de corriente: 1A a 1000A",
+        "protectionLevel": "Protección IP54 a IP67",
+        "standardsCompliant": "Cumple con las normas IEC/IS",
+        "temperatureRated": "Clasificación de temperatura: -25°C a +70°C"
       },
       "applications": {
-        "motorControl": "Motor Control",
-        "powerDistribution": "Power Distribution",
-        "switchingApplications": "Switching Applications",
-        "protectionSystems": "Protection Systems"
+        "motorControl": "Control de Motor",
+        "powerDistribution": "Distribución de Energía",
+        "switchingApplications": "Aplicaciones de Conmutación",
+        "protectionSystems": "Sistemas de Protección"
       },
       "features": {
-        "highReliability": "High Reliability",
-        "modularDesign": "Modular Design",
-        "easyInstallation": "Easy Installation",
-        "maintenanceFree": "Maintenance-Free"
+        "highReliability": "Alta Fiabilidad",
+        "modularDesign": "Diseño Modular",
+        "easyInstallation": "Fácil Instalación",
+        "maintenanceFree": "Libre de Mantenimiento"
       }
     },
     "measurement": {
-      "fullDescription": "Advanced digital meters, analyzers, and calibration equipment for precise measurement and monitoring of electrical and process parameters.",
+      "fullDescription": "Medidores digitales avanzados, analizadores y equipos de calibración para la medición y el monitoreo precisos de parámetros eléctricos y de proceso.",
       "specifications": {
-        "accuracyClass": "Accuracy class: 0.1 to 1.0",
-        "displayType": "Display: Digital LCD/LED",
-        "communicationOptions": "Communication: RS485, Ethernet, Wireless",
-        "dataLogging": "Data logging capability",
-        "multipleParameter": "Multiple parameter measurement"
+        "accuracyClass": "Clase de precisión: 0.1 a 1.0",
+        "displayType": "Pantalla: Digital LCD/LED",
+        "communicationOptions": "Comunicación: RS485, Ethernet, Inalámbrico",
+        "dataLogging": "Capacidad de registro de datos",
+        "multipleParameter": "Medición de múltiples parámetros"
       },
       "applications": {
-        "powerQualityAnalysis": "Power Quality Analysis",
-        "energyManagement": "Energy Management",
-        "processMonitoring": "Process Monitoring",
-        "complianceMeasurement": "Compliance Measurement"
+        "powerQualityAnalysis": "Análisis de Calidad de Energía",
+        "energyManagement": "Gestión de Energía",
+        "processMonitoring": "Monitoreo de Procesos",
+        "complianceMeasurement": "Medición de Cumplimiento"
       },
       "features": {
-        "realTimeMonitoring": "Real-time Monitoring",
-        "dataAnalytics": "Data Analytics",
-        "alarmManagement": "Alarm Management",
-        "remoteAccess": "Remote Access"
+        "realTimeMonitoring": "Monitoreo en Tiempo Real",
+        "dataAnalytics": "Análisis de Datos",
+        "alarmManagement": "Gestión de Alarmas",
+        "remoteAccess": "Acceso Remoto"
       }
     },
     "solar": {
-      "fullDescription": "Complete solar energy solutions including panels, inverters, monitoring systems, and grid-tie equipment for sustainable energy generation.",
+      "fullDescription": "Soluciones completas de energía solar que incluyen paneles, inversores, sistemas de monitoreo y equipos de conexión a la red para la generación de energía sostenible.",
       "specifications": {
-        "panelEfficiency": "Panel efficiency: 19-22%",
-        "powerRange": "Power range: 300W to 500W per panel",
-        "inverterEfficiency": "Inverter efficiency: >98%",
-        "warranty": "25-year warranty on panels",
-        "gridOptions": "Grid-tie and off-grid solutions"
+        "panelEfficiency": "Eficiencia del panel: 19-22%",
+        "powerRange": "Rango de potencia: 300W a 500W por panel",
+        "inverterEfficiency": "Eficiencia del inversor: >98%",
+        "warranty": "Garantía de 25 años en paneles",
+        "gridOptions": "Soluciones de conexión a la red y fuera de la red"
       },
       "applications": {
-        "rooftopSolar": "Rooftop Solar",
-        "groundMountSystems": "Ground Mount Systems",
-        "solarFarms": "Solar Farms",
-        "hybridSystems": "Hybrid Systems"
+        "rooftopSolar": "Solar en Techos",
+        "groundMountSystems": "Sistemas de Montaje en Tierra",
+        "solarFarms": "Parques Solares",
+        "hybridSystems": "Sistemas Híbridos"
       },
       "features": {
-        "highEfficiency": "High Efficiency",
-        "weatherResistant": "Weather Resistant",
-        "smartMonitoring": "Smart Monitoring",
-        "gridSynchronization": "Grid Synchronization"
+        "highEfficiency": "Alta Eficiencia",
+        "weatherResistant": "Resistente a la Intemperie",
+        "smartMonitoring": "Monitoreo Inteligente",
+        "gridSynchronization": "Sincronización de la Red"
       }
     },
     "automation": {
-      "fullDescription": "Advanced automation and control systems including PLCs, HMIs, SCADA solutions, and industrial communication devices.",
+      "fullDescription": "Sistemas avanzados de automatización y control que incluyen PLCs, HMIs, soluciones SCADA y dispositivos de comunicación industrial.",
       "specifications": {
-        "ioCapacity": "I/O capacity: 16 to 2048 points",
-        "communicationProtocols": "Communication: Ethernet, Profibus, Modbus",
-        "programmingStandards": "Programming: IEC 61131-3 compliant",
-        "operatingTemperature": "Operating temperature: 0°C to +60°C",
-        "redundancyOptions": "Redundancy options available"
+        "ioCapacity": "Capacidad de E/S: 16 a 2048 puntos",
+        "communicationProtocols": "Comunicación: Ethernet, Profibus, Modbus",
+        "programmingStandards": "Programación: Cumple con IEC 61131-3",
+        "operatingTemperature": "Temperatura de funcionamiento: 0°C a +60°C",
+        "redundancyOptions": "Opciones de redundancia disponibles"
       },
       "applications": {
-        "manufacturingAutomation": "Manufacturing Automation",
-        "processControl": "Process Control",
-        "buildingManagement": "Building Management",
-        "machineControl": "Machine Control"
+        "manufacturingAutomation": "Automatización de la Fabricación",
+        "processControl": "Control de Procesos",
+        "buildingManagement": "Gestión de Edificios",
+        "machineControl": "Control de Máquinas"
       },
       "features": {
-        "flexibleProgramming": "Flexible Programming",
-        "scalableArchitecture": "Scalable Architecture",
-        "diagnosticTools": "Diagnostic Tools",
-        "remoteMonitoring": "Remote Monitoring"
+        "flexibleProgramming": "Programación Flexible",
+        "scalableArchitecture": "Arquitectura Escalable",
+        "diagnosticTools": "Herramientas de Diagnóstico",
+        "remoteMonitoring": "Monitoreo Remoto"
       }
     },
     "safety": {
-      "fullDescription": "Comprehensive safety and protection equipment including circuit breakers, safety relays, emergency stop systems, and protective devices.",
+      "fullDescription": "Equipo integral de seguridad y protección que incluye interruptores automáticos, relés de seguridad, sistemas de parada de emergencia y dispositivos de protección.",
       "specifications": {
-        "breakingCapacity": "Breaking capacity: 6kA to 100kA",
-        "safetyIntegrityLevel": "Safety integrity level: SIL 2/3",
-        "responseTime": "Response time: <10ms",
-        "multipleProtectionFunctions": "Multiple protection functions",
-        "arcFaultProtection": "Arc fault protection available"
+        "breakingCapacity": "Capacidad de ruptura: 6kA a 100kA",
+        "safetyIntegrityLevel": "Nivel de integridad de seguridad: SIL 2/3",
+        "responseTime": "Tiempo de respuesta: <10ms",
+        "multipleProtectionFunctions": "Múltiples funciones de protección",
+        "arcFaultProtection": "Protección contra fallas de arco disponible"
       },
       "applications": {
-        "personnelSafety": "Personnel Safety",
-        "equipmentProtection": "Equipment Protection",
-        "fireSafety": "Fire Safety",
-        "emergencySystems": "Emergency Systems"
+        "personnelSafety": "Seguridad del Personal",
+        "equipmentProtection": "Protección de Equipos",
+        "fireSafety": "Seguridad contra Incendios",
+        "emergencySystems": "Sistemas de Emergencia"
       },
       "features": {
-        "failSafeOperation": "Fail-Safe Operation",
-        "selfMonitoring": "Self-Monitoring",
-        "quickResponse": "Quick Response",
-        "easyTesting": "Easy Testing"
+        "failSafeOperation": "Operación a Prueba de Fallas",
+        "selfMonitoring": "Automonitoreo",
+        "quickResponse": "Respuesta Rápida",
+        "easyTesting": "Fácil Prueba"
       }
     },
     "pumps": {
-      "fullDescription": "High-quality mechanical pumps, spare parts, and maintenance kits for various industrial and commercial applications.",
+      "fullDescription": "Bombas mecánicas de alta calidad, repuestos y kits de mantenimiento para diversas aplicaciones industriales y comerciales.",
       "specifications": {
-        "flowRate": "Flow rate: 10 LPM to 5000 LPM",
-        "head": "Head: 10m to 500m",
-        "materials": "Material: Cast iron, SS316, Bronze",
-        "temperatureRange": "Temperature: -20°C to +180°C",
-        "efficiency": "Efficiency: up to 85%"
+        "flowRate": "Caudal: 10 LPM a 5000 LPM",
+        "head": "Altura: 10m a 500m",
+        "materials": "Materiales: Hierro fundido, SS316, Bronce",
+        "temperatureRange": "Temperatura: -20°C a +180°C",
+        "efficiency": "Eficiencia: hasta 85%"
       },
       "applications": {
-        "waterSupply": "Water Supply",
-        "chemicalProcessing": "Chemical Processing",
-        "hvacSystems": "HVAC Systems",
-        "industrialProcesses": "Industrial Processes"
+        "waterSupply": "Suministro de Agua",
+        "chemicalProcessing": "Procesamiento Químico",
+        "hvacSystems": "Sistemas HVAC",
+        "industrialProcesses": "Procesos Industriales"
       },
       "features": {
-        "energyEfficient": "Energy Efficient",
-        "corrosionResistant": "Corrosion Resistant",
-        "lowMaintenance": "Low Maintenance",
-        "reliableOperation": "Reliable Operation"
+        "energyEfficient": "Eficiencia Energética",
+        "corrosionResistant": "Resistente a la Corrosión",
+        "lowMaintenance": "Bajo Mantenimiento",
+        "reliableOperation": "Operación Fiable"
       }
     },
     "tools": {
-      "fullDescription": "Professional grade industrial tools, tackles, and maintenance equipment for various engineering and maintenance applications.",
+      "fullDescription": "Herramientas industriales, aparejos y equipos de mantenimiento de grado profesional para diversas aplicaciones de ingeniería y mantenimiento.",
       "specifications": {
-        "material": "Material: High-grade steel/alloy",
-        "precision": "Precision: ±0.1mm accuracy",
-        "operatingRange": "Operating range: Various sizes",
-        "ergonomicDesign": "Ergonomic design",
-        "certifiedStandards": "Certified to international standards"
+        "material": "Material: Acero/aleación de alta calidad",
+        "precision": "Precisión: Precisión de ±0.1mm",
+        "operatingRange": "Rango de funcionamiento: Varios tamaños",
+        "ergonomicDesign": "Diseño ergonómico",
+        "certifiedStandards": "Certificado según estándares internacionales"
       },
       "applications": {
-        "maintenanceWork": "Maintenance Work",
-        "installation": "Installation",
-        "calibration": "Calibration",
-        "testingCommissioning": "Testing & Commissioning"
+        "maintenanceWork": "Trabajos de Mantenimiento",
+        "installation": "Instalación",
+        "calibration": "Calibración",
+        "testingCommissioning": "Pruebas y Puesta en Marcha"
       },
       "features": {
-        "durableConstruction": "Durable Construction",
-        "ergonomicDesign": "Ergonomic Design",
-        "precisionEngineering": "Precision Engineering",
-        "multiPurposeUse": "Multi-Purpose Use"
+        "durableConstruction": "Construcción Duradera",
+        "ergonomicDesign": "Diseño Ergonómico",
+        "precisionEngineering": "Ingeniería de Precisión",
+        "multiPurposeUse": "Uso Multipropósito"
       }
     }
   }

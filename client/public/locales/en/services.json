@@ -2,11 +2,14 @@
   "title": "Our Services",
   "subtitle": "Comprehensive Industrial Engineering Solutions",
   "categories": {
-    "automation": "Industrial Automation",
-    "electrical": "Electrical Engineering",
-    "instrumentation": "Instrumentation and Control",
-    "solar": "Solar Solutions",
-    "maintenance": "Maintenance and Support"
+    "installation-commissioning": "Installation and Commissioning",
+    "maintenance-repair": "Maintenance and Repair",
+    "calibration-testing": "Calibration and Testing",
+    "technical-support": "Technical Support",
+    "custom-solutions": "Custom Solutions",
+    "consultation-training": "Consultation and Training",
+    "supply-chain-management": "Supply Chain Management",
+    "solar-epc": "Solar EPC Solutions"
   },
   "items": {
     "installation-commissioning": "Installation and Commissioning",

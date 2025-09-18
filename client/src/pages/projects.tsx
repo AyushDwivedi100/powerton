@@ -196,7 +196,7 @@ export default function Projects() {
                   variant="outline"
                   className="border-2 border-border text-foreground hover:bg-foreground hover:text-background px-6 py-3 rounded-lg font-semibold transition-all"
                 >
-                  {t("common:buttons.discussProject", "Discuss Your Project")}
+                  {t("common:buttons.discussProject")}
                 </Button>
               </Link>
             </div>

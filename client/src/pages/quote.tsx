@@ -195,51 +195,73 @@ export default function Quote() {
   const benefits = [
     {
       icon: FileText,
-      title: t('pages:quote.benefits.assessment.title', "Detailed Assessment"),
-      description: t('pages:quote.benefits.assessment.description',
-        "Comprehensive project evaluation and technical specifications"),
+      title: t("pages:quote.benefits.assessment.title", "Detailed Assessment"),
+      description: t(
+        "pages:quote.benefits.assessment.description",
+        "Comprehensive project evaluation and technical specifications",
+      ),
     },
     {
       icon: Clock,
-      title: t('pages:quote.benefits.response.title', "Quick Response"),
-      description: t('pages:quote.benefits.response.description', "Receive your detailed quote within 24-48 hours"),
+      title: t("pages:quote.benefits.response.title", "Quick Response"),
+      description: t(
+        "pages:quote.benefits.response.description",
+        "Receive your detailed quote within 24-48 hours",
+      ),
     },
     {
       icon: Users,
-      title: t('pages:quote.benefits.consultation.title', "Expert Consultation"),
-      description: t('pages:quote.benefits.consultation.description', "Free technical consultation with our engineering team"),
+      title: t(
+        "pages:quote.benefits.consultation.title",
+        "Expert Consultation",
+      ),
+      description: t(
+        "pages:quote.benefits.consultation.description",
+        "Free technical consultation with our engineering team",
+      ),
     },
     {
       icon: Star,
-      title: t('pages:quote.benefits.solutions.title', "Customized Solutions"),
-      description: t('pages:quote.benefits.solutions.description',
-        "Tailored engineering solutions for your specific requirements"),
+      title: t("pages:quote.benefits.solutions.title", "Customized Solutions"),
+      description: t(
+        "pages:quote.benefits.solutions.description",
+        "Tailored engineering solutions for your specific requirements",
+      ),
     },
   ];
 
   const processSteps = [
     {
       step: "01",
-      title: t('pages:quote.process.submit.title', "Submit Request"),
-      description: t('pages:quote.process.submit.description',
-        "Fill out our comprehensive quote form or use our cost calculator"),
+      title: t("pages:quote.process.submit.title", "Submit Request"),
+      description: t(
+        "pages:quote.process.submit.description",
+        "Fill out our comprehensive quote form or use our cost calculator",
+      ),
     },
     {
       step: "02",
-      title: t('pages:quote.process.review.title', "Technical Review"),
-      description: t('pages:quote.process.review.description',
-        "Our engineering team analyzes your requirements and specifications"),
+      title: t("pages:quote.process.review.title", "Technical Review"),
+      description: t(
+        "pages:quote.process.review.description",
+        "Our engineering team analyzes your requirements and specifications",
+      ),
     },
     {
       step: "03",
-      title: t('pages:quote.process.assessment.title', "Site Assessment"),
-      description: t('pages:quote.process.assessment.description', "Optional on-site visit for complex projects (if required)"),
+      title: t("pages:quote.process.assessment.title", "Site Assessment"),
+      description: t(
+        "pages:quote.process.assessment.description",
+        "Optional on-site visit for complex projects (if required)",
+      ),
     },
     {
       step: "04",
-      title: t('pages:quote.process.quote.title', "Detailed Quote"),
-      description: t('pages:quote.process.quote.description',
-        "Receive comprehensive pricing with timeline and deliverables"),
+      title: t("pages:quote.process.quote.title", "Detailed Quote"),
+      description: t(
+        "pages:quote.process.quote.description",
+        "Receive comprehensive pricing with timeline and deliverables",
+      ),
     },
   ];
 
@@ -295,7 +317,9 @@ export default function Quote() {
       requirementsCost,
       featuresCost,
       totalCost,
-      timeline: timeline?.label ? t(`pages:quote.timelines.${timeline.label}`) : "Not specified",
+      timeline: timeline?.label
+        ? t(`pages:quote.timelines.${timeline.label}`)
+        : "Not specified",
     };
   };
 
@@ -508,24 +532,43 @@ export default function Quote() {
                       <Calculator className="w-8 h-8 text-primary" />
                     </div>
                     <h3 className="text-2xl font-bold text-foreground mb-4">
-                      {t('pages:quote.calculator.title', 'Advanced Cost Calculator')}
+                      {t(
+                        "pages:quote.calculator.title",
+                        "Advanced Cost Calculator",
+                      )}
                     </h3>
                     <p className="text-lg text-muted-foreground mb-6">
-                      {t('pages:quote.calculator.description', 'We\'re putting the finishing touches on our intelligent cost estimation tool. This feature will provide instant, accurate pricing for your automation projects.')}
+                      {t(
+                        "pages:quote.calculator.description",
+                        "We're putting the finishing touches on our intelligent cost estimation tool. This feature will provide instant, accurate pricing for your automation projects.",
+                      )}
                     </p>
                     <div className="space-y-4">
                       <div className="flex items-center justify-center gap-2 text-primary font-medium">
                         <Clock className="w-4 h-4" />
-                        <span>{t('pages:quote.calculator.launchingSoon', 'Launching Soon')}</span>
+                        <span>
+                          {t(
+                            "pages:quote.calculator.launchingSoon",
+                            "Launching Soon",
+                          )}
+                        </span>
                       </div>
                       <div className="text-sm text-muted-foreground">
-                        {t('pages:quote.calculator.useQuoteForm', 'For immediate quotes, please use our detailed quote form')}
+                        {t(
+                          "pages:quote.calculator.useQuoteForm",
+                          "For immediate quotes, please use our detailed quote form",
+                        )}
                       </div>
                       <Button
                         onClick={() => setSelectedTab("quote")}
                         className="bg-primary hover:bg-primary/90 text-primary-foreground"
                       >
-                        <span className="text-wrap-safe">{t('pages:quote.calculator.getQuoteNow', 'Get Quote Now')}</span>
+                        <span className="text-wrap-safe">
+                          {t(
+                            "pages:quote.calculator.getQuoteNow",
+                            "Get Quote Now",
+                          )}
+                        </span>
                         <ArrowRight className="w-4 h-4 me-2 rtl-flip" />
                       </Button>
                     </div>
@@ -537,10 +580,17 @@ export default function Quote() {
                   <div className="mb-8">
                     <div className="flex items-center justify-between mb-4">
                       <h3 className="text-2xl font-bold text-foreground">
-                        {t('pages:quote.calculator.projectTitle', 'Project Cost Calculator')}
+                        {t(
+                          "pages:quote.calculator.projectTitle",
+                          "Project Cost Calculator",
+                        )}
                       </h3>
                       <Badge variant="secondary" className="px-3 py-1">
-                        {t('pages:quote.calculator.stepOf', 'Step {{current}} of {{total}}', { current: currentStep, total: 4 })}
+                        {t(
+                          "pages:quote.calculator.stepOf",
+                          "Step {{current}} of {{total}}",
+                          { current: currentStep, total: 4 },
+                        )}
                       </Badge>
                     </div>
                     <Progress value={progress} className="w-full" />
@@ -554,330 +604,342 @@ export default function Quote() {
                         transition={{ duration: 0.3, ease: "easeOut" }}
                       >
                         <Card className="bg-card border border-border rounded-lg shadow-sm cursor-pointer">
-                        <CardHeader className="p-6">
-                          <CardTitle className="text-xl md:text-2xl font-semibold text-foreground">
-                            {currentStep === 1 &&
-                              t("common:steps.projectTypeIndustry")}
-                            {currentStep === 2 &&
-                              t("common:steps.projectSpecifications")}
-                            {currentStep === 3 &&
-                              t("common:steps.requirementsFeatures")}
-                            {currentStep === 4 &&
-                              t("common:steps.additionalInformation")}
-                          </CardTitle>
-                        </CardHeader>
-                        <CardContent className="p-6 space-y-6">
-                          {/* Step 1: Project Type & Industry */}
-                          {currentStep === 1 && (
-                            <>
-                              <div>
-                                <Label
-                                  htmlFor="projectType"
-                                  className="text-sm font-medium mb-2 block"
-                                >
-                                  {t("common:labels.projectType")}
-                                </Label>
-                                <Select
-                                  value={config.projectType}
-                                  onValueChange={(value) =>
-                                    setConfig((prev) => ({
-                                      ...prev,
-                                      projectType: value,
-                                    }))
-                                  }
-                                >
-                                  <SelectTrigger>
-                                    <SelectValue
-                                      placeholder={t(
-                                        "common:placeholders.selectProjectType",
-                                      )}
-                                    />
-                                  </SelectTrigger>
-                                  <SelectContent>
-                                    {PROJECT_TYPES.map((type) => (
-                                      <SelectItem
-                                        key={type.value}
-                                        value={type.value}
-                                      >
-                                        {t(`pages:quote.projectTypes.${type.label}`)}
-                                      </SelectItem>
-                                    ))}
-                                  </SelectContent>
-                                </Select>
-                              </div>
-
-                              <div>
-                                <Label
-                                  htmlFor="industry"
-                                  className="text-sm font-medium mb-2 block"
-                                >
-                                  {t("common:labels.industry")}
-                                </Label>
-                                <Select
-                                  value={config.industry}
-                                  onValueChange={(value) =>
-                                    setConfig((prev) => ({
-                                      ...prev,
-                                      industry: value,
-                                    }))
-                                  }
-                                >
-                                  <SelectTrigger>
-                                    <SelectValue
-                                      placeholder={t(
-                                        "common:placeholders.selectIndustry",
-                                      )}
-                                    />
-                                  </SelectTrigger>
-                                  <SelectContent>
-                                    {INDUSTRIES.map((industry) => (
-                                      <SelectItem
-                                        key={industry.value}
-                                        value={industry.value}
-                                      >
-                                        {t(`pages:quote.industries.${industry.label}`)}
-                                      </SelectItem>
-                                    ))}
-                                  </SelectContent>
-                                </Select>
-                              </div>
-                            </>
-                          )}
-
-                          {/* Step 2: Project Specifications */}
-                          {currentStep === 2 && (
-                            <>
-                              <div>
-                                <Label
-                                  htmlFor="projectSize"
-                                  className="text-sm font-medium mb-2 block"
-                                >
-                                  Project Size
-                                </Label>
-                                <Select
-                                  value={config.projectSize}
-                                  onValueChange={(value) =>
-                                    setConfig((prev) => ({
-                                      ...prev,
-                                      projectSize: value,
-                                    }))
-                                  }
-                                >
-                                  <SelectTrigger>
-                                    <SelectValue
-                                      placeholder={t(
-                                        "common:placeholders.selectProjectSize",
-                                      )}
-                                    />
-                                  </SelectTrigger>
-                                  <SelectContent>
-                                    {PROJECT_SIZES.map((size) => (
-                                      <SelectItem
-                                        key={size.value}
-                                        value={size.value}
-                                      >
-                                        {t(`pages:quote.projectSizes.${size.label}`)}
-                                      </SelectItem>
-                                    ))}
-                                  </SelectContent>
-                                </Select>
-                              </div>
-
-                              <div>
-                                <Label
-                                  htmlFor="timeline"
-                                  className="text-sm font-medium mb-2 block"
-                                >
-                                  Project Timeline
-                                </Label>
-                                <Select
-                                  value={config.timeline}
-                                  onValueChange={(value) =>
-                                    setConfig((prev) => ({
-                                      ...prev,
-                                      timeline: value,
-                                    }))
-                                  }
-                                >
-                                  <SelectTrigger>
-                                    <SelectValue
-                                      placeholder={t(
-                                        "common:placeholders.selectTimeline",
-                                      )}
-                                    />
-                                  </SelectTrigger>
-                                  <SelectContent>
-                                    {TIMELINES.map((timeline) => (
-                                      <SelectItem
-                                        key={timeline.value}
-                                        value={timeline.value}
-                                      >
-                                        {t(`pages:quote.timelines.${timeline.label}`)}
-                                      </SelectItem>
-                                    ))}
-                                  </SelectContent>
-                                </Select>
-                              </div>
-                            </>
-                          )}
-
-                          {/* Step 3: Requirements & Features */}
-                          {currentStep === 3 && (
-                            <div className="space-y-6">
-                              <div>
-                                <Label className="text-sm font-medium mb-4 block">
-                                  Core Requirements
-                                </Label>
-                                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                                  {REQUIREMENTS.map((requirement) => (
-                                    <div
-                                      key={requirement.id}
-                                      className="flex items-center space-x-3"
-                                    >
-                                      <Checkbox
-                                        id={requirement.id}
-                                        checked={config.requirements.includes(
-                                          requirement.id,
+                          <CardHeader className="p-6">
+                            <CardTitle className="text-xl md:text-2xl font-semibold text-foreground">
+                              {currentStep === 1 &&
+                                t("common:steps.projectTypeIndustry")}
+                              {currentStep === 2 &&
+                                t("common:steps.projectSpecifications")}
+                              {currentStep === 3 &&
+                                t("common:steps.requirementsFeatures")}
+                              {currentStep === 4 &&
+                                t("common:steps.additionalInformation")}
+                            </CardTitle>
+                          </CardHeader>
+                          <CardContent className="p-6 space-y-6">
+                            {/* Step 1: Project Type & Industry */}
+                            {currentStep === 1 && (
+                              <>
+                                <div>
+                                  <Label
+                                    htmlFor="projectType"
+                                    className="text-sm font-medium mb-2 block"
+                                  >
+                                    {t("common:labels.projectType")}
+                                  </Label>
+                                  <Select
+                                    value={config.projectType}
+                                    onValueChange={(value) =>
+                                      setConfig((prev) => ({
+                                        ...prev,
+                                        projectType: value,
+                                      }))
+                                    }
+                                  >
+                                    <SelectTrigger>
+                                      <SelectValue
+                                        placeholder={t(
+                                          "common:placeholders.selectProjectType",
                                         )}
-                                        onCheckedChange={(checked) =>
-                                          handleRequirementChange(
+                                      />
+                                    </SelectTrigger>
+                                    <SelectContent>
+                                      {PROJECT_TYPES.map((type) => (
+                                        <SelectItem
+                                          key={type.value}
+                                          value={type.value}
+                                        >
+                                          {t(
+                                            `pages:quote.projectTypes.${type.label}`,
+                                          )}
+                                        </SelectItem>
+                                      ))}
+                                    </SelectContent>
+                                  </Select>
+                                </div>
+
+                                <div>
+                                  <Label
+                                    htmlFor="industry"
+                                    className="text-sm font-medium mb-2 block"
+                                  >
+                                    {t("common:labels.industry")}
+                                  </Label>
+                                  <Select
+                                    value={config.industry}
+                                    onValueChange={(value) =>
+                                      setConfig((prev) => ({
+                                        ...prev,
+                                        industry: value,
+                                      }))
+                                    }
+                                  >
+                                    <SelectTrigger>
+                                      <SelectValue
+                                        placeholder={t(
+                                          "common:placeholders.selectIndustry",
+                                        )}
+                                      />
+                                    </SelectTrigger>
+                                    <SelectContent>
+                                      {INDUSTRIES.map((industry) => (
+                                        <SelectItem
+                                          key={industry.value}
+                                          value={industry.value}
+                                        >
+                                          {t(
+                                            `pages:quote.industries.${industry.label}`,
+                                          )}
+                                        </SelectItem>
+                                      ))}
+                                    </SelectContent>
+                                  </Select>
+                                </div>
+                              </>
+                            )}
+
+                            {/* Step 2: Project Specifications */}
+                            {currentStep === 2 && (
+                              <>
+                                <div>
+                                  <Label
+                                    htmlFor="projectSize"
+                                    className="text-sm font-medium mb-2 block"
+                                  >
+                                    Project Size
+                                  </Label>
+                                  <Select
+                                    value={config.projectSize}
+                                    onValueChange={(value) =>
+                                      setConfig((prev) => ({
+                                        ...prev,
+                                        projectSize: value,
+                                      }))
+                                    }
+                                  >
+                                    <SelectTrigger>
+                                      <SelectValue
+                                        placeholder={t(
+                                          "common:placeholders.selectProjectSize",
+                                        )}
+                                      />
+                                    </SelectTrigger>
+                                    <SelectContent>
+                                      {PROJECT_SIZES.map((size) => (
+                                        <SelectItem
+                                          key={size.value}
+                                          value={size.value}
+                                        >
+                                          {t(
+                                            `pages:quote.projectSizes.${size.label}`,
+                                          )}
+                                        </SelectItem>
+                                      ))}
+                                    </SelectContent>
+                                  </Select>
+                                </div>
+
+                                <div>
+                                  <Label
+                                    htmlFor="timeline"
+                                    className="text-sm font-medium mb-2 block"
+                                  >
+                                    Project Timeline
+                                  </Label>
+                                  <Select
+                                    value={config.timeline}
+                                    onValueChange={(value) =>
+                                      setConfig((prev) => ({
+                                        ...prev,
+                                        timeline: value,
+                                      }))
+                                    }
+                                  >
+                                    <SelectTrigger>
+                                      <SelectValue
+                                        placeholder={t(
+                                          "common:placeholders.selectTimeline",
+                                        )}
+                                      />
+                                    </SelectTrigger>
+                                    <SelectContent>
+                                      {TIMELINES.map((timeline) => (
+                                        <SelectItem
+                                          key={timeline.value}
+                                          value={timeline.value}
+                                        >
+                                          {t(
+                                            `pages:quote.timelines.${timeline.label}`,
+                                          )}
+                                        </SelectItem>
+                                      ))}
+                                    </SelectContent>
+                                  </Select>
+                                </div>
+                              </>
+                            )}
+
+                            {/* Step 3: Requirements & Features */}
+                            {currentStep === 3 && (
+                              <div className="space-y-6">
+                                <div>
+                                  <Label className="text-sm font-medium mb-4 block">
+                                    Core Requirements
+                                  </Label>
+                                  <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                                    {REQUIREMENTS.map((requirement) => (
+                                      <div
+                                        key={requirement.id}
+                                        className="flex items-center space-x-3"
+                                      >
+                                        <Checkbox
+                                          id={requirement.id}
+                                          checked={config.requirements.includes(
                                             requirement.id,
-                                            checked as boolean,
-                                          )
-                                        }
-                                      />
-                                      <div>
-                                        <Label
-                                          htmlFor={requirement.id}
-                                          className="text-sm font-medium cursor-pointer"
-                                        >
-                                          {t(`pages:quote.requirements.${requirement.label}`)}
-                                        </Label>
-                                        <div className="text-xs text-muted-foreground">
-                                          {formatCurrency(requirement.price)}
+                                          )}
+                                          onCheckedChange={(checked) =>
+                                            handleRequirementChange(
+                                              requirement.id,
+                                              checked as boolean,
+                                            )
+                                          }
+                                        />
+                                        <div>
+                                          <Label
+                                            htmlFor={requirement.id}
+                                            className="text-sm font-medium cursor-pointer"
+                                          >
+                                            {t(
+                                              `pages:quote.requirements.${requirement.label}`,
+                                            )}
+                                          </Label>
+                                          <div className="text-xs text-muted-foreground">
+                                            {formatCurrency(requirement.price)}
+                                          </div>
                                         </div>
                                       </div>
-                                    </div>
-                                  ))}
+                                    ))}
+                                  </div>
                                 </div>
-                              </div>
 
-                              <div>
-                                <Label className="text-sm font-medium mb-4 block">
-                                  Additional Features
-                                </Label>
-                                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                                  {ADDITIONAL_FEATURES.map((feature) => (
-                                    <div
-                                      key={feature.id}
-                                      className="flex items-center space-x-3"
-                                    >
-                                      <Checkbox
-                                        id={feature.id}
-                                        checked={config.additionalFeatures.includes(
-                                          feature.id,
-                                        )}
-                                        onCheckedChange={(checked) =>
-                                          handleFeatureChange(
+                                <div>
+                                  <Label className="text-sm font-medium mb-4 block">
+                                    Additional Features
+                                  </Label>
+                                  <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                                    {ADDITIONAL_FEATURES.map((feature) => (
+                                      <div
+                                        key={feature.id}
+                                        className="flex items-center space-x-3"
+                                      >
+                                        <Checkbox
+                                          id={feature.id}
+                                          checked={config.additionalFeatures.includes(
                                             feature.id,
-                                            checked as boolean,
-                                          )
-                                        }
-                                      />
-                                      <div>
-                                        <Label
-                                          htmlFor={feature.id}
-                                          className="text-sm font-medium cursor-pointer"
-                                        >
-                                          {t(`pages:quote.additionalFeatures.${feature.label}`)}
-                                        </Label>
-                                        <div className="text-xs text-muted-foreground">
-                                          {formatCurrency(feature.price)}
+                                          )}
+                                          onCheckedChange={(checked) =>
+                                            handleFeatureChange(
+                                              feature.id,
+                                              checked as boolean,
+                                            )
+                                          }
+                                        />
+                                        <div>
+                                          <Label
+                                            htmlFor={feature.id}
+                                            className="text-sm font-medium cursor-pointer"
+                                          >
+                                            {t(
+                                              `pages:quote.additionalFeatures.${feature.label}`,
+                                            )}
+                                          </Label>
+                                          <div className="text-xs text-muted-foreground">
+                                            {formatCurrency(feature.price)}
+                                          </div>
                                         </div>
                                       </div>
-                                    </div>
-                                  ))}
+                                    ))}
+                                  </div>
                                 </div>
                               </div>
+                            )}
+
+                            {/* Step 4: Additional Information */}
+                            {currentStep === 4 && (
+                              <>
+                                <div>
+                                  <Label
+                                    htmlFor="location"
+                                    className="text-sm font-medium mb-2 block"
+                                  >
+                                    Project Location
+                                  </Label>
+                                  <Input
+                                    id="location"
+                                    placeholder={t(
+                                      "common:placeholders.cityState",
+                                    )}
+                                    value={config.location}
+                                    onChange={(e) =>
+                                      setConfig((prev) => ({
+                                        ...prev,
+                                        location: e.target.value,
+                                      }))
+                                    }
+                                  />
+                                </div>
+
+                                <div>
+                                  <Label
+                                    htmlFor="existingInfrastructure"
+                                    className="text-sm font-medium mb-2 block"
+                                  >
+                                    Existing Infrastructure
+                                  </Label>
+                                  <Textarea
+                                    id="existingInfrastructure"
+                                    placeholder={t(
+                                      "common:placeholders.describeExisting",
+                                    )}
+                                    value={config.existingInfrastructure}
+                                    onChange={(e) =>
+                                      setConfig((prev) => ({
+                                        ...prev,
+                                        existingInfrastructure: e.target.value,
+                                      }))
+                                    }
+                                    rows={4}
+                                  />
+                                </div>
+                              </>
+                            )}
+
+                            {/* Navigation Buttons */}
+                            <div className="flex justify-between pt-6 border-t">
+                              <Button
+                                variant="outline"
+                                onClick={prevStep}
+                                disabled={currentStep === 1}
+                                className="border-2 border-primary text-primary hover:bg-primary hover:text-primary-foreground"
+                              >
+                                <ArrowLeft className="w-4 h-4 mr-2" />
+                                Previous
+                              </Button>
+                              <Button
+                                onClick={nextStep}
+                                disabled={
+                                  currentStep === 1 &&
+                                  (!config.projectType || !config.industry)
+                                }
+                                className="bg-primary hover:bg-primary/90 text-primary-foreground"
+                              >
+                                {currentStep === 4 ? "Complete" : "Next"}
+                                {currentStep !== 4 && (
+                                  <ArrowRight className="w-4 h-4 ml-2" />
+                                )}
+                              </Button>
                             </div>
-                          )}
-
-                          {/* Step 4: Additional Information */}
-                          {currentStep === 4 && (
-                            <>
-                              <div>
-                                <Label
-                                  htmlFor="location"
-                                  className="text-sm font-medium mb-2 block"
-                                >
-                                  Project Location
-                                </Label>
-                                <Input
-                                  id="location"
-                                  placeholder={t(
-                                    "common:placeholders.cityState",
-                                  )}
-                                  value={config.location}
-                                  onChange={(e) =>
-                                    setConfig((prev) => ({
-                                      ...prev,
-                                      location: e.target.value,
-                                    }))
-                                  }
-                                />
-                              </div>
-
-                              <div>
-                                <Label
-                                  htmlFor="existingInfrastructure"
-                                  className="text-sm font-medium mb-2 block"
-                                >
-                                  Existing Infrastructure
-                                </Label>
-                                <Textarea
-                                  id="existingInfrastructure"
-                                  placeholder={t(
-                                    "common:placeholders.describeExisting",
-                                  )}
-                                  value={config.existingInfrastructure}
-                                  onChange={(e) =>
-                                    setConfig((prev) => ({
-                                      ...prev,
-                                      existingInfrastructure: e.target.value,
-                                    }))
-                                  }
-                                  rows={4}
-                                />
-                              </div>
-                            </>
-                          )}
-
-                          {/* Navigation Buttons */}
-                          <div className="flex justify-between pt-6 border-t">
-                            <Button
-                              variant="outline"
-                              onClick={prevStep}
-                              disabled={currentStep === 1}
-                              className="border-2 border-primary text-primary hover:bg-primary hover:text-primary-foreground"
-                            >
-                              <ArrowLeft className="w-4 h-4 mr-2" />
-                              Previous
-                            </Button>
-                            <Button
-                              onClick={nextStep}
-                              disabled={
-                                currentStep === 1 &&
-                                (!config.projectType || !config.industry)
-                              }
-                              className="bg-primary hover:bg-primary/90 text-primary-foreground"
-                            >
-                              {currentStep === 4 ? "Complete" : "Next"}
-                              {currentStep !== 4 && (
-                                <ArrowRight className="w-4 h-4 ml-2" />
-                              )}
-                            </Button>
-                          </div>
-                        </CardContent>
+                          </CardContent>
                         </Card>
                       </motion.div>
                     </div>
@@ -1012,11 +1074,14 @@ export default function Quote() {
           <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8">
             <div className="text-center mb-16">
               <h2 className="text-3xl lg:text-4xl font-bold text-foreground mb-6">
-                Why Choose Our Quote Service?
+                {t(
+                  "pages:quote.benefits.title"
+                )}
               </h2>
               <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-                Get accurate pricing and professional consultation for your
-                engineering projects with our comprehensive quote service.
+                {t(
+                  "pages:quote.benefits.description"
+                )}
               </p>
             </div>
 
@@ -1051,10 +1116,13 @@ export default function Quote() {
           <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8">
             <div className="text-center mb-16">
               <h2 className="text-3xl lg:text-4xl font-bold text-foreground mb-6">
-                {t('pages:quote.process.title', 'Our Quote Process')}
+                {t("pages:quote.process.title", "Our Quote Process")}
               </h2>
               <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-                {t('pages:quote.process.description', 'From initial request to detailed proposal, we ensure a smooth and transparent process.')}
+                {t(
+                  "pages:quote.process.description",
+                  "From initial request to detailed proposal, we ensure a smooth and transparent process.",
+                )}
               </p>
             </div>
 
@@ -1087,10 +1155,13 @@ export default function Quote() {
         <section className="py-12 md:py-16 lg:py-20 bg-primary text-white">
           <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8 text-center">
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
-              {t('pages:quote.cta.title', 'Ready to Get Started?')}
+              {t("pages:quote.cta.title", "Ready to Get Started?")}
             </h2>
             <p className="text-base md:text-lg text-primary-foreground mb-8 max-w-2xl mx-auto opacity-90">
-              {t('pages:quote.cta.description', 'Contact us today for your custom engineering solution. Our team is ready to help bring your project to life.')}
+              {t(
+                "pages:quote.cta.description",
+                "Contact us today for your custom engineering solution. Our team is ready to help bring your project to life.",
+              )}
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button
@@ -1098,7 +1169,7 @@ export default function Quote() {
                 onClick={() => handleTabChange("calculator")}
               >
                 <Calculator className="w-5 h-5 mr-2" />
-                Try Cost Calculator
+                {t('pages:quote.cta.tryCalculator')}
               </Button>
               <Button
                 variant="outline"
@@ -1106,7 +1177,7 @@ export default function Quote() {
                 onClick={() => handleTabChange("quote")}
               >
                 <FileText className="w-5 h-5 mr-2" />
-                Request Custom Quote
+                {t('pages:quote.cta.requestQuote')}
               </Button>
             </div>
           </div>

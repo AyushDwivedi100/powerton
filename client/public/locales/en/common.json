@@ -36,32 +36,32 @@
   },
   "testimonials": {
     "anand": {
-      "name": "Ahmad Musa",
+      "name": "Anand Chakrobarty",
       "location": "West Bengal",
       "comment": "Powerton Engineering made our solar energy project easy and convenient. Their team took care of everything from start to finish, and we are very pleased with the result."
     },
     "sanjay": {
-      "name": "Sanusi Ahmad",
+      "name": "Sanjay Shukla",
       "location": "Uttar Pradesh",
       "comment": "I was happy to choose Powerton Engineering for our installation, and I would not hesitate to recommend them to any of my friends."
     },
     "rhea": {
-      "name": "Rahma Salihu",
+      "name": "Rhea Sharma",
       "location": "Maharashtra",
       "comment": "Exceptional quality products and exceptional customer service. The team's technical expertise is impressive and very skilled."
     },
     "priya": {
-      "name": "Fatima Musa",
+      "name": "Priya Patil",
       "location": "Gujarat",
       "comment": "Working with Powerton Engineering has been an amazing experience. Their automation processes have transformed our production processes and improved efficiency by thirty-five percent. Highly recommended for industrial automation projects."
     },
     "kavya": {
-      "name": "Hadiza Sani",
+      "name": "Kavya Singh",
       "location": "Karnataka",
       "comment": "Exceptional service and technical support! The team provided exceptional guidance during the implementation of our solar project. Their professional approach and on-time delivery exceeded our expectations altogether."
     },
     "rajesh": {
-      "name": "Usman Ahmad",
+      "name": "Rajesh Iyer",
       "location": "Tamil Nadu",
       "comment": "Powerton Engineering delivered exactly what they promised. The measurement instrument system they installed has been working well for over two years. Their after-sales support is excellent and they are always responsive."
     }
@@ -86,8 +86,10 @@
   "buttons": {
     "downloadPortfolio": "Download Portfolio",
     "showFilters": "Show Filters",
+    "hideFilters": "Hide Filters",
     "readMore": "Read More",
     "downloadCatalog": "Download Catalog",
+    "discussProject": "Discuss Project",
     "viewDetails": "View Details",
     "backTo": "Back to {{category}}",
     "backToBldcProducts": "Back to Brushless DC (BLDC) Motor Products",
@@ -224,7 +226,8 @@
   "company": {
     "name": "Powerton Engineering Pvt. Ltd.",
     "tagline": "Your trusted partner in industrial automation and electrical engineering",
-    "phone": "+91-94627-71662 / +91-82997-27291",
+    "primaryPhone": "+91-94627-71662",
+    "secondaryPhone": "+91-82997-27291",
     "email": "info@powertonengineering.com",
     "address": {
       "street": "F-25, F Block, Sector 6",
@@ -242,7 +245,8 @@
       "yearsExperience": "Years of Experience",
       "projectsCompleted": "Projects Completed",
       "clientsServed": "Satisfied Clients",
-      "support": "Support"
+      "support": "Support",
+      "successRate": "Success Rate"
     }
   },
   "seo": {

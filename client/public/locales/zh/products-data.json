@@ -1,304 +1,304 @@
 {
   "surgeProtectors": {
     "acPower": {
-      "name": "AC Power Surge Protectors",
-      "description": "Transient voltage surge suppressors for AC power systems",
+      "name": "交流电源浪涌保护器",
+      "description": "用于交流电源系统的瞬态电压浪涌抑制器",
       "features": [
-        "Class I/II/III",
-        "MOV Technology",
-        "Status Indicators",
-        "DIN Rail Mount"
+        "I/II/III级",
+        "MOV技术",
+        "状态指示器",
+        "DIN导轨安装"
       ]
     },
     "dcSolar": {
-      "name": "DC Solar Surge Protectors",
-      "description": "DC surge protection devices for solar panel systems",
+      "name": "直流太阳能浪涌保护器",
+      "description": "用于太阳能板系统的直流浪涌保护装置",
       "features": [
-        "1000V DC Rating",
-        "Type 1+2 Protection",
-        "Remote Indication",
-        "Quick Disconnect"
+        "1000V直流额定电压",
+        "1+2型保护",
+        "远程指示",
+        "快速断开"
       ]
     },
     "signalLine": {
-      "name": "Signal Line Protectors",
-      "description": "Surge protection for communication and control lines",
+      "name": "信号线路保护器",
+      "description": "用于通信和控制线路的浪涌保护",
       "features": [
-        "Data Line Protection",
-        "Low Capacitance",
-        "Fast Response",
-        "Multiple Channels"
+        "数据线保护",
+        "低电容",
+        "快速响应",
+        "多通道"
       ]
     }
   },
   "bldcCeilingFan": {
     "smart1200": {
-      "name": "Smart BLDC Ceiling Fan - 1200mm",
-      "description": "Energy-efficient smart ceiling fan with remote control",
+      "name": "智能BLDC吊扇 - 1200mm",
+      "description": "具有遥控功能的节能智能吊扇",
       "features": [
-        "28W Power Consumption",
-        "Remote Control",
-        "5 Speed Settings",
-        "Timer Function"
+        "28W功耗",
+        "遥控",
+        "5种速度设置",
+        "定时器功能"
       ]
     },
     "premium1400": {
-      "name": "Premium BLDC Ceiling Fan - 1400mm",
-      "description": "High-performance ceiling fan with LED lighting",
+      "name": "高级BLDC吊扇 - 1400mm",
+      "description": "具有LED照明的高性能吊扇",
       "features": [
-        "35W Power Consumption",
-        "LED Light Integrated",
-        "Reversible Motor",
-        "Silent Operation"
+        "35W功耗",
+        "集成LED灯",
+        "可逆电机",
+        "静音操作"
       ]
     },
     "commercial1500": {
-      "name": "Commercial BLDC Ceiling Fan - 1500mm",
-      "description": "Heavy-duty ceiling fan for commercial applications",
+      "name": "商用BLDC吊扇 - 1500mm",
+      "description": "适用于商业应用的重型吊扇",
       "features": [
-        "45W Power Consumption",
-        "Heavy-Duty Motor",
-        "High Air Flow",
-        "Durable Construction"
+        "45W功耗",
+        "重型电机",
+        "高气流",
+        "耐用结构"
       ]
     }
   },
   "bldcCoolerExhaust": {
     "exhaustFan": {
-      "name": "BLDC Exhaust Fan Motors",
-      "description": "High-efficiency motors for exhaust fan applications",
+      "name": "BLDC排气扇电机",
+      "description": "用于排气扇应用的高效电机",
       "features": [
-        "Variable Speed",
-        "Low Noise",
-        "Energy Efficient",
-        "Long Life"
+        "变速",
+        "低噪音",
+        "节能",
+        "寿命长"
       ]
     },
     "coolerMotors": {
-      "name": "BLDC Cooler Motors",
-      "description": "Energy-efficient motors for air cooler applications",
+      "name": "BLDC冷风机电机",
+      "description": "用于空气冷却器应用的节能电机",
       "features": [
-        "High Torque",
-        "Weather Resistant",
-        "Speed Control",
-        "Maintenance Free"
+        "高扭矩",
+        "耐候性",
+        "速度控制",
+        "免维护"
       ]
     },
     "ventilation": {
-      "name": "BLDC Ventilation Motors",
-      "description": "Specialized motors for industrial ventilation systems",
+      "name": "BLDC通风电机",
+      "description": "用于工业通风系统的专用电机",
       "features": [
-        "High CFM",
-        "Temperature Rated",
-        "Vibration Resistant",
-        "Smart Control"
+        "高CFM",
+        "温度额定",
+        "耐振动",
+        "智能控制"
       ]
     }
   },
   "cablesWires": {
     "instrumentation": {
-      "name": "Instrumentation Cables",
-      "description": "Low voltage cables for instrumentation and control applications",
+      "name": "仪器仪表电缆",
+      "description": "用于仪器仪表和控制应用的低压电缆",
       "features": [
-        "Shielded Construction",
-        "Moisture Resistant",
-        "Temperature Rated",
-        "Multiple Pairs"
+        "屏蔽结构",
+        "防潮",
+        "温度额定",
+        "多对"
       ]
     },
     "powerDistribution": {
-      "name": "Power Distribution Cables",
-      "description": "High voltage cables for power transmission and distribution",
+      "name": "配电电缆",
+      "description": "用于电力传输和分配的高压电缆",
       "features": [
-        "XLPE Insulation",
-        "Armored Construction",
-        "Fire Resistant",
-        "High Current Rating"
+        "XLPE绝缘",
+        "铠装结构",
+        "耐火",
+        "高额定电流"
       ]
     },
     "communication": {
-      "name": "Communication Cables",
-      "description": "Data transmission cables for industrial communication networks",
+      "name": "通信电缆",
+      "description": "用于工业通信网络的数据传输电缆",
       "features": [
         "Cat5e/Cat6",
-        "Fiber Optic",
-        "Industrial Grade",
-        "EMI Shielding"
+        "光纤",
+        "工业级",
+        "EMI屏蔽"
       ]
     }
   },
   "handTools": {
     "wrenchSets": {
-      "name": "Professional Wrench Sets",
-      "description": "Complete sets of combination and adjustable wrenches",
+      "name": "专业扳手套装",
+      "description": "组合和可调扳手的完整套装",
       "features": [
-        "Chrome Vanadium Steel",
-        "Metric & SAE Sizes",
-        "Professional Grade",
-        "Lifetime Warranty"
+        "铬钒钢",
+        "公制和SAE尺寸",
+        "专业级",
+        "终身保修"
       ]
     },
     "screwdriverSets": {
-      "name": "Precision Screwdriver Sets",
-      "description": "High-quality screwdrivers for precision applications",
+      "name": "精密螺丝刀套装",
+      "description": "用于精密应用的高质量螺丝刀",
       "features": [
-        "Ergonomic Handles",
-        "Magnetic Tips",
-        "Multiple Head Types",
-        "Anti-Slip Grip"
+        "人体工程学手柄",
+        "磁性尖端",
+        "多种头部类型",
+        "防滑 grip"
       ]
     },
     "toolKits": {
-      "name": "Industrial Tool Kits",
-      "description": "Comprehensive tool kits for industrial maintenance",
+      "name": "工业工具包",
+      "description": "用于工业维护的综合工具包",
       "features": [
-        "Complete Tool Set",
-        "Organized Storage",
-        "Heavy-Duty Case",
-        "Professional Quality"
+        "完整工具集",
+        "有组织的存储",
+        "重型外壳",
+        "专业质量"
       ]
     }
   },
   "powerTools": {
     "drillSets": {
-      "name": "Industrial Drill Sets",
-      "description": "Heavy-duty electric and cordless drills for industrial applications",
+      "name": "工业钻头套装",
+      "description": "用于工业应用的重型电动和无绳钻",
       "features": [
-        "High Torque",
-        "Variable Speed",
-        "Cordless Options",
-        "Chuck Capacity: 13mm"
+        "高扭矩",
+        "变速",
+        "无绳选项",
+        "卡盘容量：13mm"
       ]
     },
     "angleGrinders": {
-      "name": "Angle Grinders",
-      "description": "Professional angle grinders for cutting and grinding operations",
+      "name": "角磨机",
+      "description": "用于切割和研磨操作的专业角磨机",
       "features": [
-        "Multiple Disc Sizes",
-        "Safety Guards",
-        "Anti-Vibration",
-        "Powerful Motors"
+        "多种光盘尺寸",
+        "安全防护装置",
+        "防振动",
+        "强大的电机"
       ]
     },
     "impactWrenches": {
-      "name": "Impact Wrenches",
-      "description": "High-torque impact wrenches for heavy-duty fastening",
+      "name": "冲击扳手",
+      "description": "用于重型紧固的高扭矩冲击扳手",
       "features": [
-        "High Impact Force",
-        "Socket Compatibility",
-        "Forward/Reverse",
-        "Battery Powered"
+        "高冲击力",
+        "插座兼容性",
+        "前进/后退",
+        "电池供电"
       ]
     }
   },
   "cuttingTools": {
     "sawBlades": {
-      "name": "Industrial Saw Blades",
-      "description": "High-quality saw blades for metal and wood cutting",
+      "name": "工业锯片",
+      "description": "用于金属和木材切割的高质量锯片",
       "features": [
-        "HSS/Carbide Tips",
-        "Multiple TPI",
-        "Bi-Metal Construction",
-        "Long Life"
+        "HSS/硬质合金刀头",
+        "多个TPI",
+        "双金属结构",
+        "寿命长"
       ]
     },
     "drillBits": {
-      "name": "Drill Bits & Reamers",
-      "description": "Precision drilling and reaming tools",
+      "name": "钻头和铰刀",
+      "description": "精密钻孔和铰孔工具",
       "features": [
-        "HSS/Cobalt",
-        "Jobber Length",
-        "Spiral Flutes",
-        "Split Point"
+        "高速钢/钴",
+        "工件长度",
+        "螺旋槽",
+        "分裂点"
       ]
     },
     "millingCutters": {
-      "name": "Milling Cutters",
-      "description": "End mills and face mills for machining operations",
+      "name": "铣刀",
+      "description": "用于机加工操作的立铣刀和面铣刀",
       "features": [
-        "Carbide/HSS",
-        "Multiple Flutes",
-        "Coated Options",
-        "Various Geometries"
+        "硬质合金/高速钢",
+        "多个凹槽",
+        "涂层选项",
+        "各种几何形状"
       ]
     }
   },
   "liftingEquipment": {
     "chainHoists": {
-      "name": "Chain Hoists & Slings",
-      "description": "Manual and electric chain hoists for heavy lifting",
+      "name": "链式起重机和吊索",
+      "description": "用于重型提升的手动和电动链式起重机",
       "features": [
-        "1-20 Ton Capacity",
-        "Electric/Manual",
-        "Safety Hooks",
-        "Overload Protection"
+        "1-20吨容量",
+        "电动/手动",
+        "安全钩",
+        "过载保护"
       ]
     },
     "wireRope": {
-      "name": "Wire Rope & Cables",
-      "description": "High-strength wire rope for lifting applications",
+      "name": "钢丝绳和电缆",
+      "description": "用于提升应用的高强度钢丝绳",
       "features": [
-        "Galvanized Steel",
-        "Multiple Lay Types",
-        "Various Diameters",
-        "IWRC Core"
+        "镀锌钢",
+        "多种铺设类型",
+        "各种直径",
+        "IWRC核心"
       ]
     },
     "liftingHardware": {
-      "name": "Lifting Hardware",
-      "description": "Shackles, hooks, and rigging hardware",
+      "name": "起重硬件",
+      "description": "卸扣、吊钩和索具硬件",
       "features": [
-        "Stainless Steel",
-        "Safety Pins",
-        "Load Rated",
-        "ANSI/ASME Standards"
+        "不锈钢",
+        "安全销",
+        "负载额定",
+        "ANSI/ASME 标准"
       ]
     }
   },
   "instrumentation": {
     "sensors": {
-      "title": "Industrial Sensors",
-      "shortDescription": "Comprehensive range of industrial-grade sensors for automation and process control",
-      "fullDescription": "Advanced sensor solutions including temperature, pressure, position, motion, flow, level, proximity, and specialized sensors. Our sensor portfolio features digital temperature sensors with silicon-based ICs, pressure sensors for water conservancy and industrial applications, position sensors with MEMS technology, and vision sensors with image processing systems for quality control.",
+      "title": "工业传感器",
+      "shortDescription": "用于自动化和过程控制的各种工业级传感器",
+      "fullDescription": "先进的传感器解决方案，包括温度、压力、位置、运动、流量、液位、接近和专用传感器。 我们的传感器产品组合包括带有硅基IC的数字温度传感器、用于水利和工业应用的压力传感器、带有MEMS技术的位置传感器以及带有用于质量控制的图像处理系统的视觉传感器。",
       "specifications": [
-        "Temperature Range: -40°C to +125°C",
-        "Pressure Range: Vacuum to 7500 PSI",
-        "Signal Output: 4-20mA, 0-10V, Digital (USB, PNP/NPN)",
-        "Resolution: Up to 24-bit for high precision",
-        "Response Time: <10ms for critical applications",
-        "IP Protection: IP65/IP67/IP69K ratings available"
+        "温度范围：-40°C 至 +125°C",
+        "压力范围：真空至 7500 PSI",
+        "信号输出：4-20mA、0-10V、数字（USB、PNP/NPN）",
+        "分辨率：高达 24 位，实现高精度",
+        "响应时间：<10 毫秒，适用于关键应用",
+        "IP 防护：提供 IP65/IP67/IP69K 等级"
       ],
       "applications": [
-        "Process Control & Monitoring",
-        "Manufacturing Automation",
-        "Quality Control Systems",
-        "Safety & Security Systems",
-        "Environmental Monitoring",
-        "Predictive Maintenance"
+        "过程控制与监控",
+        "制造自动化",
+        "质量控制系统",
+        "安全与安保系统",
+        "环境监测",
+        "预测性维护"
       ],
       "features": [
-        "Industry 4.0 Ready with IoT Connectivity",
-        "Self-Diagnostics & Calibration",
-        "Multiple Communication Protocols",
-        "Explosion-Proof Variants Available",
-        "Extended Temperature Stability",
-        "Low Power Consumption"
+        "支持工业 4.0，具有物联网连接",
+        "自诊断与校准",
+        "多种通信协议",
+        "提供防爆型号",
+        "扩展的温度稳定性",
+        "低功耗"
       ],
       "keyBenefits": [
-        "High Accuracy & Reliability",
-        "Easy Integration & Configuration",
-        "Reduced Maintenance Requirements",
-        "Enhanced Safety Compliance",
-        "Long-Term Stability",
-        "Cost-Effective Operation"
+        "高精度与可靠性",
+        "易于集成与配置",
+        "减少维护需求",
+        "增强安全合规性",
+        "长期稳定性",
+        "经济高效的运行"
       ],
       "industries": [
-        "Oil & Gas",
-        "Chemical & Petrochemical",
-        "Power Generation",
-        "Water Treatment",
-        "Food & Beverage",
-        "Automotive Manufacturing"
+        "石油与天然气",
+        "化工与石化",
+        "发电",
+        "水处理",
+        "食品与饮料",
+        "汽车制造"
       ],
       "certifications": [
         "CE",
@@ -323,48 +323,48 @@
       }
     },
     "transmitters": {
-      "title": "Transmitters & Transducers",
-      "shortDescription": "Precision transmitters for pressure, temperature, flow, and level measurement",
-      "fullDescription": "Comprehensive range of industrial transmitters including pressure transmitters (gauge, absolute, differential), temperature transmitters, flow measurement devices, and multivariable transmitters. Features advanced technologies like strain gauge, capacitive, and piezoresistive sensing with HART digital communication. Market leaders like Emerson Rosemount, ABB, Yokogawa, and Honeywell provide reliable solutions for process industries.",
+      "title": "变送器与传感器",
+      "shortDescription": "用于压力、温度、流量和液位测量的精密变送器",
+      "fullDescription": "各种工业变送器，包括压力变送器（表压、绝对压力、差压）、温度变送器、流量测量设备和多变量变送器。 采用应变计、电容式和压阻式传感等先进技术，并具有HART数字通信功能。 艾默生罗斯蒙特、ABB、横河和霍尼韦尔等市场领导者为过程工业提供可靠的解决方案。",
       "specifications": [
-        "Accuracy: ±0.05% to ±0.25% of span",
-        "Stability: 5-year ±0.1% span stability",
-        "Operating Range: Up to 7,500 PSI pressure",
-        "Rangeability: Up to 400:1 turndown ratio",
-        "Output: 4-20mA + HART digital",
-        "Multivariable: Pressure, flow, temperature in one device"
+        "精度：±0.05% 至 ±0.25% of span",
+        "稳定性：5 年 ±0.1% span 稳定性",
+        "工作范围：高达 7,500 PSI 压力",
+        "量程比：高达 400:1 降幅比",
+        "输出：4-20mA + HART 数字",
+        "多变量：压力、流量、温度集于一体"
       ],
       "applications": [
-        "Pipeline Monitoring",
-        "Process Control",
-        "Tank Level Measurement",
-        "Flow Measurement",
-        "Safety Systems",
-        "Regulatory Compliance"
+        "管道监测",
+        "过程控制",
+        "储罐液位测量",
+        "流量测量",
+        "安全系统",
+        "法规遵从性"
       ],
       "features": [
-        "Smart Diagnostics & Predictive Maintenance",
-        "Coplanar Technology for Easy Installation",
-        "Remote Seal Capability",
-        "Wireless HART Options",
-        "Temperature Compensation",
-        "Self-Diagnostics"
+        "智能诊断与预测性维护",
+        "用于轻松安装的共面技术",
+        "远程密封能力",
+        "无线 HART 选项",
+        "温度补偿",
+        "自诊断"
       ],
       "keyBenefits": [
-        "Industry-Leading Accuracy",
-        "Reduced Total Cost of Ownership",
-        "Enhanced Process Optimization",
-        "Improved Safety & Reliability",
-        "Easy Maintenance & Support",
-        "Future-Proof Technology"
+        "行业领先的精度",
+        "降低总拥有成本",
+        "增强过程优化",
+        "提高安全性和可靠性",
+        "易于维护与支持",
+        "面向未来的技术"
       ],
       "industries": [
-        "Oil & Gas",
-        "Chemical Processing",
-        "Refining",
-        "Power Generation",
-        "Pulp & Paper",
-        "Mining & Metals"
+        "石油与天然气",
+        "化学加工",
+        "精炼",
+        "发电",
+        "纸浆和造纸",
+        "采矿与金属"
       ],
       "certifications": [
         "SIL 2/3",
@@ -390,299 +390,299 @@
   },
   "bldcSubmersibleSurface": {
     "solar1HP": {
-      "name": "Solar BLDC Submersible Pump - 1HP",
-      "description": "Solar-powered BLDC submersible pump for water wells",
+      "name": "太阳能 BLDC 潜水泵 - 1HP",
+      "description": "用于水井的太阳能 BLDC 潜水泵",
       "features": [
-        "Solar Compatible",
-        "1HP Motor",
-        "High Efficiency",
-        "Water-Cooled Design"
+        "太阳能兼容",
+        "1HP 电机",
+        "高效率",
+        "水冷设计"
       ]
     },
     "surface2HP": {
-      "name": "DC Surface Pump - 2HP",
-      "description": "High-efficiency BLDC surface pump for irrigation",
+      "name": "直流地面泵 - 2HP",
+      "description": "用于灌溉的高效 BLDC 地面泵",
       "features": [
-        "2HP Power",
-        "Self-Priming",
-        "Dry Run Protection",
-        "Variable Speed"
+        "2HP 功率",
+        "自吸",
+        "干运转保护",
+        "变速"
       ]
     },
     "hybrid": {
-      "name": "Hybrid BLDC Pump System",
-      "description": "Intelligent pump system with solar and grid backup",
+      "name": "混合 BLDC 泵系统",
+      "description": "具有太阳能和电网备份的智能泵系统",
       "features": [
-        "Hybrid Operation",
-        "Smart Controller",
-        "Remote Monitoring",
-        "Energy Optimization"
+        "混合操作",
+        "智能控制器",
+        "远程监控",
+        "能量优化"
       ]
     }
   },
   "bldcTableWallFan": {
     "tableFan": {
-      "name": "BLDC Table Fan Motors",
-      "description": "Compact BLDC motors for table and desk fans",
+      "name": "BLDC 台扇电机",
+      "description": "用于台扇和书桌风扇的紧凑型 BLDC 电机",
       "features": [
-        "Compact Design",
-        "Silent Operation",
-        "Remote Control",
-        "Timer Function"
+        "紧凑设计",
+        "静音操作",
+        "遥控",
+        "定时器功能"
       ]
     },
     "wallFan": {
-      "name": "BLDC Wall Fan Motors",
-      "description": "Wall-mounted fan motors with BLDC technology",
+      "name": "BLDC 壁扇电机",
+      "description": "具有 BLDC 技术的壁挂式风扇电机",
       "features": [
-        "Wall Mount Design",
-        "Oscillating Function",
-        "Speed Control",
-        "Energy Saving"
+        "壁挂式设计",
+        "振荡功能",
+        "速度控制",
+        "节能"
       ]
     },
     "pedestalFan": {
-      "name": "BLDC Pedestal Fan Motors",
-      "description": "Height-adjustable pedestal fan motors",
+      "name": "BLDC 立式风扇电机",
+      "description": "高度可调的立式风扇电机",
       "features": [
-        "Height Adjustment",
-        "Tilt Function",
-        "LED Display",
-        "Sleep Mode"
+        "高度调整",
+        "倾斜功能",
+        "LED 显示屏",
+        "睡眠模式"
       ]
     }
   },
   "centrifugalPumps": {
     "endSuction": {
-      "name": "End Suction Centrifugal Pumps",
-      "description": "Single-stage end suction pumps for general applications",
+      "name": "端吸离心泵",
+      "description": "用于一般应用的单级端吸泵",
       "features": [
-        "Flow: 10-5000 GPM",
-        "Head: up to 400 ft",
-        "Cast Iron/Stainless Steel",
-        "ANSI/ISO Standards"
+        "流量：10-5000 GPM",
+        "扬程：高达 400 英尺",
+        "铸铁/不锈钢",
+        "ANSI/ISO 标准"
       ]
     },
     "multiStage": {
-      "name": "Multi-Stage Centrifugal Pumps",
-      "description": "High-pressure multi-stage pumps for demanding applications",
+      "name": "多级离心泵",
+      "description": "用于要求苛刻的应用的高压多级泵",
       "features": [
-        "High Pressure Capability",
-        "Compact Design",
-        "Energy Efficient",
-        "Balanced Impellers"
+        "高压能力",
+        "紧凑设计",
+        "节能",
+        "平衡叶轮"
       ]
     },
     "chemicalProcess": {
-      "name": "Chemical Process Pumps",
-      "description": "Corrosion-resistant pumps for chemical processing",
+      "name": "化学工艺泵",
+      "description": "用于化学处理的耐腐蚀泵",
       "features": [
-        "Corrosion Resistant",
-        "Seal-less Design Options",
-        "API 610 Compliant",
-        "High Temperature"
+        "耐腐蚀",
+        "无密封设计选项",
+        "符合 API 610 标准",
+        "高温"
       ]
     }
   },
   "circuitBreakersFuses": {
     "mcb": {
-      "name": "Miniature Circuit Breakers (MCB)",
-      "description": "Low voltage circuit breakers for residential and commercial use",
+      "name": "微型断路器 (MCB)",
+      "description": "用于住宅和商业用途的低压断路器",
       "features": [
-        "B, C, D Curves",
-        "6-63A Rating",
-        "10kA Breaking Capacity",
-        "DIN Rail Mount"
+        "B, C, D 曲线",
+        "6-63A 额定值",
+        "10kA 分断能力",
+        "DIN 导轨安装"
       ]
     },
     "mccb": {
-      "name": "Molded Case Circuit Breakers (MCCB)",
-      "description": "Industrial circuit breakers for motor and power protection",
+      "name": "塑壳断路器 (MCCB)",
+      "description": "用于电机和电源保护的工业断路器",
       "features": [
-        "Adjustable Trip",
-        "High Breaking Capacity",
-        "Electronic Trip Units",
-        "Up to 1600A"
+        "可调跳闸",
+        "高分断能力",
+        "电子跳闸单元",
+        "高达 1600A"
       ]
     },
     "industrialFuses": {
-      "name": "Industrial Fuses",
-      "description": "High-speed fuses for equipment protection",
+      "name": "工业熔断器",
+      "description": "用于设备保护的高速熔断器",
       "features": [
-        "Fast Acting",
-        "Time Delay",
-        "High Voltage",
-        "Ceramic Body"
+        "快速作用",
+        "延时",
+        "高压",
+        "陶瓷体"
       ]
     }
   },
   "connectorsTerminals": {
     "terminalBlocks": {
-      "name": "Terminal Blocks",
-      "description": "Industrial terminal blocks for secure wire connections",
+      "name": "接线端子",
+      "description": "用于安全导线连接的工业接线端子",
       "features": [
-        "Spring Clamp",
-        "Screw Type",
-        "DIN Rail Mount",
-        "Multiple Sizes"
+        "弹簧夹",
+        "螺钉型",
+        "DIN 导轨安装",
+        "多种尺寸"
       ]
     },
     "industrialConnectors": {
-      "name": "Industrial Connectors",
-      "description": "Heavy-duty connectors for industrial applications",
+      "name": "工业连接器",
+      "description": "用于工业应用的重型连接器",
       "features": [
-        "IP67 Rating",
-        "Locking Mechanism",
-        "Multi-Pin",
-        "Cable Glands"
+        "IP67 等级",
+        "锁定机制",
+        "多针",
+        "电缆密封套"
       ]
     },
     "signalConnectors": {
-      "name": "Signal Connectors",
-      "description": "Precision connectors for instrumentation signals",
+      "name": "信号连接器",
+      "description": "用于仪器仪表信号的精密连接器",
       "features": [
-        "Low Noise",
-        "Shielded Design",
-        "Miniature Size",
-        "High Reliability"
+        "低噪音",
+        "屏蔽设计",
+        "微型尺寸",
+        "高可靠性"
       ]
     }
   },
   "automation": {
     "plcs": {
       "siemensS7": {
-        "name": "Siemens SIMATIC S7-1200",
-        "description": "Compact modular PLC for small to medium automation applications",
+        "name": "西门子 SIMATIC S7-1200",
+        "description": "用于中小型自动化应用的紧凑型模块化 PLC",
         "features": [
-          "Integrated Digital and Analog I/O",
-          "Built-in Ethernet Communication",
-          "TIA Portal Programming",
-          "Failsafe Technology Available"
+          "集成数字和模拟 I/O",
+          "内置以太网通信",
+          "TIA 博途编程",
+          "提供故障安全技术"
         ]
       },
       "allenBradley": {
         "name": "Allen-Bradley CompactLogix 5380",
-        "description": "High-performance PLC with integrated safety capabilities",
+        "description": "具有集成安全功能的高性能 PLC",
         "features": [
-          "Integrated Safety Functions",
-          "EtherNet/IP Communication",
-          "Studio 5000 Programming",
-          "Motion Control Integration"
+          "集成安全功能",
+          "以太网/IP 通信",
+          "Studio 5000 编程",
+          "运动控制集成"
         ]
       },
       "schneider": {
-        "name": "Schneider Electric Modicon M580",
-        "description": "Enterprise PLC platform with hot standby redundancy",
+        "name": "施耐德电气 Modicon M580",
+        "description": "具有热备冗余的企业 PLC 平台",
         "features": [
-          "Hot Standby Redundancy",
-          "Ethernet Backbone Architecture",
-          "Unity Pro Programming",
-          "Advanced Cybersecurity"
+          "热备冗余",
+          "以太网骨干架构",
+          "Unity Pro 编程",
+          "高级网络安全"
         ]
       }
     },
     "hmi": {
       "panelMount": {
-        "name": "Panel Mount HMI",
-        "description": "Industrial touchscreen panels for process visualization",
+        "name": "面板安装 HMI",
+        "description": "用于过程可视化的工业触摸屏面板",
         "features": [
-          "Multi-touch Capacitive Display",
-          "Web-based Configuration",
-          "Alarm Management",
-          "Data Logging"
+          "多点触控电容显示屏",
+          "基于 Web 的配置",
+          "报警管理",
+          "数据记录"
         ]
       },
       "operatorInterface": {
-        "name": "Operator Interface Station",
-        "description": "Advanced operator workstations for process control",
+        "name": "操作员界面站",
+        "description": "用于过程控制的高级操作员工作站",
         "features": [
-          "High-resolution Display",
-          "Multi-protocol Support",
-          "Historical Trending",
-          "Report Generation"
+          "高分辨率显示器",
+          "多协议支持",
+          "历史趋势",
+          "报告生成"
         ]
       },
       "mobile": {
-        "name": "Mobile HMI",
-        "description": "Mobile solutions for remote process monitoring",
+        "name": "移动 HMI",
+        "description": "用于远程过程监控的移动解决方案",
         "features": [
-          "Wireless Connectivity",
-          "Mobile App Support",
-          "Remote Access",
-          "Real-time Notifications"
+          "无线连接",
+          "移动应用支持",
+          "远程访问",
+          "实时通知"
         ]
       }
     },
     "scada": {
       "wonderware": {
-        "name": "Wonderware System Platform",
-        "description": "Comprehensive SCADA platform for industrial automation",
+        "name": "Wonderware 系统平台",
+        "description": "用于工业自动化的综合 SCADA 平台",
         "features": [
-          "Real-time Data Acquisition",
-          "Historical Trending",
-          "Alarm Management",
-          "Web-based HMI"
+          "实时数据采集",
+          "历史趋势",
+          "报警管理",
+          "基于 Web 的 HMI"
         ]
       },
       "geFix": {
         "name": "GE iFIX SCADA",
-        "description": "Advanced SCADA software for process visualization",
+        "description": "用于过程可视化的高级 SCADA 软件",
         "features": [
-          "Process Graphics",
-          "Data Logging",
-          "Report Generation",
-          "OPC Connectivity"
+          "过程图形",
+          "数据记录",
+          "报告生成",
+          "OPC 连接"
         ]
       },
       "siemensWinCC": {
-        "name": "Siemens WinCC SCADA",
-        "description": "Industrial SCADA system for monitoring and control",
+        "name": "西门子 WinCC SCADA",
+        "description": "用于监控和控制的工业 SCADA 系统",
         "features": [
-          "TIA Portal Integration",
-          "Web Client Support",
-          "Mobile Access",
-          "Redundancy Options"
+          "TIA 博途集成",
+          "Web 客户端支持",
+          "移动访问",
+          "冗余选项"
         ]
       }
     },
     "dcs": {
       "honeywellExperion": {
-        "name": "Honeywell Experion PKS",
-        "description": "Distributed control system for process industries",
+        "name": "霍尼韦尔 Experion PKS",
+        "description": "用于过程工业的分布式控制系统",
         "features": [
-          "Process Control",
-          "Safety Systems",
-          "Asset Management",
-          "Advanced Control"
+          "过程控制",
+          "安全系统",
+          "资产管理",
+          "高级控制"
         ]
       },
       "abbSystem800xA": {
         "name": "ABB System 800xA",
-        "description": "Extended automation system for industrial processes",
+        "description": "用于工业过程的扩展自动化系统",
         "features": [
-          "Integrated Engineering",
-          "Safety Certified",
-          "Cybersecurity",
-          "Lifecycle Management"
+          "集成工程",
+          "安全认证",
+          "网络安全",
+          "生命周期管理"
         ]
       },
       "emersonDeltaV": {
-        "name": "Emerson DeltaV",
-        "description": "Modern DCS with digital transformation capabilities",
+        "name": "艾默生 DeltaV",
+        "description": "具有数字化转型功能的现代 DCS",
         "features": [
-          "Digital Twin Technology",
-          "Predictive Analytics",
-          "Wireless Integration",
-          "Cloud Connectivity"
+          "数字孪生技术",
+          "预测分析",
+          "无线集成",
+          "云连接"
         ]
       }
     }
   },
   "productNames": {
     "siemens": {
-      "simaticS7_1200": "Siemens SIMATIC S7-1200",
-      "simaticS7_1500": "Siemens SIMATIC S7-1500",
-      "logoSeries": "Siemens LOGO! Series"
+      "simaticS7_1200": "西门子 SIMATIC S7-1200",
+      "simaticS7_1500": "西门子 SIMATIC S7-1500",
+      "logoSeries": "西门子 LOGO! 系列"
     },
     "allenBradley": {
       "compactLogix5380": "Allen-Bradley CompactLogix 5380",
@@ -690,14 +690,14 @@
       "controlLogix5580": "Allen-Bradley ControlLogix 5580"
     },
     "schneider": {
-      "modiconM580": "Schneider Electric Modicon M580",
-      "modiconM340": "Schneider Electric Modicon M340",
-      "zelio": "Schneider Electric Zelio Logic"
+      "modiconM580": "施耐德电气 Modicon M580",
+      "modiconM340": "施耐德电气 Modicon M340",
+      "zelio": "施耐德电气 Zelio Logic"
     },
     "solar": {
-      "monocrystalline400W": "Monocrystalline Solar Panels - 400W",
-      "polycrystalline320W": "Polycrystalline Solar Panels - 320W",
-      "bifacial450W": "Bifacial Solar Panels - 450W"
+      "monocrystalline400W": "单晶硅太阳能电池板 - 400W",
+      "polycrystalline320W": "多晶硅太阳能电池板 - 320W",
+      "bifacial450W": "双面太阳能电池板 - 450W"
     }
   }
 }

@@ -2,323 +2,325 @@
   "contact": {
     "fields": {
       "name": {
-        "label": "Full Name",
-        "placeholder": "Enter your full name",
-        "error": "Name is required"
+        "label": "Jina Kamili",
+        "placeholder": "Ingiza jina lako kamili",
+        "error": "Jina linahitajika"
       },
       "email": {
-        "label": "Email Address",
-        "placeholder": "Enter your email address",
-        "error": "Please enter a valid email address"
+        "label": "Barua Pepe",
+        "placeholder": "Ingiza anwani yako ya barua pepe",
+        "error": "Tafadhali ingiza anwani halali ya barua pepe"
       },
       "phone": {
-        "label": "Phone Number",
-        "placeholder": "Enter your phone number",
-        "error": "Phone number is required"
+        "label": "Nambari ya Simu",
+        "placeholder": "Ingiza nambari yako ya simu",
+        "error": "Nambari ya simu inahitajika"
       },
       "company": {
-        "label": "Company Name",
-        "placeholder": "Enter your company name"
+        "label": "Jina la Kampuni",
+        "placeholder": "Ingiza jina la kampuni yako"
       },
       "serviceType": {
-        "label": "Service Type",
-        "placeholder": "Select service type"
+        "label": "Aina ya Huduma",
+        "placeholder": "Chagua aina ya huduma"
       },
       "subject": {
-        "label": "Subject",
-        "placeholder": "Enter subject",
-        "error": "Subject is required"
+        "label": "Mada",
+        "placeholder": "Ingiza mada",
+        "error": "Mada inahitajika"
       },
       "message": {
-        "label": "Message",
-        "placeholder": "Enter your message",
-        "error": "Message is required"
+        "label": "Ujumbe",
+        "placeholder": "Ingiza ujumbe wako",
+        "error": "Ujumbe unahitajika"
       }
     },
     "buttons": {
-      "submit": "Send Message",
-      "sending": "Sending...",
-      "callNow": "Call Now",
-      "emailUs": "Email Us"
+      "submit": "Tuma Ujumbe",
+      "sending": "Inatuma...",
+      "callNow": "Piga Simu Sasa",
+      "emailUs": "Tutumie Barua Pepe"
     },
     "messages": {
-      "success": "Thank you! Your message has been sent successfully.",
-      "successDesc": "We'll get back to you within 24 hours.",
-      "error": "Failed to send message",
-      "errorDesc": "Please try again or contact us directly at {{phone}} or {{email}}"
+      "success": "Asante! Ujumbe wako umetuma kwa mafanikio.",
+      "successDesc": "Tutakujibu ndani ya masaa 24.",
+      "error": "Imeshindwa kutuma ujumbe",
+      "errorDesc": "Tafadhali jaribu tena au wasiliana nasi moja kwa moja kwa {{phone}} au {{email}}"
     }
   },
   "quote": {
     "fields": {
       "name": {
-        "label": "Full Name",
-        "placeholder": "Enter your full name"
+        "label": "Jina Kamili",
+        "placeholder": "Ingiza jina lako kamili"
       },
       "email": {
-        "label": "Email Address",
-        "placeholder": "Enter your email address"
+        "label": "Barua Pepe",
+        "placeholder": "Ingiza anwani yako ya barua pepe"
       },
       "phone": {
-        "label": "Phone Number",
-        "placeholder": "Enter your phone number"
+        "label": "Nambari ya Simu",
+        "placeholder": "Ingiza nambari yako ya simu"
       },
       "company": {
-        "label": "Company Name",
-        "placeholder": "Enter your company name"
+        "label": "Jina la Kampuni",
+        "placeholder": "Ingiza jina la kampuni yako"
       },
       "designation": {
-        "label": "Designation",
-        "placeholder": "Enter your designation"
+        "label": "Wadhifa",
+        "placeholder": "Ingiza wadhifa wako"
       },
       "projectTitle": {
-        "label": "Project Title",
-        "placeholder": "Enter project title"
+        "label": "Jina la Mradi",
+        "placeholder": "Ingiza jina la mradi"
       },
       "projectType": {
-        "label": "Project Type",
-        "placeholder": "Select project type"
+        "label": "Aina ya Mradi",
+        "placeholder": "Chagua aina ya mradi"
       },
       "budget": {
-        "label": "Budget Range",
-        "placeholder": "Select budget range"
+        "label": "Kiwango cha Bajeti",
+        "placeholder": "Chagua kiwango cha bajeti"
       },
       "timeline": {
-        "label": "Timeline",
-        "placeholder": "Select project timeline"
+        "label": "Muda",
+        "placeholder": "Chagua muda wa mradi"
       },
       "services": {
-        "label": "Services Required",
-        "placeholder": "Select required services"
+        "label": "Huduma Zinazohitajika",
+        "placeholder": "Chagua huduma zinazohitajika"
       },
       "specifications": {
-        "label": "Technical Specifications",
-        "placeholder": "Describe your technical requirements"
+        "label": "Maelezo ya Ufundi",
+        "placeholder": "Eleza mahitaji yako ya kiufundi"
       },
       "additionalRequirements": {
-        "label": "Additional Requirements",
-        "placeholder": "Any additional requirements"
+        "label": "Mahitaji ya Ziada",
+        "placeholder": "Mahitaji yoyote ya ziada"
       },
       "industryType": {
-        "label": "Industry Type",
-        "placeholder": "Select your industry"
+        "label": "Aina ya Sekta",
+        "placeholder": "Chagua sekta yako"
       },
       "projectScale": {
-        "label": "Project Scale",
-        "placeholder": "Select project scale"
+        "label": "Kiwango cha Mradi",
+        "placeholder": "Chagua kiwango cha mradi"
       },
       "preferredBrands": {
-        "label": "Preferred Brands",
-        "placeholder": "Any preferred brands or manufacturers"
+        "label": "Bidhaa Unazopendelea",
+        "placeholder": "Bidhaa au watengenezaji wowote unaopendelea"
       }
     },
     "projectTypes": {
-      "newInstallation": "New Installation",
-      "systemUpgrade": "System Upgrade", 
-      "retrofit": "Retrofit",
-      "maintenance": "Maintenance Contract",
-      "consultation": "Technical Consultation",
-      "design": "Design & Engineering"
+      "newInstallation": "Usakinishaji Mpya",
+      "systemUpgrade": "Uboreshaji wa Mfumo",
+      "retrofit": "Ukarabati",
+      "maintenance": "Mkataba wa Matengenezo",
+      "consultation": "Ushauri wa Kiufundi",
+      "design": "Ubunifu na Uhandisi"
     },
     "timelines": {
-      "immediate": "Immediate (< 1 month)",
-      "1-3-months": "1-3 months",
-      "3-6-months": "3-6 months",
-      "6-12-months": "6-12 months",
-      "1-year-plus": "More than 1 year"
+      "immediate": "Mara Moja (< Mwezi 1)",
+      "1-3-months": "Miezi 1-3",
+      "3-6-months": "Miezi 3-6",
+      "6-12-months": "Miezi 6-12",
+      "1-year-plus": "Zaidi ya mwaka 1"
     },
     "budgetRanges": {
-      "under-1-lakh": "Under ₹1 Lakh",
+      "under-1-lakh": "Chini ya ₹1 Lakh",
       "1-5-lakh": "₹1-5 Lakhs",
       "5-10-lakh": "₹5-10 Lakhs",
       "10-25-lakh": "₹10-25 Lakhs",
       "25-50-lakh": "₹25-50 Lakhs",
       "50-lakh-plus": "₹50 Lakhs+",
-      "discuss": "Prefer to discuss"
+      "discuss": "Pendelea kujadili"
     },
     "validation": {
-      "nameMin": "Name must be at least 2 characters",
-      "emailInvalid": "Please enter a valid email address",
-      "phoneMin": "Please enter a valid phone number",
-      "companyRequired": "Company name is required",
-      "projectTitleRequired": "Project title is required",
-      "projectTypeRequired": "Please select a project type",
-      "timelineRequired": "Please select expected timeline",
-      "servicesRequired": "Please select at least one service",
-      "specificationsMin": "Please provide detailed specifications (minimum 20 characters)",
-      "nameRequired": "Name is required",
-      "phoneRequired": "Phone number is required",
-      "subjectRequired": "Subject is required",
-      "messageRequired": "Message is required",
-      "firstNameRequired": "First name is required",
-      "lastNameRequired": "Last name is required",
-      "invalidEmail": "Invalid email address",
-      "selectService": "Please select a service",
-      "projectDetailsRequired": "Project details are required"
+      "nameMin": "Jina lazima liwe na angalau herufi 2",
+      "emailInvalid": "Tafadhali ingiza anwani halali ya barua pepe",
+      "phoneMin": "Tafadhali ingiza nambari halali ya simu",
+      "companyRequired": "Jina la kampuni linahitajika",
+      "projectTitleRequired": "Jina la mradi linahitajika",
+      "projectTypeRequired": "Tafadhali chagua aina ya mradi",
+      "timelineRequired": "Tafadhali chagua muda unaotarajiwa",
+      "servicesRequired": "Tafadhali chagua angalau huduma moja",
+      "specificationsMin": "Tafadhali toa maelezo ya kina (angalau herufi 20)",
+      "nameRequired": "Jina linahitajika",
+      "phoneRequired": "Nambari ya simu inahitajika",
+      "subjectRequired": "Mada inahitajika",
+      "messageRequired": "Ujumbe unahitajika",
+      "firstNameRequired": "Jina la kwanza linahitajika",
+      "lastNameRequired": "Jina la mwisho linahitajika",
+      "invalidEmail": "Anwani batili ya barua pepe",
+      "selectService": "Tafadhali chagua huduma",
+      "projectDetailsRequired": "Maelezo ya mradi yanahitajika"
     },
     "success": {
-      "title": "Quote request submitted successfully!",
-      "description": "Our engineering team will review your requirements and respond within 24-48 hours."
+      "title": "Ombi la nukuu limewasilishwa kwa mafanikio!",
+      "description": "Timu yetu ya uhandisi itakagua mahitaji yako na kujibu ndani ya masaa 24-48."
     },
     "placeholders": {
-      "selectIndustry": "Select industry",
-      "selectProjectScale": "Select project scale",
-      "selectBudget": "Select budget range (optional)",
-      "detailedRequirements": "Please provide detailed specifications including:\n- Technical requirements and standards\n- Equipment specifications and quantities\n- Performance requirements\n- Environmental conditions\n- Compliance requirements\n- Any special considerations...",
-      "additionalRequirements": "Any additional requirements, special conditions, or questions...",
-      "preferredBrands": "e.g., Siemens, Allen-Bradley, Schneider..."
+      "selectIndustry": "Chagua sekta",
+      "selectProjectScale": "Chagua kiwango cha mradi",
+      "selectBudget": "Chagua kiwango cha bajeti (si lazima)",
+      "detailedRequirements": "Tafadhali toa maelezo ya kina pamoja na:\n- Mahitaji na viwango vya kiufundi\n- Vifaa maalum na idadi\n- Mahitaji ya utendaji\n- Hali ya mazingira\n- Mahitaji ya kufuata\n- Masuala yoyote maalum...",
+      "additionalRequirements": "Mahitaji yoyote ya ziada, hali maalum, au maswali...",
+      "preferredBrands": "mfano, Siemens, Allen-Bradley, Schneider..."
     },
     "labels": {
-      "industryType": "Industry Type",
-      "projectScale": "Project Scale",
-      "approximateBudget": "Approximate Budget",
-      "detailedRequirements": "Detailed Requirements *",
-      "preferredBrands": "Preferred Brands/Standards",
-      "additionalRequirements": "Additional Requirements",
-      "projectTitle": "Project Title *",
-      "projectType": "Project Type *",
-      "expectedTimeline": "Expected Timeline *",
-      "phoneNumber": "Phone Number *",
-      "companyName": "Company Name *",
-      "projectInformation": "Project Information",
-      "budgetRange": "Budget Range"
+      "industryType": "Aina ya Sekta",
+      "projectScale": "Kiwango cha Mradi",
+      "approximateBudget": "Bajeti Inayokadiriwa",
+      "detailedRequirements": "Mahitaji ya Kina *",
+      "preferredBrands": "Bidhaa/Viwango Vinavyopendelewa",
+      "additionalRequirements": "Mahitaji ya Ziada",
+      "projectTitle": "Jina la Mradi *",
+      "projectType": "Aina ya Mradi *",
+      "expectedTimeline": "Muda Unaotarajiwa *",
+      "phoneNumber": "Nambari ya Simu *",
+      "companyName": "Jina la Kampuni *",
+      "projectInformation": "Habari ya Mradi",
+      "budgetRange": "Kiwango cha Bajeti"
     },
     "sections": {
-      "requiredServices": "Required Services *",
-      "contactInfo": "Contact Information",
-      "technicalSpecifications": "Technical Specifications"
+      "requiredServices": "Huduma Zinazohitajika *",
+      "contactInfo": "Maelezo ya Mawasiliano",
+      "technicalSpecifications": "Maelezo ya Ufundi"
     },
     "error": {
-      "title": "Quote submission failed",
-      "description": "For immediate assistance: {{phone}} or email: {{email}}"
+      "title": "Uwasilishaji wa nukuu umeshindwa",
+      "description": "Kwa usaidizi wa haraka: {{phone}} au barua pepe: {{email}}"
     },
-    "submitting": "Submitting Quote Request...",
+    "submitting": "Inawasilisha Ombi la Nukuu...",
     "industries": {
-      "manufacturing": "Manufacturing",
-      "powerGeneration": "Power Generation",
-      "waterTreatment": "Water Treatment",
-      "foodProcessing": "Food Processing",
-      "pharmaceutical": "Pharmaceutical",
-      "chemical": "Chemical",
-      "oilGas": "Oil & Gas",
-      "renewableEnergy": "Renewable Energy",
-      "infrastructure": "Infrastructure",
-      "other": "Other"
+      "manufacturing": "Utengenezaji",
+      "powerGeneration": "Uz Electricity wa Nguvu",
+      "waterTreatment": "Usafishaji wa Maji",
+      "foodProcessing": "Usindikaji wa Chakula",
+      "pharmaceutical": "Dawa",
+      "chemical": "Kemikali",
+      "oilGas": "Mafuta na Gesi",
+      "renewableEnergy": "Nishati Mbadala",
+      "infrastructure": "Miundombinu",
+      "other": "Nyinginezo"
     },
     "projectScale": {
-      "small": "Small Scale (< 10 I/O points)",
-      "medium": "Medium Scale (10-100 I/O points)",
-      "large": "Large Scale (100-500 I/O points)",
-      "enterprise": "Enterprise (500+ I/O points)"
+      "small": "Kiwango Kidogo (< Pointi 10 za I/O)",
+      "medium": "Kiwango cha Kati (Pointi 10-100 za I/O)",
+      "large": "Kiwango Kikubwa (Pointi 100-500 za I/O)",
+      "enterprise": "Biashara (Pointi 500+ za I/O)"
     },
     "buttons": {
-      "getProfessionalQuote": "Get Professional Quote",
-      "submitRequest": "Submit Quote Request",
-      "callUrgent": "Call for Urgent Requirements",
-      "emailRequirements": "Email Requirements"
+      "getProfessionalQuote": "Pata Nukuu ya Kitaalamu",
+      "submitRequest": "Wasilisha Ombi la Nukuu",
+      "callUrgent": "Piga Simu kwa Mahitaji ya Dharura",
+      "emailRequirements": "Tuma Mahitaji kwa Barua Pepe"
     },
     "process": {
-      "heading": "What happens next?",
+      "heading": "Nini kinafuata?",
       "steps": {
-        "technicalReview": "Technical review within 24 hours",
-        "detailedProposal": "Detailed proposal with specifications",
-        "costBreakdown": "Cost breakdown and timeline",
-        "followUpCall": "Follow-up consultation call"
+        "technicalReview": "Ukaguzi wa kiufundi ndani ya masaa 24",
+        "detailedProposal": "Pendekezo la kina na maelezo",
+        "costBreakdown": "Uchambuzi wa gharama na muda",
+        "followUpCall": "Simu ya ushauri ya kufuatilia"
       }
     },
     "assistance": {
-      "heading": "Need immediate assistance?",
-      "technicalTeam": "+91-94627-71662 (Technical Team)",
+      "heading": "Unahitaji usaidizi wa haraka?",
+      "technicalTeam": "+91-94627-71662 (Timu ya Ufundi)",
       "email": "info@powertonengineering.com"
     }
   },
   "career": {
     "placeholders": {
-      "fullName": "Enter your full name",
+      "fullName": "Ingiza jina lako kamili",
       "email": "your.email@example.com",
       "phone": "+91 9876543210",
-      "address": "Enter your complete address (House/Flat No., Street, City, State, PIN)",
-      "currentCompany": "Your current company (optional)",
-      "education": "e.g., B.Tech Electrical Engineering",
-      "expectedSalary": "e.g., 5-8 LPA or Negotiable",
-      "skills": "List your technical skills, software knowledge, programming languages, certifications, etc.",
-      "coverLetter": "Tell us about your motivation, career goals, and how you can contribute to our team...",
-      "selectSpecialization": "Select your area of expertise",
-      "selectExperience": "Select experience level",
-      "selectAvailability": "Select your availability"
+      "address": "Ingiza anwani yako kamili (Nyumba/Ghorofa Na., Mtaa, Jiji, Jimbo, PIN)",
+      "currentCompany": "Kampuni yako ya sasa (si lazima)",
+      "education": "mfano, B.Tech Uhandisi wa Umeme",
+      "expectedSalary": "mfano, 5-8 LPA au Inayojadiliwa",
+      "skills": "Orodhesha ujuzi wako wa kiufundi, ujuzi wa programu, lugha za programu, vyeti, n.k.",
+      "coverLetter": "Tuambie kuhusu motisha yako, malengo ya kazi, na jinsi unavyoweza kuchangia timu yetu...",
+      "selectSpecialization": "Chagua eneo lako la utaalamu",
+      "selectExperience": "Chagua kiwango cha uzoefu",
+      "selectAvailability": "Chagua upatikanaji wako"
     },
     "labels": {
-      "title": "Join Our Engineering Team",
-      "subtitle": "Submit your application and become part of our innovative engineering solutions team",
-      "personalInfo": "Personal Information",
-      "professionalInfo": "Professional Information",
-      "fullName": "Full Name",
-      "emailAddress": "Email Address",
-      "phoneNumber": "Phone Number",
-      "residingAddress": "Current Residing Address",
-      "specialization": "Engineering Specialization",
-      "experience": "Experience Level",
-      "currentCompany": "Current Company",
-      "availability": "Availability/Notice Period",
-      "education": "Education/Qualification",
-      "expectedSalary": "Expected Salary",
-      "technicalSkills": "Technical Skills & Expertise",
-      "coverLetter": "Cover Letter & Motivation",
+      "title": "Jiunge na Timu Yetu ya Uhandisi",
+      "subtitle": "Wasilisha maombi yako na uwe sehemu ya timu yetu ya suluhisho za uhandisi za ubunifu",
+      "personalInfo": "Taarifa za Kibinafsi",
+      "professionalInfo": "Taarifa za Kitaalamu",
+      "fullName": "Jina Kamili",
+      "emailAddress": "Anwani ya Barua Pepe",
+      "phoneNumber": "Nambari ya Simu",
+      "residingAddress": "Anwani ya Sasa ya Makazi",
+      "specialization": "Utaalamu wa Uhandisi",
+      "experience": "Kiwango cha Uzoefu",
+      "currentCompany": "Kampuni ya Sasa",
+      "availability": "Upatikanaji/Muda wa Taarifa",
+      "education": "Elimu/Sifa",
+      "expectedSalary": "Mshahara Unaotarajiwa",
+      "technicalSkills": "Ujuzi na Utaalamu wa Kiufundi",
+      "coverLetter": "Barua ya Utangulizi na Motisha",
       "resume": "CV/Resume"
     },
     "buttons": {
-      "submit": "Submit Application",
-      "submitting": "Submitting Application...",
-      "uploadResume": "Upload Resume"
+      "submit": "Wasilisha Maombi",
+      "submitting": "Inawasilisha Maombi...",
+      "uploadResume": "Pakia Resume"
     },
     "validation": {
-      "nameMin": "Name must be at least 2 characters",
-      "emailInvalid": "Please enter a valid email address",
-      "phoneMin": "Phone number must be at least 10 digits",
-      "specializationRequired": "Please select your engineering specialization",
-      "experienceRequired": "Please select your experience level",
-      "educationRequired": "Please provide your education details",
-      "joiningTimeRequired": "Please specify how soon you can join",
-      "skillsMin": "Please provide details about your skills",
-      "coverLetterMin": "Please write a brief cover letter (minimum 20 characters)",
-      "addressMin": "Please provide your complete residing address"
+      "nameMin": "Jina lazima liwe na angalau herufi 2",
+      "emailInvalid": "Tafadhali ingiza anwani halali ya barua pepe",
+      "phoneMin": "Nambari ya simu lazima iwe na angalau tarakimu 10",
+      "specializationRequired": "Tafadhali chagua utaalamu wako wa uhandisi",
+      "experienceRequired": "Tafadhali chagua kiwango chako cha uzoefu",
+      "educationRequired": "Tafadhali toa maelezo yako ya elimu",
+      "joiningTimeRequired": "Tafadhali bainisha ni lini unaweza kujiunga",
+      "skillsMin": "Tafadhali toa maelezo kuhusu ujuzi wako",
+      "coverLetterMin": "Tafadhali andika barua fupi ya utangulizi (angalau herufi 20)",
+      "addressMin": "Tafadhali toa anwani yako kamili ya makazi"
     },
     "specializations": {
-      "electricalEngineering": "Electrical Engineering",
-      "automationControl": "Automation & Control Systems",
-      "instrumentation": "Instrumentation Engineering",
-      "projectManagement": "Project Management",
-      "technicalSales": "Technical Sales",
-      "fieldService": "Field Service & Commissioning",
-      "designEngineering": "Design & Development",
-      "solarRenewable": "Solar & Renewable Energy",
-      "other": "Other Specialization"
+      "electricalEngineering": "Uhandisi wa Umeme",
+      "automationControl": "Automation na Mifumo ya Udhibiti",
+      "instrumentation": "Uhandisi wa Vyombo",
+      "projectManagement": "Usimamizi wa Mradi",
+      "technicalSales": "Mauzo ya Kiufundi",
+      "fieldService": "Huduma ya Shambani na Uagizaji",
+      "designEngineering": "Ubunifu na Maendeleo",
+      "solarRenewable": "Nishati ya Jua na Inayoweza Kurejeshwa",
+      "other": "Utaalamu Mwingine"
     },
     "experience": {
-      "fresher": "Fresher (0-1 years)",
-      "oneToThree": "1-3 years",
-      "threeToFive": "3-5 years",
-      "fiveToEight": "5-8 years",
-      "eightToTwelve": "8-12 years",
-      "twelvePlus": "12+ years"
+      "fresher": "Mhitimu (Miaka 0-1)",
+      "oneToThree": "Miaka 1-3",
+      "threeToFive": "Miaka 3-5",
+      "fiveToEight": "Miaka 5-8",
+      "eightToTwelve": "Miaka 8-12",
+      "twelvePlus": "Miaka 12+"
     },
     "joiningTime": {
-      "immediate": "Can join immediately",
-      "fifteenDays": "15 days notice period",
-      "oneMonth": "1 month notice period",
-      "twoMonths": "2 months notice period",
-      "threeMonths": "3 months notice period",
-      "moreThanThree": "More than 3 months notice"
+      "immediate": "Naweza kujiunga mara moja",
+      "fifteenDays": "Muda wa taarifa wa siku 15",
+      "oneMonth": "Muda wa taarifa wa mwezi 1",
+      "twoMonths": "Muda wa taarifa wa miezi 2",
+      "threeMonths": "Muda wa taarifa wa miezi 3",
+      "moreThanThree": "Muda wa taarifa wa zaidi ya miezi 3"
     },
     "helpers": {
-      "resumeFormat": "Accepted formats: PDF, DOC, DOCX (Max size: 5MB)"
+      "resumeFormat": "Miundo inayokubalika: PDF, DOC, DOCX (Ukubwa wa juu: 5MB)",
+      "changeResume": "Badilisha Resume",
+      "uploadResume": "Pakia Resume"
     },
     "success": {
-      "title": "Application Submitted Successfully!",
-      "description": "Thank you for applying! We will review your application and contact you within 2-3 business days."
+      "title": "Maombi Yamewasilishwa Kwa Mafanikio!",
+      "description": "Asante kwa kuomba! Tutakagua maombi yako na kuwasiliana nawe ndani ya siku 2-3 za kazi."
     },
     "error": {
-      "title": "Application Submission Failed",
-      "description": "Please try again or contact us directly at {{phone}} or {{email}}"
+      "title": "Uwasilishaji wa Maombi Umeshindwa",
+      "description": "Tafadhali chagua faili ndogo kuliko 5MB."
     }
   }
 }

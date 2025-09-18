@@ -2,11 +2,14 @@
   "title": "خدماتنا",
   "subtitle": "حلول هندسة صناعية شاملة",
   "categories": {
-    "automation": "الأتمتة الصناعية",
-    "electrical": "الهندسة الكهربائية",
-    "instrumentation": "الأجهزة والتحكم",
-    "solar": "حلول الطاقة الشمسية",
-    "maintenance": "الصيانة والدعم"
+    "installation-commissioning": "التركيب والتشغيل",
+    "maintenance-repair": "الصيانة والإصلاح",
+    "calibration-testing": "المعايرة والاختبار",
+    "technical-support": "الدعم الفني",
+    "custom-solutions": "حلول مخصصة",
+    "consultation-training": "الاستشارة والتدريب",
+    "supply-chain-management": "إدارة سلسلة التوريد",
+    "solar-epc": "حلول الطاقة الشمسية EPC"
   },
   "items": {
     "installation-commissioning": "التركيب والتشغيل",

@@ -1,21 +1,4 @@
 {
-  "testimonials": {
-    "anand": {
-      "name": "Anand Awasthi",
-      "location": "West Bengal",
-      "comment": "Powerton Engineering made the process of going solar seamless and easy. Their team handled everything from start to finish, and we're thrilled with the results."
-    },
-    "sanjay": {
-      "name": "Sanjay Patil",
-      "location": "Uttar Pradesh",
-      "comment": "I am glad I chose Powerton Engineering for our installation, and I would not hesitate to recommend them to any of my friends."
-    },
-    "rhea": {
-      "name": "Rhea Sharma",
-      "location": "Maharashtra",
-      "comment": "Excellent quality products and outstanding customer service. The technical expertise of the team is impressive and highly professional."
-    }
-  },
   "projects": {
     "thermal-plant": {
       "title": "Thermal Power Plant Automation",

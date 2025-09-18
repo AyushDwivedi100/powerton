@@ -113,7 +113,7 @@
     },
     "projectTypes": {
       "newInstallation": "New Installation",
-      "systemUpgrade": "System Upgrade", 
+      "systemUpgrade": "System Upgrade",
       "retrofit": "Retrofit",
       "maintenance": "Maintenance Contract",
       "consultation": "Technical Consultation",
@@ -310,7 +310,9 @@
       "moreThanThree": "More than 3 months notice"
     },
     "helpers": {
-      "resumeFormat": "Accepted formats: PDF, DOC, DOCX (Max size: 5MB)"
+      "resumeFormat": "Accepted formats: PDF, DOC, DOCX (Max size: 5MB)",
+      "changeResume": "Change Resume",
+      "uploadResume": "Upload Resume"
     },
     "success": {
       "title": "Application Submitted Successfully!",
@@ -318,7 +320,7 @@
     },
     "error": {
       "title": "Application Submission Failed",
-      "description": "Please try again or contact us directly at {{phone}} or {{email}}"
+      "description": "Please select a file smaller than 5MB."
     }
   }
 }
