@@ -29,15 +29,7 @@ A comprehensive business website for Powerton Engineering Pvt. Ltd., specializin
    npm install
    ```
 
-3. **Environment Setup (Optional)**
-   Create a `.env` file in the root directory if you want to use a PostgreSQL database:
-   ```env
-   DATABASE_URL=your_postgresql_connection_string
-   ```
-   
-   If no database is configured, the app will use in-memory storage for development.
-
-4. **Start the development server**
+3. **Start the development server**
    ```bash
    # For local development (recommended)
    npm run dev

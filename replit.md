@@ -95,8 +95,6 @@ The project is a pure frontend-only React application.
 ## External Dependencies
 
 ### Core Framework Dependencies
-- **@neondatabase/serverless** (Not used, but listed as an original dependency - *Note: This was removed per optimization notes in original, but keeping here as it was listed*)
-- **drizzle-orm** (Not used, but listed as an original dependency - *Note: This was removed per optimization notes in original, but keeping here as it was listed*)
 - **@tanstack/react-query** (Not used, but listed as an original dependency - *Note: This was removed per optimization notes in original, but keeping here as it was listed*)
 
 ### UI and Styling
