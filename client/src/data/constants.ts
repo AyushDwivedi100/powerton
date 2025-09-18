@@ -1246,7 +1246,7 @@ export const CLIENT_LOGOS = [
   {
     id: "dls",
     name: "DLS India",
-    logo: "/attached_assets/DLS-Short-Logo_1758191946430.png",
+    logo: "https://dlsenvirotech.com/assets/img/logo.png",
     fallback: corporateClientImage,
   },
   {
@@ -1276,7 +1276,7 @@ export const CLIENT_LOGOS = [
   {
     id: "anand-nv",
     name: "Anand NV",
-    logo: "https://www.anandnvh.com/images/header-logo.png",
+    logo: "https://www.anandnvh.com/images/logo.png",
     fallback: corporateClientImage,
   },
   {
@@ -1288,7 +1288,7 @@ export const CLIENT_LOGOS = [
   {
     id: "mjson",
     name: "MJSON",
-    logo: "https://logo.clearbit.com/mjson.com",
+    logo: "https://www.thecompanycheck.com/Images/default-com-logo.webp",
     fallback: corporateClientImage,
   },
   {
