@@ -5,9 +5,9 @@
 console.log(`🚀 Starting Powerton Engineering Application`);
 console.log(`🌐 Binding to 0.0.0.0:5000 for Replit compatibility`);
 
-import { spawn } from "child_process";
-import { resolve, dirname } from "path";
-import { fileURLToPath } from "url";
+import { spawn } from "node:child_process";
+import { resolve, dirname } from "node:path";
+import { fileURLToPath } from "node:url";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
