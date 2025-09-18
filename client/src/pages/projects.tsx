@@ -557,7 +557,7 @@ export default function Projects() {
                       transition={{ duration: 0.3, ease: "easeOut" }}
                       key={project.id}
                     >
-                      <Card className="bg-card border border-border rounded-lg shadow-sm overflow-hidden hover:shadow-xl cursor-pointer">
+                      <Card className="bg-card border border-border rounded-lg shadow-sm overflow-hidden hover:shadow-xl cursor-pointer group">
                         <div className="aspect-video">
                           <img
                             src={project.image}
@@ -620,7 +620,7 @@ export default function Projects() {
                             </div>
                           </div>
                           <Button
-                            className="mt-4 bg-primary hover:bg-primary/90 text-primary-foreground"
+                            className="text-secondary bg-transparent hover:bg-transparent hover:text-secondary p-0 font-semibold transition-all duration-300 w-full justify-center"
                             size="sm"
                           >
                             {t("common:buttons.learnMore")}
