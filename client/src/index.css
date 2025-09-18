@@ -48,10 +48,10 @@ html {
 /* Reverse infinite scroll animation for RTL languages */
 @keyframes infinite-scroll-rtl {
   0% {
-    transform: translateX(-50%);
+    transform: translateX(0%);
   }
   100% {
-    transform: translateX(0);
+    transform: translateX(50%);
   }
 }
 
