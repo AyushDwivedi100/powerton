@@ -69,7 +69,7 @@ export default function Projects() {
   const [selectedCategory, setSelectedCategory] = useState("All");
   const [selectedStatus, setSelectedStatus] = useState("All");
   const [showFilters, setShowFilters] = useState(false);
-  const [selectedTab, setSelectedTab] = useState("portfolio");
+  const [selectedTab, setSelectedTab] = useState("showcase");
 
   const filteredProjects = PORTFOLIO_PROJECTS.filter((project) => {
     const matchesSearch =
