@@ -83,7 +83,7 @@ const UPCOMING_PROJECTS = [
 ];
 
 export default function News() {
-  const { t } = useTranslation(['common', 'pages']);
+  const { t } = useTranslation(["common", "pages"]);
   const [selectedCategory, setSelectedCategory] = useState("all");
   const [selectedTab, setSelectedTab] = useState("news");
   const heroAnimation = useScrollAnimation();
@@ -92,74 +92,104 @@ export default function News() {
   const LATEST_NEWS = [
     {
       id: 1,
-      title: t('pages:news.latestNews.excellenceAward.title'),
+      title: t("pages:news.latestNews.excellenceAward.title"),
       date: "2024-12-15",
-      category: t('pages:news.latestNews.excellenceAward.category'),
-      excerpt: t('pages:news.latestNews.excellenceAward.excerpt'),
-      image: "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400",
-      tags: [t('common:tags.award'), t('common:tags.recognition'), t('common:tags.automation')],
+      category: t("pages:news.latestNews.excellenceAward.category"),
+      excerpt: t("pages:news.latestNews.excellenceAward.excerpt"),
+      image:
+        "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400",
+      tags: [
+        t("common:tags.award"),
+        t("common:tags.recognition"),
+        t("common:tags.automation"),
+      ],
       featured: true,
     },
     {
       id: 2,
-      title: t('pages:news.latestNews.ntpcContract.title'),
+      title: t("pages:news.latestNews.ntpcContract.title"),
       date: "2024-12-10",
-      category: t('pages:news.latestNews.ntpcContract.category'),
-      excerpt: t('pages:news.latestNews.ntpcContract.excerpt'),
-      image: "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400",
-      tags: [t('common:tags.contract'), t('common:tags.powerPlant'), t('common:tags.ntpc')],
+      category: t("pages:news.latestNews.ntpcContract.category"),
+      excerpt: t("pages:news.latestNews.ntpcContract.excerpt"),
+      image:
+        "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400",
+      tags: [
+        t("common:tags.contract"),
+        t("common:tags.powerPlant"),
+        t("common:tags.ntpc"),
+      ],
       featured: true,
     },
     {
       id: 3,
-      title: t('pages:news.latestNews.renewableExpansion.title'),
+      title: t("pages:news.latestNews.renewableExpansion.title"),
       date: "2024-12-05",
-      category: t('pages:news.latestNews.renewableExpansion.category'),
-      excerpt: t('pages:news.latestNews.renewableExpansion.excerpt'),
-      image: "https://images.unsplash.com/photo-1509391366360-2e959784a276?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400",
-      tags: [t('common:tags.renewableEnergy'), t('common:tags.expansion'), t('common:tags.solar')],
+      category: t("pages:news.latestNews.renewableExpansion.category"),
+      excerpt: t("pages:news.latestNews.renewableExpansion.excerpt"),
+      image:
+        "https://images.unsplash.com/photo-1509391366360-2e959784a276?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400",
+      tags: [
+        t("common:tags.renewableEnergy"),
+        t("common:tags.expansion"),
+        t("common:tags.solar"),
+      ],
       featured: false,
     },
     {
       id: 4,
-      title: t('pages:news.latestNews.rdFacility.title'),
+      title: t("pages:news.latestNews.rdFacility.title"),
       date: "2024-11-28",
-      category: t('pages:news.latestNews.rdFacility.category'),
-      excerpt: t('pages:news.latestNews.rdFacility.excerpt'),
-      image: "https://images.unsplash.com/photo-1581094794329-c8112a89af12?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400",
-      tags: [t('common:tags.rd'), t('common:tags.infrastructure'), t('common:tags.innovation')],
+      category: t("pages:news.latestNews.rdFacility.category"),
+      excerpt: t("pages:news.latestNews.rdFacility.excerpt"),
+      image:
+        "https://images.unsplash.com/photo-1581094794329-c8112a89af12?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400",
+      tags: [
+        t("common:tags.rd"),
+        t("common:tags.infrastructure"),
+        t("common:tags.innovation"),
+      ],
       featured: false,
     },
     {
       id: 5,
-      title: t('pages:news.latestNews.europeanPartnership.title'),
+      title: t("pages:news.latestNews.europeanPartnership.title"),
       date: "2024-11-20",
-      category: t('pages:news.latestNews.europeanPartnership.category'),
-      excerpt: t('pages:news.latestNews.europeanPartnership.excerpt'),
-      image: "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400",
-      tags: [t('common:tags.partnership'), t('common:tags.technology'), t('common:tags.europe')],
+      category: t("pages:news.latestNews.europeanPartnership.category"),
+      excerpt: t("pages:news.latestNews.europeanPartnership.excerpt"),
+      image:
+        "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400",
+      tags: [
+        t("common:tags.partnership"),
+        t("common:tags.technology"),
+        t("common:tags.europe"),
+      ],
       featured: false,
     },
     {
       id: 6,
-      title: t('pages:news.latestNews.isoAchievement.title'),
+      title: t("pages:news.latestNews.isoAchievement.title"),
       date: "2024-11-15",
-      category: t('pages:news.latestNews.isoAchievement.category'),
-      excerpt: t('pages:news.latestNews.isoAchievement.excerpt'),
-      image: "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400",
-      tags: [t('common:tags.iso'), t('common:tags.quality'), t('common:tags.certification')],
+      category: t("pages:news.latestNews.isoAchievement.category"),
+      excerpt: t("pages:news.latestNews.isoAchievement.excerpt"),
+      image:
+        "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400",
+      tags: [
+        t("common:tags.iso"),
+        t("common:tags.quality"),
+        t("common:tags.certification"),
+      ],
       featured: false,
     },
   ];
 
   const categories = [
     "all",
-    t('pages:news.latestNews.excellenceAward.category'),
-    t('pages:news.latestNews.ntpcContract.category'),
-    t('pages:news.latestNews.renewableExpansion.category'),
-    t('pages:news.latestNews.rdFacility.category'),
-    t('pages:news.latestNews.europeanPartnership.category'),
-    t('pages:news.latestNews.isoAchievement.category'),
+    t("pages:news.latestNews.excellenceAward.category"),
+    t("pages:news.latestNews.ntpcContract.category"),
+    t("pages:news.latestNews.renewableExpansion.category"),
+    t("pages:news.latestNews.rdFacility.category"),
+    t("pages:news.latestNews.europeanPartnership.category"),
+    t("pages:news.latestNews.isoAchievement.category"),
   ];
 
   const filteredNews =
@@ -243,23 +273,32 @@ export default function News() {
         <div className="relative max-w-7xl mx-auto px-4 md:px-6 lg:px-8 text-white">
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4 sm:mb-6">
-              {t('pages:news.hero.title')} & <span className="text-secondary">{t('pages:news.hero.titleHighlight')}</span>
+              {t("pages:news.hero.title")} &{" "}
+              <span className="text-secondary">
+                {t("pages:news.hero.titleHighlight")}
+              </span>
             </h1>
             <p className="text-base md:text-lg opacity-90 mb-8">
-              {t('pages:news.hero.subtitle')}
+              {t("pages:news.hero.subtitle")}
             </p>
             <div className="flex flex-wrap justify-center gap-4 mb-8">
               <div className="flex items-center bg-muted/50 backdrop-blur-sm rounded-lg px-4 py-2">
                 <Award className="w-5 h-5 mr-2 text-secondary" />
-                <span className="text-sm">{t('pages:news.hero.badges.awardWinning')}</span>
+                <span className="text-sm">
+                  {t("pages:news.hero.badges.awardWinning")}
+                </span>
               </div>
               <div className="flex items-center bg-muted/50 backdrop-blur-sm rounded-lg px-4 py-2">
                 <TrendingUp className="w-5 h-5 mr-2 text-secondary" />
-                <span className="text-sm">{t('pages:news.hero.badges.growingStrong')}</span>
+                <span className="text-sm">
+                  {t("pages:news.hero.badges.growingStrong")}
+                </span>
               </div>
               <div className="flex items-center bg-muted/50 backdrop-blur-sm rounded-lg px-4 py-2">
                 <Rocket className="w-5 h-5 mr-2 text-secondary" />
-                <span className="text-sm">{t('pages:news.hero.badges.futureReady')}</span>
+                <span className="text-sm">
+                  {t("pages:news.hero.badges.futureReady")}
+                </span>
               </div>
             </div>
           </div>
@@ -274,14 +313,14 @@ export default function News() {
             onValueChange={setSelectedTab}
             className="w-full"
           >
-            <TabsList className="grid w-full grid-cols-4 max-w-2xl mx-auto mb-12">
+            <TabsList className="grid w-full grid-cols-2 max-w-2xl mx-auto mb-12">
               <TabsTrigger value="news" className="flex items-center gap-2">
                 <Newspaper className="w-4 h-4" />
-                {t('pages:news.tabs.latestNews')}
+                {t("pages:news.tabs.latestNews")}
               </TabsTrigger>
               <TabsTrigger value="projects" className="flex items-center gap-2">
                 <Rocket className="w-4 h-4" />
-                {t('pages:news.tabs.upcomingProjects')}
+                {t("pages:news.tabs.upcomingProjects")}
               </TabsTrigger>
             </TabsList>
 
@@ -289,7 +328,7 @@ export default function News() {
               {/* Featured News */}
               <div>
                 <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-8">
-                  {t('pages:news.sections.featuredNews')}
+                  {t("pages:news.sections.featuredNews")}
                 </h2>
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
                   {featuredNews.map((item) => (
@@ -299,56 +338,56 @@ export default function News() {
                       transition={{ duration: 0.3, ease: "easeOut" }}
                     >
                       <Card className="bg-card border border-border rounded-lg shadow-sm overflow-hidden cursor-pointer">
-                      <div className="aspect-video">
-                        <img
-                          src={item.image}
-                          alt={`ID-850: ${item.title}`}
-                          className="w-full h-full object-cover"
-                        />
-                      </div>
-                      <CardContent className="p-6">
-                        <div className="flex items-center gap-2 mb-3">
-                          <Badge className={getCategoryColor(item.category)}>
-                            {item.category}
-                          </Badge>
-                          <div className="flex items-center text-sm text-muted-foreground">
-                            <Calendar className="w-4 h-4 mr-1" />
-                            {formatDate(item.date)}
-                          </div>
+                        <div className="aspect-video">
+                          <img
+                            src={item.image}
+                            alt={`ID-850: ${item.title}`}
+                            className="w-full h-full object-cover"
+                          />
                         </div>
-                        <h3 className="text-xl md:text-2xl font-semibold text-foreground mb-3">
-                          {item.title}
-                        </h3>
-                        <p className="text-muted-foreground mb-4">
-                          {item.excerpt}
-                        </p>
-                        <div className="flex flex-wrap gap-2 mb-4">
-                          {item.tags.map((tag) => (
-                            <Badge
-                              key={tag}
-                              variant="outline"
-                              className="text-xs"
-                            >
-                              {tag}
+                        <CardContent className="p-6">
+                          <div className="flex items-center gap-2 mb-3">
+                            <Badge className={getCategoryColor(item.category)}>
+                              {item.category}
                             </Badge>
-                          ))}
-                        </div>
-                        <a
-                          href={`/news/${item.title
-                            .toLowerCase()
-                            .replace(/[^a-z0-9]+/g, "-")
-                            .replace(/^-|-$/g, "")}`}
-                        >
-                          <Button
-                            variant="outline"
-                            size="sm"
-                            className="border-2 border-primary text-primary hover:bg-primary hover:text-primary-foreground"
+                            <div className="flex items-center text-sm text-muted-foreground">
+                              <Calendar className="w-4 h-4 mr-1" />
+                              {formatDate(item.date)}
+                            </div>
+                          </div>
+                          <h3 className="text-xl md:text-2xl font-semibold text-foreground mb-3">
+                            {item.title}
+                          </h3>
+                          <p className="text-muted-foreground mb-4">
+                            {item.excerpt}
+                          </p>
+                          <div className="flex flex-wrap gap-2 mb-4">
+                            {item.tags.map((tag) => (
+                              <Badge
+                                key={tag}
+                                variant="outline"
+                                className="text-xs"
+                              >
+                                {tag}
+                              </Badge>
+                            ))}
+                          </div>
+                          <a
+                            href={`/news/${item.title
+                              .toLowerCase()
+                              .replace(/[^a-z0-9]+/g, "-")
+                              .replace(/^-|-$/g, "")}`}
                           >
-                            {t('common:buttons.readMore')}
-                            <ArrowRight className="w-4 h-4 ml-2" />
-                          </Button>
-                        </a>
-                      </CardContent>
+                            <Button
+                              variant="outline"
+                              size="sm"
+                              className="border-2 border-primary text-primary hover:bg-primary hover:text-primary-foreground"
+                            >
+                              {t("common:buttons.readMore")}
+                              <ArrowRight className="w-4 h-4 ml-2" />
+                            </Button>
+                          </a>
+                        </CardContent>
                       </Card>
                     </motion.div>
                   ))}
@@ -358,7 +397,7 @@ export default function News() {
               {/* Category Filter */}
               <div>
                 <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-8">
-                  {t('pages:news.sections.allNews')}
+                  {t("pages:news.sections.allNews")}
                 </h2>
                 <div className="flex flex-wrap gap-2 mb-8">
                   {categories.map((category) => (
@@ -375,7 +414,9 @@ export default function News() {
                           : "border-2 border-primary text-primary hover:bg-primary hover:text-primary-foreground"
                       }
                     >
-                      {category === "all" ? t('pages:news.sections.allCategories') : category}
+                      {category === "all"
+                        ? t("pages:news.sections.allCategories")
+                        : category}
                     </Button>
                   ))}
                 </div>
@@ -389,48 +430,48 @@ export default function News() {
                       animate={{ opacity: 1, y: 0 }}
                       transition={{ duration: 0.5 }}
                     >
-                    <Card
-                      key={item.id}
-                      className="bg-card border border-border rounded-lg shadow-sm hover:shadow-md hover:scale-[1.02] transition-all duration-300 overflow-hidden"
-                    >
-                      <div className="aspect-video">
-                        <img
-                          src={item.image}
-                          alt={`ID-${860 + item.id}: ${item.title}`}
-                          className="w-full h-full object-cover"
-                        />
-                      </div>
-                      <CardContent className="p-4">
-                        <div className="flex items-center gap-2 mb-2">
-                          <Badge className={getCategoryColor(item.category)}>
-                            {item.category}
-                          </Badge>
-                          <div className="flex items-center text-xs text-muted-foreground">
-                            <Calendar className="w-3 h-3 mr-1" />
-                            {formatDate(item.date)}
-                          </div>
+                      <Card
+                        key={item.id}
+                        className="bg-card border border-border rounded-lg shadow-sm hover:shadow-md hover:scale-[1.02] transition-all duration-300 overflow-hidden"
+                      >
+                        <div className="aspect-video">
+                          <img
+                            src={item.image}
+                            alt={`ID-${860 + item.id}: ${item.title}`}
+                            className="w-full h-full object-cover"
+                          />
                         </div>
-                        <h3 className="text-lg font-semibold text-foreground mb-2 line-clamp-2">
-                          {item.title}
-                        </h3>
-                        <p className="text-sm text-muted-foreground mb-3 line-clamp-2">
-                          {item.excerpt}
-                        </p>
-                        <a
-                          href={`/news/${item.title
-                            .toLowerCase()
-                            .replace(/[^a-z0-9]+/g, "-")
-                            .replace(/^-|-$/g, "")}`}
-                        >
-                          <Button
-                            variant="outline"
-                            size="sm"
-                            className="w-full border-2 border-primary text-primary hover:bg-primary hover:text-primary-foreground"
+                        <CardContent className="p-4">
+                          <div className="flex items-center gap-2 mb-2">
+                            <Badge className={getCategoryColor(item.category)}>
+                              {item.category}
+                            </Badge>
+                            <div className="flex items-center text-xs text-muted-foreground">
+                              <Calendar className="w-3 h-3 mr-1" />
+                              {formatDate(item.date)}
+                            </div>
+                          </div>
+                          <h3 className="text-lg font-semibold text-foreground mb-2 line-clamp-2">
+                            {item.title}
+                          </h3>
+                          <p className="text-sm text-muted-foreground mb-3 line-clamp-2">
+                            {item.excerpt}
+                          </p>
+                          <a
+                            href={`/news/${item.title
+                              .toLowerCase()
+                              .replace(/[^a-z0-9]+/g, "-")
+                              .replace(/^-|-$/g, "")}`}
                           >
-                            {t('common:buttons.readMore')}
-                          </Button>
-                        </a>
-                      </CardContent>
+                            <Button
+                              variant="outline"
+                              size="sm"
+                              className="w-full border-2 border-primary text-primary hover:bg-primary hover:text-primary-foreground"
+                            >
+                              {t("common:buttons.readMore")}
+                            </Button>
+                          </a>
+                        </CardContent>
                       </Card>
                     </motion.div>
                   ))}
@@ -441,7 +482,7 @@ export default function News() {
             <TabsContent value="projects" className="space-y-8">
               <div>
                 <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-8">
-                  {t('pages:news.sections.upcomingProjects')}
+                  {t("pages:news.sections.upcomingProjects")}
                 </h2>
                 <p className="text-xl text-muted-foreground mb-8">
                   Exciting projects on the horizon that demonstrate our
@@ -456,51 +497,51 @@ export default function News() {
                       animate={{ opacity: 1, y: 0 }}
                       transition={{ duration: 0.5 }}
                     >
-                    <Card
-                      key={project.id}
-                      className="bg-card border border-border rounded-lg shadow-sm"
-                    >
-                      <CardHeader className="p-6">
-                        <div className="flex items-start justify-between mb-2">
-                          <CardTitle className="text-xl md:text-2xl font-semibold text-foreground">
-                            {project.title}
-                          </CardTitle>
-                          <Badge className={getStatusColor(project.status)}>
-                            {project.status}
-                          </Badge>
-                        </div>
-                        <div className="flex items-center gap-4 text-sm text-muted-foreground">
-                          <div className="flex items-center gap-1">
-                            <Building className="w-4 h-4" />
-                            <span>{project.client}</span>
-                          </div>
-                          <div className="flex items-center gap-1">
-                            <Calendar className="w-4 h-4" />
-                            <span>{project.timeline}</span>
-                          </div>
-                        </div>
-                      </CardHeader>
-                      <CardContent className="p-6 pt-0">
-                        <p className="text-muted-foreground mb-4">
-                          {project.description}
-                        </p>
-                        <div className="flex items-center justify-between mb-4">
-                          <span className="text-2xl font-bold text-secondary">
-                            {project.value}
-                          </span>
-                        </div>
-                        <div className="flex flex-wrap gap-2">
-                          {project.technologies.map((tech) => (
-                            <Badge
-                              key={tech}
-                              variant="outline"
-                              className="text-xs"
-                            >
-                              {tech}
+                      <Card
+                        key={project.id}
+                        className="bg-card border border-border rounded-lg shadow-sm"
+                      >
+                        <CardHeader className="p-6">
+                          <div className="flex items-start justify-between mb-2">
+                            <CardTitle className="text-xl md:text-2xl font-semibold text-foreground">
+                              {project.title}
+                            </CardTitle>
+                            <Badge className={getStatusColor(project.status)}>
+                              {project.status}
                             </Badge>
-                          ))}
-                        </div>
-                      </CardContent>
+                          </div>
+                          <div className="flex items-center gap-4 text-sm text-muted-foreground">
+                            <div className="flex items-center gap-1">
+                              <Building className="w-4 h-4" />
+                              <span>{project.client}</span>
+                            </div>
+                            <div className="flex items-center gap-1">
+                              <Calendar className="w-4 h-4" />
+                              <span>{project.timeline}</span>
+                            </div>
+                          </div>
+                        </CardHeader>
+                        <CardContent className="p-6 pt-0">
+                          <p className="text-muted-foreground mb-4">
+                            {project.description}
+                          </p>
+                          <div className="flex items-center justify-between mb-4">
+                            <span className="text-2xl font-bold text-secondary">
+                              {project.value}
+                            </span>
+                          </div>
+                          <div className="flex flex-wrap gap-2">
+                            {project.technologies.map((tech) => (
+                              <Badge
+                                key={tech}
+                                variant="outline"
+                                className="text-xs"
+                              >
+                                {tech}
+                              </Badge>
+                            ))}
+                          </div>
+                        </CardContent>
                       </Card>
                     </motion.div>
                   ))}
@@ -515,17 +556,15 @@ export default function News() {
       <section className="py-12 md:py-16 lg:py-20 bg-primary text-white">
         <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8 text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
-            Be Part of Our Journey
+            {t("pages:news.cta.title")}
           </h2>
           <p className="text-white md:text-lg mb-8 max-w-2xl mx-auto opacity-90">
-            Join us as we continue to innovate and lead in industrial
-            automation. Connect with us for partnerships, career opportunities,
-            or project collaborations.
+            {t("pages:news.cta.description")}
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact">
               <Button className="bg-secondary hover:bg-secondary/90 text-secondary-foreground px-6 py-3 rounded-lg font-semibold transition-colors">
-                {t('common:buttons.contactUs')}
+                {t("common:buttons.contactUs")}
               </Button>
             </Link>
             <Link href="/projects">
@@ -533,7 +572,7 @@ export default function News() {
                 variant="outline"
                 className="border-2 border-border text-foreground hover:bg-foreground hover:text-background px-6 py-3 rounded-lg font-semibold transition-all"
               >
-                View Our Projects
+                {t("common:buttons.viewProjects")}
               </Button>
             </Link>
           </div>

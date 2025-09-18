@@ -84,6 +84,7 @@
     "IEEE": "IEEE（电气和电子工程师协会）"
   },
   "buttons": {
+    "viewProjects": "查看我们的项目",
     "downloadPortfolio": "下载作品集",
     "showFilters": "显示过滤器",
     "hideFilters": "隐藏过滤器",
@@ -127,7 +128,6 @@
   "messages": {
     "toggleTheme": "切换主题",
     "close": "关闭",
-    "engineeringAdvisor": "工程顾问",
     "comingSoon": "即将推出",
     "catalogComingSoon": "产品目录即将推出！"
   },
@@ -316,7 +316,6 @@
     "selectIndustryFilter": "选择行业",
     "selectCategory": "选择类别",
     "selectStatus": "选择状态",
-    "askChatbot": "问我关于产品、服务或技术支持...",
     "yourFullName": "您的全名",
     "yourEmail": "您的@公司.com",
     "yourPhone": "+91-XXXXX-XXXXX",
@@ -438,12 +437,12 @@
     "companyLogo": "Powerton Engineering Pvt. Ltd. - 工业自动化和电气工程公司标志"
   },
   "sitemap": {
+    "title": "站点地图",
+    "description": "Powerton Engineering 网站结构和导航的完整指南。",
     "sections": {
       "mainPages": "主要页面",
-      "servicesProjects": "服务与项目",
-      "productCategories": "产品类别",
-      "resourcesTools": "资源与工具",
-      "legalInformation": "法律信息"
+      "servicesProjects": "服务",
+      "productCategories": "产品类别"
     },
     "categories": {
       "automationControl": "自动化控制系统",

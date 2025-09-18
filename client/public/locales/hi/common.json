@@ -84,6 +84,7 @@
     "IEEE": "IEEE (विद्युत और इलेक्ट्रॉनिक्स इंजीनियर संस्थान)"
   },
   "buttons": {
+    "viewProjects": "हमारी परियोजनाओं को देखें",
     "downloadPortfolio": "पोर्टफोलियो डाउनलोड करें",
     "showFilters": "फ़िल्टर दिखाएँ",
     "hideFilters": "फ़िल्टर छिपाएँ",
@@ -127,7 +128,6 @@
   "messages": {
     "toggleTheme": "थीम बदलें",
     "close": "बंद करें",
-    "engineeringAdvisor": "इंजीनियरिंग सलाहकार",
     "comingSoon": "जल्द आ रहा है",
     "catalogComingSoon": "उत्पाद कैटलॉग डाउनलोड जल्द ही उपलब्ध होगा!"
   },
@@ -316,7 +316,6 @@
     "selectIndustryFilter": "उद्योग का चयन करें",
     "selectCategory": "श्रेणी का चयन करें",
     "selectStatus": "स्थिति का चयन करें",
-    "askChatbot": "मुझसे उत्पादों, सेवाओं या तकनीकी सहायता के बारे में पूछें...",
     "yourFullName": "आपका पूरा नाम",
     "yourEmail": "you@company.com",
     "yourPhone": "+91-XXXXX-XXXXX",
@@ -438,12 +437,12 @@
     "companyLogo": "Powerton Engineering Pvt. Ltd. - औद्योगिक स्वचालन और विद्युत इंजीनियरिंग कंपनी लोगो"
   },
   "sitemap": {
+    "title": "साइटमैप",
+    "description": "पावरटन इंजीनियरिंग साइट की संरचना और नेविगेशन के लिए एक पूर्ण गाइड।",
     "sections": {
       "mainPages": "मुख्य पृष्ठ",
-      "servicesProjects": "सेवाएँ और परियोजनाएँ",
-      "productCategories": "उत्पाद श्रेणियाँ",
-      "resourcesTools": "संसाधन और उपकरण",
-      "legalInformation": "कानूनी जानकारी"
+      "servicesProjects": "सेवाएँ",
+      "productCategories": "उत्पाद श्रेणियाँ"
     },
     "categories": {
       "automationControl": "स्वचालन और नियंत्रण प्रणालियाँ",

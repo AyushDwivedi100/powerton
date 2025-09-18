@@ -84,6 +84,7 @@
     "IEEE": "IEEE (معهد مهندسي الكهرباء والإلكترونيات)"
   },
   "buttons": {
+    "viewProjects": "عرض مشاريعنا",
     "downloadPortfolio": "تحميل المحفظة",
     "showFilters": "إظهار عوامل التصفية",
     "hideFilters": "إخفاء عوامل التصفية",
@@ -127,7 +128,6 @@
   "messages": {
     "toggleTheme": "تبديل المظهر",
     "close": "إغلاق",
-    "engineeringAdvisor": "مستشار هندسي",
     "comingSoon": "قريبا",
     "catalogComingSoon": "سيكون تنزيل كتالوج المنتج متاحًا قريبًا!"
   },
@@ -316,7 +316,6 @@
     "selectIndustryFilter": "اختر فلتر الصناعة",
     "selectCategory": "اختر الفئة",
     "selectStatus": "اختر الحالة",
-    "askChatbot": "اسألني عن المنتجات أو الخدمات أو الدعم الفني...",
     "yourFullName": "اسمك الكامل",
     "yourEmail": "naku@kamfani.com",
     "yourPhone": "+91-XXXXX-XXXXX",
@@ -438,12 +437,12 @@
     "companyLogo": "Powerton Engineering Pvt. Ltd. - شعار شركة التحكم الصناعي والهندسة الكهربائية"
   },
   "sitemap": {
+    "title": "خريطة الموقع",
+    "description": "دليل كامل لهيكل موقع Powerton Engineering والتنقل فيه.",
     "sections": {
       "mainPages": "الصفحات الرئيسية",
-      "servicesProjects": "الخدمات والمشاريع",
-      "productCategories": "فئات المنتجات",
-      "resourcesTools": "الموارد والأدوات",
-      "legalInformation": "معلومات قانونية"
+      "servicesProjects": "الخدمات",
+      "productCategories": "فئات المنتجات"
     },
     "categories": {
       "automationControl": "الأتمتة والتحكم",

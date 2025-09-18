@@ -65,6 +65,7 @@
       "location": "Тамилнад",
       "comment": "Powerton Engineering сдержала все свои обещания. Измерительное оборудование, которое они установили, отлично работает уже более двух лет. Их послепродажная поддержка отличная, и они всегда отвечают."
     }
+  },
   "technicalTerms": {
     "BLDC": "BLDC (Бесщеточные двигатели постоянного тока)",
     "PLC": "PLC (Программируемый логический контроллер)",
@@ -83,6 +84,7 @@
     "IEEE": "IEEE (Институт инженеров электротехники и электроники)"
   },
   "buttons": {
+    "viewProjects": "Посмотреть наши проекты",
     "downloadPortfolio": "Скачать портфолио",
     "showFilters": "Показать фильтры",
     "hideFilters": "Скрыть фильтры",
@@ -126,7 +128,6 @@
   "messages": {
     "toggleTheme": "Изменить тему",
     "close": "Закрыть",
-    "engineeringAdvisor": "Инженерный консультант",
     "comingSoon": "Скоро",
     "catalogComingSoon": "Скачать каталог продукции скоро будет возможно!"
   },
@@ -315,7 +316,6 @@
     "selectIndustryFilter": "Выберите отрасль",
     "selectCategory": "Выберите категорию",
     "selectStatus": "Выберите статус",
-    "askChatbot": "Спросите меня о продуктах, услугах или технической поддержке...",
     "yourFullName": "Ваше полное имя",
     "yourEmail": "ваше@компания.com",
     "yourPhone": "+91-XXXXX-XXXXX",
@@ -437,12 +437,12 @@
     "companyLogo": "Powerton Engineering Pvt. Ltd. - Логотип компании по автоматизации промышленности и электротехнике"
   },
   "sitemap": {
+    "title": "Карта сайта",
+    "description": "Полное руководство по структуре сайта Powerton Engineering и навигации по нему.",
     "sections": {
       "mainPages": "Главные страницы",
-      "servicesProjects": "Услуги и проекты",
-      "productCategories": "Категории продуктов",
-      "resourcesTools": "Ресурсы и инструменты",
-      "legalInformation": "Юридическая информация"
+      "servicesProjects": "Услуги",
+      "productCategories": "Категории продуктов"
     },
     "categories": {
       "automationControl": "Системы автоматизации и управления",

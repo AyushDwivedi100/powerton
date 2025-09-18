@@ -199,7 +199,11 @@
     "contactSearch": "Je suis heureux de vous aider à entrer en contact avec notre équipe ! Voici les meilleures façons de nous joindre :"
   },
   "messages": {
+    "engineeringAdvisor": "Conseiller en ingénierie",
     "mainMenu": "Bienvenue au menu principal ! Je suis ici pour vous aider avec tous vos besoins en automatisation industrielle. Que vous recherchiez des produits, des services, un support technique ou des informations sur l'entreprise, je vous guiderai vers la bonne solution. Que puis-je faire pour vous aider ?",
     "helpAssist": "Je suis ici pour vous aider à chaque étape du processus ! Que vous ayez besoin de conseils sur la sélection des produits, de spécifications techniques, de support de service ou que vous souhaitiez simplement en savoir plus sur notre entreprise, je suis à votre service. Avec quoi aimeriez-vous de l'aide ?"
+  },
+  "placeholders": {
+    "askChatbot": "Posez-moi des questions sur les produits, les services ou le support technique..."
   }
 }
