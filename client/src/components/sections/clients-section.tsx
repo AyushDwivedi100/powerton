@@ -260,7 +260,7 @@ export default function ClientsSection() {
           </div>
 
           {/* Pagination Dots */}
-          <div className="flex justify-center mt-8 space-x-2">
+          <div className={`flex justify-center mt-8 gap-2 ${isRTL ? 'space-x-reverse' : ''}`}>
             {testimonials.map((_, index) => (
               <button
                 key={index}
