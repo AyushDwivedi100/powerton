@@ -252,7 +252,7 @@ export default function Footer() {
           </div>
 
           <div className="border-t border-slate-700 dark:border-slate-800 pt-8">
-            <div className="flex flex-col md:flex-row justify-center md:justify-between items-center">
+            <div className="flex flex-col md:flex-row justify-center md:justify-evenly items-center">
               <p className="text-slate-400 text-sm mb-4 md:mb-0">
                 {t(
                   "navigation:footer.copyright",
