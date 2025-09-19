@@ -93,6 +93,18 @@ const ProductBLDCCeilingFan = lazy(() => import("@/pages/products-sub-category/b
 const ProductBLDCSubmersibleSurfacePump = lazy(() => import("@/pages/products-sub-category/bldc-submersible-surface-pump"));
 const ProductBLDCTableFanWallFanMotor = lazy(() => import("@/pages/products-sub-category/bldc-table-fan-wall-fan-motor"));
 
+// Lazy load individual product detail pages
+const BLDCVentilationSystem = lazy(() => import("@/pages/products/bldc-ventilation-system"));
+const CommunicationCables = lazy(() => import("@/pages/products/communication-cables"));
+const IndustrialConnectors = lazy(() => import("@/pages/products/industrial-connectors"));
+const IndustrialFuses = lazy(() => import("@/pages/products/industrial-fuses"));
+const IndustrialTerminalBlocks = lazy(() => import("@/pages/products/industrial-terminal-blocks"));
+const InstrumentationCables = lazy(() => import("@/pages/products/instrumentation-cables"));
+const MCBMiniatureCircuitBreakers = lazy(() => import("@/pages/products/mcb-miniature-circuit-breakers"));
+const MCCBMoldedCaseCircuitBreakers = lazy(() => import("@/pages/products/mccb-molded-case-circuit-breakers"));
+const PowerDistributionCables = lazy(() => import("@/pages/products/power-distribution-cables"));
+const SignalConnectors = lazy(() => import("@/pages/products/signal-connectors"));
+
 // Loading component for Suspense fallback
 const LoadingSpinner = () => {
   const { t } = useTranslation('common');
@@ -184,6 +196,19 @@ function Router() {
         <Route path="/products/bldc-ceiling-fan" component={ProductBLDCCeilingFan} />
         <Route path="/products/bldc-submersible-surface-pump" component={ProductBLDCSubmersibleSurfacePump} />
         <Route path="/products/bldc-table-fan-wall-fan-motor" component={ProductBLDCTableFanWallFanMotor} />
+        
+        {/* Individual Product Detail Pages */}
+        <Route path="/products/bldc-ventilation-system" component={BLDCVentilationSystem} />
+        <Route path="/products/communication-cables" component={CommunicationCables} />
+        <Route path="/products/industrial-connectors" component={IndustrialConnectors} />
+        <Route path="/products/industrial-fuses" component={IndustrialFuses} />
+        <Route path="/products/industrial-terminal-blocks" component={IndustrialTerminalBlocks} />
+        <Route path="/products/instrumentation-cables" component={InstrumentationCables} />
+        <Route path="/products/mcb-miniature-circuit-breakers" component={MCBMiniatureCircuitBreakers} />
+        <Route path="/products/mccb-molded-case-circuit-breakers" component={MCCBMoldedCaseCircuitBreakers} />
+        <Route path="/products/power-distribution-cables" component={PowerDistributionCables} />
+        <Route path="/products/signal-connectors" component={SignalConnectors} />
+        
         <Route path="/projects" component={Projects} />
         <Route path="/gallery" component={Gallery} />
 
