@@ -70,95 +70,95 @@ const MAIN_ROUTES: SitemapItem[] = [
     path: "/",
     title: "home",
     description: "homeDescription",
-    icon: "Home"
   },
   {
     path: "/about",
     title: "aboutUs",
     description: "aboutUsDescription",
-    icon: "User"
   },
-  {
-    path: "/contact",
-    title: "contact",
-    description: "contactDescription",
-    icon: "Mail"
-  },
-  {
-    path: "/gallery",
-    title: "gallery",
-    description: "galleryDescription",
-    icon: "Camera"
-  },
-  {
-    path: "/career",
-    title: "career",
-    description: "careerDescription",
-    icon: "Briefcase"
-  }
-];
-
-const SERVICE_ROUTES: SitemapItem[] = [
   {
     path: "/services",
-    title: "ourServices",
-    description: "ourServicesDescription",
-    icon: "Settings"
+    title: "services",
+    description: "servicesDescription",
   },
   {
-    path: "/services-category/installation-commissioning",
-    title: "installationCommissioning",
-    description: "installationCommissioningDescription",
-    icon: "Wrench"
-  },
-  {
-    path: "/services-category/maintenance-repair",
-    title: "maintenanceRepair",
-    description: "maintenanceRepairDescription",
-    icon: "Wrench"
-  },
-  {
-    path: "/services-category/calibration-testing",
-    title: "calibrationTesting",
-    description: "calibrationTestingDescription",
-    icon: "Gauge"
-  },
-  {
-    path: "/services-category/consultation-training",
-    title: "consultationTraining",
-    description: "consultationTrainingDescription",
-    icon: "User"
-  },
-  {
-    path: "/services-category/custom-solutions",
-    title: "customSolutions",
-    description: "customSolutionsDescription",
-    icon: "Settings"
-  },
-  {
-    path: "/services-category/supply-chain-management",
-    title: "supplyChainManagement",
-    description: "supplyChainManagementDescription",
-    icon: "Truck"
-  },
-  {
-    path: "/services-category/technical-support",
-    title: "technicalSupport",
-    description: "technicalSupportDescription",
-    icon: "Shield"
-  },
-  {
-    path: "/services-category/solar-epc",
-    title: "solarEPC",
-    description: "solarEPCDescription",
-    icon: "Sun"
+    path: "/products",
+    title: "products",
+    description: "productsDescription",
   },
   {
     path: "/projects",
     title: "projects",
     description: "projectsDescription",
-    icon: "Briefcase"
-  }
+  },
+  {
+    path: "/gallery",
+    title: "gallery",
+    description: "galleryDescription",
+  },
+  {
+    path: "/news",
+    title: "news",
+    description: "newsDescription",
+  },
+  {
+    path: "/career",
+    title: "career",
+    description: "careerDescription",
+  },
+  {
+    path: "/contact",
+    title: "contact",
+    description: "contactDescription",
+  },
+  {
+    path: "/getquote",
+    title: "getquote",
+    description: "getquoteDescription",
+  },
+];
+
+const SERVICE_ROUTES: SitemapItem[] = [
+  {
+    path: "/services-category/installation-commissioning",
+    title: "installationCommissioning",
+    description: "installationCommissioningDescription",
+  },
+  {
+    path: "/services-category/maintenance-repair",
+    title: "maintenanceRepair",
+    description: "maintenanceRepairDescription",
+  },
+  {
+    path: "/services-category/calibration-testing",
+    title: "calibrationTesting",
+    description: "calibrationTestingDescription",
+  },
+  {
+    path: "/services-category/technical-support",
+    title: "technicalSupport",
+    description: "technicalSupportDescription",
+  },
+  {
+    path: "/services-category/custom-solutions",
+    title: "customSolutions",
+    description: "customSolutionsDescription",
+  },
+  {
+    path: "/services-category/consultation-training",
+    title: "consultationTraining",
+    description: "consultationTrainingDescription",
+  },
+  {
+    path: "/services-category/supply-chain-management",
+    title: "supplyChainManagement",
+    description: "supplyChainManagementDescription",
+  },
+  {
+    path: "/services-category/solar-epc",
+    title: "solarEPC",
+    description: "solarEPCDescription",
+  },
 ];
 
 const PRODUCT_CATEGORIES: ProductCategory[] = [
@@ -172,45 +172,45 @@ const PRODUCT_CATEGORIES: ProductCategory[] = [
         path: "/products/sensors",
         title: "sensors",
         description: "sensorsDescription",
-        icon: "Thermometer"
+        icon: "Thermometer",
       },
       {
         path: "/products/transmitters",
         title: "transmitters",
         description: "transmittersDescription",
-        icon: "Radio"
+        icon: "Radio",
       },
       {
         path: "/products/controllers",
         title: "controllers",
         description: "controllersDescription",
-        icon: "Cpu"
+        icon: "Cpu",
       },
       {
         path: "/products/switches",
         title: "switches",
         description: "switchesDescription",
-        icon: "ToggleLeft"
+        icon: "ToggleLeft",
       },
       {
         path: "/products/valves",
         title: "valves",
         description: "valvesDescription",
-        icon: "Gauge"
+        icon: "Gauge",
       },
       {
         path: "/products/analyzers",
         title: "analyzers",
         description: "analyzersDescription",
-        icon: "FlaskConical"
+        icon: "FlaskConical",
       },
       {
         path: "/products/signal-conditioners",
         title: "signalConditioners",
         description: "signalConditionersDescription",
-        icon: "Zap"
-      }
-    ]
+        icon: "Zap",
+      },
+    ],
   },
   {
     path: "/products/electrical-components",
@@ -222,51 +222,51 @@ const PRODUCT_CATEGORIES: ProductCategory[] = [
         path: "/products/cables-wires",
         title: "cablesWires",
         description: "cablesWiresDescription",
-        icon: "Cable"
+        icon: "Cable",
       },
       {
         path: "/products/connectors-terminals",
         title: "connectorsTerminals",
         description: "connectorsTerminalsDescription",
-        icon: "Zap"
+        icon: "Zap",
       },
       {
         path: "/products/circuit-breakers-fuses",
         title: "circuitBreakersFuses",
         description: "circuitBreakersFusesDescription",
-        icon: "Shield"
+        icon: "Shield",
       },
       {
         path: "/products/power-supplies",
         title: "powerSupplies",
         description: "powerSuppliesDescription",
-        icon: "Power"
+        icon: "Power",
       },
       {
         path: "/products/enclosures-cabinets",
         title: "enclosuresCabinets",
         description: "enclosuresCabinetsDescription",
-        icon: "Shield"
+        icon: "Shield",
       },
       {
         path: "/products/heating-elements-appliances",
         title: "heatingElementsAppliances",
         description: "heatingElementsAppliancesDescription",
-        icon: "Zap"
+        icon: "Zap",
       },
       {
         path: "/products/surge-protectors",
         title: "surgeProtectors",
         description: "surgeProtectorsDescription",
-        icon: "Zap"
+        icon: "Zap",
       },
       {
         path: "/products/grounding-systems",
         title: "groundingSystems",
         description: "groundingSystemsDescription",
-        icon: "Zap"
-      }
-    ]
+        icon: "Zap",
+      },
+    ],
   },
   {
     path: "/products/measurement-instruments",
@@ -278,33 +278,33 @@ const PRODUCT_CATEGORIES: ProductCategory[] = [
         path: "/products/multimeters",
         title: "multimeters",
         description: "multimetersDescription",
-        icon: "Zap"
+        icon: "Zap",
       },
       {
         path: "/products/oscilloscopes",
         title: "oscilloscopes",
         description: "oscilloscopesDescription",
-        icon: "BarChart3"
+        icon: "BarChart3",
       },
       {
         path: "/products/spectrum-analyzers",
         title: "spectrumAnalyzers",
         description: "spectrumAnalyzersDescription",
-        icon: "Search"
+        icon: "Search",
       },
       {
         path: "/products/power-quality-analyzers",
         title: "powerQualityAnalyzers",
         description: "powerQualityAnalyzersDescription",
-        icon: "Activity"
+        icon: "Activity",
       },
       {
         path: "/products/calibration-equipment",
         title: "calibrationEquipment",
         description: "calibrationEquipmentDescription",
-        icon: "Settings"
-      }
-    ]
+        icon: "Settings",
+      },
+    ],
   },
   {
     path: "/products/solar-products",
@@ -316,33 +316,33 @@ const PRODUCT_CATEGORIES: ProductCategory[] = [
         path: "/products/solar-panels",
         title: "solarPanels",
         description: "solarPanelsDescription",
-        icon: "Sun"
+        icon: "Sun",
       },
       {
         path: "/products/solar-inverters",
         title: "solarInverters",
         description: "solarInvertersDescription",
-        icon: "Zap"
+        icon: "Zap",
       },
       {
         path: "/products/solar-charge-controllers",
         title: "solarChargeControllers",
         description: "solarChargeControllersDescription",
-        icon: "Battery"
+        icon: "Battery",
       },
       {
         path: "/products/solar-batteries-energy-storage",
         title: "solarBatteriesEnergyStorage",
         description: "solarBatteriesEnergyStorageDescription",
-        icon: "Battery"
+        icon: "Battery",
       },
       {
         path: "/products/mounting-structures-racking",
         title: "mountingStructuresRacking",
         description: "mountingStructuresRackingDescription",
-        icon: "Building2"
-      }
-    ]
+        icon: "Building2",
+      },
+    ],
   },
   {
     path: "/products/automation-control-systems",
@@ -354,27 +354,27 @@ const PRODUCT_CATEGORIES: ProductCategory[] = [
         path: "/products/plcs",
         title: "plcs",
         description: "plcsDescription",
-        icon: "Cpu"
+        icon: "Cpu",
       },
       {
         path: "/products/scada",
         title: "scada",
         description: "scadaDescription",
-        icon: "Monitor"
+        icon: "Monitor",
       },
       {
         path: "/products/dcs",
         title: "dcs",
         description: "dcsDescription",
-        icon: "Network"
+        icon: "Network",
       },
       {
         path: "/products/hmi",
         title: "hmi",
         description: "hmiDescription",
-        icon: "Monitor"
-      }
-    ]
+        icon: "Monitor",
+      },
+    ],
   },
   {
     path: "/products/safety-protective-devices",
@@ -386,21 +386,21 @@ const PRODUCT_CATEGORIES: ProductCategory[] = [
         path: "/products/safety-equipment",
         title: "safetyEquipment",
         description: "safetyEquipmentDescription",
-        icon: "Shield"
+        icon: "Shield",
       },
       {
         path: "/products/safety-relays-switches",
         title: "safetyRelaysSwitches",
         description: "safetyRelaysSwitchesDescription",
-        icon: "ToggleLeft"
+        icon: "ToggleLeft",
       },
       {
         path: "/products/intrinsically-safe-equipment",
         title: "intrinsicallySafeEquipment",
         description: "intrinsicallySafeEquipmentDescription",
-        icon: "ShieldCheck"
-      }
-    ]
+        icon: "ShieldCheck",
+      },
+    ],
   },
   {
     path: "/products/mechanical-pumps-spares",
@@ -412,27 +412,27 @@ const PRODUCT_CATEGORIES: ProductCategory[] = [
         path: "/products/centrifugal-pumps",
         title: "centrifugalPumps",
         description: "centrifugalPumpsDescription",
-        icon: "Truck"
+        icon: "Truck",
       },
       {
         path: "/products/diaphragm-pumps",
         title: "diaphragmPumps",
         description: "diaphragmPumpsDescription",
-        icon: "Truck"
+        icon: "Truck",
       },
       {
         path: "/products/gear-pumps",
         title: "gearPumps",
         description: "gearPumpsDescription",
-        icon: "Cog"
+        icon: "Cog",
       },
       {
         path: "/products/pump-parts-spares",
         title: "pumpPartsSpares",
         description: "pumpPartsSparesDescription",
-        icon: "Wrench"
-      }
-    ]
+        icon: "Wrench",
+      },
+    ],
   },
   {
     path: "/products/industrial-tools-tackles",
@@ -444,27 +444,27 @@ const PRODUCT_CATEGORIES: ProductCategory[] = [
         path: "/products/hand-tools",
         title: "handTools",
         description: "handToolsDescription",
-        icon: "Hammer"
+        icon: "Hammer",
       },
       {
         path: "/products/power-tools",
         title: "powerTools",
         description: "powerToolsDescription",
-        icon: "Drill"
+        icon: "Drill",
       },
       {
         path: "/products/cutting-tools",
         title: "cuttingTools",
         description: "cuttingToolsDescription",
-        icon: "Scissors"
+        icon: "Scissors",
       },
       {
         path: "/products/lifting-equipment",
         title: "liftingEquipment",
         description: "liftingEquipmentDescription",
-        icon: "Move"
-      }
-    ]
+        icon: "Move",
+      },
+    ],
   },
   {
     path: "/products/bldc",
@@ -476,28 +476,28 @@ const PRODUCT_CATEGORIES: ProductCategory[] = [
         path: "/products/bldc-ceiling-fan",
         title: "bldcCeilingFan",
         description: "bldcCeilingFanDescription",
-        icon: "Fan"
+        icon: "Fan",
       },
       {
         path: "/products/bldc-cooler-exhaust-motor",
         title: "bldcCoolerExhaustMotor",
         description: "bldcCoolerExhaustMotorDescription",
-        icon: "Wind"
+        icon: "Wind",
       },
       {
         path: "/products/bldc-submersible-surface-pump",
         title: "bldcSubmersibleSurfacePump",
         description: "bldcSubmersibleSurfacePumpDescription",
-        icon: "Droplets"
+        icon: "Droplets",
       },
       {
         path: "/products/bldc-table-fan-wall-fan-motor",
         title: "bldcTableFanWallFanMotor",
         description: "bldcTableFanWallFanMotorDescription",
-        icon: "Fan"
-      }
-    ]
-  }
+        icon: "Fan",
+      },
+    ],
+  },
 ];
 
 const RESOURCES_ROUTES: SitemapItem[] = [
@@ -505,20 +505,20 @@ const RESOURCES_ROUTES: SitemapItem[] = [
     path: "/quote",
     title: "requestQuote",
     description: "requestQuoteDescription",
-    icon: "Calculator"
+    icon: "Calculator",
   },
   {
     path: "/portfolio-download",
     title: "downloadPortfolio",
     description: "downloadPortfolioDescription",
-    icon: "Download"
+    icon: "Download",
   },
   {
     path: "/news",
     title: "newsUpdates",
     description: "newsUpdatesDescription",
-    icon: "Newspaper"
-  }
+    icon: "Newspaper",
+  },
 ];
 
 const LEGAL_ROUTES: SitemapItem[] = [
@@ -526,8 +526,8 @@ const LEGAL_ROUTES: SitemapItem[] = [
     path: "/sitemap",
     title: "sitemap",
     description: "sitemapDescription",
-    icon: "MapPin"
-  }
+    icon: "MapPin",
+  },
 ];
 
 // Icon mapping for static routing
@@ -595,19 +595,16 @@ export default function Sitemap() {
     products: {
       section: t("sitemap.sections.productCategories", { ns: "common" }),
       icon: <Package className="w-5 h-5 text-primary" />,
-      routes: [{ path: "/products", title: "allProducts", description: "allProductsDescription", icon: "Package" }],
+      routes: [
+        {
+          path: "/products",
+          title: "allProducts",
+          description: "allProductsDescription",
+          icon: "Package",
+        },
+      ],
       categories: PRODUCT_CATEGORIES,
-    },
-    resources: {
-      section: t("sitemap.sections.resourcesTools", { ns: "common" }),
-      icon: <Calculator className="w-5 h-5 text-primary" />,
-      routes: RESOURCES_ROUTES,
-    },
-    legal: {
-      section: t("sitemap.sections.legalInformation", { ns: "common" }),
-      icon: <FileText className="w-5 h-5 text-primary" />,
-      routes: LEGAL_ROUTES,
-    },
+    }
   };
 
   const getIcon = (iconName: string, className: string = "w-4 h-4") => {
@@ -628,13 +625,11 @@ export default function Sitemap() {
             <h3 className="font-semibold text-foreground group-hover:text-primary transition-colors mb-1">
               {t(`sitemap.pages.${route.title}`, {
                 ns: "common",
-                defaultValue: route.title,
               })}
             </h3>
             <p className="text-sm text-muted-foreground">
               {t(`sitemap.descriptions.${route.description}`, {
                 ns: "common",
-                defaultValue: route.description,
               })}
             </p>
           </div>
@@ -701,24 +696,24 @@ export default function Sitemap() {
   return (
     <>
       <SEO
-        title={t('sitemap.seoTitle', { ns: 'common' })}
-        description={t('sitemap.seoDescription', { ns: 'common' })}
+        title={t("sitemap.seoTitle", { ns: "common" })}
+        description={t("sitemap.seoDescription", { ns: "common" })}
         keywords="sitemap, website navigation, powerton engineering, industrial automation, electrical engineering, products, services, projects, site structure"
         canonicalUrl="https://powertonengineering.in/sitemap"
         structuredData={{
           "@context": "https://schema.org",
           "@type": "WebPage",
-          name: t('sitemap.seoTitle', { ns: 'common' }),
-          description: t('sitemap.seoDescription', { ns: 'common' }),
+          name: t("sitemap.seoTitle", { ns: "common" }),
+          description: t("sitemap.seoDescription", { ns: "common" }),
           publisher: {
             "@type": "Organization",
-            name: t('company.name', { ns: 'common' }),
+            name: t("company.name", { ns: "common" }),
             url: "https://powertonengineering.in",
           },
           mainEntity: {
             "@type": "SiteNavigationElement",
-            name: t('sitemap.seoTitle', { ns: 'common' }),
-            description: t('sitemap.seoDescription', { ns: 'common' }),
+            name: t("sitemap.seoTitle", { ns: "common" }),
+            description: t("sitemap.seoDescription", { ns: "common" }),
           },
         }}
       />
@@ -732,10 +727,10 @@ export default function Sitemap() {
                 <MapPin className="w-8 h-8 text-primary" />
               </div>
               <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-4">
-                {t('sitemap.title', { ns: 'common' })}
+                {t("sitemap.title", { ns: "common" })}
               </h1>
               <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-                {t('sitemap.subtitle', { ns: 'common' })}
+                {t("sitemap.description", { ns: "common" })}
               </p>
             </div>
 
@@ -789,23 +784,10 @@ export default function Sitemap() {
                   </h3>
                   <div className="flex flex-col gap-6">
                     {siteStructure.products.categories.map(
-                      (category, categoryIndex) => 
-                        renderProductCategory(category, categoryIndex)
+                      (category, categoryIndex) =>
+                        renderProductCategory(category, categoryIndex),
                     )}
                   </div>
-                </div>
-              </div>
-
-              {/* Resources */}
-              <div className="bg-card border border-border rounded-lg p-6 shadow-sm">
-                <div className="flex items-center gap-3 mb-6">
-                  {siteStructure.resources.icon}
-                  <h2 className="text-xl md:text-2xl font-semibold text-foreground">
-                    {siteStructure.resources.section}
-                  </h2>
-                </div>
-                <div className="flex flex-col gap-4">
-                  {siteStructure.resources.routes.map(renderRoute)}
                 </div>
               </div>
             </div>

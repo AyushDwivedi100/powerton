@@ -199,7 +199,11 @@
     "contactSearch": "Ina farin cikin taimaka muku tuntuɓar ƙungiyarmu! Ga mafi kyawun hanyoyin da za ku iya isa gare mu:"
   },
   "messages": {
+    "engineeringAdvisor": "Mai Ba da Shawara na Injiniya",
     "mainMenu": "Barka da dawowa babban menu! Ina nan don taimaka muku da duk wata buƙatar sarrafa masana'antu. Ko kuna neman kayayyaki, ayyuka, tallafin fasaha, ko bayanin kamfani, zan jagorance ku zuwa madaidaicin bayani. Da me zan iya taimaka muku?",
     "helpAssist": "Ina nan don taimaka muku a kowane mataki na hanya! Ko kuna buƙatar jagorar zaɓin samfur, ƙayyadaddun fasaha, tallafin sabis, ko kuma kawai kuna son ƙarin koyo game da kamfaninmu, ina nan don yi muku hidima. Da menene kuke son taimako?"
+  },
+  "placeholders": {
+    "askChatbot": "Tambaye ni game da kayayyaki, ayyuka, ko tallafin fasaha..."
   }
 }

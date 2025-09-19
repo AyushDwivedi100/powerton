@@ -84,6 +84,7 @@
     "IEEE": "IEEE (Kungiyar Injiniyoyin Lantarki da Na'urorin Lantarki)"
   },
   "buttons": {
+    "viewProjects": "Duba Ayyukanmu",
     "downloadPortfolio": "Sauke Portfolio",
     "showFilters": "Nuna Tacewa",
     "hideFilters": "Ɓoye Tacewa",
@@ -127,7 +128,6 @@
   "messages": {
     "toggleTheme": "Canza Jigo",
     "close": "Rufe",
-    "engineeringAdvisor": "Mai Ba da Shawara na Injiniya",
     "comingSoon": "Nan Gaba Kadan",
     "catalogComingSoon": "Sauke katalogi na samfur zai kasance da sauri!"
   },
@@ -316,7 +316,6 @@
     "selectIndustryFilter": "Zaɓi masana'anta",
     "selectCategory": "Zaɓi rukuni",
     "selectStatus": "Zaɓi matsayi",
-    "askChatbot": "Tambaye ni game da kayayyaki, ayyuka ko taimakon fasaha...",
     "yourFullName": "Cikakken sunanku",
     "yourEmail": "naku@kamfani.com",
     "yourPhone": "+91-XXXXX-XXXXX",
@@ -438,12 +437,12 @@
     "companyLogo": "Powerton Engineering Pvt. Ltd. - Alamar Kamfanin Sarrafa Masana'antu & Injiniyan Lantarki"
   },
   "sitemap": {
+    "title": "Taswira Shafin",
+    "description": "Cikakken bayanai game da tsarin shafin da kewayawan shafin Powerton Engineering.",
     "sections": {
       "mainPages": "Manyan shafuka",
-      "servicesProjects": "Ayyuka da ayyuka",
+      "servicesProjects": "Ayyuka",
       "productCategories": "Rukkunan kayayyaki",
-      "resourcesTools": "Albarkatu da kayan aiki",
-      "legalInformation": "Bayanan doka"
     },
     "categories": {
       "automationControl": "Tsarin sarrafa ta atomatik da sarrafawa",

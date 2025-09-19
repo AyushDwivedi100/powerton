@@ -84,6 +84,7 @@
     "IEEE": "IEEE (Instituto de Ingenieros Eléctricos y Electrónicos)"
   },
   "buttons": {
+    "viewProjects": "Ver Nuestros Proyectos",
     "downloadPortfolio": "Descargar Portafolio",
     "showFilters": "Mostrar Filtros",
     "hideFilters": "Ocultar Filtros",
@@ -127,7 +128,6 @@
   "messages": {
     "toggleTheme": "Cambiar tema",
     "close": "Cerrar",
-    "engineeringAdvisor": "Asesor de Ingeniería",
     "comingSoon": "Próximamente",
     "catalogComingSoon": "¡La descarga del catálogo de productos estará disponible pronto!"
   },
@@ -316,7 +316,6 @@
     "selectIndustryFilter": "Seleccionar industria",
     "selectCategory": "Seleccionar categoría",
     "selectStatus": "Seleccionar estado",
-    "askChatbot": "Pregúntame sobre productos, servicios o soporte técnico...",
     "yourFullName": "Su nombre completo",
     "yourEmail": "sucorreo@empresa.com",
     "yourPhone": "+91-XXXXX-XXXXX",
@@ -438,12 +437,12 @@
     "companyLogo": "Powerton Engineering Pvt. Ltd. - Logotipo de la empresa de automatización industrial e ingeniería eléctrica"
   },
   "sitemap": {
+    "title": "Mapa del sitio",
+    "description": "Guía completa de la estructura y navegación del sitio web de Powerton Engineering.",
     "sections": {
       "mainPages": "Páginas principales",
-      "servicesProjects": "Servicios y proyectos",
-      "productCategories": "Categorías de productos",
-      "resourcesTools": "Recursos y herramientas",
-      "legalInformation": "Información legal"
+      "servicesProjects": "Servicios",
+      "productCategories": "Categorías de productos"
     },
     "categories": {
       "automationControl": "Sistemas de automatización y control",

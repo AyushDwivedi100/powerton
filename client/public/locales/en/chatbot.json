@@ -1,6 +1,5 @@
 {
   "chatbot": {
-    "welcome": "Welcome to Powerton Engineering! How can I help you today?",
     "welcomeMessage": "Welcome to Powerton Engineering! How can I help you today?",
     "typeMessage": "Type your message...",
     "sendMessage": "Send message",
@@ -199,7 +198,11 @@
     "contactSearch": "I'm happy to help you get in touch with our team! Here are the best ways to reach us:"
   },
   "messages": {
+    "engineeringAdvisor": "Engineering Advisor",
     "mainMenu": "Welcome back to the main menu! I'm here to help you with any industrial automation needs. Whether you're looking for products, services, technical support, or company information, I'll guide you to the right solution. What can I help you with?",
     "helpAssist": "I'm here to help you every step of the way! Whether you need product selection guidance, technical specifications, service support, or just want to learn more about our company, I'm at your service. What would you like assistance with?"
+  },
+  "placeholders": {
+    "askChatbot": "Ask me about products, services, or technical support..."
   }
 }

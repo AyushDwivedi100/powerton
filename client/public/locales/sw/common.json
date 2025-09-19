@@ -84,6 +84,7 @@
     "IEEE": "IEEE (Taasisi ya Wahandisi wa Umeme na Elektroniki)"
   },
   "buttons": {
+    "viewProjects": "Angalia Miradi Yetu",
     "downloadPortfolio": "Pakua Portfolio",
     "showFilters": "Onyesha Vichujio",
     "hideFilters": "Ficha Vichujio",
@@ -127,7 +128,6 @@
   "messages": {
     "toggleTheme": "Badili Mandhari",
     "close": "Funga",
-    "engineeringAdvisor": "Mshauri wa Uhandisi",
     "comingSoon": "Inakuja Hivi Karibuni",
     "catalogComingSoon": "Upakuaji wa katalogi ya bidhaa utapatikana hivi karibuni!"
   },
@@ -316,7 +316,6 @@
     "selectIndustryFilter": "Chagua kichujio cha sekta",
     "selectCategory": "Chagua kitengo",
     "selectStatus": "Chagua hali",
-    "askChatbot": "Niulize kuhusu bidhaa, huduma au usaidizi wa kiufundi...",
     "yourFullName": "Jina lako kamili",
     "yourEmail": "wako@kampuni.com",
     "yourPhone": "+91-XXXXX-XXXXX",
@@ -438,12 +437,12 @@
     "companyLogo": "Powerton Engineering Pvt. Ltd. - Nembo ya Kampuni ya Uendeshaji wa Viwanda na Uhandisi wa Umeme"
   },
   "sitemap": {
+    "title": "Ramani ya Tovuti",
+    "description": "Mwongozo kamili wa muundo wa tovuti ya Powerton Engineering na urambazaji wake.",
     "sections": {
       "mainPages": "Kurasa kuu",
-      "servicesProjects": "Huduma na miradi",
-      "productCategories": "Kategoria za bidhaa",
-      "resourcesTools": "Rasilimali na zana",
-      "legalInformation": "Habari za kisheria"
+      "servicesProjects": "Huduma",
+      "productCategories": "Kategoria za bidhaa"
     },
     "categories": {
       "automationControl": "Mifumo ya udhibiti na uendeshaji otomatiki",

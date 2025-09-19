@@ -199,7 +199,11 @@
     "contactSearch": "Nina furaha kukusaidia kuwasiliana na timu yetu! Hizi ndizo njia bora za kuwasiliana nasi:"
   },
   "messages": {
+    "engineeringAdvisor": "Mshauri wa Uhandisi",
     "mainMenu": "Karibu tena kwenye menyu kuu! Niko hapa kukusaidia na mahitaji yoyote ya otomatiki ya viwandani. Ikiwa unatafuta bidhaa, huduma, msaada wa kiufundi, au maelezo ya kampuni, nitakuongoza kwenye suluhisho sahihi. Naweza kukusaidia na nini?",
     "helpAssist": "Niko hapa kukusaidia kila hatua! Ikiwa unahitaji mwongozo wa uteuzi wa bidhaa, maelezo ya kiufundi, msaada wa huduma, au unataka tu kujifunza zaidi kuhusu kampuni yetu, niko tayari kukusaidia. Ungependa usaidizi gani?"
+  },
+  "placeholders": {
+    "askChatbot": "Niulize kuhusu bidhaa, huduma au usaidizi wa kiufundi..."
   }
 }
