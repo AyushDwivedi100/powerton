@@ -87,6 +87,32 @@ image: getProductImageSrc('connectors-terminals')
                       </li>
                     ))}
                   </ul>
+                  <div className="mt-4 pt-4 border-t border-border">
+                    {index === 0 && (
+                      <Link href="/products/industrial-terminal-blocks">
+                        <Button variant="outline" size="sm" className="w-full">
+                          View Details
+                          <ArrowLeft className="ml-2 h-4 w-4 rotate-180" />
+                        </Button>
+                      </Link>
+                    )}
+                    {index === 1 && (
+                      <Link href="/products/industrial-connectors">
+                        <Button variant="outline" size="sm" className="w-full">
+                          View Details
+                          <ArrowLeft className="ml-2 h-4 w-4 rotate-180" />
+                        </Button>
+                      </Link>
+                    )}
+                    {index === 2 && (
+                      <Link href="/products/signal-connectors">
+                        <Button variant="outline" size="sm" className="w-full">
+                          View Details
+                          <ArrowLeft className="ml-2 h-4 w-4 rotate-180" />
+                        </Button>
+                      </Link>
+                    )}
+                  </div>
                 </div>
               </CardContent>
             </Card>

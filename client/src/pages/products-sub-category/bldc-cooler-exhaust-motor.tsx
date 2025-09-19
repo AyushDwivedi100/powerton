@@ -88,6 +88,16 @@ const BLDCCoolerExhaustMotorPage = () => {
                       </li>
                     ))}
                   </ul>
+                  <div className="mt-4 pt-4 border-t border-border">
+                    {index === 2 && (
+                      <Link href="/products/bldc-ventilation-system">
+                        <Button variant="outline" size="sm" className="w-full">
+                          View Details
+                          <ArrowLeft className="ml-2 h-4 w-4 rotate-180" />
+                        </Button>
+                      </Link>
+                    )}
+                  </div>
                 </div>
               </CardContent>
             </Card>
