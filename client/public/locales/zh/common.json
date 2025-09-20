@@ -129,7 +129,9 @@
     "toggleTheme": "切换主题",
     "close": "关闭",
     "comingSoon": "即将推出",
-    "catalogComingSoon": "产品目录即将推出！"
+    "catalogComingSoon": "产品目录即将推出！",
+    "readyToStart": "准备好开始您的项目了吗？",
+    "requestConsultation": "请求免费工程项目咨询"
   },
   "aria": {
     "toggleNavigation": "切换导航",
@@ -221,7 +223,9 @@
     "industryApplications": "行业应用",
     "relatedServices": "相关服务",
     "quickFacts": "快速事实",
-    "technologiesAndMethods": "技术与方法"
+    "technologiesAndMethods": "技术与方法",
+    "keyBenefits": "主要好处",
+    "servicesOverview": "服务概述"
   },
   "company": {
     "name": "Powerton Engineering Pvt. Ltd.",
@@ -301,7 +305,9 @@
     "mondayToSaturday": "周一至周六",
     "workingHours": "上午9:00 - 下午6:00",
     "sunday": "周日",
-    "emergencySupport": "仅紧急支持"
+    "emergencySupport": "仅紧急支持",
+    "availability": "可用性",
+    "coverage": "覆盖范围"
   },
   "placeholders": {
     "selectProjectType": "选择项目类型",

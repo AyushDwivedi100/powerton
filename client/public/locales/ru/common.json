@@ -129,7 +129,9 @@
     "toggleTheme": "Изменить тему",
     "close": "Закрыть",
     "comingSoon": "Скоро",
-    "catalogComingSoon": "Скачать каталог продукции скоро будет возможно!"
+    "catalogComingSoon": "Скачать каталог продукции скоро будет возможно!",
+    "readyToStart": "Готовы начать свой проект?",
+    "requestConsultation": "Запросить бесплатную консультацию по инженерному проекту"
   },
   "aria": {
     "toggleNavigation": "Переключить панель навигации",
@@ -221,7 +223,9 @@
     "industryApplications": "Применение в промышленности",
     "relatedServices": "Связанные услуги",
     "quickFacts": "Краткие факты",
-    "technologiesAndMethods": "Технологии и методы"
+    "technologiesAndMethods": "Технологии и методы",
+    "keyBenefits": "Основные преимущества",
+    "servicesOverview": "Обзор услуг"
   },
   "company": {
     "name": "Powerton Engineering Pvt. Ltd.",
@@ -301,7 +305,9 @@
     "mondayToSaturday": "Понедельник - Суббота",
     "workingHours": "9:00 - 18:00",
     "sunday": "Воскресенье",
-    "emergencySupport": "Только экстренная поддержка"
+    "emergencySupport": "Только экстренная поддержка",
+    "availability": "Доступность",
+    "coverage": "Охват"
   },
   "placeholders": {
     "selectProjectType": "Выберите тип проекта",

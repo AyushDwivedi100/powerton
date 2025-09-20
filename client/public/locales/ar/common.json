@@ -129,7 +129,9 @@
     "toggleTheme": "تبديل المظهر",
     "close": "إغلاق",
     "comingSoon": "قريبا",
-    "catalogComingSoon": "سيكون تنزيل كتالوج المنتج متاحًا قريبًا!"
+    "catalogComingSoon": "سيكون تنزيل كتالوج المنتج متاحًا قريبًا!",
+    "readyToStart": "هل أنت على استعداد لبدء مشروعك؟",
+    "requestConsultation": "اطلب استشارة هندسية مجانية"
   },
   "aria": {
     "toggleNavigation": "تبديل مساعد التنقل",
@@ -221,7 +223,9 @@
     "industryApplications": "تطبيقات الصناعة",
     "relatedServices": "الخدمات ذات الصلة",
     "quickFacts": "حقائق سريعة",
-    "technologiesAndMethods": "التقنيات والأساليب"
+    "technologiesAndMethods": "التقنيات والأساليب",
+    "keyBenefits": "الفوائد الرئيسية",
+    "servicesOverview": "نظرة عامة على الخدمات"
   },
   "company": {
     "name": "Powerton Engineering Pvt. Ltd.",
@@ -301,7 +305,9 @@
     "mondayToSaturday": "الاثنين - السبت",
     "workingHours": "9:00 صباحًا - 6:00 مساءً",
     "sunday": "الأحد",
-    "emergencySupport": "دعم الطوارئ فقط"
+    "emergencySupport": "دعم الطوارئ فقط",
+    "availability": "التوافر",
+    "coverage": "التغطية"
   },
   "placeholders": {
     "selectProjectType": "اختر نوع المشروع",

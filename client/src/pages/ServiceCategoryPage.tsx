@@ -4,12 +4,18 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { SERVICES } from "@/data/constants";
-import { getServiceBySlug, SERVICES_CATEGORY_PAGES } from "@/data/services-category-pages";
-import { AnimatedSection, useScrollAnimations } from "@/hooks/use-scroll-animation";
-import { 
-  Gauge, 
-  Wrench, 
-  Shield, 
+import {
+  getServiceBySlug,
+  SERVICES_CATEGORY_PAGES,
+} from "@/data/services-category-pages";
+import {
+  AnimatedSection,
+  useScrollAnimations,
+} from "@/hooks/use-scroll-animation";
+import {
+  Gauge,
+  Wrench,
+  Shield,
   Settings,
   CheckCircle,
   ArrowRight,
@@ -18,47 +24,55 @@ import {
   Award,
   Truck,
   Sun,
-  Hammer
+  Hammer,
 } from "lucide-react";
 import { Link, useParams } from "wouter";
-import { getServiceHeroImage } from '@/assets/images';
+import { getServiceHeroImage } from "@/assets/images";
 import { useTranslation } from "react-i18next";
 
 const iconMap = {
-  "tools": Hammer,
-  "wrench": Wrench,
-  "gauge": Gauge,
-  "users": Users,
-  "cog": Settings,
-  "truck": Truck,
-  "shield": Shield,
-  "sun": Sun
+  tools: Hammer,
+  wrench: Wrench,
+  gauge: Gauge,
+  users: Users,
+  cog: Settings,
+  truck: Truck,
+  shield: Shield,
+  sun: Sun,
 };
 
 export default function ServiceCategoryPage() {
   useScrollAnimations();
-  const { t } = useTranslation(['pages', 'common', 'services']);
+  const { t } = useTranslation(["pages", "common", "services"]);
   const params = useParams();
   const slug = params.slug as string;
 
   // Get service data from our new data file
   const serviceData = getServiceBySlug(slug);
-  
+
   // Also get the basic service info from constants for backward compatibility
-  const service = SERVICES.find(s => s.id === slug);
+  const service = SERVICES.find((s) => s.id === slug);
 
   // Handle 404 case
   if (!serviceData || !service) {
     return (
       <>
-        <SEO 
+        <SEO
           title="Service Not Found - Powerton Engineering Services"
           description="The requested service page could not be found."
         />
-        <div className="min-h-screen bg-background flex items-center justify-center" role="main" id="main-content">
+        <div
+          className="min-h-screen bg-background flex items-center justify-center"
+          role="main"
+          id="main-content"
+        >
           <div className="text-center">
-            <h1 className="text-4xl font-bold text-foreground mb-4">Service Not Found</h1>
-            <p className="text-muted-foreground mb-8">The service you're looking for doesn't exist.</p>
+            <h1 className="text-4xl font-bold text-foreground mb-4">
+              Service Not Found
+            </h1>
+            <p className="text-muted-foreground mb-8">
+              The service you're looking for doesn't exist.
+            </p>
             <Link href="/services">
               <Button>
                 View All Services <ArrowRight className="ml-2 h-5 w-5" />
@@ -70,26 +84,27 @@ export default function ServiceCategoryPage() {
     );
   }
 
-  const IconComponent = iconMap[serviceData.icon as keyof typeof iconMap] || Settings;
+  const IconComponent =
+    iconMap[serviceData.icon as keyof typeof iconMap] || Settings;
 
   return (
     <>
-      <SEO 
+      <SEO
         title={`${serviceData.title} - Powerton Engineering Services`}
         description={serviceData.description}
       />
-      
+
       <div className="min-h-screen bg-background" role="main" id="main-content">
         {/* Hero Section */}
         <section className="relative py-12 md:py-16 lg:py-20 overflow-hidden">
-          <div 
-            className="absolute inset-0 bg-cover bg-center bg-no-repeat" 
-            style={{ 
+          <div
+            className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+            style={{
               backgroundImage: `url(${getServiceHeroImage(serviceData.id as any)?.src})`,
             }}
           ></div>
           <div className="absolute inset-0 bg-black/60"></div>
-          
+
           <div className="relative z-10">
             <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8 text-center text-white">
               <AnimatedSection animation="fadeInUp" delay={0.1} duration={0.8}>
@@ -97,14 +112,19 @@ export default function ServiceCategoryPage() {
                   <IconComponent className="w-10 h-10" />
                 </div>
                 <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
-                  {serviceData.title}
+                  {t(serviceData.title)}
                 </h1>
                 <p className="text-xl md:text-2xl mb-8 max-w-3xl mx-auto">
-                  {serviceData.description}
+                  {t(serviceData.description)}
                 </p>
                 <Link href="/quote">
-                  <Button size="lg" className="bg-secondary hover:bg-secondary/90 text-white" data-testid="button-get-quote">
-                    {t('common:buttons.getQuote')} <ArrowRight className="ml-2 h-5 w-5" />
+                  <Button
+                    size="lg"
+                    className="bg-secondary hover:bg-secondary/90 text-white"
+                    data-testid="button-get-quote"
+                  >
+                    {t("common:buttons.getQuote")}{" "}
+                    <ArrowRight className="ml-2 h-5 w-5" />
                   </Button>
                 </Link>
               </AnimatedSection>
@@ -123,12 +143,15 @@ export default function ServiceCategoryPage() {
                     <CardHeader>
                       <CardTitle className="flex items-center gap-3">
                         <IconComponent className="w-6 h-6 text-primary" />
-                        Service Overview
+                        {t("common:headings.servicesOverview")}
                       </CardTitle>
                     </CardHeader>
                     <CardContent>
-                      <p className="text-muted-foreground leading-relaxed" data-testid="text-overview">
-                        {serviceData.details.overview}
+                      <p
+                        className="text-muted-foreground leading-relaxed"
+                        data-testid="text-overview"
+                      >
+                        {t(serviceData.details.overview)}
                       </p>
                     </CardContent>
                   </Card>
@@ -139,15 +162,21 @@ export default function ServiceCategoryPage() {
                     <CardHeader>
                       <CardTitle className="flex items-center gap-3">
                         <CheckCircle className="w-6 h-6 text-primary" />
-                        Key Benefits
+                        {t("common:headings.keyBenefits")}
                       </CardTitle>
                     </CardHeader>
                     <CardContent>
                       <ul className="space-y-3">
                         {serviceData.details.benefits.map((benefit, index) => (
-                          <li key={index} className="flex items-start gap-3" data-testid={`benefit-item-${index}`}>
+                          <li
+                            key={index}
+                            className="flex items-start gap-3"
+                            data-testid={`benefit-item-${index}`}
+                          >
                             <CheckCircle className="w-5 h-5 text-secondary mt-0.5 flex-shrink-0" />
-                            <span className="text-muted-foreground">{benefit}</span>
+                            <span className="text-muted-foreground">
+                              {t(benefit)}
+                            </span>
                           </li>
                         ))}
                       </ul>
@@ -160,14 +189,19 @@ export default function ServiceCategoryPage() {
                     <CardHeader>
                       <CardTitle className="flex items-center gap-3">
                         <Settings className="w-6 h-6 text-primary" />
-                        Technologies & Methods
+                        {t("common:headings.technologiesAndMethods")}
                       </CardTitle>
                     </CardHeader>
                     <CardContent>
                       <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
                         {serviceData.details.technologies.map((tech, index) => (
-                          <Badge key={index} variant="secondary" className="p-2 justify-start" data-testid={`tech-badge-${index}`}>
-                            {tech}
+                          <Badge
+                            key={index}
+                            variant="secondary"
+                            className="p-2 justify-start"
+                            data-testid={`tech-badge-${index}`}
+                          >
+                            {t(tech)}
                           </Badge>
                         ))}
                       </div>
@@ -183,46 +217,73 @@ export default function ServiceCategoryPage() {
                     <CardHeader>
                       <CardTitle className="flex items-center gap-3">
                         <Clock className="w-6 h-6 text-primary" />
-                        {t('common:headings.quickFacts')}
+                        {t("common:headings.quickFacts")}
                       </CardTitle>
                     </CardHeader>
                     <CardContent className="space-y-4">
                       <div>
-                        <h4 className="font-semibold text-foreground mb-2">{t('common:labels.responseTime')}</h4>
-                        <p className="text-muted-foreground">24-48 hours for initial consultation</p>
+                        <h4 className="font-semibold text-foreground mb-2">
+                          {t("common:labels.responseTime")}
+                        </h4>
+                        <p className="text-muted-foreground">
+                          24-48 hours for initial consultation
+                        </p>
                       </div>
                       <div>
-                        <h4 className="font-semibold text-foreground mb-2">{t('common:labels.availability')}</h4>
-                        <p className="text-muted-foreground">{t('common:messages.availability')}</p>
+                        <h4 className="font-semibold text-foreground mb-2">
+                          {t("common:labels.availability")}
+                        </h4>
+                        <p className="text-muted-foreground">
+                          {t("common:messages.availability")}
+                        </p>
                       </div>
                       <div>
-                        <h4 className="font-semibold text-foreground mb-2">{t('common:labels.coverage')}</h4>
-                        <p className="text-muted-foreground">{t('common:messages.coverage')}</p>
+                        <h4 className="font-semibold text-foreground mb-2">
+                          {t("common:labels.coverage")}
+                        </h4>
+                        <p className="text-muted-foreground">
+                          {t("common:messages.coverage")}
+                        </p>
                       </div>
                       <div>
-                        <h4 className="font-semibold text-foreground mb-2">Duration</h4>
-                        <p className="text-muted-foreground">{serviceData.duration}</p>
+                        <h4 className="font-semibold text-foreground mb-2">
+                          Duration
+                        </h4>
+                        <p className="text-muted-foreground">
+                          {t(serviceData.duration)}
+                        </p>
                       </div>
                     </CardContent>
                   </Card>
                 </AnimatedSection>
 
                 <AnimatedSection animation="fadeInLeft" delay={0.6}>
-                  <Card className="mb-8" data-testid="card-industry-applications">
+                  <Card
+                    className="mb-8"
+                    data-testid="card-industry-applications"
+                  >
                     <CardHeader>
                       <CardTitle className="flex items-center gap-3">
                         <Award className="w-6 h-6 text-primary" />
-                        Industry Applications
+                        {t("common:headings.industryApplications")}
                       </CardTitle>
                     </CardHeader>
                     <CardContent>
                       <div className="space-y-2">
-                        {serviceData.details.industries.map((industry, index) => (
-                          <div key={index} className="flex items-center gap-2" data-testid={`industry-item-${index}`}>
-                            <div className="w-2 h-2 bg-secondary rounded-full"></div>
-                            <span className="text-muted-foreground">{industry}</span>
-                          </div>
-                        ))}
+                        {serviceData.details.industries.map(
+                          (industry, index) => (
+                            <div
+                              key={index}
+                              className="flex items-center gap-2"
+                              data-testid={`industry-item-${index}`}
+                            >
+                              <div className="w-2 h-2 bg-secondary rounded-full"></div>
+                              <span className="text-muted-foreground">
+                                {t(industry)}
+                              </span>
+                            </div>
+                          ),
+                        )}
                       </div>
                     </CardContent>
                   </Card>
@@ -231,17 +292,28 @@ export default function ServiceCategoryPage() {
                 <AnimatedSection animation="fadeInLeft" delay={0.7}>
                   <Card data-testid="card-ready-to-start">
                     <CardContent className="p-6 text-center">
-                      <h3 className="font-semibold text-foreground mb-3">{t('common:messages.readyToStart')}</h3>
-                      <p className="text-muted-foreground mb-4">{t('common:messages.consultation')}</p>
-                      <div className="space-y-3">
+                      <h3 className="font-semibold text-foreground mb-3">
+                        {t("common:messages.readyToStart")}
+                      </h3>
+                      <p className="text-muted-foreground mb-4">
+                        {t("common:messages.requestConsultation")}
+                      </p>
+                      <div className="flex flex-col gap-3">
                         <Link href="/quote">
-                          <Button className="w-full" data-testid="button-sidebar-get-quote">
-                            {t('common:buttons.getQuote')}
+                          <Button
+                            className="w-full"
+                            data-testid="button-sidebar-get-quote"
+                          >
+                            {t("common:buttons.getQuote")}
                           </Button>
                         </Link>
                         <Link href="/contact">
-                          <Button variant="outline" className="w-full" data-testid="button-contact-us">
-                            {t('common:buttons.contactUs')}
+                          <Button
+                            variant="outline"
+                            className="w-full"
+                            data-testid="button-contact-us"
+                          >
+                            {t("common:buttons.contactUs")}
                           </Button>
                         </Link>
                       </div>
@@ -259,36 +331,57 @@ export default function ServiceCategoryPage() {
             <AnimatedSection animation="fadeInUp" delay={0.2}>
               <div className="text-center mb-12">
                 <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
-                  {t('common:headings.relatedServices')}
+                  {t("common:headings.relatedServices")}
                 </h2>
                 <p className="text-muted-foreground max-w-2xl mx-auto">
-                  Explore our other professional services that complement {serviceData.title.toLowerCase()}
+                  Explore our other professional services that complement{" "}
+                  {t(serviceData.title)}
                 </p>
               </div>
             </AnimatedSection>
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-              {SERVICES_CATEGORY_PAGES.filter(s => s.id !== serviceData.id).slice(0, 3).map((relatedService, index) => {
-                const RelatedIcon = iconMap[relatedService.icon as keyof typeof iconMap] || Settings;
-                return (
-                  <AnimatedSection key={relatedService.id} animation="fadeInUp" delay={0.3 + index * 0.1}>
-                    <Link href={`/services-category/${relatedService.id}`}>
-                      <Card className="h-full hover:shadow-lg transition-all duration-300 cursor-pointer group" data-testid={`card-related-service-${relatedService.id}`}>
-                        <CardContent className="p-6">
-                          <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4 group-hover:bg-primary/20 transition-colors">
-                            <RelatedIcon className="w-6 h-6 text-primary" />
-                          </div>
-                          <h3 className="font-semibold text-foreground mb-2">{relatedService.title}</h3>
-                          <p className="text-muted-foreground text-sm mb-4">{relatedService.description.slice(0, 100)}...</p>
-                          <Button variant="ghost" className="p-0 h-auto text-secondary hover:text-secondary/80" data-testid={`button-learn-more-${relatedService.id}`}>
-                            {t('common:buttons.learnMore')} <ArrowRight className="ml-1 h-4 w-4" />
-                          </Button>
-                        </CardContent>
-                      </Card>
-                    </Link>
-                  </AnimatedSection>
-                );
-              })}
+              {SERVICES_CATEGORY_PAGES.filter((s) => s.id !== serviceData.id)
+                .slice(0, 3)
+                .map((relatedService, index) => {
+                  const RelatedIcon =
+                    iconMap[relatedService.icon as keyof typeof iconMap] ||
+                    Settings;
+                  return (
+                    <AnimatedSection
+                      key={relatedService.id}
+                      animation="fadeInUp"
+                      delay={0.3 + index * 0.1}
+                    >
+                      <Link href={`/services-category/${relatedService.id}`}>
+                        <Card
+                          className="h-full hover:shadow-lg transition-all duration-300 cursor-pointer group"
+                          data-testid={`card-related-service-${relatedService.id}`}
+                        >
+                          <CardContent className="p-6">
+                            <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4 group-hover:bg-primary/20 transition-colors">
+                              <RelatedIcon className="w-6 h-6 text-primary" />
+                            </div>
+                            <h3 className="font-semibold text-foreground mb-2">
+                              {t(relatedService.title)}
+                            </h3>
+                            <p className="text-muted-foreground text-sm mb-4">
+                              {t(relatedService.description).slice(0, 100)}...
+                            </p>
+                            <Button
+                              variant="ghost"
+                              className="p-0 h-auto text-secondary hover:text-secondary/80"
+                              data-testid={`button-learn-more-${relatedService.id}`}
+                            >
+                              {t("common:buttons.learnMore")}{" "}
+                              <ArrowRight className="ml-1 h-4 w-4" />
+                            </Button>
+                          </CardContent>
+                        </Card>
+                      </Link>
+                    </AnimatedSection>
+                  );
+                })}
             </div>
           </div>
         </section>

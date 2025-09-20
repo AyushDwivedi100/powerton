@@ -17,311 +17,311 @@ export interface ServicePageData {
 export const SERVICES_CATEGORY_PAGES: ServicePageData[] = [
   {
     id: "installation-commissioning",
-    title: "Installation and Commissioning",
-    description: "Professional installation and commissioning services for electrical panels, PLCs, SCADA systems, and industrial equipment with complete system validation. Supports Siemens, Allen-Bradley, and Schneider technologies.",
+    title: "services:categories.installation-commissioning",
+    description: "services:descriptions.installation-commissioning",
     icon: "tools",
-    duration: "1-4 weeks",
+    duration: "services:durations.installation-commissioning",
     popular: true,
     features: [
-      "PLC/DCS Installation",
-      "System Integration", 
-      "Performance Testing",
-      "Compliance Certification"
+      "services:features.installation-commissioning.plc-dcs",
+      "services:features.installation-commissioning.system-integration",
+      "services:features.installation-commissioning.performance-testing",
+      "services:features.installation-commissioning.compliance-certification",
     ],
     details: {
-      overview: "Complete installation and commissioning services for industrial automation systems, electrical panels, and equipment, with professional certification and testing.",
+      overview: "services:serviceDetails.installationCommissioning.overview",
       benefits: [
-        "Professional installation by certified engineers",
-        "Comprehensive system testing and commissioning", 
-        "Full documentation and certification",
-        "Training and handover support",
-        "Post-installation support and warranty"
+        "services:serviceDetails.installationCommissioning.benefits.0",
+        "services:serviceDetails.installationCommissioning.benefits.1",
+        "services:serviceDetails.installationCommissioning.benefits.2",
+        "services:serviceDetails.installationCommissioning.benefits.3",
+        "services:serviceDetails.installationCommissioning.benefits.4",
       ],
       technologies: [
-        "System installation",
-        "Commissioning",
-        "Testing", 
-        "Certification",
-        "Documentation"
+        "services:serviceDetails.installationCommissioning.technologies.0",
+        "services:serviceDetails.installationCommissioning.technologies.1",
+        "services:serviceDetails.installationCommissioning.technologies.2",
+        "services:serviceDetails.installationCommissioning.technologies.3",
+        "services:serviceDetails.installationCommissioning.technologies.4",
       ],
       industries: [
-        "Manufacturing",
-        "Power generation",
-        "Oil and gas",
-        "Chemicals", 
-        "Water treatment"
-      ]
-    }
+        "services:serviceDetails.installationCommissioning.industries.0",
+        "services:serviceDetails.installationCommissioning.industries.1",
+        "services:serviceDetails.installationCommissioning.industries.2",
+        "services:serviceDetails.installationCommissioning.industries.3",
+        "services:serviceDetails.installationCommissioning.industries.4",
+      ],
+    },
   },
   {
     id: "maintenance-repair",
-    title: "Maintenance and Repair", 
-    description: "Comprehensive preventive and emergency maintenance services for electrical systems, control panels, and industrial automation equipment. 2-hour emergency response time guaranteed.",
+    title: "services:categories.maintenance-repair",
+    description: "services:descriptions.maintenance-repair",
     icon: "wrench",
-    duration: "Same day - 1 week",
+    duration: "services:durations.maintenance-repair",
     popular: true,
     features: [
-      "Preventive Maintenance",
-      "Emergency Repairs (2hr)",
-      "Component Replacement", 
-      "System Upgrades"
+      "services:features.maintenance-repair.preventive",
+      "services:features.maintenance-repair.emergency",
+      "services:features.maintenance-repair.replacement",
+      "services:features.maintenance-repair.upgrades",
     ],
     details: {
-      overview: "Comprehensive preventive and emergency maintenance services for electrical systems, control panels, and industrial automation equipment designed to minimize downtime and ensure operational efficiency.",
+      overview: "services:serviceDetails.maintenanceRepair.overview",
       benefits: [
-        "Reduced equipment downtime and operational costs",
-        "Extended equipment lifespan through proper maintenance",
-        "Improved system reliability and performance",
-        "Compliance with safety and regulatory standards",
-        "24/7 emergency repair services with quick response"
+        "services:serviceDetails.maintenanceRepair.benefits.0",
+        "services:serviceDetails.maintenanceRepair.benefits.1",
+        "services:serviceDetails.maintenanceRepair.benefits.2",
+        "services:serviceDetails.maintenanceRepair.benefits.3",
+        "services:serviceDetails.maintenanceRepair.benefits.4",
       ],
       technologies: [
-        "Preventive maintenance",
-        "Emergency repair",
-        "Component replacement",
-        "System diagnostics",
-        "Performance optimization"
+        "sevices:serviceDetails.maintenanceRepair.technologies.0",
+        "services:serviceDetails.maintenanceRepair.technologies.1",
+        "services:serviceDetails.maintenanceRepair.technologies.2",
+        "services:serviceDetails.maintenanceRepair.technologies.3",
+        "services:serviceDetails.maintenanceRepair.technologies.4",
       ],
       industries: [
-        "Manufacturing",
-        "Process industries", 
-        "Power generation",
-        "Oil and gas",
-        "Water treatment"
-      ]
-    }
+        "services:serviceDetails.maintenanceRepair.industries.0",
+        "services:serviceDetails.maintenanceRepair.industries.1",
+        "services:serviceDetails.maintenanceRepair.industries.2",
+        "services:serviceDetails.maintenanceRepair.industries.3",
+        "services:serviceDetails.maintenanceRepair.industries.4",
+      ],
+    },
   },
   {
     id: "calibration-testing",
-    title: "Calibration and Testing",
-    description: "NABL-certified precision calibration and testing services for pressure, temperature, flow instruments and control systems. Maintains ±0.25% accuracy standards.",
+    title: "services:categories.calibration-testing",
+    description: "services:descriptions.calibration-testing",
     icon: "gauge",
-    duration: "2-5 days", 
+    duration: "services:durations.calibraion-testing",
     features: [
-      "NABL Certified Calibration",
-      "±0.25% Accuracy Testing",
-      "Compliance Verification",
-      "Traceability Certificates"
+      "services:features.calibrationTesting.nabl-certified",
+      "services:features.calibrationTesting.accuracy-testing",
+      "services:features.calibrationTesting.compliance",
+      "services:features.calibrationTesting.certificates",
     ],
     details: {
-      overview: "NABL-certified precision calibration and testing services for pressure, temperature, flow instruments and control systems to ensure optimal performance and regulatory compliance.",
+      overview: "services:serviceDetails.calibrationTesting.overview",
       benefits: [
-        "NABL-certified calibration services",
-        "High precision testing with ±0.25% accuracy",
-        "Regulatory compliance and certification",
-        "Detailed calibration reports and certificates",
-        "Regular calibration scheduling and tracking"
+        "services:serviceDetails.calibrationTesting.benefits.0",
+        "services:serviceDetails.calibrationTesting.benefits.1",
+        "services:serviceDetails.calibrationTesting.benefits.2",
+        "services:serviceDetails.calibrationTesting.benefits.3",
+        "services:serviceDetails.calibrationTesting.benefits.4",
       ],
       technologies: [
-        "Precision calibration",
-        "Accuracy testing",
-        "Compliance verification", 
-        "Certificate generation",
-        "Calibration tracking"
+        "services:serviceDetails.calibrationTesting.technologies.0",
+        "services:serviceDetails.calibrationTesting.technologies.1",
+        "services:serviceDetails.calibrationTesting.technologies.2",
+        "services:serviceDetails.calibrationTesting.technologies.3",
+        "services:serviceDetails.calibrationTesting.technologies.4",
       ],
       industries: [
-        "Pharmaceuticals",
-        "Food and beverage",
-        "Oil and gas",
-        "Chemicals",
-        "Manufacturing"
-      ]
-    }
+        "services:serviceDetails.calibrationTesting.industries.0",
+        "services:serviceDetails.calibrationTesting.industries.1",
+        "services:serviceDetails.calibrationTesting.industries.2",
+        "services:serviceDetails.calibrationTesting.industries.3",
+        "services:serviceDetails.calibrationTesting.industries.4",
+      ],
+    },
   },
   {
     id: "technical-support",
-    title: "Technical Support",
-    description: "24/7/365 technical support services with remote diagnostics, on-site troubleshooting, and emergency response. Average response time: 30 minutes remotely, 4 hours on-site.",
-    icon: "shield", 
-    duration: "Immediate - Ongoing",
+    title: "services:categories.technical-support",
+    description: "services:descriptions.technical-support",
+    icon: "shield",
+    duration: "services:durations.technical-support",
     popular: true,
     features: [
-      "24/7/365 Support",
-      "Remote Diagnostics",
-      "4hr On-site Response",
-      "Emergency Hotline"
+      "services:features.technicalSupport.24-7-support",
+      "services:features.technicalSupport.remote-diagnostics",
+      "services:features.technicalSupport.onsite-response",
+      "services:features.technicalSupport.emergency-hotline",
     ],
     details: {
-      overview: "24/7 technical support services for troubleshooting, remote assistance, and on-site support with quick response times for all electrical and automation systems.",
+      overview: "services:serviceDetails.technicalSupport.overview",
       benefits: [
-        "24/7 technical support availability",
-        "Remote diagnostics and troubleshooting services",
-        "On-site emergency assistance when needed", 
-        "Quick response times for critical issues",
-        "Comprehensive issue resolution and follow-up"
+        "services:serviceDetails.technicalSupport.benefits.0",
+        "services:serviceDetails.technicalSupport.benefits.1",
+        "services:serviceDetails.technicalSupport.benefits.2",
+        "services:serviceDetails.technicalSupport.benefits.3",
+        "services:serviceDetails.technicalSupport.benefits.4",
       ],
       technologies: [
-        "Remote diagnostics",
-        "Troubleshooting",
-        "On-site support",
-        "System monitoring",
-        "Emergency response"
+        "services:serviceDetails.technicalSupport.technologies.0",
+        "services:serviceDetails.technicalSupport.technologies.1",
+        "services:serviceDetails.technicalSupport.technologies.2",
+        "services:serviceDetails.technicalSupport.technologies.3",
+        "services:serviceDetails.technicalSupport.technologies.4",
       ],
       industries: [
-        "All industries",
-        "Critical infrastructure",
-        "Process industries",
-        "Manufacturing", 
-        "Commercial facilities"
-      ]
-    }
+        "services:serviceDetails.technicalSupport.industries.0",
+        "services:serviceDetails.technicalSupport.industries.1",
+        "services:serviceDetails.technicalSupport.industries.2",
+        "services:serviceDetails.technicalSupport.industries.3",
+        "services:serviceDetails.technicalSupport.industries.4",
+      ],
+    },
   },
   {
     id: "custom-solutions",
-    title: "Custom Solutions",
-    description: "Tailored engineering solutions for unique industrial requirements including custom MCC panels, automation systems, and process control solutions. From concept to commissioning.",
+    title: "services:categories.custom-solutions",
+    description: "services:descriptions.custom-solutions",
     icon: "cog",
-    duration: "2-12 weeks",
+    duration: "services:durations.custom-solutions",
     features: [
-      "Custom MCC Panels",
-      "Process Automation", 
-      "Unique Applications",
-      "End-to-End Solutions"
+      "services:features.customSolutions.mcc-panels",
+      "services:features.customSolutions.process-automation",
+      "services:features.customSolutions.unique-applications",
+      "services:features.customSolutions.end-to-end",
     ],
     details: {
-      overview: "Tailored engineering solutions for unique industrial requirements including custom MCC panels, automation systems, and process control solutions designed specifically for your operational needs.",
+      overview: "services:serviceDetails.customSolutions.overview",
       benefits: [
-        "Customized solutions for unique requirements",
-        "End-to-end engineering and implementation",
-        "Optimal integration with existing systems",
-        "Improved operational efficiency and control",
-        "Ongoing support and optimization services"
+        "services:serviceDetails.customSolutions.benefits.0",
+        "services:serviceDetails.customSolutions.benefits.1",
+        "services:serviceDetails.customSolutions.benefits.2",
+        "services:serviceDetails.customSolutions.benefits.3",
+        "services:serviceDetails.customSolutions.benefits.4",
       ],
       technologies: [
-        "Custom engineering",
-        "MCC panel design",
-        "Process automation",
-        "System integration",
-        "Solution optimization"
+        "services:serviceDetails.customSolutions.technologies.0",
+        "services:serviceDetails.customSolutions.technologies.1",
+        "services:serviceDetails.customSolutions.technologies.2",
+        "services:serviceDetails.customSolutions.technologies.3",
+        "services:serviceDetails.customSolutions.technologies.4",
       ],
       industries: [
-        "Manufacturing",
-        "Process industries",
-        "Power generation",
-        "Oil and gas",
-        "Specialized applications"
-      ]
-    }
+        "services:serviceDetails.customSolutions.industries.0",
+        "services:serviceDetails.customSolutions.industries.1",
+        "services:serviceDetails.customSolutions.industries.2",
+        "services:serviceDetails.customSolutions.industries.3",
+        "services:serviceDetails.customSolutions.industries.4",
+      ],
+    },
   },
   {
     id: "consultation-training",
-    title: "Consultation and Training",
-    description: "Expert consultation services and professional training programs for PLC programming, system design, and industrial automation. ISA-certified training modules with hands-on workshops.",
+    title: "services:categories.consultation-training",
+    description: "services:descriptions.consultation-training",
     icon: "users",
-    duration: "1-5 days",
+    duration: "services:durations.consultation-training",
     features: [
-      "PLC Programming Training",
-      "System Design Consultation", 
-      "ISA Certified Modules",
-      "Hands-On Workshops"
+      "services:features.consultationTraining.plc-programming",
+      "services:features.consultationTraining.system-design",
+      "services:features.consultationTraining.isa-certified",
+      "services:features.consultationTraining.hands-on",
     ],
     details: {
-      overview: "Expert consultation services and professional training programs for PLC programming, system design, and industrial automation with hands-on experience and certification.",
+      overview: "services:serviceDetails.consultationTraining.overview",
       benefits: [
-        "Expert consultation for system optimization",
-        "Professional training and certification programs",
-        "Hands-on workshops and practical experience",
-        "Customized training for specific requirements",
-        "Ongoing support and knowledge transfer"
+        "services:serviceDetails.consultationTraining.benefits.0",
+        "services:serviceDetails.consultationTraining.benefits.1",
+        "services:serviceDetails.consultationTraining.benefits.2",
+        "services:serviceDetails.consultationTraining.benefits.3",
+        "services:serviceDetails.consultationTraining.benefits.4",
       ],
       technologies: [
-        "PLC programming",
-        "System design",
-        "Training modules",
-        "Hands-on workshops", 
-        "Knowledge transfer"
+        "services:serviceDetails.consultationTraining.technologies.0",
+        "services:serviceDetails.consultationTraining.technologies.1",
+        "services:serviceDetails.consultationTraining.technologies.2",
+        "services:serviceDetails.consultationTraining.technologies.3",
+        "services:serviceDetails.consultationTraining.technologies.4",
       ],
       industries: [
-        "Manufacturing",
-        "Educational institutions",
-        "Engineering companies",
-        "Process industries",
-        "System integrators"
-      ]
-    }
+        "services:serviceDetails.consultationTraining.industries.0",
+        "services:serviceDetails.consultationTraining.industries.1",
+        "services:serviceDetails.consultationTraining.industries.2",
+        "services:serviceDetails.consultationTraining.industries.3",
+        "services:serviceDetails.consultationTraining.industries.4",
+      ],
+    },
   },
   {
-    id: "supply-chain-management", 
-    title: "Supply Chain Management",
-    description: "Comprehensive supply chain management for electrical and automation components from authorized distributors. Genuine parts with warranty and express delivery options.",
+    id: "supply-chain-management",
+    title: "services:categories.supply-chain-management",
+    description: "services:descriptions.supply-chain-management",
     icon: "truck",
-    duration: "1-7 days",
+    duration: "services:durations.supply-chain-management",
     features: [
-      "Authorized Distributors",
-      "Genuine Parts Only",
-      "1-Year Warranty",
-      "Express Delivery"
+      "services:features.supply-chain-management.authorized-distributors",
+      "services:features.supply-chain-management.genuine-parts",
+      "services:features.supply-chain-management.warranty",
+      "services:features.supply-chain-management.express-delivery",
     ],
     details: {
-      overview: "Comprehensive supply chain management for electrical and automation components with guaranteed genuine parts from authorized distributors and reliable delivery services.",
+      overview: "services:serviceDetails.supplyChainManagement.overview",
       benefits: [
-        "Access to genuine parts from authorized distributors",
-        "Comprehensive warranty and quality assurance",
-        "Fast and reliable delivery services",
-        "Inventory management and planning support",
-        "Cost-effective procurement solutions"
+        "services:serviceDetails.supplyChainManagement.benefits.0",
+        "services:serviceDetails.supplyChainManagement.benefits.1",
+        "services:serviceDetails.supplyChainManagement.benefits.2",
+        "services:serviceDetails.supplyChainManagement.benefits.3",
+        "services:serviceDetails.supplyChainManagement.benefits.4",
       ],
       technologies: [
-        "Supply chain management",
-        "Inventory control",
-        "Quality assurance",
-        "Logistics coordination",
-        "Procurement optimization"
+        "services:serviceDetails.supplyChainManagement.technologies.0",
+        "services:serviceDetails.supplyChainManagement.technologies.1",
+        "services:serviceDetails.supplyChainManagement.technologies.2",
+        "services:serviceDetails.supplyChainManagement.technologies.3",
+        "services:serviceDetails.supplyChainManagement.technologies.4",
       ],
       industries: [
-        "Manufacturing",
-        "Process industries",
-        "Infrastructure projects",
-        "Maintenance operations",
-        "System integrators"
-      ]
-    }
+        "services:serviceDetails.supplyChainManagement.industries.0",
+        "services:serviceDetails.supplyChainManagement.industries.1",
+        "services:serviceDetails.supplyChainManagement.industries.2",
+        "services:serviceDetails.supplyChainManagement.industries.3",
+        "services:serviceDetails.supplyChainManagement.industries.4",
+      ],
+    },
   },
   {
     id: "solar-epc",
-    title: "Solar EPC Solutions", 
-    description: "Complete solar Engineering, Procurement, and Construction services from 1kW to 1MW systems. MNRE-approved solutions with 25-year performance guarantee.",
+    title: "services:categories.solar-epc",
+    description: "services:descriptions.solar-epc",
     icon: "sun",
-    duration: "4-16 weeks",
+    duration: "services:durations.solar-epc",
     features: [
-      "MNRE Approved Solutions",
-      "1kW to 1MW Capacity",
-      "25-Year Performance Guarantee",
-      "Grid Connection Support"
+      "services:features.solar-epc.mnre-approved",
+      "services:features.solar-epc.capacity",
+      "services:features.solar-epc.guarantee",
+      "services:features.solar-epc.grid-connection",
     ],
     details: {
-      overview: "Complete solar Engineering, Procurement, and Construction services with MNRE-approved solutions ranging from 1kW to 1MW capacity and comprehensive performance guarantees.",
+      overview: "services:serviceDetails.solarEpc.overview",
       benefits: [
-        "MNRE-approved solar solutions and certification",
-        "Complete EPC services from design to commissioning", 
-        "25-year performance guarantee and support",
-        "Grid connection assistance and compliance",
-        "Cost-effective renewable energy solutions"
+        "services:serviceDetails.solarEpc.benefits.0",
+        "services:serviceDetails.solarEpc.benefits.1",
+        "services:serviceDetails.solarEpc.benefits.2",
+        "services:serviceDetails.solarEpc.benefits.3",
+        "services:serviceDetails.solarEpc.benefits.4",
       ],
       technologies: [
-        "Solar system design",
-        "EPC services",
-        "Grid integration",
-        "Performance monitoring",
-        "Maintenance services"
+        "services:serviceDetails.solarEpc.technologies.0",
+        "services:serviceDetails.solarEpc.technologies.1",
+        "services:serviceDetails.solarEpc.technologies.2",
+        "services:serviceDetails.solarEpc.technologies.3",
+        "services:serviceDetails.solarEpc.technologies.4",
       ],
       industries: [
-        "Commercial buildings",
-        "Industrial facilities",
-        "Residential complexes",
-        "Agricultural applications",
-        "Government projects"
-      ]
-    }
-  }
+        "services:serviceDetails.solarEpc.industries.0",
+        "services:serviceDetails.solarEpc.industries.1",
+        "services:serviceDetails.solarEpc.industries.2",
+        "services:serviceDetails.solarEpc.industries.3",
+        "services:serviceDetails.solarEpc.industries.4",
+      ],
+    },
+  },
 ];
 
 // Helper function to get service data by slug
 export const getServiceBySlug = (slug: string): ServicePageData | undefined => {
-  return SERVICES_CATEGORY_PAGES.find(service => service.id === slug);
+  return SERVICES_CATEGORY_PAGES.find((service) => service.id === slug);
 };
 
 // Helper function to get all service slugs for routing
 export const getAllServiceSlugs = (): string[] => {
-  return SERVICES_CATEGORY_PAGES.map(service => service.id);
+  return SERVICES_CATEGORY_PAGES.map((service) => service.id);
 };

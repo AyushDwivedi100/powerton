@@ -129,7 +129,9 @@
     "toggleTheme": "Canza Jigo",
     "close": "Rufe",
     "comingSoon": "Nan Gaba Kadan",
-    "catalogComingSoon": "Sauke katalogi na samfur zai kasance da sauri!"
+    "catalogComingSoon": "Sauke katalogi na samfur zai kasance da sauri!",
+    "readyToStart": "Shin kun yi fara aikinku?",
+    "requestConsultation": "Nemi shawarwari kyauta don aikin injiniya"
   },
   "aria": {
     "toggleNavigation": "Juya mataimakin kewayawa",
@@ -221,7 +223,9 @@
     "industryApplications": "Ayyukan masana'antu",
     "relatedServices": "Hidimomi masu alaƙa",
     "quickFacts": "Gajeren bayanai",
-    "technologiesAndMethods": "Fasaha da hanyoyi"
+    "technologiesAndMethods": "Fasaha da hanyoyi",
+    "keyBenefits": "Muhimman fasali",
+    "servicesOverview": "Bayyani game da ayyuka"
   },
   "company": {
     "name": "Powerton Engineering Pvt. Ltd.",
@@ -301,7 +305,9 @@
     "mondayToSaturday": "Litinin - Asabar",
     "workingHours": "9:00 na safe - 6:00 na yamma",
     "sunday": "Lahadi",
-    "emergencySupport": "Tallafin Gaggawa Kawai"
+    "emergencySupport": "Tallafin Gaggawa Kawai",
+    "availability": "Samun",
+    "coverage": "Kasuwanci"
   },
   "placeholders": {
     "selectProjectType": "Zaɓi nau'in aikin",

@@ -129,7 +129,9 @@
     "toggleTheme": "थीम बदलें",
     "close": "बंद करें",
     "comingSoon": "जल्द आ रहा है",
-    "catalogComingSoon": "उत्पाद कैटलॉग डाउनलोड जल्द ही उपलब्ध होगा!"
+    "catalogComingSoon": "उत्पाद कैटलॉग डाउनलोड जल्द ही उपलब्ध होगा!",
+    "readyToStart": "क्या आप अपनी परियोजना शुरू करने के लिए तैयार हैं?",
+    "requestConsultation": "इंजीनियरिंग प्रोजेक्ट के लिए मुफ्त परामर्श का अनुरोध करें"
   },
   "aria": {
     "toggleNavigation": "नेविगेशन टॉगल करें",
@@ -221,7 +223,9 @@
     "industryApplications": "उद्योग अनुप्रयोग",
     "relatedServices": "संबंधित सेवाएं",
     "quickFacts": "त्वरित तथ्य",
-    "technologiesAndMethods": "प्रौद्योगिकियाँ और तरीके"
+    "technologiesAndMethods": "प्रौद्योगिकियाँ और तरीके",
+    "keyBenefits": "मुख्य लाभ",
+    "servicesOverview": "सेवाओं का अवलोकन"
   },
   "company": {
     "name": "Powerton Engineering Pvt. Ltd.",
@@ -301,7 +305,9 @@
     "mondayToSaturday": "सोमवार - शनिवार",
     "workingHours": "सुबह 9:00 बजे - शाम 6:00 बजे",
     "sunday": "रविवार",
-    "emergencySupport": "केवल आपातकालीन सहायता"
+    "emergencySupport": "केवल आपातकालीन सहायता",
+    "availability": "उपलब्धता",
+    "coverage": "कवरेज"
   },
   "placeholders": {
     "selectProjectType": "परियोजना का प्रकार चुनें",

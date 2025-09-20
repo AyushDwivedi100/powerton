@@ -129,8 +129,11 @@
     "toggleTheme": "Toggle Theme",
     "close": "Close",
     "comingSoon": "Coming Soon",
-    "catalogComingSoon": "Product catalog download will be available soon!"
-  },
+    "catalogComingSoon": "Product catalog download will be available soon!",
+  "readyToStart": "Ready to start your project?",
+  "requestConsultation": "Request a free engineering consultation"
+    availability
+    },
   "aria": {
     "toggleNavigation": "Toggle navigation assistant",
     "openLocation": "Open office location in Google Maps",
@@ -221,7 +224,9 @@
     "industryApplications": "Industry Applications",
     "relatedServices": "Related Services",
     "quickFacts": "Quick Facts",
-    "technologiesAndMethods": "Technologies and Methods"
+    "technologiesAndMethods": "Technologies and Methods",
+    "keyBenefits": "Key Benefits",
+    "servicesOverview": "Services Overview"
   },
   "company": {
     "name": "Powerton Engineering Pvt. Ltd.",
@@ -301,7 +306,9 @@
     "mondayToSaturday": "Monday - Saturday",
     "workingHours": "9:00 AM - 6:00 PM",
     "sunday": "Sunday",
-    "emergencySupport": "Emergency Support Only"
+    "emergencySupport": "Emergency Support Only",
+    "availability": "Availability",
+    "coverage": "Coverage"
   },
   "placeholders": {
     "selectProjectType": "Select project type",

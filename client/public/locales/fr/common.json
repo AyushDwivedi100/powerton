@@ -129,7 +129,9 @@
     "toggleTheme": "Changer de thème",
     "close": "Fermer",
     "comingSoon": "Bientôt disponible",
-    "catalogComingSoon": "Le téléchargement du catalogue de produits sera bientôt disponible !"
+    "catalogComingSoon": "Le téléchargement du catalogue de produits sera bientôt disponible !",
+    "readyToStart": "Prêt à commencer votre projet ?",
+    "requestConsultation": "Demander une consultation d'ingénierie gratuite"
   },
   "aria": {
     "toggleNavigation": "Activer/désactiver le menu de navigation",
@@ -221,7 +223,9 @@
     "industryApplications": "Applications industrielles",
     "relatedServices": "Services associés",
     "quickFacts": "Faits saillants",
-    "technologiesAndMethods": "Technologies et méthodes"
+    "technologiesAndMethods": "Technologies et méthodes",
+    "keyBenefits": "Principaux avantages",
+    "servicesOverview": "Aperçu des services"
   },
   "company": {
     "name": "Powerton Engineering Pvt. Ltd.",
@@ -301,7 +305,9 @@
     "mondayToSaturday": "Lundi - Samedi",
     "workingHours": "9h00 - 18h00",
     "sunday": "Dimanche",
-    "emergencySupport": "Assistance d'urgence uniquement"
+    "emergencySupport": "Assistance d'urgence uniquement",
+    "availability": "Disponibilité",
+    "coverage": "Couverture"
   },
   "placeholders": {
     "selectProjectType": "Sélectionner le type de projet",

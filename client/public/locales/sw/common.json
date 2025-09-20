@@ -129,7 +129,9 @@
     "toggleTheme": "Badili Mandhari",
     "close": "Funga",
     "comingSoon": "Inakuja Hivi Karibuni",
-    "catalogComingSoon": "Upakuaji wa katalogi ya bidhaa utapatikana hivi karibuni!"
+    "catalogComingSoon": "Upakuaji wa katalogi ya bidhaa utapatikana hivi karibuni!",
+    "readyToStart": "Je, Unataya Kuanza Mradi Wako?",
+    "requestConsultation": "Omba Mshauriano ya Kiufundi ya Burudani"
   },
   "aria": {
     "toggleNavigation": "Badili usaidizi wa urambazaji",
@@ -221,7 +223,9 @@
     "industryApplications": "Matumizi ya viwandani",
     "relatedServices": "Huduma zinazohusiana",
     "quickFacts": "Ukweli wa haraka",
-    "technologiesAndMethods": "Teknolojia na mbinu"
+    "technologiesAndMethods": "Teknolojia na mbinu",
+    "keyBenefits": "Faida muhimu",
+    "servicesOverview": "Muhtasari wa huduma"
   },
   "company": {
     "name": "Powerton Engineering Pvt. Ltd.",
@@ -301,7 +305,9 @@
     "mondayToSaturday": "Jumatatu - Jumamosi",
     "workingHours": "9:00 asubuhi - 6:00 jioni",
     "sunday": "Jumapili",
-    "emergencySupport": "Msaada wa Dharura Pekee"
+    "emergencySupport": "Msaada wa Dharura Pekee",
+    "availability": "Upatikanaji",
+    "coverage": "Uthibitisho"
   },
   "placeholders": {
     "selectProjectType": "Chagua aina ya mradi",
