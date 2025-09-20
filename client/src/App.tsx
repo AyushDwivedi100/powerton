@@ -25,15 +25,8 @@ import Quote from "@/pages/quote";
 import Sitemap from "@/pages/sitemap";
 import NotFound from "@/pages/not-found";
 
-// Individual Service Pages
-import InstallationCommissioning from "@/pages/services-category/installation-commissioning";
-import MaintenanceRepair from "@/pages/services-category/maintenance-repair";
-import CalibrationTesting from "@/pages/services-category/calibration-testing";
-import ConsultationTraining from "@/pages/services-category/consultation-training";
-import CustomSolutions from "@/pages/services-category/custom-solutions";
-import SupplyChainManagement from "@/pages/services-category/supply-chain-management";
-import TechnicalSupport from "@/pages/services-category/technical-support";
-import SolarEPC from "@/pages/services-category/solar-epc";
+// Dynamic Service Category Page
+import ServiceCategoryPage from "@/pages/ServiceCategoryPage";
 import CentrifugalPumpChemicalProcess from "./pages/products/centrifugal-pump-chemical-process";
 
 // Lazy load product category pages
@@ -492,36 +485,11 @@ function Router() {
           <Route path="/about" component={About} />
           <Route path="/services" component={Services} />
 
-          {/* Individual Service Pages */}
+          {/* Dynamic Service Category Pages */}
           <Route
-            path="/services-category/installation-commissioning"
-            component={InstallationCommissioning}
+            path="/services-category/:slug"
+            component={ServiceCategoryPage}
           />
-          <Route
-            path="/services-category/maintenance-repair"
-            component={MaintenanceRepair}
-          />
-          <Route
-            path="/services-category/calibration-testing"
-            component={CalibrationTesting}
-          />
-          <Route
-            path="/services-category/consultation-training"
-            component={ConsultationTraining}
-          />
-          <Route
-            path="/services-category/custom-solutions"
-            component={CustomSolutions}
-          />
-          <Route
-            path="/services-category/supply-chain-management"
-            component={SupplyChainManagement}
-          />
-          <Route
-            path="/services-category/technical-support"
-            component={TechnicalSupport}
-          />
-          <Route path="/services-category/solar-epc" component={SolarEPC} />
 
           <Route path="/products" component={Products} />
           {/* Main Product Categories */}
