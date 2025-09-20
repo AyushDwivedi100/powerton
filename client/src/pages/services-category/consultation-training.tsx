@@ -39,11 +39,12 @@ export default function ConsultationTraining() {
   
   const service = SERVICES.find(s => s.id === "consultation-training")!;
   const serviceId = "consultation-training";
+  const translationKey = "consultationTraining"; // Convert kebab-case to camelCase for translation
   const details = {
-    overview: t(`services:serviceDetails.${serviceId}.overview`),
-    benefits: t(`services:serviceDetails.${serviceId}.benefits`, { returnObjects: true }) as string[],
-    technologies: t(`services:serviceDetails.${serviceId}.technologies`, { returnObjects: true }) as string[],
-    industries: t(`services:serviceDetails.${serviceId}.industries`, { returnObjects: true }) as string[]
+    overview: t(`services:serviceDetails.${translationKey}.overview`),
+    benefits: t(`services:serviceDetails.${translationKey}.benefits`, { returnObjects: true }) as string[],
+    technologies: t(`services:serviceDetails.${translationKey}.technologies`, { returnObjects: true }) as string[],
+    industries: t(`services:serviceDetails.${translationKey}.industries`, { returnObjects: true }) as string[]
   };
 
   const IconComponent = iconMap[service.icon as keyof typeof iconMap] || Settings;
