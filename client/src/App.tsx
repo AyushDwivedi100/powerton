@@ -98,7 +98,13 @@ function Router() {
             component={ProductGroupDynamic}
           />
 
-          {/* Dynamic Product Detail Route */}
+          {/* Product Detail with Group Context Route */}
+          <Route
+            path="/products/:subcategorySlug/:groupSlug/:slug"
+            component={ProductDetailDynamic}
+          />
+
+          {/* Dynamic Product Detail Route (fallback) */}
           <Route
             path="/products/:slug"
             component={ProductDetailDynamic}

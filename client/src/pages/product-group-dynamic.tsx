@@ -168,7 +168,7 @@ export default function ProductGroupDynamic() {
                           </td>
                           <td className="px-6 py-4 text-sm">
                             <div className="flex gap-2">
-                              <Link href={`/products/${product.slug}`}>
+                              <Link href={`/products/${subcategorySlug}/${groupSlug}/${product.slug}`}>
                                 <Button
                                   size="sm"
                                   variant="outline"

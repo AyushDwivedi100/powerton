@@ -8239,7 +8239,7 @@ export const getProductImageKey = (product: Product): string => {
 };
 
 // Get product detail by slug for product detail pages
-export const getProductDetailBySlug = (slug: string, t: any) => {
+export const getProductDetailBySlug = (slug: string, t: any, groupSlug?: string) => {
   const product = products.find(p => p.slug === slug);
   
   if (!product) {
@@ -8252,6 +8252,11 @@ export const getProductDetailBySlug = (slug: string, t: any) => {
   if (!category || !subcategory) {
     return null;
   }
+
+  // Find the product group if groupSlug is provided
+  const productGroup = groupSlug 
+    ? productGroups.find(group => group.slug === groupSlug && group.subcategoryKey === product.subcategoryKey)
+    : null;
 
   // Transform specs into specifications array
   const specifications = Object.entries(product.specs).map(([key, value]) => ({
@@ -8266,6 +8271,19 @@ export const getProductDetailBySlug = (slug: string, t: any) => {
     ? t(product.translationKeys.featuresKey, { returnObjects: true }) 
     : [];
 
+  // Determine the correct back path
+  let backPath = `/products/${subcategory.key}`;
+  let backLabel = t(`products:categories.${category.key}.subcategories.${subcategory.key}.name`, {
+    defaultValue: subcategory.key.replace('-', ' ').toUpperCase()
+  });
+  
+  if (productGroup) {
+    backPath = `/products/${subcategory.key}/${productGroup.slug}`;
+    backLabel = t(productGroup.titleKey, { 
+      defaultValue: productGroup.key.toUpperCase().replace('-', ' ')
+    });
+  }
+
   return {
     id: product.id,
     slug: product.slug,
@@ -8274,7 +8292,8 @@ export const getProductDetailBySlug = (slug: string, t: any) => {
     fullDescription: description,
     categoryName: t(`products:categories.${category.key}.name`),
     subcategoryName: t(`products:categories.${category.key}.subcategories.${subcategory.key}.name`),
-    categoryPath: `/products/${category.key}`,
+    categoryPath: backPath,
+    backLabel,
     image: `/generated_images/${product.image}.png`,
     specifications,
     features: Array.isArray(features) ? features : [],
