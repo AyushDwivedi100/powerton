@@ -161,7 +161,7 @@ export default function ProductSubCategoryDynamic() {
                       </div>
 
                       <CardContent className="p-6">
-                        <h3 className="text-xl font-semibold text-foreground mb-2 group-hover:text-primary transition-colors">
+                        <h3 className="text-xl font-semibold text-foreground mb-2 group-hover:text-secondary transition-colors">
                           {groupTitle}
                         </h3>
                         <p className="text-muted-foreground mb-4">
@@ -366,7 +366,7 @@ export default function ProductSubCategoryDynamic() {
               <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
                 {/* Features */}
                 <div className="lg:col-span-2">
-                  <h3 className="text-lg md:text-xl font-bold text-foreground mb-4">
+                  <h3 className="text-lg md:text-xl font-bold text-foreground mb-4 group-hover:text-se">
                     Key Features
                   </h3>
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
