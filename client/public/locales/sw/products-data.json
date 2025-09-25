@@ -1,0 +1,703 @@
+{
+  "surgeProtectors": {
+    "acPower": {
+      "name": "Kinga za Mawimbi ya Nguvu za AC",
+      "description": "Vizuia umeme vya muda mfupi kwa mifumo ya nguvu za AC",
+      "features": [
+        "Darasa la I/II/III",
+        "Teknolojia ya MOV",
+        "Viashiria vya Hali",
+        "Mlima wa Reli ya DIN"
+      ]
+    },
+    "dcSolar": {
+      "name": "Kinga za Mawimbi ya Sola za DC",
+      "description": "Vifaa vya ulinzi wa mawimbi ya DC kwa mifumo ya paneli za jua",
+      "features": [
+        "Ukadiriaji wa 1000V DC",
+        "Ulinzi wa Aina ya 1+2",
+        "Dalili ya Mbali",
+        "Tenganisha Haraka"
+      ]
+    },
+    "signalLine": {
+      "name": "Kinga za Mstari wa Ishara",
+      "description": "Ulinzi wa mawimbi kwa mistari ya mawasiliano na udhibiti",
+      "features": [
+        "Ulinzi wa Mstari wa Data",
+        "Uwezo Mdogo",
+        "Majibu ya Haraka",
+        "Njia Nyingi"
+      ]
+    }
+  },
+  "bldcCeilingFan": {
+    "smart1200": {
+      "name": "Feni ya Dari ya Smart BLDC - 1200mm",
+      "description": "Feni ya dari yenye akili na inayotumia nishati kidogo na kidhibiti cha mbali",
+      "features": [
+        "Matumizi ya Nguvu ya 28W",
+        "Kidhibiti cha Mbali",
+        "Mipangilio 5 ya Kasi",
+        "Kazi ya Kipima Muda"
+      ]
+    },
+    "premium1400": {
+      "name": "Feni ya Dari ya Premium BLDC - 1400mm",
+      "description": "Feni ya dari ya utendaji wa juu na taa ya LED",
+      "features": [
+        "Matumizi ya Nguvu ya 35W",
+        "Taa ya LED Iliyounganishwa",
+        "Motor Inayoweza Kubadilishwa",
+        "Uendeshaji Kimya"
+      ]
+    },
+    "commercial1500": {
+      "name": "Feni ya Dari ya Biashara BLDC - 1500mm",
+      "description": "Feni ya dari ya kazi nzito kwa matumizi ya kibiashara",
+      "features": [
+        "Matumizi ya Nguvu ya 45W",
+        "Motor ya Kazi Nzito",
+        "Mtiririko wa Hewa wa Juu",
+        "Ujenzi Imara"
+      ]
+    }
+  },
+  "bldcCoolerExhaust": {
+    "exhaustFan": {
+      "name": "Motors za Feni ya Kutolea Nje ya BLDC",
+      "description": "Motors za ufanisi wa juu kwa matumizi ya feni ya kutolea nje",
+      "features": [
+        "Kasi Inayobadilika",
+        "Kelele Chini",
+        "Ufanisi wa Nishati",
+        "Maisha Marefu"
+      ]
+    },
+    "coolerMotors": {
+      "name": "Motors za Kipoezi za BLDC",
+      "description": "Motors zinazotumia nishati kidogo kwa matumizi ya vipoezi vya hewa",
+      "features": [
+        "Torque ya Juu",
+        "Inayostahimili Hali ya Hewa",
+        "Udhibiti wa Kasi",
+        "Haitaji Matengenezo"
+      ]
+    },
+    "ventilation": {
+      "name": "Motors za Uingizaji Hewa za BLDC",
+      "description": "Motors maalum kwa mifumo ya uingizaji hewa ya viwandani",
+      "features": [
+        "CFM ya Juu",
+        "Imekadiriwa kwa Joto",
+        "Inayostahimili Mtetemo",
+        "Udhibiti Mahiri"
+      ]
+    }
+  },
+  "cablesWires": {
+    "instrumentation": {
+      "name": "Kebo za Ala",
+      "description": "Kebo za volti ya chini kwa matumizi ya ala na udhibiti",
+      "features": [
+        "Ujenzi Uliolindwa",
+        "Inayostahimili Unyevu",
+        "Imekadiriwa kwa Joto",
+        "Jozi Nyingi"
+      ]
+    },
+    "powerDistribution": {
+      "name": "Kebo za Usambazaji wa Nguvu",
+      "description": "Kebo za volti ya juu kwa usafirishaji na usambazaji wa nguvu",
+      "features": [
+        " insulation ya XLPE",
+        "Ujenzi Uliolindwa",
+        "Inayostahimili Moto",
+        "Ukadiriaji wa Juu wa Sasa"
+      ]
+    },
+    "communication": {
+      "name": "Kebo za Mawasiliano",
+      "description": "Kebo za usambazaji data kwa mitandao ya mawasiliano ya viwandani",
+      "features": [
+        "Cat5e/Cat6",
+        "Fiber Optic",
+        "Daraja la Viwanda",
+        "Ulinzi wa EMI"
+      ]
+    }
+  },
+  "handTools": {
+    "wrenchSets": {
+      "name": "Seti za Wrench za Kitaalamu",
+      "description": "Seti kamili za wrench za mchanganyiko na zinazoweza kubadilishwa",
+      "features": [
+        "Chuma cha Vanadium cha Chrome",
+        "Ukubwa wa Metric & SAE",
+        "Daraja la Kitaalamu",
+        "Udhamini wa Maisha"
+      ]
+    },
+    "screwdriverSets": {
+      "name": "Seti za Bisibisi za Usahihi",
+      "description": "Bisibisi za ubora wa juu kwa matumizi ya usahihi",
+      "features": [
+        "Vichwa vya Ergonomic",
+        "Ncha za Sumaku",
+        "Aina Nyingi za Vichwa",
+        "Mshiko wa Kuzuia Kuteleza"
+      ]
+    },
+    "toolKits": {
+      "name": "Vifaa vya Zana za Viwandani",
+      "description": "Vifaa kamili vya zana kwa matengenezo ya viwandani",
+      "features": [
+        "Seti Kamili ya Zana",
+        "Hifadhi Iliyopangwa",
+        "Kesi ya Kazi Nzito",
+        "Ubora wa Kitaalamu"
+      ]
+    }
+  },
+  "powerTools": {
+    "drillSets": {
+      "name": "Seti za Mashine za Kuchimba za Viwandani",
+      "description": "Mashine za kuchimba umeme na zisizo na waya za kazi nzito kwa matumizi ya viwandani",
+      "features": [
+        "Torque ya Juu",
+        "Kasi Inayobadilika",
+        "Chaguo Zisizo na Waya",
+        "Uwezo wa Chuck: 13mm"
+      ]
+    },
+    "angleGrinders": {
+      "name": "Mashine za Kusaga Pembeni",
+      "description": "Mashine za kusaga pembeni za kitaalamu kwa shughuli za kukata na kusaga",
+      "features": [
+        "Ukubwa Nyingi za Diski",
+        "Walinzi wa Usalama",
+        "Kuzuia Mtetemo",
+        "Motors Zenye Nguvu"
+      ]
+    },
+    "impactWrenches": {
+      "name": "Wrench za Athari",
+      "description": "Wrench za athari za torque ya juu kwa kufunga kazi nzito",
+      "features": [
+        "Nguvu ya Juu ya Athari",
+        "Utangamano wa Soketi",
+        "Mbele/Nyuma",
+        "Inaendeshwa na Betri"
+      ]
+    }
+  },
+  "cuttingTools": {
+    "sawBlades": {
+      "name": "Vipande vya Msumeno vya Viwandani",
+      "description": "Vipande vya msumeno vya ubora wa juu kwa kukata chuma na kuni",
+      "features": [
+        "Ncha za HSS/Carbide",
+        "TPI Nyingi",
+        "Ujenzi wa Bimetali",
+        "Maisha Marefu"
+      ]
+    },
+    "drillBits": {
+      "name": "Bits za Kuchimba na Reamers",
+      "description": "Zana za usahihi za kuchimba visima na kurejesha",
+      "features": [
+        "HSS/Cobalt",
+        "Urefu wa Jobber",
+        "Filimbi za Spiral",
+        "Ncha Iliyogawanyika"
+      ]
+    },
+    "millingCutters": {
+      "name": "Vipunguza vya Kusaga",
+      "description": "Vinu vya mwisho na vinu vya uso kwa shughuli za machining",
+      "features": [
+        "Carbide/HSS",
+        "Filimbi Nyingi",
+        "Chaguo Zilizopakwa",
+        "Jiometri Mbalimbali"
+      ]
+    }
+  },
+  "liftingEquipment": {
+    "chainHoists": {
+      "name": "Hoists za Mnyororo na Slingi",
+      "description": "Hoists za mnyororo za mwongozo na umeme kwa kuinua vitu vizito",
+      "features": [
+        "Uwezo wa 1-20 Tani",
+        "Umeme/Mwongozo",
+        "Huko za Usalama",
+        "Ulinzi wa Kupakia Kupita Kiasi"
+      ]
+    },
+    "wireRope": {
+      "name": "Kamba na Kebo za Waya",
+      "description": "Kamba ya waya ya nguvu ya juu kwa matumizi ya kuinua",
+      "features": [
+        "Chuma Kilichoangaziwa",
+        "Aina Nyingi za Kuweka",
+        "Vipenyo Mbalimbali",
+        "Msingi wa IWRC"
+      ]
+    },
+    "liftingHardware": {
+      "name": "Vifaa vya Kuinua",
+      "description": "Pingu, ndoano na vifaa vya kuunganisha",
+      "features": [
+        "Chuma cha pua",
+        "Pini za Usalama",
+        "Imekadiriwa kwa Mzigo",
+        "Viwango vya ANSI/ASME"
+      ]
+    }
+  },
+  "instrumentation": {
+    "sensors": {
+      "title": "Sensorer za Viwandani",
+      "shortDescription": "Aina mbalimbali za sensorer za kiwango cha viwanda kwa ajili ya otomatiki na udhibiti wa mchakato",
+      "fullDescription": "Suluhisho za hali ya juu za sensorer ikiwa ni pamoja na joto, shinikizo, msimamo, mwendo, mtiririko, kiwango, ukaribu, na sensorer maalum. Kwingineko yetu ya sensorer ina sensorer za joto za dijiti na IC za msingi wa silikoni, sensorer za shinikizo kwa uhifadhi wa maji na matumizi ya viwandani, sensorer za msimamo na teknolojia ya MEMS, na sensorer za maono na mifumo ya usindikaji wa picha kwa udhibiti wa ubora.",
+      "specifications": [
+        "Kiwango cha Joto: -40°C hadi +125°C",
+        "Kiwango cha Shinikizo: Utupu hadi 7500 PSI",
+        "Pato la Ishara: 4-20mA, 0-10V, Dijitali (USB, PNP/NPN)",
+        "Azimio: Hadi biti 24 kwa usahihi wa hali ya juu",
+        "Muda wa Majibu: <10ms kwa matumizi muhimu",
+        "Ulinzi wa IP: Ukadiriaji wa IP65/IP67/IP69K unapatikana"
+      ],
+      "applications": [
+        "Udhibiti na Ufuatiliaji wa Mchakato",
+        "Automation ya Utengenezaji",
+        "Mifumo ya Udhibiti wa Ubora",
+        "Mifumo ya Usalama na Ulinzi",
+        "Ufuatiliaji wa Mazingira",
+        "Matengenezo ya Utabiri"
+      ],
+      "features": [
+        "Viwanda 4.0 Tayari na Muunganisho wa IoT",
+        "Uchunguzi wa Kibinafsi na Usawazishaji",
+        "Itifaki Nyingi za Mawasiliano",
+        "Toleo za Uthibitisho wa Mlipuko Zinapatikana",
+        "Utulivu wa Joto Uliopanuliwa",
+        "Matumizi ya Chini ya Nishati"
+      ],
+      "keyBenefits": [
+        "Usahihi na Uaminifu wa Juu",
+        "Ujumuishaji na Usanidi Rahisi",
+        "Mahitaji ya Matengenezo Yaliyopunguzwa",
+        "Uzingatiaji wa Usalama Ulioimarishwa",
+        "Utulivu wa Muda Mrefu",
+        "Uendeshaji wa Gharama nafuu"
+      ],
+      "industries": [
+        "Mafuta na Gesi",
+        "Kemikali na Petrochemical",
+        "Uzaji wa Nguvu",
+        "Utengenezaji wa Maji",
+        "Chakula na Vinywaji",
+        "Utengenezaji wa Magari"
+      ],
+      "certifications": [
+        "CE",
+        "UL",
+        "CSA",
+        "ATEX",
+        "IECEx",
+        "SIL 2/3"
+      ],
+      "technicalData": {
+        "operatingTemp": "-40°C hadi +125°C",
+        "protection": "IP65/IP67/IP69K",
+        "communication": [
+          "4-20mA",
+          "HART",
+          "Modbus",
+          "Ethernet",
+          "Wireless"
+        ],
+        "accuracy": "±0.1% hadi ±0.5% ya upeo",
+        "power": "24V DC, 115/230V AC, Inaendeshwa na Kitanzi"
+      }
+    },
+    "transmitters": {
+      "title": "Visambazaji na Vibadilishaji",
+      "shortDescription": "Visambazaji sahihi kwa shinikizo, joto, mtiririko, na kipimo cha kiwango",
+      "fullDescription": "Aina mbalimbali za visambazaji vya viwandani ikiwa ni pamoja na visambazaji shinikizo (geji, kamili, tofauti), visambazaji joto, vifaa vya kupimia mtiririko, na visambazaji vya vigezo vingi. Inaangazia teknolojia za hali ya juu kama vile kupima mkazo, uwezo, na kuhisi piezoresistive na mawasiliano ya dijiti ya HART. Viongozi wa soko kama vile Emerson Rosemount, ABB, Yokogawa, na Honeywell hutoa suluhisho za kuaminika kwa tasnia za mchakato.",
+      "specifications": [
+        "Usahihi: ±0.05% hadi ±0.25% ya upeo",
+        "Utulivu: miaka 5 ±0.1% utulivu wa upeo",
+        "Kiwango cha Uendeshaji: Hadi shinikizo la 7,500 PSI",
+        "Uwezo wa Kiwango: Hadi uwiano wa 400:1",
+        "Pato: 4-20mA + dijiti ya HART",
+        "Vigezo vingi: Shinikizo, mtiririko, joto katika kifaa kimoja"
+      ],
+      "applications": [
+        "Ufuatiliaji wa Bomba",
+        "Udhibiti wa Mchakato",
+        "Kipimo cha Kiwango cha Tangi",
+        "Kipimo cha Mtiririko",
+        "Mifumo ya Usalama",
+        "Uzingatiaji wa Udhibiti"
+      ],
+      "features": [
+        "Uchunguzi Mahiri na Matengenezo ya Utabiri",
+        "Teknolojia ya Coplanar kwa Usakinishaji Rahisi",
+        "Uwezo wa Muhuri wa Mbali",
+        "Chaguzi za Wireless HART",
+        "Fidia ya Joto",
+        "Uchunguzi wa Kibinafsi"
+      ],
+      "keyBenefits": [
+        "Usahihi Unaoongoza Katika Sekta",
+        "Gharama ya Jumla ya Umiliki Iliyopunguzwa",
+        "Uboreshaji wa Mchakato Ulioimarishwa",
+        "Usalama na Uaminifu Ulioboreshwa",
+        "Matengenezo na Usaidizi Rahisi",
+        "Teknolojia ya Baadaye"
+      ],
+      "industries": [
+        "Mafuta na Gesi",
+        "Usindikaji wa Kemikali",
+        "Usafishaji",
+        "Uzaji wa Nguvu",
+        "Pulp na Karatasi",
+        "Uchimbaji Madini na Vyuma"
+      ],
+      "certifications": [
+        "SIL 2/3",
+        "ATEX",
+        "IECEx",
+        "FM",
+        "CSA",
+        "NEPSI"
+      ],
+      "technicalData": {
+        "operatingTemp": "-40°C hadi +85°C",
+        "protection": "IP66/IP67",
+        "communication": [
+          "HART",
+          "Foundation Fieldbus",
+          "Profibus",
+          "Wireless"
+        ],
+        "accuracy": "±0.05% hadi ±0.25% ya upeo",
+        "power": "10.5-42.4V DC, Inaendeshwa na Kitanzi"
+      }
+    }
+  },
+  "bldcSubmersibleSurface": {
+    "solar1HP": {
+      "name": "Pampu ya Maji ya BLDC ya Sola - 1HP",
+      "description": "Pampu ya maji ya BLDC inayotumia sola kwa visima vya maji",
+      "features": [
+        "Inayooana na Sola",
+        "Motor ya 1HP",
+        "Ufanisi wa Juu",
+        "Muundo Uliopozwa na Maji"
+      ]
+    },
+    "surface2HP": {
+      "name": "Pampu ya Uso ya DC - 2HP",
+      "description": "Pampu ya uso ya BLDC yenye ufanisi wa hali ya juu kwa umwagiliaji",
+      "features": [
+        "Nguvu ya 2HP",
+        "Kujijaza",
+        "Ulinzi wa Kukauka",
+        "Kasi Inayobadilika"
+      ]
+    },
+    "hybrid": {
+      "name": "Mfumo wa Pampu ya Mseto ya BLDC",
+      "description": "Mfumo mahiri wa pampu na sola na akiba ya gridi ya taifa",
+      "features": [
+        "Uendeshaji wa Mseto",
+        "Kidhibiti Mahiri",
+        "Ufuatiliaji wa Mbali",
+        "Uboreshaji wa Nishati"
+      ]
+    }
+  },
+  "bldcTableWallFan": {
+    "tableFan": {
+      "name": "Motors za Feni ya Meza ya BLDC",
+      "description": "Motors za BLDC zenye kompakt kwa feni za meza na dawati",
+      "features": [
+        "Muundo Ulioshikamana",
+        "Uendeshaji Kimya",
+        "Udhibiti wa Mbali",
+        "Kazi ya Kipima Muda"
+      ]
+    },
+    "wallFan": {
+      "name": "Motors za Feni ya Ukuta ya BLDC",
+      "description": "Motors za feni zilizowekwa ukutani na teknolojia ya BLDC",
+      "features": [
+        "Muundo wa Ukuta",
+        "Kazi ya Oscillating",
+        "Udhibiti wa Kasi",
+        "Kuokoa Nishati"
+      ]
+    },
+    "pedestalFan": {
+      "name": "Motors za Feni ya Msingi ya BLDC",
+      "description": "Motors za feni ya msingi inayoweza kurekebishwa kwa urefu",
+      "features": [
+        "Marekebisho ya Urefu",
+        "Kazi ya Kuinamisha",
+        "Onyesho la LED",
+        "Hali ya Kulala"
+      ]
+    }
+  },
+  "centrifugalPumps": {
+    "endSuction": {
+      "name": "Pampu za Kati za Kuvuta Mwisho",
+      "description": "Pampu za kuvuta mwisho za hatua moja kwa matumizi ya jumla",
+      "features": [
+        "Mtiririko: 10-5000 GPM",
+        "Kichwa: hadi futi 400",
+        "Chuma cha Kutupwa/Chuma cha pua",
+        "Viwango vya ANSI/ISO"
+      ]
+    },
+    "multiStage": {
+      "name": "Pampu za Kati za Hatua Nyingi",
+      "description": "Pampu za hatua nyingi za shinikizo la juu kwa matumizi yanayohitaji",
+      "features": [
+        "Uwezo wa Shinikizo la Juu",
+        "Muundo Ulioshikamana",
+        "Ufanisi wa Nishati",
+        "Impeller Zilizosawazishwa"
+      ]
+    },
+    "chemicalProcess": {
+      "name": "Pampu za Mchakato wa Kemikali",
+      "description": "Pampu zinazostahimili kutu kwa usindikaji wa kemikali",
+      "features": [
+        "Inayostahimili Kutumia",
+        "Chaguzi za Muundo Usio na Muhuri",
+        "API 610 Inatii",
+        "Joto la Juu"
+      ]
+    }
+  },
+  "circuitBreakersFuses": {
+    "mcb": {
+      "name": "Vivunja Mzunguko Vidogo (MCB)",
+      "description": "Vivunja mzunguko vya volti ya chini kwa matumizi ya makazi na biashara",
+      "features": [
+        "Mito ya B, C, D",
+        "Ukadiriaji wa 6-63A",
+        "Uwezo wa Kuvunja wa 10kA",
+        "Mlima wa Reli ya DIN"
+      ]
+    },
+    "mccb": {
+      "name": "Vivunja Mzunguko vya Kesi Iliyoundwa (MCCB)",
+      "description": "Vivunja mzunguko vya viwandani kwa ulinzi wa injini na nguvu",
+      "features": [
+        "Safari Inayoweza Kurekebishwa",
+        "Uwezo wa Juu wa Kuvunja",
+        "Vitengo vya Safari vya Kielektroniki",
+        "Hadi 1600A"
+      ]
+    },
+    "industrialFuses": {
+      "name": "Fyuzi za Viwandani",
+      "description": "Fyuzi za kasi ya juu kwa ulinzi wa vifaa",
+      "features": [
+        "Kutenda Haraka",
+        "Ucheleweshaji wa Muda",
+        "Volti ya Juu",
+        "Mwiri wa Kauri"
+      ]
+    }
+  },
+  "connectorsTerminals": {
+    "terminalBlocks": {
+      "name": "Vitalu vya Kituo",
+      "description": "Vitalu vya kituo vya viwandani kwa miunganisho salama ya waya",
+      "features": [
+        "Kifaa cha Spring",
+        "Aina ya Screw",
+        "Mlima wa Reli ya DIN",
+        "Ukubwa Nyingi"
+      ]
+    },
+    "industrialConnectors": {
+      "name": "Viunganishi vya Viwandani",
+      "description": "Viunganishi vya kazi nzito kwa matumizi ya viwandani",
+      "features": [
+        "Ukadiriaji wa IP67",
+        "Utaratibu wa Kufunga",
+        "Pini Nyingi",
+        "Tezi za Kebo"
+      ]
+    },
+    "signalConnectors": {
+      "name": "Viunganishi vya Ishara",
+      "description": "Viunganishi vya usahihi kwa ishara za ala",
+      "features": [
+        "Kelele Chini",
+        "Muundo Uliolindwa",
+        "Ukubwa Mdogo",
+        "Uaminifu wa Juu"
+      ]
+    }
+  },
+  "automation": {
+    "plcs": {
+      "siemensS7": {
+        "name": "Siemens SIMATIC S7-1200",
+        "description": "PLC ya moduli iliyoshikana kwa matumizi madogo hadi ya kati ya otomatiki",
+        "features": [
+          "I/O ya Dijitali na Analogi Iliyounganishwa",
+          "Mawasiliano ya Ethernet Iliyojengwa",
+          "Programu ya TIA Portal",
+          "Teknolojia Salama Inapatikana"
+        ]
+      },
+      "allenBradley": {
+        "name": "Allen-Bradley CompactLogix 5380",
+        "description": "PLC ya utendaji wa juu na uwezo jumuishi wa usalama",
+        "features": [
+          "Kazi za Usalama Zilizounganishwa",
+          "Mawasiliano ya EtherNet/IP",
+          "Programu ya Studio 5000",
+          "Ujumuishaji wa Udhibiti wa Mwendo"
+        ]
+      },
+      "schneider": {
+        "name": "Schneider Electric Modicon M580",
+        "description": "Jukwaa la PLC la biashara na urudufishaji wa kusubiri moto",
+        "features": [
+          "Ufumbuzi wa Kusubiri Moto",
+          "Usanifu wa Msingi wa Ethernet",
+          "Programu ya Unity Pro",
+          "Usalama wa Mtandao wa Juu"
+        ]
+      }
+    },
+    "hmi": {
+      "panelMount": {
+        "name": "HMI ya Kupachika Paneli",
+        "description": "Paneli za kugusa za viwandani kwa taswira ya mchakato",
+        "features": [
+          "Onyesho la Uwezo wa Kugusa Nyingi",
+          "Usanidi wa Msingi wa Wavuti",
+          "Usimamizi wa Kengele",
+          "Uwekaji Kumbukumbu wa Data"
+        ]
+      },
+      "operatorInterface": {
+        "name": "Kituo cha Kiolesura cha Opereta",
+        "description": "Vituo vya kazi vya opereta vya hali ya juu kwa udhibiti wa mchakato",
+        "features": [
+          "Onyesho la Ubora wa Juu",
+          "Usaidizi wa Itifaki Nyingi",
+          "Mielekeo ya Kihistoria",
+          "Uzalishaji wa Ripoti"
+        ]
+      },
+      "mobile": {
+        "name": "HMI ya Simu",
+        "description": "Suluhisho za rununu kwa ufuatiliaji wa mchakato wa mbali",
+        "features": [
+          "Muunganisho wa Wireless",
+          "Msaada wa Programu ya Simu",
+          "Ufikiaji wa Mbali",
+          "Arifa za Wakati Halisi"
+        ]
+      }
+    },
+    "scada": {
+      "wonderware": {
+        "name": "Jukwaa la Mfumo wa Wonderware",
+        "description": "Jukwaa pana la SCADA kwa otomatiki ya viwandani",
+        "features": [
+          "Upataji wa Data wa Wakati Halisi",
+          "Mielekeo ya Kihistoria",
+          "Usimamizi wa Kengele",
+          "HMI ya Msingi wa Wavuti"
+        ]
+      },
+      "geFix": {
+        "name": "GE iFIX SCADA",
+        "description": "Programu ya hali ya juu ya SCADA kwa taswira ya mchakato",
+        "features": [
+          "Michoro ya Mchakato",
+          "Uwekaji Kumbukumbu wa Data",
+          "Uzalishaji wa Ripoti",
+          "Muunganisho wa OPC"
+        ]
+      },
+      "siemensWinCC": {
+        "name": "Siemens WinCC SCADA",
+        "description": "Mfumo wa SCADA wa viwandani kwa ufuatiliaji na udhibiti",
+        "features": [
+          "Ujumuishaji wa TIA Portal",
+          "Msaada wa Mteja wa Wavuti",
+          "Ufikiaji wa Simu",
+          "Chaguzi za Rudufu"
+        ]
+      }
+    },
+    "dcs": {
+      "honeywellExperion": {
+        "name": "Honeywell Experion PKS",
+        "description": "Mfumo wa udhibiti uliosambazwa kwa tasnia za mchakato",
+        "features": [
+          "Udhibiti wa Mchakato",
+          "Mifumo ya Usalama",
+          "Usimamizi wa Mali",
+          "Udhibiti wa Juu"
+        ]
+      },
+      "abbSystem800xA": {
+        "name": "Mfumo wa ABB 800xA",
+        "description": "Mfumo uliopanuliwa wa otomatiki kwa michakato ya viwandani",
+        "features": [
+          "Uhandisi Uliounganishwa",
+          "Imethibitishwa na Usalama",
+          "Usalama wa Mtandao",
+          "Usimamizi wa Mzunguko wa Maisha"
+        ]
+      },
+      "emersonDeltaV": {
+        "name": "Emerson DeltaV",
+        "description": "DCS ya kisasa yenye uwezo wa mabadiliko ya kidijitali",
+        "features": [
+          "Teknolojia Pacha ya Dijitali",
+          "Uchanganuzi wa Utabiri",
+          "Ujumuishaji wa Wireless",
+          "Muunganisho wa Wingu"
+        ]
+      }
+    }
+  },
+  "productNames": {
+    "siemens": {
+      "simaticS7_1200": "Siemens SIMATIC S7-1200",
+      "simaticS7_1500": "Siemens SIMATIC S7-1500",
+      "logoSeries": "Mfululizo wa Siemens LOGO!"
+    },
+    "allenBradley": {
+      "compactLogix5380": "Allen-Bradley CompactLogix 5380",
+      "micrologix1400": "Allen-Bradley MicroLogix 1400",
+      "controlLogix5580": "Allen-Bradley ControlLogix 5580"
+    },
+    "schneider": {
+      "modiconM580": "Schneider Electric Modicon M580",
+      "modiconM340": "Schneider Electric Modicon M340",
+      "zelio": "Schneider Electric Zelio Logic"
+    },
+    "solar": {
+      "monocrystalline400W": "Paneli za Sola za Monocrystalline - 400W",
+      "polycrystalline320W": "Paneli za Sola za Polycrystalline - 320W",
+      "bifacial450W": "Paneli za Sola za Bifacial - 450W"
+    }
+  }
+}

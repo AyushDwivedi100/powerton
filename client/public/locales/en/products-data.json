@@ -1,0 +1,997 @@
+{
+  "surgeProtectors": {
+    "acPower": {
+      "name": "AC Power Surge Protectors",
+      "description": "Transient voltage surge suppressors for AC power systems",
+      "features": [
+        "Class I/II/III",
+        "MOV Technology",
+        "Status Indicators",
+        "DIN Rail Mount"
+      ]
+    },
+    "dcSolar": {
+      "name": "DC Solar Surge Protectors",
+      "description": "DC surge protection devices for solar panel systems",
+      "features": [
+        "1000V DC Rating",
+        "Type 1+2 Protection",
+        "Remote Indication",
+        "Quick Disconnect"
+      ]
+    },
+    "signalLine": {
+      "name": "Signal Line Protectors",
+      "description": "Surge protection for communication and control lines",
+      "features": [
+        "Data Line Protection",
+        "Low Capacitance",
+        "Fast Response",
+        "Multiple Channels"
+      ]
+    }
+  },
+  "labels": {
+    "power": "Motor Power",
+    "speed": "Speed Rating", 
+    "airflow": "Air Flow",
+    "efficiency": "Efficiency",
+    "warranty": "Warranty",
+    "voltage": "Voltage",
+    "solarPanelRequirement": "Solar Panel Requirement",
+    "headRange": "Head Range",
+    "flowRate": "Flow Rate",
+    "cableType": "Cable Type",
+    "conductorSize": "Conductor Size",
+    "voltageRating": "Voltage Rating",
+    "temperatureRange": "Temperature Range",
+    "shielding": "Shielding",
+    "insulation": "Insulation",
+    "flow": "Flow Rate",
+    "head": "Head",
+    "solarCompatible": "Solar Compatible",
+    "type": "Cable Type",
+    "awg": "Conductor Size",
+    "temperature": "Temperature Range"
+  },
+  "bldc-smart1200": {
+    "seo": {
+      "title": "BLDC Smart Ceiling Fan 1200 RPM - Energy Efficient | Powerton Engineering",
+      "description": "High-efficiency BLDC Smart Ceiling Fan 1200 RPM with remote control, timer function, and energy-saving technology. Perfect for homes and offices.",
+      "keywords": "BLDC ceiling fan, smart ceiling fan, energy efficient fan, 1200 RPM ceiling fan, brushless DC motor fan, remote control fan"
+    },
+    "hero": {
+      "title": "BLDC Smart Ceiling Fan 1200 RPM",
+      "subtitle": "Energy-efficient smart ceiling fan with remote control"
+    },
+    "overview": {
+      "fullDescription": "Our Smart BLDC Ceiling Fan 1200 RPM combines cutting-edge brushless DC motor technology with intelligent features for optimal energy efficiency and comfort. Designed for residential and light commercial applications, this fan delivers superior performance while consuming up to 65% less energy than traditional fans."
+    },
+    "keyBenefits": [
+      "Up to 65% Energy Savings",
+      "Smart Remote Control",
+      "Silent Operation",
+      "Long Service Life"
+    ],
+    "features": [
+      "Brushless DC Motor Technology",
+      "Smart Remote Control with Timer",
+      "Variable Speed Control",
+      "Reverse Direction Feature",
+      "LED Indicator Display",
+      "Energy Star Rated",
+      "Copper Winding Motor",
+      "Aerodynamic Blade Design"
+    ],
+    "applications": [
+      "Residential Bedrooms",
+      "Living Rooms",
+      "Office Spaces",
+      "Study Rooms",
+      "Guest Rooms",
+      "Small Commercial Spaces"
+    ],
+    "industries": [
+      "Residential Construction",
+      "Interior Design",
+      "Hospitality",
+      "Office Buildings",
+      "Educational Institutions",
+      "Healthcare Facilities"
+    ],
+    "certifications": [
+      "Energy Star Certified",
+      "ISI Mark",
+      "CE Approved",
+      "RoHS Compliant",
+      "BEE 5 Star Rating"
+    ]
+  },
+  "bldc-premium1400": {
+    "seo": {
+      "title": "BLDC Premium Ceiling Fan 1400 RPM - Advanced Features | Powerton Engineering",
+      "description": "Premium BLDC Ceiling Fan 1400 RPM with advanced smart features, superior airflow, and energy-efficient brushless motor technology.",
+      "keywords": "premium BLDC ceiling fan, 1400 RPM ceiling fan, advanced ceiling fan, smart ceiling fan, high airflow fan, energy efficient"
+    },
+    "hero": {
+      "title": "BLDC Premium Ceiling Fan 1400 RPM",
+      "subtitle": "High-performance ceiling fan with LED lighting"
+    },
+    "overview": {
+      "fullDescription": "The Premium BLDC Ceiling Fan 1400 RPM represents the pinnacle of ceiling fan technology with advanced features and superior build quality. Engineered for enhanced performance with higher airflow delivery while maintaining exceptional energy efficiency for premium residential and commercial applications."
+    },
+    "keyBenefits": [
+      "Superior Airflow Performance",
+      "Advanced Smart Controls",
+      "Premium Build Quality",
+      "Extended Warranty Coverage"
+    ],
+    "features": [
+      "High-Performance BLDC Motor",
+      "Smart WiFi Connectivity",
+      "Mobile App Control",
+      "Voice Assistant Compatible",
+      "Premium Remote Control",
+      "Aerodynamic High-Efficiency Blades",
+      "Anti-Dust Coating",
+      "Temperature Sensor Integration"
+    ],
+    "applications": [
+      "Premium Residential Spaces",
+      "Master Bedrooms",
+      "Large Living Areas",
+      "Executive Offices",
+      "Conference Rooms",
+      "Luxury Hotels"
+    ],
+    "industries": [
+      "Premium Residential",
+      "Luxury Hospitality",
+      "Corporate Offices",
+      "High-End Retail",
+      "Premium Healthcare",
+      "Upscale Educational"
+    ],
+    "certifications": [
+      "Energy Star Certified",
+      "ISI Mark",
+      "CE Approved",
+      "RoHS Compliant",
+      "BEE 5 Star Rating",
+      "WiFi Alliance Certified"
+    ]
+  },
+  "bldc-commercial1500": {
+    "seo": {
+      "title": "BLDC Commercial Ceiling Fan 1500 RPM - Heavy Duty | Powerton Engineering",
+      "description": "Commercial-grade BLDC Ceiling Fan 1500 RPM designed for heavy-duty applications with maximum airflow and industrial reliability.",
+      "keywords": "commercial BLDC ceiling fan, industrial ceiling fan, 1500 RPM fan, heavy duty ceiling fan, commercial grade fan, high airflow"
+    },
+    "hero": {
+      "title": "BLDC Commercial Ceiling Fan 1500 RPM",
+      "subtitle": "Heavy-duty ceiling fan for commercial applications"
+    },
+    "overview": {
+      "fullDescription": "Our Commercial BLDC Ceiling Fan 1500 RPM is designed for heavy-duty commercial applications requiring maximum airflow and reliability. Built with industrial-grade components and advanced motor technology to deliver consistent performance in demanding environments while maintaining energy efficiency."
+    },
+    "keyBenefits": [
+      "Maximum Airflow Delivery",
+      "Industrial-Grade Reliability",
+      "Heavy-Duty Construction",
+      "Extended Warranty Protection"
+    ],
+    "features": [
+      "Heavy-Duty BLDC Motor",
+      "Reinforced Motor Housing",
+      "Commercial-Grade Bearings",
+      "High-Strength Metal Blades",
+      "Continuous Operation Rating",
+      "Vibration-Free Design",
+      "Corrosion-Resistant Finish",
+      "Industrial Remote Control"
+    ],
+    "applications": [
+      "Commercial Buildings",
+      "Industrial Facilities",
+      "Large Office Spaces",
+      "Retail Showrooms",
+      "Warehouses",
+      "Manufacturing Plants"
+    ],
+    "industries": [
+      "Commercial Real Estate",
+      "Industrial Manufacturing",
+      "Retail & Shopping",
+      "Warehousing & Logistics",
+      "Commercial Hospitality",
+      "Educational Institutions"
+    ],
+    "certifications": [
+      "Energy Star Certified",
+      "ISI Mark",
+      "CE Approved",
+      "RoHS Compliant",
+      "BEE 5 Star Rating",
+      "Commercial Grade Certified"
+    ]
+  },
+  "solar-bldc-submersible-1hp": {
+    "seo": {
+      "title": "Solar BLDC Submersible Pump 1HP - Sustainable Water Solutions | Powerton Engineering",
+      "description": "Solar-powered BLDC Submersible Pump 1HP for agricultural irrigation and water supply with advanced solar technology and energy efficiency.",
+      "keywords": "solar submersible pump, BLDC water pump, solar water pump, 1HP submersible pump, renewable energy pump, agricultural pump"
+    },
+    "hero": {
+      "title": "Solar BLDC Submersible Pump 1HP",
+      "subtitle": "Solar-powered water pumping solution"
+    },
+    "overview": {
+      "fullDescription": "Our Solar BLDC Submersible Pump 1HP combines renewable solar energy with advanced brushless motor technology for sustainable water pumping solutions. Designed for agricultural irrigation, domestic water supply, and remote water systems with maximum efficiency and reliability."
+    },
+    "keyBenefits": [
+      "100% Solar Powered",
+      "Zero Operating Costs",
+      "Environmentally Friendly",
+      "Remote Area Compatible"
+    ],
+    "features": [
+      "Solar-Compatible BLDC Motor",
+      "MPPT Controller Included",
+      "Water-Cooled Design",
+      "Dry Run Protection",
+      "Soft Start Technology",
+      "Corrosion-Resistant Materials",
+      "Float Switch Compatible",
+      "Remote Monitoring System"
+    ],
+    "applications": [
+      "Agricultural Irrigation",
+      "Domestic Water Supply",
+      "Livestock Watering",
+      "Remote Water Systems",
+      "Rural Water Supply",
+      "Garden Irrigation"
+    ],
+    "industries": [
+      "Agriculture & Farming",
+      "Rural Development",
+      "Water Management",
+      "Renewable Energy",
+      "Irrigation Systems",
+      "Sustainable Technology"
+    ],
+    "certifications": [
+      "Solar Energy Certified",
+      "ISI Mark",
+      "CE Approved",
+      "RoHS Compliant",
+      "IP68 Rating",
+      "MNRE Approved"
+    ]
+  },
+  "instrumentation-cables": {
+    "seo": {
+      "title": "Instrumentation Cables - Precision Signal Transmission | Powerton Engineering",
+      "description": "High-quality instrumentation cables with shielded construction for accurate measurement and control signal transmission.",
+      "keywords": "instrumentation cables, shielded twisted pair, signal cables, measurement cables, control cables, industrial cables"
+    },
+    "hero": {
+      "title": "Instrumentation Cables",
+      "subtitle": "Precision Signal Transmission"
+    },
+    "overview": {
+      "fullDescription": "Professional instrumentation cables designed for precise signal transmission in industrial measurement and control applications. Features shielded twisted pair construction, excellent noise rejection, and superior signal integrity for critical instrumentation systems."
+    },
+    "keyBenefits": [
+      "Superior Signal Integrity",
+      "Excellent Noise Immunity",
+      "Wide Temperature Range",
+      "Chemical Resistant",
+      "Flexible Installation",
+      "Long Service Life"
+    ],
+    "features": [
+      "Shielded Twisted Pair Design",
+      "Low Capacitance Construction",
+      "Drain Wire Configuration",
+      "Color-Coded Identification",
+      "Flame Retardant Jacket",
+      "Oil & Chemical Resistant",
+      "Flexible Stranding",
+      "Multiple Pair Options"
+    ],
+    "applications": [
+      "Process Control Systems",
+      "Instrumentation Loops",
+      "Sensor Connections",
+      "Transmitter Wiring",
+      "Analyzer Connections",
+      "Control Room Wiring"
+    ],
+    "industries": [
+      "Oil & Gas",
+      "Chemical Processing",
+      "Power Generation",
+      "Water Treatment",
+      "Manufacturing",
+      "Pharmaceutical"
+    ],
+    "certifications": [
+      "UL Listed",
+      "CSA Certified",
+      "CE Marked",
+      "IEC 60502",
+      "NFPA 70",
+      "RoHS Compliant"
+    ]
+  },
+  "bldcCeilingFan": {
+    "smart1200": {
+      "name": "Smart BLDC Ceiling Fan - 1200mm",
+      "description": "Energy-efficient smart ceiling fan with remote control",
+      "features": [
+        "28W Power Consumption",
+        "Remote Control",
+        "5 Speed Settings",
+        "Timer Function"
+      ]
+    },
+    "premium1400": {
+      "name": "Premium BLDC Ceiling Fan - 1400mm",
+      "description": "High-performance ceiling fan with LED lighting",
+      "features": [
+        "35W Power Consumption",
+        "LED Light Integrated",
+        "Reversible Motor",
+        "Silent Operation"
+      ]
+    },
+    "commercial1500": {
+      "name": "Commercial BLDC Ceiling Fan - 1500mm",
+      "description": "Heavy-duty ceiling fan for commercial applications",
+      "features": [
+        "45W Power Consumption",
+        "Heavy-Duty Motor",
+        "High Air Flow",
+        "Durable Construction"
+      ]
+    }
+  },
+  "bldcCoolerExhaust": {
+    "exhaustFan": {
+      "name": "BLDC Exhaust Fan Motors",
+      "description": "High-efficiency motors for exhaust fan applications",
+      "features": [
+        "Variable Speed",
+        "Low Noise",
+        "Energy Efficient",
+        "Long Life"
+      ]
+    },
+    "coolerMotors": {
+      "name": "BLDC Cooler Motors",
+      "description": "Energy-efficient motors for air cooler applications",
+      "features": [
+        "High Torque",
+        "Weather Resistant",
+        "Speed Control",
+        "Maintenance Free"
+      ]
+    },
+    "ventilation": {
+      "name": "BLDC Ventilation Motors",
+      "description": "Specialized motors for industrial ventilation systems",
+      "features": [
+        "High CFM",
+        "Temperature Rated",
+        "Vibration Resistant",
+        "Smart Control"
+      ]
+    }
+  },
+  "cablesWires": {
+    "instrumentation": {
+      "name": "Instrumentation Cables",
+      "description": "Low voltage cables for instrumentation and control applications",
+      "features": [
+        "Shielded Construction",
+        "Moisture Resistant",
+        "Temperature Rated",
+        "Multiple Pairs"
+      ]
+    },
+    "powerDistribution": {
+      "name": "Power Distribution Cables",
+      "description": "High voltage cables for power transmission and distribution",
+      "features": [
+        "XLPE Insulation",
+        "Armored Construction",
+        "Fire Resistant",
+        "High Current Rating"
+      ]
+    },
+    "communication": {
+      "name": "Communication Cables",
+      "description": "Data transmission cables for industrial communication networks",
+      "features": [
+        "Cat5e/Cat6",
+        "Fiber Optic",
+        "Industrial Grade",
+        "EMI Shielding"
+      ]
+    }
+  },
+  "handTools": {
+    "wrenchSets": {
+      "name": "Professional Wrench Sets",
+      "description": "Complete sets of combination and adjustable wrenches",
+      "features": [
+        "Chrome Vanadium Steel",
+        "Metric & SAE Sizes",
+        "Professional Grade",
+        "Lifetime Warranty"
+      ]
+    },
+    "screwdriverSets": {
+      "name": "Precision Screwdriver Sets",
+      "description": "High-quality screwdrivers for precision applications",
+      "features": [
+        "Ergonomic Handles",
+        "Magnetic Tips",
+        "Multiple Head Types",
+        "Anti-Slip Grip"
+      ]
+    },
+    "toolKits": {
+      "name": "Industrial Tool Kits",
+      "description": "Comprehensive tool kits for industrial maintenance",
+      "features": [
+        "Complete Tool Set",
+        "Organized Storage",
+        "Heavy-Duty Case",
+        "Professional Quality"
+      ]
+    }
+  },
+  "powerTools": {
+    "drillSets": {
+      "name": "Industrial Drill Sets",
+      "description": "Heavy-duty electric and cordless drills for industrial applications",
+      "features": [
+        "High Torque",
+        "Variable Speed",
+        "Cordless Options",
+        "Chuck Capacity: 13mm"
+      ]
+    },
+    "angleGrinders": {
+      "name": "Angle Grinders",
+      "description": "Professional angle grinders for cutting and grinding operations",
+      "features": [
+        "Multiple Disc Sizes",
+        "Safety Guards",
+        "Anti-Vibration",
+        "Powerful Motors"
+      ]
+    },
+    "impactWrenches": {
+      "name": "Impact Wrenches",
+      "description": "High-torque impact wrenches for heavy-duty fastening",
+      "features": [
+        "High Impact Force",
+        "Socket Compatibility",
+        "Forward/Reverse",
+        "Battery Powered"
+      ]
+    }
+  },
+  "cuttingTools": {
+    "sawBlades": {
+      "name": "Industrial Saw Blades",
+      "description": "High-quality saw blades for metal and wood cutting",
+      "features": [
+        "HSS/Carbide Tips",
+        "Multiple TPI",
+        "Bi-Metal Construction",
+        "Long Life"
+      ]
+    },
+    "drillBits": {
+      "name": "Drill Bits & Reamers",
+      "description": "Precision drilling and reaming tools",
+      "features": [
+        "HSS/Cobalt",
+        "Jobber Length",
+        "Spiral Flutes",
+        "Split Point"
+      ]
+    },
+    "millingCutters": {
+      "name": "Milling Cutters",
+      "description": "End mills and face mills for machining operations",
+      "features": [
+        "Carbide/HSS",
+        "Multiple Flutes",
+        "Coated Options",
+        "Various Geometries"
+      ]
+    }
+  },
+  "liftingEquipment": {
+    "chainHoists": {
+      "name": "Chain Hoists & Slings",
+      "description": "Manual and electric chain hoists for heavy lifting",
+      "features": [
+        "1-20 Ton Capacity",
+        "Electric/Manual",
+        "Safety Hooks",
+        "Overload Protection"
+      ]
+    },
+    "wireRope": {
+      "name": "Wire Rope & Cables",
+      "description": "High-strength wire rope for lifting applications",
+      "features": [
+        "Galvanized Steel",
+        "Multiple Lay Types",
+        "Various Diameters",
+        "IWRC Core"
+      ]
+    },
+    "liftingHardware": {
+      "name": "Lifting Hardware",
+      "description": "Shackles, hooks, and rigging hardware",
+      "features": [
+        "Stainless Steel",
+        "Safety Pins",
+        "Load Rated",
+        "ANSI/ASME Standards"
+      ]
+    }
+  },
+  "instrumentation": {
+    "sensors": {
+      "title": "Industrial Sensors",
+      "shortDescription": "Comprehensive range of industrial-grade sensors for automation and process control",
+      "fullDescription": "Advanced sensor solutions including temperature, pressure, position, motion, flow, level, proximity, and specialized sensors. Our sensor portfolio features digital temperature sensors with silicon-based ICs, pressure sensors for water conservancy and industrial applications, position sensors with MEMS technology, and vision sensors with image processing systems for quality control.",
+      "specifications": [
+        "Temperature Range: -40°C to +125°C",
+        "Pressure Range: Vacuum to 7500 PSI",
+        "Signal Output: 4-20mA, 0-10V, Digital (USB, PNP/NPN)",
+        "Resolution: Up to 24-bit for high precision",
+        "Response Time: <10ms for critical applications",
+        "IP Protection: IP65/IP67/IP69K ratings available"
+      ],
+      "applications": [
+        "Process Control & Monitoring",
+        "Manufacturing Automation",
+        "Quality Control Systems",
+        "Safety & Security Systems",
+        "Environmental Monitoring",
+        "Predictive Maintenance"
+      ],
+      "features": [
+        "Industry 4.0 Ready with IoT Connectivity",
+        "Self-Diagnostics & Calibration",
+        "Multiple Communication Protocols",
+        "Explosion-Proof Variants Available",
+        "Extended Temperature Stability",
+        "Low Power Consumption"
+      ],
+      "keyBenefits": [
+        "High Accuracy & Reliability",
+        "Easy Integration & Configuration",
+        "Reduced Maintenance Requirements",
+        "Enhanced Safety Compliance",
+        "Long-Term Stability",
+        "Cost-Effective Operation"
+      ],
+      "industries": [
+        "Oil & Gas",
+        "Chemical & Petrochemical",
+        "Power Generation",
+        "Water Treatment",
+        "Food & Beverage",
+        "Automotive Manufacturing"
+      ],
+      "certifications": [
+        "CE",
+        "UL",
+        "CSA",
+        "ATEX",
+        "IECEx",
+        "SIL 2/3"
+      ],
+      "technicalData": {
+        "operatingTemp": "-40°C to +125°C",
+        "protection": "IP65/IP67/IP69K",
+        "communication": [
+          "4-20mA",
+          "HART",
+          "Modbus",
+          "Ethernet",
+          "Wireless"
+        ],
+        "accuracy": "±0.1% to ±0.5% of span",
+        "power": "24V DC, 115/230V AC, Loop-powered"
+      }
+    },
+    "transmitters": {
+      "title": "Transmitters & Transducers",
+      "shortDescription": "Precision transmitters for pressure, temperature, flow, and level measurement",
+      "fullDescription": "Comprehensive range of industrial transmitters including pressure transmitters (gauge, absolute, differential), temperature transmitters, flow measurement devices, and multivariable transmitters. Features advanced technologies like strain gauge, capacitive, and piezoresistive sensing with HART digital communication. Market leaders like Emerson Rosemount, ABB, Yokogawa, and Honeywell provide reliable solutions for process industries.",
+      "specifications": [
+        "Accuracy: ±0.05% to ±0.25% of span",
+        "Stability: 5-year ±0.1% span stability",
+        "Operating Range: Up to 7,500 PSI pressure",
+        "Rangeability: Up to 400:1 turndown ratio",
+        "Output: 4-20mA + HART digital",
+        "Multivariable: Pressure, flow, temperature in one device"
+      ],
+      "applications": [
+        "Pipeline Monitoring",
+        "Process Control",
+        "Tank Level Measurement",
+        "Flow Measurement",
+        "Safety Systems",
+        "Regulatory Compliance"
+      ],
+      "features": [
+        "Smart Diagnostics & Predictive Maintenance",
+        "Coplanar Technology for Easy Installation",
+        "Remote Seal Capability",
+        "Wireless HART Options",
+        "Temperature Compensation",
+        "Self-Diagnostics"
+      ],
+      "keyBenefits": [
+        "Industry-Leading Accuracy",
+        "Reduced Total Cost of Ownership",
+        "Enhanced Process Optimization",
+        "Improved Safety & Reliability",
+        "Easy Maintenance & Support",
+        "Future-Proof Technology"
+      ],
+      "industries": [
+        "Oil & Gas",
+        "Chemical Processing",
+        "Refining",
+        "Power Generation",
+        "Pulp & Paper",
+        "Mining & Metals"
+      ],
+      "certifications": [
+        "SIL 2/3",
+        "ATEX",
+        "IECEx",
+        "FM",
+        "CSA",
+        "NEPSI"
+      ],
+      "technicalData": {
+        "operatingTemp": "-40°C to +85°C",
+        "protection": "IP66/IP67",
+        "communication": [
+          "HART",
+          "Foundation Fieldbus",
+          "Profibus",
+          "Wireless"
+        ],
+        "accuracy": "±0.05% to ±0.25% of span",
+        "power": "10.5-42.4V DC, Loop-powered"
+      }
+    }
+  },
+  "bldcSubmersibleSurface": {
+    "solar1HP": {
+      "name": "Solar BLDC Submersible Pump - 1HP",
+      "description": "Solar-powered BLDC submersible pump for water wells",
+      "features": [
+        "Solar Compatible",
+        "1HP Motor",
+        "High Efficiency",
+        "Water-Cooled Design"
+      ]
+    },
+    "surface2HP": {
+      "name": "DC Surface Pump - 2HP",
+      "description": "High-efficiency BLDC surface pump for irrigation",
+      "features": [
+        "2HP Power",
+        "Self-Priming",
+        "Dry Run Protection",
+        "Variable Speed"
+      ]
+    },
+    "hybrid": {
+      "name": "Hybrid BLDC Pump System",
+      "description": "Intelligent pump system with solar and grid backup",
+      "features": [
+        "Hybrid Operation",
+        "Smart Controller",
+        "Remote Monitoring",
+        "Energy Optimization"
+      ]
+    }
+  },
+  "bldcTableWallFan": {
+    "tableFan": {
+      "name": "BLDC Table Fan Motors",
+      "description": "Compact BLDC motors for table and desk fans",
+      "features": [
+        "Compact Design",
+        "Silent Operation",
+        "Remote Control",
+        "Timer Function"
+      ]
+    },
+    "wallFan": {
+      "name": "BLDC Wall Fan Motors",
+      "description": "Wall-mounted fan motors with BLDC technology",
+      "features": [
+        "Wall Mount Design",
+        "Oscillating Function",
+        "Speed Control",
+        "Energy Saving"
+      ]
+    },
+    "pedestalFan": {
+      "name": "BLDC Pedestal Fan Motors",
+      "description": "Height-adjustable pedestal fan motors",
+      "features": [
+        "Height Adjustment",
+        "Tilt Function",
+        "LED Display",
+        "Sleep Mode"
+      ]
+    }
+  },
+  "centrifugalPumps": {
+    "endSuction": {
+      "name": "End Suction Centrifugal Pumps",
+      "description": "Single-stage end suction pumps for general applications",
+      "features": [
+        "Flow: 10-5000 GPM",
+        "Head: up to 400 ft",
+        "Cast Iron/Stainless Steel",
+        "ANSI/ISO Standards"
+      ]
+    },
+    "multiStage": {
+      "name": "Multi-Stage Centrifugal Pumps",
+      "description": "High-pressure multi-stage pumps for demanding applications",
+      "features": [
+        "High Pressure Capability",
+        "Compact Design",
+        "Energy Efficient",
+        "Balanced Impellers"
+      ]
+    },
+    "chemicalProcess": {
+      "name": "Chemical Process Pumps",
+      "description": "Corrosion-resistant pumps for chemical processing",
+      "features": [
+        "Corrosion Resistant",
+        "Seal-less Design Options",
+        "API 610 Compliant",
+        "High Temperature"
+      ]
+    }
+  },
+  "circuitBreakersFuses": {
+    "mcb": {
+      "name": "Miniature Circuit Breakers (MCB)",
+      "description": "Low voltage circuit breakers for residential and commercial use",
+      "features": [
+        "B, C, D Curves",
+        "6-63A Rating",
+        "10kA Breaking Capacity",
+        "DIN Rail Mount"
+      ]
+    },
+    "mccb": {
+      "name": "Molded Case Circuit Breakers (MCCB)",
+      "description": "Industrial circuit breakers for motor and power protection",
+      "features": [
+        "Adjustable Trip",
+        "High Breaking Capacity",
+        "Electronic Trip Units",
+        "Up to 1600A"
+      ]
+    },
+    "industrialFuses": {
+      "name": "Industrial Fuses",
+      "description": "High-speed fuses for equipment protection",
+      "features": [
+        "Fast Acting",
+        "Time Delay",
+        "High Voltage",
+        "Ceramic Body"
+      ]
+    }
+  },
+  "connectorsTerminals": {
+    "terminalBlocks": {
+      "name": "Terminal Blocks",
+      "description": "Industrial terminal blocks for secure wire connections",
+      "features": [
+        "Spring Clamp",
+        "Screw Type",
+        "DIN Rail Mount",
+        "Multiple Sizes"
+      ]
+    },
+    "industrialConnectors": {
+      "name": "Industrial Connectors",
+      "description": "Heavy-duty connectors for industrial applications",
+      "features": [
+        "IP67 Rating",
+        "Locking Mechanism",
+        "Multi-Pin",
+        "Cable Glands"
+      ]
+    },
+    "signalConnectors": {
+      "name": "Signal Connectors",
+      "description": "Precision connectors for instrumentation signals",
+      "features": [
+        "Low Noise",
+        "Shielded Design",
+        "Miniature Size",
+        "High Reliability"
+      ]
+    }
+  },
+  "automation": {
+    "plcs": {
+      "siemensS7": {
+        "name": "Siemens SIMATIC S7-1200",
+        "description": "Compact modular PLC for small to medium automation applications",
+        "features": [
+          "Integrated Digital and Analog I/O",
+          "Built-in Ethernet Communication",
+          "TIA Portal Programming",
+          "Failsafe Technology Available"
+        ]
+      },
+      "allenBradley": {
+        "name": "Allen-Bradley CompactLogix 5380",
+        "description": "High-performance PLC with integrated safety capabilities",
+        "features": [
+          "Integrated Safety Functions",
+          "EtherNet/IP Communication",
+          "Studio 5000 Programming",
+          "Motion Control Integration"
+        ]
+      },
+      "schneider": {
+        "name": "Schneider Electric Modicon M580",
+        "description": "Enterprise PLC platform with hot standby redundancy",
+        "features": [
+          "Hot Standby Redundancy",
+          "Ethernet Backbone Architecture",
+          "Unity Pro Programming",
+          "Advanced Cybersecurity"
+        ]
+      }
+    },
+    "hmi": {
+      "panelMount": {
+        "name": "Panel Mount HMI",
+        "description": "Industrial touchscreen panels for process visualization",
+        "features": [
+          "Multi-touch Capacitive Display",
+          "Web-based Configuration",
+          "Alarm Management",
+          "Data Logging"
+        ]
+      },
+      "operatorInterface": {
+        "name": "Operator Interface Station",
+        "description": "Advanced operator workstations for process control",
+        "features": [
+          "High-resolution Display",
+          "Multi-protocol Support",
+          "Historical Trending",
+          "Report Generation"
+        ]
+      },
+      "mobile": {
+        "name": "Mobile HMI",
+        "description": "Mobile solutions for remote process monitoring",
+        "features": [
+          "Wireless Connectivity",
+          "Mobile App Support",
+          "Remote Access",
+          "Real-time Notifications"
+        ]
+      }
+    },
+    "scada": {
+      "wonderware": {
+        "name": "Wonderware System Platform",
+        "description": "Comprehensive SCADA platform for industrial automation",
+        "features": [
+          "Real-time Data Acquisition",
+          "Historical Trending",
+          "Alarm Management",
+          "Web-based HMI"
+        ]
+      },
+      "geFix": {
+        "name": "GE iFIX SCADA",
+        "description": "Advanced SCADA software for process visualization",
+        "features": [
+          "Process Graphics",
+          "Data Logging",
+          "Report Generation",
+          "OPC Connectivity"
+        ]
+      },
+      "siemensWinCC": {
+        "name": "Siemens WinCC SCADA",
+        "description": "Industrial SCADA system for monitoring and control",
+        "features": [
+          "TIA Portal Integration",
+          "Web Client Support",
+          "Mobile Access",
+          "Redundancy Options"
+        ]
+      }
+    },
+    "dcs": {
+      "honeywellExperion": {
+        "name": "Honeywell Experion PKS",
+        "description": "Distributed control system for process industries",
+        "features": [
+          "Process Control",
+          "Safety Systems",
+          "Asset Management",
+          "Advanced Control"
+        ]
+      },
+      "abbSystem800xA": {
+        "name": "ABB System 800xA",
+        "description": "Extended automation system for industrial processes",
+        "features": [
+          "Integrated Engineering",
+          "Safety Certified",
+          "Cybersecurity",
+          "Lifecycle Management"
+        ]
+      },
+      "emersonDeltaV": {
+        "name": "Emerson DeltaV",
+        "description": "Modern DCS with digital transformation capabilities",
+        "features": [
+          "Digital Twin Technology",
+          "Predictive Analytics",
+          "Wireless Integration",
+          "Cloud Connectivity"
+        ]
+      }
+    }
+  },
+  "productNames": {
+    "siemens": {
+      "simaticS7_1200": "Siemens SIMATIC S7-1200",
+      "simaticS7_1500": "Siemens SIMATIC S7-1500",
+      "logoSeries": "Siemens LOGO! Series"
+    },
+    "allenBradley": {
+      "compactLogix5380": "Allen-Bradley CompactLogix 5380",
+      "micrologix1400": "Allen-Bradley MicroLogix 1400",
+      "controlLogix5580": "Allen-Bradley ControlLogix 5580"
+    },
+    "schneider": {
+      "modiconM580": "Schneider Electric Modicon M580",
+      "modiconM340": "Schneider Electric Modicon M340",
+      "zelio": "Schneider Electric Zelio Logic"
+    },
+    "solar": {
+      "monocrystalline400W": "Monocrystalline Solar Panels - 400W",
+      "polycrystalline320W": "Polycrystalline Solar Panels - 320W",
+      "bifacial450W": "Bifacial Solar Panels - 450W"
+    }
+  }
+}

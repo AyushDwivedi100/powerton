@@ -1,0 +1,703 @@
+{
+  "surgeProtectors": {
+    "acPower": {
+      "name": "Protectores contra sobretensiones de CA",
+      "description": "Supresores de sobretensión transitoria para sistemas de alimentación de CA",
+      "features": [
+        "Clase I/II/III",
+        "Tecnología MOV",
+        "Indicadores de estado",
+        "Montaje en carril DIN"
+      ]
+    },
+    "dcSolar": {
+      "name": "Protectores contra sobretensiones solares de CC",
+      "description": "Dispositivos de protección contra sobretensiones de CC para sistemas de paneles solares",
+      "features": [
+        "Clasificación de 1000 V CC",
+        "Protección tipo 1+2",
+        "Indicación remota",
+        "Desconexión rápida"
+      ]
+    },
+    "signalLine": {
+      "name": "Protectores de línea de señal",
+      "description": "Protección contra sobretensiones para líneas de comunicación y control",
+      "features": [
+        "Protección de línea de datos",
+        "Baja capacitancia",
+        "Respuesta rapida",
+        "Múltiples canales"
+      ]
+    }
+  },
+  "bldcCeilingFan": {
+    "smart1200": {
+      "name": "Ventilador de techo BLDC inteligente - 1200 mm",
+      "description": "Ventilador de techo inteligente de bajo consumo con control remoto",
+      "features": [
+        "Consumo de energía de 28W",
+        "Control remoto",
+        "5 ajustes de velocidad",
+        "Función de temporizador"
+      ]
+    },
+    "premium1400": {
+      "name": "Ventilador de techo BLDC Premium - 1400 mm",
+      "description": "Ventilador de techo de alto rendimiento con iluminación LED",
+      "features": [
+        "Consumo de energía de 35W",
+        "Luz LED integrada",
+        "Motor reversible",
+        "Funcionamiento silencioso"
+      ]
+    },
+    "commercial1500": {
+      "name": "Ventilador de techo BLDC comercial - 1500 mm",
+      "description": "Ventilador de techo resistente para aplicaciones comerciales",
+      "features": [
+        "Consumo de energía de 45W",
+        "Motor de servicio pesado",
+        "Alto flujo de aire",
+        "Construcción duradera"
+      ]
+    }
+  },
+  "bldcCoolerExhaust": {
+    "exhaustFan": {
+      "name": "Motores de ventilador de escape BLDC",
+      "description": "Motores de alta eficiencia para aplicaciones de ventiladores de escape",
+      "features": [
+        "Velocidad variable",
+        "Bajo nivel de ruido",
+        "Energéticamente eficiente",
+        "Larga vida"
+      ]
+    },
+    "coolerMotors": {
+      "name": "Motores de refrigeración BLDC",
+      "description": "Motores de bajo consumo para aplicaciones de refrigeración de aire",
+      "features": [
+        "Alto torque",
+        "Resistente al clima",
+        "Control de velocidad",
+        "Libre de mantenimiento"
+      ]
+    },
+    "ventilation": {
+      "name": "Motores de ventilación BLDC",
+      "description": "Motores especializados para sistemas de ventilación industrial",
+      "features": [
+        "CFM alto",
+        "Temperatura nominal",
+        "Resistente a la vibración",
+        "Control inteligente"
+      ]
+    }
+  },
+  "cablesWires": {
+    "instrumentation": {
+      "name": "Cables de instrumentación",
+      "description": "Cables de baja tensión para aplicaciones de instrumentación y control",
+      "features": [
+        "Construcción blindada",
+        "Resistente a la humedad",
+        "Temperatura nominal",
+        "Múltiples pares"
+      ]
+    },
+    "powerDistribution": {
+      "name": "Cables de distribución de energía",
+      "description": "Cables de alta tensión para transmisión y distribución de energía",
+      "features": [
+        "Aislamiento XLPE",
+        "Construcción blindada",
+        "Resistente al fuego",
+        "Alta capacidad de corriente"
+      ]
+    },
+    "communication": {
+      "name": "Cables de comunicación",
+      "description": "Cables de transmisión de datos para redes de comunicación industrial",
+      "features": [
+        "Cat5e/Cat6",
+        "Fibra óptica",
+        "Grado industrial",
+        "Blindaje EMI"
+      ]
+    }
+  },
+  "handTools": {
+    "wrenchSets": {
+      "name": "Juegos de llaves profesionales",
+      "description": "Juegos completos de llaves combinadas y ajustables",
+      "features": [
+        "Acero al cromo vanadio",
+        "Tamaños métricos y SAE",
+        "Grado profesional",
+        "Garantía de por vida"
+      ]
+    },
+    "screwdriverSets": {
+      "name": "Juegos de destornilladores de precisión",
+      "description": "Destornilladores de alta calidad para aplicaciones de precisión",
+      "features": [
+        "Mangos ergonómicos",
+        "Puntas magnéticas",
+        "Múltiples tipos de cabeza",
+        "Agarre antideslizante"
+      ]
+    },
+    "toolKits": {
+      "name": "Kits de herramientas industriales",
+      "description": "Kits de herramientas completos para mantenimiento industrial",
+      "features": [
+        "Juego de herramientas completo",
+        "Almacenamiento organizado",
+        "Estuche resistente",
+        "Calidad profesional"
+      ]
+    }
+  },
+  "powerTools": {
+    "drillSets": {
+      "name": "Juegos de taladros industriales",
+      "description": "Taladros eléctricos e inalámbricos de alta resistencia para aplicaciones industriales",
+      "features": [
+        "Alto torque",
+        "Velocidad variable",
+        "Opciones inalámbricas",
+        "Capacidad del mandril: 13 mm"
+      ]
+    },
+    "angleGrinders": {
+      "name": "Amoladoras angulares",
+      "description": "Amoladoras angulares profesionales para operaciones de corte y rectificado",
+      "features": [
+        "Múltiples tamaños de disco",
+        "Protectores de seguridad",
+        "Antivibración",
+        "Motores potentes"
+      ]
+    },
+    "impactWrenches": {
+      "name": "Llaves de impacto",
+      "description": "Llaves de impacto de alto torque para sujeción de alta resistencia",
+      "features": [
+        "Alta fuerza de impacto",
+        "Compatibilidad de zócalo",
+        "Avance / retroceso",
+        "Alimentado por batería"
+      ]
+    }
+  },
+  "cuttingTools": {
+    "sawBlades": {
+      "name": "Hojas de sierra industriales",
+      "description": "Hojas de sierra de alta calidad para cortar metal y madera",
+      "features": [
+        "Puntas HSS / Carburo",
+        "Múltiples TPI",
+        "Construcción bimetálica",
+        "Larga vida"
+      ]
+    },
+    "drillBits": {
+      "name": "Brocas y escariadores",
+      "description": "Herramientas de perforación y escariado de precisión",
+      "features": [
+        "HSS / Cobalto",
+        "Longitud del trabajo",
+        "Flautas en espiral",
+        "Punto dividido"
+      ]
+    },
+    "millingCutters": {
+      "name": "Cortadores de fresado",
+      "description": "Fresas de extremo y fresas frontales para operaciones de mecanizado",
+      "features": [
+        "Carburo / HSS",
+        "Múltiples flautas",
+        "Opciones recubiertas",
+        "Varias geometrías"
+      ]
+    }
+  },
+  "liftingEquipment": {
+    "chainHoists": {
+      "name": "Polipastos y eslingas de cadena",
+      "description": "Polipastos de cadena manuales y eléctricos para elevación pesada",
+      "features": [
+        "Capacidad de 1-20 toneladas",
+        "Eléctrico / Manual",
+        "Ganchos de seguridad",
+        "Protección de sobrecarga"
+      ]
+    },
+    "wireRope": {
+      "name": "Cables y cuerdas de alambre",
+      "description": "Cable de acero de alta resistencia para aplicaciones de elevación",
+      "features": [
+        "Acero galvanizado",
+        "Múltiples tipos de tendido",
+        "Varios diámetros",
+        "Núcleo IWRC"
+      ]
+    },
+    "liftingHardware": {
+      "name": "Hardware de elevación",
+      "description": "Grilletes, ganchos y hardware de aparejo",
+      "features": [
+        "Acero inoxidable",
+        "Pasadores de seguridad",
+        "Carga nominal",
+        "Normas ANSI / ASME"
+      ]
+    }
+  },
+  "instrumentation": {
+    "sensors": {
+      "title": "Sensores Industriales",
+      "shortDescription": "Amplia gama de sensores de grado industrial para automatización y control de procesos",
+      "fullDescription": "Soluciones de sensores avanzadas que incluyen sensores de temperatura, presión, posición, movimiento, flujo, nivel, proximidad y sensores especializados. Nuestra cartera de sensores presenta sensores de temperatura digitales con circuitos integrados basados en silicio, sensores de presión para conservación de agua y aplicaciones industriales, sensores de posición con tecnología MEMS y sensores de visión con sistemas de procesamiento de imágenes para control de calidad.",
+      "specifications": [
+        "Rango de temperatura: -40 °C a +125 °C",
+        "Rango de presión: Vacío a 7500 PSI",
+        "Salida de señal: 4-20mA, 0-10V, Digital (USB, PNP/NPN)",
+        "Resolución: Hasta 24 bits para alta precisión",
+        "Tiempo de respuesta: <10 ms para aplicaciones críticas",
+        "Protección IP: Clasificaciones IP65/IP67/IP69K disponibles"
+      ],
+      "applications": [
+        "Control y Monitoreo de Procesos",
+        "Automatización de Fabricación",
+        "Sistemas de Control de Calidad",
+        "Sistemas de Seguridad",
+        "Monitoreo Ambiental",
+        "Mantenimiento Predictivo"
+      ],
+      "features": [
+        "Listo para la Industria 4.0 con conectividad IoT",
+        "Autodiagnóstico y Calibración",
+        "Múltiples protocolos de comunicación",
+        "Variantes a prueba de explosiones disponibles",
+        "Estabilidad de temperatura extendida",
+        "Bajo consumo de energía"
+      ],
+      "keyBenefits": [
+        "Alta precisión y fiabilidad",
+        "Fácil integración y configuración",
+        "Requisitos de mantenimiento reducidos",
+        "Cumplimiento de seguridad mejorado",
+        "Estabilidad a largo plazo",
+        "Operación rentable"
+      ],
+      "industries": [
+        "Petróleo y gas",
+        "Química y petroquímica",
+        "Generación de energía",
+        "Tratamiento de aguas",
+        "Alimentos y bebidas",
+        "Fabricación de automóviles"
+      ],
+      "certifications": [
+        "CE",
+        "UL",
+        "CSA",
+        "ATEX",
+        "IECEx",
+        "SIL 2/3"
+      ],
+      "technicalData": {
+        "operatingTemp": "-40°C a +125°C",
+        "protection": "IP65/IP67/IP69K",
+        "communication": [
+          "4-20mA",
+          "HART",
+          "Modbus",
+          "Ethernet",
+          "Wireless"
+        ],
+        "accuracy": "±0.1% a ±0.5% del span",
+        "power": "24V DC, 115/230V AC, Alimentado por bucle"
+      }
+    },
+    "transmitters": {
+      "title": "Transmisores y Transductores",
+      "shortDescription": "Transmisores de precisión para medición de presión, temperatura, flujo y nivel",
+      "fullDescription": "Amplia gama de transmisores industriales, incluidos transmisores de presión (manométrica, absoluta, diferencial), transmisores de temperatura, dispositivos de medición de flujo y transmisores multivariables. Presenta tecnologías avanzadas como galgas extensométricas, detección capacitiva y piezorresistiva con comunicación digital HART. Líderes del mercado como Emerson Rosemount, ABB, Yokogawa y Honeywell ofrecen soluciones fiables para las industrias de procesos.",
+      "specifications": [
+        "Precisión: ±0.05% a ±0.25% del span",
+        "Estabilidad: Estabilidad de 5 años ±0.1% span",
+        "Rango de operación: Hasta 7,500 PSI de presión",
+        "Rango de medición: Hasta 400:1 relación de reducción",
+        "Salida: 4-20mA + HART digital",
+        "Multivariable: Presión, flujo, temperatura en un dispositivo"
+      ],
+      "applications": [
+        "Monitoreo de tuberías",
+        "Control de procesos",
+        "Medición del nivel del tanque",
+        "Medición de flujo",
+        "Sistemas de seguridad",
+        "Cumplimiento normativo"
+      ],
+      "features": [
+        "Diagnóstico inteligente y mantenimiento predictivo",
+        "Tecnología coplanar para una fácil instalación",
+        "Capacidad de sello remoto",
+        "Opciones HART inalámbricas",
+        "Compensación de temperatura",
+        "Autodiagnóstico"
+      ],
+      "keyBenefits": [
+        "Precisión líder en la industria",
+        "Costo total de propiedad reducido",
+        "Optimización de procesos mejorada",
+        "Seguridad y confiabilidad mejoradas",
+        "Fácil mantenimiento y soporte",
+        "Tecnología preparada para el futuro"
+      ],
+      "industries": [
+        "Petróleo y gas",
+        "Procesamiento químico",
+        "Refinación",
+        "Generación de energía",
+        "Pulpa y papel",
+        "Minería y metales"
+      ],
+      "certifications": [
+        "SIL 2/3",
+        "ATEX",
+        "IECEx",
+        "FM",
+        "CSA",
+        "NEPSI"
+      ],
+      "technicalData": {
+        "operatingTemp": "-40°C a +85°C",
+        "protection": "IP66/IP67",
+        "communication": [
+          "HART",
+          "Foundation Fieldbus",
+          "Profibus",
+          "Wireless"
+        ],
+        "accuracy": "±0.05% a ±0.25% del span",
+        "power": "10.5-42.4V DC, Alimentado por bucle"
+      }
+    }
+  },
+  "bldcSubmersibleSurface": {
+    "solar1HP": {
+      "name": "Bomba sumergible solar BLDC - 1HP",
+      "description": "Bomba sumergible BLDC de energía solar para pozos de agua",
+      "features": [
+        "Compatible con energía solar",
+        "Motor de 1HP",
+        "Alta eficiencia",
+        "Diseño refrigerado por agua"
+      ]
+    },
+    "surface2HP": {
+      "name": "Bomba de superficie DC - 2HP",
+      "description": "Bomba de superficie BLDC de alta eficiencia para riego",
+      "features": [
+        "Potencia de 2HP",
+        "Autocebado",
+        "Protección contra funcionamiento en seco",
+        "Velocidad variable"
+      ]
+    },
+    "hybrid": {
+      "name": "Sistema de bomba BLDC híbrida",
+      "description": "Sistema de bomba inteligente con respaldo solar y de red",
+      "features": [
+        "Operación híbrida",
+        "Controlador inteligente",
+        "Monitoreo remoto",
+        "Optimización de energía"
+      ]
+    }
+  },
+  "bldcTableWallFan": {
+    "tableFan": {
+      "name": "Motores de ventilador de mesa BLDC",
+      "description": "Motores BLDC compactos para ventiladores de mesa y escritorio",
+      "features": [
+        "Diseño compacto",
+        "Funcionamiento silencioso",
+        "Control remoto",
+        "Función de temporizador"
+      ]
+    },
+    "wallFan": {
+      "name": "Motores de ventilador de pared BLDC",
+      "description": "Motores de ventilador de pared con tecnología BLDC",
+      "features": [
+        "Diseño de montaje en pared",
+        "Función oscilante",
+        "Control de velocidad",
+        "Ahorro de energía"
+      ]
+    },
+    "pedestalFan": {
+      "name": "Motores de ventilador de pedestal BLDC",
+      "description": "Motores de ventilador de pedestal de altura ajustable",
+      "features": [
+        "Ajuste de altura",
+        "Función de inclinación",
+        "Pantalla LED",
+        "Modo de reposo"
+      ]
+    }
+  },
+  "centrifugalPumps": {
+    "endSuction": {
+      "name": "Bombas centrífugas de aspiración final",
+      "description": "Bombas de aspiración final de una etapa para aplicaciones generales",
+      "features": [
+        "Caudal: 10-5000 GPM",
+        "Altura: hasta 400 pies",
+        "Hierro fundido/Acero inoxidable",
+        "Normas ANSI/ISO"
+      ]
+    },
+    "multiStage": {
+      "name": "Bombas centrífugas multietapa",
+      "description": "Bombas multietapa de alta presión para aplicaciones exigentes",
+      "features": [
+        "Capacidad de alta presión",
+        "Diseño compacto",
+        "Eficiencia energética",
+        "Rodetes equilibrados"
+      ]
+    },
+    "chemicalProcess": {
+      "name": "Bombas de proceso químico",
+      "description": "Bombas resistentes a la corrosión para el procesamiento químico",
+      "features": [
+        "Resistente a la corrosión",
+        "Opciones de diseño sin sello",
+        "Cumple con API 610",
+        "Alta temperatura"
+      ]
+    }
+  },
+  "circuitBreakersFuses": {
+    "mcb": {
+      "name": "Interruptores automáticos en miniatura (MCB)",
+      "description": "Interruptores automáticos de bajo voltaje para uso residencial y comercial",
+      "features": [
+        "Curvas B, C, D",
+        "Clasificación de 6-63A",
+        "Capacidad de ruptura de 10kA",
+        "Montaje en carril DIN"
+      ]
+    },
+    "mccb": {
+      "name": "Interruptores automáticos de caja moldeada (MCCB)",
+      "description": "Interruptores automáticos industriales para protección de motores y energía",
+      "features": [
+        "Disparo ajustable",
+        "Alta capacidad de ruptura",
+        "Unidades de disparo electrónicas",
+        "Hasta 1600A"
+      ]
+    },
+    "industrialFuses": {
+      "name": "Fusibles industriales",
+      "description": "Fusibles de alta velocidad para protección de equipos",
+      "features": [
+        "Acción rápida",
+        "Retardo de tiempo",
+        "Alto voltaje",
+        "Cuerpo de cerámica"
+      ]
+    }
+  },
+  "connectorsTerminals": {
+    "terminalBlocks": {
+      "name": "Bloques de terminales",
+      "description": "Bloques de terminales industriales para conexiones de cables seguras",
+      "features": [
+        "Abrazadera de resorte",
+        "Tipo de tornillo",
+        "Montaje en carril DIN",
+        "Múltiples tamaños"
+      ]
+    },
+    "industrialConnectors": {
+      "name": "Conectores industriales",
+      "description": "Conectores de alta resistencia para aplicaciones industriales",
+      "features": [
+        "Clasificación IP67",
+        "Mecanismo de bloqueo",
+        "Multipin",
+        "Prensaestopas"
+      ]
+    },
+    "signalConnectors": {
+      "name": "Conectores de señal",
+      "description": "Conectores de precisión para señales de instrumentación",
+      "features": [
+        "Bajo nivel de ruido",
+        "Diseño blindado",
+        "Tamaño en miniatura",
+        "Alta fiabilidad"
+      ]
+    }
+  },
+  "automation": {
+    "plcs": {
+      "siemensS7": {
+        "name": "Siemens SIMATIC S7-1200",
+        "description": "PLC modular compacto para aplicaciones de automatización pequeñas y medianas",
+        "features": [
+          "E/S digitales y analógicas integradas",
+          "Comunicación Ethernet incorporada",
+          "Programación del portal TIA",
+          "Tecnología a prueba de fallos disponible"
+        ]
+      },
+      "allenBradley": {
+        "name": "Allen-Bradley CompactLogix 5380",
+        "description": "PLC de alto rendimiento con capacidades de seguridad integradas",
+        "features": [
+          "Funciones de seguridad integradas",
+          "Comunicación EtherNet/IP",
+          "Programación Studio 5000",
+          "Integración de control de movimiento"
+        ]
+      },
+      "schneider": {
+        "name": "Schneider Electric Modicon M580",
+        "description": "Plataforma PLC empresarial con redundancia de reserva en caliente",
+        "features": [
+          "Redundancia de reserva en caliente",
+          "Arquitectura de red troncal Ethernet",
+          "Programación Unity Pro",
+          "Ciberseguridad avanzada"
+        ]
+      }
+    },
+    "hmi": {
+      "panelMount": {
+        "name": "HMI de montaje en panel",
+        "description": "Paneles táctiles industriales para visualización de procesos",
+        "features": [
+          "Pantalla capacitiva multitáctil",
+          "Configuración basada en web",
+          "Gestión de alarmas",
+          "Registro de datos"
+        ]
+      },
+      "operatorInterface": {
+        "name": "Estación de interfaz de operador",
+        "description": "Estaciones de trabajo de operador avanzadas para el control de procesos",
+        "features": [
+          "Pantalla de alta resolución",
+          "Soporte multiprotocolo",
+          "Tendencias históricas",
+          "Generación de informes"
+        ]
+      },
+      "mobile": {
+        "name": "HMI móvil",
+        "description": "Soluciones móviles para la supervisión remota de procesos",
+        "features": [
+          "Conectividad inalámbrica",
+          "Soporte de aplicaciones móviles",
+          "Acceso remoto",
+          "Notificaciones en tiempo real"
+        ]
+      }
+    },
+    "scada": {
+      "wonderware": {
+        "name": "Plataforma del sistema Wonderware",
+        "description": "Plataforma SCADA integral para la automatización industrial",
+        "features": [
+          "Adquisición de datos en tiempo real",
+          "Tendencias históricas",
+          "Gestión de alarmas",
+          "HMI basada en web"
+        ]
+      },
+      "geFix": {
+        "name": "GE iFIX SCADA",
+        "description": "Software SCADA avanzado para la visualización de procesos",
+        "features": [
+          "Gráficos de proceso",
+          "Registro de datos",
+          "Generación de informes",
+          "Conectividad OPC"
+        ]
+      },
+      "siemensWinCC": {
+        "name": "Siemens WinCC SCADA",
+        "description": "Sistema SCADA industrial para supervisión y control",
+        "features": [
+          "Integración del portal TIA",
+          "Soporte de cliente web",
+          "Acceso móvil",
+          "Opciones de redundancia"
+        ]
+      }
+    },
+    "dcs": {
+      "honeywellExperion": {
+        "name": "Honeywell Experion PKS",
+        "description": "Sistema de control distribuido para industrias de procesos",
+        "features": [
+          "Control de proceso",
+          "Sistemas de seguridad",
+          "Gestión de activos",
+          "Control avanzado"
+        ]
+      },
+      "abbSystem800xA": {
+        "name": "ABB System 800xA",
+        "description": "Sistema de automatización extendida para procesos industriales",
+        "features": [
+          "Ingeniería integrada",
+          "Certificado de seguridad",
+          "Ciberseguridad",
+          "Gestión del ciclo de vida"
+        ]
+      },
+      "emersonDeltaV": {
+        "name": "Emerson DeltaV",
+        "description": "DCS moderno con capacidades de transformación digital",
+        "features": [
+          "Tecnología de gemelo digital",
+          "Análisis predictivo",
+          "Integración inalámbrica",
+          "Conectividad en la nube"
+        ]
+      }
+    }
+  },
+  "productNames": {
+    "siemens": {
+      "simaticS7_1200": "Siemens SIMATIC S7-1200",
+      "simaticS7_1500": "Siemens SIMATIC S7-1500",
+      "logoSeries": "Siemens LOGO! Series"
+    },
+    "allenBradley": {
+      "compactLogix5380": "Allen-Bradley CompactLogix 5380",
+      "micrologix1400": "Allen-Bradley MicroLogix 1400",
+      "controlLogix5580": "Allen-Bradley ControlLogix 5580"
+    },
+    "schneider": {
+      "modiconM580": "Schneider Electric Modicon M580",
+      "modiconM340": "Schneider Electric Modicon M340",
+      "zelio": "Schneider Electric Zelio Logic"
+    },
+    "solar": {
+      "monocrystalline400W": "Paneles solares monocristalinos - 400W",
+      "polycrystalline320W": "Paneles solares policristalinos - 320W",
+      "bifacial450W": "Paneles solares bifaciales - 450W"
+    }
+  }
+}

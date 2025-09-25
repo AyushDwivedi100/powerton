@@ -1,0 +1,52 @@
+{
+  "projects": {
+    "thermal-plant": {
+      "title": "Thermal Power Plant Automation",
+      "description": "Complete automation solution for 250MW thermal power plant including control panels, SCADA systems, and safety interlocks.",
+      "location": "Uttar Pradesh",
+      "duration": "12 months",
+      "highlights": {
+        "scada": "SCADA Implementation",
+        "safety": "Safety Systems",
+        "control": "Control Panels",
+        "monitoring": "Performance Monitoring"
+      }
+    },
+    "pharma-plant": {
+      "title": "Pharmaceutical Plant Control System",
+      "description": "Advanced process control and monitoring system for pharmaceutical manufacturing with FDA compliance and data integrity features.",
+      "location": "Maharashtra",
+      "duration": "8 months",
+      "highlights": {
+        "fda": "FDA Compliance",
+        "data": "Data Integrity",
+        "process": "Process Control",
+        "quality": "Quality Monitoring"
+      }
+    },
+    "solar-plant": {
+      "title": "10MW Solar Power Installation",
+      "description": "Complete design and installation of grid-connected solar power plant with monitoring systems and grid synchronization equipment.",
+      "location": "Rajasthan",
+      "duration": "6 months",
+      "highlights": {
+        "grid": "Grid Connection",
+        "monitoring": "Monitoring Systems",
+        "optimization": "Performance Optimization",
+        "maintenance": "Maintenance Planning"
+      }
+    },
+    "water-treatment": {
+      "title": "Municipal Water Treatment Automation",
+      "description": "Automated control system for water treatment plant serving 500,000 residents with real-time monitoring and quality control.",
+      "location": "West Bengal",
+      "duration": "10 months",
+      "highlights": {
+        "monitoring": "Real-time Monitoring",
+        "quality": "Quality Control",
+        "automation": "Automated Operations",
+        "remote": "Remote Management"
+      }
+    }
+  }
+}

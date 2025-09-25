@@ -1,0 +1,261 @@
+{
+  "title": "我们的服务",
+  "subtitle": "全面的工业工程解决方案",
+  "categories": {
+    "installation-commissioning": "安装与调试",
+    "calibration-testing": "校准与测试",
+    "technical-support": "技术支持",
+    "custom-solutions": "定制解决方案",
+    "consultation-training": "咨询与培训",
+    "supply-chain-management": "供应链管理",
+    "solar-epc": "太阳能EPC解决方案"
+  },
+  "items": {
+    "installation-commissioning": "安装与调试",
+    "calibration-testing": "校准与测试",
+    "technical-support": "技术支持",
+    "custom-solutions": "定制解决方案",
+    "consultation-training": "咨询与培训",
+    "supply-chain-management": "供应链管理",
+    "solar-epc": "太阳能EPC解决方案"
+  },
+  "durations": {
+    "installation-commissioning": "1-4周",
+    "calibration-testing": "当天-1周",
+    "technical-support": "立即-持续",
+    "custom-solutions": "2-12周",
+    "consultation-training": "1-5天",
+    "supply-chain-management": "1-7天",
+    "solar-epc": "4-16周"
+  },
+  "features": {
+    "installation-commissioning": {
+      "plc-dcs": "可编程逻辑控制器/集散控制系统安装",
+      "system-integration": "系统集成",
+      "performance-testing": "性能测试",
+      "compliance-certification": "合规认证"
+    },
+    "calibration-testing": {
+      "preventive": "预防性维护",
+      "emergency": "紧急维修 (2小时)",
+      "replacement": "组件更换",
+      "upgrades": "系统升级",
+      "nabl-certified": "国家测试与校准实验室认证委员会认证校准",
+      "accuracy-testing": "±0.25% 精度测试",
+      "compliance": "合规验证",
+      "certificates": "可追溯性证书"
+    },
+    "technical-support": {
+      "24-7-support": "24/7/365 支持",
+      "remote-diagnostics": "远程诊断",
+      "onsite-response": "4小时现场响应",
+      "emergency-hotline": "紧急热线"
+    },
+    "custom-solutions": {
+      "mcc-panels": "定制电机控制中心面板",
+      "process-automation": "过程自动化",
+      "unique-applications": "独特应用",
+      "end-to-end": "完整解决方案"
+    },
+    "consultation-training": {
+      "plc-programming": "可编程逻辑控制器编程培训",
+      "system-design": "系统设计咨询",
+      "isa-certified": "仪器仪表系统与自动化协会认证模块",
+      "hands-on": "实践研讨会"
+    },
+    "supply-chain-management": {
+      "authorized-distributors": "授权经销商",
+      "genuine-parts": "仅原装零件",
+      "warranty": "1年保修",
+      "express-delivery": "快速交付"
+    },
+    "solar-epc": {
+      "mnre-approved": "新能源和可再生能源部批准的设计",
+      "capacity": "1kW 至 1MW+ 容量",
+      "guarantee": "25年保证",
+      "grid-connection": "电网连接协助"
+    }
+  },
+  "descriptions": {
+    "installation-commissioning": "电气面板、PLC、SCADA系统和工业设备的专业安装和调试服务。",
+    "calibration-testing": "国家测试与校准实验室认证委员会认证的压力、温度、流量仪器和控制系统的精确校准和测试服务，确保法规遵从性和测量准确性，以及电气系统和工业自动化设备的全面预防性和紧急维护服务。",
+    "technical-support": "24/7 技术支持服务，提供远程诊断、现场故障排除和紧急响应。",
+    "custom-solutions": "针对独特工业需求的定制工程解决方案，包括定制MCC面板、自动化系统和过程控制解决方案。",
+    "consultation-training": "PLC编程、HMI开发和工业自动化的专家技术咨询和实践培训计划。",
+    "supply-chain-management": "电气组件和备件的全面供应链管理。授权经销商网络确保原装零件。",
+    "solar-epc": "1kW 至 1MW+ 项目的完整太阳能工程、采购和施工服务。新能源和可再生能源部批准的设计，提供25年性能保证。"
+  },
+  "serviceDetails": {
+    "technicalSupport": {
+      "overview": "24/7 技术支持服务，提供快速响应时间的问题排除、远程协助和所有电气和自动化系统的现场支持。",
+      "benefits": [
+        "24/7 技术支持可用性",
+        "远程诊断和问题排除服务",
+        "需要时提供现场紧急支持",
+        "对关键问题的快速响应时间",
+        "全面的问题解决和跟进"
+      ],
+      "technologies": [
+        "远程诊断",
+        "问题排除",
+        "现场支持",
+        "系统监控",
+        "紧急响应"
+      ],
+      "industries": [
+        "所有行业",
+        "关键基础设施",
+        "过程工业",
+        "制造业",
+        "商业设施"
+      ]
+    },
+    "installationCommissioning": {
+      "overview": "工业自动化系统、电气面板和设备的完整安装和调试服务，提供专业认证和测试。",
+      "benefits": [
+        "经认证工程师的专业安装",
+        "全面的系统测试和调试",
+        "完整的文档和认证",
+        "培训和移交支持",
+        "安装后支持和保修"
+      ],
+      "technologies": ["系统安装", "调试", "测试", "认证", "文档"],
+      "industries": ["制造业", "发电", "石油和天然气", "化学品", "水处理"]
+    },
+    "calibrationTesting": {
+      "overview": "National Accreditation Board for Testing and Calibration Laboratories-certified precision calibration and testing services for pressure, temperature, flow instruments, and control systems, combined with comprehensive preventive and emergency maintenance services for electrical systems and industrial automation equipment designed to minimize downtime and ensure operational efficiency.",
+      "benefits": [
+        "National Accreditation Board for Testing and Calibration Laboratories certified calibration services",
+        "High accuracy testing to ±0.25%",
+        "Compliance verification with international standards",
+        "Full traceability certificates and documentation",
+        "Regular calibration programs and monitoring",
+        "Preventive maintenance programs that prevent failures",
+        "Immediate response for emergency repairs",
+        "Component replacement and system upgrades",
+        "Planned maintenance to minimize downtime",
+        "Comprehensive system diagnostics and reporting"
+      ],
+      "technologies": [
+        "Precision calibration",
+        "Measurement testing",
+        "Compliance verification",
+        "Traceability",
+        "Quality assurance",
+        "Preventive maintenance",
+        "Emergency repair",
+        "Component replacement",
+        "System upgrades",
+        "Diagnostic testing"
+      ],
+      "industries": [
+        "Pharmaceutical",
+        "Chemical industry",
+        "Oil and gas",
+        "Food processing",
+        "Nuclear energy",
+        "Heavy industry",
+        "Manufacturing plants",
+        "Chemical processing",
+        "Power generation",
+        "Process industries"
+      ]
+    },
+    "customSolutions": {
+      "overview": "针对独特工业需求的定制工程解决方案，包括定制MCC面板、自动化系统和过程控制解决方案，解决特定的运营挑战。",
+      "benefits": [
+        "针对特定需求的定制MCC面板",
+        "针对独特应用的过程自动化",
+        "从设计到实施的完整解决方案",
+        "针对独特运营挑战的创新",
+        "全面的系统集成和优化"
+      ],
+      "technologies": [
+        "定制面板设计",
+        "过程自动化",
+        "系统集成",
+        "控制解决方案",
+        "工程创新"
+      ],
+      "industries": [
+        "专业制造",
+        "化学品加工",
+        "采矿和金属",
+        "水处理",
+        "可再生能源"
+      ]
+    },
+    "consultationTraining": {
+      "overview": "PLC编程、HMI开发和工业自动化的专家技术咨询和实践培训计划，提高技术能力并确保知识转移。",
+      "benefits": [
+        "可编程逻辑控制器编程方面的专家培训",
+        "系统设计和架构方面的咨询",
+        "仪器仪表系统与自动化协会认证模块",
+        "实践研讨会和实践经验",
+        "持续的技术支持和指导"
+      ],
+      "technologies": [
+        "可编程逻辑控制器编程",
+        "人机界面开发",
+        "系统设计",
+        "自动化策略",
+        "技术培训"
+      ],
+      "industries": [
+        "所有工业领域",
+        "学术机构",
+        "研发",
+        "政府组织",
+        "技术服务提供商"
+      ]
+    },
+    "supplyChainManagement": {
+      "overview": "电气组件和备件的全面供应链管理。授权经销商网络确保原装零件，并通过快速交付保持运营连续性。",
+      "benefits": [
+        "仅来自授权经销商的原装零件",
+        "所有供应商品的1年保修",
+        "满足紧急需求的快速交付服务",
+        "全面的库存管理和可用性",
+        "具有成本效益的采购和采购解决方案"
+      ],
+      "technologies": [
+        "库存管理",
+        "采购解决方案",
+        "供应链优化",
+        "分销网络",
+        "质量保证"
+      ],
+      "industries": [
+        "所有制造业",
+        "维护组织",
+        "建筑公司",
+        "政府项目",
+        "商业企业"
+      ]
+    },
+    "solarEpc": {
+      "overview": "1kW 至 1MW+ 项目的完整太阳能工程、采购和施工服务。新能源和可再生能源部批准的设计，提供25年性能保证和完整的电网连接协助。",
+      "benefits": [
+        "新能源和可再生能源部批准的设计和工程",
+        "1kW 至 1MW+ 的项目容量",
+        "25年的全面性能保证",
+        "完整的电网连接和净计量协助",
+        "从项目管理到启动的完整服务"
+      ],
+      "technologies": [
+        "太阳能工程",
+        "项目采购",
+        "施工管理",
+        "电网集成",
+        "性能监控"
+      ],
+      "industries": [
+        "住宅项目",
+        "商业和工业",
+        "政府机构",
+        "农业应用",
+        "公用事业规模项目"
+      ]
+    }
+  }
+}

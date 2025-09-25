@@ -1,0 +1,326 @@
+{
+  "contact": {
+    "fields": {
+      "name": {
+        "label": "Nom complet",
+        "placeholder": "Entrez votre nom complet",
+        "error": "Le nom est requis"
+      },
+      "email": {
+        "label": "Adresse e-mail",
+        "placeholder": "Entrez votre adresse e-mail",
+        "error": "Veuillez entrer une adresse e-mail valide"
+      },
+      "phone": {
+        "label": "Numéro de téléphone",
+        "placeholder": "Entrez votre numéro de téléphone",
+        "error": "Le numéro de téléphone est requis"
+      },
+      "company": {
+        "label": "Nom de l'entreprise",
+        "placeholder": "Entrez le nom de votre entreprise"
+      },
+      "serviceType": {
+        "label": "Type de service",
+        "placeholder": "Sélectionnez le type de service"
+      },
+      "subject": {
+        "label": "Sujet",
+        "placeholder": "Entrez le sujet",
+        "error": "Le sujet est requis"
+      },
+      "message": {
+        "label": "Message",
+        "placeholder": "Entrez votre message",
+        "error": "Le message est requis"
+      }
+    },
+    "buttons": {
+      "submit": "Envoyer le message",
+      "sending": "Envoi en cours...",
+      "callNow": "Appelez maintenant",
+      "emailUs": "Envoyez-nous un e-mail"
+    },
+    "messages": {
+      "success": "Merci ! Votre message a été envoyé avec succès.",
+      "successDesc": "Nous vous répondrons dans les 24 heures.",
+      "error": "Échec de l'envoi du message",
+      "errorDesc": "Veuillez réessayer ou nous contacter directement au {{phone}} ou {{email}}"
+    }
+  },
+  "quote": {
+    "fields": {
+      "name": {
+        "label": "Nom complet",
+        "placeholder": "Entrez votre nom complet"
+      },
+      "email": {
+        "label": "Adresse e-mail",
+        "placeholder": "Entrez votre adresse e-mail"
+      },
+      "phone": {
+        "label": "Numéro de téléphone",
+        "placeholder": "Entrez votre numéro de téléphone"
+      },
+      "company": {
+        "label": "Nom de l'entreprise",
+        "placeholder": "Entrez le nom de votre entreprise"
+      },
+      "designation": {
+        "label": "Poste",
+        "placeholder": "Entrez votre poste"
+      },
+      "projectTitle": {
+        "label": "Titre du projet",
+        "placeholder": "Entrez le titre du projet"
+      },
+      "projectType": {
+        "label": "Type de projet",
+        "placeholder": "Sélectionnez le type de projet"
+      },
+      "budget": {
+        "label": "Fourchette de budget",
+        "placeholder": "Sélectionnez la fourchette de budget"
+      },
+      "timeline": {
+        "label": "Échéancier",
+        "placeholder": "Sélectionnez l'échéancier du projet"
+      },
+      "services": {
+        "label": "Services requis",
+        "placeholder": "Sélectionnez les services requis"
+      },
+      "specifications": {
+        "label": "Spécifications techniques",
+        "placeholder": "Décrivez vos exigences techniques"
+      },
+      "additionalRequirements": {
+        "label": "Exigences supplémentaires",
+        "placeholder": "Toutes les exigences supplémentaires"
+      },
+      "industryType": {
+        "label": "Type d'industrie",
+        "placeholder": "Sélectionnez votre industrie"
+      },
+      "projectScale": {
+        "label": "Échelle du projet",
+        "placeholder": "Sélectionnez l'échelle du projet"
+      },
+      "preferredBrands": {
+        "label": "Marques préférées",
+        "placeholder": "Toutes les marques ou fabricants préférés"
+      }
+    },
+    "projectTypes": {
+      "newInstallation": "Nouvelle installation",
+      "systemUpgrade": "Mise à niveau du système",
+      "retrofit": "Modernisation",
+      "maintenance": "Contrat de maintenance",
+      "consultation": "Consultation technique",
+      "design": "Conception et ingénierie"
+    },
+    "timelines": {
+      "immediate": "Immédiat (< 1 mois)",
+      "1-3-months": "1-3 mois",
+      "3-6-months": "3-6 mois",
+      "6-12-months": "6-12 mois",
+      "1-year-plus": "Plus d'1 an"
+    },
+    "budgetRanges": {
+      "under-1-lakh": "Moins de ₹1 Lakh",
+      "1-5-lakh": "₹1-5 Lakhs",
+      "5-10-lakh": "₹5-10 Lakhs",
+      "10-25-lakh": "₹10-25 Lakhs",
+      "25-50-lakh": "₹25-50 Lakhs",
+      "50-lakh-plus": "₹50 Lakhs+",
+      "discuss": "Préférence de discuter"
+    },
+    "validation": {
+      "nameMin": "Le nom doit contenir au moins 2 caractères",
+      "emailInvalid": "Veuillez entrer une adresse e-mail valide",
+      "phoneMin": "Veuillez entrer un numéro de téléphone valide",
+      "companyRequired": "Le nom de l'entreprise est requis",
+      "projectTitleRequired": "Le titre du projet est requis",
+      "projectTypeRequired": "Veuillez sélectionner un type de projet",
+      "timelineRequired": "Veuillez sélectionner l'échéancier prévu",
+      "servicesRequired": "Veuillez sélectionner au moins un service",
+      "specificationsMin": "Veuillez fournir des spécifications détaillées (minimum 20 caractères)",
+      "nameRequired": "Le nom est requis",
+      "phoneRequired": "Le numéro de téléphone est requis",
+      "subjectRequired": "Le sujet est requis",
+      "messageRequired": "Le message est requis",
+      "firstNameRequired": "Le prénom est requis",
+      "lastNameRequired": "Le nom de famille est requis",
+      "invalidEmail": "Adresse e-mail invalide",
+      "selectService": "Veuillez sélectionner un service",
+      "projectDetailsRequired": "Les détails du projet sont requis"
+    },
+    "success": {
+      "title": "Demande de devis soumise avec succès !",
+      "description": "Notre équipe d'ingénierie examinera vos exigences et vous répondra dans les 24 à 48 heures."
+    },
+    "placeholders": {
+      "selectIndustry": "Sélectionnez l'industrie",
+      "selectProjectScale": "Sélectionnez l'échelle du projet",
+      "selectBudget": "Sélectionnez la fourchette de budget (facultatif)",
+      "detailedRequirements": "Veuillez fournir des spécifications détaillées, notamment :\n- Exigences et normes techniques\n- Spécifications et quantités de l'équipement\n- Exigences de performance\n- Conditions environnementales\n- Exigences de conformité\n- Toutes considérations spéciales...",
+      "additionalRequirements": "Toutes les exigences supplémentaires, conditions spéciales ou questions...",
+      "preferredBrands": "par exemple, Siemens, Allen-Bradley, Schneider..."
+    },
+    "labels": {
+      "industryType": "Type d'industrie",
+      "projectScale": "Échelle du projet",
+      "approximateBudget": "Budget approximatif",
+      "detailedRequirements": "Exigences détaillées *",
+      "preferredBrands": "Marques/normes préférées",
+      "additionalRequirements": "Exigences supplémentaires",
+      "projectTitle": "Titre du projet *",
+      "projectType": "Type de projet *",
+      "expectedTimeline": "Échéancier prévu *",
+      "phoneNumber": "Numéro de téléphone *",
+      "companyName": "Nom de l'entreprise *",
+      "projectInformation": "Informations sur le projet",
+      "budgetRange": "Fourchette de budget"
+    },
+    "sections": {
+      "requiredServices": "Services requis *",
+      "contactInfo": "Informations de contact",
+      "technicalSpecifications": "Spécifications techniques"
+    },
+    "error": {
+      "title": "Échec de la soumission du devis",
+      "description": "Pour une assistance immédiate : {{phone}} ou par e-mail : {{email}}"
+    },
+    "submitting": "Soumission de la demande de devis...",
+    "industries": {
+      "manufacturing": "Fabrication",
+      "powerGeneration": "Production d'énergie",
+      "waterTreatment": "Traitement de l'eau",
+      "foodProcessing": "Transformation des aliments",
+      "pharmaceutical": "Pharmaceutique",
+      "chemical": "Chimique",
+      "oilGas": "Pétrole et gaz",
+      "renewableEnergy": "Énergie renouvelable",
+      "infrastructure": "Infrastructure",
+      "other": "Autre"
+    },
+    "projectScale": {
+      "small": "Petite échelle (< 10 points d'E/S)",
+      "medium": "Moyenne échelle (10-100 points d'E/S)",
+      "large": "Grande échelle (100-500 points d'E/S)",
+      "enterprise": "Entreprise (500+ points d'E/S)"
+    },
+    "buttons": {
+      "getProfessionalQuote": "Obtenir un devis professionnel",
+      "submitRequest": "Soumettre une demande de devis",
+      "callUrgent": "Appeler pour les besoins urgents",
+      "emailRequirements": "Exigences par e-mail"
+    },
+    "process": {
+      "heading": "Que se passe-t-il ensuite ?",
+      "steps": {
+        "technicalReview": "Examen technique dans les 24 heures",
+        "detailedProposal": "Proposition détaillée avec les spécifications",
+        "costBreakdown": "Répartition des coûts et échéancier",
+        "followUpCall": "Appel de consultation de suivi"
+      }
+    },
+    "assistance": {
+      "heading": "Besoin d'une assistance immédiate ?",
+      "technicalTeam": "+91-94627-71662 (Équipe technique)",
+      "email": "info@powertonengineering.com"
+    }
+  },
+  "career": {
+    "placeholders": {
+      "fullName": "Entrez votre nom complet",
+      "email": "your.email@example.com",
+      "phone": "+91 9876543210",
+      "address": "Entrez votre adresse complète (numéro de maison/appartement, rue, ville, état, code postal)",
+      "currentCompany": "Votre entreprise actuelle (facultatif)",
+      "education": "par exemple, B.Tech Génie électrique",
+      "expectedSalary": "par exemple, 5-8 LPA ou négociable",
+      "skills": "Énumérez vos compétences techniques, vos connaissances logicielles, vos langages de programmation, vos certifications, etc.",
+      "coverLetter": "Parlez-nous de votre motivation, de vos objectifs de carrière et de la façon dont vous pouvez contribuer à notre équipe...",
+      "selectSpecialization": "Sélectionnez votre domaine d'expertise",
+      "selectExperience": "Sélectionnez le niveau d'expérience",
+      "selectAvailability": "Sélectionnez votre disponibilité"
+    },
+    "labels": {
+      "title": "Rejoignez notre équipe d'ingénierie",
+      "subtitle": "Soumettez votre candidature et faites partie de notre équipe de solutions d'ingénierie innovantes",
+      "personalInfo": "Informations personnelles",
+      "professionalInfo": "Informations professionnelles",
+      "fullName": "Nom complet",
+      "emailAddress": "Adresse e-mail",
+      "phoneNumber": "Numéro de téléphone",
+      "residingAddress": "Adresse de résidence actuelle",
+      "specialization": "Spécialisation en ingénierie",
+      "experience": "Niveau d'expérience",
+      "currentCompany": "Entreprise actuelle",
+      "availability": "Disponibilité/Préavis",
+      "education": "Formation/Qualification",
+      "expectedSalary": "Salaire attendu",
+      "technicalSkills": "Compétences et expertise techniques",
+      "coverLetter": "Lettre de motivation",
+      "resume": "CV/Curriculum Vitae"
+    },
+    "buttons": {
+      "submit": "Soumettre la candidature",
+      "submitting": "Soumission de la candidature...",
+      "uploadResume": "Télécharger le CV"
+    },
+    "validation": {
+      "nameMin": "Le nom doit contenir au moins 2 caractères",
+      "emailInvalid": "Veuillez entrer une adresse e-mail valide",
+      "phoneMin": "Le numéro de téléphone doit contenir au moins 10 chiffres",
+      "specializationRequired": "Veuillez sélectionner votre spécialisation en ingénierie",
+      "experienceRequired": "Veuillez sélectionner votre niveau d'expérience",
+      "educationRequired": "Veuillez fournir vos détails de formation",
+      "joiningTimeRequired": "Veuillez préciser dans combien de temps vous pouvez rejoindre",
+      "skillsMin": "Veuillez fournir des détails sur vos compétences",
+      "coverLetterMin": "Veuillez rédiger une brève lettre de motivation (minimum 20 caractères)",
+      "addressMin": "Veuillez indiquer votre adresse de résidence complète"
+    },
+    "specializations": {
+      "electricalEngineering": "Génie électrique",
+      "automationControl": "Automatisation et systèmes de contrôle",
+      "instrumentation": "Ingénierie de l'instrumentation",
+      "projectManagement": "Gestion de projet",
+      "technicalSales": "Ventes techniques",
+      "fieldService": "Service sur le terrain et mise en service",
+      "designEngineering": "Conception et développement",
+      "solarRenewable": "Énergie solaire et renouvelable",
+      "other": "Autre spécialisation"
+    },
+    "experience": {
+      "fresher": "Débutant (0-1 ans)",
+      "oneToThree": "1-3 ans",
+      "threeToFive": "3-5 ans",
+      "fiveToEight": "5-8 ans",
+      "eightToTwelve": "8-12 ans",
+      "twelvePlus": "12+ ans"
+    },
+    "joiningTime": {
+      "immediate": "Peut rejoindre immédiatement",
+      "fifteenDays": "Préavis de 15 jours",
+      "oneMonth": "Préavis d'un mois",
+      "twoMonths": "Préavis de deux mois",
+      "threeMonths": "Préavis de trois mois",
+      "moreThanThree": "Préavis de plus de 3 mois"
+    },
+    "helpers": {
+      "resumeFormat": "Formats acceptés : PDF, DOC, DOCX (taille max. : 5 Mo)",
+      "changeResume": "Changer le CV",
+      "uploadResume": "Télécharger le CV"
+    },
+    "success": {
+      "title": "Candidature soumise avec succès !",
+      "description": "Merci d'avoir postulé ! Nous examinerons votre candidature et vous contacterons dans les 2 à 3 jours ouvrables."
+    },
+    "error": {
+      "title": "Échec de la soumission de la candidature",
+      "description": "Veuillez sélectionner un fichier de moins de 5 Mo."
+    }
+  }
+}

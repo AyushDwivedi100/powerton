@@ -1,0 +1,52 @@
+{
+  "projects": {
+    "thermal-plant": {
+      "title": "Automatisation d'une centrale thermique",
+      "description": "Solution d'automatisation complète pour une centrale thermique de 250 MW, comprenant des panneaux de contrôle, des systèmes SCADA et des verrouillages de sécurité.",
+      "location": "Uttar Pradesh",
+      "duration": "12 mois",
+      "highlights": {
+        "scada": "Implémentation SCADA",
+        "safety": "Systèmes de sécurité",
+        "control": "Panneaux de contrôle",
+        "monitoring": "Surveillance des performances"
+      }
+    },
+    "pharma-plant": {
+      "title": "Système de contrôle d'une usine pharmaceutique",
+      "description": "Système avancé de contrôle et de surveillance des processus pour la fabrication pharmaceutique, avec conformité FDA et fonctionnalités d'intégrité des données.",
+      "location": "Maharashtra",
+      "duration": "8 mois",
+      "highlights": {
+        "fda": "Conformité FDA",
+        "data": "Intégrité des données",
+        "process": "Contrôle des processus",
+        "quality": "Contrôle qualité"
+      }
+    },
+    "solar-plant": {
+      "title": "Installation d'une centrale solaire de 10 MW",
+      "description": "Conception et installation complètes d'une centrale solaire connectée au réseau, avec des systèmes de surveillance et des équipements de synchronisation au réseau.",
+      "location": "Rajasthan",
+      "duration": "6 mois",
+      "highlights": {
+        "grid": "Connexion au réseau",
+        "monitoring": "Systèmes de surveillance",
+        "optimization": "Optimisation des performances",
+        "maintenance": "Planification de la maintenance"
+      }
+    },
+    "water-treatment": {
+      "title": "Automatisation du traitement municipal de l'eau",
+      "description": "Système de contrôle automatisé pour une station d'épuration desservant 500 000 habitants, avec surveillance en temps réel et contrôle de la qualité.",
+      "location": "Bengale-Occidental",
+      "duration": "10 mois",
+      "highlights": {
+        "monitoring": "Surveillance en temps réel",
+        "quality": "Contrôle qualité",
+        "automation": "Opérations automatisées",
+        "remote": "Gestion à distance"
+      }
+    }
+  }
+}

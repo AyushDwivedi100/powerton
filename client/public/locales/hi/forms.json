@@ -1,0 +1,326 @@
+{
+  "contact": {
+    "fields": {
+      "name": {
+        "label": "पूरा नाम",
+        "placeholder": "अपना पूरा नाम दर्ज करें",
+        "error": "नाम आवश्यक है"
+      },
+      "email": {
+        "label": "ईमेल पता",
+        "placeholder": "अपना ईमेल पता दर्ज करें",
+        "error": "कृपया एक मान्य ईमेल पता दर्ज करें"
+      },
+      "phone": {
+        "label": "फ़ोन नंबर",
+        "placeholder": "अपना फ़ोन नंबर दर्ज करें",
+        "error": "फ़ोन नंबर आवश्यक है"
+      },
+      "company": {
+        "label": "कंपनी का नाम",
+        "placeholder": "अपनी कंपनी का नाम दर्ज करें"
+      },
+      "serviceType": {
+        "label": "सेवा प्रकार",
+        "placeholder": "सेवा प्रकार का चयन करें"
+      },
+      "subject": {
+        "label": "विषय",
+        "placeholder": "विषय दर्ज करें",
+        "error": "विषय आवश्यक है"
+      },
+      "message": {
+        "label": "संदेश",
+        "placeholder": "अपना संदेश दर्ज करें",
+        "error": "संदेश आवश्यक है"
+      }
+    },
+    "buttons": {
+      "submit": "संदेश भेजें",
+      "sending": "भेजा जा रहा है...",
+      "callNow": "अभी कॉल करें",
+      "emailUs": "हमें ईमेल करें"
+    },
+    "messages": {
+      "success": "धन्यवाद! आपका संदेश सफलतापूर्वक भेजा गया है।",
+      "successDesc": "हम 24 घंटे के भीतर आपसे संपर्क करेंगे।",
+      "error": "संदेश भेजने में विफल",
+      "errorDesc": "कृपया पुनः प्रयास करें या हमसे सीधे {{phone}} या {{email}} पर संपर्क करें"
+    }
+  },
+  "quote": {
+    "fields": {
+      "name": {
+        "label": "पूरा नाम",
+        "placeholder": "अपना पूरा नाम दर्ज करें"
+      },
+      "email": {
+        "label": "ईमेल पता",
+        "placeholder": "अपना ईमेल पता दर्ज करें"
+      },
+      "phone": {
+        "label": "फ़ोन नंबर",
+        "placeholder": "अपना फ़ोन नंबर दर्ज करें"
+      },
+      "company": {
+        "label": "कंपनी का नाम",
+        "placeholder": "अपनी कंपनी का नाम दर्ज करें"
+      },
+      "designation": {
+        "label": "पद",
+        "placeholder": "अपना पद दर्ज करें"
+      },
+      "projectTitle": {
+        "label": "परियोजना शीर्षक",
+        "placeholder": "परियोजना शीर्षक दर्ज करें"
+      },
+      "projectType": {
+        "label": "परियोजना प्रकार",
+        "placeholder": "परियोजना प्रकार का चयन करें"
+      },
+      "budget": {
+        "label": "बजट सीमा",
+        "placeholder": "बजट सीमा का चयन करें"
+      },
+      "timeline": {
+        "label": "समयसीमा",
+        "placeholder": "परियोजना समयसीमा का चयन करें"
+      },
+      "services": {
+        "label": "आवश्यक सेवाएं",
+        "placeholder": "आवश्यक सेवाओं का चयन करें"
+      },
+      "specifications": {
+        "label": "तकनीकी विशिष्टताएँ",
+        "placeholder": "अपनी तकनीकी आवश्यकताओं का वर्णन करें"
+      },
+      "additionalRequirements": {
+        "label": "अतिरिक्त आवश्यकताएँ",
+        "placeholder": "कोई अतिरिक्त आवश्यकताएँ"
+      },
+      "industryType": {
+        "label": "उद्योग प्रकार",
+        "placeholder": "अपने उद्योग का चयन करें"
+      },
+      "projectScale": {
+        "label": "परियोजना का पैमाना",
+        "placeholder": "परियोजना का पैमाना चुनें"
+      },
+      "preferredBrands": {
+        "label": "पसंदीदा ब्रांड",
+        "placeholder": "कोई पसंदीदा ब्रांड या निर्माता"
+      }
+    },
+    "projectTypes": {
+      "newInstallation": "नया संस्थापन",
+      "systemUpgrade": "सिस्टम अपग्रेड",
+      "retrofit": "आधुनिकीकरण",
+      "maintenance": "रखरखाव अनुबंध",
+      "consultation": "तकनीकी परामर्श",
+      "design": "डिज़ाइन और इंजीनियरिंग"
+    },
+    "timelines": {
+      "immediate": "तत्काल (< 1 महीना)",
+      "1-3-months": "1-3 महीने",
+      "3-6-months": "3-6 महीने",
+      "6-12-months": "6-12 महीने",
+      "1-year-plus": "1 वर्ष से अधिक"
+    },
+    "budgetRanges": {
+      "under-1-lakh": "₹1 लाख से कम",
+      "1-5-lakh": "₹1-5 लाख",
+      "5-10-lakh": "₹5-10 लाख",
+      "10-25-lakh": "₹10-25 लाख",
+      "25-50-lakh": "₹25-50 लाख",
+      "50-lakh-plus": "₹50 लाख+",
+      "discuss": "चर्चा करना पसंद करेंगे"
+    },
+    "validation": {
+      "nameMin": "नाम कम से कम 2 अक्षरों का होना चाहिए",
+      "emailInvalid": "कृपया एक मान्य ईमेल पता दर्ज करें",
+      "phoneMin": "कृपया एक मान्य फ़ोन नंबर दर्ज करें",
+      "companyRequired": "कंपनी का नाम आवश्यक है",
+      "projectTitleRequired": "परियोजना शीर्षक आवश्यक है",
+      "projectTypeRequired": "कृपया एक परियोजना प्रकार का चयन करें",
+      "timelineRequired": "कृपया अपेक्षित समयरेखा का चयन करें",
+      "servicesRequired": "कृपया कम से कम एक सेवा का चयन करें",
+      "specificationsMin": "कृपया विस्तृत विशिष्टताएँ प्रदान करें (न्यूनतम 20 वर्ण)",
+      "nameRequired": "नाम आवश्यक है",
+      "phoneRequired": "फ़ोन नंबर आवश्यक है",
+      "subjectRequired": "विषय आवश्यक है",
+      "messageRequired": "संदेश आवश्यक है",
+      "firstNameRequired": "पहला नाम आवश्यक है",
+      "lastNameRequired": "अंतिम नाम आवश्यक है",
+      "invalidEmail": "अमान्य ईमेल पता",
+      "selectService": "कृपया एक सेवा का चयन करें",
+      "projectDetailsRequired": "परियोजना विवरण आवश्यक हैं"
+    },
+    "success": {
+      "title": "कोटेशन अनुरोध सफलतापूर्वक सबमिट किया गया!",
+      "description": "हमारी इंजीनियरिंग टीम आपकी आवश्यकताओं की समीक्षा करेगी और 24-48 घंटों के भीतर जवाब देगी।"
+    },
+    "placeholders": {
+      "selectIndustry": "उद्योग का चयन करें",
+      "selectProjectScale": "परियोजना का पैमाना चुनें",
+      "selectBudget": "बजट सीमा का चयन करें (वैकल्पिक)",
+      "detailedRequirements": "कृपया विस्तृत विशिष्टताएँ प्रदान करें जिनमें शामिल हैं:\n- तकनीकी आवश्यकताएँ और मानक\n- उपकरण विनिर्देश और मात्राएँ\n- प्रदर्शन आवश्यकताएँ\n- पर्यावरणीय स्थितियाँ\n- अनुपालन आवश्यकताएँ\n- कोई विशेष विचार...",
+      "additionalRequirements": "कोई अतिरिक्त आवश्यकताएँ, विशेष शर्तें या प्रश्न...",
+      "preferredBrands": "उदाहरण के लिए, सीमेंस, एलन-ब्रैडली, श्नाइडर..."
+    },
+    "labels": {
+      "industryType": "उद्योग प्रकार",
+      "projectScale": "परियोजना का पैमाना",
+      "approximateBudget": "अनुमानित बजट",
+      "detailedRequirements": "विस्तृत आवश्यकताएँ *",
+      "preferredBrands": "पसंदीदा ब्रांड/मानक",
+      "additionalRequirements": "अतिरिक्त आवश्यकताएँ",
+      "projectTitle": "परियोजना शीर्षक *",
+      "projectType": "परियोजना प्रकार *",
+      "expectedTimeline": "अपेक्षित समयरेखा *",
+      "phoneNumber": "फ़ोन नंबर *",
+      "companyName": "कंपनी का नाम *",
+      "projectInformation": "परियोजना जानकारी",
+      "budgetRange": "बजट सीमा"
+    },
+    "sections": {
+      "requiredServices": "आवश्यक सेवाएँ *",
+      "contactInfo": "संपर्क जानकारी",
+      "technicalSpecifications": "तकनीकी विशिष्टताएँ"
+    },
+    "error": {
+      "title": "कोटेशन सबमिशन विफल",
+      "description": "तत्काल सहायता के लिए: {{phone}} या ईमेल: {{email}}"
+    },
+    "submitting": "कोटेशन अनुरोध सबमिट किया जा रहा है...",
+    "industries": {
+      "manufacturing": "उत्पादन",
+      "powerGeneration": "बिजली उत्पादन",
+      "waterTreatment": "जल उपचार",
+      "foodProcessing": "खाद्य प्रसंस्करण",
+      "pharmaceutical": "औषधीय",
+      "chemical": "रासायनिक",
+      "oilGas": "तेल और गैस",
+      "renewableEnergy": "नवीकरणीय ऊर्जा",
+      "infrastructure": "बुनियादी ढाँचा",
+      "other": "अन्य"
+    },
+    "projectScale": {
+      "small": "लघु पैमाने (< 10 I/O अंक)",
+      "medium": "मध्यम पैमाना (10-100 I/O अंक)",
+      "large": "बड़े पैमाने (100-500 I/O अंक)",
+      "enterprise": "उद्यम (500+ I/O अंक)"
+    },
+    "buttons": {
+      "getProfessionalQuote": "पेशेवर कोटेशन प्राप्त करें",
+      "submitRequest": "कोटेशन अनुरोध सबमिट करें",
+      "callUrgent": "तत्काल आवश्यकताओं के लिए कॉल करें",
+      "emailRequirements": "आवश्यकताएँ ईमेल करें"
+    },
+    "process": {
+      "heading": "आगे क्या होता है?",
+      "steps": {
+        "technicalReview": "24 घंटे के भीतर तकनीकी समीक्षा",
+        "detailedProposal": "विशिष्टताओं के साथ विस्तृत प्रस्ताव",
+        "costBreakdown": "लागत ब्रेकडाउन और समयरेखा",
+        "followUpCall": "अनुवर्ती परामर्श कॉल"
+      }
+    },
+    "assistance": {
+      "heading": "क्या आपको तत्काल सहायता चाहिए?",
+      "technicalTeam": "+91-94627-71662 (तकनीकी टीम)",
+      "email": "info@powertonengineering.com"
+    }
+  },
+  "career": {
+    "placeholders": {
+      "fullName": "अपना पूरा नाम दर्ज करें",
+      "email": "your.email@example.com",
+      "phone": "+91 9876543210",
+      "address": "अपना पूरा पता दर्ज करें (मकान/फ्लैट नंबर, सड़क, शहर, राज्य, पिन)",
+      "currentCompany": "आपकी वर्तमान कंपनी (वैकल्पिक)",
+      "education": "उदाहरण के लिए, बी.टेक इलेक्ट्रिकल इंजीनियरिंग",
+      "expectedSalary": "उदाहरण के लिए, 5-8 एलपीए या बातचीत योग्य",
+      "skills": "अपने तकनीकी कौशल, सॉफ्टवेयर ज्ञान, प्रोग्रामिंग भाषाओं, प्रमाणन आदि की सूची बनाएं।",
+      "coverLetter": "हमें अपनी प्रेरणा, करियर लक्ष्यों के बारे में बताएं और आप हमारी टीम में कैसे योगदान कर सकते हैं...",
+      "selectSpecialization": "अपनी विशेषज्ञता का क्षेत्र चुनें",
+      "selectExperience": "अनुभव स्तर का चयन करें",
+      "selectAvailability": "अपनी उपलब्धता का चयन करें"
+    },
+    "labels": {
+      "title": "हमारी इंजीनियरिंग टीम में शामिल हों",
+      "subtitle": "अपना आवेदन जमा करें और हमारे नवीन इंजीनियरिंग समाधान टीम का हिस्सा बनें",
+      "personalInfo": "व्यक्तिगत जानकारी",
+      "professionalInfo": "व्यावसायिक जानकारी",
+      "fullName": "पूरा नाम",
+      "emailAddress": "ईमेल पता",
+      "phoneNumber": "फ़ोन नंबर",
+      "residingAddress": "वर्तमान निवास पता",
+      "specialization": "इंजीनियरिंग विशेषज्ञता",
+      "experience": "अनुभव स्तर",
+      "currentCompany": "वर्तमान कंपनी",
+      "availability": "उपलब्धता/नोटिस अवधि",
+      "education": "शिक्षा/योग्यता",
+      "expectedSalary": "अपेक्षित वेतन",
+      "technicalSkills": "तकनीकी कौशल और विशेषज्ञता",
+      "coverLetter": "कवर लेटर और प्रेरणा",
+      "resume": "सीवी/रिज्यूमे"
+    },
+    "buttons": {
+      "submit": "आवेदन जमा करें",
+      "submitting": "आवेदन जमा किया जा रहा है...",
+      "uploadResume": "रिज्यूमे अपलोड करें"
+    },
+    "validation": {
+      "nameMin": "नाम कम से कम 2 अक्षरों का होना चाहिए",
+      "emailInvalid": "कृपया एक मान्य ईमेल पता दर्ज करें",
+      "phoneMin": "फ़ोन नंबर कम से कम 10 अंकों का होना चाहिए",
+      "specializationRequired": "कृपया अपनी इंजीनियरिंग विशेषज्ञता का चयन करें",
+      "experienceRequired": "कृपया अपने अनुभव स्तर का चयन करें",
+      "educationRequired": "कृपया अपनी शिक्षा विवरण प्रदान करें",
+      "joiningTimeRequired": "कृपया बताएं कि आप कितनी जल्दी शामिल हो सकते हैं",
+      "skillsMin": "कृपया अपने कौशल के बारे में जानकारी प्रदान करें",
+      "coverLetterMin": "कृपया एक संक्षिप्त कवर लेटर लिखें (न्यूनतम 20 अक्षर)",
+      "addressMin": "कृपया अपना पूरा निवास पता प्रदान करें"
+    },
+    "specializations": {
+      "electricalEngineering": "इलेक्ट्रिकल इंजीनियरिंग",
+      "automationControl": "स्वचालन और नियंत्रण प्रणाली",
+      "instrumentation": "इंस्ट्रुमेंटेशन इंजीनियरिंग",
+      "projectManagement": "परियोजना प्रबंधन",
+      "technicalSales": "तकनीकी बिक्री",
+      "fieldService": "फ़ील्ड सर्विस और कमीशनिंग",
+      "designEngineering": "डिजाइन और विकास",
+      "solarRenewable": "सौर और नवीकरणीय ऊर्जा",
+      "other": "अन्य विशेषज्ञता"
+    },
+    "experience": {
+      "fresher": "फ्रेशर (0-1 वर्ष)",
+      "oneToThree": "1-3 वर्ष",
+      "threeToFive": "3-5 वर्ष",
+      "fiveToEight": "5-8 वर्ष",
+      "eightToTwelve": "8-12 वर्ष",
+      "twelvePlus": "12+ वर्ष"
+    },
+    "joiningTime": {
+      "immediate": "तुरंत शामिल हो सकते हैं",
+      "fifteenDays": "15 दिन की नोटिस अवधि",
+      "oneMonth": "1 महीने की नोटिस अवधि",
+      "twoMonths": "2 महीने की नोटिस अवधि",
+      "threeMonths": "3 महीने की नोटिस अवधि",
+      "moreThanThree": "3 महीने से अधिक की नोटिस"
+    },
+    "helpers": {
+      "resumeFormat": "स्वीकृत प्रारूप: PDF, DOC, DOCX (अधिकतम आकार: 5MB)",
+      "changeResume": "रिज्यूमे बदलें",
+      "uploadResume": "रिज्यूमे अपलोड करें"
+    },
+    "success": {
+      "title": "आवेदन सफलतापूर्वक जमा किया गया!",
+      "description": "आवेदन करने के लिए धन्यवाद! हम आपके आवेदन की समीक्षा करेंगे और 2-3 व्यावसायिक दिनों के भीतर आपसे संपर्क करेंगे।"
+    },
+    "error": {
+      "title": "आवेदन जमा करने में विफल",
+      "description": "कृपया 5MB से छोटी फ़ाइल का चयन करें।"
+    }
+  }
+}
