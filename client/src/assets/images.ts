@@ -17,7 +17,7 @@
 import automationProjectImage from '@assets/generated_images/Automation_Project_Showcase_c9ed4237.png';
 import corporateClientImage from '@assets/generated_images/Corporate_Client_Building_10ddd5dd.png';
 import engineeringTeamImage from '@assets/generated_images/Engineering_Team_Working_82b3dac7.png';
-import companyLogoImage from '@assets/generated_images/Company_Logo_Design_001b8efd.png';
+import companyLogoImage from '@assets/downloaded_images/main-logo-powerton.png';
 import industrialAutomationImage from '@assets/generated_images/Industrial_Automation_Factory_54a2a6f1.png';
 import powerPlantControlImage from '@assets/generated_images/Power_Plant_Control_Room_0bd716bf.png';
 
