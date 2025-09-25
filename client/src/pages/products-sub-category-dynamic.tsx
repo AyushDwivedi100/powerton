@@ -21,7 +21,7 @@ import {
 import { Link } from "wouter";
 import { useTranslation } from "react-i18next";
 import { getProductSubCategoryBySlug } from "@/data/products-sub-category-pages-data";
-import { getProductsForSubcategoryPage } from "@/data/products-detail-pages-data";
+import { getProductsForSubcategoryPage, getGroupsForSubcategory } from "@/data/products-detail-pages-data";
 import { getProductImageSrc } from "@/assets/images";
 import NotFound from "@/pages/not-found";
 
@@ -42,8 +42,18 @@ export default function ProductSubCategoryDynamic() {
 
   const IconComponent = product.icon;
 
-  // Get products for this subcategory (minimum 6 products)
-  const subcategoryProducts = getProductsForSubcategoryPage(slug, 6);
+  // Check if this subcategory should show product groups instead of products
+  const hasProductGroups = slug === "sensors" || slug === "transmitters";
+  
+  // Get products or product groups based on subcategory type
+  const subcategoryProducts = hasProductGroups 
+    ? [] // We'll render groups instead of products for these subcategories
+    : getProductsForSubcategoryPage(slug, 6);
+    
+  // Get product groups for subcategories that have them
+  const productGroups = hasProductGroups 
+    ? getGroupsForSubcategory(slug)
+    : [];
 
   return (
     <>
@@ -129,7 +139,60 @@ export default function ProductSubCategoryDynamic() {
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-              {subcategoryProducts.map((productItem, index) => {
+              {/* Render product groups for subcategories that have them */}
+              {hasProductGroups && productGroups.map((group, index) => {
+                const groupTitle = t(group.titleKey, {
+                  defaultValue: group.key.toUpperCase().replace("-", " "),
+                });
+                const groupDescription = t(group.descriptionKey, {
+                  defaultValue: "High-quality sensor group for industrial automation applications.",
+                });
+
+                return (
+                  <Card
+                    key={group.key}
+                    className="group hover:shadow-lg transition-all duration-300"
+                    data-testid={`card-group-${group.key}`}
+                  >
+                    <div className="relative overflow-hidden rounded-t-lg">
+                      <img
+                        src={getProductImageSrc(group.image)}
+                        alt={`${groupTitle} - ${groupDescription}`}
+                        className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
+                        loading="lazy"
+                        data-testid={`img-group-${group.key}`}
+                      />
+                      <div className="absolute inset-0 bg-black/0 group-hover:bg-black/10 transition-colors duration-300" />
+                    </div>
+
+                    <CardContent className="p-6">
+                      <h3 className="text-xl font-semibold text-foreground mb-2 group-hover:text-primary transition-colors">
+                        {groupTitle}
+                      </h3>
+                      <p className="text-muted-foreground mb-4">
+                        {groupDescription}
+                      </p>
+
+                      <div className="flex justify-between items-center">
+                        <Link href={`/products/${slug}/${group.slug}`}>
+                          <Button
+                            className="group-hover:bg-primary group-hover:text-primary-foreground transition-colors duration-200"
+                            data-testid={`button-view-group-${group.key}`}
+                          >
+                            <Eye className="mr-2 h-4 w-4" />
+                            {t("common:buttons.viewProducts", {
+                              defaultValue: "View Products",
+                            })}
+                          </Button>
+                        </Link>
+                      </div>
+                    </CardContent>
+                  </Card>
+                );
+              })}
+              
+              {/* Render individual products for subcategories without product groups */}
+              {!hasProductGroups && subcategoryProducts.map((productItem, index) => {
                 // Convert product ID/slug to proper display title
                 const formatProductTitle = (id: string) => {
                   return id

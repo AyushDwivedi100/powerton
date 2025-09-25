@@ -9,6 +9,7 @@ export interface Product {
   slug: string;
   categoryKey: string;
   subcategoryKey: string;
+  typeKey?: string; // New field for product type (pnp, npn, rtd, etc.) - temporarily optional
   image: string;
   datasheetUrl?: string;
   specs: ProductSpecs;
@@ -17,6 +18,17 @@ export interface Product {
     description: string;
     featuresKey?: string;
   };
+}
+
+export interface ProductGroup {
+  key: string;
+  slug: string;
+  titleKey: string;
+  descriptionKey: string;
+  subcategoryKey: string;
+  image: string;
+  icon?: string;
+  featuredSpecs?: string[]; // Key specs to show in table columns
 }
 
 export interface SubCategory {
@@ -30,6 +42,130 @@ export interface Category {
   translationKey: string;
   subcategories: SubCategory[];
 }
+
+// Product Groups definitions
+export const productGroups: ProductGroup[] = [
+  // Sensors subcategory groups
+  {
+    key: "pnp",
+    slug: "pnp-proximity-sensors",
+    titleKey: "products:groups.pnp.title",
+    descriptionKey: "products:groups.pnp.description",
+    subcategoryKey: "sensors",
+    image: "pnp-proximity-sensor",
+    featuredSpecs: ["manufacturer", "model", "type"]
+  },
+  {
+    key: "npn",
+    slug: "npn-proximity-sensors", 
+    titleKey: "products:groups.npn.title",
+    descriptionKey: "products:groups.npn.description",
+    subcategoryKey: "sensors",
+    image: "npn-proximity-sensor",
+    featuredSpecs: ["manufacturer", "model", "type"]
+  },
+  {
+    key: "rtd",
+    slug: "rtd-temperature-sensors",
+    titleKey: "products:groups.rtd.title", 
+    descriptionKey: "products:groups.rtd.description",
+    subcategoryKey: "sensors",
+    image: "rtd-temperature-sensor",
+    featuredSpecs: ["manufacturer", "model", "type"]
+  },
+  {
+    key: "thermocouples",
+    slug: "thermocouple-sensors",
+    titleKey: "products:groups.thermocouples.title",
+    descriptionKey: "products:groups.thermocouples.description", 
+    subcategoryKey: "sensors",
+    image: "thermocouple-temperature-sensor",
+    featuredSpecs: ["manufacturer", "model", "type"]
+  },
+  {
+    key: "load-cell",
+    slug: "load-cell-sensors",
+    titleKey: "products:groups.loadCell.title",
+    descriptionKey: "products:groups.loadCell.description",
+    subcategoryKey: "sensors", 
+    image: "load-cell",
+    featuredSpecs: ["manufacturer", "model", "type"]
+  },
+  {
+    key: "ph-sensors",
+    slug: "ph-sensors",
+    titleKey: "products:groups.phSensors.title", 
+    descriptionKey: "products:groups.phSensors.description",
+    subcategoryKey: "sensors",
+    image: "ph-sensor",
+    featuredSpecs: ["manufacturer", "model", "type"]
+  },
+
+  // Transmitters subcategory groups
+  {
+    key: "dp-type-transmitter",
+    slug: "dp-type-transmitters",
+    titleKey: "products:groups.dpTypeTransmitter.title",
+    descriptionKey: "products:groups.dpTypeTransmitter.description",
+    subcategoryKey: "transmitters",
+    image: "dp-transmitter-rosemount",
+    featuredSpecs: ["manufacturer", "model", "type"]
+  },
+  {
+    key: "p-type-transmitter",
+    slug: "p-type-transmitters",
+    titleKey: "products:groups.pTypeTransmitter.title",
+    descriptionKey: "products:groups.pTypeTransmitter.description",
+    subcategoryKey: "transmitters",
+    image: "p-transmitter-siemens",
+    featuredSpecs: ["manufacturer", "model", "type"]
+  },
+  {
+    key: "rs-type-transmitter",
+    slug: "rs-type-transmitters",
+    titleKey: "products:groups.rsTypeTransmitter.title",
+    descriptionKey: "products:groups.rsTypeTransmitter.description",
+    subcategoryKey: "transmitters",
+    image: "rs-transmitter-rosemount",
+    featuredSpecs: ["manufacturer", "model", "type"]
+  },
+  {
+    key: "magnetic-flow-meter",
+    slug: "magnetic-flow-meters",
+    titleKey: "products:groups.magneticFlowMeter.title",
+    descriptionKey: "products:groups.magneticFlowMeter.description",
+    subcategoryKey: "transmitters",
+    image: "magnetic-flowmeter-endress",
+    featuredSpecs: ["manufacturer", "model", "type"]
+  },
+  {
+    key: "mass-flow-meter",
+    slug: "mass-flow-meters",
+    titleKey: "products:groups.massFlowMeter.title",
+    descriptionKey: "products:groups.massFlowMeter.description",
+    subcategoryKey: "transmitters",
+    image: "coriolis-flowmeter-endress",
+    featuredSpecs: ["manufacturer", "model", "type"]
+  },
+  {
+    key: "vortex-flow-meter",
+    slug: "vortex-flow-meters",
+    titleKey: "products:groups.vortexFlowMeter.title",
+    descriptionKey: "products:groups.vortexFlowMeter.description",
+    subcategoryKey: "transmitters",
+    image: "vortex-flowmeter-yokogawa",
+    featuredSpecs: ["manufacturer", "model", "type"]
+  },
+  {
+    key: "volumetric-flow-meter",
+    slug: "volumetric-flow-meters",
+    titleKey: "products:groups.volumetricFlowMeter.title",
+    descriptionKey: "products:groups.volumetricFlowMeter.description",
+    subcategoryKey: "transmitters",
+    image: "volumetric-flowmeter-abb",
+    featuredSpecs: ["manufacturer", "model", "type"]
+  }
+];
 
 // Product definitions
 export const products: Product[] = [
@@ -625,6 +761,7 @@ export const products: Product[] = [
     slug: "omron-e2e-x5me1-pnp-proximity-sensor",
     categoryKey: "instrumentation-components",
     subcategoryKey: "sensors",
+    typeKey: "pnp",
     image: "sensors",
     specs: {
       type: "PNP Inductive Proximity Sensor",
@@ -679,6 +816,7 @@ export const products: Product[] = [
     slug: "sick-im12-04bns-zw1-npn-proximity",
     categoryKey: "instrumentation-components",
     subcategoryKey: "sensors",
+    typeKey: "npn",
     image: "npn-proximity-sensor",
     specs: {
       type: "NPN Inductive Proximity Sensor",
@@ -921,6 +1059,7 @@ export const products: Product[] = [
     slug: "rosemount-3051cd-dp-transmitter",
     categoryKey: "instrumentation-components",
     subcategoryKey: "transmitters",
+    typeKey: "dp-type-transmitter",
     image: "dp-transmitter-rosemount",
     specs: {
       type: "Smart Differential Pressure Transmitter",
@@ -949,6 +1088,7 @@ export const products: Product[] = [
     slug: "endress-hauser-deltabar-pmd75-dp",
     categoryKey: "instrumentation-components",
     subcategoryKey: "transmitters",
+    typeKey: "dp-type-transmitter",
     image: "dp-transmitter-endress",
     specs: {
       type: "HART DP Transmitter with Remote Seals",
@@ -977,6 +1117,7 @@ export const products: Product[] = [
     slug: "yokogawa-eja110e-dp-transmitter",
     categoryKey: "instrumentation-components",
     subcategoryKey: "transmitters",
+    typeKey: "dp-type-transmitter",
     image: "dp-transmitter-yokogawa",
     specs: {
       type: "DPharp Digital DP Transmitter",
@@ -1005,6 +1146,7 @@ export const products: Product[] = [
     slug: "honeywell-stt950-dp-transmitter",
     categoryKey: "instrumentation-components",
     subcategoryKey: "transmitters",
+    typeKey: "dp-type-transmitter",
     image: "dp-transmitter-honeywell",
     specs: {
       type: "Smart Differential Pressure Transmitter",
@@ -1093,6 +1235,7 @@ export const products: Product[] = [
     slug: "siemens-sitrans-p320-pressure",
     categoryKey: "instrumentation-components",
     subcategoryKey: "transmitters",
+    typeKey: "p-type-transmitter",
     image: "p-transmitter-siemens",
     specs: {
       type: "Absolute/Gauge Pressure Transmitter",
@@ -1121,6 +1264,7 @@ export const products: Product[] = [
     slug: "abb-2600t-series-pressure",
     categoryKey: "instrumentation-components",
     subcategoryKey: "transmitters",
+    typeKey: "p-type-transmitter",
     image: "p-transmitter-abb",
     specs: {
       type: "Gauge/Absolute Pressure Transmitter",
@@ -1149,6 +1293,7 @@ export const products: Product[] = [
     slug: "wika-a10-pressure-transmitter",
     categoryKey: "instrumentation-components",
     subcategoryKey: "transmitters",
+    typeKey: "p-type-transmitter",
     image: "p-transmitter-wika",
     specs: {
       type: "General Purpose Pressure Transmitter",
@@ -1177,6 +1322,7 @@ export const products: Product[] = [
     slug: "fuji-fcx-aii-pressure",
     categoryKey: "instrumentation-components",
     subcategoryKey: "transmitters",
+    typeKey: "p-type-transmitter",
     image: "p-transmitter-fuji",
     specs: {
       type: "Smart Pressure Transmitter",
@@ -1207,6 +1353,7 @@ export const products: Product[] = [
     slug: "rosemount-3051s-remote-seal",
     categoryKey: "instrumentation-components",
     subcategoryKey: "transmitters",
+    typeKey: "rs-type-transmitter",
     image: "rs-transmitter-rosemount",
     specs: {
       type: "Remote Seal Pressure Transmitter",
@@ -1236,6 +1383,7 @@ export const products: Product[] = [
     slug: "endress-hauser-cerabar-s-remote",
     categoryKey: "instrumentation-components",
     subcategoryKey: "transmitters",
+    typeKey: "rs-type-transmitter",
     image: "rs-transmitter-endress",
     specs: {
       type: "Ceramic Remote Seal Transmitter",
@@ -1265,6 +1413,7 @@ export const products: Product[] = [
     slug: "yokogawa-eja430e-remote-seal",
     categoryKey: "instrumentation-components",
     subcategoryKey: "transmitters",
+    typeKey: "rs-type-transmitter",
     image: "rs-transmitter-yokogawa",
     specs: {
       type: "DPharp Remote Seal Transmitter",
@@ -1294,6 +1443,7 @@ export const products: Product[] = [
     slug: "honeywell-stt850-remote-seal",
     categoryKey: "instrumentation-components",
     subcategoryKey: "transmitters",
+    typeKey: "rs-type-transmitter",
     image: "rs-transmitter-honeywell",
     specs: {
       type: "Smart Remote Seal Transmitter",
@@ -1325,6 +1475,7 @@ export const products: Product[] = [
     slug: "endress-hauser-promag-w400",
     categoryKey: "instrumentation-components",
     subcategoryKey: "transmitters",
+    typeKey: "magnetic-flow-meter",
     image: "magnetic-flowmeter-endress",
     specs: {
       type: "Electromagnetic Flow Meter",
@@ -1354,6 +1505,7 @@ export const products: Product[] = [
     slug: "rosemount-8750w-magnetic-flowmeter",
     categoryKey: "instrumentation-components",
     subcategoryKey: "transmitters",
+    typeKey: "magnetic-flow-meter",
     image: "magnetic-flowmeter-rosemount",
     specs: {
       type: "Magnetic Flow Meter with Advanced Diagnostics",
@@ -1383,6 +1535,7 @@ export const products: Product[] = [
     slug: "abb-procesmaster-fem300",
     categoryKey: "instrumentation-components",
     subcategoryKey: "transmitters",
+    typeKey: "magnetic-flow-meter",
     image: "magnetic-flowmeter-abb",
     specs: {
       type: "Electromagnetic Flow Meter",
@@ -1412,6 +1565,7 @@ export const products: Product[] = [
     slug: "yokogawa-admag-axf-magnetic",
     categoryKey: "instrumentation-components",
     subcategoryKey: "transmitters",
+    typeKey: "magnetic-flow-meter",
     image: "magnetic-flowmeter-yokogawa",
     specs: {
       type: "Magnetic Flow Meter with Dual Frequency Excitation",
@@ -1443,6 +1597,7 @@ export const products: Product[] = [
     slug: "emerson-micro-motion-cmf300",
     categoryKey: "instrumentation-components",
     subcategoryKey: "transmitters",
+    typeKey: "mass-flow-meter",
     image: "mass-flowmeter-emerson",
     specs: {
       type: "Coriolis Mass Flow Meter",
@@ -1472,6 +1627,7 @@ export const products: Product[] = [
     slug: "endress-hauser-promass-83f",
     categoryKey: "instrumentation-components",
     subcategoryKey: "transmitters",
+    typeKey: "mass-flow-meter",
     image: "mass-flowmeter-endress",
     specs: {
       type: "Coriolis Mass Flow Meter",
@@ -1501,6 +1657,7 @@ export const products: Product[] = [
     slug: "abb-sensyflow-cmf300",
     categoryKey: "instrumentation-components",
     subcategoryKey: "transmitters",
+    typeKey: "mass-flow-meter",
     image: "mass-flowmeter-abb",
     specs: {
       type: "Coriolis Mass Flow Meter",
@@ -1530,6 +1687,7 @@ export const products: Product[] = [
     slug: "yokogawa-rotamass-rccs33",
     categoryKey: "instrumentation-components",
     subcategoryKey: "transmitters",
+    typeKey: "mass-flow-meter",
     image: "mass-flowmeter-yokogawa",
     specs: {
       type: "Coriolis Mass Flow Meter",
@@ -1561,6 +1719,7 @@ export const products: Product[] = [
     slug: "endress-hauser-prowirl-f200",
     categoryKey: "instrumentation-components",
     subcategoryKey: "transmitters",
+    typeKey: "vortex-flow-meter",
     image: "vortex-flowmeter-endress",
     specs: {
       type: "Vortex Flow Meter",
@@ -1590,6 +1749,7 @@ export const products: Product[] = [
     slug: "rosemount-8800d-vortex",
     categoryKey: "instrumentation-components",
     subcategoryKey: "transmitters",
+    typeKey: "vortex-flow-meter",
     image: "vortex-flowmeter-rosemount",
     specs: {
       type: "Vortex Flow Meter with Multivariable Output",
@@ -1619,6 +1779,7 @@ export const products: Product[] = [
     slug: "yokogawa-digitalyewflo-avf",
     categoryKey: "instrumentation-components",
     subcategoryKey: "transmitters",
+    typeKey: "vortex-flow-meter",
     image: "vortex-flowmeter-yokogawa",
     specs: {
       type: "Digital Vortex Flow Meter",
@@ -1648,6 +1809,7 @@ export const products: Product[] = [
     slug: "abb-swirl-meter-fsv450",
     categoryKey: "instrumentation-components",
     subcategoryKey: "transmitters",
+    typeKey: "vortex-flow-meter",
     image: "vortex-flowmeter-abb",
     specs: {
       type: "Swirl (Vortex) Flow Meter",
@@ -1679,6 +1841,7 @@ export const products: Product[] = [
     slug: "endress-hauser-proline-t-mass-83a",
     categoryKey: "instrumentation-components",
     subcategoryKey: "transmitters",
+    typeKey: "volumetric-flow-meter",
     image: "volumetric-flowmeter-endress",
     specs: {
       type: "Thermal Mass/Volumetric Flow Meter",
@@ -1708,6 +1871,7 @@ export const products: Product[] = [
     slug: "sierra-instruments-640s-mass",
     categoryKey: "instrumentation-components",
     subcategoryKey: "transmitters",
+    typeKey: "volumetric-flow-meter",
     image: "volumetric-flowmeter-sierra",
     specs: {
       type: "Thermal Mass Flow Meter",
@@ -1737,6 +1901,7 @@ export const products: Product[] = [
     slug: "bronkhorst-in-flow-f230",
     categoryKey: "instrumentation-components",
     subcategoryKey: "transmitters",
+    typeKey: "volumetric-flow-meter",
     image: "volumetric-flowmeter-bronkhorst",
     specs: {
       type: "Ultrasonic Gas/Liquid Flow Meter",
@@ -7120,4 +7285,33 @@ export const getProductDetailBySlug = (slug: string, t: any) => {
       canonicalUrl: `https://powertonengineering.com/products/detail/${slug}`
     }
   };
+};
+
+// === Product Group Utility Functions ===
+
+// Get all product groups for a subcategory
+export const getGroupsForSubcategory = (subcategoryKey: string): ProductGroup[] => {
+  return productGroups.filter(group => group.subcategoryKey === subcategoryKey);
+};
+
+// Get product group by slug and subcategory
+export const getProductGroupBySlug = (subcategoryKey: string, groupSlug: string): ProductGroup | undefined => {
+  return productGroups.find(group => 
+    group.subcategoryKey === subcategoryKey && group.slug === groupSlug
+  );
+};
+
+// Get all products for a specific group
+export const getProductsByGroup = (groupKey: string): Product[] => {
+  return products.filter(product => product.typeKey === groupKey);
+};
+
+// Get products for group page 
+export const getProductsForGroupPage = (groupKey: string): Product[] => {
+  return getProductsByGroup(groupKey);
+};
+
+// Get all product group slugs for routing
+export const getAllProductGroupSlugs = (): string[] => {
+  return productGroups.map(group => group.slug);
 };
