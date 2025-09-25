@@ -164,6 +164,1021 @@ export const productGroups: ProductGroup[] = [
     subcategoryKey: "transmitters",
     image: "volumetric-flowmeter-abb",
     featuredSpecs: ["manufacturer", "model", "type"]
+  },
+
+  // Instrumentation Components - Additional subcategories
+  {
+    key: "pressure-switches",
+    slug: "pressure-switches",
+    titleKey: "products:groups.pressureSwitches.title",
+    descriptionKey: "products:groups.pressureSwitches.description",
+    subcategoryKey: "switches",
+    image: "pressure-switch",
+    featuredSpecs: ["manufacturer", "model", "type"]
+  },
+  {
+    key: "level-switches",
+    slug: "level-switches",
+    titleKey: "products:groups.levelSwitches.title",
+    descriptionKey: "products:groups.levelSwitches.description",
+    subcategoryKey: "switches",
+    image: "level-switch",
+    featuredSpecs: ["manufacturer", "model", "type"]
+  },
+  {
+    key: "temperature-switches",
+    slug: "temperature-switches",
+    titleKey: "products:groups.temperatureSwitches.title",
+    descriptionKey: "products:groups.temperatureSwitches.description",
+    subcategoryKey: "switches",
+    image: "temperature-switch",
+    featuredSpecs: ["manufacturer", "model", "type"]
+  },
+  {
+    key: "control-valves",
+    slug: "control-valves",
+    titleKey: "products:groups.controlValves.title",
+    descriptionKey: "products:groups.controlValves.description",
+    subcategoryKey: "valves",
+    image: "control-valve",
+    featuredSpecs: ["manufacturer", "model", "type"]
+  },
+  {
+    key: "ball-valves",
+    slug: "ball-valves",
+    titleKey: "products:groups.ballValves.title",
+    descriptionKey: "products:groups.ballValves.description",
+    subcategoryKey: "valves",
+    image: "ball-valve",
+    featuredSpecs: ["manufacturer", "model", "type"]
+  },
+  {
+    key: "butterfly-valves",
+    slug: "butterfly-valves",
+    titleKey: "products:groups.butterflyValves.title",
+    descriptionKey: "products:groups.butterflyValves.description",
+    subcategoryKey: "valves",
+    image: "butterfly-valve",
+    featuredSpecs: ["manufacturer", "model", "type"]
+  },
+  {
+    key: "process-analyzers",
+    slug: "process-analyzers",
+    titleKey: "products:groups.processAnalyzers.title",
+    descriptionKey: "products:groups.processAnalyzers.description",
+    subcategoryKey: "analyzers",
+    image: "process-analyzer",
+    featuredSpecs: ["manufacturer", "model", "type"]
+  },
+  {
+    key: "gas-analyzers",
+    slug: "gas-analyzers",
+    titleKey: "products:groups.gasAnalyzers.title",
+    descriptionKey: "products:groups.gasAnalyzers.description",
+    subcategoryKey: "analyzers",
+    image: "gas-analyzer",
+    featuredSpecs: ["manufacturer", "model", "type"]
+  },
+  {
+    key: "liquid-analyzers",
+    slug: "liquid-analyzers",
+    titleKey: "products:groups.liquidAnalyzers.title",
+    descriptionKey: "products:groups.liquidAnalyzers.description",
+    subcategoryKey: "analyzers",
+    image: "liquid-analyzer",
+    featuredSpecs: ["manufacturer", "model", "type"]
+  },
+
+  // BLDC Motor Systems subcategory groups
+  {
+    key: "standard-ceiling-fans",
+    slug: "standard-ceiling-fans",
+    titleKey: "products:groups.standardCeilingFans.title",
+    descriptionKey: "products:groups.standardCeilingFans.description",
+    subcategoryKey: "bldc-ceiling-fan",
+    image: "bldc-ceiling-fan",
+    featuredSpecs: ["power", "speed", "airflow"]
+  },
+  {
+    key: "premium-ceiling-fans",
+    slug: "premium-ceiling-fans",
+    titleKey: "products:groups.premiumCeilingFans.title",
+    descriptionKey: "products:groups.premiumCeilingFans.description",
+    subcategoryKey: "bldc-ceiling-fan",
+    image: "bldc-ceiling-fan",
+    featuredSpecs: ["power", "speed", "airflow"]
+  },
+  {
+    key: "commercial-ceiling-fans",
+    slug: "commercial-ceiling-fans",
+    titleKey: "products:groups.commercialCeilingFans.title",
+    descriptionKey: "products:groups.commercialCeilingFans.description",
+    subcategoryKey: "bldc-ceiling-fan",
+    image: "bldc-ceiling-fan",
+    featuredSpecs: ["power", "speed", "airflow"]
+  },
+  {
+    key: "exhaust-fan-motors",
+    slug: "exhaust-fan-motors",
+    titleKey: "products:groups.exhaustFanMotors.title",
+    descriptionKey: "products:groups.exhaustFanMotors.description",
+    subcategoryKey: "bldc-cooler-exhaust-motor",
+    image: "bldc-exhaust-motor",
+    featuredSpecs: ["power", "voltage", "efficiency"]
+  },
+  {
+    key: "cooler-motors",
+    slug: "cooler-motors",
+    titleKey: "products:groups.coolerMotors.title",
+    descriptionKey: "products:groups.coolerMotors.description",
+    subcategoryKey: "bldc-cooler-exhaust-motor",
+    image: "bldc-cooler-motor",
+    featuredSpecs: ["power", "voltage", "efficiency"]
+  },
+  {
+    key: "ventilation-motors",
+    slug: "ventilation-motors",
+    titleKey: "products:groups.ventilationMotors.title",
+    descriptionKey: "products:groups.ventilationMotors.description",
+    subcategoryKey: "bldc-cooler-exhaust-motor",
+    image: "bldc-ventilation-motor",
+    featuredSpecs: ["power", "voltage", "efficiency"]
+  },
+  {
+    key: "submersible-pumps",
+    slug: "submersible-pumps",
+    titleKey: "products:groups.submersiblePumps.title",
+    descriptionKey: "products:groups.submersiblePumps.description",
+    subcategoryKey: "bldc-submersible-surface-pump",
+    image: "bldc-submersible-pump",
+    featuredSpecs: ["power", "head", "flow"]
+  },
+  {
+    key: "surface-pumps",
+    slug: "surface-pumps",
+    titleKey: "products:groups.surfacePumps.title",
+    descriptionKey: "products:groups.surfacePumps.description",
+    subcategoryKey: "bldc-submersible-surface-pump",
+    image: "bldc-surface-pump",
+    featuredSpecs: ["power", "head", "flow"]
+  },
+  {
+    key: "hybrid-pumps",
+    slug: "hybrid-pumps",
+    titleKey: "products:groups.hybridPumps.title",
+    descriptionKey: "products:groups.hybridPumps.description",
+    subcategoryKey: "bldc-submersible-surface-pump",
+    image: "bldc-hybrid-pump",
+    featuredSpecs: ["power", "head", "flow"]
+  },
+  {
+    key: "table-fan-motors",
+    slug: "table-fan-motors",
+    titleKey: "products:groups.tableFanMotors.title",
+    descriptionKey: "products:groups.tableFanMotors.description",
+    subcategoryKey: "bldc-table-fan-wall-fan-motor",
+    image: "bldc-table-fan-motor",
+    featuredSpecs: ["power", "speed", "voltage"]
+  },
+  {
+    key: "wall-fan-motors",
+    slug: "wall-fan-motors",
+    titleKey: "products:groups.wallFanMotors.title",
+    descriptionKey: "products:groups.wallFanMotors.description",
+    subcategoryKey: "bldc-table-fan-wall-fan-motor",
+    image: "bldc-wall-fan-motor",
+    featuredSpecs: ["power", "speed", "voltage"]
+  },
+  {
+    key: "pedestal-fan-motors",
+    slug: "pedestal-fan-motors",
+    titleKey: "products:groups.pedestalFanMotors.title",
+    descriptionKey: "products:groups.pedestalFanMotors.description",
+    subcategoryKey: "bldc-table-fan-wall-fan-motor",
+    image: "bldc-pedestal-fan-motor",
+    featuredSpecs: ["power", "speed", "voltage"]
+  },
+
+  // Electrical Components subcategory groups
+  {
+    key: "power-cables",
+    slug: "power-cables",
+    titleKey: "products:groups.powerCables.title",
+    descriptionKey: "products:groups.powerCables.description",
+    subcategoryKey: "cables-wires",
+    image: "power-cable",
+    featuredSpecs: ["conductor", "voltage", "insulation"]
+  },
+  {
+    key: "control-cables",
+    slug: "control-cables",
+    titleKey: "products:groups.controlCables.title",
+    descriptionKey: "products:groups.controlCables.description",
+    subcategoryKey: "cables-wires",
+    image: "control-cable",
+    featuredSpecs: ["conductor", "voltage", "shielding"]
+  },
+  {
+    key: "instrumentation-cables",
+    slug: "instrumentation-cables",
+    titleKey: "products:groups.instrumentationCables.title",
+    descriptionKey: "products:groups.instrumentationCables.description",
+    subcategoryKey: "cables-wires",
+    image: "instrumentation-cable",
+    featuredSpecs: ["conductor", "voltage", "shielding"]
+  },
+  {
+    key: "terminal-blocks",
+    slug: "terminal-blocks",
+    titleKey: "products:groups.terminalBlocks.title",
+    descriptionKey: "products:groups.terminalBlocks.description",
+    subcategoryKey: "connectors-terminals",
+    image: "terminal-block",
+    featuredSpecs: ["current", "voltage", "connection"]
+  },
+  {
+    key: "electrical-connectors",
+    slug: "electrical-connectors",
+    titleKey: "products:groups.electricalConnectors.title",
+    descriptionKey: "products:groups.electricalConnectors.description",
+    subcategoryKey: "connectors-terminals",
+    image: "electrical-connector",
+    featuredSpecs: ["current", "voltage", "type"]
+  },
+  {
+    key: "industrial-plugs",
+    slug: "industrial-plugs",
+    titleKey: "products:groups.industrialPlugs.title",
+    descriptionKey: "products:groups.industrialPlugs.description",
+    subcategoryKey: "connectors-terminals",
+    image: "industrial-plug",
+    featuredSpecs: ["current", "voltage", "protection"]
+  },
+  {
+    key: "miniature-circuit-breakers",
+    slug: "miniature-circuit-breakers",
+    titleKey: "products:groups.miniatureCircuitBreakers.title",
+    descriptionKey: "products:groups.miniatureCircuitBreakers.description",
+    subcategoryKey: "circuit-breakers-fuses",
+    image: "mcb",
+    featuredSpecs: ["current", "voltage", "poles"]
+  },
+  {
+    key: "molded-case-breakers",
+    slug: "molded-case-breakers",
+    titleKey: "products:groups.moldedCaseBreakers.title",
+    descriptionKey: "products:groups.moldedCaseBreakers.description",
+    subcategoryKey: "circuit-breakers-fuses",
+    image: "mccb",
+    featuredSpecs: ["current", "voltage", "breaking"]
+  },
+  {
+    key: "fuses-holders",
+    slug: "fuses-holders",
+    titleKey: "products:groups.fusesHolders.title",
+    descriptionKey: "products:groups.fusesHolders.description",
+    subcategoryKey: "circuit-breakers-fuses",
+    image: "fuse",
+    featuredSpecs: ["current", "voltage", "type"]
+  },
+  {
+    key: "ac-dc-converters",
+    slug: "ac-dc-converters",
+    titleKey: "products:groups.acDcConverters.title",
+    descriptionKey: "products:groups.acDcConverters.description",
+    subcategoryKey: "power-supplies",
+    image: "ac-dc-converter",
+    featuredSpecs: ["input", "output", "power"]
+  },
+  {
+    key: "dc-dc-converters",
+    slug: "dc-dc-converters",
+    titleKey: "products:groups.dcDcConverters.title",
+    descriptionKey: "products:groups.dcDcConverters.description",
+    subcategoryKey: "power-supplies",
+    image: "dc-dc-converter",
+    featuredSpecs: ["input", "output", "power"]
+  },
+  {
+    key: "ups-systems",
+    slug: "ups-systems",
+    titleKey: "products:groups.upsSystems.title",
+    descriptionKey: "products:groups.upsSystems.description",
+    subcategoryKey: "power-supplies",
+    image: "ups",
+    featuredSpecs: ["power", "backup", "efficiency"]
+  },
+  {
+    key: "electrical-cabinets",
+    slug: "electrical-cabinets",
+    titleKey: "products:groups.electricalCabinets.title",
+    descriptionKey: "products:groups.electricalCabinets.description",
+    subcategoryKey: "enclosures-cabinets",
+    image: "electrical-cabinet",
+    featuredSpecs: ["dimensions", "material", "protection"]
+  },
+  {
+    key: "junction-boxes",
+    slug: "junction-boxes",
+    titleKey: "products:groups.junctionBoxes.title",
+    descriptionKey: "products:groups.junctionBoxes.description",
+    subcategoryKey: "enclosures-cabinets",
+    image: "junction-box",
+    featuredSpecs: ["dimensions", "material", "protection"]
+  },
+  {
+    key: "din-rail-enclosures",
+    slug: "din-rail-enclosures",
+    titleKey: "products:groups.dinRailEnclosures.title",
+    descriptionKey: "products:groups.dinRailEnclosures.description",
+    subcategoryKey: "enclosures-cabinets",
+    image: "din-rail-enclosure",
+    featuredSpecs: ["modules", "dimensions", "material"]
+  },
+  {
+    key: "heating-coils",
+    slug: "heating-coils",
+    titleKey: "products:groups.heatingCoils.title",
+    descriptionKey: "products:groups.heatingCoils.description",
+    subcategoryKey: "heating-elements-appliances",
+    image: "heating-coil",
+    featuredSpecs: ["power", "voltage", "temperature"]
+  },
+  {
+    key: "heating-elements",
+    slug: "heating-elements",
+    titleKey: "products:groups.heatingElements.title",
+    descriptionKey: "products:groups.heatingElements.description",
+    subcategoryKey: "heating-elements-appliances",
+    image: "heating-element",
+    featuredSpecs: ["power", "voltage", "temperature"]
+  },
+  {
+    key: "industrial-heaters",
+    slug: "industrial-heaters",
+    titleKey: "products:groups.industrialHeaters.title",
+    descriptionKey: "products:groups.industrialHeaters.description",
+    subcategoryKey: "heating-elements-appliances",
+    image: "industrial-heater",
+    featuredSpecs: ["power", "voltage", "application"]
+  },
+
+  // Industrial & Measuring Tools subcategory groups
+  {
+    key: "digital-multimeters",
+    slug: "digital-multimeters",
+    titleKey: "products:groups.digitalMultimeters.title",
+    descriptionKey: "products:groups.digitalMultimeters.description",
+    subcategoryKey: "multimeters",
+    image: "digital-multimeter",
+    featuredSpecs: ["accuracy", "range", "features"]
+  },
+  {
+    key: "clamp-meters",
+    slug: "clamp-meters",
+    titleKey: "products:groups.clampMeters.title",
+    descriptionKey: "products:groups.clampMeters.description",
+    subcategoryKey: "multimeters",
+    image: "clamp-meter",
+    featuredSpecs: ["current", "voltage", "jaw"]
+  },
+  {
+    key: "bench-multimeters",
+    slug: "bench-multimeters",
+    titleKey: "products:groups.benchMultimeters.title",
+    descriptionKey: "products:groups.benchMultimeters.description",
+    subcategoryKey: "multimeters",
+    image: "bench-multimeter",
+    featuredSpecs: ["accuracy", "resolution", "features"]
+  },
+  {
+    key: "digital-oscilloscopes",
+    slug: "digital-oscilloscopes",
+    titleKey: "products:groups.digitalOscilloscopes.title",
+    descriptionKey: "products:groups.digitalOscilloscopes.description",
+    subcategoryKey: "oscilloscopes",
+    image: "digital-oscilloscope",
+    featuredSpecs: ["bandwidth", "channels", "sampling"]
+  },
+  {
+    key: "mixed-signal-oscilloscopes",
+    slug: "mixed-signal-oscilloscopes",
+    titleKey: "products:groups.mixedSignalOscilloscopes.title",
+    descriptionKey: "products:groups.mixedSignalOscilloscopes.description",
+    subcategoryKey: "oscilloscopes",
+    image: "mixed-signal-oscilloscope",
+    featuredSpecs: ["bandwidth", "channels", "logic"]
+  },
+  {
+    key: "portable-oscilloscopes",
+    slug: "portable-oscilloscopes",
+    titleKey: "products:groups.portableOscilloscopes.title",
+    descriptionKey: "products:groups.portableOscilloscopes.description",
+    subcategoryKey: "oscilloscopes",
+    image: "portable-oscilloscope",
+    featuredSpecs: ["bandwidth", "battery", "size"]
+  },
+  {
+    key: "rf-spectrum-analyzers",
+    slug: "rf-spectrum-analyzers",
+    titleKey: "products:groups.rfSpectrumAnalyzers.title",
+    descriptionKey: "products:groups.rfSpectrumAnalyzers.description",
+    subcategoryKey: "spectrum-analyzers",
+    image: "rf-spectrum-analyzer",
+    featuredSpecs: ["frequency", "resolution", "sensitivity"]
+  },
+  {
+    key: "audio-spectrum-analyzers",
+    slug: "audio-spectrum-analyzers",
+    titleKey: "products:groups.audioSpectrumAnalyzers.title",
+    descriptionKey: "products:groups.audioSpectrumAnalyzers.description",
+    subcategoryKey: "spectrum-analyzers",
+    image: "audio-spectrum-analyzer",
+    featuredSpecs: ["frequency", "dynamic", "channels"]
+  },
+  {
+    key: "real-time-analyzers",
+    slug: "real-time-analyzers",
+    titleKey: "products:groups.realTimeAnalyzers.title",
+    descriptionKey: "products:groups.realTimeAnalyzers.description",
+    subcategoryKey: "spectrum-analyzers",
+    image: "real-time-analyzer",
+    featuredSpecs: ["bandwidth", "time", "resolution"]
+  },
+  {
+    key: "power-meters",
+    slug: "power-meters",
+    titleKey: "products:groups.powerMeters.title",
+    descriptionKey: "products:groups.powerMeters.description",
+    subcategoryKey: "power-quality-analyzers",
+    image: "power-meter",
+    featuredSpecs: ["accuracy", "phases", "parameters"]
+  },
+  {
+    key: "harmonic-analyzers",
+    slug: "harmonic-analyzers",
+    titleKey: "products:groups.harmonicAnalyzers.title",
+    descriptionKey: "products:groups.harmonicAnalyzers.description",
+    subcategoryKey: "power-quality-analyzers",
+    image: "harmonic-analyzer",
+    featuredSpecs: ["harmonics", "phases", "memory"]
+  },
+  {
+    key: "energy-loggers",
+    slug: "energy-loggers",
+    titleKey: "products:groups.energyLoggers.title",
+    descriptionKey: "products:groups.energyLoggers.description",
+    subcategoryKey: "power-quality-analyzers",
+    image: "energy-logger",
+    featuredSpecs: ["channels", "memory", "communication"]
+  },
+  {
+    key: "calibration-instruments",
+    slug: "calibration-instruments",
+    titleKey: "products:groups.calibrationInstruments.title",
+    descriptionKey: "products:groups.calibrationInstruments.description",
+    subcategoryKey: "calibration-equipment",
+    image: "calibration-instrument",
+    featuredSpecs: ["accuracy", "range", "standards"]
+  },
+  {
+    key: "calibration-standards",
+    slug: "calibration-standards",
+    titleKey: "products:groups.calibrationStandards.title",
+    descriptionKey: "products:groups.calibrationStandards.description",
+    subcategoryKey: "calibration-equipment",
+    image: "calibration-standard",
+    featuredSpecs: ["accuracy", "stability", "traceability"]
+  },
+  {
+    key: "test-equipment",
+    slug: "test-equipment",
+    titleKey: "products:groups.testEquipment.title",
+    descriptionKey: "products:groups.testEquipment.description",
+    subcategoryKey: "calibration-equipment",
+    image: "test-equipment",
+    featuredSpecs: ["function", "accuracy", "portability"]
+  },
+  {
+    key: "mechanical-tools",
+    slug: "mechanical-tools",
+    titleKey: "products:groups.mechanicalTools.title",
+    descriptionKey: "products:groups.mechanicalTools.description",
+    subcategoryKey: "hand-tools",
+    image: "mechanical-tools",
+    featuredSpecs: ["material", "size", "application"]
+  },
+  {
+    key: "electrical-tools",
+    slug: "electrical-tools",
+    titleKey: "products:groups.electricalTools.title",
+    descriptionKey: "products:groups.electricalTools.description",
+    subcategoryKey: "hand-tools",
+    image: "electrical-tools",
+    featuredSpecs: ["insulation", "voltage", "material"]
+  },
+  {
+    key: "precision-tools",
+    slug: "precision-tools",
+    titleKey: "products:groups.precisionTools.title",
+    descriptionKey: "products:groups.precisionTools.description",
+    subcategoryKey: "hand-tools",
+    image: "precision-tools",
+    featuredSpecs: ["tolerance", "material", "accuracy"]
+  },
+  {
+    key: "electric-drills",
+    slug: "electric-drills",
+    titleKey: "products:groups.electricDrills.title",
+    descriptionKey: "products:groups.electricDrills.description",
+    subcategoryKey: "power-tools",
+    image: "electric-drill",
+    featuredSpecs: ["power", "chuck", "speed"]
+  },
+  {
+    key: "angle-grinders",
+    slug: "angle-grinders",
+    titleKey: "products:groups.angleGrinders.title",
+    descriptionKey: "products:groups.angleGrinders.description",
+    subcategoryKey: "power-tools",
+    image: "angle-grinder",
+    featuredSpecs: ["power", "disc", "speed"]
+  },
+  {
+    key: "impact-drivers",
+    slug: "impact-drivers",
+    titleKey: "products:groups.impactDrivers.title",
+    descriptionKey: "products:groups.impactDrivers.description",
+    subcategoryKey: "power-tools",
+    image: "impact-driver",
+    featuredSpecs: ["torque", "power", "battery"]
+  },
+  {
+    key: "cutting-blades",
+    slug: "cutting-blades",
+    titleKey: "products:groups.cuttingBlades.title",
+    descriptionKey: "products:groups.cuttingBlades.description",
+    subcategoryKey: "cutting-tools",
+    image: "cutting-blade",
+    featuredSpecs: ["material", "diameter", "thickness"]
+  },
+  {
+    key: "drill-bits",
+    slug: "drill-bits",
+    titleKey: "products:groups.drillBits.title",
+    descriptionKey: "products:groups.drillBits.description",
+    subcategoryKey: "cutting-tools",
+    image: "drill-bit",
+    featuredSpecs: ["material", "diameter", "coating"]
+  },
+  {
+    key: "milling-cutters",
+    slug: "milling-cutters",
+    titleKey: "products:groups.millingCutters.title",
+    descriptionKey: "products:groups.millingCutters.description",
+    subcategoryKey: "cutting-tools",
+    image: "milling-cutter",
+    featuredSpecs: ["material", "diameter", "flutes"]
+  },
+  {
+    key: "chain-hoists",
+    slug: "chain-hoists",
+    titleKey: "products:groups.chainHoists.title",
+    descriptionKey: "products:groups.chainHoists.description",
+    subcategoryKey: "lifting-equipment",
+    image: "chain-hoist",
+    featuredSpecs: ["capacity", "lift", "operation"]
+  },
+  {
+    key: "wire-rope-hoists",
+    slug: "wire-rope-hoists",
+    titleKey: "products:groups.wireRopeHoists.title",
+    descriptionKey: "products:groups.wireRopeHoists.description",
+    subcategoryKey: "lifting-equipment",
+    image: "wire-rope-hoist",
+    featuredSpecs: ["capacity", "lift", "speed"]
+  },
+  {
+    key: "jib-cranes",
+    slug: "jib-cranes",
+    titleKey: "products:groups.jibCranes.title",
+    descriptionKey: "products:groups.jibCranes.description",
+    subcategoryKey: "lifting-equipment",
+    image: "jib-crane",
+    featuredSpecs: ["capacity", "reach", "rotation"]
+  },
+  {
+    key: "personal-protective-equipment",
+    slug: "personal-protective-equipment",
+    titleKey: "products:groups.personalProtectiveEquipment.title",
+    descriptionKey: "products:groups.personalProtectiveEquipment.description",
+    subcategoryKey: "safety-equipment",
+    image: "ppe",
+    featuredSpecs: ["standard", "material", "protection"]
+  },
+  {
+    key: "safety-barriers",
+    slug: "safety-barriers",
+    titleKey: "products:groups.safetyBarriers.title",
+    descriptionKey: "products:groups.safetyBarriers.description",
+    subcategoryKey: "safety-equipment",
+    image: "safety-barrier",
+    featuredSpecs: ["height", "material", "application"]
+  },
+  {
+    key: "emergency-equipment",
+    slug: "emergency-equipment",
+    titleKey: "products:groups.emergencyEquipment.title",
+    descriptionKey: "products:groups.emergencyEquipment.description",
+    subcategoryKey: "safety-equipment",
+    image: "emergency-equipment",
+    featuredSpecs: ["type", "capacity", "standards"]
+  },
+
+  // Solar Products subcategory groups
+  {
+    key: "monocrystalline-panels",
+    slug: "monocrystalline-panels",
+    titleKey: "products:groups.monocrystallinePanels.title",
+    descriptionKey: "products:groups.monocrystallinePanels.description",
+    subcategoryKey: "solar-panels",
+    image: "monocrystalline-panel",
+    featuredSpecs: ["power", "efficiency", "voltage"]
+  },
+  {
+    key: "polycrystalline-panels",
+    slug: "polycrystalline-panels",
+    titleKey: "products:groups.polycrystallinePanels.title",
+    descriptionKey: "products:groups.polycrystallinePanels.description",
+    subcategoryKey: "solar-panels",
+    image: "polycrystalline-panel",
+    featuredSpecs: ["power", "efficiency", "voltage"]
+  },
+  {
+    key: "thin-film-panels",
+    slug: "thin-film-panels",
+    titleKey: "products:groups.thinFilmPanels.title",
+    descriptionKey: "products:groups.thinFilmPanels.description",
+    subcategoryKey: "solar-panels",
+    image: "thin-film-panel",
+    featuredSpecs: ["power", "efficiency", "technology"]
+  },
+  {
+    key: "string-inverters",
+    slug: "string-inverters",
+    titleKey: "products:groups.stringInverters.title",
+    descriptionKey: "products:groups.stringInverters.description",
+    subcategoryKey: "solar-inverters",
+    image: "string-inverter",
+    featuredSpecs: ["power", "efficiency", "mppt"]
+  },
+  {
+    key: "micro-inverters",
+    slug: "micro-inverters",
+    titleKey: "products:groups.microInverters.title",
+    descriptionKey: "products:groups.microInverters.description",
+    subcategoryKey: "solar-inverters",
+    image: "micro-inverter",
+    featuredSpecs: ["power", "efficiency", "monitoring"]
+  },
+  {
+    key: "power-optimizers",
+    slug: "power-optimizers",
+    titleKey: "products:groups.powerOptimizers.title",
+    descriptionKey: "products:groups.powerOptimizers.description",
+    subcategoryKey: "solar-inverters",
+    image: "power-optimizer",
+    featuredSpecs: ["power", "efficiency", "monitoring"]
+  },
+
+  // Automation & Control Systems subcategory groups
+  {
+    key: "modular-plcs",
+    slug: "modular-plcs",
+    titleKey: "products:groups.modularPlcs.title",
+    descriptionKey: "products:groups.modularPlcs.description",
+    subcategoryKey: "plcs",
+    image: "modular-plc",
+    featuredSpecs: ["io", "memory", "communication"]
+  },
+  {
+    key: "compact-plcs",
+    slug: "compact-plcs",
+    titleKey: "products:groups.compactPlcs.title",
+    descriptionKey: "products:groups.compactPlcs.description",
+    subcategoryKey: "plcs",
+    image: "compact-plc",
+    featuredSpecs: ["io", "memory", "size"]
+  },
+  {
+    key: "micro-plcs",
+    slug: "micro-plcs",
+    titleKey: "products:groups.microPlcs.title",
+    descriptionKey: "products:groups.microPlcs.description",
+    subcategoryKey: "plcs",
+    image: "micro-plc",
+    featuredSpecs: ["io", "memory", "applications"]
+  },
+  {
+    key: "scada-software",
+    slug: "scada-software",
+    titleKey: "products:groups.scadaSoftware.title",
+    descriptionKey: "products:groups.scadaSoftware.description",
+    subcategoryKey: "scada",
+    image: "scada-software",
+    featuredSpecs: ["tags", "clients", "features"]
+  },
+  {
+    key: "scada-hardware",
+    slug: "scada-hardware",
+    titleKey: "products:groups.scadaHardware.title",
+    descriptionKey: "products:groups.scadaHardware.description",
+    subcategoryKey: "scada",
+    image: "scada-hardware",
+    featuredSpecs: ["performance", "redundancy", "connectivity"]
+  },
+  {
+    key: "scada-gateways",
+    slug: "scada-gateways",
+    titleKey: "products:groups.scadaGateways.title",
+    descriptionKey: "products:groups.scadaGateways.description",
+    subcategoryKey: "scada",
+    image: "scada-gateway",
+    featuredSpecs: ["protocols", "ports", "conversion"]
+  },
+  {
+    key: "dcs-controllers",
+    slug: "dcs-controllers",
+    titleKey: "products:groups.dcsControllers.title",
+    descriptionKey: "products:groups.dcsControllers.description",
+    subcategoryKey: "dcs",
+    image: "dcs-controller",
+    featuredSpecs: ["io", "redundancy", "performance"]
+  },
+  {
+    key: "dcs-operator-stations",
+    slug: "dcs-operator-stations",
+    titleKey: "products:groups.dcsOperatorStations.title",
+    descriptionKey: "products:groups.dcsOperatorStations.description",
+    subcategoryKey: "dcs",
+    image: "dcs-operator-station",
+    featuredSpecs: ["displays", "performance", "redundancy"]
+  },
+  {
+    key: "dcs-engineering-stations",
+    slug: "dcs-engineering-stations",
+    titleKey: "products:groups.dcsEngineeringStations.title",
+    descriptionKey: "products:groups.dcsEngineeringStations.description",
+    subcategoryKey: "dcs",
+    image: "dcs-engineering-station",
+    featuredSpecs: ["software", "performance", "tools"]
+  },
+  {
+    key: "touchscreen-hmis",
+    slug: "touchscreen-hmis",
+    titleKey: "products:groups.touchscreenHmis.title",
+    descriptionKey: "products:groups.touchscreenHmis.description",
+    subcategoryKey: "hmi",
+    image: "touchscreen-hmi",
+    featuredSpecs: ["size", "resolution", "communication"]
+  },
+  {
+    key: "panel-mount-hmis",
+    slug: "panel-mount-hmis",
+    titleKey: "products:groups.panelMountHmis.title",
+    descriptionKey: "products:groups.panelMountHmis.description",
+    subcategoryKey: "hmi",
+    image: "panel-mount-hmi",
+    featuredSpecs: ["size", "resolution", "mounting"]
+  },
+  {
+    key: "mobile-hmis",
+    slug: "mobile-hmis",
+    titleKey: "products:groups.mobileHmis.title",
+    descriptionKey: "products:groups.mobileHmis.description",
+    subcategoryKey: "hmi",
+    image: "mobile-hmi",
+    featuredSpecs: ["size", "battery", "connectivity"]
+  },
+
+  // Safety & Protective Devices subcategory groups
+  {
+    key: "safety-relays",
+    slug: "safety-relays",
+    titleKey: "products:groups.safetyRelays.title",
+    descriptionKey: "products:groups.safetyRelays.description",
+    subcategoryKey: "safety-relays-switches",
+    image: "safety-relay",
+    featuredSpecs: ["safety", "contacts", "monitoring"]
+  },
+  {
+    key: "emergency-stops",
+    slug: "emergency-stops",
+    titleKey: "products:groups.emergencyStops.title",
+    descriptionKey: "products:groups.emergencyStops.description",
+    subcategoryKey: "safety-relays-switches",
+    image: "emergency-stop",
+    featuredSpecs: ["contacts", "operation", "standards"]
+  },
+  {
+    key: "safety-switches",
+    slug: "safety-switches",
+    titleKey: "products:groups.safetySwitches.title",
+    descriptionKey: "products:groups.safetySwitches.description",
+    subcategoryKey: "safety-relays-switches",
+    image: "safety-switch",
+    featuredSpecs: ["safety", "operation", "environment"]
+  },
+  {
+    key: "explosion-proof-equipment",
+    slug: "explosion-proof-equipment",
+    titleKey: "products:groups.explosionProofEquipment.title",
+    descriptionKey: "products:groups.explosionProofEquipment.description",
+    subcategoryKey: "intrinsically-safe-equipment",
+    image: "explosion-proof",
+    featuredSpecs: ["certification", "class", "temperature"]
+  },
+  {
+    key: "intrinsically-safe-barriers",
+    slug: "intrinsically-safe-barriers",
+    titleKey: "products:groups.intrinsicallySafeBarriers.title",
+    descriptionKey: "products:groups.intrinsicallySafeBarriers.description",
+    subcategoryKey: "intrinsically-safe-equipment",
+    image: "is-barrier",
+    featuredSpecs: ["channels", "power", "certification"]
+  },
+  {
+    key: "is-field-devices",
+    slug: "is-field-devices",
+    titleKey: "products:groups.isFieldDevices.title",
+    descriptionKey: "products:groups.isFieldDevices.description",
+    subcategoryKey: "intrinsically-safe-equipment",
+    image: "is-field-device",
+    featuredSpecs: ["function", "power", "certification"]
+  },
+  {
+    key: "ac-surge-protectors",
+    slug: "ac-surge-protectors",
+    titleKey: "products:groups.acSurgeProtectors.title",
+    descriptionKey: "products:groups.acSurgeProtectors.description",
+    subcategoryKey: "surge-protectors",
+    image: "ac-surge-protector",
+    featuredSpecs: ["voltage", "current", "energy"]
+  },
+  {
+    key: "dc-surge-protectors",
+    slug: "dc-surge-protectors",
+    titleKey: "products:groups.dcSurgeProtectors.title",
+    descriptionKey: "products:groups.dcSurgeProtectors.description",
+    subcategoryKey: "surge-protectors",
+    image: "dc-surge-protector",
+    featuredSpecs: ["voltage", "current", "energy"]
+  },
+  {
+    key: "signal-surge-protectors",
+    slug: "signal-surge-protectors",
+    titleKey: "products:groups.signalSurgeProtectors.title",
+    descriptionKey: "products:groups.signalSurgeProtectors.description",
+    subcategoryKey: "surge-protectors",
+    image: "signal-surge-protector",
+    featuredSpecs: ["signal", "protection", "frequency"]
+  },
+  {
+    key: "equipment-grounding",
+    slug: "equipment-grounding",
+    titleKey: "products:groups.equipmentGrounding.title",
+    descriptionKey: "products:groups.equipmentGrounding.description",
+    subcategoryKey: "grounding-systems",
+    image: "equipment-grounding",
+    featuredSpecs: ["material", "resistance", "application"]
+  },
+  {
+    key: "system-grounding",
+    slug: "system-grounding",
+    titleKey: "products:groups.systemGrounding.title",
+    descriptionKey: "products:groups.systemGrounding.description",
+    subcategoryKey: "grounding-systems",
+    image: "system-grounding",
+    featuredSpecs: ["material", "resistance", "configuration"]
+  },
+  {
+    key: "lightning-protection",
+    slug: "lightning-protection",
+    titleKey: "products:groups.lightningProtection.title",
+    descriptionKey: "products:groups.lightningProtection.description",
+    subcategoryKey: "grounding-systems",
+    image: "lightning-protection",
+    featuredSpecs: ["current", "material", "height"]
+  },
+
+  // Mechanical Pumps & Spares subcategory groups
+  {
+    key: "single-stage-centrifugal",
+    slug: "single-stage-centrifugal",
+    titleKey: "products:groups.singleStageCentrifugal.title",
+    descriptionKey: "products:groups.singleStageCentrifugal.description",
+    subcategoryKey: "centrifugal-pumps",
+    image: "single-stage-centrifugal",
+    featuredSpecs: ["flow", "head", "power"]
+  },
+  {
+    key: "multi-stage-centrifugal",
+    slug: "multi-stage-centrifugal",
+    titleKey: "products:groups.multiStageCentrifugal.title",
+    descriptionKey: "products:groups.multiStageCentrifugal.description",
+    subcategoryKey: "centrifugal-pumps",
+    image: "multi-stage-centrifugal",
+    featuredSpecs: ["flow", "head", "stages"]
+  },
+  {
+    key: "vertical-centrifugal",
+    slug: "vertical-centrifugal",
+    titleKey: "products:groups.verticalCentrifugal.title",
+    descriptionKey: "products:groups.verticalCentrifugal.description",
+    subcategoryKey: "centrifugal-pumps",
+    image: "vertical-centrifugal",
+    featuredSpecs: ["flow", "head", "installation"]
+  },
+  {
+    key: "air-operated-diaphragm",
+    slug: "air-operated-diaphragm",
+    titleKey: "products:groups.airOperatedDiaphragm.title",
+    descriptionKey: "products:groups.airOperatedDiaphragm.description",
+    subcategoryKey: "diaphragm-pumps",
+    image: "air-operated-diaphragm",
+    featuredSpecs: ["flow", "pressure", "material"]
+  },
+  {
+    key: "electric-diaphragm",
+    slug: "electric-diaphragm",
+    titleKey: "products:groups.electricDiaphragm.title",
+    descriptionKey: "products:groups.electricDiaphragm.description",
+    subcategoryKey: "diaphragm-pumps",
+    image: "electric-diaphragm",
+    featuredSpecs: ["flow", "pressure", "power"]
+  },
+  {
+    key: "hydraulic-diaphragm",
+    slug: "hydraulic-diaphragm",
+    titleKey: "products:groups.hydraulicDiaphragm.title",
+    descriptionKey: "products:groups.hydraulicDiaphragm.description",
+    subcategoryKey: "diaphragm-pumps",
+    image: "hydraulic-diaphragm",
+    featuredSpecs: ["flow", "pressure", "hydraulic"]
+  },
+  {
+    key: "external-gear-pumps",
+    slug: "external-gear-pumps",
+    titleKey: "products:groups.externalGearPumps.title",
+    descriptionKey: "products:groups.externalGearPumps.description",
+    subcategoryKey: "gear-pumps",
+    image: "external-gear-pump",
+    featuredSpecs: ["flow", "pressure", "viscosity"]
+  },
+  {
+    key: "internal-gear-pumps",
+    slug: "internal-gear-pumps",
+    titleKey: "products:groups.internalGearPumps.title",
+    descriptionKey: "products:groups.internalGearPumps.description",
+    subcategoryKey: "gear-pumps",
+    image: "internal-gear-pump",
+    featuredSpecs: ["flow", "pressure", "viscosity"]
+  },
+  {
+    key: "magnetic-gear-pumps",
+    slug: "magnetic-gear-pumps",
+    titleKey: "products:groups.magneticGearPumps.title",
+    descriptionKey: "products:groups.magneticGearPumps.description",
+    subcategoryKey: "gear-pumps",
+    image: "magnetic-gear-pump",
+    featuredSpecs: ["flow", "pressure", "sealing"]
+  },
+  {
+    key: "impellers-casings",
+    slug: "impellers-casings",
+    titleKey: "products:groups.impellersCasings.title",
+    descriptionKey: "products:groups.impellersCasings.description",
+    subcategoryKey: "pump-parts-spares",
+    image: "impeller-casing",
+    featuredSpecs: ["material", "size", "compatibility"]
+  },
+  {
+    key: "seals-gaskets",
+    slug: "seals-gaskets",
+    titleKey: "products:groups.sealsGaskets.title",
+    descriptionKey: "products:groups.sealsGaskets.description",
+    subcategoryKey: "pump-parts-spares",
+    image: "seal-gasket",
+    featuredSpecs: ["material", "temperature", "pressure"]
+  },
+  {
+    key: "bearings-couplings",
+    slug: "bearings-couplings",
+    titleKey: "products:groups.bearingsCouplings.title",
+    descriptionKey: "products:groups.bearingsCouplings.description",
+    subcategoryKey: "pump-parts-spares",
+    image: "bearing-coupling",
+    featuredSpecs: ["type", "load", "speed"]
   }
 ];
 

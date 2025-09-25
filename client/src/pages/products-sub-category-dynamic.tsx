@@ -45,13 +45,14 @@ export default function ProductSubCategoryDynamic() {
 
   const IconComponent = product.icon;
 
+  // Check if this subcategory has product groups
+  const productGroups = getGroupsForSubcategory(slug);
+  const hasProductGroups = productGroups.length > 0;
+
   // Get products or product groups based on subcategory type
   const subcategoryProducts = hasProductGroups
     ? [] // We'll render groups instead of products for these subcategories
     : getProductsForSubcategoryPage(slug, 6);
-
-  // Get product groups for subcategories that have them
-  const productGroups = hasProductGroups ? getGroupsForSubcategory(slug) : [];
 
   return (
     <>
