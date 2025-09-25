@@ -45,14 +45,8 @@ export default function ProductSubCategoryDynamic() {
 
   const IconComponent = product.icon;
 
-  // Check if this subcategory has product groups
+  // Get product groups for this subcategory
   const productGroups = getGroupsForSubcategory(slug);
-  const hasProductGroups = productGroups.length > 0;
-
-  // Get products or product groups based on subcategory type
-  const subcategoryProducts = hasProductGroups
-    ? [] // We'll render groups instead of products for these subcategories
-    : getProductsForSubcategoryPage(slug, 6);
 
   return (
     <>
@@ -139,7 +133,7 @@ export default function ProductSubCategoryDynamic() {
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               {/* Render product groups for subcategories that have them */}
-              {hasProductGroups &&
+              {productGroups.length > 0 &&
                 productGroups.map((group, index) => {
                   const groupTitle = t(group.titleKey, {
                     defaultValue: group.key.toUpperCase().replace("-", " "),
@@ -192,109 +186,24 @@ export default function ProductSubCategoryDynamic() {
                   );
                 })}
 
-              {/* Render individual products for subcategories without product groups */}
-              {!hasProductGroups &&
-                subcategoryProducts.map((productItem, index) => {
-                  // Convert product ID/slug to proper display title
-                  const formatProductTitle = (id: string) => {
-                    return id
-                      .split("-")
-                      .map((word) => word.toUpperCase())
-                      .join(" ");
-                  };
-
-                  const productTitle = t(productItem.translationKeys.title, {
-                    defaultValue: formatProductTitle(productItem.id),
-                  });
-                  const productDescription = t(
-                    productItem.translationKeys.description,
-                    {
-                      defaultValue:
-                        "High-quality industrial product for reliable performance and precision control applications.",
-                    },
-                  );
-
-                  return (
-                    <Card
-                      key={productItem.id}
-                      className="group hover:shadow-lg transition-all duration-300"
-                      data-testid={`card-product-${productItem.id}`}
-                    >
-                      <div className="relative overflow-hidden rounded-t-lg">
-                        <img
-                          src={getProductImageSrc(productItem.image)}
-                          alt={`ID-${productItem.id}: ${productTitle}`}
-                          className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
-                          loading="lazy"
-                          data-testid={`img-product-${productItem.id}`}
-                        />
-                        <div className="absolute inset-0 bg-black/0 group-hover:bg-black/10 transition-colors duration-300" />
-                      </div>
-
-                      <CardContent className="p-6">
-                        <h3
-                          className="text-xl font-semibold text-foreground mb-2 group-hover:text-secondary transition-colors"
-                          data-testid={`text-title-${productItem.id}`}
-                        >
-                          {productTitle}
-                        </h3>
-                        <p
-                          className="text-muted-foreground mb-4 line-clamp-3"
-                          data-testid={`text-description-${productItem.id}`}
-                        >
-                          {productDescription}
-                        </p>
-
-                        {/* Product Specs */}
-                        <div className="space-y-2 mb-4">
-                          {Object.entries(productItem.specs)
-                            .slice(0, 3)
-                            .map(([key, value]) => (
-                              <div
-                                key={key}
-                                className="flex justify-between text-sm"
-                              >
-                                <span className="text-muted-foreground capitalize">
-                                  {t(`products:specs.${key}`, {
-                                    defaultValue: key
-                                      .replace(/([A-Z])/g, " $1")
-                                      .replace(/^./, (str) =>
-                                        str.toUpperCase(),
-                                      ),
-                                  })}
-                                  :
-                                </span>
-                                <span
-                                  className="text-foreground font-medium"
-                                  data-testid={`text-spec-${key}-${productItem.id}`}
-                                >
-                                  {value}
-                                </span>
-                              </div>
-                            ))}
-                        </div>
-
-                        <div className="flex flex-col sm:flex-row gap-2">
-                          <Button
-                            variant="outline"
-                            className="flex-1 hover:bg-primary hover:text-primary-foreground"
-                            asChild
-                          >
-                            <Link
-                              href={`/products/${productItem.slug}`}
-                              data-testid={`link-view-${productItem.id}`}
-                            >
-                              <Eye className="w-4 h-4 mr-2" />
-                              {t("common:buttons.viewDetails", {
-                                defaultValue: "View Details",
-                              })}
-                            </Link>
-                          </Button>
-                        </div>
-                      </CardContent>
-                    </Card>
-                  );
-                })}
+              {/* Empty state when no product groups exist */}
+              {productGroups.length === 0 && (
+                <div className="col-span-full text-center py-12">
+                  <div className="text-muted-foreground text-lg mb-4">
+                    {t("products:messages.noProductGroups", {
+                      defaultValue: "No product groups available in this category.",
+                    })}
+                  </div>
+                  <Link href="/products">
+                    <Button variant="outline">
+                      <ArrowLeft className="mr-2 h-4 w-4" />
+                      {t("common:buttons.backToProducts", {
+                        defaultValue: "Back to Products",
+                      })}
+                    </Button>
+                  </Link>
+                </div>
+              )}
             </div>
           </AnimatedSection>
         </div>
