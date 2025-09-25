@@ -43,13 +43,14 @@ export default function ProductGroupDynamic() {
   // Get all products in this group
   const groupProducts = getProductsByGroup(productGroup.key);
 
-  const groupTitle = t(productGroup.titleKey, {
+  // Use hardcoded English title and description if available, fallback to translation keys
+  const groupTitle = productGroup.title || (productGroup.titleKey ? t(productGroup.titleKey, {
     defaultValue: productGroup.key.toUpperCase().replace("-", " "),
-  });
-  const groupDescription = t(productGroup.descriptionKey, {
+  }) : productGroup.key.toUpperCase().replace("-", " "));
+  const groupDescription = productGroup.description || (productGroup.descriptionKey ? t(productGroup.descriptionKey, {
     defaultValue:
       "High-quality products for industrial automation applications.",
-  });
+  }) : "High-quality products for industrial automation applications.");
 
   return (
     <>
