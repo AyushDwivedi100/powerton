@@ -13,18 +13,23 @@ export interface Product {
   image: string;
   datasheetUrl?: string;
   specs: ProductSpecs;
-  translationKeys: {
+  translationKeys?: {
     title: string;
     description: string;
     featuresKey?: string;
   };
+  title?: string;
+  description?: string;
+  features?: string[];
 }
 
 export interface ProductGroup {
   key: string;
   slug: string;
-  titleKey: string;
-  descriptionKey: string;
+  titleKey?: string;
+  descriptionKey?: string;
+  title?: string;
+  description?: string;
   subcategoryKey: string;
   image: string;
   icon?: string;
@@ -170,56 +175,56 @@ export const productGroups: ProductGroup[] = [
   {
     key: "pressure-switches",
     slug: "pressure-switches",
-    titleKey: "products:groups.pressureSwitches.title",
-    descriptionKey: "products:groups.pressureSwitches.description",
+    title: "Pressure Switches",
+    description: "Industrial pressure switches for accurate pressure monitoring and control in automation systems. Available from leading manufacturers like Danfoss, Schneider Electric, WIKA, and ABB.",
     subcategoryKey: "switches",
     image: "pressure-switch",
-    featuredSpecs: ["manufacturer", "model", "type"]
+    featuredSpecs: ["manufacturer", "model", "pressureRange", "temperature"]
   },
   {
     key: "level-switches",
     slug: "level-switches",
-    titleKey: "products:groups.levelSwitches.title",
-    descriptionKey: "products:groups.levelSwitches.description",
+    title: "Level Switches",
+    description: "Point-level detection switches using tuning fork, float, and capacitive technologies. From trusted brands like Endress+Hauser, ABB, and VEGA for reliable liquid and bulk solid level monitoring.",
     subcategoryKey: "switches",
     image: "level-switch",
-    featuredSpecs: ["manufacturer", "model", "type"]
+    featuredSpecs: ["manufacturer", "model", "technology", "application"]
   },
   {
-    key: "temperature-switches",
-    slug: "temperature-switches",
-    titleKey: "products:groups.temperatureSwitches.title",
-    descriptionKey: "products:groups.temperatureSwitches.description",
+    key: "limit-switches",
+    slug: "limit-switches",
+    title: "Limit Switches",
+    description: "Heavy-duty position sensing switches for industrial automation. From Omron, Schneider Electric, and Siemens with IP67 protection and robust metal construction for reliable operation.",
     subcategoryKey: "switches",
-    image: "temperature-switch",
-    featuredSpecs: ["manufacturer", "model", "type"]
+    image: "limit-switch",
+    featuredSpecs: ["manufacturer", "model", "actuatorType", "ipRating"]
+  },
+  {
+    key: "push-buttons",
+    slug: "push-buttons",
+    title: "Push Buttons",
+    description: "Industrial push button switches for control panels and machinery. Available in 22mm and 30mm sizes from Schneider Electric, Eaton, ABB, and Siemens with various contact configurations and illumination options.",
+    subcategoryKey: "switches",
+    image: "push-button",
+    featuredSpecs: ["manufacturer", "model", "size", "contactType"]
   },
   {
     key: "control-valves",
     slug: "control-valves",
-    titleKey: "products:groups.controlValves.title",
-    descriptionKey: "products:groups.controlValves.description",
+    title: "Control Valves",
+    description: "Precision control valves for process automation from Fisher (Emerson), SAMSON, and ABB. Globe, ball, and rotary designs with digital positioners and HART communication capabilities.",
     subcategoryKey: "valves",
     image: "control-valve",
-    featuredSpecs: ["manufacturer", "model", "type"]
+    featuredSpecs: ["manufacturer", "model", "valveType", "cvValue"]
   },
   {
-    key: "ball-valves",
-    slug: "ball-valves",
-    titleKey: "products:groups.ballValves.title",
-    descriptionKey: "products:groups.ballValves.description",
+    key: "solenoid-valves",
+    slug: "solenoid-valves",
+    title: "Solenoid Valves",
+    description: "Electrically operated valves for fluid control automation. ASCO (Emerson) and Parker Hannifin models for air, water, steam, and various industrial fluids with direct acting and pilot operated designs.",
     subcategoryKey: "valves",
-    image: "ball-valve",
-    featuredSpecs: ["manufacturer", "model", "type"]
-  },
-  {
-    key: "butterfly-valves",
-    slug: "butterfly-valves",
-    titleKey: "products:groups.butterflyValves.title",
-    descriptionKey: "products:groups.butterflyValves.description",
-    subcategoryKey: "valves",
-    image: "butterfly-valve",
-    featuredSpecs: ["manufacturer", "model", "type"]
+    image: "solenoid-valve",
+    featuredSpecs: ["manufacturer", "model", "portSize", "pressure"]
   },
   {
     key: "process-analyzers",
@@ -1184,6 +1189,332 @@ export const productGroups: ProductGroup[] = [
 
 // Product definitions
 export const products: Product[] = [
+  // PRESSURE SWITCHES - Real Manufacturer Products
+  {
+    id: "danfoss-kp36",
+    slug: "danfoss-kp36-pressure-switch",
+    categoryKey: "instrumentation-components",
+    subcategoryKey: "switches",
+    typeKey: "pressure-switches",
+    image: "pressure-switch",
+    title: "Danfoss KP36 Pressure Switch",
+    description: "Industrial pressure switch with snap-action electrical contacts for reliable operation in steam, air, and liquid media applications.",
+    features: [
+      "SPDT contact system for reliable switching",
+      "Manual trip function for testing",
+      "Operating temperature: -40°F to 175°F",
+      "Adjustable differential pressure settings",
+      "Suitable for gaseous and liquid media"
+    ],
+    specs: {
+      manufacturer: "Danfoss",
+      model: "KP36",
+      pressureRange: "0.2-30 bar",
+      temperature: "-40°F to 175°F (-40°C to 79°C)",
+      contacts: "SPDT",
+      resetType: "Automatic/Manual",
+      connection: "1/4\" NPT",
+      media: "Steam, Air, Liquid"
+    }
+  },
+  {
+    id: "schneider-9013fsg2j24m4",
+    slug: "schneider-9013fsg2j24m4-pumptrol",
+    categoryKey: "instrumentation-components", 
+    subcategoryKey: "switches",
+    typeKey: "pressure-switches",
+    image: "pressure-switch",
+    title: "Schneider Electric 9013FSG2J24M4 Pumptrol Switch",
+    description: "Square D Pumptrol pressure switch with low-pressure cut-off for pump applications up to 1.5 HP.",
+    features: [
+      "40-60 PSI pressure setting",
+      "15-30 PSI adjustable differential",
+      "Low-pressure cut-off protection",
+      "NEMA 1/IP20 enclosure",
+      "UL Listed, CSA Certified"
+    ],
+    specs: {
+      manufacturer: "Schneider Electric",
+      model: "9013FSG2J24M4",
+      pressureRange: "20-65 PSI",
+      differential: "15-30 PSI",
+      connection: "1/4\" NPSF",
+      enclosure: "NEMA 1/IP20",
+      application: "Pumps ≤1.5 HP"
+    }
+  },
+
+  // LEVEL SWITCHES - Real Manufacturer Products
+  {
+    id: "endress-ftl31",
+    slug: "endress-ftl31-liquiphant",
+    categoryKey: "instrumentation-components",
+    subcategoryKey: "switches",
+    typeKey: "level-switches",
+    image: "level-switch",
+    title: "Endress+Hauser FTL31 Liquiphant Level Switch",
+    description: "Tuning fork point-level switch for liquid level detection with active sensor technology for overfill prevention and pump protection.",
+    features: [
+      "Tuning fork technology with piezoelectric drive",
+      "Active sensor technology ensures device functionality",
+      "No adjustment needed for different media",
+      "G1 process connection thread",
+      "Over 6 million installed worldwide"
+    ],
+    specs: {
+      manufacturer: "Endress+Hauser",
+      model: "FTL31",
+      technology: "Tuning Fork",
+      supplyVoltage: "10-30 VDC",
+      processConnection: "G1 thread",
+      application: "Overfill prevention, Pump protection",
+      mediaType: "Liquids"
+    }
+  },
+  {
+    id: "abb-ls-series",
+    slug: "abb-ls-series-mechanical",
+    categoryKey: "instrumentation-components",
+    subcategoryKey: "switches", 
+    typeKey: "level-switches",
+    image: "level-switch",
+    title: "ABB LS Series Mechanical Level Switch",
+    description: "Rugged mechanical float level switch with hermetically sealed switching mechanism for reliable liquid point-level detection.",
+    features: [
+      "Most rugged design in industrial marketplace",
+      "One-step switch point adjustment",
+      "Hermetically sealed dual compartment switching",
+      "Available in flanged or insertion models",
+      "Over 100 configurations available"
+    ],
+    specs: {
+      manufacturer: "ABB",
+      model: "LS Series",
+      technology: "Mechanical Float",
+      contactType: "SPDT",
+      application: "Liquid level detection",
+      mounting: "Flanged/Insertion",
+      configurations: "100+"
+    }
+  },
+
+  // LIMIT SWITCHES - Real Manufacturer Products  
+  {
+    id: "omron-wlca12-y",
+    slug: "omron-wlca12-y-limit-switch",
+    categoryKey: "instrumentation-components",
+    subcategoryKey: "switches",
+    typeKey: "limit-switches", 
+    image: "limit-switch",
+    title: "Omron WLCA12-Y Heavy-Duty Limit Switch",
+    description: "Heavy-duty roller lever limit switch with IP67 rating and die-cast metal housing for harsh industrial environments.",
+    features: [
+      "Die-cast metal housing for durability", 
+      "IP67 environmental protection rating",
+      "Adjustable roller lever actuator",
+      "Snap-action switching mechanism",
+      "Suitable for automation-heavy industries"
+    ],
+    specs: {
+      manufacturer: "Omron",
+      model: "WLCA12-Y",
+      housingMaterial: "Die-cast metal",
+      ipRating: "IP67",
+      currentRating: "10A",
+      voltageRating: "500V AC",
+      actuatorType: "Adjustable roller lever"
+    }
+  },
+  {
+    id: "schneider-xcmd21f0l1",
+    slug: "schneider-xcmd21f0l1-osisense",
+    categoryKey: "instrumentation-components",
+    subcategoryKey: "switches",
+    typeKey: "limit-switches",
+    image: "limit-switch", 
+    title: "Schneider Electric XCMD21F0L1 OsiSense Limit Switch",
+    description: "Standard format limit switch from the OsiSense XC range with flexible roller lever actuator for industrial automation.",
+    features: [
+      "Standard format industrial design",
+      "Flexible roller lever actuator",
+      "Part of OsiSense XC Standard range",
+      "Comprehensive accessory ecosystem",
+      "Reliable snap-action operation"
+    ],
+    specs: {
+      manufacturer: "Schneider Electric",
+      model: "XCMD21F0L1",
+      series: "OsiSense XC Standard",
+      actuatorType: "Flexible roller lever",
+      contactConfig: "1NO + 1NC",
+      currentRating: "10A",
+      voltageRating: "240V AC"
+    }
+  },
+
+  // PUSH BUTTONS - Real Manufacturer Products
+  {
+    id: "schneider-xb4ba21",
+    slug: "schneider-xb4ba21-harmony-pushbutton",
+    categoryKey: "instrumentation-components",
+    subcategoryKey: "switches",
+    typeKey: "push-buttons",
+    image: "push-button",
+    title: "Schneider Electric XB4BA21 Harmony Push Button",
+    description: "22mm metal push button with chromium-plated bezel from the Harmony XB4 series for industrial control panels.",
+    features: [
+      "22mm metal construction",
+      "Chromium-plated bezel for durability",
+      "Automatic self-grounding design",
+      "Modular system with interchangeable components",
+      "FINGERSAFE™ contact blocks"
+    ],
+    specs: {
+      manufacturer: "Schneider Electric", 
+      model: "XB4BA21",
+      series: "Harmony XB4",
+      size: "22mm",
+      construction: "Metal, chromium-plated",
+      contactType: "1NO + 1NC",
+      ipRating: "IP66/IP67"
+    }
+  },
+  {
+    id: "eaton-m22-dr-r",
+    slug: "eaton-m22-dr-r-pushbutton",
+    categoryKey: "instrumentation-components",
+    subcategoryKey: "switches", 
+    typeKey: "push-buttons",
+    image: "push-button",
+    title: "Eaton M22-DR-R Emergency Stop Push Button",
+    description: "22mm emergency stop push button with red mushroom head and twist-to-release mechanism for safety applications.",
+    features: [
+      "22mm modular design",
+      "Red mushroom head for emergency stop",
+      "Twist-to-release mechanism",
+      "IP65/66/67 protection ratings", 
+      "Suitable for light industrial applications"
+    ],
+    specs: {
+      manufacturer: "Eaton",
+      model: "M22-DR-R", 
+      series: "M22 Modular",
+      size: "22mm",
+      buttonType: "Emergency stop, twist-to-release",
+      color: "Red",
+      ipRating: "IP65/66/67"
+    }
+  },
+
+  // CONTROL VALVES - Real Manufacturer Products
+  {
+    id: "fisher-ed-control-valve",
+    slug: "fisher-ed-easye-control-valve", 
+    categoryKey: "instrumentation-components",
+    subcategoryKey: "valves",
+    typeKey: "control-valves",
+    image: "control-valve",
+    title: "Fisher easy-e™ ED Globe Control Valve",
+    description: "Balanced valve plug globe control valve with cage guiding and metal-to-metal seating for reliable process control.",
+    features: [
+      "Balanced valve plug design",
+      "Cage guiding for precise control",
+      "Metal-to-metal seating",
+      "Digital valve positioner ready",
+      "HART communication compatible"
+    ],
+    specs: {
+      manufacturer: "Fisher (Emerson)",
+      model: "easy-e™ ED",
+      valveType: "Globe, balanced plug",
+      sizeRange: "NPS 1/2\" through 8\"",
+      cvValue: "0.1 to 2500",
+      pressureRating: "ANSI 150-2500",
+      materials: "Carbon steel to exotic alloys"
+    }
+  },
+  {
+    id: "samson-3241-globe-valve",
+    slug: "samson-3241-pneumatic-globe-valve",
+    categoryKey: "instrumentation-components",
+    subcategoryKey: "valves",
+    typeKey: "control-valves", 
+    image: "control-valve",
+    title: "SAMSON Type 3241 Globe Control Valve",
+    description: "Industrial pneumatic globe valve for process engineering with modular design and exchangeable trims for different flow characteristics.",
+    features: [
+      "Modular globe valve design",
+      "Exchangeable trims for flow characteristics", 
+      "Class VI (IEC: IV-S2) sealing",
+      "SAM DIGITAL ready with predictive diagnostics",
+      "HART, Foundation Fieldbus communication"
+    ],
+    specs: {
+      manufacturer: "SAMSON",
+      model: "Type 3241",
+      valveType: "Globe, pneumatic",
+      sizeRange: "1/2\" to 10\" (15-250mm)",
+      materials: "AISI 316Ti, Hastelloy C, Stellite 6",
+      leakageClass: "Class VI (IEC: IV-S2)",
+      communication: "HART, Foundation Fieldbus"
+    }
+  },
+
+  // SOLENOID VALVES - Real Manufacturer Products
+  {
+    id: "asco-8262h112dc24",
+    slug: "asco-8262h112dc24-solenoid-valve",
+    categoryKey: "instrumentation-components",
+    subcategoryKey: "valves",
+    typeKey: "solenoid-valves",
+    image: "solenoid-valve",
+    title: "ASCO 8262H112DC24 General Service Solenoid Valve",
+    description: "2-way normally closed solenoid valve in stainless steel construction for air, water, light oil, and fuel gas applications.",
+    features: [
+      "2-way normally closed operation",
+      "Stainless steel construction", 
+      "Suitable for multiple media types",
+      "Direct acting or pilot operated",
+      "UL Listed and CSA Certified"
+    ],
+    specs: {
+      manufacturer: "ASCO (Emerson)",
+      model: "8262H112DC24",
+      series: "8262/8263",
+      portSize: "1/4\" NPT",
+      voltage: "24V DC",
+      pressure: "0-125 PSI", 
+      media: "Air, water, light oil, fuel gas",
+      construction: "Stainless steel"
+    }
+  },
+  {
+    id: "parker-s4a-solenoid-valve",
+    slug: "parker-s4a-refrigeration-solenoid-valve",
+    categoryKey: "instrumentation-components",
+    subcategoryKey: "valves", 
+    typeKey: "solenoid-valves",
+    image: "solenoid-valve",
+    title: "Parker S4A Series Refrigeration Solenoid Valve",
+    description: "Solenoid valve designed for refrigeration and fluid control systems, compatible with multiple refrigerants and built for wide pressure ranges.",
+    features: [
+      "Compatible with R410A, R448A, R449A, R450A, R507A",
+      "Wide pressure range capability",
+      "Compact and lightweight design",
+      "Excellent flow control characteristics",
+      "Built for commercial refrigeration systems"
+    ],
+    specs: {
+      manufacturer: "Parker Hannifin",
+      model: "S4A Series", 
+      application: "Refrigeration, fluid control",
+      refrigerants: "R410A, R448A, R449A, R450A, R507A",
+      pressureRating: "Up to 700 PSI",
+      temperatureRange: "-40°F to 120°F",
+      voltageOptions: "100-240 AC/DC, 24V AC/DC"
+    }
+  },
+
   // BLDC Ceiling Fans - Extracted and improved from static pages
   {
     id: "bldc-smart1200",
@@ -7717,21 +8048,30 @@ export const categories: Category[] = [
         key: "switches",
         translationKey: "products:subcategories.switches",
         products: [
-          "switch-pushbutton-illuminated",
-          "switch-selector-rotary",
-          "switch-emergency-stop-safety",
+          // Pressure Switches
+          "danfoss-kp36",
+          "schneider-9013fsg2j24m4",
+          // Level Switches  
+          "endress-ftl31",
+          "abb-ls-series",
+          // Limit Switches
+          "omron-wlca12-y", 
+          "schneider-xcmd21f0l1",
+          // Push Buttons
+          "schneider-xb4ba21",
+          "eaton-m22-dr-r",
         ],
       },
       {
         key: "valves",
         translationKey: "products:subcategories.valves",
         products: [
-          "valve-ball-two-piece-stainless",
-          "valve-butterfly-wafer-type",
-          "valve-gate-rising-stem",
-          "valve-globe-angle-pattern",
-          "valve-check-swing-type",
-          "valve-safety-relief-spring",
+          // Control Valves
+          "fisher-ed-control-valve",
+          "samson-3241-globe-valve",
+          // Solenoid Valves
+          "asco-8262h112dc24",
+          "parker-s4a-solenoid-valve",
         ],
       },
       {
@@ -8178,13 +8518,16 @@ export const getProductsForSubcategoryPage = (
           model: `Model ${variantNumber}`,
           variant: `Variant ${variantNumber}`,
         },
-        translationKeys: {
+        translationKeys: baseProduct.translationKeys ? {
           title: `${baseProduct.translationKeys.title}.variant${variantNumber}`,
           description: `${baseProduct.translationKeys.description}.variant${variantNumber}`,
           featuresKey: baseProduct.translationKeys.featuresKey
             ? `${baseProduct.translationKeys.featuresKey}.variant${variantNumber}`
             : undefined,
-        },
+        } : undefined,
+        title: baseProduct.title ? `${baseProduct.title} - Variant ${variantNumber}` : undefined,
+        description: baseProduct.description,
+        features: baseProduct.features,
       };
       subcategoryProducts.push(newProduct);
     }
@@ -8264,12 +8607,12 @@ export const getProductDetailBySlug = (slug: string, t: any, groupSlug?: string)
     value: value.toString()
   }));
 
-  // Get translated data
-  const title = t(product.translationKeys.title);
-  const description = t(product.translationKeys.description);
-  const features = product.translationKeys.featuresKey 
+  // Get translated data - support both translation keys and hardcoded English
+  const title = product.title || (product.translationKeys ? t(product.translationKeys.title) : product.slug);
+  const description = product.description || (product.translationKeys ? t(product.translationKeys.description) : '');
+  const features = product.features || (product.translationKeys?.featuresKey 
     ? t(product.translationKeys.featuresKey, { returnObjects: true }) 
-    : [];
+    : []);
 
   // Determine the correct back path
   let backPath = `/products/${subcategory.key}`;

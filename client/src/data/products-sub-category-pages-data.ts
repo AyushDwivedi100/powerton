@@ -251,9 +251,9 @@ export const productsSubCategoryData: ProductSubCategoryData[] = [
     slug: "switches",
     title: "Switches & Indicators",
     shortDescription:
-      "Industrial-grade switches, pushbuttons, indicators, and control panel components",
+      "Essential industrial switches for automation and control: pressure switches, level switches, limit switches, and push buttons",
     fullDescription:
-      "Complete range of industrial control components including pushbuttons, selector switches, emergency stops, pilot lights, and stack lights with LED technology.",
+      "Comprehensive range of industrial switches including pressure switches from Danfoss and Schneider Electric, level switches from Endress+Hauser and ABB, limit switches from Omron and Schneider Electric, and push buttons from leading manufacturers for reliable automation control.",
     image: switchesImage,
     parentCategory: "/products-category/instrumentation-components",
     parentCategoryTitle: "Instrumentation Components",
@@ -321,9 +321,9 @@ export const productsSubCategoryData: ProductSubCategoryData[] = [
     slug: "valves",
     title: "Valves & Actuators",
     shortDescription:
-      "Industrial control valves and actuators for process control applications",
+      "Essential valve solutions for industrial automation: control valves and solenoid valves",
     fullDescription:
-      "Complete valve solutions including control valves, safety valves, check valves with pneumatic, electric, and hydraulic actuators for precise process control.",
+      "Professional valve solutions featuring control valves from Fisher (Emerson) and SAMSON for precise process control, and solenoid valves from ASCO and Parker Hannifin for automated fluid control in industrial applications.",
     image: valvesImage,
     parentCategory: "/products-category/instrumentation-components",
     parentCategoryTitle: "Instrumentation Components",

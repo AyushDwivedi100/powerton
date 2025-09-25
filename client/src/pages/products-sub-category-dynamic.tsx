@@ -135,13 +135,14 @@ export default function ProductSubCategoryDynamic() {
               {/* Render product groups for subcategories that have them */}
               {productGroups.length > 0 &&
                 productGroups.map((group, index) => {
-                  const groupTitle = t(group.titleKey, {
+                  // Use hardcoded English title and description if available, fallback to translation keys
+                  const groupTitle = group.title || (group.titleKey ? t(group.titleKey, {
                     defaultValue: group.key.toUpperCase().replace("-", " "),
-                  });
-                  const groupDescription = t(group.descriptionKey, {
+                  }) : group.key.toUpperCase().replace("-", " "));
+                  const groupDescription = group.description || (group.descriptionKey ? t(group.descriptionKey, {
                     defaultValue:
                       "High-quality sensor group for industrial automation applications.",
-                  });
+                  }) : "High-quality sensor group for industrial automation applications.");
 
                   return (
                     <Card
