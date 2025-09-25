@@ -253,6 +253,60 @@ export const productGroups: ProductGroup[] = [
     image: "liquid-analyzer",
     featuredSpecs: ["manufacturer", "model", "type"]
   },
+  {
+    key: "oxygen-gas-analyzers",
+    slug: "oxygen-gas-analyzers",
+    title: "Oxygen (O2) Gas Analyzers",
+    description: "Precision oxygen analyzers for industrial process monitoring and safety applications. Electrochemical, paramagnetic, and optical technologies from leading manufacturers like Systech, Panametrics, and Endress+Hauser.",
+    subcategoryKey: "analyzers",
+    image: "gas-analyzer",
+    featuredSpecs: ["manufacturer", "model", "technology", "range"]
+  },
+  {
+    key: "nitrogen-gas-analyzers",
+    slug: "nitrogen-gas-analyzers",
+    title: "Nitrogen (N2) Gas Analyzers",
+    description: "Nitrogen gas analyzers using thermal conductivity and inert gas fusion technologies. LECO and HORIBA instruments for elemental analysis in metals and alloys with high precision measurement.",
+    subcategoryKey: "analyzers",
+    image: "gas-analyzer",
+    featuredSpecs: ["manufacturer", "model", "technology", "range"]
+  },
+  {
+    key: "hydrogen-gas-analyzers",
+    slug: "hydrogen-gas-analyzers",
+    title: "Hydrogen (H2) Gas Analyzers",
+    description: "Hydrogen analyzers with thermal conductivity detection for binary mixture analysis and process monitoring. Nova Analytical and Endress+Hauser systems for safety and quality control applications.",
+    subcategoryKey: "analyzers",
+    image: "gas-analyzer",
+    featuredSpecs: ["manufacturer", "model", "technology", "range"]
+  },
+  {
+    key: "carbon-dioxide-gas-analyzers",
+    slug: "carbon-dioxide-gas-analyzers",
+    title: "Carbon Dioxide (CO2) Gas Analyzers",
+    description: "CO2 analyzers using NDIR and TDLAS technologies for combustion control, food processing, and environmental monitoring. Range from ppm to percentage levels with high accuracy measurement.",
+    subcategoryKey: "analyzers",
+    image: "gas-analyzer",
+    featuredSpecs: ["manufacturer", "model", "technology", "range"]
+  },
+  {
+    key: "cod-analyzers",
+    slug: "cod-analyzers",
+    title: "COD Analyzers",
+    description: "Chemical Oxygen Demand analyzers for water quality testing and wastewater treatment monitoring. Hach, MANTECH, and LAR systems with automated analysis and regulatory compliance capabilities.",
+    subcategoryKey: "analyzers",
+    image: "liquid-analyzer",
+    featuredSpecs: ["manufacturer", "model", "method", "range"]
+  },
+  {
+    key: "bod-analyzers",
+    slug: "bod-analyzers",
+    title: "BOD Analyzers",
+    description: "Biochemical Oxygen Demand analyzers for organic pollution measurement in water samples. MANTECH, Hach, and YSI automated systems with optical DO sensors and temperature control.",
+    subcategoryKey: "analyzers",
+    image: "liquid-analyzer",
+    featuredSpecs: ["manufacturer", "model", "bottles", "analysis"]
+  },
 
   // BLDC Motor Systems subcategory groups
   {
@@ -4310,6 +4364,453 @@ export const products: Product[] = [
     },
   },
 
+  // New Oxygen Gas Analyzers
+  {
+    id: "systech-ec900-oxygen-analyzer",
+    slug: "systech-ec900-oxygen-analyzer",
+    categoryKey: "instrumentation-components",
+    subcategoryKey: "analyzers",
+    typeKey: "oxygen-gas-analyzers",
+    image: "analyzers",
+    specs: {
+      manufacturer: "Systech (Industrial Physics)",
+      model: "EC900 Series",
+      technology: "Electrochemical",
+      range: "20 ppm to 100% O2",
+      accuracy: "±2% of reading",
+      responseTime: "90 seconds (T90)",
+      temperature: "-10°C to +60°C",
+    },
+    title: "Systech EC900 Process Oxygen Analyzer",
+    description: "Advanced electrochemical oxygen analyzer with bypass flowmeter and pressure regulation. Unaffected by hydrocarbons, ideal for inert atmosphere monitoring and safety systems in steel production and industrial processes.",
+    features: [
+      "Electrochemical sensor technology",
+      "20 ppm to 100% O2 measurement range",
+      "Bypass flowmeter included",
+      "Pressure regulation system",
+      "Hydrocarbon resistant",
+      "IP65 enclosure protection",
+      "4-20mA and digital outputs",
+      "Self-diagnostic capabilities"
+    ]
+  },
+  {
+    id: "panametrics-xmo2pro-oxygen-analyzer",
+    slug: "panametrics-xmo2pro-oxygen-analyzer",
+    categoryKey: "instrumentation-components",
+    subcategoryKey: "analyzers",
+    typeKey: "oxygen-gas-analyzers",
+    image: "analyzers",
+    specs: {
+      manufacturer: "Panametrics (Baker Hughes)",
+      model: "XMO2pro",
+      technology: "Paramagnetic",
+      range: "0-100% O2",
+      accuracy: "±0.5% FS",
+      responseTime: "<30 seconds",
+      certification: "SIL 2 certified",
+    },
+    title: "Panametrics XMO2pro Paramagnetic Oxygen Analyzer",
+    description: "SIL-certified paramagnetic oxygen analyzer with contamination resistance for binary gas mixtures. Magnetic field-based measurement technology for highly accurate pure gas analysis in hazardous areas.",
+    features: [
+      "Paramagnetic measurement technology",
+      "SIL 2 safety certification",
+      "Contamination resistant design",
+      "Binary gas mixture analysis",
+      "ATEX hazardous area approval",
+      "Magnetic field detection",
+      "High accuracy measurement",
+      "Process safety applications"
+    ]
+  },
+  {
+    id: "endress-hauser-oxy5500-analyzer",
+    slug: "endress-hauser-oxy5500-analyzer",
+    categoryKey: "instrumentation-components",
+    subcategoryKey: "analyzers",
+    typeKey: "oxygen-gas-analyzers",
+    image: "analyzers",
+    specs: {
+      manufacturer: "Endress+Hauser",
+      model: "OXY5500",
+      technology: "Quenched Fluorescence",
+      range: "0-100% O2",
+      accuracy: "±1% of reading",
+      applications: "CCUS, CO2-rich streams",
+      protection: "IP66/IP67",
+    },
+    title: "Endress+Hauser OXY5500 Optical Oxygen Analyzer",
+    description: "Advanced quenched fluorescence oxygen analyzer ideal for CO2-rich streams and CCUS applications. Optical measurement method provides high reliability and accuracy for environmental monitoring.",
+    features: [
+      "Quenched fluorescence technology",
+      "CO2-rich stream compatibility",
+      "CCUS application ready",
+      "Optical measurement method",
+      "IP66/IP67 protection rating",
+      "No consumable sensors",
+      "Long-term stability",
+      "Environmental monitoring"
+    ]
+  },
+
+  // New Nitrogen Gas Analyzers
+  {
+    id: "leco-onh836-nitrogen-analyzer",
+    slug: "leco-onh836-nitrogen-analyzer",
+    categoryKey: "instrumentation-components",
+    subcategoryKey: "analyzers",
+    typeKey: "nitrogen-gas-analyzers",
+    image: "analyzers",
+    specs: {
+      manufacturer: "LECO Corporation",
+      model: "ONH836",
+      technology: "Inert Gas Fusion + NDIR/TC",
+      elements: "Oxygen, Nitrogen, Hydrogen",
+      sampleTypes: "Metals, Alloys, Refractories",
+      analysisTime: "2-4 minutes",
+      accuracy: "±0.5% relative",
+    },
+    title: "LECO ONH836 Elemental Analyzer",
+    description: "Simultaneous oxygen, nitrogen, and hydrogen analysis using inert gas fusion technology. NDIR and thermal conductivity detection for metals, alloys, and refractory materials with high precision.",
+    features: [
+      "Simultaneous O/N/H analysis",
+      "Inert gas fusion technology",
+      "NDIR and thermal conductivity detection",
+      "2-4 minute analysis time",
+      "Metals and alloys analysis",
+      "Automated sample loading",
+      "High precision measurement",
+      "Refractory materials compatible"
+    ]
+  },
+  {
+    id: "horiba-emga-nitrogen-analyzer",
+    slug: "horiba-emga-nitrogen-analyzer",
+    categoryKey: "instrumentation-components",
+    subcategoryKey: "analyzers",
+    typeKey: "nitrogen-gas-analyzers",
+    image: "analyzers",
+    specs: {
+      manufacturer: "HORIBA Scientific",
+      model: "EMGA Series",
+      technology: "High-frequency Combustion",
+      elements: "1-3 selectable (O2, N2, H2)",
+      industry: "Steel Industry",
+      analysisType: "Trace Analysis",
+      detectionLimit: "ppm levels",
+    },
+    title: "HORIBA EMGA Nitrogen/Oxygen Analyzer",
+    description: "High-frequency combustion analyzer for trace nitrogen and oxygen analysis in steel industry applications. Selectable 1-3 element analysis with ppm-level detection limits for quality control.",
+    features: [
+      "High-frequency combustion",
+      "1-3 selectable elements",
+      "ppm-level detection limits",
+      "Steel industry optimized",
+      "Trace analysis capability",
+      "Quality control applications",
+      "Fast analysis cycles",
+      "Automated operation"
+    ]
+  },
+
+  // New Hydrogen Gas Analyzers
+  {
+    id: "nova-h2-thermal-conductivity-analyzer",
+    slug: "nova-h2-thermal-conductivity-analyzer",
+    categoryKey: "instrumentation-components",
+    subcategoryKey: "analyzers",
+    typeKey: "hydrogen-gas-analyzers",
+    image: "analyzers",
+    specs: {
+      manufacturer: "Nova Analytical Systems",
+      model: "H2 Analyzer Series",
+      technology: "Thermal Conductivity",
+      range: "0-100% H2 (binary mixtures)",
+      gases: "H2 with N2, Air, CO2",
+      safetyRange: "4-74% in air",
+      power: "60-300W",
+    },
+    title: "Nova Analytical H2 Thermal Conductivity Analyzer",
+    description: "Hydrogen analyzer using thermal conductivity detection for binary mixture analysis. Exploits H2's highest thermal conductivity among gases for accurate concentration measurement in process monitoring.",
+    features: [
+      "Thermal conductivity detection",
+      "Binary mixture analysis",
+      "0-100% measurement range",
+      "Safety monitoring capable",
+      "Multiple carrier gases",
+      "High thermal conductivity exploitation",
+      "Process monitoring ready",
+      "Explosion limit monitoring"
+    ]
+  },
+  {
+    id: "endress-hauser-ss2100-hydrogen-analyzer",
+    slug: "endress-hauser-ss2100-hydrogen-analyzer",
+    categoryKey: "instrumentation-components",
+    subcategoryKey: "analyzers",
+    typeKey: "hydrogen-gas-analyzers",
+    image: "analyzers",
+    specs: {
+      manufacturer: "Endress+Hauser",
+      model: "SS2100a",
+      technology: "TDLAS",
+      gases: "H2O, CO2, H2S, NH3, C2H2",
+      applications: "Natural Gas, Refinery",
+      connectivity: "Modbus, Ethernet",
+      certification: "ATEX, SIL 2",
+    },
+    title: "Endress+Hauser SS2100 Hydrogen Quality Analyzer",
+    description: "Advanced TDLAS technology for hydrogen quality measurement in real-time. Multi-channel analysis for natural gas and refinery processes with ATEX certification and SIL 2 safety rating.",
+    features: [
+      "TDLAS multi-channel technology",
+      "Real-time hydrogen quality",
+      "Natural gas applications",
+      "Refinery process monitoring",
+      "ATEX hazardous area certified",
+      "SIL 2 safety rated",
+      "Modbus and Ethernet connectivity",
+      "Remote diagnostics"
+    ]
+  },
+
+  // New Carbon Dioxide Gas Analyzers
+  {
+    id: "endress-hauser-ss2100-co2-analyzer",
+    slug: "endress-hauser-ss2100-co2-analyzer",
+    categoryKey: "instrumentation-components",
+    subcategoryKey: "analyzers",
+    typeKey: "carbon-dioxide-gas-analyzers",
+    image: "analyzers",
+    specs: {
+      manufacturer: "Endress+Hauser",
+      model: "SS2100 CO2",
+      technology: "NDIR",
+      range: "0-10 ppmv to 0-20% volume",
+      accuracy: "±1% of reading",
+      responseTime: "T90 < 60 seconds",
+      applications: "Combustion Control, CCUS",
+    },
+    title: "Endress+Hauser SS2100 CO2 NDIR Analyzer",
+    description: "Non-dispersive infrared CO2 analyzer for combustion control and CCUS monitoring. Industry standard NDIR technology with range from ppmv to percentage levels for diverse applications.",
+    features: [
+      "NDIR measurement technology",
+      "0-10 ppmv to 0-20% range",
+      "Combustion control optimization",
+      "CCUS monitoring ready",
+      "Fast response time",
+      "Industry standard technology",
+      "Process integration",
+      "Environmental monitoring"
+    ]
+  },
+  {
+    id: "nova-multi-gas-co2-analyzer",
+    slug: "nova-multi-gas-co2-analyzer",
+    categoryKey: "instrumentation-components",
+    subcategoryKey: "analyzers",
+    typeKey: "carbon-dioxide-gas-analyzers",
+    image: "analyzers",
+    specs: {
+      manufacturer: "Nova Analytical Systems",
+      model: "Multi-Gas CO2",
+      technology: "NDIR + Correction Algorithms",
+      gases: "CO2, CO, CH4, H2, O2",
+      applications: "Syngas, Biogas, Industrial",
+      correction: "5-gas algorithm",
+      pressure: "Up to 350 kPa (50 psig)",
+    },
+    title: "Nova Multi-Gas CO2 Analyzer System",
+    description: "Advanced multi-component CO2 analyzer with correction algorithms for syngas and biogas applications. NDIR technology with 5-gas analysis including CO2, CO, CH4, H2, and O2 measurement.",
+    features: [
+      "Multi-component analysis",
+      "NDIR with correction algorithms",
+      "5-gas measurement capability",
+      "Syngas and biogas applications",
+      "Industrial process monitoring",
+      "Built-in pumps available",
+      "Pressure regulation",
+      "Data logging capability"
+    ]
+  },
+
+  // New COD Analyzers
+  {
+    id: "hach-ez-series-cod-analyzer",
+    slug: "hach-ez-series-cod-analyzer",
+    categoryKey: "instrumentation-components",
+    subcategoryKey: "analyzers",
+    typeKey: "cod-analyzers",
+    image: "analyzers",
+    specs: {
+      manufacturer: "Hach (Danaher)",
+      model: "EZ Series COD",
+      method: "Dichromate",
+      analysisTime: "2 hours",
+      range: "0-15,000 mg/L COD",
+      accuracy: "±5-10% relative",
+      reagents: "TNTplus vials",
+    },
+    title: "Hach EZ Series COD Analyzer",
+    description: "Online continuous COD monitoring with TNTplus freeze-dried reagents. 2-hour analysis time versus 5-day BOD test for rapid water quality assessment in wastewater treatment applications.",
+    features: [
+      "Online continuous monitoring",
+      "TNTplus freeze-dried reagents",
+      "2-hour analysis time",
+      "0-15,000 mg/L range",
+      "Automated sample handling",
+      "Self-cleaning capability",
+      "Regulatory compliance",
+      "Remote monitoring"
+    ]
+  },
+  {
+    id: "mantech-pecod-l50-analyzer",
+    slug: "mantech-pecod-l50-analyzer",
+    categoryKey: "instrumentation-components",
+    subcategoryKey: "analyzers",
+    typeKey: "cod-analyzers",
+    image: "analyzers",
+    specs: {
+      manufacturer: "MANTECH Inc.",
+      model: "PeCOD L50",
+      method: "UV-activated TiO2",
+      analysisTime: "10 minutes",
+      chemicals: "Chemical-free",
+      approval: "MOECC Method E3515",
+      weight: "Benchtop model",
+    },
+    title: "MANTECH PeCOD L50 COD Analyzer",
+    description: "Revolutionary 10-minute COD analysis using UV-activated TiO2 nanoparticle photocatalyst. Chemical-free operation with no dichromate or mercury required, MOECC approved for regulatory compliance.",
+    features: [
+      "10-minute analysis time",
+      "Chemical-free operation",
+      "UV-activated TiO2 technology",
+      "No dichromate or mercury",
+      "MOECC Method E3515 approved",
+      "Benchtop laboratory model",
+      "MISA program approved",
+      "Environmental friendly"
+    ]
+  },
+  {
+    id: "lar-quickcodlab-analyzer",
+    slug: "lar-quickcodlab-analyzer",
+    categoryKey: "instrumentation-components",
+    subcategoryKey: "analyzers",
+    typeKey: "cod-analyzers",
+    image: "analyzers",
+    specs: {
+      manufacturer: "LAR Process Analysers",
+      model: "QuickCODlab",
+      method: "Thermal Combustion",
+      temperature: "1,200°C",
+      analysisTime: "3 minutes",
+      catalyst: "Catalyst-free",
+      accuracy: "±3%",
+    },
+    title: "LAR QuickCODlab Thermal Combustion Analyzer",
+    description: "Ultra-fast 3-minute COD analysis using thermal combustion at 1,200°C. Catalyst-free oxidation process for complete oxygen demand measurement with exceptional accuracy and reliability.",
+    features: [
+      "3-minute analysis time",
+      "Thermal combustion at 1,200°C",
+      "Catalyst-free oxidation",
+      "Complete oxygen demand",
+      "±3% measurement accuracy",
+      "Online continuous operation",
+      "Low maintenance design",
+      "Process control ready"
+    ]
+  },
+
+  // New BOD Analyzers
+  {
+    id: "mantech-am400-bod-analyzer",
+    slug: "mantech-am400-bod-analyzer",
+    categoryKey: "instrumentation-components",
+    subcategoryKey: "analyzers",
+    typeKey: "bod-analyzers",
+    image: "analyzers",
+    specs: {
+      manufacturer: "MANTECH Inc.",
+      model: "AM400 BOD Analyzer",
+      bottles: "12-108 positions",
+      analysisTime: "90 seconds per bottle",
+      methods: "ASTM 5210B, ISO EN 5815",
+      probes: "Single/Dual/Triple DO",
+      software: "BOD Pro Windows 10/11",
+    },
+    title: "MANTECH AM400 Automated BOD Analyzer",
+    description: "Automated BOD analysis system with 12-108 bottle positions and 90-second per bottle processing. YSI MultiLab integration with automated sample prep, DO reading, and rinsing capabilities.",
+    features: [
+      "12-108 bottle autosampler",
+      "90 seconds per bottle",
+      "Automated sample preparation",
+      "YSI MultiLab integration",
+      "Multiple DO probe options",
+      "BOD Pro software included",
+      "ASTM and ISO methods",
+      "Quality control automation"
+    ]
+  },
+  {
+    id: "hach-bodtrak-ii-analyzer",
+    slug: "hach-bodtrak-ii-analyzer",
+    categoryKey: "instrumentation-components",
+    subcategoryKey: "analyzers",
+    typeKey: "bod-analyzers",
+    image: "analyzers",
+    specs: {
+      manufacturer: "Hach Company",
+      model: "BODTrak II",
+      type: "Respirometric",
+      analysisTime: "2-3 days",
+      technology: "LDO (Luminescent DO)",
+      probes: "IntelliCAL LBOD101",
+      stirring: "Integrated",
+    },
+    title: "Hach BODTrak II Respirometric Analyzer",
+    description: "Respirometric BOD apparatus with luminescent dissolved oxygen technology. IntelliCAL LBOD101 optical DO probe with integrated stirring for accurate 2-3 day BOD analysis.",
+    features: [
+      "Respirometric measurement",
+      "Luminescent DO technology",
+      "IntelliCAL LBOD101 probe",
+      "Integrated stirring system",
+      "2-3 day analysis period",
+      "Mercury-free operation",
+      "Low maintenance design",
+      "Municipal wastewater ready"
+    ]
+  },
+  {
+    id: "ysi-2900-bod-analyzer",
+    slug: "ysi-2900-bod-analyzer",
+    categoryKey: "instrumentation-components",
+    subcategoryKey: "analyzers",
+    typeKey: "bod-analyzers",
+    image: "analyzers",
+    specs: {
+      manufacturer: "YSI/Xylem Analytics",
+      model: "YSI 2900",
+      type: "Two-chemistry analyzer",
+      dataRetrieval: "USB",
+      bottles: "Standard 300mL BOD",
+      temperature: "20°C ± 1°C controlled",
+      analysisTypes: "BOD5, BOD7, CBOD",
+    },
+    title: "YSI 2900 Biochemistry BOD Analyzer",
+    description: "Two-chemistry standalone biochemistry analyzer with USB data retrieval. Standard 300mL BOD bottles with temperature control at 20°C ± 1°C for BOD5, BOD7, and CBOD analysis.",
+    features: [
+      "Two-chemistry capability",
+      "USB data retrieval",
+      "Standard 300mL bottles",
+      "Temperature controlled",
+      "BOD5/BOD7/CBOD analysis",
+      "Standalone operation",
+      "Quality control features",
+      "Laboratory automation"
+    ]
+  },
+
 
   // Additional Electrical Components - Cables
   {
@@ -8081,6 +8582,27 @@ export const categories: Category[] = [
           "analyzer-gas-chromatography-spectrometry",
           "analyzer-liquid-ph-conductivity",
           "analyzer-oxygen-carbon-dioxide",
+          // Oxygen Gas Analyzers
+          "systech-ec900-oxygen-analyzer",
+          "panametrics-xmo2pro-oxygen-analyzer",
+          "endress-hauser-oxy5500-analyzer",
+          // Nitrogen Gas Analyzers
+          "leco-onh836-nitrogen-analyzer",
+          "horiba-emga-nitrogen-analyzer",
+          // Hydrogen Gas Analyzers
+          "nova-h2-thermal-conductivity-analyzer",
+          "endress-hauser-ss2100-hydrogen-analyzer",
+          // Carbon Dioxide Gas Analyzers
+          "endress-hauser-ss2100-co2-analyzer",
+          "nova-multi-gas-co2-analyzer",
+          // COD Analyzers
+          "hach-ez-series-cod-analyzer",
+          "mantech-pecod-l50-analyzer",
+          "lar-quickcodlab-analyzer",
+          // BOD Analyzers
+          "mantech-am400-bod-analyzer",
+          "hach-bodtrak-ii-analyzer",
+          "ysi-2900-bod-analyzer",
         ],
       },
       {

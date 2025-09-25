@@ -76,11 +76,11 @@ const ProductDetailDynamic: React.FC = () => {
           asChild
         >
           <Link
-            href={`/products-sub-category/`}
-            data-testid="link-back-to-subcategory"
+            href={productData.categoryPath}
+            data-testid="link-back-to-parent"
           >
             <ArrowLeft className="mr-2 h-4 w-4 group-hover:-translate-x-2 transition-transform duration-200" />
-            Back to
+            {productData.backLabel}
           </Link>
         </Button>
         {/* Product Image */}
