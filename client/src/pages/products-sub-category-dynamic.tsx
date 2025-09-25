@@ -28,6 +28,12 @@ import {
 import { getProductImageSrc } from "@/assets/images";
 import NotFound from "@/pages/not-found";
 
+// Utility function to truncate text
+const truncateText = (text: string, maxLength: number = 150): string => {
+  if (text.length <= maxLength) return text;
+  return text.slice(0, maxLength).trim() + "...";
+};
+
 export default function ProductSubCategoryDynamic() {
   const { slug } = useParams<{ slug: string }>();
   const { t } = useTranslation(["products", "common"]);
@@ -166,7 +172,7 @@ export default function ProductSubCategoryDynamic() {
                           {groupTitle}
                         </h3>
                         <p className="text-muted-foreground mb-4">
-                          {groupDescription}
+                          {truncateText(groupDescription)}
                         </p>
 
                         <div className="flex justify-between items-center">
