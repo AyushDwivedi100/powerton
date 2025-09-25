@@ -286,6 +286,11 @@ export const PRODUCT_IMAGES = {
   },
   
   // Specific sensor product images
+  'pnp-proximity-sensor': {
+    src: proximitySesorImage,
+    alt: `${IMAGE_IDS.SENSORS}: PNP proximity sensor - Industrial automation sensor for position detection`,
+    id: IMAGE_IDS.SENSORS
+  },
   'npn-proximity-sensor': {
     src: npnProximitySensorImage,
     alt: `${IMAGE_IDS.NPN_PROXIMITY_SENSOR}: NPN proximity sensor - Black M18 threaded industrial automation sensor`,
@@ -546,6 +551,558 @@ export const PRODUCT_IMAGES = {
     src: pdFlowMeterImage,
     alt: `${IMAGE_IDS.PD_FLOW_METER}: KRAL Volumeter OMG - Screw-type positive displacement flow meter`,
     id: IMAGE_IDS.PD_FLOW_METER
+  },
+
+  // Missing product group image mappings
+  'rtd-temperature-sensor': {
+    src: rtdTemperatureSensorImage,
+    alt: `${IMAGE_IDS.SENSORS}: RTD temperature sensor - Industrial precision temperature measurement`,
+    id: IMAGE_IDS.SENSORS
+  },
+  'thermocouple-temperature-sensor': {
+    src: thermocoupleTemperatureSensorImage,
+    alt: `${IMAGE_IDS.SENSORS}: Thermocouple temperature sensor - High temperature measurement`,
+    id: IMAGE_IDS.SENSORS
+  },
+  'load-cell': {
+    src: loadCellImage,
+    alt: `${IMAGE_IDS.SENSORS}: Load cell - Force and weight measurement sensor`,
+    id: IMAGE_IDS.SENSORS
+  },
+  'ph-sensor': {
+    src: phSensorImage,
+    alt: `${IMAGE_IDS.SENSORS}: pH sensor - Industrial liquid measurement sensor`,
+    id: IMAGE_IDS.SENSORS
+  },
+  'dp-transmitter-rosemount': {
+    src: dpTransmitterImage,
+    alt: `${IMAGE_IDS.TRANSMITTERS}: Differential pressure transmitter - Rosemount series`,
+    id: IMAGE_IDS.TRANSMITTERS
+  },
+  'p-transmitter-siemens': {
+    src: pTypeTransmitterImage,
+    alt: `${IMAGE_IDS.TRANSMITTERS}: Pressure transmitter - Siemens series`,
+    id: IMAGE_IDS.TRANSMITTERS
+  },
+  'rs-transmitter-rosemount': {
+    src: rsTransmitterImage,
+    alt: `${IMAGE_IDS.TRANSMITTERS}: Remote seal transmitter - Rosemount series`,
+    id: IMAGE_IDS.TRANSMITTERS
+  },
+  'magnetic-flowmeter-endress': {
+    src: magneticFlowMeterImage,
+    alt: `${IMAGE_IDS.TRANSMITTERS}: Magnetic flow meter - Endress+Hauser series`,
+    id: IMAGE_IDS.TRANSMITTERS
+  },
+  'coriolis-flowmeter-endress': {
+    src: massFlowMeterImage,
+    alt: `${IMAGE_IDS.TRANSMITTERS}: Coriolis flow meter - Endress+Hauser series`,
+    id: IMAGE_IDS.TRANSMITTERS
+  },
+  'vortex-flowmeter-yokogawa': {
+    src: vortexFlowMeterImage,
+    alt: `${IMAGE_IDS.TRANSMITTERS}: Vortex flow meter - Yokogawa series`,
+    id: IMAGE_IDS.TRANSMITTERS
+  },
+  'volumetric-flowmeter-abb': {
+    src: massFlowMeterImage,
+    alt: `${IMAGE_IDS.TRANSMITTERS}: Volumetric flow meter - ABB series`,
+    id: IMAGE_IDS.TRANSMITTERS
+  },
+  'gas-analyzer': {
+    src: processAnalyzersHero,
+    alt: `${IMAGE_IDS.HERO_ANALYZERS}: Gas analyzer - Industrial gas analysis equipment`,
+    id: IMAGE_IDS.HERO_ANALYZERS
+  },
+  'liquid-analyzer': {
+    src: processAnalyzersHero,
+    alt: `${IMAGE_IDS.HERO_ANALYZERS}: Liquid analyzer - Industrial liquid analysis equipment`,
+    id: IMAGE_IDS.HERO_ANALYZERS
+  },
+  'process-analyzer': {
+    src: processAnalyzersHero,
+    alt: `${IMAGE_IDS.HERO_ANALYZERS}: Process analyzer - Industrial process analysis equipment`,
+    id: IMAGE_IDS.HERO_ANALYZERS
+  },
+
+  // Switches and indicators
+  'pressure-switch': {
+    src: proximitySesorImage,
+    alt: `${IMAGE_IDS.SENSORS}: Pressure switch - Industrial pressure control switch`,
+    id: IMAGE_IDS.SENSORS
+  },
+  'level-switch': {
+    src: proximitySesorImage,
+    alt: `${IMAGE_IDS.SENSORS}: Level switch - Industrial level detection switch`,
+    id: IMAGE_IDS.SENSORS
+  },
+  'limit-switch': {
+    src: proximitySesorImage,
+    alt: `${IMAGE_IDS.SENSORS}: Limit switch - Industrial position control switch`,
+    id: IMAGE_IDS.SENSORS
+  },
+  'push-button': {
+    src: proximitySesorImage,
+    alt: `${IMAGE_IDS.SENSORS}: Push button - Industrial control panel button`,
+    id: IMAGE_IDS.SENSORS
+  },
+
+  // Valves and actuators
+  'control-valve': {
+    src: pressureTransmitterImage,
+    alt: `${IMAGE_IDS.TRANSMITTERS}: Control valve - Industrial flow control valve`,
+    id: IMAGE_IDS.TRANSMITTERS
+  },
+  'solenoid-valve': {
+    src: pressureTransmitterImage,
+    alt: `${IMAGE_IDS.TRANSMITTERS}: Solenoid valve - Automated fluid control valve`,
+    id: IMAGE_IDS.TRANSMITTERS
+  },
+
+  // BLDC Motor products
+  'bldc-ceiling-fan': {
+    src: bldcHomeImage,
+    alt: `${IMAGE_IDS.BLDC_MOTORS}: BLDC ceiling fan - Energy efficient brushless DC ceiling fan`,
+    id: IMAGE_IDS.BLDC_MOTORS
+  },
+  'bldc-exhaust-motor': {
+    src: bldcHomeImage,
+    alt: `${IMAGE_IDS.BLDC_MOTORS}: BLDC exhaust motor - Energy efficient ventilation motor`,
+    id: IMAGE_IDS.BLDC_MOTORS
+  },
+  'bldc-cooler-motor': {
+    src: bldcHomeImage,
+    alt: `${IMAGE_IDS.BLDC_MOTORS}: BLDC cooler motor - Energy efficient cooling system motor`,
+    id: IMAGE_IDS.BLDC_MOTORS
+  },
+  'bldc-ventilation-motor': {
+    src: bldcHomeImage,
+    alt: `${IMAGE_IDS.BLDC_MOTORS}: BLDC ventilation motor - Energy efficient air circulation motor`,
+    id: IMAGE_IDS.BLDC_MOTORS
+  },
+  'bldc-submersible-pump': {
+    src: bldcHomeImage,
+    alt: `${IMAGE_IDS.BLDC_MOTORS}: BLDC submersible pump - Energy efficient water pump`,
+    id: IMAGE_IDS.BLDC_MOTORS
+  },
+  'bldc-surface-pump': {
+    src: bldcHomeImage,
+    alt: `${IMAGE_IDS.BLDC_MOTORS}: BLDC surface pump - Energy efficient surface water pump`,
+    id: IMAGE_IDS.BLDC_MOTORS
+  },
+  'bldc-hybrid-pump': {
+    src: bldcHomeImage,
+    alt: `${IMAGE_IDS.BLDC_MOTORS}: BLDC hybrid pump - Solar compatible water pump`,
+    id: IMAGE_IDS.BLDC_MOTORS
+  },
+  'bldc-table-fan-motor': {
+    src: bldcHomeImage,
+    alt: `${IMAGE_IDS.BLDC_MOTORS}: BLDC table fan motor - Energy efficient personal cooling motor`,
+    id: IMAGE_IDS.BLDC_MOTORS
+  },
+  'bldc-wall-fan-motor': {
+    src: bldcHomeImage,
+    alt: `${IMAGE_IDS.BLDC_MOTORS}: BLDC wall fan motor - Energy efficient wall mounted fan motor`,
+    id: IMAGE_IDS.BLDC_MOTORS
+  },
+  'bldc-pedestal-fan-motor': {
+    src: bldcHomeImage,
+    alt: `${IMAGE_IDS.BLDC_MOTORS}: BLDC pedestal fan motor - Energy efficient pedestal fan motor`,
+    id: IMAGE_IDS.BLDC_MOTORS
+  },
+
+  // Electrical components
+  'power-cable': {
+    src: electricalComponentsImage,
+    alt: `${IMAGE_IDS.ELECTRICAL_COMPONENTS}: Power cable - Industrial power transmission cable`,
+    id: IMAGE_IDS.ELECTRICAL_COMPONENTS
+  },
+  'control-cable': {
+    src: electricalComponentsImage,
+    alt: `${IMAGE_IDS.ELECTRICAL_COMPONENTS}: Control cable - Industrial control system cable`,
+    id: IMAGE_IDS.ELECTRICAL_COMPONENTS
+  },
+  'instrumentation-cable': {
+    src: electricalComponentsImage,
+    alt: `${IMAGE_IDS.ELECTRICAL_COMPONENTS}: Instrumentation cable - Industrial measurement cable`,
+    id: IMAGE_IDS.ELECTRICAL_COMPONENTS
+  },
+  'terminal-block': {
+    src: electricalComponentsImage,
+    alt: `${IMAGE_IDS.ELECTRICAL_COMPONENTS}: Terminal block - Electrical connection terminal`,
+    id: IMAGE_IDS.ELECTRICAL_COMPONENTS
+  },
+  'electrical-connector': {
+    src: electricalComponentsImage,
+    alt: `${IMAGE_IDS.ELECTRICAL_COMPONENTS}: Electrical connector - Industrial electrical connector`,
+    id: IMAGE_IDS.ELECTRICAL_COMPONENTS
+  },
+  'industrial-plug': {
+    src: electricalComponentsImage,
+    alt: `${IMAGE_IDS.ELECTRICAL_COMPONENTS}: Industrial plug - Heavy duty electrical plug`,
+    id: IMAGE_IDS.ELECTRICAL_COMPONENTS
+  },
+  'mcb': {
+    src: electricalComponentsImage,
+    alt: `${IMAGE_IDS.ELECTRICAL_COMPONENTS}: MCB - Miniature circuit breaker`,
+    id: IMAGE_IDS.ELECTRICAL_COMPONENTS
+  },
+  'mccb': {
+    src: electricalComponentsImage,
+    alt: `${IMAGE_IDS.ELECTRICAL_COMPONENTS}: MCCB - Molded case circuit breaker`,
+    id: IMAGE_IDS.ELECTRICAL_COMPONENTS
+  },
+  'fuse': {
+    src: electricalComponentsImage,
+    alt: `${IMAGE_IDS.ELECTRICAL_COMPONENTS}: Fuse - Electrical protection fuse`,
+    id: IMAGE_IDS.ELECTRICAL_COMPONENTS
+  },
+  'ac-dc-converter': {
+    src: electricalComponentsImage,
+    alt: `${IMAGE_IDS.ELECTRICAL_COMPONENTS}: AC-DC converter - Power supply converter`,
+    id: IMAGE_IDS.ELECTRICAL_COMPONENTS
+  },
+  'dc-dc-converter': {
+    src: electricalComponentsImage,
+    alt: `${IMAGE_IDS.ELECTRICAL_COMPONENTS}: DC-DC converter - DC power converter`,
+    id: IMAGE_IDS.ELECTRICAL_COMPONENTS
+  },
+  'ups': {
+    src: electricalComponentsImage,
+    alt: `${IMAGE_IDS.ELECTRICAL_COMPONENTS}: UPS - Uninterruptible power supply`,
+    id: IMAGE_IDS.ELECTRICAL_COMPONENTS
+  },
+  'electrical-cabinet': {
+    src: electricalComponentsImage,
+    alt: `${IMAGE_IDS.ELECTRICAL_COMPONENTS}: Electrical cabinet - Industrial electrical enclosure`,
+    id: IMAGE_IDS.ELECTRICAL_COMPONENTS
+  },
+  'junction-box': {
+    src: electricalComponentsImage,
+    alt: `${IMAGE_IDS.ELECTRICAL_COMPONENTS}: Junction box - Electrical connection box`,
+    id: IMAGE_IDS.ELECTRICAL_COMPONENTS
+  },
+  'din-rail-enclosure': {
+    src: electricalComponentsImage,
+    alt: `${IMAGE_IDS.ELECTRICAL_COMPONENTS}: DIN rail enclosure - Modular electrical enclosure`,
+    id: IMAGE_IDS.ELECTRICAL_COMPONENTS
+  },
+  'heating-coil': {
+    src: electricalComponentsImage,
+    alt: `${IMAGE_IDS.ELECTRICAL_COMPONENTS}: Heating coil - Industrial heating element`,
+    id: IMAGE_IDS.ELECTRICAL_COMPONENTS
+  },
+  'heating-element': {
+    src: electricalComponentsImage,
+    alt: `${IMAGE_IDS.ELECTRICAL_COMPONENTS}: Heating element - Electric heating component`,
+    id: IMAGE_IDS.ELECTRICAL_COMPONENTS
+  },
+  'industrial-heater': {
+    src: electricalComponentsImage,
+    alt: `${IMAGE_IDS.ELECTRICAL_COMPONENTS}: Industrial heater - Process heating equipment`,
+    id: IMAGE_IDS.ELECTRICAL_COMPONENTS
+  },
+
+  // Measurement instruments
+  'digital-multimeter': {
+    src: measurementInstrumentsImage,
+    alt: `${IMAGE_IDS.MEASUREMENT_INSTRUMENTS}: Digital multimeter - Precision electrical measurement`,
+    id: IMAGE_IDS.MEASUREMENT_INSTRUMENTS
+  },
+  'clamp-meter': {
+    src: measurementInstrumentsImage,
+    alt: `${IMAGE_IDS.MEASUREMENT_INSTRUMENTS}: Clamp meter - Non-contact current measurement`,
+    id: IMAGE_IDS.MEASUREMENT_INSTRUMENTS
+  },
+  'bench-multimeter': {
+    src: measurementInstrumentsImage,
+    alt: `${IMAGE_IDS.MEASUREMENT_INSTRUMENTS}: Bench multimeter - Laboratory grade measurement`,
+    id: IMAGE_IDS.MEASUREMENT_INSTRUMENTS
+  },
+  'digital-oscilloscope': {
+    src: measurementInstrumentsImage,
+    alt: `${IMAGE_IDS.MEASUREMENT_INSTRUMENTS}: Digital oscilloscope - Signal analysis instrument`,
+    id: IMAGE_IDS.MEASUREMENT_INSTRUMENTS
+  },
+  'mixed-signal-oscilloscope': {
+    src: measurementInstrumentsImage,
+    alt: `${IMAGE_IDS.MEASUREMENT_INSTRUMENTS}: Mixed signal oscilloscope - Analog and digital analysis`,
+    id: IMAGE_IDS.MEASUREMENT_INSTRUMENTS
+  },
+  'portable-oscilloscope': {
+    src: measurementInstrumentsImage,
+    alt: `${IMAGE_IDS.MEASUREMENT_INSTRUMENTS}: Portable oscilloscope - Field measurement scope`,
+    id: IMAGE_IDS.MEASUREMENT_INSTRUMENTS
+  },
+  'rf-spectrum-analyzer': {
+    src: measurementInstrumentsImage,
+    alt: `${IMAGE_IDS.MEASUREMENT_INSTRUMENTS}: RF spectrum analyzer - Radio frequency analysis`,
+    id: IMAGE_IDS.MEASUREMENT_INSTRUMENTS
+  },
+  'audio-spectrum-analyzer': {
+    src: measurementInstrumentsImage,
+    alt: `${IMAGE_IDS.MEASUREMENT_INSTRUMENTS}: Audio spectrum analyzer - Audio signal analysis`,
+    id: IMAGE_IDS.MEASUREMENT_INSTRUMENTS
+  },
+  'real-time-analyzer': {
+    src: measurementInstrumentsImage,
+    alt: `${IMAGE_IDS.MEASUREMENT_INSTRUMENTS}: Real-time analyzer - Live signal processing`,
+    id: IMAGE_IDS.MEASUREMENT_INSTRUMENTS
+  },
+  'power-meter': {
+    src: measurementInstrumentsImage,
+    alt: `${IMAGE_IDS.MEASUREMENT_INSTRUMENTS}: Power meter - Electrical power measurement`,
+    id: IMAGE_IDS.MEASUREMENT_INSTRUMENTS
+  },
+  'harmonic-analyzer': {
+    src: measurementInstrumentsImage,
+    alt: `${IMAGE_IDS.MEASUREMENT_INSTRUMENTS}: Harmonic analyzer - Power quality analysis`,
+    id: IMAGE_IDS.MEASUREMENT_INSTRUMENTS
+  },
+  'energy-logger': {
+    src: measurementInstrumentsImage,
+    alt: `${IMAGE_IDS.MEASUREMENT_INSTRUMENTS}: Energy logger - Power consumption monitoring`,
+    id: IMAGE_IDS.MEASUREMENT_INSTRUMENTS
+  },
+  'calibration-instrument': {
+    src: measurementInstrumentsImage,
+    alt: `${IMAGE_IDS.MEASUREMENT_INSTRUMENTS}: Calibration instrument - Precision calibration tool`,
+    id: IMAGE_IDS.MEASUREMENT_INSTRUMENTS
+  },
+  'calibration-standard': {
+    src: measurementInstrumentsImage,
+    alt: `${IMAGE_IDS.MEASUREMENT_INSTRUMENTS}: Calibration standard - Reference standard instrument`,
+    id: IMAGE_IDS.MEASUREMENT_INSTRUMENTS
+  },
+  'test-equipment': {
+    src: measurementInstrumentsImage,
+    alt: `${IMAGE_IDS.MEASUREMENT_INSTRUMENTS}: Test equipment - Electronic testing instruments`,
+    id: IMAGE_IDS.MEASUREMENT_INSTRUMENTS
+  },
+  'multimeters': {
+    src: measurementInstrumentsImage,
+    alt: `${IMAGE_IDS.MEASUREMENT_INSTRUMENTS}: Multimeters - Electrical measurement devices`,
+    id: IMAGE_IDS.MEASUREMENT_INSTRUMENTS
+  },
+
+  // Industrial tools
+  'mechanical-tools': {
+    src: industrialToolsImage,
+    alt: `${IMAGE_IDS.INDUSTRIAL_TOOLS}: Mechanical tools - Industrial hand tools`,
+    id: IMAGE_IDS.INDUSTRIAL_TOOLS
+  },
+  'electrical-tools': {
+    src: industrialToolsImage,
+    alt: `${IMAGE_IDS.INDUSTRIAL_TOOLS}: Electrical tools - Electrical work tools`,
+    id: IMAGE_IDS.INDUSTRIAL_TOOLS
+  },
+  'precision-tools': {
+    src: industrialToolsImage,
+    alt: `${IMAGE_IDS.INDUSTRIAL_TOOLS}: Precision tools - Precision measurement tools`,
+    id: IMAGE_IDS.INDUSTRIAL_TOOLS
+  },
+  'electric-drill': {
+    src: industrialToolsImage,
+    alt: `${IMAGE_IDS.INDUSTRIAL_TOOLS}: Electric drill - Industrial drilling tool`,
+    id: IMAGE_IDS.INDUSTRIAL_TOOLS
+  },
+  'angle-grinder': {
+    src: industrialToolsImage,
+    alt: `${IMAGE_IDS.INDUSTRIAL_TOOLS}: Angle grinder - Industrial cutting and grinding tool`,
+    id: IMAGE_IDS.INDUSTRIAL_TOOLS
+  },
+  'impact-driver': {
+    src: industrialToolsImage,
+    alt: `${IMAGE_IDS.INDUSTRIAL_TOOLS}: Impact driver - Heavy duty fastening tool`,
+    id: IMAGE_IDS.INDUSTRIAL_TOOLS
+  },
+  'cutting-blade': {
+    src: industrialToolsImage,
+    alt: `${IMAGE_IDS.INDUSTRIAL_TOOLS}: Cutting blade - Industrial cutting disc`,
+    id: IMAGE_IDS.INDUSTRIAL_TOOLS
+  },
+  'drill-bit': {
+    src: industrialToolsImage,
+    alt: `${IMAGE_IDS.INDUSTRIAL_TOOLS}: Drill bit - Industrial drilling bit`,
+    id: IMAGE_IDS.INDUSTRIAL_TOOLS
+  },
+  'milling-cutter': {
+    src: industrialToolsImage,
+    alt: `${IMAGE_IDS.INDUSTRIAL_TOOLS}: Milling cutter - CNC milling tool`,
+    id: IMAGE_IDS.INDUSTRIAL_TOOLS
+  },
+  'chain-hoist': {
+    src: industrialToolsImage,
+    alt: `${IMAGE_IDS.INDUSTRIAL_TOOLS}: Chain hoist - Material lifting equipment`,
+    id: IMAGE_IDS.INDUSTRIAL_TOOLS
+  },
+  'wire-rope-hoist': {
+    src: industrialToolsImage,
+    alt: `${IMAGE_IDS.INDUSTRIAL_TOOLS}: Wire rope hoist - Heavy lifting equipment`,
+    id: IMAGE_IDS.INDUSTRIAL_TOOLS
+  },
+  'jib-crane': {
+    src: industrialToolsImage,
+    alt: `${IMAGE_IDS.INDUSTRIAL_TOOLS}: Jib crane - Material handling crane`,
+    id: IMAGE_IDS.INDUSTRIAL_TOOLS
+  },
+  'ppe': {
+    src: safetyProtectiveDevicesImage,
+    alt: `${IMAGE_IDS.SAFETY_PROTECTIVE_DEVICES}: PPE - Personal protective equipment`,
+    id: IMAGE_IDS.SAFETY_PROTECTIVE_DEVICES
+  },
+  'safety-barrier': {
+    src: safetyProtectiveDevicesImage,
+    alt: `${IMAGE_IDS.SAFETY_PROTECTIVE_DEVICES}: Safety barrier - Industrial safety barrier`,
+    id: IMAGE_IDS.SAFETY_PROTECTIVE_DEVICES
+  },
+  'emergency-equipment': {
+    src: safetyProtectiveDevicesImage,
+    alt: `${IMAGE_IDS.SAFETY_PROTECTIVE_DEVICES}: Emergency equipment - Safety emergency equipment`,
+    id: IMAGE_IDS.SAFETY_PROTECTIVE_DEVICES
+  },
+  'hand-tools': {
+    src: industrialToolsImage,
+    alt: `${IMAGE_IDS.INDUSTRIAL_TOOLS}: Hand tools - Professional hand tools`,
+    id: IMAGE_IDS.INDUSTRIAL_TOOLS
+  },
+  'power-tools': {
+    src: industrialToolsImage,
+    alt: `${IMAGE_IDS.INDUSTRIAL_TOOLS}: Power tools - Electric and pneumatic tools`,
+    id: IMAGE_IDS.INDUSTRIAL_TOOLS
+  },
+  'cutting-tools': {
+    src: industrialToolsImage,
+    alt: `${IMAGE_IDS.INDUSTRIAL_TOOLS}: Cutting tools - Industrial cutting equipment`,
+    id: IMAGE_IDS.INDUSTRIAL_TOOLS
+  },
+  'lifting-equipment': {
+    src: industrialToolsImage,
+    alt: `${IMAGE_IDS.INDUSTRIAL_TOOLS}: Lifting equipment - Material handling equipment`,
+    id: IMAGE_IDS.INDUSTRIAL_TOOLS
+  },
+  'safety-equipment': {
+    src: safetyProtectiveDevicesImage,
+    alt: `${IMAGE_IDS.SAFETY_PROTECTIVE_DEVICES}: Safety equipment - Industrial safety equipment`,
+    id: IMAGE_IDS.SAFETY_PROTECTIVE_DEVICES
+  },
+
+  // Solar products
+  'monocrystalline-panel': {
+    src: solarProductsImage,
+    alt: `${IMAGE_IDS.SOLAR_PRODUCTS}: Monocrystalline panel - High efficiency solar panel`,
+    id: IMAGE_IDS.SOLAR_PRODUCTS
+  },
+  'polycrystalline-panel': {
+    src: solarProductsImage,
+    alt: `${IMAGE_IDS.SOLAR_PRODUCTS}: Polycrystalline panel - Cost effective solar panel`,
+    id: IMAGE_IDS.SOLAR_PRODUCTS
+  },
+  'thin-film-panel': {
+    src: solarProductsImage,
+    alt: `${IMAGE_IDS.SOLAR_PRODUCTS}: Thin film panel - Flexible solar panel technology`,
+    id: IMAGE_IDS.SOLAR_PRODUCTS
+  },
+  'string-inverter': {
+    src: solarProductsImage,
+    alt: `${IMAGE_IDS.SOLAR_PRODUCTS}: String inverter - Solar DC to AC inverter`,
+    id: IMAGE_IDS.SOLAR_PRODUCTS
+  },
+  'micro-inverter': {
+    src: solarProductsImage,
+    alt: `${IMAGE_IDS.SOLAR_PRODUCTS}: Micro inverter - Module level power electronics`,
+    id: IMAGE_IDS.SOLAR_PRODUCTS
+  },
+  'power-optimizer': {
+    src: solarProductsImage,
+    alt: `${IMAGE_IDS.SOLAR_PRODUCTS}: Power optimizer - Solar panel optimization`,
+    id: IMAGE_IDS.SOLAR_PRODUCTS
+  },
+
+  // Automation control systems
+  'modular-plc': {
+    src: automationControlSystemsImage,
+    alt: `${IMAGE_IDS.AUTOMATION_CONTROL_SYSTEMS}: Modular PLC - Programmable logic controller`,
+    id: IMAGE_IDS.AUTOMATION_CONTROL_SYSTEMS
+  },
+  'compact-plc': {
+    src: automationControlSystemsImage,
+    alt: `${IMAGE_IDS.AUTOMATION_CONTROL_SYSTEMS}: Compact PLC - Small form factor PLC`,
+    id: IMAGE_IDS.AUTOMATION_CONTROL_SYSTEMS
+  },
+  'micro-plc': {
+    src: automationControlSystemsImage,
+    alt: `${IMAGE_IDS.AUTOMATION_CONTROL_SYSTEMS}: Micro PLC - Ultra compact PLC`,
+    id: IMAGE_IDS.AUTOMATION_CONTROL_SYSTEMS
+  },
+  'scada-software': {
+    src: automationControlSystemsImage,
+    alt: `${IMAGE_IDS.AUTOMATION_CONTROL_SYSTEMS}: SCADA software - Supervisory control software`,
+    id: IMAGE_IDS.AUTOMATION_CONTROL_SYSTEMS
+  },
+  'scada-hardware': {
+    src: automationControlSystemsImage,
+    alt: `${IMAGE_IDS.AUTOMATION_CONTROL_SYSTEMS}: SCADA hardware - Control system hardware`,
+    id: IMAGE_IDS.AUTOMATION_CONTROL_SYSTEMS
+  },
+  'scada-gateway': {
+    src: automationControlSystemsImage,
+    alt: `${IMAGE_IDS.AUTOMATION_CONTROL_SYSTEMS}: SCADA gateway - Communication gateway`,
+    id: IMAGE_IDS.AUTOMATION_CONTROL_SYSTEMS
+  },
+  'dcs-controller': {
+    src: automationControlSystemsImage,
+    alt: `${IMAGE_IDS.AUTOMATION_CONTROL_SYSTEMS}: DCS controller - Distributed control system`,
+    id: IMAGE_IDS.AUTOMATION_CONTROL_SYSTEMS
+  },
+  'dcs-operator-station': {
+    src: automationControlSystemsImage,
+    alt: `${IMAGE_IDS.AUTOMATION_CONTROL_SYSTEMS}: DCS operator station - Control room station`,
+    id: IMAGE_IDS.AUTOMATION_CONTROL_SYSTEMS
+  },
+  'dcs-engineering-station': {
+    src: automationControlSystemsImage,
+    alt: `${IMAGE_IDS.AUTOMATION_CONTROL_SYSTEMS}: DCS engineering station - Configuration workstation`,
+    id: IMAGE_IDS.AUTOMATION_CONTROL_SYSTEMS
+  },
+  'touchscreen-hmi': {
+    src: automationControlSystemsImage,
+    alt: `${IMAGE_IDS.AUTOMATION_CONTROL_SYSTEMS}: Touchscreen HMI - Human machine interface`,
+    id: IMAGE_IDS.AUTOMATION_CONTROL_SYSTEMS
+  },
+  'panel-mount-hmi': {
+    src: automationControlSystemsImage,
+    alt: `${IMAGE_IDS.AUTOMATION_CONTROL_SYSTEMS}: Panel mount HMI - Industrial control panel`,
+    id: IMAGE_IDS.AUTOMATION_CONTROL_SYSTEMS
+  },
+  'mobile-hmi': {
+    src: automationControlSystemsImage,
+    alt: `${IMAGE_IDS.AUTOMATION_CONTROL_SYSTEMS}: Mobile HMI - Portable operator interface`,
+    id: IMAGE_IDS.AUTOMATION_CONTROL_SYSTEMS
+  },
+
+  // Pumps and motors
+  'centrifugal-pumps': {
+    src: pumpsMotorsImage,
+    alt: `${IMAGE_IDS.PUMPS_MOTORS}: Centrifugal pumps - Industrial fluid pumps`,
+    id: IMAGE_IDS.PUMPS_MOTORS
+  },
+  'pump-parts-spares': {
+    src: pumpsMotorsImage,
+    alt: `${IMAGE_IDS.PUMPS_MOTORS}: Pump parts spares - Replacement pump components`,
+    id: IMAGE_IDS.PUMPS_MOTORS
+  },
+  'heating-elements': {
+    src: electricalComponentsImage,
+    alt: `${IMAGE_IDS.ELECTRICAL_COMPONENTS}: Heating elements - Industrial heating components`,
+    id: IMAGE_IDS.ELECTRICAL_COMPONENTS
+  },
+
+  // Generic fallback
+  'default-product': {
+    src: instrumentationComponentsImage,
+    alt: `${IMAGE_IDS.INSTRUMENTATION_COMPONENTS}: Industrial product - High quality industrial equipment`,
+    id: IMAGE_IDS.INSTRUMENTATION_COMPONENTS
   }
 } as const;
 
