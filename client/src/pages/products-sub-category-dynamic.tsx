@@ -28,10 +28,11 @@ import {
 import { getProductImageSrc } from "@/assets/images";
 import NotFound from "@/pages/not-found";
 
-// Utility function to truncate text
-const truncateText = (text: string, maxLength: number = 150): string => {
-  if (text.length <= maxLength) return text;
-  return text.slice(0, maxLength).trim() + "...";
+// Utility function to truncate text by word count
+const truncateText = (text: string, maxWords: number = 75): string => {
+  const words = text.split(' ');
+  if (words.length <= maxWords) return text;
+  return words.slice(0, maxWords).join(' ') + "...";
 };
 
 export default function ProductSubCategoryDynamic() {
