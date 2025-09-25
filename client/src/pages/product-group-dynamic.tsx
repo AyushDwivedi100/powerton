@@ -63,10 +63,10 @@ export default function ProductGroupDynamic() {
       {/* Hero Section */}
       <section className="relative bg-gradient-to-r from-primary/90 to-primary py-16 lg:py-24">
         <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8 text-white">
-          <div className="text-center">
+          <div className="text-center text-foreground">
             <Button
               variant="ghost"
-              className="mb-6 hover:bg-white/10 text-white group"
+              className="mb-6 hover:bg-black/10 dark:hover:bg-white/10 hover:text-foreground group"
               asChild
             >
               <Link
@@ -81,20 +81,20 @@ export default function ProductGroupDynamic() {
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
               {groupTitle}
             </h1>
-            <p className="text-xl md:text-2xl text-white/90 max-w-3xl mx-auto mb-8">
+            <p className="text-xl md:text-2xl text-foreground max-w-3xl mx-auto mb-8">
               {groupDescription}
             </p>
 
             <div className="flex flex-wrap justify-center gap-4">
               <Badge
                 variant="secondary"
-                className="bg-white/20 text-white border-white/20 px-4 py-2 text-lg"
+                className="bg-black/20 dark:bg-white/20 text-foreground border-black/20 dark:border-white/20 px-4 py-2 text-lg"
               >
                 {groupProducts.length} Products
               </Badge>
               <Badge
                 variant="secondary"
-                className="bg-white/20 text-white border-white/20 px-4 py-2 text-lg"
+                className="bg-black/20 dark:bg-white/20 text-foreground border-black/20 dark:border-white/20 px-4 py-2 text-lg"
               >
                 {subcategory.title}
               </Badge>
@@ -168,7 +168,9 @@ export default function ProductGroupDynamic() {
                           </td>
                           <td className="px-6 py-4 text-sm">
                             <div className="flex gap-2">
-                              <Link href={`/products/${subcategorySlug}/${groupSlug}/${product.slug}`}>
+                              <Link
+                                href={`/products/${subcategorySlug}/${groupSlug}/${product.slug}`}
+                              >
                                 <Button
                                   size="sm"
                                   variant="outline"
@@ -224,18 +226,22 @@ export default function ProductGroupDynamic() {
       <section className="py-12 md:py-16 bg-primary">
         <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8 text-center">
           <AnimatedSection>
-            <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
+            <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
               {t("common:sections.needAssistance", {
                 defaultValue: "Need Technical Assistance?",
               })}
             </h2>
-            <p className="text-lg text-muted-foreground max-w-2xl mx-auto mb-8">
+            <p className="text-lg text-white max-w-2xl mx-auto mb-8">
               Our experts are here to help you select the right{" "}
               {groupTitle.toLowerCase()} for your application.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="/contact">
-                <Button size="lg" data-testid="button-contact-experts">
+                <Button
+                  size="lg"
+                  data-testid="button-contact-experts"
+                  className="bg-secondary hover:bg-secondary/90 text-secondary-foreground px-8 py-3 text-lg font-semibold w-full sm:w-auto"
+                >
                   <Phone className="mr-2 h-5 w-5" />
                   {t("common:buttons.contactExperts", {
                     defaultValue: "Contact Our Experts",
@@ -247,6 +253,7 @@ export default function ProductGroupDynamic() {
                   variant="outline"
                   size="lg"
                   data-testid="button-get-quote"
+                  className="border-2 border-border text-foreground hover:bg-foreground hover:text-background px-8 py-3 text-lg font-semibold w-full sm:w-auto"
                 >
                   <Mail className="mr-2 h-5 w-5" />
                   {t("common:buttons.getQuote", {

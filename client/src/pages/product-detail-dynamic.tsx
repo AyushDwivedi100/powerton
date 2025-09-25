@@ -1,10 +1,20 @@
 import { Link, useParams } from "wouter";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { ArrowLeft, Download, ShoppingCart } from "lucide-react";
 import { getProductDetailBySlug } from "@/data/products-detail-pages-data";
 import { useTranslation } from "react-i18next";
 import { SEO } from "@/lib/seo";
+import {
+  ArrowRight,
+  ArrowLeft,
+  CheckCircle,
+  Star,
+  Phone,
+  Mail,
+  Download,
+  ShoppingCart,
+  Eye,
+} from "lucide-react";
 
 const ProductDetailDynamic: React.FC = () => {
   const { slug, groupSlug } = useParams<{ slug: string; groupSlug?: string }>();
@@ -25,7 +35,9 @@ const ProductDetailDynamic: React.FC = () => {
           <Link href="/products">
             <Button>
               <ArrowLeft className="mr-2 h-4 w-4" />
-              {t("common:buttons.backToProducts", { defaultValue: "Back to Products" })}
+              {t("common:buttons.backToProducts", {
+                defaultValue: "Back to Products",
+              })}
             </Button>
           </Link>
         </div>
@@ -57,102 +69,34 @@ const ProductDetailDynamic: React.FC = () => {
         }}
       />
 
-      <div className="min-h-screen bg-background">
-        {/* Header with Back Navigation */}
-        <header className="border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
-            <Link href={productData.categoryPath}>
-              <Button
-                variant="ghost"
-                size="sm"
-                className="text-muted-foreground hover:text-foreground"
-                data-testid="button-back"
-              >
-                <ArrowLeft className="mr-2 h-4 w-4" />
-                {productData.backLabel || productData.categoryName}
-              </Button>
-            </Link>
-          </div>
-        </header>
+      <div className="grid grid-cols-1 gap-8">
+        <Button
+          variant="ghost"
+          className="mb-6 hover:bg-black/10 dark:hover:bg-white/10 hover:text-foreground group"
+          asChild
+        >
+          <Link
+            href={`/products-sub-category/`}
+            data-testid="link-back-to-subcategory"
+          >
+            <ArrowLeft className="mr-2 h-4 w-4 group-hover:-translate-x-2 transition-transform duration-200" />
+            Back to
+          </Link>
+        </Button>
+        {/* Product Image */}
+        <div className="lg:sticky lg:top-8 lg:h-fit">
+          <img
+            src={productData.image}
+            alt={productData.title}
+            className="w-full h-auto max-h-96 object-contain bg-muted/30 rounded-lg"
+            data-testid="img-product"
+          />
+        </div>
+      </div>
 
+      <div className="min-h-screen bg-background">
         {/* Main Content */}
         <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
-            {/* Product Image */}
-            <div className="lg:sticky lg:top-8 lg:h-fit">
-              <img
-                src={productData.image}
-                alt={productData.title}
-                className="w-full h-auto max-h-96 object-contain bg-muted/30 rounded-lg"
-                data-testid="img-product"
-              />
-            </div>
-
-            {/* Product Details */}
-            <div className="space-y-6">
-              {/* Product Header */}
-              <div>
-                <p className="text-sm text-muted-foreground mb-2">
-                  {productData.categoryName} / {productData.subcategoryName}
-                </p>
-                <h1 className="text-3xl font-bold text-foreground mb-4" data-testid="text-title">
-                  {productData.title}
-                </h1>
-                <p className="text-lg text-muted-foreground" data-testid="text-description">
-                  {productData.shortDescription}
-                </p>
-              </div>
-
-              {/* Key Facts */}
-              <Card>
-                <CardHeader>
-                  <CardTitle className="text-lg">Key Facts</CardTitle>
-                </CardHeader>
-                <CardContent className="space-y-2">
-                  <div className="flex justify-between">
-                    <span className="text-muted-foreground">Manufacturer:</span>
-                    <span className="font-medium">Powerton Engineering</span>
-                  </div>
-                  <div className="flex justify-between">
-                    <span className="text-muted-foreground">Category:</span>
-                    <span className="font-medium">{productData.categoryName}</span>
-                  </div>
-                  <div className="flex justify-between">
-                    <span className="text-muted-foreground">Type:</span>
-                    <span className="font-medium">{productData.subcategoryName}</span>
-                  </div>
-                  <div className="flex justify-between">
-                    <span className="text-muted-foreground">Availability:</span>
-                    <span className="font-medium text-green-600 dark:text-green-400">In Stock</span>
-                  </div>
-                </CardContent>
-              </Card>
-
-              {/* Action Buttons */}
-              <div className="flex flex-col sm:flex-row gap-3">
-                <Link href="/quote" className="flex-1">
-                  <Button className="w-full" data-testid="button-quote">
-                    <ShoppingCart className="mr-2 h-4 w-4" />
-                    Request Quote
-                  </Button>
-                </Link>
-                {productData.datasheetUrl && (
-                  <Button
-                    variant="outline"
-                    className="flex-1"
-                    asChild
-                    data-testid="link-datasheet"
-                  >
-                    <a href={productData.datasheetUrl} target="_blank" rel="noopener noreferrer">
-                      <Download className="mr-2 h-4 w-4" />
-                      Download Datasheet
-                    </a>
-                  </Button>
-                )}
-              </div>
-            </div>
-          </div>
-
           {/* Additional Information */}
           <div className="mt-12 space-y-8">
             {/* Overview */}
@@ -189,42 +133,53 @@ const ProductDetailDynamic: React.FC = () => {
             )}
 
             {/* Technical Specifications */}
-            {productData.specifications && productData.specifications.length > 0 && (
-              <Card>
-                <CardHeader>
-                  <CardTitle>Technical Specifications</CardTitle>
-                </CardHeader>
-                <CardContent>
-                  <div className="space-y-3">
-                    {productData.specifications.map((spec, index) => (
-                      <div key={index} className="flex justify-between py-2 border-b border-border/50 last:border-b-0">
-                        <span className="font-medium text-foreground">{spec.label}</span>
-                        <span className="text-muted-foreground">{spec.value}</span>
-                      </div>
-                    ))}
-                  </div>
-                </CardContent>
-              </Card>
-            )}
+            {productData.specifications &&
+              productData.specifications.length > 0 && (
+                <Card>
+                  <CardHeader>
+                    <CardTitle>Technical Specifications</CardTitle>
+                  </CardHeader>
+                  <CardContent>
+                    <div className="space-y-3">
+                      {productData.specifications.map((spec, index) => (
+                        <div
+                          key={index}
+                          className="flex justify-between py-2 border-b border-border/50 last:border-b-0"
+                        >
+                          <span className="font-medium text-foreground">
+                            {spec.label}
+                          </span>
+                          <span className="text-muted-foreground">
+                            {spec.value}
+                          </span>
+                        </div>
+                      ))}
+                    </div>
+                  </CardContent>
+                </Card>
+              )}
 
             {/* Applications */}
-            {productData.applications && productData.applications.length > 0 && (
-              <Card>
-                <CardHeader>
-                  <CardTitle>Applications</CardTitle>
-                </CardHeader>
-                <CardContent>
-                  <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
-                    {productData.applications.map((application, index) => (
-                      <div key={index} className="flex items-center">
-                        <span className="w-2 h-2 bg-secondary rounded-full mr-3 flex-shrink-0" />
-                        <span className="text-muted-foreground">{application}</span>
-                      </div>
-                    ))}
-                  </div>
-                </CardContent>
-              </Card>
-            )}
+            {productData.applications &&
+              productData.applications.length > 0 && (
+                <Card>
+                  <CardHeader>
+                    <CardTitle>Applications</CardTitle>
+                  </CardHeader>
+                  <CardContent>
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
+                      {productData.applications.map((application, index) => (
+                        <div key={index} className="flex items-center">
+                          <span className="w-2 h-2 bg-secondary rounded-full mr-3 flex-shrink-0" />
+                          <span className="text-muted-foreground">
+                            {application}
+                          </span>
+                        </div>
+                      ))}
+                    </div>
+                  </CardContent>
+                </Card>
+              )}
 
             {/* Industries */}
             {productData.industries && productData.industries.length > 0 && (
@@ -237,7 +192,9 @@ const ProductDetailDynamic: React.FC = () => {
                     {productData.industries.map((industry, index) => (
                       <div key={index} className="flex items-center">
                         <span className="w-2 h-2 bg-accent rounded-full mr-3 flex-shrink-0" />
-                        <span className="text-muted-foreground">{industry}</span>
+                        <span className="text-muted-foreground">
+                          {industry}
+                        </span>
                       </div>
                     ))}
                   </div>
@@ -246,49 +203,58 @@ const ProductDetailDynamic: React.FC = () => {
             )}
 
             {/* Certifications */}
-            {productData.certifications && productData.certifications.length > 0 && (
-              <Card>
-                <CardHeader>
-                  <CardTitle>Certifications & Compliance</CardTitle>
-                </CardHeader>
-                <CardContent>
-                  <div className="flex flex-wrap gap-2">
-                    {productData.certifications.map((cert, index) => (
-                      <span
-                        key={index}
-                        className="inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-muted text-muted-foreground"
-                      >
-                        {cert}
-                      </span>
-                    ))}
-                  </div>
-                </CardContent>
-              </Card>
-            )}
+            {productData.certifications &&
+              productData.certifications.length > 0 && (
+                <Card>
+                  <CardHeader>
+                    <CardTitle>Certifications & Compliance</CardTitle>
+                  </CardHeader>
+                  <CardContent>
+                    <div className="flex flex-wrap gap-2">
+                      {productData.certifications.map((cert, index) => (
+                        <span
+                          key={index}
+                          className="inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-muted text-muted-foreground"
+                        >
+                          {cert}
+                        </span>
+                      ))}
+                    </div>
+                  </CardContent>
+                </Card>
+              )}
           </div>
+        </main>
 
-          {/* Call to Action */}
-          <div className="mt-12 bg-muted/50 rounded-lg p-6 text-center">
-            <h3 className="text-lg font-semibold text-foreground mb-2">
+        {/* Call to Action */}
+        <section className="py-12 md:py-16 lg:py-20 bg-primary text-white">
+          <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8 text-center">
+            <h2 className="text-3xl lg:text-4xl font-bold mb-6">
               Need More Information?
-            </h3>
-            <p className="text-muted-foreground mb-4">
-              Contact our experts for detailed specifications, pricing, and technical support.
+            </h2>
+            <p className="text-xl mb-8 opacity-90 max-w-3xl mx-auto">
+              Contact our experts for detailed specifications, pricing, and
+              technical support.
             </p>
-            <div className="flex flex-col sm:flex-row gap-3 justify-center">
+            <div className="flex flex-col sm:flex-row justify-center gap-2 sm:gap-3 md:gap-4 max-w-md mx-auto px-2 sm:px-0">
               <Link href="/contact">
-                <Button variant="outline">
-                  Contact Us
+                <Button className="bg-secondary hover:bg-secondary/90 text-secondary-foreground px-8 py-3 text-lg font-semibold w-full sm:w-auto">
+                  <Phone className="mr-2 w-5 h-5" />
+                  {t("common:buttons.contactExpert")}
                 </Button>
               </Link>
               <Link href="/quote">
-                <Button>
-                  Request Quote
+                <Button
+                  variant="outline"
+                  className="border-2 border-border text-foreground hover:bg-foreground hover:text-background px-8 py-3 text-lg font-semibold w-full sm:w-auto"
+                >
+                  <Mail className="mr-2 w-5 h-5" />
+                  {t("common:buttons.requestCustomQuote")}
                 </Button>
               </Link>
             </div>
           </div>
-        </main>
+        </section>
       </div>
     </>
   );

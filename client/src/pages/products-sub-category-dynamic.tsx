@@ -102,7 +102,7 @@ export default function ProductSubCategoryDynamic() {
               <Link href="/contact">
                 <Button
                   variant="outline"
-                  className="border-2 border-border text-white hover:bg-background hover:text-foreground px-8 py-3 text-lg font-semibold w-full sm:w-auto"
+                  className="border-2 border-border text-foreground hover:bg-background hover:text-primary px-8 py-3 text-lg font-semibold w-full sm:w-auto"
                 >
                   {t("common:buttons.contactUs")}{" "}
                   <Phone className="ml-2 w-5 h-5" />
@@ -191,7 +191,8 @@ export default function ProductSubCategoryDynamic() {
                 <div className="col-span-full text-center py-12">
                   <div className="text-muted-foreground text-lg mb-4">
                     {t("products:messages.noProductGroups", {
-                      defaultValue: "No product groups available in this category.",
+                      defaultValue:
+                        "No product groups available in this category.",
                     })}
                   </div>
                   <Link href="/products">
@@ -365,15 +366,15 @@ export default function ProductSubCategoryDynamic() {
             <div className="bg-background/90 backdrop-blur-sm rounded-2xl border border-border/50 p-4 md:p-6 hover:shadow-lg transition-all duration-500">
               <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
                 {/* Features */}
-                <div className="lg:col-span-2">
-                  <h3 className="text-lg md:text-xl font-bold text-foreground mb-4 group-hover:text-se">
+                <div className="lg:col-span-2 group">
+                  <h3 className="text-lg md:text-xl font-bold text-foreground mb-4 group-hover:text-secondary">
                     Key Features
                   </h3>
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
                     {product.features.map((feature, index) => (
                       <div
                         key={index}
-                        className="group flex items-start space-x-2 p-1 rounded-lg hover:bg-secondary/5 transition-all duration-300 cursor-default"
+                        className="flex items-start space-x-2 p-1 rounded-lg hover:bg-secondary/5 transition-all duration-300 cursor-default"
                       >
                         <CheckCircle className="w-3 h-3 text-secondary mt-1 flex-shrink-0 group-hover:scale-110 transition-transform" />
                         <span className="text-md text-muted-foreground group-hover:text-foreground transition-colors">
