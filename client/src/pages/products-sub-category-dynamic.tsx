@@ -30,9 +30,9 @@ import NotFound from "@/pages/not-found";
 
 // Utility function to truncate text by word count
 const truncateText = (text: string, maxWords: number = 75): string => {
-  const words = text.split(' ');
+  const words = text.split(" ");
   if (words.length <= maxWords) return text;
-  return words.slice(0, maxWords).join(' ') + "...";
+  return words.slice(0, maxWords).join(" ") + "...";
 };
 
 export default function ProductSubCategoryDynamic() {
@@ -143,8 +143,11 @@ export default function ProductSubCategoryDynamic() {
               {productGroups.length > 0 &&
                 productGroups.map((group, index) => {
                   // Use the title and description from the ProductGroup
-                  const groupTitle = group.title || group.key.toUpperCase().replace("-", " ");
-                  const groupDescription = group.description || "High-quality sensor group for industrial automation applications.";
+                  const groupTitle =
+                    group.title || group.key.toUpperCase().replace("-", " ");
+                  const groupDescription =
+                    group.description ||
+                    "High-quality sensor group for industrial automation applications.";
 
                   return (
                     <Card
@@ -367,9 +370,9 @@ export default function ProductSubCategoryDynamic() {
         <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8">
           <AnimatedSection>
             <div className="bg-background/90 backdrop-blur-sm rounded-2xl border border-border/50 p-4 md:p-6 hover:shadow-lg transition-all duration-500">
-              <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
+              <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 group">
                 {/* Features */}
-                <div className="lg:col-span-2 group">
+                <div className="lg:col-span-2">
                   <h3 className="text-lg md:text-xl font-bold text-foreground mb-4 group-hover:text-secondary">
                     Key Features
                   </h3>
@@ -390,7 +393,7 @@ export default function ProductSubCategoryDynamic() {
 
                 {/* Certifications */}
                 <div>
-                  <h3 className="text-lg md:text-xl font-bold text-foreground mb-4">
+                  <h3 className="text-lg md:text-xl font-bold text-foreground mb-4 group-hover:text-secondary">
                     Certifications
                   </h3>
                   <div className="space-y-4">
@@ -399,17 +402,17 @@ export default function ProductSubCategoryDynamic() {
                         <Badge
                           key={index}
                           variant="outline"
-                          className="text-xs py-1 px-2 hover:bg-secondary/10 hover:border-secondary/30 transition-colors cursor-default"
+                          className="text-xs text-muted-foreground group-hover:text-foreground py-1 px-2 hover:bg-secondary/10 hover:border-secondary/30 transition-colors cursor-default"
                         >
                           {certification}
                         </Badge>
                       ))}
                     </div>
                     <div className="p-3 bg-gradient-to-r from-secondary/5 to-primary/5 rounded-lg border-l-3 border-l-secondary hover:border-l-primary transition-colors">
-                      <h4 className="text-sm font-semibold text-foreground mb-1">
+                      <h4 className="text-md font-semibold text-foreground mb-1 group-hover:text-secondary">
                         Quality Assurance
                       </h4>
-                      <p className="text-xs text-muted-foreground leading-relaxed">
+                      <p className="text-sm text-muted-foreground leading-relaxed group-hover:text-foreground">
                         Products meet international standards and safety
                         regulations.
                       </p>

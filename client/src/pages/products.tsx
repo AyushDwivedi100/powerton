@@ -410,7 +410,7 @@ export default function Products() {
                           <div className="w-16 h-16 bg-gradient-to-br from-primary to-secondary rounded-xl flex items-center justify-center mb-4 group-hover:scale-110 group-hover:rotate-3 transition-all duration-300">
                             <IconComponent className="w-8 h-8 text-white" />
                           </div>
-                          <h3 className="text-xl font-bold text-foreground mb-3 text-center group-hover:text-primary transition-colors cursor-pointer">
+                          <h3 className="text-xl font-bold text-foreground mb-3 text-center group-hover:text-secondary transition-colors cursor-pointer">
                             {product.title}
                           </h3>
                           <p className="text-muted-foreground text-center mb-6 flex-grow">
@@ -424,7 +424,7 @@ export default function Products() {
                                 .map((feature, idx) => (
                                   <Badge
                                     variant="secondary"
-                                    className="bg-secondary/10 text-secondary border border-secondary/20 group-hover:bg-secondary group-hover:text-secondary-foreground transition-all duration-200 cursor-pointer text-sm px-3 py-1 shadow-md hover:shadow-lg"
+                                    className="bg-secondary/10 text-secondary border border-secondary/20  group-hover:text-secondary-foreground transition-all duration-200 cursor-pointer text-sm px-3 py-1 shadow-md hover:shadow-lg"
                                     data-testid={`badge-${feature.toLowerCase().replace(/\s+/g, "-")}`}
                                   >
                                     {feature}

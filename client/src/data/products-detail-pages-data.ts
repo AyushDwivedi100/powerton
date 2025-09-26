@@ -7915,15 +7915,16 @@ export const getProductsBySubcategory = (categoryKey: string, subcategoryKey: st
 };
 
 export const getProductGroupBySlug = (
-  categoryKeyOrSubcategoryKey: string, 
+  categoryKeyOrSubcategorySlug: string, 
   subcategoryKeyOrGroupSlug: string, 
   groupSlug?: string
 ): ProductGroup | undefined => {
-  // Handle 2-parameter version (subcategoryKey, groupSlug)
+  // Handle 2-parameter version (subcategorySlug, groupSlug)
   if (!groupSlug) {
-    // Search all categories for the subcategory
+    // Map subcategory slug to key and search all categories
+    const subcategoryKey = mapSubcategorySlugToKey(categoryKeyOrSubcategorySlug);
     for (const category of Object.values(productCatalog)) {
-      const subcategory = category.subcategories.find(sub => sub.key === categoryKeyOrSubcategoryKey);
+      const subcategory = category.subcategories.find(sub => sub.key === subcategoryKey);
       if (subcategory) {
         return subcategory.productGroups.find(group => group.slug === subcategoryKeyOrGroupSlug);
       }
@@ -7932,10 +7933,11 @@ export const getProductGroupBySlug = (
   }
   
   // Handle 3-parameter version (categoryKey, subcategoryKey, groupSlug)
-  const category = productCatalog[categoryKeyOrSubcategoryKey];
+  const category = productCatalog[categoryKeyOrSubcategorySlug];
   if (!category) return undefined;
   
-  const subcategory = category.subcategories.find(sub => sub.key === subcategoryKeyOrGroupSlug);
+  const subcategoryKey = mapSubcategorySlugToKey(subcategoryKeyOrGroupSlug);
+  const subcategory = category.subcategories.find(sub => sub.key === subcategoryKey);
   if (!subcategory) return undefined;
   
   return subcategory.productGroups.find(group => group.slug === groupSlug);
@@ -8052,7 +8054,52 @@ export const getProductsByGroup = (groupKey: string): Product[] => {
   return [];
 };
 
-export const getGroupsForSubcategory = (subcategoryKey: string): ProductGroup[] => {
+// Mapping between subcategory slugs (from URL) and subcategory keys (from productCatalog)
+const subcategorySlugToKeyMap: { [slug: string]: string } = {
+  "sensors": "sensors-transducers",
+  "transmitters": "sensors-transducers", 
+  "switches": "switches-indicators",
+  "valves": "valves-actuators",
+  "analyzers": "sensors-transducers",
+  "cables-wires": "cables-wires",
+  "connectors-terminals": "connectors-terminals", 
+  "circuit-breakers-fuses": "circuit-breakers-fuses",
+  "power-supplies": "power-supplies",
+  "enclosures": "enclosures",
+  "heating-elements": "heating-elements",
+  "multimeters": "measurement-instruments",
+  "power-quality-analyzers": "measurement-instruments",
+  "calibration": "measurement-instruments",
+  "plcs": "plcs",
+  "scada": "scada",
+  "dcs": "dcs", 
+  "hmi": "hmi",
+  "surge-protectors": "surge-protectors",
+  "safety-relays-switches": "safety-relays-switches",
+  "intrinsically-safe-equipment": "intrinsically-safe-equipment",
+  "centrifugal-pumps": "centrifugal-pumps",
+  "diaphragm-pumps": "diaphragm-pumps",
+  "gear-pumps": "gear-pumps",
+  "pump-parts-spares": "pump-parts-spares",
+  "hand-tools": "hand-tools",
+  "power-tools": "power-tools", 
+  "cutting-tools": "cutting-tools",
+  "lifting-equipment": "lifting-equipment",
+  "safety-equipment": "safety-equipment",
+  "bldc-ceiling-fan": "bldc-ceiling-fan",
+  "bldc-cooler-exhaust-motor": "bldc-cooler-exhaust-motor", 
+  "bldc-submersible-surface-pump": "bldc-submersible-surface-pump",
+  "bldc-table-fan-wall-fan-motor": "bldc-table-fan-wall-fan-motor"
+};
+
+// Centralized function to map subcategory slug to key
+export const mapSubcategorySlugToKey = (slugOrKey: string): string => {
+  return subcategorySlugToKeyMap[slugOrKey] || slugOrKey;
+};
+
+export const getGroupsForSubcategory = (subcategorySlugOrKey: string): ProductGroup[] => {
+  const subcategoryKey = mapSubcategorySlugToKey(subcategorySlugOrKey);
+  
   for (const category of Object.values(productCatalog)) {
     const subcategory = category.subcategories.find(sub => sub.key === subcategoryKey);
     if (subcategory) {
@@ -8062,7 +8109,8 @@ export const getGroupsForSubcategory = (subcategoryKey: string): ProductGroup[] 
   return [];
 };
 
-export const getProductsForSubcategoryPage = (subcategoryKey: string): Product[] => {
+export const getProductsForSubcategoryPage = (subcategorySlugOrKey: string): Product[] => {
+  const subcategoryKey = mapSubcategorySlugToKey(subcategorySlugOrKey);
   for (const category of Object.values(productCatalog)) {
     const subcategory = category.subcategories.find(sub => sub.key === subcategoryKey);
     if (subcategory) {
