@@ -9,7 +9,7 @@ import {
   SheetTitle,
   SheetDescription,
 } from "@/components/ui/sheet";
-import { Menu, Phone, Mail, MapPin, ChevronDown } from "lucide-react";
+import { Menu, Phone, Mail, MapPin, ChevronDown, Settings, Zap, Thermometer, Gauge, Wrench, Package, Activity, Cpu, Factory, Cog, FlameKindling, Droplets, Hammer, Truck } from "lucide-react";
 import { COMPANY_INFO, SERVICES, getProducts, getProductGroupsBySubcategory, hasProductGroups } from "@/data/constants";
 import { motion, AnimatePresence } from "framer-motion";
 import { ThemeToggle } from "@/components/ui/theme-toggle";
@@ -111,11 +111,16 @@ export default function Header() {
 
   // Hover and focus handlers for product groups popup
   const handleSubcategoryHover = (subcategoryId: string, event: React.MouseEvent | React.FocusEvent) => {
-    if (!hasProductGroups(subcategoryId)) return;
-    
+    // Clear any existing timeout immediately
     if (popupTimeout) {
       clearTimeout(popupTimeout);
       setPopupTimeout(null);
+    }
+    
+    if (!hasProductGroups(subcategoryId)) {
+      // If no product groups, hide popup immediately
+      setHoveredSubcategory(null);
+      return;
     }
     
     const rect = event.currentTarget.getBoundingClientRect();
@@ -128,6 +133,7 @@ export default function Header() {
       xPosition = rect.left - popupWidth - 10; // Show on left side instead
     }
     
+    // Update position and subcategory immediately
     setPopupPosition({ 
       x: xPosition, 
       y: rect.top 
@@ -136,9 +142,10 @@ export default function Header() {
   };
 
   const handleSubcategoryLeave = () => {
+    // Only start timeout if not moving to another subcategory/popup quickly
     const timeout = setTimeout(() => {
       setHoveredSubcategory(null);
-    }, 150); // Small delay to allow moving to popup
+    }, 100); // Reduced delay for better responsiveness
     setPopupTimeout(timeout);
   };
 
@@ -152,13 +159,20 @@ export default function Header() {
       return; // Don't close if focus is moving to popup or another subcategory
     }
     
+    // Clear any existing timeout
+    if (popupTimeout) {
+      clearTimeout(popupTimeout);
+      setPopupTimeout(null);
+    }
+    
     const timeout = setTimeout(() => {
       setHoveredSubcategory(null);
-    }, 150);
+    }, 100);
     setPopupTimeout(timeout);
   };
 
   const handlePopupHover = () => {
+    // Cancel any pending close timeout when hovering over popup
     if (popupTimeout) {
       clearTimeout(popupTimeout);
       setPopupTimeout(null);
@@ -166,7 +180,12 @@ export default function Header() {
   };
 
   const handlePopupLeave = () => {
+    // Close popup immediately when leaving the popup area
     setHoveredSubcategory(null);
+    if (popupTimeout) {
+      clearTimeout(popupTimeout);
+      setPopupTimeout(null);
+    }
   };
 
   // Handle keyboard events
@@ -174,6 +193,50 @@ export default function Header() {
     if (event.key === 'Escape') {
       setHoveredSubcategory(null);
     }
+  };
+
+  // Get appropriate icon for product groups
+  const getProductGroupIcon = (groupKey: string) => {
+    const iconProps = { className: "w-5 h-5 text-blue-600 dark:text-blue-400" };
+    
+    // Heating and thermal related
+    if (groupKey.includes('heating') || groupKey.includes('thermal')) {
+      return <FlameKindling {...iconProps} />;
+    }
+    // Electrical and automation
+    if (groupKey.includes('plc') || groupKey.includes('inverter') || groupKey.includes('electrical')) {
+      return <Cpu {...iconProps} />;
+    }
+    // Sensors and transmitters
+    if (groupKey.includes('transmitter') || groupKey.includes('sensor')) {
+      return <Activity {...iconProps} />;
+    }
+    // Flow meters and measurement
+    if (groupKey.includes('flow') || groupKey.includes('meter')) {
+      return <Gauge {...iconProps} />;
+    }
+    // Pumps and fluid handling
+    if (groupKey.includes('pump')) {
+      return <Droplets {...iconProps} />;
+    }
+    // Tools and equipment
+    if (groupKey.includes('tool')) {
+      return <Hammer {...iconProps} />;
+    }
+    // Motors and drives
+    if (groupKey.includes('motor') || groupKey.includes('drive')) {
+      return <Zap {...iconProps} />;
+    }
+    // Industrial equipment
+    if (groupKey.includes('industrial')) {
+      return <Factory {...iconProps} />;
+    }
+    // Safety and protection
+    if (groupKey.includes('safety') || groupKey.includes('protection')) {
+      return <Settings {...iconProps} />;
+    }
+    // General equipment/components
+    return <Package {...iconProps} />;
   };
 
   return (
@@ -599,7 +662,7 @@ export default function Header() {
                                     data-testid={`product-group-${group.key}`}
                                   >
                                     <div className="w-10 h-10 bg-blue-100 dark:bg-blue-900 rounded-md flex items-center justify-center shrink-0 group-hover:bg-blue-200 dark:group-hover:bg-blue-800 transition-colors">
-                                      <div className="w-5 h-5 bg-blue-600 dark:bg-blue-400 rounded-sm"></div>
+                                      {getProductGroupIcon(group.key)}
                                     </div>
                                     <div className="flex-1 min-w-0">
                                       <h4 className="font-medium text-sm text-gray-900 dark:text-gray-100 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors">
