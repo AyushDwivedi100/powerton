@@ -7967,3 +7967,66 @@ export const getAllProductGroupSlugs = (): Array<{category: string, subcategory:
   }
   return slugs;
 };
+
+// Additional missing functions needed by the application
+
+export const getProductDetailBySlug = (slug: string, t: any, groupSlug?: string) => {
+  const product = getProductBySlug(slug);
+  if (!product) return null;
+  
+  // Find the category and subcategory for this product
+  for (const [categoryKey, category] of Object.entries(productCatalog)) {
+    for (const subcategory of category.subcategories) {
+      for (const productGroup of subcategory.productGroups) {
+        if (productGroup.products.some(p => p.slug === slug)) {
+          return {
+            product,
+            category,
+            subcategory,
+            productGroup,
+            categoryKey,
+            subcategoryKey: subcategory.key,
+            groupKey: productGroup.key
+          };
+        }
+      }
+    }
+  }
+  return null;
+};
+
+export const getProductsByGroup = (groupKey: string): Product[] => {
+  for (const category of Object.values(productCatalog)) {
+    for (const subcategory of category.subcategories) {
+      const productGroup = subcategory.productGroups.find(group => group.key === groupKey);
+      if (productGroup) {
+        return productGroup.products;
+      }
+    }
+  }
+  return [];
+};
+
+export const getGroupsForSubcategory = (subcategoryKey: string): ProductGroup[] => {
+  for (const category of Object.values(productCatalog)) {
+    const subcategory = category.subcategories.find(sub => sub.key === subcategoryKey);
+    if (subcategory) {
+      return subcategory.productGroups;
+    }
+  }
+  return [];
+};
+
+export const getProductsForSubcategoryPage = (subcategoryKey: string): Product[] => {
+  for (const category of Object.values(productCatalog)) {
+    const subcategory = category.subcategories.find(sub => sub.key === subcategoryKey);
+    if (subcategory) {
+      const products: Product[] = [];
+      for (const productGroup of subcategory.productGroups) {
+        products.push(...productGroup.products);
+      }
+      return products;
+    }
+  }
+  return [];
+};
