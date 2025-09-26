@@ -145,7 +145,7 @@ export default function Projects() {
         icon: Target,
       },
     ],
-    [i18n.resolvedLanguage, ready],
+    [i18n.resolvedLanguage, ready]
   );
 
   return (
@@ -166,15 +166,20 @@ export default function Projects() {
 
       {/* Hero Section */}
       <section
-        className={`relative hero-fullscreen overflow-hidden ${getAnimationClass("fade-in-up", true)}`}
+        className={`relative hero-fullscreen overflow-hidden ${getAnimationClass(
+          "fade-in-up",
+          true
+        )}`}
       >
         <div
           className="absolute inset-0 bg-cover bg-center bg-no-repeat "
           style={{
-            backgroundImage: `url(${getHeroImage("projects", { preload: true })?.src})`,
+            backgroundImage: `url(${
+              getHeroImage("projects", { preload: true })?.src
+            })`,
           }}
         ></div>
-        <div className="absolute inset-0 bg-black/60"></div>
+        <div className="absolute inset-0 bg-blue-600/30 dark:bg-black/60"></div>
         <div className="relative max-w-7xl mx-auto px-4 md:px-6 lg:px-8 text-white">
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4 sm:mb-6">
@@ -183,7 +188,7 @@ export default function Projects() {
             <p className="text-base md:text-lg mb-6 sm:mb-8 opacity-90">
               {t(
                 "pages:projects.hero.subtitle",
-                "Discover our engineering excellence through 1200+ successful projects across diverse industries, showcasing innovation, quality, and reliability.",
+                "Discover our engineering excellence through 1200+ successful projects across diverse industries, showcasing innovation, quality, and reliability."
               )}
             </p>
             <div className="flex flex-col sm:flex-row justify-center gap-3 sm:gap-4">
@@ -206,7 +211,10 @@ export default function Projects() {
 
       {/* Project Statistics */}
       <section
-        className={`py-12 md:py-16 lg:py-20 bg-muted/30 ${getAnimationClass("fade-in-up", true)}`}
+        className={`py-12 md:py-16 lg:py-20 bg-muted/30 ${getAnimationClass(
+          "fade-in-up",
+          true
+        )}`}
       >
         <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8">
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-8">
@@ -241,7 +249,7 @@ export default function Projects() {
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
               {t(
                 "pages:projects.portfolioDescription",
-                "Explore our engineering capabilities through demonstration projects showcasing innovative solutions across various industries. Real project portfolio coming soon.",
+                "Explore our engineering capabilities through demonstration projects showcasing innovative solutions across various industries. Real project portfolio coming soon."
               )}
             </p>
           </div>
@@ -286,7 +294,9 @@ export default function Projects() {
                     }`}
                   >
                     <Filter
-                      className={`mr-2 w-4 h-4 transition-transform duration-300 ${showFilters ? "rotate-180" : ""}`}
+                      className={`mr-2 w-4 h-4 transition-transform duration-300 ${
+                        showFilters ? "rotate-180" : ""
+                      }`}
                     />
                     {showFilters
                       ? t("common:buttons.hideFilters")
@@ -318,7 +328,7 @@ export default function Projects() {
                           <SelectTrigger className="w-full">
                             <SelectValue
                               placeholder={t(
-                                "common:placeholders.selectIndustryFilter",
+                                "common:placeholders.selectIndustryFilter"
                               )}
                             />
                           </SelectTrigger>
@@ -342,7 +352,7 @@ export default function Projects() {
                           <SelectTrigger className="w-full">
                             <SelectValue
                               placeholder={t(
-                                "common:placeholders.selectCategory",
+                                "common:placeholders.selectCategory"
                               )}
                             />
                           </SelectTrigger>
@@ -366,7 +376,7 @@ export default function Projects() {
                           <SelectTrigger className="w-full">
                             <SelectValue
                               placeholder={t(
-                                "common:placeholders.selectStatus",
+                                "common:placeholders.selectStatus"
                               )}
                             />
                           </SelectTrigger>
@@ -407,7 +417,9 @@ export default function Projects() {
                         <div className="aspect-video rounded-lg overflow-hidden mb-4">
                           <img
                             src={project.image}
-                            alt={`ID-${200 + project.id}: ${project.title} project showcase`}
+                            alt={`ID-${200 + project.id}: ${
+                              project.title
+                            } project showcase`}
                             className="w-full h-full object-cover"
                           />
                         </div>
@@ -437,7 +449,7 @@ export default function Projects() {
                         <CardContent className="p-0 space-y-5">
                           <p className="text-base text-muted-foreground line-clamp-3 leading-relaxed">
                             {t(
-                              `pages:projects.items.${project.id}.description`,
+                              `pages:projects.items.${project.id}.description`
                             )}
                           </p>
 
@@ -447,17 +459,23 @@ export default function Projects() {
                                 <MapPin className="w-4 h-4" />
                                 <span>
                                   {t(
-                                    `pages:projects.items.${project.id}.location`,
+                                    `pages:projects.items.${project.id}.location`
                                   )}
                                 </span>
                               </div>
                               <div className="flex items-center gap-1">
                                 {getStatusIcon(project.status)}
                                 <span
-                                  className={`text-sm ${project.status === "Completed" ? "text-green-600" : "text-primary"}`}
+                                  className={`text-sm ${
+                                    project.status === "Completed"
+                                      ? "text-green-600"
+                                      : "text-primary"
+                                  }`}
                                 >
                                   {t(
-                                    `pages:projects.statuses.${project.status.toLowerCase().replace(/\s+/g, "")}`,
+                                    `pages:projects.statuses.${project.status
+                                      .toLowerCase()
+                                      .replace(/\s+/g, "")}`
                                   )}
                                 </span>
                               </div>
@@ -468,7 +486,7 @@ export default function Projects() {
                                 <Calendar className="w-4 h-4" />
                                 <span>
                                   {t(
-                                    `pages:projects.items.${project.id}.duration`,
+                                    `pages:projects.items.${project.id}.duration`
                                   )}
                                 </span>
                               </div>
@@ -483,7 +501,9 @@ export default function Projects() {
                                 className="text-xs bg-primary/10 text-primary px-2 py-1 rounded group-hover:text-foreground transition-colors"
                               >
                                 {t(
-                                  `pages:projects.categories.${project.category.toLowerCase().replace(/\s+/g, "")}`,
+                                  `pages:projects.categories.${project.category
+                                    .toLowerCase()
+                                    .replace(/\s+/g, "")}`
                                 )}
                               </Badge>
                               <Badge
@@ -502,7 +522,9 @@ export default function Projects() {
                                   className="text-xs bg-primary/10 text-primary px-2 py-1 rounded group-hover:text-foreground transition-colors"
                                 >
                                   {t(
-                                    `pages:projects.technologies.${tech.toLowerCase().replace(/\s+/g, "")}`,
+                                    `pages:projects.technologies.${tech
+                                      .toLowerCase()
+                                      .replace(/\s+/g, "")}`
                                   )}
                                 </Badge>
                               ))}
@@ -514,7 +536,7 @@ export default function Projects() {
                                   {t(
                                     "pages:projects.moreItems",
                                     "+{{count}} more",
-                                    { count: project.technologies.length - 3 },
+                                    { count: project.technologies.length - 3 }
                                   )}
                                 </Badge>
                               )}
@@ -561,7 +583,9 @@ export default function Projects() {
                         <div className="aspect-video">
                           <img
                             src={project.image}
-                            alt={`ID-${250 + project.id}: ${project.title} featured project`}
+                            alt={`ID-${250 + project.id}: ${
+                              project.title
+                            } featured project`}
                             className="w-full h-full object-cover"
                           />
                         </div>
@@ -576,7 +600,7 @@ export default function Projects() {
                           </div>
                           <p className="text-base text-muted-foreground mb-6 leading-relaxed">
                             {t(
-                              `pages:projects.items.${project.id}.description`,
+                              `pages:projects.items.${project.id}.description`
                             )}
                           </p>
 
@@ -593,10 +617,12 @@ export default function Projects() {
                                     className="text-sm px-4 py-2 bg-gray-100 text-gray-800 hover:bg-gray-200 cursor-pointer transition-colors border-gray-300"
                                   >
                                     {t(
-                                      `pages:projects.highlights.${highlight.toLowerCase().replace(/\s+/g, "")}`,
+                                      `pages:projects.highlights.${highlight
+                                        .toLowerCase()
+                                        .replace(/\s+/g, "")}`
                                     )}
                                   </Badge>
-                                ),
+                                )
                               )}
                             </div>
                           </div>
@@ -606,7 +632,7 @@ export default function Projects() {
                               <MapPin className="w-5 h-5 flex-shrink-0 mt-0.5" />
                               <span className="leading-relaxed text-base">
                                 {t(
-                                  `pages:projects.items.${project.id}.location`,
+                                  `pages:projects.items.${project.id}.location`
                                 )}
                               </span>
                             </div>
@@ -614,7 +640,7 @@ export default function Projects() {
                               <TrendingUp className="w-5 h-5 flex-shrink-0 mt-0.5" />
                               <span className="leading-relaxed text-base">
                                 {t(
-                                  `pages:projects.items.${project.id}.duration`,
+                                  `pages:projects.items.${project.id}.duration`
                                 )}
                               </span>
                             </div>
@@ -632,7 +658,7 @@ export default function Projects() {
                         </CardContent>
                       </Card>
                     </motion.div>
-                  ),
+                  )
                 )}
               </div>
             </TabsContent>

@@ -44,8 +44,11 @@ export default function ProductGroupDynamic() {
   const groupProducts = getProductsByGroup(productGroup.key);
 
   // Use the title and description from the ProductGroup
-  const groupTitle = productGroup.title || productGroup.key.toUpperCase().replace("-", " ");
-  const groupDescription = productGroup.description || "High-quality products for industrial automation applications.";
+  const groupTitle =
+    productGroup.title || productGroup.key.toUpperCase().replace("-", " ");
+  const groupDescription =
+    productGroup.description ||
+    "High-quality products for industrial automation applications.";
 
   return (
     <>

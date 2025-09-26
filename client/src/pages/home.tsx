@@ -1,5 +1,8 @@
 import { SEO } from "@/lib/seo";
-import { AnimatedSection, useScrollAnimations } from "@/hooks/use-scroll-animation";
+import {
+  AnimatedSection,
+  useScrollAnimations,
+} from "@/hooks/use-scroll-animation";
 import { useEffect } from "react";
 import HeroSection from "@/components/sections/hero-section";
 import AboutSection from "@/components/sections/about-section";
@@ -13,60 +16,61 @@ import { useTranslation } from "react-i18next";
 export default function Home() {
   // Re-enabled optimized scroll animations
   useScrollAnimations();
-  const { t } = useTranslation(['pages']);
-  
+  const { t } = useTranslation(["pages"]);
+
   const structuredData = {
     "@context": "https://schema.org",
     "@type": "Organization",
-    "name": "Powerton Engineering Pvt. Ltd.",
-    "url": "https://powertonengineering.in",
-    "description": "Leading manufacturer of electrical control panels and industrial automation solutions",
-    "address": {
+    name: "Powerton Engineering Pvt. Ltd.",
+    url: "https://powertonengineering.in",
+    description:
+      "Leading manufacturer of electrical control panels and industrial automation solutions",
+    address: {
       "@type": "PostalAddress",
-      "streetAddress": "F-25, F Block, Sector 6",
-      "addressLocality": "Noida",
-      "addressRegion": "Uttar Pradesh",
-      "postalCode": "201301",
-      "addressCountry": "IN"
+      streetAddress: "F-25, F Block, Sector 6",
+      addressLocality: "Noida",
+      addressRegion: "Uttar Pradesh",
+      postalCode: "201301",
+      addressCountry: "IN",
     },
-    "contactPoint": {
+    contactPoint: {
       "@type": "ContactPoint",
-      "telephone": "+91-94627-71662",
-      "contactType": "customer service"
+      telephone: "+91-94627-71662",
+      contactType: "customer service",
     },
-    "hasOfferCatalog": {
+    hasOfferCatalog: {
       "@type": "OfferCatalog",
-      "name": "Engineering Services",
-      "itemListElement": [
+      name: "Engineering Services",
+      itemListElement: [
         {
           "@type": "Offer",
-          "itemOffered": {
+          itemOffered: {
             "@type": "Service",
-            "name": "Process Automation",
-            "description": "Advanced automation systems for industrial processes"
-          }
+            name: "Process Automation",
+            description: "Advanced automation systems for industrial processes",
+          },
         },
         {
           "@type": "Offer",
-          "itemOffered": {
+          itemOffered: {
             "@type": "Service",
-            "name": "Instrumentation Solutions",
-            "description": "Precision instrumentation for monitoring and control"
-          }
-        }
-      ]
-    }
+            name: "Instrumentation Solutions",
+            description: "Precision instrumentation for monitoring and control",
+          },
+        },
+      ],
+    },
   };
 
   return (
     <>
       <SEO
-        title={t('pages:home.seo.title')}
-        description={t('pages:home.seo.description')}
-        keywords={t('pages:home.seo.keywords')}
+        title={t("pages:home.seo.title")}
+        description={t("pages:home.seo.description")}
+        keywords={t("pages:home.seo.keywords")}
         structuredData={structuredData}
       />
-      
+
       <HeroSection />
       <AnimatedSection animation="fadeInUp" delay={0.1} duration={0.8}>
         <AboutSection />

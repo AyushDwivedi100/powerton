@@ -140,7 +140,10 @@ export default function Contact() {
 
       {/* Hero Section */}
       <section
-        className={`relative hero-fullscreen overflow-hidden ${getAnimationClass("fade-in-up", true)}`}
+        className={`relative hero-fullscreen overflow-hidden ${getAnimationClass(
+          "fade-in-up",
+          true
+        )}`}
       >
         <div className="absolute inset-0">
           <img
@@ -149,7 +152,7 @@ export default function Contact() {
             className="w-full h-full object-cover"
           />
         </div>
-        <div className="absolute inset-0 bg-black/60"></div>
+        <div className="absolute inset-0 bg-blue-600/30 dark:bg-black/60"></div>
         <div className="relative max-w-7xl mx-auto px-4 md:px-6 lg:px-8 text-white">
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4 sm:mb-6 text-wrap-safe responsive-text">
@@ -218,24 +221,52 @@ export default function Contact() {
                       "primary" in method.content ? (
                         <div className="space-y-2 mb-3">
                           <a
-                            href={method.icon === MessageCircle 
-                              ? `https://wa.me/${method.content.primary.replace(/[^0-9]/g, '')}?text=${encodeURIComponent("Hello! I'm interested in your products and services.")}`
-                              : `tel:${method.content.primary}`
+                            href={
+                              method.icon === MessageCircle
+                                ? `https://wa.me/${method.content.primary.replace(
+                                    /[^0-9]/g,
+                                    ""
+                                  )}?text=${encodeURIComponent(
+                                    "Hello! I'm interested in your products and services."
+                                  )}`
+                                : `tel:${method.content.primary}`
                             }
-                            target={method.icon === MessageCircle ? "_blank" : undefined}
-                            rel={method.icon === MessageCircle ? "noopener noreferrer" : undefined}
+                            target={
+                              method.icon === MessageCircle
+                                ? "_blank"
+                                : undefined
+                            }
+                            rel={
+                              method.icon === MessageCircle
+                                ? "noopener noreferrer"
+                                : undefined
+                            }
                             className="text-base font-semibold text-primary hover:text-secondary transition-colors break-words flex items-center justify-center"
                           >
                             <Phone className="w-4 h-4 mr-2" />
                             {method.content.primary}
                           </a>
                           <a
-                            href={method.icon === MessageCircle 
-                              ? `https://wa.me/${method.content.secondary.replace(/[^0-9]/g, '')}?text=${encodeURIComponent("Hello! I'm interested in your products and services.")}`
-                              : `tel:${method.content.secondary}`
+                            href={
+                              method.icon === MessageCircle
+                                ? `https://wa.me/${method.content.secondary.replace(
+                                    /[^0-9]/g,
+                                    ""
+                                  )}?text=${encodeURIComponent(
+                                    "Hello! I'm interested in your products and services."
+                                  )}`
+                                : `tel:${method.content.secondary}`
                             }
-                            target={method.icon === MessageCircle ? "_blank" : undefined}
-                            rel={method.icon === MessageCircle ? "noopener noreferrer" : undefined}
+                            target={
+                              method.icon === MessageCircle
+                                ? "_blank"
+                                : undefined
+                            }
+                            rel={
+                              method.icon === MessageCircle
+                                ? "noopener noreferrer"
+                                : undefined
+                            }
                             className="text-base font-semibold text-primary hover:text-secondary transition-colors break-words flex items-center justify-center"
                           >
                             <Phone className="w-4 h-4 mr-2" />

@@ -24,82 +24,80 @@ import CareerApplicationForm from "@/components/forms/career-application-form";
 
 export default function Career() {
   useScrollAnimations();
-  const { t } = useTranslation(['pages', 'common']);
-
+  const { t } = useTranslation(["pages", "common"]);
 
   const benefits = [
     {
       icon: TrendingUp,
-      title: t('pages:career.benefits.careerGrowth.title'),
-      description: t('pages:career.benefits.careerGrowth.description')
+      title: t("pages:career.benefits.careerGrowth.title"),
+      description: t("pages:career.benefits.careerGrowth.description"),
     },
     {
       icon: GraduationCap,
-      title: t('pages:career.benefits.learningDevelopment.title'),
-      description: t('pages:career.benefits.learningDevelopment.description')
+      title: t("pages:career.benefits.learningDevelopment.title"),
+      description: t("pages:career.benefits.learningDevelopment.description"),
     },
     {
       icon: Heart,
-      title: t('pages:career.benefits.workLifeBalance.title'),
-      description: t('pages:career.benefits.workLifeBalance.description')
+      title: t("pages:career.benefits.workLifeBalance.title"),
+      description: t("pages:career.benefits.workLifeBalance.description"),
     },
     {
       icon: Users,
-      title: t('pages:career.benefits.teamCulture.title'),
-      description: t('pages:career.benefits.teamCulture.description')
+      title: t("pages:career.benefits.teamCulture.title"),
+      description: t("pages:career.benefits.teamCulture.description"),
     },
     {
       icon: Award,
-      title: t('pages:career.benefits.recognitionRewards.title'),
-      description: t('pages:career.benefits.recognitionRewards.description')
+      title: t("pages:career.benefits.recognitionRewards.title"),
+      description: t("pages:career.benefits.recognitionRewards.description"),
     },
     {
       icon: Target,
-      title: t('pages:career.benefits.innovationFocus.title'),
-      description: t('pages:career.benefits.innovationFocus.description')
-    }
+      title: t("pages:career.benefits.innovationFocus.title"),
+      description: t("pages:career.benefits.innovationFocus.description"),
+    },
   ];
-
 
   return (
     <>
       <SEO
-        title={t('pages:career.seo.title')}
-        description={t('pages:career.seo.description')}
-        keywords={t('pages:career.seo.keywords')}
+        title={t("pages:career.seo.title")}
+        description={t("pages:career.seo.description")}
+        keywords={t("pages:career.seo.keywords")}
         canonicalUrl="https://powertonengineering.in/career"
       />
 
       {/* Hero Section */}
       <section className="relative hero-fullscreen overflow-hidden">
         <div className="absolute inset-0">
-          <img 
-            src={careerHeroImage} 
-            alt={t('pages:career.hero.imageAlt')} 
+          <img
+            src={careerHeroImage}
+            alt={t("pages:career.hero.imageAlt")}
             className="w-full h-full object-cover"
           />
         </div>
-        <div className="absolute inset-0 bg-black/60"></div>
+        <div className="absolute inset-0 bg-blue-600/30 dark:bg-black/60"></div>
         <div className="relative max-w-7xl mx-auto px-4 md:px-6 lg:px-8 text-white">
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
-              {t('pages:career.hero.title')}
+              {t("pages:career.hero.title")}
             </h1>
             <p className="text-xl lg:text-2xl mb-8 opacity-90">
-              {t('pages:career.hero.subtitle')}
+              {t("pages:career.hero.subtitle")}
             </p>
             <div className="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-8 text-lg">
               <div className="flex items-center justify-center">
                 <CheckCircle className="w-6 h-6 text-secondary mr-3" />
-                <span>{t('pages:career.hero.benefits.growth')}</span>
+                <span>{t("pages:career.hero.benefits.growth")}</span>
               </div>
               <div className="flex items-center justify-center">
                 <CheckCircle className="w-6 h-6 text-secondary mr-3" />
-                <span>{t('pages:career.hero.benefits.innovation')}</span>
+                <span>{t("pages:career.hero.benefits.innovation")}</span>
               </div>
               <div className="flex items-center justify-center">
                 <CheckCircle className="w-6 h-6 text-secondary mr-3" />
-                <span>{t('pages:career.hero.benefits.culture')}</span>
+                <span>{t("pages:career.hero.benefits.culture")}</span>
               </div>
             </div>
           </div>
@@ -112,10 +110,10 @@ export default function Career() {
           <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8">
             <div className="text-center mb-12">
               <h2 className="text-3xl md:text-4xl font-bold text-primary mb-4">
-                {t('pages:career.whyJoinUs.title')}
+                {t("pages:career.whyJoinUs.title")}
               </h2>
               <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-                {t('pages:career.whyJoinUs.description')}
+                {t("pages:career.whyJoinUs.description")}
               </p>
             </div>
 

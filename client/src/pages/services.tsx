@@ -62,10 +62,12 @@ export default function Services() {
           <div
             className="absolute inset-0 bg-cover bg-center bg-no-repeat"
             style={{
-              backgroundImage: `url(${getHeroImage("services", { preload: true })?.src})`,
+              backgroundImage: `url(${
+                getHeroImage("services", { preload: true })?.src
+              })`,
             }}
           ></div>
-          <div className="absolute inset-0 bg-black/60"></div>
+          <div className="absolute inset-0 bg-blue-600/30 dark:bg-black/60"></div>
 
           <div className="relative z-10">
             <div className="max-w-7xl mx-auto px-3 sm:px-4 md:px-6 lg:px-8 text-center text-white">
@@ -170,7 +172,7 @@ export default function Services() {
                                         {feature}
                                       </span>
                                     </li>
-                                  ),
+                                  )
                                 )}
                               </ul>
                             </div>
