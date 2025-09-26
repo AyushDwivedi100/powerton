@@ -132,7 +132,7 @@ export default function FloatingContactBadges() {
         }}
         aria-label="Contact us on Just Dial"
         style={{
-          filter: "drop-shadow(0 0 12px rgba(255, 255, 255, 0.6))",
+          filter: "drop-shadow(0 0 8px rgba(255, 255, 255, 0.6))",
         }}
       >
         <motion.div
