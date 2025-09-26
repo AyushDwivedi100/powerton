@@ -228,7 +228,7 @@ export default function ProductSubCategoryDynamic() {
                       defaultValue: "Professional Grade Solutions",
                     })}
                   </h2>
-                  <p className="text-muted-foreground leading-relaxed text-sm md:text-base">
+                  <p className="text-muted-foreground group-hover:text-foreground leading-relaxed text-sm md:text-base">
                     {product.fullDescription}
                   </p>
                   <div className="space-y-3">
@@ -321,12 +321,12 @@ export default function ProductSubCategoryDynamic() {
                 </div>
               </div>
 
-              {/* Applications */}
+              {/* Technical Specifications */}
               <div className="bg-gradient-to-br from-background to-muted/30 rounded-xl border border-border/50 p-4 md:p-6 hover:shadow-md hover:border-secondary/20 transition-all duration-500 group">
                 <h3 className="text-lg md:text-xl font-bold text-foreground mb-4 group-hover:text-secondary transition-colors">
                   Technical Specifications
                 </h3>
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
+                <div className="grid grid-cols-1 gap-2">
                   {product.specifications.map((spec, index) => (
                     <div
                       key={index}
