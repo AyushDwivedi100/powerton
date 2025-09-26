@@ -284,15 +284,15 @@ export default function Header() {
                     >
                       <Link
                         href={item.href}
-                        className={`text-foreground font-medium relative whitespace-nowrap group hover:text-primary transition-colors duration-200 ${
-                          isActive(item.href) ? "text-primary" : ""
+                        className={`text-foreground font-medium relative whitespace-nowrap group hover:text-secondary transition-colors duration-200 ${
+                          isActive(item.href) ? "text-secondary" : ""
                         }`}
                       >
                         <span>{item.name}</span>
                         {/* Active page indicator */}
                         {isActive(item.href) && (
                           <motion.div
-                            className="absolute -bottom-1 left-0 right-0 h-0.5 bg-primary"
+                            className="absolute -bottom-1 left-0 right-0 h-0.5 bg-secondary"
                             layoutId="activeNav"
                             initial={{ opacity: 0, scaleX: 0 }}
                             animate={{ opacity: 1, scaleX: 1 }}
@@ -313,8 +313,8 @@ export default function Header() {
                       className="relative services-dropdown-container"
                     >
                       <div
-                        className={`text-foreground font-medium relative flex items-center gap-1 cursor-pointer group hover:text-primary transition-colors duration-200 ${
-                          isActive("/services") ? "text-primary" : ""
+                        className={`text-foreground font-medium relative flex items-center gap-1 cursor-pointer group hover:text-secondary transition-colors duration-200 ${
+                          isActive("/services") ? "text-secondary" : ""
                         }`}
                         onMouseEnter={() => setIsServicesDropdownOpen(true)}
                         onMouseLeave={() => setIsServicesDropdownOpen(false)}
@@ -329,7 +329,7 @@ export default function Header() {
                         {/* Active page indicator */}
                         {isActive("/services") && (
                           <motion.div
-                            className="absolute -bottom-1 left-0 right-0 h-0.5 bg-primary"
+                            className="absolute -bottom-1 left-0 right-0 h-0.5 bg-secondary"
                             layoutId="activeNav"
                             initial={{ opacity: 0, scaleX: 0 }}
                             animate={{ opacity: 1, scaleX: 1 }}
@@ -388,8 +388,8 @@ export default function Header() {
                       className="relative products-dropdown-container"
                     >
                       <div
-                        className={`text-foreground font-medium relative flex items-center gap-1 cursor-pointer group hover:text-primary transition-colors duration-200 ${
-                          isActive("/products") ? "text-primary" : ""
+                        className={`text-foreground font-medium relative flex items-center gap-1 cursor-pointer group hover:text-secondary transition-colors duration-200 ${
+                          isActive("/products") ? "text-secondary" : ""
                         }`}
                         onMouseEnter={() => setIsProductsDropdownOpen(true)}
                         onMouseLeave={() => setIsProductsDropdownOpen(false)}
@@ -404,7 +404,7 @@ export default function Header() {
                         {/* Active page indicator */}
                         {isActive("/products") && (
                           <motion.div
-                            className="absolute -bottom-1 left-0 right-0 h-0.5 bg-primary"
+                            className="absolute -bottom-1 left-0 right-0 h-0.5 bg-secondary"
                             layoutId="activeNav"
                             initial={{ opacity: 0, scaleX: 0 }}
                             animate={{ opacity: 1, scaleX: 1 }}
@@ -492,8 +492,8 @@ export default function Header() {
                 >
                   <Link
                     href={item.href}
-                    className={`text-foreground font-medium relative whitespace-nowrap group hover:text-primary transition-colors duration-200 ${
-                      isActive(item.href) ? "text-primary" : ""
+                    className={`text-foreground font-medium relative whitespace-nowrap group hover:text-secondary transition-colors duration-200 ${
+                      isActive(item.href) ? "text-secondary" : ""
                     }`}
                   >
                     <span>
@@ -507,7 +507,7 @@ export default function Header() {
                     {/* Active page indicator */}
                     {isActive(item.href) && (
                       <motion.div
-                        className="absolute -bottom-1 left-0 right-0 h-0.5 bg-primary"
+                        className="absolute -bottom-1 left-0 right-0 h-0.5 bg-secondary"
                         layoutId="activeNav"
                         initial={{ opacity: 0, scaleX: 0 }}
                         animate={{ opacity: 1, scaleX: 1 }}
@@ -601,8 +601,8 @@ export default function Header() {
                               href={item.href}
                               className={`text-lg font-medium transition-colors hover-scale block ${
                                 isActive(item.href)
-                                  ? "text-primary"
-                                  : "text-foreground hover:text-primary"
+                                  ? "text-secondary"
+                                  : "text-foreground hover:text-secondary"
                               }`}
                               onClick={() => setIsOpen(false)}
                             >
@@ -627,8 +627,8 @@ export default function Header() {
                               <div
                                 className={`text-lg font-medium transition-colors hover-scale cursor-pointer flex items-center justify-between ${
                                   isActive("/services")
-                                    ? "text-primary"
-                                    : "text-foreground hover:text-primary"
+                                    ? "text-secondary"
+                                    : "text-foreground hover:text-secondary"
                                 }`}
                                 onClick={(e) => {
                                   e.stopPropagation();
@@ -666,7 +666,7 @@ export default function Header() {
                                       <Link
                                         key={service.id}
                                         href={`/services-category/${service.id}`}
-                                        className="text-sm text-muted-foreground hover:text-primary transition-colors block py-1 text-wrap-safe"
+                                        className="text-sm text-muted-foreground hover:text-secondary transition-colors block py-1 text-wrap-safe"
                                         onClick={() => {
                                           setIsOpen(false);
                                           setIsMobileServicesOpen(false);
@@ -693,8 +693,8 @@ export default function Header() {
                               <div
                                 className={`text-lg font-medium transition-colors hover-scale cursor-pointer flex items-center justify-between ${
                                   isActive("/products")
-                                    ? "text-primary"
-                                    : "text-foreground hover:text-primary"
+                                    ? "text-secondary"
+                                    : "text-foreground hover:text-secondary"
                                 }`}
                                 onClick={(e) => {
                                   e.stopPropagation();
@@ -732,7 +732,7 @@ export default function Header() {
                                       <div key={product.id}>
                                         <Link
                                           href={`/products-category/${product.id}`}
-                                          className="text-sm text-muted-foreground hover:text-primary transition-colors block py-1 font-medium text-wrap-safe"
+                                          className="text-sm text-muted-foreground hover:text-secondary transition-colors block py-1 font-medium text-wrap-safe"
                                           onClick={() => {
                                             setIsOpen(false);
                                             setIsMobileProductsOpen(false);
@@ -797,8 +797,8 @@ export default function Header() {
                           href={item.href}
                           className={`text-lg font-medium transition-colors hover-scale block ${
                             isActive(item.href)
-                              ? "text-primary"
-                              : "text-foreground hover:text-primary"
+                              ? "text-secondary"
+                              : "text-foreground hover:text-secondary"
                           }`}
                           onClick={() => setIsOpen(false)}
                         >
@@ -837,7 +837,7 @@ export default function Header() {
                             <Phone className="w-4 h-4 me-3 text-secondary flex-shrink-0 rtl-flip" />
                             <a
                               href={`tel:${COMPANY_INFO.phoneNumbers.primary}`}
-                              className="text-sm text-foreground hover:text-primary transition-colors text-wrap-safe"
+                              className="text-sm text-foreground hover:text-secondary transition-colors text-wrap-safe"
                               onClick={() => setIsOpen(false)}
                             >
                               {COMPANY_INFO.phoneNumbers.primary}
@@ -847,7 +847,7 @@ export default function Header() {
                             <Phone className="w-4 h-4 me-3 text-secondary flex-shrink-0 rtl-flip" />
                             <a
                               href={`tel:${COMPANY_INFO.phoneNumbers.secondary}`}
-                              className="text-sm text-foreground hover:text-primary transition-colors text-wrap-safe"
+                              className="text-sm text-foreground hover:text-secondary transition-colors text-wrap-safe"
                               onClick={() => setIsOpen(false)}
                             >
                               {COMPANY_INFO.phoneNumbers.secondary}
@@ -858,7 +858,7 @@ export default function Header() {
                           <Mail className="w-4 h-4 me-3 text-secondary flex-shrink-0 rtl-flip" />
                           <a
                             href={`mailto:${COMPANY_INFO.email}`}
-                            className="text-sm text-foreground hover:text-primary transition-colors text-wrap-safe"
+                            className="text-sm text-foreground hover:text-secondary transition-colors text-wrap-safe"
                             onClick={() => setIsOpen(false)}
                           >
                             {COMPANY_INFO.email}
@@ -873,7 +873,7 @@ export default function Header() {
                           aria-label={t("common:ui.ariaLabels.openLocation")}
                         >
                           <MapPin className="w-4 h-4 me-3 text-secondary flex-shrink-0 mt-0.5 rtl-flip" />
-                          <div className="text-sm text-foreground hover:text-primary transition-colors text-wrap-safe">
+                          <div className="text-sm text-foreground hover:text-secondary transition-colors text-wrap-safe">
                             <div>{COMPANY_INFO.address.street}</div>
                             <div>
                               {COMPANY_INFO.address.city},{" "}

@@ -428,15 +428,15 @@ export default function About() {
                 return (
                   <Card
                     key={goal.goal}
-                    className="bg-card border border-border rounded-lg shadow-sm"
+                    className="bg-card border border-border rounded-lg shadow-sm group"
                   >
-                    <CardContent className="p-6">
+                    <CardContent className="p-4">
                       <div className="flex items-start gap-4 mb-4">
                         <div className="w-12 h-12 bg-gradient-to-br from-primary to-secondary rounded-lg flex items-center justify-center flex-shrink-0">
                           <Icon className="w-6 h-6 text-white" />
                         </div>
                         <div className="flex-1">
-                          <h3 className="text-xl font-semibold text-foreground mb-1">
+                          <h3 className="text-xl font-semibold text-foreground mb-1 group-hover:text-secondary transition-colors">
                             {goal.goal}
                           </h3>
                         </div>
