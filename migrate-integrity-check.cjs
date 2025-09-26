@@ -42,31 +42,42 @@ function analyzeNewFile() {
   try {
     const newFileContent = fs.readFileSync('client/src/data/products-detail-pages-data.ts', 'utf8');
     
-    // Count categories - look for top-level keys in productCatalog
-    const categoryMatches = newFileContent.match(/"[\w-]+": {/g) || [];
+    // Simple counts without extracting full object
+    // Count top-level categories by finding main category keys
+    const categoryPattern = /"([\w-]+)": {\s*"key": "\1",\s*"title":/g;
+    const categoryMatches = [...newFileContent.matchAll(categoryPattern)];
     console.log(`New file categories: ${categoryMatches.length}`);
     
-    // Count subcategories - look for "subcategories" arrays 
-    const subcategoryMatches = newFileContent.match(/"key": "[\w-]+",\s*"title":/g) || [];
+    // Count subcategories 
+    const subcategoryMatches = newFileContent.match(/"key": "[\w-]+",\s*"title": "[^"]+",\s*"description": "[^"]+",\s*"productGroups":/g) || [];
     console.log(`New file subcategories: ${subcategoryMatches.length}`);
     
-    // Count product groups - look for "productGroups" arrays
-    const groupMatches = newFileContent.match(/"slug": "[\w-]+",\s*"title":/g) || [];
+    // Count product groups
+    const groupMatches = newFileContent.match(/"key": "[\w-]+",\s*"slug": "[\w-]+",\s*"title": "[^"]+",\s*"description": "[^"]+",\s*"image":/g) || [];
     console.log(`New file product groups: ${groupMatches.length}`);
     
-    // Count products - look for "id" fields in products
-    const productMatches = newFileContent.match(/"id": "[\w-]+",/g) || [];
-    console.log(`New file products: ${productMatches.length}`);
+    // Count unique product IDs
+    const productIdMatches = newFileContent.match(/"id": "([^"]+)"/g) || [];
+    const uniqueProductIds = new Set(productIdMatches.map(match => match.match(/"id": "([^"]+)"/)[1]));
+    console.log(`New file products: ${uniqueProductIds.size}`);
     
     // Check for translation keys (should be 0)
     const translationKeys = newFileContent.match(/translationKey[s]?:/g) || [];
     console.log(`New file translation keys: ${translationKeys.length}`);
     
+    // Check for slug duplicates
+    const slugMatches = newFileContent.match(/"slug": "([^"]+)"/g) || [];
+    const slugs = slugMatches.map(match => match.match(/"slug": "([^"]+)"/)[1]);
+    const uniqueSlugs = new Set(slugs);
+    if (slugs.length !== uniqueSlugs.size) {
+      console.log(`⚠️  Warning: ${slugs.length - uniqueSlugs.size} duplicate slugs found`);
+    }
+    
     return {
       categories: categoryMatches.length,
-      subcategories: subcategoryMatches.length,
+      subcategories: subcategoryMatches.length, 
       groups: groupMatches.length,
-      products: productMatches.length,
+      products: uniqueProductIds.size,
       translationKeys: translationKeys.length
     };
   } catch (error) {

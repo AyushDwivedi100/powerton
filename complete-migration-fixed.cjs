@@ -319,6 +319,9 @@ function extractDataFromOldFile() {
 function generateNewHierarchicalStructure(data) {
   const { categories, productGroups, products } = data;
   
+  
+  // Track products across all groups to prevent duplication
+  const globalProcessedProducts = new Set();
   console.log(`Processing ${categories.length} categories, ${productGroups.length} groups, ${products.length} products`);
   
   // Build hierarchy bottom-up from Products data (more robust approach)
@@ -441,6 +444,12 @@ function generateNewHierarchicalStructure(data) {
         console.log(`  Group ${group.key}: ${groupProducts.length} products`);
         
         groupProducts.forEach(product => {
+          // Skip if product already processed
+          if (globalProcessedProducts.has(product.id)) {
+            return;
+          }
+          globalProcessedProducts.add(product.id);
+          
           // Generate unique slug by combining product slug with ID suffix
           const uniqueSlug = `${product.slug}-${product.id.slice(-6)}`;
           
@@ -518,6 +527,12 @@ function generateNewHierarchicalStructure(data) {
           };
           
           products.forEach(product => {
+            // Skip if product already processed
+            if (globalProcessedProducts.has(product.id)) {
+              return;
+            }
+            globalProcessedProducts.add(product.id);
+            
             // Generate unique slug by combining product slug with ID suffix
             const uniqueSlug = `${product.slug}-${product.id.slice(-6)}`;
             
