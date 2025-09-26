@@ -140,7 +140,10 @@ export default function Contact() {
 
       {/* Hero Section */}
       <section
-        className={`relative hero-fullscreen overflow-hidden ${getAnimationClass("fade-in-up", true)}`}
+        className={`relative hero-fullscreen overflow-hidden ${getAnimationClass(
+          "fade-in-up",
+          true
+        )}`}
       >
         <div className="absolute inset-0">
           <img
@@ -218,24 +221,52 @@ export default function Contact() {
                       "primary" in method.content ? (
                         <div className="space-y-2 mb-3">
                           <a
-                            href={method.icon === MessageCircle 
-                              ? `https://wa.me/${method.content.primary.replace(/[^0-9]/g, '')}?text=${encodeURIComponent("Hello! I'm interested in your products and services.")}`
-                              : `tel:${method.content.primary}`
+                            href={
+                              method.icon === MessageCircle
+                                ? `https://wa.me/${method.content.primary.replace(
+                                    /[^0-9]/g,
+                                    ""
+                                  )}?text=${encodeURIComponent(
+                                    "Hello! I'm interested in your products and services."
+                                  )}`
+                                : `tel:${method.content.primary}`
                             }
-                            target={method.icon === MessageCircle ? "_blank" : undefined}
-                            rel={method.icon === MessageCircle ? "noopener noreferrer" : undefined}
+                            target={
+                              method.icon === MessageCircle
+                                ? "_blank"
+                                : undefined
+                            }
+                            rel={
+                              method.icon === MessageCircle
+                                ? "noopener noreferrer"
+                                : undefined
+                            }
                             className="text-base font-semibold text-primary hover:text-secondary transition-colors break-words flex items-center justify-center"
                           >
                             <Phone className="w-4 h-4 mr-2" />
                             {method.content.primary}
                           </a>
                           <a
-                            href={method.icon === MessageCircle 
-                              ? `https://wa.me/${method.content.secondary.replace(/[^0-9]/g, '')}?text=${encodeURIComponent("Hello! I'm interested in your products and services.")}`
-                              : `tel:${method.content.secondary}`
+                            href={
+                              method.icon === MessageCircle
+                                ? `https://wa.me/${method.content.secondary.replace(
+                                    /[^0-9]/g,
+                                    ""
+                                  )}?text=${encodeURIComponent(
+                                    "Hello! I'm interested in your products and services."
+                                  )}`
+                                : `tel:${method.content.secondary}`
                             }
-                            target={method.icon === MessageCircle ? "_blank" : undefined}
-                            rel={method.icon === MessageCircle ? "noopener noreferrer" : undefined}
+                            target={
+                              method.icon === MessageCircle
+                                ? "_blank"
+                                : undefined
+                            }
+                            rel={
+                              method.icon === MessageCircle
+                                ? "noopener noreferrer"
+                                : undefined
+                            }
                             className="text-base font-semibold text-primary hover:text-secondary transition-colors break-words flex items-center justify-center"
                           >
                             <Phone className="w-4 h-4 mr-2" />

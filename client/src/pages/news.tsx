@@ -261,7 +261,10 @@ export default function News() {
 
       {/* Hero Section */}
       <section
-        className={`relative hero-fullscreen overflow-hidden ${getAnimationClass("fade-in-up", true)}`}
+        className={`relative hero-fullscreen overflow-hidden ${getAnimationClass(
+          "fade-in-up",
+          true
+        )}`}
       >
         <div
           className="absolute inset-0 bg-cover bg-center bg-no-repeat "

@@ -574,7 +574,7 @@ export default function Sitemap() {
         },
       ],
       categories: PRODUCT_CATEGORIES,
-    }
+    },
   };
 
   const getIcon = (iconName: string, className: string = "w-4 h-4") => {
@@ -613,7 +613,7 @@ export default function Sitemap() {
 
   const renderProductCategory = (
     category: ProductCategory,
-    categoryIndex: number,
+    categoryIndex: number
   ) => (
     <div key={categoryIndex} className="ml-4">
       {/* Category Header */}
@@ -755,7 +755,7 @@ export default function Sitemap() {
                   <div className="flex flex-col gap-6">
                     {siteStructure.products.categories.map(
                       (category, categoryIndex) =>
-                        renderProductCategory(category, categoryIndex),
+                        renderProductCategory(category, categoryIndex)
                     )}
                   </div>
                 </div>

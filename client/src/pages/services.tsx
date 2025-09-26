@@ -62,7 +62,9 @@ export default function Services() {
           <div
             className="absolute inset-0 bg-cover bg-center bg-no-repeat"
             style={{
-              backgroundImage: `url(${getHeroImage("services", { preload: true })?.src})`,
+              backgroundImage: `url(${
+                getHeroImage("services", { preload: true })?.src
+              })`,
             }}
           ></div>
           <div className="absolute inset-0 bg-black/60"></div>
@@ -170,7 +172,7 @@ export default function Services() {
                                         {feature}
                                       </span>
                                     </li>
-                                  ),
+                                  )
                                 )}
                               </ul>
                             </div>
