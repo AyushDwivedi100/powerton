@@ -127,7 +127,7 @@ const ScrollAnimatedSection: React.FC<{
 
 const ProductCategoryDynamic: React.FC = () => {
   const { slug } = useParams<{ slug: string }>();
-  const { t } = useTranslation('common');
+  const { t } = useTranslation("common");
   const categoryData = getCategoryBySlug(slug!);
 
   // Create refs for scroll animations
@@ -289,7 +289,7 @@ const ProductCategoryDynamic: React.FC = () => {
                       >
                         <IconComponent className="w-8 h-8 text-primary group-hover:scale-110 transition-transform duration-300" />
                       </motion.div>
-                      <CardTitle className="text-xl font-semibold text-foreground group-hover:text-primary transition-colors text-center">
+                      <CardTitle className="text-xl font-semibold text-foreground group-hover:text-secondary transition-colors text-center">
                         {subcategory.title}
                       </CardTitle>
                       <CardDescription className="text-muted-foreground text-center">
@@ -298,7 +298,7 @@ const ProductCategoryDynamic: React.FC = () => {
                     </CardHeader>
                     <CardContent>
                       <div className="space-y-2">
-                        <h4 className="font-medium text-sm text-foreground mb-3">
+                        <h4 className="font-medium text-sm text-foreground mb-3 group-hover:text-secondary">
                           Key Features:
                         </h4>
                         <ul className="space-y-1">
