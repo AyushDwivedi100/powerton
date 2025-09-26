@@ -105,7 +105,7 @@ export default function ServiceCategoryPage() {
               })`,
             }}
           ></div>
-          <div className="absolute inset-0 bg-black/60"></div>
+          <div className="absolute inset-0 bg-blue-600/30 dark:bg-black/60"></div>
 
           <div className="relative z-10">
             <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8 text-center text-white">

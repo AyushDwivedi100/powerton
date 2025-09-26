@@ -176,7 +176,7 @@ const ProductCategoryDynamic: React.FC = () => {
             backgroundImage: `url(${categoryData.backgroundImage})`,
           }}
         />
-        <div className="absolute inset-0 bg-black/60" />
+        <div className="absolute inset-0 bg-blue-600/30 dark:bg-black/60" />
 
         <motion.div
           initial={{ opacity: 0, y: 50 }}

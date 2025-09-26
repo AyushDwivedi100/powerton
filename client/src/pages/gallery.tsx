@@ -313,7 +313,7 @@ export default function Gallery() {
             backgroundImage: `url(${galleryHeroImage})`,
           }}
         ></div>
-        <div className="absolute inset-0 bg-black/60"></div>
+        <div className="absolute inset-0 bg-blue-600/30 dark:bg-black/60"></div>
         <div className="relative max-w-7xl mx-auto px-4 md:px-6 lg:px-8 text-white text-center">
           <AnimatedSection animation="fadeInUp" delay={0.1} duration={0.8}>
             <h1 className="text-4xl lg:text-6xl font-bold mb-6">

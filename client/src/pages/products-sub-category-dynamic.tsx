@@ -228,7 +228,7 @@ export default function ProductSubCategoryDynamic() {
                       defaultValue: "Professional Grade Solutions",
                     })}
                   </h2>
-                  <p className="text-muted-foreground group-hover:text-foreground leading-relaxed text-sm md:text-base">
+                  <p className="text-muted-foreground leading-relaxed text-sm md:text-base">
                     {product.fullDescription}
                   </p>
                   <div className="space-y-3">
