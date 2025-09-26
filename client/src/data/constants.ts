@@ -5,6 +5,7 @@ import companyLogoImage from "@assets/generated_images/Company_Logo_Design_001b8
 import industrialAutomationImage from "@assets/generated_images/Industrial_Automation_Factory_54a2a6f1.png";
 import powerPlantControlImage from "@assets/generated_images/Power_Plant_Control_Room_0bd716bf.png";
 import { getProductImage } from "@/assets/images";
+import { productGroups, ProductGroup } from "./products-detail-pages-data";
 
 export const COMPANY_INFO = {
   name: "Powerton Engineering Pvt. Ltd.",
@@ -1403,3 +1404,23 @@ export const SERVICE_OPTIONS = [
   { value: "solar-epc", label: "Solar EPC" },
   { value: "other", label: "Other" },
 ];
+
+// Product Groups Helper Functions for Navigation Popup Menu
+export const getProductGroupsBySubcategory = (subcategoryKey: string): ProductGroup[] => {
+  return productGroups.filter(group => group.subcategoryKey === subcategoryKey);
+};
+
+// Get all product groups organized by subcategory for efficient lookup
+export const getProductGroupsMap = (): Map<string, ProductGroup[]> => {
+  const map = new Map<string, ProductGroup[]>();
+  productGroups.forEach(group => {
+    const existing = map.get(group.subcategoryKey) || [];
+    map.set(group.subcategoryKey, [...existing, group]);
+  });
+  return map;
+};
+
+// Check if a subcategory has any product groups
+export const hasProductGroups = (subcategoryKey: string): boolean => {
+  return productGroups.some(group => group.subcategoryKey === subcategoryKey);
+};
