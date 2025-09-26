@@ -7914,11 +7914,28 @@ export const getProductsBySubcategory = (categoryKey: string, subcategoryKey: st
   return products;
 };
 
-export const getProductGroupBySlug = (categoryKey: string, subcategoryKey: string, groupSlug: string): ProductGroup | undefined => {
-  const category = productCatalog[categoryKey];
+export const getProductGroupBySlug = (
+  categoryKeyOrSubcategoryKey: string, 
+  subcategoryKeyOrGroupSlug: string, 
+  groupSlug?: string
+): ProductGroup | undefined => {
+  // Handle 2-parameter version (subcategoryKey, groupSlug)
+  if (!groupSlug) {
+    // Search all categories for the subcategory
+    for (const category of Object.values(productCatalog)) {
+      const subcategory = category.subcategories.find(sub => sub.key === categoryKeyOrSubcategoryKey);
+      if (subcategory) {
+        return subcategory.productGroups.find(group => group.slug === subcategoryKeyOrGroupSlug);
+      }
+    }
+    return undefined;
+  }
+  
+  // Handle 3-parameter version (categoryKey, subcategoryKey, groupSlug)
+  const category = productCatalog[categoryKeyOrSubcategoryKey];
   if (!category) return undefined;
   
-  const subcategory = category.subcategories.find(sub => sub.key === subcategoryKey);
+  const subcategory = category.subcategories.find(sub => sub.key === subcategoryKeyOrGroupSlug);
   if (!subcategory) return undefined;
   
   return subcategory.productGroups.find(group => group.slug === groupSlug);
@@ -7980,6 +7997,34 @@ export const getProductDetailBySlug = (slug: string, t: any, groupSlug?: string)
       for (const productGroup of subcategory.productGroups) {
         if (productGroup.products.some(p => p.slug === slug)) {
           return {
+            // Product fields expected by the component
+            title: product.title,
+            shortDescription: product.description,
+            fullDescription: product.description,
+            image: product.image,
+            categoryName: category.title,
+            categoryPath: `/products/subcategory/${subcategory.key}`,
+            backLabel: `Back to ${productGroup.title}`,
+            
+            // Features and benefits
+            keyBenefits: product.features || [],
+            specifications: Object.entries(product.specs || {}).map(([key, value]) => ({
+              label: key,
+              value: value
+            })),
+            applications: [], // Not available in current data structure
+            industries: [], // Not available in current data structure
+            certifications: [], // Not available in current data structure
+            
+            // SEO data
+            seo: {
+              title: `${product.title} | Powerton Engineering`,
+              description: product.description,
+              keywords: `${product.title}, ${category.title}, ${subcategory.title}`,
+              canonicalUrl: `/products/detail/${slug}`
+            },
+            
+            // Original data for reference
             product,
             category,
             subcategory,
