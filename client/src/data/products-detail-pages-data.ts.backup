@@ -44,50 +44,50 @@ export interface Category {
 export const productCatalog: { [categoryKey: string]: Category } = {
   "instrumentation-components": {
     "key": "instrumentation-components",
-    "title": "Instrumentation Components",
-    "description": "Description",
+    "title": "categories instrumentation Components",
+    "description": "Advanced instrumentation and process control components for industrial automation",
     "subcategories": []
   },
   "electrical-components": {
     "key": "electrical-components",
-    "title": "Electrical Components",
-    "description": "Description",
+    "title": "categories electrical Components",
+    "description": "Comprehensive electrical components and systems for industrial applications",
     "subcategories": []
   },
   "solar-products": {
     "key": "solar-products",
-    "title": "Solar Products",
-    "description": "Description",
+    "title": "categories solar Products",
+    "description": "Complete solar energy solutions including photovoltaic panels and inverters",
     "subcategories": []
   },
   "automation-control-systems": {
     "key": "automation-control-systems",
-    "title": "Automation Control",
-    "description": "Description",
+    "title": "categories automation Control",
+    "description": "categories automation Control description",
     "subcategories": []
   },
   "safety-protective-devices": {
     "key": "safety-protective-devices",
-    "title": "Safety Protective",
-    "description": "Description",
+    "title": "categories safety Protective",
+    "description": "categories safety Protective description",
     "subcategories": []
   },
   "mechanical-pumps-spares": {
     "key": "mechanical-pumps-spares",
-    "title": "Mechanical Pumps",
-    "description": "Description",
+    "title": "categories mechanical Pumps",
+    "description": "categories mechanical Pumps description",
     "subcategories": []
   },
   "industrial-measuring-tools": {
     "key": "industrial-measuring-tools",
-    "title": "Industrial Tools",
-    "description": "Description",
+    "title": "categories industrial Tools",
+    "description": "categories industrial Tools description",
     "subcategories": []
   },
   "bldc": {
     "key": "bldc",
-    "title": "Title",
-    "description": "Description",
+    "title": "BLDC Motor Systems",
+    "description": "categories bldc title description",
     "subcategories": []
   }
 };
