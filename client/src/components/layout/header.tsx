@@ -109,8 +109,8 @@ export default function Header() {
     return false;
   };
 
-  // Hover handlers for product groups popup
-  const handleSubcategoryHover = (subcategoryId: string, event: React.MouseEvent) => {
+  // Hover and focus handlers for product groups popup
+  const handleSubcategoryHover = (subcategoryId: string, event: React.MouseEvent | React.FocusEvent) => {
     if (!hasProductGroups(subcategoryId)) return;
     
     if (popupTimeout) {
@@ -142,6 +142,22 @@ export default function Header() {
     setPopupTimeout(timeout);
   };
 
+  const handleSubcategoryBlur = (event: React.FocusEvent) => {
+    // Check if focus is moving to the popup or another subcategory
+    const relatedTarget = event.relatedTarget as Element;
+    if (relatedTarget && (
+      relatedTarget.closest('[data-testid^="product-group-"]') ||
+      relatedTarget.closest('[data-testid^="subcategory-"]')
+    )) {
+      return; // Don't close if focus is moving to popup or another subcategory
+    }
+    
+    const timeout = setTimeout(() => {
+      setHoveredSubcategory(null);
+    }, 150);
+    setPopupTimeout(timeout);
+  };
+
   const handlePopupHover = () => {
     if (popupTimeout) {
       clearTimeout(popupTimeout);
@@ -151,6 +167,13 @@ export default function Header() {
 
   const handlePopupLeave = () => {
     setHoveredSubcategory(null);
+  };
+
+  // Handle keyboard events
+  const handleKeyDown = (event: React.KeyboardEvent) => {
+    if (event.key === 'Escape') {
+      setHoveredSubcategory(null);
+    }
   };
 
   return (
@@ -509,11 +532,14 @@ export default function Header() {
                                             <Link
                                               href={`/products-sub-category/${subcategory.id}`}
                                               className={`block px-2 lg:px-3 py-1 lg:py-2 rounded-sm hover:bg-slate-100 dark:hover:bg-slate-800 hover:text-foreground cursor-pointer transition-colors text-xs lg:text-sm border-primary/40 hover:border-secondary bs-2 ${
-                                                hasProductGroups(subcategory.id) ? 'hover:bg-blue-50 dark:hover:bg-blue-900/20' : ''
+                                                hasProductGroups(subcategory.id) ? 'hover:bg-blue-50 dark:hover:bg-blue-900/20 focus:bg-blue-50 dark:focus:bg-blue-900/20' : ''
                                               }`}
                                               onClick={() =>
                                                 setIsProductsDropdownOpen(false)
                                               }
+                                              onFocus={(e) => handleSubcategoryHover(subcategory.id, e)}
+                                              onBlur={handleSubcategoryBlur}
+                                              onKeyDown={handleKeyDown}
                                               data-testid={`subcategory-${subcategory.id}`}
                                             >
                                               <div className="font-medium text-foreground text-safe responsive-text flex items-center justify-between">
