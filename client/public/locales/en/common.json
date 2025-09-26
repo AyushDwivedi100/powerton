@@ -133,7 +133,7 @@
     "catalogComingSoon": "Product catalog download will be available soon!",
     "readyToStart": "Ready to start your project?",
     "requestConsultation": "Request a free engineering consultation",
-    "availability" : "24/7 availability for quick support",
+    "availability": "24/7 availability for quick support",
     "responseTime": "Within 2 days for initial consultation"
   },
   "aria": {
@@ -408,7 +408,7 @@
       "highlights": {
         "plcIntegration": "PLC Integration",
         "scadaSystems": "SCADA Systems",
-        "realtimeMonitoring": "Realtime Monitoring",
+        "realtimemonitoring": "Real Time Monitoring",
         "processOptimization": "Process Optimization"
       }
     },
@@ -702,7 +702,8 @@
       "toggleMobileMenu": "Toggle mobile menu",
       "closeMobileMenu": "Close mobile menu",
       "openMobileMenu": "Open mobile menu",
-      "emailUs": "Email us at {{email}}"
+      "emailUs": "Email us at {{email}}",
+      "openLocation": "Open office location in Google Maps"
     },
     "altTexts": {
       "companyLogo": "Powerton Engineering Company Logo",

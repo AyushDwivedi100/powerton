@@ -316,10 +316,10 @@ export default function Gallery() {
         <div className="absolute inset-0 bg-blue-600/30 dark:bg-black/60"></div>
         <div className="relative max-w-7xl mx-auto px-4 md:px-6 lg:px-8 text-white text-center">
           <AnimatedSection animation="fadeInUp" delay={0.1} duration={0.8}>
-            <h1 className="text-4xl lg:text-6xl font-bold mb-6">
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4 sm:mb-6 text-wrap-safe responsive-text">
               {t("pages:gallery.hero.title")}
             </h1>
-            <p className="text-xl lg:text-2xl mb-8 opacity-90 max-w-3xl mx-auto">
+            <p className="text-lg md:text-xl lg:text-2xl mb-6 sm:mb-8 opacity-90 max-w-3xl mx-auto text-wrap-safe">
               {t("pages:gallery.hero.subtitle")}
             </p>
             <div className="flex justify-center gap-4 text-sm">

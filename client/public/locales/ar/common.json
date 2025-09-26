@@ -408,7 +408,7 @@
       "highlights": {
         "plcIntegration": "تكامل PLC",
         "scadaSystems": "أنظمة SCADA",
-        "realtimeMonitoring": "مراقبة في الوقت الحقيقي",
+        "realtimemonitoring": "المراقبة في الوقت الحقيقي",
         "processOptimization": "تحسين العمليات"
       }
     },
@@ -702,7 +702,8 @@
       "toggleMobileMenu": "تبديل قائمة الجوال",
       "closeMobileMenu": "إغلاق قائمة الجوال",
       "openMobileMenu": "فتح قائمة الجوال",
-      "emailUs": "أرسل لنا بريدًا إلكترونيًا على {{email}}"
+      "emailUs": "أرسل لنا بريدًا إلكترونيًا على {{email}}",
+      "openLocation": "فتح موقع المكتب في خرائط جوجل"
     },
     "altTexts": {
       "companyLogo": "شعار شركة Powerton Engineering",

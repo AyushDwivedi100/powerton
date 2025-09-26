@@ -408,7 +408,7 @@
       "highlights": {
         "plcIntegration": "Ujumuishaji wa PLC",
         "scadaSystems": "Mifumo ya SCADA",
-        "realtimeMonitoring": "Ufuatiliaji wa Wakati Halisi",
+        "realtimemonitoring": "Ufuatiliaji wa Wakati Halisi",
         "processOptimization": "Uboreshaji wa Mchakato"
       }
     },
@@ -702,7 +702,8 @@
       "toggleMobileMenu": "Badili menyu ya simu",
       "closeMobileMenu": "Funga menyu ya simu",
       "openMobileMenu": "Fungua menyu ya simu",
-      "emailUs": "Tutumie barua pepe kwa {{email}}"
+      "emailUs": "Tutumie barua pepe kwa {{email}}",
+      "openLocation" :"Fungua eneo la ofisi kwenye Google Maps"
     },
     "altTexts": {
       "companyLogo": "Nembo ya Kampuni ya Powerton Engineering",

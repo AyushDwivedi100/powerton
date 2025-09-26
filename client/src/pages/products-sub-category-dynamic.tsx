@@ -92,11 +92,11 @@ export default function ProductSubCategoryDynamic() {
           <div className="max-w-4xl mx-auto text-center">
             <div className="flex items-center justify-center mb-6">
               <IconComponent className="w-16 h-16 text-secondary mr-4" />
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold">
+              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4 sm:mb-6 text-wrap-safe responsive-text">
                 {product.title}
               </h1>
             </div>
-            <p className="text-lg md:text-xl mb-8 opacity-90 max-w-3xl mx-auto">
+            <p className="text-lg md:text-xl lg:text-2xl mb-6 sm:mb-8 opacity-90 max-w-3xl mx-auto text-wrap-safe">
               {product.shortDescription}
             </p>
             <div className="flex flex-col sm:flex-row justify-center gap-4 max-w-md mx-auto">

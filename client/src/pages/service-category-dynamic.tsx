@@ -113,10 +113,10 @@ export default function ServiceCategoryPage() {
                 <div className="w-20 h-20 bg-background/20 rounded-full flex items-center justify-center mx-auto mb-6">
                   <IconComponent className="w-10 h-10" />
                 </div>
-                <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
+                <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4 sm:mb-6 text-wrap-safe responsive-text">
                   {t(serviceData.title)}
                 </h1>
-                <p className="text-xl md:text-2xl mb-8 max-w-3xl mx-auto">
+                <p className="text-lg md:text-xl lg:text-2xl mb-6 sm:mb-8 opacity-90 max-w-3xl mx-auto text-wrap-safe">
                   {t(serviceData.description)}
                 </p>
                 <Link href="/quote">

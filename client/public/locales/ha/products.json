@@ -30,16 +30,6 @@
         "power-supplies": "Kayan Wuta"
       }
     },
-    "measurement-instruments": {
-      "title": "Kayan Auna da Gwaji",
-      "description": "Kayan auna da gwaji masu daidaito",
-      "features": {
-        "digital-multimeters": "Multimita na Digital",
-        "oscilloscopes": "Oscilloscope",
-        "signal-analyzers": "Masu Nazarin Sigina",
-        "calibrators": "Masu Gyarawa"
-      }
-    },
     "solar-products": {
       "title": "Kayan Hasken Rana",
       "description": "Cikakkun hanyoyin samar da makamashin hasken rana da kayayyaki",
@@ -79,14 +69,14 @@
         "maintenance-kits": "Kits ɗin Gyara"
       }
     },
-    "industrial-tools-tackles": {
-      "title": "Kayan Aiki & Kayan Aikin Masana'antu",
-      "description": "Kayan aiki masu nauyi na masana'antu da kayan ɗagawa",
+    "industrial-measuring-tools": {
+      "title": "Kayan Aikin Masana'antu & Aunawa",
+      "description": "Kayan auna daidai don aikace-aikacen masana'antu",
       "features": {
-        "hand-tools": "Kayan Aikin Hannu",
-        "power-tools": "Kayan Aikin Wuta",
-        "lifting-equipment": "Kayan Ɗagawa",
-        "cutting-tools": "Kayan Yankan"
+        "calipers": "Kayan Auna Fadin Abu (Calipers)",
+        "micrometers": "Mikromita",
+        "gauges": "Ma'auni (Gauges)",
+        "testers": "Kayan Gwaji"
       }
     },
     "bldc": {

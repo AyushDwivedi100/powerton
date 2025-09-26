@@ -30,16 +30,6 @@
         "power-supplies": "Ugavi wa Nishati"
       }
     },
-    "measurement-instruments": {
-      "title": "Vyombo vya Kupimia",
-      "description": "Vyombo sahihi vya kupimia na kupima",
-      "features": {
-        "digital-multimeters": "Multimita za Dijitali",
-        "oscilloscopes": "Osiloscopu",
-        "signal-analyzers": "Vichambuzi Ishara",
-        "calibrators": "Vikalibrati"
-      }
-    },
     "solar-products": {
       "title": "Bidhaa za Sola",
       "description": "Suluhisho kamili za nishati ya jua na vipengele",
@@ -79,14 +69,14 @@
         "maintenance-kits": "Vifaa vya Matengenezo"
       }
     },
-    "industrial-tools-tackles": {
-      "title": "Zana na Vifaa vya Viwandani",
-      "description": "Zana nzito za viwandani na vifaa vya kuinua",
+    "industrial-measuring-tools": {
+      "title": "Zana za Viwandani na Vipimo",
+      "description": "Zana za kupimia kwa usahihi kwa matumizi ya viwandani",
       "features": {
-        "hand-tools": "Zana za Mkono",
-        "power-tools": "Zana za Nguvu",
-        "lifting-equipment": "Vifaa vya Kuinua",
-        "cutting-tools": "Zana za Kukata"
+        "calipers": "Kalipa",
+        "micrometers": "Mikromita",
+        "gauges": "Vipimo",
+        "testers": "Vijaribu"
       }
     },
     "bldc": {

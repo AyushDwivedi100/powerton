@@ -30,16 +30,6 @@
         "power-supplies": "电源"
       }
     },
-    "measurement-instruments": {
-      "title": "测量仪器",
-      "description": "精密测量和测试仪器",
-      "features": {
-        "digital-multimeters": "数字万用表",
-        "oscilloscopes": "示波器",
-        "signal-analyzers": "信号分析仪",
-        "calibrators": "校准器"
-      }
-    },
     "solar-products": {
       "title": "太阳能产品",
       "description": "完整的太阳能解决方案和组件",
@@ -79,14 +69,14 @@
         "maintenance-kits": "维护套件"
       }
     },
-    "industrial-tools-tackles": {
-      "title": "工业工具及设备",
-      "description": "重型工业工具和起重设备",
+    "industrial-measuring-tools": {
+      "title": "工业与测量工具",
+      "description": "适用于工业应用的精密测量工具",
       "features": {
-        "hand-tools": "手动工具",
-        "power-tools": "电动工具",
-        "lifting-equipment": "起重设备",
-        "cutting-tools": "切割工具"
+        "calipers": "卡尺",
+        "micrometers": "千分尺",
+        "gauges": "量规",
+        "testers": "测试仪"
       }
     },
     "bldc": {

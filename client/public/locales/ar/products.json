@@ -30,16 +30,6 @@
         "power-supplies": "وحدات إمداد الطاقة"
       }
     },
-    "measurement-instruments": {
-      "title": "أدوات القياس",
-      "description": "أدوات قياس واختبار دقيقة",
-      "features": {
-        "digital-multimeters": "أجهزة قياس رقمية متعددة",
-        "oscilloscopes": "راسمات الذبذبات",
-        "signal-analyzers": "محللات الإشارة",
-        "calibrators": "المعايرات"
-      }
-    },
     "solar-products": {
       "title": "منتجات الطاقة الشمسية",
       "description": "حلول ومكونات كاملة للطاقة الشمسية",
@@ -79,14 +69,14 @@
         "maintenance-kits": "مجموعات الصيانة"
       }
     },
-    "industrial-tools-tackles": {
-      "title": "الأدوات والمعدات الصناعية",
-      "description": "أدوات صناعية للخدمة الشاقة ومعدات الرفع",
+    "industrial-measuring-tools": {
+      "title": "الأدوات الصناعية وأدوات القياس",
+      "description": "أدوات قياس دقيقة للتطبيقات الصناعية",
       "features": {
-        "hand-tools": "أدوات يدوية",
-        "power-tools": "أدوات كهربائية",
-        "lifting-equipment": "معدات الرفع",
-        "cutting-tools": "أدوات القطع"
+        "calipers": "الفرجار",
+        "micrometers": "الميكرومتر",
+        "gauges": "المقاييس",
+        "testers": "أجهزة الاختبار"
       }
     },
     "bldc": {

@@ -356,9 +356,11 @@ export default function Products() {
         <div className="relative max-w-7xl mx-auto px-3 sm:px-4 md:px-6 lg:px-8 text-white">
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold mb-4 sm:mb-6">
-              <span className="text-secondary">{t("products:title")}</span>
+              <span className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4 sm:mb-6 text-wrap-safe responsive-text">
+                {t("products:title")}
+              </span>
             </h1>
-            <p className="text-sm sm:text-base md:text-lg lg:text-xl mb-6 sm:mb-8 opacity-90 max-w-3xl mx-auto px-2 sm:px-0">
+            <p className="text-lg md:text-xl lg:text-2xl mb-6 sm:mb-8 opacity-90 max-w-3xl mx-auto text-wrap-safe">
               {t("products:subtitle")}
             </p>
             <div className="flex flex-col sm:flex-row justify-center gap-2 sm:gap-3 md:gap-4 max-w-md mx-auto px-2 sm:px-0">

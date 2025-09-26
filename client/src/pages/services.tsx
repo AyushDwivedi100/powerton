@@ -72,10 +72,10 @@ export default function Services() {
           <div className="relative z-10">
             <div className="max-w-7xl mx-auto px-3 sm:px-4 md:px-6 lg:px-8 text-center text-white">
               <AnimatedSection animation="fadeInUp" delay={0.1} duration={0.8}>
-                <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold mb-4 sm:mb-6">
+                <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4 sm:mb-6 text-wrap-safe responsive-text">
                   {t("pages:services.hero.title")}
                 </h1>
-                <p className="text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl mb-6 sm:mb-8 max-w-3xl mx-auto px-2 sm:px-0">
+                <p className="text-lg md:text-xl lg:text-2xl mb-6 sm:mb-8 opacity-90 max-w-3xl mx-auto text-wrap-safe">
                   {t("pages:services.hero.subtitle")}
                 </p>
                 <Link href="/quote">

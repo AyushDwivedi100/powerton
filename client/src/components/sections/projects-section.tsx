@@ -118,8 +118,7 @@ export default function ProjectsSection() {
                             className="text-xs bg-primary/10 text-primary px-2 py-1 rounded group-hover:text-foreground transition-colors"
                           >
                             {t(
-                              `common:projects.${project.id}.highlights.${translationKey}`,
-                              highlight,
+                              `common:projects.${project.id}.highlights.${translationKey}`
                             )}
                           </span>
                         );

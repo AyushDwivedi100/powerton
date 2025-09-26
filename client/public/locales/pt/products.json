@@ -30,16 +30,6 @@
         "power-supplies": "Fontes de Alimentação"
       }
     },
-    "measurement-instruments": {
-      "title": "Instrumentos de Medição",
-      "description": "Instrumentos de medição e teste de precisão",
-      "features": {
-        "digital-multimeters": "Multímetros Digitais",
-        "oscilloscopes": "Osciloscópios",
-        "signal-analyzers": "Analisadores de Sinal",
-        "calibrators": "Calibradores"
-      }
-    },
     "solar-products": {
       "title": "Produtos Solares",
       "description": "Soluções e componentes completos de energia solar",
@@ -79,14 +69,14 @@
         "maintenance-kits": "Kits de Manutenção"
       }
     },
-    "industrial-tools-tackles": {
-      "title": "Ferramentas e Equipamentos Industriais",
-      "description": "Ferramentas industriais pesadas e equipamentos de elevação",
+    "industrial-measuring-tools": {
+      "title": "Ferramentas Industriais e de Medição",
+      "description": "Ferramentas de medição de precisão para aplicações industriais",
       "features": {
-        "hand-tools": "Ferramentas Manuais",
-        "power-tools": "Ferramentas Elétricas",
-        "lifting-equipment": "Equipamentos de Elevação",
-        "cutting-tools": "Ferramentas de Corte"
+        "calipers": "Paquímetros",
+        "micrometers": "Micrômetros",
+        "gauges": "Medidores",
+        "testers": "Testadores"
       }
     },
     "bldc": {

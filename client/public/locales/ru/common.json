@@ -408,7 +408,7 @@
       "highlights": {
         "plcIntegration": "Интеграция ПЛК",
         "scadaSystems": "Системы SCADA",
-        "realtimeMonitoring": "Мониторинг в реальном времени",
+        "realTimeMonitoring": "Мониторинг в реальном времени",
         "processOptimization": "Оптимизация процессов"
       }
     },
@@ -702,7 +702,8 @@
       "toggleMobileMenu": "Переключить мобильное меню",
       "closeMobileMenu": "Закрыть мобильное меню",
       "openMobileMenu": "Открыть мобильное меню",
-      "emailUs": "Напишите нам по адресу {{email}}"
+      "emailUs": "Напишите нам по адресу {{email}}",
+      "openLocation": "Открыть местоположение офиса в Google Maps"
     },
     "altTexts": {
       "companyLogo": "Логотип компании Powerton Engineering",

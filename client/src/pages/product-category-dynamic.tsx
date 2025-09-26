@@ -209,7 +209,7 @@ const ProductCategoryDynamic: React.FC = () => {
                 heroInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 30 }
               }
               transition={{ duration: 0.8, delay: 0.3 }}
-              className="text-4xl md:text-5xl font-bold text-foreground mb-6"
+              className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4 sm:mb-6 text-wrap-safe responsive-text"
             >
               {categoryData.title}
             </motion.h1>
@@ -220,7 +220,7 @@ const ProductCategoryDynamic: React.FC = () => {
                 heroInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }
               }
               transition={{ duration: 0.8, delay: 0.4 }}
-              className="text-xl text-foreground max-w-3xl mx-auto mb-8"
+              className="text-lg md:text-xl lg:text-2xl mb-6 sm:mb-8 opacity-90 max-w-3xl mx-auto text-wrap-safe"
             >
               {categoryData.description}
             </motion.p>

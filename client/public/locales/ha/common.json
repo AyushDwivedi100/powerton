@@ -408,7 +408,7 @@
       "highlights": {
         "plcIntegration": "Haɗin PLC",
         "scadaSystems": "Tsarin SCADA",
-        "realtimeMonitoring": "Sa ido na Ainihi",
+        "realtimemonitoring": "Sa ido na Ainihi",
         "processOptimization": "Inganta Tsari"
       }
     },
@@ -704,7 +704,8 @@
       "toggleMobileMenu": "Canja menu na wayar hannu",
       "closeMobileMenu": "Rufe menu na wayar hannu",
       "openMobileMenu": "Buɗe menu na wayar hannu",
-      "emailUs": "Aika mana imel a {{email}}"
+      "emailUs": "Aika mana imel a {{email}}",
+      "openLocation": "Duba wurin ofishinmu a Google Maps"
     },
     "altTexts": {
       "companyLogo": "Alamar Kamfanin Powerton Engineering",

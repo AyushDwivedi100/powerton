@@ -30,14 +30,6 @@
         "power-supplies": "Power Supplies"
       }
     },
-    "measurement-instruments": {
-      "title": "Measurement Instruments",
-      "description": "Precision measurement and testing instruments",
-      "features": {
-        "digital-multimeters": "Digital Multimeters",
-        "calibrators": "Calibrators"
-      }
-    },
     "solar-products": {
       "title": "Solar Products",
       "description": "Complete solar energy solutions and components",
@@ -77,14 +69,14 @@
         "maintenance-kits": "Maintenance Kits"
       }
     },
-    "industrial-tools-tackles": {
-      "title": "Industrial Tools & Equipment",
-      "description": "Heavy-duty industrial tools and lifting equipment",
+    "industrial-measuring-tools": {
+      "title": "Industrial & Measuring Tools",
+      "description": "Precision measuring tools for industrial applications",
       "features": {
-        "hand-tools": "Hand Tools",
-        "power-tools": "Power Tools",
-        "lifting-equipment": "Lifting Equipment",
-        "cutting-tools": "Cutting Tools"
+        "calipers": "Calipers",
+        "micrometers": "Micrometers",
+        "gauges": "Gauges",
+        "testers": "Testers"
       }
     },
     "bldc": {

@@ -408,7 +408,7 @@
       "highlights": {
         "plcIntegration": "Integração de PLC",
         "scadaSystems": "Sistemas SCADA",
-        "realtimeMonitoring": "Monitoramento em Tempo Real",
+        "realtimemonitoring": "Monitoramento em Tempo Real",
         "processOptimization": "Otimização de Processo"
       }
     },
@@ -702,7 +702,8 @@
       "toggleMobileMenu": "Alternar menu móvel",
       "closeMobileMenu": "Fechar menu móvel",
       "openMobileMenu": "Abrir menu móvel",
-      "emailUs": "Envie-nos um e-mail para {{email}}"
+      "emailUs": "Envie-nos um e-mail para {{email}}",
+      "openLocation": "Abrir localização do escritório no Google Maps"
     },
     "altTexts": {
       "companyLogo": "Logotipo da Empresa Powerton Engineering",

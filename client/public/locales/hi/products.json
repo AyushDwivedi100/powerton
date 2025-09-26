@@ -30,16 +30,6 @@
         "power-supplies": "बिजली की आपूर्ति"
       }
     },
-    "measurement-instruments": {
-      "title": "माप उपकरण",
-      "description": "सटीक माप और परीक्षण उपकरण",
-      "features": {
-        "digital-multimeters": "डिजिटल मल्टीमीटर",
-        "oscilloscopes": "ऑसिलोस्कोप",
-        "signal-analyzers": "सिग्नल विश्लेषक",
-        "calibrators": "कैलिब्रेटर"
-      }
-    },
     "solar-products": {
       "title": "सौर उत्पाद",
       "description": "पूर्ण सौर ऊर्जा समाधान और घटक",
@@ -79,14 +69,14 @@
         "maintenance-kits": "रखरखाव किट"
       }
     },
-    "industrial-tools-tackles": {
-      "title": "औद्योगिक उपकरण और उपकरण",
-      "description": "भारी शुल्क वाले औद्योगिक उपकरण और उठाने वाले उपकरण",
+    "industrial-measuring-tools": {
+      "title": "औद्योगिक और मापने के उपकरण",
+      "description": "औद्योगिक अनुप्रयोगों के लिए सटीक मापने के उपकरण",
       "features": {
-        "hand-tools": "हाथ उपकरण",
-        "power-tools": "बिजली उपकरण",
-        "lifting-equipment": "उठाने वाले उपकरण",
-        "cutting-tools": "काटने के उपकरण"
+        "calipers": "कैलिपर्स",
+        "micrometers": "माइक्रोमीटर",
+        "gauges": "गेज",
+        "testers": "परीक्षक"
       }
     },
     "bldc": {

@@ -408,7 +408,7 @@
       "highlights": {
         "plcIntegration": "पीएलसी एकीकरण",
         "scadaSystems": "एससीएडीए सिस्टम",
-        "realtimeMonitoring": "वास्तविक समय की निगरानी",
+        "realtimemonitoring": "वास्तविक समय की निगरानी",
         "processOptimization": "प्रक्रिया अनुकूलन"
       }
     },
@@ -702,7 +702,8 @@
       "toggleMobileMenu": "मोबाइल मेनू टॉगल करें",
       "closeMobileMenu": "मोबाइल मेनू बंद करें",
       "openMobileMenu": "मोबाइल मेनू खोलें",
-      "emailUs": "हमें {{email}} पर ईमेल करें"
+      "emailUs": "हमें {{email}} पर ईमेल करें",
+      "openLocation": "Google Maps में कार्यालय स्थान खोलें"
     },
     "altTexts": {
       "companyLogo": "पावरटन इंजीनियरिंग कंपनी का लोगो",

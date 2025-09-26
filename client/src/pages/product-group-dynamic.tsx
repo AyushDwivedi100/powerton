@@ -77,10 +77,10 @@ export default function ProductGroupDynamic() {
               </Link>
             </Button>
 
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4 sm:mb-6 text-wrap-safe responsive-text">
               {groupTitle}
             </h1>
-            <p className="text-xl md:text-2xl text-foreground max-w-3xl mx-auto mb-8">
+            <p className="text-lg md:text-xl lg:text-2xl mb-6 sm:mb-8 opacity-90 max-w-3xl mx-auto text-wrap-safe">
               {groupDescription}
             </p>
 
