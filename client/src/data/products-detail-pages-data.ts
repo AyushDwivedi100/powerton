@@ -9,7 +9,7 @@ export interface Product {
   slug: string;
   categoryKey: string;
   subcategoryKey: string;
-  typeKey?: string; // New field for product type (pnp, npn, rtd, etc.) - temporarily optional
+  typeKey?: string;
   image: string;
   datasheetUrl?: string;
   specs: ProductSpecs;
@@ -50,7 +50,7 @@ export interface Category {
 
 // Product Groups definitions
 export const productGroups: ProductGroup[] = [
-  // Sensors subcategory groups
+  // Sensors & Transducers subcategory groups
   {
     key: "pnp",
     slug: "pnp-proximity-sensors",
@@ -58,55 +58,55 @@ export const productGroups: ProductGroup[] = [
     descriptionKey: "products:groups.pnp.description",
     subcategoryKey: "sensors",
     image: "pnp-proximity-sensor",
-    featuredSpecs: ["manufacturer", "model", "type"]
+    featuredSpecs: ["manufacturer", "model", "type"],
   },
   {
     key: "npn",
-    slug: "npn-proximity-sensors", 
+    slug: "npn-proximity-sensors",
     titleKey: "products:groups.npn.title",
     descriptionKey: "products:groups.npn.description",
     subcategoryKey: "sensors",
     image: "npn-proximity-sensor",
-    featuredSpecs: ["manufacturer", "model", "type"]
+    featuredSpecs: ["manufacturer", "model", "type"],
   },
   {
     key: "rtd",
     slug: "rtd-temperature-sensors",
-    titleKey: "products:groups.rtd.title", 
+    titleKey: "products:groups.rtd.title",
     descriptionKey: "products:groups.rtd.description",
     subcategoryKey: "sensors",
     image: "rtd-temperature-sensor",
-    featuredSpecs: ["manufacturer", "model", "type"]
+    featuredSpecs: ["manufacturer", "model", "type"],
   },
   {
     key: "thermocouples",
     slug: "thermocouple-sensors",
     titleKey: "products:groups.thermocouples.title",
-    descriptionKey: "products:groups.thermocouples.description", 
+    descriptionKey: "products:groups.thermocouples.description",
     subcategoryKey: "sensors",
     image: "thermocouple-temperature-sensor",
-    featuredSpecs: ["manufacturer", "model", "type"]
+    featuredSpecs: ["manufacturer", "model", "type"],
   },
   {
     key: "load-cell",
     slug: "load-cell-sensors",
     titleKey: "products:groups.loadCell.title",
     descriptionKey: "products:groups.loadCell.description",
-    subcategoryKey: "sensors", 
+    subcategoryKey: "sensors",
     image: "load-cell",
-    featuredSpecs: ["manufacturer", "model", "type"]
+    featuredSpecs: ["manufacturer", "model", "type"],
   },
   {
     key: "ph-sensors",
     slug: "ph-sensors",
-    titleKey: "products:groups.phSensors.title", 
+    titleKey: "products:groups.phSensors.title",
     descriptionKey: "products:groups.phSensors.description",
     subcategoryKey: "sensors",
     image: "ph-sensor",
-    featuredSpecs: ["manufacturer", "model", "type"]
+    featuredSpecs: ["manufacturer", "model", "type"],
   },
 
-  // Transmitters subcategory groups
+  // Transmitters & Flow Meters subcategory groups
   {
     key: "dp-type-transmitter",
     slug: "dp-type-transmitters",
@@ -114,7 +114,7 @@ export const productGroups: ProductGroup[] = [
     descriptionKey: "products:groups.dpTypeTransmitter.description",
     subcategoryKey: "transmitters",
     image: "dp-transmitter-rosemount",
-    featuredSpecs: ["manufacturer", "model", "type"]
+    featuredSpecs: ["manufacturer", "model", "type"],
   },
   {
     key: "p-type-transmitter",
@@ -123,7 +123,7 @@ export const productGroups: ProductGroup[] = [
     descriptionKey: "products:groups.pTypeTransmitter.description",
     subcategoryKey: "transmitters",
     image: "p-transmitter-siemens",
-    featuredSpecs: ["manufacturer", "model", "type"]
+    featuredSpecs: ["manufacturer", "model", "type"],
   },
   {
     key: "rs-type-transmitter",
@@ -132,7 +132,7 @@ export const productGroups: ProductGroup[] = [
     descriptionKey: "products:groups.rsTypeTransmitter.description",
     subcategoryKey: "transmitters",
     image: "rs-transmitter-rosemount",
-    featuredSpecs: ["manufacturer", "model", "type"]
+    featuredSpecs: ["manufacturer", "model", "type"],
   },
   {
     key: "magnetic-flow-meter",
@@ -141,7 +141,7 @@ export const productGroups: ProductGroup[] = [
     descriptionKey: "products:groups.magneticFlowMeter.description",
     subcategoryKey: "transmitters",
     image: "magnetic-flowmeter-endress",
-    featuredSpecs: ["manufacturer", "model", "type"]
+    featuredSpecs: ["manufacturer", "model", "type"],
   },
   {
     key: "mass-flow-meter",
@@ -150,7 +150,7 @@ export const productGroups: ProductGroup[] = [
     descriptionKey: "products:groups.massFlowMeter.description",
     subcategoryKey: "transmitters",
     image: "coriolis-flowmeter-endress",
-    featuredSpecs: ["manufacturer", "model", "type"]
+    featuredSpecs: ["manufacturer", "model", "type"],
   },
   {
     key: "vortex-flow-meter",
@@ -159,7 +159,7 @@ export const productGroups: ProductGroup[] = [
     descriptionKey: "products:groups.vortexFlowMeter.description",
     subcategoryKey: "transmitters",
     image: "vortex-flowmeter-yokogawa",
-    featuredSpecs: ["manufacturer", "model", "type"]
+    featuredSpecs: ["manufacturer", "model", "type"],
   },
   {
     key: "volumetric-flow-meter",
@@ -168,64 +168,74 @@ export const productGroups: ProductGroup[] = [
     descriptionKey: "products:groups.volumetricFlowMeter.description",
     subcategoryKey: "transmitters",
     image: "volumetric-flowmeter-abb",
-    featuredSpecs: ["manufacturer", "model", "type"]
+    featuredSpecs: ["manufacturer", "model", "type"],
   },
 
-  // Instrumentation Components - Additional subcategories
+  // Switches & Indicators subcategory groups
   {
     key: "pressure-switches",
     slug: "pressure-switches",
     title: "Pressure Switches",
-    description: "Industrial pressure switches for accurate pressure monitoring and control in automation systems. Available from leading manufacturers like Danfoss, Schneider Electric, WIKA, and ABB.",
+    description:
+      "Industrial pressure switches for accurate pressure monitoring and control in automation systems. Available from leading manufacturers like Danfoss, Schneider Electric, WIKA, and ABB.",
     subcategoryKey: "switches",
     image: "pressure-switch",
-    featuredSpecs: ["manufacturer", "model", "pressureRange", "temperature"]
+    featuredSpecs: ["manufacturer", "model", "pressureRange", "temperature"],
   },
   {
     key: "level-switches",
     slug: "level-switches",
     title: "Level Switches",
-    description: "Point-level detection switches using tuning fork, float, and capacitive technologies. From trusted brands like Endress+Hauser, ABB, and VEGA for reliable liquid and bulk solid level monitoring.",
+    description:
+      "Point-level detection switches using tuning fork, float, and capacitive technologies. From trusted brands like Endress+Hauser, ABB, and VEGA for reliable liquid and bulk solid level monitoring.",
     subcategoryKey: "switches",
     image: "level-switch",
-    featuredSpecs: ["manufacturer", "model", "technology", "application"]
+    featuredSpecs: ["manufacturer", "model", "technology", "application"],
   },
   {
     key: "limit-switches",
     slug: "limit-switches",
     title: "Limit Switches",
-    description: "Heavy-duty position sensing switches for industrial automation. From Omron, Schneider Electric, and Siemens with IP67 protection and robust metal construction for reliable operation.",
+    description:
+      "Heavy-duty position sensing switches for industrial automation. From Omron, Schneider Electric, and Siemens with IP67 protection and robust metal construction for reliable operation.",
     subcategoryKey: "switches",
     image: "limit-switch",
-    featuredSpecs: ["manufacturer", "model", "actuatorType", "ipRating"]
+    featuredSpecs: ["manufacturer", "model", "actuatorType", "ipRating"],
   },
   {
     key: "push-buttons",
     slug: "push-buttons",
     title: "Push Buttons",
-    description: "Industrial push button switches for control panels and machinery. Available in 22mm and 30mm sizes from Schneider Electric, Eaton, ABB, and Siemens with various contact configurations and illumination options.",
+    description:
+      "Industrial push button switches for control panels and machinery. Available in 22mm and 30mm sizes from Schneider Electric, Eaton, ABB, and Siemens with various contact configurations and illumination options.",
     subcategoryKey: "switches",
     image: "push-button",
-    featuredSpecs: ["manufacturer", "model", "size", "contactType"]
+    featuredSpecs: ["manufacturer", "model", "size", "contactType"],
   },
+
+  // Valves & Actuators subcategory groups
   {
     key: "control-valves",
     slug: "control-valves",
     title: "Control Valves",
-    description: "Precision control valves for process automation from Fisher (Emerson), SAMSON, and ABB. Globe, ball, and rotary designs with digital positioners and HART communication capabilities.",
+    description:
+      "Precision control valves for process automation from Fisher (Emerson), SAMSON, and ABB. Globe, ball, and rotary designs with digital positioners and HART communication capabilities.",
     subcategoryKey: "valves",
     image: "control-valve",
-    featuredSpecs: ["manufacturer", "model", "valveType", "cvValue"]
+    featuredSpecs: ["manufacturer", "model", "valveType", "cvValue"],
   },
   {
     key: "solenoid-valves",
     slug: "solenoid-valves",
     title: "Solenoid Valves",
-    description: "Electrically operated valves for fluid control automation. ASCO (Emerson) and Parker Hannifin models for air, water, steam, and various industrial fluids with direct acting and pilot operated designs.",
+    description:
+      "Electrically operated valves for fluid control automation. ASCO (Emerson) and Parker Hannifin models for air, water, steam, and various industrial fluids with direct acting and pilot operated designs.",
     subcategoryKey: "valves",
     image: "solenoid-valve",
-    featuredSpecs: ["manufacturer", "model", "portSize", "pressure"]
+    featuredSpecs: ["manufacturer", "model", "portSize", "pressure"],
   },
+
+  // Analyzers subcategory groups
   {
     key: "process-analyzers",
     slug: "process-analyzers",
@@ -233,7 +243,7 @@ export const productGroups: ProductGroup[] = [
     descriptionKey: "products:groups.processAnalyzers.description",
     subcategoryKey: "analyzers",
     image: "process-analyzer",
-    featuredSpecs: ["manufacturer", "model", "type"]
+    featuredSpecs: ["manufacturer", "model", "type"],
   },
   {
     key: "gas-analyzers",
@@ -242,7 +252,7 @@ export const productGroups: ProductGroup[] = [
     descriptionKey: "products:groups.gasAnalyzers.description",
     subcategoryKey: "analyzers",
     image: "gas-analyzer",
-    featuredSpecs: ["manufacturer", "model", "type"]
+    featuredSpecs: ["manufacturer", "model", "type"],
   },
   {
     key: "liquid-analyzers",
@@ -251,61 +261,67 @@ export const productGroups: ProductGroup[] = [
     descriptionKey: "products:groups.liquidAnalyzers.description",
     subcategoryKey: "analyzers",
     image: "liquid-analyzer",
-    featuredSpecs: ["manufacturer", "model", "type"]
+    featuredSpecs: ["manufacturer", "model", "type"],
   },
   {
     key: "oxygen-gas-analyzers",
     slug: "oxygen-gas-analyzers",
     title: "Oxygen (O2) Gas Analyzers",
-    description: "Precision oxygen analyzers for industrial process monitoring and safety applications. Electrochemical, paramagnetic, and optical technologies from leading manufacturers like Systech, Panametrics, and Endress+Hauser.",
+    description:
+      "Precision oxygen analyzers for industrial process monitoring and safety applications. Electrochemical, paramagnetic, and optical technologies from leading manufacturers like Systech, Panametrics, and Endress+Hauser.",
     subcategoryKey: "analyzers",
     image: "gas-analyzer",
-    featuredSpecs: ["manufacturer", "model", "technology", "range"]
+    featuredSpecs: ["manufacturer", "model", "technology", "range"],
   },
   {
     key: "nitrogen-gas-analyzers",
     slug: "nitrogen-gas-analyzers",
     title: "Nitrogen (N2) Gas Analyzers",
-    description: "Nitrogen gas analyzers using thermal conductivity and inert gas fusion technologies. LECO and HORIBA instruments for elemental analysis in metals and alloys with high precision measurement.",
+    description:
+      "Nitrogen gas analyzers using thermal conductivity and inert gas fusion technologies. LECO and HORIBA instruments for elemental analysis in metals and alloys with high precision measurement.",
     subcategoryKey: "analyzers",
     image: "gas-analyzer",
-    featuredSpecs: ["manufacturer", "model", "technology", "range"]
+    featuredSpecs: ["manufacturer", "model", "technology", "range"],
   },
   {
     key: "hydrogen-gas-analyzers",
     slug: "hydrogen-gas-analyzers",
     title: "Hydrogen (H2) Gas Analyzers",
-    description: "Hydrogen analyzers with thermal conductivity detection for binary mixture analysis and process monitoring. Nova Analytical and Endress+Hauser systems for safety and quality control applications.",
+    description:
+      "Hydrogen analyzers with thermal conductivity detection for binary mixture analysis and process monitoring. Nova Analytical and Endress+Hauser systems for safety and quality control applications.",
     subcategoryKey: "analyzers",
     image: "gas-analyzer",
-    featuredSpecs: ["manufacturer", "model", "technology", "range"]
+    featuredSpecs: ["manufacturer", "model", "technology", "range"],
   },
   {
     key: "carbon-dioxide-gas-analyzers",
     slug: "carbon-dioxide-gas-analyzers",
     title: "Carbon Dioxide (CO2) Gas Analyzers",
-    description: "CO2 analyzers using NDIR and TDLAS technologies for combustion control, food processing, and environmental monitoring. Range from ppm to percentage levels with high accuracy measurement.",
+    description:
+      "CO2 analyzers using NDIR and TDLAS technologies for combustion control, food processing, and environmental monitoring. Range from ppm to percentage levels with high accuracy measurement.",
     subcategoryKey: "analyzers",
     image: "gas-analyzer",
-    featuredSpecs: ["manufacturer", "model", "technology", "range"]
+    featuredSpecs: ["manufacturer", "model", "technology", "range"],
   },
   {
     key: "cod-analyzers",
     slug: "cod-analyzers",
     title: "COD Analyzers",
-    description: "Chemical Oxygen Demand analyzers for water quality testing and wastewater treatment monitoring. Hach, MANTECH, and LAR systems with automated analysis and regulatory compliance capabilities.",
+    description:
+      "Chemical Oxygen Demand analyzers for water quality testing and wastewater treatment monitoring. Hach, MANTECH, and LAR systems with automated analysis and regulatory compliance capabilities.",
     subcategoryKey: "analyzers",
     image: "liquid-analyzer",
-    featuredSpecs: ["manufacturer", "model", "method", "range"]
+    featuredSpecs: ["manufacturer", "model", "method", "range"],
   },
   {
     key: "bod-analyzers",
     slug: "bod-analyzers",
     title: "BOD Analyzers",
-    description: "Biochemical Oxygen Demand analyzers for organic pollution measurement in water samples. MANTECH, Hach, and YSI automated systems with optical DO sensors and temperature control.",
+    description:
+      "Biochemical Oxygen Demand analyzers for organic pollution measurement in water samples. MANTECH, Hach, and YSI automated systems with optical DO sensors and temperature control.",
     subcategoryKey: "analyzers",
     image: "liquid-analyzer",
-    featuredSpecs: ["manufacturer", "model", "bottles", "analysis"]
+    featuredSpecs: ["manufacturer", "model", "bottles", "analysis"],
   },
 
   // BLDC Motor Systems subcategory groups
@@ -316,7 +332,7 @@ export const productGroups: ProductGroup[] = [
     descriptionKey: "products:groups.standardCeilingFans.description",
     subcategoryKey: "bldc-ceiling-fan",
     image: "bldc-ceiling-fan",
-    featuredSpecs: ["power", "speed", "airflow"]
+    featuredSpecs: ["power", "speed", "airflow"],
   },
   {
     key: "premium-ceiling-fans",
@@ -325,7 +341,7 @@ export const productGroups: ProductGroup[] = [
     descriptionKey: "products:groups.premiumCeilingFans.description",
     subcategoryKey: "bldc-ceiling-fan",
     image: "bldc-ceiling-fan",
-    featuredSpecs: ["power", "speed", "airflow"]
+    featuredSpecs: ["power", "speed", "airflow"],
   },
   {
     key: "commercial-ceiling-fans",
@@ -334,7 +350,7 @@ export const productGroups: ProductGroup[] = [
     descriptionKey: "products:groups.commercialCeilingFans.description",
     subcategoryKey: "bldc-ceiling-fan",
     image: "bldc-ceiling-fan",
-    featuredSpecs: ["power", "speed", "airflow"]
+    featuredSpecs: ["power", "speed", "airflow"],
   },
   {
     key: "exhaust-fan-motors",
@@ -343,7 +359,7 @@ export const productGroups: ProductGroup[] = [
     descriptionKey: "products:groups.exhaustFanMotors.description",
     subcategoryKey: "bldc-cooler-exhaust-motor",
     image: "bldc-exhaust-motor",
-    featuredSpecs: ["power", "voltage", "efficiency"]
+    featuredSpecs: ["power", "voltage", "efficiency"],
   },
   {
     key: "cooler-motors",
@@ -352,7 +368,7 @@ export const productGroups: ProductGroup[] = [
     descriptionKey: "products:groups.coolerMotors.description",
     subcategoryKey: "bldc-cooler-exhaust-motor",
     image: "bldc-cooler-motor",
-    featuredSpecs: ["power", "voltage", "efficiency"]
+    featuredSpecs: ["power", "voltage", "efficiency"],
   },
   {
     key: "ventilation-motors",
@@ -361,7 +377,7 @@ export const productGroups: ProductGroup[] = [
     descriptionKey: "products:groups.ventilationMotors.description",
     subcategoryKey: "bldc-cooler-exhaust-motor",
     image: "bldc-ventilation-motor",
-    featuredSpecs: ["power", "voltage", "efficiency"]
+    featuredSpecs: ["power", "voltage", "efficiency"],
   },
   {
     key: "submersible-pumps",
@@ -370,7 +386,7 @@ export const productGroups: ProductGroup[] = [
     descriptionKey: "products:groups.submersiblePumps.description",
     subcategoryKey: "bldc-submersible-surface-pump",
     image: "bldc-submersible-pump",
-    featuredSpecs: ["power", "head", "flow"]
+    featuredSpecs: ["power", "head", "flow"],
   },
   {
     key: "surface-pumps",
@@ -379,7 +395,7 @@ export const productGroups: ProductGroup[] = [
     descriptionKey: "products:groups.surfacePumps.description",
     subcategoryKey: "bldc-submersible-surface-pump",
     image: "bldc-surface-pump",
-    featuredSpecs: ["power", "head", "flow"]
+    featuredSpecs: ["power", "head", "flow"],
   },
   {
     key: "hybrid-pumps",
@@ -388,7 +404,7 @@ export const productGroups: ProductGroup[] = [
     descriptionKey: "products:groups.hybridPumps.description",
     subcategoryKey: "bldc-submersible-surface-pump",
     image: "bldc-hybrid-pump",
-    featuredSpecs: ["power", "head", "flow"]
+    featuredSpecs: ["power", "head", "flow"],
   },
   {
     key: "table-fan-motors",
@@ -397,7 +413,7 @@ export const productGroups: ProductGroup[] = [
     descriptionKey: "products:groups.tableFanMotors.description",
     subcategoryKey: "bldc-table-fan-wall-fan-motor",
     image: "bldc-table-fan-motor",
-    featuredSpecs: ["power", "speed", "voltage"]
+    featuredSpecs: ["power", "speed", "voltage"],
   },
   {
     key: "wall-fan-motors",
@@ -406,7 +422,7 @@ export const productGroups: ProductGroup[] = [
     descriptionKey: "products:groups.wallFanMotors.description",
     subcategoryKey: "bldc-table-fan-wall-fan-motor",
     image: "bldc-wall-fan-motor",
-    featuredSpecs: ["power", "speed", "voltage"]
+    featuredSpecs: ["power", "speed", "voltage"],
   },
   {
     key: "pedestal-fan-motors",
@@ -415,7 +431,7 @@ export const productGroups: ProductGroup[] = [
     descriptionKey: "products:groups.pedestalFanMotors.description",
     subcategoryKey: "bldc-table-fan-wall-fan-motor",
     image: "bldc-pedestal-fan-motor",
-    featuredSpecs: ["power", "speed", "voltage"]
+    featuredSpecs: ["power", "speed", "voltage"],
   },
 
   // Electrical Components subcategory groups
@@ -426,7 +442,7 @@ export const productGroups: ProductGroup[] = [
     descriptionKey: "products:groups.powerCables.description",
     subcategoryKey: "cables-wires",
     image: "power-cable",
-    featuredSpecs: ["conductor", "voltage", "insulation"]
+    featuredSpecs: ["conductor", "voltage", "insulation"],
   },
   {
     key: "control-cables",
@@ -435,7 +451,7 @@ export const productGroups: ProductGroup[] = [
     descriptionKey: "products:groups.controlCables.description",
     subcategoryKey: "cables-wires",
     image: "control-cable",
-    featuredSpecs: ["conductor", "voltage", "shielding"]
+    featuredSpecs: ["conductor", "voltage", "shielding"],
   },
   {
     key: "instrumentation-cables",
@@ -444,7 +460,7 @@ export const productGroups: ProductGroup[] = [
     descriptionKey: "products:groups.instrumentationCables.description",
     subcategoryKey: "cables-wires",
     image: "instrumentation-cable",
-    featuredSpecs: ["conductor", "voltage", "shielding"]
+    featuredSpecs: ["conductor", "voltage", "shielding"],
   },
   {
     key: "terminal-blocks",
@@ -453,7 +469,7 @@ export const productGroups: ProductGroup[] = [
     descriptionKey: "products:groups.terminalBlocks.description",
     subcategoryKey: "connectors-terminals",
     image: "terminal-block",
-    featuredSpecs: ["current", "voltage", "connection"]
+    featuredSpecs: ["current", "voltage", "connection"],
   },
   {
     key: "electrical-connectors",
@@ -462,7 +478,7 @@ export const productGroups: ProductGroup[] = [
     descriptionKey: "products:groups.electricalConnectors.description",
     subcategoryKey: "connectors-terminals",
     image: "electrical-connector",
-    featuredSpecs: ["current", "voltage", "type"]
+    featuredSpecs: ["current", "voltage", "type"],
   },
   {
     key: "industrial-plugs",
@@ -471,7 +487,7 @@ export const productGroups: ProductGroup[] = [
     descriptionKey: "products:groups.industrialPlugs.description",
     subcategoryKey: "connectors-terminals",
     image: "industrial-plug",
-    featuredSpecs: ["current", "voltage", "protection"]
+    featuredSpecs: ["current", "voltage", "protection"],
   },
   {
     key: "miniature-circuit-breakers",
@@ -480,7 +496,7 @@ export const productGroups: ProductGroup[] = [
     descriptionKey: "products:groups.miniatureCircuitBreakers.description",
     subcategoryKey: "circuit-breakers-fuses",
     image: "mcb",
-    featuredSpecs: ["current", "voltage", "poles"]
+    featuredSpecs: ["current", "voltage", "poles"],
   },
   {
     key: "molded-case-breakers",
@@ -489,7 +505,7 @@ export const productGroups: ProductGroup[] = [
     descriptionKey: "products:groups.moldedCaseBreakers.description",
     subcategoryKey: "circuit-breakers-fuses",
     image: "mccb",
-    featuredSpecs: ["current", "voltage", "breaking"]
+    featuredSpecs: ["current", "voltage", "breaking"],
   },
   {
     key: "fuses-holders",
@@ -498,7 +514,7 @@ export const productGroups: ProductGroup[] = [
     descriptionKey: "products:groups.fusesHolders.description",
     subcategoryKey: "circuit-breakers-fuses",
     image: "fuse",
-    featuredSpecs: ["current", "voltage", "type"]
+    featuredSpecs: ["current", "voltage", "type"],
   },
   {
     key: "ac-dc-converters",
@@ -507,7 +523,7 @@ export const productGroups: ProductGroup[] = [
     descriptionKey: "products:groups.acDcConverters.description",
     subcategoryKey: "power-supplies",
     image: "ac-dc-converter",
-    featuredSpecs: ["input", "output", "power"]
+    featuredSpecs: ["input", "output", "power"],
   },
   {
     key: "dc-dc-converters",
@@ -516,7 +532,7 @@ export const productGroups: ProductGroup[] = [
     descriptionKey: "products:groups.dcDcConverters.description",
     subcategoryKey: "power-supplies",
     image: "dc-dc-converter",
-    featuredSpecs: ["input", "output", "power"]
+    featuredSpecs: ["input", "output", "power"],
   },
   {
     key: "ups-systems",
@@ -525,7 +541,7 @@ export const productGroups: ProductGroup[] = [
     descriptionKey: "products:groups.upsSystems.description",
     subcategoryKey: "power-supplies",
     image: "ups",
-    featuredSpecs: ["power", "backup", "efficiency"]
+    featuredSpecs: ["power", "backup", "efficiency"],
   },
   {
     key: "electrical-cabinets",
@@ -534,7 +550,7 @@ export const productGroups: ProductGroup[] = [
     descriptionKey: "products:groups.electricalCabinets.description",
     subcategoryKey: "enclosures-cabinets",
     image: "electrical-cabinet",
-    featuredSpecs: ["dimensions", "material", "protection"]
+    featuredSpecs: ["dimensions", "material", "protection"],
   },
   {
     key: "junction-boxes",
@@ -543,7 +559,7 @@ export const productGroups: ProductGroup[] = [
     descriptionKey: "products:groups.junctionBoxes.description",
     subcategoryKey: "enclosures-cabinets",
     image: "junction-box",
-    featuredSpecs: ["dimensions", "material", "protection"]
+    featuredSpecs: ["dimensions", "material", "protection"],
   },
   {
     key: "din-rail-enclosures",
@@ -552,7 +568,7 @@ export const productGroups: ProductGroup[] = [
     descriptionKey: "products:groups.dinRailEnclosures.description",
     subcategoryKey: "enclosures-cabinets",
     image: "din-rail-enclosure",
-    featuredSpecs: ["modules", "dimensions", "material"]
+    featuredSpecs: ["modules", "dimensions", "material"],
   },
   {
     key: "heating-coils",
@@ -561,7 +577,7 @@ export const productGroups: ProductGroup[] = [
     descriptionKey: "products:groups.heatingCoils.description",
     subcategoryKey: "heating-elements-appliances",
     image: "heating-coil",
-    featuredSpecs: ["power", "voltage", "temperature"]
+    featuredSpecs: ["power", "voltage", "temperature"],
   },
   {
     key: "heating-elements",
@@ -570,7 +586,7 @@ export const productGroups: ProductGroup[] = [
     descriptionKey: "products:groups.heatingElements.description",
     subcategoryKey: "heating-elements-appliances",
     image: "heating-element",
-    featuredSpecs: ["power", "voltage", "temperature"]
+    featuredSpecs: ["power", "voltage", "temperature"],
   },
   {
     key: "industrial-heaters",
@@ -579,7 +595,7 @@ export const productGroups: ProductGroup[] = [
     descriptionKey: "products:groups.industrialHeaters.description",
     subcategoryKey: "heating-elements-appliances",
     image: "industrial-heater",
-    featuredSpecs: ["power", "voltage", "application"]
+    featuredSpecs: ["power", "voltage", "application"],
   },
 
   // Industrial & Measuring Tools subcategory groups
@@ -590,7 +606,7 @@ export const productGroups: ProductGroup[] = [
     descriptionKey: "products:groups.digitalMultimeters.description",
     subcategoryKey: "multimeters",
     image: "digital-multimeter",
-    featuredSpecs: ["accuracy", "range", "features"]
+    featuredSpecs: ["accuracy", "range", "features"],
   },
   {
     key: "clamp-meters",
@@ -599,7 +615,7 @@ export const productGroups: ProductGroup[] = [
     descriptionKey: "products:groups.clampMeters.description",
     subcategoryKey: "multimeters",
     image: "clamp-meter",
-    featuredSpecs: ["current", "voltage", "jaw"]
+    featuredSpecs: ["current", "voltage", "jaw"],
   },
   {
     key: "bench-multimeters",
@@ -608,7 +624,7 @@ export const productGroups: ProductGroup[] = [
     descriptionKey: "products:groups.benchMultimeters.description",
     subcategoryKey: "multimeters",
     image: "bench-multimeter",
-    featuredSpecs: ["accuracy", "resolution", "features"]
+    featuredSpecs: ["accuracy", "resolution", "features"],
   },
   {
     key: "digital-oscilloscopes",
@@ -617,7 +633,7 @@ export const productGroups: ProductGroup[] = [
     descriptionKey: "products:groups.digitalOscilloscopes.description",
     subcategoryKey: "oscilloscopes",
     image: "digital-oscilloscope",
-    featuredSpecs: ["bandwidth", "channels", "sampling"]
+    featuredSpecs: ["bandwidth", "channels", "sampling"],
   },
   {
     key: "mixed-signal-oscilloscopes",
@@ -626,7 +642,7 @@ export const productGroups: ProductGroup[] = [
     descriptionKey: "products:groups.mixedSignalOscilloscopes.description",
     subcategoryKey: "oscilloscopes",
     image: "mixed-signal-oscilloscope",
-    featuredSpecs: ["bandwidth", "channels", "logic"]
+    featuredSpecs: ["bandwidth", "channels", "logic"],
   },
   {
     key: "portable-oscilloscopes",
@@ -635,7 +651,7 @@ export const productGroups: ProductGroup[] = [
     descriptionKey: "products:groups.portableOscilloscopes.description",
     subcategoryKey: "oscilloscopes",
     image: "portable-oscilloscope",
-    featuredSpecs: ["bandwidth", "battery", "size"]
+    featuredSpecs: ["bandwidth", "battery", "size"],
   },
   {
     key: "rf-spectrum-analyzers",
@@ -644,7 +660,7 @@ export const productGroups: ProductGroup[] = [
     descriptionKey: "products:groups.rfSpectrumAnalyzers.description",
     subcategoryKey: "spectrum-analyzers",
     image: "rf-spectrum-analyzer",
-    featuredSpecs: ["frequency", "resolution", "sensitivity"]
+    featuredSpecs: ["frequency", "resolution", "sensitivity"],
   },
   {
     key: "audio-spectrum-analyzers",
@@ -653,7 +669,7 @@ export const productGroups: ProductGroup[] = [
     descriptionKey: "products:groups.audioSpectrumAnalyzers.description",
     subcategoryKey: "spectrum-analyzers",
     image: "audio-spectrum-analyzer",
-    featuredSpecs: ["frequency", "dynamic", "channels"]
+    featuredSpecs: ["frequency", "dynamic", "channels"],
   },
   {
     key: "real-time-analyzers",
@@ -662,7 +678,7 @@ export const productGroups: ProductGroup[] = [
     descriptionKey: "products:groups.realTimeAnalyzers.description",
     subcategoryKey: "spectrum-analyzers",
     image: "real-time-analyzer",
-    featuredSpecs: ["bandwidth", "time", "resolution"]
+    featuredSpecs: ["bandwidth", "time", "resolution"],
   },
   {
     key: "power-meters",
@@ -671,7 +687,7 @@ export const productGroups: ProductGroup[] = [
     descriptionKey: "products:groups.powerMeters.description",
     subcategoryKey: "power-quality-analyzers",
     image: "power-meter",
-    featuredSpecs: ["accuracy", "phases", "parameters"]
+    featuredSpecs: ["accuracy", "phases", "parameters"],
   },
   {
     key: "harmonic-analyzers",
@@ -680,7 +696,7 @@ export const productGroups: ProductGroup[] = [
     descriptionKey: "products:groups.harmonicAnalyzers.description",
     subcategoryKey: "power-quality-analyzers",
     image: "harmonic-analyzer",
-    featuredSpecs: ["harmonics", "phases", "memory"]
+    featuredSpecs: ["harmonics", "phases", "memory"],
   },
   {
     key: "energy-loggers",
@@ -689,7 +705,7 @@ export const productGroups: ProductGroup[] = [
     descriptionKey: "products:groups.energyLoggers.description",
     subcategoryKey: "power-quality-analyzers",
     image: "energy-logger",
-    featuredSpecs: ["channels", "memory", "communication"]
+    featuredSpecs: ["channels", "memory", "communication"],
   },
   {
     key: "calibration-instruments",
@@ -698,7 +714,7 @@ export const productGroups: ProductGroup[] = [
     descriptionKey: "products:groups.calibrationInstruments.description",
     subcategoryKey: "calibration-equipment",
     image: "calibration-instrument",
-    featuredSpecs: ["accuracy", "range", "standards"]
+    featuredSpecs: ["accuracy", "range", "standards"],
   },
   {
     key: "calibration-standards",
@@ -707,7 +723,7 @@ export const productGroups: ProductGroup[] = [
     descriptionKey: "products:groups.calibrationStandards.description",
     subcategoryKey: "calibration-equipment",
     image: "calibration-standard",
-    featuredSpecs: ["accuracy", "stability", "traceability"]
+    featuredSpecs: ["accuracy", "stability", "traceability"],
   },
   {
     key: "test-equipment",
@@ -716,7 +732,7 @@ export const productGroups: ProductGroup[] = [
     descriptionKey: "products:groups.testEquipment.description",
     subcategoryKey: "calibration-equipment",
     image: "test-equipment",
-    featuredSpecs: ["function", "accuracy", "portability"]
+    featuredSpecs: ["function", "accuracy", "portability"],
   },
   {
     key: "mechanical-tools",
@@ -725,7 +741,7 @@ export const productGroups: ProductGroup[] = [
     descriptionKey: "products:groups.mechanicalTools.description",
     subcategoryKey: "hand-tools",
     image: "mechanical-tools",
-    featuredSpecs: ["material", "size", "application"]
+    featuredSpecs: ["material", "size", "application"],
   },
   {
     key: "electrical-tools",
@@ -734,7 +750,7 @@ export const productGroups: ProductGroup[] = [
     descriptionKey: "products:groups.electricalTools.description",
     subcategoryKey: "hand-tools",
     image: "electrical-tools",
-    featuredSpecs: ["insulation", "voltage", "material"]
+    featuredSpecs: ["insulation", "voltage", "material"],
   },
   {
     key: "precision-tools",
@@ -743,7 +759,7 @@ export const productGroups: ProductGroup[] = [
     descriptionKey: "products:groups.precisionTools.description",
     subcategoryKey: "hand-tools",
     image: "precision-tools",
-    featuredSpecs: ["tolerance", "material", "accuracy"]
+    featuredSpecs: ["tolerance", "material", "accuracy"],
   },
   {
     key: "electric-drills",
@@ -752,7 +768,7 @@ export const productGroups: ProductGroup[] = [
     descriptionKey: "products:groups.electricDrills.description",
     subcategoryKey: "power-tools",
     image: "electric-drill",
-    featuredSpecs: ["power", "chuck", "speed"]
+    featuredSpecs: ["power", "chuck", "speed"],
   },
   {
     key: "angle-grinders",
@@ -761,7 +777,7 @@ export const productGroups: ProductGroup[] = [
     descriptionKey: "products:groups.angleGrinders.description",
     subcategoryKey: "power-tools",
     image: "angle-grinder",
-    featuredSpecs: ["power", "disc", "speed"]
+    featuredSpecs: ["power", "disc", "speed"],
   },
   {
     key: "impact-drivers",
@@ -770,7 +786,7 @@ export const productGroups: ProductGroup[] = [
     descriptionKey: "products:groups.impactDrivers.description",
     subcategoryKey: "power-tools",
     image: "impact-driver",
-    featuredSpecs: ["torque", "power", "battery"]
+    featuredSpecs: ["torque", "power", "battery"],
   },
   {
     key: "cutting-blades",
@@ -779,7 +795,7 @@ export const productGroups: ProductGroup[] = [
     descriptionKey: "products:groups.cuttingBlades.description",
     subcategoryKey: "cutting-tools",
     image: "cutting-blade",
-    featuredSpecs: ["material", "diameter", "thickness"]
+    featuredSpecs: ["material", "diameter", "thickness"],
   },
   {
     key: "drill-bits",
@@ -788,7 +804,7 @@ export const productGroups: ProductGroup[] = [
     descriptionKey: "products:groups.drillBits.description",
     subcategoryKey: "cutting-tools",
     image: "drill-bit",
-    featuredSpecs: ["material", "diameter", "coating"]
+    featuredSpecs: ["material", "diameter", "coating"],
   },
   {
     key: "milling-cutters",
@@ -797,7 +813,7 @@ export const productGroups: ProductGroup[] = [
     descriptionKey: "products:groups.millingCutters.description",
     subcategoryKey: "cutting-tools",
     image: "milling-cutter",
-    featuredSpecs: ["material", "diameter", "flutes"]
+    featuredSpecs: ["material", "diameter", "flutes"],
   },
   {
     key: "chain-hoists",
@@ -806,7 +822,7 @@ export const productGroups: ProductGroup[] = [
     descriptionKey: "products:groups.chainHoists.description",
     subcategoryKey: "lifting-equipment",
     image: "chain-hoist",
-    featuredSpecs: ["capacity", "lift", "operation"]
+    featuredSpecs: ["capacity", "lift", "operation"],
   },
   {
     key: "wire-rope-hoists",
@@ -815,7 +831,7 @@ export const productGroups: ProductGroup[] = [
     descriptionKey: "products:groups.wireRopeHoists.description",
     subcategoryKey: "lifting-equipment",
     image: "wire-rope-hoist",
-    featuredSpecs: ["capacity", "lift", "speed"]
+    featuredSpecs: ["capacity", "lift", "speed"],
   },
   {
     key: "jib-cranes",
@@ -824,7 +840,7 @@ export const productGroups: ProductGroup[] = [
     descriptionKey: "products:groups.jibCranes.description",
     subcategoryKey: "lifting-equipment",
     image: "jib-crane",
-    featuredSpecs: ["capacity", "reach", "rotation"]
+    featuredSpecs: ["capacity", "reach", "rotation"],
   },
   {
     key: "personal-protective-equipment",
@@ -833,7 +849,7 @@ export const productGroups: ProductGroup[] = [
     descriptionKey: "products:groups.personalProtectiveEquipment.description",
     subcategoryKey: "safety-equipment",
     image: "ppe",
-    featuredSpecs: ["standard", "material", "protection"]
+    featuredSpecs: ["standard", "material", "protection"],
   },
   {
     key: "safety-barriers",
@@ -842,7 +858,7 @@ export const productGroups: ProductGroup[] = [
     descriptionKey: "products:groups.safetyBarriers.description",
     subcategoryKey: "safety-equipment",
     image: "safety-barrier",
-    featuredSpecs: ["height", "material", "application"]
+    featuredSpecs: ["height", "material", "application"],
   },
   {
     key: "emergency-equipment",
@@ -851,7 +867,7 @@ export const productGroups: ProductGroup[] = [
     descriptionKey: "products:groups.emergencyEquipment.description",
     subcategoryKey: "safety-equipment",
     image: "emergency-equipment",
-    featuredSpecs: ["type", "capacity", "standards"]
+    featuredSpecs: ["type", "capacity", "standards"],
   },
 
   // Solar Products subcategory groups
@@ -862,7 +878,7 @@ export const productGroups: ProductGroup[] = [
     descriptionKey: "products:groups.monocrystallinePanels.description",
     subcategoryKey: "solar-panels",
     image: "monocrystalline-panel",
-    featuredSpecs: ["power", "efficiency", "voltage"]
+    featuredSpecs: ["power", "efficiency", "voltage"],
   },
   {
     key: "polycrystalline-panels",
@@ -871,7 +887,7 @@ export const productGroups: ProductGroup[] = [
     descriptionKey: "products:groups.polycrystallinePanels.description",
     subcategoryKey: "solar-panels",
     image: "polycrystalline-panel",
-    featuredSpecs: ["power", "efficiency", "voltage"]
+    featuredSpecs: ["power", "efficiency", "voltage"],
   },
   {
     key: "thin-film-panels",
@@ -880,7 +896,7 @@ export const productGroups: ProductGroup[] = [
     descriptionKey: "products:groups.thinFilmPanels.description",
     subcategoryKey: "solar-panels",
     image: "thin-film-panel",
-    featuredSpecs: ["power", "efficiency", "technology"]
+    featuredSpecs: ["power", "efficiency", "technology"],
   },
   {
     key: "string-inverters",
@@ -889,7 +905,7 @@ export const productGroups: ProductGroup[] = [
     descriptionKey: "products:groups.stringInverters.description",
     subcategoryKey: "solar-inverters",
     image: "string-inverter",
-    featuredSpecs: ["power", "efficiency", "mppt"]
+    featuredSpecs: ["power", "efficiency", "mppt"],
   },
   {
     key: "micro-inverters",
@@ -898,7 +914,7 @@ export const productGroups: ProductGroup[] = [
     descriptionKey: "products:groups.microInverters.description",
     subcategoryKey: "solar-inverters",
     image: "micro-inverter",
-    featuredSpecs: ["power", "efficiency", "monitoring"]
+    featuredSpecs: ["power", "efficiency", "monitoring"],
   },
   {
     key: "power-optimizers",
@@ -907,7 +923,7 @@ export const productGroups: ProductGroup[] = [
     descriptionKey: "products:groups.powerOptimizers.description",
     subcategoryKey: "solar-inverters",
     image: "power-optimizer",
-    featuredSpecs: ["power", "efficiency", "monitoring"]
+    featuredSpecs: ["power", "efficiency", "monitoring"],
   },
 
   // Automation & Control Systems subcategory groups
@@ -918,7 +934,7 @@ export const productGroups: ProductGroup[] = [
     descriptionKey: "products:groups.modularPlcs.description",
     subcategoryKey: "plcs",
     image: "modular-plc",
-    featuredSpecs: ["io", "memory", "communication"]
+    featuredSpecs: ["io", "memory", "communication"],
   },
   {
     key: "compact-plcs",
@@ -927,7 +943,7 @@ export const productGroups: ProductGroup[] = [
     descriptionKey: "products:groups.compactPlcs.description",
     subcategoryKey: "plcs",
     image: "compact-plc",
-    featuredSpecs: ["io", "memory", "size"]
+    featuredSpecs: ["io", "memory", "size"],
   },
   {
     key: "micro-plcs",
@@ -936,7 +952,7 @@ export const productGroups: ProductGroup[] = [
     descriptionKey: "products:groups.microPlcs.description",
     subcategoryKey: "plcs",
     image: "micro-plc",
-    featuredSpecs: ["io", "memory", "applications"]
+    featuredSpecs: ["io", "memory", "applications"],
   },
   {
     key: "scada-software",
@@ -945,7 +961,7 @@ export const productGroups: ProductGroup[] = [
     descriptionKey: "products:groups.scadaSoftware.description",
     subcategoryKey: "scada",
     image: "scada-software",
-    featuredSpecs: ["tags", "clients", "features"]
+    featuredSpecs: ["tags", "clients", "features"],
   },
   {
     key: "scada-hardware",
@@ -954,7 +970,7 @@ export const productGroups: ProductGroup[] = [
     descriptionKey: "products:groups.scadaHardware.description",
     subcategoryKey: "scada",
     image: "scada-hardware",
-    featuredSpecs: ["performance", "redundancy", "connectivity"]
+    featuredSpecs: ["performance", "redundancy", "connectivity"],
   },
   {
     key: "scada-gateways",
@@ -963,7 +979,7 @@ export const productGroups: ProductGroup[] = [
     descriptionKey: "products:groups.scadaGateways.description",
     subcategoryKey: "scada",
     image: "scada-gateway",
-    featuredSpecs: ["protocols", "ports", "conversion"]
+    featuredSpecs: ["protocols", "ports", "conversion"],
   },
   {
     key: "dcs-controllers",
@@ -972,7 +988,7 @@ export const productGroups: ProductGroup[] = [
     descriptionKey: "products:groups.dcsControllers.description",
     subcategoryKey: "dcs",
     image: "dcs-controller",
-    featuredSpecs: ["io", "redundancy", "performance"]
+    featuredSpecs: ["io", "redundancy", "performance"],
   },
   {
     key: "dcs-operator-stations",
@@ -981,7 +997,7 @@ export const productGroups: ProductGroup[] = [
     descriptionKey: "products:groups.dcsOperatorStations.description",
     subcategoryKey: "dcs",
     image: "dcs-operator-station",
-    featuredSpecs: ["displays", "performance", "redundancy"]
+    featuredSpecs: ["displays", "performance", "redundancy"],
   },
   {
     key: "dcs-engineering-stations",
@@ -990,7 +1006,7 @@ export const productGroups: ProductGroup[] = [
     descriptionKey: "products:groups.dcsEngineeringStations.description",
     subcategoryKey: "dcs",
     image: "dcs-engineering-station",
-    featuredSpecs: ["software", "performance", "tools"]
+    featuredSpecs: ["software", "performance", "tools"],
   },
   {
     key: "touchscreen-hmis",
@@ -999,7 +1015,7 @@ export const productGroups: ProductGroup[] = [
     descriptionKey: "products:groups.touchscreenHmis.description",
     subcategoryKey: "hmi",
     image: "touchscreen-hmi",
-    featuredSpecs: ["size", "resolution", "communication"]
+    featuredSpecs: ["size", "resolution", "communication"],
   },
   {
     key: "panel-mount-hmis",
@@ -1008,7 +1024,7 @@ export const productGroups: ProductGroup[] = [
     descriptionKey: "products:groups.panelMountHmis.description",
     subcategoryKey: "hmi",
     image: "panel-mount-hmi",
-    featuredSpecs: ["size", "resolution", "mounting"]
+    featuredSpecs: ["size", "resolution", "mounting"],
   },
   {
     key: "mobile-hmis",
@@ -1017,7 +1033,7 @@ export const productGroups: ProductGroup[] = [
     descriptionKey: "products:groups.mobileHmis.description",
     subcategoryKey: "hmi",
     image: "mobile-hmi",
-    featuredSpecs: ["size", "battery", "connectivity"]
+    featuredSpecs: ["size", "battery", "connectivity"],
   },
 
   // Safety & Protective Devices subcategory groups
@@ -1028,7 +1044,7 @@ export const productGroups: ProductGroup[] = [
     descriptionKey: "products:groups.safetyRelays.description",
     subcategoryKey: "safety-relays-switches",
     image: "safety-relay",
-    featuredSpecs: ["safety", "contacts", "monitoring"]
+    featuredSpecs: ["safety", "contacts", "monitoring"],
   },
   {
     key: "emergency-stops",
@@ -1037,7 +1053,7 @@ export const productGroups: ProductGroup[] = [
     descriptionKey: "products:groups.emergencyStops.description",
     subcategoryKey: "safety-relays-switches",
     image: "emergency-stop",
-    featuredSpecs: ["contacts", "operation", "standards"]
+    featuredSpecs: ["contacts", "operation", "standards"],
   },
   {
     key: "safety-switches",
@@ -1046,7 +1062,7 @@ export const productGroups: ProductGroup[] = [
     descriptionKey: "products:groups.safetySwitches.description",
     subcategoryKey: "safety-relays-switches",
     image: "safety-switch",
-    featuredSpecs: ["safety", "operation", "environment"]
+    featuredSpecs: ["safety", "operation", "environment"],
   },
   {
     key: "explosion-proof-equipment",
@@ -1055,7 +1071,7 @@ export const productGroups: ProductGroup[] = [
     descriptionKey: "products:groups.explosionProofEquipment.description",
     subcategoryKey: "intrinsically-safe-equipment",
     image: "explosion-proof",
-    featuredSpecs: ["certification", "class", "temperature"]
+    featuredSpecs: ["certification", "class", "temperature"],
   },
   {
     key: "intrinsically-safe-barriers",
@@ -1064,7 +1080,7 @@ export const productGroups: ProductGroup[] = [
     descriptionKey: "products:groups.intrinsicallySafeBarriers.description",
     subcategoryKey: "intrinsically-safe-equipment",
     image: "is-barrier",
-    featuredSpecs: ["channels", "power", "certification"]
+    featuredSpecs: ["channels", "power", "certification"],
   },
   {
     key: "is-field-devices",
@@ -1073,7 +1089,7 @@ export const productGroups: ProductGroup[] = [
     descriptionKey: "products:groups.isFieldDevices.description",
     subcategoryKey: "intrinsically-safe-equipment",
     image: "is-field-device",
-    featuredSpecs: ["function", "power", "certification"]
+    featuredSpecs: ["function", "power", "certification"],
   },
   {
     key: "ac-surge-protectors",
@@ -1082,7 +1098,7 @@ export const productGroups: ProductGroup[] = [
     descriptionKey: "products:groups.acSurgeProtectors.description",
     subcategoryKey: "surge-protectors",
     image: "ac-surge-protector",
-    featuredSpecs: ["voltage", "current", "energy"]
+    featuredSpecs: ["voltage", "current", "energy"],
   },
   {
     key: "dc-surge-protectors",
@@ -1091,7 +1107,7 @@ export const productGroups: ProductGroup[] = [
     descriptionKey: "products:groups.dcSurgeProtectors.description",
     subcategoryKey: "surge-protectors",
     image: "dc-surge-protector",
-    featuredSpecs: ["voltage", "current", "energy"]
+    featuredSpecs: ["voltage", "current", "energy"],
   },
   {
     key: "signal-surge-protectors",
@@ -1100,7 +1116,7 @@ export const productGroups: ProductGroup[] = [
     descriptionKey: "products:groups.signalSurgeProtectors.description",
     subcategoryKey: "surge-protectors",
     image: "signal-surge-protector",
-    featuredSpecs: ["signal", "protection", "frequency"]
+    featuredSpecs: ["signal", "protection", "frequency"],
   },
   {
     key: "equipment-grounding",
@@ -1109,7 +1125,7 @@ export const productGroups: ProductGroup[] = [
     descriptionKey: "products:groups.equipmentGrounding.description",
     subcategoryKey: "grounding-systems",
     image: "equipment-grounding",
-    featuredSpecs: ["material", "resistance", "application"]
+    featuredSpecs: ["material", "resistance", "application"],
   },
   {
     key: "system-grounding",
@@ -1118,7 +1134,7 @@ export const productGroups: ProductGroup[] = [
     descriptionKey: "products:groups.systemGrounding.description",
     subcategoryKey: "grounding-systems",
     image: "system-grounding",
-    featuredSpecs: ["material", "resistance", "configuration"]
+    featuredSpecs: ["material", "resistance", "configuration"],
   },
   {
     key: "lightning-protection",
@@ -1127,7 +1143,7 @@ export const productGroups: ProductGroup[] = [
     descriptionKey: "products:groups.lightningProtection.description",
     subcategoryKey: "grounding-systems",
     image: "lightning-protection",
-    featuredSpecs: ["current", "material", "height"]
+    featuredSpecs: ["current", "material", "height"],
   },
 
   // Mechanical Pumps & Spares subcategory groups
@@ -1138,7 +1154,7 @@ export const productGroups: ProductGroup[] = [
     descriptionKey: "products:groups.singleStageCentrifugal.description",
     subcategoryKey: "centrifugal-pumps",
     image: "single-stage-centrifugal",
-    featuredSpecs: ["flow", "head", "power"]
+    featuredSpecs: ["flow", "head", "power"],
   },
   {
     key: "multi-stage-centrifugal",
@@ -1147,7 +1163,7 @@ export const productGroups: ProductGroup[] = [
     descriptionKey: "products:groups.multiStageCentrifugal.description",
     subcategoryKey: "centrifugal-pumps",
     image: "multi-stage-centrifugal",
-    featuredSpecs: ["flow", "head", "stages"]
+    featuredSpecs: ["flow", "head", "stages"],
   },
   {
     key: "vertical-centrifugal",
@@ -1156,7 +1172,7 @@ export const productGroups: ProductGroup[] = [
     descriptionKey: "products:groups.verticalCentrifugal.description",
     subcategoryKey: "centrifugal-pumps",
     image: "vertical-centrifugal",
-    featuredSpecs: ["flow", "head", "installation"]
+    featuredSpecs: ["flow", "head", "installation"],
   },
   {
     key: "air-operated-diaphragm",
@@ -1165,7 +1181,7 @@ export const productGroups: ProductGroup[] = [
     descriptionKey: "products:groups.airOperatedDiaphragm.description",
     subcategoryKey: "diaphragm-pumps",
     image: "air-operated-diaphragm",
-    featuredSpecs: ["flow", "pressure", "material"]
+    featuredSpecs: ["flow", "pressure", "material"],
   },
   {
     key: "electric-diaphragm",
@@ -1174,7 +1190,7 @@ export const productGroups: ProductGroup[] = [
     descriptionKey: "products:groups.electricDiaphragm.description",
     subcategoryKey: "diaphragm-pumps",
     image: "electric-diaphragm",
-    featuredSpecs: ["flow", "pressure", "power"]
+    featuredSpecs: ["flow", "pressure", "power"],
   },
   {
     key: "hydraulic-diaphragm",
@@ -1183,7 +1199,7 @@ export const productGroups: ProductGroup[] = [
     descriptionKey: "products:groups.hydraulicDiaphragm.description",
     subcategoryKey: "diaphragm-pumps",
     image: "hydraulic-diaphragm",
-    featuredSpecs: ["flow", "pressure", "hydraulic"]
+    featuredSpecs: ["flow", "pressure", "hydraulic"],
   },
   {
     key: "external-gear-pumps",
@@ -1192,7 +1208,7 @@ export const productGroups: ProductGroup[] = [
     descriptionKey: "products:groups.externalGearPumps.description",
     subcategoryKey: "gear-pumps",
     image: "external-gear-pump",
-    featuredSpecs: ["flow", "pressure", "viscosity"]
+    featuredSpecs: ["flow", "pressure", "viscosity"],
   },
   {
     key: "internal-gear-pumps",
@@ -1201,7 +1217,7 @@ export const productGroups: ProductGroup[] = [
     descriptionKey: "products:groups.internalGearPumps.description",
     subcategoryKey: "gear-pumps",
     image: "internal-gear-pump",
-    featuredSpecs: ["flow", "pressure", "viscosity"]
+    featuredSpecs: ["flow", "pressure", "viscosity"],
   },
   {
     key: "magnetic-gear-pumps",
@@ -1210,7 +1226,7 @@ export const productGroups: ProductGroup[] = [
     descriptionKey: "products:groups.magneticGearPumps.description",
     subcategoryKey: "gear-pumps",
     image: "magnetic-gear-pump",
-    featuredSpecs: ["flow", "pressure", "sealing"]
+    featuredSpecs: ["flow", "pressure", "sealing"],
   },
   {
     key: "impellers-casings",
@@ -1219,7 +1235,7 @@ export const productGroups: ProductGroup[] = [
     descriptionKey: "products:groups.impellersCasings.description",
     subcategoryKey: "pump-parts-spares",
     image: "impeller-casing",
-    featuredSpecs: ["material", "size", "compatibility"]
+    featuredSpecs: ["material", "size", "compatibility"],
   },
   {
     key: "seals-gaskets",
@@ -1228,7 +1244,7 @@ export const productGroups: ProductGroup[] = [
     descriptionKey: "products:groups.sealsGaskets.description",
     subcategoryKey: "pump-parts-spares",
     image: "seal-gasket",
-    featuredSpecs: ["material", "temperature", "pressure"]
+    featuredSpecs: ["material", "temperature", "pressure"],
   },
   {
     key: "bearings-couplings",
@@ -1237,8 +1253,8 @@ export const productGroups: ProductGroup[] = [
     descriptionKey: "products:groups.bearingsCouplings.description",
     subcategoryKey: "pump-parts-spares",
     image: "bearing-coupling",
-    featuredSpecs: ["type", "load", "speed"]
-  }
+    featuredSpecs: ["type", "load", "speed"],
+  },
 ];
 
 // Product definitions
@@ -1252,13 +1268,14 @@ export const products: Product[] = [
     typeKey: "pressure-switches",
     image: "pressure-switch",
     title: "Danfoss KP36 Pressure Switch",
-    description: "Industrial pressure switch with snap-action electrical contacts for reliable operation in steam, air, and liquid media applications.",
+    description:
+      "Industrial pressure switch with snap-action electrical contacts for reliable operation in steam, air, and liquid media applications.",
     features: [
       "SPDT contact system for reliable switching",
       "Manual trip function for testing",
       "Operating temperature: -40°F to 175°F",
       "Adjustable differential pressure settings",
-      "Suitable for gaseous and liquid media"
+      "Suitable for gaseous and liquid media",
     ],
     specs: {
       manufacturer: "Danfoss",
@@ -1267,35 +1284,36 @@ export const products: Product[] = [
       temperature: "-40°F to 175°F (-40°C to 79°C)",
       contacts: "SPDT",
       resetType: "Automatic/Manual",
-      connection: "1/4\" NPT",
-      media: "Steam, Air, Liquid"
-    }
+      connection: '1/4" NPT',
+      media: "Steam, Air, Liquid",
+    },
   },
   {
     id: "schneider-9013fsg2j24m4",
     slug: "schneider-9013fsg2j24m4-pumptrol",
-    categoryKey: "instrumentation-components", 
+    categoryKey: "instrumentation-components",
     subcategoryKey: "switches",
     typeKey: "pressure-switches",
     image: "pressure-switch",
     title: "Schneider Electric 9013FSG2J24M4 Pumptrol Switch",
-    description: "Square D Pumptrol pressure switch with low-pressure cut-off for pump applications up to 1.5 HP.",
+    description:
+      "Square D Pumptrol pressure switch with low-pressure cut-off for pump applications up to 1.5 HP.",
     features: [
       "40-60 PSI pressure setting",
       "15-30 PSI adjustable differential",
       "Low-pressure cut-off protection",
       "NEMA 1/IP20 enclosure",
-      "UL Listed, CSA Certified"
+      "UL Listed, CSA Certified",
     ],
     specs: {
       manufacturer: "Schneider Electric",
       model: "9013FSG2J24M4",
       pressureRange: "20-65 PSI",
       differential: "15-30 PSI",
-      connection: "1/4\" NPSF",
+      connection: '1/4" NPSF',
       enclosure: "NEMA 1/IP20",
-      application: "Pumps ≤1.5 HP"
-    }
+      application: "Pumps ≤1.5 HP",
+    },
   },
 
   // LEVEL SWITCHES - Real Manufacturer Products
@@ -1307,13 +1325,14 @@ export const products: Product[] = [
     typeKey: "level-switches",
     image: "level-switch",
     title: "Endress+Hauser FTL31 Liquiphant Level Switch",
-    description: "Tuning fork point-level switch for liquid level detection with active sensor technology for overfill prevention and pump protection.",
+    description:
+      "Tuning fork point-level switch for liquid level detection with active sensor technology for overfill prevention and pump protection.",
     features: [
       "Tuning fork technology with piezoelectric drive",
       "Active sensor technology ensures device functionality",
       "No adjustment needed for different media",
       "G1 process connection thread",
-      "Over 6 million installed worldwide"
+      "Over 6 million installed worldwide",
     ],
     specs: {
       manufacturer: "Endress+Hauser",
@@ -1322,24 +1341,25 @@ export const products: Product[] = [
       supplyVoltage: "10-30 VDC",
       processConnection: "G1 thread",
       application: "Overfill prevention, Pump protection",
-      mediaType: "Liquids"
-    }
+      mediaType: "Liquids",
+    },
   },
   {
     id: "abb-ls-series",
     slug: "abb-ls-series-mechanical",
     categoryKey: "instrumentation-components",
-    subcategoryKey: "switches", 
+    subcategoryKey: "switches",
     typeKey: "level-switches",
     image: "level-switch",
     title: "ABB LS Series Mechanical Level Switch",
-    description: "Rugged mechanical float level switch with hermetically sealed switching mechanism for reliable liquid point-level detection.",
+    description:
+      "Rugged mechanical float level switch with hermetically sealed switching mechanism for reliable liquid point-level detection.",
     features: [
       "Most rugged design in industrial marketplace",
       "One-step switch point adjustment",
       "Hermetically sealed dual compartment switching",
       "Available in flanged or insertion models",
-      "Over 100 configurations available"
+      "Over 100 configurations available",
     ],
     specs: {
       manufacturer: "ABB",
@@ -1348,26 +1368,27 @@ export const products: Product[] = [
       contactType: "SPDT",
       application: "Liquid level detection",
       mounting: "Flanged/Insertion",
-      configurations: "100+"
-    }
+      configurations: "100+",
+    },
   },
 
-  // LIMIT SWITCHES - Real Manufacturer Products  
+  // LIMIT SWITCHES - Real Manufacturer Products
   {
     id: "omron-wlca12-y",
     slug: "omron-wlca12-y-limit-switch",
     categoryKey: "instrumentation-components",
     subcategoryKey: "switches",
-    typeKey: "limit-switches", 
+    typeKey: "limit-switches",
     image: "limit-switch",
     title: "Omron WLCA12-Y Heavy-Duty Limit Switch",
-    description: "Heavy-duty roller lever limit switch with IP67 rating and die-cast metal housing for harsh industrial environments.",
+    description:
+      "Heavy-duty roller lever limit switch with IP67 rating and die-cast metal housing for harsh industrial environments.",
     features: [
-      "Die-cast metal housing for durability", 
+      "Die-cast metal housing for durability",
       "IP67 environmental protection rating",
       "Adjustable roller lever actuator",
       "Snap-action switching mechanism",
-      "Suitable for automation-heavy industries"
+      "Suitable for automation-heavy industries",
     ],
     specs: {
       manufacturer: "Omron",
@@ -1376,8 +1397,8 @@ export const products: Product[] = [
       ipRating: "IP67",
       currentRating: "10A",
       voltageRating: "500V AC",
-      actuatorType: "Adjustable roller lever"
-    }
+      actuatorType: "Adjustable roller lever",
+    },
   },
   {
     id: "schneider-xcmd21f0l1",
@@ -1385,15 +1406,16 @@ export const products: Product[] = [
     categoryKey: "instrumentation-components",
     subcategoryKey: "switches",
     typeKey: "limit-switches",
-    image: "limit-switch", 
+    image: "limit-switch",
     title: "Schneider Electric XCMD21F0L1 OsiSense Limit Switch",
-    description: "Standard format limit switch from the OsiSense XC range with flexible roller lever actuator for industrial automation.",
+    description:
+      "Standard format limit switch from the OsiSense XC range with flexible roller lever actuator for industrial automation.",
     features: [
       "Standard format industrial design",
       "Flexible roller lever actuator",
       "Part of OsiSense XC Standard range",
       "Comprehensive accessory ecosystem",
-      "Reliable snap-action operation"
+      "Reliable snap-action operation",
     ],
     specs: {
       manufacturer: "Schneider Electric",
@@ -1402,8 +1424,8 @@ export const products: Product[] = [
       actuatorType: "Flexible roller lever",
       contactConfig: "1NO + 1NC",
       currentRating: "10A",
-      voltageRating: "240V AC"
-    }
+      voltageRating: "240V AC",
+    },
   },
 
   // PUSH BUTTONS - Real Manufacturer Products
@@ -1415,103 +1437,107 @@ export const products: Product[] = [
     typeKey: "push-buttons",
     image: "push-button",
     title: "Schneider Electric XB4BA21 Harmony Push Button",
-    description: "22mm metal push button with chromium-plated bezel from the Harmony XB4 series for industrial control panels.",
+    description:
+      "22mm metal push button with chromium-plated bezel from the Harmony XB4 series for industrial control panels.",
     features: [
       "22mm metal construction",
       "Chromium-plated bezel for durability",
       "Automatic self-grounding design",
       "Modular system with interchangeable components",
-      "FINGERSAFE™ contact blocks"
+      "FINGERSAFE™ contact blocks",
     ],
     specs: {
-      manufacturer: "Schneider Electric", 
+      manufacturer: "Schneider Electric",
       model: "XB4BA21",
       series: "Harmony XB4",
       size: "22mm",
       construction: "Metal, chromium-plated",
       contactType: "1NO + 1NC",
-      ipRating: "IP66/IP67"
-    }
+      ipRating: "IP66/IP67",
+    },
   },
   {
     id: "eaton-m22-dr-r",
     slug: "eaton-m22-dr-r-pushbutton",
     categoryKey: "instrumentation-components",
-    subcategoryKey: "switches", 
+    subcategoryKey: "switches",
     typeKey: "push-buttons",
     image: "push-button",
     title: "Eaton M22-DR-R Emergency Stop Push Button",
-    description: "22mm emergency stop push button with red mushroom head and twist-to-release mechanism for safety applications.",
+    description:
+      "22mm emergency stop push button with red mushroom head and twist-to-release mechanism for safety applications.",
     features: [
       "22mm modular design",
       "Red mushroom head for emergency stop",
       "Twist-to-release mechanism",
-      "IP65/66/67 protection ratings", 
-      "Suitable for light industrial applications"
+      "IP65/66/67 protection ratings",
+      "Suitable for light industrial applications",
     ],
     specs: {
       manufacturer: "Eaton",
-      model: "M22-DR-R", 
+      model: "M22-DR-R",
       series: "M22 Modular",
       size: "22mm",
       buttonType: "Emergency stop, twist-to-release",
       color: "Red",
-      ipRating: "IP65/66/67"
-    }
+      ipRating: "IP65/66/67",
+    },
   },
 
   // CONTROL VALVES - Real Manufacturer Products
   {
     id: "fisher-ed-control-valve",
-    slug: "fisher-ed-easye-control-valve", 
+    slug: "fisher-ed-easye-control-valve",
     categoryKey: "instrumentation-components",
     subcategoryKey: "valves",
     typeKey: "control-valves",
     image: "control-valve",
     title: "Fisher easy-e™ ED Globe Control Valve",
-    description: "Balanced valve plug globe control valve with cage guiding and metal-to-metal seating for reliable process control.",
+    description:
+      "Balanced valve plug globe control valve with cage guiding and metal-to-metal seating for reliable process control.",
     features: [
       "Balanced valve plug design",
       "Cage guiding for precise control",
       "Metal-to-metal seating",
       "Digital valve positioner ready",
-      "HART communication compatible"
+      "HART communication compatible",
     ],
     specs: {
       manufacturer: "Fisher (Emerson)",
       model: "easy-e™ ED",
       valveType: "Globe, balanced plug",
-      sizeRange: "NPS 1/2\" through 8\"",
+      sizeRange: 'NPS 1/2" through 8"',
       cvValue: "0.1 to 2500",
       pressureRating: "ANSI 150-2500",
-      materials: "Carbon steel to exotic alloys"
-    }
+      materials: "Carbon steel to exotic alloys",
+    },
   },
   {
     id: "samson-3241-globe-valve",
     slug: "samson-3241-pneumatic-globe-valve",
     categoryKey: "instrumentation-components",
     subcategoryKey: "valves",
-    typeKey: "control-valves", 
+    typeKey: "control-valves",
     image: "control-valve",
     title: "SAMSON Type 3241 Globe Control Valve",
-    description: "Industrial pneumatic globe valve for process engineering with modular design and exchangeable trims for different flow characteristics.",
+    description:
+      "Industrial pneumatic globe valve for process engineering with modular design and exchangeable trims for different flow characteristics.",
     features: [
       "Modular globe valve design",
-      "Exchangeable trims for flow characteristics", 
+      "Exchangeable trims for flow characteristics",
       "Class VI (IEC: IV-S2) sealing",
       "SAM DIGITAL ready with predictive diagnostics",
-      "HART, Foundation Fieldbus communication"
+      "HART, Foundation Fieldbus communication",
     ],
     specs: {
       manufacturer: "SAMSON",
       model: "Type 3241",
       valveType: "Globe, pneumatic",
-      sizeRange: "1/2\" to 10\" (15-250mm)",
+      sizeRange: '1/2" to 10" (15-250mm)',
       materials: "AISI 316Ti, Hastelloy C, Stellite 6",
       leakageClass: "Class VI (IEC: IV-S2)",
-      communication: "HART, Foundation Fieldbus"
-    }
+      communication: "HART, Foundation Fieldbus",
+    },
   },
 
   // SOLENOID VALVES - Real Manufacturer Products
@@ -1523,50 +1549,52 @@ export const products: Product[] = [
     typeKey: "solenoid-valves",
     image: "solenoid-valve",
     title: "ASCO 8262H112DC24 General Service Solenoid Valve",
-    description: "2-way normally closed solenoid valve in stainless steel construction for air, water, light oil, and fuel gas applications.",
+    description:
+      "2-way normally closed solenoid valve in stainless steel construction for air, water, light oil, and fuel gas applications.",
     features: [
       "2-way normally closed operation",
-      "Stainless steel construction", 
+      "Stainless steel construction",
       "Suitable for multiple media types",
       "Direct acting or pilot operated",
-      "UL Listed and CSA Certified"
+      "UL Listed and CSA Certified",
     ],
     specs: {
       manufacturer: "ASCO (Emerson)",
       model: "8262H112DC24",
       series: "8262/8263",
-      portSize: "1/4\" NPT",
+      portSize: '1/4" NPT',
       voltage: "24V DC",
-      pressure: "0-125 PSI", 
+      pressure: "0-125 PSI",
       media: "Air, water, light oil, fuel gas",
-      construction: "Stainless steel"
-    }
+      construction: "Stainless steel",
+    },
   },
   {
     id: "parker-s4a-solenoid-valve",
     slug: "parker-s4a-refrigeration-solenoid-valve",
     categoryKey: "instrumentation-components",
-    subcategoryKey: "valves", 
+    subcategoryKey: "valves",
     typeKey: "solenoid-valves",
     image: "solenoid-valve",
     title: "Parker S4A Series Refrigeration Solenoid Valve",
-    description: "Solenoid valve designed for refrigeration and fluid control systems, compatible with multiple refrigerants and built for wide pressure ranges.",
+    description:
+      "Solenoid valve designed for refrigeration and fluid control systems, compatible with multiple refrigerants and built for wide pressure ranges.",
     features: [
       "Compatible with R410A, R448A, R449A, R450A, R507A",
       "Wide pressure range capability",
       "Compact and lightweight design",
       "Excellent flow control characteristics",
-      "Built for commercial refrigeration systems"
+      "Built for commercial refrigeration systems",
     ],
     specs: {
       manufacturer: "Parker Hannifin",
-      model: "S4A Series", 
+      model: "S4A Series",
       application: "Refrigeration, fluid control",
       refrigerants: "R410A, R448A, R449A, R450A, R507A",
       pressureRating: "Up to 700 PSI",
       temperatureRange: "-40°F to 120°F",
-      voltageOptions: "100-240 AC/DC, 24V AC/DC"
-    }
+      voltageOptions: "100-240 AC/DC, 24V AC/DC",
+    },
   },
 
   // BLDC Ceiling Fans - Extracted and improved from static pages
@@ -2154,7 +2182,7 @@ export const products: Product[] = [
   },
 
   // Instrumentation Components - Sensors
-  
+
   // PNP Proximity Sensors
   {
     id: "omron-e2e-x5me1-pnp-proximity",
@@ -2281,7 +2309,7 @@ export const products: Product[] = [
       accuracy: "Class A (±0.15°C at 0°C)",
       responseTime: "T90 < 8s",
       protectionRating: "IP65",
-      processConnection: "1/2\" NPT",
+      processConnection: '1/2" NPT',
       cableLength: "5m, 4-wire",
       certification: "CE, ATEX, IECEx",
     },
@@ -2306,7 +2334,7 @@ export const products: Product[] = [
       accuracy: "Class A (±0.3°C at 0°C)",
       responseTime: "T90 < 5s",
       protectionRating: "IP68",
-      processConnection: "1/4\" NPT",
+      processConnection: '1/4" NPT',
       cableLength: "10m, 3-wire",
       certification: "FM, CSA, ATEX",
     },
@@ -2614,7 +2642,7 @@ export const products: Product[] = [
       temperatureRange: "0-100°C",
       tempCompensation: "Automatic (NTC)",
       protectionRating: "IP68",
-      processConnection: "NPT 3/4\"",
+      processConnection: 'NPT 3/4"',
       cableLength: "15m",
       diaphragm: "Ceramic",
       electrolyte: "Liquid KCl",
@@ -2628,7 +2656,7 @@ export const products: Product[] = [
   },
 
   // Transmitters & Transducers
-  
+
   // P Type Transmitters (Pressure)
   {
     id: "siemens-sitrans-p320-pressure",
@@ -2881,7 +2909,7 @@ export const products: Product[] = [
       type: "Electromagnetic Flow Meter",
       manufacturer: "Endress+Hauser",
       model: "Promag W 400",
-      nominalDiameter: "DN15 to DN2000 (1/2\" to 78\")",
+      nominalDiameter: 'DN15 to DN2000 (1/2" to 78")',
       flowVelocity: "0.01 to 15 m/s",
       accuracy: "±0.2% of reading (±2 mm/s)",
       repeatability: "±0.05% of reading",
@@ -2911,7 +2939,7 @@ export const products: Product[] = [
       type: "Magnetic Flow Meter with Advanced Diagnostics",
       manufacturer: "Emerson/Rosemount",
       model: "8750W",
-      nominalDiameter: "DN15 to DN3000 (1/2\" to 120\")",
+      nominalDiameter: 'DN15 to DN3000 (1/2" to 120")',
       flowVelocity: "0.03 to 15 m/s",
       accuracy: "±0.25% of reading (±1.5 mm/s)",
       repeatability: "±0.05% of reading",
@@ -2941,7 +2969,7 @@ export const products: Product[] = [
       type: "Electromagnetic Flow Meter",
       manufacturer: "ABB",
       model: "ProcessMaster FEM300",
-      nominalDiameter: "DN10 to DN2000 (3/8\" to 78\")",
+      nominalDiameter: 'DN10 to DN2000 (3/8" to 78")',
       flowVelocity: "0.01 to 15 m/s",
       accuracy: "±0.2% of reading (±2 mm/s)",
       repeatability: "±0.05% of reading",
@@ -2971,7 +2999,7 @@ export const products: Product[] = [
       type: "Magnetic Flow Meter with Dual Frequency Excitation",
       manufacturer: "Yokogawa",
       model: "ADMAG AXF",
-      nominalDiameter: "DN10 to DN2000 (3/8\" to 78\")",
+      nominalDiameter: 'DN10 to DN2000 (3/8" to 78")',
       flowVelocity: "0.01 to 15 m/s",
       accuracy: "±0.25% of reading (±1.5 mm/s)",
       repeatability: "±0.05% of reading",
@@ -3003,7 +3031,7 @@ export const products: Product[] = [
       type: "Coriolis Mass Flow Meter",
       manufacturer: "Emerson/Micro Motion",
       model: "CMF300 with MVD Multi-Variable Transmitter",
-      nominalDiameter: "DN25 to DN300 (1\" to 12\")",
+      nominalDiameter: 'DN25 to DN300 (1" to 12")',
       flowRate: "0-2700 kg/min (depending on size)",
       accuracy: "±0.05% of reading (mass flow)",
       repeatability: "±0.02% of reading",
@@ -3033,7 +3061,7 @@ export const products: Product[] = [
       type: "Coriolis Mass Flow Meter",
       manufacturer: "Endress+Hauser",
       model: "Promass 83F",
-      nominalDiameter: "DN8 to DN300 (1/4\" to 12\")",
+      nominalDiameter: 'DN8 to DN300 (1/4" to 12")',
       flowRate: "0-2200 kg/min (depending on size)",
       accuracy: "±0.05% of reading (mass flow)",
       repeatability: "±0.02% of reading",
@@ -3063,7 +3091,7 @@ export const products: Product[] = [
       type: "Coriolis Mass Flow Meter",
       manufacturer: "ABB",
       model: "SensyFlow CMF300",
-      nominalDiameter: "DN15 to DN300 (1/2\" to 12\")",
+      nominalDiameter: 'DN15 to DN300 (1/2" to 12")',
       flowRate: "0-3000 kg/min (depending on size)",
       accuracy: "±0.05% of reading (mass flow)",
       repeatability: "±0.02% of reading",
@@ -3093,7 +3121,7 @@ export const products: Product[] = [
       type: "Coriolis Mass Flow Meter",
       manufacturer: "Yokogawa",
       model: "ROTAMASS RCCS33",
-      nominalDiameter: "DN6 to DN200 (1/4\" to 8\")",
+      nominalDiameter: 'DN6 to DN200 (1/4" to 8")',
       flowRate: "0-1800 kg/min (depending on size)",
       accuracy: "±0.05% of reading (mass flow)",
       repeatability: "±0.02% of reading",
@@ -3125,7 +3153,7 @@ export const products: Product[] = [
       type: "Vortex Flow Meter",
       manufacturer: "Endress+Hauser",
       model: "Prowirl F 200",
-      nominalDiameter: "DN15 to DN300 (1/2\" to 12\")",
+      nominalDiameter: 'DN15 to DN300 (1/2" to 12")',
       flowRange: "0.7 to 40 m/s (liquids), 4 to 80 m/s (gases)",
       accuracy: "±0.75% of reading (liquids), ±1.0% of reading (gases)",
       repeatability: "±0.2% of reading",
@@ -3155,7 +3183,7 @@ export const products: Product[] = [
       type: "Vortex Flow Meter with Multivariable Output",
       manufacturer: "Emerson/Rosemount",
       model: "8800D",
-      nominalDiameter: "DN15 to DN300 (1/2\" to 12\")",
+      nominalDiameter: 'DN15 to DN300 (1/2" to 12")',
       flowRange: "0.3 to 40 m/s (liquids), 3 to 80 m/s (gases)",
       accuracy: "±0.75% of reading (liquids), ±1.0% of reading (gases)",
       repeatability: "±0.1% of reading",
@@ -3185,7 +3213,7 @@ export const products: Product[] = [
       type: "Digital Vortex Flow Meter",
       manufacturer: "Yokogawa",
       model: "digitalYEWFLO AVF",
-      nominalDiameter: "DN15 to DN300 (1/2\" to 12\")",
+      nominalDiameter: 'DN15 to DN300 (1/2" to 12")',
       flowRange: "0.6 to 40 m/s (liquids), 6 to 80 m/s (gases)",
       accuracy: "±0.75% of reading (liquids), ±1.0% of reading (gases)",
       repeatability: "±0.2% of reading",
@@ -3215,7 +3243,7 @@ export const products: Product[] = [
       type: "Swirl (Vortex) Flow Meter",
       manufacturer: "ABB",
       model: "Swirl Meter FSV450",
-      nominalDiameter: "DN15 to DN300 (1/2\" to 12\")",
+      nominalDiameter: 'DN15 to DN300 (1/2" to 12")',
       flowRange: "0.5 to 50 m/s (liquids), 5 to 80 m/s (gases)",
       accuracy: "±0.75% of reading (liquids), ±1.0% of reading (gases)",
       repeatability: "±0.15% of reading",
@@ -3247,7 +3275,7 @@ export const products: Product[] = [
       type: "Thermal Mass/Volumetric Flow Meter",
       manufacturer: "Endress+Hauser",
       model: "Proline t-mass 83A",
-      nominalDiameter: "DN15 to DN2000 (1/2\" to 78\")",
+      nominalDiameter: 'DN15 to DN2000 (1/2" to 78")',
       flowRange: "0-500 Nm³/h to 0-10,000,000 Nm³/h",
       accuracy: "±1.5% of measured value ±0.3% of full scale",
       repeatability: "±0.5% of measured value",
@@ -3277,7 +3305,7 @@ export const products: Product[] = [
       type: "Thermal Mass Flow Meter",
       manufacturer: "Sierra Instruments",
       model: "640S QuadraTherm",
-      nominalDiameter: "DN15 to DN2000 (1/2\" to 78\")",
+      nominalDiameter: 'DN15 to DN2000 (1/2" to 78")',
       flowRange: "0-20 SFPS to 0-500 SFPS",
       accuracy: "±1.0% of reading ±0.5% of full scale",
       repeatability: "±0.2% of reading",
@@ -3307,7 +3335,7 @@ export const products: Product[] = [
       type: "Ultrasonic Gas/Liquid Flow Meter",
       manufacturer: "Bronkhorst",
       model: "IN-FLOW F-230",
-      nominalDiameter: "DN15 to DN600 (1/2\" to 24\")",
+      nominalDiameter: 'DN15 to DN600 (1/2" to 24")',
       flowRange: "0.01-600 ln/min (liquids), 0.1-6000 ln/min (gases)",
       accuracy: "±0.5% of reading ±0.1% of full scale",
       repeatability: "±0.2% of reading",
@@ -3338,7 +3366,7 @@ export const products: Product[] = [
       type: "Positive Displacement Flow Meter (PD)",
       manufacturer: "OVAL Corporation",
       model: "FLOWPET LSF41",
-      nominalDiameter: "DN15 to DN200 (1/2\" to 8\")",
+      nominalDiameter: 'DN15 to DN200 (1/2" to 8")',
       flowRange: "0.05-1500 L/min (depending on size)",
       accuracy: "±0.1% of reading",
       repeatability: "±0.02% of reading",
@@ -3367,7 +3395,7 @@ export const products: Product[] = [
       type: "Positive Displacement Flow Meter",
       manufacturer: "Badger Meter",
       model: "M1000 Nutating Disc",
-      nominalDiameter: "DN15 to DN100 (5/8\" to 4\")",
+      nominalDiameter: 'DN15 to DN100 (5/8" to 4")',
       flowRange: "0.125-400 GPM (depending on size)",
       accuracy: "±0.5% of reading",
       repeatability: "±0.1% of reading",
@@ -3396,7 +3424,7 @@ export const products: Product[] = [
       type: "Positive Displacement Oval Gear Flow Meter",
       manufacturer: "KROHNE",
       model: "BM 100",
-      nominalDiameter: "DN10 to DN200 (3/8\" to 8\")",
+      nominalDiameter: 'DN10 to DN200 (3/8" to 8")',
       flowRange: "0.15-3000 L/min (depending on size)",
       accuracy: "±0.2% of reading",
       repeatability: "±0.05% of reading",
@@ -3425,7 +3453,7 @@ export const products: Product[] = [
       type: "Positive Displacement Screw Flow Meter",
       manufacturer: "KRAL AG",
       model: "VoluMeter OMG",
-      nominalDiameter: "DN15 to DN150 (1/2\" to 6\")",
+      nominalDiameter: 'DN15 to DN150 (1/2" to 6")',
       flowRange: "0.5-1200 L/min (depending on size)",
       accuracy: "±0.1% of reading",
       repeatability: "±0.02% of reading",
@@ -3559,7 +3587,7 @@ export const products: Product[] = [
     id: "balluff-bes-516-370-e4-c-pu-03-pnp",
     slug: "balluff-bes-516-370-e4-c-pu-03-pnp",
     categoryKey: "instrumentation-components",
-    subcategoryKey: "sensors", 
+    subcategoryKey: "sensors",
     image: "sensors",
     specs: {
       type: "PNP Inductive Proximity Sensor",
@@ -3632,7 +3660,7 @@ export const products: Product[] = [
   },
   {
     id: "jumo-902820-pt100-rtd",
-    slug: "jumo-902820-pt100-rtd", 
+    slug: "jumo-902820-pt100-rtd",
     categoryKey: "instrumentation-components",
     subcategoryKey: "sensors",
     image: "sensors",
@@ -3658,7 +3686,7 @@ export const products: Product[] = [
   {
     id: "heraeus-m222-pt1000-rtd",
     slug: "heraeus-m222-pt1000-rtd",
-    categoryKey: "instrumentation-components", 
+    categoryKey: "instrumentation-components",
     subcategoryKey: "sensors",
     image: "sensors",
     specs: {
@@ -3675,7 +3703,7 @@ export const products: Product[] = [
       certification: "CE, ATEX, IECEx",
     },
     translationKeys: {
-      title: "products:sensors.herausPt1000Rtd.title", 
+      title: "products:sensors.herausPt1000Rtd.title",
       description: "products:sensors.herausPt1000Rtd.description",
       featuresKey: "products:sensors.herausPt1000Rtd.features",
     },
@@ -3685,7 +3713,7 @@ export const products: Product[] = [
     slug: "watlow-type-k-thermocouple",
     categoryKey: "instrumentation-components",
     subcategoryKey: "sensors",
-    image: "sensors", 
+    image: "sensors",
     specs: {
       type: "Type K Thermocouple",
       manufacturer: "Watlow",
@@ -3700,7 +3728,7 @@ export const products: Product[] = [
     },
     translationKeys: {
       title: "products:sensors.watlowTypeK.title",
-      description: "products:sensors.watlowTypeK.description", 
+      description: "products:sensors.watlowTypeK.description",
       featuresKey: "products:sensors.watlowTypeK.features",
     },
   },
@@ -3749,7 +3777,8 @@ export const products: Product[] = [
     },
     translationKeys: {
       title: "Pilz PSEN op4H Safety Proximity Sensor",
-      description: "High-quality safety proximity sensor for critical applications",
+      description:
+        "High-quality safety proximity sensor for critical applications",
       featuresKey: "Safety proximity sensor features",
     },
   },
@@ -3774,7 +3803,8 @@ export const products: Product[] = [
     },
     translationKeys: {
       title: "Euchner CES-A-BHN Proximity Sensor",
-      description: "Versatile inductive proximity sensor with dual output configuration",
+      description:
+        "Versatile inductive proximity sensor with dual output configuration",
       featuresKey: "Euchner proximity sensor features",
     },
   },
@@ -3799,7 +3829,8 @@ export const products: Product[] = [
     },
     translationKeys: {
       title: "Baumer IFRM 08P1501 PNP Proximity Sensor",
-      description: "Compact M8 proximity sensor ideal for limited space applications",
+      description:
+        "Compact M8 proximity sensor ideal for limited space applications",
       featuresKey: "Baumer proximity sensor features",
     },
   },
@@ -3824,7 +3855,8 @@ export const products: Product[] = [
     },
     translationKeys: {
       title: "Leuze IS 212MM Inductive Proximity Sensor",
-      description: "High-performance M12 inductive sensor for automation applications",
+      description:
+        "High-performance M12 inductive sensor for automation applications",
       featuresKey: "Leuze proximity sensor features",
     },
   },
@@ -3849,7 +3881,8 @@ export const products: Product[] = [
     },
     translationKeys: {
       title: "ABB TEM104 PT100 RTD Temperature Sensor",
-      description: "Industrial-grade PT100 RTD sensor for precise temperature measurement",
+      description:
+        "Industrial-grade PT100 RTD sensor for precise temperature measurement",
       featuresKey: "ABB PT100 RTD features",
     },
   },
@@ -3874,7 +3907,8 @@ export const products: Product[] = [
     },
     translationKeys: {
       title: "Honeywell T775A2009 PT1000 RTD Sensor",
-      description: "Duct-mount PT1000 RTD sensor for HVAC temperature monitoring",
+      description:
+        "Duct-mount PT1000 RTD sensor for HVAC temperature monitoring",
       featuresKey: "Honeywell PT1000 RTD features",
     },
   },
@@ -3899,7 +3933,8 @@ export const products: Product[] = [
     },
     translationKeys: {
       title: "Fluke 5627A PT25 RTD Reference Sensor",
-      description: "High-precision PT25 RTD reference sensor for calibration applications",
+      description:
+        "High-precision PT25 RTD reference sensor for calibration applications",
       featuresKey: "Fluke PT25 RTD features",
     },
   },
@@ -3923,7 +3958,8 @@ export const products: Product[] = [
     },
     translationKeys: {
       title: "Eurotherm T2750 Type N Thermocouple",
-      description: "High-temperature Type N thermocouple for demanding applications",
+      description:
+        "High-temperature Type N thermocouple for demanding applications",
       featuresKey: "Eurotherm Type N thermocouple features",
     },
   },
@@ -3947,7 +3983,8 @@ export const products: Product[] = [
     },
     translationKeys: {
       title: "Pyromation R2MA Type R Thermocouple",
-      description: "Premium Type R thermocouple for high-temperature measurement",
+      description:
+        "Premium Type R thermocouple for high-temperature measurement",
       featuresKey: "Pyromation Type R thermocouple features",
     },
   },
@@ -3971,7 +4008,8 @@ export const products: Product[] = [
     },
     translationKeys: {
       title: "Hamilton PoliLyte Plus VP pH Sensor",
-      description: "High-performance pH sensor for biotechnology and pharmaceutical applications",
+      description:
+        "High-performance pH sensor for biotechnology and pharmaceutical applications",
       featuresKey: "Hamilton pH sensor features",
     },
   },
@@ -3995,7 +4033,8 @@ export const products: Product[] = [
     },
     translationKeys: {
       title: "Sensorex S272CD pH/ORP Combination Sensor",
-      description: "Dual-parameter sensor for simultaneous pH and ORP measurement",
+      description:
+        "Dual-parameter sensor for simultaneous pH and ORP measurement",
       featuresKey: "Sensorex pH/ORP sensor features",
     },
   },
@@ -4020,7 +4059,8 @@ export const products: Product[] = [
     },
     translationKeys: {
       title: "Banner QS18VN6D Photoelectric Sensor",
-      description: "Versatile photoelectric sensor with visible red LED for object detection",
+      description:
+        "Versatile photoelectric sensor with visible red LED for object detection",
       featuresKey: "Banner photoelectric sensor features",
     },
   },
@@ -4045,7 +4085,8 @@ export const products: Product[] = [
     },
     translationKeys: {
       title: "Keyence PZ-G41CN Laser Photoelectric Sensor",
-      description: "High-precision laser photoelectric sensor for long-range detection",
+      description:
+        "High-precision laser photoelectric sensor for long-range detection",
       featuresKey: "Keyence laser photoelectric features",
     },
   },
@@ -4070,12 +4111,13 @@ export const products: Product[] = [
     },
     translationKeys: {
       title: "Wenglor OG2A103 Retroreflective Photoelectric Sensor",
-      description: "Robust retroreflective sensor with superior environmental protection",
+      description:
+        "Robust retroreflective sensor with superior environmental protection",
       featuresKey: "Wenglor photoelectric sensor features",
     },
   },
 
-  // Additional Transmitters from More Manufacturers  
+  // Additional Transmitters from More Manufacturers
   {
     id: "flintec-pc2-load-cell",
     slug: "flintec-pc2-load-cell",
@@ -4382,7 +4424,8 @@ export const products: Product[] = [
       temperature: "-10°C to +60°C",
     },
     title: "Systech EC900 Process Oxygen Analyzer",
-    description: "Advanced electrochemical oxygen analyzer with bypass flowmeter and pressure regulation. Unaffected by hydrocarbons, ideal for inert atmosphere monitoring and safety systems in steel production and industrial processes.",
+    description:
+      "Advanced electrochemical oxygen analyzer with bypass flowmeter and pressure regulation. Unaffected by hydrocarbons, ideal for inert atmosphere monitoring and safety systems in steel production and industrial processes.",
     features: [
       "Electrochemical sensor technology",
       "20 ppm to 100% O2 measurement range",
@@ -4391,8 +4434,8 @@ export const products: Product[] = [
       "Hydrocarbon resistant",
       "IP65 enclosure protection",
       "4-20mA and digital outputs",
-      "Self-diagnostic capabilities"
-    ]
+      "Self-diagnostic capabilities",
+    ],
   },
   {
     id: "panametrics-xmo2pro-oxygen-analyzer",
@@ -4411,7 +4454,8 @@ export const products: Product[] = [
       certification: "SIL 2 certified",
     },
     title: "Panametrics XMO2pro Paramagnetic Oxygen Analyzer",
-    description: "SIL-certified paramagnetic oxygen analyzer with contamination resistance for binary gas mixtures. Magnetic field-based measurement technology for highly accurate pure gas analysis in hazardous areas.",
+    description:
+      "SIL-certified paramagnetic oxygen analyzer with contamination resistance for binary gas mixtures. Magnetic field-based measurement technology for highly accurate pure gas analysis in hazardous areas.",
     features: [
       "Paramagnetic measurement technology",
       "SIL 2 safety certification",
@@ -4420,8 +4464,8 @@ export const products: Product[] = [
       "ATEX hazardous area approval",
       "Magnetic field detection",
       "High accuracy measurement",
-      "Process safety applications"
-    ]
+      "Process safety applications",
+    ],
   },
   {
     id: "endress-hauser-oxy5500-analyzer",
@@ -4440,7 +4484,8 @@ export const products: Product[] = [
       protection: "IP66/IP67",
     },
     title: "Endress+Hauser OXY5500 Optical Oxygen Analyzer",
-    description: "Advanced quenched fluorescence oxygen analyzer ideal for CO2-rich streams and CCUS applications. Optical measurement method provides high reliability and accuracy for environmental monitoring.",
+    description:
+      "Advanced quenched fluorescence oxygen analyzer ideal for CO2-rich streams and CCUS applications. Optical measurement method provides high reliability and accuracy for environmental monitoring.",
     features: [
       "Quenched fluorescence technology",
       "CO2-rich stream compatibility",
@@ -4449,8 +4494,8 @@ export const products: Product[] = [
       "IP66/IP67 protection rating",
       "No consumable sensors",
       "Long-term stability",
-      "Environmental monitoring"
-    ]
+      "Environmental monitoring",
+    ],
   },
 
   // New Nitrogen Gas Analyzers
@@ -4471,7 +4516,8 @@ export const products: Product[] = [
       accuracy: "±0.5% relative",
     },
     title: "LECO ONH836 Elemental Analyzer",
-    description: "Simultaneous oxygen, nitrogen, and hydrogen analysis using inert gas fusion technology. NDIR and thermal conductivity detection for metals, alloys, and refractory materials with high precision.",
+    description:
+      "Simultaneous oxygen, nitrogen, and hydrogen analysis using inert gas fusion technology. NDIR and thermal conductivity detection for metals, alloys, and refractory materials with high precision.",
     features: [
       "Simultaneous O/N/H analysis",
       "Inert gas fusion technology",
@@ -4480,8 +4526,8 @@ export const products: Product[] = [
       "Metals and alloys analysis",
       "Automated sample loading",
       "High precision measurement",
-      "Refractory materials compatible"
-    ]
+      "Refractory materials compatible",
+    ],
   },
   {
     id: "horiba-emga-nitrogen-analyzer",
@@ -4500,7 +4546,8 @@ export const products: Product[] = [
       detectionLimit: "ppm levels",
     },
     title: "HORIBA EMGA Nitrogen/Oxygen Analyzer",
-    description: "High-frequency combustion analyzer for trace nitrogen and oxygen analysis in steel industry applications. Selectable 1-3 element analysis with ppm-level detection limits for quality control.",
+    description:
+      "High-frequency combustion analyzer for trace nitrogen and oxygen analysis in steel industry applications. Selectable 1-3 element analysis with ppm-level detection limits for quality control.",
     features: [
       "High-frequency combustion",
       "1-3 selectable elements",
@@ -4509,8 +4556,8 @@ export const products: Product[] = [
       "Trace analysis capability",
       "Quality control applications",
       "Fast analysis cycles",
-      "Automated operation"
-    ]
+      "Automated operation",
+    ],
   },
 
   // New Hydrogen Gas Analyzers
@@ -4531,7 +4578,8 @@ export const products: Product[] = [
       power: "60-300W",
     },
     title: "Nova Analytical H2 Thermal Conductivity Analyzer",
-    description: "Hydrogen analyzer using thermal conductivity detection for binary mixture analysis. Exploits H2's highest thermal conductivity among gases for accurate concentration measurement in process monitoring.",
+    description:
+      "Hydrogen analyzer using thermal conductivity detection for binary mixture analysis. Exploits H2's highest thermal conductivity among gases for accurate concentration measurement in process monitoring.",
     features: [
       "Thermal conductivity detection",
       "Binary mixture analysis",
@@ -4540,8 +4588,8 @@ export const products: Product[] = [
       "Multiple carrier gases",
       "High thermal conductivity exploitation",
       "Process monitoring ready",
-      "Explosion limit monitoring"
-    ]
+      "Explosion limit monitoring",
+    ],
   },
   {
     id: "endress-hauser-ss2100-hydrogen-analyzer",
@@ -4560,7 +4608,8 @@ export const products: Product[] = [
       certification: "ATEX, SIL 2",
     },
     title: "Endress+Hauser SS2100 Hydrogen Quality Analyzer",
-    description: "Advanced TDLAS technology for hydrogen quality measurement in real-time. Multi-channel analysis for natural gas and refinery processes with ATEX certification and SIL 2 safety rating.",
+    description:
+      "Advanced TDLAS technology for hydrogen quality measurement in real-time. Multi-channel analysis for natural gas and refinery processes with ATEX certification and SIL 2 safety rating.",
     features: [
       "TDLAS multi-channel technology",
       "Real-time hydrogen quality",
@@ -4569,8 +4618,8 @@ export const products: Product[] = [
       "ATEX hazardous area certified",
       "SIL 2 safety rated",
       "Modbus and Ethernet connectivity",
-      "Remote diagnostics"
-    ]
+      "Remote diagnostics",
+    ],
   },
 
   // New Carbon Dioxide Gas Analyzers
@@ -4591,7 +4640,8 @@ export const products: Product[] = [
       applications: "Combustion Control, CCUS",
     },
     title: "Endress+Hauser SS2100 CO2 NDIR Analyzer",
-    description: "Non-dispersive infrared CO2 analyzer for combustion control and CCUS monitoring. Industry standard NDIR technology with range from ppmv to percentage levels for diverse applications.",
+    description:
+      "Non-dispersive infrared CO2 analyzer for combustion control and CCUS monitoring. Industry standard NDIR technology with range from ppmv to percentage levels for diverse applications.",
     features: [
       "NDIR measurement technology",
       "0-10 ppmv to 0-20% range",
@@ -4600,8 +4650,8 @@ export const products: Product[] = [
       "Fast response time",
       "Industry standard technology",
       "Process integration",
-      "Environmental monitoring"
-    ]
+      "Environmental monitoring",
+    ],
   },
   {
     id: "nova-multi-gas-co2-analyzer",
@@ -4620,7 +4670,8 @@ export const products: Product[] = [
       pressure: "Up to 350 kPa (50 psig)",
     },
     title: "Nova Multi-Gas CO2 Analyzer System",
-    description: "Advanced multi-component CO2 analyzer with correction algorithms for syngas and biogas applications. NDIR technology with 5-gas analysis including CO2, CO, CH4, H2, and O2 measurement.",
+    description:
+      "Advanced multi-component CO2 analyzer with correction algorithms for syngas and biogas applications. NDIR technology with 5-gas analysis including CO2, CO, CH4, H2, and O2 measurement.",
     features: [
       "Multi-component analysis",
       "NDIR with correction algorithms",
@@ -4629,8 +4680,8 @@ export const products: Product[] = [
       "Industrial process monitoring",
       "Built-in pumps available",
       "Pressure regulation",
-      "Data logging capability"
-    ]
+      "Data logging capability",
+    ],
   },
 
   // New COD Analyzers
@@ -4651,7 +4702,8 @@ export const products: Product[] = [
       reagents: "TNTplus vials",
     },
     title: "Hach EZ Series COD Analyzer",
-    description: "Online continuous COD monitoring with TNTplus freeze-dried reagents. 2-hour analysis time versus 5-day BOD test for rapid water quality assessment in wastewater treatment applications.",
+    description:
+      "Online continuous COD monitoring with TNTplus freeze-dried reagents. 2-hour analysis time versus 5-day BOD test for rapid water quality assessment in wastewater treatment applications.",
     features: [
       "Online continuous monitoring",
       "TNTplus freeze-dried reagents",
@@ -4660,8 +4712,8 @@ export const products: Product[] = [
       "Automated sample handling",
       "Self-cleaning capability",
       "Regulatory compliance",
-      "Remote monitoring"
-    ]
+      "Remote monitoring",
+    ],
   },
   {
     id: "mantech-pecod-l50-analyzer",
@@ -4680,7 +4732,8 @@ export const products: Product[] = [
       weight: "Benchtop model",
     },
     title: "MANTECH PeCOD L50 COD Analyzer",
-    description: "Revolutionary 10-minute COD analysis using UV-activated TiO2 nanoparticle photocatalyst. Chemical-free operation with no dichromate or mercury required, MOECC approved for regulatory compliance.",
+    description:
+      "Revolutionary 10-minute COD analysis using UV-activated TiO2 nanoparticle photocatalyst. Chemical-free operation with no dichromate or mercury required, MOECC approved for regulatory compliance.",
     features: [
       "10-minute analysis time",
       "Chemical-free operation",
@@ -4689,8 +4742,8 @@ export const products: Product[] = [
       "MOECC Method E3515 approved",
       "Benchtop laboratory model",
       "MISA program approved",
-      "Environmental friendly"
-    ]
+      "Environmental friendly",
+    ],
   },
   {
     id: "lar-quickcodlab-analyzer",
@@ -4709,7 +4762,8 @@ export const products: Product[] = [
       accuracy: "±3%",
     },
     title: "LAR QuickCODlab Thermal Combustion Analyzer",
-    description: "Ultra-fast 3-minute COD analysis using thermal combustion at 1,200°C. Catalyst-free oxidation process for complete oxygen demand measurement with exceptional accuracy and reliability.",
+    description:
+      "Ultra-fast 3-minute COD analysis using thermal combustion at 1,200°C. Catalyst-free oxidation process for complete oxygen demand measurement with exceptional accuracy and reliability.",
     features: [
       "3-minute analysis time",
       "Thermal combustion at 1,200°C",
@@ -4718,8 +4772,8 @@ export const products: Product[] = [
       "±3% measurement accuracy",
       "Online continuous operation",
       "Low maintenance design",
-      "Process control ready"
-    ]
+      "Process control ready",
+    ],
   },
 
   // New BOD Analyzers
@@ -4740,7 +4794,8 @@ export const products: Product[] = [
       software: "BOD Pro Windows 10/11",
     },
     title: "MANTECH AM400 Automated BOD Analyzer",
-    description: "Automated BOD analysis system with 12-108 bottle positions and 90-second per bottle processing. YSI MultiLab integration with automated sample prep, DO reading, and rinsing capabilities.",
+    description:
+      "Automated BOD analysis system with 12-108 bottle positions and 90-second per bottle processing. YSI MultiLab integration with automated sample prep, DO reading, and rinsing capabilities.",
     features: [
       "12-108 bottle autosampler",
       "90 seconds per bottle",
@@ -4749,8 +4804,8 @@ export const products: Product[] = [
       "Multiple DO probe options",
       "BOD Pro software included",
       "ASTM and ISO methods",
-      "Quality control automation"
-    ]
+      "Quality control automation",
+    ],
   },
   {
     id: "hach-bodtrak-ii-analyzer",
@@ -4769,7 +4824,8 @@ export const products: Product[] = [
       stirring: "Integrated",
     },
     title: "Hach BODTrak II Respirometric Analyzer",
-    description: "Respirometric BOD apparatus with luminescent dissolved oxygen technology. IntelliCAL LBOD101 optical DO probe with integrated stirring for accurate 2-3 day BOD analysis.",
+    description:
+      "Respirometric BOD apparatus with luminescent dissolved oxygen technology. IntelliCAL LBOD101 optical DO probe with integrated stirring for accurate 2-3 day BOD analysis.",
     features: [
       "Respirometric measurement",
       "Luminescent DO technology",
@@ -4778,8 +4834,8 @@ export const products: Product[] = [
       "2-3 day analysis period",
       "Mercury-free operation",
       "Low maintenance design",
-      "Municipal wastewater ready"
-    ]
+      "Municipal wastewater ready",
+    ],
   },
   {
     id: "ysi-2900-bod-analyzer",
@@ -4798,7 +4854,8 @@ export const products: Product[] = [
       analysisTypes: "BOD5, BOD7, CBOD",
     },
     title: "YSI 2900 Biochemistry BOD Analyzer",
-    description: "Two-chemistry standalone biochemistry analyzer with USB data retrieval. Standard 300mL BOD bottles with temperature control at 20°C ± 1°C for BOD5, BOD7, and CBOD analysis.",
+    description:
+      "Two-chemistry standalone biochemistry analyzer with USB data retrieval. Standard 300mL BOD bottles with temperature control at 20°C ± 1°C for BOD5, BOD7, and CBOD analysis.",
     features: [
       "Two-chemistry capability",
       "USB data retrieval",
@@ -4807,10 +4864,9 @@ export const products: Product[] = [
       "BOD5/BOD7/CBOD analysis",
       "Standalone operation",
       "Quality control features",
-      "Laboratory automation"
-    ]
+      "Laboratory automation",
+    ],
   },
-
 
   // Additional Electrical Components - Cables
   {
@@ -5227,8 +5283,6 @@ export const products: Product[] = [
       featuresKey: "products:multimeters.yokogawaTY720.features",
     },
   },
-
-
 
   // Power Quality Analyzers
   {
@@ -5766,9 +5820,7 @@ export const products: Product[] = [
       featuresKey: "products:gearPumps.magneticDrive.features",
     },
   },
-
-  // Solar Products - New category with comprehensive products
-  // Solar Panels
+  // SOLAR PANELS SUBCATEGORY PRODUCTS
   {
     id: "solar-panel-monocrystalline-450w",
     slug: "solar-panel-monocrystalline-450w",
@@ -5902,7 +5954,7 @@ export const products: Product[] = [
     },
   },
 
-  // Solar Inverters
+  // SOLAR INVERTERS SUBCATEGORY PRODUCTS
   {
     id: "solar-inverter-grid-tie-5kw",
     slug: "solar-inverter-grid-tie-5kw",
@@ -6036,7 +6088,7 @@ export const products: Product[] = [
     },
   },
 
-  // Safety & Protective Devices - Surge Protectors
+  // SURGE PROTECTORS SUBCATEGORY PRODUCTS
   {
     id: "surge-protector-ac-type1",
     slug: "surge-protector-ac-type1",
@@ -6170,7 +6222,7 @@ export const products: Product[] = [
     },
   },
 
-  // Safety Relays & Switches
+  // SAFETY RELAYS & SWITCHES SUBCATEGORY PRODUCTS
   {
     id: "safety-relay-emergency-stop-dual-channel",
     slug: "safety-relay-emergency-stop-dual-channel",
@@ -6304,7 +6356,7 @@ export const products: Product[] = [
     },
   },
 
-  // Grounding Systems
+  // GROUNDING SYSTEMS SUBCATEGORY PRODUCTS
   {
     id: "grounding-rod-copper-clad-8ft",
     slug: "grounding-rod-copper-clad-8ft",
@@ -6438,7 +6490,7 @@ export const products: Product[] = [
     },
   },
 
-  // Intrinsically Safe Equipment
+  // INTRINSICALLY SAFE EQUIPMENT SUBCATEGORY PRODUCTS
   {
     id: "intrinsic-safe-barrier-isolator",
     slug: "intrinsic-safe-barrier-isolator",
@@ -6573,10 +6625,8 @@ export const products: Product[] = [
       featuresKey: "products:intrinsicallySafe.ledBeaconLight.features",
     },
   },
-
-  // ADDITIONAL PRODUCTS FROM STATIC PAGES - EXTRACTED AND CONVERTED
-
-  // Gas Analyzers from static pages
+  
+  // ANALYZERS SUBCATEGORY PRODUCTS
   {
     id: "analyzer-gas-chromatography-spectrometry",
     slug: "analyzer-gas-chromatography-spectrometry",
@@ -6639,7 +6689,7 @@ export const products: Product[] = [
     },
   },
 
-  // PLCs from static pages
+  // PLCs SUBCATEGORY PRODUCTS
   {
     id: "plc-siemens-simatic-s7-1200",
     slug: "plc-siemens-simatic-s7-1200",
@@ -6701,8 +6751,6 @@ export const products: Product[] = [
       featuresKey: "products:plcs.schneiderM580.features",
     },
   },
-
-  // Additional PLCs to reach 6 minimum
   {
     id: "plc-rockwell-controllogix-l82e",
     slug: "plc-rockwell-controllogix-l82e",
@@ -6764,7 +6812,7 @@ export const products: Product[] = [
     },
   },
 
-  // SCADA Systems from static pages
+  // SCADA SUBCATEGORY PRODUCTS
   {
     id: "scada-siemens-wincc",
     slug: "scada-siemens-wincc",
@@ -6825,8 +6873,6 @@ export const products: Product[] = [
       featuresKey: "products:scada.wonderwareSystemPlatform.features",
     },
   },
-
-  // Additional SCADA Systems to reach 6 minimum
   {
     id: "scada-rockwell-factorytalk-view",
     slug: "scada-rockwell-factorytalk-view",
@@ -6888,7 +6934,7 @@ export const products: Product[] = [
     },
   },
 
-  // DCS Systems from static pages
+  // DCS SUBCATEGORY PRODUCTS
   {
     id: "dcs-abb-system-800xa",
     slug: "dcs-abb-system-800xa",
@@ -6949,8 +6995,6 @@ export const products: Product[] = [
       featuresKey: "products:dcs.honeywellExperionPKS.features",
     },
   },
-
-  // Additional DCS Systems to reach 6 minimum
   {
     id: "dcs-yokogawa-centum-vp",
     slug: "dcs-yokogawa-centum-vp",
@@ -7012,7 +7056,7 @@ export const products: Product[] = [
     },
   },
 
-  // HMI Systems from static pages
+  // HMI SUBCATEGORY PRODUCTS
   {
     id: "hmi-panel-mount",
     slug: "hmi-panel-mount",
@@ -7073,8 +7117,6 @@ export const products: Product[] = [
       featuresKey: "products:hmi.mobile.features",
     },
   },
-
-  // Additional HMI Systems to reach 6 minimum
   {
     id: "hmi-web-based-client",
     slug: "hmi-web-based-client",
@@ -7136,7 +7178,7 @@ export const products: Product[] = [
     },
   },
 
-  // Valves - NEW CATEGORY (was empty, now adding 6 products)
+  // VALVES & ACTUATORS SUBCATEGORY PRODUCTS
   {
     id: "valve-ball-two-piece-stainless",
     slug: "valve-ball-two-piece-stainless",
@@ -7258,9 +7300,7 @@ export const products: Product[] = [
     },
   },
 
-  // ADDITIONAL EXTRACTED PRODUCTS FROM STATIC PAGES
-
-  // Multimeters from static pages
+  // MULTIMETERS SUBCATEGORY PRODUCTS
   {
     id: "multimeter-fluke-87v-industrial",
     slug: "multimeter-fluke-87v-industrial",
@@ -7324,8 +7364,6 @@ export const products: Product[] = [
       featuresKey: "products:multimeters.yokogawaTY720.features",
     },
   },
-
-  // Additional Multimeters to reach 6 minimum
   {
     id: "multimeter-hioki-dt4282-clamp",
     slug: "multimeter-hioki-dt4282-clamp",
@@ -7390,72 +7428,8 @@ export const products: Product[] = [
     },
   },
 
-  // Centrifugal Pumps from static pages
-  {
-    id: "centrifugal-pump-end-suction",
-    slug: "centrifugal-pump-end-suction",
-    categoryKey: "mechanical-pumps-spares",
-    subcategoryKey: "centrifugal-pumps",
-    image: "centrifugal-pumps",
-    specs: {
-      flowRange: "10 to 5000 GPM",
-      headRange: "Up to 400 feet",
-      sizes: "1 to 24 inch discharge",
-      pressureRating: "150 to 300 PSI",
-      temperatureRange: "-20°F to +200°F",
-      materials: "Cast Iron, Bronze, Stainless Steel",
-      certification: "ANSI B73.1, ISO 2858",
-    },
-    translationKeys: {
-      title: "products:centrifugalPumps.endSuction.title",
-      description: "products:centrifugalPumps.endSuction.description",
-      featuresKey: "products:centrifugalPumps.endSuction.features",
-    },
-  },
-  {
-    id: "centrifugal-pump-multi-stage",
-    slug: "centrifugal-pump-multi-stage",
-    categoryKey: "mechanical-pumps-spares",
-    subcategoryKey: "centrifugal-pumps",
-    image: "centrifugal-pumps",
-    specs: {
-      flowRange: "5 to 1000 GPM",
-      headRange: "Up to 2000 feet",
-      stages: "2 to 12 stages",
-      pressureRating: "300 to 1500 PSI",
-      temperatureRange: "-40°F to +400°F",
-      materials: "Stainless Steel, Duplex Steel",
-      certification: "API 610, ISO 13709",
-    },
-    translationKeys: {
-      title: "products:centrifugalPumps.multiStage.title",
-      description: "products:centrifugalPumps.multiStage.description",
-      featuresKey: "products:centrifugalPumps.multiStage.features",
-    },
-  },
-  {
-    id: "centrifugal-pump-chemical-process",
-    slug: "centrifugal-pump-chemical-process",
-    categoryKey: "mechanical-pumps-spares",
-    subcategoryKey: "centrifugal-pumps",
-    image: "centrifugal-pumps",
-    specs: {
-      flowRange: "1 to 2000 GPM",
-      headRange: "Up to 1000 feet",
-      sealType: "Mechanical seal, magnetic drive",
-      pressureRating: "150 to 600 PSI",
-      temperatureRange: "-100°F to +500°F",
-      materials: "Hastelloy, Titanium, PTFE lined",
-      certification: "ANSI/ASME B73.3, ISO 2858",
-    },
-    translationKeys: {
-      title: "products:centrifugalPumps.chemicalProcess.title",
-      description: "products:centrifugalPumps.chemicalProcess.description",
-      featuresKey: "products:centrifugalPumps.chemicalProcess.features",
-    },
-  },
 
-  // Additional Centrifugal Pumps to reach 6 minimum
+  // CENTRIFUGAL PUMPS SUBCATEGORY PRODUCTS
   {
     id: "centrifugal-pump-split-case-double-suction",
     slug: "centrifugal-pump-split-case-double-suction",
@@ -7520,73 +7494,71 @@ export const products: Product[] = [
       featuresKey: "products:centrifugalPumps.closeCoupled.features",
     },
   },
-
-  // Heating Elements from static pages
   {
-    id: "heating-element-industrial-cartridge-band",
-    slug: "heating-element-industrial-cartridge-band",
-    categoryKey: "electrical-components",
-    subcategoryKey: "heating-elements-appliances",
-    image: "heating-elements",
+    id: "centrifugal-pump-end-suction",
+    slug: "centrifugal-pump-end-suction",
+    categoryKey: "mechanical-pumps-spares",
+    subcategoryKey: "centrifugal-pumps",
+    image: "centrifugal-pumps",
     specs: {
-      powerRange: "100W to 10kW",
-      voltage: "120V to 480V",
-      temperatureRange: "Up to 900°C",
-      diameterRange: "6mm to 32mm (cartridge)",
-      bandWidth: "25mm to 150mm",
-      sheathMaterial: "Stainless Steel, Incoloy",
-      certification: "UL Listed, CSA Certified, CE Marked",
+      flowRange: "10 to 5000 GPM",
+      headRange: "Up to 400 feet",
+      sizes: "1 to 24 inch discharge",
+      pressureRating: "150 to 300 PSI",
+      temperatureRange: "-20°F to +200°F",
+      materials: "Cast Iron, Bronze, Stainless Steel",
+      certification: "ANSI B73.1, ISO 2858",
     },
     translationKeys: {
-      title: "products:heatingElements.cartridgeBand.title",
-      description: "products:heatingElements.cartridgeBand.description",
-      featuresKey: "products:heatingElements.cartridgeBand.features",
+      title: "products:centrifugalPumps.endSuction.title",
+      description: "products:centrifugalPumps.endSuction.description",
+      featuresKey: "products:centrifugalPumps.endSuction.features",
     },
   },
   {
-    id: "heating-electric-ovens-furnaces",
-    slug: "heating-electric-ovens-furnaces",
-    categoryKey: "electrical-components",
-    subcategoryKey: "heating-elements-appliances",
-    image: "heating-elements",
+    id: "centrifugal-pump-multi-stage",
+    slug: "centrifugal-pump-multi-stage",
+    categoryKey: "mechanical-pumps-spares",
+    subcategoryKey: "centrifugal-pumps",
+    image: "centrifugal-pumps",
     specs: {
-      powerRange: "1kW to 100kW",
-      temperatureRange: "Up to 1200°C",
-      heatingElements: "Coil, Strip, Tubular",
-      insulation: "Ceramic fiber, firebrick",
-      controls: "PID temperature controllers",
-      airflow: "Natural or forced convection",
-      certification: "UL Listed, CE Marked, NFPA 86",
+      flowRange: "5 to 1000 GPM",
+      headRange: "Up to 2000 feet",
+      stages: "2 to 12 stages",
+      pressureRating: "300 to 1500 PSI",
+      temperatureRange: "-40°F to +400°F",
+      materials: "Stainless Steel, Duplex Steel",
+      certification: "API 610, ISO 13709",
     },
     translationKeys: {
-      title: "products:heatingElements.electricOvensFurnaces.title",
-      description: "products:heatingElements.electricOvensFurnaces.description",
-      featuresKey: "products:heatingElements.electricOvensFurnaces.features",
+      title: "products:centrifugalPumps.multiStage.title",
+      description: "products:centrifugalPumps.multiStage.description",
+      featuresKey: "products:centrifugalPumps.multiStage.features",
     },
   },
   {
-    id: "heating-heat-tracing-systems",
-    slug: "heating-heat-tracing-systems",
-    categoryKey: "electrical-components",
-    subcategoryKey: "heating-elements-appliances",
-    image: "heating-elements",
+    id: "centrifugal-pump-chemical-process",
+    slug: "centrifugal-pump-chemical-process",
+    categoryKey: "mechanical-pumps-spares",
+    subcategoryKey: "centrifugal-pumps",
+    image: "centrifugal-pumps",
     specs: {
-      cableType: "Self-regulating, constant wattage",
-      powerOutput: "5W/ft to 50W/ft",
-      maxTemp: "150°C to 250°C",
-      voltage: "120V, 240V, 480V",
-      installation: "Pipe, tank, vessel tracing",
-      controls: "Thermostat, digital controllers",
-      certification: "FM Approved, CSA Listed, ATEX",
+      flowRange: "1 to 2000 GPM",
+      headRange: "Up to 1000 feet",
+      sealType: "Mechanical seal, magnetic drive",
+      pressureRating: "150 to 600 PSI",
+      temperatureRange: "-100°F to +500°F",
+      materials: "Hastelloy, Titanium, PTFE lined",
+      certification: "ANSI/ASME B73.3, ISO 2858",
     },
     translationKeys: {
-      title: "products:heatingElements.heatTracingSystems.title",
-      description: "products:heatingElements.heatTracingSystems.description",
-      featuresKey: "products:heatingElements.heatTracingSystems.features",
+      title: "products:centrifugalPumps.chemicalProcess.title",
+      description: "products:centrifugalPumps.chemicalProcess.description",
+      featuresKey: "products:centrifugalPumps.chemicalProcess.features",
     },
   },
 
-  // Additional Heating Elements to reach 6 minimum
+  // HEATING ELEMENTS & APPLIANCES SUBCATEGORY PRODUCTS
   {
     id: "heating-immersion-heater-flanged",
     slug: "heating-immersion-heater-flanged",
@@ -7651,8 +7623,71 @@ export const products: Product[] = [
       featuresKey: "products:heatingElements.coilHeaterAirDuct.features",
     },
   },
+  {
+    id: "heating-element-industrial-cartridge-band",
+    slug: "heating-element-industrial-cartridge-band",
+    categoryKey: "electrical-components",
+    subcategoryKey: "heating-elements-appliances",
+    image: "heating-elements",
+    specs: {
+      powerRange: "100W to 10kW",
+      voltage: "120V to 480V",
+      temperatureRange: "Up to 900°C",
+      diameterRange: "6mm to 32mm (cartridge)",
+      bandWidth: "25mm to 150mm",
+      sheathMaterial: "Stainless Steel, Incoloy",
+      certification: "UL Listed, CSA Certified, CE Marked",
+    },
+    translationKeys: {
+      title: "products:heatingElements.cartridgeBand.title",
+      description: "products:heatingElements.cartridgeBand.description",
+      featuresKey: "products:heatingElements.cartridgeBand.features",
+    },
+  },
+  {
+    id: "heating-electric-ovens-furnaces",
+    slug: "heating-electric-ovens-furnaces",
+    categoryKey: "electrical-components",
+    subcategoryKey: "heating-elements-appliances",
+    image: "heating-elements",
+    specs: {
+      powerRange: "1kW to 100kW",
+      temperatureRange: "Up to 1200°C",
+      heatingElements: "Coil, Strip, Tubular",
+      insulation: "Ceramic fiber, firebrick",
+      controls: "PID temperature controllers",
+      airflow: "Natural or forced convection",
+      certification: "UL Listed, CE Marked, NFPA 86",
+    },
+    translationKeys: {
+      title: "products:heatingElements.electricOvensFurnaces.title",
+      description: "products:heatingElements.electricOvensFurnaces.description",
+      featuresKey: "products:heatingElements.electricOvensFurnaces.features",
+    },
+  },
+  {
+    id: "heating-heat-tracing-systems",
+    slug: "heating-heat-tracing-systems",
+    categoryKey: "electrical-components",
+    subcategoryKey: "heating-elements-appliances",
+    image: "heating-elements",
+    specs: {
+      cableType: "Self-regulating, constant wattage",
+      powerOutput: "5W/ft to 50W/ft",
+      maxTemp: "150°C to 250°C",
+      voltage: "120V, 240V, 480V",
+      installation: "Pipe, tank, vessel tracing",
+      controls: "Thermostat, digital controllers",
+      certification: "FM Approved, CSA Listed, ATEX",
+    },
+    translationKeys: {
+      title: "products:heatingElements.heatTracingSystems.title",
+      description: "products:heatingElements.heatTracingSystems.description",
+      featuresKey: "products:heatingElements.heatTracingSystems.features",
+    },
+  },
 
-  // Hand Tools - NEW CATEGORY (was empty)
+  // HAND TOOLS SUBCATEGORY PRODUCTS
   {
     id: "hand-tool-adjustable-wrench-set",
     slug: "hand-tool-adjustable-wrench-set",
@@ -7780,7 +7815,7 @@ export const products: Product[] = [
     },
   },
 
-  // Power Tools - NEW CATEGORY (was empty)
+  // POWER TOOLS SUBCATEGORY PRODUCTS
   {
     id: "Power Tool Cordless Drill Driver Set",
     slug: "power-tool-cordless-drill-driver-set",
@@ -7908,7 +7943,7 @@ export const products: Product[] = [
     },
   },
 
-  // CUTTING TOOLS - NEW CATEGORY (was empty)
+  // CUTTING TOOLS SUBCATEGORY PRODUCTS
   {
     id: "cutting-tool-end-mill-carbide",
     slug: "cutting-tool-end-mill-carbide",
@@ -8036,7 +8071,7 @@ export const products: Product[] = [
     },
   },
 
-  // LIFTING EQUIPMENT - NEW CATEGORY (was empty)
+  // LIFTING EQUIPMENT SUBCATEGORY PRODUCTS
   {
     id: "lifting-chain-hoist-manual",
     slug: "lifting-chain-hoist-manual",
@@ -8165,7 +8200,7 @@ export const products: Product[] = [
     },
   },
 
-  // SAFETY EQUIPMENT - NEW CATEGORY (was empty)
+  // SAFETY EQUIPMENT SUBCATEGORY PRODUCTS
   {
     id: "safety-personal-fall-protection",
     slug: "safety-personal-fall-protection",
@@ -8295,7 +8330,7 @@ export const products: Product[] = [
     },
   },
 
-  // PUMP SPARE PARTS - NEW CATEGORY (was empty)
+  // PUMP SPARE PARTS SUBCATEGORY PRODUCTS
   {
     id: "pump-spare-impeller-bronze",
     slug: "pump-spare-impeller-bronze",
@@ -8422,69 +8457,16 @@ export const products: Product[] = [
       featuresKey: "products:pumpSpares.gasketKitComplete.features",
     },
   },
-
-  // Product catalog complete with comprehensive extracted and additional products!
 ];
 
 // Category structure
 export const categories: Category[] = [
   {
-    key: "bldc",
-    translationKey: "products:categories.bldc.title",
-    subcategories: [
-      {
-        key: "bldc-ceiling-fan",
-        translationKey: "products:subcategories.bldc-ceiling-fan.title",
-        products: [
-          "bldc-smart1200",
-          "bldc-premium1400",
-          "bldc-commercial1500",
-          "bldc-deluxe1600",
-          "bldc-industrial1800",
-          "bldc-economy900",
-        ],
-      },
-      {
-        key: "bldc-cooler-exhaust-motor",
-        translationKey:
-          "products:subcategories.bldc-cooler-exhaust-motor.title",
-        products: [
-          "bldc-exhaust-fan-motor",
-          "bldc-cooler-motors",
-          "bldc-ventilation-system",
-          "bldc-ventilation-motors",
-          "bldc-industrial-exhaust",
-          "bldc-mini-cooler",
-        ],
-      },
-      {
-        key: "bldc-submersible-surface-pump",
-        translationKey:
-          "products:subcategories.bldc-submersible-surface-pump.title",
-        products: [
-          "solar-bldc-submersible-1hp",
-          "dc-surface-pump-2hp",
-          "hybrid-bldc-pump",
-        ],
-      },
-      {
-        key: "bldc-table-fan-wall-fan-motor",
-        translationKey:
-          "products:subcategories.bldc-table-fan-wall-fan-motor.title",
-        products: [
-          "bldc-table-fan-motors",
-          "bldc-wall-fan-motors",
-          "bldc-pedestal-fan-motors",
-        ],
-      },
-    ],
-  },
-  {
     key: "instrumentation-components",
     translationKey: "products:categories.instrumentationComponents",
     subcategories: [
       {
-        key: "sensors",
+        key: "sensors-transducers",
         translationKey: "products:subcategories.sensors",
         products: [
           "sensor-temperature-rtd-thermocouple",
@@ -8496,7 +8478,7 @@ export const categories: Category[] = [
         ],
       },
       {
-        key: "transmitters",
+        key: "transmitters-flow-meters",
         translationKey: "products:subcategories.transmitters",
         products: [
           // DP Type Transmitters
@@ -8541,22 +8523,17 @@ export const categories: Category[] = [
         ],
       },
       {
-        key: "controllers",
-        translationKey: "products:subcategories.controllers",
-        products: ["automation-controllers-recorders"],
-      },
-      {
-        key: "switches",
+        key: "switches-indicators",
         translationKey: "products:subcategories.switches",
         products: [
           // Pressure Switches
           "danfoss-kp36",
           "schneider-9013fsg2j24m4",
-          // Level Switches  
+          // Level Switches
           "endress-ftl31",
           "abb-ls-series",
           // Limit Switches
-          "omron-wlca12-y", 
+          "omron-wlca12-y",
           "schneider-xcmd21f0l1",
           // Push Buttons
           "schneider-xb4ba21",
@@ -8564,7 +8541,7 @@ export const categories: Category[] = [
         ],
       },
       {
-        key: "valves",
+        key: "valves-actuators",
         translationKey: "products:subcategories.valves",
         products: [
           // Control Valves
@@ -8605,16 +8582,6 @@ export const categories: Category[] = [
           "ysi-2900-bod-analyzer",
         ],
       },
-      {
-        key: "signal-conditioners",
-        translationKey: "products:subcategories.signalConditioners",
-        products: [
-          "signal-conditioner-thermocouple-converter",
-          "signal-conditioner-isolation-amplifier",
-          "signal-conditioner-current-loop-converter",
-          "automation-signal-conditioners",
-        ],
-      },
     ],
   },
   {
@@ -8634,18 +8601,6 @@ export const categories: Category[] = [
         ],
       },
       {
-        key: "circuit-breakers-fuses",
-        translationKey: "products:subcategories.circuitBreakers",
-        products: [
-          "mcb-circuit-breakers",
-          "mccb-circuit-breakers",
-          "industrial-fuses",
-          "circuit-breaker-mcb-miniature",
-          "circuit-breaker-mccb-molded-case",
-          "electrical-fuses-industrial-protection",
-        ],
-      },
-      {
         key: "connectors-terminals",
         translationKey: "products:subcategories.connectorsTerminals",
         products: [
@@ -8655,6 +8610,18 @@ export const categories: Category[] = [
           "connector-terminal-blocks-industrial",
           "connector-industrial-heavy-duty",
           "connector-signal-precision-miniature",
+        ],
+      },
+      {
+        key: "circuit-breakers-fuses",
+        translationKey: "products:subcategories.circuitBreakers",
+        products: [
+          "mcb-circuit-breakers",
+          "mccb-circuit-breakers",
+          "industrial-fuses",
+          "circuit-breaker-mcb-miniature",
+          "circuit-breaker-mccb-molded-case",
+          "electrical-fuses-industrial-protection",
         ],
       },
       {
@@ -8685,51 +8652,6 @@ export const categories: Category[] = [
           "heating-immersion-heater-flanged",
           "heating-strip-heater-mica",
           "heating-coil-heater-air-duct",
-        ],
-      },
-    ],
-  },
-  {
-    key: "industrial-measuring-tools",
-    translationKey: "products:categories.measurementInstruments",
-    subcategories: [
-      {
-        key: "multimeters",
-        translationKey: "products:subcategories.multimeters",
-        products: [
-          "multimeter-fluke-87v-industrial",
-          "multimeter-keysight-u1272a-handheld",
-          "multimeter-yokogawa-ty720-digital",
-          "multimeter-hioki-dt4282-clamp",
-          "multimeter-amprobe-am-570-industrial",
-          "multimeter-tektronix-dmm4050-bench",
-        ],
-      },
-      {
-        key: "oscilloscopes",
-        translationKey: "products:subcategories.oscilloscopes",
-        products: [
-          "oscilloscope-keysight-infiniivision-3000t-x-series",
-          "oscilloscope-rohde-schwarz-rtm3000",
-          "oscilloscope-tektronix-mdo3000-mixed-domain",
-        ],
-      },
-      {
-        key: "power-quality-analyzers",
-        translationKey: "products:subcategories.powerQualityAnalyzers",
-        products: [
-          "power-quality-analyzer-fluke-435-ii",
-          "power-quality-analyzer-hioki-pw3390",
-          "power-quality-analyzer-dranetz-hdpq",
-        ],
-      },
-      {
-        key: "calibration-equipment",
-        translationKey: "products:subcategories.calibrationEquipment",
-        products: [
-          "calibrator-pressure-dead-weight-tester",
-          "calibrator-temperature-precision-reference",
-          "calibrator-process-multifunction",
         ],
       },
     ],
@@ -8870,6 +8792,18 @@ export const categories: Category[] = [
           "intrinsic-safe-led-beacon-light",
         ],
       },
+      {
+        key: "safety-equipment",
+        translationKey: "products:subcategories.safetyEquipment",
+        products: [
+          "safety-personal-fall-protection",
+          "safety-hard-hat-class-e",
+          "safety-glasses-wraparound",
+          "safety-work-gloves-cut-resistant",
+          "safety-respirator-half-face",
+          "safety-steel-toe-boots",
+        ],
+      },
     ],
   },
   {
@@ -8973,15 +8907,84 @@ export const categories: Category[] = [
         ],
       },
       {
-        key: "safety-equipment",
-        translationKey: "products:subcategories.safetyEquipment",
+        key: "multimeters",
+        translationKey: "products:subcategories.multimeters",
         products: [
-          "safety-personal-fall-protection",
-          "safety-hard-hat-class-e",
-          "safety-glasses-wraparound",
-          "safety-work-gloves-cut-resistant",
-          "safety-respirator-half-face",
-          "safety-steel-toe-boots",
+          "multimeter-fluke-87v-industrial",
+          "multimeter-keysight-u1272a-handheld",
+          "multimeter-yokogawa-ty720-digital",
+          "multimeter-hioki-dt4282-clamp",
+          "multimeter-amprobe-am-570-industrial",
+          "multimeter-tektronix-dmm4050-bench",
+        ],
+      },
+      {
+        key: "power-quality-analyzers",
+        translationKey: "products:subcategories.powerQualityAnalyzers",
+        products: [
+          "power-quality-analyzer-fluke-435-ii",
+          "power-quality-analyzer-hioki-pw3390",
+          "power-quality-analyzer-dranetz-hdpq",
+        ],
+      },
+      {
+        key: "calibration-equipment",
+        translationKey: "products:subcategories.calibrationEquipment",
+        products: [
+          "calibrator-pressure-dead-weight-tester",
+          "calibrator-temperature-precision-reference",
+          "calibrator-process-multifunction",
+        ],
+      },
+    ],
+  },
+  {
+    key: "bldc",
+    translationKey: "products:categories.bldc.title",
+    subcategories: [
+      {
+        key: "bldc-cooler-exhaust-motor",
+        translationKey:
+          "products:subcategories.bldc-cooler-exhaust-motor.title",
+        products: [
+          "bldc-exhaust-fan-motor",
+          "bldc-cooler-motors",
+          "bldc-ventilation-system",
+          "bldc-ventilation-motors",
+          "bldc-industrial-exhaust",
+          "bldc-mini-cooler",
+        ],
+      },
+      {
+        key: "bldc-ceiling-fan",
+        translationKey: "products:subcategories.bldc-ceiling-fan.title",
+        products: [
+          "bldc-smart1200",
+          "bldc-premium1400",
+          "bldc-commercial1500",
+          "bldc-deluxe1600",
+          "bldc-industrial1800",
+          "bldc-economy900",
+        ],
+      },
+      {
+        key: "bldc-submersible-surface-pump",
+        translationKey:
+          "products:subcategories.bldc-submersible-surface-pump.title",
+        products: [
+          "solar-bldc-submersible-1hp",
+          "dc-surface-pump-2hp",
+          "hybrid-bldc-pump",
+        ],
+      },
+      {
+        key: "bldc-table-fan-wall-fan-motor",
+        translationKey:
+          "products:subcategories.bldc-table-fan-wall-fan-motor.title",
+        products: [
+          "bldc-table-fan-motors",
+          "bldc-wall-fan-motors",
+          "bldc-pedestal-fan-motors",
         ],
       },
     ],
@@ -9003,14 +9006,14 @@ export const getProductsByCategory = (categoryKey: string): Product[] => {
 
 export const getProductsBySubcategory = (subcategoryKey: string): Product[] => {
   return products.filter(
-    (product) => product.subcategoryKey === subcategoryKey
+    (product) => product.subcategoryKey === subcategoryKey,
   );
 };
 
 // Function to get products for subcategory with minimum count guarantee
 export const getProductsForSubcategoryPage = (
   subcategoryKey: string,
-  minCount: number = 6
+  minCount: number = 6,
 ): Product[] => {
   let subcategoryProducts = getProductsBySubcategory(subcategoryKey);
 
@@ -9040,14 +9043,18 @@ export const getProductsForSubcategoryPage = (
           model: `Model ${variantNumber}`,
           variant: `Variant ${variantNumber}`,
         },
-        translationKeys: baseProduct.translationKeys ? {
-          title: `${baseProduct.translationKeys.title}.variant${variantNumber}`,
-          description: `${baseProduct.translationKeys.description}.variant${variantNumber}`,
-          featuresKey: baseProduct.translationKeys.featuresKey
-            ? `${baseProduct.translationKeys.featuresKey}.variant${variantNumber}`
-            : undefined,
-        } : undefined,
-        title: baseProduct.title ? `${baseProduct.title} - Variant ${variantNumber}` : undefined,
+        translationKeys: baseProduct.translationKeys
+          ? {
+              title: `${baseProduct.translationKeys.title}.variant${variantNumber}`,
+              description: `${baseProduct.translationKeys.description}.variant${variantNumber}`,
+              featuresKey: baseProduct.translationKeys.featuresKey
+                ? `${baseProduct.translationKeys.featuresKey}.variant${variantNumber}`
+                : undefined,
+            }
+          : undefined,
+        title: baseProduct.title
+          ? `${baseProduct.title} - Variant ${variantNumber}`
+          : undefined,
         description: baseProduct.description,
         features: baseProduct.features,
       };
@@ -9082,7 +9089,7 @@ export const getProductsForSubcategoryPage = (
 };
 
 export const getProductsForSubcategory = (
-  subcategoryKey: string
+  subcategoryKey: string,
 ): Product[] => {
   const subcategory = categories
     .flatMap((cat) => cat.subcategories)
@@ -9104,48 +9111,69 @@ export const getProductImageKey = (product: Product): string => {
 };
 
 // Get product detail by slug for product detail pages
-export const getProductDetailBySlug = (slug: string, t: any, groupSlug?: string) => {
-  const product = products.find(p => p.slug === slug);
-  
+export const getProductDetailBySlug = (
+  slug: string,
+  t: any,
+  groupSlug?: string,
+) => {
+  const product = products.find((p) => p.slug === slug);
+
   if (!product) {
     return null;
   }
 
-  const category = categories.find(cat => cat.key === product.categoryKey);
-  const subcategory = category?.subcategories.find(sub => sub.key === product.subcategoryKey);
+  const category = categories.find((cat) => cat.key === product.categoryKey);
+  const subcategory = category?.subcategories.find(
+    (sub) => sub.key === product.subcategoryKey,
+  );
 
   if (!category || !subcategory) {
     return null;
   }
 
   // Find the product group if groupSlug is provided
-  const productGroup = groupSlug 
-    ? productGroups.find(group => group.slug === groupSlug && group.subcategoryKey === product.subcategoryKey)
+  const productGroup = groupSlug
+    ? productGroups.find(
+        (group) =>
+          group.slug === groupSlug &&
+          group.subcategoryKey === product.subcategoryKey,
+      )
     : null;
 
   // Transform specs into specifications array
   const specifications = Object.entries(product.specs).map(([key, value]) => ({
-    label: key.replace(/([A-Z])/g, ' $1').replace(/^./, str => str.toUpperCase()),
-    value: value.toString()
+    label: key
+      .replace(/([A-Z])/g, " $1")
+      .replace(/^./, (str) => str.toUpperCase()),
+    value: value.toString(),
   }));
 
   // Get translated data - support both translation keys and hardcoded English
-  const title = product.title || (product.translationKeys ? t(product.translationKeys.title) : product.slug);
-  const description = product.description || (product.translationKeys ? t(product.translationKeys.description) : '');
-  const features = product.features || (product.translationKeys?.featuresKey 
-    ? t(product.translationKeys.featuresKey, { returnObjects: true }) 
-    : []);
+  const title =
+    product.title ||
+    (product.translationKeys ? t(product.translationKeys.title) : product.slug);
+  const description =
+    product.description ||
+    (product.translationKeys ? t(product.translationKeys.description) : "");
+  const features =
+    product.features ||
+    (product.translationKeys?.featuresKey
+      ? t(product.translationKeys.featuresKey, { returnObjects: true })
+      : []);
 
   // Determine the correct back path
   let backPath = `/products/${subcategory.key}`;
-  let backLabel = t(`products:categories.${category.key}.subcategories.${subcategory.key}.name`, {
-    defaultValue: subcategory.key.replace('-', ' ').toUpperCase()
-  });
-  
+  let backLabel = t(
+    `products:categories.${category.key}.subcategories.${subcategory.key}.name`,
+    {
+      defaultValue: subcategory.key.replace("-", " ").toUpperCase(),
+    },
+  );
+
   if (productGroup) {
     backPath = `/products/${subcategory.key}/${productGroup.slug}`;
-    backLabel = t(productGroup.titleKey, { 
-      defaultValue: productGroup.key.toUpperCase().replace('-', ' ')
+    backLabel = t(productGroup.titleKey, {
+      defaultValue: productGroup.key.toUpperCase().replace("-", " "),
     });
   }
 
@@ -9156,7 +9184,9 @@ export const getProductDetailBySlug = (slug: string, t: any, groupSlug?: string)
     shortDescription: description,
     fullDescription: description,
     categoryName: t(`products:categories.${category.key}.name`),
-    subcategoryName: t(`products:categories.${category.key}.subcategories.${subcategory.key}.name`),
+    subcategoryName: t(
+      `products:categories.${category.key}.subcategories.${subcategory.key}.name`,
+    ),
     categoryPath: backPath,
     backLabel,
     image: `/generated_images/${product.image}.png`,
@@ -9164,53 +9194,61 @@ export const getProductDetailBySlug = (slug: string, t: any, groupSlug?: string)
     features: Array.isArray(features) ? features : [],
     keyBenefits: Array.isArray(features) ? features.slice(0, 4) : [],
     applications: [
-      'Industrial Automation',
-      'Manufacturing',
-      'Process Control',
-      'Quality Assurance'
+      "Industrial Automation",
+      "Manufacturing",
+      "Process Control",
+      "Quality Assurance",
     ],
     industries: [
-      'Manufacturing',
-      'Automotive', 
-      'Pharmaceutical',
-      'Food & Beverage'
+      "Manufacturing",
+      "Automotive",
+      "Pharmaceutical",
+      "Food & Beverage",
     ],
-    certifications: ['ISO 9001', 'CE Marking'],
+    certifications: ["ISO 9001", "CE Marking"],
     datasheetUrl: product.datasheetUrl,
     seo: {
       title: `${title} | Powerton Engineering`,
       description: description.substring(0, 160),
       keywords: `${title}, ${category.key}, ${subcategory.key}, industrial automation`,
-      canonicalUrl: `https://powertonengineering.com/products/detail/${slug}`
-    }
+      canonicalUrl: `https://powertonengineering.com/products/detail/${slug}`,
+    },
   };
 };
 
 // === Product Group Utility Functions ===
 
 // Get all product groups for a subcategory
-export const getGroupsForSubcategory = (subcategoryKey: string): ProductGroup[] => {
-  return productGroups.filter(group => group.subcategoryKey === subcategoryKey);
+export const getGroupsForSubcategory = (
+  subcategoryKey: string,
+): ProductGroup[] => {
+  return productGroups.filter(
+    (group) => group.subcategoryKey === subcategoryKey,
+  );
 };
 
 // Get product group by slug and subcategory
-export const getProductGroupBySlug = (subcategoryKey: string, groupSlug: string): ProductGroup | undefined => {
-  return productGroups.find(group => 
-    group.subcategoryKey === subcategoryKey && group.slug === groupSlug
+export const getProductGroupBySlug = (
+  subcategoryKey: string,
+  groupSlug: string,
+): ProductGroup | undefined => {
+  return productGroups.find(
+    (group) =>
+      group.subcategoryKey === subcategoryKey && group.slug === groupSlug,
   );
 };
 
 // Get all products for a specific group
 export const getProductsByGroup = (groupKey: string): Product[] => {
-  return products.filter(product => product.typeKey === groupKey);
+  return products.filter((product) => product.typeKey === groupKey);
 };
 
-// Get products for group page 
+// Get products for group page
 export const getProductsForGroupPage = (groupKey: string): Product[] => {
   return getProductsByGroup(groupKey);
 };
 
 // Get all product group slugs for routing
 export const getAllProductGroupSlugs = (): string[] => {
-  return productGroups.map(group => group.slug);
+  return productGroups.map((group) => group.slug);
 };

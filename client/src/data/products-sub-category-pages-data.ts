@@ -109,7 +109,7 @@ export const productsSubCategoryData: ProductSubCategoryData[] = [
   // Instrumentation Components
   {
     slug: "sensors",
-    title: "Sensors",
+    title: "Sensors & Transducers",
     shortDescription:
       "Comprehensive range of industrial-grade sensors for automation and process control",
     fullDescription:
@@ -385,6 +385,76 @@ export const productsSubCategoryData: ProductSubCategoryData[] = [
         "industrial valves, control valves, valve actuators, ball valves, gate valves, safety valves, process valves",
       canonicalUrl:
         "https://powertonengineering.in/products-sub-category/valves",
+    },
+  },
+  {
+    slug: "analyzers",
+    title: "Analyzers",
+    shortDescription:
+      "Advanced gas, liquid, and process analyzers for quality control and monitoring",
+    fullDescription:
+      "Comprehensive range of process analyzers including gas chromatography, liquid analyzers, O2/CO2 analyzers, and specialized measurement instruments for process monitoring and quality control applications.",
+    image: powerQualityAnalyzersImage,
+    parentCategory: "/products-category/instrumentation-components",
+    parentCategoryTitle: "Instrumentation Components",
+    icon: FlaskConical,
+    keyBenefits: [
+      "Process Control Optimization",
+      "Product Quality Assurance",
+      "Regulatory Compliance",
+      "Enhanced Safety Monitoring",
+    ],
+    specifications: [
+      "Measurement Range: ppm to % levels",
+      "Accuracy: ±0.5% of reading",
+      "Response Time: 1-30 seconds",
+      "Operating Temperature: -10°C to +60°C",
+      "Output Signals: 4-20mA, Modbus, Ethernet",
+      "Protection Rating: IP65/IP67",
+    ],
+    applications: [
+      "Gas Composition Analysis",
+      "Liquid Quality Monitoring",
+      "Environmental Monitoring",
+      "Process Optimization",
+      "Quality Assurance",
+      "Safety Monitoring",
+    ],
+    industries: [
+      "Chemical Processing",
+      "Oil & Gas Refining",
+      "Power Generation",
+      "Pharmaceuticals",
+      "Water Treatment",
+      "Food & Beverage",
+    ],
+    features: [
+      "Multi-component Analysis",
+      "Real-time Monitoring",
+      "Automatic Calibration",
+      "Data Logging",
+      "Remote Diagnostics",
+      "Low Maintenance",
+      "Explosion-proof Options",
+      "Web Interface",
+    ],
+    certifications: [
+      "ATEX Certified",
+      "IECEx Approval",
+      "SIL 2 Rated",
+      "FDA 21 CFR Part 11",
+      "CE Marked",
+      "ISO 9001",
+    ],
+    seo: {
+      title:
+        "Process Analyzers - Gas & Liquid Analysis Instruments | Powerton Engineering",
+      description:
+        "Advanced process analyzers for gas chromatography, liquid analysis, and O2/CO2 monitoring. Precision instruments for process control and quality assurance.",
+      keywords:
+        "process analyzers, gas analyzers, liquid analyzers, chromatography, O2 analyzers, CO2 analyzers, process monitoring",
+      canonicalUrl:
+        "https://powertonengineering.in/products-sub-category/analyzers",
     },
   },
 
@@ -809,78 +879,6 @@ export const productsSubCategoryData: ProductSubCategoryData[] = [
     },
   },
 
-  // Measurement Instruments
-  {
-    slug: "multimeters",
-    title: "Digital Multimeters",
-    shortDescription:
-      "Professional digital multimeters for electrical measurements",
-    fullDescription:
-      "High-precision digital multimeters for voltage, current, resistance, frequency, and capacitance measurements in industrial and laboratory applications.",
-    image: multimetersImage,
-    parentCategory: "/products-category/industrial-measuring-tools",
-    parentCategoryTitle: "Industrial & Measuring Tools",
-    icon: Activity,
-    keyBenefits: [
-      "High Accuracy Measurements",
-      "Multiple Function Capability",
-      "Data Logging Features",
-      "Safety Certified",
-    ],
-    specifications: [
-      "DC Voltage: 100mV to 1000V",
-      "AC Voltage: 100mV to 750V",
-      "DC Current: 100µA to 10A",
-      "Resistance: 0Ω to 100MΩ",
-      "Accuracy: ±0.025%",
-      "Display: 50,000 count",
-    ],
-    applications: [
-      "Electrical Testing",
-      "Maintenance Work",
-      "Quality Control",
-      "Research & Development",
-      "Field Service",
-      "Educational Use",
-    ],
-    industries: [
-      "Electrical Services",
-      "Manufacturing",
-      "Automotive",
-      "Electronics",
-      "Power Generation",
-      "Telecommunications",
-    ],
-    features: [
-      "True RMS Measurement",
-      "Data Hold Function",
-      "Min/Max Recording",
-      "Relative Mode",
-      "Auto-ranging",
-      "Backlit Display",
-      "Low Battery Indicator",
-      "Safety Input Design",
-    ],
-    certifications: [
-      "CAT III/IV Safety",
-      "IEC 61010",
-      "UL Listed",
-      "CSA Approved",
-      "CE Marked",
-      "RoHS Compliant",
-    ],
-    seo: {
-      title:
-        "Digital Multimeters - Professional Electrical Test Equipment | Powerton Engineering",
-      description:
-        "Professional digital multimeters for electrical measurements. True RMS multimeters with data logging, high accuracy, and safety certifications for industrial use.",
-      keywords:
-        "digital multimeters, electrical test equipment, True RMS multimeters, voltage meters, current meters, resistance meters",
-      canonicalUrl:
-        "https://powertonengineering.in/products-sub-category/multimeters",
-    },
-  },
-
   // Solar Products
   {
     slug: "solar-panels",
@@ -1023,79 +1021,7 @@ export const productsSubCategoryData: ProductSubCategoryData[] = [
     },
   },
 
-  // BLDC Motor Systems
-  {
-    slug: "bldc-ceiling-fan",
-    title: "BLDC Ceiling Fans",
-    shortDescription:
-      "Energy-efficient brushless DC ceiling fans with smart control features",
-    fullDescription:
-      "Advanced BLDC ceiling fans with superior energy efficiency, low noise operation, and smart control features including remote control and variable speed settings.",
-    image: bldcCeilingFanImage,
-    parentCategory: "/products-category/bldc",
-    parentCategoryTitle: "BLDC Motor Systems",
-    icon: Fan,
-    keyBenefits: [
-      "75% Energy Savings",
-      "Ultra-Quiet Operation",
-      "Remote Control",
-      "Long Service Life",
-    ],
-    specifications: [
-      "Power Consumption: 15-35W",
-      "Speed: 6-Speed Control",
-      "Airflow: 200-400 CMM",
-      "Noise Level: <35dB",
-      "Operating Voltage: 220-240V AC",
-      "Warranty: 3-5 years",
-    ],
-    applications: [
-      "Residential Homes",
-      "Commercial Spaces",
-      "Hotels & Restaurants",
-      "Offices",
-      "Educational Institutions",
-      "Healthcare Facilities",
-    ],
-    industries: [
-      "Residential",
-      "Commercial Buildings",
-      "Hospitality",
-      "Healthcare",
-      "Educational",
-      "Retail",
-    ],
-    features: [
-      "Remote Control",
-      "Variable Speed Control",
-      "Timer Function",
-      "Reverse Mode",
-      "LED Lighting",
-      "Energy Star Rated",
-      "Copper Windings",
-      "Aerodynamic Design",
-    ],
-    certifications: [
-      "BEE Star Rated",
-      "ISI Marked",
-      "CE Certified",
-      "Energy Star",
-      "RoHS Compliant",
-      "FCC Approved",
-    ],
-    seo: {
-      title:
-        "BLDC Ceiling Fans - Energy Efficient Smart Ceiling Fans | Powerton Engineering",
-      description:
-        "Energy-efficient BLDC ceiling fans with remote control, variable speed, and smart features. 75% energy savings with ultra-quiet operation and long service life.",
-      keywords:
-        "BLDC ceiling fans, energy efficient ceiling fans, smart ceiling fans, brushless DC fans, remote control ceiling fans",
-      canonicalUrl:
-        "https://powertonengineering.in/products-sub-category/bldc-ceiling-fan",
-    },
-  },
-
-  // Continue with additional key categories
+  // Automation & Control Systems
   {
     slug: "plcs",
     title: "PLCs (Programmable Logic Controllers)",
@@ -1165,860 +1091,6 @@ export const productsSubCategoryData: ProductSubCategoryData[] = [
       canonicalUrl: "https://powertonengineering.in/products-sub-category/plcs",
     },
   },
-
-  {
-    slug: "centrifugal-pumps",
-    title: "Centrifugal Pumps",
-    shortDescription:
-      "High-efficiency centrifugal pumps for industrial fluid handling",
-    fullDescription:
-      "Robust centrifugal pumps designed for continuous operation with high flow rates, corrosion resistance, and energy-efficient performance for various industrial applications.",
-    image: centrifugalPumpsImage,
-    parentCategory: "/products-category/mechanical-pumps-spares",
-    parentCategoryTitle: "Mechanical Pumps & Spares",
-    icon: RotateCcw,
-    keyBenefits: [
-      "High Flow Rates",
-      "Energy Efficient",
-      "Low Maintenance",
-      "Corrosion Resistant",
-    ],
-    specifications: [
-      "Flow Rate: 10 to 10,000 GPM",
-      "Head: 5 to 500 meters",
-      "Pressure: up to 300 PSI",
-      "Temperature: -20°C to +200°C",
-      "Materials: Cast Iron, Stainless Steel",
-      'Suction Size: 2" to 24"',
-    ],
-    applications: [
-      "Water Supply Systems",
-      "Industrial Processes",
-      "HVAC Systems",
-      "Fire Protection",
-      "Irrigation",
-      "Chemical Transfer",
-    ],
-    industries: [
-      "Water Treatment",
-      "Chemical Processing",
-      "Power Generation",
-      "HVAC Systems",
-      "Agriculture",
-      "Municipal Services",
-    ],
-    features: [
-      "Self-Priming Options",
-      "Back Pullout Design",
-      "Mechanical Seals",
-      "Casing Wear Rings",
-      "Balanced Impellers",
-      "Corrosion Resistant Coatings",
-      "Variable Speed Drive Compatible",
-      "API 610 Compliance",
-    ],
-    certifications: [
-      "API 610",
-      "ISO 9001",
-      "CE Marked",
-      "ANSI/HI Standards",
-      "NSF Certified",
-      "UL Listed",
-    ],
-    seo: {
-      title:
-        "Centrifugal Pumps - Industrial Water & Chemical Pumps | Powerton Engineering",
-      description:
-        "High-efficiency centrifugal pumps for water supply, chemical processing, and industrial applications. API 610 compliant pumps with corrosion resistant materials.",
-      keywords:
-        "centrifugal pumps, industrial pumps, water pumps, chemical pumps, process pumps, API 610 pumps",
-      canonicalUrl:
-        "https://powertonengineering.in/products-sub-category/centrifugal-pumps",
-    },
-  },
-
-  // Additional BLDC Motor Systems
-  {
-    slug: "bldc-cooler-exhaust-motor",
-    title: "BLDC Cooler & Exhaust Motors",
-    shortDescription:
-      "Energy-efficient BLDC motors for cooling and ventilation applications",
-    fullDescription:
-      "High-efficiency brushless DC motors designed for exhaust fans, cooler motors, and ventilation systems with variable speed control and smart operation features.",
-    image: bldcCoolerMotorImage,
-    parentCategory: "/products-category/bldc",
-    parentCategoryTitle: "BLDC Motor Systems",
-    icon: Wind,
-    keyBenefits: [
-      "High Energy Efficiency",
-      "Variable Speed Control",
-      "Low Noise Operation",
-      "Smart Control Features",
-    ],
-    specifications: [
-      "Power Range: 15W to 200W",
-      "Speed Control: Variable",
-      "Voltage: 12V/24V DC",
-      "Operating Temperature: -10°C to +60°C",
-      "Protection: IP54/IP65",
-      "Control: PWM/Remote Control",
-    ],
-    applications: [
-      "Exhaust Fan Systems",
-      "Air Cooler Motors",
-      "Ventilation Systems",
-      "HVAC Applications",
-      "Industrial Cooling",
-      "Residential Fans",
-    ],
-    industries: [
-      "HVAC",
-      "Building Services",
-      "Industrial Manufacturing",
-      "Residential",
-      "Commercial Buildings",
-      "Data Centers",
-    ],
-    features: [
-      "High Efficiency Motor",
-      "Variable Speed Operation",
-      "Remote Control Compatible",
-      "Low Maintenance",
-      "Quiet Operation",
-      "Energy Saving",
-      "Smart Control Features",
-      "Compact Design",
-    ],
-    certifications: [
-      "CE Certified",
-      "RoHS Compliant",
-      "Energy Star Rated",
-      "IEC 60034",
-      "UL Listed",
-      "BIS Approved",
-    ],
-    seo: {
-      title:
-        "BLDC Cooler & Exhaust Motors - Energy Efficient Ventilation Motors | Powerton Engineering",
-      description:
-        "High-efficiency BLDC motors for exhaust fans, coolers, and ventilation systems. Variable speed control with energy savings and smart operation features.",
-      keywords:
-        "BLDC cooler motors, exhaust fan motors, ventilation motors, energy efficient motors, variable speed fans, smart cooler motors",
-      canonicalUrl:
-        "https://powertonengineering.in/products-sub-category/bldc-cooler-exhaust-motor",
-    },
-  },
-  {
-    slug: "bldc-submersible-surface-pump",
-    title: "BLDC Submersible & Surface Pumps",
-    shortDescription:
-      "Solar-compatible BLDC pumps for water supply and irrigation applications",
-    fullDescription:
-      "Advanced BLDC pump systems including submersible and surface pumps with solar compatibility, high efficiency, and intelligent control for water supply and irrigation.",
-    image: bldcSubmersiblePumpImage,
-    parentCategory: "/products-category/bldc",
-    parentCategoryTitle: "BLDC Motor Systems",
-    icon: Droplet,
-    keyBenefits: [
-      "Solar Compatible Operation",
-      "High Pump Efficiency",
-      "Corrosion Resistant Design",
-      "Smart Control System",
-    ],
-    specifications: [
-      "Power Range: 0.5HP to 5HP",
-      "Head Range: 10m to 200m",
-      "Flow Rate: 500 to 10,000 LPH",
-      "Operating Voltage: 24V to 48V DC",
-      "Solar Compatibility: Yes",
-      "Controller: Integrated MPPT",
-    ],
-    applications: [
-      "Solar Water Pumping",
-      "Irrigation Systems",
-      "Domestic Water Supply",
-      "Livestock Watering",
-      "Remote Area Water Supply",
-      "Borewell Applications",
-    ],
-    industries: [
-      "Agriculture",
-      "Solar Energy",
-      "Water Supply",
-      "Rural Development",
-      "Irrigation",
-      "Remote Communities",
-    ],
-    features: [
-      "Solar Power Compatible",
-      "High Efficiency BLDC Motor",
-      "Dry Run Protection",
-      "Variable Speed Control",
-      "Remote Monitoring",
-      "Energy Optimization",
-      "Corrosion Resistant",
-      "Low Maintenance",
-    ],
-    certifications: [
-      "BIS Certified",
-      "CE Marked",
-      "Solar Pump Standard",
-      "IP68 Rating",
-      "IEC 60034",
-      "ISI Mark",
-    ],
-    seo: {
-      title:
-        "BLDC Submersible & Surface Pumps - Solar Water Pumps | Powerton Engineering",
-      description:
-        "Solar-compatible BLDC submersible and surface pumps for irrigation and water supply. High efficiency with intelligent control and remote monitoring.",
-      keywords:
-        "BLDC water pumps, solar submersible pumps, solar surface pumps, irrigation pumps, BLDC pump systems, solar water pumping",
-      canonicalUrl:
-        "https://powertonengineering.in/products-sub-category/bldc-submersible-surface-pump",
-    },
-  },
-  {
-    slug: "bldc-table-fan-wall-fan-motor",
-    title: "BLDC Table & Wall Fan Motors",
-    shortDescription:
-      "Compact BLDC motors for table fans, wall fans, and pedestal fans",
-    fullDescription:
-      "Energy-efficient BLDC motors designed for table fans, wall fans, and pedestal fans with compact design, silent operation, and remote control capabilities.",
-    image: bldcTableFanImage,
-    parentCategory: "/products-category/bldc",
-    parentCategoryTitle: "BLDC Motor Systems",
-    icon: Fan,
-    keyBenefits: [
-      "Compact Design",
-      "Silent Operation",
-      "Remote Control",
-      "Energy Efficient",
-    ],
-    specifications: [
-      "Power Range: 12W to 50W",
-      "Speed Levels: 6-Speed Control",
-      "Voltage: 220-240V AC",
-      "Noise Level: <35dB",
-      "Control: Remote/Touch Panel",
-      "Timer Function: Available",
-    ],
-    applications: [
-      "Table Fan Applications",
-      "Wall Mount Fans",
-      "Pedestal Fans",
-      "Desk Fans",
-      "Personal Cooling",
-      "Office Fans",
-    ],
-    industries: [
-      "Home Appliances",
-      "Office Equipment",
-      "Personal Care",
-      "Electronics",
-      "Consumer Goods",
-      "HVAC",
-    ],
-    features: [
-      "Compact Motor Design",
-      "Silent Operation",
-      "Remote Control Compatible",
-      "Timer Function",
-      "Height Adjustment",
-      "Oscillating Function",
-      "LED Display",
-      "Sleep Mode",
-    ],
-    certifications: [
-      "BIS Certified",
-      "CE Marked",
-      "Energy Star",
-      "RoHS Compliant",
-      "FCC Approved",
-      "ISI Mark",
-    ],
-    seo: {
-      title:
-        "BLDC Table & Wall Fan Motors - Compact Energy Efficient Fan Motors | Powerton Engineering",
-      description:
-        "Compact BLDC motors for table fans, wall fans, and pedestal fans. Silent operation with remote control and energy-efficient performance.",
-      keywords:
-        "BLDC table fan motors, wall fan motors, pedestal fan motors, compact fan motors, energy efficient fan motors, silent fan motors",
-      canonicalUrl:
-        "https://powertonengineering.in/products-sub-category/bldc-table-fan-wall-fan-motor",
-    },
-  },
-
-  // Additional Measurement Instruments
-  {
-    slug: "calibration-equipment",
-    title: "Calibration Equipment",
-    shortDescription:
-      "Precision calibration instruments for maintaining measurement accuracy",
-    fullDescription:
-      "Comprehensive calibration solutions including process calibrators, temperature calibrators, and pressure calibrators for maintaining measurement accuracy and compliance.",
-    image: calibrationImage,
-    parentCategory: "/products-category/industrial-measuring-tools",
-    parentCategoryTitle: "Industrial & Measuring Tools",
-    icon: Target,
-    keyBenefits: [
-      "Precision Calibration",
-      "Measurement Traceability",
-      "Multi-Function Capability",
-      "Data Logging Features",
-    ],
-    specifications: [
-      "Accuracy: ±0.025% of reading",
-      "Temperature Range: -200°C to +1000°C",
-      "Pressure Range: 0 to 10,000 PSI",
-      "Electrical: 0-30V, 0-25mA",
-      "Communication: HART, USB",
-      "Display: Large LCD with backlight",
-    ],
-    applications: [
-      "Process Calibration",
-      "Temperature Calibration",
-      "Pressure Calibration",
-      "Electrical Calibration",
-      "Maintenance Operations",
-      "Quality Assurance",
-    ],
-    industries: [
-      "Process Industries",
-      "Calibration Labs",
-      "Pharmaceutical",
-      "Oil & Gas",
-      "Power Generation",
-      "Manufacturing",
-    ],
-    features: [
-      "Multi-Function Design",
-      "High Accuracy",
-      "HART Communication",
-      "Data Logging",
-      "Auto-stepping",
-      "Portable Design",
-      "Battery Operation",
-      "Traceable Standards",
-    ],
-    certifications: [
-      "NIST Traceable",
-      "ISO 17025",
-      "CE Marked",
-      "UKAS Accredited",
-      "A2LA Certified",
-      "NABL Approved",
-    ],
-    seo: {
-      title:
-        "Calibration Equipment - Process & Temperature Calibrators | Powerton Engineering",
-      description:
-        "Precision calibration equipment for process, temperature, and pressure calibration. NIST traceable calibrators with data logging and HART communication.",
-      keywords:
-        "calibration equipment, process calibrators, temperature calibrators, pressure calibrators, precision calibration, NIST traceable",
-      canonicalUrl:
-        "https://powertonengineering.in/products-sub-category/calibration-equipment",
-    },
-  },
-
-  // Additional Mechanical Pumps & Spares
-  {
-    slug: "diaphragm-pumps",
-    title: "Diaphragm Pumps",
-    shortDescription:
-      "Positive displacement diaphragm pumps for chemical transfer applications",
-    fullDescription:
-      "Complete range of diaphragm pumps including air-operated, electric, and hydraulic models for chemical transfer, metering, and dosing applications.",
-    image: diaphragmPumpsImage,
-    parentCategory: "/products-category/mechanical-pumps-spares",
-    parentCategoryTitle: "Mechanical Pumps & Spares",
-    icon: Droplets,
-    keyBenefits: [
-      "Self-Priming Operation",
-      "Chemical Resistant",
-      "Precise Metering",
-      "Dry Run Safe",
-    ],
-    specifications: [
-      "Flow Rate: 0.1 to 2000 LPM",
-      "Pressure: up to 17 bar",
-      "Temperature: -40°C to +150°C",
-      "Materials: PTFE, PP, SS316",
-      "Suction Lift: up to 9m",
-      "Viscosity: up to 50,000 cPs",
-    ],
-    applications: [
-      "Chemical Transfer",
-      "Metering & Dosing",
-      "Abrasive Fluids",
-      "Slurry Handling",
-      "Paint & Coatings",
-      "Food Processing",
-    ],
-    industries: [
-      "Chemical Processing",
-      "Water Treatment",
-      "Food & Beverage",
-      "Pharmaceutical",
-      "Paint & Coatings",
-      "Mining",
-    ],
-    features: [
-      "Self-Priming",
-      "Dry Run Safe",
-      "Chemical Resistant",
-      "Variable Flow",
-      "Precise Metering",
-      "Low Pulsation",
-      "Easy Maintenance",
-      "Leak-Free Operation",
-    ],
-    certifications: [
-      "ATEX Certified",
-      "CE Marked",
-      "FDA Approved",
-      "3A Sanitary",
-      "EHEDG Certified",
-      "ISO 9001",
-    ],
-    seo: {
-      title:
-        "Diaphragm Pumps - Chemical Transfer & Metering Pumps | Powerton Engineering",
-      description:
-        "Industrial diaphragm pumps for chemical transfer and metering applications. Self-priming, dry-run safe pumps with chemical resistant materials.",
-      keywords:
-        "diaphragm pumps, chemical pumps, metering pumps, dosing pumps, air operated pumps, positive displacement pumps",
-      canonicalUrl:
-        "https://powertonengineering.in/products-sub-category/diaphragm-pumps",
-    },
-  },
-  {
-    slug: "gear-pumps",
-    title: "Gear Pumps",
-    shortDescription:
-      "Positive displacement gear pumps for high-viscosity fluids",
-    fullDescription:
-      "Precision gear pumps including external gear, internal gear, and magnetic drive models for handling viscous fluids and precise flow applications.",
-    image: gearPumpsImage,
-    parentCategory: "/products-category/mechanical-pumps-spares",
-    parentCategoryTitle: "Mechanical Pumps & Spares",
-    icon: Settings,
-    keyBenefits: [
-      "High Pressure Capability",
-      "Viscous Fluid Handling",
-      "Precise Flow Control",
-      "Self-Priming Design",
-    ],
-    specifications: [
-      "Flow Rate: 0.5 to 500 LPM",
-      "Pressure: up to 250 bar",
-      "Viscosity: up to 1,000,000 cPs",
-      "Temperature: -10°C to +350°C",
-      "Materials: Cast Iron, SS316, Bronze",
-      "Accuracy: ±1% flow repeatability",
-    ],
-    applications: [
-      "Viscous Fluid Transfer",
-      "Lubrication Systems",
-      "Fuel Oil Transfer",
-      "Chemical Processing",
-      "Food Processing",
-      "Polymer Handling",
-    ],
-    industries: [
-      "Chemical Processing",
-      "Oil & Gas",
-      "Food & Beverage",
-      "Pharmaceutical",
-      "Plastics",
-      "Automotive",
-    ],
-    features: [
-      "High Pressure",
-      "Viscous Fluids",
-      "Precise Flow",
-      "Self-Priming",
-      "Low Pulsation",
-      "Gentle Handling",
-      "Easy Maintenance",
-      "No Mechanical Seal",
-    ],
-    certifications: [
-      "API 676",
-      "CE Marked",
-      "ATEX Approved",
-      "FDA Compliant",
-      "3A Sanitary",
-      "ISO 9001",
-    ],
-    seo: {
-      title:
-        "Gear Pumps - High Pressure Positive Displacement Pumps | Powerton Engineering",
-      description:
-        "Industrial gear pumps for viscous fluids and high-pressure applications. External gear, internal gear, and magnetic drive pumps for precise flow control.",
-      keywords:
-        "gear pumps, positive displacement pumps, viscous fluid pumps, high pressure pumps, precision pumps, industrial pumps",
-      canonicalUrl:
-        "https://powertonengineering.in/products-sub-category/gear-pumps",
-    },
-  },
-
-  // Additional Automation & Control Systems
-  {
-    slug: "hmi",
-    title: "Human Machine Interface (HMI)",
-    shortDescription:
-      "Industrial HMI panels and operator interfaces for process control",
-    fullDescription:
-      "Advanced HMI solutions including touchscreen panels, operator interfaces, and mobile HMI systems for industrial automation and process control applications.",
-    image: hmiImage,
-    parentCategory: "/products-category/automation-control-systems",
-    parentCategoryTitle: "Automation & Control Systems",
-    icon: Monitor,
-    keyBenefits: [
-      "Touchscreen Operation",
-      "Industrial Grade Design",
-      "Real-Time Display",
-      "Multi-Protocol Support",
-    ],
-    specifications: [
-      'Screen Size: 4" to 21"',
-      "Resolution: 480x272 to 1920x1080",
-      "Touch Type: Resistive/Capacitive",
-      "Operating Temperature: -20°C to +70°C",
-      "Protection: IP65 front panel",
-      "Communication: Ethernet, Serial, USB",
-    ],
-    applications: [
-      "Process Monitoring",
-      "Machine Control",
-      "Data Visualization",
-      "Alarm Management",
-      "Recipe Management",
-      "Operator Interface",
-    ],
-    industries: [
-      "Manufacturing",
-      "Process Industries",
-      "Water Treatment",
-      "Power Generation",
-      "Food & Beverage",
-      "Pharmaceutical",
-    ],
-    features: [
-      "Touchscreen Interface",
-      "Industrial Grade",
-      "Real-Time Display",
-      "Multi-Protocol",
-      "Web-Based Access",
-      "Alarm Management",
-      "Data Logging",
-      "Recipe Management",
-    ],
-    certifications: [
-      "CE Marked",
-      "UL Listed",
-      "FCC Class A",
-      "IEC 61131",
-      "NEMA 4X",
-      "IP65 Rated",
-    ],
-    seo: {
-      title:
-        "Human Machine Interface (HMI) - Industrial Touchscreen Panels | Powerton Engineering",
-      description:
-        "Industrial HMI panels and touchscreen interfaces for process control and automation. Multi-protocol support with real-time monitoring and control.",
-      keywords:
-        "HMI panels, human machine interface, touchscreen panels, operator interface, industrial displays, process control HMI",
-      canonicalUrl: "https://powertonengineering.in/products-sub-category/hmi",
-    },
-  },
-
-  // Additional Safety & Protective Devices
-  {
-    slug: "safety-equipment",
-    title: "Safety Equipment",
-    shortDescription:
-      "Industrial safety equipment and personal protective devices",
-    fullDescription:
-      "Comprehensive safety solutions including personal protective equipment, fall protection systems, and gas detection equipment for industrial safety compliance.",
-    image: safetyEquipmentImage,
-    parentCategory: "/products-category/safety-protective-devices",
-    parentCategoryTitle: "Safety & Protective Devices",
-    icon: HardHat,
-    keyBenefits: [
-      "Personnel Safety",
-      "OSHA Compliance",
-      "Fall Protection",
-      "Gas Detection",
-    ],
-    specifications: [
-      "Protection Standards: ANSI, EN, CSA",
-      "Materials: High-impact resistant",
-      "Operating Temperature: -30°C to +60°C",
-      "Detection Range: 0-100% LEL",
-      "Battery Life: 12+ hours",
-      "Certification: ATEX, UL, CSA",
-    ],
-    applications: [
-      "Personal Protection",
-      "Fall Protection",
-      "Gas Detection",
-      "Emergency Response",
-      "Confined Space Entry",
-      "Industrial Safety",
-    ],
-    industries: [
-      "Oil & Gas",
-      "Construction",
-      "Manufacturing",
-      "Chemical Processing",
-      "Mining",
-      "Utilities",
-    ],
-    features: [
-      "Hard Hats & Helmets",
-      "Safety Glasses",
-      "Hearing Protection",
-      "Work Gloves",
-      "Fall Protection",
-      "Gas Detection",
-      "Emergency Equipment",
-      "Safety Training",
-    ],
-    certifications: [
-      "ANSI Z87.1",
-      "OSHA Approved",
-      "EN 397",
-      "CSA Z94.1",
-      "ATEX Certified",
-      "UL Listed",
-    ],
-    seo: {
-      title:
-        "Industrial Safety Equipment - PPE & Fall Protection | Powerton Engineering",
-      description:
-        "Industrial safety equipment including PPE, fall protection systems, and gas detection equipment. OSHA compliant safety solutions for workplace protection.",
-      keywords:
-        "safety equipment, PPE, personal protective equipment, fall protection, gas detection, industrial safety, workplace safety",
-      canonicalUrl:
-        "https://powertonengineering.in/products-sub-category/safety-equipment",
-    },
-  },
-  {
-    slug: "intrinsically-safe-equipment",
-    title: "Intrinsically Safe Equipment",
-    shortDescription:
-      "Explosion-proof and intrinsically safe equipment for hazardous areas",
-    fullDescription:
-      "Certified intrinsically safe and explosion-proof equipment including barriers, isolators, and enclosures for hazardous location applications.",
-    image: intrinsicallySafeImage,
-    parentCategory: "/products-category/safety-protective-devices",
-    parentCategoryTitle: "Safety & Protective Devices",
-    icon: Shield,
-    keyBenefits: [
-      "ATEX Certified",
-      "Explosion Proof",
-      "Intrinsic Safety",
-      "Hazardous Area Approved",
-    ],
-    specifications: [
-      "Zone Rating: Zone 0/1/2, Div 1/2",
-      "Temperature Class: T1 to T6",
-      "Protection: Ex ia, Ex d, Ex e",
-      "Voltage: 12V to 250V",
-      "Current: 4-20mA, 0-10V",
-      "Certification: ATEX, IECEx, UL",
-    ],
-    applications: [
-      "Hazardous Area Instrumentation",
-      "Signal Isolation",
-      "Explosion-Proof Housing",
-      "Intrinsic Safety Barriers",
-      "Gas Detection Systems",
-      "Emergency Shutdown",
-    ],
-    industries: [
-      "Oil & Gas",
-      "Petrochemical",
-      "Chemical Processing",
-      "Pharmaceutical",
-      "Mining",
-      "Paint & Coatings",
-    ],
-    features: [
-      "ATEX/IECEx Certified",
-      "Zone 0/1/2 Approved",
-      "Galvanic Isolation",
-      "Entity Concept",
-      "Hart Transparency",
-      "Explosion-Proof Design",
-      "Intrinsic Safety",
-      "Flameproof Enclosures",
-    ],
-    certifications: [
-      "ATEX Certified",
-      "IECEx Approved",
-      "UL Class I Div 1",
-      "CSA Certified",
-      "BASEEFA Approved",
-      "TIIS Certified",
-    ],
-    seo: {
-      title:
-        "Intrinsically Safe Equipment - ATEX Certified Hazardous Area Equipment | Powerton Engineering",
-      description:
-        "ATEX certified intrinsically safe equipment for hazardous areas. Explosion-proof barriers, isolators, and enclosures for Zone 0/1/2 applications.",
-      keywords:
-        "intrinsically safe equipment, ATEX certified, explosion proof, hazardous area equipment, safety barriers, Ex d enclosures",
-      canonicalUrl:
-        "https://powertonengineering.in/products-sub-category/intrinsically-safe-equipment",
-    },
-  },
-
-  // Additional Measurement Instruments - Missing Pages
-  {
-    slug: "power-quality-analyzers",
-    title: "Power Quality Analyzers",
-    shortDescription:
-      "Advanced power quality analyzers for electrical system monitoring and analysis",
-    fullDescription:
-      "Comprehensive power quality measurement instruments for monitoring voltage, current, harmonics, flicker, and power parameters in electrical distribution systems.",
-    image: powerQualityAnalyzerImage,
-    parentCategory: "/products-category/industrial-measuring-tools",
-    parentCategoryTitle: "Industrial & Measuring Tools",
-    icon: Activity,
-    keyBenefits: [
-      "Power Quality Monitoring",
-      "Harmonic Analysis",
-      "Energy Measurement",
-      "Compliance Testing",
-    ],
-    specifications: [
-      "Voltage Range: 10V to 1000V RMS",
-      "Current Range: 1A to 6000A",
-      "Frequency: 40 Hz to 70 Hz",
-      "Harmonics: up to 63rd order",
-      "Accuracy: Class 0.1S",
-      "Memory: 8GB internal storage",
-    ],
-    applications: [
-      "Power Quality Monitoring",
-      "Energy Auditing",
-      "Harmonic Analysis",
-      "Load Studies",
-      "Troubleshooting",
-      "Compliance Testing",
-    ],
-    industries: [
-      "Electrical Utilities",
-      "Industrial Manufacturing",
-      "Data Centers",
-      "Healthcare Facilities",
-      "Commercial Buildings",
-      "Renewable Energy",
-    ],
-    features: [
-      "Multi-channel Measurement",
-      "Real-time Monitoring",
-      "Waveform Capture",
-      "Event Recording",
-      "GPS Time Sync",
-      "Web-based Interface",
-      "Data Logging",
-      "Alarm Management",
-    ],
-    certifications: [
-      "IEC 61000-4-30",
-      "IEEE 1159",
-      "EN 50160",
-      "NIST Traceable",
-      "CE Marked",
-      "UL Listed",
-    ],
-    seo: {
-      title:
-        "Power Quality Analyzers - Electrical System Monitoring | Powerton Engineering",
-      description:
-        "Advanced power quality analyzers for electrical system monitoring, harmonic analysis, and energy measurement. IEC 61000-4-30 compliant instruments.",
-      keywords:
-        "power quality analyzers, electrical monitoring, harmonic analysis, energy measurement, power meters, electrical testing",
-      canonicalUrl:
-        "https://powertonengineering.in/products-sub-category/power-quality-analyzers",
-    },
-  },
-  {
-    slug: "analyzers",
-    title: "Process Analyzers",
-    shortDescription:
-      "Advanced gas, liquid, and process analyzers for quality control and monitoring",
-    fullDescription:
-      "Comprehensive range of process analyzers including gas chromatography, liquid analyzers, O2/CO2 analyzers, and specialized measurement instruments for process monitoring and quality control applications.",
-    image: powerQualityAnalyzersImage,
-    parentCategory: "/products-category/instrumentation-components",
-    parentCategoryTitle: "Instrumentation Components",
-    icon: FlaskConical,
-    keyBenefits: [
-      "Process Control Optimization",
-      "Product Quality Assurance",
-      "Regulatory Compliance",
-      "Enhanced Safety Monitoring",
-    ],
-    specifications: [
-      "Measurement Range: ppm to % levels",
-      "Accuracy: ±0.5% of reading",
-      "Response Time: 1-30 seconds",
-      "Operating Temperature: -10°C to +60°C",
-      "Output Signals: 4-20mA, Modbus, Ethernet",
-      "Protection Rating: IP65/IP67",
-    ],
-    applications: [
-      "Gas Composition Analysis",
-      "Liquid Quality Monitoring",
-      "Environmental Monitoring",
-      "Process Optimization",
-      "Quality Assurance",
-      "Safety Monitoring",
-    ],
-    industries: [
-      "Chemical Processing",
-      "Oil & Gas Refining",
-      "Power Generation",
-      "Pharmaceuticals",
-      "Water Treatment",
-      "Food & Beverage",
-    ],
-    features: [
-      "Multi-component Analysis",
-      "Real-time Monitoring",
-      "Automatic Calibration",
-      "Data Logging",
-      "Remote Diagnostics",
-      "Low Maintenance",
-      "Explosion-proof Options",
-      "Web Interface",
-    ],
-    certifications: [
-      "ATEX Certified",
-      "IECEx Approval",
-      "SIL 2 Rated",
-      "FDA 21 CFR Part 11",
-      "CE Marked",
-      "ISO 9001",
-    ],
-    seo: {
-      title:
-        "Process Analyzers - Gas & Liquid Analysis Instruments | Powerton Engineering",
-      description:
-        "Advanced process analyzers for gas chromatography, liquid analysis, and O2/CO2 monitoring. Precision instruments for process control and quality assurance.",
-      keywords:
-        "process analyzers, gas analyzers, liquid analyzers, chromatography, O2 analyzers, CO2 analyzers, process monitoring",
-      canonicalUrl:
-        "https://powertonengineering.in/products-sub-category/analyzers",
-    },
-  },
-
-  // Additional Automation & Control Systems - Missing Pages
   {
     slug: "scada",
     title: "SCADA Systems",
@@ -2158,8 +1230,77 @@ export const productsSubCategoryData: ProductSubCategoryData[] = [
       canonicalUrl: "https://powertonengineering.in/products-sub-category/dcs",
     },
   },
+  {
+    slug: "hmi",
+    title: "Human Machine Interface (HMI)",
+    shortDescription:
+      "Industrial HMI panels and operator interfaces for process control",
+    fullDescription:
+      "Advanced HMI solutions including touchscreen panels, operator interfaces, and mobile HMI systems for industrial automation and process control applications.",
+    image: hmiImage,
+    parentCategory: "/products-category/automation-control-systems",
+    parentCategoryTitle: "Automation & Control Systems",
+    icon: Monitor,
+    keyBenefits: [
+      "Touchscreen Operation",
+      "Industrial Grade Design",
+      "Real-Time Display",
+      "Multi-Protocol Support",
+    ],
+    specifications: [
+      'Screen Size: 4" to 21"',
+      "Resolution: 480x272 to 1920x1080",
+      "Touch Type: Resistive/Capacitive",
+      "Operating Temperature: -20°C to +70°C",
+      "Protection: IP65 front panel",
+      "Communication: Ethernet, Serial, USB",
+    ],
+    applications: [
+      "Process Monitoring",
+      "Machine Control",
+      "Data Visualization",
+      "Alarm Management",
+      "Recipe Management",
+      "Operator Interface",
+    ],
+    industries: [
+      "Manufacturing",
+      "Process Industries",
+      "Water Treatment",
+      "Power Generation",
+      "Food & Beverage",
+      "Pharmaceutical",
+    ],
+    features: [
+      "Touchscreen Interface",
+      "Industrial Grade",
+      "Real-Time Display",
+      "Multi-Protocol",
+      "Web-Based Access",
+      "Alarm Management",
+      "Data Logging",
+      "Recipe Management",
+    ],
+    certifications: [
+      "CE Marked",
+      "UL Listed",
+      "FCC Class A",
+      "IEC 61131",
+      "NEMA 4X",
+      "IP65 Rated",
+    ],
+    seo: {
+      title:
+        "Human Machine Interface (HMI) - Industrial Touchscreen Panels | Powerton Engineering",
+      description:
+        "Industrial HMI panels and touchscreen interfaces for process control and automation. Multi-protocol support with real-time monitoring and control.",
+      keywords:
+        "HMI panels, human machine interface, touchscreen panels, operator interface, industrial displays, process control HMI",
+      canonicalUrl: "https://powertonengineering.in/products-sub-category/hmi",
+    },
+  },
 
-  // Additional Safety & Protective Devices - Missing Pages
+  // Safety & Protective Devices
   {
     slug: "surge-protectors",
     title: "Surge Protectors",
@@ -2370,8 +1511,358 @@ export const productsSubCategoryData: ProductSubCategoryData[] = [
         "https://powertonengineering.in/products-sub-category/safety-relays-switches",
     },
   },
+  {
+    slug: "intrinsically-safe-equipment",
+    title: "Intrinsically Safe Equipment",
+    shortDescription:
+      "Explosion-proof and intrinsically safe equipment for hazardous areas",
+    fullDescription:
+      "Certified intrinsically safe and explosion-proof equipment including barriers, isolators, and enclosures for hazardous location applications.",
+    image: intrinsicallySafeImage,
+    parentCategory: "/products-category/safety-protective-devices",
+    parentCategoryTitle: "Safety & Protective Devices",
+    icon: Shield,
+    keyBenefits: [
+      "ATEX Certified",
+      "Explosion Proof",
+      "Intrinsic Safety",
+      "Hazardous Area Approved",
+    ],
+    specifications: [
+      "Zone Rating: Zone 0/1/2, Div 1/2",
+      "Temperature Class: T1 to T6",
+      "Protection: Ex ia, Ex d, Ex e",
+      "Voltage: 12V to 250V",
+      "Current: 4-20mA, 0-10V",
+      "Certification: ATEX, IECEx, UL",
+    ],
+    applications: [
+      "Hazardous Area Instrumentation",
+      "Signal Isolation",
+      "Explosion-Proof Housing",
+      "Intrinsic Safety Barriers",
+      "Gas Detection Systems",
+      "Emergency Shutdown",
+    ],
+    industries: [
+      "Oil & Gas",
+      "Petrochemical",
+      "Chemical Processing",
+      "Pharmaceutical",
+      "Mining",
+      "Paint & Coatings",
+    ],
+    features: [
+      "ATEX/IECEx Certified",
+      "Zone 0/1/2 Approved",
+      "Galvanic Isolation",
+      "Entity Concept",
+      "Hart Transparency",
+      "Explosion-Proof Design",
+      "Intrinsic Safety",
+      "Flameproof Enclosures",
+    ],
+    certifications: [
+      "ATEX Certified",
+      "IECEx Approved",
+      "UL Class I Div 1",
+      "CSA Certified",
+      "BASEEFA Approved",
+      "TIIS Certified",
+    ],
+    seo: {
+      title:
+        "Intrinsically Safe Equipment - ATEX Certified Hazardous Area Equipment | Powerton Engineering",
+      description:
+        "ATEX certified intrinsically safe equipment for hazardous areas. Explosion-proof barriers, isolators, and enclosures for Zone 0/1/2 applications.",
+      keywords:
+        "intrinsically safe equipment, ATEX certified, explosion proof, hazardous area equipment, safety barriers, Ex d enclosures",
+      canonicalUrl:
+        "https://powertonengineering.in/products-sub-category/intrinsically-safe-equipment",
+    },
+  },
+  {
+    slug: "safety-equipment",
+    title: "Safety Equipment",
+    shortDescription:
+      "Industrial safety equipment and personal protective devices",
+    fullDescription:
+      "Comprehensive safety solutions including personal protective equipment, fall protection systems, and gas detection equipment for industrial safety compliance.",
+    image: safetyEquipmentImage,
+    parentCategory: "/products-category/safety-protective-devices",
+    parentCategoryTitle: "Safety & Protective Devices",
+    icon: HardHat,
+    keyBenefits: [
+      "Personnel Safety",
+      "OSHA Compliance",
+      "Fall Protection",
+      "Gas Detection",
+    ],
+    specifications: [
+      "Protection Standards: ANSI, EN, CSA",
+      "Materials: High-impact resistant",
+      "Operating Temperature: -30°C to +60°C",
+      "Detection Range: 0-100% LEL",
+      "Battery Life: 12+ hours",
+      "Certification: ATEX, UL, CSA",
+    ],
+    applications: [
+      "Personal Protection",
+      "Fall Protection",
+      "Gas Detection",
+      "Emergency Response",
+      "Confined Space Entry",
+      "Industrial Safety",
+    ],
+    industries: [
+      "Oil & Gas",
+      "Construction",
+      "Manufacturing",
+      "Chemical Processing",
+      "Mining",
+      "Utilities",
+    ],
+    features: [
+      "Hard Hats & Helmets",
+      "Safety Glasses",
+      "Hearing Protection",
+      "Work Gloves",
+      "Fall Protection",
+      "Gas Detection",
+      "Emergency Equipment",
+      "Safety Training",
+    ],
+    certifications: [
+      "ANSI Z87.1",
+      "OSHA Approved",
+      "EN 397",
+      "CSA Z94.1",
+      "ATEX Certified",
+      "UL Listed",
+    ],
+    seo: {
+      title:
+        "Industrial Safety Equipment - PPE & Fall Protection | Powerton Engineering",
+      description:
+        "Industrial safety equipment including PPE, fall protection systems, and gas detection equipment. OSHA compliant safety solutions for workplace protection.",
+      keywords:
+        "safety equipment, PPE, personal protective equipment, fall protection, gas detection, industrial safety, workplace safety",
+      canonicalUrl:
+        "https://powertonengineering.in/products-sub-category/safety-equipment",
+    },
+  },
 
-  // Additional Mechanical Pumps & Spares - Missing Pages
+  // Mechanical Pumps & Spares
+  {
+    slug: "centrifugal-pumps",
+    title: "Centrifugal Pumps",
+    shortDescription:
+      "High-efficiency centrifugal pumps for industrial fluid handling",
+    fullDescription:
+      "Robust centrifugal pumps designed for continuous operation with high flow rates, corrosion resistance, and energy-efficient performance for various industrial applications.",
+    image: centrifugalPumpsImage,
+    parentCategory: "/products-category/mechanical-pumps-spares",
+    parentCategoryTitle: "Mechanical Pumps & Spares",
+    icon: RotateCcw,
+    keyBenefits: [
+      "High Flow Rates",
+      "Energy Efficient",
+      "Low Maintenance",
+      "Corrosion Resistant",
+    ],
+    specifications: [
+      "Flow Rate: 10 to 10,000 GPM",
+      "Head: 5 to 500 meters",
+      "Pressure: up to 300 PSI",
+      "Temperature: -20°C to +200°C",
+      "Materials: Cast Iron, Stainless Steel",
+      'Suction Size: 2" to 24"',
+    ],
+    applications: [
+      "Water Supply Systems",
+      "Industrial Processes",
+      "HVAC Systems",
+      "Fire Protection",
+      "Irrigation",
+      "Chemical Transfer",
+    ],
+    industries: [
+      "Water Treatment",
+      "Chemical Processing",
+      "Power Generation",
+      "HVAC Systems",
+      "Agriculture",
+      "Municipal Services",
+    ],
+    features: [
+      "Self-Priming Options",
+      "Back Pullout Design",
+      "Mechanical Seals",
+      "Casing Wear Rings",
+      "Balanced Impellers",
+      "Corrosion Resistant Coatings",
+      "Variable Speed Drive Compatible",
+      "API 610 Compliance",
+    ],
+    certifications: [
+      "API 610",
+      "ISO 9001",
+      "CE Marked",
+      "ANSI/HI Standards",
+      "NSF Certified",
+      "UL Listed",
+    ],
+    seo: {
+      title:
+        "Centrifugal Pumps - Industrial Water & Chemical Pumps | Powerton Engineering",
+      description:
+        "High-efficiency centrifugal pumps for water supply, chemical processing, and industrial applications. API 610 compliant pumps with corrosion resistant materials.",
+      keywords:
+        "centrifugal pumps, industrial pumps, water pumps, chemical pumps, process pumps, API 610 pumps",
+      canonicalUrl:
+        "https://powertonengineering.in/products-sub-category/centrifugal-pumps",
+    },
+  },
+  {
+    slug: "diaphragm-pumps",
+    title: "Diaphragm Pumps",
+    shortDescription:
+      "Positive displacement diaphragm pumps for chemical transfer applications",
+    fullDescription:
+      "Complete range of diaphragm pumps including air-operated, electric, and hydraulic models for chemical transfer, metering, and dosing applications.",
+    image: diaphragmPumpsImage,
+    parentCategory: "/products-category/mechanical-pumps-spares",
+    parentCategoryTitle: "Mechanical Pumps & Spares",
+    icon: Droplets,
+    keyBenefits: [
+      "Self-Priming Operation",
+      "Chemical Resistant",
+      "Precise Metering",
+      "Dry Run Safe",
+    ],
+    specifications: [
+      "Flow Rate: 0.1 to 2000 LPM",
+      "Pressure: up to 17 bar",
+      "Temperature: -40°C to +150°C",
+      "Materials: PTFE, PP, SS316",
+      "Suction Lift: up to 9m",
+      "Viscosity: up to 50,000 cPs",
+    ],
+    applications: [
+      "Chemical Transfer",
+      "Metering & Dosing",
+      "Abrasive Fluids",
+      "Slurry Handling",
+      "Paint & Coatings",
+      "Food Processing",
+    ],
+    industries: [
+      "Chemical Processing",
+      "Water Treatment",
+      "Food & Beverage",
+      "Pharmaceutical",
+      "Paint & Coatings",
+      "Mining",
+    ],
+    features: [
+      "Self-Priming",
+      "Dry Run Safe",
+      "Chemical Resistant",
+      "Variable Flow",
+      "Precise Metering",
+      "Low Pulsation",
+      "Easy Maintenance",
+      "Leak-Free Operation",
+    ],
+    certifications: [
+      "ATEX Certified",
+      "CE Marked",
+      "FDA Approved",
+      "3A Sanitary",
+      "EHEDG Certified",
+      "ISO 9001",
+    ],
+    seo: {
+      title:
+        "Diaphragm Pumps - Chemical Transfer & Metering Pumps | Powerton Engineering",
+      description:
+        "Industrial diaphragm pumps for chemical transfer and metering applications. Self-priming, dry-run safe pumps with chemical resistant materials.",
+      keywords:
+        "diaphragm pumps, chemical pumps, metering pumps, dosing pumps, air operated pumps, positive displacement pumps",
+      canonicalUrl:
+        "https://powertonengineering.in/products-sub-category/diaphragm-pumps",
+    },
+  },
+  {
+    slug: "gear-pumps",
+    title: "Gear Pumps",
+    shortDescription:
+      "Positive displacement gear pumps for high-viscosity fluids",
+    fullDescription:
+      "Precision gear pumps including external gear, internal gear, and magnetic drive models for handling viscous fluids and precise flow applications.",
+    image: gearPumpsImage,
+    parentCategory: "/products-category/mechanical-pumps-spares",
+    parentCategoryTitle: "Mechanical Pumps & Spares",
+    icon: Settings,
+    keyBenefits: [
+      "High Pressure Capability",
+      "Viscous Fluid Handling",
+      "Precise Flow Control",
+      "Self-Priming Design",
+    ],
+    specifications: [
+      "Flow Rate: 0.5 to 500 LPM",
+      "Pressure: up to 250 bar",
+      "Viscosity: up to 1,000,000 cPs",
+      "Temperature: -10°C to +350°C",
+      "Materials: Cast Iron, SS316, Bronze",
+      "Accuracy: ±1% flow repeatability",
+    ],
+    applications: [
+      "Viscous Fluid Transfer",
+      "Lubrication Systems",
+      "Fuel Oil Transfer",
+      "Chemical Processing",
+      "Food Processing",
+      "Polymer Handling",
+    ],
+    industries: [
+      "Chemical Processing",
+      "Oil & Gas",
+      "Food & Beverage",
+      "Pharmaceutical",
+      "Plastics",
+      "Automotive",
+    ],
+    features: [
+      "High Pressure",
+      "Viscous Fluids",
+      "Precise Flow",
+      "Self-Priming",
+      "Low Pulsation",
+      "Gentle Handling",
+      "Easy Maintenance",
+      "No Mechanical Seal",
+    ],
+    certifications: [
+      "API 676",
+      "CE Marked",
+      "ATEX Approved",
+      "FDA Compliant",
+      "3A Sanitary",
+      "ISO 9001",
+    ],
+    seo: {
+      title:
+        "Gear Pumps - High Pressure Positive Displacement Pumps | Powerton Engineering",
+      description:
+        "Industrial gear pumps for viscous fluids and high-pressure applications. External gear, internal gear, and magnetic drive pumps for precise flow control.",
+      keywords:
+        "gear pumps, positive displacement pumps, viscous fluid pumps, high pressure pumps, precision pumps, industrial pumps",
+      canonicalUrl:
+        "https://powertonengineering.in/products-sub-category/gear-pumps",
+    },
+  },
   {
     slug: "pump-parts-spares",
     title: "Pump Parts & Spares",
@@ -2443,7 +1934,7 @@ export const productsSubCategoryData: ProductSubCategoryData[] = [
     },
   },
 
-  // Additional Industrial Tools - Missing Pages
+  // Industrial & Measuring Tools
   {
     slug: "hand-tools",
     title: "Hand Tools",
@@ -2722,6 +2213,498 @@ export const productsSubCategoryData: ProductSubCategoryData[] = [
         "lifting equipment, industrial hoists, cranes, lifting chains, material handling, rigging equipment, overhead cranes",
       canonicalUrl:
         "https://powertonengineering.in/products-sub-category/lifting-equipment",
+    },
+  },
+  {
+    slug: "multimeters",
+    title: "Digital Multimeters",
+    shortDescription:
+      "Professional digital multimeters for electrical measurements",
+    fullDescription:
+      "High-precision digital multimeters for voltage, current, resistance, frequency, and capacitance measurements in industrial and laboratory applications.",
+    image: multimetersImage,
+    parentCategory: "/products-category/industrial-measuring-tools",
+    parentCategoryTitle: "Industrial & Measuring Tools",
+    icon: Activity,
+    keyBenefits: [
+      "High Accuracy Measurements",
+      "Multiple Function Capability",
+      "Data Logging Features",
+      "Safety Certified",
+    ],
+    specifications: [
+      "DC Voltage: 100mV to 1000V",
+      "AC Voltage: 100mV to 750V",
+      "DC Current: 100µA to 10A",
+      "Resistance: 0Ω to 100MΩ",
+      "Accuracy: ±0.025%",
+      "Display: 50,000 count",
+    ],
+    applications: [
+      "Electrical Testing",
+      "Maintenance Work",
+      "Quality Control",
+      "Research & Development",
+      "Field Service",
+      "Educational Use",
+    ],
+    industries: [
+      "Electrical Services",
+      "Manufacturing",
+      "Automotive",
+      "Electronics",
+      "Power Generation",
+      "Telecommunications",
+    ],
+    features: [
+      "True RMS Measurement",
+      "Data Hold Function",
+      "Min/Max Recording",
+      "Relative Mode",
+      "Auto-ranging",
+      "Backlit Display",
+      "Low Battery Indicator",
+      "Safety Input Design",
+    ],
+    certifications: [
+      "CAT III/IV Safety",
+      "IEC 61010",
+      "UL Listed",
+      "CSA Approved",
+      "CE Marked",
+      "RoHS Compliant",
+    ],
+    seo: {
+      title:
+        "Digital Multimeters - Professional Electrical Test Equipment | Powerton Engineering",
+      description:
+        "Professional digital multimeters for electrical measurements. True RMS multimeters with data logging, high accuracy, and safety certifications for industrial use.",
+      keywords:
+        "digital multimeters, electrical test equipment, True RMS multimeters, voltage meters, current meters, resistance meters",
+      canonicalUrl:
+        "https://powertonengineering.in/products-sub-category/multimeters",
+    },
+  },
+  {
+    slug: "power-quality-analyzers",
+    title: "Power Quality Analyzers",
+    shortDescription:
+      "Advanced power quality analyzers for electrical system monitoring and analysis",
+    fullDescription:
+      "Comprehensive power quality measurement instruments for monitoring voltage, current, harmonics, flicker, and power parameters in electrical distribution systems.",
+    image: powerQualityAnalyzerImage,
+    parentCategory: "/products-category/industrial-measuring-tools",
+    parentCategoryTitle: "Industrial & Measuring Tools",
+    icon: Activity,
+    keyBenefits: [
+      "Power Quality Monitoring",
+      "Harmonic Analysis",
+      "Energy Measurement",
+      "Compliance Testing",
+    ],
+    specifications: [
+      "Voltage Range: 10V to 1000V RMS",
+      "Current Range: 1A to 6000A",
+      "Frequency: 40 Hz to 70 Hz",
+      "Harmonics: up to 63rd order",
+      "Accuracy: Class 0.1S",
+      "Memory: 8GB internal storage",
+    ],
+    applications: [
+      "Power Quality Monitoring",
+      "Energy Auditing",
+      "Harmonic Analysis",
+      "Load Studies",
+      "Troubleshooting",
+      "Compliance Testing",
+    ],
+    industries: [
+      "Electrical Utilities",
+      "Industrial Manufacturing",
+      "Data Centers",
+      "Healthcare Facilities",
+      "Commercial Buildings",
+      "Renewable Energy",
+    ],
+    features: [
+      "Multi-channel Measurement",
+      "Real-time Monitoring",
+      "Waveform Capture",
+      "Event Recording",
+      "GPS Time Sync",
+      "Web-based Interface",
+      "Data Logging",
+      "Alarm Management",
+    ],
+    certifications: [
+      "IEC 61000-4-30",
+      "IEEE 1159",
+      "EN 50160",
+      "NIST Traceable",
+      "CE Marked",
+      "UL Listed",
+    ],
+    seo: {
+      title:
+        "Power Quality Analyzers - Electrical System Monitoring | Powerton Engineering",
+      description:
+        "Advanced power quality analyzers for electrical system monitoring, harmonic analysis, and energy measurement. IEC 61000-4-30 compliant instruments.",
+      keywords:
+        "power quality analyzers, electrical monitoring, harmonic analysis, energy measurement, power meters, electrical testing",
+      canonicalUrl:
+        "https://powertonengineering.in/products-sub-category/power-quality-analyzers",
+    },
+  },
+  {
+    slug: "calibration-equipment",
+    title: "Calibration Equipment",
+    shortDescription:
+      "Precision calibration instruments for maintaining measurement accuracy",
+    fullDescription:
+      "Comprehensive calibration solutions including process calibrators, temperature calibrators, and pressure calibrators for maintaining measurement accuracy and compliance.",
+    image: calibrationImage,
+    parentCategory: "/products-category/industrial-measuring-tools",
+    parentCategoryTitle: "Industrial & Measuring Tools",
+    icon: Target,
+    keyBenefits: [
+      "Precision Calibration",
+      "Measurement Traceability",
+      "Multi-Function Capability",
+      "Data Logging Features",
+    ],
+    specifications: [
+      "Accuracy: ±0.025% of reading",
+      "Temperature Range: -200°C to +1000°C",
+      "Pressure Range: 0 to 10,000 PSI",
+      "Electrical: 0-30V, 0-25mA",
+      "Communication: HART, USB",
+      "Display: Large LCD with backlight",
+    ],
+    applications: [
+      "Process Calibration",
+      "Temperature Calibration",
+      "Pressure Calibration",
+      "Electrical Calibration",
+      "Maintenance Operations",
+      "Quality Assurance",
+    ],
+    industries: [
+      "Process Industries",
+      "Calibration Labs",
+      "Pharmaceutical",
+      "Oil & Gas",
+      "Power Generation",
+      "Manufacturing",
+    ],
+    features: [
+      "Multi-Function Design",
+      "High Accuracy",
+      "HART Communication",
+      "Data Logging",
+      "Auto-stepping",
+      "Portable Design",
+      "Battery Operation",
+      "Traceable Standards",
+    ],
+    certifications: [
+      "NIST Traceable",
+      "ISO 17025",
+      "CE Marked",
+      "UKAS Accredited",
+      "A2LA Certified",
+      "NABL Approved",
+    ],
+    seo: {
+      title:
+        "Calibration Equipment - Process & Temperature Calibrators | Powerton Engineering",
+      description:
+        "Precision calibration equipment for process, temperature, and pressure calibration. NIST traceable calibrators with data logging and HART communication.",
+      keywords:
+        "calibration equipment, process calibrators, temperature calibrators, pressure calibrators, precision calibration, NIST traceable",
+      canonicalUrl:
+        "https://powertonengineering.in/products-sub-category/calibration-equipment",
+    },
+  },
+
+  // BLDC Products
+  {
+    slug: "bldc-cooler-exhaust-motor",
+    title: "BLDC Cooler & Exhaust Motors",
+    shortDescription:
+      "Energy-efficient BLDC motors for cooling and ventilation applications",
+    fullDescription:
+      "High-efficiency brushless DC motors designed for exhaust fans, cooler motors, and ventilation systems with variable speed control and smart operation features.",
+    image: bldcCoolerMotorImage,
+    parentCategory: "/products-category/bldc",
+    parentCategoryTitle: "BLDC Motor Systems",
+    icon: Wind,
+    keyBenefits: [
+      "High Energy Efficiency",
+      "Variable Speed Control",
+      "Low Noise Operation",
+      "Smart Control Features",
+    ],
+    specifications: [
+      "Power Range: 15W to 200W",
+      "Speed Control: Variable",
+      "Voltage: 12V/24V DC",
+      "Operating Temperature: -10°C to +60°C",
+      "Protection: IP54/IP65",
+      "Control: PWM/Remote Control",
+    ],
+    applications: [
+      "Exhaust Fan Systems",
+      "Air Cooler Motors",
+      "Ventilation Systems",
+      "HVAC Applications",
+      "Industrial Cooling",
+      "Residential Fans",
+    ],
+    industries: [
+      "HVAC",
+      "Building Services",
+      "Industrial Manufacturing",
+      "Residential",
+      "Commercial Buildings",
+      "Data Centers",
+    ],
+    features: [
+      "High Efficiency Motor",
+      "Variable Speed Operation",
+      "Remote Control Compatible",
+      "Low Maintenance",
+      "Quiet Operation",
+      "Energy Saving",
+      "Smart Control Features",
+      "Compact Design",
+    ],
+    certifications: [
+      "CE Certified",
+      "RoHS Compliant",
+      "Energy Star Rated",
+      "IEC 60034",
+      "UL Listed",
+      "BIS Approved",
+    ],
+    seo: {
+      title:
+        "BLDC Cooler & Exhaust Motors - Energy Efficient Ventilation Motors | Powerton Engineering",
+      description:
+        "High-efficiency BLDC motors for exhaust fans, coolers, and ventilation systems. Variable speed control with energy savings and smart operation features.",
+      keywords:
+        "BLDC cooler motors, exhaust fan motors, ventilation motors, energy efficient motors, variable speed fans, smart cooler motors",
+      canonicalUrl:
+        "https://powertonengineering.in/products-sub-category/bldc-cooler-exhaust-motor",
+    },
+  },
+  {
+    slug: "bldc-ceiling-fan",
+    title: "BLDC Ceiling Fans",
+    shortDescription:
+      "Energy-efficient brushless DC ceiling fans with smart control features",
+    fullDescription:
+      "Advanced BLDC ceiling fans with superior energy efficiency, low noise operation, and smart control features including remote control and variable speed settings.",
+    image: bldcCeilingFanImage,
+    parentCategory: "/products-category/bldc",
+    parentCategoryTitle: "BLDC Motor Systems",
+    icon: Fan,
+    keyBenefits: [
+      "75% Energy Savings",
+      "Ultra-Quiet Operation",
+      "Remote Control",
+      "Long Service Life",
+    ],
+    specifications: [
+      "Power Consumption: 15-35W",
+      "Speed: 6-Speed Control",
+      "Airflow: 200-400 CMM",
+      "Noise Level: <35dB",
+      "Operating Voltage: 220-240V AC",
+      "Warranty: 3-5 years",
+    ],
+    applications: [
+      "Residential Homes",
+      "Commercial Spaces",
+      "Hotels & Restaurants",
+      "Offices",
+      "Educational Institutions",
+      "Healthcare Facilities",
+    ],
+    industries: [
+      "Residential",
+      "Commercial Buildings",
+      "Hospitality",
+      "Healthcare",
+      "Educational",
+      "Retail",
+    ],
+    features: [
+      "Remote Control",
+      "Variable Speed Control",
+      "Timer Function",
+      "Reverse Mode",
+      "LED Lighting",
+      "Energy Star Rated",
+      "Copper Windings",
+      "Aerodynamic Design",
+    ],
+    certifications: [
+      "BEE Star Rated",
+      "ISI Marked",
+      "CE Certified",
+      "Energy Star",
+      "RoHS Compliant",
+      "FCC Approved",
+    ],
+    seo: {
+      title:
+        "BLDC Ceiling Fans - Energy Efficient Smart Ceiling Fans | Powerton Engineering",
+      description:
+        "Energy-efficient BLDC ceiling fans with remote control, variable speed, and smart features. 75% energy savings with ultra-quiet operation and long service life.",
+      keywords:
+        "BLDC ceiling fans, energy efficient ceiling fans, smart ceiling fans, brushless DC fans, remote control ceiling fans",
+      canonicalUrl:
+        "https://powertonengineering.in/products-sub-category/bldc-ceiling-fan",
+    },
+  },
+  {
+    slug: "bldc-submersible-surface-pump",
+    title: "BLDC Submersible & Surface Pumps",
+    shortDescription:
+      "Solar-compatible BLDC pumps for water supply and irrigation applications",
+    fullDescription:
+      "Advanced BLDC pump systems including submersible and surface pumps with solar compatibility, high efficiency, and intelligent control for water supply and irrigation.",
+    image: bldcSubmersiblePumpImage,
+    parentCategory: "/products-category/bldc",
+    parentCategoryTitle: "BLDC Motor Systems",
+    icon: Droplet,
+    keyBenefits: [
+      "Solar Compatible Operation",
+      "High Pump Efficiency",
+      "Corrosion Resistant Design",
+      "Smart Control System",
+    ],
+    specifications: [
+      "Power Range: 0.5HP to 5HP",
+      "Head Range: 10m to 200m",
+      "Flow Rate: 500 to 10,000 LPH",
+      "Operating Voltage: 24V to 48V DC",
+      "Solar Compatibility: Yes",
+      "Controller: Integrated MPPT",
+    ],
+    applications: [
+      "Solar Water Pumping",
+      "Irrigation Systems",
+      "Domestic Water Supply",
+      "Livestock Watering",
+      "Remote Area Water Supply",
+      "Borewell Applications",
+    ],
+    industries: [
+      "Agriculture",
+      "Solar Energy",
+      "Water Supply",
+      "Rural Development",
+      "Irrigation",
+      "Remote Communities",
+    ],
+    features: [
+      "Solar Power Compatible",
+      "High Efficiency BLDC Motor",
+      "Dry Run Protection",
+      "Variable Speed Control",
+      "Remote Monitoring",
+      "Energy Optimization",
+      "Corrosion Resistant",
+      "Low Maintenance",
+    ],
+    certifications: [
+      "BIS Certified",
+      "CE Marked",
+      "Solar Pump Standard",
+      "IP68 Rating",
+      "IEC 60034",
+      "ISI Mark",
+    ],
+    seo: {
+      title:
+        "BLDC Submersible & Surface Pumps - Solar Water Pumps | Powerton Engineering",
+      description:
+        "Solar-compatible BLDC submersible and surface pumps for irrigation and water supply. High efficiency with intelligent control and remote monitoring.",
+      keywords:
+        "BLDC water pumps, solar submersible pumps, solar surface pumps, irrigation pumps, BLDC pump systems, solar water pumping",
+      canonicalUrl:
+        "https://powertonengineering.in/products-sub-category/bldc-submersible-surface-pump",
+    },
+  },
+  {
+    slug: "bldc-table-fan-wall-fan-motor",
+    title: "BLDC Table & Wall Fan Motors",
+    shortDescription:
+      "Compact BLDC motors for table fans, wall fans, and pedestal fans",
+    fullDescription:
+      "Energy-efficient BLDC motors designed for table fans, wall fans, and pedestal fans with compact design, silent operation, and remote control capabilities.",
+    image: bldcTableFanImage,
+    parentCategory: "/products-category/bldc",
+    parentCategoryTitle: "BLDC Motor Systems",
+    icon: Fan,
+    keyBenefits: [
+      "Compact Design",
+      "Silent Operation",
+      "Remote Control",
+      "Energy Efficient",
+    ],
+    specifications: [
+      "Power Range: 12W to 50W",
+      "Speed Levels: 6-Speed Control",
+      "Voltage: 220-240V AC",
+      "Noise Level: <35dB",
+      "Control: Remote/Touch Panel",
+      "Timer Function: Available",
+    ],
+    applications: [
+      "Table Fan Applications",
+      "Wall Mount Fans",
+      "Pedestal Fans",
+      "Desk Fans",
+      "Personal Cooling",
+      "Office Fans",
+    ],
+    industries: [
+      "Home Appliances",
+      "Office Equipment",
+      "Personal Care",
+      "Electronics",
+      "Consumer Goods",
+      "HVAC",
+    ],
+    features: [
+      "Compact Motor Design",
+      "Silent Operation",
+      "Remote Control Compatible",
+      "Timer Function",
+      "Height Adjustment",
+      "Oscillating Function",
+      "LED Display",
+      "Sleep Mode",
+    ],
+    certifications: [
+      "BIS Certified",
+      "CE Marked",
+      "Energy Star",
+      "RoHS Compliant",
+      "FCC Approved",
+      "ISI Mark",
+    ],
+    seo: {
+      title:
+        "BLDC Table & Wall Fan Motors - Compact Energy Efficient Fan Motors | Powerton Engineering",
+      description:
+        "Compact BLDC motors for table fans, wall fans, and pedestal fans. Silent operation with remote control and energy-efficient performance.",
+      keywords:
+        "BLDC table fan motors, wall fan motors, pedestal fan motors, compact fan motors, energy efficient fan motors, silent fan motors",
+      canonicalUrl:
+        "https://powertonengineering.in/products-sub-category/bldc-table-fan-wall-fan-motor",
     },
   },
 ];
