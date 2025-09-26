@@ -8060,7 +8060,7 @@ const subcategorySlugToKeyMap: { [slug: string]: string } = {
   "transmitters": "sensors-transducers", 
   "switches": "switches-indicators",
   "valves": "valves-actuators",
-  "analyzers": "sensors-transducers",
+  "analyzers": "analyzers-process-gas",
   "cables-wires": "cables-wires",
   "connectors-terminals": "connectors-terminals", 
   "circuit-breakers-fuses": "circuit-breakers-fuses",
