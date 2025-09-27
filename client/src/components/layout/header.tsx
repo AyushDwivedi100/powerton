@@ -249,13 +249,24 @@ export default function Header() {
     setIsProductsDropdownOpen(true);
   };
 
-  const handleProductsDropdownLeave = () => {
+  const handleProductsDropdownLeave = (event?: React.MouseEvent) => {
+    // Check if mouse is moving to the popup area
+    if (event && hoveredSubcategory) {
+      const relatedTarget = event.relatedTarget as Element;
+      // Don't close if moving to popup or already in popup area
+      if (relatedTarget && relatedTarget.closest('[data-popup-area="true"]')) {
+        return;
+      }
+    }
+    
     // Add delay before closing to allow moving between elements
     const timeout = setTimeout(() => {
-      setIsProductsDropdownOpen(false);
-      // Also close any open subcategory popups when main dropdown closes
-      setHoveredSubcategory(null);
-    }, 250); // Increased delay to match other timeouts
+      // Double check that we're not hovering over popup before closing
+      if (!document.querySelector('[data-popup-area="true"]:hover')) {
+        setIsProductsDropdownOpen(false);
+        setHoveredSubcategory(null);
+      }
+    }, 350); // Increased delay to allow easier navigation to popup
     setProductsDropdownTimeout(timeout);
   };
 
@@ -632,7 +643,7 @@ export default function Header() {
                         }`}
                         style={{ top: `calc(${headerHeight}px - 1rem)` }}
                         onMouseEnter={handleProductsDropdownEnter}
-                        onMouseLeave={handleProductsDropdownLeave}
+                        onMouseLeave={(e) => handleProductsDropdownLeave(e)}
                       >
                         <div className="w-max max-w-[95vw] max-h-[70vh] bg-popover border-2 border-slate-300 dark:border-slate-600 rounded-md shadow-lg overflow-y-auto">
                           <div className="p-4 lg:p-6">
@@ -731,6 +742,7 @@ export default function Header() {
                               minWidth: "300px",
                               maxHeight: "500px",
                             }}
+                            data-popup-area="true"
                             onMouseEnter={handlePopupHover}
                             onMouseLeave={handlePopupLeave}
                           >
