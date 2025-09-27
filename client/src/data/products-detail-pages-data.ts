@@ -1067,8 +1067,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "explosion-proof-equipment",
     slug: "explosion-proof-equipment",
-    titleKey: "products:groups.explosionProofEquipment.title",
-    descriptionKey: "products:groups.explosionProofEquipment.description",
+    title: "Explosion Proof Equipment",
+    description: "Certified explosion-proof electrical equipment for hazardous area installations. Designed to prevent ignition of flammable gases and vapors with robust enclosures meeting international safety standards.",
     subcategoryKey: "intrinsically-safe-equipment",
     image: "explosion-proof",
     featuredSpecs: ["certification", "class", "temperature"],
@@ -1076,8 +1076,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "intrinsically-safe-barriers",
     slug: "intrinsically-safe-barriers",
-    titleKey: "products:groups.intrinsicallySafeBarriers.title",
-    descriptionKey: "products:groups.intrinsicallySafeBarriers.description",
+    title: "Intrinsically Safe Barriers",
+    description: "Safety barriers for intrinsically safe circuits in hazardous areas. Provides energy limitation and galvanic isolation to prevent ignition sources in explosive atmospheres.",
     subcategoryKey: "intrinsically-safe-equipment",
     image: "is-barrier",
     featuredSpecs: ["channels", "power", "certification"],
@@ -1085,8 +1085,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "is-field-devices",
     slug: "is-field-devices",
-    titleKey: "products:groups.isFieldDevices.title",
-    descriptionKey: "products:groups.isFieldDevices.description",
+    title: "Intrinsically Safe Field Devices",
+    description: "Field devices certified for intrinsically safe operation in explosive atmospheres. Includes sensors, transmitters, and actuators designed for Zone 0/1 hazardous area applications.",
     subcategoryKey: "intrinsically-safe-equipment",
     image: "is-field-device",
     featuredSpecs: ["function", "power", "certification"],
@@ -1094,8 +1094,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "ac-surge-protectors",
     slug: "ac-surge-protectors",
-    titleKey: "products:groups.acSurgeProtectors.title",
-    descriptionKey: "products:groups.acSurgeProtectors.description",
+    title: "AC Surge Protectors",
+    description: "AC power line surge protection devices for electrical equipment protection. Multi-stage protection against lightning, switching surges, and power line disturbances in industrial installations.",
     subcategoryKey: "surge-protectors",
     image: "ac-surge-protector",
     featuredSpecs: ["voltage", "current", "energy"],
@@ -1103,8 +1103,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "dc-surge-protectors",
     slug: "dc-surge-protectors",
-    titleKey: "products:groups.dcSurgeProtectors.title",
-    descriptionKey: "products:groups.dcSurgeProtectors.description",
+    title: "DC Surge Protectors",
+    description: "DC circuit surge protection devices for sensitive electronic equipment. Specialized protection for DC power systems, solar installations, and battery-powered applications.",
     subcategoryKey: "surge-protectors",
     image: "dc-surge-protector",
     featuredSpecs: ["voltage", "current", "energy"],
@@ -1112,8 +1112,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "signal-surge-protectors",
     slug: "signal-surge-protectors",
-    titleKey: "products:groups.signalSurgeProtectors.title",
-    descriptionKey: "products:groups.signalSurgeProtectors.description",
+    title: "Signal Surge Protectors",
+    description: "Signal line surge protection for data and communication circuits. Protects analog and digital signals, field bus networks, and instrumentation circuits from electromagnetic interference.",
     subcategoryKey: "surge-protectors",
     image: "signal-surge-protector",
     featuredSpecs: ["signal", "protection", "frequency"],
@@ -1121,8 +1121,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "equipment-grounding",
     slug: "equipment-grounding",
-    titleKey: "products:groups.equipmentGrounding.title",
-    descriptionKey: "products:groups.equipmentGrounding.description",
+    title: "Equipment Grounding Systems",
+    description: "Grounding components for electrical equipment safety and protection. Copper and steel grounding rods, conductors, and accessories for proper electrical system grounding.",
     subcategoryKey: "grounding-systems",
     image: "equipment-grounding",
     featuredSpecs: ["material", "resistance", "application"],
@@ -1130,8 +1130,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "system-grounding",
     slug: "system-grounding",
-    titleKey: "products:groups.systemGrounding.title",
-    descriptionKey: "products:groups.systemGrounding.description",
+    title: "System Grounding Solutions",
+    description: "Complete grounding system solutions for industrial facilities. Grounding grids, electrodes, and monitoring systems for power system safety and electromagnetic compatibility.",
     subcategoryKey: "grounding-systems",
     image: "system-grounding",
     featuredSpecs: ["material", "resistance", "configuration"],
@@ -1139,8 +1139,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "lightning-protection",
     slug: "lightning-protection",
-    titleKey: "products:groups.lightningProtection.title",
-    descriptionKey: "products:groups.lightningProtection.description",
+    title: "Lightning Protection Systems",
+    description: "Lightning protection systems for buildings and industrial structures. Air terminals, down conductors, and surge arresters designed to IEC 62305 standards for comprehensive lightning protection.",
     subcategoryKey: "grounding-systems",
     image: "lightning-protection",
     featuredSpecs: ["current", "material", "height"],
@@ -1150,8 +1150,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "single-stage-centrifugal",
     slug: "single-stage-centrifugal",
-    titleKey: "products:groups.singleStageCentrifugal.title",
-    descriptionKey: "products:groups.singleStageCentrifugal.description",
+    title: "Single Stage Centrifugal Pumps",
+    description: "Horizontal and vertical single stage centrifugal pumps for water supply and industrial applications. Efficient operation with low maintenance requirements for various flow and head conditions.",
     subcategoryKey: "centrifugal-pumps",
     image: "single-stage-centrifugal",
     featuredSpecs: ["flow", "head", "power"],
@@ -1159,8 +1159,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "multi-stage-centrifugal",
     slug: "multi-stage-centrifugal",
-    titleKey: "products:groups.multiStageCentrifugal.title",
-    descriptionKey: "products:groups.multiStageCentrifugal.description",
+    title: "Multi Stage Centrifugal Pumps",
+    description: "High pressure multi-stage centrifugal pumps for demanding applications. Multiple impellers provide high head capabilities for pressure boosting, reverse osmosis, and industrial process applications.",
     subcategoryKey: "centrifugal-pumps",
     image: "multi-stage-centrifugal",
     featuredSpecs: ["flow", "head", "stages"],
@@ -1168,8 +1168,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "vertical-centrifugal",
     slug: "vertical-centrifugal",
-    titleKey: "products:groups.verticalCentrifugal.title",
-    descriptionKey: "products:groups.verticalCentrifugal.description",
+    title: "Vertical Centrifugal Pumps",
+    description: "Space-saving vertical centrifugal pumps for confined installations. Suitable for sumps, tanks, and applications where horizontal space is limited while maintaining high efficiency performance.",
     subcategoryKey: "centrifugal-pumps",
     image: "vertical-centrifugal",
     featuredSpecs: ["flow", "head", "installation"],
@@ -1177,8 +1177,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "air-operated-diaphragm",
     slug: "air-operated-diaphragm",
-    titleKey: "products:groups.airOperatedDiaphragm.title",
-    descriptionKey: "products:groups.airOperatedDiaphragm.description",
+    title: "Air Operated Diaphragm Pumps",
+    description: "Pneumatic diaphragm pumps for handling aggressive and viscous fluids. Self-priming operation with excellent suction capabilities for chemical processing and waste water applications.",
     subcategoryKey: "diaphragm-pumps",
     image: "air-operated-diaphragm",
     featuredSpecs: ["flow", "pressure", "material"],
@@ -1186,8 +1186,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "electric-diaphragm",
     slug: "electric-diaphragm",
-    titleKey: "products:groups.electricDiaphragm.title",
-    descriptionKey: "products:groups.electricDiaphragm.description",
+    title: "Electric Diaphragm Pumps",
+    description: "Electric-driven diaphragm pumps for precise dosing and metering applications. Variable flow control with excellent chemical compatibility for water treatment and chemical injection systems.",
     subcategoryKey: "diaphragm-pumps",
     image: "electric-diaphragm",
     featuredSpecs: ["flow", "pressure", "power"],
@@ -1195,8 +1195,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "hydraulic-diaphragm",
     slug: "hydraulic-diaphragm",
-    titleKey: "products:groups.hydraulicDiaphragm.title",
-    descriptionKey: "products:groups.hydraulicDiaphragm.description",
+    title: "Hydraulic Diaphragm Pumps",
+    description: "Hydraulically actuated diaphragm pumps for high-pressure applications. Precise flow control and excellent repeatability for chemical dosing and high-pressure cleaning systems.",
     subcategoryKey: "diaphragm-pumps",
     image: "hydraulic-diaphragm",
     featuredSpecs: ["flow", "pressure", "hydraulic"],
@@ -1204,8 +1204,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "external-gear-pumps",
     slug: "external-gear-pumps",
-    titleKey: "products:groups.externalGearPumps.title",
-    descriptionKey: "products:groups.externalGearPumps.description",
+    title: "External Gear Pumps",
+    description: "Positive displacement external gear pumps for viscous liquid transfer. Consistent flow delivery independent of pressure variations, ideal for lubricating oils and hydraulic fluids.",
     subcategoryKey: "gear-pumps",
     image: "external-gear-pump",
     featuredSpecs: ["flow", "pressure", "viscosity"],
@@ -1213,8 +1213,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "internal-gear-pumps",
     slug: "internal-gear-pumps",
-    titleKey: "products:groups.internalGearPumps.title",
-    descriptionKey: "products:groups.internalGearPumps.description",
+    title: "Internal Gear Pumps",
+    description: "Internal gear pumps with smooth flow characteristics for sensitive fluids. Low pulsation design suitable for food processing, pharmaceutical, and chemical applications requiring gentle handling.",
     subcategoryKey: "gear-pumps",
     image: "internal-gear-pump",
     featuredSpecs: ["flow", "pressure", "viscosity"],
@@ -1222,8 +1222,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "magnetic-gear-pumps",
     slug: "magnetic-gear-pumps",
-    titleKey: "products:groups.magneticGearPumps.title",
-    descriptionKey: "products:groups.magneticGearPumps.description",
+    title: "Magnetic Drive Gear Pumps",
+    description: "Magnetically coupled gear pumps for leak-free operation. Hermetically sealed design eliminates shaft seals, perfect for hazardous chemicals and high-purity applications.",
     subcategoryKey: "gear-pumps",
     image: "magnetic-gear-pump",
     featuredSpecs: ["flow", "pressure", "sealing"],
@@ -1231,8 +1231,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "impellers-casings",
     slug: "impellers-casings",
-    titleKey: "products:groups.impellersCasings.title",
-    descriptionKey: "products:groups.impellersCasings.description",
+    title: "Impellers and Casings",
+    description: "Replacement impellers and pump casings for centrifugal pumps. Available in various materials including cast iron, stainless steel, and specialty alloys for different applications and media.",
     subcategoryKey: "pump-parts-spares",
     image: "impeller-casing",
     featuredSpecs: ["material", "size", "compatibility"],
@@ -1240,8 +1240,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "seals-gaskets",
     slug: "seals-gaskets",
-    titleKey: "products:groups.sealsGaskets.title",
-    descriptionKey: "products:groups.sealsGaskets.description",
+    title: "Seals and Gaskets",
+    description: "Pump seals and gaskets for reliable leak prevention. Mechanical seals, O-rings, and gasket sets in various materials to suit different temperatures, pressures, and chemical compatibility requirements.",
     subcategoryKey: "pump-parts-spares",
     image: "seal-gasket",
     featuredSpecs: ["material", "temperature", "pressure"],
@@ -1249,8 +1249,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "bearings-couplings",
     slug: "bearings-couplings",
-    titleKey: "products:groups.bearingsCouplings.title",
-    descriptionKey: "products:groups.bearingsCouplings.description",
+    title: "Bearings and Couplings",
+    description: "Pump bearings and flexible couplings for mechanical drive systems. High-quality components for extended service life, reduced vibration, and reliable power transmission in pumping applications.",
     subcategoryKey: "pump-parts-spares",
     image: "bearing-coupling",
     featuredSpecs: ["type", "load", "speed"],
@@ -4348,11 +4348,19 @@ export const products: Product[] = [
       sheath: "316SS",
       certification: "CE, UL",
     },
-    translationKeys: {
-      title: "products:sensors.watlowTypeK.title",
-      description: "products:sensors.watlowTypeK.description",
-      featuresKey: "products:sensors.watlowTypeK.features",
-    },
+    title: "Watlow 630A Type K Thermocouple",
+    description: "Industrial Type K thermocouple temperature sensor with Chromel-Alumel composition for high-temperature measurement applications. Features fast response time, 316SS sheath, and versatile junction options.",
+    features: [
+      "Type K (Chromel-Alumel) thermocouple technology",
+      "Wide temperature range: -200°C to +1260°C",
+      "High accuracy: ±1.1°C (±2.2°F)",
+      "Fast response time: 0.5s typical",
+      "Grounded/Ungrounded/Exposed junction options",
+      "316SS stainless steel sheath",
+      "CE and UL certified",
+      "Suitable for industrial temperature measurement",
+      "Excellent stability and repeatability"
+    ],
   },
   {
     id: "yokogawa-ph450g-ph-sensor",
@@ -4372,11 +4380,19 @@ export const products: Product[] = [
       junction: "Double Junction",
       certification: "CE, FM",
     },
-    translationKeys: {
-      title: "products:sensors.yokogawaPh.title",
-      description: "products:sensors.yokogawaPh.description",
-      featuresKey: "products:sensors.yokogawaPh.features",
-    },
+    title: "Yokogawa PH450G pH Sensor",
+    description: "High-performance glass electrode pH sensor for accurate pH measurement in industrial processes. Features double junction design, wide temperature range, and excellent chemical resistance for demanding applications.",
+    features: [
+      "Glass electrode pH sensing technology",
+      "Full pH range measurement: 0-14 pH",
+      "High accuracy: ±0.1 pH",
+      "Wide temperature range: 0-100°C",
+      "Maximum pressure: 0.7 MPa",
+      "Double junction reference electrode",
+      "Excellent chemical resistance",
+      "CE and FM certified",
+      "Suitable for process control applications"
+    ],
   },
   {
     id: "pilz-psen-op4h-proximity",
@@ -4397,12 +4413,19 @@ export const products: Product[] = [
       operatingTemp: "-25°C to +70°C",
       certification: "CE, TÜV",
     },
-    translationKeys: {
-      title: "Pilz PSEN op4H Safety Proximity Sensor",
-      description:
-        "High-quality safety proximity sensor for critical applications",
-      featuresKey: "Safety proximity sensor features",
-    },
+    title: "Pilz PSEN op4H Safety Proximity Sensor",
+    description: "High-quality safety proximity sensor for critical applications with Cat. 4 / PLe safety rating. Features 4mm sensing distance, IP67 protection, and TÜV certification for machine safety applications.",
+    features: [
+      "4mm sensing distance for precise detection",
+      "Safety Category 4 / PLe rating",
+      "IP67 protection rating",
+      "M18 x 1 housing for easy installation",
+      "24VDC operating voltage",
+      "Operating temperature: -25°C to +70°C",
+      "CE and TÜV certified",
+      "Safety (OSSD) output configuration",
+      "Designed for critical safety applications"
+    ],
   },
   {
     id: "euchner-ces-a-bhn-proximity",
@@ -4423,12 +4446,19 @@ export const products: Product[] = [
       operatingTemp: "-25°C to +70°C",
       certification: "CE, UL",
     },
-    translationKeys: {
-      title: "Euchner CES-A-BHN Proximity Sensor",
-      description:
-        "Versatile inductive proximity sensor with dual output configuration",
-      featuresKey: "Euchner proximity sensor features",
-    },
+    title: "Euchner CES-A-BHN Proximity Sensor",
+    description: "Versatile inductive proximity sensor with dual output configuration. Features 8mm sensing distance, PNP/NPN compatibility, and robust M18 housing for industrial automation applications.",
+    features: [
+      "8mm sensing distance for reliable detection",
+      "PNP/NPN (NO/NC) dual output configuration",
+      "M18 x 1 housing design",
+      "IP67 protection rating",
+      "10-30VDC operating voltage range",
+      "200mA output current capacity",
+      "Operating temperature: -25°C to +70°C",
+      "CE and UL certified",
+      "Suitable for automation applications"
+    ],
   },
   {
     id: "baumer-ifrm-08p1501-proximity",
@@ -4449,12 +4479,19 @@ export const products: Product[] = [
       operatingTemp: "-25°C to +70°C",
       certification: "CE, UL, CSA",
     },
-    translationKeys: {
-      title: "Baumer IFRM 08P1501 PNP Proximity Sensor",
-      description:
-        "Compact M8 proximity sensor ideal for limited space applications",
-      featuresKey: "Baumer proximity sensor features",
-    },
+    title: "Baumer IFRM 08P1501 PNP Proximity Sensor",
+    description: "Compact M8 proximity sensor ideal for limited space applications. Features 1.5mm sensing distance, PNP output, and robust design for precision automation in confined spaces.",
+    features: [
+      "1.5mm sensing distance for precise positioning",
+      "PNP (NO) output configuration",
+      "Compact M8 x 1 housing",
+      "IP67 protection rating",
+      "10-30VDC operating voltage",
+      "200mA output current",
+      "Operating temperature: -25°C to +70°C",
+      "CE, UL, and CSA certified",
+      "Perfect for limited space applications"
+    ],
   },
   {
     id: "leuze-is-212mm-proximity",
@@ -4475,12 +4512,19 @@ export const products: Product[] = [
       operatingTemp: "-25°C to +70°C",
       certification: "CE, UL",
     },
-    translationKeys: {
-      title: "Leuze IS 212MM Inductive Proximity Sensor",
-      description:
-        "High-performance M12 inductive sensor for automation applications",
-      featuresKey: "Leuze proximity sensor features",
-    },
+    title: "Leuze IS 212MM Inductive Proximity Sensor",
+    description: "High-performance M12 inductive sensor for automation applications. Features 8mm sensing distance, NPN output, and reliable operation in industrial environments.",
+    features: [
+      "8mm sensing distance for flexible positioning",
+      "NPN (NO) output configuration",
+      "Standard M12 x 1 housing",
+      "IP67 protection rating",
+      "10-30VDC operating voltage",
+      "100mA output current",
+      "Operating temperature: -25°C to +70°C",
+      "CE and UL certified",
+      "Optimized for automation applications"
+    ],
   },
   {
     id: "abb-tem104-pt100-rtd",
@@ -4501,12 +4545,19 @@ export const products: Product[] = [
       protectionRating: "IP65",
       certification: "CE, ATEX",
     },
-    translationKeys: {
-      title: "ABB TEM104 PT100 RTD Temperature Sensor",
-      description:
-        "Industrial-grade PT100 RTD sensor for precise temperature measurement",
-      featuresKey: "ABB PT100 RTD features",
-    },
+    title: "ABB TEM104 PT100 RTD Temperature Sensor",
+    description: "Industrial-grade PT100 RTD sensor for precise temperature measurement in harsh environments. Features Class A accuracy, 3-wire configuration, and 316SS construction for reliable process monitoring.",
+    features: [
+      "PT100 RTD temperature sensing element",
+      "Class A accuracy (±0.15°C)",
+      "3-wire configuration for improved accuracy",
+      "316 Stainless Steel construction",
+      "Wide temperature range: -200°C to +600°C",
+      "Fast response time: T90 = 5s in water",
+      "IP65 protection rating",
+      "CE and ATEX certified",
+      "Suitable for process control applications"
+    ],
   },
   {
     id: "honeywell-t775-pt1000-rtd",
@@ -4527,12 +4578,19 @@ export const products: Product[] = [
       protectionRating: "IP54",
       certification: "CE, UL",
     },
-    translationKeys: {
-      title: "Honeywell T775A2009 PT1000 RTD Sensor",
-      description:
-        "Duct-mount PT1000 RTD sensor for HVAC temperature monitoring",
-      featuresKey: "Honeywell PT1000 RTD features",
-    },
+    title: "Honeywell T775A2009 PT1000 RTD Sensor",
+    description: "Duct-mount PT1000 RTD sensor for HVAC temperature monitoring and building automation systems. Features Class A accuracy, 2-wire configuration, and brass housing for reliable performance.",
+    features: [
+      "PT1000 RTD temperature sensing element",
+      "Class A accuracy (±0.15°C)",
+      "2-wire configuration for simple installation",
+      "Brass housing for durability",
+      "Temperature range: -40°C to +120°C",
+      "Response time: T90 = 30s in air",
+      "IP54 protection rating",
+      "CE and UL certified",
+      "Designed for HVAC applications"
+    ],
   },
   {
     id: "fluke-5627a-pt25-rtd",
@@ -4553,12 +4611,19 @@ export const products: Product[] = [
       protectionRating: "IP65",
       certification: "CE, NIST Traceable",
     },
-    translationKeys: {
-      title: "Fluke 5627A PT25 RTD Reference Sensor",
-      description:
-        "High-precision PT25 RTD reference sensor for calibration applications",
-      featuresKey: "Fluke PT25 RTD features",
-    },
+    title: "Fluke 5627A PT25 RTD Reference Sensor",
+    description: "High-precision PT25 RTD reference sensor for calibration applications and metrology labs. Features exceptional ±0.003°C accuracy, 4-wire configuration, and NIST traceability.",
+    features: [
+      "PT25 RTD high-precision sensing element",
+      "Exceptional accuracy: ±0.003°C at 0°C",
+      "4-wire configuration for maximum accuracy",
+      "Inconel sheath for chemical resistance",
+      "Wide temperature range: -196°C to +420°C",
+      "Fast response time: T90 = 0.8s in water",
+      "IP65 protection rating",
+      "CE certified and NIST traceable",
+      "Ideal for calibration and reference applications"
+    ],
   },
   {
     id: "eurotherm-t2750-type-n-thermocouple",
@@ -4578,12 +4643,19 @@ export const products: Product[] = [
       sheath: "Inconel 600",
       certification: "CE, ATEX",
     },
-    translationKeys: {
-      title: "Eurotherm T2750 Type N Thermocouple",
-      description:
-        "High-temperature Type N thermocouple for demanding applications",
-      featuresKey: "Eurotherm Type N thermocouple features",
-    },
+    title: "Eurotherm T2750 Type N Thermocouple",
+    description: "High-temperature Type N thermocouple for demanding applications up to 1300°C. Features Nicrosil-Nisil composition, grounded junction, and Inconel 600 sheath for extreme temperature measurement.",
+    features: [
+      "Type N (Nicrosil-Nisil) thermocouple",
+      "High temperature capability: 0°C to +1300°C",
+      "Accuracy: ±1.1°C (±2.2°F)",
+      "Fast response time: 1s typical",
+      "Grounded junction design",
+      "Inconel 600 sheath material",
+      "CE and ATEX certified",
+      "Excellent stability at high temperatures",
+      "Suitable for extreme temperature applications"
+    ],
   },
   {
     id: "pyromation-r2ma-type-r-thermocouple",
@@ -4603,12 +4675,19 @@ export const products: Product[] = [
       sheath: "Platinum",
       certification: "CE, NIST",
     },
-    translationKeys: {
-      title: "Pyromation R2MA Type R Thermocouple",
-      description:
-        "Premium Type R thermocouple for high-temperature measurement",
-      featuresKey: "Pyromation Type R thermocouple features",
-    },
+    title: "Pyromation R2MA Type R Thermocouple",
+    description: "Premium Type R thermocouple for high-temperature measurement applications up to 1600°C. Features platinum construction, ungrounded junction, and exceptional accuracy for demanding industrial processes.",
+    features: [
+      "Type R (Platinum-Rhodium) thermocouple technology",
+      "Ultra-high temperature capability: 0°C to +1600°C",
+      "High accuracy: ±1.0°C (±1.8°F)",
+      "Fast response time: 2s typical",
+      "Ungrounded junction design",
+      "Platinum sheath for extreme environments",
+      "CE and NIST certified",
+      "Premium grade for precision applications",
+      "Excellent long-term stability"
+    ],
   },
   {
     id: "hamilton-polilyte-plus-ph-sensor",
@@ -4628,12 +4707,19 @@ export const products: Product[] = [
       junction: "Open Junction",
       certification: "CE, FDA",
     },
-    translationKeys: {
-      title: "Hamilton PoliLyte Plus VP pH Sensor",
-      description:
-        "High-performance pH sensor for biotechnology and pharmaceutical applications",
-      featuresKey: "Hamilton pH sensor features",
-    },
+    title: "Hamilton PoliLyte Plus VP pH Sensor",
+    description: "High-performance pH sensor for biotechnology and pharmaceutical applications. Features PEEK body construction, open junction design, and FDA compliance for sterile and clean-in-place applications.",
+    features: [
+      "Specialized pH sensing for biotech applications",
+      "Wide pH range: 0-14 pH",
+      "High accuracy: ±0.05 pH",
+      "Sterilizable PEEK body construction",
+      "Temperature range: 0-130°C",
+      "Open junction reference electrode",
+      "CE and FDA certified",
+      "Suitable for clean-in-place (CIP) processes",
+      "Designed for pharmaceutical environments"
+    ],
   },
   {
     id: "sensorex-s272cd-ph-sensor",
@@ -4653,12 +4739,19 @@ export const products: Product[] = [
       junction: "Double Junction",
       certification: "CE, NSF",
     },
-    translationKeys: {
-      title: "Sensorex S272CD pH/ORP Combination Sensor",
-      description:
-        "Dual-parameter sensor for simultaneous pH and ORP measurement",
-      featuresKey: "Sensorex pH/ORP sensor features",
-    },
+    title: "Sensorex S272CD pH/ORP Combination Sensor",
+    description: "Dual-parameter sensor for simultaneous pH and ORP measurement in water treatment and environmental monitoring. Features epoxy body, double junction design, and NSF certification for reliable performance.",
+    features: [
+      "Simultaneous pH and ORP measurement",
+      "pH range: 0-14 pH, ORP range: ±2000mV",
+      "pH accuracy: ±0.1 pH, ORP accuracy: ±10mV",
+      "Durable epoxy body construction",
+      "Temperature range: 0-80°C",
+      "Double junction reference electrode",
+      "CE and NSF certified",
+      "Ideal for water treatment applications",
+      "Long-life electrode design"
+    ],
   },
   {
     id: "banner-qs18vn6d-photoelectric",
