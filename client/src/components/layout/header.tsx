@@ -196,7 +196,10 @@ export default function Header() {
   const openProductsDropdown = () => {
     if (navigationLock) return;
     clearTimer(productsTimerRef);
-    setIsProductsDropdownOpen(true);
+    // Add delay before opening dropdown to prevent instant popup
+    openWithDelay(productsTimerRef, 200, () => {
+      setIsProductsDropdownOpen(true);
+    });
   };
 
   const closeProductsDropdown = () => {
@@ -258,8 +261,8 @@ export default function Header() {
     if (xPosition < 10) xPosition = 10;
     if (yPosition < 10) yPosition = 10;
 
-    // Update position and show popup with small delay
-    openWithDelay(popupTimerRef, 120, () => {
+    // Update position and show popup with delay to prevent instant appearance
+    openWithDelay(popupTimerRef, 250, () => {
       setPopupPosition({
         x: xPosition,
         y: yPosition,
@@ -270,9 +273,9 @@ export default function Header() {
 
   const handleSubcategoryLeave = (event?: React.MouseEvent) => {
     // Check if mouse is moving to safe areas
-    if (event) {
+    if (event && event.relatedTarget) {
       const relatedTarget = event.relatedTarget as Element;
-      if (relatedTarget && (
+      if (relatedTarget && typeof relatedTarget.closest === 'function' && (
         relatedTarget.closest('[data-popup-area="true"]') ||
         relatedTarget.closest('[data-dropdown-area="products"]') ||
         relatedTarget.closest('[data-testid^="subcategory-"]')
@@ -318,9 +321,9 @@ export default function Header() {
 
   const handlePopupLeave = (event?: React.MouseEvent) => {
     // Check if mouse is moving back to safe areas
-    if (event) {
+    if (event && event.relatedTarget) {
       const relatedTarget = event.relatedTarget as Element;
-      if (relatedTarget && (
+      if (relatedTarget && typeof relatedTarget.closest === 'function' && (
         relatedTarget.closest('[data-testid^="subcategory-"]') ||
         relatedTarget.closest('[data-dropdown-area="products"]')
       )) {
@@ -346,9 +349,9 @@ export default function Header() {
 
   const handleProductsDropdownLeave = (event?: React.MouseEvent) => {
     // Check if mouse is moving to safe areas
-    if (event) {
+    if (event && event.relatedTarget) {
       const relatedTarget = event.relatedTarget as Element;
-      if (relatedTarget && (
+      if (relatedTarget && typeof relatedTarget.closest === 'function' && (
         relatedTarget.closest('[data-popup-area="true"]') ||
         relatedTarget.closest('[data-testid^="subcategory-"]') ||
         relatedTarget.closest('[data-dropdown-area="products"]')
