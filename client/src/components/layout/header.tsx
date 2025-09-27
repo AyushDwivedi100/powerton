@@ -9,8 +9,34 @@ import {
   SheetTitle,
   SheetDescription,
 } from "@/components/ui/sheet";
-import { Menu, Phone, Mail, MapPin, ChevronDown, Settings, Zap, Thermometer, Gauge, Wrench, Package, Activity, Cpu, Factory, Cog, FlameKindling, Droplets, Hammer, Truck } from "lucide-react";
-import { COMPANY_INFO, SERVICES, getProducts, getProductGroupsBySubcategory, hasProductGroups } from "@/data/constants";
+import {
+  Menu,
+  Phone,
+  Mail,
+  MapPin,
+  ChevronDown,
+  Settings,
+  Zap,
+  Thermometer,
+  Gauge,
+  Wrench,
+  Package,
+  Activity,
+  Cpu,
+  Factory,
+  Cog,
+  FlameKindling,
+  Droplets,
+  Hammer,
+  Truck,
+} from "lucide-react";
+import {
+  COMPANY_INFO,
+  SERVICES,
+  getProducts,
+  getProductGroupsBySubcategory,
+  hasProductGroups,
+} from "@/data/constants";
 import { motion, AnimatePresence } from "framer-motion";
 import { ThemeToggle } from "@/components/ui/theme-toggle";
 import { LanguageSwitcher } from "@/components/ui/language-switcher";
@@ -28,9 +54,11 @@ export default function Header() {
   const [isServicesDropdownOpen, setIsServicesDropdownOpen] = useState(false);
   const [isProductsDropdownOpen, setIsProductsDropdownOpen] = useState(false);
   const [headerHeight, setHeaderHeight] = useState(100);
-  
+
   // Product Groups Popup State
-  const [hoveredSubcategory, setHoveredSubcategory] = useState<string | null>(null);
+  const [hoveredSubcategory, setHoveredSubcategory] = useState<string | null>(
+    null,
+  );
   const [popupPosition, setPopupPosition] = useState({ x: 0, y: 0 });
   const [popupTimeout, setPopupTimeout] = useState<NodeJS.Timeout | null>(null);
 
@@ -110,33 +138,36 @@ export default function Header() {
   };
 
   // Hover and focus handlers for product groups popup
-  const handleSubcategoryHover = (subcategoryId: string, event: React.MouseEvent | React.FocusEvent) => {
+  const handleSubcategoryHover = (
+    subcategoryId: string,
+    event: React.MouseEvent | React.FocusEvent,
+  ) => {
     // Clear any existing timeout immediately
     if (popupTimeout) {
       clearTimeout(popupTimeout);
       setPopupTimeout(null);
     }
-    
+
     if (!hasProductGroups(subcategoryId)) {
       // If no product groups, hide popup immediately
       setHoveredSubcategory(null);
       return;
     }
-    
+
     const rect = event.currentTarget.getBoundingClientRect();
     const viewportWidth = window.innerWidth;
     const popupWidth = 400; // Approximate popup width
-    
+
     // Position popup to the right, but check for screen edge
     let xPosition = rect.right + 10;
     if (xPosition + popupWidth > viewportWidth) {
       xPosition = rect.left - popupWidth - 10; // Show on left side instead
     }
-    
+
     // Update position and subcategory immediately
-    setPopupPosition({ 
-      x: xPosition, 
-      y: rect.top 
+    setPopupPosition({
+      x: xPosition,
+      y: rect.top,
     });
     setHoveredSubcategory(subcategoryId);
   };
@@ -152,19 +183,20 @@ export default function Header() {
   const handleSubcategoryBlur = (event: React.FocusEvent) => {
     // Check if focus is moving to the popup or another subcategory
     const relatedTarget = event.relatedTarget as Element;
-    if (relatedTarget && (
-      relatedTarget.closest('[data-testid^="product-group-"]') ||
-      relatedTarget.closest('[data-testid^="subcategory-"]')
-    )) {
+    if (
+      relatedTarget &&
+      (relatedTarget.closest('[data-testid^="product-group-"]') ||
+        relatedTarget.closest('[data-testid^="subcategory-"]'))
+    ) {
       return; // Don't close if focus is moving to popup or another subcategory
     }
-    
+
     // Clear any existing timeout
     if (popupTimeout) {
       clearTimeout(popupTimeout);
       setPopupTimeout(null);
     }
-    
+
     const timeout = setTimeout(() => {
       setHoveredSubcategory(null);
     }, 100);
@@ -190,7 +222,7 @@ export default function Header() {
 
   // Handle keyboard events
   const handleKeyDown = (event: React.KeyboardEvent) => {
-    if (event.key === 'Escape') {
+    if (event.key === "Escape") {
       setHoveredSubcategory(null);
     }
   };
@@ -198,41 +230,45 @@ export default function Header() {
   // Get appropriate icon for product groups
   const getProductGroupIcon = (groupKey: string) => {
     const iconProps = { className: "w-5 h-5 text-blue-600 dark:text-blue-400" };
-    
+
     // Heating and thermal related
-    if (groupKey.includes('heating') || groupKey.includes('thermal')) {
+    if (groupKey.includes("heating") || groupKey.includes("thermal")) {
       return <FlameKindling {...iconProps} />;
     }
     // Electrical and automation
-    if (groupKey.includes('plc') || groupKey.includes('inverter') || groupKey.includes('electrical')) {
+    if (
+      groupKey.includes("plc") ||
+      groupKey.includes("inverter") ||
+      groupKey.includes("electrical")
+    ) {
       return <Cpu {...iconProps} />;
     }
     // Sensors and transmitters
-    if (groupKey.includes('transmitter') || groupKey.includes('sensor')) {
+    if (groupKey.includes("transmitter") || groupKey.includes("sensor")) {
       return <Activity {...iconProps} />;
     }
     // Flow meters and measurement
-    if (groupKey.includes('flow') || groupKey.includes('meter')) {
+    if (groupKey.includes("flow") || groupKey.includes("meter")) {
       return <Gauge {...iconProps} />;
     }
     // Pumps and fluid handling
-    if (groupKey.includes('pump')) {
+    if (groupKey.includes("pump")) {
       return <Droplets {...iconProps} />;
     }
     // Tools and equipment
-    if (groupKey.includes('tool')) {
+    if (groupKey.includes("tool")) {
       return <Hammer {...iconProps} />;
     }
     // Motors and drives
-    if (groupKey.includes('motor') || groupKey.includes('drive')) {
+    if (groupKey.includes("motor") || groupKey.includes("drive")) {
       return <Zap {...iconProps} />;
     }
     // Industrial equipment
-    if (groupKey.includes('industrial')) {
+    if (groupKey.includes("industrial")) {
       return <Factory {...iconProps} />;
     }
     // Safety and protection
-    if (groupKey.includes('safety') || groupKey.includes('protection')) {
+    if (groupKey.includes("safety") || groupKey.includes("protection")) {
       return <Settings {...iconProps} />;
     }
     // General equipment/components
@@ -586,34 +622,45 @@ export default function Header() {
                                     <div className="space-y-1 ms-2 lg:ms-4">
                                       {product.subcategories.map(
                                         (subcategory) => (
-                                          <div 
+                                          <div
                                             key={subcategory.id}
                                             className="relative"
-                                            onMouseEnter={(e) => handleSubcategoryHover(subcategory.id, e)}
-                                            onMouseLeave={handleSubcategoryLeave}
+                                            onMouseEnter={(e) =>
+                                              handleSubcategoryHover(
+                                                subcategory.id,
+                                                e,
+                                              )
+                                            }
+                                            onMouseLeave={
+                                              handleSubcategoryLeave
+                                            }
                                           >
                                             <Link
                                               href={`/products-sub-category/${subcategory.id}`}
                                               className={`block px-2 lg:px-3 py-1 lg:py-2 rounded-sm hover:bg-slate-100 dark:hover:bg-slate-800 hover:text-foreground cursor-pointer transition-colors text-xs lg:text-sm border-primary/40 hover:border-secondary bs-2 ${
-                                                hasProductGroups(subcategory.id) ? 'hover:bg-blue-50 dark:hover:bg-blue-900/20 focus:bg-blue-50 dark:focus:bg-blue-900/20' : ''
+                                                hasProductGroups(subcategory.id)
+                                                  ? "hover:bg-blue-50 dark:hover:bg-blue-900/20 focus:bg-blue-50 dark:focus:bg-blue-900/20"
+                                                  : ""
                                               }`}
                                               onClick={() =>
                                                 setIsProductsDropdownOpen(false)
                                               }
-                                              onFocus={(e) => handleSubcategoryHover(subcategory.id, e)}
+                                              onFocus={(e) =>
+                                                handleSubcategoryHover(
+                                                  subcategory.id,
+                                                  e,
+                                                )
+                                              }
                                               onBlur={handleSubcategoryBlur}
                                               onKeyDown={handleKeyDown}
                                               data-testid={`subcategory-${subcategory.id}`}
                                             >
-                                              <div className="font-medium text-foreground text-safe responsive-text flex items-center justify-between">
+                                              <div className="font-medium text-foreground responsive-text flex items-center justify-between text-wrap-safe">
                                                 {String(
                                                   t(
                                                     `products:subcategories.${subcategory.id}.title`,
                                                     subcategory.title,
                                                   ),
-                                                )}
-                                                {hasProductGroups(subcategory.id) && (
-                                                  <span className="text-blue-500 text-xs">→</span>
                                                 )}
                                               </div>
                                             </Link>
@@ -641,40 +688,48 @@ export default function Header() {
                             style={{
                               left: popupPosition.x,
                               top: popupPosition.y,
-                              maxWidth: '400px',
-                              minWidth: '300px',
-                              maxHeight: '500px'
+                              maxWidth: "400px",
+                              minWidth: "300px",
+                              maxHeight: "500px",
                             }}
                             onMouseEnter={handlePopupHover}
                             onMouseLeave={handlePopupLeave}
                           >
                             <div className="p-4 max-h-[500px] overflow-y-auto">
-                              <div className="space-y-2">
-                                {getProductGroupsBySubcategory(hoveredSubcategory).map(group => (
+                              <div className="space-y-2 ">
+                                {getProductGroupsBySubcategory(
+                                  hoveredSubcategory,
+                                ).map((group) => (
                                   <Link
                                     key={group.key}
                                     href={`/products/${group.slug}`}
-                                    className="flex items-center gap-3 p-3 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors group border border-transparent hover:border-gray-200 dark:hover:border-gray-700"
+                                    className="flex items-center gap-3 p-3 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors group border-rounded border-transparent hover:border-gray-200 dark:hover:border-gray-700 bg-blue-500/10 dark:bg-blue-900/20"
                                     onClick={() => {
                                       setIsProductsDropdownOpen(false);
                                       setHoveredSubcategory(null);
                                     }}
                                     data-testid={`product-group-${group.key}`}
                                   >
-                                    <div className="w-10 h-10 bg-blue-100 dark:bg-blue-900 rounded-md flex items-center justify-center shrink-0 group-hover:bg-blue-200 dark:group-hover:bg-blue-800 transition-colors">
-                                      {getProductGroupIcon(group.key)}
-                                    </div>
                                     <div className="flex-1 min-w-0">
                                       <h4 className="font-medium text-sm text-gray-900 dark:text-gray-100 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors">
-                                        {group.titleKey ? t(group.titleKey) : (group.title || 'Product Group')}
+                                        {group.titleKey
+                                          ? t(group.titleKey)
+                                          : group.title || "Product Group"}
                                       </h4>
-                                      <p className="text-xs text-gray-600 dark:text-gray-400 mt-1 line-clamp-2">
-                                        {group.descriptionKey ? t(group.descriptionKey) : (group.description || 'Product group description')}
-                                      </p>
                                     </div>
                                     <div className="text-blue-500 dark:text-blue-400 opacity-0 group-hover:opacity-100 transition-opacity">
-                                      <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                                      <svg
+                                        className="w-4 h-4"
+                                        fill="none"
+                                        stroke="currentColor"
+                                        viewBox="0 0 24 24"
+                                      >
+                                        <path
+                                          strokeLinecap="round"
+                                          strokeLinejoin="round"
+                                          strokeWidth={2}
+                                          d="M9 5l7 7-7 7"
+                                        />
                                       </svg>
                                     </div>
                                   </Link>
