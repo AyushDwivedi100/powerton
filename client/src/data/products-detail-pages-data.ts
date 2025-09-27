@@ -4968,11 +4968,19 @@ export const products: Product[] = [
       protection: "IP67",
       certification: "ATEX, IECEx, SIL2",
     },
-    translationKeys: {
-      title: "products:transmitters.siemensSitrans.title",
-      description: "products:transmitters.siemensSitrans.description",
-      featuresKey: "products:transmitters.siemensSitrans.features",
-    },
+    title: "Siemens SITRANS P Pressure Transmitter",
+    description: "High-performance pressure transmitter with excellent accuracy and long-term stability. Features advanced diagnostics and digital communication for industrial process control applications.",
+    features: [
+      "High measurement accuracy and stability",
+      "Advanced diagnostic capabilities",
+      "HART digital communication protocol",
+      "Robust industrial design",
+      "Wide operating temperature range",
+      "SIL 2/3 functional safety approval",
+      "Easy configuration and calibration",
+      "Excellent long-term reliability",
+      "Suitable for harsh environments"
+    ],
   },
   {
     id: "yokogawa-eja-pressure-transmitter",
@@ -4992,11 +5000,19 @@ export const products: Product[] = [
       protection: "IP67",
       certification: "ATEX, IECEx, SIL2/3",
     },
-    translationKeys: {
-      title: "products:transmitters.yokogawaEja.title",
-      description: "products:transmitters.yokogawaEja.description",
-      featuresKey: "products:transmitters.yokogawaEja.features",
-    },
+    title: "Yokogawa EJA Pressure Transmitter",
+    description: "Precision pressure transmitter featuring resonant sensor technology and outstanding measurement performance. Designed for critical process control applications requiring high accuracy.",
+    features: [
+      "Resonant sensor technology",
+      "Outstanding measurement accuracy",
+      "Excellent long-term stability",
+      "Digital communication protocols",
+      "Advanced diagnostics and monitoring",
+      "Robust construction for harsh conditions",
+      "Easy installation and maintenance",
+      "Wide range of process connections",
+      "High reliability and performance"
+    ],
   },
   {
     id: "krohne-optiflux-flow-meter",
@@ -5016,11 +5032,19 @@ export const products: Product[] = [
       communication: "HART, PROFIBUS, Modbus",
       certification: "ATEX, IECEx, SIL2",
     },
-    translationKeys: {
-      title: "products:transmitters.krohneOptiflux.title",
-      description: "products:transmitters.krohneOptiflux.description",
-      featuresKey: "products:transmitters.krohneOptiflux.features",
-    },
+    title: "Krohne OPTIFLUX Electromagnetic Flow Meter",
+    description: "High-precision electromagnetic flow meter for accurate measurement of conductive liquids. Features advanced signal processing and robust construction for demanding industrial applications.",
+    features: [
+      "Electromagnetic flow measurement technology",
+      "High measurement accuracy and repeatability",
+      "No moving parts for maintenance-free operation",
+      "Wide range of pipe sizes available",
+      "Advanced digital signal processing",
+      "Multiple output and communication options",
+      "Robust construction for industrial use",
+      "Easy installation and commissioning",
+      "Suitable for various conductive liquids"
+    ],
   },
   {
     id: "vega-vegapuls-radar-level",
@@ -5041,11 +5065,19 @@ export const products: Product[] = [
       communication: "HART, PROFIBUS, Ethernet",
       certification: "ATEX, IECEx, SIL2",
     },
-    translationKeys: {
-      title: "products:transmitters.vegaVegapuls.title",
-      description: "products:transmitters.vegaVegapuls.description",
-      featuresKey: "products:transmitters.vegaVegapuls.features",
-    },
+    title: "VEGA VEGAPULS Radar Level Transmitter",
+    description: "Advanced radar level transmitter for non-contact level measurement in challenging applications. Features superior signal processing and reliable performance in demanding conditions.",
+    features: [
+      "Non-contact radar level measurement",
+      "Superior signal processing technology",
+      "Reliable performance in harsh conditions",
+      "Wide measurement range capability",
+      "Easy setup and configuration",
+      "Multiple output options available",
+      "Excellent immunity to process conditions",
+      "Low maintenance requirements",
+      "Suitable for various applications"
+    ],
   },
 
   // Switches
@@ -5062,11 +5094,19 @@ export const products: Product[] = [
       protection: "IP65",
       mounting: "22mm",
     },
-    translationKeys: {
-      title: "products:switches.pushbuttonIlluminated.title",
-      description: "products:switches.pushbuttonIlluminated.description",
-      featuresKey: "products:switches.pushbuttonIlluminated.features",
-    },
+    title: "Illuminated Pushbutton Switch",
+    description: "High-quality illuminated pushbutton switch for industrial control applications. Features bright LED indication and robust construction for reliable operation in demanding environments.",
+    features: [
+      "Bright LED indication for clear visibility",
+      "Robust industrial construction",
+      "Multiple contact configurations available",
+      "Easy installation and wiring",
+      "Long operational life and reliability",
+      "Various color options available",
+      "IP65 protection rating",
+      "Suitable for control panel applications",
+      "Professional industrial design"
+    ],
   },
   {
     id: "switch-selector-rotary",
@@ -5081,11 +5121,19 @@ export const products: Product[] = [
       operation: "Maintained/Momentary",
       mounting: "22mm",
     },
-    translationKeys: {
-      title: "products:switches.selectorRotary.title",
-      description: "products:switches.selectorRotary.description",
-      featuresKey: "products:switches.selectorRotary.features",
-    },
+    title: "Rotary Selector Switch",
+    description: "Precision rotary selector switch for multiple position selection in industrial control systems. Features durable construction and precise positioning for reliable operation.",
+    features: [
+      "Multiple position selection capability",
+      "Precise positioning mechanism",
+      "Durable rotary construction",
+      "Various contact configurations",
+      "Easy mounting and installation",
+      "High switching reliability",
+      "Professional appearance",
+      "Suitable for control applications",
+      "Long operational life"
+    ],
   },
   {
     id: "switch-emergency-stop-safety",
@@ -5100,11 +5148,19 @@ export const products: Product[] = [
       reset: "Twist to Reset",
       certification: "TÜV Approved",
     },
-    translationKeys: {
-      title: "products:switches.emergencyStop.title",
-      description: "products:switches.emergencyStop.description",
-      featuresKey: "products:switches.emergencyStop.features",
-    },
+    title: "Emergency Stop Safety Switch",
+    description: "Critical safety switch for immediate machinery shutdown in emergency situations. Features twist-to-reset mechanism and Category 4 safety rating for maximum protection.",
+    features: [
+      "Emergency shutdown capability",
+      "Twist-to-reset safety mechanism",
+      "Category 4 safety rating",
+      "TÜV approved certification",
+      "High contact rating (10A at 250V AC)",
+      "Robust industrial construction",
+      "Clear visual identification",
+      "Tamper-resistant design",
+      "Reliable emergency operation"
+    ],
   },
 
   // Analyzers
@@ -5121,11 +5177,19 @@ export const products: Product[] = [
       compounds: "VOCs, SVOCs",
       automation: "Fully Automated",
     },
-    translationKeys: {
-      title: "products:analyzers.gasChromatography.title",
-      description: "products:analyzers.gasChromatography.description",
-      featuresKey: "products:analyzers.gasChromatography.features",
-    },
+    title: "Gas Chromatography-Mass Spectrometry Analyzer",
+    description: "Advanced GC-MS analyzer for precise identification and quantification of volatile and semi-volatile organic compounds. Features automated operation and ppb-level detection capabilities for laboratory analysis.",
+    features: [
+      "GC-MS technology for compound identification",
+      "ppb-level detection sensitivity",
+      "Fast analysis time (5-30 minutes)",
+      "VOCs and SVOCs analysis capability",
+      "Fully automated operation",
+      "High-resolution mass spectrometry",
+      "Comprehensive compound library",
+      "Professional laboratory instrument",
+      "Reliable analytical performance"
+    ],
   },
   {
     id: "analyzer-liquid-ph-conductivity",
@@ -5140,11 +5204,19 @@ export const products: Product[] = [
       conductivityRange: "0.1 μS to 200 mS",
       temperature: "-10°C to +100°C",
     },
-    translationKeys: {
-      title: "products:analyzers.liquidpH.title",
-      description: "products:analyzers.liquidpH.description",
-      featuresKey: "products:analyzers.liquidpH.features",
-    },
+    title: "Liquid pH and Conductivity Analyzer",
+    description: "Precision liquid analyzer for simultaneous pH and conductivity measurement. Features high accuracy and wide measurement range for water quality monitoring and process control applications.",
+    features: [
+      "Dual parameter measurement (pH and conductivity)",
+      "High measurement accuracy (±0.01 pH)",
+      "Wide pH range (0-14 pH)",
+      "Broad conductivity range (0.1 μS to 200 mS)",
+      "Wide temperature operating range",
+      "Simultaneous measurement capability",
+      "Digital display and data logging",
+      "Easy calibration and maintenance",
+      "Suitable for water quality applications"
+    ],
   },
   {
     id: "analyzer-oxygen-carbon-dioxide",
@@ -5159,11 +5231,19 @@ export const products: Product[] = [
       accuracy: "±1% FS",
       responseTime: "<30 seconds",
     },
-    translationKeys: {
-      title: "products:analyzers.oxygenCO2.title",
-      description: "products:analyzers.oxygenCO2.description",
-      featuresKey: "products:analyzers.oxygenCO2.features",
-    },
+    title: "Oxygen and Carbon Dioxide Analyzer",
+    description: "Dual-gas analyzer for simultaneous measurement of oxygen and carbon dioxide concentrations. Features reliable accuracy and fast response time for process monitoring applications.",
+    features: [
+      "Dual-gas measurement (O2 and CO2)",
+      "Wide measurement range (0-100% each)",
+      "Good accuracy (±1% FS)",
+      "Fast response time (<30 seconds)",
+      "Continuous monitoring capability",
+      "Digital display and output",
+      "Easy calibration procedures",
+      "Compact analyzer design",
+      "Suitable for process applications"
+    ],
   },
 
   // New Oxygen Gas Analyzers
@@ -5642,11 +5722,19 @@ export const products: Product[] = [
       voltage: "300V",
       temperature: "-40°C to +90°C",
     },
-    translationKeys: {
-      title: "products:cablesWires.instrumentationShielded.title",
-      description: "products:cablesWires.instrumentationShielded.description",
-      featuresKey: "products:cablesWires.instrumentationShielded.features",
-    },
+    title: "Instrumentation Shielded Cable",
+    description: "High-quality shielded cable designed for instrumentation and control applications. Features excellent signal integrity and electromagnetic interference protection for accurate data transmission.",
+    features: [
+      "High-quality instrumentation cable design",
+      "Electromagnetic interference shielding",
+      "Excellent signal integrity protection",
+      "Multi-conductor configuration available",
+      "Durable outer jacket construction",
+      "Temperature and chemical resistance",
+      "Easy installation and termination",
+      "Suitable for control system applications",
+      "Industrial-grade performance"
+    ],
   },
   {
     id: "cable-power-distribution-medium-voltage",
@@ -5662,9 +5750,19 @@ export const products: Product[] = [
       standard: "IEC 60502",
     },
     translationKeys: {
-      title: "products:cablesWires.mediumVoltage.title",
-      description: "products:cablesWires.mediumVoltage.description",
-      featuresKey: "products:cablesWires.mediumVoltage.features",
+      title: "Medium Voltage Power Distribution Cable",
+      description: "Heavy-duty medium voltage cable for power distribution applications. Features robust insulation and reliable performance for industrial electrical systems.",
+      features: [
+        "Medium voltage rated construction",
+        "Heavy-duty insulation system",
+        "High current carrying capacity",
+        "Excellent electrical properties",
+        "Durable jacketing material",
+        "Industrial-grade performance",
+        "Easy installation handling",
+        "Suitable for power distribution",
+        "Long service life expectancy"
+      ],
     },
   },
   {
@@ -5681,9 +5779,19 @@ export const products: Product[] = [
       category: "Cat 5e/6A",
     },
     translationKeys: {
-      title: "products:cablesWires.fieldbusEthernet.title",
-      description: "products:cablesWires.fieldbusEthernet.description",
-      featuresKey: "products:cablesWires.fieldbusEthernet.features",
+      title: "Fieldbus and Ethernet Communication Cable",
+      description: "Specialized communication cable for fieldbus and Ethernet networks in industrial automation. Features excellent signal integrity and noise immunity for reliable data transmission.",
+      features: [
+        "Fieldbus and Ethernet compatible",
+        "Excellent signal integrity",
+        "Superior noise immunity",
+        "Twisted pair construction",
+        "Industrial-grade shielding",
+        "High-speed data transmission",
+        "Flexible installation options",
+        "Reliable network connectivity",
+        "Automation system compatible"
+      ],
     },
   },
 
@@ -5702,9 +5810,19 @@ export const products: Product[] = [
       standard: "IEC 60898",
     },
     translationKeys: {
-      title: "products:circuitBreakers.mcbMiniature.title",
-      description: "products:circuitBreakers.mcbMiniature.description",
-      featuresKey: "products:circuitBreakers.mcbMiniature.features",
+      title: "MCB Miniature Circuit Breaker",
+      description: "Compact miniature circuit breaker for residential and light commercial electrical protection. Features reliable overcurrent protection and easy installation.",
+      features: [
+        "Miniature circuit breaker design",
+        "Reliable overcurrent protection",
+        "Compact size for space saving",
+        "Easy installation and maintenance",
+        "Multiple current ratings available",
+        "Trip-free mechanism",
+        "DIN rail mounting compatible",
+        "High breaking capacity",
+        "Long operational life"
+      ],
     },
   },
   {
@@ -5721,9 +5839,19 @@ export const products: Product[] = [
       standard: "IEC 60947-2",
     },
     translationKeys: {
-      title: "products:circuitBreakers.mccbMoldedCase.title",
-      description: "products:circuitBreakers.mccbMoldedCase.description",
-      featuresKey: "products:circuitBreakers.mccbMoldedCase.features",
+      title: "MCCB Molded Case Circuit Breaker",
+      description: "Heavy-duty molded case circuit breaker for industrial and commercial electrical protection. Features adjustable trip settings and high interrupting capacity.",
+      features: [
+        "Molded case circuit breaker construction",
+        "Heavy-duty industrial protection",
+        "Adjustable trip settings",
+        "High interrupting capacity",
+        "Thermal and magnetic protection",
+        "Multiple frame sizes available",
+        "Easy installation and wiring",
+        "Reliable electrical protection",
+        "Professional grade performance"
+      ],
     },
   },
   {
@@ -5761,11 +5889,19 @@ export const products: Product[] = [
       mounting: "DIN Rail 35mm",
     },
     translationKeys: {
-      title: "products:connectorsTerminals.terminalBlocksIndustrial.title",
-      description:
-        "products:connectorsTerminals.terminalBlocksIndustrial.description",
-      featuresKey:
-        "products:connectorsTerminals.terminalBlocksIndustrial.features",
+      title: "Industrial Terminal Blocks",
+      description: "High-quality industrial terminal blocks for reliable electrical connections in control panels and automation systems. Features modular design and easy installation.",
+      features: [
+        "Industrial-grade terminal block design",
+        "Modular and expandable configuration",
+        "Easy installation and wiring",
+        "High current carrying capacity",
+        "Multiple wire size compatibility",
+        "DIN rail mounting system",
+        "Reliable electrical connections",
+        "Professional identification options",
+        "Long operational life"
+      ],
     },
   },
   {
@@ -5782,9 +5918,19 @@ export const products: Product[] = [
       protection: "IP65/IP67",
     },
     translationKeys: {
-      title: "products:connectorsTerminals.industrialHeavyDuty.title",
-      description:
-        "products:connectorsTerminals.industrialHeavyDuty.description",
+      title: "Industrial Heavy-Duty Connectors",
+      description: "Robust heavy-duty connectors designed for demanding industrial applications. Features weatherproof construction and high mechanical strength for reliable performance.",
+      features: [
+        "Heavy-duty industrial construction",
+        "Weatherproof and sealed design",
+        "High mechanical strength",
+        "Multiple contact configurations",
+        "Easy mating and unmating",
+        "Excellent electrical performance",
+        "Corrosion-resistant materials",
+        "Suitable for harsh environments",
+        "Professional grade reliability"
+      ],
       featuresKey: "products:connectorsTerminals.industrialHeavyDuty.features",
     },
   },
@@ -5823,9 +5969,19 @@ export const products: Product[] = [
       display: "Digital LED",
     },
     translationKeys: {
-      title: "products:powerSupplies.dcRegulated.title",
-      description: "products:powerSupplies.dcRegulated.description",
-      featuresKey: "products:powerSupplies.dcRegulated.features",
+      title: "DC Regulated Power Supply",
+      description: "Precision DC regulated power supply for industrial and laboratory applications. Features stable output voltage and current regulation with excellent load and line regulation.",
+      features: [
+        "Precision DC voltage regulation",
+        "Stable output current control",
+        "Excellent load regulation",
+        "Superior line regulation",
+        "Low ripple and noise",
+        "Overload and overvoltage protection",
+        "Digital display and monitoring",
+        "Adjustable output settings",
+        "Industrial-grade reliability"
+      ],
     },
   },
   {
@@ -5842,9 +5998,19 @@ export const products: Product[] = [
       efficiency: ">92%",
     },
     translationKeys: {
-      title: "products:powerSupplies.industrialSMPS.title",
-      description: "products:powerSupplies.industrialSMPS.description",
-      featuresKey: "products:powerSupplies.industrialSMPS.features",
+      title: "Industrial SMPS Power Supply",
+      description: "High-efficiency industrial switched-mode power supply for demanding applications. Features compact design with excellent thermal performance and wide input voltage range.",
+      features: [
+        "High-efficiency switched-mode design",
+        "Compact and space-saving",
+        "Wide input voltage range",
+        "Excellent thermal performance",
+        "Low electromagnetic interference",
+        "Multiple output configurations",
+        "Overload and short circuit protection",
+        "Industrial-grade construction",
+        "Reliable long-term operation"
+      ],
     },
   },
   {
@@ -6183,9 +6349,19 @@ export const products: Product[] = [
       communication: "Ethernet, Profinet",
     },
     translationKeys: {
-      title: "products:plcs.siemensS7_1200.title",
-      description: "products:plcs.siemensS7_1200.description",
-      featuresKey: "products:plcs.siemensS7_1200.features",
+      title: "Siemens S7-1200 PLC",
+      description: "Compact programmable logic controller with integrated communication and powerful processing capabilities. Ideal for small to medium automation applications with advanced control features.",
+      features: [
+        "Compact modular PLC design",
+        "Integrated communication interfaces",
+        "Powerful processing capabilities",
+        "Advanced control and monitoring",
+        "Easy programming and configuration",
+        "Multiple I/O expansion options",
+        "Built-in web server functionality",
+        "Industrial Ethernet connectivity",
+        "Professional automation solution"
+      ],
     },
   },
   {
@@ -7000,9 +7176,19 @@ export const products: Product[] = [
       certification: "TÜV, CE, UL 508",
     },
     translationKeys: {
-      title: "products:safetyRelays.emergencyStopDualChannel.title",
-      description: "products:safetyRelays.emergencyStopDualChannel.description",
-      featuresKey: "products:safetyRelays.emergencyStopDualChannel.features",
+      title: "Emergency Stop Dual Channel Safety Relay",
+      description: "Advanced dual-channel safety relay for emergency stop circuits with Category 4 safety rating. Features fail-safe operation and comprehensive monitoring capabilities.",
+      features: [
+        "Dual-channel safety architecture",
+        "Category 4 safety rating (SIL 3, PLe)",
+        "Emergency stop circuit monitoring",
+        "Fail-safe operation design",
+        "Comprehensive diagnostic functions",
+        "Multiple safety output contacts",
+        "Easy configuration and setup",
+        "Professional safety compliance",
+        "Reliable emergency protection"
+      ],
     },
   },
   {
@@ -7022,9 +7208,19 @@ export const products: Product[] = [
       certification: "EN ISO 13849-1, IEC 61508",
     },
     translationKeys: {
-      title: "products:safetyRelays.lightCurtainInterface.title",
-      description: "products:safetyRelays.lightCurtainInterface.description",
-      featuresKey: "products:safetyRelays.lightCurtainInterface.features",
+      title: "Light Curtain Interface Safety Relay",
+      description: "Specialized safety relay for light curtain interface applications with advanced monitoring and diagnostic capabilities. Ensures safe operation of protective light barriers.",
+      features: [
+        "Light curtain interface compatibility",
+        "Advanced safety monitoring",
+        "Diagnostic and status indication",
+        "Multiple safety output channels",
+        "Fail-safe circuit design",
+        "Easy installation and wiring",
+        "Professional safety standards",
+        "Reliable protective barrier monitoring",
+        "Industrial safety compliance"
+      ],
     },
   },
   {
@@ -7402,11 +7598,19 @@ export const products: Product[] = [
       powerSupply: "100-240V AC, 50/60Hz",
       certification: "EPA Approved, ATEX Certified",
     },
-    translationKeys: {
-      title: "products:analyzers.gasChromatography.title",
-      description: "products:analyzers.gasChromatography.description",
-      featuresKey: "products:analyzers.gasChromatography.features",
-    },
+    title: "EPA Approved Gas Chromatography Analyzer",
+    description: "Professional gas chromatography analyzer with EPA approval and ATEX certification for industrial and environmental monitoring. Features wide detection range and high accuracy for process control applications.",
+    features: [
+      "EPA approved for regulatory compliance",
+      "ATEX certified for hazardous areas",
+      "Wide detection range (ppb to % levels)",
+      "High measurement accuracy (±0.5% to ±2%)",
+      "Fast response time (30 seconds to 5 minutes)",
+      "Wide operating temperature range",
+      "Flexible sample flow control",
+      "Universal power supply compatibility",
+      "Industrial-grade construction"
+    ],
   },
   {
     id: "analyzer-liquid-ph-conductivity",
@@ -7442,11 +7646,19 @@ export const products: Product[] = [
       operatingTemp: "-10°C to +50°C",
       certification: "ATEX, IECEx",
     },
-    translationKeys: {
-      title: "products:analyzers.oxygenCO2.title",
-      description: "products:analyzers.oxygenCO2.description",
-      featuresKey: "products:analyzers.oxygenCO2.features",
-    },
+    title: "ATEX Certified Oxygen and Carbon Dioxide Analyzer",
+    description: "High-precision dual-gas analyzer with ATEX and IECEx certification for hazardous area applications. Features superior accuracy and reliable performance for critical process monitoring.",
+    features: [
+      "ATEX and IECEx certified for hazardous areas",
+      "High-precision measurement (±0.1% O2, ±0.2% CO2)",
+      "Wide measurement range (0-100% each)",
+      "Fast response time (<30 seconds)",
+      "Wide operating temperature range",
+      "Continuous process monitoring",
+      "Explosion-proof construction",
+      "Advanced digital processing",
+      "Suitable for critical applications"
+    ],
   },
 
   // PLCs SUBCATEGORY PRODUCTS
