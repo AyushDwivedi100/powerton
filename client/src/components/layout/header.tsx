@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import { Link, useLocation } from "wouter";
 import { useTranslation } from "react-i18next";
 import { Button } from "@/components/ui/button";
@@ -60,12 +60,11 @@ export default function Header() {
     null,
   );
   const [popupPosition, setPopupPosition] = useState({ x: 0, y: 0 });
-  const [popupTimeout, setPopupTimeout] = useState<NodeJS.Timeout | null>(null);
+  // Use refs instead of state for timers to prevent re-renders and race conditions
+  const popupTimerRef = useRef<number | null>(null);
+  const productsTimerRef = useRef<number | null>(null);
   
-  // Products dropdown timeout state  
-  const [productsDropdownTimeout, setProductsDropdownTimeout] = useState<NodeJS.Timeout | null>(null);
-  
-  // Navigation lock to prevent menu reopening after navigation
+  // Navigation lock to prevent menu reopening after navigation (minimal)
   const [navigationLock, setNavigationLock] = useState(false);
 
   // Hide body scrollbar when mobile sidebar is open
@@ -90,59 +89,52 @@ export default function Header() {
     };
   }, [isOpen]);
 
-  // Cleanup timeouts on component unmount
+  // Helper functions for timer management
+  const clearTimer = (timerRef: React.MutableRefObject<number | null>) => {
+    if (timerRef.current) {
+      clearTimeout(timerRef.current);
+      timerRef.current = null;
+    }
+  };
+
+  const openWithDelay = (timerRef: React.MutableRefObject<number | null>, ms: number, fn: () => void) => {
+    clearTimer(timerRef);
+    timerRef.current = window.setTimeout(fn, ms);
+  };
+
+  const closeWithDelay = (timerRef: React.MutableRefObject<number | null>, ms: number, fn: () => void) => {
+    clearTimer(timerRef);
+    timerRef.current = window.setTimeout(fn, ms);
+  };
+
+  // Cleanup timers on component unmount
   useEffect(() => {
     return () => {
-      if (popupTimeout) {
-        clearTimeout(popupTimeout);
-      }
-      if (productsDropdownTimeout) {
-        clearTimeout(productsDropdownTimeout);
-      }
+      clearTimer(popupTimerRef);
+      clearTimer(productsTimerRef);
     };
-  }, [popupTimeout, productsDropdownTimeout]);
+  }, []);
 
   // Close all dropdowns when route changes
   useEffect(() => {
-    // Activate navigation lock immediately
+    // Clear all timers and close menus immediately
+    clearTimer(popupTimerRef);
+    clearTimer(productsTimerRef);
+    
+    setIsServicesDropdownOpen(false);
+    setIsProductsDropdownOpen(false);
+    setHoveredSubcategory(null);
+    setIsOpen(false);
+    setIsMobileServicesOpen(false);
+    setIsMobileProductsOpen(false);
+    
+    // Minimal navigation lock (50ms) to prevent immediate reopening
     setNavigationLock(true);
-    
-    // Force close all menus immediately on route change
-    const closeAllMenus = () => {
-      // Clear any pending timeouts first
-      if (popupTimeout) {
-        clearTimeout(popupTimeout);
-        setPopupTimeout(null);
-      }
-      if (productsDropdownTimeout) {
-        clearTimeout(productsDropdownTimeout);
-        setProductsDropdownTimeout(null);
-      }
-      
-      // Force close all dropdown menus
-      setIsServicesDropdownOpen(false);
-      setIsProductsDropdownOpen(false);
-      setHoveredSubcategory(null);
-      setIsOpen(false);
-      setIsMobileServicesOpen(false);
-      setIsMobileProductsOpen(false);
-    };
-    
-    // Execute immediately and with multiple delayed attempts
-    closeAllMenus();
-    const delayedClose1 = setTimeout(closeAllMenus, 50);
-    const delayedClose2 = setTimeout(closeAllMenus, 100);
-    const delayedClose3 = setTimeout(closeAllMenus, 200);
-    
-    // Release navigation lock after sufficient time
     const releaseLock = setTimeout(() => {
       setNavigationLock(false);
-    }, 500);
+    }, 50);
     
     return () => {
-      clearTimeout(delayedClose1);
-      clearTimeout(delayedClose2);
-      clearTimeout(delayedClose3);
       clearTimeout(releaseLock);
     };
   }, [location]); // Trigger when location changes
@@ -200,6 +192,27 @@ export default function Header() {
     return false;
   };
 
+  // Unified dropdown controller functions
+  const openProductsDropdown = () => {
+    if (navigationLock) return;
+    clearTimer(productsTimerRef);
+    setIsProductsDropdownOpen(true);
+  };
+
+  const closeProductsDropdown = () => {
+    // Check if any dropdown area is still hovered before closing
+    closeWithDelay(productsTimerRef, 220, () => {
+      const isDropdownHovered = document.querySelector('[data-dropdown-area="products"]:hover');
+      const isSubcategoryHovered = document.querySelector('[data-testid^="subcategory-"]:hover');
+      const isPopupHovered = document.querySelector('[data-popup-area="true"]:hover');
+      
+      if (!isDropdownHovered && !isSubcategoryHovered && !isPopupHovered) {
+        setIsProductsDropdownOpen(false);
+        setHoveredSubcategory(null);
+      }
+    });
+  };
+
   // Hover and focus handlers for product groups popup
   const handleSubcategoryHover = (
     subcategoryId: string,
@@ -208,11 +221,8 @@ export default function Header() {
     // Don't show popup if navigation is locked
     if (navigationLock) return;
     
-    // Clear any existing timeout immediately
-    if (popupTimeout) {
-      clearTimeout(popupTimeout);
-      setPopupTimeout(null);
-    }
+    // Clear any existing popup timer
+    clearTimer(popupTimerRef);
 
     if (!hasProductGroups(subcategoryId)) {
       // If no product groups, hide popup immediately
@@ -248,38 +258,39 @@ export default function Header() {
     if (xPosition < 10) xPosition = 10;
     if (yPosition < 10) yPosition = 10;
 
-    // Update position and subcategory immediately
-    setPopupPosition({
-      x: xPosition,
-      y: yPosition,
+    // Update position and show popup with small delay
+    openWithDelay(popupTimerRef, 120, () => {
+      setPopupPosition({
+        x: xPosition,
+        y: yPosition,
+      });
+      setHoveredSubcategory(subcategoryId);
     });
-    setHoveredSubcategory(subcategoryId);
   };
 
   const handleSubcategoryLeave = (event?: React.MouseEvent) => {
-    // Check if mouse is moving to popup area
+    // Check if mouse is moving to safe areas
     if (event) {
       const relatedTarget = event.relatedTarget as Element;
-      if (relatedTarget && relatedTarget.closest('[data-popup-area="true"]')) {
-        return; // Don't close if moving to popup
+      if (relatedTarget && (
+        relatedTarget.closest('[data-popup-area="true"]') ||
+        relatedTarget.closest('[data-dropdown-area="products"]') ||
+        relatedTarget.closest('[data-testid^="subcategory-"]')
+      )) {
+        return; // Don't close if moving to popup, dropdown, or another subcategory
       }
     }
     
-    // Clear any existing timeout
-    if (popupTimeout) {
-      clearTimeout(popupTimeout);
-      setPopupTimeout(null);
-    }
-    
-    // Longer delay to allow easier movement to popup
-    const timeout = setTimeout(() => {
-      // Double-check if popup is still being hovered
-      const popupElement = document.querySelector('[data-popup-area="true"]');
-      if (!popupElement || !popupElement.matches(':hover')) {
+    // Close popup with delay
+    closeWithDelay(popupTimerRef, 280, () => {
+      const isPopupHovered = document.querySelector('[data-popup-area="true"]:hover');
+      const isDropdownHovered = document.querySelector('[data-dropdown-area="products"]:hover');
+      const isSubcategoryHovered = document.querySelector('[data-testid^="subcategory-"]:hover');
+      
+      if (!isPopupHovered && !isDropdownHovered && !isSubcategoryHovered) {
         setHoveredSubcategory(null);
       }
-    }, 500); // Increased delay for better UX
-    setPopupTimeout(timeout);
+    });
   };
 
   const handleSubcategoryBlur = (event: React.FocusEvent) => {
@@ -288,103 +299,65 @@ export default function Header() {
     if (
       relatedTarget &&
       (relatedTarget.closest('[data-testid^="product-group-"]') ||
-        relatedTarget.closest('[data-testid^="subcategory-"]'))
+        relatedTarget.closest('[data-testid^="subcategory-"]') ||
+        relatedTarget.closest('[data-dropdown-area="products"]'))
     ) {
-      return; // Don't close if focus is moving to popup or another subcategory
+      return; // Don't close if focus is moving to popup, subcategory, or dropdown
     }
 
-    // Clear any existing timeout
-    if (popupTimeout) {
-      clearTimeout(popupTimeout);
-      setPopupTimeout(null);
-    }
-
-    const timeout = setTimeout(() => {
+    // Close popup with delay for keyboard navigation
+    closeWithDelay(popupTimerRef, 200, () => {
       setHoveredSubcategory(null);
-    }, 200); // Slightly longer delay for keyboard navigation
-    setPopupTimeout(timeout);
+    });
   };
 
   const handlePopupHover = () => {
     // Cancel any pending close timeout when hovering over popup
-    if (popupTimeout) {
-      clearTimeout(popupTimeout);
-      setPopupTimeout(null);
-    }
+    clearTimer(popupTimerRef);
   };
 
   const handlePopupLeave = (event?: React.MouseEvent) => {
-    // Check if mouse is moving back to subcategory or dropdown area
+    // Check if mouse is moving back to safe areas
     if (event) {
       const relatedTarget = event.relatedTarget as Element;
       if (relatedTarget && (
         relatedTarget.closest('[data-testid^="subcategory-"]') ||
-        relatedTarget.closest('.products-dropdown-container')
+        relatedTarget.closest('[data-dropdown-area="products"]')
       )) {
         return; // Don't close if moving back to subcategory or dropdown
       }
     }
     
-    // Clear any existing timeout
-    if (popupTimeout) {
-      clearTimeout(popupTimeout);
-      setPopupTimeout(null);
-    }
-    
-    // Add delay when leaving popup to allow moving back to subcategory
-    const timeout = setTimeout(() => {
-      // Check if user moved back to a subcategory
-      const hoveredSubcategory = document.querySelector('[data-testid^="subcategory-"]:hover');
-      if (!hoveredSubcategory) {
+    // Close popup with delay
+    closeWithDelay(popupTimerRef, 280, () => {
+      const isSubcategoryHovered = document.querySelector('[data-testid^="subcategory-"]:hover');
+      const isDropdownHovered = document.querySelector('[data-dropdown-area="products"]:hover');
+      
+      if (!isSubcategoryHovered && !isDropdownHovered) {
         setHoveredSubcategory(null);
       }
-    }, 300); // Shorter delay since user is already leaving popup
-    setPopupTimeout(timeout);
+    });
   };
 
-  // Helper functions for products dropdown timeout management
+  // Products dropdown trigger handlers
   const handleProductsDropdownEnter = () => {
-    // Don't open menu if navigation is locked
-    if (navigationLock) return;
-    
-    // Clear any existing timeout when entering dropdown area
-    if (productsDropdownTimeout) {
-      clearTimeout(productsDropdownTimeout);
-      setProductsDropdownTimeout(null);
-    }
-    // Also clear popup timeout to prevent conflicts
-    if (popupTimeout) {
-      clearTimeout(popupTimeout);
-      setPopupTimeout(null);
-    }
-    setIsProductsDropdownOpen(true);
+    openProductsDropdown();
   };
 
   const handleProductsDropdownLeave = (event?: React.MouseEvent) => {
-    // Check if mouse is moving to the popup area or a subcategory
-    if (event && hoveredSubcategory) {
+    // Check if mouse is moving to safe areas
+    if (event) {
       const relatedTarget = event.relatedTarget as Element;
-      // Don't close if moving to popup, subcategory, or staying within dropdown container
       if (relatedTarget && (
         relatedTarget.closest('[data-popup-area="true"]') ||
         relatedTarget.closest('[data-testid^="subcategory-"]') ||
-        relatedTarget.closest('.products-dropdown-container')
+        relatedTarget.closest('[data-dropdown-area="products"]')
       )) {
         return;
       }
     }
     
-    // Add delay before closing to allow moving between elements
-    const timeout = setTimeout(() => {
-      // More comprehensive check before closing
-      const popupHovered = document.querySelector('[data-popup-area="true"]:hover');
-      const dropdownHovered = document.querySelector('.products-dropdown-container:hover');
-      if (!popupHovered && !dropdownHovered) {
-        setIsProductsDropdownOpen(false);
-        setHoveredSubcategory(null);
-      }
-    }, 300); // Reduced to 300ms for better responsiveness
-    setProductsDropdownTimeout(timeout);
+    closeProductsDropdown();
   };
 
   // Handle keyboard events
@@ -729,11 +702,8 @@ export default function Header() {
                         className={`text-foreground font-medium relative flex items-center gap-1 cursor-pointer group hover:text-secondary transition-colors duration-200 ${
                           isActive("/products") ? "text-secondary" : ""
                         }`}
-                        onMouseEnter={handleProductsDropdownEnter}
-                        onMouseLeave={handleProductsDropdownLeave}
-                        onClick={() =>
-                          setIsProductsDropdownOpen(!isProductsDropdownOpen)
-                        }
+                        onPointerEnter={handleProductsDropdownEnter}
+                        onPointerLeave={handleProductsDropdownLeave}
                       >
                         <Link href="/products">
                           {t("navigation:dropdowns.products", "Products")}
@@ -759,8 +729,9 @@ export default function Header() {
                             : "opacity-0 invisible"
                         }`}
                         style={{ top: `calc(${headerHeight}px - 1rem)` }}
-                        onMouseEnter={handleProductsDropdownEnter}
-                        onMouseLeave={(e) => handleProductsDropdownLeave(e)}
+                        onPointerEnter={handleProductsDropdownEnter}
+                        onPointerLeave={handleProductsDropdownLeave}
+                        data-dropdown-area="products"
                       >
                         <div className="w-max max-w-[95vw] max-h-[70vh] bg-popover border-2 border-slate-300 dark:border-slate-600 rounded-md shadow-lg overflow-y-auto">
                           <div className="p-4 lg:p-6">
@@ -792,13 +763,13 @@ export default function Header() {
                                           <div
                                             key={subcategory.id}
                                             className="relative"
-                                            onMouseEnter={(e) =>
+                                            onPointerEnter={(e) =>
                                               handleSubcategoryHover(
                                                 subcategory.id,
                                                 e,
                                               )
                                             }
-                                            onMouseLeave={(e) =>
+                                            onPointerLeave={(e) =>
                                               handleSubcategoryLeave(e)
                                             }
                                           >
@@ -849,6 +820,9 @@ export default function Header() {
                           <motion.div
                             initial={{ opacity: 0, scaleX: 0.3, scaleY: 0.8, x: -20 }}
                             animate={{ opacity: 1, scaleX: 1, scaleY: 1, x: 0 }}
+                            onPointerEnter={handlePopupHover}
+                            onPointerLeave={handlePopupLeave}
+                            data-popup-area="true"
                             exit={{ opacity: 0, scaleX: 0.3, scaleY: 0.8, x: -20 }}
                             transition={{ duration: 0.25, ease: "easeOut" }}
                             className="fixed z-[100] bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-700 rounded-lg shadow-xl pointer-events-auto"
@@ -860,9 +834,6 @@ export default function Header() {
                               minWidth: "300px",
                               maxHeight: "500px",
                             }}
-                            data-popup-area="true"
-                            onMouseEnter={handlePopupHover}
-                            onMouseLeave={(e) => handlePopupLeave(e)}
                           >
                             <div className="p-4 max-h-[500px] overflow-y-auto">
                               <div className="space-y-2 ">
