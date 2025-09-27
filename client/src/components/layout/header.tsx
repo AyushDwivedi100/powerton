@@ -737,7 +737,18 @@ export default function Header() {
                         onPointerLeave={handleProductsDropdownLeave}
                         data-dropdown-area="products"
                       >
-                        <div className="w-max max-w-[95vw] max-h-[70vh] bg-popover border-2 border-slate-300 dark:border-slate-600 rounded-md shadow-lg overflow-y-auto">
+                        <div 
+                          className="w-max max-w-[95vw] max-h-[70vh] bg-popover border-2 border-slate-300 dark:border-slate-600 rounded-md shadow-lg overflow-y-auto"
+                          onClick={(e) => {
+                            // Close dropdown when clicking on empty space (not on menu items)
+                            const target = e.target as Element;
+                            const clickedOnMenuItem = target.closest('a') || target.closest('[data-testid^="subcategory-"]');
+                            if (!clickedOnMenuItem) {
+                              setIsProductsDropdownOpen(false);
+                              setHoveredSubcategory(null);
+                            }
+                          }}
+                        >
                           <div className="p-4 lg:p-6">
                             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-3 lg:gap-4">
                               {getProducts(t).map((product) => (
