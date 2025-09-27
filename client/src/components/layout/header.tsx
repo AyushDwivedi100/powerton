@@ -64,6 +64,9 @@ export default function Header() {
   
   // Products dropdown timeout state  
   const [productsDropdownTimeout, setProductsDropdownTimeout] = useState<NodeJS.Timeout | null>(null);
+  
+  // Navigation lock to prevent menu reopening after navigation
+  const [navigationLock, setNavigationLock] = useState(false);
 
   // Hide body scrollbar when mobile sidebar is open
   useEffect(() => {
@@ -101,23 +104,47 @@ export default function Header() {
 
   // Close all dropdowns when route changes
   useEffect(() => {
-    // Clear any pending timeouts
-    if (popupTimeout) {
-      clearTimeout(popupTimeout);
-      setPopupTimeout(null);
-    }
-    if (productsDropdownTimeout) {
-      clearTimeout(productsDropdownTimeout);
-      setProductsDropdownTimeout(null);
-    }
+    // Activate navigation lock immediately
+    setNavigationLock(true);
     
-    // Close all dropdown menus when navigating to a different page
-    setIsServicesDropdownOpen(false);
-    setIsProductsDropdownOpen(false);
-    setHoveredSubcategory(null);
-    setIsOpen(false); // Also close mobile menu
-    setIsMobileServicesOpen(false);
-    setIsMobileProductsOpen(false);
+    // Force close all menus immediately on route change
+    const closeAllMenus = () => {
+      // Clear any pending timeouts first
+      if (popupTimeout) {
+        clearTimeout(popupTimeout);
+        setPopupTimeout(null);
+      }
+      if (productsDropdownTimeout) {
+        clearTimeout(productsDropdownTimeout);
+        setProductsDropdownTimeout(null);
+      }
+      
+      // Force close all dropdown menus
+      setIsServicesDropdownOpen(false);
+      setIsProductsDropdownOpen(false);
+      setHoveredSubcategory(null);
+      setIsOpen(false);
+      setIsMobileServicesOpen(false);
+      setIsMobileProductsOpen(false);
+    };
+    
+    // Execute immediately and with multiple delayed attempts
+    closeAllMenus();
+    const delayedClose1 = setTimeout(closeAllMenus, 50);
+    const delayedClose2 = setTimeout(closeAllMenus, 100);
+    const delayedClose3 = setTimeout(closeAllMenus, 200);
+    
+    // Release navigation lock after sufficient time
+    const releaseLock = setTimeout(() => {
+      setNavigationLock(false);
+    }, 500);
+    
+    return () => {
+      clearTimeout(delayedClose1);
+      clearTimeout(delayedClose2);
+      clearTimeout(delayedClose3);
+      clearTimeout(releaseLock);
+    };
   }, [location]); // Trigger when location changes
 
   // Handle click outside to close dropdowns
@@ -178,6 +205,9 @@ export default function Header() {
     subcategoryId: string,
     event: React.MouseEvent | React.FocusEvent,
   ) => {
+    // Don't show popup if navigation is locked
+    if (navigationLock) return;
+    
     // Clear any existing timeout immediately
     if (popupTimeout) {
       clearTimeout(popupTimeout);
@@ -192,27 +222,63 @@ export default function Header() {
 
     const rect = event.currentTarget.getBoundingClientRect();
     const viewportWidth = window.innerWidth;
-    const popupWidth = 400; // Approximate popup width
-
-    // Position popup to the right, but check for screen edge
-    let xPosition = rect.right + 10;
-    if (xPosition + popupWidth > viewportWidth) {
-      xPosition = rect.left - popupWidth - 10; // Show on left side instead
+    const viewportHeight = window.innerHeight;
+    const popupWidth = 350; // Popup width
+    const popupHeight = 400; // Estimated popup height
+    
+    // Get mouse position if it's a mouse event
+    let mouseX = 0;
+    let mouseY = 0;
+    if ('clientX' in event) {
+      mouseX = event.clientX;
+      mouseY = event.clientY;
     }
+    
+    // Position popup right beside the hovered subcategory item with minimal gap
+    let xPosition = rect.right + 1; // Almost touching the subcategory item
+    let yPosition = rect.top - 10; // Position slightly above to center with subcategory text
+    
+    // Adjust position to keep popup within viewport
+    if (xPosition + popupWidth > viewportWidth) {
+      xPosition = rect.left - popupWidth - 1; // Position to the left with minimal gap
+    }
+    if (yPosition + popupHeight > viewportHeight) {
+      yPosition = viewportHeight - popupHeight - 20;
+    }
+    if (xPosition < 10) xPosition = 10;
+    if (yPosition < 10) yPosition = 10;
 
     // Update position and subcategory immediately
     setPopupPosition({
       x: xPosition,
-      y: rect.top,
+      y: yPosition,
     });
     setHoveredSubcategory(subcategoryId);
   };
 
-  const handleSubcategoryLeave = () => {
-    // Increased delay to allow easier movement between subcategories and popup
+  const handleSubcategoryLeave = (event?: React.MouseEvent) => {
+    // Check if mouse is moving to popup area
+    if (event) {
+      const relatedTarget = event.relatedTarget as Element;
+      if (relatedTarget && relatedTarget.closest('[data-popup-area="true"]')) {
+        return; // Don't close if moving to popup
+      }
+    }
+    
+    // Clear any existing timeout
+    if (popupTimeout) {
+      clearTimeout(popupTimeout);
+      setPopupTimeout(null);
+    }
+    
+    // Longer delay to allow easier movement to popup
     const timeout = setTimeout(() => {
-      setHoveredSubcategory(null);
-    }, 300); // Increased delay for better user experience
+      // Double-check if popup is still being hovered
+      const popupElement = document.querySelector('[data-popup-area="true"]');
+      if (!popupElement || !popupElement.matches(':hover')) {
+        setHoveredSubcategory(null);
+      }
+    }, 500); // Increased delay for better UX
     setPopupTimeout(timeout);
   };
 
@@ -247,16 +313,40 @@ export default function Header() {
     }
   };
 
-  const handlePopupLeave = () => {
+  const handlePopupLeave = (event?: React.MouseEvent) => {
+    // Check if mouse is moving back to subcategory or dropdown area
+    if (event) {
+      const relatedTarget = event.relatedTarget as Element;
+      if (relatedTarget && (
+        relatedTarget.closest('[data-testid^="subcategory-"]') ||
+        relatedTarget.closest('.products-dropdown-container')
+      )) {
+        return; // Don't close if moving back to subcategory or dropdown
+      }
+    }
+    
+    // Clear any existing timeout
+    if (popupTimeout) {
+      clearTimeout(popupTimeout);
+      setPopupTimeout(null);
+    }
+    
     // Add delay when leaving popup to allow moving back to subcategory
     const timeout = setTimeout(() => {
-      setHoveredSubcategory(null);
-    }, 300); // Longer delay for popup to match subcategory behavior
+      // Check if user moved back to a subcategory
+      const hoveredSubcategory = document.querySelector('[data-testid^="subcategory-"]:hover');
+      if (!hoveredSubcategory) {
+        setHoveredSubcategory(null);
+      }
+    }, 300); // Shorter delay since user is already leaving popup
     setPopupTimeout(timeout);
   };
 
   // Helper functions for products dropdown timeout management
   const handleProductsDropdownEnter = () => {
+    // Don't open menu if navigation is locked
+    if (navigationLock) return;
+    
     // Clear any existing timeout when entering dropdown area
     if (productsDropdownTimeout) {
       clearTimeout(productsDropdownTimeout);
@@ -271,23 +361,29 @@ export default function Header() {
   };
 
   const handleProductsDropdownLeave = (event?: React.MouseEvent) => {
-    // Check if mouse is moving to the popup area
+    // Check if mouse is moving to the popup area or a subcategory
     if (event && hoveredSubcategory) {
       const relatedTarget = event.relatedTarget as Element;
-      // Don't close if moving to popup or already in popup area
-      if (relatedTarget && relatedTarget.closest('[data-popup-area="true"]')) {
+      // Don't close if moving to popup, subcategory, or staying within dropdown container
+      if (relatedTarget && (
+        relatedTarget.closest('[data-popup-area="true"]') ||
+        relatedTarget.closest('[data-testid^="subcategory-"]') ||
+        relatedTarget.closest('.products-dropdown-container')
+      )) {
         return;
       }
     }
     
     // Add delay before closing to allow moving between elements
     const timeout = setTimeout(() => {
-      // Double check that we're not hovering over popup before closing
-      if (!document.querySelector('[data-popup-area="true"]:hover')) {
+      // More comprehensive check before closing
+      const popupHovered = document.querySelector('[data-popup-area="true"]:hover');
+      const dropdownHovered = document.querySelector('.products-dropdown-container:hover');
+      if (!popupHovered && !dropdownHovered) {
         setIsProductsDropdownOpen(false);
         setHoveredSubcategory(null);
       }
-    }, 350); // Increased delay to allow easier navigation to popup
+    }, 300); // Reduced to 300ms for better responsiveness
     setProductsDropdownTimeout(timeout);
   };
 
@@ -655,9 +751,9 @@ export default function Header() {
                         )}
                       </div>
 
-                      {/* Dropdown Content */}
+                      {/* Products Dropdown Content */}
                       <div
-                        className={`transition-all duration-200 fixed left-1/2 -translate-x-1/2 z-50 ${
+                        className={`transition-all duration-200 fixed left-1/2 -translate-x-1/2 z-[60] ${
                           isProductsDropdownOpen
                             ? "opacity-100 visible"
                             : "opacity-0 invisible"
@@ -702,8 +798,8 @@ export default function Header() {
                                                 e,
                                               )
                                             }
-                                            onMouseLeave={
-                                              handleSubcategoryLeave
+                                            onMouseLeave={(e) =>
+                                              handleSubcategoryLeave(e)
                                             }
                                           >
                                             <Link
@@ -751,21 +847,22 @@ export default function Header() {
                       <AnimatePresence>
                         {hoveredSubcategory && (
                           <motion.div
-                            initial={{ opacity: 0, scale: 0.95, x: -10 }}
-                            animate={{ opacity: 1, scale: 1, x: 0 }}
-                            exit={{ opacity: 0, scale: 0.95, x: -10 }}
-                            transition={{ duration: 0.2, ease: "easeOut" }}
-                            className="fixed z-[70] bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-700 rounded-lg shadow-xl"
+                            initial={{ opacity: 0, scaleX: 0.3, scaleY: 0.8, x: -20 }}
+                            animate={{ opacity: 1, scaleX: 1, scaleY: 1, x: 0 }}
+                            exit={{ opacity: 0, scaleX: 0.3, scaleY: 0.8, x: -20 }}
+                            transition={{ duration: 0.25, ease: "easeOut" }}
+                            className="fixed z-[100] bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-700 rounded-lg shadow-xl pointer-events-auto"
                             style={{
                               left: popupPosition.x,
                               top: popupPosition.y,
+                              transformOrigin: "left center",
                               maxWidth: "400px",
                               minWidth: "300px",
                               maxHeight: "500px",
                             }}
                             data-popup-area="true"
                             onMouseEnter={handlePopupHover}
-                            onMouseLeave={handlePopupLeave}
+                            onMouseLeave={(e) => handlePopupLeave(e)}
                           >
                             <div className="p-4 max-h-[500px] overflow-y-auto">
                               <div className="space-y-2 ">
