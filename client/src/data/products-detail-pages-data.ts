@@ -4772,12 +4772,19 @@ export const products: Product[] = [
       operatingVoltage: "10-30VDC",
       operatingTemp: "-40°C to +70°C",
     },
-    translationKeys: {
-      title: "Banner QS18VN6D Photoelectric Sensor",
-      description:
-        "Versatile photoelectric sensor with visible red LED for object detection",
-      featuresKey: "Banner photoelectric sensor features",
-    },
+    title: "Banner QS18VN6D Photoelectric Sensor",
+    description: "Versatile photoelectric sensor with visible red LED for object detection and presence sensing. Features reliable detection performance and easy alignment for automation applications.",
+    features: [
+      "Visible red LED for easy beam alignment",
+      "Reliable object detection performance",
+      "Compact design for tight spaces",
+      "Easy setup and installation",
+      "Industrial-grade construction",
+      "Multiple sensing modes available",
+      "Excellent immunity to ambient light",
+      "Long operational life",
+      "Suitable for automation applications"
+    ],
   },
   {
     id: "keyence-pz-g41cn-photoelectric",
@@ -4798,12 +4805,19 @@ export const products: Product[] = [
       operatingVoltage: "12-24VDC",
       operatingTemp: "-25°C to +55°C",
     },
-    translationKeys: {
-      title: "Keyence PZ-G41CN Laser Photoelectric Sensor",
-      description:
-        "High-precision laser photoelectric sensor for long-range detection",
-      featuresKey: "Keyence laser photoelectric features",
-    },
+    title: "Keyence PZ-G41CN Laser Photoelectric Sensor",
+    description: "High-precision laser photoelectric sensor for long-range detection with superior beam quality and excellent reliability. Designed for demanding applications requiring precise object detection over extended distances.",
+    features: [
+      "High-precision laser technology",
+      "Long-range detection capability",
+      "Superior beam quality and focus",
+      "Excellent detection reliability",
+      "Precise object sensing",
+      "Compact sensor design",
+      "Easy installation and setup",
+      "Industrial-grade durability",
+      "Suitable for demanding applications"
+    ],
   },
   {
     id: "wenglor-og2a103-photoelectric",
@@ -4824,12 +4838,19 @@ export const products: Product[] = [
       operatingVoltage: "10-30VDC",
       operatingTemp: "-40°C to +60°C",
     },
-    translationKeys: {
-      title: "Wenglor OG2A103 Retroreflective Photoelectric Sensor",
-      description:
-        "Robust retroreflective sensor with superior environmental protection",
-      featuresKey: "Wenglor photoelectric sensor features",
-    },
+    title: "Wenglor OG2A103 Retroreflective Photoelectric Sensor",
+    description: "Robust retroreflective photoelectric sensor with superior environmental protection and reliable detection performance. Designed for demanding industrial applications requiring consistent object detection.",
+    features: [
+      "Retroreflective sensing technology",
+      "Superior environmental protection",
+      "Robust industrial construction",
+      "Reliable object detection performance",
+      "Easy installation and alignment",
+      "Excellent immunity to contamination",
+      "Long operational life",
+      "Suitable for demanding applications",
+      "High switching frequency capability"
+    ],
   },
 
   // Additional Transmitters from More Manufacturers
@@ -4851,11 +4872,19 @@ export const products: Product[] = [
       excitation: "5-15VDC",
       certification: "OIML R60, NTEP",
     },
-    translationKeys: {
-      title: "products:transmitters.flintecPc2LoadCell.title",
-      description: "products:transmitters.flintecPc2LoadCell.description",
-      featuresKey: "products:transmitters.flintecPc2LoadCell.features",
-    },
+    title: "Flintec PC2 Load Cell Transmitter",
+    description: "High-precision load cell transmitter for weight and force measurement applications. Features digital signal processing, excellent linearity, and robust construction for industrial weighing systems.",
+    features: [
+      "High-precision load cell technology",
+      "Digital signal processing for accuracy",
+      "Excellent linearity and repeatability",
+      "Robust industrial construction",
+      "Wide operating temperature range",
+      "Multiple output signal options",
+      "Easy calibration and setup",
+      "Long-term stability",
+      "Suitable for weighing and force measurement"
+    ],
   },
   {
     id: "honeywell-st3000-pressure-transmitter",
@@ -4875,11 +4904,19 @@ export const products: Product[] = [
       protection: "IP66/67",
       certification: "ATEX, IECEx, SIL2",
     },
-    translationKeys: {
-      title: "products:transmitters.honeywellSt3000.title",
-      description: "products:transmitters.honeywellSt3000.description",
-      featuresKey: "products:transmitters.honeywellSt3000.features",
-    },
+    title: "Honeywell ST3000 Smart Transmitter",
+    description: "Advanced smart pressure transmitter with HART communication and digital signal processing. Features superior accuracy, stability, and diagnostic capabilities for critical process control applications.",
+    features: [
+      "Smart transmitter technology",
+      "HART communication protocol",
+      "Digital signal processing",
+      "Superior accuracy and stability",
+      "Advanced diagnostic capabilities",
+      "Wide pressure range coverage",
+      "Robust construction for harsh environments",
+      "Easy configuration and calibration",
+      "Suitable for critical process control"
+    ],
   },
   {
     id: "abb-266-pressure-transmitter",
@@ -4899,11 +4936,19 @@ export const products: Product[] = [
       protection: "IP66/67",
       certification: "ATEX, IECEx, SIL2/3",
     },
-    translationKeys: {
-      title: "products:transmitters.abb266Pressure.title",
-      description: "products:transmitters.abb266Pressure.description",
-      featuresKey: "products:transmitters.abb266Pressure.features",
-    },
+    title: "ABB 266 Pressure Transmitter",
+    description: "Industrial pressure transmitter with advanced sensor technology and digital communication capabilities. Designed for reliable pressure measurement in demanding process industry applications.",
+    features: [
+      "Advanced pressure sensor technology",
+      "Digital communication capabilities",
+      "High accuracy and reliability",
+      "Robust industrial design",
+      "Wide pressure measurement range",
+      "Excellent long-term stability",
+      "Easy installation and maintenance",
+      "Suitable for process industry applications",
+      "Certified for hazardous area use"
+    ],
   },
   {
     id: "siemens-sitrans-p-pressure-transmitter",
@@ -7928,11 +7973,19 @@ export const products: Product[] = [
       temperature: "-40°F to +250°F",
       actuator: "Pneumatic or Electric",
     },
-    translationKeys: {
-      title: "products:valves.butterflyWaferType.title",
-      description: "products:valves.butterflyWaferType.description",
-      featuresKey: "products:valves.butterflyWaferType.features",
-    },
+    title: "Butterfly Wafer Type Valve",
+    description: "Quarter-turn butterfly valve in wafer design for tight shutoff applications. Features resilient seat construction with pneumatic or electric actuation for reliable flow control in various industrial processes.",
+    features: [
+      "Quarter-turn 90° operation",
+      "Wafer design for space-saving installation",
+      "Resilient seat for tight shutoff",
+      "Pressure rating: 150/300 PSI",
+      "Temperature range: -40°F to +250°F",
+      "Pneumatic or electric actuator options",
+      "Suitable for water, air, and industrial fluids",
+      "Low torque operation",
+      "Bidirectional flow capability"
+    ],
   },
   {
     id: "valve-gate-rising-stem",
@@ -7948,11 +8001,19 @@ export const products: Product[] = [
       temperature: "-29°F to +800°F",
       endConnections: "Flanged RF, RTJ",
     },
-    translationKeys: {
-      title: "products:valves.gateRisingStem.title",
-      description: "products:valves.gateRisingStem.description",
-      featuresKey: "products:valves.gateRisingStem.features",
-    },
+    title: "Gate Valve Rising Stem Type",
+    description: "Heavy-duty gate valve with rising stem design for reliable on/off service. Features cast steel or stainless steel construction with flanged end connections for high-pressure industrial applications.",
+    features: [
+      "Rising stem design for visual position indication",
+      "Full bore for unrestricted flow",
+      "Size range: 1/2 to 12 inch",
+      "Cast steel or stainless steel body",
+      "Stainless steel stem with hard chrome plating",
+      "Pressure rating: 150 to 2500 PSI",
+      "Temperature range: -29°F to +800°F",
+      "Flanged RF or RTJ end connections",
+      "Suitable for steam, water, and oil applications"
+    ],
   },
   {
     id: "valve-globe-angle-pattern",
@@ -7968,11 +8029,19 @@ export const products: Product[] = [
       temperature: "-20°F to +800°F",
       flowCharacteristic: "Linear or Equal Percentage",
     },
-    translationKeys: {
-      title: "products:valves.globeAnglePattern.title",
-      description: "products:valves.globeAnglePattern.description",
-      featuresKey: "products:valves.globeAnglePattern.features",
-    },
+    title: "Globe Valve Angle Pattern Type",
+    description: "Angle pattern globe valve for throttling and on/off service in space-constrained installations. Features 13% chrome hardened trim with linear or equal percentage flow characteristics.",
+    features: [
+      "Angle pattern design saves space",
+      "Excellent throttling characteristics",
+      "Size range: 1/2 to 8 inch",
+      "Carbon steel or 316 SS body construction",
+      "13% Chrome hardened trim for durability",
+      "Pressure rating: 150 to 1500 PSI",
+      "Temperature range: -20°F to +800°F",
+      "Linear or equal percentage flow characteristic",
+      "Suitable for steam and liquid applications"
+    ],
   },
   {
     id: "valve-check-swing-type",
@@ -7988,11 +8057,19 @@ export const products: Product[] = [
       temperature: "-20°F to +450°F",
       installation: "Horizontal pipe runs",
     },
-    translationKeys: {
-      title: "products:valves.checkSwingType.title",
-      description: "products:valves.checkSwingType.description",
-      featuresKey: "products:valves.checkSwingType.features",
-    },
+    title: "Check Valve Swing Type",
+    description: "Swing check valve for automatic prevention of reverse flow in horizontal pipe runs. Features bronze or stainless steel disc with cast iron, bronze, or steel body construction.",
+    features: [
+      "Automatic reverse flow prevention",
+      "Swing disc design for low pressure drop",
+      "Size range: 2 to 24 inch",
+      "Cast iron, bronze, or steel body options",
+      "Bronze or stainless steel disc",
+      "Pressure rating: 125 to 600 PSI",
+      "Temperature range: -20°F to +450°F",
+      "Designed for horizontal pipe runs",
+      "Silent operation with minimal water hammer"
+    ],
   },
   {
     id: "valve-safety-relief-spring",
@@ -8008,11 +8085,19 @@ export const products: Product[] = [
       bodyMaterial: "Carbon Steel, Stainless",
       certifications: "ASME, API 526",
     },
-    translationKeys: {
-      title: "products:valves.safetyReliefSpring.title",
-      description: "products:valves.safetyReliefSpring.description",
-      featuresKey: "products:valves.safetyReliefSpring.features",
-    },
+    title: "Safety Relief Valve Spring Loaded",
+    description: "Spring-loaded safety relief valve for overpressure protection in pressure vessels and piping systems. ASME Section VIII compliant with carbon steel or stainless steel construction.",
+    features: [
+      "Spring-loaded pressure relief operation",
+      "ASME Section VIII compliant design",
+      "Size range: 1/2 to 8 inch",
+      "Set pressure range: 15 to 6000 PSI",
+      "Temperature range: -20°F to +800°F",
+      "Carbon steel or stainless steel body",
+      "ASME and API 526 certified",
+      "Accurate pressure relief protection",
+      "Suitable for steam, air, and liquid service"
+    ],
   },
 
   // MULTIMETERS SUBCATEGORY PRODUCTS
@@ -8031,11 +8116,19 @@ export const products: Product[] = [
       safetyRating: "CAT IV 600V, CAT III 1000V",
       certification: "UL Listed, CSA Certified, CE Marked",
     },
-    translationKeys: {
-      title: "products:multimeters.fluke87V.title",
-      description: "products:multimeters.fluke87V.description",
-      featuresKey: "products:multimeters.fluke87V.features",
-    },
+    title: "Fluke 87V Industrial Multimeter",
+    description: "Professional industrial multimeter with advanced troubleshooting capabilities for complex electrical systems. Features high accuracy measurements, CAT IV safety rating, and rugged construction for demanding industrial environments.",
+    features: [
+      "True RMS AC/DC voltage and current measurement",
+      "DC voltage accuracy: ±0.05%",
+      "AC voltage range: 6V to 1000V, ±0.7%",
+      "DC current range: 60μA to 10A, ±0.15%",
+      "AC current range: 60μA to 10A, ±1.0%",
+      "Resistance measurement: 600Ω to 50MΩ",
+      "CAT IV 600V, CAT III 1000V safety rating",
+      "UL Listed, CSA Certified, CE Marked",
+      "Industrial grade rugged construction"
+    ],
   },
   {
     id: "multimeter-keysight-u1272a-handheld",
@@ -8052,11 +8145,19 @@ export const products: Product[] = [
       safetyRating: "CAT III 1000V, CAT IV 600V",
       certification: "UL Listed, CE Marked",
     },
-    translationKeys: {
-      title: "products:multimeters.keysightU1272A.title",
-      description: "products:multimeters.keysightU1272A.description",
-      featuresKey: "products:multimeters.keysightU1272A.features",
-    },
+    title: "Keysight U1272A Handheld Multimeter",
+    description: "Professional handheld digital multimeter with advanced measurement capabilities and safety features. Designed for field service technicians and electrical professionals requiring accurate and reliable measurements.",
+    features: [
+      "4.5 digit resolution for precise measurements",
+      "True RMS AC/DC voltage and current",
+      "DC voltage accuracy: ±0.06%",
+      "AC voltage range: 6V to 750V, ±0.9%",
+      "DC current range: 60mA to 10A, ±0.15%",
+      "AC current range: 60mA to 10A, ±1.2%",
+      "Resistance range: 600Ω to 60MΩ",
+      "CAT III 1000V, CAT IV 600V safety rating",
+      "UL Listed and CE Marked"
+    ],
   },
   {
     id: "multimeter-yokogawa-ty720-digital",
@@ -9124,11 +9225,19 @@ export const products: Product[] = [
       surface: "Turned and polished",
       certification: "ASTM A276, API 610",
     },
-    translationKeys: {
-      title: "products:pumpSpares.shaft416Stainless.title",
-      description: "products:pumpSpares.shaft416Stainless.description",
-      featuresKey: "products:pumpSpares.shaft416Stainless.features",
-    },
+    title: "416 Stainless Steel Pump Shaft",
+    description: "High-quality 416 stainless steel pump shaft with precision machining for centrifugal pump applications. Features excellent corrosion resistance and mechanical properties for reliable long-term operation.",
+    features: [
+      "416 stainless steel construction",
+      "Hardness: HRC 28-32 for durability",
+      "Diameter range: 3/4 to 8 inches",
+      "Length options: 12 to 120 inches",
+      "Standard or metric keyway configurations",
+      "Turned and polished surface finish",
+      "ASTM A276 and API 610 certified",
+      "Excellent corrosion resistance",
+      "Precision machined to tight tolerances"
+    ],
   },
   {
     id: "pump-spare-bearing-frame-cast-iron",
@@ -9145,11 +9254,19 @@ export const products: Product[] = [
       finish: "Machined and painted",
       certification: "ANSI B73.1, ISO 2858",
     },
-    translationKeys: {
-      title: "products:pumpSpares.bearingFrameCastIron.title",
-      description: "products:pumpSpares.bearingFrameCastIron.description",
-      featuresKey: "products:pumpSpares.bearingFrameCastIron.features",
-    },
+    title: "Cast Iron Pump Bearing Frame",
+    description: "Heavy-duty cast iron bearing frame for centrifugal pumps with ball or roller bearing configurations. Features robust construction with oil bath or grease lubrication options for reliable operation.",
+    features: [
+      "Cast iron construction for durability",
+      "Ball or roller bearing compatibility",
+      "Oil bath or grease lubrication options",
+      "Foot or flange mounting configurations",
+      "Size range: 2 to 14 inch shaft accommodation",
+      "Machined and painted finish",
+      "ANSI B73.1 and ISO 2858 certified",
+      "Heavy-duty industrial construction",
+      "Long service life design"
+    ],
   },
   {
     id: "pump-spare-gasket-kit-complete",
@@ -9166,11 +9283,19 @@ export const products: Product[] = [
       shelf: "5 year shelf life",
       certification: "FDA CFR 177, NSF 61",
     },
-    translationKeys: {
-      title: "products:pumpSpares.gasketKitComplete.title",
-      description: "products:pumpSpares.gasketKitComplete.description",
-      featuresKey: "products:pumpSpares.gasketKitComplete.features",
-    },
+    title: "Complete Pump Gasket Kit",
+    description: "Comprehensive gasket and O-ring kit for pump maintenance and repair. Includes all necessary sealing components with excellent chemical resistance and temperature tolerance for various pumping applications.",
+    features: [
+      "Complete gasket and O-ring set",
+      "Temperature range: -65°F to +400°F",
+      "Pressure rating: Up to 600 PSI",
+      "Compatible with standard ANSI pumps",
+      "5 year shelf life for long-term storage",
+      "FDA CFR 177 and NSF 61 certified",
+      "Excellent chemical resistance",
+      "High-quality elastomer materials",
+      "Comprehensive maintenance solution"
+    ],
   },
 ];
 
@@ -9758,20 +9883,26 @@ export const getProductsForSubcategoryPage = (
           model: `Model ${variantNumber}`,
           variant: `Variant ${variantNumber}`,
         },
-        translationKeys: baseProduct.translationKeys
-          ? {
-              title: `${baseProduct.translationKeys.title}.variant${variantNumber}`,
-              description: `${baseProduct.translationKeys.description}.variant${variantNumber}`,
-              featuresKey: baseProduct.translationKeys.featuresKey
-                ? `${baseProduct.translationKeys.featuresKey}.variant${variantNumber}`
-                : undefined,
-            }
-          : undefined,
+        // Use direct title/description/features if available, otherwise use translationKeys
         title: baseProduct.title
           ? `${baseProduct.title} - Variant ${variantNumber}`
-          : undefined,
-        description: baseProduct.description,
-        features: baseProduct.features,
+          : baseProduct.translationKeys?.title
+          ? `${baseProduct.translationKeys.title} - Variant ${variantNumber}`
+          : `Product Variant ${variantNumber}`,
+        description: baseProduct.description
+          ? baseProduct.description
+          : baseProduct.translationKeys?.description
+          ? baseProduct.translationKeys.description
+          : `Industrial product variant ${variantNumber} with enhanced specifications`,
+        features: baseProduct.features
+          ? [...baseProduct.features, `Variant ${variantNumber} specifications`]
+          : [
+              `Enhanced performance features`,
+              `Industrial grade construction`,
+              `Reliable operation`,
+              `Certified for industrial use`,
+              `Variant ${variantNumber} specifications`
+            ],
       };
       subcategoryProducts.push(newProduct);
     }
@@ -9790,11 +9921,15 @@ export const getProductsForSubcategoryPage = (
           type: "Standard",
           application: "Industrial",
         },
-        translationKeys: {
-          title: `products:${subcategoryKey}.product${productNumber}.title`,
-          description: `products:${subcategoryKey}.product${productNumber}.description`,
-          featuresKey: `products:${subcategoryKey}.product${productNumber}.features`,
-        },
+        title: `${subcategoryKey.replace(/-/g, ' ').replace(/\b\w/g, l => l.toUpperCase())} Product ${productNumber}`,
+        description: `Industrial ${subcategoryKey.replace(/-/g, ' ')} product designed for reliable performance in demanding applications. Features high-quality construction and proven technology.`,
+        features: [
+          "High-quality industrial construction",
+          "Reliable performance in demanding conditions",
+          "Certified for industrial applications",
+          "Low maintenance requirements",
+          "Excellent value for money"
+        ],
       };
       subcategoryProducts.push(defaultProduct);
     }
