@@ -2019,11 +2019,17 @@ export const products: Product[] = [
       voltage: "48V DC / 230V AC",
       hybridOperation: "Yes",
     },
-    translationKeys: {
-      title: "products:bldcPumps.hybridSystem.title",
-      description: "products:bldcPumps.hybridSystem.description",
-      featuresKey: "products:bldcPumps.hybridSystem.features",
-    },
+    title: "Hybrid BLDC Pump System",
+    description: "Advanced hybrid BLDC pump system combining DC and AC operation capabilities. Features 1.5HP power with 2700 LPH flow rate and 120ft head capacity, perfect for versatile water pumping applications.",
+    features: [
+      "Hybrid DC/AC operation (48V DC / 230V AC)",
+      "1.5HP high-efficiency BLDC motor",
+      "2700 LPH flow capacity",
+      "120ft maximum head",
+      "Energy-efficient operation",
+      "Versatile power source compatibility",
+      "Low maintenance BLDC technology"
+    ],
   },
 
   // BLDC Table & Wall Fan Motors
@@ -2040,11 +2046,17 @@ export const products: Product[] = [
       voltage: "24V DC",
       remoteControl: "Yes",
     },
-    translationKeys: {
-      title: "products:bldcFans.tableFan.title",
-      description: "products:bldcFans.tableFan.description",
-      featuresKey: "products:bldcFans.tableFan.features",
-    },
+    title: "BLDC Table Fan Motors",
+    description: "High-efficiency BLDC table fan motors with 28W power consumption and 2100 RPM speed. Features remote control operation and 400mm diameter for optimal air circulation in residential and commercial spaces.",
+    features: [
+      "28W energy-efficient operation",
+      "2100 RPM high speed",
+      "400mm diameter for optimal airflow",
+      "24V DC operation",
+      "Remote control compatibility",
+      "Quiet BLDC motor technology",
+      "Long service life"
+    ],
   },
   {
     id: "bldc-wall-fan-motors",
@@ -2059,11 +2071,17 @@ export const products: Product[] = [
       voltage: "24V DC",
       oscillation: "Yes",
     },
-    translationKeys: {
-      title: "products:bldcFans.wallFan.title",
-      description: "products:bldcFans.wallFan.description",
-      featuresKey: "products:bldcFans.wallFan.features",
-    },
+    title: "BLDC Wall Fan Motors",
+    description: "Powerful BLDC wall fan motors with 35W power and 1800 RPM speed. Features 450mm diameter and oscillation capability for effective wall-mounted air circulation in various indoor environments.",
+    features: [
+      "35W efficient power consumption",
+      "1800 RPM optimal speed",
+      "450mm diameter for wide coverage",
+      "24V DC safe operation",
+      "Oscillation feature for better air distribution",
+      "Wall-mounted design",
+      "Silent BLDC technology"
+    ],
   },
   {
     id: "bldc-pedestal-fan-motors",
@@ -2078,11 +2096,17 @@ export const products: Product[] = [
       voltage: "24V DC",
       heightAdjustment: "Yes",
     },
-    translationKeys: {
-      title: "products:bldcFans.pedestalFan.title",
-      description: "products:bldcFans.pedestalFan.description",
-      featuresKey: "products:bldcFans.pedestalFan.features",
-    },
+    title: "BLDC Pedestal Fan Motors",
+    description: "Advanced BLDC pedestal fan motors with 42W power and 1900 RPM speed. Features 500mm diameter and height adjustment capability for flexible positioning and enhanced air circulation in large spaces.",
+    features: [
+      "42W high-efficiency operation",
+      "1900 RPM optimal airflow speed",
+      "500mm large diameter for maximum coverage",
+      "24V DC safe operation",
+      "Height adjustment for flexible positioning",
+      "Pedestal stand design",
+      "Energy-saving BLDC technology"
+    ],
   },
 
   // Electrical Components - Cables & Wires
@@ -2124,11 +2148,17 @@ export const products: Product[] = [
       temperature: "90°C",
       standard: "IS 7098",
     },
-    translationKeys: {
-      title: "products:cablesWires.powerDistribution.title",
-      description: "products:cablesWires.powerDistribution.description",
-      featuresKey: "products:cablesWires.powerDistribution.features",
-    },
+    title: "Power Distribution Cables",
+    description: "Heavy-duty power distribution cables with XLPE insulation for reliable electrical power transmission. Available in voltage ranges from 1kV to 33kV with copper or aluminum conductors for various industrial applications.",
+    features: [
+      "XLPE insulation for high reliability",
+      "Voltage range: 1kV - 33kV",
+      "Copper and aluminum conductor options",
+      "90°C operating temperature",
+      "IS 7098 standard compliance",
+      "Suitable for underground and overhead installation",
+      "Long service life and durability"
+    ],
   },
   {
     id: "communication-cables",
@@ -2143,11 +2173,17 @@ export const products: Product[] = [
       shielding: "F/UTP",
       standard: "TIA/EIA-568-B",
     },
-    translationKeys: {
-      title: "products:cablesWires.communication.title",
-      description: "products:cablesWires.communication.description",
-      featuresKey: "products:cablesWires.communication.features",
-    },
+    title: "Communication Cables",
+    description: "High-performance Category 6A communication cables with 500 MHz bandwidth for advanced networking applications. F/UTP shielding ensures reliable data transmission in demanding environments.",
+    features: [
+      "Category 6A performance for high-speed data",
+      "500 MHz bandwidth capability",
+      "100m transmission length",
+      "F/UTP shielding for signal integrity",
+      "TIA/EIA-568-B standard compliance",
+      "Suitable for 10 Gigabit Ethernet",
+      "Low crosstalk and interference"
+    ],
   },
 
   // Circuit Breakers & Fuses
@@ -2164,11 +2200,17 @@ export const products: Product[] = [
       breakingCapacity: "10kA",
       standard: "IEC 60898",
     },
-    translationKeys: {
-      title: "products:circuitBreakers.mcb.title",
-      description: "products:circuitBreakers.mcb.description",
-      featuresKey: "products:circuitBreakers.mcb.features",
-    },
+    title: "MCB Miniature Circuit Breakers",
+    description: "Reliable MCB miniature circuit breakers for overload and short-circuit protection. Available in current ranges from 6A to 63A with multiple pole configurations for comprehensive electrical protection.",
+    features: [
+      "Current range: 6A - 63A",
+      "Multiple pole options: 1P, 2P, 3P, 4P",
+      "10kA breaking capacity",
+      "IEC 60898 standard compliance",
+      "Compact miniature design",
+      "Reliable overload protection",
+      "Easy installation and maintenance"
+    ],
   },
   {
     id: "mccb-circuit-breakers",
@@ -2183,11 +2225,17 @@ export const products: Product[] = [
       breakingCapacity: "50kA",
       standard: "IEC 60947",
     },
-    translationKeys: {
-      title: "products:circuitBreakers.mccb.title",
-      description: "products:circuitBreakers.mccb.description",
-      featuresKey: "products:circuitBreakers.mccb.features",
-    },
+    title: "MCCB Molded Case Circuit Breakers",
+    description: "Heavy-duty MCCB molded case circuit breakers for high-current applications. Available from 16A to 1600A with 50kA breaking capacity for reliable protection in industrial electrical systems.",
+    features: [
+      "High current range: 16A - 1600A",
+      "3P and 4P pole configurations",
+      "50kA breaking capacity",
+      "IEC 60947 standard compliance",
+      "Molded case construction",
+      "Adjustable trip settings",
+      "Suitable for industrial applications"
+    ],
   },
   {
     id: "industrial-fuses",
@@ -2202,11 +2250,17 @@ export const products: Product[] = [
       breakingCapacity: "80kA",
       standard: "IEC 60269",
     },
-    translationKeys: {
-      title: "products:circuitBreakers.industrialFuses.title",
-      description: "products:circuitBreakers.industrialFuses.description",
-      featuresKey: "products:circuitBreakers.industrialFuses.features",
-    },
+    title: "Industrial HRC Fuses",
+    description: "High-rupturing capacity (HRC) industrial fuses for overcurrent protection. Available from 2A to 800A with voltage ranges up to 11kV and 80kA breaking capacity for critical industrial protection.",
+    features: [
+      "HRC type for high breaking capacity",
+      "Current range: 2A - 800A",
+      "Voltage range: 415V - 11kV",
+      "80kA breaking capacity",
+      "IEC 60269 standard compliance",
+      "Fast-acting overcurrent protection",
+      "Reliable arc extinction"
+    ],
   },
 
   // Connectors & Terminals
@@ -2223,11 +2277,17 @@ export const products: Product[] = [
       wireSize: "0.2 - 50 mm²",
       mounting: "DIN Rail",
     },
-    translationKeys: {
-      title: "products:connectorsTerminals.terminalBlocks.title",
-      description: "products:connectorsTerminals.terminalBlocks.description",
-      featuresKey: "products:connectorsTerminals.terminalBlocks.features",
-    },
+    title: "Industrial Terminal Blocks",
+    description: "Versatile terminal blocks for secure electrical connections in industrial control panels. Available in screw and spring clamp types with current ratings from 10A to 150A and DIN rail mounting.",
+    features: [
+      "Screw and spring clamp terminal types",
+      "Current rating: 10A - 150A",
+      "1000V voltage rating",
+      "Wire size: 0.2 - 50 mm²",
+      "DIN rail mounting system",
+      "Secure and reliable connections",
+      "Easy installation and maintenance"
+    ],
   },
   {
     id: "industrial-connectors",
@@ -2242,12 +2302,17 @@ export const products: Product[] = [
       voltage: "690V",
       rating: "IP67",
     },
-    translationKeys: {
-      title: "products:connectorsTerminals.industrialConnectors.title",
-      description:
-        "products:connectorsTerminals.industrialConnectors.description",
-      featuresKey: "products:connectorsTerminals.industrialConnectors.features",
-    },
+    title: "Industrial Heavy Duty Connectors",
+    description: "Heavy-duty industrial connectors designed for harsh environments. Available with 3-128 pins, current ratings up to 400A, and IP67 protection for reliable connections in demanding applications.",
+    features: [
+      "Heavy-duty construction for industrial use",
+      "Pin configurations: 3-128 pins",
+      "High current capacity: 16A - 400A",
+      "690V voltage rating",
+      "IP67 protection rating",
+      "Suitable for harsh environments",
+      "Reliable connection performance"
+    ],
   },
   {
     id: "signal-connectors",
@@ -2262,11 +2327,17 @@ export const products: Product[] = [
       voltage: "250V",
       shielding: "360° EMI",
     },
-    translationKeys: {
-      title: "products:connectorsTerminals.signalConnectors.title",
-      description: "products:connectorsTerminals.signalConnectors.description",
-      featuresKey: "products:connectorsTerminals.signalConnectors.features",
-    },
+    title: "Signal Connectors",
+    description: "Miniature signal connectors for precise data transmission in control and instrumentation applications. Features 2-50 pin configurations with 360° EMI shielding for signal integrity.",
+    features: [
+      "Miniature design for space-saving",
+      "Pin range: 2-50 pins",
+      "5A current rating",
+      "250V voltage capability",
+      "360° EMI shielding",
+      "Excellent signal integrity",
+      "Ideal for control applications"
+    ],
   },
 
   // Instrumentation Components - Sensors
@@ -2293,11 +2364,18 @@ export const products: Product[] = [
       connectionType: "M12 Connector",
       certification: "CE, UL, CSA",
     },
-    translationKeys: {
-      title: "products:sensors.omronPnpProximity.title",
-      description: "products:sensors.omronPnpProximity.description",
-      featuresKey: "products:sensors.omronPnpProximity.features",
-    },
+    title: "Omron E2E-X5ME1 PNP Proximity Sensor",
+    description: "High-performance Omron PNP inductive proximity sensor with 5mm sensing distance. Features PNP NO/NC output, IP67 protection, and M12 connector for reliable industrial automation applications.",
+    features: [
+      "5mm sensing distance for precise detection",
+      "PNP NO/NC output configuration",
+      "12-24VDC operating voltage",
+      "200mA maximum current",
+      "1000Hz switching frequency",
+      "IP67 protection rating",
+      "M12 connector for easy installation",
+      "CE, UL, CSA certified"
+    ],
   },
   {
     id: "pepperl-fuchs-nbb5-18gm60-e2-pnp",
@@ -2319,11 +2397,18 @@ export const products: Product[] = [
       connectionType: "2m Cable",
       certification: "ATEX, IECEx, CE",
     },
-    translationKeys: {
-      title: "products:sensors.pepperlFuchsPnp.title",
-      description: "products:sensors.pepperlFuchsPnp.description",
-      featuresKey: "products:sensors.pepperlFuchsPnp.features",
-    },
+    title: "Pepperl+Fuchs NBB5-18GM60-E2 PNP Sensor",
+    description: "Industrial-grade Pepperl+Fuchs PNP inductive proximity sensor with 5mm sensing range. Features IP68 protection, ATEX certification, and 5000Hz switching frequency for harsh environment applications.",
+    features: [
+      "5mm sensing distance for accurate detection",
+      "PNP NO output type",
+      "10-30VDC wide voltage range",
+      "200mA maximum current",
+      "High 5000Hz switching frequency",
+      "IP68 protection for harsh environments",
+      "2m cable connection",
+      "ATEX, IECEx, CE certified"
+    ],
   },
 
   // NPN Proximity Sensors
@@ -2348,11 +2433,18 @@ export const products: Product[] = [
       connectionType: "M12 Connector",
       certification: "CE, UL, CSA",
     },
-    translationKeys: {
-      title: "products:sensors.sickNpnProximity.title",
-      description: "products:sensors.sickNpnProximity.description",
-      featuresKey: "products:sensors.sickNpnProximity.features",
-    },
+    title: "Sick IM12-04BNS-ZW1 NPN Proximity Sensor",
+    description: "Reliable Sick NPN inductive proximity sensor with 4mm sensing distance. Features NPN NO output, IP67 protection, and M12 connector for demanding industrial automation applications.",
+    features: [
+      "4mm sensing distance for precise detection",
+      "NPN NO output configuration",
+      "10-30VDC operating voltage",
+      "200mA maximum current",
+      "2000Hz switching frequency",
+      "IP67 protection rating",
+      "M12 connector for easy installation",
+      "CE, UL, CSA certified"
+    ],
   },
   {
     id: "turck-bi5-g18-an6x-npn",
@@ -2374,11 +2466,18 @@ export const products: Product[] = [
       connectionType: "2m PVC Cable",
       certification: "CE, UL, CSA",
     },
-    translationKeys: {
-      title: "products:sensors.turckNpnProximity.title",
-      description: "products:sensors.turckNpnProximity.description",
-      featuresKey: "products:sensors.turckNpnProximity.features",
-    },
+    title: "Turck BI5-G18-AN6X NPN Proximity Sensor",
+    description: "High-performance Turck NPN inductive proximity sensor with 5mm sensing range. Features NPN NO/NC output, IP67 protection, and 2m PVC cable for versatile industrial applications.",
+    features: [
+      "5mm sensing distance for accurate detection",
+      "NPN NO/NC output configuration",
+      "10-30VDC wide voltage range",
+      "200mA maximum current",
+      "High 3000Hz switching frequency",
+      "IP67 protection rating",
+      "2m PVC cable connection",
+      "CE, UL, CSA certified"
+    ],
   },
 
   // RTD Temperature Sensors
@@ -2401,11 +2500,18 @@ export const products: Product[] = [
       cableLength: "5m, 4-wire",
       certification: "CE, ATEX, IECEx",
     },
-    translationKeys: {
-      title: "products:sensors.wikaPt100Rtd.title",
-      description: "products:sensors.wikaPt100Rtd.description",
-      featuresKey: "products:sensors.wikaPt100Rtd.features",
-    },
+    title: "Wika TR10-A PT100 RTD Temperature Sensor",
+    description: "Precision Wika PT100 RTD temperature sensor with wide measurement range from -200°C to +600°C. Features Class A accuracy, fast response time, and ATEX certification for process applications.",
+    features: [
+      "PT100 element type (3850ppm/K)",
+      "Wide temperature range: -200°C to +600°C",
+      "Class A accuracy (±0.15°C at 0°C)",
+      "Fast response time: T90 < 8s",
+      "IP65 protection rating",
+      "1/2\" NPT process connection",
+      "5m, 4-wire cable",
+      "CE, ATEX, IECEx certified"
+    ],
   },
   {
     id: "rosemount-78s-pt500-rtd",
@@ -2426,11 +2532,18 @@ export const products: Product[] = [
       cableLength: "10m, 3-wire",
       certification: "FM, CSA, ATEX",
     },
-    translationKeys: {
-      title: "products:sensors.rosemountPt500Rtd.title",
-      description: "products:sensors.rosemountPt500Rtd.description",
-      featuresKey: "products:sensors.rosemountPt500Rtd.features",
-    },
+    title: "Rosemount 78S PT500 RTD Temperature Sensor",
+    description: "Industrial-grade Rosemount PT500 RTD temperature sensor with -200°C to +500°C range. Features Class A accuracy, fast response time, and IP68 protection for harsh environments.",
+    features: [
+      "PT500 element type (3850ppm/K)",
+      "Temperature range: -200°C to +500°C",
+      "Class A accuracy (±0.3°C at 0°C)",
+      "Fast response time: T90 < 5s",
+      "IP68 protection for harsh environments",
+      "1/4\" NPT process connection",
+      "10m, 3-wire cable",
+      "FM, CSA, ATEX certified"
+    ],
   },
   {
     id: "omega-rtd-pt1000-probe",
@@ -2452,11 +2565,19 @@ export const products: Product[] = [
       cableLength: "3m, 2-wire",
       certification: "CE, RoHS",
     },
-    translationKeys: {
-      title: "products:sensors.omegaPt1000Rtd.title",
-      description: "products:sensors.omegaPt1000Rtd.description",
-      featuresKey: "products:sensors.omegaPt1000Rtd.features",
-    },
+    title: "Omega RTD-2-PT1000 Temperature Probe",
+    description: "Precision Omega PT1000 RTD temperature probe with extended range from -200°C to +650°C. Features Class A accuracy, 6-inch probe length, and 1/8 inch diameter for versatile temperature measurement applications.",
+    features: [
+      "PT1000 element type (3850ppm/K)",
+      "Extended temperature range: -200°C to +650°C",
+      "Class A accuracy (±0.3°C at 0°C)",
+      "Response time: T90 < 12s",
+      "IP65 protection rating",
+      "6-inch probe length",
+      "1/8 inch probe diameter",
+      "3m, 2-wire cable",
+      "CE, RoHS certified"
+    ],
   },
 
   // Thermocouple Sensors
@@ -2481,11 +2602,20 @@ export const products: Product[] = [
       cableLength: "2m",
       certification: "ANSI MC96.1",
     },
-    translationKeys: {
-      title: "products:sensors.tcLtdTypeK.title",
-      description: "products:sensors.tcLtdTypeK.description",
-      featuresKey: "products:sensors.tcLtdTypeK.features",
-    },
+    title: "TC Ltd Type K Thermocouple Sensor",
+    description: "High-performance Type K thermocouple sensor with wide temperature range from -200°C to +1200°C. Features grounded junction, fast response time, and ANSI MC96.1 compliance for industrial applications.",
+    features: [
+      "Type K (Chromel-Alumel) thermocouple",
+      "Wide temperature range: -200°C to +1200°C",
+      "High accuracy: ±1.1°C or ±0.4%",
+      "Fast response time: T90 < 0.5s",
+      "IP65 protection rating",
+      "6-inch probe length",
+      "1/8 inch probe diameter",
+      "Grounded junction type",
+      "2m cable length",
+      "ANSI MC96.1 certified"
+    ],
   },
   {
     id: "omega-type-j-thermocouple",
@@ -2508,11 +2638,20 @@ export const products: Product[] = [
       cableLength: "3m",
       certification: "ANSI MC96.1, CE",
     },
-    translationKeys: {
-      title: "products:sensors.omegaTypeJ.title",
-      description: "products:sensors.omegaTypeJ.description",
-      featuresKey: "products:sensors.omegaTypeJ.features",
-    },
+    title: "Omega JMQSS Type J Thermocouple Sensor",
+    description: "Professional Omega Type J thermocouple sensor with temperature range from -210°C to +760°C. Features ungrounded junction, fast response time, and dual certification for reliable temperature measurement.",
+    features: [
+      "Type J (Iron-Constantan) thermocouple",
+      "Temperature range: -210°C to +760°C",
+      "High accuracy: ±1.1°C or ±0.4%",
+      "Fast response time: T90 < 0.4s",
+      "IP65 protection rating",
+      "6-inch probe length",
+      "1/8 inch probe diameter",
+      "Ungrounded junction type",
+      "3m cable length",
+      "ANSI MC96.1, CE certified"
+    ],
   },
   {
     id: "wika-type-t-thermocouple",
@@ -2535,11 +2674,20 @@ export const products: Product[] = [
       cableLength: "5m",
       certification: "ATEX, IECEx, CE",
     },
-    translationKeys: {
-      title: "products:sensors.wikaTypeT.title",
-      description: "products:sensors.wikaTypeT.description",
-      featuresKey: "products:sensors.wikaTypeT.features",
-    },
+    title: "Wika TC50-T Type T Thermocouple Sensor",
+    description: "Precision Wika Type T thermocouple sensor with temperature range from -250°C to +400°C. Features grounded junction, ATEX certification, and superior accuracy for demanding industrial applications.",
+    features: [
+      "Type T (Copper-Constantan) thermocouple",
+      "Temperature range: -250°C to +400°C",
+      "High accuracy: ±0.5°C or ±0.4%",
+      "Response time: T90 < 1s",
+      "IP67 protection rating",
+      "150mm probe length",
+      "6mm probe diameter",
+      "Grounded junction type",
+      "5m cable length",
+      "ATEX, IECEx, CE certified"
+    ],
   },
   {
     id: "omega-stc-type-s-thermocouple",
@@ -2562,11 +2710,20 @@ export const products: Product[] = [
       cableLength: "2m",
       certification: "ANSI MC96.1, CE",
     },
-    translationKeys: {
-      title: "products:sensors.omegaTypeS.title",
-      description: "products:sensors.omegaTypeS.description",
-      featuresKey: "products:sensors.omegaTypeS.features",
-    },
+    title: "Omega STC-S Type S Thermocouple Sensor",
+    description: "High-temperature Omega Type S thermocouple sensor with platinum-rhodium elements for temperatures up to +1600°C. Features ungrounded junction and superior accuracy for laboratory and industrial high-temperature applications.",
+    features: [
+      "Type S (Platinum-Rhodium) thermocouple",
+      "High temperature range: 0°C to +1600°C",
+      "Excellent accuracy: ±1.0°C or ±0.25%",
+      "Response time: T90 < 5s",
+      "IP65 protection rating",
+      "6-inch probe length",
+      "1/8 inch probe diameter",
+      "Ungrounded junction type",
+      "2m cable length",
+      "ANSI MC96.1, CE certified"
+    ],
   },
 
   // DP Type Transmitters (Differential Pressure)
@@ -2593,11 +2750,19 @@ export const products: Product[] = [
       processConnection: "1/4 NPT, 1/2 NPT, M20x1.5",
       materials: "316L SST wetted parts",
     },
-    translationKeys: {
-      title: "products:transmitters.rosemount3051cd.title",
-      description: "products:transmitters.rosemount3051cd.description",
-      featuresKey: "products:transmitters.rosemount3051cd.features",
-    },
+    title: "Rosemount 3051CD Smart DP Transmitter",
+    description: "Industry-leading Rosemount 3051CD smart differential pressure transmitter with HART 7 communication. Features exceptional accuracy, long-term stability, and SIL 2/3 certification for critical process applications.",
+    features: [
+      "Smart differential pressure measurement",
+      "Pressure range: 0-2.5 kPa to 0-10 MPa",
+      "Outstanding accuracy: ±0.04% of span",
+      "Long-term stability: ±0.125% for 5 years",
+      "Operating temperature: -40°C to +85°C",
+      "IP67 protection rating",
+      "HART 7, 4-20mA communication",
+      "316L SST wetted parts",
+      "ATEX, IECEx, SIL 2/3 certified"
+    ],
   },
   {
     id: "endress-hauser-deltabar-pmd75-dp",
@@ -2622,11 +2787,19 @@ export const products: Product[] = [
       processConnection: "1/2-14 NPT, M20x1.5, Tri-Clamp",
       materials: "Hastelloy C-276, 316L SST",
     },
-    translationKeys: {
-      title: "products:transmitters.endressHauserDeltabar.title",
-      description: "products:transmitters.endressHauserDeltabar.description",
-      featuresKey: "products:transmitters.endressHauserDeltabar.features",
-    },
+    title: "Endress+Hauser Deltabar PMD75 DP Transmitter",
+    description: "Advanced Endress+Hauser Deltabar PMD75 HART DP transmitter with remote seals capability. Features multi-protocol communication, exceptional long-term stability, and wide process temperature range for demanding applications.",
+    features: [
+      "HART DP transmitter with remote seals",
+      "Pressure range: 0-100 Pa to 0-4 MPa",
+      "High accuracy: ±0.05% of span",
+      "Exceptional stability: ±0.1% for 10 years",
+      "Process temperature: -90°C to +400°C",
+      "IP68 protection rating",
+      "Multi-protocol: HART, Foundation Fieldbus, Profibus PA",
+      "Hastelloy C-276, 316L SST materials",
+      "ATEX, IECEx, SIL 2/3, WHG certified"
+    ],
   },
   {
     id: "yokogawa-eja110e-dp-transmitter",
@@ -2651,11 +2824,19 @@ export const products: Product[] = [
       processConnection: "1/4 NPT, 1/2 NPT, M20x1.5, Rc1/4",
       materials: "Hastelloy C-276, 316L SST, Tantalum",
     },
-    translationKeys: {
-      title: "products:transmitters.yokogawaEja110e.title",
-      description: "products:transmitters.yokogawaEja110e.description",
-      featuresKey: "products:transmitters.yokogawaEja110e.features",
-    },
+    title: "Yokogawa EJA110E DPharp DP Transmitter",
+    description: "Advanced Yokogawa EJA110E DPharp digital differential pressure transmitter with multi-protocol communication. Features exceptional accuracy, long-term stability, and premium material options for critical process applications.",
+    features: [
+      "DPharp digital DP measurement technology",
+      "Pressure range: 0-500 Pa to 0-10 MPa",
+      "Exceptional accuracy: ±0.04% of span",
+      "Long-term stability: ±0.1% for 10 years",
+      "Operating temperature: -40°C to +85°C",
+      "IP67 protection rating",
+      "Multi-protocol: HART, Foundation Fieldbus, Profibus PA, BRAIN",
+      "Premium materials: Hastelloy C-276, 316L SST, Tantalum",
+      "ATEX, IECEx, FM, CSA, SIL 2/3 certified"
+    ],
   },
   {
     id: "honeywell-stt950-dp-transmitter",
@@ -2680,11 +2861,19 @@ export const products: Product[] = [
       processConnection: "1/4 NPT, 1/2 NPT, M20x1.5",
       materials: "316L SST, Hastelloy C-276",
     },
-    translationKeys: {
-      title: "products:transmitters.honeywellStt950.title",
-      description: "products:transmitters.honeywellStt950.description",
-      featuresKey: "products:transmitters.honeywellStt950.features",
-    },
+    title: "Honeywell STT950 Smart DP Transmitter",
+    description: "Reliable Honeywell STT950 smart differential pressure transmitter with multi-protocol communication support. Features high accuracy, proven stability, and comprehensive certification for demanding industrial applications.",
+    features: [
+      "Smart differential pressure measurement",
+      "Pressure range: 0-249 Pa to 0-13.8 MPa",
+      "High accuracy: ±0.04% of span",
+      "Proven stability: ±0.125% for 5 years",
+      "Process temperature: -40°C to +121°C",
+      "IP67 protection rating",
+      "Multi-protocol: HART, Foundation Fieldbus, DE Protocol",
+      "Robust materials: 316L SST, Hastelloy C-276",
+      "ATEX, IECEx, FM, CSA, SIL 2/3 certified"
+    ],
   },
 
   // pH Sensors
@@ -2709,11 +2898,20 @@ export const products: Product[] = [
       electrolyte: "Polymer gel",
       certification: "ATEX, FM, CSA",
     },
-    translationKeys: {
-      title: "products:sensors.endressHauserPh.title",
-      description: "products:sensors.endressHauserPh.description",
-      featuresKey: "products:sensors.endressHauserPh.features",
-    },
+    title: "Endress+Hauser CPS11D Digital pH Sensor",
+    description: "Precision Endress+Hauser CPS11D digital pH sensor with automatic temperature compensation. Features high accuracy, PTFE diaphragm, and polymer gel electrolyte for reliable pH measurement in demanding applications.",
+    features: [
+      "Digital pH measurement technology",
+      "Full pH range: 0-14 pH",
+      "High accuracy: ±0.05 pH",
+      "Temperature range: 0-80°C",
+      "Automatic temperature compensation (Pt1000)",
+      "IP68 protection rating",
+      "PTFE diaphragm for chemical resistance",
+      "Polymer gel electrolyte",
+      "10m cable length",
+      "ATEX, FM, CSA certified"
+    ],
   },
   {
     id: "hach-phd-sc-ph-sensor",
@@ -2736,11 +2934,20 @@ export const products: Product[] = [
       electrolyte: "Liquid KCl",
       certification: "UL, CE, CSA",
     },
-    translationKeys: {
-      title: "products:sensors.hachPhdSc.title",
-      description: "products:sensors.hachPhdSc.description",
-      featuresKey: "products:sensors.hachPhdSc.features",
-    },
+    title: "Hach pHD sc Differential pH Sensor",
+    description: "High-precision Hach pHD sc differential pH sensor with superior accuracy and temperature compensation. Features ceramic diaphragm, liquid KCl electrolyte, and extended measurement range for critical pH monitoring.",
+    features: [
+      "Differential pH measurement technology",
+      "Full pH range: 0-14 pH",
+      "Superior accuracy: ±0.02 pH",
+      "Extended temperature range: 0-100°C",
+      "Automatic temperature compensation (NTC)",
+      "IP68 protection rating",
+      "Ceramic diaphragm for durability",
+      "Liquid KCl electrolyte",
+      "15m cable length",
+      "UL, CE, CSA certified"
+    ],
   },
 
   // Transmitters & Transducers
@@ -2769,11 +2976,19 @@ export const products: Product[] = [
       processConnection: "G1/2, 1/2 NPT, M20x1.5",
       materials: "316L SST wetted parts",
     },
-    translationKeys: {
-      title: "products:transmitters.siemensSitransP320.title",
-      description: "products:transmitters.siemensSitransP320.description",
-      featuresKey: "products:transmitters.siemensSitransP320.features",
-    },
+    title: "Siemens SITRANS P320 Pressure Transmitter",
+    description: "Reliable Siemens SITRANS P320 absolute/gauge pressure transmitter with wide pressure range capabilities. Features high accuracy, multi-protocol communication, and SIL 2 certification for demanding process applications.",
+    features: [
+      "Absolute/gauge pressure measurement",
+      "Wide pressure range: 0-1 kPa to 0-70 MPa",
+      "High accuracy: ±0.075% of span",
+      "Long-term stability: ±0.1% for 5 years",
+      "Process temperature: -40°C to +125°C",
+      "IP67 protection rating",
+      "Multi-protocol: HART, 4-20mA, Profibus PA",
+      "316L SST wetted parts",
+      "ATEX, IECEx, FM, CSA, SIL 2 certified"
+    ],
   },
   {
     id: "abb-2600t-series-pressure",
@@ -2798,11 +3013,19 @@ export const products: Product[] = [
       processConnection: "1/4 NPT, 1/2 NPT, M20x1.5",
       materials: "316L SST, Hastelloy C-276",
     },
-    translationKeys: {
-      title: "products:transmitters.abb2600t.title",
-      description: "products:transmitters.abb2600t.description",
-      featuresKey: "products:transmitters.abb2600t.features",
-    },
+    title: "ABB 2600T Series Pressure Transmitter",
+    description: "High-performance ABB 2600T series gauge/absolute pressure transmitter with exceptional accuracy and stability. Features multi-protocol communication and premium material options for critical industrial processes.",
+    features: [
+      "Gauge/absolute pressure measurement",
+      "Pressure range: 0-100 kPa to 0-100 MPa",
+      "Exceptional accuracy: ±0.04% of span",
+      "Long-term stability: ±0.1% for 5 years",
+      "Process temperature: -40°C to +121°C",
+      "IP67 protection rating",
+      "Multi-protocol: HART, Foundation Fieldbus, 4-20mA",
+      "Premium materials: 316L SST, Hastelloy C-276",
+      "ATEX, IECEx, FM, CSA, SIL 2/3 certified"
+    ],
   },
   {
     id: "wika-a10-pressure-transmitter",
@@ -2827,11 +3050,19 @@ export const products: Product[] = [
       processConnection: "G1/4, G1/2, 1/4 NPT, 1/2 NPT",
       materials: "Stainless steel 316L",
     },
-    translationKeys: {
-      title: "products:transmitters.wikaA10.title",
-      description: "products:transmitters.wikaA10.description",
-      featuresKey: "products:transmitters.wikaA10.features",
-    },
+    title: "WIKA A-10 General Purpose Pressure Transmitter",
+    description: "Cost-effective WIKA A-10 general purpose pressure transmitter for standard industrial applications. Features reliable performance, multiple output options, and stainless steel construction for versatile use.",
+    features: [
+      "General purpose pressure measurement",
+      "Pressure range: 0-1 bar to 0-1000 bar",
+      "Good accuracy: ±0.25% of span",
+      "Stability: ±0.1% per year",
+      "Operating temperature: -40°C to +85°C",
+      "IP65 protection rating",
+      "Multiple outputs: 4-20mA, 0-10V",
+      "316L stainless steel construction",
+      "CE, RoHS compliant"
+    ],
   },
   {
     id: "fuji-fcx-aii-pressure",
@@ -2856,11 +3087,19 @@ export const products: Product[] = [
       processConnection: "1/4 NPT, 1/2 NPT, M20x1.5, Rc1/4",
       materials: "316L SST, Hastelloy C-276",
     },
-    translationKeys: {
-      title: "products:transmitters.fujiFcxAii.title",
-      description: "products:transmitters.fujiFcxAii.description",
-      featuresKey: "products:transmitters.fujiFcxAii.features",
-    },
+    title: "Fuji Electric FCX-AII Smart Pressure Transmitter",
+    description: "Advanced Fuji Electric FCX-AII series smart pressure transmitter with multi-protocol communication. Features high accuracy, long-term stability, and premium material construction for demanding applications.",
+    features: [
+      "Smart pressure measurement technology",
+      "Pressure range: 0-10 kPa to 0-10 MPa",
+      "High accuracy: ±0.065% of span",
+      "Long-term stability: ±0.1% for 5 years",
+      "Process temperature: -40°C to +120°C",
+      "IP67 protection rating",
+      "Multi-protocol: HART, Foundation Fieldbus, 4-20mA",
+      "Premium materials: 316L SST, Hastelloy C-276",
+      "ATEX, IECEx, FM, CSA certified"
+    ],
   },
 
   // RS Type Transmitters (Remote Seal)
@@ -2888,11 +3127,20 @@ export const products: Product[] = [
       flushMount: "Available",
       materials: "316L SST, Hastelloy C-276, Monel",
     },
-    translationKeys: {
-      title: "products:transmitters.rosemountRemoteSeal.title",
-      description: "products:transmitters.rosemountRemoteSeal.description",
-      featuresKey: "products:transmitters.rosemountRemoteSeal.features",
-    },
+    title: "Rosemount 3051S Remote Seal Pressure Transmitter",
+    description: "Industry-leading Rosemount 3051S remote seal pressure transmitter for extreme process conditions. Features exceptional accuracy including remote seal effects, extended capillary lengths, and premium material options for demanding applications.",
+    features: [
+      "Remote seal pressure measurement technology",
+      "Pressure range: 0-1.2 kPa to 0-69 MPa",
+      "Exceptional accuracy: ±0.04% of span (including remote seal effects)",
+      "Long-term stability: ±0.125% for 5 years",
+      "Extended process temperature: -196°C to +400°C",
+      "IP67 protection rating",
+      "HART 7, 4-20mA communication",
+      "Capillary length: Up to 30 meters",
+      "Premium materials: 316L SST, Hastelloy C-276, Monel",
+      "ATEX, IECEx, SIL 2/3 certified"
+    ],
   },
   {
     id: "endress-hauser-cerabar-s-remote",
@@ -2918,11 +3166,20 @@ export const products: Product[] = [
       flushMount: "Available",
       materials: "Ceramic Al2O3, 316L SST, Hastelloy C-276",
     },
-    translationKeys: {
-      title: "products:transmitters.endressRemoteSeal.title",
-      description: "products:transmitters.endressRemoteSeal.description",
-      featuresKey: "products:transmitters.endressRemoteSeal.features",
-    },
+    title: "Endress+Hauser Cerabar S Remote Seal Transmitter",
+    description: "Advanced Endress+Hauser Cerabar S ceramic remote seal transmitter with exceptional stability. Features ceramic sensor technology, multi-protocol communication, and extended capillary lengths for challenging process conditions.",
+    features: [
+      "Ceramic remote seal measurement technology",
+      "Pressure range: 0-100 Pa to 0-100 MPa",
+      "High accuracy: ±0.075% of span (including remote seal)",
+      "Exceptional stability: ±0.1% for 10 years",
+      "Extended process temperature: -90°C to +400°C",
+      "IP68 protection rating",
+      "Multi-protocol: HART, Foundation Fieldbus, Profibus PA",
+      "Extended capillary length: Up to 50 meters",
+      "Ceramic Al2O3, 316L SST, Hastelloy C-276 materials",
+      "ATEX, IECEx, SIL 2/3, WHG certified"
+    ],
   },
   {
     id: "yokogawa-eja430e-remote-seal",
@@ -2948,11 +3205,20 @@ export const products: Product[] = [
       flushMount: "Available",
       materials: "316L SST, Hastelloy C-276, Tantalum",
     },
-    translationKeys: {
-      title: "products:transmitters.yokogawaRemoteSeal.title",
-      description: "products:transmitters.yokogawaRemoteSeal.description",
-      featuresKey: "products:transmitters.yokogawaRemoteSeal.features",
-    },
+    title: "Yokogawa EJA430E DPharp Remote Seal Transmitter",
+    description: "Precision Yokogawa EJA430E DPharp remote seal transmitter with multi-protocol communication. Features exceptional accuracy including remote seal effects, wide process temperature range, and premium material construction.",
+    features: [
+      "DPharp remote seal measurement technology",
+      "Pressure range: 0-2 kPa to 0-50 MPa",
+      "Exceptional accuracy: ±0.04% of span (including remote seal effects)",
+      "Long-term stability: ±0.1% for 10 years",
+      "Wide process temperature: -200°C to +400°C",
+      "IP67 protection rating",
+      "Multi-protocol: HART, Foundation Fieldbus, Profibus PA, BRAIN",
+      "Capillary length: Up to 30 meters",
+      "Premium materials: 316L SST, Hastelloy C-276, Tantalum",
+      "ATEX, IECEx, FM, CSA, SIL 2/3 certified"
+    ],
   },
   {
     id: "honeywell-stt850-remote-seal",
@@ -2978,11 +3244,20 @@ export const products: Product[] = [
       flushMount: "Available",
       materials: "316L SST, Hastelloy C-276, Monel 400",
     },
-    translationKeys: {
-      title: "products:transmitters.honeywellRemoteSeal.title",
-      description: "products:transmitters.honeywellRemoteSeal.description",
-      featuresKey: "products:transmitters.honeywellRemoteSeal.features",
-    },
+    title: "Honeywell STT850 Smart Remote Seal Transmitter",
+    description: "Reliable Honeywell STT850 smart remote seal transmitter with multi-protocol communication. Features high accuracy including remote seal effects, extended process temperature range, and premium material construction.",
+    features: [
+      "Smart remote seal measurement technology",
+      "Pressure range: 0-1.25 kPa to 0-69 MPa",
+      "High accuracy: ±0.04% of span (including remote seal)",
+      "Proven stability: ±0.125% for 5 years",
+      "Extended process temperature: -73°C to +400°C",
+      "IP67 protection rating",
+      "Multi-protocol: HART, Foundation Fieldbus, DE Protocol",
+      "Capillary length: Up to 30 meters",
+      "Premium materials: 316L SST, Hastelloy C-276, Monel 400",
+      "ATEX, IECEx, FM, CSA, SIL 2/3 certified"
+    ],
   },
 
   // Magnetic Flow Meters
@@ -3010,11 +3285,20 @@ export const products: Product[] = [
       linerMaterials: "PTFE, PFA, Polyurethane, Rubber",
       electrodeMaterials: "316L SST, Hastelloy C-276, Platinum, Tantalum",
     },
-    translationKeys: {
-      title: "products:transmitters.endressPromagW400.title",
-      description: "products:transmitters.endressPromagW400.description",
-      featuresKey: "products:transmitters.endressPromagW400.features",
-    },
+    title: "Endress+Hauser Promag W 400 Electromagnetic Flow Meter",
+    description: "Advanced Endress+Hauser Promag W 400 electromagnetic flow meter with exceptional accuracy and multi-protocol communication. Features wide diameter range, superior repeatability, and premium material options for demanding flow applications.",
+    features: [
+      "Electromagnetic flow measurement technology",
+      "Wide diameter range: DN15 to DN2000 (1/2\" to 78\")",
+      "High accuracy: ±0.2% of reading (±2 mm/s)",
+      "Excellent repeatability: ±0.05% of reading",
+      "Process temperature: -25°C to +180°C",
+      "IP67/IP68 protection ratings",
+      "Multi-protocol: HART, Modbus RS485, Foundation Fieldbus, Profibus PA",
+      "Multiple liner materials: PTFE, PFA, Polyurethane, Rubber",
+      "Premium electrodes: 316L SST, Hastelloy C-276, Platinum, Tantalum",
+      "ATEX, IECEx, FM, CSA, SIL 2/3 certified"
+    ],
   },
   {
     id: "rosemount-8750w-magnetic-flowmeter",
@@ -3040,11 +3324,20 @@ export const products: Product[] = [
       linerMaterials: "PTFE, PFA, Polyurethane, Neoprene",
       electrodeMaterials: "316L SST, Hastelloy C-276, Platinum, Tantalum",
     },
-    translationKeys: {
-      title: "products:transmitters.rosemount8750w.title",
-      description: "products:transmitters.rosemount8750w.description",
-      featuresKey: "products:transmitters.rosemount8750w.features",
-    },
+    title: "Rosemount 8750W Magnetic Flow Meter with Advanced Diagnostics",
+    description: "Industry-leading Rosemount 8750W magnetic flow meter with advanced diagnostics and WirelessHART capability. Features exceptional diameter range, superior accuracy, and comprehensive communication protocols for critical flow measurement.",
+    features: [
+      "Magnetic flow meter with advanced diagnostics",
+      "Exceptional diameter range: DN15 to DN3000 (1/2\" to 120\")",
+      "Good accuracy: ±0.25% of reading (±1.5 mm/s)",
+      "Excellent repeatability: ±0.05% of reading",
+      "Process temperature: -40°C to +180°C",
+      "IP67/IP68 protection ratings",
+      "Advanced communication: HART, Foundation Fieldbus, Modbus, WirelessHART",
+      "Multiple liner materials: PTFE, PFA, Polyurethane, Neoprene",
+      "Premium electrodes: 316L SST, Hastelloy C-276, Platinum, Tantalum",
+      "ATEX, IECEx, FM, CSA, SIL 2/3 certified"
+    ],
   },
   {
     id: "abb-procesmaster-fem300",
@@ -3070,11 +3363,20 @@ export const products: Product[] = [
       linerMaterials: "PTFE, PFA, Polyurethane, Rubber, Ceramic",
       electrodeMaterials: "316L SST, Hastelloy C-276, Platinum, Tantalum",
     },
-    translationKeys: {
-      title: "products:transmitters.abbProcessmaster.title",
-      description: "products:transmitters.abbProcessmaster.description",
-      featuresKey: "products:transmitters.abbProcessmaster.features",
-    },
+    title: "ABB ProcessMaster FEM300 Electromagnetic Flow Meter",
+    description: "High-performance ABB ProcessMaster FEM300 electromagnetic flow meter with multi-protocol communication. Features wide diameter range, high accuracy, and comprehensive liner/electrode material options for versatile applications.",
+    features: [
+      "Electromagnetic flow measurement technology",
+      "Wide diameter range: DN10 to DN2000 (3/8\" to 78\")",
+      "High accuracy: ±0.2% of reading (±2 mm/s)",
+      "Excellent repeatability: ±0.05% of reading",
+      "Process temperature: -10°C to +180°C",
+      "IP67/IP68 protection ratings",
+      "Multi-protocol: HART, Foundation Fieldbus, Profibus PA, Modbus",
+      "Comprehensive liner materials: PTFE, PFA, Polyurethane, Rubber, Ceramic",
+      "Premium electrodes: 316L SST, Hastelloy C-276, Platinum, Tantalum",
+      "ATEX, IECEx, FM, CSA, SIL 2/3 certified"
+    ],
   },
   {
     id: "yokogawa-admag-axf-magnetic",
@@ -3100,11 +3402,20 @@ export const products: Product[] = [
       linerMaterials: "PTFE, PFA, Polyurethane, Rubber",
       electrodeMaterials: "SUS316L, Hastelloy C-276, Platinum, Tantalum",
     },
-    translationKeys: {
-      title: "products:transmitters.yokogawaAdmag.title",
-      description: "products:transmitters.yokogawaAdmag.description",
-      featuresKey: "products:transmitters.yokogawaAdmag.features",
-    },
+    title: "Yokogawa ADMAG AXF Magnetic Flow Meter",
+    description: "Advanced Yokogawa ADMAG AXF magnetic flow meter with dual frequency excitation technology. Features high accuracy, multi-protocol communication, and comprehensive material options for demanding flow measurement applications.",
+    features: [
+      "Dual frequency excitation technology",
+      "Wide diameter range: DN10 to DN2000 (3/8\" to 78\")",
+      "Good accuracy: ±0.25% of reading (±1.5 mm/s)",
+      "Excellent repeatability: ±0.05% of reading",
+      "Process temperature: -10°C to +180°C",
+      "IP67/IP68 protection ratings",
+      "Multi-protocol: HART, Foundation Fieldbus, Profibus PA, BRAIN",
+      "Multiple liner materials: PTFE, PFA, Polyurethane, Rubber",
+      "Premium electrodes: SUS316L, Hastelloy C-276, Platinum, Tantalum",
+      "ATEX, IECEx, FM, CSA, SIL 2/3 certified"
+    ],
   },
 
   // Mass Flow Meters
@@ -3132,11 +3443,20 @@ export const products: Product[] = [
       processConnection: "Flanged, Tri-Clamp, Threaded",
       materials: "316L SST, Hastelloy C-276, Duplex 2205",
     },
-    translationKeys: {
-      title: "products:transmitters.emersonCmf300.title",
-      description: "products:transmitters.emersonCmf300.description",
-      featuresKey: "products:transmitters.emersonCmf300.features",
-    },
+    title: "Emerson Micro Motion CMF300 Coriolis Mass Flow Meter",
+    description: "Industry-leading Emerson Micro Motion CMF300 Coriolis mass flow meter with MVD multi-variable transmitter. Features exceptional accuracy, wide temperature range, and premium material construction for critical mass flow applications.",
+    features: [
+      "Coriolis mass flow measurement technology",
+      "Diameter range: DN25 to DN300 (1\" to 12\")",
+      "Exceptional accuracy: ±0.05% of reading (mass flow)",
+      "Superior repeatability: ±0.02% of reading",
+      "Wide process temperature: -240°C to +350°C",
+      "IP67 protection ratings",
+      "Multi-protocol: HART, Foundation Fieldbus, Modbus, Profibus PA",
+      "Multiple process connections: Flanged, Tri-Clamp, Threaded",
+      "Premium materials: 316L SST, Hastelloy C-276, Duplex 2205",
+      "ATEX, IECEx, FM, CSA, SIL 2/3 certified"
+    ],
   },
   {
     id: "endress-hauser-promass-83f",
@@ -3162,11 +3482,20 @@ export const products: Product[] = [
       processConnection: "Flanged, Tri-Clamp, Threaded",
       materials: "316L SST, Hastelloy C-276, Duplex Stainless Steel",
     },
-    translationKeys: {
-      title: "products:transmitters.endressPromass83f.title",
-      description: "products:transmitters.endressPromass83f.description",
-      featuresKey: "products:transmitters.endressPromass83f.features",
-    },
+    title: "Endress+Hauser Promass 83F Coriolis Mass Flow Meter",
+    description: "High-performance Endress+Hauser Promass 83F Coriolis mass flow meter with exceptional accuracy and reliability. Features wide diameter range, multi-protocol communication, and premium material options for demanding applications.",
+    features: [
+      "Coriolis mass flow measurement technology",
+      "Wide diameter range: DN8 to DN300 (1/4\" to 12\")",
+      "Exceptional accuracy: ±0.05% of reading (mass flow)",
+      "Superior repeatability: ±0.02% of reading",
+      "Wide process temperature: -200°C to +350°C",
+      "IP67 protection ratings",
+      "Multi-protocol: HART, Foundation Fieldbus, Profibus PA, Modbus",
+      "Multiple process connections: Flanged, Tri-Clamp, Threaded",
+      "Premium materials: 316L SST, Hastelloy C-276, Duplex Stainless Steel",
+      "ATEX, IECEx, FM, CSA, SIL 2/3 certified"
+    ],
   },
   {
     id: "abb-sensyflow-cmf300",
@@ -3192,11 +3521,20 @@ export const products: Product[] = [
       processConnection: "Flanged, Tri-Clamp, Threaded",
       materials: "316L SST, Hastelloy C-276, Inconel 625",
     },
-    translationKeys: {
-      title: "products:transmitters.abbSensyflow.title",
-      description: "products:transmitters.abbSensyflow.description",
-      featuresKey: "products:transmitters.abbSensyflow.features",
-    },
+    title: "ABB SensyFlow CMF300 Coriolis Mass Flow Meter",
+    description: "Reliable ABB SensyFlow CMF300 Coriolis mass flow meter with exceptional accuracy and multi-protocol communication. Features wide diameter range, high flow rates, and premium material construction for industrial applications.",
+    features: [
+      "Coriolis mass flow measurement technology",
+      "Diameter range: DN15 to DN300 (1/2\" to 12\")",
+      "Exceptional accuracy: ±0.05% of reading (mass flow)",
+      "Superior repeatability: ±0.02% of reading",
+      "Wide process temperature: -200°C to +350°C",
+      "IP67 protection ratings",
+      "Multi-protocol: HART, Foundation Fieldbus, Profibus PA, Modbus",
+      "Multiple process connections: Flanged, Tri-Clamp, Threaded",
+      "Premium materials: 316L SST, Hastelloy C-276, Inconel 625",
+      "ATEX, IECEx, FM, CSA, SIL 2/3 certified"
+    ],
   },
   {
     id: "yokogawa-rotamass-rccs33",
@@ -3222,11 +3560,20 @@ export const products: Product[] = [
       processConnection: "Flanged, Tri-Clamp, Threaded",
       materials: "316L SST, Hastelloy C-276, Duplex 2205",
     },
-    translationKeys: {
-      title: "products:transmitters.yokogawaRotamass.title",
-      description: "products:transmitters.yokogawaRotamass.description",
-      featuresKey: "products:transmitters.yokogawaRotamass.features",
-    },
+    title: "Yokogawa ROTAMASS RCCS33 Coriolis Mass Flow Meter",
+    description: "Precision Yokogawa ROTAMASS RCCS33 Coriolis mass flow meter with advanced measurement technology. Features compact design, exceptional accuracy, and BRAIN communication protocol for reliable mass flow measurement.",
+    features: [
+      "Coriolis mass flow measurement technology",
+      "Compact diameter range: DN6 to DN200 (1/4\" to 8\")",
+      "Exceptional accuracy: ±0.05% of reading (mass flow)",
+      "Superior repeatability: ±0.02% of reading",
+      "Wide process temperature: -240°C to +350°C",
+      "IP67 protection ratings",
+      "Multi-protocol: HART, Foundation Fieldbus, Profibus PA, BRAIN",
+      "Multiple process connections: Flanged, Tri-Clamp, Threaded",
+      "Premium materials: 316L SST, Hastelloy C-276, Duplex 2205",
+      "ATEX, IECEx, FM, CSA, SIL 2/3 certified"
+    ],
   },
 
   // Vortex Flow Meters
@@ -3254,11 +3601,20 @@ export const products: Product[] = [
       processConnection: "Flanged (ANSI, DIN), Wafer",
       materials: "316L SST, Hastelloy C-276",
     },
-    translationKeys: {
-      title: "products:transmitters.endressProwirl.title",
-      description: "products:transmitters.endressProwirl.description",
-      featuresKey: "products:transmitters.endressProwirl.features",
-    },
+    title: "Endress+Hauser Prowirl F 200 Vortex Flow Meter",
+    description: "Advanced Endress+Hauser Prowirl F 200 vortex flow meter with multi-protocol communication. Features wide diameter range, excellent accuracy for liquids and gases, and premium material construction for demanding flow applications.",
+    features: [
+      "Vortex flow measurement technology",
+      "Wide diameter range: DN15 to DN300 (1/2\" to 12\")",
+      "Good accuracy: ±0.75% (liquids), ±1.0% (gases)",
+      "Excellent repeatability: ±0.2% of reading",
+      "Wide process temperature: -200°C to +400°C",
+      "IP67 protection ratings",
+      "Multi-protocol: HART, Foundation Fieldbus, Profibus PA, 4-20mA",
+      "Multiple process connections: Flanged (ANSI, DIN), Wafer",
+      "Premium materials: 316L SST, Hastelloy C-276",
+      "ATEX, IECEx, FM, CSA, SIL 2/3 certified"
+    ],
   },
   {
     id: "rosemount-8800d-vortex",
@@ -3284,11 +3640,20 @@ export const products: Product[] = [
       processConnection: "Flanged (ANSI, DIN), Wafer, Threaded",
       materials: "316L SST, Hastelloy C-276, Duplex 2205",
     },
-    translationKeys: {
-      title: "products:transmitters.rosemount8800d.title",
-      description: "products:transmitters.rosemount8800d.description",
-      featuresKey: "products:transmitters.rosemount8800d.features",
-    },
+    title: "Rosemount 8800D Vortex Flow Meter with Multivariable Output",
+    description: "Industry-leading Rosemount 8800D vortex flow meter with multivariable output and WirelessHART capability. Features exceptional repeatability, wide process temperature range, and advanced communication protocols for critical applications.",
+    features: [
+      "Vortex flow meter with multivariable output",
+      "Wide diameter range: DN15 to DN300 (1/2\" to 12\")",
+      "Good accuracy: ±0.75% (liquids), ±1.0% (gases)",
+      "Superior repeatability: ±0.1% of reading",
+      "Extended process temperature: -196°C to +400°C",
+      "IP67 protection rating",
+      "Advanced communication: HART, Foundation Fieldbus, WirelessHART, 4-20mA",
+      "Multiple process connections: Flanged (ANSI, DIN), Wafer, Threaded",
+      "Premium materials: 316L SST, Hastelloy C-276, Duplex 2205",
+      "ATEX, IECEx, FM, CSA, SIL 2/3 certified"
+    ],
   },
   {
     id: "yokogawa-digitalyewflo-avf",
@@ -3314,11 +3679,20 @@ export const products: Product[] = [
       processConnection: "Flanged (JIS, ANSI, DIN), Wafer",
       materials: "SUS316L, Hastelloy C-276, Duplex 2205",
     },
-    translationKeys: {
-      title: "products:transmitters.yokogawaYewflo.title",
-      description: "products:transmitters.yokogawaYewflo.description",
-      featuresKey: "products:transmitters.yokogawaYewflo.features",
-    },
+    title: "Yokogawa digitalYEWFLO AVF Digital Vortex Flow Meter",
+    description: "Precision Yokogawa digitalYEWFLO AVF digital vortex flow meter with advanced digital signal processing. Features BRAIN communication protocol, wide flow range, and multiple process connection options for versatile applications.",
+    features: [
+      "Digital vortex flow measurement technology",
+      "Wide diameter range: DN15 to DN300 (1/2\" to 12\")",
+      "Good accuracy: ±0.75% (liquids), ±1.0% (gases)",
+      "Good repeatability: ±0.2% of reading",
+      "Extended process temperature: -196°C to +400°C",
+      "IP67 protection rating",
+      "Multi-protocol: HART, Foundation Fieldbus, Profibus PA, BRAIN, 4-20mA",
+      "Multiple process connections: Flanged (JIS, ANSI, DIN), Wafer",
+      "High-quality materials: SUS316L, Hastelloy C-276, Duplex 2205",
+      "ATEX, IECEx, FM, CSA, SIL 2/3 certified"
+    ],
   },
   {
     id: "abb-swirl-meter-fsv450",
@@ -3344,11 +3718,20 @@ export const products: Product[] = [
       processConnection: "Flanged (ANSI, DIN), Wafer",
       materials: "316L SST, Hastelloy C-276, Duplex 2205",
     },
-    translationKeys: {
-      title: "products:transmitters.abbSwirlMeter.title",
-      description: "products:transmitters.abbSwirlMeter.description",
-      featuresKey: "products:transmitters.abbSwirlMeter.features",
-    },
+    title: "ABB Swirl Meter FSV450 Vortex Flow Meter",
+    description: "Reliable ABB Swirl Meter FSV450 vortex flow meter with multi-protocol communication. Features wide flow range, good repeatability, and comprehensive process connection options for industrial flow measurement applications.",
+    features: [
+      "Swirl (vortex) flow measurement technology",
+      "Wide diameter range: DN15 to DN300 (1/2\" to 12\")",
+      "Good accuracy: ±0.75% (liquids), ±1.0% (gases)",
+      "Good repeatability: ±0.15% of reading",
+      "Wide process temperature: -200°C to +400°C",
+      "IP67 protection rating",
+      "Multi-protocol: HART, Foundation Fieldbus, Profibus PA, 4-20mA",
+      "Multiple process connections: Flanged (ANSI, DIN), Wafer",
+      "Premium materials: 316L SST, Hastelloy C-276, Duplex 2205",
+      "ATEX, IECEx, FM, CSA, SIL 2/3 certified"
+    ],
   },
 
   // Volumetric Flow Meters
@@ -3376,11 +3759,21 @@ export const products: Product[] = [
       processConnection: "Flanged, Threaded, Compression fitting",
       materials: "316L SST, Hastelloy C-276",
     },
-    translationKeys: {
-      title: "products:transmitters.endressTmass.title",
-      description: "products:transmitters.endressTmass.description",
-      featuresKey: "products:transmitters.endressTmass.features",
-    },
+    title: "Endress+Hauser Proline t-mass 83A Thermal Mass Flow Meter",
+    description: "Advanced Endress+Hauser Proline t-mass 83A thermal mass/volumetric flow meter with multi-protocol communication. Features wide diameter range, excellent accuracy for gas measurement, and comprehensive process connection options.",
+    features: [
+      "Thermal mass/volumetric flow measurement technology",
+      "Extensive diameter range: DN15 to DN2000 (1/2\" to 78\")",
+      "Wide flow range: 0-500 Nm³/h to 0-10,000,000 Nm³/h",
+      "Good accuracy: ±1.5% of measured value ±0.3% of full scale",
+      "Acceptable repeatability: ±0.5% of measured value",
+      "Process temperature: -40°C to +200°C",
+      "IP67 protection ratings",
+      "Multi-protocol: HART, Foundation Fieldbus, Profibus PA, 4-20mA",
+      "Multiple process connections: Flanged, Threaded, Compression fitting",
+      "Premium materials: 316L SST, Hastelloy C-276",
+      "ATEX, IECEx, FM, CSA, SIL 2 certified"
+    ],
   },
   {
     id: "sierra-instruments-640s-mass",
@@ -3406,11 +3799,21 @@ export const products: Product[] = [
       processConnection: "Flanged, NPT, Wafer",
       materials: "316L SST, Hastelloy C-276, Inconel 625",
     },
-    translationKeys: {
-      title: "products:transmitters.sierraQuadratherm.title",
-      description: "products:transmitters.sierraQuadratherm.description",
-      featuresKey: "products:transmitters.sierraQuadratherm.features",
-    },
+    title: "Sierra Instruments 640S QuadraTherm Thermal Mass Flow Meter",
+    description: "Reliable Sierra Instruments 640S QuadraTherm thermal mass flow meter with multi-protocol communication. Features wide diameter range, good accuracy for gas flow measurement, and premium material construction for demanding applications.",
+    features: [
+      "Thermal mass flow measurement technology",
+      "Wide diameter range: DN15 to DN2000 (1/2\" to 78\")",
+      "Flow range: 0-20 SFPS to 0-500 SFPS",
+      "Good accuracy: ±1.0% of reading ±0.5% of full scale",
+      "Good repeatability: ±0.2% of reading",
+      "Process temperature: -40°C to +232°C",
+      "IP67 protection rating",
+      "Multi-protocol: HART, Foundation Fieldbus, Modbus, 4-20mA",
+      "Multiple process connections: Flanged, NPT, Wafer",
+      "Premium materials: 316L SST, Hastelloy C-276, Inconel 625",
+      "ATEX, IECEx, FM, CSA, SIL 2 certified"
+    ],
   },
   {
     id: "bronkhorst-in-flow-f230",
@@ -3436,11 +3839,21 @@ export const products: Product[] = [
       processConnection: "Flanged, Threaded, Compression",
       materials: "316L SST, PTFE, PFA",
     },
-    translationKeys: {
-      title: "products:transmitters.bronkhorstInflow.title",
-      description: "products:transmitters.bronkhorstInflow.description",
-      featuresKey: "products:transmitters.bronkhorstInflow.features",
-    },
+    title: "Bronkhorst IN-FLOW F-230 Ultrasonic Gas/Liquid Flow Meter",
+    description: "Precision Bronkhorst IN-FLOW F-230 ultrasonic gas/liquid flow meter with advanced digital communication. Features exceptional accuracy, wide flow range for both gas and liquid applications, and premium material construction.",
+    features: [
+      "Ultrasonic gas/liquid flow measurement technology",
+      "Wide diameter range: DN15 to DN600 (1/2\" to 24\")",
+      "Extensive flow range: 0.01-600 ln/min (liquids), 0.1-6000 ln/min (gases)",
+      "Exceptional accuracy: ±0.5% of reading ±0.1% of full scale",
+      "Good repeatability: ±0.2% of reading",
+      "Process temperature: -40°C to +180°C",
+      "IP65 protection rating",
+      "Advanced communication: MODBUS, RS232/485, Ethernet, 4-20mA",
+      "Multiple process connections: Flanged, Threaded, Compression",
+      "High-quality materials: 316L SST, PTFE, PFA",
+      "ATEX, IECEx, CE certified"
+    ],
   },
 
   // PD Flow Meters (Positive Displacement)
@@ -3467,11 +3880,21 @@ export const products: Product[] = [
       processConnection: "Flanged (JIS, ANSI, DIN), Threaded",
       materials: "SUS316, SUS316L, Hastelloy C-276",
     },
-    translationKeys: {
-      title: "products:transmitters.ovalFlowpet.title",
-      description: "products:transmitters.ovalFlowpet.description",
-      featuresKey: "products:transmitters.ovalFlowpet.features",
-    },
+    title: "OVAL FLOWPET LSF41 Positive Displacement Flow Meter",
+    description: "High-precision OVAL FLOWPET LSF41 positive displacement flow meter with exceptional accuracy. Features superior repeatability, wide diameter range, and premium material construction for demanding liquid measurement applications.",
+    features: [
+      "Positive displacement (PD) flow measurement technology",
+      "Wide diameter range: DN15 to DN200 (1/2\" to 8\")",
+      "Flow range: 0.05-1500 L/min (depending on size)",
+      "Exceptional accuracy: ±0.1% of reading",
+      "Superior repeatability: ±0.02% of reading",
+      "Process temperature: -20°C to +120°C",
+      "IP67 protection rating",
+      "Multiple outputs: Pulse output, 4-20mA, HART",
+      "Multiple process connections: Flanged (JIS, ANSI, DIN), Threaded",
+      "Premium materials: SUS316, SUS316L, Hastelloy C-276",
+      "ATEX, IECEx, FM certified"
+    ],
   },
   {
     id: "badger-meter-m1000",
@@ -3496,11 +3919,21 @@ export const products: Product[] = [
       processConnection: "Flanged (ANSI), NPT, Compression",
       materials: "Bronze, Cast Iron, 316L SST",
     },
-    translationKeys: {
-      title: "products:transmitters.badgerM1000.title",
-      description: "products:transmitters.badgerM1000.description",
-      featuresKey: "products:transmitters.badgerM1000.features",
-    },
+    title: "Badger Meter M1000 Nutating Disc Flow Meter",
+    description: "Reliable Badger Meter M1000 nutating disc positive displacement flow meter with advanced metering technology. Features exceptional accuracy, multiple communication options, and robust construction for water utility applications.",
+    features: [
+      "Nutating disc positive displacement technology",
+      "Diameter range: DN15 to DN100 (5/8\" to 4\")",
+      "Flow range: 0.125-400 GPM (depending on size)",
+      "Good accuracy: ±0.5% of reading",
+      "Good repeatability: ±0.1% of reading",
+      "Operating temperature: -20°C to +70°C",
+      "IP68 protection rating",
+      "Multiple communication: Pulse output, AMR/AMI, 4-20mA",
+      "Multiple process connections: Flanged (ANSI), NPT, Compression",
+      "Robust materials: Bronze, Cast Iron, 316L SST",
+      "NSF, AWWA, ANSI certified"
+    ],
   },
   {
     id: "krohne-bm100-pd-meter",
@@ -3525,11 +3958,21 @@ export const products: Product[] = [
       processConnection: "Flanged (DIN, ANSI), Threaded",
       materials: "Aluminium, Cast Iron, 316L SST",
     },
-    translationKeys: {
-      title: "products:transmitters.krohneBm100.title",
-      description: "products:transmitters.krohneBm100.description",
-      featuresKey: "products:transmitters.krohneBm100.features",
-    },
+    title: "KROHNE BM 100 Positive Displacement Oval Gear Flow Meter",
+    description: "High-performance KROHNE BM 100 positive displacement oval gear flow meter with advanced measurement technology. Features exceptional accuracy, superior repeatability, and multi-protocol communication for industrial applications.",
+    features: [
+      "Positive displacement oval gear technology",
+      "Wide diameter range: DN10 to DN200 (3/8\" to 8\")",
+      "Flow range: 0.15-3000 L/min (depending on size)",
+      "High accuracy: ±0.2% of reading",
+      "Excellent repeatability: ±0.05% of reading",
+      "Wide process temperature: -40°C to +200°C",
+      "IP67 protection rating",
+      "Multi-protocol: Pulse output, 4-20mA, HART, Modbus",
+      "Multiple process connections: Flanged (DIN, ANSI), Threaded",
+      "Versatile materials: Aluminium, Cast Iron, 316L SST",
+      "ATEX, IECEx, FM, CSA certified"
+    ],
   },
   {
     id: "kral-volumeter-omg",
@@ -3554,11 +3997,21 @@ export const products: Product[] = [
       processConnection: "Flanged (DIN, ANSI), Threaded",
       materials: "Aluminium, Cast Steel, 316L SST",
     },
-    translationKeys: {
-      title: "products:transmitters.kralVolumeter.title",
-      description: "products:transmitters.kralVolumeter.description",
-      featuresKey: "products:transmitters.kralVolumeter.features",
-    },
+    title: "KRAL VoluMeter OMG Positive Displacement Screw Flow Meter",
+    description: "Precision KRAL VoluMeter OMG positive displacement screw flow meter with exceptional measurement accuracy. Features superior repeatability, multi-protocol communication, and MID certification for custody transfer applications.",
+    features: [
+      "Positive displacement screw flow technology",
+      "Diameter range: DN15 to DN150 (1/2\" to 6\")",
+      "Flow range: 0.5-1200 L/min (depending on size)",
+      "Exceptional accuracy: ±0.1% of reading",
+      "Superior repeatability: ±0.02% of reading",
+      "Wide process temperature: -40°C to +200°C",
+      "IP67 protection rating",
+      "Multi-protocol: Pulse output, 4-20mA, HART, Profibus",
+      "Multiple process connections: Flanged (DIN, ANSI), Threaded",
+      "Robust materials: Aluminium, Cast Steel, 316L SST",
+      "ATEX, IECEx, FM, CSA, MID certified"
+    ],
   },
 
   // End of transmitters and flow meters section
@@ -3582,11 +4035,20 @@ export const products: Product[] = [
       operatingTemp: "-40°C to +200°C",
       certification: "ATEX, IECEx, SIL 2",
     },
-    translationKeys: {
-      title: "products:transmitters.rosemount5408.title",
-      description: "products:transmitters.rosemount5408.description",
-      featuresKey: "products:transmitters.rosemount5408.features",
-    },
+    title: "Rosemount 5408 Non-Contact Radar Level Transmitter",
+    description: "Advanced Rosemount 5408 non-contact radar level transmitter with 78 GHz frequency technology. Features exceptional accuracy, wide measurement range, and robust construction for demanding level measurement applications.",
+    features: [
+      "Non-contact radar level measurement technology",
+      "78 GHz high-frequency operation",
+      "Wide measurement range: 0.2m to 40m",
+      "Exceptional accuracy: ±2mm",
+      "HART communication: 4-20mA + HART",
+      "Operating temperature: -40°C to +200°C",
+      "IP66/IP68 protection ratings",
+      "Wide process connections: DN50 to DN200 flange",
+      "Wide power supply: 11-42VDC",
+      "ATEX, IECEx, SIL 2 certified"
+    ],
   },
   {
     id: "endress-hauser-fmr20-radar-level",
@@ -3608,11 +4070,20 @@ export const products: Product[] = [
       operatingTemp: "-40°C to +150°C",
       certification: "ATEX, IECEx, SIL 2",
     },
-    translationKeys: {
-      title: "products:transmitters.endressHauserFmr20.title",
-      description: "products:transmitters.endressHauserFmr20.description",
-      featuresKey: "products:transmitters.endressHauserFmr20.features",
-    },
+    title: "Endress+Hauser Micropilot FMR20 Radar Level Transmitter",
+    description: "Reliable Endress+Hauser Micropilot FMR20 radar level transmitter with 26 GHz frequency technology. Features good accuracy, wide measurement range, and robust construction for level measurement applications.",
+    features: [
+      "Radar level measurement technology",
+      "26 GHz frequency operation",
+      "Measurement range: 0.4m to 35m",
+      "Good accuracy: ±3mm",
+      "HART communication: 4-20mA + HART",
+      "Operating temperature: -40°C to +150°C",
+      "IP67 protection rating",
+      "Multiple process connections: Thread, Flange",
+      "Power supply: 11-36VDC",
+      "ATEX, IECEx, SIL 2 certified"
+    ],
   },
 
   // pH/Analytical Transmitters
@@ -3636,11 +4107,20 @@ export const products: Product[] = [
       mounting: "Wall/Panel/Pipe Mount",
       certification: "ATEX, IECEx, SIL 2",
     },
-    translationKeys: {
-      title: "products:transmitters.endressHauserCm42.title",
-      description: "products:transmitters.endressHauserCm42.description",
-      featuresKey: "products:transmitters.endressHauserCm42.features",
-    },
+    title: "Endress+Hauser Liquiline M CM42 Universal Analytical Transmitter",
+    description: "Advanced Endress+Hauser Liquiline M CM42 universal analytical transmitter with multi-parameter capabilities. Features high accuracy pH measurement, HART communication, and comprehensive mounting options for analytical applications.",
+    features: [
+      "Universal analytical measurement technology",
+      "Multi-parameter inputs: pH, ORP, Conductivity, Dissolved O2",
+      "High accuracy: ±0.02 pH",
+      "HART communication: 4-20mA + HART",
+      "4-line backlit LCD display",
+      "Operating temperature: -20°C to +60°C",
+      "IP66/IP67 protection ratings",
+      "Flexible power supply: 20-253VAC / 20-55VDC",
+      "Multiple mounting: Wall/Panel/Pipe Mount",
+      "ATEX, IECEx, SIL 2 certified"
+    ],
   },
 
   // Wireless Transmitters
@@ -3663,11 +4143,20 @@ export const products: Product[] = [
       antennaGain: "2.1 dBi",
       certification: "ATEX, IECEx, FCC",
     },
-    translationKeys: {
-      title: "products:transmitters.rosemountWireless1420.title",
-      description: "products:transmitters.rosemountWireless1420.description",
-      featuresKey: "products:transmitters.rosemountWireless1420.features",
-    },
+    title: "Rosemount Wireless 1420 Gateway",
+    description: "Advanced Rosemount Wireless 1420 Gateway with WirelessHART protocol support. Features high device capacity, extended range, and robust construction for wireless field device communication networks.",
+    features: [
+      "WirelessHART gateway technology",
+      "High device capacity: 100 field devices",
+      "Extended range: Up to 500m line-of-sight",
+      "24VDC power supply (±10%)",
+      "IP66 protection rating",
+      "Wide operating temperature: -40°C to +85°C",
+      "Antenna gain: 2.1 dBi",
+      "WirelessHART protocol support",
+      "Robust wireless communication",
+      "ATEX, IECEx, FCC certified"
+    ],
   },
 
   // Additional Sensors from More Manufacturers
@@ -3690,11 +4179,20 @@ export const products: Product[] = [
       operatingTemp: "-25°C to +70°C",
       certification: "CE, UL",
     },
-    translationKeys: {
-      title: "products:sensors.balluffPnpProximity.title",
-      description: "products:sensors.balluffPnpProximity.description",
-      featuresKey: "products:sensors.balluffPnpProximity.features",
-    },
+    title: "Balluff BES 516-370-E4-C-PU-03 PNP Inductive Proximity Sensor",
+    description: "Reliable Balluff BES 516-370-E4-C-PU-03 PNP inductive proximity sensor with M18 housing. Features 4mm sensing distance, PNP output, and robust construction for industrial automation applications.",
+    features: [
+      "PNP inductive proximity sensing technology",
+      "4mm sensing distance",
+      "PNP output type (NO/NC)",
+      "M18 x 1 housing",
+      "Operating voltage: 10-30VDC",
+      "Output current: 100mA",
+      "Operating temperature: -25°C to +70°C",
+      "IP67 protection rating",
+      "Industrial automation ready",
+      "CE, UL certified"
+    ],
   },
   {
     id: "ifm-ig5854-igkfpkg-npn",
@@ -3715,11 +4213,20 @@ export const products: Product[] = [
       operatingTemp: "-40°C to +85°C",
       certification: "CE, UL, CSA",
     },
-    translationKeys: {
-      title: "products:sensors.ifmNpnProximity.title",
-      description: "products:sensors.ifmNpnProximity.description",
-      featuresKey: "products:sensors.ifmNpnProximity.features",
-    },
+    title: "IFM IG5854 (IGKFPKG) NPN Inductive Proximity Sensor",
+    description: "High-performance IFM IG5854 (IGKFPKG) NPN inductive proximity sensor with M18 housing. Features 8mm sensing distance, NPN output, and IP68/IP69K protection for demanding industrial automation applications.",
+    features: [
+      "NPN inductive proximity sensing technology",
+      "8mm sensing distance",
+      "NPN output type (NO)",
+      "M18 x 1 housing",
+      "Operating voltage: 10-36VDC",
+      "Output current: 200mA",
+      "Wide operating temperature: -40°C to +85°C",
+      "IP68/IP69K protection ratings",
+      "Industrial automation ready",
+      "CE, UL, CSA certified"
+    ],
   },
   {
     id: "telemecanique-xs618b1pam12-pnp",
@@ -3740,11 +4247,20 @@ export const products: Product[] = [
       operatingTemp: "-25°C to +70°C",
       certification: "CE, UL, CSA",
     },
-    translationKeys: {
-      title: "products:sensors.telemechaniquePnpProximity.title",
-      description: "products:sensors.telemechaniquePnpProximity.description",
-      featuresKey: "products:sensors.telemechaniquePnpProximity.features",
-    },
+    title: "Telemecanique XS618B1PAM12 PNP Inductive Proximity Sensor",
+    description: "Reliable Telemecanique (Schneider) XS618B1PAM12 PNP inductive proximity sensor with M18 housing. Features 8mm sensing distance, PNP output, and robust construction for industrial automation applications.",
+    features: [
+      "PNP inductive proximity sensing technology",
+      "8mm sensing distance",
+      "PNP output type (NO)",
+      "M18 x 1 housing",
+      "Operating voltage: 12-24VDC",
+      "Output current: 200mA",
+      "Operating temperature: -25°C to +70°C",
+      "IP67 protection rating",
+      "Industrial automation ready",
+      "CE, UL, CSA certified"
+    ],
   },
   {
     id: "jumo-902820-pt100-rtd",
@@ -3765,11 +4281,20 @@ export const products: Product[] = [
       protectionRating: "IP65",
       certification: "CE, ATEX",
     },
-    translationKeys: {
-      title: "products:sensors.jumoPt100Rtd.title",
-      description: "products:sensors.jumoPt100Rtd.description",
-      featuresKey: "products:sensors.jumoPt100Rtd.features",
-    },
+    title: "JUMO 902820/10 PT100 RTD Temperature Sensor",
+    description: "Precision JUMO 902820/10 PT100 RTD temperature sensor with 316L stainless steel construction. Features Class A accuracy, 3-wire configuration, and wide temperature range for accurate temperature measurement applications.",
+    features: [
+      "PT100 RTD temperature sensing technology",
+      "Class A accuracy: ±0.15°C",
+      "3-wire configuration",
+      "Wide temperature range: -200°C to +600°C",
+      "Response time: T90 = 3s in water",
+      "316L stainless steel material",
+      "IP65 protection rating",
+      "PT100 element",
+      "Industrial temperature measurement",
+      "CE, ATEX certified"
+    ],
   },
   {
     id: "heraeus-m222-pt1000-rtd",
@@ -3790,11 +4315,20 @@ export const products: Product[] = [
       protectionRating: "IP68",
       certification: "CE, ATEX, IECEx",
     },
-    translationKeys: {
-      title: "products:sensors.herausPt1000Rtd.title",
-      description: "products:sensors.herausPt1000Rtd.description",
-      featuresKey: "products:sensors.herausPt1000Rtd.features",
-    },
+    title: "Heraeus M222 PT1000 RTD Temperature Sensor",
+    description: "High-precision Heraeus M222 PT1000 RTD temperature sensor with 316SS probe construction. Features Class A accuracy, 2-wire configuration, and fast response time for demanding temperature measurement applications.",
+    features: [
+      "PT1000 RTD temperature sensing technology",
+      "Class A accuracy: ±0.15°C",
+      "2-wire configuration",
+      "Wide temperature range: -200°C to +600°C",
+      "Fast response time: T90 = 1.5s in water",
+      "316SS probe material",
+      "IP68 protection rating",
+      "PT1000 element",
+      "Precision temperature measurement",
+      "CE, ATEX, IECEx certified"
+    ],
   },
   {
     id: "watlow-type-k-thermocouple",
