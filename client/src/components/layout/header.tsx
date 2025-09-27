@@ -61,6 +61,9 @@ export default function Header() {
   );
   const [popupPosition, setPopupPosition] = useState({ x: 0, y: 0 });
   const [popupTimeout, setPopupTimeout] = useState<NodeJS.Timeout | null>(null);
+  
+  // Products dropdown timeout state  
+  const [productsDropdownTimeout, setProductsDropdownTimeout] = useState<NodeJS.Timeout | null>(null);
 
   // Hide body scrollbar when mobile sidebar is open
   useEffect(() => {
@@ -83,6 +86,18 @@ export default function Header() {
       if (rootElement) rootElement.classList.remove("sidebar-open");
     };
   }, [isOpen]);
+
+  // Cleanup timeouts on component unmount
+  useEffect(() => {
+    return () => {
+      if (popupTimeout) {
+        clearTimeout(popupTimeout);
+      }
+      if (productsDropdownTimeout) {
+        clearTimeout(productsDropdownTimeout);
+      }
+    };
+  }, [popupTimeout, productsDropdownTimeout]);
 
   // Handle click outside to close dropdowns
   useEffect(() => {
@@ -212,12 +227,31 @@ export default function Header() {
   };
 
   const handlePopupLeave = () => {
-    // Close popup immediately when leaving the popup area
-    setHoveredSubcategory(null);
-    if (popupTimeout) {
-      clearTimeout(popupTimeout);
-      setPopupTimeout(null);
+    // Add delay when leaving popup to allow moving back to subcategory
+    const timeout = setTimeout(() => {
+      setHoveredSubcategory(null);
+    }, 150); // Slightly longer delay for popup
+    setPopupTimeout(timeout);
+  };
+
+  // Helper functions for products dropdown timeout management
+  const handleProductsDropdownEnter = () => {
+    // Clear any existing timeout when entering dropdown area
+    if (productsDropdownTimeout) {
+      clearTimeout(productsDropdownTimeout);
+      setProductsDropdownTimeout(null);
     }
+    setIsProductsDropdownOpen(true);
+  };
+
+  const handleProductsDropdownLeave = () => {
+    // Add delay before closing to allow moving between elements
+    const timeout = setTimeout(() => {
+      setIsProductsDropdownOpen(false);
+      // Also close any open subcategory popups when main dropdown closes
+      setHoveredSubcategory(null);
+    }, 150);
+    setProductsDropdownTimeout(timeout);
   };
 
   // Handle keyboard events
@@ -562,8 +596,8 @@ export default function Header() {
                         className={`text-foreground font-medium relative flex items-center gap-1 cursor-pointer group hover:text-secondary transition-colors duration-200 ${
                           isActive("/products") ? "text-secondary" : ""
                         }`}
-                        onMouseEnter={() => setIsProductsDropdownOpen(true)}
-                        onMouseLeave={() => setIsProductsDropdownOpen(false)}
+                        onMouseEnter={handleProductsDropdownEnter}
+                        onMouseLeave={handleProductsDropdownLeave}
                         onClick={() =>
                           setIsProductsDropdownOpen(!isProductsDropdownOpen)
                         }
@@ -592,8 +626,8 @@ export default function Header() {
                             : "opacity-0 invisible"
                         }`}
                         style={{ top: `calc(${headerHeight}px - 1rem)` }}
-                        onMouseEnter={() => setIsProductsDropdownOpen(true)}
-                        onMouseLeave={() => setIsProductsDropdownOpen(false)}
+                        onMouseEnter={handleProductsDropdownEnter}
+                        onMouseLeave={handleProductsDropdownLeave}
                       >
                         <div className="w-max max-w-[95vw] max-h-[70vh] bg-popover border-2 border-slate-300 dark:border-slate-600 rounded-md shadow-lg overflow-y-auto">
                           <div className="p-4 lg:p-6">

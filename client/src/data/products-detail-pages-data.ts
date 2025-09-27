@@ -54,8 +54,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "pnp",
     slug: "pnp-proximity-sensors",
-    titleKey: "products:groups.pnp.title",
-    descriptionKey: "products:groups.pnp.description",
+    title: "PNP Proximity Sensors",
+    description: "PNP proximity sensors for industrial automation applications. These sensors provide reliable detection of metallic objects without physical contact, featuring robust construction and high switching frequencies for demanding industrial environments.",
     subcategoryKey: "sensors",
     image: "pnp-proximity-sensor",
     featuredSpecs: ["manufacturer", "model", "type"],
@@ -63,8 +63,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "npn",
     slug: "npn-proximity-sensors",
-    titleKey: "products:groups.npn.title",
-    descriptionKey: "products:groups.npn.description",
+    title: "NPN Proximity Sensors",
+    description: "NPN proximity sensors designed for precise object detection in industrial automation systems. Featuring high sensitivity, excellent repeatability, and resistance to electromagnetic interference for reliable operation in harsh environments.",
     subcategoryKey: "sensors",
     image: "npn-proximity-sensor",
     featuredSpecs: ["manufacturer", "model", "type"],
@@ -72,8 +72,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "rtd",
     slug: "rtd-temperature-sensors",
-    titleKey: "products:groups.rtd.title",
-    descriptionKey: "products:groups.rtd.description",
+    title: "RTD Temperature Sensors",
+    description: "Resistance Temperature Detector (RTD) sensors for precise temperature measurement in industrial processes. Available in PT100, PT500, and PT1000 configurations with excellent accuracy and stability over wide temperature ranges.",
     subcategoryKey: "sensors",
     image: "rtd-temperature-sensor",
     featuredSpecs: ["manufacturer", "model", "type"],
@@ -81,8 +81,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "thermocouples",
     slug: "thermocouple-sensors",
-    titleKey: "products:groups.thermocouples.title",
-    descriptionKey: "products:groups.thermocouples.description",
+    title: "Thermocouple Sensors",
+    description: "Industrial thermocouple temperature sensors available in J, K, T, E, R, S, and N types. Designed for high-temperature applications with fast response times and excellent durability in extreme industrial environments.",
     subcategoryKey: "sensors",
     image: "thermocouple-temperature-sensor",
     featuredSpecs: ["manufacturer", "model", "type"],
@@ -90,8 +90,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "load-cell",
     slug: "load-cell-sensors",
-    titleKey: "products:groups.loadCell.title",
-    descriptionKey: "products:groups.loadCell.description",
+    title: "Load Cell Sensors",
+    description: "Precision load cell sensors for force and weight measurement applications. Available in compression, tension, and universal configurations with high accuracy and excellent long-term stability for industrial weighing systems.",
     subcategoryKey: "sensors",
     image: "load-cell",
     featuredSpecs: ["manufacturer", "model", "type"],
@@ -99,8 +99,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "ph-sensors",
     slug: "ph-sensors",
-    titleKey: "products:groups.phSensors.title",
-    descriptionKey: "products:groups.phSensors.description",
+    title: "pH Sensors",
+    description: "Industrial pH sensors for water quality monitoring and process control applications. Glass electrode and ISFET technology options with automatic temperature compensation and digital HART communication capabilities.",
     subcategoryKey: "sensors",
     image: "ph-sensor",
     featuredSpecs: ["manufacturer", "model", "type"],
@@ -110,8 +110,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "dp-type-transmitter",
     slug: "dp-type-transmitters",
-    titleKey: "products:groups.dpTypeTransmitter.title",
-    descriptionKey: "products:groups.dpTypeTransmitter.description",
+    title: "Differential Pressure Transmitters",
+    description: "High-precision differential pressure transmitters for flow, level, and pressure measurement applications. Features HART communication, digital compensation, and robust construction for demanding industrial environments.",
     subcategoryKey: "transmitters",
     image: "dp-transmitter-rosemount",
     featuredSpecs: ["manufacturer", "model", "type"],
@@ -119,8 +119,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "p-type-transmitter",
     slug: "p-type-transmitters",
-    titleKey: "products:groups.pTypeTransmitter.title",
-    descriptionKey: "products:groups.pTypeTransmitter.description",
+    title: "Pressure Transmitters",
+    description: "Industrial pressure transmitters for absolute and gauge pressure measurement. Featuring advanced sensor technology, excellent stability, and comprehensive diagnostic capabilities for process automation applications.",
     subcategoryKey: "transmitters",
     image: "p-transmitter-siemens",
     featuredSpecs: ["manufacturer", "model", "type"],
@@ -128,8 +128,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "rs-type-transmitter",
     slug: "rs-type-transmitters",
-    titleKey: "products:groups.rsTypeTransmitter.title",
-    descriptionKey: "products:groups.rsTypeTransmitter.description",
+    title: "Remote Seal Transmitters",
+    description: "Remote seal pressure transmitters for high-temperature, corrosive, or viscous media applications. Capillary-filled systems provide safe and accurate pressure measurement in challenging process conditions.",
     subcategoryKey: "transmitters",
     image: "rs-transmitter-rosemount",
     featuredSpecs: ["manufacturer", "model", "type"],
@@ -137,8 +137,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "magnetic-flow-meter",
     slug: "magnetic-flow-meters",
-    titleKey: "products:groups.magneticFlowMeter.title",
-    descriptionKey: "products:groups.magneticFlowMeter.description",
+    title: "Magnetic Flow Meters",
+    description: "Electromagnetic flow meters for conductive liquid measurement with no moving parts. Providing highly accurate flow measurement, minimal pressure drop, and excellent long-term stability for water and chemical applications.",
     subcategoryKey: "transmitters",
     image: "magnetic-flowmeter-endress",
     featuredSpecs: ["manufacturer", "model", "type"],
@@ -146,8 +146,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "mass-flow-meter",
     slug: "mass-flow-meters",
-    titleKey: "products:groups.massFlowMeter.title",
-    descriptionKey: "products:groups.massFlowMeter.description",
+    title: "Mass Flow Meters",
+    description: "Coriolis mass flow meters for direct mass flow and density measurement of liquids and gases. Highly accurate measurement independent of fluid properties, temperature, and pressure variations.",
     subcategoryKey: "transmitters",
     image: "coriolis-flowmeter-endress",
     featuredSpecs: ["manufacturer", "model", "type"],
@@ -155,8 +155,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "vortex-flow-meter",
     slug: "vortex-flow-meters",
-    titleKey: "products:groups.vortexFlowMeter.title",
-    descriptionKey: "products:groups.vortexFlowMeter.description",
+    title: "Vortex Flow Meters",
+    description: "Vortex shedding flow meters for steam, gas, and liquid measurement applications. No moving parts design ensures reliability with built-in temperature compensation and multivariable measurement capabilities.",
     subcategoryKey: "transmitters",
     image: "vortex-flowmeter-yokogawa",
     featuredSpecs: ["manufacturer", "model", "type"],
@@ -164,8 +164,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "volumetric-flow-meter",
     slug: "volumetric-flow-meters",
-    titleKey: "products:groups.volumetricFlowMeter.title",
-    descriptionKey: "products:groups.volumetricFlowMeter.description",
+    title: "Volumetric Flow Meters",
+    description: "Positive displacement and ultrasonic volumetric flow meters for precise volume measurement. Ideal for custody transfer, batch operations, and applications requiring high accuracy regardless of flow profile.",
     subcategoryKey: "transmitters",
     image: "volumetric-flowmeter-abb",
     featuredSpecs: ["manufacturer", "model", "type"],
@@ -239,8 +239,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "process-analyzers",
     slug: "process-analyzers",
-    titleKey: "products:groups.processAnalyzers.title",
-    descriptionKey: "products:groups.processAnalyzers.description",
+    title: "Process Analyzers",
+    description: "Advanced process analyzers for real-time monitoring of chemical composition and process parameters. Multi-component analysis with high accuracy and fast response times for critical process control applications.",
     subcategoryKey: "analyzers",
     image: "process-analyzer",
     featuredSpecs: ["manufacturer", "model", "type"],
@@ -248,8 +248,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "gas-analyzers",
     slug: "gas-analyzers",
-    titleKey: "products:groups.gasAnalyzers.title",
-    descriptionKey: "products:groups.gasAnalyzers.description",
+    title: "Gas Analyzers",
+    description: "Precision gas analyzers for emissions monitoring, process optimization, and safety applications. Available in portable and fixed configurations with advanced sensor technologies for various gas detection requirements.",
     subcategoryKey: "analyzers",
     image: "gas-analyzer",
     featuredSpecs: ["manufacturer", "model", "type"],
@@ -257,8 +257,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "liquid-analyzers",
     slug: "liquid-analyzers",
-    titleKey: "products:groups.liquidAnalyzers.title",
-    descriptionKey: "products:groups.liquidAnalyzers.description",
+    title: "Liquid Analyzers",
+    description: "Comprehensive liquid analyzers for water quality monitoring, chemical process control, and environmental compliance. Multi-parameter analysis with automatic calibration and data logging capabilities.",
     subcategoryKey: "analyzers",
     image: "liquid-analyzer",
     featuredSpecs: ["manufacturer", "model", "type"],
@@ -328,8 +328,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "standard-ceiling-fans",
     slug: "standard-ceiling-fans",
-    titleKey: "products:groups.standardCeilingFans.title",
-    descriptionKey: "products:groups.standardCeilingFans.description",
+    title: "Standard BLDC Ceiling Fans",
+    description: "Energy-efficient brushless DC ceiling fans with variable speed control and silent operation. Featuring modern designs, remote control operation, and exceptional energy savings compared to traditional AC motors.",
     subcategoryKey: "bldc-ceiling-fan",
     image: "bldc-ceiling-fan",
     featuredSpecs: ["power", "speed", "airflow"],
@@ -337,8 +337,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "premium-ceiling-fans",
     slug: "premium-ceiling-fans",
-    titleKey: "products:groups.premiumCeilingFans.title",
-    descriptionKey: "products:groups.premiumCeilingFans.description",
+    title: "Premium BLDC Ceiling Fans",
+    description: "High-performance brushless DC ceiling fans with advanced features including smart controls, LED lighting, and superior aerodynamic design. Premium models offer enhanced durability and whisper-quiet operation.",
     subcategoryKey: "bldc-ceiling-fan",
     image: "bldc-ceiling-fan",
     featuredSpecs: ["power", "speed", "airflow"],
@@ -346,8 +346,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "commercial-ceiling-fans",
     slug: "commercial-ceiling-fans",
-    titleKey: "products:groups.commercialCeilingFans.title",
-    descriptionKey: "products:groups.commercialCeilingFans.description",
+    title: "Commercial BLDC Ceiling Fans",
+    description: "Heavy-duty brushless DC ceiling fans designed for commercial and industrial applications. Robust construction with high airflow capacity, extended operating life, and reduced maintenance requirements.",
     subcategoryKey: "bldc-ceiling-fan",
     image: "bldc-ceiling-fan",
     featuredSpecs: ["power", "speed", "airflow"],
@@ -355,8 +355,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "exhaust-fan-motors",
     slug: "exhaust-fan-motors",
-    titleKey: "products:groups.exhaustFanMotors.title",
-    descriptionKey: "products:groups.exhaustFanMotors.description",
+    title: "BLDC Exhaust Fan Motors",
+    description: "High-efficiency brushless DC motors for exhaust fan applications. Designed for continuous operation with excellent speed control, low noise levels, and superior energy efficiency for ventilation systems.",
     subcategoryKey: "bldc-cooler-exhaust-motor",
     image: "bldc-exhaust-motor",
     featuredSpecs: ["power", "voltage", "efficiency"],
@@ -364,8 +364,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "cooler-motors",
     slug: "cooler-motors",
-    titleKey: "products:groups.coolerMotors.title",
-    descriptionKey: "products:groups.coolerMotors.description",
+    title: "BLDC Cooler Motors",
+    description: "Energy-efficient brushless DC motors for air cooler applications. Featuring variable speed control, silent operation, and exceptional reliability for both domestic and commercial cooling systems.",
     subcategoryKey: "bldc-cooler-exhaust-motor",
     image: "bldc-cooler-motor",
     featuredSpecs: ["power", "voltage", "efficiency"],
@@ -373,8 +373,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "ventilation-motors",
     slug: "ventilation-motors",
-    titleKey: "products:groups.ventilationMotors.title",
-    descriptionKey: "products:groups.ventilationMotors.description",
+    title: "BLDC Ventilation Motors",
+    description: "Advanced brushless DC motors for ventilation systems with precise speed control and low power consumption. Ideal for HVAC applications requiring quiet operation and energy efficiency.",
     subcategoryKey: "bldc-cooler-exhaust-motor",
     image: "bldc-ventilation-motor",
     featuredSpecs: ["power", "voltage", "efficiency"],
@@ -382,8 +382,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "submersible-pumps",
     slug: "submersible-pumps",
-    titleKey: "products:groups.submersiblePumps.title",
-    descriptionKey: "products:groups.submersiblePumps.description",
+    title: "BLDC Submersible Pumps",
+    description: "Energy-efficient brushless DC submersible pumps for water supply applications. Featuring corrosion-resistant construction, variable speed operation, and exceptional efficiency for borewell and deep water pumping.",
     subcategoryKey: "bldc-submersible-surface-pump",
     image: "bldc-submersible-pump",
     featuredSpecs: ["power", "head", "flow"],
@@ -391,8 +391,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "surface-pumps",
     slug: "surface-pumps",
-    titleKey: "products:groups.surfacePumps.title",
-    descriptionKey: "products:groups.surfacePumps.description",
+    title: "BLDC Surface Pumps",
+    description: "High-efficiency brushless DC surface pumps for water transfer and pressure boosting applications. Compact design with intelligent control features and superior energy savings compared to conventional pumps.",
     subcategoryKey: "bldc-submersible-surface-pump",
     image: "bldc-surface-pump",
     featuredSpecs: ["power", "head", "flow"],
@@ -400,8 +400,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "hybrid-pumps",
     slug: "hybrid-pumps",
-    titleKey: "products:groups.hybridPumps.title",
-    descriptionKey: "products:groups.hybridPumps.description",
+    title: "BLDC Hybrid Pumps",
+    description: "Versatile brushless DC hybrid pumps suitable for both submersible and surface applications. Advanced motor technology with adaptive control systems for optimal performance across various operating conditions.",
     subcategoryKey: "bldc-submersible-surface-pump",
     image: "bldc-hybrid-pump",
     featuredSpecs: ["power", "head", "flow"],
@@ -409,8 +409,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "table-fan-motors",
     slug: "table-fan-motors",
-    titleKey: "products:groups.tableFanMotors.title",
-    descriptionKey: "products:groups.tableFanMotors.description",
+    title: "BLDC Table Fan Motors",
+    description: "Compact brushless DC motors for table fan applications with excellent speed control and whisper-quiet operation. Energy-efficient design with extended operational life and minimal maintenance requirements.",
     subcategoryKey: "bldc-table-fan-wall-fan-motor",
     image: "bldc-table-fan-motor",
     featuredSpecs: ["power", "speed", "voltage"],
@@ -418,8 +418,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "wall-fan-motors",
     slug: "wall-fan-motors",
-    titleKey: "products:groups.wallFanMotors.title",
-    descriptionKey: "products:groups.wallFanMotors.description",
+    title: "BLDC Wall Fan Motors",
+    description: "Space-saving brushless DC motors for wall-mounted fan applications. Featuring remote control compatibility, multiple speed settings, and energy-efficient operation for residential and commercial use.",
     subcategoryKey: "bldc-table-fan-wall-fan-motor",
     image: "bldc-wall-fan-motor",
     featuredSpecs: ["power", "speed", "voltage"],
@@ -427,8 +427,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "pedestal-fan-motors",
     slug: "pedestal-fan-motors",
-    titleKey: "products:groups.pedestalFanMotors.title",
-    descriptionKey: "products:groups.pedestalFanMotors.description",
+    title: "BLDC Pedestal Fan Motors",
+    description: "Powerful brushless DC motors for pedestal fan applications with adjustable height and oscillation features. Delivering superior airflow with energy-efficient operation and silent performance.",
     subcategoryKey: "bldc-table-fan-wall-fan-motor",
     image: "bldc-pedestal-fan-motor",
     featuredSpecs: ["power", "speed", "voltage"],
@@ -438,8 +438,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "power-cables",
     slug: "power-cables",
-    titleKey: "products:groups.powerCables.title",
-    descriptionKey: "products:groups.powerCables.description",
+    title: "Power Cables",
+    description: "High-quality power cables for electrical distribution systems. Available in various conductor sizes and insulation types for low, medium, and high voltage applications with superior electrical and mechanical properties.",
     subcategoryKey: "cables-wires",
     image: "power-cable",
     featuredSpecs: ["conductor", "voltage", "insulation"],
@@ -447,8 +447,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "control-cables",
     slug: "control-cables",
-    titleKey: "products:groups.controlCables.title",
-    descriptionKey: "products:groups.controlCables.description",
+    title: "Control Cables",
+    description: "Multi-core control cables for automation and instrumentation applications. Featuring excellent electrical properties, electromagnetic interference shielding, and flexible construction for panel wiring and control systems.",
     subcategoryKey: "cables-wires",
     image: "control-cable",
     featuredSpecs: ["conductor", "voltage", "shielding"],
@@ -456,8 +456,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "instrumentation-cables",
     slug: "instrumentation-cables",
-    titleKey: "products:groups.instrumentationCables.title",
-    descriptionKey: "products:groups.instrumentationCables.description",
+    title: "Instrumentation Cables",
+    description: "Precision instrumentation cables for signal transmission in process control applications. Low capacitance design with excellent noise immunity and individual pair shielding for critical measurement circuits.",
     subcategoryKey: "cables-wires",
     image: "instrumentation-cable",
     featuredSpecs: ["conductor", "voltage", "shielding"],
@@ -465,8 +465,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "terminal-blocks",
     slug: "terminal-blocks",
-    titleKey: "products:groups.terminalBlocks.title",
-    descriptionKey: "products:groups.terminalBlocks.description",
+    title: "Terminal Blocks",
+    description: "Reliable terminal blocks for electrical connections in control panels and junction boxes. DIN rail mounting with screw, spring, and push-in connection technologies for secure and maintenance-free wiring.",
     subcategoryKey: "connectors-terminals",
     image: "terminal-block",
     featuredSpecs: ["current", "voltage", "connection"],
@@ -474,8 +474,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "electrical-connectors",
     slug: "electrical-connectors",
-    titleKey: "products:groups.electricalConnectors.title",
-    descriptionKey: "products:groups.electricalConnectors.description",
+    title: "Electrical Connectors",
+    description: "Industrial electrical connectors for power and signal applications. Robust construction with IP-rated protection, multiple contact configurations, and reliable performance in harsh environmental conditions.",
     subcategoryKey: "connectors-terminals",
     image: "electrical-connector",
     featuredSpecs: ["current", "voltage", "type"],
@@ -483,8 +483,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "industrial-plugs",
     slug: "industrial-plugs",
-    titleKey: "products:groups.industrialPlugs.title",
-    descriptionKey: "products:groups.industrialPlugs.description",
+    title: "Industrial Plugs",
+    description: "Heavy-duty industrial plugs and sockets for mobile and stationary electrical equipment. Weatherproof design with mechanical coding, safety interlocks, and high current carrying capacity for industrial applications.",
     subcategoryKey: "connectors-terminals",
     image: "industrial-plug",
     featuredSpecs: ["current", "voltage", "protection"],
@@ -492,8 +492,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "miniature-circuit-breakers",
     slug: "miniature-circuit-breakers",
-    titleKey: "products:groups.miniatureCircuitBreakers.title",
-    descriptionKey: "products:groups.miniatureCircuitBreakers.description",
+    title: "Miniature Circuit Breakers (MCBs)",
+    description: "Compact circuit breakers for overload and short circuit protection in residential and light commercial applications. Available in various current ratings and tripping characteristics with reliable thermal-magnetic operation.",
     subcategoryKey: "circuit-breakers-fuses",
     image: "mcb",
     featuredSpecs: ["current", "voltage", "poles"],
@@ -501,8 +501,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "molded-case-breakers",
     slug: "molded-case-breakers",
-    titleKey: "products:groups.moldedCaseBreakers.title",
-    descriptionKey: "products:groups.moldedCaseBreakers.description",
+    title: "Molded Case Circuit Breakers (MCCBs)",
+    description: "Heavy-duty molded case circuit breakers for industrial and commercial electrical distribution. High breaking capacity with adjustable protection settings and optional electronic trip units for enhanced protection.",
     subcategoryKey: "circuit-breakers-fuses",
     image: "mccb",
     featuredSpecs: ["current", "voltage", "breaking"],
@@ -510,8 +510,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "fuses-holders",
     slug: "fuses-holders",
-    titleKey: "products:groups.fusesHolders.title",
-    descriptionKey: "products:groups.fusesHolders.description",
+    title: "Fuses and Fuse Holders",
+    description: "Electrical fuses and fuse holders for overcurrent protection in various applications. Available in cartridge, blade, and specialty types with different time-current characteristics and breaking capacities.",
     subcategoryKey: "circuit-breakers-fuses",
     image: "fuse",
     featuredSpecs: ["current", "voltage", "type"],
@@ -519,8 +519,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "ac-dc-converters",
     slug: "ac-dc-converters",
-    titleKey: "products:groups.acDcConverters.title",
-    descriptionKey: "products:groups.acDcConverters.description",
+    title: "AC-DC Converters",
+    description: "Switching power supplies for converting AC mains voltage to regulated DC output. High efficiency designs with multiple output options, overvoltage protection, and wide input voltage ranges for industrial applications.",
     subcategoryKey: "power-supplies",
     image: "ac-dc-converter",
     featuredSpecs: ["input", "output", "power"],
@@ -528,8 +528,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "dc-dc-converters",
     slug: "dc-dc-converters",
-    titleKey: "products:groups.dcDcConverters.title",
-    descriptionKey: "products:groups.dcDcConverters.description",
+    title: "DC-DC Converters",
+    description: "Isolated and non-isolated DC-DC converters for voltage conversion in electronic systems. Compact designs with high efficiency, low ripple, and various input/output voltage combinations for demanding applications.",
     subcategoryKey: "power-supplies",
     image: "dc-dc-converter",
     featuredSpecs: ["input", "output", "power"],
@@ -537,8 +537,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "ups-systems",
     slug: "ups-systems",
-    titleKey: "products:groups.upsSystems.title",
-    descriptionKey: "products:groups.upsSystems.description",
+    title: "UPS Systems",
+    description: "Uninterruptible Power Supply systems for critical equipment protection. Online, line-interactive, and standby topologies with battery backup, power conditioning, and network management capabilities for business continuity.",
     subcategoryKey: "power-supplies",
     image: "ups",
     featuredSpecs: ["power", "backup", "efficiency"],
@@ -546,8 +546,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "electrical-cabinets",
     slug: "electrical-cabinets",
-    titleKey: "products:groups.electricalCabinets.title",
-    descriptionKey: "products:groups.electricalCabinets.description",
+    title: "Electrical Cabinets",
+    description: "Robust electrical cabinets and enclosures for housing control equipment and electrical components. Available in various materials and IP ratings with modular designs for easy installation and maintenance.",
     subcategoryKey: "enclosures-cabinets",
     image: "electrical-cabinet",
     featuredSpecs: ["dimensions", "material", "protection"],
@@ -555,8 +555,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "junction-boxes",
     slug: "junction-boxes",
-    titleKey: "products:groups.junctionBoxes.title",
-    descriptionKey: "products:groups.junctionBoxes.description",
+    title: "Junction Boxes",
+    description: "Weatherproof junction boxes for electrical connections and cable terminations. Multiple entry options with various materials and environmental protection ratings for indoor and outdoor installations.",
     subcategoryKey: "enclosures-cabinets",
     image: "junction-box",
     featuredSpecs: ["dimensions", "material", "protection"],
@@ -564,8 +564,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "din-rail-enclosures",
     slug: "din-rail-enclosures",
-    titleKey: "products:groups.dinRailEnclosures.title",
-    descriptionKey: "products:groups.dinRailEnclosures.description",
+    title: "DIN Rail Enclosures",
+    description: "Modular DIN rail enclosures for housing automation components and control devices. Plastic and metal construction with snap-on design for easy assembly and professional panel integration.",
     subcategoryKey: "enclosures-cabinets",
     image: "din-rail-enclosure",
     featuredSpecs: ["modules", "dimensions", "material"],
@@ -573,8 +573,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "heating-coils",
     slug: "heating-coils",
-    titleKey: "products:groups.heatingCoils.title",
-    descriptionKey: "products:groups.heatingCoils.description",
+    title: "Heating Coils",
+    description: "Industrial heating coils for process heating applications. Available in various configurations including finned, cartridge, and band heaters with precise temperature control and high thermal efficiency.",
     subcategoryKey: "heating-elements-appliances",
     image: "heating-coil",
     featuredSpecs: ["power", "voltage", "temperature"],
@@ -582,8 +582,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "heating-elements",
     slug: "heating-elements",
-    titleKey: "products:groups.heatingElements.title",
-    descriptionKey: "products:groups.heatingElements.description",
+    title: "Heating Elements",
+    description: "Electric heating elements for industrial and commercial applications. Tubular, ceramic, and flexible designs with various watt densities and sheath materials for optimal heat transfer and durability.",
     subcategoryKey: "heating-elements-appliances",
     image: "heating-element",
     featuredSpecs: ["power", "voltage", "temperature"],
@@ -591,8 +591,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "industrial-heaters",
     slug: "industrial-heaters",
-    titleKey: "products:groups.industrialHeaters.title",
-    descriptionKey: "products:groups.industrialHeaters.description",
+    title: "Industrial Heaters",
+    description: "Heavy-duty industrial heaters for process applications including immersion, circulation, and radiant heaters. Designed for harsh environments with explosion-proof options and advanced temperature control.",
     subcategoryKey: "heating-elements-appliances",
     image: "industrial-heater",
     featuredSpecs: ["power", "voltage", "application"],
@@ -602,8 +602,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "digital-multimeters",
     slug: "digital-multimeters",
-    titleKey: "products:groups.digitalMultimeters.title",
-    descriptionKey: "products:groups.digitalMultimeters.description",
+    title: "Digital Multimeters",
+    description: "Precision digital multimeters for electrical measurements including voltage, current, resistance, and frequency. True RMS capability with data logging, computer connectivity, and advanced measurement functions.",
     subcategoryKey: "multimeters",
     image: "digital-multimeter",
     featuredSpecs: ["accuracy", "range", "features"],
@@ -611,8 +611,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "clamp-meters",
     slug: "clamp-meters",
-    titleKey: "products:groups.clampMeters.title",
-    descriptionKey: "products:groups.clampMeters.description",
+    title: "Clamp Meters",
+    description: "Non-contact current measurement clamp meters for electrical troubleshooting and maintenance. AC/DC current measurement with voltage, resistance, and power measurement capabilities in portable handheld designs.",
     subcategoryKey: "multimeters",
     image: "clamp-meter",
     featuredSpecs: ["current", "voltage", "jaw"],
@@ -620,8 +620,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "bench-multimeters",
     slug: "bench-multimeters",
-    titleKey: "products:groups.benchMultimeters.title",
-    descriptionKey: "products:groups.benchMultimeters.description",
+    title: "Bench Multimeters",
+    description: "High-precision bench multimeters for laboratory and calibration applications. Superior accuracy and resolution with computer interfaces, statistical functions, and automated measurement capabilities.",
     subcategoryKey: "multimeters",
     image: "bench-multimeter",
     featuredSpecs: ["accuracy", "resolution", "features"],
@@ -629,8 +629,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "digital-oscilloscopes",
     slug: "digital-oscilloscopes",
-    titleKey: "products:groups.digitalOscilloscopes.title",
-    descriptionKey: "products:groups.digitalOscilloscopes.description",
+    title: "Digital Oscilloscopes",
+    description: "Advanced digital storage oscilloscopes for waveform analysis and signal measurement. High bandwidth, fast sampling rates, and comprehensive measurement functions with touchscreen interfaces and data analysis capabilities.",
     subcategoryKey: "oscilloscopes",
     image: "digital-oscilloscope",
     featuredSpecs: ["bandwidth", "channels", "sampling"],
@@ -1616,11 +1616,16 @@ export const products: Product[] = [
       remoteControl: "Yes",
       reversible: "Yes",
     },
-    translationKeys: {
-      title: "products:bldcCeilingFan.smart1200.title",
-      description: "products:bldcCeilingFan.smart1200.description",
-      featuresKey: "products:bldcCeilingFan.smart1200.features",
-    },
+    title: "Smart BLDC Ceiling Fan 1200mm",
+    description: "Energy-efficient 48W brushless DC ceiling fan with 1200mm sweep diameter. Features 5-star energy rating, remote control operation, and excellent airflow efficiency of 4.375 CMM/W for optimal room comfort.",
+    features: [
+      "5-star energy rating with 48W power consumption",
+      "Remote control with speed and timer settings",
+      "Reversible rotation for year-round comfort",
+      "Whisper-quiet operation below 35dB",
+      "3-year comprehensive warranty coverage",
+      "High airflow efficiency at 210 CMM"
+    ],
   },
   {
     id: "bldc-premium1400",
@@ -1640,11 +1645,17 @@ export const products: Product[] = [
       remoteControl: "Yes",
       reversible: "Yes",
     },
-    translationKeys: {
-      title: "products:bldcCeilingFan.premium1400.title",
-      description: "products:bldcCeilingFan.premium1400.description",
-      featuresKey: "products:bldcCeilingFan.premium1400.features",
-    },
+    title: "Premium BLDC Ceiling Fan 1400mm",
+    description: "High-performance 52W brushless DC ceiling fan with 1400mm sweep diameter. Premium design featuring smart controls, LED lighting integration, and superior energy efficiency for large rooms and commercial spaces.",
+    features: [
+      "Premium 52W motor with 5-star energy rating",
+      "Smart remote with LED lighting control",
+      "Superior airflow of 240 CMM for large spaces",
+      "Integrated LED lighting with dimmer control",
+      "Advanced aerodynamic blade design",
+      "Ultra-quiet operation below 30dB",
+      "5-year premium warranty coverage"
+    ],
   },
   {
     id: "bldc-commercial1500",
@@ -1664,11 +1675,17 @@ export const products: Product[] = [
       remoteControl: "Yes",
       reversible: "Yes",
     },
-    translationKeys: {
-      title: "products:bldcCeilingFan.commercial1500.title",
-      description: "products:bldcCeilingFan.commercial1500.description",
-      featuresKey: "products:bldcCeilingFan.commercial1500.features",
-    },
+    title: "Commercial BLDC Ceiling Fan 1500mm",
+    description: "Heavy-duty 65W brushless DC ceiling fan designed for commercial and industrial applications. Superior airflow capacity of 300 CFM with robust construction for continuous operation in demanding environments.",
+    features: [
+      "Heavy-duty 65W commercial motor",
+      "High airflow capacity 300 CFM",
+      "Robust construction for continuous operation",
+      "Commercial-grade 1500mm sweep",
+      "Enhanced durability and reliability",
+      "Suitable for warehouses and factories",
+      "Extended 3-year commercial warranty"
+    ],
   },
   // Additional BLDC Ceiling Fans to reach 6 products minimum
   {
@@ -1689,11 +1706,17 @@ export const products: Product[] = [
       remoteControl: "Yes",
       reversible: "Yes",
     },
-    translationKeys: {
-      title: "products:bldcCeilingFan.deluxe1600.title",
-      description: "products:bldcCeilingFan.deluxe1600.description",
-      featuresKey: "products:bldcCeilingFan.deluxe1600.features",
-    },
+    title: "Deluxe BLDC Ceiling Fan 1600mm",
+    description: "Top-of-the-line 80W brushless DC ceiling fan with 1600mm sweep diameter. Premium features including smart controls, advanced aerodynamics, and exceptional build quality for luxury applications.",
+    features: [
+      "Premium 80W high-performance motor",
+      "Extra-large 1600mm sweep diameter",
+      "Smart control integration",
+      "Advanced aerodynamic blade design",
+      "Premium finish and materials",
+      "Whisper-quiet luxury operation",
+      "Premium 5-year warranty coverage"
+    ],
   },
   {
     id: "bldc-industrial1800",
@@ -1713,11 +1736,17 @@ export const products: Product[] = [
       remoteControl: "Yes",
       reversible: "Yes",
     },
-    translationKeys: {
-      title: "products:bldcCeilingFan.industrial1800.title",
-      description: "products:bldcCeilingFan.industrial1800.description",
-      featuresKey: "products:bldcCeilingFan.industrial1800.features",
-    },
+    title: "Industrial BLDC Ceiling Fan 1800mm",
+    description: "Extra-large 100W brushless DC ceiling fan designed for large industrial spaces. Maximum airflow capacity with heavy-duty construction for 24/7 operation in demanding industrial environments.",
+    features: [
+      "Extra-large 100W industrial motor",
+      "Maximum 1800mm sweep diameter",
+      "Heavy-duty construction for 24/7 operation",
+      "Superior airflow for large spaces",
+      "Industrial-grade materials and finish",
+      "Designed for demanding environments",
+      "Extended 5-year industrial warranty"
+    ],
   },
   {
     id: "bldc-economy900",
@@ -1737,11 +1766,16 @@ export const products: Product[] = [
       remoteControl: "Optional",
       reversible: "Yes",
     },
-    translationKeys: {
-      title: "products:bldcCeilingFan.economy900.title",
-      description: "products:bldcCeilingFan.economy900.description",
-      featuresKey: "products:bldcCeilingFan.economy900.features",
-    },
+    title: "Economy BLDC Ceiling Fan 900mm",
+    description: "Affordable 35W brushless DC ceiling fan with 900mm sweep diameter. Energy-efficient design perfect for small to medium rooms with basic remote control and reliable performance.",
+    features: [
+      "Energy-efficient 35W motor design",
+      "Compact 900mm sweep for smaller rooms",
+      "Basic remote control functionality",
+      "Cost-effective BLDC technology",
+      "Low maintenance operation",
+      "2-year standard warranty"
+    ],
   },
 
   // BLDC Cooler & Exhaust Motors - Extracted and improved from static pages
@@ -1762,11 +1796,17 @@ export const products: Product[] = [
       operatingTemp: "-10°C to +60°C",
       warranty: "2 Years",
     },
-    translationKeys: {
-      title: "products:bldcCoolerExhaust.exhaustFan.title",
-      description: "products:bldcCoolerExhaust.exhaustFan.description",
-      featuresKey: "products:bldcCoolerExhaust.exhaustFan.features",
-    },
+    title: "BLDC Exhaust Fan Motor 25W",
+    description: "High-efficiency 25W brushless DC motor for exhaust fan applications. Features ball bearing construction, IP44 protection, and quiet operation for residential and commercial ventilation systems.",
+    features: [
+      "High-efficiency brushless DC motor",
+      "25W power consumption",
+      "Ball bearing for long life",
+      "IP44 protection rating",
+      "Low noise operation",
+      "12V DC operation",
+      "2-year warranty coverage"
+    ],
   },
   {
     id: "bldc-cooler-motors",
@@ -1785,11 +1825,17 @@ export const products: Product[] = [
       operatingTemp: "-10°C to +70°C",
       warranty: "3 Years",
     },
-    translationKeys: {
-      title: "products:bldcCoolerExhaust.coolerMotors.title",
-      description: "products:bldcCoolerExhaust.coolerMotors.description",
-      featuresKey: "products:bldcCoolerExhaust.coolerMotors.features",
-    },
+    title: "BLDC Cooler Motor 45W",
+    description: "Powerful 45W brushless DC motor for air cooler applications. Advanced design with 90% efficiency, variable speed control, and enhanced protection rating for reliable cooling performance.",
+    features: [
+      "High-performance 45W BLDC motor",
+      "90% energy efficiency",
+      "Variable speed control",
+      "IP54 protection rating",
+      "Ball bearing construction",
+      "24V DC operation",
+      "3-year warranty coverage"
+    ],
   },
   {
     id: "bldc-ventilation-system",
@@ -1808,11 +1854,17 @@ export const products: Product[] = [
       operatingTemp: "-20°C to +80°C",
       warranty: "5 Years",
     },
-    translationKeys: {
-      title: "products:bldcCoolerExhaust.ventilation.title",
-      description: "products:bldcCoolerExhaust.ventilation.description",
-      featuresKey: "products:bldcCoolerExhaust.ventilation.features",
-    },
+    title: "BLDC Ventilation System 75W",
+    description: "Industrial-grade 75W brushless DC motor for ventilation systems. Superior efficiency at 92%, high airflow capacity, and robust construction for demanding HVAC applications.",
+    features: [
+      "Industrial-grade 75W BLDC motor",
+      "92% energy efficiency",
+      "High airflow capacity 800 CFM",
+      "IP65 protection rating",
+      "48V DC operation",
+      "Advanced temperature range -20°C to +80°C",
+      "5-year warranty coverage"
+    ],
   },
   // Additional BLDC Cooler & Exhaust Motors from static pages
   {
@@ -1832,11 +1884,17 @@ export const products: Product[] = [
       operatingTemp: "-5°C to +55°C",
       warranty: "2 Years",
     },
-    translationKeys: {
-      title: "products:bldcCoolerExhaust.ventilationMotors.title",
-      description: "products:bldcCoolerExhaust.ventilationMotors.description",
-      featuresKey: "products:bldcCoolerExhaust.ventilationMotors.features",
-    },
+    title: "BLDC Ventilation Motor 35W",
+    description: "Efficient 35W brushless DC motor for ventilation applications. Balanced performance with 280 CFM airflow capacity, suitable for residential and light commercial ventilation systems.",
+    features: [
+      "Efficient 35W motor design",
+      "Good airflow capacity 280 CFM",
+      "88% energy efficiency",
+      "Sleeve bearing construction",
+      "IP44 protection rating",
+      "24V DC operation",
+      "2-year standard warranty"
+    ],
   },
   {
     id: "bldc-industrial-exhaust",
@@ -1855,11 +1913,17 @@ export const products: Product[] = [
       operatingTemp: "-30°C to +85°C",
       warranty: "5 Years",
     },
-    translationKeys: {
-      title: "products:bldcCoolerExhaust.industrialExhaust.title",
-      description: "products:bldcCoolerExhaust.industrialExhaust.description",
-      featuresKey: "products:bldcCoolerExhaust.industrialExhaust.features",
-    },
+    title: "Industrial BLDC Exhaust Fan 120W",
+    description: "High-power 120W brushless DC motor for industrial exhaust applications. Heavy-duty construction with exceptional airflow capacity and reliability for demanding industrial environments.",
+    features: [
+      "High-power 120W industrial motor",
+      "Exceptional airflow capacity 650 CFM",
+      "Heavy-duty construction",
+      "High-speed 3200 RPM operation",
+      "IP67 protection for harsh environments",
+      "48V DC operation",
+      "Extended 3-year industrial warranty"
+    ],
   },
   {
     id: "bldc-mini-cooler",
@@ -1878,11 +1942,17 @@ export const products: Product[] = [
       operatingTemp: "0°C to +50°C",
       warranty: "1 Year",
     },
-    translationKeys: {
-      title: "products:bldcCoolerExhaust.miniCooler.title",
-      description: "products:bldcCoolerExhaust.miniCooler.description",
-      featuresKey: "products:bldcCoolerExhaust.miniCooler.features",
-    },
+    title: "Mini BLDC Cooler Motor 15W",
+    description: "Compact 15W brushless DC motor designed for mini cooler applications. Energy-efficient design with quiet operation and reliable performance for personal cooling devices.",
+    features: [
+      "Compact 15W motor design",
+      "Energy-efficient operation",
+      "Low noise level below 25dB",
+      "12V DC operation",
+      "82% efficiency rating",
+      "Suitable for personal cooling devices",
+      "1-year warranty coverage"
+    ],
   },
 
   // BLDC Submersible & Surface Pumps
@@ -1899,11 +1969,17 @@ export const products: Product[] = [
       voltage: "48V DC",
       solarCompatible: "Yes",
     },
-    translationKeys: {
-      title: "products:bldcPumps.solarSubmersible1hp.title",
-      description: "products:bldcPumps.solarSubmersible1hp.description",
-      featuresKey: "products:bldcPumps.solarSubmersible1hp.features",
-    },
+    title: "Solar BLDC Submersible Pump 1HP",
+    description: "High-efficiency 1HP solar-compatible brushless DC submersible pump. Designed for water lifting applications with direct solar power integration and excellent reliability for remote installations.",
+    features: [
+      "1HP high-efficiency BLDC motor",
+      "Solar power compatible (48V DC)",
+      "High flow rate of 1800 LPH",
+      "100ft maximum head capacity",
+      "Weather-resistant construction",
+      "Low maintenance requirements",
+      "Ideal for remote water supply systems"
+    ],
   },
   {
     id: "dc-surface-pump-2hp",
@@ -1918,11 +1994,17 @@ export const products: Product[] = [
       voltage: "72V DC",
       selfPriming: "Yes",
     },
-    translationKeys: {
-      title: "products:bldcPumps.dcSurface2hp.title",
-      description: "products:bldcPumps.dcSurface2hp.description",
-      featuresKey: "products:bldcPumps.dcSurface2hp.features",
-    },
+    title: "DC Surface Pump 2HP",
+    description: "Powerful 2HP DC surface pump with self-priming capability. High flow rate of 3600 LPH with 150ft head capacity, perfect for agriculture and industrial water transfer applications.",
+    features: [
+      "Powerful 2HP motor capacity",
+      "Self-priming design",
+      "High flow rate 3600 LPH",
+      "150ft maximum head",
+      "72V DC operation",
+      "Robust construction for industrial use",
+      "Low maintenance requirements"
+    ],
   },
   {
     id: "hybrid-bldc-pump",
@@ -2017,11 +2099,17 @@ export const products: Product[] = [
       temperature: "-40°C to +90°C",
       shielding: "100% Coverage",
     },
-    translationKeys: {
-      title: "products:cablesWires.instrumentation.title",
-      description: "products:cablesWires.instrumentation.description",
-      featuresKey: "products:cablesWires.instrumentation.features",
-    },
+    title: "Instrumentation Cables",
+    description: "High-quality instrumentation cables designed for precise signal transmission in industrial automation and control systems. Multi-pair construction with excellent shielding and low capacitance for reliable data communication.",
+    features: [
+      "Multi-pair construction for complex systems",
+      "Excellent signal shielding and integrity",
+      "Low capacitance for accurate data transmission",
+      "Suitable for harsh industrial environments",
+      "Available in various core configurations",
+      "Compliance with international standards",
+      "Long-term reliability and performance"
+    ],
   },
   {
     id: "power-distribution-cables",

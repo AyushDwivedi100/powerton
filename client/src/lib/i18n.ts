@@ -73,10 +73,10 @@ const initConfig = {
 
   // Backend configuration for loading translations
   backend: {
-    loadPath: `/locales/{{lng}}/{{ns}}.json?v=${Date.now()}&bust=${Math.random()}`,
+    loadPath: `/locales/{{lng}}/{{ns}}.json`,
     addPath: "/locales/add/{{lng}}/{{ns}}",
-    cache: false, // Disable caching in development
-    allowMultiLoading: false,
+    cache: true, // Enable caching for better performance
+    allowMultiLoading: true, // Allow loading multiple namespaces at once
     reloadInterval: false,
   },
 
