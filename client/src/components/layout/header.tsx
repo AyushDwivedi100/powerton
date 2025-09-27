@@ -335,8 +335,9 @@ export default function Header() {
     closeWithDelay(popupTimerRef, 280, () => {
       const isSubcategoryHovered = document.querySelector('[data-testid^="subcategory-"]:hover');
       const isDropdownHovered = document.querySelector('[data-dropdown-area="products"]:hover');
+      const isPopupHovered = document.querySelector('[data-popup-area="true"]:hover');
       
-      if (!isSubcategoryHovered && !isDropdownHovered) {
+      if (!isSubcategoryHovered && !isDropdownHovered && !isPopupHovered) {
         setHoveredSubcategory(null);
       }
     });
