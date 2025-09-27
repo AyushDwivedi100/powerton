@@ -99,6 +99,27 @@ export default function Header() {
     };
   }, [popupTimeout, productsDropdownTimeout]);
 
+  // Close all dropdowns when route changes
+  useEffect(() => {
+    // Clear any pending timeouts
+    if (popupTimeout) {
+      clearTimeout(popupTimeout);
+      setPopupTimeout(null);
+    }
+    if (productsDropdownTimeout) {
+      clearTimeout(productsDropdownTimeout);
+      setProductsDropdownTimeout(null);
+    }
+    
+    // Close all dropdown menus when navigating to a different page
+    setIsServicesDropdownOpen(false);
+    setIsProductsDropdownOpen(false);
+    setHoveredSubcategory(null);
+    setIsOpen(false); // Also close mobile menu
+    setIsMobileServicesOpen(false);
+    setIsMobileProductsOpen(false);
+  }, [location]); // Trigger when location changes
+
   // Handle click outside to close dropdowns
   useEffect(() => {
     const handleClickOutside = (event: MouseEvent) => {
