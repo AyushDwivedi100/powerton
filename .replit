@@ -9,7 +9,7 @@ packages = ["jq"]
 [deployment]
 deploymentTarget = "autoscale"
 build = ["npm", "run", "build"]
-run = ["serve", "client/dist", "-s", "-l", "5000"]
+run = ["npm", "run", "start"]
 
 [[ports]]
 localPort = 5000
