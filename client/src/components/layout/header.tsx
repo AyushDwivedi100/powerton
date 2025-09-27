@@ -188,10 +188,10 @@ export default function Header() {
   };
 
   const handleSubcategoryLeave = () => {
-    // Only start timeout if not moving to another subcategory/popup quickly
+    // Increased delay to allow easier movement between subcategories and popup
     const timeout = setTimeout(() => {
       setHoveredSubcategory(null);
-    }, 100); // Reduced delay for better responsiveness
+    }, 300); // Increased delay for better user experience
     setPopupTimeout(timeout);
   };
 
@@ -214,7 +214,7 @@ export default function Header() {
 
     const timeout = setTimeout(() => {
       setHoveredSubcategory(null);
-    }, 100);
+    }, 200); // Slightly longer delay for keyboard navigation
     setPopupTimeout(timeout);
   };
 
@@ -230,7 +230,7 @@ export default function Header() {
     // Add delay when leaving popup to allow moving back to subcategory
     const timeout = setTimeout(() => {
       setHoveredSubcategory(null);
-    }, 150); // Slightly longer delay for popup
+    }, 300); // Longer delay for popup to match subcategory behavior
     setPopupTimeout(timeout);
   };
 
@@ -241,6 +241,11 @@ export default function Header() {
       clearTimeout(productsDropdownTimeout);
       setProductsDropdownTimeout(null);
     }
+    // Also clear popup timeout to prevent conflicts
+    if (popupTimeout) {
+      clearTimeout(popupTimeout);
+      setPopupTimeout(null);
+    }
     setIsProductsDropdownOpen(true);
   };
 
@@ -250,7 +255,7 @@ export default function Header() {
       setIsProductsDropdownOpen(false);
       // Also close any open subcategory popups when main dropdown closes
       setHoveredSubcategory(null);
-    }, 150);
+    }, 250); // Increased delay to match other timeouts
     setProductsDropdownTimeout(timeout);
   };
 
@@ -718,7 +723,7 @@ export default function Header() {
                             animate={{ opacity: 1, scale: 1, x: 0 }}
                             exit={{ opacity: 0, scale: 0.95, x: -10 }}
                             transition={{ duration: 0.2, ease: "easeOut" }}
-                            className="fixed z-[60] bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-700 rounded-lg shadow-xl"
+                            className="fixed z-[70] bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-700 rounded-lg shadow-xl"
                             style={{
                               left: popupPosition.x,
                               top: popupPosition.y,
