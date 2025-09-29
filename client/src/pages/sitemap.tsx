@@ -181,12 +181,6 @@ const PRODUCT_CATEGORIES: ProductCategory[] = [
         icon: "Radio",
       },
       {
-        path: "/products/controllers",
-        title: "controllers",
-        description: "controllersDescription",
-        icon: "Cpu",
-      },
-      {
         path: "/products/instrumentation-accessories/switches-indicators",
         title: "switches",
         description: "switchesDescription",
@@ -204,12 +198,6 @@ const PRODUCT_CATEGORIES: ProductCategory[] = [
         description: "analyzersDescription",
         icon: "FlaskConical",
       },
-      {
-        path: "/products/signal-conditioners",
-        title: "signalConditioners",
-        description: "signalConditionersDescription",
-        icon: "Zap",
-      },
     ],
   },
   {
@@ -219,49 +207,49 @@ const PRODUCT_CATEGORIES: ProductCategory[] = [
     icon: "Zap",
     products: [
       {
-        path: "/products/cables-wires",
+        path: "/products/electrical-components/cables-wires",
         title: "cablesWires",
         description: "cablesWiresDescription",
         icon: "Cable",
       },
       {
-        path: "/products/connectors-terminals",
+        path: "/products/electrical-components/connectors-terminals",
         title: "connectorsTerminals",
         description: "connectorsTerminalsDescription",
         icon: "Zap",
       },
       {
-        path: "/products/circuit-breakers-fuses",
+        path: "/products/electrical-components/circuit-breakers-fuses",
         title: "circuitBreakersFuses",
         description: "circuitBreakersFusesDescription",
         icon: "Shield",
       },
       {
-        path: "/products/power-supplies",
+        path: "/products/electrical-components/power-supplies",
         title: "powerSupplies",
         description: "powerSuppliesDescription",
         icon: "Power",
       },
       {
-        path: "/products/enclosures-cabinets",
+        path: "/products/electrical-components/enclosures-cabinets",
         title: "enclosuresCabinets",
         description: "enclosuresCabinetsDescription",
         icon: "Shield",
       },
       {
-        path: "/products/heating-elements-appliances",
+        path: "/products/electrical-components/heating-elements-appliances",
         title: "heatingElementsAppliances",
         description: "heatingElementsAppliancesDescription",
         icon: "Zap",
       },
       {
-        path: "/products/surge-protectors",
+        path: "/products/electrical-components/surge-protectors",
         title: "surgeProtectors",
         description: "surgeProtectorsDescription",
         icon: "Zap",
       },
       {
-        path: "/products/grounding-systems",
+        path: "/products/electrical-components/grounding-systems",
         title: "groundingSystems",
         description: "groundingSystemsDescription",
         icon: "Zap",
@@ -275,19 +263,19 @@ const PRODUCT_CATEGORIES: ProductCategory[] = [
     icon: "Activity",
     products: [
       {
-        path: "/products/multimeters",
+        path: "/products/industrial-measuring-tools/multimeters",
         title: "multimeters",
         description: "multimetersDescription",
         icon: "Zap",
       },
       {
-        path: "/products/power-quality-analyzers",
+        path: "/products/industrial-measuring-tools/power-quality-analyzers",
         title: "powerQualityAnalyzers",
         description: "powerQualityAnalyzersDescription",
         icon: "Activity",
       },
       {
-        path: "/products/calibration-equipment",
+        path: "/products/industrial-measuring-tools/calibration-equipment",
         title: "calibrationEquipment",
         description: "calibrationEquipmentDescription",
         icon: "Settings",
@@ -301,13 +289,13 @@ const PRODUCT_CATEGORIES: ProductCategory[] = [
     icon: "Sun",
     products: [
       {
-        path: "/products/solar-panels",
+        path: "/products/solar-products/solar-panels",
         title: "solarPanels",
         description: "solarPanelsDescription",
         icon: "Sun",
       },
       {
-        path: "/products/solar-inverters",
+        path: "/products/solar-products/solar-inverters",
         title: "solarInverters",
         description: "solarInvertersDescription",
         icon: "Zap",
@@ -321,25 +309,25 @@ const PRODUCT_CATEGORIES: ProductCategory[] = [
     icon: "Cpu",
     products: [
       {
-        path: "/products/plcs",
+        path: "/products/automation-control-systems/plcs",
         title: "plcs",
         description: "plcsDescription",
         icon: "Cpu",
       },
       {
-        path: "/products/scada",
+        path: "/products/automation-control-systems/scada",
         title: "scada",
         description: "scadaDescription",
         icon: "Monitor",
       },
       {
-        path: "/products/dcs",
+        path: "/products/automation-control-systems/dcs",
         title: "dcs",
         description: "dcsDescription",
         icon: "Network",
       },
       {
-        path: "/products/hmi",
+        path: "/products/automation-control-systems/hmi",
         title: "hmi",
         description: "hmiDescription",
         icon: "Monitor",
@@ -353,19 +341,19 @@ const PRODUCT_CATEGORIES: ProductCategory[] = [
     icon: "Shield",
     products: [
       {
-        path: "/products/safety-equipment",
+        path: "/products/safety-protective-devices/safety-equipment",
         title: "safetyEquipment",
         description: "safetyEquipmentDescription",
         icon: "Shield",
       },
       {
-        path: "/products/safety-relays-switches",
+        path: "/products/safety-protective-devices/safety-relays-switches",
         title: "safetyRelaysSwitches",
         description: "safetyRelaysSwitchesDescription",
         icon: "ToggleLeft",
       },
       {
-        path: "/products/intrinsically-safe-equipment",
+        path: "/products/safety-protective-devices/intrinsically-safe-equipment",
         title: "intrinsicallySafeEquipment",
         description: "intrinsicallySafeEquipmentDescription",
         icon: "ShieldCheck",
@@ -379,25 +367,25 @@ const PRODUCT_CATEGORIES: ProductCategory[] = [
     icon: "Truck",
     products: [
       {
-        path: "/products/centrifugal-pumps",
+        path: "/products/mechanical-pumps-spares/centrifugal-pumps",
         title: "centrifugalPumps",
         description: "centrifugalPumpsDescription",
         icon: "Truck",
       },
       {
-        path: "/products/diaphragm-pumps",
+        path: "/products/mechanical-pumps-spares/diaphragm-pumps",
         title: "diaphragmPumps",
         description: "diaphragmPumpsDescription",
         icon: "Truck",
       },
       {
-        path: "/products/gear-pumps",
+        path: "/products/mechanical-pumps-spares/gear-pumps",
         title: "gearPumps",
         description: "gearPumpsDescription",
         icon: "Cog",
       },
       {
-        path: "/products/pump-parts-spares",
+        path: "/products/mechanical-pumps-spares/pump-parts-spares",
         title: "pumpPartsSpares",
         description: "pumpPartsSparesDescription",
         icon: "Wrench",
@@ -411,25 +399,25 @@ const PRODUCT_CATEGORIES: ProductCategory[] = [
     icon: "Hammer",
     products: [
       {
-        path: "/products/hand-tools",
+        path: "/products/industrial-measuring-tools/hand-tools",
         title: "handTools",
         description: "handToolsDescription",
         icon: "Hammer",
       },
       {
-        path: "/products/power-tools",
+        path: "/products/industrial-measuring-tools/power-tools",
         title: "powerTools",
         description: "powerToolsDescription",
         icon: "Drill",
       },
       {
-        path: "/products/cutting-tools",
+        path: "/products/industrial-measuring-tools/cutting-tools",
         title: "cuttingTools",
         description: "cuttingToolsDescription",
         icon: "Scissors",
       },
       {
-        path: "/products/lifting-equipment",
+        path: "/products/industrial-measuring-tools/lifting-equipment",
         title: "liftingEquipment",
         description: "liftingEquipmentDescription",
         icon: "Move",
@@ -443,25 +431,25 @@ const PRODUCT_CATEGORIES: ProductCategory[] = [
     icon: "Zap",
     products: [
       {
-        path: "/products/bldc-ceiling-fan",
+        path: "/products/bldc/bldc-ceiling-fan",
         title: "bldcCeilingFan",
         description: "bldcCeilingFanDescription",
         icon: "Fan",
       },
       {
-        path: "/products/bldc-cooler-exhaust-motor",
+        path: "/products/bldc/bldc-cooler-exhaust-motor",
         title: "bldcCoolerExhaustMotor",
         description: "bldcCoolerExhaustMotorDescription",
         icon: "Wind",
       },
       {
-        path: "/products/bldc-submersible-surface-pump",
+        path: "/products/bldc/bldc-submersible-surface-pump",
         title: "bldcSubmersibleSurfacePump",
         description: "bldcSubmersibleSurfacePumpDescription",
         icon: "Droplets",
       },
       {
-        path: "/products/bldc-table-fan-wall-fan-motor",
+        path: "/products/bldc/bldc-table-fan-wall-fan-motor",
         title: "bldcTableFanWallFanMotor",
         description: "bldcTableFanWallFanMotorDescription",
         icon: "Fan",
