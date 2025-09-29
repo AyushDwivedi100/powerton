@@ -41,6 +41,7 @@ import {
   getSubcategorySlugById,
   getParentCategorySlug,
   getParentCategoryBySubcategoryKey,
+  getSubcategoryKeyBySlug,
 } from "@/data/products-sub-category-pages-data";
 import { motion, AnimatePresence } from "framer-motion";
 import { ThemeToggle } from "@/components/ui/theme-toggle";
@@ -231,7 +232,11 @@ export default function Header() {
     isSubcategoryHoveredRef.current = true;
     clearTimer(popupTimerRef);
 
-    if (!hasProductGroups(subcategoryId)) {
+    // Convert subcategory ID to key for product group lookup
+    const subcategorySlug = getSubcategorySlugById(subcategoryId) || subcategoryId;
+    const subcategoryKey = getSubcategoryKeyBySlug(subcategorySlug);
+    
+    if (!hasProductGroups(subcategoryKey)) {
       // If no product groups, hide popup immediately
       setHoveredSubcategory(null);
       return;
@@ -775,9 +780,9 @@ export default function Header() {
                                             }
                                           >
                                             <Link
-                                              href={`/products/${getParentCategorySlug(product.id)}/${getSubcategorySlugById(subcategory.id) || subcategory.id}`}
+                                              href={`/products/${product.id}/${getSubcategorySlugById(subcategory.id) || subcategory.id}`}
                                               className={`block px-2 lg:px-3 py-1 lg:py-2 rounded-sm hover:bg-slate-100 dark:hover:bg-slate-800 hover:text-foreground cursor-pointer transition-colors text-xs lg:text-sm border-primary/40 hover:border-secondary bs-2 ${
-                                                hasProductGroups(subcategory.id)
+                                                hasProductGroups(getSubcategoryKeyBySlug(getSubcategorySlugById(subcategory.id) || subcategory.id))
                                                   ? "hover:bg-blue-50 dark:hover:bg-blue-900/20 focus:bg-blue-50 dark:focus:bg-blue-900/20"
                                                   : ""
                                               }`}
@@ -1155,7 +1160,7 @@ export default function Header() {
                                               (subcategory) => (
                                                 <Link
                                                   key={subcategory.id}
-                                                  href={`/products/${product.id}/${subcategory.id}`}
+                                                  href={`/products/${product.id}/${getSubcategorySlugById(subcategory.id) || subcategory.id}`}
                                                   className="text-xs text-muted-foreground hover:text-secondary transition-colors block py-1 border-secondary/30 hover:border-secondary ps-2 bs-2 text-wrap-safe"
                                                   onClick={() => {
                                                     setIsOpen(false);

@@ -2850,3 +2850,50 @@ export const getParentCategoryBySubcategoryKey = (subcategoryKey: string): strin
   
   return subcategoryToParentMapping[subcategoryKey] || "";
 };
+
+// Convert subcategory slug to subcategory key for product group lookup
+export const getSubcategoryKeyBySlug = (subcategorySlug: string): string => {
+  const subcategorySlugToKeyMapping: { [key: string]: string } = {
+    "sensors-transducers": "sensors",
+    "transmitters-flow-meters": "transmitters", 
+    "switches-indicators": "switches",
+    "valves-actuators": "valves",
+    "analyzers": "analyzers",
+    "bldc-ceiling-fan": "bldc-ceiling-fan",
+    "bldc-cooler-exhaust-motor": "bldc-cooler-exhaust-motor",
+    "bldc-submersible-surface-pump": "bldc-submersible-surface-pump",
+    "bldc-table-fan-wall-fan-motor": "bldc-table-fan-wall-fan-motor",
+    "cables-wires": "cables-wires",
+    "connectors-terminals": "connectors-terminals",
+    "circuit-breakers-fuses": "circuit-breakers-fuses",
+    "power-supplies": "power-supplies",
+    "enclosures-cabinets": "enclosures-cabinets",
+    "heating-elements-appliances": "heating-elements-appliances",
+    "surge-protectors": "surge-protectors",
+    "grounding-systems": "grounding-systems",
+    "multimeters": "multimeters",
+    "power-quality-analyzers": "power-quality-analyzers",
+    "calibration-equipment": "calibration-equipment",
+    "oscilloscopes": "oscilloscopes",
+    "spectrum-analyzers": "spectrum-analyzers",
+    "solar-panels": "solar-panels",
+    "solar-inverters": "solar-inverters",
+    "plcs": "plcs",
+    "hmi": "hmi",
+    "scada": "scada",
+    "dcs": "dcs",
+    "safety-equipment": "safety-equipment",
+    "safety-relays-switches": "safety-relays-switches",
+    "intrinsically-safe-equipment": "intrinsically-safe-equipment",
+    "centrifugal-pumps": "centrifugal-pumps",
+    "diaphragm-pumps": "diaphragm-pumps",
+    "gear-pumps": "gear-pumps",
+    "pump-parts-spares": "pump-parts-spares",
+    "hand-tools": "hand-tools",
+    "power-tools": "power-tools",
+    "cutting-tools": "cutting-tools",
+    "lifting-equipment": "lifting-equipment",
+  };
+  
+  return subcategorySlugToKeyMapping[subcategorySlug] || subcategorySlug;
+};

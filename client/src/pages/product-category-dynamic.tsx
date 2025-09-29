@@ -31,7 +31,7 @@ import {
 import { Badge } from "@/components/ui/badge";
 import { ArrowLeft } from "lucide-react";
 import { getCategoryBySlug } from "@/data/products-category-page";
-import { getProductSubCategoryBySlug } from "@/data/products-sub-category-pages-data";
+import { getProductSubCategoryBySlug, getSubcategorySlugById } from "@/data/products-sub-category-pages-data";
 import { useTranslation } from "react-i18next";
 
 // Animation variants
@@ -269,12 +269,13 @@ const ProductCategoryDynamic: React.FC = () => {
           {categoryData.subcategories.map((subcategory, index) => {
             const IconComponent = subcategory.icon;
             // Get parent category slug from subcategory data
-            const subcategoryData = getProductSubCategoryBySlug(subcategory.id);
+            const subcategorySlug = getSubcategorySlugById(subcategory.id) || subcategory.id;
+            const subcategoryData = getProductSubCategoryBySlug(subcategorySlug);
             const parentCategorySlug = subcategoryData?.parentCategory.split('/').pop() || categoryData.slug;
             return (
               <Link
                 key={subcategory.id}
-                href={`/products/${parentCategorySlug}/${subcategory.id}`}
+                href={`/products/${parentCategorySlug}/${getSubcategorySlugById(subcategory.id) || subcategory.id}`}
               >
                 <motion.div
                   variants={cardVariants}
