@@ -41,8 +41,43 @@ export default function ProductGroupDynamic() {
     return <NotFound />;
   }
 
+  // Map subcategorySlug to subcategoryKey (product groups use internal keys)
+  const subcategoryKeyMap: { [key: string]: string } = {
+    "sensors-transducers": "sensors",
+    "transmitters-flow-meters": "transmitters", 
+    "switches-indicators": "switches",
+    "valves-actuators": "valves",
+    "analyzers": "analyzers",
+    "bldc-ceiling-fan": "bldc-ceiling-fan",
+    "bldc-cooler-exhaust-motor": "bldc-cooler-exhaust-motor",
+    "bldc-submersible-surface-pump": "bldc-submersible-surface-pump",
+    "bldc-table-fan-wall-fan-motor": "bldc-table-fan-wall-fan-motor",
+    "cables-wires": "cables-wires",
+    "connectors-terminals": "connectors-terminals",
+    "circuit-breakers-fuses": "circuit-breakers-fuses",
+    "multimeters": "multimeters",
+    "oscilloscopes": "oscilloscopes",
+    "spectrum-analyzers": "spectrum-analyzers",
+    "solar-panels": "solar-panels",
+    "solar-inverters": "solar-inverters",
+    "plcs": "plcs",
+    "hmi": "hmi",
+    "scada": "scada",
+    "dcs": "dcs",
+    "centrifugal-pumps": "centrifugal-pumps",
+    "diaphragm-pumps": "diaphragm-pumps",
+    "gear-pumps": "gear-pumps",
+    "pump-parts-spares": "pump-parts-spares",
+    "hand-tools": "hand-tools",
+    "power-tools": "power-tools",
+    "cutting-tools": "cutting-tools",
+    "lifting-equipment": "lifting-equipment",
+  };
+  
+  const subcategoryKey = subcategoryKeyMap[subcategorySlug] || subcategorySlug;
+
   // Get the product group information
-  const productGroup = getProductGroupBySlug(subcategorySlug, groupSlug);
+  const productGroup = getProductGroupBySlug(subcategoryKey, groupSlug);
   if (!productGroup) {
     return <NotFound />;
   }
