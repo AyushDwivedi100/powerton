@@ -1981,6 +1981,165 @@
       ]
     }
   },
+  "circuitBreakers": {
+    "schneiderM9r31240": {
+      "title": "Schneider Electric M9R31240 RCCB",
+      "description": "4-pole residual current circuit breaker for electrical safety protection",
+      "features": [
+        "4-pole configuration",
+        "240V AC rated voltage", 
+        "30mA residual current",
+        "63A rated current",
+        "Type A residual current detection"
+      ]
+    },
+    "schneiderM9r14463": {
+      "title": "Schneider Electric M9R14463 RCCB", 
+      "description": "2-pole residual current circuit breaker for domestic applications",
+      "features": [
+        "2-pole configuration",
+        "240V AC rated voltage",
+        "10mA high sensitivity", 
+        "40A rated current",
+        "Type AC residual current detection"
+      ]
+    },
+    "abbF204a63": {
+      "title": "ABB F204 A-63/0.03 RCCB",
+      "description": "Type A residual current circuit breaker with enhanced protection",
+      "features": [
+        "4-pole Type A configuration", 
+        "415V AC rated voltage",
+        "30mA residual current",
+        "63A rated current",
+        "Enhanced safety features"
+      ]
+    },
+    "abbF204ac25": {
+      "title": "ABB F204 AC-25/0.03 RCCB",
+      "description": "Compact residual current circuit breaker for residential use",
+      "features": [
+        "2-pole AC type configuration",
+        "240V AC rated voltage", 
+        "30mA residual current",
+        "25A rated current",
+        "Compact DIN rail mounting"
+      ]
+    },
+    "abbSaceEmaxE12": {
+      "title": "ABB SACE Emax E1.2 ACB",
+      "description": "Air circuit breaker for low voltage power distribution",
+      "features": [
+        "1250A breaking capacity",
+        "690V AC rated voltage",
+        "Electronic trip unit",
+        "Withdrawable design", 
+        "Advanced protection functions"
+      ]
+    },
+    "abbSaceEmaxE22": {
+      "title": "ABB SACE Emax E2.2 ACB", 
+      "description": "High-performance air circuit breaker for industrial applications",
+      "features": [
+        "2000A breaking capacity",
+        "690V AC rated voltage",
+        "Microprocessor-based protection",
+        "Remote operation capability",
+        "Energy metering functions"
+      ]
+    },
+    "schneiderMasterpactNw": {
+      "title": "Schneider Electric MasterPact NW ACB",
+      "description": "Advanced air circuit breaker with intelligent protection",
+      "features": [
+        "6300A breaking capacity", 
+        "690V AC rated voltage",
+        "Micrologic trip unit",
+        "Communication capabilities",
+        "Zone selectivity"
+      ]
+    },
+    "schneiderMasterpactMtz": {
+      "title": "Schneider Electric MasterPact MTZ ACB",
+      "description": "Compact air circuit breaker for space-constrained applications", 
+      "features": [
+        "2500A breaking capacity",
+        "690V AC rated voltage",
+        "Digital trip unit",
+        "Compact footprint",
+        "Easy maintenance"
+      ]
+    },
+    "abbVd412kv": {
+      "title": "ABB VD4 12kV VCB",
+      "description": "12kV vacuum circuit breaker for medium voltage applications", 
+      "features": [
+        "12kV rated voltage",
+        "31.5kA breaking capacity",
+        "Vacuum interruption technology",
+        "Long electrical life", 
+        "Maintenance-free operation"
+      ]
+    },
+    "abbVd424kv": {
+      "title": "ABB VD4 24kV VCB",
+      "description": "24kV vacuum circuit breaker for high-performance switching",
+      "features": [
+        "24kV rated voltage", 
+        "25kA breaking capacity",
+        "SF6-free technology",
+        "Compact design",
+        "Environmental friendly"
+      ]
+    },
+    "schneiderEvopact15kv": {
+      "title": "Schneider Electric EvoPacT 15kV VCB",
+      "description": "15kV vacuum circuit breaker with advanced control systems",
+      "features": [
+        "15kV rated voltage",
+        "40kA breaking capacity", 
+        "Integrated control unit",
+        "Arc monitoring system",
+        "Digital communication"
+      ]
+    },
+    "schneiderHvx33kv": {
+      "title": "Schneider Electric HVX-O 33kV VCB",
+      "description": "33kV outdoor vacuum circuit breaker for substations",
+      "features": [
+        "33kV rated voltage",
+        "25kA breaking capacity",
+        "Outdoor installation", 
+        "Weather resistant housing",
+        "Remote monitoring capability"
+      ]
+    },
+    "siemens3ah4": {
+      "title": "Siemens 3AH4 VCB",
+      "description": "Medium voltage vacuum circuit breaker with proven reliability",
+      "features": [
+        "17.5kV rated voltage",
+        "31.5kA breaking capacity", 
+        "Proven vacuum technology",
+        "Low maintenance requirements",
+        "High operational safety"
+      ]
+    }
+  },
+  "groups": {
+    "rccb-circuit-breakers": {
+      "title": "RCCB Circuit Breakers", 
+      "description": "Residual Current Circuit Breakers (RCCB) for earth leakage protection. Essential safety devices that protect against electrical shock and fire hazards by detecting current imbalances."
+    },
+    "acb-circuit-breakers": {
+      "title": "ACB Circuit Breakers",
+      "description": "Air Circuit Breakers (ACB) for low voltage power distribution. High-capacity circuit breakers with advanced protection features for industrial and commercial electrical systems."
+    },
+    "vcb-circuit-breakers": {
+      "title": "VCB Circuit Breakers", 
+      "description": "Vacuum Circuit Breakers (VCB) for medium voltage applications. Superior arc quenching technology providing reliable switching and protection in electrical substations."
+    }
+  },
   "specs": {
     "manufacturer": "Manufacturer",
     "model": "Model",
@@ -2006,6 +2165,20 @@
     "technology": "Technology",
     "range": "Range",
     "frequency": "Frequency",
-    "conductivityRange": "Conductivity Range"
+    "conductivityRange": "Conductivity Range",
+    "poles": "Poles", 
+    "ratedVoltage": "Rated Voltage",
+    "ratedCurrent": "Rated Current", 
+    "residualCurrent": "Residual Current",
+    "rcType": "RC Type",
+    "breakingCapacity": "Breaking Capacity",
+    "tripUnit": "Trip Unit",
+    "operatingMechanism": "Operating Mechanism",
+    "standard": "Standard",
+    "mountingType": "Mounting Type",
+    "interruptionTechnology": "Interruption Technology",
+    "electricalLife": "Electrical Life",
+    "mechanicalLife": "Mechanical Life",
+    "installation": "Installation"
   }
 }

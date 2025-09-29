@@ -86,6 +86,11 @@ import massFlowMeterImage from '@assets/stock_images/industrial_electroma_7065d7
 import vortexFlowMeterImage from '@assets/stock_images/industrial_pressure__0f9690ef.jpg';
 import pdFlowMeterImage from '@assets/stock_images/industrial_pressure__717f5f0e.jpg';
 
+// Circuit breaker images
+import rccbImage from '@assets/generated_images/RCCB_industrial_electrical_device_7d6444e2.png';
+import acbImage from '@assets/generated_images/ACB_air_circuit_breaker_01e20a8c.png';
+import vcbImage from '@assets/generated_images/VCB_vacuum_circuit_breaker_d6b1217e.png';
+
 // Service-specific hero background images (ID-856+)
 import installationCommissioningHero from '@assets/generated_images/Installation_commissioning_service_background_a1bcbda4.png';
 import maintenanceRepairHero from '@assets/generated_images/Maintenance_repair_service_background_f0334dc5.png';
@@ -213,7 +218,12 @@ export const IMAGE_IDS = {
   MAGNETIC_FLOW_METER: 'ID-922',
   MASS_FLOW_METER: 'ID-923',
   VORTEX_FLOW_METER: 'ID-924',
-  PD_FLOW_METER: 'ID-925'
+  PD_FLOW_METER: 'ID-925',
+  
+  // Circuit breaker types (ID-926-928)
+  RCCB_CIRCUIT_BREAKER: 'ID-926',
+  ACB_CIRCUIT_BREAKER: 'ID-927',
+  VCB_CIRCUIT_BREAKER: 'ID-928'
 } as const;
 
 // Next available ID tracker
@@ -608,6 +618,23 @@ export const PRODUCT_IMAGES = {
     src: massFlowMeterImage,
     alt: `${IMAGE_IDS.TRANSMITTERS}: Volumetric flow meter - ABB series`,
     id: IMAGE_IDS.TRANSMITTERS
+  },
+  
+  // Circuit breaker images
+  'rccb': {
+    src: rccbImage,
+    alt: `${IMAGE_IDS.RCCB_CIRCUIT_BREAKER}: RCCB residual current circuit breaker - Earth leakage protection device for electrical safety`,
+    id: IMAGE_IDS.RCCB_CIRCUIT_BREAKER
+  },
+  'acb': {
+    src: acbImage,
+    alt: `${IMAGE_IDS.ACB_CIRCUIT_BREAKER}: ACB air circuit breaker - High-capacity industrial electrical distribution protection`,
+    id: IMAGE_IDS.ACB_CIRCUIT_BREAKER
+  },
+  'vcb': {
+    src: vcbImage,
+    alt: `${IMAGE_IDS.VCB_CIRCUIT_BREAKER}: VCB vacuum circuit breaker - Medium voltage electrical equipment with superior arc quenching`,
+    id: IMAGE_IDS.VCB_CIRCUIT_BREAKER
   },
   'gas-analyzer': {
     src: processAnalyzersHero,
