@@ -2729,3 +2729,124 @@ export const getProductsByParentCategory = (
     (product) => product.parentCategory === parentCategory,
   );
 };
+
+// Create mapping from subcategory ID to actual slug for header navigation
+export const getSubcategorySlugById = (subcategoryId: string): string | null => {
+  const subcategoryMapping: { [key: string]: string } = {
+    "sensors": "sensors-transducers",
+    "transmitters": "transmitters-flow-meters",
+    "switches": "switches-indicators", 
+    "valves": "valves-actuators",
+    "analyzers": "analyzers",
+    "cables-wires": "cables-wires",
+    "connectors-terminals": "connectors-terminals",
+    "circuit-breakers-fuses": "circuit-breakers-fuses",
+    "power-supplies": "power-supplies",
+    "enclosures-cabinets": "enclosures-cabinets",
+    "heating-elements-appliances": "heating-elements-appliances",
+    "surge-protectors": "surge-protectors",
+    "grounding-systems": "grounding-systems",
+    "multimeters": "multimeters",
+    "power-quality-analyzers": "power-quality-analyzers",
+    "calibration-equipment": "calibration-equipment",
+    "hand-tools": "hand-tools",
+    "power-tools": "power-tools",
+    "cutting-tools": "cutting-tools",
+    "lifting-equipment": "lifting-equipment",
+    "solar-panels": "solar-panels",
+    "solar-inverters": "solar-inverters",
+    "plcs": "plcs",
+    "scada": "scada",
+    "dcs": "dcs",
+    "hmi": "hmi",
+    "safety-equipment": "safety-equipment",
+    "safety-relays-switches": "safety-relays-switches",
+    "intrinsically-safe-equipment": "intrinsically-safe-equipment",
+    "centrifugal-pumps": "centrifugal-pumps",
+    "diaphragm-pumps": "diaphragm-pumps",
+    "gear-pumps": "gear-pumps",
+    "pump-parts-spares": "pump-parts-spares",
+    "bldc-ceiling-fan": "bldc-ceiling-fan",
+    "bldc-cooler-exhaust-motor": "bldc-cooler-exhaust-motor",
+    "bldc-submersible-surface-pump": "bldc-submersible-surface-pump",
+    "bldc-table-fan-wall-fan-motor": "bldc-table-fan-wall-fan-motor"
+  };
+  
+  return subcategoryMapping[subcategoryId] || null;
+};
+
+// Get parent category slug from product category ID
+export const getParentCategorySlug = (productCategoryId: string): string => {
+  const parentCategoryMapping: { [key: string]: string } = {
+    "instrumentation-accessories": "instrumentation-accessories",
+    "electrical-components": "electrical-components", 
+    "industrial-measuring-tools": "industrial-measuring-tools",
+    "solar-products": "solar-products",
+    "automation-control-systems": "automation-control-systems",
+    "safety-protective-devices": "safety-protective-devices",
+    "mechanical-pumps-spares": "mechanical-pumps-spares",
+    "bldc": "bldc"
+  };
+  
+  return parentCategoryMapping[productCategoryId] || productCategoryId;
+};
+
+// Map subcategoryKey to parent category for product groups
+export const getParentCategoryBySubcategoryKey = (subcategoryKey: string): string => {
+  const subcategoryToParentMapping: { [key: string]: string } = {
+    // Instrumentation Accessories
+    "sensors": "instrumentation-accessories",
+    "transmitters": "instrumentation-accessories", 
+    "switches": "instrumentation-accessories",
+    "valves": "instrumentation-accessories",
+    "analyzers": "instrumentation-accessories",
+    
+    // Electrical Components
+    "cables-wires": "electrical-components",
+    "connectors-terminals": "electrical-components",
+    "circuit-breakers-fuses": "electrical-components",
+    "power-supplies": "electrical-components",
+    "enclosures-cabinets": "electrical-components",
+    "heating-elements-appliances": "electrical-components",
+    "surge-protectors": "electrical-components",
+    "grounding-systems": "electrical-components",
+    
+    // Industrial Measuring Tools
+    "multimeters": "industrial-measuring-tools",
+    "power-quality-analyzers": "industrial-measuring-tools",
+    "calibration-equipment": "industrial-measuring-tools",
+    "hand-tools": "industrial-measuring-tools",
+    "power-tools": "industrial-measuring-tools",
+    "cutting-tools": "industrial-measuring-tools",
+    "lifting-equipment": "industrial-measuring-tools",
+    
+    // Solar Products
+    "solar-panels": "solar-products",
+    "solar-inverters": "solar-products",
+    
+    // Automation Control Systems
+    "plcs": "automation-control-systems",
+    "scada": "automation-control-systems",
+    "dcs": "automation-control-systems",
+    "hmi": "automation-control-systems",
+    
+    // Safety Protective Devices
+    "safety-equipment": "safety-protective-devices",
+    "safety-relays-switches": "safety-protective-devices",
+    "intrinsically-safe-equipment": "safety-protective-devices",
+    
+    // Mechanical Pumps & Spares
+    "centrifugal-pumps": "mechanical-pumps-spares",
+    "diaphragm-pumps": "mechanical-pumps-spares",
+    "gear-pumps": "mechanical-pumps-spares",
+    "pump-parts-spares": "mechanical-pumps-spares",
+    
+    // BLDC Motors
+    "bldc-ceiling-fan": "bldc",
+    "bldc-cooler-exhaust-motor": "bldc",
+    "bldc-submersible-surface-pump": "bldc",
+    "bldc-table-fan-wall-fan-motor": "bldc"
+  };
+  
+  return subcategoryToParentMapping[subcategoryKey] || "";
+};
