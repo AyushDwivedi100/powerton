@@ -281,7 +281,7 @@ export function initializeRoutes(): void {
 
     // Measurement Instruments Subcategories
     {
-      path: "/products/multimeters",
+      path: "/products/industrial-measuring-tools/multimeters",
       title: "multimeters",
       description: "multimetersDescription",
       category: "product-subcategories",
@@ -289,7 +289,7 @@ export function initializeRoutes(): void {
       parentRoute: "/products/industrial-measuring-tools",
     },
     {
-      path: "/products/power-quality-analyzers",
+      path: "/products/industrial-measuring-tools/power-quality-analyzers",
       title: "powerQualityAnalyzers",
       description: "powerQualityAnalyzersDescription",
       category: "product-subcategories",
@@ -297,7 +297,7 @@ export function initializeRoutes(): void {
       parentRoute: "/products/industrial-measuring-tools",
     },
     {
-      path: "/products/calibration-equipment",
+      path: "/products/industrial-measuring-tools/calibration-equipment",
       title: "calibrationEquipment",
       description: "calibrationEquipmentDescription",
       category: "product-subcategories",
@@ -307,7 +307,7 @@ export function initializeRoutes(): void {
 
     // Electrical Components Subcategories
     {
-      path: "/products/cables-wires",
+      path: "/products/electrical-components/cables-wires",
       title: "cablesWires",
       description: "cablesWiresDescription",
       category: "product-subcategories",
@@ -315,7 +315,7 @@ export function initializeRoutes(): void {
       parentRoute: "/products/electrical-components",
     },
     {
-      path: "/products/connectors-terminals",
+      path: "/products/electrical-components/connectors-terminals",
       title: "connectorsTerminals",
       description: "connectorsTerminalsDescription",
       category: "product-subcategories",
@@ -323,7 +323,7 @@ export function initializeRoutes(): void {
       parentRoute: "/products/electrical-components",
     },
     {
-      path: "/products/circuit-breakers-fuses",
+      path: "/products/electrical-components/circuit-breakers-fuses",
       title: "circuitBreakersFuses",
       description: "circuitBreakersFusesDescription",
       category: "product-subcategories",
@@ -331,7 +331,7 @@ export function initializeRoutes(): void {
       parentRoute: "/products/electrical-components",
     },
     {
-      path: "/products/power-supplies",
+      path: "/products/electrical-components/power-supplies",
       title: "powerSupplies",
       description: "powerSuppliesDescription",
       category: "product-subcategories",
@@ -339,7 +339,7 @@ export function initializeRoutes(): void {
       parentRoute: "/products/electrical-components",
     },
     {
-      path: "/products/enclosures-cabinets",
+      path: "/products/electrical-components/enclosures-cabinets",
       title: "enclosuresCabinets",
       description: "enclosuresCabinetsDescription",
       category: "product-subcategories",
@@ -347,7 +347,7 @@ export function initializeRoutes(): void {
       parentRoute: "/products/electrical-components",
     },
     {
-      path: "/products/heating-elements-appliances",
+      path: "/products/electrical-components/heating-elements-appliances",
       title: "heatingElementsAppliances",
       description: "heatingElementsAppliancesDescription",
       category: "product-subcategories",
@@ -357,7 +357,7 @@ export function initializeRoutes(): void {
 
     // Solar Products Subcategories
     {
-      path: "/products/solar-panels",
+      path: "/products/solar-products/solar-panels",
       title: "solarPanels",
       description: "solarPanelsDescription",
       category: "product-subcategories",
@@ -365,7 +365,7 @@ export function initializeRoutes(): void {
       parentRoute: "/products/solar-products",
     },
     {
-      path: "/products/solar-inverters",
+      path: "/products/solar-products/solar-inverters",
       title: "solarInverters",
       description: "solarInvertersDescription",
       category: "product-subcategories",
@@ -375,7 +375,7 @@ export function initializeRoutes(): void {
 
     // Automation Control Systems Subcategories
     {
-      path: "/products/plcs",
+      path: "/products/automation-control-systems/plcs",
       title: "plcs",
       description: "plcsDescription",
       category: "product-subcategories",
@@ -383,7 +383,7 @@ export function initializeRoutes(): void {
       parentRoute: "/products/automation-control-systems",
     },
     {
-      path: "/products/scada",
+      path: "/products/automation-control-systems/scada",
       title: "scada",
       description: "scadaDescription",
       category: "product-subcategories",
@@ -391,7 +391,7 @@ export function initializeRoutes(): void {
       parentRoute: "/products/automation-control-systems",
     },
     {
-      path: "/products/dcs",
+      path: "/products/automation-control-systems/dcs",
       title: "dcs",
       description: "dcsDescription",
       category: "product-subcategories",
@@ -399,7 +399,7 @@ export function initializeRoutes(): void {
       parentRoute: "/products/automation-control-systems",
     },
     {
-      path: "/products/hmi",
+      path: "/products/automation-control-systems/hmi",
       title: "hmi",
       description: "hmiDescription",
       category: "product-subcategories",
@@ -409,7 +409,7 @@ export function initializeRoutes(): void {
 
     // Safety & Protection Subcategories
     {
-      path: "/products/safety-equipment",
+      path: "/products/safety-protective-devices/safety-equipment",
       title: "safetyEquipment",
       description: "safetyEquipmentDescription",
       category: "product-subcategories",
@@ -417,7 +417,7 @@ export function initializeRoutes(): void {
       parentRoute: "/products/safety-protective-devices",
     },
     {
-      path: "/products/safety-relays-switches",
+      path: "/products/safety-protective-devices/safety-relays-switches",
       title: "safetyRelaysSwitches",
       description: "safetyRelaysSwitchesDescription",
       category: "product-subcategories",
@@ -425,7 +425,7 @@ export function initializeRoutes(): void {
       parentRoute: "/products/safety-protective-devices",
     },
     {
-      path: "/products/intrinsically-safe-equipment",
+      path: "/products/safety-protective-devices/intrinsically-safe-equipment",
       title: "intrinsicallySafeEquipment",
       description: "intrinsicallySafeEquipmentDescription",
       category: "product-subcategories",
@@ -433,7 +433,7 @@ export function initializeRoutes(): void {
       parentRoute: "/products/safety-protective-devices",
     },
     {
-      path: "/products/surge-protectors",
+      path: "/products/electrical-components/surge-protectors",
       title: "surgeProtectors",
       description: "surgeProtectorsDescription",
       category: "product-subcategories",
@@ -441,7 +441,7 @@ export function initializeRoutes(): void {
       parentRoute: "/products/electrical-components",
     },
     {
-      path: "/products/grounding-systems",
+      path: "/products/electrical-components/grounding-systems",
       title: "groundingSystems",
       description: "groundingSystemsDescription",
       category: "product-subcategories",
@@ -451,7 +451,7 @@ export function initializeRoutes(): void {
 
     // Pumps & Mechanical Subcategories
     {
-      path: "/products/centrifugal-pumps",
+      path: "/products/mechanical-pumps-spares/centrifugal-pumps",
       title: "centrifugalPumps",
       description: "centrifugalPumpsDescription",
       category: "product-subcategories",
@@ -459,7 +459,7 @@ export function initializeRoutes(): void {
       parentRoute: "/products/mechanical-pumps-spares",
     },
     {
-      path: "/products/diaphragm-pumps",
+      path: "/products/mechanical-pumps-spares/diaphragm-pumps",
       title: "diaphragmPumps",
       description: "diaphragmPumpsDescription",
       category: "product-subcategories",
@@ -467,7 +467,7 @@ export function initializeRoutes(): void {
       parentRoute: "/products/mechanical-pumps-spares",
     },
     {
-      path: "/products/gear-pumps",
+      path: "/products/mechanical-pumps-spares/gear-pumps",
       title: "gearPumps",
       description: "gearPumpsDescription",
       category: "product-subcategories",
@@ -475,7 +475,7 @@ export function initializeRoutes(): void {
       parentRoute: "/products/mechanical-pumps-spares",
     },
     {
-      path: "/products/pump-parts-spares",
+      path: "/products/mechanical-pumps-spares/pump-parts-spares",
       title: "pumpPartsSpares",
       description: "pumpPartsSparesDescription",
       category: "product-subcategories",
@@ -485,7 +485,7 @@ export function initializeRoutes(): void {
 
     // Industrial Tools Subcategories
     {
-      path: "/products/hand-tools",
+      path: "/products/industrial-measuring-tools/hand-tools",
       title: "handTools",
       description: "handToolsDescription",
       category: "product-subcategories",
@@ -493,7 +493,7 @@ export function initializeRoutes(): void {
       parentRoute: "/products/industrial-measuring-tools",
     },
     {
-      path: "/products/power-tools",
+      path: "/products/industrial-measuring-tools/power-tools",
       title: "powerTools",
       description: "powerToolsDescription",
       category: "product-subcategories",
@@ -501,7 +501,7 @@ export function initializeRoutes(): void {
       parentRoute: "/products/industrial-measuring-tools",
     },
     {
-      path: "/products/cutting-tools",
+      path: "/products/industrial-measuring-tools/cutting-tools",
       title: "cuttingTools",
       description: "cuttingToolsDescription",
       category: "product-subcategories",
@@ -509,7 +509,7 @@ export function initializeRoutes(): void {
       parentRoute: "/products/industrial-measuring-tools",
     },
     {
-      path: "/products/lifting-equipment",
+      path: "/products/industrial-measuring-tools/lifting-equipment",
       title: "liftingEquipment",
       description: "liftingEquipmentDescription",
       category: "product-subcategories",
@@ -519,7 +519,7 @@ export function initializeRoutes(): void {
 
     // BLDC Motor Subcategories
     {
-      path: "/products/bldc-ceiling-fan",
+      path: "/products/bldc/bldc-ceiling-fan",
       title: "bldcCeilingFan",
       description: "bldcCeilingFanDescription",
       category: "product-subcategories",
@@ -527,7 +527,7 @@ export function initializeRoutes(): void {
       parentRoute: "/products/bldc",
     },
     {
-      path: "/products/bldc-cooler-exhaust-motor",
+      path: "/products/bldc/bldc-cooler-exhaust-motor",
       title: "bldcCoolerExhaustMotor",
       description: "bldcCoolerExhaustMotorDescription",
       category: "product-subcategories",
@@ -535,7 +535,7 @@ export function initializeRoutes(): void {
       parentRoute: "/products/bldc",
     },
     {
-      path: "/products/bldc-submersible-surface-pump",
+      path: "/products/bldc/bldc-submersible-surface-pump",
       title: "bldcSubmersibleSurfacePump",
       description: "bldcSubmersibleSurfacePumpDescription",
       category: "product-subcategories",
@@ -543,7 +543,7 @@ export function initializeRoutes(): void {
       parentRoute: "/products/bldc",
     },
     {
-      path: "/products/bldc-table-fan-wall-fan-motor",
+      path: "/products/bldc/bldc-table-fan-wall-fan-motor",
       title: "bldcTableFanWallFanMotor",
       description: "bldcTableFanWallFanMotorDescription",
       category: "product-subcategories",
