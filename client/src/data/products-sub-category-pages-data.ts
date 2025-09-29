@@ -115,8 +115,8 @@ export const productsSubCategoryData: ProductSubCategoryData[] = [
     fullDescription:
       "Advanced sensor solutions including proximity sensors, RTD temperature sensors, thermocouples, and pH sensors for industrial automation and process control.",
     image: sensorsBgImage,
-    parentCategory: "/products/instrumentation-components",
-    parentCategoryTitle: "Instrumentation Components",
+    parentCategory: "/products/instrumentation-accessories",
+    parentCategoryTitle: "Instrumentation Accessories",
     icon: Thermometer,
     keyBenefits: [
       "High Accuracy & Reliability",
@@ -174,7 +174,7 @@ export const productsSubCategoryData: ProductSubCategoryData[] = [
       keywords:
         "industrial sensors, proximity sensors, PNP sensors, NPN sensors, RTD sensors, PT100, PT500, PT1000, thermocouples, pH sensors, temperature sensors, automation sensors",
       canonicalUrl:
-        "https://powertonengineering.in/products/instrumentation-components/sensors-transducers",
+        "https://powertonengineering.in/products/instrumentation-accessories/sensors-transducers",
     },
   },
   {
@@ -185,8 +185,8 @@ export const productsSubCategoryData: ProductSubCategoryData[] = [
     fullDescription:
       "Comprehensive range of industrial transmitters with advanced technologies including strain gauge, capacitive, and piezoresistive sensing with HART digital communication.",
     image: transmittersImage,
-    parentCategory: "/products/instrumentation-components",
-    parentCategoryTitle: "Instrumentation Components",
+    parentCategory: "/products/instrumentation-accessories",
+    parentCategoryTitle: "Instrumentation Accessories",
     icon: Radio,
     keyBenefits: [
       "Industry-Leading Accuracy",
@@ -244,7 +244,7 @@ export const productsSubCategoryData: ProductSubCategoryData[] = [
       keywords:
         "industrial transmitters, flow meters, pressure transmitters, temperature transmitters, level transmitters, HART transmitters, process instrumentation",
       canonicalUrl:
-        "https://powertonengineering.in/products/instrumentation-components/transmitters",
+        "https://powertonengineering.in/products/instrumentation-accessories/transmitters-flow-meters",
     },
   },
   {
@@ -255,8 +255,8 @@ export const productsSubCategoryData: ProductSubCategoryData[] = [
     fullDescription:
       "Comprehensive range of industrial switches including pressure switches from Danfoss and Schneider Electric, level switches from Endress+Hauser and ABB, limit switches from Omron and Schneider Electric, and push buttons from leading manufacturers for reliable automation control.",
     image: switchesImage,
-    parentCategory: "/products/instrumentation-components",
-    parentCategoryTitle: "Instrumentation Components",
+    parentCategory: "/products/instrumentation-accessories",
+    parentCategoryTitle: "Instrumentation Accessories",
     icon: ToggleLeft,
     keyBenefits: [
       "High Reliability & Durability",
@@ -314,7 +314,7 @@ export const productsSubCategoryData: ProductSubCategoryData[] = [
       keywords:
         "industrial switches, pushbutton switches, control panel components, emergency stops, pilot lights, indicators, selector switches",
       canonicalUrl:
-        "https://powertonengineering.in/products/instrumentation-components/switches",
+        "https://powertonengineering.in/products/instrumentation-accessories/switches-indicators",
     },
   },
   {
@@ -325,8 +325,8 @@ export const productsSubCategoryData: ProductSubCategoryData[] = [
     fullDescription:
       "Professional valve solutions featuring control valves from Fisher (Emerson) and SAMSON for precise process control, and solenoid valves from ASCO and Parker Hannifin for automated fluid control in industrial applications.",
     image: valvesImage,
-    parentCategory: "/products/instrumentation-components",
-    parentCategoryTitle: "Instrumentation Components",
+    parentCategory: "/products/instrumentation-accessories",
+    parentCategoryTitle: "Instrumentation Accessories",
     icon: Gauge,
     keyBenefits: [
       "Precise Flow Control",
@@ -384,7 +384,7 @@ export const productsSubCategoryData: ProductSubCategoryData[] = [
       keywords:
         "industrial valves, control valves, valve actuators, ball valves, gate valves, safety valves, process valves",
       canonicalUrl:
-        "https://powertonengineering.in/products/instrumentation-components/valves",
+        "https://powertonengineering.in/products/instrumentation-accessories/valves-actuators",
     },
   },
   {
@@ -395,8 +395,8 @@ export const productsSubCategoryData: ProductSubCategoryData[] = [
     fullDescription:
       "Comprehensive range of process analyzers including gas chromatography, liquid analyzers, O2/CO2 analyzers, and specialized measurement instruments for process monitoring and quality control applications.",
     image: powerQualityAnalyzersImage,
-    parentCategory: "/products/instrumentation-components",
-    parentCategoryTitle: "Instrumentation Components",
+    parentCategory: "/products/instrumentation-accessories",
+    parentCategoryTitle: "Instrumentation Accessories",
     icon: FlaskConical,
     keyBenefits: [
       "Process Control Optimization",
@@ -454,7 +454,7 @@ export const productsSubCategoryData: ProductSubCategoryData[] = [
       keywords:
         "process analyzers, gas analyzers, liquid analyzers, chromatography, O2 analyzers, CO2 analyzers, process monitoring",
       canonicalUrl:
-        "https://powertonengineering.in/products/instrumentation-components/analyzers",
+        "https://powertonengineering.in/products/instrumentation-accessories/analyzers",
     },
   },
 

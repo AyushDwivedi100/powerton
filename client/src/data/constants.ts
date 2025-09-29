@@ -75,25 +75,25 @@ export const getCompanyInfo = (t: any) => ({
 // Translation helper functions for all data arrays
 export const getProducts = (t: any) => [
   {
-    id: "instrumentation-components",
-    title: t("products:categories.instrumentation-components.title"),
+    id: "instrumentation-accessories",
+    title: t("products:categories.instrumentation-accessories.title"),
     description: t(
-      "products:categories.instrumentation-components.description",
+      "products:categories.instrumentation-accessories.description",
     ),
     icon: "Gauge",
-    image: getProductImage("instrumentation-components")?.src || "",
+    image: getProductImage("instrumentation-accessories")?.src || "",
     features: [
       t(
-        "products:categories.instrumentation-components.features.pressure-transmitters",
+        "products:categories.instrumentation-accessories.features.pressure-transmitters",
       ),
       t(
-        "products:categories.instrumentation-components.features.temperature-sensors",
+        "products:categories.instrumentation-accessories.features.temperature-sensors",
       ),
-      t("products:categories.instrumentation-components.features.flow-meters"),
+      t("products:categories.instrumentation-accessories.features.flow-meters"),
       t(
-        "products:categories.instrumentation-components.features.level-indicators",
+        "products:categories.instrumentation-accessories.features.level-indicators",
       ),
-      t("products:categories.instrumentation-components.features.analyzers"),
+      t("products:categories.instrumentation-accessories.features.analyzers"),
     ],
     subcategories: [
       {
@@ -721,12 +721,12 @@ export const SERVICES = [
 
 export const PRODUCTS = [
   {
-    id: "instrumentation-components",
+    id: "instrumentation-accessories",
     title: "Instrumentation Components",
     description:
       "High-precision instrumentation components for accurate measurement and control in industrial processes.",
     icon: "Gauge",
-    image: getProductImage("instrumentation-components")?.src || "",
+    image: getProductImage("instrumentation-accessories")?.src || "",
     features: [
       "Pressure Transmitters",
       "Temperature Sensors",

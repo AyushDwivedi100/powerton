@@ -239,7 +239,7 @@ export const NEXT_AVAILABLE_IDS = {
 
 // Product images mapping
 export const PRODUCT_IMAGES = {
-  'instrumentation-components': {
+  'instrumentation-accessories': {
     src: instrumentationComponentsImage,
     alt: `${IMAGE_IDS.INSTRUMENTATION_COMPONENTS}: Industrial instrumentation components - High-precision components for measurement and control`,
     id: IMAGE_IDS.INSTRUMENTATION_COMPONENTS

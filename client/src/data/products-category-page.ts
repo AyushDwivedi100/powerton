@@ -408,7 +408,7 @@ export const productCategoriesData: ProductCategoryData[] = [
     },
   },
   {
-    slug: "instrumentation-components",
+    slug: "instrumentation-accessories",
     title: "Instrumentation Accessories",
     description:
       "High-precision instrumentation components for accurate measurement and control in industrial processes",

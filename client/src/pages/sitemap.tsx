@@ -163,19 +163,19 @@ const SERVICE_ROUTES: SitemapItem[] = [
 
 const PRODUCT_CATEGORIES: ProductCategory[] = [
   {
-    path: "/products/instrumentation-components",
-    title: "instrumentationComponents",
-    description: "instrumentationComponentsDescription",
+    path: "/products/instrumentation-accessories",
+    title: "instrumentationAccessories",
+    description: "instrumentationAccessoriesDescription",
     icon: "Gauge",
     products: [
       {
-        path: "/products/sensors",
+        path: "/products/instrumentation-accessories/sensors-transducers",
         title: "sensors",
         description: "sensorsDescription",
         icon: "Thermometer",
       },
       {
-        path: "/products/transmitters",
+        path: "/products/instrumentation-accessories/transmitters-flow-meters",
         title: "transmitters",
         description: "transmittersDescription",
         icon: "Radio",
@@ -187,19 +187,19 @@ const PRODUCT_CATEGORIES: ProductCategory[] = [
         icon: "Cpu",
       },
       {
-        path: "/products/switches",
+        path: "/products/instrumentation-accessories/switches-indicators",
         title: "switches",
         description: "switchesDescription",
         icon: "ToggleLeft",
       },
       {
-        path: "/products/valves",
+        path: "/products/instrumentation-accessories/valves-actuators",
         title: "valves",
         description: "valvesDescription",
         icon: "Gauge",
       },
       {
-        path: "/products/analyzers",
+        path: "/products/instrumentation-accessories/analyzers",
         title: "analyzers",
         description: "analyzersDescription",
         icon: "FlaskConical",

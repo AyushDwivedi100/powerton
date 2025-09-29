@@ -165,9 +165,9 @@ export function initializeRoutes(): void {
 
     // Main Product Categories
     {
-      path: "/products/instrumentation-components",
-      title: "instrumentationComponents",
-      description: "instrumentationComponentsDescription",
+      path: "/products/instrumentation-accessories",
+      title: "instrumentationAccessories",
+      description: "instrumentationAccessoriesDescription",
       category: "product-categories",
       icon: "Gauge",
       parentRoute: "/products",
@@ -237,46 +237,46 @@ export function initializeRoutes(): void {
       parentRoute: "/products",
     },
 
-    // Instrumentation Components Subcategories
+    // Instrumentation Accessories Subcategories
     {
-      path: "/products/sensors",
+      path: "/products/instrumentation-accessories/sensors-transducers",
       title: "sensors",
       description: "sensorsDescription",
       category: "product-subcategories",
       icon: "Thermometer",
-      parentRoute: "/products/instrumentation-components",
+      parentRoute: "/products/instrumentation-accessories",
     },
     {
-      path: "/products/transmitters",
+      path: "/products/instrumentation-accessories/transmitters-flow-meters",
       title: "transmitters",
       description: "transmittersDescription",
       category: "product-subcategories",
       icon: "Radio",
-      parentRoute: "/products/instrumentation-components",
+      parentRoute: "/products/instrumentation-accessories",
     },
     {
-      path: "/products/switches",
+      path: "/products/instrumentation-accessories/switches-indicators",
       title: "switches",
       description: "switchesDescription",
       category: "product-subcategories",
       icon: "ToggleLeft",
-      parentRoute: "/products/instrumentation-components",
+      parentRoute: "/products/instrumentation-accessories",
     },
     {
-      path: "/products/valves",
+      path: "/products/instrumentation-accessories/valves-actuators",
       title: "valves",
       description: "valvesDescription",
       category: "product-subcategories",
       icon: "Gauge",
-      parentRoute: "/products/instrumentation-components",
+      parentRoute: "/products/instrumentation-accessories",
     },
     {
-      path: "/products/analyzers",
+      path: "/products/instrumentation-accessories/analyzers",
       title: "analyzers",
       description: "analyzersDescription",
       category: "product-subcategories",
       icon: "FlaskConical",
-      parentRoute: "/products/instrumentation-components",
+      parentRoute: "/products/instrumentation-accessories",
     },
 
     // Measurement Instruments Subcategories
