@@ -82,20 +82,20 @@ function Router() {
 
           {/* Product Detail with Group Context Route (most specific first) */}
           <Route
-            path="/products/:subcategorySlug/:groupSlug/:slug"
+            path="/products/:parentSlug/:subcategorySlug/:groupSlug/:slug"
             component={ProductDetailDynamic}
           />
 
-          {/* Dynamic Product Sub-Category Route (hierarchical) - moved up for priority */}
+          {/* Dynamic Product Group Route (hierarchical) - 3 segments */}
+          <Route
+            path="/products/:parentSlug/:subcategorySlug/:groupSlug"
+            component={ProductGroupDynamic}
+          />
+
+          {/* Dynamic Product Sub-Category Route (hierarchical) - 2 segments */}
           <Route
             path="/products/:parentSlug/:slug"
             component={ProductSubCategoryDynamic}
-          />
-
-          {/* Dynamic Product Group Route */}
-          <Route
-            path="/products/:subcategorySlug/:groupSlug"
-            component={ProductGroupDynamic}
           />
 
           {/* Dynamic Product Category Route (catches single-slug patterns) */}
