@@ -17,7 +17,12 @@ import {
 } from "lucide-react";
 
 const ProductDetailDynamic: React.FC = () => {
-  const { slug, groupSlug } = useParams<{ slug: string; groupSlug?: string }>();
+  const { parentSlug, subcategorySlug, groupSlug, slug } = useParams<{ 
+    parentSlug: string; 
+    subcategorySlug: string; 
+    groupSlug: string; 
+    slug: string; 
+  }>();
   const { t } = useTranslation(["products", "common"]);
   const productData = getProductDetailBySlug(slug!, t, groupSlug);
 

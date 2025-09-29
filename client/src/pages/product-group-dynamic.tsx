@@ -17,20 +17,27 @@ import { getProductSubCategoryBySlug } from "@/data/products-sub-category-pages-
 import NotFound from "@/pages/not-found";
 
 export default function ProductGroupDynamic() {
-  const { subcategorySlug, groupSlug } = useParams<{
+  const { parentSlug, subcategorySlug, groupSlug } = useParams<{
+    parentSlug: string;
     subcategorySlug: string;
     groupSlug: string;
   }>();
   const { t } = useTranslation(["products", "common"]);
   useScrollAnimations();
 
-  if (!subcategorySlug || !groupSlug) {
+  if (!parentSlug || !subcategorySlug || !groupSlug) {
     return <NotFound />;
   }
 
   // Get the subcategory information
   const subcategory = getProductSubCategoryBySlug(subcategorySlug);
   if (!subcategory) {
+    return <NotFound />;
+  }
+
+  // Validate that the parentSlug matches the expected parent category for this subcategory
+  const expectedParentSlug = subcategory.parentCategory.split('/').pop();
+  if (parentSlug !== expectedParentSlug) {
     return <NotFound />;
   }
 
@@ -42,9 +49,6 @@ export default function ProductGroupDynamic() {
 
   // Get all products in this group
   const groupProducts = getProductsByGroup(productGroup.key);
-
-  // Extract parent category slug from subcategory data
-  const parentCategory = subcategory.parentCategory.split('/').pop(); // Extract slug from path like "/products/instrumentation-components"
 
   // Use the title and description from the ProductGroup
   const groupTitle =
@@ -59,7 +63,7 @@ export default function ProductGroupDynamic() {
         title={`${groupTitle} | ${subcategory.title} | Powerton Engineering`}
         description={`Browse our comprehensive range of ${groupTitle.toLowerCase()} products. ${groupDescription}`}
         keywords={`${groupTitle}, ${subcategory.title}, industrial automation, sensors, transmitters`}
-        canonicalUrl={`https://powertonengineering.com/products/${subcategorySlug}/${groupSlug}`}
+        canonicalUrl={`https://powertonengineering.com/products/${parentSlug}/${subcategorySlug}/${groupSlug}`}
       />
 
       {/* Hero Section */}
@@ -72,7 +76,7 @@ export default function ProductGroupDynamic() {
               asChild
             >
               <Link
-                href={`/products/${parentCategory}/${subcategorySlug}`}
+                href={`/products/${parentSlug}/${subcategorySlug}`}
                 data-testid="link-back-to-subcategory"
               >
                 <ArrowLeft className="mr-2 h-4 w-4 group-hover:-translate-x-2 transition-transform duration-200" />
@@ -171,7 +175,7 @@ export default function ProductGroupDynamic() {
                           <td className="px-6 py-4 text-sm">
                             <div className="flex gap-2">
                               <Link
-                                href={`/products/${subcategorySlug}/${groupSlug}/${product.slug}`}
+                                href={`/products/${parentSlug}/${subcategorySlug}/${groupSlug}/${product.slug}`}
                               >
                                 <Button
                                   size="sm"

@@ -156,7 +156,7 @@ export default function ProductSubCategoryDynamic() {
                     "High-quality sensor group for industrial automation applications.";
 
                   return (
-                    <Link href={`/products/${slug}/${group.slug}`}>
+                    <Link href={`/products/${parentSlug}/${slug}/${group.slug}`}>
                       <Card
                         key={group.key}
                         className="group hover:shadow-lg transition-all duration-300"
