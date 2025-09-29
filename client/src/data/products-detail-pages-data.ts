@@ -6603,6 +6603,162 @@ export const products: Product[] = [
     },
   },
 
+  // Process Calibrators - Multifunction calibrators for comprehensive field and lab calibration
+  {
+    id: "fluke-753-process-calibrator",
+    slug: "fluke-753-process-calibrator",
+    categoryKey: "industrial-measuring-tools",
+    subcategoryKey: "calibration-equipment", 
+    groupKey: "process-calibrators",
+    image: "process-calibrator",
+    specs: {
+      manufacturer: "Fluke",
+      model: "753",
+      type: "Multifunction Documenting Process Calibrator",
+      voltage: "±100V",
+      current: "±24mA",
+      resistance: "4000Ω",
+      pressure: "3000 psi",
+      temperature: "-200°C to +1370°C",
+      communication: "USB Interface",
+      display: "Large Color Display",
+      datasheetUrl: "https://www.fluke.com/en-us/product/calibration-tools/multifunction-calibrators/fluke-753"
+    },
+    translationKeys: {
+      title: "products:processCalibrators.fluke753.title",
+      description: "products:processCalibrators.fluke753.description",
+      featuresKey: "products:processCalibrators.fluke753.features",
+    },
+  },
+  {
+    id: "fluke-754-hart-process-calibrator",
+    slug: "fluke-754-hart-process-calibrator",
+    categoryKey: "industrial-measuring-tools",
+    subcategoryKey: "calibration-equipment",
+    groupKey: "process-calibrators",
+    image: "process-calibrator",
+    specs: {
+      manufacturer: "Fluke",
+      model: "754",
+      type: "Documenting Process Calibrator with HART",
+      voltage: "±100V",
+      current: "±24mA",
+      resistance: "4000Ω", 
+      pressure: "3000 psi",
+      temperature: "-200°C to +1370°C",
+      communication: "HART Communication + USB",
+      display: "Large Color Display",
+      datasheetUrl: "https://www.fluke.com/en-us/product/calibration-tools/multifunction-calibrators/fluke-754"
+    },
+    translationKeys: {
+      title: "products:processCalibrators.fluke754.title",
+      description: "products:processCalibrators.fluke754.description", 
+      featuresKey: "products:processCalibrators.fluke754.features",
+    },
+  },
+  {
+    id: "fluke-726-process-calibrator",
+    slug: "fluke-726-process-calibrator",
+    categoryKey: "industrial-measuring-tools",
+    subcategoryKey: "calibration-equipment",
+    groupKey: "process-calibrators",
+    image: "process-calibrator", 
+    specs: {
+      manufacturer: "Fluke",
+      model: "726",
+      type: "Precision Multifunction Process Calibrator",
+      voltage: "±100V",
+      current: "±24mA",
+      resistance: "4000Ω",
+      pressure: "3000 psi",
+      temperature: "-200°C to +1370°C",
+      communication: "RS-232 Interface",
+      display: "Large Backlit Display",
+      datasheetUrl: "https://www.fluke.com/en-us/product/calibration-tools/multifunction-calibrators/fluke-726"
+    },
+    translationKeys: {
+      title: "products:processCalibrators.fluke726.title",
+      description: "products:processCalibrators.fluke726.description",
+      featuresKey: "products:processCalibrators.fluke726.features",
+    },
+  },
+
+  // Loop Calibrators - mA loop calibrators for current loop testing and troubleshooting
+  {
+    id: "fluke-707-loop-calibrator",
+    slug: "fluke-707-loop-calibrator",
+    categoryKey: "industrial-measuring-tools",
+    subcategoryKey: "calibration-equipment",
+    groupKey: "loop-calibrators",
+    image: "loop-calibrator",
+    specs: {
+      manufacturer: "Fluke",
+      model: "707",
+      type: "Current Loop Calibrator",
+      accuracy: "±0.015% + 2 counts",
+      current: "0-24mA",
+      loopPower: "24V @ 22mA",
+      display: "Digital LCD",
+      battery: "9V Alkaline",
+      datasheetUrl: "https://www.fluke.com/en-us/product/calibration-tools/ma-loop-calibrators/fluke-707"
+    },
+    translationKeys: {
+      title: "products:loopCalibrators.fluke707.title",
+      description: "products:loopCalibrators.fluke707.description",
+      featuresKey: "products:loopCalibrators.fluke707.features",
+    },
+  },
+  {
+    id: "fluke-709-precision-loop-calibrator",
+    slug: "fluke-709-precision-loop-calibrator", 
+    categoryKey: "industrial-measuring-tools",
+    subcategoryKey: "calibration-equipment",
+    groupKey: "loop-calibrators",
+    image: "loop-calibrator",
+    specs: {
+      manufacturer: "Fluke",
+      model: "709",
+      type: "Precision mA Loop Calibrator",
+      accuracy: "±0.01% + 2 counts",
+      current: "0-24mA",
+      voltage: "0-30V DC",
+      loopPower: "24V @ 22mA",
+      display: "Large Digital LCD",
+      battery: "9V Alkaline or Rechargeable",
+      datasheetUrl: "https://www.fluke.com/en-us/product/calibration-tools/ma-loop-calibrators/fluke-709"
+    },
+    translationKeys: {
+      title: "products:loopCalibrators.fluke709.title", 
+      description: "products:loopCalibrators.fluke709.description",
+      featuresKey: "products:loopCalibrators.fluke709.features",
+    },
+  },
+  {
+    id: "fluke-725-multifunction-loop-calibrator",
+    slug: "fluke-725-multifunction-loop-calibrator",
+    categoryKey: "industrial-measuring-tools", 
+    subcategoryKey: "calibration-equipment",
+    groupKey: "loop-calibrators",
+    image: "loop-calibrator",
+    specs: {
+      manufacturer: "Fluke",
+      model: "725",
+      type: "Multifunction Process Calibrator",
+      accuracy: "±0.01% + 2 counts",
+      current: "0-24mA",
+      voltage: "0-30V DC",
+      temperature: "-200°C to +1370°C",
+      thermocouples: "12 Types (J,K,T,E,R,S,N,B,C,L,U,BP)",
+      rtd: "7 Types (PT100, PT385, PT3916)",
+      datasheetUrl: "https://www.fluke.com/en-us/products/calibration-tools/temperature-calibrators"
+    },
+    translationKeys: {
+      title: "products:loopCalibrators.fluke725.title",
+      description: "products:loopCalibrators.fluke725.description", 
+      featuresKey: "products:loopCalibrators.fluke725.features",
+    },
+  },
+
   // Automation Control Systems - PLCs
   {
     id: "plc-siemens-simatic-s7-1200",
