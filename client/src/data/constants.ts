@@ -97,24 +97,24 @@ export const getProducts = (t: any) => [
     ],
     subcategories: [
       {
-        id: "sensors",
+        id: "sensors-transducers",
         title: "Sensors & Transducers",
         description:
           "Industrial sensors and transducers for measurement and control",
       },
       {
-        id: "transmitters",
+        id: "transmitters-flow-meters",
         title: "Transmitters & Flow Meters",
         description:
           "Industrial transmitters and flow meters for process monitoring",
       },
       {
-        id: "switches",
+        id: "switches-indicators",
         title: t("products:subcategories.switches.title"),
         description: t("products:subcategories.switches.description"),
       },
       {
-        id: "valves",
+        id: "valves-actuators",
         title: t("products:subcategories.valves.title"),
         description: t("products:subcategories.valves.description"),
       },
@@ -127,15 +127,15 @@ export const getProducts = (t: any) => [
   },
   {
     id: "electrical-accessories",
-    title: t("products:categories.electrical-components.title"),
-    description: t("products:categories.electrical-components.description"),
+    title: t("products:categories.electrical-accessories.title"),
+    description: t("products:categories.electrical-accessories.description"),
     icon: "Zap",
     image: getProductImage("electrical-components")?.src || "",
     features: [
-      t("products:categories.electrical-components.features.circuit-breakers"),
-      t("products:categories.electrical-components.features.contactors"),
-      t("products:categories.electrical-components.features.relays"),
-      t("products:categories.electrical-components.features.power-supplies"),
+      t("products:categories.electrical-accessories.features.circuit-breakers"),
+      t("products:categories.electrical-accessories.features.contactors"),
+      t("products:categories.electrical-accessories.features.relays"),
+      t("products:categories.electrical-accessories.features.power-supplies"),
     ],
     subcategories: [
       {

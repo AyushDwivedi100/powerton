@@ -442,7 +442,7 @@ export const productCategoriesData: ProductCategoryData[] = [
         ],
       },
       {
-        id: "transmitters",
+        id: "transmitters-flow-meters",
         title: "Transmitters & Flow Meters",
         description:
           "Signal transmitters and flow meters for industrial process measurement",
@@ -455,7 +455,7 @@ export const productCategoriesData: ProductCategoryData[] = [
         ],
       },
       {
-        id: "switches",
+        id: "switches-indicators",
         title: "Switches & Indicators",
         description: "Industrial switches, indicators, and signaling devices",
         icon: ToggleLeft,
@@ -467,7 +467,7 @@ export const productCategoriesData: ProductCategoryData[] = [
         ],
       },
       {
-        id: "valves",
+        id: "valves-actuators",
         title: "Valves & Actuators",
         description: "Control valves and actuators for process control systems",
         icon: Gauge,
