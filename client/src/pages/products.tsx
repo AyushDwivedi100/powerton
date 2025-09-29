@@ -426,6 +426,7 @@ export default function Products() {
                                 .slice(0, 4)
                                 .map((feature, idx) => (
                                   <Badge
+                                    key={`${product.id}-feature-${idx}`}
                                     variant="secondary"
                                     className="bg-secondary/10 text-secondary border border-secondary/20  group-hover:text-secondary-foreground transition-all duration-200 cursor-pointer text-sm px-3 py-1 shadow-md hover:shadow-lg"
                                     data-testid={`badge-${feature
