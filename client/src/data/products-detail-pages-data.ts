@@ -52,39 +52,21 @@ export interface Category {
 export const productGroups: ProductGroup[] = [
   // Sensors & Transducers subcategory groups
   {
-    key: "pnp",
-    slug: "pnp-proximity-sensors",
-    title: "PNP Proximity Sensors",
-    description: "PNP proximity sensors for industrial automation applications. These sensors provide reliable detection of metallic objects without physical contact, featuring robust construction and high switching frequencies for demanding industrial environments.",
+    key: "pnp-npn-sensors",
+    slug: "pnp-npn-sensors",
+    title: "PNP/NPN Sensors",
+    description: "Industrial proximity sensors including both PNP and NPN types for automation applications. These sensors provide reliable detection of metallic objects without physical contact, featuring robust construction, high switching frequencies, excellent repeatability, and resistance to electromagnetic interference for demanding industrial environments.",
     subcategoryKey: "sensors",
     image: "pnp-proximity-sensor",
     featuredSpecs: ["manufacturer", "model", "type"],
   },
   {
-    key: "npn",
-    slug: "npn-proximity-sensors",
-    title: "NPN Proximity Sensors",
-    description: "NPN proximity sensors designed for precise object detection in industrial automation systems. Featuring high sensitivity, excellent repeatability, and resistance to electromagnetic interference for reliable operation in harsh environments.",
-    subcategoryKey: "sensors",
-    image: "npn-proximity-sensor",
-    featuredSpecs: ["manufacturer", "model", "type"],
-  },
-  {
-    key: "rtd",
-    slug: "rtd-temperature-sensors",
-    title: "RTD Temperature Sensors",
-    description: "Resistance Temperature Detector (RTD) sensors for precise temperature measurement in industrial processes. Available in PT100, PT500, and PT1000 configurations with excellent accuracy and stability over wide temperature ranges.",
+    key: "rtd-thermocouples-sensors",
+    slug: "rtd-thermocouples-sensors",
+    title: "RTD/Thermocouples Sensors",
+    description: "Temperature sensors including Resistance Temperature Detector (RTD) sensors and industrial thermocouples for precise temperature measurement in industrial processes. RTD sensors available in PT100, PT500, and PT1000 configurations, and thermocouples in J, K, T, E, R, S, and N types. Designed for both precision measurement and high-temperature applications with excellent accuracy, stability, and durability in extreme industrial environments.",
     subcategoryKey: "sensors",
     image: "rtd-temperature-sensor",
-    featuredSpecs: ["manufacturer", "model", "type"],
-  },
-  {
-    key: "thermocouples",
-    slug: "thermocouple-sensors",
-    title: "Thermocouple Sensors",
-    description: "Industrial thermocouple temperature sensors available in J, K, T, E, R, S, and N types. Designed for high-temperature applications with fast response times and excellent durability in extreme industrial environments.",
-    subcategoryKey: "sensors",
-    image: "thermocouple-temperature-sensor",
     featuredSpecs: ["manufacturer", "model", "type"],
   },
   {
@@ -2455,7 +2437,7 @@ export const products: Product[] = [
     slug: "omron-e2e-x5me1-pnp-proximity-sensor",
     categoryKey: "instrumentation-components",
     subcategoryKey: "sensors",
-    typeKey: "pnp",
+    typeKey: "pnp-npn-sensors",
     image: "sensors",
     specs: {
       type: "PNP Inductive Proximity Sensor",
@@ -2524,7 +2506,7 @@ export const products: Product[] = [
     slug: "schneider-xs518b1dal2-pnp-proximity",
     categoryKey: "instrumentation-components",
     subcategoryKey: "sensors",
-    typeKey: "pnp",
+    typeKey: "pnp-npn-sensors",
     image: "pnp-proximity-sensor",
     specs: {
       type: "PNP Inductive Proximity Sensor",
@@ -2560,7 +2542,7 @@ export const products: Product[] = [
     slug: "schneider-xs630b1nal2-pnp-proximity",
     categoryKey: "instrumentation-components",
     subcategoryKey: "sensors",
-    typeKey: "pnp",
+    typeKey: "pnp-npn-sensors",
     image: "pnp-proximity-sensor",
     specs: {
       type: "PNP Inductive Proximity Sensor",
@@ -2599,7 +2581,7 @@ export const products: Product[] = [
     slug: "sick-im12-04bns-zw1-npn-proximity",
     categoryKey: "instrumentation-components",
     subcategoryKey: "sensors",
-    typeKey: "npn",
+    typeKey: "pnp-npn-sensors",
     image: "npn-proximity-sensor",
     specs: {
       type: "NPN Inductive Proximity Sensor",
@@ -2668,7 +2650,7 @@ export const products: Product[] = [
     slug: "endress-tst310-pt100-cable-probe",
     categoryKey: "instrumentation-components",
     subcategoryKey: "sensors",
-    typeKey: "rtd",
+    typeKey: "rtd-thermocouples-sensors",
     image: "rtd-temperature-sensor",
     specs: {
       type: "PT100 RTD Temperature Sensor",
@@ -2702,7 +2684,7 @@ export const products: Product[] = [
     slug: "rosemount-214c-pt100-rtd-sensor",
     categoryKey: "instrumentation-components",
     subcategoryKey: "sensors",
-    typeKey: "rtd",
+    typeKey: "rtd-thermocouples-sensors",
     image: "rtd-temperature-sensor",
     specs: {
       type: "PT100 RTD Temperature Sensor",
@@ -2736,7 +2718,7 @@ export const products: Product[] = [
     slug: "abb-tth200-pt1000-hart-transmitter",
     categoryKey: "instrumentation-components",
     subcategoryKey: "sensors",
-    typeKey: "rtd",
+    typeKey: "rtd-thermocouples-sensors",
     image: "rtd-temperature-sensor",
     specs: {
       type: "PT1000 RTD Temperature Transmitter",
@@ -2771,7 +2753,7 @@ export const products: Product[] = [
     slug: "wika-tr10-pt100-rtd-sensor",
     categoryKey: "instrumentation-components",
     subcategoryKey: "sensors",
-    typeKey: "rtd",
+    typeKey: "rtd-thermocouples-sensors",
     image: "pt100-rtd-sensor",
     specs: {
       type: "PT100 RTD Temperature Sensor",

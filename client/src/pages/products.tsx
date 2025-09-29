@@ -408,7 +408,7 @@ export default function Products() {
                     whileHover={{ y: -10, scale: 1.03 }}
                     transition={{ duration: 0.3, ease: "easeOut" }}
                   >
-                    <Link href={`/products-category/${product.id}`}>
+                    <Link href={`/products/${product.id}`}>
                       <Card className="h-full group cursor-pointer">
                         <CardContent className="p-4 sm:p-6 md:p-8 h-full flex flex-col items-center">
                           <div className="w-16 h-16 bg-gradient-to-br from-primary to-secondary rounded-xl flex items-center justify-center mb-4 group-hover:scale-110 group-hover:rotate-3 transition-all duration-300">

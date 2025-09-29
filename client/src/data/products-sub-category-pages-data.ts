@@ -108,14 +108,14 @@ export interface ProductSubCategoryData {
 export const productsSubCategoryData: ProductSubCategoryData[] = [
   // Instrumentation Components
   {
-    slug: "sensors",
+    slug: "sensors-transducers",
     title: "Sensors & Transducers",
     shortDescription:
       "Comprehensive range of industrial-grade sensors for automation and process control",
     fullDescription:
       "Advanced sensor solutions including proximity sensors, RTD temperature sensors, thermocouples, and pH sensors for industrial automation and process control.",
     image: sensorsBgImage,
-    parentCategory: "/products-category/instrumentation-components",
+    parentCategory: "/products/instrumentation-components",
     parentCategoryTitle: "Instrumentation Components",
     icon: Thermometer,
     keyBenefits: [
@@ -174,7 +174,7 @@ export const productsSubCategoryData: ProductSubCategoryData[] = [
       keywords:
         "industrial sensors, proximity sensors, PNP sensors, NPN sensors, RTD sensors, PT100, PT500, PT1000, thermocouples, pH sensors, temperature sensors, automation sensors",
       canonicalUrl:
-        "https://powertonengineering.in/products-sub-category/sensors",
+        "https://powertonengineering.in/products/instrumentation-components/sensors-transducers",
     },
   },
   {
@@ -185,7 +185,7 @@ export const productsSubCategoryData: ProductSubCategoryData[] = [
     fullDescription:
       "Comprehensive range of industrial transmitters with advanced technologies including strain gauge, capacitive, and piezoresistive sensing with HART digital communication.",
     image: transmittersImage,
-    parentCategory: "/products-category/instrumentation-components",
+    parentCategory: "/products/instrumentation-components",
     parentCategoryTitle: "Instrumentation Components",
     icon: Radio,
     keyBenefits: [
@@ -244,7 +244,7 @@ export const productsSubCategoryData: ProductSubCategoryData[] = [
       keywords:
         "industrial transmitters, flow meters, pressure transmitters, temperature transmitters, level transmitters, HART transmitters, process instrumentation",
       canonicalUrl:
-        "https://powertonengineering.in/products-sub-category/transmitters",
+        "https://powertonengineering.in/products/instrumentation-components/transmitters",
     },
   },
   {
@@ -255,7 +255,7 @@ export const productsSubCategoryData: ProductSubCategoryData[] = [
     fullDescription:
       "Comprehensive range of industrial switches including pressure switches from Danfoss and Schneider Electric, level switches from Endress+Hauser and ABB, limit switches from Omron and Schneider Electric, and push buttons from leading manufacturers for reliable automation control.",
     image: switchesImage,
-    parentCategory: "/products-category/instrumentation-components",
+    parentCategory: "/products/instrumentation-components",
     parentCategoryTitle: "Instrumentation Components",
     icon: ToggleLeft,
     keyBenefits: [
@@ -314,7 +314,7 @@ export const productsSubCategoryData: ProductSubCategoryData[] = [
       keywords:
         "industrial switches, pushbutton switches, control panel components, emergency stops, pilot lights, indicators, selector switches",
       canonicalUrl:
-        "https://powertonengineering.in/products-sub-category/switches",
+        "https://powertonengineering.in/products/instrumentation-components/switches",
     },
   },
   {
@@ -325,7 +325,7 @@ export const productsSubCategoryData: ProductSubCategoryData[] = [
     fullDescription:
       "Professional valve solutions featuring control valves from Fisher (Emerson) and SAMSON for precise process control, and solenoid valves from ASCO and Parker Hannifin for automated fluid control in industrial applications.",
     image: valvesImage,
-    parentCategory: "/products-category/instrumentation-components",
+    parentCategory: "/products/instrumentation-components",
     parentCategoryTitle: "Instrumentation Components",
     icon: Gauge,
     keyBenefits: [
@@ -384,7 +384,7 @@ export const productsSubCategoryData: ProductSubCategoryData[] = [
       keywords:
         "industrial valves, control valves, valve actuators, ball valves, gate valves, safety valves, process valves",
       canonicalUrl:
-        "https://powertonengineering.in/products-sub-category/valves",
+        "https://powertonengineering.in/products/instrumentation-components/valves",
     },
   },
   {
@@ -395,7 +395,7 @@ export const productsSubCategoryData: ProductSubCategoryData[] = [
     fullDescription:
       "Comprehensive range of process analyzers including gas chromatography, liquid analyzers, O2/CO2 analyzers, and specialized measurement instruments for process monitoring and quality control applications.",
     image: powerQualityAnalyzersImage,
-    parentCategory: "/products-category/instrumentation-components",
+    parentCategory: "/products/instrumentation-components",
     parentCategoryTitle: "Instrumentation Components",
     icon: FlaskConical,
     keyBenefits: [
@@ -454,7 +454,7 @@ export const productsSubCategoryData: ProductSubCategoryData[] = [
       keywords:
         "process analyzers, gas analyzers, liquid analyzers, chromatography, O2 analyzers, CO2 analyzers, process monitoring",
       canonicalUrl:
-        "https://powertonengineering.in/products-sub-category/analyzers",
+        "https://powertonengineering.in/products/instrumentation-components/analyzers",
     },
   },
 
@@ -467,7 +467,7 @@ export const productsSubCategoryData: ProductSubCategoryData[] = [
     fullDescription:
       "Comprehensive range of electrical cables including power cables, control cables, instrumentation cables, and communication cables for industrial installations.",
     image: cablesWiresImage,
-    parentCategory: "/products-category/electrical-components",
+    parentCategory: "/products/electrical-components",
     parentCategoryTitle: "Electrical Components",
     icon: Cable,
     keyBenefits: [
@@ -526,7 +526,7 @@ export const productsSubCategoryData: ProductSubCategoryData[] = [
       keywords:
         "industrial cables, power cables, control cables, instrumentation cables, electrical wires, communication cables, armored cables",
       canonicalUrl:
-        "https://powertonengineering.in/products-sub-category/cables-wires",
+        "https://powertonengineering.in/products/electrical-components/cables-wires",
     },
   },
   {
@@ -537,7 +537,7 @@ export const productsSubCategoryData: ProductSubCategoryData[] = [
     fullDescription:
       "Complete range of electrical connection solutions including terminal blocks, wire connectors, junction boxes, and industrial connectors for reliable electrical connections.",
     image: connectorsTerminalsImage,
-    parentCategory: "/products-category/electrical-components",
+    parentCategory: "/products/electrical-components",
     parentCategoryTitle: "Electrical Components",
     icon: Zap,
     keyBenefits: [
@@ -596,7 +596,7 @@ export const productsSubCategoryData: ProductSubCategoryData[] = [
       keywords:
         "electrical connectors, terminal blocks, wire connectors, DIN rail terminals, junction boxes, electrical terminals",
       canonicalUrl:
-        "https://powertonengineering.in/products-sub-category/connectors-terminals",
+        "https://powertonengineering.in/products/electrical-components/connectors-terminals",
     },
   },
   {
@@ -607,7 +607,7 @@ export const productsSubCategoryData: ProductSubCategoryData[] = [
     fullDescription:
       "Comprehensive protection solutions including miniature circuit breakers, molded case circuit breakers, and industrial fuses for electrical system protection.",
     image: circuitBreakersImage,
-    parentCategory: "/products-category/electrical-components",
+    parentCategory: "/products/electrical-components",
     parentCategoryTitle: "Electrical Components",
     icon: Shield,
     keyBenefits: [
@@ -666,7 +666,7 @@ export const productsSubCategoryData: ProductSubCategoryData[] = [
       keywords:
         "circuit breakers, MCB, MCCB, RCCB, industrial fuses, electrical protection, power distribution, motor protection",
       canonicalUrl:
-        "https://powertonengineering.in/products-sub-category/circuit-breakers-fuses",
+        "https://powertonengineering.in/products/electrical-components/circuit-breakers-fuses",
     },
   },
   {
@@ -677,7 +677,7 @@ export const productsSubCategoryData: ProductSubCategoryData[] = [
     fullDescription:
       "Industrial power supply solutions including switched-mode power supplies, uninterruptible power supplies, and DC-DC converters for reliable power distribution.",
     image: powerSuppliesImage,
-    parentCategory: "/products-category/electrical-components",
+    parentCategory: "/products/electrical-components",
     parentCategoryTitle: "Electrical Components",
     icon: Power,
     keyBenefits: [
@@ -736,7 +736,7 @@ export const productsSubCategoryData: ProductSubCategoryData[] = [
       keywords:
         "industrial power supplies, SMPS, UPS systems, DC-DC converters, DIN rail power supplies, industrial UPS",
       canonicalUrl:
-        "https://powertonengineering.in/products-sub-category/power-supplies",
+        "https://powertonengineering.in/products/electrical-components/power-supplies",
     },
   },
   {
@@ -747,7 +747,7 @@ export const productsSubCategoryData: ProductSubCategoryData[] = [
     fullDescription:
       "Complete range of electrical enclosures including control panels, distribution boards, and weatherproof enclosures for equipment protection and organization.",
     image: enclosuresImage,
-    parentCategory: "/products-category/electrical-components",
+    parentCategory: "/products/electrical-components",
     parentCategoryTitle: "Electrical Components",
     icon: Shield,
     keyBenefits: [
@@ -806,7 +806,7 @@ export const productsSubCategoryData: ProductSubCategoryData[] = [
       keywords:
         "electrical enclosures, control cabinets, distribution boards, weatherproof enclosures, control panels, junction boxes",
       canonicalUrl:
-        "https://powertonengineering.in/products-sub-category/enclosures-cabinets",
+        "https://powertonengineering.in/products/electrical-components/enclosures-cabinets",
     },
   },
   {
@@ -816,7 +816,7 @@ export const productsSubCategoryData: ProductSubCategoryData[] = [
     fullDescription:
       "Comprehensive heating solutions including cartridge heaters, band heaters, immersion heaters, and industrial ovens for process heating applications.",
     image: heatingElementsImage,
-    parentCategory: "/products-category/electrical-components",
+    parentCategory: "/products/electrical-components",
     parentCategoryTitle: "Electrical Components",
     icon: Zap,
     keyBenefits: [
@@ -875,7 +875,7 @@ export const productsSubCategoryData: ProductSubCategoryData[] = [
       keywords:
         "industrial heating elements, cartridge heaters, band heaters, immersion heaters, industrial ovens, process heating, electric heaters",
       canonicalUrl:
-        "https://powertonengineering.in/products-sub-category/heating-elements-appliances",
+        "https://powertonengineering.in/products/electrical-components/heating-elements-appliances",
     },
   },
 
@@ -888,7 +888,7 @@ export const productsSubCategoryData: ProductSubCategoryData[] = [
     fullDescription:
       "Premium solar panels including monocrystalline and polycrystalline modules with advanced cell technology for maximum energy conversion efficiency.",
     image: solarPanelsImage,
-    parentCategory: "/products-category/solar-products",
+    parentCategory: "/products/solar-products",
     parentCategoryTitle: "Solar Products",
     icon: Sun,
     keyBenefits: [
@@ -947,7 +947,7 @@ export const productsSubCategoryData: ProductSubCategoryData[] = [
       keywords:
         "solar panels, photovoltaic modules, solar cells, monocrystalline panels, polycrystalline panels, solar energy systems",
       canonicalUrl:
-        "https://powertonengineering.in/products-sub-category/solar-panels",
+        "https://powertonengineering.in/products/solar-products/solar-panels",
     },
   },
   {
@@ -958,7 +958,7 @@ export const productsSubCategoryData: ProductSubCategoryData[] = [
     fullDescription:
       "Advanced solar inverter solutions including string inverters, central inverters, and hybrid inverters with battery storage for residential, commercial, and utility applications.",
     image: solarInvertersImage,
-    parentCategory: "/products-category/solar-products",
+    parentCategory: "/products/solar-products",
     parentCategoryTitle: "Solar Products",
     icon: Zap,
     keyBenefits: [
@@ -1017,7 +1017,7 @@ export const productsSubCategoryData: ProductSubCategoryData[] = [
       keywords:
         "solar inverters, grid tie inverters, hybrid inverters, string inverters, central inverters, solar power inverters",
       canonicalUrl:
-        "https://powertonengineering.in/products-sub-category/solar-inverters",
+        "https://powertonengineering.in/products/solar-products/solar-inverters",
     },
   },
 
@@ -1030,7 +1030,7 @@ export const productsSubCategoryData: ProductSubCategoryData[] = [
     fullDescription:
       "Advanced PLC systems with modular design, multiple communication protocols, and integrated safety functions for comprehensive industrial automation solutions.",
     image: plcsImage,
-    parentCategory: "/products-category/automation-control-systems",
+    parentCategory: "/products/automation-control-systems",
     parentCategoryTitle: "Automation & Control Systems",
     icon: Cpu,
     keyBenefits: [
@@ -1088,7 +1088,7 @@ export const productsSubCategoryData: ProductSubCategoryData[] = [
         "Industrial PLCs and programmable logic controllers for automation and process control. Siemens, Allen-Bradley, and Schneider Electric PLC systems.",
       keywords:
         "PLCs, programmable logic controllers, industrial automation, process control, factory automation, PLC programming",
-      canonicalUrl: "https://powertonengineering.in/products-sub-category/plcs",
+      canonicalUrl: "https://powertonengineering.in/products/automation-control-systems/plcs",
     },
   },
   {
@@ -1099,7 +1099,7 @@ export const productsSubCategoryData: ProductSubCategoryData[] = [
     fullDescription:
       "Comprehensive SCADA solutions for real-time monitoring, control, and data acquisition in industrial processes with advanced visualization and reporting capabilities.",
     image: scadaControlRoomImage,
-    parentCategory: "/products-category/automation-control-systems",
+    parentCategory: "/products/automation-control-systems",
     parentCategoryTitle: "Automation & Control Systems",
     icon: Monitor,
     keyBenefits: [
@@ -1158,7 +1158,7 @@ export const productsSubCategoryData: ProductSubCategoryData[] = [
       keywords:
         "SCADA systems, supervisory control, data acquisition, industrial monitoring, process control, automation systems",
       canonicalUrl:
-        "https://powertonengineering.in/products-sub-category/scada",
+        "https://powertonengineering.in/products/automation-control-systems/scada",
     },
   },
   {
@@ -1169,7 +1169,7 @@ export const productsSubCategoryData: ProductSubCategoryData[] = [
     fullDescription:
       "Advanced DCS solutions for complex process control with distributed architecture, redundant communication, and integrated safety systems for critical applications.",
     image: dcsControlSystemImage,
-    parentCategory: "/products-category/automation-control-systems",
+    parentCategory: "/products/automation-control-systems",
     parentCategoryTitle: "Automation & Control Systems",
     icon: Database,
     keyBenefits: [
@@ -1227,7 +1227,7 @@ export const productsSubCategoryData: ProductSubCategoryData[] = [
         "Advanced DCS solutions for large-scale process control with distributed architecture, redundant systems, and integrated safety features.",
       keywords:
         "DCS systems, distributed control systems, process automation, industrial control, safety systems, process control",
-      canonicalUrl: "https://powertonengineering.in/products-sub-category/dcs",
+      canonicalUrl: "https://powertonengineering.in/products/automation-control-systems/dcs",
     },
   },
   {
@@ -1238,7 +1238,7 @@ export const productsSubCategoryData: ProductSubCategoryData[] = [
     fullDescription:
       "Advanced HMI solutions including touchscreen panels, operator interfaces, and mobile HMI systems for industrial automation and process control applications.",
     image: hmiImage,
-    parentCategory: "/products-category/automation-control-systems",
+    parentCategory: "/products/automation-control-systems",
     parentCategoryTitle: "Automation & Control Systems",
     icon: Monitor,
     keyBenefits: [
@@ -1296,7 +1296,7 @@ export const productsSubCategoryData: ProductSubCategoryData[] = [
         "Industrial HMI panels and touchscreen interfaces for process control and automation. Multi-protocol support with real-time monitoring and control.",
       keywords:
         "HMI panels, human machine interface, touchscreen panels, operator interface, industrial displays, process control HMI",
-      canonicalUrl: "https://powertonengineering.in/products-sub-category/hmi",
+      canonicalUrl: "https://powertonengineering.in/products/automation-control-systems/hmi",
     },
   },
 
@@ -1309,7 +1309,7 @@ export const productsSubCategoryData: ProductSubCategoryData[] = [
     fullDescription:
       "Comprehensive surge protection solutions including AC power, DC solar, and signal line protectors for safeguarding electrical equipment from transient overvoltages.",
     image: surgeProtectorsElectricalImage,
-    parentCategory: "/products-category/safety-protective-devices",
+    parentCategory: "/products/safety-protective-devices",
     parentCategoryTitle: "Safety & Protective Devices",
     icon: Shield,
     keyBenefits: [
@@ -1368,7 +1368,7 @@ export const productsSubCategoryData: ProductSubCategoryData[] = [
       keywords:
         "surge protectors, surge protection devices, electrical protection, lightning protection, power surge protection, industrial SPD",
       canonicalUrl:
-        "https://powertonengineering.in/products-sub-category/surge-protectors",
+        "https://powertonengineering.in/products/safety-protective-devices/surge-protectors",
     },
   },
   {
@@ -1379,7 +1379,7 @@ export const productsSubCategoryData: ProductSubCategoryData[] = [
     fullDescription:
       "Complete grounding and earthing solutions including ground rods, conductors, and ground monitoring systems for electrical safety and system protection.",
     image: groundingSystemsImage,
-    parentCategory: "/products-category/safety-protective-devices",
+    parentCategory: "/products/safety-protective-devices",
     parentCategoryTitle: "Safety & Protective Devices",
     icon: Target,
     keyBenefits: [
@@ -1438,7 +1438,7 @@ export const productsSubCategoryData: ProductSubCategoryData[] = [
       keywords:
         "grounding systems, earthing systems, electrical grounding, ground rods, grounding conductors, electrical safety earthing",
       canonicalUrl:
-        "https://powertonengineering.in/products-sub-category/grounding-systems",
+        "https://powertonengineering.in/products/safety-protective-devices/grounding-systems",
     },
   },
   {
@@ -1449,7 +1449,7 @@ export const productsSubCategoryData: ProductSubCategoryData[] = [
     fullDescription:
       "Comprehensive safety control devices including safety relays, emergency stop switches, and safety controllers for machine safety and personnel protection.",
     image: safetyRelaysSwitchesImage,
-    parentCategory: "/products-category/safety-protective-devices",
+    parentCategory: "/products/safety-protective-devices",
     parentCategoryTitle: "Safety & Protective Devices",
     icon: AlertTriangle,
     keyBenefits: [
@@ -1508,7 +1508,7 @@ export const productsSubCategoryData: ProductSubCategoryData[] = [
       keywords:
         "safety relays, safety switches, emergency stop, machine safety, safety controllers, safety devices, industrial safety",
       canonicalUrl:
-        "https://powertonengineering.in/products-sub-category/safety-relays-switches",
+        "https://powertonengineering.in/products/safety-protective-devices/safety-relays-switches",
     },
   },
   {
@@ -1519,7 +1519,7 @@ export const productsSubCategoryData: ProductSubCategoryData[] = [
     fullDescription:
       "Certified intrinsically safe and explosion-proof equipment including barriers, isolators, and enclosures for hazardous location applications.",
     image: intrinsicallySafeImage,
-    parentCategory: "/products-category/safety-protective-devices",
+    parentCategory: "/products/safety-protective-devices",
     parentCategoryTitle: "Safety & Protective Devices",
     icon: Shield,
     keyBenefits: [
@@ -1578,7 +1578,7 @@ export const productsSubCategoryData: ProductSubCategoryData[] = [
       keywords:
         "intrinsically safe equipment, ATEX certified, explosion proof, hazardous area equipment, safety barriers, Ex d enclosures",
       canonicalUrl:
-        "https://powertonengineering.in/products-sub-category/intrinsically-safe-equipment",
+        "https://powertonengineering.in/products/safety-protective-devices/intrinsically-safe-equipment",
     },
   },
   {
@@ -1589,7 +1589,7 @@ export const productsSubCategoryData: ProductSubCategoryData[] = [
     fullDescription:
       "Comprehensive safety solutions including personal protective equipment, fall protection systems, and gas detection equipment for industrial safety compliance.",
     image: safetyEquipmentImage,
-    parentCategory: "/products-category/safety-protective-devices",
+    parentCategory: "/products/safety-protective-devices",
     parentCategoryTitle: "Safety & Protective Devices",
     icon: HardHat,
     keyBenefits: [
@@ -1648,7 +1648,7 @@ export const productsSubCategoryData: ProductSubCategoryData[] = [
       keywords:
         "safety equipment, PPE, personal protective equipment, fall protection, gas detection, industrial safety, workplace safety",
       canonicalUrl:
-        "https://powertonengineering.in/products-sub-category/safety-equipment",
+        "https://powertonengineering.in/products/safety-protective-devices/safety-equipment",
     },
   },
 
@@ -1661,7 +1661,7 @@ export const productsSubCategoryData: ProductSubCategoryData[] = [
     fullDescription:
       "Robust centrifugal pumps designed for continuous operation with high flow rates, corrosion resistance, and energy-efficient performance for various industrial applications.",
     image: centrifugalPumpsImage,
-    parentCategory: "/products-category/mechanical-pumps-spares",
+    parentCategory: "/products/mechanical-pumps-spares",
     parentCategoryTitle: "Mechanical Pumps & Spares",
     icon: RotateCcw,
     keyBenefits: [
@@ -1720,7 +1720,7 @@ export const productsSubCategoryData: ProductSubCategoryData[] = [
       keywords:
         "centrifugal pumps, industrial pumps, water pumps, chemical pumps, process pumps, API 610 pumps",
       canonicalUrl:
-        "https://powertonengineering.in/products-sub-category/centrifugal-pumps",
+        "https://powertonengineering.in/products/mechanical-pumps-spares/centrifugal-pumps",
     },
   },
   {
@@ -1731,7 +1731,7 @@ export const productsSubCategoryData: ProductSubCategoryData[] = [
     fullDescription:
       "Complete range of diaphragm pumps including air-operated, electric, and hydraulic models for chemical transfer, metering, and dosing applications.",
     image: diaphragmPumpsImage,
-    parentCategory: "/products-category/mechanical-pumps-spares",
+    parentCategory: "/products/mechanical-pumps-spares",
     parentCategoryTitle: "Mechanical Pumps & Spares",
     icon: Droplets,
     keyBenefits: [
@@ -1790,7 +1790,7 @@ export const productsSubCategoryData: ProductSubCategoryData[] = [
       keywords:
         "diaphragm pumps, chemical pumps, metering pumps, dosing pumps, air operated pumps, positive displacement pumps",
       canonicalUrl:
-        "https://powertonengineering.in/products-sub-category/diaphragm-pumps",
+        "https://powertonengineering.in/products/mechanical-pumps-spares/diaphragm-pumps",
     },
   },
   {
@@ -1801,7 +1801,7 @@ export const productsSubCategoryData: ProductSubCategoryData[] = [
     fullDescription:
       "Precision gear pumps including external gear, internal gear, and magnetic drive models for handling viscous fluids and precise flow applications.",
     image: gearPumpsImage,
-    parentCategory: "/products-category/mechanical-pumps-spares",
+    parentCategory: "/products/mechanical-pumps-spares",
     parentCategoryTitle: "Mechanical Pumps & Spares",
     icon: Settings,
     keyBenefits: [
@@ -1860,7 +1860,7 @@ export const productsSubCategoryData: ProductSubCategoryData[] = [
       keywords:
         "gear pumps, positive displacement pumps, viscous fluid pumps, high pressure pumps, precision pumps, industrial pumps",
       canonicalUrl:
-        "https://powertonengineering.in/products-sub-category/gear-pumps",
+        "https://powertonengineering.in/products/mechanical-pumps-spares/gear-pumps",
     },
   },
   {
@@ -1871,7 +1871,7 @@ export const productsSubCategoryData: ProductSubCategoryData[] = [
     fullDescription:
       "Comprehensive range of pump spare parts including impellers, seals, bearings, and gaskets for all types of industrial pumps to ensure reliable operation and minimize downtime.",
     image: pumpSparesWarehouseImage,
-    parentCategory: "/products-category/mechanical-pumps-spares",
+    parentCategory: "/products/mechanical-pumps-spares",
     parentCategoryTitle: "Mechanical Pumps & Spares",
     icon: Settings,
     keyBenefits: [
@@ -1930,7 +1930,7 @@ export const productsSubCategoryData: ProductSubCategoryData[] = [
       keywords:
         "pump spare parts, pump components, pump impellers, pump seals, pump bearings, pump maintenance parts",
       canonicalUrl:
-        "https://powertonengineering.in/products-sub-category/pump-parts-spares",
+        "https://powertonengineering.in/products/mechanical-pumps-spares/pump-parts-spares",
     },
   },
 
@@ -1943,7 +1943,7 @@ export const productsSubCategoryData: ProductSubCategoryData[] = [
     fullDescription:
       "Comprehensive range of professional hand tools including wrenches, screwdrivers, pliers, and specialty tools for industrial maintenance, repair, and assembly operations.",
     image: handToolsWorkshopImage,
-    parentCategory: "/products-category/industrial-measuring-tools",
+    parentCategory: "/products/industrial-measuring-tools",
     parentCategoryTitle: "Industrial & Measuring Tools",
     icon: Wrench,
     keyBenefits: [
@@ -2002,7 +2002,7 @@ export const productsSubCategoryData: ProductSubCategoryData[] = [
       keywords:
         "hand tools, professional tools, industrial tools, wrenches, screwdrivers, pliers, maintenance tools",
       canonicalUrl:
-        "https://powertonengineering.in/products-sub-category/hand-tools",
+        "https://powertonengineering.in/products/industrial-measuring-tools/hand-tools",
     },
   },
   {
@@ -2013,7 +2013,7 @@ export const productsSubCategoryData: ProductSubCategoryData[] = [
     fullDescription:
       "Professional power tools including electric drills, grinders, sanders, and specialty power equipment for industrial applications, construction, and heavy-duty maintenance work.",
     image: powerToolsShowcaseImage,
-    parentCategory: "/products-category/industrial-measuring-tools",
+    parentCategory: "/products/industrial-measuring-tools",
     parentCategoryTitle: "Industrial & Measuring Tools",
     icon: Drill,
     keyBenefits: [
@@ -2072,7 +2072,7 @@ export const productsSubCategoryData: ProductSubCategoryData[] = [
       keywords:
         "power tools, industrial power tools, electric drills, grinders, sanders, professional tools, construction tools",
       canonicalUrl:
-        "https://powertonengineering.in/products-sub-category/power-tools",
+        "https://powertonengineering.in/products/industrial-measuring-tools/power-tools",
     },
   },
   {
@@ -2083,7 +2083,7 @@ export const productsSubCategoryData: ProductSubCategoryData[] = [
     fullDescription:
       "Professional cutting tools including drill bits, end mills, reamers, and specialized cutting instruments for precision machining and industrial manufacturing applications.",
     image: cuttingToolsDisplayImage,
-    parentCategory: "/products-category/industrial-measuring-tools",
+    parentCategory: "/products/industrial-measuring-tools",
     parentCategoryTitle: "Industrial & Measuring Tools",
     icon: Scissors,
     keyBenefits: [
@@ -2142,7 +2142,7 @@ export const productsSubCategoryData: ProductSubCategoryData[] = [
       keywords:
         "cutting tools, drill bits, end mills, precision tools, machining tools, carbide tools, HSS tools",
       canonicalUrl:
-        "https://powertonengineering.in/products-sub-category/cutting-tools",
+        "https://powertonengineering.in/products/industrial-measuring-tools/cutting-tools",
     },
   },
   {
@@ -2153,7 +2153,7 @@ export const productsSubCategoryData: ProductSubCategoryData[] = [
     fullDescription:
       "Professional lifting equipment including cranes, hoists, lifting chains, and rigging hardware for safe and efficient material handling in industrial applications.",
     image: liftingEquipmentWarehouseImage,
-    parentCategory: "/products-category/industrial-measuring-tools",
+    parentCategory: "/products/industrial-measuring-tools",
     parentCategoryTitle: "Industrial & Measuring Tools",
     icon: Construction,
     keyBenefits: [
@@ -2212,7 +2212,7 @@ export const productsSubCategoryData: ProductSubCategoryData[] = [
       keywords:
         "lifting equipment, industrial hoists, cranes, lifting chains, material handling, rigging equipment, overhead cranes",
       canonicalUrl:
-        "https://powertonengineering.in/products-sub-category/lifting-equipment",
+        "https://powertonengineering.in/products/industrial-measuring-tools/lifting-equipment",
     },
   },
   {
@@ -2223,7 +2223,7 @@ export const productsSubCategoryData: ProductSubCategoryData[] = [
     fullDescription:
       "High-precision digital multimeters for voltage, current, resistance, frequency, and capacitance measurements in industrial and laboratory applications.",
     image: multimetersImage,
-    parentCategory: "/products-category/industrial-measuring-tools",
+    parentCategory: "/products/industrial-measuring-tools",
     parentCategoryTitle: "Industrial & Measuring Tools",
     icon: Activity,
     keyBenefits: [
@@ -2282,7 +2282,7 @@ export const productsSubCategoryData: ProductSubCategoryData[] = [
       keywords:
         "digital multimeters, electrical test equipment, True RMS multimeters, voltage meters, current meters, resistance meters",
       canonicalUrl:
-        "https://powertonengineering.in/products-sub-category/multimeters",
+        "https://powertonengineering.in/products/industrial-measuring-tools/multimeters",
     },
   },
   {
@@ -2293,7 +2293,7 @@ export const productsSubCategoryData: ProductSubCategoryData[] = [
     fullDescription:
       "Comprehensive power quality measurement instruments for monitoring voltage, current, harmonics, flicker, and power parameters in electrical distribution systems.",
     image: powerQualityAnalyzerImage,
-    parentCategory: "/products-category/industrial-measuring-tools",
+    parentCategory: "/products/industrial-measuring-tools",
     parentCategoryTitle: "Industrial & Measuring Tools",
     icon: Activity,
     keyBenefits: [
@@ -2352,7 +2352,7 @@ export const productsSubCategoryData: ProductSubCategoryData[] = [
       keywords:
         "power quality analyzers, electrical monitoring, harmonic analysis, energy measurement, power meters, electrical testing",
       canonicalUrl:
-        "https://powertonengineering.in/products-sub-category/power-quality-analyzers",
+        "https://powertonengineering.in/products/industrial-measuring-tools/power-quality-analyzers",
     },
   },
   {
@@ -2363,7 +2363,7 @@ export const productsSubCategoryData: ProductSubCategoryData[] = [
     fullDescription:
       "Comprehensive calibration solutions including process calibrators, temperature calibrators, and pressure calibrators for maintaining measurement accuracy and compliance.",
     image: calibrationImage,
-    parentCategory: "/products-category/industrial-measuring-tools",
+    parentCategory: "/products/industrial-measuring-tools",
     parentCategoryTitle: "Industrial & Measuring Tools",
     icon: Target,
     keyBenefits: [
@@ -2422,7 +2422,7 @@ export const productsSubCategoryData: ProductSubCategoryData[] = [
       keywords:
         "calibration equipment, process calibrators, temperature calibrators, pressure calibrators, precision calibration, NIST traceable",
       canonicalUrl:
-        "https://powertonengineering.in/products-sub-category/calibration-equipment",
+        "https://powertonengineering.in/products/industrial-measuring-tools/calibration-equipment",
     },
   },
 
@@ -2435,7 +2435,7 @@ export const productsSubCategoryData: ProductSubCategoryData[] = [
     fullDescription:
       "High-efficiency brushless DC motors designed for exhaust fans, cooler motors, and ventilation systems with variable speed control and smart operation features.",
     image: bldcCoolerMotorImage,
-    parentCategory: "/products-category/bldc",
+    parentCategory: "/products/bldc",
     parentCategoryTitle: "BLDC Motor Systems",
     icon: Wind,
     keyBenefits: [
@@ -2494,7 +2494,7 @@ export const productsSubCategoryData: ProductSubCategoryData[] = [
       keywords:
         "BLDC cooler motors, exhaust fan motors, ventilation motors, energy efficient motors, variable speed fans, smart cooler motors",
       canonicalUrl:
-        "https://powertonengineering.in/products-sub-category/bldc-cooler-exhaust-motor",
+        "https://powertonengineering.in/products/bldc/bldc-cooler-exhaust-motor",
     },
   },
   {
@@ -2505,7 +2505,7 @@ export const productsSubCategoryData: ProductSubCategoryData[] = [
     fullDescription:
       "Advanced BLDC ceiling fans with superior energy efficiency, low noise operation, and smart control features including remote control and variable speed settings.",
     image: bldcCeilingFanImage,
-    parentCategory: "/products-category/bldc",
+    parentCategory: "/products/bldc",
     parentCategoryTitle: "BLDC Motor Systems",
     icon: Fan,
     keyBenefits: [
@@ -2564,7 +2564,7 @@ export const productsSubCategoryData: ProductSubCategoryData[] = [
       keywords:
         "BLDC ceiling fans, energy efficient ceiling fans, smart ceiling fans, brushless DC fans, remote control ceiling fans",
       canonicalUrl:
-        "https://powertonengineering.in/products-sub-category/bldc-ceiling-fan",
+        "https://powertonengineering.in/products/bldc/bldc-ceiling-fan",
     },
   },
   {
@@ -2575,7 +2575,7 @@ export const productsSubCategoryData: ProductSubCategoryData[] = [
     fullDescription:
       "Advanced BLDC pump systems including submersible and surface pumps with solar compatibility, high efficiency, and intelligent control for water supply and irrigation.",
     image: bldcSubmersiblePumpImage,
-    parentCategory: "/products-category/bldc",
+    parentCategory: "/products/bldc",
     parentCategoryTitle: "BLDC Motor Systems",
     icon: Droplet,
     keyBenefits: [
@@ -2634,7 +2634,7 @@ export const productsSubCategoryData: ProductSubCategoryData[] = [
       keywords:
         "BLDC water pumps, solar submersible pumps, solar surface pumps, irrigation pumps, BLDC pump systems, solar water pumping",
       canonicalUrl:
-        "https://powertonengineering.in/products-sub-category/bldc-submersible-surface-pump",
+        "https://powertonengineering.in/products/bldc/bldc-submersible-surface-pump",
     },
   },
   {
@@ -2645,7 +2645,7 @@ export const productsSubCategoryData: ProductSubCategoryData[] = [
     fullDescription:
       "Energy-efficient BLDC motors designed for table fans, wall fans, and pedestal fans with compact design, silent operation, and remote control capabilities.",
     image: bldcTableFanImage,
-    parentCategory: "/products-category/bldc",
+    parentCategory: "/products/bldc",
     parentCategoryTitle: "BLDC Motor Systems",
     icon: Fan,
     keyBenefits: [
@@ -2704,7 +2704,7 @@ export const productsSubCategoryData: ProductSubCategoryData[] = [
       keywords:
         "BLDC table fan motors, wall fan motors, pedestal fan motors, compact fan motors, energy efficient fan motors, silent fan motors",
       canonicalUrl:
-        "https://powertonengineering.in/products-sub-category/bldc-table-fan-wall-fan-motor",
+        "https://powertonengineering.in/products/bldc/bldc-table-fan-wall-fan-motor",
     },
   },
 ];

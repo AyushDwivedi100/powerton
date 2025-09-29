@@ -181,7 +181,7 @@ export function initializeRoutes(): void {
       parentRoute: "/products",
     },
     {
-      path: "/products-category/industrial-measuring-tools",
+      path: "/products/industrial-measuring-tools",
       title: "industrialMeasuringTools",
       description: "industrialMeasuringToolsDescription",
       category: "product-categories",
@@ -221,7 +221,7 @@ export function initializeRoutes(): void {
       parentRoute: "/products",
     },
     {
-      path: "/products-category/industrial-measuring-tools",
+      path: "/products/industrial-measuring-tools",
       title: "industrialMeasuringTools",
       description: "industrialMeasuringToolsDescription",
       category: "product-categories",
@@ -286,7 +286,7 @@ export function initializeRoutes(): void {
       description: "multimetersDescription",
       category: "product-subcategories",
       icon: "Zap",
-      parentRoute: "/products-category/industrial-measuring-tools",
+      parentRoute: "/products/industrial-measuring-tools",
     },
     {
       path: "/products/power-quality-analyzers",
@@ -294,7 +294,7 @@ export function initializeRoutes(): void {
       description: "powerQualityAnalyzersDescription",
       category: "product-subcategories",
       icon: "Activity",
-      parentRoute: "/products-category/industrial-measuring-tools",
+      parentRoute: "/products/industrial-measuring-tools",
     },
     {
       path: "/products/calibration-equipment",
@@ -302,7 +302,7 @@ export function initializeRoutes(): void {
       description: "calibrationEquipmentDescription",
       category: "product-subcategories",
       icon: "Settings",
-      parentRoute: "/products-category/industrial-measuring-tools",
+      parentRoute: "/products/industrial-measuring-tools",
     },
 
     // Electrical Components Subcategories
@@ -490,7 +490,7 @@ export function initializeRoutes(): void {
       description: "handToolsDescription",
       category: "product-subcategories",
       icon: "Hammer",
-      parentRoute: "/products-category/industrial-measuring-tools",
+      parentRoute: "/products/industrial-measuring-tools",
     },
     {
       path: "/products/power-tools",
@@ -498,7 +498,7 @@ export function initializeRoutes(): void {
       description: "powerToolsDescription",
       category: "product-subcategories",
       icon: "Drill",
-      parentRoute: "/products-category/industrial-measuring-tools",
+      parentRoute: "/products/industrial-measuring-tools",
     },
     {
       path: "/products/cutting-tools",
@@ -506,7 +506,7 @@ export function initializeRoutes(): void {
       description: "cuttingToolsDescription",
       category: "product-subcategories",
       icon: "Scissors",
-      parentRoute: "/products-category/industrial-measuring-tools",
+      parentRoute: "/products/industrial-measuring-tools",
     },
     {
       path: "/products/lifting-equipment",
@@ -514,7 +514,7 @@ export function initializeRoutes(): void {
       description: "liftingEquipmentDescription",
       category: "product-subcategories",
       icon: "Move",
-      parentRoute: "/products-category/industrial-measuring-tools",
+      parentRoute: "/products/industrial-measuring-tools",
     },
 
     // BLDC Motor Subcategories
@@ -583,7 +583,7 @@ export function initializeRoutes(): void {
       hideFromSitemap: true,
     },
     {
-      path: "/products-sub-category/:slug",
+      path: "/products/:parentSlug/:slug",
       title: "productSubCategories",
       description: "productSubCategoriesDescription",
       category: "product-subcategories",

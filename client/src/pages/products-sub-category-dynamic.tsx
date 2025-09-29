@@ -36,7 +36,7 @@ const truncateText = (text: string, maxWords: number = 75): string => {
 };
 
 export default function ProductSubCategoryDynamic() {
-  const { slug } = useParams<{ slug: string }>();
+  const { parentSlug, slug } = useParams<{ parentSlug: string; slug: string }>();
   const { t } = useTranslation(["products", "common"]);
   useScrollAnimations();
 

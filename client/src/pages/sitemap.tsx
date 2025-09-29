@@ -269,7 +269,7 @@ const PRODUCT_CATEGORIES: ProductCategory[] = [
     ],
   },
   {
-    path: "/products-category/industrial-measuring-tools",
+    path: "/products/industrial-measuring-tools",
     title: "industrialMeasuringTools",
     description: "industrialMeasuringToolsDescription",
     icon: "Activity",
@@ -405,7 +405,7 @@ const PRODUCT_CATEGORIES: ProductCategory[] = [
     ],
   },
   {
-    path: "/products-category/industrial-measuring-tools",
+    path: "/products/industrial-measuring-tools",
     title: "industrialMeasuringTools",
     description: "industrialMeasuringToolsDescription",
     icon: "Hammer",

@@ -43,6 +43,9 @@ export default function ProductGroupDynamic() {
   // Get all products in this group
   const groupProducts = getProductsByGroup(productGroup.key);
 
+  // Extract parent category slug from subcategory data
+  const parentCategory = subcategory.parentCategory.split('/').pop(); // Extract slug from path like "/products/instrumentation-components"
+
   // Use the title and description from the ProductGroup
   const groupTitle =
     productGroup.title || productGroup.key.toUpperCase().replace("-", " ");
@@ -69,7 +72,7 @@ export default function ProductGroupDynamic() {
               asChild
             >
               <Link
-                href={`/products-sub-category/${subcategorySlug}`}
+                href={`/products/${parentCategory}/${subcategorySlug}`}
                 data-testid="link-back-to-subcategory"
               >
                 <ArrowLeft className="mr-2 h-4 w-4 group-hover:-translate-x-2 transition-transform duration-200" />
@@ -209,7 +212,7 @@ export default function ProductGroupDynamic() {
                 <p className="text-muted-foreground text-lg">
                   No products found in this group.
                 </p>
-                <Link href={`/products-sub-category/${subcategorySlug}`}>
+                <Link href={`/products/${parentCategory}/${subcategorySlug}`}>
                   <Button className="mt-4">
                     <ArrowLeft className="mr-2 h-4 w-4" />
                     Back to {subcategory.title}

@@ -80,34 +80,28 @@ function Router() {
             component={ServiceCategoryPage}
           />
 
-          {/* Dynamic Product Category Route */}
-          <Route
-            path="/products-category/:slug"
-            component={ProductCategoryDynamic}
-          />
-
-          {/* Dynamic Product Sub-Category Route */}
-          <Route
-            path="/products-sub-category/:slug"
-            component={ProductSubCategoryDynamic}
-          />
-
-          {/* Dynamic Product Group Route (must come before product detail) */}
-          <Route
-            path="/products/:subcategorySlug/:groupSlug"
-            component={ProductGroupDynamic}
-          />
-
-          {/* Product Detail with Group Context Route */}
+          {/* Product Detail with Group Context Route (most specific first) */}
           <Route
             path="/products/:subcategorySlug/:groupSlug/:slug"
             component={ProductDetailDynamic}
           />
 
-          {/* Dynamic Product Detail Route (fallback) */}
+          {/* Dynamic Product Group Route */}
+          <Route
+            path="/products/:subcategorySlug/:groupSlug"
+            component={ProductGroupDynamic}
+          />
+
+          {/* Dynamic Product Sub-Category Route (hierarchical) */}
+          <Route
+            path="/products/:parentSlug/:slug"
+            component={ProductSubCategoryDynamic}
+          />
+
+          {/* Dynamic Product Category Route (catches single-slug patterns) */}
           <Route
             path="/products/:slug"
-            component={ProductDetailDynamic}
+            component={ProductCategoryDynamic}
           />
 
           <Route path="/projects" component={Projects} />

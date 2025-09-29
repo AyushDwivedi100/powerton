@@ -146,7 +146,7 @@ export default function Footer() {
                 {getProducts(t).map((product) => (
                   <li key={product.id}>
                     <Link
-                      href={`/products-category/${product.id}`}
+                      href={`/products/${product.id}`}
                       className="hover:text-orange-400 transition-colors text-wrap-safe"
                     >
                       {String(
