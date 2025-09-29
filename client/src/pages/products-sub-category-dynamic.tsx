@@ -40,13 +40,19 @@ export default function ProductSubCategoryDynamic() {
   const { t } = useTranslation(["products", "common"]);
   useScrollAnimations();
 
-  if (!slug) {
+  if (!slug || !parentSlug) {
     return <NotFound />;
   }
 
   const product = getProductSubCategoryBySlug(slug);
 
   if (!product) {
+    return <NotFound />;
+  }
+
+  // Validate that the parentSlug matches the expected parent category for this subcategory
+  const expectedParentSlug = product.parentCategory.split('/').pop();
+  if (parentSlug !== expectedParentSlug) {
     return <NotFound />;
   }
 

@@ -86,16 +86,16 @@ function Router() {
             component={ProductDetailDynamic}
           />
 
+          {/* Dynamic Product Sub-Category Route (hierarchical) - moved up for priority */}
+          <Route
+            path="/products/:parentSlug/:slug"
+            component={ProductSubCategoryDynamic}
+          />
+
           {/* Dynamic Product Group Route */}
           <Route
             path="/products/:subcategorySlug/:groupSlug"
             component={ProductGroupDynamic}
-          />
-
-          {/* Dynamic Product Sub-Category Route (hierarchical) */}
-          <Route
-            path="/products/:parentSlug/:slug"
-            component={ProductSubCategoryDynamic}
           />
 
           {/* Dynamic Product Category Route (catches single-slug patterns) */}
