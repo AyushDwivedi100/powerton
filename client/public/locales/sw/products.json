@@ -1981,6 +1981,165 @@
       ]
     }
   },
+  "circuitBreakers": {
+    "schneiderM9r31240": {
+      "title": "Schneider Electric M9R31240 RCCB",
+      "description": "Kivunja mzunguko cha sasa kilichobaki cha nguzo 4 kwa ulinzi wa usalama wa umeme",
+      "features": [
+        "Usanidi wa nguzo 4",
+        "Voltage iliyokadiriwa 240V AC",
+        "Sasa iliyobaki 30mA",
+        "Sasa iliyokadiriwa 63A",
+        "Aina A ya ugunduzi wa sasa iliyobaki"
+      ]
+    },
+    "schneiderM9r14463": {
+      "title": "Schneider Electric M9R14463 RCCB",
+      "description": "Kivunja mzunguko cha sasa kilichobaki cha nguzo 2 kwa matumizi ya nyumbani",
+      "features": [
+        "Usanidi wa nguzo 2",
+        "Voltage iliyokadiriwa 240V AC",
+        "Unyeti wa juu wa 10mA",
+        "Sasa iliyokadiriwa 40A",
+        "Aina AC ya ugunduzi wa sasa iliyobaki"
+      ]
+    },
+    "abbF204a63": {
+      "title": "ABB F204 A-63/0.03 RCCB",
+      "description": "Kivunja mzunguko cha sasa kilichobaki cha Aina A na ulinzi ulioimarishwa",
+      "features": [
+        "Usanidi wa nguzo 4 Aina A",
+        "Voltage iliyokadiriwa 415V AC",
+        "Sasa iliyobaki 30mA",
+        "Sasa iliyokadiriwa 63A",
+        "Vipengele vya usalama vilivyoimarishwa"
+      ]
+    },
+    "abbF204ac25": {
+      "title": "ABB F204 AC-25/0.03 RCCB",
+      "description": "Kivunja mzunguko cha sasa kilichobaki cha kompakt kwa matumizi ya makazi",
+      "features": [
+        "Usanidi wa aina ya AC wa nguzo 2",
+        "Voltage iliyokadiriwa 240V AC",
+        "Sasa iliyobaki 30mA",
+        "Sasa iliyokadiriwa 25A",
+        "Upachikaji wa reli ya DIN wa kompakt"
+      ]
+    },
+    "abbSaceEmaxE12": {
+      "title": "ABB SACE Emax E1.2 ACB",
+      "description": "Kivunja mzunguko wa hewa kwa usambazaji wa nguvu ya voltage ya chini",
+      "features": [
+        "Uwezo wa kuvunja 1250A",
+        "Voltage iliyokadiriwa 690V AC",
+        "Kitengo cha safari ya elektroniki",
+        "Muundo unaoweza kutolewa",
+        "Kazi za ulinzi za hali ya juu"
+      ]
+    },
+    "abbSaceEmaxE22": {
+      "title": "ABB SACE Emax E2.2 ACB",
+      "description": "Kivunja mzunguko wa hewa cha utendaji wa juu kwa matumizi ya viwandani",
+      "features": [
+        "Uwezo wa kuvunja 2000A",
+        "Voltage iliyokadiriwa 690V AC",
+        "Ulinzi unaotegemea microprocessor",
+        "Uwezo wa uendeshaji wa mbali",
+        "Kazi za kupima nishati"
+      ]
+    },
+    "schneiderMasterpactNw": {
+      "title": "Schneider Electric MasterPact NW ACB",
+      "description": "Kivunja mzunguko wa hewa cha hali ya juu na ulinzi wa akili",
+      "features": [
+        "Uwezo wa kuvunja 6300A",
+        "Voltage iliyokadiriwa 690V AC",
+        "Kitengo cha safari ya Micrologic",
+        "Uwezo wa mawasiliano",
+        "Uchaguzi wa eneo"
+      ]
+    },
+    "schneiderMasterpactMtz": {
+      "title": "Schneider Electric MasterPact MTZ ACB",
+      "description": "Kivunja mzunguko wa hewa cha kompakt kwa matumizi yenye nafasi ndogo",
+      "features": [
+        "Uwezo wa kuvunja 2500A",
+        "Voltage iliyokadiriwa 690V AC",
+        "Kitengo cha safari ya dijitali",
+        "Alama ya kompakt",
+        "Matengenezo rahisi"
+      ]
+    },
+    "abbVd412kv": {
+      "title": "ABB VD4 12kV VCB",
+      "description": "Kivunja mzunguko wa utupu cha 12kV kwa matumizi ya voltage ya kati",
+      "features": [
+        "Voltage iliyokadiriwa 12kV",
+        "Uwezo wa kuvunja 31.5kA",
+        "Teknolojia ya kukatiza utupu",
+        "Maisha marefu ya umeme",
+        "Uendeshaji usio na matengenezo"
+      ]
+    },
+    "abbVd424kv": {
+      "title": "ABB VD4 24kV VCB",
+      "description": "Kivunja mzunguko wa utupu cha 24kV kwa ubadilishaji wa utendaji wa juu",
+      "features": [
+        "Voltage iliyokadiriwa 24kV",
+        "Uwezo wa kuvunja 25kA",
+        "Teknolojia isiyo na SF6",
+        "Muundo wa kompakt",
+        "Rafiki wa mazingira"
+      ]
+    },
+    "schneiderEvopact15kv": {
+      "title": "Schneider Electric EvoPacT 15kV VCB",
+      "description": "Kivunja mzunguko wa utupu cha 15kV na mifumo ya udhibiti ya hali ya juu",
+      "features": [
+        "Voltage iliyokadiriwa 15kV",
+        "Uwezo wa kuvunja 40kA",
+        "Kitengo cha udhibiti kilichounganishwa",
+        "Mfumo wa ufuatiliaji wa arc",
+        "Mawasiliano ya dijitali"
+      ]
+    },
+    "schneiderHvx33kv": {
+      "title": "Schneider Electric HVX-O 33kV VCB",
+      "description": "Kivunja mzunguko wa utupu cha nje cha 33kV kwa vituo vya umeme",
+      "features": [
+        "Voltage iliyokadiriwa 33kV",
+        "Uwezo wa kuvunja 25kA",
+        "Ufungaji wa nje",
+        "Nyumba inayostahimili hali ya hewa",
+        "Uwezo wa ufuatiliaji wa mbali"
+      ]
+    },
+    "siemens3ah4": {
+      "title": "Siemens 3AH4 VCB",
+      "description": "Kivunja mzunguko wa utupu cha voltage ya kati na uaminifu uliothibitishwa",
+      "features": [
+        "Voltage iliyokadiriwa 17.5kV",
+        "Uwezo wa kuvunja 31.5kA",
+        "Teknolojia ya utupu iliyothibitishwa",
+        "Mahitaji ya chini ya matengenezo",
+        "Usalama wa juu wa uendeshaji"
+      ]
+    }
+  },
+  "groups": {
+    "rccb-circuit-breakers": {
+      "title": "Vivunja Mzunguko vya RCCB",
+      "description": "Vivunja Mzunguko vya Sasa Vilivyosalia (RCCB) kwa ulinzi wa kuvuja kwa ardhi. Vifaa muhimu vya usalama ambavyo hulinda dhidi ya mshtuko wa umeme na hatari za moto kwa kugundua kukosekana kwa usawa wa sasa."
+    },
+    "acb-circuit-breakers": {
+      "title": "Vivunja Mzunguko vya ACB",
+      "description": "Vivunja Mzunguko vya Hewa (ACB) kwa usambazaji wa nguvu ya voltage ya chini. Vivunja mzunguko vya uwezo wa juu na vipengele vya ulinzi vya hali ya juu kwa mifumo ya umeme ya viwandani na biashara."
+    },
+    "vcb-circuit-breakers": {
+      "title": "Vivunja Mzunguko vya VCB",
+      "description": "Vivunja Mzunguko vya Utupu (VCB) kwa matumizi ya voltage ya kati. Teknolojia bora ya kuzima arc ambayo hutoa ubadilishaji na ulinzi wa kuaminika katika vituo vya umeme."
+    }
+  },
   "specs": {
     "manufacturer": "Mtengenezaji",
     "model": "Mfano",
@@ -2006,6 +2165,20 @@
     "technology": "Teknolojia",
     "range": "Kiwango",
     "frequency": "Masafa",
-    "conductivityRange": "Kiwango cha Conductivity"
+    "conductivityRange": "Kiwango cha Conductivity",
+    "poles": "Poles", 
+    "ratedVoltage": "Rated Voltage",
+    "ratedCurrent": "Rated Current", 
+    "residualCurrent": "Residual Current",
+    "rcType": "RC Type",
+    "breakingCapacity": "Breaking Capacity",
+    "tripUnit": "Trip Unit",
+    "operatingMechanism": "Operating Mechanism",
+    "standard": "Standard",
+    "mountingType": "Mounting Type",
+    "interruptionTechnology": "Interruption Technology",
+    "electricalLife": "Electrical Life",
+    "mechanicalLife": "Mechanical Life",
+    "installation": "Installation"
   }
 }

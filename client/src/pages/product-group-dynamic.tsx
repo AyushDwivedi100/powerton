@@ -209,7 +209,7 @@ export default function ProductGroupDynamic() {
                 <p className="text-muted-foreground text-lg">
                   No products found in this group.
                 </p>
-                <Link href={`/products/${subcategorySlug}`}>
+                <Link href={`/products-sub-category/${subcategorySlug}`}>
                   <Button className="mt-4">
                     <ArrowLeft className="mr-2 h-4 w-4" />
                     Back to {subcategory.title}

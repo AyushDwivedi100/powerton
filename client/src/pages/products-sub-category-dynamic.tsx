@@ -150,45 +150,33 @@ export default function ProductSubCategoryDynamic() {
                     "High-quality sensor group for industrial automation applications.";
 
                   return (
-                    <Card
-                      key={group.key}
-                      className="group hover:shadow-lg transition-all duration-300"
-                      data-testid={`card-group-${group.key}`}
-                    >
-                      <div className="relative overflow-hidden rounded-t-lg">
-                        <img
-                          src={getProductImageSrc(group.image)}
-                          alt={`${groupTitle} - ${groupDescription}`}
-                          className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
-                          loading="lazy"
-                          data-testid={`img-group-${group.key}`}
-                        />
-                        <div className="absolute inset-0 bg-black/0 group-hover:bg-black/10 transition-colors duration-300" />
-                      </div>
-
-                      <CardContent className="p-6">
-                        <h3 className="text-xl font-semibold text-foreground mb-2 group-hover:text-secondary transition-colors">
-                          {groupTitle}
-                        </h3>
-                        <p className="text-muted-foreground mb-4">
-                          {truncateText(groupDescription)}
-                        </p>
-
-                        <div className="flex justify-between items-center">
-                          <Link href={`/products/${slug}/${group.slug}`}>
-                            <Button
-                              className="group-hover:bg-primary group-hover:text-primary-foreground transition-colors duration-200"
-                              data-testid={`button-view-group-${group.key}`}
-                            >
-                              <Eye className="mr-2 h-4 w-4" />
-                              {t("common:buttons.viewProducts", {
-                                defaultValue: "View Products",
-                              })}
-                            </Button>
-                          </Link>
+                    <Link href={`/products/${slug}/${group.slug}`}>
+                      <Card
+                        key={group.key}
+                        className="group hover:shadow-lg transition-all duration-300"
+                        data-testid={`card-group-${group.key}`}
+                      >
+                        <div className="relative overflow-hidden rounded-t-lg">
+                          <img
+                            src={getProductImageSrc(group.image)}
+                            alt={`${groupTitle} - ${groupDescription}`}
+                            className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
+                            loading="lazy"
+                            data-testid={`img-group-${group.key}`}
+                          />
+                          <div className="absolute inset-0 bg-black/0 group-hover:bg-black/10 transition-colors duration-300" />
                         </div>
-                      </CardContent>
-                    </Card>
+
+                        <CardContent className="p-6">
+                          <h3 className="text-xl font-semibold text-foreground mb-2 group-hover:text-primary dark:group-hover:text-secondary  transition-colors">
+                            {groupTitle}
+                          </h3>
+                          <p className="text-muted-foreground mb-4">
+                            {truncateText(groupDescription)}
+                          </p>
+                        </CardContent>
+                      </Card>
+                    </Link>
                   );
                 })}
 

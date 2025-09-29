@@ -1981,6 +1981,165 @@
       ]
     }
   },
+  "circuitBreakers": {
+    "schneiderM9r31240": {
+      "title": "Disjuntor Diferencial Schneider Electric M9R31240",
+      "description": "Disjuntor diferencial de 4 polos para proteção de segurança elétrica",
+      "features": [
+        "Configuração de 4 polos",
+        "Tensão nominal de 240V AC",
+        "Corrente residual de 30mA",
+        "Corrente nominal de 63A",
+        "Detecção de corrente residual Tipo A"
+      ]
+    },
+    "schneiderM9r14463": {
+      "title": "Disjuntor Diferencial Schneider Electric M9R14463",
+      "description": "Disjuntor diferencial de 2 polos para aplicações domésticas",
+      "features": [
+        "Configuração de 2 polos",
+        "Tensão nominal de 240V AC",
+        "Alta sensibilidade de 10mA",
+        "Corrente nominal de 40A",
+        "Detecção de corrente residual Tipo AC"
+      ]
+    },
+    "abbF204a63": {
+      "title": "Disjuntor Diferencial ABB F204 A-63/0.03",
+      "description": "Disjuntor diferencial Tipo A com proteção aprimorada",
+      "features": [
+        "Configuração de 4 polos Tipo A",
+        "Tensão nominal de 415V AC",
+        "Corrente residual de 30mA",
+        "Corrente nominal de 63A",
+        "Recursos de segurança aprimorados"
+      ]
+    },
+    "abbF204ac25": {
+      "title": "Disjuntor Diferencial ABB F204 AC-25/0.03",
+      "description": "Disjuntor diferencial compacto para uso residencial",
+      "features": [
+        "Configuração de tipo AC de 2 polos",
+        "Tensão nominal de 240V AC",
+        "Corrente residual de 30mA",
+        "Corrente nominal de 25A",
+        "Montagem compacta em trilho DIN"
+      ]
+    },
+    "abbSaceEmaxE12": {
+      "title": "Disjuntor Aberto ABB SACE Emax E1.2",
+      "description": "Disjuntor aberto para distribuição de energia em baixa tensão",
+      "features": [
+        "Capacidade de interrupção de 1250A",
+        "Tensão nominal de 690V AC",
+        "Unidade de disparo eletrônica",
+        "Design removível",
+        "Funções de proteção avançadas"
+      ]
+    },
+    "abbSaceEmaxE22": {
+      "title": "Disjuntor Aberto ABB SACE Emax E2.2",
+      "description": "Disjuntor aberto de alto desempenho para aplicações industriais",
+      "features": [
+        "Capacidade de interrupção de 2000A",
+        "Tensão nominal de 690V AC",
+        "Proteção baseada em microprocessador",
+        "Capacidade de operação remota",
+        "Funções de medição de energia"
+      ]
+    },
+    "schneiderMasterpactNw": {
+      "title": "Disjuntor Aberto Schneider Electric MasterPact NW",
+      "description": "Disjuntor aberto avançado com proteção inteligente",
+      "features": [
+        "Capacidade de interrupção de 6300A",
+        "Tensão nominal de 690V AC",
+        "Unidade de disparo Micrologic",
+        "Capacidades de comunicação",
+        "Seletividade de zona"
+      ]
+    },
+    "schneiderMasterpactMtz": {
+      "title": "Disjuntor Aberto Schneider Electric MasterPact MTZ",
+      "description": "Disjuntor aberto compacto para aplicações com restrição de espaço",
+      "features": [
+        "Capacidade de interrupção de 2500A",
+        "Tensão nominal de 690V AC",
+        "Unidade de disparo digital",
+        "Pegada compacta",
+        "Fácil manutenção"
+      ]
+    },
+    "abbVd412kv": {
+      "title": "Disjuntor a Vácuo ABB VD4 12kV",
+      "description": "Disjuntor a vácuo de 12kV para aplicações de média tensão",
+      "features": [
+        "Tensão nominal de 12kV",
+        "Capacidade de interrupção de 31,5kA",
+        "Tecnologia de interrupção a vácuo",
+        "Longa vida elétrica",
+        "Operação sem manutenção"
+      ]
+    },
+    "abbVd424kv": {
+      "title": "Disjuntor a Vácuo ABB VD4 24kV",
+      "description": "Disjuntor a vácuo de 24kV para comutação de alto desempenho",
+      "features": [
+        "Tensão nominal de 24kV",
+        "Capacidade de interrupção de 25kA",
+        "Tecnologia livre de SF6",
+        "Design compacto",
+        "Amigo do ambiente"
+      ]
+    },
+    "schneiderEvopact15kv": {
+      "title": "Disjuntor a Vácuo Schneider Electric EvoPacT 15kV",
+      "description": "Disjuntor a vácuo de 15kV com sistemas de controle avançados",
+      "features": [
+        "Tensão nominal de 15kV",
+        "Capacidade de interrupção de 40kA",
+        "Unidade de controle integrada",
+        "Sistema de monitoramento de arco",
+        "Comunicação digital"
+      ]
+    },
+    "schneiderHvx33kv": {
+      "title": "Disjuntor a Vácuo Schneider Electric HVX-O 33kV",
+      "description": "Disjuntor a vácuo externo de 33kV para subestações",
+      "features": [
+        "Tensão nominal de 33kV",
+        "Capacidade de interrupção de 25kA",
+        "Instalação ao ar livre",
+        "Caixa resistente às intempéries",
+        "Capacidade de monitoramento remoto"
+      ]
+    },
+    "siemens3ah4": {
+      "title": "Disjuntor Siemens 3AH4 VCB",
+      "description": "Disjuntor a vácuo de média tensão com confiabilidade comprovada",
+      "features": [
+        "Tensão nominal de 17,5kV",
+        "Capacidade de interrupção de 31,5kA",
+        "Tecnologia de vácuo comprovada",
+        "Baixos requisitos de manutenção",
+        "Alta segurança operacional"
+      ]
+    }
+  },
+  "groups": {
+    "rccb-circuit-breakers": {
+      "title": "Disjuntores Diferenciais (RCCB)",
+      "description": "Disjuntores de Corrente Residual (RCCB) para proteção contra fuga à terra. Dispositivos de segurança essenciais que protegem contra choque elétrico e riscos de incêndio, detectando desequilíbrios de corrente."
+    },
+    "acb-circuit-breakers": {
+      "title": "Disjuntores Abertos (ACB)",
+      "description": "Disjuntores Abertos (ACB) para distribuição de energia em baixa tensão. Disjuntores de alta capacidade com recursos de proteção avançados para sistemas elétricos industriais e comerciais."
+    },
+    "vcb-circuit-breakers": {
+      "title": "Disjuntores a Vácuo (VCB)",
+      "description": "Disjuntores a Vácuo (VCB) para aplicações de média tensão. Tecnologia superior de extinção de arco, proporcionando comutação e proteção confiáveis em subestações elétricas."
+    }
+  },
   "specs": {
     "manufacturer": "Fabricante",
     "model": "Modelo",
@@ -2006,6 +2165,20 @@
     "technology": "Tecnologia",
     "range": "Alcance",
     "frequency": "Frequência",
-    "conductivityRange": "Faixa de Condutividade"
+    "conductivityRange": "Faixa de Condutividade",
+    "poles": "Poles", 
+    "ratedVoltage": "Rated Voltage",
+    "ratedCurrent": "Rated Current", 
+    "residualCurrent": "Residual Current",
+    "rcType": "RC Type",
+    "breakingCapacity": "Breaking Capacity",
+    "tripUnit": "Trip Unit",
+    "operatingMechanism": "Operating Mechanism",
+    "standard": "Standard",
+    "mountingType": "Mounting Type",
+    "interruptionTechnology": "Interruption Technology",
+    "electricalLife": "Electrical Life",
+    "mechanicalLife": "Mechanical Life",
+    "installation": "Installation"
   }
 }

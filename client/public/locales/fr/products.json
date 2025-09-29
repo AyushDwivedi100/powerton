@@ -1981,6 +1981,165 @@
       ]
     }
   },
+  "circuitBreakers": {
+    "schneiderM9r31240": {
+      "title": "Disjoncteur différentiel Schneider Electric M9R31240",
+      "description": "Disjoncteur différentiel à 4 pôles pour la protection de la sécurité électrique",
+      "features": [
+        "Configuration à 4 pôles",
+        "Tension nominale de 240 V CA",
+        "Courant différentiel de 30 mA",
+        "Courant nominal de 63 A",
+        "Détection de courant différentiel de type A"
+      ]
+    },
+    "schneiderM9r14463": {
+      "title": "Disjoncteur différentiel Schneider Electric M9R14463",
+      "description": "Disjoncteur différentiel à 2 pôles pour les applications domestiques",
+      "features": [
+        "Configuration à 2 pôles",
+        "Tension nominale de 240 V CA",
+        "Haute sensibilité de 10 mA",
+        "Courant nominal de 40 A",
+        "Détection de courant différentiel de type AC"
+      ]
+    },
+    "abbF204a63": {
+      "title": "Disjoncteur différentiel ABB F204 A-63/0.03",
+      "description": "Disjoncteur différentiel de type A avec protection améliorée",
+      "features": [
+        "Configuration de type A à 4 pôles",
+        "Tension nominale de 415 V CA",
+        "Courant différentiel de 30 mA",
+        "Courant nominal de 63 A",
+        "Fonctionnalités de sécurité améliorées"
+      ]
+    },
+    "abbF204ac25": {
+      "title": "Disjoncteur différentiel ABB F204 AC-25/0.03",
+      "description": "Disjoncteur différentiel compact pour usage résidentiel",
+      "features": [
+        "Configuration de type AC à 2 pôles",
+        "Tension nominale de 240 V CA",
+        "Courant différentiel de 30 mA",
+        "Courant nominal de 25 A",
+        "Montage compact sur rail DIN"
+      ]
+    },
+    "abbSaceEmaxE12": {
+      "title": "Disjoncteur ouvert ABB SACE Emax E1.2",
+      "description": "Disjoncteur ouvert pour la distribution d'énergie basse tension",
+      "features": [
+        "Pouvoir de coupure de 1250A",
+        "Tension nominale de 690 V CA",
+        "Unité de déclenchement électronique",
+        "Conception débrochable",
+        "Fonctions de protection avancées"
+      ]
+    },
+    "abbSaceEmaxE22": {
+      "title": "Disjoncteur ouvert ABB SACE Emax E2.2",
+      "description": "Disjoncteur ouvert haute performance pour les applications industrielles",
+      "features": [
+        "Pouvoir de coupure de 2000A",
+        "Tension nominale de 690 V CA",
+        "Protection basée sur microprocesseur",
+        "Capacité de fonctionnement à distance",
+        "Fonctions de comptage d'énergie"
+      ]
+    },
+    "schneiderMasterpactNw": {
+      "title": "Disjoncteur ouvert Schneider Electric MasterPact NW",
+      "description": "Disjoncteur ouvert avancé avec protection intelligente",
+      "features": [
+        "Pouvoir de coupure de 6300A",
+        "Tension nominale de 690 V CA",
+        "Unité de déclenchement Micrologic",
+        "Capacités de communication",
+        "Sélectivité de zone"
+      ]
+    },
+    "schneiderMasterpactMtz": {
+      "title": "Disjoncteur ouvert Schneider Electric MasterPact MTZ",
+      "description": "Disjoncteur ouvert compact pour les applications où l'espace est limité",
+      "features": [
+        "Pouvoir de coupure de 2500A",
+        "Tension nominale de 690 V CA",
+        "Unité de déclenchement numérique",
+        "Encombrement compact",
+        "Maintenance facile"
+      ]
+    },
+    "abbVd412kv": {
+      "title": "Disjoncteur à vide ABB VD4 12kV",
+      "description": "Disjoncteur à vide 12kV pour les applications moyenne tension",
+      "features": [
+        "Tension nominale de 12kV",
+        "Pouvoir de coupure de 31,5kA",
+        "Technologie d'interruption sous vide",
+        "Longue durée de vie électrique",
+        "Fonctionnement sans entretien"
+      ]
+    },
+    "abbVd424kv": {
+      "title": "Disjoncteur à vide ABB VD4 24kV",
+      "description": "Disjoncteur à vide 24kV pour une commutation haute performance",
+      "features": [
+        "Tension nominale de 24kV",
+        "Pouvoir de coupure de 25kA",
+        "Technologie sans SF6",
+        "Conception compacte",
+        "Respectueux de l'environnement"
+      ]
+    },
+    "schneiderEvopact15kv": {
+      "title": "Disjoncteur à vide Schneider Electric EvoPacT 15kV",
+      "description": "Disjoncteur à vide 15kV avec systèmes de contrôle avancés",
+      "features": [
+        "Tension nominale de 15kV",
+        "Pouvoir de coupure de 40kA",
+        "Unité de contrôle intégrée",
+        "Système de surveillance d'arc",
+        "Communication numérique"
+      ]
+    },
+    "schneiderHvx33kv": {
+      "title": "Disjoncteur à vide extérieur Schneider Electric HVX-O 33kV",
+      "description": "Disjoncteur à vide extérieur 33kV pour les sous-stations",
+      "features": [
+        "Tension nominale de 33kV",
+        "Pouvoir de coupure de 25kA",
+        "Installation extérieure",
+        "Boîtier résistant aux intempéries",
+        "Capacité de surveillance à distance"
+      ]
+    },
+    "siemens3ah4": {
+      "title": "Disjoncteur Siemens 3AH4",
+      "description": "Disjoncteur à vide moyenne tension avec une fiabilité éprouvée",
+      "features": [
+        "Tension nominale de 17,5kV",
+        "Pouvoir de coupure de 31,5kA",
+        "Technologie de vide éprouvée",
+        "Faibles besoins de maintenance",
+        "Haute sécurité opérationnelle"
+      ]
+    }
+  },
+  "groups": {
+    "rccb-circuit-breakers": {
+      "title": "Disjoncteurs différentiels",
+      "description": "Disjoncteurs de courant résiduel (RCCB) pour la protection contre les fuites à la terre. Dispositifs de sécurité essentiels qui protègent contre les chocs électriques et les risques d'incendie en détectant les déséquilibres de courant."
+    },
+    "acb-circuit-breakers": {
+      "title": "Disjoncteurs ouverts",
+      "description": "Disjoncteurs ouverts (ACB) pour la distribution d'énergie basse tension. Disjoncteurs de haute capacité avec des fonctions de protection avancées pour les systèmes électriques industriels et commerciaux."
+    },
+    "vcb-circuit-breakers": {
+      "title": "Disjoncteurs à vide",
+      "description": "Disjoncteurs à vide (VCB) pour les applications moyenne tension. Technologie supérieure d'extinction d'arc offrant une commutation et une protection fiables dans les sous-stations électriques."
+    }
+  },
   "specs": {
     "manufacturer": "Fabricant",
     "model": "Modèle",
@@ -2006,6 +2165,20 @@
     "technology": "Technologie",
     "range": "Portée",
     "frequency": "Fréquence",
-    "conductivityRange": "Plage de conductivité"
+    "conductivityRange": "Plage de conductivité",
+    "poles": "Poles", 
+    "ratedVoltage": "Rated Voltage",
+    "ratedCurrent": "Rated Current", 
+    "residualCurrent": "Residual Current",
+    "rcType": "RC Type",
+    "breakingCapacity": "Breaking Capacity",
+    "tripUnit": "Trip Unit",
+    "operatingMechanism": "Operating Mechanism",
+    "standard": "Standard",
+    "mountingType": "Mounting Type",
+    "interruptionTechnology": "Interruption Technology",
+    "electricalLife": "Electrical Life",
+    "mechanicalLife": "Mechanical Life",
+    "installation": "Installation"
   }
 }
