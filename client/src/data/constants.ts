@@ -99,12 +99,14 @@ export const getProducts = (t: any) => [
       {
         id: "sensors",
         title: "Sensors & Transducers",
-        description: "Industrial sensors and transducers for measurement and control",
+        description:
+          "Industrial sensors and transducers for measurement and control",
       },
       {
         id: "transmitters",
         title: "Transmitters & Flow Meters",
-        description: "Industrial transmitters and flow meters for process monitoring",
+        description:
+          "Industrial transmitters and flow meters for process monitoring",
       },
       {
         id: "switches",
@@ -124,7 +126,7 @@ export const getProducts = (t: any) => [
     ],
   },
   {
-    id: "electrical-components",
+    id: "electrical-accessories",
     title: t("products:categories.electrical-components.title"),
     description: t("products:categories.electrical-components.description"),
     icon: "Zap",
@@ -816,11 +818,7 @@ export const PRODUCTS = [
       "Advanced measurement instruments for precise monitoring and data acquisition in industrial applications.",
     icon: "Activity",
     image: getProductImage("measurement-instruments")?.src || "",
-    features: [
-      "Digital Multimeters",
-      "Signal Analyzers",
-      "Calibrators",
-    ],
+    features: ["Digital Multimeters", "Signal Analyzers", "Calibrators"],
     subcategories: [
       {
         id: "multimeters",
@@ -1406,14 +1404,18 @@ export const SERVICE_OPTIONS = [
 ];
 
 // Product Groups Helper Functions for Navigation Popup Menu
-export const getProductGroupsBySubcategory = (subcategoryKey: string): ProductGroup[] => {
-  return productGroups.filter(group => group.subcategoryKey === subcategoryKey);
+export const getProductGroupsBySubcategory = (
+  subcategoryKey: string,
+): ProductGroup[] => {
+  return productGroups.filter(
+    (group) => group.subcategoryKey === subcategoryKey,
+  );
 };
 
 // Get all product groups organized by subcategory for efficient lookup
 export const getProductGroupsMap = (): Map<string, ProductGroup[]> => {
   const map = new Map<string, ProductGroup[]>();
-  productGroups.forEach(group => {
+  productGroups.forEach((group) => {
     const existing = map.get(group.subcategoryKey) || [];
     map.set(group.subcategoryKey, [...existing, group]);
   });
@@ -1422,5 +1424,5 @@ export const getProductGroupsMap = (): Map<string, ProductGroup[]> => {
 
 // Check if a subcategory has any product groups
 export const hasProductGroups = (subcategoryKey: string): boolean => {
-  return productGroups.some(group => group.subcategoryKey === subcategoryKey);
+  return productGroups.some((group) => group.subcategoryKey === subcategoryKey);
 };

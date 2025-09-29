@@ -208,7 +208,7 @@ export const productCategoriesData: ProductCategoryData[] = [
     },
   },
   {
-    slug: "electrical-components",
+    slug: "electrical-accessories",
     title: "Electrical Accessories",
     description:
       "Comprehensive range of electrical components for power distribution and control systems",
@@ -219,7 +219,7 @@ export const productCategoriesData: ProductCategoryData[] = [
       "Safety Components",
       "Industrial Grade",
     ],
-    sectionTitle: "Electrical Component Solutions",
+    sectionTitle: "Electrical accessories Solutions",
     gridCols: "grid-cols-1 md:grid-cols-2 lg:grid-cols-3",
     subcategories: [
       {
@@ -308,7 +308,13 @@ export const productCategoriesData: ProductCategoryData[] = [
     description:
       "Professional tools, equipment, and advanced measurement instruments for industrial maintenance, construction, manufacturing operations, and precise monitoring applications",
     backgroundImage: measurementLabImage,
-    badges: ["Hand Tools", "Power Tools", "Digital Multimeters", "Calibrators", "Safety Gear"],
+    badges: [
+      "Hand Tools",
+      "Power Tools",
+      "Digital Multimeters",
+      "Calibrators",
+      "Safety Gear",
+    ],
     sectionTitle: "Tool & Instrument Categories",
     gridCols: "grid-cols-1 md:grid-cols-2 lg:grid-cols-3",
     subcategories: [
@@ -411,7 +417,7 @@ export const productCategoriesData: ProductCategoryData[] = [
     slug: "instrumentation-accessories",
     title: "Instrumentation Accessories",
     description:
-      "High-precision instrumentation components for accurate measurement and control in industrial processes",
+      "High-precision instrumentation accessories for accurate measurement and control in industrial processes",
     backgroundImage: instrumentationLabImage,
     badges: [
       "Pressure Transmitters",
@@ -423,7 +429,7 @@ export const productCategoriesData: ProductCategoryData[] = [
     gridCols: "grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4",
     subcategories: [
       {
-        id: "sensors",
+        id: "sensors-transducers",
         title: "Sensors & Transducers",
         description:
           "Industrial sensors and transducers for temperature, pressure, and flow measurement",
@@ -438,7 +444,8 @@ export const productCategoriesData: ProductCategoryData[] = [
       {
         id: "transmitters",
         title: "Transmitters & Flow Meters",
-        description: "Signal transmitters and flow meters for industrial process measurement",
+        description:
+          "Signal transmitters and flow meters for industrial process measurement",
         icon: Radio,
         features: [
           "Pressure Transmitters",
@@ -688,7 +695,7 @@ export const productCategoriesData: ProductCategoryData[] = [
 
 // Helper function to get category by slug
 export const getCategoryBySlug = (
-  slug: string
+  slug: string,
 ): ProductCategoryData | undefined => {
   return productCategoriesData.find((category) => category.slug === slug);
 };
