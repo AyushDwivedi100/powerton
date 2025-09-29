@@ -6608,8 +6608,8 @@ export const products: Product[] = [
     id: "fluke-753-process-calibrator",
     slug: "fluke-753-process-calibrator",
     categoryKey: "industrial-measuring-tools",
-    subcategoryKey: "calibration-equipment", 
-    groupKey: "process-calibrators",
+    subcategoryKey: "calibration-equipment",
+    typeKey: "process-calibrators",
     image: "process-calibrator",
     specs: {
       manufacturer: "Fluke",
@@ -6635,7 +6635,7 @@ export const products: Product[] = [
     slug: "fluke-754-hart-process-calibrator",
     categoryKey: "industrial-measuring-tools",
     subcategoryKey: "calibration-equipment",
-    groupKey: "process-calibrators",
+    typeKey: "process-calibrators",
     image: "process-calibrator",
     specs: {
       manufacturer: "Fluke",
@@ -6661,7 +6661,7 @@ export const products: Product[] = [
     slug: "fluke-726-process-calibrator",
     categoryKey: "industrial-measuring-tools",
     subcategoryKey: "calibration-equipment",
-    groupKey: "process-calibrators",
+    typeKey: "process-calibrators",
     image: "process-calibrator", 
     specs: {
       manufacturer: "Fluke",
@@ -6689,7 +6689,7 @@ export const products: Product[] = [
     slug: "fluke-707-loop-calibrator",
     categoryKey: "industrial-measuring-tools",
     subcategoryKey: "calibration-equipment",
-    groupKey: "loop-calibrators",
+    typeKey: "loop-calibrators",
     image: "loop-calibrator",
     specs: {
       manufacturer: "Fluke",
@@ -6713,7 +6713,7 @@ export const products: Product[] = [
     slug: "fluke-709-precision-loop-calibrator", 
     categoryKey: "industrial-measuring-tools",
     subcategoryKey: "calibration-equipment",
-    groupKey: "loop-calibrators",
+    typeKey: "loop-calibrators",
     image: "loop-calibrator",
     specs: {
       manufacturer: "Fluke",
@@ -6738,7 +6738,7 @@ export const products: Product[] = [
     slug: "fluke-725-multifunction-loop-calibrator",
     categoryKey: "industrial-measuring-tools", 
     subcategoryKey: "calibration-equipment",
-    groupKey: "loop-calibrators",
+    typeKey: "loop-calibrators",
     image: "loop-calibrator",
     specs: {
       manufacturer: "Fluke",

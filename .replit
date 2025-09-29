@@ -15,6 +15,10 @@ run = ["cd", "client", "&&", "npx", "vite", "preview", "--host", "0.0.0.0", "--p
 localPort = 5000
 externalPort = 80
 
+[[ports]]
+localPort = 43099
+externalPort = 3000
+
 [env]
 PORT = "5000"
 
