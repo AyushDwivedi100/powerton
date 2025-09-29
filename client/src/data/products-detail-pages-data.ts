@@ -726,15 +726,6 @@ export const productGroups: ProductGroup[] = [
     featuredSpecs: ["accuracy", "range", "standards"],
   },
   {
-    key: "calibration-standards",
-    slug: "calibration-standards",
-    title: "Calibration Standards",
-    description: "Primary and secondary calibration standards for metrology laboratories and calibration services. Exceptional long-term stability with comprehensive traceability documentation and certificates.",
-    subcategoryKey: "calibration-equipment",
-    image: "calibration-standard",
-    featuredSpecs: ["accuracy", "stability", "traceability"],
-  },
-  {
     key: "test-equipment",
     slug: "test-equipment",
     title: "Test Equipment",

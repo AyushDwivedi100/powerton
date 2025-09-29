@@ -896,11 +896,6 @@ export const PRODUCT_IMAGES = {
     alt: `${IMAGE_IDS.MEASUREMENT_INSTRUMENTS}: Calibration instrument - Precision calibration tool`,
     id: IMAGE_IDS.MEASUREMENT_INSTRUMENTS
   },
-  'calibration-standard': {
-    src: measurementInstrumentsImage,
-    alt: `${IMAGE_IDS.MEASUREMENT_INSTRUMENTS}: Calibration standard - Reference standard instrument`,
-    id: IMAGE_IDS.MEASUREMENT_INSTRUMENTS
-  },
   'test-equipment': {
     src: measurementInstrumentsImage,
     alt: `${IMAGE_IDS.MEASUREMENT_INSTRUMENTS}: Test equipment - Electronic testing instruments`,
