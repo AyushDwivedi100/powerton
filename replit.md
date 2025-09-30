@@ -3,7 +3,20 @@
 ## Project Overview
 This is a React-based business website for Powerton Engineering Pvt. Ltd., a company specializing in industrial automation, electrical components, instrumentation, and engineering services. The website features a multi-language interface (English, Hindi, Arabic, Spanish, French, and more) and showcases the company's products, services, and projects.
 
-## Recent Changes (September 27, 2025)
+## Recent Changes (September 30, 2025)
+- **Added HART Calibrator Products**: New product group added to Calibration Equipment subcategory
+  - Created "HART Calibrators" product group with comprehensive description covering HART communication protocol support
+  - Added 6 real HART calibrator products from leading manufacturers:
+    - Fluke 754 Documenting Process Calibrator with HART (HART 5, 6, 7 support)
+    - Fluke 709H Precision Loop Calibrator with HART (data logging capability)
+    - Fluke 154 HART Field Communicator (Android tablet-based with WirelessHART)
+    - Beamex MC6 Advanced Field Calibrator (modular system with intrinsically safe version)
+    - Emerson AMS Trex Communicator (current generation HART communicator)
+    - Emerson AMS 475 Field Communicator (legacy product for reference)
+  - All products include real manufacturer specifications, HART protocol versions, and datasheet URLs
+  - Products sourced from web research of current market offerings (2024-2025)
+
+## Previous Changes (September 27, 2025)
 - Successfully imported GitHub project and configured for Replit environment
 - Installed all required dependencies (npm install completed successfully)
 - Fixed tsx command issue by proper dependency installation
