@@ -55,8 +55,9 @@ export const productGroups: ProductGroup[] = [
     key: "pnp-npn-sensors",
     slug: "pnp-npn-sensors",
     title: "PNP/NPN Sensors",
-    description: "Industrial proximity sensors including both PNP and NPN types for automation applications. These sensors provide reliable detection of metallic objects without physical contact, featuring robust construction, high switching frequencies, excellent repeatability, and resistance to electromagnetic interference for demanding industrial environments.",
-    subcategoryKey: "sensors",
+    description:
+      "Industrial proximity sensors including both PNP and NPN types for automation applications. These sensors provide reliable detection of metallic objects without physical contact, featuring robust construction, high switching frequencies, excellent repeatability, and resistance to electromagnetic interference for demanding industrial environments.",
+    subcategoryKey: "sensors-transducers",
     image: "pnp-proximity-sensor",
     featuredSpecs: ["manufacturer", "model", "type"],
   },
@@ -64,8 +65,9 @@ export const productGroups: ProductGroup[] = [
     key: "rtd-thermocouples-sensors",
     slug: "rtd-thermocouples-sensors",
     title: "RTD/Thermocouples Sensors",
-    description: "Temperature sensors including Resistance Temperature Detector (RTD) sensors and industrial thermocouples for precise temperature measurement in industrial processes. RTD sensors available in PT100, PT500, and PT1000 configurations, and thermocouples in J, K, T, E, R, S, and N types. Designed for both precision measurement and high-temperature applications with excellent accuracy, stability, and durability in extreme industrial environments.",
-    subcategoryKey: "sensors",
+    description:
+      "Temperature sensors including Resistance Temperature Detector (RTD) sensors and industrial thermocouples for precise temperature measurement in industrial processes. RTD sensors available in PT100, PT500, and PT1000 configurations, and thermocouples in J, K, T, E, R, S, and N types. Designed for both precision measurement and high-temperature applications with excellent accuracy, stability, and durability in extreme industrial environments.",
+    subcategoryKey: "sensors-transducers",
     image: "rtd-temperature-sensor",
     featuredSpecs: ["manufacturer", "model", "type"],
   },
@@ -73,8 +75,9 @@ export const productGroups: ProductGroup[] = [
     key: "load-cell",
     slug: "load-cell-sensors",
     title: "Load Cell Sensors",
-    description: "Precision load cell sensors for force and weight measurement applications. Available in compression, tension, and universal configurations with high accuracy and excellent long-term stability for industrial weighing systems.",
-    subcategoryKey: "sensors",
+    description:
+      "Precision load cell sensors for force and weight measurement applications. Available in compression, tension, and universal configurations with high accuracy and excellent long-term stability for industrial weighing systems.",
+    subcategoryKey: "sensors-transducers",
     image: "load-cell",
     featuredSpecs: ["manufacturer", "model", "type"],
   },
@@ -82,8 +85,9 @@ export const productGroups: ProductGroup[] = [
     key: "ph-sensors",
     slug: "ph-sensors",
     title: "pH Sensors",
-    description: "Industrial pH sensors for water quality monitoring and process control applications. Glass electrode and ISFET technology options with automatic temperature compensation and digital HART communication capabilities.",
-    subcategoryKey: "sensors",
+    description:
+      "Industrial pH sensors for water quality monitoring and process control applications. Glass electrode and ISFET technology options with automatic temperature compensation and digital HART communication capabilities.",
+    subcategoryKey: "sensors-transducers",
     image: "ph-sensor",
     featuredSpecs: ["manufacturer", "model", "type"],
   },
@@ -93,8 +97,9 @@ export const productGroups: ProductGroup[] = [
     key: "dp-type-transmitter",
     slug: "dp-type-transmitters",
     title: "Differential Pressure Transmitters",
-    description: "High-precision differential pressure transmitters for flow, level, and pressure measurement applications. Features HART communication, digital compensation, and robust construction for demanding industrial environments.",
-    subcategoryKey: "transmitters",
+    description:
+      "High-precision differential pressure transmitters for flow, level, and pressure measurement applications. Features HART communication, digital compensation, and robust construction for demanding industrial environments.",
+    subcategoryKey: "transmitters-flow-meters",
     image: "dp-transmitter-rosemount",
     featuredSpecs: ["manufacturer", "model", "type"],
   },
@@ -102,8 +107,9 @@ export const productGroups: ProductGroup[] = [
     key: "p-type-transmitter",
     slug: "p-type-transmitters",
     title: "Pressure Transmitters",
-    description: "Industrial pressure transmitters for absolute and gauge pressure measurement. Featuring advanced sensor technology, excellent stability, and comprehensive diagnostic capabilities for process automation applications.",
-    subcategoryKey: "transmitters",
+    description:
+      "Industrial pressure transmitters for absolute and gauge pressure measurement. Featuring advanced sensor technology, excellent stability, and comprehensive diagnostic capabilities for process automation applications.",
+    subcategoryKey: "transmitters-flow-meters",
     image: "p-transmitter-siemens",
     featuredSpecs: ["manufacturer", "model", "type"],
   },
@@ -111,8 +117,9 @@ export const productGroups: ProductGroup[] = [
     key: "rs-type-transmitter",
     slug: "rs-type-transmitters",
     title: "Remote Seal Transmitters",
-    description: "Remote seal pressure transmitters for high-temperature, corrosive, or viscous media applications. Capillary-filled systems provide safe and accurate pressure measurement in challenging process conditions.",
-    subcategoryKey: "transmitters",
+    description:
+      "Remote seal pressure transmitters for high-temperature, corrosive, or viscous media applications. Capillary-filled systems provide safe and accurate pressure measurement in challenging process conditions.",
+    subcategoryKey: "transmitters-flow-meters",
     image: "rs-transmitter-rosemount",
     featuredSpecs: ["manufacturer", "model", "type"],
   },
@@ -120,8 +127,9 @@ export const productGroups: ProductGroup[] = [
     key: "magnetic-flow-meter",
     slug: "magnetic-flow-meters",
     title: "Magnetic Flow Meters",
-    description: "Electromagnetic flow meters for conductive liquid measurement with no moving parts. Providing highly accurate flow measurement, minimal pressure drop, and excellent long-term stability for water and chemical applications.",
-    subcategoryKey: "transmitters",
+    description:
+      "Electromagnetic flow meters for conductive liquid measurement with no moving parts. Providing highly accurate flow measurement, minimal pressure drop, and excellent long-term stability for water and chemical applications.",
+    subcategoryKey: "transmitters-flow-meters",
     image: "magnetic-flowmeter-endress",
     featuredSpecs: ["manufacturer", "model", "type"],
   },
@@ -129,8 +137,9 @@ export const productGroups: ProductGroup[] = [
     key: "mass-flow-meter",
     slug: "mass-flow-meters",
     title: "Mass Flow Meters",
-    description: "Coriolis mass flow meters for direct mass flow and density measurement of liquids and gases. Highly accurate measurement independent of fluid properties, temperature, and pressure variations.",
-    subcategoryKey: "transmitters",
+    description:
+      "Coriolis mass flow meters for direct mass flow and density measurement of liquids and gases. Highly accurate measurement independent of fluid properties, temperature, and pressure variations.",
+    subcategoryKey: "transmitters-flow-meters",
     image: "coriolis-flowmeter-endress",
     featuredSpecs: ["manufacturer", "model", "type"],
   },
@@ -138,8 +147,9 @@ export const productGroups: ProductGroup[] = [
     key: "vortex-flow-meter",
     slug: "vortex-flow-meters",
     title: "Vortex Flow Meters",
-    description: "Vortex shedding flow meters for steam, gas, and liquid measurement applications. No moving parts design ensures reliability with built-in temperature compensation and multivariable measurement capabilities.",
-    subcategoryKey: "transmitters",
+    description:
+      "Vortex shedding flow meters for steam, gas, and liquid measurement applications. No moving parts design ensures reliability with built-in temperature compensation and multivariable measurement capabilities.",
+    subcategoryKey: "transmitters-flow-meters",
     image: "vortex-flowmeter-yokogawa",
     featuredSpecs: ["manufacturer", "model", "type"],
   },
@@ -147,8 +157,9 @@ export const productGroups: ProductGroup[] = [
     key: "volumetric-flow-meter",
     slug: "volumetric-flow-meters",
     title: "Volumetric Flow Meters",
-    description: "Positive displacement and ultrasonic volumetric flow meters for precise volume measurement. Ideal for custody transfer, batch operations, and applications requiring high accuracy regardless of flow profile.",
-    subcategoryKey: "transmitters",
+    description:
+      "Positive displacement and ultrasonic volumetric flow meters for precise volume measurement. Ideal for custody transfer, batch operations, and applications requiring high accuracy regardless of flow profile.",
+    subcategoryKey: "transmitters-flow-meters",
     image: "volumetric-flowmeter-abb",
     featuredSpecs: ["manufacturer", "model", "type"],
   },
@@ -160,7 +171,7 @@ export const productGroups: ProductGroup[] = [
     title: "Pressure Switches",
     description:
       "Industrial pressure switches for accurate pressure monitoring and control in automation systems. Available from leading manufacturers like Danfoss, Schneider Electric, WIKA, and ABB.",
-    subcategoryKey: "switches",
+    subcategoryKey: "switches-indicators",
     image: "pressure-switch",
     featuredSpecs: ["manufacturer", "model", "pressureRange", "temperature"],
   },
@@ -170,7 +181,7 @@ export const productGroups: ProductGroup[] = [
     title: "Level Switches",
     description:
       "Point-level detection switches using tuning fork, float, and capacitive technologies. From trusted brands like Endress+Hauser, ABB, and VEGA for reliable liquid and bulk solid level monitoring.",
-    subcategoryKey: "switches",
+    subcategoryKey: "switches-indicators",
     image: "level-switch",
     featuredSpecs: ["manufacturer", "model", "technology", "application"],
   },
@@ -180,7 +191,7 @@ export const productGroups: ProductGroup[] = [
     title: "Limit Switches",
     description:
       "Heavy-duty position sensing switches for industrial automation. From Omron, Schneider Electric, and Siemens with IP67 protection and robust metal construction for reliable operation.",
-    subcategoryKey: "switches",
+    subcategoryKey: "switches-indicators",
     image: "limit-switch",
     featuredSpecs: ["manufacturer", "model", "actuatorType", "ipRating"],
   },
@@ -190,7 +201,7 @@ export const productGroups: ProductGroup[] = [
     title: "Push Buttons",
     description:
       "Industrial push button switches for control panels and machinery. Available in 22mm and 30mm sizes from Schneider Electric, Eaton, ABB, and Siemens with various contact configurations and illumination options.",
-    subcategoryKey: "switches",
+    subcategoryKey: "switches-indicators",
     image: "push-button",
     featuredSpecs: ["manufacturer", "model", "size", "contactType"],
   },
@@ -202,7 +213,7 @@ export const productGroups: ProductGroup[] = [
     title: "Control Valves",
     description:
       "Precision control valves for process automation from Fisher (Emerson), SAMSON, and ABB. Globe, ball, and rotary designs with digital positioners and HART communication capabilities.",
-    subcategoryKey: "valves",
+    subcategoryKey: "valves-actuators",
     image: "control-valve",
     featuredSpecs: ["manufacturer", "model", "valveType", "cvValue"],
   },
@@ -212,7 +223,7 @@ export const productGroups: ProductGroup[] = [
     title: "Solenoid Valves",
     description:
       "Electrically operated valves for fluid control automation. ASCO (Emerson) and Parker Hannifin models for air, water, steam, and various industrial fluids with direct acting and pilot operated designs.",
-    subcategoryKey: "valves",
+    subcategoryKey: "valves-actuators",
     image: "solenoid-valve",
     featuredSpecs: ["manufacturer", "model", "portSize", "pressure"],
   },
@@ -222,7 +233,8 @@ export const productGroups: ProductGroup[] = [
     key: "process-analyzers",
     slug: "process-analyzers",
     title: "Process Analyzers",
-    description: "Advanced process analyzers for real-time monitoring of chemical composition and process parameters. Multi-component analysis with high accuracy and fast response times for critical process control applications.",
+    description:
+      "Advanced process analyzers for real-time monitoring of chemical composition and process parameters. Multi-component analysis with high accuracy and fast response times for critical process control applications.",
     subcategoryKey: "analyzers",
     image: "process-analyzer",
     featuredSpecs: ["manufacturer", "model", "type"],
@@ -231,7 +243,8 @@ export const productGroups: ProductGroup[] = [
     key: "gas-analyzers",
     slug: "gas-analyzers",
     title: "Gas Analyzers",
-    description: "Precision gas analyzers for emissions monitoring, process optimization, and safety applications. Available in portable and fixed configurations with advanced sensor technologies for various gas detection requirements.",
+    description:
+      "Precision gas analyzers for emissions monitoring, process optimization, and safety applications. Available in portable and fixed configurations with advanced sensor technologies for various gas detection requirements.",
     subcategoryKey: "analyzers",
     image: "gas-analyzer",
     featuredSpecs: ["manufacturer", "model", "type"],
@@ -240,7 +253,8 @@ export const productGroups: ProductGroup[] = [
     key: "liquid-analyzers",
     slug: "liquid-analyzers",
     title: "Liquid Analyzers",
-    description: "Comprehensive liquid analyzers for water quality monitoring, chemical process control, and environmental compliance. Multi-parameter analysis with automatic calibration and data logging capabilities.",
+    description:
+      "Comprehensive liquid analyzers for water quality monitoring, chemical process control, and environmental compliance. Multi-parameter analysis with automatic calibration and data logging capabilities.",
     subcategoryKey: "analyzers",
     image: "liquid-analyzer",
     featuredSpecs: ["manufacturer", "model", "type"],
@@ -311,7 +325,8 @@ export const productGroups: ProductGroup[] = [
     key: "standard-ceiling-fans",
     slug: "standard-ceiling-fans",
     title: "Standard BLDC Ceiling Fans",
-    description: "Energy-efficient brushless DC ceiling fans with variable speed control and silent operation. Featuring modern designs, remote control operation, and exceptional energy savings compared to traditional AC motors.",
+    description:
+      "Energy-efficient brushless DC ceiling fans with variable speed control and silent operation. Featuring modern designs, remote control operation, and exceptional energy savings compared to traditional AC motors.",
     subcategoryKey: "bldc-ceiling-fan",
     image: "bldc-ceiling-fan",
     featuredSpecs: ["power", "speed", "airflow"],
@@ -320,7 +335,8 @@ export const productGroups: ProductGroup[] = [
     key: "premium-ceiling-fans",
     slug: "premium-ceiling-fans",
     title: "Premium BLDC Ceiling Fans",
-    description: "High-performance brushless DC ceiling fans with advanced features including smart controls, LED lighting, and superior aerodynamic design. Premium models offer enhanced durability and whisper-quiet operation.",
+    description:
+      "High-performance brushless DC ceiling fans with advanced features including smart controls, LED lighting, and superior aerodynamic design. Premium models offer enhanced durability and whisper-quiet operation.",
     subcategoryKey: "bldc-ceiling-fan",
     image: "bldc-ceiling-fan",
     featuredSpecs: ["power", "speed", "airflow"],
@@ -329,7 +345,8 @@ export const productGroups: ProductGroup[] = [
     key: "commercial-ceiling-fans",
     slug: "commercial-ceiling-fans",
     title: "Commercial BLDC Ceiling Fans",
-    description: "Heavy-duty brushless DC ceiling fans designed for commercial and industrial applications. Robust construction with high airflow capacity, extended operating life, and reduced maintenance requirements.",
+    description:
+      "Heavy-duty brushless DC ceiling fans designed for commercial and industrial applications. Robust construction with high airflow capacity, extended operating life, and reduced maintenance requirements.",
     subcategoryKey: "bldc-ceiling-fan",
     image: "bldc-ceiling-fan",
     featuredSpecs: ["power", "speed", "airflow"],
@@ -338,7 +355,8 @@ export const productGroups: ProductGroup[] = [
     key: "exhaust-fan-motors",
     slug: "exhaust-fan-motors",
     title: "BLDC Exhaust Fan Motors",
-    description: "High-efficiency brushless DC motors for exhaust fan applications. Designed for continuous operation with excellent speed control, low noise levels, and superior energy efficiency for ventilation systems.",
+    description:
+      "High-efficiency brushless DC motors for exhaust fan applications. Designed for continuous operation with excellent speed control, low noise levels, and superior energy efficiency for ventilation systems.",
     subcategoryKey: "bldc-cooler-exhaust-motor",
     image: "bldc-exhaust-motor",
     featuredSpecs: ["power", "voltage", "efficiency"],
@@ -347,7 +365,8 @@ export const productGroups: ProductGroup[] = [
     key: "cooler-motors",
     slug: "cooler-motors",
     title: "BLDC Cooler Motors",
-    description: "Energy-efficient brushless DC motors for air cooler applications. Featuring variable speed control, silent operation, and exceptional reliability for both domestic and commercial cooling systems.",
+    description:
+      "Energy-efficient brushless DC motors for air cooler applications. Featuring variable speed control, silent operation, and exceptional reliability for both domestic and commercial cooling systems.",
     subcategoryKey: "bldc-cooler-exhaust-motor",
     image: "bldc-cooler-motor",
     featuredSpecs: ["power", "voltage", "efficiency"],
@@ -356,7 +375,8 @@ export const productGroups: ProductGroup[] = [
     key: "ventilation-motors",
     slug: "ventilation-motors",
     title: "BLDC Ventilation Motors",
-    description: "Advanced brushless DC motors for ventilation systems with precise speed control and low power consumption. Ideal for HVAC applications requiring quiet operation and energy efficiency.",
+    description:
+      "Advanced brushless DC motors for ventilation systems with precise speed control and low power consumption. Ideal for HVAC applications requiring quiet operation and energy efficiency.",
     subcategoryKey: "bldc-cooler-exhaust-motor",
     image: "bldc-ventilation-motor",
     featuredSpecs: ["power", "voltage", "efficiency"],
@@ -365,7 +385,8 @@ export const productGroups: ProductGroup[] = [
     key: "submersible-pumps",
     slug: "submersible-pumps",
     title: "BLDC Submersible Pumps",
-    description: "Energy-efficient brushless DC submersible pumps for water supply applications. Featuring corrosion-resistant construction, variable speed operation, and exceptional efficiency for borewell and deep water pumping.",
+    description:
+      "Energy-efficient brushless DC submersible pumps for water supply applications. Featuring corrosion-resistant construction, variable speed operation, and exceptional efficiency for borewell and deep water pumping.",
     subcategoryKey: "bldc-submersible-surface-pump",
     image: "bldc-submersible-pump",
     featuredSpecs: ["power", "head", "flow"],
@@ -374,7 +395,8 @@ export const productGroups: ProductGroup[] = [
     key: "surface-pumps",
     slug: "surface-pumps",
     title: "BLDC Surface Pumps",
-    description: "High-efficiency brushless DC surface pumps for water transfer and pressure boosting applications. Compact design with intelligent control features and superior energy savings compared to conventional pumps.",
+    description:
+      "High-efficiency brushless DC surface pumps for water transfer and pressure boosting applications. Compact design with intelligent control features and superior energy savings compared to conventional pumps.",
     subcategoryKey: "bldc-submersible-surface-pump",
     image: "bldc-surface-pump",
     featuredSpecs: ["power", "head", "flow"],
@@ -383,7 +405,8 @@ export const productGroups: ProductGroup[] = [
     key: "hybrid-pumps",
     slug: "hybrid-pumps",
     title: "BLDC Hybrid Pumps",
-    description: "Versatile brushless DC hybrid pumps suitable for both submersible and surface applications. Advanced motor technology with adaptive control systems for optimal performance across various operating conditions.",
+    description:
+      "Versatile brushless DC hybrid pumps suitable for both submersible and surface applications. Advanced motor technology with adaptive control systems for optimal performance across various operating conditions.",
     subcategoryKey: "bldc-submersible-surface-pump",
     image: "bldc-hybrid-pump",
     featuredSpecs: ["power", "head", "flow"],
@@ -392,7 +415,8 @@ export const productGroups: ProductGroup[] = [
     key: "table-fan-motors",
     slug: "table-fan-motors",
     title: "BLDC Table Fan Motors",
-    description: "Compact brushless DC motors for table fan applications with excellent speed control and whisper-quiet operation. Energy-efficient design with extended operational life and minimal maintenance requirements.",
+    description:
+      "Compact brushless DC motors for table fan applications with excellent speed control and whisper-quiet operation. Energy-efficient design with extended operational life and minimal maintenance requirements.",
     subcategoryKey: "bldc-table-fan-wall-fan-motor",
     image: "bldc-table-fan-motor",
     featuredSpecs: ["power", "speed", "voltage"],
@@ -401,7 +425,8 @@ export const productGroups: ProductGroup[] = [
     key: "wall-fan-motors",
     slug: "wall-fan-motors",
     title: "BLDC Wall Fan Motors",
-    description: "Space-saving brushless DC motors for wall-mounted fan applications. Featuring remote control compatibility, multiple speed settings, and energy-efficient operation for residential and commercial use.",
+    description:
+      "Space-saving brushless DC motors for wall-mounted fan applications. Featuring remote control compatibility, multiple speed settings, and energy-efficient operation for residential and commercial use.",
     subcategoryKey: "bldc-table-fan-wall-fan-motor",
     image: "bldc-wall-fan-motor",
     featuredSpecs: ["power", "speed", "voltage"],
@@ -410,7 +435,8 @@ export const productGroups: ProductGroup[] = [
     key: "pedestal-fan-motors",
     slug: "pedestal-fan-motors",
     title: "BLDC Pedestal Fan Motors",
-    description: "Powerful brushless DC motors for pedestal fan applications with adjustable height and oscillation features. Delivering superior airflow with energy-efficient operation and silent performance.",
+    description:
+      "Powerful brushless DC motors for pedestal fan applications with adjustable height and oscillation features. Delivering superior airflow with energy-efficient operation and silent performance.",
     subcategoryKey: "bldc-table-fan-wall-fan-motor",
     image: "bldc-pedestal-fan-motor",
     featuredSpecs: ["power", "speed", "voltage"],
@@ -421,7 +447,8 @@ export const productGroups: ProductGroup[] = [
     key: "power-cables",
     slug: "power-cables",
     title: "Power Cables",
-    description: "High-quality power cables for electrical distribution systems. Available in various conductor sizes and insulation types for low, medium, and high voltage applications with superior electrical and mechanical properties.",
+    description:
+      "High-quality power cables for electrical distribution systems. Available in various conductor sizes and insulation types for low, medium, and high voltage applications with superior electrical and mechanical properties.",
     subcategoryKey: "cables-wires",
     image: "power-cable",
     featuredSpecs: ["conductor", "voltage", "insulation"],
@@ -430,7 +457,8 @@ export const productGroups: ProductGroup[] = [
     key: "control-cables",
     slug: "control-cables",
     title: "Control Cables",
-    description: "Multi-core control cables for automation and instrumentation applications. Featuring excellent electrical properties, electromagnetic interference shielding, and flexible construction for panel wiring and control systems.",
+    description:
+      "Multi-core control cables for automation and instrumentation applications. Featuring excellent electrical properties, electromagnetic interference shielding, and flexible construction for panel wiring and control systems.",
     subcategoryKey: "cables-wires",
     image: "control-cable",
     featuredSpecs: ["conductor", "voltage", "shielding"],
@@ -439,7 +467,8 @@ export const productGroups: ProductGroup[] = [
     key: "instrumentation-cables",
     slug: "instrumentation-cables",
     title: "Instrumentation Cables",
-    description: "Precision instrumentation cables for signal transmission in process control applications. Low capacitance design with excellent noise immunity and individual pair shielding for critical measurement circuits.",
+    description:
+      "Precision instrumentation cables for signal transmission in process control applications. Low capacitance design with excellent noise immunity and individual pair shielding for critical measurement circuits.",
     subcategoryKey: "cables-wires",
     image: "instrumentation-cable",
     featuredSpecs: ["conductor", "voltage", "shielding"],
@@ -448,7 +477,8 @@ export const productGroups: ProductGroup[] = [
     key: "terminal-blocks",
     slug: "terminal-blocks",
     title: "Terminal Blocks",
-    description: "Reliable terminal blocks for electrical connections in control panels and junction boxes. DIN rail mounting with screw, spring, and push-in connection technologies for secure and maintenance-free wiring.",
+    description:
+      "Reliable terminal blocks for electrical connections in control panels and junction boxes. DIN rail mounting with screw, spring, and push-in connection technologies for secure and maintenance-free wiring.",
     subcategoryKey: "connectors-terminals",
     image: "terminal-block",
     featuredSpecs: ["current", "voltage", "connection"],
@@ -457,7 +487,8 @@ export const productGroups: ProductGroup[] = [
     key: "electrical-connectors",
     slug: "electrical-connectors",
     title: "Electrical Connectors",
-    description: "Industrial electrical connectors for power and signal applications. Robust construction with IP-rated protection, multiple contact configurations, and reliable performance in harsh environmental conditions.",
+    description:
+      "Industrial electrical connectors for power and signal applications. Robust construction with IP-rated protection, multiple contact configurations, and reliable performance in harsh environmental conditions.",
     subcategoryKey: "connectors-terminals",
     image: "electrical-connector",
     featuredSpecs: ["current", "voltage", "type"],
@@ -466,7 +497,8 @@ export const productGroups: ProductGroup[] = [
     key: "industrial-plugs",
     slug: "industrial-plugs",
     title: "Industrial Plugs",
-    description: "Heavy-duty industrial plugs and sockets for mobile and stationary electrical equipment. Weatherproof design with mechanical coding, safety interlocks, and high current carrying capacity for industrial applications.",
+    description:
+      "Heavy-duty industrial plugs and sockets for mobile and stationary electrical equipment. Weatherproof design with mechanical coding, safety interlocks, and high current carrying capacity for industrial applications.",
     subcategoryKey: "connectors-terminals",
     image: "industrial-plug",
     featuredSpecs: ["current", "voltage", "protection"],
@@ -475,7 +507,8 @@ export const productGroups: ProductGroup[] = [
     key: "miniature-circuit-breakers",
     slug: "miniature-circuit-breakers",
     title: "Miniature Circuit Breakers (MCBs)",
-    description: "Compact circuit breakers for overload and short circuit protection in residential and light commercial applications. Available in various current ratings and tripping characteristics with reliable thermal-magnetic operation.",
+    description:
+      "Compact circuit breakers for overload and short circuit protection in residential and light commercial applications. Available in various current ratings and tripping characteristics with reliable thermal-magnetic operation.",
     subcategoryKey: "circuit-breakers-fuses",
     image: "mcb",
     featuredSpecs: ["current", "voltage", "poles"],
@@ -484,7 +517,8 @@ export const productGroups: ProductGroup[] = [
     key: "molded-case-breakers",
     slug: "molded-case-breakers",
     title: "Molded Case Circuit Breakers (MCCBs)",
-    description: "Heavy-duty molded case circuit breakers for industrial and commercial electrical distribution. High breaking capacity with adjustable protection settings and optional electronic trip units for enhanced protection.",
+    description:
+      "Heavy-duty molded case circuit breakers for industrial and commercial electrical distribution. High breaking capacity with adjustable protection settings and optional electronic trip units for enhanced protection.",
     subcategoryKey: "circuit-breakers-fuses",
     image: "mccb",
     featuredSpecs: ["current", "voltage", "breaking"],
@@ -493,7 +527,8 @@ export const productGroups: ProductGroup[] = [
     key: "fuses-holders",
     slug: "fuses-holders",
     title: "Fuses and Fuse Holders",
-    description: "Electrical fuses and fuse holders for overcurrent protection in various applications. Available in cartridge, blade, and specialty types with different time-current characteristics and breaking capacities.",
+    description:
+      "Electrical fuses and fuse holders for overcurrent protection in various applications. Available in cartridge, blade, and specialty types with different time-current characteristics and breaking capacities.",
     subcategoryKey: "circuit-breakers-fuses",
     image: "fuse",
     featuredSpecs: ["current", "voltage", "type"],
@@ -502,7 +537,8 @@ export const productGroups: ProductGroup[] = [
     key: "rccb-circuit-breakers",
     slug: "rccb-circuit-breakers",
     title: "Residual Current Circuit Breakers (RCCBs)",
-    description: "Earth leakage circuit breakers providing protection against electrical shock and fire hazards caused by earth faults. Available in 2-pole and 4-pole configurations with various sensitivity ratings for enhanced electrical safety.",
+    description:
+      "Earth leakage circuit breakers providing protection against electrical shock and fire hazards caused by earth faults. Available in 2-pole and 4-pole configurations with various sensitivity ratings for enhanced electrical safety.",
     subcategoryKey: "circuit-breakers-fuses",
     image: "rccb",
     featuredSpecs: ["current", "sensitivity", "poles"],
@@ -511,7 +547,8 @@ export const productGroups: ProductGroup[] = [
     key: "acb-circuit-breakers",
     slug: "acb-circuit-breakers",
     title: "Air Circuit Breakers (ACBs)",
-    description: "High-capacity air circuit breakers for medium and high voltage electrical distribution systems. Features advanced protection functions, remote operation capabilities, and excellent breaking capacity for industrial and utility applications.",
+    description:
+      "High-capacity air circuit breakers for medium and high voltage electrical distribution systems. Features advanced protection functions, remote operation capabilities, and excellent breaking capacity for industrial and utility applications.",
     subcategoryKey: "circuit-breakers-fuses",
     image: "acb",
     featuredSpecs: ["current", "voltage", "breaking"],
@@ -520,7 +557,8 @@ export const productGroups: ProductGroup[] = [
     key: "vcb-circuit-breakers",
     slug: "vcb-circuit-breakers",
     title: "Vacuum Circuit Breakers (VCBs)",
-    description: "Advanced vacuum circuit breakers for medium voltage applications with superior arc quenching technology. Maintenance-free operation with excellent electrical endurance and reliability for power distribution networks.",
+    description:
+      "Advanced vacuum circuit breakers for medium voltage applications with superior arc quenching technology. Maintenance-free operation with excellent electrical endurance and reliability for power distribution networks.",
     subcategoryKey: "circuit-breakers-fuses",
     image: "vcb",
     featuredSpecs: ["current", "voltage", "operations"],
@@ -529,7 +567,8 @@ export const productGroups: ProductGroup[] = [
     key: "ac-dc-converters",
     slug: "ac-dc-converters",
     title: "AC-DC Converters",
-    description: "Switching power supplies for converting AC mains voltage to regulated DC output. High efficiency designs with multiple output options, overvoltage protection, and wide input voltage ranges for industrial applications.",
+    description:
+      "Switching power supplies for converting AC mains voltage to regulated DC output. High efficiency designs with multiple output options, overvoltage protection, and wide input voltage ranges for industrial applications.",
     subcategoryKey: "power-supplies",
     image: "ac-dc-converter",
     featuredSpecs: ["input", "output", "power"],
@@ -538,7 +577,8 @@ export const productGroups: ProductGroup[] = [
     key: "dc-dc-converters",
     slug: "dc-dc-converters",
     title: "DC-DC Converters",
-    description: "Isolated and non-isolated DC-DC converters for voltage conversion in electronic systems. Compact designs with high efficiency, low ripple, and various input/output voltage combinations for demanding applications.",
+    description:
+      "Isolated and non-isolated DC-DC converters for voltage conversion in electronic systems. Compact designs with high efficiency, low ripple, and various input/output voltage combinations for demanding applications.",
     subcategoryKey: "power-supplies",
     image: "dc-dc-converter",
     featuredSpecs: ["input", "output", "power"],
@@ -547,7 +587,8 @@ export const productGroups: ProductGroup[] = [
     key: "ups-systems",
     slug: "ups-systems",
     title: "UPS Systems",
-    description: "Uninterruptible Power Supply systems for critical equipment protection. Online, line-interactive, and standby topologies with battery backup, power conditioning, and network management capabilities for business continuity.",
+    description:
+      "Uninterruptible Power Supply systems for critical equipment protection. Online, line-interactive, and standby topologies with battery backup, power conditioning, and network management capabilities for business continuity.",
     subcategoryKey: "power-supplies",
     image: "ups",
     featuredSpecs: ["power", "backup", "efficiency"],
@@ -556,7 +597,8 @@ export const productGroups: ProductGroup[] = [
     key: "electrical-cabinets",
     slug: "electrical-cabinets",
     title: "Electrical Cabinets",
-    description: "Robust electrical cabinets and enclosures for housing control equipment and electrical components. Available in various materials and IP ratings with modular designs for easy installation and maintenance.",
+    description:
+      "Robust electrical cabinets and enclosures for housing control equipment and electrical components. Available in various materials and IP ratings with modular designs for easy installation and maintenance.",
     subcategoryKey: "enclosures-cabinets",
     image: "electrical-cabinet",
     featuredSpecs: ["dimensions", "material", "protection"],
@@ -565,7 +607,8 @@ export const productGroups: ProductGroup[] = [
     key: "junction-boxes",
     slug: "junction-boxes",
     title: "Junction Boxes",
-    description: "Weatherproof junction boxes for electrical connections and cable terminations. Multiple entry options with various materials and environmental protection ratings for indoor and outdoor installations.",
+    description:
+      "Weatherproof junction boxes for electrical connections and cable terminations. Multiple entry options with various materials and environmental protection ratings for indoor and outdoor installations.",
     subcategoryKey: "enclosures-cabinets",
     image: "junction-box",
     featuredSpecs: ["dimensions", "material", "protection"],
@@ -574,7 +617,8 @@ export const productGroups: ProductGroup[] = [
     key: "din-rail-enclosures",
     slug: "din-rail-enclosures",
     title: "DIN Rail Enclosures",
-    description: "Modular DIN rail enclosures for housing automation components and control devices. Plastic and metal construction with snap-on design for easy assembly and professional panel integration.",
+    description:
+      "Modular DIN rail enclosures for housing automation components and control devices. Plastic and metal construction with snap-on design for easy assembly and professional panel integration.",
     subcategoryKey: "enclosures-cabinets",
     image: "din-rail-enclosure",
     featuredSpecs: ["modules", "dimensions", "material"],
@@ -583,7 +627,8 @@ export const productGroups: ProductGroup[] = [
     key: "heating-coils",
     slug: "heating-coils",
     title: "Heating Coils",
-    description: "Industrial heating coils for process heating applications. Available in various configurations including finned, cartridge, and band heaters with precise temperature control and high thermal efficiency.",
+    description:
+      "Industrial heating coils for process heating applications. Available in various configurations including finned, cartridge, and band heaters with precise temperature control and high thermal efficiency.",
     subcategoryKey: "heating-elements-appliances",
     image: "heating-coil",
     featuredSpecs: ["power", "voltage", "temperature"],
@@ -592,7 +637,8 @@ export const productGroups: ProductGroup[] = [
     key: "heating-elements",
     slug: "heating-elements",
     title: "Heating Elements",
-    description: "Electric heating elements for industrial and commercial applications. Tubular, ceramic, and flexible designs with various watt densities and sheath materials for optimal heat transfer and durability.",
+    description:
+      "Electric heating elements for industrial and commercial applications. Tubular, ceramic, and flexible designs with various watt densities and sheath materials for optimal heat transfer and durability.",
     subcategoryKey: "heating-elements-appliances",
     image: "heating-element",
     featuredSpecs: ["power", "voltage", "temperature"],
@@ -601,7 +647,8 @@ export const productGroups: ProductGroup[] = [
     key: "industrial-heaters",
     slug: "industrial-heaters",
     title: "Industrial Heaters",
-    description: "Heavy-duty industrial heaters for process applications including immersion, circulation, and radiant heaters. Designed for harsh environments with explosion-proof options and advanced temperature control.",
+    description:
+      "Heavy-duty industrial heaters for process applications including immersion, circulation, and radiant heaters. Designed for harsh environments with explosion-proof options and advanced temperature control.",
     subcategoryKey: "heating-elements-appliances",
     image: "industrial-heater",
     featuredSpecs: ["power", "voltage", "application"],
@@ -612,7 +659,8 @@ export const productGroups: ProductGroup[] = [
     key: "digital-multimeters",
     slug: "digital-multimeters",
     title: "Digital Multimeters",
-    description: "Precision digital multimeters for electrical measurements including voltage, current, resistance, and frequency. True RMS capability with data logging, computer connectivity, and advanced measurement functions.",
+    description:
+      "Precision digital multimeters for electrical measurements including voltage, current, resistance, and frequency. True RMS capability with data logging, computer connectivity, and advanced measurement functions.",
     subcategoryKey: "multimeters",
     image: "digital-multimeter",
     featuredSpecs: ["accuracy", "range", "features"],
@@ -621,7 +669,8 @@ export const productGroups: ProductGroup[] = [
     key: "clamp-meters",
     slug: "clamp-meters",
     title: "Clamp Meters",
-    description: "Non-contact current measurement clamp meters for electrical troubleshooting and maintenance. AC/DC current measurement with voltage, resistance, and power measurement capabilities in portable handheld designs.",
+    description:
+      "Non-contact current measurement clamp meters for electrical troubleshooting and maintenance. AC/DC current measurement with voltage, resistance, and power measurement capabilities in portable handheld designs.",
     subcategoryKey: "multimeters",
     image: "clamp-meter",
     featuredSpecs: ["current", "voltage", "jaw"],
@@ -630,7 +679,8 @@ export const productGroups: ProductGroup[] = [
     key: "bench-multimeters",
     slug: "bench-multimeters",
     title: "Bench Multimeters",
-    description: "High-precision bench multimeters for laboratory and calibration applications. Superior accuracy and resolution with computer interfaces, statistical functions, and automated measurement capabilities.",
+    description:
+      "High-precision bench multimeters for laboratory and calibration applications. Superior accuracy and resolution with computer interfaces, statistical functions, and automated measurement capabilities.",
     subcategoryKey: "multimeters",
     image: "bench-multimeter",
     featuredSpecs: ["accuracy", "resolution", "features"],
@@ -639,7 +689,8 @@ export const productGroups: ProductGroup[] = [
     key: "digital-oscilloscopes",
     slug: "digital-oscilloscopes",
     title: "Digital Oscilloscopes",
-    description: "Advanced digital storage oscilloscopes for waveform analysis and signal measurement. High bandwidth, fast sampling rates, and comprehensive measurement functions with touchscreen interfaces and data analysis capabilities.",
+    description:
+      "Advanced digital storage oscilloscopes for waveform analysis and signal measurement. High bandwidth, fast sampling rates, and comprehensive measurement functions with touchscreen interfaces and data analysis capabilities.",
     subcategoryKey: "oscilloscopes",
     image: "digital-oscilloscope",
     featuredSpecs: ["bandwidth", "channels", "sampling"],
@@ -648,7 +699,8 @@ export const productGroups: ProductGroup[] = [
     key: "mixed-signal-oscilloscopes",
     slug: "mixed-signal-oscilloscopes",
     title: "Mixed Signal Oscilloscopes",
-    description: "Advanced mixed signal oscilloscopes combining analog and digital channels for comprehensive signal analysis. Simultaneous analog waveform and digital logic state capture with protocol decoding and advanced triggering capabilities.",
+    description:
+      "Advanced mixed signal oscilloscopes combining analog and digital channels for comprehensive signal analysis. Simultaneous analog waveform and digital logic state capture with protocol decoding and advanced triggering capabilities.",
     subcategoryKey: "oscilloscopes",
     image: "mixed-signal-oscilloscope",
     featuredSpecs: ["bandwidth", "channels", "logic"],
@@ -657,7 +709,8 @@ export const productGroups: ProductGroup[] = [
     key: "portable-oscilloscopes",
     slug: "portable-oscilloscopes",
     title: "Portable Oscilloscopes",
-    description: "Compact handheld oscilloscopes for field measurements and mobile applications. Battery-powered operation with rugged construction, automotive measurements, and remote monitoring capabilities.",
+    description:
+      "Compact handheld oscilloscopes for field measurements and mobile applications. Battery-powered operation with rugged construction, automotive measurements, and remote monitoring capabilities.",
     subcategoryKey: "oscilloscopes",
     image: "portable-oscilloscope",
     featuredSpecs: ["bandwidth", "battery", "size"],
@@ -666,7 +719,8 @@ export const productGroups: ProductGroup[] = [
     key: "rf-spectrum-analyzers",
     slug: "rf-spectrum-analyzers",
     title: "RF Spectrum Analyzers",
-    description: "High-performance RF and microwave spectrum analyzers for wireless communication testing, EMC compliance, and signal analysis. Wide frequency coverage with excellent dynamic range and measurement speed.",
+    description:
+      "High-performance RF and microwave spectrum analyzers for wireless communication testing, EMC compliance, and signal analysis. Wide frequency coverage with excellent dynamic range and measurement speed.",
     subcategoryKey: "spectrum-analyzers",
     image: "rf-spectrum-analyzer",
     featuredSpecs: ["frequency", "resolution", "sensitivity"],
@@ -675,7 +729,8 @@ export const productGroups: ProductGroup[] = [
     key: "audio-spectrum-analyzers",
     slug: "audio-spectrum-analyzers",
     title: "Audio Spectrum Analyzers",
-    description: "Precision audio analyzers for acoustic measurements, sound quality testing, and audio system optimization. Real-time FFT analysis with THD, noise, and distortion measurement capabilities.",
+    description:
+      "Precision audio analyzers for acoustic measurements, sound quality testing, and audio system optimization. Real-time FFT analysis with THD, noise, and distortion measurement capabilities.",
     subcategoryKey: "spectrum-analyzers",
     image: "audio-spectrum-analyzer",
     featuredSpecs: ["frequency", "dynamic", "channels"],
@@ -684,7 +739,8 @@ export const productGroups: ProductGroup[] = [
     key: "real-time-analyzers",
     slug: "real-time-analyzers",
     title: "Real-Time Analyzers",
-    description: "Real-time spectrum analyzers for continuous signal monitoring and transient event capture. 100% probability of intercept with advanced triggering and signal intelligence capabilities.",
+    description:
+      "Real-time spectrum analyzers for continuous signal monitoring and transient event capture. 100% probability of intercept with advanced triggering and signal intelligence capabilities.",
     subcategoryKey: "spectrum-analyzers",
     image: "real-time-analyzer",
     featuredSpecs: ["bandwidth", "time", "resolution"],
@@ -693,7 +749,8 @@ export const productGroups: ProductGroup[] = [
     key: "power-meters",
     slug: "power-meters",
     title: "Power Meters",
-    description: "High-precision power meters for electrical power measurement and analysis. Multi-phase capability with comprehensive power parameters including active, reactive, and apparent power measurements.",
+    description:
+      "High-precision power meters for electrical power measurement and analysis. Multi-phase capability with comprehensive power parameters including active, reactive, and apparent power measurements.",
     subcategoryKey: "power-quality-analyzers",
     image: "power-meter",
     featuredSpecs: ["accuracy", "phases", "parameters"],
@@ -702,7 +759,8 @@ export const productGroups: ProductGroup[] = [
     key: "harmonic-analyzers",
     slug: "harmonic-analyzers",
     title: "Harmonic Analyzers",
-    description: "Advanced harmonic analyzers for power quality assessment and IEEE 519 compliance testing. Real-time harmonic analysis up to the 50th order with comprehensive reporting capabilities.",
+    description:
+      "Advanced harmonic analyzers for power quality assessment and IEEE 519 compliance testing. Real-time harmonic analysis up to the 50th order with comprehensive reporting capabilities.",
     subcategoryKey: "power-quality-analyzers",
     image: "harmonic-analyzer",
     featuredSpecs: ["harmonics", "phases", "memory"],
@@ -711,7 +769,8 @@ export const productGroups: ProductGroup[] = [
     key: "energy-loggers",
     slug: "energy-loggers",
     title: "Energy Loggers",
-    description: "Multi-channel energy data loggers for long-term power consumption monitoring and energy management. Wireless communication with cloud connectivity and automated reporting features.",
+    description:
+      "Multi-channel energy data loggers for long-term power consumption monitoring and energy management. Wireless communication with cloud connectivity and automated reporting features.",
     subcategoryKey: "power-quality-analyzers",
     image: "energy-logger",
     featuredSpecs: ["channels", "memory", "communication"],
@@ -720,7 +779,8 @@ export const productGroups: ProductGroup[] = [
     key: "calibration-instruments",
     slug: "calibration-instruments",
     title: "Calibration Instruments",
-    description: "Precision calibration instruments for electrical, temperature, pressure, and process parameter calibration. NIST-traceable accuracy with automated calibration procedures and documentation.",
+    description:
+      "Precision calibration instruments for electrical, temperature, pressure, and process parameter calibration. NIST-traceable accuracy with automated calibration procedures and documentation.",
     subcategoryKey: "calibration-equipment",
     image: "calibration-instrument",
     featuredSpecs: ["accuracy", "range", "standards"],
@@ -729,7 +789,8 @@ export const productGroups: ProductGroup[] = [
     key: "test-equipment",
     slug: "test-equipment",
     title: "Test Equipment",
-    description: "General purpose test and measurement equipment for laboratory and field applications. Versatile instruments for electrical, electronic, and mechanical testing with portable and benchtop configurations.",
+    description:
+      "General purpose test and measurement equipment for laboratory and field applications. Versatile instruments for electrical, electronic, and mechanical testing with portable and benchtop configurations.",
     subcategoryKey: "calibration-equipment",
     image: "test-equipment",
     featuredSpecs: ["function", "accuracy", "portability"],
@@ -738,7 +799,8 @@ export const productGroups: ProductGroup[] = [
     key: "process-calibrators",
     slug: "process-calibrators",
     title: "Process Calibrators",
-    description: "Multifunction process calibrators for comprehensive field and laboratory calibration of process instrumentation. Features pressure, temperature, and electrical signal calibration with HART communication, data logging, and automated procedures for enhanced calibration efficiency.",
+    description:
+      "Multifunction process calibrators for comprehensive field and laboratory calibration of process instrumentation. Features pressure, temperature, and electrical signal calibration with HART communication, data logging, and automated procedures for enhanced calibration efficiency.",
     subcategoryKey: "calibration-equipment",
     image: "process-calibrator",
     featuredSpecs: ["manufacturer", "model", "type"],
@@ -747,7 +809,8 @@ export const productGroups: ProductGroup[] = [
     key: "loop-calibrators",
     slug: "loop-calibrators",
     title: "Loop Calibrators",
-    description: "Precision mA loop calibrators for testing and troubleshooting 4-20mA current loops and process control systems. Handheld instruments providing loop power, current measurement, and signal simulation for comprehensive loop diagnostics in field and workshop environments.",
+    description:
+      "Precision mA loop calibrators for testing and troubleshooting 4-20mA current loops and process control systems. Handheld instruments providing loop power, current measurement, and signal simulation for comprehensive loop diagnostics in field and workshop environments.",
     subcategoryKey: "calibration-equipment",
     image: "loop-calibrator",
     featuredSpecs: ["manufacturer", "model", "accuracy"],
@@ -756,7 +819,8 @@ export const productGroups: ProductGroup[] = [
     key: "mechanical-tools",
     slug: "mechanical-tools",
     title: "Mechanical Tools",
-    description: "Professional mechanical hand tools for assembly, maintenance, and repair operations. High-quality steel construction with ergonomic designs for industrial and automotive applications.",
+    description:
+      "Professional mechanical hand tools for assembly, maintenance, and repair operations. High-quality steel construction with ergonomic designs for industrial and automotive applications.",
     subcategoryKey: "hand-tools",
     image: "mechanical-tools",
     featuredSpecs: ["material", "size", "application"],
@@ -765,7 +829,8 @@ export const productGroups: ProductGroup[] = [
     key: "electrical-tools",
     slug: "electrical-tools",
     title: "Electrical Tools",
-    description: "Insulated electrical tools for safe work on live circuits and electrical installations. VDE certified with high voltage protection ratings and ergonomic grips for electrician safety.",
+    description:
+      "Insulated electrical tools for safe work on live circuits and electrical installations. VDE certified with high voltage protection ratings and ergonomic grips for electrician safety.",
     subcategoryKey: "hand-tools",
     image: "electrical-tools",
     featuredSpecs: ["insulation", "voltage", "material"],
@@ -774,7 +839,8 @@ export const productGroups: ProductGroup[] = [
     key: "precision-tools",
     slug: "precision-tools",
     title: "Precision Tools",
-    description: "High-precision measurement and machining tools for accuracy-critical applications. Calibrated instruments with tight tolerances for quality control and precision manufacturing.",
+    description:
+      "High-precision measurement and machining tools for accuracy-critical applications. Calibrated instruments with tight tolerances for quality control and precision manufacturing.",
     subcategoryKey: "hand-tools",
     image: "precision-tools",
     featuredSpecs: ["tolerance", "material", "accuracy"],
@@ -783,7 +849,8 @@ export const productGroups: ProductGroup[] = [
     key: "electric-drills",
     slug: "electric-drills",
     title: "Electric Drills",
-    description: "Heavy-duty electric drills for drilling, driving, and fastening applications. Variable speed control with keyless chucks and high-torque motors for professional construction and industrial use.",
+    description:
+      "Heavy-duty electric drills for drilling, driving, and fastening applications. Variable speed control with keyless chucks and high-torque motors for professional construction and industrial use.",
     subcategoryKey: "power-tools",
     image: "electric-drill",
     featuredSpecs: ["power", "chuck", "speed"],
@@ -792,7 +859,8 @@ export const productGroups: ProductGroup[] = [
     key: "angle-grinders",
     slug: "angle-grinders",
     title: "Angle Grinders",
-    description: "Heavy-duty angle grinders for cutting, grinding, and polishing applications. High-power motors with safety guards and anti-vibration systems for extended operation in industrial environments.",
+    description:
+      "Heavy-duty angle grinders for cutting, grinding, and polishing applications. High-power motors with safety guards and anti-vibration systems for extended operation in industrial environments.",
     subcategoryKey: "power-tools",
     image: "angle-grinder",
     featuredSpecs: ["power", "disc", "speed"],
@@ -801,7 +869,8 @@ export const productGroups: ProductGroup[] = [
     key: "impact-drivers",
     slug: "impact-drivers",
     title: "Impact Drivers",
-    description: "High-torque impact drivers for heavy-duty fastening applications. Brushless motors with variable speed control and LED lighting for precise driving in construction and assembly work.",
+    description:
+      "High-torque impact drivers for heavy-duty fastening applications. Brushless motors with variable speed control and LED lighting for precise driving in construction and assembly work.",
     subcategoryKey: "power-tools",
     image: "impact-driver",
     featuredSpecs: ["torque", "power", "battery"],
@@ -810,7 +879,8 @@ export const productGroups: ProductGroup[] = [
     key: "cutting-blades",
     slug: "cutting-blades",
     title: "Cutting Blades",
-    description: "Premium cutting blades for metal, wood, and masonry applications. Carbide-tipped and diamond-coated options with optimized tooth geometry for clean cuts and extended blade life.",
+    description:
+      "Premium cutting blades for metal, wood, and masonry applications. Carbide-tipped and diamond-coated options with optimized tooth geometry for clean cuts and extended blade life.",
     subcategoryKey: "cutting-tools",
     image: "cutting-blade",
     featuredSpecs: ["material", "diameter", "thickness"],
@@ -819,7 +889,8 @@ export const productGroups: ProductGroup[] = [
     key: "drill-bits",
     slug: "drill-bits",
     title: "Drill Bits",
-    description: "High-performance drill bits for steel, stainless steel, and hard materials. Cobalt and carbide construction with specialized coatings for superior drilling performance and extended tool life.",
+    description:
+      "High-performance drill bits for steel, stainless steel, and hard materials. Cobalt and carbide construction with specialized coatings for superior drilling performance and extended tool life.",
     subcategoryKey: "cutting-tools",
     image: "drill-bit",
     featuredSpecs: ["material", "diameter", "coating"],
@@ -828,7 +899,8 @@ export const productGroups: ProductGroup[] = [
     key: "milling-cutters",
     slug: "milling-cutters",
     title: "Milling Cutters",
-    description: "Precision milling cutters for CNC and manual machining operations. Solid carbide and HSS construction with various flute configurations for optimal material removal and surface finish.",
+    description:
+      "Precision milling cutters for CNC and manual machining operations. Solid carbide and HSS construction with various flute configurations for optimal material removal and surface finish.",
     subcategoryKey: "cutting-tools",
     image: "milling-cutter",
     featuredSpecs: ["material", "diameter", "flutes"],
@@ -837,7 +909,8 @@ export const productGroups: ProductGroup[] = [
     key: "chain-hoists",
     slug: "chain-hoists",
     title: "Chain Hoists",
-    description: "Heavy-duty chain hoists for vertical lifting applications in industrial and construction environments. Manual and electric models with overload protection and precise load positioning capabilities.",
+    description:
+      "Heavy-duty chain hoists for vertical lifting applications in industrial and construction environments. Manual and electric models with overload protection and precise load positioning capabilities.",
     subcategoryKey: "lifting-equipment",
     image: "chain-hoist",
     featuredSpecs: ["capacity", "lift", "operation"],
@@ -846,7 +919,8 @@ export const productGroups: ProductGroup[] = [
     key: "wire-rope-hoists",
     slug: "wire-rope-hoists",
     title: "Wire Rope Hoists",
-    description: "High-capacity wire rope hoists for heavy lifting operations and material handling systems. Electric operation with variable speed control and advanced safety features for demanding applications.",
+    description:
+      "High-capacity wire rope hoists for heavy lifting operations and material handling systems. Electric operation with variable speed control and advanced safety features for demanding applications.",
     subcategoryKey: "lifting-equipment",
     image: "wire-rope-hoist",
     featuredSpecs: ["capacity", "lift", "speed"],
@@ -855,7 +929,8 @@ export const productGroups: ProductGroup[] = [
     key: "jib-cranes",
     slug: "jib-cranes",
     title: "Jib Cranes",
-    description: "Versatile jib cranes for localized lifting and material positioning in workshops and production areas. Wall-mounted and freestanding configurations with 180° or 360° rotation capability.",
+    description:
+      "Versatile jib cranes for localized lifting and material positioning in workshops and production areas. Wall-mounted and freestanding configurations with 180° or 360° rotation capability.",
     subcategoryKey: "lifting-equipment",
     image: "jib-crane",
     featuredSpecs: ["capacity", "reach", "rotation"],
@@ -864,7 +939,8 @@ export const productGroups: ProductGroup[] = [
     key: "personal-protective-equipment",
     slug: "personal-protective-equipment",
     title: "Personal Protective Equipment",
-    description: "Comprehensive personal protective equipment for workplace safety including helmets, gloves, safety glasses, and protective clothing. ANSI and OSHA compliant with various protection levels.",
+    description:
+      "Comprehensive personal protective equipment for workplace safety including helmets, gloves, safety glasses, and protective clothing. ANSI and OSHA compliant with various protection levels.",
     subcategoryKey: "safety-equipment",
     image: "ppe",
     featuredSpecs: ["standard", "material", "protection"],
@@ -873,7 +949,8 @@ export const productGroups: ProductGroup[] = [
     key: "safety-barriers",
     slug: "safety-barriers",
     title: "Safety Barriers",
-    description: "Industrial safety barriers and guardrails for workplace hazard protection and perimeter control. Modular design with high-visibility colors and impact-resistant construction for pedestrian and equipment safety.",
+    description:
+      "Industrial safety barriers and guardrails for workplace hazard protection and perimeter control. Modular design with high-visibility colors and impact-resistant construction for pedestrian and equipment safety.",
     subcategoryKey: "safety-equipment",
     image: "safety-barrier",
     featuredSpecs: ["height", "material", "application"],
@@ -882,7 +959,8 @@ export const productGroups: ProductGroup[] = [
     key: "emergency-equipment",
     slug: "emergency-equipment",
     title: "Emergency Equipment",
-    description: "Essential emergency response equipment including eyewash stations, safety showers, first aid supplies, and emergency communication systems. ANSI Z358.1 compliant with self-contained and plumbed options.",
+    description:
+      "Essential emergency response equipment including eyewash stations, safety showers, first aid supplies, and emergency communication systems. ANSI Z358.1 compliant with self-contained and plumbed options.",
     subcategoryKey: "safety-equipment",
     image: "emergency-equipment",
     featuredSpecs: ["type", "capacity", "standards"],
@@ -893,7 +971,8 @@ export const productGroups: ProductGroup[] = [
     key: "monocrystalline-panels",
     slug: "monocrystalline-panels",
     title: "Monocrystalline Solar Panels",
-    description: "High-efficiency monocrystalline solar panels with superior power output and space utilization. Premium silicon cells with anti-reflective coating and robust aluminum frames for residential and commercial installations.",
+    description:
+      "High-efficiency monocrystalline solar panels with superior power output and space utilization. Premium silicon cells with anti-reflective coating and robust aluminum frames for residential and commercial installations.",
     subcategoryKey: "solar-panels",
     image: "monocrystalline-panel",
     featuredSpecs: ["power", "efficiency", "voltage"],
@@ -902,7 +981,8 @@ export const productGroups: ProductGroup[] = [
     key: "polycrystalline-panels",
     slug: "polycrystalline-panels",
     title: "Polycrystalline Solar Panels",
-    description: "Cost-effective polycrystalline solar panels offering reliable performance and good value for large-scale installations. Durable construction with excellent temperature coefficient and proven long-term reliability.",
+    description:
+      "Cost-effective polycrystalline solar panels offering reliable performance and good value for large-scale installations. Durable construction with excellent temperature coefficient and proven long-term reliability.",
     subcategoryKey: "solar-panels",
     image: "polycrystalline-panel",
     featuredSpecs: ["power", "efficiency", "voltage"],
@@ -911,7 +991,8 @@ export const productGroups: ProductGroup[] = [
     key: "thin-film-panels",
     slug: "thin-film-panels",
     title: "Thin Film Solar Panels",
-    description: "Flexible thin-film solar panels with amorphous silicon and CIGS technology for unique applications. Lightweight design with superior low-light performance and aesthetic integration options.",
+    description:
+      "Flexible thin-film solar panels with amorphous silicon and CIGS technology for unique applications. Lightweight design with superior low-light performance and aesthetic integration options.",
     subcategoryKey: "solar-panels",
     image: "thin-film-panel",
     featuredSpecs: ["power", "efficiency", "technology"],
@@ -920,7 +1001,8 @@ export const productGroups: ProductGroup[] = [
     key: "string-inverters",
     slug: "string-inverters",
     title: "String Inverters",
-    description: "High-efficiency string inverters for solar PV systems with maximum power point tracking and comprehensive monitoring capabilities. Robust design with wide input voltage range and grid-tie functionality.",
+    description:
+      "High-efficiency string inverters for solar PV systems with maximum power point tracking and comprehensive monitoring capabilities. Robust design with wide input voltage range and grid-tie functionality.",
     subcategoryKey: "solar-inverters",
     image: "string-inverter",
     featuredSpecs: ["power", "efficiency", "mppt"],
@@ -929,7 +1011,8 @@ export const productGroups: ProductGroup[] = [
     key: "micro-inverters",
     slug: "micro-inverters",
     title: "Micro Inverters",
-    description: "Module-level micro inverters for maximum energy harvest and individual panel monitoring. Rapid shutdown compliance with enhanced safety features and simplified installation procedures.",
+    description:
+      "Module-level micro inverters for maximum energy harvest and individual panel monitoring. Rapid shutdown compliance with enhanced safety features and simplified installation procedures.",
     subcategoryKey: "solar-inverters",
     image: "micro-inverter",
     featuredSpecs: ["power", "efficiency", "monitoring"],
@@ -938,7 +1021,8 @@ export const productGroups: ProductGroup[] = [
     key: "power-optimizers",
     slug: "power-optimizers",
     title: "Power Optimizers",
-    description: "DC power optimizers for enhanced solar system performance with module-level MPPT and monitoring. Mitigates shading and mismatch losses while maintaining string inverter economics.",
+    description:
+      "DC power optimizers for enhanced solar system performance with module-level MPPT and monitoring. Mitigates shading and mismatch losses while maintaining string inverter economics.",
     subcategoryKey: "solar-inverters",
     image: "power-optimizer",
     featuredSpecs: ["power", "efficiency", "monitoring"],
@@ -949,7 +1033,8 @@ export const productGroups: ProductGroup[] = [
     key: "modular-plcs",
     slug: "modular-plcs",
     title: "Modular PLCs",
-    description: "Scalable modular programmable logic controllers for complex automation systems. Expandable I/O configurations with advanced communication capabilities and high-speed processing for industrial control applications.",
+    description:
+      "Scalable modular programmable logic controllers for complex automation systems. Expandable I/O configurations with advanced communication capabilities and high-speed processing for industrial control applications.",
     subcategoryKey: "plcs",
     image: "modular-plc",
     featuredSpecs: ["io", "memory", "communication"],
@@ -958,7 +1043,8 @@ export const productGroups: ProductGroup[] = [
     key: "compact-plcs",
     slug: "compact-plcs",
     title: "Compact PLCs",
-    description: "Space-saving compact programmable logic controllers for small to medium automation applications. Integrated I/O with built-in communication interfaces and user-friendly programming software.",
+    description:
+      "Space-saving compact programmable logic controllers for small to medium automation applications. Integrated I/O with built-in communication interfaces and user-friendly programming software.",
     subcategoryKey: "plcs",
     image: "compact-plc",
     featuredSpecs: ["io", "memory", "size"],
@@ -967,7 +1053,8 @@ export const productGroups: ProductGroup[] = [
     key: "micro-plcs",
     slug: "micro-plcs",
     title: "Micro PLCs",
-    description: "Ultra-compact micro programmable logic controllers for simple automation tasks. Cost-effective solution with essential I/O capabilities and basic communication functions for small machine control.",
+    description:
+      "Ultra-compact micro programmable logic controllers for simple automation tasks. Cost-effective solution with essential I/O capabilities and basic communication functions for small machine control.",
     subcategoryKey: "plcs",
     image: "micro-plc",
     featuredSpecs: ["io", "memory", "applications"],
@@ -976,7 +1063,8 @@ export const productGroups: ProductGroup[] = [
     key: "scada-software",
     slug: "scada-software",
     title: "SCADA Software",
-    description: "Comprehensive supervisory control and data acquisition software for industrial process monitoring and control. Real-time data visualization with alarm management and historical trending capabilities.",
+    description:
+      "Comprehensive supervisory control and data acquisition software for industrial process monitoring and control. Real-time data visualization with alarm management and historical trending capabilities.",
     subcategoryKey: "scada",
     image: "scada-software",
     featuredSpecs: ["tags", "clients", "features"],
@@ -985,7 +1073,8 @@ export const productGroups: ProductGroup[] = [
     key: "scada-hardware",
     slug: "scada-hardware",
     title: "SCADA Hardware",
-    description: "Industrial-grade SCADA hardware platforms for reliable data acquisition and control operations. Rugged construction with redundant communication paths and hot-swappable components for maximum uptime.",
+    description:
+      "Industrial-grade SCADA hardware platforms for reliable data acquisition and control operations. Rugged construction with redundant communication paths and hot-swappable components for maximum uptime.",
     subcategoryKey: "scada",
     image: "scada-hardware",
     featuredSpecs: ["performance", "redundancy", "connectivity"],
@@ -994,7 +1083,8 @@ export const productGroups: ProductGroup[] = [
     key: "scada-gateways",
     slug: "scada-gateways",
     title: "SCADA Gateways",
-    description: "Protocol conversion gateways for SCADA system integration and multi-vendor compatibility. Supports multiple industrial communication protocols with secure data transmission and real-time performance.",
+    description:
+      "Protocol conversion gateways for SCADA system integration and multi-vendor compatibility. Supports multiple industrial communication protocols with secure data transmission and real-time performance.",
     subcategoryKey: "scada",
     image: "scada-gateway",
     featuredSpecs: ["protocols", "ports", "conversion"],
@@ -1003,7 +1093,8 @@ export const productGroups: ProductGroup[] = [
     key: "dcs-controllers",
     slug: "dcs-controllers",
     title: "DCS Controllers",
-    description: "Distributed control system controllers for large-scale process automation and safety systems. Redundant architecture with high-availability design and advanced process control algorithms.",
+    description:
+      "Distributed control system controllers for large-scale process automation and safety systems. Redundant architecture with high-availability design and advanced process control algorithms.",
     subcategoryKey: "dcs",
     image: "dcs-controller",
     featuredSpecs: ["io", "redundancy", "performance"],
@@ -1012,7 +1103,8 @@ export const productGroups: ProductGroup[] = [
     key: "dcs-operator-stations",
     slug: "dcs-operator-stations",
     title: "DCS Operator Stations",
-    description: "Advanced operator workstations for distributed control system monitoring and operation. Multi-display capabilities with intuitive graphics and comprehensive alarm management.",
+    description:
+      "Advanced operator workstations for distributed control system monitoring and operation. Multi-display capabilities with intuitive graphics and comprehensive alarm management.",
     subcategoryKey: "dcs",
     image: "dcs-operator-station",
     featuredSpecs: ["displays", "performance", "redundancy"],
@@ -1021,7 +1113,8 @@ export const productGroups: ProductGroup[] = [
     key: "dcs-engineering-stations",
     slug: "dcs-engineering-stations",
     title: "DCS Engineering Stations",
-    description: "Engineering workstations for DCS configuration, programming, and maintenance. Comprehensive development environment with simulation capabilities and version control.",
+    description:
+      "Engineering workstations for DCS configuration, programming, and maintenance. Comprehensive development environment with simulation capabilities and version control.",
     subcategoryKey: "dcs",
     image: "dcs-engineering-station",
     featuredSpecs: ["software", "performance", "tools"],
@@ -1030,7 +1123,8 @@ export const productGroups: ProductGroup[] = [
     key: "touchscreen-hmis",
     slug: "touchscreen-hmis",
     title: "Touchscreen HMIs",
-    description: "Industrial touchscreen human-machine interfaces for operator control and monitoring. Multi-touch displays with robust construction for harsh environments.",
+    description:
+      "Industrial touchscreen human-machine interfaces for operator control and monitoring. Multi-touch displays with robust construction for harsh environments.",
     subcategoryKey: "hmi",
     image: "touchscreen-hmi",
     featuredSpecs: ["size", "resolution", "communication"],
@@ -1039,7 +1133,8 @@ export const productGroups: ProductGroup[] = [
     key: "panel-mount-hmis",
     slug: "panel-mount-hmis",
     title: "Panel Mount HMIs",
-    description: "Panel-mounted human-machine interfaces for integration into control cabinets and operator panels. Compact design with industrial-grade durability.",
+    description:
+      "Panel-mounted human-machine interfaces for integration into control cabinets and operator panels. Compact design with industrial-grade durability.",
     subcategoryKey: "hmi",
     image: "panel-mount-hmi",
     featuredSpecs: ["size", "resolution", "mounting"],
@@ -1048,7 +1143,8 @@ export const productGroups: ProductGroup[] = [
     key: "mobile-hmis",
     slug: "mobile-hmis",
     title: "Mobile HMIs",
-    description: "Portable human-machine interfaces for mobile operator control and field monitoring. Rugged design with wireless connectivity and long battery life.",
+    description:
+      "Portable human-machine interfaces for mobile operator control and field monitoring. Rugged design with wireless connectivity and long battery life.",
     subcategoryKey: "hmi",
     image: "mobile-hmi",
     featuredSpecs: ["size", "battery", "connectivity"],
@@ -1059,7 +1155,8 @@ export const productGroups: ProductGroup[] = [
     key: "safety-relays",
     slug: "safety-relays",
     title: "Safety Relays",
-    description: "Safety relays for machine and personnel protection systems. Certified for safety applications with fail-safe operation and diagnostic capabilities.",
+    description:
+      "Safety relays for machine and personnel protection systems. Certified for safety applications with fail-safe operation and diagnostic capabilities.",
     subcategoryKey: "safety-relays-switches",
     image: "safety-relay",
     featuredSpecs: ["safety", "contacts", "monitoring"],
@@ -1068,7 +1165,8 @@ export const productGroups: ProductGroup[] = [
     key: "emergency-stops",
     slug: "emergency-stops",
     title: "Emergency Stops",
-    description: "Emergency stop devices for immediate machinery shutdown. Robust construction with positive opening contacts and clear visual indication.",
+    description:
+      "Emergency stop devices for immediate machinery shutdown. Robust construction with positive opening contacts and clear visual indication.",
     subcategoryKey: "safety-relays-switches",
     image: "emergency-stop",
     featuredSpecs: ["contacts", "operation", "standards"],
@@ -1077,7 +1175,8 @@ export const productGroups: ProductGroup[] = [
     key: "safety-switches",
     slug: "safety-switches",
     title: "Safety Switches",
-    description: "Position monitoring safety switches for guard doors and access panels. Tamper-proof design with coded actuators for maximum security.",
+    description:
+      "Position monitoring safety switches for guard doors and access panels. Tamper-proof design with coded actuators for maximum security.",
     subcategoryKey: "safety-relays-switches",
     image: "safety-switch",
     featuredSpecs: ["safety", "operation", "environment"],
@@ -1086,7 +1185,8 @@ export const productGroups: ProductGroup[] = [
     key: "explosion-proof-equipment",
     slug: "explosion-proof-equipment",
     title: "Explosion Proof Equipment",
-    description: "Certified explosion-proof electrical equipment for hazardous area installations. Designed to prevent ignition of flammable gases and vapors with robust enclosures meeting international safety standards.",
+    description:
+      "Certified explosion-proof electrical equipment for hazardous area installations. Designed to prevent ignition of flammable gases and vapors with robust enclosures meeting international safety standards.",
     subcategoryKey: "intrinsically-safe-equipment",
     image: "explosion-proof",
     featuredSpecs: ["certification", "class", "temperature"],
@@ -1095,7 +1195,8 @@ export const productGroups: ProductGroup[] = [
     key: "intrinsically-safe-barriers",
     slug: "intrinsically-safe-barriers",
     title: "Intrinsically Safe Barriers",
-    description: "Safety barriers for intrinsically safe circuits in hazardous areas. Provides energy limitation and galvanic isolation to prevent ignition sources in explosive atmospheres.",
+    description:
+      "Safety barriers for intrinsically safe circuits in hazardous areas. Provides energy limitation and galvanic isolation to prevent ignition sources in explosive atmospheres.",
     subcategoryKey: "intrinsically-safe-equipment",
     image: "is-barrier",
     featuredSpecs: ["channels", "power", "certification"],
@@ -1104,7 +1205,8 @@ export const productGroups: ProductGroup[] = [
     key: "is-field-devices",
     slug: "is-field-devices",
     title: "Intrinsically Safe Field Devices",
-    description: "Field devices certified for intrinsically safe operation in explosive atmospheres. Includes sensors, transmitters, and actuators designed for Zone 0/1 hazardous area applications.",
+    description:
+      "Field devices certified for intrinsically safe operation in explosive atmospheres. Includes sensors, transmitters, and actuators designed for Zone 0/1 hazardous area applications.",
     subcategoryKey: "intrinsically-safe-equipment",
     image: "is-field-device",
     featuredSpecs: ["function", "power", "certification"],
@@ -1113,7 +1215,8 @@ export const productGroups: ProductGroup[] = [
     key: "ac-surge-protectors",
     slug: "ac-surge-protectors",
     title: "AC Surge Protectors",
-    description: "AC power line surge protection devices for electrical equipment protection. Multi-stage protection against lightning, switching surges, and power line disturbances in industrial installations.",
+    description:
+      "AC power line surge protection devices for electrical equipment protection. Multi-stage protection against lightning, switching surges, and power line disturbances in industrial installations.",
     subcategoryKey: "surge-protectors",
     image: "ac-surge-protector",
     featuredSpecs: ["voltage", "current", "energy"],
@@ -1122,7 +1225,8 @@ export const productGroups: ProductGroup[] = [
     key: "dc-surge-protectors",
     slug: "dc-surge-protectors",
     title: "DC Surge Protectors",
-    description: "DC circuit surge protection devices for sensitive electronic equipment. Specialized protection for DC power systems, solar installations, and battery-powered applications.",
+    description:
+      "DC circuit surge protection devices for sensitive electronic equipment. Specialized protection for DC power systems, solar installations, and battery-powered applications.",
     subcategoryKey: "surge-protectors",
     image: "dc-surge-protector",
     featuredSpecs: ["voltage", "current", "energy"],
@@ -1131,7 +1235,8 @@ export const productGroups: ProductGroup[] = [
     key: "signal-surge-protectors",
     slug: "signal-surge-protectors",
     title: "Signal Surge Protectors",
-    description: "Signal line surge protection for data and communication circuits. Protects analog and digital signals, field bus networks, and instrumentation circuits from electromagnetic interference.",
+    description:
+      "Signal line surge protection for data and communication circuits. Protects analog and digital signals, field bus networks, and instrumentation circuits from electromagnetic interference.",
     subcategoryKey: "surge-protectors",
     image: "signal-surge-protector",
     featuredSpecs: ["signal", "protection", "frequency"],
@@ -1140,7 +1245,8 @@ export const productGroups: ProductGroup[] = [
     key: "equipment-grounding",
     slug: "equipment-grounding",
     title: "Equipment Grounding Systems",
-    description: "Grounding components for electrical equipment safety and protection. Copper and steel grounding rods, conductors, and accessories for proper electrical system grounding.",
+    description:
+      "Grounding components for electrical equipment safety and protection. Copper and steel grounding rods, conductors, and accessories for proper electrical system grounding.",
     subcategoryKey: "grounding-systems",
     image: "equipment-grounding",
     featuredSpecs: ["material", "resistance", "application"],
@@ -1149,7 +1255,8 @@ export const productGroups: ProductGroup[] = [
     key: "system-grounding",
     slug: "system-grounding",
     title: "System Grounding Solutions",
-    description: "Complete grounding system solutions for industrial facilities. Grounding grids, electrodes, and monitoring systems for power system safety and electromagnetic compatibility.",
+    description:
+      "Complete grounding system solutions for industrial facilities. Grounding grids, electrodes, and monitoring systems for power system safety and electromagnetic compatibility.",
     subcategoryKey: "grounding-systems",
     image: "system-grounding",
     featuredSpecs: ["material", "resistance", "configuration"],
@@ -1158,7 +1265,8 @@ export const productGroups: ProductGroup[] = [
     key: "lightning-protection",
     slug: "lightning-protection",
     title: "Lightning Protection Systems",
-    description: "Lightning protection systems for buildings and industrial structures. Air terminals, down conductors, and surge arresters designed to IEC 62305 standards for comprehensive lightning protection.",
+    description:
+      "Lightning protection systems for buildings and industrial structures. Air terminals, down conductors, and surge arresters designed to IEC 62305 standards for comprehensive lightning protection.",
     subcategoryKey: "grounding-systems",
     image: "lightning-protection",
     featuredSpecs: ["current", "material", "height"],
@@ -1169,7 +1277,8 @@ export const productGroups: ProductGroup[] = [
     key: "single-stage-centrifugal",
     slug: "single-stage-centrifugal",
     title: "Single Stage Centrifugal Pumps",
-    description: "Horizontal and vertical single stage centrifugal pumps for water supply and industrial applications. Efficient operation with low maintenance requirements for various flow and head conditions.",
+    description:
+      "Horizontal and vertical single stage centrifugal pumps for water supply and industrial applications. Efficient operation with low maintenance requirements for various flow and head conditions.",
     subcategoryKey: "centrifugal-pumps",
     image: "single-stage-centrifugal",
     featuredSpecs: ["flow", "head", "power"],
@@ -1178,7 +1287,8 @@ export const productGroups: ProductGroup[] = [
     key: "multi-stage-centrifugal",
     slug: "multi-stage-centrifugal",
     title: "Multi Stage Centrifugal Pumps",
-    description: "High pressure multi-stage centrifugal pumps for demanding applications. Multiple impellers provide high head capabilities for pressure boosting, reverse osmosis, and industrial process applications.",
+    description:
+      "High pressure multi-stage centrifugal pumps for demanding applications. Multiple impellers provide high head capabilities for pressure boosting, reverse osmosis, and industrial process applications.",
     subcategoryKey: "centrifugal-pumps",
     image: "multi-stage-centrifugal",
     featuredSpecs: ["flow", "head", "stages"],
@@ -1187,7 +1297,8 @@ export const productGroups: ProductGroup[] = [
     key: "vertical-centrifugal",
     slug: "vertical-centrifugal",
     title: "Vertical Centrifugal Pumps",
-    description: "Space-saving vertical centrifugal pumps for confined installations. Suitable for sumps, tanks, and applications where horizontal space is limited while maintaining high efficiency performance.",
+    description:
+      "Space-saving vertical centrifugal pumps for confined installations. Suitable for sumps, tanks, and applications where horizontal space is limited while maintaining high efficiency performance.",
     subcategoryKey: "centrifugal-pumps",
     image: "vertical-centrifugal",
     featuredSpecs: ["flow", "head", "installation"],
@@ -1196,7 +1307,8 @@ export const productGroups: ProductGroup[] = [
     key: "air-operated-diaphragm",
     slug: "air-operated-diaphragm",
     title: "Air Operated Diaphragm Pumps",
-    description: "Pneumatic diaphragm pumps for handling aggressive and viscous fluids. Self-priming operation with excellent suction capabilities for chemical processing and waste water applications.",
+    description:
+      "Pneumatic diaphragm pumps for handling aggressive and viscous fluids. Self-priming operation with excellent suction capabilities for chemical processing and waste water applications.",
     subcategoryKey: "diaphragm-pumps",
     image: "air-operated-diaphragm",
     featuredSpecs: ["flow", "pressure", "material"],
@@ -1205,7 +1317,8 @@ export const productGroups: ProductGroup[] = [
     key: "electric-diaphragm",
     slug: "electric-diaphragm",
     title: "Electric Diaphragm Pumps",
-    description: "Electric-driven diaphragm pumps for precise dosing and metering applications. Variable flow control with excellent chemical compatibility for water treatment and chemical injection systems.",
+    description:
+      "Electric-driven diaphragm pumps for precise dosing and metering applications. Variable flow control with excellent chemical compatibility for water treatment and chemical injection systems.",
     subcategoryKey: "diaphragm-pumps",
     image: "electric-diaphragm",
     featuredSpecs: ["flow", "pressure", "power"],
@@ -1214,7 +1327,8 @@ export const productGroups: ProductGroup[] = [
     key: "hydraulic-diaphragm",
     slug: "hydraulic-diaphragm",
     title: "Hydraulic Diaphragm Pumps",
-    description: "Hydraulically actuated diaphragm pumps for high-pressure applications. Precise flow control and excellent repeatability for chemical dosing and high-pressure cleaning systems.",
+    description:
+      "Hydraulically actuated diaphragm pumps for high-pressure applications. Precise flow control and excellent repeatability for chemical dosing and high-pressure cleaning systems.",
     subcategoryKey: "diaphragm-pumps",
     image: "hydraulic-diaphragm",
     featuredSpecs: ["flow", "pressure", "hydraulic"],
@@ -1223,7 +1337,8 @@ export const productGroups: ProductGroup[] = [
     key: "external-gear-pumps",
     slug: "external-gear-pumps",
     title: "External Gear Pumps",
-    description: "Positive displacement external gear pumps for viscous liquid transfer. Consistent flow delivery independent of pressure variations, ideal for lubricating oils and hydraulic fluids.",
+    description:
+      "Positive displacement external gear pumps for viscous liquid transfer. Consistent flow delivery independent of pressure variations, ideal for lubricating oils and hydraulic fluids.",
     subcategoryKey: "gear-pumps",
     image: "external-gear-pump",
     featuredSpecs: ["flow", "pressure", "viscosity"],
@@ -1232,7 +1347,8 @@ export const productGroups: ProductGroup[] = [
     key: "internal-gear-pumps",
     slug: "internal-gear-pumps",
     title: "Internal Gear Pumps",
-    description: "Internal gear pumps with smooth flow characteristics for sensitive fluids. Low pulsation design suitable for food processing, pharmaceutical, and chemical applications requiring gentle handling.",
+    description:
+      "Internal gear pumps with smooth flow characteristics for sensitive fluids. Low pulsation design suitable for food processing, pharmaceutical, and chemical applications requiring gentle handling.",
     subcategoryKey: "gear-pumps",
     image: "internal-gear-pump",
     featuredSpecs: ["flow", "pressure", "viscosity"],
@@ -1241,7 +1357,8 @@ export const productGroups: ProductGroup[] = [
     key: "magnetic-gear-pumps",
     slug: "magnetic-gear-pumps",
     title: "Magnetic Drive Gear Pumps",
-    description: "Magnetically coupled gear pumps for leak-free operation. Hermetically sealed design eliminates shaft seals, perfect for hazardous chemicals and high-purity applications.",
+    description:
+      "Magnetically coupled gear pumps for leak-free operation. Hermetically sealed design eliminates shaft seals, perfect for hazardous chemicals and high-purity applications.",
     subcategoryKey: "gear-pumps",
     image: "magnetic-gear-pump",
     featuredSpecs: ["flow", "pressure", "sealing"],
@@ -1250,7 +1367,8 @@ export const productGroups: ProductGroup[] = [
     key: "impellers-casings",
     slug: "impellers-casings",
     title: "Impellers and Casings",
-    description: "Replacement impellers and pump casings for centrifugal pumps. Available in various materials including cast iron, stainless steel, and specialty alloys for different applications and media.",
+    description:
+      "Replacement impellers and pump casings for centrifugal pumps. Available in various materials including cast iron, stainless steel, and specialty alloys for different applications and media.",
     subcategoryKey: "pump-parts-spares",
     image: "impeller-casing",
     featuredSpecs: ["material", "size", "compatibility"],
@@ -1259,7 +1377,8 @@ export const productGroups: ProductGroup[] = [
     key: "seals-gaskets",
     slug: "seals-gaskets",
     title: "Seals and Gaskets",
-    description: "Pump seals and gaskets for reliable leak prevention. Mechanical seals, O-rings, and gasket sets in various materials to suit different temperatures, pressures, and chemical compatibility requirements.",
+    description:
+      "Pump seals and gaskets for reliable leak prevention. Mechanical seals, O-rings, and gasket sets in various materials to suit different temperatures, pressures, and chemical compatibility requirements.",
     subcategoryKey: "pump-parts-spares",
     image: "seal-gasket",
     featuredSpecs: ["material", "temperature", "pressure"],
@@ -1268,7 +1387,8 @@ export const productGroups: ProductGroup[] = [
     key: "bearings-couplings",
     slug: "bearings-couplings",
     title: "Bearings and Couplings",
-    description: "Pump bearings and flexible couplings for mechanical drive systems. High-quality components for extended service life, reduced vibration, and reliable power transmission in pumping applications.",
+    description:
+      "Pump bearings and flexible couplings for mechanical drive systems. High-quality components for extended service life, reduced vibration, and reliable power transmission in pumping applications.",
     subcategoryKey: "pump-parts-spares",
     image: "bearing-coupling",
     featuredSpecs: ["type", "load", "speed"],
@@ -1610,7 +1730,7 @@ export const products: Product[] = [
       application: "Refrigeration, fluid control",
       refrigerants: "R410A, R448A, R449A, R450A, R507A",
       pressureRating: "Up to 700 PSI",
-      temperatureRange: "-40°F to 120°F",
+      temperatureRange: "-40°F to 120d�F",
       voltageOptions: "100-240 AC/DC, 24V AC/DC",
     },
   },
@@ -1640,7 +1760,8 @@ export const products: Product[] = [
       energySaving: "65% vs traditional fans",
     },
     title: "Atomberg Efficio 1200mm BLDC Ceiling Fan",
-    description: "Premium energy-efficient BLDC ceiling fan by Atomberg with only 27W power consumption and 236 CMM airflow. Features superior service value of 8.7, RF remote control, and 65% energy savings compared to traditional fans.",
+    description:
+      "Premium energy-efficient BLDC ceiling fan by Atomberg with only 27W power consumption and 236 CMM airflow. Features superior service value of 8.7, RF remote control, and 65% energy savings compared to traditional fans.",
     features: [
       "Highest service value of 8.7 CMM/W",
       "Ultra-low 27W power consumption",
@@ -1649,7 +1770,7 @@ export const products: Product[] = [
       "Wide voltage tolerance 140-285V",
       "Whisper-quiet operation <35dB",
       "65% energy savings vs traditional fans",
-      "3-year comprehensive warranty"
+      "3-year comprehensive warranty",
     ],
   },
   {
@@ -1676,7 +1797,8 @@ export const products: Product[] = [
       award: "National Energy Conservation Award 2021",
     },
     title: "Havells Efficiencia Neo 1200mm BLDC Ceiling Fan",
-    description: "Award-winning BLDC ceiling fan by Havells with 26W power consumption and 220 CMM airflow. Winner of National Energy Conservation Award 2021, featuring 100% copper winding and advanced control modes.",
+    description:
+      "Award-winning BLDC ceiling fan by Havells with 26W power consumption and 220 CMM airflow. Winner of National Energy Conservation Award 2021, featuring 100% copper winding and advanced control modes.",
     features: [
       "National Energy Conservation Award winner 2021",
       "Ultra-efficient 26W power consumption",
@@ -1685,7 +1807,7 @@ export const products: Product[] = [
       "100% copper winding for durability",
       "Wide voltage tolerance 140-280V",
       "Reverse rotation capability",
-      "2+1 year warranty (extendable to 5 years)"
+      "2+1 year warranty (extendable to 5 years)",
     ],
   },
   {
@@ -1713,7 +1835,8 @@ export const products: Product[] = [
       specialFeature: "India's first BLDC fan (2012)",
     },
     title: "Superfan SuperX1 1200mm BLDC Ceiling Fan",
-    description: "India's first BLDC ceiling fan by Superfan with 35W power consumption and ultra-wide voltage range of 90-300V. Features 5-year warranty, drop-safe remote, and natural breeze mode for optimal comfort.",
+    description:
+      "India's first BLDC ceiling fan by Superfan with 35W power consumption and ultra-wide voltage range of 90-300V. Features 5-year warranty, drop-safe remote, and natural breeze mode for optimal comfort.",
     features: [
       "India's first BLDC ceiling fan (launched 2012)",
       "Ultra-wide voltage range 90-300V",
@@ -1722,7 +1845,7 @@ export const products: Product[] = [
       "Natural breeze mode simulation",
       "Timer function with multiple settings",
       "56% energy savings vs traditional fans",
-      "Industry-leading 5-year warranty"
+      "Industry-leading 5-year warranty",
     ],
   },
   {
@@ -1744,7 +1867,8 @@ export const products: Product[] = [
       reversible: "Yes",
     },
     title: "Premium BLDC Ceiling Fan 1400mm",
-    description: "High-performance 52W brushless DC ceiling fan with 1400mm sweep diameter. Premium design featuring smart controls, LED lighting integration, and superior energy efficiency for large rooms and commercial spaces.",
+    description:
+      "High-performance 52W brushless DC ceiling fan with 1400mm sweep diameter. Premium design featuring smart controls, LED lighting integration, and superior energy efficiency for large rooms and commercial spaces.",
     features: [
       "Premium 52W motor with 5-star energy rating",
       "Smart remote with LED lighting control",
@@ -1752,7 +1876,7 @@ export const products: Product[] = [
       "Integrated LED lighting with dimmer control",
       "Advanced aerodynamic blade design",
       "Ultra-quiet operation below 30dB",
-      "5-year premium warranty coverage"
+      "5-year premium warranty coverage",
     ],
   },
   {
@@ -1774,7 +1898,8 @@ export const products: Product[] = [
       reversible: "Yes",
     },
     title: "Commercial BLDC Ceiling Fan 1500mm",
-    description: "Heavy-duty 65W brushless DC ceiling fan designed for commercial and industrial applications. Superior airflow capacity of 300 CFM with robust construction for continuous operation in demanding environments.",
+    description:
+      "Heavy-duty 65W brushless DC ceiling fan designed for commercial and industrial applications. Superior airflow capacity of 300 CFM with robust construction for continuous operation in demanding environments.",
     features: [
       "Heavy-duty 65W commercial motor",
       "High airflow capacity 300 CFM",
@@ -1782,7 +1907,7 @@ export const products: Product[] = [
       "Commercial-grade 1500mm sweep",
       "Enhanced durability and reliability",
       "Suitable for warehouses and factories",
-      "Extended 3-year commercial warranty"
+      "Extended 3-year commercial warranty",
     ],
   },
   // Additional BLDC Ceiling Fans to reach 6 products minimum
@@ -1805,7 +1930,8 @@ export const products: Product[] = [
       reversible: "Yes",
     },
     title: "Deluxe BLDC Ceiling Fan 1600mm",
-    description: "Top-of-the-line 80W brushless DC ceiling fan with 1600mm sweep diameter. Premium features including smart controls, advanced aerodynamics, and exceptional build quality for luxury applications.",
+    description:
+      "Top-of-the-line 80W brushless DC ceiling fan with 1600mm sweep diameter. Premium features including smart controls, advanced aerodynamics, and exceptional build quality for luxury applications.",
     features: [
       "Premium 80W high-performance motor",
       "Extra-large 1600mm sweep diameter",
@@ -1813,7 +1939,7 @@ export const products: Product[] = [
       "Advanced aerodynamic blade design",
       "Premium finish and materials",
       "Whisper-quiet luxury operation",
-      "Premium 5-year warranty coverage"
+      "Premium 5-year warranty coverage",
     ],
   },
   {
@@ -1835,7 +1961,8 @@ export const products: Product[] = [
       reversible: "Yes",
     },
     title: "Industrial BLDC Ceiling Fan 1800mm",
-    description: "Extra-large 100W brushless DC ceiling fan designed for large industrial spaces. Maximum airflow capacity with heavy-duty construction for 24/7 operation in demanding industrial environments.",
+    description:
+      "Extra-large 100W brushless DC ceiling fan designed for large industrial spaces. Maximum airflow capacity with heavy-duty construction for 24/7 operation in demanding industrial environments.",
     features: [
       "Extra-large 100W industrial motor",
       "Maximum 1800mm sweep diameter",
@@ -1843,7 +1970,7 @@ export const products: Product[] = [
       "Superior airflow for large spaces",
       "Industrial-grade materials and finish",
       "Designed for demanding environments",
-      "Extended 5-year industrial warranty"
+      "Extended 5-year industrial warranty",
     ],
   },
   {
@@ -1865,14 +1992,15 @@ export const products: Product[] = [
       reversible: "Yes",
     },
     title: "Economy BLDC Ceiling Fan 900mm",
-    description: "Affordable 35W brushless DC ceiling fan with 900mm sweep diameter. Energy-efficient design perfect for small to medium rooms with basic remote control and reliable performance.",
+    description:
+      "Affordable 35W brushless DC ceiling fan with 900mm sweep diameter. Energy-efficient design perfect for small to medium rooms with basic remote control and reliable performance.",
     features: [
       "Energy-efficient 35W motor design",
       "Compact 900mm sweep for smaller rooms",
       "Basic remote control functionality",
       "Cost-effective BLDC technology",
       "Low maintenance operation",
-      "2-year standard warranty"
+      "2-year standard warranty",
     ],
   },
 
@@ -1895,7 +2023,8 @@ export const products: Product[] = [
       warranty: "2 Years",
     },
     title: "BLDC Exhaust Fan Motor 25W",
-    description: "High-efficiency 25W brushless DC motor for exhaust fan applications. Features ball bearing construction, IP44 protection, and quiet operation for residential and commercial ventilation systems.",
+    description:
+      "High-efficiency 25W brushless DC motor for exhaust fan applications. Features ball bearing construction, IP44 protection, and quiet operation for residential and commercial ventilation systems.",
     features: [
       "High-efficiency brushless DC motor",
       "25W power consumption",
@@ -1903,7 +2032,7 @@ export const products: Product[] = [
       "IP44 protection rating",
       "Low noise operation",
       "12V DC operation",
-      "2-year warranty coverage"
+      "2-year warranty coverage",
     ],
   },
   {
@@ -1924,7 +2053,8 @@ export const products: Product[] = [
       warranty: "3 Years",
     },
     title: "BLDC Cooler Motor 45W",
-    description: "Powerful 45W brushless DC motor for air cooler applications. Advanced design with 90% efficiency, variable speed control, and enhanced protection rating for reliable cooling performance.",
+    description:
+      "Powerful 45W brushless DC motor for air cooler applications. Advanced design with 90% efficiency, variable speed control, and enhanced protection rating for reliable cooling performance.",
     features: [
       "High-performance 45W BLDC motor",
       "90% energy efficiency",
@@ -1932,7 +2062,7 @@ export const products: Product[] = [
       "IP54 protection rating",
       "Ball bearing construction",
       "24V DC operation",
-      "3-year warranty coverage"
+      "3-year warranty coverage",
     ],
   },
   {
@@ -1953,7 +2083,8 @@ export const products: Product[] = [
       warranty: "5 Years",
     },
     title: "BLDC Ventilation System 75W",
-    description: "Industrial-grade 75W brushless DC motor for ventilation systems. Superior efficiency at 92%, high airflow capacity, and robust construction for demanding HVAC applications.",
+    description:
+      "Industrial-grade 75W brushless DC motor for ventilation systems. Superior efficiency at 92%, high airflow capacity, and robust construction for demanding HVAC applications.",
     features: [
       "Industrial-grade 75W BLDC motor",
       "92% energy efficiency",
@@ -1961,7 +2092,7 @@ export const products: Product[] = [
       "IP65 protection rating",
       "48V DC operation",
       "Advanced temperature range -20°C to +80°C",
-      "5-year warranty coverage"
+      "5-year warranty coverage",
     ],
   },
   // Additional BLDC Cooler & Exhaust Motors from static pages
@@ -1983,7 +2114,8 @@ export const products: Product[] = [
       warranty: "2 Years",
     },
     title: "BLDC Ventilation Motor 35W",
-    description: "Efficient 35W brushless DC motor for ventilation applications. Balanced performance with 280 CFM airflow capacity, suitable for residential and light commercial ventilation systems.",
+    description:
+      "Efficient 35W brushless DC motor for ventilation applications. Balanced performance with 280 CFM airflow capacity, suitable for residential and light commercial ventilation systems.",
     features: [
       "Efficient 35W motor design",
       "Good airflow capacity 280 CFM",
@@ -1991,7 +2123,7 @@ export const products: Product[] = [
       "Sleeve bearing construction",
       "IP44 protection rating",
       "24V DC operation",
-      "2-year standard warranty"
+      "2-year standard warranty",
     ],
   },
   {
@@ -2012,7 +2144,8 @@ export const products: Product[] = [
       warranty: "5 Years",
     },
     title: "Industrial BLDC Exhaust Fan 120W",
-    description: "High-power 120W brushless DC motor for industrial exhaust applications. Heavy-duty construction with exceptional airflow capacity and reliability for demanding industrial environments.",
+    description:
+      "High-power 120W brushless DC motor for industrial exhaust applications. Heavy-duty construction with exceptional airflow capacity and reliability for demanding industrial environments.",
     features: [
       "High-power 120W industrial motor",
       "Exceptional airflow capacity 650 CFM",
@@ -2020,7 +2153,7 @@ export const products: Product[] = [
       "High-speed 3200 RPM operation",
       "IP67 protection for harsh environments",
       "48V DC operation",
-      "Extended 3-year industrial warranty"
+      "Extended 3-year industrial warranty",
     ],
   },
   {
@@ -2041,7 +2174,8 @@ export const products: Product[] = [
       warranty: "1 Year",
     },
     title: "Mini BLDC Cooler Motor 15W",
-    description: "Compact 15W brushless DC motor designed for mini cooler applications. Energy-efficient design with quiet operation and reliable performance for personal cooling devices.",
+    description:
+      "Compact 15W brushless DC motor designed for mini cooler applications. Energy-efficient design with quiet operation and reliable performance for personal cooling devices.",
     features: [
       "Compact 15W motor design",
       "Energy-efficient operation",
@@ -2049,7 +2183,7 @@ export const products: Product[] = [
       "12V DC operation",
       "82% efficiency rating",
       "Suitable for personal cooling devices",
-      "1-year warranty coverage"
+      "1-year warranty coverage",
     ],
   },
 
@@ -2068,7 +2202,8 @@ export const products: Product[] = [
       solarCompatible: "Yes",
     },
     title: "Solar BLDC Submersible Pump 1HP",
-    description: "High-efficiency 1HP solar-compatible brushless DC submersible pump. Designed for water lifting applications with direct solar power integration and excellent reliability for remote installations.",
+    description:
+      "High-efficiency 1HP solar-compatible brushless DC submersible pump. Designed for water lifting applications with direct solar power integration and excellent reliability for remote installations.",
     features: [
       "1HP high-efficiency BLDC motor",
       "Solar power compatible (48V DC)",
@@ -2076,7 +2211,7 @@ export const products: Product[] = [
       "100ft maximum head capacity",
       "Weather-resistant construction",
       "Low maintenance requirements",
-      "Ideal for remote water supply systems"
+      "Ideal for remote water supply systems",
     ],
   },
   {
@@ -2093,7 +2228,8 @@ export const products: Product[] = [
       selfPriming: "Yes",
     },
     title: "DC Surface Pump 2HP",
-    description: "Powerful 2HP DC surface pump with self-priming capability. High flow rate of 3600 LPH with 150ft head capacity, perfect for agriculture and industrial water transfer applications.",
+    description:
+      "Powerful 2HP DC surface pump with self-priming capability. High flow rate of 3600 LPH with 150ft head capacity, perfect for agriculture and industrial water transfer applications.",
     features: [
       "Powerful 2HP motor capacity",
       "Self-priming design",
@@ -2101,7 +2237,7 @@ export const products: Product[] = [
       "150ft maximum head",
       "72V DC operation",
       "Robust construction for industrial use",
-      "Low maintenance requirements"
+      "Low maintenance requirements",
     ],
   },
   {
@@ -2118,7 +2254,8 @@ export const products: Product[] = [
       hybridOperation: "Yes",
     },
     title: "Hybrid BLDC Pump System",
-    description: "Advanced hybrid BLDC pump system combining DC and AC operation capabilities. Features 1.5HP power with 2700 LPH flow rate and 120ft head capacity, perfect for versatile water pumping applications.",
+    description:
+      "Advanced hybrid BLDC pump system combining DC and AC operation capabilities. Features 1.5HP power with 2700 LPH flow rate and 120ft head capacity, perfect for versatile water pumping applications.",
     features: [
       "Hybrid DC/AC operation (48V DC / 230V AC)",
       "1.5HP high-efficiency BLDC motor",
@@ -2126,7 +2263,7 @@ export const products: Product[] = [
       "120ft maximum head",
       "Energy-efficient operation",
       "Versatile power source compatibility",
-      "Low maintenance BLDC technology"
+      "Low maintenance BLDC technology",
     ],
   },
 
@@ -2145,7 +2282,8 @@ export const products: Product[] = [
       remoteControl: "Yes",
     },
     title: "BLDC Table Fan Motors",
-    description: "High-efficiency BLDC table fan motors with 28W power consumption and 2100 RPM speed. Features remote control operation and 400mm diameter for optimal air circulation in residential and commercial spaces.",
+    description:
+      "High-efficiency BLDC table fan motors with 28W power consumption and 2100 RPM speed. Features remote control operation and 400mm diameter for optimal air circulation in residential and commercial spaces.",
     features: [
       "28W energy-efficient operation",
       "2100 RPM high speed",
@@ -2153,7 +2291,7 @@ export const products: Product[] = [
       "24V DC operation",
       "Remote control compatibility",
       "Quiet BLDC motor technology",
-      "Long service life"
+      "Long service life",
     ],
   },
   {
@@ -2170,7 +2308,8 @@ export const products: Product[] = [
       oscillation: "Yes",
     },
     title: "BLDC Wall Fan Motors",
-    description: "Powerful BLDC wall fan motors with 35W power and 1800 RPM speed. Features 450mm diameter and oscillation capability for effective wall-mounted air circulation in various indoor environments.",
+    description:
+      "Powerful BLDC wall fan motors with 35W power and 1800 RPM speed. Features 450mm diameter and oscillation capability for effective wall-mounted air circulation in various indoor environments.",
     features: [
       "35W efficient power consumption",
       "1800 RPM optimal speed",
@@ -2178,7 +2317,7 @@ export const products: Product[] = [
       "24V DC safe operation",
       "Oscillation feature for better air distribution",
       "Wall-mounted design",
-      "Silent BLDC technology"
+      "Silent BLDC technology",
     ],
   },
   {
@@ -2195,7 +2334,8 @@ export const products: Product[] = [
       heightAdjustment: "Yes",
     },
     title: "BLDC Pedestal Fan Motors",
-    description: "Advanced BLDC pedestal fan motors with 42W power and 1900 RPM speed. Features 500mm diameter and height adjustment capability for flexible positioning and enhanced air circulation in large spaces.",
+    description:
+      "Advanced BLDC pedestal fan motors with 42W power and 1900 RPM speed. Features 500mm diameter and height adjustment capability for flexible positioning and enhanced air circulation in large spaces.",
     features: [
       "42W high-efficiency operation",
       "1900 RPM optimal airflow speed",
@@ -2203,7 +2343,7 @@ export const products: Product[] = [
       "24V DC safe operation",
       "Height adjustment for flexible positioning",
       "Pedestal stand design",
-      "Energy-saving BLDC technology"
+      "Energy-saving BLDC technology",
     ],
   },
 
@@ -2222,7 +2362,8 @@ export const products: Product[] = [
       shielding: "100% Coverage",
     },
     title: "Instrumentation Cables",
-    description: "High-quality instrumentation cables designed for precise signal transmission in industrial automation and control systems. Multi-pair construction with excellent shielding and low capacitance for reliable data communication.",
+    description:
+      "High-quality instrumentation cables designed for precise signal transmission in industrial automation and control systems. Multi-pair construction with excellent shielding and low capacitance for reliable data communication.",
     features: [
       "Multi-pair construction for complex systems",
       "Excellent signal shielding and integrity",
@@ -2230,7 +2371,7 @@ export const products: Product[] = [
       "Suitable for harsh industrial environments",
       "Available in various core configurations",
       "Compliance with international standards",
-      "Long-term reliability and performance"
+      "Long-term reliability and performance",
     ],
   },
   {
@@ -2247,7 +2388,8 @@ export const products: Product[] = [
       standard: "IS 7098",
     },
     title: "Power Distribution Cables",
-    description: "Heavy-duty power distribution cables with XLPE insulation for reliable electrical power transmission. Available in voltage ranges from 1kV to 33kV with copper or aluminum conductors for various industrial applications.",
+    description:
+      "Heavy-duty power distribution cables with XLPE insulation for reliable electrical power transmission. Available in voltage ranges from 1kV to 33kV with copper or aluminum conductors for various industrial applications.",
     features: [
       "XLPE insulation for high reliability",
       "Voltage range: 1kV - 33kV",
@@ -2255,7 +2397,7 @@ export const products: Product[] = [
       "90°C operating temperature",
       "IS 7098 standard compliance",
       "Suitable for underground and overhead installation",
-      "Long service life and durability"
+      "Long service life and durability",
     ],
   },
   {
@@ -2272,7 +2414,8 @@ export const products: Product[] = [
       standard: "TIA/EIA-568-B",
     },
     title: "Communication Cables",
-    description: "High-performance Category 6A communication cables with 500 MHz bandwidth for advanced networking applications. F/UTP shielding ensures reliable data transmission in demanding environments.",
+    description:
+      "High-performance Category 6A communication cables with 500 MHz bandwidth for advanced networking applications. F/UTP shielding ensures reliable data transmission in demanding environments.",
     features: [
       "Category 6A performance for high-speed data",
       "500 MHz bandwidth capability",
@@ -2280,7 +2423,7 @@ export const products: Product[] = [
       "F/UTP shielding for signal integrity",
       "TIA/EIA-568-B standard compliance",
       "Suitable for 10 Gigabit Ethernet",
-      "Low crosstalk and interference"
+      "Low crosstalk and interference",
     ],
   },
 
@@ -2299,7 +2442,8 @@ export const products: Product[] = [
       standard: "IEC 60898",
     },
     title: "MCB Miniature Circuit Breakers",
-    description: "Reliable MCB miniature circuit breakers for overload and short-circuit protection. Available in current ranges from 6A to 63A with multiple pole configurations for comprehensive electrical protection.",
+    description:
+      "Reliable MCB miniature circuit breakers for overload and short-circuit protection. Available in current ranges from 6A to 63A with multiple pole configurations for comprehensive electrical protection.",
     features: [
       "Current range: 6A - 63A",
       "Multiple pole options: 1P, 2P, 3P, 4P",
@@ -2307,7 +2451,7 @@ export const products: Product[] = [
       "IEC 60898 standard compliance",
       "Compact miniature design",
       "Reliable overload protection",
-      "Easy installation and maintenance"
+      "Easy installation and maintenance",
     ],
   },
   {
@@ -2324,7 +2468,8 @@ export const products: Product[] = [
       standard: "IEC 60947",
     },
     title: "MCCB Molded Case Circuit Breakers",
-    description: "Heavy-duty MCCB molded case circuit breakers for high-current applications. Available from 16A to 1600A with 50kA breaking capacity for reliable protection in industrial electrical systems.",
+    description:
+      "Heavy-duty MCCB molded case circuit breakers for high-current applications. Available from 16A to 1600A with 50kA breaking capacity for reliable protection in industrial electrical systems.",
     features: [
       "High current range: 16A - 1600A",
       "3P and 4P pole configurations",
@@ -2332,7 +2477,7 @@ export const products: Product[] = [
       "IEC 60947 standard compliance",
       "Molded case construction",
       "Adjustable trip settings",
-      "Suitable for industrial applications"
+      "Suitable for industrial applications",
     ],
   },
   {
@@ -2349,7 +2494,8 @@ export const products: Product[] = [
       standard: "IEC 60269",
     },
     title: "Industrial HRC Fuses",
-    description: "High-rupturing capacity (HRC) industrial fuses for overcurrent protection. Available from 2A to 800A with voltage ranges up to 11kV and 80kA breaking capacity for critical industrial protection.",
+    description:
+      "High-rupturing capacity (HRC) industrial fuses for overcurrent protection. Available from 2A to 800A with voltage ranges up to 11kV and 80kA breaking capacity for critical industrial protection.",
     features: [
       "HRC type for high breaking capacity",
       "Current range: 2A - 800A",
@@ -2357,7 +2503,7 @@ export const products: Product[] = [
       "80kA breaking capacity",
       "IEC 60269 standard compliance",
       "Fast-acting overcurrent protection",
-      "Reliable arc extinction"
+      "Reliable arc extinction",
     ],
   },
 
@@ -2376,7 +2522,8 @@ export const products: Product[] = [
       mounting: "DIN Rail",
     },
     title: "Industrial Terminal Blocks",
-    description: "Versatile terminal blocks for secure electrical connections in industrial control panels. Available in screw and spring clamp types with current ratings from 10A to 150A and DIN rail mounting.",
+    description:
+      "Versatile terminal blocks for secure electrical connections in industrial control panels. Available in screw and spring clamp types with current ratings from 10A to 150A and DIN rail mounting.",
     features: [
       "Screw and spring clamp terminal types",
       "Current rating: 10A - 150A",
@@ -2384,7 +2531,7 @@ export const products: Product[] = [
       "Wire size: 0.2 - 50 mm²",
       "DIN rail mounting system",
       "Secure and reliable connections",
-      "Easy installation and maintenance"
+      "Easy installation and maintenance",
     ],
   },
   {
@@ -2401,7 +2548,8 @@ export const products: Product[] = [
       rating: "IP67",
     },
     title: "Industrial Heavy Duty Connectors",
-    description: "Heavy-duty industrial connectors designed for harsh environments. Available with 3-128 pins, current ratings up to 400A, and IP67 protection for reliable connections in demanding applications.",
+    description:
+      "Heavy-duty industrial connectors designed for harsh environments. Available with 3-128 pins, current ratings up to 400A, and IP67 protection for reliable connections in demanding applications.",
     features: [
       "Heavy-duty construction for industrial use",
       "Pin configurations: 3-128 pins",
@@ -2409,7 +2557,7 @@ export const products: Product[] = [
       "690V voltage rating",
       "IP67 protection rating",
       "Suitable for harsh environments",
-      "Reliable connection performance"
+      "Reliable connection performance",
     ],
   },
   {
@@ -2426,7 +2574,8 @@ export const products: Product[] = [
       shielding: "360° EMI",
     },
     title: "Signal Connectors",
-    description: "Miniature signal connectors for precise data transmission in control and instrumentation applications. Features 2-50 pin configurations with 360° EMI shielding for signal integrity.",
+    description:
+      "Miniature signal connectors for precise data transmission in control and instrumentation applications. Features 2-50 pin configurations with 360° EMI shielding for signal integrity.",
     features: [
       "Miniature design for space-saving",
       "Pin range: 2-50 pins",
@@ -2434,7 +2583,7 @@ export const products: Product[] = [
       "250V voltage capability",
       "360° EMI shielding",
       "Excellent signal integrity",
-      "Ideal for control applications"
+      "Ideal for control applications",
     ],
   },
 
@@ -2463,7 +2612,8 @@ export const products: Product[] = [
       certification: "CE, UL, CSA",
     },
     title: "Omron E2E-X5ME1 PNP Proximity Sensor",
-    description: "High-performance Omron PNP inductive proximity sensor with 5mm sensing distance. Features PNP NO/NC output, IP67 protection, and M12 connector for reliable industrial automation applications.",
+    description:
+      "High-performance Omron PNP inductive proximity sensor with 5mm sensing distance. Features PNP NO/NC output, IP67 protection, and M12 connector for reliable industrial automation applications.",
     features: [
       "5mm sensing distance for precise detection",
       "PNP NO/NC output configuration",
@@ -2472,7 +2622,7 @@ export const products: Product[] = [
       "1000Hz switching frequency",
       "IP67 protection rating",
       "M12 connector for easy installation",
-      "CE, UL, CSA certified"
+      "CE, UL, CSA certified",
     ],
   },
   {
@@ -2496,7 +2646,8 @@ export const products: Product[] = [
       certification: "ATEX, IECEx, CE",
     },
     title: "Pepperl+Fuchs NBB5-18GM60-E2 PNP Sensor",
-    description: "Industrial-grade Pepperl+Fuchs PNP inductive proximity sensor with 5mm sensing range. Features IP68 protection, ATEX certification, and 5000Hz switching frequency for harsh environment applications.",
+    description:
+      "Industrial-grade Pepperl+Fuchs PNP inductive proximity sensor with 5mm sensing range. Features IP68 protection, ATEX certification, and 5000Hz switching frequency for harsh environment applications.",
     features: [
       "5mm sensing distance for accurate detection",
       "PNP NO output type",
@@ -2505,7 +2656,7 @@ export const products: Product[] = [
       "High 5000Hz switching frequency",
       "IP68 protection for harsh environments",
       "2m cable connection",
-      "ATEX, IECEx, CE certified"
+      "ATEX, IECEx, CE certified",
     ],
   },
 
@@ -2534,7 +2685,8 @@ export const products: Product[] = [
       mounting: "Flush",
     },
     title: "Schneider Electric XS518B1DAL2 PNP Proximity Sensor",
-    description: "Industrial PNP proximity sensor from Schneider's OsiSense XS range with 5mm sensing distance and M12 connector. Features adaptive technology with teach-mode button for optimal configuration.",
+    description:
+      "Industrial PNP proximity sensor from Schneider's OsiSense XS range with 5mm sensing distance and M12 connector. Features adaptive technology with teach-mode button for optimal configuration.",
     features: [
       "5mm flush mount sensing distance",
       "12-48VDC wide voltage range",
@@ -2543,7 +2695,7 @@ export const products: Product[] = [
       "5kHz high-speed response",
       "IP67 environmental protection",
       "M12 4-pin connector",
-      "Tool-free bracket mounting"
+      "Tool-free bracket mounting",
     ],
   },
   {
@@ -2571,7 +2723,8 @@ export const products: Product[] = [
       size: "M30",
     },
     title: "Schneider Electric XS630B1NAL2 M30 PNP Proximity Sensor",
-    description: "M30 cylindrical PNP proximity sensor with 15mm sensing range. Part of Schneider's OsiSense XS series with complementary outputs and adaptive technology for industrial automation.",
+    description:
+      "M30 cylindrical PNP proximity sensor with 15mm sensing range. Part of Schneider's OsiSense XS series with complementary outputs and adaptive technology for industrial automation.",
     features: [
       "15mm non-flush sensing distance",
       "M30 cylindrical housing",
@@ -2580,7 +2733,7 @@ export const products: Product[] = [
       "2kHz switching frequency",
       "IP67 protection rating",
       "M12 connector interface",
-      "LED status indicators"
+      "LED status indicators",
     ],
   },
 
@@ -2607,7 +2760,8 @@ export const products: Product[] = [
       certification: "CE, UL, CSA",
     },
     title: "Sick IM12-04BNS-ZW1 NPN Proximity Sensor",
-    description: "Reliable Sick NPN inductive proximity sensor with 4mm sensing distance. Features NPN NO output, IP67 protection, and M12 connector for demanding industrial automation applications.",
+    description:
+      "Reliable Sick NPN inductive proximity sensor with 4mm sensing distance. Features NPN NO output, IP67 protection, and M12 connector for demanding industrial automation applications.",
     features: [
       "4mm sensing distance for precise detection",
       "NPN NO output configuration",
@@ -2616,7 +2770,7 @@ export const products: Product[] = [
       "2000Hz switching frequency",
       "IP67 protection rating",
       "M12 connector for easy installation",
-      "CE, UL, CSA certified"
+      "CE, UL, CSA certified",
     ],
   },
   {
@@ -2640,7 +2794,8 @@ export const products: Product[] = [
       certification: "CE, UL, CSA",
     },
     title: "Turck BI5-G18-AN6X NPN Proximity Sensor",
-    description: "High-performance Turck NPN inductive proximity sensor with 5mm sensing range. Features NPN NO/NC output, IP67 protection, and 2m PVC cable for versatile industrial applications.",
+    description:
+      "High-performance Turck NPN inductive proximity sensor with 5mm sensing range. Features NPN NO/NC output, IP67 protection, and 2m PVC cable for versatile industrial applications.",
     features: [
       "5mm sensing distance for accurate detection",
       "NPN NO/NC output configuration",
@@ -2649,7 +2804,7 @@ export const products: Product[] = [
       "High 3000Hz switching frequency",
       "IP67 protection rating",
       "2m PVC cable connection",
-      "CE, UL, CSA certified"
+      "CE, UL, CSA certified",
     ],
   },
 
@@ -2676,7 +2831,8 @@ export const products: Product[] = [
       materials: "Stainless steel probe",
     },
     title: "Endress+Hauser TST310 PT100 Cable Probe",
-    description: "Direct immersion PT100 RTD cable probe for air, water, and oil applications. Features fast response time T90 = 1.5s and is suitable for rapid temperature changes in process monitoring.",
+    description:
+      "Direct immersion PT100 RTD cable probe for air, water, and oil applications. Features fast response time T90 = 1.5s and is suitable for rapid temperature changes in process monitoring.",
     features: [
       "Fast response T90 = 1.5s in water",
       "Direct process contact design",
@@ -2685,7 +2841,7 @@ export const products: Product[] = [
       "Class A accuracy ±0.15°C at 0°C",
       "Stainless steel construction",
       "5m integral cable",
-      "SIL2 safety certification"
+      "SIL2 safety certification",
     ],
   },
   {
@@ -2710,7 +2866,8 @@ export const products: Product[] = [
       construction: "Single or dual element",
     },
     title: "Rosemount 214C PT100 RTD Temperature Sensor",
-    description: "Industry standard Rosemount PT100 sensor with wide temperature range from -196°C to +600°C. Available in single or dual element design with thin-film or wire-wound construction.",
+    description:
+      "Industry standard Rosemount PT100 sensor with wide temperature range from -196°C to +600°C. Available in single or dual element design with thin-film or wire-wound construction.",
     features: [
       "Wide temperature range -196°C to +600°C",
       "Single or dual element options",
@@ -2719,7 +2876,7 @@ export const products: Product[] = [
       "Fast 9-second response in flowing water",
       "Callendar-Van Dusen constants",
       "Temperature cycling ±0.15°C max drift",
-      "Industry standard design"
+      "Industry standard design",
     ],
   },
   {
@@ -2745,7 +2902,8 @@ export const products: Product[] = [
       mtbf: "190 years at 40°C",
     },
     title: "ABB TTH200 Head Mounted PT1000 HART Transmitter",
-    description: "Universal input head-mounted temperature transmitter supporting PT100, PT1000, Ni, and Cu RTDs with HART protocol. Features 3.5kV isolation and 190-year MTBF at 40°C.",
+    description:
+      "Universal input head-mounted temperature transmitter supporting PT100, PT1000, Ni, and Cu RTDs with HART protocol. Features 3.5kV isolation and 190-year MTBF at 40°C.",
     features: [
       "Universal RTD input support",
       "PT100, PT1000, Ni, Cu compatibility",
@@ -2754,7 +2912,7 @@ export const products: Product[] = [
       "Head mounted DIN B connection",
       "190-year MTBF reliability",
       "±0.1°C high accuracy",
-      "ATEX certified for hazardous areas"
+      "ATEX certified for hazardous areas",
     ],
   },
   {
@@ -2778,16 +2936,17 @@ export const products: Product[] = [
       certification: "CE, ATEX, IECEx",
     },
     title: "Wika TR10-A PT100 RTD Temperature Sensor",
-    description: "Precision Wika PT100 RTD temperature sensor with wide measurement range from -200°C to +600°C. Features Class A accuracy, fast response time, and ATEX certification for process applications.",
+    description:
+      "Precision Wika PT100 RTD temperature sensor with wide measurement range from -200°C to +600°C. Features Class A accuracy, fast response time, and ATEX certification for process applications.",
     features: [
       "PT100 element type (3850ppm/K)",
       "Wide temperature range: -200°C to +600°C",
       "Class A accuracy (±0.15°C at 0°C)",
       "Fast response time: T90 < 8s",
       "IP65 protection rating",
-      "1/2\" NPT process connection",
+      '1/2" NPT process connection',
       "5m, 4-wire cable",
-      "CE, ATEX, IECEx certified"
+      "CE, ATEX, IECEx certified",
     ],
   },
   {
@@ -2810,16 +2969,17 @@ export const products: Product[] = [
       certification: "FM, CSA, ATEX",
     },
     title: "Rosemount 78S PT500 RTD Temperature Sensor",
-    description: "Industrial-grade Rosemount PT500 RTD temperature sensor with -200°C to +500°C range. Features Class A accuracy, fast response time, and IP68 protection for harsh environments.",
+    description:
+      "Industrial-grade Rosemount PT500 RTD temperature sensor with -200°C to +500°C range. Features Class A accuracy, fast response time, and IP68 protection for harsh environments.",
     features: [
       "PT500 element type (3850ppm/K)",
       "Temperature range: -200°C to +500°C",
       "Class A accuracy (±0.3°C at 0°C)",
       "Fast response time: T90 < 5s",
       "IP68 protection for harsh environments",
-      "1/4\" NPT process connection",
+      '1/4" NPT process connection',
       "10m, 3-wire cable",
-      "FM, CSA, ATEX certified"
+      "FM, CSA, ATEX certified",
     ],
   },
   {
@@ -2843,7 +3003,8 @@ export const products: Product[] = [
       certification: "CE, RoHS",
     },
     title: "Omega RTD-2-PT1000 Temperature Probe",
-    description: "Precision Omega PT1000 RTD temperature probe with extended range from -200°C to +650°C. Features Class A accuracy, 6-inch probe length, and 1/8 inch diameter for versatile temperature measurement applications.",
+    description:
+      "Precision Omega PT1000 RTD temperature probe with extended range from -200°C to +650°C. Features Class A accuracy, 6-inch probe length, and 1/8 inch diameter for versatile temperature measurement applications.",
     features: [
       "PT1000 element type (3850ppm/K)",
       "Extended temperature range: -200°C to +650°C",
@@ -2853,7 +3014,7 @@ export const products: Product[] = [
       "6-inch probe length",
       "1/8 inch probe diameter",
       "3m, 2-wire cable",
-      "CE, RoHS certified"
+      "CE, RoHS certified",
     ],
   },
 
@@ -2880,7 +3041,8 @@ export const products: Product[] = [
       certification: "ANSI MC96.1",
     },
     title: "TC Ltd Type K Thermocouple Sensor",
-    description: "High-performance Type K thermocouple sensor with wide temperature range from -200°C to +1200°C. Features grounded junction, fast response time, and ANSI MC96.1 compliance for industrial applications.",
+    description:
+      "High-performance Type K thermocouple sensor with wide temperature range from -200°C to +1200°C. Features grounded junction, fast response time, and ANSI MC96.1 compliance for industrial applications.",
     features: [
       "Type K (Chromel-Alumel) thermocouple",
       "Wide temperature range: -200°C to +1200°C",
@@ -2891,7 +3053,7 @@ export const products: Product[] = [
       "1/8 inch probe diameter",
       "Grounded junction type",
       "2m cable length",
-      "ANSI MC96.1 certified"
+      "ANSI MC96.1 certified",
     ],
   },
   {
@@ -2916,7 +3078,8 @@ export const products: Product[] = [
       certification: "ANSI MC96.1, CE",
     },
     title: "Omega JMQSS Type J Thermocouple Sensor",
-    description: "Professional Omega Type J thermocouple sensor with temperature range from -210°C to +760°C. Features ungrounded junction, fast response time, and dual certification for reliable temperature measurement.",
+    description:
+      "Professional Omega Type J thermocouple sensor with temperature range from -210°C to +760°C. Features ungrounded junction, fast response time, and dual certification for reliable temperature measurement.",
     features: [
       "Type J (Iron-Constantan) thermocouple",
       "Temperature range: -210°C to +760°C",
@@ -2927,7 +3090,7 @@ export const products: Product[] = [
       "1/8 inch probe diameter",
       "Ungrounded junction type",
       "3m cable length",
-      "ANSI MC96.1, CE certified"
+      "ANSI MC96.1, CE certified",
     ],
   },
   {
@@ -2952,7 +3115,8 @@ export const products: Product[] = [
       certification: "ATEX, IECEx, CE",
     },
     title: "Wika TC50-T Type T Thermocouple Sensor",
-    description: "Precision Wika Type T thermocouple sensor with temperature range from -250°C to +400°C. Features grounded junction, ATEX certification, and superior accuracy for demanding industrial applications.",
+    description:
+      "Precision Wika Type T thermocouple sensor with temperature range from -250°C to +400°C. Features grounded junction, ATEX certification, and superior accuracy for demanding industrial applications.",
     features: [
       "Type T (Copper-Constantan) thermocouple",
       "Temperature range: -250°C to +400°C",
@@ -2963,7 +3127,7 @@ export const products: Product[] = [
       "6mm probe diameter",
       "Grounded junction type",
       "5m cable length",
-      "ATEX, IECEx, CE certified"
+      "ATEX, IECEx, CE certified",
     ],
   },
   {
@@ -2988,7 +3152,8 @@ export const products: Product[] = [
       certification: "ANSI MC96.1, CE",
     },
     title: "Omega STC-S Type S Thermocouple Sensor",
-    description: "High-temperature Omega Type S thermocouple sensor with platinum-rhodium elements for temperatures up to +1600°C. Features ungrounded junction and superior accuracy for laboratory and industrial high-temperature applications.",
+    description:
+      "High-temperature Omega Type S thermocouple sensor with platinum-rhodium elements for temperatures up to +1600°C. Features ungrounded junction and superior accuracy for laboratory and industrial high-temperature applications.",
     features: [
       "Type S (Platinum-Rhodium) thermocouple",
       "High temperature range: 0°C to +1600°C",
@@ -2999,7 +3164,7 @@ export const products: Product[] = [
       "1/8 inch probe diameter",
       "Ungrounded junction type",
       "2m cable length",
-      "ANSI MC96.1, CE certified"
+      "ANSI MC96.1, CE certified",
     ],
   },
 
@@ -3028,7 +3193,8 @@ export const products: Product[] = [
       materials: "316L SST wetted parts",
     },
     title: "Rosemount 3051CD Smart DP Transmitter",
-    description: "Industry-leading Rosemount 3051CD smart differential pressure transmitter with HART 7 communication. Features exceptional accuracy, long-term stability, and SIL 2/3 certification for critical process applications.",
+    description:
+      "Industry-leading Rosemount 3051CD smart differential pressure transmitter with HART 7 communication. Features exceptional accuracy, long-term stability, and SIL 2/3 certification for critical process applications.",
     features: [
       "Smart differential pressure measurement",
       "Pressure range: 0-2.5 kPa to 0-10 MPa",
@@ -3038,7 +3204,7 @@ export const products: Product[] = [
       "IP67 protection rating",
       "HART 7, 4-20mA communication",
       "316L SST wetted parts",
-      "ATEX, IECEx, SIL 2/3 certified"
+      "ATEX, IECEx, SIL 2/3 certified",
     ],
   },
   {
@@ -3065,7 +3231,8 @@ export const products: Product[] = [
       materials: "Hastelloy C-276, 316L SST",
     },
     title: "Endress+Hauser Deltabar PMD75 DP Transmitter",
-    description: "Advanced Endress+Hauser Deltabar PMD75 HART DP transmitter with remote seals capability. Features multi-protocol communication, exceptional long-term stability, and wide process temperature range for demanding applications.",
+    description:
+      "Advanced Endress+Hauser Deltabar PMD75 HART DP transmitter with remote seals capability. Features multi-protocol communication, exceptional long-term stability, and wide process temperature range for demanding applications.",
     features: [
       "HART DP transmitter with remote seals",
       "Pressure range: 0-100 Pa to 0-4 MPa",
@@ -3075,7 +3242,7 @@ export const products: Product[] = [
       "IP68 protection rating",
       "Multi-protocol: HART, Foundation Fieldbus, Profibus PA",
       "Hastelloy C-276, 316L SST materials",
-      "ATEX, IECEx, SIL 2/3, WHG certified"
+      "ATEX, IECEx, SIL 2/3, WHG certified",
     ],
   },
   {
@@ -3102,7 +3269,8 @@ export const products: Product[] = [
       materials: "Hastelloy C-276, 316L SST, Tantalum",
     },
     title: "Yokogawa EJA110E DPharp DP Transmitter",
-    description: "Advanced Yokogawa EJA110E DPharp digital differential pressure transmitter with multi-protocol communication. Features exceptional accuracy, long-term stability, and premium material options for critical process applications.",
+    description:
+      "Advanced Yokogawa EJA110E DPharp digital differential pressure transmitter with multi-protocol communication. Features exceptional accuracy, long-term stability, and premium material options for critical process applications.",
     features: [
       "DPharp digital DP measurement technology",
       "Pressure range: 0-500 Pa to 0-10 MPa",
@@ -3112,7 +3280,7 @@ export const products: Product[] = [
       "IP67 protection rating",
       "Multi-protocol: HART, Foundation Fieldbus, Profibus PA, BRAIN",
       "Premium materials: Hastelloy C-276, 316L SST, Tantalum",
-      "ATEX, IECEx, FM, CSA, SIL 2/3 certified"
+      "ATEX, IECEx, FM, CSA, SIL 2/3 certified",
     ],
   },
   {
@@ -3139,7 +3307,8 @@ export const products: Product[] = [
       materials: "316L SST, Hastelloy C-276",
     },
     title: "Honeywell STT950 Smart DP Transmitter",
-    description: "Reliable Honeywell STT950 smart differential pressure transmitter with multi-protocol communication support. Features high accuracy, proven stability, and comprehensive certification for demanding industrial applications.",
+    description:
+      "Reliable Honeywell STT950 smart differential pressure transmitter with multi-protocol communication support. Features high accuracy, proven stability, and comprehensive certification for demanding industrial applications.",
     features: [
       "Smart differential pressure measurement",
       "Pressure range: 0-249 Pa to 0-13.8 MPa",
@@ -3149,7 +3318,7 @@ export const products: Product[] = [
       "IP67 protection rating",
       "Multi-protocol: HART, Foundation Fieldbus, DE Protocol",
       "Robust materials: 316L SST, Hastelloy C-276",
-      "ATEX, IECEx, FM, CSA, SIL 2/3 certified"
+      "ATEX, IECEx, FM, CSA, SIL 2/3 certified",
     ],
   },
 
@@ -3176,7 +3345,8 @@ export const products: Product[] = [
       certification: "ATEX, FM, CSA",
     },
     title: "Endress+Hauser CPS11D Digital pH Sensor",
-    description: "Precision Endress+Hauser CPS11D digital pH sensor with automatic temperature compensation. Features high accuracy, PTFE diaphragm, and polymer gel electrolyte for reliable pH measurement in demanding applications.",
+    description:
+      "Precision Endress+Hauser CPS11D digital pH sensor with automatic temperature compensation. Features high accuracy, PTFE diaphragm, and polymer gel electrolyte for reliable pH measurement in demanding applications.",
     features: [
       "Digital pH measurement technology",
       "Full pH range: 0-14 pH",
@@ -3187,7 +3357,7 @@ export const products: Product[] = [
       "PTFE diaphragm for chemical resistance",
       "Polymer gel electrolyte",
       "10m cable length",
-      "ATEX, FM, CSA certified"
+      "ATEX, FM, CSA certified",
     ],
   },
   {
@@ -3212,7 +3382,8 @@ export const products: Product[] = [
       certification: "UL, CE, CSA",
     },
     title: "Hach pHD sc Differential pH Sensor",
-    description: "High-precision Hach pHD sc differential pH sensor with superior accuracy and temperature compensation. Features ceramic diaphragm, liquid KCl electrolyte, and extended measurement range for critical pH monitoring.",
+    description:
+      "High-precision Hach pHD sc differential pH sensor with superior accuracy and temperature compensation. Features ceramic diaphragm, liquid KCl electrolyte, and extended measurement range for critical pH monitoring.",
     features: [
       "Differential pH measurement technology",
       "Full pH range: 0-14 pH",
@@ -3223,7 +3394,7 @@ export const products: Product[] = [
       "Ceramic diaphragm for durability",
       "Liquid KCl electrolyte",
       "15m cable length",
-      "UL, CE, CSA certified"
+      "UL, CE, CSA certified",
     ],
   },
 
@@ -3254,7 +3425,8 @@ export const products: Product[] = [
       materials: "316L SST wetted parts",
     },
     title: "Siemens SITRANS P320 Pressure Transmitter",
-    description: "Reliable Siemens SITRANS P320 absolute/gauge pressure transmitter with wide pressure range capabilities. Features high accuracy, multi-protocol communication, and SIL 2 certification for demanding process applications.",
+    description:
+      "Reliable Siemens SITRANS P320 absolute/gauge pressure transmitter with wide pressure range capabilities. Features high accuracy, multi-protocol communication, and SIL 2 certification for demanding process applications.",
     features: [
       "Absolute/gauge pressure measurement",
       "Wide pressure range: 0-1 kPa to 0-70 MPa",
@@ -3264,7 +3436,7 @@ export const products: Product[] = [
       "IP67 protection rating",
       "Multi-protocol: HART, 4-20mA, Profibus PA",
       "316L SST wetted parts",
-      "ATEX, IECEx, FM, CSA, SIL 2 certified"
+      "ATEX, IECEx, FM, CSA, SIL 2 certified",
     ],
   },
   {
@@ -3291,7 +3463,8 @@ export const products: Product[] = [
       materials: "316L SST, Hastelloy C-276",
     },
     title: "ABB 2600T Series Pressure Transmitter",
-    description: "High-performance ABB 2600T series gauge/absolute pressure transmitter with exceptional accuracy and stability. Features multi-protocol communication and premium material options for critical industrial processes.",
+    description:
+      "High-performance ABB 2600T series gauge/absolute pressure transmitter with exceptional accuracy and stability. Features multi-protocol communication and premium material options for critical industrial processes.",
     features: [
       "Gauge/absolute pressure measurement",
       "Pressure range: 0-100 kPa to 0-100 MPa",
@@ -3301,7 +3474,7 @@ export const products: Product[] = [
       "IP67 protection rating",
       "Multi-protocol: HART, Foundation Fieldbus, 4-20mA",
       "Premium materials: 316L SST, Hastelloy C-276",
-      "ATEX, IECEx, FM, CSA, SIL 2/3 certified"
+      "ATEX, IECEx, FM, CSA, SIL 2/3 certified",
     ],
   },
   {
@@ -3328,7 +3501,8 @@ export const products: Product[] = [
       materials: "Stainless steel 316L",
     },
     title: "WIKA A-10 General Purpose Pressure Transmitter",
-    description: "Cost-effective WIKA A-10 general purpose pressure transmitter for standard industrial applications. Features reliable performance, multiple output options, and stainless steel construction for versatile use.",
+    description:
+      "Cost-effective WIKA A-10 general purpose pressure transmitter for standard industrial applications. Features reliable performance, multiple output options, and stainless steel construction for versatile use.",
     features: [
       "General purpose pressure measurement",
       "Pressure range: 0-1 bar to 0-1000 bar",
@@ -3338,7 +3512,7 @@ export const products: Product[] = [
       "IP65 protection rating",
       "Multiple outputs: 4-20mA, 0-10V",
       "316L stainless steel construction",
-      "CE, RoHS compliant"
+      "CE, RoHS compliant",
     ],
   },
   {
@@ -3365,7 +3539,8 @@ export const products: Product[] = [
       materials: "316L SST, Hastelloy C-276",
     },
     title: "Fuji Electric FCX-AII Smart Pressure Transmitter",
-    description: "Advanced Fuji Electric FCX-AII series smart pressure transmitter with multi-protocol communication. Features high accuracy, long-term stability, and premium material construction for demanding applications.",
+    description:
+      "Advanced Fuji Electric FCX-AII series smart pressure transmitter with multi-protocol communication. Features high accuracy, long-term stability, and premium material construction for demanding applications.",
     features: [
       "Smart pressure measurement technology",
       "Pressure range: 0-10 kPa to 0-10 MPa",
@@ -3375,7 +3550,7 @@ export const products: Product[] = [
       "IP67 protection rating",
       "Multi-protocol: HART, Foundation Fieldbus, 4-20mA",
       "Premium materials: 316L SST, Hastelloy C-276",
-      "ATEX, IECEx, FM, CSA certified"
+      "ATEX, IECEx, FM, CSA certified",
     ],
   },
 
@@ -3405,7 +3580,8 @@ export const products: Product[] = [
       materials: "316L SST, Hastelloy C-276, Monel",
     },
     title: "Rosemount 3051S Remote Seal Pressure Transmitter",
-    description: "Industry-leading Rosemount 3051S remote seal pressure transmitter for extreme process conditions. Features exceptional accuracy including remote seal effects, extended capillary lengths, and premium material options for demanding applications.",
+    description:
+      "Industry-leading Rosemount 3051S remote seal pressure transmitter for extreme process conditions. Features exceptional accuracy including remote seal effects, extended capillary lengths, and premium material options for demanding applications.",
     features: [
       "Remote seal pressure measurement technology",
       "Pressure range: 0-1.2 kPa to 0-69 MPa",
@@ -3416,7 +3592,7 @@ export const products: Product[] = [
       "HART 7, 4-20mA communication",
       "Capillary length: Up to 30 meters",
       "Premium materials: 316L SST, Hastelloy C-276, Monel",
-      "ATEX, IECEx, SIL 2/3 certified"
+      "ATEX, IECEx, SIL 2/3 certified",
     ],
   },
   {
@@ -3444,7 +3620,8 @@ export const products: Product[] = [
       materials: "Ceramic Al2O3, 316L SST, Hastelloy C-276",
     },
     title: "Endress+Hauser Cerabar S Remote Seal Transmitter",
-    description: "Advanced Endress+Hauser Cerabar S ceramic remote seal transmitter with exceptional stability. Features ceramic sensor technology, multi-protocol communication, and extended capillary lengths for challenging process conditions.",
+    description:
+      "Advanced Endress+Hauser Cerabar S ceramic remote seal transmitter with exceptional stability. Features ceramic sensor technology, multi-protocol communication, and extended capillary lengths for challenging process conditions.",
     features: [
       "Ceramic remote seal measurement technology",
       "Pressure range: 0-100 Pa to 0-100 MPa",
@@ -3455,7 +3632,7 @@ export const products: Product[] = [
       "Multi-protocol: HART, Foundation Fieldbus, Profibus PA",
       "Extended capillary length: Up to 50 meters",
       "Ceramic Al2O3, 316L SST, Hastelloy C-276 materials",
-      "ATEX, IECEx, SIL 2/3, WHG certified"
+      "ATEX, IECEx, SIL 2/3, WHG certified",
     ],
   },
   {
@@ -3483,7 +3660,8 @@ export const products: Product[] = [
       materials: "316L SST, Hastelloy C-276, Tantalum",
     },
     title: "Yokogawa EJA430E DPharp Remote Seal Transmitter",
-    description: "Precision Yokogawa EJA430E DPharp remote seal transmitter with multi-protocol communication. Features exceptional accuracy including remote seal effects, wide process temperature range, and premium material construction.",
+    description:
+      "Precision Yokogawa EJA430E DPharp remote seal transmitter with multi-protocol communication. Features exceptional accuracy including remote seal effects, wide process temperature range, and premium material construction.",
     features: [
       "DPharp remote seal measurement technology",
       "Pressure range: 0-2 kPa to 0-50 MPa",
@@ -3494,7 +3672,7 @@ export const products: Product[] = [
       "Multi-protocol: HART, Foundation Fieldbus, Profibus PA, BRAIN",
       "Capillary length: Up to 30 meters",
       "Premium materials: 316L SST, Hastelloy C-276, Tantalum",
-      "ATEX, IECEx, FM, CSA, SIL 2/3 certified"
+      "ATEX, IECEx, FM, CSA, SIL 2/3 certified",
     ],
   },
   {
@@ -3522,7 +3700,8 @@ export const products: Product[] = [
       materials: "316L SST, Hastelloy C-276, Monel 400",
     },
     title: "Honeywell STT850 Smart Remote Seal Transmitter",
-    description: "Reliable Honeywell STT850 smart remote seal transmitter with multi-protocol communication. Features high accuracy including remote seal effects, extended process temperature range, and premium material construction.",
+    description:
+      "Reliable Honeywell STT850 smart remote seal transmitter with multi-protocol communication. Features high accuracy including remote seal effects, extended process temperature range, and premium material construction.",
     features: [
       "Smart remote seal measurement technology",
       "Pressure range: 0-1.25 kPa to 0-69 MPa",
@@ -3533,7 +3712,7 @@ export const products: Product[] = [
       "Multi-protocol: HART, Foundation Fieldbus, DE Protocol",
       "Capillary length: Up to 30 meters",
       "Premium materials: 316L SST, Hastelloy C-276, Monel 400",
-      "ATEX, IECEx, FM, CSA, SIL 2/3 certified"
+      "ATEX, IECEx, FM, CSA, SIL 2/3 certified",
     ],
   },
 
@@ -3563,10 +3742,11 @@ export const products: Product[] = [
       electrodeMaterials: "316L SST, Hastelloy C-276, Platinum, Tantalum",
     },
     title: "Endress+Hauser Promag W 400 Electromagnetic Flow Meter",
-    description: "Advanced Endress+Hauser Promag W 400 electromagnetic flow meter with exceptional accuracy and multi-protocol communication. Features wide diameter range, superior repeatability, and premium material options for demanding flow applications.",
+    description:
+      "Advanced Endress+Hauser Promag W 400 electromagnetic flow meter with exceptional accuracy and multi-protocol communication. Features wide diameter range, superior repeatability, and premium material options for demanding flow applications.",
     features: [
       "Electromagnetic flow measurement technology",
-      "Wide diameter range: DN15 to DN2000 (1/2\" to 78\")",
+      'Wide diameter range: DN15 to DN2000 (1/2" to 78")',
       "High accuracy: ±0.2% of reading (±2 mm/s)",
       "Excellent repeatability: ±0.05% of reading",
       "Process temperature: -25°C to +180°C",
@@ -3574,7 +3754,7 @@ export const products: Product[] = [
       "Multi-protocol: HART, Modbus RS485, Foundation Fieldbus, Profibus PA",
       "Multiple liner materials: PTFE, PFA, Polyurethane, Rubber",
       "Premium electrodes: 316L SST, Hastelloy C-276, Platinum, Tantalum",
-      "ATEX, IECEx, FM, CSA, SIL 2/3 certified"
+      "ATEX, IECEx, FM, CSA, SIL 2/3 certified",
     ],
   },
   {
@@ -3602,10 +3782,11 @@ export const products: Product[] = [
       electrodeMaterials: "316L SST, Hastelloy C-276, Platinum, Tantalum",
     },
     title: "Rosemount 8750W Magnetic Flow Meter with Advanced Diagnostics",
-    description: "Industry-leading Rosemount 8750W magnetic flow meter with advanced diagnostics and WirelessHART capability. Features exceptional diameter range, superior accuracy, and comprehensive communication protocols for critical flow measurement.",
+    description:
+      "Industry-leading Rosemount 8750W magnetic flow meter with advanced diagnostics and WirelessHART capability. Features exceptional diameter range, superior accuracy, and comprehensive communication protocols for critical flow measurement.",
     features: [
       "Magnetic flow meter with advanced diagnostics",
-      "Exceptional diameter range: DN15 to DN3000 (1/2\" to 120\")",
+      'Exceptional diameter range: DN15 to DN3000 (1/2" to 120")',
       "Good accuracy: ±0.25% of reading (±1.5 mm/s)",
       "Excellent repeatability: ±0.05% of reading",
       "Process temperature: -40°C to +180°C",
@@ -3613,7 +3794,7 @@ export const products: Product[] = [
       "Advanced communication: HART, Foundation Fieldbus, Modbus, WirelessHART",
       "Multiple liner materials: PTFE, PFA, Polyurethane, Neoprene",
       "Premium electrodes: 316L SST, Hastelloy C-276, Platinum, Tantalum",
-      "ATEX, IECEx, FM, CSA, SIL 2/3 certified"
+      "ATEX, IECEx, FM, CSA, SIL 2/3 certified",
     ],
   },
   {
@@ -3641,10 +3822,11 @@ export const products: Product[] = [
       electrodeMaterials: "316L SST, Hastelloy C-276, Platinum, Tantalum",
     },
     title: "ABB ProcessMaster FEM300 Electromagnetic Flow Meter",
-    description: "High-performance ABB ProcessMaster FEM300 electromagnetic flow meter with multi-protocol communication. Features wide diameter range, high accuracy, and comprehensive liner/electrode material options for versatile applications.",
+    description:
+      "High-performance ABB ProcessMaster FEM300 electromagnetic flow meter with multi-protocol communication. Features wide diameter range, high accuracy, and comprehensive liner/electrode material options for versatile applications.",
     features: [
       "Electromagnetic flow measurement technology",
-      "Wide diameter range: DN10 to DN2000 (3/8\" to 78\")",
+      'Wide diameter range: DN10 to DN2000 (3/8" to 78")',
       "High accuracy: ±0.2% of reading (±2 mm/s)",
       "Excellent repeatability: ±0.05% of reading",
       "Process temperature: -10°C to +180°C",
@@ -3652,7 +3834,7 @@ export const products: Product[] = [
       "Multi-protocol: HART, Foundation Fieldbus, Profibus PA, Modbus",
       "Comprehensive liner materials: PTFE, PFA, Polyurethane, Rubber, Ceramic",
       "Premium electrodes: 316L SST, Hastelloy C-276, Platinum, Tantalum",
-      "ATEX, IECEx, FM, CSA, SIL 2/3 certified"
+      "ATEX, IECEx, FM, CSA, SIL 2/3 certified",
     ],
   },
   {
@@ -3680,10 +3862,11 @@ export const products: Product[] = [
       electrodeMaterials: "SUS316L, Hastelloy C-276, Platinum, Tantalum",
     },
     title: "Yokogawa ADMAG AXF Magnetic Flow Meter",
-    description: "Advanced Yokogawa ADMAG AXF magnetic flow meter with dual frequency excitation technology. Features high accuracy, multi-protocol communication, and comprehensive material options for demanding flow measurement applications.",
+    description:
+      "Advanced Yokogawa ADMAG AXF magnetic flow meter with dual frequency excitation technology. Features high accuracy, multi-protocol communication, and comprehensive material options for demanding flow measurement applications.",
     features: [
       "Dual frequency excitation technology",
-      "Wide diameter range: DN10 to DN2000 (3/8\" to 78\")",
+      'Wide diameter range: DN10 to DN2000 (3/8" to 78")',
       "Good accuracy: ±0.25% of reading (±1.5 mm/s)",
       "Excellent repeatability: ±0.05% of reading",
       "Process temperature: -10°C to +180°C",
@@ -3691,7 +3874,7 @@ export const products: Product[] = [
       "Multi-protocol: HART, Foundation Fieldbus, Profibus PA, BRAIN",
       "Multiple liner materials: PTFE, PFA, Polyurethane, Rubber",
       "Premium electrodes: SUS316L, Hastelloy C-276, Platinum, Tantalum",
-      "ATEX, IECEx, FM, CSA, SIL 2/3 certified"
+      "ATEX, IECEx, FM, CSA, SIL 2/3 certified",
     ],
   },
 
@@ -3721,10 +3904,11 @@ export const products: Product[] = [
       materials: "316L SST, Hastelloy C-276, Duplex 2205",
     },
     title: "Emerson Micro Motion CMF300 Coriolis Mass Flow Meter",
-    description: "Industry-leading Emerson Micro Motion CMF300 Coriolis mass flow meter with MVD multi-variable transmitter. Features exceptional accuracy, wide temperature range, and premium material construction for critical mass flow applications.",
+    description:
+      "Industry-leading Emerson Micro Motion CMF300 Coriolis mass flow meter with MVD multi-variable transmitter. Features exceptional accuracy, wide temperature range, and premium material construction for critical mass flow applications.",
     features: [
       "Coriolis mass flow measurement technology",
-      "Diameter range: DN25 to DN300 (1\" to 12\")",
+      'Diameter range: DN25 to DN300 (1" to 12")',
       "Exceptional accuracy: ±0.05% of reading (mass flow)",
       "Superior repeatability: ±0.02% of reading",
       "Wide process temperature: -240°C to +350°C",
@@ -3732,7 +3916,7 @@ export const products: Product[] = [
       "Multi-protocol: HART, Foundation Fieldbus, Modbus, Profibus PA",
       "Multiple process connections: Flanged, Tri-Clamp, Threaded",
       "Premium materials: 316L SST, Hastelloy C-276, Duplex 2205",
-      "ATEX, IECEx, FM, CSA, SIL 2/3 certified"
+      "ATEX, IECEx, FM, CSA, SIL 2/3 certified",
     ],
   },
   {
@@ -3760,10 +3944,11 @@ export const products: Product[] = [
       materials: "316L SST, Hastelloy C-276, Duplex Stainless Steel",
     },
     title: "Endress+Hauser Promass 83F Coriolis Mass Flow Meter",
-    description: "High-performance Endress+Hauser Promass 83F Coriolis mass flow meter with exceptional accuracy and reliability. Features wide diameter range, multi-protocol communication, and premium material options for demanding applications.",
+    description:
+      "High-performance Endress+Hauser Promass 83F Coriolis mass flow meter with exceptional accuracy and reliability. Features wide diameter range, multi-protocol communication, and premium material options for demanding applications.",
     features: [
       "Coriolis mass flow measurement technology",
-      "Wide diameter range: DN8 to DN300 (1/4\" to 12\")",
+      'Wide diameter range: DN8 to DN300 (1/4" to 12")',
       "Exceptional accuracy: ±0.05% of reading (mass flow)",
       "Superior repeatability: ±0.02% of reading",
       "Wide process temperature: -200°C to +350°C",
@@ -3771,7 +3956,7 @@ export const products: Product[] = [
       "Multi-protocol: HART, Foundation Fieldbus, Profibus PA, Modbus",
       "Multiple process connections: Flanged, Tri-Clamp, Threaded",
       "Premium materials: 316L SST, Hastelloy C-276, Duplex Stainless Steel",
-      "ATEX, IECEx, FM, CSA, SIL 2/3 certified"
+      "ATEX, IECEx, FM, CSA, SIL 2/3 certified",
     ],
   },
   {
@@ -3799,10 +3984,11 @@ export const products: Product[] = [
       materials: "316L SST, Hastelloy C-276, Inconel 625",
     },
     title: "ABB SensyFlow CMF300 Coriolis Mass Flow Meter",
-    description: "Reliable ABB SensyFlow CMF300 Coriolis mass flow meter with exceptional accuracy and multi-protocol communication. Features wide diameter range, high flow rates, and premium material construction for industrial applications.",
+    description:
+      "Reliable ABB SensyFlow CMF300 Coriolis mass flow meter with exceptional accuracy and multi-protocol communication. Features wide diameter range, high flow rates, and premium material construction for industrial applications.",
     features: [
       "Coriolis mass flow measurement technology",
-      "Diameter range: DN15 to DN300 (1/2\" to 12\")",
+      'Diameter range: DN15 to DN300 (1/2" to 12")',
       "Exceptional accuracy: ±0.05% of reading (mass flow)",
       "Superior repeatability: ±0.02% of reading",
       "Wide process temperature: -200°C to +350°C",
@@ -3810,7 +3996,7 @@ export const products: Product[] = [
       "Multi-protocol: HART, Foundation Fieldbus, Profibus PA, Modbus",
       "Multiple process connections: Flanged, Tri-Clamp, Threaded",
       "Premium materials: 316L SST, Hastelloy C-276, Inconel 625",
-      "ATEX, IECEx, FM, CSA, SIL 2/3 certified"
+      "ATEX, IECEx, FM, CSA, SIL 2/3 certified",
     ],
   },
   {
@@ -3838,10 +4024,11 @@ export const products: Product[] = [
       materials: "316L SST, Hastelloy C-276, Duplex 2205",
     },
     title: "Yokogawa ROTAMASS RCCS33 Coriolis Mass Flow Meter",
-    description: "Precision Yokogawa ROTAMASS RCCS33 Coriolis mass flow meter with advanced measurement technology. Features compact design, exceptional accuracy, and BRAIN communication protocol for reliable mass flow measurement.",
+    description:
+      "Precision Yokogawa ROTAMASS RCCS33 Coriolis mass flow meter with advanced measurement technology. Features compact design, exceptional accuracy, and BRAIN communication protocol for reliable mass flow measurement.",
     features: [
       "Coriolis mass flow measurement technology",
-      "Compact diameter range: DN6 to DN200 (1/4\" to 8\")",
+      'Compact diameter range: DN6 to DN200 (1/4" to 8")',
       "Exceptional accuracy: ±0.05% of reading (mass flow)",
       "Superior repeatability: ±0.02% of reading",
       "Wide process temperature: -240°C to +350°C",
@@ -3849,7 +4036,7 @@ export const products: Product[] = [
       "Multi-protocol: HART, Foundation Fieldbus, Profibus PA, BRAIN",
       "Multiple process connections: Flanged, Tri-Clamp, Threaded",
       "Premium materials: 316L SST, Hastelloy C-276, Duplex 2205",
-      "ATEX, IECEx, FM, CSA, SIL 2/3 certified"
+      "ATEX, IECEx, FM, CSA, SIL 2/3 certified",
     ],
   },
 
@@ -3879,10 +4066,11 @@ export const products: Product[] = [
       materials: "316L SST, Hastelloy C-276",
     },
     title: "Endress+Hauser Prowirl F 200 Vortex Flow Meter",
-    description: "Advanced Endress+Hauser Prowirl F 200 vortex flow meter with multi-protocol communication. Features wide diameter range, excellent accuracy for liquids and gases, and premium material construction for demanding flow applications.",
+    description:
+      "Advanced Endress+Hauser Prowirl F 200 vortex flow meter with multi-protocol communication. Features wide diameter range, excellent accuracy for liquids and gases, and premium material construction for demanding flow applications.",
     features: [
       "Vortex flow measurement technology",
-      "Wide diameter range: DN15 to DN300 (1/2\" to 12\")",
+      'Wide diameter range: DN15 to DN300 (1/2" to 12")',
       "Good accuracy: ±0.75% (liquids), ±1.0% (gases)",
       "Excellent repeatability: ±0.2% of reading",
       "Wide process temperature: -200°C to +400°C",
@@ -3890,7 +4078,7 @@ export const products: Product[] = [
       "Multi-protocol: HART, Foundation Fieldbus, Profibus PA, 4-20mA",
       "Multiple process connections: Flanged (ANSI, DIN), Wafer",
       "Premium materials: 316L SST, Hastelloy C-276",
-      "ATEX, IECEx, FM, CSA, SIL 2/3 certified"
+      "ATEX, IECEx, FM, CSA, SIL 2/3 certified",
     ],
   },
   {
@@ -3918,10 +4106,11 @@ export const products: Product[] = [
       materials: "316L SST, Hastelloy C-276, Duplex 2205",
     },
     title: "Rosemount 8800D Vortex Flow Meter with Multivariable Output",
-    description: "Industry-leading Rosemount 8800D vortex flow meter with multivariable output and WirelessHART capability. Features exceptional repeatability, wide process temperature range, and advanced communication protocols for critical applications.",
+    description:
+      "Industry-leading Rosemount 8800D vortex flow meter with multivariable output and WirelessHART capability. Features exceptional repeatability, wide process temperature range, and advanced communication protocols for critical applications.",
     features: [
       "Vortex flow meter with multivariable output",
-      "Wide diameter range: DN15 to DN300 (1/2\" to 12\")",
+      'Wide diameter range: DN15 to DN300 (1/2" to 12")',
       "Good accuracy: ±0.75% (liquids), ±1.0% (gases)",
       "Superior repeatability: ±0.1% of reading",
       "Extended process temperature: -196°C to +400°C",
@@ -3929,7 +4118,7 @@ export const products: Product[] = [
       "Advanced communication: HART, Foundation Fieldbus, WirelessHART, 4-20mA",
       "Multiple process connections: Flanged (ANSI, DIN), Wafer, Threaded",
       "Premium materials: 316L SST, Hastelloy C-276, Duplex 2205",
-      "ATEX, IECEx, FM, CSA, SIL 2/3 certified"
+      "ATEX, IECEx, FM, CSA, SIL 2/3 certified",
     ],
   },
   {
@@ -3957,10 +4146,11 @@ export const products: Product[] = [
       materials: "SUS316L, Hastelloy C-276, Duplex 2205",
     },
     title: "Yokogawa digitalYEWFLO AVF Digital Vortex Flow Meter",
-    description: "Precision Yokogawa digitalYEWFLO AVF digital vortex flow meter with advanced digital signal processing. Features BRAIN communication protocol, wide flow range, and multiple process connection options for versatile applications.",
+    description:
+      "Precision Yokogawa digitalYEWFLO AVF digital vortex flow meter with advanced digital signal processing. Features BRAIN communication protocol, wide flow range, and multiple process connection options for versatile applications.",
     features: [
       "Digital vortex flow measurement technology",
-      "Wide diameter range: DN15 to DN300 (1/2\" to 12\")",
+      'Wide diameter range: DN15 to DN300 (1/2" to 12")',
       "Good accuracy: ±0.75% (liquids), ±1.0% (gases)",
       "Good repeatability: ±0.2% of reading",
       "Extended process temperature: -196°C to +400°C",
@@ -3968,7 +4158,7 @@ export const products: Product[] = [
       "Multi-protocol: HART, Foundation Fieldbus, Profibus PA, BRAIN, 4-20mA",
       "Multiple process connections: Flanged (JIS, ANSI, DIN), Wafer",
       "High-quality materials: SUS316L, Hastelloy C-276, Duplex 2205",
-      "ATEX, IECEx, FM, CSA, SIL 2/3 certified"
+      "ATEX, IECEx, FM, CSA, SIL 2/3 certified",
     ],
   },
   {
@@ -3996,10 +4186,11 @@ export const products: Product[] = [
       materials: "316L SST, Hastelloy C-276, Duplex 2205",
     },
     title: "ABB Swirl Meter FSV450 Vortex Flow Meter",
-    description: "Reliable ABB Swirl Meter FSV450 vortex flow meter with multi-protocol communication. Features wide flow range, good repeatability, and comprehensive process connection options for industrial flow measurement applications.",
+    description:
+      "Reliable ABB Swirl Meter FSV450 vortex flow meter with multi-protocol communication. Features wide flow range, good repeatability, and comprehensive process connection options for industrial flow measurement applications.",
     features: [
       "Swirl (vortex) flow measurement technology",
-      "Wide diameter range: DN15 to DN300 (1/2\" to 12\")",
+      'Wide diameter range: DN15 to DN300 (1/2" to 12")',
       "Good accuracy: ±0.75% (liquids), ±1.0% (gases)",
       "Good repeatability: ±0.15% of reading",
       "Wide process temperature: -200°C to +400°C",
@@ -4007,7 +4198,7 @@ export const products: Product[] = [
       "Multi-protocol: HART, Foundation Fieldbus, Profibus PA, 4-20mA",
       "Multiple process connections: Flanged (ANSI, DIN), Wafer",
       "Premium materials: 316L SST, Hastelloy C-276, Duplex 2205",
-      "ATEX, IECEx, FM, CSA, SIL 2/3 certified"
+      "ATEX, IECEx, FM, CSA, SIL 2/3 certified",
     ],
   },
 
@@ -4037,10 +4228,11 @@ export const products: Product[] = [
       materials: "316L SST, Hastelloy C-276",
     },
     title: "Endress+Hauser Proline t-mass 83A Thermal Mass Flow Meter",
-    description: "Advanced Endress+Hauser Proline t-mass 83A thermal mass/volumetric flow meter with multi-protocol communication. Features wide diameter range, excellent accuracy for gas measurement, and comprehensive process connection options.",
+    description:
+      "Advanced Endress+Hauser Proline t-mass 83A thermal mass/volumetric flow meter with multi-protocol communication. Features wide diameter range, excellent accuracy for gas measurement, and comprehensive process connection options.",
     features: [
       "Thermal mass/volumetric flow measurement technology",
-      "Extensive diameter range: DN15 to DN2000 (1/2\" to 78\")",
+      'Extensive diameter range: DN15 to DN2000 (1/2" to 78")',
       "Wide flow range: 0-500 Nm³/h to 0-10,000,000 Nm³/h",
       "Good accuracy: ±1.5% of measured value ±0.3% of full scale",
       "Acceptable repeatability: ±0.5% of measured value",
@@ -4049,7 +4241,7 @@ export const products: Product[] = [
       "Multi-protocol: HART, Foundation Fieldbus, Profibus PA, 4-20mA",
       "Multiple process connections: Flanged, Threaded, Compression fitting",
       "Premium materials: 316L SST, Hastelloy C-276",
-      "ATEX, IECEx, FM, CSA, SIL 2 certified"
+      "ATEX, IECEx, FM, CSA, SIL 2 certified",
     ],
   },
   {
@@ -4077,10 +4269,11 @@ export const products: Product[] = [
       materials: "316L SST, Hastelloy C-276, Inconel 625",
     },
     title: "Sierra Instruments 640S QuadraTherm Thermal Mass Flow Meter",
-    description: "Reliable Sierra Instruments 640S QuadraTherm thermal mass flow meter with multi-protocol communication. Features wide diameter range, good accuracy for gas flow measurement, and premium material construction for demanding applications.",
+    description:
+      "Reliable Sierra Instruments 640S QuadraTherm thermal mass flow meter with multi-protocol communication. Features wide diameter range, good accuracy for gas flow measurement, and premium material construction for demanding applications.",
     features: [
       "Thermal mass flow measurement technology",
-      "Wide diameter range: DN15 to DN2000 (1/2\" to 78\")",
+      'Wide diameter range: DN15 to DN2000 (1/2" to 78")',
       "Flow range: 0-20 SFPS to 0-500 SFPS",
       "Good accuracy: ±1.0% of reading ±0.5% of full scale",
       "Good repeatability: ±0.2% of reading",
@@ -4089,7 +4282,7 @@ export const products: Product[] = [
       "Multi-protocol: HART, Foundation Fieldbus, Modbus, 4-20mA",
       "Multiple process connections: Flanged, NPT, Wafer",
       "Premium materials: 316L SST, Hastelloy C-276, Inconel 625",
-      "ATEX, IECEx, FM, CSA, SIL 2 certified"
+      "ATEX, IECEx, FM, CSA, SIL 2 certified",
     ],
   },
   {
@@ -4117,10 +4310,11 @@ export const products: Product[] = [
       materials: "316L SST, PTFE, PFA",
     },
     title: "Bronkhorst IN-FLOW F-230 Ultrasonic Gas/Liquid Flow Meter",
-    description: "Precision Bronkhorst IN-FLOW F-230 ultrasonic gas/liquid flow meter with advanced digital communication. Features exceptional accuracy, wide flow range for both gas and liquid applications, and premium material construction.",
+    description:
+      "Precision Bronkhorst IN-FLOW F-230 ultrasonic gas/liquid flow meter with advanced digital communication. Features exceptional accuracy, wide flow range for both gas and liquid applications, and premium material construction.",
     features: [
       "Ultrasonic gas/liquid flow measurement technology",
-      "Wide diameter range: DN15 to DN600 (1/2\" to 24\")",
+      'Wide diameter range: DN15 to DN600 (1/2" to 24")',
       "Extensive flow range: 0.01-600 ln/min (liquids), 0.1-6000 ln/min (gases)",
       "Exceptional accuracy: ±0.5% of reading ±0.1% of full scale",
       "Good repeatability: ±0.2% of reading",
@@ -4129,7 +4323,7 @@ export const products: Product[] = [
       "Advanced communication: MODBUS, RS232/485, Ethernet, 4-20mA",
       "Multiple process connections: Flanged, Threaded, Compression",
       "High-quality materials: 316L SST, PTFE, PFA",
-      "ATEX, IECEx, CE certified"
+      "ATEX, IECEx, CE certified",
     ],
   },
 
@@ -4158,10 +4352,11 @@ export const products: Product[] = [
       materials: "SUS316, SUS316L, Hastelloy C-276",
     },
     title: "OVAL FLOWPET LSF41 Positive Displacement Flow Meter",
-    description: "High-precision OVAL FLOWPET LSF41 positive displacement flow meter with exceptional accuracy. Features superior repeatability, wide diameter range, and premium material construction for demanding liquid measurement applications.",
+    description:
+      "High-precision OVAL FLOWPET LSF41 positive displacement flow meter with exceptional accuracy. Features superior repeatability, wide diameter range, and premium material construction for demanding liquid measurement applications.",
     features: [
       "Positive displacement (PD) flow measurement technology",
-      "Wide diameter range: DN15 to DN200 (1/2\" to 8\")",
+      'Wide diameter range: DN15 to DN200 (1/2" to 8")',
       "Flow range: 0.05-1500 L/min (depending on size)",
       "Exceptional accuracy: ±0.1% of reading",
       "Superior repeatability: ±0.02% of reading",
@@ -4170,7 +4365,7 @@ export const products: Product[] = [
       "Multiple outputs: Pulse output, 4-20mA, HART",
       "Multiple process connections: Flanged (JIS, ANSI, DIN), Threaded",
       "Premium materials: SUS316, SUS316L, Hastelloy C-276",
-      "ATEX, IECEx, FM certified"
+      "ATEX, IECEx, FM certified",
     ],
   },
   {
@@ -4197,10 +4392,11 @@ export const products: Product[] = [
       materials: "Bronze, Cast Iron, 316L SST",
     },
     title: "Badger Meter M1000 Nutating Disc Flow Meter",
-    description: "Reliable Badger Meter M1000 nutating disc positive displacement flow meter with advanced metering technology. Features exceptional accuracy, multiple communication options, and robust construction for water utility applications.",
+    description:
+      "Reliable Badger Meter M1000 nutating disc positive displacement flow meter with advanced metering technology. Features exceptional accuracy, multiple communication options, and robust construction for water utility applications.",
     features: [
       "Nutating disc positive displacement technology",
-      "Diameter range: DN15 to DN100 (5/8\" to 4\")",
+      'Diameter range: DN15 to DN100 (5/8" to 4")',
       "Flow range: 0.125-400 GPM (depending on size)",
       "Good accuracy: ±0.5% of reading",
       "Good repeatability: ±0.1% of reading",
@@ -4209,7 +4405,7 @@ export const products: Product[] = [
       "Multiple communication: Pulse output, AMR/AMI, 4-20mA",
       "Multiple process connections: Flanged (ANSI), NPT, Compression",
       "Robust materials: Bronze, Cast Iron, 316L SST",
-      "NSF, AWWA, ANSI certified"
+      "NSF, AWWA, ANSI certified",
     ],
   },
   {
@@ -4236,10 +4432,11 @@ export const products: Product[] = [
       materials: "Aluminium, Cast Iron, 316L SST",
     },
     title: "KROHNE BM 100 Positive Displacement Oval Gear Flow Meter",
-    description: "High-performance KROHNE BM 100 positive displacement oval gear flow meter with advanced measurement technology. Features exceptional accuracy, superior repeatability, and multi-protocol communication for industrial applications.",
+    description:
+      "High-performance KROHNE BM 100 positive displacement oval gear flow meter with advanced measurement technology. Features exceptional accuracy, superior repeatability, and multi-protocol communication for industrial applications.",
     features: [
       "Positive displacement oval gear technology",
-      "Wide diameter range: DN10 to DN200 (3/8\" to 8\")",
+      'Wide diameter range: DN10 to DN200 (3/8" to 8")',
       "Flow range: 0.15-3000 L/min (depending on size)",
       "High accuracy: ±0.2% of reading",
       "Excellent repeatability: ±0.05% of reading",
@@ -4248,7 +4445,7 @@ export const products: Product[] = [
       "Multi-protocol: Pulse output, 4-20mA, HART, Modbus",
       "Multiple process connections: Flanged (DIN, ANSI), Threaded",
       "Versatile materials: Aluminium, Cast Iron, 316L SST",
-      "ATEX, IECEx, FM, CSA certified"
+      "ATEX, IECEx, FM, CSA certified",
     ],
   },
   {
@@ -4275,10 +4472,11 @@ export const products: Product[] = [
       materials: "Aluminium, Cast Steel, 316L SST",
     },
     title: "KRAL VoluMeter OMG Positive Displacement Screw Flow Meter",
-    description: "Precision KRAL VoluMeter OMG positive displacement screw flow meter with exceptional measurement accuracy. Features superior repeatability, multi-protocol communication, and MID certification for custody transfer applications.",
+    description:
+      "Precision KRAL VoluMeter OMG positive displacement screw flow meter with exceptional measurement accuracy. Features superior repeatability, multi-protocol communication, and MID certification for custody transfer applications.",
     features: [
       "Positive displacement screw flow technology",
-      "Diameter range: DN15 to DN150 (1/2\" to 6\")",
+      'Diameter range: DN15 to DN150 (1/2" to 6")',
       "Flow range: 0.5-1200 L/min (depending on size)",
       "Exceptional accuracy: ±0.1% of reading",
       "Superior repeatability: ±0.02% of reading",
@@ -4287,7 +4485,7 @@ export const products: Product[] = [
       "Multi-protocol: Pulse output, 4-20mA, HART, Profibus",
       "Multiple process connections: Flanged (DIN, ANSI), Threaded",
       "Robust materials: Aluminium, Cast Steel, 316L SST",
-      "ATEX, IECEx, FM, CSA, MID certified"
+      "ATEX, IECEx, FM, CSA, MID certified",
     ],
   },
 
@@ -4313,7 +4511,8 @@ export const products: Product[] = [
       certification: "ATEX, IECEx, SIL 2",
     },
     title: "Rosemount 5408 Non-Contact Radar Level Transmitter",
-    description: "Advanced Rosemount 5408 non-contact radar level transmitter with 78 GHz frequency technology. Features exceptional accuracy, wide measurement range, and robust construction for demanding level measurement applications.",
+    description:
+      "Advanced Rosemount 5408 non-contact radar level transmitter with 78 GHz frequency technology. Features exceptional accuracy, wide measurement range, and robust construction for demanding level measurement applications.",
     features: [
       "Non-contact radar level measurement technology",
       "78 GHz high-frequency operation",
@@ -4324,7 +4523,7 @@ export const products: Product[] = [
       "IP66/IP68 protection ratings",
       "Wide process connections: DN50 to DN200 flange",
       "Wide power supply: 11-42VDC",
-      "ATEX, IECEx, SIL 2 certified"
+      "ATEX, IECEx, SIL 2 certified",
     ],
   },
   {
@@ -4348,7 +4547,8 @@ export const products: Product[] = [
       certification: "ATEX, IECEx, SIL 2",
     },
     title: "Endress+Hauser Micropilot FMR20 Radar Level Transmitter",
-    description: "Reliable Endress+Hauser Micropilot FMR20 radar level transmitter with 26 GHz frequency technology. Features good accuracy, wide measurement range, and robust construction for level measurement applications.",
+    description:
+      "Reliable Endress+Hauser Micropilot FMR20 radar level transmitter with 26 GHz frequency technology. Features good accuracy, wide measurement range, and robust construction for level measurement applications.",
     features: [
       "Radar level measurement technology",
       "26 GHz frequency operation",
@@ -4359,7 +4559,7 @@ export const products: Product[] = [
       "IP67 protection rating",
       "Multiple process connections: Thread, Flange",
       "Power supply: 11-36VDC",
-      "ATEX, IECEx, SIL 2 certified"
+      "ATEX, IECEx, SIL 2 certified",
     ],
   },
 
@@ -4385,7 +4585,8 @@ export const products: Product[] = [
       certification: "ATEX, IECEx, SIL 2",
     },
     title: "Endress+Hauser Liquiline M CM42 Universal Analytical Transmitter",
-    description: "Advanced Endress+Hauser Liquiline M CM42 universal analytical transmitter with multi-parameter capabilities. Features high accuracy pH measurement, HART communication, and comprehensive mounting options for analytical applications.",
+    description:
+      "Advanced Endress+Hauser Liquiline M CM42 universal analytical transmitter with multi-parameter capabilities. Features high accuracy pH measurement, HART communication, and comprehensive mounting options for analytical applications.",
     features: [
       "Universal analytical measurement technology",
       "Multi-parameter inputs: pH, ORP, Conductivity, Dissolved O2",
@@ -4396,7 +4597,7 @@ export const products: Product[] = [
       "IP66/IP67 protection ratings",
       "Flexible power supply: 20-253VAC / 20-55VDC",
       "Multiple mounting: Wall/Panel/Pipe Mount",
-      "ATEX, IECEx, SIL 2 certified"
+      "ATEX, IECEx, SIL 2 certified",
     ],
   },
 
@@ -4421,7 +4622,8 @@ export const products: Product[] = [
       certification: "ATEX, IECEx, FCC",
     },
     title: "Rosemount Wireless 1420 Gateway",
-    description: "Advanced Rosemount Wireless 1420 Gateway with WirelessHART protocol support. Features high device capacity, extended range, and robust construction for wireless field device communication networks.",
+    description:
+      "Advanced Rosemount Wireless 1420 Gateway with WirelessHART protocol support. Features high device capacity, extended range, and robust construction for wireless field device communication networks.",
     features: [
       "WirelessHART gateway technology",
       "High device capacity: 100 field devices",
@@ -4432,7 +4634,7 @@ export const products: Product[] = [
       "Antenna gain: 2.1 dBi",
       "WirelessHART protocol support",
       "Robust wireless communication",
-      "ATEX, IECEx, FCC certified"
+      "ATEX, IECEx, FCC certified",
     ],
   },
 
@@ -4457,7 +4659,8 @@ export const products: Product[] = [
       certification: "CE, UL",
     },
     title: "Balluff BES 516-370-E4-C-PU-03 PNP Inductive Proximity Sensor",
-    description: "Reliable Balluff BES 516-370-E4-C-PU-03 PNP inductive proximity sensor with M18 housing. Features 4mm sensing distance, PNP output, and robust construction for industrial automation applications.",
+    description:
+      "Reliable Balluff BES 516-370-E4-C-PU-03 PNP inductive proximity sensor with M18 housing. Features 4mm sensing distance, PNP output, and robust construction for industrial automation applications.",
     features: [
       "PNP inductive proximity sensing technology",
       "4mm sensing distance",
@@ -4468,7 +4671,7 @@ export const products: Product[] = [
       "Operating temperature: -25°C to +70°C",
       "IP67 protection rating",
       "Industrial automation ready",
-      "CE, UL certified"
+      "CE, UL certified",
     ],
   },
   {
@@ -4491,7 +4694,8 @@ export const products: Product[] = [
       certification: "CE, UL, CSA",
     },
     title: "IFM IG5854 (IGKFPKG) NPN Inductive Proximity Sensor",
-    description: "High-performance IFM IG5854 (IGKFPKG) NPN inductive proximity sensor with M18 housing. Features 8mm sensing distance, NPN output, and IP68/IP69K protection for demanding industrial automation applications.",
+    description:
+      "High-performance IFM IG5854 (IGKFPKG) NPN inductive proximity sensor with M18 housing. Features 8mm sensing distance, NPN output, and IP68/IP69K protection for demanding industrial automation applications.",
     features: [
       "NPN inductive proximity sensing technology",
       "8mm sensing distance",
@@ -4502,7 +4706,7 @@ export const products: Product[] = [
       "Wide operating temperature: -40°C to +85°C",
       "IP68/IP69K protection ratings",
       "Industrial automation ready",
-      "CE, UL, CSA certified"
+      "CE, UL, CSA certified",
     ],
   },
   {
@@ -4525,7 +4729,8 @@ export const products: Product[] = [
       certification: "CE, UL, CSA",
     },
     title: "Telemecanique XS618B1PAM12 PNP Inductive Proximity Sensor",
-    description: "Reliable Telemecanique (Schneider) XS618B1PAM12 PNP inductive proximity sensor with M18 housing. Features 8mm sensing distance, PNP output, and robust construction for industrial automation applications.",
+    description:
+      "Reliable Telemecanique (Schneider) XS618B1PAM12 PNP inductive proximity sensor with M18 housing. Features 8mm sensing distance, PNP output, and robust construction for industrial automation applications.",
     features: [
       "PNP inductive proximity sensing technology",
       "8mm sensing distance",
@@ -4536,7 +4741,7 @@ export const products: Product[] = [
       "Operating temperature: -25°C to +70°C",
       "IP67 protection rating",
       "Industrial automation ready",
-      "CE, UL, CSA certified"
+      "CE, UL, CSA certified",
     ],
   },
   {
@@ -4559,7 +4764,8 @@ export const products: Product[] = [
       certification: "CE, ATEX",
     },
     title: "JUMO 902820/10 PT100 RTD Temperature Sensor",
-    description: "Precision JUMO 902820/10 PT100 RTD temperature sensor with 316L stainless steel construction. Features Class A accuracy, 3-wire configuration, and wide temperature range for accurate temperature measurement applications.",
+    description:
+      "Precision JUMO 902820/10 PT100 RTD temperature sensor with 316L stainless steel construction. Features Class A accuracy, 3-wire configuration, and wide temperature range for accurate temperature measurement applications.",
     features: [
       "PT100 RTD temperature sensing technology",
       "Class A accuracy: ±0.15°C",
@@ -4570,7 +4776,7 @@ export const products: Product[] = [
       "IP65 protection rating",
       "PT100 element",
       "Industrial temperature measurement",
-      "CE, ATEX certified"
+      "CE, ATEX certified",
     ],
   },
   {
@@ -4593,7 +4799,8 @@ export const products: Product[] = [
       certification: "CE, ATEX, IECEx",
     },
     title: "Heraeus M222 PT1000 RTD Temperature Sensor",
-    description: "High-precision Heraeus M222 PT1000 RTD temperature sensor with 316SS probe construction. Features Class A accuracy, 2-wire configuration, and fast response time for demanding temperature measurement applications.",
+    description:
+      "High-precision Heraeus M222 PT1000 RTD temperature sensor with 316SS probe construction. Features Class A accuracy, 2-wire configuration, and fast response time for demanding temperature measurement applications.",
     features: [
       "PT1000 RTD temperature sensing technology",
       "Class A accuracy: ±0.15°C",
@@ -4604,7 +4811,7 @@ export const products: Product[] = [
       "IP68 protection rating",
       "PT1000 element",
       "Precision temperature measurement",
-      "CE, ATEX, IECEx certified"
+      "CE, ATEX, IECEx certified",
     ],
   },
   {
@@ -4626,7 +4833,8 @@ export const products: Product[] = [
       certification: "CE, UL",
     },
     title: "Watlow 630A Type K Thermocouple",
-    description: "Industrial Type K thermocouple temperature sensor with Chromel-Alumel composition for high-temperature measurement applications. Features fast response time, 316SS sheath, and versatile junction options.",
+    description:
+      "Industrial Type K thermocouple temperature sensor with Chromel-Alumel composition for high-temperature measurement applications. Features fast response time, 316SS sheath, and versatile junction options.",
     features: [
       "Type K (Chromel-Alumel) thermocouple technology",
       "Wide temperature range: -200°C to +1260°C",
@@ -4636,7 +4844,7 @@ export const products: Product[] = [
       "316SS stainless steel sheath",
       "CE and UL certified",
       "Suitable for industrial temperature measurement",
-      "Excellent stability and repeatability"
+      "Excellent stability and repeatability",
     ],
   },
   {
@@ -4658,7 +4866,8 @@ export const products: Product[] = [
       certification: "CE, FM",
     },
     title: "Yokogawa PH450G pH Sensor",
-    description: "High-performance glass electrode pH sensor for accurate pH measurement in industrial processes. Features double junction design, wide temperature range, and excellent chemical resistance for demanding applications.",
+    description:
+      "High-performance glass electrode pH sensor for accurate pH measurement in industrial processes. Features double junction design, wide temperature range, and excellent chemical resistance for demanding applications.",
     features: [
       "Glass electrode pH sensing technology",
       "Full pH range measurement: 0-14 pH",
@@ -4668,7 +4877,7 @@ export const products: Product[] = [
       "Double junction reference electrode",
       "Excellent chemical resistance",
       "CE and FM certified",
-      "Suitable for process control applications"
+      "Suitable for process control applications",
     ],
   },
   {
@@ -4691,7 +4900,8 @@ export const products: Product[] = [
       certification: "CE, TÜV",
     },
     title: "Pilz PSEN op4H Safety Proximity Sensor",
-    description: "High-quality safety proximity sensor for critical applications with Cat. 4 / PLe safety rating. Features 4mm sensing distance, IP67 protection, and TÜV certification for machine safety applications.",
+    description:
+      "High-quality safety proximity sensor for critical applications with Cat. 4 / PLe safety rating. Features 4mm sensing distance, IP67 protection, and TÜV certification for machine safety applications.",
     features: [
       "4mm sensing distance for precise detection",
       "Safety Category 4 / PLe rating",
@@ -4701,7 +4911,7 @@ export const products: Product[] = [
       "Operating temperature: -25°C to +70°C",
       "CE and TÜV certified",
       "Safety (OSSD) output configuration",
-      "Designed for critical safety applications"
+      "Designed for critical safety applications",
     ],
   },
   {
@@ -4724,7 +4934,8 @@ export const products: Product[] = [
       certification: "CE, UL",
     },
     title: "Euchner CES-A-BHN Proximity Sensor",
-    description: "Versatile inductive proximity sensor with dual output configuration. Features 8mm sensing distance, PNP/NPN compatibility, and robust M18 housing for industrial automation applications.",
+    description:
+      "Versatile inductive proximity sensor with dual output configuration. Features 8mm sensing distance, PNP/NPN compatibility, and robust M18 housing for industrial automation applications.",
     features: [
       "8mm sensing distance for reliable detection",
       "PNP/NPN (NO/NC) dual output configuration",
@@ -4734,7 +4945,7 @@ export const products: Product[] = [
       "200mA output current capacity",
       "Operating temperature: -25°C to +70°C",
       "CE and UL certified",
-      "Suitable for automation applications"
+      "Suitable for automation applications",
     ],
   },
   {
@@ -4757,7 +4968,8 @@ export const products: Product[] = [
       certification: "CE, UL, CSA",
     },
     title: "Baumer IFRM 08P1501 PNP Proximity Sensor",
-    description: "Compact M8 proximity sensor ideal for limited space applications. Features 1.5mm sensing distance, PNP output, and robust design for precision automation in confined spaces.",
+    description:
+      "Compact M8 proximity sensor ideal for limited space applications. Features 1.5mm sensing distance, PNP output, and robust design for precision automation in confined spaces.",
     features: [
       "1.5mm sensing distance for precise positioning",
       "PNP (NO) output configuration",
@@ -4767,7 +4979,7 @@ export const products: Product[] = [
       "200mA output current",
       "Operating temperature: -25°C to +70°C",
       "CE, UL, and CSA certified",
-      "Perfect for limited space applications"
+      "Perfect for limited space applications",
     ],
   },
   {
@@ -4790,7 +5002,8 @@ export const products: Product[] = [
       certification: "CE, UL",
     },
     title: "Leuze IS 212MM Inductive Proximity Sensor",
-    description: "High-performance M12 inductive sensor for automation applications. Features 8mm sensing distance, NPN output, and reliable operation in industrial environments.",
+    description:
+      "High-performance M12 inductive sensor for automation applications. Features 8mm sensing distance, NPN output, and reliable operation in industrial environments.",
     features: [
       "8mm sensing distance for flexible positioning",
       "NPN (NO) output configuration",
@@ -4800,7 +5013,7 @@ export const products: Product[] = [
       "100mA output current",
       "Operating temperature: -25°C to +70°C",
       "CE and UL certified",
-      "Optimized for automation applications"
+      "Optimized for automation applications",
     ],
   },
   {
@@ -4823,7 +5036,8 @@ export const products: Product[] = [
       certification: "CE, ATEX",
     },
     title: "ABB TEM104 PT100 RTD Temperature Sensor",
-    description: "Industrial-grade PT100 RTD sensor for precise temperature measurement in harsh environments. Features Class A accuracy, 3-wire configuration, and 316SS construction for reliable process monitoring.",
+    description:
+      "Industrial-grade PT100 RTD sensor for precise temperature measurement in harsh environments. Features Class A accuracy, 3-wire configuration, and 316SS construction for reliable process monitoring.",
     features: [
       "PT100 RTD temperature sensing element",
       "Class A accuracy (±0.15°C)",
@@ -4833,7 +5047,7 @@ export const products: Product[] = [
       "Fast response time: T90 = 5s in water",
       "IP65 protection rating",
       "CE and ATEX certified",
-      "Suitable for process control applications"
+      "Suitable for process control applications",
     ],
   },
   {
@@ -4856,7 +5070,8 @@ export const products: Product[] = [
       certification: "CE, UL",
     },
     title: "Honeywell T775A2009 PT1000 RTD Sensor",
-    description: "Duct-mount PT1000 RTD sensor for HVAC temperature monitoring and building automation systems. Features Class A accuracy, 2-wire configuration, and brass housing for reliable performance.",
+    description:
+      "Duct-mount PT1000 RTD sensor for HVAC temperature monitoring and building automation systems. Features Class A accuracy, 2-wire configuration, and brass housing for reliable performance.",
     features: [
       "PT1000 RTD temperature sensing element",
       "Class A accuracy (±0.15°C)",
@@ -4866,7 +5081,7 @@ export const products: Product[] = [
       "Response time: T90 = 30s in air",
       "IP54 protection rating",
       "CE and UL certified",
-      "Designed for HVAC applications"
+      "Designed for HVAC applications",
     ],
   },
   {
@@ -4889,7 +5104,8 @@ export const products: Product[] = [
       certification: "CE, NIST Traceable",
     },
     title: "Fluke 5627A PT25 RTD Reference Sensor",
-    description: "High-precision PT25 RTD reference sensor for calibration applications and metrology labs. Features exceptional ±0.003°C accuracy, 4-wire configuration, and NIST traceability.",
+    description:
+      "High-precision PT25 RTD reference sensor for calibration applications and metrology labs. Features exceptional ±0.003°C accuracy, 4-wire configuration, and NIST traceability.",
     features: [
       "PT25 RTD high-precision sensing element",
       "Exceptional accuracy: ±0.003°C at 0°C",
@@ -4899,7 +5115,7 @@ export const products: Product[] = [
       "Fast response time: T90 = 0.8s in water",
       "IP65 protection rating",
       "CE certified and NIST traceable",
-      "Ideal for calibration and reference applications"
+      "Ideal for calibration and reference applications",
     ],
   },
   {
@@ -4921,7 +5137,8 @@ export const products: Product[] = [
       certification: "CE, ATEX",
     },
     title: "Eurotherm T2750 Type N Thermocouple",
-    description: "High-temperature Type N thermocouple for demanding applications up to 1300°C. Features Nicrosil-Nisil composition, grounded junction, and Inconel 600 sheath for extreme temperature measurement.",
+    description:
+      "High-temperature Type N thermocouple for demanding applications up to 1300°C. Features Nicrosil-Nisil composition, grounded junction, and Inconel 600 sheath for extreme temperature measurement.",
     features: [
       "Type N (Nicrosil-Nisil) thermocouple",
       "High temperature capability: 0°C to +1300°C",
@@ -4931,7 +5148,7 @@ export const products: Product[] = [
       "Inconel 600 sheath material",
       "CE and ATEX certified",
       "Excellent stability at high temperatures",
-      "Suitable for extreme temperature applications"
+      "Suitable for extreme temperature applications",
     ],
   },
   {
@@ -4953,7 +5170,8 @@ export const products: Product[] = [
       certification: "CE, NIST",
     },
     title: "Pyromation R2MA Type R Thermocouple",
-    description: "Premium Type R thermocouple for high-temperature measurement applications up to 1600°C. Features platinum construction, ungrounded junction, and exceptional accuracy for demanding industrial processes.",
+    description:
+      "Premium Type R thermocouple for high-temperature measurement applications up to 1600°C. Features platinum construction, ungrounded junction, and exceptional accuracy for demanding industrial processes.",
     features: [
       "Type R (Platinum-Rhodium) thermocouple technology",
       "Ultra-high temperature capability: 0°C to +1600°C",
@@ -4963,7 +5181,7 @@ export const products: Product[] = [
       "Platinum sheath for extreme environments",
       "CE and NIST certified",
       "Premium grade for precision applications",
-      "Excellent long-term stability"
+      "Excellent long-term stability",
     ],
   },
   {
@@ -4985,7 +5203,8 @@ export const products: Product[] = [
       certification: "CE, FDA",
     },
     title: "Hamilton PoliLyte Plus VP pH Sensor",
-    description: "High-performance pH sensor for biotechnology and pharmaceutical applications. Features PEEK body construction, open junction design, and FDA compliance for sterile and clean-in-place applications.",
+    description:
+      "High-performance pH sensor for biotechnology and pharmaceutical applications. Features PEEK body construction, open junction design, and FDA compliance for sterile and clean-in-place applications.",
     features: [
       "Specialized pH sensing for biotech applications",
       "Wide pH range: 0-14 pH",
@@ -4995,7 +5214,7 @@ export const products: Product[] = [
       "Open junction reference electrode",
       "CE and FDA certified",
       "Suitable for clean-in-place (CIP) processes",
-      "Designed for pharmaceutical environments"
+      "Designed for pharmaceutical environments",
     ],
   },
   {
@@ -5017,7 +5236,8 @@ export const products: Product[] = [
       certification: "CE, NSF",
     },
     title: "Sensorex S272CD pH/ORP Combination Sensor",
-    description: "Dual-parameter sensor for simultaneous pH and ORP measurement in water treatment and environmental monitoring. Features epoxy body, double junction design, and NSF certification for reliable performance.",
+    description:
+      "Dual-parameter sensor for simultaneous pH and ORP measurement in water treatment and environmental monitoring. Features epoxy body, double junction design, and NSF certification for reliable performance.",
     features: [
       "Simultaneous pH and ORP measurement",
       "pH range: 0-14 pH, ORP range: ±2000mV",
@@ -5027,7 +5247,7 @@ export const products: Product[] = [
       "Double junction reference electrode",
       "CE and NSF certified",
       "Ideal for water treatment applications",
-      "Long-life electrode design"
+      "Long-life electrode design",
     ],
   },
   {
@@ -5050,7 +5270,8 @@ export const products: Product[] = [
       operatingTemp: "-40°C to +70°C",
     },
     title: "Banner QS18VN6D Photoelectric Sensor",
-    description: "Versatile photoelectric sensor with visible red LED for object detection and presence sensing. Features reliable detection performance and easy alignment for automation applications.",
+    description:
+      "Versatile photoelectric sensor with visible red LED for object detection and presence sensing. Features reliable detection performance and easy alignment for automation applications.",
     features: [
       "Visible red LED for easy beam alignment",
       "Reliable object detection performance",
@@ -5060,7 +5281,7 @@ export const products: Product[] = [
       "Multiple sensing modes available",
       "Excellent immunity to ambient light",
       "Long operational life",
-      "Suitable for automation applications"
+      "Suitable for automation applications",
     ],
   },
   {
@@ -5083,7 +5304,8 @@ export const products: Product[] = [
       operatingTemp: "-25°C to +55°C",
     },
     title: "Keyence PZ-G41CN Laser Photoelectric Sensor",
-    description: "High-precision laser photoelectric sensor for long-range detection with superior beam quality and excellent reliability. Designed for demanding applications requiring precise object detection over extended distances.",
+    description:
+      "High-precision laser photoelectric sensor for long-range detection with superior beam quality and excellent reliability. Designed for demanding applications requiring precise object detection over extended distances.",
     features: [
       "High-precision laser technology",
       "Long-range detection capability",
@@ -5093,7 +5315,7 @@ export const products: Product[] = [
       "Compact sensor design",
       "Easy installation and setup",
       "Industrial-grade durability",
-      "Suitable for demanding applications"
+      "Suitable for demanding applications",
     ],
   },
   {
@@ -5116,7 +5338,8 @@ export const products: Product[] = [
       operatingTemp: "-40°C to +60°C",
     },
     title: "Wenglor OG2A103 Retroreflective Photoelectric Sensor",
-    description: "Robust retroreflective photoelectric sensor with superior environmental protection and reliable detection performance. Designed for demanding industrial applications requiring consistent object detection.",
+    description:
+      "Robust retroreflective photoelectric sensor with superior environmental protection and reliable detection performance. Designed for demanding industrial applications requiring consistent object detection.",
     features: [
       "Retroreflective sensing technology",
       "Superior environmental protection",
@@ -5126,7 +5349,7 @@ export const products: Product[] = [
       "Excellent immunity to contamination",
       "Long operational life",
       "Suitable for demanding applications",
-      "High switching frequency capability"
+      "High switching frequency capability",
     ],
   },
 
@@ -5150,7 +5373,8 @@ export const products: Product[] = [
       certification: "OIML R60, NTEP",
     },
     title: "Flintec PC2 Load Cell Transmitter",
-    description: "High-precision load cell transmitter for weight and force measurement applications. Features digital signal processing, excellent linearity, and robust construction for industrial weighing systems.",
+    description:
+      "High-precision load cell transmitter for weight and force measurement applications. Features digital signal processing, excellent linearity, and robust construction for industrial weighing systems.",
     features: [
       "High-precision load cell technology",
       "Digital signal processing for accuracy",
@@ -5160,7 +5384,7 @@ export const products: Product[] = [
       "Multiple output signal options",
       "Easy calibration and setup",
       "Long-term stability",
-      "Suitable for weighing and force measurement"
+      "Suitable for weighing and force measurement",
     ],
   },
   {
@@ -5182,7 +5406,8 @@ export const products: Product[] = [
       certification: "ATEX, IECEx, SIL2",
     },
     title: "Honeywell ST3000 Smart Transmitter",
-    description: "Advanced smart pressure transmitter with HART communication and digital signal processing. Features superior accuracy, stability, and diagnostic capabilities for critical process control applications.",
+    description:
+      "Advanced smart pressure transmitter with HART communication and digital signal processing. Features superior accuracy, stability, and diagnostic capabilities for critical process control applications.",
     features: [
       "Smart transmitter technology",
       "HART communication protocol",
@@ -5192,7 +5417,7 @@ export const products: Product[] = [
       "Wide pressure range coverage",
       "Robust construction for harsh environments",
       "Easy configuration and calibration",
-      "Suitable for critical process control"
+      "Suitable for critical process control",
     ],
   },
   {
@@ -5214,7 +5439,8 @@ export const products: Product[] = [
       certification: "ATEX, IECEx, SIL2/3",
     },
     title: "ABB 266 Pressure Transmitter",
-    description: "Industrial pressure transmitter with advanced sensor technology and digital communication capabilities. Designed for reliable pressure measurement in demanding process industry applications.",
+    description:
+      "Industrial pressure transmitter with advanced sensor technology and digital communication capabilities. Designed for reliable pressure measurement in demanding process industry applications.",
     features: [
       "Advanced pressure sensor technology",
       "Digital communication capabilities",
@@ -5224,7 +5450,7 @@ export const products: Product[] = [
       "Excellent long-term stability",
       "Easy installation and maintenance",
       "Suitable for process industry applications",
-      "Certified for hazardous area use"
+      "Certified for hazardous area use",
     ],
   },
   {
@@ -5246,7 +5472,8 @@ export const products: Product[] = [
       certification: "ATEX, IECEx, SIL2",
     },
     title: "Siemens SITRANS P Pressure Transmitter",
-    description: "High-performance pressure transmitter with excellent accuracy and long-term stability. Features advanced diagnostics and digital communication for industrial process control applications.",
+    description:
+      "High-performance pressure transmitter with excellent accuracy and long-term stability. Features advanced diagnostics and digital communication for industrial process control applications.",
     features: [
       "High measurement accuracy and stability",
       "Advanced diagnostic capabilities",
@@ -5256,7 +5483,7 @@ export const products: Product[] = [
       "SIL 2/3 functional safety approval",
       "Easy configuration and calibration",
       "Excellent long-term reliability",
-      "Suitable for harsh environments"
+      "Suitable for harsh environments",
     ],
   },
   {
@@ -5278,7 +5505,8 @@ export const products: Product[] = [
       certification: "ATEX, IECEx, SIL2/3",
     },
     title: "Yokogawa EJA Pressure Transmitter",
-    description: "Precision pressure transmitter featuring resonant sensor technology and outstanding measurement performance. Designed for critical process control applications requiring high accuracy.",
+    description:
+      "Precision pressure transmitter featuring resonant sensor technology and outstanding measurement performance. Designed for critical process control applications requiring high accuracy.",
     features: [
       "Resonant sensor technology",
       "Outstanding measurement accuracy",
@@ -5288,7 +5516,7 @@ export const products: Product[] = [
       "Robust construction for harsh conditions",
       "Easy installation and maintenance",
       "Wide range of process connections",
-      "High reliability and performance"
+      "High reliability and performance",
     ],
   },
   {
@@ -5310,7 +5538,8 @@ export const products: Product[] = [
       certification: "ATEX, IECEx, SIL2",
     },
     title: "Krohne OPTIFLUX Electromagnetic Flow Meter",
-    description: "High-precision electromagnetic flow meter for accurate measurement of conductive liquids. Features advanced signal processing and robust construction for demanding industrial applications.",
+    description:
+      "High-precision electromagnetic flow meter for accurate measurement of conductive liquids. Features advanced signal processing and robust construction for demanding industrial applications.",
     features: [
       "Electromagnetic flow measurement technology",
       "High measurement accuracy and repeatability",
@@ -5320,7 +5549,7 @@ export const products: Product[] = [
       "Multiple output and communication options",
       "Robust construction for industrial use",
       "Easy installation and commissioning",
-      "Suitable for various conductive liquids"
+      "Suitable for various conductive liquids",
     ],
   },
   {
@@ -5343,7 +5572,8 @@ export const products: Product[] = [
       certification: "ATEX, IECEx, SIL2",
     },
     title: "VEGA VEGAPULS Radar Level Transmitter",
-    description: "Advanced radar level transmitter for non-contact level measurement in challenging applications. Features superior signal processing and reliable performance in demanding conditions.",
+    description:
+      "Advanced radar level transmitter for non-contact level measurement in challenging applications. Features superior signal processing and reliable performance in demanding conditions.",
     features: [
       "Non-contact radar level measurement",
       "Superior signal processing technology",
@@ -5353,7 +5583,7 @@ export const products: Product[] = [
       "Multiple output options available",
       "Excellent immunity to process conditions",
       "Low maintenance requirements",
-      "Suitable for various applications"
+      "Suitable for various applications",
     ],
   },
 
@@ -5372,7 +5602,8 @@ export const products: Product[] = [
       mounting: "22mm",
     },
     title: "Illuminated Pushbutton Switch",
-    description: "High-quality illuminated pushbutton switch for industrial control applications. Features bright LED indication and robust construction for reliable operation in demanding environments.",
+    description:
+      "High-quality illuminated pushbutton switch for industrial control applications. Features bright LED indication and robust construction for reliable operation in demanding environments.",
     features: [
       "Bright LED indication for clear visibility",
       "Robust industrial construction",
@@ -5382,7 +5613,7 @@ export const products: Product[] = [
       "Various color options available",
       "IP65 protection rating",
       "Suitable for control panel applications",
-      "Professional industrial design"
+      "Professional industrial design",
     ],
   },
   {
@@ -5399,7 +5630,8 @@ export const products: Product[] = [
       mounting: "22mm",
     },
     title: "Rotary Selector Switch",
-    description: "Precision rotary selector switch for multiple position selection in industrial control systems. Features durable construction and precise positioning for reliable operation.",
+    description:
+      "Precision rotary selector switch for multiple position selection in industrial control systems. Features durable construction and precise positioning for reliable operation.",
     features: [
       "Multiple position selection capability",
       "Precise positioning mechanism",
@@ -5409,7 +5641,7 @@ export const products: Product[] = [
       "High switching reliability",
       "Professional appearance",
       "Suitable for control applications",
-      "Long operational life"
+      "Long operational life",
     ],
   },
   {
@@ -5426,7 +5658,8 @@ export const products: Product[] = [
       certification: "TÜV Approved",
     },
     title: "Emergency Stop Safety Switch",
-    description: "Critical safety switch for immediate machinery shutdown in emergency situations. Features twist-to-reset mechanism and Category 4 safety rating for maximum protection.",
+    description:
+      "Critical safety switch for immediate machinery shutdown in emergency situations. Features twist-to-reset mechanism and Category 4 safety rating for maximum protection.",
     features: [
       "Emergency shutdown capability",
       "Twist-to-reset safety mechanism",
@@ -5436,7 +5669,7 @@ export const products: Product[] = [
       "Robust industrial construction",
       "Clear visual identification",
       "Tamper-resistant design",
-      "Reliable emergency operation"
+      "Reliable emergency operation",
     ],
   },
 
@@ -5455,7 +5688,8 @@ export const products: Product[] = [
       automation: "Fully Automated",
     },
     title: "Gas Chromatography-Mass Spectrometry Analyzer",
-    description: "Advanced GC-MS analyzer for precise identification and quantification of volatile and semi-volatile organic compounds. Features automated operation and ppb-level detection capabilities for laboratory analysis.",
+    description:
+      "Advanced GC-MS analyzer for precise identification and quantification of volatile and semi-volatile organic compounds. Features automated operation and ppb-level detection capabilities for laboratory analysis.",
     features: [
       "GC-MS technology for compound identification",
       "ppb-level detection sensitivity",
@@ -5465,7 +5699,7 @@ export const products: Product[] = [
       "High-resolution mass spectrometry",
       "Comprehensive compound library",
       "Professional laboratory instrument",
-      "Reliable analytical performance"
+      "Reliable analytical performance",
     ],
   },
   {
@@ -5482,7 +5716,8 @@ export const products: Product[] = [
       temperature: "-10°C to +100°C",
     },
     title: "Liquid pH and Conductivity Analyzer",
-    description: "Precision liquid analyzer for simultaneous pH and conductivity measurement. Features high accuracy and wide measurement range for water quality monitoring and process control applications.",
+    description:
+      "Precision liquid analyzer for simultaneous pH and conductivity measurement. Features high accuracy and wide measurement range for water quality monitoring and process control applications.",
     features: [
       "Dual parameter measurement (pH and conductivity)",
       "High measurement accuracy (±0.01 pH)",
@@ -5492,7 +5727,7 @@ export const products: Product[] = [
       "Simultaneous measurement capability",
       "Digital display and data logging",
       "Easy calibration and maintenance",
-      "Suitable for water quality applications"
+      "Suitable for water quality applications",
     ],
   },
   {
@@ -5509,7 +5744,8 @@ export const products: Product[] = [
       responseTime: "<30 seconds",
     },
     title: "Oxygen and Carbon Dioxide Analyzer",
-    description: "Dual-gas analyzer for simultaneous measurement of oxygen and carbon dioxide concentrations. Features reliable accuracy and fast response time for process monitoring applications.",
+    description:
+      "Dual-gas analyzer for simultaneous measurement of oxygen and carbon dioxide concentrations. Features reliable accuracy and fast response time for process monitoring applications.",
     features: [
       "Dual-gas measurement (O2 and CO2)",
       "Wide measurement range (0-100% each)",
@@ -5519,7 +5755,7 @@ export const products: Product[] = [
       "Digital display and output",
       "Easy calibration procedures",
       "Compact analyzer design",
-      "Suitable for process applications"
+      "Suitable for process applications",
     ],
   },
 
@@ -6000,7 +6236,8 @@ export const products: Product[] = [
       temperature: "-40°C to +90°C",
     },
     title: "Instrumentation Shielded Cable",
-    description: "High-quality shielded cable designed for instrumentation and control applications. Features excellent signal integrity and electromagnetic interference protection for accurate data transmission.",
+    description:
+      "High-quality shielded cable designed for instrumentation and control applications. Features excellent signal integrity and electromagnetic interference protection for accurate data transmission.",
     features: [
       "High-quality instrumentation cable design",
       "Electromagnetic interference shielding",
@@ -6010,7 +6247,7 @@ export const products: Product[] = [
       "Temperature and chemical resistance",
       "Easy installation and termination",
       "Suitable for control system applications",
-      "Industrial-grade performance"
+      "Industrial-grade performance",
     ],
   },
   {
@@ -6027,7 +6264,8 @@ export const products: Product[] = [
       standard: "IEC 60502",
     },
     title: "Medium Voltage Power Distribution Cable",
-    description: "Heavy-duty medium voltage cable for power distribution applications. Features robust insulation and reliable performance for industrial electrical systems.",
+    description:
+      "Heavy-duty medium voltage cable for power distribution applications. Features robust insulation and reliable performance for industrial electrical systems.",
     features: [
       "Medium voltage rated construction",
       "Heavy-duty insulation system",
@@ -6037,7 +6275,7 @@ export const products: Product[] = [
       "Industrial-grade performance",
       "Easy installation handling",
       "Suitable for power distribution",
-      "Long service life expectancy"
+      "Long service life expectancy",
     ],
   },
   {
@@ -6054,7 +6292,8 @@ export const products: Product[] = [
       category: "Cat 5e/6A",
     },
     title: "Fieldbus and Ethernet Communication Cable",
-    description: "Specialized communication cable for fieldbus and Ethernet networks in industrial automation. Features excellent signal integrity and noise immunity for reliable data transmission.",
+    description:
+      "Specialized communication cable for fieldbus and Ethernet networks in industrial automation. Features excellent signal integrity and noise immunity for reliable data transmission.",
     features: [
       "Fieldbus and Ethernet compatible",
       "Excellent signal integrity",
@@ -6064,7 +6303,7 @@ export const products: Product[] = [
       "High-speed data transmission",
       "Flexible installation options",
       "Reliable network connectivity",
-      "Automation system compatible"
+      "Automation system compatible",
     ],
   },
 
@@ -6083,7 +6322,8 @@ export const products: Product[] = [
       standard: "IEC 60898",
     },
     title: "MCB Miniature Circuit Breaker",
-    description: "Compact miniature circuit breaker for residential and light commercial electrical protection. Features reliable overcurrent protection and easy installation.",
+    description:
+      "Compact miniature circuit breaker for residential and light commercial electrical protection. Features reliable overcurrent protection and easy installation.",
     features: [
       "Miniature circuit breaker design",
       "Reliable overcurrent protection",
@@ -6093,7 +6333,7 @@ export const products: Product[] = [
       "Trip-free mechanism",
       "DIN rail mounting compatible",
       "High breaking capacity",
-      "Long operational life"
+      "Long operational life",
     ],
   },
   {
@@ -6110,7 +6350,8 @@ export const products: Product[] = [
       standard: "IEC 60947-2",
     },
     title: "MCCB Molded Case Circuit Breaker",
-    description: "Heavy-duty molded case circuit breaker for industrial and commercial electrical protection. Features adjustable trip settings and high interrupting capacity.",
+    description:
+      "Heavy-duty molded case circuit breaker for industrial and commercial electrical protection. Features adjustable trip settings and high interrupting capacity.",
     features: [
       "Molded case circuit breaker construction",
       "Heavy-duty industrial protection",
@@ -6120,7 +6361,7 @@ export const products: Product[] = [
       "Multiple frame sizes available",
       "Easy installation and wiring",
       "Reliable electrical protection",
-      "Professional grade performance"
+      "Professional grade performance",
     ],
   },
   {
@@ -6159,7 +6400,8 @@ export const products: Product[] = [
     },
     translationKeys: {
       title: "Industrial Terminal Blocks",
-      description: "High-quality industrial terminal blocks for reliable electrical connections in control panels and automation systems. Features modular design and easy installation.",
+      description:
+        "High-quality industrial terminal blocks for reliable electrical connections in control panels and automation systems. Features modular design and easy installation.",
       features: [
         "Industrial-grade terminal block design",
         "Modular and expandable configuration",
@@ -6169,7 +6411,7 @@ export const products: Product[] = [
         "DIN rail mounting system",
         "Reliable electrical connections",
         "Professional identification options",
-        "Long operational life"
+        "Long operational life",
       ],
     },
   },
@@ -6188,7 +6430,8 @@ export const products: Product[] = [
     },
     translationKeys: {
       title: "Industrial Heavy-Duty Connectors",
-      description: "Robust heavy-duty connectors designed for demanding industrial applications. Features weatherproof construction and high mechanical strength for reliable performance.",
+      description:
+        "Robust heavy-duty connectors designed for demanding industrial applications. Features weatherproof construction and high mechanical strength for reliable performance.",
       features: [
         "Heavy-duty industrial construction",
         "Weatherproof and sealed design",
@@ -6198,7 +6441,7 @@ export const products: Product[] = [
         "Excellent electrical performance",
         "Corrosion-resistant materials",
         "Suitable for harsh environments",
-        "Professional grade reliability"
+        "Professional grade reliability",
       ],
       featuresKey: "products:connectorsTerminals.industrialHeavyDuty.features",
     },
@@ -6239,7 +6482,8 @@ export const products: Product[] = [
     },
     translationKeys: {
       title: "DC Regulated Power Supply",
-      description: "Precision DC regulated power supply for industrial and laboratory applications. Features stable output voltage and current regulation with excellent load and line regulation.",
+      description:
+        "Precision DC regulated power supply for industrial and laboratory applications. Features stable output voltage and current regulation with excellent load and line regulation.",
       features: [
         "Precision DC voltage regulation",
         "Stable output current control",
@@ -6249,7 +6493,7 @@ export const products: Product[] = [
         "Overload and overvoltage protection",
         "Digital display and monitoring",
         "Adjustable output settings",
-        "Industrial-grade reliability"
+        "Industrial-grade reliability",
       ],
     },
   },
@@ -6268,7 +6512,8 @@ export const products: Product[] = [
     },
     translationKeys: {
       title: "Industrial SMPS Power Supply",
-      description: "High-efficiency industrial switched-mode power supply for demanding applications. Features compact design with excellent thermal performance and wide input voltage range.",
+      description:
+        "High-efficiency industrial switched-mode power supply for demanding applications. Features compact design with excellent thermal performance and wide input voltage range.",
       features: [
         "High-efficiency switched-mode design",
         "Compact and space-saving",
@@ -6278,7 +6523,7 @@ export const products: Product[] = [
         "Multiple output configurations",
         "Overload and short circuit protection",
         "Industrial-grade construction",
-        "Reliable long-term operation"
+        "Reliable long-term operation",
       ],
     },
   },
@@ -6622,7 +6867,8 @@ export const products: Product[] = [
       temperature: "-200°C to +1370°C",
       communication: "USB Interface",
       display: "Large Color Display",
-      datasheetUrl: "https://www.fluke.com/en-us/product/calibration-tools/multifunction-calibrators/fluke-753"
+      datasheetUrl:
+        "https://www.fluke.com/en-us/product/calibration-tools/multifunction-calibrators/fluke-753",
     },
     translationKeys: {
       title: "products:processCalibrators.fluke753.title",
@@ -6643,16 +6889,17 @@ export const products: Product[] = [
       type: "Documenting Process Calibrator with HART",
       voltage: "±100V",
       current: "±24mA",
-      resistance: "4000Ω", 
+      resistance: "4000Ω",
       pressure: "3000 psi",
       temperature: "-200°C to +1370°C",
       communication: "HART Communication + USB",
       display: "Large Color Display",
-      datasheetUrl: "https://www.fluke.com/en-us/product/calibration-tools/multifunction-calibrators/fluke-754"
+      datasheetUrl:
+        "https://www.fluke.com/en-us/product/calibration-tools/multifunction-calibrators/fluke-754",
     },
     translationKeys: {
       title: "products:processCalibrators.fluke754.title",
-      description: "products:processCalibrators.fluke754.description", 
+      description: "products:processCalibrators.fluke754.description",
       featuresKey: "products:processCalibrators.fluke754.features",
     },
   },
@@ -6662,7 +6909,7 @@ export const products: Product[] = [
     categoryKey: "industrial-measuring-tools",
     subcategoryKey: "calibration-equipment",
     typeKey: "process-calibrators",
-    image: "process-calibrator", 
+    image: "process-calibrator",
     specs: {
       manufacturer: "Fluke",
       model: "726",
@@ -6674,7 +6921,8 @@ export const products: Product[] = [
       temperature: "-200°C to +1370°C",
       communication: "RS-232 Interface",
       display: "Large Backlit Display",
-      datasheetUrl: "https://www.fluke.com/en-us/product/calibration-tools/multifunction-calibrators/fluke-726"
+      datasheetUrl:
+        "https://www.fluke.com/en-us/product/calibration-tools/multifunction-calibrators/fluke-726",
     },
     translationKeys: {
       title: "products:processCalibrators.fluke726.title",
@@ -6700,7 +6948,8 @@ export const products: Product[] = [
       loopPower: "24V @ 22mA",
       display: "Digital LCD",
       battery: "9V Alkaline",
-      datasheetUrl: "https://www.fluke.com/en-us/product/calibration-tools/ma-loop-calibrators/fluke-707"
+      datasheetUrl:
+        "https://www.fluke.com/en-us/product/calibration-tools/ma-loop-calibrators/fluke-707",
     },
     translationKeys: {
       title: "products:loopCalibrators.fluke707.title",
@@ -6710,7 +6959,7 @@ export const products: Product[] = [
   },
   {
     id: "fluke-709-precision-loop-calibrator",
-    slug: "fluke-709-precision-loop-calibrator", 
+    slug: "fluke-709-precision-loop-calibrator",
     categoryKey: "industrial-measuring-tools",
     subcategoryKey: "calibration-equipment",
     typeKey: "loop-calibrators",
@@ -6725,10 +6974,11 @@ export const products: Product[] = [
       loopPower: "24V @ 22mA",
       display: "Large Digital LCD",
       battery: "9V Alkaline or Rechargeable",
-      datasheetUrl: "https://www.fluke.com/en-us/product/calibration-tools/ma-loop-calibrators/fluke-709"
+      datasheetUrl:
+        "https://www.fluke.com/en-us/product/calibration-tools/ma-loop-calibrators/fluke-709",
     },
     translationKeys: {
-      title: "products:loopCalibrators.fluke709.title", 
+      title: "products:loopCalibrators.fluke709.title",
       description: "products:loopCalibrators.fluke709.description",
       featuresKey: "products:loopCalibrators.fluke709.features",
     },
@@ -6736,7 +6986,7 @@ export const products: Product[] = [
   {
     id: "fluke-725-multifunction-loop-calibrator",
     slug: "fluke-725-multifunction-loop-calibrator",
-    categoryKey: "industrial-measuring-tools", 
+    categoryKey: "industrial-measuring-tools",
     subcategoryKey: "calibration-equipment",
     typeKey: "loop-calibrators",
     image: "loop-calibrator",
@@ -6750,11 +7000,12 @@ export const products: Product[] = [
       temperature: "-200°C to +1370°C",
       thermocouples: "12 Types (J,K,T,E,R,S,N,B,C,L,U,BP)",
       rtd: "7 Types (PT100, PT385, PT3916)",
-      datasheetUrl: "https://www.fluke.com/en-us/products/calibration-tools/temperature-calibrators"
+      datasheetUrl:
+        "https://www.fluke.com/en-us/products/calibration-tools/temperature-calibrators",
     },
     translationKeys: {
       title: "products:loopCalibrators.fluke725.title",
-      description: "products:loopCalibrators.fluke725.description", 
+      description: "products:loopCalibrators.fluke725.description",
       featuresKey: "products:loopCalibrators.fluke725.features",
     },
   },
@@ -6775,7 +7026,8 @@ export const products: Product[] = [
     },
     translationKeys: {
       title: "Siemens S7-1200 PLC",
-      description: "Compact programmable logic controller with integrated communication and powerful processing capabilities. Ideal for small to medium automation applications with advanced control features.",
+      description:
+        "Compact programmable logic controller with integrated communication and powerful processing capabilities. Ideal for small to medium automation applications with advanced control features.",
       features: [
         "Compact modular PLC design",
         "Integrated communication interfaces",
@@ -6785,7 +7037,7 @@ export const products: Product[] = [
         "Multiple I/O expansion options",
         "Built-in web server functionality",
         "Industrial Ethernet connectivity",
-        "Professional automation solution"
+        "Professional automation solution",
       ],
     },
   },
@@ -7026,7 +7278,8 @@ export const products: Product[] = [
       application: "Water supply, pressure boosting, industrial processes",
     },
     title: "Grundfos CR Series Vertical Multistage Pump",
-    description: "High-efficiency vertical multistage centrifugal pump with optimized duty points for maximum efficiency and minimal wear. Features 316L stainless steel construction and flow rates up to 125 m³/h.",
+    description:
+      "High-efficiency vertical multistage centrifugal pump with optimized duty points for maximum efficiency and minimal wear. Features 316L stainless steel construction and flow rates up to 125 m³/h.",
     features: [
       "Vertical multistage high-pressure design",
       "Flow range: 0.5-125 m³/h",
@@ -7035,14 +7288,14 @@ export const products: Product[] = [
       "Efficiency up to 85%",
       "Maximum temperature 120°C",
       "Pressure rating up to 40 bar",
-      "Optimized duty points for minimal wear"
+      "Optimized duty points for minimal wear",
     ],
   },
   {
     id: "flowserve-durco-mark3-pump",
     slug: "flowserve-durco-mark3-chemical-pump",
     categoryKey: "mechanical-pumps-spares",
-    subcategoryKey: "centrifugal-pumps", 
+    subcategoryKey: "centrifugal-pumps",
     image: "centrifugal-pumps",
     specs: {
       manufacturer: "Flowserve",
@@ -7058,7 +7311,8 @@ export const products: Product[] = [
       application: "Chemical, petrochemical, mining",
     },
     title: "Flowserve Durco Mark 3 Chemical Process Pump",
-    description: "ASME B73.1 compliant chemical process pump with flows up to 455 m³/h and temperatures from -73°C to +370°C. Available in mechanically sealed, dynamically sealed, and sealless magnetically driven configurations.",
+    description:
+      "ASME B73.1 compliant chemical process pump with flows up to 455 m³/h and temperatures from -73°C to +370°C. Available in mechanically sealed, dynamically sealed, and sealless magnetically driven configurations.",
     features: [
       "ASME B73.1 compliant design",
       "Flow rates up to 455 m³/h (2000 gpm)",
@@ -7067,7 +7321,7 @@ export const products: Product[] = [
       "316L SST, Hastelloy, Alloy 20 materials",
       "Multiple seal configurations available",
       "Self-priming and recessed impeller options",
-      "Chemical, petrochemical, mining applications"
+      "Chemical, petrochemical, mining applications",
     ],
   },
   {
@@ -7647,7 +7901,8 @@ export const products: Product[] = [
     },
     translationKeys: {
       title: "Emergency Stop Dual Channel Safety Relay",
-      description: "Advanced dual-channel safety relay for emergency stop circuits with Category 4 safety rating. Features fail-safe operation and comprehensive monitoring capabilities.",
+      description:
+        "Advanced dual-channel safety relay for emergency stop circuits with Category 4 safety rating. Features fail-safe operation and comprehensive monitoring capabilities.",
       features: [
         "Dual-channel safety architecture",
         "Category 4 safety rating (SIL 3, PLe)",
@@ -7657,7 +7912,7 @@ export const products: Product[] = [
         "Multiple safety output contacts",
         "Easy configuration and setup",
         "Professional safety compliance",
-        "Reliable emergency protection"
+        "Reliable emergency protection",
       ],
     },
   },
@@ -7679,7 +7934,8 @@ export const products: Product[] = [
     },
     translationKeys: {
       title: "Light Curtain Interface Safety Relay",
-      description: "Specialized safety relay for light curtain interface applications with advanced monitoring and diagnostic capabilities. Ensures safe operation of protective light barriers.",
+      description:
+        "Specialized safety relay for light curtain interface applications with advanced monitoring and diagnostic capabilities. Ensures safe operation of protective light barriers.",
       features: [
         "Light curtain interface compatibility",
         "Advanced safety monitoring",
@@ -7689,7 +7945,7 @@ export const products: Product[] = [
         "Easy installation and wiring",
         "Professional safety standards",
         "Reliable protective barrier monitoring",
-        "Industrial safety compliance"
+        "Industrial safety compliance",
       ],
     },
   },
@@ -8051,7 +8307,7 @@ export const products: Product[] = [
       featuresKey: "products:intrinsicallySafe.ledBeaconLight.features",
     },
   },
-  
+
   // ANALYZERS SUBCATEGORY PRODUCTS
   {
     id: "analyzer-gas-chromatography-spectrometry",
@@ -8069,7 +8325,8 @@ export const products: Product[] = [
       certification: "EPA Approved, ATEX Certified",
     },
     title: "EPA Approved Gas Chromatography Analyzer",
-    description: "Professional gas chromatography analyzer with EPA approval and ATEX certification for industrial and environmental monitoring. Features wide detection range and high accuracy for process control applications.",
+    description:
+      "Professional gas chromatography analyzer with EPA approval and ATEX certification for industrial and environmental monitoring. Features wide detection range and high accuracy for process control applications.",
     features: [
       "EPA approved for regulatory compliance",
       "ATEX certified for hazardous areas",
@@ -8079,7 +8336,7 @@ export const products: Product[] = [
       "Wide operating temperature range",
       "Flexible sample flow control",
       "Universal power supply compatibility",
-      "Industrial-grade construction"
+      "Industrial-grade construction",
     ],
   },
   {
@@ -8117,7 +8374,8 @@ export const products: Product[] = [
       certification: "ATEX, IECEx",
     },
     title: "ATEX Certified Oxygen and Carbon Dioxide Analyzer",
-    description: "High-precision dual-gas analyzer with ATEX and IECEx certification for hazardous area applications. Features superior accuracy and reliable performance for critical process monitoring.",
+    description:
+      "High-precision dual-gas analyzer with ATEX and IECEx certification for hazardous area applications. Features superior accuracy and reliable performance for critical process monitoring.",
     features: [
       "ATEX and IECEx certified for hazardous areas",
       "High-precision measurement (±0.1% O2, ±0.2% CO2)",
@@ -8127,7 +8385,7 @@ export const products: Product[] = [
       "Continuous process monitoring",
       "Explosion-proof construction",
       "Advanced digital processing",
-      "Suitable for critical applications"
+      "Suitable for critical applications",
     ],
   },
 
@@ -8656,7 +8914,8 @@ export const products: Product[] = [
       actuator: "Pneumatic or Electric",
     },
     title: "Butterfly Wafer Type Valve",
-    description: "Quarter-turn butterfly valve in wafer design for tight shutoff applications. Features resilient seat construction with pneumatic or electric actuation for reliable flow control in various industrial processes.",
+    description:
+      "Quarter-turn butterfly valve in wafer design for tight shutoff applications. Features resilient seat construction with pneumatic or electric actuation for reliable flow control in various industrial processes.",
     features: [
       "Quarter-turn 90° operation",
       "Wafer design for space-saving installation",
@@ -8666,7 +8925,7 @@ export const products: Product[] = [
       "Pneumatic or electric actuator options",
       "Suitable for water, air, and industrial fluids",
       "Low torque operation",
-      "Bidirectional flow capability"
+      "Bidirectional flow capability",
     ],
   },
   {
@@ -8684,7 +8943,8 @@ export const products: Product[] = [
       endConnections: "Flanged RF, RTJ",
     },
     title: "Gate Valve Rising Stem Type",
-    description: "Heavy-duty gate valve with rising stem design for reliable on/off service. Features cast steel or stainless steel construction with flanged end connections for high-pressure industrial applications.",
+    description:
+      "Heavy-duty gate valve with rising stem design for reliable on/off service. Features cast steel or stainless steel construction with flanged end connections for high-pressure industrial applications.",
     features: [
       "Rising stem design for visual position indication",
       "Full bore for unrestricted flow",
@@ -8694,7 +8954,7 @@ export const products: Product[] = [
       "Pressure rating: 150 to 2500 PSI",
       "Temperature range: -29°F to +800°F",
       "Flanged RF or RTJ end connections",
-      "Suitable for steam, water, and oil applications"
+      "Suitable for steam, water, and oil applications",
     ],
   },
   {
@@ -8712,7 +8972,8 @@ export const products: Product[] = [
       flowCharacteristic: "Linear or Equal Percentage",
     },
     title: "Globe Valve Angle Pattern Type",
-    description: "Angle pattern globe valve for throttling and on/off service in space-constrained installations. Features 13% chrome hardened trim with linear or equal percentage flow characteristics.",
+    description:
+      "Angle pattern globe valve for throttling and on/off service in space-constrained installations. Features 13% chrome hardened trim with linear or equal percentage flow characteristics.",
     features: [
       "Angle pattern design saves space",
       "Excellent throttling characteristics",
@@ -8722,7 +8983,7 @@ export const products: Product[] = [
       "Pressure rating: 150 to 1500 PSI",
       "Temperature range: -20°F to +800°F",
       "Linear or equal percentage flow characteristic",
-      "Suitable for steam and liquid applications"
+      "Suitable for steam and liquid applications",
     ],
   },
   {
@@ -8740,7 +9001,8 @@ export const products: Product[] = [
       installation: "Horizontal pipe runs",
     },
     title: "Check Valve Swing Type",
-    description: "Swing check valve for automatic prevention of reverse flow in horizontal pipe runs. Features bronze or stainless steel disc with cast iron, bronze, or steel body construction.",
+    description:
+      "Swing check valve for automatic prevention of reverse flow in horizontal pipe runs. Features bronze or stainless steel disc with cast iron, bronze, or steel body construction.",
     features: [
       "Automatic reverse flow prevention",
       "Swing disc design for low pressure drop",
@@ -8750,7 +9012,7 @@ export const products: Product[] = [
       "Pressure rating: 125 to 600 PSI",
       "Temperature range: -20°F to +450°F",
       "Designed for horizontal pipe runs",
-      "Silent operation with minimal water hammer"
+      "Silent operation with minimal water hammer",
     ],
   },
   {
@@ -8768,7 +9030,8 @@ export const products: Product[] = [
       certifications: "ASME, API 526",
     },
     title: "Safety Relief Valve Spring Loaded",
-    description: "Spring-loaded safety relief valve for overpressure protection in pressure vessels and piping systems. ASME Section VIII compliant with carbon steel or stainless steel construction.",
+    description:
+      "Spring-loaded safety relief valve for overpressure protection in pressure vessels and piping systems. ASME Section VIII compliant with carbon steel or stainless steel construction.",
     features: [
       "Spring-loaded pressure relief operation",
       "ASME Section VIII compliant design",
@@ -8778,7 +9041,7 @@ export const products: Product[] = [
       "Carbon steel or stainless steel body",
       "ASME and API 526 certified",
       "Accurate pressure relief protection",
-      "Suitable for steam, air, and liquid service"
+      "Suitable for steam, air, and liquid service",
     ],
   },
 
@@ -8799,7 +9062,8 @@ export const products: Product[] = [
       certification: "UL Listed, CSA Certified, CE Marked",
     },
     title: "Fluke 87V Industrial Multimeter",
-    description: "Professional industrial multimeter with advanced troubleshooting capabilities for complex electrical systems. Features high accuracy measurements, CAT IV safety rating, and rugged construction for demanding industrial environments.",
+    description:
+      "Professional industrial multimeter with advanced troubleshooting capabilities for complex electrical systems. Features high accuracy measurements, CAT IV safety rating, and rugged construction for demanding industrial environments.",
     features: [
       "True RMS AC/DC voltage and current measurement",
       "DC voltage accuracy: ±0.05%",
@@ -8809,7 +9073,7 @@ export const products: Product[] = [
       "Resistance measurement: 600Ω to 50MΩ",
       "CAT IV 600V, CAT III 1000V safety rating",
       "UL Listed, CSA Certified, CE Marked",
-      "Industrial grade rugged construction"
+      "Industrial grade rugged construction",
     ],
   },
   {
@@ -8828,7 +9092,8 @@ export const products: Product[] = [
       certification: "UL Listed, CE Marked",
     },
     title: "Keysight U1272A Handheld Multimeter",
-    description: "Professional handheld digital multimeter with advanced measurement capabilities and safety features. Designed for field service technicians and electrical professionals requiring accurate and reliable measurements.",
+    description:
+      "Professional handheld digital multimeter with advanced measurement capabilities and safety features. Designed for field service technicians and electrical professionals requiring accurate and reliable measurements.",
     features: [
       "4.5 digit resolution for precise measurements",
       "True RMS AC/DC voltage and current",
@@ -8838,7 +9103,7 @@ export const products: Product[] = [
       "AC current range: 60mA to 10A, ±1.2%",
       "Resistance range: 600Ω to 60MΩ",
       "CAT III 1000V, CAT IV 600V safety rating",
-      "UL Listed and CE Marked"
+      "UL Listed and CE Marked",
     ],
   },
   {
@@ -8925,7 +9190,6 @@ export const products: Product[] = [
       featuresKey: "products:multimeters.tektronixDMM4050.features",
     },
   },
-
 
   // CENTRIFUGAL PUMPS SUBCATEGORY PRODUCTS
   {
@@ -9908,7 +10172,8 @@ export const products: Product[] = [
       certification: "ASTM A276, API 610",
     },
     title: "416 Stainless Steel Pump Shaft",
-    description: "High-quality 416 stainless steel pump shaft with precision machining for centrifugal pump applications. Features excellent corrosion resistance and mechanical properties for reliable long-term operation.",
+    description:
+      "High-quality 416 stainless steel pump shaft with precision machining for centrifugal pump applications. Features excellent corrosion resistance and mechanical properties for reliable long-term operation.",
     features: [
       "416 stainless steel construction",
       "Hardness: HRC 28-32 for durability",
@@ -9918,7 +10183,7 @@ export const products: Product[] = [
       "Turned and polished surface finish",
       "ASTM A276 and API 610 certified",
       "Excellent corrosion resistance",
-      "Precision machined to tight tolerances"
+      "Precision machined to tight tolerances",
     ],
   },
   {
@@ -9937,7 +10202,8 @@ export const products: Product[] = [
       certification: "ANSI B73.1, ISO 2858",
     },
     title: "Cast Iron Pump Bearing Frame",
-    description: "Heavy-duty cast iron bearing frame for centrifugal pumps with ball or roller bearing configurations. Features robust construction with oil bath or grease lubrication options for reliable operation.",
+    description:
+      "Heavy-duty cast iron bearing frame for centrifugal pumps with ball or roller bearing configurations. Features robust construction with oil bath or grease lubrication options for reliable operation.",
     features: [
       "Cast iron construction for durability",
       "Ball or roller bearing compatibility",
@@ -9947,7 +10213,7 @@ export const products: Product[] = [
       "Machined and painted finish",
       "ANSI B73.1 and ISO 2858 certified",
       "Heavy-duty industrial construction",
-      "Long service life design"
+      "Long service life design",
     ],
   },
   {
@@ -9966,7 +10232,8 @@ export const products: Product[] = [
       certification: "FDA CFR 177, NSF 61",
     },
     title: "Complete Pump Gasket Kit",
-    description: "Comprehensive gasket and O-ring kit for pump maintenance and repair. Includes all necessary sealing components with excellent chemical resistance and temperature tolerance for various pumping applications.",
+    description:
+      "Comprehensive gasket and O-ring kit for pump maintenance and repair. Includes all necessary sealing components with excellent chemical resistance and temperature tolerance for various pumping applications.",
     features: [
       "Complete gasket and O-ring set",
       "Temperature range: -65°F to +400°F",
@@ -9976,7 +10243,7 @@ export const products: Product[] = [
       "FDA CFR 177 and NSF 61 certified",
       "Excellent chemical resistance",
       "High-quality elastomer materials",
-      "Comprehensive maintenance solution"
+      "Comprehensive maintenance solution",
     ],
   },
 
@@ -9989,7 +10256,8 @@ export const products: Product[] = [
     typeKey: "rccb-circuit-breakers",
     image: "rccb",
     title: "Schneider Electric M9R31240 RCCB",
-    description: "Schneider Electric Multi9 ID residual current circuit breaker, 2-pole, 40A current rating, A-SI type with 30mA sensitivity for enhanced electrical safety and shock protection.",
+    description:
+      "Schneider Electric Multi9 ID residual current circuit breaker, 2-pole, 40A current rating, A-SI type with 30mA sensitivity for enhanced electrical safety and shock protection.",
     features: [
       "2-pole configuration for single-phase applications",
       "40A rated current capacity",
@@ -9998,7 +10266,7 @@ export const products: Product[] = [
       "DIN rail mounting for easy installation",
       "Manual test button for functional verification",
       "Compact Multi9 design saves space",
-      "IEC 61008 standard compliance"
+      "IEC 61008 standard compliance",
     ],
     specs: {
       manufacturer: "Schneider Electric",
@@ -10009,7 +10277,7 @@ export const products: Product[] = [
       sensitivity: "30mA",
       voltage: "230/400V",
       standard: "IEC 61008",
-      mounting: "DIN Rail"
+      mounting: "DIN Rail",
     },
   },
   {
@@ -10020,7 +10288,8 @@ export const products: Product[] = [
     typeKey: "rccb-circuit-breakers",
     image: "rccb",
     title: "Schneider Electric M9R14463 RCCB",
-    description: "Schneider Electric Multi9 ID residual current circuit breaker, 4-pole, 63A current rating, AC type with 300mA sensitivity for equipment protection and fire safety.",
+    description:
+      "Schneider Electric Multi9 ID residual current circuit breaker, 4-pole, 63A current rating, AC type with 300mA sensitivity for equipment protection and fire safety.",
     features: [
       "4-pole configuration for three-phase applications",
       "63A rated current capacity",
@@ -10029,7 +10298,7 @@ export const products: Product[] = [
       "Fire hazard protection capability",
       "Manual test button for regular testing",
       "Robust Multi9 construction",
-      "Wide operating temperature range"
+      "Wide operating temperature range",
     ],
     specs: {
       manufacturer: "Schneider Electric",
@@ -10040,7 +10309,7 @@ export const products: Product[] = [
       sensitivity: "300mA",
       voltage: "230/400V",
       standard: "IEC 61008",
-      mounting: "DIN Rail"
+      mounting: "DIN Rail",
     },
   },
   {
@@ -10051,7 +10320,8 @@ export const products: Product[] = [
     typeKey: "rccb-circuit-breakers",
     image: "rccb",
     title: "ABB F204 A-63/0.03 RCCB",
-    description: "ABB F200 series residual current circuit breaker, 4-pole, 63A current rating, A-type with 30mA sensitivity. Advanced protection against electrical shock and enhanced safety features.",
+    description:
+      "ABB F200 series residual current circuit breaker, 4-pole, 63A current rating, A-type with 30mA sensitivity. Advanced protection against electrical shock and enhanced safety features.",
     features: [
       "4-pole design for comprehensive protection",
       "63A rated current for medium loads",
@@ -10060,7 +10330,7 @@ export const products: Product[] = [
       "1000A breaking capacity for reliability",
       "Visual trip indication",
       "Screw terminals up to 25mm²",
-      "Operating temperature -25°C to +55°C"
+      "Operating temperature -25°C to +55°C",
     ],
     specs: {
       manufacturer: "ABB",
@@ -10071,7 +10341,7 @@ export const products: Product[] = [
       sensitivity: "30mA",
       voltage: "400V",
       breakingCapacity: "1000A",
-      standard: "IEC 61008"
+      standard: "IEC 61008",
     },
   },
   {
@@ -10082,7 +10352,8 @@ export const products: Product[] = [
     typeKey: "rccb-circuit-breakers",
     image: "rccb",
     title: "ABB F204 AC-25 RCCB",
-    description: "ABB F200 series residual current circuit breaker, 4-pole, 25A current rating, AC type with 30mA sensitivity. Reliable earth leakage protection for residential and light commercial applications.",
+    description:
+      "ABB F200 series residual current circuit breaker, 4-pole, 25A current rating, AC type with 30mA sensitivity. Reliable earth leakage protection for residential and light commercial applications.",
     features: [
       "4-pole configuration for balanced protection",
       "25A rated current for light applications",
@@ -10091,7 +10362,7 @@ export const products: Product[] = [
       "Compact 4-module width design",
       "Easy DIN rail installation",
       "Manual test function",
-      "High electrical endurance rating"
+      "High electrical endurance rating",
     ],
     specs: {
       manufacturer: "ABB",
@@ -10102,7 +10373,7 @@ export const products: Product[] = [
       sensitivity: "30mA",
       voltage: "230/400V",
       standard: "IEC 61008",
-      endurance: "10,000 cycles"
+      endurance: "10,000 cycles",
     },
   },
 
@@ -10115,7 +10386,8 @@ export const products: Product[] = [
     typeKey: "acb-circuit-breakers",
     image: "acb",
     title: "ABB SACE Emax E1.2 1250A ACB",
-    description: "ABB SACE Emax E1.2 air circuit breaker with 1250A current rating and enhanced protection features. Advanced electronic trip units and high breaking capacity for demanding industrial applications.",
+    description:
+      "ABB SACE Emax E1.2 air circuit breaker with 1250A current rating and enhanced protection features. Advanced electronic trip units and high breaking capacity for demanding industrial applications.",
     features: [
       "1250A continuous current rating",
       "Frame size E1 for compact installation",
@@ -10124,7 +10396,7 @@ export const products: Product[] = [
       "Selective protection coordination",
       "Remote operation capabilities",
       "Multiple communication protocols",
-      "Maintenance-friendly design"
+      "Maintenance-friendly design",
     ],
     specs: {
       manufacturer: "ABB",
@@ -10135,7 +10407,7 @@ export const products: Product[] = [
       breakingCapacity: "125kA at 480V",
       poles: "3P/4P",
       standard: "IEC 61947-2",
-      tripUnit: "Electronic"
+      tripUnit: "Electronic",
     },
   },
   {
@@ -10146,7 +10418,8 @@ export const products: Product[] = [
     typeKey: "acb-circuit-breakers",
     image: "acb",
     title: "ABB SACE Emax E2.2 2000A ACB",
-    description: "ABB SACE Emax E2.2 air circuit breaker rated for 2000A continuous current. High-performance protection with advanced electronic trip units for large industrial and commercial installations.",
+    description:
+      "ABB SACE Emax E2.2 air circuit breaker rated for 2000A continuous current. High-performance protection with advanced electronic trip units for large industrial and commercial installations.",
     features: [
       "2000A continuous current rating",
       "E2 frame size for medium installations",
@@ -10155,7 +10428,7 @@ export const products: Product[] = [
       "Zone selective interlocking",
       "Power monitoring and measurement",
       "Drawout or fixed mounting options",
-      "Comprehensive diagnostic capabilities"
+      "Comprehensive diagnostic capabilities",
     ],
     specs: {
       manufacturer: "ABB",
@@ -10166,7 +10439,7 @@ export const products: Product[] = [
       breakingCapacity: "100kA at 480V",
       poles: "3P/4P",
       standard: "IEC 61947-2",
-      features: "Electronic trip, monitoring"
+      features: "Electronic trip, monitoring",
     },
   },
   {
@@ -10177,7 +10450,8 @@ export const products: Product[] = [
     typeKey: "acb-circuit-breakers",
     image: "acb",
     title: "Schneider Electric MasterPact NW 1600A ACB",
-    description: "Schneider Electric MasterPact NW air circuit breaker with 1600A rating and Micrologic trip units. Advanced protection and monitoring capabilities for critical power distribution systems.",
+    description:
+      "Schneider Electric MasterPact NW air circuit breaker with 1600A rating and Micrologic trip units. Advanced protection and monitoring capabilities for critical power distribution systems.",
     features: [
       "1600A continuous current rating",
       "Micrologic electronic trip units",
@@ -10186,7 +10460,7 @@ export const products: Product[] = [
       "Communication ready design",
       "Selective coordination features",
       "Easy installation and maintenance",
-      "Comprehensive protection algorithms"
+      "Comprehensive protection algorithms",
     ],
     specs: {
       manufacturer: "Schneider Electric",
@@ -10196,7 +10470,7 @@ export const products: Product[] = [
       breakingCapacity: "100kA",
       poles: "3P/4P",
       tripUnit: "Micrologic",
-      standard: "IEC 60947-2"
+      standard: "IEC 60947-2",
     },
   },
   {
@@ -10207,7 +10481,8 @@ export const products: Product[] = [
     typeKey: "acb-circuit-breakers",
     image: "acb",
     title: "Schneider Electric MasterPact MTZ 2500A ACB",
-    description: "Schneider Electric MasterPact MTZ air circuit breaker rated for 2500A with advanced digital protection. Next-generation ACB with IoT connectivity and energy management features.",
+    description:
+      "Schneider Electric MasterPact MTZ air circuit breaker rated for 2500A with advanced digital protection. Next-generation ACB with IoT connectivity and energy management features.",
     features: [
       "2500A continuous current rating",
       "Digital Micrologic X trip units",
@@ -10216,7 +10491,7 @@ export const products: Product[] = [
       "Predictive maintenance features",
       "High breaking capacity performance",
       "Enhanced safety and reliability",
-      "Future-ready digital platform"
+      "Future-ready digital platform",
     ],
     specs: {
       manufacturer: "Schneider Electric",
@@ -10226,7 +10501,7 @@ export const products: Product[] = [
       breakingCapacity: "150kA",
       poles: "3P/4P",
       tripUnit: "Micrologic X",
-      connectivity: "IoT ready"
+      connectivity: "IoT ready",
     },
   },
 
@@ -10239,7 +10514,8 @@ export const products: Product[] = [
     typeKey: "vcb-circuit-breakers",
     image: "vcb",
     title: "ABB VD4 12kV 1250A VCB",
-    description: "ABB VD4 medium voltage vacuum circuit breaker for 12kV applications with 1250A current rating. Superior arc quenching technology with maintenance-free operation for reliable power distribution.",
+    description:
+      "ABB VD4 medium voltage vacuum circuit breaker for 12kV applications with 1250A current rating. Superior arc quenching technology with maintenance-free operation for reliable power distribution.",
     features: [
       "12kV rated voltage for medium voltage",
       "1250A continuous current rating",
@@ -10248,7 +10524,7 @@ export const products: Product[] = [
       "Maintenance-free operation",
       "Compact design for space saving",
       "Spring mechanism actuator",
-      "Long mechanical and electrical life"
+      "Long mechanical and electrical life",
     ],
     specs: {
       manufacturer: "ABB",
@@ -10259,7 +10535,7 @@ export const products: Product[] = [
       poles: "3P",
       mechanism: "Spring operated",
       standard: "IEC 62271-100",
-      operations: "10,000 mechanical"
+      operations: "10,000 mechanical",
     },
   },
   {
@@ -10270,7 +10546,8 @@ export const products: Product[] = [
     typeKey: "vcb-circuit-breakers",
     image: "vcb",
     title: "ABB VD4 24kV 2000A VCB",
-    description: "ABB VD4 medium voltage vacuum circuit breaker for 24kV systems with 2000A rating. Advanced vacuum technology providing reliable switching and protection for demanding power applications.",
+    description:
+      "ABB VD4 medium voltage vacuum circuit breaker for 24kV systems with 2000A rating. Advanced vacuum technology providing reliable switching and protection for demanding power applications.",
     features: [
       "24kV rated voltage capability",
       "2000A continuous current rating",
@@ -10279,7 +10556,7 @@ export const products: Product[] = [
       "Extended electrical endurance",
       "Minimal maintenance requirements",
       "Environmentally friendly operation",
-      "Proven reliability in service"
+      "Proven reliability in service",
     ],
     specs: {
       manufacturer: "ABB",
@@ -10290,7 +10567,7 @@ export const products: Product[] = [
       poles: "3P",
       interrupter: "Vacuum",
       standard: "IEC 62271-100",
-      endurance: "30,000 operations"
+      endurance: "30,000 operations",
     },
   },
   {
@@ -10301,7 +10578,8 @@ export const products: Product[] = [
     typeKey: "vcb-circuit-breakers",
     image: "vcb",
     title: "Schneider Electric EvoPacT 15kV 2000A VCB",
-    description: "Schneider Electric EvoPacT medium voltage vacuum circuit breaker with 15kV rating and 2000A capacity. Drawout design for SureSeT switchgear with advanced protection and control features.",
+    description:
+      "Schneider Electric EvoPacT medium voltage vacuum circuit breaker with 15kV rating and 2000A capacity. Drawout design for SureSeT switchgear with advanced protection and control features.",
     features: [
       "15kV medium voltage rating",
       "2000A continuous current capacity",
@@ -10310,7 +10588,7 @@ export const products: Product[] = [
       "Compatible with SureSeT switchgear",
       "Advanced vacuum interruption",
       "Digital control capabilities",
-      "Comprehensive protection algorithms"
+      "Comprehensive protection algorithms",
     ],
     specs: {
       manufacturer: "Schneider Electric",
@@ -10321,7 +10599,7 @@ export const products: Product[] = [
       poles: "3P",
       design: "Drawout",
       standard: "IEC 62271-100",
-      switchgear: "SureSeT compatible"
+      switchgear: "SureSeT compatible",
     },
   },
   {
@@ -10332,7 +10610,8 @@ export const products: Product[] = [
     typeKey: "vcb-circuit-breakers",
     image: "vcb",
     title: "Schneider Electric EvoPacT HVX-O 33kV 1250A VCB",
-    description: "Schneider Electric EvoPacT HVX-O high voltage vacuum circuit breaker with 33kV rating and 1250A capacity. Advanced digital MV circuit breaker with superior performance characteristics.",
+    description:
+      "Schneider Electric EvoPacT HVX-O high voltage vacuum circuit breaker with 33kV rating and 1250A capacity. Advanced digital MV circuit breaker with superior performance characteristics.",
     features: [
       "33kV high voltage rating",
       "1250A continuous current rating",
@@ -10341,7 +10620,7 @@ export const products: Product[] = [
       "Withdrawable circuit breaker design",
       "Enhanced safety features",
       "Remote monitoring capabilities",
-      "Long service life design"
+      "Long service life design",
     ],
     specs: {
       manufacturer: "Schneider Electric",
@@ -10351,7 +10630,7 @@ export const products: Product[] = [
       current: "1250A",
       breakingCapacity: "25kA",
       control: "230VAC, 24VDC",
-      design: "Withdrawable"
+      design: "Withdrawable",
     },
   },
   {
@@ -10362,7 +10641,8 @@ export const products: Product[] = [
     typeKey: "vcb-circuit-breakers",
     image: "vcb",
     title: "Siemens 3AH4 12kV 1600A VCB",
-    description: "Siemens 3AH4 series medium voltage vacuum circuit breaker with 12kV rating and 1600A current capacity. Reliable vacuum switching technology for standard distribution and special applications.",
+    description:
+      "Siemens 3AH4 series medium voltage vacuum circuit breaker with 12kV rating and 1600A current capacity. Reliable vacuum switching technology for standard distribution and special applications.",
     features: [
       "12kV medium voltage application",
       "1600A rated current capacity",
@@ -10371,7 +10651,7 @@ export const products: Product[] = [
       "Compact and robust construction",
       "Wide range of applications",
       "Proven Siemens reliability",
-      "Cost-effective solution"
+      "Cost-effective solution",
     ],
     specs: {
       manufacturer: "Siemens",
@@ -10381,7 +10661,7 @@ export const products: Product[] = [
       technology: "Vacuum interruption",
       poles: "3P",
       standard: "IEC 62271-100",
-      applications: "Distribution, industrial"
+      applications: "Distribution, industrial",
     },
   },
 ];
@@ -10974,13 +11254,13 @@ export const getProductsForSubcategoryPage = (
         title: baseProduct.title
           ? `${baseProduct.title} - Variant ${variantNumber}`
           : baseProduct.translationKeys?.title
-          ? `${baseProduct.translationKeys.title} - Variant ${variantNumber}`
-          : `Product Variant ${variantNumber}`,
+            ? `${baseProduct.translationKeys.title} - Variant ${variantNumber}`
+            : `Product Variant ${variantNumber}`,
         description: baseProduct.description
           ? baseProduct.description
           : baseProduct.translationKeys?.description
-          ? baseProduct.translationKeys.description
-          : `Industrial product variant ${variantNumber} with enhanced specifications`,
+            ? baseProduct.translationKeys.description
+            : `Industrial product variant ${variantNumber} with enhanced specifications`,
         features: baseProduct.features
           ? [...baseProduct.features, `Variant ${variantNumber} specifications`]
           : [
@@ -10988,7 +11268,7 @@ export const getProductsForSubcategoryPage = (
               `Industrial grade construction`,
               `Reliable operation`,
               `Certified for industrial use`,
-              `Variant ${variantNumber} specifications`
+              `Variant ${variantNumber} specifications`,
             ],
       };
       subcategoryProducts.push(newProduct);
@@ -11008,14 +11288,14 @@ export const getProductsForSubcategoryPage = (
           type: "Standard",
           application: "Industrial",
         },
-        title: `${subcategoryKey.replace(/-/g, ' ').replace(/\b\w/g, l => l.toUpperCase())} Product ${productNumber}`,
-        description: `Industrial ${subcategoryKey.replace(/-/g, ' ')} product designed for reliable performance in demanding applications. Features high-quality construction and proven technology.`,
+        title: `${subcategoryKey.replace(/-/g, " ").replace(/\b\w/g, (l) => l.toUpperCase())} Product ${productNumber}`,
+        description: `Industrial ${subcategoryKey.replace(/-/g, " ")} product designed for reliable performance in demanding applications. Features high-quality construction and proven technology.`,
         features: [
           "High-quality industrial construction",
           "Reliable performance in demanding conditions",
           "Certified for industrial applications",
           "Low maintenance requirements",
-          "Excellent value for money"
+          "Excellent value for money",
         ],
       };
       subcategoryProducts.push(defaultProduct);

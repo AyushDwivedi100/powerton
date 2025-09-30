@@ -178,7 +178,7 @@ export const productsSubCategoryData: ProductSubCategoryData[] = [
     },
   },
   {
-    slug: "transmitters",
+    slug: "transmitters-flow-meters",
     title: "Transmitters & Flow Meters",
     shortDescription:
       "Precision transmitters for pressure, temperature, flow, and level measurement",
@@ -248,7 +248,7 @@ export const productsSubCategoryData: ProductSubCategoryData[] = [
     },
   },
   {
-    slug: "switches",
+    slug: "switches-indicators",
     title: "Switches & Indicators",
     shortDescription:
       "Essential industrial switches for automation and control: pressure switches, level switches, limit switches, and push buttons",
@@ -318,7 +318,7 @@ export const productsSubCategoryData: ProductSubCategoryData[] = [
     },
   },
   {
-    slug: "valves",
+    slug: "valves-actuators",
     title: "Valves & Actuators",
     shortDescription:
       "Essential valve solutions for industrial automation: control valves and solenoid valves",
@@ -467,8 +467,8 @@ export const productsSubCategoryData: ProductSubCategoryData[] = [
     fullDescription:
       "Comprehensive range of electrical cables including power cables, control cables, instrumentation cables, and communication cables for industrial installations.",
     image: cablesWiresImage,
-    parentCategory: "/products/electrical-components",
-    parentCategoryTitle: "Electrical Components",
+    parentCategory: "/products/electrical-accessories",
+    parentCategoryTitle: "Electrical Accessories",
     icon: Cable,
     keyBenefits: [
       "High Current Carrying Capacity",
@@ -537,8 +537,8 @@ export const productsSubCategoryData: ProductSubCategoryData[] = [
     fullDescription:
       "Complete range of electrical connection solutions including terminal blocks, wire connectors, junction boxes, and industrial connectors for reliable electrical connections.",
     image: connectorsTerminalsImage,
-    parentCategory: "/products/electrical-components",
-    parentCategoryTitle: "Electrical Components",
+    parentCategory: "/products/electrical-accessories",
+    parentCategoryTitle: "Electrical Accessories",
     icon: Zap,
     keyBenefits: [
       "Secure Connections",
@@ -607,8 +607,8 @@ export const productsSubCategoryData: ProductSubCategoryData[] = [
     fullDescription:
       "Comprehensive protection solutions including miniature circuit breakers, molded case circuit breakers, and industrial fuses for electrical system protection.",
     image: circuitBreakersImage,
-    parentCategory: "/products/electrical-components",
-    parentCategoryTitle: "Electrical Components",
+    parentCategory: "/products/electrical-accessories",
+    parentCategoryTitle: "Electrical Accessories",
     icon: Shield,
     keyBenefits: [
       "Equipment Protection",
@@ -677,8 +677,8 @@ export const productsSubCategoryData: ProductSubCategoryData[] = [
     fullDescription:
       "Industrial power supply solutions including switched-mode power supplies, uninterruptible power supplies, and DC-DC converters for reliable power distribution.",
     image: powerSuppliesImage,
-    parentCategory: "/products/electrical-components",
-    parentCategoryTitle: "Electrical Components",
+    parentCategory: "/products/electrical-accessories",
+    parentCategoryTitle: "Electrical Accessories",
     icon: Power,
     keyBenefits: [
       "Stable Output Voltage",
@@ -747,8 +747,8 @@ export const productsSubCategoryData: ProductSubCategoryData[] = [
     fullDescription:
       "Complete range of electrical enclosures including control panels, distribution boards, and weatherproof enclosures for equipment protection and organization.",
     image: enclosuresImage,
-    parentCategory: "/products/electrical-components",
-    parentCategoryTitle: "Electrical Components",
+    parentCategory: "/products/electrical-accessories",
+    parentCategoryTitle: "Electrical Accessories",
     icon: Shield,
     keyBenefits: [
       "Equipment Protection",
@@ -816,8 +816,8 @@ export const productsSubCategoryData: ProductSubCategoryData[] = [
     fullDescription:
       "Comprehensive heating solutions including cartridge heaters, band heaters, immersion heaters, and industrial ovens for process heating applications.",
     image: heatingElementsImage,
-    parentCategory: "/products/electrical-components",
-    parentCategoryTitle: "Electrical Components",
+    parentCategory: "/products/electrical-accessories",
+    parentCategoryTitle: "Electrical Accessories",
     icon: Zap,
     keyBenefits: [
       "Precise Temperature Control",
@@ -1088,7 +1088,8 @@ export const productsSubCategoryData: ProductSubCategoryData[] = [
         "Industrial PLCs and programmable logic controllers for automation and process control. Siemens, Allen-Bradley, and Schneider Electric PLC systems.",
       keywords:
         "PLCs, programmable logic controllers, industrial automation, process control, factory automation, PLC programming",
-      canonicalUrl: "https://powertonengineering.in/products/automation-control-systems/plcs",
+      canonicalUrl:
+        "https://powertonengineering.in/products/automation-control-systems/plcs",
     },
   },
   {
@@ -1227,7 +1228,8 @@ export const productsSubCategoryData: ProductSubCategoryData[] = [
         "Advanced DCS solutions for large-scale process control with distributed architecture, redundant systems, and integrated safety features.",
       keywords:
         "DCS systems, distributed control systems, process automation, industrial control, safety systems, process control",
-      canonicalUrl: "https://powertonengineering.in/products/automation-control-systems/dcs",
+      canonicalUrl:
+        "https://powertonengineering.in/products/automation-control-systems/dcs",
     },
   },
   {
@@ -1296,7 +1298,8 @@ export const productsSubCategoryData: ProductSubCategoryData[] = [
         "Industrial HMI panels and touchscreen interfaces for process control and automation. Multi-protocol support with real-time monitoring and control.",
       keywords:
         "HMI panels, human machine interface, touchscreen panels, operator interface, industrial displays, process control HMI",
-      canonicalUrl: "https://powertonengineering.in/products/automation-control-systems/hmi",
+      canonicalUrl:
+        "https://powertonengineering.in/products/automation-control-systems/hmi",
     },
   },
 
@@ -2731,13 +2734,15 @@ export const getProductsByParentCategory = (
 };
 
 // Create mapping from subcategory ID to actual slug for header navigation
-export const getSubcategorySlugById = (subcategoryId: string): string | null => {
+export const getSubcategorySlugById = (
+  subcategoryId: string,
+): string | null => {
   const subcategoryMapping: { [key: string]: string } = {
-    "sensors": "sensors-transducers",
-    "transmitters": "transmitters-flow-meters",
-    "switches": "switches-indicators", 
-    "valves": "valves-actuators",
-    "analyzers": "analyzers",
+    sensors: "sensors-transducers",
+    transmitters: "transmitters-flow-meters",
+    switches: "switches-indicators",
+    valves: "valves-actuators",
+    analyzers: "analyzers",
     "cables-wires": "cables-wires",
     "connectors-terminals": "connectors-terminals",
     "circuit-breakers-fuses": "circuit-breakers-fuses",
@@ -2746,7 +2751,7 @@ export const getSubcategorySlugById = (subcategoryId: string): string | null => 
     "heating-elements-appliances": "heating-elements-appliances",
     "surge-protectors": "surge-protectors",
     "grounding-systems": "grounding-systems",
-    "multimeters": "multimeters",
+    multimeters: "multimeters",
     "power-quality-analyzers": "power-quality-analyzers",
     "calibration-equipment": "calibration-equipment",
     "hand-tools": "hand-tools",
@@ -2755,10 +2760,10 @@ export const getSubcategorySlugById = (subcategoryId: string): string | null => 
     "lifting-equipment": "lifting-equipment",
     "solar-panels": "solar-panels",
     "solar-inverters": "solar-inverters",
-    "plcs": "plcs",
-    "scada": "scada",
-    "dcs": "dcs",
-    "hmi": "hmi",
+    plcs: "plcs",
+    scada: "scada",
+    dcs: "dcs",
+    hmi: "hmi",
     "safety-equipment": "safety-equipment",
     "safety-relays-switches": "safety-relays-switches",
     "intrinsically-safe-equipment": "intrinsically-safe-equipment",
@@ -2769,9 +2774,9 @@ export const getSubcategorySlugById = (subcategoryId: string): string | null => 
     "bldc-ceiling-fan": "bldc-ceiling-fan",
     "bldc-cooler-exhaust-motor": "bldc-cooler-exhaust-motor",
     "bldc-submersible-surface-pump": "bldc-submersible-surface-pump",
-    "bldc-table-fan-wall-fan-motor": "bldc-table-fan-wall-fan-motor"
+    "bldc-table-fan-wall-fan-motor": "bldc-table-fan-wall-fan-motor",
   };
-  
+
   return subcategoryMapping[subcategoryId] || null;
 };
 
@@ -2779,86 +2784,88 @@ export const getSubcategorySlugById = (subcategoryId: string): string | null => 
 export const getParentCategorySlug = (productCategoryId: string): string => {
   const parentCategoryMapping: { [key: string]: string } = {
     "instrumentation-accessories": "instrumentation-accessories",
-    "electrical-components": "electrical-components", 
+    "electrical-accessories": "electrical-accessories",
     "industrial-measuring-tools": "industrial-measuring-tools",
     "solar-products": "solar-products",
     "automation-control-systems": "automation-control-systems",
     "safety-protective-devices": "safety-protective-devices",
     "mechanical-pumps-spares": "mechanical-pumps-spares",
-    "bldc": "bldc"
+    bldc: "bldc",
   };
-  
+
   return parentCategoryMapping[productCategoryId] || productCategoryId;
 };
 
 // Map subcategoryKey to parent category for product groups
-export const getParentCategoryBySubcategoryKey = (subcategoryKey: string): string => {
+export const getParentCategoryBySubcategoryKey = (
+  subcategoryKey: string,
+): string => {
   const subcategoryToParentMapping: { [key: string]: string } = {
     // Instrumentation Accessories
-    "sensors": "instrumentation-accessories",
-    "transmitters": "instrumentation-accessories", 
-    "switches": "instrumentation-accessories",
-    "valves": "instrumentation-accessories",
-    "analyzers": "instrumentation-accessories",
-    
+    "sensors-transducers": "instrumentation-accessories",
+    "transmitters-flow-meters": "instrumentation-accessories",
+    "switches-indicator": "instrumentation-accessories",
+    "valves-actuators": "instrumentation-accessories",
+    analyzers: "instrumentation-accessories",
+
     // Electrical Components
-    "cables-wires": "electrical-components",
-    "connectors-terminals": "electrical-components",
-    "circuit-breakers-fuses": "electrical-components",
-    "power-supplies": "electrical-components",
-    "enclosures-cabinets": "electrical-components",
-    "heating-elements-appliances": "electrical-components",
-    "surge-protectors": "electrical-components",
-    "grounding-systems": "electrical-components",
-    
+    "cables-wires": "electrical-accessories",
+    "connectors-terminals": "electrical-accessories",
+    "circuit-breakers-fuses": "electrical-accessories",
+    "power-supplies": "electrical-accessories",
+    "enclosures-cabinets": "electrical-accessories",
+    "heating-elements-appliances": "electrical-accessories",
+    "surge-protectors": "electrical-accessories",
+    "grounding-systems": "electrical-accessories",
+
     // Industrial Measuring Tools
-    "multimeters": "industrial-measuring-tools",
+    multimeters: "industrial-measuring-tools",
     "power-quality-analyzers": "industrial-measuring-tools",
     "calibration-equipment": "industrial-measuring-tools",
     "hand-tools": "industrial-measuring-tools",
     "power-tools": "industrial-measuring-tools",
     "cutting-tools": "industrial-measuring-tools",
     "lifting-equipment": "industrial-measuring-tools",
-    
+
     // Solar Products
     "solar-panels": "solar-products",
     "solar-inverters": "solar-products",
-    
+
     // Automation Control Systems
-    "plcs": "automation-control-systems",
-    "scada": "automation-control-systems",
-    "dcs": "automation-control-systems",
-    "hmi": "automation-control-systems",
-    
+    plcs: "automation-control-systems",
+    scada: "automation-control-systems",
+    dcs: "automation-control-systems",
+    hmi: "automation-control-systems",
+
     // Safety Protective Devices
     "safety-equipment": "safety-protective-devices",
     "safety-relays-switches": "safety-protective-devices",
     "intrinsically-safe-equipment": "safety-protective-devices",
-    
+
     // Mechanical Pumps & Spares
     "centrifugal-pumps": "mechanical-pumps-spares",
     "diaphragm-pumps": "mechanical-pumps-spares",
     "gear-pumps": "mechanical-pumps-spares",
     "pump-parts-spares": "mechanical-pumps-spares",
-    
+
     // BLDC Motors
     "bldc-ceiling-fan": "bldc",
     "bldc-cooler-exhaust-motor": "bldc",
     "bldc-submersible-surface-pump": "bldc",
-    "bldc-table-fan-wall-fan-motor": "bldc"
+    "bldc-table-fan-wall-fan-motor": "bldc",
   };
-  
+
   return subcategoryToParentMapping[subcategoryKey] || "";
 };
 
 // Convert subcategory slug to subcategory key for product group lookup
 export const getSubcategoryKeyBySlug = (subcategorySlug: string): string => {
   const subcategorySlugToKeyMapping: { [key: string]: string } = {
-    "sensors-transducers": "sensors",
-    "transmitters-flow-meters": "transmitters", 
-    "switches-indicators": "switches",
-    "valves-actuators": "valves",
-    "analyzers": "analyzers",
+    "sensors-transducers": "sensors-transducers",
+    "transmitters-flow-meters": "transmitters-flow-meters",
+    "switches-indicators": "switches-indicators",
+    "valves-actuators": "valves-actuators",
+    analyzers: "analyzers",
     "bldc-ceiling-fan": "bldc-ceiling-fan",
     "bldc-cooler-exhaust-motor": "bldc-cooler-exhaust-motor",
     "bldc-submersible-surface-pump": "bldc-submersible-surface-pump",
@@ -2871,17 +2878,17 @@ export const getSubcategoryKeyBySlug = (subcategorySlug: string): string => {
     "heating-elements-appliances": "heating-elements-appliances",
     "surge-protectors": "surge-protectors",
     "grounding-systems": "grounding-systems",
-    "multimeters": "multimeters",
+    multimeters: "multimeters",
     "power-quality-analyzers": "power-quality-analyzers",
     "calibration-equipment": "calibration-equipment",
-    "oscilloscopes": "oscilloscopes",
+    oscilloscopes: "oscilloscopes",
     "spectrum-analyzers": "spectrum-analyzers",
     "solar-panels": "solar-panels",
     "solar-inverters": "solar-inverters",
-    "plcs": "plcs",
-    "hmi": "hmi",
-    "scada": "scada",
-    "dcs": "dcs",
+    plcs: "plcs",
+    hmi: "hmi",
+    scada: "scada",
+    dcs: "dcs",
     "safety-equipment": "safety-equipment",
     "safety-relays-switches": "safety-relays-switches",
     "intrinsically-safe-equipment": "intrinsically-safe-equipment",
@@ -2894,6 +2901,6 @@ export const getSubcategoryKeyBySlug = (subcategorySlug: string): string => {
     "cutting-tools": "cutting-tools",
     "lifting-equipment": "lifting-equipment",
   };
-  
+
   return subcategorySlugToKeyMapping[subcategorySlug] || subcategorySlug;
 };
