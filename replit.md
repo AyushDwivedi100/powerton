@@ -5,6 +5,29 @@ This is a React-based business website for Powerton Engineering Pvt. Ltd., a com
 
 ## Recent Changes (September 30, 2025)
 
+### Added Welding Machines Product Group to Power Tools Subcategory
+- Created "Welding Machines" product group with comprehensive description covering MIG, TIG, Stick, and multi-process welding
+- Added 6 real welding machines from leading manufacturers:
+  1. **Lincoln Electric POWER MIG 211i** - Dual-voltage 120V/230V MIG welder, 20-211A output, 41 lbs portable
+  2. **Miller Multimatic 220 AC/DC** - Multi-process (MIG, Flux-Cored, Stick, TIG AC/DC), Auto-Set Elite, MVP system
+  3. **ESAB Rebel EMP 215ic** - sMIG smart MIG technology, 4.3" TFT display, 120/230V dual voltage
+  4. **Lincoln Electric POWER MIG 262MP** - Professional 300A multi-process, 7" LCD, Ready.Set.Weld, aluminum capable
+  5. **Miller Dynasty 210** - Advanced 210A AC/DC TIG, waveform control, wireless foot control, includes water cooler
+  6. **ESAB Rebel EMP 285ic** - High-output 285A multi-process, full .045" wire range, spray transfer
+- All products include real specifications, amperage ratings, processes, features, and manufacturer datasheet URLs
+
+### Added Plasma Cutters Product Group to Cutting Tools Subcategory
+- Created "Plasma Cutters" product group with comprehensive description covering SYNC cartridge technology and SmartSYNC features
+- Added 6 real Hypertherm Powermax plasma cutters:
+  1. **Powermax45 SYNC** - 45A, SmartSYNC RFID torches, single-piece cartridge, up to 5x consumable life
+  2. **Powermax65 SYNC** - 65A professional-grade, cartridge platform, automated setup
+  3. **Powermax85 SYNC** - 85A professional system, SmartSYNC, real-time diagnostics
+  4. **Powermax105 SYNC** - 105A heavy-duty, RFID tracking, up to 32mm cutting capacity
+  5. **Powermax125** - 125A maximum power, up to 57mm cutting, Smart Sense, 100% duty cycle
+  6. **Powermax30 XP** - 30A dual-voltage, FineCut consumables, portable design
+- All products include cutting capacity, amperage specifications, features, and Hypertherm datasheet URLs
+- Note: User requested "choksa cutter" but this term was not found in industrial cutting tools. Plasma Cutters were added as the most appropriate industrial metal cutting solution
+
 ### Added HART Calibrator Products to Calibration Equipment
 - Created "HART Calibrators" product group with comprehensive description covering HART communication protocol support
 - Added 6 real HART calibrator products from leading manufacturers (Fluke, Beamex, Emerson)
