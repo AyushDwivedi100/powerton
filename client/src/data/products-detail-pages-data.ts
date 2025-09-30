@@ -12509,15 +12509,16 @@ export const getProductDetailBySlug = (
   let backLabel = t(
     `products:categories.${category.key}.subcategories.${subcategory.key}.name`,
     {
-      defaultValue: subcategory.key.replace("-", " ").toUpperCase(),
+      defaultValue: subcategory.key.replace(/-/g, " ").replace(/\b\w/g, l => l.toUpperCase()),
     },
   );
 
   if (productGroup) {
     backPath = `/products/${subcategory.key}/${productGroup.slug}`;
-    backLabel = t(productGroup.titleKey, {
-      defaultValue: productGroup.key.toUpperCase().replace("-", " "),
-    });
+    backLabel = productGroup.title || 
+      (productGroup.titleKey ? t(productGroup.titleKey, {
+        defaultValue: productGroup.key.toUpperCase().replace(/-/g, " "),
+      }) : productGroup.key.toUpperCase().replace(/-/g, " "));
   }
 
   // Build proper canonical URL with full path structure
