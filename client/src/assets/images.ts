@@ -474,6 +474,11 @@ export const PRODUCT_IMAGES = {
     alt: `${IMAGE_IDS.MAGNETIC_FLOW_METER}: ABB ProcessMaster FEM300 - Electromagnetic flow meter for process applications`,
     id: IMAGE_IDS.MAGNETIC_FLOW_METER
   },
+  'magnetic-flowmeter-abb': {
+    src: magneticFlowMeterImage,
+    alt: `${IMAGE_IDS.MAGNETIC_FLOW_METER}: ABB Magnetic flow meter - High-performance electromagnetic flow meter for industrial applications`,
+    id: IMAGE_IDS.MAGNETIC_FLOW_METER
+  },
   'yokogawa-admag-axf-magnetic': {
     src: magneticFlowMeterImage,
     alt: `${IMAGE_IDS.MAGNETIC_FLOW_METER}: Yokogawa ADMAG AXF - Two-wire magnetic flow meter with dual frequency excitation`,
