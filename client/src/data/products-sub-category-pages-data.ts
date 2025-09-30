@@ -2804,7 +2804,7 @@ export const getParentCategoryBySubcategoryKey = (
     // Instrumentation Accessories
     "sensors-transducers": "instrumentation-accessories",
     "transmitters-flow-meters": "instrumentation-accessories",
-    "switches-indicator": "instrumentation-accessories",
+    "switches-indicators": "instrumentation-accessories",
     "valves-actuators": "instrumentation-accessories",
     analyzers: "instrumentation-accessories",
 
