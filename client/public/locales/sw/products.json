@@ -17,7 +17,8 @@
         "pressure-transmitters": "Visambazaji Shinikizo",
         "temperature-sensors": "Sensorer za Joto",
         "flow-meters": "Mita za Mtiririko",
-        "level-indicators": "Viashiria vya Kiwango"
+        "level-indicators": "Viashiria vya Kiwango",
+        "analyzers": "Vichambuzi"
       }
     },
     "electrical-components": {
@@ -387,38 +388,89 @@
       "title": "Betri za Sola & Uhifadhi wa Nishati",
       "description": "Mifumo ya uhifadhi wa betri kwa matumizi ya nishati ya jua"
     },
+    "solar-inverters": {
+      "title": "Vigeuzi vya Sola",
+      "description": "Vigeuzi vya sola vyenye ufanisi wa hali ya juu kwa matumizi ya makazi na biashara"
+    },
+    "plcs": {
+      "title": "PLCs",
+      "description": "Vidhibiti vya Mantiki Vinavyoweza Kupangwa kwa uendeshaji wa viwandani"
+    },
     "surge-protectors": {
-      "title": "Walindaji wa Mawimbi"
+      "title": "Walindaji wa Mawimbi",
+      "description": "Vifaa vya ulinzi wa mawimbi ya umeme kwa usalama wa vifaa"
     },
     "safety-relays-switches": {
-      "title": "Relays za Usalama & Swichi"
+      "title": "Relays za Usalama na Swichi",
+      "description": "Relays za usalama na swichi za kusimamisha dharura kwa usalama wa viwandani"
     },
     "intrinsically-safe-equipment": {
-      "title": "Vifaa Salama vya Kimsingi"
+      "title": "Vifaa Salama vya Kimsingi",
+      "description": "Vifaa visivyoweza kulipuka na salama kwa asili kwa maeneo hatarishi"
     },
     "centrifugal-pumps": {
-      "title": "Pampu za Centrifugal"
+      "title": "Pampu za Centrifugal",
+      "description": "Pampu za centrifugal zenye ufanisi wa hali ya juu kwa uhamishaji wa maji"
     },
     "diaphragm-pumps": {
-      "title": "Pampu za Diaphragm"
+      "title": "Pampu za Diaphragm",
+      "description": "Pampu za diaphragm za uhamishaji chanya kwa matumizi ya kemikali"
     },
     "gear-pumps": {
-      "title": "Pampu za Gear"
+      "title": "Pampu za Gear",
+      "description": "Pampu za gear za usahihi kwa maji maji mazito"
     },
     "pump-parts-spares": {
-      "title": "Sehemu za Pampu & Spares"
+      "title": "Sehemu za Pampu na Spares",
+      "description": "Sehemu za uingizwaji na vipengele vya ziada kwa pampu za viwandani"
     },
     "hand-tools": {
-      "title": "Zana za Mkono"
+      "title": "Zana za Mkono",
+      "description": "Zana za mkono za kitaalamu kwa matengenezo ya viwandani na mkusanyiko"
     },
     "power-tools": {
-      "title": "Zana za Nguvu"
+      "title": "Zana za Nguvu",
+      "description": "Zana za nguvu za viwandani kwa matumizi mazito"
     },
     "cutting-tools": {
-      "title": "Zana za Kukata"
+      "title": "Zana za Kukata",
+      "description": "Zana na vifaa vya kukata kwa usahihi kwa usindikaji wa chuma"
     },
     "lifting-equipment": {
-      "title": "Vifaa vya Kuinua"
+      "title": "Vifaa vya Kuinua",
+      "description": "Hoists, cranes, na vifaa vya kuinua kwa utunzaji wa nyenzo"
+    },
+    "bldc-cooler-exhaust-motor": {
+      "title": "BLDC Cooler & Motor ya Kutolea Nje",
+      "description": "Motors za BLDC zenye ufanisi wa nishati kwa vipoozi na feni za kutolea nje"
+    },
+    "bldc-ceiling-fan": {
+      "title": "BLDC Feni ya Dari",
+      "description": "Feni za dari za BLDC zenye ufanisi wa hali ya juu na kidhibiti cha mbali"
+    },
+    "bldc-submersible-surface-pump": {
+      "title": "BLDC Submersible & Pampu ya Juu",
+      "description": "Pampu za BLDC zenye ufanisi wa hali ya juu kwa matumizi ya maji"
+    },
+    "bldc-table-fan-wall-fan-motor": {
+      "title": "BLDC Jedwali la Feni & Motor ya Feni ya Ukuta",
+      "description": "Motors za BLDC za kompakt kwa feni za meza na feni za ukuta"
+    },
+    "sensors-transducers": {
+      "title": "Sensorer & Transducers",
+      "description": "Sensorer za viwandani kwa kipimo na udhibiti"
+    },
+    "transmitters-flow-meters": {
+      "title": "Transmitters & Mita za Mtiririko",
+      "description": "Transmitters za mchakato na vifaa vya ubadilishaji wa mawimbi"
+    },
+    "switches-indicators": {
+      "title": "Swichi & Viashiria",
+      "description": "Swichi za viwandani na vifaa vya kudhibiti"
+    },
+    "valves-actuators": {
+      "title": "Vali & Actuators",
+      "description": "Vali za viwandani na mifumo ya udhibiti wa mtiririko"
     },
     "safety-equipment": {
       "title": "Vifaa vya Usalama",
@@ -464,22 +516,28 @@
       }
     },
     "bldc-cooler-exhaust-motor": {
-      "title": "BLDC Cooler & Motors za Kutolea Nje"
+      "title": "BLDC Cooler & Motors za Kutolea Nje",
+      "description": "Motors za BLDC zenye ufanisi wa nishati kwa vipoozi na feni za kutolea nje"
     },
     "bldc-ceiling-fan": {
-      "title": "Mashabiki wa Dari wa BLDC"
+      "title": "BLDC Feni za Dari",
+      "description": "Feni za dari za BLDC zenye ufanisi wa hali ya juu na kidhibiti cha mbali"
     },
     "bldc-submersible-surface-pump": {
-      "title": "Pampu za Uso za BLDC Submersible &"
+      "title": "BLDC Submersible & Pampu za Juu",
+      "description": "Pampu za BLDC zenye ufanisi wa hali ya juu kwa matumizi ya maji"
     },
     "bldc-table-fan-wall-fan-motor": {
-      "title": "BLDC Jedwali & Motors za Shabiki za Ukuta"
+      "title": "BLDC Jedwali & Motors za Feni za Ukuta",
+      "description": "Motors za BLDC za kompakt kwa feni za meza na feni za ukuta"
     },
     "solar-inverters": {
-      "title": "Vigeuzi vya Sola"
+      "title": "Vigeuzi vya Sola",
+      "description": "Vigeuzi vya sola vyenye ufanisi wa hali ya juu kwa matumizi ya makazi na biashara"
     },
     "plcs": {
-      "title": "PLCs (Vidhibiti vya Mantiki Vinavyoweza Kupangwa)"
+      "title": "PLCs (Vidhibiti vya Mantiki Vinavyoweza Kupangwa)",
+      "description": "Vidhibiti vya Mantiki Vinavyoweza Kupangwa kwa uendeshaji wa viwandani"
     },
     "scada": {
       "title": "Mifumo ya SCADA",
@@ -1288,14 +1346,13 @@
     "3m": "3M, MSA"
   },
   "items": {
-    "instrumentation-components": "Vipengele vya Ala",
-    "electrical-components": "Vipengele vya Umeme",
-    "measurement-instruments": "Vyombo vya Kupimia",
+    "instrumentation-accessories": "Vipengele vya Ala",
+    "electrical-accessories": "Vipengele vya Umeme",
     "solar-products": "Bidhaa za Sola",
     "automation-control-systems": "Mifumo ya Automation na Udhibiti",
     "safety-protective-devices": "Vifaa vya Usalama na Kinga",
     "mechanical-pumps-spares": "Pampu za Mitambo na Vipuri",
-    "industrial-tools-tackles": "Zana na Vifaa vya Viwandani",
+    "industrial-measuring-tools": "Zana za Viwandani na Vipimo",
     "bldc": "Bidhaa za BLDC"
   },
   "tags": {
@@ -2166,9 +2223,9 @@
     "range": "Kiwango",
     "frequency": "Masafa",
     "conductivityRange": "Kiwango cha Conductivity",
-    "poles": "Poles", 
+    "poles": "Poles",
     "ratedVoltage": "Rated Voltage",
-    "ratedCurrent": "Rated Current", 
+    "ratedCurrent": "Rated Current",
     "residualCurrent": "Residual Current",
     "rcType": "RC Type",
     "breakingCapacity": "Breaking Capacity",

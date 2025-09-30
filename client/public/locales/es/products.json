@@ -17,7 +17,8 @@
         "pressure-transmitters": "Transmisores de Presión",
         "temperature-sensors": "Sensores de Temperatura",
         "flow-meters": "Medidores de Flujo",
-        "level-indicators": "Indicadores de Nivel"
+        "level-indicators": "Indicadores de Nivel",
+        "analyzers": "Analizadores"
       }
     },
     "electrical-components": {
@@ -387,38 +388,89 @@
       "title": "Baterías Solares y Almacenamiento de Energía",
       "description": "Sistemas de almacenamiento de baterías para aplicaciones de energía solar"
     },
+    "solar-inverters": {
+      "title": "Inversores Solares",
+      "description": "Inversores solares de alta eficiencia para aplicaciones residenciales y comerciales"
+    },
+    "plcs": {
+      "title": "PLCs",
+      "description": "Controladores Lógicos Programables para automatización industrial"
+    },
     "surge-protectors": {
-      "title": "Protectores contra Sobretensiones"
+      "title": "Protectores contra Sobretensiones",
+      "description": "Dispositivos eléctricos de protección contra sobretensiones para seguridad del equipo"
     },
     "safety-relays-switches": {
-      "title": "Relés e Interruptores de Seguridad"
+      "title": "Relés e Interruptores de Seguridad",
+      "description": "Relés de seguridad e interruptores de parada de emergencia para seguridad industrial"
     },
     "intrinsically-safe-equipment": {
-      "title": "Equipos Intrínsecamente Seguros"
+      "title": "Equipo Intrínsecamente Seguro",
+      "description": "Equipo a prueba de explosiones e intrínsecamente seguro para áreas peligrosas"
     },
     "centrifugal-pumps": {
-      "title": "Bombas Centrifugas"
+      "title": "Bombas Centrifugas",
+      "description": "Bombas centrífugas de alta eficiencia para transferencia de fluidos"
     },
     "diaphragm-pumps": {
-      "title": "Bombas de Diafragma"
+      "title": "Bombas de Diafragma",
+      "description": "Bombas de diafragma de desplazamiento positivo para aplicaciones químicas"
     },
     "gear-pumps": {
-      "title": "Bombas de Engranajes"
+      "title": "Bombas de Engranajes",
+      "description": "Bombas de engranajes de precisión para fluidos viscosos"
     },
     "pump-parts-spares": {
-      "title": "Piezas de Bombas y Repuestos"
+      "title": "Piezas y Repuestos para Bombas",
+      "description": "Piezas de repuesto y componentes para bombas industriales"
     },
     "hand-tools": {
-      "title": "Herramientas de Mano"
+      "title": "Herramientas Manuales",
+      "description": "Herramientas manuales profesionales para mantenimiento y montaje industrial"
     },
     "power-tools": {
-      "title": "Herramientas Eléctricas"
+      "title": "Herramientas Eléctricas",
+      "description": "Herramientas eléctricas industriales para aplicaciones de servicio pesado"
     },
     "cutting-tools": {
-      "title": "Herramientas de Corte"
+      "title": "Herramientas de Corte",
+      "description": "Herramientas y equipos de corte de precisión para el trabajo del metal"
     },
     "lifting-equipment": {
-      "title": "Equipo de Elevación"
+      "title": "Equipo de Elevación",
+      "description": "Polipastos, grúas y equipos de elevación para la manipulación de materiales"
+    },
+    "bldc-cooler-exhaust-motor": {
+      "title": "Motor BLDC para Enfriador y Escape",
+      "description": "Motores BLDC de bajo consumo para enfriadores y ventiladores de escape"
+    },
+    "bldc-ceiling-fan": {
+      "title": "Ventilador de Techo BLDC",
+      "description": "Ventiladores de techo BLDC ultraeficientes con control remoto"
+    },
+    "bldc-submersible-surface-pump": {
+      "title": "Bomba Sumergible y de Superficie BLDC",
+      "description": "Bombas BLDC de alta eficiencia para aplicaciones de agua"
+    },
+    "bldc-table-fan-wall-fan-motor": {
+      "title": "Motor BLDC para Ventilador de Mesa y Pared",
+      "description": "Motores BLDC compactos para ventiladores de mesa y pared"
+    },
+    "sensors-transducers": {
+      "title": "Sensores y Transductores",
+      "description": "Sensores industriales para medición y control"
+    },
+    "transmitters-flow-meters": {
+      "title": "Transmisores y Medidores de Flujo",
+      "description": "Transmisores de proceso y equipos de conversión de señal"
+    },
+    "switches-indicators": {
+      "title": "Interruptores e Indicadores",
+      "description": "Interruptores industriales y equipos de control"
+    },
+    "valves-actuators": {
+      "title": "Válvulas y Actuadores",
+      "description": "Válvulas industriales y sistemas de control de flujo"
     },
     "safety-equipment": {
       "title": "Equipo de Seguridad",
@@ -464,22 +516,28 @@
       }
     },
     "bldc-cooler-exhaust-motor": {
-      "title": "Motores BLDC para Enfriadores y Extractores"
+      "title": "Motor BLDC para Enfriador y Escape",
+      "description": "Motores BLDC de bajo consumo para enfriadores y ventiladores de escape"
     },
     "bldc-ceiling-fan": {
-      "title": "Ventiladores de Techo BLDC"
+      "title": "Ventilador de Techo BLDC",
+      "description": "Ventiladores de techo BLDC ultraeficientes con control remoto"
     },
     "bldc-submersible-surface-pump": {
-      "title": "Bombas Sumergibles y de Superficie BLDC"
+      "title": "Bomba Sumergible y de Superficie BLDC",
+      "description": "Bombas BLDC de alta eficiencia para aplicaciones de agua"
     },
     "bldc-table-fan-wall-fan-motor": {
-      "title": "Motores BLDC para Ventiladores de Mesa y de Pared"
+      "title": "Motor BLDC para Ventilador de Mesa y Pared",
+      "description": "Motores BLDC compactos para ventiladores de mesa y pared"
     },
     "solar-inverters": {
-      "title": "Inversores Solares"
+      "title": "Inversores Solares",
+      "description": "Inversores solares de alta eficiencia para aplicaciones residenciales y comerciales"
     },
     "plcs": {
-      "title": "PLCs (Controladores Lógicos Programables)"
+      "title": "PLCs (Controladores Lógicos Programables)",
+      "description": "Controladores Lógicos Programables para automatización industrial"
     },
     "scada": {
       "title": "Sistemas SCADA",
@@ -1288,14 +1346,13 @@
     "3m": "3M, MSA"
   },
   "items": {
-    "instrumentation-components": "Componentes de Instrumentación",
-    "electrical-components": "Componentes Eléctricos",
-    "measurement-instruments": "Instrumentos de Medición",
+    "instrumentation-accessories": "Componentes de Instrumentación",
+    "electrical-accessories": "Componentes Eléctricos",
     "solar-products": "Productos Solares",
     "automation-control-systems": "Sistemas de Automatización y Control",
     "safety-protective-devices": "Dispositivos de Seguridad y Protección",
     "mechanical-pumps-spares": "Bombas Mecánicas y Repuestos",
-    "industrial-tools-tackles": "Herramientas y Equipos Industriales",
+    "industrial-measuring-tools": "Herramientas Industriales y de Medición",
     "bldc": "Productos BLDC"
   },
   "tags": {
@@ -2166,9 +2223,9 @@
     "range": "Rango",
     "frequency": "Frecuencia",
     "conductivityRange": "Rango de Conductividad",
-    "poles": "Poles", 
+    "poles": "Poles",
     "ratedVoltage": "Rated Voltage",
-    "ratedCurrent": "Rated Current", 
+    "ratedCurrent": "Rated Current",
     "residualCurrent": "Residual Current",
     "rcType": "RC Type",
     "breakingCapacity": "Breaking Capacity",

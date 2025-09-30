@@ -17,7 +17,8 @@
         "pressure-transmitters": "أجهزة إرسال الضغط",
         "temperature-sensors": "مستشعرات درجة الحرارة",
         "flow-meters": "عدادات التدفق",
-        "level-indicators": "مؤشرات المستوى"
+        "level-indicators": "مؤشرات المستوى",
+        "analyzers" : "أجهزة التحليل"
       }
     },
     "electrical-components": {
@@ -382,38 +383,89 @@
       "title": "بطاريات الطاقة الشمسية وتخزين الطاقة",
       "description": "أنظمة تخزين البطاريات لتطبيقات الطاقة الشمسية"
     },
+    "solar-inverters": {
+      "title": "محولات الطاقة الشمسية",
+      "description": "محولات طاقة شمسية عالية الكفاءة للتطبيقات السكنية والتجارية"
+    },
+    "plcs": {
+      "title": "وحدات التحكم المنطقية القابلة للبرمجة (PLCs)",
+      "description": "وحدات تحكم منطقية قابلة للبرمجة للأتمتة الصناعية"
+    },
     "surge-protectors": {
-      "title": "واقيات زيادة التيار"
+      "title": "واقيات زيادة التيار",
+      "description": "أجهزة الحماية من زيادة التيار الكهربائي لسلامة المعدات"
     },
     "safety-relays-switches": {
-      "title": "مرحلات ومفاتيح السلامة"
+      "title": "مرحلات ومفاتيح السلامة",
+      "description": "مرحلات السلامة ومفاتيح التوقف في حالات الطوارئ للسلامة الصناعية"
     },
     "intrinsically-safe-equipment": {
-      "title": "معدات آمنة جوهريًا"
+      "title": "معدات آمنة جوهريًا",
+      "description": "معدات مقاومة للانفجار وآمنة جوهريًا للمناطق الخطرة"
     },
     "centrifugal-pumps": {
-      "title": "مضخات طرد مركزي"
+      "title": "مضخات طرد مركزي",
+      "description": "مضخات طرد مركزي عالية الكفاءة لنقل السوائل"
     },
     "diaphragm-pumps": {
-      "title": "مضخات الحجاب الحاجز"
+      "title": "مضخات الحجاب الحاجز",
+      "description": "مضخات الحجاب الحاجز ذات الإزاحة الإيجابية للتطبيقات الكيميائية"
     },
     "gear-pumps": {
-      "title": "مضخات التروس"
+      "title": "مضخات التروس",
+      "description": "مضخات تروس دقيقة للسوائل اللزجة"
     },
     "pump-parts-spares": {
-      "title": "قطع غيار المضخات"
+      "title": "قطع غيار المضخات",
+      "description": "قطع غيار ومكونات بديلة للمضخات الصناعية"
     },
     "hand-tools": {
-      "title": "أدوات يدوية"
+      "title": "أدوات يدوية",
+      "description": "أدوات يدوية احترافية للصيانة والتجميع الصناعي"
     },
     "power-tools": {
-      "title": "أدوات كهربائية"
+      "title": "أدوات كهربائية",
+      "description": "أدوات كهربائية صناعية للتطبيقات الشاقة"
     },
     "cutting-tools": {
-      "title": "أدوات القطع"
+      "title": "أدوات القطع",
+      "description": "أدوات ومعدات قطع دقيقة لتشغيل المعادن"
     },
     "lifting-equipment": {
-      "title": "معدات الرفع"
+      "title": "معدات الرفع",
+      "description": "رافعات وأوناش ومعدات رفع لمناولة المواد"
+    },
+    "bldc-cooler-exhaust-motor": {
+      "title": "محرك مبرد وعادم BLDC",
+      "description": "محركات BLDC موفرة للطاقة للمبردات ومراوح العادم"
+    },
+    "bldc-ceiling-fan": {
+      "title": "مروحة سقف BLDC",
+      "description": "مراوح سقف BLDC فائقة الكفاءة مع جهاز تحكم عن بعد"
+    },
+    "bldc-submersible-surface-pump": {
+      "title": "مضخة غاطسة وسطحية BLDC",
+      "description": "مضخات BLDC عالية الكفاءة لتطبيقات المياه"
+    },
+    "bldc-table-fan-wall-fan-motor": {
+      "title": "محرك مروحة طاولة وحائط BLDC",
+      "description": "محركات BLDC مدمجة لمراوح الطاولة والحائط"
+    },
+    "sensors-transducers": {
+      "title": "المجسات والمحولات",
+      "description": "مجسات صناعية للقياس والتحكم"
+    },
+    "transmitters-flow-meters": {
+      "title": "أجهزة الإرسال وعدادات التدفق",
+      "description": "أجهزة إرسال العمليات ومعدات تحويل الإشارة"
+    },
+    "switches-indicators": {
+      "title": "المفاتيح والمؤشرات",
+      "description": "المفاتيح الصناعية ومعدات التحكم"
+    },
+    "valves-actuators": {
+      "title": "الصمامات والمشغلات",
+      "description": "الصمامات الصناعية وأنظمة التحكم في التدفق"
     },
     "safety-equipment": {
       "title": "معدات السلامة",
@@ -459,22 +511,28 @@
       }
     },
     "bldc-cooler-exhaust-motor": {
-      "title": "محركات تبريد وعادم BLDC"
+      "title": "محركات مبرد وعادم BLDC",
+      "description": "محركات BLDC موفرة للطاقة للمبردات ومراوح العادم"
     },
     "bldc-ceiling-fan": {
-      "title": "مراوح السقف BLDC"
+      "title": "مراوح السقف BLDC",
+      "description": "مراوح سقف BLDC فائقة الكفاءة مع جهاز تحكم عن بعد"
     },
     "bldc-submersible-surface-pump": {
-      "title": "مضخات غاطسة وسطحية BLDC"
+      "title": "مضخات غاطسة وسطحية BLDC",
+      "description": "مضخات BLDC عالية الكفاءة لتطبيقات المياه"
     },
     "bldc-table-fan-wall-fan-motor": {
-      "title": "محركات مروحة طاولة وحائط BLDC"
+      "title": "محركات مروحة طاولة وحائط BLDC",
+      "description": "محركات BLDC مدمجة لمراوح الطاولة والحائط"
     },
     "solar-inverters": {
-      "title": "محولات الطاقة الشمسية"
+      "title": "محولات الطاقة الشمسية",
+      "description": "محولات طاقة شمسية عالية الكفاءة للتطبيقات السكنية والتجارية"
     },
     "plcs": {
-      "title": "وحدات التحكم المنطقية القابلة للبرمجة (PLCs)"
+      "title": "وحدات التحكم المنطقية القابلة للبرمجة (PLCs)",
+      "description": "وحدات تحكم منطقية قابلة للبرمجة للأتمتة الصناعية"
     },
     "scada": {
       "title": "أنظمة SCADA",
@@ -1283,14 +1341,13 @@
     "3m": "3M، MSA"
   },
   "items": {
-    "instrumentation-components": "مكونات الأجهزة",
-    "electrical-components": "مكونات كهربائية",
-    "measurement-instruments": "أدوات القياس",
+    "instrumentation-accessories": "مكونات الأجهزة",
+    "electrical-accessories": "مكونات كهربائية",
     "solar-products": "منتجات الطاقة الشمسية",
     "automation-control-systems": "أنظمة التحكم والتشغيل الآلي",
     "safety-protective-devices": "أجهزة السلامة والحماية",
     "mechanical-pumps-spares": "المضخات الميكانيكية وقطع الغيار",
-    "industrial-tools-tackles": "الأدوات والمعدات الصناعية",
+    "industrial-measuring-tools": "الأدوات الصناعية وأدوات القياس",
     "bldc": "منتجات BLDC"
   },
   "tags": {

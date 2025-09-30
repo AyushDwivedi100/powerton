@@ -17,7 +17,8 @@
         "pressure-transmitters": "Transmetteurs de pression",
         "temperature-sensors": "Capteurs de température",
         "flow-meters": "Débitmètres",
-        "level-indicators": "Indicateurs de niveau"
+        "level-indicators": "Indicateurs de niveau",
+        "analyzers": "Analyseurs"
       }
     },
     "electrical-components": {
@@ -387,38 +388,89 @@
       "title": "Batteries solaires et stockage d'énergie",
       "description": "Systèmes de stockage de batteries pour les applications d'énergie solaire"
     },
+    "solar-inverters": {
+      "title": "Onduleurs solaires",
+      "description": "Onduleurs solaires à haut rendement pour les applications résidentielles et commerciales"
+    },
+    "plcs": {
+      "title": "PLC",
+      "description": "Automates programmables industriels pour l'automatisation industrielle"
+    },
     "surge-protectors": {
-      "title": "Parafoudres"
+      "title": "Parafoudres",
+      "description": "Dispositifs de protection contre les surtensions électriques pour la sécurité des équipements"
     },
     "safety-relays-switches": {
-      "title": "Relais et interrupteurs de sécurité"
+      "title": "Relais et interrupteurs de sécurité",
+      "description": "Relais de sécurité et interrupteurs d'arrêt d'urgence pour la sécurité industrielle"
     },
     "intrinsically-safe-equipment": {
-      "title": "Équipement de sécurité intrinsèque"
+      "title": "Équipement de sécurité intrinsèque",
+      "description": "Équipement antidéflagrant et de sécurité intrinsèque pour les zones dangereuses"
     },
     "centrifugal-pumps": {
-      "title": "Pompes centrifuges"
+      "title": "Pompes centrifuges",
+      "description": "Pompes centrifuges à haut rendement pour le transfert de fluides"
     },
     "diaphragm-pumps": {
-      "title": "Pompes à diaphragme"
+      "title": "Pompes à diaphragme",
+      "description": "Pompes à membrane volumétriques pour les applications chimiques"
     },
     "gear-pumps": {
-      "title": "Pompes à engrenages"
+      "title": "Pompes à engrenages",
+      "description": "Pompes à engrenages de précision pour les fluides visqueux"
     },
     "pump-parts-spares": {
-      "title": "Pièces et rechanges de pompes"
+      "title": "Pièces et rechanges de pompes",
+      "description": "Pièces de rechange et composants de rechange pour les pompes industrielles"
     },
     "hand-tools": {
-      "title": "Outils manuels"
+      "title": "Outils manuels",
+      "description": "Outils manuels professionnels pour la maintenance et l'assemblage industriels"
     },
     "power-tools": {
-      "title": "Outils électriques"
+      "title": "Outils électriques",
+      "description": "Outils électriques industriels pour les applications intensives"
     },
     "cutting-tools": {
-      "title": "Outils de coupe"
+      "title": "Outils de coupe",
+      "description": "Outils et équipements de coupe de précision pour le travail des métaux"
     },
     "lifting-equipment": {
-      "title": "Équipement de levage"
+      "title": "Équipement de levage",
+      "description": "Palans, grues et équipements de levage pour la manutention"
+    },
+    "bldc-cooler-exhaust-motor": {
+      "title": "Moteur BLDC pour refroidisseur et échappement",
+      "description": "Moteurs BLDC éconénergétiques pour les refroidisseurs et les ventilateurs d'extraction"
+    },
+    "bldc-ceiling-fan": {
+      "title": "Ventilateur de plafond BLDC",
+      "description": "Ventilateurs de plafond BLDC ultra-efficaces avec télécommande"
+    },
+    "bldc-submersible-surface-pump": {
+      "title": "Pompe submersible et de surface BLDC",
+      "description": "Pompes BLDC à haut rendement pour les applications hydrauliques"
+    },
+    "bldc-table-fan-wall-fan-motor": {
+      "title": "Moteur BLDC pour ventilateur de table et ventilateur mural",
+      "description": "Moteurs BLDC compacts pour ventilateurs de table et ventilateurs muraux"
+    },
+    "sensors-transducers": {
+      "title": "Capteurs et transducteurs",
+      "description": "Capteurs industriels pour la mesure et le contrôle"
+    },
+    "transmitters-flow-meters": {
+      "title": "Transmetteurs et débitmètres",
+      "description": "Transmetteurs de processus et équipement de conversion de signaux"
+    },
+    "switches-indicators": {
+      "title": "Interrupteurs et indicateurs",
+      "description": "Interrupteurs industriels et équipements de contrôle"
+    },
+    "valves-actuators": {
+      "title": "Vannes et actionneurs",
+      "description": "Vannes industrielles et systèmes de contrôle de débit"
     },
     "safety-equipment": {
       "title": "Équipement de sécurité",
@@ -464,22 +516,28 @@
       }
     },
     "bldc-cooler-exhaust-motor": {
-      "title": "Moteurs BLDC pour refroidisseur et échappement"
+      "title": "Moteurs BLDC pour refroidisseur et échappement",
+      "description": "Moteurs BLDC éconénergétiques pour les refroidisseurs et les ventilateurs d'extraction"
     },
     "bldc-ceiling-fan": {
-      "title": "Ventilateurs de plafond BLDC"
+      "title": "Ventilateurs de plafond BLDC",
+      "description": "Ventilateurs de plafond BLDC ultra-efficaces avec télécommande"
     },
     "bldc-submersible-surface-pump": {
-      "title": "Pompes submersibles et de surface BLDC"
+      "title": "Pompes submersibles et de surface BLDC",
+      "description": "Pompes BLDC à haut rendement pour les applications hydrauliques"
     },
     "bldc-table-fan-wall-fan-motor": {
-      "title": "Moteurs BLDC pour ventilateurs de table et muraux"
+      "title": "Moteur BLDC pour ventilateur de table et ventilateur mural",
+      "description": "Moteurs BLDC compacts pour ventilateurs de table et ventilateurs muraux"
     },
     "solar-inverters": {
-      "title": "Onduleurs solaires"
+      "title": "Onduleurs solaires",
+      "description": "Onduleurs solaires à haut rendement pour les applications résidentielles et commerciales"
     },
     "plcs": {
-      "title": "PLC (Automates Programmables Industriels)"
+      "title": "PLC (Automates Programmables Industriels)",
+      "description": "Automates programmables industriels pour l'automatisation industrielle"
     },
     "scada": {
       "title": "Systèmes SCADA",
@@ -1288,14 +1346,13 @@
     "3m": "3M, MSA"
   },
   "items": {
-    "instrumentation-components": "Composants d'instrumentation",
-    "electrical-components": "Composants électriques",
-    "measurement-instruments": "Instruments de mesure",
+    "instrumentation-accessories": "Composants d'instrumentation",
+    "electrical-accessories": "Composants électriques",
     "solar-products": "Produits solaires",
     "automation-control-systems": "Systèmes d'automatisation et de contrôle",
     "safety-protective-devices": "Dispositifs de sécurité et de protection",
     "mechanical-pumps-spares": "Pompes mécaniques et pièces de rechange",
-    "industrial-tools-tackles": "Outils et équipements industriels",
+    "industrial-measuring-tools": "Outils industriels et de mesure",
     "bldc": "Produits BLDC"
   },
   "tags": {

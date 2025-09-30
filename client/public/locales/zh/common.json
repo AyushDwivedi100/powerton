@@ -311,7 +311,7 @@
     "emergencySupport": "仅紧急支持",
     "availability": "可用性",
     "coverage": "覆盖范围",
-    "free" : "免费"
+    "free": "免费"
   },
   "placeholders": {
     "selectProjectType": "选择项目类型",
@@ -703,7 +703,8 @@
       "closeMobileMenu": "关闭移动菜单",
       "openMobileMenu": "打开移动菜单",
       "emailUs": "发送电子邮件至 {{email}}",
-      "openLocation" : "在 Google 地图中打开我们的办公地点"
+      "openLocation": "在 Google 地图中打开我们的办公地点",
+      "mainNavigation": "主导航"
     },
     "altTexts": {
       "companyLogo": "Powerton Engineering 公司标志",

@@ -133,7 +133,7 @@
     "catalogComingSoon": "سيكون تنزيل كتالوج المنتج متاحًا قريبًا!",
     "readyToStart": "هل أنت على استعداد لبدء مشروعك؟",
     "requestConsultation": "اطلب استشارة هندسية مجانية",
-    "availability" : "توافر على مدار الساعة طوال أيام الأسبوع للدعم السريع",
+    "availability": "توافر على مدار الساعة طوال أيام الأسبوع للدعم السريع",
     "responseTime": "خلال يومين للاستشارة الأولية"
   },
   "aria": {
@@ -703,7 +703,8 @@
       "closeMobileMenu": "إغلاق قائمة الجوال",
       "openMobileMenu": "فتح قائمة الجوال",
       "emailUs": "أرسل لنا بريدًا إلكترونيًا على {{email}}",
-      "openLocation": "فتح موقع المكتب في خرائط جوجل"
+      "openLocation": "فتح موقع المكتب في خرائط جوجل",
+      "mainNavigation": "التنقل الرئيسي"
     },
     "altTexts": {
       "companyLogo": "شعار شركة Powerton Engineering",

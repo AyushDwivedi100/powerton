@@ -17,7 +17,8 @@
         "pressure-transmitters": "压力变送器",
         "temperature-sensors": "温度传感器",
         "flow-meters": "流量计",
-        "level-indicators": "液位指示器"
+        "level-indicators": "液位指示器",
+        "analyzers": "分析仪"
       }
     },
     "electrical-components": {
@@ -292,38 +293,89 @@
       "title": "太阳能电池和储能",
       "description": "用于太阳能应用的电池存储系统"
     },
+    "solar-inverters": {
+      "title": "太阳能逆变器",
+      "description": "用于住宅和商业应用的高效太阳能逆变器"
+    },
+    "plcs": {
+      "title": "PLC",
+      "description": "用于工业自动化的可编程逻辑控制器"
+    },
     "surge-protectors": {
-      "title": "浪涌保护器"
+      "title": "浪涌保护器",
+      "description": "用于设备安全的电气浪涌保护装置"
     },
     "safety-relays-switches": {
-      "title": "安全继电器和开关"
+      "title": "安全继电器和开关",
+      "description": "用于工业安全的安全继电器和紧急停止开关"
     },
     "intrinsically-safe-equipment": {
-      "title": "本质安全设备"
+      "title": "本质安全设备",
+      "description": "用于危险区域的防爆和本质安全设备"
     },
     "centrifugal-pumps": {
-      "title": "离心泵"
+      "title": "离心泵",
+      "description": "用于流体传输的高效离心泵"
     },
     "diaphragm-pumps": {
-      "title": "隔膜泵"
+      "title": "隔膜泵",
+      "description": "用于化学应用的容积式隔膜泵"
     },
     "gear-pumps": {
-      "title": "齿轮泵"
+      "title": "齿轮泵",
+      "description": "用于粘性流体的精密齿轮泵"
     },
     "pump-parts-spares": {
-      "title": "泵零件和备件"
+      "title": "泵零件及备件",
+      "description": "工业泵的更换零件和备用组件"
     },
     "hand-tools": {
-      "title": "手动工具"
+      "title": "手动工具",
+      "description": "用于工业维护和组装的专业手动工具"
     },
     "power-tools": {
-      "title": "电动工具"
+      "title": "电动工具",
+      "description": "用于重型应用的工业电动工具"
     },
     "cutting-tools": {
-      "title": "切割工具"
+      "title": "切割工具",
+      "description": "用于金属加工的精密切割工具和设备"
     },
     "lifting-equipment": {
-      "title": "起重设备"
+      "title": "起重设备",
+      "description": "用于物料搬运的葫芦、起重机和起重设备"
+    },
+    "bldc-cooler-exhaust-motor": {
+      "title": "BLDC冷风机和排风电机",
+      "description": "用于冷却器和排风机的节能BLDC电机"
+    },
+    "bldc-ceiling-fan": {
+      "title": "BLDC吊扇",
+      "description": "带遥控器的超高效BLDC吊扇"
+    },
+    "bldc-submersible-surface-pump": {
+      "title": "BLDC潜水泵和地面泵",
+      "description": "用于水应用的高效BLDC泵"
+    },
+    "bldc-table-fan-wall-fan-motor": {
+      "title": "BLDC台扇和壁扇电机",
+      "description": "用于台扇和壁扇的紧凑型BLDC电机"
+    },
+    "sensors-transducers": {
+      "title": "传感器和变送器",
+      "description": "用于测量和控制的工业传感器"
+    },
+    "transmitters-flow-meters": {
+      "title": "变送器和流量计",
+      "description": "过程变送器和信号转换设备"
+    },
+    "switches-indicators": {
+      "title": "开关和指示器",
+      "description": "工业开关和控制设备"
+    },
+    "valves-actuators": {
+      "title": "阀门和执行器",
+      "description": "工业阀门和流量控制系统"
     },
     "safety-equipment": {
       "title": "安全设备",
@@ -369,22 +421,28 @@
       }
     },
     "bldc-cooler-exhaust-motor": {
-      "title": "BLDC 冷风机和排气扇电机"
+      "title": "BLDC冷风机和排风电机",
+      "description": "用于冷却器和排风机的节能BLDC电机"
     },
     "bldc-ceiling-fan": {
-      "title": "BLDC 吊扇"
+      "title": "BLDC吊扇",
+      "description": "带遥控器的超高效BLDC吊扇"
     },
     "bldc-submersible-surface-pump": {
-      "title": "BLDC 潜水泵和地面泵"
+      "title": "BLDC潜水泵和地面泵",
+      "description": "用于水应用的高效BLDC泵"
     },
     "bldc-table-fan-wall-fan-motor": {
-      "title": "BLDC 台扇和壁扇电机"
+      "title": "BLDC台扇和壁扇电机",
+      "description": "用于台扇和壁扇的紧凑型BLDC电机"
     },
     "solar-inverters": {
-      "title": "太阳能逆变器"
+      "title": "太阳能逆变器",
+      "description": "用于住宅和商业应用的高效太阳能逆变器"
     },
     "plcs": {
-      "title": "PLC（可编程逻辑控制器）"
+      "title": "PLC（可编程逻辑控制器）",
+      "description": "用于工业自动化的可编程逻辑控制器"
     },
     "scada": {
       "title": "SCADA 系统",
@@ -632,7 +690,7 @@
         },
         "specifications": {
           "title": "技术规格",
-          "description": "用于可靠过程监测的精密规格"
+          "description": "用収可靠过程监测的精密规格"
         }
       },
       "buttons": {
@@ -869,7 +927,7 @@
       "subtitle": "太阳能充电控制器和电源管理"
     },
     "solarInverters": {
-      "title": "太阳能逆变器",
+      "title": "太阳能逆  �器",
       "subtitle": "太阳能逆变器和并网系统"
     },
     "solarPanels": {
@@ -1178,14 +1236,13 @@
     "3m": "3M, MSA"
   },
   "items": {
-    "instrumentation-components": "仪器仪表组件",
-    "electrical-components": "电气元件",
-    "measurement-instruments": "测量仪器",
+    "instrumentation-accessories": "仪器仪表组件",
+    "electrical-accessories": "电气元件",
     "solar-products": "太阳能产品",
     "automation-control-systems": "自动化与控制系统",
     "safety-protective-devices": "安全与防护设备",
     "mechanical-pumps-spares": "机械泵及备件",
-    "industrial-tools-tackles": "工业工具及设备",
+    "industrial-measuring-tools": "工业与测量工具",
     "bldc": "BLDC 产品"
   },
   "tags": {
@@ -1578,7 +1635,7 @@
         "数字sc技术",
         "预测性诊断",
         "自动校准",
-        "过程连接器",
+        "过娋连接器",
         "pH 范围：0-14"
       ]
     },
@@ -1651,13 +1708,7 @@
     "yokogawaPh": {
       "title": "Yokogawa PH450G pH传感器",
       "description": "带玻璃电极技术的工业pH传感器",
-      "features": [
-        "玻璃电极",
-        "双液接界",
-        "宽pH范围",
-        "高精度",
-        "耐压"
-      ]
+      "features": ["玻璃电极", "双液接界", "宽pH范围", "高精度", "耐压"]
     }
   },
   "transmitters": {

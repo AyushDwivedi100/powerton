@@ -17,7 +17,8 @@
         "pressure-transmitters": "Masu Watsa Matsi",
         "temperature-sensors": "Na'urorin Haske na Zafin Jiki",
         "flow-meters": "Mitar Gudun Ruwa",
-        "level-indicators": "Masu Nuna Mataki"
+        "level-indicators": "Masu Nuna Mataki",
+        "analyzers": "Masu Nazarin Tsari"
       }
     },
     "electrical-components": {
@@ -387,38 +388,89 @@
       "title": "Batirin Rana & Adana Makamashi",
       "description": "Tsarin ajiyar baturi don aikace-aikacen makamashin hasken rana"
     },
+    "solar-inverters": {
+      "title": "Inverters na Rana",
+      "description": "Inverters na hasken rana masu inganci don aikace-aikacen zama da kasuwanci"
+    },
+    "plcs": {
+      "title": "PLCs",
+      "description": "Masu Kula da Ma'ana Mai Shirye-shirye don sarrafa masana'antu"
+    },
     "surge-protectors": {
-      "title": "Masu Kariyar Guguwa"
+      "title": "Masu Kariyar Guguwa",
+      "description": "Na'urorin kariya na lantarki don amincin kayan aiki"
     },
     "safety-relays-switches": {
-      "title": "Relayen Tsaro & Sauyawa"
+      "title": "Relayen Tsaro & Sauyawa",
+      "description": "Relayen tsaro da sauya tsayar da gaggawa don amincin masana'antu"
     },
     "intrinsically-safe-equipment": {
-      "title": "Kayan Aiki Mai Tsaro Na Asali"
+      "title": "Kayan Aiki Mai Tsaro Na Asali",
+      "description": "Kayan aiki mai hana fashewa da aminci na asali don wurare masu haɗari"
     },
     "centrifugal-pumps": {
-      "title": "Famfunan Centrifugal"
+      "title": "Famfunan Centrifugal",
+      "description": "Famfunan centrifugal masu inganci don canja wurin ruwa"
     },
     "diaphragm-pumps": {
-      "title": "Famfunan Diaphragm"
+      "title": "Famfunan Diaphragm",
+      "description": "Tabbatattun famfunan diaphragm don aikace-aikacen kemikal"
     },
     "gear-pumps": {
-      "title": "Famfunan Gear"
+      "title": "Famfunan Gear",
+      "description": "Madaidaicin famfunan gear don ruwa mai ɗaci"
     },
     "pump-parts-spares": {
-      "title": "Sassan Famfo & Kayan Gyara"
+      "title": "Sassan Famfo & Kayayyakin Gyara",
+      "description": "Sassan maye gurbin da abubuwan haɗin gwiwa don famfunan masana'antu"
     },
     "hand-tools": {
-      "title": "Kayan Aikin Hannu"
+      "title": "Kayan Aikin Hannu",
+      "description": "Kayan aikin hannu na ƙwararru don gyaran masana'antu da haɗuwa"
     },
     "power-tools": {
-      "title": "Kayan Aikin Wuta"
+      "title": "Kayan Aikin Wuta",
+      "description": "Kayan aikin wutar lantarki na masana'antu don aikace-aikace masu nauyi"
     },
     "cutting-tools": {
-      "title": "Kayan Aikin Yankan"
+      "title": "Kayan Aikin Yankan",
+      "description": "Kayan aikin yankan da kayan aiki masu daidaito don aikin ƙarfe"
     },
     "lifting-equipment": {
-      "title": "Kayan Ɗagawa"
+      "title": "Kayan Ɗagawa",
+      "description": "Hoists, cranes, da kayan ɗagawa don sarrafa kayan aiki"
+    },
+    "bldc-cooler-exhaust-motor": {
+      "title": "BLDC Mai sanyaya & Mota Mai Shaye Shaye",
+      "description": "Motocin BLDC masu amfani da kuzari don sanyaya da fankan shaye shaye"
+    },
+    "bldc-ceiling-fan": {
+      "title": "Fankar Rufi na BLDC",
+      "description": "Fanka-fankan rufi na BLDC masu matuƙar inganci tare da na'urar sarrafa nesa"
+    },
+    "bldc-submersible-surface-pump": {
+      "title": "BLDC Famfon da ke Ciki & na Sama",
+      "description": "Famfunan BLDC masu inganci don aikace-aikacen ruwa"
+    },
+    "bldc-table-fan-wall-fan-motor": {
+      "title": "BLDC Tebur Fan & Motar Fan na Bango",
+      "description": "Motocin BLDC masu ɗaukar nauyi don tebur da fankan bango"
+    },
+    "sensors-transducers": {
+      "title": "Masu Gane Karfin Lantarki & Masu Canzawa",
+      "description": "Masu auna firikwensin masana'antu don aunawa da sarrafawa"
+    },
+    "transmitters-flow-meters": {
+      "title": "Masu Watsawa & Mitar Gudun Ruwa",
+      "description": "Masu watsa tsari da kayan aikin canza sigina"
+    },
+    "switches-indicators": {
+      "title": "Sauyawa & Alamomi",
+      "description": "Sauyawa na masana'antu da kayan aikin sarrafawa"
+    },
+    "valves-actuators": {
+      "title": "Valves & Actuators",
+      "description": "Valves na masana'antu da tsarin sarrafa kwarara"
     },
     "safety-equipment": {
       "title": "Kayan Tsaro",
@@ -464,22 +516,28 @@
       }
     },
     "bldc-cooler-exhaust-motor": {
-      "title": "BLDC Mai sanyaya & Motocin Shaye Shaye"
+      "title": "BLDC Mai sanyaya & Motocin Shaye Shaye",
+      "description": "Motocin BLDC masu amfani da kuzari don sanyaya da fankan shaye shaye"
     },
     "bldc-ceiling-fan": {
-      "title": "Fanka-fankan Rufi na BLDC"
+      "title": "Fanka-fankan Rufi na BLDC",
+      "description": "Fanka-fankan rufi na BLDC masu matuƙar inganci tare da na'urar sarrafa nesa"
     },
     "bldc-submersible-surface-pump": {
-      "title": "BLDC Famfunan da ke Ciki da na Sama"
+      "title": "BLDC Famfon da ke Ciki & na Sama",
+      "description": "Famfunan BLDC masu inganci don aikace-aikacen ruwa"
     },
     "bldc-table-fan-wall-fan-motor": {
-      "title": "BLDC Tebur Fan & Motocin Fan na Bango"
+      "title": "BLDC Tebur Fan & Motar Fan na Bango",
+      "description": "Motocin BLDC masu ɗaukar nauyi don tebur da fankan bango"
     },
     "solar-inverters": {
-      "title": "Solar Inverters"
+      "title": "Inverters na Rana",
+      "description": "Inverters na hasken rana masu inganci don aikace-aikacen zama da kasuwanci"
     },
     "plcs": {
-      "title": "PLCs (Masu Kula da Ma'ana Mai Shirye-shirye)"
+      "title": "PLCs (Masu Kula da Ma'ana Mai Shirye-shirye)",
+      "description": "Masu Kula da Ma'ana Mai Shirye-shirye don sarrafa masana'antu"
     },
     "scada": {
       "title": "Tsarin SCADA",
@@ -1288,14 +1346,13 @@
     "3m": "3M, MSA"
   },
   "items": {
-    "instrumentation-components": "Kayan Aikin Kayan Aiki",
-    "electrical-components": "Kayan Aikin Lantarki",
-    "measurement-instruments": "Kayan Auna",
+    "instrumentation-accessories": "Kayan Aikin Kayan Aiki",
+    "electrical-accessories": "Kayan Aikin Lantarki",
     "solar-products": "Kayan Hasken Rana",
     "automation-control-systems": "Tsarin Sarrafa Kai",
     "safety-protective-devices": "Kayan Tsaro",
     "mechanical-pumps-spares": "Famfunan Injiniya",
-    "industrial-tools-tackles": "Kayan Aikin Masana'antu",
+    "industrial-measuring-tools": "Kayan Aikin Masana'antu",
     "bldc": "Kayan BLDC"
   },
   "tags": {
@@ -2178,6 +2235,6 @@
     "mountingType": "Nau'in Haɗawa",
     "interruptionTechnology": "Fasahar Katsewa",
     "electricalLife": "Rayuwar Lantarki",
-    "mechanicalLife": "Rayuwar Inji",
+    "mechanicalLife": "Rayuwar Inji"
   }
 }
