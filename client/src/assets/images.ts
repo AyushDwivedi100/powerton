@@ -804,6 +804,433 @@ export const PRODUCT_IMAGES = {
     alt: `${IMAGE_IDS.ELECTRICAL_COMPONENTS}: Electrical cabinet - Industrial electrical enclosure`,
     id: IMAGE_IDS.ELECTRICAL_COMPONENTS
   },
+  
+  // Tier 1: Generic category mappings for missing images
+  // Automation control systems
+  'plcs': {
+    src: automationControlSystemsImage,
+    alt: `${IMAGE_IDS.AUTOMATION_CONTROL_SYSTEMS}: PLCs - Programmable logic controllers for industrial automation`,
+    id: IMAGE_IDS.AUTOMATION_CONTROL_SYSTEMS
+  },
+  'hmi': {
+    src: automationControlSystemsImage,
+    alt: `${IMAGE_IDS.AUTOMATION_CONTROL_SYSTEMS}: HMI - Human machine interface panels`,
+    id: IMAGE_IDS.AUTOMATION_CONTROL_SYSTEMS
+  },
+  'scada': {
+    src: automationControlSystemsImage,
+    alt: `${IMAGE_IDS.AUTOMATION_CONTROL_SYSTEMS}: SCADA - Supervisory control and data acquisition systems`,
+    id: IMAGE_IDS.AUTOMATION_CONTROL_SYSTEMS
+  },
+  'dcs': {
+    src: automationControlSystemsImage,
+    alt: `${IMAGE_IDS.AUTOMATION_CONTROL_SYSTEMS}: DCS - Distributed control systems for process automation`,
+    id: IMAGE_IDS.AUTOMATION_CONTROL_SYSTEMS
+  },
+  
+  // Analyzers
+  'analyzers': {
+    src: processAnalyzersHero,
+    alt: `${IMAGE_IDS.HERO_ANALYZERS}: Analyzers - Industrial process analyzers`,
+    id: IMAGE_IDS.HERO_ANALYZERS
+  },
+  
+  // Solar products
+  'solar-panels': {
+    src: solarProductsImage,
+    alt: `${IMAGE_IDS.SOLAR_PRODUCTS}: Solar panels - Photovoltaic solar panel modules`,
+    id: IMAGE_IDS.SOLAR_PRODUCTS
+  },
+  'solar-inverters': {
+    src: solarProductsImage,
+    alt: `${IMAGE_IDS.SOLAR_PRODUCTS}: Solar inverters - Solar DC to AC power inverters`,
+    id: IMAGE_IDS.SOLAR_PRODUCTS
+  },
+  
+  // Surge protectors and grounding
+  'surge-protectors': {
+    src: safetyProtectiveDevicesImage,
+    alt: `${IMAGE_IDS.SAFETY_PROTECTIVE_DEVICES}: Surge protectors - Electrical surge protection devices`,
+    id: IMAGE_IDS.SAFETY_PROTECTIVE_DEVICES
+  },
+  'ac-surge-protector': {
+    src: safetyProtectiveDevicesImage,
+    alt: `${IMAGE_IDS.SAFETY_PROTECTIVE_DEVICES}: AC surge protector - Alternating current surge protection`,
+    id: IMAGE_IDS.SAFETY_PROTECTIVE_DEVICES
+  },
+  'dc-surge-protector': {
+    src: safetyProtectiveDevicesImage,
+    alt: `${IMAGE_IDS.SAFETY_PROTECTIVE_DEVICES}: DC surge protector - Direct current surge protection`,
+    id: IMAGE_IDS.SAFETY_PROTECTIVE_DEVICES
+  },
+  'signal-surge-protector': {
+    src: safetyProtectiveDevicesImage,
+    alt: `${IMAGE_IDS.SAFETY_PROTECTIVE_DEVICES}: Signal surge protector - Communication signal protection`,
+    id: IMAGE_IDS.SAFETY_PROTECTIVE_DEVICES
+  },
+  'grounding-systems': {
+    src: safetyProtectiveDevicesImage,
+    alt: `${IMAGE_IDS.SAFETY_PROTECTIVE_DEVICES}: Grounding systems - Electrical grounding and earthing systems`,
+    id: IMAGE_IDS.SAFETY_PROTECTIVE_DEVICES
+  },
+  'equipment-grounding': {
+    src: safetyProtectiveDevicesImage,
+    alt: `${IMAGE_IDS.SAFETY_PROTECTIVE_DEVICES}: Equipment grounding - Industrial equipment grounding solutions`,
+    id: IMAGE_IDS.SAFETY_PROTECTIVE_DEVICES
+  },
+  'system-grounding': {
+    src: safetyProtectiveDevicesImage,
+    alt: `${IMAGE_IDS.SAFETY_PROTECTIVE_DEVICES}: System grounding - Electrical system grounding`,
+    id: IMAGE_IDS.SAFETY_PROTECTIVE_DEVICES
+  },
+  'lightning-protection': {
+    src: safetyProtectiveDevicesImage,
+    alt: `${IMAGE_IDS.SAFETY_PROTECTIVE_DEVICES}: Lightning protection - Lightning arrester and protection systems`,
+    id: IMAGE_IDS.SAFETY_PROTECTIVE_DEVICES
+  },
+  
+  // Safety equipment
+  'safety-relays': {
+    src: safetyProtectiveDevicesImage,
+    alt: `${IMAGE_IDS.SAFETY_PROTECTIVE_DEVICES}: Safety relays - Industrial safety relay modules`,
+    id: IMAGE_IDS.SAFETY_PROTECTIVE_DEVICES
+  },
+  'safety-relay': {
+    src: safetyProtectiveDevicesImage,
+    alt: `${IMAGE_IDS.SAFETY_PROTECTIVE_DEVICES}: Safety relay - Safety control relay`,
+    id: IMAGE_IDS.SAFETY_PROTECTIVE_DEVICES
+  },
+  'safety-switch': {
+    src: safetyProtectiveDevicesImage,
+    alt: `${IMAGE_IDS.SAFETY_PROTECTIVE_DEVICES}: Safety switch - Industrial safety interlock switch`,
+    id: IMAGE_IDS.SAFETY_PROTECTIVE_DEVICES
+  },
+  'emergency-stop': {
+    src: safetyProtectiveDevicesImage,
+    alt: `${IMAGE_IDS.SAFETY_PROTECTIVE_DEVICES}: Emergency stop - E-stop button for emergency shutdown`,
+    id: IMAGE_IDS.SAFETY_PROTECTIVE_DEVICES
+  },
+  'intrinsically-safe-equipment': {
+    src: safetyProtectiveDevicesImage,
+    alt: `${IMAGE_IDS.SAFETY_PROTECTIVE_DEVICES}: Intrinsically safe equipment - IS/Ex rated hazardous area equipment`,
+    id: IMAGE_IDS.SAFETY_PROTECTIVE_DEVICES
+  },
+  'is-barrier': {
+    src: safetyProtectiveDevicesImage,
+    alt: `${IMAGE_IDS.SAFETY_PROTECTIVE_DEVICES}: IS barrier - Intrinsic safety barrier for hazardous areas`,
+    id: IMAGE_IDS.SAFETY_PROTECTIVE_DEVICES
+  },
+  'is-field-device': {
+    src: safetyProtectiveDevicesImage,
+    alt: `${IMAGE_IDS.SAFETY_PROTECTIVE_DEVICES}: IS field device - Intrinsically safe field instrumentation`,
+    id: IMAGE_IDS.SAFETY_PROTECTIVE_DEVICES
+  },
+  'explosion-proof': {
+    src: safetyProtectiveDevicesImage,
+    alt: `${IMAGE_IDS.SAFETY_PROTECTIVE_DEVICES}: Explosion proof - Explosion-proof electrical equipment`,
+    id: IMAGE_IDS.SAFETY_PROTECTIVE_DEVICES
+  },
+  
+  // Cables and connectors
+  'cables-wires': {
+    src: electricalComponentsImage,
+    alt: `${IMAGE_IDS.ELECTRICAL_COMPONENTS}: Cables and wires - Industrial electrical cables`,
+    id: IMAGE_IDS.ELECTRICAL_COMPONENTS
+  },
+  'connectors-terminals': {
+    src: electricalComponentsImage,
+    alt: `${IMAGE_IDS.ELECTRICAL_COMPONENTS}: Connectors and terminals - Electrical connectors and terminal blocks`,
+    id: IMAGE_IDS.ELECTRICAL_COMPONENTS
+  },
+  'circuit-breakers-fuses': {
+    src: electricalComponentsImage,
+    alt: `${IMAGE_IDS.ELECTRICAL_COMPONENTS}: Circuit breakers and fuses - Electrical protection devices`,
+    id: IMAGE_IDS.ELECTRICAL_COMPONENTS
+  },
+  'power-supplies': {
+    src: electricalComponentsImage,
+    alt: `${IMAGE_IDS.ELECTRICAL_COMPONENTS}: Power supplies - Industrial power supply units`,
+    id: IMAGE_IDS.ELECTRICAL_COMPONENTS
+  },
+  'enclosures-cabinets': {
+    src: electricalComponentsImage,
+    alt: `${IMAGE_IDS.ELECTRICAL_COMPONENTS}: Enclosures and cabinets - Electrical enclosures and control cabinets`,
+    id: IMAGE_IDS.ELECTRICAL_COMPONENTS
+  },
+  
+  // Measurement and calibration
+  'power-quality-analyzers': {
+    src: measurementInstrumentsImage,
+    alt: `${IMAGE_IDS.MEASUREMENT_INSTRUMENTS}: Power quality analyzers - Electrical power quality measurement`,
+    id: IMAGE_IDS.MEASUREMENT_INSTRUMENTS
+  },
+  'calibration-equipment': {
+    src: measurementInstrumentsImage,
+    alt: `${IMAGE_IDS.MEASUREMENT_INSTRUMENTS}: Calibration equipment - Instrument calibration tools`,
+    id: IMAGE_IDS.MEASUREMENT_INSTRUMENTS
+  },
+  'loop-calibrator': {
+    src: measurementInstrumentsImage,
+    alt: `${IMAGE_IDS.MEASUREMENT_INSTRUMENTS}: Loop calibrator - 4-20mA loop calibration device`,
+    id: IMAGE_IDS.MEASUREMENT_INSTRUMENTS
+  },
+  'process-calibrator': {
+    src: measurementInstrumentsImage,
+    alt: `${IMAGE_IDS.MEASUREMENT_INSTRUMENTS}: Process calibrator - Multi-function process calibrator`,
+    id: IMAGE_IDS.MEASUREMENT_INSTRUMENTS
+  },
+  
+  // Switches and valves
+  'switches': {
+    src: proximitySesorImage,
+    alt: `${IMAGE_IDS.SENSORS}: Switches - Industrial control switches`,
+    id: IMAGE_IDS.SENSORS
+  },
+  'valves': {
+    src: pumpsMotorsImage,
+    alt: `${IMAGE_IDS.PUMPS_MOTORS}: Valves - Industrial control valves`,
+    id: IMAGE_IDS.PUMPS_MOTORS
+  },
+  'on-off-valve': {
+    src: pumpsMotorsImage,
+    alt: `${IMAGE_IDS.PUMPS_MOTORS}: On-off valve - Two-position control valve`,
+    id: IMAGE_IDS.PUMPS_MOTORS
+  },
+  
+  // Pumps and components
+  'diaphragm-pumps': {
+    src: pumpsMotorsImage,
+    alt: `${IMAGE_IDS.PUMPS_MOTORS}: Diaphragm pumps - Industrial diaphragm pump systems`,
+    id: IMAGE_IDS.PUMPS_MOTORS
+  },
+  'gear-pumps': {
+    src: pumpsMotorsImage,
+    alt: `${IMAGE_IDS.PUMPS_MOTORS}: Gear pumps - Positive displacement gear pumps`,
+    id: IMAGE_IDS.PUMPS_MOTORS
+  },
+  'air-operated-diaphragm': {
+    src: pumpsMotorsImage,
+    alt: `${IMAGE_IDS.PUMPS_MOTORS}: Air operated diaphragm - Pneumatic diaphragm pump`,
+    id: IMAGE_IDS.PUMPS_MOTORS
+  },
+  'electric-diaphragm': {
+    src: pumpsMotorsImage,
+    alt: `${IMAGE_IDS.PUMPS_MOTORS}: Electric diaphragm - Electric diaphragm pump`,
+    id: IMAGE_IDS.PUMPS_MOTORS
+  },
+  'hydraulic-diaphragm': {
+    src: pumpsMotorsImage,
+    alt: `${IMAGE_IDS.PUMPS_MOTORS}: Hydraulic diaphragm - Hydraulic diaphragm pump`,
+    id: IMAGE_IDS.PUMPS_MOTORS
+  },
+  'external-gear-pump': {
+    src: pumpsMotorsImage,
+    alt: `${IMAGE_IDS.PUMPS_MOTORS}: External gear pump - External gear positive displacement pump`,
+    id: IMAGE_IDS.PUMPS_MOTORS
+  },
+  'internal-gear-pump': {
+    src: pumpsMotorsImage,
+    alt: `${IMAGE_IDS.PUMPS_MOTORS}: Internal gear pump - Internal gear positive displacement pump`,
+    id: IMAGE_IDS.PUMPS_MOTORS
+  },
+  'magnetic-gear-pump': {
+    src: pumpsMotorsImage,
+    alt: `${IMAGE_IDS.PUMPS_MOTORS}: Magnetic gear pump - Magnetically coupled gear pump`,
+    id: IMAGE_IDS.PUMPS_MOTORS
+  },
+  'multi-stage-centrifugal': {
+    src: pumpsMotorsImage,
+    alt: `${IMAGE_IDS.PUMPS_MOTORS}: Multi-stage centrifugal - Multi-stage centrifugal pump`,
+    id: IMAGE_IDS.PUMPS_MOTORS
+  },
+  'single-stage-centrifugal': {
+    src: pumpsMotorsImage,
+    alt: `${IMAGE_IDS.PUMPS_MOTORS}: Single-stage centrifugal - Single-stage centrifugal pump`,
+    id: IMAGE_IDS.PUMPS_MOTORS
+  },
+  'vertical-centrifugal': {
+    src: pumpsMotorsImage,
+    alt: `${IMAGE_IDS.PUMPS_MOTORS}: Vertical centrifugal - Vertical centrifugal pump`,
+    id: IMAGE_IDS.PUMPS_MOTORS
+  },
+  'bearing-coupling': {
+    src: pumpsMotorsImage,
+    alt: `${IMAGE_IDS.PUMPS_MOTORS}: Bearing coupling - Pump bearing and coupling components`,
+    id: IMAGE_IDS.PUMPS_MOTORS
+  },
+  'impeller-casing': {
+    src: pumpsMotorsImage,
+    alt: `${IMAGE_IDS.PUMPS_MOTORS}: Impeller casing - Pump impeller and casing spare parts`,
+    id: IMAGE_IDS.PUMPS_MOTORS
+  },
+  'seal-gasket': {
+    src: pumpsMotorsImage,
+    alt: `${IMAGE_IDS.PUMPS_MOTORS}: Seal gasket - Pump seal and gasket components`,
+    id: IMAGE_IDS.PUMPS_MOTORS
+  },
+  
+  // BLDC Motors
+  'bldc-cooler-exhaust-motor': {
+    src: bldcHomeImage,
+    alt: `${IMAGE_IDS.BLDC_MOTORS}: BLDC cooler exhaust motor - Dual-function cooling and exhaust motor`,
+    id: IMAGE_IDS.BLDC_MOTORS
+  },
+  'bldc-submersible-surface-pump': {
+    src: bldcHomeImage,
+    alt: `${IMAGE_IDS.BLDC_MOTORS}: BLDC submersible surface pump - Dual-function water pump system`,
+    id: IMAGE_IDS.BLDC_MOTORS
+  },
+  'bldc-table-fan-wall-fan-motor': {
+    src: bldcHomeImage,
+    alt: `${IMAGE_IDS.BLDC_MOTORS}: BLDC table fan wall fan motor - Multi-purpose fan motor`,
+    id: IMAGE_IDS.BLDC_MOTORS
+  },
+  
+  // Transmitters - manufacturer specific variants
+  'dp-transmitter-endress': {
+    src: dpTransmitterImage,
+    alt: `${IMAGE_IDS.DP_TRANSMITTER}: DP transmitter Endress+Hauser - Differential pressure transmitter`,
+    id: IMAGE_IDS.DP_TRANSMITTER
+  },
+  'dp-transmitter-yokogawa': {
+    src: dpTransmitterImage,
+    alt: `${IMAGE_IDS.DP_TRANSMITTER}: DP transmitter Yokogawa - Differential pressure transmitter`,
+    id: IMAGE_IDS.DP_TRANSMITTER
+  },
+  'dp-transmitter-honeywell': {
+    src: dpTransmitterImage,
+    alt: `${IMAGE_IDS.DP_TRANSMITTER}: DP transmitter Honeywell - Differential pressure transmitter`,
+    id: IMAGE_IDS.DP_TRANSMITTER
+  },
+  'p-transmitter-abb': {
+    src: pTypeTransmitterImage,
+    alt: `${IMAGE_IDS.P_TYPE_TRANSMITTER}: P transmitter ABB - Pressure transmitter`,
+    id: IMAGE_IDS.P_TYPE_TRANSMITTER
+  },
+  'p-transmitter-wika': {
+    src: pTypeTransmitterImage,
+    alt: `${IMAGE_IDS.P_TYPE_TRANSMITTER}: P transmitter WIKA - Pressure transmitter`,
+    id: IMAGE_IDS.P_TYPE_TRANSMITTER
+  },
+  'p-transmitter-fuji': {
+    src: pTypeTransmitterImage,
+    alt: `${IMAGE_IDS.P_TYPE_TRANSMITTER}: P transmitter Fuji - Pressure transmitter`,
+    id: IMAGE_IDS.P_TYPE_TRANSMITTER
+  },
+  'rs-transmitter-endress': {
+    src: rsTransmitterImage,
+    alt: `${IMAGE_IDS.RS_TRANSMITTER}: RS transmitter Endress+Hauser - Remote seal pressure transmitter`,
+    id: IMAGE_IDS.RS_TRANSMITTER
+  },
+  'rs-transmitter-yokogawa': {
+    src: rsTransmitterImage,
+    alt: `${IMAGE_IDS.RS_TRANSMITTER}: RS transmitter Yokogawa - Remote seal pressure transmitter`,
+    id: IMAGE_IDS.RS_TRANSMITTER
+  },
+  'rs-transmitter-honeywell': {
+    src: rsTransmitterImage,
+    alt: `${IMAGE_IDS.RS_TRANSMITTER}: RS transmitter Honeywell - Remote seal pressure transmitter`,
+    id: IMAGE_IDS.RS_TRANSMITTER
+  },
+  
+  // Flow meters - manufacturer specific variants
+  'magnetic-flowmeter-abb': {
+    src: magneticFlowMeterImage,
+    alt: `${IMAGE_IDS.MAGNETIC_FLOW_METER}: Magnetic flowmeter ABB - Electromagnetic flow meter`,
+    id: IMAGE_IDS.MAGNETIC_FLOW_METER
+  },
+  'magnetic-flowmeter-rosemount': {
+    src: magneticFlowMeterImage,
+    alt: `${IMAGE_IDS.MAGNETIC_FLOW_METER}: Magnetic flowmeter Rosemount - Electromagnetic flow meter`,
+    id: IMAGE_IDS.MAGNETIC_FLOW_METER
+  },
+  'magnetic-flowmeter-yokogawa': {
+    src: magneticFlowMeterImage,
+    alt: `${IMAGE_IDS.MAGNETIC_FLOW_METER}: Magnetic flowmeter Yokogawa - Electromagnetic flow meter`,
+    id: IMAGE_IDS.MAGNETIC_FLOW_METER
+  },
+  'mass-flowmeter-abb': {
+    src: massFlowMeterImage,
+    alt: `${IMAGE_IDS.MASS_FLOW_METER}: Mass flowmeter ABB - Coriolis mass flow meter`,
+    id: IMAGE_IDS.MASS_FLOW_METER
+  },
+  'mass-flowmeter-emerson': {
+    src: massFlowMeterImage,
+    alt: `${IMAGE_IDS.MASS_FLOW_METER}: Mass flowmeter Emerson - Coriolis mass flow meter`,
+    id: IMAGE_IDS.MASS_FLOW_METER
+  },
+  'mass-flowmeter-endress': {
+    src: massFlowMeterImage,
+    alt: `${IMAGE_IDS.MASS_FLOW_METER}: Mass flowmeter Endress+Hauser - Coriolis mass flow meter`,
+    id: IMAGE_IDS.MASS_FLOW_METER
+  },
+  'mass-flowmeter-yokogawa': {
+    src: massFlowMeterImage,
+    alt: `${IMAGE_IDS.MASS_FLOW_METER}: Mass flowmeter Yokogawa - Coriolis mass flow meter`,
+    id: IMAGE_IDS.MASS_FLOW_METER
+  },
+  'vortex-flowmeter-abb': {
+    src: vortexFlowMeterImage,
+    alt: `${IMAGE_IDS.VORTEX_FLOW_METER}: Vortex flowmeter ABB - Vortex shedding flow meter`,
+    id: IMAGE_IDS.VORTEX_FLOW_METER
+  },
+  'vortex-flowmeter-endress': {
+    src: vortexFlowMeterImage,
+    alt: `${IMAGE_IDS.VORTEX_FLOW_METER}: Vortex flowmeter Endress+Hauser - Vortex shedding flow meter`,
+    id: IMAGE_IDS.VORTEX_FLOW_METER
+  },
+  'vortex-flowmeter-rosemount': {
+    src: vortexFlowMeterImage,
+    alt: `${IMAGE_IDS.VORTEX_FLOW_METER}: Vortex flowmeter Rosemount - Vortex shedding flow meter`,
+    id: IMAGE_IDS.VORTEX_FLOW_METER
+  },
+  'volumetric-flowmeter-endress': {
+    src: massFlowMeterImage,
+    alt: `${IMAGE_IDS.MASS_FLOW_METER}: Volumetric flowmeter Endress+Hauser - Thermal mass flow meter`,
+    id: IMAGE_IDS.MASS_FLOW_METER
+  },
+  'volumetric-flowmeter-sierra': {
+    src: massFlowMeterImage,
+    alt: `${IMAGE_IDS.MASS_FLOW_METER}: Volumetric flowmeter Sierra - Thermal mass flow meter`,
+    id: IMAGE_IDS.MASS_FLOW_METER
+  },
+  'volumetric-flowmeter-bronkhorst': {
+    src: massFlowMeterImage,
+    alt: `${IMAGE_IDS.MASS_FLOW_METER}: Volumetric flowmeter Bronkhorst - Ultrasonic flow meter`,
+    id: IMAGE_IDS.MASS_FLOW_METER
+  },
+  'pd-flowmeter-oval': {
+    src: pdFlowMeterImage,
+    alt: `${IMAGE_IDS.PD_FLOW_METER}: PD flowmeter Oval - Positive displacement flow meter`,
+    id: IMAGE_IDS.PD_FLOW_METER
+  },
+  'pd-flowmeter-badger': {
+    src: pdFlowMeterImage,
+    alt: `${IMAGE_IDS.PD_FLOW_METER}: PD flowmeter Badger - Positive displacement flow meter`,
+    id: IMAGE_IDS.PD_FLOW_METER
+  },
+  'pd-flowmeter-krohne': {
+    src: pdFlowMeterImage,
+    alt: `${IMAGE_IDS.PD_FLOW_METER}: PD flowmeter KROHNE - Positive displacement flow meter`,
+    id: IMAGE_IDS.PD_FLOW_METER
+  },
+  'pd-flowmeter-kral': {
+    src: pdFlowMeterImage,
+    alt: `${IMAGE_IDS.PD_FLOW_METER}: PD flowmeter KRAL - Positive displacement flow meter`,
+    id: IMAGE_IDS.PD_FLOW_METER
+  },
+  
+  // Industrial tools (using existing industrial tools image)
+  'chop-saw': {
+    src: industrialToolsImage,
+    alt: `${IMAGE_IDS.INDUSTRIAL_TOOLS}: Chop saw - Industrial metal cutting saw`,
+    id: IMAGE_IDS.INDUSTRIAL_TOOLS
+  },
+  'welding-machine': {
+    src: industrialToolsImage,
+    alt: `${IMAGE_IDS.INDUSTRIAL_TOOLS}: Welding machine - Industrial welding equipment`,
+    id: IMAGE_IDS.INDUSTRIAL_TOOLS
+  },
   'junction-box': {
     src: electricalComponentsImage,
     alt: `${IMAGE_IDS.ELECTRICAL_COMPONENTS}: Junction box - Electrical connection box`,
