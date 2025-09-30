@@ -42,3 +42,10 @@ The frontend is built with React 18, TypeScript, and Vite, utilizing Tailwind CS
 - **Lucide React**: For icons.
 - **PHPMailer**: (Located in `public/PHPMailer/`) Potentially for server-side email handling, though the specific backend implementation is not detailed.
 - **Google Search Engine**: SEO optimizations are tailored for Google's guidelines and rich snippets.
+
+## Replit Environment Setup
+- **Development Server**: Runs via `npm run dev` which starts Vite dev server on port 5000
+- **Production Build**: `npm run build` builds the client and bundles the server launcher
+- **Production Server**: `npm start` runs Vite preview server on port 5000
+- **Host Configuration**: Vite configured with `host: 0.0.0.0` and `allowedHosts: true` for Replit proxy compatibility
+- **Deployment**: Configured for autoscale deployment with build and start commands
