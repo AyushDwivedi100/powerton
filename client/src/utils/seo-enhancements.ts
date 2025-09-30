@@ -48,6 +48,12 @@ export function generateProductData(product: {
   mpn?: string;
   specifications?: Array<{ label: string; value: string }>;
   features?: string[];
+  // Pricing information - optional but required for valid offers
+  price?: number;
+  lowPrice?: number;
+  highPrice?: number;
+  offerCount?: number;
+  availability?: string;
 }) {
   const productData: any = {
     "@context": "https://schema.org",
@@ -85,16 +91,36 @@ export function generateProductData(product: {
     productData.mpn = product.mpn;
   }
 
-  // Add offers for price indication
-  productData.offers = {
-    "@type": "AggregateOffer",
-    "priceCurrency": "INR",
-    "availability": "https://schema.org/InStock",
-    "seller": {
-      "@type": "Organization",
-      "name": "Powerton Engineering Pvt. Ltd."
-    }
-  };
+  // Only add offers if we have pricing data
+  // For single price products
+  if (product.price !== undefined) {
+    productData.offers = {
+      "@type": "Offer",
+      "price": product.price.toString(),
+      "priceCurrency": "INR",
+      "availability": product.availability || "https://schema.org/InStock",
+      "seller": {
+        "@type": "Organization",
+        "name": "Powerton Engineering Pvt. Ltd."
+      }
+    };
+  }
+  // For price range products (multiple variants)
+  else if (product.lowPrice !== undefined && product.highPrice !== undefined && product.offerCount !== undefined) {
+    productData.offers = {
+      "@type": "AggregateOffer",
+      "lowPrice": product.lowPrice.toString(),
+      "highPrice": product.highPrice.toString(),
+      "priceCurrency": "INR",
+      "offerCount": product.offerCount,
+      "availability": product.availability || "https://schema.org/InStock",
+      "seller": {
+        "@type": "Organization",
+        "name": "Powerton Engineering Pvt. Ltd."
+      }
+    };
+  }
+  // If no pricing data provided, omit offers entirely (valid for B2B products)
 
   // Add additional specifications as properties
   if (product.specifications && product.specifications.length > 0) {
