@@ -4,17 +4,36 @@
 This is a React-based business website for Powerton Engineering Pvt. Ltd., a company specializing in industrial automation, electrical components, instrumentation, and engineering services. The website features a multi-language interface (English, Hindi, Arabic, Spanish, French, and more) and showcases the company's products, services, and projects.
 
 ## Recent Changes (September 30, 2025)
-- **Added HART Calibrator Products**: New product group added to Calibration Equipment subcategory
-  - Created "HART Calibrators" product group with comprehensive description covering HART communication protocol support
-  - Added 6 real HART calibrator products from leading manufacturers:
-    - Fluke 754 Documenting Process Calibrator with HART (HART 5, 6, 7 support)
-    - Fluke 709H Precision Loop Calibrator with HART (data logging capability)
-    - Fluke 154 HART Field Communicator (Android tablet-based with WirelessHART)
-    - Beamex MC6 Advanced Field Calibrator (modular system with intrinsically safe version)
-    - Emerson AMS Trex Communicator (current generation HART communicator)
-    - Emerson AMS 475 Field Communicator (legacy product for reference)
-  - All products include real manufacturer specifications, HART protocol versions, and datasheet URLs
-  - Products sourced from web research of current market offerings (2024-2025)
+
+### Added HART Calibrator Products to Calibration Equipment
+- Created "HART Calibrators" product group with comprehensive description covering HART communication protocol support
+- Added 6 real HART calibrator products from leading manufacturers (Fluke, Beamex, Emerson)
+- All products include real manufacturer specifications, HART protocol versions, and datasheet URLs
+
+### Added Four New Product Groups to Multimeters Subcategory
+1. **Earth Resistance Testers** (3 products)
+   - Fluke 1623-2 GEO - Stakeless, 3-point, 4-point testing methods
+   - Fluke 1625-2 GEO - Advanced with Automatic Frequency Control and R* measurement
+   - Megger DET4TC2 - 4-terminal with ART and multiple test frequencies
+
+2. **Phase Sequence Checkers** (3 products)
+   - Fluke 9040 - Phase rotation indicator with LCD display
+   - Hioki PD3259 - Digital phase detector with Bluetooth connectivity
+   - Hioki PD3129-10 - Non-contact phase detector (CAT III 1000V rated)
+
+3. **Digital Megohmmeters** (4 products)
+   - Fluke 1507 - Entry-level insulation resistance tester (up to 1000V)
+   - Fluke 1587 FC - 2-in-1 insulation multimeter with Fluke Connect
+   - Megger MIT525 - 5kV insulation tester with data logging
+   - Megger MIT1025 - 10kV professional tester (IEEE 43:2000 compliant)
+
+4. **Milliampere Source Meters** (4 products)
+   - Fluke 707 - Loop calibrator with one-handed operation
+   - Fluke 715 - Volt/mA calibrator with ramp functions
+   - Fluke 773 - Milliamp clamp meter (no loop breaking required)
+   - Dwyer CL309A - 4-20mA loop calibrator with 24V loop supply
+
+**All products sourced from web research of current market offerings (2024-2025)**
 
 ## Previous Changes (September 27, 2025)
 - Successfully imported GitHub project and configured for Replit environment
