@@ -110,10 +110,10 @@ export default function ProductGroupDynamic() {
 
   // Map subcategorySlug to subcategoryKey (product groups use internal keys)
   const subcategoryKeyMap: { [key: string]: string } = {
-    "sensors-transducers": "sensors",
-    "transmitters-flow-meters": "transmitters",
-    "switches-indicators": "switches",
-    "valves-actuators": "valves",
+    "sensors-transducers": "sensors-transducers",
+    "transmitters-flow-meters": "transmitters-flow-meters",
+    "switches-indicators": "switches-indicators",
+    "valves-actuators": "valves-actuators",
     analyzers: "analyzers",
     "bldc-ceiling-fan": "bldc-ceiling-fan",
     "bldc-cooler-exhaust-motor": "bldc-cooler-exhaust-motor",

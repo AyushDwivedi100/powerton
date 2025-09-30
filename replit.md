@@ -5,6 +5,18 @@ This is a React-based business website for Powerton Engineering Pvt. Ltd., a com
 
 ## Recent Changes (September 30, 2025)
 
+### Fixed Transmitters-Flow-Meters Product Group URLs
+Fixed broken product group pages for Transmitters & Flow Meters subcategory. The issue was an incorrect URL slug mapping that converted `transmitters-flow-meters` to just `transmitters`, causing the product groups to not be found. Updated the mapping in `product-group-dynamic.tsx` to use the full slug keys, making all 7 product groups accessible:
+- Differential Pressure Transmitters
+- Pressure Transmitters
+- Remote Seal Transmitters
+- Magnetic Flow Meters
+- Mass Flow Meters
+- Vortex Flow Meters
+- Volumetric Flow Meters
+
+**Files Modified**: `client/src/pages/product-group-dynamic.tsx`
+
 ### Fixed Products Dropdown Navigation URLs
 Fixed all broken links in the header products dropdown menu to ensure correct navigation:
 
