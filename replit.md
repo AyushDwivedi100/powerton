@@ -5,6 +5,17 @@ This is a React-based business website for Powerton Engineering Pvt. Ltd., a com
 
 ## Recent Changes (September 30, 2025)
 
+### Added Background Images to Product Group Hero Sections
+Implemented background images in the hero sections of product group pages to enhance visual appeal and maintain design consistency with subcategory pages. Each product group now displays a relevant product image behind the hero content with a dark overlay for text readability.
+
+**Changes Made**:
+- Imported `getProductImageSrc` from `@/assets/images` to load product images
+- Updated hero section to use the same pattern as subcategory pages with background image, overlay, and proper layering
+- Changed text colors to white for better contrast against dark backgrounds
+- Applied `hero-fullscreen` class for consistent hero section sizing
+
+**Files Modified**: `client/src/pages/product-group-dynamic.tsx`
+
 ### Fixed Transmitters-Flow-Meters Product Group URLs
 Fixed broken product group pages for Transmitters & Flow Meters subcategory. The issue was an incorrect URL slug mapping that converted `transmitters-flow-meters` to just `transmitters`, causing the product groups to not be found. Updated the mapping in `product-group-dynamic.tsx` to use the full slug keys, making all 7 product groups accessible:
 - Differential Pressure Transmitters

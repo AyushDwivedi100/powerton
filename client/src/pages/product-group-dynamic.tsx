@@ -15,6 +15,7 @@ import {
   getProductsByGroup,
 } from "@/data/products-detail-pages-data";
 import { getProductSubCategoryBySlug } from "@/data/products-sub-category-pages-data";
+import { getProductImageSrc } from "@/assets/images";
 import NotFound from "@/pages/not-found";
 
 export default function ProductGroupDynamic() {
@@ -191,12 +192,19 @@ export default function ProductGroupDynamic() {
       />
 
       {/* Hero Section */}
-      <section className="relative bg-gradient-to-r from-primary/90 to-primary py-16 lg:py-24">
-        <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8 text-white">
-          <div className="text-center text-foreground">
+      <section className="relative hero-fullscreen overflow-hidden">
+        <div
+          className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+          style={{
+            backgroundImage: `url(${getProductImageSrc(productGroup.image)})`,
+          }}
+        />
+        <div className="absolute inset-0 bg-black/60"></div>
+        <div className="relative max-w-7xl mx-auto px-4 md:px-6 lg:px-8 text-white">
+          <div className="text-center">
             <Button
               variant="ghost"
-              className="mb-6 hover:bg-black/10 dark:hover:bg-white/10 hover:text-foreground group"
+              className="mb-6 hover:bg-white/10 text-white group"
               asChild
             >
               <Link
@@ -218,13 +226,13 @@ export default function ProductGroupDynamic() {
             <div className="flex flex-wrap justify-center gap-4">
               <Badge
                 variant="secondary"
-                className="bg-black/20 dark:bg-white/20 text-foreground border-black/20 dark:border-white/20 px-4 py-2 text-lg"
+                className="bg-white/20 text-white border-white/20 px-4 py-2 text-lg"
               >
                 {groupProducts.length} Products
               </Badge>
               <Badge
                 variant="secondary"
-                className="bg-black/20 dark:bg-white/20 text-foreground border-black/20 dark:border-white/20 px-4 py-2 text-lg"
+                className="bg-white/20 text-white border-white/20 px-4 py-2 text-lg"
               >
                 {subcategory.title}
               </Badge>
