@@ -318,23 +318,6 @@ export default function ProductGroupDynamic() {
                                   View
                                 </Button>
                               </Link>
-                              {product.datasheetUrl && (
-                                <Button
-                                  size="sm"
-                                  variant="ghost"
-                                  asChild
-                                  data-testid={`button-datasheet-${product.id}`}
-                                >
-                                  <a
-                                    href={product.datasheetUrl}
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                  >
-                                    <FileText className="mr-1 h-3 w-3" />
-                                    Datasheet
-                                  </a>
-                                </Button>
-                              )}
                             </div>
                           </td>
                         </tr>

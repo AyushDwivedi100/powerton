@@ -135,12 +135,12 @@ const ProductDetailDynamic: React.FC = () => {
           >
             <Button
               variant="ghost"
-              className="hover:bg-muted/50 group"
+              className="mb-6 hover:bg-white/10 text-white group"
               asChild
               data-testid="link-back-to-parent"
             >
               <Link href={productData.categoryPath}>
-                <ArrowLeft className="mr-2 h-4 w-4 group-hover:-translate-x-1 transition-transform duration-200" />
+                <ArrowLeft className="mr-2 h-4 w-4 group-hover:-translate-x-2 transition-transform duration-300" />
                 {productData.backLabel}
               </Link>
             </Button>
@@ -170,18 +170,6 @@ const ProductDetailDynamic: React.FC = () => {
             <AnimatedSection delay={0.2}>
               <div className="flex flex-col justify-center space-y-8">
                 <div className="space-y-4">
-                  <motion.div
-                    initial={{ opacity: 0, y: 10 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    transition={{ delay: 0.3 }}
-                    className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 border border-primary/20"
-                  >
-                    <Sparkles className="w-4 h-4 text-primary" />
-                    <span className="text-sm font-medium text-primary">
-                      {productData.categoryName}
-                    </span>
-                  </motion.div>
-
                   <motion.h1
                     initial={{ opacity: 0, y: 10 }}
                     animate={{ opacity: 1, y: 0 }}
@@ -211,19 +199,19 @@ const ProductDetailDynamic: React.FC = () => {
                 >
                   <Button
                     size="lg"
-                    className="group shadow-lg shadow-primary/25 hover:shadow-xl hover:shadow-primary/30"
+                    className="group shadow-lg shadow-primary/25 hover:shadow-primary/50 bg-primary hover:bg-secondary text-background dark:text-foreground hover:text-foreground dark:hover:text-background transition-all duration-300"
                     asChild
                     data-testid="button-contact"
                   >
                     <Link href="/contact">
-                      <Phone className="mr-2 h-5 w-5 group-hover:rotate-12 transition-transform" />
+                      <Phone className="mr-2 h-5 w-5" />
                       Contact Us
                     </Link>
                   </Button>
                   <Button
                     size="lg"
                     variant="outline"
-                    className="border-2 hover:bg-muted"
+                    className="border-2 bg-blur hover:bg-secondary hover:text-background hover:border-primary/30 transition-all duration-300"
                     asChild
                     data-testid="button-quote"
                   >
@@ -232,24 +220,6 @@ const ProductDetailDynamic: React.FC = () => {
                       Get Quote
                     </Link>
                   </Button>
-                  {productData.datasheetUrl && (
-                    <Button
-                      size="lg"
-                      variant="ghost"
-                      className="hover:bg-muted"
-                      asChild
-                      data-testid="button-datasheet"
-                    >
-                      <a
-                        href={productData.datasheetUrl}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        <Download className="mr-2 h-5 w-5" />
-                        Datasheet
-                      </a>
-                    </Button>
-                  )}
                 </motion.div>
               </div>
             </AnimatedSection>
@@ -317,38 +287,42 @@ const ProductDetailDynamic: React.FC = () => {
                 {/* Right Column: Key Features, Applications, Industries Served stacked */}
                 <div className="space-y-12">
                   {/* Key Features */}
-                  {productData.keyBenefits && productData.keyBenefits.length > 0 && (
-                    <div className="space-y-6">
-                      <div className="flex items-center gap-3">
-                        <div className="p-2 rounded-xl bg-primary/10">
-                          <CheckCircle className="w-5 h-5 text-primary" />
+                  {productData.keyBenefits &&
+                    productData.keyBenefits.length > 0 && (
+                      <div className="space-y-6">
+                        <div className="flex items-center gap-3">
+                          <div className="p-2 rounded-xl bg-primary/10">
+                            <CheckCircle className="w-5 h-5 text-primary" />
+                          </div>
+                          <h2 className="text-2xl font-bold text-foreground">
+                            Key Features
+                          </h2>
                         </div>
-                        <h2 className="text-2xl font-bold text-foreground">
-                          Key Features
-                        </h2>
+                        <div className="space-y-3">
+                          {productData.keyBenefits.map((benefit, index) => (
+                            <motion.div
+                              key={index}
+                              initial={{ opacity: 0, scale: 0.95 }}
+                              whileInView={{ opacity: 1, scale: 1 }}
+                              viewport={{ once: true, margin: "-50px" }}
+                              transition={{
+                                duration: 0.4,
+                                delay: index * 0.03,
+                              }}
+                              className="group"
+                              data-testid={`feature-grid-${index}`}
+                            >
+                              <div className="flex items-start gap-3 p-4 rounded-xl border border-border/50 bg-background/50 backdrop-blur-sm hover:border-primary/30 hover:bg-primary/5 transition-all duration-300">
+                                <div className="h-2 w-2 rounded-full bg-primary flex-shrink-0 mt-2 group-hover:scale-125 transition-transform"></div>
+                                <span className="text-sm text-foreground leading-relaxed">
+                                  {benefit}
+                                </span>
+                              </div>
+                            </motion.div>
+                          ))}
+                        </div>
                       </div>
-                      <div className="space-y-3">
-                        {productData.keyBenefits.map((benefit, index) => (
-                          <motion.div
-                            key={index}
-                            initial={{ opacity: 0, scale: 0.95 }}
-                            whileInView={{ opacity: 1, scale: 1 }}
-                            viewport={{ once: true, margin: "-50px" }}
-                            transition={{ duration: 0.4, delay: index * 0.03 }}
-                            className="group"
-                            data-testid={`feature-grid-${index}`}
-                          >
-                            <div className="flex items-start gap-3 p-4 rounded-xl border border-border/50 bg-background/50 backdrop-blur-sm hover:border-primary/30 hover:bg-primary/5 transition-all duration-300">
-                              <div className="h-2 w-2 rounded-full bg-primary flex-shrink-0 mt-2 group-hover:scale-125 transition-transform"></div>
-                              <span className="text-sm text-foreground leading-relaxed">
-                                {benefit}
-                              </span>
-                            </div>
-                          </motion.div>
-                        ))}
-                      </div>
-                    </div>
-                  )}
+                    )}
 
                   {/* Applications */}
                   {productData.applications &&
@@ -358,24 +332,29 @@ const ProductDetailDynamic: React.FC = () => {
                           Applications
                         </h2>
                         <div className="space-y-3">
-                          {productData.applications.map((application, index) => (
-                            <motion.div
-                              key={index}
-                              initial={{ opacity: 0, x: -20 }}
-                              whileInView={{ opacity: 1, x: 0 }}
-                              viewport={{ once: true, margin: "-50px" }}
-                              transition={{ duration: 0.4, delay: index * 0.03 }}
-                              className="group"
-                              data-testid={`application-${index}`}
-                            >
-                              <div className="flex items-center gap-3 p-4 rounded-xl border border-border/50 bg-background/50 backdrop-blur-sm hover:border-primary/30 hover:bg-primary/5 transition-all duration-300">
-                                <div className="h-2 w-2 rounded-full bg-primary flex-shrink-0 group-hover:scale-125 transition-transform"></div>
-                                <span className="text-sm text-foreground">
-                                  {application}
-                                </span>
-                              </div>
-                            </motion.div>
-                          ))}
+                          {productData.applications.map(
+                            (application, index) => (
+                              <motion.div
+                                key={index}
+                                initial={{ opacity: 0, x: -20 }}
+                                whileInView={{ opacity: 1, x: 0 }}
+                                viewport={{ once: true, margin: "-50px" }}
+                                transition={{
+                                  duration: 0.4,
+                                  delay: index * 0.03,
+                                }}
+                                className="group"
+                                data-testid={`application-${index}`}
+                              >
+                                <div className="flex items-center gap-3 p-4 rounded-xl border border-border/50 bg-background/50 backdrop-blur-sm hover:border-primary/30 hover:bg-primary/5 transition-all duration-300">
+                                  <div className="h-2 w-2 rounded-full bg-primary flex-shrink-0 group-hover:scale-125 transition-transform"></div>
+                                  <span className="text-sm text-foreground">
+                                    {application}
+                                  </span>
+                                </div>
+                              </motion.div>
+                            ),
+                          )}
                         </div>
                       </div>
                     )}
@@ -394,7 +373,10 @@ const ProductDetailDynamic: React.FC = () => {
                               initial={{ opacity: 0, x: -20 }}
                               whileInView={{ opacity: 1, x: 0 }}
                               viewport={{ once: true, margin: "-50px" }}
-                              transition={{ duration: 0.4, delay: index * 0.03 }}
+                              transition={{
+                                duration: 0.4,
+                                delay: index * 0.03,
+                              }}
                               className="group"
                               data-testid={`industry-${index}`}
                             >
@@ -431,7 +413,7 @@ const ProductDetailDynamic: React.FC = () => {
                           className="group"
                           data-testid={`cert-${index}`}
                         >
-                          <div className="px-6 py-3 rounded-full border-2 border-primary/20 bg-primary/5 text-primary font-medium text-sm hover:border-primary/40 hover:bg-primary/10 hover:scale-105 transition-all duration-300">
+                          <div className="px-6 py-3 rounded-full border-2 border-primary/20 bg-primary/5 text-primary hover:text-foreground font-medium text-sm hover:border-primary/40 hover:bg-primary/10 hover:scale-105 transition-all duration-300">
                             {cert}
                           </div>
                         </motion.div>
