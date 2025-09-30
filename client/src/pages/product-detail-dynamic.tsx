@@ -302,53 +302,84 @@ const ProductDetailDynamic: React.FC = () => {
               </AnimatedSection>
             )}
 
-            {productData.specifications &&
-              productData.specifications.length > 0 && (
-                <AnimatedSection>
-                  <div>
-                    <div className="flex items-center gap-3 mb-8">
-                      <div className="p-2 rounded-xl bg-secondary/10">
-                        <Award className="w-6 h-6 text-secondary" />
+            {/* Combined Three-Column Layout: Specifications, Applications, Industries */}
+            <AnimatedSection>
+              <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+                {/* Technical Specifications Column */}
+                {productData.specifications &&
+                  productData.specifications.length > 0 && (
+                    <div className="space-y-6">
+                      <div className="flex items-center gap-3">
+                        <div className="p-2 rounded-xl bg-secondary/10">
+                          <Award className="w-5 h-5 text-secondary" />
+                        </div>
+                        <h2 className="text-2xl font-bold text-foreground">
+                          Technical Specifications
+                        </h2>
                       </div>
-                      <h2 className="text-3xl lg:text-4xl font-bold text-foreground">
-                        Technical Specifications
-                      </h2>
+                      <div className="space-y-3">
+                        {productData.specifications.map((spec, index) => (
+                          <motion.div
+                            key={index}
+                            initial={{ opacity: 0, scale: 0.95 }}
+                            whileInView={{ opacity: 1, scale: 1 }}
+                            viewport={{ once: true, margin: "-50px" }}
+                            transition={{ duration: 0.4, delay: index * 0.03 }}
+                            className="group"
+                            data-testid={`spec-${index}`}
+                          >
+                            <div className="p-4 rounded-xl border border-border/50 bg-gradient-to-br from-background to-muted/20 hover:border-secondary/30 hover:shadow-lg hover:shadow-secondary/5 transition-all duration-300">
+                              <dt className="text-xs font-medium text-muted-foreground mb-1">
+                                {spec.label}
+                              </dt>
+                              <dd className="text-sm font-semibold text-foreground group-hover:text-secondary transition-colors">
+                                {spec.value}
+                              </dd>
+                            </div>
+                          </motion.div>
+                        ))}
+                      </div>
                     </div>
-                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-                      {productData.specifications.map((spec, index) => (
-                        <motion.div
-                          key={index}
-                          initial={{ opacity: 0, scale: 0.95 }}
-                          whileInView={{ opacity: 1, scale: 1 }}
-                          viewport={{ once: true, margin: "-50px" }}
-                          transition={{ duration: 0.4, delay: index * 0.03 }}
-                          className="group"
-                          data-testid={`spec-${index}`}
-                        >
-                          <div className="h-full p-6 rounded-2xl border border-border/50 bg-gradient-to-br from-background to-muted/20 hover:border-secondary/30 hover:shadow-lg hover:shadow-secondary/5 transition-all duration-300">
-                            <dt className="text-sm font-medium text-muted-foreground mb-2">
-                              {spec.label}
-                            </dt>
-                            <dd className="text-lg font-semibold text-foreground group-hover:text-secondary transition-colors">
-                              {spec.value}
-                            </dd>
-                          </div>
-                        </motion.div>
-                      ))}
-                    </div>
-                  </div>
-                </AnimatedSection>
-              )}
+                  )}
 
-            {productData.applications &&
-              productData.applications.length > 0 && (
-                <AnimatedSection>
-                  <div>
-                    <h2 className="text-3xl lg:text-4xl font-bold text-foreground mb-8">
-                      Applications
+                {/* Applications Column */}
+                {productData.applications &&
+                  productData.applications.length > 0 && (
+                    <div className="space-y-6">
+                      <h2 className="text-2xl font-bold text-foreground">
+                        Applications
+                      </h2>
+                      <div className="space-y-3">
+                        {productData.applications.map((application, index) => (
+                          <motion.div
+                            key={index}
+                            initial={{ opacity: 0, x: -20 }}
+                            whileInView={{ opacity: 1, x: 0 }}
+                            viewport={{ once: true, margin: "-50px" }}
+                            transition={{ duration: 0.4, delay: index * 0.03 }}
+                            className="group"
+                            data-testid={`application-${index}`}
+                          >
+                            <div className="flex items-center gap-3 p-4 rounded-xl border border-border/50 bg-background/50 backdrop-blur-sm hover:border-primary/30 hover:bg-primary/5 transition-all duration-300">
+                              <div className="h-2 w-2 rounded-full bg-primary flex-shrink-0 group-hover:scale-125 transition-transform"></div>
+                              <span className="text-sm text-foreground">
+                                {application}
+                              </span>
+                            </div>
+                          </motion.div>
+                        ))}
+                      </div>
+                    </div>
+                  )}
+
+                {/* Industries Served Column */}
+                {productData.industries && productData.industries.length > 0 && (
+                  <div className="space-y-6">
+                    <h2 className="text-2xl font-bold text-foreground">
+                      Industries Served
                     </h2>
-                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
-                      {productData.applications.map((application, index) => (
+                    <div className="space-y-3">
+                      {productData.industries.map((industry, index) => (
                         <motion.div
                           key={index}
                           initial={{ opacity: 0, x: -20 }}
@@ -356,50 +387,21 @@ const ProductDetailDynamic: React.FC = () => {
                           viewport={{ once: true, margin: "-50px" }}
                           transition={{ duration: 0.4, delay: index * 0.03 }}
                           className="group"
-                          data-testid={`application-${index}`}
+                          data-testid={`industry-${index}`}
                         >
-                          <div className="flex items-center gap-3 p-4 rounded-xl border border-border/50 bg-background/50 backdrop-blur-sm hover:border-primary/30 hover:bg-primary/5 transition-all duration-300">
-                            <div className="h-2 w-2 rounded-full bg-primary flex-shrink-0 group-hover:scale-125 transition-transform"></div>
+                          <div className="flex items-center gap-3 p-4 rounded-xl border border-border/50 bg-background/50 backdrop-blur-sm hover:border-secondary/30 hover:bg-secondary/5 transition-all duration-300">
+                            <div className="h-2 w-2 rounded-full bg-secondary flex-shrink-0 group-hover:scale-125 transition-transform"></div>
                             <span className="text-sm text-foreground">
-                              {application}
+                              {industry}
                             </span>
                           </div>
                         </motion.div>
                       ))}
                     </div>
                   </div>
-                </AnimatedSection>
-              )}
-
-            {productData.industries && productData.industries.length > 0 && (
-              <AnimatedSection>
-                <div>
-                  <h2 className="text-3xl lg:text-4xl font-bold text-foreground mb-8">
-                    Industries Served
-                  </h2>
-                  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
-                    {productData.industries.map((industry, index) => (
-                      <motion.div
-                        key={index}
-                        initial={{ opacity: 0, x: -20 }}
-                        whileInView={{ opacity: 1, x: 0 }}
-                        viewport={{ once: true, margin: "-50px" }}
-                        transition={{ duration: 0.4, delay: index * 0.03 }}
-                        className="group"
-                        data-testid={`industry-${index}`}
-                      >
-                        <div className="flex items-center gap-3 p-4 rounded-xl border border-border/50 bg-background/50 backdrop-blur-sm hover:border-secondary/30 hover:bg-secondary/5 transition-all duration-300">
-                          <div className="h-2 w-2 rounded-full bg-secondary flex-shrink-0 group-hover:scale-125 transition-transform"></div>
-                          <span className="text-sm text-foreground">
-                            {industry}
-                          </span>
-                        </div>
-                      </motion.div>
-                    ))}
-                  </div>
-                </div>
-              </AnimatedSection>
-            )}
+                )}
+              </div>
+            </AnimatedSection>
 
             {productData.certifications &&
               productData.certifications.length > 0 && (
