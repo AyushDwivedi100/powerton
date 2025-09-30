@@ -30,7 +30,7 @@ import { getProductImageSrc } from "@/assets/images";
 import NotFound from "@/pages/not-found";
 
 // Utility function to truncate text by word count
-const truncateText = (text: string, maxWords: number = 75): string => {
+const truncateText = (text: string, maxWords: number = 25): string => {
   const words = text.split(" ");
   if (words.length <= maxWords) return text;
   return words.slice(0, maxWords).join(" ") + "...";
