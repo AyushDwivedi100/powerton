@@ -274,48 +274,44 @@ const ProductDetailDynamic: React.FC = () => {
               </AnimatedSection>
             )}
 
-            {productData.keyBenefits && productData.keyBenefits.length > 0 && (
-              <AnimatedSection>
-                <div>
-                  <div className="flex items-center gap-3 mb-8">
-                    <div className="p-2 rounded-xl bg-primary/10">
-                      <CheckCircle className="w-6 h-6 text-primary" />
-                    </div>
-                    <h2 className="text-3xl lg:text-4xl font-bold text-foreground">
-                      Key Features
-                    </h2>
-                  </div>
-                  <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                    {productData.keyBenefits.map((benefit, index) => (
-                      <motion.div
-                        key={index}
-                        initial={{ opacity: 0, y: 20 }}
-                        whileInView={{ opacity: 1, y: 0 }}
-                        viewport={{ once: true, margin: "-50px" }}
-                        transition={{ duration: 0.5, delay: index * 0.05 }}
-                        className="group relative"
-                        data-testid={`feature-${index}`}
-                      >
-                        <div className="absolute inset-0 bg-gradient-to-r from-primary/5 to-transparent rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity"></div>
-                        <div className="relative flex items-start gap-4 p-6 rounded-2xl border border-border/50 bg-background/50 backdrop-blur-sm hover:border-primary/30 transition-all duration-300">
-                          <div className="flex-shrink-0 w-10 h-10 rounded-xl bg-primary/10 flex items-center justify-center group-hover:bg-primary/20 transition-colors">
-                            <CheckCircle className="h-5 w-5 text-primary" />
-                          </div>
-                          <span className="text-base text-foreground leading-relaxed pt-2">
-                            {benefit}
-                          </span>
-                        </div>
-                      </motion.div>
-                    ))}
-                  </div>
-                </div>
-              </AnimatedSection>
-            )}
-
-            {/* Combined Three-Column Layout: Specifications, Applications, Industries */}
+            {/* 2x2 Grid Layout: Key Features, Technical Specifications, Applications, Industries */}
             <AnimatedSection>
-              <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
-                {/* Technical Specifications Column */}
+              <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+                {/* Key Features - Top Left */}
+                {productData.keyBenefits && productData.keyBenefits.length > 0 && (
+                  <div className="space-y-6">
+                    <div className="flex items-center gap-3">
+                      <div className="p-2 rounded-xl bg-primary/10">
+                        <CheckCircle className="w-5 h-5 text-primary" />
+                      </div>
+                      <h2 className="text-2xl font-bold text-foreground">
+                        Key Features
+                      </h2>
+                    </div>
+                    <div className="space-y-3">
+                      {productData.keyBenefits.map((benefit, index) => (
+                        <motion.div
+                          key={index}
+                          initial={{ opacity: 0, scale: 0.95 }}
+                          whileInView={{ opacity: 1, scale: 1 }}
+                          viewport={{ once: true, margin: "-50px" }}
+                          transition={{ duration: 0.4, delay: index * 0.03 }}
+                          className="group"
+                          data-testid={`feature-grid-${index}`}
+                        >
+                          <div className="flex items-start gap-3 p-4 rounded-xl border border-border/50 bg-background/50 backdrop-blur-sm hover:border-primary/30 hover:bg-primary/5 transition-all duration-300">
+                            <div className="h-2 w-2 rounded-full bg-primary flex-shrink-0 mt-2 group-hover:scale-125 transition-transform"></div>
+                            <span className="text-sm text-foreground leading-relaxed">
+                              {benefit}
+                            </span>
+                          </div>
+                        </motion.div>
+                      ))}
+                    </div>
+                  </div>
+                )}
+
+                {/* Technical Specifications - Top Right */}
                 {productData.specifications &&
                   productData.specifications.length > 0 && (
                     <div className="space-y-6">
@@ -352,7 +348,7 @@ const ProductDetailDynamic: React.FC = () => {
                     </div>
                   )}
 
-                {/* Applications Column */}
+                {/* Applications - Bottom Left */}
                 {productData.applications &&
                   productData.applications.length > 0 && (
                     <div className="space-y-6">
@@ -382,7 +378,7 @@ const ProductDetailDynamic: React.FC = () => {
                     </div>
                   )}
 
-                {/* Industries Served Column */}
+                {/* Industries Served - Bottom Right */}
                 {productData.industries &&
                   productData.industries.length > 0 && (
                     <div className="space-y-6">
