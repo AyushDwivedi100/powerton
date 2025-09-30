@@ -274,44 +274,10 @@ const ProductDetailDynamic: React.FC = () => {
               </AnimatedSection>
             )}
 
-            {/* 2x2 Grid Layout: Key Features, Technical Specifications, Applications, Industries */}
+            {/* Two-Column Layout: Technical Specifications on left, Other sections stacked on right */}
             <AnimatedSection>
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
-                {/* Key Features - Top Left */}
-                {productData.keyBenefits && productData.keyBenefits.length > 0 && (
-                  <div className="space-y-6">
-                    <div className="flex items-center gap-3">
-                      <div className="p-2 rounded-xl bg-primary/10">
-                        <CheckCircle className="w-5 h-5 text-primary" />
-                      </div>
-                      <h2 className="text-2xl font-bold text-foreground">
-                        Key Features
-                      </h2>
-                    </div>
-                    <div className="space-y-3">
-                      {productData.keyBenefits.map((benefit, index) => (
-                        <motion.div
-                          key={index}
-                          initial={{ opacity: 0, scale: 0.95 }}
-                          whileInView={{ opacity: 1, scale: 1 }}
-                          viewport={{ once: true, margin: "-50px" }}
-                          transition={{ duration: 0.4, delay: index * 0.03 }}
-                          className="group"
-                          data-testid={`feature-grid-${index}`}
-                        >
-                          <div className="flex items-start gap-3 p-4 rounded-xl border border-border/50 bg-background/50 backdrop-blur-sm hover:border-primary/30 hover:bg-primary/5 transition-all duration-300">
-                            <div className="h-2 w-2 rounded-full bg-primary flex-shrink-0 mt-2 group-hover:scale-125 transition-transform"></div>
-                            <span className="text-sm text-foreground leading-relaxed">
-                              {benefit}
-                            </span>
-                          </div>
-                        </motion.div>
-                      ))}
-                    </div>
-                  </div>
-                )}
-
-                {/* Technical Specifications - Top Right */}
+                {/* Left Column: Technical Specifications */}
                 {productData.specifications &&
                   productData.specifications.length > 0 && (
                     <div className="space-y-6">
@@ -348,28 +314,34 @@ const ProductDetailDynamic: React.FC = () => {
                     </div>
                   )}
 
-                {/* Applications - Bottom Left */}
-                {productData.applications &&
-                  productData.applications.length > 0 && (
+                {/* Right Column: Key Features, Applications, Industries Served stacked */}
+                <div className="space-y-12">
+                  {/* Key Features */}
+                  {productData.keyBenefits && productData.keyBenefits.length > 0 && (
                     <div className="space-y-6">
-                      <h2 className="text-2xl font-bold text-foreground">
-                        Applications
-                      </h2>
+                      <div className="flex items-center gap-3">
+                        <div className="p-2 rounded-xl bg-primary/10">
+                          <CheckCircle className="w-5 h-5 text-primary" />
+                        </div>
+                        <h2 className="text-2xl font-bold text-foreground">
+                          Key Features
+                        </h2>
+                      </div>
                       <div className="space-y-3">
-                        {productData.applications.map((application, index) => (
+                        {productData.keyBenefits.map((benefit, index) => (
                           <motion.div
                             key={index}
-                            initial={{ opacity: 0, x: -20 }}
-                            whileInView={{ opacity: 1, x: 0 }}
+                            initial={{ opacity: 0, scale: 0.95 }}
+                            whileInView={{ opacity: 1, scale: 1 }}
                             viewport={{ once: true, margin: "-50px" }}
                             transition={{ duration: 0.4, delay: index * 0.03 }}
                             className="group"
-                            data-testid={`application-${index}`}
+                            data-testid={`feature-grid-${index}`}
                           >
-                            <div className="flex items-center gap-3 p-4 rounded-xl border border-border/50 bg-background/50 backdrop-blur-sm hover:border-primary/30 hover:bg-primary/5 transition-all duration-300">
-                              <div className="h-2 w-2 rounded-full bg-primary flex-shrink-0 group-hover:scale-125 transition-transform"></div>
-                              <span className="text-sm text-foreground">
-                                {application}
+                            <div className="flex items-start gap-3 p-4 rounded-xl border border-border/50 bg-background/50 backdrop-blur-sm hover:border-primary/30 hover:bg-primary/5 transition-all duration-300">
+                              <div className="h-2 w-2 rounded-full bg-primary flex-shrink-0 mt-2 group-hover:scale-125 transition-transform"></div>
+                              <span className="text-sm text-foreground leading-relaxed">
+                                {benefit}
                               </span>
                             </div>
                           </motion.div>
@@ -378,35 +350,66 @@ const ProductDetailDynamic: React.FC = () => {
                     </div>
                   )}
 
-                {/* Industries Served - Bottom Right */}
-                {productData.industries &&
-                  productData.industries.length > 0 && (
-                    <div className="space-y-6">
-                      <h2 className="text-2xl font-bold text-foreground">
-                        Industries Served
-                      </h2>
-                      <div className="space-y-3">
-                        {productData.industries.map((industry, index) => (
-                          <motion.div
-                            key={index}
-                            initial={{ opacity: 0, x: -20 }}
-                            whileInView={{ opacity: 1, x: 0 }}
-                            viewport={{ once: true, margin: "-50px" }}
-                            transition={{ duration: 0.4, delay: index * 0.03 }}
-                            className="group"
-                            data-testid={`industry-${index}`}
-                          >
-                            <div className="flex items-center gap-3 p-4 rounded-xl border border-border/50 bg-background/50 backdrop-blur-sm hover:border-secondary/30 hover:bg-secondary/5 transition-all duration-300">
-                              <div className="h-2 w-2 rounded-full bg-secondary flex-shrink-0 group-hover:scale-125 transition-transform"></div>
-                              <span className="text-sm text-foreground">
-                                {industry}
-                              </span>
-                            </div>
-                          </motion.div>
-                        ))}
+                  {/* Applications */}
+                  {productData.applications &&
+                    productData.applications.length > 0 && (
+                      <div className="space-y-6">
+                        <h2 className="text-2xl font-bold text-foreground">
+                          Applications
+                        </h2>
+                        <div className="space-y-3">
+                          {productData.applications.map((application, index) => (
+                            <motion.div
+                              key={index}
+                              initial={{ opacity: 0, x: -20 }}
+                              whileInView={{ opacity: 1, x: 0 }}
+                              viewport={{ once: true, margin: "-50px" }}
+                              transition={{ duration: 0.4, delay: index * 0.03 }}
+                              className="group"
+                              data-testid={`application-${index}`}
+                            >
+                              <div className="flex items-center gap-3 p-4 rounded-xl border border-border/50 bg-background/50 backdrop-blur-sm hover:border-primary/30 hover:bg-primary/5 transition-all duration-300">
+                                <div className="h-2 w-2 rounded-full bg-primary flex-shrink-0 group-hover:scale-125 transition-transform"></div>
+                                <span className="text-sm text-foreground">
+                                  {application}
+                                </span>
+                              </div>
+                            </motion.div>
+                          ))}
+                        </div>
                       </div>
-                    </div>
-                  )}
+                    )}
+
+                  {/* Industries Served */}
+                  {productData.industries &&
+                    productData.industries.length > 0 && (
+                      <div className="space-y-6">
+                        <h2 className="text-2xl font-bold text-foreground">
+                          Industries Served
+                        </h2>
+                        <div className="space-y-3">
+                          {productData.industries.map((industry, index) => (
+                            <motion.div
+                              key={index}
+                              initial={{ opacity: 0, x: -20 }}
+                              whileInView={{ opacity: 1, x: 0 }}
+                              viewport={{ once: true, margin: "-50px" }}
+                              transition={{ duration: 0.4, delay: index * 0.03 }}
+                              className="group"
+                              data-testid={`industry-${index}`}
+                            >
+                              <div className="flex items-center gap-3 p-4 rounded-xl border border-border/50 bg-background/50 backdrop-blur-sm hover:border-secondary/30 hover:bg-secondary/5 transition-all duration-300">
+                                <div className="h-2 w-2 rounded-full bg-secondary flex-shrink-0 group-hover:scale-125 transition-transform"></div>
+                                <span className="text-sm text-foreground">
+                                  {industry}
+                                </span>
+                              </div>
+                            </motion.div>
+                          ))}
+                        </div>
+                      </div>
+                    )}
+                </div>
               </div>
             </AnimatedSection>
 
