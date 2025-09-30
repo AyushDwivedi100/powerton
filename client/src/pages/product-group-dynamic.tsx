@@ -2,6 +2,7 @@ import { useParams } from "wouter";
 import { SEO } from "@/lib/seo";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
+import { motion, useInView, useAnimation } from "framer-motion";
 import {
   AnimatedSection,
   useScrollAnimations,
@@ -26,28 +27,94 @@ export default function ProductGroupDynamic() {
   useScrollAnimations();
 
   if (!parentSlug || !subcategorySlug || !groupSlug) {
-    return <NotFound />;
+    return (
+      <div className="min-h-screen bg-background flex items-center justify-center">
+        <motion.div
+          initial={{ opacity: 0, scale: 0.9 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 0.5 }}
+          className="text-center"
+        >
+          <h1 className="text-4xl font-bold text-foreground mb-4">
+            Products Not Found
+          </h1>
+          <p className="text-muted-foreground mb-8">
+            The products you're looking for doesn't exist.
+          </p>
+          <Link href={`/products/${parentSlug}/${subcategorySlug}`}>
+            <Button className="bg-primary hover:bg-primary/90 text-primary-foreground">
+              <ArrowLeft className="mr-2 h-4 w-4" />
+              Back to {subcategory.title}
+            </Button>
+          </Link>
+        </motion.div>
+      </div>
+    );
   }
 
   // Get the subcategory information
   const subcategory = getProductSubCategoryBySlug(subcategorySlug);
   if (!subcategory) {
-    return <NotFound />;
+    return (
+      <div className="min-h-screen bg-background flex items-center justify-center">
+        <motion.div
+          initial={{ opacity: 0, scale: 0.9 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 0.5 }}
+          className="text-center"
+        >
+          <h1 className="text-4xl font-bold text-foreground mb-4">
+            Products Not Found
+          </h1>
+          <p className="text-muted-foreground mb-8">
+            The products you're looking for doesn't exist.
+          </p>
+          <Link href={`/products/${parentSlug}/${subcategorySlug}`}>
+            <Button className="bg-primary hover:bg-primary/90 text-primary-foreground">
+              <ArrowLeft className="mr-2 h-4 w-4" />
+              Back to {subcategory.title}
+            </Button>
+          </Link>
+        </motion.div>
+      </div>
+    );
   }
 
   // Validate that the parentSlug matches the expected parent category for this subcategory
-  const expectedParentSlug = subcategory.parentCategory.split('/').pop();
+  const expectedParentSlug = subcategory.parentCategory.split("/").pop();
   if (parentSlug !== expectedParentSlug) {
-    return <NotFound />;
+    return (
+      <div className="min-h-screen bg-background flex items-center justify-center">
+        <motion.div
+          initial={{ opacity: 0, scale: 0.9 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 0.5 }}
+          className="text-center"
+        >
+          <h1 className="text-4xl font-bold text-foreground mb-4">
+            Products Not Found
+          </h1>
+          <p className="text-muted-foreground mb-8">
+            The products you're looking for doesn't exist.
+          </p>
+          <Link href={`/products/${parentSlug}/${subcategorySlug}`}>
+            <Button className="bg-primary hover:bg-primary/90 text-primary-foreground">
+              <ArrowLeft className="mr-2 h-4 w-4" />
+              Back to {subcategory.title}
+            </Button>
+          </Link>
+        </motion.div>
+      </div>
+    );
   }
 
   // Map subcategorySlug to subcategoryKey (product groups use internal keys)
   const subcategoryKeyMap: { [key: string]: string } = {
     "sensors-transducers": "sensors",
-    "transmitters-flow-meters": "transmitters", 
+    "transmitters-flow-meters": "transmitters",
     "switches-indicators": "switches",
     "valves-actuators": "valves",
-    "analyzers": "analyzers",
+    analyzers: "analyzers",
     "bldc-ceiling-fan": "bldc-ceiling-fan",
     "bldc-cooler-exhaust-motor": "bldc-cooler-exhaust-motor",
     "bldc-submersible-surface-pump": "bldc-submersible-surface-pump",
@@ -55,15 +122,15 @@ export default function ProductGroupDynamic() {
     "cables-wires": "cables-wires",
     "connectors-terminals": "connectors-terminals",
     "circuit-breakers-fuses": "circuit-breakers-fuses",
-    "multimeters": "multimeters",
-    "oscilloscopes": "oscilloscopes",
+    multimeters: "multimeters",
+    oscilloscopes: "oscilloscopes",
     "spectrum-analyzers": "spectrum-analyzers",
     "solar-panels": "solar-panels",
     "solar-inverters": "solar-inverters",
-    "plcs": "plcs",
-    "hmi": "hmi",
-    "scada": "scada",
-    "dcs": "dcs",
+    plcs: "plcs",
+    hmi: "hmi",
+    scada: "scada",
+    dcs: "dcs",
     "centrifugal-pumps": "centrifugal-pumps",
     "diaphragm-pumps": "diaphragm-pumps",
     "gear-pumps": "gear-pumps",
@@ -73,13 +140,35 @@ export default function ProductGroupDynamic() {
     "cutting-tools": "cutting-tools",
     "lifting-equipment": "lifting-equipment",
   };
-  
+
   const subcategoryKey = subcategoryKeyMap[subcategorySlug] || subcategorySlug;
 
   // Get the product group information
   const productGroup = getProductGroupBySlug(subcategoryKey, groupSlug);
   if (!productGroup) {
-    return <NotFound />;
+    return (
+      <div className="min-h-screen bg-background flex items-center justify-center">
+        <motion.div
+          initial={{ opacity: 0, scale: 0.9 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 0.5 }}
+          className="text-center"
+        >
+          <h1 className="text-4xl font-bold text-foreground mb-4">
+            Products Not Found
+          </h1>
+          <p className="text-muted-foreground mb-8">
+            The products you're looking for doesn't exist.
+          </p>
+          <Link href={`/products/${parentSlug}/${subcategorySlug}`}>
+            <Button className="bg-primary hover:bg-primary/90 text-primary-foreground">
+              <ArrowLeft className="mr-2 h-4 w-4" />
+              Back to {subcategory.title}
+            </Button>
+          </Link>
+        </motion.div>
+      </div>
+    );
   }
 
   // Get all products in this group

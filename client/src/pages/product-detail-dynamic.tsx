@@ -4,7 +4,10 @@ import { Card } from "@/components/ui/card";
 import { getProductDetailBySlug } from "@/data/products-detail-pages-data";
 import { useTranslation } from "react-i18next";
 import { SEO } from "@/lib/seo";
-import { generateProductData, generateBreadcrumbData } from "@/utils/seo-enhancements";
+import {
+  generateProductData,
+  generateBreadcrumbData,
+} from "@/utils/seo-enhancements";
 import { Helmet } from "react-helmet-async";
 import { motion, useScroll, useTransform } from "framer-motion";
 import { useRef } from "react";
@@ -18,19 +21,19 @@ import {
 } from "lucide-react";
 
 const ProductDetailDynamic: React.FC = () => {
-  const { parentSlug, subcategorySlug, groupSlug, slug } = useParams<{ 
-    parentSlug: string; 
-    subcategorySlug: string; 
-    groupSlug: string; 
-    slug: string; 
+  const { parentSlug, subcategorySlug, groupSlug, slug } = useParams<{
+    parentSlug: string;
+    subcategorySlug: string;
+    groupSlug: string;
+    slug: string;
   }>();
   const { t } = useTranslation(["products", "common"]);
   const productData = getProductDetailBySlug(slug!, t, groupSlug);
   const containerRef = useRef<HTMLDivElement>(null);
-  
+
   const { scrollYProgress } = useScroll({
     target: containerRef,
-    offset: ["start start", "end start"]
+    offset: ["start start", "end start"],
   });
 
   const opacity = useTransform(scrollYProgress, [0, 0.5], [1, 0]);
@@ -39,22 +42,25 @@ const ProductDetailDynamic: React.FC = () => {
   if (!productData) {
     return (
       <div className="min-h-screen bg-background flex items-center justify-center">
-        <div className="text-center">
+        <motion.div
+          initial={{ opacity: 0, scale: 0.9 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 0.5 }}
+          className="text-center"
+        >
           <h1 className="text-4xl font-bold text-foreground mb-4">
             Product Not Found
           </h1>
           <p className="text-muted-foreground mb-8">
             The product you're looking for doesn't exist.
           </p>
-          <Link href="/products">
-            <Button>
+          <Link href={productData.categoryPath}>
+            <Button className="bg-primary hover:bg-primary/90 text-primary-foreground">
               <ArrowLeft className="mr-2 h-4 w-4" />
-              {t("common:buttons.backToProducts", {
-                defaultValue: "Back to Products",
-              })}
+              {productData.backLabel}
             </Button>
           </Link>
-        </div>
+        </motion.div>
       </div>
     );
   }
@@ -62,13 +68,17 @@ const ProductDetailDynamic: React.FC = () => {
   const breadcrumbItems = [
     { name: "Home", url: "/" },
     { name: "Products", url: "/products" },
-    { name: productData.categoryName || "Category", url: productData.categoryPath || "/products" },
-    { name: productData.title, url: `${productData.categoryPath}/${slug}` }
+    {
+      name: productData.categoryName || "Category",
+      url: productData.categoryPath || "/products",
+    },
+    { name: productData.title, url: `${productData.categoryPath}/${slug}` },
   ];
 
   const productSchema = generateProductData({
     name: productData.title,
-    description: productData.shortDescription || productData.fullDescription || "",
+    description:
+      productData.shortDescription || productData.fullDescription || "",
     image: productData.image,
     brand: "Powerton Engineering",
     manufacturer: "Powerton Engineering Pvt. Ltd.",
@@ -82,7 +92,7 @@ const ProductDetailDynamic: React.FC = () => {
     initial: { opacity: 0, y: 40 },
     whileInView: { opacity: 1, y: 0 },
     viewport: { once: true, margin: "-50px" },
-    transition: { duration: 0.6, ease: [0.22, 1, 0.36, 1] }
+    transition: { duration: 0.6, ease: [0.22, 1, 0.36, 1] },
   };
 
   const staggerChildren = {
@@ -155,7 +165,7 @@ const ProductDetailDynamic: React.FC = () => {
                 className="flex flex-col justify-center space-y-6"
               >
                 <div>
-                  <motion.p 
+                  <motion.p
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
                     transition={{ delay: 0.3 }}
@@ -163,7 +173,7 @@ const ProductDetailDynamic: React.FC = () => {
                   >
                     {productData.categoryName}
                   </motion.p>
-                  <motion.h1 
+                  <motion.h1
                     initial={{ opacity: 0, y: 10 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ delay: 0.4 }}
@@ -172,7 +182,7 @@ const ProductDetailDynamic: React.FC = () => {
                     {productData.title}
                   </motion.h1>
                   {productData.shortDescription && (
-                    <motion.p 
+                    <motion.p
                       initial={{ opacity: 0 }}
                       animate={{ opacity: 1 }}
                       transition={{ delay: 0.5 }}
@@ -189,8 +199,8 @@ const ProductDetailDynamic: React.FC = () => {
                   transition={{ delay: 0.6 }}
                   className="flex flex-wrap gap-3"
                 >
-                  <Button 
-                    size="lg" 
+                  <Button
+                    size="lg"
                     className="group"
                     asChild
                     data-testid="button-contact"
@@ -200,8 +210,8 @@ const ProductDetailDynamic: React.FC = () => {
                       Contact Us
                     </Link>
                   </Button>
-                  <Button 
-                    size="lg" 
+                  <Button
+                    size="lg"
                     variant="outline"
                     asChild
                     data-testid="button-quote"
@@ -212,13 +222,17 @@ const ProductDetailDynamic: React.FC = () => {
                     </Link>
                   </Button>
                   {productData.datasheetUrl && (
-                    <Button 
-                      size="lg" 
+                    <Button
+                      size="lg"
                       variant="ghost"
                       asChild
                       data-testid="button-datasheet"
                     >
-                      <a href={productData.datasheetUrl} target="_blank" rel="noopener noreferrer">
+                      <a
+                        href={productData.datasheetUrl}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
                         <Download className="mr-2 h-5 w-5" />
                         Datasheet
                       </a>
@@ -234,7 +248,9 @@ const ProductDetailDynamic: React.FC = () => {
               <motion.div {...fadeInUp}>
                 <Card className="border-0 shadow-sm bg-card/50 backdrop-blur-sm">
                   <div className="p-6 lg:p-8">
-                    <h2 className="text-2xl font-bold text-foreground mb-4">Overview</h2>
+                    <h2 className="text-2xl font-bold text-foreground mb-4">
+                      Overview
+                    </h2>
                     <p className="text-muted-foreground leading-relaxed text-lg">
                       {productData.fullDescription}
                     </p>
@@ -247,7 +263,9 @@ const ProductDetailDynamic: React.FC = () => {
               <motion.div {...fadeInUp}>
                 <Card className="border-0 shadow-sm bg-card/50 backdrop-blur-sm">
                   <div className="p-6 lg:p-8">
-                    <h2 className="text-2xl font-bold text-foreground mb-6">Key Features</h2>
+                    <h2 className="text-2xl font-bold text-foreground mb-6">
+                      Key Features
+                    </h2>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                       {productData.keyBenefits.map((benefit, index) => (
                         <motion.div
@@ -260,7 +278,9 @@ const ProductDetailDynamic: React.FC = () => {
                           data-testid={`feature-${index}`}
                         >
                           <CheckCircle className="h-5 w-5 text-primary flex-shrink-0 mt-0.5" />
-                          <span className="text-muted-foreground leading-relaxed">{benefit}</span>
+                          <span className="text-muted-foreground leading-relaxed">
+                            {benefit}
+                          </span>
                         </motion.div>
                       ))}
                     </div>
@@ -269,67 +289,77 @@ const ProductDetailDynamic: React.FC = () => {
               </motion.div>
             )}
 
-            {productData.specifications && productData.specifications.length > 0 && (
-              <motion.div {...fadeInUp}>
-                <Card className="border-0 shadow-sm bg-card/50 backdrop-blur-sm">
-                  <div className="p-6 lg:p-8">
-                    <h2 className="text-2xl font-bold text-foreground mb-6">Technical Specifications</h2>
-                    <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                      {productData.specifications.map((spec, index) => (
-                        <motion.div
-                          key={index}
-                          initial={{ opacity: 0, y: 20 }}
-                          whileInView={{ opacity: 1, y: 0 }}
-                          viewport={{ once: true, margin: "-50px" }}
-                          transition={{ duration: 0.5, delay: index * 0.03 }}
-                          className="p-4 rounded-lg bg-muted/20 hover:bg-muted/30 transition-colors"
-                          data-testid={`spec-${index}`}
-                        >
-                          <dt className="text-sm font-medium text-muted-foreground mb-1">
-                            {spec.label}
-                          </dt>
-                          <dd className="text-base font-semibold text-foreground">
-                            {spec.value}
-                          </dd>
-                        </motion.div>
-                      ))}
+            {productData.specifications &&
+              productData.specifications.length > 0 && (
+                <motion.div {...fadeInUp}>
+                  <Card className="border-0 shadow-sm bg-card/50 backdrop-blur-sm">
+                    <div className="p-6 lg:p-8">
+                      <h2 className="text-2xl font-bold text-foreground mb-6">
+                        Technical Specifications
+                      </h2>
+                      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        {productData.specifications.map((spec, index) => (
+                          <motion.div
+                            key={index}
+                            initial={{ opacity: 0, y: 20 }}
+                            whileInView={{ opacity: 1, y: 0 }}
+                            viewport={{ once: true, margin: "-50px" }}
+                            transition={{ duration: 0.5, delay: index * 0.03 }}
+                            className="p-4 rounded-lg bg-muted/20 hover:bg-muted/30 transition-colors"
+                            data-testid={`spec-${index}`}
+                          >
+                            <dt className="text-sm font-medium text-muted-foreground mb-1">
+                              {spec.label}
+                            </dt>
+                            <dd className="text-base font-semibold text-foreground">
+                              {spec.value}
+                            </dd>
+                          </motion.div>
+                        ))}
+                      </div>
                     </div>
-                  </div>
-                </Card>
-              </motion.div>
-            )}
+                  </Card>
+                </motion.div>
+              )}
 
-            {productData.applications && productData.applications.length > 0 && (
-              <motion.div {...fadeInUp}>
-                <Card className="border-0 shadow-sm bg-card/50 backdrop-blur-sm">
-                  <div className="p-6 lg:p-8">
-                    <h2 className="text-2xl font-bold text-foreground mb-6">Applications</h2>
-                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
-                      {productData.applications.map((application, index) => (
-                        <motion.div
-                          key={index}
-                          initial={{ opacity: 0, scale: 0.95 }}
-                          whileInView={{ opacity: 1, scale: 1 }}
-                          viewport={{ once: true, margin: "-50px" }}
-                          transition={{ duration: 0.4, delay: index * 0.05 }}
-                          className="flex items-center gap-2 p-3 rounded-lg bg-muted/20"
-                          data-testid={`application-${index}`}
-                        >
-                          <div className="h-2 w-2 rounded-full bg-primary flex-shrink-0"></div>
-                          <span className="text-sm text-muted-foreground">{application}</span>
-                        </motion.div>
-                      ))}
+            {productData.applications &&
+              productData.applications.length > 0 && (
+                <motion.div {...fadeInUp}>
+                  <Card className="border-0 shadow-sm bg-card/50 backdrop-blur-sm">
+                    <div className="p-6 lg:p-8">
+                      <h2 className="text-2xl font-bold text-foreground mb-6">
+                        Applications
+                      </h2>
+                      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
+                        {productData.applications.map((application, index) => (
+                          <motion.div
+                            key={index}
+                            initial={{ opacity: 0, scale: 0.95 }}
+                            whileInView={{ opacity: 1, scale: 1 }}
+                            viewport={{ once: true, margin: "-50px" }}
+                            transition={{ duration: 0.4, delay: index * 0.05 }}
+                            className="flex items-center gap-2 p-3 rounded-lg bg-muted/20"
+                            data-testid={`application-${index}`}
+                          >
+                            <div className="h-2 w-2 rounded-full bg-primary flex-shrink-0"></div>
+                            <span className="text-sm text-muted-foreground">
+                              {application}
+                            </span>
+                          </motion.div>
+                        ))}
+                      </div>
                     </div>
-                  </div>
-                </Card>
-              </motion.div>
-            )}
+                  </Card>
+                </motion.div>
+              )}
 
             {productData.industries && productData.industries.length > 0 && (
               <motion.div {...fadeInUp}>
                 <Card className="border-0 shadow-sm bg-card/50 backdrop-blur-sm">
                   <div className="p-6 lg:p-8">
-                    <h2 className="text-2xl font-bold text-foreground mb-6">Industries</h2>
+                    <h2 className="text-2xl font-bold text-foreground mb-6">
+                      Industries
+                    </h2>
                     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
                       {productData.industries.map((industry, index) => (
                         <motion.div
@@ -342,7 +372,9 @@ const ProductDetailDynamic: React.FC = () => {
                           data-testid={`industry-${index}`}
                         >
                           <div className="h-2 w-2 rounded-full bg-secondary flex-shrink-0"></div>
-                          <span className="text-sm text-muted-foreground">{industry}</span>
+                          <span className="text-sm text-muted-foreground">
+                            {industry}
+                          </span>
                         </motion.div>
                       ))}
                     </div>
@@ -351,30 +383,33 @@ const ProductDetailDynamic: React.FC = () => {
               </motion.div>
             )}
 
-            {productData.certifications && productData.certifications.length > 0 && (
-              <motion.div {...fadeInUp}>
-                <Card className="border-0 shadow-sm bg-card/50 backdrop-blur-sm">
-                  <div className="p-6 lg:p-8">
-                    <h2 className="text-2xl font-bold text-foreground mb-6">Certifications & Compliance</h2>
-                    <div className="flex flex-wrap gap-2">
-                      {productData.certifications.map((cert, index) => (
-                        <motion.span
-                          key={index}
-                          initial={{ opacity: 0, scale: 0.8 }}
-                          whileInView={{ opacity: 1, scale: 1 }}
-                          viewport={{ once: true }}
-                          transition={{ duration: 0.3, delay: index * 0.05 }}
-                          className="inline-flex items-center px-4 py-2 rounded-full text-sm font-medium bg-primary/10 text-primary border border-primary/20"
-                          data-testid={`cert-${index}`}
-                        >
-                          {cert}
-                        </motion.span>
-                      ))}
+            {productData.certifications &&
+              productData.certifications.length > 0 && (
+                <motion.div {...fadeInUp}>
+                  <Card className="border-0 shadow-sm bg-card/50 backdrop-blur-sm">
+                    <div className="p-6 lg:p-8">
+                      <h2 className="text-2xl font-bold text-foreground mb-6">
+                        Certifications & Compliance
+                      </h2>
+                      <div className="flex flex-wrap gap-2">
+                        {productData.certifications.map((cert, index) => (
+                          <motion.span
+                            key={index}
+                            initial={{ opacity: 0, scale: 0.8 }}
+                            whileInView={{ opacity: 1, scale: 1 }}
+                            viewport={{ once: true }}
+                            transition={{ duration: 0.3, delay: index * 0.05 }}
+                            className="inline-flex items-center px-4 py-2 rounded-full text-sm font-medium bg-primary/10 text-primary border border-primary/20"
+                            data-testid={`cert-${index}`}
+                          >
+                            {cert}
+                          </motion.span>
+                        ))}
+                      </div>
                     </div>
-                  </div>
-                </Card>
-              </motion.div>
-            )}
+                  </Card>
+                </motion.div>
+              )}
           </div>
         </div>
 
@@ -387,7 +422,7 @@ const ProductDetailDynamic: React.FC = () => {
         >
           <div className="absolute inset-0 bg-gradient-to-br from-primary/95 to-primary"></div>
           <div className="absolute inset-0 bg-grid-white/[0.05] bg-[size:32px_32px]"></div>
-          
+
           <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <motion.div
               initial={{ opacity: 0, y: 20 }}
@@ -399,11 +434,12 @@ const ProductDetailDynamic: React.FC = () => {
                 Need More Information?
               </h2>
               <p className="text-lg lg:text-xl text-white/90 mb-8 max-w-2xl mx-auto">
-                Contact our experts for detailed specifications, pricing, and technical support.
+                Contact our experts for detailed specifications, pricing, and
+                technical support.
               </p>
               <div className="flex flex-col sm:flex-row justify-center gap-4">
-                <Button 
-                  size="lg" 
+                <Button
+                  size="lg"
                   className="bg-white text-primary hover:bg-white/90 group"
                   asChild
                   data-testid="button-cta-contact"
@@ -413,7 +449,7 @@ const ProductDetailDynamic: React.FC = () => {
                     Contact Expert
                   </Link>
                 </Button>
-                <Button 
+                <Button
                   size="lg"
                   variant="outline"
                   className="border-2 border-white text-white hover:bg-white hover:text-primary"

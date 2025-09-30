@@ -18,6 +18,7 @@ import {
   ShoppingCart,
   Eye,
 } from "lucide-react";
+import { motion, useInView, useAnimation } from "framer-motion";
 import { Link } from "wouter";
 import { useTranslation } from "react-i18next";
 import { getProductSubCategoryBySlug } from "@/data/products-sub-category-pages-data";
@@ -36,7 +37,10 @@ const truncateText = (text: string, maxWords: number = 75): string => {
 };
 
 export default function ProductSubCategoryDynamic() {
-  const { parentSlug, slug } = useParams<{ parentSlug: string; slug: string }>();
+  const { parentSlug, slug } = useParams<{
+    parentSlug: string;
+    slug: string;
+  }>();
   const { t } = useTranslation(["products", "common"]);
   useScrollAnimations();
 
@@ -47,11 +51,33 @@ export default function ProductSubCategoryDynamic() {
   const product = getProductSubCategoryBySlug(slug);
 
   if (!product) {
-    return <NotFound />;
+    return (
+      <div className="min-h-screen bg-background flex items-center justify-center">
+        <motion.div
+          initial={{ opacity: 0, scale: 0.9 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 0.5 }}
+          className="text-center"
+        >
+          <h1 className="text-4xl font-bold text-foreground mb-4">
+            Sub-Category Not Found
+          </h1>
+          <p className="text-muted-foreground mb-8">
+            The product sub-category you're looking for doesn't exist.
+          </p>
+          <Link href={product.parentCategory}>
+            <Button className="bg-primary hover:bg-primary/90 text-primary-foreground">
+              <ArrowLeft className="mr-2 h-4 w-4" />
+              Back to {product.parentCategoryTitle}
+            </Button>
+          </Link>
+        </motion.div>
+      </div>
+    );
   }
 
   // Validate that the parentSlug matches the expected parent category for this subcategory
-  const expectedParentSlug = product.parentCategory.split('/').pop();
+  const expectedParentSlug = product.parentCategory.split("/").pop();
   if (parentSlug !== expectedParentSlug) {
     return <NotFound />;
   }
@@ -156,7 +182,9 @@ export default function ProductSubCategoryDynamic() {
                     "High-quality sensor group for industrial automation applications.";
 
                   return (
-                    <Link href={`/products/${parentSlug}/${slug}/${group.slug}`}>
+                    <Link
+                      href={`/products/${parentSlug}/${slug}/${group.slug}`}
+                    >
                       <Card
                         key={group.key}
                         className="group hover:shadow-lg transition-all duration-300"
