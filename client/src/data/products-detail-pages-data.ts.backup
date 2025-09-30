@@ -1482,7 +1482,7 @@ export const products: Product[] = [
     id: "danfoss-kp36",
     slug: "danfoss-kp36-pressure-switch",
     categoryKey: "instrumentation-accessories",
-    subcategoryKey: "switches-indicators",
+    subcategoryKey: "switches",
     typeKey: "pressure-switches",
     image: "pressure-switch",
     title: "Danfoss KP36 Pressure Switch",
@@ -1510,7 +1510,7 @@ export const products: Product[] = [
     id: "schneider-9013fsg2j24m4",
     slug: "schneider-9013fsg2j24m4-pumptrol",
     categoryKey: "instrumentation-accessories",
-    subcategoryKey: "switches-indicators",
+    subcategoryKey: "switches",
     typeKey: "pressure-switches",
     image: "pressure-switch",
     title: "Schneider Electric 9013FSG2J24M4 Pumptrol Switch",
@@ -1539,7 +1539,7 @@ export const products: Product[] = [
     id: "endress-ftl31",
     slug: "endress-ftl31-liquiphant",
     categoryKey: "instrumentation-accessories",
-    subcategoryKey: "switches-indicators",
+    subcategoryKey: "switches",
     typeKey: "level-switches",
     image: "level-switch",
     title: "Endress+Hauser FTL31 Liquiphant Level Switch",
@@ -1566,7 +1566,7 @@ export const products: Product[] = [
     id: "abb-ls-series",
     slug: "abb-ls-series-mechanical",
     categoryKey: "instrumentation-accessories",
-    subcategoryKey: "switches-indicators",
+    subcategoryKey: "switches",
     typeKey: "level-switches",
     image: "level-switch",
     title: "ABB LS Series Mechanical Level Switch",
@@ -1595,7 +1595,7 @@ export const products: Product[] = [
     id: "omron-wlca12-y",
     slug: "omron-wlca12-y-limit-switch",
     categoryKey: "instrumentation-accessories",
-    subcategoryKey: "switches-indicators",
+    subcategoryKey: "switches",
     typeKey: "limit-switches",
     image: "limit-switch",
     title: "Omron WLCA12-Y Heavy-Duty Limit Switch",
@@ -1622,7 +1622,7 @@ export const products: Product[] = [
     id: "schneider-xcmd21f0l1",
     slug: "schneider-xcmd21f0l1-osisense",
     categoryKey: "instrumentation-accessories",
-    subcategoryKey: "switches-indicators",
+    subcategoryKey: "switches",
     typeKey: "limit-switches",
     image: "limit-switch",
     title: "Schneider Electric XCMD21F0L1 OsiSense Limit Switch",
@@ -1651,7 +1651,7 @@ export const products: Product[] = [
     id: "schneider-xb4ba21",
     slug: "schneider-xb4ba21-harmony-pushbutton",
     categoryKey: "instrumentation-accessories",
-    subcategoryKey: "switches-indicators",
+    subcategoryKey: "switches",
     typeKey: "push-buttons",
     image: "push-button",
     title: "Schneider Electric XB4BA21 Harmony Push Button",
@@ -1678,7 +1678,7 @@ export const products: Product[] = [
     id: "eaton-m22-dr-r",
     slug: "eaton-m22-dr-r-pushbutton",
     categoryKey: "instrumentation-accessories",
-    subcategoryKey: "switches-indicators",
+    subcategoryKey: "switches",
     typeKey: "push-buttons",
     image: "push-button",
     title: "Eaton M22-DR-R Emergency Stop Push Button",
@@ -1707,7 +1707,7 @@ export const products: Product[] = [
     id: "fisher-ed-control-valve",
     slug: "fisher-ed-easye-control-valve",
     categoryKey: "instrumentation-accessories",
-    subcategoryKey: "valves-actuators",
+    subcategoryKey: "valves",
     typeKey: "control-valves",
     image: "control-valve",
     title: "Fisher easy-e™ ED Globe Control Valve",
@@ -1734,7 +1734,7 @@ export const products: Product[] = [
     id: "samson-3241-globe-valve",
     slug: "samson-3241-pneumatic-globe-valve",
     categoryKey: "instrumentation-accessories",
-    subcategoryKey: "valves-actuators",
+    subcategoryKey: "valves",
     typeKey: "control-valves",
     image: "control-valve",
     title: "SAMSON Type 3241 Globe Control Valve",
@@ -1763,7 +1763,7 @@ export const products: Product[] = [
     id: "asco-8262h112dc24",
     slug: "asco-8262h112dc24-solenoid-valve",
     categoryKey: "instrumentation-accessories",
-    subcategoryKey: "valves-actuators",
+    subcategoryKey: "valves",
     typeKey: "solenoid-valves",
     image: "solenoid-valve",
     title: "ASCO 8262H112DC24 General Service Solenoid Valve",
@@ -1791,7 +1791,7 @@ export const products: Product[] = [
     id: "parker-s4a-solenoid-valve",
     slug: "parker-s4a-refrigeration-solenoid-valve",
     categoryKey: "instrumentation-accessories",
-    subcategoryKey: "valves-actuators",
+    subcategoryKey: "valves",
     typeKey: "solenoid-valves",
     image: "solenoid-valve",
     title: "Parker S4A Series Refrigeration Solenoid Valve",
@@ -1820,7 +1820,7 @@ export const products: Product[] = [
     id: "fisher-v150-vee-ball-valve",
     slug: "fisher-v150-vee-ball-valve",
     categoryKey: "instrumentation-accessories",
-    subcategoryKey: "valves-actuators",
+    subcategoryKey: "valves",
     typeKey: "on-off-valves",
     image: "on-off-valve",
     datasheetUrl: "https://www.emerson.com/documents/automation/fisher-vee-ball-v150-v200-v300-rotary-control-valves-en-11739128.pdf",
@@ -1847,7 +1847,7 @@ export const products: Product[] = [
     id: "fisher-v280-ball-valve",
     slug: "fisher-v280-full-bore-ball-valve",
     categoryKey: "instrumentation-accessories",
-    subcategoryKey: "valves-actuators",
+    subcategoryKey: "valves",
     typeKey: "on-off-valves",
     image: "on-off-valve",
     datasheetUrl: "https://www.emerson.com/en-us/catalog/fisher-v280",
@@ -1874,7 +1874,7 @@ export const products: Product[] = [
     id: "flowserve-worcester-f519-ball-valve",
     slug: "flowserve-worcester-f519-ball-valve",
     categoryKey: "instrumentation-accessories",
-    subcategoryKey: "valves-actuators",
+    subcategoryKey: "valves",
     typeKey: "on-off-valves",
     image: "on-off-valve",
     datasheetUrl: "https://www.flowserve.com/en/products/products-catalog/valves/ball-valves/",
@@ -1901,7 +1901,7 @@ export const products: Product[] = [
     id: "flowserve-worcester-series44-ball-valve",
     slug: "flowserve-worcester-series44-ball-valve",
     categoryKey: "instrumentation-accessories",
-    subcategoryKey: "valves-actuators",
+    subcategoryKey: "valves",
     typeKey: "on-off-valves",
     image: "on-off-valve",
     datasheetUrl: "https://www.flowserve.com/en/products/brands/worcester/",
@@ -1928,7 +1928,7 @@ export const products: Product[] = [
     id: "swagelok-ss43gs4-ball-valve",
     slug: "swagelok-ss43gs4-ball-valve",
     categoryKey: "instrumentation-accessories",
-    subcategoryKey: "valves-actuators",
+    subcategoryKey: "valves",
     typeKey: "on-off-valves",
     image: "on-off-valve",
     datasheetUrl: "https://www.swagelok.com/downloads/webcatalogs/en/ms-02-331.pdf",
@@ -1955,7 +1955,7 @@ export const products: Product[] = [
     id: "burkert-2655-ball-valve",
     slug: "burkert-2655-pneumatic-ball-valve",
     categoryKey: "instrumentation-accessories",
-    subcategoryKey: "valves-actuators",
+    subcategoryKey: "valves",
     typeKey: "on-off-valves",
     image: "on-off-valve",
     datasheetUrl: "https://www.burkert.com/en/type/2655",
@@ -2838,7 +2838,7 @@ export const products: Product[] = [
     id: "omron-e2e-x5me1-pnp-proximity",
     slug: "omron-e2e-x5me1-pnp-proximity-sensor",
     categoryKey: "instrumentation-accessories",
-    subcategoryKey: "sensors-transducers",
+    subcategoryKey: "sensors",
     typeKey: "pnp-npn-sensors",
     image: "sensors",
     specs: {
@@ -2873,7 +2873,7 @@ export const products: Product[] = [
     id: "pepperl-fuchs-nbb5-18gm60-e2-pnp",
     slug: "pepperl-fuchs-nbb5-18gm60-e2-pnp-sensor",
     categoryKey: "instrumentation-accessories",
-    subcategoryKey: "sensors-transducers",
+    subcategoryKey: "sensors",
     image: "sensors",
     specs: {
       type: "PNP Inductive Proximity Sensor",
@@ -2909,7 +2909,7 @@ export const products: Product[] = [
     id: "schneider-xs518b1dal2-pnp",
     slug: "schneider-xs518b1dal2-pnp-proximity",
     categoryKey: "instrumentation-accessories",
-    subcategoryKey: "sensors-transducers",
+    subcategoryKey: "sensors",
     typeKey: "pnp-npn-sensors",
     image: "pnp-proximity-sensor",
     specs: {
@@ -2946,7 +2946,7 @@ export const products: Product[] = [
     id: "schneider-xs630b1nal2-pnp",
     slug: "schneider-xs630b1nal2-pnp-proximity",
     categoryKey: "instrumentation-accessories",
-    subcategoryKey: "sensors-transducers",
+    subcategoryKey: "sensors",
     typeKey: "pnp-npn-sensors",
     image: "pnp-proximity-sensor",
     specs: {
@@ -2986,7 +2986,7 @@ export const products: Product[] = [
     id: "sick-im12-04bns-zw1-npn",
     slug: "sick-im12-04bns-zw1-npn-proximity",
     categoryKey: "instrumentation-accessories",
-    subcategoryKey: "sensors-transducers",
+    subcategoryKey: "sensors",
     typeKey: "pnp-npn-sensors",
     image: "npn-proximity-sensor",
     specs: {
@@ -3021,7 +3021,7 @@ export const products: Product[] = [
     id: "turck-bi5-g18-an6x-npn",
     slug: "turck-bi5-g18-an6x-npn-sensor",
     categoryKey: "instrumentation-accessories",
-    subcategoryKey: "sensors-transducers",
+    subcategoryKey: "sensors",
     image: "sensors",
     specs: {
       type: "NPN Inductive Proximity Sensor",
@@ -3057,7 +3057,7 @@ export const products: Product[] = [
     id: "endress-tst310-pt100-rtd",
     slug: "endress-tst310-pt100-cable-probe",
     categoryKey: "instrumentation-accessories",
-    subcategoryKey: "sensors-transducers",
+    subcategoryKey: "sensors",
     typeKey: "rtd-thermocouples-sensors",
     image: "rtd-temperature-sensor",
     specs: {
@@ -3092,7 +3092,7 @@ export const products: Product[] = [
     id: "rosemount-214c-pt100-rtd",
     slug: "rosemount-214c-pt100-rtd-sensor",
     categoryKey: "instrumentation-accessories",
-    subcategoryKey: "sensors-transducers",
+    subcategoryKey: "sensors",
     typeKey: "rtd-thermocouples-sensors",
     image: "rtd-temperature-sensor",
     specs: {
@@ -3127,7 +3127,7 @@ export const products: Product[] = [
     id: "abb-tth200-pt1000-transmitter",
     slug: "abb-tth200-pt1000-hart-transmitter",
     categoryKey: "instrumentation-accessories",
-    subcategoryKey: "sensors-transducers",
+    subcategoryKey: "sensors",
     typeKey: "rtd-thermocouples-sensors",
     image: "rtd-temperature-sensor",
     specs: {
@@ -3163,7 +3163,7 @@ export const products: Product[] = [
     id: "wika-tr10-pt100-rtd",
     slug: "wika-tr10-pt100-rtd-sensor",
     categoryKey: "instrumentation-accessories",
-    subcategoryKey: "sensors-transducers",
+    subcategoryKey: "sensors",
     typeKey: "rtd-thermocouples-sensors",
     image: "pt100-rtd-sensor",
     specs: {
@@ -3197,7 +3197,7 @@ export const products: Product[] = [
     id: "rosemount-78s-pt500-rtd",
     slug: "rosemount-78s-pt500-rtd-sensor",
     categoryKey: "instrumentation-accessories",
-    subcategoryKey: "sensors-transducers",
+    subcategoryKey: "sensors",
     image: "sensors",
     specs: {
       type: "PT500 RTD Temperature Sensor",
@@ -3230,7 +3230,7 @@ export const products: Product[] = [
     id: "omega-rtd-pt1000-probe",
     slug: "omega-rtd-pt1000-probe-sensor",
     categoryKey: "instrumentation-accessories",
-    subcategoryKey: "sensors-transducers",
+    subcategoryKey: "sensors",
     image: "pt1000-rtd-sensor",
     specs: {
       type: "PT1000 RTD Temperature Sensor",
@@ -3267,7 +3267,7 @@ export const products: Product[] = [
     id: "tc-ltd-type-k-thermocouple",
     slug: "tc-ltd-type-k-thermocouple-sensor",
     categoryKey: "instrumentation-accessories",
-    subcategoryKey: "sensors-transducers",
+    subcategoryKey: "sensors",
     image: "sensors",
     specs: {
       type: "Type K Thermocouple",
@@ -3304,7 +3304,7 @@ export const products: Product[] = [
     id: "omega-type-j-thermocouple",
     slug: "omega-type-j-thermocouple-sensor",
     categoryKey: "instrumentation-accessories",
-    subcategoryKey: "sensors-transducers",
+    subcategoryKey: "sensors",
     image: "sensors",
     specs: {
       type: "Type J Thermocouple",
@@ -3341,7 +3341,7 @@ export const products: Product[] = [
     id: "wika-type-t-thermocouple",
     slug: "wika-type-t-thermocouple-sensor",
     categoryKey: "instrumentation-accessories",
-    subcategoryKey: "sensors-transducers",
+    subcategoryKey: "sensors",
     image: "sensors",
     specs: {
       type: "Type T Thermocouple",
@@ -3378,7 +3378,7 @@ export const products: Product[] = [
     id: "omega-stc-type-s-thermocouple",
     slug: "omega-stc-type-s-thermocouple-sensor",
     categoryKey: "instrumentation-accessories",
-    subcategoryKey: "sensors-transducers",
+    subcategoryKey: "sensors",
     image: "sensors",
     specs: {
       type: "Type S Thermocouple",
@@ -3417,7 +3417,7 @@ export const products: Product[] = [
     id: "rosemount-3051cd-coplanar-transmitter",
     slug: "rosemount-3051cd-coplanar-transmitter",
     categoryKey: "instrumentation-accessories",
-    subcategoryKey: "transmitters-flow-meters",
+    subcategoryKey: "transmitters",
     typeKey: "dp-type-transmitter",
     image: "dp-transmitter-rosemount",
     specs: {
@@ -3455,7 +3455,7 @@ export const products: Product[] = [
     id: "endress-hauser-deltabar-pmd75-dp",
     slug: "endress-hauser-deltabar-pmd75-dp",
     categoryKey: "instrumentation-accessories",
-    subcategoryKey: "transmitters-flow-meters",
+    subcategoryKey: "transmitters",
     typeKey: "dp-type-transmitter",
     image: "dp-transmitter-endress",
     specs: {
@@ -3493,7 +3493,7 @@ export const products: Product[] = [
     id: "yokogawa-eja110e-dp-transmitter",
     slug: "yokogawa-eja110e-dp-transmitter",
     categoryKey: "instrumentation-accessories",
-    subcategoryKey: "transmitters-flow-meters",
+    subcategoryKey: "transmitters",
     typeKey: "dp-type-transmitter",
     image: "dp-transmitter-yokogawa",
     specs: {
@@ -3531,7 +3531,7 @@ export const products: Product[] = [
     id: "honeywell-stt950-dp-transmitter",
     slug: "honeywell-stt950-dp-transmitter",
     categoryKey: "instrumentation-accessories",
-    subcategoryKey: "transmitters-flow-meters",
+    subcategoryKey: "transmitters",
     typeKey: "dp-type-transmitter",
     image: "dp-transmitter-honeywell",
     specs: {
@@ -3571,7 +3571,7 @@ export const products: Product[] = [
     id: "endress-hauser-cps11d-ph-sensor",
     slug: "endress-hauser-cps11d-ph-sensor",
     categoryKey: "instrumentation-accessories",
-    subcategoryKey: "sensors-transducers",
+    subcategoryKey: "sensors",
     image: "sensors",
     specs: {
       type: "Digital pH Sensor",
@@ -3608,7 +3608,7 @@ export const products: Product[] = [
     id: "hach-phd-sc-ph-sensor",
     slug: "hach-phd-sc-ph-sensor",
     categoryKey: "instrumentation-accessories",
-    subcategoryKey: "sensors-transducers",
+    subcategoryKey: "sensors",
     image: "sensors",
     specs: {
       type: "Differential pH Sensor",
@@ -3649,7 +3649,7 @@ export const products: Product[] = [
     id: "siemens-sitrans-p320-pressure",
     slug: "siemens-sitrans-p320-pressure",
     categoryKey: "instrumentation-accessories",
-    subcategoryKey: "transmitters-flow-meters",
+    subcategoryKey: "transmitters",
     typeKey: "p-type-transmitter",
     image: "p-transmitter-siemens",
     specs: {
@@ -3687,7 +3687,7 @@ export const products: Product[] = [
     id: "abb-2600t-series-pressure",
     slug: "abb-2600t-series-pressure",
     categoryKey: "instrumentation-accessories",
-    subcategoryKey: "transmitters-flow-meters",
+    subcategoryKey: "transmitters",
     typeKey: "p-type-transmitter",
     image: "p-transmitter-abb",
     specs: {
@@ -3725,7 +3725,7 @@ export const products: Product[] = [
     id: "wika-a10-pressure-transmitter",
     slug: "wika-a10-pressure-transmitter",
     categoryKey: "instrumentation-accessories",
-    subcategoryKey: "transmitters-flow-meters",
+    subcategoryKey: "transmitters",
     typeKey: "p-type-transmitter",
     image: "p-transmitter-wika",
     specs: {
@@ -3763,7 +3763,7 @@ export const products: Product[] = [
     id: "fuji-fcx-aii-pressure",
     slug: "fuji-fcx-aii-pressure",
     categoryKey: "instrumentation-accessories",
-    subcategoryKey: "transmitters-flow-meters",
+    subcategoryKey: "transmitters",
     typeKey: "p-type-transmitter",
     image: "p-transmitter-fuji",
     specs: {
@@ -3803,7 +3803,7 @@ export const products: Product[] = [
     id: "rosemount-3051s-remote-seal",
     slug: "rosemount-3051s-remote-seal",
     categoryKey: "instrumentation-accessories",
-    subcategoryKey: "transmitters-flow-meters",
+    subcategoryKey: "transmitters",
     typeKey: "rs-type-transmitter",
     image: "rs-transmitter-rosemount",
     specs: {
@@ -3843,7 +3843,7 @@ export const products: Product[] = [
     id: "endress-hauser-cerabar-s-remote",
     slug: "endress-hauser-cerabar-s-remote",
     categoryKey: "instrumentation-accessories",
-    subcategoryKey: "transmitters-flow-meters",
+    subcategoryKey: "transmitters",
     typeKey: "rs-type-transmitter",
     image: "rs-transmitter-endress",
     specs: {
@@ -3883,7 +3883,7 @@ export const products: Product[] = [
     id: "yokogawa-eja430e-remote-seal",
     slug: "yokogawa-eja430e-remote-seal",
     categoryKey: "instrumentation-accessories",
-    subcategoryKey: "transmitters-flow-meters",
+    subcategoryKey: "transmitters",
     typeKey: "rs-type-transmitter",
     image: "rs-transmitter-yokogawa",
     specs: {
@@ -3923,7 +3923,7 @@ export const products: Product[] = [
     id: "honeywell-stt850-remote-seal",
     slug: "honeywell-stt850-remote-seal",
     categoryKey: "instrumentation-accessories",
-    subcategoryKey: "transmitters-flow-meters",
+    subcategoryKey: "transmitters",
     typeKey: "rs-type-transmitter",
     image: "rs-transmitter-honeywell",
     specs: {
@@ -3965,7 +3965,7 @@ export const products: Product[] = [
     id: "endress-hauser-promag-w400",
     slug: "endress-hauser-promag-w400",
     categoryKey: "instrumentation-accessories",
-    subcategoryKey: "transmitters-flow-meters",
+    subcategoryKey: "transmitters",
     typeKey: "magnetic-flow-meter",
     image: "magnetic-flowmeter-endress",
     specs: {
@@ -4005,7 +4005,7 @@ export const products: Product[] = [
     id: "rosemount-8750w-magnetic-flowmeter",
     slug: "rosemount-8750w-magnetic-flowmeter",
     categoryKey: "instrumentation-accessories",
-    subcategoryKey: "transmitters-flow-meters",
+    subcategoryKey: "transmitters",
     typeKey: "magnetic-flow-meter",
     image: "magnetic-flowmeter-rosemount",
     specs: {
@@ -4045,7 +4045,7 @@ export const products: Product[] = [
     id: "abb-procesmaster-fem300",
     slug: "abb-procesmaster-fem300",
     categoryKey: "instrumentation-accessories",
-    subcategoryKey: "transmitters-flow-meters",
+    subcategoryKey: "transmitters",
     typeKey: "magnetic-flow-meter",
     image: "magnetic-flowmeter-abb",
     specs: {
@@ -4085,7 +4085,7 @@ export const products: Product[] = [
     id: "yokogawa-admag-axf-magnetic",
     slug: "yokogawa-admag-axf-magnetic",
     categoryKey: "instrumentation-accessories",
-    subcategoryKey: "transmitters-flow-meters",
+    subcategoryKey: "transmitters",
     typeKey: "magnetic-flow-meter",
     image: "magnetic-flowmeter-yokogawa",
     specs: {
@@ -4127,7 +4127,7 @@ export const products: Product[] = [
     id: "emerson-micro-motion-cmf300",
     slug: "emerson-micro-motion-cmf300",
     categoryKey: "instrumentation-accessories",
-    subcategoryKey: "transmitters-flow-meters",
+    subcategoryKey: "transmitters",
     typeKey: "mass-flow-meter",
     image: "mass-flowmeter-emerson",
     specs: {
@@ -4167,7 +4167,7 @@ export const products: Product[] = [
     id: "endress-hauser-promass-83f",
     slug: "endress-hauser-promass-83f",
     categoryKey: "instrumentation-accessories",
-    subcategoryKey: "transmitters-flow-meters",
+    subcategoryKey: "transmitters",
     typeKey: "mass-flow-meter",
     image: "mass-flowmeter-endress",
     specs: {
@@ -4207,7 +4207,7 @@ export const products: Product[] = [
     id: "abb-sensyflow-cmf300",
     slug: "abb-sensyflow-cmf300",
     categoryKey: "instrumentation-accessories",
-    subcategoryKey: "transmitters-flow-meters",
+    subcategoryKey: "transmitters",
     typeKey: "mass-flow-meter",
     image: "mass-flowmeter-abb",
     specs: {
@@ -4247,7 +4247,7 @@ export const products: Product[] = [
     id: "yokogawa-rotamass-rccs33",
     slug: "yokogawa-rotamass-rccs33",
     categoryKey: "instrumentation-accessories",
-    subcategoryKey: "transmitters-flow-meters",
+    subcategoryKey: "transmitters",
     typeKey: "mass-flow-meter",
     image: "mass-flowmeter-yokogawa",
     specs: {
@@ -4289,7 +4289,7 @@ export const products: Product[] = [
     id: "endress-hauser-prowirl-f200",
     slug: "endress-hauser-prowirl-f200",
     categoryKey: "instrumentation-accessories",
-    subcategoryKey: "transmitters-flow-meters",
+    subcategoryKey: "transmitters",
     typeKey: "vortex-flow-meter",
     image: "vortex-flowmeter-endress",
     specs: {
@@ -4329,7 +4329,7 @@ export const products: Product[] = [
     id: "rosemount-8800d-vortex",
     slug: "rosemount-8800d-vortex",
     categoryKey: "instrumentation-accessories",
-    subcategoryKey: "transmitters-flow-meters",
+    subcategoryKey: "transmitters",
     typeKey: "vortex-flow-meter",
     image: "vortex-flowmeter-rosemount",
     specs: {
@@ -4369,7 +4369,7 @@ export const products: Product[] = [
     id: "yokogawa-digitalyewflo-avf",
     slug: "yokogawa-digitalyewflo-avf",
     categoryKey: "instrumentation-accessories",
-    subcategoryKey: "transmitters-flow-meters",
+    subcategoryKey: "transmitters",
     typeKey: "vortex-flow-meter",
     image: "vortex-flowmeter-yokogawa",
     specs: {
@@ -4409,7 +4409,7 @@ export const products: Product[] = [
     id: "abb-swirl-meter-fsv450",
     slug: "abb-swirl-meter-fsv450",
     categoryKey: "instrumentation-accessories",
-    subcategoryKey: "transmitters-flow-meters",
+    subcategoryKey: "transmitters",
     typeKey: "vortex-flow-meter",
     image: "vortex-flowmeter-abb",
     specs: {
@@ -4451,7 +4451,7 @@ export const products: Product[] = [
     id: "endress-hauser-proline-t-mass-83a",
     slug: "endress-hauser-proline-t-mass-83a",
     categoryKey: "instrumentation-accessories",
-    subcategoryKey: "transmitters-flow-meters",
+    subcategoryKey: "transmitters",
     typeKey: "volumetric-flow-meter",
     image: "volumetric-flowmeter-endress",
     specs: {
@@ -4492,7 +4492,7 @@ export const products: Product[] = [
     id: "sierra-instruments-640s-mass",
     slug: "sierra-instruments-640s-mass",
     categoryKey: "instrumentation-accessories",
-    subcategoryKey: "transmitters-flow-meters",
+    subcategoryKey: "transmitters",
     typeKey: "volumetric-flow-meter",
     image: "volumetric-flowmeter-sierra",
     specs: {
@@ -4533,7 +4533,7 @@ export const products: Product[] = [
     id: "bronkhorst-in-flow-f230",
     slug: "bronkhorst-in-flow-f230",
     categoryKey: "instrumentation-accessories",
-    subcategoryKey: "transmitters-flow-meters",
+    subcategoryKey: "transmitters",
     typeKey: "volumetric-flow-meter",
     image: "volumetric-flowmeter-bronkhorst",
     specs: {
@@ -4576,7 +4576,7 @@ export const products: Product[] = [
     id: "oval-flowpet-lsf41",
     slug: "oval-flowpet-lsf41",
     categoryKey: "instrumentation-accessories",
-    subcategoryKey: "transmitters-flow-meters",
+    subcategoryKey: "transmitters",
     image: "pd-flowmeter-oval",
     specs: {
       type: "Positive Displacement Flow Meter (PD)",
@@ -4616,7 +4616,7 @@ export const products: Product[] = [
     id: "badger-meter-m1000",
     slug: "badger-meter-m1000",
     categoryKey: "instrumentation-accessories",
-    subcategoryKey: "transmitters-flow-meters",
+    subcategoryKey: "transmitters",
     image: "pd-flowmeter-badger",
     specs: {
       type: "Positive Displacement Flow Meter",
@@ -4656,7 +4656,7 @@ export const products: Product[] = [
     id: "krohne-bm100-pd-meter",
     slug: "krohne-bm100-pd-meter",
     categoryKey: "instrumentation-accessories",
-    subcategoryKey: "transmitters-flow-meters",
+    subcategoryKey: "transmitters",
     image: "pd-flowmeter-krohne",
     specs: {
       type: "Positive Displacement Oval Gear Flow Meter",
@@ -4696,7 +4696,7 @@ export const products: Product[] = [
     id: "kral-volumeter-omg",
     slug: "kral-volumeter-omg",
     categoryKey: "instrumentation-accessories",
-    subcategoryKey: "transmitters-flow-meters",
+    subcategoryKey: "transmitters",
     image: "pd-flowmeter-kral",
     specs: {
       type: "Positive Displacement Screw Flow Meter",
@@ -4738,7 +4738,7 @@ export const products: Product[] = [
     id: "rosemount-5408-level-transmitter",
     slug: "rosemount-5408-level-transmitter",
     categoryKey: "instrumentation-accessories",
-    subcategoryKey: "transmitters-flow-meters",
+    subcategoryKey: "transmitters",
     image: "transmitters",
     specs: {
       type: "Non-Contact Radar Level Transmitter",
@@ -4774,7 +4774,7 @@ export const products: Product[] = [
     id: "endress-hauser-fmr20-radar-level",
     slug: "endress-hauser-fmr20-radar-level",
     categoryKey: "instrumentation-accessories",
-    subcategoryKey: "transmitters-flow-meters",
+    subcategoryKey: "transmitters",
     image: "transmitters",
     specs: {
       type: "Radar Level Transmitter",
@@ -4812,7 +4812,7 @@ export const products: Product[] = [
     id: "endress-hauser-liquiline-m-cm42",
     slug: "endress-hauser-liquiline-m-cm42",
     categoryKey: "instrumentation-accessories",
-    subcategoryKey: "transmitters-flow-meters",
+    subcategoryKey: "transmitters",
     image: "transmitters",
     specs: {
       type: "Universal Analytical Transmitter",
@@ -4850,7 +4850,7 @@ export const products: Product[] = [
     id: "rosemount-wireless-1420-gateway",
     slug: "rosemount-wireless-1420-gateway",
     categoryKey: "instrumentation-accessories",
-    subcategoryKey: "transmitters-flow-meters",
+    subcategoryKey: "transmitters",
     image: "transmitters",
     specs: {
       type: "Wireless Gateway",
@@ -4887,7 +4887,7 @@ export const products: Product[] = [
     id: "balluff-bes-516-370-e4-c-pu-03-pnp",
     slug: "balluff-bes-516-370-e4-c-pu-03-pnp",
     categoryKey: "instrumentation-accessories",
-    subcategoryKey: "sensors-transducers",
+    subcategoryKey: "sensors",
     image: "sensors",
     specs: {
       type: "PNP Inductive Proximity Sensor",
@@ -4922,7 +4922,7 @@ export const products: Product[] = [
     id: "ifm-ig5854-igkfpkg-npn",
     slug: "ifm-ig5854-igkfpkg-npn",
     categoryKey: "instrumentation-accessories",
-    subcategoryKey: "sensors-transducers",
+    subcategoryKey: "sensors",
     image: "sensors",
     specs: {
       type: "NPN Inductive Proximity Sensor",
@@ -4957,7 +4957,7 @@ export const products: Product[] = [
     id: "telemecanique-xs618b1pam12-pnp",
     slug: "telemecanique-xs618b1pam12-pnp",
     categoryKey: "instrumentation-accessories",
-    subcategoryKey: "sensors-transducers",
+    subcategoryKey: "sensors",
     image: "sensors",
     specs: {
       type: "PNP Inductive Proximity Sensor",
@@ -4992,7 +4992,7 @@ export const products: Product[] = [
     id: "jumo-902820-pt100-rtd",
     slug: "jumo-902820-pt100-rtd",
     categoryKey: "instrumentation-accessories",
-    subcategoryKey: "sensors-transducers",
+    subcategoryKey: "sensors",
     image: "sensors",
     specs: {
       type: "PT100 RTD Temperature Sensor",
@@ -5027,7 +5027,7 @@ export const products: Product[] = [
     id: "heraeus-m222-pt1000-rtd",
     slug: "heraeus-m222-pt1000-rtd",
     categoryKey: "instrumentation-accessories",
-    subcategoryKey: "sensors-transducers",
+    subcategoryKey: "sensors",
     image: "sensors",
     specs: {
       type: "PT1000 RTD Temperature Sensor",
@@ -5062,7 +5062,7 @@ export const products: Product[] = [
     id: "watlow-type-k-thermocouple",
     slug: "watlow-type-k-thermocouple",
     categoryKey: "instrumentation-accessories",
-    subcategoryKey: "sensors-transducers",
+    subcategoryKey: "sensors",
     image: "sensors",
     specs: {
       type: "Type K Thermocouple",
@@ -5095,7 +5095,7 @@ export const products: Product[] = [
     id: "yokogawa-ph450g-ph-sensor",
     slug: "yokogawa-ph450g-ph-sensor",
     categoryKey: "instrumentation-accessories",
-    subcategoryKey: "sensors-transducers",
+    subcategoryKey: "sensors",
     image: "sensors",
     specs: {
       type: "pH Sensor",
@@ -5128,7 +5128,7 @@ export const products: Product[] = [
     id: "pilz-psen-op4h-proximity",
     slug: "pilz-psen-op4h-proximity",
     categoryKey: "instrumentation-accessories",
-    subcategoryKey: "sensors-transducers",
+    subcategoryKey: "sensors",
     image: "sensors",
     specs: {
       type: "Safety Proximity Sensor",
@@ -5162,7 +5162,7 @@ export const products: Product[] = [
     id: "euchner-ces-a-bhn-proximity",
     slug: "euchner-ces-a-bhn-proximity",
     categoryKey: "instrumentation-accessories",
-    subcategoryKey: "sensors-transducers",
+    subcategoryKey: "sensors",
     image: "sensors",
     specs: {
       type: "Inductive Proximity Sensor",
@@ -5196,7 +5196,7 @@ export const products: Product[] = [
     id: "baumer-ifrm-08p1501-proximity",
     slug: "baumer-ifrm-08p1501-proximity",
     categoryKey: "instrumentation-accessories",
-    subcategoryKey: "sensors-transducers",
+    subcategoryKey: "sensors",
     image: "sensors",
     specs: {
       type: "PNP Inductive Proximity Sensor",
@@ -5230,7 +5230,7 @@ export const products: Product[] = [
     id: "leuze-is-212mm-proximity",
     slug: "leuze-is-212mm-proximity",
     categoryKey: "instrumentation-accessories",
-    subcategoryKey: "sensors-transducers",
+    subcategoryKey: "sensors",
     image: "sensors",
     specs: {
       type: "Inductive Proximity Sensor",
@@ -5264,7 +5264,7 @@ export const products: Product[] = [
     id: "abb-tem104-pt100-rtd",
     slug: "abb-tem104-pt100-rtd",
     categoryKey: "instrumentation-accessories",
-    subcategoryKey: "sensors-transducers",
+    subcategoryKey: "sensors",
     image: "pt100-rtd-sensor",
     specs: {
       type: "PT100 RTD Temperature Sensor",
@@ -5298,7 +5298,7 @@ export const products: Product[] = [
     id: "honeywell-t775-pt1000-rtd",
     slug: "honeywell-t775-pt1000-rtd",
     categoryKey: "instrumentation-accessories",
-    subcategoryKey: "sensors-transducers",
+    subcategoryKey: "sensors",
     image: "pt1000-rtd-sensor",
     specs: {
       type: "PT1000 RTD Temperature Sensor",
@@ -5332,7 +5332,7 @@ export const products: Product[] = [
     id: "fluke-5627a-pt25-rtd",
     slug: "fluke-5627a-pt25-rtd",
     categoryKey: "instrumentation-accessories",
-    subcategoryKey: "sensors-transducers",
+    subcategoryKey: "sensors",
     image: "sensors",
     specs: {
       type: "PT25 RTD Temperature Sensor",
@@ -5366,7 +5366,7 @@ export const products: Product[] = [
     id: "eurotherm-t2750-type-n-thermocouple",
     slug: "eurotherm-t2750-type-n-thermocouple",
     categoryKey: "instrumentation-accessories",
-    subcategoryKey: "sensors-transducers",
+    subcategoryKey: "sensors",
     image: "sensors",
     specs: {
       type: "Type N Thermocouple",
@@ -5399,7 +5399,7 @@ export const products: Product[] = [
     id: "pyromation-r2ma-type-r-thermocouple",
     slug: "pyromation-r2ma-type-r-thermocouple",
     categoryKey: "instrumentation-accessories",
-    subcategoryKey: "sensors-transducers",
+    subcategoryKey: "sensors",
     image: "sensors",
     specs: {
       type: "Type R Thermocouple",
@@ -5432,7 +5432,7 @@ export const products: Product[] = [
     id: "hamilton-polilyte-plus-ph-sensor",
     slug: "hamilton-polilyte-plus-ph-sensor",
     categoryKey: "instrumentation-accessories",
-    subcategoryKey: "sensors-transducers",
+    subcategoryKey: "sensors",
     image: "sensors",
     specs: {
       type: "pH Sensor",
@@ -5465,7 +5465,7 @@ export const products: Product[] = [
     id: "sensorex-s272cd-ph-sensor",
     slug: "sensorex-s272cd-ph-sensor",
     categoryKey: "instrumentation-accessories",
-    subcategoryKey: "sensors-transducers",
+    subcategoryKey: "sensors",
     image: "sensors",
     specs: {
       type: "pH/ORP Combination Sensor",
@@ -5498,7 +5498,7 @@ export const products: Product[] = [
     id: "banner-qs18vn6d-photoelectric",
     slug: "banner-qs18vn6d-photoelectric",
     categoryKey: "instrumentation-accessories",
-    subcategoryKey: "sensors-transducers",
+    subcategoryKey: "sensors",
     image: "sensors",
     specs: {
       type: "Photoelectric Sensor",
@@ -5532,7 +5532,7 @@ export const products: Product[] = [
     id: "keyence-pz-g41cn-photoelectric",
     slug: "keyence-pz-g41cn-photoelectric",
     categoryKey: "instrumentation-accessories",
-    subcategoryKey: "sensors-transducers",
+    subcategoryKey: "sensors",
     image: "sensors",
     specs: {
       type: "Laser Photoelectric Sensor",
@@ -5566,7 +5566,7 @@ export const products: Product[] = [
     id: "wenglor-og2a103-photoelectric",
     slug: "wenglor-og2a103-photoelectric",
     categoryKey: "instrumentation-accessories",
-    subcategoryKey: "sensors-transducers",
+    subcategoryKey: "sensors",
     image: "sensors",
     specs: {
       type: "Retroreflective Photoelectric Sensor",
@@ -5602,7 +5602,7 @@ export const products: Product[] = [
     id: "flintec-pc2-load-cell",
     slug: "flintec-pc2-load-cell",
     categoryKey: "instrumentation-accessories",
-    subcategoryKey: "transmitters-flow-meters",
+    subcategoryKey: "transmitters",
     image: "transmitters",
     specs: {
       type: "Compression Load Cell",
@@ -5635,7 +5635,7 @@ export const products: Product[] = [
     id: "honeywell-st3000-pressure-transmitter",
     slug: "honeywell-st3000-pressure-transmitter",
     categoryKey: "instrumentation-accessories",
-    subcategoryKey: "transmitters-flow-meters",
+    subcategoryKey: "transmitters",
     image: "transmitters",
     specs: {
       type: "Smart Pressure Transmitter",
@@ -5668,7 +5668,7 @@ export const products: Product[] = [
     id: "abb-266-pressure-transmitter",
     slug: "abb-266-pressure-transmitter",
     categoryKey: "instrumentation-accessories",
-    subcategoryKey: "transmitters-flow-meters",
+    subcategoryKey: "transmitters",
     image: "transmitters",
     specs: {
       type: "Absolute/Gauge Pressure Transmitter",
@@ -5701,7 +5701,7 @@ export const products: Product[] = [
     id: "siemens-sitrans-p-pressure-transmitter",
     slug: "siemens-sitrans-p-pressure-transmitter",
     categoryKey: "instrumentation-accessories",
-    subcategoryKey: "transmitters-flow-meters",
+    subcategoryKey: "transmitters",
     image: "transmitters",
     specs: {
       type: "Smart Pressure Transmitter",
@@ -5734,7 +5734,7 @@ export const products: Product[] = [
     id: "yokogawa-eja-pressure-transmitter",
     slug: "yokogawa-eja-pressure-transmitter",
     categoryKey: "instrumentation-accessories",
-    subcategoryKey: "transmitters-flow-meters",
+    subcategoryKey: "transmitters",
     image: "transmitters",
     specs: {
       type: "DPharp Pressure Transmitter",
@@ -5767,7 +5767,7 @@ export const products: Product[] = [
     id: "krohne-optiflux-flow-meter",
     slug: "krohne-optiflux-flow-meter",
     categoryKey: "instrumentation-accessories",
-    subcategoryKey: "transmitters-flow-meters",
+    subcategoryKey: "transmitters",
     image: "transmitters",
     specs: {
       type: "Electromagnetic Flow Meter",
@@ -5800,7 +5800,7 @@ export const products: Product[] = [
     id: "vega-vegapuls-radar-level",
     slug: "vega-vegapuls-radar-level",
     categoryKey: "instrumentation-accessories",
-    subcategoryKey: "transmitters-flow-meters",
+    subcategoryKey: "transmitters",
     image: "transmitters",
     specs: {
       type: "Radar Level Transmitter",
@@ -5836,7 +5836,7 @@ export const products: Product[] = [
     id: "switch-pushbutton-illuminated",
     slug: "switch-pushbutton-illuminated",
     categoryKey: "instrumentation-accessories",
-    subcategoryKey: "switches-indicators",
+    subcategoryKey: "switches",
     image: "switches",
     specs: {
       type: "Illuminated Pushbutton",
@@ -5864,7 +5864,7 @@ export const products: Product[] = [
     id: "switch-selector-rotary",
     slug: "switch-selector-rotary",
     categoryKey: "instrumentation-accessories",
-    subcategoryKey: "switches-indicators",
+    subcategoryKey: "switches",
     image: "switches",
     specs: {
       type: "Rotary Selector",
@@ -5892,7 +5892,7 @@ export const products: Product[] = [
     id: "switch-emergency-stop-safety",
     slug: "switch-emergency-stop-safety",
     categoryKey: "instrumentation-accessories",
-    subcategoryKey: "switches-indicators",
+    subcategoryKey: "switches",
     image: "switches",
     specs: {
       type: "Emergency Stop",
@@ -9292,7 +9292,7 @@ export const products: Product[] = [
     id: "valve-ball-two-piece-stainless",
     slug: "valve-ball-two-piece-stainless",
     categoryKey: "instrumentation-accessories",
-    subcategoryKey: "valves-actuators",
+    subcategoryKey: "valves",
     image: "valves",
     specs: {
       size: "1/4 to 4 inch",
@@ -9312,7 +9312,7 @@ export const products: Product[] = [
     id: "valve-butterfly-wafer-type",
     slug: "valve-butterfly-wafer-type",
     categoryKey: "instrumentation-accessories",
-    subcategoryKey: "valves-actuators",
+    subcategoryKey: "valves",
     image: "valves",
     specs: {
       size: "2 to 24 inch",
@@ -9341,7 +9341,7 @@ export const products: Product[] = [
     id: "valve-gate-rising-stem",
     slug: "valve-gate-rising-stem",
     categoryKey: "instrumentation-accessories",
-    subcategoryKey: "valves-actuators",
+    subcategoryKey: "valves",
     image: "valves",
     specs: {
       size: "1/2 to 12 inch",
@@ -9370,7 +9370,7 @@ export const products: Product[] = [
     id: "valve-globe-angle-pattern",
     slug: "valve-globe-angle-pattern",
     categoryKey: "instrumentation-accessories",
-    subcategoryKey: "valves-actuators",
+    subcategoryKey: "valves",
     image: "valves",
     specs: {
       size: "1/2 to 8 inch",
@@ -9399,7 +9399,7 @@ export const products: Product[] = [
     id: "valve-check-swing-type",
     slug: "valve-check-swing-type",
     categoryKey: "instrumentation-accessories",
-    subcategoryKey: "valves-actuators",
+    subcategoryKey: "valves",
     image: "valves",
     specs: {
       size: "2 to 24 inch",
@@ -9428,7 +9428,7 @@ export const products: Product[] = [
     id: "valve-safety-relief-spring",
     slug: "valve-safety-relief-spring",
     categoryKey: "instrumentation-accessories",
-    subcategoryKey: "valves-actuators",
+    subcategoryKey: "valves",
     image: "valves",
     specs: {
       size: "1/2 to 8 inch",

@@ -42,10 +42,10 @@ export default function ProductGroupDynamic() {
           <p className="text-muted-foreground mb-8">
             The products you're looking for doesn't exist.
           </p>
-          <Link href={`/products/${parentSlug}/${subcategorySlug}`}>
+          <Link href="/products">
             <Button className="bg-primary hover:bg-primary/90 text-primary-foreground">
               <ArrowLeft className="mr-2 h-4 w-4" />
-              Back to {subcategory.title}
+              Back to Products
             </Button>
           </Link>
         </motion.div>
@@ -70,10 +70,10 @@ export default function ProductGroupDynamic() {
           <p className="text-muted-foreground mb-8">
             The products you're looking for doesn't exist.
           </p>
-          <Link href={`/products/${parentSlug}/${subcategorySlug}`}>
+          <Link href="/products">
             <Button className="bg-primary hover:bg-primary/90 text-primary-foreground">
               <ArrowLeft className="mr-2 h-4 w-4" />
-              Back to {subcategory.title}
+              Back to Products
             </Button>
           </Link>
         </motion.div>
