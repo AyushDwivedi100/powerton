@@ -62,10 +62,9 @@ Allow: /*.woff2
 
 # Sitemap locations
 Sitemap: https://powertonengineering.in/sitemap.xml
-Sitemap: https://powertonengineering.in/sitemap.txt
 
 # Preferred domain
-Host: https://powertonengineering.in
+Host: powertonengineering.in
 
 # Crawl budget optimization
 User-agent: *
