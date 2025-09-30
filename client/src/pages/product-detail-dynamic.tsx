@@ -4,6 +4,8 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { getProductDetailBySlug } from "@/data/products-detail-pages-data";
 import { useTranslation } from "react-i18next";
 import { SEO } from "@/lib/seo";
+import { generateProductData, generateBreadcrumbData } from "@/utils/seo-enhancements";
+import { Helmet } from "react-helmet-async";
 import {
   ArrowRight,
   ArrowLeft,
@@ -50,6 +52,27 @@ const ProductDetailDynamic: React.FC = () => {
     );
   }
 
+  // Generate breadcrumb schema
+  const breadcrumbItems = [
+    { name: "Home", url: "/" },
+    { name: "Products", url: "/products" },
+    { name: productData.categoryName || "Category", url: productData.categoryPath || "/products" },
+    { name: productData.title, url: `${productData.categoryPath}/${slug}` }
+  ];
+
+  // Generate enhanced product schema
+  const productSchema = generateProductData({
+    name: productData.title,
+    description: productData.shortDescription || productData.fullDescription || "",
+    image: productData.image,
+    brand: "Powerton Engineering",
+    manufacturer: "Powerton Engineering Pvt. Ltd.",
+    category: productData.categoryName,
+    specifications: productData.specifications,
+  });
+
+  const breadcrumbSchema = generateBreadcrumbData(breadcrumbItems);
+
   return (
     <>
       <SEO
@@ -57,22 +80,13 @@ const ProductDetailDynamic: React.FC = () => {
         description={productData.seo.description}
         keywords={productData.seo.keywords}
         canonicalUrl={productData.seo.canonicalUrl}
-        structuredData={{
-          "@context": "https://schema.org",
-          "@type": "Product",
-          name: productData.title,
-          description: productData.shortDescription,
-          category: productData.categoryName,
-          brand: {
-            "@type": "Organization",
-            name: "Powerton Engineering Pvt. Ltd.",
-          },
-          manufacturer: {
-            "@type": "Organization",
-            name: "Powerton Engineering Pvt. Ltd.",
-          },
-        }}
+        structuredData={productSchema}
       />
+      <Helmet>
+        <script type="application/ld+json">
+          {JSON.stringify(breadcrumbSchema)}
+        </script>
+      </Helmet>
 
       <div className="grid grid-cols-1 gap-8">
         <Button

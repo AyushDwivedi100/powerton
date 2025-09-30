@@ -29,6 +29,8 @@ import {
 import { Link, useParams } from "wouter";
 import { getServiceHeroImage } from "@/assets/images";
 import { useTranslation } from "react-i18next";
+import { Helmet } from "react-helmet-async";
+import { generateBreadcrumbData } from "@/utils/seo-enhancements";
 
 const iconMap = {
   tools: Hammer,
@@ -87,12 +89,48 @@ export default function ServiceCategoryPage() {
   const IconComponent =
     iconMap[serviceData.icon as keyof typeof iconMap] || Settings;
 
+  // Generate breadcrumb schema for services
+  const breadcrumbItems = [
+    { name: "Home", url: "/" },
+    { name: "Services", url: "/services" },
+    { name: serviceData.title, url: `/services-category/${slug}` }
+  ];
+
+  // Generate Service schema
+  const serviceSchema = {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "name": serviceData.title,
+    "description": serviceData.description,
+    "provider": {
+      "@type": "Organization",
+      "name": "Powerton Engineering Pvt. Ltd.",
+      "url": "https://powertonengineering.in"
+    },
+    "areaServed": {
+      "@type": "Country",
+      "name": "India"
+    },
+    "serviceType": serviceData.title,
+    "url": `https://powertonengineering.in/services-category/${slug}`
+  };
+
+  const breadcrumbSchema = generateBreadcrumbData(breadcrumbItems);
+
   return (
     <>
       <SEO
-        title={`${serviceData.title} - Powerton Engineering Services`}
-        description={serviceData.description}
+        title={`${serviceData.title} - Professional Engineering Services | Powerton Engineering`}
+        description={`${serviceData.description}. Expert ${serviceData.title.toLowerCase()} services for industrial automation and electrical engineering projects across India.`}
+        keywords={`${serviceData.title}, industrial services, engineering services, automation services, electrical services, India`}
+        canonicalUrl={`https://powertonengineering.in/services-category/${slug}`}
+        structuredData={serviceSchema}
       />
+      <Helmet>
+        <script type="application/ld+json">
+          {JSON.stringify(breadcrumbSchema)}
+        </script>
+      </Helmet>
 
       <div className="min-h-screen bg-background" role="main" id="main-content">
         {/* Hero Section */}

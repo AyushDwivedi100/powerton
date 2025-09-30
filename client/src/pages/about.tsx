@@ -26,6 +26,8 @@ import {
   useScrollAnimations,
 } from "@/hooks/use-scroll-animation";
 import industryFacilityImage from "@assets/generated_images/Industrial_automation_facility_interior_3c4562ec.png";
+import { Helmet } from "react-helmet-async";
+import { generateBreadcrumbData } from "@/utils/seo-enhancements";
 
 const ACHIEVEMENTS = [
   {
@@ -147,6 +149,13 @@ export default function About() {
     },
   ];
 
+  // Generate breadcrumb schema
+  const breadcrumbItems = [
+    { name: "Home", url: "/" },
+    { name: "About Us", url: "/about" }
+  ];
+  const breadcrumbSchema = generateBreadcrumbData(breadcrumbItems);
+
   return (
     <>
       <SEO
@@ -155,6 +164,11 @@ export default function About() {
         keywords={t("pages:about.seo.keywords")}
         canonicalUrl="https://powertonengineering.in/about"
       />
+      <Helmet>
+        <script type="application/ld+json">
+          {JSON.stringify(breadcrumbSchema)}
+        </script>
+      </Helmet>
 
       {/* Hero Section */}
       <section className="relative hero-fullscreen overflow-hidden">

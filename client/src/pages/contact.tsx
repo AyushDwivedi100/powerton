@@ -26,6 +26,8 @@ import {
   CheckCircle,
 } from "lucide-react";
 import { COMPANY_INFO } from "@/data/constants";
+import { Helmet } from "react-helmet-async";
+import { generateBreadcrumbData } from "@/utils/seo-enhancements";
 
 export default function Contact() {
   useScrollAnimations();
@@ -129,6 +131,13 @@ export default function Contact() {
     },
   ];
 
+  // Generate breadcrumb schema
+  const breadcrumbItems = [
+    { name: "Home", url: "/" },
+    { name: "Contact Us", url: "/contact" }
+  ];
+  const breadcrumbSchema = generateBreadcrumbData(breadcrumbItems);
+
   return (
     <>
       <SEO
@@ -137,6 +146,11 @@ export default function Contact() {
         keywords={t("pages:contact.seo.keywords")}
         canonicalUrl="https://powertonengineering.in/contact"
       />
+      <Helmet>
+        <script type="application/ld+json">
+          {JSON.stringify(breadcrumbSchema)}
+        </script>
+      </Helmet>
 
       {/* Hero Section */}
       <section
