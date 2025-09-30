@@ -8,7 +8,7 @@ packages = ["jq"]
 
 [deployment]
 deploymentTarget = "autoscale"
-build = ["npm", "run", "build"]
+build = ["bash", "-c", "cd client && npm install && npm run build"]
 run = ["npm", "run", "start"]
 
 [[ports]]
@@ -16,7 +16,7 @@ localPort = 5000
 externalPort = 80
 
 [[ports]]
-localPort = 37903
+localPort = 36109
 externalPort = 3000
 
 [env]
