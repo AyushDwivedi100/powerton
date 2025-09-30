@@ -52,13 +52,11 @@ const ProductDetailDynamic = lazy(
 
 // Loading component for Suspense fallback
 const LoadingSpinner = () => {
-  const { t } = useTranslation("common");
-
   return (
     <div className="min-h-screen flex items-center justify-center bg-background">
       <div className="text-center">
         <div className="w-8 h-8 border-4 border-primary border-t-transparent rounded-full animate-spin mx-auto mb-4"></div>
-        <p className="text-muted-foreground">{t("loading", "Loading...")}</p>
+        <p className="text-muted-foreground">Loading...</p>
       </div>
     </div>
   );
@@ -122,6 +120,12 @@ function Router() {
 }
 
 function App() {
+  const { ready } = useTranslation();
+
+  if (!ready) {
+    return <LoadingSpinner />;
+  }
+
   return (
     <HelmetProvider>
       <ThemeProvider defaultTheme="system" storageKey="powerton-ui-theme">

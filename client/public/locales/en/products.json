@@ -17,7 +17,8 @@
         "pressure-transmitters": "Pressure Transmitters",
         "temperature-sensors": "Temperature Sensors",
         "flow-meters": "Flow Meters",
-        "level-indicators": "Level Indicators"
+        "level-indicators": "Level Indicators",
+        "analyzers": "Analyzers"
       }
     },
     "electrical-accessories": {
@@ -387,38 +388,89 @@
       "title": "Solar Batteries & Energy Storage",
       "description": "Battery storage systems for solar energy applications"
     },
+    "solar-inverters": {
+      "title": "Solar Inverters",
+      "description": "High-efficiency solar inverters for residential and commercial applications"
+    },
+    "plcs": {
+      "title": "PLCs",
+      "description": "Programmable Logic Controllers for industrial automation"
+    },
     "surge-protectors": {
-      "title": "Surge Protectors"
+      "title": "Surge Protectors",
+      "description": "Electrical surge protection devices for equipment safety"
     },
     "safety-relays-switches": {
-      "title": "Safety Relays & Switches"
+      "title": "Safety Relays & Switches",
+      "description": "Safety relays and emergency stop switches for industrial safety"
     },
     "intrinsically-safe-equipment": {
-      "title": "Intrinsically Safe Equipment"
+      "title": "Intrinsically Safe Equipment",
+      "description": "Explosion-proof and intrinsically safe equipment for hazardous areas"
     },
     "centrifugal-pumps": {
-      "title": "Centrifugal Pumps"
+      "title": "Centrifugal Pumps",
+      "description": "High-efficiency centrifugal pumps for fluid transfer"
     },
     "diaphragm-pumps": {
-      "title": "Diaphragm Pumps"
+      "title": "Diaphragm Pumps",
+      "description": "Positive displacement diaphragm pumps for chemical applications"
     },
     "gear-pumps": {
-      "title": "Gear Pumps"
+      "title": "Gear Pumps",
+      "description": "Precision gear pumps for viscous fluids"
     },
     "pump-parts-spares": {
-      "title": "Pump Parts & Spares"
+      "title": "Pump Parts & Spares",
+      "description": "Replacement parts and spare components for industrial pumps"
     },
     "hand-tools": {
-      "title": "Hand Tools"
+      "title": "Hand Tools",
+      "description": "Professional hand tools for industrial maintenance and assembly"
     },
     "power-tools": {
-      "title": "Power Tools"
+      "title": "Power Tools",
+      "description": "Industrial power tools for heavy-duty applications"
     },
     "cutting-tools": {
-      "title": "Cutting Tools"
+      "title": "Cutting Tools",
+      "description": "Precision cutting tools and equipment for metalworking"
     },
     "lifting-equipment": {
-      "title": "Lifting Equipment"
+      "title": "Lifting Equipment",
+      "description": "Hoists, cranes, and lifting equipment for material handling"
+    },
+    "bldc-cooler-exhaust-motor": {
+      "title": "BLDC Cooler & Exhaust Motor",
+      "description": "Energy-efficient BLDC motors for coolers and exhaust fans"
+    },
+    "bldc-ceiling-fan": {
+      "title": "BLDC Ceiling Fan",
+      "description": "Ultra-efficient BLDC ceiling fans with remote control"
+    },
+    "bldc-submersible-surface-pump": {
+      "title": "BLDC Submersible & Surface Pump",
+      "description": "High-efficiency BLDC pumps for water applications"
+    },
+    "bldc-table-fan-wall-fan-motor": {
+      "title": "BLDC Table Fan & Wall Fan Motor",
+      "description": "Compact BLDC motors for table and wall fans"
+    },
+    "sensors-transducers": {
+      "title": "Sensors & Transducers",
+      "description": "Industrial sensors for measurement and control"
+    },
+    "transmitters-flow-meters": {
+      "title": "Transmitters & Flow Meters",
+      "description": "Process transmitters and signal conversion equipment"
+    },
+    "switches-indicators": {
+      "title": "Switches & Indicators",
+      "description": "Industrial switches and control equipment"
+    },
+    "valves-actuators": {
+      "title": "Valves & Actuators",
+      "description": "Industrial valves and flow control systems"
     },
     "safety-equipment": {
       "title": "Safety Equipment",
@@ -464,22 +516,28 @@
       }
     },
     "bldc-cooler-exhaust-motor": {
-      "title": "BLDC Cooler & Exhaust Motors"
+      "title": "BLDC Cooler & Exhaust Motors",
+      "description": "Energy-efficient BLDC motors for coolers and exhaust fans"
     },
     "bldc-ceiling-fan": {
-      "title": "BLDC Ceiling Fans"
+      "title": "BLDC Ceiling Fans",
+      "description": "Ultra-efficient BLDC ceiling fans with remote control"
     },
     "bldc-submersible-surface-pump": {
-      "title": "BLDC Submersible & Surface Pumps"
+      "title": "BLDC Submersible & Surface Pumps",
+      "description": "High-efficiency BLDC pumps for water applications"
     },
     "bldc-table-fan-wall-fan-motor": {
-      "title": "BLDC Table & Wall Fan Motors"
+      "title": "BLDC Table & Wall Fan Motors",
+      "description": "Compact BLDC motors for table and wall fans"
     },
     "solar-inverters": {
-      "title": "Solar Inverters"
+      "title": "Solar Inverters",
+      "description": "High-efficiency solar inverters for residential and commercial applications"
     },
     "plcs": {
-      "title": "PLCs (Programmable Logic Controllers)"
+      "title": "PLCs (Programmable Logic Controllers)",
+      "description": "Programmable Logic Controllers for industrial automation"
     },
     "scada": {
       "title": "SCADA Systems",
@@ -1289,13 +1347,16 @@
   },
   "items": {
     "instrumentation-components": "Instrumentation Accessories",
+    "instrumentation-accessories": "Instrumentation Accessories",
     "electrical-components": "Electrical Accessories",
+    "electrical-accessories": "Electrical Accessories",
     "measurement-instruments": "Measurement Instruments",
     "solar-products": "Solar Products",
     "automation-control-systems": "Automation & Control Systems",
     "safety-protective-devices": "Safety & Protective Devices",
     "mechanical-pumps-spares": "Mechanical Pumps & Spares",
     "industrial-tools-tackles": "Industrial Tools & Tackles",
+    "industrial-measuring-tools": "Industrial & Measuring Tools",
     "bldc": "BLDC Products"
   },
   "tags": {
