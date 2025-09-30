@@ -73,17 +73,22 @@ const ProductDetailDynamic: React.FC = () => {
 
   // Extract manufacturer and brand from product specifications
   // Search for manufacturer, brand, or maker (case-insensitive)
-  const manufacturerSpec = productData.specifications.find(s => {
+  const manufacturerSpec = productData.specifications.find((s) => {
     const label = s.label.toLowerCase();
-    return label.includes('manufacturer') || label.includes('brand') || label.includes('maker');
+    return (
+      label.includes("manufacturer") ||
+      label.includes("brand") ||
+      label.includes("maker")
+    );
   });
-  
-  const manufacturer = manufacturerSpec?.value || "Powerton Engineering Pvt. Ltd.";
+
+  const manufacturer =
+    manufacturerSpec?.value || "Powerton Engineering Pvt. Ltd.";
   const brand = manufacturerSpec?.value || "Powerton Engineering";
 
   // Convert product image to absolute URL for structured data
-  const productImageAbsolute = productData.image.startsWith('http') 
-    ? productData.image 
+  const productImageAbsolute = productData.image.startsWith("http")
+    ? productData.image
     : `https://powertonengineering.in${productData.image}`;
 
   const productSchema = generateProductData({
@@ -100,8 +105,8 @@ const ProductDetailDynamic: React.FC = () => {
   const breadcrumbSchema = generateBreadcrumbData(breadcrumbItems);
 
   // Use product image as OG image (convert to absolute URL)
-  const productOgImage = productData.image.startsWith('http') 
-    ? productData.image 
+  const productOgImage = productData.image.startsWith("http")
+    ? productData.image
     : `https://powertonengineering.in${productData.image}`;
 
   return (
@@ -378,33 +383,34 @@ const ProductDetailDynamic: React.FC = () => {
                   )}
 
                 {/* Industries Served Column */}
-                {productData.industries && productData.industries.length > 0 && (
-                  <div className="space-y-6">
-                    <h2 className="text-2xl font-bold text-foreground">
-                      Industries Served
-                    </h2>
-                    <div className="space-y-3">
-                      {productData.industries.map((industry, index) => (
-                        <motion.div
-                          key={index}
-                          initial={{ opacity: 0, x: -20 }}
-                          whileInView={{ opacity: 1, x: 0 }}
-                          viewport={{ once: true, margin: "-50px" }}
-                          transition={{ duration: 0.4, delay: index * 0.03 }}
-                          className="group"
-                          data-testid={`industry-${index}`}
-                        >
-                          <div className="flex items-center gap-3 p-4 rounded-xl border border-border/50 bg-background/50 backdrop-blur-sm hover:border-secondary/30 hover:bg-secondary/5 transition-all duration-300">
-                            <div className="h-2 w-2 rounded-full bg-secondary flex-shrink-0 group-hover:scale-125 transition-transform"></div>
-                            <span className="text-sm text-foreground">
-                              {industry}
-                            </span>
-                          </div>
-                        </motion.div>
-                      ))}
+                {productData.industries &&
+                  productData.industries.length > 0 && (
+                    <div className="space-y-6">
+                      <h2 className="text-2xl font-bold text-foreground">
+                        Industries Served
+                      </h2>
+                      <div className="space-y-3">
+                        {productData.industries.map((industry, index) => (
+                          <motion.div
+                            key={index}
+                            initial={{ opacity: 0, x: -20 }}
+                            whileInView={{ opacity: 1, x: 0 }}
+                            viewport={{ once: true, margin: "-50px" }}
+                            transition={{ duration: 0.4, delay: index * 0.03 }}
+                            className="group"
+                            data-testid={`industry-${index}`}
+                          >
+                            <div className="flex items-center gap-3 p-4 rounded-xl border border-border/50 bg-background/50 backdrop-blur-sm hover:border-secondary/30 hover:bg-secondary/5 transition-all duration-300">
+                              <div className="h-2 w-2 rounded-full bg-secondary flex-shrink-0 group-hover:scale-125 transition-transform"></div>
+                              <span className="text-sm text-foreground">
+                                {industry}
+                              </span>
+                            </div>
+                          </motion.div>
+                        ))}
+                      </div>
                     </div>
-                  </div>
-                )}
+                  )}
               </div>
             </AnimatedSection>
 
@@ -438,57 +444,33 @@ const ProductDetailDynamic: React.FC = () => {
           </div>
         </div>
 
-        <AnimatedSection>
-          <section className="relative py-24 lg:py-32 overflow-hidden">
-            <div className="absolute inset-0 bg-gradient-to-br from-primary via-primary/95 to-secondary"></div>
-            <div className="absolute inset-0 bg-grid-white/[0.05] bg-[size:32px_32px]"></div>
-            <div className="absolute top-0 right-0 w-96 h-96 bg-white/10 rounded-full blur-3xl"></div>
-            <div className="absolute bottom-0 left-0 w-96 h-96 bg-secondary/20 rounded-full blur-3xl"></div>
-
-            <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-              <motion.div
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ duration: 0.6 }}
-                className="space-y-8"
-              >
-                <div className="space-y-4">
-                  <h2 className="text-4xl lg:text-5xl font-bold text-white">
-                    Need More Information?
-                  </h2>
-                  <p className="text-xl text-white/90 max-w-2xl mx-auto">
-                    Contact our experts for detailed specifications, pricing,
-                    and technical support.
-                  </p>
-                </div>
-
-                <div className="flex flex-col sm:flex-row justify-center gap-4">
-                  <Button
-                    size="lg"
-                    className="bg-white text-primary hover:bg-white/90 shadow-2xl hover:shadow-white/20 group px-8 py-6 text-lg"
-                    asChild
-                    data-testid="button-cta-contact"
-                  >
-                    <Link href="/contact">
-                      <Phone className="mr-2 h-5 w-5 group-hover:rotate-12 transition-transform" />
-                      Contact Expert
-                    </Link>
+        {/* Call to Action */}
+        <AnimatedSection animation="slideInUp" delay={0.2} duration={0.9}>
+          <section className="py-12 md:py-16 lg:py-20 bg-primary text-white">
+            <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8 text-center">
+              <h2 className="text-3xl lg:text-4xl font-bold mb-6">
+                {t("products:sections.needMoreOptions")}
+              </h2>
+              <p className="text-xl mb-8 opacity-90 max-w-3xl mx-auto">
+                {t("products:sections.customSolutions")}
+              </p>
+              <div className="flex flex-col sm:flex-row justify-center gap-2 sm:gap-3 md:gap-4 max-w-md mx-auto px-2 sm:px-0">
+                <Link href="/contact">
+                  <Button className="bg-secondary hover:bg-secondary/90 text-secondary-foreground px-8 py-3 text-lg font-semibold w-full sm:w-auto">
+                    <Phone className="mr-2 w-5 h-5" />
+                    {t("common:buttons.contactExpert")}
                   </Button>
+                </Link>
+                <Link href="/quote">
                   <Button
-                    size="lg"
                     variant="outline"
-                    className="border-2 border-white text-white hover:bg-white hover:text-primary px-8 py-6 text-lg"
-                    asChild
-                    data-testid="button-cta-quote"
+                    className="border-2 border-border text-foreground hover:bg-foreground hover:text-background px-8 py-3 text-lg font-semibold w-full sm:w-auto"
                   >
-                    <Link href="/quote">
-                      <Mail className="mr-2 h-5 w-5" />
-                      Request Quote
-                    </Link>
+                    <Mail className="mr-2 w-5 h-5" />
+                    {t("common:buttons.requestCustomQuote")}
                   </Button>
-                </div>
-              </motion.div>
+                </Link>
+              </div>
             </div>
           </section>
         </AnimatedSection>

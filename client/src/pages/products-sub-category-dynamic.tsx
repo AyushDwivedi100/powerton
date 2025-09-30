@@ -455,10 +455,7 @@ export default function ProductSubCategoryDynamic() {
               {t("products:sections.needMoreOptions")}
             </h2>
             <p className="text-xl mb-8 opacity-90 max-w-3xl mx-auto">
-              {t("products:sections.customSolutions", {
-                defaultValue:
-                  "We offer custom solutions and can source additional products to meet your specific requirements.",
-              })}
+              {t("products:sections.customSolutions")}
             </p>
             <div className="flex flex-col sm:flex-row justify-center gap-2 sm:gap-3 md:gap-4 max-w-md mx-auto px-2 sm:px-0">
               <Link href="/contact">
