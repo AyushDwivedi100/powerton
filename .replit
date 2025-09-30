@@ -8,12 +8,16 @@ packages = ["jq"]
 
 [deployment]
 deploymentTarget = "autoscale"
-build = ["bash", "-c", "cd client && npm install && npm run build"]
-run = ["npm", "run", "start"]
+build = ["bash", "-c", "cd client && npm run build"]
+run = ["bash", "-c", "cd client && npx vite preview --host 0.0.0.0 --port 5000"]
 
 [[ports]]
 localPort = 5000
 externalPort = 80
+
+[[ports]]
+localPort = 36785
+externalPort = 3000
 
 [env]
 PORT = "5000"
