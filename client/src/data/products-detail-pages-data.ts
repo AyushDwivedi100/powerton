@@ -12520,6 +12520,51 @@ export const getProductDetailBySlug = (
     });
   }
 
+  // Build proper canonical URL with full path structure
+  const parentCategorySlug = category.key;
+  const subcategorySlugForUrl = subcategory.key;
+  const groupSlugForUrl = productGroup ? productGroup.slug : subcategorySlugForUrl;
+  
+  // Construct full canonical URL
+  const canonicalPath = productGroup
+    ? `/products/${parentCategorySlug}/${subcategorySlugForUrl}/${groupSlugForUrl}/${product.slug}`
+    : `/products/${parentCategorySlug}/${subcategorySlugForUrl}/${product.slug}`;
+
+  // Generate comprehensive SEO keywords
+  const manufacturer = product.specs.manufacturer || '';
+  const model = product.specs.model || '';
+  const categoryName = t(`products:categories.${category.key}.name`, { defaultValue: category.key });
+  const subcategoryName = t(
+    `products:categories.${category.key}.subcategories.${subcategory.key}.name`,
+    { defaultValue: subcategory.key }
+  );
+  
+  const seoKeywords = [
+    title,
+    manufacturer,
+    model,
+    categoryName,
+    subcategoryName,
+    productGroup?.title || productGroup?.key || '',
+    'industrial automation',
+    'process control',
+    'India',
+    'Powerton Engineering'
+  ].filter(Boolean).join(', ');
+
+  // Create SEO-friendly meta description (150-160 chars optimal)
+  let seoDescription = description;
+  if (seoDescription.length > 155) {
+    seoDescription = seoDescription.substring(0, 152) + '...';
+  }
+  // Add manufacturer and model to description if not already present
+  if (manufacturer && !seoDescription.includes(manufacturer)) {
+    seoDescription = `${manufacturer} ${model ? model + ' - ' : ''}${seoDescription}`;
+    if (seoDescription.length > 155) {
+      seoDescription = seoDescription.substring(0, 152) + '...';
+    }
+  }
+
   return {
     id: product.id,
     slug: product.slug,
@@ -12551,10 +12596,10 @@ export const getProductDetailBySlug = (
     certifications: ["ISO 9001", "CE Marking"],
     datasheetUrl: product.datasheetUrl,
     seo: {
-      title: `${title} | Powerton Engineering`,
-      description: description.substring(0, 160),
-      keywords: `${title}, ${category.key}, ${subcategory.key}, industrial automation`,
-      canonicalUrl: `https://powertonengineering.com/products/detail/${slug}`,
+      title: `${title} | ${categoryName} | Powerton Engineering`,
+      description: seoDescription,
+      keywords: seoKeywords,
+      canonicalUrl: `https://powertonengineering.in${canonicalPath}`,
     },
   };
 };
