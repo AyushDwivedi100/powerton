@@ -1,21 +1,20 @@
 import { Link, useParams } from "wouter";
 import { Button } from "@/components/ui/button";
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { Card } from "@/components/ui/card";
 import { getProductDetailBySlug } from "@/data/products-detail-pages-data";
 import { useTranslation } from "react-i18next";
 import { SEO } from "@/lib/seo";
 import { generateProductData, generateBreadcrumbData } from "@/utils/seo-enhancements";
 import { Helmet } from "react-helmet-async";
+import { motion, useScroll, useTransform } from "framer-motion";
+import { useRef } from "react";
 import {
-  ArrowRight,
   ArrowLeft,
   CheckCircle,
-  Star,
   Phone,
   Mail,
   Download,
-  ShoppingCart,
-  Eye,
+  ExternalLink,
 } from "lucide-react";
 
 const ProductDetailDynamic: React.FC = () => {
@@ -27,8 +26,16 @@ const ProductDetailDynamic: React.FC = () => {
   }>();
   const { t } = useTranslation(["products", "common"]);
   const productData = getProductDetailBySlug(slug!, t, groupSlug);
+  const containerRef = useRef<HTMLDivElement>(null);
+  
+  const { scrollYProgress } = useScroll({
+    target: containerRef,
+    offset: ["start start", "end start"]
+  });
 
-  // 404 handling
+  const opacity = useTransform(scrollYProgress, [0, 0.5], [1, 0]);
+  const scale = useTransform(scrollYProgress, [0, 0.5], [1, 0.95]);
+
   if (!productData) {
     return (
       <div className="min-h-screen bg-background flex items-center justify-center">
@@ -52,7 +59,6 @@ const ProductDetailDynamic: React.FC = () => {
     );
   }
 
-  // Generate breadcrumb schema
   const breadcrumbItems = [
     { name: "Home", url: "/" },
     { name: "Products", url: "/products" },
@@ -60,7 +66,6 @@ const ProductDetailDynamic: React.FC = () => {
     { name: productData.title, url: `${productData.categoryPath}/${slug}` }
   ];
 
-  // Generate enhanced product schema
   const productSchema = generateProductData({
     name: productData.title,
     description: productData.shortDescription || productData.fullDescription || "",
@@ -72,6 +77,19 @@ const ProductDetailDynamic: React.FC = () => {
   });
 
   const breadcrumbSchema = generateBreadcrumbData(breadcrumbItems);
+
+  const fadeInUp = {
+    initial: { opacity: 0, y: 40 },
+    whileInView: { opacity: 1, y: 0 },
+    viewport: { once: true, margin: "-50px" },
+    transition: { duration: 0.6, ease: [0.22, 1, 0.36, 1] }
+  };
+
+  const staggerChildren = {
+    initial: {},
+    whileInView: {},
+    viewport: { once: true, margin: "-50px" },
+  };
 
   return (
     <>
@@ -88,192 +106,329 @@ const ProductDetailDynamic: React.FC = () => {
         </script>
       </Helmet>
 
-      <div className="grid grid-cols-1 gap-8">
-        <Button
-          variant="ghost"
-          className="mb-6 hover:bg-black/10 dark:hover:bg-white/10 hover:text-foreground group"
-          asChild
-        >
-          <Link
-            href={productData.categoryPath}
-            data-testid="link-back-to-parent"
+      <div ref={containerRef} className="min-h-screen bg-background">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <motion.div
+            initial={{ opacity: 0, x: -20 }}
+            animate={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.4 }}
+            className="py-6"
           >
-            <ArrowLeft className="mr-2 h-4 w-4 group-hover:-translate-x-2 transition-transform duration-200" />
-            {productData.backLabel}
-          </Link>
-        </Button>
-        {/* Product Image */}
-        <div className="lg:sticky lg:top-8 lg:h-fit">
-          <img
-            src={productData.image}
-            alt={productData.title}
-            className="w-full h-auto max-h-96 object-contain bg-muted/30 rounded-lg"
-            data-testid="img-product"
-          />
-        </div>
-      </div>
+            <Button
+              variant="ghost"
+              className="hover:bg-muted/50 group"
+              asChild
+              data-testid="link-back-to-parent"
+            >
+              <Link href={productData.categoryPath}>
+                <ArrowLeft className="mr-2 h-4 w-4 group-hover:-translate-x-1 transition-transform duration-200" />
+                {productData.backLabel}
+              </Link>
+            </Button>
+          </motion.div>
 
-      <div className="min-h-screen bg-background">
-        {/* Main Content */}
-        <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-          {/* Additional Information */}
-          <div className="mt-12 space-y-8">
-            {/* Overview */}
-            {productData.fullDescription && (
-              <Card>
-                <CardHeader>
-                  <CardTitle>Overview</CardTitle>
-                </CardHeader>
-                <CardContent>
-                  <p className="text-muted-foreground leading-relaxed">
-                    {productData.fullDescription}
-                  </p>
-                </CardContent>
-              </Card>
-            )}
-
-            {/* Key Features */}
-            {productData.keyBenefits && productData.keyBenefits.length > 0 && (
-              <Card>
-                <CardHeader>
-                  <CardTitle>Key Features</CardTitle>
-                </CardHeader>
-                <CardContent>
-                  <ul className="space-y-2">
-                    {productData.keyBenefits.map((benefit, index) => (
-                      <li key={index} className="flex items-start">
-                        <span className="w-2 h-2 bg-primary rounded-full mt-2 mr-3 flex-shrink-0" />
-                        <span className="text-muted-foreground">{benefit}</span>
-                      </li>
-                    ))}
-                  </ul>
-                </CardContent>
-              </Card>
-            )}
-
-            {/* Technical Specifications */}
-            {productData.specifications &&
-              productData.specifications.length > 0 && (
-                <Card>
-                  <CardHeader>
-                    <CardTitle>Technical Specifications</CardTitle>
-                  </CardHeader>
-                  <CardContent>
-                    <div className="space-y-3">
-                      {productData.specifications.map((spec, index) => (
-                        <div
-                          key={index}
-                          className="flex justify-between py-2 border-b border-border/50 last:border-b-0"
-                        >
-                          <span className="font-medium text-foreground">
-                            {spec.label}
-                          </span>
-                          <span className="text-muted-foreground">
-                            {spec.value}
-                          </span>
-                        </div>
-                      ))}
-                    </div>
-                  </CardContent>
-                </Card>
-              )}
-
-            {/* Applications */}
-            {productData.applications &&
-              productData.applications.length > 0 && (
-                <Card>
-                  <CardHeader>
-                    <CardTitle>Applications</CardTitle>
-                  </CardHeader>
-                  <CardContent>
-                    <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
-                      {productData.applications.map((application, index) => (
-                        <div key={index} className="flex items-center">
-                          <span className="w-2 h-2 bg-secondary rounded-full mr-3 flex-shrink-0" />
-                          <span className="text-muted-foreground">
-                            {application}
-                          </span>
-                        </div>
-                      ))}
-                    </div>
-                  </CardContent>
-                </Card>
-              )}
-
-            {/* Industries */}
-            {productData.industries && productData.industries.length > 0 && (
-              <Card>
-                <CardHeader>
-                  <CardTitle>Industries</CardTitle>
-                </CardHeader>
-                <CardContent>
-                  <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
-                    {productData.industries.map((industry, index) => (
-                      <div key={index} className="flex items-center">
-                        <span className="w-2 h-2 bg-accent rounded-full mr-3 flex-shrink-0" />
-                        <span className="text-muted-foreground">
-                          {industry}
-                        </span>
-                      </div>
-                    ))}
+          <motion.div style={{ opacity, scale }}>
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 py-8 lg:py-12">
+              <motion.div
+                initial={{ opacity: 0, scale: 0.95 }}
+                animate={{ opacity: 1, scale: 1 }}
+                transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1] }}
+                className="relative"
+              >
+                <div className="sticky top-8">
+                  <div className="relative bg-gradient-to-br from-muted/30 to-muted/10 rounded-2xl p-8 overflow-hidden">
+                    <div className="absolute inset-0 bg-grid-pattern opacity-5"></div>
+                    <img
+                      src={productData.image}
+                      alt={productData.title}
+                      className="w-full h-auto max-h-[500px] object-contain relative z-10"
+                      data-testid="img-product"
+                    />
                   </div>
-                </CardContent>
-              </Card>
+                </div>
+              </motion.div>
+
+              <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.6, delay: 0.2 }}
+                className="flex flex-col justify-center space-y-6"
+              >
+                <div>
+                  <motion.p 
+                    initial={{ opacity: 0 }}
+                    animate={{ opacity: 1 }}
+                    transition={{ delay: 0.3 }}
+                    className="text-sm font-medium text-primary mb-2"
+                  >
+                    {productData.categoryName}
+                  </motion.p>
+                  <motion.h1 
+                    initial={{ opacity: 0, y: 10 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    transition={{ delay: 0.4 }}
+                    className="text-3xl lg:text-4xl xl:text-5xl font-bold text-foreground mb-4"
+                  >
+                    {productData.title}
+                  </motion.h1>
+                  {productData.shortDescription && (
+                    <motion.p 
+                      initial={{ opacity: 0 }}
+                      animate={{ opacity: 1 }}
+                      transition={{ delay: 0.5 }}
+                      className="text-lg text-muted-foreground leading-relaxed"
+                    >
+                      {productData.shortDescription}
+                    </motion.p>
+                  )}
+                </div>
+
+                <motion.div
+                  initial={{ opacity: 0, y: 10 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{ delay: 0.6 }}
+                  className="flex flex-wrap gap-3"
+                >
+                  <Button 
+                    size="lg" 
+                    className="group"
+                    asChild
+                    data-testid="button-contact"
+                  >
+                    <Link href="/contact">
+                      <Phone className="mr-2 h-5 w-5 group-hover:rotate-12 transition-transform" />
+                      Contact Us
+                    </Link>
+                  </Button>
+                  <Button 
+                    size="lg" 
+                    variant="outline"
+                    asChild
+                    data-testid="button-quote"
+                  >
+                    <Link href="/quote">
+                      <Mail className="mr-2 h-5 w-5" />
+                      Get Quote
+                    </Link>
+                  </Button>
+                  {productData.datasheetUrl && (
+                    <Button 
+                      size="lg" 
+                      variant="ghost"
+                      asChild
+                      data-testid="button-datasheet"
+                    >
+                      <a href={productData.datasheetUrl} target="_blank" rel="noopener noreferrer">
+                        <Download className="mr-2 h-5 w-5" />
+                        Datasheet
+                      </a>
+                    </Button>
+                  )}
+                </motion.div>
+              </motion.div>
+            </div>
+          </motion.div>
+
+          <div className="py-12 lg:py-16 space-y-12">
+            {productData.fullDescription && (
+              <motion.div {...fadeInUp}>
+                <Card className="border-0 shadow-sm bg-card/50 backdrop-blur-sm">
+                  <div className="p-6 lg:p-8">
+                    <h2 className="text-2xl font-bold text-foreground mb-4">Overview</h2>
+                    <p className="text-muted-foreground leading-relaxed text-lg">
+                      {productData.fullDescription}
+                    </p>
+                  </div>
+                </Card>
+              </motion.div>
             )}
 
-            {/* Certifications */}
-            {productData.certifications &&
-              productData.certifications.length > 0 && (
-                <Card>
-                  <CardHeader>
-                    <CardTitle>Certifications & Compliance</CardTitle>
-                  </CardHeader>
-                  <CardContent>
+            {productData.keyBenefits && productData.keyBenefits.length > 0 && (
+              <motion.div {...fadeInUp}>
+                <Card className="border-0 shadow-sm bg-card/50 backdrop-blur-sm">
+                  <div className="p-6 lg:p-8">
+                    <h2 className="text-2xl font-bold text-foreground mb-6">Key Features</h2>
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                      {productData.keyBenefits.map((benefit, index) => (
+                        <motion.div
+                          key={index}
+                          initial={{ opacity: 0, x: -20 }}
+                          whileInView={{ opacity: 1, x: 0 }}
+                          viewport={{ once: true, margin: "-50px" }}
+                          transition={{ duration: 0.5, delay: index * 0.05 }}
+                          className="flex items-start gap-3 p-3 rounded-lg hover:bg-muted/30 transition-colors"
+                          data-testid={`feature-${index}`}
+                        >
+                          <CheckCircle className="h-5 w-5 text-primary flex-shrink-0 mt-0.5" />
+                          <span className="text-muted-foreground leading-relaxed">{benefit}</span>
+                        </motion.div>
+                      ))}
+                    </div>
+                  </div>
+                </Card>
+              </motion.div>
+            )}
+
+            {productData.specifications && productData.specifications.length > 0 && (
+              <motion.div {...fadeInUp}>
+                <Card className="border-0 shadow-sm bg-card/50 backdrop-blur-sm">
+                  <div className="p-6 lg:p-8">
+                    <h2 className="text-2xl font-bold text-foreground mb-6">Technical Specifications</h2>
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                      {productData.specifications.map((spec, index) => (
+                        <motion.div
+                          key={index}
+                          initial={{ opacity: 0, y: 20 }}
+                          whileInView={{ opacity: 1, y: 0 }}
+                          viewport={{ once: true, margin: "-50px" }}
+                          transition={{ duration: 0.5, delay: index * 0.03 }}
+                          className="p-4 rounded-lg bg-muted/20 hover:bg-muted/30 transition-colors"
+                          data-testid={`spec-${index}`}
+                        >
+                          <dt className="text-sm font-medium text-muted-foreground mb-1">
+                            {spec.label}
+                          </dt>
+                          <dd className="text-base font-semibold text-foreground">
+                            {spec.value}
+                          </dd>
+                        </motion.div>
+                      ))}
+                    </div>
+                  </div>
+                </Card>
+              </motion.div>
+            )}
+
+            {productData.applications && productData.applications.length > 0 && (
+              <motion.div {...fadeInUp}>
+                <Card className="border-0 shadow-sm bg-card/50 backdrop-blur-sm">
+                  <div className="p-6 lg:p-8">
+                    <h2 className="text-2xl font-bold text-foreground mb-6">Applications</h2>
+                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
+                      {productData.applications.map((application, index) => (
+                        <motion.div
+                          key={index}
+                          initial={{ opacity: 0, scale: 0.95 }}
+                          whileInView={{ opacity: 1, scale: 1 }}
+                          viewport={{ once: true, margin: "-50px" }}
+                          transition={{ duration: 0.4, delay: index * 0.05 }}
+                          className="flex items-center gap-2 p-3 rounded-lg bg-muted/20"
+                          data-testid={`application-${index}`}
+                        >
+                          <div className="h-2 w-2 rounded-full bg-primary flex-shrink-0"></div>
+                          <span className="text-sm text-muted-foreground">{application}</span>
+                        </motion.div>
+                      ))}
+                    </div>
+                  </div>
+                </Card>
+              </motion.div>
+            )}
+
+            {productData.industries && productData.industries.length > 0 && (
+              <motion.div {...fadeInUp}>
+                <Card className="border-0 shadow-sm bg-card/50 backdrop-blur-sm">
+                  <div className="p-6 lg:p-8">
+                    <h2 className="text-2xl font-bold text-foreground mb-6">Industries</h2>
+                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
+                      {productData.industries.map((industry, index) => (
+                        <motion.div
+                          key={index}
+                          initial={{ opacity: 0, scale: 0.95 }}
+                          whileInView={{ opacity: 1, scale: 1 }}
+                          viewport={{ once: true, margin: "-50px" }}
+                          transition={{ duration: 0.4, delay: index * 0.05 }}
+                          className="flex items-center gap-2 p-3 rounded-lg bg-muted/20"
+                          data-testid={`industry-${index}`}
+                        >
+                          <div className="h-2 w-2 rounded-full bg-secondary flex-shrink-0"></div>
+                          <span className="text-sm text-muted-foreground">{industry}</span>
+                        </motion.div>
+                      ))}
+                    </div>
+                  </div>
+                </Card>
+              </motion.div>
+            )}
+
+            {productData.certifications && productData.certifications.length > 0 && (
+              <motion.div {...fadeInUp}>
+                <Card className="border-0 shadow-sm bg-card/50 backdrop-blur-sm">
+                  <div className="p-6 lg:p-8">
+                    <h2 className="text-2xl font-bold text-foreground mb-6">Certifications & Compliance</h2>
                     <div className="flex flex-wrap gap-2">
                       {productData.certifications.map((cert, index) => (
-                        <span
+                        <motion.span
                           key={index}
-                          className="inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-muted text-muted-foreground"
+                          initial={{ opacity: 0, scale: 0.8 }}
+                          whileInView={{ opacity: 1, scale: 1 }}
+                          viewport={{ once: true }}
+                          transition={{ duration: 0.3, delay: index * 0.05 }}
+                          className="inline-flex items-center px-4 py-2 rounded-full text-sm font-medium bg-primary/10 text-primary border border-primary/20"
+                          data-testid={`cert-${index}`}
                         >
                           {cert}
-                        </span>
+                        </motion.span>
                       ))}
                     </div>
-                  </CardContent>
+                  </div>
                 </Card>
-              )}
+              </motion.div>
+            )}
           </div>
-        </main>
+        </div>
 
-        {/* Call to Action */}
-        <section className="py-12 md:py-16 lg:py-20 bg-primary text-white">
-          <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8 text-center">
-            <h2 className="text-3xl lg:text-4xl font-bold mb-6">
-              Need More Information?
-            </h2>
-            <p className="text-xl mb-8 opacity-90 max-w-3xl mx-auto">
-              Contact our experts for detailed specifications, pricing, and
-              technical support.
-            </p>
-            <div className="flex flex-col sm:flex-row justify-center gap-2 sm:gap-3 md:gap-4 max-w-md mx-auto px-2 sm:px-0">
-              <Link href="/contact">
-                <Button className="bg-secondary hover:bg-secondary/90 text-secondary-foreground px-8 py-3 text-lg font-semibold w-full sm:w-auto">
-                  <Phone className="mr-2 w-5 h-5" />
-                  {t("common:buttons.contactExpert")}
-                </Button>
-              </Link>
-              <Link href="/quote">
-                <Button
-                  variant="outline"
-                  className="border-2 border-border text-foreground hover:bg-foreground hover:text-background px-8 py-3 text-lg font-semibold w-full sm:w-auto"
+        <motion.section
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.8 }}
+          className="relative py-16 lg:py-24 overflow-hidden"
+        >
+          <div className="absolute inset-0 bg-gradient-to-br from-primary/95 to-primary"></div>
+          <div className="absolute inset-0 bg-grid-white/[0.05] bg-[size:32px_32px]"></div>
+          
+          <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.6 }}
+            >
+              <h2 className="text-3xl lg:text-4xl font-bold text-white mb-4">
+                Need More Information?
+              </h2>
+              <p className="text-lg lg:text-xl text-white/90 mb-8 max-w-2xl mx-auto">
+                Contact our experts for detailed specifications, pricing, and technical support.
+              </p>
+              <div className="flex flex-col sm:flex-row justify-center gap-4">
+                <Button 
+                  size="lg" 
+                  className="bg-white text-primary hover:bg-white/90 group"
+                  asChild
+                  data-testid="button-cta-contact"
                 >
-                  <Mail className="mr-2 w-5 h-5" />
-                  {t("common:buttons.requestCustomQuote")}
+                  <Link href="/contact">
+                    <Phone className="mr-2 h-5 w-5 group-hover:rotate-12 transition-transform" />
+                    Contact Expert
+                  </Link>
                 </Button>
-              </Link>
-            </div>
+                <Button 
+                  size="lg"
+                  variant="outline"
+                  className="border-2 border-white text-white hover:bg-white hover:text-primary"
+                  asChild
+                  data-testid="button-cta-quote"
+                >
+                  <Link href="/quote">
+                    <Mail className="mr-2 h-5 w-5" />
+                    Request Quote
+                  </Link>
+                </Button>
+              </div>
+            </motion.div>
           </div>
-        </section>
+        </motion.section>
       </div>
     </>
   );
