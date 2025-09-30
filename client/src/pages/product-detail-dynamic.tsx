@@ -71,18 +71,33 @@ const ProductDetailDynamic: React.FC = () => {
     { name: productData.title, url: `${productData.categoryPath}/${slug}` },
   ];
 
+  // Extract manufacturer and brand from product specifications
+  // Search for manufacturer, brand, or maker (case-insensitive)
+  const manufacturerSpec = productData.specifications.find(s => {
+    const label = s.label.toLowerCase();
+    return label.includes('manufacturer') || label.includes('brand') || label.includes('maker');
+  });
+  
+  const manufacturer = manufacturerSpec?.value || "Powerton Engineering Pvt. Ltd.";
+  const brand = manufacturerSpec?.value || "Powerton Engineering";
+
   const productSchema = generateProductData({
     name: productData.title,
     description:
       productData.shortDescription || productData.fullDescription || "",
     image: productData.image,
-    brand: "Powerton Engineering",
-    manufacturer: "Powerton Engineering Pvt. Ltd.",
+    brand,
+    manufacturer,
     category: productData.categoryName,
     specifications: productData.specifications,
   });
 
   const breadcrumbSchema = generateBreadcrumbData(breadcrumbItems);
+
+  // Use product image as OG image (convert to absolute URL)
+  const productOgImage = productData.image.startsWith('http') 
+    ? productData.image 
+    : `https://powertonengineering.in${productData.image}`;
 
   return (
     <>
@@ -91,6 +106,7 @@ const ProductDetailDynamic: React.FC = () => {
         description={productData.seo.description}
         keywords={productData.seo.keywords}
         canonicalUrl={productData.seo.canonicalUrl}
+        ogImage={productOgImage}
         structuredData={productSchema}
       />
       <Helmet>

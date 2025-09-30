@@ -77,7 +77,7 @@ export function SEO({
       {/* Open Graph Enhanced */}
       <meta property="og:title" content={seoTitle} />
       <meta property="og:description" content={seoDescription} />
-      <meta property="og:type" content="website" />
+      <meta property="og:type" content={structuredData ? "product" : "website"} />
       <meta property="og:image" content={ogImage} />
       <meta property="og:image:width" content="1200" />
       <meta property="og:image:height" content="630" />
@@ -134,87 +134,89 @@ export function SEO({
       
       {/* Enhanced Structured Data */}
       <script type="application/ld+json">
-        {JSON.stringify({
-          "@context": "https://schema.org",
-          "@graph": [
-            {
-              ...(structuredData || defaultStructuredData),
-              "@type": "Organization",
-              "@id": "https://powertonengineering.in/#organization",
-              "foundingDate": "2008",
-              "numberOfEmployees": "50-100",
-              "industry": "Industrial Automation and Electrical Engineering",
-              "areaServed": "India",
-              "knowsAbout": [
-                "Industrial Automation",
-                "Electrical Control Panels",
-                "PLC Programming",
-                "SCADA Systems",
-                "Instrumentation",
-                "Solar EPC",
-                "Process Automation",
-                "Power Systems"
-              ]
-            },
-            {
-              "@type": "LocalBusiness",
-              "@id": "https://powertonengineering.in/#localbusiness",
-              "name": "Powerton Engineering Pvt. Ltd.",
-              "image": "https://powertonengineering.in/og-image.jpg",
-              "url": "https://powertonengineering.in/",
-              "telephone": "+91-94627-71662",
-              "email": "info@powertonengineering.com",
-              "address": {
-                "@type": "PostalAddress",
-                "streetAddress": "F-25, F Block, Sector 6",
-                "addressLocality": "Noida",
-                "addressRegion": "Uttar Pradesh",
-                "postalCode": "201301",
-                "addressCountry": "IN"
+        {JSON.stringify(
+          structuredData || {
+            "@context": "https://schema.org",
+            "@graph": [
+              {
+                ...defaultStructuredData,
+                "@type": "Organization",
+                "@id": "https://powertonengineering.in/#organization",
+                "foundingDate": "2008",
+                "numberOfEmployees": "50-100",
+                "industry": "Industrial Automation and Electrical Engineering",
+                "areaServed": "India",
+                "knowsAbout": [
+                  "Industrial Automation",
+                  "Electrical Control Panels",
+                  "PLC Programming",
+                  "SCADA Systems",
+                  "Instrumentation",
+                  "Solar EPC",
+                  "Process Automation",
+                  "Power Systems"
+                ]
               },
-              "geo": {
-                "@type": "GeoCoordinates",
-                "latitude": "28.5355",
-                "longitude": "77.3910"
+              {
+                "@type": "LocalBusiness",
+                "@id": "https://powertonengineering.in/#localbusiness",
+                "name": "Powerton Engineering Pvt. Ltd.",
+                "image": "https://powertonengineering.in/og-image.jpg",
+                "url": "https://powertonengineering.in/",
+                "telephone": "+91-94627-71662",
+                "email": "info@powertonengineering.com",
+                "address": {
+                  "@type": "PostalAddress",
+                  "streetAddress": "F-25, F Block, Sector 6",
+                  "addressLocality": "Noida",
+                  "addressRegion": "Uttar Pradesh",
+                  "postalCode": "201301",
+                  "addressCountry": "IN"
+                },
+                "geo": {
+                  "@type": "GeoCoordinates",
+                  "latitude": "28.5355",
+                  "longitude": "77.3910"
+                },
+                "openingHoursSpecification": {
+                  "@type": "OpeningHoursSpecification",
+                  "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+                  "opens": "09:00",
+                  "closes": "18:00"
+                },
+                "aggregateRating": {
+                  "@type": "AggregateRating",
+                  "ratingValue": "4.8",
+                  "reviewCount": "156",
+                  "bestRating": "5"
+                },
+                "priceRange": "₹₹₹",
+                "currenciesAccepted": "INR",
+                "paymentAccepted": "Cash, Credit Card, Bank Transfer"
               },
-              "openingHoursSpecification": {
-                "@type": "OpeningHoursSpecification",
-                "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
-                "opens": "09:00",
-                "closes": "18:00"
-              },
-              "aggregateRating": {
-                "@type": "AggregateRating",
-                "ratingValue": "4.8",
-                "reviewCount": "156",
-                "bestRating": "5"
-              },
-              "priceRange": "₹₹₹",
-              "currenciesAccepted": "INR",
-              "paymentAccepted": "Cash, Credit Card, Bank Transfer"
-            },
-            {
-              "@type": "WebSite",
-              "@id": "https://powertonengineering.in/#website",
-              "url": "https://powertonengineering.in/",
-              "name": "Powerton Engineering Pvt. Ltd.",
-              "description": "Leading manufacturer of electrical control panels and industrial automation solutions",
-              "publisher": {
-                "@id": "https://powertonengineering.in/#organization"
-              },
-              "potentialAction": [
-                {
-                  "@type": "SearchAction",
-                  "target": {
-                    "@type": "EntryPoint",
-                    "urlTemplate": "https://powertonengineering.in/products?search={search_term_string}"
-                  },
-                  "query-input": "required name=search_term_string"
-                }
-              ]
-            }
-          ]
-        })}
+              {
+                "@type": "WebSite",
+                "@id": "https://powertonengineering.in/#website",
+                "url": "https://powertonengineering.in/",
+                "name": "Powerton Engineering Pvt. Ltd.",
+                "description": "Leading manufacturer of electrical control panels and industrial automation solutions",
+                "publisher": {
+                  "@id": "https://powertonengineering.in/#organization"
+                },
+                "potentialAction": [
+                  {
+                    "@type": "SearchAction",
+                    "target": {
+                      "@type": "EntryPoint",
+                      "urlTemplate": "https://powertonengineering.in/products?search={search_term_string}"
+                    },
+                    "query-input": "required name=search_term_string"
+                  }
+                ]
+              }
+            ]
+          }
+        )}
       </script>
     </Helmet>
   );
