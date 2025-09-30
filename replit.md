@@ -16,17 +16,28 @@ This is a React-based business website for Powerton Engineering Pvt. Ltd., a com
   6. **ESAB Rebel EMP 285ic** - High-output 285A multi-process, full .045" wire range, spray transfer
 - All products include real specifications, amperage ratings, processes, features, and manufacturer datasheet URLs
 
-### Added Plasma Cutters Product Group to Cutting Tools Subcategory
-- Created "Plasma Cutters" product group with comprehensive description covering SYNC cartridge technology and SmartSYNC features
-- Added 6 real Hypertherm Powermax plasma cutters:
-  1. **Powermax45 SYNC** - 45A, SmartSYNC RFID torches, single-piece cartridge, up to 5x consumable life
-  2. **Powermax65 SYNC** - 65A professional-grade, cartridge platform, automated setup
-  3. **Powermax85 SYNC** - 85A professional system, SmartSYNC, real-time diagnostics
-  4. **Powermax105 SYNC** - 105A heavy-duty, RFID tracking, up to 32mm cutting capacity
-  5. **Powermax125** - 125A maximum power, up to 57mm cutting, Smart Sense, 100% duty cycle
-  6. **Powermax30 XP** - 30A dual-voltage, FineCut consumables, portable design
-- All products include cutting capacity, amperage specifications, features, and Hypertherm datasheet URLs
-- Note: User requested "choksa cutter" but this term was not found in industrial cutting tools. Plasma Cutters were added as the most appropriate industrial metal cutting solution
+### Added Chop Saws (Cut-Off Saws) Product Group to Cutting Tools Subcategory
+- Created "Chop Saws (Cut-Off Saws)" product group with comprehensive description covering TCT cold-cut technology
+- Added 6 real chop saws from leading manufacturers:
+  1. **DeWalt DW872** - 14" Multi-Cutter Saw, 15A 4HP, 1,300 RPM, 66-70T carbide TCT blade, cuts 4× faster than abrasive
+  2. **Makita XWL01Z** - 36V (18V × 2) Brushless cordless, 14" blade, 3,800 RPM, tool-less fence/vise
+  3. **Evolution S355MCS** - First 14" TCT saw with mitering, 46° left/right miter range, precision miter table
+  4. **Evolution EVOSAW380** - 15" capacity, hi-torque gearbox, cold-cut technology, heavy-duty cast aluminum base
+  5. **KAKA Industrial CHS-355** - 14" TCT, 2.2kW high-torque motor, cast aluminum base, minimal heat/burrs
+  6. **Metabo HPT CC14SFS** - 14" portable, 15A 2,000W, quick-lock vise, miter to 45° either direction
+- All products include blade size, motor specifications, cutting capacity, features, and manufacturer datasheet URLs
+- Note: User initially said "choksa cutter" but clarified they meant "chop saw" - industrial metal cut-off saws with TCT blades
+
+### Added On/Off Valves Product Group to Valves-Actuators Subcategory
+- Created "On/Off Valves" product group with comprehensive description covering quarter-turn actuation and industrial shut-off service
+- Added 6 real on/off valves from leading manufacturers:
+  1. **Fisher V150 Vee-Ball** - V-notch ball valve, NPS 1-12, ASME Class 150/300, splined shaft for rotary actuators
+  2. **Fisher V280** - Full-bore trunnion ball valve, up to CL900, noise attenuation, fire-safe, NACE compliant
+  3. **Flowserve Worcester F519** - ASA150 flanged ball valve, 1/2"-8", BS 5351/API 6D approved, ISO 5211 actuator mounting
+  4. **Flowserve Worcester Series 44** - Three-piece ball valve, ANSI B16.34, bubble-tight shutoff, advanced seal technology
+  5. **Swagelok SS-43GS4** - One-piece instrumentation ball valve, 3,000 PSI, -65°F to 300°F, enhanced thermal cycling
+  6. **Burkert Type 2655** - 3-piece pneumatic ball valve, Type 2050 rotary actuator, ISO 5211, DN 8-50
+- All products include size, pressure ratings, valve type, actuator details, and manufacturer datasheet URLs
 
 ### Added HART Calibrator Products to Calibration Equipment
 - Created "HART Calibrators" product group with comprehensive description covering HART communication protocol support
