@@ -252,6 +252,149 @@
     }
   },
   "circuitBreakers": {
+    "schneiderM9r31240": {
+      "title": "Disjoncteur différentiel Schneider Electric M9R31240",
+      "description": "Disjoncteur différentiel à 4 pôles pour la protection de la sécurité électrique",
+      "features": [
+        "Configuration à 4 pôles",
+        "Tension nominale de 240 V CA",
+        "Courant différentiel de 30 mA",
+        "Courant nominal de 63 A",
+        "Détection de courant différentiel de type A"
+      ]
+    },
+    "schneiderM9r14463": {
+      "title": "Disjoncteur différentiel Schneider Electric M9R14463",
+      "description": "Disjoncteur différentiel à 2 pôles pour les applications domestiques",
+      "features": [
+        "Configuration à 2 pôles",
+        "Tension nominale de 240 V CA",
+        "Haute sensibilité de 10 mA",
+        "Courant nominal de 40 A",
+        "Détection de courant différentiel de type AC"
+      ]
+    },
+    "abbF204a63": {
+      "title": "Disjoncteur différentiel ABB F204 A-63/0.03",
+      "description": "Disjoncteur différentiel de type A avec protection améliorée",
+      "features": [
+        "Configuration de type A à 4 pôles",
+        "Tension nominale de 415 V CA",
+        "Courant différentiel de 30 mA",
+        "Courant nominal de 63 A",
+        "Fonctionnalités de sécurité améliorées"
+      ]
+    },
+    "abbF204ac25": {
+      "title": "Disjoncteur différentiel ABB F204 AC-25/0.03",
+      "description": "Disjoncteur différentiel compact pour usage résidentiel",
+      "features": [
+        "Configuration de type AC à 2 pôles",
+        "Tension nominale de 240 V CA",
+        "Courant différentiel de 30 mA",
+        "Courant nominal de 25 A",
+        "Montage compact sur rail DIN"
+      ]
+    },
+    "abbSaceEmaxE12": {
+      "title": "Disjoncteur ouvert ABB SACE Emax E1.2",
+      "description": "Disjoncteur ouvert pour la distribution d'énergie basse tension",
+      "features": [
+        "Pouvoir de coupure de 1250A",
+        "Tension nominale de 690 V CA",
+        "Unité de déclenchement électronique",
+        "Conception débrochable",
+        "Fonctions de protection avancées"
+      ]
+    },
+    "abbSaceEmaxE22": {
+      "title": "Disjoncteur ouvert ABB SACE Emax E2.2",
+      "description": "Disjoncteur ouvert haute performance pour les applications industrielles",
+      "features": [
+        "Pouvoir de coupure de 2000A",
+        "Tension nominale de 690 V CA",
+        "Protection basée sur microprocesseur",
+        "Capacité de fonctionnement à distance",
+        "Fonctions de comptage d'énergie"
+      ]
+    },
+    "schneiderMasterpactNw": {
+      "title": "Disjoncteur ouvert Schneider Electric MasterPact NW",
+      "description": "Disjoncteur ouvert avancé avec protection intelligente",
+      "features": [
+        "Pouvoir de coupure de 6300A",
+        "Tension nominale de 690 V CA",
+        "Unité de déclenchement Micrologic",
+        "Capacités de communication",
+        "Sélectivité de zone"
+      ]
+    },
+    "schneiderMasterpactMtz": {
+      "title": "Disjoncteur ouvert Schneider Electric MasterPact MTZ",
+      "description": "Disjoncteur ouvert compact pour les applications où l'espace est limité",
+      "features": [
+        "Pouvoir de coupure de 2500A",
+        "Tension nominale de 690 V CA",
+        "Unité de déclenchement numérique",
+        "Encombrement compact",
+        "Maintenance facile"
+      ]
+    },
+    "abbVd412kv": {
+      "title": "Disjoncteur à vide ABB VD4 12kV",
+      "description": "Disjoncteur à vide 12kV pour les applications moyenne tension",
+      "features": [
+        "Tension nominale de 12kV",
+        "Pouvoir de coupure de 31,5kA",
+        "Technologie d'interruption sous vide",
+        "Longue durée de vie électrique",
+        "Fonctionnement sans entretien"
+      ]
+    },
+    "abbVd424kv": {
+      "title": "Disjoncteur à vide ABB VD4 24kV",
+      "description": "Disjoncteur à vide 24kV pour une commutation haute performance",
+      "features": [
+        "Tension nominale de 24kV",
+        "Pouvoir de coupure de 25kA",
+        "Technologie sans SF6",
+        "Conception compacte",
+        "Respectueux de l'environnement"
+      ]
+    },
+    "schneiderEvopact15kv": {
+      "title": "Disjoncteur à vide Schneider Electric EvoPacT 15kV",
+      "description": "Disjoncteur à vide 15kV avec systèmes de contrôle avancés",
+      "features": [
+        "Tension nominale de 15kV",
+        "Pouvoir de coupure de 40kA",
+        "Unité de contrôle intégrée",
+        "Système de surveillance d'arc",
+        "Communication numérique"
+      ]
+    },
+    "schneiderHvx33kv": {
+      "title": "Disjoncteur à vide extérieur Schneider Electric HVX-O 33kV",
+      "description": "Disjoncteur à vide extérieur 33kV pour les sous-stations",
+      "features": [
+        "Tension nominale de 33kV",
+        "Pouvoir de coupure de 25kA",
+        "Installation extérieure",
+        "Boîtier résistant aux intempéries",
+        "Capacité de surveillance à distance"
+      ]
+    },
+    "siemens3ah4": {
+      "title": "Disjoncteur Siemens 3AH4",
+      "description": "Disjoncteur à vide moyenne tension avec une fiabilité éprouvée",
+      "features": [
+        "Tension nominale de 17,5kV",
+        "Pouvoir de coupure de 31,5kA",
+        "Technologie de vide éprouvée",
+        "Faibles besoins de maintenance",
+        "Haute sécurité opérationnelle"
+      ]
+    },
     "mcb": {
       "title": "Disjoncteurs miniatures (MCB)",
       "description": "Disjoncteurs basse tension pour la protection résidentielle et commerciale",
@@ -388,14 +531,6 @@
       "title": "Batteries solaires et stockage d'énergie",
       "description": "Systèmes de stockage de batteries pour les applications d'énergie solaire"
     },
-    "solar-inverters": {
-      "title": "Onduleurs solaires",
-      "description": "Onduleurs solaires à haut rendement pour les applications résidentielles et commerciales"
-    },
-    "plcs": {
-      "title": "PLC",
-      "description": "Automates programmables industriels pour l'automatisation industrielle"
-    },
     "surge-protectors": {
       "title": "Parafoudres",
       "description": "Dispositifs de protection contre les surtensions électriques pour la sécurité des équipements"
@@ -439,22 +574,6 @@
     "lifting-equipment": {
       "title": "Équipement de levage",
       "description": "Palans, grues et équipements de levage pour la manutention"
-    },
-    "bldc-cooler-exhaust-motor": {
-      "title": "Moteur BLDC pour refroidisseur et échappement",
-      "description": "Moteurs BLDC éconénergétiques pour les refroidisseurs et les ventilateurs d'extraction"
-    },
-    "bldc-ceiling-fan": {
-      "title": "Ventilateur de plafond BLDC",
-      "description": "Ventilateurs de plafond BLDC ultra-efficaces avec télécommande"
-    },
-    "bldc-submersible-surface-pump": {
-      "title": "Pompe submersible et de surface BLDC",
-      "description": "Pompes BLDC à haut rendement pour les applications hydrauliques"
-    },
-    "bldc-table-fan-wall-fan-motor": {
-      "title": "Moteur BLDC pour ventilateur de table et ventilateur mural",
-      "description": "Moteurs BLDC compacts pour ventilateurs de table et ventilateurs muraux"
     },
     "sensors-transducers": {
       "title": "Capteurs et transducteurs",
@@ -636,22 +755,6 @@
     "keyBenefits": "Avantages clés:",
     "professionalConsultation": "Obtenir une consultation professionnelle",
     "technicalConsultation": "Consultation technique"
-  },
-  "specs": {
-    "voltage": "Tension",
-    "type": "Type",
-    "current": "Courant",
-    "poles": "Pôles"
-  },
-  "circuitBreakers": {
-    "mcbMiniature": {
-      "title": "Disjoncteur miniature (MCB)",
-      "description": "Disjoncteurs basse tension pour la protection résidentielle et commerciale"
-    },
-    "mccbMoldedCase": {
-      "title": "Disjoncteur à boîtier moulé (MCCB)",
-      "description": "Disjoncteurs industriels pour la protection des moteurs et des équipements électriques"
-    }
   },
   "filters": {
     "all": "Tous",
@@ -2038,151 +2141,6 @@
       ]
     }
   },
-  "circuitBreakers": {
-    "schneiderM9r31240": {
-      "title": "Disjoncteur différentiel Schneider Electric M9R31240",
-      "description": "Disjoncteur différentiel à 4 pôles pour la protection de la sécurité électrique",
-      "features": [
-        "Configuration à 4 pôles",
-        "Tension nominale de 240 V CA",
-        "Courant différentiel de 30 mA",
-        "Courant nominal de 63 A",
-        "Détection de courant différentiel de type A"
-      ]
-    },
-    "schneiderM9r14463": {
-      "title": "Disjoncteur différentiel Schneider Electric M9R14463",
-      "description": "Disjoncteur différentiel à 2 pôles pour les applications domestiques",
-      "features": [
-        "Configuration à 2 pôles",
-        "Tension nominale de 240 V CA",
-        "Haute sensibilité de 10 mA",
-        "Courant nominal de 40 A",
-        "Détection de courant différentiel de type AC"
-      ]
-    },
-    "abbF204a63": {
-      "title": "Disjoncteur différentiel ABB F204 A-63/0.03",
-      "description": "Disjoncteur différentiel de type A avec protection améliorée",
-      "features": [
-        "Configuration de type A à 4 pôles",
-        "Tension nominale de 415 V CA",
-        "Courant différentiel de 30 mA",
-        "Courant nominal de 63 A",
-        "Fonctionnalités de sécurité améliorées"
-      ]
-    },
-    "abbF204ac25": {
-      "title": "Disjoncteur différentiel ABB F204 AC-25/0.03",
-      "description": "Disjoncteur différentiel compact pour usage résidentiel",
-      "features": [
-        "Configuration de type AC à 2 pôles",
-        "Tension nominale de 240 V CA",
-        "Courant différentiel de 30 mA",
-        "Courant nominal de 25 A",
-        "Montage compact sur rail DIN"
-      ]
-    },
-    "abbSaceEmaxE12": {
-      "title": "Disjoncteur ouvert ABB SACE Emax E1.2",
-      "description": "Disjoncteur ouvert pour la distribution d'énergie basse tension",
-      "features": [
-        "Pouvoir de coupure de 1250A",
-        "Tension nominale de 690 V CA",
-        "Unité de déclenchement électronique",
-        "Conception débrochable",
-        "Fonctions de protection avancées"
-      ]
-    },
-    "abbSaceEmaxE22": {
-      "title": "Disjoncteur ouvert ABB SACE Emax E2.2",
-      "description": "Disjoncteur ouvert haute performance pour les applications industrielles",
-      "features": [
-        "Pouvoir de coupure de 2000A",
-        "Tension nominale de 690 V CA",
-        "Protection basée sur microprocesseur",
-        "Capacité de fonctionnement à distance",
-        "Fonctions de comptage d'énergie"
-      ]
-    },
-    "schneiderMasterpactNw": {
-      "title": "Disjoncteur ouvert Schneider Electric MasterPact NW",
-      "description": "Disjoncteur ouvert avancé avec protection intelligente",
-      "features": [
-        "Pouvoir de coupure de 6300A",
-        "Tension nominale de 690 V CA",
-        "Unité de déclenchement Micrologic",
-        "Capacités de communication",
-        "Sélectivité de zone"
-      ]
-    },
-    "schneiderMasterpactMtz": {
-      "title": "Disjoncteur ouvert Schneider Electric MasterPact MTZ",
-      "description": "Disjoncteur ouvert compact pour les applications où l'espace est limité",
-      "features": [
-        "Pouvoir de coupure de 2500A",
-        "Tension nominale de 690 V CA",
-        "Unité de déclenchement numérique",
-        "Encombrement compact",
-        "Maintenance facile"
-      ]
-    },
-    "abbVd412kv": {
-      "title": "Disjoncteur à vide ABB VD4 12kV",
-      "description": "Disjoncteur à vide 12kV pour les applications moyenne tension",
-      "features": [
-        "Tension nominale de 12kV",
-        "Pouvoir de coupure de 31,5kA",
-        "Technologie d'interruption sous vide",
-        "Longue durée de vie électrique",
-        "Fonctionnement sans entretien"
-      ]
-    },
-    "abbVd424kv": {
-      "title": "Disjoncteur à vide ABB VD4 24kV",
-      "description": "Disjoncteur à vide 24kV pour une commutation haute performance",
-      "features": [
-        "Tension nominale de 24kV",
-        "Pouvoir de coupure de 25kA",
-        "Technologie sans SF6",
-        "Conception compacte",
-        "Respectueux de l'environnement"
-      ]
-    },
-    "schneiderEvopact15kv": {
-      "title": "Disjoncteur à vide Schneider Electric EvoPacT 15kV",
-      "description": "Disjoncteur à vide 15kV avec systèmes de contrôle avancés",
-      "features": [
-        "Tension nominale de 15kV",
-        "Pouvoir de coupure de 40kA",
-        "Unité de contrôle intégrée",
-        "Système de surveillance d'arc",
-        "Communication numérique"
-      ]
-    },
-    "schneiderHvx33kv": {
-      "title": "Disjoncteur à vide extérieur Schneider Electric HVX-O 33kV",
-      "description": "Disjoncteur à vide extérieur 33kV pour les sous-stations",
-      "features": [
-        "Tension nominale de 33kV",
-        "Pouvoir de coupure de 25kA",
-        "Installation extérieure",
-        "Boîtier résistant aux intempéries",
-        "Capacité de surveillance à distance"
-      ]
-    },
-    "siemens3ah4": {
-      "title": "Disjoncteur Siemens 3AH4",
-      "description": "Disjoncteur à vide moyenne tension avec une fiabilité éprouvée",
-      "features": [
-        "Tension nominale de 17,5kV",
-        "Pouvoir de coupure de 31,5kA",
-        "Technologie de vide éprouvée",
-        "Faibles besoins de maintenance",
-        "Haute sécurité opérationnelle"
-      ]
-    }
-  },
   "groups": {
     "rccb-circuit-breakers": {
       "title": "Disjoncteurs différentiels",
@@ -2198,6 +2156,8 @@
     }
   },
   "specs": {
+    "voltage": "Tension",
+    "current": "Courant",
     "manufacturer": "Fabricant",
     "model": "Modèle",
     "type": "Type",
@@ -2223,9 +2183,9 @@
     "range": "Portée",
     "frequency": "Fréquence",
     "conductivityRange": "Plage de conductivité",
-    "poles": "Poles", 
+    "poles": "Poles",
     "ratedVoltage": "Rated Voltage",
-    "ratedCurrent": "Rated Current", 
+    "ratedCurrent": "Rated Current",
     "residualCurrent": "Residual Current",
     "rcType": "RC Type",
     "breakingCapacity": "Breaking Capacity",

@@ -252,6 +252,149 @@
     }
   },
   "circuitBreakers": {
+    "schneiderM9r31240": {
+      "title": "Schneider Electric M9R31240 RCCB",
+      "description": "Mai karya kewayawa na yanzu-yanzu mai pole 4 don kariyar amincin lantarki",
+      "features": [
+        "Kanfigareshan pole 4",
+        "240V AC ƙimar ƙarfin lantarki",
+        "30mA ragowar wutar lantarki",
+        "63A ƙimar wutar lantarki",
+        "Nau'in A gano ragowar wutar lantarki"
+      ]
+    },
+    "schneiderM9r14463": {
+      "title": "Schneider Electric M9R14463 RCCB",
+      "description": "Mai karya kewayawa na yanzu-yanzu mai pole 2 don aikace-aikacen gida",
+      "features": [
+        "Kanfigareshan pole 2",
+        "240V AC ƙimar ƙarfin lantarki",
+        "10mA babban hankali",
+        "40A ƙimar wutar lantarki",
+        "Nau'in AC gano ragowar wutar lantarki"
+      ]
+    },
+    "abbF204a63": {
+      "title": "ABB F204 A-63/0.03 RCCB",
+      "description": "Nau'in A mai karya kewayawa na yanzu-yanzu tare da ingantaccen kariya",
+      "features": [
+        "4-pole Nau'in A Kanfigareshan",
+        "415V AC ƙimar ƙarfin lantarki",
+        "30mA ragowar wutar lantarki",
+        "63A ƙimar wutar lantarki",
+        "Ingantattun fasalolin tsaro"
+      ]
+    },
+    "abbF204ac25": {
+      "title": "ABB F204 AC-25/0.03 RCCB",
+      "description": "Mai ɗaukar nauyi mai karya kewayawa na yanzu-yanzu don amfanin zama",
+      "features": [
+        "2-pole AC nau'in Kanfigareshan",
+        "240V AC ƙimar ƙarfin lantarki",
+        "30mA ragowar wutar lantarki",
+        "25A ƙimar wutar lantarki",
+        "Haɗin DIN rail mai ɗaukar nauyi"
+      ]
+    },
+    "abbSaceEmaxE12": {
+      "title": "ABB SACE Emax E1.2 ACB",
+      "description": "Mai karya kewayawa na iska don rarraba wutar lantarki mai ƙarancin ƙarfi",
+      "features": [
+        "1250A ƙarfin karya",
+        "690V AC ƙimar ƙarfin lantarki",
+        "Na'urar tafiya ta lantarki",
+        "Zane mai cirewa",
+        "Ayyukan kariya masu ci gaba"
+      ]
+    },
+    "abbSaceEmaxE22": {
+      "title": "ABB SACE Emax E2.2 ACB",
+      "description": "Babban aiki mai karya kewayawa na iska don aikace-aikacen masana'antu",
+      "features": [
+        "2000A ƙarfin karya",
+        "690V AC ƙimar ƙarfin lantarki",
+        "Kariyar da ke bisa microprocessor",
+        "Ƙarfin aiki mai nisa",
+        "Ayyukan auna makamashi"
+      ]
+    },
+    "schneiderMasterpactNw": {
+      "title": "Schneider Electric MasterPact NW ACB",
+      "description": "Babban mai karya kewayawa na iska tare da kariya mai hankali",
+      "features": [
+        "6300A ƙarfin karya",
+        "690V AC ƙimar ƙarfin lantarki",
+        "Na'urar tafiya ta Micrologic",
+        "Ƙarfin sadarwa",
+        "Zaɓin yanki"
+      ]
+    },
+    "schneiderMasterpactMtz": {
+      "title": "Schneider Electric MasterPact MTZ ACB",
+      "description": "Mai ɗaukar nauyi mai karya kewayawa na iska don aikace-aikacen da ke da ƙarancin sarari",
+      "features": [
+        "2500A ƙarfin karya",
+        "690V AC ƙimar ƙarfin lantarki",
+        "Na'urar tafiya ta dijital",
+        "Ƙafar sawu mai ɗaukar nauyi",
+        "Sauƙin kulawa"
+      ]
+    },
+    "abbVd412kv": {
+      "title": "ABB VD4 12kV VCB",
+      "description": "12kV mai karya kewayawa na vacuum don aikace-aikacen matsakaicin ƙarfin lantarki",
+      "features": [
+        "12kV ƙimar ƙarfin lantarki",
+        "31.5kA ƙarfin karya",
+        "Fasahar katsewar vacuum",
+        "Tsawon rayuwar lantarki",
+        "Aikin da ba ya buƙatar kulawa"
+      ]
+    },
+    "abbVd424kv": {
+      "title": "ABB VD4 24kV VCB",
+      "description": "24kV mai karya kewayawa na vacuum don babban aikin sauyawa",
+      "features": [
+        "24kV ƙimar ƙarfin lantarki",
+        "25kA ƙarfin karya",
+        "Fasahar da ba ta da SF6",
+        "Zane mai ɗaukar nauyi",
+        "Mai dacewa da muhalli"
+      ]
+    },
+    "schneiderEvopact15kv": {
+      "title": "Schneider Electric EvoPacT 15kV VCB",
+      "description": "15kV mai karya kewayawa na vacuum tare da tsarin sarrafa ci gaba",
+      "features": [
+        "15kV ƙimar ƙarfin lantarki",
+        "40kA ƙarfin karya",
+        "Haɗaɗɗiyar na'urar sarrafawa",
+        "Tsarin sa ido kan baka",
+        "Sadarwa ta dijital"
+      ]
+    },
+    "schneiderHvx33kv": {
+      "title": "Schneider Electric HVX-O 33kV VCB",
+      "description": "33kV mai karya kewayawa na vacuum na waje don tashoshin wutar lantarki",
+      "features": [
+        "33kV ƙimar ƙarfin lantarki",
+        "25kA ƙarfin karya",
+        "Shigarwa ta waje",
+        "Gidaje masu jure yanayi",
+        "Ƙarfin sa ido mai nisa"
+      ]
+    },
+    "siemens3ah4": {
+      "title": "Siemens 3AH4 VCB",
+      "description": "Matsakaicin ƙarfin lantarki mai karya kewayawa na vacuum tare da tabbatar da aminci",
+      "features": [
+        "17.5kV ƙimar ƙarfin lantarki",
+        "31.5kA ƙarfin karya",
+        "Tabbatar da fasahar vacuum",
+        "Ƙananan buƙatun kulawa",
+        "Babban amincin aiki"
+      ]
+    },
     "mcb": {
       "title": "Ƙananan Masu Karya Wutar Lantarki (MCB)",
       "description": "Masu karya wutar lantarki masu ƙarancin ƙarfi don kariyar zama da kasuwanci",
@@ -388,14 +531,6 @@
       "title": "Batirin Rana & Adana Makamashi",
       "description": "Tsarin ajiyar baturi don aikace-aikacen makamashin hasken rana"
     },
-    "solar-inverters": {
-      "title": "Inverters na Rana",
-      "description": "Inverters na hasken rana masu inganci don aikace-aikacen zama da kasuwanci"
-    },
-    "plcs": {
-      "title": "PLCs",
-      "description": "Masu Kula da Ma'ana Mai Shirye-shirye don sarrafa masana'antu"
-    },
     "surge-protectors": {
       "title": "Masu Kariyar Guguwa",
       "description": "Na'urorin kariya na lantarki don amincin kayan aiki"
@@ -439,22 +574,6 @@
     "lifting-equipment": {
       "title": "Kayan Ɗagawa",
       "description": "Hoists, cranes, da kayan ɗagawa don sarrafa kayan aiki"
-    },
-    "bldc-cooler-exhaust-motor": {
-      "title": "BLDC Mai sanyaya & Mota Mai Shaye Shaye",
-      "description": "Motocin BLDC masu amfani da kuzari don sanyaya da fankan shaye shaye"
-    },
-    "bldc-ceiling-fan": {
-      "title": "Fankar Rufi na BLDC",
-      "description": "Fanka-fankan rufi na BLDC masu matuƙar inganci tare da na'urar sarrafa nesa"
-    },
-    "bldc-submersible-surface-pump": {
-      "title": "BLDC Famfon da ke Ciki & na Sama",
-      "description": "Famfunan BLDC masu inganci don aikace-aikacen ruwa"
-    },
-    "bldc-table-fan-wall-fan-motor": {
-      "title": "BLDC Tebur Fan & Motar Fan na Bango",
-      "description": "Motocin BLDC masu ɗaukar nauyi don tebur da fankan bango"
     },
     "sensors-transducers": {
       "title": "Masu Gane Karfin Lantarki & Masu Canzawa",
@@ -636,22 +755,6 @@
     "keyBenefits": "Babban Fa'idodi:",
     "professionalConsultation": "Samu Shawarwari na Ƙwararru",
     "technicalConsultation": "Shawarwari na Fasaha"
-  },
-  "specs": {
-    "voltage": "Karfin Wuta",
-    "type": "Nau'i",
-    "current": "Yanzu",
-    "poles": "Sanduna"
-  },
-  "circuitBreakers": {
-    "mcbMiniature": {
-      "title": "Ƙaramin Mai Kariya ta Wutar Lantarki (MCB)",
-      "description": "Masu karya wutar lantarki masu ƙarancin ƙarfi don kariyar zama da kasuwanci"
-    },
-    "mccbMoldedCase": {
-      "title": "Molded Case Circuit Breaker (MCCB)",
-      "description": "Masu karya wutar lantarki na masana'antu don mota da kariyar kayan aikin wuta"
-    }
   },
   "filters": {
     "all": "Duka",
@@ -2038,151 +2141,6 @@
       ]
     }
   },
-  "circuitBreakers": {
-    "schneiderM9r31240": {
-      "title": "Schneider Electric M9R31240 RCCB",
-      "description": "Mai karya kewayawa na yanzu-yanzu mai pole 4 don kariyar amincin lantarki",
-      "features": [
-        "Kanfigareshan pole 4",
-        "240V AC ƙimar ƙarfin lantarki",
-        "30mA ragowar wutar lantarki",
-        "63A ƙimar wutar lantarki",
-        "Nau'in A gano ragowar wutar lantarki"
-      ]
-    },
-    "schneiderM9r14463": {
-      "title": "Schneider Electric M9R14463 RCCB",
-      "description": "Mai karya kewayawa na yanzu-yanzu mai pole 2 don aikace-aikacen gida",
-      "features": [
-        "Kanfigareshan pole 2",
-        "240V AC ƙimar ƙarfin lantarki",
-        "10mA babban hankali",
-        "40A ƙimar wutar lantarki",
-        "Nau'in AC gano ragowar wutar lantarki"
-      ]
-    },
-    "abbF204a63": {
-      "title": "ABB F204 A-63/0.03 RCCB",
-      "description": "Nau'in A mai karya kewayawa na yanzu-yanzu tare da ingantaccen kariya",
-      "features": [
-        "4-pole Nau'in A Kanfigareshan",
-        "415V AC ƙimar ƙarfin lantarki",
-        "30mA ragowar wutar lantarki",
-        "63A ƙimar wutar lantarki",
-        "Ingantattun fasalolin tsaro"
-      ]
-    },
-    "abbF204ac25": {
-      "title": "ABB F204 AC-25/0.03 RCCB",
-      "description": "Mai ɗaukar nauyi mai karya kewayawa na yanzu-yanzu don amfanin zama",
-      "features": [
-        "2-pole AC nau'in Kanfigareshan",
-        "240V AC ƙimar ƙarfin lantarki",
-        "30mA ragowar wutar lantarki",
-        "25A ƙimar wutar lantarki",
-        "Haɗin DIN rail mai ɗaukar nauyi"
-      ]
-    },
-    "abbSaceEmaxE12": {
-      "title": "ABB SACE Emax E1.2 ACB",
-      "description": "Mai karya kewayawa na iska don rarraba wutar lantarki mai ƙarancin ƙarfi",
-      "features": [
-        "1250A ƙarfin karya",
-        "690V AC ƙimar ƙarfin lantarki",
-        "Na'urar tafiya ta lantarki",
-        "Zane mai cirewa",
-        "Ayyukan kariya masu ci gaba"
-      ]
-    },
-    "abbSaceEmaxE22": {
-      "title": "ABB SACE Emax E2.2 ACB",
-      "description": "Babban aiki mai karya kewayawa na iska don aikace-aikacen masana'antu",
-      "features": [
-        "2000A ƙarfin karya",
-        "690V AC ƙimar ƙarfin lantarki",
-        "Kariyar da ke bisa microprocessor",
-        "Ƙarfin aiki mai nisa",
-        "Ayyukan auna makamashi"
-      ]
-    },
-    "schneiderMasterpactNw": {
-      "title": "Schneider Electric MasterPact NW ACB",
-      "description": "Babban mai karya kewayawa na iska tare da kariya mai hankali",
-      "features": [
-        "6300A ƙarfin karya",
-        "690V AC ƙimar ƙarfin lantarki",
-        "Na'urar tafiya ta Micrologic",
-        "Ƙarfin sadarwa",
-        "Zaɓin yanki"
-      ]
-    },
-    "schneiderMasterpactMtz": {
-      "title": "Schneider Electric MasterPact MTZ ACB",
-      "description": "Mai ɗaukar nauyi mai karya kewayawa na iska don aikace-aikacen da ke da ƙarancin sarari",
-      "features": [
-        "2500A ƙarfin karya",
-        "690V AC ƙimar ƙarfin lantarki",
-        "Na'urar tafiya ta dijital",
-        "Ƙafar sawu mai ɗaukar nauyi",
-        "Sauƙin kulawa"
-      ]
-    },
-    "abbVd412kv": {
-      "title": "ABB VD4 12kV VCB",
-      "description": "12kV mai karya kewayawa na vacuum don aikace-aikacen matsakaicin ƙarfin lantarki",
-      "features": [
-        "12kV ƙimar ƙarfin lantarki",
-        "31.5kA ƙarfin karya",
-        "Fasahar katsewar vacuum",
-        "Tsawon rayuwar lantarki",
-        "Aikin da ba ya buƙatar kulawa"
-      ]
-    },
-    "abbVd424kv": {
-      "title": "ABB VD4 24kV VCB",
-      "description": "24kV mai karya kewayawa na vacuum don babban aikin sauyawa",
-      "features": [
-        "24kV ƙimar ƙarfin lantarki",
-        "25kA ƙarfin karya",
-        "Fasahar da ba ta da SF6",
-        "Zane mai ɗaukar nauyi",
-        "Mai dacewa da muhalli"
-      ]
-    },
-    "schneiderEvopact15kv": {
-      "title": "Schneider Electric EvoPacT 15kV VCB",
-      "description": "15kV mai karya kewayawa na vacuum tare da tsarin sarrafa ci gaba",
-      "features": [
-        "15kV ƙimar ƙarfin lantarki",
-        "40kA ƙarfin karya",
-        "Haɗaɗɗiyar na'urar sarrafawa",
-        "Tsarin sa ido kan baka",
-        "Sadarwa ta dijital"
-      ]
-    },
-    "schneiderHvx33kv": {
-      "title": "Schneider Electric HVX-O 33kV VCB",
-      "description": "33kV mai karya kewayawa na vacuum na waje don tashoshin wutar lantarki",
-      "features": [
-        "33kV ƙimar ƙarfin lantarki",
-        "25kA ƙarfin karya",
-        "Shigarwa ta waje",
-        "Gidaje masu jure yanayi",
-        "Ƙarfin sa ido mai nisa"
-      ]
-    },
-    "siemens3ah4": {
-      "title": "Siemens 3AH4 VCB",
-      "description": "Matsakaicin ƙarfin lantarki mai karya kewayawa na vacuum tare da tabbatar da aminci",
-      "features": [
-        "17.5kV ƙimar ƙarfin lantarki",
-        "31.5kA ƙarfin karya",
-        "Tabbatar da fasahar vacuum",
-        "Ƙananan buƙatun kulawa",
-        "Babban amincin aiki"
-      ]
-    }
-  },
   "groups": {
     "rccb-circuit-breakers": {
       "title": "Masu Karya Kewayawa na RCCB",
@@ -2198,6 +2156,8 @@
     }
   },
   "specs": {
+    "voltage": "Karfin Wuta",
+    "current": "Yanzu",
     "manufacturer": "Mai ƙera",
     "model": "Model",
     "type": "Nau'i",

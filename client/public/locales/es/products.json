@@ -252,6 +252,149 @@
     }
   },
   "circuitBreakers": {
+    "schneiderM9r31240": {
+      "title": "Interruptor Diferencial Schneider Electric M9R31240",
+      "description": "Interruptor diferencial de 4 polos para protección de seguridad eléctrica",
+      "features": [
+        "Configuración de 4 polos",
+        "Tensión nominal de 240V CA",
+        "Corriente residual de 30mA",
+        "Corriente nominal de 63A",
+        "Detección de corriente residual tipo A"
+      ]
+    },
+    "schneiderM9r14463": {
+      "title": "Interruptor Diferencial Schneider Electric M9R14463",
+      "description": "Interruptor diferencial de 2 polos para aplicaciones domésticas",
+      "features": [
+        "Configuración de 2 polos",
+        "Tensión nominal de 240V CA",
+        "Alta sensibilidad de 10mA",
+        "Corriente nominal de 40A",
+        "Detección de corriente residual tipo AC"
+      ]
+    },
+    "abbF204a63": {
+      "title": "Interruptor Diferencial ABB F204 A-63/0.03",
+      "description": "Interruptor diferencial tipo A con protección mejorada",
+      "features": [
+        "Configuración de 4 polos tipo A",
+        "Tensión nominal de 415V CA",
+        "Corriente residual de 30mA",
+        "Corriente nominal de 63A",
+        "Características de seguridad mejoradas"
+      ]
+    },
+    "abbF204ac25": {
+      "title": "Interruptor Diferencial ABB F204 AC-25/0.03",
+      "description": "Interruptor diferencial compacto para uso residencial",
+      "features": [
+        "Configuración de 2 polos tipo AC",
+        "Tensión nominal de 240V CA",
+        "Corriente residual de 30mA",
+        "Corriente nominal de 25A",
+        "Montaje compacto en carril DIN"
+      ]
+    },
+    "abbSaceEmaxE12": {
+      "title": "Interruptor Automático Abierto ABB SACE Emax E1.2",
+      "description": "Interruptor automático en aire para distribución de energía de baja tensión",
+      "features": [
+        "Capacidad de ruptura de 1250A",
+        "Tensión nominal de 690V CA",
+        "Unidad de disparo electrónica",
+        "Diseño extraíble",
+        "Funciones de protección avanzadas"
+      ]
+    },
+    "abbSaceEmaxE22": {
+      "title": "Interruptor Automático Abierto ABB SACE Emax E2.2",
+      "description": "Interruptor automático en aire de alto rendimiento para aplicaciones industriales",
+      "features": [
+        "Capacidad de ruptura de 2000A",
+        "Tensión nominal de 690V CA",
+        "Protección basada en microprocesador",
+        "Capacidad de operación remota",
+        "Funciones de medición de energía"
+      ]
+    },
+    "schneiderMasterpactNw": {
+      "title": "Interruptor Automático Abierto Schneider Electric MasterPact NW",
+      "description": "Interruptor automático en aire avanzado con protección inteligente",
+      "features": [
+        "Capacidad de ruptura de 6300A",
+        "Tensión nominal de 690V CA",
+        "Unidad de disparo Micrologic",
+        "Capacidades de comunicación",
+        "Selectividad de zona"
+      ]
+    },
+    "schneiderMasterpactMtz": {
+      "title": "Interruptor Automático Abierto Schneider Electric MasterPact MTZ",
+      "description": "Interruptor automático en aire compacto para aplicaciones con limitaciones de espacio",
+      "features": [
+        "Capacidad de ruptura de 2500A",
+        "Tensión nominal de 690V CA",
+        "Unidad de disparo digital",
+        "Tamaño compacto",
+        "Fácil mantenimiento"
+      ]
+    },
+    "abbVd412kv": {
+      "title": "Interruptor de Vacío ABB VD4 12kV",
+      "description": "Interruptor de vacío de 12kV para aplicaciones de media tensión",
+      "features": [
+        "Tensión nominal de 12kV",
+        "Capacidad de ruptura de 31.5kA",
+        "Tecnología de interrupción de vacío",
+        "Larga vida eléctrica",
+        "Operación sin mantenimiento"
+      ]
+    },
+    "abbVd424kv": {
+      "title": "Interruptor de Vacío ABB VD4 24kV",
+      "description": "Interruptor de vacío de 24kV para conmutación de alto rendimiento",
+      "features": [
+        "Tensión nominal de 24kV",
+        "Capacidad de ruptura de 25kA",
+        "Tecnología libre de SF6",
+        "Diseño compacto",
+        "Respetuoso con el medio ambiente"
+      ]
+    },
+    "schneiderEvopact15kv": {
+      "title": "Interruptor de Vacío Schneider Electric EvoPacT 15kV",
+      "description": "Interruptor de vacío de 15kV con sistemas de control avanzados",
+      "features": [
+        "Tensión nominal de 15kV",
+        "Capacidad de ruptura de 40kA",
+        "Unidad de control integrada",
+        "Sistema de monitoreo de arco",
+        "Comunicación digital"
+      ]
+    },
+    "schneiderHvx33kv": {
+      "title": "Interruptor de Vacío Exterior Schneider Electric HVX-O 33kV",
+      "description": "Interruptor de vacío exterior de 33kV para subestaciones",
+      "features": [
+        "Tensión nominal de 33kV",
+        "Capacidad de ruptura de 25kA",
+        "Instalación exterior",
+        "Carcasa resistente a la intemperie",
+        "Capacidad de monitoreo remoto"
+      ]
+    },
+    "siemens3ah4": {
+      "title": "Interruptor de Vacío Siemens 3AH4",
+      "description": "Interruptor de vacío de media tensión con fiabilidad comprobada",
+      "features": [
+        "Tensión nominal de 17.5kV",
+        "Capacidad de ruptura de 31.5kA",
+        "Tecnología de vacío probada",
+        "Bajos requisitos de mantenimiento",
+        "Alta seguridad operacional"
+      ]
+    },
     "mcb": {
       "title": "Interruptores Automáticos en Miniatura (MCB)",
       "description": "Interruptores automáticos de bajo voltaje para protección residencial y comercial",
@@ -388,14 +531,6 @@
       "title": "Baterías Solares y Almacenamiento de Energía",
       "description": "Sistemas de almacenamiento de baterías para aplicaciones de energía solar"
     },
-    "solar-inverters": {
-      "title": "Inversores Solares",
-      "description": "Inversores solares de alta eficiencia para aplicaciones residenciales y comerciales"
-    },
-    "plcs": {
-      "title": "PLCs",
-      "description": "Controladores Lógicos Programables para automatización industrial"
-    },
     "surge-protectors": {
       "title": "Protectores contra Sobretensiones",
       "description": "Dispositivos eléctricos de protección contra sobretensiones para seguridad del equipo"
@@ -439,22 +574,6 @@
     "lifting-equipment": {
       "title": "Equipo de Elevación",
       "description": "Polipastos, grúas y equipos de elevación para la manipulación de materiales"
-    },
-    "bldc-cooler-exhaust-motor": {
-      "title": "Motor BLDC para Enfriador y Escape",
-      "description": "Motores BLDC de bajo consumo para enfriadores y ventiladores de escape"
-    },
-    "bldc-ceiling-fan": {
-      "title": "Ventilador de Techo BLDC",
-      "description": "Ventiladores de techo BLDC ultraeficientes con control remoto"
-    },
-    "bldc-submersible-surface-pump": {
-      "title": "Bomba Sumergible y de Superficie BLDC",
-      "description": "Bombas BLDC de alta eficiencia para aplicaciones de agua"
-    },
-    "bldc-table-fan-wall-fan-motor": {
-      "title": "Motor BLDC para Ventilador de Mesa y Pared",
-      "description": "Motores BLDC compactos para ventiladores de mesa y pared"
     },
     "sensors-transducers": {
       "title": "Sensores y Transductores",
@@ -636,22 +755,6 @@
     "keyBenefits": "Beneficios Clave:",
     "professionalConsultation": "Obtenga una Consulta Profesional",
     "technicalConsultation": "Consulta Técnica"
-  },
-  "specs": {
-    "voltage": "Voltaje",
-    "type": "Tipo",
-    "current": "Corriente",
-    "poles": "Polos"
-  },
-  "circuitBreakers": {
-    "mcbMiniature": {
-      "title": "Interruptor Automático en Miniatura (MCB)",
-      "description": "Interruptores automáticos de bajo voltaje para protección residencial y comercial"
-    },
-    "mccbMoldedCase": {
-      "title": "Interruptor Automático de Caja Moldeada (MCCB)",
-      "description": "Interruptores automáticos industriales para protección de motores y equipos de energía"
-    }
   },
   "filters": {
     "all": "Todos",
@@ -2038,151 +2141,6 @@
       ]
     }
   },
-  "circuitBreakers": {
-    "schneiderM9r31240": {
-      "title": "Interruptor Diferencial Schneider Electric M9R31240",
-      "description": "Interruptor diferencial de 4 polos para protección de seguridad eléctrica",
-      "features": [
-        "Configuración de 4 polos",
-        "Tensión nominal de 240V CA",
-        "Corriente residual de 30mA",
-        "Corriente nominal de 63A",
-        "Detección de corriente residual tipo A"
-      ]
-    },
-    "schneiderM9r14463": {
-      "title": "Interruptor Diferencial Schneider Electric M9R14463",
-      "description": "Interruptor diferencial de 2 polos para aplicaciones domésticas",
-      "features": [
-        "Configuración de 2 polos",
-        "Tensión nominal de 240V CA",
-        "Alta sensibilidad de 10mA",
-        "Corriente nominal de 40A",
-        "Detección de corriente residual tipo AC"
-      ]
-    },
-    "abbF204a63": {
-      "title": "Interruptor Diferencial ABB F204 A-63/0.03",
-      "description": "Interruptor diferencial tipo A con protección mejorada",
-      "features": [
-        "Configuración de 4 polos tipo A",
-        "Tensión nominal de 415V CA",
-        "Corriente residual de 30mA",
-        "Corriente nominal de 63A",
-        "Características de seguridad mejoradas"
-      ]
-    },
-    "abbF204ac25": {
-      "title": "Interruptor Diferencial ABB F204 AC-25/0.03",
-      "description": "Interruptor diferencial compacto para uso residencial",
-      "features": [
-        "Configuración de 2 polos tipo AC",
-        "Tensión nominal de 240V CA",
-        "Corriente residual de 30mA",
-        "Corriente nominal de 25A",
-        "Montaje compacto en carril DIN"
-      ]
-    },
-    "abbSaceEmaxE12": {
-      "title": "Interruptor Automático Abierto ABB SACE Emax E1.2",
-      "description": "Interruptor automático en aire para distribución de energía de baja tensión",
-      "features": [
-        "Capacidad de ruptura de 1250A",
-        "Tensión nominal de 690V CA",
-        "Unidad de disparo electrónica",
-        "Diseño extraíble",
-        "Funciones de protección avanzadas"
-      ]
-    },
-    "abbSaceEmaxE22": {
-      "title": "Interruptor Automático Abierto ABB SACE Emax E2.2",
-      "description": "Interruptor automático en aire de alto rendimiento para aplicaciones industriales",
-      "features": [
-        "Capacidad de ruptura de 2000A",
-        "Tensión nominal de 690V CA",
-        "Protección basada en microprocesador",
-        "Capacidad de operación remota",
-        "Funciones de medición de energía"
-      ]
-    },
-    "schneiderMasterpactNw": {
-      "title": "Interruptor Automático Abierto Schneider Electric MasterPact NW",
-      "description": "Interruptor automático en aire avanzado con protección inteligente",
-      "features": [
-        "Capacidad de ruptura de 6300A",
-        "Tensión nominal de 690V CA",
-        "Unidad de disparo Micrologic",
-        "Capacidades de comunicación",
-        "Selectividad de zona"
-      ]
-    },
-    "schneiderMasterpactMtz": {
-      "title": "Interruptor Automático Abierto Schneider Electric MasterPact MTZ",
-      "description": "Interruptor automático en aire compacto para aplicaciones con limitaciones de espacio",
-      "features": [
-        "Capacidad de ruptura de 2500A",
-        "Tensión nominal de 690V CA",
-        "Unidad de disparo digital",
-        "Tamaño compacto",
-        "Fácil mantenimiento"
-      ]
-    },
-    "abbVd412kv": {
-      "title": "Interruptor de Vacío ABB VD4 12kV",
-      "description": "Interruptor de vacío de 12kV para aplicaciones de media tensión",
-      "features": [
-        "Tensión nominal de 12kV",
-        "Capacidad de ruptura de 31.5kA",
-        "Tecnología de interrupción de vacío",
-        "Larga vida eléctrica",
-        "Operación sin mantenimiento"
-      ]
-    },
-    "abbVd424kv": {
-      "title": "Interruptor de Vacío ABB VD4 24kV",
-      "description": "Interruptor de vacío de 24kV para conmutación de alto rendimiento",
-      "features": [
-        "Tensión nominal de 24kV",
-        "Capacidad de ruptura de 25kA",
-        "Tecnología libre de SF6",
-        "Diseño compacto",
-        "Respetuoso con el medio ambiente"
-      ]
-    },
-    "schneiderEvopact15kv": {
-      "title": "Interruptor de Vacío Schneider Electric EvoPacT 15kV",
-      "description": "Interruptor de vacío de 15kV con sistemas de control avanzados",
-      "features": [
-        "Tensión nominal de 15kV",
-        "Capacidad de ruptura de 40kA",
-        "Unidad de control integrada",
-        "Sistema de monitoreo de arco",
-        "Comunicación digital"
-      ]
-    },
-    "schneiderHvx33kv": {
-      "title": "Interruptor de Vacío Exterior Schneider Electric HVX-O 33kV",
-      "description": "Interruptor de vacío exterior de 33kV para subestaciones",
-      "features": [
-        "Tensión nominal de 33kV",
-        "Capacidad de ruptura de 25kA",
-        "Instalación exterior",
-        "Carcasa resistente a la intemperie",
-        "Capacidad de monitoreo remoto"
-      ]
-    },
-    "siemens3ah4": {
-      "title": "Interruptor de Vacío Siemens 3AH4",
-      "description": "Interruptor de vacío de media tensión con fiabilidad comprobada",
-      "features": [
-        "Tensión nominal de 17.5kV",
-        "Capacidad de ruptura de 31.5kA",
-        "Tecnología de vacío probada",
-        "Bajos requisitos de mantenimiento",
-        "Alta seguridad operacional"
-      ]
-    }
-  },
   "groups": {
     "rccb-circuit-breakers": {
       "title": "Interruptores Diferenciales (RCCB)",
@@ -2198,6 +2156,8 @@
     }
   },
   "specs": {
+    "voltage": "Voltaje",
+    "current": "Corriente",
     "manufacturer": "Fabricante",
     "model": "Modelo",
     "type": "Tipo",

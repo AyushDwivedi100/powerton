@@ -176,7 +176,149 @@
       "features": ["Cat5e/Cat6 标准", "光纤选项", "工业级", "电磁屏蔽"]
     }
   },
-  "circuitBreakers": {
+  "circuitBreakers": {"schneiderM9r31240": {
+      "title": "施耐德电气 M9R31240 RCCB",
+      "description": "用于电气安全保护的4极剩余电流断路器",
+      "features": [
+        "4极配置",
+        "240V 交流额定电压",
+        "30mA 剩余电流",
+        "63A 额定电流",
+        "A型剩余电流检测"
+      ]
+    },
+    "schneiderM9r14463": {
+      "title": "施耐德电气 M9R14463 RCCB",
+      "description": "用于家庭应用的2极剩余电流断路器",
+      "features": [
+        "2极配置",
+        "240V 交流额定电压",
+        "10mA 高灵敏度",
+        "40A 额定电流",
+        "AC型剩余电流检测"
+      ]
+    },
+    "abbF204a63": {
+      "title": "ABB F204 A-63/0.03 RCCB",
+      "description": "具有增强保护功能的A型剩余电流断路器",
+      "features": [
+        "4极 A型配置",
+        "415V 交流额定电压",
+        "30mA 剩余电流",
+        "63A 额定电流",
+        "增强的安全功能"
+      ]
+    },
+    "abbF204ac25": {
+      "title": "ABB F204 AC-25/0.03 RCCB",
+      "description": "用于住宅用途的紧凑型剩余电流断路器",
+      "features": [
+        "2极 AC型配置",
+        "240V 交流额定电压",
+        "30mA 剩余电流",
+        "25A 额定电流",
+        "紧凑型 DIN 导轨安装"
+      ]
+    },
+    "abbSaceEmaxE12": {
+      "title": "ABB SACE Emax E1.2 ACB",
+      "description": "用于低压配电的空气断路器",
+      "features": [
+        "1250A 分断能力",
+        "690V 交流额定电压",
+        "电子脱扣单元",
+        "抽出式设计",
+        "先进的保护功能"
+      ]
+    },
+    "abbSaceEmaxE22": {
+      "title": "ABB SACE Emax E2.2 ACB",
+      "description": "用于工业应用的高性能空气断路器",
+      "features": [
+        "2000A 分断能力",
+        "690V 交流额定电压",
+        "基于微处理器的保护",
+        "远程操作能力",
+        "能量计量功能"
+      ]
+    },
+    "schneiderMasterpactNw": {
+      "title": "施耐德电气 MasterPact NW ACB",
+      "description": "具有智能保护功能的先进空气断路器",
+      "features": [
+        "6300A 分断能力",
+        "690V 交流额定电压",
+        "Micrologic 脱扣单元",
+        "通信能力",
+        "区域选择性"
+      ]
+    },
+    "schneiderMasterpactMtz": {
+      "title": "施耐德电气 MasterPact MTZ ACB",
+      "description": "用于空间受限应用的紧凑型空气断路器",
+      "features": [
+        "2500A 分断能力",
+        "690V 交流额定电压",
+        "数字脱扣单元",
+        "紧凑的占地面积",
+        "易于维护"
+      ]
+    },
+    "abbVd412kv": {
+      "title": "ABB VD4 12kV VCB",
+      "description": "用于中压应用的 12kV 真空断路器",
+      "features": [
+        "12kV 额定电压",
+        "31.5kA 分断能力",
+        "真空中断技术",
+        "长电气寿命",
+        "免维护操作"
+      ]
+    },
+    "abbVd424kv": {
+      "title": "ABB VD4 24kV VCB",
+      "description": "用于高性能切换的 24kV 真空断路器",
+      "features": [
+        "24kV 额定电压",
+        "25kA 分断能力",
+        "无 SF6 技术",
+        "紧凑设计",
+        "环境友好"
+      ]
+    },
+    "schneiderEvopact15kv": {
+      "title": "施耐德电气 EvoPacT 15kV VCB",
+      "description": "具有先进控制系统的 15kV 真空断路器",
+      "features": [
+        "15kV 额定电压",
+        "40kA 分断能力",
+        "集成控制单元",
+        "电弧监控系统",
+        "数字通信"
+      ]
+    },
+    "schneiderHvx33kv": {
+      "title": "施耐德电气 HVX-O 33kV VCB",
+      "description": "用于变电站的 33kV 室外真空断路器",
+      "features": [
+        "33kV 额定电压",
+        "25kA 分断能力",
+        "室外安装",
+        "耐候外壳",
+        "远程监控能力"
+      ]
+    },
+    "siemens3ah4": {
+      "title": "西门子 3AH4 VCB",
+      "description": "具有经验证的可靠性的中压真空断路器",
+      "features": [
+        "17.5kV 额定电压",
+        "31.5kA 分断能力",
+        "经验证的真空技术",
+        "低维护要求",
+        "高运行安全性"
+      ]
+    },
     "mcb": {
       "title": "微型断路器 (MCB)",
       "description": "用于住宅和商业保护的低压断路器",
@@ -293,14 +435,6 @@
       "title": "太阳能电池和储能",
       "description": "用于太阳能应用的电池存储系统"
     },
-    "solar-inverters": {
-      "title": "太阳能逆变器",
-      "description": "用于住宅和商业应用的高效太阳能逆变器"
-    },
-    "plcs": {
-      "title": "PLC",
-      "description": "用于工业自动化的可编程逻辑控制器"
-    },
     "surge-protectors": {
       "title": "浪涌保护器",
       "description": "用于设备安全的电气浪涌保护装置"
@@ -344,22 +478,6 @@
     "lifting-equipment": {
       "title": "起重设备",
       "description": "用于物料搬运的葫芦、起重机和起重设备"
-    },
-    "bldc-cooler-exhaust-motor": {
-      "title": "BLDC冷风机和排风电机",
-      "description": "用于冷却器和排风机的节能BLDC电机"
-    },
-    "bldc-ceiling-fan": {
-      "title": "BLDC吊扇",
-      "description": "带遥控器的超高效BLDC吊扇"
-    },
-    "bldc-submersible-surface-pump": {
-      "title": "BLDC潜水泵和地面泵",
-      "description": "用于水应用的高效BLDC泵"
-    },
-    "bldc-table-fan-wall-fan-motor": {
-      "title": "BLDC台扇和壁扇电机",
-      "description": "用于台扇和壁扇的紧凑型BLDC电机"
     },
     "sensors-transducers": {
       "title": "传感器和变送器",
@@ -541,22 +659,6 @@
     "keyBenefits": "主要优势：",
     "professionalConsultation": "获得专业咨询",
     "technicalConsultation": "技术咨询"
-  },
-  "specs": {
-    "voltage": "电压",
-    "type": "类型",
-    "current": "电流",
-    "poles": "极数"
-  },
-  "circuitBreakers": {
-    "mcbMiniature": {
-      "title": "微型断路器 (MCB)",
-      "description": "用于住宅和商业保护的低压断路器"
-    },
-    "mccbMoldedCase": {
-      "title": "塑壳断路器 (MCCB)",
-      "description": "用于电机和电力设备保护的工业断路器"
-    }
   },
   "filters": {
     "all": "全部",
@@ -1922,151 +2024,6 @@
       ]
     }
   },
-  "circuitBreakers": {
-    "schneiderM9r31240": {
-      "title": "施耐德电气 M9R31240 RCCB",
-      "description": "用于电气安全保护的4极剩余电流断路器",
-      "features": [
-        "4极配置",
-        "240V 交流额定电压",
-        "30mA 剩余电流",
-        "63A 额定电流",
-        "A型剩余电流检测"
-      ]
-    },
-    "schneiderM9r14463": {
-      "title": "施耐德电气 M9R14463 RCCB",
-      "description": "用于家庭应用的2极剩余电流断路器",
-      "features": [
-        "2极配置",
-        "240V 交流额定电压",
-        "10mA 高灵敏度",
-        "40A 额定电流",
-        "AC型剩余电流检测"
-      ]
-    },
-    "abbF204a63": {
-      "title": "ABB F204 A-63/0.03 RCCB",
-      "description": "具有增强保护功能的A型剩余电流断路器",
-      "features": [
-        "4极 A型配置",
-        "415V 交流额定电压",
-        "30mA 剩余电流",
-        "63A 额定电流",
-        "增强的安全功能"
-      ]
-    },
-    "abbF204ac25": {
-      "title": "ABB F204 AC-25/0.03 RCCB",
-      "description": "用于住宅用途的紧凑型剩余电流断路器",
-      "features": [
-        "2极 AC型配置",
-        "240V 交流额定电压",
-        "30mA 剩余电流",
-        "25A 额定电流",
-        "紧凑型 DIN 导轨安装"
-      ]
-    },
-    "abbSaceEmaxE12": {
-      "title": "ABB SACE Emax E1.2 ACB",
-      "description": "用于低压配电的空气断路器",
-      "features": [
-        "1250A 分断能力",
-        "690V 交流额定电压",
-        "电子脱扣单元",
-        "抽出式设计",
-        "先进的保护功能"
-      ]
-    },
-    "abbSaceEmaxE22": {
-      "title": "ABB SACE Emax E2.2 ACB",
-      "description": "用于工业应用的高性能空气断路器",
-      "features": [
-        "2000A 分断能力",
-        "690V 交流额定电压",
-        "基于微处理器的保护",
-        "远程操作能力",
-        "能量计量功能"
-      ]
-    },
-    "schneiderMasterpactNw": {
-      "title": "施耐德电气 MasterPact NW ACB",
-      "description": "具有智能保护功能的先进空气断路器",
-      "features": [
-        "6300A 分断能力",
-        "690V 交流额定电压",
-        "Micrologic 脱扣单元",
-        "通信能力",
-        "区域选择性"
-      ]
-    },
-    "schneiderMasterpactMtz": {
-      "title": "施耐德电气 MasterPact MTZ ACB",
-      "description": "用于空间受限应用的紧凑型空气断路器",
-      "features": [
-        "2500A 分断能力",
-        "690V 交流额定电压",
-        "数字脱扣单元",
-        "紧凑的占地面积",
-        "易于维护"
-      ]
-    },
-    "abbVd412kv": {
-      "title": "ABB VD4 12kV VCB",
-      "description": "用于中压应用的 12kV 真空断路器",
-      "features": [
-        "12kV 额定电压",
-        "31.5kA 分断能力",
-        "真空中断技术",
-        "长电气寿命",
-        "免维护操作"
-      ]
-    },
-    "abbVd424kv": {
-      "title": "ABB VD4 24kV VCB",
-      "description": "用于高性能切换的 24kV 真空断路器",
-      "features": [
-        "24kV 额定电压",
-        "25kA 分断能力",
-        "无 SF6 技术",
-        "紧凑设计",
-        "环境友好"
-      ]
-    },
-    "schneiderEvopact15kv": {
-      "title": "施耐德电气 EvoPacT 15kV VCB",
-      "description": "具有先进控制系统的 15kV 真空断路器",
-      "features": [
-        "15kV 额定电压",
-        "40kA 分断能力",
-        "集成控制单元",
-        "电弧监控系统",
-        "数字通信"
-      ]
-    },
-    "schneiderHvx33kv": {
-      "title": "施耐德电气 HVX-O 33kV VCB",
-      "description": "用于变电站的 33kV 室外真空断路器",
-      "features": [
-        "33kV 额定电压",
-        "25kA 分断能力",
-        "室外安装",
-        "耐候外壳",
-        "远程监控能力"
-      ]
-    },
-    "siemens3ah4": {
-      "title": "西门子 3AH4 VCB",
-      "description": "具有经验证的可靠性的中压真空断路器",
-      "features": [
-        "17.5kV 额定电压",
-        "31.5kA 分断能力",
-        "经验证的真空技术",
-        "低维护要求",
-        "高运行安全性"
-      ]
-    }
-  },
   "groups": {
     "rccb-circuit-breakers": {
       "title": "RCCB 断路器",
@@ -2082,6 +2039,8 @@
     }
   },
   "specs": {
+    "voltage": "电压",
+    "current": "电流",
     "manufacturer": "制造商",
     "model": "型号",
     "type": "类型",
