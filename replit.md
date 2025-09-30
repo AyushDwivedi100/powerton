@@ -5,6 +5,31 @@ This is a React-based business website for Powerton Engineering Pvt. Ltd., a com
 
 ## Recent Changes (September 30, 2025)
 
+### Fixed Products Dropdown Navigation URLs
+Fixed all broken links in the header products dropdown menu to ensure correct navigation:
+
+#### Issues Fixed
+1. **Subcategory Links** - Removed incorrect helper function calls that were causing null returns
+   - Changed from using `getSubcategorySlugById()` which expected non-existent short keys
+   - Now directly uses `subcategory.id` which is already in the correct slug format
+   - Fixed both desktop and mobile navigation menus
+
+2. **Product Group Links** - Simplified URL construction to use direct subcategory keys
+   - Removed unnecessary `getSubcategorySlugById()` calls
+   - Product groups now use correct URL format: `/products/{category}/{subcategory}/{group-slug}`
+
+3. **URL Format Standardization** - All product navigation now uses consistent URL structure
+   - Category pages: `/products/{category-slug}`
+   - Subcategory pages: `/products/{category-slug}/{subcategory-slug}`
+   - Product group pages: `/products/{category-slug}/{subcategory-slug}/{group-slug}`
+   - Product detail pages: `/products/{category-slug}/{subcategory-slug}/{group-slug}/{product-slug}`
+
+#### Files Modified
+- `client/src/components/layout/header.tsx` - Fixed navigation links in desktop and mobile menus
+
+#### Result
+All product links in the header dropdown now navigate correctly without any 404 errors. Users can successfully browse through all product categories, subcategories, and product groups.
+
 ### Complete Redesign of Product Detail Pages
 Completely redesigned the product detail page (`client/src/pages/product-detail-dynamic.tsx`) with modern, minimal design and smooth scroll animations:
 

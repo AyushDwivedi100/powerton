@@ -780,9 +780,9 @@ export default function Header() {
                                             }
                                           >
                                             <Link
-                                              href={`/products/${product.id}/${getSubcategorySlugById(subcategory.id) || subcategory.id}`}
+                                              href={`/products/${product.id}/${subcategory.id}`}
                                               className={`block px-2 lg:px-3 py-1 lg:py-2 rounded-sm hover:bg-slate-100 dark:hover:bg-slate-800 hover:text-foreground cursor-pointer transition-colors text-xs lg:text-sm border-primary/40 hover:border-secondary bs-2 ${
-                                                hasProductGroups(getSubcategoryKeyBySlug(getSubcategorySlugById(subcategory.id) || subcategory.id))
+                                                hasProductGroups(subcategory.id)
                                                   ? "hover:bg-blue-50 dark:hover:bg-blue-900/20 focus:bg-blue-50 dark:focus:bg-blue-900/20"
                                                   : ""
                                               }`}
@@ -848,7 +848,7 @@ export default function Header() {
                                 ).map((group) => (
                                   <Link
                                     key={group.key}
-                                    href={`/products/${getParentCategoryBySubcategoryKey(group.subcategoryKey)}/${getSubcategorySlugById(group.subcategoryKey) || group.subcategoryKey}/${group.slug}`}
+                                    href={`/products/${getParentCategoryBySubcategoryKey(group.subcategoryKey)}/${group.subcategoryKey}/${group.slug}`}
                                     className="flex items-center gap-3 p-3 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors group border-rounded border-transparent hover:border-gray-200 dark:hover:border-gray-700 bg-blue-500/10 dark:bg-blue-900/20"
                                     onClick={() => {
                                       setIsProductsDropdownOpen(false);
@@ -1160,7 +1160,7 @@ export default function Header() {
                                               (subcategory) => (
                                                 <Link
                                                   key={subcategory.id}
-                                                  href={`/products/${product.id}/${getSubcategorySlugById(subcategory.id) || subcategory.id}`}
+                                                  href={`/products/${product.id}/${subcategory.id}`}
                                                   className="text-xs text-muted-foreground hover:text-secondary transition-colors block py-1 border-secondary/30 hover:border-secondary ps-2 bs-2 text-wrap-safe"
                                                   onClick={() => {
                                                     setIsOpen(false);
