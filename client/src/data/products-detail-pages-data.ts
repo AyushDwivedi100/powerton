@@ -4772,6 +4772,37 @@ export const products: Product[] = [
       featuresKey: "products-data:kralVolumeterOmg.features",
     },
   },
+  {
+    id: "flow-technology-dc-i-series",
+    slug: "flow-technology-dc-i-series",
+    categoryKey: "instrumentation-accessories",
+    subcategoryKey: "transmitters-flow-meters",
+    typeKey: "pd-flow-meter",
+    image: "pd-flowmeter-flowtech",
+    specs: {
+      type: "Positive Displacement Helical Gear Flow Meter",
+      manufacturer: "Flow Technology Inc.",
+      model: "DC-I Series",
+      nominalDiameter: 'DN6 to DN50 (1/4" to 2")',
+      flowRange: "0.001-400 GPM (depending on size)",
+      accuracy: "±0.5% of reading",
+      repeatability: "±0.05% of reading",
+      viscosityRange: "0.6 to 1,000,000 cP",
+      operatingTemp: "-40°C to +120°C",
+      processTemp: "-40°C to +204°C",
+      protectionRating: "IP65",
+      communication: "Pulse output, 4-20mA, HART",
+      powerSupply: "12-24VDC",
+      certification: "ATEX, FM, CSA",
+      processConnection: "Flanged (ANSI), NPT, BSP",
+      materials: "316 SST, Hastelloy C, PPS",
+    },
+    translationKeys: {
+      title: "products-data:flowTechnologyDcISeries.title",
+      description: "products-data:flowTechnologyDcISeries.description",
+      featuresKey: "products-data:flowTechnologyDcISeries.features",
+    },
+  },
 
   // End of transmitters and flow meters section
   {
