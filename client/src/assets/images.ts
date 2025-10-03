@@ -1138,8 +1138,8 @@ export const PRODUCT_IMAGES = {
     id: IMAGE_IDS.RS_TRANSMITTER
   },
   
-  // Flow meters - manufacturer specific variants
-  'magnetic-flowmeter-abb': {
+  // Flow meters - manufacturer specific variants (generic)
+  'magnetic-flowmeter-abb-generic': {
     src: magneticFlowMeterImage,
     alt: `${IMAGE_IDS.MAGNETIC_FLOW_METER}: Magnetic flowmeter ABB - Electromagnetic flow meter`,
     id: IMAGE_IDS.MAGNETIC_FLOW_METER
