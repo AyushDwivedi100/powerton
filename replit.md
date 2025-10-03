@@ -53,6 +53,19 @@ The frontend is built with React 18, TypeScript, and Vite, utilizing Tailwind CS
 
 ## Recent Changes
 
+### October 3, 2025 - Added PD Flow Meter Product Group
+- Created new "PD Flow Meters" (Positive Displacement) product group with i18n support
+- Added 5 real PD flow meter products from top manufacturers:
+  - OVAL FLOWPET LSF41 (oval gear, Japanese manufacturer)
+  - Badger Meter M1000 (nutating disc, water utilities)
+  - KROHNE BM 100 (oval gear, German manufacturer)
+  - KRAL VoluMeter OMG (screw flow, Austrian manufacturer)
+  - Flow Technology DC-I Series (helical gear, high viscosity 0.6-1,000,000 cP)
+- Implemented complete SEO optimization with unique titles, descriptions, and keywords
+- Added translation keys for all products and product group (English locale)
+- Fixed product-group-dynamic.tsx to properly use titleKey and descriptionKey for i18n
+- All products configured with proper typeKey, specs, and translation support
+
 ### October 3, 2025 - Replit Environment Setup (Fresh GitHub Import)
 - Successfully imported and configured project from GitHub for Replit environment
 - Installed all client dependencies in client/ directory (298 packages)
