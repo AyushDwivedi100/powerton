@@ -65,10 +65,10 @@ export default function ProductSubCategoryDynamic() {
           <p className="text-muted-foreground mb-8">
             The product sub-category you're looking for doesn't exist.
           </p>
-          <Link href={product.parentCategory}>
+          <Link href="/products">
             <Button className="bg-primary hover:bg-primary/90 text-primary-foreground">
               <ArrowLeft className="mr-2 h-4 w-4" />
-              Back to {product.parentCategoryTitle}
+              Back to Products
             </Button>
           </Link>
         </motion.div>

@@ -14774,17 +14774,11 @@ export const categories: Category[] = [
         key: "sensors-transducers",
         translationKey: "products:subcategories.sensors",
         products: [
-          "sensor-temperature-rtd-thermocouple",
-          "sensor-pressure-strain-gauge",
-          "sensor-flow-electromagnetic-ultrasonic",
-          "sensor-level-radar-guided-wave",
-          "sensor-vibration-accelerometer",
-          "sensor-proximity-inductive-capacitive",
-          // New real proximity sensors
+          // Real proximity sensors from major manufacturers
           "sick-im12-04bps-zw1",
           "omron-e2e-x5me1-m1",
           "balluff-bes-m18mi-psc50b",
-          // New real photoelectric sensors
+          // Real photoelectric sensors
           "sick-w10-2-retro",
           "omron-e3z-t61-photoelectric",
           "balluff-bos-r254k-diffuse",
