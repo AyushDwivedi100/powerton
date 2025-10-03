@@ -499,6 +499,10 @@
       "title": "Interruptores Automáticos y Fusibles",
       "description": "Dispositivos de protección eléctrica para seguridad del circuito"
     },
+    "contactorsRelays": {
+      "title": "Contactores y Relés",
+      "description": "Contactores industriales y relés de control para control de motores"
+    },
     "power-supplies": {
       "title": "Fuentes de Alimentación",
       "description": "Unidades y convertidores de fuente de alimentación industrial"
@@ -945,6 +949,10 @@
         "hmi": {
           "title": "HMI (Interfaz Humano-Máquina)",
           "description": "Interfaces de usuario para sistemas de control industrial"
+        },
+        "motorDrivesVfds": {
+          "title": "Variadores de Motor y VFDs",
+          "description": "Variadores de frecuencia y sistemas de control de motores"
         }
       },
       "sections": {

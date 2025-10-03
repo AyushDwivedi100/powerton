@@ -499,6 +499,10 @@
       "title": "Disjuntores e Fusíveis",
       "description": "Dispositivos de proteção elétrica para segurança do circuito"
     },
+    "contactorsRelays": {
+      "title": "Contatores e Relés",
+      "description": "Contatores industriais e relés de controle para controle de motor"
+    },
     "power-supplies": {
       "title": "Fontes de Alimentação",
       "description": "Unidades e conversores de fonte de alimentação industrial"
@@ -945,6 +949,10 @@
         "hmi": {
           "title": "IHM (Interface Homem-Máquina)",
           "description": "Interfaces de usuário para sistemas de controle industrial"
+        },
+        "motorDrivesVfds": {
+          "title": "Acionamentos de Motor e VFDs",
+          "description": "Acionamentos de frequência variável e sistemas de controle de motor"
         }
       },
       "sections": {

@@ -499,6 +499,10 @@
       "title": "Masu karya kewayawa & Fuses",
       "description": "Na'urorin kariya na lantarki don amincin kewayawa"
     },
+    "contactorsRelays": {
+      "title": "Masu Tuntuɓar Juna & Relay",
+      "description": "Masu tuntuɓar masana'antu da relay na sarrafawa don sarrafa mota"
+    },
     "power-supplies": {
       "title": "Kayan Wuta",
       "description": "Rukunin samar da wutar lantarki na masana'antu da masu canzawa"
@@ -945,6 +949,10 @@
         "hmi": {
           "title": "HMI (Hanyar Sadarwar Injin Dan Adam)",
           "description": "Hanyoyin hulɗa ta mai amfani don tsarin sarrafa masana'antu"
+        },
+        "motorDrivesVfds": {
+          "title": "Motocin Mota & VFDs",
+          "description": "Variable frequency drives da tsarin sarrafa mota"
         }
       },
       "sections": {

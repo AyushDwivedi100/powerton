@@ -403,6 +403,10 @@
       "title": "断路器和熔断器",
       "description": "用于电路安全的电气保护设备"
     },
+    "contactorsRelays": {
+      "title": "接触器和继电器",
+      "description": "用于电机控制的工业接触器和控制继电器"
+    },
     "power-supplies": {
       "title": "电源",
       "description": "工业电源单元和转换器"
@@ -849,7 +853,10 @@
         "hmi": {
           "title": "HMI（人机界面）",
           "description": "用于工业控制系统的人机界面"
-        }
+        },
+        "motorDrivesVfds": {
+          "title": "电机驱动器和变频器",
+          "description": "变频驱动器和电机控制系统"
       },
       "sections": {
         "controlSystemSolutions": "控制系统解决方案",

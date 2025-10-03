@@ -499,6 +499,10 @@
       "title": "Disjoncteurs et fusibles",
       "description": "Dispositifs de protection électrique pour la sécurité des circuits"
     },
+    "contactorsRelays": {
+      "title": "Contacteurs et relais",
+      "description": "Contacteurs industriels et relais de commande pour le contrôle des moteurs"
+    },
     "power-supplies": {
       "title": "Alimentations électriques",
       "description": "Unités et convertisseurs d'alimentation industriels"
@@ -945,6 +949,10 @@
         "hmi": {
           "title": "IHM (Interface Homme-Machine)",
           "description": "Interfaces utilisateur pour les systèmes de contrôle industriel"
+        },
+        "motorDrivesVfds": {
+          "title": "Entraînements de moteur et VFD",
+          "description": "Entraînements à fréquence variable et systèmes de commande de moteur"
         }
       },
       "sections": {

@@ -499,6 +499,10 @@
       "title": "Vivunja Mzunguko & Fuses",
       "description": "Vifaa vya ulinzi wa umeme kwa usalama wa mzunguko"
     },
+    "contactorsRelays": {
+      "title": "Viwasilishi na Relays",
+      "description": "Viwasilishi vya viwandani na relays za udhibiti kwa udhibiti wa motor"
+    },
     "power-supplies": {
       "title": "Ugavi wa Nguvu",
       "description": "Vitengo vya usambazaji wa nguvu za viwandani na converters"
@@ -945,7 +949,10 @@
         "hmi": {
           "title": "HMI (Kiolesura cha Mashine ya Binadamu)",
           "description": "Violesura vya mtumiaji kwa mifumo ya udhibiti wa viwandani"
-        }
+        },
+        "motorDrivesVfds": {
+          "title": "Viendeshi vya Motor & VFDs",
+          "description": "Viendeshi vya masafa vinavyobadilika na mifumo ya udhibiti wa motor"
       },
       "sections": {
         "controlSystemSolutions": "Suluhu za Mfumo wa Udhibiti",
