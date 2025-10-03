@@ -14008,6 +14008,11 @@ export const categories: Category[] = [
         key: "circuit-breakers-fuses",
         translationKey: "products:subcategories.circuitBreakers",
         products: [
+          "miniature-circuit-breakers",
+          "molded-case-breakers",
+          "rccb-circuit-breakers",
+          "acb-circuit-breakers",
+          "vcb-circuit-breakers",
           "mcb-circuit-breakers",
           "mccb-circuit-breakers",
           "industrial-fuses",

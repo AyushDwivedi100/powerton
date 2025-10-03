@@ -605,10 +605,10 @@ export const productsSubCategoryData: ProductSubCategoryData[] = [
     shortDescription:
       "Protection devices for electrical circuits and equipment safety",
     fullDescription:
-      "Comprehensive protection solutions including miniature circuit breakers, molded case circuit breakers, and industrial fuses for electrical system protection.",
+      "Comprehensive protection solutions including miniature circuit breakers, molded case circuit breakers, residual current circuit breakers, air circuit breakers, vacuum circuit breakers, and industrial fuses for complete electrical system protection and safety.",
     image: circuitBreakersImage,
-    parentCategory: "/products/electrical-accessories",
-    parentCategoryTitle: "Electrical Accessories",
+    parentCategory: "/products/electrical-components",
+    parentCategoryTitle: "Electrical Components",
     icon: Shield,
     keyBenefits: [
       "Equipment Protection",
