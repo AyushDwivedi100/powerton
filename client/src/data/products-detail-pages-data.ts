@@ -153,6 +153,15 @@ export const productGroups: ProductGroup[] = [
     image: "magnetic-flowmeter-endress",
     featuredSpecs: ["manufacturer", "model", "type"],
   },
+  {
+    key: "pd-flow-meter",
+    slug: "pd-flow-meters",
+    titleKey: "products:productGroups.pdFlowMeter.title",
+    descriptionKey: "products:productGroups.pdFlowMeter.description",
+    subcategoryKey: "transmitters-flow-meters",
+    image: "pd-flowmeter-oval",
+    featuredSpecs: ["manufacturer", "model", "type"],
+  },
 
   // Switches & Indicators subcategory groups
   {
