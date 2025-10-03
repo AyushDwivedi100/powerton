@@ -2205,5 +2205,11 @@
     "electricalLife": "Electrical Life",
     "mechanicalLife": "Mechanical Life",
     "installation": "Installation"
+  },
+  "productGroups": {
+    "pdFlowMeter": {
+      "title": "PD Flow Meters",
+      "description": "Positive displacement flow meters using oval gear, helical gear, nutating disc, and screw measurement principles for precise liquid flow measurement. Features exceptional accuracy, superior repeatability, and wide viscosity range. Ideal for custody transfer, batching, fuel metering, chemical dosing, and high-viscosity applications requiring reliable volumetric measurement."
+    }
   }
 }

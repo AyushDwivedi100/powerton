@@ -33,7 +33,7 @@
   },
   "labels": {
     "power": "Motor Power",
-    "speed": "Speed Rating", 
+    "speed": "Speed Rating",
     "airflow": "Air Flow",
     "efficiency": "Efficiency",
     "warranty": "Warranty",
@@ -993,5 +993,91 @@
       "polycrystalline320W": "Polycrystalline Solar Panels - 320W",
       "bifacial450W": "Bifacial Solar Panels - 450W"
     }
+  },
+  "ovalFlowpetLsf41": {
+    "title": "OVAL FLOWPET LSF41 Positive Displacement Flow Meter",
+    "description": "High-precision OVAL FLOWPET LSF41 positive displacement flow meter with exceptional accuracy. Features superior repeatability, wide diameter range, and premium material construction for demanding liquid measurement applications.",
+    "features": [
+      "Positive displacement (PD) flow measurement technology",
+      "Wide diameter range: DN15 to DN200 (1/2\" to 8\")",
+      "Flow range: 0.05-1500 L/min (depending on size)",
+      "Exceptional accuracy: ±0.1% of reading",
+      "Superior repeatability: ±0.02% of reading",
+      "Process temperature: -20°C to +120°C",
+      "IP67 protection rating",
+      "Multiple outputs: Pulse output, 4-20mA, HART",
+      "Multiple process connections: Flanged (JIS, ANSI, DIN), Threaded",
+      "Premium materials: SUS316, SUS316L, Hastelloy C-276",
+      "ATEX, IECEx, FM certified"
+    ]
+  },
+  "badgerMeterM1000": {
+    "title": "Badger Meter M1000 Nutating Disc Flow Meter",
+    "description": "Reliable Badger Meter M1000 nutating disc positive displacement flow meter with advanced metering technology. Features exceptional accuracy, multiple communication options, and robust construction for water utility applications.",
+    "features": [
+      "Nutating disc positive displacement technology",
+      "Diameter range: DN15 to DN100 (5/8\" to 4\")",
+      "Flow range: 0.125-400 GPM (depending on size)",
+      "Good accuracy: ±0.5% of reading",
+      "Good repeatability: ±0.1% of reading",
+      "Operating temperature: -20°C to +70°C",
+      "IP68 protection rating",
+      "Multiple communication: Pulse output, AMR/AMI, 4-20mA",
+      "Multiple process connections: Flanged (ANSI), NPT, Compression",
+      "Robust materials: Bronze, Cast Iron, 316L SST",
+      "NSF, AWWA, ANSI certified"
+    ]
+  },
+  "krohneBm100PdMeter": {
+    "title": "KROHNE BM 100 Positive Displacement Oval Gear Flow Meter",
+    "description": "High-performance KROHNE BM 100 positive displacement oval gear flow meter with advanced measurement technology. Features exceptional accuracy, superior repeatability, and multi-protocol communication for industrial applications.",
+    "features": [
+      "Positive displacement oval gear technology",
+      "Wide diameter range: DN10 to DN200 (3/8\" to 8\")",
+      "Flow range: 0.15-3000 L/min (depending on size)",
+      "High accuracy: ±0.2% of reading",
+      "Excellent repeatability: ±0.05% of reading",
+      "Wide process temperature: -40°C to +200°C",
+      "IP67 protection rating",
+      "Multi-protocol: Pulse output, 4-20mA, HART, Modbus",
+      "Multiple process connections: Flanged (DIN, ANSI), Threaded",
+      "Versatile materials: Aluminium, Cast Iron, 316L SST",
+      "ATEX, IECEx, FM, CSA certified"
+    ]
+  },
+  "kralVolumeterOmg": {
+    "title": "KRAL VoluMeter OMG Positive Displacement Screw Flow Meter",
+    "description": "Precision KRAL VoluMeter OMG positive displacement screw flow meter with exceptional measurement accuracy. Features superior repeatability, multi-protocol communication, and MID certification for custody transfer applications.",
+    "features": [
+      "Positive displacement screw flow technology",
+      "Diameter range: DN15 to DN150 (1/2\" to 6\")",
+      "Flow range: 0.5-1200 L/min (depending on size)",
+      "Exceptional accuracy: ±0.1% of reading",
+      "Superior repeatability: ±0.02% of reading",
+      "Wide process temperature: -40°C to +200°C",
+      "IP67 protection rating",
+      "Multi-protocol: Pulse output, 4-20mA, HART, Profibus",
+      "Multiple process connections: Flanged (DIN, ANSI), Threaded",
+      "Robust materials: Aluminium, Cast Steel, 316L SST",
+      "ATEX, IECEx, FM, CSA, MID certified"
+    ]
+  },
+  "flowTechnologyDcISeries": {
+    "title": "Flow Technology DC-I Series Positive Displacement Helical Gear Flow Meter",
+    "description": "Advanced Flow Technology DC-I Series positive displacement helical gear flow meter designed for high-viscosity fluids. Features ultra-wide viscosity range, exceptional accuracy, and specialty materials for demanding chemical and petrochemical applications.",
+    "features": [
+      "Positive displacement helical gear technology",
+      "Compact diameter range: DN6 to DN50 (1/4\" to 2\")",
+      "Ultra-wide flow range: 0.001-400 GPM (depending on size)",
+      "Ultra-wide viscosity range: 0.6 to 1,000,000 cP",
+      "Good accuracy: ±0.5% of reading",
+      "Excellent repeatability: ±0.05% of reading",
+      "Extended process temperature: -40°C to +204°C",
+      "IP65 protection rating",
+      "Communication: Pulse output, 4-20mA, HART",
+      "Multiple process connections: Flanged (ANSI), NPT, BSP",
+      "Specialty materials: 316 SST, Hastelloy C, PPS",
+      "ATEX, FM, CSA certified"
+    ]
   }
 }
