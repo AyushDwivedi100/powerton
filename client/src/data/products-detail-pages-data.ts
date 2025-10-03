@@ -6713,22 +6713,20 @@ export const products: Product[] = [
       wireSize: "0.2 - 50 mm²",
       mounting: "DIN Rail 35mm",
     },
-    translationKeys: {
-      title: "Industrial Terminal Blocks",
-      description:
-        "High-quality industrial terminal blocks for reliable electrical connections in control panels and automation systems. Features modular design and easy installation.",
-      features: [
-        "Industrial-grade terminal block design",
-        "Modular and expandable configuration",
-        "Easy installation and wiring",
-        "High current carrying capacity",
-        "Multiple wire size compatibility",
-        "DIN rail mounting system",
-        "Reliable electrical connections",
-        "Professional identification options",
-        "Long operational life",
-      ],
-    },
+    title: "Industrial Terminal Blocks",
+    description:
+      "High-quality industrial terminal blocks for reliable electrical connections in control panels and automation systems. Features modular design and easy installation.",
+    features: [
+      "Industrial-grade terminal block design",
+      "Modular and expandable configuration",
+      "Easy installation and wiring",
+      "High current carrying capacity",
+      "Multiple wire size compatibility",
+      "DIN rail mounting system",
+      "Reliable electrical connections",
+      "Professional identification options",
+      "Long operational life",
+    ],
   },
   {
     id: "connector-industrial-heavy-duty",
@@ -6743,23 +6741,20 @@ export const products: Product[] = [
       voltage: "500V - 1000V",
       protection: "IP65/IP67",
     },
-    translationKeys: {
-      title: "Industrial Heavy-Duty Connectors",
-      description:
-        "Robust heavy-duty connectors designed for demanding industrial applications. Features weatherproof construction and high mechanical strength for reliable performance.",
-      features: [
-        "Heavy-duty industrial construction",
-        "Weatherproof and sealed design",
-        "High mechanical strength",
-        "Multiple contact configurations",
-        "Easy mating and unmating",
-        "Excellent electrical performance",
-        "Corrosion-resistant materials",
-        "Suitable for harsh environments",
-        "Professional grade reliability",
-      ],
-      featuresKey: "products:connectorsTerminals.industrialHeavyDuty.features",
-    },
+    title: "Industrial Heavy-Duty Connectors",
+    description:
+      "Robust heavy-duty connectors designed for demanding industrial applications. Features weatherproof construction and high mechanical strength for reliable performance.",
+    features: [
+      "Heavy-duty industrial construction",
+      "Weatherproof and sealed design",
+      "High mechanical strength",
+      "Multiple contact configurations",
+      "Easy mating and unmating",
+      "Excellent electrical performance",
+      "Corrosion-resistant materials",
+      "Suitable for harsh environments",
+      "Professional grade reliability",
+    ],
   },
   {
     id: "connector-signal-precision-miniature",
@@ -6795,22 +6790,20 @@ export const products: Product[] = [
       regulation: "±0.01%",
       display: "Digital LED",
     },
-    translationKeys: {
-      title: "DC Regulated Power Supply",
-      description:
-        "Precision DC regulated power supply for industrial and laboratory applications. Features stable output voltage and current regulation with excellent load and line regulation.",
-      features: [
-        "Precision DC voltage regulation",
-        "Stable output current control",
-        "Excellent load regulation",
-        "Superior line regulation",
-        "Low ripple and noise",
-        "Overload and overvoltage protection",
-        "Digital display and monitoring",
-        "Adjustable output settings",
-        "Industrial-grade reliability",
-      ],
-    },
+    title: "DC Regulated Power Supply",
+    description:
+      "Precision DC regulated power supply for industrial and laboratory applications. Features stable output voltage and current regulation with excellent load and line regulation.",
+    features: [
+      "Precision DC voltage regulation",
+      "Stable output current control",
+      "Excellent load regulation",
+      "Superior line regulation",
+      "Low ripple and noise",
+      "Overload and overvoltage protection",
+      "Digital display and monitoring",
+      "Adjustable output settings",
+      "Industrial-grade reliability",
+    ],
   },
   {
     id: "power-supply-industrial-switched-mode",
@@ -6825,22 +6818,20 @@ export const products: Product[] = [
       power: "120W - 960W",
       efficiency: ">92%",
     },
-    translationKeys: {
-      title: "Industrial SMPS Power Supply",
-      description:
-        "High-efficiency industrial switched-mode power supply for demanding applications. Features compact design with excellent thermal performance and wide input voltage range.",
-      features: [
-        "High-efficiency switched-mode design",
-        "Compact and space-saving",
-        "Wide input voltage range",
-        "Excellent thermal performance",
-        "Low electromagnetic interference",
-        "Multiple output configurations",
-        "Overload and short circuit protection",
-        "Industrial-grade construction",
-        "Reliable long-term operation",
-      ],
-    },
+    title: "Industrial SMPS Power Supply",
+    description:
+      "High-efficiency industrial switched-mode power supply for demanding applications. Features compact design with excellent thermal performance and wide input voltage range.",
+    features: [
+      "High-efficiency switched-mode design",
+      "Compact and space-saving",
+      "Wide input voltage range",
+      "Excellent thermal performance",
+      "Low electromagnetic interference",
+      "Multiple output configurations",
+      "Overload and short circuit protection",
+      "Industrial-grade construction",
+      "Reliable long-term operation",
+    ],
   },
   {
     id: "power-supply-ups-uninterruptible",
@@ -7504,22 +7495,20 @@ export const products: Product[] = [
       io: "14DI/10DO/2AI",
       communication: "Ethernet, Profinet",
     },
-    translationKeys: {
-      title: "Siemens S7-1200 PLC",
-      description:
-        "Compact programmable logic controller with integrated communication and powerful processing capabilities. Ideal for small to medium automation applications with advanced control features.",
-      features: [
-        "Compact modular PLC design",
-        "Integrated communication interfaces",
-        "Powerful processing capabilities",
-        "Advanced control and monitoring",
-        "Easy programming and configuration",
-        "Multiple I/O expansion options",
-        "Built-in web server functionality",
-        "Industrial Ethernet connectivity",
-        "Professional automation solution",
-      ],
-    },
+    title: "Siemens S7-1200 PLC",
+    description:
+      "Compact programmable logic controller with integrated communication and powerful processing capabilities. Ideal for small to medium automation applications with advanced control features.",
+    features: [
+      "Compact modular PLC design",
+      "Integrated communication interfaces",
+      "Powerful processing capabilities",
+      "Advanced control and monitoring",
+      "Easy programming and configuration",
+      "Multiple I/O expansion options",
+      "Built-in web server functionality",
+      "Industrial Ethernet connectivity",
+      "Professional automation solution",
+    ],
   },
   {
     id: "plc-allen-bradley-compactlogix-5380",
@@ -8379,22 +8368,20 @@ export const products: Product[] = [
       warranty: "5 Years",
       certification: "TÜV, CE, UL 508",
     },
-    translationKeys: {
-      title: "Emergency Stop Dual Channel Safety Relay",
-      description:
-        "Advanced dual-channel safety relay for emergency stop circuits with Category 4 safety rating. Features fail-safe operation and comprehensive monitoring capabilities.",
-      features: [
-        "Dual-channel safety architecture",
-        "Category 4 safety rating (SIL 3, PLe)",
-        "Emergency stop circuit monitoring",
-        "Fail-safe operation design",
-        "Comprehensive diagnostic functions",
-        "Multiple safety output contacts",
-        "Easy configuration and setup",
-        "Professional safety compliance",
-        "Reliable emergency protection",
-      ],
-    },
+    title: "Emergency Stop Dual Channel Safety Relay",
+    description:
+      "Advanced dual-channel safety relay for emergency stop circuits with Category 4 safety rating. Features fail-safe operation and comprehensive monitoring capabilities.",
+    features: [
+      "Dual-channel safety architecture",
+      "Category 4 safety rating (SIL 3, PLe)",
+      "Emergency stop circuit monitoring",
+      "Fail-safe operation design",
+      "Comprehensive diagnostic functions",
+      "Multiple safety output contacts",
+      "Easy configuration and setup",
+      "Professional safety compliance",
+      "Reliable emergency protection",
+    ],
   },
   {
     id: "safety-relay-light-curtain-interface",
@@ -8412,22 +8399,20 @@ export const products: Product[] = [
       warranty: "3 Years",
       certification: "EN ISO 13849-1, IEC 61508",
     },
-    translationKeys: {
-      title: "Light Curtain Interface Safety Relay",
-      description:
-        "Specialized safety relay for light curtain interface applications with advanced monitoring and diagnostic capabilities. Ensures safe operation of protective light barriers.",
-      features: [
-        "Light curtain interface compatibility",
-        "Advanced safety monitoring",
-        "Diagnostic and status indication",
-        "Multiple safety output channels",
-        "Fail-safe circuit design",
-        "Easy installation and wiring",
-        "Professional safety standards",
-        "Reliable protective barrier monitoring",
-        "Industrial safety compliance",
-      ],
-    },
+    title: "Light Curtain Interface Safety Relay",
+    description:
+      "Specialized safety relay for light curtain interface applications with advanced monitoring and diagnostic capabilities. Ensures safe operation of protective light barriers.",
+    features: [
+      "Light curtain interface compatibility",
+      "Advanced safety monitoring",
+      "Diagnostic and status indication",
+      "Multiple safety output channels",
+      "Fail-safe circuit design",
+      "Easy installation and wiring",
+      "Professional safety standards",
+      "Reliable protective barrier monitoring",
+      "Industrial safety compliance",
+    ],
   },
   {
     id: "safety-relay-gate-switch-monitor",
@@ -15611,7 +15596,7 @@ export const getProductDetailBySlug = (
   // Deduplicate keywords (case-insensitive)
   const uniqueKeywords = Array.from(
     new Map(
-      keywordArray.map(k => [k.toLowerCase().trim(), k.trim()])
+      keywordArray.map(k => [String(k).toLowerCase().trim(), String(k).trim()])
     ).values()
   );
   
@@ -15622,7 +15607,7 @@ export const getProductDetailBySlug = (
   
   // Add manufacturer and model prefix if not already present (case-insensitive check)
   const lowerDesc = seoDescription.toLowerCase();
-  const needsManufacturer = manufacturer && !lowerDesc.includes(manufacturer.toLowerCase());
+  const needsManufacturer = manufacturer && !lowerDesc.includes(String(manufacturer).toLowerCase());
   
   if (needsManufacturer) {
     const prefix = `${manufacturer} ${model ? model + ' ' : ''}`;
