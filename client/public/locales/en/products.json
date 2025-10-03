@@ -499,6 +499,10 @@
       "title": "Circuit Breakers & Fuses",
       "description": "Electrical protection devices for circuit safety"
     },
+    "contactorsRelays": {
+      "title": "Contactors & Relays",
+      "description": "Industrial contactors and control relays for motor control"
+    },
     "power-supplies": {
       "title": "Power Supplies",
       "description": "Industrial power supply units and converters"
@@ -945,6 +949,10 @@
         "hmi": {
           "title": "HMI (Human Machine Interface)",
           "description": "User interfaces for industrial control systems"
+        },
+        "motorDrivesVfds": {
+          "title": "Motor Drives & VFDs",
+          "description": "Variable frequency drives and motor control systems"
         }
       },
       "sections": {

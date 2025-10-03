@@ -13468,6 +13468,14 @@ export const categories: Category[] = [
           "sensor-level-radar-guided-wave",
           "sensor-vibration-accelerometer",
           "sensor-proximity-inductive-capacitive",
+          // New real proximity sensors
+          "sick-im12-04bps-zw1",
+          "omron-e2e-x5me1-m1",
+          "balluff-bes-m18mi-psc50b",
+          // New real photoelectric sensors
+          "sick-w10-2-retro",
+          "omron-e3z-t61-photoelectric",
+          "balluff-bos-r254k-diffuse",
         ],
       },
       {
@@ -13625,6 +13633,16 @@ export const categories: Category[] = [
         ],
       },
       {
+        key: "contactors-relays",
+        translationKey: "products:subcategories.contactorsRelays",
+        products: [
+          // New real contactors from manufacturers
+          "schneider-lc1d09m7",
+          "schneider-lc1d40ag7",
+          "abb-af09-30-10-contactor",
+        ],
+      },
+      {
         key: "power-supplies",
         translationKey: "products:subcategories.powerSupplies",
         products: [
@@ -13700,6 +13718,15 @@ export const categories: Category[] = [
           "plc-rockwell-controllogix-l82e",
           "plc-mitsubishi-fx5u",
           "plc-omron-nx1p2",
+          // New real products from manufacturers
+          "siemens-s7-1500-1513-1pn",
+          "siemens-s7-1200-1214c",
+          "allen-bradley-1756-l85e",
+          "allen-bradley-5069-l320er",
+          "schneider-tm241ce24r",
+          "schneider-tm221ce40r",
+          "omron-nj501-1500",
+          "omron-nx1p2-9024dt",
         ],
       },
       {
@@ -13736,6 +13763,20 @@ export const categories: Category[] = [
           "hmi-web-based-client",
           "hmi-industrial-pc-based",
           "hmi-portable-handheld",
+          // New real HMI panels from Siemens
+          "siemens-ktp700-basic",
+          "siemens-tp1200-comfort",
+          "siemens-ktp400-basic",
+        ],
+      },
+      {
+        key: "motor-drives-vfds",
+        translationKey: "products:subcategories.motorDrivesVfds",
+        products: [
+          // New real VFDs/Motor drives from manufacturers
+          "abb-acs580-0400-3",
+          "abb-acs880-01-045a-3",
+          "siemens-g120c-2.2kw",
         ],
       },
     ],
