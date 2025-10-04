@@ -18,6 +18,10 @@ export default function Home() {
   useScrollAnimations();
   const { t } = useTranslation(["pages"]);
 
+  // NOTE: Structured data is intentionally kept in English (not translated)
+  // This is SEO metadata for search engines, not user-facing content.
+  // Schema.org structured data should remain in the primary language (English)
+  // for optimal search engine indexing and compatibility.
   const structuredData = {
     "@context": "https://schema.org",
     "@type": "Organization",

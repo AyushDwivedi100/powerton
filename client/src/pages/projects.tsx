@@ -86,11 +86,11 @@ export default function Projects() {
       project.client.toLowerCase().includes(searchTerm.toLowerCase()) ||
       project.description.toLowerCase().includes(searchTerm.toLowerCase());
     const matchesIndustry =
-      selectedIndustry === "All" || project.industry === selectedIndustry;
+      selectedIndustry === filterOptions.industries[0] || project.industry === selectedIndustry;
     const matchesCategory =
-      selectedCategory === "All" || project.category === selectedCategory;
+      selectedCategory === filterOptions.categories[0] || project.category === selectedCategory;
     const matchesStatus =
-      selectedStatus === "All" || project.status === selectedStatus;
+      selectedStatus === filterOptions.statuses[0] || project.status === selectedStatus;
 
     return matchesSearch && matchesIndustry && matchesCategory && matchesStatus;
   });
