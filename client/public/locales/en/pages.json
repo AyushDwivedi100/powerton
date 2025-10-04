@@ -176,6 +176,8 @@
   "backToProducts": "Back to Products",
   "about": {
     "seo": {
+      "title": "About Powerton Engineering - 15+ Years of Industrial Automation Excellence",
+      "description": "Learn about Powerton Engineering's journey in industrial automation, electrical engineering, and instrumentation solutions. Expert team serving industries across India since 2008.",
       "keywords": "About Powerton Engineering, Industrial Automation Company, Electrical Engineering Company, Instrumentation Services, China Automation Experts"
     },
     "hero": {
@@ -201,19 +203,19 @@
     },
     "values": {
       "quality": {
-        "title": "Quality Excellence",
+        "title": "Quality",
         "description": "We uphold the highest standards in every project we deliver"
       },
       "customer": {
-        "title": "Customer Focus",
+        "title": "Customer Centricity",
         "description": "Your success is our priority - we build lasting partnerships"
       },
       "innovation": {
-        "title": "Innovation",
+        "title": "Innovation & Excellence",
         "description": "Cutting-edge solutions using the latest industry technologies"
       },
       "reliability": {
-        "title": "Reliability",
+        "title": "Reliability & Trust",
         "description": "Dependable solutions you can trust for critical operations"
       }
     },
@@ -224,17 +226,75 @@
       "support": "Support"
     },
     "certifications": {
-      "title": "Certifications and Quality Standards",
+      "title": "Certifications & Standards",
       "subtitle": "Our commitment to quality is validated through industry-recognized certifications and compliance standards.",
-      "iso9001": "ISO 9001:2015 Quality Management",
-      "iso14001": "ISO 14001:2015 Environmental Management",
-      "ohsas18001": "OHSAS 18001 Occupational Health and Safety",
-      "ceMarking": "CE Marking Compliance",
-      "ulListed": "UL Listed Products",
-      "cpriApproved": "CPRI Approved Equipment"
+      "iso9001": "ISO 9001",
+      "iso14001": "ISO 14001",
+      "ohsas18001": "ISO 45001",
+      "ceMarking": "CE Marking",
+      "ulListed": "UL Listed",
+      "cpriApproved": "CPRI Approved"
+    },
+    "achievements": {
+      "title": "Awards & Achievements",
+      "subtitle": "Recognition of our commitment to excellence, innovation, and quality in industrial automation.",
+      "2024": {
+        "year": "2024",
+        "awards": {
+          "0": "Excellence in Industrial Automation Award - Indian Engineering Society",
+          "1": "Best Innovation in Process Control - Automation India Awards",
+          "2": "ISO 9001:2015 Quality Management Certification",
+          "3": "Top 100 Engineering Companies - India Today"
+        }
+      },
+      "2023": {
+        "year": "2023",
+        "awards": {
+          "0": "Outstanding Engineering Solution - CII Manufacturing Excellence",
+          "1": "Safety Excellence Award - National Safety Council",
+          "2": "Technology Innovation Award - Engineering Export Promotion Council",
+          "3": "Best SME in Automation Sector - MSME Ministry"
+        }
+      },
+      "2022": {
+        "year": "2022",
+        "awards": {
+          "0": "Engineering Excellence Award - Federation of Indian Chambers",
+          "1": "Sustainable Technology Award - Green Business Council",
+          "2": "Quality Excellence Recognition - Bureau of Indian Standards"
+        }
+      }
+    },
+    "futureGoals": {
+      "title": "Future Goals & Vision",
+      "subtitle": "Our strategic roadmap towards becoming India's leading industrial automation solutions provider.",
+      "marketLeadership": {
+        "goal": "Market Leadership",
+        "description": "Become the leading automation solutions provider in North India by 2026"
+      },
+      "technologyInnovation": {
+        "goal": "Technology Innovation",
+        "description": "Launch 5 new AI-powered automation solutions for Industry 4.0"
+      },
+      "geographicExpansion": {
+        "goal": "Geographic Expansion",
+        "description": "Establish operations in 3 new states across India"
+      },
+      "teamGrowth": {
+        "goal": "Team Growth",
+        "description": "Expand our engineering team to 200+ professionals"
+      },
+      "revenueMilestone": {
+        "goal": "Revenue Milestone",
+        "description": "Achieve ₹100 Crores annual revenue milestone"
+      },
+      "sustainabilityFocus": {
+        "goal": "Sustainability Focus",
+        "description": "Implement carbon-neutral operations and green technology solutions"
+      }
     },
     "cta": {
-      "title": "Ready to Start Your Project?",
+      "title": "Call to Action",
       "description": "Our expert team is ready to help you bring your industrial automation and electrical engineering projects to life.",
       "startProject": "Start Your Project Today",
       "exploreServices": "Explore Our Services"

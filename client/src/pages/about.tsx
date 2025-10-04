@@ -29,74 +29,72 @@ import industryFacilityImage from "@assets/generated_images/Industrial_automatio
 import { Helmet } from "react-helmet-async";
 import { generateBreadcrumbData } from "@/utils/seo-enhancements";
 
-const ACHIEVEMENTS = [
-  {
-    year: "2024",
-    awards: [
-      "Excellence in Industrial Automation Award - Indian Engineering Society",
-      "Best Innovation in Process Control - Automation India Awards",
-      "ISO 9001:2015 Quality Management Certification",
-      "Top 100 Engineering Companies - India Today",
-    ],
-  },
-  {
-    year: "2023",
-    awards: [
-      "Outstanding Engineering Solution - CII Manufacturing Excellence",
-      "Safety Excellence Award - National Safety Council",
-      "Technology Innovation Award - Engineering Export Promotion Council",
-      "Best SME in Automation Sector - MSME Ministry",
-    ],
-  },
-  {
-    year: "2022",
-    awards: [
-      "Engineering Excellence Award - Federation of Indian Chambers",
-      "Sustainable Technology Award - Green Business Council",
-      "Quality Excellence Recognition - Bureau of Indian Standards",
-    ],
-  },
-];
-
-const FUTURE_GOALS = [
-  {
-    goal: "Market Leadership",
-    description:
-      "Become the leading automation solutions provider in North India by 2026",
-    icon: Trophy,
-  },
-  {
-    goal: "Technology Innovation",
-    description:
-      "Launch 5 new AI-powered automation solutions for Industry 4.0",
-    icon: Rocket,
-  },
-  {
-    goal: "Geographic Expansion",
-    description: "Establish operations in 3 new states across India",
-    icon: Globe,
-  },
-  {
-    goal: "Team Growth",
-    description: "Expand our engineering team to 200+ professionals",
-    icon: Users,
-  },
-  {
-    goal: "Revenue Milestone",
-    description: "Achieve ₹100 Crores annual revenue milestone",
-    icon: TrendingUp,
-  },
-  {
-    goal: "Sustainability Focus",
-    description:
-      "Implement carbon-neutral operations and green technology solutions",
-    icon: Zap,
-  },
-];
 
 export default function About() {
   useScrollAnimations();
   const { t } = useTranslation(["pages", "common"]);
+
+  const ACHIEVEMENTS = [
+    {
+      year: t("pages:about.achievements.2024.year"),
+      awards: [
+        t("pages:about.achievements.2024.awards.0"),
+        t("pages:about.achievements.2024.awards.1"),
+        t("pages:about.achievements.2024.awards.2"),
+        t("pages:about.achievements.2024.awards.3"),
+      ],
+    },
+    {
+      year: t("pages:about.achievements.2023.year"),
+      awards: [
+        t("pages:about.achievements.2023.awards.0"),
+        t("pages:about.achievements.2023.awards.1"),
+        t("pages:about.achievements.2023.awards.2"),
+        t("pages:about.achievements.2023.awards.3"),
+      ],
+    },
+    {
+      year: t("pages:about.achievements.2022.year"),
+      awards: [
+        t("pages:about.achievements.2022.awards.0"),
+        t("pages:about.achievements.2022.awards.1"),
+        t("pages:about.achievements.2022.awards.2"),
+      ],
+    },
+  ];
+
+  const FUTURE_GOALS = [
+    {
+      goal: t("pages:about.futureGoals.marketLeadership.goal"),
+      description: t("pages:about.futureGoals.marketLeadership.description"),
+      icon: Trophy,
+    },
+    {
+      goal: t("pages:about.futureGoals.technologyInnovation.goal"),
+      description: t("pages:about.futureGoals.technologyInnovation.description"),
+      icon: Rocket,
+    },
+    {
+      goal: t("pages:about.futureGoals.geographicExpansion.goal"),
+      description: t("pages:about.futureGoals.geographicExpansion.description"),
+      icon: Globe,
+    },
+    {
+      goal: t("pages:about.futureGoals.teamGrowth.goal"),
+      description: t("pages:about.futureGoals.teamGrowth.description"),
+      icon: Users,
+    },
+    {
+      goal: t("pages:about.futureGoals.revenueMilestone.goal"),
+      description: t("pages:about.futureGoals.revenueMilestone.description"),
+      icon: TrendingUp,
+    },
+    {
+      goal: t("pages:about.futureGoals.sustainabilityFocus.goal"),
+      description: t("pages:about.futureGoals.sustainabilityFocus.description"),
+      icon: Zap,
+    },
+  ];
 
   const values = [
     {
@@ -159,8 +157,8 @@ export default function About() {
   return (
     <>
       <SEO
-        title="About Powerton Engineering - 15+ Years of Industrial Automation Excellence"
-        description="Learn about Powerton Engineering's journey in industrial automation, electrical engineering, and instrumentation solutions. Expert team serving industries across India since 2008."
+        title={t("pages:about.seo.title")}
+        description={t("pages:about.seo.description")}
         keywords={t("pages:about.seo.keywords")}
         canonicalUrl="https://powertonengineering.in/about"
       />
@@ -375,11 +373,10 @@ export default function About() {
           <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8">
             <div className="text-center mb-16">
               <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-8">
-                Awards & Achievements
+                {t("pages:about.achievements.title")}
               </h2>
               <p className="text-xl text-muted-foreground mb-8">
-                Recognition of our commitment to excellence, innovation, and
-                quality in industrial automation.
+                {t("pages:about.achievements.subtitle")}
               </p>
             </div>
 
@@ -430,11 +427,10 @@ export default function About() {
           <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8">
             <div className="text-center mb-16">
               <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-8">
-                Future Goals & Vision
+                {t("pages:about.futureGoals.title")}
               </h2>
               <p className="text-xl text-muted-foreground mb-8">
-                Our strategic roadmap towards becoming India's leading
-                industrial automation solutions provider.
+                {t("pages:about.futureGoals.subtitle")}
               </p>
             </div>
 
