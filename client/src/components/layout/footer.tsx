@@ -21,7 +21,7 @@ export default function Footer() {
     <footer
       className="bg-slate-900 dark:bg-slate-950 border-t border-slate-700 dark:border-slate-800 text-slate-100 py-12"
       role="contentinfo"
-      aria-label="Company information and site navigation"
+      aria-label={t("common:ui.ariaLabels.footerInfo")}
       itemScope
       itemType="https://schema.org/Organization"
     >
@@ -115,7 +115,7 @@ export default function Footer() {
             </div>
 
             {/* Services */}
-            <nav aria-label="Services navigation">
+            <nav aria-label={t("common:ui.ariaLabels.servicesNav")}>
               <Link href="/services">
                 <h4 className="text-lg font-semibold mb-4 text-slate-100 hover:text-primary transition-colors cursor-pointer">
                   {t("navigation:footer.services")}
@@ -136,7 +136,7 @@ export default function Footer() {
             </nav>
 
             {/* Products */}
-            <nav aria-label="Products navigation">
+            <nav aria-label={t("common:ui.ariaLabels.productsNav")}>
               <Link href="/products">
                 <h4 className="text-lg font-semibold mb-4 text-slate-100 hover:text-primary transition-colors cursor-pointer">
                   {t("navigation:footer.products")}
@@ -189,7 +189,7 @@ export default function Footer() {
                         href={`tel:${COMPANY_INFO.phoneNumbers.primary}`}
                         className="hover:text-orange-400 transition-colors block text-wrap-safe"
                         itemProp="telephone"
-                        aria-label="Call Powerton Engineering - Primary"
+                        aria-label={t("common:ui.ariaLabels.callPrimary")}
                       >
                         {COMPANY_INFO.phoneNumbers.primary}
                       </a>
@@ -199,7 +199,7 @@ export default function Footer() {
                         href={`tel:${COMPANY_INFO.phoneNumbers.secondary}`}
                         className="hover:text-orange-400 transition-colors block text-wrap-safe"
                         itemProp="telephone"
-                        aria-label="Call Powerton Engineering - Secondary"
+                        aria-label={t("common:ui.ariaLabels.callSecondary")}
                       >
                         {COMPANY_INFO.phoneNumbers.secondary}
                       </a>
@@ -215,7 +215,7 @@ export default function Footer() {
                     href={`mailto:${companyInfo.email}`}
                     className="hover:text-orange-400 transition-colors text-wrap-safe"
                     itemProp="email"
-                    aria-label="Email Powerton Engineering"
+                    aria-label={t("common:ui.ariaLabels.emailPowerton")}
                   >
                     {companyInfo.email}
                   </a>
@@ -230,7 +230,7 @@ export default function Footer() {
                     target="_blank"
                     rel="noopener noreferrer"
                     className="hover:text-orange-400 transition-colors cursor-pointer text-wrap-safe"
-                    aria-label="View Powerton Engineering office location on Google Maps"
+                    aria-label={t("common:ui.ariaLabels.viewOfficeLocation")}
                   >
                     <span itemProp="streetAddress">
                       {companyInfo.address.street}
