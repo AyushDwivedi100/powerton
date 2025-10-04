@@ -1,8 +1,13 @@
 {
   "news": {
-    "cta" : {
-      "title" : "Be Part of Our Journey",
-      "description" : "Join us as we continue to innovate and lead in industrial automation. Connect with us for partnerships, career opportunities, or project collaborations."
+    "seo": {
+      "title": "News & Updates - Company News, Achievements & Future Goals | Powerton Engineering",
+      "description": "Stay updated with latest news, achievements, awards, upcoming projects, and future goals of Powerton Engineering. Leading industrial automation company's journey towards excellence.",
+      "keywords": "company news, engineering news, automation industry updates, powerton achievements, industrial automation awards, engineering excellence, company milestones"
+    },
+    "cta": {
+      "title": "Be Part of Our Journey",
+      "description": "Join us as we continue to innovate and lead in industrial automation. Connect with us for partnerships, career opportunities, or project collaborations."
     },
     "hero": {
       "title": "News",
@@ -65,6 +70,7 @@
       "inProgress": "In Progress"
     },
     "upcomingProjects": {
+      "description": "Exciting projects on the horizon that demonstrate our commitment to innovation and excellence.",
       "smartCity": {
         "title": "Smart City Infrastructure Automation",
         "client": "Noida Smart City Ltd.",
@@ -342,6 +348,11 @@
     }
   },
   "projects": {
+    "seo": {
+      "title": "Engineering Projects & Portfolio - Industrial Automation Cases | Powerton Engineering",
+      "description": "Explore our engineering capabilities through demonstration projects showcasing industrial automation, power systems, solar solutions, and process control expertise. Featured projects highlight our core competencies.",
+      "keywords": "engineering projects, automation projects, power plant automation, manufacturing automation, solar projects, water treatment automation, industrial projects India, project portfolio"
+    },
     "portfolioDescription": "Explore our engineering capabilities through demonstration projects showcasing innovative solutions across industries. A true project portfolio is coming soon.",
     "featured": "Featured",
     "keyFeatures": "Key Features:",
@@ -469,7 +480,8 @@
   "products": {
     "seo": {
       "title": "Industrial Products and Automation Equipment - Powerton Engineering",
-      "description": "Comprehensive range of industrial automation products, electrical components, instrumentation, solar systems, pumps, and tools. Quality equipment for industrial applications."
+      "description": "Comprehensive range of industrial automation products, electrical components, instrumentation, solar systems, pumps, and tools. Quality equipment for industrial applications.",
+      "keywords": "industrial products, automation equipment, electrical components, instrumentation products, solar panels, industrial pumps, measurement instruments, safety equipment"
     },
     "sections": {
       "industrialProducts": "Industrial Products Categories",
@@ -516,9 +528,13 @@
     }
   },
   "services": {
+    "relatedServices": {
+      "description": "Explore our other professional services that complement"
+    },
     "seo": {
       "title": "Professional Engineering Services - Installation, Maintenance & Automation | Powerton Engineering",
-      "description": "Expert engineering services: PLC programming, SCADA systems, industrial automation, electrical panel installation, maintenance, calibration, custom solutions, and solar EPC services across China."
+      "description": "Expert engineering services: PLC programming, SCADA systems, industrial automation, electrical panel installation, maintenance, calibration, custom solutions, and solar EPC services across China.",
+      "keywords": "engineering services, industrial automation services, PLC programming, SCADA implementation, electrical panel installation, maintenance services, calibration services, custom automation solutions, solar EPC contractor, technical support India"
     },
     "hero": {
       "title": "Professional Engineering Services",
@@ -772,6 +788,11 @@
     }
   },
   "gallery": {
+    "seo": {
+      "title": "Gallery - Powerton Engineering Projects, Products & Team",
+      "description": "Explore Powerton Engineering's gallery showcasing our team, completed industrial automation projects, and comprehensive product range. Building trust through transparency.",
+      "keywords": "powerton engineering gallery, industrial projects gallery, automation projects, electrical engineering team, product showcase, company facilities"
+    },
     "hero": {
       "title": "Our Gallery",
       "subtitle": "Discover our journey through images - from our dedicated team and modern facilities to successful projects and comprehensive product range."
@@ -1032,6 +1053,9 @@
     "featuredProjects": "Featured Projects"
   },
   "sitemap": {
+    "seo": {
+      "keywords": "sitemap, website navigation, powerton engineering, industrial automation, electrical engineering, products, services, projects, site structure"
+    },
     "quickActions": {
       "title": "Need Help Finding Something?",
       "description": "Can't find what you're looking for? Contact us directly or use our intelligent chatbot available on every page.",
@@ -1112,64 +1136,6 @@
         "description": "Advanced SCADA systems for real-time monitoring, data acquisition, and process control. Complete SCADA solutions with HMI integration and remote access capabilities.",
         "keywords": "SCADA systems, supervisory control, data acquisition, industrial monitoring, process control, HMI integration, remote monitoring, SCADA software"
       }
-    }
-  },
-  "gallery": {
-    "seo": {
-      "title": "Gallery - Powerton Engineering Projects, Products & Team",
-      "description": "Explore Powerton Engineering's gallery showcasing our team, completed industrial automation projects, and comprehensive product range. Building trust through transparency.",
-      "keywords": "powerton engineering gallery, industrial projects gallery, automation projects, electrical engineering team, product showcase, company facilities"
-    }
-  },
-  "news": {
-    "seo": {
-      "title": "News & Updates - Company News, Achievements & Future Goals | Powerton Engineering",
-      "description": "Stay updated with latest news, achievements, awards, upcoming projects, and future goals of Powerton Engineering. Leading industrial automation company's journey towards excellence.",
-      "keywords": "company news, engineering news, automation industry updates, powerton achievements, industrial automation awards, engineering excellence, company milestones"
-    },
-    "upcomingProjects": {
-      "description": "Exciting projects on the horizon that demonstrate our commitment to innovation and excellence."
-    }
-  },
-  "products": {
-    "seo": {
-      "keywords": "industrial products, automation equipment, electrical components, instrumentation products, solar panels, industrial pumps, measurement instruments, safety equipment"
-    }
-  },
-  "projects": {
-    "seo": {
-      "title": "Engineering Projects & Portfolio - Industrial Automation Cases | Powerton Engineering",
-      "description": "Explore our engineering capabilities through demonstration projects showcasing industrial automation, power systems, solar solutions, and process control expertise. Featured projects highlight our core competencies.",
-      "keywords": "engineering projects, automation projects, power plant automation, manufacturing automation, solar projects, water treatment automation, industrial projects India, project portfolio"
-    }
-  },
-  "services": {
-    "seo": {
-      "keywords": "engineering services, industrial automation services, PLC programming, SCADA implementation, electrical panel installation, maintenance services, calibration services, custom automation solutions, solar EPC contractor, technical support India"
-    },
-    "relatedServices": {
-      "description": "Explore our other professional services that complement"
-    }
-  },
-  "sitemap": {
-    "seo": {
-      "keywords": "sitemap, website navigation, powerton engineering, industrial automation, electrical engineering, products, services, projects, site structure"
-    }
-  },
-  "contact": {
-    "whatsapp": {
-      "defaultMessage": "Hello! I'm interested in your products and services."
-    }
-  },
-  "quote": {
-    "calculator": {
-      "title": "Advanced Cost Calculator",
-      "description": "We're putting the finishing touches on our intelligent cost estimation tool. This feature will provide instant, accurate pricing for your automation projects.",
-      "launchingSoon": "Launching Soon",
-      "useQuoteForm": "For immediate quotes, please use our detailed quote form",
-      "getQuoteNow": "Get Quote Now",
-      "projectTitle": "Project Cost Calculator",
-      "stepOf": "Step {{current}} of {{total}}"
     }
   }
 }

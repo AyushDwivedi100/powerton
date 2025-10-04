@@ -753,6 +753,17 @@
     }
   },
   "sections": {
+    "overview": "Muhtasari",
+    "technicalSpecifications": "Vipimo vya Kiufundi",
+    "keyFeatures": "Sifa Muhimu",
+    "applications": "Matumizi",
+    "industriesServed": "Viwanda Vinavyohudumiwa",
+    "certificationsCompliance": "Uidhinishaji na Uzingatiaji",
+    "certifications": "Uidhinishaji",
+    "qualityAssurance": "Uhakikisho wa Ubora",
+    "qualityAssuranceDescription": "Bidhaa hukutana na viwango vya kimataifa na kanuni za usalama.",
+    "completeListDescription": "Orodha kamili ya bidhaa za {{groupTitle}} na vipimo",
+    "expertsHelpDescription": "Wataalamu wetu wako hapa kukusaidia kuchagua {{groupTitle}} inayofaa kwa matumizi yako.",
     "products": "Bidhaa Zetu",
     "productsDescription": "Gundua anuwai yetu kamili ya suluhisho za viwandani za hali ya juu",
     "needMoreOptions": "Unahitaji Chaguo Zaidi?",
@@ -1480,6 +1491,8 @@
     "actualImages": "Picha halisi za kupakiwa"
   },
   "labels": {
+    "industrialProduct": "Bidhaa ya Viwandani",
+    "products": "Bidhaa",
     "specifications": "Vipimo",
     "applications": "Matumizi",
     "industries": "Viwanda",
@@ -2214,28 +2227,11 @@
       "description": "Mita za mtiririko za uhamishaji chanya kwa kutumia kanuni za kipimo cha gia ya mviringo, gia ya helical, diski ya nutating, na skrubu kwa kipimo sahihi cha mtiririko wa kimiminika. Huangazia usahihi wa kipekee, urudiwaji bora, na kiwango kikubwa cha mnato. Inafaa kwa uhamishaji wa ulinzi, upangaji makundi, upimaji wa mafuta, uwekaji kemikali, na matumizi ya mnato wa juu yanayohitaji kipimo cha volumetric cha kuaminika."
     }
   },
-  "sections": {
-    "overview": "Muhtasari",
-    "technicalSpecifications": "Vipimo vya Kiufundi",
-    "keyFeatures": "Sifa Muhimu",
-    "applications": "Matumizi",
-    "industriesServed": "Viwanda Vinavyohudumiwa",
-    "certificationsCompliance": "Uidhinishaji na Uzingatiaji",
-    "certifications": "Uidhinishaji",
-    "qualityAssurance": "Uhakikisho wa Ubora",
-    "qualityAssuranceDescription": "Bidhaa hukutana na viwango vya kimataifa na kanuni za usalama.",
-    "completeListDescription": "Orodha kamili ya bidhaa za {{groupTitle}} na vipimo",
-    "expertsHelpDescription": "Wataalamu wetu wako hapa kukusaidia kuchagua {{groupTitle}} inayofaa kwa matumizi yako."
-  },
   "table": {
     "manufacturer": "Mtengenezaji",
     "model": "Mfano",
     "type": "Aina",
     "actions": "Hatua"
-  },
-  "labels": {
-    "industrialProduct": "Bidhaa ya Viwandani",
-    "products": "Bidhaa"
   },
   "messages": {
     "noProductsInGroup": "Hakuna bidhaa zilizopatikana katika kundi hili."

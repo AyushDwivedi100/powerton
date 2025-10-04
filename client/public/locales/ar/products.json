@@ -748,6 +748,17 @@
     }
   },
   "sections": {
+    "overview": "نظرة عامة",
+    "technicalSpecifications": "المواصفات الفنية",
+    "keyFeatures": "الميزات الرئيسية",
+    "applications": "التطبيقات",
+    "industriesServed": "الصناعات التي يتم خدمتها",
+    "certificationsCompliance": "الشهادات والامتثال",
+    "certifications": "الشهادات",
+    "qualityAssurance": "ضمان الجودة",
+    "qualityAssuranceDescription": "المنتجات تلبي المعايير الدولية ولوائح السلامة.",
+    "completeListDescription": "قائمة كاملة بمنتجات {{groupTitle}} مع المواصفات",
+    "expertsHelpDescription": "خبراؤنا هنا لمساعدتك في اختيار {{groupTitle}} المناسب لتطبيقك.",
     "products": "منتجاتنا",
     "productsDescription": "اكتشف مجموعتنا الشاملة من الحلول الصناعية عالية الجودة",
     "needMoreOptions": "هل تحتاج إلى المزيد من الخيارات؟",
@@ -1475,6 +1486,8 @@
     "actualImages": "سيتم تحميل الصور الفعلية"
   },
   "labels": {
+    "industrialProduct": "المنتج الصناعي",
+    "products": "المنتجات",
     "specifications": "المواصفات",
     "applications": "التطبيقات",
     "industries": "الصناعات",
@@ -2209,28 +2222,11 @@
       "description": "عدادات التدفق بالإزاحة الإيجابية باستخدام مبادئ قياس التروس البيضاوي والتروس الحلزونية وقرص التأرجح واللولب لقياس تدفق السوائل بدقة. تتميز بدقة استثنائية وتكرار فائق ونطاق لزوجة واسع. مثالية لنقل الحضانة والتعبئة وقياس الوقود والجرعات الكيميائية والتطبيقات عالية اللزوجة التي تتطلب قياسًا حجميًا موثوقًا."
     }
   },
-  "sections": {
-    "overview": "نظرة عامة",
-    "technicalSpecifications": "المواصفات الفنية",
-    "keyFeatures": "الميزات الرئيسية",
-    "applications": "التطبيقات",
-    "industriesServed": "الصناعات التي يتم خدمتها",
-    "certificationsCompliance": "الشهادات والامتثال",
-    "certifications": "الشهادات",
-    "qualityAssurance": "ضمان الجودة",
-    "qualityAssuranceDescription": "المنتجات تلبي المعايير الدولية ولوائح السلامة.",
-    "completeListDescription": "قائمة كاملة بمنتجات {{groupTitle}} مع المواصفات",
-    "expertsHelpDescription": "خبراؤنا هنا لمساعدتك في اختيار {{groupTitle}} المناسب لتطبيقك."
-  },
   "table": {
     "manufacturer": "الشركة المصنعة",
     "model": "الموديل",
     "type": "النوع",
     "actions": "الإجراءات"
-  },
-  "labels": {
-    "industrialProduct": "المنتج الصناعي",
-    "products": "المنتجات"
   },
   "messages": {
     "noProductsInGroup": "لم يتم العثور على منتجات في هذه المجموعة."

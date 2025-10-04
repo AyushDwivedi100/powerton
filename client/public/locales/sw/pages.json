@@ -1,5 +1,10 @@
 {
   "news": {
+    "seo": {
+      "title": "Habari na Sasisho - Habari za Kampuni, Mafanikio na Malengo ya Baadaye | Powerton Engineering",
+      "description": "Endelea kupata habari mpya, mafanikio, tuzo, miradi ijayo, na malengo ya baadaye ya Powerton Engineering. Safari ya kampuni inayoongoza ya automatisheni ya viwandani kuelekea ubora.",
+      "keywords": "habari za kampuni, habari za uhandisi, sasisho za tasnia ya automatisheni, mafanikio ya powerton, tuzo za automatisheni ya viwandani, ubora wa uhandisi, hatua muhimu za kampuni"
+    },
     "cta": {
       "title": "Kuwa Sehemu ya Safari Yetu",
       "description": "Jiunge nasi tunapoendelea kubuni na kuongoza katika automatisheni ya viwandani. Ungana nasi kwa ushirikiano, fursa za kazi, au ushirikiano wa mradi."
@@ -65,6 +70,7 @@
       "inProgress": "Inaendelea"
     },
     "upcomingProjects": {
+      "description": "Miradi ya kusisimua kwenye upeo wa macho ambayo inaonyesha kujitolea kwetu kwa uvumbuzi na ubora.",
       "smartCity": {
         "title": "Uendeshaji wa Miundombinu ya Jiji Mahiri",
         "client": "Noida Smart City Ltd.",
@@ -342,6 +348,11 @@
     }
   },
   "projects": {
+    "seo": {
+      "title": "Miradi ya Uhandisi na Portfolio - Kesi za Automatisheni ya Viwandani | Powerton Engineering",
+      "description": "Gundua uwezo wetu wa uhandisi kupitia miradi ya maonyesho inayoonyesha automatisheni ya viwandani, mifumo ya nguvu, suluhisho za jua, na utaalam wa udhibiti wa mchakato. Miradi iliyoangaziwa inaonyesha uwezo wetu mkuu.",
+      "keywords": "miradi ya uhandisi, miradi ya automatisheni, automatisheni ya mtambo wa nguvu, automatisheni ya utengenezaji, miradi ya jua, automatisheni ya usafishaji wa maji, miradi ya viwandani India, portfolio ya mradi"
+    },
     "portfolioDescription": "Gundua uwezo wetu wa uhandisi kupitia miradi ya maonyesho inayoonyesha suluhisho za ubunifu katika tasnia. Kwingineko ya mradi wa kweli inakuja hivi karibuni.",
     "featured": "Imeangaziwa",
     "keyFeatures": "Vipengele Muhimu:",
@@ -469,7 +480,8 @@
   "products": {
     "seo": {
       "title": "Bidhaa za Viwandani na Vifaa vya Uendeshaji - Powerton Engineering",
-      "description": "Aina kamili ya bidhaa za automatisheni ya viwandani, vipengele vya umeme, ala, mifumo ya jua, pampu na zana. Vifaa bora kwa matumizi ya viwandani."
+      "description": "Aina kamili ya bidhaa za automatisheni ya viwandani, vipengele vya umeme, ala, mifumo ya jua, pampu na zana. Vifaa bora kwa matumizi ya viwandani.",
+      "keywords": "bidhaa za viwandani, vifaa vya automatisheni, vifaa vya umeme, bidhaa za ala, paneli za jua, pampu za viwandani, vyombo vya kupimia, vifaa vya usalama"
     },
     "sections": {
       "industrialProducts": "Aina za Bidhaa za Viwandani",
@@ -516,9 +528,13 @@
     }
   },
   "services": {
+    "relatedServices": {
+      "description": "Gundua huduma zetu zingine za kitaalamu ambazo zinaongezea"
+    },
     "seo": {
       "title": "Huduma za Uhandisi za Kitaalamu - Ufungaji, Matengenezo na Uendeshaji | Powerton Engineering",
-      "description": "Huduma za uhandisi za kitaalamu: Programu ya PLC, mifumo ya SCADA, automatisheni ya viwandani, ufungaji wa paneli za umeme, matengenezo, upimaji, suluhisho maalum, na huduma za EPC za jua kote China."
+      "description": "Huduma za uhandisi za kitaalamu: Programu ya PLC, mifumo ya SCADA, automatisheni ya viwandani, ufungaji wa paneli za umeme, matengenezo, upimaji, suluhisho maalum, na huduma za EPC za jua kote China.",
+      "keywords": "huduma za uhandisi, huduma za automatisheni ya viwandani, programu ya PLC, utekelezaji wa SCADA, usakinishaji wa paneli za umeme, huduma za matengenezo, huduma za upimaji, suluhisho za automatisheni maalum, mkandarasi wa solar EPC, msaada wa kiufundi India"
     },
     "hero": {
       "title": "Huduma za Uhandisi za Kitaalamu",
@@ -772,6 +788,11 @@
     }
   },
   "gallery": {
+    "seo": {
+      "title": "Ghala - Miradi, Bidhaa na Timu ya Powerton Engineering",
+      "description": "Gundua ghala la Powerton Engineering linaloonyesha timu yetu, miradi ya automatisheni ya viwandani iliyokamilika, na anuwai kamili ya bidhaa. Kujenga uaminifu kupitia uwazi.",
+      "keywords": "ghala la powerton engineering, ghala la miradi ya viwandani, miradi ya automatisheni, timu ya uhandisi wa umeme, maonyesho ya bidhaa, vifaa vya kampuni"
+    },
     "hero": {
       "title": "Picha Zetu",
       "subtitle": "Gundua safari yetu kupitia picha - kutoka kwa timu yetu iliyojitolea na vifaa vya kisasa hadi miradi iliyofanikiwa na anuwai kamili ya bidhaa."
@@ -1032,6 +1053,9 @@
     "featuredProjects": "Miradi Iliyoangaziwa"
   },
   "sitemap": {
+    "seo": {
+      "keywords": "ramani ya tovuti, urambazaji wa tovuti, powerton engineering, automatisheni ya viwandani, uhandisi wa umeme, bidhaa, huduma, miradi, muundo wa tovuti"
+    },
     "quickActions": {
       "title": "Unahitaji Msaada Kupata Kitu?",
       "description": "Hupati unachotafuta? Wasiliana nasi moja kwa moja au tumia chatbot yetu yenye akili inayopatikana kwenye kila ukurasa.",
@@ -1112,64 +1136,6 @@
         "description": "Mifumo ya SCADA ya hali ya juu kwa ufuatiliaji wa wakati halisi, upataji wa data, na udhibiti wa mchakato. Suluhisho kamili za SCADA na ujumuishaji wa HMI na uwezo wa ufikiaji wa mbali.",
         "keywords": "mifumo ya SCADA, udhibiti wa usimamizi, upataji wa data, ufuatiliaji wa viwandani, udhibiti wa mchakato, ujumuishaji wa HMI, ufuatiliaji wa mbali, programu ya SCADA"
       }
-    }
-  },
-  "gallery": {
-    "seo": {
-      "title": "Ghala - Miradi, Bidhaa na Timu ya Powerton Engineering",
-      "description": "Gundua ghala la Powerton Engineering linaloonyesha timu yetu, miradi ya automatisheni ya viwandani iliyokamilika, na anuwai kamili ya bidhaa. Kujenga uaminifu kupitia uwazi.",
-      "keywords": "ghala la powerton engineering, ghala la miradi ya viwandani, miradi ya automatisheni, timu ya uhandisi wa umeme, maonyesho ya bidhaa, vifaa vya kampuni"
-    }
-  },
-  "news": {
-    "seo": {
-      "title": "Habari na Sasisho - Habari za Kampuni, Mafanikio na Malengo ya Baadaye | Powerton Engineering",
-      "description": "Endelea kupata habari mpya, mafanikio, tuzo, miradi ijayo, na malengo ya baadaye ya Powerton Engineering. Safari ya kampuni inayoongoza ya automatisheni ya viwandani kuelekea ubora.",
-      "keywords": "habari za kampuni, habari za uhandisi, sasisho za tasnia ya automatisheni, mafanikio ya powerton, tuzo za automatisheni ya viwandani, ubora wa uhandisi, hatua muhimu za kampuni"
-    },
-    "upcomingProjects": {
-      "description": "Miradi ya kusisimua kwenye upeo wa macho ambayo inaonyesha kujitolea kwetu kwa uvumbuzi na ubora."
-    }
-  },
-  "products": {
-    "seo": {
-      "keywords": "bidhaa za viwandani, vifaa vya automatisheni, vifaa vya umeme, bidhaa za ala, paneli za jua, pampu za viwandani, vyombo vya kupimia, vifaa vya usalama"
-    }
-  },
-  "projects": {
-    "seo": {
-      "title": "Miradi ya Uhandisi na Portfolio - Kesi za Automatisheni ya Viwandani | Powerton Engineering",
-      "description": "Gundua uwezo wetu wa uhandisi kupitia miradi ya maonyesho inayoonyesha automatisheni ya viwandani, mifumo ya nguvu, suluhisho za jua, na utaalam wa udhibiti wa mchakato. Miradi iliyoangaziwa inaonyesha uwezo wetu mkuu.",
-      "keywords": "miradi ya uhandisi, miradi ya automatisheni, automatisheni ya mtambo wa nguvu, automatisheni ya utengenezaji, miradi ya jua, automatisheni ya usafishaji wa maji, miradi ya viwandani India, portfolio ya mradi"
-    }
-  },
-  "services": {
-    "seo": {
-      "keywords": "huduma za uhandisi, huduma za automatisheni ya viwandani, programu ya PLC, utekelezaji wa SCADA, usakinishaji wa paneli za umeme, huduma za matengenezo, huduma za upimaji, suluhisho za automatisheni maalum, mkandarasi wa solar EPC, msaada wa kiufundi India"
-    },
-    "relatedServices": {
-      "description": "Gundua huduma zetu zingine za kitaalamu ambazo zinaongezea"
-    }
-  },
-  "sitemap": {
-    "seo": {
-      "keywords": "ramani ya tovuti, urambazaji wa tovuti, powerton engineering, automatisheni ya viwandani, uhandisi wa umeme, bidhaa, huduma, miradi, muundo wa tovuti"
-    }
-  },
-  "contact": {
-    "whatsapp": {
-      "defaultMessage": "Halo! Ninavutiwa na bidhaa na huduma zako."
-    }
-  },
-  "quote": {
-    "calculator": {
-      "title": "Kikokotoo cha Gharama cha Juu",
-      "description": "Tunaweka mguso wa mwisho kwenye zana yetu mahiri ya kukadiria gharama. Kipengele hiki kitatoa bei ya papo hapo na sahihi kwa miradi yako ya automatisheni.",
-      "launchingSoon": "Inazinduliwa Hivi Karibuni",
-      "useQuoteForm": "Kwa nukuu za haraka, tafadhali tumia fomu yetu ya nukuu ya kina",
-      "getQuoteNow": "Pata Nukuu Sasa",
-      "projectTitle": "Kikokotoo cha Gharama ya Mradi",
-      "stepOf": "Hatua ya {{current}} kati ya {{total}}"
     }
   }
 }

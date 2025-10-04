@@ -150,15 +150,6 @@
     "availability": "24/7 availability for quick support",
     "responseTime": "Within 2 days for initial consultation"
   },
-  "ui": {
-    "ariaLabels": {
-      "contactWhatsApp": "Contact us on WhatsApp",
-      "contactJustDial": "Find us on Just Dial"
-    },
-    "messages": {
-      "whatsappGreeting": "Hello! I'm interested in your industrial automation and engineering services."
-    }
-  },
   "aria": {
     "toggleNavigation": "Toggle navigation assistant",
     "openLocation": "Open office location in Google Maps",

@@ -753,6 +753,17 @@
     }
   },
   "sections": {
+    "overview": "Visión General",
+    "technicalSpecifications": "Especificaciones Técnicas",
+    "keyFeatures": "Características Clave",
+    "applications": "Aplicaciones",
+    "industriesServed": "Industrias Atendidas",
+    "certificationsCompliance": "Certificaciones y Cumplimiento",
+    "certifications": "Certificaciones",
+    "qualityAssurance": "Garantía de Calidad",
+    "qualityAssuranceDescription": "Los productos cumplen con los estándares internacionales y las normas de seguridad.",
+    "completeListDescription": "Lista completa de productos {{groupTitle}} con especificaciones",
+    "expertsHelpDescription": "Nuestros expertos están aquí para ayudarle a seleccionar el {{groupTitle}} adecuado para su aplicación.",
     "products": "Nuestros Productos",
     "productsDescription": "Explore nuestra amplia gama de soluciones industriales de alta calidad",
     "needMoreOptions": "¿Necesita Más Opciones?",
@@ -1480,6 +1491,8 @@
     "actualImages": "Imágenes reales para subir"
   },
   "labels": {
+    "industrialProduct": "Producto Industrial",
+    "products": "Productos",
     "specifications": "Especificaciones",
     "applications": "Aplicaciones",
     "industries": "Industrias",
@@ -2214,28 +2227,11 @@
       "description": "Caudalímetros de desplazamiento positivo que utilizan principios de medición de engranajes ovalados, engranajes helicoidales, disco nutativo y tornillo para una medición precisa del flujo de líquidos. Ofrecen una precisión excepcional, una repetibilidad superior y un amplio rango de viscosidad. Ideales para transferencia de custodia, lotes, medición de combustible, dosificación química y aplicaciones de alta viscosidad que requieren una medición volumétrica confiable."
     }
   },
-  "sections": {
-    "overview": "Visión General",
-    "technicalSpecifications": "Especificaciones Técnicas",
-    "keyFeatures": "Características Clave",
-    "applications": "Aplicaciones",
-    "industriesServed": "Industrias Atendidas",
-    "certificationsCompliance": "Certificaciones y Cumplimiento",
-    "certifications": "Certificaciones",
-    "qualityAssurance": "Garantía de Calidad",
-    "qualityAssuranceDescription": "Los productos cumplen con los estándares internacionales y las normas de seguridad.",
-    "completeListDescription": "Lista completa de productos {{groupTitle}} con especificaciones",
-    "expertsHelpDescription": "Nuestros expertos están aquí para ayudarle a seleccionar el {{groupTitle}} adecuado para su aplicación."
-  },
   "table": {
     "manufacturer": "Fabricante",
     "model": "Modelo",
     "type": "Tipo",
     "actions": "Acciones"
-  },
-  "labels": {
-    "industrialProduct": "Producto Industrial",
-    "products": "Productos"
   },
   "messages": {
     "noProductsInGroup": "No se encontraron productos en este grupo."

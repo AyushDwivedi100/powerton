@@ -150,15 +150,6 @@
     "availability": "全天候可用，提供快速支持",
     "responseTime": "初步咨询将在2天内完成"
   },
-  "ui": {
-    "ariaLabels": {
-      "contactWhatsApp": "在 WhatsApp 上联系我们",
-      "contactJustDial": "在 Just Dial 上联系我们"
-    },
-    "messages": {
-      "whatsappGreeting": "你好！我对贵公司的产品和服务感兴趣。"
-    }
-  },
   "aria": {
     "toggleNavigation": "切换导航",
     "openLocation": "在Google地图中打开办公室位置",

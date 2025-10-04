@@ -753,6 +753,17 @@
     }
   },
   "sections": {
+    "overview": "Aperçu",
+    "technicalSpecifications": "Spécifications techniques",
+    "keyFeatures": "Principales caractéristiques",
+    "applications": "Applications",
+    "industriesServed": "Secteurs d'activité",
+    "certificationsCompliance": "Certifications et conformité",
+    "certifications": "Certifications",
+    "qualityAssurance": "Assurance qualité",
+    "qualityAssuranceDescription": "Les produits sont conformes aux normes internationales et aux réglementations de sécurité.",
+    "completeListDescription": "Liste complète des produits {{groupTitle}} avec spécifications",
+    "expertsHelpDescription": "Nos experts sont là pour vous aider à sélectionner le bon {{groupTitle}} pour votre application.",
     "products": "Nos Produits",
     "productsDescription": "Découvrez notre gamme complète de solutions industrielles de haute qualité",
     "needMoreOptions": "Besoin de plus d'options?",
@@ -1480,6 +1491,8 @@
     "actualImages": "Images réelles à télécharger"
   },
   "labels": {
+    "industrialProduct": "Produit industriel",
+    "products": "Produits",
     "specifications": "Spécifications",
     "applications": "Applications",
     "industries": "Industries",
@@ -2214,28 +2227,11 @@
       "description": "Débitmètres volumétriques utilisant des principes de mesure à engrenages ovales, à engrenages hélicoïdaux, à disque oscillant et à vis pour une mesure précise du débit de liquide. Offre une précision exceptionnelle, une répétabilité supérieure et une large plage de viscosité. Idéal pour le transfert de propriété, le dosage, le comptage de carburant, le dosage chimique et les applications à haute viscosité nécessitant une mesure volumétrique fiable."
     }
   },
-  "sections": {
-    "overview": "Aperçu",
-    "technicalSpecifications": "Spécifications techniques",
-    "keyFeatures": "Principales caractéristiques",
-    "applications": "Applications",
-    "industriesServed": "Secteurs d'activité",
-    "certificationsCompliance": "Certifications et conformité",
-    "certifications": "Certifications",
-    "qualityAssurance": "Assurance qualité",
-    "qualityAssuranceDescription": "Les produits sont conformes aux normes internationales et aux réglementations de sécurité.",
-    "completeListDescription": "Liste complète des produits {{groupTitle}} avec spécifications",
-    "expertsHelpDescription": "Nos experts sont là pour vous aider à sélectionner le bon {{groupTitle}} pour votre application."
-  },
   "table": {
     "manufacturer": "Fabricant",
     "model": "Modèle",
     "type": "Type",
     "actions": "Actions"
-  },
-  "labels": {
-    "industrialProduct": "Produit industriel",
-    "products": "Produits"
   },
   "messages": {
     "noProductsInGroup": "Aucun produit trouvé dans ce groupe."

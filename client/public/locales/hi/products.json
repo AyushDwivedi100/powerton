@@ -753,6 +753,17 @@
     }
   },
   "sections": {
+    "overview": "अवलोकन",
+    "technicalSpecifications": "तकनीकी विनिर्देश",
+    "keyFeatures": "मुख्य विशेषताएं",
+    "applications": "अनुप्रयोग",
+    "industriesServed": "उद्योगों में सेवा",
+    "certificationsCompliance": "प्रमाणन और अनुपालन",
+    "certifications": "प्रमाणन",
+    "qualityAssurance": "गुणवत्ता आश्वासन",
+    "qualityAssuranceDescription": "उत्पाद अंतरराष्ट्रीय मानकों और सुरक्षा नियमों को पूरा करते हैं।",
+    "completeListDescription": "विनिर्देशों के साथ {{groupTitle}} उत्पादों की पूरी सूची",
+    "expertsHelpDescription": "हमारे विशेषज्ञ आपके आवेदन के लिए सही {{groupTitle}} का चयन करने में आपकी सहायता करने के लिए यहां हैं।",
     "products": "हमारे उत्पाद",
     "productsDescription": "उच्च गुणवत्ता वाले औद्योगिक समाधानों की हमारी व्यापक श्रेणी का अन्वेषण करें",
     "needMoreOptions": "क्या आपको अधिक विकल्पों की आवश्यकता है?",
@@ -1480,6 +1491,8 @@
     "actualImages": "अपलोड करने के लिए वास्तविक चित्र"
   },
   "labels": {
+    "industrialProduct": "औद्योगिक उत्पाद",
+    "products": "उत्पाद",
     "specifications": "विशेष विवरण",
     "applications": "अनुप्रयोग",
     "industries": "उद्योग",
@@ -2214,28 +2227,11 @@
       "description": "सटीक तरल प्रवाह माप के लिए अंडाकार गियर, हेलिकल गियर, न्युटेटिंग डिस्क और स्क्रू माप सिद्धांतों का उपयोग करने वाले सकारात्मक विस्थापन प्रवाह मीटर। असाधारण सटीकता, बेहतर पुनरावर्तनीयता और विस्तृत चिपचिपाहट रेंज की सुविधाएँ। विश्वसनीय वॉल्यूमेट्रिक माप की आवश्यकता वाले अभिरक्षा हस्तांतरण, बैचिंग, ईंधन पैमाइश, रासायनिक खुराक और उच्च-चिपचिपापन अनुप्रयोगों के लिए आदर्श।"
     }
   },
-  "sections": {
-    "overview": "अवलोकन",
-    "technicalSpecifications": "तकनीकी विनिर्देश",
-    "keyFeatures": "मुख्य विशेषताएं",
-    "applications": "अनुप्रयोग",
-    "industriesServed": "उद्योगों में सेवा",
-    "certificationsCompliance": "प्रमाणन और अनुपालन",
-    "certifications": "प्रमाणन",
-    "qualityAssurance": "गुणवत्ता आश्वासन",
-    "qualityAssuranceDescription": "उत्पाद अंतरराष्ट्रीय मानकों और सुरक्षा नियमों को पूरा करते हैं।",
-    "completeListDescription": "विनिर्देशों के साथ {{groupTitle}} उत्पादों की पूरी सूची",
-    "expertsHelpDescription": "हमारे विशेषज्ञ आपके आवेदन के लिए सही {{groupTitle}} का चयन करने में आपकी सहायता करने के लिए यहां हैं।"
-  },
   "table": {
     "manufacturer": "निर्माता",
     "model": "मॉडल",
     "type": "प्रकार",
     "actions": "कार्य"
-  },
-  "labels": {
-    "industrialProduct": "औद्योगिक उत्पाद",
-    "products": "उत्पाद"
   },
   "messages": {
     "noProductsInGroup": "इस समूह में कोई उत्पाद नहीं मिला।"

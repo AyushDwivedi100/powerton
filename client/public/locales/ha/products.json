@@ -753,6 +753,17 @@
     }
   },
   "sections": {
+    "overview": "Bayanin gabaɗaya",
+    "technicalSpecifications": "Ƙayyadaddun Fasaha",
+    "keyFeatures": "Mahimman Siffofi",
+    "applications": "Aikace-aikace",
+    "industriesServed": "Masana'antu Masu Aiki",
+    "certificationsCompliance": "Takaddun shaida & Biyayya",
+    "certifications": "Takaddun shaida",
+    "qualityAssurance": "Tabbacin Inganci",
+    "qualityAssuranceDescription": "Samfura sun cika ƙa'idodin duniya da ƙa'idodin aminci.",
+    "completeListDescription": "Cikakken jerin samfuran {{groupTitle}} tare da ƙayyadaddun bayanai",
+    "expertsHelpDescription": "Kwararrunmu suna nan don taimaka muku zaɓi madaidaicin {{groupTitle}} don aikace-aikacenku.",
     "products": "Kayayyakin Mu",
     "productsDescription": "Binciko cikakken kewayon hanyoyin masana'antu masu inganci",
     "needMoreOptions": "Kuna Bukatar Ƙarin Zaɓuɓɓuka?",
@@ -1480,6 +1491,8 @@
     "actualImages": "Hotuna na ainihi da za a ɗora"
   },
   "labels": {
+    "industrialProduct": "Samfurin Masana'antu",
+    "products": "Samfura",
     "specifications": "Ƙayyadaddun bayanai",
     "applications": "Aikace-aikace",
     "industries": "Masana'antu",
@@ -2206,7 +2219,7 @@
     "interruptionTechnology": "Fasahar Katsewa",
     "electricalLife": "Rayuwar Lantarki",
     "mechanicalLife": "Rayuwar Inji",
-    "installation" : "Shigarwa"
+    "installation": "Shigarwa"
   },
   "productGroups": {
     "pdFlowMeter": {
@@ -2214,28 +2227,11 @@
       "description": "Mitar gudun ruwa mai kyau ta amfani da oval gear, helical gear, nutating disc, da ka'idojin auna skru don madaidaicin auna gudun ruwa. Yana fasalta daidaito na musamman, maimaitawa mafi girma, da faɗin kewayon danko. Ya dace da canja wurin riko, tarawa, auna man fetur, yawan sinadarai, da aikace-aikacen danko mai girma da ke buƙatar amintaccen auna girma."
     }
   },
-  "sections": {
-    "overview": "Bayanin gabaɗaya",
-    "technicalSpecifications": "Ƙayyadaddun Fasaha",
-    "keyFeatures": "Mahimman Siffofi",
-    "applications": "Aikace-aikace",
-    "industriesServed": "Masana'antu Masu Aiki",
-    "certificationsCompliance": "Takaddun shaida & Biyayya",
-    "certifications": "Takaddun shaida",
-    "qualityAssurance": "Tabbacin Inganci",
-    "qualityAssuranceDescription": "Samfura sun cika ƙa'idodin duniya da ƙa'idodin aminci.",
-    "completeListDescription": "Cikakken jerin samfuran {{groupTitle}} tare da ƙayyadaddun bayanai",
-    "expertsHelpDescription": "Kwararrunmu suna nan don taimaka muku zaɓi madaidaicin {{groupTitle}} don aikace-aikacenku."
-  },
   "table": {
     "manufacturer": "Mai ƙera",
     "model": "Model",
     "type": "Nau'i",
     "actions": "Ayyuka"
-  },
-  "labels": {
-    "industrialProduct": "Samfurin Masana'antu",
-    "products": "Samfura"
   },
   "messages": {
     "noProductsInGroup": "Ba a sami samfura a cikin wannan rukunin ba."

@@ -753,6 +753,17 @@
     }
   },
   "sections": {
+    "overview": "Visão Geral",
+    "technicalSpecifications": "Especificações Técnicas",
+    "keyFeatures": "Características Principais",
+    "applications": "Aplicações",
+    "industriesServed": "Indústrias Atendidas",
+    "certificationsCompliance": "Certificações e Conformidade",
+    "certifications": "Certificações",
+    "qualityAssurance": "Garantia de Qualidade",
+    "qualityAssuranceDescription": "Os produtos atendem aos padrões internacionais e regulamentos de segurança.",
+    "completeListDescription": "Lista completa de produtos {{groupTitle}} com especificações",
+    "expertsHelpDescription": "Nossos especialistas estão aqui para ajudá-lo a selecionar o {{groupTitle}} certo para sua aplicação.",
     "products": "Nossos Produtos",
     "productsDescription": "Explore nossa gama abrangente de soluções industriais de alta qualidade",
     "needMoreOptions": "Precisa de Mais Opções?",
@@ -1480,6 +1491,8 @@
     "actualImages": "Imagens reais a serem enviadas"
   },
   "labels": {
+    "industrialProduct": "Produto Industrial",
+    "products": "Produtos",
     "specifications": "Especificações",
     "applications": "Aplicações",
     "industries": "Indústrias",
@@ -2214,28 +2227,11 @@
       "description": "Medidores de vazão de deslocamento positivo usando princípios de medição de engrenagem oval, engrenagem helicoidal, disco nutativo e parafuso para medição precisa do fluxo de líquido. Apresenta precisão excepcional, repetibilidade superior e ampla faixa de viscosidade. Ideal para transferência de custódia, loteamento, medição de combustível, dosagem química e aplicações de alta viscosidade que exigem medição volumétrica confiável."
     }
   },
-  "sections": {
-    "overview": "Visão Geral",
-    "technicalSpecifications": "Especificações Técnicas",
-    "keyFeatures": "Características Principais",
-    "applications": "Aplicações",
-    "industriesServed": "Indústrias Atendidas",
-    "certificationsCompliance": "Certificações e Conformidade",
-    "certifications": "Certificações",
-    "qualityAssurance": "Garantia de Qualidade",
-    "qualityAssuranceDescription": "Os produtos atendem aos padrões internacionais e regulamentos de segurança.",
-    "completeListDescription": "Lista completa de produtos {{groupTitle}} com especificações",
-    "expertsHelpDescription": "Nossos especialistas estão aqui para ajudá-lo a selecionar o {{groupTitle}} certo para sua aplicação."
-  },
   "table": {
     "manufacturer": "Fabricante",
     "model": "Modelo",
     "type": "Tipo",
     "actions": "Ações"
-  },
-  "labels": {
-    "industrialProduct": "Produto Industrial",
-    "products": "Produtos"
   },
   "messages": {
     "noProductsInGroup": "Nenhum produto encontrado neste grupo."

@@ -658,6 +658,17 @@
     }
   },
   "sections": {
+    "overview": "概述",
+    "technicalSpecifications": "技术规格",
+    "keyFeatures": "主要特点",
+    "applications": "应用",
+    "industriesServed": "服务行业",
+    "certificationsCompliance": "认证与合规",
+    "certifications": "认证",
+    "qualityAssurance": "质量保证",
+    "qualityAssuranceDescription": "产品符合国际标准和安全法规。",
+    "completeListDescription": "包含规格的{{groupTitle}}产品完整列表",
+    "expertsHelpDescription": "我们的专家在此帮助您为您的应用选择合适的{{groupTitle}}。",
     "products": "我们的产品",
     "productsDescription": "探索我们全面的高质量工业解决方案",
     "needMoreOptions": "需要更多选择？",
@@ -1370,6 +1381,8 @@
     "actualImages": "要上传的实际图片"
   },
   "labels": {
+    "industrialProduct": "工业产品",
+    "products": "产品",
     "specifications": "规格",
     "applications": "应用",
     "industries": "行业",
@@ -2098,28 +2111,11 @@
       "description": "正排量流量计，采用椭圆齿轮、螺旋齿轮、摇摆活塞和螺杆测量原理，可实现精确的液体流量测量。具有卓越的精度、出色的重复性和宽粘度范围。适用于需要可靠体积测量的油品交接、批处理、燃料计量、化学品配料和高粘度应用。"
     }
   },
-  "sections": {
-    "overview": "概述",
-    "technicalSpecifications": "技术规格",
-    "keyFeatures": "主要特点",
-    "applications": "应用",
-    "industriesServed": "服务行业",
-    "certificationsCompliance": "认证与合规",
-    "certifications": "认证",
-    "qualityAssurance": "质量保证",
-    "qualityAssuranceDescription": "产品符合国际标准和安全法规。",
-    "completeListDescription": "包含规格的{{groupTitle}}产品完整列表",
-    "expertsHelpDescription": "我们的专家在此帮助您为您的应用选择合适的{{groupTitle}}。"
-  },
   "table": {
     "manufacturer": "制造商",
     "model": "型号",
     "type": "类型",
     "actions": "操作"
-  },
-  "labels": {
-    "industrialProduct": "工业产品",
-    "products": "产品"
   },
   "messages": {
     "noProductsInGroup": "在此组中未找到任何产品。"

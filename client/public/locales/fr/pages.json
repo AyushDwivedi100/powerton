@@ -1,5 +1,10 @@
 {
   "news": {
+    "seo": {
+      "title": "Actualités et mises à jour - Nouvelles de l'entreprise, réalisations et objectifs futurs | Powerton Engineering",
+      "description": "Restez informé des dernières nouvelles, réalisations, récompenses, projets à venir et objectifs futurs de Powerton Engineering. Le parcours d'une entreprise leader en automatisation industrielle vers l'excellence.",
+      "keywords": "nouvelles de l'entreprise, nouvelles de l'ingénierie, mises à jour de l'industrie de l'automatisation, réalisations de powerton, prix de l'automatisation industrielle, excellence en ingénierie, étapes importantes de l'entreprise"
+    },
     "cta": {
       "title": "Faites partie de notre aventure",
       "description": "Rejoignez-nous alors que nous continuons d'innover et de jouer un rôle de premier plan dans l'automatisation industrielle. Communiquez avec nous pour des partenariats, des possibilités de carrière ou des collaborations sur des projets."
@@ -65,6 +70,7 @@
       "inProgress": "En cours"
     },
     "upcomingProjects": {
+      "description": "Projets passionnants à l'horizon qui témoignent de notre engagement envers l'innovation et l'excellence.",
       "smartCity": {
         "title": "Automatisation de l'infrastructure de ville intelligente",
         "client": "Noida Smart City Ltd.",
@@ -342,6 +348,11 @@
     }
   },
   "projects": {
+    "seo": {
+      "title": "Projets d'ingénierie et portfolio - Cas d'automatisation industrielle | Powerton Engineering",
+      "description": "Explorez nos capacités d'ingénierie à travers des projets de démonstration présentant l'automatisation industrielle, les systèmes d'alimentation, les solutions solaires et l'expertise en contrôle des processus. Les projets présentés mettent en évidence nos compétences de base.",
+      "keywords": "projets d'ingénierie, projets d'automatisation, automatisation de centrales électriques, automatisation de la fabrication, projets solaires, automatisation du traitement de l'eau, projets industriels Inde, portfolio de projets"
+    },
     "portfolioDescription": "Explorez nos capacités d'ingénierie grâce à des projets de démonstration présentant des solutions innovantes dans divers secteurs. Un véritable portefeuille de projets sera bientôt disponible.",
     "featured": "En vedette",
     "keyFeatures": "Principales caractéristiques:",
@@ -469,7 +480,8 @@
   "products": {
     "seo": {
       "title": "Produits industriels et équipement d'automatisation - Powerton Engineering",
-      "description": "Gamme complète de produits d'automatisation industrielle, de composants électriques, d'instrumentation, de systèmes solaires, de pompes et d'outils. Équipement de qualité pour les applications industrielles."
+      "description": "Gamme complète de produits d'automatisation industrielle, de composants électriques, d'instrumentation, de systèmes solaires, de pompes et d'outils. Équipement de qualité pour les applications industrielles.",
+      "keywords": "produits industriels, équipement d'automatisation, composants électriques, produits d'instrumentation, panneaux solaires, pompes industrielles, instruments de mesure, équipement de sécurité"
     },
     "sections": {
       "industrialProducts": "Catégories de produits industriels",
@@ -516,9 +528,13 @@
     }
   },
   "services": {
+    "relatedServices": {
+      "description": "Explorez nos autres services professionnels qui complètent"
+    },
     "seo": {
       "title": "Services d'ingénierie professionnels - Installation, maintenance et automatisation | Powerton Engineering",
-      "description": "Services d'ingénierie experts : programmation PLC, systèmes SCADA, automatisation industrielle, installation de panneaux électriques, maintenance, étalonnage, solutions personnalisées et services EPC solaires à travers la Chine."
+      "description": "Services d'ingénierie experts : programmation PLC, systèmes SCADA, automatisation industrielle, installation de panneaux électriques, maintenance, étalonnage, solutions personnalisées et services EPC solaires à travers la Chine.",
+      "keywords": "services d'ingénierie, services d'automatisation industrielle, programmation PLC, implémentation SCADA, installation de panneaux électriques, services de maintenance, services d'étalonnage, solutions d'automatisation personnalisées, entrepreneur EPC solaire, support technique Inde"
     },
     "hero": {
       "title": "Services d'ingénierie professionnels",
@@ -772,6 +788,11 @@
     }
   },
   "gallery": {
+    "seo": {
+      "title": "Galerie - Projets, produits et équipe de Powerton Engineering",
+      "description": "Explorez la galerie de Powerton Engineering présentant notre équipe, nos projets d'automatisation industrielle réalisés et notre gamme complète de produits. Établir la confiance par la transparence.",
+      "keywords": "galerie powerton engineering, galerie de projets industriels, projets d'automatisation, équipe de génie électrique, présentation de produits, installations de l'entreprise"
+    },
     "hero": {
       "title": "Notre galerie",
       "subtitle": "Découvrez notre parcours à travers des images : de notre équipe dévouée et de nos installations modernes à nos projets réussis et à notre gamme complète de produits."
@@ -1032,6 +1053,9 @@
     "featuredProjects": "Projets en vedette"
   },
   "sitemap": {
+    "seo": {
+      "keywords": "plan du site, navigation du site Web, powerton engineering, automatisation industrielle, génie électrique, produits, services, projets, structure du site"
+    },
     "quickActions": {
       "title": "Besoin d'aide pour trouver quelque chose ?",
       "description": "Vous ne trouvez pas ce que vous cherchez ? Contactez-nous directement ou utilisez notre chatbot intelligent disponible sur chaque page.",
@@ -1112,64 +1136,6 @@
         "description": "Systèmes SCADA avancés pour la surveillance en temps réel, l'acquisition de données et le contrôle des processus. Solutions SCADA complètes avec intégration IHM et capacités d'accès à distance.",
         "keywords": "systèmes SCADA, contrôle de la supervision, acquisition de données, surveillance industrielle, contrôle des processus, intégration IHM, surveillance à distance, logiciel SCADA"
       }
-    }
-  },
-  "gallery": {
-    "seo": {
-      "title": "Galerie - Projets, produits et équipe de Powerton Engineering",
-      "description": "Explorez la galerie de Powerton Engineering présentant notre équipe, nos projets d'automatisation industrielle réalisés et notre gamme complète de produits. Établir la confiance par la transparence.",
-      "keywords": "galerie powerton engineering, galerie de projets industriels, projets d'automatisation, équipe de génie électrique, présentation de produits, installations de l'entreprise"
-    }
-  },
-  "news": {
-    "seo": {
-      "title": "Actualités et mises à jour - Nouvelles de l'entreprise, réalisations et objectifs futurs | Powerton Engineering",
-      "description": "Restez informé des dernières nouvelles, réalisations, récompenses, projets à venir et objectifs futurs de Powerton Engineering. Le parcours d'une entreprise leader en automatisation industrielle vers l'excellence.",
-      "keywords": "nouvelles de l'entreprise, nouvelles de l'ingénierie, mises à jour de l'industrie de l'automatisation, réalisations de powerton, prix de l'automatisation industrielle, excellence en ingénierie, étapes importantes de l'entreprise"
-    },
-    "upcomingProjects": {
-      "description": "Projets passionnants à l'horizon qui témoignent de notre engagement envers l'innovation et l'excellence."
-    }
-  },
-  "products": {
-    "seo": {
-      "keywords": "produits industriels, équipement d'automatisation, composants électriques, produits d'instrumentation, panneaux solaires, pompes industrielles, instruments de mesure, équipement de sécurité"
-    }
-  },
-  "projects": {
-    "seo": {
-      "title": "Projets d'ingénierie et portfolio - Cas d'automatisation industrielle | Powerton Engineering",
-      "description": "Explorez nos capacités d'ingénierie à travers des projets de démonstration présentant l'automatisation industrielle, les systèmes d'alimentation, les solutions solaires et l'expertise en contrôle des processus. Les projets présentés mettent en évidence nos compétences de base.",
-      "keywords": "projets d'ingénierie, projets d'automatisation, automatisation de centrales électriques, automatisation de la fabrication, projets solaires, automatisation du traitement de l'eau, projets industriels Inde, portfolio de projets"
-    }
-  },
-  "services": {
-    "seo": {
-      "keywords": "services d'ingénierie, services d'automatisation industrielle, programmation PLC, implémentation SCADA, installation de panneaux électriques, services de maintenance, services d'étalonnage, solutions d'automatisation personnalisées, entrepreneur EPC solaire, support technique Inde"
-    },
-    "relatedServices": {
-      "description": "Explorez nos autres services professionnels qui complètent"
-    }
-  },
-  "sitemap": {
-    "seo": {
-      "keywords": "plan du site, navigation du site Web, powerton engineering, automatisation industrielle, génie électrique, produits, services, projets, structure du site"
-    }
-  },
-  "contact": {
-    "whatsapp": {
-      "defaultMessage": "Bonjour ! Je suis intéressé par vos produits et services."
-    }
-  },
-  "quote": {
-    "calculator": {
-      "title": "Calculatrice de coûts avancée",
-      "description": "Nous mettons la touche finale à notre outil intelligent d'estimation des coûts. Cette fonctionnalité fournira une tarification instantanée et précise pour vos projets d'automatisation.",
-      "launchingSoon": "Lancement prochain",
-      "useQuoteForm": "Pour obtenir des devis immédiats, veuillez utiliser notre formulaire de devis détaillé",
-      "getQuoteNow": "Obtenir un devis maintenant",
-      "projectTitle": "Calculateur de coûts de projet",
-      "stepOf": "Étape {{current}} sur {{total}}"
     }
   }
 }

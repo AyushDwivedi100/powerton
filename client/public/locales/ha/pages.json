@@ -1,5 +1,10 @@
 {
   "news": {
+    "seo": {
+      "title": "Labarai & Sabuntawa - Labaran Kamfani, Nasarori & Manufofin Gaba | Injiniya na Powerton",
+      "description": "Kasance cikin sabbin labarai, nasarori, lambobin yabo, ayyukan da ke tafe, da manufofin gaba na Injiniya na Powerton. Jagorancin tafiyar kamfanin sarrafa masana'antu zuwa ga ƙwarewa.",
+      "keywords": "labaran kamfani, labaran injiniya, sabuntawar masana'antar sarrafa kansa, nasarorin powerton, lambobin yabo na sarrafa masana'antu, ƙwarewar injiniya, manyan nasarorin kamfani"
+    },
     "cta": {
       "title": "Kasance Cikin Tafiyarmu",
       "description": "Haɗa kai da mu yayin da muke ci gaba da ƙirƙira da jagoranci a cikin sarrafa masana'antu. Haɗa kai da mu don haɗin gwiwa, damar aiki, ko haɗin gwiwar aiki."
@@ -65,6 +70,7 @@
       "inProgress": "Ana Ci Gaba"
     },
     "upcomingProjects": {
+      "description": "Ayyuka masu kayatarwa a sararin sama waɗanda ke nuna jajircewarmu ga ƙirƙira da ƙwarewa.",
       "smartCity": {
         "title": "Kera Kayayyakin More Rayuwa na Birni Mai Wayo ta atomatik",
         "client": "Noida Smart City Ltd.",
@@ -342,6 +348,11 @@
     }
   },
   "projects": {
+    "seo": {
+      "title": "Ayyukan Injiniya & Fayil - Shari'o'in Sarrafa Masana'antu | Injiniya na Powerton",
+      "description": "Bincika iyawarmu na injiniya ta hanyar ayyukan nunin da ke nuna sarrafa masana'antu, tsarin wutar lantarki, hanyoyin samar da hasken rana, da ƙwarewar sarrafa tsari. Ayyukan da aka nuna suna haskaka mahimman ƙwarewarmu.",
+      "keywords": "ayyukan injiniya, ayyukan sarrafa kansa, sarrafa tashar wutar lantarki, sarrafa masana'antu, ayyukan hasken rana, sarrafa ruwa, ayyukan masana'antu Indiya, fayil ɗin ayyuka"
+    },
     "portfolioDescription": "Bincika iyawarmu na injiniya ta hanyar ayyukan nunin da ke nuna sabbin mafita a masana'antu. Fayil ɗin aiki na gaskiya yana zuwa nan ba da jimawa ba.",
     "featured": "Featured",
     "keyFeatures": "Mahimman Siffofi:",
@@ -469,7 +480,8 @@
   "products": {
     "seo": {
       "title": "Kayayyakin Masana'antu da Kayan Aikin Sarrafa Kai - Injiniya na Powerton",
-      "description": "Cikakken kewayon kayayyakin sarrafa masana'antu, kayan lantarki, kayan aiki, tsarin hasken rana, famfo, da kayan aiki. Kayan aiki masu inganci don aikace-aikacen masana'antu."
+      "description": "Cikakken kewayon kayayyakin sarrafa masana'antu, kayan lantarki, kayan aiki, tsarin hasken rana, famfo, da kayan aiki. Kayan aiki masu inganci don aikace-aikacen masana'antu.",
+      "keywords": "kayayyakin masana'antu, kayan aikin sarrafa kansa, kayan lantarki, kayayyakin aiki, panel ɗin hasken rana, famfunan masana'antu, kayan auna, kayan aikin tsaro"
     },
     "sections": {
       "industrialProducts": "Rukunin Kayayyakin Masana'antu",
@@ -516,9 +528,13 @@
     }
   },
   "services": {
+    "relatedServices": {
+      "description": "Bincika sauran sabis ɗinmu na ƙwararru waɗanda suka dace da"
+    },
     "seo": {
       "title": "Sabis na Injiniya na Ƙwararru - Shigarwa, Kulawa & Sarrafa Kai | Injiniya na Powerton",
-      "description": "Sabis na injiniya na ƙwararru: Shirye-shiryen PLC, tsarin SCADA, sarrafa masana'antu, shigar da panel na lantarki, kulawa, daidaitawa, mafita na al'ada, da sabis na EPC na hasken rana a duk faɗin China."
+      "description": "Sabis na injiniya na ƙwararru: Shirye-shiryen PLC, tsarin SCADA, sarrafa masana'antu, shigar da panel na lantarki, kulawa, daidaitawa, mafita na al'ada, da sabis na EPC na hasken rana a duk faɗin China.",
+      "keywords": "sabis na injiniya, sabis na sarrafa masana'antu, shirye-shiryen PLC, aiwatar da SCADA, shigar da panel na lantarki, sabis na kulawa, sabis na daidaitawa, hanyoyin sarrafa kansa na al'ada, ɗan kwangilar EPC na hasken rana, tallafin fasaha Indiya"
     },
     "hero": {
       "title": "Sabis na Injiniya na Ƙwararru",
@@ -772,6 +788,11 @@
     }
   },
   "gallery": {
+    "seo": {
+      "title": "Hotuna - Ayyukan Injiniya na Powerton, Kayayyaki & Ƙungiya",
+      "description": "Bincika hotunan Injiniya na Powerton da ke nuna ƙungiyarmu, ayyukan sarrafa masana'antu da aka kammala, da cikakken kewayon samfuranmu. Gina amana ta hanyar nuna gaskiya.",
+      "keywords": "hotunan injiniya na powerton, hotunan ayyukan masana'antu, ayyukan sarrafa kansa, ƙungiyar injiniyan lantarki, nunin samfura, kayayyakin aikin kamfani"
+    },
     "hero": {
       "title": "Hotonmu",
       "subtitle": "Gano tafiyarmu ta hanyar hotuna - daga ƙungiyarmu mai sadaukarwa da kayayyaki na zamani zuwa ayyuka masu nasara da cikakken kewayon samfuranmu."
@@ -1032,6 +1053,9 @@
     "featuredProjects": "Ayyuka Masu Fitowa"
   },
   "sitemap": {
+    "seo": {
+      "keywords": "taswirar shafi, kewayawa ta gidan yanar gizo, injiniya na powerton, sarrafa masana'antu, injiniyan lantarki, kayayyaki, ayyuka, ayyuka, tsarin shafi"
+    },
     "quickActions": {
       "title": "Kuna Bukatar Taimako Wajen Neman Wani Abu?",
       "description": "Ba za a iya samun abin da kuke nema ba? Tuntuɓe mu kai tsaye ko amfani da chatbot ɗinmu mai hankali wanda ke akwai a kowane shafi.",
@@ -1112,64 +1136,6 @@
         "description": "Tsarin SCADA na ci gaba don sa ido na ainihi, samun bayanai, da sarrafa tsari. Cikakkun hanyoyin SCADA tare da haɗin HMI da iyawar samun dama ta nesa.",
         "keywords": "tsarin SCADA, kula da kulawa, samun bayanai, sa ido kan masana'antu, sarrafa tsari, haɗin HMI, sa ido na nesa, software na SCADA"
       }
-    }
-  },
-  "gallery": {
-    "seo": {
-      "title": "Hotuna - Ayyukan Injiniya na Powerton, Kayayyaki & Ƙungiya",
-      "description": "Bincika hotunan Injiniya na Powerton da ke nuna ƙungiyarmu, ayyukan sarrafa masana'antu da aka kammala, da cikakken kewayon samfuranmu. Gina amana ta hanyar nuna gaskiya.",
-      "keywords": "hotunan injiniya na powerton, hotunan ayyukan masana'antu, ayyukan sarrafa kansa, ƙungiyar injiniyan lantarki, nunin samfura, kayayyakin aikin kamfani"
-    }
-  },
-  "news": {
-    "seo": {
-      "title": "Labarai & Sabuntawa - Labaran Kamfani, Nasarori & Manufofin Gaba | Injiniya na Powerton",
-      "description": "Kasance cikin sabbin labarai, nasarori, lambobin yabo, ayyukan da ke tafe, da manufofin gaba na Injiniya na Powerton. Jagorancin tafiyar kamfanin sarrafa masana'antu zuwa ga ƙwarewa.",
-      "keywords": "labaran kamfani, labaran injiniya, sabuntawar masana'antar sarrafa kansa, nasarorin powerton, lambobin yabo na sarrafa masana'antu, ƙwarewar injiniya, manyan nasarorin kamfani"
-    },
-    "upcomingProjects": {
-      "description": "Ayyuka masu kayatarwa a sararin sama waɗanda ke nuna jajircewarmu ga ƙirƙira da ƙwarewa."
-    }
-  },
-  "products": {
-    "seo": {
-      "keywords": "kayayyakin masana'antu, kayan aikin sarrafa kansa, kayan lantarki, kayayyakin aiki, panel ɗin hasken rana, famfunan masana'antu, kayan auna, kayan aikin tsaro"
-    }
-  },
-  "projects": {
-    "seo": {
-      "title": "Ayyukan Injiniya & Fayil - Shari'o'in Sarrafa Masana'antu | Injiniya na Powerton",
-      "description": "Bincika iyawarmu na injiniya ta hanyar ayyukan nunin da ke nuna sarrafa masana'antu, tsarin wutar lantarki, hanyoyin samar da hasken rana, da ƙwarewar sarrafa tsari. Ayyukan da aka nuna suna haskaka mahimman ƙwarewarmu.",
-      "keywords": "ayyukan injiniya, ayyukan sarrafa kansa, sarrafa tashar wutar lantarki, sarrafa masana'antu, ayyukan hasken rana, sarrafa ruwa, ayyukan masana'antu Indiya, fayil ɗin ayyuka"
-    }
-  },
-  "services": {
-    "seo": {
-      "keywords": "sabis na injiniya, sabis na sarrafa masana'antu, shirye-shiryen PLC, aiwatar da SCADA, shigar da panel na lantarki, sabis na kulawa, sabis na daidaitawa, hanyoyin sarrafa kansa na al'ada, ɗan kwangilar EPC na hasken rana, tallafin fasaha Indiya"
-    },
-    "relatedServices": {
-      "description": "Bincika sauran sabis ɗinmu na ƙwararru waɗanda suka dace da"
-    }
-  },
-  "sitemap": {
-    "seo": {
-      "keywords": "taswirar shafi, kewayawa ta gidan yanar gizo, injiniya na powerton, sarrafa masana'antu, injiniyan lantarki, kayayyaki, ayyuka, ayyuka, tsarin shafi"
-    }
-  },
-  "contact": {
-    "whatsapp": {
-      "defaultMessage": "Sannu! Ina sha'awar kayayyakin ku da ayyukan ku."
-    }
-  },
-  "quote": {
-    "calculator": {
-      "title": "Kalkuleta Mai Tsada Mai Ci Gaba",
-      "description": "Muna kan kammala kayan aikinmu na kimanta farashi mai wayo. Wannan fasalin zai ba da nan take, daidaitaccen farashi don ayyukan sarrafa kansa.",
-      "launchingSoon": "Ana Gabatarwa Nan Ba da Jimawa ba",
-      "useQuoteForm": "Don ƙididdiga nan take, da fatan za a yi amfani da fom ɗinmu na ƙididdiga mai cikakken bayani",
-      "getQuoteNow": "Samu Ƙididdiga Yanzu",
-      "projectTitle": "Kalkuleta Farashin Aiki",
-      "stepOf": "Mataki {{current}} na {{total}}"
     }
   }
 }
