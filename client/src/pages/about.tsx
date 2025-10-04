@@ -25,8 +25,7 @@ import {
   AnimatedSection,
   useScrollAnimations,
 } from "@/hooks/use-scroll-animation";
-// Company facility image from Google
-const industryFacilityImage = "https://lh3.googleusercontent.com/p/AF1QipMdv-ooQHBKA6uJlgi4FbBJjERkT8iamCpM3Fih=s1360-w1360-h1020-rw";
+import industryFacilityImage from "@assets/generated_images/Industrial_automation_facility_interior_3c4562ec.png";
 import { Helmet } from "react-helmet-async";
 import { generateBreadcrumbData } from "@/utils/seo-enhancements";
 

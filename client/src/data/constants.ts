@@ -1171,7 +1171,7 @@ export const CLIENT_LOGOS = [
   {
     id: "procient",
     name: "Procient",
-    logo: "https://www.procient.in/img/whitelogo.png",
+    logo: "https://lh3.googleusercontent.com/p/AF1QipMdv-ooQHBKA6uJlgi4FbBJjERkT8iamCpM3Fih=s1360-w1360-h1020-rw",
     fallback: corporateClientImage,
   },
 ];
