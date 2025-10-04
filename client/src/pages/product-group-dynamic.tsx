@@ -177,16 +177,21 @@ export default function ProductGroupDynamic() {
 
   // Use the title and description from the ProductGroup (with translation support)
   const groupTitle = productGroup.titleKey
-    ? t(productGroup.titleKey, { 
-        defaultValue: productGroup.title || productGroup.key.toUpperCase().replace("-", " ") 
+    ? t(productGroup.titleKey, {
+        defaultValue:
+          productGroup.title ||
+          productGroup.key.toUpperCase().replace("-", " "),
       })
-    : (productGroup.title || productGroup.key.toUpperCase().replace("-", " "));
-    
+    : productGroup.title || productGroup.key.toUpperCase().replace("-", " ");
+
   const groupDescription = productGroup.descriptionKey
-    ? t(productGroup.descriptionKey, { 
-        defaultValue: productGroup.description || "High-quality products for industrial automation applications." 
+    ? t(productGroup.descriptionKey, {
+        defaultValue:
+          productGroup.description ||
+          "High-quality products for industrial automation applications.",
       })
-    : (productGroup.description || "High-quality products for industrial automation applications.");
+    : productGroup.description ||
+      "High-quality products for industrial automation applications.";
 
   return (
     <>
@@ -205,7 +210,7 @@ export default function ProductGroupDynamic() {
             backgroundImage: `url(${getProductImageSrc(productGroup.image)})`,
           }}
         />
-        <div className="absolute inset-0 bg-black/60"></div>
+        <div className="absolute inset-0 bg-blue-600/60 dark:bg-black/60"></div>
         <div className="relative max-w-7xl mx-auto px-4 md:px-6 lg:px-8 text-white">
           <div className="text-center">
             <Button

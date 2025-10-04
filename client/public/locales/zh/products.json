@@ -10,7 +10,7 @@
     "pumps": "泵与电机",
     "safety": "安全设备",
     "tools": "工业工具",
-    "instrumentation-components": {
+    "instrumentation-accessories": {
       "title": "仪器仪表组件",
       "description": "用于测量和控制的精密仪器仪表组件",
       "features": {
@@ -21,7 +21,7 @@
         "analyzers": "分析仪"
       }
     },
-    "electrical-components": {
+    "electrical-accessories": {
       "title": "电气元件",
       "description": "适用于工业应用的全面电气元件解决方案",
       "features": {
@@ -176,7 +176,8 @@
       "features": ["Cat5e/Cat6 标准", "光纤选项", "工业级", "电磁屏蔽"]
     }
   },
-  "circuitBreakers": {"schneiderM9r31240": {
+  "circuitBreakers": {
+    "schneiderM9r31240": {
       "title": "施耐德电气 M9R31240 RCCB",
       "description": "用于电气安全保护的4极剩余电流断路器",
       "features": [
@@ -857,203 +858,204 @@
         "motorDrivesVfds": {
           "title": "电机驱动器和变频器",
           "description": "变频驱动器和电机控制系统"
+        },
+        "sections": {
+          "controlSystemSolutions": "控制系统解决方案",
+          "keyFeatures": "主要特点："
+        },
+        "cta": {
+          "needAutomationSolutions": "需要自动化解决方案吗？",
+          "engineersDescription": "我们的自动化工程师可以为您的工厂设计和实施全面的控制系统。",
+          "contactAutomationExperts": "联系自动化专家",
+          "requestQuote": "询价"
+        }
       },
-      "sections": {
-        "controlSystemSolutions": "控制系统解决方案",
-        "keyFeatures": "主要特点："
+      "bldcCeilingFan": {
+        "title": "BLDC 吊扇",
+        "subtitle": "具有智能功能和卓越性能的节能无刷直流吊扇",
+        "upgradeTitle": "升级到 BLDC 吊扇？",
+        "upgradeDescription": "我们的 BLDC 专家可以帮助您为您的空间选择节能吊扇解决方案。",
+        "contactExperts": "联系 BLDC 专家"
       },
-      "cta": {
-        "needAutomationSolutions": "需要自动化解决方案吗？",
-        "engineersDescription": "我们的自动化工程师可以为您的工厂设计和实施全面的控制系统。",
-        "contactAutomationExperts": "联系自动化专家",
-        "requestQuote": "询价"
+      "bldcCoolerExhaust": {
+        "title": "BLDC 冷风机和排气电机",
+        "subtitle": "用于冷却、通风和排气应用的高能效 BLDC 电机"
+      },
+      "bldcSubmersible": {
+        "title": "BLDC 潜水泵和地面泵",
+        "subtitle": "用于供水、灌溉和太阳能应用的高能效 BLDC 泵"
+      },
+      "bldcTableWall": {
+        "title": "BLDC 台扇和壁扇电机",
+        "subtitle": "用于台扇、壁扇和落地扇的节能 BLDC 电机"
+      },
+      "bldc": {
+        "title": "BLDC 产品",
+        "subtitle": "用于节能冷却、通风和泵送应用的无刷直流电机产品"
+      },
+      "cables": {
+        "title": "电缆和电线",
+        "subtitle": "用于电源和控制应用的工业电缆和布线解决方案"
+      },
+      "calibration": {
+        "title": "校准设备",
+        "subtitle": "精密校准仪器和测试设备"
+      },
+      "centrifugalPumps": {
+        "title": "离心泵",
+        "subtitle": "用于工业应用的高效离心泵"
+      },
+      "circuitBreakers": {
+        "title": "断路器和熔断器",
+        "subtitle": "用于电路安全的电气保护设备"
+      },
+      "connectors": {
+        "title": "连接器和端子",
+        "subtitle": "电气连接器和端子解决方案"
+      },
+      "controllers": {
+        "title": "控制器",
+        "subtitle": "工业控制系统和自动化控制器"
+      },
+      "dcs": {
+        "title": "DCS（分布式控制系统）",
+        "subtitle": "用于过程工业的先进分布式控制系统"
+      },
+      "diaphragmPumps": {
+        "title": "隔膜泵",
+        "subtitle": "用于液压和工业应用的精密齿轮泵"
+      },
+      "electricalComponents": {
+        "title": "电气元件",
+        "subtitle": "用于工业应用的完整电气元件解决方案"
+      },
+      "enclosures": {
+        "title": "外壳和机柜",
+        "subtitle": "电气外壳和控制柜解决方案"
+      },
+      "gearPumps": {
+        "title": "齿轮泵",
+        "subtitle": "用于液压和工业应用的精密齿轮泵"
+      },
+      "grounding": {
+        "title": "接地系统",
+        "subtitle": "用于安全的电气接地和接地解决方案"
+      },
+      "heating": {
+        "title": "加热元件和电器",
+        "subtitle": "工业加热解决方案和热力设备"
+      },
+      "hmi": {
+        "title": "HMI（人机界面）",
+        "subtitle": "用于工业自动化的交互式操作界面"
+      },
+      "industrialTools": {
+        "title": "工业工具",
+        "subtitle": "重型工业工具和起重设备"
+      },
+      "instrumentation": {
+        "title": "仪器仪表组件",
+        "subtitle": "精密仪器仪表和测量组件"
+      },
+      "intrinsicallySafe": {
+        "title": "本质安全设备",
+        "subtitle": "用于危险区域应用的认证设备"
+      },
+      "lifting": {
+        "title": "起重设备",
+        "subtitle": "工业起重和物料搬运解决方案"
+      },
+      "measurement": {
+        "title": "测量仪器",
+        "subtitle": "精密测量和测试仪器"
+      },
+      "mechanical": {
+        "title": "机械泵和备件",
+        "subtitle": "用于工业应用的机械泵和备件"
+      },
+      "multimeters": {
+        "title": "万用表",
+        "subtitle": "用于电气测试的数字和模拟万用表"
+      },
+      "oscilloscopes": {
+        "title": "示波器",
+        "subtitle": "用于信号分析和测试的数字示波器"
+      },
+      "plcs": {
+        "title": "PLC（可编程逻辑控制器）",
+        "subtitle": "用于自动化的工业可编程逻辑控制器"
+      },
+      "powerQuality": {
+        "title": "电能质量分析仪",
+        "subtitle": "电能质量测量和分析仪器"
+      },
+      "powerSupplies": {
+        "title": "电源",
+        "subtitle": "工业电源单元和转换器"
+      },
+      "pumpParts": {
+        "title": "泵零件和备件",
+        "subtitle": "泵系统的更换零件和组件"
+      },
+      "safetyEquipment": {
+        "title": "安全设备",
+        "subtitle": "个人防护设备和安全设备"
+      },
+      "safetyProtective": {
+        "title": "安全和防护设备",
+        "subtitle": "工业安全系统和防护设备",
+        "description": "全面的安全和防护设备，以确保工业环境中人员和设备的安全",
+        "sectionsTitle": "安全解决方案",
+        "cta": {
+          "title": "在您的运营中优先考虑安全？",
+          "description": "我们的安全工程师可以评估您的设施并推荐全面的保护解决方案。",
+          "contactButton": "联系安全专家"
+        }
+      },
+      "safetyRelays": {
+        "title": "安全继电器和开关",
+        "subtitle": "安全控制继电器和紧急停止系统"
+      },
+      "scada": {
+        "title": "SCADA 系统",
+        "subtitle": "监控和数据采集系统"
+      },
+      "sensors": {
+        "title": "传感器",
+        "subtitle": "用于测量和控制的工业传感器"
+      },
+      "signalConditioners": {
+        "title": "信号调理器",
+        "subtitle": "信号处理和调理设备"
+      },
+      "solarBatteries": {
+        "title": "太阳能电池和储能",
+        "subtitle": "太阳能系统的储能解决方案"
+      },
+      "solarChargeControllers": {
+        "title": "太阳能充电控制器",
+        "subtitle": "太阳能充电控制器和电源管理"
+      },
+      "solarInverters": {
+        "title": "太阳能逆  �器",
+        "subtitle": "太阳能逆变器和并网系统"
+      },
+      "solarPanels": {
+        "title": "太阳能板",
+        "subtitle": "高效太阳能电池板和光伏系统"
+      },
+      "solarProducts": {
+        "title": "太阳能产品",
+        "subtitle": "完整的太阳能解决方案和组件"
+      },
+      "surgeProtectors": {
+        "title": "浪涌保护器",
+        "subtitle": "电气浪涌保护装置和系统"
+      },
+      "switches": {
+        "title": "开关",
+        "subtitle": "工业开关和控制设备"
       }
-    },
-    "bldcCeilingFan": {
-      "title": "BLDC 吊扇",
-      "subtitle": "具有智能功能和卓越性能的节能无刷直流吊扇",
-      "upgradeTitle": "升级到 BLDC 吊扇？",
-      "upgradeDescription": "我们的 BLDC 专家可以帮助您为您的空间选择节能吊扇解决方案。",
-      "contactExperts": "联系 BLDC 专家"
-    },
-    "bldcCoolerExhaust": {
-      "title": "BLDC 冷风机和排气电机",
-      "subtitle": "用于冷却、通风和排气应用的高能效 BLDC 电机"
-    },
-    "bldcSubmersible": {
-      "title": "BLDC 潜水泵和地面泵",
-      "subtitle": "用于供水、灌溉和太阳能应用的高能效 BLDC 泵"
-    },
-    "bldcTableWall": {
-      "title": "BLDC 台扇和壁扇电机",
-      "subtitle": "用于台扇、壁扇和落地扇的节能 BLDC 电机"
-    },
-    "bldc": {
-      "title": "BLDC 产品",
-      "subtitle": "用于节能冷却、通风和泵送应用的无刷直流电机产品"
-    },
-    "cables": {
-      "title": "电缆和电线",
-      "subtitle": "用于电源和控制应用的工业电缆和布线解决方案"
-    },
-    "calibration": {
-      "title": "校准设备",
-      "subtitle": "精密校准仪器和测试设备"
-    },
-    "centrifugalPumps": {
-      "title": "离心泵",
-      "subtitle": "用于工业应用的高效离心泵"
-    },
-    "circuitBreakers": {
-      "title": "断路器和熔断器",
-      "subtitle": "用于电路安全的电气保护设备"
-    },
-    "connectors": {
-      "title": "连接器和端子",
-      "subtitle": "电气连接器和端子解决方案"
-    },
-    "controllers": {
-      "title": "控制器",
-      "subtitle": "工业控制系统和自动化控制器"
-    },
-    "dcs": {
-      "title": "DCS（分布式控制系统）",
-      "subtitle": "用于过程工业的先进分布式控制系统"
-    },
-    "diaphragmPumps": {
-      "title": "隔膜泵",
-      "subtitle": "用于液压和工业应用的精密齿轮泵"
-    },
-    "electricalComponents": {
-      "title": "电气元件",
-      "subtitle": "用于工业应用的完整电气元件解决方案"
-    },
-    "enclosures": {
-      "title": "外壳和机柜",
-      "subtitle": "电气外壳和控制柜解决方案"
-    },
-    "gearPumps": {
-      "title": "齿轮泵",
-      "subtitle": "用于液压和工业应用的精密齿轮泵"
-    },
-    "grounding": {
-      "title": "接地系统",
-      "subtitle": "用于安全的电气接地和接地解决方案"
-    },
-    "heating": {
-      "title": "加热元件和电器",
-      "subtitle": "工业加热解决方案和热力设备"
-    },
-    "hmi": {
-      "title": "HMI（人机界面）",
-      "subtitle": "用于工业自动化的交互式操作界面"
-    },
-    "industrialTools": {
-      "title": "工业工具",
-      "subtitle": "重型工业工具和起重设备"
-    },
-    "instrumentation": {
-      "title": "仪器仪表组件",
-      "subtitle": "精密仪器仪表和测量组件"
-    },
-    "intrinsicallySafe": {
-      "title": "本质安全设备",
-      "subtitle": "用于危险区域应用的认证设备"
-    },
-    "lifting": {
-      "title": "起重设备",
-      "subtitle": "工业起重和物料搬运解决方案"
-    },
-    "measurement": {
-      "title": "测量仪器",
-      "subtitle": "精密测量和测试仪器"
-    },
-    "mechanical": {
-      "title": "机械泵和备件",
-      "subtitle": "用于工业应用的机械泵和备件"
-    },
-    "multimeters": {
-      "title": "万用表",
-      "subtitle": "用于电气测试的数字和模拟万用表"
-    },
-    "oscilloscopes": {
-      "title": "示波器",
-      "subtitle": "用于信号分析和测试的数字示波器"
-    },
-    "plcs": {
-      "title": "PLC（可编程逻辑控制器）",
-      "subtitle": "用于自动化的工业可编程逻辑控制器"
-    },
-    "powerQuality": {
-      "title": "电能质量分析仪",
-      "subtitle": "电能质量测量和分析仪器"
-    },
-    "powerSupplies": {
-      "title": "电源",
-      "subtitle": "工业电源单元和转换器"
-    },
-    "pumpParts": {
-      "title": "泵零件和备件",
-      "subtitle": "泵系统的更换零件和组件"
-    },
-    "safetyEquipment": {
-      "title": "安全设备",
-      "subtitle": "个人防护设备和安全设备"
-    },
-    "safetyProtective": {
-      "title": "安全和防护设备",
-      "subtitle": "工业安全系统和防护设备",
-      "description": "全面的安全和防护设备，以确保工业环境中人员和设备的安全",
-      "sectionsTitle": "安全解决方案",
-      "cta": {
-        "title": "在您的运营中优先考虑安全？",
-        "description": "我们的安全工程师可以评估您的设施并推荐全面的保护解决方案。",
-        "contactButton": "联系安全专家"
-      }
-    },
-    "safetyRelays": {
-      "title": "安全继电器和开关",
-      "subtitle": "安全控制继电器和紧急停止系统"
-    },
-    "scada": {
-      "title": "SCADA 系统",
-      "subtitle": "监控和数据采集系统"
-    },
-    "sensors": {
-      "title": "传感器",
-      "subtitle": "用于测量和控制的工业传感器"
-    },
-    "signalConditioners": {
-      "title": "信号调理器",
-      "subtitle": "信号处理和调理设备"
-    },
-    "solarBatteries": {
-      "title": "太阳能电池和储能",
-      "subtitle": "太阳能系统的储能解决方案"
-    },
-    "solarChargeControllers": {
-      "title": "太阳能充电控制器",
-      "subtitle": "太阳能充电控制器和电源管理"
-    },
-    "solarInverters": {
-      "title": "太阳能逆  �器",
-      "subtitle": "太阳能逆变器和并网系统"
-    },
-    "solarPanels": {
-      "title": "太阳能板",
-      "subtitle": "高效太阳能电池板和光伏系统"
-    },
-    "solarProducts": {
-      "title": "太阳能产品",
-      "subtitle": "完整的太阳能解决方案和组件"
-    },
-    "surgeProtectors": {
-      "title": "浪涌保护器",
-      "subtitle": "电气浪涌保护装置和系统"
-    },
-    "switches": {
-      "title": "开关",
-      "subtitle": "工业开关和控制设备"
     }
   },
   "common": {

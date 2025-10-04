@@ -120,45 +120,58 @@
         "安装后支持和保修"
       ],
       "technologies": ["系统安装", "调试", "测试", "认证", "文档"],
-      "industries": ["制造业", "发电", "石油和天然气", "化学品", "水处理"]
+      "industries": [
+        "制药",
+        "化学工业",
+        "食品加工",
+        "核能",
+        "重工业",
+        "制造工厂",
+        "化学处理",
+        "发电",
+        "过程工业",
+        "发电",
+        "石油和天然气",
+        "水处理"
+      ]
     },
     "calibrationTesting": {
-      "overview": "National Accreditation Board for Testing and Calibration Laboratories-certified precision calibration and testing services for pressure, temperature, flow instruments, and control systems, combined with comprehensive preventive and emergency maintenance services for electrical systems and industrial automation equipment designed to minimize downtime and ensure operational efficiency.",
+      "overview": "国家测试与校准实验室认证委员会认证的压力、温度、流量仪器和控制系统的精确校准和测试服务，以及电气系统和工业自动化设备的全面预防性和紧急维护服务，旨在最大限度地减少停机时间并确保运营效率。",
       "benefits": [
-        "National Accreditation Board for Testing and Calibration Laboratories certified calibration services",
-        "High accuracy testing to ±0.25%",
-        "Compliance verification with international standards",
-        "Full traceability certificates and documentation",
-        "Regular calibration programs and monitoring",
-        "Preventive maintenance programs that prevent failures",
-        "Immediate response for emergency repairs",
-        "Component replacement and system upgrades",
-        "Planned maintenance to minimize downtime",
-        "Comprehensive system diagnostics and reporting"
+        "国家测试与校准实验室认证委员会认证的校准服务",
+        "高达 ±0.25% 的高精度测试",
+        "符合国际标准的合规性验证",
+        "完整的可追溯性证书和文档",
+        "定期校准计划和监控",
+        "防止故障的预防性维护计划",
+        "紧急维修的即时响应",
+        "组件更换和系统升级",
+        "最大限度地减少停机时间的计划维护",
+        "全面的系统诊断和报告"
       ],
       "technologies": [
-        "Precision calibration",
-        "Measurement testing",
-        "Compliance verification",
-        "Traceability",
-        "Quality assurance",
-        "Preventive maintenance",
-        "Emergency repair",
-        "Component replacement",
-        "System upgrades",
-        "Diagnostic testing"
+        "精密校准",
+        "测量测试",
+        "合规性验证",
+        "可追溯性",
+        "质量保证",
+        "预防性维护",
+        "紧急维修",
+        "组件更换",
+        "系统升级",
+        "诊断测试"
       ],
       "industries": [
-        "Pharmaceutical",
-        "Chemical industry",
-        "Oil and gas",
-        "Food processing",
-        "Nuclear energy",
-        "Heavy industry",
-        "Manufacturing plants",
-        "Chemical processing",
-        "Power generation",
-        "Process industries"
+        "制药",
+        "化学工业",
+        "石油和天然气",
+        "食品加工",
+        "核能",
+        "重工业",
+        "制造工厂",
+        "化学处理",
+        "发电",
+        "过程工业"
       ]
     },
     "customSolutions": {

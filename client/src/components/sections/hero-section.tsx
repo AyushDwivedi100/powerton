@@ -80,7 +80,7 @@ export default function HeroSection() {
       ></div>
 
       {/* Theme-aware overlay */}
-      <div className="absolute inset-0 bg-blue-600/30 dark:bg-black/60"></div>
+      <div className="absolute inset-0 bg-blue-600/60 dark:bg-black/60"></div>
 
       <div className="relative max-w-7xl mx-auto px-3 sm:px-4 md:px-6 lg:px-8 py-8 sm:py-12 md:py-16 lg:py-20 xl:py-32">
         <motion.div

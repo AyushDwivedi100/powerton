@@ -31,7 +31,10 @@ import {
 import { Badge } from "@/components/ui/badge";
 import { ArrowLeft } from "lucide-react";
 import { getCategoryBySlug } from "@/data/products-category-page";
-import { getProductSubCategoryBySlug, getSubcategorySlugById } from "@/data/products-sub-category-pages-data";
+import {
+  getProductSubCategoryBySlug,
+  getSubcategorySlugById,
+} from "@/data/products-sub-category-pages-data";
 import { useTranslation } from "react-i18next";
 
 // Animation variants
@@ -165,7 +168,7 @@ const ProductCategoryDynamic: React.FC = () => {
   }
 
   return (
-    <div className="min-h-screen bg-background">
+    <div className="min-h-screen bg-background text-white">
       {/* Hero Section */}
       <section
         ref={heroRef}
@@ -177,7 +180,7 @@ const ProductCategoryDynamic: React.FC = () => {
             backgroundImage: `url(${categoryData.backgroundImage})`,
           }}
         />
-        <div className="absolute inset-0 bg-blue-600/30 dark:bg-black/60" />
+        <div className="absolute inset-0 bg-blue-600/60 dark:bg-black/60" />
 
         <motion.div
           initial={{ opacity: 0, y: 50 }}
@@ -269,9 +272,13 @@ const ProductCategoryDynamic: React.FC = () => {
           {categoryData.subcategories.map((subcategory, index) => {
             const IconComponent = subcategory.icon;
             // Get parent category slug from subcategory data
-            const subcategorySlug = getSubcategorySlugById(subcategory.id) || subcategory.id;
-            const subcategoryData = getProductSubCategoryBySlug(subcategorySlug);
-            const parentCategorySlug = subcategoryData?.parentCategory.split('/').pop() || categoryData.slug;
+            const subcategorySlug =
+              getSubcategorySlugById(subcategory.id) || subcategory.id;
+            const subcategoryData =
+              getProductSubCategoryBySlug(subcategorySlug);
+            const parentCategorySlug =
+              subcategoryData?.parentCategory.split("/").pop() ||
+              categoryData.slug;
             return (
               <Link
                 key={subcategory.id}
@@ -294,7 +301,7 @@ const ProductCategoryDynamic: React.FC = () => {
                       >
                         <IconComponent className="w-8 h-8 text-primary group-hover:scale-110 transition-transform duration-300" />
                       </motion.div>
-                      <CardTitle className="text-xl font-semibold text-foreground group-hover:text-secondary transition-colors text-center">
+                      <CardTitle className="text-xl font-semibold text-foreground group-hover:text-primary dark:group-hover:text-secondary transition-colors text-center">
                         {subcategory.title}
                       </CardTitle>
                       <CardDescription className="text-muted-foreground text-center">
@@ -304,7 +311,7 @@ const ProductCategoryDynamic: React.FC = () => {
                     <CardContent>
                       <div className="space-y-2">
                         <h4 className="font-medium text-sm text-foreground mb-3 group-hover:text-secondary">
-                          Key Features:
+                          {t("common:common.keyFeatures")}:
                         </h4>
                         <ul className="space-y-1">
                           {subcategory.features.map((feature, featureIndex) => (

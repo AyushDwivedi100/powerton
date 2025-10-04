@@ -136,7 +136,7 @@ export default function About() {
       suffix: "+",
       label: t("common:company.stats.projectsCompleted"),
     },
-    { number: 25, suffix: "+", label: t("common:company.stats.clientsServed") },
+    { number: 45, suffix: "+", label: t("common:company.stats.clientsServed") },
     {
       number: 15,
       suffix: "+",
@@ -152,7 +152,7 @@ export default function About() {
   // Generate breadcrumb schema
   const breadcrumbItems = [
     { name: "Home", url: "/" },
-    { name: "About Us", url: "/about" }
+    { name: "About Us", url: "/about" },
   ];
   const breadcrumbSchema = generateBreadcrumbData(breadcrumbItems);
 
@@ -180,7 +180,7 @@ export default function About() {
             })`,
           }}
         ></div>
-        <div className="absolute inset-0 bg-blue-600/30 dark:bg-black/60"></div>
+        <div className="absolute inset-0 bg-blue-600/60 dark:bg-black/60"></div>
         <div className="relative max-w-7xl mx-auto px-4 md:px-6 lg:px-8 text-white">
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4 sm:mb-6 text-wrap-safe responsive-text">
@@ -237,7 +237,7 @@ export default function About() {
                   src={industryFacilityImage}
                   alt={t(
                     "common:altTexts.aboutBackground",
-                    "ID-004: Powerton Engineering industrial automation facility with modern control systems"
+                    "ID-004: Powerton Engineering industrial automation facility with modern control systems",
                   )}
                   className="rounded-xl shadow-2xl w-full"
                 />

@@ -77,7 +77,7 @@ export default function Career() {
             className="w-full h-full object-cover"
           />
         </div>
-        <div className="absolute inset-0 bg-blue-600/30 dark:bg-black/60"></div>
+        <div className="absolute inset-0 bg-blue-600/60 dark:bg-black/60"></div>
         <div className="relative max-w-7xl mx-auto px-4 md:px-6 lg:px-8 text-white">
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4 sm:mb-6 text-wrap-safe responsive-text">

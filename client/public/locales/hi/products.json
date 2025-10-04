@@ -10,7 +10,7 @@
     "pumps": "पंप और मोटर्स",
     "safety": "सुरक्षा उपकरण",
     "tools": "औद्योगिक उपकरण",
-    "instrumentation-components": {
+    "instrumentation-accessories": {
       "title": "इंस्ट्रूमेंटेशन घटक",
       "description": "माप और नियंत्रण के लिए सटीक इंस्ट्रूमेंटेशन घटक",
       "features": {
@@ -21,7 +21,7 @@
         "analyzers": "विश्लेषक"
       }
     },
-    "electrical-components": {
+    "electrical-accessories": {
       "title": "विद्युत घटक",
       "description": "औद्योगिक अनुप्रयोगों के लिए व्यापक विद्युत घटक समाधान",
       "features": {
@@ -573,7 +573,7 @@
     },
     "cutting-tools": {
       "title": "काटने के उपकरण",
-      "description": "धातु कार्य के लिए सटीक काटने के उपकरण और उपकरण"
+      "description": "धातु काb��्य के लिए सटीक काटने के उपकरण और उपकरण"
     },
     "lifting-equipment": {
       "title": "उठाने वाले उपकरण",
@@ -1584,7 +1584,7 @@
       }
     },
     "measurement": {
-      "fullDescription": "विद्युत और प्रक्रिया मापदंडों के सटीक माप और निगरानी के लिए उन्नत डिजिटल मीटर, विश्लेषक और अंशांकन उपकरण।",
+      "fullDescription": "व���द्युत और प्रक्रिया मापदंडों के सटीक माप और निगरानी के लिए उन्नत डिजिटल मीटर, विश्लेषक और अंशांकन उपकरण।",
       "specifications": {
         "accuracyClass": "सटीकता वर्ग: 0.1 से 1.0",
         "displayType": "डिस्प्ले: डिजिटल एलसीडी/एलईडी",

@@ -451,7 +451,7 @@ export default function Quote() {
             role="img"
             aria-label={getHeroImage("quote")?.alt}
           ></div>
-          <div className="absolute inset-0 bg-blue-600/30 dark:bg-black/60"></div>
+          <div className="absolute inset-0 bg-blue-600/60 dark:bg-black/60"></div>
 
           <div className="relative max-w-7xl mx-auto px-4 md:px-6 lg:px-8 text-white">
             <div className="text-center max-w-4xl mx-auto">
