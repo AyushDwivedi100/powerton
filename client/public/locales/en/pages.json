@@ -57,6 +57,47 @@
       "allNews": "All News",
       "allCategories": "All Categories",
       "upcomingProjects": "Upcoming Projects"
+    },
+    "projectStatuses": {
+      "planningPhase": "Planning Phase",
+      "contractSigned": "Contract Signed",
+      "engineeringPhase": "Engineering Phase",
+      "inProgress": "In Progress"
+    },
+    "upcomingProjects": {
+      "smartCity": {
+        "title": "Smart City Infrastructure Automation",
+        "client": "Noida Smart City Ltd.",
+        "description": "Complete automation infrastructure for smart city project including traffic management, waste management, and energy distribution systems.",
+        "technologies": {
+          "iot": "IoT",
+          "smartSensors": "Smart Sensors",
+          "cityManagement": "City Management Systems",
+          "energyAutomation": "Energy Automation"
+        }
+      },
+      "pharmaceutical": {
+        "title": "Pharmaceutical Manufacturing Automation",
+        "client": "Cipla Limited",
+        "description": "Advanced automation for pharmaceutical manufacturing processes with compliance to international standards and quality control systems.",
+        "technologies": {
+          "gmpCompliance": "GMP Compliance",
+          "batchProcessing": "Batch Processing",
+          "qualityControl": "Quality Control",
+          "traceabilitySystems": "Traceability Systems"
+        }
+      },
+      "solarFarm": {
+        "title": "Solar Farm Automation and Monitoring",
+        "client": "Adani Green Energy",
+        "description": "Comprehensive automation solution for 200MW solar farm including tracking systems, weather monitoring, and grid integration.",
+        "technologies": {
+          "solarTracking": "Solar Tracking",
+          "weatherSystems": "Weather Systems",
+          "gridIntegration": "Grid Integration",
+          "remoteMonitoring": "Remote Monitoring"
+        }
+      }
     }
   },
   "home": {

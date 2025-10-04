@@ -31,53 +31,51 @@ import { getHeroImage } from "@/assets/images";
 
 // Company news and updates data - moved inside component
 
-const UPCOMING_PROJECTS = [
+// Move inside component to use translation function
+const getUpcomingProjects = (t: any) => [
   {
     id: 1,
-    title: "Smart City Infrastructure Automation",
-    client: "Noida Smart City Ltd.",
+    title: t("pages:news.upcomingProjects.smartCity.title"),
+    client: t("pages:news.upcomingProjects.smartCity.client"),
     value: "₹12 Crores",
     timeline: "Q1 2025 - Q4 2025",
-    description:
-      "Complete automation infrastructure for smart city project including traffic management, waste management, and energy distribution systems.",
-    status: "Planning Phase",
+    description: t("pages:news.upcomingProjects.smartCity.description"),
+    status: t("pages:news.projectStatuses.planningPhase"),
     technologies: [
-      "IoT",
-      "Smart Sensors",
-      "City Management Systems",
-      "Energy Automation",
+      t("pages:news.upcomingProjects.smartCity.technologies.iot"),
+      t("pages:news.upcomingProjects.smartCity.technologies.smartSensors"),
+      t("pages:news.upcomingProjects.smartCity.technologies.cityManagement"),
+      t("pages:news.upcomingProjects.smartCity.technologies.energyAutomation"),
     ],
   },
   {
     id: 2,
-    title: "Pharmaceutical Manufacturing Automation",
-    client: "Cipla Limited",
+    title: t("pages:news.upcomingProjects.pharmaceutical.title"),
+    client: t("pages:news.upcomingProjects.pharmaceutical.client"),
     value: "₹8 Crores",
     timeline: "Q2 2025 - Q3 2025",
-    description:
-      "Advanced automation for pharmaceutical manufacturing processes with compliance to international standards and quality control systems.",
-    status: "Contract Signed",
+    description: t("pages:news.upcomingProjects.pharmaceutical.description"),
+    status: t("pages:news.projectStatuses.contractSigned"),
     technologies: [
-      "GMP Compliance",
-      "Batch Processing",
-      "Quality Control",
-      "Traceability Systems",
+      t("pages:news.upcomingProjects.pharmaceutical.technologies.gmpCompliance"),
+      t("pages:news.upcomingProjects.pharmaceutical.technologies.batchProcessing"),
+      t("pages:news.upcomingProjects.pharmaceutical.technologies.qualityControl"),
+      t("pages:news.upcomingProjects.pharmaceutical.technologies.traceabilitySystems"),
     ],
   },
   {
     id: 3,
-    title: "Solar Farm Automation and Monitoring",
-    client: "Adani Green Energy",
+    title: t("pages:news.upcomingProjects.solarFarm.title"),
+    client: t("pages:news.upcomingProjects.solarFarm.client"),
     value: "₹6 Crores",
     timeline: "Q1 2025 - Q2 2025",
-    description:
-      "Comprehensive automation solution for 200MW solar farm including tracking systems, weather monitoring, and grid integration.",
-    status: "Engineering Phase",
+    description: t("pages:news.upcomingProjects.solarFarm.description"),
+    status: t("pages:news.projectStatuses.engineeringPhase"),
     technologies: [
-      "Solar Tracking",
-      "Weather Systems",
-      "Grid Integration",
-      "Remote Monitoring",
+      t("pages:news.upcomingProjects.solarFarm.technologies.solarTracking"),
+      t("pages:news.upcomingProjects.solarFarm.technologies.weatherSystems"),
+      t("pages:news.upcomingProjects.solarFarm.technologies.gridIntegration"),
+      t("pages:news.upcomingProjects.solarFarm.technologies.remoteMonitoring"),
     ],
   },
 ];
@@ -87,6 +85,9 @@ export default function News() {
   const [selectedCategory, setSelectedCategory] = useState("all");
   const [selectedTab, setSelectedTab] = useState("news");
   const heroAnimation = useScrollAnimation();
+
+  // Get translated upcoming projects
+  const UPCOMING_PROJECTS = getUpcomingProjects(t);
 
   // Move LATEST_NEWS inside component to access t function
   const LATEST_NEWS = [
