@@ -133,7 +133,7 @@
     "catalogComingSoon": "उत्पाद कैटलॉग डाउनलोड जल्द ही उपलब्ध होगा!",
     "readyToStart": "क्या आप अपनी परियोजना शुरू करने के लिए तैयार हैं?",
     "requestConsultation": "इंजीनियरिंग प्रोजेक्ट के लिए मुफ्त परामर्श का अनुरोध करें",
-    "availability" : "त्वरित सहायता के लिए 24/7 उपलब्धता",
+    "availability": "त्वरित सहायता के लिए 24/7 उपलब्धता",
     "responseTime": "प्रारंभिक परामर्श के लिए 2 दिनों के भीतर"
   },
   "aria": {
@@ -311,7 +311,7 @@
     "emergencySupport": "केवल आपातकालीन सहायता",
     "availability": "उपलब्धता",
     "coverage": "कवरेज",
-    "free" : "मुफ्त"
+    "free": "मुफ्त"
   },
   "placeholders": {
     "selectProjectType": "परियोजना का प्रकार चुनें",
@@ -704,7 +704,12 @@
       "openMobileMenu": "मोबाइल मेनू खोलें",
       "emailUs": "हमें {{email}} पर ईमेल करें",
       "openLocation": "Google Maps में कार्यालय स्थान खोलें",
-      "mainNavigation": "मुख्य नेविगेशन"
+      "mainNavigation": "मुख्य नेविगेशन",
+      "contactWhatsApp": "व्हाट्सएप पर हमसे संपर्क करें",
+      "contactJustDial": "जस्ट डायल पर हमसे संपर्क करें"
+    },
+    "messages": {
+      "whatsappGreeting": "नमस्ते! मैं आपके उत्पादों और सेवाओं में रुचि रखता हूँ।"
     },
     "altTexts": {
       "companyLogo": "पावरटन इंजीनियरिंग कंपनी का लोगो",

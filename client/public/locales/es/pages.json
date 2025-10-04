@@ -1,8 +1,8 @@
 {
   "news": {
-    "cta" : {
-      "title" : "Sea Parte de Nuestro Viaje",
-      "description" : "Únase a nosotros mientras continuamos innovando y liderando en automatización industrial. Conéctese con nosotros para asociaciones, oportunidades profesionales o colaboraciones de proyectos."
+    "cta": {
+      "title": "Sea Parte de Nuestro Viaje",
+      "description": "Únase a nosotros mientras continuamos innovando y liderando en automatización industrial. Conéctese con nosotros para asociaciones, oportunidades profesionales o colaboraciones de proyectos."
     },
     "hero": {
       "title": "Noticias",
@@ -176,6 +176,8 @@
   "backToProducts": "Volver a Productos",
   "about": {
     "seo": {
+      "title": "Acerca de Powerton Engineering - Más de 15 Años de Excelencia en Automatización Industrial",
+      "description": "Conozca la trayectoria de Powerton Engineering en automatización industrial, ingeniería eléctrica y soluciones de instrumentación. Un equipo de expertos que presta servicios a industrias en toda China desde 2008.",
       "keywords": "Acerca de Powerton Engineering, Empresa de Automatización Industrial, Empresa de Ingeniería Eléctrica, Servicios de Instrumentación, Expertos en Automatización de China"
     },
     "hero": {
@@ -185,7 +187,7 @@
     "story": {
       "title": "Nuestra Trayectoria y Visión",
       "description1": "Fundada en 2008 con la visión de empoderar a las industrias a través de la innovación y la excelencia, Powerton Engineering ha estado a la vanguardia de las soluciones de automatización industrial e ingeniería eléctrica. Nuestra trayectoria comenzó con una misión simple pero poderosa: ofrecer soluciones de ingeniería de vanguardia que impulsen el crecimiento industrial y la eficiencia operativa.",
-      "description2": "A lo largo de los años, hemos crecido de una pequeña empresa de ingeniería a un socio de confianza para las industrias en China y en todo el mundo. Nuestro equipo de ingenieros experimentados y expertos técnicos trabajan incansablemente para ofrecer soluciones que no solo cumplan sino que superen las expectativas de nuestros clientes."
+      "description2": "A lo largo de los años, hemos crecido desde una pequeña empresa de ingeniería hasta convertirnos en un socio de confianza para industrias en toda China y a nivel mundial. Nuestro equipo de ingenieros experimentados y expertos técnicos trabaja incansablemente para ofrecer soluciones que no solo cumplen, sino que superan las expectativas de nuestros clientes."
     },
     "mission": {
       "title": "Nuestra Misión",
@@ -205,15 +207,15 @@
         "description": "Mantenemos los más altos estándares en cada proyecto que entregamos"
       },
       "customer": {
-        "title": "Enfoque en el Cliente",
+        "title": "Centralización en el Cliente",
         "description": "Su éxito es nuestra prioridad: construimos asociaciones duraderas"
       },
       "innovation": {
-        "title": "Innovación",
+        "title": "Innovación y Excelencia",
         "description": "Soluciones de vanguardia utilizando las últimas tecnologías de la industria"
       },
       "reliability": {
-        "title": "Confiabilidad",
+        "title": "Confiabilidad y Confianza",
         "description": "Soluciones confiables en las que puede confiar para operaciones críticas"
       }
     },
@@ -221,17 +223,75 @@
       "engineers": "Ingenieros",
       "staff": "Personal de Apoyo",
       "experience": "Años de Experiencia",
-      "support": "Apoyo"
+      "support": "Soporte"
     },
     "certifications": {
-      "title": "Certificaciones y Estándares de Calidad",
+      "title": "Certificaciones y Estándares",
       "subtitle": "Nuestro compromiso con la calidad se valida a través de certificaciones reconocidas por la industria y estándares de cumplimiento.",
-      "iso9001": "Gestión de Calidad ISO 9001:2015",
-      "iso14001": "Gestión Ambiental ISO 14001:2015",
-      "ohsas18001": "Salud y Seguridad Ocupacional OHSAS 18001",
-      "ceMarking": "Cumplimiento del Marcado CE",
-      "ulListed": "Productos Listados por UL",
-      "cpriApproved": "Equipos Aprobados por CPRI"
+      "iso9001": "ISO 9001",
+      "iso14001": "ISO 14001",
+      "ohsas18001": "ISO 45001",
+      "ceMarking": "Marcado CE",
+      "ulListed": "Listado UL",
+      "cpriApproved": "Aprobado por CPRI"
+    },
+    "achievements": {
+      "title": "Premios y Logros",
+      "subtitle": "Reconocimiento de nuestro compromiso con la excelencia, la innovación y la calidad en la automatización industrial.",
+      "2024": {
+        "year": "2024",
+        "awards": {
+          "0": "Premio a la Excelencia en Automatización Industrial - Sociedad de Ingeniería India",
+          "1": "Mejor Innovación en Control de Procesos - Premios de Automatización India",
+          "2": "Certificación de Gestión de Calidad ISO 9001:2015",
+          "3": "Las 100 Mejores Empresas de Ingeniería - India Today"
+        }
+      },
+      "2023": {
+        "year": "2023",
+        "awards": {
+          "0": "Solución de Ingeniería Destacada - Excelencia en Fabricación CII",
+          "1": "Premio a la Excelencia en Seguridad - Consejo Nacional de Seguridad",
+          "2": "Premio a la Innovación Tecnológica - Consejo de Promoción de Exportaciones de Ingeniería",
+          "3": "Mejor PYME en el Sector de Automatización - Ministerio de PYME"
+        }
+      },
+      "2022": {
+        "year": "2022",
+        "awards": {
+          "0": "Premio a la Excelencia en Ingeniería - Federación de Cámaras Indias",
+          "1": "Premio a la Tecnología Sostenible - Consejo Empresarial Verde",
+          "2": "Reconocimiento a la Excelencia en Calidad - Oficina de Normas Indias"
+        }
+      }
+    },
+    "futureGoals": {
+      "title": "Metas y Visión Futuras",
+      "subtitle": "Nuestra hoja de ruta estratégica para convertirnos en el proveedor líder de soluciones de automatización industrial de China.",
+      "marketLeadership": {
+        "goal": "Liderazgo en el Mercado",
+        "description": "Convertirnos en el proveedor líder de soluciones de automatización en el norte de China para 2026"
+      },
+      "technologyInnovation": {
+        "goal": "Innovación Tecnológica",
+        "description": "Lanzar 5 nuevas soluciones de automatización impulsadas por IA para la Industria 4.0"
+      },
+      "geographicExpansion": {
+        "goal": "Expansión Geográfica",
+        "description": "Establecer operaciones en 3 nuevos estados en toda China"
+      },
+      "teamGrowth": {
+        "goal": "Crecimiento del Equipo",
+        "description": "Ampliar nuestro equipo de ingeniería a más de 200 profesionales"
+      },
+      "revenueMilestone": {
+        "goal": "Hito de Ingresos",
+        "description": "Alcanzar un hito de ingresos anuales de ₹100 Crores"
+      },
+      "sustainabilityFocus": {
+        "goal": "Enfoque en la Sostenibilidad",
+        "description": "Implementar operaciones neutrales en carbono y soluciones de tecnología verde"
+      }
     },
     "cta": {
       "title": "¿Listo para Comenzar Su Proyecto?",
@@ -522,9 +582,9 @@
     }
   },
   "quote": {
-    "form" : {
-      "title" : "Solicitar Cotización Personalizada",
-      "description" : "Obtenga una cotización detallada adaptada a los requisitos específicos de su proyecto de nuestros expertos en ingeniería."
+    "form": {
+      "title": "Solicitar Cotización Personalizada",
+      "description": "Obtenga una cotización detallada adaptada a los requisitos específicos de su proyecto de nuestros expertos en ingeniería."
     },
     "hero": {
       "title": "Obtenga una Cotización de Ingeniería Profesional",
@@ -537,7 +597,7 @@
       }
     },
     "benefits": {
-      "title" : "¿Por Qué Elegir Nuestro Servicio de Cotización?", 
+      "title": "¿Por Qué Elegir Nuestro Servicio de Cotización?",
       "description": "Obtenga precios precisos y asesoramiento profesional para sus proyectos de ingeniería a través de nuestro servicio de cotización integral.",
       "assessment": {
         "title": "Evaluación Detallada",
@@ -966,9 +1026,9 @@
         "description": "Trabaje en tecnologías de vanguardia y soluciones innovadoras en automatización industrial."
       }
     },
-    "whyJoinUs" : {
-      "title" : "¿Por Qué Unirse a Powerton Engineering?",
-      "description" : "Sea parte de un equipo dinámico que está dando forma al futuro de la automatización industrial y la ingeniería eléctrica"
+    "whyJoinUs": {
+      "title": "¿Por Qué Unirse a Powerton Engineering?",
+      "description": "Sea parte de un equipo dinámico que está dando forma al futuro de la automatización industrial y la ingeniería eléctrica"
     }
   },
   "seo": {

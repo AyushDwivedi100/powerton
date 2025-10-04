@@ -133,7 +133,7 @@
     "catalogComingSoon": "Sauke katalogi na samfur zai kasance da sauri!",
     "readyToStart": "Shin kun yi fara aikinku?",
     "requestConsultation": "Nemi shawarwari kyauta don aikin injiniya",
-    "availability" : "Samun 24/7 don tallafi cikin sauri",
+    "availability": "Samun 24/7 don tallafi cikin sauri",
     "responseTime": "Cikin kwanaki 2 don shawara ta farko"
   },
   "aria": {
@@ -311,7 +311,7 @@
     "emergencySupport": "Tallafin Gaggawa Kawai",
     "availability": "Samun",
     "coverage": "Kasuwanci",
-    "free" : "Kasuwanci"
+    "free": "Kasuwanci"
   },
   "placeholders": {
     "selectProjectType": "Zaɓi nau'in aikin",
@@ -706,7 +706,12 @@
       "openMobileMenu": "Buɗe menu na wayar hannu",
       "emailUs": "Aika mana imel a {{email}}",
       "openLocation": "Duba wurin ofishinmu a Google Maps",
-      "mainNavigation": "Babban kewayawa"
+      "mainNavigation": "Babban kewayawa",
+      "contactWhatsApp": "Tuntuɓe mu a WhatsApp",
+      "contactJustDial": "Tuntuɓe mu a Just Dial"
+    },
+    "messages": {
+      "whatsappGreeting": "Sannu! Ina sha'awar samfuran ku da ayyukan ku."
     },
     "altTexts": {
       "companyLogo": "Alamar Kamfanin Powerton Engineering",

@@ -704,7 +704,12 @@
       "openMobileMenu": "فتح قائمة الجوال",
       "emailUs": "أرسل لنا بريدًا إلكترونيًا على {{email}}",
       "openLocation": "فتح موقع المكتب في خرائط جوجل",
-      "mainNavigation": "التنقل الرئيسي"
+      "mainNavigation": "التنقل الرئيسي",
+      "contactWhatsApp": "تواصل معنا على الواتساب",
+      "contactJustDial": "تواصل معنا على جاست ديال"
+    },
+    "messages": {
+      "whatsappGreeting": "مرحباً! أنا مهتم بمنتجاتكم وخدماتكم."
     },
     "altTexts": {
       "companyLogo": "شعار شركة Powerton Engineering",

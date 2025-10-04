@@ -176,62 +176,122 @@
   "backToProducts": "Komawa zuwa Kayayyaki",
   "about": {
     "seo": {
-      "keywords": "Game da Injiniya na Powerton, Kamfanin Kera Masana'antu ta atomatik, Kamfanin Injiniya na Lantarki, Sabis na Kayan Aiki, Masana Harkokin Kera na China"
-    },
-    "hero": {
-      "title": "Injiniya Mai Kyau Tun 2008",
-      "subtitle": "Abokin ku Amintacce a Masana'antu ta atomatik da Maganin Injiniya na Lantarki"
-    },
-    "story": {
-      "title": "Tafiyarmu da Hangen Nesa",
-      "description1": "An kafa shi a cikin 2008 tare da hangen nesa don ƙarfafa masana'antu ta hanyar ƙirƙira da kyau, Injiniya na Powerton ya kasance kan gaba a cikin sarrafa masana'antu da mafita na injiniyan lantarki. Tafiyarmu ta fara ne da manufa mai sauƙi amma mai ƙarfi: don isar da sabbin mafita na injiniya waɗanda ke haifar da ci gaban masana'antu da ingancin aiki.",
-      "description2": "A cikin shekarun da suka gabata, mun girma daga ƙaramin kamfanin injiniya zuwa abokin amintacce ga masana'antu a duk faɗin China da duniya. Ƙungiyarmu ta ƙwararrun injiniyoyi da ƙwararrun fasaha suna aiki ba dare ba rana don isar da mafita waɗanda ba wai kawai sun cika ba har ma sun zarce tsammanin abokan cinikinmu."
-    },
-    "mission": {
+      "title": "Game da Injiniya na Powerton - Shekaru 15+ na Ƙwarewar Masana'antu ta atomatik",
+      "description": "Koyi game da tafiyar Injiniya na Powerton a cikin sarrafa masana'antu, injiniyan lantarki, da hanyoyin kayan aiki. Ƙungiyar ƙwararru tana hidimar masana'antu a duk faɗin China tun 2008.",
+      "keywords": "Game da Injiniya na Powerton, Kamfanin Kera Masana'antu ta atomatik, Kamfanin Injiniya na Lantarki, Sabis na Kayan Aiki, Masana'antu ta atomatik na China"
+      },
+      "hero": {
+      "title": "Ƙwarewar Injiniya Tun 2008",
+      "subtitle": "Abokin Hulɗarku Amintacce a cikin Masana'antu ta atomatik da Maganin Injiniya na Lantarki"
+      },
+      "story": {
+      "title": "Tarihinmu da Hangen Nesa",
+      "description1": "An kafa shi a cikin 2008 tare da hangen nesa don ƙarfafa masana'antu ta hanyar ƙirƙira da kyau, Injiniya na Powerton ya kasance kan gaba wajen sarrafa masana'antu da mafita na injiniyan lantarki. Tafiyarmu ta fara ne da manufa mai sauƙi amma mai ƙarfi: don samar da mafita na injiniya na yankan da ke haifar da ci gaban masana'antu da ingancin aiki.",
+      "description2": "A cikin shekarun da suka gabata, mun girma daga ƙaramin kamfanin injiniya zuwa amintaccen abokin tarayya ga masana'antu a duk faɗin China da duniya. Ƙungiyarmu ta ƙwararrun injiniyoyi da ƙwararrun fasaha suna aiki tuƙuru don samar da mafita waɗanda ba kawai suka cika ba har ma sun zarce tsammanin abokan cinikinmu."
+      },
+      "mission": {
       "title": "Manufarmu",
-      "description": "Don samar da sabbin, abin dogaro, da dorewar mafita na injiniya waɗanda ke baiwa abokan cinikinmu damar cimma ƙwarewar aiki da haifar da ci gaban masana'antu."
-    },
-    "vision": {
+      "description": "Don samar da sabbin hanyoyi, abin dogaro, da dorewa na injiniya waɗanda ke baiwa abokan cinikinmu damar cimma ƙwarewar aiki da haifar da ci gaban masana'antu."
+      },
+      "vision": {
       "title": "Hangarmu",
-      "description": "Don zama babban mai ba da sabis na sarrafa masana'antu da mafita na injiniyan lantarki, wanda aka gane don ƙwarewar fasaha, inganci, da kuma jajircewa ga nasarar abokin ciniki."
-    },
-    "coreValues": {
-      "title": "Dabi'unmu Na Asali",
+      "description": "Don zama babban mai ba da sabis na sarrafa masana'antu da mafita na injiniyan lantarki, wanda aka gane don ƙwarewarmu ta fasaha, inganci, da sadaukarwa ga nasarar abokin ciniki."
+      },
+      "coreValues": {
+      "title": "Ƙimarmu ta Asali",
       "subtitle": "Ka'idojin da ke jagorantar duk abin da muke yi"
-    },
-    "values": {
+      },
+      "values": {
       "quality": {
-        "title": "Kyawawan Inganci",
-        "description": "Muna kiyaye mafi girman matsayi a kowane aikin da muke bayarwa"
+        "title": "Kyawun Inganci",
+        "description": "Muna kiyaye mafi girman matsayi a cikin kowane aiki da muke bayarwa"
       },
       "customer": {
         "title": "Mayar da Hankali ga Abokin Ciniki",
-        "description": "Nasararku ita ce fifikonmu - muna gina haɗin gwiwa mai dorewa"
+        "description": "Nasarar ku ita ce fifikonmu - muna gina haɗin gwiwa mai dorewa"
       },
       "innovation": {
-        "title": "Ƙirƙira",
-        "description": "Maganin yankan-baki ta amfani da sabbin fasahohin masana'antu"
+        "title": "Ƙirƙira & Kyau",
+        "description": "Sabuwar hanyoyin magancewa ta amfani da sabbin fasahohin masana'antu"
       },
       "reliability": {
-        "title": "Amincewa",
-        "description": "Maganin dogaro da zaku iya amincewa da mahimman ayyuka"
+        "title": "Abin Dogaro & Amincewa",
+        "description": "Maganin abin dogaro da zaku iya amincewa da mahimman ayyuka"
       }
-    },
-    "stats": {
+      },
+      "stats": {
       "engineers": "Injiniyoyi",
       "staff": "Ma'aikatan Tallafi",
       "experience": "Shekaru Ƙwarewa",
       "support": "Tallafi"
-    },
-    "certifications": {
-      "title": "Takaddun shaida da Ƙa'idodin Inganci",
-      "subtitle": "An tabbatar da jajircewarmu ga inganci ta hanyar takaddun shaida da ƙa'idodin bin doka da masana'antu suka amince da su.",
-      "iso9001": "ISO 9001:2015 Gudanar da Inganci",
-      "iso14001": "ISO 14001:2015 Gudanar da Muhalli",
-      "ohsas18001": "OHSAS 18001 Lafiya da Tsaro na Sana'a",
-      "ceMarking": "CE Marking Compliance",
-      "ulListed": "Kayayyakin UL da Aka Jera",
-      "cpriApproved": "Kayan Aikin da CPRI ta Amince da su"
+      },
+      "certifications": {
+      "title": "Takaddun shaida & Ƙa'idoji",
+      "subtitle": "An tabbatar da sadaukarwarmu ga inganci ta hanyar takaddun shaida da ƙa'idodin bin doka da masana'antu suka amince da su.",
+      "iso9001": "ISO 9001",
+      "iso14001": "ISO 14001",
+      "ohsas18001": "ISO 45001",
+      "ceMarking": "Alamar CE",
+      "ulListed": "UL Lissafi",
+      "cpriApproved": "CPRI An Amince da Shi"
+      },
+      "achievements": {
+      "title": "Kyaututtuka & Nasarori",
+      "subtitle": "Gane sadaukarwarmu ga kyau, ƙirƙira, da inganci a cikin sarrafa masana'antu.",
+      "2024": {
+        "year": "2024",
+        "awards": {
+          "0": "Kyauta don Ƙwarewa a Masana'antu ta atomatik - Ƙungiyar Injiniya ta Indiya",
+          "1": "Mafi kyawun Ƙirƙira a Kula da Tsari - Kyaututtukan Masana'antu ta atomatik na Indiya",
+          "2": "ISO 9001:2015 Takaddun Shaida na Gudanar da Inganci",
+          "3": "Manyan Kamfanoni 100 na Injiniya - Indiya A Yau"
+        }
+      },
+      "2023": {
+        "year": "2023",
+        "awards": {
+          "0": "Fitaccen Maganin Injiniya - CII Manufacturing Excellence",
+          "1": "Kyautar Ƙwarewa ta Tsaro - Majalisar Tsaro ta Ƙasa",
+          "2": "Kyautar Ƙirƙirar Fasaha - Majalisar Inganta Fitar da Injiniya",
+          "3": "Mafi kyawun SME a Sashen Masana'antu ta atomatik - Ma'aikatar MSME"
+        }
+      },
+      "2022": {
+        "year": "2022",
+        "awards": {
+          "0": "Kyautar Ƙwarewa ta Injiniya - Ƙungiyar Ɗakunan Kasuwanci na Indiya",
+          "1": "Kyautar Fasaha Mai Dorewa - Majalisar Kasuwanci Mai Kore",
+          "2": "Gane Ƙwarewa ta Inganci - Ofishin Ƙa'idodin Indiya"
+        }
+      }
+      },
+      "futureGoals": {
+      "title": "Manufofin Gaba & Hangen Nesa",
+      "subtitle": "Taswirar dabarunmu na zama babban mai ba da sabis na sarrafa masana'antu a Indiya.",
+      "marketLeadership": {
+        "goal": "Jagorancin Kasuwa",
+        "description": "Zama babban mai ba da sabis na sarrafa kansa a Arewacin Indiya nan da 2026"
+      },
+      "technologyInnovation": {
+        "goal": "Ƙirƙirar Fasaha",
+        "description": "Ƙaddamar da sabbin hanyoyin sarrafa kansa guda 5 masu amfani da AI don Masana'antu 4.0"
+      },
+      "geographicExpansion": {
+        "goal": "Faɗaɗa Yanki",
+        "description": "Kafa ayyuka a sabbin jihohi 3 a duk faɗin Indiya"
+      },
+      "teamGrowth": {
+        "goal": "Ci gaban Ƙungiya",
+        "description": "Faɗaɗa ƙungiyar injiniyanmu zuwa ƙwararru 200+"
+      },
+      "revenueMilestone": {
+        "goal": "Babban Nasarar Kuɗi",
+        "description": "Cimma ₹100 Crores babban nasarar kuɗi na shekara-shekara"
+      },
+      "sustainabilityFocus": {
+        "goal": "Mayar da Hankali ga Dorewa",
+        "description": "Aiwatar da ayyuka marasa amfani da carbon da hanyoyin magance fasahar kore"
+      }
     },
     "cta": {
       "title": "Shirye don Fara Aikin ku?",

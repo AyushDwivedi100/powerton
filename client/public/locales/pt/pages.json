@@ -176,62 +176,122 @@
   "backToProducts": "Voltar aos Produtos",
   "about": {
     "seo": {
+      "title": "Sobre a Powerton Engineering - Mais de 15 Anos de Excelência em Automação Industrial",
+      "description": "Saiba mais sobre a jornada da Powerton Engineering em automação industrial, engenharia elétrica e soluções de instrumentação. Equipe especializada atendendo indústrias em toda a China desde 2008.",
       "keywords": "Sobre a Powerton Engineering, Empresa de Automação Industrial, Empresa de Engenharia Elétrica, Serviços de Instrumentação, Especialistas em Automação da China"
-    },
-    "hero": {
+      },
+      "hero": {
       "title": "Excelência em Engenharia Desde 2008",
-      "subtitle": "Seu Parceiro de Confiança em Soluções de Automação Industrial e Engenharia Elétrica"
-    },
-    "story": {
+      "subtitle": "Seu Parceiro Confiável em Automação Industrial e Soluções de Engenharia Elétrica"
+      },
+      "story": {
       "title": "Nossa Jornada e Visão",
-      "description1": "Fundada em 2008 com a visão de capacitar as indústrias através da inovação e excelência, a Powerton Engineering está na vanguarda das soluções de automação industrial e engenharia elétrica. Nossa jornada começou com uma missão simples, mas poderosa: fornecer soluções de engenharia de ponta que impulsionem o crescimento industrial e a eficiência operacional.",
-      "description2": "Ao longo dos anos, crescemos de uma pequena empresa de engenharia para um parceiro de confiança para indústrias em toda a China e globalmente. Nossa equipe de engenheiros experientes e especialistas técnicos trabalha incansavelmente para fornecer soluções que não apenas atendam, mas excedam as expectativas de nossos clientes."
-    },
-    "mission": {
+      "description1": "Fundada em 2008 com a visão de capacitar as indústrias através da inovação e excelência, a Powerton Engineering está na vanguarda da automação industrial e soluções de engenharia elétrica. Nossa jornada começou com uma missão simples, porém poderosa: fornecer soluções de engenharia de ponta que impulsionem o crescimento industrial e a eficiência operacional.",
+      "description2": "Ao longo dos anos, crescemos de uma pequena empresa de engenharia para um parceiro confiável para indústrias em toda a China e globalmente. Nossa equipe de engenheiros experientes e especialistas técnicos trabalha incansavelmente para fornecer soluções que não apenas atendam, mas excedam as expectativas de nossos clientes."
+      },
+      "mission": {
       "title": "Nossa Missão",
       "description": "Fornecer soluções de engenharia inovadoras, confiáveis e sustentáveis que permitam aos nossos clientes alcançar a excelência operacional e impulsionar o crescimento industrial."
-    },
-    "vision": {
+      },
+      "vision": {
       "title": "Nossa Visão",
-      "description": "Ser o principal fornecedor de soluções de automação industrial e engenharia elétrica, reconhecido por nossa experiência técnica, qualidade e compromisso com o sucesso do cliente."
-    },
-    "coreValues": {
+      "description": "Ser o principal fornecedor de soluções de automação industrial e engenharia elétrica, reconhecido por nossa expertise técnica, qualidade e compromisso com o sucesso do cliente."
+      },
+      "coreValues": {
       "title": "Nossos Valores Fundamentais",
-      "subtitle": "Princípios que orientam tudo o que fazemos"
-    },
-    "values": {
+      "subtitle": "Princípios que guiam tudo o que fazemos"
+      },
+      "values": {
       "quality": {
         "title": "Excelência em Qualidade",
         "description": "Mantemos os mais altos padrões em cada projeto que entregamos"
       },
       "customer": {
-        "title": "Foco no Cliente",
+        "title": "Centralidade no Cliente",
         "description": "Seu sucesso é nossa prioridade - construímos parcerias duradouras"
       },
       "innovation": {
-        "title": "Inovação",
+        "title": "Inovação e Excelência",
         "description": "Soluções de ponta usando as mais recentes tecnologias da indústria"
       },
       "reliability": {
-        "title": "Confiabilidade",
+        "title": "Confiabilidade e Confiança",
         "description": "Soluções confiáveis em que você pode confiar para operações críticas"
       }
-    },
-    "stats": {
+      },
+      "stats": {
       "engineers": "Engenheiros",
       "staff": "Equipe de Apoio",
       "experience": "Anos de Experiência",
-      "support": "Apoio"
-    },
-    "certifications": {
-      "title": "Certificações e Padrões de Qualidade",
-      "subtitle": "Nosso compromisso com a qualidade é validado através de certificações reconhecidas pela indústria e padrões de conformidade.",
-      "iso9001": "Gestão de Qualidade ISO 9001:2015",
-      "iso14001": "Gestão Ambiental ISO 14001:2015",
-      "ohsas18001": "Saúde e Segurança Ocupacional OHSAS 18001",
-      "ceMarking": "Conformidade com a Marcação CE",
-      "ulListed": "Produtos Listados pela UL",
-      "cpriApproved": "Equipamento Aprovado pela CPRI"
+      "support": "Suporte"
+      },
+      "certifications": {
+      "title": "Certificações e Normas",
+      "subtitle": "Nosso compromisso com a qualidade é validado através de certificações reconhecidas pela indústria e normas de conformidade.",
+      "iso9001": "ISO 9001",
+      "iso14001": "ISO 14001",
+      "ohsas18001": "ISO 45001",
+      "ceMarking": "Marcação CE",
+      "ulListed": "Listado pela UL",
+      "cpriApproved": "Aprovado pela CPRI"
+      },
+      "achievements": {
+      "title": "Prêmios e Conquistas",
+      "subtitle": "Reconhecimento do nosso compromisso com a excelência, inovação e qualidade em automação industrial.",
+      "2024": {
+        "year": "2024",
+        "awards": {
+          "0": "Prêmio de Excelência em Automação Industrial - Sociedade de Engenharia Indiana",
+          "1": "Melhor Inovação em Controle de Processo - Prêmios Automação Índia",
+          "2": "Certificação de Gestão de Qualidade ISO 9001:2015",
+          "3": "Top 100 Empresas de Engenharia - India Today"
+        }
+      },
+      "2023": {
+        "year": "2023",
+        "awards": {
+          "0": "Solução de Engenharia Excepcional - CII Excelência em Fabricação",
+          "1": "Prêmio de Excelência em Segurança - Conselho Nacional de Segurança",
+          "2": "Prêmio de Inovação Tecnológica - Conselho de Promoção de Exportação de Engenharia",
+          "3": "Melhor PME no Setor de Automação - Ministério MSME"
+        }
+      },
+      "2022": {
+        "year": "2022",
+        "awards": {
+          "0": "Prêmio de Excelência em Engenharia - Federação das Câmaras Indianas",
+          "1": "Prêmio de Tecnologia Sustentável - Conselho de Negócios Verdes",
+          "2": "Reconhecimento de Excelência em Qualidade - Bureau de Normas Indianas"
+        }
+      }
+      },
+      "futureGoals": {
+      "title": "Metas e Visão Futuras",
+      "subtitle": "Nosso roteiro estratégico para nos tornarmos o principal fornecedor de soluções de automação industrial da China.",
+      "marketLeadership": {
+        "goal": "Liderança de Mercado",
+        "description": "Tornar-se o principal fornecedor de soluções de automação no norte da China até 2026"
+      },
+      "technologyInnovation": {
+        "goal": "Inovação Tecnológica",
+        "description": "Lançar 5 novas soluções de automação alimentadas por IA para a Indústria 4.0"
+      },
+      "geographicExpansion": {
+        "goal": "Expansão Geográfica",
+        "description": "Estabelecer operações em 3 novos estados em toda a China"
+      },
+      "teamGrowth": {
+        "goal": "Crescimento da Equipe",
+        "description": "Expandir nossa equipe de engenharia para mais de 200 profissionais"
+      },
+      "revenueMilestone": {
+        "goal": "Marco de Receita",
+        "description": "Atingir um marco de receita anual de ₹100 Crores"
+      },
+      "sustainabilityFocus": {
+        "goal": "Foco na Sustentabilidade",
+        "description": "Implementar operações neutras em carbono e soluções de tecnologia verde"
+      }
     },
     "cta": {
       "title": "Pronto para Iniciar Seu Projeto?",

@@ -704,7 +704,12 @@
       "openMobileMenu": "打开移动菜单",
       "emailUs": "发送电子邮件至 {{email}}",
       "openLocation": "在 Google 地图中打开我们的办公地点",
-      "mainNavigation": "主导航"
+      "mainNavigation": "主导航",
+      "contactWhatsApp": "在 WhatsApp 上联系我们",
+      "contactJustDial": "在 Just Dial 上联系我们"
+    },
+    "messages": {
+      "whatsappGreeting": "你好！我对贵公司的产品和服务感兴趣。"
     },
     "altTexts": {
       "companyLogo": "Powerton Engineering 公司标志",

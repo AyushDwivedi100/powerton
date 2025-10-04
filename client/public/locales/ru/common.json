@@ -311,7 +311,7 @@
     "emergencySupport": "Только экстренная поддержка",
     "availability": "Доступность",
     "coverage": "Охват",
-    "free" : "Бесплатно"
+    "free": "Бесплатно"
   },
   "placeholders": {
     "selectProjectType": "Выберите тип проекта",
@@ -704,7 +704,12 @@
       "openMobileMenu": "Открыть мобильное меню",
       "emailUs": "Напишите нам по адресу {{email}}",
       "openLocation": "Открыть местоположение офиса в Google Maps",
-      "mainNavigation": "Основная навигация"
+      "mainNavigation": "Основная навигация",
+      "contactWhatsApp": "Свяжитесь с нами в WhatsApp",
+      "contactJustDial": "Свяжитесь с нами через Just Dial"
+    },
+    "messages": {
+      "whatsappGreeting": "Здравствуйте! Я заинтересован в ваших продуктах и услугах."
     },
     "altTexts": {
       "companyLogo": "Логотип компании Powerton Engineering",

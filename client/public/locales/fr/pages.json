@@ -176,62 +176,122 @@
   "backToProducts": "Retour aux produits",
   "about": {
     "seo": {
-      "keywords": "À propos de Powerton Engineering, Société d'automatisation industrielle, Société de génie électrique, Services d'instrumentation, Experts en automatisation de la Chine"
-    },
-    "hero": {
+      "title": "À propos de Powerton Engineering - Plus de 15 ans d'excellence en automatisation industrielle",
+      "description": "Découvrez le parcours de Powerton Engineering dans les solutions d'automatisation industrielle, de génie électrique et d'instrumentation. Une équipe d'experts au service des industries à travers la Chine depuis 2008.",
+      "keywords": "À propos de Powerton Engineering, entreprise d'automatisation industrielle, entreprise de génie électrique, services d'instrumentation, experts en automatisation en Chine"
+      },
+      "hero": {
       "title": "L'excellence en ingénierie depuis 2008",
-      "subtitle": "Votre partenaire de confiance pour les solutions d'automatisation industrielle et de génie électrique"
-    },
-    "story": {
+      "subtitle": "Votre partenaire de confiance dans les solutions d'automatisation industrielle et de génie électrique"
+      },
+      "story": {
       "title": "Notre parcours et notre vision",
       "description1": "Fondée en 2008 avec une vision visant à autonomiser les industries grâce à l'innovation et à l'excellence, Powerton Engineering est à l'avant-garde des solutions d'automatisation industrielle et de génie électrique. Notre parcours a commencé avec une mission simple mais puissante : fournir des solutions d'ingénierie de pointe qui stimulent la croissance industrielle et l'efficacité opérationnelle.",
       "description2": "Au fil des ans, nous sommes passés d'une petite entreprise d'ingénierie à un partenaire de confiance pour les industries à travers la Chine et le monde. Notre équipe d'ingénieurs expérimentés et d'experts techniques travaille sans relâche pour fournir des solutions qui non seulement répondent, mais dépassent les attentes de nos clients."
-    },
-    "mission": {
+      },
+      "mission": {
       "title": "Notre mission",
-      "description": "Fournir des solutions d'ingénierie innovantes, fiables et durables qui permettent à nos clients d'atteindre l'excellence opérationnelle et de stimuler la croissance industrielle."
-    },
-    "vision": {
+      "description": "Fournir des solutions d'ingénierie novatrices, fiables et durables qui permettent à nos clients d'atteindre l'excellence opérationnelle et de stimuler la croissance industrielle."
+      },
+      "vision": {
       "title": "Notre vision",
-      "description": "Être le principal fournisseur de solutions d'automatisation industrielle et de génie électrique, reconnu pour notre expertise technique, notre qualité et notre engagement envers le succès de nos clients."
-    },
-    "coreValues": {
+      "description": "Être le principal fournisseur de solutions d'automatisation industrielle et de génie électrique, reconnu pour son expertise technique, sa qualité et son engagement envers la réussite de ses clients."
+      },
+      "coreValues": {
       "title": "Nos valeurs fondamentales",
-      "subtitle": "Principes qui guident tout ce que nous faisons"
-    },
-    "values": {
+      "subtitle": "Les principes qui guident tout ce que nous faisons"
+      },
+      "values": {
       "quality": {
         "title": "Excellence en matière de qualité",
-        "description": "Nous maintenons les normes les plus élevées dans chaque projet que nous réalisons"
+        "description": "Nous maintenons les normes les plus élevées dans chaque projet que nous livrons"
       },
       "customer": {
-        "title": "Orientation client",
-        "description": "Votre succès est notre priorité - nous établissons des partenariats durables"
+        "title": "Centralité client",
+        "description": "Votre succès est notre priorité : nous établissons des partenariats durables"
       },
       "innovation": {
-        "title": "Innovation",
+        "title": "Innovation et excellence",
         "description": "Solutions de pointe utilisant les dernières technologies de l'industrie"
       },
       "reliability": {
-        "title": "Fiabilité",
-        "description": "Des solutions fiables sur lesquelles vous pouvez compter pour les opérations critiques"
+        "title": "Fiabilité et confiance",
+        "description": "Des solutions fiables auxquelles vous pouvez faire confiance pour les opérations essentielles"
       }
-    },
-    "stats": {
+      },
+      "stats": {
       "engineers": "Ingénieurs",
       "staff": "Personnel de soutien",
       "experience": "Années d'expérience",
       "support": "Soutien"
-    },
-    "certifications": {
-      "title": "Certifications et normes de qualité",
+      },
+      "certifications": {
+      "title": "Certifications et normes",
       "subtitle": "Notre engagement envers la qualité est validé par des certifications reconnues par l'industrie et des normes de conformité.",
-      "iso9001": "Gestion de la qualité ISO 9001:2015",
-      "iso14001": "Gestion environnementale ISO 14001:2015",
-      "ohsas18001": "Santé et sécurité au travail OHSAS 18001",
-      "ceMarking": "Conformité au marquage CE",
-      "ulListed": "Produits homologués UL",
-      "cpriApproved": "Équipement approuvé par le CPRI"
+      "iso9001": "ISO 9001",
+      "iso14001": "ISO 14001",
+      "ohsas18001": "ISO 45001",
+      "ceMarking": "Marquage CE",
+      "ulListed": "Homologué UL",
+      "cpriApproved": "Approuvé par le CPRI"
+      },
+      "achievements": {
+      "title": "Prix et réalisations",
+      "subtitle": "Reconnaissance de notre engagement envers l'excellence, l'innovation et la qualité dans l'automatisation industrielle.",
+      "2024": {
+        "year": "2024",
+        "awards": {
+          "0": "Prix d'excellence en automatisation industrielle - Société d'ingénierie indienne",
+          "1": "Meilleure innovation en contrôle des processus - Prix de l'automatisation en Inde",
+          "2": "Certification ISO 9001:2015 pour la gestion de la qualité",
+          "3": "Top 100 des entreprises d'ingénierie - India Today"
+        }
+      },
+      "2023": {
+        "year": "2023",
+        "awards": {
+          "0": "Solution d'ingénierie exceptionnelle - CII Manufacturing Excellence",
+          "1": "Prix d'excellence en matière de sécurité - Conseil national de sécurité",
+          "2": "Prix de l'innovation technologique - Conseil de promotion des exportations d'ingénierie",
+          "3": "Meilleure PME du secteur de l'automatisation - Ministère des MPME"
+        }
+      },
+      "2022": {
+        "year": "2022",
+        "awards": {
+          "0": "Prix d'excellence en ingénierie - Fédération des chambres indiennes",
+          "1": "Prix de la technologie durable - Conseil des entreprises vertes",
+          "2": "Reconnaissance de l'excellence en matière de qualité - Bureau des normes indiennes"
+        }
+      }
+      },
+      "futureGoals": {
+      "title": "Objectifs et vision d'avenir",
+      "subtitle": "Notre feuille de route stratégique pour devenir le principal fournisseur de solutions d'automatisation industrielle en Inde.",
+      "marketLeadership": {
+        "goal": "Leadership du marché",
+        "description": "Devenir le principal fournisseur de solutions d'automatisation dans le nord de l'Inde d'ici 2026"
+      },
+      "technologyInnovation": {
+        "goal": "Innovation technologique",
+        "description": "Lancer 5 nouvelles solutions d'automatisation basées sur l'IA pour l'industrie 4.0"
+      },
+      "geographicExpansion": {
+        "goal": "Expansion géographique",
+        "description": "Établir des opérations dans 3 nouveaux États à travers l'Inde"
+      },
+      "teamGrowth": {
+        "goal": "Croissance de l'équipe",
+        "description": "Agrandir notre équipe d'ingénierie à plus de 200 professionnels"
+      },
+      "revenueMilestone": {
+        "goal": "Jalon de revenus",
+        "description": "Atteindre un chiffre d'affaires annuel de 100 millions ₹"
+      },
+      "sustainabilityFocus": {
+        "goal": "Accent sur la durabilité",
+        "description": "Mettre en œuvre des opérations neutres en carbone et des solutions de technologies vertes"
+      }
     },
     "cta": {
       "title": "Prêt à démarrer votre projet ?",

@@ -176,62 +176,122 @@
   "backToProducts": "Rudi kwa Bidhaa",
   "about": {
     "seo": {
-      "keywords": "Kuhusu Powerton Engineering, Kampuni ya Uendeshaji wa Viwandani, Kampuni ya Uhandisi wa Umeme, Huduma za Ala, Wataalam wa Uendeshaji wa China"
-    },
-    "hero": {
+      "title": "Kuhusu Powerton Engineering - Zaidi ya Miaka 15 ya Ubora katika Automatisheni ya Viwandani",
+      "description": "Jifunze kuhusu safari ya Powerton Engineering katika automatisheni ya viwandani, uhandisi wa umeme, na suluhisho za ala. Timu ya wataalamu inayohudumia viwanda kote India tangu 2008.",
+      "keywords": "Kuhusu Powerton Engineering, Kampuni ya Automatisheni ya Viwandani, Kampuni ya Uhandisi wa Umeme, Huduma za Ala, Wataalamu wa Automatisheni wa China"
+      },
+      "hero": {
       "title": "Ubora wa Uhandisi Tangu 2008",
-      "subtitle": "Mshirika Wako Unayemwamini katika Suluhisho za Uendeshaji wa Viwandani na Uhandisi wa Umeme"
-    },
-    "story": {
-      "title": "Safari Yetu na Maono",
-      "description1": "Ilianzishwa mnamo 2008 na maono ya kuwezesha viwanda kupitia uvumbuzi na ubora, Powerton Engineering imekuwa mstari wa mbele katika suluhisho za automatisheni ya viwandani na uhandisi wa umeme. Safari yetu ilianza na dhamira rahisi lakini yenye nguvu: kutoa suluhisho za uhandisi za hali ya juu zinazoendesha ukuaji wa viwanda na ufanisi wa uendeshaji.",
-      "description2": "Kwa miaka mingi, tumekua kutoka kampuni ndogo ya uhandisi hadi mshirika anayeaminika kwa viwanda kote China na ulimwenguni. Timu yetu ya wahandisi wenye uzoefu na wataalam wa kiufundi hufanya kazi bila kuchoka kutoa suluhisho ambazo hazifikii tu bali zinazidi matarajio ya wateja wetu."
-    },
-    "mission": {
+      "subtitle": "Mshirika Wako Unayemwamini katika Suluhisho za Automatisheni ya Viwandani na Uhandisi wa Umeme"
+      },
+      "story": {
+      "title": "Safari na Dira Yetu",
+      "description1": "Ilianzishwa mwaka wa 2008 kwa dira ya kuwezesha viwanda kupitia uvumbuzi na ubora, Powerton Engineering imekuwa mstari wa mbele katika automatisheni ya viwandani na suluhisho za uhandisi wa umeme. Safari yetu ilianza na dhamira rahisi lakini yenye nguvu: kutoa suluhisho za uhandisi za kisasa zinazoendesha ukuaji wa viwanda na ufanisi wa uendeshaji.",
+      "description2": "Kwa miaka mingi, tumekua kutoka kampuni ndogo ya uhandisi hadi mshirika anayeaminika kwa viwanda kote China na ulimwenguni. Timu yetu ya wahandisi wenye uzoefu na wataalamu wa kiufundi hufanya kazi bila kuchoka kutoa suluhisho ambazo hazifikii tu bali zinazidi matarajio ya wateja wetu."
+      },
+      "mission": {
       "title": "Dhamira Yetu",
       "description": "Kutoa suluhisho za uhandisi za kibunifu, za kuaminika, na endelevu zinazowawezesha wateja wetu kufikia ubora wa uendeshaji na kuendesha ukuaji wa viwanda."
-    },
-    "vision": {
-      "title": "Maono Yetu",
-      "description": "Kuwa mtoaji anayeongoza wa suluhisho za automatisheni ya viwandani na uhandisi wa umeme, tunatambulika kwa utaalam wetu wa kiufundi, ubora, na kujitolea kwa mafanikio ya mteja."
-    },
-    "coreValues": {
+      },
+      "vision": {
+      "title": "Dira Yetu",
+      "description": "Kuwa mtoa huduma mkuu wa automatisheni ya viwandani na suluhisho za uhandisi wa umeme, inayotambulika kwa utaalamu wetu wa kiufundi, ubora, na kujitolea kwa mafanikio ya mteja."
+      },
+      "coreValues": {
       "title": "Thamani Zetu za Msingi",
       "subtitle": "Kanuni zinazoongoza kila kitu tunachofanya"
-    },
-    "values": {
+      },
+      "values": {
       "quality": {
         "title": "Ubora Bora",
-        "description": "Tunashikilia viwango vya juu zaidi katika kila mradi tunaoitoa"
+        "description": "Tunashikilia viwango vya juu zaidi katika kila mradi tunaotoa"
       },
       "customer": {
-        "title": "Mtazamo wa Mteja",
-        "description": "Mafanikio yako ni kipaumbele chetu - tunaunda ushirikiano wa kudumu"
+        "title": "Uzingatiaji wa Mteja",
+        "description": "Mafanikio yako ndiyo kipaumbele chetu - tunajenga ushirikiano wa kudumu"
       },
       "innovation": {
-        "title": "Uvumbuzi",
-        "description": "Suluhisho za hali ya juu kwa kutumia teknolojia za hivi karibuni za tasnia"
+        "title": "Uvumbuzi na Ubora",
+        "description": "Suluhisho za kisasa kwa kutumia teknolojia za hivi karibuni za tasnia"
       },
       "reliability": {
-        "title": "Kuegemea",
-        "description": "Suluhisho za kuaminika unazoweza kuamini kwa shughuli muhimu"
+        "title": "Kutegemeka na Uaminifu",
+        "description": "Suluhisho za kuaminika unazoweza kuzitegemea kwa shughuli muhimu"
       }
-    },
-    "stats": {
+      },
+      "stats": {
       "engineers": "Wahandisi",
       "staff": "Wafanyakazi wa Usaidizi",
       "experience": "Uzoefu wa Miaka",
       "support": "Msaada"
-    },
-    "certifications": {
-      "title": "Udhibitisho na Viwango vya Ubora",
-      "subtitle": "Kujitolea kwetu kwa ubora kunathibitishwa kupitia udhibitisho unaotambuliwa na tasnia na viwango vya kufuata.",
-      "iso9001": "Usimamizi wa Ubora wa ISO 9001:2015",
-      "iso14001": "Usimamizi wa Mazingira wa ISO 14001:2015",
-      "ohsas18001": "Afya na Usalama Kazini wa OHSAS 18001",
-      "ceMarking": "Ufuasi wa Alama ya CE",
-      "ulListed": "Bidhaa Zilizoorodheshwa za UL",
-      "cpriApproved": "Vifaa Vilivyoidhinishwa na CPRI"
+      },
+      "certifications": {
+      "title": "Vyeti na Viwango",
+      "subtitle": "Kujitolea kwetu kwa ubora kunathibitishwa kupitia vyeti vinavyotambulika na viwango vya kufuata tasnia.",
+      "iso9001": "ISO 9001",
+      "iso14001": "ISO 14001",
+      "ohsas18001": "ISO 45001",
+      "ceMarking": "Alama ya CE",
+      "ulListed": "Imeorodheshwa na UL",
+      "cpriApproved": "Imeidhinishwa na CPRI"
+      },
+      "achievements": {
+      "title": "Tuzo na Mafanikio",
+      "subtitle": "Kutambuliwa kwa kujitolea kwetu kwa ubora, uvumbuzi, na ubora katika automatisheni ya viwandani.",
+      "2024": {
+        "year": "2024",
+        "awards": {
+          "0": "Tuzo la Ubora katika Automatisheni ya Viwandani - Jumuiya ya Uhandisi ya India",
+          "1": "Uvumbuzi Bora katika Udhibiti wa Mchakato - Tuzo za Automatisheni India",
+          "2": "Udhibitisho wa Usimamizi wa Ubora wa ISO 9001:2015",
+          "3": "Kampuni 100 Bora za Uhandisi - India Leo"
+        }
+      },
+      "2023": {
+        "year": "2023",
+        "awards": {
+          "0": "Suluhisho Bora la Uhandisi - Ubora wa Utengenezaji wa CII",
+          "1": "Tuzo la Ubora wa Usalama - Baraza la Usalama la Kitaifa",
+          "2": "Tuzo la Ubunifu wa Teknolojia - Baraza la Kukuza Uuzaji wa Uhandisi",
+          "3": "SME Bora katika Sekta ya Automatisheni - Wizara ya MSME"
+        }
+      },
+      "2022": {
+        "year": "2022",
+        "awards": {
+          "0": "Tuzo la Ubora wa Uhandisi - Shirikisho la Vyumba vya India",
+          "1": "Tuzo la Teknolojia Endelevu - Baraza la Biashara la Kijani",
+          "2": "Utambuzi wa Ubora Bora - Ofisi ya Viwango vya India"
+        }
+      }
+      },
+      "futureGoals": {
+      "title": "Malengo na Dira ya Baadaye",
+      "subtitle": "Ramani yetu ya kimkakati kuelekea kuwa mtoa huduma mkuu wa suluhisho za automatisheni ya viwandani nchini India.",
+      "marketLeadership": {
+        "goal": "Uongozi wa Soko",
+        "description": "Kuwa mtoa huduma mkuu wa suluhisho za automatisheni Kaskazini mwa India ifikapo 2026"
+      },
+      "technologyInnovation": {
+        "goal": "Ubunifu wa Teknolojia",
+        "description": "Zindua suluhisho 5 mpya za automatisheni zinazoendeshwa na AI kwa Sekta ya 4.0"
+      },
+      "geographicExpansion": {
+        "goal": "Upanuzi wa Kijiografia",
+        "description": "Anzisha shughuli katika majimbo 3 mapya kote India"
+      },
+      "teamGrowth": {
+        "goal": "Ukuaji wa Timu",
+        "description": "Panua timu yetu ya uhandisi hadi wataalamu 200+"
+      },
+      "revenueMilestone": {
+        "goal": "Hatua Muhimu ya Mapato",
+        "description": "Fikia hatua muhimu ya mapato ya kila mwaka ya ₹100 Crores"
+      },
+      "sustainabilityFocus": {
+        "goal": "Mtazamo wa Uendelevu",
+        "description": "Tekeleza shughuli zisizo na kaboni na suluhisho za teknolojia ya kijani"
+      }
     },
     "cta": {
       "title": "Uko Tayari Kuanza Mradi Wako?",

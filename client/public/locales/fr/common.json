@@ -133,7 +133,7 @@
     "catalogComingSoon": "Le téléchargement du catalogue de produits sera bientôt disponible !",
     "readyToStart": "Prêt à commencer votre projet ?",
     "requestConsultation": "Demander une consultation d'ingénierie gratuite",
-    "availability" : "Disponibilité 24/7 pour un support rapide",
+    "availability": "Disponibilité 24/7 pour un support rapide",
     "responseTime": "Dans les 2 jours pour une consultation initiale"
   },
   "aria": {
@@ -311,7 +311,7 @@
     "emergencySupport": "Assistance d'urgence uniquement",
     "availability": "Disponibilité",
     "coverage": "Couverture",
-    "free" : "Gratuit"
+    "free": "Gratuit"
   },
   "placeholders": {
     "selectProjectType": "Sélectionner le type de projet",
@@ -703,8 +703,13 @@
       "closeMobileMenu": "Fermer le menu mobile",
       "openMobileMenu": "Ouvrir le menu mobile",
       "emailUs": "Envoyez-nous un e-mail à {{email}}",
-      "openLocation" : "Ouvrir le lieu du bureau dans Google Maps",
-      "mainNavigation": "Navigation principale"
+      "openLocation": "Ouvrir le lieu du bureau dans Google Maps",
+      "mainNavigation": "Navigation principale",
+      "contactWhatsApp": "Contactez-nous sur WhatsApp",
+      "contactJustDial": "Contactez-nous sur Just Dial"
+    },
+    "messages": {
+      "whatsappGreeting": "Bonjour ! Je suis intéressé par vos produits et services."
     },
     "altTexts": {
       "companyLogo": "Logo de la société Powerton Engineering",

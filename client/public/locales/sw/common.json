@@ -311,7 +311,7 @@
     "emergencySupport": "Msaada wa Dharura Pekee",
     "availability": "Upatikanaji",
     "coverage": "Uthibitisho",
-    "free" : "Bila Malipo"
+    "free": "Bila Malipo"
   },
   "placeholders": {
     "selectProjectType": "Chagua aina ya mradi",
@@ -703,8 +703,13 @@
       "closeMobileMenu": "Funga menyu ya simu",
       "openMobileMenu": "Fungua menyu ya simu",
       "emailUs": "Tutumie barua pepe kwa {{email}}",
-      "openLocation" :"Fungua eneo la ofisi kwenye Google Maps",
-      "mainNavigation": "Urambazaji Mkuu"
+      "openLocation": "Fungua eneo la ofisi kwenye Google Maps",
+      "mainNavigation": "Urambazaji Mkuu",
+      "contactWhatsApp": "Wasiliana nasi kupitia WhatsApp",
+      "contactJustDial": "Wasiliana nasi kupitia Just Dial"
+    },
+    "messages": {
+      "whatsappGreeting": "Halo! Ninavutiwa na bidhaa na huduma zako."
     },
     "altTexts": {
       "companyLogo": "Nembo ya Kampuni ya Powerton Engineering",
