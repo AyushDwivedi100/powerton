@@ -706,7 +706,14 @@
       "openLocation": "فتح موقع المكتب في خرائط جوجل",
       "mainNavigation": "التنقل الرئيسي",
       "contactWhatsApp": "تواصل معنا على الواتساب",
-      "contactJustDial": "تواصل معنا على جاست ديال"
+      "contactJustDial": "تواصل معنا على جاست ديال",
+      "footerInfo": "معلومات الشركة والتنقل في الموقع",
+      "servicesNav": "التنقل في الخدمات",
+      "productsNav": "التنقل في المنتجات",
+      "callPrimary": "اتصل بـ Powerton Engineering - الرقم الأساسي",
+      "callSecondary": "اتصل بـ Powerton Engineering - الرقم الثانوي",
+      "emailPowerton": "أرسل بريدًا إلكترونيًا إلى Powerton Engineering",
+      "viewOfficeLocation": "عرض موقع مكتب Powerton Engineering على خرائط جوجل"
     },
     "messages": {
       "whatsappGreeting": "مرحباً! أنا مهتم بمنتجاتكم وخدماتكم."
@@ -714,6 +721,7 @@
     "altTexts": {
       "companyLogo": "شعار شركة Powerton Engineering",
       "heroImage": "حلول أتمتة العمليات الصناعية والهندسة الكهربائية",
+      "heroBackground": "خلفية مرفق الأتمتة الصناعية تعرض خبرة Powerton Engineering",
       "productImage": "صورة المنتج {{productName}}"
     }
   }

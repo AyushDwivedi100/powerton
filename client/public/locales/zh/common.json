@@ -706,7 +706,14 @@
       "openLocation": "在 Google 地图中打开我们的办公地点",
       "mainNavigation": "主导航",
       "contactWhatsApp": "在 WhatsApp 上联系我们",
-      "contactJustDial": "在 Just Dial 上联系我们"
+      "contactJustDial": "在 Just Dial 上联系我们",
+      "footerInfo": "公司信息和站点导航",
+      "servicesNav": "服务导航",
+      "productsNav": "产品导航",
+      "callPrimary": "致电 Powerton Engineering - 主要",
+      "callSecondary": "致电 Powerton Engineering - 辅助",
+      "emailPowerton": "发送电子邮件至 Powerton Engineering",
+      "viewOfficeLocation": "在 Google 地图上查看 Powerton Engineering 办公室位置"
     },
     "messages": {
       "whatsappGreeting": "你好！我对贵公司的产品和服务感兴趣。"
@@ -714,6 +721,7 @@
     "altTexts": {
       "companyLogo": "Powerton Engineering 公司标志",
       "heroImage": "工业自动化和电气工程解决方案",
+      "heroBackground": "展示 Powerton Engineering 专长的工业自动化设施背景",
       "productImage": "{{productName}} 产品图片"
     }
   }

@@ -708,7 +708,14 @@
       "openLocation": "Duba wurin ofishinmu a Google Maps",
       "mainNavigation": "Babban kewayawa",
       "contactWhatsApp": "Tuntuɓe mu a WhatsApp",
-      "contactJustDial": "Tuntuɓe mu a Just Dial"
+      "contactJustDial": "Tuntuɓe mu a Just Dial",
+      "footerInfo": "Bayanin kamfani da kewayawan shafin",
+      "servicesNav": "Kewayawan ayyuka",
+      "productsNav": "Kewayawan kayayyaki",
+      "callPrimary": "Kira Powerton Engineering - Na farko",
+      "callSecondary": "Kira Powerton Engineering - Na biyu",
+      "emailPowerton": "Aika Powerton Engineering imel",
+      "viewOfficeLocation": "Duba wurin ofishin Powerton Engineering akan Google Maps"
     },
     "messages": {
       "whatsappGreeting": "Sannu! Ina sha'awar samfuran ku da ayyukan ku."
@@ -716,6 +723,7 @@
     "altTexts": {
       "companyLogo": "Alamar Kamfanin Powerton Engineering",
       "heroImage": "Sarrafa masana'antu ta atomatik da mafita na injiniyan lantarki",
+      "heroBackground": "Fage na wurin sarrafa masana'antu ta atomatik wanda ke nuna ƙwarewar Powerton Engineering",
       "productImage": "Hoton samfurin {{productName}}"
     }
   }

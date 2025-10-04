@@ -706,7 +706,14 @@
       "openLocation": "Открыть местоположение офиса в Google Maps",
       "mainNavigation": "Основная навигация",
       "contactWhatsApp": "Свяжитесь с нами в WhatsApp",
-      "contactJustDial": "Свяжитесь с нами через Just Dial"
+      "contactJustDial": "Свяжитесь с нами через Just Dial",
+      "footerInfo": "Информация о компании и навигация по сайту",
+      "servicesNav": "Навигация по услугам",
+      "productsNav": "Навигация по продуктам",
+      "callPrimary": "Позвонить в Powerton Engineering - Основной номер",
+      "callSecondary": "Позвонить в Powerton Engineering - Дополнительный номер",
+      "emailPowerton": "Написать в Powerton Engineering",
+      "viewOfficeLocation": "Посмотреть местоположение офиса Powerton Engineering на Google Maps"
     },
     "messages": {
       "whatsappGreeting": "Здравствуйте! Я заинтересован в ваших продуктах и услугах."
@@ -714,6 +721,7 @@
     "altTexts": {
       "companyLogo": "Логотип компании Powerton Engineering",
       "heroImage": "Решения для автоматизации промышленности и электротехники",
+      "heroBackground": "Фон предприятия промышленной автоматизации, демонстрирующий опыт Powerton Engineering",
       "productImage": "Изображение продукта {{productName}}"
     }
   }

@@ -706,7 +706,14 @@
       "openLocation": "Fungua eneo la ofisi kwenye Google Maps",
       "mainNavigation": "Urambazaji Mkuu",
       "contactWhatsApp": "Wasiliana nasi kupitia WhatsApp",
-      "contactJustDial": "Wasiliana nasi kupitia Just Dial"
+      "contactJustDial": "Wasiliana nasi kupitia Just Dial",
+      "footerInfo": "Habari za kampuni na urambazaji wa tovuti",
+      "servicesNav": "Urambazaji wa huduma",
+      "productsNav": "Urambazaji wa bidhaa",
+      "callPrimary": "Piga simu Powerton Engineering - Msingi",
+      "callSecondary": "Piga simu Powerton Engineering - Sekondari",
+      "emailPowerton": "Tuma barua pepe kwa Powerton Engineering",
+      "viewOfficeLocation": "Angalia eneo la ofisi ya Powerton Engineering kwenye Google Maps"
     },
     "messages": {
       "whatsappGreeting": "Halo! Ninavutiwa na bidhaa na huduma zako."
@@ -714,6 +721,7 @@
     "altTexts": {
       "companyLogo": "Nembo ya Kampuni ya Powerton Engineering",
       "heroImage": "Uendeshaji wa viwanda otomatiki na suluhisho za uhandisi wa umeme",
+      "heroBackground": "Mandharinyuma ya kituo cha kiotomatiki cha viwandani inayoonyesha utaalam wa Powerton Engineering",
       "productImage": "Picha ya bidhaa {{productName}}"
     }
   }

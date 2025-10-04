@@ -706,7 +706,14 @@
       "openLocation": "Abrir ubicación de la oficina en Google Maps",
       "mainNavigation": "Navegación principal",
       "contactWhatsApp": "Contáctanos en WhatsApp",
-      "contactJustDial": "Contáctanos en Just Dial"
+      "contactJustDial": "Contáctanos en Just Dial",
+      "footerInfo": "Información de la empresa y navegación del sitio",
+      "servicesNav": "Navegación de servicios",
+      "productsNav": "Navegación de productos",
+      "callPrimary": "Llamar a Powerton Engineering - Principal",
+      "callSecondary": "Llamar a Powerton Engineering - Secundario",
+      "emailPowerton": "Enviar un correo electrónico a Powerton Engineering",
+      "viewOfficeLocation": "Ver la ubicación de la oficina de Powerton Engineering en Google Maps"
     },
     "messages": {
       "whatsappGreeting": "¡Hola! Estoy interesado en sus productos y servicios."
@@ -714,6 +721,7 @@
     "altTexts": {
       "companyLogo": "Logotipo de la empresa Powerton Engineering",
       "heroImage": "Soluciones de automatización industrial e ingeniería eléctrica",
+      "heroBackground": "Fondo de la instalación de automatización industrial que muestra la experiencia de Powerton Engineering",
       "productImage": "Imagen del producto {{productName}}"
     }
   }
