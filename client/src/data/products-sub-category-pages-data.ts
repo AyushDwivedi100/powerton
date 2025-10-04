@@ -1020,6 +1020,216 @@ export const productsSubCategoryData: ProductSubCategoryData[] = [
         "https://powertonengineering.in/products/solar-products/solar-inverters",
     },
   },
+  {
+    slug: "solar-mounting-racking",
+    title: "Solar Mounting & Racking",
+    shortDescription:
+      "Industrial solar mounting systems and racking solutions for rooftop and ground installations",
+    fullDescription:
+      "Comprehensive range of solar mounting structures including pitched roof systems, flat roof ballasted systems, ground-mount solutions, and solar tracking systems from leading manufacturers like IronRidge, Unirac, and APA Solar.",
+    image: solarPanelsImage,
+    parentCategory: "/products/solar-products",
+    parentCategoryTitle: "Solar Products",
+    icon: Construction,
+    keyBenefits: [
+      "Structural Integrity",
+      "Easy Installation",
+      "Weather Resistant",
+      "25-Year Warranty",
+    ],
+    specifications: [
+      "Material: Aluminum, Galvanized Steel",
+      "Load Capacity: Various configurations",
+      "Tilt Angles: 5° to 60°",
+      "Wind Rating: Up to 180 mph",
+      "Snow Load: Varies by design",
+      "Certifications: UL 2703, IEC 61215",
+    ],
+    applications: [
+      "Residential Rooftop",
+      "Commercial Flat Roof",
+      "Ground Mount Utility",
+      "Carport Systems",
+      "Tracking Systems",
+      "Agricultural Installations",
+    ],
+    industries: [
+      "Solar Energy",
+      "Renewable Energy",
+      "Commercial Buildings",
+      "Residential Construction",
+      "Agriculture",
+      "Utility Scale Projects",
+    ],
+    features: [
+      "Pre-Assembled Components",
+      "Tool-Free Installation",
+      "UL 2703 Grounding",
+      "Corrosion Resistant",
+      "Universal Module Compatibility",
+      "Adjustable Tilt",
+      "Quick Mount System",
+      "Integrated Wire Management",
+    ],
+    certifications: [
+      "UL 2703",
+      "IEC 61215",
+      "ISO 9001",
+      "Wind Load Certified",
+      "Snow Load Certified",
+      "Seismic Certified",
+    ],
+    seo: {
+      title:
+        "Solar Mounting & Racking Systems - Rooftop, Ground Mount & Trackers | Powerton Engineering",
+      description:
+        "Industrial solar mounting structures and racking solutions including rooftop systems, ground-mount, ballasted systems, and solar trackers from IronRidge, Unirac, APA Solar.",
+      keywords:
+        "solar mounting, solar racking, ground mount, rooftop solar, solar trackers, ballasted systems, solar brackets",
+      canonicalUrl:
+        "https://powertonengineering.in/products/solar-products/solar-mounting-racking",
+    },
+  },
+  {
+    slug: "solar-charge-controllers",
+    title: "Solar Charge Controllers",
+    shortDescription:
+      "MPPT and PWM solar charge controllers for battery charging and energy management",
+    fullDescription:
+      "Advanced solar charge controllers including Maximum Power Point Tracking (MPPT) and Pulse Width Modulation (PWM) technologies from leading manufacturers like Victron Energy, Morningstar, Renogy, and EPever for optimal battery charging efficiency.",
+    image: solarInvertersImage,
+    parentCategory: "/products/solar-products",
+    parentCategoryTitle: "Solar Products",
+    icon: Activity,
+    keyBenefits: [
+      "Maximum Power Extraction",
+      "Battery Protection",
+      "Remote Monitoring",
+      "Multi-Chemistry Support",
+    ],
+    specifications: [
+      "Current Rating: 10A to 100A",
+      "Voltage: 12V/24V/48V Auto",
+      "MPPT Efficiency: 97-99%",
+      "PWM Efficiency: 75-80%",
+      "Protection: IP22 to IP67",
+      "Communication: Bluetooth, WiFi, RS485",
+    ],
+    applications: [
+      "Off-Grid Solar Systems",
+      "Battery Charging",
+      "RV & Marine",
+      "Remote Power",
+      "Solar Pumping",
+      "Hybrid Power Systems",
+    ],
+    industries: [
+      "Solar Energy",
+      "Off-Grid Power",
+      "Marine & RV",
+      "Telecommunications",
+      "Agriculture",
+      "Remote Monitoring",
+    ],
+    features: [
+      "MPPT Technology",
+      "Multi-Stage Charging",
+      "Battery Temperature Compensation",
+      "LCD Display",
+      "Programmable Settings",
+      "Load Control",
+      "Data Logging",
+      "App Control",
+    ],
+    certifications: [
+      "CE Certified",
+      "UL Listed",
+      "RoHS Compliant",
+      "FCC Approved",
+      "IP Rating Certified",
+      "ISO 9001",
+    ],
+    seo: {
+      title:
+        "Solar Charge Controllers - MPPT & PWM Controllers | Powerton Engineering",
+      description:
+        "High-efficiency MPPT and PWM solar charge controllers from Victron Energy, Morningstar, Renogy, EPever for optimal solar battery charging and energy management.",
+      keywords:
+        "solar charge controller, MPPT controller, PWM controller, battery charger, solar regulator, charge regulator",
+      canonicalUrl:
+        "https://powertonengineering.in/products/solar-products/solar-charge-controllers",
+    },
+  },
+  {
+    slug: "solar-batteries-storage",
+    title: "Solar Batteries & Energy Storage",
+    shortDescription:
+      "Lithium and LFP battery storage systems for solar energy applications",
+    fullDescription:
+      "Advanced lithium iron phosphate (LFP) and lithium-ion battery storage systems from Tesla, Enphase, Generac, BYD, and CATL for residential, commercial, and utility-scale solar energy storage with integrated battery management systems.",
+    image: solarInvertersImage,
+    parentCategory: "/products/solar-products",
+    parentCategoryTitle: "Solar Products",
+    icon: Battery,
+    keyBenefits: [
+      "Long Cycle Life",
+      "High Energy Density",
+      "Integrated BMS",
+      "Scalable Systems",
+    ],
+    specifications: [
+      "Capacity: 5kWh to 100kWh+",
+      "Chemistry: LiFePO4, Li-ion",
+      "Cycle Life: 3000 to 10000 cycles",
+      "Efficiency: 89% to 98%",
+      "Operating Temp: -20°C to 55°C",
+      "Warranty: 10-15 years",
+    ],
+    applications: [
+      "Residential Energy Storage",
+      "Commercial Backup Power",
+      "Utility Scale Storage",
+      "Off-Grid Systems",
+      "Hybrid Solar Systems",
+      "Peak Shaving",
+    ],
+    industries: [
+      "Renewable Energy",
+      "Residential",
+      "Commercial",
+      "Utilities",
+      "Industrial",
+      "Telecommunications",
+    ],
+    features: [
+      "LFP Chemistry Safety",
+      "Modular Design",
+      "Smart BMS",
+      "AC/DC Coupling",
+      "Remote Monitoring",
+      "Grid Integration",
+      "Backup Power",
+      "Fast Charging",
+    ],
+    certifications: [
+      "UL 1973",
+      "UL 9540",
+      "IEC 62619",
+      "CE Marked",
+      "ISO 9001",
+      "Fire Safety Certified",
+    ],
+    seo: {
+      title:
+        "Solar Batteries & Energy Storage - LFP Battery Systems | Powerton Engineering",
+      description:
+        "Advanced lithium and LFP battery storage systems from Tesla Powerwall, Enphase, Generac, BYD for residential and commercial solar energy storage.",
+      keywords:
+        "solar battery, energy storage, LFP battery, lithium battery, Tesla Powerwall, battery backup, solar storage",
+      canonicalUrl:
+        "https://powertonengineering.in/products/solar-products/solar-batteries-storage",
+    },
+  },
 
   // Automation & Control Systems
   {
@@ -2760,6 +2970,9 @@ export const getSubcategorySlugById = (
     "lifting-equipment": "lifting-equipment",
     "solar-panels": "solar-panels",
     "solar-inverters": "solar-inverters",
+    "solar-mounting-racking": "solar-mounting-racking",
+    "solar-charge-controllers": "solar-charge-controllers",
+    "solar-batteries-storage": "solar-batteries-storage",
     plcs: "plcs",
     scada: "scada",
     dcs: "dcs",
@@ -2830,6 +3043,9 @@ export const getParentCategoryBySubcategoryKey = (
     // Solar Products
     "solar-panels": "solar-products",
     "solar-inverters": "solar-products",
+    "solar-mounting-racking": "solar-products",
+    "solar-charge-controllers": "solar-products",
+    "solar-batteries-storage": "solar-products",
 
     // Automation Control Systems
     plcs: "automation-control-systems",
@@ -2885,6 +3101,9 @@ export const getSubcategoryKeyBySlug = (subcategorySlug: string): string => {
     "spectrum-analyzers": "spectrum-analyzers",
     "solar-panels": "solar-panels",
     "solar-inverters": "solar-inverters",
+    "solar-mounting-racking": "solar-mounting-racking",
+    "solar-charge-controllers": "solar-charge-controllers",
+    "solar-batteries-storage": "solar-batteries-storage",
     plcs: "plcs",
     hmi: "hmi",
     scada: "scada",
