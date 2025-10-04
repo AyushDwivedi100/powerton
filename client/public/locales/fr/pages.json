@@ -1,8 +1,8 @@
 {
   "news": {
-    "cta" : {
-      "title" : "Faites partie de notre aventure",
-      "description" : "Rejoignez-nous alors que nous continuons d'innover et de jouer un rôle de premier plan dans l'automatisation industrielle. Communiquez avec nous pour des partenariats, des possibilités de carrière ou des collaborations sur des projets."
+    "cta": {
+      "title": "Faites partie de notre aventure",
+      "description": "Rejoignez-nous alors que nous continuons d'innover et de jouer un rôle de premier plan dans l'automatisation industrielle. Communiquez avec nous pour des partenariats, des possibilités de carrière ou des collaborations sur des projets."
     },
     "hero": {
       "title": "Nouvelles",
@@ -57,6 +57,47 @@
       "allNews": "Toutes les nouvelles",
       "allCategories": "Toutes les catégories",
       "upcomingProjects": "Projets à venir"
+    },
+    "projectStatuses": {
+      "planningPhase": "Phase de planification",
+      "contractSigned": "Contrat signé",
+      "engineeringPhase": "Phase d'ingénierie",
+      "inProgress": "En cours"
+    },
+    "upcomingProjects": {
+      "smartCity": {
+        "title": "Automatisation de l'infrastructure de ville intelligente",
+        "client": "Noida Smart City Ltd.",
+        "description": "Infrastructure d'automatisation complète pour le projet de ville intelligente, comprenant la gestion du trafic, la gestion des déchets et les systèmes de distribution d'énergie.",
+        "technologies": {
+          "iot": "IoT",
+          "smartSensors": "Capteurs intelligents",
+          "cityManagement": "Systèmes de gestion de la ville",
+          "energyAutomation": "Automatisation de l'énergie"
+        }
+      },
+      "pharmaceutical": {
+        "title": "Automatisation de la fabrication pharmaceutique",
+        "client": "Cipla Limited",
+        "description": "Automatisation avancée des processus de fabrication pharmaceutique, conforme aux normes internationales et aux systèmes de contrôle de la qualité.",
+        "technologies": {
+          "gmpCompliance": "Conformité aux BPF",
+          "batchProcessing": "Traitement par lots",
+          "qualityControl": "Contrôle de la qualité",
+          "traceabilitySystems": "Systèmes de traçabilité"
+        }
+      },
+      "solarFarm": {
+        "title": "Automatisation et surveillance des parcs solaires",
+        "client": "Adani Green Energy",
+        "description": "Solution d'automatisation complète pour un parc solaire de 200 MW, comprenant des systèmes de suivi, la surveillance météorologique et l'intégration au réseau.",
+        "technologies": {
+          "solarTracking": "Suivi solaire",
+          "weatherSystems": "Systèmes météorologiques",
+          "gridIntegration": "Intégration au réseau",
+          "remoteMonitoring": "Surveillance à distance"
+        }
+      }
     }
   },
   "home": {
@@ -179,29 +220,29 @@
       "title": "À propos de Powerton Engineering - Plus de 15 ans d'excellence en automatisation industrielle",
       "description": "Découvrez le parcours de Powerton Engineering dans les solutions d'automatisation industrielle, de génie électrique et d'instrumentation. Une équipe d'experts au service des industries à travers la Chine depuis 2008.",
       "keywords": "À propos de Powerton Engineering, entreprise d'automatisation industrielle, entreprise de génie électrique, services d'instrumentation, experts en automatisation en Chine"
-      },
-      "hero": {
+    },
+    "hero": {
       "title": "L'excellence en ingénierie depuis 2008",
       "subtitle": "Votre partenaire de confiance dans les solutions d'automatisation industrielle et de génie électrique"
-      },
-      "story": {
+    },
+    "story": {
       "title": "Notre parcours et notre vision",
       "description1": "Fondée en 2008 avec une vision visant à autonomiser les industries grâce à l'innovation et à l'excellence, Powerton Engineering est à l'avant-garde des solutions d'automatisation industrielle et de génie électrique. Notre parcours a commencé avec une mission simple mais puissante : fournir des solutions d'ingénierie de pointe qui stimulent la croissance industrielle et l'efficacité opérationnelle.",
       "description2": "Au fil des ans, nous sommes passés d'une petite entreprise d'ingénierie à un partenaire de confiance pour les industries à travers la Chine et le monde. Notre équipe d'ingénieurs expérimentés et d'experts techniques travaille sans relâche pour fournir des solutions qui non seulement répondent, mais dépassent les attentes de nos clients."
-      },
-      "mission": {
+    },
+    "mission": {
       "title": "Notre mission",
       "description": "Fournir des solutions d'ingénierie novatrices, fiables et durables qui permettent à nos clients d'atteindre l'excellence opérationnelle et de stimuler la croissance industrielle."
-      },
-      "vision": {
+    },
+    "vision": {
       "title": "Notre vision",
       "description": "Être le principal fournisseur de solutions d'automatisation industrielle et de génie électrique, reconnu pour son expertise technique, sa qualité et son engagement envers la réussite de ses clients."
-      },
-      "coreValues": {
+    },
+    "coreValues": {
       "title": "Nos valeurs fondamentales",
       "subtitle": "Les principes qui guident tout ce que nous faisons"
-      },
-      "values": {
+    },
+    "values": {
       "quality": {
         "title": "Excellence en matière de qualité",
         "description": "Nous maintenons les normes les plus élevées dans chaque projet que nous livrons"
@@ -218,14 +259,14 @@
         "title": "Fiabilité et confiance",
         "description": "Des solutions fiables auxquelles vous pouvez faire confiance pour les opérations essentielles"
       }
-      },
-      "stats": {
+    },
+    "stats": {
       "engineers": "Ingénieurs",
       "staff": "Personnel de soutien",
       "experience": "Années d'expérience",
       "support": "Soutien"
-      },
-      "certifications": {
+    },
+    "certifications": {
       "title": "Certifications et normes",
       "subtitle": "Notre engagement envers la qualité est validé par des certifications reconnues par l'industrie et des normes de conformité.",
       "iso9001": "ISO 9001",
@@ -234,8 +275,8 @@
       "ceMarking": "Marquage CE",
       "ulListed": "Homologué UL",
       "cpriApproved": "Approuvé par le CPRI"
-      },
-      "achievements": {
+    },
+    "achievements": {
       "title": "Prix et réalisations",
       "subtitle": "Reconnaissance de notre engagement envers l'excellence, l'innovation et la qualité dans l'automatisation industrielle.",
       "2024": {
@@ -264,8 +305,8 @@
           "2": "Reconnaissance de l'excellence en matière de qualité - Bureau des normes indiennes"
         }
       }
-      },
-      "futureGoals": {
+    },
+    "futureGoals": {
       "title": "Objectifs et vision d'avenir",
       "subtitle": "Notre feuille de route stratégique pour devenir le principal fournisseur de solutions d'automatisation industrielle en Inde.",
       "marketLeadership": {
@@ -312,6 +353,28 @@
       "contactTeam": "Contacter l'équipe"
     },
     "showing": "Affichage de {{count}} projets sur {{total}}",
+    "filters": {
+      "industries": {
+        "all": "Tous",
+        "manufacturing": "Fabrication",
+        "powerGeneration": "Production d'énergie",
+        "renewableEnergy": "Énergie renouvelable",
+        "processIndustries": "Industries de transformation"
+      },
+      "categories": {
+        "all": "Tous",
+        "processAutomation": "Automatisation des processus",
+        "powerSystems": "Systèmes d'alimentation",
+        "solarSolutions": "Solutions solaires",
+        "waterSystems": "Systèmes d'eau"
+      },
+      "statuses": {
+        "all": "Tous",
+        "capabilityDemo": "Démonstration des capacités",
+        "inProgress": "En cours",
+        "completed": "Terminé"
+      }
+    },
     "items": {
       "industrial-automation-demo": {
         "title": "Démo : Systèmes d'automatisation industrielle",
@@ -582,9 +645,9 @@
     }
   },
   "quote": {
-    "form" : {
-      "title" : "Demander un devis personnalisé",
-      "description" : "Obtenez un devis détaillé adapté aux exigences spécifiques de votre projet auprès de nos experts en ingénierie."
+    "form": {
+      "title": "Demander un devis personnalisé",
+      "description": "Obtenez un devis détaillé adapté aux exigences spécifiques de votre projet auprès de nos experts en ingénierie."
     },
     "hero": {
       "title": "Obtenez un devis d'ingénierie professionnel",
@@ -597,7 +660,7 @@
       }
     },
     "benefits": {
-      "title" : "Pourquoi choisir notre service de devis ?",
+      "title": "Pourquoi choisir notre service de devis ?",
       "description": "Obtenez des prix précis et des conseils professionnels pour vos projets d'ingénierie grâce à notre service de devis complet.",
       "assessment": {
         "title": "Évaluation détaillée",
@@ -1027,9 +1090,9 @@
         "description": "Travaillez sur des technologies de pointe et des solutions novatrices en automatisation industrielle."
       }
     },
-    "whyJoinUs" : {
-      "title" : "Pourquoi choisir Powerton Engineering ?",
-      "description" : "Faites partie d'une équipe dynamique qui façonne l'avenir de l'automatisation industrielle et du génie électrique"
+    "whyJoinUs": {
+      "title": "Pourquoi choisir Powerton Engineering ?",
+      "description": "Faites partie d'une équipe dynamique qui façonne l'avenir de l'automatisation industrielle et du génie électrique"
     }
   },
   "seo": {

@@ -1,8 +1,8 @@
 {
   "news": {
-    "cta" : {
-      "title" : "Kuwa Sehemu ya Safari Yetu",
-      "description" : "Jiunge nasi tunapoendelea kubuni na kuongoza katika automatisheni ya viwandani. Ungana nasi kwa ushirikiano, fursa za kazi, au ushirikiano wa mradi."
+    "cta": {
+      "title": "Kuwa Sehemu ya Safari Yetu",
+      "description": "Jiunge nasi tunapoendelea kubuni na kuongoza katika automatisheni ya viwandani. Ungana nasi kwa ushirikiano, fursa za kazi, au ushirikiano wa mradi."
     },
     "hero": {
       "title": "Habari",
@@ -57,6 +57,47 @@
       "allNews": "Habari Zote",
       "allCategories": "Kategoria Zote",
       "upcomingProjects": "Miradi Inayokuja"
+    },
+    "projectStatuses": {
+      "planningPhase": "Awamu ya Mipango",
+      "contractSigned": "Mkataba Umesainiwa",
+      "engineeringPhase": "Awamu ya Uhandisi",
+      "inProgress": "Inaendelea"
+    },
+    "upcomingProjects": {
+      "smartCity": {
+        "title": "Uendeshaji wa Miundombinu ya Jiji Mahiri",
+        "client": "Noida Smart City Ltd.",
+        "description": "Miundombinu kamili ya uendeshaji kwa mradi wa jiji mahiri ikijumuisha usimamizi wa trafiki, usimamizi wa taka, na mifumo ya usambazaji wa nishati.",
+        "technologies": {
+          "iot": "IoT",
+          "smartSensors": "Sensorer Mahiri",
+          "cityManagement": "Mifumo ya Usimamizi wa Jiji",
+          "energyAutomation": "Uendeshaji wa Nishati"
+        }
+      },
+      "pharmaceutical": {
+        "title": "Uendeshaji wa Utengenezaji wa Dawa",
+        "client": "Cipla Limited",
+        "description": "Uendeshaji wa hali ya juu kwa michakato ya utengenezaji wa dawa kwa kufuata viwango vya kimataifa na mifumo ya udhibiti wa ubora.",
+        "technologies": {
+          "gmpCompliance": "Ufuataji wa GMP",
+          "batchProcessing": "Usindikaji wa Kundi",
+          "qualityControl": "Udhibiti wa Ubora",
+          "traceabilitySystems": "Mifumo ya Ufuatiliaji"
+        }
+      },
+      "solarFarm": {
+        "title": "Uendeshaji na Ufuatiliaji wa Shamba la Jua",
+        "client": "Adani Green Energy",
+        "description": "Suluhisho kamili la uendeshaji kwa shamba la jua la 200MW ikijumuisha mifumo ya ufuatiliaji, ufuatiliaji wa hali ya hewa, na ujumuishaji wa gridi.",
+        "technologies": {
+          "solarTracking": "Ufuatiliaji wa Jua",
+          "weatherSystems": "Mifumo ya Hali ya Hewa",
+          "gridIntegration": "Ujumuishaji wa Gridi",
+          "remoteMonitoring": "Ufuatiliaji wa Mbali"
+        }
+      }
     }
   },
   "home": {
@@ -179,29 +220,29 @@
       "title": "Kuhusu Powerton Engineering - Zaidi ya Miaka 15 ya Ubora katika Automatisheni ya Viwandani",
       "description": "Jifunze kuhusu safari ya Powerton Engineering katika automatisheni ya viwandani, uhandisi wa umeme, na suluhisho za ala. Timu ya wataalamu inayohudumia viwanda kote India tangu 2008.",
       "keywords": "Kuhusu Powerton Engineering, Kampuni ya Automatisheni ya Viwandani, Kampuni ya Uhandisi wa Umeme, Huduma za Ala, Wataalamu wa Automatisheni wa China"
-      },
-      "hero": {
+    },
+    "hero": {
       "title": "Ubora wa Uhandisi Tangu 2008",
       "subtitle": "Mshirika Wako Unayemwamini katika Suluhisho za Automatisheni ya Viwandani na Uhandisi wa Umeme"
-      },
-      "story": {
+    },
+    "story": {
       "title": "Safari na Dira Yetu",
       "description1": "Ilianzishwa mwaka wa 2008 kwa dira ya kuwezesha viwanda kupitia uvumbuzi na ubora, Powerton Engineering imekuwa mstari wa mbele katika automatisheni ya viwandani na suluhisho za uhandisi wa umeme. Safari yetu ilianza na dhamira rahisi lakini yenye nguvu: kutoa suluhisho za uhandisi za kisasa zinazoendesha ukuaji wa viwanda na ufanisi wa uendeshaji.",
       "description2": "Kwa miaka mingi, tumekua kutoka kampuni ndogo ya uhandisi hadi mshirika anayeaminika kwa viwanda kote China na ulimwenguni. Timu yetu ya wahandisi wenye uzoefu na wataalamu wa kiufundi hufanya kazi bila kuchoka kutoa suluhisho ambazo hazifikii tu bali zinazidi matarajio ya wateja wetu."
-      },
-      "mission": {
+    },
+    "mission": {
       "title": "Dhamira Yetu",
       "description": "Kutoa suluhisho za uhandisi za kibunifu, za kuaminika, na endelevu zinazowawezesha wateja wetu kufikia ubora wa uendeshaji na kuendesha ukuaji wa viwanda."
-      },
-      "vision": {
+    },
+    "vision": {
       "title": "Dira Yetu",
       "description": "Kuwa mtoa huduma mkuu wa automatisheni ya viwandani na suluhisho za uhandisi wa umeme, inayotambulika kwa utaalamu wetu wa kiufundi, ubora, na kujitolea kwa mafanikio ya mteja."
-      },
-      "coreValues": {
+    },
+    "coreValues": {
       "title": "Thamani Zetu za Msingi",
       "subtitle": "Kanuni zinazoongoza kila kitu tunachofanya"
-      },
-      "values": {
+    },
+    "values": {
       "quality": {
         "title": "Ubora Bora",
         "description": "Tunashikilia viwango vya juu zaidi katika kila mradi tunaotoa"
@@ -218,14 +259,14 @@
         "title": "Kutegemeka na Uaminifu",
         "description": "Suluhisho za kuaminika unazoweza kuzitegemea kwa shughuli muhimu"
       }
-      },
-      "stats": {
+    },
+    "stats": {
       "engineers": "Wahandisi",
       "staff": "Wafanyakazi wa Usaidizi",
       "experience": "Uzoefu wa Miaka",
       "support": "Msaada"
-      },
-      "certifications": {
+    },
+    "certifications": {
       "title": "Vyeti na Viwango",
       "subtitle": "Kujitolea kwetu kwa ubora kunathibitishwa kupitia vyeti vinavyotambulika na viwango vya kufuata tasnia.",
       "iso9001": "ISO 9001",
@@ -234,8 +275,8 @@
       "ceMarking": "Alama ya CE",
       "ulListed": "Imeorodheshwa na UL",
       "cpriApproved": "Imeidhinishwa na CPRI"
-      },
-      "achievements": {
+    },
+    "achievements": {
       "title": "Tuzo na Mafanikio",
       "subtitle": "Kutambuliwa kwa kujitolea kwetu kwa ubora, uvumbuzi, na ubora katika automatisheni ya viwandani.",
       "2024": {
@@ -264,8 +305,8 @@
           "2": "Utambuzi wa Ubora Bora - Ofisi ya Viwango vya India"
         }
       }
-      },
-      "futureGoals": {
+    },
+    "futureGoals": {
       "title": "Malengo na Dira ya Baadaye",
       "subtitle": "Ramani yetu ya kimkakati kuelekea kuwa mtoa huduma mkuu wa suluhisho za automatisheni ya viwandani nchini India.",
       "marketLeadership": {
@@ -312,6 +353,28 @@
       "contactTeam": "Wasiliana na Timu"
     },
     "showing": "Inaonyesha miradi {{count}} kati ya {{total}}",
+    "filters": {
+      "industries": {
+        "all": "Zote",
+        "manufacturing": "Utengenezaji",
+        "powerGeneration": "Uzalishaji wa Nguvu",
+        "renewableEnergy": "Nishati Mbadala",
+        "processIndustries": "Viwanda vya Mchakato"
+      },
+      "categories": {
+        "all": "Zote",
+        "processAutomation": "Uendeshaji wa Mchakato",
+        "powerSystems": "Mifumo ya Nguvu",
+        "solarSolutions": "Suluhisho za Jua",
+        "waterSystems": "Mifumo ya Maji"
+      },
+      "statuses": {
+        "all": "Zote",
+        "capabilityDemo": "Onyesho la Uwezo",
+        "inProgress": "Inaendelea",
+        "completed": "Imekamilika"
+      }
+    },
     "items": {
       "industrial-automation-demo": {
         "title": "Onyesho: Mifumo ya Uendeshaji wa Viwandani",
@@ -582,9 +645,9 @@
     }
   },
   "quote": {
-    "form" : {
-      "title" : "Omba Nukuu Maalum",
-      "description" : "Pata nukuu ya kina iliyoundwa kulingana na mahitaji yako maalum ya mradi kutoka kwa wataalamu wetu wa uhandisi."
+    "form": {
+      "title": "Omba Nukuu Maalum",
+      "description": "Pata nukuu ya kina iliyoundwa kulingana na mahitaji yako maalum ya mradi kutoka kwa wataalamu wetu wa uhandisi."
     },
     "hero": {
       "title": "Pata Nukuu ya Uhandisi ya Kitaalamu",
@@ -597,7 +660,7 @@
       }
     },
     "benefits": {
-      "title" : "Kwa nini uchague huduma yetu ya nukuu?",
+      "title": "Kwa nini uchague huduma yetu ya nukuu?",
       "description": "Pata bei sahihi na ushauri wa kitaalamu kwa miradi yako ya uhandisi na huduma yetu pana ya nukuu.",
       "assessment": {
         "title": "Tathmini ya Kina",
@@ -1027,9 +1090,9 @@
         "description": "Fanya kazi kwenye teknolojia za kisasa na suluhisho za ubunifu katika automatisheni ya viwandani."
       }
     },
-    "whyJoinUs" : {
-      "title" : "Kwa Nini Uchague Powerton Engineering?",
-      "description" : "Kuwa sehemu ya timu yenye nguvu ambayo inaunda mustakabali wa automatisheni ya viwandani na uhandisi wa umeme"
+    "whyJoinUs": {
+      "title": "Kwa Nini Uchague Powerton Engineering?",
+      "description": "Kuwa sehemu ya timu yenye nguvu ambayo inaunda mustakabali wa automatisheni ya viwandani na uhandisi wa umeme"
     }
   },
   "seo": {

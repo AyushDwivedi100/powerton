@@ -136,6 +136,15 @@
     "availability": "Disponibilidad 24/7 para soporte rápido",
     "responseTime": "Dentro de 2 días para la consulta inicial"
   },
+  "ui": {
+    "ariaLabels": {
+      "contactWhatsApp": "Contáctanos en WhatsApp",
+      "contactJustDial": "Encuéntranos en Just Dial"
+    },
+    "messages": {
+      "whatsappGreeting": "¡Hola! Estoy interesado en sus servicios de automatización industrial e ingeniería."
+    }
+  },
   "aria": {
     "toggleNavigation": "Alternar el menú de navegación",
     "openLocation": "Abrir la ubicación de la oficina en Google Maps",

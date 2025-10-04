@@ -1,8 +1,8 @@
 {
   "news": {
-    "cta" : {
-      "title" : "Kasance Cikin Tafiyarmu",
-      "description" : "Haɗa kai da mu yayin da muke ci gaba da ƙirƙira da jagoranci a cikin sarrafa masana'antu. Haɗa kai da mu don haɗin gwiwa, damar aiki, ko haɗin gwiwar aiki."
+    "cta": {
+      "title": "Kasance Cikin Tafiyarmu",
+      "description": "Haɗa kai da mu yayin da muke ci gaba da ƙirƙira da jagoranci a cikin sarrafa masana'antu. Haɗa kai da mu don haɗin gwiwa, damar aiki, ko haɗin gwiwar aiki."
     },
     "hero": {
       "title": "Labarai",
@@ -57,6 +57,47 @@
       "allNews": "Duk Labarai",
       "allCategories": "Duk Rukunoni",
       "upcomingProjects": "Ayyukan da ke Tafe"
+    },
+    "projectStatuses": {
+      "planningPhase": "Matakin Shiryawa",
+      "contractSigned": "An Sanya Hannu Kan Kwangila",
+      "engineeringPhase": "Matakin Injiniya",
+      "inProgress": "Ana Ci Gaba"
+    },
+    "upcomingProjects": {
+      "smartCity": {
+        "title": "Kera Kayayyakin More Rayuwa na Birni Mai Wayo ta atomatik",
+        "client": "Noida Smart City Ltd.",
+        "description": "Cikakken kayayyakin more rayuwa na sarrafa kansa don aikin birni mai wayo wanda ya haɗa da sarrafa zirga-zirga, sarrafa shara, da tsarin rarraba makamashi.",
+        "technologies": {
+          "iot": "IoT",
+          "smartSensors": "Masu gano hankali",
+          "cityManagement": "Tsarin Gudanar da Birni",
+          "energyAutomation": "Kera Makamashi ta atomatik"
+        }
+      },
+      "pharmaceutical": {
+        "title": "Kera Magunguna ta atomatik",
+        "client": "Cipla Limited",
+        "description": "Kera magunguna ta atomatik mai zurfi tare da bin ƙa'idodin ƙasa da ƙasa da tsarin kula da inganci.",
+        "technologies": {
+          "gmpCompliance": "Bin GMP",
+          "batchProcessing": "Sarrafa Batch",
+          "qualityControl": "Kula da Inganci",
+          "traceabilitySystems": "Tsarin Gano Asali"
+        }
+      },
+      "solarFarm": {
+        "title": "Kera Gonakin Hasken Rana ta atomatik da Kulawa",
+        "client": "Adani Green Energy",
+        "description": "Cikakken bayani na sarrafa kansa don gonakin hasken rana mai karfin 200MW wanda ya haɗa da tsarin bin diddigi, sa ido kan yanayi, da haɗin grid.",
+        "technologies": {
+          "solarTracking": "Binciken Hasken Rana",
+          "weatherSystems": "Tsarin Yanayi",
+          "gridIntegration": "Haɗin Grid",
+          "remoteMonitoring": "Sa ido na Nesa"
+        }
+      }
     }
   },
   "home": {
@@ -179,29 +220,29 @@
       "title": "Game da Injiniya na Powerton - Shekaru 15+ na Ƙwarewar Masana'antu ta atomatik",
       "description": "Koyi game da tafiyar Injiniya na Powerton a cikin sarrafa masana'antu, injiniyan lantarki, da hanyoyin kayan aiki. Ƙungiyar ƙwararru tana hidimar masana'antu a duk faɗin China tun 2008.",
       "keywords": "Game da Injiniya na Powerton, Kamfanin Kera Masana'antu ta atomatik, Kamfanin Injiniya na Lantarki, Sabis na Kayan Aiki, Masana'antu ta atomatik na China"
-      },
-      "hero": {
+    },
+    "hero": {
       "title": "Ƙwarewar Injiniya Tun 2008",
       "subtitle": "Abokin Hulɗarku Amintacce a cikin Masana'antu ta atomatik da Maganin Injiniya na Lantarki"
-      },
-      "story": {
+    },
+    "story": {
       "title": "Tarihinmu da Hangen Nesa",
       "description1": "An kafa shi a cikin 2008 tare da hangen nesa don ƙarfafa masana'antu ta hanyar ƙirƙira da kyau, Injiniya na Powerton ya kasance kan gaba wajen sarrafa masana'antu da mafita na injiniyan lantarki. Tafiyarmu ta fara ne da manufa mai sauƙi amma mai ƙarfi: don samar da mafita na injiniya na yankan da ke haifar da ci gaban masana'antu da ingancin aiki.",
       "description2": "A cikin shekarun da suka gabata, mun girma daga ƙaramin kamfanin injiniya zuwa amintaccen abokin tarayya ga masana'antu a duk faɗin China da duniya. Ƙungiyarmu ta ƙwararrun injiniyoyi da ƙwararrun fasaha suna aiki tuƙuru don samar da mafita waɗanda ba kawai suka cika ba har ma sun zarce tsammanin abokan cinikinmu."
-      },
-      "mission": {
+    },
+    "mission": {
       "title": "Manufarmu",
       "description": "Don samar da sabbin hanyoyi, abin dogaro, da dorewa na injiniya waɗanda ke baiwa abokan cinikinmu damar cimma ƙwarewar aiki da haifar da ci gaban masana'antu."
-      },
-      "vision": {
+    },
+    "vision": {
       "title": "Hangarmu",
       "description": "Don zama babban mai ba da sabis na sarrafa masana'antu da mafita na injiniyan lantarki, wanda aka gane don ƙwarewarmu ta fasaha, inganci, da sadaukarwa ga nasarar abokin ciniki."
-      },
-      "coreValues": {
+    },
+    "coreValues": {
       "title": "Ƙimarmu ta Asali",
       "subtitle": "Ka'idojin da ke jagorantar duk abin da muke yi"
-      },
-      "values": {
+    },
+    "values": {
       "quality": {
         "title": "Kyawun Inganci",
         "description": "Muna kiyaye mafi girman matsayi a cikin kowane aiki da muke bayarwa"
@@ -218,14 +259,14 @@
         "title": "Abin Dogaro & Amincewa",
         "description": "Maganin abin dogaro da zaku iya amincewa da mahimman ayyuka"
       }
-      },
-      "stats": {
+    },
+    "stats": {
       "engineers": "Injiniyoyi",
       "staff": "Ma'aikatan Tallafi",
       "experience": "Shekaru Ƙwarewa",
       "support": "Tallafi"
-      },
-      "certifications": {
+    },
+    "certifications": {
       "title": "Takaddun shaida & Ƙa'idoji",
       "subtitle": "An tabbatar da sadaukarwarmu ga inganci ta hanyar takaddun shaida da ƙa'idodin bin doka da masana'antu suka amince da su.",
       "iso9001": "ISO 9001",
@@ -234,8 +275,8 @@
       "ceMarking": "Alamar CE",
       "ulListed": "UL Lissafi",
       "cpriApproved": "CPRI An Amince da Shi"
-      },
-      "achievements": {
+    },
+    "achievements": {
       "title": "Kyaututtuka & Nasarori",
       "subtitle": "Gane sadaukarwarmu ga kyau, ƙirƙira, da inganci a cikin sarrafa masana'antu.",
       "2024": {
@@ -264,8 +305,8 @@
           "2": "Gane Ƙwarewa ta Inganci - Ofishin Ƙa'idodin Indiya"
         }
       }
-      },
-      "futureGoals": {
+    },
+    "futureGoals": {
       "title": "Manufofin Gaba & Hangen Nesa",
       "subtitle": "Taswirar dabarunmu na zama babban mai ba da sabis na sarrafa masana'antu a Indiya.",
       "marketLeadership": {
@@ -312,6 +353,28 @@
       "contactTeam": "Tuntuɓi Ƙungiyar"
     },
     "showing": "Ana nuna ayyuka {{count}} na {{total}}",
+    "filters": {
+      "industries": {
+        "all": "Duk",
+        "manufacturing": "Masana'antu",
+        "powerGeneration": "Samar da Wuta",
+        "renewableEnergy": "Makamashi Mai Sabuntawa",
+        "processIndustries": "Masana'antu Masu Sarrafawa"
+      },
+      "categories": {
+        "all": "Duk",
+        "processAutomation": "Kera Tsari ta atomatik",
+        "powerSystems": "Tsarin Wuta",
+        "solarSolutions": "Maganin Hasken Rana",
+        "waterSystems": "Tsarin Ruwa"
+      },
+      "statuses": {
+        "all": "Duk",
+        "capabilityDemo": "Nunin Ƙarfin Ƙarfi",
+        "inProgress": "Ana Ci Gaba",
+        "completed": "An Kammala"
+      }
+    },
     "items": {
       "industrial-automation-demo": {
         "title": "Demo: Tsarin Kera Masana'antu ta atomatik",
@@ -582,9 +645,9 @@
     }
   },
   "quote": {
-    "form" : {
-      "title" : "Nemi Zance na Musamman",
-      "description" : "Samu cikakken zance wanda aka keɓance don takamaiman buƙatun aikin ku daga ƙwararrun injiniyoyinmu."
+    "form": {
+      "title": "Nemi Zance na Musamman",
+      "description": "Samu cikakken zance wanda aka keɓance don takamaiman buƙatun aikin ku daga ƙwararrun injiniyoyinmu."
     },
     "hero": {
       "title": "Samu Ƙididdigar Injiniya na Ƙwararru",
@@ -597,7 +660,7 @@
       }
     },
     "benefits": {
-      "title" : "Me yasa Zabi Sabis na Zance Na Mu?",
+      "title": "Me yasa Zabi Sabis na Zance Na Mu?",
       "description": "Samu daidaitaccen farashi da shawarwari na ƙwararru don ayyukan injiniyan ku tare da sabis na zance namu mai fa'ida.",
       "assessment": {
         "title": "Ƙimar Cikakke",
@@ -1027,9 +1090,9 @@
         "description": "Yi aiki akan fasahohi masu yankan-kaifi da sabbin hanyoyin sarrafa masana'antu."
       }
     },
-    "whyJoinUs" : {
-      "title" : "Me yasa Zaɓi Injiniya na Powerton?",
-      "description" : "Kasance wani ɓangare na ƙungiya mai ƙwazo da ke tsara makomar sarrafa masana'antu da injiniyan lantarki"
+    "whyJoinUs": {
+      "title": "Me yasa Zaɓi Injiniya na Powerton?",
+      "description": "Kasance wani ɓangare na ƙungiya mai ƙwazo da ke tsara makomar sarrafa masana'antu da injiniyan lantarki"
     }
   },
   "seo": {

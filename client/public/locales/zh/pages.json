@@ -1,8 +1,8 @@
 {
   "news": {
-    "cta" : {
-      "title" : "成为我们旅程的一部分",
-      "description" : "加入我们，继续在工业自动化领域创新和领先。与我们联系，寻求合作、职业机会或项目协作。"
+    "cta": {
+      "title": "成为我们旅程的一部分",
+      "description": "加入我们，继续在工业自动化领域创新和领先。与我们联系，寻求合作、职业机会或项目协作。"
     },
     "hero": {
       "title": "新闻",
@@ -57,6 +57,47 @@
       "allNews": "所有新闻",
       "allCategories": "所有类别",
       "upcomingProjects": "即将开展的项目"
+    },
+    "projectStatuses": {
+      "planningPhase": "规划阶段",
+      "contractSigned": "合同已签署",
+      "engineeringPhase": "工程阶段",
+      "inProgress": "进行中"
+    },
+    "upcomingProjects": {
+      "smartCity": {
+        "title": "智慧城市基础设施自动化",
+        "client": "诺伊达智慧城市有限公司",
+        "description": "智慧城市项目的完整自动化基础设施，包括交通管理、废物管理和能源分配系统。",
+        "technologies": {
+          "iot": "物联网",
+          "smartSensors": "智能传感器",
+          "cityManagement": "城市管理系统",
+          "energyAutomation": "能源自动化"
+        }
+      },
+      "pharmaceutical": {
+        "title": "制药制造自动化",
+        "client": "西普拉有限公司",
+        "description": "用于制药制造过程的先进自动化，符合国际标准和质量控制系统。",
+        "technologies": {
+          "gmpCompliance": "GMP 合规性",
+          "batchProcessing": "批量处理",
+          "qualityControl": "质量控制",
+          "traceabilitySystems": "可追溯性系统"
+        }
+      },
+      "solarFarm": {
+        "title": "太阳能发电厂自动化和监控",
+        "client": "阿达尼绿色能源",
+        "description": "200 兆瓦太阳能发电厂的综合自动化解决方案，包括跟踪系统、天气监控和电网集成。",
+        "technologies": {
+          "solarTracking": "太阳能跟踪",
+          "weatherSystems": "天气系统",
+          "gridIntegration": "电网集成",
+          "remoteMonitoring": "远程监控"
+        }
+      }
     }
   },
   "home": {
@@ -179,29 +220,29 @@
       "title": "关于 Powerton Engineering - 超过 15 年的工业自动化卓越经验",
       "description": "了解 Powerton Engineering 在工业自动化、电气工程和仪器仪表解决方案领域的历程。自 2008 年以来，专家团队服务于中国各地的行业。",
       "keywords": "关于 Powerton Engineering、工业自动化公司、电气工程公司、仪器仪表服务、中国自动化专家"
-      },
-      "hero": {
+    },
+    "hero": {
       "title": "自 2008 年以来的卓越工程",
       "subtitle": "您在工业自动化和电气工程解决方案中值得信赖的合作伙伴"
-      },
-      "story": {
+    },
+    "story": {
       "title": "我们的旅程和愿景",
       "description1": "Powerton Engineering 成立于 2008 年，其愿景是通过创新和卓越赋能行业，一直处于工业自动化和电气工程解决方案的最前沿。我们的旅程始于一个简单而强大的使命：提供推动工业增长和运营效率的尖端工程解决方案。",
       "description2": "多年来，我们已从一家小型工程公司发展成为中国乃至全球各行业值得信赖的合作伙伴。我们经验丰富的工程师和技术专家团队孜孜不倦地提供不仅满足而且超越客户期望的解决方案。"
-      },
-      "mission": {
+    },
+    "mission": {
       "title": "我们的使命",
       "description": "提供创新、可靠和可持续的工程解决方案，使我们的客户能够实现卓越的运营并推动工业增长。"
-      },
-      "vision": {
+    },
+    "vision": {
       "title": "我们的愿景",
       "description": "成为工业自动化和电气工程解决方案的领先供应商，以我们的技术专长、质量和对客户成功的承诺而闻名。"
-      },
-      "coreValues": {
+    },
+    "coreValues": {
       "title": "我们的核心价值观",
       "subtitle": "指导我们一切行为的原则"
-      },
-      "values": {
+    },
+    "values": {
       "quality": {
         "title": "卓越品质",
         "description": "我们在交付的每个项目中都坚持最高的标准"
@@ -218,14 +259,14 @@
         "title": "可靠性与信任",
         "description": "您可以信赖的关键运营的可靠解决方案"
       }
-      },
-      "stats": {
+    },
+    "stats": {
       "engineers": "工程师",
       "staff": "支持人员",
       "experience": "多年经验",
       "support": "支持"
-      },
-      "certifications": {
+    },
+    "certifications": {
       "title": "认证与标准",
       "subtitle": "我们对质量的承诺通过行业认可的认证和合规标准得到验证。",
       "iso9001": "ISO 9001",
@@ -234,8 +275,8 @@
       "ceMarking": "CE 标志",
       "ulListed": "UL 认证",
       "cpriApproved": "CPRI 批准"
-      },
-      "achievements": {
+    },
+    "achievements": {
       "title": "奖项与成就",
       "subtitle": "表彰我们对工业自动化领域的卓越、创新和质量的承诺。",
       "2024": {
@@ -264,8 +305,8 @@
           "2": "印度标准局颁发的卓越质量认可奖"
         }
       }
-      },
-      "futureGoals": {
+    },
+    "futureGoals": {
       "title": "未来目标与愿景",
       "subtitle": "我们成为印度领先的工业自动化解决方案提供商的战略路线图。",
       "marketLeadership": {
@@ -312,6 +353,28 @@
       "contactTeam": "联系团队"
     },
     "showing": "显示 {{count}} 个项目，共 {{total}} 个",
+    "filters": {
+      "industries": {
+        "all": "全部",
+        "manufacturing": "制造业",
+        "powerGeneration": "发电",
+        "renewableEnergy": "可再生能源",
+        "processIndustries": "过程工业"
+      },
+      "categories": {
+        "all": "全部",
+        "processAutomation": "过程自动化",
+        "powerSystems": "电力系统",
+        "solarSolutions": "太阳能解决方案",
+        "waterSystems": "水系统"
+      },
+      "statuses": {
+        "all": "全部",
+        "capabilityDemo": "能力演示",
+        "inProgress": "进行中",
+        "completed": "已完成"
+      }
+    },
     "items": {
       "industrial-automation-demo": {
         "title": "演示：工业自动化系统",
@@ -582,9 +645,9 @@
     }
   },
   "quote": {
-    "form" : {
-      "title" : "请求定制报价",
-      "description" : "从我们的工程专家处获取根据您的特定项目要求量身定制的详细报价。"
+    "form": {
+      "title": "请求定制报价",
+      "description": "从我们的工程专家处获取根据您的特定项目要求量身定制的详细报价。"
     },
     "hero": {
       "title": "获取专业的工程报价",
@@ -597,7 +660,7 @@
       }
     },
     "benefits": {
-      "title" : "为什么选择我们的报价服务？",
+      "title": "为什么选择我们的报价服务？",
       "description": "通过我们全面的报价服务，为您的工程项目获得准确的定价和专业的咨询。",
       "assessment": {
         "title": "详细评估",
@@ -1027,9 +1090,9 @@
         "description": "从事工业自动化领域的前沿技术和创新解决方案。"
       }
     },
-    "whyJoinUs" : {
-      "title" : "为什么选择 Powerton Engineering？",
-      "description" : "加入一个充满活力的团队，共同塑造工业自动化和电气工程的未来"
+    "whyJoinUs": {
+      "title": "为什么选择 Powerton Engineering？",
+      "description": "加入一个充满活力的团队，共同塑造工业自动化和电气工程的未来"
     }
   },
   "seo": {

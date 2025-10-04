@@ -139,7 +139,7 @@ export default function Services() {
                             <div className="w-16 h-16 bg-gradient-to-br from-primary to-secondary rounded-xl flex items-center justify-center mb-4 group-hover:scale-110 group-hover:rotate-3 transition-all duration-300">
                               <IconComponent className="w-8 h-8 text-white" />
                             </div>
-                            <CardTitle className="text-xl font-bold text-foreground group-hover:text-primary transition-colors mb-2 text-wrap-safe responsive-text line-clamp-safe">
+                            <CardTitle className="text-xl font-bold text-foreground group-hover:text-primary dark:group-hover:text-secondary transition-colors mb-2 text-wrap-safe responsive-text line-clamp-safe">
                               {service.title}
                             </CardTitle>
                             {service.duration && (
@@ -172,7 +172,7 @@ export default function Services() {
                                         {feature}
                                       </span>
                                     </li>
-                                  )
+                                  ),
                                 )}
                               </ul>
                             </div>
@@ -185,7 +185,7 @@ export default function Services() {
                                 >
                                   <Button
                                     size="sm"
-                                    className="w-full bg-primary hover:bg-primary/90 text-xs text-wrap-safe"
+                                    className="w-full bg-primary hover:bg-primary/90 text-xs text-wrap-safe text-white"
                                   >
                                     {t("common:buttons.quickQuote")}
                                   </Button>

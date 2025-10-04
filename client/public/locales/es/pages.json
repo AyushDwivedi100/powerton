@@ -57,6 +57,47 @@
       "allNews": "Todas las Noticias",
       "allCategories": "Todas las Categorías",
       "upcomingProjects": "Próximos Proyectos"
+    },
+    "projectStatuses": {
+      "planningPhase": "Fase de Planificación",
+      "contractSigned": "Contrato Firmado",
+      "engineeringPhase": "Fase de Ingeniería",
+      "inProgress": "En Progreso"
+    },
+    "upcomingProjects": {
+      "smartCity": {
+        "title": "Automatización de Infraestructura de Ciudad Inteligente",
+        "client": "Noida Smart City Ltd.",
+        "description": "Infraestructura de automatización completa para el proyecto de ciudad inteligente que incluye la gestión del tráfico, la gestión de residuos y los sistemas de distribución de energía.",
+        "technologies": {
+          "iot": "IoT",
+          "smartSensors": "Sensores Inteligentes",
+          "cityManagement": "Sistemas de Gestión de la Ciudad",
+          "energyAutomation": "Automatización de Energía"
+        }
+      },
+      "pharmaceutical": {
+        "title": "Automatización de Fabricación Farmacéutica",
+        "client": "Cipla Limited",
+        "description": "Automatización avanzada para procesos de fabricación farmacéutica con cumplimiento de normas internacionales y sistemas de control de calidad.",
+        "technologies": {
+          "gmpCompliance": "Cumplimiento de GMP",
+          "batchProcessing": "Procesamiento por Lotes",
+          "qualityControl": "Control de Calidad",
+          "traceabilitySystems": "Sistemas de Trazabilidad"
+        }
+      },
+      "solarFarm": {
+        "title": "Automatización y Monitoreo de Parque Solar",
+        "client": "Adani Green Energy",
+        "description": "Solución de automatización integral para parque solar de 200MW que incluye sistemas de seguimiento, monitoreo meteorológico e integración a la red.",
+        "technologies": {
+          "solarTracking": "Seguimiento Solar",
+          "weatherSystems": "Sistemas Meteorológicos",
+          "gridIntegration": "Integración a la Red",
+          "remoteMonitoring": "Monitoreo Remoto"
+        }
+      }
     }
   },
   "home": {
@@ -312,6 +353,28 @@
       "contactTeam": "Contactar al Equipo"
     },
     "showing": "Mostrando {{count}} proyectos de {{total}}",
+    "filters": {
+      "industries": {
+        "all": "Todos",
+        "manufacturing": "Fabricación",
+        "powerGeneration": "Generación de Energía",
+        "renewableEnergy": "Energía Renovable",
+        "processIndustries": "Industrias de Procesos"
+      },
+      "categories": {
+        "all": "Todos",
+        "processAutomation": "Automatización de Procesos",
+        "powerSystems": "Sistemas de Energía",
+        "solarSolutions": "Soluciones Solares",
+        "waterSystems": "Sistemas de Agua"
+      },
+      "statuses": {
+        "all": "Todos",
+        "capabilityDemo": "Demostración de Capacidad",
+        "inProgress": "En Progreso",
+        "completed": "Completado"
+      }
+    },
     "items": {
       "industrial-automation-demo": {
         "title": "Demostración: Sistemas de Automatización Industrial",

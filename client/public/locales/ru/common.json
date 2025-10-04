@@ -136,6 +136,15 @@
     "availability": "Круглосуточная доступность для быстрой поддержки",
     "responseTime": "В течение 2 дней для первоначальной консультации"
   },
+  "ui": {
+    "ariaLabels": {
+      "contactWhatsApp": "Свяжитесь с нами в WhatsApp",
+      "contactJustDial": "Свяжитесь с нами через Just Dial"
+    },
+    "messages": {
+      "whatsappGreeting": "Здравствуйте! Я заинтересован в ваших продуктах и услугах."
+    }
+  },
   "aria": {
     "toggleNavigation": "Переключить панель навигации",
     "openLocation": "Открыть офис на Google Maps",

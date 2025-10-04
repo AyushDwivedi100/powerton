@@ -136,6 +136,15 @@
     "availability": "Disponibilité 24/7 pour un support rapide",
     "responseTime": "Dans les 2 jours pour une consultation initiale"
   },
+  "ui": {
+    "ariaLabels": {
+      "contactWhatsApp": "Contactez-nous sur WhatsApp",
+      "contactJustDial": "Contactez-nous sur Just Dial"
+    },
+    "messages": {
+      "whatsappGreeting": "Bonjour ! Je suis intéressé par vos produits et services."
+    }
+  },
   "aria": {
     "toggleNavigation": "Activer/désactiver le menu de navigation",
     "openLocation": "Ouvrir le lieu du bureau dans Google Maps",

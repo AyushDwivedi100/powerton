@@ -57,6 +57,47 @@
       "allNews": "सभी समाचार",
       "allCategories": "सभी श्रेणियाँ",
       "upcomingProjects": "आगामी परियोजनाएँ"
+    },
+    "projectStatuses": {
+      "planningPhase": "योजना चरण",
+      "contractSigned": "अनुबंध हस्ताक्षरित",
+      "engineeringPhase": "इंजीनियरिंग चरण",
+      "inProgress": "प्रगति में"
+    },
+    "upcomingProjects": {
+      "smartCity": {
+        "title": "स्मार्ट सिटी इंफ्रास्ट्रक्चर ऑटोमेशन",
+        "client": "नोएडा स्मार्ट सिटी लिमिटेड",
+        "description": "ट्रैफिक प्रबंधन, अपशिष्ट प्रबंधन और ऊर्जा वितरण प्रणालियों सहित स्मार्ट सिटी परियोजना के लिए पूर्ण स्वचालन बुनियादी ढांचा।",
+        "technologies": {
+          "iot": "आईओटी",
+          "smartSensors": "स्मार्ट सेंसर",
+          "cityManagement": "सिटी मैनेजमेंट सिस्टम",
+          "energyAutomation": "ऊर्जा स्वचालन"
+        }
+      },
+      "pharmaceutical": {
+        "title": "फार्मास्युटिकल मैन्युफैक्चरिंग ऑटोमेशन",
+        "client": "सिप्ला लिमिटेड",
+        "description": "अंतर्राष्ट्रीय मानकों और गुणवत्ता नियंत्रण प्रणालियों के अनुपालन के साथ दवा निर्माण प्रक्रियाओं के लिए उन्नत स्वचालन।",
+        "technologies": {
+          "gmpCompliance": "जीएमपी अनुपालन",
+          "batchProcessing": "बैच प्रोसेसिंग",
+          "qualityControl": "गुणवत्ता नियंत्रण",
+          "traceabilitySystems": "ट्रेसबिलिटी सिस्टम"
+        }
+      },
+      "solarFarm": {
+        "title": "सौर फार्म स्वचालन और निगरानी",
+        "client": "अडानी ग्रीन एनर्जी",
+        "description": "ट्रैकिंग सिस्टम, मौसम की निगरानी और ग्रिड एकीकरण सहित 200 मेगावाट सौर फार्म के लिए व्यापक स्वचालन समाधान।",
+        "technologies": {
+          "solarTracking": "सौर ट्रैकिंग",
+          "weatherSystems": "मौसम सिस्टम",
+          "gridIntegration": "ग्रिड एकीकरण",
+          "remoteMonitoring": "रिमोट मॉनिटरिंग"
+        }
+      }
     }
   },
   "home": {
@@ -312,11 +353,33 @@
       "contactTeam": "टीम से संपर्क करें"
     },
     "showing": "{{total}} में से {{count}} परियोजनाएँ दिखा रहा है",
+    "filters": {
+      "industries": {
+        "all": "सभी",
+        "manufacturing": "विनिर्माण",
+        "powerGeneration": "बिजली उत्पादन",
+        "renewableEnergy": "नवीकरणीय ऊर्जा",
+        "processIndustries": "प्रक्रिया उद्योग"
+      },
+      "categories": {
+        "all": "सभी",
+        "processAutomation": "प्रक्रिया स्वचालन",
+        "powerSystems": "पावर सिस्टम",
+        "solarSolutions": "सौर समाधान",
+        "waterSystems": "जल प्रणाली"
+      },
+      "statuses": {
+        "all": "सभी",
+        "capabilityDemo": "क्षमता डेमो",
+        "inProgress": "प्रगति में",
+        "completed": "पूर्ण"
+      }
+    },
     "items": {
       "industrial-automation-demo": {
         "title": "डेमो: औद्योगिक स्वचालन प्रणाली",
         "client": "भविष्य का विनिर्माण ग्राहक",
-        "description": "पीएलसी एकीकरण, एससीएडीए सिस्टम और वास्तविक समय निगरानी समाधान सहित पूर्ण विनिर्माण स्वचालन क्षमताओं का प्रदर्शन करता है।",
+        "description": "पीएलसी ए ��ीकरण, एससीएडीए सिस्टम और वास्तविक समय निगरानी समाधान सहित पूर्ण विनिर्माण स्वचालन क्षमताओं का प्रदर्शन करता है।",
         "location": "परियोजना स्थल टीबीडी",
         "duration": "12-18 महीने"
       },
