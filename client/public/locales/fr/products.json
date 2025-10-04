@@ -72,12 +72,14 @@
     },
     "industrial-measuring-tools": {
       "title": "Outils industriels et de mesure",
-      "description": "Outils de mesure de précision pour les applications industrielles",
+      "description": "Outils professionnels, équipements et instruments de mesure avancés pour la maintenance industrielle, la construction, les opérations de fabrication et les applications de surveillance précise",
       "features": {
-        "calipers": "Pieds à coulisse",
-        "micrometers": "Micromètres",
-        "gauges": "Jauges",
-        "testers": "Testeurs"
+        "hand-tools": "Outils manuels",
+        "power-tools": "Outils électriques",
+        "digital-multimeters": "Multimètres numériques",
+        "spectrum-analyzers": "Analyseurs de spectre",
+        "power-quality-analyzers": "Analyseurs de qualité de l'énergie",
+        "calibrators": "Calibrateurs"
       }
     },
     "bldc": {
@@ -2205,5 +2207,37 @@
     "electricalLife": "Electrical Life",
     "mechanicalLife": "Mechanical Life",
     "installation": "Installation"
+  },
+  "productGroups": {
+    "pdFlowMeter": {
+      "title": "Débitmètres PD",
+      "description": "Débitmètres volumétriques utilisant des principes de mesure à engrenages ovales, à engrenages hélicoïdaux, à disque oscillant et à vis pour une mesure précise du débit de liquide. Offre une précision exceptionnelle, une répétabilité supérieure et une large plage de viscosité. Idéal pour le transfert de propriété, le dosage, le comptage de carburant, le dosage chimique et les applications à haute viscosité nécessitant une mesure volumétrique fiable."
+    }
+  },
+  "sections": {
+    "overview": "Aperçu",
+    "technicalSpecifications": "Spécifications techniques",
+    "keyFeatures": "Principales caractéristiques",
+    "applications": "Applications",
+    "industriesServed": "Secteurs d'activité",
+    "certificationsCompliance": "Certifications et conformité",
+    "certifications": "Certifications",
+    "qualityAssurance": "Assurance qualité",
+    "qualityAssuranceDescription": "Les produits sont conformes aux normes internationales et aux réglementations de sécurité.",
+    "completeListDescription": "Liste complète des produits {{groupTitle}} avec spécifications",
+    "expertsHelpDescription": "Nos experts sont là pour vous aider à sélectionner le bon {{groupTitle}} pour votre application."
+  },
+  "table": {
+    "manufacturer": "Fabricant",
+    "model": "Modèle",
+    "type": "Type",
+    "actions": "Actions"
+  },
+  "labels": {
+    "industrialProduct": "Produit industriel",
+    "products": "Produits"
+  },
+  "messages": {
+    "noProductsInGroup": "Aucun produit trouvé dans ce groupe."
   }
 }

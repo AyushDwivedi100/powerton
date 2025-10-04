@@ -72,12 +72,14 @@
     },
     "industrial-measuring-tools": {
       "title": "Herramientas Industriales y de Medición",
-      "description": "Herramientas de medición de precisión para aplicaciones industriales",
+      "description": "Herramientas profesionales, equipos e instrumentos de medición avanzados para mantenimiento industrial, construcción, operaciones de fabricación y aplicaciones de monitoreo preciso",
       "features": {
-        "calipers": "Calibradores",
-        "micrometers": "Micrómetros",
-        "gauges": "Medidores",
-        "testers": "Comprobadores"
+        "hand-tools": "Herramientas Manuales",
+        "power-tools": "Herramientas Eléctricas",
+        "digital-multimeters": "Multímetros Digitales",
+        "spectrum-analyzers": "Analizadores de Espectro",
+        "power-quality-analyzers": "Analizadores de Calidad de Energía",
+        "calibrators": "Calibradores"
       }
     },
     "bldc": {
@@ -817,7 +819,7 @@
       "title": "Válvulas y Actuadores",
       "subtitle": "Soluciones de automatización de válvulas industriales con actuadores neumáticos, eléctricos e hidráulicos",
       "shortDescription": "Soluciones de automatización de válvulas industriales con actuadores neumáticos, eléctricos e hidráulicos",
-      "fullDescription": "Cartera completa de automatización de válvulas que incluye válvulas de cuarto de vuelta y lineales con tecnologías inteligentes, conectividad IoT y monitoreo de estado.",
+      "fullDescription": "Cartera completa de automatización de válvulas que incluye ve�lvulas de cuarto de vuelta y lineales con tecnologías inteligentes, conectividad IoT y monitoreo de estado.",
       "seo": {
         "title": "Válvulas y Actuadores Industriales - Soluciones de Control Automatizado | Powerton Engineering",
         "description": "Automatización de válvulas industriales con actuadores neumáticos, eléctricos e hidráulicos. Válvulas de bola, válvulas de mariposa, válvulas de control con posicionadores inteligentes y operación a prueba de fallas.",
@@ -2205,5 +2207,37 @@
     "electricalLife": "Electrical Life",
     "mechanicalLife": "Mechanical Life",
     "installation": "Installation"
+  },
+  "productGroups": {
+    "pdFlowMeter": {
+      "title": "Caudalímetros PD",
+      "description": "Caudalímetros de desplazamiento positivo que utilizan principios de medición de engranajes ovalados, engranajes helicoidales, disco nutativo y tornillo para una medición precisa del flujo de líquidos. Ofrecen una precisión excepcional, una repetibilidad superior y un amplio rango de viscosidad. Ideales para transferencia de custodia, lotes, medición de combustible, dosificación química y aplicaciones de alta viscosidad que requieren una medición volumétrica confiable."
+    }
+  },
+  "sections": {
+    "overview": "Visión General",
+    "technicalSpecifications": "Especificaciones Técnicas",
+    "keyFeatures": "Características Clave",
+    "applications": "Aplicaciones",
+    "industriesServed": "Industrias Atendidas",
+    "certificationsCompliance": "Certificaciones y Cumplimiento",
+    "certifications": "Certificaciones",
+    "qualityAssurance": "Garantía de Calidad",
+    "qualityAssuranceDescription": "Los productos cumplen con los estándares internacionales y las normas de seguridad.",
+    "completeListDescription": "Lista completa de productos {{groupTitle}} con especificaciones",
+    "expertsHelpDescription": "Nuestros expertos están aquí para ayudarle a seleccionar el {{groupTitle}} adecuado para su aplicación."
+  },
+  "table": {
+    "manufacturer": "Fabricante",
+    "model": "Modelo",
+    "type": "Tipo",
+    "actions": "Acciones"
+  },
+  "labels": {
+    "industrialProduct": "Producto Industrial",
+    "products": "Productos"
+  },
+  "messages": {
+    "noProductsInGroup": "No se encontraron productos en este grupo."
   }
 }

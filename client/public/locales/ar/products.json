@@ -72,12 +72,14 @@
     },
     "industrial-measuring-tools": {
       "title": "الأدوات الصناعية وأدوات القياس",
-      "description": "أدوات قياس دقيقة للتطبيقات الصناعية",
+      "description": "أدوات ومعدات احترافية وأدوات قياس متقدمة للصيانة الصناعية والبناء وعمليات التصنيع وتطبيقات المراقبة الدقيقة",
       "features": {
-        "calipers": "الفرجار",
-        "micrometers": "الميكرومتر",
-        "gauges": "المقاييس",
-        "testers": "أجهزة الاختبار"
+        "hand-tools": "أدوات يدوية",
+        "power-tools": "أدوات كهربائية",
+        "digital-multimeters": "أجهزة القياس المتعددة الرقمية",
+        "spectrum-analyzers": "محللات الطيف",
+        "power-quality-analyzers": "محللات جودة الطاقة",
+        "calibrators": "المعايرات"
       }
     },
     "bldc": {
@@ -2200,5 +2202,37 @@
     "electricalLife": "Electrical Life",
     "mechanicalLife": "Mechanical Life",
     "installation": "Installation"
+  },
+  "productGroups": {
+    "pdFlowMeter": {
+      "title": "عدادات التدفق PD",
+      "description": "عدادات التدفق بالإزاحة الإيجابية باستخدام مبادئ قياس التروس البيضاوي والتروس الحلزونية وقرص التأرجح واللولب لقياس تدفق السوائل بدقة. تتميز بدقة استثنائية وتكرار فائق ونطاق لزوجة واسع. مثالية لنقل الحضانة والتعبئة وقياس الوقود والجرعات الكيميائية والتطبيقات عالية اللزوجة التي تتطلب قياسًا حجميًا موثوقًا."
+    }
+  },
+  "sections": {
+    "overview": "نظرة عامة",
+    "technicalSpecifications": "المواصفات الفنية",
+    "keyFeatures": "الميزات الرئيسية",
+    "applications": "التطبيقات",
+    "industriesServed": "الصناعات التي يتم خدمتها",
+    "certificationsCompliance": "الشهادات والامتثال",
+    "certifications": "الشهادات",
+    "qualityAssurance": "ضمان الجودة",
+    "qualityAssuranceDescription": "المنتجات تلبي المعايير الدولية ولوائح السلامة.",
+    "completeListDescription": "قائمة كاملة بمنتجات {{groupTitle}} مع المواصفات",
+    "expertsHelpDescription": "خبراؤنا هنا لمساعدتك في اختيار {{groupTitle}} المناسب لتطبيقك."
+  },
+  "table": {
+    "manufacturer": "الشركة المصنعة",
+    "model": "الموديل",
+    "type": "النوع",
+    "actions": "الإجراءات"
+  },
+  "labels": {
+    "industrialProduct": "المنتج الصناعي",
+    "products": "المنتجات"
+  },
+  "messages": {
+    "noProductsInGroup": "لم يتم العثور على منتجات في هذه المجموعة."
   }
 }

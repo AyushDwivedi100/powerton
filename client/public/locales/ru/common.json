@@ -121,7 +121,21 @@
     "requestCustomQuote": "Запросить индивидуальное предложение",
     "next": "Следующий",
     "previous": "Предыдущий",
-    "complete": "Завершить"
+    "complete": "Завершить",
+    "view": "Просмотреть",
+    "viewAllServices": "Просмотреть все услуги"
+  },
+  "errors": {
+    "productNotFound": "Товар не найден",
+    "productNotFoundMessage": "Товар, который вы ищете, не существует.",
+    "productsNotFound": "Товары не найдены",
+    "productsNotFoundMessage": "Товары, которые вы ищете, не существуют.",
+    "categoryNotFound": "Категория не найдена",
+    "categoryNotFoundMessage": "Категория товара, которую вы ищете, не существует.",
+    "subCategoryNotFound": "Подкатегория не найдена",
+    "subCategoryNotFoundMessage": "Подкатегория товара, которую вы ищете, не существует.",
+    "serviceNotFound": "Услуга не найдена",
+    "serviceNotFoundMessage": "Услуга, которую вы ищете, не существует."
   },
   "loading": "Загрузка...",
   "error": "Что-то пошло не так",
@@ -320,7 +334,8 @@
     "emergencySupport": "Только экстренная поддержка",
     "availability": "Доступность",
     "coverage": "Охват",
-    "free": "Бесплатно"
+    "free": "Бесплатно",
+    "products" : "Продукты"
   },
   "placeholders": {
     "selectProjectType": "Выберите тип проекта",

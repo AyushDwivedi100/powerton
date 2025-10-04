@@ -121,7 +121,21 @@
     "requestCustomQuote": "Demander un devis personnalisé",
     "next": "Suivant",
     "previous": "Précédent",
-    "complete": "Terminer"
+    "complete": "Terminer",
+    "view": "Afficher",
+    "viewAllServices": "Afficher tous les services"
+  },
+  "errors": {
+    "productNotFound": "Produit non trouvé",
+    "productNotFoundMessage": "Le produit que vous recherchez n'existe pas.",
+    "productsNotFound": "Produits non trouvés",
+    "productsNotFoundMessage": "Les produits que vous recherchez n'existent pas.",
+    "categoryNotFound": "Catégorie non trouvée",
+    "categoryNotFoundMessage": "La catégorie de produit que vous recherchez n'existe pas.",
+    "subCategoryNotFound": "Sous-catégorie non trouvée",
+    "subCategoryNotFoundMessage": "La sous-catégorie de produit que vous recherchez n'existe pas.",
+    "serviceNotFound": "Service non trouvé",
+    "serviceNotFoundMessage": "Le service que vous recherchez n'existe pas."
   },
   "loading": "Chargement...",
   "error": "Quelque chose s'est mal passé",
@@ -320,7 +334,8 @@
     "emergencySupport": "Assistance d'urgence uniquement",
     "availability": "Disponibilité",
     "coverage": "Couverture",
-    "free": "Gratuit"
+    "free": "Gratuit",
+    "products" : "produits"
   },
   "placeholders": {
     "selectProjectType": "Sélectionner le type de projet",

@@ -90,7 +90,7 @@
     "hideFilters": "Ficha Vichujio",
     "readMore": "Soma Zaidi",
     "downloadCatalog": "Pakua Katalogi",
-    "discussProject": "Ongeza Kuhusu Mradi",
+    "discussProject": "Zungumzia Mradi",
     "viewDetails": "Angalia Maelezo",
     "backTo": "Rudi kwa {{category}}",
     "backToBldcProducts": "Rudi kwa Bidhaa za Motor za DC zisizo na Brashi (BLDC)",
@@ -116,12 +116,26 @@
     "viewAll": "Angalia Zote",
     "contactUs": "Wasiliana Nasi",
     "getStarted": "Anza",
-    "downloadBrochure": "Pakua Broshua",
+    "downloadBrochura": "Pakua Broshua",
     "contactExpert": "Wasiliana na Mtaalamu",
     "requestCustomQuote": "Omba Bei ya Kipekee",
     "next": "Inayofuata",
     "previous": "Iliyotangulia",
-    "complete": "Kamilisha"
+    "complete": "Kamilisha",
+    "view": "Angalia",
+    "viewAllServices": "Angalia Huduma Zote"
+  },
+  "errors": {
+    "productNotFound": "Bidhaa Haikupatikana",
+    "productNotFoundMessage": "Bidhaa unayotafuta haipo.",
+    "productsNotFound": "Bidhaa Hazikupatikana",
+    "productsNotFoundMessage": "Bidhaa unazotafuta hazipo.",
+    "categoryNotFound": "Kategoria Haikupatikana",
+    "categoryNotFoundMessage": "Kategoria ya bidhaa unayotafuta haipo.",
+    "subCategoryNotFound": "Kategoria Ndogo Haikupatikana",
+    "subCategoryNotFoundMessage": "Kategoria ndogo ya bidhaa unayotafuta haipo.",
+    "serviceNotFound": "Huduma Haikupatikana",
+    "serviceNotFoundMessage": "Huduma unayotafuta haipo."
   },
   "loading": "Inapakia...",
   "error": "Kuna kitu kilienda vibaya",
@@ -320,7 +334,8 @@
     "emergencySupport": "Msaada wa Dharura Pekee",
     "availability": "Upatikanaji",
     "coverage": "Uthibitisho",
-    "free": "Bila Malipo"
+    "free": "Bila Malipo",
+    "products": "bidhaa"
   },
   "placeholders": {
     "selectProjectType": "Chagua aina ya mradi",

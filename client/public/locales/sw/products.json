@@ -72,12 +72,14 @@
     },
     "industrial-measuring-tools": {
       "title": "Zana za Viwandani na Vipimo",
-      "description": "Zana za kupimia kwa usahihi kwa matumizi ya viwandani",
+      "description": "Zana za kitaalamu, vifaa na vyombo vya hali ya juu vya kupimia kwa ajili ya matengenezo ya viwandani, ujenzi, shughuli za utengenezaji na matumizi sahihi ya ufuatiliaji",
       "features": {
-        "calipers": "Kalipa",
-        "micrometers": "Mikromita",
-        "gauges": "Vipimo",
-        "testers": "Vijaribu"
+        "hand-tools": "Zana za Mkono",
+        "power-tools": "Zana za Nguvu",
+        "digital-multimeters": "Multimita za Dijitali",
+        "spectrum-analyzers": "Vichambuzi vya Spectrum",
+        "power-quality-analyzers": "Vichambuzi vya Ubora wa Nguvu",
+        "calibrators": "Vikalibrati"
       }
     },
     "bldc": {
@@ -2205,5 +2207,37 @@
     "electricalLife": "Electrical Life",
     "mechanicalLife": "Mechanical Life",
     "installation": "Installation"
+  },
+  "productGroups": {
+    "pdFlowMeter": {
+      "title": "Mita za Mtiririko za PD",
+      "description": "Mita za mtiririko za uhamishaji chanya kwa kutumia kanuni za kipimo cha gia ya mviringo, gia ya helical, diski ya nutating, na skrubu kwa kipimo sahihi cha mtiririko wa kimiminika. Huangazia usahihi wa kipekee, urudiwaji bora, na kiwango kikubwa cha mnato. Inafaa kwa uhamishaji wa ulinzi, upangaji makundi, upimaji wa mafuta, uwekaji kemikali, na matumizi ya mnato wa juu yanayohitaji kipimo cha volumetric cha kuaminika."
+    }
+  },
+  "sections": {
+    "overview": "Muhtasari",
+    "technicalSpecifications": "Vipimo vya Kiufundi",
+    "keyFeatures": "Sifa Muhimu",
+    "applications": "Matumizi",
+    "industriesServed": "Viwanda Vinavyohudumiwa",
+    "certificationsCompliance": "Uidhinishaji na Uzingatiaji",
+    "certifications": "Uidhinishaji",
+    "qualityAssurance": "Uhakikisho wa Ubora",
+    "qualityAssuranceDescription": "Bidhaa hukutana na viwango vya kimataifa na kanuni za usalama.",
+    "completeListDescription": "Orodha kamili ya bidhaa za {{groupTitle}} na vipimo",
+    "expertsHelpDescription": "Wataalamu wetu wako hapa kukusaidia kuchagua {{groupTitle}} inayofaa kwa matumizi yako."
+  },
+  "table": {
+    "manufacturer": "Mtengenezaji",
+    "model": "Mfano",
+    "type": "Aina",
+    "actions": "Hatua"
+  },
+  "labels": {
+    "industrialProduct": "Bidhaa ya Viwandani",
+    "products": "Bidhaa"
+  },
+  "messages": {
+    "noProductsInGroup": "Hakuna bidhaa zilizopatikana katika kundi hili."
   }
 }

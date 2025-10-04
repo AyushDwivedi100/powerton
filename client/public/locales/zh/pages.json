@@ -1113,5 +1113,63 @@
         "keywords": "SCADA 系统、监控控制、数据采集、工业监控、过程控制、HMI 集成、远程监控、SCADA 软件"
       }
     }
+  },
+  "gallery": {
+    "seo": {
+      "title": "图库 - Powerton Engineering 项目、产品和团队",
+      "description": "探索 Powerton Engineering 的图库，展示我们的团队、已完成的工业自动化项目和全面的产品范围。通过透明度建立信任。",
+      "keywords": "powerton engineering 图库、工业项目图库、自动化项目、电气工程团队、产品展示、公司设施"
+    }
+  },
+  "news": {
+    "seo": {
+      "title": "新闻与更新 - 公司新闻、成就和未来目标 | Powerton Engineering",
+      "description": "随时了解 Powerton Engineering 的最新新闻、成就、奖项、即将开展的项目和未来目标。领先的工业自动化公司迈向卓越的旅程。",
+      "keywords": "公司新闻、工程新闻、自动化行业更新、powerton 成就、工业自动化奖项、卓越工程、公司里程碑"
+    },
+    "upcomingProjects": {
+      "description": "展望激动人心的项目，这些项目展示了我们对创新和卓越的承诺。"
+    }
+  },
+  "products": {
+    "seo": {
+      "keywords": "工业产品、自动化设备、电气元件、仪器仪表产品、太阳能电池板、工业泵、测量仪器、安全设备"
+    }
+  },
+  "projects": {
+    "seo": {
+      "title": "工程项目与组合 - 工业自动化案例 | Powerton Engineering",
+      "description": "通过展示工业自动化、电力系统、太阳能解决方案和过程控制专业知识的演示项目，探索我们的工程能力。精选项目突出了我们的核心竞争力。",
+      "keywords": "工程项目、自动化项目、发电厂自动化、制造自动化、太阳能项目、水处理自动化、印度工业项目、项目组合"
+    }
+  },
+  "services": {
+    "seo": {
+      "keywords": "工程服务、工业自动化服务、PLC 编程、SCADA 实施、电气面板安装、维护服务、校准服务、定制自动化解决方案、太阳能 EPC 承包商、印度技术支持"
+    },
+    "relatedServices": {
+      "description": "探索我们补充的其他专业服务"
+    }
+  },
+  "sitemap": {
+    "seo": {
+      "keywords": "站点地图、网站导航、powerton engineering、工业自动化、电气工程、产品、服务、项目、站点结构"
+    }
+  },
+  "contact": {
+    "whatsapp": {
+      "defaultMessage": "您好！我对贵公司的产品和服务感兴趣。"
+    }
+  },
+  "quote": {
+    "calculator": {
+      "title": "高级成本计算器",
+      "description": "我们正在对智能成本估算工具进行最后的润色。此功能将为您的自动化项目提供即时、准确的定价。",
+      "launchingSoon": "即将推出",
+      "useQuoteForm": "如需立即报价，请使用我们详细的报价单",
+      "getQuoteNow": "立即获取报价",
+      "projectTitle": "项目成本计算器",
+      "stepOf": "步骤 {{current}}，共 {{total}} 步"
+    }
   }
 }

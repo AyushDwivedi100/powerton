@@ -72,12 +72,14 @@
     },
     "industrial-measuring-tools": {
       "title": "Industrial & Measuring Tools",
-      "description": "Precision measuring tools for industrial applications",
+      "description": "Professional tools, equipment, and advanced measurement instruments for industrial maintenance, construction, manufacturing operations, and precise monitoring applications",
       "features": {
-        "calipers": "Calipers",
-        "micrometers": "Micrometers",
-        "gauges": "Gauges",
-        "testers": "Testers"
+        "hand-tools": "Hand Tools",
+        "power-tools": "Power Tools",
+        "digital-multimeters": "Digital Multimeters",
+        "spectrum-analyzers": "Spectrum Analyzers",
+        "power-quality-analyzers": "Power Quality Analyzers",
+        "calibrators": "Calibrators"
       }
     },
     "bldc": {

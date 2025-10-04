@@ -121,7 +121,21 @@
     "requestCustomQuote": "请求定制报价",
     "next": "下一个",
     "previous": "上一个",
-    "complete": "完成"
+    "complete": "完成",
+    "view": "查看",
+    "viewAllServices": "查看所有服务"
+  },
+  "errors": {
+    "productNotFound": "找不到产品",
+    "productNotFoundMessage": "您要查找的产品不存在。",
+    "productsNotFound": "找不到产品",
+    "productsNotFoundMessage": "您要查找的产品不存在。",
+    "categoryNotFound": "找不到类别",
+    "categoryNotFoundMessage": "您要查找的产品类别不存在。",
+    "subCategoryNotFound": "找不到子类别",
+    "subCategoryNotFoundMessage": "您要查找的产品子类别不存在。",
+    "serviceNotFound": "找不到服务",
+    "serviceNotFoundMessage": "您要查找的服务不存在。"
   },
   "loading": "加载中...",
   "error": "发生错误",
@@ -320,7 +334,8 @@
     "emergencySupport": "仅紧急支持",
     "availability": "可用性",
     "coverage": "覆盖范围",
-    "free": "免费"
+    "free": "免费",
+    "products" : "产品"
   },
   "placeholders": {
     "selectProjectType": "选择项目类型",

@@ -84,7 +84,7 @@
     "IEEE": "IEEE (विद्युत और इलेक्ट्रॉनिक्स इंजीनियर संस्थान)"
   },
   "buttons": {
-    "viewProjects": "हमारी परियोजनाओं को देखें",
+    "viewProjects": "हमारी परियोजनाएँ देखें",
     "downloadPortfolio": "पोर्टफोलियो डाउनलोड करें",
     "showFilters": "फ़िल्टर दिखाएँ",
     "hideFilters": "फ़िल्टर छिपाएँ",
@@ -93,7 +93,7 @@
     "discussProject": "परियोजनाओं पर चर्चा करें",
     "viewDetails": "विवरण देखें",
     "backTo": "{{category}} पर वापस जाएँ",
-    "backToBldcProducts": "ब्रशलेस डीसी मोटर (BLDC) उत्पादों पर वापस जाएँ",
+    "backToBldcProducts": "ब्रशलेस डीसी मोटर (बीएलडीसी) उत्पादों पर वापस जाएँ",
     "backToProducts": "उत्पादों पर वापस जाएँ",
     "requestQuote": "उद्धरण का अनुरोध करें",
     "expertTeam": "विशेषज्ञ टीम",
@@ -121,7 +121,21 @@
     "requestCustomQuote": "कस्टम उद्धरण का अनुरोध करें",
     "next": "अगला",
     "previous": "पिछला",
-    "complete": "पूर्ण"
+    "complete": "पूर्ण",
+    "view": "देखें",
+    "viewAllServices": "सभी सेवाएँ देखें"
+  },
+  "errors": {
+    "productNotFound": "उत्पाद नहीं मिला",
+    "productNotFoundMessage": "आपके द्वारा खोजा जा रहा उत्पाद मौजूद नहीं है।",
+    "productsNotFound": "उत्पाद नहीं मिले",
+    "productsNotFoundMessage": "आपके द्वारा खोजे जा रहे उत्पाद मौजूद नहीं हैं।",
+    "categoryNotFound": "श्रेणी नहीं मिली",
+    "categoryNotFoundMessage": "आपके द्वारा खोजी जा रही उत्पाद श्रेणी मौजूद नहीं है।",
+    "subCategoryNotFound": "उप-श्रेणी नहीं मिली",
+    "subCategoryNotFoundMessage": "आपके द्वारा खोजी जा रही उत्पाद उप-श्रेणी मौजूद नहीं है।",
+    "serviceNotFound": "सेवा नहीं मिली",
+    "serviceNotFoundMessage": "आपके द्वारा खोजी जा रही सेवा मौजूद नहीं है।"
   },
   "loading": "लोड हो रहा है...",
   "error": "कुछ गलत हो गया",
@@ -320,7 +334,8 @@
     "emergencySupport": "केवल आपातकालीन सहायता",
     "availability": "उपलब्धता",
     "coverage": "कवरेज",
-    "free": "मुफ्त"
+    "free": "मुफ्त",
+    "products" : "उत्पाद"
   },
   "placeholders": {
     "selectProjectType": "परियोजना का प्रकार चुनें",

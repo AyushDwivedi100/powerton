@@ -72,12 +72,14 @@
     },
     "industrial-measuring-tools": {
       "title": "औद्योगिक और मापने के उपकरण",
-      "description": "औद्योगिक अनुप्रयोगों के लिए सटीक मापने के उपकरण",
+      "description": "औद्योगिक रखरखाव, निर्माण, विनिर्माण कार्यों और सटीक निगरानी अनुप्रयोगों के लिए पेशेवर उपकरण, उपकरण और उन्नत माप उपकरण",
       "features": {
-        "calipers": "कैलिपर्स",
-        "micrometers": "माइक्रोमीटर",
-        "gauges": "गेज",
-        "testers": "परीक्षक"
+        "hand-tools": "हाथ उपकरण",
+        "power-tools": "बिजली उपकरण",
+        "digital-multimeters": "डिजिटल मल्टीमीटर",
+        "spectrum-analyzers": "स्पेक्ट्रम विश्लेषक",
+        "power-quality-analyzers": "पावर क्वालिटी एनालाइजर",
+        "calibrators": "कैलिब्रेटर"
       }
     },
     "bldc": {
@@ -2205,5 +2207,37 @@
     "electricalLife": "विद्युत जीवन",
     "mechanicalLife": "यांत्रिक जीवन",
     "installation": "स्थापना"
+  },
+  "productGroups": {
+    "pdFlowMeter": {
+      "title": "पीडी फ्लो मीटर",
+      "description": "सटीक तरल प्रवाह माप के लिए अंडाकार गियर, हेलिकल गियर, न्युटेटिंग डिस्क और स्क्रू माप सिद्धांतों का उपयोग करने वाले सकारात्मक विस्थापन प्रवाह मीटर। असाधारण सटीकता, बेहतर पुनरावर्तनीयता और विस्तृत चिपचिपाहट रेंज की सुविधाएँ। विश्वसनीय वॉल्यूमेट्रिक माप की आवश्यकता वाले अभिरक्षा हस्तांतरण, बैचिंग, ईंधन पैमाइश, रासायनिक खुराक और उच्च-चिपचिपापन अनुप्रयोगों के लिए आदर्श।"
+    }
+  },
+  "sections": {
+    "overview": "अवलोकन",
+    "technicalSpecifications": "तकनीकी विनिर्देश",
+    "keyFeatures": "मुख्य विशेषताएं",
+    "applications": "अनुप्रयोग",
+    "industriesServed": "उद्योगों में सेवा",
+    "certificationsCompliance": "प्रमाणन और अनुपालन",
+    "certifications": "प्रमाणन",
+    "qualityAssurance": "गुणवत्ता आश्वासन",
+    "qualityAssuranceDescription": "उत्पाद अंतरराष्ट्रीय मानकों और सुरक्षा नियमों को पूरा करते हैं।",
+    "completeListDescription": "विनिर्देशों के साथ {{groupTitle}} उत्पादों की पूरी सूची",
+    "expertsHelpDescription": "हमारे विशेषज्ञ आपके आवेदन के लिए सही {{groupTitle}} का चयन करने में आपकी सहायता करने के लिए यहां हैं।"
+  },
+  "table": {
+    "manufacturer": "निर्माता",
+    "model": "मॉडल",
+    "type": "प्रकार",
+    "actions": "कार्य"
+  },
+  "labels": {
+    "industrialProduct": "औद्योगिक उत्पाद",
+    "products": "उत्पाद"
+  },
+  "messages": {
+    "noProductsInGroup": "इस समूह में कोई उत्पाद नहीं मिला।"
   }
 }

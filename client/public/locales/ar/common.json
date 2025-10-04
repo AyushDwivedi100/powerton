@@ -121,7 +121,21 @@
     "requestCustomQuote": "طلب عرض أسعار مخصص",
     "next": "التالي",
     "previous": "السابق",
-    "complete": "أكمل"
+    "complete": "أكمل",
+    "view": "عرض",
+    "viewAllServices": "عرض جميع الخدمات"
+  },
+  "errors": {
+    "productNotFound": "المنتج غير موجود",
+    "productNotFoundMessage": "المنتج الذي تبحث عنه غير موجود.",
+    "productsNotFound": "المنتجات غير موجودة",
+    "productsNotFoundMessage": "المنتجات التي تبحث عنها غير موجودة.",
+    "categoryNotFound": "الفئة غير موجودة",
+    "categoryNotFoundMessage": "فئة المنتج التي تبحث عنها غير موجودة.",
+    "subCategoryNotFound": "الفئة الفرعية غير موجودة",
+    "subCategoryNotFoundMessage": "الفئة الفرعية للمنتج التي تبحث عنها غير موجودة.",
+    "serviceNotFound": "الخدمة غير موجودة",
+    "serviceNotFoundMessage": "الخدمة التي تبحث عنها غير موجودة."
   },
   "loading": "جار التحميل...",
   "error": "حدث خطأ",
@@ -135,15 +149,6 @@
     "requestConsultation": "اطلب استشارة هندسية مجانية",
     "availability": "توافر على مدار الساعة طوال أيام الأسبوع للدعم السريع",
     "responseTime": "خلال يومين للاستشارة الأولية"
-  },
-  "ui": {
-    "ariaLabels": {
-      "contactWhatsApp": "تواصل معنا على الواتساب",
-      "contactJustDial": "تواصل معنا على جاست ديال"
-    },
-    "messages": {
-      "whatsappGreeting": "مرحباً! أنا مهتم بمنتجاتكم وخدماتكم."
-    }
   },
   "aria": {
     "toggleNavigation": "تبديل مساعد التنقل",
@@ -320,7 +325,8 @@
     "emergencySupport": "دعم الطوارئ فقط",
     "availability": "التوافر",
     "coverage": "التغطية",
-    "free": "مجاني"
+    "free": "مجاني",
+    "products": "المنتجات"
   },
   "placeholders": {
     "selectProjectType": "اختر نوع المشروع",

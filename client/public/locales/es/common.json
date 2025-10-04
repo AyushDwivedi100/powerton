@@ -121,7 +121,21 @@
     "requestCustomQuote": "Solicitar Presupuesto Personalizado",
     "next": "Próximo",
     "previous": "Anterior",
-    "complete": "Completar"
+    "complete": "Completar",
+    "view": "Ver",
+    "viewAllServices": "Ver todos los servicios"
+  },
+  "errors": {
+    "productNotFound": "Producto no encontrado",
+    "productNotFoundMessage": "El producto que busca no existe.",
+    "productsNotFound": "Productos no encontrados",
+    "productsNotFoundMessage": "Los productos que busca no existen.",
+    "categoryNotFound": "Categoría no encontrada",
+    "categoryNotFoundMessage": "La categoría de producto que busca no existe.",
+    "subCategoryNotFound": "Subcategoría no encontrada",
+    "subCategoryNotFoundMessage": "La subcategoría de producto que busca no existe.",
+    "serviceNotFound": "Servicio no encontrado",
+    "serviceNotFoundMessage": "El servicio que busca no existe."
   },
   "loading": "Cargando...",
   "error": "Algo salió mal",
@@ -320,7 +334,8 @@
     "emergencySupport": "Solo Soporte de Emergencia",
     "availability": "Disponibilidad",
     "coverage": "Cobertura",
-    "free": "Gratis"
+    "free": "Gratis",
+    "products" : "Productos"
   },
   "placeholders": {
     "selectProjectType": "Seleccionar tipo de proyecto",

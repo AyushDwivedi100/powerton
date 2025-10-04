@@ -1,7 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { getProducts } from "@/data/constants";
-import { ArrowRight } from "lucide-react";
 import { Link } from "wouter";
 import { motion } from "framer-motion";
 import { AnimatedSection, StaggeredList } from "@/hooks/use-scroll-animation";

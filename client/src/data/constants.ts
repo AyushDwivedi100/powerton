@@ -339,18 +339,25 @@ export const getProducts = (t: any) => [
   },
   {
     id: "industrial-measuring-tools",
-    title: "Industrial & Measuring Tools",
-    description:
-      "Professional tools, equipment, and advanced measurement instruments for industrial maintenance, construction, manufacturing operations, and precise monitoring applications",
+    title: t("products:categories.industrial-measuring-tools.title"),
+    description: t(
+      "products:categories.industrial-measuring-tools.description",
+    ),
     icon: "Wrench",
     image: getProductImage("measurement-instruments")?.src || "",
     features: [
-      "Hand Tools",
-      "Power Tools",
-      "Digital Multimeters",
-      "Spectrum Analyzers",
-      "Power Quality Analyzers",
-      "Calibrators",
+      t("products:categories.industrial-measuring-tools.features.hand-tools"),
+      t("products:categories.industrial-measuring-tools.features.power-tools"),
+      t(
+        "products:categories.industrial-measuring-tools.features.digital-multimeters",
+      ),
+      t(
+        "products:categories.industrial-measuring-tools.features.spectrum-analyzers",
+      ),
+      t(
+        "products:categories.industrial-measuring-tools.features.power-quality-analyzers",
+      ),
+      t("products:categories.industrial-measuring-tools.features.calibrators"),
     ],
     subcategories: [
       {

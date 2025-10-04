@@ -1112,5 +1112,63 @@
         "keywords": "sistemas SCADA, control supervisorio, adquisición de datos, monitoreo industrial, control de procesos, integración HMI, monitoreo remoto, software SCADA"
       }
     }
+  },
+  "gallery": {
+    "seo": {
+      "title": "Galería - Proyectos, Productos y Equipo de Powerton Engineering",
+      "description": "Explore la galería de Powerton Engineering que muestra nuestro equipo, los proyectos de automatización industrial completados y la gama completa de productos. Construyendo confianza a través de la transparencia.",
+      "keywords": "galería de powerton engineering, galería de proyectos industriales, proyectos de automatización, equipo de ingeniería eléctrica, exhibición de productos, instalaciones de la empresa"
+    }
+  },
+  "news": {
+    "seo": {
+      "title": "Noticias y Actualizaciones - Noticias de la Compañía, Logros y Metas Futuras | Powerton Engineering",
+      "description": "Manténgase actualizado con las últimas noticias, logros, premios, próximos proyectos y metas futuras de Powerton Engineering. El viaje de la empresa líder en automatización industrial hacia la excelencia.",
+      "keywords": "noticias de la compañía, noticias de ingeniería, actualizaciones de la industria de automatización, logros de powerton, premios de automatización industrial, excelencia en ingeniería, hitos de la empresa"
+    },
+    "upcomingProjects": {
+      "description": "Proyectos emocionantes en el horizonte que demuestran nuestro compromiso con la innovación y la excelencia."
+    }
+  },
+  "products": {
+    "seo": {
+      "keywords": "productos industriales, equipos de automatización, componentes eléctricos, productos de instrumentación, paneles solares, bombas industriales, instrumentos de medición, equipos de seguridad"
+    }
+  },
+  "projects": {
+    "seo": {
+      "title": "Proyectos de Ingeniería y Portafolio - Casos de Automatización Industrial | Powerton Engineering",
+      "description": "Explore nuestras capacidades de ingeniería a través de proyectos de demostración que muestran la automatización industrial, los sistemas de energía, las soluciones solares y la experiencia en control de procesos. Los proyectos destacados resaltan nuestras competencias centrales.",
+      "keywords": "proyectos de ingeniería, proyectos de automatización, automatización de plantas de energía, automatización de fabricación, proyectos solares, automatización del tratamiento de agua, proyectos industriales India, portafolio de proyectos"
+    }
+  },
+  "services": {
+    "seo": {
+      "keywords": "servicios de ingeniería, servicios de automatización industrial, programación de PLC, implementación de SCADA, instalación de paneles eléctricos, servicios de mantenimiento, servicios de calibración, soluciones de automatización personalizadas, contratista de EPC solar, soporte técnico India"
+    },
+    "relatedServices": {
+      "description": "Explore nuestros otros servicios profesionales que complementan"
+    }
+  },
+  "sitemap": {
+    "seo": {
+      "keywords": "mapa del sitio, navegación del sitio web, powerton engineering, automatización industrial, ingeniería eléctrica, productos, servicios, proyectos, estructura del sitio"
+    }
+  },
+  "contact": {
+    "whatsapp": {
+      "defaultMessage": "¡Hola! Estoy interesado en sus productos y servicios."
+    }
+  },
+  "quote": {
+    "calculator": {
+      "title": "Calculadora de Costos Avanzada",
+      "description": "Estamos dando los toques finales a nuestra herramienta inteligente de estimación de costos. Esta función proporcionará precios instantáneos y precisos para sus proyectos de automatización.",
+      "launchingSoon": "Próximamente",
+      "useQuoteForm": "Para obtener cotizaciones inmediatas, utilice nuestro formulario de cotización detallado",
+      "getQuoteNow": "Obtener Cotización Ahora",
+      "projectTitle": "Calculadora de Costos del Proyecto",
+      "stepOf": "Paso {{current}} de {{total}}"
+    }
   }
 }
