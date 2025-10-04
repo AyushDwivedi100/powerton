@@ -704,7 +704,12 @@
       "openMobileMenu": "Open mobile menu",
       "emailUs": "Email us at {{email}}",
       "openLocation": "Open office location in Google Maps",
-      "mainNavigation": "Main navigation"
+      "mainNavigation": "Main navigation",
+      "contactWhatsApp": "Contact us on WhatsApp",
+      "contactJustDial": "Contact us on Just Dial"
+    },
+    "messages": {
+      "whatsappGreeting": "Hello! I'm interested in your products and services."
     },
     "altTexts": {
       "companyLogo": "Powerton Engineering Company Logo",

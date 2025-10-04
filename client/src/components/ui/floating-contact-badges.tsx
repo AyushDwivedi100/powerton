@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { useTranslation } from "react-i18next";
 import justDialQRImage from "@assets/downloaded_images/justdial-qr-logo.png";
 
 // WhatsApp Logo SVG Component
@@ -31,9 +32,11 @@ const JustDialLogo = () => (
 );
 
 export default function FloatingContactBadges() {
+  const { t } = useTranslation("common");
+  
   const handleWhatsAppClick = () => {
-    const phoneNumber = "919462771662"; // WhatsApp format - digits only, no plus sign
-    const message = "Hello! I'm interested in your products and services.";
+    const phoneNumber = "919462771662";
+    const message = t("ui.messages.whatsappGreeting");
     const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
     window.open(whatsappUrl, "_blank");
   };
@@ -75,7 +78,7 @@ export default function FloatingContactBadges() {
           ease: [0.4, 0.0, 0.2, 1],
           times: [0, 0.2, 0.5, 0.8, 1],
         }}
-        aria-label="Contact us on WhatsApp"
+        aria-label={t("ui.ariaLabels.contactWhatsApp")}
         style={{
           filter: "drop-shadow(0 0 8px rgba(34, 197, 94, 0.4))",
         }}
@@ -130,7 +133,7 @@ export default function FloatingContactBadges() {
           ease: [0.4, 0.0, 0.2, 1],
           times: [0, 0.2, 0.5, 0.8, 1],
         }}
-        aria-label="Contact us on Just Dial"
+        aria-label={t("ui.ariaLabels.contactJustDial")}
         style={{
           filter: "drop-shadow(0 0 8px rgba(255, 255, 255, 0.6))",
         }}
