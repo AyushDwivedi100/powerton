@@ -53,37 +53,44 @@ The frontend is built with React 18, TypeScript, and Vite, utilizing Tailwind CS
 
 ## Recent Changes
 
-### October 4, 2025 - Completed Internationalization (i18n) Implementation
+### October 4, 2025 - Completed Additional Internationalization (i18n) Implementation
+- **Fixed breadcrumb navigation across 4 files:**
+  - Updated about.tsx, contact.tsx, product-detail-dynamic.tsx, service-category-dynamic.tsx
+  - Reused existing sitemap.pages translation keys (DRY principle)
+  - All breadcrumbs now fully internationalized
+- **Fixed news.tsx hardcoded statuses and technologies:**
+  - Created translation keys for project statuses: Planning Phase, Contract Signed, Engineering Phase, In Progress
+  - Created translation keys for technologies: IoT, Smart Sensors, City Management Systems, etc.
+  - Moved data to translation function (getUpcomingProjects) to access t() outside component scope
+- **Fixed projects.tsx with stable identifier-based filtering:**
+  - Implemented {id, label} structure for filter options
+  - Created FILTER_IDS constant with stable English identifiers matching project data
+  - Fixed critical multi-language bug: filters now work correctly in all locales
+  - Filter dropdowns display translated labels but compare stable IDs internally
+  - Verified by architect: works consistently across all languages
+- **Documented SEO structured data decision:**
+  - Added code comments to home.tsx explaining why structured data remains in English
+  - Structured data is machine-readable SEO metadata for search engines
+  - Keeping it in English ensures optimal search engine indexing
+- **Architecture decisions:**
+  - Reused existing translation keys where possible (DRY principle)
+  - Created helper functions to access t() outside component scope
+  - Used stable identifiers for filtering to support multi-language
+  - Documented exceptions (SEO metadata) with clear reasoning
+
+### October 4, 2025 - Previous i18n Work Completed
 - **Systematically replaced ALL hardcoded English strings with translation keys:**
   - Chatbot component (2383 lines): Replaced 100+ hardcoded strings with translation keys
   - Footer component: Replaced all hardcoded aria-labels (7 instances)
   - Hero section: Replaced background aria-label with translation key
 - **Updated English locale files:**
-  - Added 150+ new translation keys to `client/public/locales/en/chatbot.json` covering:
-    - Response messages for all chatbot scenarios
-    - Button labels and navigation options
-    - Help messages, business hours, pricing info, achievements
-    - Navigation flow responses (products, services, contact, about, projects, quote pages)
-  - Added 7 new aria-label keys to `client/public/locales/en/common.json`:
-    - Footer info, services navigation, products navigation
-    - Primary/secondary phone call labels
-    - Email and office location labels
-    - Hero background image label
-- **Translation key naming conventions:**
-  - Chatbot options: `chatbot.options.*`
-  - Chatbot responses: `chatbot.responses.*`
-  - Chatbot messages: `chatbotMessages.*`
-  - Aria labels: `common:ui.ariaLabels.*`
-  - Alt texts: `common:ui.altTexts.*`
+  - Added 150+ new translation keys to `client/public/locales/en/chatbot.json`
+  - Added 7 new aria-label keys to `client/public/locales/en/common.json`
 - **Verification completed:**
   - No hardcoded English strings remain in reviewed components
   - All translation keys follow consistent naming structure
   - Application tested and running without missing translation key errors
   - Implementation ready for additional language locales (10+ languages supported)
-- **Architecture review confirmed:**
-  - All hardcoded strings successfully replaced
-  - Translation keys properly structured and accessible
-  - Ready for multi-language support expansion
 
 ### October 3, 2025 - Added PD Flow Meter Product Group
 - Created new "PD Flow Meters" (Positive Displacement) product group with i18n support
