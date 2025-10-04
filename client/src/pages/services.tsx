@@ -52,7 +52,7 @@ export default function Services() {
       <SEO
         title={t("pages:services.seo.title")}
         description={t("pages:services.seo.description")}
-        keywords="engineering services, industrial automation services, PLC programming, SCADA implementation, electrical panel installation, maintenance services, calibration services, custom automation solutions, solar EPC contractor, technical support India"
+        keywords={t("pages:services.seo.keywords")}
         canonicalUrl="https://powertonengineering.in/services"
       />
 

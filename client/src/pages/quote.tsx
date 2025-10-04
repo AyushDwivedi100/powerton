@@ -952,7 +952,9 @@ export default function Quote() {
                         <CardHeader className="p-6">
                           <CardTitle className="text-xl md:text-2xl font-semibold text-foreground flex items-center">
                             <IndianRupee className="w-6 h-6 mr-2 text-secondary" />
-                            Cost Estimate
+                            {t("pages:quote.hero.estimates", {
+                              defaultValue: "Cost Estimate",
+                            })}
                           </CardTitle>
                         </CardHeader>
                         <CardContent className="p-6 space-y-4">

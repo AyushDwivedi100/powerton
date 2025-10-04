@@ -60,15 +60,15 @@ export default function ProductSubCategoryDynamic() {
           className="text-center"
         >
           <h1 className="text-4xl font-bold text-foreground mb-4">
-            Sub-Category Not Found
+            {t("common:errors.subCategoryNotFound")}
           </h1>
           <p className="text-muted-foreground mb-8">
-            The product sub-category you're looking for doesn't exist.
+            {t("common:errors.subCategoryNotFoundMessage")}
           </p>
           <Link href="/products">
             <Button className="bg-primary hover:bg-primary/90 text-primary-foreground">
               <ArrowLeft className="mr-2 h-4 w-4" />
-              Back to Products
+              {t("common:buttons.backToProducts")}
             </Button>
           </Link>
         </motion.div>

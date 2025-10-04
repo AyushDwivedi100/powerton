@@ -70,14 +70,14 @@ export default function ServiceCategoryPage() {
         >
           <div className="text-center">
             <h1 className="text-4xl font-bold text-foreground mb-4">
-              Service Not Found
+              {t("common:errors.serviceNotFound")}
             </h1>
             <p className="text-muted-foreground mb-8">
-              The service you're looking for doesn't exist.
+              {t("common:errors.serviceNotFoundMessage")}
             </p>
             <Link href="/services">
               <Button>
-                View All Services <ArrowRight className="ml-2 h-5 w-5" />
+                {t("common:buttons.viewAllServices")} <ArrowRight className="ml-2 h-5 w-5" />
               </Button>
             </Link>
           </div>

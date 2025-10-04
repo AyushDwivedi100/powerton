@@ -37,15 +37,15 @@ export default function ProductGroupDynamic() {
           className="text-center"
         >
           <h1 className="text-4xl font-bold text-foreground mb-4">
-            Products Not Found
+            {t("common:errors.productsNotFound")}
           </h1>
           <p className="text-muted-foreground mb-8">
-            The products you're looking for doesn't exist.
+            {t("common:errors.productsNotFoundMessage")}
           </p>
           <Link href="/products">
             <Button className="bg-primary hover:bg-primary/90 text-primary-foreground">
               <ArrowLeft className="mr-2 h-4 w-4" />
-              Back to Products
+              {t("common:buttons.backToProducts")}
             </Button>
           </Link>
         </motion.div>
@@ -65,15 +65,15 @@ export default function ProductGroupDynamic() {
           className="text-center"
         >
           <h1 className="text-4xl font-bold text-foreground mb-4">
-            Products Not Found
+            {t("common:errors.productsNotFound")}
           </h1>
           <p className="text-muted-foreground mb-8">
-            The products you're looking for doesn't exist.
+            {t("common:errors.productsNotFoundMessage")}
           </p>
           <Link href="/products">
             <Button className="bg-primary hover:bg-primary/90 text-primary-foreground">
               <ArrowLeft className="mr-2 h-4 w-4" />
-              Back to Products
+              {t("common:buttons.backToProducts")}
             </Button>
           </Link>
         </motion.div>
@@ -101,7 +101,7 @@ export default function ProductGroupDynamic() {
           <Link href={`/products/${parentSlug}/${subcategorySlug}`}>
             <Button className="bg-primary hover:bg-primary/90 text-primary-foreground">
               <ArrowLeft className="mr-2 h-4 w-4" />
-              Back to {subcategory.title}
+              {t("common:buttons.backTo", { category: subcategory.title })}
             </Button>
           </Link>
         </motion.div>
@@ -164,7 +164,7 @@ export default function ProductGroupDynamic() {
           <Link href={`/products/${parentSlug}/${subcategorySlug}`}>
             <Button className="bg-primary hover:bg-primary/90 text-primary-foreground">
               <ArrowLeft className="mr-2 h-4 w-4" />
-              Back to {subcategory.title}
+              {t("common:buttons.backTo", { category: subcategory.title })}
             </Button>
           </Link>
         </motion.div>
@@ -263,8 +263,9 @@ export default function ProductGroupDynamic() {
                 })}
               </h2>
               <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-                Complete list of {groupTitle.toLowerCase()} products with
-                specifications
+                {t("products:sections.completeListDescription", {
+                  groupTitle: groupTitle.toLowerCase(),
+                })}
               </p>
             </div>
 
@@ -275,16 +276,16 @@ export default function ProductGroupDynamic() {
                     <thead className="bg-muted">
                       <tr>
                         <th className="px-6 py-4 text-left text-sm font-semibold text-foreground">
-                          Manufacturer
+                          {t("products:table.manufacturer")}
                         </th>
                         <th className="px-6 py-4 text-left text-sm font-semibold text-foreground">
-                          Model
+                          {t("products:table.model")}
                         </th>
                         <th className="px-6 py-4 text-left text-sm font-semibold text-foreground">
-                          Type
+                          {t("products:table.type")}
                         </th>
                         <th className="px-6 py-4 text-left text-sm font-semibold text-foreground">
-                          Actions
+                          {t("products:table.actions")}
                         </th>
                       </tr>
                     </thead>
@@ -326,7 +327,7 @@ export default function ProductGroupDynamic() {
                                   data-testid={`button-view-detail-${product.id}`}
                                 >
                                   <ExternalLink className="mr-1 h-3 w-3" />
-                                  View
+                                  {t("common:buttons.view")}
                                 </Button>
                               </Link>
                             </div>
@@ -340,12 +341,12 @@ export default function ProductGroupDynamic() {
             ) : (
               <div className="text-center py-12">
                 <p className="text-muted-foreground text-lg">
-                  No products found in this group.
+                  {t("products:messages.noProductsInGroup")}
                 </p>
                 <Link href={`/products/${parentSlug}/${subcategorySlug}`}>
                   <Button className="mt-4">
                     <ArrowLeft className="mr-2 h-4 w-4" />
-                    Back to {subcategory.title}
+                    {t("common:buttons.backTo", { category: subcategory.title })}
                   </Button>
                 </Link>
               </div>

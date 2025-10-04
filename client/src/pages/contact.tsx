@@ -241,7 +241,7 @@ export default function Contact() {
                                     /[^0-9]/g,
                                     ""
                                   )}?text=${encodeURIComponent(
-                                    "Hello! I'm interested in your products and services."
+                                    t("pages:contact.whatsapp.defaultMessage")
                                   )}`
                                 : `tel:${method.content.primary}`
                             }
@@ -267,7 +267,7 @@ export default function Contact() {
                                     /[^0-9]/g,
                                     ""
                                   )}?text=${encodeURIComponent(
-                                    "Hello! I'm interested in your products and services."
+                                    t("pages:contact.whatsapp.defaultMessage")
                                   )}`
                                 : `tel:${method.content.secondary}`
                             }

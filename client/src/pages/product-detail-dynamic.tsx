@@ -45,15 +45,15 @@ const ProductDetailDynamic: React.FC = () => {
           className="text-center"
         >
           <h1 className="text-4xl font-bold text-foreground mb-4">
-            Product Not Found
+            {t("common:errors.productNotFound")}
           </h1>
           <p className="text-muted-foreground mb-8">
-            The product you're looking for doesn't exist.
+            {t("common:errors.productNotFoundMessage")}
           </p>
           <Link href="/products">
             <Button className="bg-primary hover:bg-primary/90 text-primary-foreground">
               <ArrowLeft className="mr-2 h-4 w-4" />
-              Back to Products
+              {t("common:buttons.backToProducts")}
             </Button>
           </Link>
         </motion.div>
@@ -205,7 +205,7 @@ const ProductDetailDynamic: React.FC = () => {
                   >
                     <Link href="/contact">
                       <Phone className="mr-2 h-5 w-5" />
-                      Contact Us
+                      {t("common:buttons.contactUs")}
                     </Link>
                   </Button>
                   <Button
@@ -217,7 +217,7 @@ const ProductDetailDynamic: React.FC = () => {
                   >
                     <Link href="/quote">
                       <Mail className="mr-2 h-5 w-5" />
-                      Get Quote
+                      {t("common:buttons.getQuote")}
                     </Link>
                   </Button>
                 </motion.div>
@@ -234,7 +234,7 @@ const ProductDetailDynamic: React.FC = () => {
                       <Box className="w-6 h-6 text-primary" />
                     </div>
                     <h2 className="text-3xl lg:text-4xl font-bold text-foreground">
-                      Overview
+                      {t("products:sections.overview")}
                     </h2>
                   </div>
                   <p className="text-lg lg:text-xl text-muted-foreground leading-relaxed">
@@ -256,7 +256,7 @@ const ProductDetailDynamic: React.FC = () => {
                           <Award className="w-5 h-5 text-secondary" />
                         </div>
                         <h2 className="text-2xl font-bold text-foreground">
-                          Technical Specifications
+                          {t("products:sections.technicalSpecifications")}
                         </h2>
                       </div>
                       <div className="space-y-3">
@@ -295,7 +295,7 @@ const ProductDetailDynamic: React.FC = () => {
                             <CheckCircle className="w-5 h-5 text-primary" />
                           </div>
                           <h2 className="text-2xl font-bold text-foreground">
-                            Key Features
+                            {t("products:sections.keyFeatures")}
                           </h2>
                         </div>
                         <div className="space-y-3">
@@ -329,7 +329,7 @@ const ProductDetailDynamic: React.FC = () => {
                     productData.applications.length > 0 && (
                       <div className="space-y-6">
                         <h2 className="text-2xl font-bold text-foreground">
-                          Applications
+                          {t("products:sections.applications")}
                         </h2>
                         <div className="space-y-3">
                           {productData.applications.map(
@@ -364,7 +364,7 @@ const ProductDetailDynamic: React.FC = () => {
                     productData.industries.length > 0 && (
                       <div className="space-y-6">
                         <h2 className="text-2xl font-bold text-foreground">
-                          Industries Served
+                          {t("products:sections.industriesServed")}
                         </h2>
                         <div className="space-y-3">
                           {productData.industries.map((industry, index) => (
@@ -400,7 +400,7 @@ const ProductDetailDynamic: React.FC = () => {
                 <AnimatedSection>
                   <div>
                     <h2 className="text-3xl lg:text-4xl font-bold text-foreground mb-8">
-                      Certifications & Compliance
+                      {t("products:sections.certificationsCompliance")}
                     </h2>
                     <div className="flex flex-wrap gap-3">
                       {productData.certifications.map((cert, index) => (

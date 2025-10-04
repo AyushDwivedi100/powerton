@@ -615,7 +615,7 @@ export default function Sitemap() {
         </h4>
         <div className="flex-1 border-b border-border/30"></div>
         <span className="text-xs bg-primary/10 text-primary px-2 py-1 rounded-full">
-          {category.products.length} products
+          {category.products.length} {t("common:nav.products", { ns: "common" }).toLowerCase()}
         </span>
       </div>
 
@@ -656,7 +656,7 @@ export default function Sitemap() {
       <SEO
         title={t("sitemap.seoTitle", { ns: "common" })}
         description={t("sitemap.seoDescription", { ns: "common" })}
-        keywords="sitemap, website navigation, powerton engineering, industrial automation, electrical engineering, products, services, projects, site structure"
+        keywords={t("pages:sitemap.seo.keywords")}
         canonicalUrl="https://powertonengineering.in/sitemap"
         structuredData={{
           "@context": "https://schema.org",

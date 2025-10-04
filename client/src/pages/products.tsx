@@ -337,7 +337,7 @@ export default function Products() {
       <SEO
         title={t("pages:products.seo.title")}
         description={t("pages:products.seo.description")}
-        keywords="industrial products, automation equipment, electrical components, instrumentation products, solar panels, industrial pumps, measurement instruments, safety equipment"
+        keywords={t("pages:products.seo.keywords")}
         canonicalUrl="https://powertonengineering.in/products"
       />
 

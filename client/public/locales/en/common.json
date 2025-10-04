@@ -121,7 +121,21 @@
     "requestCustomQuote": "Request Custom Quote",
     "next": "Next",
     "previous": "Previous",
-    "complete": "Complete"
+    "complete": "Complete",
+    "view": "View",
+    "viewAllServices": "View All Services"
+  },
+  "errors": {
+    "productNotFound": "Product Not Found",
+    "productNotFoundMessage": "The product you're looking for doesn't exist.",
+    "productsNotFound": "Products Not Found",
+    "productsNotFoundMessage": "The products you're looking for doesn't exist.",
+    "categoryNotFound": "Category Not Found",
+    "categoryNotFoundMessage": "The product category you're looking for doesn't exist.",
+    "subCategoryNotFound": "Sub-Category Not Found",
+    "subCategoryNotFoundMessage": "The product sub-category you're looking for doesn't exist.",
+    "serviceNotFound": "Service Not Found",
+    "serviceNotFoundMessage": "The service you're looking for doesn't exist."
   },
   "loading": "Loading...",
   "error": "Something went wrong",
@@ -320,7 +334,8 @@
     "emergencySupport": "Emergency Support Only",
     "availability": "Availability",
     "coverage": "Coverage",
-    "free": "Free"
+    "free": "Free",
+    "products": "products"
   },
   "placeholders": {
     "selectProjectType": "Select project type",

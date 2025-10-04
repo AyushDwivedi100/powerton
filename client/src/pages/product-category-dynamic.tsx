@@ -151,10 +151,10 @@ const ProductCategoryDynamic: React.FC = () => {
           className="text-center"
         >
           <h1 className="text-4xl font-bold text-foreground mb-4">
-            Category Not Found
+            {t("common:errors.categoryNotFound")}
           </h1>
           <p className="text-muted-foreground mb-8">
-            The product category you're looking for doesn't exist.
+            {t("common:errors.categoryNotFoundMessage")}
           </p>
           <Link href="/products">
             <Button className="bg-primary hover:bg-primary/90 text-primary-foreground">
@@ -403,7 +403,7 @@ const ProductCategoryDynamic: React.FC = () => {
                   className="border-2 border-border text-foreground hover:bg-foreground hover:text-background px-8 py-3 text-lg font-semibold w-full sm:w-auto shadow-lg hover:shadow-xl transition-shadow duration-300"
                 >
                   <Mail className="mr-2 w-5 h-5" />
-                  Request Quote
+                  {t("common:buttons.requestQuote")}
                 </Button>
               </motion.div>
             </Link>
