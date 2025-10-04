@@ -47,27 +47,36 @@ import { PROJECTS, getAllProjects } from "@/data/constants";
 // Use centralized project data from constants.ts
 const PORTFOLIO_PROJECTS = getAllProjects();
 
-const INDUSTRIES = [
-  "All",
-  "Manufacturing",
-  "Power Generation",
-  "Renewable Energy",
-  "Process Industries",
-];
-const CATEGORIES = [
-  "All",
-  "Process Automation",
-  "Power Systems",
-  "Solar Solutions",
-];
-const STATUSES = ["All", "Capability Demo", "In Progress", "Completed"];
+// Move filter arrays inside component to access t function
+const getFilterOptions = (t: any) => ({
+  industries: [
+    t("pages:projects.filters.industries.all"),
+    t("pages:projects.filters.industries.manufacturing"),
+    t("pages:projects.filters.industries.powerGeneration"),
+    t("pages:projects.filters.industries.renewableEnergy"),
+    t("pages:projects.filters.industries.processIndustries"),
+  ],
+  categories: [
+    t("pages:projects.filters.categories.all"),
+    t("pages:projects.filters.categories.processAutomation"),
+    t("pages:projects.filters.categories.powerSystems"),
+    t("pages:projects.filters.categories.solarSolutions"),
+  ],
+  statuses: [
+    t("pages:projects.filters.statuses.all"),
+    t("pages:projects.filters.statuses.capabilityDemo"),
+    t("pages:projects.filters.statuses.inProgress"),
+    t("pages:projects.filters.statuses.completed"),
+  ],
+});
 
 export default function Projects() {
   const { t, i18n, ready } = useTranslation(["pages", "common"]);
+  const filterOptions = getFilterOptions(t);
   const [searchTerm, setSearchTerm] = useState("");
-  const [selectedIndustry, setSelectedIndustry] = useState("All");
-  const [selectedCategory, setSelectedCategory] = useState("All");
-  const [selectedStatus, setSelectedStatus] = useState("All");
+  const [selectedIndustry, setSelectedIndustry] = useState(filterOptions.industries[0]);
+  const [selectedCategory, setSelectedCategory] = useState(filterOptions.categories[0]);
+  const [selectedStatus, setSelectedStatus] = useState(filterOptions.statuses[0]);
   const [showFilters, setShowFilters] = useState(false);
   const [selectedTab, setSelectedTab] = useState("showcase");
 
@@ -333,7 +342,7 @@ export default function Projects() {
                             />
                           </SelectTrigger>
                           <SelectContent>
-                            {INDUSTRIES.map((industry) => (
+                            {filterOptions.industries.map((industry) => (
                               <SelectItem key={industry} value={industry}>
                                 {industry}
                               </SelectItem>
@@ -357,7 +366,7 @@ export default function Projects() {
                             />
                           </SelectTrigger>
                           <SelectContent>
-                            {CATEGORIES.map((category) => (
+                            {filterOptions.categories.map((category) => (
                               <SelectItem key={category} value={category}>
                                 {category}
                               </SelectItem>
@@ -381,7 +390,7 @@ export default function Projects() {
                             />
                           </SelectTrigger>
                           <SelectContent>
-                            {STATUSES.map((status) => (
+                            {filterOptions.statuses.map((status) => (
                               <SelectItem key={status} value={status}>
                                 {status}
                               </SelectItem>

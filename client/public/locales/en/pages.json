@@ -353,6 +353,28 @@
       "contactTeam": "Contact Team"
     },
     "showing": "Showing {{count}} projects of {{total}}",
+    "filters": {
+      "industries": {
+        "all": "All",
+        "manufacturing": "Manufacturing",
+        "powerGeneration": "Power Generation",
+        "renewableEnergy": "Renewable Energy",
+        "processIndustries": "Process Industries"
+      },
+      "categories": {
+        "all": "All",
+        "processAutomation": "Process Automation",
+        "powerSystems": "Power Systems",
+        "solarSolutions": "Solar Solutions",
+        "waterSystems": "Water Systems"
+      },
+      "statuses": {
+        "all": "All",
+        "capabilityDemo": "Capability Demo",
+        "inProgress": "In Progress",
+        "completed": "Completed"
+      }
+    },
     "items": {
       "industrial-automation-demo": {
         "title": "Demo: Industrial Automation Systems",
