@@ -24,7 +24,7 @@ import powerPlantControlImage from '@assets/generated_images/Power_Plant_Control
 // New product category images (ID-837+)
 import instrumentationComponentsImage from '@assets/generated_images/Industrial_instrumentation_components_showcase_69897e6b.png';
 import electricalComponentsImage from '@assets/generated_images/Electrical_components_product_showcase_2ba0ce40.png';
-import measurementInstrumentsImage from '@assets/generated_images/Measurement_instruments_product_showcase_9fe64a2b.png';
+import measurementInstrumentsImage from '@assets/generated_images/Industrial_measuring_tools_showcase_da4b17c0.png';
 import solarProductsImage from '@assets/generated_images/Solar_products_technology_showcase_82907203.png';
 import automationControlSystemsImage from '@assets/generated_images/Automation_control_systems_showcase_4bbc6aa1.png';
 import safetyProtectiveDevicesImage from '@assets/generated_images/Safety_protective_devices_showcase_5e4ee724.png';
@@ -250,6 +250,11 @@ export const PRODUCT_IMAGES = {
     id: IMAGE_IDS.ELECTRICAL_COMPONENTS
   },
   'industrial-measuring-tools': {
+    src: measurementInstrumentsImage,
+    alt: `${IMAGE_IDS.MEASUREMENT_INSTRUMENTS}: Measurement instruments - Digital multimeters, oscilloscopes and analyzers`,
+    id: IMAGE_IDS.MEASUREMENT_INSTRUMENTS
+  },
+  'measurement-instruments': {
     src: measurementInstrumentsImage,
     alt: `${IMAGE_IDS.MEASUREMENT_INSTRUMENTS}: Measurement instruments - Digital multimeters, oscilloscopes and analyzers`,
     id: IMAGE_IDS.MEASUREMENT_INSTRUMENTS
