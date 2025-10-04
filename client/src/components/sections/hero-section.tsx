@@ -8,7 +8,7 @@ import { useTranslation } from "react-i18next";
 import { AnimatedCounter } from "@/components/ui/animated-counter";
 
 export default function HeroSection() {
-  const { t } = useTranslation();
+  const { t } = useTranslation(["common", "pages"]);
 
   const containerVariants = {
     hidden: {},
@@ -76,7 +76,7 @@ export default function HeroSection() {
           })`,
         }}
         role="img"
-        aria-label="Industrial automation facility background showcasing Powerton Engineering's expertise"
+        aria-label={t("common:ui.altTexts.heroBackground")}
       ></div>
 
       {/* Theme-aware overlay */}
