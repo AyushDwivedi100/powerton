@@ -91,8 +91,8 @@ export default function ServiceCategoryPage() {
 
   // Generate breadcrumb schema for services
   const breadcrumbItems = [
-    { name: "Home", url: "/" },
-    { name: "Services", url: "/services" },
+    { name: t("common:sitemap.pages.home"), url: "/" },
+    { name: t("common:sitemap.pages.ourServices"), url: "/services" },
     { name: serviceData.title, url: `/services-category/${slug}` }
   ];
 

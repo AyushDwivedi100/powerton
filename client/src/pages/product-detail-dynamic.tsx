@@ -62,10 +62,10 @@ const ProductDetailDynamic: React.FC = () => {
   }
 
   const breadcrumbItems = [
-    { name: "Home", url: "/" },
-    { name: "Products", url: "/products" },
+    { name: t("common:sitemap.pages.home"), url: "/" },
+    { name: t("common:sitemap.pages.allProducts"), url: "/products" },
     {
-      name: productData.categoryName || "Category",
+      name: productData.categoryName || t("common:labels.category"),
       url: productData.categoryPath || "/products",
     },
     { name: productData.title, url: `${productData.categoryPath}/${slug}` },

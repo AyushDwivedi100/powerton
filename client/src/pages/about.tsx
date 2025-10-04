@@ -149,8 +149,8 @@ export default function About() {
 
   // Generate breadcrumb schema
   const breadcrumbItems = [
-    { name: "Home", url: "/" },
-    { name: "About Us", url: "/about" },
+    { name: t("common:sitemap.pages.home"), url: "/" },
+    { name: t("common:sitemap.pages.aboutUs"), url: "/about" },
   ];
   const breadcrumbSchema = generateBreadcrumbData(breadcrumbItems);
 
