@@ -1436,24 +1436,24 @@ export default function Chatbot() {
         message: t("chatbot.responses.contactSearch"),
         options: [
           {
-            label: "📞 Call Now (+91-94627-71662)",
+            label: t("chatbot.options.callNowWithNumber"),
             action: "external",
             url: "tel:+91-94627-71662",
           },
           {
-            label: "📧 Email Us",
+            label: t("chatbot.options.emailUs"),
             action: "external",
             url: "mailto:info@powertonengineering.com",
           },
           {
-            label: "📍 Visit Our Office",
+            label: t("chatbot.options.visitOurOffice"),
             action: "external",
             url: "https://maps.app.goo.gl/jiap3sBYbM3r8Pn68",
           },
-          { label: "📋 Contact Form", action: "page", page: "contact" },
-          { label: "💼 Request Quote", action: "page", page: "quote" },
+          { label: t("chatbot.options.contactForm"), action: "page", page: "contact" },
+          { label: t("chatbot.options.requestQuote"), action: "page", page: "quote" },
           {
-            label: "⏰ Business Hours",
+            label: t("chatbot.options.businessHours"),
             action: "chat",
             response: "business-hours",
           },
@@ -1469,27 +1469,26 @@ export default function Chatbot() {
       input.includes("budget")
     ) {
       return {
-        message:
-          "I'd be happy to help you get a customized quote! Our pricing is competitive and transparent. For accurate pricing, we'll need to understand your specific requirements. Let's connect you with our sales team for a detailed discussion.",
+        message: t("chatbotMessages.quoteHelp"),
         options: [
-          { label: "📋 Request Detailed Quote", action: "page", page: "quote" },
+          { label: t("chatbot.options.requestDetailedQuote"), action: "page", page: "quote" },
           {
-            label: "📞 Quick Phone Quote",
+            label: t("chatbot.options.quickPhoneQuote"),
             action: "external",
             url: "tel:+91-94627-71662",
           },
           {
-            label: "📧 Email Requirements",
+            label: t("chatbot.options.emailRequirements"),
             action: "external",
             url: "mailto:info@powertonengineering.com?subject=Quote Request",
           },
           {
-            label: "💰 Pricing Information",
+            label: t("chatbot.options.pricingInformation"),
             action: "chat",
             response: "pricing-info",
           },
           {
-            label: "🎯 Custom Solution",
+            label: t("chatbot.options.customSolution"),
             action: "external",
             url: "mailto:info@powertonengineering.com?subject=Custom Solution Request",
           },
@@ -1505,35 +1504,34 @@ export default function Chatbot() {
       input.includes("guidance")
     ) {
       return {
-        message:
-          "I'm here to help you every step of the way! Whether you need product selection guidance, technical specifications, service support, or just want to learn more about our company, I'm at your service. What would you like assistance with?",
+        message: t("chatbotMessages.helpAssist"),
         options: [
           {
-            label: "🔍 Find Products",
+            label: t("chatbot.options.findProducts"),
             action: "chat",
             response: "product-selection",
           },
           {
-            label: "⚙️ Choose Services",
+            label: t("chatbot.options.chooseServices"),
             action: "chat",
             response: "service-selection",
           },
           {
-            label: "🔧 Technical Support",
+            label: t("chatbot.options.technicalSupport"),
             action: "chat",
             response: "troubleshooting",
           },
           {
-            label: "📞 Talk to Expert",
+            label: t("chatbot.options.talkToExpert"),
             action: "external",
             url: "tel:+91-94627-71662",
           },
           {
-            label: "🏢 About Our Company",
+            label: t("chatbot.options.aboutOurCompany"),
             action: "chat",
             response: "company-info",
           },
-          { label: "📋 Get Started", action: "page", page: "contact" },
+          { label: t("chatbot.options.getStarted"), action: "page", page: "contact" },
         ],
       };
     }
@@ -1541,31 +1539,30 @@ export default function Chatbot() {
     // Additional specific responses
     if (input === "business-hours") {
       return {
-        message:
-          "We're here when you need us! Our business hours are Monday to Saturday: 9:00 AM - 6:00 PM. We also provide emergency support on Sundays for critical situations. Located in Noida, Sector 6, F-25, F Block (nearest metro: Sector 15).",
+        message: t("chatbotMessages.businessHoursInfo"),
         options: [
           {
-            label: "📞 Call During Business Hours",
+            label: t("chatbot.options.callDuringBusinessHours"),
             action: "external",
             url: "tel:+91-94627-71662",
           },
           {
-            label: "📧 Email Anytime",
+            label: t("chatbot.options.emailAnytime"),
             action: "external",
             url: "mailto:info@powertonengineering.com",
           },
           {
-            label: "🗺️ Visit Our Office",
+            label: t("chatbot.options.visitOffice"),
             action: "external",
             url: "https://maps.app.goo.gl/jiap3sBYbM3r8Pn68",
           },
           {
-            label: "⚡ Emergency Support",
+            label: t("chatbot.options.emergencySupport"),
             action: "external",
             url: "tel:+91-94627-71662",
           },
           {
-            label: "📅 Schedule Meeting",
+            label: t("chatbot.options.scheduleMeeting"),
             action: "external",
             url: "mailto:info@powertonengineering.com?subject=Meeting Request",
           },
@@ -1575,27 +1572,26 @@ export default function Chatbot() {
 
     if (input === "pricing-info") {
       return {
-        message:
-          "Our pricing is always competitive and transparent! We believe in providing value for money with no hidden costs. Pricing depends on specifications, quantity, and project scope. For the most accurate quote, our team will assess your specific requirements.",
+        message: t("chatbotMessages.pricingInfo"),
         options: [
-          { label: "📋 Get Detailed Quote", action: "page", page: "quote" },
+          { label: t("chatbot.options.getDetailedQuote"), action: "page", page: "quote" },
           {
-            label: "📞 Discuss Pricing",
+            label: t("chatbot.options.discussPricing"),
             action: "external",
             url: "tel:+91-94627-71662",
           },
           {
-            label: "📧 Email Requirements",
+            label: t("chatbot.options.emailRequirements"),
             action: "external",
             url: "mailto:info@powertonengineering.com?subject=Pricing Inquiry",
           },
           {
-            label: "💰 Volume Discounts",
+            label: t("chatbot.options.volumeDiscounts"),
             action: "external",
             url: "tel:+91-94627-71662",
           },
           {
-            label: "🔄 Payment Options",
+            label: t("chatbot.options.paymentOptions"),
             action: "chat",
             response: "payment-options",
           },
@@ -1605,28 +1601,27 @@ export default function Chatbot() {
 
     if (input === "achievements") {
       return {
-        message:
-          "We're proud of our achievements! Over 500+ successful projects completed, 50+ major clients served, 15+ years of experience, and partnerships with industry leaders like Thermax, Motherson, and Praj Industries. Our 10MW solar plant project and pharmaceutical automation systems are among our flagship achievements.",
+        message: t("chatbotMessages.achievements"),
         options: [
-          { label: "🏆 Major Projects", action: "page", page: "projects" },
+          { label: t("chatbot.options.majorProjects"), action: "page", page: "projects" },
           {
-            label: "🤝 Our Clients",
+            label: t("chatbot.options.ourClients"),
             action: "chat",
             response: "major-clients",
           },
-          { label: "📈 Success Stories", action: "page", page: "projects" },
+          { label: t("chatbot.options.successStories"), action: "page", page: "projects" },
           {
-            label: "🎯 Why Choose Us",
+            label: t("chatbot.options.whyChooseUs"),
             action: "chat",
             response: "why-choose-us",
           },
           {
-            label: "📞 Discuss Partnership",
+            label: t("chatbot.options.discussPartnership"),
             action: "external",
             url: "tel:+91-94627-71662",
           },
           {
-            label: "🔙 Back to Company Menu",
+            label: t("chatbot.options.backToCompanyMenu"),
             action: "chat",
             response: "company-info",
           },
@@ -1640,32 +1635,32 @@ export default function Chatbot() {
         message: t("chatbotMessages.mainMenu"),
         options: [
           {
-            label: "🔍 Find the Right Product",
+            label: t("chatbot.options.findRightProduct"),
             action: "chat",
             response: "product-selection",
           },
           {
-            label: "⚙️ Choose a Service",
+            label: t("chatbot.options.chooseService"),
             action: "chat",
             response: "service-selection",
           },
           {
-            label: "🔧 Technical Troubleshooting",
+            label: t("chatbot.options.troubleshooting"),
             action: "chat",
             response: "troubleshooting",
           },
           {
-            label: "💼 About Our Company",
+            label: t("chatbot.options.aboutPowertonEngineering"),
             action: "chat",
             response: "company-info",
           },
           {
-            label: "📞 Speak with Expert",
+            label: t("chatbot.options.speakWithExpert"),
             action: "external",
             url: "tel:+91-94627-71662",
           },
           {
-            label: "📧 Send Us a Message",
+            label: t("chatbot.options.sendUsMessage"),
             action: "external",
             url: "mailto:info@powertonengineering.com",
           },
@@ -1675,27 +1670,26 @@ export default function Chatbot() {
 
     if (input === "quote-tips") {
       return {
-        message:
-          "Here are some tips for getting the best quote: 1) Provide detailed specifications and requirements, 2) Mention quantity needed, 3) Include project timeline, 4) Specify installation location, 5) List any special requirements or certifications needed. The more details you provide, the more accurate our quote will be!",
+        message: t("chatbotMessages.quoteTips"),
         options: [
-          { label: "📋 Request Detailed Quote", action: "page", page: "quote" },
+          { label: t("chatbot.options.requestDetailedQuote"), action: "page", page: "quote" },
           {
-            label: "📞 Discuss Requirements",
+            label: t("chatbot.options.discussRequirements"),
             action: "external",
             url: "tel:+91-94627-71662",
           },
           {
-            label: "📧 Email Specifications",
+            label: t("chatbot.options.emailSpecifications"),
             action: "external",
             url: "mailto:info@powertonengineering.com?subject=Detailed Quote Request",
           },
           {
-            label: "💰 Pricing Information",
+            label: t("chatbot.options.pricingInformation"),
             action: "chat",
             response: "pricing-info",
           },
           {
-            label: "🏠 Back to Main Menu",
+            label: t("chatbot.options.backToMainMenu"),
             action: "chat",
             response: "main-menu",
           },
@@ -1705,31 +1699,30 @@ export default function Chatbot() {
 
     if (input === "urgent-support") {
       return {
-        message:
-          "Urgent matters include: equipment failures affecting production, safety-critical issues, emergency breakdowns, installation deadlines, and system malfunctions. For these situations, call us immediately at +91-94627-71662. We provide 24/7 emergency support for critical situations.",
+        message: t("chatbotMessages.urgentSupport"),
         options: [
           {
-            label: "📞 Emergency Call Now",
+            label: t("chatbot.options.emergencyCallNow"),
             action: "external",
             url: "tel:+91-94627-71662",
           },
           {
-            label: "⚡ Emergency Email",
+            label: t("chatbot.options.emergencyEmail"),
             action: "external",
             url: "mailto:info@powertonengineering.com?subject=URGENT - Emergency Support Required",
           },
           {
-            label: "🛠️ Maintenance Support",
+            label: t("chatbot.options.maintenanceSupport"),
             action: "chat",
             response: "maintenance-service",
           },
           {
-            label: "⏰ Regular Business Hours",
+            label: t("chatbot.options.regularBusinessHours"),
             action: "chat",
             response: "business-hours",
           },
           {
-            label: "🏠 Back to Main Menu",
+            label: t("chatbot.options.backToMainMenu"),
             action: "chat",
             response: "main-menu",
           },
@@ -1739,36 +1732,35 @@ export default function Chatbot() {
 
     if (input === "product-comparison") {
       return {
-        message:
-          "I can help you compare products! Our extensive range includes sensors, automation systems, electrical components, and solar products. Tell me which specific products you're comparing or what application you need them for, and I'll guide you to the best options.",
+        message: t("chatbotMessages.productComparison"),
         options: [
           {
-            label: "🌡️ Compare Sensors",
+            label: t("chatbot.options.compareSensors"),
             action: "chat",
             response: "sensors-category",
           },
           {
-            label: "⚙️ Compare Automation Systems",
+            label: t("chatbot.options.compareAutomationSystems"),
             action: "chat",
             response: "automation-category",
           },
           {
-            label: "⚡ Compare Electrical Components",
+            label: t("chatbot.options.compareElectricalComponents"),
             action: "chat",
             response: "electrical-category",
           },
           {
-            label: "☀️ Compare Solar Products",
+            label: t("chatbot.options.compareSolarProducts"),
             action: "chat",
             response: "solar-category",
           },
           {
-            label: "📞 Expert Comparison Help",
+            label: t("chatbot.options.expertComparisonHelp"),
             action: "external",
             url: "tel:+91-94627-71662",
           },
           {
-            label: "🏠 Back to Main Menu",
+            label: t("chatbot.options.backToMainMenu"),
             action: "chat",
             response: "main-menu",
           },
@@ -1781,32 +1773,32 @@ export default function Chatbot() {
       message: t("chatbotMessages.defaultResponse"),
       options: [
         {
-          label: "🔍 Find the Right Product",
+          label: t("chatbot.options.findRightProduct"),
           action: "chat",
           response: "product-selection",
         },
         {
-          label: "⚙️ Explore Our Services",
+          label: t("chatbot.options.exploreOurServices"),
           action: "chat",
           response: "service-selection",
         },
         {
-          label: "🔧 Technical Support",
+          label: t("chatbot.options.technicalSupportOption"),
           action: "chat",
           response: "troubleshooting",
         },
         {
-          label: "💼 About Powerton Engineering",
+          label: t("chatbot.options.aboutPowertonEngineering"),
           action: "chat",
           response: "company-info",
         },
         {
-          label: "📞 Speak with Expert",
+          label: t("chatbot.options.speakWithExpert"),
           action: "external",
           url: "tel:+91-94627-71662",
         },
         {
-          label: "📧 Send Us a Message",
+          label: t("chatbot.options.sendUsMessage"),
           action: "external",
           url: "mailto:info@powertonengineering.com",
         },
@@ -1830,186 +1822,180 @@ export default function Chatbot() {
     if (option.action === "page") {
       const pageResponses: { [key: string]: ChatbotResponse } = {
         products: {
-          message:
-            "Perfect! I've taken you to our products page where you can explore our extensive range of industrial automation solutions. You'll find detailed specifications, images, and technical data for each product category. Need help finding something specific or have questions about any product?",
+          message: t("chatbotMessages.productsPageResponse"),
           options: [
             {
-              label: "🔍 Find Specific Product",
+              label: t("chatbot.options.findSpecificProduct"),
               action: "chat",
               response: "product-selection",
             },
             {
-              label: "💰 Get Product Quote",
+              label: t("chatbot.options.getProductQuote"),
               action: "external",
               url: "mailto:info@powertonengineering.com?subject=Product Quote Request",
             },
             {
-              label: "📞 Technical Consultation",
+              label: t("chatbot.options.technicalConsultation"),
               action: "external",
               url: "tel:+91-94627-71662",
             },
             {
-              label: "📋 Product Comparison",
+              label: t("chatbot.options.productComparison"),
               action: "chat",
               response: "product-comparison",
             },
             {
-              label: "🏠 Back to Main Menu",
+              label: t("chatbot.options.backToMainMenu"),
               action: "chat",
               response: "main-menu",
             },
           ],
         },
         services: {
-          message:
-            "Excellent choice! Our services page showcases our comprehensive support offerings from installation to maintenance. We're your complete engineering partner for the entire project lifecycle. What type of service support are you looking for?",
+          message: t("chatbotMessages.servicesPageResponse"),
           options: [
             {
-              label: "🔧 Installation Services",
+              label: t("chatbot.options.installationServices"),
               action: "chat",
               response: "installation-service",
             },
             {
-              label: "🛠️ Maintenance Programs",
+              label: t("chatbot.options.maintenancePrograms"),
               action: "chat",
               response: "maintenance-service",
             },
             {
-              label: "📏 Calibration Services",
+              label: t("chatbot.options.calibrationServices"),
               action: "chat",
               response: "calibration-service",
             },
             {
-              label: "📋 Service Quote",
+              label: t("chatbot.options.serviceQuote"),
               action: "external",
               url: "mailto:info@powertonengineering.com?subject=Service Quote Request",
             },
             {
-              label: "🏠 Back to Main Menu",
+              label: t("chatbot.options.backToMainMenu"),
               action: "chat",
               response: "main-menu",
             },
           ],
         },
         contact: {
-          message:
-            "Great! The contact page has all our details including office location, phone numbers, and contact form. We're based in Noida and available Monday-Saturday. Feel free to reach out anytime! Is there anything specific you'd like to discuss with our team?",
+          message: t("chatbotMessages.contactPageResponse"),
           options: [
             {
-              label: "📞 Call Now",
+              label: t("chatbot.options.callNow"),
               action: "external",
               url: "tel:+91-94627-71662",
             },
             {
-              label: "📧 Send Email",
+              label: t("chatbot.options.sendEmail"),
               action: "external",
               url: "mailto:info@powertonengineering.com",
             },
             {
-              label: "📍 Visit Office",
+              label: t("chatbot.options.visitOffice"),
               action: "external",
               url: "https://maps.app.goo.gl/jiap3sBYbM3r8Pn68",
             },
             {
-              label: "⏰ Business Hours",
+              label: t("chatbot.options.businessHoursOption"),
               action: "chat",
               response: "business-hours",
             },
             {
-              label: "🏠 Back to Main Menu",
+              label: t("chatbot.options.backToMainMenu"),
               action: "chat",
               response: "main-menu",
             },
           ],
         },
         about: {
-          message:
-            "Wonderful! Our about page tells the complete story of Powerton Engineering - our journey, achievements, team, and values. With 15+ years of experience and 500+ successful projects, we're proud of our engineering excellence. Want to know more about any specific aspect?",
+          message: t("chatbotMessages.aboutPageResponse"),
           options: [
             {
-              label: "🏆 Our Achievements",
+              label: t("chatbot.options.ourAchievements"),
               action: "chat",
               response: "achievements",
             },
             {
-              label: "🤝 Major Clients",
+              label: t("chatbot.options.ourClients"),
               action: "chat",
               response: "major-clients",
             },
             {
-              label: "👥 Meet Our Team",
+              label: t("chatbot.options.meetOurTeam"),
               action: "chat",
               response: "team-info",
             },
             {
-              label: "📞 Connect with Leadership",
+              label: t("chatbot.options.speakWithExpert"),
               action: "external",
               url: "tel:+91-94627-71662",
             },
             {
-              label: "🏠 Back to Main Menu",
+              label: t("chatbot.options.backToMainMenu"),
               action: "chat",
               response: "main-menu",
             },
           ],
         },
         projects: {
-          message:
-            "Fantastic! Our projects page showcases our portfolio of successful implementations across various industries. From 10MW solar plants to pharmaceutical automation systems, each project demonstrates our technical expertise. Interested in a similar project?",
+          message: t("chatbotMessages.projectsPageResponse"),
           options: [
             {
-              label: "💡 Discuss Similar Project",
+              label: t("chatbot.options.similarProjects"),
               action: "external",
               url: "mailto:info@powertonengineering.com?subject=Project Discussion",
             },
             {
-              label: "📋 Project Quote",
+              label: t("chatbot.options.viewDetailedPortfolio"),
               action: "external",
               url: "tel:+91-94627-71662",
             },
             {
-              label: "🏭 Industry Solutions",
+              label: t("chatbot.options.clientTestimonials"),
               action: "chat",
               response: "industry-solutions",
             },
             {
-              label: "🎯 Custom Engineering",
+              label: t("chatbot.options.customEngineering"),
               action: "chat",
               response: "custom-solutions",
             },
             {
-              label: "🏠 Back to Main Menu",
+              label: t("chatbot.options.backToMainMenu"),
               action: "chat",
               response: "main-menu",
             },
           ],
         },
         quote: {
-          message:
-            "Perfect! Our quote page will help you get a detailed proposal tailored to your specific requirements. Our team will analyze your needs and provide competitive pricing with transparent terms. What type of solution are you looking to quote?",
+          message: t("chatbotMessages.quotePageResponse"),
           options: [
             {
-              label: "📋 Product Quote",
+              label: t("chatbot.options.productQuote"),
               action: "chat",
               response: "product-quote",
             },
             {
-              label: "⚙️ Service Quote",
+              label: t("chatbot.options.serviceQuoteOption"),
               action: "chat",
               response: "service-quote",
             },
             {
-              label: "🏗️ Project Quote",
+              label: t("chatbot.options.projectQuote"),
               action: "chat",
               response: "project-quote",
             },
             {
-              label: "📞 Quick Phone Quote",
+              label: t("chatbot.options.quickPhoneQuote"),
               action: "external",
               url: "tel:+91-94627-71662",
             },
             {
-              label: "🏠 Back to Main Menu",
+              label: t("chatbot.options.backToMainMenu"),
               action: "chat",
               response: "main-menu",
             },
@@ -2019,17 +2005,16 @@ export default function Chatbot() {
 
       return (
         pageResponses[option.page || ""] || {
-          message:
-            "I've directed you to the requested page. You can find all the relevant information there. Feel free to explore and let me know if you need any assistance or have questions about what you find!",
+          message: t("chatbotMessages.genericPageResponse"),
           options: [
-            { label: "❓ I Have Questions", action: "chat", response: "help" },
+            { label: t("chatbot.options.haveQuestions"), action: "chat", response: "help" },
             {
-              label: "📞 Talk to Expert",
+              label: t("chatbot.options.talkToExpert"),
               action: "external",
               url: "tel:+91-94627-71662",
             },
             {
-              label: "🏠 Back to Main Menu",
+              label: t("chatbot.options.backToMainMenu"),
               action: "chat",
               response: "main-menu",
             },
@@ -2041,31 +2026,30 @@ export default function Chatbot() {
     if (option.action === "external") {
       if (option.url?.startsWith("tel:")) {
         return {
-          message:
-            "I've initiated the call for you! Our expert team is standing by to provide immediate assistance. If the call doesn't connect, you can also reach us via email or visit our office. How else can I help you today?",
+          message: t("chatbotMessages.callInitiated"),
           options: [
             {
-              label: "📧 Send Email Instead",
+              label: t("chatbot.options.sendEmailInstead"),
               action: "external",
               url: "mailto:info@powertonengineering.com",
             },
             {
-              label: "📍 Visit Our Office",
+              label: t("chatbot.options.visitOurOffice"),
               action: "external",
               url: "https://maps.app.goo.gl/jiap3sBYbM3r8Pn68",
             },
             {
-              label: "⏰ Check Business Hours",
+              label: t("chatbot.options.checkBusinessHours"),
               action: "chat",
               response: "business-hours",
             },
             {
-              label: "💬 Continue Chat Support",
+              label: t("chatbot.options.continueChatSupport"),
               action: "chat",
               response: "help",
             },
             {
-              label: "🏠 Back to Main Menu",
+              label: t("chatbot.options.backToMainMenu"),
               action: "chat",
               response: "main-menu",
             },
@@ -2073,31 +2057,30 @@ export default function Chatbot() {
         };
       } else if (option.url?.startsWith("mailto:")) {
         return {
-          message:
-            "I've opened your email client with our address pre-filled! Please describe your requirements in detail, and our team will respond within 24 hours. For urgent matters, calling us directly is faster. What else can I assist you with?",
+          message: t("chatbotMessages.emailOpened"),
           options: [
             {
-              label: "📞 Call for Urgent Matters",
+              label: t("chatbot.options.callForUrgentMatters"),
               action: "external",
               url: "tel:+91-94627-71662",
             },
             {
-              label: "📋 Quote Request Tips",
+              label: t("chatbot.options.quoteRequestTips"),
               action: "chat",
               response: "quote-tips",
             },
             {
-              label: "⚡ What's Considered Urgent",
+              label: t("chatbot.options.whatsConsideredUrgent"),
               action: "chat",
               response: "urgent-support",
             },
             {
-              label: "💬 Continue Chat Support",
+              label: t("chatbot.options.continueChatSupport"),
               action: "chat",
               response: "help",
             },
             {
-              label: "🏠 Back to Main Menu",
+              label: t("chatbot.options.backToMainMenu"),
               action: "chat",
               response: "main-menu",
             },
@@ -2105,26 +2088,25 @@ export default function Chatbot() {
         };
       } else {
         return {
-          message:
-            "I've opened the external resource for you! You can explore the additional information there. When you're ready to continue our conversation or need further assistance, I'm here to help. What would you like to do next?",
+          message: t("chatbotMessages.externalResourceOpened"),
           options: [
             {
-              label: "💬 Continue Our Discussion",
+              label: t("chatbot.options.continueOurDiscussion"),
               action: "chat",
               response: "help",
             },
             {
-              label: "📞 Speak with Expert",
+              label: t("chatbot.options.speakWithExpert"),
               action: "external",
               url: "tel:+91-94627-71662",
             },
             {
-              label: "📧 Send Us Details",
+              label: t("chatbot.options.sendUsDetails"),
               action: "external",
               url: "mailto:info@powertonengineering.com",
             },
             {
-              label: "🏠 Back to Main Menu",
+              label: t("chatbot.options.backToMainMenu"),
               action: "chat",
               response: "main-menu",
             },
@@ -2135,21 +2117,20 @@ export default function Chatbot() {
 
     // Default response for other actions
     return {
-      message:
-        "Action completed! I'm here to continue assisting you with any questions or requirements you might have. What would you like to explore next?",
+      message: t("chatbotMessages.actionCompleted"),
       options: [
         {
-          label: "🔍 Find Products",
+          label: t("chatbot.options.findProducts"),
           action: "chat",
           response: "product-selection",
         },
         {
-          label: "⚙️ Explore Services",
+          label: t("chatbot.options.exploreOurServices"),
           action: "chat",
           response: "service-selection",
         },
-        { label: "💬 Ask Questions", action: "chat", response: "help" },
-        { label: "🏠 Main Menu", action: "chat", response: "main-menu" },
+        { label: t("chatbot.options.haveQuestions"), action: "chat", response: "help" },
+        { label: t("chatbot.options.backToMainMenu"), action: "chat", response: "main-menu" },
       ],
     };
   };
