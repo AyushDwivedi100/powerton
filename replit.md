@@ -53,6 +53,25 @@ The frontend is built with React 18, TypeScript, and Vite, utilizing Tailwind CS
 
 ## Recent Changes
 
+### October 7, 2025 - Completed SEO and Accessibility i18n Migration
+- **Replaced all remaining hardcoded English text with translation keys:**
+  - Hero section: Fixed 4 aria-label attributes for accessibility statistics (aria.stats.*)
+  - Service category page: Fixed SEO title/description/keywords with parameterized translation keys
+  - Multiple pages: Fixed SEO metadata (news, quote, gallery, projects)
+- **Updated English locale files:**
+  - Added "seo" section to common.json with parameterized templates for service pages
+  - Added aria.stats subsection for accessibility labels (projects, services, clients, years)
+  - Added error translations and quote page SEO keys to pages.json
+- **Translation implementation follows best practices:**
+  - Used i18next interpolation syntax for dynamic content ({{service}}, {{description}})
+  - Reused existing translation keys where possible (DRY principle)
+  - All JSON files syntactically valid with proper nesting structure
+- **Verification completed:**
+  - Architect review confirmed all hardcoded strings replaced successfully
+  - Application running without missing translation key errors
+  - SEO and accessibility enhancements now fully internationalized
+  - Structured data (Schema.org) kept in English for optimal search engine indexing
+
 ### October 4, 2025 - Fresh GitHub Import & Replit Setup
 - **Successfully imported project from GitHub and configured for Replit environment**
 - **Installation:**
