@@ -2171,6 +2171,11 @@ export const products: Product[] = [
     subcategoryKey: "bldc-ceiling-fan",
     typeKey: "energy-efficient",
     image: "bldc-ceiling-fan",
+    translationKeys: {
+      title: "products-data:atomberg-efficio-1200-bldc.title",
+      description: "products-data:atomberg-efficio-1200-bldc.description",
+      featuresKey: "products-data:atomberg-efficio-1200-bldc.features",
+    },
     specs: {
       manufacturer: "Atomberg",
       model: "Efficio",
@@ -2187,19 +2192,6 @@ export const products: Product[] = [
       noiseLevel: "<35dB",
       energySaving: "65% vs traditional fans",
     },
-    title: "Atomberg Efficio 1200mm BLDC Ceiling Fan",
-    description:
-      "Premium energy-efficient BLDC ceiling fan by Atomberg with only 27W power consumption and 236 CMM airflow. Features superior service value of 8.7, RF remote control, and 65% energy savings compared to traditional fans.",
-    features: [
-      "Highest service value of 8.7 CMM/W",
-      "Ultra-low 27W power consumption",
-      "Premium 236 CMM airflow delivery",
-      "RF remote with boost & sleep modes",
-      "Wide voltage tolerance 140-285V",
-      "Whisper-quiet operation <35dB",
-      "65% energy savings vs traditional fans",
-      "3-year comprehensive warranty",
-    ],
   },
   {
     id: "havells-efficiencia-neo-1200",
@@ -2208,6 +2200,11 @@ export const products: Product[] = [
     subcategoryKey: "bldc-ceiling-fan",
     typeKey: "energy-efficient",
     image: "bldc-ceiling-fan",
+    translationKeys: {
+      title: "products-data:havells-efficiencia-neo-1200.title",
+      description: "products-data:havells-efficiencia-neo-1200.description",
+      featuresKey: "products-data:havells-efficiencia-neo-1200.features",
+    },
     specs: {
       manufacturer: "Havells",
       model: "Efficiencia Neo",
@@ -2224,19 +2221,6 @@ export const products: Product[] = [
       noiseLevel: "<35dB",
       award: "National Energy Conservation Award 2021",
     },
-    title: "Havells Efficiencia Neo 1200mm BLDC Ceiling Fan",
-    description:
-      "Award-winning BLDC ceiling fan by Havells with 26W power consumption and 220 CMM airflow. Winner of National Energy Conservation Award 2021, featuring 100% copper winding and advanced control modes.",
-    features: [
-      "National Energy Conservation Award winner 2021",
-      "Ultra-efficient 26W power consumption",
-      "Premium 220 CMM airflow delivery",
-      "RF remote with 4 modes (Boost, Sleep, Breeze, Mop)",
-      "100% copper winding for durability",
-      "Wide voltage tolerance 140-280V",
-      "Reverse rotation capability",
-      "2+1 year warranty (extendable to 5 years)",
-    ],
   },
   {
     id: "superfan-superx1-1200-bldc",
@@ -2245,6 +2229,11 @@ export const products: Product[] = [
     subcategoryKey: "bldc-ceiling-fan",
     typeKey: "energy-efficient",
     image: "bldc-ceiling-fan",
+    translationKeys: {
+      title: "products-data:superfan-superx1-1200-bldc.title",
+      description: "products-data:superfan-superx1-1200-bldc.description",
+      featuresKey: "products-data:superfan-superx1-1200-bldc.features",
+    },
     specs: {
       manufacturer: "Superfan (Versa Drives)",
       model: "SuperX1",
@@ -2262,19 +2251,6 @@ export const products: Product[] = [
       energySaving: "56% vs traditional fans",
       specialFeature: "India's first BLDC fan (2012)",
     },
-    title: "Superfan SuperX1 1200mm BLDC Ceiling Fan",
-    description:
-      "India's first BLDC ceiling fan by Superfan with 35W power consumption and ultra-wide voltage range of 90-300V. Features 5-year warranty, drop-safe remote, and natural breeze mode for optimal comfort.",
-    features: [
-      "India's first BLDC ceiling fan (launched 2012)",
-      "Ultra-wide voltage range 90-300V",
-      "Premium 230 CMM airflow delivery",
-      "Drop-safe remote control technology",
-      "Natural breeze mode simulation",
-      "Timer function with multiple settings",
-      "56% energy savings vs traditional fans",
-      "Industry-leading 5-year warranty",
-    ],
   },
   {
     id: "bldc-premium1400",
@@ -2282,6 +2258,11 @@ export const products: Product[] = [
     categoryKey: "bldc",
     subcategoryKey: "bldc-ceiling-fan",
     image: "bldc-ceiling-fan",
+    translationKeys: {
+      title: "products-data:bldc-premium1400.title",
+      description: "products-data:bldc-premium1400.description",
+      featuresKey: "products-data:bldc-premium1400.features",
+    },
     specs: {
       power: "55W",
       speed: "1400 RPM",
@@ -2294,18 +2275,6 @@ export const products: Product[] = [
       remoteControl: "Yes",
       reversible: "Yes",
     },
-    title: "Premium BLDC Ceiling Fan 1400mm",
-    description:
-      "High-performance 52W brushless DC ceiling fan with 1400mm sweep diameter. Premium design featuring smart controls, LED lighting integration, and superior energy efficiency for large rooms and commercial spaces.",
-    features: [
-      "Premium 52W motor with 5-star energy rating",
-      "Smart remote with LED lighting control",
-      "Superior airflow of 240 CMM for large spaces",
-      "Integrated LED lighting with dimmer control",
-      "Advanced aerodynamic blade design",
-      "Ultra-quiet operation below 30dB",
-      "5-year premium warranty coverage",
-    ],
   },
   {
     id: "bldc-commercial1500",
@@ -2313,6 +2282,11 @@ export const products: Product[] = [
     categoryKey: "bldc",
     subcategoryKey: "bldc-ceiling-fan",
     image: "bldc-ceiling-fan",
+    translationKeys: {
+      title: "products-data:bldc-commercial1500.title",
+      description: "products-data:bldc-commercial1500.description",
+      featuresKey: "products-data:bldc-commercial1500.features",
+    },
     specs: {
       power: "65W",
       speed: "1500 RPM",
@@ -2325,18 +2299,6 @@ export const products: Product[] = [
       remoteControl: "Yes",
       reversible: "Yes",
     },
-    title: "Commercial BLDC Ceiling Fan 1500mm",
-    description:
-      "Heavy-duty 65W brushless DC ceiling fan designed for commercial and industrial applications. Superior airflow capacity of 300 CFM with robust construction for continuous operation in demanding environments.",
-    features: [
-      "Heavy-duty 65W commercial motor",
-      "High airflow capacity 300 CFM",
-      "Robust construction for continuous operation",
-      "Commercial-grade 1500mm sweep",
-      "Enhanced durability and reliability",
-      "Suitable for warehouses and factories",
-      "Extended 3-year commercial warranty",
-    ],
   },
   // Additional BLDC Ceiling Fans to reach 6 products minimum
   {
@@ -2345,6 +2307,11 @@ export const products: Product[] = [
     categoryKey: "bldc",
     subcategoryKey: "bldc-ceiling-fan",
     image: "bldc-ceiling-fan",
+    translationKeys: {
+      title: "products-data:bldc-deluxe1600.title",
+      description: "products-data:bldc-deluxe1600.description",
+      featuresKey: "products-data:bldc-deluxe1600.features",
+    },
     specs: {
       power: "72W",
       speed: "1600 RPM",
@@ -2357,18 +2324,6 @@ export const products: Product[] = [
       remoteControl: "Yes",
       reversible: "Yes",
     },
-    title: "Deluxe BLDC Ceiling Fan 1600mm",
-    description:
-      "Top-of-the-line 80W brushless DC ceiling fan with 1600mm sweep diameter. Premium features including smart controls, advanced aerodynamics, and exceptional build quality for luxury applications.",
-    features: [
-      "Premium 80W high-performance motor",
-      "Extra-large 1600mm sweep diameter",
-      "Smart control integration",
-      "Advanced aerodynamic blade design",
-      "Premium finish and materials",
-      "Whisper-quiet luxury operation",
-      "Premium 5-year warranty coverage",
-    ],
   },
   {
     id: "bldc-industrial1800",
@@ -2376,6 +2331,11 @@ export const products: Product[] = [
     categoryKey: "bldc",
     subcategoryKey: "bldc-ceiling-fan",
     image: "bldc-ceiling-fan",
+    translationKeys: {
+      title: "products-data:bldc-industrial1800.title",
+      description: "products-data:bldc-industrial1800.description",
+      featuresKey: "products-data:bldc-industrial1800.features",
+    },
     specs: {
       power: "85W",
       speed: "1800 RPM",
@@ -2388,18 +2348,6 @@ export const products: Product[] = [
       remoteControl: "Yes",
       reversible: "Yes",
     },
-    title: "Industrial BLDC Ceiling Fan 1800mm",
-    description:
-      "Extra-large 100W brushless DC ceiling fan designed for large industrial spaces. Maximum airflow capacity with heavy-duty construction for 24/7 operation in demanding industrial environments.",
-    features: [
-      "Extra-large 100W industrial motor",
-      "Maximum 1800mm sweep diameter",
-      "Heavy-duty construction for 24/7 operation",
-      "Superior airflow for large spaces",
-      "Industrial-grade materials and finish",
-      "Designed for demanding environments",
-      "Extended 5-year industrial warranty",
-    ],
   },
   {
     id: "bldc-economy900",
@@ -2407,6 +2355,11 @@ export const products: Product[] = [
     categoryKey: "bldc",
     subcategoryKey: "bldc-ceiling-fan",
     image: "bldc-ceiling-fan",
+    translationKeys: {
+      title: "products-data:bldc-economy900.title",
+      description: "products-data:bldc-economy900.description",
+      featuresKey: "products-data:bldc-economy900.features",
+    },
     specs: {
       power: "35W",
       speed: "900 RPM",
@@ -2419,17 +2372,6 @@ export const products: Product[] = [
       remoteControl: "Optional",
       reversible: "Yes",
     },
-    title: "Economy BLDC Ceiling Fan 900mm",
-    description:
-      "Affordable 35W brushless DC ceiling fan with 900mm sweep diameter. Energy-efficient design perfect for small to medium rooms with basic remote control and reliable performance.",
-    features: [
-      "Energy-efficient 35W motor design",
-      "Compact 900mm sweep for smaller rooms",
-      "Basic remote control functionality",
-      "Cost-effective BLDC technology",
-      "Low maintenance operation",
-      "2-year standard warranty",
-    ],
   },
 
   // BLDC Cooler & Exhaust Motors - Extracted and improved from static pages
@@ -2439,6 +2381,11 @@ export const products: Product[] = [
     categoryKey: "bldc",
     subcategoryKey: "bldc-cooler-exhaust-motor",
     image: "bldc-cooler-exhaust-motor",
+    translationKeys: {
+      title: "products-data:bldc-exhaust-fan-motor.title",
+      description: "products-data:bldc-exhaust-fan-motor.description",
+      featuresKey: "products-data:bldc-exhaust-fan-motor.features",
+    },
     specs: {
       power: "25W",
       speed: "2800 RPM",
@@ -2450,18 +2397,6 @@ export const products: Product[] = [
       operatingTemp: "-10°C to +60°C",
       warranty: "2 Years",
     },
-    title: "BLDC Exhaust Fan Motor 25W",
-    description:
-      "High-efficiency 25W brushless DC motor for exhaust fan applications. Features ball bearing construction, IP44 protection, and quiet operation for residential and commercial ventilation systems.",
-    features: [
-      "High-efficiency brushless DC motor",
-      "25W power consumption",
-      "Ball bearing for long life",
-      "IP44 protection rating",
-      "Low noise operation",
-      "12V DC operation",
-      "2-year warranty coverage",
-    ],
   },
   {
     id: "bldc-cooler-motors",
@@ -2469,6 +2404,11 @@ export const products: Product[] = [
     categoryKey: "bldc",
     subcategoryKey: "bldc-cooler-exhaust-motor",
     image: "bldc-cooler-exhaust-motor",
+    translationKeys: {
+      title: "products-data:bldc-cooler-motors.title",
+      description: "products-data:bldc-cooler-motors.description",
+      featuresKey: "products-data:bldc-cooler-motors.features",
+    },
     specs: {
       power: "45W",
       speed: "1800 RPM",
@@ -2480,18 +2420,6 @@ export const products: Product[] = [
       operatingTemp: "-10°C to +70°C",
       warranty: "3 Years",
     },
-    title: "BLDC Cooler Motor 45W",
-    description:
-      "Powerful 45W brushless DC motor for air cooler applications. Advanced design with 90% efficiency, variable speed control, and enhanced protection rating for reliable cooling performance.",
-    features: [
-      "High-performance 45W BLDC motor",
-      "90% energy efficiency",
-      "Variable speed control",
-      "IP54 protection rating",
-      "Ball bearing construction",
-      "24V DC operation",
-      "3-year warranty coverage",
-    ],
   },
   {
     id: "bldc-ventilation-system",
@@ -2499,6 +2427,11 @@ export const products: Product[] = [
     categoryKey: "bldc",
     subcategoryKey: "bldc-cooler-exhaust-motor",
     image: "bldc-cooler-exhaust-motor",
+    translationKeys: {
+      title: "products-data:bldc-ventilation-system.title",
+      description: "products-data:bldc-ventilation-system.description",
+      featuresKey: "products-data:bldc-ventilation-system.features",
+    },
     specs: {
       power: "75W",
       speed: "2400 RPM",
@@ -2510,18 +2443,6 @@ export const products: Product[] = [
       operatingTemp: "-20°C to +80°C",
       warranty: "5 Years",
     },
-    title: "BLDC Ventilation System 75W",
-    description:
-      "Industrial-grade 75W brushless DC motor for ventilation systems. Superior efficiency at 92%, high airflow capacity, and robust construction for demanding HVAC applications.",
-    features: [
-      "Industrial-grade 75W BLDC motor",
-      "92% energy efficiency",
-      "High airflow capacity 800 CFM",
-      "IP65 protection rating",
-      "48V DC operation",
-      "Advanced temperature range -20°C to +80°C",
-      "5-year warranty coverage",
-    ],
   },
   // Additional BLDC Cooler & Exhaust Motors from static pages
   {
@@ -2530,6 +2451,11 @@ export const products: Product[] = [
     categoryKey: "bldc",
     subcategoryKey: "bldc-cooler-exhaust-motor",
     image: "bldc-cooler-exhaust-motor",
+    translationKeys: {
+      title: "products-data:bldc-ventilation-motors.title",
+      description: "products-data:bldc-ventilation-motors.description",
+      featuresKey: "products-data:bldc-ventilation-motors.features",
+    },
     specs: {
       power: "35W",
       speed: "2200 RPM",
@@ -2541,18 +2467,6 @@ export const products: Product[] = [
       operatingTemp: "-5°C to +55°C",
       warranty: "2 Years",
     },
-    title: "BLDC Ventilation Motor 35W",
-    description:
-      "Efficient 35W brushless DC motor for ventilation applications. Balanced performance with 280 CFM airflow capacity, suitable for residential and light commercial ventilation systems.",
-    features: [
-      "Efficient 35W motor design",
-      "Good airflow capacity 280 CFM",
-      "88% energy efficiency",
-      "Sleeve bearing construction",
-      "IP44 protection rating",
-      "24V DC operation",
-      "2-year standard warranty",
-    ],
   },
   {
     id: "bldc-industrial-exhaust",
@@ -2560,6 +2474,11 @@ export const products: Product[] = [
     categoryKey: "bldc",
     subcategoryKey: "bldc-cooler-exhaust-motor",
     image: "bldc-cooler-exhaust-motor",
+    translationKeys: {
+      title: "products-data:bldc-industrial-exhaust.title",
+      description: "products-data:bldc-industrial-exhaust.description",
+      featuresKey: "products-data:bldc-industrial-exhaust.features",
+    },
     specs: {
       power: "120W",
       speed: "3200 RPM",
@@ -2571,18 +2490,6 @@ export const products: Product[] = [
       operatingTemp: "-30°C to +85°C",
       warranty: "5 Years",
     },
-    title: "Industrial BLDC Exhaust Fan 120W",
-    description:
-      "High-power 120W brushless DC motor for industrial exhaust applications. Heavy-duty construction with exceptional airflow capacity and reliability for demanding industrial environments.",
-    features: [
-      "High-power 120W industrial motor",
-      "Exceptional airflow capacity 650 CFM",
-      "Heavy-duty construction",
-      "High-speed 3200 RPM operation",
-      "IP67 protection for harsh environments",
-      "48V DC operation",
-      "Extended 3-year industrial warranty",
-    ],
   },
   {
     id: "bldc-mini-cooler",
@@ -2590,6 +2497,11 @@ export const products: Product[] = [
     categoryKey: "bldc",
     subcategoryKey: "bldc-cooler-exhaust-motor",
     image: "bldc-cooler-exhaust-motor",
+    translationKeys: {
+      title: "products-data:bldc-mini-cooler.title",
+      description: "products-data:bldc-mini-cooler.description",
+      featuresKey: "products-data:bldc-mini-cooler.features",
+    },
     specs: {
       power: "15W",
       speed: "1500 RPM",
@@ -2601,18 +2513,6 @@ export const products: Product[] = [
       operatingTemp: "0°C to +50°C",
       warranty: "1 Year",
     },
-    title: "Mini BLDC Cooler Motor 15W",
-    description:
-      "Compact 15W brushless DC motor designed for mini cooler applications. Energy-efficient design with quiet operation and reliable performance for personal cooling devices.",
-    features: [
-      "Compact 15W motor design",
-      "Energy-efficient operation",
-      "Low noise level below 25dB",
-      "12V DC operation",
-      "82% efficiency rating",
-      "Suitable for personal cooling devices",
-      "1-year warranty coverage",
-    ],
   },
 
   // BLDC Submersible & Surface Pumps
@@ -2622,6 +2522,11 @@ export const products: Product[] = [
     categoryKey: "bldc",
     subcategoryKey: "bldc-submersible-surface-pump",
     image: "bldc-submersible-surface-pump",
+    translationKeys: {
+      title: "products-data:solar-bldc-submersible-1hp.title",
+      description: "products-data:solar-bldc-submersible-1hp.description",
+      featuresKey: "products-data:solar-bldc-submersible-1hp.features",
+    },
     specs: {
       power: "1 HP",
       flow: "1800 LPH",
@@ -2629,18 +2534,6 @@ export const products: Product[] = [
       voltage: "48V DC",
       solarCompatible: "Yes",
     },
-    title: "Solar BLDC Submersible Pump 1HP",
-    description:
-      "High-efficiency 1HP solar-compatible brushless DC submersible pump. Designed for water lifting applications with direct solar power integration and excellent reliability for remote installations.",
-    features: [
-      "1HP high-efficiency BLDC motor",
-      "Solar power compatible (48V DC)",
-      "High flow rate of 1800 LPH",
-      "100ft maximum head capacity",
-      "Weather-resistant construction",
-      "Low maintenance requirements",
-      "Ideal for remote water supply systems",
-    ],
   },
   {
     id: "dc-surface-pump-2hp",
@@ -2648,6 +2541,11 @@ export const products: Product[] = [
     categoryKey: "bldc",
     subcategoryKey: "bldc-submersible-surface-pump",
     image: "bldc-submersible-surface-pump",
+    translationKeys: {
+      title: "products-data:dc-surface-pump-2hp.title",
+      description: "products-data:dc-surface-pump-2hp.description",
+      featuresKey: "products-data:dc-surface-pump-2hp.features",
+    },
     specs: {
       power: "2 HP",
       flow: "3600 LPH",
@@ -2655,18 +2553,6 @@ export const products: Product[] = [
       voltage: "72V DC",
       selfPriming: "Yes",
     },
-    title: "DC Surface Pump 2HP",
-    description:
-      "Powerful 2HP DC surface pump with self-priming capability. High flow rate of 3600 LPH with 150ft head capacity, perfect for agriculture and industrial water transfer applications.",
-    features: [
-      "Powerful 2HP motor capacity",
-      "Self-priming design",
-      "High flow rate 3600 LPH",
-      "150ft maximum head",
-      "72V DC operation",
-      "Robust construction for industrial use",
-      "Low maintenance requirements",
-    ],
   },
   {
     id: "hybrid-bldc-pump",
@@ -2674,6 +2560,11 @@ export const products: Product[] = [
     categoryKey: "bldc",
     subcategoryKey: "bldc-submersible-surface-pump",
     image: "bldc-submersible-surface-pump",
+    translationKeys: {
+      title: "products-data:hybrid-bldc-pump.title",
+      description: "products-data:hybrid-bldc-pump.description",
+      featuresKey: "products-data:hybrid-bldc-pump.features",
+    },
     specs: {
       power: "1.5 HP",
       flow: "2700 LPH",
@@ -2681,18 +2572,6 @@ export const products: Product[] = [
       voltage: "48V DC / 230V AC",
       hybridOperation: "Yes",
     },
-    title: "Hybrid BLDC Pump System",
-    description:
-      "Advanced hybrid BLDC pump system combining DC and AC operation capabilities. Features 1.5HP power with 2700 LPH flow rate and 120ft head capacity, perfect for versatile water pumping applications.",
-    features: [
-      "Hybrid DC/AC operation (48V DC / 230V AC)",
-      "1.5HP high-efficiency BLDC motor",
-      "2700 LPH flow capacity",
-      "120ft maximum head",
-      "Energy-efficient operation",
-      "Versatile power source compatibility",
-      "Low maintenance BLDC technology",
-    ],
   },
 
   // BLDC Table & Wall Fan Motors
@@ -2702,6 +2581,11 @@ export const products: Product[] = [
     categoryKey: "bldc",
     subcategoryKey: "bldc-table-fan-wall-fan-motor",
     image: "bldc-table-fan-wall-fan-motor",
+    translationKeys: {
+      title: "products-data:bldc-table-fan-motors.title",
+      description: "products-data:bldc-table-fan-motors.description",
+      featuresKey: "products-data:bldc-table-fan-motors.features",
+    },
     specs: {
       power: "28W",
       speed: "2100 RPM",
@@ -2709,18 +2593,6 @@ export const products: Product[] = [
       voltage: "24V DC",
       remoteControl: "Yes",
     },
-    title: "BLDC Table Fan Motors",
-    description:
-      "High-efficiency BLDC table fan motors with 28W power consumption and 2100 RPM speed. Features remote control operation and 400mm diameter for optimal air circulation in residential and commercial spaces.",
-    features: [
-      "28W energy-efficient operation",
-      "2100 RPM high speed",
-      "400mm diameter for optimal airflow",
-      "24V DC operation",
-      "Remote control compatibility",
-      "Quiet BLDC motor technology",
-      "Long service life",
-    ],
   },
   {
     id: "bldc-wall-fan-motors",
@@ -2728,6 +2600,11 @@ export const products: Product[] = [
     categoryKey: "bldc",
     subcategoryKey: "bldc-table-fan-wall-fan-motor",
     image: "bldc-table-fan-wall-fan-motor",
+    translationKeys: {
+      title: "products-data:bldc-wall-fan-motors.title",
+      description: "products-data:bldc-wall-fan-motors.description",
+      featuresKey: "products-data:bldc-wall-fan-motors.features",
+    },
     specs: {
       power: "35W",
       speed: "1800 RPM",
@@ -2735,18 +2612,6 @@ export const products: Product[] = [
       voltage: "24V DC",
       oscillation: "Yes",
     },
-    title: "BLDC Wall Fan Motors",
-    description:
-      "Powerful BLDC wall fan motors with 35W power and 1800 RPM speed. Features 450mm diameter and oscillation capability for effective wall-mounted air circulation in various indoor environments.",
-    features: [
-      "35W efficient power consumption",
-      "1800 RPM optimal speed",
-      "450mm diameter for wide coverage",
-      "24V DC safe operation",
-      "Oscillation feature for better air distribution",
-      "Wall-mounted design",
-      "Silent BLDC technology",
-    ],
   },
   {
     id: "bldc-pedestal-fan-motors",
@@ -2754,6 +2619,11 @@ export const products: Product[] = [
     categoryKey: "bldc",
     subcategoryKey: "bldc-table-fan-wall-fan-motor",
     image: "bldc-table-fan-wall-fan-motor",
+    translationKeys: {
+      title: "products-data:bldc-pedestal-fan-motors.title",
+      description: "products-data:bldc-pedestal-fan-motors.description",
+      featuresKey: "products-data:bldc-pedestal-fan-motors.features",
+    },
     specs: {
       power: "42W",
       speed: "1900 RPM",
@@ -2761,18 +2631,6 @@ export const products: Product[] = [
       voltage: "24V DC",
       heightAdjustment: "Yes",
     },
-    title: "BLDC Pedestal Fan Motors",
-    description:
-      "Advanced BLDC pedestal fan motors with 42W power and 1900 RPM speed. Features 500mm diameter and height adjustment capability for flexible positioning and enhanced air circulation in large spaces.",
-    features: [
-      "42W high-efficiency operation",
-      "1900 RPM optimal airflow speed",
-      "500mm large diameter for maximum coverage",
-      "24V DC safe operation",
-      "Height adjustment for flexible positioning",
-      "Pedestal stand design",
-      "Energy-saving BLDC technology",
-    ],
   },
 
   // Electrical Components - Cables & Wires
@@ -2782,6 +2640,11 @@ export const products: Product[] = [
     categoryKey: "electrical-components",
     subcategoryKey: "cables-wires",
     image: "cables-wires",
+    translationKeys: {
+      title: "products-data:instrumentation-cables.title",
+      description: "products-data:instrumentation-cables.description",
+      featuresKey: "products-data:instrumentation-cables.features",
+    },
     specs: {
       type: "Shielded Twisted Pair",
       awg: "18-22 AWG",
@@ -2789,18 +2652,6 @@ export const products: Product[] = [
       temperature: "-40°C to +90°C",
       shielding: "100% Coverage",
     },
-    title: "Instrumentation Cables",
-    description:
-      "High-quality instrumentation cables designed for precise signal transmission in industrial automation and control systems. Multi-pair construction with excellent shielding and low capacitance for reliable data communication.",
-    features: [
-      "Multi-pair construction for complex systems",
-      "Excellent signal shielding and integrity",
-      "Low capacitance for accurate data transmission",
-      "Suitable for harsh industrial environments",
-      "Available in various core configurations",
-      "Compliance with international standards",
-      "Long-term reliability and performance",
-    ],
   },
   {
     id: "power-distribution-cables",
@@ -2808,6 +2659,11 @@ export const products: Product[] = [
     categoryKey: "electrical-components",
     subcategoryKey: "cables-wires",
     image: "cables-wires",
+    translationKeys: {
+      title: "products-data:power-distribution-cables.title",
+      description: "products-data:power-distribution-cables.description",
+      featuresKey: "products-data:power-distribution-cables.features",
+    },
     specs: {
       type: "XLPE Insulated",
       voltage: "1kV - 33kV",
@@ -2815,18 +2671,6 @@ export const products: Product[] = [
       temperature: "90°C",
       standard: "IS 7098",
     },
-    title: "Power Distribution Cables",
-    description:
-      "Heavy-duty power distribution cables with XLPE insulation for reliable electrical power transmission. Available in voltage ranges from 1kV to 33kV with copper or aluminum conductors for various industrial applications.",
-    features: [
-      "XLPE insulation for high reliability",
-      "Voltage range: 1kV - 33kV",
-      "Copper and aluminum conductor options",
-      "90°C operating temperature",
-      "IS 7098 standard compliance",
-      "Suitable for underground and overhead installation",
-      "Long service life and durability",
-    ],
   },
   {
     id: "communication-cables",
@@ -2834,6 +2678,11 @@ export const products: Product[] = [
     categoryKey: "electrical-components",
     subcategoryKey: "cables-wires",
     image: "cables-wires",
+    translationKeys: {
+      title: "products-data:communication-cables.title",
+      description: "products-data:communication-cables.description",
+      featuresKey: "products-data:communication-cables.features",
+    },
     specs: {
       type: "Category 6A",
       bandwidth: "500 MHz",
@@ -2841,18 +2690,6 @@ export const products: Product[] = [
       shielding: "F/UTP",
       standard: "TIA/EIA-568-B",
     },
-    title: "Communication Cables",
-    description:
-      "High-performance Category 6A communication cables with 500 MHz bandwidth for advanced networking applications. F/UTP shielding ensures reliable data transmission in demanding environments.",
-    features: [
-      "Category 6A performance for high-speed data",
-      "500 MHz bandwidth capability",
-      "100m transmission length",
-      "F/UTP shielding for signal integrity",
-      "TIA/EIA-568-B standard compliance",
-      "Suitable for 10 Gigabit Ethernet",
-      "Low crosstalk and interference",
-    ],
   },
 
   // Circuit Breakers & Fuses
@@ -2862,6 +2699,11 @@ export const products: Product[] = [
     categoryKey: "electrical-components",
     subcategoryKey: "circuit-breakers-fuses",
     image: "circuit-breakers-fuses",
+    translationKeys: {
+      title: "products-data:mcb-circuit-breakers.title",
+      description: "products-data:mcb-circuit-breakers.description",
+      featuresKey: "products-data:mcb-circuit-breakers.features",
+    },
     specs: {
       type: "MCB",
       current: "6A - 63A",
@@ -2869,18 +2711,6 @@ export const products: Product[] = [
       breakingCapacity: "10kA",
       standard: "IEC 60898",
     },
-    title: "MCB Miniature Circuit Breakers",
-    description:
-      "Reliable MCB miniature circuit breakers for overload and short-circuit protection. Available in current ranges from 6A to 63A with multiple pole configurations for comprehensive electrical protection.",
-    features: [
-      "Current range: 6A - 63A",
-      "Multiple pole options: 1P, 2P, 3P, 4P",
-      "10kA breaking capacity",
-      "IEC 60898 standard compliance",
-      "Compact miniature design",
-      "Reliable overload protection",
-      "Easy installation and maintenance",
-    ],
   },
   {
     id: "mccb-circuit-breakers",
@@ -2888,6 +2718,11 @@ export const products: Product[] = [
     categoryKey: "electrical-components",
     subcategoryKey: "circuit-breakers-fuses",
     image: "circuit-breakers-fuses",
+    translationKeys: {
+      title: "products-data:mccb-circuit-breakers.title",
+      description: "products-data:mccb-circuit-breakers.description",
+      featuresKey: "products-data:mccb-circuit-breakers.features",
+    },
     specs: {
       type: "MCCB",
       current: "16A - 1600A",
@@ -2895,18 +2730,6 @@ export const products: Product[] = [
       breakingCapacity: "50kA",
       standard: "IEC 60947",
     },
-    title: "MCCB Molded Case Circuit Breakers",
-    description:
-      "Heavy-duty MCCB molded case circuit breakers for high-current applications. Available from 16A to 1600A with 50kA breaking capacity for reliable protection in industrial electrical systems.",
-    features: [
-      "High current range: 16A - 1600A",
-      "3P and 4P pole configurations",
-      "50kA breaking capacity",
-      "IEC 60947 standard compliance",
-      "Molded case construction",
-      "Adjustable trip settings",
-      "Suitable for industrial applications",
-    ],
   },
   {
     id: "industrial-fuses",
@@ -2914,6 +2737,11 @@ export const products: Product[] = [
     categoryKey: "electrical-components",
     subcategoryKey: "circuit-breakers-fuses",
     image: "circuit-breakers-fuses",
+    translationKeys: {
+      title: "products-data:industrial-fuses.title",
+      description: "products-data:industrial-fuses.description",
+      featuresKey: "products-data:industrial-fuses.features",
+    },
     specs: {
       type: "HRC Fuses",
       current: "2A - 800A",
@@ -2921,18 +2749,6 @@ export const products: Product[] = [
       breakingCapacity: "80kA",
       standard: "IEC 60269",
     },
-    title: "Industrial HRC Fuses",
-    description:
-      "High-rupturing capacity (HRC) industrial fuses for overcurrent protection. Available from 2A to 800A with voltage ranges up to 11kV and 80kA breaking capacity for critical industrial protection.",
-    features: [
-      "HRC type for high breaking capacity",
-      "Current range: 2A - 800A",
-      "Voltage range: 415V - 11kV",
-      "80kA breaking capacity",
-      "IEC 60269 standard compliance",
-      "Fast-acting overcurrent protection",
-      "Reliable arc extinction",
-    ],
   },
 
   // Connectors & Terminals
@@ -2942,6 +2758,11 @@ export const products: Product[] = [
     categoryKey: "electrical-components",
     subcategoryKey: "connectors-terminals",
     image: "connectors-terminals",
+    translationKeys: {
+      title: "products-data:terminal-blocks.title",
+      description: "products-data:terminal-blocks.description",
+      featuresKey: "products-data:terminal-blocks.features",
+    },
     specs: {
       type: "Screw/Spring Clamp",
       current: "10A - 150A",
@@ -2949,18 +2770,6 @@ export const products: Product[] = [
       wireSize: "0.2 - 50 mm²",
       mounting: "DIN Rail",
     },
-    title: "Industrial Terminal Blocks",
-    description:
-      "Versatile terminal blocks for secure electrical connections in industrial control panels. Available in screw and spring clamp types with current ratings from 10A to 150A and DIN rail mounting.",
-    features: [
-      "Screw and spring clamp terminal types",
-      "Current rating: 10A - 150A",
-      "1000V voltage rating",
-      "Wire size: 0.2 - 50 mm²",
-      "DIN rail mounting system",
-      "Secure and reliable connections",
-      "Easy installation and maintenance",
-    ],
   },
   {
     id: "industrial-connectors",
@@ -2968,6 +2777,11 @@ export const products: Product[] = [
     categoryKey: "electrical-components",
     subcategoryKey: "connectors-terminals",
     image: "connectors-terminals",
+    translationKeys: {
+      title: "products-data:industrial-connectors.title",
+      description: "products-data:industrial-connectors.description",
+      featuresKey: "products-data:industrial-connectors.features",
+    },
     specs: {
       type: "Heavy Duty",
       pins: "3-128 Pins",
@@ -2975,18 +2789,6 @@ export const products: Product[] = [
       voltage: "690V",
       rating: "IP67",
     },
-    title: "Industrial Heavy Duty Connectors",
-    description:
-      "Heavy-duty industrial connectors designed for harsh environments. Available with 3-128 pins, current ratings up to 400A, and IP67 protection for reliable connections in demanding applications.",
-    features: [
-      "Heavy-duty construction for industrial use",
-      "Pin configurations: 3-128 pins",
-      "High current capacity: 16A - 400A",
-      "690V voltage rating",
-      "IP67 protection rating",
-      "Suitable for harsh environments",
-      "Reliable connection performance",
-    ],
   },
   {
     id: "signal-connectors",
@@ -2994,6 +2796,11 @@ export const products: Product[] = [
     categoryKey: "electrical-components",
     subcategoryKey: "connectors-terminals",
     image: "connectors-terminals",
+    translationKeys: {
+      title: "products-data:signal-connectors.title",
+      description: "products-data:signal-connectors.description",
+      featuresKey: "products-data:signal-connectors.features",
+    },
     specs: {
       type: "Miniature",
       pins: "2-50 Pins",
@@ -3001,18 +2808,6 @@ export const products: Product[] = [
       voltage: "250V",
       shielding: "360° EMI",
     },
-    title: "Signal Connectors",
-    description:
-      "Miniature signal connectors for precise data transmission in control and instrumentation applications. Features 2-50 pin configurations with 360° EMI shielding for signal integrity.",
-    features: [
-      "Miniature design for space-saving",
-      "Pin range: 2-50 pins",
-      "5A current rating",
-      "250V voltage capability",
-      "360° EMI shielding",
-      "Excellent signal integrity",
-      "Ideal for control applications",
-    ],
   },
 
   // Instrumentation Components - Sensors
@@ -3025,6 +2820,11 @@ export const products: Product[] = [
     subcategoryKey: "sensors-transducers",
     typeKey: "pnp-npn-sensors",
     image: "sensors",
+    translationKeys: {
+      title: "products-data:omron-e2e-x5me1-pnp-proximity.title",
+      description: "products-data:omron-e2e-x5me1-pnp-proximity.description",
+      featuresKey: "products-data:omron-e2e-x5me1-pnp-proximity.features",
+    },
     specs: {
       type: "PNP Inductive Proximity Sensor",
       manufacturer: "Omron",
@@ -3039,19 +2839,6 @@ export const products: Product[] = [
       connectionType: "M12 Connector",
       certification: "CE, UL, CSA",
     },
-    title: "Omron E2E-X5ME1 PNP Proximity Sensor",
-    description:
-      "High-performance Omron PNP inductive proximity sensor with 5mm sensing distance. Features PNP NO/NC output, IP67 protection, and M12 connector for reliable industrial automation applications.",
-    features: [
-      "5mm sensing distance for precise detection",
-      "PNP NO/NC output configuration",
-      "12-24VDC operating voltage",
-      "200mA maximum current",
-      "1000Hz switching frequency",
-      "IP67 protection rating",
-      "M12 connector for easy installation",
-      "CE, UL, CSA certified",
-    ],
   },
   {
     id: "pepperl-fuchs-nbb5-18gm60-e2-pnp",
@@ -3059,6 +2846,11 @@ export const products: Product[] = [
     categoryKey: "instrumentation-accessories",
     subcategoryKey: "sensors-transducers",
     image: "sensors",
+    translationKeys: {
+      title: "products-data:pepperl-fuchs-nbb5-18gm60-e2-pnp.title",
+      description: "products-data:pepperl-fuchs-nbb5-18gm60-e2-pnp.description",
+      featuresKey: "products-data:pepperl-fuchs-nbb5-18gm60-e2-pnp.features",
+    },
     specs: {
       type: "PNP Inductive Proximity Sensor",
       manufacturer: "Pepperl+Fuchs",
@@ -3073,19 +2865,6 @@ export const products: Product[] = [
       connectionType: "2m Cable",
       certification: "ATEX, IECEx, CE",
     },
-    title: "Pepperl+Fuchs NBB5-18GM60-E2 PNP Sensor",
-    description:
-      "Industrial-grade Pepperl+Fuchs PNP inductive proximity sensor with 5mm sensing range. Features IP68 protection, ATEX certification, and 5000Hz switching frequency for harsh environment applications.",
-    features: [
-      "5mm sensing distance for accurate detection",
-      "PNP NO output type",
-      "10-30VDC wide voltage range",
-      "200mA maximum current",
-      "High 5000Hz switching frequency",
-      "IP68 protection for harsh environments",
-      "2m cable connection",
-      "ATEX, IECEx, CE certified",
-    ],
   },
 
   // Additional PNP Proximity Sensors - Schneider Electric

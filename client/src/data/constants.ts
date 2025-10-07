@@ -1154,7 +1154,7 @@ export const CLIENT_LOGOS = [
   {
     id: "nv-group",
     name: "NV Group",
-    logo: "https://www.nvgroup.co.in/wp-content/uploads/2023/04/Logo.png",
+    logo: "https://www.nvgroup.co.in/cdn/shop/files/nv-logo-new.png",
     fallback: corporateClientImage,
   },
   {
