@@ -121,9 +121,9 @@ export default function ServiceCategoryPage() {
   return (
     <>
       <SEO
-        title={`${serviceData.title} - Professional Engineering Services | Powerton Engineering`}
-        description={`${serviceData.description}. Expert ${serviceData.title.toLowerCase()} services for industrial automation and electrical engineering projects across India.`}
-        keywords={`${serviceData.title}, industrial services, engineering services, automation services, electrical services, India`}
+        title={t("common:seo.servicePageTitle", { service: serviceData.title })}
+        description={t("common:seo.servicePageDescription", { service: serviceData.title, description: serviceData.description })}
+        keywords={t("common:seo.servicePageKeywords", { service: serviceData.title })}
         canonicalUrl={`https://powertonengineering.in/services-category/${slug}`}
         structuredData={serviceSchema}
       />

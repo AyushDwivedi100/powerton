@@ -252,6 +252,11 @@
     "keyBenefits": "Key Benefits",
     "servicesOverview": "Services Overview"
   },
+  "seo": {
+    "servicePageTitle": "{{service}} - Professional Engineering Services | Powerton Engineering",
+    "servicePageDescription": "{{description}}. Expert {{service}} services for industrial automation and electrical engineering projects across India.",
+    "servicePageKeywords": "{{service}}, industrial services, engineering services, automation services, electrical services, India"
+  },
   "company": {
     "name": "Powerton Engineering Pvt. Ltd.",
     "tagline": "Your trusted partner in industrial automation and electrical engineering",
