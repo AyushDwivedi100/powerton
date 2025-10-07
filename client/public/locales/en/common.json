@@ -135,7 +135,9 @@
     "subCategoryNotFound": "Sub-Category Not Found",
     "subCategoryNotFoundMessage": "The product sub-category you're looking for doesn't exist.",
     "serviceNotFound": "Service Not Found",
-    "serviceNotFoundMessage": "The service you're looking for doesn't exist."
+    "serviceNotFoundMessage": "The service you're looking for doesn't exist.",
+    "serviceNotFoundTitle": "Service Not Found - Powerton Engineering Services",
+    "serviceNotFoundDescription": "The requested service page could not be found."
   },
   "loading": "Loading...",
   "error": "Something went wrong",
@@ -199,7 +201,13 @@
     "isolationAmplifiers": "Isolation Amplifiers",
     "signalConverters": "Signal Converters",
     "measuringTransducers": "Measuring Transducers",
-    "noiseFilters": "Noise Filters"
+    "noiseFilters": "Noise Filters",
+    "stats": {
+      "experienceYears": "15 plus years of experience",
+      "projectsCompleted": "1200 plus projects completed",
+      "happyClients": "450 plus happy clients",
+      "support": "24/7 support available"
+    }
   },
   "productSections": {
     "keyFeatures": "Key Features:",
