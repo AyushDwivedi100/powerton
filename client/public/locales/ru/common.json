@@ -326,7 +326,7 @@
     "availability": "Доступность",
     "coverage": "Охват",
     "free": "Бесплатно",
-    "products" : "Продукты"
+    "products": "Продукты"
   },
   "placeholders": {
     "selectProjectType": "Выберите тип проекта",
@@ -423,7 +423,7 @@
       "highlights": {
         "plcIntegration": "Интеграция ПЛК",
         "scadaSystems": "Системы SCADA",
-        "realTimeMonitoring": "Мониторинг в реальном времени",
+        "realtimemonitoring": "Мониторинг в реальном времени",
         "processOptimization": "Оптимизация процессов"
       }
     },

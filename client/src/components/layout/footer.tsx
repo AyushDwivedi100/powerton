@@ -1,8 +1,9 @@
 import { Link } from "wouter";
-import { Phone, Mail, MapPin } from "lucide-react";
+import { Phone, Mail, MapPin, Map } from "lucide-react";
 import { useTranslation } from "react-i18next";
 import { ThemeToggle } from "@/components/ui/theme-toggle";
 import { LanguageSwitcher } from "@/components/ui/language-switcher";
+import { Button } from "@/components/ui/button";
 import {
   COMPANY_INFO,
   SERVICES,
@@ -265,12 +266,19 @@ export default function Footer() {
               <div className="flex items-center gap-4 text-sm text-slate-400 flex-safe">
                 <LanguageSwitcher />
                 <ThemeToggle />
-                <a
-                  href="/sitemap"
-                  className="hover:text-orange-400 transition-colors"
-                >
-                  {t("navigation:footer.sitemap", "Sitemap")}
-                </a>
+                <Link href="/sitemap" data-testid="link-sitemap">
+                  <Button
+                    variant="ghost"
+                    size="sm"
+                    className="h-9 w-auto px-3 min-w-0"
+                    data-testid="button-sitemap"
+                  >
+                    <Map className="h-4 w-4 me-2" />
+                    <span className="text-sm font-medium">
+                      {t("navigation:footer.sitemap", "Sitemap")}
+                    </span>
+                  </Button>
+                </Link>
               </div>
             </div>
           </div>
