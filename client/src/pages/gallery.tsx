@@ -299,8 +299,8 @@ export default function Gallery() {
   return (
     <>
       <SEO
-        title="Gallery - Powerton Engineering Projects, Products & Team"
-        description="Explore Powerton Engineering's gallery showcasing our team, completed industrial automation projects, and comprehensive product range. Building trust through transparency."
+        title={t("pages:gallery.seo.title")}
+        description={t("pages:gallery.seo.description")}
         keywords={t("pages:gallery.seo.keywords")}
         canonicalUrl="https://powertonengineering.in/gallery"
       />

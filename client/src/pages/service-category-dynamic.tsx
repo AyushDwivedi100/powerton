@@ -60,8 +60,8 @@ export default function ServiceCategoryPage() {
     return (
       <>
         <SEO
-          title="Service Not Found - Powerton Engineering Services"
-          description="The requested service page could not be found."
+          title={t("common:errors.serviceNotFoundTitle")}
+          description={t("common:errors.serviceNotFoundDescription")}
         />
         <div
           className="min-h-screen bg-background flex items-center justify-center"

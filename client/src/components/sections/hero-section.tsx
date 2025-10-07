@@ -204,7 +204,7 @@ export default function HeroSection() {
             <div role="listitem">
               <div
                 className="text-3xl lg:text-4xl font-bold text-secondary mb-2"
-                aria-label="15 plus years of experience"
+                aria-label={t("common:aria.stats.experienceYears")}
               >
                 <AnimatedCounter target={15} suffix="+" />
               </div>
@@ -215,7 +215,7 @@ export default function HeroSection() {
             <div role="listitem">
               <div
                 className="text-3xl lg:text-4xl font-bold text-secondary mb-2"
-                aria-label="1200 plus projects completed"
+                aria-label={t("common:aria.stats.projectsCompleted")}
               >
                 <AnimatedCounter target={1200} suffix="+" />
               </div>
@@ -226,7 +226,7 @@ export default function HeroSection() {
             <div role="listitem">
               <div
                 className="text-3xl lg:text-4xl font-bold text-secondary mb-2"
-                aria-label="450 plus happy clients"
+                aria-label={t("common:aria.stats.happyClients")}
               >
                 <AnimatedCounter target={450} suffix="+" />
               </div>
@@ -237,7 +237,7 @@ export default function HeroSection() {
             <div role="listitem">
               <div
                 className="text-3xl lg:text-4xl font-bold text-secondary mb-2"
-                aria-label="24/7 support available"
+                aria-label={t("common:aria.stats.support")}
               >
                 <span>24/7</span>
               </div>

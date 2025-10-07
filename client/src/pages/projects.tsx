@@ -183,8 +183,8 @@ export default function Projects() {
   return (
     <>
       <SEO
-        title="Engineering Projects & Portfolio - Industrial Automation Cases | Powerton Engineering"
-        description="Explore our engineering capabilities through demonstration projects showcasing industrial automation, power systems, solar solutions, and process control expertise. Featured projects highlight our core competencies."
+        title={t("pages:projects.seo.title")}
+        description={t("pages:projects.seo.description")}
         keywords={t("pages:projects.seo.keywords")}
         canonicalUrl="https://powertonengineering.in/projects"
         structuredData={{

@@ -253,8 +253,8 @@ export default function News() {
   return (
     <>
       <SEO
-        title="News & Updates - Company News, Achievements & Future Goals | Powerton Engineering"
-        description="Stay updated with latest news, achievements, awards, upcoming projects, and future goals of Powerton Engineering. Leading industrial automation company's journey towards excellence."
+        title={t("pages:news.seo.title")}
+        description={t("pages:news.seo.description")}
         keywords={t("pages:news.seo.keywords")}
         canonicalUrl="https://powertonengineering.in/news"
         structuredData={structuredData}

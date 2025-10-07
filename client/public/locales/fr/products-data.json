@@ -1856,5 +1856,55 @@
       "Connexion de câble de 2 m",
       "Certifié ATEX, IECEx, CE"
     ]
+  },
+  "utilities": {
+    "variant": {
+      "titleSuffix": " - Variante {{number}}",
+      "titleDefault": "Variante de produit {{number}}",
+      "descriptionDefault": "Variante de produit industriel {{number}} avec des spécifications améliorées",
+      "featureSuffix": "Spécifications de la variante {{number}}"
+    },
+    "defaultProduct": {
+      "titleTemplate": "{{subcategory}} Produit {{number}}",
+      "descriptionTemplate": "{{subcategory}} industriel conçu pour une performance fiable dans les applications exigeantes. Comprend une construction de haute qualité et une technologie éprouvée.",
+      "features": [
+        "Construction industrielle de haute qualité",
+        "Performance fiable dans des conditions exigeantes",
+        "Certifié pour les applications industrielles",
+        "Faibles exigences d'entretien",
+        "Excellent rapport qualité-prix"
+      ],
+      "variantFeatures": [
+        "Fonctionnalités de performance améliorées",
+        "Construction de qualité industrielle",
+        "Fonctionnement fiable",
+        "Certifié pour un usage industriel"
+      ]
+    },
+    "commonData": {
+      "applications": [
+        "Automatisation industrielle",
+        "Fabrication",
+        "Contrôle de processus",
+        "Assurance qualité"
+      ],
+      "industries": [
+        "Fabrication",
+        "Automobile",
+        "Pharmaceutique",
+        "Alimentation et boissons"
+      ],
+      "certifications": [
+        "ISO 9001",
+        "Marquage CE"
+      ],
+      "keywords": {
+        "industrialAutomation": "automatisation industrielle",
+        "processControl": "contrôle de processus",
+        "instrumentation": "instrumentation",
+        "india": "Inde",
+        "powertonEngineering": "Powerton Engineering"
+      }
+    }
   }
 }

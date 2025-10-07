@@ -431,9 +431,9 @@ export default function Quote() {
   return (
     <>
       <SEO
-        title="Get Quote & Cost Calculator - Industrial Automation Solutions | Powerton Engineering"
-        description="Request a detailed quote for process automation, electrical control panels, instrumentation, SCADA systems, PLC programming, and custom engineering solutions. Use our interactive cost calculator for instant estimates with industry-specific pricing. Free consultation available. Serving all of India with competitive pricing and 24-48 hour response time."
-        keywords="industrial automation quote, electrical control panel pricing, process automation cost, PLC programming quote, SCADA system pricing, instrumentation quote, engineering solutions cost calculator, industrial control systems quote, automation project cost estimator, electrical panel manufacturer quote, India industrial automation pricing, control panel cost calculator, engineering consultation quote, manufacturing automation pricing"
+        title={t("pages:quote.seo.title")}
+        description={t("pages:quote.seo.description")}
+        keywords={t("pages:quote.seo.keywords")}
         canonicalUrl="https://powertonengineering.in/quote"
         structuredData={structuredData}
       />

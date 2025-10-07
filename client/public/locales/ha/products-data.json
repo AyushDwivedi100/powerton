@@ -1856,5 +1856,55 @@
       "2m haɗin kebul",
       "ATEX, IECEx, CE sun yarda"
     ]
+  },
+  "utilities": {
+    "variant": {
+      "titleSuffix": " - Variant {{number}}",
+      "titleDefault": "Product Variant {{number}}",
+      "descriptionDefault": "Industrial product variant {{number}} with enhanced specifications",
+      "featureSuffix": "Variant {{number}} specifications"
+    },
+    "defaultProduct": {
+      "titleTemplate": "{{subcategory}} Product {{number}}",
+      "descriptionTemplate": "Industrial {{subcategory}} product designed for reliable performance in demanding applications. Features high-quality construction and proven technology.",
+      "features": [
+        "High-quality industrial construction",
+        "Reliable performance in demanding conditions",
+        "Certified for industrial applications",
+        "Low maintenance requirements",
+        "Excellent value for money"
+      ],
+      "variantFeatures": [
+        "Enhanced performance features",
+        "Industrial grade construction",
+        "Reliable operation",
+        "Certified for industrial use"
+      ]
+    },
+    "commonData": {
+      "applications": [
+        "Industrial Automation",
+        "Manufacturing",
+        "Process Control",
+        "Quality Assurance"
+      ],
+      "industries": [
+        "Manufacturing",
+        "Automotive",
+        "Pharmaceutical",
+        "Food & Beverage"
+      ],
+      "certifications": [
+        "ISO 9001",
+        "CE Marking"
+      ],
+      "keywords": {
+        "industrialAutomation": "industrial automation",
+        "processControl": "process control",
+        "instrumentation": "instrumentation",
+        "india": "India",
+        "powertonEngineering": "Powerton Engineering"
+      }
+    }
   }
 }
