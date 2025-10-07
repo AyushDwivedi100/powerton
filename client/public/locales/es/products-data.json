@@ -108,6 +108,17 @@
     ]
   },
   "bldc-premium1400": {
+    "title": "Ventilador de techo BLDC Premium 1400mm",
+    "description": "Ventilador de techo DC sin escobillas de alto rendimiento de 52W con un diámetro de barrido de 1400mm. Diseño premium con controles inteligentes, integración de iluminación LED y eficiencia energética superior para habitaciones grandes y espacios comerciales.",
+    "features": [
+      "Motor premium de 52W con clasificación energética de 5 estrellas",
+      "Control remoto inteligente con control de iluminación LED",
+      "Flujo de aire superior de 240 CMM para espacios grandes",
+      "Iluminación LED integrada con control de atenuación",
+      "Diseño de pala aerodinámica avanzado",
+      "Funcionamiento ultra silencioso por debajo de 30dB",
+      "Cobertura de garantía premium de 5 años"
+    ],
     "seo": {
       "title": "Ventilador de techo BLDC Premium 1400 RPM - Funciones avanzadas | Powerton Engineering",
       "description": "Ventilador de techo BLDC Premium 1400 RPM con funciones inteligentes avanzadas, flujo de aire superior y tecnología de motor sin escobillas de bajo consumo.",
@@ -125,16 +136,6 @@
       "Controles inteligentes avanzados",
       "Calidad de construcción premium",
       "Cobertura de garantía extendida"
-    ],
-    "features": [
-      "Motor BLDC de alto rendimiento",
-      "Conectividad WiFi inteligente",
-      "Control de aplicaciones móviles",
-      "Asistente de voz compatible",
-      "Control remoto premium",
-      "Aspas aerodinámicas de alta eficiencia",
-      "Revestimiento antipolvo",
-      "Integración del sensor de temperatura"
     ],
     "applications": [
       "Espacios residenciales premium",
@@ -162,33 +163,34 @@
     ]
   },
   "bldc-commercial1500": {
+    "title": "Ventilador de techo BLDC comercial 1500mm",
+    "description": "Ventilador de techo DC sin escobillas de 65W de alta resistencia diseñado para aplicaciones comerciales e industriales. Capacidad de flujo de aire superior de 300 CFM con una construcción robusta para un funcionamiento continuo en entornos exigentes.",
+    "features": [
+      "Motor comercial de alta resistencia de 65W",
+      "Alta capacidad de flujo de aire 300 CFM",
+      "Construcción robusta para un funcionamiento continuo",
+      "Barrido de grado comercial de 1500mm",
+      "Durabilidad y fiabilidad mejoradas",
+      "Adecuado para almacenes y fábricas",
+      "Garantía comercial extendida de 3 años"
+    ],
     "seo": {
-      "title": "Ventilador de techo comercial BLDC 1500 RPM - Trabajo pesado | Powerton Engineering",
-      "description": "Ventilador de techo comercial BLDC 1500 RPM diseñado para aplicaciones de trabajo pesado con máximo flujo de aire y fiabilidad industrial.",
-      "keywords": "ventilador de techo comercial BLDC, ventilador de techo industrial, ventilador de 1500 RPM, ventilador de techo de trabajo pesado, ventilador de grado comercial, alto flujo de aire"
+      "title": "Ventilador de techo BLDC comercial 1500 RPM - Alta resistencia | Powerton Engineering",
+      "description": "Ventilador de techo BLDC de grado comercial de 1500 RPM diseñado para aplicaciones de alta resistencia con máximo flujo de aire y fiabilidad industrial.",
+      "keywords": "ventilador de techo BLDC comercial, ventilador de techo industrial, ventilador de 1500 RPM, ventilador de techo de alta resistencia, ventilador de grado comercial, alto flujo de aire"
     },
     "hero": {
-      "title": "Ventilador de techo comercial BLDC 1500 RPM",
+      "title": "Ventilador de techo BLDC comercial 1500 RPM",
       "subtitle": "Ventilador de techo de alta resistencia para aplicaciones comerciales"
     },
     "overview": {
-      "fullDescription": "Nuestro ventilador de techo comercial BLDC 1500 RPM está diseñado para aplicaciones comerciales de trabajo pesado que requieren el máximo flujo de aire y fiabilidad. Construido con componentes de grado industrial y tecnología de motor avanzada para ofrecer un rendimiento constante en entornos exigentes, manteniendo al mismo tiempo la eficiencia energética."
+      "fullDescription": "Nuestro ventilador de techo BLDC comercial de 1500 RPM está diseñado para aplicaciones comerciales de alta resistencia que requieren el máximo flujo de aire y fiabilidad. Construido con componentes de grado industrial y tecnología de motor avanzada para ofrecer un rendimiento constante en entornos exigentes, manteniendo al mismo tiempo la eficiencia energética."
     },
     "keyBenefits": [
       "Máxima entrega de flujo de aire",
       "Fiabilidad de grado industrial",
       "Construcción de alta resistencia",
       "Protección de garantía extendida"
-    ],
-    "features": [
-      "Motor BLDC de alta resistencia",
-      "Carcasa de motor reforzada",
-      "Cojinetes de grado comercial",
-      "Aspas de metal de alta resistencia",
-      "Clasificación de funcionamiento continuo",
-      "Diseño sin vibraciones",
-      "Acabado resistente a la corrosión",
-      "Control remoto industrial"
     ],
     "applications": [
       "Edificios comerciales",
@@ -203,7 +205,7 @@
       "Fabricación industrial",
       "Venta al por menor y compras",
       "Almacenamiento y logística",
-      "Hospitalidad comercial",
+      "Hostelería comercial",
       "Instituciones educativas"
     ],
     "certifications": [
@@ -1478,6 +1480,374 @@
       "Operación de apertura-cierre de cuarto de vuelta de 90°",
       "Neumático de simple o doble efecto",
       "Acoplamiento de rosca de acción rápida"
+    ]
+  },
+  "atomberg-efficio-1200-bldc": {
+    "title": "Ventilador de techo BLDC Atomberg Efficio 1200mm",
+    "description": "Ventilador de techo BLDC premium de bajo consumo de Atomberg con solo 27W de consumo de energía y 236 CMM de flujo de aire. Cuenta con un valor de servicio superior de 8.7, control remoto RF y un 65% de ahorro de energía en comparación con los ventiladores tradicionales.",
+    "features": [
+      "El valor de servicio más alto de 8.7 CMM/W",
+      "Consumo de energía ultrabajo de 27W",
+      "Entrega de flujo de aire premium de 236 CMM",
+      "Control remoto RF con modos boost y sleep",
+      "Amplia tolerancia de voltaje 140-285V",
+      "Funcionamiento silencioso <35dB",
+      "65% de ahorro de energía frente a los ventiladores tradicionales",
+      "Garantía integral de 3 años"
+    ]
+  },
+  "havells-efficiencia-neo-1200": {
+    "title": "Ventilador de techo BLDC Havells Efficiencia Neo 1200mm",
+    "description": "Ventilador de techo BLDC galardonado de Havells con 26W de consumo de energía y 220 CMM de flujo de aire. Ganador del Premio Nacional de Conservación de Energía 2021, con bobinado 100% de cobre y modos de control avanzados.",
+    "features": [
+      "Ganador del Premio Nacional de Conservación de Energía 2021",
+      "Consumo de energía ultraeficiente de 26W",
+      "Entrega de flujo de aire premium de 220 CMM",
+      "Control remoto RF con 4 modos (Boost, Sleep, Breeze, Mop)",
+      "Bobinado 100% de cobre para mayor durabilidad",
+      "Amplia tolerancia de voltaje 140-280V",
+      "Capacidad de rotación inversa",
+      "Garantía de 2+1 años (ampliable a 5 años)"
+    ]
+  },
+  "superfan-superx1-1200-bldc": {
+    "title": "Ventilador de techo BLDC Superfan SuperX1 1200mm",
+    "description": "El primer ventilador de techo BLDC de la India de Superfan con 35W de consumo de energía y un rango de voltaje ultra amplio de 90-300V. Cuenta con garantía de 5 años, control remoto a prueba de caídas y modo de brisa natural para una comodidad óptima.",
+    "features": [
+      "El primer ventilador de techo BLDC de la India (lanzado en 2012)",
+      "Rango de voltaje ultra amplio 90-300V",
+      "Entrega de flujo de aire premium de 230 CMM",
+      "Tecnología de control remoto a prueba de caídas",
+      "Simulación de modo de brisa natural",
+      "Función de temporizador con múltiples configuraciones",
+      "56% de ahorro de energía frente a los ventiladores tradicionales",
+      "Garantía de 5 años líder en la industria"
+    ]
+  },
+  "bldc-deluxe1600": {
+    "title": "Ventilador de techo BLDC Deluxe 1600mm",
+    "description": "Ventilador de techo DC sin escobillas de 80W de primera línea con un diámetro de barrido de 1600mm. Características premium que incluyen controles inteligentes, aerodinámica avanzada y una calidad de construcción excepcional para aplicaciones de lujo.",
+    "features": [
+      "Motor premium de alto rendimiento de 80W",
+      "Diámetro de barrido extra grande de 1600mm",
+      "Integración de control inteligente",
+      "Diseño de pala aerodinámica avanzado",
+      "Acabado y materiales premium",
+      "Funcionamiento silencioso de lujo",
+      "Cobertura de garantía premium de 5 años"
+    ]
+  },
+  "bldc-industrial1800": {
+    "title": "Ventilador de techo BLDC Industrial 1800mm",
+    "description": "Ventilador de techo DC sin escobillas extra grande de 100W diseñado para grandes espacios industriales. Máxima capacidad de flujo de aire con construcción de servicio pesado para operación 24/7 en entornos industriales exigentes.",
+    "features": [
+      "Motor industrial extra grande de 100W",
+      "Diámetro de barrido máximo de 1800mm",
+      "Construcción de servicio pesado para operación 24/7",
+      "Flujo de aire superior para grandes espacios",
+      "Materiales y acabado de grado industrial",
+      "Diseñado para entornos exigentes",
+      "Garantía industrial extendida de 5 años"
+    ]
+  },
+  "bldc-economy900": {
+    "title": "Ventilador de techo BLDC Economy 900mm",
+    "description": "Ventilador de techo DC sin escobillas asequible de 35W con un diámetro de barrido de 900mm. Diseño de bajo consumo perfecto para habitaciones pequeñas y medianas con control remoto básico y rendimiento confiable.",
+    "features": [
+      "Diseño de motor de bajo consumo de 35W",
+      "Barrido compacto de 900mm para habitaciones más pequeñas",
+      "Funcionalidad básica de control remoto",
+      "Tecnología BLDC rentable",
+      "Operación de bajo mantenimiento",
+      "Garantía estándar de 2 años"
+    ]
+  },
+  "bldc-exhaust-fan-motor": {
+    "title": "Motor de ventilador de escape BLDC 25W",
+    "description": "Motor DC sin escobillas de alta eficiencia de 25W para aplicaciones de ventiladores de escape. Cuenta con construcción con cojinetes de bolas, protección IP44 y funcionamiento silencioso para sistemas de ventilación residenciales y comerciales.",
+    "features": [
+      "Motor DC sin escobillas de alta eficiencia",
+      "Consumo de energía de 25W",
+      "Cojinete de bolas para una larga vida útil",
+      "Clasificación de protección IP44",
+      "Funcionamiento con bajo nivel de ruido",
+      "Funcionamiento de 12V CC",
+      "Cobertura de garantía de 2 años"
+    ]
+  },
+  "bldc-cooler-motors": {
+    "title": "Motores de refrigeración BLDC 45W",
+    "description": "Potente motor DC sin escobillas de 45W para aplicaciones de refrigeración de aire. Diseño avanzado con 90% de eficiencia, control de velocidad variable y clasificación de protección mejorada para un rendimiento de refrigeración confiable.",
+    "features": [
+      "Motor BLDC de alto rendimiento de 45W",
+      "90% de eficiencia energética",
+      "Control de velocidad variable",
+      "Clasificación de protección IP54",
+      "Construcción con cojinetes de bolas",
+      "Funcionamiento de 24V CC",
+      "Cobertura de garantía de 3 años"
+    ]
+  },
+  "bldc-ventilation-system": {
+    "title": "Sistema de ventilación BLDC 75W",
+    "description": "Motor DC sin escobillas de 75W de grado industrial para sistemas de ventilación. Eficiencia superior al 92%, alta capacidad de flujo de aire y construcción robusta para aplicaciones HVAC exigentes.",
+    "features": [
+      "Motor BLDC de 75W de grado industrial",
+      "92% de eficiencia energética",
+      "Alta capacidad de flujo de aire 800 CFM",
+      "Clasificación de protección IP65",
+      "Funcionamiento de 48V CC",
+      "Rango de temperatura avanzado de -20°C a +80°C",
+      "Cobertura de garantía de 5 años"
+    ]
+  },
+  "bldc-ventilation-motors": {
+    "title": "Motor de ventilación BLDC 35W",
+    "description": "Motor DC sin escobillas eficiente de 35W para aplicaciones de ventilación. Rendimiento equilibrado con una capacidad de flujo de aire de 280 CFM, adecuado para sistemas de ventilación residenciales y comerciales ligeros.",
+    "features": [
+      "Diseño de motor eficiente de 35W",
+      "Buena capacidad de flujo de aire 280 CFM",
+      "88% de eficiencia energética",
+      "Construcción con cojinete de manguito",
+      "Clasificación de protección IP44",
+      "Funcionamiento de 24V CC",
+      "Garantía estándar de 2 años"
+    ]
+  },
+  "bldc-industrial-exhaust": {
+    "title": "Ventilador de escape industrial BLDC 120W",
+    "description": "Motor DC sin escobillas de alta potencia de 120W para aplicaciones de escape industrial. Construcción de servicio pesado con una capacidad de flujo de aire y confiabilidad excepcionales para entornos industriales exigentes.",
+    "features": [
+      "Motor industrial de alta potencia de 120W",
+      "Capacidad de flujo de aire excepcional 650 CFM",
+      "Construcción de servicio pesado",
+      "Funcionamiento a alta velocidad de 3200 RPM",
+      "Protección IP67 para entornos hostiles",
+      "Funcionamiento de 48V CC",
+      "Garantía industrial extendida de 3 años"
+    ]
+  },
+  "bldc-mini-cooler": {
+    "title": "Mini motor de refrigerador BLDC 15W",
+    "description": "Motor DC sin escobillas compacto de 15W diseñado para aplicaciones de mini refrigeradores. Diseño de bajo consumo con funcionamiento silencioso y rendimiento confiable para dispositivos de refrigeración personal.",
+    "features": [
+      "Diseño de motor compacto de 15W",
+      "Funcionamiento de bajo consumo",
+      "Bajo nivel de ruido por debajo de 25dB",
+      "Funcionamiento de 12V CC",
+      "Clasificación de eficiencia del 82%",
+      "Adecuado para dispositivos de refrigeración personal",
+      "Cobertura de garantía de 1 año"
+    ]
+  },
+  "dc-surface-pump-2hp": {
+    "title": "Bomba de superficie DC 2HP",
+    "description": "Potente bomba de superficie DC de 2HP con capacidad de autocebado. Alto caudal de 3600 LPH con una capacidad de altura de 150 pies, perfecto para aplicaciones agrícolas e industriales de transferencia de agua.",
+    "features": [
+      "Potente capacidad de motor de 2HP",
+      "Diseño autocebante",
+      "Alto caudal 3600 LPH",
+      "Altura máxima de 150 pies",
+      "Funcionamiento de 72V CC",
+      "Construcción robusta para uso industrial",
+      "Bajos requisitos de mantenimiento"
+    ]
+  },
+  "hybrid-bldc-pump": {
+    "title": "Sistema de bomba híbrida BLDC",
+    "description": "Sistema de bomba híbrida BLDC avanzado que combina capacidades de operación DC y AC. Cuenta con una potencia de 1.5HP con un caudal de 2700 LPH y una capacidad de altura de 120 pies, perfecto para aplicaciones versátiles de bombeo de agua.",
+    "features": [
+      "Operación híbrida DC/AC (48V CC / 230V CA)",
+      "Motor BLDC de alta eficiencia de 1.5HP",
+      "Capacidad de flujo de 2700 LPH",
+      "Altura máxima de 120 pies",
+      "Funcionamiento de bajo consumo",
+      "Compatibilidad versátil de fuente de alimentación",
+      "Tecnología BLDC de bajo mantenimiento"
+    ]
+  },
+  "bldc-table-fan-motors": {
+    "title": "Motores de ventilador de mesa BLDC",
+    "description": "Motores de ventilador de mesa BLDC de alta eficiencia con un consumo de energía de 28W y una velocidad de 2100 RPM. Cuenta con operación de control remoto y un diámetro de 400mm para una circulación de aire óptima en espacios residenciales y comerciales.",
+    "features": [
+      "Funcionamiento de bajo consumo de 28W",
+      "Alta velocidad de 2100 RPM",
+      "Diámetro de 400mm para un flujo de aire óptimo",
+      "Funcionamiento de 24V CC",
+      "Compatibilidad con control remoto",
+      "Tecnología de motor BLDC silenciosa",
+      "Larga vida útil"
+    ]
+  },
+  "bldc-wall-fan-motors": {
+    "title": "Motores de ventilador de pared BLDC",
+    "description": "Potentes motores de ventilador de pared BLDC con 35W de potencia y 1800 RPM de velocidad. Cuenta con un diámetro de 450mm y capacidad de oscilación para una circulación de aire efectiva montada en la pared en diversos entornos interiores.",
+    "features": [
+      "Consumo de energía eficiente de 35W",
+      "Velocidad óptima de 1800 RPM",
+      "Diámetro de 450mm para una amplia cobertura",
+      "Funcionamiento seguro de 24V CC",
+      "Función de oscilación para una mejor distribución del aire",
+      "Diseño montado en la pared",
+      "Tecnología BLDC silenciosa"
+    ]
+  },
+  "bldc-pedestal-fan-motors": {
+    "title": "Motores de ventilador de pedestal BLDC",
+    "description": "Motores de ventilador de pedestal BLDC de alta eficiencia con altura y oscilación ajustables. Potente flujo de aire con funcionamiento de bajo consumo para espacios residenciales y comerciales.",
+    "features": [
+      "Diseño de pedestal de altura ajustable",
+      "Motor BLDC de bajo consumo",
+      "Amplia cobertura de oscilación",
+      "Múltiples ajustes de velocidad",
+      "Operación de control remoto",
+      "Tecnología de operación silenciosa",
+      "Rendimiento duradero"
+    ]
+  },
+  "instrumentation-cables": {
+    "title": "Cables de instrumentación",
+    "description": "Cables de instrumentación de alta calidad diseñados para una transmisión de señal precisa en sistemas de automatización y control industrial. Construcción de múltiples pares con excelente blindaje y baja capacitancia para una comunicación de datos confiable.",
+    "features": [
+      "Construcción de múltiples pares para sistemas complejos",
+      "Excelente blindaje e integridad de la señal",
+      "Baja capacitancia para una transmisión de datos precisa",
+      "Adecuado para entornos industriales hostiles",
+      "Disponible en varias configuraciones de núcleo",
+      "Cumplimiento de las normas internacionales",
+      "Fiabilidad y rendimiento a largo plazo"
+    ]
+  },
+  "power-distribution-cables": {
+    "title": "Cables de distribución de energía",
+    "description": "Cables de distribución de energía de servicio pesado con aislamiento XLPE para una transmisión de energía eléctrica confiable. Disponible en rangos de voltaje de 1kV a 33kV con conductores de cobre o aluminio para diversas aplicaciones industriales.",
+    "features": [
+      "Aislamiento XLPE para alta confiabilidad",
+      "Rango de voltaje: 1kV - 33kV",
+      "Opciones de conductor de cobre y aluminio",
+      "Temperatura de funcionamiento de 90°C",
+      "Cumplimiento de la norma IS 7098",
+      "Adecuado para instalación subterránea y aérea",
+      "Larga vida útil y durabilidad"
+    ]
+  },
+  "communication-cables": {
+    "title": "Cables de comunicación",
+    "description": "Cables de comunicación de categoría 6A de alto rendimiento con un ancho de banda de 500 MHz para aplicaciones de redes avanzadas. El blindaje F/UTP garantiza una transmisión de datos confiable en entornos exigentes.",
+    "features": [
+      "Rendimiento de categoría 6A para datos de alta velocidad",
+      "Capacidad de ancho de banda de 500 MHz",
+      "Longitud de transmisión de 100m",
+      "Blindaje F/UTP para integridad de la señal",
+      "Cumplimiento de la norma TIA/EIA-568-B",
+      "Adecuado para Ethernet de 10 Gigabit",
+      "Baja diafonía e interferencia"
+    ]
+  },
+  "mcb-circuit-breakers": {
+    "title": "Interruptores automáticos en miniatura MCB",
+    "description": "Interruptores automáticos en miniatura MCB confiables para protección contra sobrecargas y cortocircuitos. Disponible en rangos de corriente de 6A a 63A con múltiples configuraciones de polos para una protección eléctrica integral.",
+    "features": [
+      "Rango de corriente: 6A - 63A",
+      "Múltiples opciones de polos: 1P, 2P, 3P, 4P",
+      "Capacidad de ruptura de 10kA",
+      "Cumplimiento de la norma IEC 60898",
+      "Diseño miniatura compacto",
+      "Protección confiable contra sobrecargas",
+      "Fácil instalación y mantenimiento"
+    ]
+  },
+  "mccb-circuit-breakers": {
+    "title": "Interruptores automáticos de caja moldeada MCCB",
+    "description": "Interruptores automáticos de caja moldeada MCCB de servicio pesado para aplicaciones de alta corriente. Disponible de 16A a 1600A con una capacidad de ruptura de 50kA para una protección confiable en sistemas eléctricos industriales.",
+    "features": [
+      "Alto rango de corriente: 16A - 1600A",
+      "Configuraciones de polos 3P y 4P",
+      "Capacidad de ruptura de 50kA",
+      "Cumplimiento de la norma IEC 60947",
+      "Construcción de caja moldeada",
+      "Ajustes de disparo ajustables",
+      "Adecuado para aplicaciones industriales"
+    ]
+  },
+  "industrial-fuses": {
+    "title": "Fusibles industriales HRC",
+    "description": "Fusibles industriales de alta capacidad de ruptura (HRC) para protección contra sobrecorriente. Disponible de 2A a 800A con rangos de voltaje de hasta 11kV y una capacidad de ruptura de 80kA para protección industrial crítica.",
+    "features": [
+      "Tipo HRC para alta capacidad de ruptura",
+      "Rango de corriente: 2A - 800A",
+      "Rango de voltaje: 415V - 11kV",
+      "Capacidad de ruptura de 80kA",
+      "Cumplimiento de la norma IEC 60269",
+      "Protección contra sobrecorriente de acción rápida",
+      "Extinción de arco confiable"
+    ]
+  },
+  "terminal-blocks": {
+    "title": "Bloques de terminales industriales",
+    "description": "Bloques de terminales versátiles para conexiones eléctricas seguras en paneles de control industrial. Disponible en tipos de abrazadera de tornillo y resorte con clasificaciones de corriente de 10A a 150A y montaje en carril DIN.",
+    "features": [
+      "Tipos de terminales de abrazadera de tornillo y resorte",
+      "Clasificación de corriente: 10A - 150A",
+      "Clasificación de voltaje de 1000V",
+      "Tamaño del cable: 0.2 - 50 mm²",
+      "Sistema de montaje en carril DIN",
+      "Conexiones seguras y confiables",
+      "Fácil instalación y mantenimiento"
+    ]
+  },
+  "industrial-connectors": {
+    "title": "Conectores industriales de servicio pesado",
+    "description": "Conectores industriales de servicio pesado diseñados para entornos hostiles. Disponible con 3-128 pines, clasificaciones de corriente de hasta 400A y protección IP67 para conexiones confiables en aplicaciones exigentes.",
+    "features": [
+      "Construcción de servicio pesado para uso industrial",
+      "Configuraciones de pines: 3-128 pines",
+      "Alta capacidad de corriente: 16A - 400A",
+      "Clasificación de voltaje de 690V",
+      "Clasificación de protección IP67",
+      "Adecuado para entornos hostiles",
+      "Rendimiento de conexión confiable"
+    ]
+  },
+  "signal-connectors": {
+    "title": "Conectores de señal",
+    "description": "Conectores de señal en miniatura para una transmisión de datos precisa en aplicaciones de control e instrumentación. Cuenta con configuraciones de 2-50 pines con blindaje EMI de 360° para la integridad de la señal.",
+    "features": [
+      "Diseño en miniatura para ahorrar espacio",
+      "Rango de pines: 2-50 pines",
+      "Clasificación de corriente de 5A",
+      "Capacidad de voltaje de 250V",
+      "Blindaje EMI de 360°",
+      "Excelente integridad de la señal",
+      "Ideal para aplicaciones de control"
+    ]
+  },
+  "omron-e2e-x5me1-pnp-proximity": {
+    "title": "Sensor de proximidad PNP Omron E2E-X5ME1",
+    "description": "Sensor de proximidad inductivo PNP Omron de alto rendimiento con una distancia de detección de 5 mm. Cuenta con salida PNP NO/NC, protección IP67 y conector M12 para aplicaciones confiables de automatización industrial.",
+    "features": [
+      "Distancia de detección de 5 mm para una detección precisa",
+      "Configuración de salida PNP NO/NC",
+      "Voltaje de funcionamiento de 12-24VDC",
+      "Corriente máxima de 200mA",
+      "Frecuencia de conmutación de 1000Hz",
+      "Clasificación de protección IP67",
+      "Conector M12 para una fácil instalación",
+      "Certificado CE, UL, CSA"
+    ]
+  },
+  "pepperl-fuchs-nbb5-18gm60-e2-pnp": {
+    "title": "Sensor PNP Pepperl+Fuchs NBB5-18GM60-E2",
+    "description": "Sensor de proximidad inductivo PNP Pepperl+Fuchs de grado industrial con un rango de detección de 5 mm. Cuenta con protección IP68, certificación ATEX y frecuencia de conmutación de 5000Hz para aplicaciones en entornos hostiles.",
+    "features": [
+      "Distancia de detección de 5 mm para precisión",
+      "Tipo de salida PNP NO",
+      "Rango de funcionamiento de 10-30VDC",
+      "Capacidad de corriente máxima de 200mA",
+      "Alta frecuencia de conmutación de 5000Hz",
+      "Protección IP68 para entornos hostiles",
+      "Conexión de cable de 2 m",
+      "Certificado ATEX, IECEx, CE"
     ]
   }
 }
