@@ -54,9 +54,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "pnp-npn-sensors",
     slug: "pnp-npn-sensors",
-    title: "PNP/NPN Sensors",
-    description:
-      "Industrial proximity sensors including both PNP and NPN types for automation applications. These sensors provide reliable detection of metallic objects without physical contact, featuring robust construction, high switching frequencies, excellent repeatability, and resistance to electromagnetic interference for demanding industrial environments.",
+    titleKey: "products:productGroups.pnpNpnSensors.title",
+    descriptionKey: "products:productGroups.pnpNpnSensors.description",
     subcategoryKey: "sensors-transducers",
     image: "pnp-proximity-sensor",
     featuredSpecs: ["manufacturer", "model", "type"],
@@ -64,9 +63,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "rtd-thermocouples-sensors",
     slug: "rtd-thermocouples-sensors",
-    title: "RTD/Thermocouples Sensors",
-    description:
-      "Temperature sensors including Resistance Temperature Detector (RTD) sensors and industrial thermocouples for precise temperature measurement in industrial processes. RTD sensors available in PT100, PT500, and PT1000 configurations, and thermocouples in J, K, T, E, R, S, and N types. Designed for both precision measurement and high-temperature applications with excellent accuracy, stability, and durability in extreme industrial environments.",
+    titleKey: "products:productGroups.rtdThermocouplesSensors.title",
+    descriptionKey: "products:productGroups.rtdThermocouplesSensors.description",
     subcategoryKey: "sensors-transducers",
     image: "rtd-temperature-sensor",
     featuredSpecs: ["manufacturer", "model", "type"],
@@ -74,9 +72,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "load-cell",
     slug: "load-cell-sensors",
-    title: "Load Cell Sensors",
-    description:
-      "Precision load cell sensors for force and weight measurement applications. Available in compression, tension, and universal configurations with high accuracy and excellent long-term stability for industrial weighing systems.",
+    titleKey: "products:productGroups.loadCell.title",
+    descriptionKey: "products:productGroups.loadCell.description",
     subcategoryKey: "sensors-transducers",
     image: "load-cell",
     featuredSpecs: ["manufacturer", "model", "type"],
@@ -84,9 +81,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "ph-sensors",
     slug: "ph-sensors",
-    title: "pH Sensors",
-    description:
-      "Industrial pH sensors for water quality monitoring and process control applications. Glass electrode and ISFET technology options with automatic temperature compensation and digital HART communication capabilities.",
+    titleKey: "products:productGroups.phSensors.title",
+    descriptionKey: "products:productGroups.phSensors.description",
     subcategoryKey: "sensors-transducers",
     image: "ph-sensor",
     featuredSpecs: ["manufacturer", "model", "type"],
@@ -96,9 +92,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "dp-type-transmitter",
     slug: "dp-type-transmitters",
-    title: "Differential Pressure Transmitters",
-    description:
-      "High-precision differential pressure transmitters for flow, level, and pressure measurement applications. Features HART communication, digital compensation, and robust construction for demanding industrial environments.",
+    titleKey: "products:productGroups.dpTypeTransmitter.title",
+    descriptionKey: "products:productGroups.dpTypeTransmitter.description",
     subcategoryKey: "transmitters-flow-meters",
     image: "dp-transmitter-rosemount",
     featuredSpecs: ["manufacturer", "model", "type"],
@@ -106,9 +101,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "p-type-transmitter",
     slug: "p-type-transmitters",
-    title: "Pressure Transmitters",
-    description:
-      "Industrial pressure transmitters for absolute and gauge pressure measurement. Featuring advanced sensor technology, excellent stability, and comprehensive diagnostic capabilities for process automation applications.",
+    titleKey: "products:productGroups.pTypeTransmitter.title",
+    descriptionKey: "products:productGroups.pTypeTransmitter.description",
     subcategoryKey: "transmitters-flow-meters",
     image: "p-transmitter-siemens",
     featuredSpecs: ["manufacturer", "model", "type"],
@@ -116,9 +110,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "rs-type-transmitter",
     slug: "rs-type-transmitters",
-    title: "Remote Seal Transmitters",
-    description:
-      "Remote seal pressure transmitters for high-temperature, corrosive, or viscous media applications. Capillary-filled systems provide safe and accurate pressure measurement in challenging process conditions.",
+    titleKey: "products:productGroups.rsTypeTransmitter.title",
+    descriptionKey: "products:productGroups.rsTypeTransmitter.description",
     subcategoryKey: "transmitters-flow-meters",
     image: "rs-transmitter-rosemount",
     featuredSpecs: ["manufacturer", "model", "type"],
@@ -126,9 +119,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "mass-flow-meter",
     slug: "mass-flow-meters",
-    title: "Mass Flow Meters",
-    description:
-      "Coriolis mass flow meters for direct mass flow and density measurement of liquids and gases. Highly accurate measurement independent of fluid properties, temperature, and pressure variations.",
+    titleKey: "products:productGroups.massFlowMeter.title",
+    descriptionKey: "products:productGroups.massFlowMeter.description",
     subcategoryKey: "transmitters-flow-meters",
     image: "coriolis-flowmeter-endress",
     featuredSpecs: ["manufacturer", "model", "type"],
@@ -136,9 +128,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "vortex-flow-meter",
     slug: "vortex-flow-meters",
-    title: "Vortex Flow Meters",
-    description:
-      "Vortex shedding flow meters for steam, gas, and liquid measurement applications. No moving parts design ensures reliability with built-in temperature compensation and multivariable measurement capabilities.",
+    titleKey: "products:productGroups.vortexFlowMeter.title",
+    descriptionKey: "products:productGroups.vortexFlowMeter.description",
     subcategoryKey: "transmitters-flow-meters",
     image: "vortex-flowmeter-yokogawa",
     featuredSpecs: ["manufacturer", "model", "type"],
@@ -146,9 +137,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "volumetric-flow-meter",
     slug: "volumetric-flow-meters",
-    title: "Volumetric Flow Meters",
-    description:
-      "Electromagnetic, ultrasonic, and positive displacement volumetric flow meters for precise liquid and gas flow measurement. Features include no moving parts (electromagnetic), high accuracy, minimal pressure drop, and excellent long-term stability. Ideal for water, wastewater, chemical applications, custody transfer, and batch operations requiring reliable volumetric measurement.",
+    titleKey: "products:productGroups.volumetricFlowMeter.title",
+    descriptionKey: "products:productGroups.volumetricFlowMeter.description",
     subcategoryKey: "transmitters-flow-meters",
     image: "magnetic-flowmeter-endress",
     featuredSpecs: ["manufacturer", "model", "type"],
@@ -167,9 +157,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "pressure-switches",
     slug: "pressure-switches",
-    title: "Pressure Switches",
-    description:
-      "Industrial pressure switches for accurate pressure monitoring and control in automation systems. Available from leading manufacturers like Danfoss, Schneider Electric, WIKA, and ABB.",
+    titleKey: "products:productGroups.pressureSwitches.title",
+    descriptionKey: "products:productGroups.pressureSwitches.description",
     subcategoryKey: "switches-indicators",
     image: "pressure-switch",
     featuredSpecs: ["manufacturer", "model", "pressureRange", "temperature"],
@@ -177,9 +166,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "level-switches",
     slug: "level-switches",
-    title: "Level Switches",
-    description:
-      "Point-level detection switches using tuning fork, float, and capacitive technologies. From trusted brands like Endress+Hauser, ABB, and VEGA for reliable liquid and bulk solid level monitoring.",
+    titleKey: "products:productGroups.levelSwitches.title",
+    descriptionKey: "products:productGroups.levelSwitches.description",
     subcategoryKey: "switches-indicators",
     image: "level-switch",
     featuredSpecs: ["manufacturer", "model", "technology", "application"],
@@ -187,9 +175,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "limit-switches",
     slug: "limit-switches",
-    title: "Limit Switches",
-    description:
-      "Heavy-duty position sensing switches for industrial automation. From Omron, Schneider Electric, and Siemens with IP67 protection and robust metal construction for reliable operation.",
+    titleKey: "products:productGroups.limitSwitches.title",
+    descriptionKey: "products:productGroups.limitSwitches.description",
     subcategoryKey: "switches-indicators",
     image: "limit-switch",
     featuredSpecs: ["manufacturer", "model", "actuatorType", "ipRating"],
@@ -197,9 +184,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "push-buttons",
     slug: "push-buttons",
-    title: "Push Buttons",
-    description:
-      "Industrial push button switches for control panels and machinery. Available in 22mm and 30mm sizes from Schneider Electric, Eaton, ABB, and Siemens with various contact configurations and illumination options.",
+    titleKey: "products:productGroups.pushButtons.title",
+    descriptionKey: "products:productGroups.pushButtons.description",
     subcategoryKey: "switches-indicators",
     image: "push-button",
     featuredSpecs: ["manufacturer", "model", "size", "contactType"],
@@ -209,9 +195,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "control-valves",
     slug: "control-valves",
-    title: "Control Valves",
-    description:
-      "Precision control valves for process automation from Fisher (Emerson), SAMSON, and ABB. Globe, ball, and rotary designs with digital positioners and HART communication capabilities.",
+    titleKey: "products:productGroups.controlValves.title",
+    descriptionKey: "products:productGroups.controlValves.description",
     subcategoryKey: "valves-actuators",
     image: "control-valve",
     featuredSpecs: ["manufacturer", "model", "valveType", "cvValue"],
@@ -219,9 +204,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "solenoid-valves",
     slug: "solenoid-valves",
-    title: "Solenoid Valves",
-    description:
-      "Electrically operated valves for fluid control automation. ASCO (Emerson) and Parker Hannifin models for air, water, steam, and various industrial fluids with direct acting and pilot operated designs.",
+    titleKey: "products:productGroups.solenoidValves.title",
+    descriptionKey: "products:productGroups.solenoidValves.description",
     subcategoryKey: "valves-actuators",
     image: "solenoid-valve",
     featuredSpecs: ["manufacturer", "model", "portSize", "pressure"],
@@ -229,9 +213,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "on-off-valves",
     slug: "on-off-valves",
-    title: "On/Off Valves",
-    description:
-      "Industrial on-off ball and gate valves for reliable shut-off service. Features quarter-turn actuation, manual or pneumatic operation, stainless steel construction, and compliance with API, ANSI, and ISO standards. Available from leading manufacturers including Emerson Fisher, Flowserve Worcester, Swagelok, and Burkert for process isolation, emergency shut-down, and flow control applications.",
+    titleKey: "products:productGroups.onOffValves.title",
+    descriptionKey: "products:productGroups.onOffValves.description",
     subcategoryKey: "valves-actuators",
     image: "on-off-valve",
     featuredSpecs: ["manufacturer", "model", "size", "pressure"],
@@ -241,9 +224,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "process-analyzers",
     slug: "process-analyzers",
-    title: "Process Analyzers",
-    description:
-      "Advanced process analyzers for real-time monitoring of chemical composition and process parameters. Multi-component analysis with high accuracy and fast response times for critical process control applications.",
+    titleKey: "products:productGroups.processAnalyzers.title",
+    descriptionKey: "products:productGroups.processAnalyzers.description",
     subcategoryKey: "analyzers",
     image: "process-analyzer",
     featuredSpecs: ["manufacturer", "model", "type"],
@@ -251,9 +233,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "gas-analyzers",
     slug: "gas-analyzers",
-    title: "Gas Analyzers",
-    description:
-      "Precision gas analyzers for emissions monitoring, process optimization, and safety applications. Available in portable and fixed configurations with advanced sensor technologies for various gas detection requirements.",
+    titleKey: "products:productGroups.gasAnalyzers.title",
+    descriptionKey: "products:productGroups.gasAnalyzers.description",
     subcategoryKey: "analyzers",
     image: "gas-analyzer",
     featuredSpecs: ["manufacturer", "model", "type"],
@@ -261,9 +242,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "liquid-analyzers",
     slug: "liquid-analyzers",
-    title: "Liquid Analyzers",
-    description:
-      "Comprehensive liquid analyzers for water quality monitoring, chemical process control, and environmental compliance. Multi-parameter analysis with automatic calibration and data logging capabilities.",
+    titleKey: "products:productGroups.liquidAnalyzers.title",
+    descriptionKey: "products:productGroups.liquidAnalyzers.description",
     subcategoryKey: "analyzers",
     image: "liquid-analyzer",
     featuredSpecs: ["manufacturer", "model", "type"],
@@ -271,9 +251,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "oxygen-gas-analyzers",
     slug: "oxygen-gas-analyzers",
-    title: "Oxygen (O2) Gas Analyzers",
-    description:
-      "Precision oxygen analyzers for industrial process monitoring and safety applications. Electrochemical, paramagnetic, and optical technologies from leading manufacturers like Systech, Panametrics, and Endress+Hauser.",
+    titleKey: "products:productGroups.oxygenGasAnalyzers.title",
+    descriptionKey: "products:productGroups.oxygenGasAnalyzers.description",
     subcategoryKey: "analyzers",
     image: "gas-analyzer",
     featuredSpecs: ["manufacturer", "model", "technology", "range"],
@@ -281,9 +260,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "nitrogen-gas-analyzers",
     slug: "nitrogen-gas-analyzers",
-    title: "Nitrogen (N2) Gas Analyzers",
-    description:
-      "Nitrogen gas analyzers using thermal conductivity and inert gas fusion technologies. LECO and HORIBA instruments for elemental analysis in metals and alloys with high precision measurement.",
+    titleKey: "products:productGroups.nitrogenGasAnalyzers.title",
+    descriptionKey: "products:productGroups.nitrogenGasAnalyzers.description",
     subcategoryKey: "analyzers",
     image: "gas-analyzer",
     featuredSpecs: ["manufacturer", "model", "technology", "range"],
@@ -291,9 +269,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "hydrogen-gas-analyzers",
     slug: "hydrogen-gas-analyzers",
-    title: "Hydrogen (H2) Gas Analyzers",
-    description:
-      "Hydrogen analyzers with thermal conductivity detection for binary mixture analysis and process monitoring. Nova Analytical and Endress+Hauser systems for safety and quality control applications.",
+    titleKey: "products:productGroups.hydrogenGasAnalyzers.title",
+    descriptionKey: "products:productGroups.hydrogenGasAnalyzers.description",
     subcategoryKey: "analyzers",
     image: "gas-analyzer",
     featuredSpecs: ["manufacturer", "model", "technology", "range"],
@@ -301,9 +278,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "carbon-dioxide-gas-analyzers",
     slug: "carbon-dioxide-gas-analyzers",
-    title: "Carbon Dioxide (CO2) Gas Analyzers",
-    description:
-      "CO2 analyzers using NDIR and TDLAS technologies for combustion control, food processing, and environmental monitoring. Range from ppm to percentage levels with high accuracy measurement.",
+    titleKey: "products:productGroups.carbonDioxideGasAnalyzers.title",
+    descriptionKey: "products:productGroups.carbonDioxideGasAnalyzers.description",
     subcategoryKey: "analyzers",
     image: "gas-analyzer",
     featuredSpecs: ["manufacturer", "model", "technology", "range"],
@@ -311,9 +287,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "cod-analyzers",
     slug: "cod-analyzers",
-    title: "COD Analyzers",
-    description:
-      "Chemical Oxygen Demand analyzers for water quality testing and wastewater treatment monitoring. Hach, MANTECH, and LAR systems with automated analysis and regulatory compliance capabilities.",
+    titleKey: "products:productGroups.codAnalyzers.title",
+    descriptionKey: "products:productGroups.codAnalyzers.description",
     subcategoryKey: "analyzers",
     image: "liquid-analyzer",
     featuredSpecs: ["manufacturer", "model", "method", "range"],
@@ -321,9 +296,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "bod-analyzers",
     slug: "bod-analyzers",
-    title: "BOD Analyzers",
-    description:
-      "Biochemical Oxygen Demand analyzers for organic pollution measurement in water samples. MANTECH, Hach, and YSI automated systems with optical DO sensors and temperature control.",
+    titleKey: "products:productGroups.bodAnalyzers.title",
+    descriptionKey: "products:productGroups.bodAnalyzers.description",
     subcategoryKey: "analyzers",
     image: "liquid-analyzer",
     featuredSpecs: ["manufacturer", "model", "bottles", "analysis"],
@@ -333,9 +307,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "standard-ceiling-fans",
     slug: "standard-ceiling-fans",
-    title: "Standard BLDC Ceiling Fans",
-    description:
-      "Energy-efficient brushless DC ceiling fans with variable speed control and silent operation. Featuring modern designs, remote control operation, and exceptional energy savings compared to traditional AC motors.",
+    titleKey: "products:productGroups.standardCeilingFans.title",
+    descriptionKey: "products:productGroups.standardCeilingFans.description",
     subcategoryKey: "bldc-ceiling-fan",
     image: "bldc-ceiling-fan",
     featuredSpecs: ["power", "speed", "airflow"],
@@ -343,9 +316,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "premium-ceiling-fans",
     slug: "premium-ceiling-fans",
-    title: "Premium BLDC Ceiling Fans",
-    description:
-      "High-performance brushless DC ceiling fans with advanced features including smart controls, LED lighting, and superior aerodynamic design. Premium models offer enhanced durability and whisper-quiet operation.",
+    titleKey: "products:productGroups.premiumCeilingFans.title",
+    descriptionKey: "products:productGroups.premiumCeilingFans.description",
     subcategoryKey: "bldc-ceiling-fan",
     image: "bldc-ceiling-fan",
     featuredSpecs: ["power", "speed", "airflow"],
@@ -353,9 +325,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "commercial-ceiling-fans",
     slug: "commercial-ceiling-fans",
-    title: "Commercial BLDC Ceiling Fans",
-    description:
-      "Heavy-duty brushless DC ceiling fans designed for commercial and industrial applications. Robust construction with high airflow capacity, extended operating life, and reduced maintenance requirements.",
+    titleKey: "products:productGroups.commercialCeilingFans.title",
+    descriptionKey: "products:productGroups.commercialCeilingFans.description",
     subcategoryKey: "bldc-ceiling-fan",
     image: "bldc-ceiling-fan",
     featuredSpecs: ["power", "speed", "airflow"],
@@ -363,9 +334,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "exhaust-fan-motors",
     slug: "exhaust-fan-motors",
-    title: "BLDC Exhaust Fan Motors",
-    description:
-      "High-efficiency brushless DC motors for exhaust fan applications. Designed for continuous operation with excellent speed control, low noise levels, and superior energy efficiency for ventilation systems.",
+    titleKey: "products:productGroups.exhaustFanMotors.title",
+    descriptionKey: "products:productGroups.exhaustFanMotors.description",
     subcategoryKey: "bldc-cooler-exhaust-motor",
     image: "bldc-exhaust-motor",
     featuredSpecs: ["power", "voltage", "efficiency"],
@@ -373,9 +343,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "cooler-motors",
     slug: "cooler-motors",
-    title: "BLDC Cooler Motors",
-    description:
-      "Energy-efficient brushless DC motors for air cooler applications. Featuring variable speed control, silent operation, and exceptional reliability for both domestic and commercial cooling systems.",
+    titleKey: "products:productGroups.coolerMotors.title",
+    descriptionKey: "products:productGroups.coolerMotors.description",
     subcategoryKey: "bldc-cooler-exhaust-motor",
     image: "bldc-cooler-motor",
     featuredSpecs: ["power", "voltage", "efficiency"],
@@ -383,9 +352,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "ventilation-motors",
     slug: "ventilation-motors",
-    title: "BLDC Ventilation Motors",
-    description:
-      "Advanced brushless DC motors for ventilation systems with precise speed control and low power consumption. Ideal for HVAC applications requiring quiet operation and energy efficiency.",
+    titleKey: "products:productGroups.ventilationMotors.title",
+    descriptionKey: "products:productGroups.ventilationMotors.description",
     subcategoryKey: "bldc-cooler-exhaust-motor",
     image: "bldc-ventilation-motor",
     featuredSpecs: ["power", "voltage", "efficiency"],
@@ -393,9 +361,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "submersible-pumps",
     slug: "submersible-pumps",
-    title: "BLDC Submersible Pumps",
-    description:
-      "Energy-efficient brushless DC submersible pumps for water supply applications. Featuring corrosion-resistant construction, variable speed operation, and exceptional efficiency for borewell and deep water pumping.",
+    titleKey: "products:productGroups.submersiblePumps.title",
+    descriptionKey: "products:productGroups.submersiblePumps.description",
     subcategoryKey: "bldc-submersible-surface-pump",
     image: "bldc-submersible-pump",
     featuredSpecs: ["power", "head", "flow"],
@@ -403,9 +370,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "surface-pumps",
     slug: "surface-pumps",
-    title: "BLDC Surface Pumps",
-    description:
-      "High-efficiency brushless DC surface pumps for water transfer and pressure boosting applications. Compact design with intelligent control features and superior energy savings compared to conventional pumps.",
+    titleKey: "products:productGroups.surfacePumps.title",
+    descriptionKey: "products:productGroups.surfacePumps.description",
     subcategoryKey: "bldc-submersible-surface-pump",
     image: "bldc-surface-pump",
     featuredSpecs: ["power", "head", "flow"],
@@ -413,9 +379,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "hybrid-pumps",
     slug: "hybrid-pumps",
-    title: "BLDC Hybrid Pumps",
-    description:
-      "Versatile brushless DC hybrid pumps suitable for both submersible and surface applications. Advanced motor technology with adaptive control systems for optimal performance across various operating conditions.",
+    titleKey: "products:productGroups.hybridPumps.title",
+    descriptionKey: "products:productGroups.hybridPumps.description",
     subcategoryKey: "bldc-submersible-surface-pump",
     image: "bldc-hybrid-pump",
     featuredSpecs: ["power", "head", "flow"],
@@ -423,9 +388,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "table-fan-motors",
     slug: "table-fan-motors",
-    title: "BLDC Table Fan Motors",
-    description:
-      "Compact brushless DC motors for table fan applications with excellent speed control and whisper-quiet operation. Energy-efficient design with extended operational life and minimal maintenance requirements.",
+    titleKey: "products:productGroups.tableFanMotors.title",
+    descriptionKey: "products:productGroups.tableFanMotors.description",
     subcategoryKey: "bldc-table-fan-wall-fan-motor",
     image: "bldc-table-fan-motor",
     featuredSpecs: ["power", "speed", "voltage"],
@@ -433,9 +397,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "wall-fan-motors",
     slug: "wall-fan-motors",
-    title: "BLDC Wall Fan Motors",
-    description:
-      "Space-saving brushless DC motors for wall-mounted fan applications. Featuring remote control compatibility, multiple speed settings, and energy-efficient operation for residential and commercial use.",
+    titleKey: "products:productGroups.wallFanMotors.title",
+    descriptionKey: "products:productGroups.wallFanMotors.description",
     subcategoryKey: "bldc-table-fan-wall-fan-motor",
     image: "bldc-wall-fan-motor",
     featuredSpecs: ["power", "speed", "voltage"],
@@ -443,9 +406,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "pedestal-fan-motors",
     slug: "pedestal-fan-motors",
-    title: "BLDC Pedestal Fan Motors",
-    description:
-      "Powerful brushless DC motors for pedestal fan applications with adjustable height and oscillation features. Delivering superior airflow with energy-efficient operation and silent performance.",
+    titleKey: "products:productGroups.pedestalFanMotors.title",
+    descriptionKey: "products:productGroups.pedestalFanMotors.description",
     subcategoryKey: "bldc-table-fan-wall-fan-motor",
     image: "bldc-pedestal-fan-motor",
     featuredSpecs: ["power", "speed", "voltage"],
@@ -455,9 +417,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "power-cables",
     slug: "power-cables",
-    title: "Power Cables",
-    description:
-      "High-quality power cables for electrical distribution systems. Available in various conductor sizes and insulation types for low, medium, and high voltage applications with superior electrical and mechanical properties.",
+    titleKey: "products:productGroups.powerCables.title",
+    descriptionKey: "products:productGroups.powerCables.description",
     subcategoryKey: "cables-wires",
     image: "power-cable",
     featuredSpecs: ["conductor", "voltage", "insulation"],
@@ -465,9 +426,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "control-cables",
     slug: "control-cables",
-    title: "Control Cables",
-    description:
-      "Multi-core control cables for automation and instrumentation applications. Featuring excellent electrical properties, electromagnetic interference shielding, and flexible construction for panel wiring and control systems.",
+    titleKey: "products:productGroups.controlCables.title",
+    descriptionKey: "products:productGroups.controlCables.description",
     subcategoryKey: "cables-wires",
     image: "control-cable",
     featuredSpecs: ["conductor", "voltage", "shielding"],
@@ -475,9 +435,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "instrumentation-cables",
     slug: "instrumentation-cables",
-    title: "Instrumentation Cables",
-    description:
-      "Precision instrumentation cables for signal transmission in process control applications. Low capacitance design with excellent noise immunity and individual pair shielding for critical measurement circuits.",
+    titleKey: "products:productGroups.instrumentationCables.title",
+    descriptionKey: "products:productGroups.instrumentationCables.description",
     subcategoryKey: "cables-wires",
     image: "instrumentation-cable",
     featuredSpecs: ["conductor", "voltage", "shielding"],
@@ -485,9 +444,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "terminal-blocks",
     slug: "terminal-blocks",
-    title: "Terminal Blocks",
-    description:
-      "Reliable terminal blocks for electrical connections in control panels and junction boxes. DIN rail mounting with screw, spring, and push-in connection technologies for secure and maintenance-free wiring.",
+    titleKey: "products:productGroups.terminalBlocks.title",
+    descriptionKey: "products:productGroups.terminalBlocks.description",
     subcategoryKey: "connectors-terminals",
     image: "terminal-block",
     featuredSpecs: ["current", "voltage", "connection"],
@@ -495,9 +453,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "electrical-connectors",
     slug: "electrical-connectors",
-    title: "Electrical Connectors",
-    description:
-      "Industrial electrical connectors for power and signal applications. Robust construction with IP-rated protection, multiple contact configurations, and reliable performance in harsh environmental conditions.",
+    titleKey: "products:productGroups.electricalConnectors.title",
+    descriptionKey: "products:productGroups.electricalConnectors.description",
     subcategoryKey: "connectors-terminals",
     image: "electrical-connector",
     featuredSpecs: ["current", "voltage", "type"],
@@ -505,9 +462,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "industrial-plugs",
     slug: "industrial-plugs",
-    title: "Industrial Plugs",
-    description:
-      "Heavy-duty industrial plugs and sockets for mobile and stationary electrical equipment. Weatherproof design with mechanical coding, safety interlocks, and high current carrying capacity for industrial applications.",
+    titleKey: "products:productGroups.industrialPlugs.title",
+    descriptionKey: "products:productGroups.industrialPlugs.description",
     subcategoryKey: "connectors-terminals",
     image: "industrial-plug",
     featuredSpecs: ["current", "voltage", "protection"],
@@ -515,9 +471,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "miniature-circuit-breakers",
     slug: "miniature-circuit-breakers",
-    title: "Miniature Circuit Breakers (MCBs)",
-    description:
-      "Compact circuit breakers for overload and short circuit protection in residential and light commercial applications. Available in various current ratings and tripping characteristics with reliable thermal-magnetic operation.",
+    titleKey: "products:productGroups.miniatureCircuitBreakers.title",
+    descriptionKey: "products:productGroups.miniatureCircuitBreakers.description",
     subcategoryKey: "circuit-breakers-fuses",
     image: "mcb",
     featuredSpecs: ["current", "voltage", "poles"],
@@ -525,9 +480,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "molded-case-breakers",
     slug: "molded-case-breakers",
-    title: "Molded Case Circuit Breakers (MCCBs)",
-    description:
-      "Heavy-duty molded case circuit breakers for industrial and commercial electrical distribution. High breaking capacity with adjustable protection settings and optional electronic trip units for enhanced protection.",
+    titleKey: "products:productGroups.moldedCaseBreakers.title",
+    descriptionKey: "products:productGroups.moldedCaseBreakers.description",
     subcategoryKey: "circuit-breakers-fuses",
     image: "mccb",
     featuredSpecs: ["current", "voltage", "breaking"],
@@ -535,9 +489,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "fuses-holders",
     slug: "fuses-holders",
-    title: "Fuses and Fuse Holders",
-    description:
-      "Electrical fuses and fuse holders for overcurrent protection in various applications. Available in cartridge, blade, and specialty types with different time-current characteristics and breaking capacities.",
+    titleKey: "products:productGroups.fusesHolders.title",
+    descriptionKey: "products:productGroups.fusesHolders.description",
     subcategoryKey: "circuit-breakers-fuses",
     image: "fuse",
     featuredSpecs: ["current", "voltage", "type"],
@@ -545,9 +498,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "rccb-circuit-breakers",
     slug: "rccb-circuit-breakers",
-    title: "Residual Current Circuit Breakers (RCCBs)",
-    description:
-      "Earth leakage circuit breakers providing protection against electrical shock and fire hazards caused by earth faults. Available in 2-pole and 4-pole configurations with various sensitivity ratings for enhanced electrical safety.",
+    titleKey: "products:productGroups.rccbCircuitBreakers.title",
+    descriptionKey: "products:productGroups.rccbCircuitBreakers.description",
     subcategoryKey: "circuit-breakers-fuses",
     image: "rccb",
     featuredSpecs: ["current", "sensitivity", "poles"],
@@ -555,9 +507,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "acb-circuit-breakers",
     slug: "acb-circuit-breakers",
-    title: "Air Circuit Breakers (ACBs)",
-    description:
-      "High-capacity air circuit breakers for medium and high voltage electrical distribution systems. Features advanced protection functions, remote operation capabilities, and excellent breaking capacity for industrial and utility applications.",
+    titleKey: "products:productGroups.acbCircuitBreakers.title",
+    descriptionKey: "products:productGroups.acbCircuitBreakers.description",
     subcategoryKey: "circuit-breakers-fuses",
     image: "acb",
     featuredSpecs: ["current", "voltage", "breaking"],
@@ -565,9 +516,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "vcb-circuit-breakers",
     slug: "vcb-circuit-breakers",
-    title: "Vacuum Circuit Breakers (VCBs)",
-    description:
-      "Advanced vacuum circuit breakers for medium voltage applications with superior arc quenching technology. Maintenance-free operation with excellent electrical endurance and reliability for power distribution networks.",
+    titleKey: "products:productGroups.vcbCircuitBreakers.title",
+    descriptionKey: "products:productGroups.vcbCircuitBreakers.description",
     subcategoryKey: "circuit-breakers-fuses",
     image: "vcb",
     featuredSpecs: ["current", "voltage", "operations"],
@@ -575,9 +525,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "ac-dc-converters",
     slug: "ac-dc-converters",
-    title: "AC-DC Converters",
-    description:
-      "Switching power supplies for converting AC mains voltage to regulated DC output. High efficiency designs with multiple output options, overvoltage protection, and wide input voltage ranges for industrial applications.",
+    titleKey: "products:productGroups.acDcConverters.title",
+    descriptionKey: "products:productGroups.acDcConverters.description",
     subcategoryKey: "power-supplies",
     image: "ac-dc-converter",
     featuredSpecs: ["input", "output", "power"],
@@ -585,9 +534,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "dc-dc-converters",
     slug: "dc-dc-converters",
-    title: "DC-DC Converters",
-    description:
-      "Isolated and non-isolated DC-DC converters for voltage conversion in electronic systems. Compact designs with high efficiency, low ripple, and various input/output voltage combinations for demanding applications.",
+    titleKey: "products:productGroups.dcDcConverters.title",
+    descriptionKey: "products:productGroups.dcDcConverters.description",
     subcategoryKey: "power-supplies",
     image: "dc-dc-converter",
     featuredSpecs: ["input", "output", "power"],
@@ -595,9 +543,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "ups-systems",
     slug: "ups-systems",
-    title: "UPS Systems",
-    description:
-      "Uninterruptible Power Supply systems for critical equipment protection. Online, line-interactive, and standby topologies with battery backup, power conditioning, and network management capabilities for business continuity.",
+    titleKey: "products:productGroups.upsSystems.title",
+    descriptionKey: "products:productGroups.upsSystems.description",
     subcategoryKey: "power-supplies",
     image: "ups",
     featuredSpecs: ["power", "backup", "efficiency"],
@@ -605,9 +552,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "electrical-cabinets",
     slug: "electrical-cabinets",
-    title: "Electrical Cabinets",
-    description:
-      "Robust electrical cabinets and enclosures for housing control equipment and electrical components. Available in various materials and IP ratings with modular designs for easy installation and maintenance.",
+    titleKey: "products:productGroups.electricalCabinets.title",
+    descriptionKey: "products:productGroups.electricalCabinets.description",
     subcategoryKey: "enclosures-cabinets",
     image: "electrical-cabinet",
     featuredSpecs: ["dimensions", "material", "protection"],
@@ -615,9 +561,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "junction-boxes",
     slug: "junction-boxes",
-    title: "Junction Boxes",
-    description:
-      "Weatherproof junction boxes for electrical connections and cable terminations. Multiple entry options with various materials and environmental protection ratings for indoor and outdoor installations.",
+    titleKey: "products:productGroups.junctionBoxes.title",
+    descriptionKey: "products:productGroups.junctionBoxes.description",
     subcategoryKey: "enclosures-cabinets",
     image: "junction-box",
     featuredSpecs: ["dimensions", "material", "protection"],
@@ -625,9 +570,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "din-rail-enclosures",
     slug: "din-rail-enclosures",
-    title: "DIN Rail Enclosures",
-    description:
-      "Modular DIN rail enclosures for housing automation components and control devices. Plastic and metal construction with snap-on design for easy assembly and professional panel integration.",
+    titleKey: "products:productGroups.dinRailEnclosures.title",
+    descriptionKey: "products:productGroups.dinRailEnclosures.description",
     subcategoryKey: "enclosures-cabinets",
     image: "din-rail-enclosure",
     featuredSpecs: ["modules", "dimensions", "material"],
@@ -635,9 +579,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "heating-coils",
     slug: "heating-coils",
-    title: "Heating Coils",
-    description:
-      "Industrial heating coils for process heating applications. Available in various configurations including finned, cartridge, and band heaters with precise temperature control and high thermal efficiency.",
+    titleKey: "products:productGroups.heatingCoils.title",
+    descriptionKey: "products:productGroups.heatingCoils.description",
     subcategoryKey: "heating-elements-appliances",
     image: "heating-coil",
     featuredSpecs: ["power", "voltage", "temperature"],
@@ -645,9 +588,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "heating-elements",
     slug: "heating-elements",
-    title: "Heating Elements",
-    description:
-      "Electric heating elements for industrial and commercial applications. Tubular, ceramic, and flexible designs with various watt densities and sheath materials for optimal heat transfer and durability.",
+    titleKey: "products:productGroups.heatingElements.title",
+    descriptionKey: "products:productGroups.heatingElements.description",
     subcategoryKey: "heating-elements-appliances",
     image: "heating-element",
     featuredSpecs: ["power", "voltage", "temperature"],
@@ -655,9 +597,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "industrial-heaters",
     slug: "industrial-heaters",
-    title: "Industrial Heaters",
-    description:
-      "Heavy-duty industrial heaters for process applications including immersion, circulation, and radiant heaters. Designed for harsh environments with explosion-proof options and advanced temperature control.",
+    titleKey: "products:productGroups.industrialHeaters.title",
+    descriptionKey: "products:productGroups.industrialHeaters.description",
     subcategoryKey: "heating-elements-appliances",
     image: "industrial-heater",
     featuredSpecs: ["power", "voltage", "application"],
@@ -667,9 +608,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "digital-multimeters",
     slug: "digital-multimeters",
-    title: "Digital Multimeters",
-    description:
-      "Precision digital multimeters for electrical measurements including voltage, current, resistance, and frequency. True RMS capability with data logging, computer connectivity, and advanced measurement functions.",
+    titleKey: "products:productGroups.digitalMultimeters.title",
+    descriptionKey: "products:productGroups.digitalMultimeters.description",
     subcategoryKey: "multimeters",
     image: "digital-multimeter",
     featuredSpecs: ["accuracy", "range", "features"],
@@ -677,9 +617,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "clamp-meters",
     slug: "clamp-meters",
-    title: "Clamp Meters",
-    description:
-      "Non-contact current measurement clamp meters for electrical troubleshooting and maintenance. AC/DC current measurement with voltage, resistance, and power measurement capabilities in portable handheld designs.",
+    titleKey: "products:productGroups.clampMeters.title",
+    descriptionKey: "products:productGroups.clampMeters.description",
     subcategoryKey: "multimeters",
     image: "clamp-meter",
     featuredSpecs: ["current", "voltage", "jaw"],
@@ -687,9 +626,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "bench-multimeters",
     slug: "bench-multimeters",
-    title: "Bench Multimeters",
-    description:
-      "High-precision bench multimeters for laboratory and calibration applications. Superior accuracy and resolution with computer interfaces, statistical functions, and automated measurement capabilities.",
+    titleKey: "products:productGroups.benchMultimeters.title",
+    descriptionKey: "products:productGroups.benchMultimeters.description",
     subcategoryKey: "multimeters",
     image: "bench-multimeter",
     featuredSpecs: ["accuracy", "resolution", "features"],
@@ -697,9 +635,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "earth-resistance-testers",
     slug: "earth-resistance-testers",
-    title: "Earth Resistance Testers",
-    description:
-      "Professional earth ground resistance testers for electrical safety verification and grounding system testing. Advanced models featuring stakeless testing, 3-point and 4-point fall-of-potential methods, soil resistivity measurement, and automatic frequency control to minimize interference. Essential for verifying electrical grounding integrity, lightning protection systems, and ensuring compliance with safety standards in industrial, commercial, and utility installations.",
+    titleKey: "products:productGroups.earthResistanceTesters.title",
+    descriptionKey: "products:productGroups.earthResistanceTesters.description",
     subcategoryKey: "multimeters",
     image: "multimeters",
     featuredSpecs: ["manufacturer", "model", "testMethod"],
@@ -707,9 +644,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "phase-sequence-checkers",
     slug: "phase-sequence-checkers",
-    title: "Phase Sequence Checkers",
-    description:
-      "Phase rotation indicators and phase sequence testers for three-phase electrical system verification. Essential tools for confirming correct phase rotation before motor startup, preventing equipment damage from reverse rotation. Available in contact and non-contact designs with LED indicators, voltage measurement capabilities, and safety-rated construction. Features include visual phase sequence indication, motor rotation verification, frequency measurement, and smartphone connectivity for documentation and reporting.",
+    titleKey: "products:productGroups.phaseSequenceCheckers.title",
+    descriptionKey: "products:productGroups.phaseSequenceCheckers.description",
     subcategoryKey: "multimeters",
     image: "multimeters",
     featuredSpecs: ["manufacturer", "model", "contactType"],
