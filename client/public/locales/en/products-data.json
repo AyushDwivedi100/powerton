@@ -1079,5 +1079,425 @@
       "Specialty materials: 316 SST, Hastelloy C, PPS",
       "ATEX, FM, CSA certified"
     ]
+  },
+  "danfossKp36": {
+    "title": "Danfoss KP36 Pressure Switch",
+    "description": "Industrial pressure switch with snap-action electrical contacts for reliable operation in steam, air, and liquid media applications.",
+    "features": [
+      "SPDT contact system for reliable switching",
+      "Manual trip function for testing",
+      "Operating temperature: -40°F to 175°F",
+      "Adjustable differential pressure settings",
+      "Suitable for gaseous and liquid media"
+    ]
+  },
+  "schneider9013fsg2j24m4": {
+    "title": "Schneider Electric 9013FSG2J24M4 Pumptrol Switch",
+    "description": "Square D Pumptrol pressure switch with low-pressure cut-off for pump applications up to 1.5 HP.",
+    "features": [
+      "40-60 PSI pressure setting",
+      "15-30 PSI adjustable differential",
+      "Low-pressure cut-off protection",
+      "NEMA 1/IP20 enclosure",
+      "UL Listed, CSA Certified"
+    ]
+  },
+  "wikaPsm760": {
+    "title": "WIKA PSM-760 Programmable Pressure Switch",
+    "description": "Programmable electronic pressure switch with 4-20mA output and digital display for precise pressure monitoring and control applications.",
+    "features": [
+      "Programmable switching points",
+      "4-20mA analog output signal",
+      "Digital LED display",
+      "0-600 bar pressure range",
+      "Stainless steel wetted parts",
+      "IP65 protection rating"
+    ]
+  },
+  "abb266dsh": {
+    "title": "ABB 266DSH Differential Pressure Switch",
+    "description": "Explosion-proof differential pressure switch with NEMA 7 enclosure for hazardous area applications requiring reliable pressure differential monitoring.",
+    "features": [
+      "Differential pressure measurement",
+      "Explosion-proof NEMA 7 enclosure",
+      "Hazardous area certified",
+      "Adjustable differential settings",
+      "Corrosion-resistant construction",
+      "High/low pressure alarm outputs"
+    ]
+  },
+  "ashcroftB424b": {
+    "title": "Ashcroft B424B Heavy Duty Pressure Switch",
+    "description": "Heavy-duty industrial pressure switch with SPDT contacts and rugged construction for reliable operation in demanding applications.",
+    "features": [
+      "Heavy-duty industrial design",
+      "SPDT contact configuration",
+      "0-1000 psi pressure range",
+      "Stainless steel bourdon tube",
+      "Corrosion-resistant housing",
+      "UL and CSA approved"
+    ]
+  },
+  "endressFtl31": {
+    "title": "Endress+Hauser FTL31 Liquiphant Level Switch",
+    "description": "Tuning fork point-level switch for liquid level detection with active sensor technology for overfill prevention and pump protection.",
+    "features": [
+      "Tuning fork technology with piezoelectric drive",
+      "Active sensor technology ensures device functionality",
+      "No adjustment needed for different media",
+      "G1 process connection thread",
+      "Over 6 million installed worldwide"
+    ]
+  },
+  "abbLsSeries": {
+    "title": "ABB LS Series Mechanical Level Switch",
+    "description": "Rugged mechanical float level switch with hermetically sealed switching mechanism for reliable liquid point-level detection.",
+    "features": [
+      "Most rugged design in industrial marketplace",
+      "One-step switch point adjustment",
+      "Hermetically sealed dual compartment switching",
+      "Available in flanged or insertion models",
+      "Over 100 configurations available"
+    ]
+  },
+  "vegaVegaswing61": {
+    "title": "VEGA VEGASWING 61 Vibrating Rod Level Switch",
+    "description": "Universal vibrating rod level switch for point level detection in liquids and bulk solids with compact design and G1 process connection.",
+    "features": [
+      "Vibrating rod technology",
+      "Universal for liquids and bulk solids",
+      "G1 process connection thread",
+      "Compact and maintenance-free",
+      "High temperature resistance",
+      "Easy commissioning"
+    ]
+  },
+  "siemens7ml12Pointflex": {
+    "title": "Siemens 7ML12 Point flex Capacitance Level Switch",
+    "description": "Capacitance point level switch with universal power supply and IP66/67 protection for reliable liquid level detection in industrial applications.",
+    "features": [
+      "Capacitance measurement technology",
+      "Universal power supply 100-240VAC",
+      "IP66/IP67 environmental protection",
+      "Two-wire connection simplicity",
+      "Adjustable sensitivity settings",
+      "Suitable for conductive/non-conductive media"
+    ]
+  },
+  "magnetrolEchotel961": {
+    "title": "Magnetrol Echotel 961/962 Ultrasonic Level Switch",
+    "description": "Non-contact ultrasonic level switch with 4-20mA output for liquid level detection without physical contact with the process media.",
+    "features": [
+      "Non-contact ultrasonic technology",
+      "4-20mA analog output signal",
+      "No moving parts design",
+      "Ideal for corrosive/viscous media",
+      "Digital display included",
+      "Easy installation and setup"
+    ]
+  },
+  "omronWlca12Y": {
+    "title": "Omron WLCA12-Y Heavy-Duty Limit Switch",
+    "description": "Heavy-duty roller lever limit switch with IP67 rating and die-cast metal housing for harsh industrial environments.",
+    "features": [
+      "Die-cast metal housing for durability",
+      "IP67 environmental protection rating",
+      "Adjustable roller lever actuator",
+      "Snap-action switching mechanism",
+      "Suitable for automation-heavy industries"
+    ]
+  },
+  "schneiderXcmd21f0l1": {
+    "title": "Schneider Electric XCMD21F0L1 OsiSense Limit Switch",
+    "description": "Standard format limit switch from the OsiSense XC range with flexible roller lever actuator for industrial automation.",
+    "features": [
+      "Standard format industrial design",
+      "Flexible roller lever actuator",
+      "Part of OsiSense XC Standard range",
+      "Comprehensive accessory ecosystem",
+      "Reliable snap-action operation"
+    ]
+  },
+  "schneiderXckpLimitSwitch": {
+    "title": "Schneider Electric XCKP Plastic Limit Switch",
+    "description": "Compact plastic limit switch with roller plunger actuator, 2NC+2NO contacts, and IP67 protection for industrial automation applications.",
+    "features": [
+      "Plastic roller plunger actuator",
+      "2NC + 2NO contact configuration",
+      "IP67 environmental protection",
+      "Compact design for space saving",
+      "Positive opening contacts",
+      "Wide operating temperature range"
+    ]
+  },
+  "abbLs30p": {
+    "title": "ABB LS30P Thermoplastic Limit Switch",
+    "description": "Thermoplastic housing limit switch with snap action mechanism and IP66 protection for reliable position sensing in industrial applications.",
+    "features": [
+      "Thermoplastic housing construction",
+      "Snap action switching mechanism",
+      "IP66 environmental protection",
+      "Multiple actuator options",
+      "Robust and reliable operation",
+      "Easy installation and wiring"
+    ]
+  },
+  "eatonE51LimitSwitch": {
+    "title": "Eaton E51 Heavy Duty Limit Switch",
+    "description": "Heavy-duty limit switch with side rotary actuator, 4-pole configuration, and IP67 protection for demanding industrial environments.",
+    "features": [
+      "Heavy-duty industrial construction",
+      "Side rotary actuator design",
+      "4-pole contact configuration",
+      "IP67 environmental sealing",
+      "Die-cast metal housing",
+      "UL and CSA certified"
+    ]
+  },
+  "schneiderXb4ba21": {
+    "title": "Schneider Electric XB4BA21 Harmony Push Button",
+    "description": "22mm metal push button with chromium-plated bezel from the Harmony XB4 series for industrial control panels.",
+    "features": [
+      "22mm metal construction",
+      "Chromium-plated bezel for durability",
+      "Automatic self-grounding design",
+      "Modular system with interchangeable components",
+      "FINGERSAFE™ contact blocks"
+    ]
+  },
+  "eatonM22DrR": {
+    "title": "Eaton M22-DR-R Emergency Stop Push Button",
+    "description": "22mm emergency stop push button with red mushroom head and twist-to-release mechanism for safety applications.",
+    "features": [
+      "22mm modular design",
+      "Red mushroom head for emergency stop",
+      "Twist-to-release mechanism",
+      "IP65/66/67 protection ratings",
+      "Suitable for light industrial applications"
+    ]
+  },
+  "schneiderXb5Harmony": {
+    "title": "Schneider Electric Harmony XB5 LED Push Button",
+    "description": "22mm illuminated push button with integrated LED, metal construction, and IP65 protection for control panel applications.",
+    "features": [
+      "22mm metal construction",
+      "Integrated LED illumination",
+      "IP65 environmental protection",
+      "Multiple color options available",
+      "Modular contact blocks",
+      "Easy snap-in mounting"
+    ]
+  },
+  "abbCp110g": {
+    "title": "ABB CP1-10G Green Flush Push Button",
+    "description": "Green flush push button with 1NO+1NC contacts and IP65 protection for start/run control applications in industrial panels.",
+    "features": [
+      "Green color for start indication",
+      "Flush mounting design",
+      "1NO + 1NC contact configuration",
+      "IP65 environmental protection",
+      "Compact and reliable",
+      "Easy installation"
+    ]
+  },
+  "siemens3su1Pushbutton": {
+    "title": "Siemens 3SU1 Illuminated Push Button",
+    "description": "Illuminated push button with metal bezel, 24V operation, and IP67 protection for industrial control and signaling applications.",
+    "features": [
+      "Illuminated with metal bezel",
+      "24V AC/DC operation",
+      "IP67 environmental protection",
+      "Multiple color options",
+      "Modular design system",
+      "High reliability and durability"
+    ]
+  },
+  "fisherEdControlValve": {
+    "title": "Fisher easy-e™ ED Globe Control Valve",
+    "description": "Balanced valve plug globe control valve with cage guiding and metal-to-metal seating for reliable process control.",
+    "features": [
+      "Balanced valve plug design",
+      "Cage guiding for precise control",
+      "Metal-to-metal seating",
+      "Digital valve positioner ready",
+      "HART communication compatible"
+    ]
+  },
+  "samson3241GlobeValve": {
+    "title": "SAMSON Type 3241 Globe Control Valve",
+    "description": "Industrial pneumatic globe valve for process engineering with modular design and exchangeable trims for different flow characteristics.",
+    "features": [
+      "Modular globe valve design",
+      "Exchangeable trims for flow characteristics",
+      "Class VI (IEC: IV-S2) sealing",
+      "SAM DIGITAL ready with predictive diagnostics",
+      "HART, Foundation Fieldbus communication"
+    ]
+  },
+  "fisher657SizeReducer": {
+    "title": "Fisher Type 657 Size Reducer Control Valve",
+    "description": "Spring-and-diaphragm actuated size reducer control valve for compact installations requiring excellent flow control in smaller pipe sizes.",
+    "features": [
+      "Size reducer design for compact installation",
+      "Spring-and-diaphragm actuation",
+      "1/2 to 2 inch size range",
+      "Direct mount pneumatic actuator",
+      "Excellent flow characteristics",
+      "Low maintenance design"
+    ]
+  },
+  "masoneilan41000Globe": {
+    "title": "Masoneilan 41000 Series Globe Control Valve",
+    "description": "Pneumatic globe control valve with balanced trim design for severe service applications requiring precision flow control and tight shutoff.",
+    "features": [
+      "Globe valve design for precise control",
+      "Pneumatic actuation system",
+      "Balanced trim construction",
+      "Severe service capability",
+      "Class VI shutoff rating",
+      "Wide rangeability"
+    ]
+  },
+  "samson3241PneumaticGlobeValve": {
+    "title": "SAMSON 3241 Pneumatic Globe Valve",
+    "description": "Pneumatic globe control valve with guided stem design for reliable process control in DN15-300 sizes with excellent flow characteristics.",
+    "features": [
+      "Pneumatic globe valve design",
+      "Guided stem for stability",
+      "DN15 to DN300 size range",
+      "Multiple trim options available",
+      "SAM DIGITAL positioner ready",
+      "Robust construction"
+    ]
+  },
+  "asco8262h112dc24": {
+    "title": "ASCO 8262H112DC24 General Service Solenoid Valve",
+    "description": "2-way normally closed solenoid valve in stainless steel construction for air, water, light oil, and fuel gas applications.",
+    "features": [
+      "2-way normally closed operation",
+      "Stainless steel construction",
+      "Suitable for multiple media types",
+      "Direct acting or pilot operated",
+      "UL Listed and CSA Certified"
+    ]
+  },
+  "parkerS4aSolenoidValve": {
+    "title": "Parker S4A Series Refrigeration Solenoid Valve",
+    "description": "Solenoid valve designed for refrigeration and fluid control systems, compatible with multiple refrigerants and built for wide pressure ranges.",
+    "features": [
+      "Compatible with R410A, R448A, R449A, R450A, R507A",
+      "Wide pressure range capability",
+      "Compact and lightweight design",
+      "Excellent flow control characteristics",
+      "Built for commercial refrigeration systems"
+    ]
+  },
+  "asco8210g094": {
+    "title": "ASCO 8210G094 2-Way NC Solenoid Valve",
+    "description": "2-way normally closed brass solenoid valve with 1/2 NPT connection and 120VAC coil for general service applications.",
+    "features": [
+      "2-way normally closed operation",
+      "Brass body construction",
+      "120V AC coil voltage",
+      "1/2 inch NPT connection",
+      "General service applications",
+      "UL and CSA certified"
+    ]
+  },
+  "burkert6013": {
+    "title": "Bürkert Type 6013 Direct-Acting Solenoid Valve",
+    "description": "Direct-acting 2/2-way solenoid valve with FKM seal and 24VDC coil for precise fluid control in process applications.",
+    "features": [
+      "Direct-acting principle",
+      "2/2-way configuration",
+      "FKM seal material",
+      "24V DC operation",
+      "Compact design",
+      "Low power consumption"
+    ]
+  },
+  "parker71215sn2vn00": {
+    "title": "Parker 71215SN2VN00 Normally Open Solenoid Valve",
+    "description": "Normally open stainless steel solenoid valve with 1/4 inch connection and 12VDC coil for specialized control applications.",
+    "features": [
+      "Normally open configuration",
+      "Stainless steel construction",
+      "12V DC operation",
+      "1/4 inch port size",
+      "Corrosion resistant",
+      "Compact footprint"
+    ]
+  },
+  "fisherV150VeeBallValve": {
+    "title": "Fisher V150 Vee-Ball On/Off Valve",
+    "description": "Fisher V150 Vee-Ball valve with V-notch ball for reliable on-off or throttling service. Features splined valve shaft for rotary actuators, raised-face flanged construction, and materials compliant with NACE MR0175-2 for sour service.",
+    "features": [
+      "V-notch ball design for on-off/throttling",
+      "NPS 1 through 12 size range",
+      "Raised-face flanged construction",
+      "Splined shaft for rotary actuators",
+      "NACE MR0175-2 sour service compliant",
+      "ASME Class 150/300 ratings"
+    ]
+  },
+  "fisherV280BallValve": {
+    "title": "Fisher V280 Full-Bore Ball Control Valve",
+    "description": "Heavy-duty Fisher V280 three-piece trunnion mounted full-bore ball valve for on-off service. Handles full CL900 pressure drops with optional drilled attenuator for noise/vibration control. Fire-safe design with NACE compliant materials.",
+    "features": [
+      "Full-bore trunnion mounted design",
+      "Capable of CL900 pressure drops",
+      "Optional noise attenuator for liquids/gases",
+      "Fire-safe certified construction",
+      "NACE MR0175/ISO 15156 compliant",
+      "Three-piece body design"
+    ]
+  },
+  "flowserveWorcesterF519BallValve": {
+    "title": "Flowserve Worcester F519 ASA150 Ball Valve",
+    "description": "Worcester F519 ASA150 flanged ball valve with floating ball design. Third party approved to BS 5351 with fire testing to BS EN 10497. Features ISO 5211 actuator mounting, anti-blowout stem, and anti-static design.",
+    "features": [
+      "ASA150 flanged ball valve design",
+      "Sizes 1/2 inch through 8 inch",
+      "BS 5351 and API 6D approved",
+      "Fire-safe BS EN 10497 tested",
+      "ISO 5211 actuator mounting platform",
+      "Anti-blowout stem for safety"
+    ]
+  },
+  "flowserveWorcesterSeries44BallValve": {
+    "title": "Flowserve Worcester Series 44 Three-Piece Ball Valve",
+    "description": "Industry-leading Worcester Series 44 three-piece ball valve designed to ANSI B16.34 specifications. Features advanced seat technology for bubble-tight shutoff, can be configured for on-off or throttling control applications.",
+    "features": [
+      "Three-piece ball valve design",
+      "ANSI B16.34 specifications",
+      "Bubble-tight shutoff capability",
+      "Advanced seal technology",
+      "On-off or throttling operation",
+      "Sizes 1/4 inch to 6 inch"
+    ]
+  },
+  "swagelokSs43gs4BallValve": {
+    "title": "Swagelok SS-43GS4 40G Series Ball Valve",
+    "description": "Swagelok SS-43GS4 stainless steel one-piece instrumentation ball valve for on-off quarter-turn service. Features 3,000 PSI rating, enhanced thermal cycling capability, -65°F to 300°F range, and inline packing adjustments.",
+    "features": [
+      "One-piece stainless steel construction",
+      "3,000 PSI working pressure",
+      "Temperature range -65°F to 300°F",
+      "Enhanced thermal cycling capability",
+      "Quarter-turn on-off operation",
+      "Inline packing adjustment capability"
+    ]
+  },
+  "burkert2655BallValve": {
+    "title": "Burkert Type 2655 Pneumatic Ball Valve",
+    "description": "Burkert Type 2655 three-piece ball valve with Type 2050 pneumatic rotary actuator for on-off operation. Features ISO 5211 standard interface, linear piston with quick-acting coupling, and 2/2-way operation for shutoff and flow distribution.",
+    "features": [
+      "3-piece stainless steel ball valve",
+      "Type 2050 pneumatic rotary actuator",
+      "ISO 5211 flange connection",
+      "90° quarter-turn on-off operation",
+      "Single or double-acting pneumatic",
+      "Quick-acting screw thread coupling"
+    ]
   }
 }

@@ -1345,16 +1345,11 @@ export const products: Product[] = [
     subcategoryKey: "switches-indicators",
     typeKey: "pressure-switches",
     image: "pressure-switch",
-    title: "Danfoss KP36 Pressure Switch",
-    description:
-      "Industrial pressure switch with snap-action electrical contacts for reliable operation in steam, air, and liquid media applications.",
-    features: [
-      "SPDT contact system for reliable switching",
-      "Manual trip function for testing",
-      "Operating temperature: -40°F to 175°F",
-      "Adjustable differential pressure settings",
-      "Suitable for gaseous and liquid media",
-    ],
+    translationKeys: {
+      title: "products-data:danfossKp36.title",
+      description: "products-data:danfossKp36.description",
+      featuresKey: "products-data:danfossKp36.features",
+    },
     specs: {
       manufacturer: "Danfoss",
       model: "KP36",
@@ -1373,16 +1368,11 @@ export const products: Product[] = [
     subcategoryKey: "switches-indicators",
     typeKey: "pressure-switches",
     image: "pressure-switch",
-    title: "Schneider Electric 9013FSG2J24M4 Pumptrol Switch",
-    description:
-      "Square D Pumptrol pressure switch with low-pressure cut-off for pump applications up to 1.5 HP.",
-    features: [
-      "40-60 PSI pressure setting",
-      "15-30 PSI adjustable differential",
-      "Low-pressure cut-off protection",
-      "NEMA 1/IP20 enclosure",
-      "UL Listed, CSA Certified",
-    ],
+    translationKeys: {
+      title: "products-data:schneider9013fsg2j24m4.title",
+      description: "products-data:schneider9013fsg2j24m4.description",
+      featuresKey: "products-data:schneider9013fsg2j24m4.features",
+    },
     specs: {
       manufacturer: "Schneider Electric",
       model: "9013FSG2J24M4",
@@ -1400,17 +1390,11 @@ export const products: Product[] = [
     subcategoryKey: "switches-indicators",
     typeKey: "pressure-switches",
     image: "pressure-switch",
-    title: "WIKA PSM-760 Programmable Pressure Switch",
-    description:
-      "Programmable electronic pressure switch with 4-20mA output and digital display for precise pressure monitoring and control applications.",
-    features: [
-      "Programmable switching points",
-      "4-20mA analog output signal",
-      "Digital LED display",
-      "0-600 bar pressure range",
-      "Stainless steel wetted parts",
-      "IP65 protection rating",
-    ],
+    translationKeys: {
+      title: "products-data:wikaPsm760.title",
+      description: "products-data:wikaPsm760.description",
+      featuresKey: "products-data:wikaPsm760.features",
+    },
     specs: {
       manufacturer: "WIKA",
       model: "PSM-760",
@@ -1429,17 +1413,11 @@ export const products: Product[] = [
     subcategoryKey: "switches-indicators",
     typeKey: "pressure-switches",
     image: "pressure-switch",
-    title: "ABB 266DSH Differential Pressure Switch",
-    description:
-      "Explosion-proof differential pressure switch with NEMA 7 enclosure for hazardous area applications requiring reliable pressure differential monitoring.",
-    features: [
-      "Differential pressure measurement",
-      "Explosion-proof NEMA 7 enclosure",
-      "Hazardous area certified",
-      "Adjustable differential settings",
-      "Corrosion-resistant construction",
-      "High/low pressure alarm outputs",
-    ],
+    translationKeys: {
+      title: "products-data:abb266dsh.title",
+      description: "products-data:abb266dsh.description",
+      featuresKey: "products-data:abb266dsh.features",
+    },
     specs: {
       manufacturer: "ABB",
       model: "266DSH",
@@ -1458,17 +1436,11 @@ export const products: Product[] = [
     subcategoryKey: "switches-indicators",
     typeKey: "pressure-switches",
     image: "pressure-switch",
-    title: "Ashcroft B424B Heavy Duty Pressure Switch",
-    description:
-      "Heavy-duty industrial pressure switch with SPDT contacts and rugged construction for reliable operation in demanding applications.",
-    features: [
-      "Heavy-duty industrial design",
-      "SPDT contact configuration",
-      "0-1000 psi pressure range",
-      "Stainless steel bourdon tube",
-      "Corrosion-resistant housing",
-      "UL and CSA approved",
-    ],
+    translationKeys: {
+      title: "products-data:ashcroftB424b.title",
+      description: "products-data:ashcroftB424b.description",
+      featuresKey: "products-data:ashcroftB424b.features",
+    },
     specs: {
       manufacturer: "Ashcroft",
       model: "B424B",
@@ -1489,16 +1461,11 @@ export const products: Product[] = [
     subcategoryKey: "switches-indicators",
     typeKey: "level-switches",
     image: "level-switch",
-    title: "Endress+Hauser FTL31 Liquiphant Level Switch",
-    description:
-      "Tuning fork point-level switch for liquid level detection with active sensor technology for overfill prevention and pump protection.",
-    features: [
-      "Tuning fork technology with piezoelectric drive",
-      "Active sensor technology ensures device functionality",
-      "No adjustment needed for different media",
-      "G1 process connection thread",
-      "Over 6 million installed worldwide",
-    ],
+    translationKeys: {
+      title: "products-data:endressFtl31.title",
+      description: "products-data:endressFtl31.description",
+      featuresKey: "products-data:endressFtl31.features",
+    },
     specs: {
       manufacturer: "Endress+Hauser",
       model: "FTL31",
@@ -1516,16 +1483,11 @@ export const products: Product[] = [
     subcategoryKey: "switches-indicators",
     typeKey: "level-switches",
     image: "level-switch",
-    title: "ABB LS Series Mechanical Level Switch",
-    description:
-      "Rugged mechanical float level switch with hermetically sealed switching mechanism for reliable liquid point-level detection.",
-    features: [
-      "Most rugged design in industrial marketplace",
-      "One-step switch point adjustment",
-      "Hermetically sealed dual compartment switching",
-      "Available in flanged or insertion models",
-      "Over 100 configurations available",
-    ],
+    translationKeys: {
+      title: "products-data:abbLsSeries.title",
+      description: "products-data:abbLsSeries.description",
+      featuresKey: "products-data:abbLsSeries.features",
+    },
     specs: {
       manufacturer: "ABB",
       model: "LS Series",
@@ -1543,17 +1505,11 @@ export const products: Product[] = [
     subcategoryKey: "switches-indicators",
     typeKey: "level-switches",
     image: "level-switch",
-    title: "VEGA VEGASWING 61 Vibrating Rod Level Switch",
-    description:
-      "Universal vibrating rod level switch for point level detection in liquids and bulk solids with compact design and G1 process connection.",
-    features: [
-      "Vibrating rod technology",
-      "Universal for liquids and bulk solids",
-      "G1 process connection thread",
-      "Compact and maintenance-free",
-      "High temperature resistance",
-      "Easy commissioning",
-    ],
+    translationKeys: {
+      title: "products-data:vegaVegaswing61.title",
+      description: "products-data:vegaVegaswing61.description",
+      featuresKey: "products-data:vegaVegaswing61.features",
+    },
     specs: {
       manufacturer: "VEGA",
       model: "VEGASWING 61",
@@ -1572,17 +1528,11 @@ export const products: Product[] = [
     subcategoryKey: "switches-indicators",
     typeKey: "level-switches",
     image: "level-switch",
-    title: "Siemens 7ML12 Point flex Capacitance Level Switch",
-    description:
-      "Capacitance point level switch with universal power supply and IP66/67 protection for reliable liquid level detection in industrial applications.",
-    features: [
-      "Capacitance measurement technology",
-      "Universal power supply 100-240VAC",
-      "IP66/IP67 environmental protection",
-      "Two-wire connection simplicity",
-      "Adjustable sensitivity settings",
-      "Suitable for conductive/non-conductive media",
-    ],
+    translationKeys: {
+      title: "products-data:siemens7ml12Pointflex.title",
+      description: "products-data:siemens7ml12Pointflex.description",
+      featuresKey: "products-data:siemens7ml12Pointflex.features",
+    },
     specs: {
       manufacturer: "Siemens",
       model: "7ML12 Point flex",
@@ -1601,17 +1551,11 @@ export const products: Product[] = [
     subcategoryKey: "switches-indicators",
     typeKey: "level-switches",
     image: "level-switch",
-    title: "Magnetrol Echotel 961/962 Ultrasonic Level Switch",
-    description:
-      "Non-contact ultrasonic level switch with 4-20mA output for liquid level detection without physical contact with the process media.",
-    features: [
-      "Non-contact ultrasonic technology",
-      "4-20mA analog output signal",
-      "No moving parts design",
-      "Ideal for corrosive/viscous media",
-      "Digital display included",
-      "Easy installation and setup",
-    ],
+    translationKeys: {
+      title: "products-data:magnetrolEchotel961.title",
+      description: "products-data:magnetrolEchotel961.description",
+      featuresKey: "products-data:magnetrolEchotel961.features",
+    },
     specs: {
       manufacturer: "Magnetrol",
       model: "Echotel 961/962",
@@ -1632,16 +1576,11 @@ export const products: Product[] = [
     subcategoryKey: "switches-indicators",
     typeKey: "limit-switches",
     image: "limit-switch",
-    title: "Omron WLCA12-Y Heavy-Duty Limit Switch",
-    description:
-      "Heavy-duty roller lever limit switch with IP67 rating and die-cast metal housing for harsh industrial environments.",
-    features: [
-      "Die-cast metal housing for durability",
-      "IP67 environmental protection rating",
-      "Adjustable roller lever actuator",
-      "Snap-action switching mechanism",
-      "Suitable for automation-heavy industries",
-    ],
+    translationKeys: {
+      title: "products-data:omronWlca12Y.title",
+      description: "products-data:omronWlca12Y.description",
+      featuresKey: "products-data:omronWlca12Y.features",
+    },
     specs: {
       manufacturer: "Omron",
       model: "WLCA12-Y",
@@ -1659,16 +1598,11 @@ export const products: Product[] = [
     subcategoryKey: "switches-indicators",
     typeKey: "limit-switches",
     image: "limit-switch",
-    title: "Schneider Electric XCMD21F0L1 OsiSense Limit Switch",
-    description:
-      "Standard format limit switch from the OsiSense XC range with flexible roller lever actuator for industrial automation.",
-    features: [
-      "Standard format industrial design",
-      "Flexible roller lever actuator",
-      "Part of OsiSense XC Standard range",
-      "Comprehensive accessory ecosystem",
-      "Reliable snap-action operation",
-    ],
+    translationKeys: {
+      title: "products-data:schneiderXcmd21f0l1.title",
+      description: "products-data:schneiderXcmd21f0l1.description",
+      featuresKey: "products-data:schneiderXcmd21f0l1.features",
+    },
     specs: {
       manufacturer: "Schneider Electric",
       model: "XCMD21F0L1",
@@ -1686,17 +1620,11 @@ export const products: Product[] = [
     subcategoryKey: "switches-indicators",
     typeKey: "limit-switches",
     image: "limit-switch",
-    title: "Schneider Electric XCKP Plastic Limit Switch",
-    description:
-      "Compact plastic limit switch with roller plunger actuator, 2NC+2NO contacts, and IP67 protection for industrial automation applications.",
-    features: [
-      "Plastic roller plunger actuator",
-      "2NC + 2NO contact configuration",
-      "IP67 environmental protection",
-      "Compact design for space saving",
-      "Positive opening contacts",
-      "Wide operating temperature range",
-    ],
+    translationKeys: {
+      title: "products-data:schneiderXckpLimitSwitch.title",
+      description: "products-data:schneiderXckpLimitSwitch.description",
+      featuresKey: "products-data:schneiderXckpLimitSwitch.features",
+    },
     specs: {
       manufacturer: "Schneider Electric",
       model: "XCKP Series",
@@ -1715,17 +1643,11 @@ export const products: Product[] = [
     subcategoryKey: "switches-indicators",
     typeKey: "limit-switches",
     image: "limit-switch",
-    title: "ABB LS30P Thermoplastic Limit Switch",
-    description:
-      "Thermoplastic housing limit switch with snap action mechanism and IP66 protection for reliable position sensing in industrial applications.",
-    features: [
-      "Thermoplastic housing construction",
-      "Snap action switching mechanism",
-      "IP66 environmental protection",
-      "Multiple actuator options",
-      "Robust and reliable operation",
-      "Easy installation and wiring",
-    ],
+    translationKeys: {
+      title: "products-data:abbLs30p.title",
+      description: "products-data:abbLs30p.description",
+      featuresKey: "products-data:abbLs30p.features",
+    },
     specs: {
       manufacturer: "ABB",
       model: "LS30P",
@@ -1744,17 +1666,11 @@ export const products: Product[] = [
     subcategoryKey: "switches-indicators",
     typeKey: "limit-switches",
     image: "limit-switch",
-    title: "Eaton E51 Heavy Duty Limit Switch",
-    description:
-      "Heavy-duty limit switch with side rotary actuator, 4-pole configuration, and IP67 protection for demanding industrial environments.",
-    features: [
-      "Heavy-duty industrial construction",
-      "Side rotary actuator design",
-      "4-pole contact configuration",
-      "IP67 environmental sealing",
-      "Die-cast metal housing",
-      "UL and CSA certified",
-    ],
+    translationKeys: {
+      title: "products-data:eatonE51LimitSwitch.title",
+      description: "products-data:eatonE51LimitSwitch.description",
+      featuresKey: "products-data:eatonE51LimitSwitch.features",
+    },
     specs: {
       manufacturer: "Eaton",
       model: "E51 Series",
@@ -1775,16 +1691,11 @@ export const products: Product[] = [
     subcategoryKey: "switches-indicators",
     typeKey: "push-buttons",
     image: "push-button",
-    title: "Schneider Electric XB4BA21 Harmony Push Button",
-    description:
-      "22mm metal push button with chromium-plated bezel from the Harmony XB4 series for industrial control panels.",
-    features: [
-      "22mm metal construction",
-      "Chromium-plated bezel for durability",
-      "Automatic self-grounding design",
-      "Modular system with interchangeable components",
-      "FINGERSAFE™ contact blocks",
-    ],
+    translationKeys: {
+      title: "products-data:schneiderXb4ba21.title",
+      description: "products-data:schneiderXb4ba21.description",
+      featuresKey: "products-data:schneiderXb4ba21.features",
+    },
     specs: {
       manufacturer: "Schneider Electric",
       model: "XB4BA21",
@@ -1802,16 +1713,11 @@ export const products: Product[] = [
     subcategoryKey: "switches-indicators",
     typeKey: "push-buttons",
     image: "push-button",
-    title: "Eaton M22-DR-R Emergency Stop Push Button",
-    description:
-      "22mm emergency stop push button with red mushroom head and twist-to-release mechanism for safety applications.",
-    features: [
-      "22mm modular design",
-      "Red mushroom head for emergency stop",
-      "Twist-to-release mechanism",
-      "IP65/66/67 protection ratings",
-      "Suitable for light industrial applications",
-    ],
+    translationKeys: {
+      title: "products-data:eatonM22DrR.title",
+      description: "products-data:eatonM22DrR.description",
+      featuresKey: "products-data:eatonM22DrR.features",
+    },
     specs: {
       manufacturer: "Eaton",
       model: "M22-DR-R",
@@ -1829,17 +1735,11 @@ export const products: Product[] = [
     subcategoryKey: "switches-indicators",
     typeKey: "push-buttons",
     image: "push-button",
-    title: "Schneider Electric Harmony XB5 LED Push Button",
-    description:
-      "22mm illuminated push button with integrated LED, metal construction, and IP65 protection for control panel applications.",
-    features: [
-      "22mm metal construction",
-      "Integrated LED illumination",
-      "IP65 environmental protection",
-      "Multiple color options available",
-      "Modular contact blocks",
-      "Easy snap-in mounting",
-    ],
+    translationKeys: {
+      title: "products-data:schneiderXb5Harmony.title",
+      description: "products-data:schneiderXb5Harmony.description",
+      featuresKey: "products-data:schneiderXb5Harmony.features",
+    },
     specs: {
       manufacturer: "Schneider Electric",
       model: "Harmony XB5",
@@ -1858,17 +1758,11 @@ export const products: Product[] = [
     subcategoryKey: "switches-indicators",
     typeKey: "push-buttons",
     image: "push-button",
-    title: "ABB CP1-10G Green Flush Push Button",
-    description:
-      "Green flush push button with 1NO+1NC contacts and IP65 protection for start/run control applications in industrial panels.",
-    features: [
-      "Green color for start indication",
-      "Flush mounting design",
-      "1NO + 1NC contact configuration",
-      "IP65 environmental protection",
-      "Compact and reliable",
-      "Easy installation",
-    ],
+    translationKeys: {
+      title: "products-data:abbCp110g.title",
+      description: "products-data:abbCp110g.description",
+      featuresKey: "products-data:abbCp110g.features",
+    },
     specs: {
       manufacturer: "ABB",
       model: "CP1-10G",
@@ -1887,17 +1781,11 @@ export const products: Product[] = [
     subcategoryKey: "switches-indicators",
     typeKey: "push-buttons",
     image: "push-button",
-    title: "Siemens 3SU1 Illuminated Push Button",
-    description:
-      "Illuminated push button with metal bezel, 24V operation, and IP67 protection for industrial control and signaling applications.",
-    features: [
-      "Illuminated with metal bezel",
-      "24V AC/DC operation",
-      "IP67 environmental protection",
-      "Multiple color options",
-      "Modular design system",
-      "High reliability and durability",
-    ],
+    translationKeys: {
+      title: "products-data:siemens3su1Pushbutton.title",
+      description: "products-data:siemens3su1Pushbutton.description",
+      featuresKey: "products-data:siemens3su1Pushbutton.features",
+    },
     specs: {
       manufacturer: "Siemens",
       model: "3SU1 Series",
@@ -1918,16 +1806,11 @@ export const products: Product[] = [
     subcategoryKey: "valves-actuators",
     typeKey: "control-valves",
     image: "control-valve",
-    title: "Fisher easy-e™ ED Globe Control Valve",
-    description:
-      "Balanced valve plug globe control valve with cage guiding and metal-to-metal seating for reliable process control.",
-    features: [
-      "Balanced valve plug design",
-      "Cage guiding for precise control",
-      "Metal-to-metal seating",
-      "Digital valve positioner ready",
-      "HART communication compatible",
-    ],
+    translationKeys: {
+      title: "products-data:fisherEdControlValve.title",
+      description: "products-data:fisherEdControlValve.description",
+      featuresKey: "products-data:fisherEdControlValve.features",
+    },
     specs: {
       manufacturer: "Fisher (Emerson)",
       model: "easy-e™ ED",
@@ -1945,16 +1828,11 @@ export const products: Product[] = [
     subcategoryKey: "valves-actuators",
     typeKey: "control-valves",
     image: "control-valve",
-    title: "SAMSON Type 3241 Globe Control Valve",
-    description:
-      "Industrial pneumatic globe valve for process engineering with modular design and exchangeable trims for different flow characteristics.",
-    features: [
-      "Modular globe valve design",
-      "Exchangeable trims for flow characteristics",
-      "Class VI (IEC: IV-S2) sealing",
-      "SAM DIGITAL ready with predictive diagnostics",
-      "HART, Foundation Fieldbus communication",
-    ],
+    translationKeys: {
+      title: "products-data:samson3241GlobeValve.title",
+      description: "products-data:samson3241GlobeValve.description",
+      featuresKey: "products-data:samson3241GlobeValve.features",
+    },
     specs: {
       manufacturer: "SAMSON",
       model: "Type 3241",
@@ -1972,17 +1850,11 @@ export const products: Product[] = [
     subcategoryKey: "valves-actuators",
     typeKey: "control-valves",
     image: "control-valve",
-    title: "Fisher Type 657 Size Reducer Control Valve",
-    description:
-      "Spring-and-diaphragm actuated size reducer control valve for compact installations requiring excellent flow control in smaller pipe sizes.",
-    features: [
-      "Size reducer design for compact installation",
-      "Spring-and-diaphragm actuation",
-      "1/2 to 2 inch size range",
-      "Direct mount pneumatic actuator",
-      "Excellent flow characteristics",
-      "Low maintenance design",
-    ],
+    translationKeys: {
+      title: "products-data:fisher657SizeReducer.title",
+      description: "products-data:fisher657SizeReducer.description",
+      featuresKey: "products-data:fisher657SizeReducer.features",
+    },
     specs: {
       manufacturer: "Fisher (Emerson)",
       model: "Type 657",
@@ -2001,17 +1873,11 @@ export const products: Product[] = [
     subcategoryKey: "valves-actuators",
     typeKey: "control-valves",
     image: "control-valve",
-    title: "Masoneilan 41000 Series Globe Control Valve",
-    description:
-      "Pneumatic globe control valve with balanced trim design for severe service applications requiring precision flow control and tight shutoff.",
-    features: [
-      "Globe valve design for precise control",
-      "Pneumatic actuation system",
-      "Balanced trim construction",
-      "Severe service capability",
-      "Class VI shutoff rating",
-      "Wide rangeability",
-    ],
+    translationKeys: {
+      title: "products-data:masoneilan41000Globe.title",
+      description: "products-data:masoneilan41000Globe.description",
+      featuresKey: "products-data:masoneilan41000Globe.features",
+    },
     specs: {
       manufacturer: "Masoneilan (Baker Hughes)",
       model: "41000 Series",
@@ -2030,17 +1896,11 @@ export const products: Product[] = [
     subcategoryKey: "valves-actuators",
     typeKey: "control-valves",
     image: "control-valve",
-    title: "SAMSON 3241 Pneumatic Globe Valve",
-    description:
-      "Pneumatic globe control valve with guided stem design for reliable process control in DN15-300 sizes with excellent flow characteristics.",
-    features: [
-      "Pneumatic globe valve design",
-      "Guided stem for stability",
-      "DN15 to DN300 size range",
-      "Multiple trim options available",
-      "SAM DIGITAL positioner ready",
-      "Robust construction",
-    ],
+    translationKeys: {
+      title: "products-data:samson3241PneumaticGlobeValve.title",
+      description: "products-data:samson3241PneumaticGlobeValve.description",
+      featuresKey: "products-data:samson3241PneumaticGlobeValve.features",
+    },
     specs: {
       manufacturer: "SAMSON",
       model: "Type 3241",
@@ -2061,16 +1921,11 @@ export const products: Product[] = [
     subcategoryKey: "valves-actuators",
     typeKey: "solenoid-valves",
     image: "solenoid-valve",
-    title: "ASCO 8262H112DC24 General Service Solenoid Valve",
-    description:
-      "2-way normally closed solenoid valve in stainless steel construction for air, water, light oil, and fuel gas applications.",
-    features: [
-      "2-way normally closed operation",
-      "Stainless steel construction",
-      "Suitable for multiple media types",
-      "Direct acting or pilot operated",
-      "UL Listed and CSA Certified",
-    ],
+    translationKeys: {
+      title: "products-data:asco8262h112dc24.title",
+      description: "products-data:asco8262h112dc24.description",
+      featuresKey: "products-data:asco8262h112dc24.features",
+    },
     specs: {
       manufacturer: "ASCO (Emerson)",
       model: "8262H112DC24",
@@ -2089,16 +1944,11 @@ export const products: Product[] = [
     subcategoryKey: "valves-actuators",
     typeKey: "solenoid-valves",
     image: "solenoid-valve",
-    title: "Parker S4A Series Refrigeration Solenoid Valve",
-    description:
-      "Solenoid valve designed for refrigeration and fluid control systems, compatible with multiple refrigerants and built for wide pressure ranges.",
-    features: [
-      "Compatible with R410A, R448A, R449A, R450A, R507A",
-      "Wide pressure range capability",
-      "Compact and lightweight design",
-      "Excellent flow control characteristics",
-      "Built for commercial refrigeration systems",
-    ],
+    translationKeys: {
+      title: "products-data:parkerS4aSolenoidValve.title",
+      description: "products-data:parkerS4aSolenoidValve.description",
+      featuresKey: "products-data:parkerS4aSolenoidValve.features",
+    },
     specs: {
       manufacturer: "Parker Hannifin",
       model: "S4A Series",
@@ -2116,17 +1966,11 @@ export const products: Product[] = [
     subcategoryKey: "valves-actuators",
     typeKey: "solenoid-valves",
     image: "solenoid-valve",
-    title: "ASCO 8210G094 2-Way NC Solenoid Valve",
-    description:
-      "2-way normally closed brass solenoid valve with 1/2 NPT connection and 120VAC coil for general service applications.",
-    features: [
-      "2-way normally closed operation",
-      "Brass body construction",
-      "120V AC coil voltage",
-      "1/2 inch NPT connection",
-      "General service applications",
-      "UL and CSA certified",
-    ],
+    translationKeys: {
+      title: "products-data:asco8210g094.title",
+      description: "products-data:asco8210g094.description",
+      featuresKey: "products-data:asco8210g094.features",
+    },
     specs: {
       manufacturer: "ASCO (Emerson)",
       model: "8210G094",
@@ -2145,17 +1989,11 @@ export const products: Product[] = [
     subcategoryKey: "valves-actuators",
     typeKey: "solenoid-valves",
     image: "solenoid-valve",
-    title: "Bürkert Type 6013 Direct-Acting Solenoid Valve",
-    description:
-      "Direct-acting 2/2-way solenoid valve with FKM seal and 24VDC coil for precise fluid control in process applications.",
-    features: [
-      "Direct-acting principle",
-      "2/2-way configuration",
-      "FKM seal material",
-      "24V DC operation",
-      "Compact design",
-      "Low power consumption",
-    ],
+    translationKeys: {
+      title: "products-data:burkert6013.title",
+      description: "products-data:burkert6013.description",
+      featuresKey: "products-data:burkert6013.features",
+    },
     specs: {
       manufacturer: "Bürkert",
       model: "Type 6013",
@@ -2174,17 +2012,11 @@ export const products: Product[] = [
     subcategoryKey: "valves-actuators",
     typeKey: "solenoid-valves",
     image: "solenoid-valve",
-    title: "Parker 71215SN2VN00 Normally Open Solenoid Valve",
-    description:
-      "Normally open stainless steel solenoid valve with 1/4 inch connection and 12VDC coil for specialized control applications.",
-    features: [
-      "Normally open configuration",
-      "Stainless steel construction",
-      "12V DC operation",
-      "1/4 inch port size",
-      "Corrosion resistant",
-      "Compact footprint",
-    ],
+    translationKeys: {
+      title: "products-data:parker71215sn2vn00.title",
+      description: "products-data:parker71215sn2vn00.description",
+      featuresKey: "products-data:parker71215sn2vn00.features",
+    },
     specs: {
       manufacturer: "Parker Hannifin",
       model: "71215SN2VN00",
@@ -2206,6 +2038,11 @@ export const products: Product[] = [
     typeKey: "on-off-valves",
     image: "on-off-valve",
     datasheetUrl: "https://www.emerson.com/documents/automation/fisher-vee-ball-v150-v200-v300-rotary-control-valves-en-11739128.pdf",
+    translationKeys: {
+      title: "products-data:fisherV150VeeBallValve.title",
+      description: "products-data:fisherV150VeeBallValve.description",
+      featuresKey: "products-data:fisherV150VeeBallValve.features",
+    },
     specs: {
       manufacturer: "Emerson Fisher",
       model: "V150 Vee-Ball",
@@ -2214,16 +2051,6 @@ export const products: Product[] = [
       type: "V-notch ball valve",
       operation: "On-off or throttling",
     },
-    title: "Fisher V150 Vee-Ball On/Off Valve",
-    description: "Fisher V150 Vee-Ball valve with V-notch ball for reliable on-off or throttling service. Features splined valve shaft for rotary actuators, raised-face flanged construction, and materials compliant with NACE MR0175-2 for sour service.",
-    features: [
-      "V-notch ball design for on-off/throttling",
-      "NPS 1 through 12 size range",
-      "Raised-face flanged construction",
-      "Splined shaft for rotary actuators",
-      "NACE MR0175-2 sour service compliant",
-      "ASME Class 150/300 ratings",
-    ],
   },
   {
     id: "fisher-v280-ball-valve",
@@ -2233,6 +2060,11 @@ export const products: Product[] = [
     typeKey: "on-off-valves",
     image: "on-off-valve",
     datasheetUrl: "https://www.emerson.com/en-us/catalog/fisher-v280",
+    translationKeys: {
+      title: "products-data:fisherV280BallValve.title",
+      description: "products-data:fisherV280BallValve.description",
+      featuresKey: "products-data:fisherV280BallValve.features",
+    },
     specs: {
       manufacturer: "Emerson Fisher",
       model: "V280",
@@ -2241,16 +2073,6 @@ export const products: Product[] = [
       type: "Full-bore trunnion ball valve",
       features: "Noise attenuation, fire-safe",
     },
-    title: "Fisher V280 Full-Bore Ball Control Valve",
-    description: "Heavy-duty Fisher V280 three-piece trunnion mounted full-bore ball valve for on-off service. Handles full CL900 pressure drops with optional drilled attenuator for noise/vibration control. Fire-safe design with NACE compliant materials.",
-    features: [
-      "Full-bore trunnion mounted design",
-      "Capable of CL900 pressure drops",
-      "Optional noise attenuator for liquids/gases",
-      "Fire-safe certified construction",
-      "NACE MR0175/ISO 15156 compliant",
-      "Three-piece body design",
-    ],
   },
   {
     id: "flowserve-worcester-f519-ball-valve",
@@ -2260,6 +2082,11 @@ export const products: Product[] = [
     typeKey: "on-off-valves",
     image: "on-off-valve",
     datasheetUrl: "https://www.flowserve.com/en/products/products-catalog/valves/ball-valves/",
+    translationKeys: {
+      title: "products-data:flowserveWorcesterF519BallValve.title",
+      description: "products-data:flowserveWorcesterF519BallValve.description",
+      featuresKey: "products-data:flowserveWorcesterF519BallValve.features",
+    },
     specs: {
       manufacturer: "Flowserve Worcester",
       model: "F519 Series",
@@ -2268,16 +2095,6 @@ export const products: Product[] = [
       type: "Flanged floating ball",
       actuator: "ISO 5211 mounting",
     },
-    title: "Flowserve Worcester F519 ASA150 Ball Valve",
-    description: "Worcester F519 ASA150 flanged ball valve with floating ball design. Third party approved to BS 5351 with fire testing to BS EN 10497. Features ISO 5211 actuator mounting, anti-blowout stem, and anti-static design.",
-    features: [
-      "ASA150 flanged ball valve design",
-      "Sizes 1/2 inch through 8 inch",
-      "BS 5351 and API 6D approved",
-      "Fire-safe BS EN 10497 tested",
-      "ISO 5211 actuator mounting platform",
-      "Anti-blowout stem for safety",
-    ],
   },
   {
     id: "flowserve-worcester-series44-ball-valve",
@@ -2287,6 +2104,11 @@ export const products: Product[] = [
     typeKey: "on-off-valves",
     image: "on-off-valve",
     datasheetUrl: "https://www.flowserve.com/en/products/brands/worcester/",
+    translationKeys: {
+      title: "products-data:flowserveWorcesterSeries44BallValve.title",
+      description: "products-data:flowserveWorcesterSeries44BallValve.description",
+      featuresKey: "products-data:flowserveWorcesterSeries44BallValve.features",
+    },
     specs: {
       manufacturer: "Flowserve Worcester",
       model: "Series 44",
@@ -2295,16 +2117,6 @@ export const products: Product[] = [
       type: "Three-piece ball valve",
       standards: "ANSI B16.34",
     },
-    title: "Flowserve Worcester Series 44 Three-Piece Ball Valve",
-    description: "Industry-leading Worcester Series 44 three-piece ball valve designed to ANSI B16.34 specifications. Features advanced seat technology for bubble-tight shutoff, can be configured for on-off or throttling control applications.",
-    features: [
-      "Three-piece ball valve design",
-      "ANSI B16.34 specifications",
-      "Bubble-tight shutoff capability",
-      "Advanced seal technology",
-      "On-off or throttling operation",
-      "Sizes 1/4 inch to 6 inch",
-    ],
   },
   {
     id: "swagelok-ss43gs4-ball-valve",
@@ -2314,6 +2126,11 @@ export const products: Product[] = [
     typeKey: "on-off-valves",
     image: "on-off-valve",
     datasheetUrl: "https://www.swagelok.com/downloads/webcatalogs/en/ms-02-331.pdf",
+    translationKeys: {
+      title: "products-data:swagelokSs43gs4BallValve.title",
+      description: "products-data:swagelokSs43gs4BallValve.description",
+      featuresKey: "products-data:swagelokSs43gs4BallValve.features",
+    },
     specs: {
       manufacturer: "Swagelok",
       model: "SS-43GS4",
@@ -2322,16 +2139,6 @@ export const products: Product[] = [
       type: "One-piece instrumentation ball valve",
       cv: "1.4",
     },
-    title: "Swagelok SS-43GS4 40G Series Ball Valve",
-    description: "Swagelok SS-43GS4 stainless steel one-piece instrumentation ball valve for on-off quarter-turn service. Features 3,000 PSI rating, enhanced thermal cycling capability, -65°F to 300°F range, and inline packing adjustments.",
-    features: [
-      "One-piece stainless steel construction",
-      "3,000 PSI working pressure",
-      "Temperature range -65°F to 300°F",
-      "Enhanced thermal cycling capability",
-      "Quarter-turn on-off operation",
-      "Inline packing adjustment capability",
-    ],
   },
   {
     id: "burkert-2655-ball-valve",
@@ -2341,6 +2148,11 @@ export const products: Product[] = [
     typeKey: "on-off-valves",
     image: "on-off-valve",
     datasheetUrl: "https://www.burkert.com/en/type/2655",
+    translationKeys: {
+      title: "products-data:burkert2655BallValve.title",
+      description: "products-data:burkert2655BallValve.description",
+      featuresKey: "products-data:burkert2655BallValve.features",
+    },
     specs: {
       manufacturer: "Burkert",
       model: "Type 2655",
@@ -2349,16 +2161,6 @@ export const products: Product[] = [
       type: "3-piece pneumatic ball valve",
       actuator: "Type 2050 pneumatic rotary",
     },
-    title: "Burkert Type 2655 Pneumatic Ball Valve",
-    description: "Burkert Type 2655 three-piece ball valve with Type 2050 pneumatic rotary actuator for on-off operation. Features ISO 5211 standard interface, linear piston with quick-acting coupling, and 2/2-way operation for shutoff and flow distribution.",
-    features: [
-      "3-piece stainless steel ball valve",
-      "Type 2050 pneumatic rotary actuator",
-      "ISO 5211 flange connection",
-      "90° quarter-turn on-off operation",
-      "Single or double-acting pneumatic",
-      "Quick-acting screw thread coupling",
-    ],
   },
 
   // BLDC Ceiling Fans - Real Manufacturer Products
