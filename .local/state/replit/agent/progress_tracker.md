@@ -13,4 +13,4 @@
     - bldc-exhaust-fan-motor, bldc-cooler-motors, bldc-ventilation-system, bldc-ventilation-motors
     - bldc-industrial-exhaust, bldc-mini-cooler, solar-bldc-submersible-1hp
     - dc-surface-pump-2hp, hybrid-bldc-pump, bldc-table-fan-motors, bldc-wall-fan-motors
-  - [ ] Batch 2: Next 15-20 products (cables, breakers, sensors)
+  - [x] Batch 2: Next 15-20 products (cables, breakers, sensors)
