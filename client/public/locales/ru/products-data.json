@@ -31,6 +31,300 @@
       ]
     }
   },
+  "labels": {
+    "power": "Мощность двигателя",
+    "speed": "Номинальная скорость",
+    "airflow": "Расход воздуха",
+    "efficiency": "Эффективность",
+    "warranty": "Гарантия",
+    "voltage": "Напряжение",
+    "solarPanelRequirement": "Требования к солнечной панели",
+    "headRange": "Диапазон напора",
+    "flowRate": "Расход",
+    "cableType": "Тип кабеля",
+    "conductorSize": "Размер проводника",
+    "voltageRating": "Номинальное напряжение",
+    "temperatureRange": "Температурный диапазон",
+    "shielding": "Экранирование",
+    "insulation": "Изоляция",
+    "flow": "Расход",
+    "head": "Напор",
+    "solarCompatible": "Совместимость с солнечными батареями",
+    "type": "Тип кабеля",
+    "awg": "Размер проводника",
+    "temperature": "Температурный диапазон"
+  },
+  "bldc-smart1200": {
+    "seo": {
+      "title": "Умный потолочный вентилятор BLDC 1200 об/мин - Энергоэффективный | Powerton Engineering",
+      "description": "Высокоэффективный умный потолочный вентилятор BLDC 1200 об/мин с дистанционным управлением, функцией таймера и технологией энергосбережения. Идеально подходит для дома и офиса.",
+      "keywords": "потолочный вентилятор BLDC, умный потолочный вентилятор, энергоэффективный вентилятор, потолочный вентилятор 1200 об/мин, вентилятор с бесщеточным двигателем постоянного тока, вентилятор с дистанционным управлением"
+    },
+    "hero": {
+      "title": "Умный потолочный вентилятор BLDC 1200 об/мин",
+      "subtitle": "Энергоэффективный умный потолочный вентилятор с дистанционным управлением"
+    },
+    "overview": {
+      "fullDescription": "Наш умный потолочный вентилятор BLDC 1200 об/мин сочетает в себе передовую технологию бесщеточного двигателя постоянного тока с интеллектуальными функциями для оптимальной энергоэффективности и комфорта. Разработанный для жилых и легких коммерческих помещений, этот вентилятор обеспечивает превосходную производительность, потребляя при этом до 65% меньше энергии, чем традиционные вентиляторы."
+    },
+    "keyBenefits": [
+      "Экономия энергии до 65%",
+      "Умный пульт дистанционного управления",
+      "Бесшумная работа",
+      "Длительный срок службы"
+    ],
+    "features": [
+      "Технология бесщеточного двигателя постоянного тока",
+      "Умный пульт дистанционного управления с таймером",
+      "Регулировка скорости",
+      "Функция обратного направления",
+      "Светодиодный индикатор",
+      "Рейтинг Energy Star",
+      "Медная обмотка двигателя",
+      "Аэродинамическая конструкция лопастей"
+    ],
+    "applications": [
+      "Жилые спальни",
+      "Гостиные",
+      "Офисные помещения",
+      "Кабинеты",
+      "Гостевые комнаты",
+      "Небольшие коммерческие помещения"
+    ],
+    "industries": [
+      "Жилищное строительство",
+      "Дизайн интерьера",
+      "Гостиничный бизнес",
+      "Офисные здания",
+      "Учебные заведения",
+      "Медицинские учреждения"
+    ],
+    "certifications": [
+      "Сертификация Energy Star",
+      "Знак ISI",
+      "Одобрено CE",
+      "Соответствует RoHS",
+      "Рейтинг BEE 5 Star"
+    ]
+  },
+  "bldc-premium1400": {
+    "seo": {
+      "title": "Потолочный вентилятор BLDC Premium 1400 об/мин - Расширенные функции | Powerton Engineering",
+      "description": "Потолочный вентилятор BLDC Premium 1400 об/мин с расширенными интеллектуальными функциями, превосходным воздушным потоком и энергоэффективной технологией бесщеточного двигателя.",
+      "keywords": "потолочный вентилятор BLDC премиум-класса, потолочный вентилятор 1400 об/мин, усовершенствованный потолочный вентилятор, интеллектуальный потолочный вентилятор, вентилятор с высоким воздушным потоком, энергоэффективный"
+    },
+    "hero": {
+      "title": "Потолочный вентилятор BLDC Premium 1400 об/мин",
+      "subtitle": "Высокопроизводительный потолочный вентилятор со светодиодным освещением"
+    },
+    "overview": {
+      "fullDescription": "Потолочный вентилятор BLDC Premium 1400 об/мин представляет собой вершину технологии потолочных вентиляторов с расширенными функциями и превосходным качеством сборки. Разработан для повышения производительности с увеличенной подачей воздуха при сохранении исключительной энергоэффективности для премиальных жилых и коммерческих помещений."
+    },
+    "keyBenefits": [
+      "Превосходная производительность воздушного потока",
+      "Расширенные интеллектуальные элементы управления",
+      "Премиальное качество сборки",
+      "Расширенная гарантия"
+    ],
+    "features": [
+      "Высокопроизводительный двигатель BLDC",
+      "Интеллектуальное подключение к Wi-Fi",
+      "Управление мобильным приложением",
+      "Совместимость с голосовым помощником",
+      "Пульт дистанционного управления премиум-класса",
+      "Аэродинамические высокоэффективные лопасти",
+      "Покрытие против пыли",
+      "Интеграция датчика температуры"
+    ],
+    "applications": [
+      "Премиальные жилые помещения",
+      "Главные спальни",
+      "Большие гостиные",
+      "Представительские офисы",
+      "Конференц-залы",
+      "Роскошные отели"
+    ],
+    "industries": [
+      "Премиальное жилье",
+      "Роскошное гостеприимство",
+      "Корпоративные офисы",
+      "Розничная торговля высокого класса",
+      "Премиальное здравоохранение",
+      "Элитное образование"
+    ],
+    "certifications": [
+      "Сертификация Energy Star",
+      "Знак ISI",
+      "Одобрено CE",
+      "Соответствует RoHS",
+      "Рейтинг BEE 5 Star",
+      "Сертификация WiFi Alliance"
+    ]
+  },
+  "bldc-commercial1500": {
+    "seo": {
+      "title": "Потолочный вентилятор BLDC Commercial 1500 об/мин - Сверхмощный | Powerton Engineering",
+      "description": "Потолочный вентилятор BLDC Commercial 1500 об/мин коммерческого класса, предназначенный для тяжелых условий эксплуатации с максимальным воздушным потоком и промышленной надежностью.",
+      "keywords": "коммерческий потолочный вентилятор BLDC, промышленный потолочный вентилятор, вентилятор 1500 об/мин, сверхмощный потолочный вентилятор, вентилятор коммерческого класса, высокий воздушный поток"
+    },
+    "hero": {
+      "title": "Потолочный вентилятор BLDC Commercial 1500 об/мин",
+      "subtitle": "Сверхмощный потолочный вентилятор для коммерческого применения"
+    },
+    "overview": {
+      "fullDescription": "Наш потолочный вентилятор BLDC Commercial 1500 об/мин предназначен для тяжелых коммерческих применений, требующих максимального воздушного потока и надежности. Изготовлен из компонентов промышленного класса и передовой технологии двигателя для обеспечения стабильной производительности в сложных условиях при сохранении энергоэффективности."
+    },
+    "keyBenefits": [
+      "Максимальная подача воздуха",
+      "Надежность промышленного класса",
+      "Сверхмощная конструкция",
+      "Расширенная защита гарантии"
+    ],
+    "features": [
+      "Сверхмощный двигатель BLDC",
+      "Усиленный корпус двигателя",
+      "Подшипники коммерческого класса",
+      "Металлические лопасти высокой прочности",
+      "Номинальная мощность для непрерывной работы",
+      "Конструкция без вибрации",
+      "Коррозионностойкое покрытие",
+      "Промышленный пульт дистанционного управления"
+    ],
+    "applications": [
+      "Коммерческие здания",
+      "Промышленные объекты",
+      "Большие офисные помещения",
+      "Торговые залы",
+      "Склады",
+      "Производственные предприятия"
+    ],
+    "industries": [
+      "Коммерческая недвижимость",
+      "Промышленное производство",
+      "Розничная торговля и покупки",
+      "Складское хозяйство и логистика",
+      "Коммерческое гостеприимство",
+      "Учебные заведения"
+    ],
+    "certifications": [
+      "Сертификация Energy Star",
+      "Знак ISI",
+      "Одобрено CE",
+      "Соответствует RoHS",
+      "Рейтинг BEE 5 Star",
+      "Сертификация коммерческого класса"
+    ]
+  },
+  "solar-bldc-submersible-1hp": {
+    "seo": {
+      "title": "Погружной насос Solar BLDC 1 л.с. - Экологичные решения для водоснабжения | Powerton Engineering",
+      "description": "Погружной насос Solar BLDC 1 л.с. с питанием от солнечной энергии для сельскохозяйственного орошения и водоснабжения с использованием передовой солнечной технологии и энергоэффективности.",
+      "keywords": "солнечный погружной насос, водяной насос BLDC, солнечный водяной насос, погружной насос 1 л.с., насос возобновляемой энергии, сельскохозяйственный насос"
+    },
+    "hero": {
+      "title": "Погружной насос Solar BLDC 1 л.с.",
+      "subtitle": "Решение для перекачки воды с питанием от солнечной энергии"
+    },
+    "overview": {
+      "fullDescription": "Наш погружной насос Solar BLDC 1 л.с. сочетает в себе возобновляемую солнечную энергию с передовой технологией бесщеточного двигателя для экологически чистых решений для перекачки воды. Разработан для сельскохозяйственного орошения, бытового водоснабжения и удаленных водных систем с максимальной эффективностью и надежностью."
+    },
+    "keyBenefits": [
+      "100% питание от солнечной энергии",
+      "Нулевые эксплуатационные расходы",
+      "Экологичность",
+      "Совместимость с удаленными районами"
+    ],
+    "features": [
+      "Совместимый с солнечной энергией двигатель BLDC",
+      "Включен контроллер MPPT",
+      "Конструкция с водяным охлаждением",
+      "Защита от сухого хода",
+      "Технология плавного пуска",
+      "Коррозионностойкие материалы",
+      "Совместимость с поплавковым выключателем",
+      "Система удаленного мониторинга"
+    ],
+    "applications": [
+      "Сельскохозяйственное орошение",
+      "Бытовое водоснабжение",
+      "Полив скота",
+      "Удаленные водные системы",
+      "Сельское водоснабжение",
+      "Орошение сада"
+    ],
+    "industries": [
+      "Сельское хозяйство и фермерство",
+      "Развитие сельских районов",
+      "Управление водными ресурсами",
+      "Возобновляемая энергия",
+      "Системы орошения",
+      "Экологичные технологии"
+    ],
+    "certifications": [
+      "Сертификация солнечной энергии",
+      "Знак ISI",
+      "Одобрено CE",
+      "Соответствует RoHS",
+      "Рейтинг IP68",
+      "Одобрено MNRE"
+    ]
+  },
+  "instrumentation-cables": {
+    "seo": {
+      "title": "Инструментальные кабели - Точная передача сигнала | Powerton Engineering",
+      "description": "Высококачественные инструментальные кабели с экранированной конструкцией для точного измерения и передачи управляющих сигналов.",
+      "keywords": "инструментальные кабели, экранированная витая пара, сигнальные кабели, измерительные кабели, управляющие кабели, промышленные кабели"
+    },
+    "hero": {
+      "title": "Инструментальные кабели",
+      "subtitle": "Точная передача сигнала"
+    },
+    "overview": {
+      "fullDescription": "Профессиональные инструментальные кабели, предназначенные для точной передачи сигналов в промышленных системах измерения и управления. Отличается экранированной конструкцией из витой пары, отличным подавлением шумов и превосходной целостностью сигнала для критически важных систем приборов."
+    },
+    "keyBenefits": [
+      "Превосходная целостность сигнала",
+      "Отличная помехоустойчивость",
+      "Широкий температурный диапазон",
+      "Химическая стойкость",
+      "Гибкая установка",
+      "Длительный срок службы"
+    ],
+    "features": [
+      "Конструкция с экранированной витой парой",
+      "Конструкция с низкой емкостью",
+      "Конфигурация сливного провода",
+      "Цветовая идентификация",
+      "Огнестойкая оболочка",
+      "Масло- и химически стойкий",
+      "Гибкая скрутка",
+      "Несколько вариантов пар"
+    ],
+    "applications": [
+      "Системы управления процессами",
+      "Инструментальные контуры",
+      "Подключения датчиков",
+      "Подключение передатчиков",
+      "Подключения анализаторов",
+      "Проводка диспетчерской"
+    ],
+    "industries": [
+      "Нефть и газ",
+      "Химическая обработка",
+      "Производство электроэнергии",
+      "Очистка воды",
+      "Производство",
+      "Фармацевтика"
+    ],
+    "certifications": [
+      "В списке UL",
+      "Сертифицировано CSA",
+      "Маркировка CE",
+      "IEC 60502",
+      "NFPA 70",
+      "Соответствует RoHS"
+    ]
+  },
   "bldcCeilingFan": {
     "smart1200": {
       "name": "Умный потолочный вентилятор BLDC - 1200 мм",
@@ -682,7 +976,7 @@
     "siemens": {
       "simaticS7_1200": "Siemens SIMATIC S7-1200",
       "simaticS7_1500": "Siemens SIMATIC S7-1500",
-      "logoSeries": "Siemens LOGO! Series"
+      "logoSeries": "Siemens LOGO! Серия"
     },
     "allenBradley": {
       "compactLogix5380": "Allen-Bradley CompactLogix 5380",
@@ -695,9 +989,515 @@
       "zelio": "Schneider Electric Zelio Logic"
     },
     "solar": {
-      "monocrystalline400W": "Monocrystalline Solar Panels - 400W",
-      "polycrystalline320W": "Polycrystalline Solar Panels - 320W",
-      "bifacial450W": "Bifacial Solar Panels - 450W"
+      "monocrystalline400W": "Монокристаллические солнечные панели - 400 Вт",
+      "polycrystalline320W": "Поликристаллические солнечные панели - 320 Вт",
+      "bifacial450W": "Двусторонние солнечные панели - 450 Вт"
     }
+  },
+  "ovalFlowpetLsf41": {
+    "title": "OVAL FLOWPET LSF41 Объемный расходомер",
+    "description": "Высокоточный объемный расходомер OVAL FLOWPET LSF41 с исключительной точностью. Обладает превосходной повторяемостью, широким диапазоном диаметров и конструкцией из материалов премиум-класса для требовательных применений измерения жидкостей.",
+    "features": [
+      "Технология объемного измерения расхода (PD)",
+      "Широкий диапазон диаметров: от DN15 до DN200 (от 1/2 до 8 дюймов)",
+      "Диапазон расхода: 0,05-1500 л/мин (в зависимости от размера)",
+      "Исключительная точность: ±0,1% от показаний",
+      "Превосходная повторяемость: ±0,02% от показаний",
+      "Температура процесса: от -20°C до +120°C",
+      "Степень защиты IP67",
+      "Несколько выходов: импульсный выход, 4-20 мА, HART",
+      "Несколько технологических соединений: фланцевое (JIS, ANSI, DIN), резьбовое",
+      "Материалы премиум-класса: SUS316, SUS316L, Hastelloy C-276",
+      "Сертификаты ATEX, IECEx, FM"
+    ]
+  },
+  "badgerMeterM1000": {
+    "title": "Badger Meter M1000 Расходомер с нутационным диском",
+    "description": "Надежный расходомер Badger Meter M1000 с нутационным диском и объемным вытеснением с передовой технологией измерения. Обладает исключительной точностью, множеством вариантов связи и прочной конструкцией для применения в водоснабжении.",
+    "features": [
+      "Технология объемного вытеснения с нутационным диском",
+      "Диапазон диаметров: от DN15 до DN100 (от 5/8 до 4 дюймов)",
+      "Диапазон расхода: 0,125-400 галлонов в минуту (в зависимости от размера)",
+      "Хорошая точность: ±0,5% от показаний",
+      "Хорошая повторяемость: ±0,1% от показаний",
+      "Рабочая температура: от -20°C до +70°C",
+      "Степень защиты IP68",
+      "Несколько вариантов связи: импульсный выход, AMR/AMI, 4-20 мА",
+      "Несколько технологических соединений: фланцевое (ANSI), NPT, компрессионное",
+      "Прочные материалы: бронза, чугун, нержавеющая сталь 316L",
+      "Сертификаты NSF, AWWA, ANSI"
+    ]
+  },
+  "krohneBm100PdMeter": {
+    "title": "KROHNE BM 100 Объемный расходомер с овальными шестернями",
+    "description": "Высокопроизводительный объемный расходомер KROHNE BM 100 с овальными шестернями и передовой технологией измерения. Обладает исключительной точностью, превосходной повторяемостью и многопротокольной связью для промышленного применения.",
+    "features": [
+      "Технология объемного вытеснения с овальными шестернями",
+      "Широкий диапазон диаметров: от DN10 до DN200 (от 3/8 до 8 дюймов)",
+      "Диапазон расхода: 0,15-3000 л/мин (в зависимости от размера)",
+      "Высокая точность: ±0,2% от показаний",
+      "Отличная повторяемость: ±0,05% от показаний",
+      "Широкий диапазон технологических температур: от -40°C до +200°C",
+      "Степень защиты IP67",
+      "Многопротокольность: импульсный выход, 4-20 мА, HART, Modbus",
+      "Несколько технологических соединений: фланцевое (DIN, ANSI), резьбовое",
+      "Универсальные материалы: алюминий, чугун, нержавеющая сталь 316L",
+      "Сертификаты ATEX, IECEx, FM, CSA"
+    ]
+  },
+  "kralVolumeterOmg": {
+    "title": "KRAL VoluMeter OMG Объемный расходомер с винтами",
+    "description": "Прецизионный объемный расходомер KRAL VoluMeter OMG с винтами и исключительной точностью измерения. Обладает превосходной повторяемостью, многопротокольной связью и сертификацией MID для коммерческого учета.",
+    "features": [
+      "Технология объемного вытеснения с винтами",
+      "Диапазон диаметров: от DN15 до DN150 (от 1/2 до 6 дюймов)",
+      "Диапазон расхода: 0,5-1200 л/мин (в зависимости от размера)",
+      "Исключительная точность: ±0,1% от показаний",
+      "Превосходная повторяемость: ±0,02% от показаний",
+      "Широкий диапазон технологических температур: от -40°C до +200°C",
+      "Степень защиты IP67",
+      "Многопротокольность: импульсный выход, 4-20 мА, HART, Profibus",
+      "Несколько технологических соединений: фланцевое (DIN, ANSI), резьбовое",
+      "Прочные материалы: алюминий, литая сталь, нержавеющая сталь 316L",
+      "Сертификаты ATEX, IECEx, FM, CSA, MID"
+    ]
+  },
+  "flowTechnologyDcISeries": {
+    "title": "Flow Technology DC-I Series Объемный расходомер с геликоидальными шестернями",
+    "description": "Усовершенствованный объемный расходомер Flow Technology DC-I Series с геликоидальными шестернями, предназначенный для жидкостей с высокой вязкостью. Обладает сверхшироким диапазоном вязкости, исключительной точностью и специальными материалами для требовательных применений в химической и нефтехимической промышленности.",
+    "features": [
+      "Технология объемного вытеснения с геликоидальными шестернями",
+      "Компактный диапазон диаметров: от DN6 до DN50 (от 1/4 до 2 дюймов)",
+      "Сверхширокий диапазон расхода: 0,001-400 галлонов в минуту (в зависимости от размера)",
+      "Сверхширокий диапазон вязкости: от 0,6 до 1 000 000 сП",
+      "Хорошая точность: ±0,5% от показаний",
+      "Отличная повторяемость: ±0,05% от показаний",
+      "Расширенный диапазон технологических температур: от -40°C до +204°C",
+      "Степень защиты IP65",
+      "Связь: импульсный выход, 4-20 мА, HART",
+      "Несколько технологических соединений: фланцевое (ANSI), NPT, BSP",
+      "Специальные материалы: нержавеющая сталь 316, Hastelloy C, PPS",
+      "Сертификаты ATEX, FM, CSA"
+    ]
+  },
+  "danfossKp36": {
+    "title": "Реле давления Danfoss KP36",
+    "description": "Промышленное реле давления с электрическими контактами мгновенного действия для надежной работы в системах с паром, воздухом и жидкостями.",
+    "features": [
+      "Контактная система SPDT для надежного переключения",
+      "Функция ручного отключения для тестирования",
+      "Рабочая температура: от -40°F до 175°F",
+      "Регулируемые настройки дифференциального давления",
+      "Подходит для газообразных и жидких сред"
+    ]
+  },
+  "schneider9013fsg2j24m4": {
+    "title": "Реле давления Schneider Electric 9013FSG2J24M4 Pumptrol",
+    "description": "Реле давления Square D Pumptrol с отсечкой по низкому давлению для насосов мощностью до 1,5 л.с.",
+    "features": [
+      "Настройка давления 40-60 PSI",
+      "Регулируемый дифференциал 15-30 PSI",
+      "Защита от отключения при низком давлении",
+      "Корпус NEMA 1/IP20",
+      "Сертификаты UL, CSA"
+    ]
+  },
+  "wikaPsm760": {
+    "title": "Программируемое реле давления WIKA PSM-760",
+    "description": "Программируемое электронное реле давления с выходом 4-20 мА и цифровым дисплеем для точного контроля и управления давлением.",
+    "features": [
+      "Программируемые точки переключения",
+      "Аналоговый выходной сигнал 4-20 мА",
+      "Цифровой светодиодный дисплей",
+      "Диапазон давления 0-600 бар",
+      "Смачиваемые детали из нержавеющей стали",
+      "Степень защиты IP65"
+    ]
+  },
+  "abb266dsh": {
+    "title": "Реле дифференциального давления ABB 266DSH",
+    "description": "Взрывозащищенное реле дифференциального давления с корпусом NEMA 7 для применений в опасных зонах, требующих надежного контроля перепада давления.",
+    "features": [
+      "Измерение перепада давления",
+      "Взрывозащищенный корпус NEMA 7",
+      "Сертификация для опасных зон",
+      "Регулируемые настройки дифференциала",
+      "Коррозионностойкая конструкция",
+      "Выходы аварийного сигнала высокого/низкого давления"
+    ]
+  },
+  "ashcroftB424b": {
+    "title": "Сверхмощное реле давления Ashcroft B424B",
+    "description": "Сверхмощное промышленное реле давления с контактами SPDT и прочной конструкцией для надежной работы в тяжелых условиях.",
+    "features": [
+      "Сверхмощная промышленная конструкция",
+      "Конфигурация контактов SPDT",
+      "Диапазон давления 0-1000 psi",
+      "Трубка Бурдона из нержавеющей стали",
+      "Коррозионностойкий корпус",
+      "Одобрено UL и CSA"
+    ]
+  },
+  "endressFtl31": {
+    "title": "Сигнализатор уровня Endress+Hauser FTL31 Liquiphant",
+    "description": "Вибрационный сигнализатор уровня для определения уровня жидкости с активной сенсорной технологией для предотвращения переполнения и защиты насоса.",
+    "features": [
+      "Технология камертона с пьезоэлектрическим приводом",
+      "Активная сенсорная технология обеспечивает функциональность устройства",
+      "Не требуется настройка для различных сред",
+      "Резьба технологического соединения G1",
+      "Установлено более 6 миллионов устройств по всему миру"
+    ]
+  },
+  "abbLsSeries": {
+    "title": "Механический сигнализатор уровня ABB LS Series",
+    "description": "Прочный механический поплавковый сигнализатор уровня с герметичным переключающим механизмом для надежного определения уровня жидкости.",
+    "features": [
+      "Самая прочная конструкция на промышленном рынке",
+      "Одношаговая регулировка точки переключения",
+      "Герметичный двухсекционный переключатель",
+      "Доступны фланцевые и вставные модели",
+      "Доступно более 100 конфигураций"
+    ]
+  },
+  "vegaVegaswing61": {
+    "title": "Вибрационный стержневой сигнализатор уровня VEGA VEGASWING 61",
+    "description": "Универсальный вибрационный стержневой сигнализатор уровня для определения уровня в жидкостях и сыпучих материалах с компактной конструкцией и технологическим соединением G1.",
+    "features": [
+      "Технология вибрационного стержня",
+      "Универсальность для жидкостей и сыпучих материалов",
+      "Резьба технологического соединения G1",
+      "Компактный и не требующий обслуживания",
+      "Высокая термостойкость",
+      "Простота ввода в эксплуатацию"
+    ]
+  },
+  "siemens7ml12Pointflex": {
+    "title": "Емкостный сигнализатор уровня Siemens 7ML12 Point flex",
+    "description": "Емкостный точечный сигнализатор уровня с универсальным источником питания и степенью защиты IP66/67 для надежного определения уровня жидкости в промышленных применениях.",
+    "features": [
+      "Технология емкостного измерения",
+      "Универсальный источник питания 100-240 В переменного тока",
+      "Степень защиты окружающей среды IP66/IP67",
+      "Простота двухпроводного подключения",
+      "Регулируемые параметры чувствительности",
+      "Подходит для проводящих/непроводящих сред"
+    ]
+  },
+  "magnetrolEchotel961": {
+    "title": "Ультразвуковой сигнализатор уровня Magnetrol Echotel 961/962",
+    "description": "Бесконтактный ультразвуковой сигнализатор уровня с выходом 4-20 мА для определения уровня жидкости без физического контакта с измеряемой средой.",
+    "features": [
+      "Бесконтактная ультразвуковая технология",
+      "Аналоговый выходной сигнал 4-20 мА",
+      "Конструкция без движущихся частей",
+      "Идеально подходит для агрессивных/вязких сред",
+      "Включен цифровой дисплей",
+      "Простота установки и настройки"
+    ]
+  },
+  "omronWlca12Y": {
+    "title": "Сверхмощный концевой выключатель Omron WLCA12-Y",
+    "description": "Сверхмощный концевой выключатель с роликовым рычагом, степенью защиты IP67 и литым металлическим корпусом для суровых промышленных условий.",
+    "features": [
+      "Литой металлический корпус для прочности",
+      "Степень защиты окружающей среды IP67",
+      "Регулируемый привод с роликовым рычагом",
+      "Механизм переключения с мгновенным действием",
+      "Подходит для отраслей с высокой степенью автоматизации"
+    ]
+  },
+  "schneiderXcmd21f0l1": {
+    "title": "Концевой выключатель Schneider Electric XCMD21F0L1 OsiSense",
+    "description": "Концевой выключатель стандартного формата из линейки OsiSense XC с гибким приводом с роликовым рычагом для промышленной автоматизации.",
+    "features": [
+      "Промышленный дизайн стандартного формата",
+      "Гибкий привод с роликовым рычагом",
+      "Часть стандартной линейки OsiSense XC",
+      "Комплексная экосистема аксессуаров",
+      "Надежная работа с мгновенным действием"
+    ]
+  },
+  "schneiderXckpLimitSwitch": {
+    "title": "Schneider Electric XCKP Plastic Limit Switch",
+    "description": "Compact plastic limit switch with roller plunger actuator, 2NC+2NO contacts, and IP67 protection for industrial automation applications.",
+    "features": [
+      "Plastic roller plunger actuator",
+      "2NC + 2NO contact configuration",
+      "IP67 environmental protection",
+      "Compact design for space saving",
+      "Positive opening contacts",
+      "Wide operating temperature range"
+    ]
+  },
+  "abbLs30p": {
+    "title": "ABB LS30P Thermoplastic Limit Switch",
+    "description": "Thermoplastic housing limit switch with snap action mechanism and IP66 protection for reliable position sensing in industrial applications.",
+    "features": [
+      "Thermoplastic housing construction",
+      "Snap action switching mechanism",
+      "IP66 environmental protection",
+      "Multiple actuator options",
+      "Robust and reliable operation",
+      "Easy installation and wiring"
+    ]
+  },
+  "eatonE51LimitSwitch": {
+    "title": "Eaton E51 Heavy Duty Limit Switch",
+    "description": "Heavy-duty limit switch with side rotary actuator, 4-pole configuration, and IP67 protection for demanding industrial environments.",
+    "features": [
+      "Heavy-duty industrial construction",
+      "Side rotary actuator design",
+      "4-pole contact configuration",
+      "IP67 environmental sealing",
+      "Die-cast metal housing",
+      "UL and CSA certified"
+    ]
+  },
+  "schneiderXb4ba21": {
+    "title": "Schneider Electric XB4BA21 Harmony Push Button",
+    "description": "22mm metal push button with chromium-plated bezel from the Harmony XB4 series for industrial control panels.",
+    "features": [
+      "22mm metal construction",
+      "Chromium-plated bezel for durability",
+      "Automatic self-grounding design",
+      "Modular system with interchangeable components",
+      "FINGERSAFE™ contact blocks"
+    ]
+  },
+  "eatonM22DrR": {
+    "title": "Eaton M22-DR-R Emergency Stop Push Button",
+    "description": "22mm emergency stop push button with red mushroom head and twist-to-release mechanism for safety applications.",
+    "features": [
+      "22mm modular design",
+      "Red mushroom head for emergency stop",
+      "Twist-to-release mechanism",
+      "IP65/66/67 protection ratings",
+      "Suitable for light industrial applications"
+    ]
+  },
+  "schneiderXb5Harmony": {
+    "title": "Schneider Electric Harmony XB5 LED Push Button",
+    "description": "22mm illuminated push button with integrated LED, metal construction, and IP65 protection for control panel applications.",
+    "features": [
+      "22mm metal construction",
+      "Integrated LED illumination",
+      "IP65 environmental protection",
+      "Multiple color options available",
+      "Modular contact blocks",
+      "Easy snap-in mounting"
+    ]
+  },
+  "abbCp110g": {
+    "title": "ABB CP1-10G Green Flush Push Button",
+    "description": "Green flush push button with 1NO+1NC contacts and IP65 protection for start/run control applications in industrial panels.",
+    "features": [
+      "Green color for start indication",
+      "Flush mounting design",
+      "1NO + 1NC contact configuration",
+      "IP65 environmental protection",
+      "Compact and reliable",
+      "Easy installation"
+    ]
+  },
+  "siemens3su1Pushbutton": {
+    "title": "Siemens 3SU1 Illuminated Push Button",
+    "description": "Illuminated push button with metal bezel, 24V operation, and IP67 protection for industrial control and signaling applications.",
+    "features": [
+      "Illuminated with metal bezel",
+      "24V AC/DC operation",
+      "IP67 environmental protection",
+      "Multiple color options",
+      "Modular design system",
+      "High reliability and durability"
+    ]
+  },
+  "fisherEdControlValve": {
+    "title": "Fisher easy-e™ ED Globe Control Valve",
+    "description": "Balanced valve plug globe control valve with cage guiding and metal-to-metal seating for reliable process control.",
+    "features": [
+      "Balanced valve plug design",
+      "Cage guiding for precise control",
+      "Metal-to-metal seating",
+      "Digital valve positioner ready",
+      "HART communication compatible"
+    ]
+  },
+  "samson3241GlobeValve": {
+    "title": "SAMSON Type 3241 Globe Control Valve",
+    "description": "Industrial pneumatic globe valve for process engineering with modular design and exchangeable trims for different flow characteristics.",
+    "features": [
+      "Modular globe valve design",
+      "Exchangeable trims for flow characteristics",
+      "Class VI (IEC: IV-S2) sealing",
+      "SAM DIGITAL ready with predictive diagnostics",
+      "HART, Foundation Fieldbus communication"
+    ]
+  },
+  "fisher657SizeReducer": {
+    "title": "Fisher Type 657 Size Reducer Control Valve",
+    "description": "Spring-and-diaphragm actuated size reducer control valve for compact installations requiring excellent flow control in smaller pipe sizes.",
+    "features": [
+      "Size reducer design for compact installation",
+      "Spring-and-diaphragm actuation",
+      "1/2 to 2 inch size range",
+      "Direct mount pneumatic actuator",
+      "Excellent flow characteristics",
+      "Low maintenance design"
+    ]
+  },
+  "masoneilan41000Globe": {
+    "title": "Masoneilan 41000 Series Globe Control Valve",
+    "description": "Pneumatic globe control valve with balanced trim design for severe service applications requiring precision flow control and tight shutoff.",
+    "features": [
+      "Globe valve design for precise control",
+      "Pneumatic actuation system",
+      "Balanced trim construction",
+      "Severe service capability",
+      "Class VI shutoff rating",
+      "Wide rangeability"
+    ]
+  },
+  "samson3241PneumaticGlobeValve": {
+    "title": "SAMSON 3241 Pneumatic Globe Valve",
+    "description": "Pneumatic globe control valve with guided stem design for reliable process control in DN15-300 sizes with excellent flow characteristics.",
+    "features": [
+      "Pneumatic globe valve design",
+      "Guided stem for stability",
+      "DN15 to DN300 size range",
+      "Multiple trim options available",
+      "SAM DIGITAL positioner ready",
+      "Robust construction"
+    ]
+  },
+  "asco8262h112dc24": {
+    "title": "ASCO 8262H112DC24 General Service Solenoid Valve",
+    "description": "2-way normally closed solenoid valve in stainless steel construction for air, water, light oil, and fuel gas applications.",
+    "features": [
+      "2-way normally closed operation",
+      "Stainless steel construction",
+      "Suitable for multiple media types",
+      "Direct acting or pilot operated",
+      "UL Listed and CSA Certified"
+    ]
+  },
+  "parkerS4aSolenoidValve": {
+    "title": "Parker S4A Series Refrigeration Solenoid Valve",
+    "description": "Solenoid valve designed for refrigeration and fluid control systems, compatible with multiple refrigerants and built for wide pressure ranges.",
+    "features": [
+      "Compatible with R410A, R448A, R449A, R450A, R507A",
+      "Wide pressure range capability",
+      "Compact and lightweight design",
+      "Excellent flow control characteristics",
+      "Built for commercial refrigeration systems"
+    ]
+  },
+  "asco8210g094": {
+    "title": "ASCO 8210G094 2-Way NC Solenoid Valve",
+    "description": "2-way normally closed brass solenoid valve with 1/2 NPT connection and 120VAC coil for general service applications.",
+    "features": [
+      "2-way normally closed operation",
+      "Brass body construction",
+      "120V AC coil voltage",
+      "1/2 inch NPT connection",
+      "General service applications",
+      "UL and CSA certified"
+    ]
+  },
+  "burkert6013": {
+    "title": "Bürkert Type 6013 Direct-Acting Solenoid Valve",
+    "description": "Direct-acting 2/2-way solenoid valve with FKM seal and 24VDC coil for precise fluid control in process applications.",
+    "features": [
+      "Direct-acting principle",
+      "2/2-way configuration",
+      "FKM seal material",
+      "24V DC operation",
+      "Compact design",
+      "Low power consumption"
+    ]
+  },
+  "parker71215sn2vn00": {
+    "title": "Parker 71215SN2VN00 Normally Open Solenoid Valve",
+    "description": "Normally open stainless steel solenoid valve with 1/4 inch connection and 12VDC coil for specialized control applications.",
+    "features": [
+      "Normally open configuration",
+      "Stainless steel construction",
+      "12V DC operation",
+      "1/4 inch port size",
+      "Corrosion resistant",
+      "Compact footprint"
+    ]
+  },
+  "fisherV150VeeBallValve": {
+    "title": "Fisher V150 Vee-Ball On/Off Valve",
+    "description": "Fisher V150 Vee-Ball valve with V-notch ball for reliable on-off or throttling service. Features splined valve shaft for rotary actuators, raised-face flanged construction, and materials compliant with NACE MR0175-2 for sour service.",
+    "features": [
+      "V-notch ball design for on-off/throttling",
+      "NPS 1 through 12 size range",
+      "Raised-face flanged construction",
+      "Splined shaft for rotary actuators",
+      "NACE MR0175-2 sour service compliant",
+      "ASME Class 150/300 ratings"
+    ]
+  },
+  "fisherV280BallValve": {
+    "title": "Fisher V280 Full-Bore Ball Control Valve",
+    "description": "Heavy-duty Fisher V280 three-piece trunnion mounted full-bore ball valve for on-off service. Handles full CL900 pressure drops with optional drilled attenuator for noise/vibration control. Fire-safe design with NACE compliant materials.",
+    "features": [
+      "Full-bore trunnion mounted design",
+      "Capable of CL900 pressure drops",
+      "Optional noise attenuator for liquids/gases",
+      "Fire-safe certified construction",
+      "NACE MR0175/ISO 15156 compliant",
+      "Three-piece body design"
+    ]
+  },
+  "flowserveWorcesterF519BallValve": {
+    "title": "Flowserve Worcester F519 ASA150 Ball Valve",
+    "description": "Worcester F519 ASA150 flanged ball valve with floating ball design. Third party approved to BS 5351 with fire testing to BS EN 10497. Features ISO 5211 actuator mounting, anti-blowout stem, and anti-static design.",
+    "features": [
+      "ASA150 flanged ball valve design",
+      "Sizes 1/2 inch through 8 inch",
+      "BS 5351 and API 6D approved",
+      "Fire-safe BS EN 10497 tested",
+      "ISO 5211 actuator mounting platform",
+      "Anti-blowout stem for safety"
+    ]
+  },
+  "flowserveWorcesterSeries44BallValve": {
+    "title": "Flowserve Worcester Series 44 Three-Piece Ball Valve",
+    "description": "Industry-leading Worcester Series 44 three-piece ball valve designed to ANSI B16.34 specifications. Features advanced seat technology for bubble-tight shutoff, can be configured for on-off or throttling control applications.",
+    "features": [
+      "Three-piece ball valve design",
+      "ANSI B16.34 specifications",
+      "Bubble-tight shutoff capability",
+      "Advanced seal technology",
+      "On-off or throttling operation",
+      "Sizes 1/4 inch to 6 inch"
+    ]
+  },
+  "swagelokSs43gs4BallValve": {
+    "title": "Swagelok SS-43GS4 40G Series Ball Valve",
+    "description": "Swagelok SS-43GS4 stainless steel one-piece instrumentation ball valve for on-off quarter-turn service. Features 3,000 PSI rating, enhanced thermal cycling capability, -65°F to 300°F range, and inline packing adjustments.",
+    "features": [
+      "One-piece stainless steel construction",
+      "3,000 PSI working pressure",
+      "Temperature range -65°F to 300°F",
+      "Enhanced thermal cycling capability",
+      "Quarter-turn on-off operation",
+      "Inline packing adjustment capability"
+    ]
+  },
+  "burkert2655BallValve": {
+    "title": "Burkert Type 2655 Pneumatic Ball Valve",
+    "description": "Burkert Type 2655 three-piece ball valve with Type 2050 pneumatic rotary actuator for on-off operation. Features ISO 5211 standard interface, linear piston with quick-acting coupling, and 2/2-way operation for shutoff and flow distribution.",
+    "features": [
+      "3-piece stainless steel ball valve",
+      "Type 2050 pneumatic rotary actuator",
+      "ISO 5211 flange connection",
+      "90° quarter-turn on-off operation",
+      "Single or double-acting pneumatic",
+      "Quick-acting screw thread coupling"
+    ]
   }
 }

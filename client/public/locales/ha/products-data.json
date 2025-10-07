@@ -31,6 +31,300 @@
       ]
     }
   },
+  "labels": {
+    "power": "Ƙarfin Mota",
+    "speed": "Ƙimar Gudu",
+    "airflow": "Yawan Iska",
+    "efficiency": "Inganci",
+    "warranty": "Garanti",
+    "voltage": "Wutar Lantarki",
+    "solarPanelRequirement": "Buƙatar Fannin Hasken Rana",
+    "headRange": "Matsayin Kai",
+    "flowRate": "Yawan Gudun Ruwa",
+    "cableType": "Nau'in Kebul",
+    "conductorSize": "Girman Mai Gudanarwa",
+    "voltageRating": "Ƙimar Wutar Lantarki",
+    "temperatureRange": "Matsayin Zafin Jiki",
+    "shielding": "Kariya",
+    "insulation": "Rufi",
+    "flow": "Yawan Gudun Ruwa",
+    "head": "Kai",
+    "solarCompatible": "Mai jituwa da Hasken Rana",
+    "type": "Nau'in Kebul",
+    "awg": "Girman Mai Gudanarwa",
+    "temperature": "Matsayin Zafin Jiki"
+  },
+  "bldc-smart1200": {
+    "seo": {
+      "title": "BLDC Smart Fanka Rufi 1200 RPM - Mai Amfani da Wutar Lantarki | Injiniyan Powerton",
+      "description": "Babban ingancin BLDC Smart Fanka Rufi 1200 RPM tare da ramut, aikin lokaci, da fasahar ceton makamashi. Cikakke ga gidaje da ofisoshi.",
+      "keywords": "BLDC fanka rufi, smart fanka rufi, fanka mai amfani da wutar lantarki, 1200 RPM fanka rufi, brushless DC mota fanka, ramut control fanka"
+    },
+    "hero": {
+      "title": "BLDC Smart Fanka Rufi 1200 RPM",
+      "subtitle": "Fanka mai wayo mai amfani da wutar lantarki tare da ramut"
+    },
+    "overview": {
+      "fullDescription": "Smart BLDC Fanka Rufin mu 1200 RPM ya haɗu da sabuwar fasahar motar DC mara goge tare da fasalulluka masu wayo don ingantaccen amfani da wutar lantarki da kwanciyar hankali. An ƙera shi don zama da aikace-aikacen kasuwanci masu sauƙi, wannan fanka yana ba da ingantaccen aiki yayin da yake cinye har zuwa 65% ƙarancin wutar lantarki fiye da fanka na gargajiya."
+    },
+    "keyBenefits": [
+      "Har zuwa 65% Tanadin Makamashi",
+      "Ramut Mai Wayo",
+      "Aiki Mai Shiru",
+      "Tsawon Rayuwa"
+    ],
+    "features": [
+      "Fasahar Mota DC Mara Goge",
+      "Ramut Mai Wayo tare da Lokaci",
+      "Sarrafa Gudun Bambance-bambance",
+      "Siffar Juyawa Baya",
+      "Nuna Alamar LED",
+      "Ƙimar Tauraron Makamashi",
+      "Mota Mai ɗauke da Jan Ƙarfe",
+      "Ƙirar Ruwa Mai Aerodynamic"
+    ],
+    "applications": [
+      "Dakunan Kwanciya na Gida",
+      "Dakunan Zama",
+      "Ofisoshi",
+      "Dakunan Karatu",
+      "Dakunan Baƙi",
+      "Ƙananan Wuraren Kasuwanci"
+    ],
+    "industries": [
+      "Ginin Gida",
+      "Kayan Ciki",
+      "Baƙi",
+      "Gine-ginen Ofisoshi",
+      "Cibiyoyin Ilimi",
+      "Cibiyoyin Kiwon Lafiya"
+    ],
+    "certifications": [
+      "Tauraron Makamashi Mai Takarda",
+      "Alamar ISI",
+      "CE Mai Amincewa",
+      "RoHS Mai Yardarwa",
+      "BEE 5 Taurari"
+    ]
+  },
+  "bldc-premium1400": {
+    "seo": {
+      "title": "BLDC Premium Fanka Rufi 1400 RPM - Ci-gaban Siffofi | Injiniyan Powerton",
+      "description": "Babban BLDC Fanka Rufi 1400 RPM tare da ci-gaban fasalulluka masu wayo, ingantaccen iska, da fasahar motar brushless mai amfani da wutar lantarki.",
+      "keywords": "premium BLDC fanka rufi, 1400 RPM fanka rufi, ci-gaban fanka rufi, smart fanka rufi, babban iska fan, mai amfani da wutar lantarki"
+    },
+    "hero": {
+      "title": "BLDC Premium Fanka Rufi 1400 RPM",
+      "subtitle": "Babban fanka mai aiki tare da hasken LED"
+    },
+    "overview": {
+      "fullDescription": "Premium BLDC Fanka Rufi 1400 RPM yana wakiltar kololuwar fasahar fanka rufi tare da ci-gaban fasalulluka da ingancin gini. An ƙera shi don ingantaccen aiki tare da isar da iska mafi girma yayin kiyaye ingantaccen amfani da wutar lantarki don manyan aikace-aikacen zama da kasuwanci."
+    },
+    "keyBenefits": [
+      "Babban Ayyukan Iskar",
+      "Ci-gaban Kula Mai Wayo",
+      "Babban Ingancin Gina",
+      "Ƙarin garanti"
+    ],
+    "features": [
+      "Babban Ayyukan Mota ta BLDC",
+      "Haɗin WiFi Mai Wayo",
+      "Sarrafa App na Wayar hannu",
+      "Mai jituwa da Mataimakin Murya",
+      "Ramut Mai Kyau",
+      "Ruwan Aerodynamic Mai Inganci",
+      "Anti-Dust Coating",
+      "Haɗin Firikwensin Zafin Jiki"
+    ],
+    "applications": [
+      "Wuraren Zama Masu Kyau",
+      "Babban Dakuna",
+      "Manyan Wuraren Zama",
+      "Ofisoshin Zartarwa",
+      "Dakunan Taro",
+      "Otal-otal Masu Kyau"
+    ],
+    "industries": [
+      "Gidan Zama Mai Kyau",
+      "Baƙi Mai Kyau",
+      "Ofisoshin Kamfanoni",
+      "Babban Siyarwa",
+      "Kiwon Lafiya Mai Kyau",
+      "Ilimi Mai Girma"
+    ],
+    "certifications": [
+      "Tauraron Makamashi Mai Takarda",
+      "Alamar ISI",
+      "CE Mai Amincewa",
+      "RoHS Mai Yardarwa",
+      "BEE 5 Taurari",
+      "WiFi Alliance Certified"
+    ]
+  },
+  "bldc-commercial1500": {
+    "seo": {
+      "title": "BLDC Fanka Rufi na Kasuwanci 1500 RPM - Nauyi Mai Nauyi | Injiniyan Powerton",
+      "description": "BLDC Fanka Rufi na Kasuwanci 1500 RPM wanda aka ƙera don aikace-aikace masu nauyi tare da iyakar iska da amintaccen masana'antu.",
+      "keywords": "kasuwanci BLDC fanka rufi, masana'antu fanka rufi, 1500 RPM fan, nauyi mai nauyi fanka rufi, kasuwanci grade fan, babban iska"
+    },
+    "hero": {
+      "title": "BLDC Fanka Rufi na Kasuwanci 1500 RPM",
+      "subtitle": "Fanka mai nauyi don aikace-aikacen kasuwanci"
+    },
+    "overview": {
+      "fullDescription": "Kasuwancinmu na BLDC Fanka Rufi 1500 RPM an ƙera shi don aikace-aikacen kasuwanci masu nauyi waɗanda ke buƙatar iyakar iska da aminci. An gina shi tare da abubuwan haɗin masana'antu da ci-gaban fasahar mota don isar da daidaitaccen aiki a cikin mahalli masu buƙata yayin kiyaye amfani da wutar lantarki."
+    },
+    "keyBenefits": [
+      "Matsakaicin Isar da Iska",
+      "Amintaccen Masana'antu",
+      "Gina Mai Nauyi",
+      "Kariyar Garanti Mai Tsawaitawa"
+    ],
+    "features": [
+      "Mota mai nauyi ta BLDC",
+      "Ƙarfafa Gidan Mota",
+      "Bearings na Kasuwanci",
+      "Ruwan Ƙarfe Mai Ƙarfi",
+      "Ci gaba da Ƙimar Aiki",
+      "Ƙirar Mara Vibration",
+      "Ƙarshen Jure Lalata",
+      "Ramut na Masana'antu"
+    ],
+    "applications": [
+      "Gine-ginen Kasuwanci",
+      "Cibiyoyin Masana'antu",
+      "Manyan Ofisoshi",
+      "Shawarwarin Siyarwa",
+      "Warehouses",
+      "Masana'antun Masana'antu"
+    ],
+    "industries": [
+      "Kasuwancin Kasuwanci",
+      "Masana'antun Masana'antu",
+      "Siyarwa & Siyayya",
+      "Warehousing & Logistics",
+      "Baƙi na Kasuwanci",
+      "Cibiyoyin Ilimi"
+    ],
+    "certifications": [
+      "Tauraron Makamashi Mai Takarda",
+      "Alamar ISI",
+      "CE Mai Amincewa",
+      "RoHS Mai Yardarwa",
+      "BEE 5 Taurari",
+      "Kasuwanci Mai Kyau Mai Takarda"
+    ]
+  },
+  "solar-bldc-submersible-1hp": {
+    "seo": {
+      "title": "Solar BLDC Famfon Ruwa Mai ɗaukar Nau'in 1HP - Maganin Ruwa Mai Dorewa | Injiniyan Powerton",
+      "description": "Famfon Ruwa Mai ɗaukar Nau'in BLDC Mai Amfani da Hasken Rana 1HP don ban ruwa na noma da samar da ruwa tare da ci-gaban fasahar hasken rana da ingancin makamashi.",
+      "keywords": "famfon ruwa mai ɗaukar nau'in hasken rana, famfon ruwa na BLDC, famfon ruwa na hasken rana, famfon ruwa mai ɗaukar nau'in 1HP, famfon makamashi mai sabuntawa, famfon noma"
+    },
+    "hero": {
+      "title": "Solar BLDC Famfon Ruwa Mai ɗaukar Nau'in 1HP",
+      "subtitle": "Magani na famfon ruwa mai amfani da hasken rana"
+    },
+    "overview": {
+      "fullDescription": "Solar BLDC Famfon Ruwa Mai ɗaukar Nau'in 1HP ya haɗu da sabuntawar hasken rana tare da ci-gaban fasahar motar brushless don maganin famfon ruwa mai ɗorewa. An ƙera shi don ban ruwa na noma, samar da ruwan gida, da tsarin ruwa mai nisa tare da iyakar inganci da aminci."
+    },
+    "keyBenefits": [
+      "100% Mai Amfani da Hasken Rana",
+      "Sifili Kudin Aiki",
+      "Abokantaka ga Muhalli",
+      "Mai jituwa da Yankin Nesa"
+    ],
+    "features": [
+      "Mota ta BLDC Mai jituwa da Hasken Rana",
+      "An haɗa da Mai Kula da MPPT",
+      "Ƙirar Sanyaya Ruwa",
+      "Kariyar Bushewar Gudu",
+      "Fasahar Fara Mai Laushi",
+      "Kayan da ke Jure Lalata",
+      "Mai jituwa da Canjin iyo",
+      "Tsarin Kula da Nesa"
+    ],
+    "applications": [
+      "Ban ruwa na Noma",
+      "Samar da Ruwan Gida",
+      "Shayar da Dabbobi",
+      "Tsarin Ruwa Mai Nisa",
+      "Samar da Ruwa na Karkara",
+      "Ban ruwa na Lambu"
+    ],
+    "industries": [
+      "Noma & Noma",
+      "Ci gaban Karkara",
+      "Gudanar da Ruwa",
+      "Sabuwar Makamashi",
+      "Tsarin Ban ruwa",
+      "Fasaha Mai Dorewa"
+    ],
+    "certifications": [
+      "Hasken Rana Mai Takarda",
+      "Alamar ISI",
+      "CE Mai Amincewa",
+      "RoHS Mai Yardarwa",
+      "Ƙimar IP68",
+      "MNRE Mai Amincewa"
+    ]
+  },
+  "instrumentation-cables": {
+    "seo": {
+      "title": "Kebul na Kayan Aiki - Daidaitaccen Watsawa Sigina | Injiniyan Powerton",
+      "description": "Kebul na kayan aiki masu inganci tare da garkuwar gini don daidaitaccen aunawa da watsawa siginar sarrafawa.",
+      "keywords": "kebul na kayan aiki, garkuwar murɗa biyu, kebul na sigina, kebul na aunawa, kebul na sarrafawa, kebul na masana'antu"
+    },
+    "hero": {
+      "title": "Kebul na Kayan Aiki",
+      "subtitle": "Daidaitaccen Watsawa Sigina"
+    },
+    "overview": {
+      "fullDescription": "Kebul na kayan aiki na ƙwararru wanda aka ƙera don daidaitaccen watsawa sigina a cikin aunawa masana'antu da aikace-aikacen sarrafawa. Yana fasalta garkuwar murɗa biyu, ƙin amo mai kyau, da ingantaccen amincin sigina don mahimman tsarin kayan aiki."
+    },
+    "keyBenefits": [
+      "Babban Amincin Sigina",
+      "Kyakkyawan Rigakafin Amo",
+      "Faɗin Matsayin Zafin Jiki",
+      "Mai Jure Kemikal",
+      "Shigarwa Mai Sauƙi",
+      "Tsawon Rayuwa"
+    ],
+    "features": [
+      "Ƙirar Murɗa Biyu Mai Kariya",
+      "Gina Ƙarfin Ƙarfi",
+      "Saitin Wayar Magudanar Ruwa",
+      "Gano Launi",
+      "Jaket Mai Hana Wuta",
+      "Mai Jure Mai & Kemikal",
+      "Ƙarfafa Mai Sauƙi",
+      "Zaɓuɓɓukan Ma'aurata Da yawa"
+    ],
+    "applications": [
+      "Tsarin Kula da Tsari",
+      "Madaukai na Kayan Aiki",
+      "Haɗin Sensor",
+      "Wayar Mai watsawa",
+      "Haɗin Analyzer",
+      "Wayar ɗakin Sarrafawa"
+    ],
+    "industries": [
+      "Mai & Gas",
+      "Sarrafa Kemikal",
+      "Samar da Wutar Lantarki",
+      "Jiyya na Ruwa",
+      "Masana'antu",
+      "Magunguna"
+    ],
+    "certifications": [
+      "UL Lissafa",
+      "CSA Mai Takarda",
+      "Alamar CE",
+      "IEC 60502",
+      "NFPA 70",
+      "RoHS Mai Yardarwa"
+    ]
+  }
   "bldcCeilingFan": {
     "smart1200": {
       "name": "Fanka Mai Wayo ta BLDC - 1200mm",
@@ -699,5 +993,511 @@
       "polycrystalline320W": "Polycrystalline Solar Panels - 320W",
       "bifacial450W": "Bifacial Solar Panels - 450W"
     }
+  },
+  "ovalFlowpetLsf41": {
+    "title": "OVAL FLOWPET LSF41 Mita Gudun Ruwa Mai Kyau",
+    "description": "Babban madaidaicin OVAL FLOWPET LSF41 mita gudun ruwa mai kyau tare da daidaito na musamman. Yana fasalta maimaitawa mafi girma, faɗin kewayon diamita, da ginin kayan aiki mai ƙima don buƙatun aikace-aikacen auna ruwa.",
+    "features": [
+      "Fasahar auna gudun ruwa mai kyau (PD)",
+      "Faɗin kewayon diamita: DN15 zuwa DN200 (1/2\" zuwa 8\")",
+      "Gudun ruwa: 0.05-1500 L/min (ya danganta da girman)",
+      "Madaidaici na musamman: ±0.1% na karatu",
+      "Maimaitawa mafi girma: ±0.02% na karatu",
+      "Zafin aiki: -20°C zuwa +120°C",
+      "Ƙimar kariya ta IP67",
+      "Fitowa da yawa: Fitowar bugun jini, 4-20mA, HART",
+      "Haɗin aiki da yawa: Flanged (JIS, ANSI, DIN), Zare",
+      "Kayan aiki masu ƙima: SUS316, SUS316L, Hastelloy C-276",
+      "ATEX, IECEx, FM sun yarda"
+    ]
+  },
+  "badgerMeterM1000": {
+    "title": "Badger Meter M1000 Mita Gudun Ruwa Mai Nutating Disc",
+    "description": "Abin dogaro Badger Meter M1000 nutating disc mita gudun ruwa mai kyau tare da fasahar auna auna ci gaba. Yana fasalta daidaito na musamman, zaɓuɓɓukan sadarwa da yawa, da ginin da ya dace don aikace-aikacen amfanin ruwa.",
+    "features": [
+      "Fasahar nutating disc mai kyau",
+      "Kewayon diamita: DN15 zuwa DN100 (5/8\" zuwa 4\")",
+      "Gudun ruwa: 0.125-400 GPM (ya danganta da girman)",
+      "Kyakkyawan daidaito: ±0.5% na karatu",
+      "Kyakkyawan maimaitawa: ±0.1% na karatu",
+      "Zafin aiki: -20°C zuwa +70°C",
+      "Ƙimar kariya ta IP68",
+      "Sadarwa da yawa: Fitowar bugun jini, AMR/AMI, 4-20mA",
+      "Haɗin aiki da yawa: Flanged (ANSI), NPT, Matsi",
+      "Kayan aiki masu ƙarfi: Bronze, Cast Iron, 316L SST",
+      "NSF, AWWA, ANSI sun yarda"
+    ]
+  },
+  "krohneBm100PdMeter": {
+    "title": "KROHNE BM 100 Mita Gudun Ruwa Mai Kyau na Oval Gear",
+    "description": "Babban aikin KROHNE BM 100 mita gudun ruwa mai kyau na oval gear tare da fasahar auna auna ci gaba. Yana fasalta daidaito na musamman, maimaitawa mafi girma, da sadarwa mai yawa don aikace-aikacen masana'antu.",
+    "features": [
+      "Fasahar oval gear mai kyau",
+      "Faɗin kewayon diamita: DN10 zuwa DN200 (3/8\" zuwa 8\")",
+      "Gudun ruwa: 0.15-3000 L/min (ya danganta da girman)",
+      "Babban daidaito: ±0.2% na karatu",
+      "Kyakkyawan maimaitawa: ±0.05% na karatu",
+      "Faɗin zafin aiki: -40°C zuwa +200°C",
+      "Ƙimar kariya ta IP67",
+      "Multi-protocol: Fitowar bugun jini, 4-20mA, HART, Modbus",
+      "Haɗin aiki da yawa: Flanged (DIN, ANSI), Zare",
+      "Kayan aiki masu dacewa: Aluminium, Cast Iron, 316L SST",
+      "ATEX, IECEx, FM, CSA sun yarda"
+    ]
+  },
+  "kralVolumeterOmg": {
+    "title": "KRAL VoluMeter OMG Mita Gudun Ruwa Mai Kyau na Screw",
+    "description": "Madaidaicin KRAL VoluMeter OMG mita gudun ruwa mai kyau na screw tare da daidaitaccen auna auna. Yana fasalta maimaitawa mafi girma, sadarwa mai yawa, da takaddun shaida na MID don aikace-aikacen canja wurin tsaro.",
+    "features": [
+      "Fasahar gudun ruwa mai kyau",
+      "Kewayon diamita: DN15 zuwa DN150 (1/2\" zuwa 6\")",
+      "Gudun ruwa: 0.5-1200 L/min (ya danganta da girman)",
+      "Madaidaici na musamman: ±0.1% na karatu",
+      "Maimaitawa mafi girma: ±0.02% na karatu",
+      "Faɗin zafin aiki: -40°C zuwa +200°C",
+      "Ƙimar kariya ta IP67",
+      "Multi-protocol: Fitowar bugun jini, 4-20mA, HART, Profibus",
+      "Haɗin aiki da yawa: Flanged (DIN, ANSI), Zare",
+      "Kayan aiki masu ƙarfi: Aluminium, Cast Steel, 316L SST",
+      "ATEX, IECEx, FM, CSA, MID sun yarda"
+    ]
+  },
+  "flowTechnologyDcISeries": {
+    "title": "Flow Technology DC-I Series Mita Gudun Ruwa Mai Kyau na Helical Gear",
+    "description": "Ci-gaban Flow Technology DC-I Series mita gudun ruwa mai kyau na helical gear wanda aka ƙera don ruwa mai yawa. Yana fasalta ultra-wide viscosity range, daidaito na musamman, da kayan aiki na musamman don buƙatun aikace-aikacen kemikal da petrochemical.",
+    "features": [
+      "Fasahar helical gear mai kyau",
+      "Ƙananan kewayon diamita: DN6 zuwa DN50 (1/4\" zuwa 2\")",
+      "Ultra-wide gudun ruwa: 0.001-400 GPM (ya danganta da girman)",
+      "Ultra-wide viscosity range: 0.6 zuwa 1,000,000 cP",
+      "Kyakkyawan daidaito: ±0.5% na karatu",
+      "Kyakkyawan maimaitawa: ±0.05% na karatu",
+      "Tsawaita zafin aiki: -40°C zuwa +204°C",
+      "Ƙimar kariya ta IP65",
+      "Sadarwa: Fitowar bugun jini, 4-20mA, HART",
+      "Haɗin aiki da yawa: Flanged (ANSI), NPT, BSP",
+      "Kayan aiki na musamman: 316 SST, Hastelloy C, PPS",
+      "ATEX, FM, CSA sun yarda"
+    ]
+  },
+  "danfossKp36": {
+    "title": "Danfoss KP36 Matsi Sauya",
+    "description": "Saukakawa matsa lamba na masana'antu tare da lambobin sadarwa na lantarki don aiki mai aminci a cikin tururi, iska, da aikace-aikacen ruwa.",
+    "features": [
+      "Tsarin tuntuɓar SPDT don canzawa mai aminci",
+      "Aikin tafiya ta hannu don gwaji",
+      "Zafin aiki: -40°F zuwa 175°F",
+      "Saitunan matsa lamba daban-daban masu daidaitawa",
+      "Ya dace da iskar gas da ruwa"
+    ]
+  },
+  "schneider9013fsg2j24m4": {
+    "title": "Schneider Electric 9013FSG2J24M4 Sauya Pumptrol",
+    "description": "Square D Pumptrol sauya matsa lamba tare da ƙarancin matsa lamba don aikace-aikacen famfo har zuwa 1.5 HP.",
+    "features": [
+      "Saitin matsa lamba 40-60 PSI",
+      "15-30 PSI bambanci mai daidaitawa",
+      "Ƙananan kariya mai ƙarancin matsa lamba",
+      "NEMA 1/IP20 enclosure",
+      "UL Listed, CSA Certified"
+    ]
+  },
+  "wikaPsm760": {
+    "title": "WIKA PSM-760 Sauya Matsi Mai Shiryawa",
+    "description": "Saukakawa matsa lamba na lantarki mai shirye-shirye tare da fitarwa 4-20mA da nunin dijital don daidaitaccen sa ido kan matsa lamba da aikace-aikacen sarrafawa.",
+    "features": [
+      "Maki sauyawa masu shirye-shirye",
+      "Siginar fitarwa ta analog 4-20mA",
+      "Nunin LED na dijital",
+      "0-600 mashaya matsa lamba",
+      "Sassan da aka jika na bakin karfe",
+      "Ƙimar kariya ta IP65"
+    ]
+  },
+  "abb266dsh": {
+    "title": "ABB 266DSH Bambancin Sauya Matsi",
+    "description": "Saukakawa matsa lamba daban-daban mai tabbatar da fashewa tare da NEMA 7 enclosure don aikace-aikacen yanki masu haɗari waɗanda ke buƙatar sa ido kan bambancin matsa lamba mai aminci.",
+    "features": [
+      "Auna bambancin matsa lamba",
+      "Tabbatar da fashewa NEMA 7 enclosure",
+      "Yanki mai haɗari ya tabbatar",
+      "Saitunan bambanci masu daidaitawa",
+      "Ginin da ke jure lalata",
+      "Babban/ƙananan fitarwar ƙararrawa"
+    ]
+  },
+  "ashcroftB424b": {
+    "title": "Ashcroft B424B Sauya Matsi Mai Nauyi",
+    "description": "Saukakawa matsa lamba na masana'antu mai nauyi tare da lambobin sadarwa na SPDT da ginin da ya dace don aiki mai aminci a cikin aikace-aikace masu buƙata.",
+    "features": [
+      "Tsarin masana'antu mai nauyi",
+      "Tsarin tuntuɓar SPDT",
+      "0-1000 psi matsa lamba",
+      "Bakin karfe bourdon tube",
+      "Gidan da ke jure lalata",
+      "UL da CSA sun yarda"
+    ]
+  },
+  "endressFtl31": {
+    "title": "Endress+Hauser FTL31 Liquiphant Sauya Matakin",
+    "description": "Saukakawa matakin madaidaiciyar madaidaiciya don gano matakin ruwa tare da fasahar firikwensin aiki don hana cikawa da kariyar famfo.",
+    "features": [
+      "Fasahar cokali mai yatsu tare da tuƙi na piezoelectric",
+      "Fasahar firikwensin aiki tana tabbatar da aikin na'ura",
+      "Ba a buƙatar gyara don kafofin watsa labarai daban-daban",
+      "G1 zaren haɗin aiki",
+      "An shigar da sama da miliyan 6 a duniya"
+    ]
+  },
+  "abbLsSeries": {
+    "title": "ABB LS Series Sauya Matakin Inji",
+    "description": "Madaidaicin sauya matakin iyo na inji tare da tsarin sauyawa da aka rufe don gano matakin madaidaicin ruwa mai aminci.",
+    "features": [
+      "Tsarin da ya fi dacewa a kasuwar masana'antu",
+      "Gyaran ma'anar sauyawa mataki ɗaya",
+      "Tsarin sauyawa mai ɗaki biyu da aka rufe",
+      "Akwai a cikin flanged ko samfuran sakawa",
+      "Akwai sama da daidaitawa 100"
+    ]
+  },
+  "vegaVegaswing61": {
+    "title": "VEGA VEGASWING 61 Sauya Matakin Rod Mai Girgizawa",
+    "description": "Saukakawa matakin sandar girgizar duniya don gano matakin madaidaici a cikin ruwa da ƙarfi mai yawa tare da ƙirar ƙira da haɗin aikin G1.",
+    "features": [
+      "Fasahar sandar girgizawa",
+      "Na duniya don ruwa da ƙarfi mai yawa",
+      "G1 zaren haɗin aiki",
+      "Ƙira da ba ta da kulawa",
+      "Babban juriya na zafin jiki",
+      "Sauƙi yin aiki"
+    ]
+  },
+  "siemens7ml12Pointflex": {
+    "title": "Siemens 7ML12 Point flex Capacitance Sauya Matakin",
+    "description": "Sauya matakin madaidaiciyar capacitance tare da samar da wutar lantarki ta duniya da kariya ta IP66/67 don gano matakin ruwa mai aminci a cikin aikace-aikacen masana'antu.",
+    "features": [
+      "Fasahar auna capacitance",
+      "Samar da wutar lantarki ta duniya 100-240VAC",
+      "Kariyar muhalli ta IP66/IP67",
+      "Sauƙi haɗin waya biyu",
+      "Saitunan hankali masu daidaitawa",
+      "Ya dace da kafofin watsa labarai masu gudanarwa/marasa gudanarwa"
+    ]
+  },
+  "magnetrolEchotel961": {
+    "title": "Magnetrol Echotel 961/962 Sauya Matakin Ultrasonic",
+    "description": "Saukakawa matakin ultrasonic mara tuntuɓar tare da fitarwa 4-20mA don gano matakin ruwa ba tare da tuntuɓar jiki tare da kafofin watsa labarai ba.",
+    "features": [
+      "Fasahar ultrasonic mara tuntuɓar",
+      "Siginar fitarwa ta analog 4-20mA",
+      "Babu ƙirar sassa masu motsi",
+      "Mafi dacewa don kafofin watsa labarai masu lalata/viscous",
+      "Nunin dijital ya haɗa",
+      "Sauƙi shigarwa da saiti"
+    ]
+  },
+  "omronWlca12Y": {
+    "title": "Omron WLCA12-Y Sauya Iyaka Mai Nauyi",
+    "description": "Saukakawa iyaka mai nauyi mai ɗaukar nauyi tare da ƙimar IP67 da gidan karfe-cast don mawuyacin yanayin masana'antu.",
+    "features": [
+      "Gidan karfe-cast don dacewa",
+      "Ƙimar kariya ta muhalli ta IP67",
+      "Mai daidaitawa mai daidaitawa",
+      "Tsarin sauyawa mai sauri",
+      "Ya dace da masana'antu masu nauyi na atomatik"
+    ]
+  },
+  "schneiderXcmd21f0l1": {
+    "title": "Schneider Electric XCMD21F0L1 OsiSense Sauya Iyaka",
+    "description": "Saukakawa iyaka mai daidaitaccen tsari daga kewayon OsiSense XC tare da mai ɗaukar nauyi mai sassauƙa don atomatik na masana'antu.",
+    "features": [
+      "Tsarin masana'antu mai daidaitaccen tsari",
+      "Mai ɗaukar nauyi mai sassauƙa",
+      "Bangare na OsiSense XC Standard range",
+      "Cikakken tsarin haɗi",
+      "Aiki mai aminci"
+    ]
+  },
+  "schneiderXckpLimitSwitch": {
+    "title": "Schneider Electric XCKP Sauya Iyaka na Filastik",
+    "description": "Ƙaramin sauya iyaka na filastik tare da mai ɗaukar plunger, lambobin sadarwa 2NC+2NO, da kariya ta IP67 don aikace-aikacen atomatik na masana'antu.",
+    "features": [
+      "Mai ɗaukar plunger na filastik",
+      "Tsarin tuntuɓar 2NC + 2NO",
+      "Kariyar muhalli ta IP67",
+      "Ƙirar ƙira don adana sarari",
+      "Lambobin buɗewa masu kyau",
+      "Faɗin zafin aiki"
+    ]
+  },
+  "abbLs30p": {
+    "title": "ABB LS30P Sauya Iyaka na Thermoplastic",
+    "description": "Sauya iyaka na gidan thermoplastic tare da tsarin aiki mai sauri da kariya ta IP66 don amintaccen gano matsayi a aikace-aikacen masana'antu.",
+    "features": [
+      "Ginin gidan thermoplastic",
+      "Tsarin sauyawa mai sauri",
+      "Kariyar muhalli ta IP66",
+      "Zaɓuɓɓukan actuator da yawa",
+      "Aiki mai ƙarfi da aminci",
+      "Sauƙi shigarwa da wayoyi"
+    ]
+  },
+  "eatonE51LimitSwitch": {
+    "title": "Eaton E51 Sauya Iyaka Mai Nauyi",
+    "description": "Sauya iyaka mai nauyi tare da gefen rotary actuator, saitin 4-pole, da kariya ta IP67 don mahalli masana'antu masu buƙata.",
+    "features": [
+      "Ginin masana'antu mai nauyi",
+      "Zane na gefen rotary actuator",
+      "Saitin tuntuɓar 4-pole",
+      "Rufin muhalli na IP67",
+      "Gidan karfe-cast",
+      "UL da CSA sun yarda"
+    ]
+  },
+  "schneiderXb4ba21": {
+    "title": "Schneider Electric XB4BA21 Maɓallin Tura Harmony",
+    "description": "Maɓallin turawa na karfe 22mm tare da chromium-plated bezel daga jerin Harmony XB4 don bangarori masu sarrafa masana'antu.",
+    "features": [
+      "Ginin karfe 22mm",
+      "Chromium-plated bezel don dorewa",
+      "Tsarin aiki na kai tsaye",
+      "Tsarin modular tare da abubuwan da za a iya musanyawa",
+      "FINGERSAFE™ contact blocks"
+    ]
+  },
+  "eatonM22DrR": {
+    "title": "Eaton M22-DR-R Maɓallin Tura Tsayawa na Gaggawa",
+    "description": "Maɓallin turawa na tsayawa na gaggawa 22mm tare da jan kan naman kaza da tsarin murɗawa-don-saki don aikace-aikacen aminci.",
+    "features": [
+      "Zane na modular 22mm",
+      "Jan kan naman kaza don tsayawa na gaggawa",
+      "Tsarin murɗawa-don-saki",
+      "Ƙimar kariya ta IP65/66/67",
+      "Ya dace da aikace-aikacen masana'antu masu sauƙi"
+    ]
+  },
+  "schneiderXb5Harmony": {
+    "title": "Schneider Electric Harmony XB5 Maɓallin Tura LED",
+    "description": "Maɓallin turawa mai haske 22mm tare da haɗaɗɗen LED, ginin karfe, da kariya ta IP65 don aikace-aikacen panel control.",
+    "features": [
+      "Ginin karfe 22mm",
+      "Haɗaɗɗen hasken LED",
+      "Kariyar muhalli ta IP65",
+      "Zaɓuɓɓukan launi da yawa suna akwai",
+      "Modular contact blocks",
+      "Sauƙi shigarwa"
+    ]
+  },
+  "abbCp110g": {
+    "title": "ABB CP1-10G Koren Maɓallin Tura",
+    "description": "Koren maɓallin turawa tare da lambobin sadarwa 1NO+1NC da kariya ta IP65 don aikace-aikacen sarrafa farawa/gudu a cikin bangarori na masana'antu.",
+    "features": [
+      "Launin kore don nuna farawa",
+      "Zane mai hawa",
+      "Saitin tuntuɓar 1NO + 1NC",
+      "Kariyar muhalli ta IP65",
+      "Ƙarami da aminci",
+      "Sauƙi shigarwa"
+    ]
+  },
+  "siemens3su1Pushbutton": {
+    "title": "Siemens 3SU1 Maɓallin Tura Mai Haske",
+    "description": "Maɓallin turawa mai haske tare da bezel na karfe, aikin 24V, da kariya ta IP67 don sarrafa masana'antu da aikace-aikacen sigina.",
+    "features": [
+      "Mai haske tare da bezel na karfe",
+      "Aikin 24V AC/DC",
+      "Kariyar muhalli ta IP67",
+      "Zaɓuɓɓukan launi da yawa",
+      "Tsarin tsarin modular",
+      "Babban aminci da dorewa"
+    ]
+  },
+  "fisherEdControlValve": {
+    "title": "Fisher easy-e™ ED Globe Control Valve",
+    "description": "Ma'aunin toshe mai daidaitawa tare da jagorar keji da wurin zama na karfe-zuwa-karfe don amintaccen sarrafa tsari.",
+    "features": [
+      "Zane mai daidaitawa",
+      "Jagorar keji don daidaitaccen sarrafawa",
+      "Wurin zama na karfe-zuwa-karfe",
+      "Shirye don matsayi na bawul na dijital",
+      "HART sadarwa mai jituwa"
+    ]
+  },
+  "samson3241GlobeValve": {
+    "title": "SAMSON Nau'in 3241 Globe Control Valve",
+    "description": "Bawul ɗin pneumatic globe na masana'antu don aikin injiniya tare da zane na modular da trims masu musanyawa don halaye daban-daban na kwarara.",
+    "features": [
+      "Zane na modular globe valve",
+      "Trims masu musanyawa don halaye na kwarara",
+      "Class VI (IEC: IV-S2) rufewa",
+      "SAM DIGITAL shirye tare da bincike mai hasashe",
+      "HART, Foundation Fieldbus sadarwa"
+    ]
+  },
+  "fisher657SizeReducer": {
+    "title": "Fisher Nau'in 657 Rage Girman Bawul",
+    "description": "Maɓallin sarrafa rage girman mai aiki da diaphragm don ƙananan shigarwa waɗanda ke buƙatar kyakkyawan sarrafa kwarara a cikin ƙananan girman bututu.",
+    "features": [
+      "Rage girman zane don ƙananan shigarwa",
+      "Aikin bazara da diaphragm",
+      "1/2 zuwa 2 inci girman",
+      "Kai tsaye hawa pneumatic actuator",
+      "Kyakkyawan halaye na kwarara",
+      "Ƙananan zane na kulawa"
+    ]
+  },
+  "masoneilan41000Globe": {
+    "title": "Masoneilan 41000 Series Globe Control Valve",
+    "description": "Bawul ɗin pneumatic globe tare da daidaitaccen tsarin datsa don aikace-aikace masu tsauri waɗanda ke buƙatar daidaitaccen sarrafa kwarara da rufewa mai ƙarfi.",
+    "features": [
+      "Zane na globe valve don daidaitaccen sarrafawa",
+      "Tsarin aikin pneumatic",
+      "Gina mai datsa daidaitawa",
+      "Ƙarfin sabis mai tsauri",
+      "Class VI shutoff rating",
+      "Faɗin rangeability"
+    ]
+  },
+  "samson3241PneumaticGlobeValve": {
+    "title": "SAMSON 3241 Pneumatic Globe Valve",
+    "description": "Bawul ɗin pneumatic globe tare da jagorar zane mai tushe don amintaccen sarrafa tsari a cikin girman DN15-300 tare da kyakkyawan halaye na kwarara.",
+    "features": [
+      "Zane na pneumatic globe valve",
+      "Jagorar tushe don kwanciyar hankali",
+      "DN15 zuwa DN300 girman",
+      "Zaɓuɓɓukan datsa da yawa suna akwai",
+      "SAM DIGITAL matsayi shirye",
+      "Gina mai ƙarfi"
+    ]
+  },
+  "asco8262h112dc24": {
+    "title": "ASCO 8262H112DC24 Janar Sabis Solenoid Valve",
+    "description": "Bawul ɗin solenoid mai hanyoyi 2 da aka rufe a cikin ginin bakin karfe don aikace-aikacen iska, ruwa, mai mai sauƙi, da iskar gas.",
+    "features": [
+      "Aiki mai hanyoyi 2 da aka rufe",
+      "Ginin bakin karfe",
+      "Ya dace da nau'ikan watsa labarai da yawa",
+      "Kai tsaye ko matukin jirgi",
+      "UL Listed da CSA Certified"
+    ]
+  },
+  "parkerS4aSolenoidValve": {
+    "title": "Parker S4A Series Refrigeration Solenoid Valve",
+    "description": "Solenoid valve wanda aka ƙera don sanyaya da tsarin sarrafa ruwa, mai jituwa da refrigerants da yawa kuma an gina shi don faɗin matsa lamba.",
+    "features": [
+      "Mai jituwa da R410A, R448A, R449A, R450A, R507A",
+      "Ƙarfin matsa lamba mai faɗi",
+      "Ƙarami da nauyi mai sauƙi",
+      "Kyakkyawan halaye na sarrafa kwarara",
+      "An gina shi don tsarin sanyaya kasuwanci"
+    ]
+  },
+  "asco8210g094": {
+    "title": "ASCO 8210G094 2-Hanya NC Solenoid Valve",
+    "description": "Bawul ɗin solenoid na tagulla mai hanyoyi 2 da aka rufe tare da haɗin 1/2 NPT da coil 120VAC don aikace-aikacen sabis na gabaɗaya.",
+    "features": [
+      "Aiki mai hanyoyi 2 da aka rufe",
+      "Ginin jikin tagulla",
+      "120V AC coil voltage",
+      "1/2 inch NPT connection",
+      "Aikace-aikacen sabis na gabaɗaya",
+      "UL da CSA sun yarda"
+    ]
+  },
+  "burkert6013": {
+    "title": "Bürkert Nau'in 6013 Kai tsaye-Aiki Solenoid Valve",
+    "description": "Kai tsaye-aiki 2/2-hanya solenoid valve tare da FKM seal da 24VDC coil don daidaitaccen sarrafa ruwa a cikin aikace-aikacen tsari.",
+    "features": [
+      "Ka'idar aiki kai tsaye",
+      "Saitin 2/2-hanya",
+      "FKM seal abu",
+      "Aikin 24V DC",
+      "Zane mai ƙarami",
+      "Ƙananan amfani da wutar lantarki"
+    ]
+  },
+  "parker71215sn2vn00": {
+    "title": "Parker 71215SN2VN00 Yawanci Buɗe Solenoid Valve",
+    "description": "Yawanci buɗe bawul ɗin solenoid bakin karfe tare da haɗin 1/4 inch da coil 12VDC don ƙwarewar aikace-aikacen sarrafawa.",
+    "features": [
+      "Saitin da aka buɗe",
+      "Ginin bakin karfe",
+      "Aikin 12V DC",
+      "1/4 inch girman tashar jiragen ruwa",
+      "Mai jure lalata",
+      "Ƙaramin sawun ƙafa"
+    ]
+  },
+  "fisherV150VeeBallValve": {
+    "title": "Fisher V150 Vee-Ball Bawul Mai Kunna/Kashe",
+    "description": "Fisher V150 Vee-Ball bawul tare da V-notch ball don amintaccen sabis na kunnawa-kashe ko throttling. Yana fasalta splined shaft shaft don rotary actuators, ginin flanged mai fuska, da kayan aiki masu dacewa da NACE MR0175-2 don sabis mai tsami.",
+    "features": [
+      "V-notch ball zane don kunnawa-kashe/throttling",
+      "NPS 1 ta hanyar 12 girman",
+      "Ginin flanged mai fuska",
+      "Splined shaft don rotary actuators",
+      "NACE MR0175-2 sabis mai tsami mai dacewa",
+      "ASME Class 150/300 ratings"
+    ]
+  },
+  "fisherV280BallValve": {
+    "title": "Fisher V280 Cikakken-Bore Ball Control Valve",
+    "description": "Babban aikin Fisher V280 guda uku trunnion ɗin da aka ɗora cikakken-bore ball valve don sabis na kunnawa-kashe. Yana sarrafa cikakken digo na matsa lamba na CL900 tare da attenuator mai hakowa na zaɓi don sarrafa amo/girgiza. Zane mai aminci da kayan aiki masu dacewa da NACE.",
+    "features": [
+      "Cikakken-bore trunnion ɗin da aka ɗora",
+      "Mai iya digo na matsa lamba na CL900",
+      "Zaɓin attenuator na amo don ruwa/gas",
+      "Ginin da aka tabbatar da aminci",
+      "NACE MR0175/ISO 15156 mai dacewa",
+      "Zane jiki guda uku"
+    ]
+  },
+  "flowserveWorcesterF519BallValve": {
+    "title": "Flowserve Worcester F519 ASA150 Ball Valve",
+    "description": "Worcester F519 ASA150 flanged ball valve tare da zane mai iyo. Ƙungiya ta uku ta amince da BS 5351 tare da gwajin wuta zuwa BS EN 10497. Yana fasalta ISO 5211 actuator mounting, anti-blowout stem, da anti-static design.",
+    "features": [
+      "ASA150 flanged ball valve",
+      "Girman 1/2 inch ta hanyar 8 inch",
+      "BS 5351 da API 6D sun yarda",
+      "An gwada aminci BS EN 10497",
+      "ISO 5211 actuator mounting platform",
+      "Anti-blowout stem don aminci"
+    ]
+  },
+  "flowserveWorcesterSeries44BallValve": {
+    "title": "Flowserve Worcester Series 44 Bawul Mai Guda Uku",
+    "description": "Babban bawul ɗin Worcester Series 44 mai guda uku wanda aka ƙera zuwa ƙayyadaddun ANSI B16.34. Yana fasalta fasahar wurin zama mai ci gaba don rufewa mai ƙarfi, ana iya saita shi don aikace-aikacen sarrafa kunnawa-kashe ko throttling.",
+    "features": [
+      "Zane na bawul mai guda uku",
+      "Ƙayyadaddun ANSI B16.34",
+      "Ƙarfin rufewa mai ƙarfi",
+      "Fasahar hatimi mai ci gaba",
+      "Ayyukan kunnawa-kashe ko throttling",
+      "Girman 1/4 inch zuwa 6 inch"
+    ]
+  },
+  "swagelokSs43gs4BallValve": {
+    "title": "Swagelok SS-43GS4 40G Series Ball Valve",
+    "description": "Swagelok SS-43GS4 bakin karfe guda ɗaya kayan aiki ball valve don sabis na kwata-kwata. Yana fasalta ƙimar 3,000 PSI, ƙarfin hawan keke mai zafi, -65°F zuwa 300°F range, da gyare-gyaren tattarawa.",
+    "features": [
+      "Ginin bakin karfe guda ɗaya",
+      "3,000 PSI matsa lamba",
+      "Zazzabi -65°F zuwa 300°F",
+      "Ƙarfin hawan keke mai zafi",
+      "Ayyukan kunnawa-kashe kwata-kwata",
+      "Ƙarfin gyara tattarawa"
+    ]
+  },
+  "burkert2655BallValve": {
+    "title": "Burkert Nau'in 2655 Pneumatic Ball Valve",
+    "description": "Burkert Nau'in 2655 mai guda uku tare da Nau'in 2050 pneumatic rotary actuator don aikin kunnawa-kashe. Yana fasalta ISO 5211 standard interface, linear piston tare da haɗin kai mai sauri, da aikin 2/2-hanya don rufewa da rarraba kwarara.",
+    "features": [
+      "3-guda bakin karfe ball valve",
+      "Nau'in 2050 pneumatic rotary actuator",
+      "ISO 5211 flange connection",
+      "90° kwata-kwata kunnawa-kashe",
+      "Single ko double-acting pneumatic",
+      "Mai saurin haɗin zaren dunƙule"
+    ]
   }
 }

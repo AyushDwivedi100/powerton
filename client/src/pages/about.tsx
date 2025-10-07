@@ -29,7 +29,6 @@ import industryFacilityImage from "@assets/generated_images/Industrial_automatio
 import { Helmet } from "react-helmet-async";
 import { generateBreadcrumbData } from "@/utils/seo-enhancements";
 
-
 export default function About() {
   useScrollAnimations();
   const { t } = useTranslation(["pages", "common"]);
@@ -71,7 +70,9 @@ export default function About() {
     },
     {
       goal: t("pages:about.futureGoals.technologyInnovation.goal"),
-      description: t("pages:about.futureGoals.technologyInnovation.description"),
+      description: t(
+        "pages:about.futureGoals.technologyInnovation.description",
+      ),
       icon: Rocket,
     },
     {
@@ -475,7 +476,7 @@ export default function About() {
             <p className="text-xl mb-8 opacity-90 max-w-3xl mx-auto">
               {t("pages:about.cta.description")}
             </p>
-            <div className="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4">
+            <div className="flex flex-col sm:flex-row justify-center space-y-4 gap-4 sm:space-y-0 sm:space-x-4">
               <Link href="/contact">
                 <Button className="bg-secondary hover:bg-secondary/90 text-secondary-foreground text-lg px-8 py-4">
                   {t("pages:about.cta.startProject")}

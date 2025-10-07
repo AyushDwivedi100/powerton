@@ -159,8 +159,9 @@ export default function ServicesSection() {
                             className="text-secondary hover:text-secondary hover:bg-transparent p-0 font-semibold transition-all duration-300"
                           >
                             {t("common:buttons.learnMore")}
-                            <span className="ml-2 transform group-hover:translate-x-2 transition-transform duration-300">
-                              →
+                            <span className="ms-2 inline-block transition-transform duration-300 group-hover:translate-x-2 rtl:group-hover:-translate-x-2">
+                              <span className="ltr:inline rtl:hidden">→</span>
+                              <span className="ltr:hidden rtl:inline">←</span>
                             </span>
                           </Button>
                         </div>

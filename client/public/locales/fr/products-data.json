@@ -31,6 +31,300 @@
       ]
     }
   },
+  "labels": {
+    "power": "Puissance du moteur",
+    "speed": "Indice de vitesse",
+    "airflow": "Débit d'air",
+    "efficiency": "Efficacité",
+    "warranty": "Garantie",
+    "voltage": "Tension",
+    "solarPanelRequirement": "Exigence de panneau solaire",
+    "headRange": "Plage de hauteur",
+    "flowRate": "Débit",
+    "cableType": "Type de câble",
+    "conductorSize": "Taille du conducteur",
+    "voltageRating": "Tension nominale",
+    "temperatureRange": "Plage de température",
+    "shielding": "Blindage",
+    "insulation": "Isolation",
+    "flow": "Débit",
+    "head": "Hauteur",
+    "solarCompatible": "Compatible solaire",
+    "type": "Type de câble",
+    "awg": "Taille du conducteur",
+    "temperature": "Plage de température"
+  },
+  "bldc-smart1200": {
+    "seo": {
+      "title": "Ventilateur de plafond intelligent BLDC 1200 RPM - Efficacité énergétique | Powerton Engineering",
+      "description": "Ventilateur de plafond intelligent BLDC 1200 RPM à haut rendement avec télécommande, fonction de minuterie et technologie d'économie d'énergie. Parfait pour les maisons et les bureaux.",
+      "keywords": "Ventilateur de plafond BLDC, ventilateur de plafond intelligent, ventilateur économe en énergie, ventilateur de plafond 1200 RPM, ventilateur à moteur CC sans balais, ventilateur à télécommande"
+    },
+    "hero": {
+      "title": "Ventilateur de plafond intelligent BLDC 1200 RPM",
+      "subtitle": "Ventilateur de plafond intelligent économe en énergie avec télécommande"
+    },
+    "overview": {
+      "fullDescription": "Notre ventilateur de plafond intelligent BLDC 1200 RPM combine une technologie de moteur CC sans balais de pointe avec des fonctionnalités intelligentes pour une efficacité énergétique et un confort optimaux. Conçu pour les applications résidentielles et commerciales légères, ce ventilateur offre des performances supérieures tout en consommant jusqu'à 65 % moins d'énergie que les ventilateurs traditionnels."
+    },
+    "keyBenefits": [
+      "Jusqu'à 65 % d'économies d'énergie",
+      "Télécommande intelligente",
+      "Fonctionnement silencieux",
+      "Longue durée de vie"
+    ],
+    "features": [
+      "Technologie de moteur CC sans balais",
+      "Télécommande intelligente avec minuterie",
+      "Contrôle de la vitesse variable",
+      "Fonction de direction inversée",
+      "Affichage à indicateur LED",
+      "Homologué Energy Star",
+      "Moteur à enroulement en cuivre",
+      "Conception de pale aérodynamique"
+    ],
+    "applications": [
+      "Chambres résidentielles",
+      "Salons",
+      "Espaces de bureaux",
+      "Salles d'étude",
+      "Chambres d'amis",
+      "Petits espaces commerciaux"
+    ],
+    "industries": [
+      "Construction résidentielle",
+      "Design d'intérieur",
+      "Hôtellerie",
+      "Immeubles de bureaux",
+      "Établissements d'enseignement",
+      "Établissements de soins de santé"
+    ],
+    "certifications": [
+      "Certifié Energy Star",
+      "Marque ISI",
+      "Approuvé CE",
+      "Conforme à la norme RoHS",
+      "Classement BEE 5 étoiles"
+    ]
+  },
+  "bldc-premium1400": {
+    "seo": {
+      "title": "Ventilateur de plafond BLDC Premium 1400 RPM - Fonctionnalités avancées | Powerton Engineering",
+      "description": "Ventilateur de plafond BLDC Premium 1400 RPM avec fonctionnalités intelligentes avancées, débit d'air supérieur et technologie de moteur sans balais économe en énergie.",
+      "keywords": "Ventilateur de plafond BLDC premium, ventilateur de plafond 1400 RPM, ventilateur de plafond avancé, ventilateur de plafond intelligent, ventilateur à débit d'air élevé, économe en énergie"
+    },
+    "hero": {
+      "title": "Ventilateur de plafond BLDC Premium 1400 RPM",
+      "subtitle": "Ventilateur de plafond haute performance avec éclairage LED"
+    },
+    "overview": {
+      "fullDescription": "Le ventilateur de plafond BLDC Premium 1400 RPM représente le summum de la technologie des ventilateurs de plafond avec des fonctionnalités avancées et une qualité de fabrication supérieure. Conçu pour des performances améliorées avec un débit d'air plus élevé tout en maintenant une efficacité énergétique exceptionnelle pour les applications résidentielles et commerciales haut de gamme."
+    },
+    "keyBenefits": [
+      "Performances de débit d'air supérieures",
+      "Commandes intelligentes avancées",
+      "Qualité de fabrication supérieure",
+      "Couverture de garantie étendue"
+    ],
+    "features": [
+      "Moteur BLDC haute performance",
+      "Connectivité WiFi intelligente",
+      "Commande d'application mobile",
+      "Compatible avec l'assistant vocal",
+      "Télécommande premium",
+      "Pales aérodynamiques à haut rendement",
+      "Revêtement anti-poussière",
+      "Intégration du capteur de température"
+    ],
+    "applications": [
+      "Espaces résidentiels haut de gamme",
+      "Chambres principales",
+      "Grands espaces de vie",
+      "Bureaux de direction",
+      "Salles de conférence",
+      "Hôtels de luxe"
+    ],
+    "industries": [
+      "Résidentiel haut de gamme",
+      "Hôtellerie de luxe",
+      "Bureaux d'entreprise",
+      "Vente au détail haut de gamme",
+      "Soins de santé haut de gamme",
+      "Éducation haut de gamme"
+    ],
+    "certifications": [
+      "Certifié Energy Star",
+      "Marque ISI",
+      "Approuvé CE",
+      "Conforme à la norme RoHS",
+      "Classement BEE 5 étoiles",
+      "Certifié WiFi Alliance"
+    ]
+  },
+  "bldc-commercial1500": {
+    "seo": {
+      "title": "Ventilateur de plafond commercial BLDC 1500 RPM - Usage intensif | Powerton Engineering",
+      "description": "Ventilateur de plafond commercial BLDC 1500 RPM conçu pour les applications intensives avec un débit d'air maximal et une fiabilité industrielle.",
+      "keywords": "Ventilateur de plafond commercial BLDC, ventilateur de plafond industriel, ventilateur 1500 RPM, ventilateur de plafond robuste, ventilateur de qualité commerciale, débit d'air élevé"
+    },
+    "hero": {
+      "title": "Ventilateur de plafond commercial BLDC 1500 RPM",
+      "subtitle": "Ventilateur de plafond robuste pour les applications commerciales"
+    },
+    "overview": {
+      "fullDescription": "Notre ventilateur de plafond commercial BLDC 1500 RPM est conçu pour les applications commerciales intensives nécessitant un débit d'air et une fiabilité maximum. Construit avec des composants de qualité industrielle et une technologie de moteur avancée pour offrir des performances constantes dans des environnements exigeants tout en conservant l'efficacité énergétique."
+    },
+    "keyBenefits": [
+      "Débit d'air maximal",
+      "Fiabilité de qualité industrielle",
+      "Construction robuste",
+      "Protection de garantie étendue"
+    ],
+    "features": [
+      "Moteur BLDC robuste",
+      "Boîtier de moteur renforcé",
+      "Roulements de qualité commerciale",
+      "Pales métalliques à haute résistance",
+      "Indice de fonctionnement continu",
+      "Conception sans vibrations",
+      "Finition résistante à la corrosion",
+      "Télécommande industrielle"
+    ],
+    "applications": [
+      "Bâtiments commerciaux",
+      "Installations industrielles",
+      "Grands espaces de bureaux",
+      "Salles d'exposition au détail",
+      "Entrepôts",
+      "Usines de fabrication"
+    ],
+    "industries": [
+      "Immobilier commercial",
+      "Fabrication industrielle",
+      "Vente au détail et centres commerciaux",
+      "Entreposage et logistique",
+      "Hôtellerie commerciale",
+      "Établissements d'enseignement"
+    ],
+    "certifications": [
+      "Certifié Energy Star",
+      "Marque ISI",
+      "Approuvé CE",
+      "Conforme à la norme RoHS",
+      "Classement BEE 5 étoiles",
+      "Certifié de qualité commerciale"
+    ]
+  },
+  "solar-bldc-submersible-1hp": {
+    "seo": {
+      "title": "Pompe submersible solaire BLDC 1 HP - Solutions d'eau durables | Powerton Engineering",
+      "description": "Pompe submersible solaire BLDC 1 HP pour l'irrigation agricole et l'approvisionnement en eau avec une technologie solaire avancée et une efficacité énergétique.",
+      "keywords": "Pompe submersible solaire, pompe à eau BLDC, pompe à eau solaire, pompe submersible 1 HP, pompe à énergie renouvelable, pompe agricole"
+    },
+    "hero": {
+      "title": "Pompe submersible solaire BLDC 1 HP",
+      "subtitle": "Solution de pompage d'eau à énergie solaire"
+    },
+    "overview": {
+      "fullDescription": "Notre pompe submersible solaire BLDC 1 HP combine l'énergie solaire renouvelable avec une technologie de moteur sans balais avancée pour des solutions de pompage d'eau durables. Conçue pour l'irrigation agricole, l'approvisionnement en eau domestique et les systèmes d'eau à distance avec une efficacité et une fiabilité maximales."
+    },
+    "keyBenefits": [
+      "100 % à énergie solaire",
+      "Aucun coût d'exploitation",
+      "Respectueux de l'environnement",
+      "Compatible avec les zones reculées"
+    ],
+    "features": [
+      "Moteur BLDC compatible solaire",
+      "Contrôleur MPPT inclus",
+      "Conception refroidie à l'eau",
+      "Protection contre la marche à sec",
+      "Technologie de démarrage progressif",
+      "Matériaux résistants à la corrosion",
+      "Compatible avec l'interrupteur à flotteur",
+      "Système de surveillance à distance"
+    ],
+    "applications": [
+      "Irrigation agricole",
+      "Approvisionnement en eau domestique",
+      "Abreuvement du bétail",
+      "Systèmes d'eau à distance",
+      "Approvisionnement en eau rurale",
+      "Irrigation de jardin"
+    ],
+    "industries": [
+      "Agriculture et exploitation agricole",
+      "Développement rural",
+      "Gestion de l'eau",
+      "Énergie renouvelable",
+      "Systèmes d'irrigation",
+      "Technologie durable"
+    ],
+    "certifications": [
+      "Certifié énergie solaire",
+      "Marque ISI",
+      "Approuvé CE",
+      "Conforme à la norme RoHS",
+      "Indice de protection IP68",
+      "Approuvé par MNRE"
+    ]
+  },
+  "instrumentation-cables": {
+    "seo": {
+      "title": "Câbles d'instrumentation - Transmission de signal de précision | Powerton Engineering",
+      "description": "Câbles d'instrumentation de haute qualité avec construction blindée pour une transmission précise des signaux de mesure et de contrôle.",
+      "keywords": "Câbles d'instrumentation, paire torsadée blindée, câbles de signal, câbles de mesure, câbles de commande, câbles industriels"
+    },
+    "hero": {
+      "title": "Câbles d'instrumentation",
+      "subtitle": "Transmission de signal de précision"
+    },
+    "overview": {
+      "fullDescription": "Câbles d'instrumentation professionnels conçus pour une transmission précise des signaux dans les applications de mesure et de contrôle industrielles. Dotés d'une construction à paire torsadée blindée, d'un excellent rejet du bruit et d'une intégrité du signal supérieure pour les systèmes d'instrumentation critiques."
+    },
+    "keyBenefits": [
+      "Intégrité du signal supérieure",
+      "Excellente immunité au bruit",
+      "Large plage de température",
+      "Résistant aux produits chimiques",
+      "Installation flexible",
+      "Longue durée de vie"
+    ],
+    "features": [
+      "Conception à paire torsadée blindée",
+      "Construction à faible capacité",
+      "Configuration du fil de drain",
+      "Identification à code couleur",
+      "Gaine ignifuge",
+      "Résistant à l'huile et aux produits chimiques",
+      "Toronnage flexible",
+      "Options de paires multiples"
+    ],
+    "applications": [
+      "Systèmes de contrôle de processus",
+      "Boucles d'instrumentation",
+      "Connexions de capteurs",
+      "Câblage de transmetteur",
+      "Connexions d'analyseur",
+      "Câblage de salle de contrôle"
+    ],
+    "industries": [
+      "Pétrole et gaz",
+      "Transformation chimique",
+      "Production d'énergie",
+      "Traitement de l'eau",
+      "Fabrication",
+      "Pharmaceutique"
+    ],
+    "certifications": [
+      "Homologué UL",
+      "Certifié CSA",
+      "Marquage CE",
+      "CEI 60502",
+      "NFPA 70",
+      "Conforme à la norme RoHS"
+    ]
+  },
   "bldcCeilingFan": {
     "smart1200": {
       "name": "Ventilateur de plafond intelligent BLDC - 1200mm",
@@ -699,5 +993,511 @@
       "polycrystalline320W": "Panneaux solaires polycristallins - 320W",
       "bifacial450W": "Panneaux solaires bifaciaux - 450W"
     }
+  },
+  "ovalFlowpetLsf41": {
+    "title": "Débitmètre volumétrique OVAL FLOWPET LSF41",
+    "description": "Débitmètre volumétrique OVAL FLOWPET LSF41 de haute précision avec une exactitude exceptionnelle. Il offre une répétabilité supérieure, une large plage de diamètres et une construction en matériaux de qualité supérieure pour les applications exigeantes de mesure de liquides.",
+    "features": [
+      "Technologie de mesure de débit volumétrique (PD)",
+      "Large plage de diamètres : DN15 à DN200 (1/2 pouce à 8 pouces)",
+      "Plage de débit : 0,05 à 1 500 l/min (selon la taille)",
+      "Exactitude exceptionnelle : ±0,1 % de la lecture",
+      "Répétabilité supérieure : ±0,02 % de la lecture",
+      "Température de traitement : -20 °C à +120 °C",
+      "Indice de protection IP67",
+      "Sorties multiples : Sortie impulsionnelle, 4-20 mA, HART",
+      "Raccords de traitement multiples : Brides (JIS, ANSI, DIN), Filetés",
+      "Matériaux de qualité supérieure : SUS316, SUS316L, Hastelloy C-276",
+      "Certifié ATEX, IECEx, FM"
+    ]
+  },
+  "badgerMeterM1000": {
+    "title": "Débitmètre à disque oscillant Badger Meter M1000",
+    "description": "Débitmètre volumétrique à disque oscillant Badger Meter M1000 fiable, doté d'une technologie de mesure avancée. Il offre une exactitude exceptionnelle, de multiples options de communication et une construction robuste pour les applications de distribution d'eau.",
+    "features": [
+      "Technologie volumétrique à disque oscillant",
+      "Plage de diamètres : DN15 à DN100 (5/8 pouce à 4 pouces)",
+      "Plage de débit : 0,125 à 400 GPM (selon la taille)",
+      "Bonne exactitude : ±0,5 % de la lecture",
+      "Bonne répétabilité : ±0,1 % de la lecture",
+      "Température de fonctionnement : -20 °C à +70 °C",
+      "Indice de protection IP68",
+      "Communications multiples : Sortie impulsionnelle, AMR/AMI, 4-20 mA",
+      "Raccords de traitement multiples : Brides (ANSI), NPT, Compression",
+      "Matériaux robustes : Bronze, Fonte, SST 316L",
+      "Certifié NSF, AWWA, ANSI"
+    ]
+  },
+  "krohneBm100PdMeter": {
+    "title": "Débitmètre à engrenages ovales volumétriques KROHNE BM 100",
+    "description": "Débitmètre à engrenages ovales volumétriques KROHNE BM 100 haute performance, doté d'une technologie de mesure avancée. Il offre une exactitude exceptionnelle, une répétabilité supérieure et une communication multiprotocole pour les applications industrielles.",
+    "features": [
+      "Technologie d'engrenages ovales volumétriques",
+      "Large plage de diamètres : DN10 à DN200 (3/8 pouce à 8 pouces)",
+      "Plage de débit : 0,15 à 3 000 l/min (selon la taille)",
+      "Haute exactitude : ±0,2 % de la lecture",
+      "Excellente répétabilité : ±0,05 % de la lecture",
+      "Large température de traitement : -40 °C à +200 °C",
+      "Indice de protection IP67",
+      "Multiprotocole : Sortie impulsionnelle, 4-20 mA, HART, Modbus",
+      "Raccords de traitement multiples : Brides (DIN, ANSI), Filetés",
+      "Matériaux polyvalents : Aluminium, Fonte, SST 316L",
+      "Certifié ATEX, IECEx, FM, CSA"
+    ]
+  },
+  "kralVolumeterOmg": {
+    "title": "Débitmètre à vis volumétrique KRAL VoluMeter OMG",
+    "description": "Débitmètre à vis volumétrique KRAL VoluMeter OMG de précision avec une exactitude de mesure exceptionnelle. Il offre une répétabilité supérieure, une communication multiprotocole et une certification MID pour les applications de transfert de propriété.",
+    "features": [
+      "Technologie de débit à vis volumétrique",
+      "Plage de diamètres : DN15 à DN150 (1/2 pouce à 6 pouces)",
+      "Plage de débit : 0,5 à 1 200 l/min (selon la taille)",
+      "Exactitude exceptionnelle : ±0,1 % de la lecture",
+      "Répétabilité supérieure : ±0,02 % de la lecture",
+      "Large température de traitement : -40 °C à +200 °C",
+      "Indice de protection IP67",
+      "Multiprotocole : Sortie impulsionnelle, 4-20 mA, HART, Profibus",
+      "Raccords de traitement multiples : Brides (DIN, ANSI), Filetés",
+      "Matériaux robustes : Aluminium, Acier moulé, SST 316L",
+      "Certifié ATEX, IECEx, FM, CSA, MID"
+    ]
+  },
+  "flowTechnologyDcISeries": {
+    "title": "Débitmètre à engrenages hélicoïdaux volumétriques Flow Technology série DC-I",
+    "description": "Débitmètre à engrenages hélicoïdaux volumétriques Flow Technology série DC-I avancé, conçu pour les fluides à haute viscosité. Il offre une plage de viscosité ultra large, une exactitude exceptionnelle et des matériaux spéciaux pour les applications chimiques et pétrochimiques exigeantes.",
+    "features": [
+      "Technologie d'engrenages hélicoïdaux volumétriques",
+      "Plage de diamètres compacte : DN6 à DN50 (1/4 pouce à 2 pouces)",
+      "Plage de débit ultra large : 0,001 à 400 GPM (selon la taille)",
+      "Plage de viscosité ultra large : 0,6 à 1 000 000 cP",
+      "Bonne exactitude : ±0,5 % de la lecture",
+      "Excellente répétabilité : ±0,05 % de la lecture",
+      "Température de traitement étendue : -40 °C à +204 °C",
+      "Indice de protection IP65",
+      "Communication : Sortie impulsionnelle, 4-20 mA, HART",
+      "Raccords de traitement multiples : Brides (ANSI), NPT, BSP",
+      "Matériaux spéciaux : SST 316, Hastelloy C, PPS",
+      "Certifié ATEX, FM, CSA"
+    ]
+  },
+  "danfossKp36": {
+    "title": "Pressostat Danfoss KP36",
+    "description": "Pressostat industriel avec contacts électriques à action brusque pour un fonctionnement fiable dans les applications de vapeur, d'air et de liquides.",
+    "features": [
+      "Système de contact SPDT pour une commutation fiable",
+      "Fonction de déclenchement manuel pour les essais",
+      "Température de fonctionnement : -40 °F à 175 °F",
+      "Réglages de pression différentielle réglables",
+      "Convient aux fluides gazeux et liquides"
+    ]
+  },
+  "schneider9013fsg2j24m4": {
+    "title": "Pressostat Pumptrol Schneider Electric 9013FSG2J24M4",
+    "description": "Pressostat Square D Pumptrol avec coupure basse pression pour les applications de pompe jusqu'à 1,5 HP.",
+    "features": [
+      "Réglage de pression 40-60 PSI",
+      "Différentiel réglable 15-30 PSI",
+      "Protection de coupure basse pression",
+      "Boîtier NEMA 1/IP20",
+      "Homologué UL, certifié CSA"
+    ]
+  },
+  "wikaPsm760": {
+    "title": "Pressostat programmable WIKA PSM-760",
+    "description": "Pressostat électronique programmable avec sortie 4-20 mA et affichage numérique pour les applications de surveillance et de contrôle de pression précises.",
+    "features": [
+      "Points de commutation programmables",
+      "Signal de sortie analogique 4-20 mA",
+      "Affichage numérique à DEL",
+      "Plage de pression 0-600 bars",
+      "Pièces en contact avec le fluide en acier inoxydable",
+      "Indice de protection IP65"
+    ]
+  },
+  "abb266dsh": {
+    "title": "Pressostat différentiel ABB 266DSH",
+    "description": "Pressostat différentiel antidéflagrant avec boîtier NEMA 7 pour les applications en zones dangereuses nécessitant une surveillance fiable de la pression différentielle.",
+    "features": [
+      "Mesure de pression différentielle",
+      "Boîtier NEMA 7 antidéflagrant",
+      "Certifié pour les zones dangereuses",
+      "Réglages différentiels réglables",
+      "Construction résistante à la corrosion",
+      "Sorties d'alarme haute/basse pression"
+    ]
+  },
+  "ashcroftB424b": {
+    "title": "Pressostat robuste Ashcroft B424B",
+    "description": "Pressostat industriel robuste avec contacts SPDT et construction robuste pour un fonctionnement fiable dans les applications exigeantes.",
+    "features": [
+      "Conception industrielle robuste",
+      "Configuration des contacts SPDT",
+      "Plage de pression 0-1000 psi",
+      "Tube de Bourdon en acier inoxydable",
+      "Boîtier résistant à la corrosion",
+      "Homologué UL et CSA"
+    ]
+  },
+  "endressFtl31": {
+    "title": "Détecteur de niveau Liquiphant Endress+Hauser FTL31",
+    "description": "Détecteur de niveau à point vibrant pour la détection du niveau de liquide avec une technologie de capteur active pour la prévention du débordement et la protection de la pompe.",
+    "features": [
+      "Technologie à diapason avec entraînement piézoélectrique",
+      "La technologie de capteur active assure la fonctionnalité de l'appareil",
+      "Aucun réglage nécessaire pour différents fluides",
+      "Filetage de raccordement de traitement G1",
+      "Plus de 6 millions d'appareils installés dans le monde"
+    ]
+  },
+  "abbLsSeries": {
+    "title": "Détecteur de niveau mécanique ABB série LS",
+    "description": "Détecteur de niveau à flotteur mécanique robuste avec mécanisme de commutation hermétiquement scellé pour une détection fiable du niveau de liquide à point fixe.",
+    "features": [
+      "Conception la plus robuste sur le marché industriel",
+      "Réglage du point de commutation en une étape",
+      "Commutation à double compartiment hermétiquement scellée",
+      "Disponible en modèles à bride ou à insertion",
+      "Plus de 100 configurations disponibles"
+    ]
+  },
+  "vegaVegaswing61": {
+    "title": "Détecteur de niveau à tige vibrante VEGA VEGASWING 61",
+    "description": "Détecteur de niveau à tige vibrante universel pour la détection de niveau à point fixe dans les liquides et les solides en vrac avec une conception compacte et un raccordement de traitement G1.",
+    "features": [
+      "Technologie de tige vibrante",
+      "Universel pour les liquides et les solides en vrac",
+      "Filetage de raccordement de traitement G1",
+      "Compact et sans entretien",
+      "Haute résistance à la température",
+      "Mise en service facile"
+    ]
+  },
+  "siemens7ml12Pointflex": {
+    "title": "Détecteur de niveau capacitif Siemens 7ML12 Point flex",
+    "description": "Détecteur de niveau capacitif à point fixe avec alimentation universelle et protection IP66/67 pour une détection fiable du niveau de liquide dans les applications industrielles.",
+    "features": [
+      "Technologie de mesure de capacité",
+      "Alimentation universelle 100-240 VCA",
+      "Protection environnementale IP66/IP67",
+      "Simplicité du raccordement à deux fils",
+      "Réglages de sensibilité réglables",
+      "Convient aux fluides conducteurs/non conducteurs"
+    ]
+  },
+  "magnetrolEchotel961": {
+    "title": "Détecteur de niveau à ultrasons Magnetrol Echotel 961/962",
+    "description": "Détecteur de niveau à ultrasons sans contact avec sortie 4-20 mA pour la détection du niveau de liquide sans contact physique avec le fluide de traitement.",
+    "features": [
+      "Technologie à ultrasons sans contact",
+      "Signal de sortie analogique 4-20 mA",
+      "Conception sans pièces mobiles",
+      "Idéal pour les fluides corrosifs/visqueux",
+      "Affichage numérique inclus",
+      "Installation et configuration faciles"
+    ]
+  },
+  "omronWlca12Y": {
+    "title": "Interrupteur de fin de course robuste Omron WLCA12-Y",
+    "description": "Interrupteur de fin de course à levier à galet robuste avec indice de protection IP67 et boîtier en métal moulé sous pression pour les environnements industriels difficiles.",
+    "features": [
+      "Boîtier en métal moulé sous pression pour la durabilité",
+      "Indice de protection environnementale IP67",
+      "Levier à galet réglable",
+      "Mécanisme de commutation à action brusque",
+      "Convient aux industries à forte automatisation"
+    ]
+  },
+  "schneiderXcmd21f0l1": {
+    "title": "Interrupteur de fin de course OsiSense Schneider Electric XCMD21F0L1",
+    "description": "Interrupteur de fin de course de format standard de la gamme OsiSense XC avec levier à galet flexible pour l'automatisation industrielle.",
+    "features": [
+      "Conception industrielle de format standard",
+      "Levier à galet flexible",
+      "Fait partie de la gamme standard OsiSense XC",
+      "Écosystème d'accessoires complet",
+      "Fonctionnement fiable à action brusque"
+    ]
+  },
+  "schneiderXckpLimitSwitch": {
+    "title": "Interrupteur de fin de course en plastique Schneider Electric XCKP",
+    "description": "Interrupteur de fin de course compact en plastique avec actionneur à plongeur à galet, contacts 2NF+2NO et protection IP67 pour les applications d'automatisation industrielle.",
+    "features": [
+      "Actionneur à plongeur à galet en plastique",
+      "Configuration des contacts 2NF + 2NO",
+      "Protection environnementale IP67",
+      "Conception compacte pour un gain de place",
+      "Contacts à ouverture positive",
+      "Large plage de températures de fonctionnement"
+    ]
+  },
+  "abbLs30p": {
+    "title": "Interrupteur de fin de course thermoplastique ABB LS30P",
+    "description": "Interrupteur de fin de course avec boîtier thermoplastique, mécanisme à action instantanée et protection IP66 pour une détection de position fiable dans les applications industrielles.",
+    "features": [
+      "Construction du boîtier en thermoplastique",
+      "Mécanisme de commutation à action instantanée",
+      "Protection environnementale IP66",
+      "Options d'actionneur multiples",
+      "Fonctionnement robuste et fiable",
+      "Installation et câblage faciles"
+    ]
+  },
+  "eatonE51LimitSwitch": {
+    "title": "Interrupteur de fin de course robuste Eaton E51",
+    "description": "Interrupteur de fin de course robuste avec actionneur rotatif latéral, configuration à 4 pôles et protection IP67 pour les environnements industriels exigeants.",
+    "features": [
+      "Construction industrielle robuste",
+      "Conception d'actionneur rotatif latéral",
+      "Configuration des contacts à 4 pôles",
+      "Étanchéité environnementale IP67",
+      "Boîtier en métal moulé sous pression",
+      "Certifié UL et CSA"
+    ]
+  },
+  "schneiderXb4ba21": {
+    "title": "Bouton-poussoir Harmony Schneider Electric XB4BA21",
+    "description": "Bouton-poussoir métallique de 22 mm avec collerette chromée de la gamme Harmony XB4 pour les panneaux de commande industriels.",
+    "features": [
+      "Construction métallique de 22 mm",
+      "Collerette chromée pour la durabilité",
+      "Conception de mise à la terre automatique",
+      "Système modulaire avec composants interchangeables",
+      "Blocs de contact FINGERSAFE™"
+    ]
+  },
+  "eatonM22DrR": {
+    "title": "Bouton-poussoir d'arrêt d'urgence Eaton M22-DR-R",
+    "description": "Bouton-poussoir d'arrêt d'urgence de 22 mm avec tête de champignon rouge et mécanisme de rotation pour le déblocage pour les applications de sécurité.",
+    "features": [
+      "Conception modulaire de 22 mm",
+      "Tête de champignon rouge pour l'arrêt d'urgence",
+      "Mécanisme de rotation pour le déblocage",
+      "Indices de protection IP65/66/67",
+      "Convient aux applications industrielles légères"
+    ]
+  },
+  "schneiderXb5Harmony": {
+    "title": "Bouton-poussoir à DEL Harmony Schneider Electric XB5",
+    "description": "Bouton-poussoir lumineux de 22 mm avec DEL intégrée, construction métallique et protection IP65 pour les applications de panneaux de commande.",
+    "features": [
+      "Construction métallique de 22 mm",
+      "Éclairage à DEL intégré",
+      "Protection environnementale IP65",
+      "Plusieurs options de couleurs disponibles",
+      "Blocs de contact modulaires",
+      "Montage facile par encliquetage"
+    ]
+  },
+  "abbCp110g": {
+    "title": "Bouton-poussoir affleurant vert ABB CP1-10G",
+    "description": "Bouton-poussoir affleurant vert avec contacts 1NO+1NF et protection IP65 pour les applications de commande de démarrage/fonctionnement dans les panneaux industriels.",
+    "features": [
+      "Couleur verte pour l'indication de démarrage",
+      "Conception à montage affleurant",
+      "Configuration des contacts 1NO + 1NF",
+      "Protection environnementale IP65",
+      "Compact et fiable",
+      "Installation facile"
+    ]
+  },
+  "siemens3su1Pushbutton": {
+    "title": "Bouton-poussoir lumineux Siemens 3SU1",
+    "description": "Bouton-poussoir lumineux avec collerette métallique, fonctionnement à 24 V et protection IP67 pour les applications de commande et de signalisation industrielles.",
+    "features": [
+      "Lumineux avec collerette métallique",
+      "Fonctionnement 24 V CA/CC",
+      "Protection environnementale IP67",
+      "Plusieurs options de couleurs",
+      "Système de conception modulaire",
+      "Haute fiabilité et durabilité"
+    ]
+  },
+  "fisherEdControlValve": {
+    "title": "Vanne de régulation à globe Fisher easy-e™ ED",
+    "description": "Vanne de régulation à globe avec bouchon de vanne équilibré, guidage par cage et étanchéité métal sur métal pour une régulation de processus fiable.",
+    "features": [
+      "Conception de bouchon de vanne équilibré",
+      "Guidage par cage pour une régulation précise",
+      "Étanchéité métal sur métal",
+      "Compatible avec le positionneur de vanne numérique",
+      "Compatible avec la communication HART"
+    ]
+  },
+  "samson3241GlobeValve": {
+    "title": "Vanne de régulation à globe SAMSON de type 3241",
+    "description": "Vanne à globe pneumatique industrielle pour l'ingénierie des processus avec une conception modulaire et des garnitures interchangeables pour différentes caractéristiques d'écoulement.",
+    "features": [
+      "Conception modulaire de la vanne à globe",
+      "Garnitures interchangeables pour les caractéristiques d'écoulement",
+      "Étanchéité de classe VI (CEI : IV-S2)",
+      "Compatible SAM DIGITAL avec des diagnostics prédictifs",
+      "Communication HART, Foundation Fieldbus"
+    ]
+  },
+  "fisher657SizeReducer": {
+    "title": "Vanne de régulation avec réducteur de taille Fisher de type 657",
+    "description": "Vanne de régulation avec réducteur de taille actionnée par ressort et diaphragme pour les installations compactes nécessitant une excellente régulation d'écoulement dans les conduites de plus petites tailles.",
+    "features": [
+      "Conception avec réducteur de taille pour une installation compacte",
+      "Actionnement par ressort et diaphragme",
+      "Plage de tailles de 1/2 à 2 pouces",
+      "Actionneur pneumatique à montage direct",
+      "Excellentes caractéristiques d'écoulement",
+      "Conception nécessitant peu d'entretien"
+    ]
+  },
+  "masoneilan41000Globe": {
+    "title": "Vanne de régulation à globe de la gamme 41000 de Masoneilan",
+    "description": "Vanne à globe pneumatique avec conception à garniture équilibrée pour les applications de service sévère nécessitant une régulation d'écoulement précise et un arrêt étanche.",
+    "features": [
+      "Conception de vanne à globe pour une régulation précise",
+      "Système d'actionnement pneumatique",
+      "Construction à garniture équilibrée",
+      "Capacité de service sévère",
+      "Indice d'arrêt de classe VI",
+      "Grande plage d'adaptabilité"
+    ]
+  },
+  "samson3241PneumaticGlobeValve": {
+    "title": "Vanne à globe pneumatique SAMSON 3241",
+    "description": "Vanne de régulation à globe pneumatique avec conception de tige guidée pour une régulation de processus fiable dans les tailles DN15-300 avec d'excellentes caractéristiques d'écoulement.",
+    "features": [
+      "Conception de vanne à globe pneumatique",
+      "Tige guidée pour la stabilité",
+      "Plage de tailles DN15 à DN300",
+      "Plusieurs options de garniture disponibles",
+      "Compatible avec le positionneur SAM DIGITAL",
+      "Construction robuste"
+    ]
+  },
+  "asco8262h112dc24": {
+    "title": "Électrovanne de service général ASCO 8262H112DC24",
+    "description": "Électrovanne à 2 voies normalement fermée en acier inoxydable pour les applications d'air, d'eau, d'huile légère et de gaz combustible.",
+    "features": [
+      "Fonctionnement à 2 voies normalement fermé",
+      "Construction en acier inoxydable",
+      "Convient à plusieurs types de fluides",
+      "Action directe ou servocommandée",
+      "Homologuée UL et certifiée CSA"
+    ]
+  },
+  "parkerS4aSolenoidValve": {
+    "title": "Électrovanne de réfrigération de la gamme S4A de Parker",
+    "description": "Électrovanne conçue pour les systèmes de réfrigération et de régulation de fluides, compatible avec plusieurs réfrigérants et conçue pour de larges plages de pression.",
+    "features": [
+      "Compatible avec R410A, R448A, R449A, R450A, R507A",
+      "Capacité de large plage de pression",
+      "Conception compacte et légère",
+      "Excellentes caractéristiques de régulation d'écoulement",
+      "Conçue pour les systèmes de réfrigération commerciaux"
+    ]
+  },
+  "asco8210g094": {
+    "title": "Électrovanne NF à 2 voies ASCO 8210G094",
+    "description": "Électrovanne à 2 voies normalement fermée en laiton avec raccordement NPT de 1/2 pouce et bobine de 120 V CA pour les applications de service général.",
+    "features": [
+      "Fonctionnement à 2 voies normalement fermé",
+      "Construction du corps en laiton",
+      "Tension de la bobine de 120 V CA",
+      "Raccordement NPT de 1/2 pouce",
+      "Applications de service général",
+      "Certifiée UL et CSA"
+    ]
+  },
+  "burkert6013": {
+    "title": "Électrovanne à action directe Bürkert de type 6013",
+    "description": "Électrovanne à action directe à 2/2 voies avec joint FKM et bobine de 24 V CC pour une régulation précise des fluides dans les applications de processus.",
+    "features": [
+      "Principe d'action directe",
+      "Configuration 2/2 voies",
+      "Matériau du joint FKM",
+      "Fonctionnement en 24 V CC",
+      "Conception compacte",
+      "Faible consommation d'énergie"
+    ]
+  },
+  "parker71215sn2vn00": {
+    "title": "Électrovanne normalement ouverte Parker 71215SN2VN00",
+    "description": "Électrovanne normalement ouverte en acier inoxydable avec raccordement de 1/4 pouce et bobine de 12 V CC pour les applications de régulation spécialisées.",
+    "features": [
+      "Configuration normalement ouverte",
+      "Construction en acier inoxydable",
+      "Fonctionnement en 12 V CC",
+      "Taille d'orifice de 1/4 pouce",
+      "Résistante à la corrosion",
+      "Encombrement compact"
+    ]
+  },
+  "fisherV150VeeBallValve": {
+    "title": "Vanne Vee-Ball Fisher V150",
+    "description": "Vanne Vee-Ball Fisher V150 avec bille à encoche en V pour un service d'arrêt/marche ou d'étranglement fiable. Comprend un arbre de vanne cannelé pour les actionneurs rotatifs, une construction à brides à faces surélevées et des matériaux conformes à la norme NACE MR0175-2 pour le service en milieu corrosif.",
+    "features": [
+      "Conception à bille à encoche en V pour l'arrêt/marche/l'étranglement",
+      "Plage de tailles NPS de 1 à 12",
+      "Construction à brides à faces surélevées",
+      "Arbre cannelé pour les actionneurs rotatifs",
+      "Conforme à la norme NACE MR0175-2 pour le service en milieu corrosif",
+      "Classes ASME 150/300"
+    ]
+  },
+  "fisherV280BallValve": {
+    "title": "Vanne à bille à passage intégral Fisher V280",
+    "description": "Vanne à bille à tourillon en trois parties à passage intégral Fisher V280 robuste pour le service d'arrêt/marche. Gère les chutes de pression CL900 complètes avec un atténuateur percé en option pour la régulation du bruit/des vibrations. Conception résistante au feu avec des matériaux conformes à la norme NACE.",
+    "features": [
+      "Conception à tourillon à passage intégral",
+      "Capable de gérer les chutes de pression CL900",
+      "Atténuateur de bruit en option pour les liquides/gaz",
+      "Construction certifiée résistante au feu",
+      "Conforme à la norme NACE MR0175/ISO 15156",
+      "Conception du corps en trois parties"
+    ]
+  },
+  "flowserveWorcesterF519BallValve": {
+    "title": "Vanne à bille à brides Flowserve Worcester F519 ASA150",
+    "description": "Vanne à bille à brides Worcester F519 ASA150 avec conception à bille flottante. Approuvée par un tiers selon la norme BS 5351 avec essai de résistance au feu selon la norme BS EN 10497. Comprend un montage d'actionneur ISO 5211, une tige anti-éjection et une conception antistatique.",
+    "features": [
+      "Conception de vanne à bille à brides ASA150",
+      "Tailles de 1/2 pouce à 8 pouces",
+      "Homologuée BS 5351 et API 6D",
+      "Résistante au feu, testée selon la norme BS EN 10497",
+      "Plateforme de montage de l'actionneur ISO 5211",
+      "Tige anti-éjection pour la sécurité"
+    ]
+  },
+  "flowserveWorcesterSeries44BallValve": {
+    "title": "Vanne à bille en trois parties de la gamme 44 de Flowserve Worcester",
+    "description": "Vanne à bille en trois parties de la gamme 44 de Worcester, chef de file de l'industrie, conçue selon les spécifications ANSI B16.34. Comprend une technologie de siège avancée pour un arrêt étanche aux bulles et peut être configurée pour des applications de régulation d'arrêt/marche ou d'étranglement.",
+    "features": [
+      "Conception de vanne à bille en trois parties",
+      "Spécifications ANSI B16.34",
+      "Capacité d'arrêt étanche aux bulles",
+      "Technologie d'étanchéité avancée",
+      "Fonctionnement d'arrêt/marche ou d'étranglement",
+      "Tailles de 1/4 pouce à 6 pouces"
+    ]
+  },
+  "swagelokSs43gs4BallValve": {
+    "title": "Vanne à bille Swagelok SS-43GS4 de la gamme 40G",
+    "description": "Vanne à bille d'instrumentation monobloc Swagelok SS-43GS4 en acier inoxydable pour le service d'arrêt/marche à quart de tour. Comprend une pression nominale de 3 000 PSI, une capacité de cyclage thermique améliorée, une plage de -65 °F à 300 °F et des réglages de garniture en ligne.",
+    "features": [
+      "Construction monobloc en acier inoxydable",
+      "Pression de service de 3 000 PSI",
+      "Plage de températures de -65 °F à 300 °F",
+      "Capacité de cyclage thermique améliorée",
+      "Fonctionnement d'arrêt/marche à quart de tour",
+      "Capacité de réglage de la garniture en ligne"
+    ]
+  },
+  "burkert2655BallValve": {
+    "title": "Vanne à bille pneumatique Burkert de type 2655",
+    "description": "Vanne à bille en trois parties Burkert de type 2655 avec actionneur rotatif pneumatique de type 2050 pour le fonctionnement d'arrêt/marche. Comprend une interface standard ISO 5211, un piston linéaire avec accouplement à action rapide et un fonctionnement à 2/2 voies pour la distribution de l'arrêt et de l'écoulement.",
+    "features": [
+      "Vanne à bille en acier inoxydable en 3 parties",
+      "Actionneur rotatif pneumatique de type 2050",
+      "Raccordement à bride ISO 5211",
+      "Fonctionnement d'arrêt/marche à quart de tour de 90°",
+      "Pneumatique simple ou double action",
+      "Accouplement à vis à action rapide"
+    ]
   }
 }

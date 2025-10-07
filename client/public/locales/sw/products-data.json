@@ -31,6 +31,300 @@
       ]
     }
   },
+  "labels": {
+    "power": "Nguvu ya Motor",
+    "speed": "Kiwango cha Kasi",
+    "airflow": "Mtiririko wa Hewa",
+    "efficiency": "Ufanisi",
+    "warranty": "Udhamini",
+    "voltage": "Volteji",
+    "solarPanelRequirement": "Mahitaji ya Paneli ya Sola",
+    "headRange": "Kiwango cha Kichwa",
+    "flowRate": "Kiwango cha Mtiririko",
+    "cableType": "Aina ya Kebo",
+    "conductorSize": "Ukubwa wa Kondakta",
+    "voltageRating": "Ukadiriaji wa Volteji",
+    "temperatureRange": "Kiwango cha Halijoto",
+    "shielding": "Ulinzi",
+    "insulation": "Insulation",
+    "flow": "Kiwango cha Mtiririko",
+    "head": "Kichwa",
+    "solarCompatible": "Inaoana na Sola",
+    "type": "Aina",
+    "awg": "Ukubwa wa Kondakta",
+    "temperature": "Halijoto"
+  },
+  "bldc-smart1200": {
+    "seo": {
+      "title": "Feni ya Dari ya Smart BLDC 1200 RPM - Inayotumia Nishati | Powerton Engineering",
+      "description": "Feni ya dari ya BLDC Smart yenye ufanisi wa hali ya juu 1200 RPM yenye kidhibiti cha mbali, kipima muda, na teknolojia ya kuokoa nishati. Inafaa kwa nyumba na ofisi.",
+      "keywords": "feni ya dari ya BLDC, feni ya dari smart, feni inayotumia nishati, feni ya dari ya 1200 RPM, feni ya motor isiyo na brashi ya DC, feni ya kidhibiti cha mbali"
+    },
+    "hero": {
+      "title": "Feni ya Dari ya Smart BLDC 1200 RPM",
+      "subtitle": "Feni ya dari smart inayotumia nishati na kidhibiti cha mbali"
+    },
+    "overview": {
+      "fullDescription": "Feni yetu ya Dari ya Smart BLDC 1200 RPM inachanganya teknolojia ya kisasa ya motor isiyo na brashi ya DC na vipengele vya akili kwa ufanisi bora wa nishati na faraja. Iliyoundwa kwa matumizi ya makazi na biashara ndogo, feni hii hutoa utendaji bora huku ikitumia hadi 65% ya nishati kidogo kuliko feni za kawaida."
+    },
+    "keyBenefits": [
+      "Akiba ya Nishati hadi 65%",
+      "Kidhibiti cha Mbali Smart",
+      "Uendeshaji Kimya",
+      "Maisha Marefu ya Huduma"
+    ],
+    "features": [
+      "Teknolojia ya Motor Isiyo na Brashi ya DC",
+      "Kidhibiti cha Mbali Smart na Kipima Muda",
+      "Udhibiti wa Kasi Tofauti",
+      "Kipengele cha Mwelekeo wa Kinyume",
+      "Onyesho la Kiashiria cha LED",
+      "Iliyokadiriwa na Nishati Star",
+      "Motor ya Mviringo wa Shaba",
+      "Muundo wa Blade ya Aerodynamic"
+    ],
+    "applications": [
+      "Vyumba vya Kulala vya Makazi",
+      "Sebule",
+      "Nafasi za Ofisi",
+      "Vyumba vya Masomo",
+      "Vyumba vya Wageni",
+      "Nafasi Ndogo za Biashara"
+    ],
+    "industries": [
+      "Ujenzi wa Makazi",
+      "Ubunifu wa Mambo ya Ndani",
+      "Ukarimu",
+      "Majengo ya Ofisi",
+      "Taasisi za Elimu",
+      "Vituo vya Afya"
+    ],
+    "certifications": [
+      "Imethibitishwa na Nishati Star",
+      "Alama ya ISI",
+      "Imeidhinishwa na CE",
+      "Inatii RoHS",
+      "Ukadiriaji wa Nyota 5 wa BEE"
+    ]
+  },
+  "bldc-premium1400": {
+    "seo": {
+      "title": "Feni ya Dari ya Premium BLDC 1400 RPM - Vipengele vya Juu | Powerton Engineering",
+      "description": "Feni ya Dari ya Premium BLDC 1400 RPM yenye vipengele smart vya juu, mtiririko bora wa hewa, na teknolojia ya motor isiyo na brashi inayotumia nishati.",
+      "keywords": "feni ya dari ya premium BLDC, feni ya dari ya 1400 RPM, feni ya dari ya juu, feni ya dari smart, feni ya mtiririko wa hewa wa juu, inayotumia nishati"
+    },
+    "hero": {
+      "title": "Feni ya Dari ya Premium BLDC 1400 RPM",
+      "subtitle": "Feni ya dari ya utendaji wa juu na taa ya LED"
+    },
+    "overview": {
+      "fullDescription": "Feni ya Dari ya Premium BLDC 1400 RPM inawakilisha kilele cha teknolojia ya feni ya dari na vipengele vya juu na ubora bora wa kujenga. Iliyoundwa kwa utendaji ulioimarishwa na utoaji wa mtiririko wa hewa wa juu huku ikidumisha ufanisi wa nishati wa kipekee kwa matumizi ya makazi na biashara ya premium."
+    },
+    "keyBenefits": [
+      "Utendaji Bora wa Mtiririko wa Hewa",
+      "Udhibiti Smart wa Juu",
+      "Ubora Bora wa Kujenga",
+      "Upanuzi wa Huduma ya Udhamini"
+    ],
+    "features": [
+      "Motor ya BLDC ya Utendaji wa Juu",
+      "Muunganisho wa WiFi Smart",
+      "Udhibiti wa Programu ya Simu",
+      "Inaoana na Msaidizi wa Sauti",
+      "Kidhibiti cha Mbali cha Premium",
+      "Blade za Aerodynamic za Ufanisi wa Juu",
+      "Mipako ya Kuzuia Vumbi",
+      "Ujumuishaji wa Sensor ya Halijoto"
+    ],
+    "applications": [
+      "Nafasi za Makazi za Premium",
+      "Vyumba vya Kulala vya Mwalimu",
+      "Sehemu Kubwa za Kuishi",
+      "Ofisi za Watendaji",
+      "Vyumba vya Mikutano",
+      "Hoteli za Anasa"
+    ],
+    "industries": [
+      "Makazi ya Premium",
+      "Ukarimu wa Anasa",
+      "Ofisi za Shirika",
+      "Rejareja ya Juu",
+      "Huduma ya Afya ya Premium",
+      "Elimu ya Juu"
+    ],
+    "certifications": [
+      "Imethibitishwa na Nishati Star",
+      "Alama ya ISI",
+      "Imeidhinishwa na CE",
+      "Inatii RoHS",
+      "Ukadiriaji wa Nyota 5 wa BEE",
+      "Imethibitishwa na Muungano wa WiFi"
+    ]
+  },
+  "bldc-commercial1500": {
+    "seo": {
+      "title": "Feni ya Dari ya Biashara ya BLDC 1500 RPM - Kazi Nzito | Powerton Engineering",
+      "description": "Feni ya Dari ya Biashara ya BLDC 1500 RPM iliyoundwa kwa matumizi ya kazi nzito na mtiririko wa juu wa hewa na uaminifu wa viwanda.",
+      "keywords": "feni ya dari ya biashara ya BLDC, feni ya dari ya viwanda, feni ya 1500 RPM, feni ya dari ya kazi nzito, feni ya daraja la biashara, mtiririko wa hewa wa juu"
+    },
+    "hero": {
+      "title": "Feni ya Dari ya Biashara ya BLDC 1500 RPM",
+      "subtitle": "Feni ya dari ya kazi nzito kwa matumizi ya kibiashara"
+    },
+    "overview": {
+      "fullDescription": "Feni yetu ya Dari ya Biashara ya BLDC 1500 RPM imeundwa kwa matumizi ya biashara ya kazi nzito inayohitaji mtiririko wa juu wa hewa na uaminifu. Imejengwa na vipengele vya daraja la viwanda na teknolojia ya juu ya motor ili kutoa utendaji thabiti katika mazingira magumu huku ikidumisha ufanisi wa nishati."
+    },
+    "keyBenefits": [
+      "Utoaji wa Mtiririko wa Juu wa Hewa",
+      "Uaminifu wa Daraja la Viwanda",
+      "Ujenzi wa Kazi Nzito",
+      "Ulinzi wa Udhamini Uliopanuliwa"
+    ],
+    "features": [
+      "Motor ya BLDC ya Kazi Nzito",
+      "Nyumba ya Motor Iliyoimarishwa",
+      "Fani za Daraja la Biashara",
+      "Blade za Metal za Nguvu za Juu",
+      "Ukadiriaji wa Uendeshaji Endelevu",
+      "Muundo Usio na Mtetemo",
+      "Umbo la Kumaliza Lisilo na Kutu",
+      "Kidhibiti cha Mbali cha Viwanda"
+    ],
+    "applications": [
+      "Majengo ya Biashara",
+      "Vituo vya Viwanda",
+      "Nafasi Kubwa za Ofisi",
+      "Vyumba vya Maonyesho ya Rejareja",
+      "Maghala",
+      "Mitambo ya Utengenezaji"
+    ],
+    "industries": [
+      "Majengo ya Biashara",
+      "Utengenezaji wa Viwanda",
+      "Rejareja na Ununuzi",
+      "Uwekaji Ghala na Usafirishaji",
+      "Ukarimu wa Biashara",
+      "Taasisi za Elimu"
+    ],
+    "certifications": [
+      "Imethibitishwa na Nishati Star",
+      "Alama ya ISI",
+      "Imeidhinishwa na CE",
+      "Inatii RoHS",
+      "Ukadiriaji wa Nyota 5 wa BEE",
+      "Imethibitishwa na Daraja la Biashara"
+    ]
+  },
+  "solar-bldc-submersible-1hp": {
+    "seo": {
+      "title": "Pampu ya Maji ya Submersible ya Sola ya BLDC 1HP - Suluhisho Endelevu za Maji | Powerton Engineering",
+      "description": "Pampu ya Submersible ya Sola ya BLDC 1HP kwa umwagiliaji wa kilimo na usambazaji wa maji na teknolojia ya juu ya sola na ufanisi wa nishati.",
+      "keywords": "pampu ya submersible ya sola, pampu ya maji ya BLDC, pampu ya maji ya sola, pampu ya submersible ya 1HP, pampu ya nishati mbadala, pampu ya kilimo"
+    },
+    "hero": {
+      "title": "Pampu ya Submersible ya Sola ya BLDC 1HP",
+      "subtitle": "Suluhisho la kusukuma maji kwa nishati ya sola"
+    },
+    "overview": {
+      "fullDescription": "Pampu yetu ya Submersible ya Sola ya BLDC 1HP inachanganya nishati mbadala ya sola na teknolojia ya juu ya motor isiyo na brashi kwa suluhisho endelevu za kusukuma maji. Iliyoundwa kwa umwagiliaji wa kilimo, usambazaji wa maji ya nyumbani, na mifumo ya maji ya mbali na ufanisi na uaminifu wa hali ya juu."
+    },
+    "keyBenefits": [
+      "Nguvu ya Sola 100%",
+      "Gharama Sifuri za Uendeshaji",
+      "Rafiki kwa Mazingira",
+      "Inaoana na Eneo la Mbali"
+    ],
+    "features": [
+      "Motor ya BLDC Inayooana na Sola",
+      "Kidhibiti cha MPPT Kimejumuishwa",
+      "Muundo Uliopozwa na Maji",
+      "Ulinzi wa Kukauka",
+      "Teknolojia ya Kuanza Laini",
+      "Vifaa Visivyo na Kutu",
+      "Inaoana na Swichi ya Kuelea",
+      "Mfumo wa Ufuatiliaji wa Mbali"
+    ],
+    "applications": [
+      "Umwagiliaji wa Kilimo",
+      "Usambazaji wa Maji ya Nyumbani",
+      "Kumwagilia Mifugo",
+      "Mifumo ya Maji ya Mbali",
+      "Usambazaji wa Maji Vijijini",
+      "Umwagiliaji wa Bustani"
+    ],
+    "industries": [
+      "Kilimo na Ukulima",
+      "Maendeleo ya Vijijini",
+      "Usimamizi wa Maji",
+      "Nishati Mbadala",
+      "Mifumo ya Umwagiliaji",
+      "Teknolojia Endelevu"
+    ],
+    "certifications": [
+      "Imethibitishwa na Nishati ya Sola",
+      "Alama ya ISI",
+      "Imeidhinishwa na CE",
+      "Inatii RoHS",
+      "Ukadiriaji wa IP68",
+      "Imeidhinishwa na MNRE"
+    ]
+  },
+  "instrumentation-cables": {
+    "seo": {
+      "title": "Kebo za Ala - Usambazaji Sahihi wa Ishara | Powerton Engineering",
+      "description": "Kebo za ala za ubora wa juu na muundo uliolindwa kwa usambazaji sahihi wa ishara ya kipimo na udhibiti.",
+      "keywords": "kebo za ala, jozi iliyosokotwa iliyolindwa, kebo za ishara, kebo za kipimo, kebo za udhibiti, kebo za viwanda"
+    },
+    "hero": {
+      "title": "Kebo za Ala",
+      "subtitle": "Usambazaji Sahihi wa Ishara"
+    },
+    "overview": {
+      "fullDescription": "Kebo za ala za kitaalamu zilizoundwa kwa usambazaji sahihi wa ishara katika matumizi ya kipimo na udhibiti wa viwanda. Inaangazia muundo wa jozi iliyosokotwa iliyolindwa, kukataliwa bora kwa kelele, na uadilifu bora wa ishara kwa mifumo muhimu ya ala."
+    },
+    "keyBenefits": [
+      "Uadilifu Bora wa Ishara",
+      "Kinga Bora ya Kelele",
+      "Kiwango Kikubwa cha Halijoto",
+      "Inayostahimili Kemikali",
+      "Ufungaji Rahisi",
+      "Maisha Marefu ya Huduma"
+    ],
+    "features": [
+      "Muundo wa Jozi Iliyosokotwa Iliyolindwa",
+      "Muundo wa Uwezo Mdogo",
+      "Usanidi wa Waya ya Mfereji",
+      "Utambulisho wa Msimbo wa Rangi",
+      "Jacket ya Kuzuia Moto",
+      "Inayostahimili Mafuta na Kemikali",
+      "Uzi Unaobadilika",
+      "Chaguzi Nyingi za Jozi"
+    ],
+    "applications": [
+      "Mifumo ya Udhibiti wa Mchakato",
+      "Loops za Ala",
+      "Viunganisho vya Sensor",
+      "Wiring ya Transmitter",
+      "Viunganisho vya Analyzer",
+      "Wiring ya Chumba cha Udhibiti"
+    ],
+    "industries": [
+      "Mafuta na Gesi",
+      "Usindikaji wa Kemikali",
+      "Uzaji wa Nguvu",
+      "Utengenezaji wa Maji",
+      "Utengenezaji",
+      "Dawa"
+    ],
+    "certifications": [
+      "Imeorodheshwa na UL",
+      "Imethibitishwa na CSA",
+      "Alama ya CE",
+      "IEC 60502",
+      "NFPA 70",
+      "Inatii RoHS"
+    ]
+  },
   "bldcCeilingFan": {
     "smart1200": {
       "name": "Feni ya Dari ya Smart BLDC - 1200mm",
@@ -699,5 +993,511 @@
       "polycrystalline320W": "Paneli za Sola za Polycrystalline - 320W",
       "bifacial450W": "Paneli za Sola za Bifacial - 450W"
     }
+  },
+  "ovalFlowpetLsf41": {
+    "title": "Mita ya Mtiririko wa Uhamishaji Chanya ya OVAL FLOWPET LSF41",
+    "description": "Mita ya mtiririko wa uhamishaji chanya ya OVAL FLOWPET LSF41 yenye usahihi wa hali ya juu na usahihi wa kipekee. Ina uwezo bora wa kurudia, anuwai kubwa ya kipenyo, na ujenzi wa nyenzo za premium kwa matumizi ya mahitaji ya upimaji wa kioevu.",
+    "features": [
+      "Teknolojia ya upimaji wa mtiririko wa uhamishaji chanya (PD)",
+      "Kipenyo kikubwa: DN15 hadi DN200 (1/2\" hadi 8\")",
+      "Kiwango cha mtiririko: 0.05-1500 L/min (kulingana na ukubwa)",
+      "Usahihi wa kipekee: ±0.1% ya usomaji",
+      "Uwezo bora wa kurudia: ±0.02% ya usomaji",
+      "Joto la mchakato: -20°C hadi +120°C",
+      "Ukadiriaji wa ulinzi wa IP67",
+      "Matokeo mengi: Pato la mapigo, 4-20mA, HART",
+      "Miunganisho mingi ya mchakato: Flanged (JIS, ANSI, DIN), Threaded",
+      "Vifaa vya Premium: SUS316, SUS316L, Hastelloy C-276",
+      "Imethibitishwa na ATEX, IECEx, FM"
+    ]
+  },
+  "badgerMeterM1000": {
+    "title": "Mita ya Mtiririko wa Diski ya Nutating ya Badger Meter M1000",
+    "description": "Mita ya mtiririko wa uhamishaji chanya ya diski ya nutating ya Badger Meter M1000 inayotegemewa na teknolojia ya juu ya upimaji. Ina usahihi wa kipekee, chaguzi nyingi za mawasiliano, na ujenzi thabiti kwa matumizi ya matumizi ya maji.",
+    "features": [
+      "Teknolojia ya uhamishaji chanya ya diski ya nutating",
+      "Kipenyo: DN15 hadi DN100 (5/8\" hadi 4\")",
+      "Kiwango cha mtiririko: 0.125-400 GPM (kulingana na ukubwa)",
+      "Usahihi mzuri: ±0.5% ya usomaji",
+      "Uwezo mzuri wa kurudia: ±0.1% ya usomaji",
+      "Joto la uendeshaji: -20°C hadi +70°C",
+      "Ukadiriaji wa ulinzi wa IP68",
+      "Mawasiliano mengi: Pato la mapigo, AMR/AMI, 4-20mA",
+      "Miunganisho mingi ya mchakato: Flanged (ANSI), NPT, Compression",
+      "Vifaa thabiti: Bronze, Cast Iron, 316L SST",
+      "Imethibitishwa na NSF, AWWA, ANSI"
+    ]
+  },
+  "krohneBm100PdMeter": {
+    "title": "Mita ya Mtiririko wa Gia ya Oval ya Uhamishaji Chanya ya KROHNE BM 100",
+    "description": "Mita ya mtiririko wa gia ya oval ya uhamishaji chanya ya KROHNE BM 100 yenye utendaji wa juu na teknolojia ya juu ya upimaji. Ina usahihi wa kipekee, uwezo bora wa kurudia, na mawasiliano ya itifaki nyingi kwa matumizi ya viwandani.",
+    "features": [
+      "Teknolojia ya gia ya oval ya uhamishaji chanya",
+      "Kipenyo kikubwa: DN10 hadi DN200 (3/8\" hadi 8\")",
+      "Kiwango cha mtiririko: 0.15-3000 L/min (kulingana na ukubwa)",
+      "Usahihi wa juu: ±0.2% ya usomaji",
+      "Uwezo bora wa kurudia: ±0.05% ya usomaji",
+      "Joto pana la mchakato: -40°C hadi +200°C",
+      "Ukadiriaji wa ulinzi wa IP67",
+      "Itifaki nyingi: Pato la mapigo, 4-20mA, HART, Modbus",
+      "Miunganisho mingi ya mchakato: Flanged (DIN, ANSI), Threaded",
+      "Vifaa vingi: Aluminium, Cast Iron, 316L SST",
+      "Imethibitishwa na ATEX, IECEx, FM, CSA"
+    ]
+  },
+  "kralVolumeterOmg": {
+    "title": "Mita ya Mtiririko wa Screw ya Uhamishaji Chanya ya KRAL VoluMeter OMG",
+    "description": "Mita ya mtiririko wa screw ya uhamishaji chanya ya KRAL VoluMeter OMG yenye usahihi na usahihi wa kipekee wa upimaji. Ina uwezo bora wa kurudia, mawasiliano ya itifaki nyingi, na udhibitisho wa MID kwa matumizi ya uhamishaji wa ulinzi.",
+    "features": [
+      "Teknolojia ya mtiririko wa screw ya uhamishaji chanya",
+      "Kipenyo: DN15 hadi DN150 (1/2\" hadi 6\")",
+      "Kiwango cha mtiririko: 0.5-1200 L/min (kulingana na ukubwa)",
+      "Usahihi wa kipekee: ±0.1% ya usomaji",
+      "Uwezo bora wa kurudia: ±0.02% ya usomaji",
+      "Joto pana la mchakato: -40°C hadi +200°C",
+      "Ukadiriaji wa ulinzi wa IP67",
+      "Itifaki nyingi: Pato la mapigo, 4-20mA, HART, Profibus",
+      "Miunganisho mingi ya mchakato: Flanged (DIN, ANSI), Threaded",
+      "Vifaa thabiti: Aluminium, Cast Steel, 316L SST",
+      "Imethibitishwa na ATEX, IECEx, FM, CSA, MID"
+    ]
+  },
+  "flowTechnologyDcISeries": {
+    "title": "Mita ya Mtiririko wa Gia ya Helical ya Uhamishaji Chanya ya Flow Technology DC-I Series",
+    "description": "Mita ya mtiririko wa gia ya helical ya uhamishaji chanya ya Flow Technology DC-I Series iliyoundwa kwa maji yenye mnato wa juu. Ina anuwai pana ya mnato, usahihi wa kipekee, na vifaa maalum kwa matumizi ya kemikali na petrochemical.",
+    "features": [
+      "Teknolojia ya gia ya helical ya uhamishaji chanya",
+      "Kipenyo cha kompakt: DN6 hadi DN50 (1/4\" hadi 2\")",
+      "Kiwango cha mtiririko cha Ultra-pana: 0.001-400 GPM (kulingana na ukubwa)",
+      "Kiwango cha mnato cha Ultra-pana: 0.6 hadi 1,000,000 cP",
+      "Usahihi mzuri: ±0.5% ya usomaji",
+      "Uwezo bora wa kurudia: ±0.05% ya usomaji",
+      "Joto la mchakato lililopanuliwa: -40°C hadi +204°C",
+      "Ukadiriaji wa ulinzi wa IP65",
+      "Mawasiliano: Pato la mapigo, 4-20mA, HART",
+      "Miunganisho mingi ya mchakato: Flanged (ANSI), NPT, BSP",
+      "Vifaa maalum: 316 SST, Hastelloy C, PPS",
+      "Imethibitishwa na ATEX, FM, CSA"
+    ]
+  },
+  "danfossKp36": {
+    "title": "Kubadilisha Shinikizo la Danfoss KP36",
+    "description": "Kubadilisha shinikizo la viwandani na mawasiliano ya umeme ya snap-action kwa operesheni ya kuaminika katika matumizi ya mvuke, hewa, na maji.",
+    "features": [
+      "Mfumo wa mawasiliano wa SPDT kwa ubadilishaji wa kuaminika",
+      "Kazi ya safari ya mwongozo kwa majaribio",
+      "Joto la uendeshaji: -40°F hadi 175°F",
+      "Mipangilio ya shinikizo tofauti inayoweza kubadilishwa",
+      "Inafaa kwa vyombo vya habari vya gesi na kioevu"
+    ]
+  },
+  "schneider9013fsg2j24m4": {
+    "title": "Kubadilisha Pumptrol ya Schneider Electric 9013FSG2J24M4",
+    "description": "Kubadilisha shinikizo la Square D Pumptrol na ukatili wa shinikizo la chini kwa matumizi ya pampu hadi 1.5 HP.",
+    "features": [
+      "Mpangilio wa shinikizo la 40-60 PSI",
+      "Tofauti inayoweza kubadilishwa ya 15-30 PSI",
+      "Ulinzi wa kukata shinikizo la chini",
+      "NEMA 1/IP20 enclosure",
+      "Imeorodheshwa na UL, Imethibitishwa na CSA"
+    ]
+  },
+  "wikaPsm760": {
+    "title": "Kubadilisha Shinikizo Inayoweza Kupangwa ya WIKA PSM-760",
+    "description": "Kubadilisha shinikizo la elektroniki linaloweza kupangwa na pato la 4-20mA na onyesho la dijiti kwa ufuatiliaji sahihi wa shinikizo na matumizi ya udhibiti.",
+    "features": [
+      "Sehemu za ubadilishaji zinazoweza kupangwa",
+      "Ishara ya pato la analogi ya 4-20mA",
+      "Onyesho la LED la dijiti",
+      "Kiwango cha shinikizo la 0-600 bar",
+      "Sehemu zilizolowa chuma cha pua",
+      "Ukadiriaji wa ulinzi wa IP65"
+    ]
+  },
+  "abb266dsh": {
+    "title": "Kubadilisha Shinikizo Tofauti la ABB 266DSH",
+    "description": "Kubadilisha shinikizo tofauti ya uthibitisho wa mlipuko na eneo la hatari la NEMA 7 kwa matumizi ya eneo la hatari linalohitaji ufuatiliaji wa kuaminika wa shinikizo.",
+    "features": [
+      "Upimaji wa shinikizo tofauti",
+      "Uthibitisho wa mlipuko NEMA 7 enclosure",
+      "Eneo la hatari limethibitishwa",
+      "Mipangilio tofauti inayoweza kubadilishwa",
+      "Ujenzi sugu wa kutu",
+      "Matokeo ya kengele ya shinikizo la juu/chini"
+    ]
+  },
+  "ashcroftB424b": {
+    "title": "Kubadilisha Shinikizo la Ashcroft B424B la Kazi Nzito",
+    "description": "Kubadilisha shinikizo la viwandani la kazi nzito na mawasiliano ya SPDT na ujenzi thabiti kwa operesheni ya kuaminika katika matumizi yanayohitaji.",
+    "features": [
+      "Ubunifu wa viwandani wa kazi nzito",
+      "Usanidi wa mawasiliano ya SPDT",
+      "Kiwango cha shinikizo la 0-1000 psi",
+      "Bomba la bourdon la chuma cha pua",
+      "Nyumba sugu ya kutu",
+      "Imeidhinishwa na UL na CSA"
+    ]
+  },
+  "endressFtl31": {
+    "title": "Kubadilisha Kiwango cha Endress+Hauser FTL31 Liquiphant",
+    "description": "Kubadilisha kiwango cha hatua ya tuning kwa ajili ya kugundua kiwango cha kioevu na teknolojia ya sensorer inayotumika kwa ajili ya kuzuia kujaza kupita kiasi na ulinzi wa pampu.",
+    "features": [
+      "Teknolojia ya uma ya tuning na gari la piezoelectric",
+      "Teknolojia ya sensorer inayotumika inahakikisha utendaji wa kifaa",
+      "Hakuna marekebisho yanayohitajika kwa vyombo vya habari tofauti",
+      "Uzi wa uunganisho wa mchakato wa G1",
+      "Zaidi ya milioni 6 zimewekwa ulimwenguni kote"
+    ]
+  },
+  "abbLsSeries": {
+    "title": "Kubadilisha Kiwango cha Mitambo cha Mfululizo wa ABB LS",
+    "description": "Kubadilisha kiwango cha kuelea cha mitambo thabiti na utaratibu wa kubadilisha uliofungwa kwa hermetically kwa kugundua kiwango cha hatua ya kioevu ya kuaminika.",
+    "features": [
+      "Ubunifu thabiti zaidi katika soko la viwandani",
+      "Marekebisho ya hatua moja ya kubadilisha",
+      "Kubadilisha chumba mara mbili kilichofungwa kwa hermetically",
+      "Inapatikana katika mifano ya flanged au insertion",
+      "Zaidi ya usanidi 100 unapatikana"
+    ]
+  },
+  "vegaVegaswing61": {
+    "title": "Kubadilisha Kiwango cha Fimbo ya VEGA VEGASWING 61",
+    "description": "Kubadilisha kiwango cha fimbo ya vibrating kwa ulimwengu wote kwa ajili ya kugundua kiwango cha hatua katika vimiminika na yabisi nyingi na muundo wa kompakt na uunganisho wa mchakato wa G1.",
+    "features": [
+      "Teknolojia ya fimbo ya vibrating",
+      "Ulimwengu wote kwa vimiminika na yabisi nyingi",
+      "Uzi wa uunganisho wa mchakato wa G1",
+      "Kompakt na isiyo na matengenezo",
+      "Upinzani wa joto la juu",
+      "Uagizaji rahisi"
+    ]
+  },
+  "siemens7ml12Pointflex": {
+    "title": "Kubadilisha Kiwango cha Uwezo wa Siemens 7ML12 Point flex",
+    "description": "Kubadilisha kiwango cha hatua ya uwezo na usambazaji wa nguvu kwa ulimwengu wote na ulinzi wa IP66/67 kwa kugundua kiwango cha kioevu cha kuaminika katika matumizi ya viwandani.",
+    "features": [
+      "Teknolojia ya upimaji wa uwezo",
+      "Usambazaji wa nguvu kwa ulimwengu wote 100-240VAC",
+      "Ulinzi wa mazingira wa IP66/IP67",
+      "Urahisi wa uunganisho wa waya mbili",
+      "Mipangilio ya unyeti inayoweza kubadilishwa",
+      "Inafaa kwa vyombo vya habari vya conductive/non-conductive"
+    ]
+  },
+  "magnetrolEchotel961": {
+    "title": "Kubadilisha Kiwango cha Ultrasonic cha Magnetrol Echotel 961/962",
+    "description": "Kubadilisha kiwango cha ultrasonic kisicho na mawasiliano na pato la 4-20mA kwa kugundua kiwango cha kioevu bila mawasiliano ya kimwili na vyombo vya habari vya mchakato.",
+    "features": [
+      "Teknolojia ya ultrasonic isiyo na mawasiliano",
+      "Ishara ya pato la analogi ya 4-20mA",
+      "Hakuna muundo wa sehemu zinazohamia",
+      "Inafaa kwa vyombo vya habari vya babuzi/viscous",
+      "Onyesho la dijiti limejumuishwa",
+      "Ufungaji na usanidi rahisi"
+    ]
+  },
+  "omronWlca12Y": {
+    "title": "Kubadilisha Kikomo cha Omron WLCA12-Y cha Kazi Nzito",
+    "description": "Kubadilisha kikomo cha lever ya roller ya kazi nzito na ukadiriaji wa IP67 na nyumba ya chuma iliyokufa kwa mazingira magumu ya viwandani.",
+    "features": [
+      "Nyumba ya chuma iliyokufa kwa uimara",
+      "Ukadiriaji wa ulinzi wa mazingira wa IP67",
+      "Actuator ya lever ya roller inayoweza kubadilishwa",
+      "Utaratibu wa kubadilisha hatua ya snap",
+      "Inafaa kwa tasnia nzito za otomatiki"
+    ]
+  },
+  "schneiderXcmd21f0l1": {
+    "title": "Kubadilisha Kikomo cha Schneider Electric XCMD21F0L1 OsiSense",
+    "description": "Kubadilisha kikomo cha muundo wa kawaida kutoka kwa safu ya OsiSense XC na actuator ya lever ya roller inayobadilika kwa otomatiki ya viwandani.",
+    "features": [
+      "Ubunifu wa viwandani wa muundo wa kawaida",
+      "Actuator ya lever ya roller inayobadilika",
+      "Sehemu ya safu ya OsiSense XC Standard",
+      "Mazingira kamili ya nyongeza",
+      "Uendeshaji wa hatua ya snap ya kuaminika"
+    ]
+  },
+  "schneiderXckpLimitSwitch": {
+    "title": "Kubadilisha Kikomo cha Plastiki cha Schneider Electric XCKP",
+    "description": "Kubadilisha kikomo cha plastiki cha kompakt na actuator ya plunger ya roller, mawasiliano ya 2NC+2NO, na ulinzi wa IP67 kwa matumizi ya otomatiki ya viwandani.",
+    "features": [
+      "Actuator ya plunger ya roller ya plastiki",
+      "Usanidi wa mawasiliano wa 2NC + 2NO",
+      "Ulinzi wa mazingira wa IP67",
+      "Ubunifu wa kompakt kwa kuokoa nafasi",
+      "Mawasiliano ya ufunguzi chanya",
+      "Kiwango pana cha joto la uendeshaji"
+    ]
+  },
+  "abbLs30p": {
+    "title": "Kubadilisha Kikomo cha Thermoplastic cha ABB LS30P",
+    "description": "Badiliko la kikomo cha nyumba ya thermoplastic na utaratibu wa hatua ya haraka na ulinzi wa IP66 kwa kuhisi msimamo wa kuaminika katika matumizi ya viwandani.",
+    "features": [
+      "Ujenzi wa nyumba ya Thermoplastic",
+      "Utaratibu wa kubadilisha hatua ya haraka",
+      "Ulinzi wa mazingira wa IP66",
+      "Chaguzi nyingi za actuator",
+      "Uendeshaji thabiti na wa kuaminika",
+      "Ufungaji rahisi na wiring"
+    ]
+  },
+  "eatonE51LimitSwitch": {
+    "title": "Kubadilisha Kikomo cha Eaton E51 cha Kazi Nzito",
+    "description": "Kubadilisha kikomo cha kazi nzito na actuator ya mzunguko wa upande, usanidi wa nguzo 4, na ulinzi wa IP67 kwa mazingira magumu ya viwandani.",
+    "features": [
+      "Ujenzi wa viwanda wa kazi nzito",
+      "Ubunifu wa actuator ya mzunguko wa upande",
+      "Usanidi wa mawasiliano ya nguzo 4",
+      "Ufungaji wa mazingira wa IP67",
+      "Nyumba ya chuma iliyokufa",
+      "Imeidhinishwa na UL na CSA"
+    ]
+  },
+  "schneiderXb4ba21": {
+    "title": "Kitufe cha Kushinikiza cha Schneider Electric XB4BA21 Harmony",
+    "description": "Kitufe cha kushinikiza cha chuma cha 22mm na bezel iliyopakwa chromium kutoka mfululizo wa Harmony XB4 kwa paneli za udhibiti wa viwandani.",
+    "features": [
+      "Ujenzi wa chuma wa 22mm",
+      "Bezel iliyopakwa chromium kwa uimara",
+      "Ubunifu wa kujitegemea wa ardhi",
+      "Mfumo wa msimu na vipengele vinavyoweza kubadilishwa",
+      "Vitalu vya mawasiliano vya FINGERSAFE™"
+    ]
+  },
+  "eatonM22DrR": {
+    "title": "Kitufe cha Kushinikiza cha Kusimamisha Dharura cha Eaton M22-DR-R",
+    "description": "Kitufe cha kushinikiza cha kusimamisha dharura cha 22mm chenye kichwa cha uyoga mwekundu na utaratibu wa kupindisha-ili-kuachilia kwa matumizi ya usalama.",
+    "features": [
+      "Ubunifu wa msimu wa 22mm",
+      "Kichwa cha uyoga mwekundu kwa kusimamisha dharura",
+      "Utaratibu wa kupindisha-ili-kuachilia",
+      "Viwango vya ulinzi vya IP65/66/67",
+      "Inafaa kwa matumizi ya viwandani nyepesi"
+    ]
+  },
+  "schneiderXb5Harmony": {
+    "title": "Kitufe cha Kushinikiza cha LED cha Schneider Electric Harmony XB5",
+    "description": "Kitufe cha kushinikiza kilichoangazwa cha 22mm na LED iliyounganishwa, ujenzi wa chuma, na ulinzi wa IP65 kwa matumizi ya paneli ya udhibiti.",
+    "features": [
+      "Ujenzi wa chuma wa 22mm",
+      "Mwangaza wa LED uliounganishwa",
+      "Ulinzi wa mazingira wa IP65",
+      "Chaguzi nyingi za rangi zinapatikana",
+      "Vitalu vya mawasiliano vya msimu",
+      "Ufungaji rahisi wa snap-in"
+    ]
+  },
+  "abbCp110g": {
+    "title": "Kitufe cha Kushinikiza cha ABB CP1-10G Green Flush",
+    "description": "Kitufe cha kushinikiza cha kijani kibichi na mawasiliano ya 1NO+1NC na ulinzi wa IP65 kwa matumizi ya udhibiti wa kuanza/kukimbia katika paneli za viwandani.",
+    "features": [
+      "Rangi ya kijani kwa dalili ya kuanza",
+      "Ubunifu wa upachikaji wa flush",
+      "Usanidi wa mawasiliano ya 1NO + 1NC",
+      "Ulinzi wa mazingira wa IP65",
+      "Imekusanywa na ya kuaminika",
+      "Ufungaji rahisi"
+    ]
+  },
+  "siemens3su1Pushbutton": {
+    "title": "Kitufe cha Kushinikiza Kilichoangazwa cha Siemens 3SU1",
+    "description": "Kitufe cha kushinikiza kilichoangazwa na bezel ya chuma, uendeshaji wa 24V, na ulinzi wa IP67 kwa udhibiti wa viwandani na matumizi ya kuashiria.",
+    "features": [
+      "Imeangazwa na bezel ya chuma",
+      "Uendeshaji wa 24V AC/DC",
+      "Ulinzi wa mazingira wa IP67",
+      "Chaguzi nyingi za rangi",
+      "Mfumo wa muundo wa msimu",
+      "Uaminifu na uimara wa juu"
+    ]
+  },
+  "fisherEdControlValve": {
+    "title": "Valve ya Udhibiti wa Globe ya Fisher easy-e™ ED",
+    "description": "Valve ya udhibiti wa globe ya kuziba yenye usawa na uongozi wa ngome na kiti cha chuma-kwa-chuma kwa udhibiti wa mchakato wa kuaminika.",
+    "features": [
+      "Ubunifu wa kuziba wa valve yenye usawa",
+      "Uongozi wa ngome kwa udhibiti sahihi",
+      "Kiti cha chuma-kwa-chuma",
+      "Nafasi ya valve ya dijiti tayari",
+      "Inaendana na mawasiliano ya HART"
+    ]
+  },
+  "samson3241GlobeValve": {
+    "title": "Valve ya Udhibiti wa Globe ya SAMSON Aina ya 3241",
+    "description": "Valve ya globe ya nyumatiki ya viwandani kwa uhandisi wa mchakato na muundo wa msimu na trims zinazoweza kubadilishwa kwa tabia tofauti za mtiririko.",
+    "features": [
+      "Ubunifu wa valve ya globe ya msimu",
+      "Trims zinazoweza kubadilishwa kwa tabia za mtiririko",
+      "Ufungaji wa Darasa la VI (IEC: IV-S2)",
+      "SAM DIGITAL iko tayari na uchunguzi wa utabiri",
+      "Mawasiliano ya HART, Foundation Fieldbus"
+    ]
+  },
+  "fisher657SizeReducer": {
+    "title": "Valve ya Udhibiti wa Kupunguza Ukubwa wa Fisher Aina ya 657",
+    "description": "Valve ya udhibiti wa kupunguza ukubwa iliyoendeshwa na chemchemi-na-diaphragm kwa mitambo iliyoshikana inayohitaji udhibiti bora wa mtiririko katika ukubwa mdogo wa bomba.",
+    "features": [
+      "Ubunifu wa kupunguza ukubwa kwa ufungaji thabiti",
+      "Uendeshaji wa chemchemi-na-diaphragm",
+      "Ukubwa wa inchi 1/2 hadi 2",
+      "Actuator ya nyumatiki ya mlima wa moja kwa moja",
+      "Tabia bora za mtiririko",
+      "Ubunifu wa matengenezo ya chini"
+    ]
+  },
+  "masoneilan41000Globe": {
+    "title": "Valve ya Udhibiti wa Globe ya Mfululizo wa Masoneilan 41000",
+    "description": "Valve ya udhibiti wa globe ya nyumatiki na muundo wa trim yenye usawa kwa matumizi magumu ya huduma inayohitaji udhibiti wa mtiririko wa usahihi na kuzima kwa nguvu.",
+    "features": [
+      "Ubunifu wa valve ya globe kwa udhibiti sahihi",
+      "Mfumo wa uendeshaji wa nyumatiki",
+      "Ujenzi wa trim yenye usawa",
+      "Uwezo mkubwa wa huduma",
+      "Ukadiriaji wa kuzima wa Darasa la VI",
+      "Ubadilikaji mpana"
+    ]
+  },
+  "samson3241PneumaticGlobeValve": {
+    "title": "Valve ya Globe ya Nyumatiki ya SAMSON 3241",
+    "description": "Valve ya udhibiti wa globe ya nyumatiki na muundo wa shina iliyoongozwa kwa udhibiti wa mchakato wa kuaminika katika ukubwa wa DN15-300 na tabia bora za mtiririko.",
+    "features": [
+      "Ubunifu wa valve ya globe ya nyumatiki",
+      "Shina iliyoongozwa kwa utulivu",
+      "Ukubwa wa DN15 hadi DN300",
+      "Chaguzi nyingi za trim zinapatikana",
+      "SAM DIGITAL nafasi tayari",
+      "Ujenzi thabiti"
+    ]
+  },
+  "asco8262h112dc24": {
+    "title": "Valve ya Solenoid ya Huduma ya Jumla ya ASCO 8262H112DC24",
+    "description": "Valve ya solenoid ya njia 2 iliyofungwa kawaida katika ujenzi wa chuma cha pua kwa matumizi ya hewa, maji, mafuta mepesi, na gesi ya mafuta.",
+    "features": [
+      "Uendeshaji wa njia 2 iliyofungwa kawaida",
+      "Ujenzi wa chuma cha pua",
+      "Inafaa kwa aina nyingi za vyombo vya habari",
+      "Inaendeshwa moja kwa moja au inayoendeshwa na rubani",
+      "Imeorodheshwa na UL na Imethibitishwa na CSA"
+    ]
+  },
+  "parkerS4aSolenoidValve": {
+    "title": "Valve ya Solenoid ya Majokofu ya Mfululizo wa Parker S4A",
+    "description": "Valve ya solenoid iliyoundwa kwa mifumo ya majokofu na udhibiti wa maji, inayoendana na majokofu mengi na iliyojengwa kwa safu nyingi za shinikizo.",
+    "features": [
+      "Inaendana na R410A, R448A, R449A, R450A, R507A",
+      "Uwezo wa anuwai ya shinikizo",
+      "Ubunifu thabiti na nyepesi",
+      "Tabia bora za udhibiti wa mtiririko",
+      "Imejengwa kwa mifumo ya majokofu ya kibiashara"
+    ]
+  },
+  "asco8210g094": {
+    "title": "Valve ya Solenoid ya ASCO 8210G094 2-Way NC",
+    "description": "Valve ya solenoid ya shaba ya njia 2 iliyofungwa kawaida na unganisho la 1/2 NPT na coil ya 120VAC kwa matumizi ya huduma ya jumla.",
+    "features": [
+      "Uendeshaji wa njia 2 iliyofungwa kawaida",
+      "Ujenzi wa mwili wa shaba",
+      "Voltage ya coil ya 120V AC",
+      "Uunganisho wa inchi 1/2 NPT",
+      "Matumizi ya huduma ya jumla",
+      "Imeidhinishwa na UL na CSA"
+    ]
+  },
+  "burkert6013": {
+    "title": "Valve ya Solenoid Inayoendeshwa Moja kwa Moja ya Bürkert Aina ya 6013",
+    "description": "Valve ya solenoid ya njia 2/2 inayoendeshwa moja kwa moja na muhuri wa FKM na coil ya 24VDC kwa udhibiti sahihi wa maji katika matumizi ya mchakato.",
+    "features": [
+      "Kanuni ya uendeshaji wa moja kwa moja",
+      "Usanidi wa njia 2/2",
+      "Nyenzo ya muhuri ya FKM",
+      "Uendeshaji wa 24V DC",
+      "Ubunifu thabiti",
+      "Matumizi ya nguvu ya chini"
+    ]
+  },
+  "parker71215sn2vn00": {
+    "title": "Valve ya Solenoid Iliyofunguliwa Kawaida ya Parker 71215SN2VN00",
+    "description": "Valve ya solenoid ya chuma cha pua iliyofunguliwa kawaida na unganisho la inchi 1/4 na coil ya 12VDC kwa matumizi maalum ya udhibiti.",
+    "features": [
+      "Usanidi uliofunguliwa kawaida",
+      "Ujenzi wa chuma cha pua",
+      "Uendeshaji wa 12V DC",
+      "Ukubwa wa bandari ya inchi 1/4",
+      "Inayostahimili kutu",
+      "Alama ndogo ya mguu"
+    ]
+  },
+  "fisherV150VeeBallValve": {
+    "title": "Valve ya Fisher V150 Vee-Ball On/Off",
+    "description": "Valve ya Fisher V150 Vee-Ball yenye mpira wa V-notch kwa huduma ya kuaminika ya kuwasha-kuzima au kukaba. Inaangazia shafti ya valve iliyopigwa kwa actuators za rotary, ujenzi wa flange iliyoinuliwa, na vifaa vinavyokubaliana na NACE MR0175-2 kwa huduma ya sour.",
+    "features": [
+      "Ubunifu wa mpira wa V-notch kwa kuwasha-kuzima/kukaba",
+      "Ukubwa wa NPS 1 hadi 12",
+      "Ujenzi wa flange iliyoinuliwa",
+      "Shafti iliyopigwa kwa actuators za rotary",
+      "NACE MR0175-2 inatii huduma ya sour",
+      "Ukadiriaji wa ASME Class 150/300"
+    ]
+  },
+  "fisherV280BallValve": {
+    "title": "Valve ya Udhibiti wa Mpira wa Fisher V280 Full-Bore",
+    "description": "Valve ya mpira ya Fisher V280 yenye nguvu kubwa ya vipande vitatu iliyowekwa kwenye trunnion kwa huduma ya kuwasha-kuzima. Hushughulikia kushuka kwa shinikizo kamili ya CL900 na attenuator ya kuchimba visima kwa udhibiti wa kelele/vibration. Ubunifu salama wa moto na vifaa vinavyotii NACE.",
+    "features": [
+      "Ubunifu kamili wa trunnion",
+      "Ina uwezo wa kushuka kwa shinikizo la CL900",
+      "Attenuator ya kelele ya hiari kwa vimiminika/gesi",
+      "Ujenzi uliothibitishwa salama kwa moto",
+      "NACE MR0175/ISO 15156 inatii",
+      "Ubunifu wa mwili wa vipande vitatu"
+    ]
+  },
+  "flowserveWorcesterF519BallValve": {
+    "title": "Valve ya Mpira ya Flowserve Worcester F519 ASA150",
+    "description": "Valve ya mpira ya Flowserve Worcester F519 ASA150 yenye muundo wa mpira unaoelea. Imeidhinishwa na mtu wa tatu kwa BS 5351 na upimaji wa moto kwa BS EN 10497. Inaangazia upachikaji wa actuator wa ISO 5211, shina la kuzuia mlipuko, na muundo wa anti-static.",
+    "features": [
+      "Ubunifu wa valve ya mpira ya ASA150",
+      "Ukubwa wa inchi 1/2 hadi inchi 8",
+      "Imeidhinishwa na BS 5351 na API 6D",
+      "Moto salama BS EN 10497 iliyojaribiwa",
+      "Jukwaa la kupachika actuator la ISO 5211",
+      "Shina la kuzuia mlipuko kwa usalama"
+    ]
+  },
+  "flowserveWorcesterSeries44BallValve": {
+    "title": "Valve ya Mpira ya Vipande Vitatu ya Flowserve Worcester Series 44",
+    "description": "Valve ya mpira ya vipande vitatu ya Worcester Series 44 inayoongoza kwa tasnia iliyoundwa kwa vipimo vya ANSI B16.34. Inaangazia teknolojia ya hali ya juu ya kiti kwa kuzima kabisa, inaweza kusanidiwa kwa matumizi ya udhibiti wa kuwasha-kuzima au kukaba.",
+    "features": [
+      "Ubunifu wa valve ya mpira ya vipande vitatu",
+      "Vipimo vya ANSI B16.34",
+      "Uwezo wa kuzima kabisa",
+      "Teknolojia ya hali ya juu ya muhuri",
+      "Uendeshaji wa kuwasha-kuzima au kukaba",
+      "Ukubwa wa inchi 1/4 hadi inchi 6"
+    ]
+  },
+  "swagelokSs43gs4BallValve": {
+    "title": "Valve ya Mpira ya Swagelok SS-43GS4 40G Series",
+    "description": "Valve ya mpira ya chuma cha pua ya Swagelok SS-43GS4 ya chuma cha pua kwa huduma ya robo-geu ya kuwasha-kuzima. Inaangazia ukadiriaji wa 3,000 PSI, uwezo ulioimarishwa wa mzunguko wa mafuta, anuwai ya -65°F hadi 300°F, na marekebisho ya upakiaji wa inline.",
+    "features": [
+      "Ujenzi wa chuma cha pua cha kipande kimoja",
+      "Shinikizo la kufanya kazi la 3,000 PSI",
+      "Kiwango cha joto -65°F hadi 300°F",
+      "Uwezo ulioimarishwa wa mzunguko wa mafuta",
+      "Uendeshaji wa robo-geu ya kuwasha-kuzima",
+      "Uwezo wa marekebisho ya upakiaji wa Inline"
+    ]
+  },
+  "burkert2655BallValve": {
+    "title": "Valve ya Mpira ya Nyumatiki ya Burkert Aina ya 2655",
+    "description": "Valve ya mpira ya vipande vitatu ya Burkert Aina ya 2655 yenye actuator ya rotary ya nyumatiki ya Aina ya 2050 kwa uendeshaji wa kuwasha-kuzima. Inaangazia kiolesura cha kawaida cha ISO 5211, pistoni ya mstari na kuunganisha haraka, na uendeshaji wa njia 2/2 kwa kuzima na usambazaji wa mtiririko.",
+    "features": [
+      "Valve ya mpira ya chuma cha pua ya vipande 3",
+      "Actuator ya rotary ya nyumatiki ya Aina ya 2050",
+      "Uunganisho wa flange ya ISO 5211",
+      "Uendeshaji wa kuwasha-kuzima wa 90° robo-geu",
+      "Nyumatiki moja au mbili",
+      "Kuunganisha uzi wa screw haraka"
+    ]
   }
 }

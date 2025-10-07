@@ -31,6 +31,300 @@
       ]
     }
   },
+  "labels": {
+    "power": "Potência do Motor",
+    "speed": "Classificação de Velocidade",
+    "airflow": "Fluxo de Ar",
+    "efficiency": "Eficiência",
+    "warranty": "Garantia",
+    "voltage": "Voltagem",
+    "solarPanelRequirement": "Requisito do Painel Solar",
+    "headRange": "Faixa de Altura Manométrica",
+    "flowRate": "Taxa de Fluxo",
+    "cableType": "Tipo de Cabo",
+    "conductorSize": "Tamanho do Condutor",
+    "voltageRating": "Classificação de Voltagem",
+    "temperatureRange": "Faixa de Temperatura",
+    "shielding": "Blindagem",
+    "insulation": "Isolamento",
+    "flow": "Vazão",
+    "head": "Altura Manométrica",
+    "solarCompatible": "Compatível com Energia Solar",
+    "type": "Tipo",
+    "awg": "Calibre do Fio",
+    "temperature": "Temperatura"
+  },
+  "bldc-smart1200": {
+    "seo": {
+      "title": "Ventilador de Teto Inteligente BLDC 1200 RPM - Eficiência Energética | Powerton Engineering",
+      "description": "Ventilador de Teto Inteligente BLDC de alta eficiência 1200 RPM com controle remoto, função timer e tecnologia de economia de energia. Perfeito para casas e escritórios.",
+      "keywords": "Ventilador de teto BLDC, ventilador de teto inteligente, ventilador de baixo consumo de energia, ventilador de teto de 1200 RPM, ventilador com motor DC sem escovas, ventilador com controle remoto"
+    },
+    "hero": {
+      "title": "Ventilador de Teto Inteligente BLDC 1200 RPM",
+      "subtitle": "Ventilador de teto inteligente com baixo consumo de energia e controle remoto"
+    },
+    "overview": {
+      "fullDescription": "Nosso Ventilador de Teto Inteligente BLDC 1200 RPM combina tecnologia de ponta de motor DC sem escovas com recursos inteligentes para eficiência energética e conforto ideais. Projetado para aplicações residenciais e comerciais leves, este ventilador oferece desempenho superior enquanto consome até 65% menos energia do que os ventiladores tradicionais."
+    },
+    "keyBenefits": [
+      "Até 65% de Economia de Energia",
+      "Controle Remoto Inteligente",
+      "Operação Silenciosa",
+      "Longa Vida Útil"
+    ],
+    "features": [
+      "Tecnologia de Motor DC sem Escovas",
+      "Controle Remoto Inteligente com Timer",
+      "Controle de Velocidade Variável",
+      "Função de Direção Reversa",
+      "Display Indicador de LED",
+      "Classificação Energy Star",
+      "Motor com Enrolamento de Cobre",
+      "Design de Lâmina Aerodinâmica"
+    ],
+    "applications": [
+      "Quartos Residenciais",
+      "Salas de Estar",
+      "Espaços de Escritório",
+      "Salas de Estudo",
+      "Quartos de Hóspedes",
+      "Pequenos Espaços Comerciais"
+    ],
+    "industries": [
+      "Construção Residencial",
+      "Design de Interiores",
+      "Hospitalidade",
+      "Edifícios de Escritórios",
+      "Instituições Educacionais",
+      "Instalações de Saúde"
+    ],
+    "certifications": [
+      "Certificado Energy Star",
+      "Marca ISI",
+      "Aprovado pela CE",
+      "Compatível com RoHS",
+      "Classificação BEE 5 Estrelas"
+    ]
+  },
+  "bldc-premium1400": {
+    "seo": {
+      "title": "Ventilador de Teto BLDC Premium 1400 RPM - Recursos Avançados | Powerton Engineering",
+      "description": "Ventilador de Teto BLDC Premium 1400 RPM com recursos inteligentes avançados, fluxo de ar superior e tecnologia de motor sem escovas com eficiência energética.",
+      "keywords": "Ventilador de teto BLDC premium, ventilador de teto de 1400 RPM, ventilador de teto avançado, ventilador de teto inteligente, ventilador de alto fluxo de ar, baixo consumo de energia"
+    },
+    "hero": {
+      "title": "Ventilador de Teto BLDC Premium 1400 RPM",
+      "subtitle": "Ventilador de teto de alto desempenho com iluminação LED"
+    },
+    "overview": {
+      "fullDescription": "O Ventilador de Teto BLDC Premium 1400 RPM representa o auge da tecnologia de ventiladores de teto com recursos avançados e qualidade de construção superior. Projetado para desempenho aprimorado com maior entrega de fluxo de ar, mantendo a excepcional eficiência energética para aplicações residenciais e comerciais premium."
+    },
+    "keyBenefits": [
+      "Desempenho de Fluxo de Ar Superior",
+      "Controles Inteligentes Avançados",
+      "Qualidade de Construção Premium",
+      "Cobertura de Garantia Estendida"
+    ],
+    "features": [
+      "Motor BLDC de Alto Desempenho",
+      "Conectividade WiFi Inteligente",
+      "Controle de Aplicativo Móvel",
+      "Compatível com Assistente de Voz",
+      "Controle Remoto Premium",
+      "Lâminas Aerodinâmicas de Alta Eficiência",
+      "Revestimento Anti-Poeira",
+      "Integração de Sensor de Temperatura"
+    ],
+    "applications": [
+      "Espaços Residenciais Premium",
+      "Quartos Principais",
+      "Grandes Áreas de Estar",
+      "Escritórios Executivos",
+      "Salas de Conferência",
+      "Hotéis de Luxo"
+    ],
+    "industries": [
+      "Residencial Premium",
+      "Hospitalidade de Luxo",
+      "Escritórios Corporativos",
+      "Varejo de Alto Nível",
+      "Saúde Premium",
+      "Educação Sofisticada"
+    ],
+    "certifications": [
+      "Certificado Energy Star",
+      "Marca ISI",
+      "Aprovado pela CE",
+      "Compatível com RoHS",
+      "Classificação BEE 5 Estrelas",
+      "Certificado WiFi Alliance"
+    ]
+  },
+  "bldc-commercial1500": {
+    "seo": {
+      "title": "Ventilador de Teto Comercial BLDC 1500 RPM - Heavy Duty | Powerton Engineering",
+      "description": "Ventilador de Teto Comercial BLDC 1500 RPM projetado para aplicações pesadas com fluxo de ar máximo e confiabilidade industrial.",
+      "keywords": "Ventilador de teto comercial BLDC, ventilador de teto industrial, ventilador de 1500 RPM, ventilador de teto para serviço pesado, ventilador de nível comercial, alto fluxo de ar"
+    },
+    "hero": {
+      "title": "Ventilador de Teto Comercial BLDC 1500 RPM",
+      "subtitle": "Ventilador de teto para serviço pesado para aplicações comerciais"
+    },
+    "overview": {
+      "fullDescription": "Nosso Ventilador de Teto Comercial BLDC 1500 RPM é projetado para aplicações comerciais pesadas que exigem fluxo de ar e confiabilidade máximos. Construído com componentes de nível industrial e tecnologia de motor avançada para oferecer desempenho consistente em ambientes exigentes, mantendo a eficiência energética."
+    },
+    "keyBenefits": [
+      "Entrega de Fluxo de Ar Máximo",
+      "Confiabilidade de Nível Industrial",
+      "Construção Pesada",
+      "Proteção de Garantia Estendida"
+    ],
+    "features": [
+      "Motor BLDC para Serviço Pesado",
+      "Carcaça do Motor Reforçada",
+      "Rolamentos de Nível Comercial",
+      "Lâminas de Metal de Alta Resistência",
+      "Classificação de Operação Contínua",
+      "Design Livre de Vibração",
+      "Acabamento Resistente à Corrosão",
+      "Controle Remoto Industrial"
+    ],
+    "applications": [
+      "Edifícios Comerciais",
+      "Instalações Industriais",
+      "Grandes Espaços de Escritório",
+      "Showrooms de Varejo",
+      "Armazéns",
+      "Fábricas"
+    ],
+    "industries": [
+      "Imóveis Comerciais",
+      "Manufatura Industrial",
+      "Varejo e Compras",
+      "Armazenagem e Logística",
+      "Hospitalidade Comercial",
+      "Instituições de Ensino"
+    ],
+    "certifications": [
+      "Certificado Energy Star",
+      "Marca ISI",
+      "Aprovado pela CE",
+      "Compatível com RoHS",
+      "Classificação BEE 5 Estrelas",
+      "Certificado de Nível Comercial"
+    ]
+  },
+  "solar-bldc-submersible-1hp": {
+    "seo": {
+      "title": "Bomba Submersível Solar BLDC 1HP - Soluções Sustentáveis ​​de Água | Powerton Engineering",
+      "description": "Bomba Submersível Solar BLDC 1HP para irrigação agrícola e abastecimento de água com tecnologia solar avançada e eficiência energética.",
+      "keywords": "Bomba submersível solar, bomba de água BLDC, bomba de água solar, bomba submersível de 1HP, bomba de energia renovável, bomba agrícola"
+    },
+    "hero": {
+      "title": "Bomba Submersível Solar BLDC 1HP",
+      "subtitle": "Solução de bombeamento de água movida a energia solar"
+    },
+    "overview": {
+      "fullDescription": "Nossa Bomba Submersível Solar BLDC 1HP combina energia solar renovável com tecnologia de motor sem escovas avançada para soluções de bombeamento de água sustentáveis. Projetada para irrigação agrícola, abastecimento doméstico de água e sistemas de água remotos com máxima eficiência e confiabilidade."
+    },
+    "keyBenefits": [
+      "100% movido a energia solar",
+      "Custos operacionais zero",
+      "Amigo do ambiente",
+      "Compatível com área remota"
+    ],
+    "features": [
+      "Motor BLDC compatível com energia solar",
+      "Controlador MPPT incluído",
+      "Design refrigerado a água",
+      "Proteção contra funcionamento a seco",
+      "Tecnologia de partida suave",
+      "Materiais resistentes à corrosão",
+      "Compatível com chave de bóia",
+      "Sistema de monitoramento remoto"
+    ],
+    "applications": [
+      "Irrigação agrícola",
+      "Abastecimento Doméstico de Água",
+      "Abastecimento de Água para Gado",
+      "Sistemas Remotos de Água",
+      "Abastecimento de Água Rural",
+      "Irrigação de jardins"
+    ],
+    "industries": [
+      "Agricultura e Criação",
+      "Desenvolvimento Rural",
+      "Gestão de Água",
+      "Energia renovável",
+      "Sistemas de irrigação",
+      "Tecnologia Sustentável"
+    ],
+    "certifications": [
+      "Certificado de energia solar",
+      "Marca ISI",
+      "Aprovado pela CE",
+      "Compatível com RoHS",
+      "Classificação IP68",
+      "Aprovado pelo MNRE"
+    ]
+  },
+  "instrumentation-cables": {
+    "seo": {
+      "title": "Cabos de Instrumentação - Transmissão de Sinal de Precisão | Powerton Engineering",
+      "description": "Cabos de instrumentação de alta qualidade com construção blindada para medição precisa e transmissão de sinal de controle.",
+      "keywords": "cabos de instrumentação, par trançado blindado, cabos de sinal, cabos de medição, cabos de controle, cabos industriais"
+    },
+    "hero": {
+      "title": "Cabos de Instrumentação",
+      "subtitle": "Transmissão de Sinal de Precisão"
+    },
+    "overview": {
+      "fullDescription": "Cabos de instrumentação profissionais projetados para transmissão de sinal precisa em aplicações industriais de medição e controle. Possui construção de par trançado blindado, excelente rejeição de ruído e integridade de sinal superior para sistemas de instrumentação críticos."
+    },
+    "keyBenefits": [
+      "Integridade de Sinal Superior",
+      "Excelente Imunidade a Ruídos",
+      "Ampla Faixa de Temperatura",
+      "Resistente a Produtos Químicos",
+      "Instalação Flexível",
+      "Longa Vida Útil"
+    ],
+    "features": [
+      "Design de Par Trançado Blindado",
+      "Construção de Baixa Capacitância",
+      "Configuração de Fio de Dreno",
+      "Identificação com Código de Cores",
+      "Revestimento Retardante de Chama",
+      "Resistente a Óleo e Produtos Químicos",
+      "Encalhamento Flexível",
+      "Múltiplas Opções de Par"
+    ],
+    "applications": [
+      "Sistemas de Controle de Processo",
+      "Laços de Instrumentação",
+      "Conexões de Sensor",
+      "Fiação do Transmissor",
+      "Conexões do Analisador",
+      "Fiação da Sala de Controle"
+    ],
+    "industries": [
+      "Petróleo e Gás",
+      "Processamento Químico",
+      "Geração de energia",
+      "Tratamento de água",
+      "Manufatura",
+      "Farmacêutico"
+    ],
+    "certifications": [
+      "Listado pela UL",
+      "Certificado pela CSA",
+      "Marcação CE",
+      "IEC 60502",
+      "NFPA 70",
+      "Compatível com RoHS"
+    ]
+  },
   "bldcCeilingFan": {
     "smart1200": {
       "name": "Ventilador de Teto BLDC Inteligente - 1200mm",
@@ -699,5 +993,511 @@
       "polycrystalline320W": "Painéis Solares Policristalinos - 320W",
       "bifacial450W": "Painéis Solares Bifaciais - 450W"
     }
+  },
+  "ovalFlowpetLsf41": {
+    "title": "Medidor de Vazão Deslocamento Positivo OVAL FLOWPET LSF41",
+    "description": "Medidor de vazão de deslocamento positivo OVAL FLOWPET LSF41 de alta precisão com excecpcional exatidão. Possui repetibilidade superior, ampla faixa de diâmetro e construção de material premium para aplicações exigentes de medição de líquidos.",
+    "features": [
+      "Tecnologia de medição de vazão de deslocamento positivo (PD)",
+      "Ampla faixa de diâmetro: DN15 a DN200 (1/2\" a 8\")",
+      "Faixa de vazão: 0,05-1500 L/min (dependendo do tamanho)",
+      "Exatidão excepcional: ±0,1% da leitura",
+      "Repetibilidade superior: ±0,02% da leitura",
+      "Temperatura do processo: -20°C a +120°C",
+      "Classificação de proteção IP67",
+      "Múltiplas saídas: Saída de pulso, 4-20mA, HART",
+      "Múltiplas conexões de processo: Flangeado (JIS, ANSI, DIN), Rosqueado",
+      "Materiais premium: SUS316, SUS316L, Hastelloy C-276",
+      "Certificado ATEX, IECEx, FM"
+    ]
+  },
+  "badgerMeterM1000": {
+    "title": "Medidor de Vazão de Disco Nutante Badger Meter M1000",
+    "description": "Medidor de vazão de deslocamento positivo de disco nutante Badger Meter M1000 confiável com tecnologia de medição avançada. Possui exatidão excepcional, múltiplas opções de comunicação e construção robusta para aplicações de serviços de água.",
+    "features": [
+      "Tecnologia de deslocamento positivo de disco nutante",
+      "Faixa de diâmetro: DN15 a DN100 (5/8\" a 4\")",
+      "Faixa de vazão: 0,125-400 GPM (dependendo do tamanho)",
+      "Boa exatidão: ±0,5% da leitura",
+      "Boa repetibilidade: ±0,1% da leitura",
+      "Temperatura de operação: -20°C a +70°C",
+      "Classificação de proteção IP68",
+      "Múltiplas comunicações: Saída de pulso, AMR/AMI, 4-20mA",
+      "Múltiplas conexões de processo: Flangeado (ANSI), NPT, Compressão",
+      "Materiais robustos: Bronze, Ferro Fundido, 316L SST",
+      "Certificado NSF, AWWA, ANSI"
+    ]
+  },
+  "krohneBm100PdMeter": {
+    "title": "Medidor de Vazão de Engrenagem Oval Deslocamento Positivo KROHNE BM 100",
+    "description": "Medidor de vazão de engrenagem oval de deslocamento positivo KROHNE BM 100 de alto desempenho com tecnologia de medição avançada. Possui exatidão excepcional, repetibilidade superior e comunicação multi-protocolo para aplicações industriais.",
+    "features": [
+      "Tecnologia de engrenagem oval de deslocamento positivo",
+      "Ampla faixa de diâmetro: DN10 a DN200 (3/8\" a 8\")",
+      "Faixa de vazão: 0,15-3000 L/min (dependendo do tamanho)",
+      "Alta exatidão: ±0,2% da leitura",
+      "Excelente repetibilidade: ±0,05% da leitura",
+      "Ampla temperatura do processo: -40°C a +200°C",
+      "Classificação de proteção IP67",
+      "Multi-protocolo: Saída de pulso, 4-20mA, HART, Modbus",
+      "Múltiplas conexões de processo: Flangeado (DIN, ANSI), Rosqueado",
+      "Materiais versáteis: Alumínio, Ferro Fundido, 316L SST",
+      "Certificado ATEX, IECEx, FM, CSA"
+    ]
+  },
+  "kralVolumeterOmg": {
+    "title": "Medidor de Vazão de Parafuso Deslocamento Positivo KRAL VoluMeter OMG",
+    "description": "Medidor de vazão de parafuso de deslocamento positivo KRAL VoluMeter OMG de precisão com excecpcional exatidão de medição. Possui repetibilidade superior, comunicação multi-protocolo e certificação MID para aplicações de transferência de custódia.",
+    "features": [
+      "Tecnologia de vazão de parafuso de deslocamento positivo",
+      "Faixa de diâmetro: DN15 a DN150 (1/2\" a 6\")",
+      "Faixa de vazão: 0,5-1200 L/min (dependendo do tamanho)",
+      "Exatidão excepcional: ±0,1% da leitura",
+      "Repetibilidade superior: ±0,02% da leitura",
+      "Ampla temperatura do processo: -40°C a +200°C",
+      "Classificação de proteção IP67",
+      "Multi-protocolo: Saída de pulso, 4-20mA, HART, Profibus",
+      "Múltiplas conexões de processo: Flangeado (DIN, ANSI), Rosqueado",
+      "Materiais robustos: Alumínio, Aço Fundido, 316L SST",
+      "Certificado ATEX, IECEx, FM, CSA, MID"
+    ]
+  },
+  "flowTechnologyDcISeries": {
+    "title": "Medidor de Vazão de Engrenagem Helicoidal Deslocamento Positivo Flow Technology DC-I Series",
+    "description": "Medidor de vazão de engrenagem helicoidal de deslocamento positivo Flow Technology DC-I Series avançado, projetado para fluidos de alta viscosidade. Possui faixa de viscosidade ultra-ampla, exatidão excepcional e materiais especiais para aplicações químicas e petroquímicas exigentes.",
+    "features": [
+      "Tecnologia de engrenagem helicoidal de deslocamento positivo",
+      "Faixa de diâmetro compacto: DN6 a DN50 (1/4\" a 2\")",
+      "Faixa de vazão ultra-ampla: 0,001-400 GPM (dependendo do tamanho)",
+      "Faixa de viscosidade ultra-ampla: 0,6 a 1.000.000 cP",
+      "Boa exatidão: ±0,5% da leitura",
+      "Excelente repetibilidade: ±0,05% da leitura",
+      "Temperatura do processo estendida: -40°C a +204°C",
+      "Classificação de proteção IP65",
+      "Comunicação: Saída de pulso, 4-20mA, HART",
+      "Múltiplas conexões de processo: Flangeado (ANSI), NPT, BSP",
+      "Materiais especiais: 316 SST, Hastelloy C, PPS",
+      "Certificado ATEX, FM, CSA"
+    ]
+  },
+  "danfossKp36": {
+    "title": "Pressostato Danfoss KP36",
+    "description": "Pressostato industrial com contatos elétricos de ação rápida para operação confiável em aplicações de vapor, ar e meios líquidos.",
+    "features": [
+      "Sistema de contato SPDT para comutação confiável",
+      "Função de desarme manual para teste",
+      "Temperatura de operação: -40°F a 175°F",
+      "Configurações de pressão diferencial ajustáveis",
+      "Adequado para meios gasosos e líquidos"
+    ]
+  },
+  "schneider9013fsg2j24m4": {
+    "title": "Interruptor Pumptrol Schneider Electric 9013FSG2J24M4",
+    "description": "Pressostato Square D Pumptrol com corte de baixa pressão para aplicações de bomba de até 1,5 HP.",
+    "features": [
+      "Ajuste de pressão de 40-60 PSI",
+      "Diferencial ajustável de 15-30 PSI",
+      "Proteção de corte de baixa pressão",
+      "Invólucro NEMA 1/IP20",
+      "Listado pela UL, certificado pela CSA"
+    ]
+  },
+  "wikaPsm760": {
+    "title": "Pressostato Programável WIKA PSM-760",
+    "description": "Pressostato eletrônico programável com saída de 4-20mA e display digital para monitoramento e controle de pressão precisos.",
+    "features": [
+      "Pontos de comutação programáveis",
+      "Sinal de saída analógica de 4-20mA",
+      "Display LED digital",
+      "Faixa de pressão de 0-600 bar",
+      "Peças molhadas em aço inoxidável",
+      "Classificação de proteção IP65"
+    ]
+  },
+  "abb266dsh": {
+    "title": "Pressostato Diferencial ABB 266DSH",
+    "description": "Pressostato diferencial à prova de explosão com invólucro NEMA 7 para aplicações em áreas perigosas que exigem monitoramento confiável da pressão diferencial.",
+    "features": [
+      "Medição de pressão diferencial",
+      "Invólucro NEMA 7 à prova de explosão",
+      "Certificado para área perigosa",
+      "Configurações diferenciais ajustáveis",
+      "Construção resistente à corrosão",
+      "Saídas de alarme de alta/baixa pressão"
+    ]
+  },
+  "ashcroftB424b": {
+    "title": "Pressostato Ashcroft B424B para Serviço Pesado",
+    "description": "Pressostato industrial para serviço pesado com contatos SPDT e construção robusta para operação confiável em aplicações exigentes.",
+    "features": [
+      "Design industrial para serviço pesado",
+      "Configuração de contato SPDT",
+      "Faixa de pressão de 0-1000 psi",
+      "Tubo Bourdon de aço inoxidável",
+      "Caixa resistente à corrosão",
+      "Aprovado pela UL e CSA"
+    ]
+  },
+  "endressFtl31": {
+    "title": "Chave de Nível Endress+Hauser FTL31 Liquiphant",
+    "description": "Chave de nível de ponto de garfo vibratório para detecção de nível de líquido com tecnologia de sensor ativo para prevenção de transbordamento e proteção da bomba.",
+    "features": [
+      "Tecnologia de garfo vibratório com acionamento piezoelétrico",
+      "A tecnologia de sensor ativo garante a funcionalidade do dispositivo",
+      "Nenhum ajuste necessário para diferentes mídias",
+      "Rosca de conexão de processo G1",
+      "Mais de 6 milhões instalados em todo o mundo"
+    ]
+  },
+  "abbLsSeries": {
+    "title": "Chave de Nível Mecânica ABB LS Series",
+    "description": "Chave de nível de flutuador mecânico robusta com mecanismo de comutação hermeticamente fechado para detecção confiável de nível de ponto de líquido.",
+    "features": [
+      "Design mais robusto no mercado industrial",
+      "Ajuste do ponto de comutação em uma etapa",
+      "Comutação de compartimento duplo hermeticamente fechada",
+      "Disponível em modelos flangeados ou de inserção",
+      "Mais de 100 configurações disponíveis"
+    ]
+  },
+  "vegaVegaswing61": {
+    "title": "Chave de Nível de Haste Vibratória VEGA VEGASWING 61",
+    "description": "Chave de nível de haste vibratória universal para detecção de nível de ponto em líquidos e sólidos a granel com design compacto e conexão de processo G1.",
+    "features": [
+      "Tecnologia de haste vibratória",
+      "Universal para líquidos e sólidos a granel",
+      "Rosca de conexão de processo G1",
+      "Compacto e livre de manutenção",
+      "Alta resistência à temperatura",
+      "Fácil comissionamento"
+    ]
+  },
+  "siemens7ml12Pointflex": {
+    "title": "Chave de Nível de Capacitância Siemens 7ML12 Point flex",
+    "description": "Chave de nível de ponto de capacitância com fonte de alimentação universal e proteção IP66/67 para detecção confiável de nível de líquido em aplicações industriais.",
+    "features": [
+      "Tecnologia de medição de capacitância",
+      "Fonte de alimentação universal 100-240VAC",
+      "Proteção ambiental IP66/IP67",
+      "Simplicidade de conexão de dois fios",
+      "Configurações de sensibilidade ajustáveis",
+      "Adequado para meios condutores/não condutores"
+    ]
+  },
+  "magnetrolEchotel961": {
+    "title": "Chave de Nível Ultrassônica Magnetrol Echotel 961/962",
+    "description": "Chave de nível ultrassônica sem contato com saída de 4-20mA para detecção de nível de líquido sem contato físico com o meio do processo.",
+    "features": [
+      "Tecnologia ultrassônica sem contato",
+      "Sinal de saída analógica de 4-20mA",
+      "Design sem partes móveis",
+      "Ideal para meios corrosivos/viscosos",
+      "Display digital incluído",
+      "Fácil instalação e configuração"
+    ]
+  },
+  "omronWlca12Y": {
+    "title": "Chave Limitadora Omron WLCA12-Y para Serviço Pesado",
+    "description": "Chave limitadora de alavanca de rolo para serviço pesado com classificação IP67 e caixa de metal fundido para ambientes industriais agressivos.",
+    "features": [
+      "Caixa de metal fundido para durabilidade",
+      "Classificação de proteção ambiental IP67",
+      "Atuador de alavanca de rolo ajustável",
+      "Mecanismo de comutação de ação rápida",
+      "Adequado para indústrias com alta automação"
+    ]
+  },
+  "schneiderXcmd21f0l1": {
+    "title": "Chave Limitadora Schneider Electric XCMD21F0L1 OsiSense",
+    "description": "Chave limitadora de formato padrão da linha OsiSense XC com atuador de alavanca de rolo flexível para automação industrial.",
+    "features": [
+      "Design industrial de formato padrão",
+      "Atuador de alavanca de rolo flexível",
+      "Parte da linha OsiSense XC Standard",
+      "Ecossistema de acessórios abrangente",
+      "Operação confiável de ação rápida"
+    ]
+  },
+  "schneiderXckpLimitSwitch": {
+    "title": "Chave Limitadora de Plástico Schneider Electric XCKP",
+    "description": "Chave limitadora de plástico compacta com atuador de êmbolo de rolo, contatos 2NC+2NO e proteção IP67 para aplicações de automação industrial.",
+    "features": [
+      "Atuador de êmbolo de rolo de plástico",
+      "Configuração de contato 2NC + 2NO",
+      "Proteção ambiental IP67",
+      "Design compacto para economia de espaço",
+      "Contatos de abertura positiva",
+      "Ampla faixa de temperatura de operação"
+    ]
+  },
+  "abbLs30p": {
+    "title": "ABB LS30P Thermoplastic Limit Switch",
+    "description": "Thermoplastic housing limit switch with snap action mechanism and IP66 protection for reliable position sensing in industrial applications.",
+    "features": [
+      "Thermoplastic housing construction",
+      "Snap action switching mechanism",
+      "IP66 environmental protection",
+      "Multiple actuator options",
+      "Robust and reliable operation",
+      "Easy installation and wiring"
+    ]
+  },
+  "eatonE51LimitSwitch": {
+    "title": "Eaton E51 Heavy Duty Limit Switch",
+    "description": "Heavy-duty limit switch with side rotary actuator, 4-pole configuration, and IP67 protection for demanding industrial environments.",
+    "features": [
+      "Heavy-duty industrial construction",
+      "Side rotary actuator design",
+      "4-pole contact configuration",
+      "IP67 environmental sealing",
+      "Die-cast metal housing",
+      "UL and CSA certified"
+    ]
+  },
+  "schneiderXb4ba21": {
+    "title": "Schneider Electric XB4BA21 Harmony Push Button",
+    "description": "22mm metal push button with chromium-plated bezel from the Harmony XB4 series for industrial control panels.",
+    "features": [
+      "22mm metal construction",
+      "Chromium-plated bezel for durability",
+      "Automatic self-grounding design",
+      "Modular system with interchangeable components",
+      "FINGERSAFE™ contact blocks"
+    ]
+  },
+  "eatonM22DrR": {
+    "title": "Eaton M22-DR-R Emergency Stop Push Button",
+    "description": "22mm emergency stop push button with red mushroom head and twist-to-release mechanism for safety applications.",
+    "features": [
+      "22mm modular design",
+      "Red mushroom head for emergency stop",
+      "Twist-to-release mechanism",
+      "IP65/66/67 protection ratings",
+      "Suitable for light industrial applications"
+    ]
+  },
+  "schneiderXb5Harmony": {
+    "title": "Schneider Electric Harmony XB5 LED Push Button",
+    "description": "22mm illuminated push button with integrated LED, metal construction, and IP65 protection for control panel applications.",
+    "features": [
+      "22mm metal construction",
+      "Integrated LED illumination",
+      "IP65 environmental protection",
+      "Multiple color options available",
+      "Modular contact blocks",
+      "Easy snap-in mounting"
+    ]
+  },
+  "abbCp110g": {
+    "title": "ABB CP1-10G Green Flush Push Button",
+    "description": "Green flush push button with 1NO+1NC contacts and IP65 protection for start/run control applications in industrial panels.",
+    "features": [
+      "Green color for start indication",
+      "Flush mounting design",
+      "1NO + 1NC contact configuration",
+      "IP65 environmental protection",
+      "Compact and reliable",
+      "Easy installation"
+    ]
+  },
+  "siemens3su1Pushbutton": {
+    "title": "Siemens 3SU1 Illuminated Push Button",
+    "description": "Illuminated push button with metal bezel, 24V operation, and IP67 protection for industrial control and signaling applications.",
+    "features": [
+      "Illuminated with metal bezel",
+      "24V AC/DC operation",
+      "IP67 environmental protection",
+      "Multiple color options",
+      "Modular design system",
+      "High reliability and durability"
+    ]
+  },
+  "fisherEdControlValve": {
+    "title": "Fisher easy-e™ ED Globe Control Valve",
+    "description": "Balanced valve plug globe control valve with cage guiding and metal-to-metal seating for reliable process control.",
+    "features": [
+      "Balanced valve plug design",
+      "Cage guiding for precise control",
+      "Metal-to-metal seating",
+      "Digital valve positioner ready",
+      "HART communication compatible"
+    ]
+  },
+  "samson3241GlobeValve": {
+    "title": "SAMSON Type 3241 Globe Control Valve",
+    "description": "Industrial pneumatic globe valve for process engineering with modular design and exchangeable trims for different flow characteristics.",
+    "features": [
+      "Modular globe valve design",
+      "Exchangeable trims for flow characteristics",
+      "Class VI (IEC: IV-S2) sealing",
+      "SAM DIGITAL ready with predictive diagnostics",
+      "HART, Foundation Fieldbus communication"
+    ]
+  },
+  "fisher657SizeReducer": {
+    "title": "Fisher Type 657 Size Reducer Control Valve",
+    "description": "Spring-and-diaphragm actuated size reducer control valve for compact installations requiring excellent flow control in smaller pipe sizes.",
+    "features": [
+      "Size reducer design for compact installation",
+      "Spring-and-diaphragm actuation",
+      "1/2 to 2 inch size range",
+      "Direct mount pneumatic actuator",
+      "Excellent flow characteristics",
+      "Low maintenance design"
+    ]
+  },
+  "masoneilan41000Globe": {
+    "title": "Masoneilan 41000 Series Globe Control Valve",
+    "description": "Pneumatic globe control valve with balanced trim design for severe service applications requiring precision flow control and tight shutoff.",
+    "features": [
+      "Globe valve design for precise control",
+      "Pneumatic actuation system",
+      "Balanced trim construction",
+      "Severe service capability",
+      "Class VI shutoff rating",
+      "Wide rangeability"
+    ]
+  },
+  "samson3241PneumaticGlobeValve": {
+    "title": "SAMSON 3241 Pneumatic Globe Valve",
+    "description": "Pneumatic globe control valve with guided stem design for reliable process control in DN15-300 sizes with excellent flow characteristics.",
+    "features": [
+      "Pneumatic globe valve design",
+      "Guided stem for stability",
+      "DN15 to DN300 size range",
+      "Multiple trim options available",
+      "SAM DIGITAL positioner ready",
+      "Robust construction"
+    ]
+  },
+  "asco8262h112dc24": {
+    "title": "ASCO 8262H112DC24 General Service Solenoid Valve",
+    "description": "2-way normally closed solenoid valve in stainless steel construction for air, water, light oil, and fuel gas applications.",
+    "features": [
+      "2-way normally closed operation",
+      "Stainless steel construction",
+      "Suitable for multiple media types",
+      "Direct acting or pilot operated",
+      "UL Listed and CSA Certified"
+    ]
+  },
+  "parkerS4aSolenoidValve": {
+    "title": "Parker S4A Series Refrigeration Solenoid Valve",
+    "description": "Solenoid valve designed for refrigeration and fluid control systems, compatible with multiple refrigerants and built for wide pressure ranges.",
+    "features": [
+      "Compatible with R410A, R448A, R449A, R450A, R507A",
+      "Wide pressure range capability",
+      "Compact and lightweight design",
+      "Excellent flow control characteristics",
+      "Built for commercial refrigeration systems"
+    ]
+  },
+  "asco8210g094": {
+    "title": "ASCO 8210G094 2-Way NC Solenoid Valve",
+    "description": "2-way normally closed brass solenoid valve with 1/2 NPT connection and 120VAC coil for general service applications.",
+    "features": [
+      "2-way normally closed operation",
+      "Brass body construction",
+      "120V AC coil voltage",
+      "1/2 inch NPT connection",
+      "General service applications",
+      "UL and CSA certified"
+    ]
+  },
+  "burkert6013": {
+    "title": "Bürkert Type 6013 Direct-Acting Solenoid Valve",
+    "description": "Direct-acting 2/2-way solenoid valve with FKM seal and 24VDC coil for precise fluid control in process applications.",
+    "features": [
+      "Direct-acting principle",
+      "2/2-way configuration",
+      "FKM seal material",
+      "24V DC operation",
+      "Compact design",
+      "Low power consumption"
+    ]
+  },
+  "parker71215sn2vn00": {
+    "title": "Parker 71215SN2VN00 Normally Open Solenoid Valve",
+    "description": "Normally open stainless steel solenoid valve with 1/4 inch connection and 12VDC coil for specialized control applications.",
+    "features": [
+      "Normally open configuration",
+      "Stainless steel construction",
+      "12V DC operation",
+      "1/4 inch port size",
+      "Corrosion resistant",
+      "Compact footprint"
+    ]
+  },
+  "fisherV150VeeBallValve": {
+    "title": "Fisher V150 Vee-Ball On/Off Valve",
+    "description": "Fisher V150 Vee-Ball valve with V-notch ball for reliable on-off or throttling service. Features splined valve shaft for rotary actuators, raised-face flanged construction, and materials compliant with NACE MR0175-2 for sour service.",
+    "features": [
+      "V-notch ball design for on-off/throttling",
+      "NPS 1 through 12 size range",
+      "Raised-face flanged construction",
+      "Splined shaft for rotary actuators",
+      "NACE MR0175-2 sour service compliant",
+      "ASME Class 150/300 ratings"
+    ]
+  },
+  "fisherV280BallValve": {
+    "title": "Fisher V280 Full-Bore Ball Control Valve",
+    "description": "Heavy-duty Fisher V280 three-piece trunnion mounted full-bore ball valve for on-off service. Handles full CL900 pressure drops with optional drilled attenuator for noise/vibration control. Fire-safe design with NACE compliant materials.",
+    "features": [
+      "Full-bore trunnion mounted design",
+      "Capable of CL900 pressure drops",
+      "Optional noise attenuator for liquids/gases",
+      "Fire-safe certified construction",
+      "NACE MR0175/ISO 15156 compliant",
+      "Three-piece body design"
+    ]
+  },
+  "flowserveWorcesterF519BallValve": {
+    "title": "Flowserve Worcester F519 ASA150 Ball Valve",
+    "description": "Worcester F519 ASA150 flanged ball valve with floating ball design. Third party approved to BS 5351 with fire testing to BS EN 10497. Features ISO 5211 actuator mounting, anti-blowout stem, and anti-static design.",
+    "features": [
+      "ASA150 flanged ball valve design",
+      "Sizes 1/2 inch through 8 inch",
+      "BS 5351 and API 6D approved",
+      "Fire-safe BS EN 10497 tested",
+      "ISO 5211 actuator mounting platform",
+      "Anti-blowout stem for safety"
+    ]
+  },
+  "flowserveWorcesterSeries44BallValve": {
+    "title": "Flowserve Worcester Series 44 Three-Piece Ball Valve",
+    "description": "Industry-leading Worcester Series 44 three-piece ball valve designed to ANSI B16.34 specifications. Features advanced seat technology for bubble-tight shutoff, can be configured for on-off or throttling control applications.",
+    "features": [
+      "Three-piece ball valve design",
+      "ANSI B16.34 specifications",
+      "Bubble-tight shutoff capability",
+      "Advanced seal technology",
+      "On-off or throttling operation",
+      "Sizes 1/4 inch to 6 inch"
+    ]
+  },
+  "swagelokSs43gs4BallValve": {
+    "title": "Swagelok SS-43GS4 40G Series Ball Valve",
+    "description": "Swagelok SS-43GS4 stainless steel one-piece instrumentation ball valve for on-off quarter-turn service. Features 3,000 PSI rating, enhanced thermal cycling capability, -65°F to 300°F range, and inline packing adjustments.",
+    "features": [
+      "One-piece stainless steel construction",
+      "3,000 PSI working pressure",
+      "Temperature range -65°F to 300°F",
+      "Enhanced thermal cycling capability",
+      "Quarter-turn on-off operation",
+      "Inline packing adjustment capability"
+    ]
+  },
+  "burkert2655BallValve": {
+    "title": "Burkert Type 2655 Pneumatic Ball Valve",
+    "description": "Burkert Type 2655 three-piece ball valve with Type 2050 pneumatic rotary actuator for on-off operation. Features ISO 5211 standard interface, linear piston with quick-acting coupling, and 2/2-way operation for shutoff and flow distribution.",
+    "features": [
+      "3-piece stainless steel ball valve",
+      "Type 2050 pneumatic rotary actuator",
+      "ISO 5211 flange connection",
+      "90° quarter-turn on-off operation",
+      "Single or double-acting pneumatic",
+      "Quick-acting screw thread coupling"
+    ]
   }
 }
