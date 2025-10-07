@@ -17696,25 +17696,17 @@ export const getProductsForSubcategoryPage = (
           variant: `Variant ${variantNumber}`,
         },
         // Use direct title/description/features if available, otherwise use translationKeys
-        title: baseProduct.title
-          ? `${baseProduct.title} - Variant ${variantNumber}`
-          : baseProduct.translationKeys?.title
-            ? `${baseProduct.translationKeys.title} - Variant ${variantNumber}`
-            : `Product Variant ${variantNumber}`,
-        description: baseProduct.description
-          ? baseProduct.description
-          : baseProduct.translationKeys?.description
+        translationKeys: {
+          title: baseProduct.translationKeys?.title
+            ? baseProduct.translationKeys.title
+            : "products-data:utilities.variant.titleDefault",
+          description: baseProduct.translationKeys?.description
             ? baseProduct.translationKeys.description
-            : `Industrial product variant ${variantNumber} with enhanced specifications`,
-        features: baseProduct.features
-          ? [...baseProduct.features, `Variant ${variantNumber} specifications`]
-          : [
-              `Enhanced performance features`,
-              `Industrial grade construction`,
-              `Reliable operation`,
-              `Certified for industrial use`,
-              `Variant ${variantNumber} specifications`,
-            ],
+            : "products-data:utilities.variant.descriptionDefault",
+          featuresKey: baseProduct.translationKeys?.featuresKey
+            ? baseProduct.translationKeys.featuresKey
+            : "products-data:utilities.defaultProduct.variantFeatures",
+        },
       };
       subcategoryProducts.push(newProduct);
     }
@@ -17733,15 +17725,11 @@ export const getProductsForSubcategoryPage = (
           type: "Standard",
           application: "Industrial",
         },
-        title: `${subcategoryKey.replace(/-/g, " ").replace(/\b\w/g, (l) => l.toUpperCase())} Product ${productNumber}`,
-        description: `Industrial ${subcategoryKey.replace(/-/g, " ")} product designed for reliable performance in demanding applications. Features high-quality construction and proven technology.`,
-        features: [
-          "High-quality industrial construction",
-          "Reliable performance in demanding conditions",
-          "Certified for industrial applications",
-          "Low maintenance requirements",
-          "Excellent value for money",
-        ],
+        translationKeys: {
+          title: "products-data:utilities.defaultProduct.titleTemplate",
+          description: "products-data:utilities.defaultProduct.descriptionTemplate",
+          featuresKey: "products-data:utilities.defaultProduct.features",
+        },
       };
       subcategoryProducts.push(defaultProduct);
     }
@@ -17868,11 +17856,11 @@ export const getProductDetailBySlug = (
     categoryName,
     subcategoryName,
     productGroup?.title || productGroup?.key || '',
-    'industrial automation',
-    'process control',
-    'instrumentation',
-    'India',
-    'Powerton Engineering'
+    t('products-data:utilities.commonData.keywords.industrialAutomation'),
+    t('products-data:utilities.commonData.keywords.processControl'),
+    t('products-data:utilities.commonData.keywords.instrumentation'),
+    t('products-data:utilities.commonData.keywords.india'),
+    t('products-data:utilities.commonData.keywords.powertonEngineering')
   ].filter(Boolean);
   
   // Deduplicate keywords (case-insensitive)
@@ -17919,19 +17907,9 @@ export const getProductDetailBySlug = (
     specifications,
     features: Array.isArray(features) ? features : [],
     keyBenefits: Array.isArray(features) ? features.slice(0, 4) : [],
-    applications: [
-      "Industrial Automation",
-      "Manufacturing",
-      "Process Control",
-      "Quality Assurance",
-    ],
-    industries: [
-      "Manufacturing",
-      "Automotive",
-      "Pharmaceutical",
-      "Food & Beverage",
-    ],
-    certifications: ["ISO 9001", "CE Marking"],
+    applications: t('products-data:utilities.commonData.applications', { returnObjects: true }) as string[],
+    industries: t('products-data:utilities.commonData.industries', { returnObjects: true }) as string[],
+    certifications: t('products-data:utilities.commonData.certifications', { returnObjects: true }) as string[],
     datasheetUrl: product.datasheetUrl,
     seo: {
       title: `${title} | ${categoryName} | Powerton Engineering`,

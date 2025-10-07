@@ -14,3 +14,11 @@
     - bldc-industrial-exhaust, bldc-mini-cooler, solar-bldc-submersible-1hp
     - dc-surface-pump-2hp, hybrid-bldc-pump, bldc-table-fan-motors, bldc-wall-fan-motors
   - [x] Batch 2: Next 15-20 products (cables, breakers, sensors)
+[x] 10. Migrate hardcoded English in products-detail-pages-data.ts utility functions to translation keys
+  - [x] Added utilities section to client/public/locales/en/products-data.json
+  - [x] Migrated variant product title/description/features templates
+  - [x] Migrated default product templates  
+  - [x] Migrated common data (applications, industries, certifications, keywords)
+  - [x] Updated getProductsForSubcategoryPage function to use translation keys
+  - [x] Updated getProductDetailBySlug function to use translation keys
+  - [x] Verified application is working correctly with translations
