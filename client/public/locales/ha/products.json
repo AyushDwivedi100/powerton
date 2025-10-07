@@ -2222,9 +2222,561 @@
     "installation": "Shigarwa"
   },
   "productGroups": {
+    "pnpNpnSensors": {
+      "title": "PNP/NPN Masu Gane Karfin Lantarki",
+      "description": "Masu auna firikwensin masana'antu ciki har da nau'ikan PNP da NPN don aikace-aikacen sarrafa kansa. Waɗannan na'urori masu auna firikwensin suna ba da ingantaccen ganewar abubuwa na ƙarfe ba tare da tuntuɓar jiki ba, suna fasalta ingantaccen gini, manyan mitoci masu sauyawa, kyakkyawan maimaitawa, da juriya ga tsangwama na electromagnetic don buƙatun yanayin masana'antu."
+    },
+    "rtdThermocouplesSensors": {
+      "title": "RTD/Thermocouples Masu Gane Karfin Lantarki",
+      "description": "Masu auna zafin jiki ciki har da Masu Gano Zazzabi na Resistance (RTD) da thermocouples na masana'antu don madaidaicin ma'aunin zafin jiki a cikin matakai na masana'antu. Masu auna firikwensin RTD suna samuwa a cikin PT100, PT500, da PT1000 daidaitawa, da thermocouples a cikin nau'ikan J, K, T, E, R, S, da N. An ƙera su don daidaitaccen ma'auni da aikace-aikacen zafin jiki mai girma tare da kyawawan daidaito, kwanciyar hankali, da karko a cikin matsanancin yanayin masana'antu."
+    },
+    "loadCell": {
+      "title": "Masu Gane Ƙarfin Kwaya",
+      "description": "Madaidaicin masu auna ƙarfin kwaya don ƙarfi da aikace-aikacen auna nauyi. Akwai su a cikin matsi, tashin hankali, da daidaitawar duniya tare da babban daidaito da kyakkyawan kwanciyar hankali na dogon lokaci don tsarin auna nauyi na masana'antu."
+    },
+    "phSensors": {
+      "title": "Masu Gane pH",
+      "description": "Masu auna firikwensin pH na masana'antu don sa ido kan ingancin ruwa da aikace-aikacen sarrafa tsari. Gilashin gilashi da zaɓuɓɓukan fasahar ISFET tare da diyya ta atomatik da ikon sadarwa na dijital na HART."
+    },
+    "dpTypeTransmitter": {
+      "title": "Masu Watsa Bambancin Matsi",
+      "description": "Masu watsawa masu bambancin matsi masu girma don aikace-aikacen auna gudun ruwa, matakin, da matsi. Yana fasalta sadarwar HART, diyya ta dijital, da ingantaccen gini don buƙatun yanayin masana'antu."
+    },
+    "pTypeTransmitter": {
+      "title": "Masu Watsa Matsi",
+      "description": "Masu watsa matsa lambar masana'antu don cikakken ma'aunin ma'aunin matsa lamba. Yana fasalta fasahar firikwensin ci gaba, kyakkyawan kwanciyar hankali, da cikakkun ikon bincike don aikace-aikacen sarrafa kansa."
+    },
+    "rsTypeTransmitter": {
+      "title": "Masu Watsa Hatimin Nesa",
+      "description": "Masu watsa matsa lambar hatimin nesa don aikace-aikacen zafin jiki mai girma, lalata, ko matsakaici mai ɗaci. Tsarin da aka cika na Capillary yana ba da ma'aunin matsa lamba mai aminci da daidaito a cikin yanayin tsari mai ƙalubale."
+    },
+    "massFlowMeter": {
+      "title": "Mitar Gudun Ruwa Mai Girma",
+      "description": "Coriolis mitar gudun ruwa mai girma don gudun ruwa kai tsaye da ma'aunin yawa na ruwa da gas. Ma'auni mai girma mai zaman kansa na kaddarorin ruwa, zafin jiki, da bambancin matsa lamba."
+    },
+    "vortexFlowMeter": {
+      "title": "Mitar Gudun Ruwa Mai Juyi",
+      "description": "Mitar gudun ruwa mai zubar da juyi don aikace-aikacen auna tururi, gas, da ruwa. Babu sassan motsi da ke tabbatar da aminci tare da ginanniyar diyya ta zafin jiki da ikon auna masu canji da yawa."
+    },
+    "volumetricFlowMeter": {
+      "title": "Mitar Gudun Ruwa Mai Ƙarfi",
+      "description": "Electromagnetic, ultrasonic, da tabbatattun mitocin gudun ruwa masu ƙarfi don madaidaicin ma'aunin ruwa da iskar gas. Siffofin sun haɗa da babu sassa masu motsi (electromagnetic), babban daidaito, ƙarancin matsi, da kyakkyawan kwanciyar hankali na dogon lokaci. Manhaja don ruwa, ruwan sharar gida, aikace-aikacen kemikal, canja wurin tsarewa, da ayyukan tsari da ke buƙatar amintaccen ma'aunin ƙarfi."
+    },
     "pdFlowMeter": {
       "title": "Mitar Gudun Ruwa na PD",
-      "description": "Mitar gudun ruwa mai kyau ta amfani da oval gear, helical gear, nutating disc, da ka'idojin auna skru don madaidaicin auna gudun ruwa. Yana fasalta daidaito na musamman, maimaitawa mafi girma, da faɗin kewayon danko. Ya dace da canja wurin riko, tarawa, auna man fetur, yawan sinadarai, da aikace-aikacen danko mai girma da ke buƙatar amintaccen auna girma."
+      "description": "Tabbatattun mitocin gudun ruwa ta hanyar amfani da kayan aikin oval, helical gear, nutating disc, da ka'idodin auna skrew don madaidaicin ma'aunin ruwa. Yana fasalta daidaito na musamman, kyakkyawan maimaitawa, da faɗin kewayon danko. Manhaja don canja wurin tsarewa, batching, auna man fetur, kemikal dosing, da manyan aikace-aikacen danko da ke buƙatar amintaccen ma'aunin ƙarfi."
+    },
+    "pressureSwitches": {
+      "title": "Sauyawa Matsi",
+      "description": "Sauyawa matsa lambar masana'antu don daidaitaccen sa ido kan matsa lamba da sarrafawa a cikin tsarin sarrafa kansa. Akwai daga manyan masana'antun kamar Danfoss, Schneider Electric, WIKA, da ABB."
+    },
+    "levelSwitches": {
+      "title": "Sauyawa Matakin",
+      "description": "Sauyawa matakin gano aya ta amfani da cokali mai yatsa, iyo, da fasahar capacitive. Daga amintattun nau'ikan kamar Endress+Hauser, ABB, da VEGA don amintaccen sa ido kan ruwa da ƙarfi mai yawa."
+    },
+    "limitSwitches": {
+      "title": "Sauyawa Iyaka",
+      "description": "Sauyawa gano matsayi mai nauyi don sarrafa kansa na masana'antu. Daga Omron, Schneider Electric, da Siemens tare da kariyar IP67 da ingantaccen ginin ƙarfe don amintaccen aiki."
+    },
+    "pushButtons": {
+      "title": "Maɓallan Turawa",
+      "description": "Sauyawa maɓallin turawa na masana'antu don bangarori masu sarrafawa da injuna. Akwai a cikin girman 22mm da 30mm daga Schneider Electric, Eaton, ABB, da Siemens tare da daidaitattun hanyoyin sadarwa da zaɓuɓɓukan haske."
+    },
+    "controlValves": {
+      "title": "Valves Masu Sarrafawa",
+      "description": "Madaidaicin bawuloli masu sarrafawa don sarrafa kansa daga Fisher (Emerson), SAMSON, da ABB. Zane-zanen duniya, ball, da rotary tare da masu sanya dijital da ikon sadarwa na HART."
+    },
+    "solenoidValves": {
+      "title": "Solenoid Valves",
+      "description": "Bawuloli da ake sarrafa su ta hanyar lantarki don sarrafa ruwa ta atomatik. ASCO (Emerson) da samfuran Parker Hannifin don iska, ruwa, tururi, da ruwa daban-daban na masana'antu tare da kai tsaye da zane-zanen da ake sarrafa matukin jirgi."
+    },
+    "onOffValves": {
+      "title": "Bawulolin Kunna/Kashe",
+      "description": "Bawulolin ball da ƙofa na masana'antu don amintaccen sabis na rufewa. Siffofin sun haɗa da aiki na kwata-kwata, aikin hannu ko pneumatic, ginin bakin karfe, da bin ƙa'idodin API, ANSI, da ISO. Akwai daga manyan masana'antun ciki har da Emerson Fisher, Flowserve Worcester, Swagelok, da Burkert don keɓewar tsari, rufewa ta gaggawa, da aikace-aikacen sarrafa gudun ruwa."
+    },
+    "processAnalyzers": {
+      "title": "Masu Nazarin Tsari",
+      "description": "Masu nazarin tsari masu ci gaba don ainihin lokacin sa ido kan sinadarai da sigogin tsari. Bincike mai yawa tare da babban daidaito da saurin amsawa don mahimman aikace-aikacen sarrafa tsari."
+    },
+    "gasAnalyzers": {
+      "title": "Masu Nazarin Gas",
+      "description": "Madaidaicin masu nazarin gas don sa ido kan fitar da hayaki, inganta tsari, da aikace-aikacen aminci. Akwai a cikin daidaitattun da kafaffen daidaitawa tare da fasahohin firikwensin ci gaba don buƙatun gano gas daban-daban."
+    },
+    "liquidAnalyzers": {
+      "title": "Masu Nazarin Ruwa",
+      "description": "Cikakkun masu nazarin ruwa don sa ido kan ingancin ruwa, sarrafa tsarin kemikal, da bin dokokin muhalli. Bincike mai yawa tare da daidaitawar atomatik da ikon shigar data."
+    },
+    "oxygenGasAnalyzers": {
+      "title": "Masu Nazarin Gas na Oxygen (O2)",
+      "description": "Madaidaicin masu nazarin oxygen don sa ido kan tsarin masana'antu da aikace-aikacen aminci. Fasahohin electrochemical, paramagnetic, da na gani daga manyan masana'antun kamar Systech, Panametrics, da Endress+Hauser."
+    },
+    "nitrogenGasAnalyzers": {
+      "title": "Masu Nazarin Gas na Nitrogen (N2)",
+      "description": "Masu nazarin iskar gas ta nitrogen ta amfani da wutar lantarki da fasahar haɗakar iskar gas. Kayayyakin LECO da HORIBA don bincike mai mahimmanci a cikin karafa da gami tare da babban ma'aunin daidaito."
+    },
+    "hydrogenGasAnalyzers": {
+      "title": "Masu Nazarin Gas na Hydrogen (H2)",
+      "description": "Masu nazarin hydrogen tare da gano wutar lantarki don bincike mai mahimmanci da sa ido kan tsari. Tsarin Nova Analytical da Endress+Hauser don aikace-aikacen aminci da kula da inganci."
+    },
+    "carbonDioxideGasAnalyzers": {
+      "title": "Masu Nazarin Gas na Carbon Dioxide (CO2)",
+      "description": "Masu nazarin CO2 ta amfani da fasahohin NDIR da TDLAS don sarrafa konewa, sarrafa abinci, da sa ido kan muhalli. Kewayo daga ppm zuwa matakan kashi tare da ma'aunin daidaito mai girma."
+    },
+    "codAnalyzers": {
+      "title": "Masu Nazarin COD",
+      "description": "Masu nazarin Bukatar Oxygen na Chemical don gwajin ingancin ruwa da sa ido kan kula da ruwan sharar gida. Tsarin Hach, MANTECH, da LAR tare da bincike na atomatik da ikon bin doka."
+    },
+    "bodAnalyzers": {
+      "title": "Masu Nazarin BOD",
+      "description": "Masu nazarin Bukatar Oxygen na Biochemical don auna gurɓataccen abu a cikin samfuran ruwa. Tsarin MANTECH, Hach, da YSI na atomatik tare da na'urori masu auna DO na gani da sarrafa zafin jiki."
+    },
+    "standardCeilingFans": {
+      "title": "Fanka-fankan Rufi na BLDC na yau da kullun",
+      "description": "Fanka-fankan rufi na DC mara goge masu amfani da wutar lantarki tare da sarrafa gudun canji da aikin shiru. Yana fasalta ƙirar zamani, aikin sarrafa nesa, da tanadin wutar lantarki na musamman idan aka kwatanta da injinan AC na gargajiya."
+    },
+    "premiumCeilingFans": {
+      "title": "Fanka-fankan Rufi na BLDC Masu Kyau",
+      "description": "Fanka-fankan rufi na DC mara goge masu aiki da yawa tare da fasalolin ci gaba ciki har da sarrafawa masu wayo, hasken LED, da ingantaccen ƙirar aerodynamic. Samfuran ƙima suna ba da ingantaccen karko da aikin shiru."
+    },
+    "commercialCeilingFans": {
+      "title": "Fanka-fankan Rufi na BLDC na Kasuwanci",
+      "description": "Fanka-fankan rufi na DC mara goge masu nauyi da aka ƙera don aikace-aikacen kasuwanci da masana'antu. Ƙarfafa gini tare da babban ƙarfin iska, tsawaita rayuwar aiki, da rage buƙatun kulawa."
+    },
+    "exhaustFanMotors": {
+      "title": "BLDC Injinan Fan ɗin Shaye Shaye",
+      "description": "Injinan DC mara goge masu inganci don aikace-aikacen fanka. An ƙera su don aiki na ci gaba tare da kyakkyawan sarrafa gudu, ƙananan matakan amo, da ingantaccen amfani da wutar lantarki don tsarin samun iska."
+    },
+    "coolerMotors": {
+      "title": "BLDC Injinan Sanyaya",
+      "description": "Injinan DC mara goge masu amfani da wutar lantarki don aikace-aikacen sanyaya iska. Yana fasalta sarrafa gudun canji, aikin shiru, da kyakkyawan aminci ga tsarin sanyaya na gida da na kasuwanci."
+    },
+    "ventilationMotors": {
+      "title": "BLDC Injinan Samun Iska",
+      "description": "Injinan DC mara goge masu ci gaba don tsarin samun iska tare da daidaitaccen sarrafa gudu da ƙarancin amfani da wuta. Manhaja don aikace-aikacen HVAC da ke buƙatar aiki mai shiru da ingantaccen amfani da wutar lantarki."
+    },
+    "submersiblePumps": {
+      "title": "BLDC Famfunan da ke Ciki",
+      "description": "Famfunan DC mara goge masu amfani da wutar lantarki don aikace-aikacen samar da ruwa. Yana fasalta ginin juriya na lalata, aikin gudun canji, da inganci na musamman don borewell da kuma zurfin famfo na ruwa."
+    },
+    "surfacePumps": {
+      "title": "BLDC Famfunan Sama",
+      "description": "Manyan famfunan DC mara goge masu inganci don canja wurin ruwa da aikace-aikacen haɓaka matsa lamba. Ƙirar ɗaukar nauyi tare da fasalolin sarrafa hankali da tanadin wutar lantarki mafi girma idan aka kwatanta da famfunan al'ada."
+    },
+    "hybridPumps": {
+      "title": "BLDC Famfunan Haɗaka",
+      "description": "Famfunan DC mara goge masu amfani da yawa waɗanda suka dace da aikace-aikacen da ke ciki da na sama. Fasahar mota mai ci gaba tare da tsarin sarrafawa mai dacewa don ingantaccen aiki a cikin yanayin aiki daban-daban."
+    },
+    "tableFanMotors": {
+      "title": "BLDC Injinan Fanka na Tebur",
+      "description": "Ƙananan injinan DC mara goge don aikace-aikacen fanka na tebur tare da kyakkyawan sarrafa gudu da aikin shiru. Ƙirar amfani da wutar lantarki tare da tsawaita rayuwar aiki da ƙarancin buƙatun kulawa."
+    },
+    "wallFanMotors": {
+      "title": "BLDC Injinan Fanka na Bango",
+      "description": "Injinan DC mara goge da ke adana sarari don aikace-aikacen fanka da aka ɗora bango. Yana fasalta jituwa mai sarrafa nesa, saitunan gudu da yawa, da aikin amfani da wutar lantarki don amfanin zama da kasuwanci."
+    },
+    "pedestalFanMotors": {
+      "title": "BLDC Injinan Fanka na Tsayuwa",
+      "description": "Injinan DC mara goge masu ƙarfi don aikace-aikacen fanka na tsayuwa tare da daidaitacce tsayi da fasalolin oscillation. Isar da iska mai girma tare da aikin amfani da wutar lantarki da aikin shiru."
+    },
+    "powerCables": {
+      "title": "Kebul ɗin Wuta",
+      "description": "Kebul ɗin wuta mai inganci don tsarin rarraba wutar lantarki. Akwai a cikin girman jagora daban-daban da nau'ikan rufewa don ƙananan, matsakaici, da manyan aikace-aikacen ƙarfin lantarki tare da ingantattun kaddarorin lantarki da injiniya."
+    },
+    "controlCables": {
+      "title": "Kebul ɗin Kulawa",
+      "description": "Kebul ɗin kulawa mai yawa don sarrafa kansa da aikace-aikacen kayan aiki. Yana fasalta kyakkyawan kaddarorin lantarki, garkuwar tsangwama ta electromagnetic, da sassauƙan gini don wayoyi da tsarin sarrafawa."
+    },
+    "instrumentationCables": {
+      "title": "Kebul ɗin Kayan Aiki",
+      "description": "Madaidaicin kebul ɗin kayan aiki don watsa sigina a cikin aikace-aikacen sarrafa tsari. Ƙananan ƙirar capacitance tare da kyakkyawan rigakafin amo da garkuwar takamaiman nau'i don mahimman da'irori na aunawa."
+    },
+    "terminalBlocks": {
+      "title": "Rukunin Terminal",
+      "description": "Amintattun rukunin tashoshi don haɗin lantarki a cikin bangarori masu sarrafawa da akwatunan haɗin gwiwa. Ƙirar ɗora DIN tare da skrew, bazara, da fasahohin haɗin turawa don amintaccen wayoyi kyauta."
+    },
+    "electricalConnectors": {
+      "title": "Masu Haɗin Lantarki",
+      "description": "Masu haɗin lantarki na masana'antu don aikace-aikacen wuta da sigina. Ƙarfafa gini tare da kariyar IP, daidaitattun hanyoyin sadarwa da yawa, da amintaccen aiki a cikin matsanancin yanayin muhalli."
+    },
+    "industrialPlugs": {
+      "title": "Filogin Masana'antu",
+      "description": "Filogi da soket ɗin masana'antu masu nauyi don kayan aikin lantarki na wayar hannu da tsayayye. Ƙirar hana yanayi tare da coding na inji, kulle aminci, da babban ƙarfin ɗaukar nauyi don aikace-aikacen masana'antu."
+    },
+    "miniatureCircuitBreakers": {
+      "title": "Ƙananan Masu Karya Wutar Lantarki (MCBs)",
+      "description": "Ƙananan masu karya wutar lantarki don kariyar wuce gona da iri da gajerun hanyoyi a cikin aikace-aikacen zama da haske na kasuwanci. Akwai a cikin ƙimar ƙarfin lantarki daban-daban da halayen tafiya tare da amintaccen aikin thermal-magnetic."
+    },
+    "moldedCaseBreakers": {
+      "title": "Masu Karya Wutar Lantarki (MCCBs)",
+      "description": "Masu karya wutar lantarki masu nauyi da aka ƙera don rarraba wutar lantarki ta masana'antu da kasuwanci. Babban ƙarfin karya tare da daidaitattun saitunan kariya da na'urorin tafiya na zaɓi don haɓaka kariya."
+    },
+    "fusesHolders": {
+      "title": "Fiyusen da Masu Rike Fiyus",
+      "description": "Fiyusen lantarki da masu riƙe fiyus don kariyar wuce gona da iri a aikace-aikace daban-daban. Akwai su a cikin harsashi, ruwa, da nau'ikan na musamman tare da halayen lokaci-yanzu daban-daban da ƙarfin karya."
+    },
+    "rccbCircuitBreakers": {
+      "title": "Masu Karya Kewayawa na Yanzu-Yanzu (RCCBs)",
+      "description": "Masu karya kewayawa na ɗigar ƙasa suna ba da kariya daga girgizar lantarki da haɗarin gobara ta hanyar kurakuran ƙasa. Akwai su a cikin saiti mai pole 2 da pole 4 tare da ƙimar hankali daban-daban don haɓaka amincin lantarki."
+    },
+    "acbCircuitBreakers": {
+      "title": "Masu Karya Kewayawa na Iska (ACBs)",
+      "description": "Masu karya kewayawa na iska mai ƙarfin aiki don tsarin rarraba wutar lantarki mai matsakaici da babba. Suna fasalta ayyukan kariya masu ci gaba, iyawar aiki mai nisa, da kyakkyawan ƙarfin karya don aikace-aikacen masana'antu da amfani."
+    },
+    "vcbCircuitBreakers": {
+      "title": "Masu Karya Kewayawa na Vacuum (VCBs)",
+      "description": "Masu karya kewayawa na vacuum mai ci gaba don aikace-aikacen matsakaicin ƙarfin lantarki tare da ingantacciyar fasahar kashe baka. Aikin da ba ya buƙatar kulawa tare da kyakkyawan juriya na lantarki da aminci ga hanyoyin sadarwa na rarraba wutar lantarki."
+    },
+    "acDcConverters": {
+      "title": "Masu Canza AC-DC",
+      "description": "Kayan samar da wutar lantarki don canza wutar lantarki ta AC zuwa daidaitaccen fitarwa ta DC. Zane mai inganci tare da zaɓuɓɓukan fitarwa da yawa, kariyar wuce gona da iri, da faɗin kewayon ƙarfin shigarwa don aikace-aikacen masana'antu."
+    },
+    "dcDcConverters": {
+      "title": "Masu Canza DC-DC",
+      "description": "Masu canza DC-DC da aka keɓe da waɗanda ba a keɓe ba don canza ƙarfin lantarki a cikin tsarin lantarki. Ƙirar ɗaukar nauyi tare da inganci mai girma, ƙananan ripple, da haɗuwa da ƙarfin shigarwa/fitarwa daban-daban don aikace-aikace masu buƙata."
+    },
+    "upsSystems": {
+      "title": "Tsarin UPS",
+      "description": "Tsarin Samar da Wutar Lantarki marar Katsewa don mahimman kariyar kayan aiki. Topologies na kan layi, layi-mu'amala, da jiran aiki tare da madadin baturi, yanayin wutar lantarki, da iyawar gudanar da hanyar sadarwa don ci gaba da kasuwanci."
+    },
+    "electricalCabinets": {
+      "title": "Kabinonin Lantarki",
+      "description": "Kabinonin lantarki masu ƙarfi da rufaffiyar wurare don kayan aikin sarrafawa da abubuwan lantarki. Akwai su a cikin kayan aiki daban-daban da ƙimar IP tare da ƙirar ƙira don sauƙin shigarwa da kulawa."
+    },
+    "junctionBoxes": {
+      "title": "Akwatunan Junction",
+      "description": "Akwatunan junction masu hana yanayi don haɗin lantarki da ƙarewar kebul. Zaɓuɓɓukan shigarwa da yawa tare da kayan aiki daban-daban da ƙimar kariyar muhalli don shigarwa na cikin gida da waje."
+    },
+    "dinRailEnclosures": {
+      "title": "Rufaffiyar Rail DIN",
+      "description": "Rufaffiyar Rail DIN na zamani don kayan aikin sarrafa kansa da na'urorin sarrafawa. Gina filastik da ƙarfe tare da ƙirar kamawa don sauƙin haɗuwa da haɗin panel na ƙwararru."
+    },
+    "heatingCoils": {
+      "title": "Coil ɗin Dumama",
+      "description": "Coil ɗin dumama na masana'antu don aikace-aikacen dumama tsari. Akwai su a cikin saiti daban-daban ciki har da mai ƙafa, harsashi, da hita band tare da madaidaicin sarrafa zafin jiki da babban ingancin thermal."
+    },
+    "heatingElements": {
+      "title": "Abubuwan Dumama",
+      "description": "Abubuwan dumama na lantarki don aikace-aikacen masana'antu da kasuwanci. Tubular, yumbu, da sassauƙan zane-zane tare da yawan watt daban-daban da kayan aikin sheath don ingantaccen canja wurin zafi da karko."
+    },
+    "industrialHeaters": {
+      "title": "Masu Dumama Masana'antu",
+      "description": "Masu dumama masana'antu masu nauyi don aikace-aikacen tsari ciki har da nutsewa, zagayawa, da masu dumama radiant. An ƙera su don munanan yanayi tare da zaɓuɓɓukan hana fashewa da sarrafa zafin jiki mai ci gaba."
+    },
+    "digitalMultimeters": {
+      "title": "Multimita na Dijital",
+      "description": "Madaidaicin multimita na dijital don ma'aunin lantarki ciki har da ƙarfin lantarki, yanzu, juriya, da mita. Ƙarfin RMS na gaskiya tare da shigar data, haɗin kwamfuta, da ayyukan aunawa masu ci gaba."
+    },
+    "clampMeters": {
+      "title": "Mita Clamp",
+      "description": "Mita clamp na ma'aunin yanzu mara lamba don matsalar lantarki da kulawa. Ma'aunin yanzu na AC/DC tare da ƙarfin lantarki, juriya, da ƙarfin aunawa a cikin ƙirar hannu mai ɗaukar nauyi."
+    },
+    "benchMultimeters": {
+      "title": "Multimita Bench",
+      "description": "Babban madaidaicin multimita na benci don aikace-aikacen dakin gwaje-gwaje da daidaitawa. Babban daidaito da ƙuduri tare da hanyoyin sadarwa na kwamfuta, ayyukan ƙididdiga, da iyawar aunawa ta atomatik."
+    },
+    "earthResistanceTesters": {
+      "title": "Masu Gwajin Juriya na Ƙasa",
+      "description": "Masu gwajin juriya na ƙasa na ƙwararru don tabbatar da amincin lantarki da gwajin tsarin ƙasa. Samfura masu ci gaba suna fasalta gwajin stakeless, hanyoyin digo-na-yuyuwa 3-point da 4-point, ma'aunin juriya na ƙasa, da sarrafa mitar atomatik don rage tsangwama. Mahimmanci don tabbatar da amincin ƙasa na lantarki, tsarin kariyar walƙiya, da tabbatar da bin ƙa'idodin aminci a cikin shigarwar masana'antu, kasuwanci, da amfani."
+    },
+    "phaseSequenceCheckers": {
+      "title": "Masu Duba Jerin Lokaci",
+      "description": "Alamomin juyawa lokaci da masu gwajin jerin lokaci don tabbatar da tsarin lantarki mai lokaci uku. Muhimman kayan aiki don tabbatar da daidaitaccen juyawar lokaci kafin fara motar, hana lalacewar kayan aiki daga juyawa baya. Akwai su a cikin ƙirar lamba da marasa lamba tare da alamun LED, iyawar auna ƙarfin lantarki, da ginin da aka ƙima na aminci. Siffofin sun haɗa da alamar jeri na lokaci na gani, tabbatar da jujjuyawar motar, ma'aunin mitar, da haɗin wayar hannu don takardu da bayar da rahoto."
+    },
+    "digitalMegohmmeters": {
+      "title": "Megohmmeters na Dijital",
+      "description": "Masu gwajin juriya na rufewa mai ƙarfi (megohmmeters) don cikakken gwajin rufewar lantarki da kulawa na rigakafi. Kayan aikin ƙwararru suna ba da ƙarfin gwaji daga 50V zuwa 15kV don igiyoyi, motoci, transfoma, da gwajin kayan aikin sauyawa. Siffofin sun haɗa da Gwajin Index Polarization (PI) da Dielectric Absorption Ratio (DAR), gano da'irar rayuwa, gwajin ƙarfin lantarki na mataki, aikin nesa, shigar data tare da lokaci / kwanan wata, da haɗin PC. Muhimmi don gwajin motar mai yarda da IEEE 43-2000 da tabbatar da amincin lantarki."
+    },
+    "milliampereSourceMeters": {
+      "title": "Miliampere Mita tushen",
+      "description": "Madaidaicin masu daidaita madauki na milliampere da mitoci na tushen yanzu don gwajin madauki na sarrafa tsari na 4-20mA da daidaitawa. Kayan aikin ƙwararru suna ba da daidaitaccen tushen mA da aunawa tare da ginanniyar samar da wutar lantarki ta madauki 24V don kwaikwayo mai watsawa mai waya 2. Siffofin sun haɗa da ikon tushe da aunawa lokaci guda, ayyukan mataki na atomatik don gwajin linearity, jituwa na sadarwa ta HART, ayyukan gangara don gwajin bawul, da ƙirar clamp-on waɗanda ke kawar da karyewar madauki. Mahimmanci don gyara matsala da daidaita kayan aikin tsari a cikin tsarin sarrafa kansa na masana'antu."
+    },
+    "digitalOscilloscopes": {
+      "title": "Oscilloscopes na Dijital",
+      "description": "Oscilloscopes na ajiya na dijital mai ci gaba don nazarin waveform da auna sigina. Babban bandwidth, saurin samfurin sauri, da ayyukan aunawa masu yawa tare da hanyoyin sadarwa na touchscreen da iyawar nazarin data."
+    },
+    "mixedSignalOscilloscopes": {
+      "title": "Oscilloscopes na Gudanar da Gudanarwa",
+      "description": "Oscilloscopes na gauraye mai ci gaba suna haɗa tashoshin analog da dijital don cikakken nazarin sigina. Kamawa lokaci guda na waveform na analog da yanayin dabaru na dijital tare da ɓatar da ka'ida da iyawar jawo mai ci gaba."
+    },
+    "portableOscilloscopes": {
+      "title": "Oscilloscopes masu ɗaukar nauyi",
+      "description": "Ƙananan oscilloscopes na hannu don ma'aunin filin da aikace-aikacen wayar hannu. Aikin da ake amfani da baturi tare da ginin ƙarfi, ma'aunin mota, da iyawar sa ido mai nisa."
+    },
+    "rfSpectrumAnalyzers": {
+      "title": "RF Spectrum Analyzers",
+      "description": "Babban aikin RF da microwave spectrum analyzers don gwajin sadarwa mara waya, bin EMC, da nazarin sigina. Faɗin mitar ɗaukar hoto tare da kyakkyawan kewayon ƙarfi da saurin aunawa."
+    },
+    "audioSpectrumAnalyzers": {
+      "title": "Masu Nazarin Audio Spectrum",
+      "description": "Madaidaicin masu nazarin sauti don ma'aunin acoustic, gwajin ingancin sauti, da inganta tsarin sauti. Nazarin FFT na ainihi tare da THD, amo, da iyawar aunawa na murdiya."
+    },
+    "realTimeAnalyzers": {
+      "title": "Masu Nazarin Lokaci na Ainihi",
+      "description": "Masu nazarin bakan lokaci na ainihi don ci gaba da sa ido kan sigina da kamawar taron wucin gadi. 100% yuwuwar shiga tsakani tare da jawo mai ci gaba da iyawar hankali na sigina."
+    },
+    "powerMeters": {
+      "title": "Mita Mai Ƙarfi",
+      "description": "Mita mai ƙarfi mai girma don auna wutar lantarki da nazari. Ƙarfin lokaci da yawa tare da cikakkun sigogi masu ƙarfi ciki har da aiki, mai amsawa, da ma'aunin ƙarfi mai bayyana."
+    },
+    "harmonicAnalyzers": {
+      "title": "Masu Nazarin Harmonic",
+      "description": "Masu nazarin harmonic mai ci gaba don kimanta ingancin wutar lantarki da gwajin bin IEEE 519. Nazarin harmonic na ainihi har zuwa tsari na 50 tare da cikakkun iyawar bayar da rahoto."
+    },
+    "energyLoggers": {
+      "title": "Masu Rike Makamashi",
+      "description": "Masu shigar da bayanan makamashi masu tashoshi da yawa don sa ido kan amfani da wutar lantarki na dogon lokaci da gudanar da makamashi. Sadarwa mara waya tare da haɗin gwiwar girgije da fasalulluka na bayar da rahoto ta atomatik."
+    },
+    "calibrationInstruments": {
+      "title": "Kayan Aikin Calibration",
+      "description": "Kayan aikin daidaitawa daidai don daidaitawar lantarki, zafin jiki, matsa lamba, da sigogi tsari. Daidaiton da za a iya gano NIST tare da hanyoyin daidaitawa ta atomatik da takardu."
+    },
+    "testEquipment": {
+      "title": "Kayan Gwaji",
+      "description": "Kayan aikin gwaji da aunawa na janar-manufa don aikace-aikacen dakin gwaje-gwaje da filin. Kayan aiki masu yawa don gwajin lantarki, lantarki, da inji tare da saiti mai ɗaukar nauyi da benci."
+    },
+    "processCalibrators": {
+      "title": "Masu Daidaita Tsari",
+      "description": "Masu daidaita tsarin aiki da yawa don cikakken filin da daidaitawar dakin gwaje-gwaje na kayan aikin tsari. Siffofin matsa lamba, zafin jiki, da daidaitawar siginar lantarki tare da sadarwa ta HART, shigar data, da hanyoyin atomatik don haɓaka ingancin daidaitawa."
+    },
+    "loopCalibrators": {
+      "title": "Masu Daidaita Madauki",
+      "description": "Madaidaicin mA loop calibrators don gwaji da gyara matsala 4-20mA madaukai na yanzu da tsarin sarrafa tsari. Kayan aikin hannu suna ba da ƙarfin madauki, auna yanzu, da kwaikwayo na sigina don cikakken bincike na madauki a cikin muhallin filin da bita."
+    },
+    "hartCalibrators": {
+      "title": "Masu Daidaita HART",
+      "description": "Masu daidaita filin HART mai ci gaba da masu sadarwa don cikakken daidaitawar kayan aikin tsari da daidaitawa. Suna fasalta ginanniyar goyon bayan ka'idar sadarwa ta HART, waɗannan na'urori masu aiki da yawa suna haɗa matsa lamba, zafin jiki, da daidaitawar siginar lantarki tare da iyawar sadarwa ta dijital ta HART. Goyon baya ga HART versions 5-7, umarni na duniya da na'ura-takamaiman, takaddun atomatik, da haɗin kai mara kyau tare da na'urorin filin wayo don ingantaccen daidaitawar filin da gudanar da na'ura."
+    },
+    "mechanicalTools": {
+      "title": "Kayan Aikin Inji",
+      "description": "Kayan aikin hannu na inji na ƙwararru don haɗuwa, kulawa, da ayyukan gyara. Gina ƙarfe mai inganci tare da ƙirar ergonomic don aikace-aikacen masana'antu da mota."
+    },
+    "electricalTools": {
+      "title": "Kayan Aikin Lantarki",
+      "description": "Kayan aikin lantarki da aka keɓe don amintaccen aiki akan da'irori masu rai da shigarwar lantarki. An tabbatar da VDE tare da ƙimar kariyar ƙarfin lantarki mai girma da ƙwanƙwasa ergonomic don amincin ma'aikacin wutar lantarki."
+    },
+    "precisionTools": {
+      "title": "Kayan Aikin Daidaito",
+      "description": "Ma'auni mai girma da kayan aikin inji don aikace-aikacen daidaito-mai mahimmanci. Kayan aiki da aka daidaita tare da ƙananan haƙuri don kula da inganci da masana'antu daidai."
+    },
+    "electricDrills": {
+      "title": "Gudanar Wutar Lantarki",
+      "description": "Nauyi-wajibi gudanar wutar lantarki don hakowa, tuƙi, da fastening aikace-aikace. Canjin sarrafa gudun tare da keyless chucks da high-torque motors don ƙwararrun gini da masana'antu amfani."
+    },
+    "angleGrinders": {
+      "title": "Niƙan Kusurwa",
+      "description": "Nauyi-wajibi kusurwa grinders don yankan, nika, da goge aikace-aikace. Babban-ikon motors tare da aminci guards da anti-vibration tsarin don tsawaita aiki a masana'antu environments."
+    },
+    "impactDrivers": {
+      "title": "Direbobin Tasiri",
+      "description": "Babban-torque tasiri direbobi don nauyi-wajibi fastening aikace-aikace. Brushless motors tare da canjin gudun sarrafa da LED lighting don m tuƙi a gini da taro aiki."
+    },
+    "weldingMachines": {
+      "title": "Injin Walda",
+      "description": "Ƙwararru-sa injin walda don MIG, TIG, Stick, da multi-tsari walda aikace-aikace. Ci-gaba da fasaha tare da m arc iko, dual ƙarfin aiki, da m gini don masana'antu ƙirƙira, kiyayewa, da gyara aiki. Features sun haɗa da digital nuni, bugun jini iyawa, da automated saitin don kyau kwarai walda quality."
+    },
+    "cuttingBlades": {
+      "title": "Yankan Ruwan wukake",
+      "description": "Premium yankan ruwan wukake ga karfe, itace, da masonry aikace-aikace. Carbide-tipped da diamond-mai rufi zažužžukan tare da Ingantaccen hakori geometry don tsabta cuts da tsawaita ruwa rai."
+    },
+    "drillBits": {
+      "title": "Hakowa Bits",
+      "description": "Babban-yi hakowa bits ga karfe, bakin karfe, da wuya kayan. Cobalt da carbide gini tare da musamman coatings don mafi kyau hakowa yi da tsawaita kayan aiki rai."
+    },
+    "millingCutters": {
+      "title": "Milling Cutters",
+      "description": "Madaidaici milling cutters ga CNC da manual machining ayyukan. Solid carbide da HSS gini tare da daban-daban flute configurations don Ingantaccen kayan cirewa da surface gama."
+    },
+    "chopSaws": {
+      "title": "Chop Saws (Yanke-Kashe Saws)",
+      "description": "Ƙwararru-sa karfe yankan chop saws ga masana'antu ƙirƙira da karfe aiki. Features TCT (Tungsten Carbide Tipped) sanyi-yanke fasahar don tsabta, burr-free cuts tare da kadan zafi da tartsatsi. Akwai a 14 \"da 15\" models tare da high-torque motors, quick-release vises, da miter iyawa don angled cuts. Cuts karfe, bakin karfe, aluminum, da sauran karafa sauri fiye da bandsaws tare da shirye-to-walda gama."
+    },
+    "chainHoists": {
+      "title": "Chains Hoists",
+      "description": "Nauyi-wajibi sarkar hoists ga tsaye dagawa aikace-aikace a masana'antu da gini environments. Manual da lantarki models tare da overload kariya da m kaya matsayi iyawa."
+    },
+    "wireRopeHoists": {
+      "title": "Waya Igiyar Hoists",
+      "description": "Babban-iya waya igiyar hoists ga nauyi dagawa ayyukan da kayan handling tsarin. Lantarki aiki tare da canjin gudun sarrafa da ci-gaba da aminci fasali don bukatar aikace-aikace."
+    },
+    "safetyHarnesses": {
+      "title": "Aminci Harnesses",
+      "description": "Full-jiki aminci harnesses don fall kariya a elevated aiki environments. Dadi padding tare da mahara attachment maki da quick-connect buckles ga ma'aikaci aminci."
+    },
+    "safetyBarriers": {
+      "title": "Aminci Barriers",
+      "description": "Masana'antu aminci barriers da guardrails don workplace haɗari kariya da kewaye iko. Modular zane tare da high-gani launuka da tasiri-resistant gini don pedestrian da kayan aiki aminci."
+    },
+    "emergencyEquipment": {
+      "title": "Gaggawa Kayan Aiki",
+      "description": "Muhimmanci gaggawa response kayan aiki ciki har da eyewash tashoshin, aminci showers, farko agaji kayayyaki, da gaggawa sadarwa tsarin. ANSI Z358.1 compliant tare da kai-dauke da plumbed zažužžukan."
+    },
+    "monocrystallinePanels": {
+      "title": "Monocrystalline Rana bangarori",
+      "description": "High-inganci monocrystalline rana bangarori tare da mafi girma ikon fitarwa da sarari amfani. Premium silicon Kwayoyin tare da anti-reflective shafi da m aluminum frames for zama da kasuwanci installations."
+    },
+    "polycrystallinePanels": {
+      "title": "Polycrystalline Rana bangarori",
+      "description": "Cost-tasiri polycrystalline rana bangarori miƙa abin dogaro yi da kyau darajar ga manyan-sikelin installations. Dorewa gini tare da kyau kwarai zafin jiki coefficient da kuma tabbatar da dogon lokacin dogara."
+    },
+    "thinFilmPanels": {
+      "title": "Thin Film Rana bangarori",
+      "description": "M thin-film rana bangarori tare da amorphous silicon da CIGS fasahar don musamman aikace-aikace. Lightweight zane tare da mafi girma low-haske yi da ado hadewa zažužžukan."
+    },
+    "stringInverters": {
+      "title": "Kirtani Inverters",
+      "description": "High-inganci kirtani inverters ga rana PV tsarin tare da iyakar ikon batu tracking da kuma cikakken kulawa iyawa. M zane tare da fadi da shigar da ƙarfin kewayo da grid-tie aiki."
+    },
+    "microInverters": {
+      "title": "Micro Inverters",
+      "description": "Module-matakin micro inverters don iyakar makamashi girbi da kuma mutum panel kulawa. Rapid shutdown bi tare da inganta aminci fasali da sauƙaƙe shigarwa hanyoyin."
+    },
+    "powerOptimizers": {
+      "title": "Ikon Optimizers",
+      "description": "DC ikon optimizers don inganta rana tsarin yi tare da module-matakin MPPT da kulawa. Mitigates shading da rashin daidaituwa asarar yayin da yake kula da kirtani inverter tattalin arziki."
+    },
+    "modularPlcs": {
+      "title": "Modular PLCs",
+      "description": "Scalable modular shirye-shirye dab логика masu kula don hadaddun sarrafa kansa tsarin. Expandable I / O configurations tare da ci-gaba da sadarwa iyawa da high-gudun sarrafa don masana'antu iko aikace-aikace."
+    },
+    "compactPlcs": {
+      "title": "Tsarin PLCs",
+      "description": "Sarari-ceton tsarin shirye-shirye dab логика masu kula don kananan zuwa matsakaici sarrafa kansa aikace-aikace. Hadakar I / O tare da gina-in sadarwa interfaces da kuma mai amfani-friendly shirye-shirye software."
+    },
+    "microPlcs": {
+      "title": "Micro PLCs",
+      "description": "Ultra-tsarin micro shirye-shirye dab логика masu kula don sauki sarrafa kansa ayyuka. Cost-tasiri bayani tare da muhimmanci I / O iyawa da kuma asali sadarwa ayyuka don karamin inji iko."
+    },
+    "scadaSoftware": {
+      "title": "SCADA Software",
+      "description": "Cikakken kulawa iko da bayanai saye software don masana'antu tsari kulawa da kuma iko. Real-lokaci data gani tare da ƙararrawa management da tarihi trending iyawa."
+    },
+    "scadaHardware": {
+      "title": "SCADA Hardware",
+      "description": "Masana'antu-sa SCADA hardware dandamali don abin dogaro data saye da kuma iko ayyukan. Rugged gini tare da redundant sadarwa hanyõyi da hot-swappable aka gyara don iyakar uptime."
+    },
+    "scadaGateways": {
+      "title": "SCADA Gateways",
+      "description": "Yarjejeniya hira gateways don SCADA tsarin hadewa da kuma multi-sayarwa karfinsu. Yana goyon bayan mahara masana'antu sadarwa ka'idojin tare da amintacce data watsa shirye-shirye da kuma real-lokaci yi."
+    },
+    "dcsControllers": {
+      "title": "DCS Masu Gudanarwa",
+      "description": "Rarraba iko tsarin masu kula don manyan-sikelin tsari sarrafa kansa da kuma aminci tsarin. Redundant gine-gine tare da high-samuwa zane da kuma ci-gaba da tsari iko algorithms."
+    },
+    "dcsOperatorStations": {
+      "title": "DCS Ayyuka Tashoshin",
+      "description": "Ci-gaba da aiki workstations don rarraba iko tsarin kulawa da kuma aiki. Multi-nuni iyawa tare da ilhama graphics da kuma cikakken ƙararrawa management."
+    },
+    "dcsEngineeringStations": {
+      "title": "DCS Injiniya Tashoshin",
+      "description": "Injiniya workstations don DCS sanyi, shirye-shirye, da kuma kiyayewa. Cikakken ci gaba da muhalli tare da kwaikwayo iyawa da kuma version iko."
+    },
+    "touchscreenHmis": {
+      "title": "Touchscreen HMIs",
+      "description": "Masana'antu touchscreen mutum-inji interfaces don aiki iko da kuma kulawa. Multi-touch nuni tare da m gini don m yanayi."
+    },
+    "panelMountHmis": {
+      "title": "Panel Dutsen HMIs",
+      "description": "Panel-ɗora mutum-inji interfaces don hadewa cikin iko cabinets da aiki bangarori. Tsarin zane tare da masana'antu-sa karko."
+    },
+    "mobileHmis": {
+      "title": "Mobile HMIs",
+      "description": "Šaukuwa mutum-inji interfaces don mobile aiki iko da kuma filin kulawa. Rugged zane tare da mara waya haɗin kai da kuma dogon baturi rai."
+    },
+    "safetyRelays": {
+      "title": "Aminci Relays",
+      "description": "Aminci relays ga inji da kuma ma'aikaci kariya tsarin. Certified don aminci aikace-aikace tare da fail-amin lafiya aiki da kuma bincike iyawa."
+    },
+    "emergencyStops": {
+      "title": "Gaggawa Tsaya",
+      "description": "Gaggawa tsaya na'urorin don nan take inji shutdown. M gini tare da tabbatacce bude lambobi da kuma bayyana gani alama."
+    },
+    "safetySwitches": {
+      "title": "Aminci Sauyawa",
+      "description": "Matsayi kulawa aminci sauyawa ga gadi ƙõfõfi da kuma samun bangarori. Tamper-hujja zane tare da coded actuators don iyakar tsaro."
+    },
+    "explosionProofEquipment": {
+      "title": "Fashewa Hujja Kayan Aiki",
+      "description": "Certified fashewa-hujja lantarki kayan aiki don m yankin installations. Tsara don hana ƙonewa flammable gas da vapors tare da m enclosures saduwa da kasa da kasa aminci matsayin."
+    },
+    "intrinsicallySafeBarriers": {
+      "title": "Intrinsically Safe Barriers",
+      "description": "Aminci barriers don intrinsically safe kewaye a m yankuna. Yana samar da makamashi iyaka da galvanic ware don hana ƙonewa kafofin a m atmospheres."
+    },
+    "isFieldDevices": {
+      "title": "Intrinsically Safe Filin Na'urorin",
+      "description": "Filin na'urorin certified don intrinsically safe aiki a m atmospheres. Ya haɗa da sensors, transmitters, da actuators tsara don Zone 0/1 m yankin aikace-aikace."
+    },
+    "acSurgeProtectors": {
+      "title": "AC guguwa Masu karewa",
+      "description": "AC ikon line guguwa kariya na'urorin don lantarki kayan aiki kariya. Multi-mataki kariya da walƙiya, sauyawa surges, da kuma ikon line disturbances a masana'antu installations."
+    },
+    "dcSurgeProtectors": {
+      "title": "DC guguwa Masu karewa",
+      "description": "DC kewaye guguwa kariya na'urorin don m lantarki kayan aiki. Musamman kariya ga DC ikon tsarin, rana installations, da kuma baturi-powered aikace-aikace."
+    },
+    "signalSurgeProtectors": {
+      "title": "Sigina guguwa Masu karewa",
+      "description": "Sigina line guguwa kariya ga data da sadarwa kewaye. Kare analog da digital sigina, filin bas cibiyar sadarwa, da kuma instrumentation kewaye daga electromagnetic tsangwama."
+    },
+    "equipmentGrounding": {
+      "title": "Kayan Aiki Grounding Systems",
+      "description": "Grounding aka gyara don lantarki kayan aiki aminci da kuma kariya. Tagulla da kuma karfe grounding sanduna, conductors, da na'urorin haɗi don dace lantarki tsarin grounding."
+    },
+    "systemGrounding": {
+      "title": "Tsarin Grounding Solutions",
+      "description": "Complete grounding tsarin mafita ga masana'antu wurare. Grounding grids, electrodes, da kuma kulawa da tsarin ga ikon tsarin aminci da kuma electromagnetic karfinsu."
+    },
+    "lightningProtection": {
+      "title": "Walƙiya Kariya Systems",
+      "description": "Walƙiya kariya tsarin ga gine-gine da kuma masana'antu gine-gine. Air tashoshi, saukar da conductors, da guguwa arresters tsara don IEC 62305 matsayin don cikakken walƙiya kariya."
+    },
+    "singleStageCentrifugal": {
+      "title": "Guda Mataki Centrifugal Famfo",
+      "description": "A kwance da kuma tsaye guda mataki centrifugal famfo don samar da ruwa da kuma masana'antu aikace-aikace. Mai inganci aiki tare da low kiyayewa bukatun ga daban-daban kwarara da kuma kai yanayi."
+    },
+    "multiStageCentrifugal": {
+      "title": "Multi Mataki Centrifugal Famfo",
+      "description": "High matsa lamba multi-mataki centrifugal famfo don bukatar aikace-aikace. Mahara impellers samar da high kai iyawa ga matsa lamba boosting, juye osmosis, da kuma masana'antu tsari aikace-aikace."
+    },
+    "verticalCentrifugal": {
+      "title": "Tsaye Centrifugal Famfo",
+      "description": "Sarari-ceton tsaye centrifugal famfo don confined installations. Dace da sumps, tankuna, da kuma aikace-aikace inda a kwance sarari ne iyaka yayin da yake kula da high-inganci yi."
+    },
+    "airOperatedDiaphragm": {
+      "title": "Air Aiki Diaphragm Famfo",
+      "description": "Pneumatic diaphragm famfo ga handling m kuma danko ruwa. Kai-priming aiki tare da kyau kwarai sha iyawa ga sunadarai aiki da kuma sharar gida ruwa aikace-aikace."
+    },
+    "electricDiaphragm": {
+      "title": "Lantarki Diaphragm Famfo",
+      "description": "Lantarki-kore diaphragm famfo don m dosing da kuma metering aikace-aikace. Canjin kwarara iko tare da kyau kwarai sunadarai karfinsu ga ruwa magani da kuma sunadarai allura tsarin."
+    },
+    "hydraulicDiaphragm": {
+      "title": "Hydraulic Diaphragm Famfo",
+      "description": "Hydraulically actuated diaphragm famfo don high-matsa lamba aikace-aikace. M kwarara iko da kuma kyau kwarai repeatability ga sunadarai dosing da high-matsa lamba tsaftacewa tsarin."
+    },
+    "externalGearPumps": {
+      "title": "Waje Gear Famfo",
+      "description": "Tabbatacce ƙaura waje gear famfo ga danko ruwa canja wurin. Consistent kwarara bayarwa mai zaman kanta na matsa lamba bambancin, manufa ga lubricating mai da kuma hydraulic ruwa."
+    },
+    "internalGearPumps": {
+      "title": "Ciki Gear Famfo",
+      "description": "Ciki gear famfo tare da santsi kwarara halaye ga m ruwa. Low pulsation zane dace da abinci aiki, magani, da kuma sunadarai aikace-aikace da bukatar m handling."
+    },
+    "magneticGearPumps": {
+      "title": "Maukukin Drive Gear Famfo",
+      "description": "Magnetically coupled gear famfo ga leak-free aiki. Hermetically rufe zane kawar da shaft seals, cikakken ga m sinadarai da kuma high-tsarki aikace-aikace."
+    },
+    "impellersCasings": {
+      "title": "Impellers da Casings",
+      "description": "Sauyawa impellers da famfo casings ga centrifugal famfo. Akwai a daban-daban kayan ciki har da simintin ƙarfe, bakin karfe, da kuma kwarewa gami da daban-daban aikace-aikace da kuma kafofin watsa labarai."
+    },
+    "sealsGaskets": {
+      "title": "Seals da Gaskets",
+      "description": "Famfo seals da gaskets don abin dogaro leak rigakafin. Inji seals, O-rings, da gasket sets a daban-daban kayan dace da daban-daban yanayin zafi, matsa lamba, da kuma sunadarai karfinsu bukatun."
+    },
+    "bearingsCouplings": {
+      "title": "Bearings da Couplings",
+      "description": "Famfo bearings da m couplings ga inji drive tsarin. High-quality aka gyara don tsawaita sabis rai, rage vibration, da kuma abin dogaro ikon watsa shirye-shirye a pumping aikace-aikace."
     }
   },
   "table": {

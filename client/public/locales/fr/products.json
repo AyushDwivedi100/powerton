@@ -2222,9 +2222,561 @@
     "installation": "Installation"
   },
   "productGroups": {
+    "pnpNpnSensors": {
+      "title": "Capteurs PNP/NPN",
+      "description": "Capteurs de proximité industriels comprenant les types PNP et NPN pour les applications d'automatisation. Ces capteurs permettent une détection fiable des objets métalliques sans contact physique, grâce à une construction robuste, des fréquences de commutation élevées, une excellente répétabilité et une résistance aux interférences électromagnétiques pour les environnements industriels exigeants."
+    },
+    "rtdThermocouplesSensors": {
+      "title": "Capteurs RTD/Thermocouples",
+      "description": "Capteurs de température comprenant des détecteurs de température à résistance (RTD) et des thermocouples industriels pour une mesure précise de la température dans les processus industriels. Capteurs RTD disponibles dans les configurations PT100, PT500 et PT1000, et thermocouples de types J, K, T, E, R, S et N. Conçus pour les mesures de précision et les applications à haute température avec une excellente précision, stabilité et durabilité dans des environnements industriels extrêmes."
+    },
+    "loadCell": {
+      "title": "Capteurs de pesage",
+      "description": "Capteurs de pesage de précision pour les applications de mesure de force et de poids. Disponibles dans les configurations de compression, de tension et universelles avec une grande précision et une excellente stabilité à long terme pour les systèmes de pesage industriels."
+    },
+    "phSensors": {
+      "title": "Capteurs de pH",
+      "description": "Capteurs de pH industriels pour la surveillance de la qualité de l'eau et les applications de contrôle de processus. Options de technologie d'électrode en verre et ISFET avec compensation automatique de la température et capacités de communication numérique HART."
+    },
+    "dpTypeTransmitter": {
+      "title": "Transmetteurs de pression différentielle",
+      "description": "Transmetteurs de pression différentielle de haute précision pour les applications de mesure de débit, de niveau et de pression. Comprend la communication HART, la compensation numérique et une construction robuste pour les environnements industriels exigeants."
+    },
+    "pTypeTransmitter": {
+      "title": "Transmetteurs de pression",
+      "description": "Transmetteurs de pression industriels pour la mesure de la pression absolue et relative. Dotés d'une technologie de capteur avancée, d'une excellente stabilité et de capacités de diagnostic complètes pour les applications d'automatisation des processus."
+    },
+    "rsTypeTransmitter": {
+      "title": "Transmetteurs à membrane à distance",
+      "description": "Transmetteurs de pression à membrane à distance pour les applications de milieux à haute température, corrosifs ou visqueux. Les systèmes remplis de capillaire permettent une mesure de pression sûre et précise dans des conditions de processus difficiles."
+    },
+    "massFlowMeter": {
+      "title": "Débitmètres massiques",
+      "description": "Débitmètres massiques Coriolis pour la mesure directe du débit massique et de la densité des liquides et des gaz. Mesure très précise indépendante des propriétés du fluide, de la température et des variations de pression."
+    },
+    "vortexFlowMeter": {
+      "title": "Débitmètres vortex",
+      "description": "Débitmètres à détection de vortex pour les applications de mesure de vapeur, de gaz et de liquide. La conception sans pièces mobiles assure la fiabilité avec une compensation de température intégrée et des capacités de mesure multivariable."
+    },
+    "volumetricFlowMeter": {
+      "title": "Débitmètres volumétriques",
+      "description": "Débitmètres volumétriques électromagnétiques, à ultrasons et à déplacement positif pour la mesure précise du débit de liquide et de gaz. Les caractéristiques comprennent l'absence de pièces mobiles (électromagnétiques), une haute précision, une chute de pression minimale et une excellente stabilité à long terme. Idéal pour l'eau, les eaux usées, les applications chimiques, le transfert de propriété et les opérations par lots nécessitant une mesure volumétrique fiable."
+    },
     "pdFlowMeter": {
       "title": "Débitmètres PD",
-      "description": "Débitmètres volumétriques utilisant des principes de mesure à engrenages ovales, à engrenages hélicoïdaux, à disque oscillant et à vis pour une mesure précise du débit de liquide. Offre une précision exceptionnelle, une répétabilité supérieure et une large plage de viscosité. Idéal pour le transfert de propriété, le dosage, le comptage de carburant, le dosage chimique et les applications à haute viscosité nécessitant une mesure volumétrique fiable."
+      "description": "Débitmètres à déplacement positif utilisant des principes de mesure à engrenages ovales, à engrenages hélicoïdaux, à disque oscillant et à vis pour une mesure précise du débit de liquide. Caractéristiques : précision exceptionnelle, répétabilité supérieure et large plage de viscosité. Idéal pour le transfert de propriété, le dosage par lots, le dosage de carburant, le dosage de produits chimiques et les applications à haute viscosité nécessitant une mesure volumétrique fiable."
+    },
+    "pressureSwitches": {
+      "title": "Pressostats",
+      "description": "Pressostats industriels pour une surveillance et un contrôle précis de la pression dans les systèmes d'automatisation. Disponibles auprès des principaux fabricants tels que Danfoss, Schneider Electric, WIKA et ABB."
+    },
+    "levelSwitches": {
+      "title": "Détecteurs de niveau",
+      "description": "Détecteurs de niveau ponctuel utilisant des technologies à diapason, à flotteur et capacitives. Des marques de confiance comme Endress+Hauser, ABB et VEGA pour une surveillance fiable du niveau des liquides et des solides en vrac."
+    },
+    "limitSwitches": {
+      "title": "Interrupteurs de fin de course",
+      "description": "Interrupteurs de détection de position robustes pour l'automatisation industrielle. D'Omron, Schneider Electric et Siemens avec protection IP67 et construction métallique robuste pour un fonctionnement fiable."
+    },
+    "pushButtons": {
+      "title": "Boutons poussoirs",
+      "description": "Boutons-poussoirs industriels pour les panneaux de commande et les machines. Disponibles en tailles de 22 mm et 30 mm de Schneider Electric, Eaton, ABB et Siemens avec diverses configurations de contact et options d'éclairage."
+    },
+    "controlValves": {
+      "title": "Vannes de régulation",
+      "description": "Vannes de régulation de précision pour l'automatisation des processus de Fisher (Emerson), SAMSON et ABB. Conceptions à globe, à boisseau sphérique et rotatives avec positionneurs numériques et capacités de communication HART."
+    },
+    "solenoidValves": {
+      "title": "Électrovannes",
+      "description": "Vannes à commande électrique pour l'automatisation du contrôle des fluides. Modèles ASCO (Emerson) et Parker Hannifin pour l'air, l'eau, la vapeur et divers fluides industriels avec des conceptions à action directe et à commande pilote."
+    },
+    "onOffValves": {
+      "title": "Vannes marche/arrêt",
+      "description": "Vannes à bille et vannes à opercule industrielles marche/arrêt pour un service d'arrêt fiable. Caractéristiques : actionnement au quart de tour, fonctionnement manuel ou pneumatique, construction en acier inoxydable et conformité aux normes API, ANSI et ISO. Disponibles auprès des principaux fabricants, notamment Emerson Fisher, Flowserve Worcester, Swagelok et Burkert pour l'isolation des processus, l'arrêt d'urgence et les applications de contrôle de débit."
+    },
+    "processAnalyzers": {
+      "title": "Analyseurs de processus",
+      "description": "Analyseurs de processus avancés pour la surveillance en temps réel de la composition chimique et des paramètres de processus. Analyse multi-composants avec une grande précision et des temps de réponse rapides pour les applications critiques de contrôle de processus."
+    },
+    "gasAnalyzers": {
+      "title": "Analyseurs de gaz",
+      "description": "Analyseurs de gaz de précision pour la surveillance des émissions, l'optimisation des processus et les applications de sécurité. Disponibles en configurations portables et fixes avec des technologies de capteur avancées pour diverses exigences de détection de gaz."
+    },
+    "liquidAnalyzers": {
+      "title": "Analyseurs de liquides",
+      "description": "Analyseurs de liquides complets pour la surveillance de la qualité de l'eau, le contrôle des processus chimiques et la conformité environnementale. Analyse multi-paramètres avec étalonnage automatique et capacités d'enregistrement des données."
+    },
+    "oxygenGasAnalyzers": {
+      "title": "Analyseurs de gaz d'oxygène (O2)",
+      "description": "Analyseurs d'oxygène de précision pour la surveillance des processus industriels et les applications de sécurité. Technologies électrochimiques, paramagnétiques et optiques des principaux fabricants comme Systech, Panametrics et Endress+Hauser."
+    },
+    "nitrogenGasAnalyzers": {
+      "title": "Analyseurs de gaz d'azote (N2)",
+      "description": "Analyseurs de gaz d'azote utilisant des technologies de conductivité thermique et de fusion de gaz inertes. Instruments LECO et HORIBA pour l'analyse élémentaire dans les métaux et les alliages avec une mesure de haute précision."
+    },
+    "hydrogenGasAnalyzers": {
+      "title": "Analyseurs de gaz d'hydrogène (H2)",
+      "description": "Analyseurs d'hydrogène avec détection de conductivité thermique pour l'analyse de mélange binaire et la surveillance des processus. Systèmes Nova Analytical et Endress+Hauser pour les applications de sécurité et de contrôle de la qualité."
+    },
+    "carbonDioxideGasAnalyzers": {
+      "title": "Analyseurs de gaz de dioxyde de carbone (CO2)",
+      "description": "Analyseurs de CO2 utilisant les technologies NDIR et TDLAS pour le contrôle de la combustion, la transformation des aliments et la surveillance de l'environnement. Portée de ppm aux niveaux de pourcentage avec une mesure de haute précision."
+    },
+    "codAnalyzers": {
+      "title": "Analyseurs de DCO",
+      "description": "Analyseurs de la demande chimique en oxygène pour les essais de qualité de l'eau et la surveillance du traitement des eaux usées. Systèmes Hach, MANTECH et LAR avec capacités d'analyse automatisée et de conformité réglementaire."
+    },
+    "bodAnalyzers": {
+      "title": "Analyseurs de DBO",
+      "description": "Analyseurs de la demande biochimique en oxygène pour la mesure de la pollution organique dans les échantillons d'eau. Systèmes automatisés MANTECH, Hach et YSI avec capteurs optiques de DO et contrôle de la température."
+    },
+    "standardCeilingFans": {
+      "title": "Ventilateurs de plafond BLDC standard",
+      "description": "Ventilateurs de plafond CC sans balais à haut rendement énergétique avec commande de vitesse variable et fonctionnement silencieux. Dotés de conceptions modernes, d'une télécommande et d'économies d'énergie exceptionnelles par rapport aux moteurs à courant alternatif traditionnels."
+    },
+    "premiumCeilingFans": {
+      "title": "Ventilateurs de plafond BLDC haut de gamme",
+      "description": "Ventilateurs de plafond CC sans balais haute performance avec des fonctions avancées, y compris des commandes intelligentes, un éclairage à DEL et une conception aérodynamique supérieure. Les modèles haut de gamme offrent une durabilité accrue et un fonctionnement silencieux."
+    },
+    "commercialCeilingFans": {
+      "title": "Ventilateurs de plafond BLDC commerciaux",
+      "description": "Ventilateurs de plafond CC sans balais robustes conçus pour les applications commerciales et industrielles. Construction robuste avec une capacité de débit d'air élevée, une durée de vie prolongée et des exigences d'entretien réduites."
+    },
+    "exhaustFanMotors": {
+      "title": "Moteurs de ventilateur d'extraction BLDC",
+      "description": "Moteurs CC sans balais à haut rendement pour les applications de ventilateur d'extraction. Conçus pour un fonctionnement continu avec un excellent contrôle de la vitesse, de faibles niveaux de bruit et un rendement énergétique supérieur pour les systèmes de ventilation."
+    },
+    "coolerMotors": {
+      "title": "Moteurs de refroidisseur BLDC",
+      "description": "Moteurs CC sans balais à haut rendement énergétique pour les applications de refroidisseur d'air. Dotés d'une commande de vitesse variable, d'un fonctionnement silencieux et d'une fiabilité exceptionnelle pour les systèmes de refroidissement domestiques et commerciaux."
+    },
+    "ventilationMotors": {
+      "title": "Moteurs de ventilation BLDC",
+      "description": "Moteurs CC sans balais avancés pour les systèmes de ventilation avec une commande de vitesse précise et une faible consommation d'énergie. Idéal pour les applications CVC nécessitant un fonctionnement silencieux et un rendement énergétique."
+    },
+    "submersiblePumps": {
+      "title": "Pompes submersibles BLDC",
+      "description": "Pompes submersibles CC sans balais à haut rendement énergétique pour les applications d'approvisionnement en eau. Dotées d'une construction résistante à la corrosion, d'un fonctionnement à vitesse variable et d'une efficacité exceptionnelle pour le pompage des eaux de forage et des eaux profondes."
+    },
+    "surfacePumps": {
+      "title": "Pompes de surface BLDC",
+      "description": "Pompes de surface CC sans balais à haut rendement pour le transfert d'eau et les applications d'augmentation de la pression. Conception compacte avec des fonctions de commande intelligentes et des économies d'énergie supérieures par rapport aux pompes classiques."
+    },
+    "hybridPumps": {
+      "title": "Pompes hybrides BLDC",
+      "description": "Pompes hybrides CC sans balais polyvalentes convenant aux applications submersibles et de surface. Technologie de moteur avancée avec des systèmes de commande adaptatifs pour une performance optimale dans diverses conditions de fonctionnement."
+    },
+    "tableFanMotors": {
+      "title": "Moteurs de ventilateur de table BLDC",
+      "description": "Moteurs CC sans balais compacts pour les applications de ventilateur de table avec un excellent contrôle de la vitesse et un fonctionnement silencieux. Conception économe en énergie avec une durée de vie opérationnelle prolongée et des besoins d'entretien minimaux."
+    },
+    "wallFanMotors": {
+      "title": "BLDC Wall Fan Motors",
+      "description": "Space-saving brushless DC motors for wall-mounted fan applications. Featuring remote control compatibility, multiple speed settings, and energy-efficient operation for residential and commercial use."
+    },
+    "pedestalFanMotors": {
+      "title": "Moteurs de ventilateur sur pied BLDC",
+      "description": "Moteurs CC sans balais puissants pour les applications de ventilateur sur pied avec des fonctions de hauteur réglable et d'oscillation. Offrant un débit d'air supérieur avec un fonctionnement éconénergétique et une performance silencieuse."
+    },
+    "powerCables": {
+      "title": "Câbles d'alimentation",
+      "description": "Câbles d'alimentation de haute qualité pour les systèmes de distribution électrique. Disponibles en différentes tailles de conducteur et types d'isolation pour les applications basse, moyenne et haute tension avec des propriétés électriques et mécaniques supérieures."
+    },
+    "controlCables": {
+      "title": "Câbles de commande",
+      "description": "Câbles de commande multiconducteurs pour les applications d'automatisation et d'instrumentation. Dotés d'excellentes propriétés électriques, d'un blindage contre les interférences électromagnétiques et d'une construction flexible pour le câblage de panneaux et les systèmes de commande."
+    },
+    "instrumentationCables": {
+      "title": "Câbles d'instrumentation",
+      "description": "Câbles d'instrumentation de précision pour la transmission de signaux dans les applications de contrôle de processus. Conception à faible capacité avec une excellente immunité au bruit et un blindage de paires individuelles pour les circuits de mesure critiques."
+    },
+    "terminalBlocks": {
+      "title": "Borniers",
+      "description": "Borniers fiables pour les connexions électriques dans les panneaux de commande et les boîtes de jonction. Montage sur rail DIN avec des technologies de connexion à vis, à ressort et enfichables pour un câblage sécurisé et sans entretien."
+    },
+    "electricalConnectors": {
+      "title": "Connecteurs électriques",
+      "description": "Connecteurs électriques industriels pour les applications d'alimentation et de signal. Construction robuste avec protection IP, configurations de contacts multiples et performance fiable dans des conditions environnementales difficiles."
+    },
+    "industrialPlugs": {
+      "title": "Fiches industrielles",
+      "description": "Fiches et prises industrielles robustes pour les équipements électriques mobiles et stationnaires. Conception résistante aux intempéries avec codage mécanique, verrouillages de sécurité et capacité de transport de courant élevée pour les applications industrielles."
+    },
+    "miniatureCircuitBreakers": {
+      "title": "Disjoncteurs miniatures (MCB)",
+      "description": "Disjoncteurs compacts pour la protection contre les surcharges et les courts-circuits dans les applications résidentielles et commerciales légères. Disponibles en différents calibres et caractéristiques de déclenchement avec un fonctionnement thermo-magnétique fiable."
+    },
+    "moldedCaseBreakers": {
+      "title": "Disjoncteurs à boîtier moulé (MCCB)",
+      "description": "Disjoncteurs à boîtier moulé robustes pour la distribution électrique industrielle et commerciale. Capacité de coupure élevée avec des paramètres de protection réglables et des unités de déclenchement électroniques optionnelles pour une protection améliorée."
+    },
+    "fusesHolders": {
+      "title": "Fusibles et porte-fusibles",
+      "description": "Fusibles électriques et porte-fusibles pour la protection contre les surintensités dans diverses applications. Disponibles en types cartouche, lame et spéciaux avec différentes caractéristiques temps-courant et capacités de coupure."
+    },
+    "rccbCircuitBreakers": {
+      "title": "Disjoncteurs différentiels (RCCB)",
+      "description": "Disjoncteurs de courant de fuite à la terre offrant une protection contre les chocs électriques et les risques d'incendie causés par les défauts à la terre. Disponibles en configurations à 2 et 4 pôles avec différents niveaux de sensibilité pour une sécurité électrique accrue."
+    },
+    "acbCircuitBreakers": {
+      "title": "Disjoncteurs ouverts (ACB)",
+      "description": "Disjoncteurs ouverts haute capacité pour les systèmes de distribution électrique moyenne et haute tension. Dotés de fonctions de protection avancées, de capacités de fonctionnement à distance et d'une excellente capacité de coupure pour les applications industrielles et de services publics."
+    },
+    "vcbCircuitBreakers": {
+      "title": "Disjoncteurs à vide (VCB)",
+      "description": "Disjoncteurs à vide avancés pour les applications moyenne tension avec une technologie de coupure d'arc supérieure. Fonctionnement sans entretien avec une excellente endurance électrique et une grande fiabilité pour les réseaux de distribution d'énergie."
+    },
+    "acDcConverters": {
+      "title": "Convertisseurs CA-CC",
+      "description": "Alimentations à découpage pour convertir la tension secteur CA en sortie CC régulée. Conceptions à haute efficacité avec plusieurs options de sortie, protection contre les surtensions et larges plages de tension d'entrée pour les applications industrielles."
+    },
+    "dcDcConverters": {
+      "title": "Convertisseurs CC-CC",
+      "description": "Convertisseurs CC-CC isolés et non isolés pour la conversion de tension dans les systèmes électroniques. Conceptions compactes à haute efficacité, faible ondulation et diverses combinaisons de tensions d'entrée/sortie pour les applications exigeantes."
+    },
+    "upsSystems": {
+      "title": "Systèmes ASI",
+      "description": "Systèmes d'alimentation sans interruption pour la protection des équipements critiques. Topologies en ligne, line-interactive et de secours avec batterie de secours, conditionnement de l'alimentation et capacités de gestion de réseau pour la continuité des activités."
+    },
+    "electricalCabinets": {
+      "title": "Armoires électriques",
+      "description": "Armoires et boîtiers électriques robustes pour loger les équipements de commande et les composants électriques. Disponibles en différents matériaux et indices de protection IP avec des conceptions modulaires pour une installation et une maintenance faciles."
+    },
+    "junctionBoxes": {
+      "title": "Boîtes de jonction",
+      "description": "Boîtes de jonction résistantes aux intempéries pour les connexions électriques et les terminaisons de câbles. Options d'entrée multiples avec divers matériaux et indices de protection environnementale pour les installations intérieures et extérieures."
+    },
+    "dinRailEnclosures": {
+      "title": "Boîtiers pour rail DIN",
+      "description": "Boîtiers modulaires pour rail DIN pour loger les composants d'automatisation et les dispositifs de commande. Construction en plastique et en métal avec conception enfichable pour un assemblage facile et une intégration professionnelle des panneaux."
+    },
+    "heatingCoils": {
+      "title": "Serpentins chauffants",
+      "description": "Serpentins chauffants industriels pour les applications de chauffage de processus. Disponibles en différentes configurations, y compris les radiateurs à ailettes, à cartouche et à bande, avec un contrôle précis de la température et un rendement thermique élevé."
+    },
+    "heatingElements": {
+      "title": "Éléments chauffants",
+      "description": "Éléments chauffants électriques pour les applications industrielles et commerciales. Conceptions tubulaires, en céramique et flexibles avec diverses densités de puissance et matériaux de gaine pour un transfert de chaleur et une durabilité optimaux."
+    },
+    "industrialHeaters": {
+      "title": "Radiateurs industriels",
+      "description": "Radiateurs industriels robustes pour les applications de processus, y compris les radiateurs à immersion, à circulation et rayonnants. Conçus pour les environnements difficiles avec des options antidéflagrantes et un contrôle avancé de la température."
+    },
+    "digitalMultimeters": {
+      "title": "Multimètres numériques",
+      "description": "Multimètres numériques de précision pour les mesures électriques, y compris la tension, le courant, la résistance et la fréquence. Capacité True RMS avec enregistrement des données, connectivité informatique et fonctions de mesure avancées."
+    },
+    "clampMeters": {
+      "title": "Pinces ampèremétriques",
+      "description": "Pinces ampèremétriques de mesure de courant sans contact pour le dépannage et la maintenance électriques. Mesure du courant CA/CC avec des capacités de mesure de tension, de résistance et de puissance dans des conceptions portables et portatives."
+    },
+    "benchMultimeters": {
+      "title": "Multimètres de table",
+      "description": "Multimètres de table de haute précision pour les applications de laboratoire et d'étalonnage. Précision et résolution supérieures avec des interfaces informatiques, des fonctions statistiques et des capacités de mesure automatisées."
+    },
+    "earthResistanceTesters": {
+      "title": "Testeurs de résistance de terre",
+      "description": "Testeurs de résistance de terre professionnels pour la vérification de la sécurité électrique et les tests du système de mise à la terre. Modèles avancés avec des tests sans piquet, des méthodes de chute de potentiel à 3 et 4 points, une mesure de la résistivité du sol et un contrôle automatique de la fréquence pour minimiser les interférences. Essentiel pour vérifier l'intégrité de la mise à la terre électrique, les systèmes de protection contre la foudre et assurer la conformité aux normes de sécurité dans les installations industrielles, commerciales et de services publics."
+    },
+    "phaseSequenceCheckers": {
+      "title": "Vérificateurs de séquence de phases",
+      "description": "Indicateurs de rotation de phase et testeurs de séquence de phases pour la vérification du système électrique triphasé. Outils essentiels pour confirmer la rotation de phase correcte avant le démarrage du moteur, empêchant les dommages à l'équipement dus à la rotation inverse. Disponibles dans des conceptions de contact et sans contact avec des indicateurs LED, des capacités de mesure de tension et une construction à sécurité nominale. Les caractéristiques comprennent l'indication visuelle de la séquence de phases, la vérification de la rotation du moteur, la mesure de la fréquence et la connectivité smartphone pour la documentation et la création de rapports."
+    },
+    "digitalMegohmmeters": {
+      "title": "Mégaohmmètres numériques",
+      "description": "Testeurs de résistance d'isolement haute tension (mégaohmmètres) pour des tests complets d'isolement électrique et une maintenance préventive. Instruments professionnels offrant des tensions de test de 50 V à 15 kV pour les tests de câbles, de moteurs, de transformateurs et d'appareillages de commutation. Les caractéristiques comprennent les tests de l'indice de polarisation (PI) et du taux d'absorption diélectrique (DAR), la détection de circuits sous tension, les tests de tension graduelle, le fonctionnement à distance, l'enregistrement des données avec horodatage et la connectivité PC. Essentiel pour les tests de moteurs conformes à la norme IEEE 43-2000 et la vérification de la sécurité électrique."
+    },
+    "milliampereSourceMeters": {
+      "title": "Mètres de source de milliampères",
+      "description": "Calibrateurs de boucle de milliampères de précision et compteurs de source de courant pour les tests et l'étalonnage de boucle de contrôle de processus 4-20 mA. Instruments professionnels fournissant une source et une mesure de mA précises avec une alimentation de boucle 24 V intégrée pour la simulation d'émetteur à 2 fils. Les caractéristiques comprennent la capacité de source et de mesure simultanées, les fonctions de pas automatique pour les tests de linéarité, la compatibilité de communication HART, les fonctions de rampe pour les tests de vannes et les conceptions de pince qui éliminent la rupture de boucle. Essentiel pour le dépannage et l'étalonnage de l'instrumentation de processus dans les systèmes d'automatisation industrielle."
+    },
+    "digitalOscilloscopes": {
+      "title": "Oscilloscopes numériques",
+      "description": "Oscilloscopes numériques à mémoire avancés pour l'analyse de formes d'onde et la mesure de signaux. Bande passante élevée, taux d'échantillonnage rapides et fonctions de mesure complètes avec interfaces à écran tactile et capacités d'analyse de données."
+    },
+    "mixedSignalOscilloscopes": {
+      "title": "Oscilloscopes à signaux mixtes",
+      "description": "Oscilloscopes à signaux mixtes avancés combinant des canaux analogiques et numériques pour une analyse complète des signaux. Capture simultanée de formes d'onde analogiques et d'états logiques numériques avec décodage de protocole et capacités de déclenchement avancées."
+    },
+    "portableOscilloscopes": {
+      "title": "Oscilloscopes portables",
+      "description": "Oscilloscopes portables compacts pour les mesures sur le terrain et les applications mobiles. Fonctionnement sur batterie avec construction robuste, mesures automobiles et capacités de surveillance à distance."
+    },
+    "rfSpectrumAnalyzers": {
+      "title": "Analyseurs de spectre RF",
+      "description": "Analyseurs de spectre RF et micro-ondes haute performance pour les tests de communication sans fil, la conformité CEM et l'analyse de signaux. Large couverture de fréquence avec une excellente plage dynamique et une vitesse de mesure élevée."
+    },
+    "audioSpectrumAnalyzers": {
+      "title": "Analyseurs de spectre audio",
+      "description": "Analyseurs audio de précision pour les mesures acoustiques, les tests de qualité sonore et l'optimisation du système audio. Analyse FFT en temps réel avec des capacités de mesure de THD, de bruit et de distorsion."
+    },
+    "realTimeAnalyzers": {
+      "title": "Analyseurs en temps réel",
+      "description": "Analyseurs de spectre en temps réel pour la surveillance continue des signaux et la capture d'événements transitoires. Probabilité d'interception de 100 % avec des capacités de déclenchement avancées et d'intelligence de signal."
+    },
+    "powerMeters": {
+      "title": "Wattmètres",
+      "description": "Wattmètres de haute précision pour la mesure et l'analyse de la puissance électrique. Capacité multiphasée avec des paramètres de puissance complets, y compris les mesures de puissance active, réactive et apparente."
+    },
+    "harmonicAnalyzers": {
+      "title": "Analyseurs d'harmoniques",
+      "description": "Analyseurs d'harmoniques avancés pour l'évaluation de la qualité de l'énergie et les tests de conformité à la norme IEEE 519. Analyse harmonique en temps réel jusqu'au 50e ordre avec des capacités de reporting complètes."
+    },
+    "energyLoggers": {
+      "title": "Enregistreurs d'énergie",
+      "description": "Enregistreurs de données d'énergie multicanaux pour la surveillance à long terme de la consommation d'énergie et la gestion de l'énergie. Communication sans fil avec connectivité au cloud et fonctions de reporting automatisées."
+    },
+    "calibrationInstruments": {
+      "title": "Instruments d'étalonnage",
+      "description": "Instruments d'étalonnage de précision pour l'étalonnage électrique, de température, de pression et de paramètres de processus. Précision traçable NIST avec des procédures d'étalonnage et une documentation automatisées."
+    },
+    "testEquipment": {
+      "title": "Équipement de test",
+      "description": "Équipement de test et de mesure à usage général pour les applications de laboratoire et sur le terrain. Instruments polyvalents pour les tests électriques, électroniques et mécaniques avec des configurations portables et de table."
+    },
+    "processCalibrators": {
+      "title": "Calibrateurs de processus",
+      "description": "Calibrateurs de processus multifonctions pour l'étalonnage complet sur le terrain et en laboratoire de l'instrumentation de processus. Caractéristiques : étalonnage de la pression, de la température et du signal électrique avec communication HART, enregistrement des données et procédures automatisées pour une efficacité d'étalonnage accrue."
+    },
+    "loopCalibrators": {
+      "title": "Calibrateurs de boucle",
+      "description": "Calibrateurs de boucle mA de précision pour tester et dépanner les boucles de courant 4-20 mA et les systèmes de contrôle de processus. Instruments portables fournissant une alimentation de boucle, une mesure de courant et une simulation de signal pour un diagnostic complet de la boucle dans les environnements de terrain et d'atelier."
+    },
+    "hartCalibrators": {
+      "title": "Calibrateurs HART",
+      "description": "Calibrateurs et communicateurs de terrain HART avancés pour l'étalonnage et la configuration complets de l'instrumentation de processus. Dotés d'une prise en charge intégrée du protocole de communication HART, ces appareils multifonctions combinent l'étalonnage de la pression, de la température et du signal électrique avec des capacités de communication numérique HART. Prise en charge des versions HART 5-7, des commandes universelles et spécifiques à l'appareil, de la documentation automatisée et d'une intégration transparente avec les appareils de terrain intelligents pour un étalonnage efficace sur le terrain et une gestion des appareils."
+    },
+    "mechanicalTools": {
+      "title": "Outils mécaniques",
+      "description": "Outils manuels mécaniques professionnels pour les opérations d'assemblage, de maintenance et de réparation. Construction en acier de haute qualité avec des conceptions ergonomiques pour les applications industrielles et automobiles."
+    },
+    "electricalTools": {
+      "title": "Outils électriques",
+      "description": "Outils électriques isolés pour un travail en toute sécurité sur les circuits sous tension et les installations électriques. Certifiés VDE avec des tensions de protection élevées et des poignées ergonomiques pour la sécurité des électriciens."
+    },
+    "precisionTools": {
+      "title": "Outils de précision",
+      "description": "Outils de mesure et d'usinage de haute précision pour les applications critiques en matière de précision. Instruments étalonnés avec des tolérances serrées pour le contrôle de la qualité et la fabrication de précision."
+    },
+    "electricDrills": {
+      "title": "Perceuses électriques",
+      "description": "Perceuses électriques robustes pour les applications de perçage, de vissage et de fixation. Contrôle de vitesse variable avec mandrins sans clé et moteurs à couple élevé pour une utilisation professionnelle dans la construction et l'industrie."
+    },
+    "angleGrinders": {
+      "title": "Meuleuses d'angle",
+      "description": "Meuleuses d'angle robustes pour les applications de coupe, de meulage et de polissage. Moteurs haute puissance avec protections de sécurité et systèmes anti-vibrations pour un fonctionnement prolongé dans les environnements industriels."
+    },
+    "impactDrivers": {
+      "title": "Visseuses à percussion",
+      "description": "Visseuses à percussion à couple élevé pour les applications de fixation intensive. Moteurs sans balais avec contrôle de vitesse variable et éclairage LED pour un vissage précis dans les travaux de construction et d'assemblage."
+    },
+    "weldingMachines": {
+      "title": "Machines à souder",
+      "description": "Machines à souder de qualité professionnelle pour les applications de soudage MIG, TIG, à l'électrode enrobée et multiprocédés. Technologie avancée avec contrôle précis de l'arc, capacité de bitension et construction robuste pour les travaux de fabrication, de maintenance et de réparation industriels. Les caractéristiques comprennent des écrans numériques, des capacités d'impulsion et une configuration automatisée pour une qualité de soudure optimale."
+    },
+    "cuttingBlades": {
+      "title": "Lames de coupe",
+      "description": "Lames de coupe de qualité supérieure pour les applications sur métal, bois et maçonnerie. Options à pointe en carbure et à revêtement diamant avec une géométrie de dent optimisée pour des coupes nettes et une durée de vie prolongée de la lame."
+    },
+    "drillBits": {
+      "title": "Forets",
+      "description": "Forets haute performance pour l'acier, l'acier inoxydable et les matériaux durs. Construction en cobalt et en carbure avec des revêtements spécialisés pour des performances de perçage supérieures et une durée de vie prolongée de l'outil."
+    },
+    "millingCutters": {
+      "title": "Fraises",
+      "description": "Fraises de précision pour les opérations d'usinage CNC et manuel. Construction en carbure monobloc et HSS avec diverses configurations de goujures pour un enlèvement de matière et une finition de surface optimaux."
+    },
+    "chopSaws": {
+      "title": "Scies à tronçonner (Scies à métaux)",
+      "description": "Scies à tronçonner à métaux de qualité professionnelle pour la fabrication industrielle et le travail des métaux. Caractéristiques : Technologie de coupe à froid TCT (carbure de tungstène) pour des coupes propres, sans bavures, avec un minimum de chaleur et d'étincelles. Disponibles en modèles 14\" et 15\" avec moteurs à couple élevé, étaux à dégagement rapide et capacité d'onglet pour les coupes angulaires. Coupe l'acier, l'acier inoxydable, l'aluminium et autres métaux plus rapidement que les scies à ruban avec une finition prête à souder."
+    },
+    "chainHoists": {
+      "title": "Palans à chaîne",
+      "description": "Palans à chaîne robustes pour les applications de levage vertical dans les environnements industriels et de construction. Modèles manuels et électriques avec protection contre les surcharges et capacités de positionnement précis de la charge."
+    },
+    "wireRopeHoists": {
+      "title": "Palans à câble",
+      "description": "Palans à câble haute capacité pour les opérations de levage lourd et les systèmes de manutention. Fonctionnement électrique avec contrôle de vitesse variable et fonctions de sécurité avancées pour les applications exigeantes."
+    },
+    "safetyHarnesses": {
+      "title": "Harnais de sécurité",
+      "description": "Harnais de sécurité complets pour la protection contre les chutes dans les environnements de travail en hauteur. Rembourrage confortable avec plusieurs points d'attache et boucles à connexion rapide pour la sécurité des travailleurs."
+    },
+    "safetyBarriers": {
+      "title": "Barrières de sécurité",
+      "description": "Barrières de sécurité industrielles et garde-corps pour la protection contre les risques sur le lieu de travail et le contrôle du périmètre. Conception modulaire avec des couleurs à haute visibilité et une construction résistante aux chocs pour la sécurité des piétons et des équipements."
+    },
+    "emergencyEquipment": {
+      "title": "Équipement d'urgence",
+      "description": "Équipement d'intervention d'urgence essentiel, y compris les douches oculaires, les douches de sécurité, les fournitures de premiers secours et les systèmes de communication d'urgence. Conforme à la norme ANSI Z358.1 avec des options autonomes et raccordées."
+    },
+    "monocrystallinePanels": {
+      "title": "Panneaux solaires monocristallins",
+      "description": "Panneaux solaires monocristallins à haut rendement avec une production d'énergie et une utilisation de l'espace supérieures. Cellules en silicium de qualité supérieure avec revêtement antireflet et cadres en aluminium robustes pour les installations résidentielles et commerciales."
+    },
+    "polycrystallinePanels": {
+      "title": "Panneaux solaires polycristallins",
+      "description": "Panneaux solaires polycristallins rentables offrant des performances fiables et un bon rapport qualité-prix pour les installations à grande échelle. Construction durable avec un excellent coefficient de température et une fiabilité éprouvée à long terme."
+    },
+    "thinFilmPanels": {
+      "title": "Panneaux solaires à couche mince",
+      "description": "Panneaux solaires à couche mince flexibles avec silicium amorphe et technologie CIGS pour des applications uniques. Conception légère avec des performances supérieures en basse lumière et des options d'intégration esthétique."
+    },
+    "stringInverters": {
+      "title": "Onduleurs de chaîne",
+      "description": "Onduleurs de chaîne à haut rendement pour les systèmes solaires photovoltaïques avec suivi du point de puissance maximale et capacités de surveillance complètes. Conception robuste avec une large plage de tension d'entrée et une fonctionnalité de raccordement au réseau."
+    },
+    "microInverters": {
+      "title": "Micro-onduleurs",
+      "description": "Micro-onduleurs au niveau du module pour une récolte d'énergie maximale et une surveillance individuelle des panneaux. Conformité à l'arrêt rapide avec des fonctions de sécurité améliorées et des procédures d'installation simplifiées."
+    },
+    "powerOptimizers": {
+      "title": "Optimiseurs de puissance",
+      "description": "Optimiseurs de puissance CC pour des performances améliorées du système solaire avec MPPT et surveillance au niveau du module. Atténue les pertes dues à l'ombrage et aux écarts tout en maintenant l'économie des onduleurs de chaîne."
+    },
+    "modularPlcs": {
+      "title": "PLC modulaires",
+      "description": "Automates logiques programmables modulaires évolutifs pour les systèmes d'automatisation complexes. Configurations d'E/S extensibles avec des capacités de communication avancées et un traitement à haut débit pour les applications de contrôle industriel."
+    },
+    "compactPlcs": {
+      "title": "PLC compacts",
+      "description": "Automates logiques programmables compacts peu encombrants pour les applications d'automatisation de petite à moyenne envergure. E/S intégrées avec interfaces de communication intégrées et logiciel de programmation convivial."
+    },
+    "microPlcs": {
+      "title": "Micro PLC",
+      "description": "Micro-automates logiques programmables ultra-compacts pour les tâches d'automatisation simples. Solution rentable avec des capacités d'E/S essentielles et des fonctions de communication de base pour le contrôle de petites machines."
+    },
+    "scadaSoftware": {
+      "title": "Logiciel SCADA",
+      "description": "Logiciel complet de contrôle et d'acquisition de données de supervision pour la surveillance et le contrôle des processus industriels. Visualisation des données en temps réel avec gestion des alarmes et capacités de suivi de l'historique."
+    },
+    "scadaHardware": {
+      "title": "Matériel SCADA",
+      "description": "Plateformes matérielles SCADA de qualité industrielle pour des opérations d'acquisition de données et de contrôle fiables. Construction robuste avec des chemins de communication redondants et des composants remplaçables à chaud pour une disponibilité maximale."
+    },
+    "scadaGateways": {
+      "title": "Passerelles SCADA",
+      "description": "Passerelles de conversion de protocole pour l'intégration du système SCADA et la compatibilité multi-fournisseurs. Prend en charge plusieurs protocoles de communication industrielle avec une transmission de données sécurisée et des performances en temps réel."
+    },
+    "dcsControllers": {
+      "title": "Contrôleurs DCS",
+      "description": "Contrôleurs de système de contrôle distribué pour l'automatisation des processus à grande échelle et les systèmes de sécurité. Architecture redondante avec une conception à haute disponibilité et des algorithmes de contrôle de processus avancés."
+    },
+    "dcsOperatorStations": {
+      "title": "Postes d'opérateur DCS",
+      "description": "Postes de travail d'opérateur avancés pour la surveillance et le fonctionnement des systèmes de contrôle distribués. Capacités multi-écrans avec des graphiques intuitifs et une gestion complète des alarmes."
+    },
+    "dcsEngineeringStations": {
+      "title": "Postes d'ingénierie DCS",
+      "description": "Postes de travail d'ingénierie pour la configuration, la programmation et la maintenance des DCS. Environnement de développement complet avec des capacités de simulation et un contrôle de version."
+    },
+    "touchscreenHmis": {
+      "title": "IHM à écran tactile",
+      "description": "Interfaces homme-machine industrielles à écran tactile pour le contrôle et la surveillance des opérateurs. Écrans multi-touch avec une construction robuste pour les environnements difficiles."
+    },
+    "panelMountHmis": {
+      "title": "IHM à montage sur panneau",
+      "description": "Interfaces homme-machine à montage sur panneau pour l'intégration dans les armoires de commande et les panneaux d'opérateur. Conception compacte avec une durabilité de qualité industrielle."
+    },
+    "mobileHmis": {
+      "title": "IHM mobiles",
+      "description": "Interfaces homme-machine portables pour le contrôle mobile des opérateurs et la surveillance sur le terrain. Conception robuste avec connectivité sans fil et longue durée de vie de la batterie."
+    },
+    "safetyRelays": {
+      "title": "Relais de sécurité",
+      "description": "Relais de sécurité pour les systèmes de protection des machines et du personnel. Certifiés pour les applications de sécurité avec un fonctionnement à sécurité intégrée et des capacités de diagnostic."
+    },
+    "emergencyStops": {
+      "title": "Arrêts d'urgence",
+      "description": "Dispositifs d'arrêt d'urgence pour l'arrêt immédiat des machines. Construction robuste avec des contacts à ouverture positive et une indication visuelle claire."
+    },
+    "safetySwitches": {
+      "title": "Interrupteurs de sécurité",
+      "description": "Interrupteurs de sécurité de surveillance de position pour les portes de protection et les panneaux d'accès. Conception inviolable avec actionneurs codés pour une sécurité maximale."
+    },
+    "explosionProofEquipment": {
+      "title": "Équipement antidéflagrant",
+      "description": "Équipement électrique antidéflagrant certifié pour les installations en zones dangereuses. Conçu pour empêcher l'inflammation des gaz et vapeurs inflammables avec des boîtiers robustes répondant aux normes de sécurité internationales."
+    },
+    "intrinsicallySafeBarriers": {
+      "title": "Barrières de sécurité intrinsèque",
+      "description": "Barrières de sécurité pour les circuits à sécurité intrinsèque dans les zones dangereuses. Fournit une limitation de l'énergie et une isolation galvanique pour empêcher les sources d'inflammation dans les atmosphères explosives."
+    },
+    "isFieldDevices": {
+      "title": "Appareils de terrain à sécurité intrinsèque",
+      "description": "Appareils de terrain certifiés pour un fonctionnement à sécurité intrinsèque dans les atmosphères explosives. Comprend des capteurs, des transmetteurs et des actionneurs conçus pour les applications en zones dangereuses 0/1."
+    },
+    "acSurgeProtectors": {
+      "title": "Parafoudres CA",
+      "description": "Dispositifs de protection contre les surtensions de ligne d'alimentation CA pour la protection des équipements électriques. Protection multi-étages contre la foudre, les surtensions de commutation et les perturbations de la ligne d'alimentation dans les installations industrielles."
+    },
+    "dcSurgeProtectors": {
+      "title": "Parafoudres CC",
+      "description": "Dispositifs de protection contre les surtensions des circuits CC pour les équipements électroniques sensibles. Protection spécialisée pour les systèmes d'alimentation CC, les installations solaires et les applications alimentées par batterie."
+    },
+    "signalSurgeProtectors": {
+      "title": "Parafoudres de signal",
+      "description": "Protection contre les surtensions des lignes de signal pour les circuits de données et de communication. Protège les signaux analogiques et numériques, les réseaux de bus de terrain et les circuits d'instrumentation contre les interférences électromagnétiques."
+    },
+    "equipmentGrounding": {
+      "title": "Systèmes de mise à la terre des équipements",
+      "description": "Composants de mise à la terre pour la sécurité et la protection des équipements électriques. Tiges de mise à la terre en cuivre et en acier, conducteurs et accessoires pour une mise à la terre appropriée du système électrique."
+    },
+    "systemGrounding": {
+      "title": "Solutions de mise à la terre du système",
+      "description": "Solutions complètes de système de mise à la terre pour les installations industrielles. Grilles de mise à la terre, électrodes et systèmes de surveillance pour la sécurité du système électrique et la compatibilité électromagnétique."
+    },
+    "lightningProtection": {
+      "title": "Systèmes de protection contre la foudre",
+      "description": "Systèmes de protection contre la foudre pour les bâtiments et les structures industrielles. Terminaux aériens, conducteurs de descente et parafoudres conçus selon les normes CEI 62305 pour une protection complète contre la foudre."
+    },
+    "singleStageCentrifugal": {
+      "title": "Pompes centrifuges à un étage",
+      "description": "Pompes centrifuges horizontales et verticales à un étage pour l'alimentation en eau et les applications industrielles. Fonctionnement efficace avec de faibles besoins d'entretien pour diverses conditions de débit et de hauteur."
+    },
+    "multiStageCentrifugal": {
+      "title": "Pompes centrifuges multi-étages",
+      "description": "Pompes centrifuges multi-étages haute pression pour les applications exigeantes. Plusieurs roues offrent des capacités de hauteur élevée pour l'augmentation de la pression, l'osmose inverse et les applications de processus industriels."
+    },
+    "verticalCentrifugal": {
+      "title": "Pompes centrifuges verticales",
+      "description": "Pompes centrifuges verticales peu encombrantes pour les installations confinées. Convient aux puisards, aux réservoirs et aux applications où l'espace horizontal est limité tout en maintenant des performances à haut rendement."
+    },
+    "airOperatedDiaphragm": {
+      "title": "Pompes à membrane à air comprimé",
+      "description": "Pompes à membrane pneumatiques pour la manipulation de fluides agressifs et visqueux. Fonctionnement auto-amorçant avec d'excellentes capacités d'aspiration pour le traitement chimique et les applications d'eaux usées."
+    },
+    "electricDiaphragm": {
+      "title": "Pompes à membrane électriques",
+      "description": "Pompes à membrane à entraînement électrique pour les applications de dosage et de dosage précis. Contrôle de débit variable avec une excellente compatibilité chimique pour le traitement de l'eau et les systèmes d'injection de produits chimiques."
+    },
+    "hydraulicDiaphragm": {
+      "title": "Pompes à membrane hydrauliques",
+      "description": "Pompes à membrane à commande hydraulique pour les applications haute pression. Contrôle de débit précis et excellente répétabilité pour le dosage chimique et les systèmes de nettoyage haute pression."
+    },
+    "externalGearPumps": {
+      "title": "Pompes à engrenages externes",
+      "description": "Pompes à engrenages externes volumétriques pour le transfert de liquides visqueux. Distribution de débit constante indépendante des variations de pression, idéale pour les huiles lubrifiantes et les fluides hydrauliques."
+    },
+    "internalGearPumps": {
+      "title": "Pompes à engrenages internes",
+      "description": "Pompes à engrenages internes avec des caractéristiques de débit douces pour les fluides sensibles. Conception à faible pulsation adaptée aux applications alimentaires, pharmaceutiques et chimiques nécessitant une manipulation délicate."
+    },
+    "magneticGearPumps": {
+      "title": "Pompes à engrenages à entraînement magnétique",
+      "description": "Pompes à engrenages à couplage magnétique pour un fonctionnement sans fuite. La conception hermétiquement scellée élimine les joints d'arbre, parfaite pour les produits chimiques dangereux et les applications de haute pureté."
+    },
+    "impellersCasings": {
+      "title": "Roues et corps de pompe",
+      "description": "Roues de rechange et corps de pompe pour les pompes centrifuges. Disponibles en différents matériaux, notamment la fonte, l'acier inoxydable et les alliages spéciaux, pour différentes applications et différents milieux."
+    },
+    "sealsGaskets": {
+      "title": "Joints d'étanchéité et joints",
+      "description": "Joints de pompe et joints d'étanchéité pour une prévention fiable des fuites. Joints mécaniques, joints toriques et ensembles de joints en différents matériaux pour répondre aux différentes températures, pressions et exigences de compatibilité chimique."
+    },
+    "bearingsCouplings": {
+      "title": "Roulements et accouplements",
+      "description": "Roulements de pompe et accouplements flexibles pour les systèmes d'entraînement mécanique. Composants de haute qualité pour une durée de vie prolongée, une réduction des vibrations et une transmission de puissance fiable dans les applications de pompage."
     }
   },
   "table": {

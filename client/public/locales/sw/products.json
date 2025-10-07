@@ -2222,9 +2222,561 @@
     "installation": "Installation"
   },
   "productGroups": {
+    "pnpNpnSensors": {
+      "title": "Sensorer za PNP/NPN",
+      "description": "Sensorer za ukaribu za viwandani ikiwa ni pamoja na aina za PNP na NPN kwa matumizi ya otomatiki. Sensorer hizi hutoa utambuzi wa kuaminika wa vitu vya metali bila kugusa kimwili, zikiwa na ujenzi thabiti, masafa ya juu ya ubadilishaji, uwezo bora wa kurudia, na upinzani dhidi ya kuingiliwa na sumakuumeme kwa mazingira magumu ya viwandani."
+    },
+    "rtdThermocouplesSensors": {
+      "title": "Sensorer za RTD/Thermocouples",
+      "description": "Sensorer za joto ikiwa ni pamoja na sensorer za Resistance Temperature Detector (RTD) na thermocouples za viwandani kwa kipimo sahihi cha joto katika michakato ya viwandani. Sensorer za RTD zinapatikana katika usanidi wa PT100, PT500, na PT1000, na thermocouples katika aina za J, K, T, E, R, S, na N. Zimeundwa kwa ajili ya kipimo cha usahihi na matumizi ya joto la juu na usahihi bora, utulivu, na uimara katika mazingira ya viwandani yaliokithiri."
+    },
+    "loadCell": {
+      "title": "Sensorer za Seli ya Kupakia",
+      "description": "Sensorer za seli ya kupakia sahihi kwa matumizi ya kupima nguvu na uzito. Zinapatikana katika usanidi wa mgandamizo, mvutano, na zima na usahihi wa hali ya juu na utulivu bora wa muda mrefu kwa mifumo ya kupima ya viwandani."
+    },
+    "phSensors": {
+      "title": "Sensorer za pH",
+      "description": "Sensorer za pH za viwandani kwa ufuatiliaji wa ubora wa maji na matumizi ya udhibiti wa mchakato. Chaguzi za teknolojia ya elektrodi ya kioo na ISFET zilizo na fidia ya joto otomatiki na uwezo wa mawasiliano ya dijitali ya HART."
+    },
+    "dpTypeTransmitter": {
+      "title": "Viwasha Shinikizo Tofauti",
+      "description": "Viwasha shinikizo tofauti vya usahihi wa hali ya juu kwa matumizi ya kupima mtiririko, kiwango, na shinikizo. Zina mawasiliano ya HART, fidia ya dijitali, na ujenzi thabiti kwa mazingira magumu ya viwandani."
+    },
+    "pTypeTransmitter": {
+      "title": "Viwasha Shinikizo",
+      "description": "Viwasha shinikizo vya viwandani kwa kipimo cha shinikizo kabisa na shinikizo la kupima. Zikiwa na teknolojia ya sensor ya hali ya juu, utulivu bora, na uwezo kamili wa uchunguzi kwa matumizi ya otomatiki ya mchakato."
+    },
+    "rsTypeTransmitter": {
+      "title": "Viwasha Muhuri wa Mbali",
+      "description": "Viwasha shinikizo vya muhuri wa mbali kwa matumizi ya vyombo vya habari vya joto la juu, babuzi, au viscous. Mifumo iliyojazwa na kapilari hutoa kipimo salama na sahihi cha shinikizo katika hali ngumu za mchakato."
+    },
+    "massFlowMeter": {
+      "title": "Mita za Mtiririko wa Misa",
+      "description": "Mita za mtiririko wa misa za Coriolis kwa mtiririko wa moja kwa moja wa misa na kipimo cha msongamano wa vimiminika na gesi. Kipimo sahihi sana bila kujali sifa za maji, joto, na tofauti za shinikizo."
+    },
+    "vortexFlowMeter": {
+      "title": "Mita za Mtiririko wa Vortex",
+      "description": "Mita za mtiririko wa vortex kwa matumizi ya kupima mvuke, gesi, na kioevu. Hakuna muundo wa sehemu zinazohamia huhakikisha kuegemea na fidia ya joto iliyojengwa ndani na uwezo wa kupima vigezo vingi."
+    },
+    "volumetricFlowMeter": {
+      "title": "Mita za Mtiririko wa Volumetric",
+      "description": "Mita za mtiririko za sumakuumeme, ultrasonic, na uhamishaji chanya kwa kipimo sahihi cha mtiririko wa kioevu na gesi. Vipengele ni pamoja na kutokuwa na sehemu zinazohamia (sumakuumeme), usahihi wa hali ya juu, kushuka kwa shinikizo kidogo, na uthabiti bora wa muda mrefu. Inafaa kwa maji, maji taka, matumizi ya kemikali, uhamishaji wa ulinzi, na shughuli za bechi zinazohitaji kipimo cha volumetric cha kuaminika."
+    },
     "pdFlowMeter": {
       "title": "Mita za Mtiririko za PD",
-      "description": "Mita za mtiririko za uhamishaji chanya kwa kutumia kanuni za kipimo cha gia ya mviringo, gia ya helical, diski ya nutating, na skrubu kwa kipimo sahihi cha mtiririko wa kimiminika. Huangazia usahihi wa kipekee, urudiwaji bora, na kiwango kikubwa cha mnato. Inafaa kwa uhamishaji wa ulinzi, upangaji makundi, upimaji wa mafuta, uwekaji kemikali, na matumizi ya mnato wa juu yanayohitaji kipimo cha volumetric cha kuaminika."
+      "description": "Mita za mtiririko za uhamishaji chanya kwa kutumia gia ya mviringo, gia ya helical, diski ya nutating, na kanuni za kupima screw kwa kipimo sahihi cha mtiririko wa kioevu. Vipengele vya usahihi wa kipekee, uwezo bora wa kurudia, na anuwai ya mnato mpana. Inafaa kwa uhamishaji wa ulinzi, bechi, upimaji wa mafuta, utoaji wa kemikali, na matumizi ya mnato wa juu ambayo yanahitaji kipimo cha volumetric cha kuaminika."
+    },
+    "pressureSwitches": {
+      "title": "Swichi za Shinikizo",
+      "description": "Swichi za shinikizo za viwandani kwa ufuatiliaji sahihi wa shinikizo na udhibiti katika mifumo ya otomatiki. Inapatikana kutoka kwa wazalishaji wakuu kama vile Danfoss, Schneider Electric, WIKA, na ABB."
+    },
+    "levelSwitches": {
+      "title": "Swichi za Kiwango",
+      "description": "Swichi za kugundua kiwango cha uhakika kwa kutumia uma wa tuning, kuelea, na teknolojia za capacitive. Kutoka kwa bidhaa zinazoaminika kama vile Endress+Hauser, ABB, na VEGA kwa ufuatiliaji wa kuaminika wa kiwango cha kioevu na wingi thabiti."
+    },
+    "limitSwitches": {
+      "title": "Swichi za Kikomo",
+      "description": "Swichi za kuhisi nafasi nzito kwa ajili ya otomatiki ya viwandani. Kutoka kwa Omron, Schneider Electric, na Siemens zilizo na ulinzi wa IP67 na ujenzi thabiti wa chuma kwa uendeshaji wa kuaminika."
+    },
+    "pushButtons": {
+      "title": "Vifungo vya Kushinikiza",
+      "description": "Swichi za vifungo vya kushinikiza za viwandani kwa paneli za udhibiti na mashine. Inapatikana katika ukubwa wa 22mm na 30mm kutoka Schneider Electric, Eaton, ABB, na Siemens zilizo na usanidi mbalimbali wa mawasiliano na chaguzi za kuangaza."
+    },
+    "controlValves": {
+      "title": "Vali za Udhibiti",
+      "description": "Vali za udhibiti wa usahihi kwa ajili ya otomatiki ya mchakato kutoka Fisher (Emerson), SAMSON, na ABB. Miundo ya globe, mpira, na rotary yenye viweka msimamo vya dijitali na uwezo wa mawasiliano wa HART."
+    },
+    "solenoidValves": {
+      "title": "Vali za Solenoid",
+      "description": "Vali zinazoendeshwa kwa umeme kwa ajili ya otomatiki ya udhibiti wa maji. Miundo ya ASCO (Emerson) na Parker Hannifin kwa hewa, maji, mvuke, na maji mbalimbali ya viwandani yenye miundo ya uendeshaji wa moja kwa moja na majaribio."
+    },
+    "onOffValves": {
+      "title": "Vali za On/Off",
+      "description": "Vali za mpira na lango za viwandani za on-off kwa huduma ya kuzima ya kuaminika. Vipengele vya uendeshaji wa robo-geuza, uendeshaji wa mwongozo au nyumatiki, ujenzi wa chuma cha pua, na kufuata viwango vya API, ANSI, na ISO. Inapatikana kutoka kwa wazalishaji wakuu ikiwa ni pamoja na Emerson Fisher, Flowserve Worcester, Swagelok, na Burkert kwa ajili ya kutengwa kwa mchakato, kuzima dharura, na matumizi ya udhibiti wa mtiririko."
+    },
+    "processAnalyzers": {
+      "title": "Vichanganuzi vya Mchakato",
+      "description": "Vichanganuzi vya mchakato vya hali ya juu kwa ajili ya ufuatiliaji wa wakati halisi wa muundo wa kemikali na vigezo vya mchakato. Uchanganuzi wa vipengele vingi na usahihi wa hali ya juu na nyakati za majibu ya haraka kwa matumizi muhimu ya udhibiti wa mchakato."
+    },
+    "gasAnalyzers": {
+      "title": "Vichanganuzi vya Gesi",
+      "description": "Vichanganuzi vya gesi vya usahihi kwa ufuatiliaji wa uzalishaji, uboreshaji wa mchakato, na matumizi ya usalama. Inapatikana katika usanidi wa kubebeka na uliowekwa na teknolojia za sensor za hali ya juu kwa mahitaji mbalimbali ya utambuzi wa gesi."
+    },
+    "liquidAnalyzers": {
+      "title": "Vichanganuzi vya Vimiminika",
+      "description": "Vichanganuzi kamili vya vimiminika kwa ajili ya ufuatiliaji wa ubora wa maji, udhibiti wa mchakato wa kemikali, na kufuata mazingira. Uchanganuzi wa vigezo vingi na calibration otomatiki na uwezo wa kuingia data."
+    },
+    "oxygenGasAnalyzers": {
+      "title": "Vichanganuzi vya Gesi ya Oksijeni (O2)",
+      "description": "Vichanganuzi vya oksijeni vya usahihi kwa ufuatiliaji wa mchakato wa viwandani na matumizi ya usalama. Teknolojia za electrochemical, paramagnetic, na optical kutoka kwa wazalishaji wakuu kama vile Systech, Panametrics, na Endress+Hauser."
+    },
+    "nitrogenGasAnalyzers": {
+      "title": "Vichanganuzi vya Gesi ya Nitrojeni (N2)",
+      "description": "Vichanganuzi vya gesi ya nitrojeni kwa kutumia conductivity ya joto na teknolojia za kuunganisha gesi inert. Vyombo vya LECO na HORIBA kwa ajili ya uchanganuzi wa elementi katika metali na aloi kwa kipimo cha usahihi wa hali ya juu."
+    },
+    "hydrogenGasAnalyzers": {
+      "title": "Vichanganuzi vya Gesi ya Hidrojeni (H2)",
+      "description": "Vichanganuzi vya hidrojeni na utambuzi wa conductivity ya joto kwa uchanganuzi wa mchanganyiko wa binary na ufuatiliaji wa mchakato. Mifumo ya Nova Analytical na Endress+Hauser kwa ajili ya usalama na udhibiti wa ubora."
+    },
+    "carbonDioxideGasAnalyzers": {
+      "title": "Vichanganuzi vya Gesi ya Kaboni Dioksidi (CO2)",
+      "description": "Vichanganuzi vya CO2 kwa kutumia teknolojia za NDIR na TDLAS kwa ajili ya udhibiti wa mwako, usindikaji wa chakula, na ufuatiliaji wa mazingira. Aina mbalimbali kutoka ppm hadi viwango vya asilimia na kipimo cha usahihi wa hali ya juu."
+    },
+    "codAnalyzers": {
+      "title": "Vichanganuzi vya COD",
+      "description": "Vichanganuzi vya Mahitaji ya Kemikali ya Oksijeni kwa ajili ya kupima ubora wa maji na ufuatiliaji wa matibabu ya maji taka. Mifumo ya Hach, MANTECH, na LAR yenye uchanganuzi otomatiki na uwezo wa kufuata kanuni."
+    },
+    "bodAnalyzers": {
+      "title": "Vichanganuzi vya BOD",
+      "description": "Vichanganuzi vya Mahitaji ya Biokemikali ya Oksijeni kwa kipimo cha uchafuzi wa kikaboni katika sampuli za maji. Mifumo ya otomatiki ya MANTECH, Hach, na YSI yenye sensorer za DO za optical na udhibiti wa joto."
+    },
+    "standardCeilingFans": {
+      "title": "Feni za Dari za Kawaida za BLDC",
+      "description": "Feni za dari za DC zisizo na brashi zinazotumia nishati vizuri na udhibiti wa kasi tofauti na uendeshaji kimya. Zikiwa na miundo ya kisasa, uendeshaji wa udhibiti wa mbali, na uokoaji wa nishati wa kipekee ikilinganishwa na motors za jadi za AC."
+    },
+    "premiumCeilingFans": {
+      "title": "Feni za Dari za Premium za BLDC",
+      "description": "Feni za dari za DC zisizo na brashi za utendaji wa juu na vipengele vya hali ya juu ikiwa ni pamoja na udhibiti mahiri, taa za LED, na muundo bora wa aerodynamic. Miundo ya Premium hutoa uimara ulioimarishwa na uendeshaji wa kimya."
+    },
+    "commercialCeilingFans": {
+      "title": "Feni za Dari za Biashara za BLDC",
+      "description": "Feni za dari za DC zisizo na brashi nzito zilizoundwa kwa matumizi ya kibiashara na viwandani. Ujenzi thabiti na uwezo wa juu wa mtiririko wa hewa, maisha marefu ya uendeshaji, na mahitaji ya kupunguza matengenezo."
+    },
+    "exhaustFanMotors": {
+      "title": "Motors za Feni ya Kutolea Nje za BLDC",
+      "description": "Motors za DC zisizo na brashi zenye ufanisi wa hali ya juu kwa matumizi ya feni ya kutolea nje. Zimeundwa kwa ajili ya uendeshaji unaoendelea na udhibiti bora wa kasi, viwango vya chini vya kelele, na ufanisi bora wa nishati kwa mifumo ya uingizaji hewa."
+    },
+    "coolerMotors": {
+      "title": "Motors za Kipoozi za BLDC",
+      "description": "Motors za DC zisizo na brashi zinazotumia nishati vizuri kwa matumizi ya kipoozi cha hewa. Zikiwa na udhibiti wa kasi tofauti, uendeshaji kimya, na uaminifu wa kipekee kwa mifumo ya kupoeza ya ndani na kibiashara."
+    },
+    "ventilationMotors": {
+      "title": "Motors za Uingizaji Hewa za BLDC",
+      "description": "Motors za DC zisizo na brashi za hali ya juu kwa mifumo ya uingizaji hewa yenye udhibiti sahihi wa kasi na matumizi ya chini ya nguvu. Inafaa kwa matumizi ya HVAC yanayohitaji uendeshaji tulivu na ufanisi wa nishati."
+    },
+    "submersiblePumps": {
+      "title": "Pampu za Kuzama za BLDC",
+      "description": "Pampu za DC zisizo na brashi zinazotumia nishati vizuri kwa matumizi ya usambazaji wa maji. Zikiwa na ujenzi sugu wa kutu, uendeshaji wa kasi tofauti, na ufanisi wa kipekee kwa uchimbaji wa maji ya kisima na maji ya kina."
+    },
+    "surfacePumps": {
+      "title": "Pampu za Juu za BLDC",
+      "description": "Pampu za DC zisizo na brashi zenye ufanisi wa hali ya juu kwa uhamishaji wa maji na matumizi ya kuongeza shinikizo. Muundo wa kompakt na vipengele vya udhibiti wa akili na uokoaji wa nishati bora ikilinganishwa na pampu za kawaida."
+    },
+    "hybridPumps": {
+      "title": "Pampu Mseto za BLDC",
+      "description": "Pampu mseto za DC zisizo na brashi zinazofaa kwa matumizi ya kuzama na juu. Teknolojia ya hali ya juu ya motor yenye mifumo ya udhibiti adaptive kwa utendaji bora katika hali mbalimbali za uendeshaji."
+    },
+    "tableFanMotors": {
+      "title": "Motors za Feni ya Meza za BLDC",
+      "description": "Motors za DC zisizo na brashi za kompakt kwa matumizi ya feni ya meza yenye udhibiti bora wa kasi na uendeshaji wa kimya. Muundo unaotumia nishati vizuri na maisha marefu ya uendeshaji na mahitaji ya chini ya matengenezo."
+    },
+    "wallFanMotors": {
+      "title": "Motors za Feni ya Ukuta za BLDC",
+      "description": "Motors za DC zisizo na brashi za kuokoa nafasi kwa matumizi ya feni iliyowekwa ukutani. Zikiwa na uoanifu wa udhibiti wa mbali, mipangilio mingi ya kasi, na uendeshaji unaotumia nishati vizuri kwa matumizi ya makazi na biashara."
+    },
+    "pedestalFanMotors": {
+      "title": "Motors za Feni ya Msingi za BLDC",
+      "description": "Motors za DC zisizo na brashi zenye nguvu kwa matumizi ya feni ya msingi yenye urefu unaoweza kubadilishwa na vipengele vya oscillation. Hutoa mtiririko bora wa hewa na uendeshaji unaotumia nishati vizuri na utendaji kimya."
+    },
+    "powerCables": {
+      "title": "Kebo za Nguvu",
+      "description": "Kebo za nguvu za ubora wa juu kwa mifumo ya usambazaji wa umeme. Inapatikana katika ukubwa mbalimbali wa kondakta na aina za insulation kwa matumizi ya voltage ya chini, ya kati, na ya juu yenye sifa bora za umeme na mitambo."
+    },
+    "controlCables": {
+      "title": "Kebo za Udhibiti",
+      "description": "Kebo za udhibiti za msingi nyingi kwa matumizi ya otomatiki na ala. Zikiwa na sifa bora za umeme, ulinzi wa kuingiliwa na sumakuumeme, na ujenzi rahisi kwa wiring ya paneli na mifumo ya udhibiti."
+    },
+    "instrumentationCables": {
+      "title": "Kebo za Ala",
+      "description": "Kebo za ala za usahihi kwa usambazaji wa ishara katika matumizi ya udhibiti wa mchakato. Muundo wa capacitance ya chini na kinga bora ya kelele na kinga ya jozi ya mtu binafsi kwa mizunguko muhimu ya kipimo."
+    },
+    "terminalBlocks": {
+      "title": "Vitalu vya Kituo",
+      "description": "Vitalu vya kituo vya kuaminika kwa miunganisho ya umeme katika paneli za udhibiti na masanduku ya makutano. Upachikaji wa reli ya DIN yenye teknolojia za unganisho za screw, spring, na push-in kwa wiring salama na isiyo na matengenezo."
+    },
+    "electricalConnectors": {
+      "title": "Viunganishi vya Umeme",
+      "description": "Viunganishi vya umeme vya viwandani kwa matumizi ya nguvu na ishara. Ujenzi thabiti na ulinzi uliokadiriwa na IP, usanidi mbalimbali wa mawasiliano, na utendaji wa kuaminika katika hali mbaya za mazingira."
+    },
+    "industrialPlugs": {
+      "title": "Plagi za Viwandani",
+      "description": "Plagi na soketi nzito za viwandani kwa vifaa vya umeme vya simu na vilivyosimama. Muundo usiopitisha hali ya hewa na uandishi wa mitambo, vizuizi vya usalama, na uwezo wa juu wa kubeba mkondo kwa matumizi ya viwandani."
+    },
+    "miniatureCircuitBreakers": {
+      "title": "Vivunja Mzunguko Vidogo (MCBs)",
+      "description": "Vivunja mzunguko vya kompakt kwa ajili ya upakiaji na ulinzi wa mzunguko mfupi katika matumizi ya makazi na biashara nyepesi. Inapatikana katika ukadiriaji mbalimbali wa sasa na sifa za safari na uendeshaji wa kuaminika wa thermal-magnetic."
+    },
+    "moldedCaseBreakers": {
+      "title": "Vivunja Mzunguko vya Kesi Iliyoundwa (MCCBs)",
+      "description": "Vivunja mzunguko vya kesi iliyoundwa nzito kwa usambazaji wa umeme wa viwandani na biashara. Uwezo wa juu wa kuvunja na mipangilio ya ulinzi inayoweza kubadilishwa na vitengo vya hiari vya safari za elektroniki kwa ulinzi ulioimarishwa."
+    },
+    "fusesHolders": {
+      "title": "Fuses na Vishikilia Fuse",
+      "description": "Fuses za umeme na vishikilia fuse kwa ajili ya ulinzi wa overcurrent katika matumizi mbalimbali. Inapatikana katika cartridge, blade, na aina maalum na sifa tofauti za muda-sasa na uwezo wa kuvunja."
+    },
+    "rccbCircuitBreakers": {
+      "title": "Vivunja Mzunguko vya Sasa Vilivyosalia (RCCBs)",
+      "description": "Vivunja mzunguko vya uvujaji wa ardhi vinatoa ulinzi dhidi ya mshtuko wa umeme na hatari za moto zinazosababishwa na hitilafu za ardhi. Inapatikana katika usanidi wa nguzo 2 na nguzo 4 na ukadiriaji mbalimbali wa usikivu kwa usalama ulioimarishwa wa umeme."
+    },
+    "acbCircuitBreakers": {
+      "title": "Vivunja Mzunguko vya Hewa (ACBs)",
+      "description": "Vivunja mzunguko vya hewa vya uwezo wa juu kwa mifumo ya usambazaji wa umeme ya voltage ya kati na ya juu. Zikiwa na kazi za ulinzi za hali ya juu, uwezo wa uendeshaji wa mbali, na uwezo bora wa kuvunja kwa matumizi ya viwandani na ya matumizi."
+    },
+    "vcbCircuitBreakers": {
+      "title": "Vacuum Circuit Breakers (VCBs)",
+      "description": "Advanced vacuum circuit breakers for medium voltage applications with superior arc quenching technology. Maintenance-free operation with excellent electrical endurance and reliability for power distribution networks."
+    },
+    "acDcConverters": {
+      "title": "Vigeuzi vya AC-DC",
+      "description": "Ugavi wa umeme wa kubadilisha kwa kubadilisha voltage ya mains ya AC kuwa pato la DC lililodhibitiwa. Miundo yenye ufanisi wa hali ya juu na chaguzi nyingi za pato, ulinzi wa overvoltage, na safu pana za voltage ya ingizo kwa matumizi ya viwandani."
+    },
+    "dcDcConverters": {
+      "title": "Vigeuzi vya DC-DC",
+      "description": "Vigeuzi vya DC-DC vilivyotengwa na visivyotengwa kwa ubadilishaji wa voltage katika mifumo ya elektroniki. Miundo ya kompakt na ufanisi wa hali ya juu, ripple ya chini, na michanganyiko mbalimbali ya voltage ya ingizo/pato kwa matumizi yanayohitaji."
+    },
+    "upsSystems": {
+      "title": "Mifumo ya UPS",
+      "description": "Mifumo ya Ugavi wa Nishati Isiyokatizwa kwa ulinzi muhimu wa vifaa. Topolojia za mtandaoni, zinazoingiliana na mstari, na za kusubiri na hifadhi ya betri, urekebishaji wa nguvu, na uwezo wa usimamizi wa mtandao kwa mwendelezo wa biashara."
+    },
+    "electricalCabinets": {
+      "title": "Kabati za Umeme",
+      "description": "Kabati na vifungo vya umeme thabiti kwa ajili ya kuhifadhi vifaa vya udhibiti na vipengele vya umeme. Inapatikana katika vifaa mbalimbali na ukadiriaji wa IP na miundo ya msimu kwa ajili ya ufungaji rahisi na matengenezo."
+    },
+    "junctionBoxes": {
+      "title": "Masanduku ya Makutano",
+      "description": "Masanduku ya makutano yasiyopitisha hali ya hewa kwa miunganisho ya umeme na kusitisha kebo. Chaguzi nyingi za kuingilia na vifaa mbalimbali na ukadiriaji wa ulinzi wa mazingira kwa ajili ya mitambo ya ndani na nje."
+    },
+    "dinRailEnclosures": {
+      "title": "Vifungo vya Reli ya DIN",
+      "description": "Vifungo vya reli ya DIN vya msimu kwa ajili ya kuhifadhi vipengele vya otomatiki na vifaa vya udhibiti. Ujenzi wa plastiki na chuma na muundo wa snap-on kwa ajili ya mkusanyiko rahisi na ushirikiano wa jopo la kitaalamu."
+    },
+    "heatingCoils": {
+      "title": "Koili za Kupasha joto",
+      "description": "Koili za kupasha joto za viwandani kwa matumizi ya kupasha joto. Inapatikana katika usanidi mbalimbali ikiwa ni pamoja na finned, cartridge, na hita za bendi na udhibiti sahihi wa joto na ufanisi wa juu wa mafuta."
+    },
+    "heatingElements": {
+      "title": "Vipengele vya Kupasha joto",
+      "description": "Vipengele vya kupasha joto vya umeme kwa matumizi ya viwandani na kibiashara. Miundo ya tubular, kauri, na rahisi kubadilika na msongamano mbalimbali wa wati na vifaa vya sheath kwa uhamishaji bora wa joto na uimara."
+    },
+    "industrialHeaters": {
+      "title": "Hita za Viwandani",
+      "description": "Hita za viwandani nzito kwa matumizi ya mchakato ikiwa ni pamoja na immersion, mzunguko, na hita za radiant. Iliyoundwa kwa ajili ya mazingira magumu na chaguzi zisizo na mlipuko na udhibiti wa juu wa joto."
+    },
+    "digitalMultimeters": {
+      "title": "Multimita za Dijitali",
+      "description": "Multimita za dijitali za usahihi kwa vipimo vya umeme ikiwa ni pamoja na voltage, mkondo, upinzani, na frequency. Uwezo wa Kweli wa RMS na uingiaji data, muunganisho wa kompyuta, na kazi za juu za kupima."
+    },
+    "clampMeters": {
+      "title": "Mita za Clamp",
+      "description": "Mita za clamp za kupima mkondo zisizo na mawasiliano kwa utatuzi wa matatizo ya umeme na matengenezo. Upimaji wa mkondo wa AC/DC na uwezo wa kupima voltage, upinzani, na nguvu katika miundo ya kubebeka ya handheld."
+    },
+    "benchMultimeters": {
+      "title": "Multimita za Benchi",
+      "description": "Multimita za benchi za usahihi wa juu kwa maabara na matumizi ya calibration. Usahihi bora na azimio na interfaces za kompyuta, kazi za takwimu, na uwezo wa kupima otomatiki."
+    },
+   "earthResistanceTesters": {
+      "title": "Vipima Vipingamizi vya Ardhi",
+      "description": "Vipima vipingamizi vya ardhi vya kitaalamu kwa uthibitishaji wa usalama wa umeme na upimaji wa mfumo wa kutuliza. Miundo ya hali ya juu inayoangazia upimaji usio na kigingi, mbinu za kushuka kwa uwezo wa pointi 3 na pointi 4, kipimo cha upinzani wa udongo, na udhibiti wa frequency otomatiki ili kupunguza usumbufu. Muhimu kwa ajili ya kuthibitisha uadilifu wa kutuliza umeme, mifumo ya ulinzi wa umeme, na kuhakikisha utiifu wa viwango vya usalama katika mitambo ya viwandani, kibiashara na huduma."
+    },
+    "phaseSequenceCheckers": {
+      "title": "Vihakiki Mfuatano wa Awamu",
+      "description": "Viashiria vya mzunguko wa awamu na vipima mfuatano wa awamu kwa uthibitishaji wa mfumo wa umeme wa awamu tatu. Zana muhimu kwa ajili ya kuthibitisha mzunguko sahihi wa awamu kabla ya kuanza kwa motor, kuzuia uharibifu wa vifaa kutokana na mzunguko wa nyuma. Inapatikana katika miundo ya mawasiliano na isiyo ya mawasiliano na viashiria vya LED, uwezo wa kupima voltage, na ujenzi uliokadiriwa usalama. Vipengele ni pamoja na dalili ya kuona ya mfuatano wa awamu, uthibitishaji wa mzunguko wa motor, kipimo cha frequency, na muunganisho wa smartphone kwa nyaraka na kuripoti."
+    },
+    "digitalMegohmmeters": {
+      "title": "Megohmita za Dijitali",
+      "description": "Vipima vipingamizi vya insulation vya voltage ya juu (megohmita) kwa upimaji wa kina wa insulation ya umeme na matengenezo ya kuzuia. Vyombo vya kitaalamu vinavyotoa voltages za majaribio kutoka 50V hadi 15kV kwa ajili ya kupima nyaya, motors, transfoma, na vifaa vya kubadilishia. Vipengele ni pamoja na Upimaji wa Index ya Polarization (PI) na Upimaji wa Uwiano wa Unyonyaji wa Dielectric (DAR), utambuzi wa mzunguko wa moja kwa moja, upimaji wa voltage ya hatua, uendeshaji wa mbali, uingiaji data na uthibitishaji wa muda/tarehe, na muunganisho wa PC. Muhimu kwa ajili ya upimaji wa motor unaotii IEEE 43-2000 na uthibitishaji wa usalama wa umeme."
+    },
+    "milliampereSourceMeters": {
+      "title": "Mita za Chanzo cha Milliampere",
+      "description": "Vipima sahihi vya calibrator ya kitanzi cha milliampere na chanzo cha mkondo kwa ajili ya majaribio ya kitanzi cha udhibiti wa mchakato wa 4-20mA na calibration. Vyombo vya kitaalamu vinavyotoa chanzo sahihi cha mA na upimaji na usambazaji wa nguvu wa kitanzi wa 24V uliojengwa ndani kwa ajili ya uigaji wa transmita ya waya 2. Vipengele ni pamoja na uwezo wa chanzo na kupima wakati huo huo, kazi za hatua za kiotomatiki kwa ajili ya upimaji wa mstari, utangamano wa mawasiliano wa HART, kazi za ramp kwa ajili ya upimaji wa valve, na miundo ya clamp-on ambayo huondoa kuvunjika kwa kitanzi. Muhimu kwa ajili ya utatuzi wa matatizo na calibrating ala za mchakato katika mifumo ya otomatiki ya viwandani."
+    },
+    "digitalOscilloscopes": {
+      "title": "Oscilloscopes za Dijitali",
+      "description": "Oscilloscopes za kuhifadhi dijitali za hali ya juu kwa uchambuzi wa waveform na kipimo cha ishara. Bandwidth ya juu, viwango vya sampuli vya haraka, na kazi za kina za kupima na interfaces za skrini ya kugusa na uwezo wa uchambuzi wa data."
+    },
+    "mixedSignalOscilloscopes": {
+      "title": "Oscilloscopes za Ishara Mchanganyiko",
+      "description": "Oscilloscopes za ishara mchanganyiko za hali ya juu zinazochanganya chaneli za analogi na dijitali kwa uchambuzi wa kina wa ishara. Utekaji wa wakati huo huo wa waveform ya analogi na hali ya mantiki ya dijitali na itifaki ya kufuta na uwezo wa juu wa kuchochea."
+    },
+    "portableOscilloscopes": {
+      "title": "Oscilloscopes zinazobebeka",
+      "description": "Oscilloscopes za handheld za kompakt kwa vipimo vya shamba na matumizi ya simu. Uendeshaji unaoendeshwa na betri na ujenzi thabiti, vipimo vya magari, na uwezo wa ufuatiliaji wa mbali."
+    },
+    "rfSpectrumAnalyzers": {
+      "title": "Vichanganuzi vya Spectrum vya RF",
+      "description": "Vichanganuzi vya spectrum vya RF na microwave vya utendaji wa juu kwa ajili ya upimaji wa mawasiliano ya wireless, kufuata EMC, na uchambuzi wa ishara. Ufunikaji mpana wa frequency na safu bora ya nguvu na kasi ya kupima."
+    },
+    "audioSpectrumAnalyzers": {
+      "title": "Vichanganuzi vya Spectrum vya Sauti",
+      "description": "Vichanganuzi sahihi vya sauti kwa vipimo vya acoustic, upimaji wa ubora wa sauti, na uboreshaji wa mfumo wa sauti. Uchambuzi wa FFT wa wakati halisi na THD, kelele, na uwezo wa kupima upotoshaji."
+    },
+    "realTimeAnalyzers": {
+      "title": "Vichanganuzi vya Wakati Halisi",
+      "description": "Vichanganuzi vya spectrum vya wakati halisi kwa ajili ya ufuatiliaji wa ishara unaoendelea na utekaji wa tukio la muda mfupi. uwezekano wa 100% wa kukatiza na uwezo wa juu wa kuchochea na akili ya ishara."
+    },
+    "powerMeters": {
+      "title": "Mita za Nguvu",
+      "description": "Mita za nguvu za usahihi wa juu kwa kipimo na uchambuzi wa nguvu za umeme. Uwezo wa awamu nyingi na vigezo vya kina vya nguvu ikiwa ni pamoja na vipimo vya nguvu vinavyotumika, tendaji, na dhahiri."
+    },
+    "harmonicAnalyzers": {
+      "title": "Vichanganuzi vya Harmonic",
+      "description": "Vichanganuzi vya harmonic vya hali ya juu kwa tathmini ya ubora wa nguvu na upimaji wa kufuata IEEE 519. Uchambuzi wa harmonic wa wakati halisi hadi mpangilio wa 50 na uwezo wa kina wa kuripoti."
+    },
+    "energyLoggers": {
+      "title": "Virekodi Nishati",
+      "description": "Virekodi data ya nishati vya chaneli nyingi kwa ajili ya ufuatiliaji wa muda mrefu wa matumizi ya nguvu na usimamizi wa nishati. Mawasiliano ya wireless na muunganisho wa wingu na vipengele vya kuripoti otomatiki."
+    },
+    "calibrationInstruments": {
+      "title": "Vyombo vya Calibration",
+      "description": "Vyombo vya calibration vya usahihi kwa calibration ya umeme, joto, shinikizo, na parameter ya mchakato. Usahihi wa NIST-traceable na taratibu za calibration otomatiki na nyaraka."
+    },
+    "testEquipment": {
+      "title": "Vifaa vya Majaribio",
+      "description": "Vifaa vya majaribio na kipimo vya madhumuni ya jumla kwa maabara na matumizi ya shamba. Vyombo vingi kwa ajili ya upimaji wa umeme, elektroniki, na mitambo na usanidi wa kubebeka na benchi."
+    },
+    "processCalibrators": {
+      "title": "Vikalibrati vya Mchakato",
+      "description": "Vikalibrati vya mchakato vya kazi nyingi kwa ajili ya calibration ya kina ya shamba na maabara ya ala za mchakato. Vipengele vya shinikizo, joto, na calibration ya ishara ya umeme na mawasiliano ya HART, uingiaji data, na taratibu za otomatiki kwa ufanisi ulioimarishwa wa calibration."
+    },
+    "loopCalibrators": {
+      "title": "Vikalibrati vya Kitanzi",
+      "description": "Vikalibrati sahihi vya kitanzi cha mA kwa ajili ya kupima na kutatua matatizo ya vitanzi vya sasa vya 4-20mA na mifumo ya udhibiti wa mchakato. Vyombo vya handheld vinavyotoa nguvu ya kitanzi, kipimo cha sasa, na uigaji wa ishara kwa uchunguzi wa kina wa kitanzi katika mazingira ya shamba na warsha."
+    },
+    "hartCalibrators": {
+      "title": "Vikalibrati vya HART",
+      "description": "Vikalibrati na mawasiliano ya shamba ya HART ya juu kwa ajili ya calibration na usanidi wa kina wa ala za mchakato. Vikiwa na usaidizi wa itifaki ya mawasiliano ya HART iliyojengwa ndani, vifaa hivi vya kazi nyingi vinachanganya shinikizo, joto, na calibration ya ishara ya umeme na uwezo wa mawasiliano ya dijitali ya HART. Usaidizi kwa matoleo ya HART 5-7, amri za ulimwengu wote na maalum kwa kifaa, nyaraka za otomatiki, na ushirikiano usio na mshono na vifaa mahiri vya shamba kwa calibration bora ya shamba na usimamizi wa kifaa."
+    },
+    "mechanicalTools": {
+      "title": "Zana za Mitambo",
+      "description": "Zana za mkono za mitambo za kitaalamu kwa ajili ya mkusanyiko, matengenezo, na ukarabati. Ujenzi wa chuma cha ubora wa juu na miundo ya ergonomic kwa matumizi ya viwandani na magari."
+    },
+    "electricalTools": {
+      "title": "Zana za Umeme",
+      "description": "Zana za umeme zilizowekwa maboksi kwa ajili ya kazi salama kwenye nyaya za moja kwa moja na mitambo ya umeme. VDE imethibitishwa na ukadiriaji wa juu wa ulinzi wa voltage na grips za ergonomic kwa usalama wa fundi umeme."
+    },
+    "precisionTools": {
+      "title": "Zana za Usahihi",
+      "description": "Zana za kupima na machining za usahihi wa juu kwa ajili ya matumizi muhimu ya usahihi. Vyombo vilivyosawazishwa na uvumilivu mkali kwa ajili ya udhibiti wa ubora na utengenezaji wa usahihi."
+    },
+    "electricDrills": {
+      "title": "Mashine za Umeme za Kuchimba",
+      "description": "Mashine za umeme za kuchimba nzito kwa ajili ya kuchimba, kuendesha, na kufunga. Udhibiti wa kasi tofauti na chucks zisizo na ufunguo na motors za torque ya juu kwa ajili ya ujenzi wa kitaalamu na matumizi ya viwandani."
+    },
+    "angleGrinders": {
+      "title": "Mashine za Kusaga Pembe",
+      "description": "Mashine za kusaga pembe nzito kwa ajili ya kukata, kusaga, na kung'arisha. Motors za nguvu ya juu na walinzi wa usalama na mifumo ya kupambana na mtetemo kwa ajili ya uendeshaji uliopanuliwa katika mazingira ya viwandani."
+    },
+    "impactDrivers": {
+      "title": "Madereva wa Athari",
+      "description": "Madereva wa athari ya torque ya juu kwa ajili ya matumizi ya kufunga nzito. Motors zisizo na brashi na udhibiti wa kasi tofauti na taa ya LED kwa ajili ya kuendesha kwa usahihi katika ujenzi na kazi ya mkusanyiko."
+    },
+    "weldingMachines": {
+      "title": "Mashine za Kulehemu",
+      "description": "Mashine za kulehemu za kiwango cha kitaalamu kwa ajili ya MIG, TIG, fimbo, na matumizi ya kulehemu ya michakato mingi. Teknolojia ya hali ya juu na udhibiti sahihi wa arc, uwezo wa voltage mbili, na ujenzi thabiti kwa ajili ya utengenezaji wa viwandani, matengenezo, na kazi ya ukarabati. Vipengele ni pamoja na maonyesho ya dijitali, uwezo wa mapigo, na usanidi wa otomatiki kwa ubora bora wa weld."
+    },
+    "cuttingBlades": {
+      "title": "Visu vya Kukata",
+      "description": "Visu vya kukata vya premium kwa ajili ya matumizi ya chuma, mbao, na uashi. Chaguzi za ncha za carbide na zilizopakwa almasi na jiometri ya meno iliyoimarishwa kwa kupunguzwa safi na maisha ya blade yaliyoenea."
+    },
+    "drillBits": {
+      "title": "Ncha za Kuchimba",
+      "description": "Ncha za kuchimba za utendaji wa juu kwa ajili ya chuma, chuma cha pua, na vifaa ngumu. Ujenzi wa cobalt na carbide na mipako maalum kwa ajili ya utendaji bora wa kuchimba na maisha ya chombo yaliyoenea."
+    },
+    "millingCutters": {
+      "title": "Vipunguzi vya Kusaga",
+      "description": "Vipunguzi vya kusaga vya usahihi kwa ajili ya CNC na shughuli za machining za mwongozo. Ujenzi wa carbide imara na HSS na usanidi mbalimbali wa filimbi kwa ajili ya kuondolewa bora kwa nyenzo na kumaliza uso."
+    },
+    "chopSaws": {
+      "title": "Misumeno ya Chop (Misumeno ya Kata)",
+      "description": "Misumeno ya kukata chuma ya kiwango cha kitaalamu kwa ajili ya utengenezaji wa viwandani na usindikaji wa chuma. Vipengele vya teknolojia ya TCT (Tungsten Carbide Tipped) ya kukata baridi kwa kupunguzwa safi, bila burr na joto ndogo na cheche. Inapatikana katika mifano ya 14 \"na 15\" na motors za torque ya juu, vizes za kutolewa haraka, na uwezo wa miter kwa kupunguzwa kwa pembe. Hukata chuma, chuma cha pua, alumini, na metali nyingine haraka kuliko misumeno ya bendi na kumaliza tayari kwa weld."
+    },
+    "chainHoists": {
+      "title": "Hoists za Mnyororo",
+      "description": "Hoists za mnyororo nzito kwa ajili ya matumizi ya kuinua wima katika mazingira ya viwandani na ujenzi. Mifano ya mwongozo na umeme na ulinzi wa overload na uwezo sahihi wa nafasi ya mzigo."
+    },
+    "wireRopeHoists": {
+      "title": "Hoists za Kamba ya Waya",
+      "description": "Hoists za kamba ya waya ya uwezo wa juu kwa ajili ya shughuli za kuinua nzito na mifumo ya utunzaji wa vifaa. Uendeshaji wa umeme na udhibiti wa kasi tofauti na vipengele vya usalama vya hali ya juu kwa ajili ya matumizi yanayohitaji."
+    },
+    "safetyHarnesses": {
+      "title": "Harnesses za Usalama",
+      "description": "Harnesses za usalama za mwili kamili kwa ajili ya ulinzi wa kuanguka katika mazingira ya kazi ya juu. Padding ya starehe na pointi nyingi za attachment na buckles za kuunganisha haraka kwa usalama wa mfanyakazi."
+    },
+    "safetyBarriers": {
+      "title": "Vizuizi vya Usalama",
+      "description": "Vizuizi vya usalama vya viwandani na guardrails kwa ajili ya ulinzi wa hatari mahali pa kazi na udhibiti wa mzunguko. Muundo wa msimu na rangi za mwonekano wa juu na ujenzi usio na athari kwa ajili ya usalama wa watembea kwa miguu na vifaa."
+    },
+    "emergencyEquipment": {
+      "title": "Vifaa vya Dharura",
+      "description": "Vifaa muhimu vya kukabiliana na dharura ikiwa ni pamoja na vituo vya kuosha macho, bafu za usalama, vifaa vya huduma ya kwanza, na mifumo ya mawasiliano ya dharura. ANSI Z358.1 inatii na chaguzi za kujitegemea na zilizounganishwa."
+    },
+    "monocrystallinePanels": {
+      "title": "Paneli za Sola za Monocrystalline",
+      "description": "Paneli za sola za monocrystalline za ufanisi wa juu na pato bora la nguvu na matumizi ya nafasi. Seli za silicon za premium na mipako ya kupambana na kutafakari na fremu za alumini thabiti kwa ajili ya mitambo ya makazi na biashara."
+    },
+    "polycrystallinePanels": {
+      "title": "Paneli za Sola za Polycrystalline",
+      "description": "Paneli za sola za polycrystalline za gharama nafuu zinazotoa utendaji wa kuaminika na thamani nzuri kwa mitambo mikubwa. Ujenzi thabiti na mgawo bora wa joto na uaminifu wa muda mrefu uliothibitishwa."
+    },
+    "thinFilmPanels": {
+      "title": "Paneli za Sola za Filamu Nyembamba",
+      "description": "Paneli za sola za filamu nyembamba zinazobadilika na silicon ya amorphous na teknolojia ya CIGS kwa ajili ya matumizi ya kipekee. Muundo mwepesi na utendaji bora wa mwanga mdogo na chaguzi za ushirikiano wa aesthetic."
+    },
+    "stringInverters": {
+      "title": "Vigeuzi vya Kamba",
+      "description": "Vigeuzi vya kamba vya ufanisi wa juu kwa ajili ya mifumo ya sola ya PV na ufuatiliaji wa kiwango cha juu cha nguvu na uwezo kamili wa ufuatiliaji. Muundo thabiti na safu pana ya voltage ya ingizo na utendaji wa gridi ya taifa."
+    },
+    "microInverters": {
+      "title": "Vigeuzi Vidogo",
+      "description": "Vigeuzi vidogo vya kiwango cha moduli kwa ajili ya mavuno ya juu ya nishati na ufuatiliaji wa paneli ya mtu binafsi. Utiifu wa kuzima haraka na vipengele vya usalama vilivyoimarishwa na taratibu za ufungaji zilizorahisishwa."
+    },
+    "powerOptimizers": {
+      "title": "Viboreshaji Nguvu",
+      "description": "Viboreshaji nguvu vya DC kwa ajili ya utendaji bora wa mfumo wa sola na MPPT ya kiwango cha moduli na ufuatiliaji. Hupunguza upotezaji wa shading na mismatch huku ikidumisha uchumi wa kibadilishaji kamba."
+    },
+    "modularPlcs": {
+      "title": "PLCs za Msimu",
+      "description": "Vidhibiti vya mantiki vinavyoweza kupangwa vya msimu vinavyoweza kupangwa kwa mifumo ngumu ya otomatiki. Usanidi wa I/O unaoweza kupanuliwa na uwezo wa mawasiliano ya hali ya juu na usindikaji wa kasi ya juu kwa ajili ya matumizi ya udhibiti wa viwandani."
+    },
+    "compactPlcs": {
+      "title": "PLCs za Kompakt",
+      "description": "Vidhibiti vya mantiki vinavyoweza kupangwa vya nafasi ya kuokoa nafasi kwa ajili ya matumizi madogo hadi ya kati ya otomatiki. I/O iliyojumuishwa na interfaces za mawasiliano zilizojengwa ndani na programu ya programu ya kirafiki."
+    },
+    "microPlcs": {
+      "title": "PLCs Ndogo",
+      "description": "Vidhibiti vidogo vya mantiki vinavyoweza kupangwa kwa kazi rahisi za otomatiki. Suluhisho la gharama nafuu na uwezo muhimu wa I/O na kazi za msingi za mawasiliano kwa udhibiti mdogo wa mashine."
+    },
+    "scadaSoftware": {
+      "title": "Programu ya SCADA",
+      "description": "Programu kamili ya udhibiti wa usimamizi na upataji data kwa ajili ya ufuatiliaji na udhibiti wa mchakato wa viwandani. Taswira ya data ya wakati halisi na usimamizi wa kengele na uwezo wa kihistoria wa mwenendo."
+    },
+    "scadaHardware": {
+      "title": "Vifaa vya SCADA",
+      "description": "Majukwaa ya vifaa vya SCADA vya kiwango cha viwandani kwa ajili ya upataji data wa kuaminika na shughuli za udhibiti. Ujenzi thabiti na njia za mawasiliano za redundant na vipengele vya moto-swappable kwa ajili ya muda wa juu zaidi."
+    },
+    "scadaGateways": {
+      "title": "Lango za SCADA",
+      "description": "Lango za ubadilishaji wa itifaki kwa ajili ya ushirikiano wa mfumo wa SCADA na utangamano wa wauzaji wengi. Inasaidia itifaki nyingi za mawasiliano ya viwandani na maambukizi salama ya data na utendaji wa wakati halisi."
+    },
+    "dcsControllers": {
+      "title": "Vidhibiti vya DCS",
+      "description": "Vidhibiti vya mfumo wa udhibiti uliosambazwa kwa ajili ya otomatiki ya mchakato mkubwa na mifumo ya usalama. Usanifu redundant na muundo wa upatikanaji wa juu na algorithms za juu za udhibiti wa mchakato."
+    },
+    "dcsOperatorStations": {
+      "title": "Vituo vya Opereta vya DCS",
+      "description": "Vituo vya kazi vya opereta vya hali ya juu kwa ajili ya ufuatiliaji na uendeshaji wa mfumo wa udhibiti uliosambazwa. Uwezo wa maonyesho mengi na graphics za angavu na usimamizi kamili wa kengele."
+    },
+    "dcsEngineeringStations": {
+      "title": "Vituo vya Uhandisi vya DCS",
+      "description": "Vituo vya kazi vya uhandisi kwa ajili ya usanidi wa DCS, programu, na matengenezo. Mazingira kamili ya maendeleo na uwezo wa simulation na udhibiti wa toleo."
+    },
+    "touchscreenHmis": {
+      "title": "HMIs za Skrini ya Kugusa",
+      "description": "Interfaces za mashine ya binadamu za skrini ya kugusa za viwandani kwa ajili ya udhibiti wa opereta na ufuatiliaji. Maonyesho ya kugusa nyingi na ujenzi thabiti kwa mazingira magumu."
+    },
+    "panelMountHmis": {
+      "title": "HMIs za Mlima wa Paneli",
+      "description": "Interfaces za mashine ya binadamu zilizowekwa kwenye paneli kwa ajili ya ushirikiano katika makabati ya udhibiti na paneli za opereta. Muundo wa kompakt na uimara wa kiwango cha viwandani."
+    },
+    "mobileHmis": {
+      "title": "HMIs za Simu",
+      "description": "Interfaces za mashine ya binadamu zinazobebeka kwa ajili ya udhibiti wa opereta wa simu na ufuatiliaji wa shamba. Muundo thabiti na muunganisho wa wireless na maisha marefu ya betri."
+    },
+    "safetyRelays": {
+      "title": "Relays za Usalama",
+      "description": "Relays za usalama kwa ajili ya mifumo ya ulinzi wa mashine na wafanyakazi. Imethibitishwa kwa ajili ya matumizi ya usalama na uendeshaji salama na uwezo wa uchunguzi."
+    },
+    "emergencyStops": {
+      "title": "Vituo vya Dharura",
+      "description": "Vifaa vya kusimamisha dharura kwa ajili ya kuzima mashine mara moja. Ujenzi thabiti na mawasiliano ya ufunguzi chanya na dalili wazi ya kuona."
+    },
+    "safetySwitches": {
+      "title": "Swichi za Usalama",
+      "description": "Swichi za usalama za ufuatiliaji wa nafasi kwa ajili ya milango ya walinzi na paneli za ufikiaji. Muundo usio na tamper na actuators coded kwa ajili ya usalama wa juu."
+    },
+    "explosionProofEquipment": {
+      "title": "Vifaa Visivyoweza Kulipuka",
+      "description": "Vifaa vya umeme vilivyothibitishwa visivyoweza kulipuka kwa ajili ya mitambo ya eneo hatari. Iliyoundwa kuzuia kuwaka kwa gesi na mvuke zinazoweza kuwaka na vifungo thabiti vinavyokidhi viwango vya usalama vya kimataifa."
+    },
+    "intrinsicallySafeBarriers": {
+      "title": "Vizuizi Salama vya Kimsingi",
+      "description": "Vizuizi vya usalama kwa ajili ya mizunguko salama ya kimsingi katika maeneo hatari. Hutoa upeo wa nishati na kutengwa kwa galvanic ili kuzuia vyanzo vya kuwaka katika angahewa za kulipuka."
+    },
+    "isFieldDevices": {
+      "title": "Vifaa vya Shamba Salama vya Kimsingi",
+      "description": "Vifaa vya shamba vilivyothibitishwa kwa ajili ya uendeshaji salama wa kimsingi katika angahewa za kulipuka. Inajumuisha sensorer, transmita, na actuators zilizoundwa kwa ajili ya matumizi ya eneo hatari la Zone 0/1."
+    },
+    "acSurgeProtectors": {
+      "title": "Vilinda Mawimbi vya AC",
+      "description": "Vifaa vya ulinzi wa mawimbi ya mstari wa nguvu ya AC kwa ajili ya ulinzi wa vifaa vya umeme. Ulinzi wa hatua nyingi dhidi ya umeme, mawimbi ya kubadilisha, na usumbufu wa mstari wa nguvu katika mitambo ya viwandani."
+    },
+    "dcSurgeProtectors": {
+      "title": "Vilinda Mawimbi vya DC",
+      "description": "Vifaa vya ulinzi wa mawimbi ya mzunguko wa DC kwa ajili ya vifaa nyeti vya elektroniki. Ulinzi maalum kwa ajili ya mifumo ya nguvu ya DC, mitambo ya sola, na matumizi yanayoendeshwa na betri."
+    },
+    "signalSurgeProtectors": {
+      "title": "Vilinda Mawimbi ya Ishara",
+      "description": "Ulinzi wa mawimbi ya mstari wa ishara kwa ajili ya mizunguko ya data na mawasiliano. Hulinda ishara za analogi na dijitali, mitandao ya basi ya shamba, na mizunguko ya ala kutoka kwa kuingiliwa na sumakuumeme."
+    },
+    "equipmentGrounding": {
+      "title": "Mifumo ya Kutuliza Vifaa",
+      "description": "Vipengele vya kutuliza kwa ajili ya usalama na ulinzi wa vifaa vya umeme. Fimbo za kutuliza za shaba na chuma, kondakta, na vifaa kwa ajili ya kutuliza mfumo wa umeme sahihi."
+    },
+    "systemGrounding": {
+      "title": "Suluhisho za Kutuliza Mfumo",
+      "description": "Suluhisho kamili za mfumo wa kutuliza kwa ajili ya vifaa vya viwandani. Gridi za kutuliza, electrodes, na mifumo ya ufuatiliaji kwa ajili ya usalama wa mfumo wa nguvu na utangamano wa sumakuumeme."
+    },
+    "lightningProtection": {
+      "title": "Mifumo ya Ulinzi wa Umeme",
+      "description": "Mifumo ya ulinzi wa umeme kwa ajili ya majengo na miundo ya viwandani. Vituo vya hewa, kondakta za chini, na vizuizi vya mawimbi vilivyoundwa kwa viwango vya IEC 62305 kwa ajili ya ulinzi kamili wa umeme."
+    },
+    "singleStageCentrifugal": {
+      "title": "Pampu za Centrifugal za Hatua Moja",
+      "description": "Pampu za centrifugal za hatua moja za usawa na wima kwa ajili ya usambazaji wa maji na matumizi ya viwandani. Uendeshaji mzuri na mahitaji ya chini ya matengenezo kwa ajili ya hali mbalimbali za mtiririko na kichwa."
+    },
+    "multiStageCentrifugal": {
+      "title": "Pampu za Centrifugal za Hatua Nyingi",
+      "description": "Pampu za centrifugal za hatua nyingi za shinikizo la juu kwa ajili ya matumizi yanayohitaji. Impellers nyingi hutoa uwezo wa kichwa cha juu kwa ajili ya kuongeza shinikizo, reverse osmosis, na matumizi ya mchakato wa viwandani."
+    },
+    "verticalCentrifugal": {
+      "title": "Pampu za Centrifugal Wima",
+      "description": "Pampu za centrifugal wima za kuokoa nafasi kwa ajili ya mitambo iliyo na nafasi ndogo. Inafaa kwa ajili ya mifereji, mizinga, na matumizi ambapo nafasi ya usawa ni mdogo huku ikidumisha utendaji wa ufanisi wa juu."
+    },
+    "airOperatedDiaphragm": {
+      "title": "Pampu za Diaphragm Zinazoendeshwa na Hewa",
+      "description": "Pampu za diaphragm za nyumatiki kwa ajili ya kushughulikia maji ya fujo na yenye viscous. Uendeshaji wa kujichochea na uwezo bora wa kunyonya kwa ajili ya usindikaji wa kemikali na matumizi ya maji taka."
+    },
+    "electricDiaphragm": {
+      "title": "Pampu za Diaphragm za Umeme",
+      "description": "Pampu za diaphragm zinazoendeshwa na umeme kwa ajili ya upimaji sahihi na matumizi ya kupima. Udhibiti wa mtiririko tofauti na utangamano bora wa kemikali kwa ajili ya mifumo ya matibabu ya maji na sindano za kemikali."
+    },
+    "hydraulicDiaphragm": {
+      "title": "Pampu za Diaphragm za Hydraulic",
+      "description": "Pampu za diaphragm zinazoendeshwa na hydraulic kwa ajili ya matumizi ya shinikizo la juu. Udhibiti sahihi wa mtiririko na kurudia bora kwa ajili ya mifumo ya dosing ya kemikali na mifumo ya kusafisha shinikizo la juu."
+    },
+    "externalGearPumps": {
+      "title": "Pampu za Gia za Nje",
+      "description": "Pampu za gia za nje za uhamishaji chanya kwa ajili ya uhamishaji wa maji ya viscous. Utoaji wa mtiririko thabiti bila kujali tofauti za shinikizo, bora kwa ajili ya kulainisha mafuta na maji ya hydraulic."
+    },
+    "internalGearPumps": {
+      "title": "Pampu za Gia za Ndani",
+      "description": "Pampu za gia za ndani na sifa za mtiririko laini kwa ajili ya maji nyeti. Muundo mdogo wa pulsation unafaa kwa ajili ya usindikaji wa chakula, dawa, na matumizi ya kemikali yanayohitaji utunzaji mzuri."
+    },
+    "magneticGearPumps": {
+      "title": "Pampu za Gia za Hifadhi ya Sumaku",
+      "description": "Pampu za gia zilizounganishwa kwa sumaku kwa ajili ya uendeshaji usio na uvujaji. Muundo uliofungwa hermetically huondoa mihuri ya shimoni, kamili kwa ajili ya kemikali hatari na matumizi ya usafi wa juu."
+    },
+    "impellersCasings": {
+      "title": "Impellers na Casings",
+      "description": "Impellers za uingizwaji na casings za pampu kwa ajili ya pampu za centrifugal. Inapatikana katika vifaa mbalimbali ikiwa ni pamoja na chuma cha kutupwa, chuma cha pua, na aloi maalum kwa ajili ya matumizi na vyombo vya habari tofauti."
+    },
+    "sealsGaskets": {
+      "title": "Mihuri na Gaskets",
+      "description": "Mihuri ya pampu na gaskets kwa ajili ya kuzuia uvujaji wa kuaminika. Mihuri ya mitambo, O-rings, na seti za gasket katika vifaa mbalimbali ili kukidhi joto tofauti, shinikizo, na mahitaji ya utangamano wa kemikali."
+    },
+    "bearingsCouplings": {
+      "title": "Fani na Viunganishi",
+      "description": "Fani za pampu na viunganishi vinavyobadilika kwa ajili ya mifumo ya gari ya mitambo. Vipengele vya ubora wa juu kwa ajili ya maisha ya huduma yaliyoenea, kupunguza mtetemo, na maambukizi ya nguvu ya kuaminika katika matumizi ya kusukuma."
     }
   },
   "table": {
