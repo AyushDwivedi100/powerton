@@ -1,5 +1,5 @@
-import { Switch, Route } from "wouter";
-import { lazy, Suspense } from "react";
+import { Switch, Route, useLocation } from "wouter";
+import { lazy, Suspense, useEffect } from "react";
 import { useTranslation } from "react-i18next";
 import { Toaster } from "@/components/ui/toaster";
 import { TooltipProvider } from "@/components/ui/tooltip";
@@ -63,6 +63,12 @@ const LoadingSpinner = () => {
 };
 
 function Router() {
+  const [location] = useLocation();
+
+  useEffect(() => {
+    window.scrollTo({ top: 0, left: 0, behavior: "instant" });
+  }, [location]);
+
   return (
     <Layout>
       <Suspense fallback={<LoadingSpinner />}>
