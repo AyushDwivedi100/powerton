@@ -77,7 +77,8 @@ export default function ServiceCategoryPage() {
             </p>
             <Link href="/services">
               <Button>
-                {t("common:buttons.viewAllServices")} <ArrowRight className="ml-2 h-5 w-5" />
+                {t("common:buttons.viewAllServices")}{" "}
+                <ArrowRight className="ml-2 h-5 w-5" />
               </Button>
             </Link>
           </div>
@@ -93,26 +94,26 @@ export default function ServiceCategoryPage() {
   const breadcrumbItems = [
     { name: t("common:sitemap.pages.home"), url: "/" },
     { name: t("common:sitemap.pages.ourServices"), url: "/services" },
-    { name: serviceData.title, url: `/services-category/${slug}` }
+    { name: serviceData.title, url: `/services-category/${slug}` },
   ];
 
   // Generate Service schema
   const serviceSchema = {
     "@context": "https://schema.org",
     "@type": "Service",
-    "name": serviceData.title,
-    "description": serviceData.description,
-    "provider": {
+    name: serviceData.title,
+    description: serviceData.description,
+    provider: {
       "@type": "Organization",
-      "name": "Powerton Engineering Pvt. Ltd.",
-      "url": "https://powertonengineering.in"
+      name: "Powerton Engineering Pvt. Ltd.",
+      url: "https://powertonengineering.in",
     },
-    "areaServed": {
+    areaServed: {
       "@type": "Country",
-      "name": "India"
+      name: "India",
     },
-    "serviceType": serviceData.title,
-    "url": `https://powertonengineering.in/services-category/${slug}`
+    serviceType: serviceData.title,
+    url: `https://powertonengineering.in/services-category/${slug}`,
   };
 
   const breadcrumbSchema = generateBreadcrumbData(breadcrumbItems);
@@ -306,7 +307,7 @@ export default function ServiceCategoryPage() {
                                 {t(industry)}
                               </span>
                             </div>
-                          )
+                          ),
                         )}
                       </div>
                     </CardContent>
@@ -378,30 +379,43 @@ export default function ServiceCategoryPage() {
                       delay={0.3 + index * 0.1}
                     >
                       <Link href={`/services-category/${relatedService.id}`}>
-                        <Card
-                          className="h-full hover:shadow-lg transition-all duration-300 cursor-pointer group"
-                          data-testid={`card-related-service-${relatedService.id}`}
+                        <motion.div
+                          key={service.id}
+                          whileHover={{ y: -10, scale: 1.03 }}
+                          transition={{ duration: 0.3, ease: "easeOut" }}
+                          className="h-full"
                         >
-                          <CardContent className="p-6">
-                            <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4 group-hover:bg-primary/20 transition-colors">
-                              <RelatedIcon className="w-6 h-6 text-primary" />
-                            </div>
-                            <h3 className="font-semibold text-foreground mb-2">
-                              {t(relatedService.title)}
-                            </h3>
-                            <p className="text-muted-foreground text-sm mb-4">
-                              {t(relatedService.description).slice(0, 100)}...
-                            </p>
-                            <Button
-                              variant="ghost"
-                              className="p-0 h-auto text-secondary hover:text-secondary/80"
-                              data-testid={`button-learn-more-${relatedService.id}`}
-                            >
-                              {t("common:buttons.learnMore")}{" "}
-                              <ArrowRight className="ml-1 h-4 w-4" />
-                            </Button>
-                          </CardContent>
-                        </Card>
+                          <Card
+                            className="h-full hover:shadow-lg transition-all duration-300 cursor-pointer group"
+                            data-testid={`card-related-service-${relatedService.id}`}
+                          >
+                            <CardContent className="p-6">
+                              <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4 group-hover:bg-primary/20 transition-colors">
+                                <RelatedIcon className="w-6 h-6 text-primary" />
+                              </div>
+                              <h3 className="font-semibold text-foreground mb-2">
+                                {t(relatedService.title)}
+                              </h3>
+                              <p className="text-muted-foreground text-sm mb-4">
+                                {t(relatedService.description).slice(0, 100)}...
+                              </p>
+                              <Button
+                                variant="ghost"
+                                className="text-secondary hover:bg-transparent hover:text-secondary p-0 font-semibold transition-all duration-300 w-full justify-center"
+                              >
+                                {t("common:buttons.learnMore")}
+                                <span className="ms-2 inline-block transition-transform duration-300 group-hover:translate-x-2 rtl:group-hover:-translate-x-2">
+                                  <span className="ltr:inline rtl:hidden">
+                                    →
+                                  </span>
+                                  <span className="ltr:hidden rtl:inline">
+                                    ←
+                                  </span>
+                                </span>
+                              </Button>
+                            </CardContent>
+                          </Card>
+                        </motion.div>
                       </Link>
                     </AnimatedSection>
                   );

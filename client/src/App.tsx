@@ -15,7 +15,6 @@ import About from "@/pages/about";
 import Services from "@/pages/services";
 import Products from "@/pages/products";
 import Projects from "@/pages/projects";
-import PortfolioDownload from "@/pages/portfolio-download";
 import Gallery from "@/pages/gallery";
 import News from "@/pages/news";
 import NewsArticle from "@/pages/news-article";
@@ -27,27 +26,25 @@ import NotFound from "@/pages/not-found";
 
 // Lazy load dynamic service category page
 const ServiceCategoryPage = lazy(
-  () => import("@/pages/service-category-dynamic")
+  () => import("@/pages/service-category-dynamic"),
 );
 
 // Lazy load dynamic product category page
 const ProductCategoryDynamic = lazy(
-  () => import("@/pages/product-category-dynamic")
+  () => import("@/pages/product-category-dynamic"),
 );
 
 // Lazy load dynamic product sub-category page
 const ProductSubCategoryDynamic = lazy(
-  () => import("@/pages/products-sub-category-dynamic")
+  () => import("@/pages/products-sub-category-dynamic"),
 );
 
 // Lazy load dynamic product group page
-const ProductGroupDynamic = lazy(
-  () => import("@/pages/product-group-dynamic")
-);
+const ProductGroupDynamic = lazy(() => import("@/pages/product-group-dynamic"));
 
 // Lazy load dynamic product detail page
 const ProductDetailDynamic = lazy(
-  () => import("@/pages/product-detail-dynamic")
+  () => import("@/pages/product-detail-dynamic"),
 );
 
 // Loading component for Suspense fallback
@@ -66,7 +63,7 @@ function Router() {
   const [location] = useLocation();
 
   useEffect(() => {
-    window.scrollTo({ top: 0, left: 0, behavior: "instant" });
+    window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
   }, [location]);
 
   return (
@@ -103,13 +100,9 @@ function Router() {
           />
 
           {/* Dynamic Product Category Route (catches single-slug patterns) */}
-          <Route
-            path="/products/:slug"
-            component={ProductCategoryDynamic}
-          />
+          <Route path="/products/:slug" component={ProductCategoryDynamic} />
 
           <Route path="/projects" component={Projects} />
-          <Route path="/portfolio-download" component={PortfolioDownload} />
           <Route path="/gallery" component={Gallery} />
           <Route path="/news" component={News} />
           <Route path="/news/:slug" component={NewsArticle} />

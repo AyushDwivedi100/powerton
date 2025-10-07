@@ -273,7 +273,7 @@ export default function Footer() {
                     className="h-9 w-auto px-3 min-w-0"
                     data-testid="button-sitemap"
                   >
-                    <Map className="h-4 w-4 me-2" />
+                    <Map className="h-4 w-4 me-1" />
                     <span className="text-sm font-medium">
                       {t("navigation:footer.sitemap", "Sitemap")}
                     </span>

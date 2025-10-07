@@ -173,18 +173,10 @@ export default function ProjectsSection() {
 
         <div className="text-center px-2 sm:px-0">
           <Link href="/projects">
-            <Button className="bg-primary hover:bg-primary/90 text-primary-foreground text-sm sm:text-base md:text-lg px-4 sm:px-6 md:px-8 py-3 sm:py-4 mr-2 sm:mr-4 hover:shadow-xl hover:scale-[1.02] transition-all duration-300">
+            <Button className="bg-primary hover:bg-primary/90 text-primary-foreground text-sm sm:text-base md:text-lg px-4 sm:px-6 md:px-8 py-3 sm:py-4 hover:shadow-xl hover:scale-[1.02] transition-all duration-300">
               {t("pages:home.projects.viewAllProjects")}
             </Button>
           </Link>
-          <a href="/portfolio-download">
-            <Button
-              variant="outline"
-              className="border-2 border-primary text-primary hover:bg-primary hover:text-primary-foreground text-sm sm:text-base md:text-lg px-4 sm:px-6 md:px-8 py-3 sm:py-4 hover:shadow-xl hover:scale-[1.02] transition-all duration-300"
-            >
-              {t("pages:home.projects.downloadPortfolio")}
-            </Button>
-          </a>
         </div>
       </div>
     </section>

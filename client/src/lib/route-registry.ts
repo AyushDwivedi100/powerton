@@ -560,13 +560,6 @@ export function initializeRoutes(): void {
       icon: "Calculator",
     },
     {
-      path: "/portfolio-download",
-      title: "downloadPortfolio",
-      description: "downloadPortfolioDescription",
-      category: "resources",
-      icon: "Download",
-    },
-    {
       path: "/news",
       title: "newsUpdates",
       description: "newsUpdatesDescription",
