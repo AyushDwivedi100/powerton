@@ -653,9 +653,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "digital-megohmmeters",
     slug: "digital-megohmmeters",
-    title: "Digital Megohmmeters",
-    description:
-      "High-voltage insulation resistance testers (megohmmeters) for comprehensive electrical insulation testing and preventive maintenance. Professional instruments offering test voltages from 50V to 15kV for cables, motors, transformers, and switchgear testing. Features include Polarization Index (PI) and Dielectric Absorption Ratio (DAR) testing, live circuit detection, step voltage testing, remote operation, data logging with time/date stamping, and PC connectivity. Essential for IEEE 43-2000 compliant motor testing and electrical safety verification.",
+    titleKey: "products:productGroups.digitalMegohmmeters.title",
+    descriptionKey: "products:productGroups.digitalMegohmmeters.description",
     subcategoryKey: "multimeters",
     image: "multimeters",
     featuredSpecs: ["manufacturer", "model", "testVoltage"],
@@ -663,9 +662,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "milliampere-source-meters",
     slug: "milliampere-source-meters",
-    title: "Milliampere Source Meters",
-    description:
-      "Precision milliampere loop calibrators and current source meters for 4-20mA process control loop testing and calibration. Professional instruments providing accurate mA sourcing and measurement with built-in 24V loop power supply for 2-wire transmitter simulation. Features include simultaneous source and measure capability, auto-stepping functions for linearity testing, HART communication compatibility, ramp functions for valve testing, and clamp-on designs that eliminate loop breaking. Essential for troubleshooting and calibrating process instrumentation in industrial automation systems.",
+    titleKey: "products:productGroups.milliampereSourceMeters.title",
+    descriptionKey: "products:productGroups.milliampereSourceMeters.description",
     subcategoryKey: "multimeters",
     image: "multimeters",
     featuredSpecs: ["manufacturer", "model", "accuracy"],
@@ -673,9 +671,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "digital-oscilloscopes",
     slug: "digital-oscilloscopes",
-    title: "Digital Oscilloscopes",
-    description:
-      "Advanced digital storage oscilloscopes for waveform analysis and signal measurement. High bandwidth, fast sampling rates, and comprehensive measurement functions with touchscreen interfaces and data analysis capabilities.",
+    titleKey: "products:productGroups.digitalOscilloscopes.title",
+    descriptionKey: "products:productGroups.digitalOscilloscopes.description",
     subcategoryKey: "oscilloscopes",
     image: "digital-oscilloscope",
     featuredSpecs: ["bandwidth", "channels", "sampling"],
@@ -683,9 +680,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "mixed-signal-oscilloscopes",
     slug: "mixed-signal-oscilloscopes",
-    title: "Mixed Signal Oscilloscopes",
-    description:
-      "Advanced mixed signal oscilloscopes combining analog and digital channels for comprehensive signal analysis. Simultaneous analog waveform and digital logic state capture with protocol decoding and advanced triggering capabilities.",
+    titleKey: "products:productGroups.mixedSignalOscilloscopes.title",
+    descriptionKey: "products:productGroups.mixedSignalOscilloscopes.description",
     subcategoryKey: "oscilloscopes",
     image: "mixed-signal-oscilloscope",
     featuredSpecs: ["bandwidth", "channels", "logic"],
@@ -693,9 +689,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "portable-oscilloscopes",
     slug: "portable-oscilloscopes",
-    title: "Portable Oscilloscopes",
-    description:
-      "Compact handheld oscilloscopes for field measurements and mobile applications. Battery-powered operation with rugged construction, automotive measurements, and remote monitoring capabilities.",
+    titleKey: "products:productGroups.portableOscilloscopes.title",
+    descriptionKey: "products:productGroups.portableOscilloscopes.description",
     subcategoryKey: "oscilloscopes",
     image: "portable-oscilloscope",
     featuredSpecs: ["bandwidth", "battery", "size"],
@@ -703,9 +698,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "rf-spectrum-analyzers",
     slug: "rf-spectrum-analyzers",
-    title: "RF Spectrum Analyzers",
-    description:
-      "High-performance RF and microwave spectrum analyzers for wireless communication testing, EMC compliance, and signal analysis. Wide frequency coverage with excellent dynamic range and measurement speed.",
+    titleKey: "products:productGroups.rfSpectrumAnalyzers.title",
+    descriptionKey: "products:productGroups.rfSpectrumAnalyzers.description",
     subcategoryKey: "spectrum-analyzers",
     image: "rf-spectrum-analyzer",
     featuredSpecs: ["frequency", "resolution", "sensitivity"],
@@ -713,9 +707,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "audio-spectrum-analyzers",
     slug: "audio-spectrum-analyzers",
-    title: "Audio Spectrum Analyzers",
-    description:
-      "Precision audio analyzers for acoustic measurements, sound quality testing, and audio system optimization. Real-time FFT analysis with THD, noise, and distortion measurement capabilities.",
+    titleKey: "products:productGroups.audioSpectrumAnalyzers.title",
+    descriptionKey: "products:productGroups.audioSpectrumAnalyzers.description",
     subcategoryKey: "spectrum-analyzers",
     image: "audio-spectrum-analyzer",
     featuredSpecs: ["frequency", "dynamic", "channels"],
@@ -723,9 +716,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "real-time-analyzers",
     slug: "real-time-analyzers",
-    title: "Real-Time Analyzers",
-    description:
-      "Real-time spectrum analyzers for continuous signal monitoring and transient event capture. 100% probability of intercept with advanced triggering and signal intelligence capabilities.",
+    titleKey: "products:productGroups.realTimeAnalyzers.title",
+    descriptionKey: "products:productGroups.realTimeAnalyzers.description",
     subcategoryKey: "spectrum-analyzers",
     image: "real-time-analyzer",
     featuredSpecs: ["bandwidth", "time", "resolution"],
@@ -733,9 +725,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "power-meters",
     slug: "power-meters",
-    title: "Power Meters",
-    description:
-      "High-precision power meters for electrical power measurement and analysis. Multi-phase capability with comprehensive power parameters including active, reactive, and apparent power measurements.",
+    titleKey: "products:productGroups.powerMeters.title",
+    descriptionKey: "products:productGroups.powerMeters.description",
     subcategoryKey: "power-quality-analyzers",
     image: "power-meter",
     featuredSpecs: ["accuracy", "phases", "parameters"],
@@ -743,9 +734,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "harmonic-analyzers",
     slug: "harmonic-analyzers",
-    title: "Harmonic Analyzers",
-    description:
-      "Advanced harmonic analyzers for power quality assessment and IEEE 519 compliance testing. Real-time harmonic analysis up to the 50th order with comprehensive reporting capabilities.",
+    titleKey: "products:productGroups.harmonicAnalyzers.title",
+    descriptionKey: "products:productGroups.harmonicAnalyzers.description",
     subcategoryKey: "power-quality-analyzers",
     image: "harmonic-analyzer",
     featuredSpecs: ["harmonics", "phases", "memory"],
@@ -753,9 +743,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "energy-loggers",
     slug: "energy-loggers",
-    title: "Energy Loggers",
-    description:
-      "Multi-channel energy data loggers for long-term power consumption monitoring and energy management. Wireless communication with cloud connectivity and automated reporting features.",
+    titleKey: "products:productGroups.energyLoggers.title",
+    descriptionKey: "products:productGroups.energyLoggers.description",
     subcategoryKey: "power-quality-analyzers",
     image: "energy-logger",
     featuredSpecs: ["channels", "memory", "communication"],
@@ -763,9 +752,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "calibration-instruments",
     slug: "calibration-instruments",
-    title: "Calibration Instruments",
-    description:
-      "Precision calibration instruments for electrical, temperature, pressure, and process parameter calibration. NIST-traceable accuracy with automated calibration procedures and documentation.",
+    titleKey: "products:productGroups.calibrationInstruments.title",
+    descriptionKey: "products:productGroups.calibrationInstruments.description",
     subcategoryKey: "calibration-equipment",
     image: "calibration-instrument",
     featuredSpecs: ["accuracy", "range", "standards"],
@@ -773,9 +761,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "test-equipment",
     slug: "test-equipment",
-    title: "Test Equipment",
-    description:
-      "General purpose test and measurement equipment for laboratory and field applications. Versatile instruments for electrical, electronic, and mechanical testing with portable and benchtop configurations.",
+    titleKey: "products:productGroups.testEquipment.title",
+    descriptionKey: "products:productGroups.testEquipment.description",
     subcategoryKey: "calibration-equipment",
     image: "test-equipment",
     featuredSpecs: ["function", "accuracy", "portability"],
@@ -783,9 +770,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "process-calibrators",
     slug: "process-calibrators",
-    title: "Process Calibrators",
-    description:
-      "Multifunction process calibrators for comprehensive field and laboratory calibration of process instrumentation. Features pressure, temperature, and electrical signal calibration with HART communication, data logging, and automated procedures for enhanced calibration efficiency.",
+    titleKey: "products:productGroups.processCalibrators.title",
+    descriptionKey: "products:productGroups.processCalibrators.description",
     subcategoryKey: "calibration-equipment",
     image: "process-calibrator",
     featuredSpecs: ["manufacturer", "model", "type"],
@@ -793,9 +779,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "loop-calibrators",
     slug: "loop-calibrators",
-    title: "Loop Calibrators",
-    description:
-      "Precision mA loop calibrators for testing and troubleshooting 4-20mA current loops and process control systems. Handheld instruments providing loop power, current measurement, and signal simulation for comprehensive loop diagnostics in field and workshop environments.",
+    titleKey: "products:productGroups.loopCalibrators.title",
+    descriptionKey: "products:productGroups.loopCalibrators.description",
     subcategoryKey: "calibration-equipment",
     image: "loop-calibrator",
     featuredSpecs: ["manufacturer", "model", "accuracy"],
@@ -803,9 +788,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "hart-calibrators",
     slug: "hart-calibrators",
-    title: "HART Calibrators",
-    description:
-      "Advanced HART field calibrators and communicators for comprehensive process instrumentation calibration and configuration. Featuring built-in HART communication protocol support, these multifunction devices combine pressure, temperature, and electrical signal calibration with HART digital communication capabilities. Support for HART versions 5-7, universal and device-specific commands, automated documentation, and seamless integration with smart field devices for efficient field calibration and device management.",
+    titleKey: "products:productGroups.hartCalibrators.title",
+    descriptionKey: "products:productGroups.hartCalibrators.description",
     subcategoryKey: "calibration-equipment",
     image: "process-calibrator",
     featuredSpecs: ["manufacturer", "model", "hartVersion"],
@@ -813,9 +797,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "mechanical-tools",
     slug: "mechanical-tools",
-    title: "Mechanical Tools",
-    description:
-      "Professional mechanical hand tools for assembly, maintenance, and repair operations. High-quality steel construction with ergonomic designs for industrial and automotive applications.",
+    titleKey: "products:productGroups.mechanicalTools.title",
+    descriptionKey: "products:productGroups.mechanicalTools.description",
     subcategoryKey: "hand-tools",
     image: "mechanical-tools",
     featuredSpecs: ["material", "size", "application"],
@@ -823,9 +806,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "electrical-tools",
     slug: "electrical-tools",
-    title: "Electrical Tools",
-    description:
-      "Insulated electrical tools for safe work on live circuits and electrical installations. VDE certified with high voltage protection ratings and ergonomic grips for electrician safety.",
+    titleKey: "products:productGroups.electricalTools.title",
+    descriptionKey: "products:productGroups.electricalTools.description",
     subcategoryKey: "hand-tools",
     image: "electrical-tools",
     featuredSpecs: ["insulation", "voltage", "material"],
@@ -833,9 +815,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "precision-tools",
     slug: "precision-tools",
-    title: "Precision Tools",
-    description:
-      "High-precision measurement and machining tools for accuracy-critical applications. Calibrated instruments with tight tolerances for quality control and precision manufacturing.",
+    titleKey: "products:productGroups.precisionTools.title",
+    descriptionKey: "products:productGroups.precisionTools.description",
     subcategoryKey: "hand-tools",
     image: "precision-tools",
     featuredSpecs: ["tolerance", "material", "accuracy"],
@@ -843,9 +824,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "electric-drills",
     slug: "electric-drills",
-    title: "Electric Drills",
-    description:
-      "Heavy-duty electric drills for drilling, driving, and fastening applications. Variable speed control with keyless chucks and high-torque motors for professional construction and industrial use.",
+    titleKey: "products:productGroups.electricDrills.title",
+    descriptionKey: "products:productGroups.electricDrills.description",
     subcategoryKey: "power-tools",
     image: "electric-drill",
     featuredSpecs: ["power", "chuck", "speed"],
@@ -853,9 +833,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "angle-grinders",
     slug: "angle-grinders",
-    title: "Angle Grinders",
-    description:
-      "Heavy-duty angle grinders for cutting, grinding, and polishing applications. High-power motors with safety guards and anti-vibration systems for extended operation in industrial environments.",
+    titleKey: "products:productGroups.angleGrinders.title",
+    descriptionKey: "products:productGroups.angleGrinders.description",
     subcategoryKey: "power-tools",
     image: "angle-grinder",
     featuredSpecs: ["power", "disc", "speed"],
@@ -863,9 +842,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "impact-drivers",
     slug: "impact-drivers",
-    title: "Impact Drivers",
-    description:
-      "High-torque impact drivers for heavy-duty fastening applications. Brushless motors with variable speed control and LED lighting for precise driving in construction and assembly work.",
+    titleKey: "products:productGroups.impactDrivers.title",
+    descriptionKey: "products:productGroups.impactDrivers.description",
     subcategoryKey: "power-tools",
     image: "impact-driver",
     featuredSpecs: ["torque", "power", "battery"],
@@ -873,9 +851,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "welding-machines",
     slug: "welding-machines",
-    title: "Welding Machines",
-    description:
-      "Professional-grade welding machines for MIG, TIG, Stick, and multi-process welding applications. Advanced technology with precise arc control, dual voltage capability, and robust construction for industrial fabrication, maintenance, and repair work. Features include digital displays, pulse capabilities, and automated setup for optimal weld quality.",
+    titleKey: "products:productGroups.weldingMachines.title",
+    descriptionKey: "products:productGroups.weldingMachines.description",
     subcategoryKey: "power-tools",
     image: "welding-machine",
     featuredSpecs: ["manufacturer", "model", "amperage"],
@@ -883,9 +860,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "cutting-blades",
     slug: "cutting-blades",
-    title: "Cutting Blades",
-    description:
-      "Premium cutting blades for metal, wood, and masonry applications. Carbide-tipped and diamond-coated options with optimized tooth geometry for clean cuts and extended blade life.",
+    titleKey: "products:productGroups.cuttingBlades.title",
+    descriptionKey: "products:productGroups.cuttingBlades.description",
     subcategoryKey: "cutting-tools",
     image: "cutting-blade",
     featuredSpecs: ["material", "diameter", "thickness"],
@@ -893,9 +869,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "drill-bits",
     slug: "drill-bits",
-    title: "Drill Bits",
-    description:
-      "High-performance drill bits for steel, stainless steel, and hard materials. Cobalt and carbide construction with specialized coatings for superior drilling performance and extended tool life.",
+    titleKey: "products:productGroups.drillBits.title",
+    descriptionKey: "products:productGroups.drillBits.description",
     subcategoryKey: "cutting-tools",
     image: "drill-bit",
     featuredSpecs: ["material", "diameter", "coating"],
@@ -903,9 +878,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "milling-cutters",
     slug: "milling-cutters",
-    title: "Milling Cutters",
-    description:
-      "Precision milling cutters for CNC and manual machining operations. Solid carbide and HSS construction with various flute configurations for optimal material removal and surface finish.",
+    titleKey: "products:productGroups.millingCutters.title",
+    descriptionKey: "products:productGroups.millingCutters.description",
     subcategoryKey: "cutting-tools",
     image: "milling-cutter",
     featuredSpecs: ["material", "diameter", "flutes"],
@@ -913,9 +887,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "chop-saws",
     slug: "chop-saws",
-    title: "Chop Saws (Cut-Off Saws)",
-    description:
-      "Professional-grade metal cutting chop saws for industrial fabrication and metalworking. Features TCT (Tungsten Carbide Tipped) cold-cut technology for clean, burr-free cuts with minimal heat and sparks. Available in 14\" and 15\" models with high-torque motors, quick-release vises, and miter capability for angled cuts. Cuts steel, stainless steel, aluminum, and other metals faster than bandsaws with ready-to-weld finish.",
+    titleKey: "products:productGroups.chopSaws.title",
+    descriptionKey: "products:productGroups.chopSaws.description",
     subcategoryKey: "cutting-tools",
     image: "chop-saw",
     featuredSpecs: ["manufacturer", "model", "bladeSize"],
@@ -923,9 +896,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "chain-hoists",
     slug: "chain-hoists",
-    title: "Chain Hoists",
-    description:
-      "Heavy-duty chain hoists for vertical lifting applications in industrial and construction environments. Manual and electric models with overload protection and precise load positioning capabilities.",
+    titleKey: "products:productGroups.chainHoists.title",
+    descriptionKey: "products:productGroups.chainHoists.description",
     subcategoryKey: "lifting-equipment",
     image: "chain-hoist",
     featuredSpecs: ["capacity", "lift", "operation"],
@@ -933,9 +905,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "wire-rope-hoists",
     slug: "wire-rope-hoists",
-    title: "Wire Rope Hoists",
-    description:
-      "High-capacity wire rope hoists for heavy lifting operations and material handling systems. Electric operation with variable speed control and advanced safety features for demanding applications.",
+    titleKey: "products:productGroups.wireRopeHoists.title",
+    descriptionKey: "products:productGroups.wireRopeHoists.description",
     subcategoryKey: "lifting-equipment",
     image: "wire-rope-hoist",
     featuredSpecs: ["capacity", "lift", "speed"],
@@ -943,9 +914,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "jib-cranes",
     slug: "jib-cranes",
-    title: "Jib Cranes",
-    description:
-      "Versatile jib cranes for localized lifting and material positioning in workshops and production areas. Wall-mounted and freestanding configurations with 180° or 360° rotation capability.",
+    titleKey: "products:productGroups.jibCranes.title",
+    descriptionKey: "products:productGroups.jibCranes.description",
     subcategoryKey: "lifting-equipment",
     image: "jib-crane",
     featuredSpecs: ["capacity", "reach", "rotation"],
@@ -953,9 +923,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "personal-protective-equipment",
     slug: "personal-protective-equipment",
-    title: "Personal Protective Equipment",
-    description:
-      "Comprehensive personal protective equipment for workplace safety including helmets, gloves, safety glasses, and protective clothing. ANSI and OSHA compliant with various protection levels.",
+    titleKey: "products:productGroups.personalProtectiveEquipment.title",
+    descriptionKey: "products:productGroups.personalProtectiveEquipment.description",
     subcategoryKey: "safety-equipment",
     image: "ppe",
     featuredSpecs: ["standard", "material", "protection"],
@@ -963,9 +932,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "safety-barriers",
     slug: "safety-barriers",
-    title: "Safety Barriers",
-    description:
-      "Industrial safety barriers and guardrails for workplace hazard protection and perimeter control. Modular design with high-visibility colors and impact-resistant construction for pedestrian and equipment safety.",
+    titleKey: "products:productGroups.safetyBarriers.title",
+    descriptionKey: "products:productGroups.safetyBarriers.description",
     subcategoryKey: "safety-equipment",
     image: "safety-barrier",
     featuredSpecs: ["height", "material", "application"],
@@ -973,9 +941,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "emergency-equipment",
     slug: "emergency-equipment",
-    title: "Emergency Equipment",
-    description:
-      "Essential emergency response equipment including eyewash stations, safety showers, first aid supplies, and emergency communication systems. ANSI Z358.1 compliant with self-contained and plumbed options.",
+    titleKey: "products:productGroups.emergencyEquipment.title",
+    descriptionKey: "products:productGroups.emergencyEquipment.description",
     subcategoryKey: "safety-equipment",
     image: "emergency-equipment",
     featuredSpecs: ["type", "capacity", "standards"],
@@ -985,9 +952,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "monocrystalline-panels",
     slug: "monocrystalline-panels",
-    title: "Monocrystalline Solar Panels",
-    description:
-      "High-efficiency monocrystalline solar panels with superior power output and space utilization. Premium silicon cells with anti-reflective coating and robust aluminum frames for residential and commercial installations.",
+    titleKey: "products:productGroups.monocrystallinePanels.title",
+    descriptionKey: "products:productGroups.monocrystallinePanels.description",
     subcategoryKey: "solar-panels",
     image: "monocrystalline-panel",
     featuredSpecs: ["power", "efficiency", "voltage"],
@@ -995,9 +961,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "polycrystalline-panels",
     slug: "polycrystalline-panels",
-    title: "Polycrystalline Solar Panels",
-    description:
-      "Cost-effective polycrystalline solar panels offering reliable performance and good value for large-scale installations. Durable construction with excellent temperature coefficient and proven long-term reliability.",
+    titleKey: "products:productGroups.polycrystallinePanels.title",
+    descriptionKey: "products:productGroups.polycrystallinePanels.description",
     subcategoryKey: "solar-panels",
     image: "polycrystalline-panel",
     featuredSpecs: ["power", "efficiency", "voltage"],
@@ -1005,9 +970,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "thin-film-panels",
     slug: "thin-film-panels",
-    title: "Thin Film Solar Panels",
-    description:
-      "Flexible thin-film solar panels with amorphous silicon and CIGS technology for unique applications. Lightweight design with superior low-light performance and aesthetic integration options.",
+    titleKey: "products:productGroups.thinFilmPanels.title",
+    descriptionKey: "products:productGroups.thinFilmPanels.description",
     subcategoryKey: "solar-panels",
     image: "thin-film-panel",
     featuredSpecs: ["power", "efficiency", "technology"],
@@ -1015,9 +979,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "string-inverters",
     slug: "string-inverters",
-    title: "String Inverters",
-    description:
-      "High-efficiency string inverters for solar PV systems with maximum power point tracking and comprehensive monitoring capabilities. Robust design with wide input voltage range and grid-tie functionality.",
+    titleKey: "products:productGroups.stringInverters.title",
+    descriptionKey: "products:productGroups.stringInverters.description",
     subcategoryKey: "solar-inverters",
     image: "string-inverter",
     featuredSpecs: ["power", "efficiency", "mppt"],
@@ -1025,9 +988,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "micro-inverters",
     slug: "micro-inverters",
-    title: "Micro Inverters",
-    description:
-      "Module-level micro inverters for maximum energy harvest and individual panel monitoring. Rapid shutdown compliance with enhanced safety features and simplified installation procedures.",
+    titleKey: "products:productGroups.microInverters.title",
+    descriptionKey: "products:productGroups.microInverters.description",
     subcategoryKey: "solar-inverters",
     image: "micro-inverter",
     featuredSpecs: ["power", "efficiency", "monitoring"],
@@ -1035,9 +997,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "power-optimizers",
     slug: "power-optimizers",
-    title: "Power Optimizers",
-    description:
-      "DC power optimizers for enhanced solar system performance with module-level MPPT and monitoring. Mitigates shading and mismatch losses while maintaining string inverter economics.",
+    titleKey: "products:productGroups.powerOptimizers.title",
+    descriptionKey: "products:productGroups.powerOptimizers.description",
     subcategoryKey: "solar-inverters",
     image: "power-optimizer",
     featuredSpecs: ["power", "efficiency", "monitoring"],
@@ -1047,9 +1008,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "modular-plcs",
     slug: "modular-plcs",
-    title: "Modular PLCs",
-    description:
-      "Scalable modular programmable logic controllers for complex automation systems. Expandable I/O configurations with advanced communication capabilities and high-speed processing for industrial control applications.",
+    titleKey: "products:productGroups.modularPlcs.title",
+    descriptionKey: "products:productGroups.modularPlcs.description",
     subcategoryKey: "plcs",
     image: "modular-plc",
     featuredSpecs: ["io", "memory", "communication"],
@@ -1057,9 +1017,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "compact-plcs",
     slug: "compact-plcs",
-    title: "Compact PLCs",
-    description:
-      "Space-saving compact programmable logic controllers for small to medium automation applications. Integrated I/O with built-in communication interfaces and user-friendly programming software.",
+    titleKey: "products:productGroups.compactPlcs.title",
+    descriptionKey: "products:productGroups.compactPlcs.description",
     subcategoryKey: "plcs",
     image: "compact-plc",
     featuredSpecs: ["io", "memory", "size"],
@@ -1067,9 +1026,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "micro-plcs",
     slug: "micro-plcs",
-    title: "Micro PLCs",
-    description:
-      "Ultra-compact micro programmable logic controllers for simple automation tasks. Cost-effective solution with essential I/O capabilities and basic communication functions for small machine control.",
+    titleKey: "products:productGroups.microPlcs.title",
+    descriptionKey: "products:productGroups.microPlcs.description",
     subcategoryKey: "plcs",
     image: "micro-plc",
     featuredSpecs: ["io", "memory", "applications"],
@@ -1077,9 +1035,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "scada-software",
     slug: "scada-software",
-    title: "SCADA Software",
-    description:
-      "Comprehensive supervisory control and data acquisition software for industrial process monitoring and control. Real-time data visualization with alarm management and historical trending capabilities.",
+    titleKey: "products:productGroups.scadaSoftware.title",
+    descriptionKey: "products:productGroups.scadaSoftware.description",
     subcategoryKey: "scada",
     image: "scada-software",
     featuredSpecs: ["tags", "clients", "features"],
@@ -1087,9 +1044,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "scada-hardware",
     slug: "scada-hardware",
-    title: "SCADA Hardware",
-    description:
-      "Industrial-grade SCADA hardware platforms for reliable data acquisition and control operations. Rugged construction with redundant communication paths and hot-swappable components for maximum uptime.",
+    titleKey: "products:productGroups.scadaHardware.title",
+    descriptionKey: "products:productGroups.scadaHardware.description",
     subcategoryKey: "scada",
     image: "scada-hardware",
     featuredSpecs: ["performance", "redundancy", "connectivity"],
@@ -1097,9 +1053,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "scada-gateways",
     slug: "scada-gateways",
-    title: "SCADA Gateways",
-    description:
-      "Protocol conversion gateways for SCADA system integration and multi-vendor compatibility. Supports multiple industrial communication protocols with secure data transmission and real-time performance.",
+    titleKey: "products:productGroups.scadaGateways.title",
+    descriptionKey: "products:productGroups.scadaGateways.description",
     subcategoryKey: "scada",
     image: "scada-gateway",
     featuredSpecs: ["protocols", "ports", "conversion"],
@@ -1107,9 +1062,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "dcs-controllers",
     slug: "dcs-controllers",
-    title: "DCS Controllers",
-    description:
-      "Distributed control system controllers for large-scale process automation and safety systems. Redundant architecture with high-availability design and advanced process control algorithms.",
+    titleKey: "products:productGroups.dcsControllers.title",
+    descriptionKey: "products:productGroups.dcsControllers.description",
     subcategoryKey: "dcs",
     image: "dcs-controller",
     featuredSpecs: ["io", "redundancy", "performance"],
@@ -1117,9 +1071,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "dcs-operator-stations",
     slug: "dcs-operator-stations",
-    title: "DCS Operator Stations",
-    description:
-      "Advanced operator workstations for distributed control system monitoring and operation. Multi-display capabilities with intuitive graphics and comprehensive alarm management.",
+    titleKey: "products:productGroups.dcsOperatorStations.title",
+    descriptionKey: "products:productGroups.dcsOperatorStations.description",
     subcategoryKey: "dcs",
     image: "dcs-operator-station",
     featuredSpecs: ["displays", "performance", "redundancy"],
@@ -1127,9 +1080,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "dcs-engineering-stations",
     slug: "dcs-engineering-stations",
-    title: "DCS Engineering Stations",
-    description:
-      "Engineering workstations for DCS configuration, programming, and maintenance. Comprehensive development environment with simulation capabilities and version control.",
+    titleKey: "products:productGroups.dcsEngineeringStations.title",
+    descriptionKey: "products:productGroups.dcsEngineeringStations.description",
     subcategoryKey: "dcs",
     image: "dcs-engineering-station",
     featuredSpecs: ["software", "performance", "tools"],
@@ -1137,9 +1089,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "touchscreen-hmis",
     slug: "touchscreen-hmis",
-    title: "Touchscreen HMIs",
-    description:
-      "Industrial touchscreen human-machine interfaces for operator control and monitoring. Multi-touch displays with robust construction for harsh environments.",
+    titleKey: "products:productGroups.touchscreenHmis.title",
+    descriptionKey: "products:productGroups.touchscreenHmis.description",
     subcategoryKey: "hmi",
     image: "touchscreen-hmi",
     featuredSpecs: ["size", "resolution", "communication"],
@@ -1147,9 +1098,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "panel-mount-hmis",
     slug: "panel-mount-hmis",
-    title: "Panel Mount HMIs",
-    description:
-      "Panel-mounted human-machine interfaces for integration into control cabinets and operator panels. Compact design with industrial-grade durability.",
+    titleKey: "products:productGroups.panelMountHmis.title",
+    descriptionKey: "products:productGroups.panelMountHmis.description",
     subcategoryKey: "hmi",
     image: "panel-mount-hmi",
     featuredSpecs: ["size", "resolution", "mounting"],
@@ -1157,9 +1107,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "mobile-hmis",
     slug: "mobile-hmis",
-    title: "Mobile HMIs",
-    description:
-      "Portable human-machine interfaces for mobile operator control and field monitoring. Rugged design with wireless connectivity and long battery life.",
+    titleKey: "products:productGroups.mobileHmis.title",
+    descriptionKey: "products:productGroups.mobileHmis.description",
     subcategoryKey: "hmi",
     image: "mobile-hmi",
     featuredSpecs: ["size", "battery", "connectivity"],
@@ -1169,9 +1118,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "safety-relays",
     slug: "safety-relays",
-    title: "Safety Relays",
-    description:
-      "Safety relays for machine and personnel protection systems. Certified for safety applications with fail-safe operation and diagnostic capabilities.",
+    titleKey: "products:productGroups.safetyRelays.title",
+    descriptionKey: "products:productGroups.safetyRelays.description",
     subcategoryKey: "safety-relays-switches",
     image: "safety-relay",
     featuredSpecs: ["safety", "contacts", "monitoring"],
@@ -1179,9 +1127,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "emergency-stops",
     slug: "emergency-stops",
-    title: "Emergency Stops",
-    description:
-      "Emergency stop devices for immediate machinery shutdown. Robust construction with positive opening contacts and clear visual indication.",
+    titleKey: "products:productGroups.emergencyStops.title",
+    descriptionKey: "products:productGroups.emergencyStops.description",
     subcategoryKey: "safety-relays-switches",
     image: "emergency-stop",
     featuredSpecs: ["contacts", "operation", "standards"],
@@ -1189,9 +1136,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "safety-switches",
     slug: "safety-switches",
-    title: "Safety Switches",
-    description:
-      "Position monitoring safety switches for guard doors and access panels. Tamper-proof design with coded actuators for maximum security.",
+    titleKey: "products:productGroups.safetySwitches.title",
+    descriptionKey: "products:productGroups.safetySwitches.description",
     subcategoryKey: "safety-relays-switches",
     image: "safety-switch",
     featuredSpecs: ["safety", "operation", "environment"],
@@ -1199,9 +1145,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "explosion-proof-equipment",
     slug: "explosion-proof-equipment",
-    title: "Explosion Proof Equipment",
-    description:
-      "Certified explosion-proof electrical equipment for hazardous area installations. Designed to prevent ignition of flammable gases and vapors with robust enclosures meeting international safety standards.",
+    titleKey: "products:productGroups.explosionProofEquipment.title",
+    descriptionKey: "products:productGroups.explosionProofEquipment.description",
     subcategoryKey: "intrinsically-safe-equipment",
     image: "explosion-proof",
     featuredSpecs: ["certification", "class", "temperature"],
@@ -1209,9 +1154,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "intrinsically-safe-barriers",
     slug: "intrinsically-safe-barriers",
-    title: "Intrinsically Safe Barriers",
-    description:
-      "Safety barriers for intrinsically safe circuits in hazardous areas. Provides energy limitation and galvanic isolation to prevent ignition sources in explosive atmospheres.",
+    titleKey: "products:productGroups.intrinsicallySafeBarriers.title",
+    descriptionKey: "products:productGroups.intrinsicallySafeBarriers.description",
     subcategoryKey: "intrinsically-safe-equipment",
     image: "is-barrier",
     featuredSpecs: ["channels", "power", "certification"],
@@ -1219,9 +1163,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "is-field-devices",
     slug: "is-field-devices",
-    title: "Intrinsically Safe Field Devices",
-    description:
-      "Field devices certified for intrinsically safe operation in explosive atmospheres. Includes sensors, transmitters, and actuators designed for Zone 0/1 hazardous area applications.",
+    titleKey: "products:productGroups.isFieldDevices.title",
+    descriptionKey: "products:productGroups.isFieldDevices.description",
     subcategoryKey: "intrinsically-safe-equipment",
     image: "is-field-device",
     featuredSpecs: ["function", "power", "certification"],
@@ -1229,9 +1172,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "ac-surge-protectors",
     slug: "ac-surge-protectors",
-    title: "AC Surge Protectors",
-    description:
-      "AC power line surge protection devices for electrical equipment protection. Multi-stage protection against lightning, switching surges, and power line disturbances in industrial installations.",
+    titleKey: "products:productGroups.acSurgeProtectors.title",
+    descriptionKey: "products:productGroups.acSurgeProtectors.description",
     subcategoryKey: "surge-protectors",
     image: "ac-surge-protector",
     featuredSpecs: ["voltage", "current", "energy"],
@@ -1239,9 +1181,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "dc-surge-protectors",
     slug: "dc-surge-protectors",
-    title: "DC Surge Protectors",
-    description:
-      "DC circuit surge protection devices for sensitive electronic equipment. Specialized protection for DC power systems, solar installations, and battery-powered applications.",
+    titleKey: "products:productGroups.dcSurgeProtectors.title",
+    descriptionKey: "products:productGroups.dcSurgeProtectors.description",
     subcategoryKey: "surge-protectors",
     image: "dc-surge-protector",
     featuredSpecs: ["voltage", "current", "energy"],
@@ -1249,9 +1190,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "signal-surge-protectors",
     slug: "signal-surge-protectors",
-    title: "Signal Surge Protectors",
-    description:
-      "Signal line surge protection for data and communication circuits. Protects analog and digital signals, field bus networks, and instrumentation circuits from electromagnetic interference.",
+    titleKey: "products:productGroups.signalSurgeProtectors.title",
+    descriptionKey: "products:productGroups.signalSurgeProtectors.description",
     subcategoryKey: "surge-protectors",
     image: "signal-surge-protector",
     featuredSpecs: ["signal", "protection", "frequency"],
@@ -1259,9 +1199,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "equipment-grounding",
     slug: "equipment-grounding",
-    title: "Equipment Grounding Systems",
-    description:
-      "Grounding components for electrical equipment safety and protection. Copper and steel grounding rods, conductors, and accessories for proper electrical system grounding.",
+    titleKey: "products:productGroups.equipmentGrounding.title",
+    descriptionKey: "products:productGroups.equipmentGrounding.description",
     subcategoryKey: "grounding-systems",
     image: "equipment-grounding",
     featuredSpecs: ["material", "resistance", "application"],
@@ -1269,9 +1208,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "system-grounding",
     slug: "system-grounding",
-    title: "System Grounding Solutions",
-    description:
-      "Complete grounding system solutions for industrial facilities. Grounding grids, electrodes, and monitoring systems for power system safety and electromagnetic compatibility.",
+    titleKey: "products:productGroups.systemGrounding.title",
+    descriptionKey: "products:productGroups.systemGrounding.description",
     subcategoryKey: "grounding-systems",
     image: "system-grounding",
     featuredSpecs: ["material", "resistance", "configuration"],
@@ -1279,9 +1217,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "lightning-protection",
     slug: "lightning-protection",
-    title: "Lightning Protection Systems",
-    description:
-      "Lightning protection systems for buildings and industrial structures. Air terminals, down conductors, and surge arresters designed to IEC 62305 standards for comprehensive lightning protection.",
+    titleKey: "products:productGroups.lightningProtection.title",
+    descriptionKey: "products:productGroups.lightningProtection.description",
     subcategoryKey: "grounding-systems",
     image: "lightning-protection",
     featuredSpecs: ["current", "material", "height"],
@@ -1291,9 +1228,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "single-stage-centrifugal",
     slug: "single-stage-centrifugal",
-    title: "Single Stage Centrifugal Pumps",
-    description:
-      "Horizontal and vertical single stage centrifugal pumps for water supply and industrial applications. Efficient operation with low maintenance requirements for various flow and head conditions.",
+    titleKey: "products:productGroups.singleStageCentrifugal.title",
+    descriptionKey: "products:productGroups.singleStageCentrifugal.description",
     subcategoryKey: "centrifugal-pumps",
     image: "single-stage-centrifugal",
     featuredSpecs: ["flow", "head", "power"],
@@ -1301,9 +1237,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "multi-stage-centrifugal",
     slug: "multi-stage-centrifugal",
-    title: "Multi Stage Centrifugal Pumps",
-    description:
-      "High pressure multi-stage centrifugal pumps for demanding applications. Multiple impellers provide high head capabilities for pressure boosting, reverse osmosis, and industrial process applications.",
+    titleKey: "products:productGroups.multiStageCentrifugal.title",
+    descriptionKey: "products:productGroups.multiStageCentrifugal.description",
     subcategoryKey: "centrifugal-pumps",
     image: "multi-stage-centrifugal",
     featuredSpecs: ["flow", "head", "stages"],
@@ -1311,9 +1246,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "vertical-centrifugal",
     slug: "vertical-centrifugal",
-    title: "Vertical Centrifugal Pumps",
-    description:
-      "Space-saving vertical centrifugal pumps for confined installations. Suitable for sumps, tanks, and applications where horizontal space is limited while maintaining high efficiency performance.",
+    titleKey: "products:productGroups.verticalCentrifugal.title",
+    descriptionKey: "products:productGroups.verticalCentrifugal.description",
     subcategoryKey: "centrifugal-pumps",
     image: "vertical-centrifugal",
     featuredSpecs: ["flow", "head", "installation"],
@@ -1321,9 +1255,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "air-operated-diaphragm",
     slug: "air-operated-diaphragm",
-    title: "Air Operated Diaphragm Pumps",
-    description:
-      "Pneumatic diaphragm pumps for handling aggressive and viscous fluids. Self-priming operation with excellent suction capabilities for chemical processing and waste water applications.",
+    titleKey: "products:productGroups.airOperatedDiaphragm.title",
+    descriptionKey: "products:productGroups.airOperatedDiaphragm.description",
     subcategoryKey: "diaphragm-pumps",
     image: "air-operated-diaphragm",
     featuredSpecs: ["flow", "pressure", "material"],
@@ -1331,9 +1264,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "electric-diaphragm",
     slug: "electric-diaphragm",
-    title: "Electric Diaphragm Pumps",
-    description:
-      "Electric-driven diaphragm pumps for precise dosing and metering applications. Variable flow control with excellent chemical compatibility for water treatment and chemical injection systems.",
+    titleKey: "products:productGroups.electricDiaphragm.title",
+    descriptionKey: "products:productGroups.electricDiaphragm.description",
     subcategoryKey: "diaphragm-pumps",
     image: "electric-diaphragm",
     featuredSpecs: ["flow", "pressure", "power"],
@@ -1341,9 +1273,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "hydraulic-diaphragm",
     slug: "hydraulic-diaphragm",
-    title: "Hydraulic Diaphragm Pumps",
-    description:
-      "Hydraulically actuated diaphragm pumps for high-pressure applications. Precise flow control and excellent repeatability for chemical dosing and high-pressure cleaning systems.",
+    titleKey: "products:productGroups.hydraulicDiaphragm.title",
+    descriptionKey: "products:productGroups.hydraulicDiaphragm.description",
     subcategoryKey: "diaphragm-pumps",
     image: "hydraulic-diaphragm",
     featuredSpecs: ["flow", "pressure", "hydraulic"],
@@ -1351,9 +1282,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "external-gear-pumps",
     slug: "external-gear-pumps",
-    title: "External Gear Pumps",
-    description:
-      "Positive displacement external gear pumps for viscous liquid transfer. Consistent flow delivery independent of pressure variations, ideal for lubricating oils and hydraulic fluids.",
+    titleKey: "products:productGroups.externalGearPumps.title",
+    descriptionKey: "products:productGroups.externalGearPumps.description",
     subcategoryKey: "gear-pumps",
     image: "external-gear-pump",
     featuredSpecs: ["flow", "pressure", "viscosity"],
@@ -1361,9 +1291,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "internal-gear-pumps",
     slug: "internal-gear-pumps",
-    title: "Internal Gear Pumps",
-    description:
-      "Internal gear pumps with smooth flow characteristics for sensitive fluids. Low pulsation design suitable for food processing, pharmaceutical, and chemical applications requiring gentle handling.",
+    titleKey: "products:productGroups.internalGearPumps.title",
+    descriptionKey: "products:productGroups.internalGearPumps.description",
     subcategoryKey: "gear-pumps",
     image: "internal-gear-pump",
     featuredSpecs: ["flow", "pressure", "viscosity"],
@@ -1371,9 +1300,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "magnetic-gear-pumps",
     slug: "magnetic-gear-pumps",
-    title: "Magnetic Drive Gear Pumps",
-    description:
-      "Magnetically coupled gear pumps for leak-free operation. Hermetically sealed design eliminates shaft seals, perfect for hazardous chemicals and high-purity applications.",
+    titleKey: "products:productGroups.magneticGearPumps.title",
+    descriptionKey: "products:productGroups.magneticGearPumps.description",
     subcategoryKey: "gear-pumps",
     image: "magnetic-gear-pump",
     featuredSpecs: ["flow", "pressure", "sealing"],
@@ -1381,9 +1309,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "impellers-casings",
     slug: "impellers-casings",
-    title: "Impellers and Casings",
-    description:
-      "Replacement impellers and pump casings for centrifugal pumps. Available in various materials including cast iron, stainless steel, and specialty alloys for different applications and media.",
+    titleKey: "products:productGroups.impellersCasings.title",
+    descriptionKey: "products:productGroups.impellersCasings.description",
     subcategoryKey: "pump-parts-spares",
     image: "impeller-casing",
     featuredSpecs: ["material", "size", "compatibility"],
@@ -1391,9 +1318,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "seals-gaskets",
     slug: "seals-gaskets",
-    title: "Seals and Gaskets",
-    description:
-      "Pump seals and gaskets for reliable leak prevention. Mechanical seals, O-rings, and gasket sets in various materials to suit different temperatures, pressures, and chemical compatibility requirements.",
+    titleKey: "products:productGroups.sealsGaskets.title",
+    descriptionKey: "products:productGroups.sealsGaskets.description",
     subcategoryKey: "pump-parts-spares",
     image: "seal-gasket",
     featuredSpecs: ["material", "temperature", "pressure"],
@@ -1401,9 +1327,8 @@ export const productGroups: ProductGroup[] = [
   {
     key: "bearings-couplings",
     slug: "bearings-couplings",
-    title: "Bearings and Couplings",
-    description:
-      "Pump bearings and flexible couplings for mechanical drive systems. High-quality components for extended service life, reduced vibration, and reliable power transmission in pumping applications.",
+    titleKey: "products:productGroups.bearingsCouplings.title",
+    descriptionKey: "products:productGroups.bearingsCouplings.description",
     subcategoryKey: "pump-parts-spares",
     image: "bearing-coupling",
     featuredSpecs: ["type", "load", "speed"],
