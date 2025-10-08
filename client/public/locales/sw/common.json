@@ -6,7 +6,6 @@
     "products": "Bidhaa",
     "projects": "Miradi",
     "contact": "Wasiliana Nasi",
-    "blog": "Blogu",
     "quote": "Omba Bei"
   },
   "language": {
@@ -20,19 +19,6 @@
     "ru": "Kirusi",
     "sw": "Kiswahili",
     "ha": "Kihausa"
-  },
-  "navigation": {
-    "backToProducts": "Rudi kwa Bidhaa",
-    "backToElectricalComponents": "Rudi kwa Vipengele vya Umeme",
-    "backToSolarProducts": "Rudi kwa Bidhaa za Sola",
-    "backToMechanicalPumps": "Rudi kwa Pampu za Mitambo",
-    "backToMeasurementInstruments": "Rudi kwa Vifaa vya Upimaji",
-    "backToIndustrialTools": "Rudi kwa Zana za Viwandani",
-    "backToAutomationSystems": "Rudi kwa Mifumo ya Otomatiki",
-    "backToBLDC": "Rudi kwa bidhaa za BLDC",
-    "backToInstrumentationComponents": "Rudi kwa Sehemu za Ala",
-    "backToSafetyDevices": "Rudi kwa Vifaa vya Usalama na Ulinzi",
-    "phoneNumbers": "Nambari za simu"
   },
   "testimonials": {
     "anand": {
@@ -92,7 +78,7 @@
     "downloadCatalog": "Pakua Katalogi",
     "discussProject": "Zungumzia Mradi",
     "viewDetails": "Angalia Maelezo",
-    "backTo": "Rudi kwa {{category}}",
+    "backTo": "Rudi kwa",
     "backToBldcProducts": "Rudi kwa Bidhaa za Motor za DC zisizo na Brashi (BLDC)",
     "backToProducts": "Rudi kwa Bidhaa",
     "requestQuote": "Omba Bei",

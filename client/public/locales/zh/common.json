@@ -6,7 +6,6 @@
     "products": "产品",
     "projects": "项目",
     "contact": "联系我们",
-    "blog": "博客",
     "quote": "询价"
   },
   "language": {
@@ -20,19 +19,6 @@
     "ru": "俄语",
     "sw": "斯瓦希里语",
     "ha": "豪萨语"
-  },
-  "navigation": {
-    "backToProducts": "返回产品",
-    "backToElectricalComponents": "返回电气元件",
-    "backToSolarProducts": "返回太阳能产品",
-    "backToMechanicalPumps": "返回机械泵",
-    "backToMeasurementInstruments": "返回测量仪器",
-    "backToIndustrialTools": "返回工业工具",
-    "backToAutomationSystems": "返回自动化系统",
-    "backToBLDC": "返回BLDC产品",
-    "backToInstrumentationComponents": "返回仪器仪表组件",
-    "backToSafetyDevices": "返回安全和保护设备",
-    "phoneNumbers": "电话号码"
   },
   "testimonials": {
     "anand": {
@@ -92,7 +78,7 @@
     "downloadCatalog": "下载目录",
     "discussProject": "讨论项目",
     "viewDetails": "查看详情",
-    "backTo": "返回 {{category}}",
+    "backTo": "返回",
     "backToBldcProducts": "返回无刷直流电机（BLDC）产品",
     "backToProducts": "返回产品",
     "requestQuote": "询价",

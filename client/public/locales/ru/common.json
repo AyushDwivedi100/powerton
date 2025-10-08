@@ -6,7 +6,6 @@
     "products": "Продукты",
     "projects": "Проекты",
     "contact": "Связаться с нами",
-    "blog": "Блог",
     "quote": "Получить предложение"
   },
   "language": {
@@ -20,19 +19,6 @@
     "ru": "Русский",
     "sw": "Суахили",
     "ha": "Хауса"
-  },
-  "navigation": {
-    "backToProducts": "Вернуться к продуктам",
-    "backToElectricalComponents": "Вернуться к электрическим компонентам",
-    "backToSolarProducts": "Вернуться к солнечным продуктам",
-    "backToMechanicalPumps": "Вернуться к механическим насосам",
-    "backToMeasurementInstruments": "Вернуться к измерительным приборам",
-    "backToIndustrialTools": "Вернуться к промышленным инструментам",
-    "backToAutomationSystems": "Вернуться к системам автоматизации",
-    "backToBLDC": "Вернуться к продуктам BLDC",
-    "backToInstrumentationComponents": "Вернуться к компонентам КИПиА",
-    "backToSafetyDevices": "Вернуться к устройствам безопасности и защиты",
-    "phoneNumbers": "Номера телефонов"
   },
   "testimonials": {
     "anand": {
@@ -92,7 +78,7 @@
     "downloadCatalog": "Скачать каталог",
     "discussProject": "Обсудить проект",
     "viewDetails": "Посмотреть детали",
-    "backTo": "Вернуться к {{category}}",
+    "backTo": "Вернуться к",
     "backToBldcProducts": "Вернуться к продуктам с бесщеточными двигателями постоянного тока (BLDC)",
     "backToProducts": "Вернуться к продуктам",
     "requestQuote": "Получить предложение",

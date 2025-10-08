@@ -117,7 +117,7 @@ export default function ProductSubCategoryDynamic() {
                 data-testid="link-back-to-category"
               >
                 <ArrowLeft className="mr-2 h-4 w-4 group-hover:-translate-x-2 transition-transform duration-200" />
-                Back to {product.parentCategoryTitle}
+                {t("common:buttons.backTo")} {product.parentCategoryTitle}
               </Link>
             </Button>
           </div>
@@ -255,9 +255,7 @@ export default function ProductSubCategoryDynamic() {
                   </p>
                   <div className="space-y-3">
                     <h3 className="text-lg font-semibold text-foreground group-hover:text-secondary">
-                      {t("products:sections.keyBenefits", {
-                        defaultValue: "Key Benefits:",
-                      })}
+                      {t("products:sections.keyBenefits")}
                     </h3>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
                       {product.keyBenefits.map((benefit, index) => (

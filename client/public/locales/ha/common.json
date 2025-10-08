@@ -6,7 +6,6 @@
     "products": "Kayan aiki",
     "projects": "Ayyuka",
     "contact": "Tuntube mu",
-    "blog": "Shafin yanar gizo",
     "quote": "Nemi Farashi"
   },
   "language": {
@@ -20,19 +19,6 @@
     "ru": "Rashanci",
     "sw": "Swahili",
     "ha": "Hausa"
-  },
-  "navigation": {
-    "backToProducts": "Komawa zuwa Kayan aiki",
-    "backToElectricalComponents": "Komawa zuwa Kayan Wutar Lantarki",
-    "backToSolarProducts": "Komawa zuwa Kayan Rana",
-    "backToMechanicalPumps": "Komawa zuwa Famfunan Inji",
-    "backToMeasurementInstruments": "Komawa zuwa Kayan Auna",
-    "backToIndustrialTools": "Komawa zuwa Kayan Aikin Masana'antu",
-    "backToAutomationSystems": "Komawa zuwa Tsarin Kula da Kai",
-    "backToBLDC": "Komawa zuwa kayayyakin BLDC",
-    "backToInstrumentationComponents": "Komawa zuwa Sassan Kayan Aiki",
-    "backToSafetyDevices": "Komawa zuwa Kayan Tsaro da Kariyar",
-    "phoneNumbers": "Lambobin waya"
   },
   "testimonials": {
     "anand": {
@@ -92,7 +78,7 @@
     "downloadCatalog": "Sauke Katalogi",
     "discussProject": "Tattauna Aiki",
     "viewDetails": "Duba Cikakkun Bayanai",
-    "backTo": "Koma zuwa {{category}}",
+    "backTo": "Koma zuwa",
     "backToBldcProducts": "Koma zuwa Kayayyakin Injinan DC marasa goga (BLDC)",
     "backToProducts": "Koma zuwa Kayayyaki",
     "requestQuote": "Nemi Farashi",

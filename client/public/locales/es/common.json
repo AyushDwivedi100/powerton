@@ -6,7 +6,6 @@
     "products": "Productos",
     "projects": "Proyectos",
     "contact": "Contáctenos",
-    "blog": "Blog",
     "quote": "Solicitar presupuesto"
   },
   "language": {
@@ -20,19 +19,6 @@
     "ru": "Ruso",
     "sw": "Swahili",
     "ha": "Hausa"
-  },
-  "navigation": {
-    "backToProducts": "Volver a Productos",
-    "backToElectricalComponents": "Volver a Componentes Eléctricos",
-    "backToSolarProducts": "Volver a Productos Solares",
-    "backToMechanicalPumps": "Volver a Bombas Mecánicas",
-    "backToMeasurementInstruments": "Volver a Instrumentos de Medición",
-    "backToIndustrialTools": "Volver a Herramientas Industriales",
-    "backToAutomationSystems": "Volver a Sistemas de Automatización",
-    "backToBLDC": "Volver a productos BLDC",
-    "backToInstrumentationComponents": "Volver a Componentes de Instrumentación",
-    "backToSafetyDevices": "Volver a Dispositivos de Seguridad y Protección",
-    "phoneNumbers": "Números de teléfono"
   },
   "testimonials": {
     "anand": {
@@ -92,7 +78,7 @@
     "downloadCatalog": "Descargar Catálogo",
     "discussProject": "Discutir Proyecto",
     "viewDetails": "Ver Detalles",
-    "backTo": "Volver a {{category}}",
+    "backTo": "Volver a",
     "backToBldcProducts": "Volver a productos de motores de CC sin escobillas (BLDC)",
     "backToProducts": "Volver a Productos",
     "requestQuote": "Solicitar Presupuesto",

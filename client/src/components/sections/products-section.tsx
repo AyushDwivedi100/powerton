@@ -51,7 +51,7 @@ export default function ProductsSection() {
         >
           {getProducts(t).map((product, index) => (
             <Link
-              href={`/services-category/${product.id}`}
+              href={`/products/${product.id}`}
               key={product.id}
               className="group/button"
             >

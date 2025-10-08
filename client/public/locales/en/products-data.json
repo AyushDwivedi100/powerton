@@ -649,183 +649,6 @@
         "keywords": "industrial heaters, heating elements, immersion heaters, process heating, thermal control, industrial heating equipment"
       }
     },
-    "multimeters": {
-      "title": "Multimeters & Clamp Meters",
-      "shortDescription": "Digital multimeters and clamp meters for electrical measurements",
-      "fullDescription": "Professional digital multimeters and clamp meters with advanced features for accurate electrical measurements in industrial environments.",
-      "parentCategoryTitle": "Industrial Measuring Tools",
-      "keyBenefits": [
-        "High Accuracy",
-        "Multiple Measurement Functions",
-        "Safety Features",
-        "Easy to Use"
-      ],
-      "specifications": [
-        "Voltage Range: 0.1mV to 1000V",
-        "Current Range: 0.01mA to 1000A",
-        "Resistance: 0.1Ω to 50MΩ",
-        "Accuracy: ±0.5% to ±2%",
-        "Display: 6000 count digital",
-        "Safety Rating: CAT III/IV"
-      ],
-      "applications": [
-        "Electrical Testing",
-        "Maintenance & Repair",
-        "Installation Verification",
-        "Troubleshooting",
-        "Quality Control",
-        "Field Service"
-      ],
-      "industries": [
-        "Electrical Services",
-        "Manufacturing",
-        "Facilities Management",
-        "HVAC",
-        "Automotive",
-        "Electronics"
-      ],
-      "features": [
-        "Auto-Ranging",
-        "True RMS",
-        "Data Hold",
-        "Min/Max Recording",
-        "Backlit Display",
-        "Low Battery Indicator",
-        "Overload Protection",
-        "Continuity Buzzer"
-      ],
-      "certifications": [
-        "CAT III/IV Rated",
-        "IEC 61010",
-        "CE Marked",
-        "UL Listed",
-        "RoHS Compliant",
-        "ISO 9001"
-      ],
-      "seo": {
-        "title": "Digital Multimeters & Clamp Meters - Professional Electrical Testing | Powerton Engineering",
-        "description": "Professional digital multimeters and clamp meters for electrical testing and measurements. True RMS meters with CAT III/IV safety ratings.",
-        "keywords": "digital multimeters, clamp meters, electrical testing, voltage meters, current meters, resistance meters, electrical measurements"
-      }
-    },
-    "power-quality-analyzers": {
-      "title": "Power Quality Analyzers",
-      "shortDescription": "Advanced power quality monitoring and analysis instruments",
-      "fullDescription": "Professional power quality analyzers for comprehensive electrical system monitoring, harmonics analysis, and energy management.",
-      "parentCategoryTitle": "Industrial Measuring Tools",
-      "keyBenefits": [
-        "Complete Power Analysis",
-        "Harmonics Detection",
-        "Energy Management",
-        "Data Logging"
-      ],
-      "specifications": [
-        "Voltage Range: 1V to 1000V",
-        "Current Range: 1mA to 6000A",
-        "Frequency: 40-70 Hz",
-        "Harmonics: up to 50th order",
-        "Memory: up to 8GB",
-        "Sampling Rate: up to 1MHz"
-      ],
-      "applications": [
-        "Power Quality Assessment",
-        "Energy Audits",
-        "Harmonics Analysis",
-        "Load Studies",
-        "Troubleshooting",
-        "Compliance Testing"
-      ],
-      "industries": [
-        "Power Generation",
-        "Manufacturing",
-        "Data Centers",
-        "Commercial Buildings",
-        "Healthcare",
-        "Education"
-      ],
-      "features": [
-        "Real-time Monitoring",
-        "Waveform Capture",
-        "Trend Analysis",
-        "Event Recording",
-        "Remote Monitoring",
-        "Report Generation",
-        "Touchscreen Display",
-        "Wireless Connectivity"
-      ],
-      "certifications": [
-        "IEC 61000-4-30",
-        "EN 50160",
-        "CAT IV Rated",
-        "CE Marked",
-        "UL Listed",
-        "ISO 17025"
-      ],
-      "seo": {
-        "title": "Power Quality Analyzers - Electrical Power Monitoring Instruments | Powerton Engineering",
-        "description": "Advanced power quality analyzers for comprehensive electrical system monitoring and analysis. Harmonics detection, energy management, and data logging.",
-        "keywords": "power quality analyzers, power monitors, harmonics analyzers, energy analyzers, electrical testing equipment, power quality instruments"
-      }
-    },
-    "calibration-equipment": {
-      "title": "Calibration & Testing Equipment",
-      "shortDescription": "Professional calibration and testing instruments for industrial applications",
-      "fullDescription": "Complete range of calibration equipment and testing instruments for maintaining accuracy and compliance in industrial measurement systems.",
-      "parentCategoryTitle": "Industrial Measuring Tools",
-      "keyBenefits": [
-        "Precision Calibration",
-        "Traceability",
-        "Compliance Verification",
-        "Extended Equipment Life"
-      ],
-      "specifications": [
-        "Accuracy: ±0.01% to ±0.1%",
-        "Calibration Range: Various",
-        "Temperature: -25°C to +70°C",
-        "Output: 4-20mA, 0-10V, mV, RTD, TC",
-        "Display: High-resolution digital",
-        "Data Storage: USB, SD Card"
-      ],
-      "applications": [
-        "Instrument Calibration",
-        "Process Validation",
-        "Quality Assurance",
-        "Maintenance Programs",
-        "Compliance Testing",
-        "Field Calibration"
-      ],
-      "industries": [
-        "Oil & Gas",
-        "Pharmaceutical",
-        "Food & Beverage",
-        "Chemical Processing",
-        "Power Generation",
-        "Aerospace"
-      ],
-      "features": [
-        "Multi-function Capability",
-        "High Accuracy",
-        "HART Communication",
-        "Automated Testing",
-        "Data Logging",
-        "Battery Operated",
-        "Rugged Design",
-        "Calibration Certificates"
-      ],
-      "certifications": [
-        "ISO 17025 Accredited",
-        "NIST Traceable",
-        "CE Marked",
-        "UL Listed",
-        "RoHS Compliant",
-        "ISO 9001"
-      ],
-      "seo": {
-        "title": "Calibration Equipment - Industrial Testing & Calibration Instruments | Powerton Engineering",
-        "description": "Professional calibration and testing equipment for industrial applications. NIST traceable calibrators for pressure, temperature, and electrical instruments.",
-        "keywords": "calibration equipment, testing instruments, calibrators, instrument calibration, NIST traceable, process calibration, field calibration"
-      }
-    },
     "solar-panels": {
       "title": "Solar Panels & Modules",
       "shortDescription": "High-efficiency solar panels and photovoltaic modules",
@@ -1947,63 +1770,181 @@
         "keywords": "lifting equipment, hoists, cranes, rigging equipment, material handling, chain hoists, industrial lifting"
       }
     },
-    "bldc-ceiling-fan": {
-      "title": "BLDC Ceiling Fans",
-      "shortDescription": "Energy-efficient brushless DC ceiling fans",
-      "fullDescription": "High-efficiency BLDC ceiling fans with energy-saving technology, smart controls, and superior performance for residential and commercial applications.",
-      "parentCategoryTitle": "BLDC Products",
+    "multimeters": {
+      "title": "Multimeters & Clamp Meters",
+      "shortDescription": "Digital multimeters and clamp meters for electrical measurements",
+      "fullDescription": "Professional digital multimeters and clamp meters with advanced features for accurate electrical measurements in industrial environments.",
+      "parentCategoryTitle": "Industrial Measuring Tools",
       "keyBenefits": [
-        "Up to 65% Energy Savings",
-        "Silent Operation",
-        "Remote Control",
-        "Long Service Life"
+        "High Accuracy",
+        "Multiple Measurement Functions",
+        "Safety Features",
+        "Easy to Use"
       ],
       "specifications": [
-        "Motor Power: 28W to 52W",
-        "Speed: 1200-1600 RPM",
-        "Airflow: 200-280 CMM",
-        "Voltage: 220V AC",
-        "Sweep: 1200mm to 1600mm",
-        "Energy Rating: 5 Star BEE"
+        "Voltage Range: 0.1mV to 1000V",
+        "Current Range: 0.01mA to 1000A",
+        "Resistance: 0.1Ω to 50MΩ",
+        "Accuracy: ±0.5% to ±2%",
+        "Display: 6000 count digital",
+        "Safety Rating: CAT III/IV"
       ],
       "applications": [
-        "Residential Rooms",
-        "Office Spaces",
-        "Commercial Buildings",
-        "Hospitality",
-        "Educational Institutions",
-        "Healthcare Facilities"
+        "Electrical Testing",
+        "Maintenance & Repair",
+        "Installation Verification",
+        "Troubleshooting",
+        "Quality Control",
+        "Field Service"
       ],
       "industries": [
-        "Residential Construction",
-        "Commercial Real Estate",
-        "Hospitality",
-        "Healthcare",
-        "Education",
-        "Retail"
+        "Electrical Services",
+        "Manufacturing",
+        "Facilities Management",
+        "HVAC",
+        "Automotive",
+        "Electronics"
       ],
       "features": [
-        "BLDC Motor Technology",
-        "Remote Control",
-        "Variable Speed",
-        "Reverse Mode",
-        "Timer Function",
-        "LED Indicators",
-        "Aerodynamic Blades",
-        "Silent Operation"
+        "Auto-Ranging",
+        "True RMS",
+        "Data Hold",
+        "Min/Max Recording",
+        "Backlit Display",
+        "Low Battery Indicator",
+        "Overload Protection",
+        "Continuity Buzzer"
       ],
       "certifications": [
-        "BEE 5 Star Rated",
-        "ISI Mark",
-        "CE Approved",
+        "CAT III/IV Rated",
+        "IEC 61010",
+        "CE Marked",
+        "UL Listed",
         "RoHS Compliant",
-        "Energy Star",
         "ISO 9001"
       ],
       "seo": {
-        "title": "BLDC Ceiling Fans - Energy Efficient Brushless DC Fans | Powerton Engineering",
-        "description": "Energy-efficient BLDC ceiling fans with 5-star BEE rating. Smart remote control, silent operation, and up to 65% energy savings.",
-        "keywords": "BLDC ceiling fans, energy efficient fans, brushless DC fans, smart ceiling fans, 5 star ceiling fans, remote control fans"
+        "title": "Digital Multimeters & Clamp Meters - Professional Electrical Testing | Powerton Engineering",
+        "description": "Professional digital multimeters and clamp meters for electrical testing and measurements. True RMS meters with CAT III/IV safety ratings.",
+        "keywords": "digital multimeters, clamp meters, electrical testing, voltage meters, current meters, resistance meters, electrical measurements"
+      }
+    },
+    "power-quality-analyzers": {
+      "title": "Power Quality Analyzers",
+      "shortDescription": "Advanced power quality monitoring and analysis instruments",
+      "fullDescription": "Professional power quality analyzers for comprehensive electrical system monitoring, harmonics analysis, and energy management.",
+      "parentCategoryTitle": "Industrial Measuring Tools",
+      "keyBenefits": [
+        "Complete Power Analysis",
+        "Harmonics Detection",
+        "Energy Management",
+        "Data Logging"
+      ],
+      "specifications": [
+        "Voltage Range: 1V to 1000V",
+        "Current Range: 1mA to 6000A",
+        "Frequency: 40-70 Hz",
+        "Harmonics: up to 50th order",
+        "Memory: up to 8GB",
+        "Sampling Rate: up to 1MHz"
+      ],
+      "applications": [
+        "Power Quality Assessment",
+        "Energy Audits",
+        "Harmonics Analysis",
+        "Load Studies",
+        "Troubleshooting",
+        "Compliance Testing"
+      ],
+      "industries": [
+        "Power Generation",
+        "Manufacturing",
+        "Data Centers",
+        "Commercial Buildings",
+        "Healthcare",
+        "Education"
+      ],
+      "features": [
+        "Real-time Monitoring",
+        "Waveform Capture",
+        "Trend Analysis",
+        "Event Recording",
+        "Remote Monitoring",
+        "Report Generation",
+        "Touchscreen Display",
+        "Wireless Connectivity"
+      ],
+      "certifications": [
+        "IEC 61000-4-30",
+        "EN 50160",
+        "CAT IV Rated",
+        "CE Marked",
+        "UL Listed",
+        "ISO 17025"
+      ],
+      "seo": {
+        "title": "Power Quality Analyzers - Electrical Power Monitoring Instruments | Powerton Engineering",
+        "description": "Advanced power quality analyzers for comprehensive electrical system monitoring and analysis. Harmonics detection, energy management, and data logging.",
+        "keywords": "power quality analyzers, power monitors, harmonics analyzers, energy analyzers, electrical testing equipment, power quality instruments"
+      }
+    },
+    "calibration-equipment": {
+      "title": "Calibration & Testing Equipment",
+      "shortDescription": "Professional calibration and testing instruments for industrial applications",
+      "fullDescription": "Complete range of calibration equipment and testing instruments for maintaining accuracy and compliance in industrial measurement systems.",
+      "parentCategoryTitle": "Industrial Measuring Tools",
+      "keyBenefits": [
+        "Precision Calibration",
+        "Traceability",
+        "Compliance Verification",
+        "Extended Equipment Life"
+      ],
+      "specifications": [
+        "Accuracy: ±0.01% to ±0.1%",
+        "Calibration Range: Various",
+        "Temperature: -25°C to +70°C",
+        "Output: 4-20mA, 0-10V, mV, RTD, TC",
+        "Display: High-resolution digital",
+        "Data Storage: USB, SD Card"
+      ],
+      "applications": [
+        "Instrument Calibration",
+        "Process Validation",
+        "Quality Assurance",
+        "Maintenance Programs",
+        "Compliance Testing",
+        "Field Calibration"
+      ],
+      "industries": [
+        "Oil & Gas",
+        "Pharmaceutical",
+        "Food & Beverage",
+        "Chemical Processing",
+        "Power Generation",
+        "Aerospace"
+      ],
+      "features": [
+        "Multi-function Capability",
+        "High Accuracy",
+        "HART Communication",
+        "Automated Testing",
+        "Data Logging",
+        "Battery Operated",
+        "Rugged Design",
+        "Calibration Certificates"
+      ],
+      "certifications": [
+        "ISO 17025 Accredited",
+        "NIST Traceable",
+        "CE Marked",
+        "UL Listed",
+        "RoHS Compliant",
+        "ISO 9001"
+      ],
+      "seo": {
+        "title": "Calibration Equipment - Industrial Testing & Calibration Instruments | Powerton Engineering",
+        "description": "Professional calibration and testing equipment for industrial applications. NIST traceable calibrators for pressure, temperature, and electrical instruments.",
+        "keywords": "calibration equipment, testing instruments, calibrators, instrument calibration, NIST traceable, process calibration, field calibration"
       }
     },
     "bldc-cooler-exhaust-motor": {
@@ -2063,6 +2004,65 @@
         "title": "BLDC Cooler & Exhaust Motors - High Efficiency BLDC Motors | Powerton Engineering",
         "description": "High-efficiency BLDC motors for desert coolers and exhaust fans. Energy-saving brushless DC motors with long service life.",
         "keywords": "BLDC cooler motors, BLDC exhaust motors, brushless DC motors, energy efficient motors, cooler motors, exhaust fan motors"
+      }
+    },
+    "bldc-ceiling-fan": {
+      "title": "BLDC Ceiling Fans",
+      "shortDescription": "Energy-efficient brushless DC ceiling fans",
+      "fullDescription": "High-efficiency BLDC ceiling fans with energy-saving technology, smart controls, and superior performance for residential and commercial applications.",
+      "parentCategoryTitle": "BLDC Products",
+      "keyBenefits": [
+        "Up to 65% Energy Savings",
+        "Silent Operation",
+        "Remote Control",
+        "Long Service Life"
+      ],
+      "specifications": [
+        "Motor Power: 28W to 52W",
+        "Speed: 1200-1600 RPM",
+        "Airflow: 200-280 CMM",
+        "Voltage: 220V AC",
+        "Sweep: 1200mm to 1600mm",
+        "Energy Rating: 5 Star BEE"
+      ],
+      "applications": [
+        "Residential Rooms",
+        "Office Spaces",
+        "Commercial Buildings",
+        "Hospitality",
+        "Educational Institutions",
+        "Healthcare Facilities"
+      ],
+      "industries": [
+        "Residential Construction",
+        "Commercial Real Estate",
+        "Hospitality",
+        "Healthcare",
+        "Education",
+        "Retail"
+      ],
+      "features": [
+        "BLDC Motor Technology",
+        "Remote Control",
+        "Variable Speed",
+        "Reverse Mode",
+        "Timer Function",
+        "LED Indicators",
+        "Aerodynamic Blades",
+        "Silent Operation"
+      ],
+      "certifications": [
+        "BEE 5 Star Rated",
+        "ISI Mark",
+        "CE Approved",
+        "RoHS Compliant",
+        "Energy Star",
+        "ISO 9001"
+      ],
+      "seo": {
+        "title": "BLDC Ceiling Fans - Energy Efficient Brushless DC Fans | Powerton Engineering",
+        "description": "Energy-efficient BLDC ceiling fans with 5-star BEE rating. Smart remote control, silent operation, and up to 65% energy savings.",
+        "keywords": "BLDC ceiling fans, energy efficient fans, brushless DC fans, smart ceiling fans, 5 star ceiling fans, remote control fans"
       }
     },
     "bldc-submersible-surface-pump": {
@@ -2781,24 +2781,11 @@
         "Food & Beverage",
         "Automotive Manufacturing"
       ],
-      "certifications": [
-        "CE",
-        "UL",
-        "CSA",
-        "ATEX",
-        "IECEx",
-        "SIL 2/3"
-      ],
+      "certifications": ["CE", "UL", "CSA", "ATEX", "IECEx", "SIL 2/3"],
       "technicalData": {
         "operatingTemp": "-40°C to +125°C",
         "protection": "IP65/IP67/IP69K",
-        "communication": [
-          "4-20mA",
-          "HART",
-          "Modbus",
-          "Ethernet",
-          "Wireless"
-        ],
+        "communication": ["4-20mA", "HART", "Modbus", "Ethernet", "Wireless"],
         "accuracy": "±0.1% to ±0.5% of span",
         "power": "24V DC, 115/230V AC, Loop-powered"
       }
@@ -2847,14 +2834,7 @@
         "Pulp & Paper",
         "Mining & Metals"
       ],
-      "certifications": [
-        "SIL 2/3",
-        "ATEX",
-        "IECEx",
-        "FM",
-        "CSA",
-        "NEPSI"
-      ],
+      "certifications": ["SIL 2/3", "ATEX", "IECEx", "FM", "CSA", "NEPSI"],
       "technicalData": {
         "operatingTemp": "-40°C to +85°C",
         "protection": "IP66/IP67",
@@ -2989,12 +2969,7 @@
     "industrialFuses": {
       "name": "Industrial Fuses",
       "description": "High-speed fuses for equipment protection",
-      "features": [
-        "Fast Acting",
-        "Time Delay",
-        "High Voltage",
-        "Ceramic Body"
-      ]
+      "features": ["Fast Acting", "Time Delay", "High Voltage", "Ceramic Body"]
     }
   },
   "connectorsTerminals": {
@@ -4079,10 +4054,7 @@
         "Pharmaceutical",
         "Food & Beverage"
       ],
-      "certifications": [
-        "ISO 9001",
-        "CE Marking"
-      ],
+      "certifications": ["ISO 9001", "CE Marking"],
       "keywords": {
         "industrialAutomation": "industrial automation",
         "processControl": "process control",

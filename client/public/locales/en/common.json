@@ -6,7 +6,6 @@
     "products": "Products",
     "projects": "Projects",
     "contact": "Contact Us",
-    "blog": "Blog",
     "quote": "Get a Quote"
   },
   "language": {
@@ -20,19 +19,6 @@
     "ru": "Russian",
     "sw": "Swahili",
     "ha": "Hausa"
-  },
-  "navigation": {
-    "backToProducts": "Back to Products",
-    "backToElectricalComponents": "Back to Electrical Components",
-    "backToSolarProducts": "Back to Solar Products",
-    "backToMechanicalPumps": "Back to Mechanical Pumps",
-    "backToMeasurementInstruments": "Back to Measurement Instruments",
-    "backToIndustrialTools": "Back to Industrial Tools",
-    "backToAutomationSystems": "Back to Automation Systems",
-    "backToBLDC": "Back to BLDC products",
-    "backToInstrumentationComponents": "Back to Instrumentation Components",
-    "backToSafetyDevices": "Back to Safety and Protective Devices",
-    "phoneNumbers": "Phone Numbers"
   },
   "testimonials": {
     "anand": {
@@ -92,7 +78,7 @@
     "downloadCatalog": "Download Catalog",
     "discussProject": "Discuss Project",
     "viewDetails": "View Details",
-    "backTo": "Back to {{category}}",
+    "backTo": "Back to",
     "backToBldcProducts": "Back to Brushless DC (BLDC) Motor Products",
     "backToProducts": "Back to Products",
     "requestQuote": "Request a Quote",

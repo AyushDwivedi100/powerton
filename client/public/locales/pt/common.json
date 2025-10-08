@@ -6,7 +6,6 @@
     "products": "Produtos",
     "projects": "Projetos",
     "contact": "Contate-nos",
-    "blog": "Blog",
     "quote": "Solicitar orçamento"
   },
   "language": {
@@ -20,19 +19,6 @@
     "ru": "Russo",
     "sw": "Suaíli",
     "ha": "Hausa"
-  },
-  "navigation": {
-    "backToProducts": "Voltar aos produtos",
-    "backToElectricalComponents": "Voltar aos componentes elétricos",
-    "backToSolarProducts": "Voltar aos produtos solares",
-    "backToMechanicalPumps": "Voltar às bombas mecânicas",
-    "backToMeasurementInstruments": "Voltar aos instrumentos de medição",
-    "backToIndustrialTools": "Voltar às ferramentas industriais",
-    "backToAutomationSystems": "Voltar aos sistemas de automação",
-    "backToBLDC": "Voltar aos produtos BLDC",
-    "backToInstrumentationComponents": "Voltar aos componentes de instrumentação",
-    "backToSafetyDevices": "Voltar aos dispositivos de segurança",
-    "phoneNumbers": "Números de telefone"
   },
   "testimonials": {
     "anand": {
@@ -92,7 +78,7 @@
     "downloadCatalog": "Baixar catálogo",
     "discussProject": "Discutir projeto",
     "viewDetails": "Ver detalhes",
-    "backTo": "Voltar para {{category}}",
+    "backTo": "Voltar para",
     "backToBldcProducts": "Voltar aos produtos de motores DC sem escovas (BLDC)",
     "backToProducts": "Voltar aos produtos",
     "requestQuote": "Solicitar orçamento",

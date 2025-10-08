@@ -223,7 +223,7 @@ export default function ProductGroupDynamic() {
                 data-testid="link-back-to-subcategory"
               >
                 <ArrowLeft className="mr-2 h-4 w-4 group-hover:-translate-x-2 transition-transform duration-200" />
-                Back to {subcategory.title}
+                {t("common:buttons.backTo")} {subcategory.title}
               </Link>
             </Button>
 

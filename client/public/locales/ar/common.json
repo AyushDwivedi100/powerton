@@ -6,7 +6,6 @@
     "products": "منتجات",
     "projects": "المشاريع",
     "contact": "اتصل بنا",
-    "blog": "مدونة",
     "quote": "طلب اقتباس"
   },
   "language": {
@@ -20,19 +19,6 @@
     "ru": "الروسية",
     "sw": "السواحيلية",
     "ha": "الهوسا"
-  },
-  "navigation": {
-    "backToProducts": "العودة إلى المنتجات",
-    "backToElectricalComponents": "العودة إلى المكونات الكهربائية",
-    "backToSolarProducts": "العودة إلى منتجات الطاقة الشمسية",
-    "backToMechanicalPumps": "العودة إلى المضخات الميكانيكية",
-    "backToMeasurementInstruments": "العودة إلى أدوات القياس",
-    "backToIndustrialTools": "العودة إلى الأدوات الصناعية",
-    "backToAutomationSystems": "العودة إلى أنظمة الأتمتة",
-    "backToBLDC": "العودة إلى منتجات BLDC",
-    "backToInstrumentationComponents": "العودة إلى مكونات الأجهزة",
-    "backToSafetyDevices": "العودة إلى أجهزة السلامة والحماية",
-    "phoneNumbers": "أرقام الهواتف"
   },
   "testimonials": {
     "anand": {
@@ -92,7 +78,7 @@
     "downloadCatalog": "تحميل الكتالوج",
     "discussProject": "ناقش المشروع",
     "viewDetails": "عرض التفاصيل",
-    "backTo": "العودة إلى {{category}}",
+    "backTo": "العودة إلى",
     "backToBldcProducts": "العودة إلى منتجات محركات التيار المستمر بدون فرش (BLDC)",
     "backToProducts": "العودة إلى المنتجات",
     "requestQuote": "طلب عرض أسعار",

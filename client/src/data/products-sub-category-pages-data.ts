@@ -105,27 +105,56 @@ export interface ProductSubCategoryData {
   };
 }
 
-export const getProductsSubCategoryData = (t: any): ProductSubCategoryData[] => [
-  // Instrumentation Components
+export const getProductsSubCategoryData = (
+  t: any,
+): ProductSubCategoryData[] => [
+  // Instrumentation Accessories
   {
     slug: "sensors-transducers",
     title: t("products-data:subcategories.sensors-transducers.title"),
-    shortDescription: t("products-data:subcategories.sensors-transducers.shortDescription"),
-    fullDescription: t("products-data:subcategories.sensors-transducers.fullDescription"),
+    shortDescription: t(
+      "products-data:subcategories.sensors-transducers.shortDescription",
+    ),
+    fullDescription: t(
+      "products-data:subcategories.sensors-transducers.fullDescription",
+    ),
     image: sensorsBgImage,
     parentCategory: "/products/instrumentation-accessories",
-    parentCategoryTitle: t("products-data:subcategories.sensors-transducers.parentCategoryTitle"),
+    parentCategoryTitle: t(
+      "products-data:subcategories.sensors-transducers.parentCategoryTitle",
+    ),
     icon: Thermometer,
-    keyBenefits: t("products-data:subcategories.sensors-transducers.keyBenefits", { returnObjects: true }),
-    specifications: t("products-data:subcategories.sensors-transducers.specifications", { returnObjects: true }),
-    applications: t("products-data:subcategories.sensors-transducers.applications", { returnObjects: true }),
-    industries: t("products-data:subcategories.sensors-transducers.industries", { returnObjects: true }),
-    features: t("products-data:subcategories.sensors-transducers.features", { returnObjects: true }),
-    certifications: t("products-data:subcategories.sensors-transducers.certifications", { returnObjects: true }),
+    keyBenefits: t(
+      "products-data:subcategories.sensors-transducers.keyBenefits",
+      { returnObjects: true },
+    ),
+    specifications: t(
+      "products-data:subcategories.sensors-transducers.specifications",
+      { returnObjects: true },
+    ),
+    applications: t(
+      "products-data:subcategories.sensors-transducers.applications",
+      { returnObjects: true },
+    ),
+    industries: t(
+      "products-data:subcategories.sensors-transducers.industries",
+      { returnObjects: true },
+    ),
+    features: t("products-data:subcategories.sensors-transducers.features", {
+      returnObjects: true,
+    }),
+    certifications: t(
+      "products-data:subcategories.sensors-transducers.certifications",
+      { returnObjects: true },
+    ),
     seo: {
       title: t("products-data:subcategories.sensors-transducers.seo.title"),
-      description: t("products-data:subcategories.sensors-transducers.seo.description"),
-      keywords: t("products-data:subcategories.sensors-transducers.seo.keywords"),
+      description: t(
+        "products-data:subcategories.sensors-transducers.seo.description",
+      ),
+      keywords: t(
+        "products-data:subcategories.sensors-transducers.seo.keywords",
+      ),
       canonicalUrl:
         "https://powertonengineering.in/products/instrumentation-accessories/sensors-transducers",
     },
@@ -133,22 +162,52 @@ export const getProductsSubCategoryData = (t: any): ProductSubCategoryData[] => 
   {
     slug: "transmitters-flow-meters",
     title: t("products-data:subcategories.transmitters-flow-meters.title"),
-    shortDescription: t("products-data:subcategories.transmitters-flow-meters.shortDescription"),
-    fullDescription: t("products-data:subcategories.transmitters-flow-meters.fullDescription"),
+    shortDescription: t(
+      "products-data:subcategories.transmitters-flow-meters.shortDescription",
+    ),
+    fullDescription: t(
+      "products-data:subcategories.transmitters-flow-meters.fullDescription",
+    ),
     image: transmittersImage,
     parentCategory: "/products/instrumentation-accessories",
-    parentCategoryTitle: t("products-data:subcategories.transmitters-flow-meters.parentCategoryTitle"),
+    parentCategoryTitle: t(
+      "products-data:subcategories.transmitters-flow-meters.parentCategoryTitle",
+    ),
     icon: Radio,
-    keyBenefits: t("products-data:subcategories.transmitters-flow-meters.keyBenefits", { returnObjects: true }),
-    specifications: t("products-data:subcategories.transmitters-flow-meters.specifications", { returnObjects: true }),
-    applications: t("products-data:subcategories.transmitters-flow-meters.applications", { returnObjects: true }),
-    industries: t("products-data:subcategories.transmitters-flow-meters.industries", { returnObjects: true }),
-    features: t("products-data:subcategories.transmitters-flow-meters.features", { returnObjects: true }),
-    certifications: t("products-data:subcategories.transmitters-flow-meters.certifications", { returnObjects: true }),
+    keyBenefits: t(
+      "products-data:subcategories.transmitters-flow-meters.keyBenefits",
+      { returnObjects: true },
+    ),
+    specifications: t(
+      "products-data:subcategories.transmitters-flow-meters.specifications",
+      { returnObjects: true },
+    ),
+    applications: t(
+      "products-data:subcategories.transmitters-flow-meters.applications",
+      { returnObjects: true },
+    ),
+    industries: t(
+      "products-data:subcategories.transmitters-flow-meters.industries",
+      { returnObjects: true },
+    ),
+    features: t(
+      "products-data:subcategories.transmitters-flow-meters.features",
+      { returnObjects: true },
+    ),
+    certifications: t(
+      "products-data:subcategories.transmitters-flow-meters.certifications",
+      { returnObjects: true },
+    ),
     seo: {
-      title: t("products-data:subcategories.transmitters-flow-meters.seo.title"),
-      description: t("products-data:subcategories.transmitters-flow-meters.seo.description"),
-      keywords: t("products-data:subcategories.transmitters-flow-meters.seo.keywords"),
+      title: t(
+        "products-data:subcategories.transmitters-flow-meters.seo.title",
+      ),
+      description: t(
+        "products-data:subcategories.transmitters-flow-meters.seo.description",
+      ),
+      keywords: t(
+        "products-data:subcategories.transmitters-flow-meters.seo.keywords",
+      ),
       canonicalUrl:
         "https://powertonengineering.in/products/instrumentation-accessories/transmitters-flow-meters",
     },
@@ -156,22 +215,49 @@ export const getProductsSubCategoryData = (t: any): ProductSubCategoryData[] => 
   {
     slug: "switches-indicators",
     title: t("products-data:subcategories.switches-indicators.title"),
-    shortDescription: t("products-data:subcategories.switches-indicators.shortDescription"),
-    fullDescription: t("products-data:subcategories.switches-indicators.fullDescription"),
+    shortDescription: t(
+      "products-data:subcategories.switches-indicators.shortDescription",
+    ),
+    fullDescription: t(
+      "products-data:subcategories.switches-indicators.fullDescription",
+    ),
     image: switchesImage,
     parentCategory: "/products/instrumentation-accessories",
-    parentCategoryTitle: t("products-data:subcategories.switches-indicators.parentCategoryTitle"),
+    parentCategoryTitle: t(
+      "products-data:subcategories.switches-indicators.parentCategoryTitle",
+    ),
     icon: ToggleLeft,
-    keyBenefits: t("products-data:subcategories.switches-indicators.keyBenefits", { returnObjects: true }),
-    specifications: t("products-data:subcategories.switches-indicators.specifications", { returnObjects: true }),
-    applications: t("products-data:subcategories.switches-indicators.applications", { returnObjects: true }),
-    industries: t("products-data:subcategories.switches-indicators.industries", { returnObjects: true }),
-    features: t("products-data:subcategories.switches-indicators.features", { returnObjects: true }),
-    certifications: t("products-data:subcategories.switches-indicators.certifications", { returnObjects: true }),
+    keyBenefits: t(
+      "products-data:subcategories.switches-indicators.keyBenefits",
+      { returnObjects: true },
+    ),
+    specifications: t(
+      "products-data:subcategories.switches-indicators.specifications",
+      { returnObjects: true },
+    ),
+    applications: t(
+      "products-data:subcategories.switches-indicators.applications",
+      { returnObjects: true },
+    ),
+    industries: t(
+      "products-data:subcategories.switches-indicators.industries",
+      { returnObjects: true },
+    ),
+    features: t("products-data:subcategories.switches-indicators.features", {
+      returnObjects: true,
+    }),
+    certifications: t(
+      "products-data:subcategories.switches-indicators.certifications",
+      { returnObjects: true },
+    ),
     seo: {
       title: t("products-data:subcategories.switches-indicators.seo.title"),
-      description: t("products-data:subcategories.switches-indicators.seo.description"),
-      keywords: t("products-data:subcategories.switches-indicators.seo.keywords"),
+      description: t(
+        "products-data:subcategories.switches-indicators.seo.description",
+      ),
+      keywords: t(
+        "products-data:subcategories.switches-indicators.seo.keywords",
+      ),
       canonicalUrl:
         "https://powertonengineering.in/products/instrumentation-accessories/switches-indicators",
     },
@@ -179,21 +265,44 @@ export const getProductsSubCategoryData = (t: any): ProductSubCategoryData[] => 
   {
     slug: "valves-actuators",
     title: t("products-data:subcategories.valves-actuators.title"),
-    shortDescription: t("products-data:subcategories.valves-actuators.shortDescription"),
-    fullDescription: t("products-data:subcategories.valves-actuators.fullDescription"),
+    shortDescription: t(
+      "products-data:subcategories.valves-actuators.shortDescription",
+    ),
+    fullDescription: t(
+      "products-data:subcategories.valves-actuators.fullDescription",
+    ),
     image: valvesImage,
     parentCategory: "/products/instrumentation-accessories",
-    parentCategoryTitle: t("products-data:subcategories.valves-actuators.parentCategoryTitle"),
+    parentCategoryTitle: t(
+      "products-data:subcategories.valves-actuators.parentCategoryTitle",
+    ),
     icon: Gauge,
-    keyBenefits: t("products-data:subcategories.valves-actuators.keyBenefits", { returnObjects: true }),
-    specifications: t("products-data:subcategories.valves-actuators.specifications", { returnObjects: true }),
-    applications: t("products-data:subcategories.valves-actuators.applications", { returnObjects: true }),
-    industries: t("products-data:subcategories.valves-actuators.industries", { returnObjects: true }),
-    features: t("products-data:subcategories.valves-actuators.features", { returnObjects: true }),
-    certifications: t("products-data:subcategories.valves-actuators.certifications", { returnObjects: true }),
+    keyBenefits: t("products-data:subcategories.valves-actuators.keyBenefits", {
+      returnObjects: true,
+    }),
+    specifications: t(
+      "products-data:subcategories.valves-actuators.specifications",
+      { returnObjects: true },
+    ),
+    applications: t(
+      "products-data:subcategories.valves-actuators.applications",
+      { returnObjects: true },
+    ),
+    industries: t("products-data:subcategories.valves-actuators.industries", {
+      returnObjects: true,
+    }),
+    features: t("products-data:subcategories.valves-actuators.features", {
+      returnObjects: true,
+    }),
+    certifications: t(
+      "products-data:subcategories.valves-actuators.certifications",
+      { returnObjects: true },
+    ),
     seo: {
       title: t("products-data:subcategories.valves-actuators.seo.title"),
-      description: t("products-data:subcategories.valves-actuators.seo.description"),
+      description: t(
+        "products-data:subcategories.valves-actuators.seo.description",
+      ),
       keywords: t("products-data:subcategories.valves-actuators.seo.keywords"),
       canonicalUrl:
         "https://powertonengineering.in/products/instrumentation-accessories/valves-actuators",
@@ -202,18 +311,34 @@ export const getProductsSubCategoryData = (t: any): ProductSubCategoryData[] => 
   {
     slug: "analyzers",
     title: t("products-data:subcategories.analyzers.title"),
-    shortDescription: t("products-data:subcategories.analyzers.shortDescription"),
+    shortDescription: t(
+      "products-data:subcategories.analyzers.shortDescription",
+    ),
     fullDescription: t("products-data:subcategories.analyzers.fullDescription"),
     image: powerQualityAnalyzersImage,
     parentCategory: "/products/instrumentation-accessories",
-    parentCategoryTitle: t("products-data:subcategories.analyzers.parentCategoryTitle"),
+    parentCategoryTitle: t(
+      "products-data:subcategories.analyzers.parentCategoryTitle",
+    ),
     icon: FlaskConical,
-    keyBenefits: t("products-data:subcategories.analyzers.keyBenefits", { returnObjects: true }),
-    specifications: t("products-data:subcategories.analyzers.specifications", { returnObjects: true }),
-    applications: t("products-data:subcategories.analyzers.applications", { returnObjects: true }),
-    industries: t("products-data:subcategories.analyzers.industries", { returnObjects: true }),
-    features: t("products-data:subcategories.analyzers.features", { returnObjects: true }),
-    certifications: t("products-data:subcategories.analyzers.certifications", { returnObjects: true }),
+    keyBenefits: t("products-data:subcategories.analyzers.keyBenefits", {
+      returnObjects: true,
+    }),
+    specifications: t("products-data:subcategories.analyzers.specifications", {
+      returnObjects: true,
+    }),
+    applications: t("products-data:subcategories.analyzers.applications", {
+      returnObjects: true,
+    }),
+    industries: t("products-data:subcategories.analyzers.industries", {
+      returnObjects: true,
+    }),
+    features: t("products-data:subcategories.analyzers.features", {
+      returnObjects: true,
+    }),
+    certifications: t("products-data:subcategories.analyzers.certifications", {
+      returnObjects: true,
+    }),
     seo: {
       title: t("products-data:subcategories.analyzers.seo.title"),
       description: t("products-data:subcategories.analyzers.seo.description"),
@@ -223,25 +348,47 @@ export const getProductsSubCategoryData = (t: any): ProductSubCategoryData[] => 
     },
   },
 
-  // Electrical Components
+  // Electrical Accessories
   {
     slug: "cables-wires",
     title: t("products-data:subcategories.cables-wires.title"),
-    shortDescription: t("products-data:subcategories.cables-wires.shortDescription"),
-    fullDescription: t("products-data:subcategories.cables-wires.fullDescription"),
+    shortDescription: t(
+      "products-data:subcategories.cables-wires.shortDescription",
+    ),
+    fullDescription: t(
+      "products-data:subcategories.cables-wires.fullDescription",
+    ),
     image: cablesWiresImage,
     parentCategory: "/products/electrical-accessories",
-    parentCategoryTitle: t("products-data:subcategories.cables-wires.parentCategoryTitle"),
+    parentCategoryTitle: t(
+      "products-data:subcategories.cables-wires.parentCategoryTitle",
+    ),
     icon: Cable,
-    keyBenefits: t("products-data:subcategories.cables-wires.keyBenefits", { returnObjects: true }),
-    specifications: t("products-data:subcategories.cables-wires.specifications", { returnObjects: true }),
-    applications: t("products-data:subcategories.cables-wires.applications", { returnObjects: true }),
-    industries: t("products-data:subcategories.cables-wires.industries", { returnObjects: true }),
-    features: t("products-data:subcategories.cables-wires.features", { returnObjects: true }),
-    certifications: t("products-data:subcategories.cables-wires.certifications", { returnObjects: true }),
+    keyBenefits: t("products-data:subcategories.cables-wires.keyBenefits", {
+      returnObjects: true,
+    }),
+    specifications: t(
+      "products-data:subcategories.cables-wires.specifications",
+      { returnObjects: true },
+    ),
+    applications: t("products-data:subcategories.cables-wires.applications", {
+      returnObjects: true,
+    }),
+    industries: t("products-data:subcategories.cables-wires.industries", {
+      returnObjects: true,
+    }),
+    features: t("products-data:subcategories.cables-wires.features", {
+      returnObjects: true,
+    }),
+    certifications: t(
+      "products-data:subcategories.cables-wires.certifications",
+      { returnObjects: true },
+    ),
     seo: {
       title: t("products-data:subcategories.cables-wires.seo.title"),
-      description: t("products-data:subcategories.cables-wires.seo.description"),
+      description: t(
+        "products-data:subcategories.cables-wires.seo.description",
+      ),
       keywords: t("products-data:subcategories.cables-wires.seo.keywords"),
       canonicalUrl:
         "https://powertonengineering.in/products/electrical-components/cables-wires",
@@ -250,22 +397,49 @@ export const getProductsSubCategoryData = (t: any): ProductSubCategoryData[] => 
   {
     slug: "connectors-terminals",
     title: t("products-data:subcategories.connectors-terminals.title"),
-    shortDescription: t("products-data:subcategories.connectors-terminals.shortDescription"),
-    fullDescription: t("products-data:subcategories.connectors-terminals.fullDescription"),
+    shortDescription: t(
+      "products-data:subcategories.connectors-terminals.shortDescription",
+    ),
+    fullDescription: t(
+      "products-data:subcategories.connectors-terminals.fullDescription",
+    ),
     image: connectorsTerminalsImage,
     parentCategory: "/products/electrical-accessories",
-    parentCategoryTitle: t("products-data:subcategories.connectors-terminals.parentCategoryTitle"),
+    parentCategoryTitle: t(
+      "products-data:subcategories.connectors-terminals.parentCategoryTitle",
+    ),
     icon: Zap,
-    keyBenefits: t("products-data:subcategories.connectors-terminals.keyBenefits", { returnObjects: true }),
-    specifications: t("products-data:subcategories.connectors-terminals.specifications", { returnObjects: true }),
-    applications: t("products-data:subcategories.connectors-terminals.applications", { returnObjects: true }),
-    industries: t("products-data:subcategories.connectors-terminals.industries", { returnObjects: true }),
-    features: t("products-data:subcategories.connectors-terminals.features", { returnObjects: true }),
-    certifications: t("products-data:subcategories.connectors-terminals.certifications", { returnObjects: true }),
+    keyBenefits: t(
+      "products-data:subcategories.connectors-terminals.keyBenefits",
+      { returnObjects: true },
+    ),
+    specifications: t(
+      "products-data:subcategories.connectors-terminals.specifications",
+      { returnObjects: true },
+    ),
+    applications: t(
+      "products-data:subcategories.connectors-terminals.applications",
+      { returnObjects: true },
+    ),
+    industries: t(
+      "products-data:subcategories.connectors-terminals.industries",
+      { returnObjects: true },
+    ),
+    features: t("products-data:subcategories.connectors-terminals.features", {
+      returnObjects: true,
+    }),
+    certifications: t(
+      "products-data:subcategories.connectors-terminals.certifications",
+      { returnObjects: true },
+    ),
     seo: {
       title: t("products-data:subcategories.connectors-terminals.seo.title"),
-      description: t("products-data:subcategories.connectors-terminals.seo.description"),
-      keywords: t("products-data:subcategories.connectors-terminals.seo.keywords"),
+      description: t(
+        "products-data:subcategories.connectors-terminals.seo.description",
+      ),
+      keywords: t(
+        "products-data:subcategories.connectors-terminals.seo.keywords",
+      ),
       canonicalUrl:
         "https://powertonengineering.in/products/electrical-components/connectors-terminals",
     },
@@ -273,22 +447,49 @@ export const getProductsSubCategoryData = (t: any): ProductSubCategoryData[] => 
   {
     slug: "circuit-breakers-fuses",
     title: t("products-data:subcategories.circuit-breakers-fuses.title"),
-    shortDescription: t("products-data:subcategories.circuit-breakers-fuses.shortDescription"),
-    fullDescription: t("products-data:subcategories.circuit-breakers-fuses.fullDescription"),
+    shortDescription: t(
+      "products-data:subcategories.circuit-breakers-fuses.shortDescription",
+    ),
+    fullDescription: t(
+      "products-data:subcategories.circuit-breakers-fuses.fullDescription",
+    ),
     image: circuitBreakersImage,
-    parentCategory: "/products/electrical-components",
-    parentCategoryTitle: t("products-data:subcategories.circuit-breakers-fuses.parentCategoryTitle"),
+    parentCategory: "/products/electrical-accessories",
+    parentCategoryTitle: t(
+      "products-data:subcategories.circuit-breakers-fuses.parentCategoryTitle",
+    ),
     icon: Shield,
-    keyBenefits: t("products-data:subcategories.circuit-breakers-fuses.keyBenefits", { returnObjects: true }),
-    specifications: t("products-data:subcategories.circuit-breakers-fuses.specifications", { returnObjects: true }),
-    applications: t("products-data:subcategories.circuit-breakers-fuses.applications", { returnObjects: true }),
-    industries: t("products-data:subcategories.circuit-breakers-fuses.industries", { returnObjects: true }),
-    features: t("products-data:subcategories.circuit-breakers-fuses.features", { returnObjects: true }),
-    certifications: t("products-data:subcategories.circuit-breakers-fuses.certifications", { returnObjects: true }),
+    keyBenefits: t(
+      "products-data:subcategories.circuit-breakers-fuses.keyBenefits",
+      { returnObjects: true },
+    ),
+    specifications: t(
+      "products-data:subcategories.circuit-breakers-fuses.specifications",
+      { returnObjects: true },
+    ),
+    applications: t(
+      "products-data:subcategories.circuit-breakers-fuses.applications",
+      { returnObjects: true },
+    ),
+    industries: t(
+      "products-data:subcategories.circuit-breakers-fuses.industries",
+      { returnObjects: true },
+    ),
+    features: t("products-data:subcategories.circuit-breakers-fuses.features", {
+      returnObjects: true,
+    }),
+    certifications: t(
+      "products-data:subcategories.circuit-breakers-fuses.certifications",
+      { returnObjects: true },
+    ),
     seo: {
       title: t("products-data:subcategories.circuit-breakers-fuses.seo.title"),
-      description: t("products-data:subcategories.circuit-breakers-fuses.seo.description"),
-      keywords: t("products-data:subcategories.circuit-breakers-fuses.seo.keywords"),
+      description: t(
+        "products-data:subcategories.circuit-breakers-fuses.seo.description",
+      ),
+      keywords: t(
+        "products-data:subcategories.circuit-breakers-fuses.seo.keywords",
+      ),
       canonicalUrl:
         "https://powertonengineering.in/products/electrical-components/circuit-breakers-fuses",
     },
@@ -296,21 +497,43 @@ export const getProductsSubCategoryData = (t: any): ProductSubCategoryData[] => 
   {
     slug: "power-supplies",
     title: t("products-data:subcategories.power-supplies.title"),
-    shortDescription: t("products-data:subcategories.power-supplies.shortDescription"),
-    fullDescription: t("products-data:subcategories.power-supplies.fullDescription"),
+    shortDescription: t(
+      "products-data:subcategories.power-supplies.shortDescription",
+    ),
+    fullDescription: t(
+      "products-data:subcategories.power-supplies.fullDescription",
+    ),
     image: powerSuppliesImage,
     parentCategory: "/products/electrical-accessories",
-    parentCategoryTitle: t("products-data:subcategories.power-supplies.parentCategoryTitle"),
+    parentCategoryTitle: t(
+      "products-data:subcategories.power-supplies.parentCategoryTitle",
+    ),
     icon: Power,
-    keyBenefits: t("products-data:subcategories.power-supplies.keyBenefits", { returnObjects: true }),
-    specifications: t("products-data:subcategories.power-supplies.specifications", { returnObjects: true }),
-    applications: t("products-data:subcategories.power-supplies.applications", { returnObjects: true }),
-    industries: t("products-data:subcategories.power-supplies.industries", { returnObjects: true }),
-    features: t("products-data:subcategories.power-supplies.features", { returnObjects: true }),
-    certifications: t("products-data:subcategories.power-supplies.certifications", { returnObjects: true }),
+    keyBenefits: t("products-data:subcategories.power-supplies.keyBenefits", {
+      returnObjects: true,
+    }),
+    specifications: t(
+      "products-data:subcategories.power-supplies.specifications",
+      { returnObjects: true },
+    ),
+    applications: t("products-data:subcategories.power-supplies.applications", {
+      returnObjects: true,
+    }),
+    industries: t("products-data:subcategories.power-supplies.industries", {
+      returnObjects: true,
+    }),
+    features: t("products-data:subcategories.power-supplies.features", {
+      returnObjects: true,
+    }),
+    certifications: t(
+      "products-data:subcategories.power-supplies.certifications",
+      { returnObjects: true },
+    ),
     seo: {
       title: t("products-data:subcategories.power-supplies.seo.title"),
-      description: t("products-data:subcategories.power-supplies.seo.description"),
+      description: t(
+        "products-data:subcategories.power-supplies.seo.description",
+      ),
       keywords: t("products-data:subcategories.power-supplies.seo.keywords"),
       canonicalUrl:
         "https://powertonengineering.in/products/electrical-accessories/power-supplies",
@@ -319,22 +542,49 @@ export const getProductsSubCategoryData = (t: any): ProductSubCategoryData[] => 
   {
     slug: "enclosures-cabinets",
     title: t("products-data:subcategories.enclosures-cabinets.title"),
-    shortDescription: t("products-data:subcategories.enclosures-cabinets.shortDescription"),
-    fullDescription: t("products-data:subcategories.enclosures-cabinets.fullDescription"),
+    shortDescription: t(
+      "products-data:subcategories.enclosures-cabinets.shortDescription",
+    ),
+    fullDescription: t(
+      "products-data:subcategories.enclosures-cabinets.fullDescription",
+    ),
     image: enclosuresImage,
     parentCategory: "/products/electrical-accessories",
-    parentCategoryTitle: t("products-data:subcategories.enclosures-cabinets.parentCategoryTitle"),
+    parentCategoryTitle: t(
+      "products-data:subcategories.enclosures-cabinets.parentCategoryTitle",
+    ),
     icon: HardHat,
-    keyBenefits: t("products-data:subcategories.enclosures-cabinets.keyBenefits", { returnObjects: true }),
-    specifications: t("products-data:subcategories.enclosures-cabinets.specifications", { returnObjects: true }),
-    applications: t("products-data:subcategories.enclosures-cabinets.applications", { returnObjects: true }),
-    industries: t("products-data:subcategories.enclosures-cabinets.industries", { returnObjects: true }),
-    features: t("products-data:subcategories.enclosures-cabinets.features", { returnObjects: true }),
-    certifications: t("products-data:subcategories.enclosures-cabinets.certifications", { returnObjects: true }),
+    keyBenefits: t(
+      "products-data:subcategories.enclosures-cabinets.keyBenefits",
+      { returnObjects: true },
+    ),
+    specifications: t(
+      "products-data:subcategories.enclosures-cabinets.specifications",
+      { returnObjects: true },
+    ),
+    applications: t(
+      "products-data:subcategories.enclosures-cabinets.applications",
+      { returnObjects: true },
+    ),
+    industries: t(
+      "products-data:subcategories.enclosures-cabinets.industries",
+      { returnObjects: true },
+    ),
+    features: t("products-data:subcategories.enclosures-cabinets.features", {
+      returnObjects: true,
+    }),
+    certifications: t(
+      "products-data:subcategories.enclosures-cabinets.certifications",
+      { returnObjects: true },
+    ),
     seo: {
       title: t("products-data:subcategories.enclosures-cabinets.seo.title"),
-      description: t("products-data:subcategories.enclosures-cabinets.seo.description"),
-      keywords: t("products-data:subcategories.enclosures-cabinets.seo.keywords"),
+      description: t(
+        "products-data:subcategories.enclosures-cabinets.seo.description",
+      ),
+      keywords: t(
+        "products-data:subcategories.enclosures-cabinets.seo.keywords",
+      ),
       canonicalUrl:
         "https://powertonengineering.in/products/electrical-accessories/enclosures-cabinets",
     },
@@ -342,95 +592,54 @@ export const getProductsSubCategoryData = (t: any): ProductSubCategoryData[] => 
   {
     slug: "heating-elements-appliances",
     title: t("products-data:subcategories.heating-elements-appliances.title"),
-    shortDescription: t("products-data:subcategories.heating-elements-appliances.shortDescription"),
-    fullDescription: t("products-data:subcategories.heating-elements-appliances.fullDescription"),
+    shortDescription: t(
+      "products-data:subcategories.heating-elements-appliances.shortDescription",
+    ),
+    fullDescription: t(
+      "products-data:subcategories.heating-elements-appliances.fullDescription",
+    ),
     image: heatingElementsImage,
     parentCategory: "/products/electrical-accessories",
-    parentCategoryTitle: t("products-data:subcategories.heating-elements-appliances.parentCategoryTitle"),
+    parentCategoryTitle: t(
+      "products-data:subcategories.heating-elements-appliances.parentCategoryTitle",
+    ),
     icon: Activity,
-    keyBenefits: t("products-data:subcategories.heating-elements-appliances.keyBenefits", { returnObjects: true }),
-    specifications: t("products-data:subcategories.heating-elements-appliances.specifications", { returnObjects: true }),
-    applications: t("products-data:subcategories.heating-elements-appliances.applications", { returnObjects: true }),
-    industries: t("products-data:subcategories.heating-elements-appliances.industries", { returnObjects: true }),
-    features: t("products-data:subcategories.heating-elements-appliances.features", { returnObjects: true }),
-    certifications: t("products-data:subcategories.heating-elements-appliances.certifications", { returnObjects: true }),
+    keyBenefits: t(
+      "products-data:subcategories.heating-elements-appliances.keyBenefits",
+      { returnObjects: true },
+    ),
+    specifications: t(
+      "products-data:subcategories.heating-elements-appliances.specifications",
+      { returnObjects: true },
+    ),
+    applications: t(
+      "products-data:subcategories.heating-elements-appliances.applications",
+      { returnObjects: true },
+    ),
+    industries: t(
+      "products-data:subcategories.heating-elements-appliances.industries",
+      { returnObjects: true },
+    ),
+    features: t(
+      "products-data:subcategories.heating-elements-appliances.features",
+      { returnObjects: true },
+    ),
+    certifications: t(
+      "products-data:subcategories.heating-elements-appliances.certifications",
+      { returnObjects: true },
+    ),
     seo: {
-      title: t("products-data:subcategories.heating-elements-appliances.seo.title"),
-      description: t("products-data:subcategories.heating-elements-appliances.seo.description"),
-      keywords: t("products-data:subcategories.heating-elements-appliances.seo.keywords"),
+      title: t(
+        "products-data:subcategories.heating-elements-appliances.seo.title",
+      ),
+      description: t(
+        "products-data:subcategories.heating-elements-appliances.seo.description",
+      ),
+      keywords: t(
+        "products-data:subcategories.heating-elements-appliances.seo.keywords",
+      ),
       canonicalUrl:
         "https://powertonengineering.in/products/electrical-accessories/heating-elements-appliances",
-    },
-  },
-
-  // Industrial Measuring Tools
-  {
-    slug: "multimeters",
-    title: t("products-data:subcategories.multimeters.title"),
-    shortDescription: t("products-data:subcategories.multimeters.shortDescription"),
-    fullDescription: t("products-data:subcategories.multimeters.fullDescription"),
-    image: multimetersImage,
-    parentCategory: "/products/industrial-measuring-tools",
-    parentCategoryTitle: t("products-data:subcategories.multimeters.parentCategoryTitle"),
-    icon: BarChart3,
-    keyBenefits: t("products-data:subcategories.multimeters.keyBenefits", { returnObjects: true }),
-    specifications: t("products-data:subcategories.multimeters.specifications", { returnObjects: true }),
-    applications: t("products-data:subcategories.multimeters.applications", { returnObjects: true }),
-    industries: t("products-data:subcategories.multimeters.industries", { returnObjects: true }),
-    features: t("products-data:subcategories.multimeters.features", { returnObjects: true }),
-    certifications: t("products-data:subcategories.multimeters.certifications", { returnObjects: true }),
-    seo: {
-      title: t("products-data:subcategories.multimeters.seo.title"),
-      description: t("products-data:subcategories.multimeters.seo.description"),
-      keywords: t("products-data:subcategories.multimeters.seo.keywords"),
-      canonicalUrl:
-        "https://powertonengineering.in/products/industrial-measuring-tools/multimeters",
-    },
-  },
-  {
-    slug: "power-quality-analyzers",
-    title: t("products-data:subcategories.power-quality-analyzers.title"),
-    shortDescription: t("products-data:subcategories.power-quality-analyzers.shortDescription"),
-    fullDescription: t("products-data:subcategories.power-quality-analyzers.fullDescription"),
-    image: powerQualityAnalyzerImage,
-    parentCategory: "/products/industrial-measuring-tools",
-    parentCategoryTitle: t("products-data:subcategories.power-quality-analyzers.parentCategoryTitle"),
-    icon: Search,
-    keyBenefits: t("products-data:subcategories.power-quality-analyzers.keyBenefits", { returnObjects: true }),
-    specifications: t("products-data:subcategories.power-quality-analyzers.specifications", { returnObjects: true }),
-    applications: t("products-data:subcategories.power-quality-analyzers.applications", { returnObjects: true }),
-    industries: t("products-data:subcategories.power-quality-analyzers.industries", { returnObjects: true }),
-    features: t("products-data:subcategories.power-quality-analyzers.features", { returnObjects: true }),
-    certifications: t("products-data:subcategories.power-quality-analyzers.certifications", { returnObjects: true }),
-    seo: {
-      title: t("products-data:subcategories.power-quality-analyzers.seo.title"),
-      description: t("products-data:subcategories.power-quality-analyzers.seo.description"),
-      keywords: t("products-data:subcategories.power-quality-analyzers.seo.keywords"),
-      canonicalUrl:
-        "https://powertonengineering.in/products/industrial-measuring-tools/power-quality-analyzers",
-    },
-  },
-  {
-    slug: "calibration-equipment",
-    title: t("products-data:subcategories.calibration-equipment.title"),
-    shortDescription: t("products-data:subcategories.calibration-equipment.shortDescription"),
-    fullDescription: t("products-data:subcategories.calibration-equipment.fullDescription"),
-    image: calibrationImage,
-    parentCategory: "/products/industrial-measuring-tools",
-    parentCategoryTitle: t("products-data:subcategories.calibration-equipment.parentCategoryTitle"),
-    icon: Settings,
-    keyBenefits: t("products-data:subcategories.calibration-equipment.keyBenefits", { returnObjects: true }),
-    specifications: t("products-data:subcategories.calibration-equipment.specifications", { returnObjects: true }),
-    applications: t("products-data:subcategories.calibration-equipment.applications", { returnObjects: true }),
-    industries: t("products-data:subcategories.calibration-equipment.industries", { returnObjects: true }),
-    features: t("products-data:subcategories.calibration-equipment.features", { returnObjects: true }),
-    certifications: t("products-data:subcategories.calibration-equipment.certifications", { returnObjects: true }),
-    seo: {
-      title: t("products-data:subcategories.calibration-equipment.seo.title"),
-      description: t("products-data:subcategories.calibration-equipment.seo.description"),
-      keywords: t("products-data:subcategories.calibration-equipment.seo.keywords"),
-      canonicalUrl:
-        "https://powertonengineering.in/products/industrial-measuring-tools/calibration-equipment",
     },
   },
 
@@ -438,21 +647,43 @@ export const getProductsSubCategoryData = (t: any): ProductSubCategoryData[] => 
   {
     slug: "solar-panels",
     title: t("products-data:subcategories.solar-panels.title"),
-    shortDescription: t("products-data:subcategories.solar-panels.shortDescription"),
-    fullDescription: t("products-data:subcategories.solar-panels.fullDescription"),
+    shortDescription: t(
+      "products-data:subcategories.solar-panels.shortDescription",
+    ),
+    fullDescription: t(
+      "products-data:subcategories.solar-panels.fullDescription",
+    ),
     image: solarPanelsImage,
     parentCategory: "/products/solar-products",
-    parentCategoryTitle: t("products-data:subcategories.solar-panels.parentCategoryTitle"),
+    parentCategoryTitle: t(
+      "products-data:subcategories.solar-panels.parentCategoryTitle",
+    ),
     icon: Sun,
-    keyBenefits: t("products-data:subcategories.solar-panels.keyBenefits", { returnObjects: true }),
-    specifications: t("products-data:subcategories.solar-panels.specifications", { returnObjects: true }),
-    applications: t("products-data:subcategories.solar-panels.applications", { returnObjects: true }),
-    industries: t("products-data:subcategories.solar-panels.industries", { returnObjects: true }),
-    features: t("products-data:subcategories.solar-panels.features", { returnObjects: true }),
-    certifications: t("products-data:subcategories.solar-panels.certifications", { returnObjects: true }),
+    keyBenefits: t("products-data:subcategories.solar-panels.keyBenefits", {
+      returnObjects: true,
+    }),
+    specifications: t(
+      "products-data:subcategories.solar-panels.specifications",
+      { returnObjects: true },
+    ),
+    applications: t("products-data:subcategories.solar-panels.applications", {
+      returnObjects: true,
+    }),
+    industries: t("products-data:subcategories.solar-panels.industries", {
+      returnObjects: true,
+    }),
+    features: t("products-data:subcategories.solar-panels.features", {
+      returnObjects: true,
+    }),
+    certifications: t(
+      "products-data:subcategories.solar-panels.certifications",
+      { returnObjects: true },
+    ),
     seo: {
       title: t("products-data:subcategories.solar-panels.seo.title"),
-      description: t("products-data:subcategories.solar-panels.seo.description"),
+      description: t(
+        "products-data:subcategories.solar-panels.seo.description",
+      ),
       keywords: t("products-data:subcategories.solar-panels.seo.keywords"),
       canonicalUrl:
         "https://powertonengineering.in/products/solar-products/solar-panels",
@@ -461,21 +692,44 @@ export const getProductsSubCategoryData = (t: any): ProductSubCategoryData[] => 
   {
     slug: "solar-inverters",
     title: t("products-data:subcategories.solar-inverters.title"),
-    shortDescription: t("products-data:subcategories.solar-inverters.shortDescription"),
-    fullDescription: t("products-data:subcategories.solar-inverters.fullDescription"),
+    shortDescription: t(
+      "products-data:subcategories.solar-inverters.shortDescription",
+    ),
+    fullDescription: t(
+      "products-data:subcategories.solar-inverters.fullDescription",
+    ),
     image: solarInvertersImage,
     parentCategory: "/products/solar-products",
-    parentCategoryTitle: t("products-data:subcategories.solar-inverters.parentCategoryTitle"),
+    parentCategoryTitle: t(
+      "products-data:subcategories.solar-inverters.parentCategoryTitle",
+    ),
     icon: Battery,
-    keyBenefits: t("products-data:subcategories.solar-inverters.keyBenefits", { returnObjects: true }),
-    specifications: t("products-data:subcategories.solar-inverters.specifications", { returnObjects: true }),
-    applications: t("products-data:subcategories.solar-inverters.applications", { returnObjects: true }),
-    industries: t("products-data:subcategories.solar-inverters.industries", { returnObjects: true }),
-    features: t("products-data:subcategories.solar-inverters.features", { returnObjects: true }),
-    certifications: t("products-data:subcategories.solar-inverters.certifications", { returnObjects: true }),
+    keyBenefits: t("products-data:subcategories.solar-inverters.keyBenefits", {
+      returnObjects: true,
+    }),
+    specifications: t(
+      "products-data:subcategories.solar-inverters.specifications",
+      { returnObjects: true },
+    ),
+    applications: t(
+      "products-data:subcategories.solar-inverters.applications",
+      { returnObjects: true },
+    ),
+    industries: t("products-data:subcategories.solar-inverters.industries", {
+      returnObjects: true,
+    }),
+    features: t("products-data:subcategories.solar-inverters.features", {
+      returnObjects: true,
+    }),
+    certifications: t(
+      "products-data:subcategories.solar-inverters.certifications",
+      { returnObjects: true },
+    ),
     seo: {
       title: t("products-data:subcategories.solar-inverters.seo.title"),
-      description: t("products-data:subcategories.solar-inverters.seo.description"),
+      description: t(
+        "products-data:subcategories.solar-inverters.seo.description",
+      ),
       keywords: t("products-data:subcategories.solar-inverters.seo.keywords"),
       canonicalUrl:
         "https://powertonengineering.in/products/solar-products/solar-inverters",
@@ -490,14 +744,28 @@ export const getProductsSubCategoryData = (t: any): ProductSubCategoryData[] => 
     fullDescription: t("products-data:subcategories.plcs.fullDescription"),
     image: plcsImage,
     parentCategory: "/products/automation-control-systems",
-    parentCategoryTitle: t("products-data:subcategories.plcs.parentCategoryTitle"),
+    parentCategoryTitle: t(
+      "products-data:subcategories.plcs.parentCategoryTitle",
+    ),
     icon: Cpu,
-    keyBenefits: t("products-data:subcategories.plcs.keyBenefits", { returnObjects: true }),
-    specifications: t("products-data:subcategories.plcs.specifications", { returnObjects: true }),
-    applications: t("products-data:subcategories.plcs.applications", { returnObjects: true }),
-    industries: t("products-data:subcategories.plcs.industries", { returnObjects: true }),
-    features: t("products-data:subcategories.plcs.features", { returnObjects: true }),
-    certifications: t("products-data:subcategories.plcs.certifications", { returnObjects: true }),
+    keyBenefits: t("products-data:subcategories.plcs.keyBenefits", {
+      returnObjects: true,
+    }),
+    specifications: t("products-data:subcategories.plcs.specifications", {
+      returnObjects: true,
+    }),
+    applications: t("products-data:subcategories.plcs.applications", {
+      returnObjects: true,
+    }),
+    industries: t("products-data:subcategories.plcs.industries", {
+      returnObjects: true,
+    }),
+    features: t("products-data:subcategories.plcs.features", {
+      returnObjects: true,
+    }),
+    certifications: t("products-data:subcategories.plcs.certifications", {
+      returnObjects: true,
+    }),
     seo: {
       title: t("products-data:subcategories.plcs.seo.title"),
       description: t("products-data:subcategories.plcs.seo.description"),
@@ -513,14 +781,28 @@ export const getProductsSubCategoryData = (t: any): ProductSubCategoryData[] => 
     fullDescription: t("products-data:subcategories.scada.fullDescription"),
     image: scadaControlRoomImage,
     parentCategory: "/products/automation-control-systems",
-    parentCategoryTitle: t("products-data:subcategories.scada.parentCategoryTitle"),
+    parentCategoryTitle: t(
+      "products-data:subcategories.scada.parentCategoryTitle",
+    ),
     icon: Monitor,
-    keyBenefits: t("products-data:subcategories.scada.keyBenefits", { returnObjects: true }),
-    specifications: t("products-data:subcategories.scada.specifications", { returnObjects: true }),
-    applications: t("products-data:subcategories.scada.applications", { returnObjects: true }),
-    industries: t("products-data:subcategories.scada.industries", { returnObjects: true }),
-    features: t("products-data:subcategories.scada.features", { returnObjects: true }),
-    certifications: t("products-data:subcategories.scada.certifications", { returnObjects: true }),
+    keyBenefits: t("products-data:subcategories.scada.keyBenefits", {
+      returnObjects: true,
+    }),
+    specifications: t("products-data:subcategories.scada.specifications", {
+      returnObjects: true,
+    }),
+    applications: t("products-data:subcategories.scada.applications", {
+      returnObjects: true,
+    }),
+    industries: t("products-data:subcategories.scada.industries", {
+      returnObjects: true,
+    }),
+    features: t("products-data:subcategories.scada.features", {
+      returnObjects: true,
+    }),
+    certifications: t("products-data:subcategories.scada.certifications", {
+      returnObjects: true,
+    }),
     seo: {
       title: t("products-data:subcategories.scada.seo.title"),
       description: t("products-data:subcategories.scada.seo.description"),
@@ -536,14 +818,28 @@ export const getProductsSubCategoryData = (t: any): ProductSubCategoryData[] => 
     fullDescription: t("products-data:subcategories.dcs.fullDescription"),
     image: dcsControlSystemImage,
     parentCategory: "/products/automation-control-systems",
-    parentCategoryTitle: t("products-data:subcategories.dcs.parentCategoryTitle"),
+    parentCategoryTitle: t(
+      "products-data:subcategories.dcs.parentCategoryTitle",
+    ),
     icon: Database,
-    keyBenefits: t("products-data:subcategories.dcs.keyBenefits", { returnObjects: true }),
-    specifications: t("products-data:subcategories.dcs.specifications", { returnObjects: true }),
-    applications: t("products-data:subcategories.dcs.applications", { returnObjects: true }),
-    industries: t("products-data:subcategories.dcs.industries", { returnObjects: true }),
-    features: t("products-data:subcategories.dcs.features", { returnObjects: true }),
-    certifications: t("products-data:subcategories.dcs.certifications", { returnObjects: true }),
+    keyBenefits: t("products-data:subcategories.dcs.keyBenefits", {
+      returnObjects: true,
+    }),
+    specifications: t("products-data:subcategories.dcs.specifications", {
+      returnObjects: true,
+    }),
+    applications: t("products-data:subcategories.dcs.applications", {
+      returnObjects: true,
+    }),
+    industries: t("products-data:subcategories.dcs.industries", {
+      returnObjects: true,
+    }),
+    features: t("products-data:subcategories.dcs.features", {
+      returnObjects: true,
+    }),
+    certifications: t("products-data:subcategories.dcs.certifications", {
+      returnObjects: true,
+    }),
     seo: {
       title: t("products-data:subcategories.dcs.seo.title"),
       description: t("products-data:subcategories.dcs.seo.description"),
@@ -559,14 +855,28 @@ export const getProductsSubCategoryData = (t: any): ProductSubCategoryData[] => 
     fullDescription: t("products-data:subcategories.hmi.fullDescription"),
     image: hmiImage,
     parentCategory: "/products/automation-control-systems",
-    parentCategoryTitle: t("products-data:subcategories.hmi.parentCategoryTitle"),
+    parentCategoryTitle: t(
+      "products-data:subcategories.hmi.parentCategoryTitle",
+    ),
     icon: Monitor,
-    keyBenefits: t("products-data:subcategories.hmi.keyBenefits", { returnObjects: true }),
-    specifications: t("products-data:subcategories.hmi.specifications", { returnObjects: true }),
-    applications: t("products-data:subcategories.hmi.applications", { returnObjects: true }),
-    industries: t("products-data:subcategories.hmi.industries", { returnObjects: true }),
-    features: t("products-data:subcategories.hmi.features", { returnObjects: true }),
-    certifications: t("products-data:subcategories.hmi.certifications", { returnObjects: true }),
+    keyBenefits: t("products-data:subcategories.hmi.keyBenefits", {
+      returnObjects: true,
+    }),
+    specifications: t("products-data:subcategories.hmi.specifications", {
+      returnObjects: true,
+    }),
+    applications: t("products-data:subcategories.hmi.applications", {
+      returnObjects: true,
+    }),
+    industries: t("products-data:subcategories.hmi.industries", {
+      returnObjects: true,
+    }),
+    features: t("products-data:subcategories.hmi.features", {
+      returnObjects: true,
+    }),
+    certifications: t("products-data:subcategories.hmi.certifications", {
+      returnObjects: true,
+    }),
     seo: {
       title: t("products-data:subcategories.hmi.seo.title"),
       description: t("products-data:subcategories.hmi.seo.description"),
@@ -580,21 +890,44 @@ export const getProductsSubCategoryData = (t: any): ProductSubCategoryData[] => 
   {
     slug: "surge-protectors",
     title: t("products-data:subcategories.surge-protectors.title"),
-    shortDescription: t("products-data:subcategories.surge-protectors.shortDescription"),
-    fullDescription: t("products-data:subcategories.surge-protectors.fullDescription"),
+    shortDescription: t(
+      "products-data:subcategories.surge-protectors.shortDescription",
+    ),
+    fullDescription: t(
+      "products-data:subcategories.surge-protectors.fullDescription",
+    ),
     image: surgeProtectorsElectricalImage,
     parentCategory: "/products/safety-protective-devices",
-    parentCategoryTitle: t("products-data:subcategories.surge-protectors.parentCategoryTitle"),
+    parentCategoryTitle: t(
+      "products-data:subcategories.surge-protectors.parentCategoryTitle",
+    ),
     icon: ShieldCheck,
-    keyBenefits: t("products-data:subcategories.surge-protectors.keyBenefits", { returnObjects: true }),
-    specifications: t("products-data:subcategories.surge-protectors.specifications", { returnObjects: true }),
-    applications: t("products-data:subcategories.surge-protectors.applications", { returnObjects: true }),
-    industries: t("products-data:subcategories.surge-protectors.industries", { returnObjects: true }),
-    features: t("products-data:subcategories.surge-protectors.features", { returnObjects: true }),
-    certifications: t("products-data:subcategories.surge-protectors.certifications", { returnObjects: true }),
+    keyBenefits: t("products-data:subcategories.surge-protectors.keyBenefits", {
+      returnObjects: true,
+    }),
+    specifications: t(
+      "products-data:subcategories.surge-protectors.specifications",
+      { returnObjects: true },
+    ),
+    applications: t(
+      "products-data:subcategories.surge-protectors.applications",
+      { returnObjects: true },
+    ),
+    industries: t("products-data:subcategories.surge-protectors.industries", {
+      returnObjects: true,
+    }),
+    features: t("products-data:subcategories.surge-protectors.features", {
+      returnObjects: true,
+    }),
+    certifications: t(
+      "products-data:subcategories.surge-protectors.certifications",
+      { returnObjects: true },
+    ),
     seo: {
       title: t("products-data:subcategories.surge-protectors.seo.title"),
-      description: t("products-data:subcategories.surge-protectors.seo.description"),
+      description: t(
+        "products-data:subcategories.surge-protectors.seo.description",
+      ),
       keywords: t("products-data:subcategories.surge-protectors.seo.keywords"),
       canonicalUrl:
         "https://powertonengineering.in/products/safety-protective-devices/surge-protectors",
@@ -603,21 +936,45 @@ export const getProductsSubCategoryData = (t: any): ProductSubCategoryData[] => 
   {
     slug: "grounding-systems",
     title: t("products-data:subcategories.grounding-systems.title"),
-    shortDescription: t("products-data:subcategories.grounding-systems.shortDescription"),
-    fullDescription: t("products-data:subcategories.grounding-systems.fullDescription"),
+    shortDescription: t(
+      "products-data:subcategories.grounding-systems.shortDescription",
+    ),
+    fullDescription: t(
+      "products-data:subcategories.grounding-systems.fullDescription",
+    ),
     image: groundingSystemsImage,
     parentCategory: "/products/safety-protective-devices",
-    parentCategoryTitle: t("products-data:subcategories.grounding-systems.parentCategoryTitle"),
+    parentCategoryTitle: t(
+      "products-data:subcategories.grounding-systems.parentCategoryTitle",
+    ),
     icon: Target,
-    keyBenefits: t("products-data:subcategories.grounding-systems.keyBenefits", { returnObjects: true }),
-    specifications: t("products-data:subcategories.grounding-systems.specifications", { returnObjects: true }),
-    applications: t("products-data:subcategories.grounding-systems.applications", { returnObjects: true }),
-    industries: t("products-data:subcategories.grounding-systems.industries", { returnObjects: true }),
-    features: t("products-data:subcategories.grounding-systems.features", { returnObjects: true }),
-    certifications: t("products-data:subcategories.grounding-systems.certifications", { returnObjects: true }),
+    keyBenefits: t(
+      "products-data:subcategories.grounding-systems.keyBenefits",
+      { returnObjects: true },
+    ),
+    specifications: t(
+      "products-data:subcategories.grounding-systems.specifications",
+      { returnObjects: true },
+    ),
+    applications: t(
+      "products-data:subcategories.grounding-systems.applications",
+      { returnObjects: true },
+    ),
+    industries: t("products-data:subcategories.grounding-systems.industries", {
+      returnObjects: true,
+    }),
+    features: t("products-data:subcategories.grounding-systems.features", {
+      returnObjects: true,
+    }),
+    certifications: t(
+      "products-data:subcategories.grounding-systems.certifications",
+      { returnObjects: true },
+    ),
     seo: {
       title: t("products-data:subcategories.grounding-systems.seo.title"),
-      description: t("products-data:subcategories.grounding-systems.seo.description"),
+      description: t(
+        "products-data:subcategories.grounding-systems.seo.description",
+      ),
       keywords: t("products-data:subcategories.grounding-systems.seo.keywords"),
       canonicalUrl:
         "https://powertonengineering.in/products/safety-protective-devices/grounding-systems",
@@ -626,22 +983,49 @@ export const getProductsSubCategoryData = (t: any): ProductSubCategoryData[] => 
   {
     slug: "safety-relays-switches",
     title: t("products-data:subcategories.safety-relays-switches.title"),
-    shortDescription: t("products-data:subcategories.safety-relays-switches.shortDescription"),
-    fullDescription: t("products-data:subcategories.safety-relays-switches.fullDescription"),
+    shortDescription: t(
+      "products-data:subcategories.safety-relays-switches.shortDescription",
+    ),
+    fullDescription: t(
+      "products-data:subcategories.safety-relays-switches.fullDescription",
+    ),
     image: safetyRelaysSwitchesImage,
     parentCategory: "/products/safety-protective-devices",
-    parentCategoryTitle: t("products-data:subcategories.safety-relays-switches.parentCategoryTitle"),
+    parentCategoryTitle: t(
+      "products-data:subcategories.safety-relays-switches.parentCategoryTitle",
+    ),
     icon: AlertTriangle,
-    keyBenefits: t("products-data:subcategories.safety-relays-switches.keyBenefits", { returnObjects: true }),
-    specifications: t("products-data:subcategories.safety-relays-switches.specifications", { returnObjects: true }),
-    applications: t("products-data:subcategories.safety-relays-switches.applications", { returnObjects: true }),
-    industries: t("products-data:subcategories.safety-relays-switches.industries", { returnObjects: true }),
-    features: t("products-data:subcategories.safety-relays-switches.features", { returnObjects: true }),
-    certifications: t("products-data:subcategories.safety-relays-switches.certifications", { returnObjects: true }),
+    keyBenefits: t(
+      "products-data:subcategories.safety-relays-switches.keyBenefits",
+      { returnObjects: true },
+    ),
+    specifications: t(
+      "products-data:subcategories.safety-relays-switches.specifications",
+      { returnObjects: true },
+    ),
+    applications: t(
+      "products-data:subcategories.safety-relays-switches.applications",
+      { returnObjects: true },
+    ),
+    industries: t(
+      "products-data:subcategories.safety-relays-switches.industries",
+      { returnObjects: true },
+    ),
+    features: t("products-data:subcategories.safety-relays-switches.features", {
+      returnObjects: true,
+    }),
+    certifications: t(
+      "products-data:subcategories.safety-relays-switches.certifications",
+      { returnObjects: true },
+    ),
     seo: {
       title: t("products-data:subcategories.safety-relays-switches.seo.title"),
-      description: t("products-data:subcategories.safety-relays-switches.seo.description"),
-      keywords: t("products-data:subcategories.safety-relays-switches.seo.keywords"),
+      description: t(
+        "products-data:subcategories.safety-relays-switches.seo.description",
+      ),
+      keywords: t(
+        "products-data:subcategories.safety-relays-switches.seo.keywords",
+      ),
       canonicalUrl:
         "https://powertonengineering.in/products/safety-protective-devices/safety-relays-switches",
     },
@@ -649,22 +1033,52 @@ export const getProductsSubCategoryData = (t: any): ProductSubCategoryData[] => 
   {
     slug: "intrinsically-safe-equipment",
     title: t("products-data:subcategories.intrinsically-safe-equipment.title"),
-    shortDescription: t("products-data:subcategories.intrinsically-safe-equipment.shortDescription"),
-    fullDescription: t("products-data:subcategories.intrinsically-safe-equipment.fullDescription"),
+    shortDescription: t(
+      "products-data:subcategories.intrinsically-safe-equipment.shortDescription",
+    ),
+    fullDescription: t(
+      "products-data:subcategories.intrinsically-safe-equipment.fullDescription",
+    ),
     image: intrinsicallySafeImage,
     parentCategory: "/products/safety-protective-devices",
-    parentCategoryTitle: t("products-data:subcategories.intrinsically-safe-equipment.parentCategoryTitle"),
+    parentCategoryTitle: t(
+      "products-data:subcategories.intrinsically-safe-equipment.parentCategoryTitle",
+    ),
     icon: ShieldCheck,
-    keyBenefits: t("products-data:subcategories.intrinsically-safe-equipment.keyBenefits", { returnObjects: true }),
-    specifications: t("products-data:subcategories.intrinsically-safe-equipment.specifications", { returnObjects: true }),
-    applications: t("products-data:subcategories.intrinsically-safe-equipment.applications", { returnObjects: true }),
-    industries: t("products-data:subcategories.intrinsically-safe-equipment.industries", { returnObjects: true }),
-    features: t("products-data:subcategories.intrinsically-safe-equipment.features", { returnObjects: true }),
-    certifications: t("products-data:subcategories.intrinsically-safe-equipment.certifications", { returnObjects: true }),
+    keyBenefits: t(
+      "products-data:subcategories.intrinsically-safe-equipment.keyBenefits",
+      { returnObjects: true },
+    ),
+    specifications: t(
+      "products-data:subcategories.intrinsically-safe-equipment.specifications",
+      { returnObjects: true },
+    ),
+    applications: t(
+      "products-data:subcategories.intrinsically-safe-equipment.applications",
+      { returnObjects: true },
+    ),
+    industries: t(
+      "products-data:subcategories.intrinsically-safe-equipment.industries",
+      { returnObjects: true },
+    ),
+    features: t(
+      "products-data:subcategories.intrinsically-safe-equipment.features",
+      { returnObjects: true },
+    ),
+    certifications: t(
+      "products-data:subcategories.intrinsically-safe-equipment.certifications",
+      { returnObjects: true },
+    ),
     seo: {
-      title: t("products-data:subcategories.intrinsically-safe-equipment.seo.title"),
-      description: t("products-data:subcategories.intrinsically-safe-equipment.seo.description"),
-      keywords: t("products-data:subcategories.intrinsically-safe-equipment.seo.keywords"),
+      title: t(
+        "products-data:subcategories.intrinsically-safe-equipment.seo.title",
+      ),
+      description: t(
+        "products-data:subcategories.intrinsically-safe-equipment.seo.description",
+      ),
+      keywords: t(
+        "products-data:subcategories.intrinsically-safe-equipment.seo.keywords",
+      ),
       canonicalUrl:
         "https://powertonengineering.in/products/safety-protective-devices/intrinsically-safe-equipment",
     },
@@ -672,21 +1086,44 @@ export const getProductsSubCategoryData = (t: any): ProductSubCategoryData[] => 
   {
     slug: "safety-equipment",
     title: t("products-data:subcategories.safety-equipment.title"),
-    shortDescription: t("products-data:subcategories.safety-equipment.shortDescription"),
-    fullDescription: t("products-data:subcategories.safety-equipment.fullDescription"),
+    shortDescription: t(
+      "products-data:subcategories.safety-equipment.shortDescription",
+    ),
+    fullDescription: t(
+      "products-data:subcategories.safety-equipment.fullDescription",
+    ),
     image: safetyEquipmentImage,
     parentCategory: "/products/safety-protective-devices",
-    parentCategoryTitle: t("products-data:subcategories.safety-equipment.parentCategoryTitle"),
+    parentCategoryTitle: t(
+      "products-data:subcategories.safety-equipment.parentCategoryTitle",
+    ),
     icon: Shield,
-    keyBenefits: t("products-data:subcategories.safety-equipment.keyBenefits", { returnObjects: true }),
-    specifications: t("products-data:subcategories.safety-equipment.specifications", { returnObjects: true }),
-    applications: t("products-data:subcategories.safety-equipment.applications", { returnObjects: true }),
-    industries: t("products-data:subcategories.safety-equipment.industries", { returnObjects: true }),
-    features: t("products-data:subcategories.safety-equipment.features", { returnObjects: true }),
-    certifications: t("products-data:subcategories.safety-equipment.certifications", { returnObjects: true }),
+    keyBenefits: t("products-data:subcategories.safety-equipment.keyBenefits", {
+      returnObjects: true,
+    }),
+    specifications: t(
+      "products-data:subcategories.safety-equipment.specifications",
+      { returnObjects: true },
+    ),
+    applications: t(
+      "products-data:subcategories.safety-equipment.applications",
+      { returnObjects: true },
+    ),
+    industries: t("products-data:subcategories.safety-equipment.industries", {
+      returnObjects: true,
+    }),
+    features: t("products-data:subcategories.safety-equipment.features", {
+      returnObjects: true,
+    }),
+    certifications: t(
+      "products-data:subcategories.safety-equipment.certifications",
+      { returnObjects: true },
+    ),
     seo: {
       title: t("products-data:subcategories.safety-equipment.seo.title"),
-      description: t("products-data:subcategories.safety-equipment.seo.description"),
+      description: t(
+        "products-data:subcategories.safety-equipment.seo.description",
+      ),
       keywords: t("products-data:subcategories.safety-equipment.seo.keywords"),
       canonicalUrl:
         "https://powertonengineering.in/products/safety-protective-devices/safety-equipment",
@@ -697,21 +1134,45 @@ export const getProductsSubCategoryData = (t: any): ProductSubCategoryData[] => 
   {
     slug: "centrifugal-pumps",
     title: t("products-data:subcategories.centrifugal-pumps.title"),
-    shortDescription: t("products-data:subcategories.centrifugal-pumps.shortDescription"),
-    fullDescription: t("products-data:subcategories.centrifugal-pumps.fullDescription"),
+    shortDescription: t(
+      "products-data:subcategories.centrifugal-pumps.shortDescription",
+    ),
+    fullDescription: t(
+      "products-data:subcategories.centrifugal-pumps.fullDescription",
+    ),
     image: centrifugalPumpsImage,
     parentCategory: "/products/mechanical-pumps-spares",
-    parentCategoryTitle: t("products-data:subcategories.centrifugal-pumps.parentCategoryTitle"),
+    parentCategoryTitle: t(
+      "products-data:subcategories.centrifugal-pumps.parentCategoryTitle",
+    ),
     icon: RotateCcw,
-    keyBenefits: t("products-data:subcategories.centrifugal-pumps.keyBenefits", { returnObjects: true }),
-    specifications: t("products-data:subcategories.centrifugal-pumps.specifications", { returnObjects: true }),
-    applications: t("products-data:subcategories.centrifugal-pumps.applications", { returnObjects: true }),
-    industries: t("products-data:subcategories.centrifugal-pumps.industries", { returnObjects: true }),
-    features: t("products-data:subcategories.centrifugal-pumps.features", { returnObjects: true }),
-    certifications: t("products-data:subcategories.centrifugal-pumps.certifications", { returnObjects: true }),
+    keyBenefits: t(
+      "products-data:subcategories.centrifugal-pumps.keyBenefits",
+      { returnObjects: true },
+    ),
+    specifications: t(
+      "products-data:subcategories.centrifugal-pumps.specifications",
+      { returnObjects: true },
+    ),
+    applications: t(
+      "products-data:subcategories.centrifugal-pumps.applications",
+      { returnObjects: true },
+    ),
+    industries: t("products-data:subcategories.centrifugal-pumps.industries", {
+      returnObjects: true,
+    }),
+    features: t("products-data:subcategories.centrifugal-pumps.features", {
+      returnObjects: true,
+    }),
+    certifications: t(
+      "products-data:subcategories.centrifugal-pumps.certifications",
+      { returnObjects: true },
+    ),
     seo: {
       title: t("products-data:subcategories.centrifugal-pumps.seo.title"),
-      description: t("products-data:subcategories.centrifugal-pumps.seo.description"),
+      description: t(
+        "products-data:subcategories.centrifugal-pumps.seo.description",
+      ),
       keywords: t("products-data:subcategories.centrifugal-pumps.seo.keywords"),
       canonicalUrl:
         "https://powertonengineering.in/products/mechanical-pumps-spares/centrifugal-pumps",
@@ -720,21 +1181,44 @@ export const getProductsSubCategoryData = (t: any): ProductSubCategoryData[] => 
   {
     slug: "diaphragm-pumps",
     title: t("products-data:subcategories.diaphragm-pumps.title"),
-    shortDescription: t("products-data:subcategories.diaphragm-pumps.shortDescription"),
-    fullDescription: t("products-data:subcategories.diaphragm-pumps.fullDescription"),
+    shortDescription: t(
+      "products-data:subcategories.diaphragm-pumps.shortDescription",
+    ),
+    fullDescription: t(
+      "products-data:subcategories.diaphragm-pumps.fullDescription",
+    ),
     image: diaphragmPumpsImage,
     parentCategory: "/products/mechanical-pumps-spares",
-    parentCategoryTitle: t("products-data:subcategories.diaphragm-pumps.parentCategoryTitle"),
+    parentCategoryTitle: t(
+      "products-data:subcategories.diaphragm-pumps.parentCategoryTitle",
+    ),
     icon: Droplets,
-    keyBenefits: t("products-data:subcategories.diaphragm-pumps.keyBenefits", { returnObjects: true }),
-    specifications: t("products-data:subcategories.diaphragm-pumps.specifications", { returnObjects: true }),
-    applications: t("products-data:subcategories.diaphragm-pumps.applications", { returnObjects: true }),
-    industries: t("products-data:subcategories.diaphragm-pumps.industries", { returnObjects: true }),
-    features: t("products-data:subcategories.diaphragm-pumps.features", { returnObjects: true }),
-    certifications: t("products-data:subcategories.diaphragm-pumps.certifications", { returnObjects: true }),
+    keyBenefits: t("products-data:subcategories.diaphragm-pumps.keyBenefits", {
+      returnObjects: true,
+    }),
+    specifications: t(
+      "products-data:subcategories.diaphragm-pumps.specifications",
+      { returnObjects: true },
+    ),
+    applications: t(
+      "products-data:subcategories.diaphragm-pumps.applications",
+      { returnObjects: true },
+    ),
+    industries: t("products-data:subcategories.diaphragm-pumps.industries", {
+      returnObjects: true,
+    }),
+    features: t("products-data:subcategories.diaphragm-pumps.features", {
+      returnObjects: true,
+    }),
+    certifications: t(
+      "products-data:subcategories.diaphragm-pumps.certifications",
+      { returnObjects: true },
+    ),
     seo: {
       title: t("products-data:subcategories.diaphragm-pumps.seo.title"),
-      description: t("products-data:subcategories.diaphragm-pumps.seo.description"),
+      description: t(
+        "products-data:subcategories.diaphragm-pumps.seo.description",
+      ),
       keywords: t("products-data:subcategories.diaphragm-pumps.seo.keywords"),
       canonicalUrl:
         "https://powertonengineering.in/products/mechanical-pumps-spares/diaphragm-pumps",
@@ -743,18 +1227,36 @@ export const getProductsSubCategoryData = (t: any): ProductSubCategoryData[] => 
   {
     slug: "gear-pumps",
     title: t("products-data:subcategories.gear-pumps.title"),
-    shortDescription: t("products-data:subcategories.gear-pumps.shortDescription"),
-    fullDescription: t("products-data:subcategories.gear-pumps.fullDescription"),
+    shortDescription: t(
+      "products-data:subcategories.gear-pumps.shortDescription",
+    ),
+    fullDescription: t(
+      "products-data:subcategories.gear-pumps.fullDescription",
+    ),
     image: gearPumpsImage,
     parentCategory: "/products/mechanical-pumps-spares",
-    parentCategoryTitle: t("products-data:subcategories.gear-pumps.parentCategoryTitle"),
+    parentCategoryTitle: t(
+      "products-data:subcategories.gear-pumps.parentCategoryTitle",
+    ),
     icon: Settings,
-    keyBenefits: t("products-data:subcategories.gear-pumps.keyBenefits", { returnObjects: true }),
-    specifications: t("products-data:subcategories.gear-pumps.specifications", { returnObjects: true }),
-    applications: t("products-data:subcategories.gear-pumps.applications", { returnObjects: true }),
-    industries: t("products-data:subcategories.gear-pumps.industries", { returnObjects: true }),
-    features: t("products-data:subcategories.gear-pumps.features", { returnObjects: true }),
-    certifications: t("products-data:subcategories.gear-pumps.certifications", { returnObjects: true }),
+    keyBenefits: t("products-data:subcategories.gear-pumps.keyBenefits", {
+      returnObjects: true,
+    }),
+    specifications: t("products-data:subcategories.gear-pumps.specifications", {
+      returnObjects: true,
+    }),
+    applications: t("products-data:subcategories.gear-pumps.applications", {
+      returnObjects: true,
+    }),
+    industries: t("products-data:subcategories.gear-pumps.industries", {
+      returnObjects: true,
+    }),
+    features: t("products-data:subcategories.gear-pumps.features", {
+      returnObjects: true,
+    }),
+    certifications: t("products-data:subcategories.gear-pumps.certifications", {
+      returnObjects: true,
+    }),
     seo: {
       title: t("products-data:subcategories.gear-pumps.seo.title"),
       description: t("products-data:subcategories.gear-pumps.seo.description"),
@@ -766,21 +1268,45 @@ export const getProductsSubCategoryData = (t: any): ProductSubCategoryData[] => 
   {
     slug: "pump-parts-spares",
     title: t("products-data:subcategories.pump-parts-spares.title"),
-    shortDescription: t("products-data:subcategories.pump-parts-spares.shortDescription"),
-    fullDescription: t("products-data:subcategories.pump-parts-spares.fullDescription"),
+    shortDescription: t(
+      "products-data:subcategories.pump-parts-spares.shortDescription",
+    ),
+    fullDescription: t(
+      "products-data:subcategories.pump-parts-spares.fullDescription",
+    ),
     image: pumpSparesWarehouseImage,
     parentCategory: "/products/mechanical-pumps-spares",
-    parentCategoryTitle: t("products-data:subcategories.pump-parts-spares.parentCategoryTitle"),
+    parentCategoryTitle: t(
+      "products-data:subcategories.pump-parts-spares.parentCategoryTitle",
+    ),
     icon: Wrench,
-    keyBenefits: t("products-data:subcategories.pump-parts-spares.keyBenefits", { returnObjects: true }),
-    specifications: t("products-data:subcategories.pump-parts-spares.specifications", { returnObjects: true }),
-    applications: t("products-data:subcategories.pump-parts-spares.applications", { returnObjects: true }),
-    industries: t("products-data:subcategories.pump-parts-spares.industries", { returnObjects: true }),
-    features: t("products-data:subcategories.pump-parts-spares.features", { returnObjects: true }),
-    certifications: t("products-data:subcategories.pump-parts-spares.certifications", { returnObjects: true }),
+    keyBenefits: t(
+      "products-data:subcategories.pump-parts-spares.keyBenefits",
+      { returnObjects: true },
+    ),
+    specifications: t(
+      "products-data:subcategories.pump-parts-spares.specifications",
+      { returnObjects: true },
+    ),
+    applications: t(
+      "products-data:subcategories.pump-parts-spares.applications",
+      { returnObjects: true },
+    ),
+    industries: t("products-data:subcategories.pump-parts-spares.industries", {
+      returnObjects: true,
+    }),
+    features: t("products-data:subcategories.pump-parts-spares.features", {
+      returnObjects: true,
+    }),
+    certifications: t(
+      "products-data:subcategories.pump-parts-spares.certifications",
+      { returnObjects: true },
+    ),
     seo: {
       title: t("products-data:subcategories.pump-parts-spares.seo.title"),
-      description: t("products-data:subcategories.pump-parts-spares.seo.description"),
+      description: t(
+        "products-data:subcategories.pump-parts-spares.seo.description",
+      ),
       keywords: t("products-data:subcategories.pump-parts-spares.seo.keywords"),
       canonicalUrl:
         "https://powertonengineering.in/products/mechanical-pumps-spares/pump-parts-spares",
@@ -791,18 +1317,36 @@ export const getProductsSubCategoryData = (t: any): ProductSubCategoryData[] => 
   {
     slug: "hand-tools",
     title: t("products-data:subcategories.hand-tools.title"),
-    shortDescription: t("products-data:subcategories.hand-tools.shortDescription"),
-    fullDescription: t("products-data:subcategories.hand-tools.fullDescription"),
+    shortDescription: t(
+      "products-data:subcategories.hand-tools.shortDescription",
+    ),
+    fullDescription: t(
+      "products-data:subcategories.hand-tools.fullDescription",
+    ),
     image: handToolsWorkshopImage,
     parentCategory: "/products/industrial-measuring-tools",
-    parentCategoryTitle: t("products-data:subcategories.hand-tools.parentCategoryTitle"),
+    parentCategoryTitle: t(
+      "products-data:subcategories.hand-tools.parentCategoryTitle",
+    ),
     icon: Hammer,
-    keyBenefits: t("products-data:subcategories.hand-tools.keyBenefits", { returnObjects: true }),
-    specifications: t("products-data:subcategories.hand-tools.specifications", { returnObjects: true }),
-    applications: t("products-data:subcategories.hand-tools.applications", { returnObjects: true }),
-    industries: t("products-data:subcategories.hand-tools.industries", { returnObjects: true }),
-    features: t("products-data:subcategories.hand-tools.features", { returnObjects: true }),
-    certifications: t("products-data:subcategories.hand-tools.certifications", { returnObjects: true }),
+    keyBenefits: t("products-data:subcategories.hand-tools.keyBenefits", {
+      returnObjects: true,
+    }),
+    specifications: t("products-data:subcategories.hand-tools.specifications", {
+      returnObjects: true,
+    }),
+    applications: t("products-data:subcategories.hand-tools.applications", {
+      returnObjects: true,
+    }),
+    industries: t("products-data:subcategories.hand-tools.industries", {
+      returnObjects: true,
+    }),
+    features: t("products-data:subcategories.hand-tools.features", {
+      returnObjects: true,
+    }),
+    certifications: t("products-data:subcategories.hand-tools.certifications", {
+      returnObjects: true,
+    }),
     seo: {
       title: t("products-data:subcategories.hand-tools.seo.title"),
       description: t("products-data:subcategories.hand-tools.seo.description"),
@@ -814,18 +1358,38 @@ export const getProductsSubCategoryData = (t: any): ProductSubCategoryData[] => 
   {
     slug: "power-tools",
     title: t("products-data:subcategories.power-tools.title"),
-    shortDescription: t("products-data:subcategories.power-tools.shortDescription"),
-    fullDescription: t("products-data:subcategories.power-tools.fullDescription"),
+    shortDescription: t(
+      "products-data:subcategories.power-tools.shortDescription",
+    ),
+    fullDescription: t(
+      "products-data:subcategories.power-tools.fullDescription",
+    ),
     image: powerToolsShowcaseImage,
     parentCategory: "/products/industrial-measuring-tools",
-    parentCategoryTitle: t("products-data:subcategories.power-tools.parentCategoryTitle"),
+    parentCategoryTitle: t(
+      "products-data:subcategories.power-tools.parentCategoryTitle",
+    ),
     icon: Drill,
-    keyBenefits: t("products-data:subcategories.power-tools.keyBenefits", { returnObjects: true }),
-    specifications: t("products-data:subcategories.power-tools.specifications", { returnObjects: true }),
-    applications: t("products-data:subcategories.power-tools.applications", { returnObjects: true }),
-    industries: t("products-data:subcategories.power-tools.industries", { returnObjects: true }),
-    features: t("products-data:subcategories.power-tools.features", { returnObjects: true }),
-    certifications: t("products-data:subcategories.power-tools.certifications", { returnObjects: true }),
+    keyBenefits: t("products-data:subcategories.power-tools.keyBenefits", {
+      returnObjects: true,
+    }),
+    specifications: t(
+      "products-data:subcategories.power-tools.specifications",
+      { returnObjects: true },
+    ),
+    applications: t("products-data:subcategories.power-tools.applications", {
+      returnObjects: true,
+    }),
+    industries: t("products-data:subcategories.power-tools.industries", {
+      returnObjects: true,
+    }),
+    features: t("products-data:subcategories.power-tools.features", {
+      returnObjects: true,
+    }),
+    certifications: t(
+      "products-data:subcategories.power-tools.certifications",
+      { returnObjects: true },
+    ),
     seo: {
       title: t("products-data:subcategories.power-tools.seo.title"),
       description: t("products-data:subcategories.power-tools.seo.description"),
@@ -837,21 +1401,43 @@ export const getProductsSubCategoryData = (t: any): ProductSubCategoryData[] => 
   {
     slug: "cutting-tools",
     title: t("products-data:subcategories.cutting-tools.title"),
-    shortDescription: t("products-data:subcategories.cutting-tools.shortDescription"),
-    fullDescription: t("products-data:subcategories.cutting-tools.fullDescription"),
+    shortDescription: t(
+      "products-data:subcategories.cutting-tools.shortDescription",
+    ),
+    fullDescription: t(
+      "products-data:subcategories.cutting-tools.fullDescription",
+    ),
     image: cuttingToolsDisplayImage,
     parentCategory: "/products/industrial-measuring-tools",
-    parentCategoryTitle: t("products-data:subcategories.cutting-tools.parentCategoryTitle"),
+    parentCategoryTitle: t(
+      "products-data:subcategories.cutting-tools.parentCategoryTitle",
+    ),
     icon: Scissors,
-    keyBenefits: t("products-data:subcategories.cutting-tools.keyBenefits", { returnObjects: true }),
-    specifications: t("products-data:subcategories.cutting-tools.specifications", { returnObjects: true }),
-    applications: t("products-data:subcategories.cutting-tools.applications", { returnObjects: true }),
-    industries: t("products-data:subcategories.cutting-tools.industries", { returnObjects: true }),
-    features: t("products-data:subcategories.cutting-tools.features", { returnObjects: true }),
-    certifications: t("products-data:subcategories.cutting-tools.certifications", { returnObjects: true }),
+    keyBenefits: t("products-data:subcategories.cutting-tools.keyBenefits", {
+      returnObjects: true,
+    }),
+    specifications: t(
+      "products-data:subcategories.cutting-tools.specifications",
+      { returnObjects: true },
+    ),
+    applications: t("products-data:subcategories.cutting-tools.applications", {
+      returnObjects: true,
+    }),
+    industries: t("products-data:subcategories.cutting-tools.industries", {
+      returnObjects: true,
+    }),
+    features: t("products-data:subcategories.cutting-tools.features", {
+      returnObjects: true,
+    }),
+    certifications: t(
+      "products-data:subcategories.cutting-tools.certifications",
+      { returnObjects: true },
+    ),
     seo: {
       title: t("products-data:subcategories.cutting-tools.seo.title"),
-      description: t("products-data:subcategories.cutting-tools.seo.description"),
+      description: t(
+        "products-data:subcategories.cutting-tools.seo.description",
+      ),
       keywords: t("products-data:subcategories.cutting-tools.seo.keywords"),
       canonicalUrl:
         "https://powertonengineering.in/products/industrial-measuring-tools/cutting-tools",
@@ -860,93 +1446,344 @@ export const getProductsSubCategoryData = (t: any): ProductSubCategoryData[] => 
   {
     slug: "lifting-equipment",
     title: t("products-data:subcategories.lifting-equipment.title"),
-    shortDescription: t("products-data:subcategories.lifting-equipment.shortDescription"),
-    fullDescription: t("products-data:subcategories.lifting-equipment.fullDescription"),
+    shortDescription: t(
+      "products-data:subcategories.lifting-equipment.shortDescription",
+    ),
+    fullDescription: t(
+      "products-data:subcategories.lifting-equipment.fullDescription",
+    ),
     image: liftingEquipmentWarehouseImage,
     parentCategory: "/products/industrial-measuring-tools",
-    parentCategoryTitle: t("products-data:subcategories.lifting-equipment.parentCategoryTitle"),
+    parentCategoryTitle: t(
+      "products-data:subcategories.lifting-equipment.parentCategoryTitle",
+    ),
     icon: Construction,
-    keyBenefits: t("products-data:subcategories.lifting-equipment.keyBenefits", { returnObjects: true }),
-    specifications: t("products-data:subcategories.lifting-equipment.specifications", { returnObjects: true }),
-    applications: t("products-data:subcategories.lifting-equipment.applications", { returnObjects: true }),
-    industries: t("products-data:subcategories.lifting-equipment.industries", { returnObjects: true }),
-    features: t("products-data:subcategories.lifting-equipment.features", { returnObjects: true }),
-    certifications: t("products-data:subcategories.lifting-equipment.certifications", { returnObjects: true }),
+    keyBenefits: t(
+      "products-data:subcategories.lifting-equipment.keyBenefits",
+      { returnObjects: true },
+    ),
+    specifications: t(
+      "products-data:subcategories.lifting-equipment.specifications",
+      { returnObjects: true },
+    ),
+    applications: t(
+      "products-data:subcategories.lifting-equipment.applications",
+      { returnObjects: true },
+    ),
+    industries: t("products-data:subcategories.lifting-equipment.industries", {
+      returnObjects: true,
+    }),
+    features: t("products-data:subcategories.lifting-equipment.features", {
+      returnObjects: true,
+    }),
+    certifications: t(
+      "products-data:subcategories.lifting-equipment.certifications",
+      { returnObjects: true },
+    ),
     seo: {
       title: t("products-data:subcategories.lifting-equipment.seo.title"),
-      description: t("products-data:subcategories.lifting-equipment.seo.description"),
+      description: t(
+        "products-data:subcategories.lifting-equipment.seo.description",
+      ),
       keywords: t("products-data:subcategories.lifting-equipment.seo.keywords"),
       canonicalUrl:
         "https://powertonengineering.in/products/industrial-measuring-tools/lifting-equipment",
     },
   },
+  {
+    slug: "multimeters",
+    title: t("products-data:subcategories.multimeters.title"),
+    shortDescription: t(
+      "products-data:subcategories.multimeters.shortDescription",
+    ),
+    fullDescription: t(
+      "products-data:subcategories.multimeters.fullDescription",
+    ),
+    image: multimetersImage,
+    parentCategory: "/products/industrial-measuring-tools",
+    parentCategoryTitle: t(
+      "products-data:subcategories.multimeters.parentCategoryTitle",
+    ),
+    icon: BarChart3,
+    keyBenefits: t("products-data:subcategories.multimeters.keyBenefits", {
+      returnObjects: true,
+    }),
+    specifications: t(
+      "products-data:subcategories.multimeters.specifications",
+      { returnObjects: true },
+    ),
+    applications: t("products-data:subcategories.multimeters.applications", {
+      returnObjects: true,
+    }),
+    industries: t("products-data:subcategories.multimeters.industries", {
+      returnObjects: true,
+    }),
+    features: t("products-data:subcategories.multimeters.features", {
+      returnObjects: true,
+    }),
+    certifications: t(
+      "products-data:subcategories.multimeters.certifications",
+      { returnObjects: true },
+    ),
+    seo: {
+      title: t("products-data:subcategories.multimeters.seo.title"),
+      description: t("products-data:subcategories.multimeters.seo.description"),
+      keywords: t("products-data:subcategories.multimeters.seo.keywords"),
+      canonicalUrl:
+        "https://powertonengineering.in/products/industrial-measuring-tools/multimeters",
+    },
+  },
+  {
+    slug: "power-quality-analyzers",
+    title: t("products-data:subcategories.power-quality-analyzers.title"),
+    shortDescription: t(
+      "products-data:subcategories.power-quality-analyzers.shortDescription",
+    ),
+    fullDescription: t(
+      "products-data:subcategories.power-quality-analyzers.fullDescription",
+    ),
+    image: powerQualityAnalyzerImage,
+    parentCategory: "/products/industrial-measuring-tools",
+    parentCategoryTitle: t(
+      "products-data:subcategories.power-quality-analyzers.parentCategoryTitle",
+    ),
+    icon: Search,
+    keyBenefits: t(
+      "products-data:subcategories.power-quality-analyzers.keyBenefits",
+      { returnObjects: true },
+    ),
+    specifications: t(
+      "products-data:subcategories.power-quality-analyzers.specifications",
+      { returnObjects: true },
+    ),
+    applications: t(
+      "products-data:subcategories.power-quality-analyzers.applications",
+      { returnObjects: true },
+    ),
+    industries: t(
+      "products-data:subcategories.power-quality-analyzers.industries",
+      { returnObjects: true },
+    ),
+    features: t(
+      "products-data:subcategories.power-quality-analyzers.features",
+      { returnObjects: true },
+    ),
+    certifications: t(
+      "products-data:subcategories.power-quality-analyzers.certifications",
+      { returnObjects: true },
+    ),
+    seo: {
+      title: t("products-data:subcategories.power-quality-analyzers.seo.title"),
+      description: t(
+        "products-data:subcategories.power-quality-analyzers.seo.description",
+      ),
+      keywords: t(
+        "products-data:subcategories.power-quality-analyzers.seo.keywords",
+      ),
+      canonicalUrl:
+        "https://powertonengineering.in/products/industrial-measuring-tools/power-quality-analyzers",
+    },
+  },
+  {
+    slug: "calibration-equipment",
+    title: t("products-data:subcategories.calibration-equipment.title"),
+    shortDescription: t(
+      "products-data:subcategories.calibration-equipment.shortDescription",
+    ),
+    fullDescription: t(
+      "products-data:subcategories.calibration-equipment.fullDescription",
+    ),
+    image: calibrationImage,
+    parentCategory: "/products/industrial-measuring-tools",
+    parentCategoryTitle: t(
+      "products-data:subcategories.calibration-equipment.parentCategoryTitle",
+    ),
+    icon: Settings,
+    keyBenefits: t(
+      "products-data:subcategories.calibration-equipment.keyBenefits",
+      { returnObjects: true },
+    ),
+    specifications: t(
+      "products-data:subcategories.calibration-equipment.specifications",
+      { returnObjects: true },
+    ),
+    applications: t(
+      "products-data:subcategories.calibration-equipment.applications",
+      { returnObjects: true },
+    ),
+    industries: t(
+      "products-data:subcategories.calibration-equipment.industries",
+      { returnObjects: true },
+    ),
+    features: t("products-data:subcategories.calibration-equipment.features", {
+      returnObjects: true,
+    }),
+    certifications: t(
+      "products-data:subcategories.calibration-equipment.certifications",
+      { returnObjects: true },
+    ),
+    seo: {
+      title: t("products-data:subcategories.calibration-equipment.seo.title"),
+      description: t(
+        "products-data:subcategories.calibration-equipment.seo.description",
+      ),
+      keywords: t(
+        "products-data:subcategories.calibration-equipment.seo.keywords",
+      ),
+      canonicalUrl:
+        "https://powertonengineering.in/products/industrial-measuring-tools/calibration-equipment",
+    },
+  },
 
   // BLDC Products
   {
+    slug: "bldc-cooler-exhaust-motor",
+    title: t("products-data:subcategories.bldc-cooler-exhaust-motor.title"),
+    shortDescription: t(
+      "products-data:subcategories.bldc-cooler-exhaust-motor.shortDescription",
+    ),
+    fullDescription: t(
+      "products-data:subcategories.bldc-cooler-exhaust-motor.fullDescription",
+    ),
+    image: bldcCoolerMotorImage,
+    parentCategory: "/products/bldc",
+    parentCategoryTitle: t(
+      "products-data:subcategories.bldc-cooler-exhaust-motor.parentCategoryTitle",
+    ),
+    icon: Wind,
+    keyBenefits: t(
+      "products-data:subcategories.bldc-cooler-exhaust-motor.keyBenefits",
+      { returnObjects: true },
+    ),
+    specifications: t(
+      "products-data:subcategories.bldc-cooler-exhaust-motor.specifications",
+      { returnObjects: true },
+    ),
+    applications: t(
+      "products-data:subcategories.bldc-cooler-exhaust-motor.applications",
+      { returnObjects: true },
+    ),
+    industries: t(
+      "products-data:subcategories.bldc-cooler-exhaust-motor.industries",
+      { returnObjects: true },
+    ),
+    features: t(
+      "products-data:subcategories.bldc-cooler-exhaust-motor.features",
+      { returnObjects: true },
+    ),
+    certifications: t(
+      "products-data:subcategories.bldc-cooler-exhaust-motor.certifications",
+      { returnObjects: true },
+    ),
+    seo: {
+      title: t(
+        "products-data:subcategories.bldc-cooler-exhaust-motor.seo.title",
+      ),
+      description: t(
+        "products-data:subcategories.bldc-cooler-exhaust-motor.seo.description",
+      ),
+      keywords: t(
+        "products-data:subcategories.bldc-cooler-exhaust-motor.seo.keywords",
+      ),
+      canonicalUrl:
+        "https://powertonengineering.in/products/bldc/bldc-cooler-exhaust-motor",
+    },
+  },
+  {
     slug: "bldc-ceiling-fan",
     title: t("products-data:subcategories.bldc-ceiling-fan.title"),
-    shortDescription: t("products-data:subcategories.bldc-ceiling-fan.shortDescription"),
-    fullDescription: t("products-data:subcategories.bldc-ceiling-fan.fullDescription"),
+    shortDescription: t(
+      "products-data:subcategories.bldc-ceiling-fan.shortDescription",
+    ),
+    fullDescription: t(
+      "products-data:subcategories.bldc-ceiling-fan.fullDescription",
+    ),
     image: bldcCeilingFanImage,
     parentCategory: "/products/bldc",
-    parentCategoryTitle: t("products-data:subcategories.bldc-ceiling-fan.parentCategoryTitle"),
+    parentCategoryTitle: t(
+      "products-data:subcategories.bldc-ceiling-fan.parentCategoryTitle",
+    ),
     icon: Fan,
-    keyBenefits: t("products-data:subcategories.bldc-ceiling-fan.keyBenefits", { returnObjects: true }),
-    specifications: t("products-data:subcategories.bldc-ceiling-fan.specifications", { returnObjects: true }),
-    applications: t("products-data:subcategories.bldc-ceiling-fan.applications", { returnObjects: true }),
-    industries: t("products-data:subcategories.bldc-ceiling-fan.industries", { returnObjects: true }),
-    features: t("products-data:subcategories.bldc-ceiling-fan.features", { returnObjects: true }),
-    certifications: t("products-data:subcategories.bldc-ceiling-fan.certifications", { returnObjects: true }),
+    keyBenefits: t("products-data:subcategories.bldc-ceiling-fan.keyBenefits", {
+      returnObjects: true,
+    }),
+    specifications: t(
+      "products-data:subcategories.bldc-ceiling-fan.specifications",
+      { returnObjects: true },
+    ),
+    applications: t(
+      "products-data:subcategories.bldc-ceiling-fan.applications",
+      { returnObjects: true },
+    ),
+    industries: t("products-data:subcategories.bldc-ceiling-fan.industries", {
+      returnObjects: true,
+    }),
+    features: t("products-data:subcategories.bldc-ceiling-fan.features", {
+      returnObjects: true,
+    }),
+    certifications: t(
+      "products-data:subcategories.bldc-ceiling-fan.certifications",
+      { returnObjects: true },
+    ),
     seo: {
       title: t("products-data:subcategories.bldc-ceiling-fan.seo.title"),
-      description: t("products-data:subcategories.bldc-ceiling-fan.seo.description"),
+      description: t(
+        "products-data:subcategories.bldc-ceiling-fan.seo.description",
+      ),
       keywords: t("products-data:subcategories.bldc-ceiling-fan.seo.keywords"),
       canonicalUrl:
         "https://powertonengineering.in/products/bldc/bldc-ceiling-fan",
     },
   },
   {
-    slug: "bldc-cooler-exhaust-motor",
-    title: t("products-data:subcategories.bldc-cooler-exhaust-motor.title"),
-    shortDescription: t("products-data:subcategories.bldc-cooler-exhaust-motor.shortDescription"),
-    fullDescription: t("products-data:subcategories.bldc-cooler-exhaust-motor.fullDescription"),
-    image: bldcCoolerMotorImage,
-    parentCategory: "/products/bldc",
-    parentCategoryTitle: t("products-data:subcategories.bldc-cooler-exhaust-motor.parentCategoryTitle"),
-    icon: Wind,
-    keyBenefits: t("products-data:subcategories.bldc-cooler-exhaust-motor.keyBenefits", { returnObjects: true }),
-    specifications: t("products-data:subcategories.bldc-cooler-exhaust-motor.specifications", { returnObjects: true }),
-    applications: t("products-data:subcategories.bldc-cooler-exhaust-motor.applications", { returnObjects: true }),
-    industries: t("products-data:subcategories.bldc-cooler-exhaust-motor.industries", { returnObjects: true }),
-    features: t("products-data:subcategories.bldc-cooler-exhaust-motor.features", { returnObjects: true }),
-    certifications: t("products-data:subcategories.bldc-cooler-exhaust-motor.certifications", { returnObjects: true }),
-    seo: {
-      title: t("products-data:subcategories.bldc-cooler-exhaust-motor.seo.title"),
-      description: t("products-data:subcategories.bldc-cooler-exhaust-motor.seo.description"),
-      keywords: t("products-data:subcategories.bldc-cooler-exhaust-motor.seo.keywords"),
-      canonicalUrl:
-        "https://powertonengineering.in/products/bldc/bldc-cooler-exhaust-motor",
-    },
-  },
-  {
     slug: "bldc-submersible-surface-pump",
     title: t("products-data:subcategories.bldc-submersible-surface-pump.title"),
-    shortDescription: t("products-data:subcategories.bldc-submersible-surface-pump.shortDescription"),
-    fullDescription: t("products-data:subcategories.bldc-submersible-surface-pump.fullDescription"),
+    shortDescription: t(
+      "products-data:subcategories.bldc-submersible-surface-pump.shortDescription",
+    ),
+    fullDescription: t(
+      "products-data:subcategories.bldc-submersible-surface-pump.fullDescription",
+    ),
     image: bldcSubmersiblePumpImage,
     parentCategory: "/products/bldc",
-    parentCategoryTitle: t("products-data:subcategories.bldc-submersible-surface-pump.parentCategoryTitle"),
+    parentCategoryTitle: t(
+      "products-data:subcategories.bldc-submersible-surface-pump.parentCategoryTitle",
+    ),
     icon: Droplet,
-    keyBenefits: t("products-data:subcategories.bldc-submersible-surface-pump.keyBenefits", { returnObjects: true }),
-    specifications: t("products-data:subcategories.bldc-submersible-surface-pump.specifications", { returnObjects: true }),
-    applications: t("products-data:subcategories.bldc-submersible-surface-pump.applications", { returnObjects: true }),
-    industries: t("products-data:subcategories.bldc-submersible-surface-pump.industries", { returnObjects: true }),
-    features: t("products-data:subcategories.bldc-submersible-surface-pump.features", { returnObjects: true }),
-    certifications: t("products-data:subcategories.bldc-submersible-surface-pump.certifications", { returnObjects: true }),
+    keyBenefits: t(
+      "products-data:subcategories.bldc-submersible-surface-pump.keyBenefits",
+      { returnObjects: true },
+    ),
+    specifications: t(
+      "products-data:subcategories.bldc-submersible-surface-pump.specifications",
+      { returnObjects: true },
+    ),
+    applications: t(
+      "products-data:subcategories.bldc-submersible-surface-pump.applications",
+      { returnObjects: true },
+    ),
+    industries: t(
+      "products-data:subcategories.bldc-submersible-surface-pump.industries",
+      { returnObjects: true },
+    ),
+    features: t(
+      "products-data:subcategories.bldc-submersible-surface-pump.features",
+      { returnObjects: true },
+    ),
+    certifications: t(
+      "products-data:subcategories.bldc-submersible-surface-pump.certifications",
+      { returnObjects: true },
+    ),
     seo: {
-      title: t("products-data:subcategories.bldc-submersible-surface-pump.seo.title"),
-      description: t("products-data:subcategories.bldc-submersible-surface-pump.seo.description"),
-      keywords: t("products-data:subcategories.bldc-submersible-surface-pump.seo.keywords"),
+      title: t(
+        "products-data:subcategories.bldc-submersible-surface-pump.seo.title",
+      ),
+      description: t(
+        "products-data:subcategories.bldc-submersible-surface-pump.seo.description",
+      ),
+      keywords: t(
+        "products-data:subcategories.bldc-submersible-surface-pump.seo.keywords",
+      ),
       canonicalUrl:
         "https://powertonengineering.in/products/bldc/bldc-submersible-surface-pump",
     },
@@ -954,22 +1791,52 @@ export const getProductsSubCategoryData = (t: any): ProductSubCategoryData[] => 
   {
     slug: "bldc-table-fan-wall-fan-motor",
     title: t("products-data:subcategories.bldc-table-fan-wall-fan-motor.title"),
-    shortDescription: t("products-data:subcategories.bldc-table-fan-wall-fan-motor.shortDescription"),
-    fullDescription: t("products-data:subcategories.bldc-table-fan-wall-fan-motor.fullDescription"),
+    shortDescription: t(
+      "products-data:subcategories.bldc-table-fan-wall-fan-motor.shortDescription",
+    ),
+    fullDescription: t(
+      "products-data:subcategories.bldc-table-fan-wall-fan-motor.fullDescription",
+    ),
     image: bldcTableFanImage,
     parentCategory: "/products/bldc",
-    parentCategoryTitle: t("products-data:subcategories.bldc-table-fan-wall-fan-motor.parentCategoryTitle"),
+    parentCategoryTitle: t(
+      "products-data:subcategories.bldc-table-fan-wall-fan-motor.parentCategoryTitle",
+    ),
     icon: Fan,
-    keyBenefits: t("products-data:subcategories.bldc-table-fan-wall-fan-motor.keyBenefits", { returnObjects: true }),
-    specifications: t("products-data:subcategories.bldc-table-fan-wall-fan-motor.specifications", { returnObjects: true }),
-    applications: t("products-data:subcategories.bldc-table-fan-wall-fan-motor.applications", { returnObjects: true }),
-    industries: t("products-data:subcategories.bldc-table-fan-wall-fan-motor.industries", { returnObjects: true }),
-    features: t("products-data:subcategories.bldc-table-fan-wall-fan-motor.features", { returnObjects: true }),
-    certifications: t("products-data:subcategories.bldc-table-fan-wall-fan-motor.certifications", { returnObjects: true }),
+    keyBenefits: t(
+      "products-data:subcategories.bldc-table-fan-wall-fan-motor.keyBenefits",
+      { returnObjects: true },
+    ),
+    specifications: t(
+      "products-data:subcategories.bldc-table-fan-wall-fan-motor.specifications",
+      { returnObjects: true },
+    ),
+    applications: t(
+      "products-data:subcategories.bldc-table-fan-wall-fan-motor.applications",
+      { returnObjects: true },
+    ),
+    industries: t(
+      "products-data:subcategories.bldc-table-fan-wall-fan-motor.industries",
+      { returnObjects: true },
+    ),
+    features: t(
+      "products-data:subcategories.bldc-table-fan-wall-fan-motor.features",
+      { returnObjects: true },
+    ),
+    certifications: t(
+      "products-data:subcategories.bldc-table-fan-wall-fan-motor.certifications",
+      { returnObjects: true },
+    ),
     seo: {
-      title: t("products-data:subcategories.bldc-table-fan-wall-fan-motor.seo.title"),
-      description: t("products-data:subcategories.bldc-table-fan-wall-fan-motor.seo.description"),
-      keywords: t("products-data:subcategories.bldc-table-fan-wall-fan-motor.seo.keywords"),
+      title: t(
+        "products-data:subcategories.bldc-table-fan-wall-fan-motor.seo.title",
+      ),
+      description: t(
+        "products-data:subcategories.bldc-table-fan-wall-fan-motor.seo.description",
+      ),
+      keywords: t(
+        "products-data:subcategories.bldc-table-fan-wall-fan-motor.seo.keywords",
+      ),
       canonicalUrl:
         "https://powertonengineering.in/products/bldc/bldc-table-fan-wall-fan-motor",
     },
@@ -1015,30 +1882,30 @@ export const getSubcategorySlugById = (
     "power-supplies": "power-supplies",
     "enclosures-cabinets": "enclosures-cabinets",
     "heating-elements-appliances": "heating-elements-appliances",
-    "surge-protectors": "surge-protectors",
-    "grounding-systems": "grounding-systems",
-    multimeters: "multimeters",
-    "power-quality-analyzers": "power-quality-analyzers",
-    "calibration-equipment": "calibration-equipment",
-    "hand-tools": "hand-tools",
-    "power-tools": "power-tools",
-    "cutting-tools": "cutting-tools",
-    "lifting-equipment": "lifting-equipment",
     "solar-panels": "solar-panels",
     "solar-inverters": "solar-inverters",
     plcs: "plcs",
     scada: "scada",
     dcs: "dcs",
     hmi: "hmi",
-    "safety-equipment": "safety-equipment",
+    "surge-protectors": "surge-protectors",
+    "grounding-systems": "grounding-systems",
     "safety-relays-switches": "safety-relays-switches",
     "intrinsically-safe-equipment": "intrinsically-safe-equipment",
+    "safety-equipment": "safety-equipment",
     "centrifugal-pumps": "centrifugal-pumps",
     "diaphragm-pumps": "diaphragm-pumps",
     "gear-pumps": "gear-pumps",
     "pump-parts-spares": "pump-parts-spares",
-    "bldc-ceiling-fan": "bldc-ceiling-fan",
+    "hand-tools": "hand-tools",
+    "power-tools": "power-tools",
+    "cutting-tools": "cutting-tools",
+    "lifting-equipment": "lifting-equipment",
+    multimeters: "multimeters",
+    "power-quality-analyzers": "power-quality-analyzers",
+    "calibration-equipment": "calibration-equipment",
     "bldc-cooler-exhaust-motor": "bldc-cooler-exhaust-motor",
+    "bldc-ceiling-fan": "bldc-ceiling-fan",
     "bldc-submersible-surface-pump": "bldc-submersible-surface-pump",
     "bldc-table-fan-wall-fan-motor": "bldc-table-fan-wall-fan-motor",
   };
@@ -1051,11 +1918,11 @@ export const getParentCategorySlug = (productCategoryId: string): string => {
   const parentCategoryMapping: { [key: string]: string } = {
     "instrumentation-accessories": "instrumentation-accessories",
     "electrical-accessories": "electrical-accessories",
-    "industrial-measuring-tools": "industrial-measuring-tools",
     "solar-products": "solar-products",
     "automation-control-systems": "automation-control-systems",
     "safety-protective-devices": "safety-protective-devices",
     "mechanical-pumps-spares": "mechanical-pumps-spares",
+    "industrial-measuring-tools": "industrial-measuring-tools",
     bldc: "bldc",
   };
 
@@ -1081,17 +1948,6 @@ export const getParentCategoryBySubcategoryKey = (
     "power-supplies": "electrical-accessories",
     "enclosures-cabinets": "electrical-accessories",
     "heating-elements-appliances": "electrical-accessories",
-    "surge-protectors": "electrical-accessories",
-    "grounding-systems": "electrical-accessories",
-
-    // Industrial Measuring Tools
-    multimeters: "industrial-measuring-tools",
-    "power-quality-analyzers": "industrial-measuring-tools",
-    "calibration-equipment": "industrial-measuring-tools",
-    "hand-tools": "industrial-measuring-tools",
-    "power-tools": "industrial-measuring-tools",
-    "cutting-tools": "industrial-measuring-tools",
-    "lifting-equipment": "industrial-measuring-tools",
 
     // Solar Products
     "solar-panels": "solar-products",
@@ -1104,9 +1960,11 @@ export const getParentCategoryBySubcategoryKey = (
     hmi: "automation-control-systems",
 
     // Safety Protective Devices
-    "safety-equipment": "safety-protective-devices",
+    "surge-protectors": "electrical-accessories",
+    "grounding-systems": "electrical-accessories",
     "safety-relays-switches": "safety-protective-devices",
     "intrinsically-safe-equipment": "safety-protective-devices",
+    "safety-equipment": "safety-protective-devices",
 
     // Mechanical Pumps & Spares
     "centrifugal-pumps": "mechanical-pumps-spares",
@@ -1114,9 +1972,18 @@ export const getParentCategoryBySubcategoryKey = (
     "gear-pumps": "mechanical-pumps-spares",
     "pump-parts-spares": "mechanical-pumps-spares",
 
+    // Industrial Measuring Tools
+    "hand-tools": "industrial-measuring-tools",
+    "power-tools": "industrial-measuring-tools",
+    "cutting-tools": "industrial-measuring-tools",
+    "lifting-equipment": "industrial-measuring-tools",
+    multimeters: "industrial-measuring-tools",
+    "power-quality-analyzers": "industrial-measuring-tools",
+    "calibration-equipment": "industrial-measuring-tools",
+
     // BLDC Motors
-    "bldc-ceiling-fan": "bldc",
     "bldc-cooler-exhaust-motor": "bldc",
+    "bldc-ceiling-fan": "bldc",
     "bldc-submersible-surface-pump": "bldc",
     "bldc-table-fan-wall-fan-motor": "bldc",
   };
@@ -1132,32 +1999,23 @@ export const getSubcategoryKeyBySlug = (subcategorySlug: string): string => {
     "switches-indicators": "switches-indicators",
     "valves-actuators": "valves-actuators",
     analyzers: "analyzers",
-    "bldc-ceiling-fan": "bldc-ceiling-fan",
-    "bldc-cooler-exhaust-motor": "bldc-cooler-exhaust-motor",
-    "bldc-submersible-surface-pump": "bldc-submersible-surface-pump",
-    "bldc-table-fan-wall-fan-motor": "bldc-table-fan-wall-fan-motor",
     "cables-wires": "cables-wires",
     "connectors-terminals": "connectors-terminals",
     "circuit-breakers-fuses": "circuit-breakers-fuses",
     "power-supplies": "power-supplies",
     "enclosures-cabinets": "enclosures-cabinets",
     "heating-elements-appliances": "heating-elements-appliances",
-    "surge-protectors": "surge-protectors",
-    "grounding-systems": "grounding-systems",
-    multimeters: "multimeters",
-    "power-quality-analyzers": "power-quality-analyzers",
-    "calibration-equipment": "calibration-equipment",
-    oscilloscopes: "oscilloscopes",
-    "spectrum-analyzers": "spectrum-analyzers",
     "solar-panels": "solar-panels",
     "solar-inverters": "solar-inverters",
     plcs: "plcs",
-    hmi: "hmi",
     scada: "scada",
     dcs: "dcs",
-    "safety-equipment": "safety-equipment",
+    hmi: "hmi",
+    "surge-protectors": "surge-protectors",
+    "grounding-systems": "grounding-systems",
     "safety-relays-switches": "safety-relays-switches",
     "intrinsically-safe-equipment": "intrinsically-safe-equipment",
+    "safety-equipment": "safety-equipment",
     "centrifugal-pumps": "centrifugal-pumps",
     "diaphragm-pumps": "diaphragm-pumps",
     "gear-pumps": "gear-pumps",
@@ -1166,6 +2024,13 @@ export const getSubcategoryKeyBySlug = (subcategorySlug: string): string => {
     "power-tools": "power-tools",
     "cutting-tools": "cutting-tools",
     "lifting-equipment": "lifting-equipment",
+    multimeters: "multimeters",
+    "power-quality-analyzers": "power-quality-analyzers",
+    "calibration-equipment": "calibration-equipment",
+    "bldc-cooler-exhaust-motor": "bldc-cooler-exhaust-motor",
+    "bldc-ceiling-fan": "bldc-ceiling-fan",
+    "bldc-submersible-surface-pump": "bldc-submersible-surface-pump",
+    "bldc-table-fan-wall-fan-motor": "bldc-table-fan-wall-fan-motor",
   };
 
   return subcategorySlugToKeyMapping[subcategorySlug] || subcategorySlug;

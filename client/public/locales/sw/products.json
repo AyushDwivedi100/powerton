@@ -2410,7 +2410,7 @@
       "title": "Vivunja Mzunguko vya Kesi Iliyoundwa (MCCBs)",
       "description": "Vivunja mzunguko vya kesi iliyoundwa nzito kwa usambazaji wa umeme wa viwandani na biashara. Uwezo wa juu wa kuvunja na mipangilio ya ulinzi inayoweza kubadilishwa na vitengo vya hiari vya safari za elektroniki kwa ulinzi ulioimarishwa."
     },
-    "fusesHolders": {
+    "fusesFusesHolders": {
       "title": "Fuses na Vishikilia Fuse",
       "description": "Fuses za umeme na vishikilia fuse kwa ajili ya ulinzi wa overcurrent katika matumizi mbalimbali. Inapatikana katika cartridge, blade, na aina maalum na sifa tofauti za muda-sasa na uwezo wa kuvunja."
     },
@@ -2474,7 +2474,7 @@
       "title": "Multimita za Benchi",
       "description": "Multimita za benchi za usahihi wa juu kwa maabara na matumizi ya calibration. Usahihi bora na azimio na interfaces za kompyuta, kazi za takwimu, na uwezo wa kupima otomatiki."
     },
-   "earthResistanceTesters": {
+    "earthResistanceTesters": {
       "title": "Vipima Vipingamizi vya Ardhi",
       "description": "Vipima vipingamizi vya ardhi vya kitaalamu kwa uthibitishaji wa usalama wa umeme na upimaji wa mfumo wa kutuliza. Miundo ya hali ya juu inayoangazia upimaji usio na kigingi, mbinu za kushuka kwa uwezo wa pointi 3 na pointi 4, kipimo cha upinzani wa udongo, na udhibiti wa frequency otomatiki ili kupunguza usumbufu. Muhimu kwa ajili ya kuthibitisha uadilifu wa kutuliza umeme, mifumo ya ulinzi wa umeme, na kuhakikisha utiifu wa viwango vya usalama katika mitambo ya viwandani, kibiashara na huduma."
     },

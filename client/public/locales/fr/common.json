@@ -6,7 +6,6 @@
     "products": "Produits",
     "projects": "Projets",
     "contact": "Contactez-nous",
-    "blog": "Blog",
     "quote": "Demander un devis"
   },
   "language": {
@@ -20,19 +19,6 @@
     "ru": "Russe",
     "sw": "Swahili",
     "ha": "Haoussa"
-  },
-  "navigation": {
-    "backToProducts": "Retour aux produits",
-    "backToElectricalComponents": "Retour aux composants électriques",
-    "backToSolarProducts": "Retour aux produits solaires",
-    "backToMechanicalPumps": "Retour aux pompes mécaniques",
-    "backToMeasurementInstruments": "Retour aux instruments de mesure",
-    "backToIndustrialTools": "Retour aux outils industriels",
-    "backToAutomationSystems": "Retour aux systèmes d'automatisation",
-    "backToBLDC": "Retour aux produits BLDC",
-    "backToInstrumentationComponents": "Retour aux composants d'instrumentation",
-    "backToSafetyDevices": "Retour aux dispositifs de sécurité",
-    "phoneNumbers": "Numéros de téléphone"
   },
   "testimonials": {
     "anand": {
@@ -92,7 +78,7 @@
     "downloadCatalog": "Télécharger le catalogue",
     "discussProject": "Discuter du projet",
     "viewDetails": "Voir les détails",
-    "backTo": "Retour à {{category}}",
+    "backTo": "Retour à",
     "backToBldcProducts": "Retour aux produits à moteur CC sans balais (BLDC)",
     "backToProducts": "Retour aux produits",
     "requestQuote": "Demander un devis",

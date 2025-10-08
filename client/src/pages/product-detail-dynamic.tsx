@@ -141,7 +141,7 @@ const ProductDetailDynamic: React.FC = () => {
             >
               <Link href={productData.categoryPath}>
                 <ArrowLeft className="mr-2 h-4 w-4 group-hover:-translate-x-2 transition-transform duration-300" />
-                {productData.backLabel}
+                {t("common:buttons.backTo")} {productData.backLabel}
               </Link>
             </Button>
           </motion.div>

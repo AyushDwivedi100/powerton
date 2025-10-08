@@ -50,6 +50,7 @@ export interface Category {
 
 // Product Groups definitions
 export const productGroups: ProductGroup[] = [
+  // Instrumentation Accessories category groups
   // Sensors & Transducers subcategory groups
   {
     key: "pnp-npn-sensors",
@@ -64,7 +65,8 @@ export const productGroups: ProductGroup[] = [
     key: "rtd-thermocouples-sensors",
     slug: "rtd-thermocouples-sensors",
     titleKey: "products:productGroups.rtdThermocouplesSensors.title",
-    descriptionKey: "products:productGroups.rtdThermocouplesSensors.description",
+    descriptionKey:
+      "products:productGroups.rtdThermocouplesSensors.description",
     subcategoryKey: "sensors-transducers",
     image: "rtd-temperature-sensor",
     featuredSpecs: ["manufacturer", "model", "type"],
@@ -87,7 +89,6 @@ export const productGroups: ProductGroup[] = [
     image: "ph-sensor",
     featuredSpecs: ["manufacturer", "model", "type"],
   },
-
   // Transmitters & Flow Meters subcategory groups
   {
     key: "dp-type-transmitter",
@@ -152,7 +153,6 @@ export const productGroups: ProductGroup[] = [
     image: "pd-flowmeter-oval",
     featuredSpecs: ["manufacturer", "model", "type"],
   },
-
   // Switches & Indicators subcategory groups
   {
     key: "pressure-switches",
@@ -190,7 +190,6 @@ export const productGroups: ProductGroup[] = [
     image: "push-button",
     featuredSpecs: ["manufacturer", "model", "size", "contactType"],
   },
-
   // Valves & Actuators subcategory groups
   {
     key: "control-valves",
@@ -219,7 +218,6 @@ export const productGroups: ProductGroup[] = [
     image: "on-off-valve",
     featuredSpecs: ["manufacturer", "model", "size", "pressure"],
   },
-
   // Analyzers subcategory groups
   {
     key: "process-analyzers",
@@ -279,7 +277,8 @@ export const productGroups: ProductGroup[] = [
     key: "carbon-dioxide-gas-analyzers",
     slug: "carbon-dioxide-gas-analyzers",
     titleKey: "products:productGroups.carbonDioxideGasAnalyzers.title",
-    descriptionKey: "products:productGroups.carbonDioxideGasAnalyzers.description",
+    descriptionKey:
+      "products:productGroups.carbonDioxideGasAnalyzers.description",
     subcategoryKey: "analyzers",
     image: "gas-analyzer",
     featuredSpecs: ["manufacturer", "model", "technology", "range"],
@@ -301,6 +300,204 @@ export const productGroups: ProductGroup[] = [
     subcategoryKey: "analyzers",
     image: "liquid-analyzer",
     featuredSpecs: ["manufacturer", "model", "bottles", "analysis"],
+  },
+
+  // Electrical Accessories category groups
+  // Cables & Wires subcategory groups
+  {
+    key: "power-cables",
+    slug: "power-cables",
+    titleKey: "products:productGroups.powerCables.title",
+    descriptionKey: "products:productGroups.powerCables.description",
+    subcategoryKey: "cables-wires",
+    image: "power-cable",
+    featuredSpecs: ["conductor", "voltage", "insulation"],
+  },
+  {
+    key: "control-cables",
+    slug: "control-cables",
+    titleKey: "products:productGroups.controlCables.title",
+    descriptionKey: "products:productGroups.controlCables.description",
+    subcategoryKey: "cables-wires",
+    image: "control-cable",
+    featuredSpecs: ["conductor", "voltage", "shielding"],
+  },
+  {
+    key: "instrumentation-cables",
+    slug: "instrumentation-cables",
+    titleKey: "products:productGroups.instrumentationCables.title",
+    descriptionKey: "products:productGroups.instrumentationCables.description",
+    subcategoryKey: "cables-wires",
+    image: "instrumentation-cable",
+    featuredSpecs: ["conductor", "voltage", "shielding"],
+  },
+  // Connectors & Terminals subcategory groups
+  {
+    key: "terminal-blocks",
+    slug: "terminal-blocks",
+    titleKey: "products:productGroups.terminalBlocks.title",
+    descriptionKey: "products:productGroups.terminalBlocks.description",
+    subcategoryKey: "connectors-terminals",
+    image: "terminal-block",
+    featuredSpecs: ["current", "voltage", "connection"],
+  },
+  {
+    key: "electrical-connectors",
+    slug: "electrical-connectors",
+    titleKey: "products:productGroups.electricalConnectors.title",
+    descriptionKey: "products:productGroups.electricalConnectors.description",
+    subcategoryKey: "connectors-terminals",
+    image: "electrical-connector",
+    featuredSpecs: ["current", "voltage", "type"],
+  },
+  {
+    key: "industrial-plugs",
+    slug: "industrial-plugs",
+    titleKey: "products:productGroups.industrialPlugs.title",
+    descriptionKey: "products:productGroups.industrialPlugs.description",
+    subcategoryKey: "connectors-terminals",
+    image: "industrial-plug",
+    featuredSpecs: ["current", "voltage", "protection"],
+  },
+  // Circuit Breakers & Fuses subcategory groups
+  {
+    key: "miniature-circuit-breakers",
+    slug: "miniature-circuit-breakers",
+    titleKey: "products:productGroups.miniatureCircuitBreakers.title",
+    descriptionKey:
+      "products:productGroups.miniatureCircuitBreakers.description",
+    subcategoryKey: "circuit-breakers-fuses",
+    image: "mcb",
+    featuredSpecs: ["current", "voltage", "poles"],
+  },
+  {
+    key: "molded-case-breakers",
+    slug: "molded-case-breakers",
+    titleKey: "products:productGroups.moldedCaseBreakers.title",
+    descriptionKey: "products:productGroups.moldedCaseBreakers.description",
+    subcategoryKey: "circuit-breakers-fuses",
+    image: "mccb",
+    featuredSpecs: ["current", "voltage", "breaking"],
+  },
+  {
+    key: "fuses-fuses-holders",
+    slug: "suses-fuses-holders",
+    titleKey: "products:productGroups.fusesFusesHolders.title",
+    descriptionKey: "products:productGroups.fusesFusesHolders.description",
+    subcategoryKey: "circuit-breakers-fuses",
+    image: "fuse",
+    featuredSpecs: ["current", "voltage", "type"],
+  },
+  {
+    key: "rccb-circuit-breakers",
+    slug: "rccb-circuit-breakers",
+    titleKey: "products:productGroups.rccbCircuitBreakers.title",
+    descriptionKey: "products:productGroups.rccbCircuitBreakers.description",
+    subcategoryKey: "circuit-breakers-fuses",
+    image: "rccb",
+    featuredSpecs: ["current", "sensitivity", "poles"],
+  },
+  {
+    key: "acb-circuit-breakers",
+    slug: "acb-circuit-breakers",
+    titleKey: "products:productGroups.acbCircuitBreakers.title",
+    descriptionKey: "products:productGroups.acbCircuitBreakers.description",
+    subcategoryKey: "circuit-breakers-fuses",
+    image: "acb",
+    featuredSpecs: ["current", "voltage", "breaking"],
+  },
+  {
+    key: "vcb-circuit-breakers",
+    slug: "vcb-circuit-breakers",
+    titleKey: "products:productGroups.vcbCircuitBreakers.title",
+    descriptionKey: "products:productGroups.vcbCircuitBreakers.description",
+    subcategoryKey: "circuit-breakers-fuses",
+    image: "vcb",
+    featuredSpecs: ["current", "voltage", "operations"],
+  },
+  // Power Supplies subcategory groups
+  {
+    key: "ac-dc-converters",
+    slug: "ac-dc-converters",
+    titleKey: "products:productGroups.acDcConverters.title",
+    descriptionKey: "products:productGroups.acDcConverters.description",
+    subcategoryKey: "power-supplies",
+    image: "ac-dc-converter",
+    featuredSpecs: ["input", "output", "power"],
+  },
+  {
+    key: "dc-dc-converters",
+    slug: "dc-dc-converters",
+    titleKey: "products:productGroups.dcDcConverters.title",
+    descriptionKey: "products:productGroups.dcDcConverters.description",
+    subcategoryKey: "power-supplies",
+    image: "dc-dc-converter",
+    featuredSpecs: ["input", "output", "power"],
+  },
+  {
+    key: "ups-systems",
+    slug: "ups-systems",
+    titleKey: "products:productGroups.upsSystems.title",
+    descriptionKey: "products:productGroups.upsSystems.description",
+    subcategoryKey: "power-supplies",
+    image: "ups",
+    featuredSpecs: ["power", "backup", "efficiency"],
+  },
+  // Enclosures & Cabinets subcategory groups
+  {
+    key: "electrical-cabinets",
+    slug: "electrical-cabinets",
+    titleKey: "products:productGroups.electricalCabinets.title",
+    descriptionKey: "products:productGroups.electricalCabinets.description",
+    subcategoryKey: "enclosures-cabinets",
+    image: "electrical-cabinet",
+    featuredSpecs: ["dimensions", "material", "protection"],
+  },
+  {
+    key: "junction-boxes",
+    slug: "junction-boxes",
+    titleKey: "products:productGroups.junctionBoxes.title",
+    descriptionKey: "products:productGroups.junctionBoxes.description",
+    subcategoryKey: "enclosures-cabinets",
+    image: "junction-box",
+    featuredSpecs: ["dimensions", "material", "protection"],
+  },
+  {
+    key: "din-rail-enclosures",
+    slug: "din-rail-enclosures",
+    titleKey: "products:productGroups.dinRailEnclosures.title",
+    descriptionKey: "products:productGroups.dinRailEnclosures.description",
+    subcategoryKey: "enclosures-cabinets",
+    image: "din-rail-enclosure",
+    featuredSpecs: ["modules", "dimensions", "material"],
+  },
+  // Heating Elements & Appliances subcategory groups
+  {
+    key: "heating-coils",
+    slug: "heating-coils",
+    titleKey: "products:productGroups.heatingCoils.title",
+    descriptionKey: "products:productGroups.heatingCoils.description",
+    subcategoryKey: "heating-elements-appliances",
+    image: "heating-coil",
+    featuredSpecs: ["power", "voltage", "temperature"],
+  },
+  {
+    key: "heating-elements",
+    slug: "heating-elements",
+    titleKey: "products:productGroups.heatingElements.title",
+    descriptionKey: "products:productGroups.heatingElements.description",
+    subcategoryKey: "heating-elements-appliances",
+    image: "heating-element",
+    featuredSpecs: ["power", "voltage", "temperature"],
+  },
+  {
+    key: "industrial-heaters",
+    slug: "industrial-heaters",
+    titleKey: "products:productGroups.industrialHeaters.title",
+    descriptionKey: "products:productGroups.industrialHeaters.description",
+    subcategoryKey: "heating-elements-appliances",
+    image: "industrial-heater",
+    featuredSpecs: ["power", "voltage", "application"],
   },
 
   // BLDC Motor Systems subcategory groups
@@ -413,198 +610,7 @@ export const productGroups: ProductGroup[] = [
     featuredSpecs: ["power", "speed", "voltage"],
   },
 
-  // Electrical Components subcategory groups
-  {
-    key: "power-cables",
-    slug: "power-cables",
-    titleKey: "products:productGroups.powerCables.title",
-    descriptionKey: "products:productGroups.powerCables.description",
-    subcategoryKey: "cables-wires",
-    image: "power-cable",
-    featuredSpecs: ["conductor", "voltage", "insulation"],
-  },
-  {
-    key: "control-cables",
-    slug: "control-cables",
-    titleKey: "products:productGroups.controlCables.title",
-    descriptionKey: "products:productGroups.controlCables.description",
-    subcategoryKey: "cables-wires",
-    image: "control-cable",
-    featuredSpecs: ["conductor", "voltage", "shielding"],
-  },
-  {
-    key: "instrumentation-cables",
-    slug: "instrumentation-cables",
-    titleKey: "products:productGroups.instrumentationCables.title",
-    descriptionKey: "products:productGroups.instrumentationCables.description",
-    subcategoryKey: "cables-wires",
-    image: "instrumentation-cable",
-    featuredSpecs: ["conductor", "voltage", "shielding"],
-  },
-  {
-    key: "terminal-blocks",
-    slug: "terminal-blocks",
-    titleKey: "products:productGroups.terminalBlocks.title",
-    descriptionKey: "products:productGroups.terminalBlocks.description",
-    subcategoryKey: "connectors-terminals",
-    image: "terminal-block",
-    featuredSpecs: ["current", "voltage", "connection"],
-  },
-  {
-    key: "electrical-connectors",
-    slug: "electrical-connectors",
-    titleKey: "products:productGroups.electricalConnectors.title",
-    descriptionKey: "products:productGroups.electricalConnectors.description",
-    subcategoryKey: "connectors-terminals",
-    image: "electrical-connector",
-    featuredSpecs: ["current", "voltage", "type"],
-  },
-  {
-    key: "industrial-plugs",
-    slug: "industrial-plugs",
-    titleKey: "products:productGroups.industrialPlugs.title",
-    descriptionKey: "products:productGroups.industrialPlugs.description",
-    subcategoryKey: "connectors-terminals",
-    image: "industrial-plug",
-    featuredSpecs: ["current", "voltage", "protection"],
-  },
-  {
-    key: "miniature-circuit-breakers",
-    slug: "miniature-circuit-breakers",
-    titleKey: "products:productGroups.miniatureCircuitBreakers.title",
-    descriptionKey: "products:productGroups.miniatureCircuitBreakers.description",
-    subcategoryKey: "circuit-breakers-fuses",
-    image: "mcb",
-    featuredSpecs: ["current", "voltage", "poles"],
-  },
-  {
-    key: "molded-case-breakers",
-    slug: "molded-case-breakers",
-    titleKey: "products:productGroups.moldedCaseBreakers.title",
-    descriptionKey: "products:productGroups.moldedCaseBreakers.description",
-    subcategoryKey: "circuit-breakers-fuses",
-    image: "mccb",
-    featuredSpecs: ["current", "voltage", "breaking"],
-  },
-  {
-    key: "fuses-holders",
-    slug: "fuses-holders",
-    titleKey: "products:productGroups.fusesHolders.title",
-    descriptionKey: "products:productGroups.fusesHolders.description",
-    subcategoryKey: "circuit-breakers-fuses",
-    image: "fuse",
-    featuredSpecs: ["current", "voltage", "type"],
-  },
-  {
-    key: "rccb-circuit-breakers",
-    slug: "rccb-circuit-breakers",
-    titleKey: "products:productGroups.rccbCircuitBreakers.title",
-    descriptionKey: "products:productGroups.rccbCircuitBreakers.description",
-    subcategoryKey: "circuit-breakers-fuses",
-    image: "rccb",
-    featuredSpecs: ["current", "sensitivity", "poles"],
-  },
-  {
-    key: "acb-circuit-breakers",
-    slug: "acb-circuit-breakers",
-    titleKey: "products:productGroups.acbCircuitBreakers.title",
-    descriptionKey: "products:productGroups.acbCircuitBreakers.description",
-    subcategoryKey: "circuit-breakers-fuses",
-    image: "acb",
-    featuredSpecs: ["current", "voltage", "breaking"],
-  },
-  {
-    key: "vcb-circuit-breakers",
-    slug: "vcb-circuit-breakers",
-    titleKey: "products:productGroups.vcbCircuitBreakers.title",
-    descriptionKey: "products:productGroups.vcbCircuitBreakers.description",
-    subcategoryKey: "circuit-breakers-fuses",
-    image: "vcb",
-    featuredSpecs: ["current", "voltage", "operations"],
-  },
-  {
-    key: "ac-dc-converters",
-    slug: "ac-dc-converters",
-    titleKey: "products:productGroups.acDcConverters.title",
-    descriptionKey: "products:productGroups.acDcConverters.description",
-    subcategoryKey: "power-supplies",
-    image: "ac-dc-converter",
-    featuredSpecs: ["input", "output", "power"],
-  },
-  {
-    key: "dc-dc-converters",
-    slug: "dc-dc-converters",
-    titleKey: "products:productGroups.dcDcConverters.title",
-    descriptionKey: "products:productGroups.dcDcConverters.description",
-    subcategoryKey: "power-supplies",
-    image: "dc-dc-converter",
-    featuredSpecs: ["input", "output", "power"],
-  },
-  {
-    key: "ups-systems",
-    slug: "ups-systems",
-    titleKey: "products:productGroups.upsSystems.title",
-    descriptionKey: "products:productGroups.upsSystems.description",
-    subcategoryKey: "power-supplies",
-    image: "ups",
-    featuredSpecs: ["power", "backup", "efficiency"],
-  },
-  {
-    key: "electrical-cabinets",
-    slug: "electrical-cabinets",
-    titleKey: "products:productGroups.electricalCabinets.title",
-    descriptionKey: "products:productGroups.electricalCabinets.description",
-    subcategoryKey: "enclosures-cabinets",
-    image: "electrical-cabinet",
-    featuredSpecs: ["dimensions", "material", "protection"],
-  },
-  {
-    key: "junction-boxes",
-    slug: "junction-boxes",
-    titleKey: "products:productGroups.junctionBoxes.title",
-    descriptionKey: "products:productGroups.junctionBoxes.description",
-    subcategoryKey: "enclosures-cabinets",
-    image: "junction-box",
-    featuredSpecs: ["dimensions", "material", "protection"],
-  },
-  {
-    key: "din-rail-enclosures",
-    slug: "din-rail-enclosures",
-    titleKey: "products:productGroups.dinRailEnclosures.title",
-    descriptionKey: "products:productGroups.dinRailEnclosures.description",
-    subcategoryKey: "enclosures-cabinets",
-    image: "din-rail-enclosure",
-    featuredSpecs: ["modules", "dimensions", "material"],
-  },
-  {
-    key: "heating-coils",
-    slug: "heating-coils",
-    titleKey: "products:productGroups.heatingCoils.title",
-    descriptionKey: "products:productGroups.heatingCoils.description",
-    subcategoryKey: "heating-elements-appliances",
-    image: "heating-coil",
-    featuredSpecs: ["power", "voltage", "temperature"],
-  },
-  {
-    key: "heating-elements",
-    slug: "heating-elements",
-    titleKey: "products:productGroups.heatingElements.title",
-    descriptionKey: "products:productGroups.heatingElements.description",
-    subcategoryKey: "heating-elements-appliances",
-    image: "heating-element",
-    featuredSpecs: ["power", "voltage", "temperature"],
-  },
-  {
-    key: "industrial-heaters",
-    slug: "industrial-heaters",
-    titleKey: "products:productGroups.industrialHeaters.title",
-    descriptionKey: "products:productGroups.industrialHeaters.description",
-    subcategoryKey: "heating-elements-appliances",
-    image: "industrial-heater",
-    featuredSpecs: ["power", "voltage", "application"],
-  },
-
-  // Industrial & Measuring Tools subcategory groups
+  // Multimeter subcategory groups
   {
     key: "digital-multimeters",
     slug: "digital-multimeters",
@@ -663,65 +669,13 @@ export const productGroups: ProductGroup[] = [
     key: "milliampere-source-meters",
     slug: "milliampere-source-meters",
     titleKey: "products:productGroups.milliampereSourceMeters.title",
-    descriptionKey: "products:productGroups.milliampereSourceMeters.description",
+    descriptionKey:
+      "products:productGroups.milliampereSourceMeters.description",
     subcategoryKey: "multimeters",
     image: "multimeters",
     featuredSpecs: ["manufacturer", "model", "accuracy"],
   },
-  {
-    key: "digital-oscilloscopes",
-    slug: "digital-oscilloscopes",
-    titleKey: "products:productGroups.digitalOscilloscopes.title",
-    descriptionKey: "products:productGroups.digitalOscilloscopes.description",
-    subcategoryKey: "oscilloscopes",
-    image: "digital-oscilloscope",
-    featuredSpecs: ["bandwidth", "channels", "sampling"],
-  },
-  {
-    key: "mixed-signal-oscilloscopes",
-    slug: "mixed-signal-oscilloscopes",
-    titleKey: "products:productGroups.mixedSignalOscilloscopes.title",
-    descriptionKey: "products:productGroups.mixedSignalOscilloscopes.description",
-    subcategoryKey: "oscilloscopes",
-    image: "mixed-signal-oscilloscope",
-    featuredSpecs: ["bandwidth", "channels", "logic"],
-  },
-  {
-    key: "portable-oscilloscopes",
-    slug: "portable-oscilloscopes",
-    titleKey: "products:productGroups.portableOscilloscopes.title",
-    descriptionKey: "products:productGroups.portableOscilloscopes.description",
-    subcategoryKey: "oscilloscopes",
-    image: "portable-oscilloscope",
-    featuredSpecs: ["bandwidth", "battery", "size"],
-  },
-  {
-    key: "rf-spectrum-analyzers",
-    slug: "rf-spectrum-analyzers",
-    titleKey: "products:productGroups.rfSpectrumAnalyzers.title",
-    descriptionKey: "products:productGroups.rfSpectrumAnalyzers.description",
-    subcategoryKey: "spectrum-analyzers",
-    image: "rf-spectrum-analyzer",
-    featuredSpecs: ["frequency", "resolution", "sensitivity"],
-  },
-  {
-    key: "audio-spectrum-analyzers",
-    slug: "audio-spectrum-analyzers",
-    titleKey: "products:productGroups.audioSpectrumAnalyzers.title",
-    descriptionKey: "products:productGroups.audioSpectrumAnalyzers.description",
-    subcategoryKey: "spectrum-analyzers",
-    image: "audio-spectrum-analyzer",
-    featuredSpecs: ["frequency", "dynamic", "channels"],
-  },
-  {
-    key: "real-time-analyzers",
-    slug: "real-time-analyzers",
-    titleKey: "products:productGroups.realTimeAnalyzers.title",
-    descriptionKey: "products:productGroups.realTimeAnalyzers.description",
-    subcategoryKey: "spectrum-analyzers",
-    image: "real-time-analyzer",
-    featuredSpecs: ["bandwidth", "time", "resolution"],
-  },
+  // Power Quality Analyzers subcategory groups
   {
     key: "power-meters",
     slug: "power-meters",
@@ -749,6 +703,7 @@ export const productGroups: ProductGroup[] = [
     image: "energy-logger",
     featuredSpecs: ["channels", "memory", "communication"],
   },
+  //Calibration Equipment subcategory groups
   {
     key: "calibration-instruments",
     slug: "calibration-instruments",
@@ -794,6 +749,7 @@ export const productGroups: ProductGroup[] = [
     image: "process-calibrator",
     featuredSpecs: ["manufacturer", "model", "hartVersion"],
   },
+  // Hand Tools subcategory groups
   {
     key: "mechanical-tools",
     slug: "mechanical-tools",
@@ -821,6 +777,7 @@ export const productGroups: ProductGroup[] = [
     image: "precision-tools",
     featuredSpecs: ["tolerance", "material", "accuracy"],
   },
+  // Power Tools subcategory groups
   {
     key: "electric-drills",
     slug: "electric-drills",
@@ -857,6 +814,7 @@ export const productGroups: ProductGroup[] = [
     image: "welding-machine",
     featuredSpecs: ["manufacturer", "model", "amperage"],
   },
+  // Cutting Tools subcategory groups
   {
     key: "cutting-blades",
     slug: "cutting-blades",
@@ -893,6 +851,7 @@ export const productGroups: ProductGroup[] = [
     image: "chop-saw",
     featuredSpecs: ["manufacturer", "model", "bladeSize"],
   },
+  // Lifting Equipment subcategory groups
   {
     key: "chain-hoists",
     slug: "chain-hoists",
@@ -920,11 +879,13 @@ export const productGroups: ProductGroup[] = [
     image: "jib-crane",
     featuredSpecs: ["capacity", "reach", "rotation"],
   },
+  // Safety Equipment subcategory groups
   {
     key: "personal-protective-equipment",
     slug: "personal-protective-equipment",
     titleKey: "products:productGroups.personalProtectiveEquipment.title",
-    descriptionKey: "products:productGroups.personalProtectiveEquipment.description",
+    descriptionKey:
+      "products:productGroups.personalProtectiveEquipment.description",
     subcategoryKey: "safety-equipment",
     image: "ppe",
     featuredSpecs: ["standard", "material", "protection"],
@@ -948,7 +909,7 @@ export const productGroups: ProductGroup[] = [
     featuredSpecs: ["type", "capacity", "standards"],
   },
 
-  // Solar Products subcategory groups
+  // Solar Panels subcategory groups
   {
     key: "monocrystalline-panels",
     slug: "monocrystalline-panels",
@@ -976,6 +937,7 @@ export const productGroups: ProductGroup[] = [
     image: "thin-film-panel",
     featuredSpecs: ["power", "efficiency", "technology"],
   },
+  // Solar Inverters subcategory groups
   {
     key: "string-inverters",
     slug: "string-inverters",
@@ -1004,7 +966,7 @@ export const productGroups: ProductGroup[] = [
     featuredSpecs: ["power", "efficiency", "monitoring"],
   },
 
-  // Automation & Control Systems subcategory groups
+  // PLCs subcategory groups
   {
     key: "modular-plcs",
     slug: "modular-plcs",
@@ -1032,6 +994,7 @@ export const productGroups: ProductGroup[] = [
     image: "micro-plc",
     featuredSpecs: ["io", "memory", "applications"],
   },
+  // SCADA subcategory groups
   {
     key: "scada-software",
     slug: "scada-software",
@@ -1059,6 +1022,7 @@ export const productGroups: ProductGroup[] = [
     image: "scada-gateway",
     featuredSpecs: ["protocols", "ports", "conversion"],
   },
+  // DCS subcategory groups
   {
     key: "dcs-controllers",
     slug: "dcs-controllers",
@@ -1086,6 +1050,7 @@ export const productGroups: ProductGroup[] = [
     image: "dcs-engineering-station",
     featuredSpecs: ["software", "performance", "tools"],
   },
+  // HMI subcategory groups
   {
     key: "touchscreen-hmis",
     slug: "touchscreen-hmis",
@@ -1114,7 +1079,7 @@ export const productGroups: ProductGroup[] = [
     featuredSpecs: ["size", "battery", "connectivity"],
   },
 
-  // Safety & Protective Devices subcategory groups
+  // Safety Relays & Switches subcategory groups
   {
     key: "safety-relays",
     slug: "safety-relays",
@@ -1142,11 +1107,13 @@ export const productGroups: ProductGroup[] = [
     image: "safety-switch",
     featuredSpecs: ["safety", "operation", "environment"],
   },
+  // Intrinsically Safe Equipment subcategory groups
   {
     key: "explosion-proof-equipment",
     slug: "explosion-proof-equipment",
     titleKey: "products:productGroups.explosionProofEquipment.title",
-    descriptionKey: "products:productGroups.explosionProofEquipment.description",
+    descriptionKey:
+      "products:productGroups.explosionProofEquipment.description",
     subcategoryKey: "intrinsically-safe-equipment",
     image: "explosion-proof",
     featuredSpecs: ["certification", "class", "temperature"],
@@ -1155,7 +1122,8 @@ export const productGroups: ProductGroup[] = [
     key: "intrinsically-safe-barriers",
     slug: "intrinsically-safe-barriers",
     titleKey: "products:productGroups.intrinsicallySafeBarriers.title",
-    descriptionKey: "products:productGroups.intrinsicallySafeBarriers.description",
+    descriptionKey:
+      "products:productGroups.intrinsicallySafeBarriers.description",
     subcategoryKey: "intrinsically-safe-equipment",
     image: "is-barrier",
     featuredSpecs: ["channels", "power", "certification"],
@@ -1169,6 +1137,7 @@ export const productGroups: ProductGroup[] = [
     image: "is-field-device",
     featuredSpecs: ["function", "power", "certification"],
   },
+  // Surge Protectors subcategory groups
   {
     key: "ac-surge-protectors",
     slug: "ac-surge-protectors",
@@ -1196,6 +1165,7 @@ export const productGroups: ProductGroup[] = [
     image: "signal-surge-protector",
     featuredSpecs: ["signal", "protection", "frequency"],
   },
+  // Grounding Systems subcategory groups
   {
     key: "equipment-grounding",
     slug: "equipment-grounding",
@@ -1224,7 +1194,7 @@ export const productGroups: ProductGroup[] = [
     featuredSpecs: ["current", "material", "height"],
   },
 
-  // Mechanical Pumps & Spares subcategory groups
+  // Centrifugal Pumps subcategory groups
   {
     key: "single-stage-centrifugal",
     slug: "single-stage-centrifugal",
@@ -1252,6 +1222,7 @@ export const productGroups: ProductGroup[] = [
     image: "vertical-centrifugal",
     featuredSpecs: ["flow", "head", "installation"],
   },
+  // Diaphragm Pumps subcategory groups
   {
     key: "air-operated-diaphragm",
     slug: "air-operated-diaphragm",
@@ -1279,6 +1250,7 @@ export const productGroups: ProductGroup[] = [
     image: "hydraulic-diaphragm",
     featuredSpecs: ["flow", "pressure", "hydraulic"],
   },
+  // Gear Pumps subcategory groups
   {
     key: "external-gear-pumps",
     slug: "external-gear-pumps",
@@ -1306,6 +1278,7 @@ export const productGroups: ProductGroup[] = [
     image: "magnetic-gear-pump",
     featuredSpecs: ["flow", "pressure", "sealing"],
   },
+  // Pump Parts & Spares subcategory groups
   {
     key: "impellers-casings",
     slug: "impellers-casings",
@@ -2037,7 +2010,8 @@ export const products: Product[] = [
     subcategoryKey: "valves-actuators",
     typeKey: "on-off-valves",
     image: "on-off-valve",
-    datasheetUrl: "https://www.emerson.com/documents/automation/fisher-vee-ball-v150-v200-v300-rotary-control-valves-en-11739128.pdf",
+    datasheetUrl:
+      "https://www.emerson.com/documents/automation/fisher-vee-ball-v150-v200-v300-rotary-control-valves-en-11739128.pdf",
     translationKeys: {
       title: "products-data:fisherV150VeeBallValve.title",
       description: "products-data:fisherV150VeeBallValve.description",
@@ -2081,7 +2055,8 @@ export const products: Product[] = [
     subcategoryKey: "valves-actuators",
     typeKey: "on-off-valves",
     image: "on-off-valve",
-    datasheetUrl: "https://www.flowserve.com/en/products/products-catalog/valves/ball-valves/",
+    datasheetUrl:
+      "https://www.flowserve.com/en/products/products-catalog/valves/ball-valves/",
     translationKeys: {
       title: "products-data:flowserveWorcesterF519BallValve.title",
       description: "products-data:flowserveWorcesterF519BallValve.description",
@@ -2090,7 +2065,7 @@ export const products: Product[] = [
     specs: {
       manufacturer: "Flowserve Worcester",
       model: "F519 Series",
-      size: "1/2\" - 8\"",
+      size: '1/2" - 8"',
       pressure: "ASME Class 150",
       type: "Flanged floating ball",
       actuator: "ISO 5211 mounting",
@@ -2106,13 +2081,14 @@ export const products: Product[] = [
     datasheetUrl: "https://www.flowserve.com/en/products/brands/worcester/",
     translationKeys: {
       title: "products-data:flowserveWorcesterSeries44BallValve.title",
-      description: "products-data:flowserveWorcesterSeries44BallValve.description",
+      description:
+        "products-data:flowserveWorcesterSeries44BallValve.description",
       featuresKey: "products-data:flowserveWorcesterSeries44BallValve.features",
     },
     specs: {
       manufacturer: "Flowserve Worcester",
       model: "Series 44",
-      size: "1/4\" - 6\"",
+      size: '1/4" - 6"',
       pressure: "Up to 1000 PSI",
       type: "Three-piece ball valve",
       standards: "ANSI B16.34",
@@ -2125,7 +2101,8 @@ export const products: Product[] = [
     subcategoryKey: "valves-actuators",
     typeKey: "on-off-valves",
     image: "on-off-valve",
-    datasheetUrl: "https://www.swagelok.com/downloads/webcatalogs/en/ms-02-331.pdf",
+    datasheetUrl:
+      "https://www.swagelok.com/downloads/webcatalogs/en/ms-02-331.pdf",
     translationKeys: {
       title: "products-data:swagelokSs43gs4BallValve.title",
       description: "products-data:swagelokSs43gs4BallValve.description",
@@ -2134,7 +2111,7 @@ export const products: Product[] = [
     specs: {
       manufacturer: "Swagelok",
       model: "SS-43GS4",
-      size: "1/4\" Swagelok tube fitting",
+      size: '1/4" Swagelok tube fitting',
       pressure: "Up to 3,000 PSI",
       type: "One-piece instrumentation ball valve",
       cv: "1.4",
@@ -7635,8 +7612,7 @@ export const products: Product[] = [
       automation: "Automated Valve Positioner Calibration",
       software: "Free DD Updates + Software Integration",
       display: "High-Resolution Color Display",
-      datasheetUrl:
-        "https://www.beamex.com/us/calibrators/beamex-mc6/",
+      datasheetUrl: "https://www.beamex.com/us/calibrators/beamex-mc6/",
     },
     translationKeys: {
       title: "products:hartCalibrators.beamexMc6.title",
@@ -7661,8 +7637,7 @@ export const products: Product[] = [
       display: "Modern Touchscreen Interface",
       connectivity: "Wireless Communication",
       deviceSupport: "Universal HART Device Support",
-      datasheetUrl:
-        "https://www.emerson.com/en-us/catalog/ams-trex",
+      datasheetUrl: "https://www.emerson.com/en-us/catalog/ams-trex",
     },
     translationKeys: {
       title: "products:hartCalibrators.emersonTrex.title",
@@ -10771,7 +10746,8 @@ export const products: Product[] = [
       features: "Seven-segment display, portable design",
     },
     title: "Lincoln Electric POWER MIG 211i",
-    description: "Dual-voltage MIG welder with 20-211 amp output, lightweight portable design at 41 lbs. Features MIG, Flux-Cored, and Spool Gun capability for versatile welding applications in farm work, small shops, and maintenance.",
+    description:
+      "Dual-voltage MIG welder with 20-211 amp output, lightweight portable design at 41 lbs. Features MIG, Flux-Cored, and Spool Gun capability for versatile welding applications in farm work, small shops, and maintenance.",
     features: [
       "Dual voltage 120V/230V operation",
       "20-211 amp output range",
@@ -10788,7 +10764,8 @@ export const products: Product[] = [
     subcategoryKey: "power-tools",
     typeKey: "welding-machines",
     image: "welding-machine",
-    datasheetUrl: "https://www.millerwelds.com/equipment/welders/multiprocess/multimatic-220-ac-dc-907757",
+    datasheetUrl:
+      "https://www.millerwelds.com/equipment/welders/multiprocess/multimatic-220-ac-dc-907757",
     specs: {
       manufacturer: "Miller Electric",
       model: "Multimatic 220 AC/DC",
@@ -10799,7 +10776,8 @@ export const products: Product[] = [
       features: "Auto-Set Elite, MVP system",
     },
     title: "Miller Multimatic 220 AC/DC",
-    description: "Ultimate multi-process welder with MIG, Flux-Cored, Stick, and AC/DC TIG capabilities. Features Multi-Voltage Plug (MVP) for seamless 120V or 240V operation, Auto-Set Elite technology, and lightweight portable design at 56 lbs.",
+    description:
+      "Ultimate multi-process welder with MIG, Flux-Cored, Stick, and AC/DC TIG capabilities. Features Multi-Voltage Plug (MVP) for seamless 120V or 240V operation, Auto-Set Elite technology, and lightweight portable design at 56 lbs.",
     features: [
       "Multi-process: MIG, Flux-Cored, Stick, AC/DC TIG",
       "Multi-Voltage Plug (MVP) for 120V/240V",
@@ -10816,7 +10794,8 @@ export const products: Product[] = [
     subcategoryKey: "power-tools",
     typeKey: "welding-machines",
     image: "welding-machine",
-    datasheetUrl: "https://esab.com/us/nam_en/products-solutions/product/welding-equipment/multi-process-welders/rebel-emp-215ic/",
+    datasheetUrl:
+      "https://esab.com/us/nam_en/products-solutions/product/welding-equipment/multi-process-welders/rebel-emp-215ic/",
     specs: {
       manufacturer: "ESAB",
       model: "Rebel EMP 215ic",
@@ -10824,10 +10803,11 @@ export const products: Product[] = [
       inputVoltage: "120/230 VAC",
       weight: "49 lbs",
       processes: "MIG/MAG, Flux-Cored, Stick, DC TIG",
-      features: "sMIG technology, 4.3\" screen",
+      features: 'sMIG technology, 4.3" screen',
     },
     title: "ESAB Rebel EMP 215ic",
-    description: "Multi-process welding system with exclusive sMIG (smart MIG) technology that adapts to operator technique. Features 4.3\" TFT display, 120/230V flexibility, complete package ready for mild steel, aluminum, and stainless steel.",
+    description:
+      'Multi-process welding system with exclusive sMIG (smart MIG) technology that adapts to operator technique. Features 4.3" TFT display, 120/230V flexibility, complete package ready for mild steel, aluminum, and stainless steel.',
     features: [
       "sMIG smart MIG adaptive arc control",
       "MIG/MAG, Flux-Cored, Stick, DC TIG",
@@ -10851,10 +10831,11 @@ export const products: Product[] = [
       amperage: "Up to 300A",
       inputVoltage: "230V",
       processes: "Pulsed MIG, MIG, DC TIG, pulsed-DC TIG, DC Stick, Flux-Cored",
-      features: "7\" LCD, Ready.Set.Weld, ArcFX, Memory",
+      features: '7" LCD, Ready.Set.Weld, ArcFX, Memory',
     },
     title: "Lincoln Electric POWER MIG 262MP",
-    description: "Professional multi-process welder with up to 300 amp output. Features 7-inch LCD display, Ready.Set.Weld setup assistance, ArcFX arc performance, Weld Set Memory, and aluminum welding capability with 3 feeding methods.",
+    description:
+      "Professional multi-process welder with up to 300 amp output. Features 7-inch LCD display, Ready.Set.Weld setup assistance, ArcFX arc performance, Weld Set Memory, and aluminum welding capability with 3 feeding methods.",
     features: [
       "Up to 300 amp multi-process capability",
       "7-inch color LCD display",
@@ -10871,7 +10852,8 @@ export const products: Product[] = [
     subcategoryKey: "power-tools",
     typeKey: "welding-machines",
     image: "welding-machine",
-    datasheetUrl: "https://www.millerwelds.com/equipment/welders/tig-gtaw/dynasty-210-907789",
+    datasheetUrl:
+      "https://www.millerwelds.com/equipment/welders/tig-gtaw/dynasty-210-907789",
     specs: {
       manufacturer: "Miller Electric",
       model: "Dynasty 210",
@@ -10881,7 +10863,8 @@ export const products: Product[] = [
       features: "Advanced waveform control, wireless foot control",
     },
     title: "Miller Dynasty 210 TIG Welder",
-    description: "Advanced 210 amp AC/DC TIG welder with pulse and waveform controls for professional precision welding. Complete system with Coolmate water cooler, Small Runner cart, and TIG torch package for demanding applications.",
+    description:
+      "Advanced 210 amp AC/DC TIG welder with pulse and waveform controls for professional precision welding. Complete system with Coolmate water cooler, Small Runner cart, and TIG torch package for demanding applications.",
     features: [
       "210 amp AC/DC TIG with pulse",
       "Advanced waveform control technology",
@@ -10898,7 +10881,8 @@ export const products: Product[] = [
     subcategoryKey: "power-tools",
     typeKey: "welding-machines",
     image: "welding-machine",
-    datasheetUrl: "https://esab.com/us/nam_en/products-solutions/product/welding-equipment/mig-welders-gmaw/rebel-emp-285ic/",
+    datasheetUrl:
+      "https://esab.com/us/nam_en/products-solutions/product/welding-equipment/mig-welders-gmaw/rebel-emp-285ic/",
     specs: {
       manufacturer: "ESAB",
       model: "Rebel EMP 285ic",
@@ -10906,10 +10890,11 @@ export const products: Product[] = [
       inputVoltage: "Single/Three phase options",
       weight: "70 lbs",
       processes: "MIG, Flux-Cored, Stick, TIG",
-      features: "Full .045\" wire range, spray transfer",
+      features: 'Full .045" wire range, spray transfer',
     },
     title: "ESAB Rebel EMP 285ic",
-    description: "High-output 285A multi-process welder for professional fabrication. Features full range .045 wire capability with short arc and spray transfer, increased deposition rates, and four ergonomic handles at 70 lbs.",
+    description:
+      "High-output 285A multi-process welder for professional fabrication. Features full range .045 wire capability with short arc and spray transfer, increased deposition rates, and four ergonomic handles at 70 lbs.",
     features: [
       "285A @ 40% duty cycle (1ph model)",
       "Full .045 inch wire range capability",
@@ -11056,17 +11041,19 @@ export const products: Product[] = [
     subcategoryKey: "cutting-tools",
     typeKey: "chop-saws",
     image: "chop-saw",
-    datasheetUrl: "https://www.dewalt.com/product/dw872/14-355mm-multi-cutter-saw",
+    datasheetUrl:
+      "https://www.dewalt.com/product/dw872/14-355mm-multi-cutter-saw",
     specs: {
       manufacturer: "DeWalt",
       model: "DW872",
-      bladeSize: "14\" (355mm)",
+      bladeSize: '14" (355mm)',
       motor: "15A, 4 HP, 1300 RPM",
-      cuttingCapacity: "5-3/16\" round, 4-1/2\" × 6-1/2\" rectangular",
+      cuttingCapacity: '5-3/16" round, 4-1/2" × 6-1/2" rectangular',
       blade: "66-70 tooth carbide-tipped TCT",
     },
-    title: "DeWalt DW872 14\" Multi-Cutter Saw",
-    description: "Premium cold saw with 14\" carbide-tipped blade cutting 4× faster than chop saws and 8× faster than band saws. Features 15 amp motor, 1,300 RPM (vs 3,800 on abrasive), tool-free blade changes, vertical clamp, and Quick-Fence for 45° cuts.",
+    title: 'DeWalt DW872 14" Multi-Cutter Saw',
+    description:
+      'Premium cold saw with 14" carbide-tipped blade cutting 4× faster than chop saws and 8× faster than band saws. Features 15 amp motor, 1,300 RPM (vs 3,800 on abrasive), tool-free blade changes, vertical clamp, and Quick-Fence for 45° cuts.',
     features: [
       "14 inch 66-70 tooth carbide TCT blade",
       "15 amp motor, 4 HP, 1,300 RPM",
@@ -11087,13 +11074,14 @@ export const products: Product[] = [
     specs: {
       manufacturer: "Makita",
       model: "XWL01Z",
-      bladeSize: "14\" (355mm)",
+      bladeSize: '14" (355mm)',
       motor: "36V (18V × 2) LXT Brushless",
-      cuttingCapacity: "5\" round, 4\" × 7-5/8\" rectangular",
+      cuttingCapacity: '5" round, 4" × 7-5/8" rectangular',
       rpm: "3,800 RPM",
     },
     title: "Makita XWL01Z 36V Brushless Cut-Off Saw",
-    description: "Cordless 14\" cut-off saw powered by dual 18V batteries with brushless motor for longer life and cooler operation. Features 3,800 RPM, tool-less fence/vise adjustment, electric brake, spark guard, and portable cordless design.",
+    description:
+      'Cordless 14" cut-off saw powered by dual 18V batteries with brushless motor for longer life and cooler operation. Features 3,800 RPM, tool-less fence/vise adjustment, electric brake, spark guard, and portable cordless design.',
     features: [
       "Dual 18V LXT battery system (36V)",
       "Brushless motor for extended life",
@@ -11110,17 +11098,19 @@ export const products: Product[] = [
     subcategoryKey: "cutting-tools",
     typeKey: "chop-saws",
     image: "chop-saw",
-    datasheetUrl: "https://store.evolutionpowertools.com/products/evolution-s355mcs-mitre-chop-saw-heavy-duty-metal-cutting",
+    datasheetUrl:
+      "https://store.evolutionpowertools.com/products/evolution-s355mcs-mitre-chop-saw-heavy-duty-metal-cutting",
     specs: {
       manufacturer: "Evolution",
       model: "S355MCS",
-      bladeSize: "14\" (355mm)",
+      bladeSize: '14" (355mm)',
       motor: "15A, 2,200W, 1,450 RPM",
       miterRange: "46° left to 46° right",
-      cuttingCapacity: "4-3/4\" at 90°, 4\" at 45°",
+      cuttingCapacity: '4-3/4" at 90°, 4" at 45°',
     },
-    title: "Evolution S355MCS 14\" Mitering Chop Saw",
-    description: "First 14\" industrial TCT chop saw with mitering capability. Features 15A motor, 1,450 RPM, 46° left/right miter range with positive stops, 3-position saw head, precision miter table, and quick-release clamp with V-block adapters.",
+    title: 'Evolution S355MCS 14" Mitering Chop Saw',
+    description:
+      'First 14" industrial TCT chop saw with mitering capability. Features 15A motor, 1,450 RPM, 46° left/right miter range with positive stops, 3-position saw head, precision miter table, and quick-release clamp with V-block adapters.',
     features: [
       "First 14 inch TCT saw with mitering",
       "46° left to 46° right miter range",
@@ -11141,13 +11131,14 @@ export const products: Product[] = [
     specs: {
       manufacturer: "Evolution",
       model: "EVOSAW380",
-      bladeSize: "15\" capacity (14\" included)",
+      bladeSize: '15" capacity (14" included)',
       motor: "15A, 1,800W, 1,450 RPM",
-      cuttingCapacity: "5-1/8\" round at 90°",
+      cuttingCapacity: '5-1/8" round at 90°',
       features: "Hi-torque gearbox, 0°-45° miter",
     },
-    title: "Evolution EVOSAW380 15\" Metal Cutting Chop Saw",
-    description: "High-capacity 15\" metal cutting chop saw with hi-torque gearbox and cold-cut technology. Features 1,450 RPM, 5-1/8\" cutting capacity, 0°-45° miter, heavy-duty cast aluminum base, massive cast iron vise, and ready-to-weld finish.",
+    title: 'Evolution EVOSAW380 15" Metal Cutting Chop Saw',
+    description:
+      'High-capacity 15" metal cutting chop saw with hi-torque gearbox and cold-cut technology. Features 1,450 RPM, 5-1/8" cutting capacity, 0°-45° miter, heavy-duty cast aluminum base, massive cast iron vise, and ready-to-weld finish.',
     features: [
       "15 inch blade capacity (14 inch included)",
       "Hi-torque gearbox, 1,450 RPM",
@@ -11164,17 +11155,19 @@ export const products: Product[] = [
     subcategoryKey: "cutting-tools",
     typeKey: "chop-saws",
     image: "chop-saw",
-    datasheetUrl: "https://www.kakaindustrial.com/products/chs-14-metal-tct-cut-off-saw",
+    datasheetUrl:
+      "https://www.kakaindustrial.com/products/chs-14-metal-tct-cut-off-saw",
     specs: {
       manufacturer: "KAKA Industrial",
       model: "CHS-355",
-      bladeSize: "14\" (355mm)",
+      bladeSize: '14" (355mm)',
       motor: "2.2kW / 15 amp high torque",
       blade: "66-tooth TCT blade included",
       features: "Cast aluminum base, vise rotates 45°",
     },
-    title: "KAKA Industrial CHS-355 14\" TCT Cut-Off Saw",
-    description: "Industrial 14\" TCT cut-off saw with 2.2kW high-torque motor and heavy-duty cast aluminum base. Features 66-tooth TCT blade, minimal heat/burrs production, vise rotates to 45°, blade guard, and chip deflection shield.",
+    title: 'KAKA Industrial CHS-355 14" TCT Cut-Off Saw',
+    description:
+      'Industrial 14" TCT cut-off saw with 2.2kW high-torque motor and heavy-duty cast aluminum base. Features 66-tooth TCT blade, minimal heat/burrs production, vise rotates to 45°, blade guard, and chip deflection shield.',
     features: [
       "14 inch 66-tooth TCT blade included",
       "2.2kW / 15 amp high torque motor",
@@ -11191,17 +11184,19 @@ export const products: Product[] = [
     subcategoryKey: "cutting-tools",
     typeKey: "chop-saws",
     image: "chop-saw",
-    datasheetUrl: "https://www.metabo-hpt.com/us/main-navigation/item/cc14sfs-14-portable-chop-saw-Metabo-HPT",
+    datasheetUrl:
+      "https://www.metabo-hpt.com/us/main-navigation/item/cc14sfs-14-portable-chop-saw-Metabo-HPT",
     specs: {
       manufacturer: "Metabo HPT",
       model: "CC14SFS",
-      bladeSize: "14\" (355mm)",
+      bladeSize: '14" (355mm)',
       motor: "15A, 2,000W, 4,000 RPM",
       miterCapacity: "Up to 45° either direction",
       features: "Quick-lock vise, adjustable spark chute",
     },
-    title: "Metabo HPT CC14SFS 14\" Portable Chop Saw",
-    description: "Lightweight portable 14\" metal chop saw with powerful 15 amp motor running at 4,000 RPM. Features quick-lock/release vise for fast material changes, miter cuts to 45° either direction, trigger lock-off, and adjustable spark chute.",
+    title: 'Metabo HPT CC14SFS 14" Portable Chop Saw',
+    description:
+      'Lightweight portable 14" metal chop saw with powerful 15 amp motor running at 4,000 RPM. Features quick-lock/release vise for fast material changes, miter cuts to 45° either direction, trigger lock-off, and adjustable spark chute.',
     features: [
       "14 inch cut-off wheel capacity",
       "15 amp, 2,000 watt motor, 4,000 RPM",
@@ -15663,7 +15658,7 @@ export const products: Product[] = [
       accuracy: "0.01% (mA/V)",
       functions: "mA, V, TC, RTD, Pressure",
       hart: "Yes (integrated)",
-      display: "5.7\" color touchscreen",
+      display: '5.7" color touchscreen',
       memory: "10,000 calibration points",
     },
   },
@@ -15833,7 +15828,7 @@ export const products: Product[] = [
       "±0.025°C accuracy at 0°C",
       "ITS-90 calibration",
       "Temperature: -200°C to 420°C",
-      "4.8mm (3/16\") diameter",
+      '4.8mm (3/16") diameter',
       "Coil suspension design",
       "NVLAP-accredited calibration",
     ],
@@ -15843,7 +15838,7 @@ export const products: Product[] = [
       series: "Precision PRT",
       accuracy: "±0.025°C",
       tempRange: "-200°C to 420°C",
-      diameter: "4.8mm (3/16\")",
+      diameter: '4.8mm (3/16")',
       calibration: "ITS-90 NVLAP",
       application: "Lab calibration",
       length: "Various options",
@@ -15954,7 +15949,7 @@ export const products: Product[] = [
       "Four elements: pH, Ref, Temp, ORP",
       "Double junction reference",
       "Temperature: up to 105°C",
-      "3/4\" NPT industrial thread",
+      '3/4" NPT industrial thread',
       "SENCOM Smart Adapter compatible",
     ],
     specs: {
@@ -15965,7 +15960,7 @@ export const products: Product[] = [
       elements: "pH/ORP/Temp/Ref",
       temperature: "Up to 105°C",
       bodyMaterial: "PPS 40GF/PVDF",
-      thread: "3/4\" NPT",
+      thread: '3/4" NPT',
       application: "Water/Wastewater",
     },
   },
@@ -16013,7 +16008,7 @@ export const products: Product[] = [
     features: [
       "NDIR technology for IR-active gases",
       "Up to 3 gas components simultaneously",
-      "Compact 19\" rack mount design",
+      'Compact 19" rack mount design',
       "Low maintenance requirements",
       "Digital signal processing",
       "Auto calibration function",
@@ -16025,7 +16020,7 @@ export const products: Product[] = [
       type: "NDIR gas analyzer",
       components: "Up to 3 gas components",
       application: "Emissions, combustion control",
-      mounting: "19\" rack mount",
+      mounting: '19" rack mount',
       accuracy: "±1% of span",
     },
   },
@@ -17727,7 +17722,8 @@ export const getProductsForSubcategoryPage = (
         },
         translationKeys: {
           title: "products-data:utilities.defaultProduct.titleTemplate",
-          description: "products-data:utilities.defaultProduct.descriptionTemplate",
+          description:
+            "products-data:utilities.defaultProduct.descriptionTemplate",
           featuresKey: "products-data:utilities.defaultProduct.features",
         },
       };
@@ -17816,38 +17812,49 @@ export const getProductDetailBySlug = (
   const subcategoryTranslation = t(
     `products:categories.${category.key}.subcategories.${subcategory.key}.name`,
     {
-      defaultValue: subcategory.key.replace(/-/g, " ").replace(/\b\w/g, l => l.toUpperCase()),
+      defaultValue: subcategory.key
+        .replace(/-/g, " ")
+        .replace(/\b\w/g, (l) => l.toUpperCase()),
     },
   );
-  let backLabel = subcategoryTranslation?.trim() || subcategory.key.replace(/-/g, " ").replace(/\b\w/g, l => l.toUpperCase());
+  let backLabel =
+    subcategoryTranslation?.trim() ||
+    subcategory.key.replace(/-/g, " ").replace(/\b\w/g, (l) => l.toUpperCase());
 
   if (productGroup) {
     backPath = `/products/${category.key}/${subcategory.key}/${productGroup.slug}`;
-    backLabel = productGroup.title || 
-      (productGroup.titleKey ? t(productGroup.titleKey, {
-        defaultValue: productGroup.key.toUpperCase().replace(/-/g, " "),
-      }) : productGroup.key.toUpperCase().replace(/-/g, " "));
+    backLabel =
+      productGroup.title ||
+      (productGroup.titleKey
+        ? t(productGroup.titleKey, {
+            defaultValue: productGroup.key.toUpperCase().replace(/-/g, " "),
+          })
+        : productGroup.key.toUpperCase().replace(/-/g, " "));
   }
 
   // Build proper canonical URL with full path structure
   const parentCategorySlug = category.key;
   const subcategorySlugForUrl = subcategory.key;
-  const groupSlugForUrl = productGroup ? productGroup.slug : subcategorySlugForUrl;
-  
+  const groupSlugForUrl = productGroup
+    ? productGroup.slug
+    : subcategorySlugForUrl;
+
   // Construct full canonical URL
   const canonicalPath = productGroup
     ? `/products/${parentCategorySlug}/${subcategorySlugForUrl}/${groupSlugForUrl}/${product.slug}`
     : `/products/${parentCategorySlug}/${subcategorySlugForUrl}/${product.slug}`;
 
   // Generate comprehensive SEO keywords with deduplication
-  const manufacturer = product.specs.manufacturer || '';
-  const model = product.specs.model || '';
-  const categoryName = t(`products:categories.${category.key}.name`, { defaultValue: category.key });
+  const manufacturer = product.specs.manufacturer || "";
+  const model = product.specs.model || "";
+  const categoryName = t(`products:categories.${category.key}.name`, {
+    defaultValue: category.key,
+  });
   const subcategoryName = t(
     `products:categories.${category.key}.subcategories.${subcategory.key}.name`,
-    { defaultValue: subcategory.key }
+    { defaultValue: subcategory.key },
   );
-  
+
   // Collect all keywords and deduplicate case-insensitively
   const keywordArray = [
     title,
@@ -17855,40 +17862,45 @@ export const getProductDetailBySlug = (
     model,
     categoryName,
     subcategoryName,
-    productGroup?.title || productGroup?.key || '',
-    t('products-data:utilities.commonData.keywords.industrialAutomation'),
-    t('products-data:utilities.commonData.keywords.processControl'),
-    t('products-data:utilities.commonData.keywords.instrumentation'),
-    t('products-data:utilities.commonData.keywords.india'),
-    t('products-data:utilities.commonData.keywords.powertonEngineering')
+    productGroup?.title || productGroup?.key || "",
+    t("products-data:utilities.commonData.keywords.industrialAutomation"),
+    t("products-data:utilities.commonData.keywords.processControl"),
+    t("products-data:utilities.commonData.keywords.instrumentation"),
+    t("products-data:utilities.commonData.keywords.india"),
+    t("products-data:utilities.commonData.keywords.powertonEngineering"),
   ].filter(Boolean);
-  
+
   // Deduplicate keywords (case-insensitive)
   const uniqueKeywords = Array.from(
     new Map(
-      keywordArray.map(k => [String(k).toLowerCase().trim(), String(k).trim()])
-    ).values()
+      keywordArray.map((k) => [
+        String(k).toLowerCase().trim(),
+        String(k).trim(),
+      ]),
+    ).values(),
   );
-  
-  const seoKeywords = uniqueKeywords.join(', ');
+
+  const seoKeywords = uniqueKeywords.join(", ");
 
   // Create SEO-friendly meta description (150-160 chars optimal)
-  let seoDescription = description || '';
-  
+  let seoDescription = description || "";
+
   // Add manufacturer and model prefix if not already present (case-insensitive check)
   const lowerDesc = seoDescription.toLowerCase();
-  const needsManufacturer = manufacturer && !lowerDesc.includes(String(manufacturer).toLowerCase());
-  
+  const needsManufacturer =
+    manufacturer && !lowerDesc.includes(String(manufacturer).toLowerCase());
+
   if (needsManufacturer) {
-    const prefix = `${manufacturer} ${model ? model + ' ' : ''}`;
+    const prefix = `${manufacturer} ${model ? model + " " : ""}`;
     seoDescription = `${prefix}${seoDescription}`;
   }
-  
+
   // Truncate at word boundary if too long (optimal: 150-160 chars)
   if (seoDescription.length > 155) {
     const truncated = seoDescription.substring(0, 152);
-    const lastSpace = truncated.lastIndexOf(' ');
-    seoDescription = (lastSpace > 120 ? truncated.substring(0, lastSpace) : truncated) + '...';
+    const lastSpace = truncated.lastIndexOf(" ");
+    seoDescription =
+      (lastSpace > 120 ? truncated.substring(0, lastSpace) : truncated) + "...";
   }
 
   return {
@@ -17907,9 +17919,15 @@ export const getProductDetailBySlug = (
     specifications,
     features: Array.isArray(features) ? features : [],
     keyBenefits: Array.isArray(features) ? features.slice(0, 4) : [],
-    applications: t('products-data:utilities.commonData.applications', { returnObjects: true }) as string[],
-    industries: t('products-data:utilities.commonData.industries', { returnObjects: true }) as string[],
-    certifications: t('products-data:utilities.commonData.certifications', { returnObjects: true }) as string[],
+    applications: t("products-data:utilities.commonData.applications", {
+      returnObjects: true,
+    }) as string[],
+    industries: t("products-data:utilities.commonData.industries", {
+      returnObjects: true,
+    }) as string[],
+    certifications: t("products-data:utilities.commonData.certifications", {
+      returnObjects: true,
+    }) as string[],
     datasheetUrl: product.datasheetUrl,
     seo: {
       title: `${title} | ${categoryName} | Powerton Engineering`,

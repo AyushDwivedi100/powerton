@@ -1,4 +1,2189 @@
 {
+  "subcategories": {
+    "sensors-transducers": {
+      "title": "Capteurs et transducteurs",
+      "shortDescription": "Gamme complète de capteurs de qualité industrielle pour l'automatisation et le contrôle des processus",
+      "fullDescription": "Solutions de capteurs avancées comprenant des capteurs de proximité, des capteurs de température RTD, des thermocouples et des capteurs de pH pour l'automatisation industrielle et le contrôle des processus.",
+      "parentCategoryTitle": "Accessoires d'instrumentation",
+      "keyBenefits": [
+        "Haute précision et fiabilité",
+        "Intégration et configuration faciles",
+        "Exigences de maintenance réduites",
+        "Conformité de sécurité améliorée"
+      ],
+      "specifications": [
+        "Température de fonctionnement : -40 °C à +85 °C",
+        "Indice de protection : IP67/IP68",
+        "Signaux de sortie : 4-20 mA, 0-10 V, numérique",
+        "Alimentation : 12-24 V CC",
+        "Temps de réponse : <1 ms à 10 s",
+        "Précision : ±0,1 % à ±1,0 % FE"
+      ],
+      "applications": [
+        "Contrôle et surveillance des processus",
+        "Surveillance environnementale",
+        "Surveillance de l'état des machines",
+        "Intégration du système de sécurité",
+        "Systèmes de contrôle de la qualité",
+        "Gestion de l'énergie"
+      ],
+      "industries": [
+        "Chimie et pétrochimie",
+        "Pétrole et gaz",
+        "Production d'énergie",
+        "Traitement de l'eau",
+        "Alimentation et boissons",
+        "Pharmaceutique"
+      ],
+      "features": [
+        "Mesure de haute précision",
+        "Conception industrielle robuste",
+        "Large plage de fonctionnement",
+        "Options de sorties multiples",
+        "Installation facile",
+        "Faible maintenance",
+        "Options antidéflagrantes",
+        "Communication numérique"
+      ],
+      "certifications": [
+        "Certifié CE",
+        "Homologué ATEX",
+        "Certifié IECEx",
+        "Conforme SIL 2/3",
+        "Homologué UL",
+        "Certifié CSA"
+      ],
+      "seo": {
+        "title": "Capteurs industriels - Capteurs de proximité PNP/NPN, RTD, thermocouples, capteurs de pH | Powerton Engineering",
+        "description": "Gamme complète de capteurs de qualité industrielle, y compris les capteurs de proximité PNP/NPN, les capteurs de température RTD (PT100, PT500, PT1000), les thermocouples (types J, K, T, S) et les capteurs de pH pour le contrôle des processus.",
+        "keywords": "capteurs industriels, capteurs de proximité, capteurs PNP, capteurs NPN, capteurs RTD, PT100, PT500, PT1000, thermocouples, capteurs de pH, capteurs de température, capteurs d'automatisation"
+      }
+    },
+    "transmitters-flow-meters": {
+      "title": "Transmetteurs et débitmètres",
+      "shortDescription": "Transmetteurs de précision pour la mesure de la pression, de la température, du débit et du niveau",
+      "fullDescription": "Gamme complète de transmetteurs industriels dotés de technologies avancées, notamment la jauge de contrainte, la détection capacitive et piézorésistive avec communication numérique HART.",
+      "parentCategoryTitle": "Accessoires d'instrumentation",
+      "keyBenefits": [
+        "Précision inégalée dans l'industrie",
+        "Coût total de possession réduit",
+        "Optimisation améliorée des processus",
+        "Sécurité et fiabilité améliorées"
+      ],
+      "specifications": [
+        "Précision : ±0,025 % à ±0,5 % FE",
+        "Température de fonctionnement : -40 °C à +125 °C",
+        "Pression de traitement : 0 à 10 000 PSI",
+        "Communication : HART, Foundation Fieldbus, Profibus",
+        "Alimentation : 10,5-55 V CC",
+        "Protection : IP67/IP68"
+      ],
+      "applications": [
+        "Mesure de la pression",
+        "Surveillance de la température",
+        "Contrôle du débit",
+        "Détection de niveau",
+        "Pression différentielle",
+        "Intégration du contrôle des processus"
+      ],
+      "industries": [
+        "Pétrole et gaz",
+        "Transformation chimique",
+        "Production d'énergie",
+        "Eau et eaux usées",
+        "Pâtes et papiers",
+        "Mines et métaux"
+      ],
+      "features": [
+        "Communication HART",
+        "Précision numérique",
+        "Configuration à distance",
+        "Auto-diagnostic",
+        "Options multivariables",
+        "Capacités sans fil",
+        "Conception antidéflagrante",
+        "Stabilité à long terme"
+      ],
+      "certifications": [
+        "Certifié ATEX",
+        "Approuvé IECEx",
+        "Conforme SIL 2/3",
+        "Approuvé FM",
+        "Certifié CSA",
+        "Marquage CE"
+      ],
+      "seo": {
+        "title": "Transmetteurs industriels et débitmètres - Pression, température, niveau | Powerton Engineering",
+        "description": "Transmetteurs industriels et débitmètres de précision pour la mesure de la pression, de la température, du débit et du niveau. Solutions HART, Foundation Fieldbus et sans fil pour le contrôle des processus.",
+        "keywords": "transmetteurs industriels, débitmètres, transmetteurs de pression, transmetteurs de température, transmetteurs de niveau, transmetteurs HART, instrumentation de processus"
+      }
+    },
+    "switches-indicators": {
+      "title": "Commutateurs et indicateurs",
+      "shortDescription": "Commutateurs industriels essentiels pour l'automatisation et le contrôle : pressostats, détecteurs de niveau, interrupteurs de fin de course et boutons-poussoirs",
+      "fullDescription": "Gamme complète de commutateurs industriels, y compris les pressostats de Danfoss et Schneider Electric, les détecteurs de niveau d'Endress+Hauser et ABB, les interrupteurs de fin de course d'Omron et Schneider Electric, et les boutons-poussoirs des principaux fabricants pour un contrôle d'automatisation fiable.",
+      "parentCategoryTitle": "Accessoires d'instrumentation",
+      "keyBenefits": [
+        "Haute fiabilité et durabilité",
+        "Installation et maintenance faciles",
+        "Conformité de sécurité complète",
+        "Solutions rentables"
+      ],
+      "specifications": [
+        "Intensité nominale des contacts : 10 A à 250 V CA",
+        "Température de fonctionnement : -25 °C à +70 °C",
+        "Indice de protection : IP65/IP67",
+        "Montage : Découpe de panneau de 22 mm/30 mm",
+        "Durée de vie des DEL : > 50 000 heures",
+        "Configuration des contacts : NO/NF/DPDT"
+      ],
+      "applications": [
+        "Intégration du panneau de commande",
+        "Systèmes d'arrêt d'urgence",
+        "Commande de machine",
+        "Indication de processus",
+        "Verrouillages de sécurité",
+        "Surveillance de l'état"
+      ],
+      "industries": [
+        "Fabrication",
+        "Contrôle des processus",
+        "Manutention",
+        "Emballage",
+        "Transformation des aliments",
+        "Automobile"
+      ],
+      "features": [
+        "Éclairage à DEL",
+        "Plusieurs couleurs disponibles",
+        "Action maintenue/momentanée",
+        "Conception résistante au vandalisme",
+        "Bornes à connexion rapide",
+        "Construction modulaire",
+        "Fonction d'arrêt d'urgence",
+        "Conception ergonomique"
+      ],
+      "certifications": [
+        "Homologué UL",
+        "Marquage CE",
+        "Certifié CSA",
+        "CEI 60947-5-1",
+        "Conforme à la norme RoHS",
+        "ISO 13850"
+      ],
+      "seo": {
+        "title": "Commutateurs et indicateurs industriels - Composants de panneau de commande | Powerton Engineering",
+        "description": "Commutateurs, boutons-poussoirs, indicateurs et composants de panneau de commande de qualité industrielle. Arrêts d'urgence, voyants, sélecteurs pour les systèmes d'automatisation et de contrôle.",
+        "keywords": "commutateurs industriels, boutons-poussoirs, composants de panneau de commande, arrêts d'urgence, voyants, indicateurs, sélecteurs"
+      }
+    },
+    "valves-actuators": {
+      "title": "Vannes et actionneurs",
+      "shortDescription": "Solutions de vannes essentielles pour l'automatisation industrielle : vannes de régulation et électrovannes",
+      "fullDescription": "Solutions de vannes professionnelles comprenant des vannes de régulation de Fisher (Emerson) et SAMSON pour un contrôle précis des processus, et des électrovannes d'ASCO et Parker Hannifin pour le contrôle automatisé des fluides dans les applications industrielles.",
+      "parentCategoryTitle": "Accessoires d'instrumentation",
+      "keyBenefits": [
+        "Contrôle précis du débit",
+        "Fonctionnement fiable",
+        "Coûts de maintenance réduits",
+        "Efficacité accrue des processus"
+      ],
+      "specifications": [
+        "Pression nominale : ANSI 150-2500",
+        "Plage de température : -196 °C à +650 °C",
+        "Plage de tailles : 1/2\" à 48\"",
+        "Matériaux : Acier inoxydable, acier au carbone, alliages",
+        "Types d'actionneurs : Pneumatique, électrique, hydraulique",
+        "Signal de commande : 4-20 mA, 0-10 V, numérique"
+      ],
+      "applications": [
+        "Contrôle du débit",
+        "Régulation de la pression",
+        "Contrôle de la température",
+        "Arrêt de sécurité",
+        "Isolation des processus",
+        "Contrôle du niveau"
+      ],
+      "industries": [
+        "Pétrole et gaz",
+        "Transformation chimique",
+        "Production d'énergie",
+        "Traitement de l'eau",
+        "Pharmaceutique",
+        "Pâtes et papiers"
+      ],
+      "features": [
+        "Capacité haute pression",
+        "Résistant à la corrosion",
+        "Conception résistante au feu",
+        "Technologie à faibles émissions",
+        "Positionnement intelligent",
+        "Fonctionnement à distance",
+        "Fonctionnement de sécurité intégrée",
+        "Durée de vie prolongée"
+      ],
+      "certifications": [
+        "Certifié API 6D",
+        "Conforme à la norme ASME",
+        "ISO 15848",
+        "Homologué ATEX",
+        "Conforme SIL",
+        "Certifié par essai de résistance au feu"
+      ],
+      "seo": {
+        "title": "Vannes et actionneurs industriels - Vannes de régulation, soupapes de sécurité | Powerton Engineering",
+        "description": "Vannes de régulation et actionneurs industriels pour le contrôle des processus. Vannes à bille, vannes à guillotine, clapets antiretour avec actionneurs pneumatiques et électriques pour les applications pétrolières, gazières et chimiques.",
+        "keywords": "vannes industrielles, vannes de régulation, actionneurs de vannes, vannes à bille, vannes à guillotine, soupapes de sécurité, vannes de processus"
+      }
+    },
+    "analyzers": {
+      "title": "Analyseurs",
+      "shortDescription": "Analyseurs avancés de gaz, de liquides et de processus pour le contrôle de la qualité et la surveillance",
+      "fullDescription": "Gamme complète d'analyseurs de processus, y compris la chromatographie en phase gazeuse, les analyseurs de liquides, les analyseurs d'O2/CO2 et les instruments de mesure spécialisés pour la surveillance des processus et les applications de contrôle de la qualité.",
+      "parentCategoryTitle": "Accessoires d'instrumentation",
+      "keyBenefits": [
+        "Optimisation du contrôle des processus",
+        "Assurance de la qualité des produits",
+        "Conformité réglementaire",
+        "Surveillance de la sécurité améliorée"
+      ],
+      "specifications": [
+        "Plage de mesure : ppm à % niveaux",
+        "Précision : ±0,5 % de la lecture",
+        "Temps de réponse : 1 à 30 secondes",
+        "Température de fonctionnement : -10 °C à +60 °C",
+        "Signaux de sortie : 4-20 mA, Modbus, Ethernet",
+        "Indice de protection : IP65/IP67"
+      ],
+      "applications": [
+        "Analyse de la composition du gaz",
+        "Surveillance de la qualité des liquides",
+        "Surveillance environnementale",
+        "Optimisation des processus",
+        "Assurance de la qualité",
+        "Surveillance de la sécurité"
+      ],
+      "industries": [
+        "Transformation chimique",
+        "Raffinage du pétrole et du gaz",
+        "Production d'énergie",
+        "Produits pharmaceutiques",
+        "Traitement de l'eau",
+        "Alimentation et boissons"
+      ],
+      "features": [
+        "Analyse multi-composants",
+        "Surveillance en temps réel",
+        "Étalonnage automatique",
+        "Enregistrement des données",
+        "Diagnostic à distance",
+        "Faible maintenance",
+        "Options antidéflagrantes",
+        "Interface Web"
+      ],
+      "certifications": [
+        "Certifié ATEX",
+        "Approbation IECEx",
+        "Conforme SIL 2",
+        "FDA 21 CFR Partie 11",
+        "Marquage CE",
+        "ISO 9001"
+      ],
+      "seo": {
+        "title": "Analyseurs de processus - Instruments d'analyse de gaz et de liquides | Powerton Engineering",
+        "description": "Analyseurs de processus avancés pour la chromatographie en phase gazeuse, l'analyse des liquides et la surveillance d'O2/CO2. Instruments de précision pour le contrôle des processus et l'assurance de la qualité.",
+        "keywords": "analyseurs de processus, analyseurs de gaz, analyseurs de liquides, chromatographie, analyseurs d'O2, analyseurs de CO2, surveillance des processus"
+      }
+    },
+    "cables-wires": {
+      "title": "Câbles et fils",
+      "shortDescription": "Câbles et fils industriels pour la transmission de puissance et les applications de contrôle",
+      "fullDescription": "Gamme complète de câbles électriques, y compris les câbles d'alimentation, les câbles de commande, les câbles d'instrumentation et les câbles de communication pour les installations industrielles.",
+      "parentCategoryTitle": "Accessoires électriques",
+      "keyBenefits": [
+        "Capacité de transport de courant élevée",
+        "Excellentes propriétés d'isolation",
+        "Matériaux ignifuges",
+        "Longue durée de vie"
+      ],
+      "specifications": [
+        "Tension nominale : 300 V à 33 kV",
+        "Température nominale : -40 °C à +90 °C",
+        "Conducteur : Cuivre/Aluminium",
+        "Isolation : PVC, XLPE, EPR",
+        "Blindage : Tresse, Feuille, Combinaison",
+        "Normes : CEI, IEEE, ASTM"
+      ],
+      "applications": [
+        "Distribution de puissance",
+        "Connexions de moteur",
+        "Circuits de commande",
+        "Instrumentation",
+        "Réseaux de communication",
+        "Systèmes de mise à la terre"
+      ],
+      "industries": [
+        "Production d'énergie",
+        "Fabrication",
+        "Infrastructure",
+        "Marine et offshore",
+        "Exploitation minière",
+        "Transport"
+      ],
+      "features": [
+        "Résistant au feu",
+        "Résistant à l'huile",
+        "Résistant aux UV",
+        "Résistant à l'humidité",
+        "Conception flexible",
+        "Installation facile",
+        "Faible émission de fumée",
+        "Options sans halogène"
+      ],
+      "certifications": [
+        "Certifié CEI 60502",
+        "Testé IEEE 1202",
+        "Homologué UL",
+        "Certifié CSA",
+        "Marquage CE",
+        "Conforme à la norme RoHS"
+      ],
+      "seo": {
+        "title": "Câbles et fils industriels - Câbles d'alimentation, de commande et d'instrumentation | Powerton Engineering",
+        "description": "Câbles et fils électriques industriels pour la transmission de puissance, les circuits de commande et l'instrumentation. Câbles d'alimentation haute tension, câbles de commande et câbles de communication.",
+        "keywords": "câbles industriels, câbles d'alimentation, câbles de commande, câbles d'instrumentation, fils électriques, câbles de communication, câbles armés"
+      }
+    },
+    "connectors-terminals": {
+      "title": "Connecteurs et bornes",
+      "shortDescription": "Connecteurs électriques et borniers pour des connexions sécurisées",
+      "fullDescription": "Gamme complète de solutions de connexion électrique, y compris les borniers, les connecteurs de fils, les boîtes de jonction et les connecteurs industriels pour des connexions électriques fiables.",
+      "parentCategoryTitle": "Accessoires électriques",
+      "keyBenefits": [
+        "Connexions sécurisées",
+        "Installation facile",
+        "Facile à entretenir",
+        "Capacité de courant élevée"
+      ],
+      "specifications": [
+        "Intensité nominale : 5 A à 1 000 A",
+        "Tension nominale : 300 V à 1 000 V",
+        "Gamme de fils : 0,5 mm² à 300 mm²",
+        "Température de fonctionnement : -40 °C à +120 °C",
+        "Indice de protection : IP20 à IP68",
+        "Montage : Rail DIN, PCB, Panneau"
+      ],
+      "applications": [
+        "Câblage de panneaux de commande",
+        "Tableaux de distribution",
+        "Boîtes de jonction",
+        "Connexions de signal",
+        "Distribution de puissance",
+        "Connexions de mise à la terre"
+      ],
+      "industries": [
+        "Panneaux électriques",
+        "Automatisation industrielle",
+        "Services de bâtiment",
+        "Transport",
+        "Télécommunications",
+        "Énergie et services publics"
+      ],
+      "features": [
+        "Connexions à vis et à ressort",
+        "Codage couleur disponible",
+        "Points de test",
+        "Options de cavalier",
+        "Conception modulaire",
+        "Barrières de sécurité",
+        "Options de déconnexion",
+        "Haute densité"
+      ],
+      "certifications": [
+        "CEI 60947-7-1",
+        "Homologué UL",
+        "Certifié CSA",
+        "Approuvé VDE",
+        "Marquage CE",
+        "Conforme à la norme RoHS"
+      ],
+      "seo": {
+        "title": "Connecteurs et bornes électriques - Borniers et connecteurs de fils | Powerton Engineering",
+        "description": "Connecteurs électriques et borniers pour applications industrielles. Bornes sur rail DIN, connecteurs de fils, boîtes de jonction pour des connexions électriques sécurisées.",
+        "keywords": "connecteurs électriques, borniers, connecteurs de fils, bornes sur rail DIN, boîtes de jonction, bornes électriques"
+      }
+    },
+    "circuit-breakers-fuses": {
+      "title": "Disjoncteurs et fusibles",
+      "shortDescription": "Dispositifs de protection électrique pour la distribution d'énergie industrielle",
+      "fullDescription": "Gamme complète de dispositifs de protection de circuit, y compris les MCB, les MCCB, les ACB et les fusibles industriels pour une protection complète du système électrique.",
+      "parentCategoryTitle": "Accessoires électriques",
+      "keyBenefits": [
+        "Protection de l'équipement",
+        "Détection de surintensité",
+        "Conformité de sécurité",
+        "Performance fiable"
+      ],
+      "specifications": [
+        "Intensité nominale : 1 A à 6 300 A",
+        "Tension nominale : jusqu'à 1 000 V CA",
+        "Pouvoir de coupure : 6 kA à 100 kA",
+        "Caractéristiques de déclenchement : Courbes B, C, D",
+        "Montage : Rail DIN, Panneau, Châssis",
+        "Normes : CEI 60947, UL 489"
+      ],
+      "applications": [
+        "Distribution de puissance",
+        "Protection du moteur",
+        "Protection du transformateur",
+        "Protection du générateur",
+        "Équipement industriel",
+        "Services de bâtiment"
+      ],
+      "industries": [
+        "Distribution de puissance",
+        "Fabrication",
+        "Bâtiments commerciaux",
+        "Centres de données",
+        "Infrastructure",
+        "Transport"
+      ],
+      "features": [
+        "Protection thermique",
+        "Protection magnétique",
+        "Paramètres réglables",
+        "Indication à distance",
+        "Contacts auxiliaires",
+        "Installation rapide",
+        "Pouvoir de coupure élevé",
+        "Coordination sélective"
+      ],
+      "certifications": [
+        "Certifié CEI 60947",
+        "Homologué UL 489",
+        "Certifié CSA",
+        "Marquage CE",
+        "Conforme à la norme RoHS",
+        "ISO 9001"
+      ],
+      "seo": {
+        "title": "Disjoncteurs et fusibles - MCB, MCCB, Fusibles industriels | Powerton Engineering",
+        "description": "Disjoncteurs et fusibles industriels pour la protection électrique. Disjoncteurs MCB, MCCB, ACB avec un pouvoir de coupure élevé pour les systèmes de distribution d'énergie.",
+        "keywords": "disjoncteurs, MCB, MCCB, ACB, fusibles industriels, protection électrique, protection contre les surintensités, distribution d'énergie"
+      }
+    },
+    "power-supplies": {
+      "title": "Alimentations électriques",
+      "shortDescription": "Alimentations électriques industrielles et convertisseurs CC-CC",
+      "fullDescription": "Alimentations électriques industrielles fiables, y compris les convertisseurs CA-CC, les convertisseurs CC-CC et les systèmes d'alimentation sans interruption pour les applications industrielles critiques.",
+      "parentCategoryTitle": "Accessoires électriques",
+      "keyBenefits": [
+        "Tension de sortie stable",
+        "Large plage d'entrée",
+        "Haute efficacité",
+        "Conception compacte"
+      ],
+      "specifications": [
+        "Tension d'entrée : 85-265 V CA",
+        "Tension de sortie : 5 V à 48 V CC",
+        "Puissance nominale : 5 W à 1 000 W",
+        "Efficacité : jusqu'à 95 %",
+        "Température de fonctionnement : -25 °C à +70 °C",
+        "Protection : IP20 à IP67"
+      ],
+      "applications": [
+        "Systèmes PLC",
+        "Panneaux de commande",
+        "Systèmes d'automatisation",
+        "Équipement de communication",
+        "Éclairage DEL",
+        "Contrôleurs industriels"
+      ],
+      "industries": [
+        "Automatisation industrielle",
+        "Fabrication",
+        "Télécommunications",
+        "Transport",
+        "Automatisation du bâtiment",
+        "Énergie renouvelable"
+      ],
+      "features": [
+        "Montage sur rail DIN",
+        "Entrée universelle",
+        "Protection contre les courts-circuits",
+        "Protection contre les surcharges",
+        "Indicateurs d'état DEL",
+        "Large plage de températures",
+        "Haute fiabilité",
+        "Conforme aux normes EMI/CEM"
+      ],
+      "certifications": [
+        "Homologué UL",
+        "Marquage CE",
+        "Certifié TUV",
+        "Certifié CB",
+        "Conforme à la norme RoHS",
+        "Energy Star"
+      ],
+      "seo": {
+        "title": "Alimentations électriques industrielles - Convertisseurs CA-CC et convertisseurs CC-CC | Powerton Engineering",
+        "description": "Alimentations électriques industrielles pour les systèmes d'automatisation et de commande. Alimentations sur rail DIN, convertisseurs CA-CC et convertisseurs CC-CC à haut rendement.",
+        "keywords": "alimentations électriques industrielles, convertisseurs CA-CC, convertisseurs CC-CC, alimentations sur rail DIN, alimentation industrielle, alimentations d'automatisation"
+      }
+    },
+    "enclosures-cabinets": {
+      "title": "Boîtiers et armoires",
+      "shortDescription": "Boîtiers électriques industriels et armoires de commande",
+      "fullDescription": "Boîtiers électriques robustes et armoires de commande conçus pour les environnements industriels difficiles avec divers indices de protection et options de montage.",
+      "parentCategoryTitle": "Accessoires électriques",
+      "keyBenefits": [
+        "Protection de l'équipement",
+        "Étanchéité environnementale",
+        "Conception modulaire",
+        "Facile d'accès"
+      ],
+      "specifications": [
+        "Matériau : Acier, Acier inoxydable, Polycarbonate",
+        "Indice de protection : IP54 à IP68",
+        "Température nominale : -40 °C à +80 °C",
+        "Gamme de tailles : Diverses tailles standard",
+        "Type de porte : Simple/Double",
+        "Montage : Mural, au sol, sur poteau"
+      ],
+      "applications": [
+        "Panneaux de commande",
+        "Tableaux de distribution",
+        "Boîtier d'instrument",
+        "Boîtes de jonction",
+        "Équipement extérieur",
+        "Zones dangereuses"
+      ],
+      "industries": [
+        "Fabrication",
+        "Distribution de puissance",
+        "Traitement de l'eau",
+        "Pétrole et gaz",
+        "Télécommunications",
+        "Transport"
+      ],
+      "features": [
+        "Conception résistante aux intempéries",
+        "Résistant à la corrosion",
+        "Portes verrouillables",
+        "Options d'entrée de câble",
+        "Plaques de montage",
+        "Options de ventilation",
+        "Blindage EMI/RFI",
+        "Modifications personnalisées"
+      ],
+      "certifications": [
+        "Homologué NEMA",
+        "CEI 60529",
+        "Homologué UL",
+        "Certifié CSA",
+        "Marquage CE",
+        "Approuvé ATEX"
+      ],
+      "seo": {
+        "title": "Boîtiers et armoires industriels - Boîtiers de panneaux de commande | Powerton Engineering",
+        "description": "Boîtiers électriques industriels et armoires de commande avec divers indices de protection IP. Boîtiers homologués NEMA pour les environnements difficiles et les zones dangereuses.",
+        "keywords": "boîtiers industriels, armoires électriques, boîtiers de panneaux de commande, boîtiers NEMA, boîtiers classés IP, boîtes de jonction"
+      }
+    },
+    "heating-elements-appliances": {
+      "title": "Éléments chauffants et appareils",
+      "shortDescription": "Éléments chauffants industriels et équipement de contrôle thermique",
+      "fullDescription": "Gamme complète de solutions de chauffage industrielles, y compris les thermoplongeurs, les colliers chauffants, les cartouches chauffantes et les systèmes de contrôle thermique.",
+      "parentCategoryTitle": "Accessoires électriques",
+      "keyBenefits": [
+        "Contrôle précis de la température",
+        "Économe en énergie",
+        "Longue durée de vie",
+        "Transfert de chaleur rapide"
+      ],
+      "specifications": [
+        "Puissance nominale : 100 W à 100 kW",
+        "Plage de températures : jusqu'à 800 °C",
+        "Tension : 120 V à 480 V",
+        "Matériau : Acier inoxydable, Incoloy",
+        "Densité de puissance : 5 à 50 W/po²",
+        "Contrôle : Marche-arrêt, PID, SCR"
+      ],
+      "applications": [
+        "Chauffage de processus",
+        "Chauffage de réservoir",
+        "Transformation du plastique",
+        "Transformation des aliments",
+        "Traitement chimique",
+        "Fours industriels"
+      ],
+      "industries": [
+        "Traitement chimique",
+        "Plastiques et caoutchouc",
+        "Alimentation et boissons",
+        "Pharmaceutique",
+        "Pétrole et gaz",
+        "Fabrication"
+      ],
+      "features": [
+        "Plusieurs types de chauffage",
+        "Capteurs de température",
+        "Options antidéflagrantes",
+        "Résistant à la corrosion",
+        "Installation rapide",
+        "Économe en énergie",
+        "Thermostats de sécurité",
+        "Conceptions personnalisées"
+      ],
+      "certifications": [
+        "Homologué UL",
+        "Certifié CSA",
+        "Marquage CE",
+        "Certifié ATEX",
+        "Conforme à la norme RoHS",
+        "ISO 9001"
+      ],
+      "seo": {
+        "title": "Éléments chauffants industriels - Thermoplongeurs et chauffage de processus | Powerton Engineering",
+        "description": "Éléments chauffants industriels et équipement de contrôle thermique. Thermoplongeurs, colliers chauffants, cartouches chauffantes pour les applications de chauffage de processus.",
+        "keywords": "radiateurs industriels, éléments chauffants, thermoplongeurs, chauffage de processus, contrôle thermique, équipement de chauffage industriel"
+      }
+    },
+    "solar-panels": {
+      "title": "Panneaux et modules solaires",
+      "shortDescription": "Panneaux solaires et modules photovoltaïques à haute efficacité",
+      "fullDescription": "Panneaux solaires de première qualité avec une efficacité de conversion, une durabilité et des performances élevées pour les applications résidentielles, commerciales et industrielles.",
+      "parentCategoryTitle": "Produits solaires",
+      "keyBenefits": [
+        "Haute efficacité",
+        "Longue durée de vie",
+        "Résistant aux intempéries",
+        "Faible dégradation"
+      ],
+      "specifications": [
+        "Puissance de sortie : 100 W à 600 W",
+        "Efficacité : 18 % à 22 %",
+        "Type de cellule : Monocristallin/Polycristallin",
+        "Tension : 12 V à 48 V CC",
+        "Température de fonctionnement : -40 °C à +85 °C",
+        "Garantie : 25 ans de performance"
+      ],
+      "applications": [
+        "Systèmes solaires résidentiels",
+        "Installations commerciales",
+        "Projets à l'échelle des services publics",
+        "Systèmes hors réseau",
+        "Systèmes hybrides",
+        "Fermes solaires"
+      ],
+      "industries": [
+        "Énergie renouvelable",
+        "Résidentiel",
+        "Immeubles commerciaux",
+        "Services publics",
+        "Agriculture",
+        "Industriel"
+      ],
+      "features": [
+        "Cellules à haute efficacité",
+        "Revêtement antireflet",
+        "Diodes de dérivation",
+        "Boîte de jonction IP67",
+        "Cadre en aluminium anodisé",
+        "Verre trempé",
+        "Compatible MPPT",
+        "Résistant à la grêle"
+      ],
+      "certifications": [
+        "CEI 61215",
+        "CEI 61730",
+        "UL 1703",
+        "Marquage CE",
+        "Certifié TUV",
+        "Approuvé BIS"
+      ],
+      "seo": {
+        "title": "Panneaux solaires - Modules photovoltaïques à haut rendement | Powerton Engineering",
+        "description": "Panneaux solaires et modules photovoltaïques à haut rendement pour les applications résidentielles, commerciales et industrielles. Garantie de 25 ans avec des performances de première qualité.",
+        "keywords": "panneaux solaires, modules solaires, panneaux photovoltaïques, énergie solaire, énergie renouvelable, panneaux solaires monocristallins, panneaux solaires polycristallins"
+      }
+    },
+    "solar-inverters": {
+      "title": "Onduleurs solaires",
+      "shortDescription": "Onduleurs solaires raccordés au réseau et hybrides pour les systèmes photovoltaïques",
+      "fullDescription": "Onduleurs solaires à haut rendement pour les applications raccordées au réseau et hybrides avec une technologie MPPT avancée et une intégration de batterie.",
+      "parentCategoryTitle": "Produits solaires",
+      "keyBenefits": [
+        "Suivi du point de puissance maximale",
+        "Intégration au réseau",
+        "Compatibilité de la batterie",
+        "Surveillance à distance"
+      ],
+      "specifications": [
+        "Gamme de puissance : 1 kW à 100 kW",
+        "Efficacité : jusqu'à 98 %",
+        "Tension d'entrée : 150 V à 1 000 V CC",
+        "Sortie : 230 V/400 V CA",
+        "Protection : IP65/IP66",
+        "Communication : Ethernet, WiFi, RS485"
+      ],
+      "applications": [
+        "Systèmes solaires raccordés au réseau",
+        "Systèmes solaires hybrides",
+        "Installations à l'échelle des services publics",
+        "Solaire commercial",
+        "Solaire résidentiel",
+        "Intégration du stockage d'énergie"
+      ],
+      "industries": [
+        "Énergie renouvelable",
+        "Services publics",
+        "Immeubles commerciaux",
+        "Résidentiel",
+        "Industriel",
+        "Agriculture"
+      ],
+      "features": [
+        "Technologie MPPT",
+        "Surveillance du réseau",
+        "Détection des défauts d'arc",
+        "Surveillance à distance",
+        "Intégration de la batterie",
+        "Alimentation de secours",
+        "Gestion de l'énergie",
+        "Prêt pour le réseau intelligent"
+      ],
+      "certifications": [
+        "CEI 62109",
+        "UL 1741",
+        "IEEE 1547",
+        "Marquage CE",
+        "Conforme au code de réseau",
+        "Certifié BIS"
+      ],
+      "seo": {
+        "title": "Onduleurs solaires - Onduleurs solaires raccordés au réseau et hybrides | Powerton Engineering",
+        "description": "Onduleurs solaires à haut rendement pour les applications raccordées au réseau et hybrides. Onduleurs de chaîne, onduleurs centraux avec technologie MPPT et intégration de batterie.",
+        "keywords": "onduleurs solaires, onduleurs raccordés au réseau, onduleurs hybrides, onduleurs de chaîne, onduleurs centraux, onduleurs d'énergie solaire"
+      }
+    },
+    "plcs": {
+      "title": "PLC (Automates programmables)",
+      "shortDescription": "Contrôleurs d'automatisation industrielle pour le contrôle des processus et la fabrication",
+      "fullDescription": "Systèmes PLC avancés avec une conception modulaire, de multiples protocoles de communication et des fonctions de sécurité intégrées pour des solutions complètes d'automatisation industrielle.",
+      "parentCategoryTitle": "Systèmes d'automatisation et de contrôle",
+      "keyBenefits": [
+        "Programmation flexible",
+        "Extension modulaire",
+        "Contrôle en temps réel",
+        "Sécurité intégrée"
+      ],
+      "specifications": [
+        "Points d'E/S : 16 à plus de 40 000",
+        "Mémoire : 512 Ko à 64 Mo",
+        "Programmation : CEI 61131-3",
+        "Communication : Ethernet, Série, Bus de terrain",
+        "Température de fonctionnement : -25 °C à +60 °C",
+        "Alimentation : 24 V CC, 120/240 V CA"
+      ],
+      "applications": [
+        "Automatisation d'usine",
+        "Contrôle des processus",
+        "Manutention",
+        "Machines d'emballage",
+        "Traitement de l'eau",
+        "Automatisation des bâtiments"
+      ],
+      "industries": [
+        "Fabrication",
+        "Aliments et boissons",
+        "Automobile",
+        "Pharmaceutique",
+        "Eau et eaux usées",
+        "Énergie et services publics"
+      ],
+      "features": [
+        "Conception modulaire",
+        "E/S remplaçables à chaud",
+        "Programmation basée sur le Web",
+        "IHM intégrée",
+        "Contrôle de mouvement",
+        "Fonctions de sécurité",
+        "Accès à distance",
+        "Enregistrement des données"
+      ],
+      "certifications": [
+        "Marquage CE",
+        "Homologué UL",
+        "Certifié CSA",
+        "CEI 61131",
+        "Approuvé ATEX",
+        "Classe SIL"
+      ],
+      "seo": {
+        "title": "PLC - Automates programmables pour l'automatisation industrielle | Powerton Engineering",
+        "description": "PLC industriels et automates programmables pour l'automatisation et le contrôle des processus. Systèmes PLC Siemens, Allen-Bradley et Schneider Electric.",
+        "keywords": "PLC, automates programmables, automatisation industrielle, contrôle des processus, automatisation d'usine, programmation PLC"
+      }
+    },
+    "scada": {
+      "title": "Systèmes SCADA",
+      "shortDescription": "Systèmes de contrôle et d'acquisition de données de supervision pour l'automatisation industrielle",
+      "fullDescription": "Solutions SCADA complètes pour la surveillance, le contrôle et l'acquisition de données en temps réel dans les processus industriels avec des capacités de visualisation et de rapport avancées.",
+      "parentCategoryTitle": "Systèmes d'automatisation et de contrôle",
+      "keyBenefits": [
+        "Surveillance en temps réel",
+        "Contrôle centralisé",
+        "Acquisition de données",
+        "Tendances historiques"
+      ],
+      "specifications": [
+        "Utilisateurs simultanés : jusqu'à 100",
+        "Points d'E/S : illimités",
+        "Communication : Prise en charge de plusieurs protocoles",
+        "Base de données : SQL Server, Oracle",
+        "Système d'exploitation : Windows Server",
+        "Redondance : Prise en charge de la veille à chaud"
+      ],
+      "applications": [
+        "Surveillance des processus",
+        "Télécommande",
+        "Enregistrement des données",
+        "Gestion des alarmes",
+        "Génération de rapports",
+        "Contrôle des lots"
+      ],
+      "industries": [
+        "Pétrole et gaz",
+        "Traitement de l'eau",
+        "Production d'électricité",
+        "Fabrication",
+        "Traitement chimique",
+        "Transport"
+      ],
+      "features": [
+        "Interface graphique",
+        "Affichages en temps réel",
+        "Analyse des tendances",
+        "Gestion des alarmes",
+        "Gestion des recettes",
+        "Fonctions de sécurité",
+        "Client Web",
+        "Accès mobile"
+      ],
+      "certifications": [
+        "CEI 61131",
+        "Certifié OPC",
+        "Conforme à la norme ISA-95",
+        "Cybersécurité",
+        "FDA 21 CFR Partie 11",
+        "ISO 27001"
+      ],
+      "seo": {
+        "title": "Systèmes SCADA - Surveillance et contrôle industriels | Powerton Engineering",
+        "description": "Systèmes SCADA pour l'automatisation industrielle avec surveillance en temps réel, contrôle centralisé et acquisition de données. Prise en charge de la communication multiprotocole.",
+        "keywords": "systèmes SCADA, contrôle de supervision, acquisition de données, surveillance industrielle, contrôle des processus, systèmes d'automatisation"
+      }
+    },
+    "dcs": {
+      "title": "Systèmes de contrôle distribués (SCD)",
+      "shortDescription": "Systèmes de contrôle distribués pour l'automatisation des processus à grande échelle",
+      "fullDescription": "Solutions SCD avancées pour le contrôle des processus complexes avec une architecture distribuée, une communication redondante et des systèmes de sécurité intégrés pour les applications critiques.",
+      "parentCategoryTitle": "Systèmes d'automatisation et de contrôle",
+      "keyBenefits": [
+        "Architecture distribuée",
+        "Haute fiabilité",
+        "Sécurité intégrée",
+        "Conception évolutive"
+      ],
+      "specifications": [
+        "Nœuds de contrôleur : jusqu'à 1 000",
+        "Capacité d'E/S : plus de 50 000 points",
+        "Temps de balayage : 10 ms typiques",
+        "Redondance : Triple redondance",
+        "Communication : Ethernet haute vitesse",
+        "Intégrité de la sécurité : SIL 3"
+      ],
+      "applications": [
+        "Contrôle des processus",
+        "Fabrication continue",
+        "Traitement par lots",
+        "Systèmes de sécurité",
+        "Gestion des actifs",
+        "Optimisation des performances"
+      ],
+      "industries": [
+        "Pétrole et gaz",
+        "Traitement chimique",
+        "Production d'électricité",
+        "Pâtes et papiers",
+        "Pharmaceutique",
+        "Pétrochimie"
+      ],
+      "features": [
+        "Contrôle distribué",
+        "Systèmes redondants",
+        "Contrôle avancé",
+        "Sécurité intégrée",
+        "Gestion des actifs",
+        "Maintenance prédictive",
+        "Données historiques",
+        "Outils d'ingénierie"
+      ],
+      "certifications": [
+        "CEI 61131",
+        "CEI 61508 SIL 3",
+        "Conforme à la norme ISA-95",
+        "Certifié TÜV",
+        "Cybersécurité",
+        "NERC CIP"
+      ],
+      "seo": {
+        "title": "Systèmes de contrôle distribués (SCD) - Automatisation des processus | Powerton Engineering",
+        "description": "Solutions SCD avancées pour le contrôle des processus à grande échelle avec une architecture distribuée, des systèmes redondants et des fonctions de sécurité intégrées.",
+        "keywords": "systèmes SCD, systèmes de contrôle distribués, automatisation des processus, contrôle industriel, systèmes de sécurité, contrôle des processus"
+      }
+    },
+    "hmi": {
+      "title": "Interface homme-machine (IHM)",
+      "shortDescription": "Panneaux IHM industriels et interfaces opérateur pour le contrôle des processus",
+      "fullDescription": "Solutions IHM avancées, y compris les panneaux à écran tactile, les interfaces opérateur et les systèmes IHM mobiles pour les applications d'automatisation industrielle et de contrôle des processus.",
+      "parentCategoryTitle": "Systèmes d'automatisation et de contrôle",
+      "keyBenefits": [
+        "Fonctionnement de l'écran tactile",
+        "Conception de qualité industrielle",
+        "Affichage en temps réel",
+        "Prise en charge de plusieurs protocoles"
+      ],
+      "specifications": [
+        "Taille de l'écran : 4 po à 21 po",
+        "Résolution : 480x272 à 1920x1080",
+        "Type de contact : Résistif/Capacitif",
+        "Température de fonctionnement : -20 °C à +70 °C",
+        "Protection : Panneau avant IP65",
+        "Communication : Ethernet, Série, USB"
+      ],
+      "applications": [
+        "Surveillance des processus",
+        "Commande de machine",
+        "Visualisation des données",
+        "Gestion des alarmes",
+        "Gestion des recettes",
+        "Interface opérateur"
+      ],
+      "industries": [
+        "Fabrication",
+        "Industries de transformation",
+        "Traitement de l'eau",
+        "Production d'électricité",
+        "Aliments et boissons",
+        "Pharmaceutique"
+      ],
+      "features": [
+        "Interface à écran tactile",
+        "Qualité industrielle",
+        "Affichage en temps réel",
+        "Multiprotocole",
+        "Accès basé sur le Web",
+        "Gestion des alarmes",
+        "Enregistrement des données",
+        "Gestion des recettes"
+      ],
+      "certifications": [
+        "Marquage CE",
+        "Homologué UL",
+        "FCC Classe A",
+        "CEI 61131",
+        "NEMA 4X",
+        "Indice de protection IP65"
+      ],
+      "seo": {
+        "title": "Interface homme-machine (IHM) - Panneaux à écran tactile industriels | Powerton Engineering",
+        "description": "Panneaux IHM industriels et interfaces à écran tactile pour le contrôle des processus et l'automatisation. Prise en charge de plusieurs protocoles avec surveillance et contrôle en temps réel.",
+        "keywords": "panneaux IHM, interface homme-machine, panneaux à écran tactile, interface opérateur, écrans industriels, IHM de contrôle des processus"
+      }
+    },
+    "surge-protectors": {
+      "title": "Parafoudres",
+      "shortDescription": "Dispositifs industriels de protection contre les surtensions pour la protection des systèmes électriques",
+      "fullDescription": "Solutions complètes de protection contre les surtensions, y compris les parafoudres de courant alternatif, solaires CC et de ligne de signal pour protéger les équipements électriques contre les surtensions transitoires.",
+      "parentCategoryTitle": "Dispositifs de sécurité et de protection",
+      "keyBenefits": [
+        "Protection contre les transitoires",
+        "Sécurité de l'équipement",
+        "Fiabilité du système",
+        "Protection contre la foudre"
+      ],
+      "specifications": [
+        "Plage de tension : 120 V à 690 V CA",
+        "Intensité nominale : 15 kA à 100 kA",
+        "Temps de réponse : < 25 nanosecondes",
+        "Niveau de protection : Classe I/II/III",
+        "Température de fonctionnement : -40 °C à +85 °C",
+        "Boîtier : IP20 à IP65"
+      ],
+      "applications": [
+        "Distribution d'énergie",
+        "Centres de commande de moteurs",
+        "Systèmes d'énergie solaire",
+        "Communication de données",
+        "Panneaux de commande",
+        "Équipement sensible"
+      ],
+      "industries": [
+        "Distribution d'énergie",
+        "Énergie solaire",
+        "Télécommunications",
+        "Fabrication industrielle",
+        "Centres de données",
+        "Services de construction"
+      ],
+      "features": [
+        "Technologie MOV",
+        "Indicateurs d'état",
+        "Indication à distance",
+        "Déconnexion rapide",
+        "Montage sur rail DIN",
+        "Conception de sécurité intégrée",
+        "Faible courant de fuite",
+        "Protection thermique"
+      ],
+      "certifications": [
+        "UL 1449",
+        "CEI 61643",
+        "IEEE C62.41",
+        "Marquage CE",
+        "Conforme à la norme RoHS",
+        "Homologué UL"
+      ],
+      "seo": {
+        "title": "Parafoudres - Dispositifs industriels de protection électrique | Powerton Engineering",
+        "description": "Dispositifs industriels de protection contre les surtensions pour la protection de l'alimentation CA, solaire CC et de la ligne de signal. Parafoudres homologués UL 1449 avec temps de réponse rapide.",
+        "keywords": "parafoudres, dispositifs de protection contre les surtensions, protection électrique, protection contre la foudre, protection contre les surtensions, SPD industriel"
+      }
+    },
+    "grounding-systems": {
+      "title": "Systèmes de mise à la terre",
+      "shortDescription": "Systèmes industriels de mise à la terre et de connexion à la terre pour la sécurité électrique",
+      "fullDescription": "Solutions complètes de mise à la terre et de connexion à la terre, y compris les piquets de terre, les conducteurs et les systèmes de surveillance de la terre pour la sécurité électrique et la protection du système.",
+      "parentCategoryTitle": "Dispositifs de sécurité et de protection",
+      "keyBenefits": [
+        "Sécurité électrique",
+        "Protection du système",
+        "Trajet du courant de défaut",
+        "Protection de l'équipement"
+      ],
+      "specifications": [
+        "Matériau de la tige de terre : Acier plaqué cuivre",
+        "Taille du conducteur : #6 AWG à 750 MCM",
+        "Résistance : < 1 ohm typique",
+        "Intensité nominale : jusqu'à 50 kA",
+        "Résistance à la corrosion : galvanisation à chaud",
+        "Normes : IEEE 80, NEC Article 250"
+      ],
+      "applications": [
+        "Postes électriques",
+        "Installations industrielles",
+        "Protection contre la foudre",
+        "Télécommunications",
+        "Installations solaires",
+        "Mise à la terre des bâtiments"
+      ],
+      "industries": [
+        "Services électriques",
+        "Fabrication industrielle",
+        "Télécommunications",
+        "Construction",
+        "Énergie solaire",
+        "Centres de données"
+      ],
+      "features": [
+        "Piquets de terre en cuivre",
+        "Conducteurs de mise à la terre",
+        "Pinces et connecteurs",
+        "Surveillance de la terre",
+        "Protection contre la corrosion",
+        "Faible résistance",
+        "Traitement chimique",
+        "Équipement de test"
+      ],
+      "certifications": [
+        "IEEE 80",
+        "Conforme à la norme NEC",
+        "Homologué UL",
+        "Normes ANSI",
+        "CEI 62305",
+        "NFPA 780"
+      ],
+      "seo": {
+        "title": "Systèmes de mise à la terre - Solutions industrielles de mise à la terre électrique | Powerton Engineering",
+        "description": "Systèmes industriels de mise à la terre et de connexion à la terre pour la sécurité électrique. Piquets de terre, conducteurs et systèmes de surveillance conformes aux normes IEEE 80.",
+        "keywords": "systèmes de mise à la terre, systèmes de connexion à la terre, mise à la terre électrique, piquets de terre, conducteurs de mise à la terre, mise à la terre de sécurité électrique"
+      }
+    },
+    "safety-relays-switches": {
+      "title": "Relais et commutateurs de sécurité",
+      "shortDescription": "Relais de sécurité industriels et commutateurs d'arrêt d'urgence pour la sécurité des machines",
+      "fullDescription": "Dispositifs complets de commande de sécurité, y compris les relais de sécurité, les commutateurs d'arrêt d'urgence et les contrôleurs de sécurité pour la sécurité des machines et la protection du personnel.",
+      "parentCategoryTitle": "Dispositifs de sécurité et de protection",
+      "keyBenefits": [
+        "Sécurité des machines",
+        "Protection du personnel",
+        "Arrêt d'urgence",
+        "Conformité aux normes de sécurité"
+      ],
+      "specifications": [
+        "Catégorie de sécurité : Cat 3/4 selon la norme ISO 13849",
+        "Intensité nominale des contacts : 6 A à 16 A",
+        "Tension de fonctionnement : 24 V CC à 230 V CA",
+        "Temps de réponse : < 10 ms",
+        "Intégrité de sécurité : SIL 3/PLe",
+        "Environnement : IP65/IP67"
+      ],
+      "applications": [
+        "Circuits d'arrêt d'urgence",
+        "Systèmes de verrouillage de sécurité",
+        "Interface de barrière immatérielle",
+        "Commande à deux mains",
+        "Surveillance de porte de sécurité",
+        "Sécurité de la presse plieuse"
+      ],
+      "industries": [
+        "Fabrication",
+        "Automobile",
+        "Emballage",
+        "Transformation des aliments",
+        "Pharmaceutique",
+        "Manutention"
+      ],
+      "features": [
+        "Sécurité à double canal",
+        "Arrêt d'urgence",
+        "Surveillance de la sécurité",
+        "Fonctions de diagnostic",
+        "Réinitialisation manuelle",
+        "Affichage d'état à DEL",
+        "Modules extensibles",
+        "Interface de bus de sécurité"
+      ],
+      "certifications": [
+        "ISO 13849 PLe",
+        "CEI 61508 SIL 3",
+        "Certifié TÜV",
+        "Marquage CE",
+        "UL 508",
+        "Approuvé CSA"
+      ],
+      "seo": {
+        "title": "Relais et commutateurs de sécurité - Dispositifs de commande de sécurité des machines | Powerton Engineering",
+        "description": "Relais de sécurité industriels et commutateurs d'arrêt d'urgence pour la sécurité des machines. Dispositifs de commande de sécurité homologués SIL 3/PLe pour la protection du personnel.",
+        "keywords": "relais de sécurité, commutateurs de sécurité, arrêt d'urgence, sécurité des machines, contrôleurs de sécurité, dispositifs de sécurité, sécurité industrielle"
+      }
+    },
+    "intrinsically-safe-equipment": {
+      "title": "Équipement à sécurité intrinsèque",
+      "shortDescription": "Équipement antidéflagrant et à sécurité intrinsèque pour les zones dangereuses",
+      "fullDescription": "Équipement certifié à sécurité intrinsèque et antidéflagrant, y compris les barrières, les isolateurs et les boîtiers pour les applications en zones dangereuses.",
+      "parentCategoryTitle": "Dispositifs de sécurité et de protection",
+      "keyBenefits": [
+        "Certifié ATEX",
+        "Antidéflagrant",
+        "Sécurité intrinsèque",
+        "Homologué pour les zones dangereuses"
+      ],
+      "specifications": [
+        "Classement de zone : Zone 0/1/2, Div 1/2",
+        "Classe de température : T1 à T6",
+        "Protection : Ex ia, Ex d, Ex e",
+        "Tension : 12 V à 250 V",
+        "Courant : 4-20 mA, 0-10 V",
+        "Certification : ATEX, IECEx, UL"
+      ],
+      "applications": [
+        "Instrumentation de zone dangereuse",
+        "Isolation du signal",
+        "Boîtier antidéflagrant",
+        "Barrières de sécurité intrinsèque",
+        "Systèmes de détection de gaz",
+        "Arrêt d'urgence"
+      ],
+      "industries": [
+        "Pétrole et gaz",
+        "Pétrochimie",
+        "Transformation chimique",
+        "Pharmaceutique",
+        "Exploitation minière",
+        "Peintures et revêtements"
+      ],
+      "features": [
+        "Certifié ATEX/IECEx",
+        "Homologué pour la zone 0/1/2",
+        "Isolation galvanique",
+        "Concept d'entité",
+        "Transparence HART",
+        "Conception antidéflagrante",
+        "Sécurité intrinsèque",
+        "Boîtiers antidéflagrants"
+      ],
+      "certifications": [
+        "Certifié ATEX",
+        "Approuvé IECEx",
+        "UL Classe I Div 1",
+        "Certifié CSA",
+        "Approuvé BASEEFA",
+        "Certifié TIIS"
+      ],
+      "seo": {
+        "title": "Équipement à sécurité intrinsèque - Équipement certifié ATEX pour les zones dangereuses | Powerton Engineering",
+        "description": "Équipement à sécurité intrinsèque certifié ATEX pour les zones dangereuses. Barrières, isolateurs et boîtiers antidéflagrants pour les applications de zone 0/1/2.",
+        "keywords": "équipement à sécurité intrinsèque, certifié ATEX, antidéflagrant, équipement pour les zones dangereuses, barrières de sécurité, boîtiers Ex d"
+      }
+    },
+    "safety-equipment": {
+      "title": "Équipement de sécurité",
+      "shortDescription": "Équipement de sécurité industrielle et dispositifs de protection individuelle",
+      "fullDescription": "Solutions complètes de sécurité, y compris l'équipement de protection individuelle, les systèmes de protection contre les chutes et l'équipement de détection de gaz pour la conformité en matière de sécurité industrielle.",
+      "parentCategoryTitle": "Dispositifs de sécurité et de protection",
+      "keyBenefits": [
+        "Sécurité du personnel",
+        "Conformité aux normes OSHA",
+        "Protection contre les chutes",
+        "Détection de gaz"
+      ],
+      "specifications": [
+        "Normes de protection : ANSI, EN, CSA",
+        "Matériaux : Résistant aux chocs",
+        "Température de fonctionnement : -30 °C à +60 °C",
+        "Plage de détection : 0-100 % LIE",
+        "Autonomie de la batterie : Plus de 12 heures",
+        "Certification : ATEX, UL, CSA"
+      ],
+      "applications": [
+        "Protection individuelle",
+        "Protection contre les chutes",
+        "Détection de gaz",
+        "Intervention d'urgence",
+        "Entrée en espace confiné",
+        "Sécurité industrielle"
+      ],
+      "industries": [
+        "Pétrole et gaz",
+        "Construction",
+        "Fabrication",
+        "Transformation chimique",
+        "Exploitation minière",
+        "Services publics"
+      ],
+      "features": [
+        "Casques et casques de protection",
+        "Lunettes de sécurité",
+        "Protection auditive",
+        "Gants de travail",
+        "Protection contre les chutes",
+        "Détection de gaz",
+        "Équipement d'urgence",
+        "Formation à la sécurité"
+      ],
+      "certifications": [
+        "ANSI Z87.1",
+        "Approuvé par OSHA",
+        "EN 397",
+        "CSA Z94.1",
+        "Certifié ATEX",
+        "Homologué UL"
+      ],
+      "seo": {
+        "title": "Équipement de sécurité industrielle - EPI et protection contre les chutes | Powerton Engineering",
+        "description": "Équipement de sécurité industrielle, y compris les EPI, les systèmes de protection contre les chutes et l'équipement de détection de gaz. Solutions de sécurité conformes aux normes OSHA pour la protection sur le lieu de travail.",
+        "keywords": "équipement de sécurité, EPI, équipement de protection individuelle, protection contre les chutes, détection de gaz, sécurité industrielle, sécurité sur le lieu de travail"
+      }
+    },
+    "centrifugal-pumps": {
+      "title": "Pompes centrifuges",
+      "shortDescription": "Pompes centrifuges à haut rendement pour la manutention industrielle des fluides",
+      "fullDescription": "Pompes centrifuges robustes conçues pour un fonctionnement continu avec des débits élevés, une résistance à la corrosion et des performances écoénergétiques pour diverses applications industrielles.",
+      "parentCategoryTitle": "Pompes mécaniques et pièces de rechange",
+      "keyBenefits": [
+        "Capacité de débit élevée",
+        "Efficacité énergétique",
+        "Faible entretien",
+        "Résistant à la corrosion"
+      ],
+      "specifications": [
+        "Débit : 10 à 10 000 GPM",
+        "Hauteur : 10 à 500 pieds",
+        "Puissance : 1 HP à 500 HP",
+        "Température : -20 °C à +200 °C",
+        "Matériaux : Fonte, acier inoxydable, bronze",
+        "Joints : Mécanique, presse-étoupe"
+      ],
+      "applications": [
+        "Approvisionnement en eau",
+        "Systèmes de refroidissement",
+        "Transfert de produits chimiques",
+        "Irrigation",
+        "Processus industriel",
+        "Protection contre les incendies"
+      ],
+      "industries": [
+        "Traitement de l’eau",
+        "Traitement chimique",
+        "Production d’électricité",
+        "CVAC",
+        "Agriculture",
+        "Exploitation minière"
+      ],
+      "features": [
+        "Roues à aubes à haut rendement",
+        "Rotor équilibré",
+        "Joints mécaniques",
+        "Résistant à la corrosion",
+        "Faible NPSH",
+        "Facile à entretenir",
+        "Plusieurs matériaux",
+        "Montage polyvalent"
+      ],
+      "certifications": [
+        "ISO 9001",
+        "Marquage CE",
+        "Homologué UL",
+        "API 610",
+        "ANSI B73.1",
+        "Approuvé CSA"
+      ],
+      "seo": {
+        "title": "Pompes centrifuges - Pompes industrielles à eau et à produits chimiques | Powerton Engineering",
+        "description": "Pompes centrifuges à haut rendement pour applications industrielles. Pompes à aspiration axiale, pompes horizontales à corps fendu pour le traitement de l’eau et le traitement chimique.",
+        "keywords": "pompes centrifuges, pompes industrielles, pompes à eau, pompes chimiques, pompes de traitement, pompes à aspiration axiale"
+      }
+    },
+    "diaphragm-pumps": {
+      "title": "Pompes à membrane",
+      "shortDescription": "Pompes à membrane pneumatiques et électriques pour le transfert de produits chimiques",
+      "fullDescription": "Pompes à membrane polyvalentes pour la manutention de fluides abrasifs, visqueux et corrosifs avec capacité d’auto-amorçage et protection contre le fonctionnement à sec.",
+      "parentCategoryTitle": "Pompes mécaniques et pièces de rechange",
+      "keyBenefits": [
+        "Auto-amorçage",
+        "Capacité de fonctionnement à sec",
+        "Résistance chimique",
+        "Manutention des solides"
+      ],
+      "specifications": [
+        "Débit : 1 à 250 GPM",
+        "Pression : jusqu’à 125 PSI",
+        "Solides : jusqu’à 1/2 pouce",
+        "Température : -40 °C à +180 °C",
+        "Matériaux : Polypropylène, PVDF, aluminium",
+        "Diaphragme : PTFE, Santoprène, Viton"
+      ],
+      "applications": [
+        "Transfert de produits chimiques",
+        "Manutention des eaux usées",
+        "Peinture et revêtements",
+        "Transfert de suspension",
+        "Assèchement",
+        "Applications de dosage"
+      ],
+      "industries": [
+        "Traitement chimique",
+        "Exploitation minière",
+        "Peinture et revêtements",
+        "Aliments et boissons",
+        "Céramique",
+        "Eaux usées"
+      ],
+      "features": [
+        "Auto-amorçage",
+        "Sécurité de fonctionnement à sec",
+        "Manutention des solides",
+        "Résistant aux produits chimiques",
+        "À fonctionnement pneumatique",
+        "Fonctionnement sans fuite",
+        "Facile à entretenir",
+        "Options antidéflagrantes"
+      ],
+      "certifications": [
+        "Approuvé ATEX",
+        "Marquage CE",
+        "Conforme aux normes de la FDA",
+        "ISO 9001",
+        "Certifié EHEDG",
+        "3A Sanitaire"
+      ],
+      "seo": {
+        "title": "Pompes à membrane - Pompes à membrane pneumatiques et électriques | Powerton Engineering",
+        "description": "Pompes à membrane industrielles pour le transfert de produits chimiques et la manutention des eaux usées. Pompes AODD et pompes à membrane électriques avec capacité d’auto-amorçage.",
+        "keywords": "pompes à membrane, pompes AODD, pompes à membrane à fonctionnement pneumatique, pompes de transfert de produits chimiques, pompes à suspension"
+      }
+    },
+    "gear-pumps": {
+      "title": "Pompes à engrenages",
+      "shortDescription": "Pompes à engrenages de précision pour le transfert de fluides visqueux",
+      "fullDescription": "Pompes à engrenages de haute précision conçues pour la manutention de liquides visqueux avec un dosage précis et un débit constant dans les applications industrielles.",
+      "parentCategoryTitle": "Pompes mécaniques et pièces de rechange",
+      "keyBenefits": [
+        "Débit constant",
+        "Haute pression",
+        "Manutention des fluides visqueux",
+        "Dosage précis"
+      ],
+      "specifications": [
+        "Débit : 0,1 à 500 GPM",
+        "Pression : jusqu’à 3 000 PSI",
+        "Viscosité : jusqu’à 1 000 000 SSU",
+        "Température : -40 °C à +400 °C",
+        "Matériaux : Fonte, acier inoxydable",
+        "Types de joints : Garniture, mécanique"
+      ],
+      "applications": [
+        "Huile de lubrification",
+        "Systèmes hydrauliques",
+        "Transfert de polymères",
+        "Mazout",
+        "Bitume",
+        "Adhésifs"
+      ],
+      "industries": [
+        "Pétrole et gaz",
+        "Traitement chimique",
+        "Production de polymères",
+        "Transformation des aliments",
+        "Hydraulique",
+        "Systèmes de lubrification"
+      ],
+      "features": [
+        "Déplacement positif",
+        "Capacité de haute pression",
+        "Manutention des liquides visqueux",
+        "Contrôle précis du débit",
+        "Débit bidirectionnel",
+        "Conception compacte",
+        "Faible pulsation",
+        "Facile à entretenir"
+      ],
+      "certifications": [
+        "ISO 9001",
+        "Marquage CE",
+        "API 676",
+        "Approuvé ATEX",
+        "3A Sanitaire",
+        "Conforme aux normes de la FDA"
+      ],
+      "seo": {
+        "title": "Pompes à engrenages - Pompes volumétriques industrielles | Powerton Engineering",
+        "description": "Pompes à engrenages de précision pour le transfert de fluides visqueux et les applications de dosage. Pompes à engrenages externes et internes pour une utilisation industrielle à haute pression.",
+        "keywords": "pompes à engrenages, pompes volumétriques, pompes à fluides visqueux, pompes hydrauliques, pompes de lubrification, pompes de dosage"
+      }
+    },
+    "pump-parts-spares": {
+      "title": "Pièces et pièces de rechange pour pompes",
+      "shortDescription": "Pièces de rechange et fournitures d’entretien d’origine pour pompes",
+      "fullDescription": "Inventaire complet de pièces de rechange pour pompes, y compris les roues à aubes, les joints, les roulements et les garnitures pour tous les principaux fabricants de pompes.",
+      "parentCategoryTitle": "Pompes mécaniques et pièces de rechange",
+      "keyBenefits": [
+        "Pièces d’origine",
+        "Disponibilité rapide",
+        "Durée de vie prolongée de la pompe",
+        "Temps d’arrêt réduits"
+      ],
+      "specifications": [
+        "Matériaux : Divers selon les spécifications OEM",
+        "Compatibilité : Prise en charge multimarque",
+        "Qualité : OEM et marché secondaire",
+        "Livraison : Expédition rapide",
+        "Garantie : Garantie du fabricant",
+        "Stock : Vaste inventaire"
+      ],
+      "applications": [
+        "Entretien des pompes",
+        "Réparations d’urgence",
+        "Révisions périodiques",
+        "Améliorations de performance",
+        "Entretien préventif",
+        "Inventaire des pièces de rechange"
+      ],
+      "industries": [
+        "Fabrication",
+        "Traitement de l’eau",
+        "Traitement chimique",
+        "Production d’électricité",
+        "Pétrole et gaz",
+        "Exploitation minière"
+      ],
+      "features": [
+        "Roues à aubes",
+        "Joints mécaniques",
+        "Roulements",
+        "Arbres",
+        "Bagues d’usure",
+        "Garnitures et joints toriques",
+        "Accouplements",
+        "Pièces de moteur"
+      ],
+      "certifications": [
+        "ISO 9001",
+        "Approuvé OEM",
+        "Certifié qualité",
+        "Matériel certifié",
+        "Dimensions vérifiées",
+        "Performance testée"
+      ],
+      "seo": {
+        "title": "Pièces et pièces de rechange pour pompes - Pièces de rechange d’origine | Powerton Engineering",
+        "description": "Pièces de rechange et pièces de rechange d’origine pour pompes de toutes les grandes marques. Roues à aubes, joints mécaniques, roulements et garnitures avec livraison rapide.",
+        "keywords": "pièces de pompes, pièces de rechange pour pompes, joints de pompes, roues à aubes, roulements de pompes, entretien des pompes, pièces de rechange"
+      }
+    },
+    "hand-tools": {
+      "title": "Outils à main",
+      "shortDescription": "Outils à main professionnels pour l’entretien et la réparation industriels",
+      "fullDescription": "Gamme complète d’outils à main de qualité professionnelle, y compris des clés, des tournevis, des pinces et des outils spéciaux pour les applications industrielles.",
+      "parentCategoryTitle": "Outils de mesure industriels",
+      "keyBenefits": [
+        "Qualité professionnelle",
+        "Construction durable",
+        "Conception ergonomique",
+        "Garantie à vie"
+      ],
+      "specifications": [
+        "Matériau : Acier au chrome-vanadium",
+        "Fini : Chromé, revêtement en poudre",
+        "Normes : ANSI, DIN, ISO",
+        "Dureté : HRC 40-50",
+        "Résistance à la corrosion : Élevée",
+        "Garantie : À vie"
+      ],
+      "applications": [
+        "Entretien et réparation",
+        "Travaux d’assemblage",
+        "Installation",
+        "Travaux mécaniques",
+        "Plomberie",
+        "Travaux électriques"
+      ],
+      "industries": [
+        "Fabrication",
+        "Automobile",
+        "Construction",
+        "Entretien",
+        "CVAC",
+        "Plomberie"
+      ],
+      "features": [
+        "Clés et douilles",
+        "Tournevis",
+        "Pinces",
+        "Marteaux",
+        "Outils de mesure",
+        "Outils de coupe",
+        "Outils spéciaux",
+        "Ensembles d’outils"
+      ],
+      "certifications": [
+        "ISO 9001",
+        "Normes ANSI",
+        "Normes DIN",
+        "Marquage CE",
+        "Certifié qualité",
+        "Sécurité testée"
+      ],
+      "seo": {
+        "title": "Outils à main professionnels - Outils d’entretien industriels | Powerton Engineering",
+        "description": "Outils à main professionnels pour l’entretien et la réparation industriels. Clés, tournevis, pinces et outils spéciaux avec garantie à vie.",
+        "keywords": "outils à main, outils industriels, clés, tournevis, pinces, outils d’entretien, outils professionnels"
+      }
+    },
+    "power-tools": {
+      "title": "Outils électriques",
+      "shortDescription": "Outils électriques industriels pour la coupe, le perçage et le meulage",
+      "fullDescription": "Outils électriques de qualité professionnelle, y compris des perceuses, des meuleuses et des scies conçues pour les applications industrielles lourdes.",
+      "parentCategoryTitle": "Outils de mesure industriels",
+      "keyBenefits": [
+        "Performance de haute puissance",
+        "Construction robuste",
+        "Dispositifs de sécurité",
+        "Qualité professionnelle"
+      ],
+      "specifications": [
+        "Puissance : 500 W à 2 500 W",
+        "Tension : 110 V/220 V",
+        "Vitesse : Variable",
+        "Taille du mandrin : Divers",
+        "Sécurité : Plusieurs dispositifs",
+        "Cycle de service : Continu"
+      ],
+      "applications": [
+        "Fabrication métallique",
+        "Travail du bois",
+        "Construction",
+        "Entretien",
+        "Installation",
+        "Démolition"
+      ],
+      "industries": [
+        "Fabrication",
+        "Construction",
+        "Fabrication métallique",
+        "Automobile",
+        "Travail du bois",
+        "Entretien"
+      ],
+      "features": [
+        "Meuleuses d’angle",
+        "Perceuses et tournevis",
+        "Clés à chocs",
+        "Scies circulaires",
+        "Scies alternatives",
+        "Ponceuses et polisseuses",
+        "Pistolets thermiques",
+        "Outils rotatifs"
+      ],
+      "certifications": [
+        "Homologué UL",
+        "Marquage CE",
+        "ISO 9001",
+        "Sécurité certifiée",
+        "Conforme à la norme CEM",
+        "Conforme à la norme RoHS"
+      ],
+      "seo": {
+        "title": "Outils électriques industriels - Perceuses, meuleuses et scies professionnelles | Powerton Engineering",
+        "description": "Outils électriques professionnels pour applications industrielles. Perceuses robustes, meuleuses d’angle et scies avec dispositifs de sécurité et hautes performances.",
+        "keywords": "outils électriques, perceuses industrielles, meuleuses d’angle, scies circulaires, outils électriques professionnels, outils robustes"
+      }
+    },
+    "cutting-tools": {
+      "title": "Outils de coupe",
+      "shortDescription": "Outils de coupe de précision pour le traitement des métaux et des matériaux",
+      "fullDescription": "Outils de coupe de haute précision, y compris les fraises en bout, les forets, les tarauds et les filières pour les applications d'usinage et de fabrication.",
+      "parentCategoryTitle": "Outils de mesure industriels",
+      "keyBenefits": [
+        "Coupe de précision",
+        "Longue durée de vie de l'outil",
+        "Performance à haute vitesse",
+        "Finition de qualité"
+      ],
+      "specifications": [
+        "Matériaux : HSS, carbure, cobalt",
+        "Revêtement : TiN, TiCN, AlTiN",
+        "Tailles : Métrique et impérial",
+        "Précision : ±0,001\"",
+        "Normes : ANSI, DIN, ISO",
+        "Application : Divers matériaux"
+      ],
+      "applications": [
+        "Usinage CNC",
+        "Usinage manuel",
+        "Opérations de perçage",
+        "Opérations de fraisage",
+        "Filetage",
+        "Alésage"
+      ],
+      "industries": [
+        "Fabrication",
+        "Automobile",
+        "Aérospatiale",
+        "Outillage",
+        "Fabrication métallique",
+        "Ateliers d'usinage"
+      ],
+      "features": [
+        "Fraises en bout",
+        "Forets",
+        "Tarauds et filières",
+        "Alésoirs",
+        "Outils d'alésage",
+        "Fraises à chanfreiner",
+        "Outils de filetage",
+        "Outils spéciaux"
+      ],
+      "certifications": [
+        "ISO 9001",
+        "Normes DIN",
+        "Normes ANSI",
+        "Certifié qualité",
+        "Précision vérifiée",
+        "Matériel certifié"
+      ],
+      "seo": {
+        "title": "Outils de coupe de précision - Fraises en bout, forets et tarauds | Powerton Engineering",
+        "description": "Outils de coupe de précision pour l'usinage et la fabrication. Fraises en bout HSS et carbure, forets, tarauds et filières pour les applications industrielles.",
+        "keywords": "outils de coupe, fraises en bout, forets, tarauds et filières, outils d'usinage, outils en carbure, outils de précision"
+      }
+    },
+    "lifting-equipment": {
+      "title": "Équipement de levage",
+      "shortDescription": "Équipement de levage et de manutention industriel",
+      "fullDescription": "Équipement de levage robuste, y compris les palans, les grues, les élingues et le matériel de gréement pour une manutention sûre des matériaux dans les environnements industriels.",
+      "parentCategoryTitle": "Outils de mesure industriels",
+      "keyBenefits": [
+        "Manutention sûre des charges",
+        "Construction robuste",
+        "Conformité certifiée",
+        "Applications polyvalentes"
+      ],
+      "specifications": [
+        "Capacité : 0,5 tonne à 50 tonnes",
+        "Hauteur de levage : jusqu'à 100 pieds",
+        "Coefficient de sécurité : 5:1 minimum",
+        "Matériaux : Acier allié",
+        "Normes : OSHA, ASME",
+        "Certification : Charge testée"
+      ],
+      "applications": [
+        "Manutention",
+        "Installation d'équipement",
+        "Opérations de maintenance",
+        "Construction",
+        "Opérations d'entrepôt",
+        "Fabrication"
+      ],
+      "industries": [
+        "Fabrication",
+        "Construction",
+        "Entreposage",
+        "Expédition et logistique",
+        "Exploitation minière",
+        "Production d'énergie"
+      ],
+      "features": [
+        "Palans à chaîne",
+        "Palans à câble métallique",
+        "Élingues et gréement",
+        "Chaînes de levage",
+        "Manilles",
+        "Crochets et poulies",
+        "Palans à levier",
+        "Grues pivotantes"
+      ],
+      "certifications": [
+        "Conforme à la norme OSHA",
+        "ASME B30",
+        "Marquage CE",
+        "Charge testée",
+        "ISO 9001",
+        "Sécurité certifiée"
+      ],
+      "seo": {
+        "title": "Équipement de levage industriel - Palans, grues et gréement | Powerton Engineering",
+        "description": "Équipement de levage robuste pour la manutention industrielle. Palans à chaîne, palans à câble métallique, élingues et matériel de gréement avec certification de sécurité.",
+        "keywords": "équipement de levage, palans, grues, équipement de gréement, manutention, palans à chaîne, levage industriel"
+      }
+    },
+    "multimeters": {
+      "title": "Multimètres et pinces ampèremétriques",
+      "shortDescription": "Multimètres numériques et pinces ampèremétriques pour les mesures électriques",
+      "fullDescription": "Multimètres numériques et pinces ampèremétriques professionnels dotés de fonctionnalités avancées pour des mesures électriques précises dans les environnements industriels.",
+      "parentCategoryTitle": "Outils de mesure industriels",
+      "keyBenefits": [
+        "Haute précision",
+        "Fonctions de mesure multiples",
+        "Dispositifs de sécurité",
+        "Facile à utiliser"
+      ],
+      "specifications": [
+        "Plage de tension : 0,1 mV à 1 000 V",
+        "Plage de courant : 0,01 mA à 1 000 A",
+        "Résistance : 0,1 Ω à 50 MΩ",
+        "Précision : ±0,5 % à ±2 %",
+        "Affichage : 6 000 points numériques",
+        "Catégorie de sécurité : CAT III/IV"
+      ],
+      "applications": [
+        "Tests électriques",
+        "Maintenance et réparation",
+        "Vérification de l'installation",
+        "Dépannage",
+        "Contrôle de la qualité",
+        "Service sur le terrain"
+      ],
+      "industries": [
+        "Services électriques",
+        "Fabrication",
+        "Gestion des installations",
+        "CVAC",
+        "Automobile",
+        "Électronique"
+      ],
+      "features": [
+        "Sélection automatique de la gamme",
+        "Vraie valeur efficace",
+        "Maintien des données",
+        "Enregistrement min/max",
+        "Affichage rétroéclairé",
+        "Indicateur de batterie faible",
+        "Protection contre les surcharges",
+        "Avertisseur de continuité"
+      ],
+      "certifications": [
+        "Catégorie CAT III/IV",
+        "CEI 61010",
+        "Marquage CE",
+        "Homologué UL",
+        "Conforme à la norme RoHS",
+        "ISO 9001"
+      ],
+      "seo": {
+        "title": "Multimètres numériques et pinces ampèremétriques - Tests électriques professionnels | Powerton Engineering",
+        "description": "Multimètres numériques et pinces ampèremétriques professionnels pour les tests et mesures électriques. Multimètres à valeur efficace réelle avec catégories de sécurité CAT III/IV.",
+        "keywords": "multimètres numériques, pinces ampèremétriques, tests électriques, voltmètres, ampèremètres, ohmmètres, mesures électriques"
+      }
+    },
+    "power-quality-analyzers": {
+      "title": "Analyseurs de qualité de l'alimentation",
+      "shortDescription": "Instruments avancés de surveillance et d'analyse de la qualité de l'alimentation",
+      "fullDescription": "Analyseurs de qualité de l'alimentation professionnels pour la surveillance complète des systèmes électriques, l'analyse des harmoniques et la gestion de l'énergie.",
+      "parentCategoryTitle": "Outils de mesure industriels",
+      "keyBenefits": [
+        "Analyse complète de l'alimentation",
+        "Détection des harmoniques",
+        "Gestion de l'énergie",
+        "Enregistrement des données"
+      ],
+      "specifications": [
+        "Plage de tension : 1 V à 1 000 V",
+        "Plage de courant : 1 mA à 6 000 A",
+        "Fréquence : 40-70 Hz",
+        "Harmoniques : jusqu'au 50e ordre",
+        "Mémoire : jusqu'à 8 Go",
+        "Taux d'échantillonnage : jusqu'à 1 MHz"
+      ],
+      "applications": [
+        "Évaluation de la qualité de l'alimentation",
+        "Audits énergétiques",
+        "Analyse des harmoniques",
+        "Études de charge",
+        "Dépannage",
+        "Tests de conformité"
+      ],
+      "industries": [
+        "Production d'électricité",
+        "Fabrication",
+        "Centres de données",
+        "Bâtiments commerciaux",
+        "Soins de santé",
+        "Éducation"
+      ],
+      "features": [
+        "Surveillance en temps réel",
+        "Capture de forme d'onde",
+        "Analyse des tendances",
+        "Enregistrement des événements",
+        "Surveillance à distance",
+        "Génération de rapports",
+        "Écran tactile",
+        "Connectivité sans fil"
+      ],
+      "certifications": [
+        "CEI 61000-4-30",
+        "EN 50160",
+        "Catégorie CAT IV",
+        "Marquage CE",
+        "Homologué UL",
+        "ISO 17025"
+      ],
+      "seo": {
+        "title": "Analyseurs de qualité de l'alimentation - Instruments de surveillance de l'alimentation électrique | Powerton Engineering",
+        "description": "Analyseurs de qualité de l'alimentation avancés pour la surveillance et l'analyse complètes des systèmes électriques. Détection des harmoniques, gestion de l'énergie et enregistrement des données.",
+        "keywords": "analyseurs de qualité de l'alimentation, moniteurs d'alimentation, analyseurs d'harmoniques, analyseurs d'énergie, équipement de test électrique, instruments de qualité de l'alimentation"
+      }
+    },
+    "calibration-equipment": {
+      "title": "Équipement d'étalonnage et de test",
+      "shortDescription": "Instruments professionnels d'étalonnage et de test pour les applications industrielles",
+      "fullDescription": "Gamme complète d'équipements d'étalonnage et d'instruments de test pour maintenir la précision et la conformité dans les systèmes de mesure industriels.",
+      "parentCategoryTitle": "Outils de mesure industriels",
+      "keyBenefits": [
+        "Étalonnage de précision",
+        "Traçabilité",
+        "Vérification de la conformité",
+        "Durée de vie prolongée de l'équipement"
+      ],
+      "specifications": [
+        "Précision : ±0,01 % à ±0,1 %",
+        "Plage d'étalonnage : Divers",
+        "Température : -25 °C à +70 °C",
+        "Sortie : 4-20 mA, 0-10 V, mV, RTD, TC",
+        "Affichage : Numérique haute résolution",
+        "Stockage des données : USB, carte SD"
+      ],
+      "applications": [
+        "Étalonnage des instruments",
+        "Validation des processus",
+        "Assurance qualité",
+        "Programmes d'entretien",
+        "Tests de conformité",
+        "Étalonnage sur le terrain"
+      ],
+      "industries": [
+        "Pétrole et gaz",
+        "Pharmaceutique",
+        "Alimentation et boissons",
+        "Transformation chimique",
+        "Production d'énergie",
+        "Aérospatiale"
+      ],
+      "features": [
+        "Capacité multifonctionnelle",
+        "Haute précision",
+        "Communication HART",
+        "Tests automatisés",
+        "Enregistrement des données",
+        "Fonctionnement sur batterie",
+        "Conception robuste",
+        "Certificats d'étalonnage"
+      ],
+      "certifications": [
+        "Accréditation ISO 17025",
+        "Traçable NIST",
+        "Marquage CE",
+        "Homologué UL",
+        "Conforme à la norme RoHS",
+        "ISO 9001"
+      ],
+      "seo": {
+        "title": "Équipement d'étalonnage - Instruments de test et d'étalonnage industriels | Powerton Engineering",
+        "description": "Équipement professionnel d'étalonnage et de test pour les applications industrielles. Calibreurs traçables NIST pour les instruments de pression, de température et électriques.",
+        "keywords": "équipement d'étalonnage, instruments de test, calibreurs, étalonnage d'instruments, traçable NIST, étalonnage des processus, étalonnage sur le terrain"
+      }
+    },
+    "bldc-cooler-exhaust-motor": {
+      "title": "Moteurs BLDC pour refroidisseurs et ventilateurs d'extraction",
+      "shortDescription": "Moteurs BLDC à haut rendement pour refroidisseurs et ventilateurs d'extraction",
+      "fullDescription": "Moteurs BLDC avancés conçus pour les refroidisseurs désertiques et les ventilateurs d'extraction avec une efficacité, une durabilité et des performances supérieures.",
+      "parentCategoryTitle": "Produits BLDC",
+      "keyBenefits": [
+        "Économe en énergie",
+        "Faible bruit",
+        "Haute durabilité",
+        "Résistant aux intempéries"
+      ],
+      "specifications": [
+        "Puissance : 35 W à 85 W",
+        "Tension : 220 V CA",
+        "Vitesse : 1 400 à 1 800 tr/min",
+        "Débit d'air : CFM élevé",
+        "Protection : IP44",
+        "Efficacité : >85 %"
+      ],
+      "applications": [
+        "Refroidisseurs désertiques",
+        "Ventilateurs d'extraction",
+        "Systèmes de ventilation",
+        "Refroidissement industriel",
+        "Extraction de cuisine",
+        "Ventilation de salle de bain"
+      ],
+      "industries": [
+        "CVAC",
+        "Résidentiel",
+        "Immeubles commerciaux",
+        "Ventilation industrielle",
+        "Service alimentaire",
+        "Fabrication"
+      ],
+      "features": [
+        "Technologie BLDC",
+        "Haute efficacité",
+        "Faible maintenance",
+        "Résistant à la corrosion",
+        "Protection thermique",
+        "Longue durée de vie",
+        "Fonctionnement silencieux",
+        "Résistant aux intempéries"
+      ],
+      "certifications": [
+        "Certifié BEE",
+        "Marque ISI",
+        "Approuvé CE",
+        "Homologué IP44",
+        "Conforme à la norme RoHS",
+        "ISO 9001"
+      ],
+      "seo": {
+        "title": "Moteurs BLDC pour refroidisseurs et ventilateurs d'extraction - Moteurs BLDC à haut rendement | Powerton Engineering",
+        "description": "Moteurs BLDC à haut rendement pour refroidisseurs désertiques et ventilateurs d'extraction. Moteurs CC sans balais à économie d'énergie avec une longue durée de vie.",
+        "keywords": "moteurs BLDC pour refroidisseurs, moteurs BLDC pour ventilateurs d'extraction, moteurs CC sans balais, moteurs éconergétiques, moteurs pour refroidisseurs, moteurs pour ventilateurs d'extraction"
+      }
+    },
+    "bldc-ceiling-fan": {
+      "title": "Ventilateurs de plafond BLDC",
+      "shortDescription": "Ventilateurs de plafond CC sans balais éconergétiques",
+      "fullDescription": "Ventilateurs de plafond BLDC à haut rendement avec technologie d'économie d'énergie, commandes intelligentes et performances supérieures pour les applications résidentielles et commerciales.",
+      "parentCategoryTitle": "Produits BLDC",
+      "keyBenefits": [
+        "Jusqu'à 65 % d'économies d'énergie",
+        "Fonctionnement silencieux",
+        "Télécommande",
+        "Longue durée de vie"
+      ],
+      "specifications": [
+        "Puissance du moteur : 28 W à 52 W",
+        "Vitesse : 1 200 à 1 600 tr/min",
+        "Débit d'air : 200 à 280 CMM",
+        "Tension : 220 V CA",
+        "Balayage : 1 200 mm à 1 600 mm",
+        "Classe énergétique : 5 étoiles BEE"
+      ],
+      "applications": [
+        "Pièces résidentielles",
+        "Espaces de bureaux",
+        "Immeubles commerciaux",
+        "Hôtellerie",
+        "Établissements d'enseignement",
+        "Établissements de soins de santé"
+      ],
+      "industries": [
+        "Construction résidentielle",
+        "Immobilier commercial",
+        "Hôtellerie",
+        "Soins de santé",
+        "Éducation",
+        "Commerce de détail"
+      ],
+      "features": [
+        "Technologie de moteur BLDC",
+        "Télécommande",
+        "Vitesse variable",
+        "Mode inversé",
+        "Fonction de minuterie",
+        "Indicateurs DEL",
+        "Pales aérodynamiques",
+        "Fonctionnement silencieux"
+      ],
+      "certifications": [
+        "Homologué BEE 5 étoiles",
+        "Marque ISI",
+        "Approuvé CE",
+        "Conforme à la norme RoHS",
+        "Energy Star",
+        "ISO 9001"
+      ],
+      "seo": {
+        "title": "Ventilateurs de plafond BLDC - Ventilateurs CC sans balais éconergétiques | Powerton Engineering",
+        "description": "Ventilateurs de plafond BLDC éconergétiques avec homologation 5 étoiles BEE. Télécommande intelligente, fonctionnement silencieux et jusqu'à 65 % d'économies d'énergie.",
+        "keywords": "ventilateurs de plafond BLDC, ventilateurs éconergétiques, ventilateurs CC sans balais, ventilateurs de plafond intelligents, ventilateurs de plafond 5 étoiles, ventilateurs avec télécommande"
+      }
+    },
+    "bldc-submersible-surface-pump": {
+      "title": "Pompes submersibles et de surface BLDC",
+      "shortDescription": "Pompes à eau BLDC compatibles avec l'énergie solaire pour l'irrigation et l'approvisionnement en eau",
+      "fullDescription": "Pompes submersibles et de surface BLDC avancées avec compatibilité solaire, haut rendement et performances fiables pour les applications agricoles et domestiques.",
+      "parentCategoryTitle": "Produits BLDC",
+      "keyBenefits": [
+        "Compatible avec l'énergie solaire",
+        "Économe en énergie",
+        "Faible maintenance",
+        "Haute fiabilité"
+      ],
+      "specifications": [
+        "Puissance : 0,5 HP à 5 HP",
+        "Hauteur : 10 m à 150 m",
+        "Débit : 10 à 150 L/min",
+        "Tension : 48 V/110 V/220 V CC",
+        "Solaire : Compatible MPPT",
+        "Efficacité : >85 %"
+      ],
+      "applications": [
+        "Irrigation agricole",
+        "Approvisionnement en eau domestique",
+        "Pompage d'eau solaire",
+        "Abreuvement du bétail",
+        "Irrigation de jardin",
+        "Transfert d'eau"
+      ],
+      "industries": [
+        "Agriculture",
+        "Énergie solaire",
+        "Résidentiel",
+        "Développement rural",
+        "Irrigation",
+        "Gestion de l'eau"
+      ],
+      "features": [
+        "Moteur BLDC",
+        "Compatible avec l'énergie solaire",
+        "Technologie MPPT",
+        "Corps en acier inoxydable",
+        "Protection contre la marche à sec",
+        "Protection thermique",
+        "Haut rendement",
+        "Faible maintenance"
+      ],
+      "certifications": [
+        "Certifié BEE",
+        "Marque ISI",
+        "Approuvé CE",
+        "Certifié solaire",
+        "Homologué IP68",
+        "ISO 9001"
+      ],
+      "seo": {
+        "title": "Pompes à eau BLDC - Pompes submersibles et de surface solaires | Powerton Engineering",
+        "description": "Pompes à eau BLDC compatibles avec l'énergie solaire pour l'irrigation et l'usage domestique. Pompes submersibles et de surface éconergétiques avec technologie MPPT.",
+        "keywords": "pompes à eau BLDC, pompes à eau solaires, pompes submersibles BLDC, pompes solaires, pompes CC sans balais, pompes d'irrigation"
+      }
+    },
+    "bldc-table-fan-wall-fan-motor": {
+      "title": "Moteurs BLDC pour ventilateurs de table et muraux",
+      "shortDescription": "Moteurs BLDC compacts pour ventilateurs de table et muraux",
+      "fullDescription": "Moteurs BLDC éconergétiques conçus pour les ventilateurs de table et muraux avec des performances supérieures, un faible niveau sonore et une durée de vie prolongée.",
+      "parentCategoryTitle": "Produits BLDC",
+      "keyBenefits": [
+        "Conception compacte",
+        "Économie d'énergie",
+        "Fonctionnement silencieux",
+        "Longue durée de vie"
+      ],
+      "specifications": [
+        "Puissance : 25 W à 45 W",
+        "Vitesse : 1 200 à 1 800 tr/min",
+        "Tension : 220 V CA",
+        "Débit d'air : 60 à 90 CMM",
+        "Bruit : <40 dB",
+        "Efficacité : >80 %"
+      ],
+      "applications": [
+        "Ventilateurs de table",
+        "Ventilateurs muraux",
+        "Ventilateurs sur socle",
+        "Refroidissement personnel",
+        "Ventilation de bureau",
+        "Refroidissement de pièce"
+      ],
+      "industries": [
+        "Électronique grand public",
+        "Résidentiel",
+        "Commercial",
+        "Hôtellerie",
+        "Équipement de bureau",
+        "Commerce de détail"
+      ],
+      "features": [
+        "Technologie BLDC",
+        "Haut rendement",
+        "Fonctionnement silencieux",
+        "Vitesse variable",
+        "Taille compacte",
+        "Faible chaleur",
+        "Longue durée de vie",
+        "Homologué Energy Star"
+      ],
+      "certifications": [
+        "BEE 5 étoiles",
+        "Marque ISI",
+        "Approuvé CE",
+        "Conforme à la norme RoHS",
+        "Energy Star",
+        "ISO 9001"
+      ],
+      "seo": {
+        "title": "Moteurs BLDC pour ventilateurs de table et muraux - Moteurs de ventilateurs éconergétiques | Powerton Engineering",
+        "description": "Moteurs BLDC compacts pour ventilateurs de table et muraux. Moteurs CC sans balais éconergétiques avec fonctionnement silencieux et longue durée de vie.",
+        "keywords": "moteurs de ventilateurs BLDC, moteurs de ventilateurs de table, moteurs de ventilateurs muraux, moteurs éconergétiques, moteurs CC sans balais, moteurs de ventilateurs"
+      }
+    }
+  },
   "surgeProtectors": {
     "acPower": {
       "name": "Parafoudres de courant alternatif",

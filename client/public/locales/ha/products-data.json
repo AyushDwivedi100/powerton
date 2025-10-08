@@ -1,4 +1,2189 @@
 {
+  "subcategories": {
+    "sensors-transducers": {
+      "title": "Na'urori Masu Auna Matsa lamba",
+      "shortDescription": "Kewayon na'urori masu auna ma'aunin masana'antu don sarrafa kansa da sarrafa tsari",
+      "fullDescription": "Cikakkun mafita na na'urori masu auna ma'auni gami da na'urori masu auna kusanci, na'urori masu auna zafin jiki na RTD, thermocouples, da na'urori masu auna pH don sarrafa kansa da sarrafa tsari.",
+      "parentCategoryTitle": "Kayan Aikin Kayan Aiki",
+      "keyBenefits": [
+        "Babban Daidaito & Amincewa",
+        "Sauƙi Haɗawa & Kanfigareshan",
+        "Ƙananan Bukatun Kulawa",
+        "Haɓaka Amincewa da Tsaro"
+      ],
+      "specifications": [
+        "Zafin Aiki: -40°C zuwa +85°C",
+        "Ƙimar Kariyar: IP67/IP68",
+        "Siginar Fitarwa: 4-20mA, 0-10V, Dijital",
+        "Samar da Wuta: 12-24VDC",
+        "Lokacin Amsawa: <1ms zuwa 10s",
+        "Daidaito: ±0.1% zuwa ±1.0% FS"
+      ],
+      "applications": [
+        "Sarrafa Tsari & Kulawa",
+        "Kulawa da Muhalli",
+        "Kulawa da Yanayin Inji",
+        "Haɗin Tsarin Tsaro",
+        "Tsarin Kula da Inganci",
+        "Gudanar da Makamashi"
+      ],
+      "industries": [
+        "Kemikal & Petrochemical",
+        "Mai & Gas",
+        "Samar da Wuta",
+        "Jiyya na Ruwa",
+        "Abinci & Abin Sha",
+        "Magunguna"
+      ],
+      "features": [
+        "Ma'aunin Daidaito Mai Girma",
+        "Ƙirar Masana'antu Mai Ƙarfi",
+        "Faɗin Kewayon Aiki",
+        "Zaɓuɓɓukan Fitarwa Da yawa",
+        "Shigarwa Mai Sauƙi",
+        "Ƙananan Kulawa",
+        "Zaɓuɓɓukan Kariyar Fashewa",
+        "Sadarwa ta Dijital"
+      ],
+      "certifications": [
+        "CE Mai Takarda",
+        "ATEX Mai Amincewa",
+        "IECEx Mai Takarda",
+        "SIL 2/3 Mai Ƙimarwa",
+        "UL Lissafa",
+        "CSA Mai Amincewa"
+      ],
+      "seo": {
+        "title": "Na'urori Masu Auna Ma'aunin Masana'antu - PNP/NPN Kusanci, RTD, Thermocouples, Na'urori Masu Auna pH | Injiniyan Powerton",
+        "description": "Kewayon na'urori masu auna ma'aunin masana'antu gami da na'urori masu auna kusanci na PNP/NPN, na'urori masu auna zafin jiki na RTD (PT100, PT500, PT1000), thermocouples (nau'ikan J, K, T, S), da na'urori masu auna pH don sarrafa tsari.",
+        "keywords": "na'urori masu auna ma'aunin masana'antu, na'urori masu auna kusanci, na'urori masu auna PNP, na'urori masu auna NPN, na'urori masu auna RTD, PT100, PT500, PT1000, thermocouples, na'urori masu auna pH, na'urori masu auna zafin jiki, na'urori masu auna sarrafa kansa"
+      }
+    },
+    "transmitters-flow-meters": {
+      "title": "Masu Watsawa & Mita Gudun Ruwa",
+      "shortDescription": "Masu watsawa masu daidaito don matsa lamba, zafin jiki, kwarara, da ma'aunin matakin",
+      "fullDescription": "Kewayon masu watsawa na masana'antu tare da ci-gaban fasahohi gami da ma'aunin damuwa, capacitive, da piezoresistive sensing tare da sadarwa ta dijital ta HART.",
+      "parentCategoryTitle": "Kayan Aikin Kayan Aiki",
+      "keyBenefits": [
+        "Daidaiton Masana'antu",
+        " rage yawan farashin mallaka",
+        "Haɓaka Ingantaccen Tsari",
+        " inganta Tsaro & Amincewa"
+      ],
+      "specifications": [
+        "Daidaito: ±0.025% zuwa ±0.5% FS",
+        "Zafin Aiki: -40°C zuwa +125°C",
+        "Matsa lamba Tsari: 0 zuwa 10,000 PSI",
+        "Sadarwa: HART, Foundation Fieldbus, Profibus",
+        "Samar da Wuta: 10.5-55VDC",
+        "Kariya: IP67/IP68"
+      ],
+      "applications": [
+        "Ma'aunin Matsa Lamba",
+        "Kulawa da Zafin Jiki",
+        "Sarrafa Gudun Ruwa",
+        "Gano Matakin",
+        "Bambancin Matsa Lamba",
+        "Haɗin Sarrafa Tsari"
+      ],
+      "industries": [
+        "Mai & Gas",
+        "Sarrafa Kemikal",
+        "Samar da Wuta",
+        "Ruwa & Ruwan Sharar gida",
+        "Pulp & Paper",
+        "Hakar Ma'adinai & Karafa"
+      ],
+      "features": [
+        "Sadarwa ta HART",
+        "Daidaiton Dijital",
+        "Kanfigareshan Nesa",
+        "Binciken Kai",
+        "Zaɓuɓɓukan Bambance-bambance",
+        "Ƙarfin Mara waya",
+        "Kariyar Fashewa",
+        "Kwanciyar Hankali na Dogon Lokaci"
+      ],
+      "certifications": [
+        "ATEX Mai Takarda",
+        "IECEx Mai Amincewa",
+        "SIL 2/3 Mai Ƙarfi",
+        "FM Mai Amincewa",
+        "CSA Mai Takarda",
+        "CE Mai Alama"
+      ],
+      "seo": {
+        "title": "Masu Watsawa & Mita Gudun Ruwa na Masana'antu - Matsa Lamba, Zafin Jiki, Matakin | Injiniyan Powerton",
+        "description": "Masu watsawa daidai da mita gudun ruwa don matsa lamba, zafin jiki, kwarara, da ma'aunin matakin. HART, Foundation Fieldbus, da mafita marasa waya don sarrafa tsari.",
+        "keywords": "masu watsawa na masana'antu, mita gudun ruwa, masu watsa matsa lamba, masu watsa zafin jiki, masu watsa matakin, masu watsa HART, kayan aikin tsari"
+      }
+    },
+    "switches-indicators": {
+      "title": "Sauyawa & Manunawa",
+      "shortDescription": "Mahimman sauyawa na masana'antu don sarrafa kansa da sarrafawa: sauya matsa lamba, sauya matakin, sauya iyaka, da maɓallan turawa",
+      "fullDescription": "Kewayon sauyawa na masana'antu gami da sauya matsa lamba daga Danfoss da Schneider Electric, sauya matakin daga Endress+Hauser da ABB, sauya iyaka daga Omron da Schneider Electric, da maɓallan turawa daga manyan masana'antun don amintaccen sarrafa kansa.",
+      "parentCategoryTitle": "Kayan Aikin Kayan Aiki",
+      "keyBenefits": [
+        "Babban Amincewa & Dorewa",
+        "Sauƙi Shigarwa & Kulawa",
+        "Cikakken Amincewa da Tsaro",
+        "Mafita Masu Tsada"
+      ],
+      "specifications": [
+        "Ƙimar Lambar Sadarwa: 10A a 250VAC",
+        "Zafin Aiki: -25°C zuwa +70°C",
+        "Ƙimar Kariya: IP65/IP67",
+        "Hawa: 22mm/30mm Panel Cutout",
+        "Rayuwar LED: >50,000 hours",
+        "Kanfigareshan Lambar Sadarwa: NO/NC/DPDT"
+      ],
+      "applications": [
+        "Haɗin Panel Control",
+        "Tsarin Tsayawa na Gaggawa",
+        "Sarrafa Inji",
+        "Nuna Tsari",
+        "Kulllan Tsaro",
+        "Kulawa da Matsayi"
+      ],
+      "industries": [
+        "Masana'antu",
+        "Sarrafa Tsari",
+        "Sarrafa Kayan Aiki",
+        "Kunshin",
+        "Sarrafa Abinci",
+        "Kera Mota"
+      ],
+      "features": [
+        "Hasken LED",
+        "Launuka Da yawa Akwai",
+        "Aikin Kulawa/Lokaci",
+        "Ƙirar Mai Jurewa",
+        "Maganar Haɗin Kai Mai Saurin",
+        "Ginin Modular",
+        "Aikin Tsayawa na Gaggawa",
+        "Ƙirar Ergonomic"
+      ],
+      "certifications": [
+        "UL Lissafa",
+        "CE Mai Alama",
+        "CSA Mai Takarda",
+        "IEC 60947-5-1",
+        "RoHS Mai Yardarwa",
+        "ISO 13850"
+      ],
+      "seo": {
+        "title": "Sauyawa & Manunawa na Masana'antu - Kayan Aikin Panel Control | Injiniyan Powerton",
+        "description": "Sauyawa na masana'antu, maɓallan turawa, manunawa, da kayan aikin panel control. Tsayawa na gaggawa, fitilun matukin jirgi, sauya zaɓi don sarrafa kansa da tsarin sarrafawa.",
+        "keywords": "sauyawa na masana'antu, sauya maɓallin turawa, kayan aikin panel control, tsayawa na gaggawa, fitilun matukin jirgi, manunawa, sauya zaɓi"
+      }
+    },
+    "valves-actuators": {
+      "title": "Bawuloli & Masu Aiki",
+      "shortDescription": "Mahimman mafita na bawuloli don sarrafa kansa na masana'antu: bawuloli masu sarrafawa da bawulolin solenoid",
+      "fullDescription": "Kwararrun mafita na bawuloli waɗanda ke nuna bawuloli masu sarrafawa daga Fisher (Emerson) da SAMSON don daidaitaccen sarrafa tsari, da bawulolin solenoid daga ASCO da Parker Hannifin don sarrafa ruwa ta atomatik a cikin aikace-aikacen masana'antu.",
+      "parentCategoryTitle": "Kayan Aikin Kayan Aiki",
+      "keyBenefits": [
+        "Daidaitaccen Sarrafa Gudun Ruwa",
+        "Aiki Mai Amincewa",
+        " rage Farashin Kulawa",
+        "Haɓaka Ingancin Tsari"
+      ],
+      "specifications": [
+        "Ƙimar Matsa Lamba: ANSI 150-2500",
+        "Zafin Aiki: -196°C zuwa +650°C",
+        "Kewayon Girman: 1/2\" zuwa 48\"",
+        "Kayan Aiki: Bakin Karfe, Karbon Karfe, Gami",
+        "Nau'ikan Masu Aiki: Pneumatic, Lantarki, Hydraulic",
+        "Siginar Sarrafawa: 4-20mA, 0-10V, Dijital"
+      ],
+      "applications": [
+        "Sarrafa Gudun Ruwa",
+        "Daidaita Matsa Lamba",
+        "Sarrafa Zafin Jiki",
+        "Rufe Tsaro",
+        "Keɓewar Tsari",
+        "Sarrafa Matakin"
+      ],
+      "industries": [
+        "Mai & Gas",
+        "Sarrafa Kemikal",
+        "Samar da Wuta",
+        "Jiyya na Ruwa",
+        "Magunguna",
+        "Pulp & Paper"
+      ],
+      "features": [
+        "Ƙarfin Matsa Lamba Mai Girma",
+        "Mai Jure Lalata",
+        "Ƙirar Mai Tsaro na Wuta",
+        "Fasahar Ƙananan Fitowa",
+        "Matsayi Mai Wayo",
+        "Aiki na Nesa",
+        "Aikin Rashin Tsaro",
+        "Tsawaita Rayuwar Sabis"
+      ],
+      "certifications": [
+        "API 6D Mai Takarda",
+        "ASME Mai Yardarwa",
+        "ISO 15848",
+        "ATEX Mai Amincewa",
+        "SIL Mai Ƙimarwa",
+        "An Gwada Wuta Mai Takarda"
+      ],
+      "seo": {
+        "title": "Bawuloli & Masu Aiki na Masana'antu - Bawuloli Masu Sarrafawa, Bawuloli na Tsaro | Injiniyan Powerton",
+        "description": "Bawuloli masu sarrafawa da masu aiki don sarrafa tsari. Bawulolin ball, bawulolin ƙofa, bawulolin duba tare da masu aikin pneumatic da lantarki don aikace-aikacen mai, gas, da kemikal.",
+        "keywords": "bawuloli na masana'antu, bawuloli masu sarrafawa, masu aikin bawuloli, bawulolin ball, bawulolin ƙofa, bawulolin tsaro, bawulolin tsari"
+      }
+    },
+    "analyzers": {
+      "title": "Masu Nazari",
+      "shortDescription": "Gas mai ci gaba, ruwa, da masu nazarin tsari don kula da inganci",
+      "fullDescription": "Kewayon masu nazarin tsari gami da chromatography na gas, masu nazarin ruwa, masu nazarin O2/CO2, da kayan auna na musamman don kula da tsari da aikace-aikacen kula da inganci.",
+      "parentCategoryTitle": "Kayan Aikin Kayan Aiki",
+      "keyBenefits": [
+        "Haɓaka Sarrafa Tsari",
+        "Tabbatar da Ingancin Samfuri",
+        "Amincewa da Ka'idoji",
+        " inganta Kulawa da Tsaro"
+      ],
+      "specifications": [
+        "Kewayon Ma'auni: ppm zuwa matakan %",
+        "Daidaito: ±0.5% na karatu",
+        "Lokacin Amsawa: 1-30 seconds",
+        "Zafin Aiki: -10°C zuwa +60°C",
+        "Siginar Fitarwa: 4-20mA, Modbus, Ethernet",
+        "Ƙimar Kariya: IP65/IP67"
+      ],
+      "applications": [
+        "Binciken Haɗin Gas",
+        "Kulawa da Ingancin Ruwa",
+        "Kulawa da Muhalli",
+        "Haɓaka Tsari",
+        "Tabbatar da Inganci",
+        "Kulawa da Tsaro"
+      ],
+      "industries": [
+        "Sarrafa Kemikal",
+        "Tace Mai & Gas",
+        "Samar da Wuta",
+        "Magunguna",
+        "Jiyya na Ruwa",
+        "Abinci & Abin Sha"
+      ],
+      "features": [
+        "Bincike Mai yawa",
+        "Kulawa na Ainihi",
+        "Daidaitawa ta atomatik",
+        "Rikodin Bayanai",
+        "Binciken Nesa",
+        "Ƙananan Kulawa",
+        "Zaɓuɓɓukan Kariyar Fashewa",
+        "Yanar Gizo"
+      ],
+      "certifications": [
+        "ATEX Mai Takarda",
+        "IECEx Amincewa",
+        "SIL 2 Mai Ƙimarwa",
+        "FDA 21 CFR Sashe na 11",
+        "CE Mai Alama",
+        "ISO 9001"
+      ],
+      "seo": {
+        "title": "Masu Nazarin Tsari - Kayan Aikin Bincike na Gas & Ruwa | Injiniyan Powerton",
+        "description": "Masu nazarin tsari masu ci gaba don chromatography na gas, binciken ruwa, da kulawa da O2/CO2. Kayan aiki masu daidaito don sarrafa tsari da tabbatar da inganci.",
+        "keywords": "masu nazarin tsari, masu nazarin gas, masu nazarin ruwa, chromatography, masu nazarin O2, masu nazarin CO2, kula da tsari"
+      }
+    },
+    "cables-wires": {
+      "title": "Kebuloli & Wayoyi",
+      "shortDescription": "Kebuloli na masana'antu da wayoyi don watsawa wutar lantarki da aikace-aikacen sarrafawa",
+      "fullDescription": "Kewayon kebuloli na lantarki gami da kebuloli na wuta, kebuloli na sarrafawa, kebuloli na kayan aiki, da kebuloli na sadarwa don shigarwar masana'antu.",
+      "parentCategoryTitle": "Kayan Aikin Lantarki",
+      "keyBenefits": [
+        "Babban Ƙarfin ɗaukar Halin Yanzu",
+        "Kyakkyawan Kaddarorin Rufewa",
+        "Kayan da ke hana wuta",
+        "Tsawon Rayuwar Sabis"
+      ],
+      "specifications": [
+        "Ƙimar Wutar Lantarki: 300V zuwa 33kV",
+        "Zafin Aiki: -40°C zuwa +90°C",
+        "Mai Gudanarwa: Jan Karfe/Aluminum",
+        "Rufewa: PVC, XLPE, EPR",
+        "Kariya: Braid, Foil, Haɗuwa",
+        "Ka'idoji: IEC, IEEE, ASTM"
+      ],
+      "applications": [
+        "Rarraba Wuta",
+        "Haɗin Mota",
+        "Kewayen Sarrafawa",
+        "Kayan Aiki",
+        "Hanyoyin Sadarwa",
+        "Tsarin Tushe"
+      ],
+      "industries": [
+        "Samar da Wuta",
+        "Masana'antu",
+        "Ababen more rayuwa",
+        "Ruwa & Offshore",
+        "Hakar Ma'adinai",
+        "Sufuri"
+      ],
+      "features": [
+        "Mai Jure Wuta",
+        "Mai Jure Mai",
+        "Mai Jure UV",
+        "Mai Jure Danshi",
+        "Ƙirar Mai Sauƙi",
+        "Shigarwa Mai Sauƙi",
+        "Ƙananan Hayaki",
+        "Zaɓuɓɓukan Kyauta na Halogen"
+      ],
+      "certifications": [
+        "IEC 60502 Mai Takarda",
+        "IEEE 1202 An Gwada",
+        "UL Lissafa",
+        "CSA Mai Amincewa",
+        "CE Mai Alama",
+        "RoHS Mai Yardarwa"
+      ],
+      "seo": {
+        "title": "Kebuloli & Wayoyi na Masana'antu - Wuta, Sarrafawa, Kebuloli na Kayan Aiki | Injiniyan Powerton",
+        "description": "Kebuloli na lantarki na masana'antu da wayoyi don watsawa wuta, kewayen sarrafawa, da kayan aiki. Kebuloli na wutar lantarki mai ƙarfi, kebuloli na sarrafawa, da kebuloli na sadarwa.",
+        "keywords": "kebuloli na masana'antu, kebuloli na wuta, kebuloli na sarrafawa, kebuloli na kayan aiki, wayoyi na lantarki, kebuloli na sadarwa, kebuloli masu sulke"
+      }
+    },
+    "connectors-terminals": {
+      "title": "Masu haɗawa & Ƙarshen Waya",
+      "shortDescription": "Masu haɗin lantarki da toshewar tasha don amintattun hanyoyin haɗi",
+      "fullDescription": "Cikakken kewayon hanyoyin haɗin lantarki ciki har da toshewar tasha, masu haɗin waya, akwatunan mahaɗa, da masu haɗin masana'antu don amintattun haɗin lantarki.",
+      "parentCategoryTitle": "Kayan haɗin lantarki",
+      "keyBenefits": [
+        "Amintattun Haɗi",
+        "Shigarwa Mai Sauƙi",
+        "Kulawa Mai Sauƙi",
+        "Babban Ƙarfin Wutar Lantarki"
+      ],
+      "specifications": [
+        "Ƙimar Wutar Lantarki: 5A zuwa 1000A",
+        "Ƙimar Wutar Lantarki: 300V zuwa 1000V",
+        "Kewayon Waya: 0.5mm² zuwa 300mm²",
+        "Zafin Aiki: -40°C zuwa +120°C",
+        "Ƙimar Kariya: IP20 zuwa IP68",
+        "Hawa: DIN Rail, PCB, Panel"
+      ],
+      "applications": [
+        "Wayoyin Panel Control",
+        "Allon Rarraba Wutar Lantarki",
+        "Akwatunan Mahaɗa",
+        "Haɗin Sigina",
+        "Rarraba Wutar Lantarki",
+        "Haɗin Ƙasa"
+      ],
+      "industries": [
+        "Panel ɗin Lantarki",
+        "Kayan Aiki Masu Sarrafa Kai",
+        "Sabis na Ginin Gida",
+        "Sufuri",
+        "Sadarkan Waya",
+        "Makaman Gona & Ayyukan More Rayuwa"
+      ],
+      "features": [
+        "Haɗin Dunƙule & Bazara",
+        "Akwai Lambar Launi",
+        "Wurin Gwaji",
+        "Zaɓuɓɓukan Tsalle",
+        "Tsarin Modular",
+        "Shingayen Tsaro",
+        "Zaɓuɓɓukan Katsewa",
+        "Yawan Haɗi"
+      ],
+      "certifications": [
+        "IEC 60947-7-1",
+        "UL Listed",
+        "CSA Certified",
+        "VDE Approved",
+        "CE Marked",
+        "RoHS Compliant"
+      ],
+      "seo": {
+        "title": "Masu Haɗin Lantarki & Ƙarshen Waya - Toshewar Tasha & Masu Haɗin Waya | Injiniyan Powerton",
+        "description": "Masu haɗin lantarki da toshewar tasha don aikace-aikacen masana'antu. tashoshin DIN rail, masu haɗin waya, akwatunan mahaɗa don amintattun haɗin lantarki.",
+        "keywords": "masu haɗin lantarki, toshewar tasha, masu haɗin waya, tashoshin DIN rail, akwatunan mahaɗa, tashoshin lantarki"
+      }
+    },
+    "circuit-breakers-fuses": {
+      "title": "Masu Kariya ta Zagaye & Fuses",
+      "shortDescription": "Na'urorin kariya ta lantarki don rarraba wutar lantarki ta masana'antu",
+      "fullDescription": "Cikakken kewayon na'urorin kariya ta zagaye ciki har da MCBs, MCCBs, ACBs, da fuses na masana'antu don cikakken kariya na tsarin lantarki.",
+      "parentCategoryTitle": "Kayan haɗin lantarki",
+      "keyBenefits": [
+        "Kariyar Kayan Aiki",
+        "Gano Ƙarfin Wuce Gona da Iri",
+        "Bin Dokokin Tsaro",
+        "Aiki Mai Amincewa"
+      ],
+      "specifications": [
+        "Ƙimar Wutar Lantarki: 1A zuwa 6300A",
+        "Ƙimar Wutar Lantarki: har zuwa 1000VAC",
+        "Ƙarfin Katsewa: 6kA zuwa 100kA",
+        "Halayen Tafiya: B, C, D Curves",
+        "Hawa: DIN Rail, Panel, Chassis",
+        "Ka'idoji: IEC 60947, UL 489"
+      ],
+      "applications": [
+        "Rarraba Wutar Lantarki",
+        "Kariyar Mota",
+        "Kariyar Transformer",
+        "Kariyar Janareta",
+        "Kayan Aikin Masana'antu",
+        "Sabis na Ginin Gida"
+      ],
+      "industries": [
+        "Rarraba Wutar Lantarki",
+        "Masana'antu",
+        "Gine-ginen Kasuwanci",
+        "Cibiyoyin Bayanai",
+        "Ababen More Rayuwa",
+        "Sufuri"
+      ],
+      "features": [
+        "Kariyar Zafi",
+        "Kariyar Maganadisu",
+        "Daidaitattun Saituna",
+        "Nuni na Nesa",
+        "Lambobin Tuntuɓar Taimako",
+        "Shigarwa Mai Sauri",
+        "Babban Ƙarfin Katsewa",
+        "Zaɓin Haɗin Kai"
+      ],
+      "certifications": [
+        "IEC 60947 Certified",
+        "UL 489 Listed",
+        "CSA Approved",
+        "CE Marked",
+        "RoHS Compliant",
+        "ISO 9001"
+      ],
+      "seo": {
+        "title": "Masu Kariya ta Zagaye & Fuses - MCB, MCCB, Fuses na Masana'antu | Injiniyan Powerton",
+        "description": "Masu kariya ta zagaye na masana'antu da fuses don kariya ta lantarki. MCB, MCCB, ACB masu kariya ta zagaye tare da babban ƙarfin katsewa don tsarin rarraba wutar lantarki.",
+        "keywords": "masu kariya ta zagaye, MCB, MCCB, ACB, fuses na masana'antu, kariya ta lantarki, kariyar ƙarfin wuce gona da iri, rarraba wutar lantarki"
+      }
+    },
+    "power-supplies": {
+      "title": "Samar da Wutar Lantarki",
+      "shortDescription": "Samar da wutar lantarki na masana'antu da masu canza DC-DC",
+      "fullDescription": "Samar da wutar lantarki na masana'antu mai aminci ciki har da masu canza AC-DC, masu canza DC-DC, da tsarin UPS don mahimman aikace-aikacen masana'antu.",
+      "parentCategoryTitle": "Kayan haɗin lantarki",
+      "keyBenefits": [
+        "Tabbataccen Ƙarfin Wutar Lantarki",
+        "Faɗin Kewayon Shigarwa",
+        "Babban Inganci",
+        "Tsarin Ƙarami"
+      ],
+      "specifications": [
+        "Ƙarfin Wutar Lantarki: 85-265VAC",
+        "Ƙarfin Wutar Lantarki: 5V zuwa 48VDC",
+        "Ƙimar Wutar Lantarki: 5W zuwa 1000W",
+        "Inganci: har zuwa 95%",
+        "Zafin Aiki: -25°C zuwa +70°C",
+        "Kariya: IP20 zuwa IP67"
+      ],
+      "applications": [
+        "Tsarin PLC",
+        "Panel ɗin Kulawa",
+        "Tsarin Aiki da Kai",
+        "Kayan Sadarwa",
+        "Hasken LED",
+        "Masu Kula da Masana'antu"
+      ],
+      "industries": [
+        "Kayan Aiki Masu Sarrafa Kai",
+        "Masana'antu",
+        "Sadarkan Waya",
+        "Sufuri",
+        "Kayan Aiki na Ginin Gida",
+        "Makaman Gona Masu Sabuntawa"
+      ],
+      "features": [
+        "DIN Rail Mounting",
+        "Shigarwa na Duniya",
+        "Kariyar Gajeren Zagaye",
+        "Kariyar ɗaukar Nauyi",
+        "Alamun Matsayi na LED",
+        "Faɗin Kewayon Zafin Jiki",
+        "Babban Aminci",
+        "EMI/EMC Compliant"
+      ],
+      "certifications": [
+        "UL Listed",
+        "CE Marked",
+        "TUV Certified",
+        "CB Certified",
+        "RoHS Compliant",
+        "Energy Star"
+      ],
+      "seo": {
+        "title": "Samar da Wutar Lantarki na Masana'antu - Masu Canza AC-DC & Masu Canza DC-DC | Injiniyan Powerton",
+        "description": "Samar da wutar lantarki na masana'antu don tsarin aiki da kai da kulawa. Samar da wutar lantarki ta DIN rail, masu canza AC-DC, da masu canza DC-DC tare da babban inganci.",
+        "keywords": "samar da wutar lantarki na masana'antu, masu canza AC-DC, masu canza DC-DC, samar da wutar lantarki ta DIN rail, PSU na masana'antu, samar da wutar lantarki ta aiki da kai"
+      }
+    },
+    "enclosures-cabinets": {
+      "title": "Rufewa & Kabad",
+      "shortDescription": "Rufewa na lantarki na masana'antu da kabad ɗin kulawa",
+      "fullDescription": "Rufewa na lantarki mai ƙarfi da kabad ɗin kulawa waɗanda aka tsara don mawuyacin yanayin masana'antu tare da nau'ikan ƙimar kariya da zaɓuɓɓukan hawa.",
+      "parentCategoryTitle": "Kayan haɗin lantarki",
+      "keyBenefits": [
+        "Kariyar Kayan Aiki",
+        "Rufe Muhalli",
+        "Tsarin Modular",
+        "Samun Sauƙi"
+      ],
+      "specifications": [
+        "Kayan Aiki: Karfe, Bakin Karfe, Polycarbonate",
+        "Ƙimar Kariya: IP54 zuwa IP68",
+        "Ƙimar Zafin Jiki: -40°C zuwa +80°C",
+        "Kewayon Girman: Nau'ikan daidaitattun girma",
+        "Nau'in Ƙofa: Guda/Biyu",
+        "Hawa: Bango, Ƙasa, Poste"
+      ],
+      "applications": [
+        "Panel ɗin Kulawa",
+        "Allon Rarraba Wutar Lantarki",
+        "Gidan Kayan Aiki",
+        "Akwatunan Mahaɗa",
+        "Kayan Aiki na Waje",
+        "Yankunan Hadari"
+      ],
+      "industries": [
+        "Masana'antu",
+        "Rarraba Wutar Lantarki",
+        "Jiyya na Ruwa",
+        "Mai & Gas",
+        "Sadarkan Waya",
+        "Sufuri"
+      ],
+      "features": [
+        "Tsarin da ke Jure Yanayi",
+        "Mai Jure Tsatsa",
+        "Ƙofofi Masu Kullewa",
+        "Zaɓuɓɓukan Shigar Kebul",
+        "Faranti Masu Hawa",
+        "Zaɓuɓɓukan Samun Iska",
+        "EMI/RFI Shielding",
+        "Gyare-gyare na Musamman"
+      ],
+      "certifications": [
+        "NEMA Rated",
+        "IEC 60529",
+        "UL Listed",
+        "CSA Approved",
+        "CE Marked",
+        "ATEX Approved"
+      ],
+      "seo": {
+        "title": "Rufewa & Kabad na Masana'antu - Rufewar Panel ɗin Kulawa | Injiniyan Powerton",
+        "description": "Rufewa na lantarki na masana'antu da kabad ɗin kulawa tare da nau'ikan ƙimar IP daban-daban. Rufewa na NEMA don mawuyacin yanayi da yankuna masu haɗari.",
+        "keywords": "rufewa na masana'antu, kabad ɗin lantarki, rufewar panel ɗin kulawa, rufewar NEMA, rufewar ƙimar IP, akwatunan mahaɗa"
+      }
+    },
+    "heating-elements-appliances": {
+      "title": "Abubuwan Dumama & Kayan Aiki",
+      "shortDescription": "Abubuwan dumama na masana'antu da kayan aikin kula da zafi",
+      "fullDescription": "Cikakken kewayon hanyoyin dumama na masana'antu ciki har da hita mai nutsawa, hita mai ɗamara, hita mai harsashi, da tsarin kula da zafi.",
+      "parentCategoryTitle": "Kayan haɗin lantarki",
+      "keyBenefits": [
+        "Daidaitaccen Kula da Zafin Jiki",
+        "Mai Amfani da Makamashi",
+        "Tsawon Rayuwar Sabis",
+        "Saurin Canja wurin Zafi"
+      ],
+      "specifications": [
+        "Ƙimar Wutar Lantarki: 100W zuwa 100kW",
+        "Kewayon Zafin Jiki: har zuwa 800°C",
+        "Wutar Lantarki: 120V zuwa 480V",
+        "Kayan Aiki: Bakin Karfe, Incoloy",
+        "Yawan Wuta: 5-50 W/in²",
+        "Kulawa: On-Off, PID, SCR"
+      ],
+      "applications": [
+        "Dumama Tsari",
+        "Dumama Tanki",
+        "Sarrafa Filastik",
+        "Sarrafa Abinci",
+        "Sarrafa Kemikal",
+        "Tandun Masana'antu"
+      ],
+      "industries": [
+        "Sarrafa Kemikal",
+        "Filastik & Roba",
+        "Abinci & Abin Sha",
+        "Magunguna",
+        "Mai & Gas",
+        "Masana'antu"
+      ],
+      "features": [
+        "Nau'ikan Dumama Da yawa",
+        "Na'urorin Zafin Jiki",
+        "Zaɓuɓɓukan Kariyar Fashewa",
+        "Mai Jure Tsatsa",
+        "Shigarwa Mai Sauri",
+        "Mai Amfani da Makamashi",
+        "Thermostat na Tsaro",
+        "Zane na Musamman"
+      ],
+      "certifications": [
+        "UL Listed",
+        "CSA Approved",
+        "CE Marked",
+        "ATEX Certified",
+        "RoHS Compliant",
+        "ISO 9001"
+      ],
+      "seo": {
+        "title": "Abubuwan Dumama na Masana'antu - Hita Mai Nutsawa & Dumama Tsari | Injiniyan Powerton",
+        "description": "Abubuwan dumama na masana'antu da kayan aikin kula da zafi. Hita mai nutsawa, hita mai ɗamara, hita mai harsashi don aikace-aikacen dumama tsari.",
+        "keywords": "hita na masana'antu, abubuwan dumama, hita mai nutsawa, dumama tsari, kula da zafi, kayan aikin dumama na masana'antu"
+      }
+    },
+    "solar-panels": {
+      "title": "Fannoni & Ƙungiyoyin Hasken Rana",
+      "shortDescription": "Fannoni masu inganci na hasken rana da ƙungiyoyin photovoltaic",
+      "fullDescription": "Fannoni masu ƙima na hasken rana tare da babban ingancin juyawa, dorewa, da aiki don aikace-aikacen zama, kasuwanci, da masana'antu.",
+      "parentCategoryTitle": "Kayayyakin Hasken Rana",
+      "keyBenefits": [
+        "Babban Inganci",
+        "Tsawon Rayuwar Sabis",
+        "Jure Yanayi",
+        "Ƙarancin Lalacewa"
+      ],
+      "specifications": [
+        "Ƙarfin Wutar Lantarki: 100W zuwa 600W",
+        "Inganci: 18% zuwa 22%",
+        "Nau'in Cella: Mono/Poly Crystalline",
+        "Wutar Lantarki: 12V zuwa 48V DC",
+        "Zafin Aiki: -40°C zuwa +85°C",
+        "Garanti: Aikin shekaru 25"
+      ],
+      "applications": [
+        "Tsarin Hasken Rana na Gida",
+        "Shigar Kasuwanci",
+        "Ayyukan More Rayuwa",
+        "Tsarin da Ba a Haɗa da Grid Ba",
+        "Tsarin Hybrid",
+        "Gonakin Hasken Rana"
+      ],
+      "industries": [
+        "Makamashi Mai Sabuntawa",
+        "Zama",
+        "Gine-ginen Kasuwanci",
+        "Ayyukan More Rayuwa",
+        "Noma",
+        "Masana'antu"
+      ],
+      "features": [
+        "Cell Masu Babban Inganci",
+        "Rufin da ke Hana Nunawa",
+        "Diodes na Bypass",
+        "Akwatin Mahaɗa na IP67",
+        "Firamin Aluminum Anodized",
+        "Gilashin da aka Ƙarfafa",
+        "MPPT Compatible",
+        "Jure Ƙanƙara"
+      ],
+      "certifications": [
+        "IEC 61215",
+        "IEC 61730",
+        "UL 1703",
+        "CE Marked",
+        "TUV Certified",
+        "BIS Approved"
+      ],
+      "seo": {
+        "title": "Fannonin Hasken Rana - Ƙungiyoyin Photovoltaic Masu Babban Inganci | Injiniyan Powerton",
+        "description": "Fannoni masu inganci na hasken rana da ƙungiyoyin photovoltaic don aikace-aikacen zama, kasuwanci, da masana'antu. Garanti na shekaru 25 tare da aiki mai ƙima.",
+        "keywords": "fannonin hasken rana, ƙungiyoyin hasken rana, fannonin photovoltaic, makamashin hasken rana, makamashi mai sabuntawa, fannonin hasken rana na monocrystalline, fannonin hasken rana na polycrystalline"
+      }
+    },
+    "solar-inverters": {
+      "title": "Inverters na Hasken Rana",
+      "shortDescription": "Grid-tie da hybrid solar inverters don tsarin photovoltaic",
+      "fullDescription": "Babban ingancin solar inverters don grid-tie da aikace-aikace na hybrid tare da ci-gaban fasahar MPPT da haɗin baturi.",
+      "parentCategoryTitle": "Kayayyakin Hasken Rana",
+      "keyBenefits": [
+        "Matsakaicin Binciken Maɓallin Wuta",
+        "Haɗin Grid",
+        "Dacewar Baturi",
+        "Kulawa ta Nesa"
+      ],
+      "specifications": [
+        "Ƙarfin Ƙarfi: 1kW zuwa 100kW",
+        "Inganci: har zuwa 98%",
+        "Wutar Lantarki Mai Shiga: 150V zuwa 1000V DC",
+        "Fitowa: 230V/400V AC",
+        "Kariya: IP65/IP66",
+        "Sadarwa: Ethernet, WiFi, RS485"
+      ],
+      "applications": [
+        "Tsarin Hasken Rana na Grid-Tie",
+        "Tsarin Hasken Rana na Hybrid",
+        "Shigarwar Sikelin Amfani",
+        "Hasken Rana na Kasuwanci",
+        "Hasken Rana na Zama",
+        "Haɗin Ajiyar Makamashi"
+      ],
+      "industries": [
+        "Makamashi Mai Sabuntawa",
+        "Amfani",
+        "Gine-ginen Kasuwanci",
+        "Zama",
+        "Masana'antu",
+        "Noma"
+      ],
+      "features": [
+        "Fasahar MPPT",
+        "Kulawa da Grid",
+        "Gano Laifin Arc",
+        "Kulawa ta Nesa",
+        "Haɗin Baturi",
+        "Ƙarfin Ajiyayyen",
+        "Gudanar da Makamashi",
+        "Shirye-shiryen Grid Mai Wayo"
+      ],
+      "certifications": [
+        "IEC 62109",
+        "UL 1741",
+        "IEEE 1547",
+        "CE Mai Alama",
+        "Grid Code Mai Yardarwa",
+        "BIS Mai Takarda"
+      ],
+      "seo": {
+        "title": "Inverters na Hasken Rana - Grid-Tie & Hybrid Solar Inverters | Injiniyan Powerton",
+        "description": "Babban ingancin solar inverters don grid-tie da aikace-aikace na hybrid. String inverters, central inverters tare da fasahar MPPT da haɗin baturi.",
+        "keywords": "solar inverters, grid tie inverters, hybrid inverters, string inverters, central inverters, solar power inverters"
+      }
+    },
+    "plcs": {
+      "title": "PLCs (Masu Kula da Ma'ana Mai Shiryawa)",
+      "shortDescription": "Masu kula da sarrafa kansa na masana'antu don sarrafa tsari da masana'antu",
+      "fullDescription": "Tsarin PLC mai ci gaba tare da ƙirar modular, yarukan sadarwa da yawa, da ayyukan aminci da aka haɗa don cikakkun hanyoyin sarrafa kansa na masana'antu.",
+      "parentCategoryTitle": "Tsarin Sarrafa Kai & Sarrafawa",
+      "keyBenefits": [
+        "Shirye-shirye Mai Sauƙi",
+        "Faɗaɗawa Mai Sauƙi",
+        "Sarrafa Lokaci na Gaskiya",
+        "Haɗaɗɗen Tsaro"
+      ],
+      "specifications": [
+        "Maki I/O: 16 zuwa 40,000+",
+        "Ƙwaƙwalwa: 512KB zuwa 64MB",
+        "Shirye-shirye: IEC 61131-3",
+        "Sadarwa: Ethernet, Serial, Fieldbus",
+        "Zafin Aiki: -25°C zuwa +60°C",
+        "Samar da Wuta: 24VDC, 120/240VAC"
+      ],
+      "applications": [
+        "Sarrafa Kayan Aiki",
+        "Sarrafa Tsari",
+        "Gudanar da Kayan Aiki",
+        "Injinan Kunshin",
+        "Jiyya na Ruwa",
+        "Sarrafa Gine-gine"
+      ],
+      "industries": [
+        "Masana'antu",
+        "Abinci & Abin Sha",
+        "Kera Mota",
+        "Magunguna",
+        "Ruwa & Ruwan Sharar gida",
+        "Makamashi & Amfani"
+      ],
+      "features": [
+        "Ƙirar Modular",
+        "Hot-Swappable I/O",
+        "Shirye-shiryen Yanar Gizo",
+        "Haɗaɗɗen HMI",
+        "Sarrafa Motsi",
+        "Ayyukan Tsaro",
+        "Samun Nesa",
+        "Rikodin Bayanai"
+      ],
+      "certifications": [
+        "CE Mai Alama",
+        "UL Lissafa",
+        "CSA Mai Takarda",
+        "IEC 61131",
+        "ATEX Mai Amincewa",
+        "SIL Mai Ƙimarwa"
+      ],
+      "seo": {
+        "title": "PLCs - Masu Kula da Ma'ana Mai Shiryawa don Sarrafa Kayan Aiki | Injiniyan Powerton",
+        "description": "PLCs na masana'antu da masu kula da ma'ana mai shiryawa don sarrafa kansa da sarrafa tsari. Siemens, Allen-Bradley, da Schneider Electric PLC tsarin.",
+        "keywords": "PLCs, programmable logic controllers, industrial automation, process control, factory automation, PLC programming"
+      }
+    },
+    "scada": {
+      "title": "Tsarin SCADA",
+      "shortDescription": "Tsarin Kula da Kulawa da Samun Bayanai don sarrafa kansa na masana'antu",
+      "fullDescription": "Cikakkun mafita na SCADA don sa ido na ainihi, sarrafawa, da samun bayanai a cikin matakai na masana'antu tare da ci-gaban gani da ikon bayar da rahoto.",
+      "parentCategoryTitle": "Tsarin Sarrafa Kai & Sarrafawa",
+      "keyBenefits": [
+        "Kulawa na Lokaci na Gaskiya",
+        "Sarrafa Tsakiya",
+        "Samun Bayanai",
+        "Yanayin Tarihi"
+      ],
+      "specifications": [
+        "Masu Amfani da Juna: har zuwa 100",
+        "Maki I/O: mara iyaka",
+        "Sadarwa: Goyan bayan yarukan sadarwa da yawa",
+        "Database: SQL Server, Oracle",
+        "Tsarin Aiki: Windows Server",
+        "Redundancy: Goyan bayan jiran aiki mai zafi"
+      ],
+      "applications": [
+        "Kulawa da Tsari",
+        "Sarrafa Nesa",
+        "Rikodin Bayanai",
+        "Gudanar da Ƙararrawa",
+        "Ƙirƙirar Rahoto",
+        "Sarrafa Batch"
+      ],
+      "industries": [
+        "Mai & Gas",
+        "Jiyya na Ruwa",
+        "Samar da Wuta",
+        "Masana'antu",
+        "Sarrafa Kemikal",
+        "Sufuri"
+      ],
+      "features": [
+        "Hulɗar Hoto",
+        "Nunin Lokaci na Gaskiya",
+        "Binciken Yanayi",
+        "Gudanar da Ƙararrawa",
+        "Gudanar da Girke-girke",
+        "Siffofin Tsaro",
+        "Abokin Ciniki na Yanar Gizo",
+        "Samun Wayar hannu"
+      ],
+      "certifications": [
+        "IEC 61131",
+        "OPC Mai Takarda",
+        "ISA-95 Mai Yardarwa",
+        "Tsaro ta Yanar Gizo",
+        "FDA 21 CFR Sashe na 11",
+        "ISO 27001"
+      ],
+      "seo": {
+        "title": "Tsarin SCADA - Kulawa & Sarrafa Masana'antu | Injiniyan Powerton",
+        "description": "Tsarin SCADA don sarrafa kansa na masana'antu tare da sa ido na ainihi, sarrafa tsakiya, da samun bayanai. Goyan bayan yarukan sadarwa da yawa.",
+        "keywords": "SCADA systems, supervisory control, data acquisition, industrial monitoring, process control, automation systems"
+      }
+    },
+    "dcs": {
+      "title": "Tsarin Sarrafa Rarraba (DCS)",
+      "shortDescription": "Tsarin sarrafa rarraba don sarrafa kansa na tsari mai girma",
+      "fullDescription": "Ci-gaban mafita na DCS don sarrafa tsari mai rikitarwa tare da rarraba gine-gine, sadarwa mai yawa, da haɗaɗɗun tsarin aminci don mahimman aikace-aikace.",
+      "parentCategoryTitle": "Tsarin Sarrafa Kai & Sarrafawa",
+      "keyBenefits": [
+        "Rarraba Gine-gine",
+        "Babban Amincewa",
+        "Haɗaɗɗen Tsaro",
+        "Ƙirar Ƙira"
+      ],
+      "specifications": [
+        "Nodes na Mai Kula: har zuwa 1000",
+        "Ƙarfin I/O: maki 50,000+",
+        "Lokacin Dubawa: 10ms na yau da kullun",
+        "Redundancy: Sau uku mai yawa",
+        "Sadarwa: Ethernet mai sauri",
+        "Amintaccen Mutunci: SIL 3"
+      ],
+      "applications": [
+        "Sarrafa Tsari",
+        "Ci gaba da Masana'antu",
+        "Sarrafa Batch",
+        "Tsarin Tsaro",
+        "Gudanar da Dukiya",
+        "Inganta Ayyuka"
+      ],
+      "industries": [
+        "Mai & Gas",
+        "Sarrafa Kemikal",
+        "Samar da Wuta",
+        "Pulp & Paper",
+        "Magunguna",
+        "Petrochemical"
+      ],
+      "features": [
+        "Sarrafa Rarraba",
+        "Tsarin Yawaita",
+        "Ci-gaban Sarrafa",
+        "Haɗaɗɗen Tsaro",
+        "Gudanar da Dukiya",
+        "Hasashen Kulawa",
+        "Bayanai na Tarihi",
+        "Kayan Aikin Injiniya"
+      ],
+      "certifications": [
+        "IEC 61131",
+        "IEC 61508 SIL 3",
+        "ISA-95 Mai Yardarwa",
+        "TÜV Mai Takarda",
+        "Tsaro ta Yanar Gizo",
+        "NERC CIP"
+      ],
+      "seo": {
+        "title": "Tsarin Sarrafa Rarraba (DCS) - Sarrafa Kayan Aiki | Injiniyan Powerton",
+        "description": "Ci-gaban mafita na DCS don sarrafa tsari mai girma tare da rarraba gine-gine, tsarin yawa, da haɗaɗɗun fasalulluka na aminci.",
+        "keywords": "DCS systems, distributed control systems, process automation, industrial control, safety systems, process control"
+      }
+    },
+    "hmi": {
+      "title": "Hulɗar Mutum da Inji (HMI)",
+      "shortDescription": "Fannoni na HMI na masana'antu da hulɗar mai aiki don sarrafa tsari",
+      "fullDescription": "Ci-gaban mafita na HMI ciki har da fannoni masu taɓawa, hulɗar mai aiki, da tsarin HMI na wayar hannu don sarrafa kansa na masana'antu da aikace-aikacen sarrafa tsari.",
+      "parentCategoryTitle": "Tsarin Sarrafa Kai & Sarrafawa",
+      "keyBenefits": [
+        "Aikin Taɓawa",
+        "Tsarin Masana'antu",
+        "Nunin Lokaci na Gaskiya",
+        "Goyan Bayan Yare Da yawa"
+      ],
+      "specifications": [
+        "Girman Allo: 4\" zuwa 21\"",
+        "Ƙuduri: 480x272 zuwa 1920x1080",
+        "Nau'in Taɓawa: Mai Tsayayya/Mai Ƙarfi",
+        "Zafin Aiki: -20°C zuwa +70°C",
+        "Kariya: IP65 gaban panel",
+        "Sadarwa: Ethernet, Serial, USB"
+      ],
+      "applications": [
+        "Kulawa da Tsari",
+        "Sarrafa Inji",
+        "Ganin Bayanai",
+        "Gudanar da Ƙararrawa",
+        "Gudanar da Girke-girke",
+        "Hulɗar Mai aiki"
+      ],
+      "industries": [
+        "Masana'antu",
+        "Masana'antu na Tsari",
+        "Jiyya na Ruwa",
+        "Samar da Wuta",
+        "Abinci & Abin Sha",
+        "Magunguna"
+      ],
+      "features": [
+        "Hulɗar Allon Taɓawa",
+        "Darajar Masana'antu",
+        "Nunin Lokaci na Gaskiya",
+        "Yare Da yawa",
+        "Samun Yanar Gizo",
+        "Gudanar da Ƙararrawa",
+        "Rikodin Bayanai",
+        "Gudanar da Girke-girke"
+      ],
+      "certifications": [
+        "CE Mai Alama",
+        "UL Lissafa",
+        "FCC Class A",
+        "IEC 61131",
+        "NEMA 4X",
+        "IP65 Mai Ƙimarwa"
+      ],
+      "seo": {
+        "title": "Hulɗar Mutum da Inji (HMI) - Fannoni Masu Taɓawa na Masana'antu | Injiniyan Powerton",
+        "description": "Fannoni na HMI na masana'antu da hulɗar allon taɓawa don sarrafa tsari da sarrafa kansa. Goyan bayan yare da yawa tare da kulawa da sarrafawa na ainihi.",
+        "keywords": "HMI panels, human machine interface, touchscreen panels, operator interface, industrial displays, process control HMI"
+      }
+    },
+    "surge-protectors": {
+      "title": "Masu Kariyar Wutar Lantarki",
+      "shortDescription": "Na'urorin kariyar wutar lantarki na masana'antu don kariyar tsarin lantarki",
+      "fullDescription": "Cikakkun hanyoyin magance kariyar wutar lantarki gami da wutar AC, hasken rana na DC, da masu kare layin sigina don kare kayan aikin lantarki daga yawan wutar lantarki.",
+      "parentCategoryTitle": "Na'urorin Tsaro & Kariyar",
+      "keyBenefits": [
+        "Kariyar ɗan lokaci",
+        "Kariyar Kayan Aiki",
+        "Amintaccen Tsarin",
+        "Kariyar Walƙiya"
+      ],
+      "specifications": [
+        "Matsayin Wutar Lantarki: 120V zuwa 690V AC",
+        "Ƙimar Halin Yanzu: 15kA zuwa 100kA",
+        "Lokacin Amsawa: <25 nanoseconds",
+        "Matsayin Kariya: Class I/II/III",
+        "Zafin Aiki: -40°C zuwa +85°C",
+        "Rufewa: IP20 zuwa IP65"
+      ],
+      "applications": [
+        "Rarraba Wuta",
+        "Cibiyoyin Kula da Mota",
+        "Tsarin Wutar Lantarki Mai Amfani da Hasken Rana",
+        "Sadarwar Bayanai",
+        "Bangaren Kula",
+        "Kayan Aiki Masu Sauƙi"
+      ],
+      "industries": [
+        "Rarraba Wuta",
+        "Makamashin Hasken Rana",
+        "Sadarwa",
+        "Kera Masana'antu",
+        "Cibiyoyin Bayanai",
+        "Ayyukan Gina"
+      ],
+      "features": [
+        "Fasahar MOV",
+        "Alamun Matsayi",
+        "Nuna Nesa",
+        "Saurin Cirewa",
+        "DIN Rail Dutsen",
+        "Zane Mai Hana Gazawa",
+        "Ƙananan Ƙarfin ɗigogi",
+        "Kariyar Zafi"
+      ],
+      "certifications": [
+        "UL 1449",
+        "IEC 61643",
+        "IEEE C62.41",
+        "CE Mai Alama",
+        "RoHS Mai Yardarwa",
+        "UL Lissafa"
+      ],
+      "seo": {
+        "title": "Masu Kariyar Wutar Lantarki - Na'urorin Kariyar Lantarki na Masana'antu | Injiniyan Powerton",
+        "description": "Na'urorin kariyar wutar lantarki na masana'antu don wutar AC, hasken rana na DC, da kariyar layin sigina. UL 1449 masu kare wutar lantarki da aka lissafa tare da saurin amsawa.",
+        "keywords": "masu kare wutar lantarki, na'urorin kare wutar lantarki, kariyar lantarki, kariyar walƙiya, kariyar wutar lantarki, SPD na masana'antu"
+      }
+    },
+    "grounding-systems": {
+      "title": "Tsarin Ƙasa",
+      "shortDescription": "Tsarin ƙasa da earthing na masana'antu don amincin lantarki",
+      "fullDescription": "Cikakkun hanyoyin magance ƙasa da earthing gami da sandunan ƙasa, masu gudanarwa, da tsarin sa ido na ƙasa don amincin lantarki da kariyar tsarin.",
+      "parentCategoryTitle": "Na'urorin Tsaro & Kariyar",
+      "keyBenefits": [
+        "Amincin Lantarki",
+        "Kariyar Tsarin",
+        "Hanyar Halin Yanzu na Kuskure",
+        "Kariyar Kayan Aiki"
+      ],
+      "specifications": [
+        "Kayan Sandar Ƙasa: Ƙarfe mai rufin tagulla",
+        "Girman Mai Gudanarwa: #6 AWG zuwa 750 MCM",
+        "Juriya: <1 ohm na yau da kullun",
+        "Ƙimar Halin Yanzu: har zuwa 50kA",
+        "Juriya na Lalata: Hot-dip galvanized",
+        "Ka'idoji: IEEE 80, NEC Mataki na 250"
+      ],
+      "applications": [
+        "Tashoshin Lantarki",
+        "Kayayyakin Masana'antu",
+        "Kariyar Walƙiya",
+        "Sadarwa",
+        "Shigar Hasken Rana",
+        "Ginin Ƙasa"
+      ],
+      "industries": [
+        "Kayayyakin Lantarki",
+        "Kera Masana'antu",
+        "Sadarwa",
+        "Gine-gine",
+        "Makamanin Hasken Rana",
+        "Cibiyoyin Bayanai"
+      ],
+      "features": [
+        "Sandunan Ƙasa na Tagulla",
+        "Masu Gudanar da Ƙasa",
+        "Clamp & Connectors",
+        "Sauraron Ƙasa",
+        "Kariyar Lalata",
+        "Ƙananan Juriya",
+        "Jiyya na Kemikal",
+        "Kayan Gwaji"
+      ],
+      "certifications": [
+        "IEEE 80",
+        "NEC Mai Yardarwa",
+        "UL Lissafa",
+        "Ka'idojin ANSI",
+        "IEC 62305",
+        "NFPA 780"
+      ],
+      "seo": {
+        "title": "Tsarin Ƙasa - Hanyoyin Earthing na Lantarki na Masana'antu | Injiniyan Powerton",
+        "description": "Tsarin ƙasa da earthing na masana'antu don amincin lantarki. Sandunan ƙasa, masu gudanarwa, da tsarin sa ido sun dace da ka'idojin IEEE 80.",
+        "keywords": "tsarin ƙasa, tsarin earthing, ƙasa ta lantarki, sandunan ƙasa, masu gudanar da ƙasa, earthing na amincin lantarki"
+      }
+    },
+    "safety-relays-switches": {
+      "title": "Relay & Sauyawa na Tsaro",
+      "shortDescription": "Relay na tsaro na masana'antu da sauyawa na tsayawa na gaggawa don amincin inji",
+      "fullDescription": "Na'urorin kula da aminci masu mahimmanci gami da relay na tsaro, sauyawa na tsayawa na gaggawa, da masu kula da aminci don amincin inji da kariyar ma'aikata.",
+      "parentCategoryTitle": "Na'urorin Tsaro & Kariyar",
+      "keyBenefits": [
+        "Amincin Inji",
+        "Kariyar Ma'aikata",
+        "Rufe Gaggawa",
+        "Bin Ka'idojin Tsaro"
+      ],
+      "specifications": [
+        "Rukunin Tsaro: Cat 3/4 zuwa ISO 13849",
+        "Ƙimar Tuntuɓar: 6A zuwa 16A",
+        "Matsayin Aiki: 24V DC zuwa 230V AC",
+        "Lokacin Amsawa: <10ms",
+        "Amintaccen Mutunci: SIL 3/PLe",
+        "Muhalli: IP65/IP67"
+      ],
+      "applications": [
+        "Kewaye na Tsayawa na Gaggawa",
+        "Tsarin Tsaro na Haɗin Gwiwa",
+        "Ƙirar Labulen Haske",
+        "Kula da Hannu Biyu",
+        "Sauraron Ƙofar Tsaro",
+        "Amincin Birki na Latsa"
+      ],
+      "industries": [
+        "Kera",
+        "Kera Mota",
+        "Shirya Kaya",
+        "Sarrafa Abinci",
+        "Magunguna",
+        "Sarrafa Kayan Aiki"
+      ],
+      "features": [
+        "Tsaron Tashoshi Biyu",
+        "Tsayawa na Gaggawa",
+        "Sauraron Tsaro",
+        "Ayyukan Bincike",
+        "Sake Saiti na Hannu",
+        "Nuna Matsayin LED",
+        "Ƙaraɗɗen Modules",
+        "Ƙirar Bas ɗin Tsaro"
+      ],
+      "certifications": [
+        "ISO 13849 PLe",
+        "IEC 61508 SIL 3",
+        "TÜV Mai Takarda",
+        "CE Mai Alama",
+        "UL 508",
+        "CSA Mai Amincewa"
+      ],
+      "seo": {
+        "title": "Relay & Sauyawa na Tsaro - Na'urorin Kula da Amincin Inji | Injiniyan Powerton",
+        "description": "Relay na tsaro na masana'antu da sauyawa na tsayawa na gaggawa don amincin inji. Na'urorin kula da aminci da aka ƙima SIL 3/PLe don kariyar ma'aikata.",
+        "keywords": "relay na tsaro, sauyawa na tsaro, tsayawa na gaggawa, amincin inji, masu kula da aminci, na'urorin tsaro, amincin masana'antu"
+      }
+    },
+    "intrinsically-safe-equipment": {
+      "title": "Kayan Aiki Mai Tsaro na Asali",
+      "shortDescription": "Kayan aiki mai hana fashewa da aminci na asali don wurare masu haɗari",
+      "fullDescription": "Kayan aiki mai aminci na asali da aka tabbatar da hana fashewa gami da shinge, insulators, da enclosures don aikace-aikacen wurare masu haɗari.",
+      "parentCategoryTitle": "Na'urorin Tsaro & Kariyar",
+      "keyBenefits": [
+        "ATEX Mai Takarda",
+        "Hana Fashewa",
+        "Tsaro na Asali",
+        "An Amince da Wurin Hadari"
+      ],
+      "specifications": [
+        "Ƙimar Yanki: Zone 0/1/2, Div 1/2",
+        "Rukunin Zazzabi: T1 zuwa T6",
+        "Kariya: Ex ia, Ex d, Ex e",
+        "Matsayin Wutar Lantarki: 12V zuwa 250V",
+        "Ƙarfin Halin Yanzu: 4-20mA, 0-10V",
+        "Takardar Shaida: ATEX, IECEx, UL"
+      ],
+      "applications": [
+        "Kayan Aikin Wuri Mai Hadari",
+        "Keɓewar Sigina",
+        "Gidaje Mai Hana Fashewa",
+        "Shingen Tsaro na Asali",
+        "Tsarin Gano Gas",
+        "Rufe Gaggawa"
+      ],
+      "industries": [
+        "Mai & Gas",
+        "Petrochemical",
+        "Sarrafa Kemikal",
+        "Magunguna",
+        "Hakar Ma'adinai",
+        "Fenti & Rufi"
+      ],
+      "features": [
+        "ATEX/IECEx Mai Takarda",
+        "Yanki 0/1/2 An Amince da shi",
+        "Keɓewar Galvanic",
+        "Ka'idar Ƙungiya",
+        "Hasken Zuciya",
+        "Zane Mai Hana Fashewa",
+        "Tsaro na Asali",
+        "Rufin Hana Wuta"
+      ],
+      "certifications": [
+        "ATEX Mai Takarda",
+        "IECEx An Amince da shi",
+        "UL Class I Div 1",
+        "CSA Mai Takarda",
+        "BASEEFA An Amince da shi",
+        "TIIS Mai Takarda"
+      ],
+      "seo": {
+        "title": "Kayan Aiki Mai Tsaro na Asali - Kayan Aiki Mai Hadari na ATEX | Injiniyan Powerton",
+        "description": "Kayan aiki mai aminci na asali na ATEX don wurare masu haɗari. Shingen hana fashewa, insulators, da enclosures don aikace-aikacen Zone 0/1/2.",
+        "keywords": "kayan aiki mai aminci na asali, ATEX mai takarda, mai hana fashewa, kayan aikin wurin haɗari, shingen tsaro, Ex d enclosures"
+      }
+    },
+    "safety-equipment": {
+      "title": "Kayan Aiki na Tsaro",
+      "shortDescription": "Kayan aiki na tsaro na masana'antu da na'urorin kariya na sirri",
+      "fullDescription": "Cikakkun hanyoyin magance tsaro gami da kayan aikin kariya na sirri, tsarin kariya na faɗuwa, da kayan aikin gano gas don bin ka'idojin tsaro na masana'antu.",
+      "parentCategoryTitle": "Na'urorin Tsaro & Kariyar",
+      "keyBenefits": [
+        "Tsaron Ma'aikata",
+        "Bin OSHA",
+        "Kariyar Faɗuwa",
+        "Gano Gas"
+      ],
+      "specifications": [
+        "Ka'idojin Kariya: ANSI, EN, CSA",
+        "Kayan aiki: Mai jure tasiri mai girma",
+        "Zafin Aiki: -30°C zuwa +60°C",
+        "Kewayon Ganowa: 0-100% LEL",
+        "Rayuwar Baturi: 12+ hours",
+        "Takardar Shaida: ATEX, UL, CSA"
+      ],
+      "applications": [
+        "Kariyar Sirri",
+        "Kariyar Faɗuwa",
+        "Gano Gas",
+        "Amsa Mai Gaggawa",
+        "Shigar da Sarari Mai Ƙunci",
+        "Tsaron Masana'antu"
+      ],
+      "industries": [
+        "Mai & Gas",
+        "Gine-gine",
+        "Kera",
+        "Sarrafa Kemikal",
+        "Hakar Ma'adinai",
+        "Kayayyakin Aiki"
+      ],
+      "features": [
+        "Huluna & Helmets",
+        "Gilashin Tsaro",
+        "Kariyar Ji",
+        "Safofin Hannu na Aiki",
+        "Kariyar Faɗuwa",
+        "Gano Gas",
+        "Kayan Aiki na Gaggawa",
+        "Horon Tsaro"
+      ],
+      "certifications": [
+        "ANSI Z87.1",
+        "OSHA An Amince da shi",
+        "EN 397",
+        "CSA Z94.1",
+        "ATEX Mai Takarda",
+        "UL Lissafa"
+      ],
+      "seo": {
+        "title": "Kayan Aiki na Tsaro na Masana'antu - PPE & Kariyar Faɗuwa | Injiniyan Powerton",
+        "description": "Kayan aiki na tsaro na masana'antu gami da PPE, tsarin kariya na faɗuwa, da kayan aikin gano gas. Hanyoyin magance tsaro masu bin OSHA don kariyar wurin aiki.",
+        "keywords": "kayan aiki na tsaro, PPE, kayan aikin kariya na sirri, kariyar faɗuwa, gano gas, tsaron masana'antu, tsaron wurin aiki"
+      }
+    },
+    "centrifugal-pumps": {
+      "title": "Famfunan Centrifugal",
+      "shortDescription": "Babban famfunan centrifugal masu inganci don sarrafa ruwa na masana'antu",
+      "fullDescription": "Famfunan centrifugal masu ƙarfi waɗanda aka tsara don ci gaba da aiki tare da yawan kwarara, juriya na lalata, da aikin ceton makamashi don aikace-aikace daban-daban na masana'antu.",
+      "parentCategoryTitle": "Famfunan Inji & Kayayyakin Gyara",
+      "keyBenefits": [
+        "Babban Ƙarfin Kwarara",
+        "Mai Amfani da Makamashi",
+        "Ƙananan Kulawa",
+        "Mai Jure Lalata"
+      ],
+      "specifications": [
+        "Ƙimar Kwarara: 10 zuwa 10,000 GPM",
+        "Kai: 10 zuwa 500 ƙafa",
+        "Ƙarfi: 1HP zuwa 500HP",
+        "Zafin Jiki: -20°C zuwa +200°C",
+        "Kayan Aiki: Ƙarfe Mai Laushi, Bakin Karfe, Tagulla",
+        "Hatimi: Inji, ɗaukar kaya"
+      ],
+      "applications": [
+        "Samar da Ruwa",
+        "Tsarin Sanyaya",
+        "Canja wurin Sinadarai",
+        "Ban ruwa",
+        "Tsarin Masana'antu",
+        "Kariyar Wuta"
+      ],
+      "industries": [
+        "Jiyya na Ruwa",
+        "Sarrafa Sinadarai",
+        "Samar da Wuta",
+        "HVAC",
+        "Noma",
+        "Hakar Ma'adinai"
+      ],
+      "features": [
+        "Impellers Masu Babban Inganci",
+        "Rotor Mai Daidaitawa",
+        "Hatimin Inji",
+        "Mai Jure Lalata",
+        "Ƙananan NPSH",
+        "Sauƙi Kulawa",
+        "Kayan Aiki Da yawa",
+        "Hawa Mai Sauƙi"
+      ],
+      "certifications": [
+        "ISO 9001",
+        "CE Mai Alama",
+        "UL Lissafa",
+        "API 610",
+        "ANSI B73.1",
+        "CSA An Amince da shi"
+      ],
+      "seo": {
+        "title": "Famfunan Centrifugal - Ruwa na Masana'antu & Famfunan Sinadarai | Injiniyan Powerton",
+        "description": "Babban famfunan centrifugal masu inganci don aikace-aikace na masana'antu. Ƙarshen tsotsa, famfunan rarraba kwance don jiyya na ruwa da sarrafa sinadarai.",
+        "keywords": "famfunan centrifugal, famfunan masana'antu, famfunan ruwa, famfunan sinadarai, famfunan tsari, famfunan tsotsa na ƙarshe"
+      }
+    },
+    "diaphragm-pumps": {
+      "title": "Famfunan Diaphragm",
+      "shortDescription": "Famfunan diaphragm da ake sarrafa ta iska da wutar lantarki don canja wurin sinadarai",
+      "fullDescription": "Famfunan diaphragm masu sauƙin amfani don sarrafa ruwa mai ɓarna, mai kauri, da lalata tare da ikon fara aiki da kariya daga bushewa.",
+      "parentCategoryTitle": "Famfunan Inji & Kayayyakin Gyara",
+      "keyBenefits": [
+        "Fara Aiki da Kai",
+        "Ikon Bushewa",
+        "Juriya ga Sinadarai",
+        "Sarrafa Ƙarfi"
+      ],
+      "specifications": [
+        "Ƙimar Kwarara: 1 zuwa 250 GPM",
+        "Matsa lamba: har zuwa 125 PSI",
+        "Ƙarfi: har zuwa 1/2 inch",
+        "Zafin Jiki: -40°C zuwa +180°C",
+        "Kayan Aiki: Polypropylene, PVDF, Aluminum",
+        "Diaphragm: PTFE, Santoprene, Viton"
+      ],
+      "applications": [
+        "Canja wurin Sinadarai",
+        "Sarrafa Ruwan Sharar Gida",
+        "Fenti & Rufi",
+        "Canja wurin Slurry",
+        "Tsayar da Ruwa",
+        "Aikace-aikacen Aunawa"
+      ],
+      "industries": [
+        "Sarrafa Sinadarai",
+        "Hakar Ma'adinai",
+        "Fenti & Rufi",
+        "Abinci & Abin Sha",
+        "Yumbu",
+        "Ruwan Sharar Gida"
+      ],
+      "features": [
+        "Fara Aiki da Kai",
+        "Tsaro daga Bushewa",
+        "Sarrafa Ƙarfi",
+        "Juriya ga Sinadarai",
+        "Ana Sarrafa ta Iska",
+        "Aiki Maras Ɓarna",
+        "Sauƙi Kulawa",
+        "Zaɓuɓɓukan Kariyar Fashewa"
+      ],
+      "certifications": [
+        "ATEX An Amince da shi",
+        "CE Mai Alama",
+        "FDA Mai Yardarwa",
+        "ISO 9001",
+        "EHEDG An Tabbatar da shi",
+        "3A Tsabta"
+      ],
+      "seo": {
+        "title": "Famfunan Diaphragm - Aiki da Iska & Famfunan Diaphragm na Lantarki | Injiniyan Powerton",
+        "description": "Famfunan diaphragm na masana'antu don canja wurin sinadarai da sarrafa ruwan sharar gida. AODD da famfunan diaphragm na lantarki tare da ikon fara aiki da kai.",
+        "keywords": "famfunan diaphragm, famfunan AODD, famfunan diaphragm da ake sarrafa ta iska, famfunan canja wurin sinadarai, famfunan slurry"
+      }
+    },
+    "gear-pumps": {
+      "title": "Famfunan Gear",
+      "shortDescription": "Famfunan gear masu daidaito don canja wurin ruwa mai kauri",
+      "fullDescription": "Babban famfunan gear masu daidaito waɗanda aka tsara don sarrafa ruwa mai kauri tare da auna madaidaici da kwarara mai dorewa a cikin aikace-aikace na masana'antu.",
+      "parentCategoryTitle": "Famfunan Inji & Kayayyakin Gyara",
+      "keyBenefits": [
+        "Kwarara Mai Dorewa",
+        "Babban Matsa lamba",
+        "Sarrafa Ruwa Mai Kauri",
+        "Aunawa Madaidaici"
+      ],
+      "specifications": [
+        "Ƙimar Kwarara: 0.1 zuwa 500 GPM",
+        "Matsa lamba: har zuwa 3000 PSI",
+        "Viscosity: har zuwa 1,000,000 SSU",
+        "Zafin Jiki: -40°C zuwa +400°C",
+        "Kayan Aiki: Ƙarfe Mai Laushi, Bakin Karfe",
+        "Nau'ikan Hatimi: Ɗaukar kaya, Inji"
+      ],
+      "applications": [
+        "Man Fetur Mai Laushi",
+        "Tsarin Hydraulic",
+        "Canja wurin Polymer",
+        "Man Fetur",
+        "Bitumen",
+        "Manna"
+      ],
+      "industries": [
+        "Mai & Gas",
+        "Sarrafa Sinadarai",
+        "Samar da Polymer",
+        "Sarrafa Abinci",
+        "Hydraulics",
+        "Tsarin Shafa"
+      ],
+      "features": [
+        "Matsakaicin Canja Wuri",
+        "Ikon Babban Matsa lamba",
+        "Sarrafa Ruwa Mai Kauri",
+        "Sarrafa Kwarara Madaidaici",
+        "Kwarara Mai Hanyoyi Biyu",
+        "Ƙirar Ƙarami",
+        "Ƙananan Buguwa",
+        "Sauƙi Kulawa"
+      ],
+      "certifications": [
+        "ISO 9001",
+        "CE Mai Alama",
+        "API 676",
+        "ATEX An Amince da shi",
+        "3A Tsabta",
+        "FDA Mai Yardarwa"
+      ],
+      "seo": {
+        "title": "Famfunan Gear - Famfunan Canja Wuri Mai Kyau na Masana'antu | Injiniyan Powerton",
+        "description": "Famfunan gear masu daidaito don canja wurin ruwa mai kauri da aikace-aikacen aunawa. Famfunan gear na waje da na ciki don amfanin masana'antu mai girma.",
+        "keywords": "famfunan gear, famfunan canja wuri mai kyau, famfunan ruwa mai kauri, famfunan hydraulic, famfunan shafawa, famfunan aunawa"
+      }
+    },
+    "pump-parts-spares": {
+      "title": "Sassan Famfo & Kayayyakin Gyara",
+      "shortDescription": "Sassan maye gurbin famfo na gaske da kayayyakin kulawa",
+      "fullDescription": "Cikakken kaya na sassan gyara famfo ciki har da impellers, hatimi, bearings, da gaskets don duk manyan masana'antun famfo.",
+      "parentCategoryTitle": "Famfunan Inji & Kayayyakin Gyara",
+      "keyBenefits": [
+        "Sassa na Gaske",
+        "Samuwa Mai Sauri",
+        "Tsawaita Rayuwar Famfo",
+        " rage Lokacin Tsayawa"
+      ],
+      "specifications": [
+        "Kayan Aiki: Daban-daban kamar yadda OEM ta ƙayyade",
+        "Dacewa: Goyan bayan samfuran da yawa",
+        "Inganci: OEM da kasuwannin bayan fage",
+        "Bayarwa: jigilar kaya mai sauri",
+        "Garanti: Mai ƙera ta goyi baya",
+        "Kaya: Kaya mai yawa"
+      ],
+      "applications": [
+        "Kula da Famfo",
+        "Gyaran Gaggawa",
+        "Gyare-gyare da aka Tsara",
+        "Haɓaka Ayyuka",
+        "Kula da Rigakafi",
+        "Kayan Gyara"
+      ],
+      "industries": [
+        "Masana'antu",
+        "Jiyya na Ruwa",
+        "Sarrafa Sinadarai",
+        "Samar da Wuta",
+        "Mai & Gas",
+        "Hakar Ma'adinai"
+      ],
+      "features": [
+        "Impellers",
+        "Hatimin Inji",
+        "Bearings",
+        "Shafts",
+        "Zobba masu Ɗaukar Kaya",
+        "Gaskets & O-Rings",
+        "Couplings",
+        "Sassan Mota"
+      ],
+      "certifications": [
+        "ISO 9001",
+        "OEM An Amince da shi",
+        "Inganci An Tabbatar da shi",
+        "Kayan Aiki An Tabbatar da shi",
+        "Girma An Tabbatar da shi",
+        "Ayyuka An Gwada"
+      ],
+      "seo": {
+        "title": "Sassan Famfo & Kayayyakin Gyara - Sassan Maye Gurbin Gaske | Injiniyan Powerton",
+        "description": "Sassan gyara famfo na gaske da kayayyakin gyara don duk manyan samfuran. Impellers, hatimin inji, bearings, da gaskets tare da bayarwa mai sauri.",
+        "keywords": "sassan famfo, kayayyakin gyara famfo, hatimin famfo, impellers, bearings famfo, kula da famfo, sassan maye gurbin"
+      }
+    },
+    "hand-tools": {
+      "title": "Kayan Aikin Hannu",
+      "shortDescription": "Kayan aikin hannu na ƙwararru don kulawa da gyaran masana'antu",
+      "fullDescription": "Cikakken kewayon kayan aikin hannu na ƙwararru ciki har da maƙallan, sukudireba, filaye, da kayan aiki na musamman don aikace-aikace na masana'antu.",
+      "parentCategoryTitle": "Kayan Aikin Aunawa na Masana'antu",
+      "keyBenefits": [
+        "Ingancin Ƙwararru",
+        "Gina Mai Dorewa",
+        "Tsarin Ergonomic",
+        "Garantin Rayuwa"
+      ],
+      "specifications": [
+        "Kayan Aiki: Karfe Mai Rufe Chrome Vanadium",
+        "Ƙarewa: Chrome Plated, Foda Mai Rufi",
+        "Ka'idoji: ANSI, DIN, ISO",
+        "Tauri: HRC 40-50",
+        "Juriya ga Lalata: Mai Girma",
+        "Garanti: Rayuwa"
+      ],
+      "applications": [
+        "Kulawa & Gyara",
+        "Aikin Haɗuwa",
+        "Shigarwa",
+        "Aikin Inji",
+        "Aikin Famfo",
+        "Aikin Lantarki"
+      ],
+      "industries": [
+        "Masana'antu",
+        "Kera Mota",
+        "Gina",
+        "Kulawa",
+        "HVAC",
+        "Aikin Famfo"
+      ],
+      "features": [
+        "Maƙallan & Soket",
+        "Sukudireba",
+        "Filaye",
+        "Gatura",
+        "Kayan Aikin Aunawa",
+        "Kayan Aikin Yankan",
+        "Kayan Aikin Musamman",
+        "Saitunan Kayan Aiki"
+      ],
+      "certifications": [
+        "ISO 9001",
+        "Ka'idojin ANSI",
+        "Ka'idojin DIN",
+        "CE Mai Alama",
+        "Inganci An Tabbatar da shi",
+        "Tsaro An Gwada"
+      ],
+      "seo": {
+        "title": "Kayan Aikin Hannu na Ƙwararru - Kayan Aikin Kula da Masana'antu | Injiniyan Powerton",
+        "description": "Kayan aikin hannu na ƙwararru don kulawa da gyaran masana'antu. Maƙallan, sukudireba, filaye, da kayan aiki na musamman tare da garantin rayuwa.",
+        "keywords": "kayan aikin hannu, kayan aikin masana'antu, maƙallan, sukudireba, filaye, kayan aikin kulawa, kayan aikin ƙwararru"
+      }
+    },
+    "power-tools": {
+      "title": "Kayan Aikin Wuta",
+      "shortDescription": "Kayan aikin wuta na masana'antu don yankan, huda, da niƙa",
+      "fullDescription": "Kayan aikin wuta na ƙwararru ciki har da maƙera, injinan niƙa, da saws waɗanda aka tsara don aikace-aikace masu nauyi na masana'antu.",
+      "parentCategoryTitle": "Kayan Aikin Aunawa na Masana'antu",
+      "keyBenefits": [
+        "Ayyukan Babban Ƙarfi",
+        "Gina Mai Nauyi",
+        "Siffofin Tsaro",
+        "Ƙimar Ƙwararru"
+      ],
+      "specifications": [
+        "Ƙarfi: 500W zuwa 2500W",
+        "Wutar Lantarki: 110V/220V",
+        "Gudu: Mai Sauyawa",
+        "Girman Chuck: Daban-daban",
+        "Tsaro: Siffofi da yawa",
+        "Zagayowar Aiki: Mai Ci Gaba"
+      ],
+      "applications": [
+        "Ƙirƙirar Ƙarfe",
+        "Aikin Katako",
+        "Gina",
+        "Kulawa",
+        "Shigarwa",
+        "Rushewa"
+      ],
+      "industries": [
+        "Masana'antu",
+        "Gina",
+        "Ƙirƙirar Ƙarfe",
+        "Kera Mota",
+        "Aikin Katako",
+        "Kulawa"
+      ],
+      "features": [
+        "Injinan Niƙa na Angulu",
+        "Maƙera & Direbobi",
+        "Maƙallan Ƙarfi",
+        "Saws na Madauwari",
+        "Saws Masu Jujjuyawa",
+        "Sanders & Polishers",
+        "Bindigogi Masu Zafi",
+        "Kayan Aikin Rotary"
+      ],
+      "certifications": [
+        "UL Lissafa",
+        "CE Mai Alama",
+        "ISO 9001",
+        "Tsaro An Tabbatar da shi",
+        "EMC Mai Yardarwa",
+        "RoHS Mai Yardarwa"
+      ],
+      "seo": {
+        "title": "Kayan Aikin Wuta na Masana'antu - Maƙera na Ƙwararru, Injinan Niƙa & Saws | Injiniyan Powerton",
+        "description": "Kayan aikin wuta na ƙwararru don aikace-aikace na masana'antu. Maƙera masu nauyi, injinan niƙa na angulu, da saws tare da siffofin tsaro da babban aiki.",
+        "keywords": "kayan aikin wuta, maƙeran masana'antu, injinan niƙa na angulu, saws na madauwari, kayan aikin wuta na ƙwararru, kayan aiki masu nauyi"
+      }
+    },
+    "cutting-tools": {
+      "title": "Kayan Aikin Yankan",
+      "shortDescription": "Kayan aikin yankan daidai don sarrafa ƙarfe da kayan aiki",
+      "fullDescription": "Kayan aikin yankan daidai ciki har da injinan ƙarshe, maƙera, famfo, da mutu don aikace-aikacen sarrafa injiniya da masana'antu.",
+      "parentCategoryTitle": "Kayan Aikin Aunawa na Masana'antu",
+      "keyBenefits": [
+        "Yankan Madaidaici",
+        "Tsawon Rayuwar Kayan Aiki",
+        "Ayyukan Gudu Mai Girma",
+        "Ƙare Mai Kyau"
+      ],
+      "specifications": [
+        "Kayan Aiki: HSS, Carbide, Cobalt",
+        "Rufi: TiN, TiCN, AlTiN",
+        "Girman: Metric da Imperial",
+        "Madaidaici: ±0.001\"",
+        "Ka'idoji: ANSI, DIN, ISO",
+        "Aikace-aikace: Kayan aiki daban-daban"
+      ],
+      "applications": [
+        "CNC Machining",
+        "Machining na Manual",
+        "Ayyukan Huda",
+        "Ayyukan Niƙa",
+        "Zaren Zane",
+        "Reaming"
+      ],
+      "industries": [
+        "Masana'antu",
+        "Kera Mota",
+        "Sararin Samaniya",
+        "Kayan Aiki & Mutu",
+        "Ƙirƙirar Ƙarfe",
+        "Shagunan Inji"
+      ],
+      "features": [
+        "Injinan Ƙarshe",
+        "Guntun Maƙera",
+        "Famfo & Mutu",
+        "Reamers",
+        "Kayan Aikin Hakowa",
+        "Countersinks",
+        "Kayan Aikin Zane",
+        "Kayan Aiki na Musamman"
+      ],
+      "certifications": [
+        "ISO 9001",
+        "Ka'idojin DIN",
+        "Ka'idojin ANSI",
+        "Inganci An Tabbatar da shi",
+        "Madaidaici An Tabbatar da shi",
+        "Kayan Aiki An Tabbatar da shi"
+      ],
+      "seo": {
+        "title": "Kayan Aikin Yankan Madaidaici - Injinan Ƙarshe, Maƙera & Famfo | Injiniyan Powerton",
+        "description": "Kayan aikin yankan daidai don sarrafa injiniya da masana'antu. HSS da carbide injinan ƙarshe, guntun maƙera, famfo, da mutu don aikace-aikace na masana'antu.",
+        "keywords": "kayan aikin yankan, injinan ƙarshe, guntun maƙera, famfo da mutu, kayan aikin machining, kayan aikin carbide, kayan aiki daidai"
+      }
+    },
+    "lifting-equipment": {
+      "title": "Kayan Aikin ɗagawa",
+      "shortDescription": "Kayan aikin ɗagawa da sarrafa kayan aiki na masana'antu",
+      "fullDescription": "Kayan aikin ɗagawa mai nauyi ciki har da hoists, cranes, slings, da kayan aikin rigging don amintaccen sarrafa kayan aiki a cikin mahalli na masana'antu.",
+      "parentCategoryTitle": "Kayan Aikin Aunawa na Masana'antu",
+      "keyBenefits": [
+        "Amintaccen Sarrafa Kaya",
+        "Gina Mai Nauyi",
+        "An Tabbatar da Amincewa",
+        "Aikace-aikace Masu Sauƙi"
+      ],
+      "specifications": [
+        "Ƙarfi: 0.5 ton zuwa 50 ton",
+        "Tsawon ɗagawa: har zuwa 100 ƙafa",
+        "Amintaccen Factor: 5:1 mafi ƙaranci",
+        "Kayan Aiki: Alloy Karfe",
+        "Ka'idoji: OSHA, ASME",
+        "Takardar Shaida: An gwada kaya"
+      ],
+      "applications": [
+        "Sarrafa Kayan Aiki",
+        "Shigar da Kayan Aiki",
+        "Ayyukan Kulawa",
+        "Gina",
+        "Ayyukan Warehouse",
+        "Masana'antu"
+      ],
+      "industries": [
+        "Masana'antu",
+        "Gina",
+        "Warehousing",
+        "Jigilar Kaya & Dabaru",
+        "Hakar Ma'adinai",
+        "Samar da Wuta"
+      ],
+      "features": [
+        "Chain Hoists",
+        "Wire Rope Hoists",
+        "Slings & Rigging",
+        "Lifting Chains",
+        "Shackles",
+        "Hooks & Blocks",
+        "Lever Hoists",
+        "Jib Cranes"
+      ],
+      "certifications": [
+        "OSHA Mai Yardarwa",
+        "ASME B30",
+        "CE Mai Alama",
+        "An Gwada Kaya",
+        "ISO 9001",
+        "Tsaro An Tabbatar da shi"
+      ],
+      "seo": {
+        "title": "Kayan Aikin ɗagawa na Masana'antu - Hoists, Cranes & Rigging | Injiniyan Powerton",
+        "description": "Kayan aikin ɗagawa mai nauyi don sarrafa kayan aiki na masana'antu. Chain hoists, wire rope hoists, slings, da kayan aikin rigging tare da takardar shaidar tsaro.",
+        "keywords": "kayan aikin ɗagawa, hoists, cranes, kayan aikin rigging, sarrafa kayan aiki, chain hoists, ɗagawa masana'antu"
+      }
+    },
+    "multimeters": {
+      "title": "Multimeters & Mita Mai ɗaurewa",
+      "shortDescription": "Multimeters na dijital da mita mai ɗaurewa don aunawa na lantarki",
+      "fullDescription": "Multimeters na dijital na ƙwararru da mita mai ɗaurewa tare da siffofi masu ci gaba don aunawa na lantarki daidai a cikin mahalli na masana'antu.",
+      "parentCategoryTitle": "Kayan Aikin Aunawa na Masana'antu",
+      "keyBenefits": [
+        "Babban Madaidaici",
+        "Ayyukan Aunawa Da yawa",
+        "Siffofin Tsaro",
+        "Sauƙi Amfani"
+      ],
+      "specifications": [
+        "Jeri na Wutar Lantarki: 0.1mV zuwa 1000V",
+        "Jeri na Yanzu: 0.01mA zuwa 1000A",
+        "Juriya: 0.1Ω zuwa 50MΩ",
+        "Madaidaici: ±0.5% zuwa ±2%",
+        "Nuni: 6000 ƙidayar dijital",
+        "Ƙimar Tsaro: CAT III/IV"
+      ],
+      "applications": [
+        "Gwajin Lantarki",
+        "Kulawa & Gyara",
+        "Tabbatar da Shigarwa",
+        "Binciken Matsala",
+        "Sarrafa Inganci",
+        "Sabis na Filin"
+      ],
+      "industries": [
+        "Ayyukan Lantarki",
+        "Masana'antu",
+        "Gudanar da Kayayyakin Aiki",
+        "HVAC",
+        "Kera Mota",
+        "Kayan Lantarki"
+      ],
+      "features": [
+        "Auto-Ranging",
+        "Gaskiya RMS",
+        "Rike Bayanai",
+        "Min/Max Recording",
+        "Nunin Haske",
+        "Ƙananan Alamar Baturi",
+        "Kariyar ɗaukar Kaya",
+        "Ci gaba da Ƙararrawa"
+      ],
+      "certifications": [
+        "CAT III/IV An Ƙidaya",
+        "IEC 61010",
+        "CE Mai Alama",
+        "UL Lissafa",
+        "RoHS Mai Yardarwa",
+        "ISO 9001"
+      ],
+      "seo": {
+        "title": "Multimeters na Dijital & Mita Mai ɗaurewa - Gwajin Lantarki na Ƙwararru | Injiniyan Powerton",
+        "description": "Multimeters na dijital na ƙwararru da mita mai ɗaurewa don gwajin lantarki da aunawa. Mita na Gaskiya RMS tare da ƙimar tsaro CAT III/IV.",
+        "keywords": "multimeters na dijital, mita mai ɗaurewa, gwajin lantarki, mita mai auna wutar lantarki, mita mai auna yanzu, mita mai auna juriya, aunawa na lantarki"
+      }
+    },
+    "power-quality-analyzers": {
+      "title": "Masu Nazarin Ingancin Wuta",
+      "shortDescription": "Kayan aikin ci gaba na sa ido da nazarin ingancin wuta",
+      "fullDescription": "Masu nazarin ingancin wutar lantarki na ƙwararru don cikakken sa ido kan tsarin lantarki, nazarin harmonics, da sarrafa makamashi.",
+      "parentCategoryTitle": "Kayan Aikin Aunawa na Masana'antu",
+      "keyBenefits": [
+        "Cikakken Nazarin Wuta",
+        "Gano Harmonics",
+        "Gudanar da Makamashi",
+        "Rubuta Bayanai"
+      ],
+      "specifications": [
+        "Jeri na Wutar Lantarki: 1V zuwa 1000V",
+        "Jeri na Yanzu: 1mA zuwa 6000A",
+        "Mitar: 40-70 Hz",
+        "Harmonics: har zuwa tsari na 50",
+        "Ƙwaƙwalwa: har zuwa 8GB",
+        "Ƙimar Samfuri: har zuwa 1MHz"
+      ],
+      "applications": [
+        "Ƙimar Ingancin Wuta",
+        "Binciken Makamashi",
+        "Nazarin Harmonics",
+        "Nazarin ɗaukar Kaya",
+        "Binciken Matsala",
+        "Gwajin Amincewa"
+      ],
+      "industries": [
+        "Samar da Wuta",
+        "Masana'antu",
+        "Cibiyoyin Bayanai",
+        "Gine-ginen Kasuwanci",
+        "Kiwon Lafiya",
+        "Ilimi"
+      ],
+      "features": [
+        "Sa ido na Ainihi",
+        "Kama Tsarin Onda",
+        "Nazarin Trend",
+        "Rubuta Abubuwan Da Suka Faru",
+        "Sa ido na Nesa",
+        "Samar da Rahoto",
+        "Nunin Allon Taɓawa",
+        "Haɗin Mara waya"
+      ],
+      "certifications": [
+        "IEC 61000-4-30",
+        "EN 50160",
+        "CAT IV An Ƙidaya",
+        "CE Mai Alama",
+        "UL Lissafa",
+        "ISO 17025"
+      ],
+      "seo": {
+        "title": "Masu Nazarin Ingancin Wuta - Kayan Aikin Sa ido na Wutar Lantarki | Injiniyan Powerton",
+        "description": "Masu nazarin ingancin wutar lantarki na ci gaba don cikakken sa ido kan tsarin lantarki da nazari. Gano harmonics, sarrafa makamashi, da rubuta bayanai.",
+        "keywords": "masu nazarin ingancin wuta, masu sa ido na wuta, masu nazarin harmonics, masu nazarin makamashi, kayan aikin gwajin lantarki, kayan aikin ingancin wuta"
+      }
+    },
+    "calibration-equipment": {
+      "title": "Kayan Aikin Daidaitawa & Gwaji",
+      "shortDescription": "Kwararrun kayan aikin daidaitawa da gwaji don aikace-aikacen masana'antu",
+      "fullDescription": "Cikakken kewayon kayan aikin daidaitawa da kayan aikin gwaji don kiyaye daidaito da bin doka a cikin tsarin auna masana'antu.",
+      "parentCategoryTitle": "Kayan Aikin Aunawa na Masana'antu",
+      "keyBenefits": [
+        "Daidaitaccen Daidaitawa",
+        "Gano Asali",
+        "Tabbatar da Biyayya",
+        "Tsawaita Rayuwar Kayan Aiki"
+      ],
+      "specifications": [
+        "Daidaito: ±0.01% zuwa ±0.1%",
+        "Matsayin Daidaitawa: Daban-daban",
+        "Zafin Jiki: -25°C zuwa +70°C",
+        "Fitowa: 4-20mA, 0-10V, mV, RTD, TC",
+        "Nuni: Babban ƙuduri na dijital",
+        "Adana Bayanai: USB, SD Card"
+      ],
+      "applications": [
+        "Daidaita Kayan Aiki",
+        "Tabbatar da Tsari",
+        "Tabbatar da Inganci",
+        "Shirye-shiryen Kulawa",
+        "Gwajin Biyayya",
+        "Daidaitawa a Filin"
+      ],
+      "industries": [
+        "Mai & Gas",
+        "Magunguna",
+        "Abinci & Abin Sha",
+        "Sarrafa Kemikal",
+        "Samar da Wuta",
+        "Sararin Samaniya"
+      ],
+      "features": [
+        "Ikon Aiki Da yawa",
+        "Babban Daidaito",
+        "Sadarwa ta HART",
+        "Gwajin atomatik",
+        "Rikodin Bayanai",
+        "Ana Amfani da Baturi",
+        "Ƙirar Mai Ƙarfi",
+        "Takaddun Daidaitawa"
+      ],
+      "certifications": [
+        "ISO 17025 An Amince da shi",
+        "NIST Traceable",
+        "CE Mai Alama",
+        "UL Lissafa",
+        "RoHS Mai Yardarwa",
+        "ISO 9001"
+      ],
+      "seo": {
+        "title": "Kayan Aikin Daidaitawa - Gwajin Masana'antu & Kayan Aikin Daidaitawa | Injiniyan Powerton",
+        "description": "Kwararrun kayan aikin daidaitawa da gwaji don aikace-aikacen masana'antu. NIST calibrators traceable don matsa lamba, zafin jiki, da kayan aikin lantarki.",
+        "keywords": "kayan aikin daidaitawa, kayan aikin gwaji, calibrators, daidaita kayan aiki, NIST traceable, daidaita tsari, daidaitawa a filin"
+      }
+    },
+    "bldc-cooler-exhaust-motor": {
+      "title": "BLDC Mai sanyaya & Motocin Shayarwa",
+      "shortDescription": "Babban ingancin motocin BLDC don na'urorin sanyaya da fanka masu shayarwa",
+      "fullDescription": "Motocin BLDC masu ci gaba da aka tsara don na'urorin sanyaya hamada da fanka masu shayarwa tare da inganci mafi girma, dorewa, da aiki.",
+      "parentCategoryTitle": "Kayayyakin BLDC",
+      "keyBenefits": [
+        "Mai Amfani da Makamashi",
+        "Ƙananan Amooti",
+        "Babban Dorewa",
+        "Mai Jure Yanayi"
+      ],
+      "specifications": [
+        "Ƙarfi: 35W zuwa 85W",
+        "Wutar Lantarki: 220V AC",
+        "Gudu: 1400-1800 RPM",
+        "Yawan Iska: Babban CFM",
+        "Kariya: IP44",
+        "Inganci: >85%"
+      ],
+      "applications": [
+        "Na'urorin sanyaya Hamada",
+        "Fanka Masu Shayarwa",
+        "Tsarin Samun Iska",
+        "Sanyaya Masana'antu",
+        "Shayar da Gidan Abinci",
+        "Samun Iskar Banɗaki"
+      ],
+      "industries": [
+        "HVAC",
+        "Zama",
+        "Gine-ginen Kasuwanci",
+        "Samun Iskar Masana'antu",
+        "Sabis na Abinci",
+        "Masana'antu"
+      ],
+      "features": [
+        "Fasahar BLDC",
+        "Babban Inganci",
+        "Ƙananan Kulawa",
+        "Mai Jure Tsatsa",
+        "Kariyar Zafi",
+        "Tsawon Rayuwar Sabis",
+        "Aiki Mai Shiru",
+        "Mai Jure Yanayi"
+      ],
+      "certifications": [
+        "BEE Mai Takarda",
+        "Alamar ISI",
+        "CE Mai Amincewa",
+        "IP44 Rated",
+        "RoHS Mai Yardarwa",
+        "ISO 9001"
+      ],
+      "seo": {
+        "title": "BLDC Mai sanyaya & Motocin Shayarwa - Babban Ingancin Motocin BLDC | Injiniyan Powerton",
+        "description": "Babban ingancin motocin BLDC don na'urorin sanyaya hamada da fanka masu shayarwa. Motocin DC marasa goge goge masu ceton makamashi tare da tsawon rayuwar sabis.",
+        "keywords": "BLDC motocin sanyaya, BLDC motocin shayarwa, motocin DC marasa goge goge, motocin ceton makamashi, motocin sanyaya, motocin fanka masu shayarwa"
+      }
+    },
+    "bldc-ceiling-fan": {
+      "title": "Fanka Rufi na BLDC",
+      "shortDescription": "Fanka rufi na DC marasa goge goge masu amfani da makamashi",
+      "fullDescription": "Fanka rufi na BLDC masu inganci tare da fasahar ceton makamashi, sarrafa wayo, da aiki mafi girma don aikace-aikacen zama da kasuwanci.",
+      "parentCategoryTitle": "Kayayyakin BLDC",
+      "keyBenefits": [
+        "Har zuwa 65% Tanadin Makamashi",
+        "Aiki Mai Shiru",
+        "Ramut",
+        "Tsawon Rayuwar Sabis"
+      ],
+      "specifications": [
+        "Ƙarfin Mota: 28W zuwa 52W",
+        "Gudu: 1200-1600 RPM",
+        "Yawan Iska: 200-280 CMM",
+        "Wutar Lantarki: 220V AC",
+        "Sweep: 1200mm zuwa 1600mm",
+        "Ƙimar Makamashi: 5 Star BEE"
+      ],
+      "applications": [
+        "Dakunan Zama",
+        "Wuraren Ofis",
+        "Gine-ginen Kasuwanci",
+        "Baƙi",
+        "Cibiyoyin Ilimi",
+        "Cibiyoyin Kiwon Lafiya"
+      ],
+      "industries": [
+        "Ginin Zama",
+        "Kasuwancin Gidaje",
+        "Baƙi",
+        "Kiwon Lafiya",
+        "Ilimi",
+        "Siyayya"
+      ],
+      "features": [
+        "Fasahar Mota ta BLDC",
+        "Ramut",
+        "Gudun Sauyawa",
+        "Yanayin Juyawa",
+        "Aikin Lokaci",
+        "Alamun LED",
+        "Ruwan Aerodynamic",
+        "Aiki Mai Shiru"
+      ],
+      "certifications": [
+        "BEE 5 Star Rated",
+        "Alamar ISI",
+        "CE Mai Amincewa",
+        "RoHS Mai Yardarwa",
+        "Energy Star",
+        "ISO 9001"
+      ],
+      "seo": {
+        "title": "Fanka Rufi na BLDC - Fanka DC marasa goge goge masu Amfani da Makamashi | Injiniyan Powerton",
+        "description": "Fanka rufi na BLDC masu inganci tare da ƙimar BEE mai taurari 5. Ramut mai wayo, aiki mai shiru, da har zuwa 65% tanadin makamashi.",
+        "keywords": "Fanka rufi na BLDC, fanka masu amfani da makamashi, fanka DC marasa goge goge, fanka rufi masu wayo, fanka rufi masu taurari 5, fanka masu ramut"
+      }
+    },
+    "bldc-submersible-surface-pump": {
+      "title": "BLDC Famfunan da ke Ruwa & na Sama",
+      "shortDescription": "Famfunan ruwa na BLDC masu jituwa da hasken rana don ban ruwa da samar da ruwa",
+      "fullDescription": "Ci-gaban famfunan da ke ruwa da na sama na BLDC tare da jituwa da hasken rana, inganci mai girma, da aiki mai aminci don aikace-aikacen noma da na gida.",
+      "parentCategoryTitle": "Kayayyakin BLDC",
+      "keyBenefits": [
+        "Mai Jituwa da Hasken Rana",
+        "Mai Amfani da Makamashi",
+        "Ƙananan Kulawa",
+        "Babban Amincewa"
+      ],
+      "specifications": [
+        "Ƙarfi: 0.5HP zuwa 5HP",
+        "Kai: 10m zuwa 150m",
+        "Yawan Gudun Ruwa: 10 zuwa 150 LPM",
+        "Wutar Lantarki: 48V/110V/220V DC",
+        "Hasken Rana: MPPT Mai Jituwa",
+        "Inganci: >85%"
+      ],
+      "applications": [
+        "Ban Ruwa na Noma",
+        "Samar da Ruwan Gida",
+        "Fitar da Ruwa ta Hasken Rana",
+        "Shayar da Dabbobi",
+        "Ban Ruwa na Lambu",
+        "Canja wurin Ruwa"
+      ],
+      "industries": [
+        "Noma",
+        "Makamashin Hasken Rana",
+        "Zama",
+        "Ci gaban Karkara",
+        "Ban Ruwa",
+        "Gudanar da Ruwa"
+      ],
+      "features": [
+        "Mota ta BLDC",
+        "Mai Jituwa da Hasken Rana",
+        "Fasahar MPPT",
+        "Jikin Bakin Karfe",
+        "Kariyar Bushewar Gudu",
+        "Kariyar Zafi",
+        "Babban Inganci",
+        "Ƙananan Kulawa"
+      ],
+      "certifications": [
+        "BEE Mai Takarda",
+        "Alamar ISI",
+        "CE Mai Amincewa",
+        "Hasken Rana Mai Takarda",
+        "IP68 Rated",
+        "ISO 9001"
+      ],
+      "seo": {
+        "title": "Famfunan Ruwa na BLDC - Famfunan da ke Ruwa & na Sama ta Hasken Rana | Injiniyan Powerton",
+        "description": "Famfunan ruwa na BLDC masu jituwa da hasken rana don ban ruwa da amfanin gida. Famfunan da ke ruwa da na sama masu ceton makamashi tare da fasahar MPPT.",
+        "keywords": "Famfunan ruwa na BLDC, famfunan ruwa na hasken rana, famfunan da ke ruwa na BLDC, famfunan hasken rana, famfunan DC marasa goge goge, famfunan ban ruwa"
+      }
+    },
+    "bldc-table-fan-wall-fan-motor": {
+      "title": "BLDC Motocin Fanka na Tebur & Bango",
+      "shortDescription": "Ƙananan motocin BLDC don fanka na tebur da bango",
+      "fullDescription": "Motocin BLDC masu amfani da makamashi da aka tsara don fanka na tebur da bango tare da aiki mafi girma, ƙananan amo, da tsawaita rayuwar sabis.",
+      "parentCategoryTitle": "Kayayyakin BLDC",
+      "keyBenefits": [
+        "Ƙirar Ƙarami",
+        "Tanadin Makamashi",
+        "Aiki Mai Shiru",
+        "Tsawon Rai"
+      ],
+      "specifications": [
+        "Ƙarfi: 25W zuwa 45W",
+        "Gudu: 1200-1800 RPM",
+        "Wutar Lantarki: 220V AC",
+        "Yawan Iska: 60-90 CMM",
+        "Amooti: <40dB",
+        "Inganci: >80%"
+      ],
+      "applications": [
+        "Fanka na Tebur",
+        "Fanka na Bango",
+        "Fanka na Tushe",
+        "Sanyaya Kai",
+        "Samun Iskar Ofis",
+        "Sanyaya Ɗaki"
+      ],
+      "industries": [
+        "Kayan Lantarki na Mabukaci",
+        "Zama",
+        "Kasuwanci",
+        "Baƙi",
+        "Kayan Aikin Ofis",
+        "Siyayya"
+      ],
+      "features": [
+        "Fasahar BLDC",
+        "Babban Inganci",
+        "Aiki Mai Shiru",
+        "Gudun Sauyawa",
+        "Girman Ƙarami",
+        "Ƙananan Zafi",
+        "Tsawon Rayuwar Sabis",
+        "Energy Star Rated"
+      ],
+      "certifications": [
+        "BEE 5 Star",
+        "Alamar ISI",
+        "CE Mai Amincewa",
+        "RoHS Mai Yardarwa",
+        "Energy Star",
+        "ISO 9001"
+      ],
+      "seo": {
+        "title": "BLDC Motocin Fanka na Tebur & Bango - Motocin Fanka Masu Amfani da Makamashi | Injiniyan Powerton",
+        "description": "Ƙananan motocin BLDC don fanka na tebur da bango. Motocin DC marasa goge goge masu ceton makamashi tare da aiki mai shiru da tsawon rayuwar sabis.",
+        "keywords": "BLDC motocin fanka, motocin fanka na tebur, motocin fanka na bango, motocin amfani da makamashi, motocin DC marasa goge goge, motocin fanka"
+      }
+    }
+  },
   "surgeProtectors": {
     "acPower": {
       "name": "Masu Kariyar Wutar AC",
