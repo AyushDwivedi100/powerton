@@ -135,7 +135,9 @@
     "subCategoryNotFound": "Ba a Sami Ƙaramin Rukunin ba",
     "subCategoryNotFoundMessage": "Ƙaramin rukunin samfurin da kake nema ba ya nan.",
     "serviceNotFound": "Ba a Sami Sabis ba",
-    "serviceNotFoundMessage": "Sabis ɗin da kake nema ba ya nan."
+    "serviceNotFoundMessage": "Sabis ɗin da kake nema ba ya nan.",
+    "serviceNotFoundTitle": "Ba a Sami Sabis ba - Ayyukan Powerton Engineering",
+    "serviceNotFoundDescription": "Ba a iya samun shafin sabis ɗin da kake nema."
   },
   "loading": "Ana lodawa...",
   "error": "Wani abu ya yi kuskure",
@@ -199,7 +201,13 @@
     "isolationAmplifiers": "Masu haɓaka keɓewa",
     "signalConverters": "Masu juyar da sigina",
     "measuringTransducers": "Masu juyar da auna",
-    "noiseFilters": "Masu tacewa amo"
+    "noiseFilters": "Masu tacewa amo",
+    "stats": {
+      "experienceYears": "Shekaru 15 Shekaru",
+      "projectsCompleted": "Ayyukan da aka kammala",
+      "happyClients": "Abokan ciniki masu gamsuwa",
+      "support": "Tallafi"
+    }
   },
   "productSections": {
     "keyFeatures": "Muhimman Siffofi:",
@@ -272,6 +280,9 @@
     }
   },
   "seo": {
+    "servicePageTitle": "{{service}} - Ƙwararrun Ayyukan Injiniya | Powerton Engineering",
+    "servicePageDescription": "{{description}}. Ƙwararrun ayyukan {{service}} don sarrafa masana'antu ta atomatik da ayyukan injiniyan lantarki a duk faɗin Indiya.",
+    "servicePageKeywords": "{{service}}, ayyukan masana'antu, ayyukan injiniya, ayyukan sarrafa atomatik, ayyukan lantarki, Indiya",
     "powerton": {
       "name": "Powerton Engineering Pvt. Ltd.",
       "description": "Babban kamfanin sarrafa masana'antu da injiniyan lantarki da ke hidima ga abokan ciniki a duniya. Kwarewa a sarrafa tashar wutar lantarki, shigarwar hasken rana, da tsarin sarrafa masana'antu.",
@@ -326,7 +337,7 @@
     "availability": "Samun",
     "coverage": "Kasuwanci",
     "free": "Kasuwanci",
-    "products" : "Kayayyaki"
+    "products": "Kayayyaki"
   },
   "placeholders": {
     "selectProjectType": "Zaɓi nau'in aikin",

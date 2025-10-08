@@ -135,7 +135,9 @@
     "subCategoryNotFound": "الفئة الفرعية غير موجودة",
     "subCategoryNotFoundMessage": "الفئة الفرعية للمنتج التي تبحث عنها غير موجودة.",
     "serviceNotFound": "الخدمة غير موجودة",
-    "serviceNotFoundMessage": "الخدمة التي تبحث عنها غير موجودة."
+    "serviceNotFoundMessage": "الخدمة التي تبحث عنها غير موجودة.",
+    "serviceNotFoundTitle": "الخدمة غير موجودة - خدمات Powerton Engineering",
+    "serviceNotFoundDescription": "تعذر العثور على صفحة الخدمة المطلوبة."
   },
   "loading": "جار التحميل...",
   "error": "حدث خطأ",
@@ -199,7 +201,13 @@
     "isolationAmplifiers": "مكبرات العزل",
     "signalConverters": "محولات الإشارة",
     "measuringTransducers": "محولات القياس",
-    "noiseFilters": "مرشحات الضوضاء"
+    "noiseFilters": "مرشحات الضوضاء",
+    "stats": {
+      "experienceYears": "15+ سنة من الخبرة",
+      "projectsCompleted": "1200+ مشروع مكتمل",
+      "happyClients": "1000+ عميل راض",
+      "support": "دعم 24/7"
+    }
   },
   "productSections": {
     "keyFeatures": "الميزات الرئيسية:",
@@ -272,6 +280,9 @@
     }
   },
   "seo": {
+    "servicePageTitle": "{{service}} - خدمات هندسية احترافية | Powerton Engineering",
+    "servicePageDescription": "{{description}}. خدمات {{service}} الخبراء لمشاريع الأتمتة الصناعية والهندسة الكهربائية في جميع أنحاء الهند.",
+    "servicePageKeywords": "{{service}}، خدمات صناعية، خدمات هندسية، خدمات الأتمتة، خدمات كهربائية، الهند",
     "powerton": {
       "name": "Powerton Engineering Pvt. Ltd.",
       "description": "شركة رائدة في مجال التحكم الصناعي والهندسة الكهربائية تخدم العملاء في جميع أنحاء العالم. متخصصون في التحكم في محطات الطاقة وتركيب الطاقة الشمسية وأنظمة التحكم الصناعية.",

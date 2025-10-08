@@ -135,7 +135,9 @@
     "subCategoryNotFound": "Sous-catégorie non trouvée",
     "subCategoryNotFoundMessage": "La sous-catégorie de produit que vous recherchez n'existe pas.",
     "serviceNotFound": "Service non trouvé",
-    "serviceNotFoundMessage": "Le service que vous recherchez n'existe pas."
+    "serviceNotFoundMessage": "Le service que vous recherchez n'existe pas.",
+    "serviceNotFoundTitle": "Service non trouvé - Services Powerton Engineering",
+    "serviceNotFoundDescription": "Impossible de trouver la page de service demandée."
   },
   "loading": "Chargement...",
   "error": "Quelque chose s'est mal passé",
@@ -199,7 +201,13 @@
     "isolationAmplifiers": "Amplificateurs d'isolement",
     "signalConverters": "Convertisseurs de signaux",
     "measuringTransducers": "Transducteurs de mesure",
-    "noiseFilters": "Filtres de bruit"
+    "noiseFilters": "Filtres de bruit",
+    "stats": {
+      "experienceYears": "Plus de 15 ans d'expérience",
+      "projectsCompleted": "Plus de 1200 projets réalisés",
+      "happyClients": "Plus de 1000 clients satisfaits",
+      "support": "Support disponible 24h/24 et 7j/7"
+    }
   },
   "productSections": {
     "keyFeatures": "Principales caractéristiques :",
@@ -272,6 +280,9 @@
     }
   },
   "seo": {
+    "servicePageTitle": "{{service}} - Services d'ingénierie professionnels | Powerton Engineering",
+    "servicePageDescription": "{{description}}. Services experts en {{service}} pour les projets d'automatisation industrielle et d'ingénierie électrique à travers l'Inde.",
+    "servicePageKeywords": "{{service}}, services industriels, services d'ingénierie, services d'automatisation, services électriques, Inde",
     "powerton": {
       "name": "Powerton Engineering Pvt. Ltd.",
       "description": "Entreprise leader d'automatisation industrielle et d'ingénierie électrique au service de clients du monde entier. Expertise dans l'automatisation des centrales électriques, les installations solaires et les systèmes d'automatisation industrielle.",
@@ -326,7 +337,7 @@
     "availability": "Disponibilité",
     "coverage": "Couverture",
     "free": "Gratuit",
-    "products" : "produits"
+    "products": "produits"
   },
   "placeholders": {
     "selectProjectType": "Sélectionner le type de projet",

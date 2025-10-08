@@ -135,7 +135,9 @@
     "subCategoryNotFound": "Подкатегория не найдена",
     "subCategoryNotFoundMessage": "Подкатегория товара, которую вы ищете, не существует.",
     "serviceNotFound": "Услуга не найдена",
-    "serviceNotFoundMessage": "Услуга, которую вы ищете, не существует."
+    "serviceNotFoundMessage": "Услуга, которую вы ищете, не существует.",
+    "serviceNotFoundTitle": "Услуга не найдена - Услуги Powerton Engineering",
+    "serviceNotFoundDescription": "Страница услуги, которую вы ищете, не существует."
   },
   "loading": "Загрузка...",
   "error": "Что-то пошло не так",
@@ -199,7 +201,13 @@
     "isolationAmplifiers": "Изолирующие усилители",
     "signalConverters": "Преобразователи сигналов",
     "measuringTransducers": "Измерительные преобразователи",
-    "noiseFilters": "Фильтры шумов"
+    "noiseFilters": "Фильтры шумов",
+    "stats": {
+      "experienceYears": "Более 15 лет опыта",
+      "projectsCompleted": "Более 1200 завершенных проектов",
+      "happyClients": "Более 1000 довольных клиентов",
+      "support": "Поддержка 24/7"
+    }
   },
   "productSections": {
     "keyFeatures": "Основные характеристики:",
@@ -272,6 +280,9 @@
     }
   },
   "seo": {
+    "servicePageTitle": "{{service}} - Профессиональные инженерные услуги | Powerton Engineering",
+    "servicePageDescription": "{{description}}. Экспертные услуги {{service}} для проектов промышленной автоматизации и электротехники по всей Индии.",
+    "servicePageKeywords": "{{service}}, промышленные услуги, инженерные услуги, услуги автоматизации, электротехнические услуги, Индия",
     "powerton": {
       "name": "Powerton Engineering Pvt. Ltd.",
       "description": "Ведущая компания в области автоматизации промышленности и электротехники, обслуживающая клиентов по всему миру. Опыт в автоматизации электростанций, установках солнечной энергии и системах управления производством.",

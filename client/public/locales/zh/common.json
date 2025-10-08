@@ -135,7 +135,9 @@
     "subCategoryNotFound": "找不到子类别",
     "subCategoryNotFoundMessage": "您要查找的产品子类别不存在。",
     "serviceNotFound": "找不到服务",
-    "serviceNotFoundMessage": "您要查找的服务不存在。"
+    "serviceNotFoundMessage": "您要查找的服务不存在。",
+    "serviceNotFoundTitle": "找不到服务 - Powerton工程公司服务",
+    "serviceNotFoundDescription": "找不到请求的服务页面。"
   },
   "loading": "加载中...",
   "error": "发生错误",
@@ -199,7 +201,13 @@
     "isolationAmplifiers": "隔离放大器",
     "signalConverters": "信号转换器",
     "measuringTransducers": "测量传感器",
-    "noiseFilters": "噪声滤波器"
+    "noiseFilters": "噪声滤波器",
+    "stats": {
+      "experienceYears": "15年以上经验",
+      "projectsCompleted": "已完成1200多个项目",
+      "happyClients": "超过1000个满意的客户",
+      "support": "提供24/7全天候支持"
+    }
   },
   "productSections": {
     "keyFeatures": "主要特点：",
@@ -272,6 +280,9 @@
     }
   },
   "seo": {
+    "servicePageTitle": "{{service}} - 专业工程服务 | Powerton Engineering",
+    "servicePageDescription": "{{description}}。为印度各地的工业自动化和电气工程项目提供专业的{{service}}服务。",
+    "servicePageKeywords": "{{service}}, 工业服务, 工程服务, 自动化服务, 电气服务, 印度",
     "powerton": {
       "name": "Powerton Engineering Pvt. Ltd.",
       "description": "领先的工业自动化和电气工程公司，服务于全球客户。在电厂自动化、太阳能装置和工业控制系统方面拥有专业知识。",
@@ -326,7 +337,7 @@
     "availability": "可用性",
     "coverage": "覆盖范围",
     "free": "免费",
-    "products" : "产品"
+    "products": "产品"
   },
   "placeholders": {
     "selectProjectType": "选择项目类型",

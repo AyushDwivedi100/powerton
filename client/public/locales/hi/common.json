@@ -135,7 +135,9 @@
     "subCategoryNotFound": "उप-श्रेणी नहीं मिली",
     "subCategoryNotFoundMessage": "आपके द्वारा खोजी जा रही उत्पाद उप-श्रेणी मौजूद नहीं है।",
     "serviceNotFound": "सेवा नहीं मिली",
-    "serviceNotFoundMessage": "आपके द्वारा खोजी जा रही सेवा मौजूद नहीं है।"
+    "serviceNotFoundMessage": "आपके द्वारा खोजी जा रही सेवा मौजूद नहीं है।",
+    "serviceNotFoundTitle": "सेवा नहीं मिली - पावरटन इंजीनियरिंग सेवाएँ",
+    "serviceNotFoundDescription": "अनुरोधित सेवा पृष्ठ नहीं मिल सका।"
   },
   "loading": "लोड हो रहा है...",
   "error": "कुछ गलत हो गया",
@@ -199,7 +201,13 @@
     "isolationAmplifiers": "अलगाव एम्पलीफायर",
     "signalConverters": "सिग्नल कन्वर्टर्स",
     "measuringTransducers": "मापने वाले ट्रांसड्यूसर",
-    "noiseFilters": "शोर फिल्टर"
+    "noiseFilters": "शोर फिल्टर",
+    "stats": {
+      "experienceYears": "15+ वर्षों का अनुभव",
+      "projectsCompleted": "1200+ परियोजनाएं पूर्ण हुईं",
+      "happyClients": "1000+ संतुष्ट ग्राहक",
+      "support": "24/7 त्वरित सहायता"
+    }
   },
   "productSections": {
     "keyFeatures": "मुख्य विशेषताएं:",
@@ -272,6 +280,9 @@
     }
   },
   "seo": {
+    "servicePageTitle": "{{service}} - व्यावसायिक इंजीनियरिंग सेवाएँ | पावरटन इंजीनियरिंग",
+    "servicePageDescription": "{{description}}. भारत भर में औद्योगिक स्वचालन और विद्युत इंजीनियरिंग परियोजनाओं के लिए विशेषज्ञ {{service}} सेवाएँ।",
+    "servicePageKeywords": "{{service}}, औद्योगिक सेवाएँ, इंजीनियरिंग सेवाएँ, स्वचालन सेवाएँ, विद्युत सेवाएँ, भारत",
     "powerton": {
       "name": "Powerton Engineering Pvt. Ltd.",
       "description": "वैश्विक ग्राहकों को सेवा देने वाली एक प्रमुख औद्योगिक स्वचालन और विद्युत इंजीनियरिंग कंपनी। बिजली संयंत्र स्वचालन, सौर ऊर्जा स्थापना और औद्योगिक स्वचालन प्रणालियों में विशेषज्ञता।",
@@ -326,7 +337,7 @@
     "availability": "उपलब्धता",
     "coverage": "कवरेज",
     "free": "मुफ्त",
-    "products" : "उत्पाद"
+    "products": "उत्पाद"
   },
   "placeholders": {
     "selectProjectType": "परियोजना का प्रकार चुनें",

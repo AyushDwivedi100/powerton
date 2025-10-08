@@ -135,7 +135,9 @@
     "subCategoryNotFound": "Kategoria Ndogo Haikupatikana",
     "subCategoryNotFoundMessage": "Kategoria ndogo ya bidhaa unayotafuta haipo.",
     "serviceNotFound": "Huduma Haikupatikana",
-    "serviceNotFoundMessage": "Huduma unayotafuta haipo."
+    "serviceNotFoundMessage": "Huduma unayotafuta haipo.",
+    "serviceNotFoundTitle": "Huduma Haikupatikana - Huduma za Powerton Engineering",
+    "serviceNotFoundDescription": "Imeshindwa kupata ukurasa wa huduma unaotaka."
   },
   "loading": "Inapakia...",
   "error": "Kuna kitu kilienda vibaya",
@@ -199,7 +201,13 @@
     "isolationAmplifiers": "Vikuza sauti vya kutenga",
     "signalConverters": "Vigeuzi vya mawimbi",
     "measuringTransducers": "Vigeuzi vya kupimia",
-    "noiseFilters": "Vichungi vya kelele"
+    "noiseFilters": "Vichungi vya kelele",
+    "stats": {
+      "experienceYears": "Miaka 15+ ya uzoefu",
+      "projectsCompleted": "Miradi 1200+ iliyokamilishwa",
+      "happyClients": "Wateja 1000+ waliofurahia",
+      "support": "Msaada wa saa 24/7"
+    }
   },
   "productSections": {
     "keyFeatures": "Sifa Muhimu:",
@@ -272,6 +280,9 @@
     }
   },
   "seo": {
+    "servicePageTitle": "{{service}} - Huduma za Kitaalamu za Uhandisi | Uhandisi wa Powerton",
+    "servicePageDescription": "{{description}}. Huduma za kitaalamu za {{service}} kwa ajili ya uendeshaji wa viwanda na miradi ya uhandisi wa umeme kote India.",
+    "servicePageKeywords": "{{service}}, huduma za viwandani, huduma za uhandisi, huduma za uendeshaji, huduma za umeme, India",
     "powerton": {
       "name": "Powerton Engineering Pvt. Ltd.",
       "description": "Kampuni inayoongoza ya udhibiti wa viwanda na uhandisi wa umeme inayohudumia wateja ulimwenguni. Mtaalamu katika udhibiti wa mitambo ya umeme, mitambo ya sola, na mifumo ya udhibiti wa viwanda.",

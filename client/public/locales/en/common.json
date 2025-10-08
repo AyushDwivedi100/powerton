@@ -203,9 +203,9 @@
     "measuringTransducers": "Measuring Transducers",
     "noiseFilters": "Noise Filters",
     "stats": {
-      "experienceYears": "15 plus years of experience",
-      "projectsCompleted": "1200 plus projects completed",
-      "happyClients": "450 plus happy clients",
+      "experienceYears": "15+ years of experience",
+      "projectsCompleted": "1200+ projects completed",
+      "happyClients": "1000+ happy clients",
       "support": "24/7 support available"
     }
   },
@@ -252,11 +252,6 @@
     "keyBenefits": "Key Benefits",
     "servicesOverview": "Services Overview"
   },
-  "seo": {
-    "servicePageTitle": "{{service}} - Professional Engineering Services | Powerton Engineering",
-    "servicePageDescription": "{{description}}. Expert {{service}} services for industrial automation and electrical engineering projects across India.",
-    "servicePageKeywords": "{{service}}, industrial services, engineering services, automation services, electrical services, India"
-  },
   "company": {
     "name": "Powerton Engineering Pvt. Ltd.",
     "tagline": "Your trusted partner in industrial automation and electrical engineering",
@@ -285,6 +280,9 @@
     }
   },
   "seo": {
+    "servicePageTitle": "{{service}} - Professional Engineering Services | Powerton Engineering",
+    "servicePageDescription": "{{description}}. Expert {{service}} services for industrial automation and electrical engineering projects across India.",
+    "servicePageKeywords": "{{service}}, industrial services, engineering services, automation services, electrical services, India",
     "powerton": {
       "name": "Powerton Engineering Pvt. Ltd.",
       "description": "Leading industrial automation and electrical engineering company serving clients globally. Expertise in power plant automation, solar installations, and industrial control systems.",

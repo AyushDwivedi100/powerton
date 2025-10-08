@@ -135,7 +135,9 @@
     "subCategoryNotFound": "Subcategoría no encontrada",
     "subCategoryNotFoundMessage": "La subcategoría de producto que busca no existe.",
     "serviceNotFound": "Servicio no encontrado",
-    "serviceNotFoundMessage": "El servicio que busca no existe."
+    "serviceNotFoundMessage": "El servicio que busca no existe.",
+    "serviceNotFoundTitle": "Servicio no encontrado - Servicios de Powerton Engineering",
+    "serviceNotFoundDescription": "No se pudo encontrar la página de servicio solicitada."
   },
   "loading": "Cargando...",
   "error": "Algo salió mal",
@@ -199,7 +201,13 @@
     "isolationAmplifiers": "Amplificadores de aislamiento",
     "signalConverters": "Convertidores de señal",
     "measuringTransducers": "Transductores de medición",
-    "noiseFilters": "Filtros de ruido"
+    "noiseFilters": "Filtros de ruido",
+    "stats": {
+      "experienceYears": "Más de 15 años de experiencia",
+      "projectsCompleted": "Más de 1200 proyectos completados",
+      "happyClients": "Más de 1000 clientes satisfechos",
+      "support": "Soporte 24/7 disponible"
+    }
   },
   "productSections": {
     "keyFeatures": "Características Clave:",
@@ -272,6 +280,9 @@
     }
   },
   "seo": {
+    "servicePageTitle": "{{service}} - Servicios Profesionales de Ingeniería | Powerton Engineering",
+    "servicePageDescription": "{{description}}. Servicios expertos de {{service}} para proyectos de automatización industrial e ingeniería eléctrica en toda la India.",
+    "servicePageKeywords": "{{service}}, servicios industriales, servicios de ingeniería, servicios de automatización, servicios eléctricos, India",
     "powerton": {
       "name": "Powerton Engineering Pvt. Ltd.",
       "description": "Empresa líder en automatización industrial e ingeniería eléctrica que presta servicios a clientes en todo el mundo. Experiencia en automatización de centrales eléctricas, instalaciones solares y sistemas de control industrial.",
@@ -326,7 +337,7 @@
     "availability": "Disponibilidad",
     "coverage": "Cobertura",
     "free": "Gratis",
-    "products" : "Productos"
+    "products": "Productos"
   },
   "placeholders": {
     "selectProjectType": "Seleccionar tipo de proyecto",
