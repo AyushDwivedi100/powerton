@@ -102,6 +102,28 @@ import technicalSupportHero from '@assets/generated_images/Technical_support_ser
 import solarEpcHero from '@assets/generated_images/Solar_EPC_service_background_dd79a3fb.png';
 import quotePageHero from '@assets/generated_images/Industrial_engineering_office_workspace_37d65e8d.png';
 
+// Stock product images for specific categories
+import multimeterStockImage from '@assets/stock_images/industrial_multimete_83e7a707.jpg';
+import plcStockImage from '@assets/stock_images/industrial_plc_progr_f3510341.jpg';
+import hmiPanelStockImage from '@assets/stock_images/industrial_hmi_touch_573fbbd0.jpg';
+import scadaSystemStockImage from '@assets/stock_images/scada_system_control_e73fc3b5.jpg';
+import dcsSystemStockImage from '@assets/stock_images/industrial_dcs_distr_e6bbfbfb.jpg';
+import processAnalyzerStockImage from '@assets/stock_images/industrial_process_a_b3990bb9.jpg';
+import centrifugalPumpStockImage from '@assets/stock_images/industrial_centrifug_6bab8066.jpg';
+import vfdDriveStockImage from '@assets/stock_images/industrial_vfd_varia_c43fb89d.jpg';
+import onOffValveStockImage from '@assets/stock_images/industrial_on-off_va_63e8779e.jpg';
+import solenoidValveStockImage from '@assets/stock_images/industrial_solenoid__247bb489.jpg';
+import mcbStockImage from '@assets/stock_images/industrial_mcb_minia_b0e61b5a.jpg';
+import processCalibratorStockImage from '@assets/stock_images/industrial_process_c_cef24517.jpg';
+import heatingElementStockImage from '@assets/stock_images/industrial_heating_e_4b30758b.jpg';
+import surgeProtectorStockImage from '@assets/stock_images/industrial_surge_pro_21769e42.jpg';
+import solarPanelStockImage from '@assets/stock_images/solar_panel_photovol_33e5830e.jpg';
+import solarInverterStockImage from '@assets/stock_images/solar_inverter_photo_cdbf4873.jpg';
+
+// Specific product images from manufacturers
+import abbSwirlMeterImage from '@assets/downloaded_images/abb_swirl_meter_fsv450.jpg';
+import endressHauserProwirl200Image from '@assets/downloaded_images/endress_hauser_prowirl_f200.jpg';
+
 // Image category types for better organization
 export type ImageCategory = 
   | 'logo' 
@@ -223,7 +245,29 @@ export const IMAGE_IDS = {
   // Circuit breaker types (ID-926-928)
   RCCB_CIRCUIT_BREAKER: 'ID-926',
   ACB_CIRCUIT_BREAKER: 'ID-927',
-  VCB_CIRCUIT_BREAKER: 'ID-928'
+  VCB_CIRCUIT_BREAKER: 'ID-928',
+  
+  // Stock product images (ID-929-944)
+  MULTIMETER_STOCK: 'ID-929',
+  PLC_STOCK: 'ID-930',
+  HMI_PANEL_STOCK: 'ID-931',
+  SCADA_SYSTEM_STOCK: 'ID-932',
+  DCS_SYSTEM_STOCK: 'ID-933',
+  PROCESS_ANALYZER_STOCK: 'ID-934',
+  CENTRIFUGAL_PUMP_STOCK: 'ID-935',
+  VFD_DRIVE_STOCK: 'ID-936',
+  ON_OFF_VALVE_STOCK: 'ID-937',
+  SOLENOID_VALVE_STOCK: 'ID-938',
+  MCB_STOCK: 'ID-939',
+  PROCESS_CALIBRATOR_STOCK: 'ID-940',
+  HEATING_ELEMENT_STOCK: 'ID-941',
+  SURGE_PROTECTOR_STOCK: 'ID-942',
+  SOLAR_PANEL_STOCK: 'ID-943',
+  SOLAR_INVERTER_STOCK: 'ID-944',
+  
+  // Specific manufacturer product images (ID-945+)
+  ABB_SWIRL_METER_FSV450: 'ID-945',
+  ENDRESS_HAUSER_PROWIRL_F200: 'ID-946'
 } as const;
 
 // Next available ID tracker
@@ -514,9 +558,9 @@ export const PRODUCT_IMAGES = {
   
   // Vortex Flow Meters
   'endress-hauser-prowirl-f200': {
-    src: vortexFlowMeterImage,
-    alt: `${IMAGE_IDS.VORTEX_FLOW_METER}: Endress+Hauser Prowirl F200 - Vortex flow meter for steam and gas applications`,
-    id: IMAGE_IDS.VORTEX_FLOW_METER
+    src: endressHauserProwirl200Image,
+    alt: `${IMAGE_IDS.ENDRESS_HAUSER_PROWIRL_F200}: Endress+Hauser Prowirl F200 - Vortex flow meter for steam and gas applications`,
+    id: IMAGE_IDS.ENDRESS_HAUSER_PROWIRL_F200
   },
   'rosemount-8800d-vortex': {
     src: vortexFlowMeterImage,
@@ -529,9 +573,9 @@ export const PRODUCT_IMAGES = {
     id: IMAGE_IDS.VORTEX_FLOW_METER
   },
   'abb-swirl-meter-fsv450': {
-    src: vortexFlowMeterImage,
-    alt: `${IMAGE_IDS.VORTEX_FLOW_METER}: ABB Swirl Meter FSV450 - Vortex flow meter for challenging applications`,
-    id: IMAGE_IDS.VORTEX_FLOW_METER
+    src: abbSwirlMeterImage,
+    alt: `${IMAGE_IDS.ABB_SWIRL_METER_FSV450}: ABB Swirl Meter FSV450 - Vortex flow meter for challenging applications`,
+    id: IMAGE_IDS.ABB_SWIRL_METER_FSV450
   },
   
   // Volumetric Flow Meters
@@ -691,9 +735,9 @@ export const PRODUCT_IMAGES = {
     id: IMAGE_IDS.TRANSMITTERS
   },
   'solenoid-valve': {
-    src: pressureTransmitterImage,
-    alt: `${IMAGE_IDS.TRANSMITTERS}: Solenoid valve - Automated fluid control valve`,
-    id: IMAGE_IDS.TRANSMITTERS
+    src: solenoidValveStockImage,
+    alt: `${IMAGE_IDS.SOLENOID_VALVE_STOCK}: Solenoid valve - Automated fluid control valve`,
+    id: IMAGE_IDS.SOLENOID_VALVE_STOCK
   },
 
   // BLDC Motor products
@@ -815,53 +859,58 @@ export const PRODUCT_IMAGES = {
     id: IMAGE_IDS.ELECTRICAL_COMPONENTS
   },
   
-  // Tier 1: Generic category mappings for missing images
+  // Tier 1: Stock product images for specific categories
   // Automation control systems
   'plcs': {
-    src: automationControlSystemsImage,
-    alt: `${IMAGE_IDS.AUTOMATION_CONTROL_SYSTEMS}: PLCs - Programmable logic controllers for industrial automation`,
-    id: IMAGE_IDS.AUTOMATION_CONTROL_SYSTEMS
+    src: plcStockImage,
+    alt: `${IMAGE_IDS.PLC_STOCK}: PLCs - Programmable logic controllers for industrial automation`,
+    id: IMAGE_IDS.PLC_STOCK
   },
   'hmi': {
-    src: automationControlSystemsImage,
-    alt: `${IMAGE_IDS.AUTOMATION_CONTROL_SYSTEMS}: HMI - Human machine interface panels`,
-    id: IMAGE_IDS.AUTOMATION_CONTROL_SYSTEMS
+    src: hmiPanelStockImage,
+    alt: `${IMAGE_IDS.HMI_PANEL_STOCK}: HMI - Human machine interface panels`,
+    id: IMAGE_IDS.HMI_PANEL_STOCK
+  },
+  'hmi-panel': {
+    src: hmiPanelStockImage,
+    alt: `${IMAGE_IDS.HMI_PANEL_STOCK}: HMI panel - Touchscreen operator interface panel`,
+    id: IMAGE_IDS.HMI_PANEL_STOCK
   },
   'scada': {
-    src: automationControlSystemsImage,
-    alt: `${IMAGE_IDS.AUTOMATION_CONTROL_SYSTEMS}: SCADA - Supervisory control and data acquisition systems`,
-    id: IMAGE_IDS.AUTOMATION_CONTROL_SYSTEMS
+    src: scadaSystemStockImage,
+    alt: `${IMAGE_IDS.SCADA_SYSTEM_STOCK}: SCADA - Supervisory control and data acquisition systems`,
+    id: IMAGE_IDS.SCADA_SYSTEM_STOCK
   },
   'dcs': {
-    src: automationControlSystemsImage,
-    alt: `${IMAGE_IDS.AUTOMATION_CONTROL_SYSTEMS}: DCS - Distributed control systems for process automation`,
-    id: IMAGE_IDS.AUTOMATION_CONTROL_SYSTEMS
+    src: dcsSystemStockImage,
+    alt: `${IMAGE_IDS.DCS_SYSTEM_STOCK}: DCS - Distributed control systems for process automation`,
+    id: IMAGE_IDS.DCS_SYSTEM_STOCK
   },
   
   // Analyzers
   'analyzers': {
-    src: processAnalyzersHero,
-    alt: `${IMAGE_IDS.HERO_ANALYZERS}: Analyzers - Industrial process analyzers`,
-    id: IMAGE_IDS.HERO_ANALYZERS
+    src: processAnalyzerStockImage,
+    alt: `${IMAGE_IDS.PROCESS_ANALYZER_STOCK}: Analyzers - Industrial process analyzers`,
+    id: IMAGE_IDS.PROCESS_ANALYZER_STOCK
   },
   
   // Solar products
   'solar-panels': {
-    src: solarProductsImage,
-    alt: `${IMAGE_IDS.SOLAR_PRODUCTS}: Solar panels - Photovoltaic solar panel modules`,
-    id: IMAGE_IDS.SOLAR_PRODUCTS
+    src: solarPanelStockImage,
+    alt: `${IMAGE_IDS.SOLAR_PANEL_STOCK}: Solar panels - Photovoltaic solar panel modules`,
+    id: IMAGE_IDS.SOLAR_PANEL_STOCK
   },
   'solar-inverters': {
-    src: solarProductsImage,
-    alt: `${IMAGE_IDS.SOLAR_PRODUCTS}: Solar inverters - Solar DC to AC power inverters`,
-    id: IMAGE_IDS.SOLAR_PRODUCTS
+    src: solarInverterStockImage,
+    alt: `${IMAGE_IDS.SOLAR_INVERTER_STOCK}: Solar inverters - Solar DC to AC power inverters`,
+    id: IMAGE_IDS.SOLAR_INVERTER_STOCK
   },
   
   // Surge protectors and grounding
   'surge-protectors': {
-    src: safetyProtectiveDevicesImage,
-    alt: `${IMAGE_IDS.SAFETY_PROTECTIVE_DEVICES}: Surge protectors - Electrical surge protection devices`,
-    id: IMAGE_IDS.SAFETY_PROTECTIVE_DEVICES
+    src: surgeProtectorStockImage,
+    alt: `${IMAGE_IDS.SURGE_PROTECTOR_STOCK}: Surge protectors - Electrical surge protection devices`,
+    id: IMAGE_IDS.SURGE_PROTECTOR_STOCK
   },
   'ac-surge-protector': {
     src: safetyProtectiveDevicesImage,
@@ -985,9 +1034,9 @@ export const PRODUCT_IMAGES = {
     id: IMAGE_IDS.MEASUREMENT_INSTRUMENTS
   },
   'process-calibrator': {
-    src: measurementInstrumentsImage,
-    alt: `${IMAGE_IDS.MEASUREMENT_INSTRUMENTS}: Process calibrator - Multi-function process calibrator`,
-    id: IMAGE_IDS.MEASUREMENT_INSTRUMENTS
+    src: processCalibratorStockImage,
+    alt: `${IMAGE_IDS.PROCESS_CALIBRATOR_STOCK}: Process calibrator - Multi-function process calibrator`,
+    id: IMAGE_IDS.PROCESS_CALIBRATOR_STOCK
   },
   
   // Switches and valves
@@ -997,14 +1046,14 @@ export const PRODUCT_IMAGES = {
     id: IMAGE_IDS.SENSORS
   },
   'valves': {
-    src: pumpsMotorsImage,
-    alt: `${IMAGE_IDS.PUMPS_MOTORS}: Valves - Industrial control valves`,
-    id: IMAGE_IDS.PUMPS_MOTORS
+    src: onOffValveStockImage,
+    alt: `${IMAGE_IDS.ON_OFF_VALVE_STOCK}: Valves - Industrial control valves`,
+    id: IMAGE_IDS.ON_OFF_VALVE_STOCK
   },
   'on-off-valve': {
-    src: pumpsMotorsImage,
-    alt: `${IMAGE_IDS.PUMPS_MOTORS}: On-off valve - Two-position control valve`,
-    id: IMAGE_IDS.PUMPS_MOTORS
+    src: onOffValveStockImage,
+    alt: `${IMAGE_IDS.ON_OFF_VALVE_STOCK}: On-off valve - Two-position control valve`,
+    id: IMAGE_IDS.ON_OFF_VALVE_STOCK
   },
   
   // Pumps and components
@@ -1339,9 +1388,9 @@ export const PRODUCT_IMAGES = {
     id: IMAGE_IDS.MEASUREMENT_INSTRUMENTS
   },
   'multimeters': {
-    src: measurementInstrumentsImage,
-    alt: `${IMAGE_IDS.MEASUREMENT_INSTRUMENTS}: Multimeters - Electrical measurement devices`,
-    id: IMAGE_IDS.MEASUREMENT_INSTRUMENTS
+    src: multimeterStockImage,
+    alt: `${IMAGE_IDS.MULTIMETER_STOCK}: Multimeters - Electrical measurement devices`,
+    id: IMAGE_IDS.MULTIMETER_STOCK
   },
 
   // Industrial tools
