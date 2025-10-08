@@ -314,7 +314,7 @@ const ProductDetailDynamic: React.FC = () => {
                             >
                               <div className="flex items-start gap-3 p-4 rounded-xl border border-border/50 bg-background/50 backdrop-blur-sm hover:border-primary/30 hover:bg-primary/5 transition-all duration-300">
                                 <div className="h-2 w-2 rounded-full bg-primary flex-shrink-0 mt-2 group-hover:scale-125 transition-transform"></div>
-                                <span className="text-sm text-foreground leading-relaxed">
+                                <span className="text-sm text-foreground leading-relaxed group-hover:text-secondary">
                                   {benefit}
                                 </span>
                               </div>
@@ -348,7 +348,7 @@ const ProductDetailDynamic: React.FC = () => {
                               >
                                 <div className="flex items-center gap-3 p-4 rounded-xl border border-border/50 bg-background/50 backdrop-blur-sm hover:border-primary/30 hover:bg-primary/5 transition-all duration-300">
                                   <div className="h-2 w-2 rounded-full bg-primary flex-shrink-0 group-hover:scale-125 transition-transform"></div>
-                                  <span className="text-sm text-foreground">
+                                  <span className="text-sm text-foreground group-hover:text-secondary">
                                     {application}
                                   </span>
                                 </div>
@@ -381,8 +381,8 @@ const ProductDetailDynamic: React.FC = () => {
                               data-testid={`industry-${index}`}
                             >
                               <div className="flex items-center gap-3 p-4 rounded-xl border border-border/50 bg-background/50 backdrop-blur-sm hover:border-secondary/30 hover:bg-secondary/5 transition-all duration-300">
-                                <div className="h-2 w-2 rounded-full bg-secondary flex-shrink-0 group-hover:scale-125 transition-transform"></div>
-                                <span className="text-sm text-foreground">
+                                <div className="h-2 w-2 rounded-full bg-primary flex-shrink-0 group-hover:scale-125 transition-transform"></div>
+                                <span className="text-sm text-foreground group-hover:text-secondary">
                                   {industry}
                                 </span>
                               </div>
