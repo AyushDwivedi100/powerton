@@ -122,8 +122,13 @@ export default function ServiceCategoryPage() {
     <>
       <SEO
         title={t("common:seo.servicePageTitle", { service: serviceData.title })}
-        description={t("common:seo.servicePageDescription", { service: serviceData.title, description: serviceData.description })}
-        keywords={t("common:seo.servicePageKeywords", { service: serviceData.title })}
+        description={t("common:seo.servicePageDescription", {
+          service: serviceData.title,
+          description: serviceData.description,
+        })}
+        keywords={t("common:seo.servicePageKeywords", {
+          service: serviceData.title,
+        })}
         canonicalUrl={`https://powertonengineering.in/services-category/${slug}`}
         structuredData={serviceSchema}
       />
@@ -307,7 +312,7 @@ export default function ServiceCategoryPage() {
                                 {t(industry)}
                               </span>
                             </div>
-                          ),
+                          )
                         )}
                       </div>
                     </CardContent>
@@ -366,9 +371,21 @@ export default function ServiceCategoryPage() {
             </AnimatedSection>
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-              {SERVICES_CATEGORY_PAGES.filter((s) => s.id !== serviceData.id)
-                .slice(0, 3)
-                .map((relatedService, index) => {
+              {(() => {
+                // Get current service index
+                const currentIndex = SERVICES_CATEGORY_PAGES.findIndex(
+                  (s) => s.id === serviceData.id
+                );
+                const totalServices = SERVICES_CATEGORY_PAGES.length;
+
+                // Use circular logic to get next 3 services, ensuring all services are reachable
+                const relatedServices = [];
+                for (let i = 1; i <= 3; i++) {
+                  const nextIndex = (currentIndex + i) % totalServices;
+                  relatedServices.push(SERVICES_CATEGORY_PAGES[nextIndex]);
+                }
+
+                return relatedServices.map((relatedService, index) => {
                   const RelatedIcon =
                     iconMap[relatedService.icon as keyof typeof iconMap] ||
                     Settings;
@@ -377,6 +394,7 @@ export default function ServiceCategoryPage() {
                       key={relatedService.id}
                       animation="fadeInUp"
                       delay={0.3 + index * 0.1}
+                      className={index === 2 ? "hidden lg:block" : ""}
                     >
                       <Link href={`/services-category/${relatedService.id}`}>
                         <motion.div
@@ -419,7 +437,8 @@ export default function ServiceCategoryPage() {
                       </Link>
                     </AnimatedSection>
                   );
-                })}
+                });
+              })()}
             </div>
           </div>
         </section>
