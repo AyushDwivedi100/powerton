@@ -24,7 +24,7 @@ export default function ProductGroupDynamic() {
     subcategorySlug: string;
     groupSlug: string;
   }>();
-  const { t } = useTranslation(["products", "common"]);
+  const { t } = useTranslation(["products", "common", "products-data"]);
   useScrollAnimations();
 
   if (!parentSlug || !subcategorySlug || !groupSlug) {
@@ -54,7 +54,7 @@ export default function ProductGroupDynamic() {
   }
 
   // Get the subcategory information
-  const subcategory = getProductSubCategoryBySlug(subcategorySlug);
+  const subcategory = getProductSubCategoryBySlug(subcategorySlug, t);
   if (!subcategory) {
     return (
       <div className="min-h-screen bg-background flex items-center justify-center">

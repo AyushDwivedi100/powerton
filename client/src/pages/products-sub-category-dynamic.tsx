@@ -41,14 +41,14 @@ export default function ProductSubCategoryDynamic() {
     parentSlug: string;
     slug: string;
   }>();
-  const { t } = useTranslation(["products", "common"]);
+  const { t } = useTranslation(["products", "common", "products-data"]);
   useScrollAnimations();
 
   if (!slug || !parentSlug) {
     return <NotFound />;
   }
 
-  const product = getProductSubCategoryBySlug(slug);
+  const product = getProductSubCategoryBySlug(slug, t);
 
   if (!product) {
     return (

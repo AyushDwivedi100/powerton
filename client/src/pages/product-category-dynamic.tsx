@@ -131,7 +131,7 @@ const ScrollAnimatedSection: React.FC<{
 
 const ProductCategoryDynamic: React.FC = () => {
   const { slug } = useParams<{ slug: string }>();
-  const { t } = useTranslation("common");
+  const { t } = useTranslation(["common", "products-data"]);
   const categoryData = getCategoryBySlug(slug!);
 
   // Create refs for scroll animations
@@ -275,7 +275,7 @@ const ProductCategoryDynamic: React.FC = () => {
             const subcategorySlug =
               getSubcategorySlugById(subcategory.id) || subcategory.id;
             const subcategoryData =
-              getProductSubCategoryBySlug(subcategorySlug);
+              getProductSubCategoryBySlug(subcategorySlug, t);
             const parentCategorySlug =
               subcategoryData?.parentCategory.split("/").pop() ||
               categoryData.slug;
