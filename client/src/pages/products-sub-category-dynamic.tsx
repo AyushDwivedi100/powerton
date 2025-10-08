@@ -158,15 +158,10 @@ export default function ProductSubCategoryDynamic() {
           <AnimatedSection>
             <div className="text-center mb-12">
               <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
-                {t("products:sections.products", {
-                  defaultValue: "Our Products",
-                })}
+                {t("products:sections.products")}
               </h2>
               <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-                {t("products:sections.productsDescription", {
-                  defaultValue:
-                    "Explore our comprehensive range of high-quality industrial solutions",
-                })}
+                {t("products:sections.productsDescription")}
               </p>
             </div>
 
@@ -179,9 +174,7 @@ export default function ProductSubCategoryDynamic() {
                     group.title || group.key.toUpperCase().replace("-", " ");
                   const groupDescription =
                     group.description ||
-                    t("products-data:defaults.groupDescription", {
-                      defaultValue: "High-quality products for industrial automation applications.",
-                    });
+                    t("products-data:defaults.groupDescription");
 
                   return (
                     <Link
@@ -220,17 +213,12 @@ export default function ProductSubCategoryDynamic() {
               {productGroups.length === 0 && (
                 <div className="col-span-full text-center py-12">
                   <div className="text-muted-foreground text-lg mb-4">
-                    {t("products:messages.noProductGroups", {
-                      defaultValue:
-                        "No product groups available in this category.",
-                    })}
+                    {t("products:messages.noProductGroups")}
                   </div>
                   <Link href="/products">
                     <Button variant="outline">
                       <ArrowLeft className="mr-2 h-4 w-4" />
-                      {t("common:buttons.backToProducts", {
-                        defaultValue: "Back to Products",
-                      })}
+                      {t("common:buttons.backToProducts")}
                     </Button>
                   </Link>
                 </div>
@@ -248,9 +236,7 @@ export default function ProductSubCategoryDynamic() {
               <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 items-start">
                 <div className="lg:col-span-2 space-y-4">
                   <h2 className="text-2xl md:text-3xl font-bold text-foreground group-hover:text-secondary transition-colors">
-                    {t("products:sections.professionalGrade", {
-                      defaultValue: "Professional Grade Solutions",
-                    })}
+                    {t("products:sections.professionalGrade")}
                   </h2>
                   <p className="text-muted-foreground leading-relaxed text-sm md:text-base">
                     {product.fullDescription}
@@ -276,18 +262,14 @@ export default function ProductSubCategoryDynamic() {
                   <Card className="border-secondary/20 hover:border-secondary/40 transition-all duration-300 hover:shadow-md">
                     <CardContent className="p-4 md:p-6 text-center">
                       <h3 className="text-lg font-bold mb-3 text-foreground">
-                        {t("products:sections.professionalConsultation", {
-                          defaultValue: "Get Consultation",
-                        })}
+                        {t("products:sections.professionalConsultation")}
                       </h3>
                       <div className="mb-4">
                         <div className="text-2xl font-bold text-secondary">
-                          {t("common:labels.free", { defaultValue: "Free" })}
+                          {t("common:labels.free")}
                         </div>
                         <div className="text-xs text-muted-foreground">
-                          {t("products:sections.technicalConsultation", {
-                            defaultValue: "Technical Consultation",
-                          })}
+                          {t("products:sections.technicalConsultation")}
                         </div>
                       </div>
                       <div className="space-y-2">

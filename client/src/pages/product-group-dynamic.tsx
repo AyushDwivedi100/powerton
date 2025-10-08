@@ -298,7 +298,7 @@ export default function ProductGroupDynamic() {
                             <span
                               data-testid={`text-manufacturer-${product.id}`}
                             >
-                              {product.specs.manufacturer || "N/A"}
+                              {product.specs.manufacturer || t("common:labels.notAvailable")}
                             </span>
                           </td>
                           <td className="px-6 py-4 text-sm text-foreground">
@@ -358,9 +358,7 @@ export default function ProductGroupDynamic() {
         <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8 text-center">
           <AnimatedSection>
             <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
-              {t("common:sections.needAssistance", {
-                defaultValue: "Need Technical Assistance?",
-              })}
+              {t("common:sections.needAssistance")}
             </h2>
             <p className="text-lg text-white max-w-2xl mx-auto mb-8">
               {t("products:sections.expertsHelpDescription", {
@@ -375,9 +373,7 @@ export default function ProductGroupDynamic() {
                   className="bg-secondary hover:bg-secondary/90 text-secondary-foreground px-8 py-3 text-lg font-semibold w-full sm:w-auto"
                 >
                   <Phone className="mr-2 h-5 w-5" />
-                  {t("common:buttons.contactExperts", {
-                    defaultValue: "Contact Our Experts",
-                  })}
+                  {t("common:buttons.contactExperts")}
                 </Button>
               </Link>
               <Link href="/quote">
@@ -388,9 +384,7 @@ export default function ProductGroupDynamic() {
                   className="border-2 border-border text-foreground hover:bg-foreground hover:text-background px-8 py-3 text-lg font-semibold w-full sm:w-auto"
                 >
                   <Mail className="mr-2 h-5 w-5" />
-                  {t("common:buttons.getQuote", {
-                    defaultValue: "Get Quote",
-                  })}
+                  {t("common:buttons.getQuote")}
                 </Button>
               </Link>
             </div>
