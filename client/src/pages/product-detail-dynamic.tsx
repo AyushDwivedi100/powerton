@@ -83,8 +83,8 @@ const ProductDetailDynamic: React.FC = () => {
   });
 
   const manufacturer =
-    manufacturerSpec?.value || "Powerton Engineering Pvt. Ltd.";
-  const brand = manufacturerSpec?.value || "Powerton Engineering";
+    manufacturerSpec?.value || t("common:company.name");
+  const brand = manufacturerSpec?.value || t("common:seo.siteName");
 
   // Convert product image to absolute URL for structured data
   const productImageAbsolute = productData.image.startsWith("http")

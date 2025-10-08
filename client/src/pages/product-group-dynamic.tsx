@@ -93,10 +93,10 @@ export default function ProductGroupDynamic() {
           className="text-center"
         >
           <h1 className="text-4xl font-bold text-foreground mb-4">
-            Products Not Found
+            {t("common:errors.productsNotFound")}
           </h1>
           <p className="text-muted-foreground mb-8">
-            The products you're looking for doesn't exist.
+            {t("common:errors.productsNotFoundMessage")}
           </p>
           <Link href={`/products/${parentSlug}/${subcategorySlug}`}>
             <Button className="bg-primary hover:bg-primary/90 text-primary-foreground">
@@ -156,10 +156,10 @@ export default function ProductGroupDynamic() {
           className="text-center"
         >
           <h1 className="text-4xl font-bold text-foreground mb-4">
-            Products Not Found
+            {t("common:errors.productsNotFound")}
           </h1>
           <p className="text-muted-foreground mb-8">
-            The products you're looking for doesn't exist.
+            {t("common:errors.productsNotFoundMessage")}
           </p>
           <Link href={`/products/${parentSlug}/${subcategorySlug}`}>
             <Button className="bg-primary hover:bg-primary/90 text-primary-foreground">
@@ -188,10 +188,10 @@ export default function ProductGroupDynamic() {
     ? t(productGroup.descriptionKey, {
         defaultValue:
           productGroup.description ||
-          "High-quality products for industrial automation applications.",
+          t("products-data:defaults.groupDescription"),
       })
     : productGroup.description ||
-      "High-quality products for industrial automation applications.";
+      t("products-data:defaults.groupDescription");
 
   return (
     <>
@@ -239,7 +239,7 @@ export default function ProductGroupDynamic() {
                 variant="secondary"
                 className="bg-white/20 text-white border-white/20 px-4 py-2 text-lg"
               >
-                {groupProducts.length} Products
+                {t("products-data:labels.productsCount", { count: groupProducts.length })}
               </Badge>
               <Badge
                 variant="secondary"
@@ -258,9 +258,7 @@ export default function ProductGroupDynamic() {
           <AnimatedSection>
             <div className="text-center mb-12">
               <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
-                {t("products:sections.allProducts", {
-                  defaultValue: "All Products",
-                })}
+                {t("products:sections.allProducts")}
               </h2>
               <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
                 {t("products:sections.completeListDescription", {
@@ -313,7 +311,7 @@ export default function ProductGroupDynamic() {
                           </td>
                           <td className="px-6 py-4 text-sm text-muted-foreground">
                             <span data-testid={`text-type-${product.id}`}>
-                              {product.specs.type || "Industrial Product"}
+                              {product.specs.type || t("products-data:industrialProduct")}
                             </span>
                           </td>
                           <td className="px-6 py-4 text-sm">
@@ -365,8 +363,9 @@ export default function ProductGroupDynamic() {
               })}
             </h2>
             <p className="text-lg text-white max-w-2xl mx-auto mb-8">
-              Our experts are here to help you select the right{" "}
-              {groupTitle.toLowerCase()} for your application.
+              {t("products:sections.expertsHelpDescription", {
+                groupTitle: groupTitle.toLowerCase(),
+              })}
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="/contact">

@@ -179,7 +179,9 @@ export default function ProductSubCategoryDynamic() {
                     group.title || group.key.toUpperCase().replace("-", " ");
                   const groupDescription =
                     group.description ||
-                    "High-quality sensor group for industrial automation applications.";
+                    t("products-data:defaults.groupDescription", {
+                      defaultValue: "High-quality products for industrial automation applications.",
+                    });
 
                   return (
                     <Link
@@ -324,7 +326,7 @@ export default function ProductSubCategoryDynamic() {
               {/* Applications */}
               <div className="bg-gradient-to-br from-background to-muted/30 rounded-xl border border-border/50 p-4 md:p-6 hover:shadow-md hover:border-secondary/20 transition-all duration-500 group">
                 <h3 className="text-lg md:text-xl font-bold text-foreground mb-4 group-hover:text-secondary transition-colors">
-                  Applications
+                  {t("products:sections.applications")}
                 </h3>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
                   {product.applications.map((application, index) => (
@@ -344,7 +346,7 @@ export default function ProductSubCategoryDynamic() {
               {/* Technical Specifications */}
               <div className="bg-gradient-to-br from-background to-muted/30 rounded-xl border border-border/50 p-4 md:p-6 hover:shadow-md hover:border-secondary/20 transition-all duration-500 group">
                 <h3 className="text-lg md:text-xl font-bold text-foreground mb-4 group-hover:text-secondary transition-colors">
-                  Technical Specifications
+                  {t("products:sections.technicalSpecifications")}
                 </h3>
                 <div className="grid grid-cols-1 gap-2">
                   {product.specifications.map((spec, index) => (
@@ -364,7 +366,7 @@ export default function ProductSubCategoryDynamic() {
               {/* Industries */}
               <div className="bg-gradient-to-br from-background to-muted/30 rounded-xl border border-border/50 p-4 md:p-6 hover:shadow-md hover:border-secondary/20 transition-all duration-500 group">
                 <h3 className="text-lg md:text-xl font-bold text-foreground mb-4 group-hover:text-secondary transition-colors">
-                  Industries Served
+                  {t("products:sections.industriesServed")}
                 </h3>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
                   {product.industries.map((industry, index) => (
@@ -394,7 +396,7 @@ export default function ProductSubCategoryDynamic() {
                 {/* Features */}
                 <div className="lg:col-span-2">
                   <h3 className="text-lg md:text-xl font-bold text-foreground mb-4 group-hover:text-secondary">
-                    Key Features
+                    {t("products:sections.keyFeatures")}
                   </h3>
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
                     {product.features.map((feature, index) => (
@@ -414,7 +416,7 @@ export default function ProductSubCategoryDynamic() {
                 {/* Certifications */}
                 <div>
                   <h3 className="text-lg md:text-xl font-bold text-foreground mb-4 group-hover:text-secondary">
-                    Certifications
+                    {t("products:sections.certifications")}
                   </h3>
                   <div className="space-y-4">
                     <div className="flex flex-wrap gap-1">
@@ -430,11 +432,10 @@ export default function ProductSubCategoryDynamic() {
                     </div>
                     <div className="p-3 bg-gradient-to-r from-secondary/5 to-primary/5 rounded-lg border-l-3 border-l-secondary hover:border-l-primary transition-colors">
                       <h4 className="text-md font-semibold text-foreground mb-1 group-hover:text-secondary">
-                        Quality Assurance
+                        {t("products:sections.qualityAssurance")}
                       </h4>
                       <p className="text-sm text-muted-foreground leading-relaxed group-hover:text-foreground">
-                        Products meet international standards and safety
-                        regulations.
+                        {t("products:sections.qualityAssuranceDescription")}
                       </p>
                     </div>
                   </div>

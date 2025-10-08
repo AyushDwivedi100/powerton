@@ -766,12 +766,19 @@
     "expertsHelpDescription": "Our experts are here to help you select the right {{groupTitle}} for your application.",
     "products": "Our Products",
     "productsDescription": "Explore our comprehensive range of high-quality industrial solutions",
+    "allProducts": "All Products",
     "needMoreOptions": "Need More Options?",
     "customSolutions": "We offer custom solutions and can source additional products to meet your specific requirements.",
     "professionalGrade": "Professional Grade Solutions",
     "keyBenefits": "Key Benefits:",
     "professionalConsultation": "Get Professional Consultation",
     "technicalConsultation": "Technical Consultation"
+  },
+  "defaults": {
+    "groupDescription": "High-quality products for industrial automation applications."
+  },
+  "labels": {
+    "productsCount": "{{count}} Products"
   },
   "filters": {
     "all": "All",
