@@ -27,3 +27,11 @@
 [x] 13. Fixed tsx package missing error by installing tsx as dev dependency
 [x] 14. Restarted workflow and verified application is running on port 5000
 [x] 15. Verified application homepage loads correctly with all features working
+[x] 16. Migrate hardcoded English in products-sub-category-pages-data.ts to translation keys (COMPLETED)
+  - [x] Created comprehensive translation structure in client/public/locales/en/products-data.json for all 37 subcategories
+  - [x] Each subcategory includes: title, descriptions, benefits, specifications, applications, industries, features, certifications, SEO metadata
+  - [x] Refactored products-sub-category-pages-data.ts from static array to translation-aware function pattern
+  - [x] Updated all helper functions (getProductSubCategoryBySlug, getAllProductSubCategorySlugs, getProductsByParentCategory)
+  - [x] Updated all consuming pages to load "products-data" namespace and pass translation function
+  - [x] Verified application running without translation errors (architect approved with PASS)
+  - [x] All 37 subcategories successfully migrated including: sensors-transducers, control-valves, analyzers, indicators, meters, cables-wires, circuit-breakers, contactors-relays, terminal-blocks, switches-sockets, plc-systems, scada-hmi, servo-drives, motor-controllers, inverters, solar-panels, inverter-batteries, charge-controllers, junction-boxes, mounting-structures, bldc-motors, motor-drives, controller-units, cooling-fans, accessories, centrifugal-pumps, submersible-pumps, surface-pumps, pump-controllers, pump-accessories, multimeters, oscilloscopes, power-analyzers, calibrators, hand-tools, power-tools, safety-equipment
