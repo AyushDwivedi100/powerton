@@ -108,7 +108,7 @@ export interface ProductSubCategoryData {
 export const getProductsSubCategoryData = (
   t: any,
 ): ProductSubCategoryData[] => [
-  // Instrumentation Accessories
+  // Instrumentation Components
   {
     slug: "sensors-transducers",
     title: t("products-data:subcategories.sensors-transducers.title"),
@@ -454,7 +454,7 @@ export const getProductsSubCategoryData = (
       "products-data:subcategories.circuit-breakers-fuses.fullDescription",
     ),
     image: circuitBreakersImage,
-    parentCategory: "/products/electrical-accessories",
+    parentCategory: "/products/electrical-components",
     parentCategoryTitle: t(
       "products-data:subcategories.circuit-breakers-fuses.parentCategoryTitle",
     ),
