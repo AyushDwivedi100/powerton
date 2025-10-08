@@ -1,4 +1,2187 @@
 {
+  "subcategories": {
+    "sensors-transducers": {
+      "title": "Sensorer na Vibadilishaji",
+      "shortDescription": "Aina mbalimbali za sensorer za kiwango cha viwanda kwa ajili ya otomatiki na udhibiti wa mchakato",
+      "fullDescription": "Suluhisho za hali ya juu za sensorer ikiwa ni pamoja na sensorer za ukaribu, sensorer za joto za RTD, thermocouples, na sensorer za pH kwa ajili ya otomatiki ya viwanda na udhibiti wa mchakato.",
+      "parentCategoryTitle": "Vifaa vya Ala",
+      "keyBenefits": [
+        "Usahihi wa Juu na Uaminifu",
+        "Ujumuishaji Rahisi na Usanidi",
+        "Mahitaji Yaliyopunguzwa ya Matengenezo",
+        "Uzingatiaji wa Usalama Ulioimarishwa"
+      ],
+      "specifications": [
+        "Halijoto ya Uendeshaji: -40°C hadi +85°C",
+        "Ukadiriaji wa Ulinzi: IP67/IP68",
+        "Ishara za Pato: 4-20mA, 0-10V, Dijitali",
+        "Ugavi wa Nguvu: 12-24VDC",
+        "Muda wa Majibu: <1ms hadi 10s",
+        "Usahihi: ±0.1% hadi ±1.0% FS"
+      ],
+      "applications": [
+        "Udhibiti na Ufuatiliaji wa Mchakato",
+        "Uendeshaji wa Utengenezaji",
+        "Mifumo ya Udhibiti wa Ubora",
+        "Mifumo ya Usalama na Ulinzi",
+        "Ufuatiliaji wa Mazingira",
+        "Matengenezo ya Utabiri"
+      ],
+      "industries": [
+        "Kemikali na Petrochemical",
+        "Mafuta na Gesi",
+        "Uzaji wa Nguvu",
+        "Utengenezaji wa Maji",
+        "Chakula na Vinywaji",
+        "Dawa"
+      ],
+      "features": [
+        "Kipimo cha Usahihi wa Juu",
+        "Ubunifu Imara wa Viwanda",
+        "Kiwango Kipana cha Uendeshaji",
+        "Chaguzi Nyingi za Pato",
+        "Ufungaji Rahisi",
+        "Matengenezo ya Chini",
+        "Chaguzi za Uthibitisho wa Mlipuko",
+        "Mawasiliano ya Dijitali"
+      ],
+      "certifications": [
+        "Imethibitishwa na CE",
+        "Imeidhinishwa na ATEX",
+        "Imethibitishwa na IECEx",
+        "Imekadiriwa SIL 2/3",
+        "Imeorodheshwa na UL",
+        "Imeidhinishwa na CSA"
+      ],
+      "seo": {
+        "title": "Sensorer za Viwandani - Ukaribu wa PNP/NPN, RTD, Thermocouples, Sensorer za pH | Powerton Engineering",
+        "description": "Aina mbalimbali za sensorer za kiwango cha viwanda ikiwa ni pamoja na sensorer za ukaribu za PNP/NPN, sensorer za joto za RTD (PT100, PT500, PT1000), thermocouples (aina za J, K, T, S), na sensorer za pH kwa udhibiti wa mchakato.",
+        "keywords": "sensorer za viwandani, sensorer za ukaribu, sensorer za PNP, sensorer za NPN, sensorer za RTD, PT100, PT500, PT1000, thermocouples, sensorer za pH, sensorer za joto, sensorer za otomatiki"
+      }
+    },
+    "transmitters-flow-meters": {
+      "title": "Visambazaji na Mita za Mtiririko",
+      "shortDescription": "Visambazaji sahihi kwa shinikizo, joto, mtiririko, na kipimo cha kiwango",
+      "fullDescription": "Aina mbalimbali za visambazaji vya viwandani na teknolojia za hali ya juu ikiwa ni pamoja na kupima mkazo, uwezo, na kuhisi piezoresistive na mawasiliano ya dijiti ya HART.",
+      "parentCategoryTitle": "Vifaa vya Ala",
+      "keyBenefits": [
+        "Usahihi Unaoongoza Katika Sekta",
+        "Gharama Iliyopunguzwa ya Jumla ya Umiliki",
+        "Uboreshaji wa Mchakato Ulioimarishwa",
+        "Usalama na Uaminifu Ulioboreshwa"
+      ],
+      "specifications": [
+        "Usahihi: ±0.025% hadi ±0.5% FS",
+        "Halijoto ya Uendeshaji: -40°C hadi +125°C",
+        "Shinikizo la Mchakato: 0 hadi 10,000 PSI",
+        "Mawasiliano: HART, Foundation Fieldbus, Profibus",
+        "Ugavi wa Nguvu: 10.5-55VDC",
+        "Ulinzi: IP67/IP68"
+      ],
+      "applications": [
+        "Kipimo cha Shinikizo",
+        "Ufuatiliaji wa Joto",
+        "Udhibiti wa Kiwango cha Mtiririko",
+        "Ugunduzi wa Kiwango",
+        "Shinikizo Tofauti",
+        "Ujumuishaji wa Udhibiti wa Mchakato"
+      ],
+      "industries": [
+        "Mafuta na Gesi",
+        "Usindikaji wa Kemikali",
+        "Uzaji wa Nguvu",
+        "Maji na Maji Taka",
+        "Pulp na Karatasi",
+        "Uchimbaji Madini na Vyuma"
+      ],
+      "features": [
+        "Mawasiliano ya HART",
+        "Usahihi wa Dijitali",
+        "Usanidi wa Mbali",
+        "Uchunguzi wa Kibinafsi",
+        "Chaguzi za Vigezo Nyingi",
+        "Uwezo wa Wireless",
+        "Ubunifu wa Uthibitisho wa Mlipuko",
+        "Utulivu wa Muda Mrefu"
+      ],
+      "certifications": [
+        "Imethibitishwa na ATEX",
+        "Imeidhinishwa na IECEx",
+        "Ina Uwezo wa SIL 2/3",
+        "Imeidhinishwa na FM",
+        "Imethibitishwa na CSA",
+        "Alama ya CE"
+      ],
+      "seo": {
+        "title": "Visambazaji vya Viwandani na Mita za Mtiririko - Shinikizo, Joto, Kiwango | Powerton Engineering",
+        "description": "Visambazaji sahihi vya viwandani na mita za mtiririko kwa shinikizo, joto, mtiririko, na kipimo cha kiwango. Suluhisho za HART, Foundation Fieldbus, na wireless kwa udhibiti wa mchakato.",
+        "keywords": "visambazaji vya viwandani, mita za mtiririko, visambazaji shinikizo, visambazaji joto, visambazaji kiwango, visambazaji HART, ala za mchakato"
+      }
+    },
+    "switches-indicators": {
+      "title": "Swichi na Viashiria",
+      "shortDescription": "Swichi muhimu za viwandani kwa otomatiki na udhibiti: swichi za shinikizo, swichi za kiwango, swichi za kikomo, na vitufe vya kushinikiza",
+      "fullDescription": "Aina mbalimbali za swichi za viwandani ikiwa ni pamoja na swichi za shinikizo kutoka Danfoss na Schneider Electric, swichi za kiwango kutoka Endress+Hauser na ABB, swichi za kikomo kutoka Omron na Schneider Electric, na vitufe vya kushinikiza kutoka kwa wazalishaji wanaoongoza kwa udhibiti wa kuaminika wa otomatiki.",
+      "parentCategoryTitle": "Vifaa vya Ala",
+      "keyBenefits": [
+        "Uaminifu wa Juu na Uimara",
+        "Ufungaji Rahisi na Matengenezo",
+        "Uzingatiaji wa Usalama wa Kina",
+        "Suluhisho za Gharama nafuu"
+      ],
+      "specifications": [
+        "Ukadiriaji wa Mawasiliano: 10A kwa 250VAC",
+        "Halijoto ya Uendeshaji: -25°C hadi +70°C",
+        "Ukadiriaji wa Ulinzi: IP65/IP67",
+        "Upachikaji: 22mm/30mm Paneli Iliyokatwa",
+        "Muda wa Maisha ya LED: >50,000 masaa",
+        "Usanidi wa Mawasiliano: NO/NC/DPDT"
+      ],
+      "applications": [
+        "Ujumuishaji wa Paneli ya Udhibiti",
+        "Mifumo ya Kusimamisha Dharura",
+        "Udhibiti wa Mashine",
+        "Dalili ya Mchakato",
+        "Vizuizi vya Usalama",
+        "Ufuatiliaji wa Hali"
+      ],
+      "industries": [
+        "Utengenezaji",
+        "Udhibiti wa Mchakato",
+        "Ushughulikiaji wa Nyenzo",
+        "Ufungaji",
+        "Usindikaji wa Chakula",
+        "Magari"
+      ],
+      "features": [
+        "Mwangaza wa LED",
+        "Rangi Nyingi Zinapatikana",
+        "Kitendo Kinachodumishwa/Cha Muda",
+        "Ubunifu Unaostahimili Vurugu",
+        "Vituo vya Kuunganisha Haraka",
+        "Ujenzi wa Msimu",
+        "Kazi ya Kusimamisha Dharura",
+        "Ubunifu wa Ergonomic"
+      ],
+      "certifications": [
+        "Imeorodheshwa na UL",
+        "Alama ya CE",
+        "Imethibitishwa na CSA",
+        "IEC 60947-5-1",
+        "Inatii RoHS",
+        "ISO 13850"
+      ],
+      "seo": {
+        "title": "Swichi za Viwandani na Viashiria - Vipengele vya Paneli ya Udhibiti | Powerton Engineering",
+        "description": "Swichi za kiwango cha viwanda, vitufe vya kushinikiza, viashiria, na vipengele vya paneli ya udhibiti. Vituo vya dharura, taa za rubani, swichi za kuchagua kwa mifumo ya otomatiki na udhibiti.",
+        "keywords": "swichi za viwandani, swichi za vitufe vya kushinikiza, vipengele vya paneli ya udhibiti, vituo vya dharura, taa za rubani, viashiria, swichi za kuchagua"
+      }
+    },
+    "valves-actuators": {
+      "title": "Vali na Viendeshaji",
+      "shortDescription": "Suluhisho muhimu za vali kwa otomatiki ya viwandani: vali za udhibiti na vali za solenoidi",
+      "fullDescription": "Suluhisho za vali za kitaalamu zinazoshirikisha vali za udhibiti kutoka Fisher (Emerson) na SAMSON kwa udhibiti sahihi wa mchakato, na vali za solenoidi kutoka ASCO na Parker Hannifin kwa udhibiti wa kiotomatiki wa maji katika matumizi ya viwandani.",
+      "parentCategoryTitle": "Vifaa vya Ala",
+      "keyBenefits": [
+        "Udhibiti Sahihi wa Mtiririko",
+        "Uendeshaji wa Kuaminika",
+        "Gharama Zilizopunguzwa za Matengenezo",
+        "Ufanisi wa Mchakato Ulioimarishwa"
+      ],
+      "specifications": [
+        "Ukadiriaji wa Shinikizo: ANSI 150-2500",
+        "Kiwango cha Halijoto: -196°C hadi +650°C",
+        "Kiwango cha Ukubwa: 1/2\" hadi 48\"",
+        "Nyenzo: Chuma cha pua, Chuma cha Kaboni, Aloi",
+        "Aina za Viendeshaji: Nyumatiki, Umeme, Hidroli",
+        "Ishara ya Udhibiti: 4-20mA, 0-10V, Dijitali"
+      ],
+      "applications": [
+        "Udhibiti wa Mtiririko",
+        "Udhibiti wa Shinikizo",
+        "Udhibiti wa Joto",
+        "Kuzima kwa Usalama",
+        "Kutengwa kwa Mchakato",
+        "Udhibiti wa Kiwango"
+      ],
+      "industries": [
+        "Mafuta na Gesi",
+        "Usindikaji wa Kemikali",
+        "Uzaji wa Nguvu",
+        "Utengenezaji wa Maji",
+        "Dawa",
+        "Pulp na Karatasi"
+      ],
+      "features": [
+        "Uwezo wa Shinikizo la Juu",
+        "Inastahimili Kutumia",
+        "Ubunifu Salama kwa Moto",
+        "Teknolojia ya Utoaji Chini",
+        "Uwekaji Mahiri",
+        "Uendeshaji wa Mbali",
+        "Uendeshaji Salama kwa Kushindwa",
+        "Muda Mrefu wa Huduma"
+      ],
+      "certifications": [
+        "Imethibitishwa na API 6D",
+        "Inatii ASME",
+        "ISO 15848",
+        "Imeidhinishwa na ATEX",
+        "Imekadiriwa SIL",
+        "Imethibitishwa kwa Jaribio la Moto"
+      ],
+      "seo": {
+        "title": "Vali za Viwandani na Viendeshaji - Vali za Udhibiti, Vali za Usalama | Powerton Engineering",
+        "description": "Vali za udhibiti za viwandani na viendeshaji kwa udhibiti wa mchakato. Vali za mpira, vali za lango, vali za kuzuia na viendeshaji vya nyumatiki na umeme kwa matumizi ya mafuta, gesi, na kemikali.",
+        "keywords": "vali za viwandani, vali za udhibiti, viendeshaji vya vali, vali za mpira, vali za lango, vali za usalama, vali za mchakato"
+      }
+    },
+    "analyzers": {
+      "title": "Vichambuzi",
+      "shortDescription": "Gesi za hali ya juu, vimiminika, na vichambuzi vya mchakato kwa udhibiti wa ubora na ufuatiliaji",
+      "fullDescription": "Aina mbalimbali za vichambuzi vya mchakato ikiwa ni pamoja na kromatografia ya gesi, vichambuzi vya vimiminika, vichambuzi vya O2/CO2, na vyombo maalum vya kupimia kwa ufuatiliaji wa mchakato na matumizi ya udhibiti wa ubora.",
+      "parentCategoryTitle": "Vifaa vya Ala",
+      "keyBenefits": [
+        "Uboreshaji wa Udhibiti wa Mchakato",
+        "Uhakikisho wa Ubora wa Bidhaa",
+        "Uzingatiaji wa Udhibiti",
+        "Ufuatiliaji wa Usalama Ulioimarishwa"
+      ],
+      "specifications": [
+        "Kiwango cha Upimaji: ppm hadi viwango vya %",
+        "Usahihi: ±0.5% ya usomaji",
+        "Muda wa Majibu: sekunde 1-30",
+        "Halijoto ya Uendeshaji: -10°C hadi +60°C",
+        "Ishara za Pato: 4-20mA, Modbus, Ethernet",
+        "Ukadiriaji wa Ulinzi: IP65/IP67"
+      ],
+      "applications": [
+        "Uchambuzi wa Muundo wa Gesi",
+        "Ufuatiliaji wa Ubora wa Vimiminika",
+        "Ufuatiliaji wa Mazingira",
+        "Uboreshaji wa Mchakato",
+        "Uhakikisho wa Ubora",
+        "Ufuatiliaji wa Usalama"
+      ],
+      "industries": [
+        "Usindikaji wa Kemikali",
+        "Usafishaji wa Mafuta na Gesi",
+        "Uzaji wa Nguvu",
+        "Dawa",
+        "Utengenezaji wa Maji",
+        "Chakula na Vinywaji"
+      ],
+      "features": [
+        "Uchambuzi wa Vipengele Nyingi",
+        "Ufuatiliaji wa Wakati Halisi",
+        "Usawazishaji Kiotomatiki",
+        "Uwekaji Kumbukumbu wa Data",
+        "Uchunguzi wa Mbali",
+        "Matengenezo ya Chini",
+        "Chaguzi za Uthibitisho wa Mlipuko",
+        "Kiolesura cha Wavuti"
+      ],
+      "certifications": [
+        "Imethibitishwa na ATEX",
+        "Imeidhinishwa na IECEx",
+        "Imekadiriwa SIL 2",
+        "FDA 21 CFR Sehemu ya 11",
+        "Alama ya CE",
+        "ISO 9001"
+      ],
+      "seo": {
+        "title": "Vichambuzi vya Mchakato - Vyombo vya Uchambuzi wa Gesi na Vimiminika | Powerton Engineering",
+        "description": "Vichambuzi vya mchakato wa hali ya juu kwa kromatografia ya gesi, uchambuzi wa vimiminika, na ufuatiliaji wa O2/CO2. Vyombo sahihi kwa udhibiti wa mchakato na uhakikisho wa ubora.",
+        "keywords": "vichambuzi vya mchakato, vichambuzi vya gesi, vichambuzi vya vimiminika, kromatografia, vichambuzi vya O2, vichambuzi vya CO2, ufuatiliaji wa mchakato"
+      }
+    },
+    "cables-wires": {
+      "title": "Kebo na Waya",
+      "shortDescription": "Kebo na waya za viwandani kwa usafirishaji wa nguvu na matumizi ya udhibiti",
+      "fullDescription": "Aina kamili za nyaya za umeme ikiwa ni pamoja na nyaya za nguvu, nyaya za udhibiti, nyaya za ala, na nyaya za mawasiliano kwa mitambo ya viwandani.",
+      "parentCategoryTitle": "Vifaa vya Umeme",
+      "keyBenefits": [
+        "Uwezo Mkubwa wa Kubeba Sasa",
+        "Sifa Bora za Insulation",
+        "Vifaa Vinavyozuia Moto",
+        "Maisha Marefu ya Huduma"
+      ],
+      "specifications": [
+        "Ukadiriaji wa Voltage: 300V hadi 33kV",
+        "Ukadiriaji wa Joto: -40°C hadi +90°C",
+        "Kondakta: Shaba/Aluminium",
+        "Insulation: PVC, XLPE, EPR",
+        "Ulinzi: Braid, Foil, Mchanganyiko",
+        "Viwango: IEC, IEEE, ASTM"
+      ],
+      "applications": [
+        "Usambazaji wa Nguvu",
+        "Viunganisho vya Motor",
+        "Mizunguko ya Udhibiti",
+        "Ala",
+        "Mitandao ya Mawasiliano",
+        "Mifumo ya Kutuliza"
+      ],
+      "industries": [
+        "Uzaji wa Nguvu",
+        "Utengenezaji",
+        "Miundombinu",
+        "Bahari na Pwani",
+        "Uchimbaji Madini",
+        "Usafirishaji"
+      ],
+      "features": [
+        "Inazuia Moto",
+        "Inazuia Mafuta",
+        "Inazuia Miale ya Jua",
+        "Inazuia Unyevu",
+        "Ubunifu Rahisi",
+        "Ufungaji Rahisi",
+        "Utoaji Mdogo wa Moshi",
+        "Chaguzi Zisizo na Halojeni"
+      ],
+      "certifications": [
+        "Imethibitishwa na IEC 60502",
+        "Imejaribiwa na IEEE 1202",
+        "Imeorodheshwa na UL",
+        "Imeidhinishwa na CSA",
+        "Alama ya CE",
+        "Inatii RoHS"
+      ],
+      "seo": {
+        "title": "Kebo na Waya za Viwandani - Nguvu, Udhibiti, Kebo za Ala | Powerton Engineering",
+        "description": "Kebo na waya za umeme za viwandani kwa usafirishaji wa nguvu, mizunguko ya udhibiti, na ala. Kebo za nguvu za volti ya juu, nyaya za udhibiti, na nyaya za mawasiliano.",
+        "keywords": "nyaya za viwandani, nyaya za nguvu, nyaya za udhibiti, nyaya za ala, waya za umeme, nyaya za mawasiliano, nyaya zenye silaha"
+      }
+    },
+    "connectors-terminals": {
+      "title": "Viunganishi na Terminals",
+      "shortDescription": "Viunganishi vya umeme na vitalu vya terminal kwa miunganisho salama",
+      "fullDescription": "Aina kamili za suluhisho za unganisho la umeme ikiwa ni pamoja na vitalu vya terminal, viunganishi vya waya, masanduku ya makutano, na viunganishi vya viwandani kwa miunganisho ya umeme ya kuaminika.",
+      "parentCategoryTitle": "Vifaa vya Umeme",
+      "keyBenefits": [
+        "Miunganisho Salama",
+        "Ufungaji Rahisi",
+        "Inafaa kwa Matengenezo",
+        "Uwezo Mkubwa wa Sasa"
+      ],
+      "specifications": [
+        "Ukadiriaji wa Sasa: 5A hadi 1000A",
+        "Ukadiriaji wa Voltage: 300V hadi 1000V",
+        "Kiwango cha Waya: 0.5mm² hadi 300mm²",
+        "Joto la Uendeshaji: -40°C hadi +120°C",
+        "Ukadiriaji wa Ulinzi: IP20 hadi IP68",
+        "Upachikaji: Reli ya DIN, PCB, Paneli"
+      ],
+      "applications": [
+        "Wiring wa Paneli ya Udhibiti",
+        "Bodi za Usambazaji",
+        "Masanduku ya Makutano",
+        "Viunganisho vya Ishara",
+        "Usambazaji wa Nguvu",
+        "Viunganisho vya Kutuliza"
+      ],
+      "industries": [
+        "Paneli za Umeme",
+        "Automation ya Viwandani",
+        "Huduma za Ujenzi",
+        "Usafirishaji",
+        "Mawasiliano ya simu",
+        "Nishati na Huduma"
+      ],
+      "features": [
+        "Viunganisho vya Screw & Spring",
+        "Usimbaji wa Rangi Unapatikana",
+        "Pointi za Mtihani",
+        "Chaguzi za Jumper",
+        "Ubunifu wa Msimu",
+        "Vizuizi vya Usalama",
+        "Chaguzi za Kukata Muunganisho",
+        "Msongamano Mkubwa"
+      ],
+      "certifications": [
+        "IEC 60947-7-1",
+        "Imeorodheshwa na UL",
+        "Imeidhinishwa na CSA",
+        "Imeidhinishwa na VDE",
+        "Alama ya CE",
+        "Inatii RoHS"
+      ],
+      "seo": {
+        "title": "Viunganishi vya Umeme na Terminals - Vitalu vya Terminal & Viunganishi vya Waya | Powerton Engineering",
+        "description": "Viunganishi vya umeme na vitalu vya terminal kwa matumizi ya viwandani. Terminals za reli ya DIN, viunganishi vya waya, masanduku ya makutano kwa miunganisho salama ya umeme.",
+        "keywords": "viunganishi vya umeme, vitalu vya terminal, viunganishi vya waya, terminals za reli ya DIN, masanduku ya makutano, terminals za umeme"
+      }
+    },
+    "circuit-breakers-fuses": {
+      "title": "Vivunja Mzunguko na Fuses",
+      "shortDescription": "Vifaa vya ulinzi wa umeme kwa usambazaji wa nguvu za viwandani",
+      "fullDescription": "Aina kamili za vifaa vya ulinzi wa mzunguko ikiwa ni pamoja na MCBs, MCCBs, ACBs, na fuses za viwandani kwa ulinzi kamili wa mfumo wa umeme.",
+      "parentCategoryTitle": "Vifaa vya Umeme",
+      "keyBenefits": [
+        "Ulinzi wa Vifaa",
+        "Ugunduzi wa Sasa wa Zaidi",
+        "Uzingatiaji wa Usalama",
+        "Utendaji wa Kuaminika"
+      ],
+      "specifications": [
+        "Ukadiriaji wa Sasa: 1A hadi 6300A",
+        "Ukadiriaji wa Voltage: hadi 1000VAC",
+        "Uwezo wa Kuvunja: 6kA hadi 100kA",
+        "Tabia za Safari: B, C, D Curves",
+        "Upachikaji: Reli ya DIN, Paneli, Chasi",
+        "Viwango: IEC 60947, UL 489"
+      ],
+      "applications": [
+        "Usambazaji wa Nguvu",
+        "Ulinzi wa Motor",
+        "Ulinzi wa Transformer",
+        "Ulinzi wa Jenereta",
+        "Vifaa vya Viwandani",
+        "Huduma za Ujenzi"
+      ],
+      "industries": [
+        "Usambazaji wa Nguvu",
+        "Utengenezaji",
+        "Majengo ya Biashara",
+        "Vituo vya Data",
+        "Miundombinu",
+        "Usafirishaji"
+      ],
+      "features": [
+        "Ulinzi wa Joto",
+        "Ulinzi wa Sumaku",
+        "Mipangilio Inayoweza Kubadilishwa",
+        "Dalili ya Mbali",
+        "Mawasiliano Saidizi",
+        "Ufungaji wa Haraka",
+        "Uwezo Mkubwa wa Kuvunja",
+        "Uratibu Teule"
+      ],
+      "certifications": [
+        "Imethibitishwa na IEC 60947",
+        "Imeorodheshwa na UL 489",
+        "Imeidhinishwa na CSA",
+        "Alama ya CE",
+        "Inatii RoHS",
+        "ISO 9001"
+      ],
+      "seo": {
+        "title": "Vivunja Mzunguko na Fuses - MCB, MCCB, Fuses za Viwandani | Powerton Engineering",
+        "description": "Vivunja mzunguko vya viwandani na fuses kwa ulinzi wa umeme. Vivunja mzunguko vya MCB, MCCB, ACB vyenye uwezo mkubwa wa kuvunja kwa mifumo ya usambazaji wa nguvu.",
+        "keywords": "vivunja mzunguko, MCB, MCCB, ACB, fuses za viwandani, ulinzi wa umeme, ulinzi wa mzunguko wa zaidi, usambazaji wa nguvu"
+      }
+    },
+    "power-supplies": {
+      "title": "Vyanzo vya Nguvu",
+      "shortDescription": "Vyanzo vya nguvu vya viwandani na vibadilishaji vya DC-DC",
+      "fullDescription": "Vyanzo vya nguvu vya viwandani vya kuaminika ikiwa ni pamoja na vibadilishaji vya AC-DC, vibadilishaji vya DC-DC, na mifumo ya UPS kwa matumizi muhimu ya viwandani.",
+      "parentCategoryTitle": "Vifaa vya Umeme",
+      "keyBenefits": [
+        "Voltage ya Pato Imara",
+        "Kiwango Kikubwa cha Ingizo",
+        "Ufanisi Mkubwa",
+        "Ubunifu Mdogo"
+      ],
+      "specifications": [
+        "Voltage ya Ingizo: 85-265VAC",
+        "Voltage ya Pato: 5V hadi 48VDC",
+        "Ukadiriaji wa Nguvu: 5W hadi 1000W",
+        "Ufanisi: hadi 95%",
+        "Joto la Uendeshaji: -25°C hadi +70°C",
+        "Ulinzi: IP20 hadi IP67"
+      ],
+      "applications": [
+        "Mifumo ya PLC",
+        "Paneli za Udhibiti",
+        "Mifumo ya Automation",
+        "Vifaa vya Mawasiliano",
+        "Taa za LED",
+        "Vidhibiti vya Viwandani"
+      ],
+      "industries": [
+        "Automation ya Viwandani",
+        "Utengenezaji",
+        "Mawasiliano ya simu",
+        "Usafirishaji",
+        "Automation ya Ujenzi",
+        "Nishati Mbadala"
+      ],
+      "features": [
+        "Upachikaji wa Reli ya DIN",
+        "Ingizo la Universal",
+        "Ulinzi wa Mzunguko Mfupi",
+        "Ulinzi wa Kupakia Zaidi",
+        "Viashiria vya Hali ya LED",
+        "Kiwango Kikubwa cha Joto",
+        "Uaminifu Mkubwa",
+        "Inatii EMI/EMC"
+      ],
+      "certifications": [
+        "Imeorodheshwa na UL",
+        "Alama ya CE",
+        "Imethibitishwa na TUV",
+        "Imethibitishwa na CB",
+        "Inatii RoHS",
+        "Nishati Star"
+      ],
+      "seo": {
+        "title": "Vyanzo vya Nguvu vya Viwandani - Vibadilishaji vya AC-DC & Vibadilishaji vya DC-DC | Powerton Engineering",
+        "description": "Vyanzo vya nguvu vya viwandani kwa mifumo ya automation na udhibiti. Vyanzo vya nguvu vya reli ya DIN, vibadilishaji vya AC-DC, na vibadilishaji vya DC-DC vyenye ufanisi mkubwa.",
+        "keywords": "vyanzo vya nguvu vya viwandani, vibadilishaji vya AC-DC, vibadilishaji vya DC-DC, vyanzo vya nguvu vya reli ya DIN, PSU ya viwandani, vyanzo vya nguvu vya automation"
+      }
+    },
+    "enclosures-cabinets": {
+      "title": "Vioo na Kabati",
+      "shortDescription": "Vioo vya umeme vya viwandani na kabati za udhibiti",
+      "fullDescription": "Vioo vya umeme vya nguvu na kabati za udhibiti zilizoundwa kwa mazingira magumu ya viwandani na ukadiriaji mbalimbali wa ulinzi na chaguzi za upachikaji.",
+      "parentCategoryTitle": "Vifaa vya Umeme",
+      "keyBenefits": [
+        "Ulinzi wa Vifaa",
+        "Ufungaji wa Mazingira",
+        "Ubunifu wa Msimu",
+        "Ufikiaji Rahisi"
+      ],
+      "specifications": [
+        "Nyenzo: Chuma, Chuma cha pua, Polycarbonate",
+        "Ukadiriaji wa Ulinzi: IP54 hadi IP68",
+        "Ukadiriaji wa Joto: -40°C hadi +80°C",
+        "Kiwango cha Ukubwa: Ukubwa mbalimbali wa kawaida",
+        "Aina ya Mlango: Moja/Mbili",
+        "Upachikaji: Ukuta, Sakafu, Nguzo"
+      ],
+      "applications": [
+        "Paneli za Udhibiti",
+        "Bodi za Usambazaji",
+        "Nyumba ya Chombo",
+        "Masanduku ya Makutano",
+        "Vifaa vya Nje",
+        "Maeneo ya Hatari"
+      ],
+      "industries": [
+        "Utengenezaji",
+        "Usambazaji wa Nguvu",
+        "Usafishaji wa Maji",
+        "Mafuta na Gesi",
+        "Mawasiliano ya simu",
+        "Usafirishaji"
+      ],
+      "features": [
+        "Ubunifu Usiopenya Hali ya Hewa",
+        "Inayostahimili Kutua",
+        "Milango Inayofungika",
+        "Chaguzi za Kuingia kwa Kebo",
+        "Sahani za Upachikaji",
+        "Chaguzi za Uingizaji Hewa",
+        "Ulinzi wa EMI/RFI",
+        "Marekebisho ya Desturi"
+      ],
+      "certifications": [
+        "Imekadiriwa na NEMA",
+        "IEC 60529",
+        "Imeorodheshwa na UL",
+        "Imeidhinishwa na CSA",
+        "Alama ya CE",
+        "Imeidhinishwa na ATEX"
+      ],
+      "seo": {
+        "title": "Vioo vya Viwandani na Kabati - Vioo vya Paneli ya Udhibiti | Powerton Engineering",
+        "description": "Vioo vya umeme vya viwandani na kabati za udhibiti na ukadiriaji mbalimbali wa IP. Vioo vilivyokadiriwa na NEMA kwa mazingira magumu na maeneo ya hatari.",
+        "keywords": "vioo vya viwandani, kabati za umeme, vioo vya paneli ya udhibiti, vioo vilivyokadiriwa na NEMA, vioo vilivyokadiriwa na IP, masanduku ya makutano"
+      }
+    },
+    "heating-elements-appliances": {
+      "title": "Vipengele vya Kupokanzwa na Vifaa",
+      "shortDescription": "Vipengele vya kupokanzwa vya viwandani na vifaa vya kudhibiti joto",
+      "fullDescription": "Aina kamili za suluhisho za kupokanzwa za viwandani ikiwa ni pamoja na hita za kuzamisha, hita za bendi, hita za cartridge, na mifumo ya kudhibiti joto.",
+      "parentCategoryTitle": "Vifaa vya Umeme",
+      "keyBenefits": [
+        "Udhibiti Sahihi wa Joto",
+        "Ufanisi wa Nishati",
+        "Maisha Marefu ya Huduma",
+        "Uhamisho wa Haraka wa Joto"
+      ],
+      "specifications": [
+        "Ukadiriaji wa Nguvu: 100W hadi 100kW",
+        "Kiwango cha Joto: hadi 800°C",
+        "Voltage: 120V hadi 480V",
+        "Nyenzo: Chuma cha pua, Incoloy",
+        "Msongamano wa Wati: 5-50 W/in²",
+        "Udhibiti: Washa-Zima, PID, SCR"
+      ],
+      "applications": [
+        "Kupokanzwa Mchakato",
+        "Kupokanzwa Tangi",
+        "Usindikaji wa Plastiki",
+        "Usindikaji wa Chakula",
+        "Usindikaji wa Kemikali",
+        "Tanuri za Viwandani"
+      ],
+      "industries": [
+        "Usindikaji wa Kemikali",
+        "Plastiki na Mpira",
+        "Chakula na Vinywaji",
+        "Dawa",
+        "Mafuta na Gesi",
+        "Utengenezaji"
+      ],
+      "features": [
+        "Aina Nyingi za Kupokanzwa",
+        "Sensorer za Joto",
+        "Chaguzi Zinazozuia Mlipuko",
+        "Inayostahimili Kutua",
+        "Ufungaji wa Haraka",
+        "Ufanisi wa Nishati",
+        "Thermostats za Usalama",
+        "Miundo ya Desturi"
+      ],
+      "certifications": [
+        "Imeorodheshwa na UL",
+        "Imeidhinishwa na CSA",
+        "Alama ya CE",
+        "Imethibitishwa na ATEX",
+        "Inatii RoHS",
+        "ISO 9001"
+      ],
+      "seo": {
+        "title": "Vipengele vya Kupokanzwa vya Viwandani - Hita za Kuzamisha na Kupokanzwa Mchakato | Powerton Engineering",
+        "description": "Vipengele vya kupokanzwa vya viwandani na vifaa vya kudhibiti joto. Hita za kuzamisha, hita za bendi, hita za cartridge kwa matumizi ya kupokanzwa mchakato.",
+        "keywords": "hita za viwandani, vipengele vya kupokanzwa, hita za kuzamisha, kupokanzwa mchakato, udhibiti wa joto, vifaa vya kupokanzwa vya viwandani"
+      }
+    },
+    "solar-panels": {
+      "title": "Paneli za Sola na Moduli",
+      "shortDescription": "Paneli za sola zenye ufanisi mkubwa na moduli za photovoltaic",
+      "fullDescription": "Paneli za sola za premium zenye ufanisi mkubwa wa ubadilishaji, uimara, na utendaji kwa matumizi ya makazi, biashara, na viwandani.",
+      "parentCategoryTitle": "Bidhaa za Sola",
+      "keyBenefits": [
+        "Ufanisi Mkubwa",
+        "Maisha Marefu ya Huduma",
+        "Inayostahimili Hali ya Hewa",
+        "Uharibifu Mdogo"
+      ],
+      "specifications": [
+        "Pato la Nguvu: 100W hadi 600W",
+        "Ufanisi: 18% hadi 22%",
+        "Aina ya Seli: Mono/Poly Crystalline",
+        "Voltage: 12V hadi 48V DC",
+        "Joto la Uendeshaji: -40°C hadi +85°C",
+        "Udhamini: miaka 25 ya utendaji"
+      ],
+      "applications": [
+        "Mifumo ya Sola ya Makazi",
+        "Mitambo ya Biashara",
+        "Miradi ya Kiwango cha Huduma",
+        "Mifumo ya Nje ya Gridi",
+        "Mifumo Mseto",
+        "Mashamba ya Sola"
+      ],
+      "industries": [
+        "Nishati Mbadala",
+        "Makazi",
+        "Majengo ya Biashara",
+        "Huduma",
+        "Kilimo",
+        "Viwandani"
+      ],
+      "features": [
+        "Seli Zenye Ufanisi Mkubwa",
+        "Mipako ya Kuzuia Mwangwi",
+        "Diodi za Bypass",
+        "Sanduku la Makutano la IP67",
+        "Sura ya Aluminium Iliyotiwa Anodized",
+        "Kioo Kilichokazwa",
+        "Inaoana na MPPT",
+        "Inastahimili Mvua ya Mawe"
+      ],
+      "certifications": [
+        "IEC 61215",
+        "IEC 61730",
+        "UL 1703",
+        "Alama ya CE",
+        "Imethibitishwa na TUV",
+        "Imeidhinishwa na BIS"
+      ],
+      "seo": {
+        "title": "Paneli za Sola - Moduli za Photovoltaic Zenye Ufanisi Mkubwa | Powerton Engineering",
+        "description": "Paneli za sola zenye ufanisi mkubwa na moduli za photovoltaic kwa matumizi ya makazi, biashara, na viwandani. Udhamini wa miaka 25 na utendaji wa premium.",
+        "keywords": "paneli za sola, moduli za sola, paneli za photovoltaic, nishati ya sola, nishati mbadala, paneli za sola za monocrystalline, paneli za sola za polycrystalline"
+      }
+    },
+    "solar-inverters": {
+      "title": "Vibadilishaji vya Sola",
+      "shortDescription": "Vibadilishaji vya sola vya gridi na mseto kwa mifumo ya photovoltaic",
+      "fullDescription": "Vibadilishaji vya sola vyenye ufanisi mkubwa kwa matumizi ya gridi na mseto na teknolojia ya juu ya MPPT na ujumuishaji wa betri.",
+      "parentCategoryTitle": "Bidhaa za Sola",
+      "keyBenefits": [
+        "Ufuatiliaji wa Kiwango cha Juu cha Nguvu",
+        "Ujumuishaji wa Gridi",
+        "Utangamano wa Betri",
+        "Ufuatiliaji wa Mbali"
+      ],
+      "specifications": [
+        "Kiwango cha Nguvu: 1kW hadi 100kW",
+        "Ufanisi: hadi 98%",
+        "Voltage ya Ingizo: 150V hadi 1000V DC",
+        "Pato: 230V/400V AC",
+        "Ulinzi: IP65/IP66",
+        "Mawasiliano: Ethernet, WiFi, RS485"
+      ],
+      "applications": [
+        "Mifumo ya Sola ya Gridi",
+        "Mifumo ya Sola Mseto",
+        "Mitambo ya Kiwango cha Huduma",
+        "Sola ya Biashara",
+        "Sola ya Makazi",
+        "Ujumuishaji wa Uhifadhi wa Nishati"
+      ],
+      "industries": [
+        "Nishati Mbadala",
+        "Huduma",
+        "Majengo ya Biashara",
+        "Makazi",
+        "Viwandani",
+        "Kilimo"
+      ],
+      "features": [
+        "Teknolojia ya MPPT",
+        "Ufuatiliaji wa Gridi",
+        "Ugunduzi wa Hitilafu ya Arc",
+        "Ufuatiliaji wa Mbali",
+        "Ujumuishaji wa Betri",
+        "Nguvu ya Akiba",
+        "Usimamizi wa Nishati",
+        "Tayari kwa Gridi Mahiri"
+      ],
+      "certifications": [
+        "IEC 62109",
+        "UL 1741",
+        "IEEE 1547",
+        "Alama ya CE",
+        "Msimbo wa Gridi Unaoendana",
+        "Imeidhinishwa na BIS"
+      ],
+      "seo": {
+        "title": "Vibadilishaji vya Sola - Vibadilishaji vya Sola vya Gridi na Mseto | Powerton Engineering",
+        "description": "Vibadilishaji vya sola vyenye ufanisi mkubwa kwa matumizi ya gridi na mseto. Vibadilishaji vya kamba, vibadilishaji vya kati na teknolojia ya MPPT na ujumuishaji wa betri.",
+        "keywords": "vibadilishaji vya sola, vibadilishaji vya gridi, vibadilishaji mseto, vibadilishaji vya kamba, vibadilishaji vya kati, vibadilishaji vya nguvu za sola"
+      }
+    },
+    "plcs": {
+      "title": "PLCs (Vidhibiti vya Mantiki Vinavyoweza Kupangwa)",
+      "shortDescription": "Vidhibiti vya kiotomatiki vya viwandani kwa udhibiti wa mchakato na utengenezaji",
+      "fullDescription": "Mifumo ya hali ya juu ya PLC yenye muundo wa moduli, itifaki nyingi za mawasiliano, na kazi za usalama zilizounganishwa kwa suluhisho kamili za kiotomatiki za viwandani.",
+      "parentCategoryTitle": "Mifumo ya Kiotomatiki na Udhibiti",
+      "keyBenefits": [
+        "Uprogramu Unyumbufu",
+        "Upanuzi wa Moduli",
+        "Udhibiti wa Wakati Halisi",
+        "Usalama Uliounganishwa"
+      ],
+      "specifications": [
+        "Pointi za I/O: 16 hadi 40,000+",
+        "Kumbukumbu: 512KB hadi 64MB",
+        "Uprogramu: IEC 61131-3",
+        "Mawasiliano: Ethernet, Serial, Fieldbus",
+        "Joto la Uendeshaji: -25°C hadi +60°C",
+        "Ugavi wa Nguvu: 24VDC, 120/240VAC"
+      ],
+      "applications": [
+        "Kiotomatiki cha Kiwanda",
+        "Udhibiti wa Mchakato",
+        "Ushughulikiaji wa Nyenzo",
+        "Mashine za Ufungaji",
+        "Usafishaji wa Maji",
+        "Kiotomatiki cha Jengo"
+      ],
+      "industries": [
+        "Utengenezaji",
+        "Chakula na Vinywaji",
+        "Magari",
+        "Dawa",
+        "Maji na Maji Taka",
+        "Nishati na Huduma"
+      ],
+      "features": [
+        "Muundo wa Moduli",
+        "I/O Inayobadilishwa kwa Moto",
+        "Uprogramu wa Msingi wa Wavuti",
+        "HMI Iliyounganishwa",
+        "Udhibiti wa Mwendo",
+        "Kazi za Usalama",
+        "Ufikiaji wa Mbali",
+        "Uwekaji Kumbukumbu wa Data"
+      ],
+      "certifications": [
+        "Alama ya CE",
+        "Imeorodheshwa na UL",
+        "Imethibitishwa na CSA",
+        "IEC 61131",
+        "Imeidhinishwa na ATEX",
+        "Imekadiriwa SIL"
+      ],
+      "seo": {
+        "title": "PLCs - Vidhibiti vya Mantiki Vinavyoweza Kupangwa kwa Kiotomatiki cha Viwandani | Powerton Engineering",
+        "description": "PLCs za viwandani na vidhibiti vya mantiki vinavyoweza kupangwa kwa kiotomatiki na udhibiti wa mchakato. Mifumo ya PLC ya Siemens, Allen-Bradley, na Schneider Electric.",
+        "keywords": "PLCs, vidhibiti vya mantiki vinavyoweza kupangwa, kiotomatiki cha viwandani, udhibiti wa mchakato, kiotomatiki cha kiwanda, programu ya PLC"
+      }
+    },
+    "scada": {
+      "title": "Mifumo ya SCADA",
+      "shortDescription": "Mifumo ya Udhibiti wa Usimamizi na Upataji Data kwa kiotomatiki cha viwandani",
+      "fullDescription": "Suluhisho kamili za SCADA kwa ufuatiliaji wa wakati halisi, udhibiti, na upataji data katika michakato ya viwandani yenye uwezo wa hali ya juu wa taswira na kuripoti.",
+      "parentCategoryTitle": "Mifumo ya Kiotomatiki na Udhibiti",
+      "keyBenefits": [
+        "Ufuatiliaji wa Wakati Halisi",
+        "Udhibiti wa Kati",
+        "Upataji Data",
+        "Mielekeo ya Kihistoria"
+      ],
+      "specifications": [
+        "Watumiaji Sambamba: hadi 100",
+        "Pointi za I/O: bila kikomo",
+        "Mawasiliano: Usaidizi wa itifaki nyingi",
+        "Hifadhidata: SQL Server, Oracle",
+        "Mfumo wa Uendeshaji: Windows Server",
+        "Urudufishaji: Usaidizi wa kusubiri moto"
+      ],
+      "applications": [
+        "Ufuatiliaji wa Mchakato",
+        "Udhibiti wa Mbali",
+        "Uwekaji Kumbukumbu wa Data",
+        "Usimamizi wa Kengele",
+        "Uzalishaji wa Ripoti",
+        "Udhibiti wa Kundi"
+      ],
+      "industries": [
+        "Mafuta na Gesi",
+        "Usafishaji wa Maji",
+        "Uzalishaji wa Nguvu",
+        "Utengenezaji",
+        "Usindikaji wa Kemikali",
+        "Usafirishaji"
+      ],
+      "features": [
+        "Kiolesura cha Picha",
+        "Maonyesho ya Wakati Halisi",
+        "Uchambuzi wa Mielekeo",
+        "Usimamizi wa Kengele",
+        "Usimamizi wa Mapishi",
+        "Vipengele vya Usalama",
+        "Mteja wa Msingi wa Wavuti",
+        "Ufikiaji wa Simu"
+      ],
+      "certifications": [
+        "IEC 61131",
+        "Imethibitishwa na OPC",
+        "Inatii ISA-95",
+        "Usalama wa Mtandao",
+        "FDA 21 CFR Sehemu ya 11",
+        "ISO 27001"
+      ],
+      "seo": {
+        "title": "Mifumo ya SCADA - Ufuatiliaji na Udhibiti wa Viwandani | Powerton Engineering",
+        "description": "Mifumo ya SCADA kwa kiotomatiki cha viwandani yenye ufuatiliaji wa wakati halisi, udhibiti wa kati, na upataji data. Usaidizi wa mawasiliano ya itifaki nyingi.",
+        "keywords": "mifumo ya SCADA, udhibiti wa usimamizi, upataji data, ufuatiliaji wa viwandani, udhibiti wa mchakato, mifumo ya kiotomatiki"
+      }
+    },
+    "dcs": {
+      "title": "Mifumo ya Udhibiti Iliyosambazwa (DCS)",
+      "shortDescription": "Mifumo ya udhibiti iliyosambazwa kwa kiotomatiki cha mchakato mkuu",
+      "fullDescription": "Suluhisho za hali ya juu za DCS kwa udhibiti tata wa mchakato na usanifu uliosambazwa, mawasiliano ya ziada, na mifumo ya usalama iliyounganishwa kwa matumizi muhimu.",
+      "parentCategoryTitle": "Mifumo ya Kiotomatiki na Udhibiti",
+      "keyBenefits": [
+        "Usanifu Uliosambazwa",
+        "Uaminifu wa Juu",
+        "Usalama Uliounganishwa",
+        "Ubunifu Scalable"
+      ],
+      "specifications": [
+        "Nodi za Kidhibiti: hadi 1000",
+        "Uwezo wa I/O: pointi 50,000+",
+        "Muda wa Kuchanganua: 10ms kawaida",
+        "Urudufishaji: Rudufu mara tatu",
+        "Mawasiliano: Ethernet ya kasi ya juu",
+        "Uadilifu wa Usalama: SIL 3"
+      ],
+      "applications": [
+        "Udhibiti wa Mchakato",
+        "Utengenezaji Endelevu",
+        "Usindikaji wa Kundi",
+        "Mifumo ya Usalama",
+        "Usimamizi wa Mali",
+        "Uboreshaji wa Utendaji"
+      ],
+      "industries": [
+        "Mafuta na Gesi",
+        "Usindikaji wa Kemikali",
+        "Uzalishaji wa Nguvu",
+        "Pulp na Karatasi",
+        "Dawa",
+        "Petrochemical"
+      ],
+      "features": [
+        "Udhibiti Uliosambazwa",
+        "Mifumo ya Ziada",
+        "Udhibiti wa Hali ya Juu",
+        "Usalama Uliounganishwa",
+        "Usimamizi wa Mali",
+        "Matengenezo ya Utabiri",
+        "Data ya Kihistoria",
+        "Zana za Uhandisi"
+      ],
+      "certifications": [
+        "IEC 61131",
+        "IEC 61508 SIL 3",
+        "Inatii ISA-95",
+        "Imethibitishwa na TÜV",
+        "Usalama wa Mtandao",
+        "NERC CIP"
+      ],
+      "seo": {
+        "title": "Mifumo ya Udhibiti Iliyosambazwa (DCS) - Kiotomatiki cha Mchakato | Powerton Engineering",
+        "description": "Suluhisho za hali ya juu za DCS kwa udhibiti mkuu wa mchakato na usanifu uliosambazwa, mifumo ya ziada, na vipengele vya usalama vilivyounganishwa.",
+        "keywords": "mifumo ya DCS, mifumo ya udhibiti iliyosambazwa, kiotomatiki cha mchakato, udhibiti wa viwandani, mifumo ya usalama, udhibiti wa mchakato"
+      }
+    },
+    "hmi": {
+      "title": "Kiolesura cha Mashine ya Binadamu (HMI)",
+      "shortDescription": "Paneli za HMI za viwandani na violesura vya opereta kwa udhibiti wa mchakato",
+      "fullDescription": "Suluhisho za hali ya juu za HMI ikiwa ni pamoja na paneli za skrini ya kugusa, violesura vya opereta, na mifumo ya HMI ya simu kwa kiotomatiki cha viwandani na matumizi ya udhibiti wa mchakato.",
+      "parentCategoryTitle": "Mifumo ya Kiotomatiki na Udhibiti",
+      "keyBenefits": [
+        "Uendeshaji wa Skrini ya Kugusa",
+        "Ubunifu wa Daraja la Viwandani",
+        "Onyesho la Wakati Halisi",
+        "Usaidizi wa Itifaki Nyingi"
+      ],
+      "specifications": [
+        "Ukubwa wa Skrini: 4\" hadi 21\"",
+        "Azimio: 480x272 hadi 1920x1080",
+        "Aina ya Kugusa: Resistive/Capacitive",
+        "Joto la Uendeshaji: -20°C hadi +70°C",
+        "Ulinzi: IP65 paneli ya mbele",
+        "Mawasiliano: Ethernet, Serial, USB"
+      ],
+      "applications": [
+        "Ufuatiliaji wa Mchakato",
+        "Udhibiti wa Mashine",
+        "Taswira ya Data",
+        "Usimamizi wa Kengele",
+        "Usimamizi wa Mapishi",
+        "Kiolesura cha Opereta"
+      ],
+      "industries": [
+        "Utengenezaji",
+        "Viwanda vya Mchakato",
+        "Usafishaji wa Maji",
+        "Uzalishaji wa Nguvu",
+        "Chakula na Vinywaji",
+        "Dawa"
+      ],
+      "features": [
+        "Kiolesura cha Skrini ya Kugusa",
+        "Daraja la Viwandani",
+        "Onyesho la Wakati Halisi",
+        "Itifaki Nyingi",
+        "Ufikiaji wa Msingi wa Wavuti",
+        "Usimamizi wa Kengele",
+        "Uwekaji Kumbukumbu wa Data",
+        "Usimamizi wa Mapishi"
+      ],
+      "certifications": [
+        "Alama ya CE",
+        "Imeorodheshwa na UL",
+        "FCC Class A",
+        "IEC 61131",
+        "NEMA 4X",
+        "Imekadiriwa IP65"
+      ],
+      "seo": {
+        "title": "Kiolesura cha Mashine ya Binadamu (HMI) - Paneli za Skrini ya Kugusa za Viwandani | Powerton Engineering",
+        "description": "Paneli za HMI za viwandani na violesura vya skrini ya kugusa kwa udhibiti wa mchakato na kiotomatiki. Usaidizi wa itifaki nyingi na ufuatiliaji na udhibiti wa wakati halisi.",
+        "keywords": "paneli za HMI, kiolesura cha mashine ya binadamu, paneli za skrini ya kugusa, kiolesura cha opereta, maonyesho ya viwandani, HMI ya udhibiti wa mchakato"
+      }
+    },
+    "surge-protectors": {
+      "title": "Vilinda Mawimbi",
+      "shortDescription": "Vifaa vya kulinda mawimbi ya viwandani kwa ulinzi wa mfumo wa umeme",
+      "fullDescription": "Suluhisho kamili za kulinda mawimbi ikiwa ni pamoja na nguvu ya AC, sola ya DC, na vilinda mstari wa ishara kwa kulinda vifaa vya umeme dhidi ya voltages za muda mfupi.",
+      "parentCategoryTitle": "Vifaa vya Usalama na Ulinzi",
+      "keyBenefits": [
+        "Ulinzi wa Muda",
+        "Usalama wa Vifaa",
+        "Uaminifu wa Mfumo",
+        "Ulinzi wa Umeme"
+      ],
+      "specifications": [
+        "Kiwango cha Voltage: 120V hadi 690V AC",
+        "Kiwango cha Sasa: 15kA hadi 100kA",
+        "Muda wa Majibu: <25 nanoseconds",
+        "Kiwango cha Ulinzi: Class I/II/III",
+        "Joto la Uendeshaji: -40°C hadi +85°C",
+        "Enclosure: IP20 hadi IP65"
+      ],
+      "applications": [
+        "Usambazaji wa Nguvu",
+        "Vituo vya Udhibiti wa Magari",
+        "Mifumo ya Nguvu za Sola",
+        "Mawasiliano ya Data",
+        "Paneli za Udhibiti",
+        "Vifaa Nyeti"
+      ],
+      "industries": [
+        "Usambazaji wa Nguvu",
+        "Nishati ya Sola",
+        "Mawasiliano ya simu",
+        "Utengenezaji wa Viwandani",
+        "Vituo vya Data",
+        "Huduma za Jengo"
+      ],
+      "features": [
+        "Teknolojia ya MOV",
+        "Viashiria vya Hali",
+        "Dalili ya Mbali",
+        "Tenganisha Haraka",
+        "DIN Rail Mount",
+        "Ubunifu Salama kwa Kushindwa",
+        "Sasa ya Chini ya Uvujaji",
+        "Ulinzi wa Joto"
+      ],
+      "certifications": [
+        "UL 1449",
+        "IEC 61643",
+        "IEEE C62.41",
+        "Alama ya CE",
+        "Inatii RoHS",
+        "Imeorodheshwa na UL"
+      ],
+      "seo": {
+        "title": "Vilinda Mawimbi - Vifaa vya Ulinzi wa Umeme vya Viwandani | Powerton Engineering",
+        "description": "Vifaa vya kulinda mawimbi ya viwandani kwa nguvu ya AC, sola ya DC, na ulinzi wa mstari wa ishara. Vilinda mawimbi vilivyoorodheshwa na UL 1449 vyenye muda wa majibu ya haraka.",
+        "keywords": "vilinda mawimbi, vifaa vya kulinda mawimbi, ulinzi wa umeme, ulinzi wa umeme, ulinzi wa mawimbi ya nguvu, SPD ya viwandani"
+      }
+    },
+    "grounding-systems": {
+      "title": "Mifumo ya Kuweka Ardhi",
+      "shortDescription": "Mifumo ya viwandani ya kuweka ardhi na kuunganisha kwa usalama wa umeme",
+      "fullDescription": "Suluhisho kamili za kuweka ardhi na kuunganisha ikiwa ni pamoja na fimbo za ardhi, kondakta, na mifumo ya ufuatiliaji wa ardhi kwa usalama wa umeme na ulinzi wa mfumo.",
+      "parentCategoryTitle": "Vifaa vya Usalama na Ulinzi",
+      "keyBenefits": [
+        "Usalama wa Umeme",
+        "Ulinzi wa Mfumo",
+        "Njia ya Sasa ya Hitilafu",
+        "Ulinzi wa Vifaa"
+      ],
+      "specifications": [
+        "Nyenzo ya Fimbo ya Ardhi: Chuma kilichofunikwa na shaba",
+        "Ukubwa wa Kondakta: #6 AWG hadi 750 MCM",
+        "Upinzani: <1 ohm kawaida",
+        "Kiwango cha Sasa: hadi 50kA",
+        "Upinzani wa Kutu: Moto-dip iliyogalvanishwa",
+        "Viwango: IEEE 80, NEC Article 250"
+      ],
+      "applications": [
+        "Vituo vya Umeme",
+        "Vituo vya Viwandani",
+        "Ulinzi wa Umeme",
+        "Mawasiliano ya simu",
+        "Mitambo ya Sola",
+        "Kuweka Ardhi kwa Jengo"
+      ],
+      "industries": [
+        "Huduma za Umeme",
+        "Utengenezaji wa Viwandani",
+        "Mawasiliano ya simu",
+        "Ujenzi",
+        "Nishati ya Sola",
+        "Vituo vya Data"
+      ],
+      "features": [
+        "Fimbo za Kuweka Ardhi za Shaba",
+        "Kondakta za Kuweka Ardhi",
+        "Clamps & Connectors",
+        "Ufuatiliaji wa Ardhi",
+        "Ulinzi wa Kutu",
+        "Upinzani Mdogo",
+        "Matibabu ya Kemikali",
+        "Vifaa vya Kupima"
+      ],
+      "certifications": [
+        "IEEE 80",
+        "Inatii NEC",
+        "Imeorodheshwa na UL",
+        "Viwango vya ANSI",
+        "IEC 62305",
+        "NFPA 780"
+      ],
+      "seo": {
+        "title": "Mifumo ya Kuweka Ardhi - Suluhisho za Kuunganisha Umeme za Viwandani | Powerton Engineering",
+        "description": "Mifumo ya viwandani ya kuweka ardhi na kuunganisha kwa usalama wa umeme. Fimbo za ardhi, kondakta, na mifumo ya ufuatiliaji inayokubaliana na viwango vya IEEE 80.",
+        "keywords": "mifumo ya kuweka ardhi, mifumo ya kuunganisha, kuweka ardhi kwa umeme, fimbo za ardhi, kondakta za kuweka ardhi, kuweka ardhi kwa usalama wa umeme"
+      }
+    },
+    "safety-relays-switches": {
+      "title": "Relays na Swichi za Usalama",
+      "shortDescription": "Relays za usalama za viwandani na swichi za kusimamisha dharura kwa usalama wa mashine",
+      "fullDescription": "Vifaa kamili vya udhibiti wa usalama ikiwa ni pamoja na relays za usalama, swichi za kusimamisha dharura, na vidhibiti vya usalama kwa usalama wa mashine na ulinzi wa wafanyikazi.",
+      "parentCategoryTitle": "Vifaa vya Usalama na Ulinzi",
+      "keyBenefits": [
+        "Usalama wa Mashine",
+        "Ulinzi wa Wafanyikazi",
+        "Kuzima Dharura",
+        "Uzingatiaji wa Usalama"
+      ],
+      "specifications": [
+        "Kategoria ya Usalama: Cat 3/4 hadi ISO 13849",
+        "Kiwango cha Mawasiliano: 6A hadi 16A",
+        "Voltage ya Uendeshaji: 24V DC hadi 230V AC",
+        "Muda wa Majibu: <10ms",
+        "Uadilifu wa Usalama: SIL 3/PLe",
+        "Mazingira: IP65/IP67"
+      ],
+      "applications": [
+        "Mizunguko ya Kusimamisha Dharura",
+        "Mifumo ya Kufunga Usalama",
+        "Kiolesura cha Pazia la Mwanga",
+        "Udhibiti wa Mikono Miwili",
+        "Ufuatiliaji wa Mlango wa Usalama",
+        "Usalama wa Kuvunja Vyombo vya Habari"
+      ],
+      "industries": [
+        "Utengenezaji",
+        "Magari",
+        "Ufungaji",
+        "Usindikaji wa Chakula",
+        "Dawa",
+        "Ushughulikiaji wa Nyenzo"
+      ],
+      "features": [
+        "Usalama wa Njia Mbili",
+        "Kusimamisha Dharura",
+        "Ufuatiliaji wa Usalama",
+        "Kazi za Utambuzi",
+        "Weka Upya Mwongozo",
+        "Onyesho la Hali ya LED",
+        "Moduli Zinazopanuliwa",
+        "Kiolesura cha Basi la Usalama"
+      ],
+      "certifications": [
+        "ISO 13849 PLe",
+        "IEC 61508 SIL 3",
+        "Imethibitishwa na TÜV",
+        "Alama ya CE",
+        "UL 508",
+        "Imeidhinishwa na CSA"
+      ],
+      "seo": {
+        "title": "Relays na Swichi za Usalama - Vifaa vya Udhibiti wa Usalama wa Mashine | Powerton Engineering",
+        "description": "Relays za usalama za viwandani na swichi za kusimamisha dharura kwa usalama wa mashine. Vifaa vya udhibiti wa usalama vilivyokadiriwa SIL 3/PLe kwa ulinzi wa wafanyikazi.",
+        "keywords": "relays za usalama, swichi za usalama, kusimamisha dharura, usalama wa mashine, vidhibiti vya usalama, vifaa vya usalama, usalama wa viwandani"
+      }
+    },
+    "intrinsically-safe-equipment": {
+      "title": "Vifaa Salama Kiasili",
+      "shortDescription": "Vifaa visivyolipuka na salama kiasili kwa maeneo hatarishi",
+      "fullDescription": "Vifaa vilivyothibitishwa salama kiasili na visivyolipuka ikiwa ni pamoja na vizuizi, vitenganishi, na vifungo kwa matumizi ya eneo hatarishi.",
+      "parentCategoryTitle": "Vifaa vya Usalama na Ulinzi",
+      "keyBenefits": [
+        "Imethibitishwa na ATEX",
+        "Uthibitisho wa Mlipuko",
+        "Usalama wa Ndani",
+        "Imeidhinishwa kwa Eneo Hatarishi"
+      ],
+      "specifications": [
+        "Ukadiriaji wa Eneo: Zone 0/1/2, Div 1/2",
+        "Darasa la Joto: T1 hadi T6",
+        "Ulinzi: Ex ia, Ex d, Ex e",
+        "Voltage: 12V hadi 250V",
+        "Sasa: 4-20mA, 0-10V",
+        "Uthibitisho: ATEX, IECEx, UL"
+      ],
+      "applications": [
+        "Vyombo vya Eneo Hatarishi",
+        "Utengaji wa Ishara",
+        "Nyumba Isiyolipuka",
+        "Vizuizi vya Usalama wa Ndani",
+        "Mifumo ya Kugundua Gesi",
+        "Kuzima Dharura"
+      ],
+      "industries": [
+        "Mafuta na Gesi",
+        "Petrochemical",
+        "Usindikaji wa Kemikali",
+        "Dawa",
+        "Uchimbaji Madini",
+        "Rangi na Mipako"
+      ],
+      "features": [
+        "Imethibitishwa na ATEX/IECEx",
+        "Imeidhinishwa kwa Zone 0/1/2",
+        "Utengaji wa Galvanic",
+        "Dhana ya Shirika",
+        "Uwazi wa Hart",
+        "Ubunifu Usiolipuka",
+        "Usalama wa Ndani",
+        "Vifungo Visivyopitisha Moto"
+      ],
+      "certifications": [
+        "Imethibitishwa na ATEX",
+        "Imeidhinishwa na IECEx",
+        "UL Class I Div 1",
+        "Imethibitishwa na CSA",
+        "Imeidhinishwa na BASEEFA",
+        "Imethibitishwa na TIIS"
+      ],
+      "seo": {
+        "title": "Vifaa Salama Kiasili - Vifaa Vilivyothibitishwa na ATEX kwa Eneo Hatarishi | Powerton Engineering",
+        "description": "Vifaa vilivyothibitishwa na ATEX salama kiasili kwa maeneo hatarishi. Vizuizi visivyolipuka, vitenganishi, na vifungo kwa matumizi ya Zone 0/1/2.",
+        "keywords": "vifaa salama kiasili, imethibitishwa na ATEX, ushahidi wa mlipuko, vifaa vya eneo hatarishi, vizuizi vya usalama, vifungo vya Ex d"
+      }
+    },
+    "safety-equipment": {
+      "title": "Vifaa vya Usalama",
+      "shortDescription": "Vifaa vya usalama vya viwandani na vifaa vya ulinzi binafsi",
+      "fullDescription": "Suluhisho kamili za usalama ikiwa ni pamoja na vifaa vya ulinzi binafsi, mifumo ya ulinzi wa kuanguka, na vifaa vya kugundua gesi kwa kufuata usalama wa viwandani.",
+      "parentCategoryTitle": "Vifaa vya Usalama na Ulinzi",
+      "keyBenefits": [
+        "Usalama wa Wafanyikazi",
+        "Uzingatiaji wa OSHA",
+        "Ulinzi wa Kuanguka",
+        "Ugunduzi wa Gesi"
+      ],
+      "specifications": [
+        "Viwango vya Ulinzi: ANSI, EN, CSA",
+        "Nyenzo: Inayostahimili athari za juu",
+        "Joto la Uendeshaji: -30°C hadi +60°C",
+        "Kiwango cha Ugunduzi: 0-100% LEL",
+        "Maisha ya Betri: Saa 12+",
+        "Uthibitisho: ATEX, UL, CSA"
+      ],
+      "applications": [
+        "Ulinzi Binafsi",
+        "Ulinzi wa Kuanguka",
+        "Ugunduzi wa Gesi",
+        "Majibu ya Dharura",
+        "Uingiaji wa Nafasi Iliyofungwa",
+        "Usalama wa Viwandani"
+      ],
+      "industries": [
+        "Mafuta na Gesi",
+        "Ujenzi",
+        "Utengenezaji",
+        "Usindikaji wa Kemikali",
+        "Uchimbaji Madini",
+        "Huduma"
+      ],
+      "features": [
+        "Kofia Ngumu na Helmets",
+        "Miwani ya Usalama",
+        "Ulinzi wa Kusikia",
+        "Gloves za Kazi",
+        "Ulinzi wa Kuanguka",
+        "Ugunduzi wa Gesi",
+        "Vifaa vya Dharura",
+        "Mafunzo ya Usalama"
+      ],
+      "certifications": [
+        "ANSI Z87.1",
+        "Imeidhinishwa na OSHA",
+        "EN 397",
+        "CSA Z94.1",
+        "Imethibitishwa na ATEX",
+        "Imeorodheshwa na UL"
+      ],
+      "seo": {
+        "title": "Vifaa vya Usalama vya Viwandani - PPE & Ulinzi wa Kuanguka | Powerton Engineering",
+        "description": "Vifaa vya usalama vya viwandani ikiwa ni pamoja na PPE, mifumo ya ulinzi wa kuanguka, na vifaa vya kugundua gesi. Suluhisho za usalama zinazokubaliana na OSHA kwa ulinzi wa mahali pa kazi.",
+        "keywords": "vifaa vya usalama, PPE, vifaa vya ulinzi binafsi, ulinzi wa kuanguka, ugunduzi wa gesi, usalama wa viwandani, usalama wa mahali pa kazi"
+      }
+    },
+    "centrifugal-pumps": {
+      "title": "Pampu za Kati",
+      "shortDescription": "Pampu za kati zenye ufanisi wa hali ya juu kwa ushughulikiaji wa maji wa viwandani",
+      "fullDescription": "Pampu za kati thabiti zilizoundwa kwa operesheni endelevu na viwango vya juu vya mtiririko, upinzani wa kutu, na utendaji mzuri wa nishati kwa matumizi anuwai ya viwandani.",
+      "parentCategoryTitle": "Pampu za Mitambo na Vipuri",
+      "keyBenefits": [
+        "Uwezo Mkubwa wa Mtiririko",
+        "Ufanisi wa Nishati",
+        "Matengenezo ya Chini",
+        "Upinzani wa Kutumia"
+      ],
+      "specifications": [
+        "Kiwango cha Mtiririko: 10 hadi 10,000 GPM",
+        "Urefu: futi 10 hadi 500",
+        "Nguvu: 1HP hadi 500HP",
+        "Joto: -20°C hadi +200°C",
+        "Vifaa: Chuma cha Kutupwa, Chuma cha pua, Bronze",
+        "Mihuri: Mitambo, Ufungashaji wa Gland"
+      ],
+      "applications": [
+        "Usambazaji wa Maji",
+        "Mifumo ya Kupoeza",
+        "Uhamishaji wa Kemikali",
+        "Umwagiliaji",
+        "Mchakato wa Viwandani",
+        "Ulinzi wa Moto"
+      ],
+      "industries": [
+        "Usafishaji wa Maji",
+        "Usindikaji wa Kemikali",
+        "Uzalishaji wa Nguvu",
+        "HVAC",
+        "Kilimo",
+        "Uchimbaji Madini"
+      ],
+      "features": [
+        "Vipandikizi vya Ufanisi wa Juu",
+        "Rotor Iliyosawazishwa",
+        "Mihuri ya Mitambo",
+        "Upinzani wa Kutumia",
+        "NPSH ya Chini",
+        "Matengenezo Rahisi",
+        "Vifaa Vingi",
+        "Upachikaji Mwingi"
+      ],
+      "certifications": [
+        "ISO 9001",
+        "Alama ya CE",
+        "Imeorodheshwa na UL",
+        "API 610",
+        "ANSI B73.1",
+        "Imeidhinishwa na CSA"
+      ],
+      "seo": {
+        "title": "Pampu za Kati - Pampu za Maji na Kemikali za Viwandani | Powerton Engineering",
+        "description": "Pampu za kati zenye ufanisi wa hali ya juu kwa matumizi ya viwandani. Pampu za kuvuta mwisho, za mgawanyiko wa mlalo kwa usafishaji wa maji na usindikaji wa kemikali.",
+        "keywords": "pampu za kati, pampu za viwandani, pampu za maji, pampu za kemikali, pampu za mchakato, pampu za kuvuta mwisho"
+      }
+    },
+    "diaphragm-pumps": {
+      "title": "Pampu za Diaphragm",
+      "shortDescription": "Pampu za diaphragm zinazoendeshwa na hewa na umeme kwa uhamishaji wa kemikali",
+      "fullDescription": "Pampu za diaphragm zinazotumika kwa ushughulikiaji wa maji yanayokwaruza, yenye viscous, na babuzi na uwezo wa kujisukuma na ulinzi wa kukauka.",
+      "parentCategoryTitle": "Pampu za Mitambo na Vipuri",
+      "keyBenefits": [
+        "Kujisukuma",
+        "Uwezo wa Kukauka",
+        "Upinzani wa Kemikali",
+        "Ushughulikiaji wa Mango"
+      ],
+      "specifications": [
+        "Kiwango cha Mtiririko: 1 hadi 250 GPM",
+        "Shinikizo: hadi 125 PSI",
+        "Mango: hadi inchi 1/2",
+        "Joto: -40°C hadi +180°C",
+        "Vifaa: Polypropen, PVDF, Aluminium",
+        "Diaphragm: PTFE, Santoprene, Viton"
+      ],
+      "applications": [
+        "Uhamishaji wa Kemikali",
+        "Ushughulikiaji wa Maji Taka",
+        "Rangi na Vipako",
+        "Uhamishaji wa Matope",
+        "Uondoaji Maji",
+        "Matumizi ya Upimaji"
+      ],
+      "industries": [
+        "Usindikaji wa Kemikali",
+        "Uchimbaji Madini",
+        "Rangi na Vipako",
+        "Chakula na Vinywaji",
+        "Kauri",
+        "Maji Taka"
+      ],
+      "features": [
+        "Kujisukuma",
+        "Salama ya Kukauka",
+        "Ushughulikiaji wa Mango",
+        "Upinzani wa Kemikali",
+        "Inaendeshwa na Hewa",
+        "Uendeshaji Usiovuja",
+        "Matengenezo Rahisi",
+        "Chaguzi za Uthibitisho wa Mlipuko"
+      ],
+      "certifications": [
+        "Imeidhinishwa na ATEX",
+        "Alama ya CE",
+        "Inatii FDA",
+        "ISO 9001",
+        "Imethibitishwa na EHEDG",
+        "Usafi wa 3A"
+      ],
+      "seo": {
+        "title": "Pampu za Diaphragm - Pampu za Diaphragm Zinazoendeshwa na Hewa na Umeme | Powerton Engineering",
+        "description": "Pampu za diaphragm za viwandani kwa uhamishaji wa kemikali na ushughulikiaji wa maji taka. AODD na pampu za diaphragm za umeme zenye uwezo wa kujisukuma.",
+        "keywords": "pampu za diaphragm, pampu za AODD, pampu za diaphragm zinazoendeshwa na hewa, pampu za uhamishaji wa kemikali, pampu za tope"
+      }
+    },
+    "gear-pumps": {
+      "title": "Pampu za Gia",
+      "shortDescription": "Pampu za gia za usahihi kwa uhamishaji wa maji yenye viscous",
+      "fullDescription": "Pampu za gia za usahihi wa hali ya juu zilizoundwa kwa kushughulikia vimiminika vyenye viscous na upimaji sahihi na mtiririko thabiti katika matumizi ya viwandani.",
+      "parentCategoryTitle": "Pampu za Mitambo na Vipuri",
+      "keyBenefits": [
+        "Mtiririko Thabiti",
+        "Shinikizo la Juu",
+        "Ushughulikiaji wa Maji yenye Viscous",
+        "Upimaji Sahihi"
+      ],
+      "specifications": [
+        "Kiwango cha Mtiririko: 0.1 hadi 500 GPM",
+        "Shinikizo: hadi 3000 PSI",
+        "Viscosity: hadi 1,000,000 SSU",
+        "Joto: -40°C hadi +400°C",
+        "Vifaa: Chuma cha Kutupwa, Chuma cha pua",
+        "Aina za Muhuri: Ufungashaji, Mitambo"
+      ],
+      "applications": [
+        "Mafuta ya Kulainisha",
+        "Mifumo ya Hydraulic",
+        "Uhamishaji wa Polymer",
+        "Mafuta ya Fueli",
+        "Bitumen",
+        "Gundi"
+      ],
+      "industries": [
+        "Mafuta na Gesi",
+        "Usindikaji wa Kemikali",
+        "Uzalishaji wa Polymer",
+        "Usindikaji wa Chakula",
+        "Hydraulics",
+        "Mifumo ya Kulainisha"
+      ],
+      "features": [
+        "Uhamishaji Chanya",
+        "Uwezo wa Shinikizo la Juu",
+        "Ushughulikiaji wa Maji ya Viscous",
+        "Udhibiti Sahihi wa Mtiririko",
+        "Mtiririko wa pande mbili",
+        "Ubunifu Compact",
+        "Mapigo ya Chini",
+        "Matengenezo Rahisi"
+      ],
+      "certifications": [
+        "ISO 9001",
+        "Alama ya CE",
+        "API 676",
+        "Imeidhinishwa na ATEX",
+        "Usafi wa 3A",
+        "Inatii FDA"
+      ],
+      "seo": {
+        "title": "Pampu za Gia - Pampu za Uhamishaji Chanya za Viwandani | Powerton Engineering",
+        "description": "Pampu za gia za usahihi kwa uhamishaji wa maji yenye viscous na matumizi ya upimaji. Pampu za gia za nje na za ndani kwa matumizi ya viwandani yenye shinikizo la juu.",
+        "keywords": "pampu za gia, pampu za uhamishaji chanya, pampu za maji yenye viscous, pampu za hydraulic, pampu za kulainisha, pampu za kupimia"
+      }
+    },
+    "pump-parts-spares": {
+      "title": "Sehemu za Pampu na Vipuri",
+      "shortDescription": "Sehemu halisi za uingizwaji wa pampu na vifaa vya matengenezo",
+      "fullDescription": "Orodha kamili ya vipuri vya pampu ikijumuisha vipandikizi, mihuri, fani, na gaskets kwa wazalishaji wote wakuu wa pampu.",
+      "parentCategoryTitle": "Pampu za Mitambo na Vipuri",
+      "keyBenefits": [
+        "Sehemu Halisi",
+        "Upatikanaji wa Haraka",
+        "Maisha Marefu ya Pampu",
+        "Kupunguza Muda wa Kusimama"
+      ],
+      "specifications": [
+        "Vifaa: Mbalimbali kulingana na vipimo vya OEM",
+        "Utangamano: Usaidizi wa chapa nyingi",
+        "Ubora: OEM na baada ya soko",
+        "Uwasilishaji: Usafirishaji wa haraka",
+        "Udhamini: Imeungwa mkono na mtengenezaji",
+        "Hisa: Orodha pana"
+      ],
+      "applications": [
+        "Matengenezo ya Pampu",
+        "Matengenezo ya Dharura",
+        "Ukarabati Uliopangwa",
+        "Uboreshaji wa Utendaji",
+        "Matengenezo ya Kinga",
+        "Hisa za Vipuri"
+      ],
+      "industries": [
+        "Uzalishaji",
+        "Usafishaji wa Maji",
+        "Usindikaji wa Kemikali",
+        "Uzalishaji wa Nguvu",
+        "Mafuta na Gesi",
+        "Uchimbaji Madini"
+      ],
+      "features": [
+        "Vipandikizi",
+        "Mihuri ya Mitambo",
+        "Fani",
+        "Shafts",
+        "Pete za Kuchakaa",
+        "Gaskets na O-Rings",
+        "Viunganishi",
+        "Sehemu za Motor"
+      ],
+      "certifications": [
+        "ISO 9001",
+        "Imeidhinishwa na OEM",
+        "Imethibitishwa Ubora",
+        "Imethibitishwa Vifaa",
+        "Imethibitishwa Vipimo",
+        "Imejaribiwa Utendaji"
+      ],
+      "seo": {
+        "title": "Sehemu za Pampu na Vipuri - Sehemu Halisi za Uingizwaji | Powerton Engineering",
+        "description": "Sehemu halisi za uingizwaji wa pampu na vipuri kwa chapa zote kuu. Vipandikizi, mihuri ya mitambo, fani, na gaskets na uwasilishaji wa haraka.",
+        "keywords": "sehemu za pampu, vipuri vya pampu, mihuri ya pampu, vipandikizi, fani za pampu, matengenezo ya pampu, sehemu za uingizwaji"
+      }
+    },
+    "hand-tools": {
+      "title": "Zana za Mkono",
+      "shortDescription": "Zana za mkono za kitaalamu kwa matengenezo na ukarabati wa viwandani",
+      "fullDescription": "Aina kamili ya zana za mkono za kiwango cha kitaalamu ikijumuisha wrenches, bisibisi, koleo, na zana maalum kwa matumizi ya viwandani.",
+      "parentCategoryTitle": "Zana za Kupimia za Viwandani",
+      "keyBenefits": [
+        "Ubora wa Kitaalamu",
+        "Ujenzi wa Kudumu",
+        "Ubunifu wa Ergonomic",
+        "Udhamini wa Maisha"
+      ],
+      "specifications": [
+        "Nyenzo: Chuma cha Vanadium cha Chrome",
+        "Malizio: Imefunikwa na Chrome, Imepakwa Poda",
+        "Viwango: ANSI, DIN, ISO",
+        "Ugumu: HRC 40-50",
+        "Upinzani wa Kutumia: Juu",
+        "Udhamini: Maisha"
+      ],
+      "applications": [
+        "Matengenezo na Ukarabati",
+        "Kazi ya Kusanyiko",
+        "Ufungaji",
+        "Kazi ya Mitambo",
+        "Ufundi Bomba",
+        "Kazi ya Umeme"
+      ],
+      "industries": [
+        "Uzalishaji",
+        "Magari",
+        "Ujenzi",
+        "Matengenezo",
+        "HVAC",
+        "Ufundi Bomba"
+      ],
+      "features": [
+        "Wrenches na Soketi",
+        "Bisibisi",
+        "Koleo",
+        "Nyundo",
+        "Zana za Kupimia",
+        "Zana za Kukata",
+        "Zana Maalum",
+        "Seti za Zana"
+      ],
+      "certifications": [
+        "ISO 9001",
+        "Viwango vya ANSI",
+        "Viwango vya DIN",
+        "Alama ya CE",
+        "Imethibitishwa Ubora",
+        "Imejaribiwa Usalama"
+      ],
+      "seo": {
+        "title": "Zana za Mkono za Kitaalamu - Zana za Matengenezo za Viwandani | Powerton Engineering",
+        "description": "Zana za mkono za kitaalamu kwa matengenezo na ukarabati wa viwandani. Wrenches, bisibisi, koleo, na zana maalum na udhamini wa maisha.",
+        "keywords": "zana za mkono, zana za viwandani, wrenches, bisibisi, koleo, zana za matengenezo, zana za kitaalamu"
+      }
+    },
+    "power-tools": {
+      "title": "Zana za Nguvu",
+      "shortDescription": "Zana za nguvu za viwandani kwa kukata, kuchimba visima, na kusaga",
+      "fullDescription": "Zana za nguvu za kiwango cha kitaalamu ikijumuisha mashine za kuchimba visima, mashine za kusaga, na misumeno iliyoundwa kwa matumizi mazito ya viwandani.",
+      "parentCategoryTitle": "Zana za Kupimia za Viwandani",
+      "keyBenefits": [
+        "Utendaji wa Nguvu ya Juu",
+        "Ujenzi Mzito",
+        "Vipengele vya Usalama",
+        "Kiwango cha Kitaalamu"
+      ],
+      "specifications": [
+        "Nguvu: 500W hadi 2500W",
+        "Voltage: 110V/220V",
+        "Kasi: Inayobadilika",
+        "Ukubwa wa Chuck: Mbalimbali",
+        "Usalama: Vipengele vingi",
+        "Mzunguko wa Kazi: Endelevu"
+      ],
+      "applications": [
+        "Uundaji wa Chuma",
+        "Ufundi wa Mbao",
+        "Ujenzi",
+        "Matengenezo",
+        "Ufungaji",
+        "Uharibifu"
+      ],
+      "industries": [
+        "Uzalishaji",
+        "Ujenzi",
+        "Uundaji wa Chuma",
+        "Magari",
+        "Ufundi wa Mbao",
+        "Matengenezo"
+      ],
+      "features": [
+        "Mashine za Kusaga Pembeni",
+        "Mashine za Kuchimba Visima na Viendeshaji",
+        "Wrenches za Athari",
+        "Misumeno ya Mviringo",
+        "Misumeno ya Kubadilishana",
+        "Mashine za Kusaga na Kung'arisha",
+        "Bunduki za Joto",
+        "Zana za Rotary"
+      ],
+      "certifications": [
+        "Imeorodheshwa na UL",
+        "Alama ya CE",
+        "ISO 9001",
+        "Imethibitishwa Usalama",
+        "Inatii EMC",
+        "Inatii RoHS"
+      ],
+      "seo": {
+        "title": "Zana za Nguvu za Viwandani - Mashine za Kuchimba Visima, Mashine za Kusaga na Misumeno ya Kitaalamu | Powerton Engineering",
+        "description": "Zana za nguvu za kitaalamu kwa matumizi ya viwandani. Mashine za kuchimba visima nzito, mashine za kusaga pembeni, na misumeno yenye vipengele vya usalama na utendaji wa juu.",
+        "keywords": "zana za nguvu, mashine za kuchimba visima za viwandani, mashine za kusaga pembeni, misumeno ya mviringo, zana za nguvu za kitaalamu, zana nzito"
+      }
+    },
+    "cutting-tools": {
+      "title": "Zana za Kukata",
+      "shortDescription": "Zana za kukata za usahihi kwa usindikaji wa chuma na vifaa",
+      "fullDescription": "Zana za kukata za usahihi wa hali ya juu ikijumuisha vinu vya mwisho, mashine za kuchimba visima, taps, na dies kwa matumizi ya machining na uzalishaji.",
+      "parentCategoryTitle": "Zana za Kupimia za Viwandani",
+      "keyBenefits": [
+        "Kukata kwa Usahihi",
+        "Maisha Marefu ya Zana",
+        "Utendaji wa Kasi ya Juu",
+        "Malizio Bora"
+      ],
+      "specifications": [
+        "Vifaa: HSS, Carbide, Cobalt",
+        "Mipako: TiN, TiCN, AlTiN",
+        "Ukubwa: Metric na Imperial",
+        "Usahihi: ±0.001\"",
+        "Viwango: ANSI, DIN, ISO",
+        "Matumizi: Vifaa mbalimbali"
+      ],
+      "applications": [
+        "CNC Machining",
+        "Machining ya Mwongozo",
+        "Uendeshaji wa Kuchimba Visima",
+        "Uendeshaji wa Kusaga",
+        "Kutengeneza Nyuzi",
+        "Kupanua"
+      ],
+      "industries": [
+        "Uzalishaji",
+        "Magari",
+        "Anga",
+        "Zana na Die",
+        "Uundaji wa Chuma",
+        "Maduka ya Mashine"
+      ],
+      "features": [
+        "Vinu vya Mwisho",
+        "Bits za Kuchimba Visima",
+        "Taps na Dies",
+        "Reamers",
+        "Zana za Kuchosha",
+        "Vikaunta",
+        "Zana za Kutengeneza Nyuzi",
+        "Zana Maalum"
+      ],
+      "certifications": [
+        "ISO 9001",
+        "Viwango vya DIN",
+        "Viwango vya ANSI",
+        "Imethibitishwa Ubora",
+        "Imethibitishwa Usahihi",
+        "Imethibitishwa Vifaa"
+      ],
+      "seo": {
+        "title": "Zana za Kukata za Usahihi - Vinu vya Mwisho, Mashine za Kuchimba Visima na Taps | Powerton Engineering",
+        "description": "Zana za kukata za usahihi kwa machining na uzalishaji. HSS na vinu vya mwisho vya carbide, bits za kuchimba visima, taps, na dies kwa matumizi ya viwandani.",
+        "keywords": "zana za kukata, vinu vya mwisho, bits za kuchimba visima, taps na dies, zana za machining, zana za carbide, zana za usahihi"
+      }
+    },
+    "lifting-equipment": {
+      "title": "Vifaa vya Kuinua",
+      "shortDescription": "Vifaa vya kuinua na ushughulikiaji wa vifaa vya viwandani",
+      "fullDescription": "Vifaa vizito vya kuinua ikijumuisha hoists, cranes, slings, na vifaa vya kuunganisha kwa ushughulikiaji salama wa vifaa katika mazingira ya viwandani.",
+      "parentCategoryTitle": "Zana za Kupimia za Viwandani",
+      "keyBenefits": [
+        "Ushughulikiaji Salama wa Mizigo",
+        "Ujenzi Mzito",
+        "Imethibitishwa Uzingatiaji",
+        "Matumizi Mengi"
+      ],
+      "specifications": [
+        "Uwezo: tani 0.5 hadi tani 50",
+        "Urefu wa Kuinua: hadi futi 100",
+        "Kiwango cha Usalama: 5:1 kiwango cha chini",
+        "Vifaa: Chuma cha Aloi",
+        "Viwango: OSHA, ASME",
+        "Uthibitisho: Imejaribiwa Mzigo"
+      ],
+      "applications": [
+        "Ushughulikiaji wa Vifaa",
+        "Ufungaji wa Vifaa",
+        "Shughuli za Matengenezo",
+        "Ujenzi",
+        "Shughuli za Ghala",
+        "Uzalishaji"
+      ],
+      "industries": [
+        "Uzalishaji",
+        "Ujenzi",
+        "Uhifadhi",
+        "Usafirishaji na Usafirishaji",
+        "Uchimbaji Madini",
+        "Uzalishaji wa Nguvu"
+      ],
+      "features": [
+        "Hoists za Mnyororo",
+        "Hoists za Kamba ya Waya",
+        "Slings na Uunganishaji",
+        "Minyororo ya Kuinua",
+        "Pingu",
+        "Ndoano na Vitalu",
+        "Hoists za Lever",
+        "Cranes za Jib"
+      ],
+      "certifications": [
+        "Inatii OSHA",
+        "ASME B30",
+        "Alama ya CE",
+        "Imejaribiwa Mzigo",
+        "ISO 9001",
+        "Imethibitishwa Usalama"
+      ],
+      "seo": {
+        "title": "Vifaa vya Kuinua vya Viwandani - Hoists, Cranes & Rigging | Powerton Engineering",
+        "description": "Vifaa vizito vya kuinua kwa ushughulikiaji wa vifaa vya viwandani. Hoists za mnyororo, hoists za kamba ya waya, slings, na vifaa vya kuunganisha na uthibitisho wa usalama.",
+        "keywords": "vifaa vya kuinua, hoists, cranes, vifaa vya kuunganisha, ushughulikiaji wa vifaa, hoists za mnyororo, kuinua viwandani"
+      }
+    },
+    "multimeters": {
+      "title": "Multimita na Mita za Clamp",
+      "shortDescription": "Multimita za dijitali na mita za clamp kwa vipimo vya umeme",
+      "fullDescription": "Multimita za kitaalamu za dijitali na mita za clamp zilizo na vipengele vya hali ya juu kwa vipimo sahihi vya umeme katika mazingira ya viwandani.",
+      "parentCategoryTitle": "Zana za Kupimia za Viwandani",
+      "keyBenefits": [
+        "Usahihi wa Juu",
+        "Kazi Nyingi za Upimaji",
+        "Vipengele vya Usalama",
+        "Rahisi Kutumia"
+      ],
+      "specifications": [
+        "Kiwango cha Volteji: 0.1mV hadi 1000V",
+        "Kiwango cha Sasa: 0.01mA hadi 1000A",
+        "Upinzani: 0.1Ω hadi 50MΩ",
+        "Usahihi: ±0.5% hadi ±2%",
+        "Onyesho: Hesabu ya dijitali 6000",
+        "Ukadiriaji wa Usalama: CAT III/IV"
+      ],
+      "applications": [
+        "Upimaji wa Umeme",
+        "Matengenezo na Ukarabati",
+        "Uthibitishaji wa Ufungaji",
+        "Utatuzi wa Matatizo",
+        "Udhibiti wa Ubora",
+        "Huduma ya Uwanjani"
+      ],
+      "industries": [
+        "Huduma za Umeme",
+        "Utengenezaji",
+        "Usimamizi wa Vifaa",
+        "HVAC",
+        "Magari",
+        "Elektroniki"
+      ],
+      "features": [
+        "Upeo wa Kiotomatiki",
+        "RMS ya Kweli",
+        "Ushikiliaji wa Data",
+        "Kurekodi Min/Max",
+        "Onyesho Lenye Mwanga wa Nyuma",
+        "Kiashiria cha Betri Chini",
+        "Ulinzi wa Kupakia Kupita Kiasi",
+        "Buzer ya Mwendelezo"
+      ],
+      "certifications": [
+        "Imeorodheshwa CAT III/IV",
+        "IEC 61010",
+        "Imeandikwa CE",
+        "Imeorodheshwa UL",
+        "Inatii RoHS",
+        "ISO 9001"
+      ],
+      "seo": {
+        "title": "Multimita za Dijitali na Mita za Clamp - Upimaji wa Kitaalamu wa Umeme | Powerton Engineering",
+        "description": "Multimita za kitaalamu za dijitali na mita za clamp kwa upimaji na vipimo vya umeme. Mita za RMS za kweli zilizo na ukadiriaji wa usalama wa CAT III/IV.",
+        "keywords": "multimita za dijitali, mita za clamp, upimaji wa umeme, mita za volteji, mita za sasa, mita za upinzani, vipimo vya umeme"
+      }
+    },
+    "power-quality-analyzers": {
+      "title": "Vichanganuzi vya Ubora wa Nguvu",
+      "shortDescription": "Vyombo vya hali ya juu vya ufuatiliaji na uchanganuzi wa ubora wa nguvu",
+      "fullDescription": "Vichanganuzi vya kitaalamu vya ubora wa nguvu kwa ufuatiliaji kamili wa mfumo wa umeme, uchanganuzi wa harmonics, na usimamizi wa nishati.",
+      "parentCategoryTitle": "Zana za Kupimia za Viwandani",
+      "keyBenefits": [
+        "Uchanganuzi Kamili wa Nguvu",
+        "Ugunduzi wa Harmonics",
+        "Usimamizi wa Nishati",
+        "Uwekaji Kumbukumbu wa Data"
+      ],
+      "specifications": [
+        "Kiwango cha Volteji: 1V hadi 1000V",
+        "Kiwango cha Sasa: 1mA hadi 6000A",
+        "Marudio: 40-70 Hz",
+        "Harmonics: hadi agizo la 50",
+        "Kumbukumbu: hadi 8GB",
+        "Kiwango cha Sampuli: hadi 1MHz"
+      ],
+      "applications": [
+        "Tathmini ya Ubora wa Nguvu",
+        "Ukaguzi wa Nishati",
+        "Uchanganuzi wa Harmonics",
+        "Utafiti wa Mizigo",
+        "Utatuzi wa Matatizo",
+        "Upimaji wa Uzingatiaji"
+      ],
+      "industries": [
+        "Uzaji wa Nguvu",
+        "Utengenezaji",
+        "Vituo vya Data",
+        "Majengo ya Biashara",
+        "Huduma ya Afya",
+        "Elimu"
+      ],
+      "features": [
+        "Ufuatiliaji wa Wakati Halisi",
+        "Ukamataji wa Wimbi",
+        "Uchanganuzi wa Mielekeo",
+        "Urekodi wa Tukio",
+        "Ufuatiliaji wa Mbali",
+        "Uzalishaji wa Ripoti",
+        "Onyesho la Skrini ya Kugusa",
+        "Muunganisho wa Wireless"
+      ],
+      "certifications": [
+        "IEC 61000-4-30",
+        "EN 50160",
+        "Imeorodheshwa CAT IV",
+        "Imeandikwa CE",
+        "Imeorodheshwa UL",
+        "ISO 17025"
+      ],
+      "seo": {
+        "title": "Vichanganuzi vya Ubora wa Nguvu - Vyombo vya Ufuatiliaji wa Nguvu za Umeme | Powerton Engineering",
+        "description": "Vichanganuzi vya hali ya juu vya ubora wa nguvu kwa ufuatiliaji na uchanganuzi kamili wa mfumo wa umeme. Ugunduzi wa Harmonics, usimamizi wa nishati, na uwekaji kumbukumbu wa data.",
+        "keywords": "vichanganuzi vya ubora wa nguvu, vifuatiliaji vya nguvu, vichanganuzi vya harmonics, vichanganuzi vya nishati, vifaa vya upimaji wa umeme, vyombo vya ubora wa nguvu"
+      }
+    },
+    "calibration-equipment": {
+      "title": "Vifaa vya Urekebishaji na Upimaji",
+      "shortDescription": "Vyombo vya kitaalamu vya urekebishaji na upimaji kwa matumizi ya viwandani",
+      "fullDescription": "Aina kamili ya vifaa vya urekebishaji na vyombo vya upimaji kwa kudumisha usahihi na uzingatiaji katika mifumo ya upimaji ya viwandani.",
+      "keyBenefits": [
+        "Urekebishaji wa Usahihi",
+        "Ufuatiliaji",
+        "Uthibitishaji wa Uzingatiaji",
+        "Maisha Marefu ya Vifaa"
+      ],
+      "specifications": [
+        "Usahihi: ±0.01% hadi ±0.1%",
+        "Kiwango cha Urekebishaji: Mbalimbali",
+        "Halijoto: -25°C hadi +70°C",
+        "Pato: 4-20mA, 0-10V, mV, RTD, TC",
+        "Onyesho: Dijitali yenye azimio la juu",
+        "Hifadhi ya Data: USB, Kadi ya SD"
+      ],
+      "applications": [
+        "Urekebishaji wa Chombo",
+        "Uthibitishaji wa Mchakato",
+        "Uhakikisho wa Ubora",
+        "Programu za Matengenezo",
+        "Upimaji wa Uzingatiaji",
+        "Urekebishaji wa Uwanjani"
+      ],
+      "industries": [
+        "Mafuta na Gesi",
+        "Dawa",
+        "Chakula na Vinywaji",
+        "Usindikaji wa Kemikali",
+        "Uzaji wa Nguvu",
+        "Anga"
+      ],
+      "features": [
+        "Uwezo wa Kazi Nyingi",
+        "Usahihi wa Juu",
+        "Mawasiliano ya HART",
+        "Upimaji wa Kiotomatiki",
+        "Uwekaji Kumbukumbu wa Data",
+        "Inaendeshwa na Betri",
+        "Ubunifu Imara",
+        "Vyeti vya Urekebishaji"
+      ],
+      "certifications": [
+        "Imeidhinishwa ISO 17025",
+        "Inafuatiliwa na NIST",
+        "Imeandikwa CE",
+        "Imeorodheshwa UL",
+        "Inatii RoHS",
+        "ISO 9001"
+      ],
+      "seo": {
+        "title": "Vifaa vya Urekebishaji - Vyombo vya Upimaji na Urekebishaji vya Viwandani | Powerton Engineering",
+        "description": "Vifaa vya kitaalamu vya urekebishaji na upimaji kwa matumizi ya viwandani. Virekebishaji vinavyofuatiliwa na NIST kwa vyombo vya shinikizo, halijoto na umeme.",
+        "keywords": "vifaa vya urekebishaji, vyombo vya upimaji, virekebishaji, urekebishaji wa chombo, inafuatiliwa na NIST, urekebishaji wa mchakato, urekebishaji wa uwanjani"
+      }
+    },
+    "bldc-cooler-exhaust-motor": {
+      "title": "Motors za BLDC za Kipoozi na Kutolea Nje",
+      "shortDescription": "Motors za BLDC zenye ufanisi wa juu kwa vipoozi na feni za kutolea nje",
+      "fullDescription": "Motors za hali ya juu za BLDC zilizoundwa kwa vipoozi vya jangwa na feni za kutolea nje na ufanisi bora, uimara, na utendaji.",
+      "parentCategoryTitle": "Bidhaa za BLDC",
+      "keyBenefits": [
+        "Ufanisi wa Nishati",
+        "Kelele Chini",
+        "Uimara wa Juu",
+        "Inayostahimili Hali ya Hewa"
+      ],
+      "specifications": [
+        "Nguvu: 35W hadi 85W",
+        "Volteji: 220V AC",
+        "Kasi: 1400-1800 RPM",
+        "Mtiririko wa Hewa: CFM ya Juu",
+        "Ulinzi: IP44",
+        "Ufanisi: >85%"
+      ],
+      "applications": [
+        "Vipoozi vya Jangwa",
+        "Feni za Kutolea Nje",
+        "Mifumo ya Uingizaji Hewa",
+        "Upൂaji wa Viwandani",
+        "Utoaji wa Jikoni",
+        "Uingizaji Hewa wa Bafuni"
+      ],
+      "industries": [
+        "HVAC",
+        "Makazi",
+        "Majengo ya Biashara",
+        "Uingizaji Hewa wa Viwandani",
+        "Huduma ya Chakula",
+        "Utengenezaji"
+      ],
+      "features": [
+        "Teknolojia ya BLDC",
+        "Ufanisi wa Juu",
+        "Matengenezo ya Chini",
+        "Inayostahimili Kutumia",
+        "Ulinzi wa Joto",
+        "Maisha Marefu ya Huduma",
+        "Uendeshaji Tulivu",
+        "Haitaji Matengenezo"
+      ],
+      "certifications": [
+        "Imethibitishwa na BEE",
+        "Alama ya ISI",
+        "Imeidhinishwa na CE",
+        "Imeorodheshwa IP44",
+        "Inatii RoHS",
+        "ISO 9001"
+      ],
+      "seo": {
+        "title": "Motors za BLDC za Kipoozi na Kutolea Nje - Motors za BLDC Zenye Ufanisi wa Juu | Powerton Engineering",
+        "description": "Motors za BLDC zenye ufanisi wa juu kwa vipoozi vya jangwa na feni za kutolea nje. Motors za DC zisizo na brashi zinazookoa nishati na maisha marefu ya huduma.",
+        "keywords": "motors za BLDC za vipoozi, motors za BLDC za kutolea nje, motors za DC zisizo na brashi, motors zenye ufanisi wa nishati, motors za vipoozi, motors za feni za kutolea nje"
+      }
+    },
+    "bldc-ceiling-fan": {
+      "title": "Feni za Dari za BLDC",
+      "shortDescription": "Feni za dari za DC zisizo na brashi zinazotumia nishati",
+      "fullDescription": "Feni za dari za BLDC zenye ufanisi wa juu na teknolojia ya kuokoa nishati, vidhibiti mahiri, na utendaji bora kwa matumizi ya makazi na biashara.",
+      "parentCategoryTitle": "Bidhaa za BLDC",
+      "keyBenefits": [
+        "Akiba ya Nishati hadi 65%",
+        "Uendeshaji Kimya",
+        "Kidhibiti cha Mbali",
+        "Maisha Marefu ya Huduma"
+      ],
+      "specifications": [
+        "Nguvu ya Motor: 28W hadi 52W",
+        "Kasi: 1200-1600 RPM",
+        "Mtiririko wa Hewa: 200-280 CMM",
+        "Volteji: 220V AC",
+        "Upeo: 1200mm hadi 1600mm",
+        "Ukadiriaji wa Nishati: Nyota 5 BEE"
+      ],
+      "applications": [
+        "Vyumba vya Makazi",
+        "Nafasi za Ofisi",
+        "Majengo ya Biashara",
+        "Ukarimu",
+        "Taasisi za Elimu",
+        "Vituo vya Afya"
+      ],
+      "industries": [
+        "Ujenzi wa Makazi",
+        "Majengo ya Biashara",
+        "Ukarimu",
+        "Huduma ya Afya",
+        "Elimu",
+        "Rejareja"
+      ],
+      "features": [
+        "Teknolojia ya Motor ya BLDC",
+        "Kidhibiti cha Mbali",
+        "Kasi Inayobadilika",
+        "Hali ya Kubadilisha",
+        "Kazi ya Kipima Muda",
+        "Viashiria vya LED",
+        "Vile vya Aerodynamic",
+        "Uendeshaji Tulivu"
+      ],
+      "certifications": [
+        "Imeidhinishwa Nyota 5 na BEE",
+        "Alama ya ISI",
+        "Imeidhinishwa na CE",
+        "Inatii RoHS",
+        "Nyota ya Nishati",
+        "ISO 9001"
+      ],
+      "seo": {
+        "title": "Feni za Dari za BLDC - Feni za DC Zisizo na Brashi Zinazotumia Nishati | Powerton Engineering",
+        "description": "Feni za dari za BLDC zinazotumia nishati na ukadiriaji wa nyota 5 wa BEE. Kidhibiti mahiri cha mbali, uendeshaji tulivu, na akiba ya nishati hadi 65%.",
+        "keywords": "feni za dari za BLDC, feni zinazotumia nishati, feni za DC zisizo na brashi, feni mahiri za dari, feni za nyota 5, feni za kidhibiti cha mbali"
+      }
+    },
+    "bldc-submersible-surface-pump": {
+      "title": "Pampu za BLDC za Maji za Ndani na za Juu",
+      "shortDescription": "Pampu za maji za BLDC zinazooana na sola kwa umwagiliaji na usambazaji wa maji",
+      "fullDescription": "Pampu za hali ya juu za BLDC za maji za ndani na za juu zenye uoanifu wa sola, ufanisi wa juu, na utendaji wa kuaminika kwa matumizi ya kilimo na nyumbani.",
+      "parentCategoryTitle": "Bidhaa za BLDC",
+      "keyBenefits": [
+        "Inaoana na Sola",
+        "Ufanisi wa Nishati",
+        "Matengenezo ya Chini",
+        "Uaminifu wa Juu"
+      ],
+      "specifications": [
+        "Nguvu: 0.5HP hadi 5HP",
+        "Kichwa: 10m hadi 150m",
+        "Mtiririko: 10 hadi 150 LPM",
+        "Volteji: 48V/110V/220V DC",
+        "Sola: Inaoana na MPPT",
+        "Ufanisi: >85%"
+      ],
+      "applications": [
+        "Umwagiliaji wa Kilimo",
+        "Usambazaji wa Maji ya Nyumbani",
+        "Usukumiaji wa Maji wa Sola",
+        "Umwagiliaji wa Mifugo",
+        "Umwagiliaji wa Bustani",
+        "Uhamishaji wa Maji"
+      ],
+      "industries": [
+        "Kilimo",
+        "Nishati ya Sola",
+        "Makazi",
+        "Maendeleo ya Vijijini",
+        "Umwagiliaji",
+        "Usimamizi wa Maji"
+      ],
+      "features": [
+        "Motor ya BLDC",
+        "Inaoana na Sola",
+        "Teknolojia ya MPPT",
+        "Mwili wa Chuma cha pua",
+        "Ulinzi wa Kukauka",
+        "Ulinzi wa Joto",
+        "Ufanisi wa Juu",
+        "Matengenezo ya Chini"
+      ],
+      "certifications": [
+        "Imethibitishwa na BEE",
+        "Alama ya ISI",
+        "Imeidhinishwa na CE",
+        "Imethibitishwa kwa Sola",
+        "Imeorodheshwa IP68",
+        "ISO 9001"
+      ],
+      "seo": {
+        "title": "Pampu za Maji za BLDC - Pampu za Sola za Ndani na za Juu | Powerton Engineering",
+        "description": "Pampu za maji za BLDC zinazooana na sola kwa umwagiliaji na matumizi ya nyumbani. Pampu za maji za ndani na za juu zinazotumia nishati vizuri na teknolojia ya MPPT.",
+        "keywords": "pampu za maji za BLDC, pampu za maji za sola, pampu za maji za ndani za BLDC, pampu za sola, pampu za DC zisizo na brashi, pampu za umwagiliaji"
+      }
+    },
+    "bldc-table-fan-wall-fan-motor": {
+      "title": "Motors za BLDC za Feni za Meza na Ukuta",
+      "shortDescription": "Motors za BLDC kompakt kwa feni za meza na ukuta",
+      "fullDescription": "Motors za BLDC zinazotumia nishati vizuri zilizoundwa kwa feni za meza na ukuta na utendaji bora, kelele ya chini, na maisha marefu ya huduma.",
+      "keyBenefits": [
+        "Ubunifu Mdogo",
+        "Kuokoa Nishati",
+        "Uendeshaji Tulivu",
+        "Maisha Marefu"
+      ],
+      "specifications": [
+        "Nguvu: 25W hadi 45W",
+        "Kasi: 1200-1800 RPM",
+        "Volteji: 220V AC",
+        "Mtiririko wa Hewa: 60-90 CMM",
+        "Kelele: <40dB",
+        "Ufanisi: >80%"
+      ],
+      "applications": [
+        "Feni za Meza",
+        "Feni za Ukuta",
+        "Feni za Msingi",
+        "Upൂaji Binafsi",
+        "Uingizaji Hewa wa Ofisi",
+        "Upൂaji wa Chumba"
+      ],
+      "industries": [
+        "Elektroniki za Watumiaji",
+        "Makazi",
+        "Biashara",
+        "Ukarimu",
+        "Vifaa vya Ofisi",
+        "Rejareja"
+      ],
+      "features": [
+        "Teknolojia ya BLDC",
+        "Ufanisi wa Juu",
+        "Uendeshaji Tulivu",
+        "Kasi Inayobadilika",
+        "Ukubwa Kompakt",
+        "Joto Chini",
+        "Maisha Marefu ya Huduma",
+        "Imekadiriwa na Nyota ya Nishati"
+      ],
+      "certifications": [
+        "BEE Nyota 5",
+        "Alama ya ISI",
+        "Imeidhinishwa na CE",
+        "Inatii RoHS",
+        "Nyota ya Nishati",
+        "ISO 9001"
+      ],
+      "seo": {
+        "title": "Motors za BLDC za Feni za Meza na Ukuta - Motors za Feni Zinazotumia Nishati | Powerton Engineering",
+        "description": "Motors za BLDC kompakt kwa feni za meza na ukuta. Motors za DC zisizo na brashi zinazotumia nishati vizuri na uendeshaji tulivu na maisha marefu ya huduma.",
+        "keywords": "motors za feni za BLDC, motors za feni za meza, motors za feni za ukuta, motors zinazotumia nishati, motors za DC zisizo na brashi, motors za feni"
+      }
+    }
+  },
   "surgeProtectors": {
     "acPower": {
       "name": "Kinga za Mawimbi ya Nguvu za AC",
@@ -1868,12 +4051,7 @@
         "Udhibiti wa Mchakato",
         "Uhakikisho wa Ubora"
       ],
-      "industries": [
-        "Uzalishaji",
-        "Magari",
-        "Dawa",
-        "Chakula na Vinywaji"
-      ],
+      "industries": ["Uzalishaji", "Magari", "Dawa", "Chakula na Vinywaji"],
       "certifications": ["ISO 9001", "Alama ya CE"],
       "keywords": {
         "industrialAutomation": "automation ya viwandani",
