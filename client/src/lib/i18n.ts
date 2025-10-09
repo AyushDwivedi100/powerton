@@ -149,8 +149,10 @@ i18n.on("languageChanged", (lng) => {
 // Set up missing key logging for development
 i18n.on("missingKey", (lngs, namespace, key) => {
   if (import.meta.env.DEV) {
-    console.warn(
-      `Missing translation: ${namespace}:${key} for languages: ${lngs.join(", ")}`,
+    console.error(
+      `🚨 MISSING TRANSLATION: ${namespace}:${key} for languages: ${lngs.join(
+        ", "
+      )}`
     );
   }
 });
