@@ -8,6 +8,9 @@
     "contact": "Contact Us",
     "quote": "Get a Quote"
   },
+  "navigation": {
+    "phoneNumbers": "Phone Numbers"
+  },
   "language": {
     "en": "English",
     "hi": "Hindi",
@@ -485,7 +488,9 @@
       "automationControlSystems": "Automation Control Systems",
       "safetyProtectiveDevices": "Safety and Protective Devices",
       "mechanicalPumpsSpares": "Mechanical Pumps and Spares",
-      "industrialToolsTackles": "Industrial Tools and Tackles"
+      "industrialToolsTackles": "Industrial Tools and Tackles",
+      "instrumentationAccessories": "Instrumentation Accessories",
+      "industrialMeasuringTools": "Industrial Measuring Tools"
     },
     "pages": {
       "home": "Home",
@@ -502,6 +507,10 @@
       "newsArticles": "News Articles",
       "termsOfService": "Terms of Service",
       "sitemap": "Sitemap",
+      "customSolutions": "Custom Solutions",
+      "consultationTraining": "Consultation & Training",
+      "supplyChainManagement": "Supply Chain Management",
+      "solarEPC": "Solar EPC Solutions",
       "sensors": "Sensors",
       "transmitters": "Transmitters",
       "controllers": "Controllers",
@@ -608,7 +617,12 @@
       "bldcTableFanWallFanMotorDescription": "BLDC motors for table and wall fans",
       "requestQuoteDescription": "Get a detailed quote for your engineering project",
       "downloadPortfolioDescription": "Download our comprehensive project documents",
-      "newsUpdatesDescription": "Latest company news and updates"
+      "newsUpdatesDescription": "Latest company news and updates",
+      "customSolutionsDescription": "Tailored engineering solutions for unique industrial requirements",
+      "consultationTrainingDescription": "Expert consultation and training services for industrial automation",
+      "supplyChainManagementDescription": "Comprehensive supply chain and logistics management services",
+      "solarEPCDescription": "Complete solar EPC solutions from design to commissioning",
+      "allProductsDescription": "Browse our complete range of industrial automation and electrical products"
     }
   },
   "clients": {
@@ -636,7 +650,8 @@
     "title": "Quick Actions",
     "subtitle": "Check quick actions to get your needs",
     "contactUs": "Contact Us",
-    "requestQuote": "Request a Quote"
+    "requestQuote": "Request a Quote",
+    "productCategories": "Product Categories"
   },
   "tags": {
     "award": "Award",
@@ -648,6 +663,7 @@
     "renewableEnergy": "Renewable Energy",
     "expansion": "Expansion",
     "solar": "Solar",
+    "rd": "R&D",
     "infrastructure": "Infrastructure",
     "innovation": "Innovation",
     "partnership": "Partnership",

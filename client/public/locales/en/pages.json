@@ -187,6 +187,9 @@
         }
       },
       "getInTouch": "Get In Touch",
+      "whatsapp": {
+        "defaultMessage": "Hello! I'm interested in your industrial automation and engineering solutions. I'd like to discuss my project requirements."
+      },
       "methods": {
         "phone": {
           "title": "Phone",
@@ -673,6 +676,7 @@
     "hero": {
       "title": "Get a Professional Engineering Quote",
       "subtitle": "Contact our expert team for tailored automation and instrumentation solutions for your industrial needs.",
+      "estimates": "Cost Estimate",
       "benefits": {
         "consultation": "Free Technical Consultation",
         "response": "24-48 Hour Response Time",
