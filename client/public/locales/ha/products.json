@@ -766,12 +766,16 @@
     "expertsHelpDescription": "Kwararrunmu suna nan don taimaka muku zaɓi madaidaicin {{groupTitle}} don aikace-aikacenku.",
     "products": "Kayayyakin Mu",
     "productsDescription": "Binciko cikakken kewayon hanyoyin masana'antu masu inganci",
+    "allProducts": "Duk Kayayyakin",
     "needMoreOptions": "Kuna Bukatar Ƙarin Zaɓuɓɓuka?",
     "customSolutions": "Muna ba da hanyoyin al'ada kuma za mu iya samun ƙarin samfuran don biyan takamaiman buƙatunku.",
     "professionalGrade": "Hanyoyin Magance Ƙwararru",
     "keyBenefits": "Babban Fa'idodi:",
     "professionalConsultation": "Samu Shawarwari na Ƙwararru",
     "technicalConsultation": "Shawarwari na Fasaha"
+  },
+  "defaults": {
+    "groupDescription": "Kayayyaki masu inganci don aikace-aikacen sarrafa masana'antu."
   },
   "filters": {
     "all": "Duka",
@@ -1491,6 +1495,7 @@
     "actualImages": "Hotuna na ainihi da za a ɗora"
   },
   "labels": {
+    "productsCount": "{{count}} Kayayyaki",
     "industrialProduct": "Samfurin Masana'antu",
     "products": "Samfura",
     "specifications": "Ƙayyadaddun bayanai",
@@ -2786,6 +2791,7 @@
     "actions": "Ayyuka"
   },
   "messages": {
-    "noProductsInGroup": "Ba a sami samfura a cikin wannan rukunin ba."
+    "noProductsInGroup": "Ba a sami samfura a cikin wannan rukunin ba.",
+    "noProductGroups": "Ba a sami samfuran rukunin ba."
   }
 }

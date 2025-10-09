@@ -766,12 +766,16 @@
     "expertsHelpDescription": "Nuestros expertos están aquí para ayudarle a seleccionar el {{groupTitle}} adecuado para su aplicación.",
     "products": "Nuestros Productos",
     "productsDescription": "Explore nuestra amplia gama de soluciones industriales de alta calidad",
+    "allProducts": "Todos los Productos",
     "needMoreOptions": "¿Necesita Más Opciones?",
     "customSolutions": "Ofrecemos soluciones personalizadas y podemos obtener productos adicionales para satisfacer sus requisitos específicos.",
     "professionalGrade": "Soluciones de Grado Profesional",
     "keyBenefits": "Beneficios Clave:",
     "professionalConsultation": "Obtenga una Consulta Profesional",
     "technicalConsultation": "Consulta Técnica"
+  },
+  "defaults": {
+    "groupDescription": "Productos de alta calidad para aplicaciones de automatización industrial."
   },
   "filters": {
     "all": "Todos",
@@ -1491,6 +1495,7 @@
     "actualImages": "Imágenes reales para subir"
   },
   "labels": {
+    "productsCount": "{{count}} Productos",
     "industrialProduct": "Producto Industrial",
     "products": "Productos",
     "specifications": "Especificaciones",
@@ -2786,6 +2791,7 @@
     "actions": "Acciones"
   },
   "messages": {
-    "noProductsInGroup": "No se encontraron productos en este grupo."
+    "noProductsInGroup": "No se encontraron productos en este grupo.",
+    "noProductGroups": "No se encontraron grupos de productos."
   }
 }

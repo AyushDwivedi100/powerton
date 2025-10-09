@@ -671,12 +671,16 @@
     "expertsHelpDescription": "我们的专家在此帮助您为您的应用选择合适的{{groupTitle}}。",
     "products": "我们的产品",
     "productsDescription": "探索我们全面的高质量工业解决方案",
+    "allProducts": "所有产品",
     "needMoreOptions": "需要更多选择？",
     "customSolutions": "我们提供定制解决方案，并且可以采购其他产品以满足您的特定要求。",
     "professionalGrade": "专业级解决方案",
     "keyBenefits": "主要优势：",
     "professionalConsultation": "获得专业咨询",
     "technicalConsultation": "技术咨询"
+  },
+  "defaults": {
+    "groupDescription": "适用于工业自动化应用的高质量产品。"
   },
   "filters": {
     "all": "全部",
@@ -1381,6 +1385,7 @@
     "actualImages": "要上传的实际图片"
   },
   "labels": {
+    "productsCount": "{{count}} 产品",
     "industrialProduct": "工业产品",
     "products": "产品",
     "specifications": "规格",
@@ -2724,6 +2729,7 @@
     "actions": "操作"
   },
   "messages": {
-    "noProductsInGroup": "在此组中未找到任何产品。"
+    "noProductsInGroup": "在此组中未找到任何产品。",
+    "noProductGroups": "未找到任何产品组。"
   }
 }

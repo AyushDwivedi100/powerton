@@ -761,12 +761,16 @@
     "expertsHelpDescription": "خبراؤنا هنا لمساعدتك في اختيار {{groupTitle}} المناسب لتطبيقك.",
     "products": "منتجاتنا",
     "productsDescription": "اكتشف مجموعتنا الشاملة من الحلول الصناعية عالية الجودة",
+    "allProducts": "جميع المنتجات",
     "needMoreOptions": "هل تحتاج إلى المزيد من الخيارات؟",
     "customSolutions": "نحن نقدم حلولًا مخصصة ويمكننا توفير منتجات إضافية لتلبية متطلباتك الخاصة.",
     "professionalGrade": "حلول من الدرجة المهنية",
     "keyBenefits": "الفوائد الرئيسية:",
     "professionalConsultation": "احصل على استشارة احترافية",
     "technicalConsultation": "استشارة فنية"
+  },
+  "defaults": {
+    "groupDescription": "منتجات عالية الجودة لتطبيقات الأتمتة الصناعية."
   },
   "filters": {
     "all": "الكل",
@@ -1486,6 +1490,7 @@
     "actualImages": "سيتم تحميل الصور الفعلية"
   },
   "labels": {
+    "productsCount": "{{count}} منتجات",
     "industrialProduct": "المنتج الصناعي",
     "products": "المنتجات",
     "specifications": "المواصفات",
@@ -2077,7 +2082,7 @@
         "تقنية Wireless HART",
         "شبكة ذاتية التنظيم",
         "مدى ممتد",
-        "٪شفير أمني",
+        "i�شفير أمني",
         "ما يصل إلى 100 جهاز ميداني"
       ]
     },
@@ -2781,6 +2786,7 @@
     "actions": "الإجراءات"
   },
   "messages": {
-    "noProductsInGroup": "لم يتم العثور على منتجات في هذه المجموعة."
+    "noProductsInGroup": "لم يتم العثور على منتجات في هذه المجموعة.",
+    "noProductGroups": "لم يتم العثور على مجموعات منتجات."
   }
 }

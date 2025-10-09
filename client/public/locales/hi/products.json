@@ -766,12 +766,16 @@
     "expertsHelpDescription": "हमारे विशेषज्ञ आपके आवेदन के लिए सही {{groupTitle}} का चयन करने में आपकी सहायता करने के लिए यहां हैं।",
     "products": "हमारे उत्पाद",
     "productsDescription": "उच्च गुणवत्ता वाले औद्योगिक समाधानों की हमारी व्यापक श्रेणी का अन्वेषण करें",
+    "allProducts": "सभी उत्पाद",
     "needMoreOptions": "क्या आपको अधिक विकल्पों की आवश्यकता है?",
     "customSolutions": "हम कस्टम समाधान प्रदान करते हैं और आपकी विशिष्ट आवश्यकताओं को पूरा करने के लिए अतिरिक्त उत्पादों की सोर्सिंग कर सकते हैं।",
     "professionalGrade": "व्यावसायिक ग्रेड समाधान",
     "keyBenefits": "मुख्य लाभ:",
     "professionalConsultation": "व्यावसायिक परामर्श प्राप्त करें",
     "technicalConsultation": "तकनीकी परामर्श"
+  },
+  "defaults": {
+    "groupDescription": "औद्योगिक स्वचालन अनुप्रयोगों के लिए उच्च गुणवत्ता वाले उत्पाद।"
   },
   "filters": {
     "all": "सभी",
@@ -1491,6 +1495,7 @@
     "actualImages": "अपलोड करने के लिए वास्तविक चित्र"
   },
   "labels": {
+    "productsCount": "{{count}} उत्पाद",
     "industrialProduct": "औद्योगिक उत्पाद",
     "products": "उत्पाद",
     "specifications": "विशेष विवरण",
@@ -2874,6 +2879,7 @@
     "actions": "कार्य"
   },
   "messages": {
-    "noProductsInGroup": "इस समूह में कोई उत्पाद नहीं मिला।"
+    "noProductsInGroup": "इस समूह में कोई उत्पाद नहीं मिला।",
+    "noProductGroups": "इस श्रेणी में कोई उत्पाद समूह उपलब्ध नहीं है."
   }
 }

@@ -766,12 +766,16 @@
     "expertsHelpDescription": "Wataalamu wetu wako hapa kukusaidia kuchagua {{groupTitle}} inayofaa kwa matumizi yako.",
     "products": "Bidhaa Zetu",
     "productsDescription": "Gundua anuwai yetu kamili ya suluhisho za viwandani za hali ya juu",
+    "allProducts": "Bidhaa Zote",
     "needMoreOptions": "Unahitaji Chaguo Zaidi?",
     "customSolutions": "Tunatoa suluhisho maalum na tunaweza kupata bidhaa za ziada ili kukidhi mahitaji yako maalum.",
     "professionalGrade": "Suluhisho za Kiwango cha Kitaalamu",
     "keyBenefits": "Faida Muhimu:",
     "professionalConsultation": "Pata Ushauri wa Kitaalamu",
     "technicalConsultation": "Ushauri wa Kitaalamu"
+  },
+  "defaults": {
+    "groupDescription": "Bidhaa za ubora wa juu kwa matumizi ya otomatiki ya viwandani."
   },
   "filters": {
     "all": "Zote",
@@ -1491,6 +1495,7 @@
     "actualImages": "Picha halisi za kupakiwa"
   },
   "labels": {
+    "productsCount": "Bidhaa {{count}}",
     "industrialProduct": "Bidhaa ya Viwandani",
     "products": "Bidhaa",
     "specifications": "Vipimo",
@@ -2786,6 +2791,7 @@
     "actions": "Hatua"
   },
   "messages": {
-    "noProductsInGroup": "Hakuna bidhaa zilizopatikana katika kundi hili."
+    "noProductsInGroup": "Hakuna bidhaa zilizopatikana katika kundi hili.",
+    "noProductGroups": "Hakuna vikundi vya bidhaa vimepatikana."
   }
 }

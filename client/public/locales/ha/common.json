@@ -109,7 +109,8 @@
     "previous": "Na baya",
     "complete": "Gama",
     "view": "Duba",
-    "viewAllServices": "Duba Duk Ayyuka"
+    "viewAllServices": "Duba Duk Ayyuka",
+    "contactExperts" : "Tuntuɓe Masana"
   },
   "errors": {
     "productNotFound": "Ba a Sami Samfur ba",
@@ -323,7 +324,8 @@
     "availability": "Samun",
     "coverage": "Kasuwanci",
     "free": "Kasuwanci",
-    "products": "Kayayyaki"
+    "products": "Kayayyaki",
+    "notAvailable": "Babu samfur da ake samu"
   },
   "placeholders": {
     "selectProjectType": "Zaɓi nau'in aikin",
@@ -705,6 +707,9 @@
   },
   "common": {
     "keyFeatures": "Muhimman Abubuwa"
+  },
+  "services":{
+    "needAssistance": "Kuna buƙatar Tallafin?"
   },
   "ui": {
     "ariaLabels": {
