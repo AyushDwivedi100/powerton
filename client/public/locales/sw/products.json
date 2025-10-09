@@ -2782,16 +2782,24 @@
     "bearingsCouplings": {
       "title": "Fani na Viunganishi",
       "description": "Fani za pampu na viunganishi vinavyobadilika kwa ajili ya mifumo ya gari ya mitambo. Vipengele vya ubora wa juu kwa ajili ya maisha ya huduma yaliyoenea, kupunguza mtetemo, na maambukizi ya nguvu ya kuaminika katika matumizi ya kusukuma."
+    },
+    "jibCranes": {
+      "title": "Kreti za Jib",
+      "description": "Kreti za jib za viwandani kwa ajili ya kushughulikia nyenzo na matumizi ya kuinua. Zikiwa na ujenzi thabiti, mzunguko laini, na chaguzi rahisi za kupachika kwa warsha na vituo vya uzalishaji."
+    },
+    "personalProtectiveEquipment": {
+      "title": "Vifaa vya Kujikinga Binafsi",
+      "description": "Vifaa vya usalama vya viwandani ikiwa ni pamoja na helmeti, gloves, miwani ya usalama, na nguo za kinga. Vifaa vilivyoidhinishwa vinavyokidhi viwango vya usalama vya kimataifa kwa ajili ya ulinzi wa mfanyakazi katika mazingira ya viwandani."
+    },
+    "table": {
+      "manufacturer": "Mtengenezaji",
+      "model": "Mfano",
+      "type": "Aina",
+      "actions": "Hatua"
+    },
+    "messages": {
+      "noProductsInGroup": "Hakuna bidhaa zilizopatikana katika kundi hili.",
+      "noProductGroups": "Hakuna vikundi vya bidhaa vimepatikana."
     }
-  },
-  "table": {
-    "manufacturer": "Mtengenezaji",
-    "model": "Mfano",
-    "type": "Aina",
-    "actions": "Hatua"
-  },
-  "messages": {
-    "noProductsInGroup": "Hakuna bidhaa zilizopatikana katika kundi hili.",
-    "noProductGroups": "Hakuna vikundi vya bidhaa vimepatikana."
   }
 }

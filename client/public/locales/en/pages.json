@@ -187,9 +187,6 @@
         }
       },
       "getInTouch": "Get In Touch",
-      "whatsapp": {
-        "defaultMessage": "Hello! I'm interested in your industrial automation and engineering solutions. I'd like to discuss my project requirements."
-      },
       "methods": {
         "phone": {
           "title": "Phone",
@@ -1055,6 +1052,9 @@
       "title": "Contact Powerton Engineering - Get Expert Engineering Support",
       "description": "Contact our engineering experts for industrial automation, electrical systems, and technical support. Call +91-94627-71662 or email info@powertonengineering.com",
       "keywords": "contact powerton engineering, engineering support, industrial automation contact, electrical engineering help, noida engineering company contact"
+    },
+    "whatsapp": {
+      "defaultMessage": "Hello! I'm interested in your industrial automation and engineering solutions. I'd like to discuss my project requirements."
     }
   },
   "ui": {

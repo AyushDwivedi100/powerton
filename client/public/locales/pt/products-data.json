@@ -1,4 +1,7 @@
 {
+  "defaults": {
+    "groupDescription": "Produtos industriais de alta qualidade projetados para confiabilidade e desempenho"
+  },
   "subcategories": {
     "sensores-transdutores": {
       "title": "Sensores e Transdutores",
@@ -648,7 +651,7 @@
         "description": "Elementos de aquecimento industrial e equipamentos de controle térmico. Aquecedores de imersão, aquecedores de banda, aquecedores de cartucho para aplicações de aquecimento de processo.",
         "keywords": "aquecedores industriais, elementos de aquecimento, aquecedores de imersão, aquecimento de processo, controle térmico, equipamentos de aquecimento industrial"
       }
-    }
+    },
     "solar-panels": {
       "title": "Painéis e Módulos Solares",
       "shortDescription": "Painéis solares e módulos fotovoltaicos de alta eficiência",

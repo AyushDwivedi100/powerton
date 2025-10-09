@@ -485,9 +485,15 @@
       "automationControlSystems": "自动化控制系统",
       "safetyProtectiveDevices": "安全防护设备",
       "mechanicalPumpsSpares": "机械泵与备件",
-      "industrialToolsTackles": "工业工具与装备"
+      "industrialToolsTackles": "工业工具与装备",
+      "instrumentationAccessories": "仪器仪表配件",
+      "industrialMeasuringTools": "工业测量工具"
     },
     "pages": {
+      "customSolutions": "定制解决方案",
+      "consultationTraining": "咨询与培训",
+      "supplyChainManagement": "供应链管理",
+      "solarEPC": "太阳能 EPC 解决方案",
       "home": "家",
       "aboutUs": "关于我们",
       "contact": "联系方式",
@@ -608,7 +614,12 @@
       "bldcTableFanWallFanMotorDescription": "用于桌面和壁扇的BLDC电机",
       "requestQuoteDescription": "获取工程项目的详细报价",
       "downloadPortfolioDescription": "下载我们完整的项目文档",
-      "newsUpdatesDescription": "最新的公司新闻和更新"
+      "newsUpdatesDescription": "最新的公司新闻和更新",
+      "customSolutionsDescription": "为独特的工业需求量身定制的工程解决方案",
+      "consultationTrainingDescription": "为工业自动化提供专业的咨询和培训服务",
+      "supplyChainManagementDescription": "全面的供应链和物流管理服务",
+      "solarEPCDescription": "从设计到调试的完整太阳能EPC解决方案",
+      "allProductsDescription": "浏览我们全系列的工业自动化和电气产品"
     }
   },
   "clients": {
@@ -636,7 +647,8 @@
     "title": "快速操作",
     "subtitle": "查看快速操作以获取您的需求",
     "contactUs": "联系我们",
-    "requestQuote": "询价"
+    "requestQuote": "询价",
+    "productCategories": "产品类别"
   },
   "tags": {
     "award": "奖项",
@@ -648,6 +660,7 @@
     "renewableEnergy": "可再生能源",
     "expansion": "扩展",
     "solar": "太阳能",
+    "rd": "研发",
     "infrastructure": "基础设施",
     "innovation": "创新",
     "partnership": "合作",

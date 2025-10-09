@@ -673,6 +673,7 @@
     "hero": {
       "title": "Obtenez un devis d'ingénierie professionnel",
       "subtitle": "Contactez notre équipe d'experts pour des solutions d'automatisation et d'instrumentation sur mesure pour vos besoins industriels.",
+      "estimates": "Estimations de coûts détaillées",
       "benefits": {
         "consultation": "Consultation technique gratuite",
         "response": "Temps de réponse de 24 à 48 heures",
@@ -950,6 +951,9 @@
     }
   },
   "contact": {
+    "whatsapp": {
+      "defaultMessage": "Bonjour ! Je suis intéressé par vos solutions d'automatisation industrielle et d'ingénierie. J'aimerais discuter des exigences de mon projet."
+    },
     "hero": {
       "title": "Contactez nos experts en ingénierie",
       "subtitle": "Bénéficiez d'un support expert pour vos projets d'automatisation industrielle et de génie électrique. Notre équipe expérimentée est prête à vous aider à réussir.",

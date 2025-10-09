@@ -110,7 +110,7 @@
     "complete": "Завершить",
     "view": "Просмотреть",
     "viewAllServices": "Просмотреть все услуги",
-    "contactExperts" : "Связаться с экспертами"
+    "contactExperts": "Связаться с экспертами"
   },
   "errors": {
     "productNotFound": "Товар не найден",
@@ -224,7 +224,7 @@
     "fastDelivery": "Быстрая доставка"
   },
   "headings": {
-    "phoneNumbers" : "Номера телефонов",
+    "phoneNumbers": "Номера телефонов",
     "bldcCeilingFanModels": "Модели потолочных вентиляторов BLDC",
     "ourProducts": "Наши продукты",
     "specifications": "Характеристики",
@@ -485,9 +485,15 @@
       "automationControlSystems": "Системы автоматизации и управления",
       "safetyProtectiveDevices": "Устройства безопасности и защиты",
       "mechanicalPumpsSpares": "Механические насосы и запасные части",
-      "industrialToolsTackles": "Промышленные инструменты"
+      "industrialToolsTackles": "Промышленные инструменты",
+      "instrumentationAccessories": "Аксессуары для контрольно-измерительных приборов",
+      "industrialMeasuringTools": "Промышленные измерительные инструменты"
     },
     "pages": {
+      "customSolutions": "Индивидуальные решения",
+      "consultationTraining": "Консультации и обучение",
+      "supplyChainManagement": "Управление цепочками поставок",
+      "solarEPC": "Решения Solar EPC",
       "home": "Главная",
       "aboutUs": "О нас",
       "contact": "Контакты",
@@ -608,7 +614,11 @@
       "bldcTableFanWallFanMotorDescription": "Двигатели BLDC для настольных и настенных вентиляторов",
       "requestQuoteDescription": "Получите подробное предложение для вашего инженерного проекта",
       "downloadPortfolioDescription": "Скачайте нашу подробную документацию по проектам",
-      "newsUpdatesDescription": "Последние новости и обновления компании"
+      "newsUpdatesDescription": "Последние новости и обновления компании",
+      "customSolutionsDescription": "Индивидуальные инженерные решения для уникальных промышленных требований",
+      "consultationTrainingDescription": "Экспертные консультации и услуги обучения для промышленной автоматизации",
+      "supplyChainManagementDescription": "Комплексные услуги по управлению цепочками поставок и логистике",
+      "solarEPCDescription": "Комплексные решения Solar EPC от проектирования до ввода в эксплуатацию"
     }
   },
   "clients": {
@@ -636,7 +646,8 @@
     "title": "Быстрые действия",
     "subtitle": "Посмотрите быстрые действия, чтобы получить то, что вам нужно",
     "contactUs": "Свяжитесь с нами",
-    "requestQuote": "Запросить предложение"
+    "requestQuote": "Запросить предложение",
+    "productCategories": "Категории продуктов"
   },
   "tags": {
     "award": "Награда",
@@ -648,6 +659,7 @@
     "renewableEnergy": "Возобновляемая энергия",
     "expansion": "Расширение",
     "solar": "Солнечная энергия",
+    "rd": "Исследования и разработки",
     "infrastructure": "Инфраструктура",
     "innovation": "Инновации",
     "partnership": "Партнерство",
@@ -707,7 +719,7 @@
   "common": {
     "keyFeatures": "Ключевые особенности"
   },
-  "services":{
+  "services": {
     "needAssistance": "Нужна помощь?"
   },
   "ui": {

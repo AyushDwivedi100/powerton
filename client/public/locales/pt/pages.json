@@ -673,6 +673,7 @@
     "hero": {
       "title": "Obtenha uma Cotação de Engenharia Profissional",
       "subtitle": "Contate nossa equipe de especialistas para soluções de automação e instrumentação personalizadas para suas necessidades industriais.",
+      "estimates": "Estimativas de Custo Detalhadas",
       "benefits": {
         "consultation": "Consulta Técnica Gratuita",
         "response": "Tempo de Resposta de 24 a 48 Horas",
@@ -950,6 +951,9 @@
     }
   },
   "contact": {
+    "whatsapp": {
+      "defaultMessage": "Olá! Estou interessado em suas soluções de automação industrial e engenharia. Gostaria de discutir os requisitos do meu projeto."
+    },
     "hero": {
       "title": "Contate Nossos Especialistas em Engenharia",
       "subtitle": "Obtenha suporte especializado para seus projetos de automação industrial e engenharia elétrica. Nossa equipe experiente está pronta para ajudá-lo a ter sucesso.",

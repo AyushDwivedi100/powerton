@@ -2782,16 +2782,24 @@
     "bearingsCouplings": {
       "title": "Bearings da Couplings",
       "description": "Famfo bearings da m couplings ga inji drive tsarin. High-quality aka gyara don tsawaita sabis rai, rage vibration, da kuma abin dogaro ikon watsa shirye-shirye a pumping aikace-aikace."
+    },
+    "jibCranes": {
+      "title": "Jib Cranes",
+      "description": "Cranes na Jib na masana'antu don sarrafa kayan aiki da ɗaga aikace-aikace. Suna fasalta ƙaƙƙarfan gini, juyawa mai santsi, da sassauƙan zaɓuɓɓukan hawa don bita da wuraren samarwa."
+    },
+    "personalProtectiveEquipment": {
+      "title": "Kayan Kariya na Kai (PPE)",
+      "description": "Kayan aikin tsaro na masana'antu ciki har da hular kwano, safar hannu, gilashin tsaro, da tufafin kariya. Kayan aiki da aka tabbatar sun cika ƙa'idodin tsaro na duniya don kare ma'aikata a cikin yanayin masana'antu."
+    },
+    "table": {
+      "manufacturer": "Mai ƙera",
+      "model": "Model",
+      "type": "Nau'i",
+      "actions": "Ayyuka"
+    },
+    "messages": {
+      "noProductsInGroup": "Ba a sami samfura a cikin wannan rukunin ba.",
+      "noProductGroups": "Ba a sami samfuran rukunin ba."
     }
-  },
-  "table": {
-    "manufacturer": "Mai ƙera",
-    "model": "Model",
-    "type": "Nau'i",
-    "actions": "Ayyuka"
-  },
-  "messages": {
-    "noProductsInGroup": "Ba a sami samfura a cikin wannan rukunin ba.",
-    "noProductGroups": "Ba a sami samfuran rukunin ba."
   }
 }

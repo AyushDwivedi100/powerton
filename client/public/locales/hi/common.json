@@ -110,7 +110,7 @@
     "complete": "पूर्ण",
     "view": "देखें",
     "viewAllServices": "सभी सेवाएँ देखें",
-    "contactExperts" : "विशेषज्ञों से संपर्क करें"
+    "contactExperts": "विशेषज्ञों से संपर्क करें"
   },
   "errors": {
     "productNotFound": "उत्पाद नहीं मिला",
@@ -197,7 +197,7 @@
     }
   },
   "productSections": {
-    "keyFeatures": "मुख्य विशेषताएं:",
+    "keyFeatures": "मुख्य विशेष���ाएं:",
     "specifications": "विशेष विवरण",
     "applications": "अनुप्रयोग",
     "industries": "उद्योग",
@@ -224,7 +224,7 @@
     "fastDelivery": "तेजी से वितरण"
   },
   "headings": {
-    "phoneNumbers" : "फोन नंबर",
+    "phoneNumbers": "फोन नंबर",
     "bldcCeilingFanModels": "बीएलडीसी छत पंखे मॉडल",
     "ourProducts": "हमारे उत्पाद",
     "specifications": "विशेष विवरण",
@@ -409,7 +409,7 @@
       "title": "डेमो: औद्योगिक स्वचालन प्रणाली",
       "client": "भावी औद्योगिक ग्राहक",
       "category": "प्रक्रिया नियंत्रण",
-      "description": "पीएलसी एकीकरण, एससीएडीए सिस्टम और वास्तविक समय निगरानी समाधान सहित व्यापक औद्योगिक स्वचालन क्षमताओं का प्रदर्शन।",
+      "description": "पीएलसी एकीकरण, एससीएडीए सिस्टम और वास्तविक समय निगरानी समाधान सहित व्यापक औदr��योगिक स्वचालन क्षमताओं का प्रदर्शन।",
       "location": "कार्य स्थान टीबीडी",
       "duration": "12-18 महीने",
       "budget": "₹50-75 लाख",
@@ -485,9 +485,15 @@
       "automationControlSystems": "स्वचालन नियंत्रण प्रणाली",
       "safetyProtectiveDevices": "सुरक्षा सुरक्षात्मक उपकरण",
       "mechanicalPumpsSpares": "यांत्रिक पंप और स्पेयर पार्ट्स",
-      "industrialToolsTackles": "औद्योगिक उपकरण"
+      "industrialToolsTackles": "औद्योगिक उपकरण",
+      "instrumentationAccessories": "इंस्ट्रुमेंटेशन एक्सेसरीज़",
+      "industrialMeasuringTools": "औद्योगिक मापने के उपकरण"
     },
     "pages": {
+      "customSolutions": "कस्टम समाधान",
+      "consultationTraining": "परामर्श और प्रशिक्षण",
+      "supplyChainManagement": "आपूर्ति श्रृंखला प्रबंधन",
+      "solarEPC": "सौर ईपीसी समाधान",
       "home": "होम",
       "aboutUs": "हमारे बारे में",
       "contact": "संपर्क",
@@ -608,7 +614,11 @@
       "bldcTableFanWallFanMotorDescription": "टेबल और दीवार पंखे के लिए बीएलडीसी मोटर",
       "requestQuoteDescription": "अपनी इंजीनियरिंग परियोजना के लिए एक विस्तृत उद्धरण प्राप्त करें",
       "downloadPortfolioDescription": "हमारी परियोजनाओं के विस्तृत क्रेडेंशियल्स डाउनलोड करें",
-      "newsUpdatesDescription": "नवीनतम कंपनी समाचार और अपडेट"
+      "newsUpdatesDescription": "नवीनतम कंपनी समाचार और अपडेट",
+      "customSolutionsDescription": "अद्वितीय औद्योगिक आवश्यकताओं के लिए अनुकूलित इंजीनियरिंग समाधान",
+      "consultationTrainingDescription": "औद्योगिक स्वचालन के लिए विशेषज्ञ परामर्श और प्रशिक्षण सेवाएँ",
+      "supplyChainManagementDescription": "व्यापक आपूर्ति श्रृंखला और रसद प्रबंधन सेवाएँ",
+      "solarEPCDescription": "डिजाइन से लेकर कमीशनिंग तक पूर्ण सौर ईपीसी समाधान"
     }
   },
   "clients": {
@@ -636,7 +646,8 @@
     "title": "त्वरित क्रियाएँ",
     "subtitle": "अपनी आवश्यकताओं को प्राप्त करने के लिए त्वरित क्रियाएँ देखें",
     "contactUs": "संपर्क करें",
-    "requestQuote": "उद्धरण का अनुरोध करें"
+    "requestQuote": "उद्धरण का अनुरोध करें",
+    "productCategories": "उत्पाद श्रेणियाँ"
   },
   "tags": {
     "award": "पुरस्कार",
@@ -648,6 +659,7 @@
     "renewableEnergy": "नवीकरणीय ऊर्जा",
     "expansion": "विस्तार",
     "solar": "सौर",
+    "rd": "आर & डी",
     "infrastructure": "बुनियादी ढाँचा",
     "innovation": "नवीनता",
     "partnership": "साझेदारी",
@@ -707,7 +719,7 @@
   "common": {
     "keyFeatures": "मुख्य विशेषताएं"
   },
-  "services":{
+  "services": {
     "needAssistance": "क्या आपको सहायता की आवश्यकता है?"
   },
   "ui": {

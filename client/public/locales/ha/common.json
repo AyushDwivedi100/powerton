@@ -110,7 +110,7 @@
     "complete": "Gama",
     "view": "Duba",
     "viewAllServices": "Duba Duk Ayyuka",
-    "contactExperts" : "Tuntuɓe Masana"
+    "contactExperts": "Tuntuɓe Masana"
   },
   "errors": {
     "productNotFound": "Ba a Sami Samfur ba",
@@ -224,7 +224,7 @@
     "fastDelivery": "Saurin isowar"
   },
   "headings": {
-    "phoneNumbers" : "Lambar wayar hannu",
+    "phoneNumbers": "Lambar wayar hannu",
     "bldcCeilingFanModels": "Samfuran Fanukan Rufin BLDC",
     "ourProducts": "Samfuranmu",
     "specifications": "Takaitaccen bayani",
@@ -487,9 +487,15 @@
       "automationControlSystems": "Tsarin Sarrafa ta Atomatik",
       "safetyProtectiveDevices": "Na'urorin Aminci da Kariya",
       "mechanicalPumpsSpares": "Famfo da Sassa na Inji",
-      "industrialToolsTackles": "Kayan Aikin Masana'antu"
+      "industrialToolsTackles": "Kayan Aikin Masana'antu",
+      "instrumentationAccessories": "Kayan aikin kayan aiki",
+      "industrialMeasuringTools": "Kayan aikin aunawa na masana'antu"
     },
     "pages": {
+      "customSolutions": "Hanyoyi na Musamman",
+      "consultationTraining": "Shawara & Horarwa",
+      "supplyChainManagement": "Gudanar da Sarkar Samar da Kayan Aiki",
+      "solarEPC": "Hanyoyin EPC na Rana",
       "home": "Gida",
       "aboutUs": "Game da mu",
       "contact": "Sadarwa",
@@ -610,7 +616,11 @@
       "bldcTableFanWallFanMotorDescription": "Injunan BLDC don fanukan tebur da bango",
       "requestQuoteDescription": "Sami cikakken farashin don aikinku na injiniya",
       "downloadPortfolioDescription": "Sauke cikakkun takaddun ayyukanmu",
-      "newsUpdatesDescription": "Sabbin labarai da sabuntawar kamfani"
+      "newsUpdatesDescription": "Sabbin labarai da sabuntawar kamfani",
+      "customSolutionsDescription": "Hanyoyin injiniya da aka keɓance don buƙatu na masana'antu na musamman",
+      "consultationTrainingDescription": "Shawarwari na ƙwararru da sabis na horo don sarrafa masana'antu ta atomatik",
+      "supplyChainManagementDescription": "Sabis na sarrafa sarkar samar da kayayyaki da dabaru masu cikakke",
+      "solarEPCDescription": "Cikakkun hanyoyin EPC na hasken rana daga zane zuwa kwamishina"
     }
   },
   "clients": {
@@ -638,7 +648,8 @@
     "title": "Matakai Masu Saurin",
     "subtitle": "Duba matakai masu sauri don samun bukatunku",
     "contactUs": "Tuntuɓe Mu",
-    "requestQuote": "Nemi Farashin"
+    "requestQuote": "Nemi Farashin",
+    "productCategories": "Rukkunan Kayayyaki"
   },
   "tags": {
     "award": "Kyauta",
@@ -650,6 +661,7 @@
     "renewableEnergy": "Makamashi Mai Sabuntawa",
     "expansion": "Faɗaɗawa",
     "solar": "Rana",
+    "rd": "Binciken da Gyara",
     "infrastructure": "Kayan Aiki",
     "innovation": "Ƙirƙire-ƙirƙire",
     "partnership": "Haɗin Gwiwa",
@@ -709,7 +721,7 @@
   "common": {
     "keyFeatures": "Muhimman Abubuwa"
   },
-  "services":{
+  "services": {
     "needAssistance": "Kuna buƙatar Tallafin?"
   },
   "ui": {

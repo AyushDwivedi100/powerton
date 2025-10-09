@@ -673,6 +673,7 @@
     "hero": {
       "title": "Samu Ƙididdigar Injiniya na Ƙwararru",
       "subtitle": "Tuntuɓi ƙungiyarmu ta ƙwararru don keɓaɓɓun sarrafa kansa da mafita na kayan aiki don buƙatun masana'antu.",
+      "estimates": "Ƙididdigar Farashi Cikakke",
       "benefits": {
         "consultation": "Shawarar Fasaha Kyauta",
         "response": "Lokacin Amsawa na Awanni 24-48",
@@ -950,6 +951,9 @@
     }
   },
   "contact": {
+    "whatsapp": {
+      "defaultMessage": "Sannu! Ina sha'awar sarrafa masana'antu da hanyoyin injiniyarku. Ina so in tattauna buƙatun aikin na."
+    },
     "hero": {
       "title": "Tuntuɓi Ƙwararrun Injiniyoyinmu",
       "subtitle": "Sami goyon bayan ƙwararru don ayyukan sarrafa masana'antu da injiniyan lantarki. Ƙungiyarmu mai gogewa a shirye take ta taimaka muku samun nasara.",

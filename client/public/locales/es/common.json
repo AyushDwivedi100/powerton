@@ -485,9 +485,15 @@
       "automationControlSystems": "Sistemas de Control de Automatización",
       "safetyProtectiveDevices": "Dispositivos de Seguridad y Protección",
       "mechanicalPumpsSpares": "Bombas Mecánicas y Repuestos",
-      "industrialToolsTackles": "Herramientas Industriales"
+      "industrialToolsTackles": "Herramientas Industriales",
+      "instrumentationAccessories": "Accesorios de Instrumentación",
+      "industrialMeasuringTools": "Herramientas de Medición Industrial"
     },
     "pages": {
+      "customSolutions": "Soluciones Personalizadas",
+      "consultationTraining": "Consultoría y Capacitación",
+      "supplyChainManagement": "Gestión de la Cadena de Suministro",
+      "solarEPC": "Soluciones Solares EPC",
       "home": "Inicio",
       "aboutUs": "Acerca de nosotros",
       "contact": "Contacto",
@@ -608,7 +614,11 @@
       "bldcTableFanWallFanMotorDescription": "Motores BLDC para ventiladores de mesa y pared",
       "requestQuoteDescription": "Obtenga un presupuesto detallado para su proyecto de ingeniería",
       "downloadPortfolioDescription": "Descargue nuestros documentos de información de proyectos",
-      "newsUpdatesDescription": "Las últimas noticias y actualizaciones de la empresa"
+      "newsUpdatesDescription": "Las últimas noticias y actualizaciones de la empresa",
+      "customSolutionsDescription": "Soluciones de ingeniería a medida para requisitos industriales únicos",
+      "consultationTrainingDescription": "Servicios expertos de consulta y capacitación para automatización industrial",
+      "supplyChainManagementDescription": "Servicios integrales de gestión de la cadena de suministro y logística",
+      "solarEPCDescription": "Soluciones completas de EPC solar desde el diseño hasta la puesta en marcha"
     }
   },
   "clients": {
@@ -636,7 +646,8 @@
     "title": "Acciones rápidas",
     "subtitle": "Consulte los pasos rápidos para obtener sus requisitos",
     "contactUs": "Contáctenos",
-    "requestQuote": "Solicitar Presupuesto"
+    "requestQuote": "Solicitar Presupuesto",
+    "productCategories" : "Categorías de Productos"
   },
   "tags": {
     "award": "Premio",
@@ -648,6 +659,7 @@
     "renewableEnergy": "Energía Renovable",
     "expansion": "Expansión",
     "solar": "Solar",
+    "rd": "I+D",
     "infrastructure": "Infraestructura",
     "innovation": "Innovación",
     "partnership": "Asociación",

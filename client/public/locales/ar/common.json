@@ -485,9 +485,15 @@
       "automationControlSystems": "أنظمة التحكم الآلي",
       "safetyProtectiveDevices": "أجهزة السلامة والحماية",
       "mechanicalPumpsSpares": "قطع غيار المضخات الميكانيكية",
-      "industrialToolsTackles": "أدوات ومعدات صناعية"
+      "industrialToolsTackles": "أدوات ومعدات صناعية",
+      "instrumentationAccessories": "ملحقات الأجهزة",
+      "industrialMeasuringTools": "أدوات القياس الصناعية"
     },
     "pages": {
+      "customSolutions": "حلول مخصصة",
+      "consultationTraining": "التشاور والتدريب",
+      "supplyChainManagement": "إدارة سلسلة التوريد",
+      "solarEPC": "حلول EPC الشمسية",
       "home": "الصفحة الرئيسية",
       "aboutUs": "معلومات عنا",
       "contact": "اتصل بنا",
@@ -608,7 +614,12 @@
       "bldcTableFanWallFanMotorDescription": "محركات مروحة",
       "requestQuoteDescription": "احصل على عرض أسعار لمشروعك الهندسي",
       "downloadPortfolioDescription": "قم بتنزيل مستندات مشاريعنا التفصيلية",
-      "newsUpdatesDescription": "آخر الأخبار والتحديثات للشركة"
+      "newsUpdatesDescription": "آخر الأخبار والتحديثات للشركة",
+      "customSolutionsDescription": "حلول هندسية مصممة خصيصًا لتلبية المتطلبات الصناعية الفريدة",
+      "consultationTrainingDescription": "خدمات استشارية وتدريبية متخصصة في مجال الأتمتة الصناعية",
+      "supplyChainManagementDescription": "خدمات شاملة لإدارة سلسلة التوريد والخدمات اللوجستية",
+      "solarEPCDescription": "حلول EPC الشمسية الكاملة من التصميم إلى التشغيل",
+      "allProductsDescription": "تصفح مجموعتنا الكاملة من منتجات الأتمتة الصناعية والكهربائية"
     }
   },
   "clients": {
@@ -636,7 +647,8 @@
     "title": "إجراءات سريعة",
     "subtitle": "تحقق من الإجراءات السريعة للحصول على متطلباتك",
     "contactUs": "اتصل بنا",
-    "requestQuote": "طلب عرض أسعار"
+    "requestQuote": "طلب عرض أسعار",
+    "productCategories" : "فئات المنتجات"
   },
   "tags": {
     "award": "جائزة",
@@ -648,6 +660,7 @@
     "renewableEnergy": "طاقة متجددة",
     "expansion": "توسع",
     "solar": "شمسي",
+    "rd": "البحث والتطوير",
     "infrastructure": "بنية تحتية",
     "innovation": "ابتكار",
     "partnership": "شراكة",

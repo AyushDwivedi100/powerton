@@ -485,9 +485,14 @@
       "automationControlSystems": "Systèmes d'automatisation et de contrôle",
       "safetyProtectiveDevices": "Dispositifs de sécurité et de protection",
       "mechanicalPumpsSpares": "Pompes mécaniques et pièces de rechange",
-      "industrialToolsTackles": "Outils et équipement industriels"
+      "industrialToolsTackles": "Outils et équipement industriels",
+      "instrumentationAccessories": "Accessoires d'instrumentation",
+      "industrialMeasuringTools": "Outils de mesure industriels"
     },
     "pages": {
+      "customSolutions": "Solutions personnalisées",
+      "consultationTraining": "Consultation et formation",
+      "supplyChainManagement": "Gestion de la chaîne d'approvisionnement",
       "home": "Accueil",
       "aboutUs": "À propos de nous",
       "contact": "Contact",
@@ -608,7 +613,11 @@
       "bldcTableFanWallFanMotorDescription": "Moteurs BLDC pour ventilateurs de table et muraux",
       "requestQuoteDescription": "Obtenez un devis détaillé pour votre projet d'ingénierie",
       "downloadPortfolioDescription": "Téléchargez une liste de projets et des documents",
-      "newsUpdatesDescription": "Dernières nouvelles et mises à jour de l'entreprise"
+      "newsUpdatesDescription": "Dernières nouvelles et mises à jour de l'entreprise",
+      "customSolutionsDescription": "Solutions d'ingénierie sur mesure pour des besoins industriels uniques",
+      "consultationTrainingDescription": "Services de consultation et de formation d'experts pour l'automatisation industrielle",
+      "supplyChainManagementDescription": "Services complets de gestion de la chaîne d'approvisionnement et de la logistique",
+      "solarEPCDescription": "Solutions EPC solaires complètes, de la conception à la mise en service"
     }
   },
   "clients": {
@@ -636,7 +645,8 @@
     "title": "Actions rapides",
     "subtitle": "Consultez les mesures rapides pour répondre à vos besoins",
     "contactUs": "Contactez-nous",
-    "requestQuote": "Demander un devis"
+    "requestQuote": "Demander un devis",
+    "productCategories": "Catégories de produits"
   },
   "tags": {
     "award": "Prix",
@@ -648,6 +658,7 @@
     "renewableEnergy": "Énergie renouvelable",
     "expansion": "Expansion",
     "solar": "Solaire",
+    "rd": "Recherche et développement",
     "infrastructure": "Infrastructure",
     "innovation": "Innovation",
     "partnership": "Partenariat",
@@ -707,7 +718,7 @@
   "common": {
     "keyFeatures": "Principales caractéristiques"
   },
-  "services":{
+  "services": {
     "needAssistance": "Besoin d'aide ?"
   },
   "ui": {

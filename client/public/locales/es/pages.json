@@ -673,6 +673,7 @@
     "hero": {
       "title": "Obtenga una Cotización de Ingeniería Profesional",
       "subtitle": "Póngase en contacto con nuestro equipo de expertos para obtener soluciones de automatización e instrumentación adaptadas a sus necesidades industriales.",
+      "estimates" : "Estimaciones de Costos",
       "benefits": {
         "consultation": "Consulta Técnica Gratuita",
         "response": "Tiempo de Respuesta de 24-48 Horas",
@@ -949,6 +950,9 @@
     }
   },
   "contact": {
+    "whatsapp": {
+      "defaultMessage": "¡Hola! Estoy interesado en sus soluciones de automatización industrial e ingeniería. Me gustaría discutir los requisitos de mi proyecto."
+    },
     "hero": {
       "title": "Contacte a Nuestros Expertos en Ingeniería",
       "subtitle": "Obtenga soporte experto para sus proyectos de automatización industrial e ingeniería eléctrica. Nuestro experimentado equipo está listo para ayudarle a tener éxito.",

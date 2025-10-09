@@ -156,7 +156,7 @@ export default function Contact() {
       <section
         className={`relative hero-fullscreen overflow-hidden ${getAnimationClass(
           "fade-in-up",
-          true
+          true,
         )}`}
       >
         <div className="absolute inset-0">
@@ -239,9 +239,9 @@ export default function Contact() {
                               method.icon === MessageCircle
                                 ? `https://wa.me/${method.content.primary.replace(
                                     /[^0-9]/g,
-                                    ""
+                                    "",
                                   )}?text=${encodeURIComponent(
-                                    t("pages:contact.whatsapp.defaultMessage")
+                                    t("pages:contact.whatsapp.defaultMessage"),
                                   )}`
                                 : `tel:${method.content.primary}`
                             }
@@ -265,9 +265,9 @@ export default function Contact() {
                               method.icon === MessageCircle
                                 ? `https://wa.me/${method.content.secondary.replace(
                                     /[^0-9]/g,
-                                    ""
+                                    "",
                                   )}?text=${encodeURIComponent(
-                                    t("pages:contact.whatsapp.defaultMessage")
+                                    t("pages:contact.whatsapp.defaultMessage"),
                                   )}`
                                 : `tel:${method.content.secondary}`
                             }

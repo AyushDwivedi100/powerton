@@ -673,6 +673,7 @@
     "hero": {
       "title": "Pata Nukuu ya Uhandisi ya Kitaalamu",
       "subtitle": "Wasiliana na timu yetu ya wataalamu kwa suluhisho maalum za automatisheni na ala kwa mahitaji yako ya viwandani.",
+      "estimates" : "Kadirio la Gharama",
       "benefits": {
         "consultation": "Ushauri wa Kiufundi Bure",
         "response": "Muda wa Kujibu wa Saa 24-48",
@@ -950,6 +951,9 @@
     }
   },
   "contact": {
+    "whatsapp": {
+      "defaultMessage": "Habari! Ninavutiwa na suluhisho zako za uhandisi na automatisheni ya viwandani. Ningependa kujadili mahitaji ya mradi wangu."
+    },
     "hero": {
       "title": "Wasiliana na Wataalamu Wetu wa Uhandisi",
       "subtitle": "Pata usaidizi wa kitaalamu kwa miradi yako ya automatisheni ya viwandani na uhandisi wa umeme. Timu yetu yenye uzoefu iko tayari kukusaidia kufanikiwa.",

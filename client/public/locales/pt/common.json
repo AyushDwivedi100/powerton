@@ -110,7 +110,7 @@
     "complete": "Completo",
     "view": "Visualizar",
     "viewAllServices": "Ver todos os serviços",
-    "contactExperts" : "Contate os especialistas"
+    "contactExperts": "Contate os especialistas"
   },
   "errors": {
     "productNotFound": "Produto não encontrado",
@@ -224,7 +224,7 @@
     "fastDelivery": "Entrega rápida"
   },
   "headings": {
-    "phoneNumbers" : "Números de telefone",
+    "phoneNumbers": "Números de telefone",
     "bldcCeilingFanModels": "Modelos de ventiladores de teto BLDC",
     "ourProducts": "Nossos produtos",
     "specifications": "Especificações",
@@ -485,9 +485,15 @@
       "automationControlSystems": "Sistemas de Automação e Controle",
       "safetyProtectiveDevices": "Dispositivos de Segurança e Proteção",
       "mechanicalPumpsSpares": "Bombas Mecânicas e Peças de Reposição",
-      "industrialToolsTackles": "Ferramentas Industriais"
+      "industrialToolsTackles": "Ferramentas Industriais",
+      "instrumentationAccessories": "Acessórios de Instrumentação",
+      "industrialMeasuringTools": "Ferramentas de Medição Industrial"
     },
     "pages": {
+      "customSolutions": "Soluções personalizadas",
+      "consultationTraining": "Consultoria e treinamento",
+      "supplyChainManagement": "Gerenciamento da cadeia de suprimentos",
+      "solarEPC": "Soluções EPC Solar",
       "home": "Casa",
       "aboutUs": "Sobre nós",
       "contact": "Contato",
@@ -608,7 +614,11 @@
       "bldcTableFanWallFanMotorDescription": "Motores BLDC para ventiladores de mesa e parede",
       "requestQuoteDescription": "Obtenha um orçamento para o seu projeto de engenharia",
       "downloadPortfolioDescription": "Baixe um portfólio completo de nossos projetos",
-      "newsUpdatesDescription": "Últimas notícias e atualizações da empresa"
+      "newsUpdatesDescription": "Últimas notícias e atualizações da empresa",
+      "customSolutionsDescription": "Soluções de engenharia personalizadas para requisitos industriais exclusivos",
+      "consultationTrainingDescription": "Serviços especializados de consultoria e treinamento para automação industrial",
+      "supplyChainManagementDescription": "Serviços abrangentes de gerenciamento de cadeia de suprimentos e logística",
+      "solarEPCDescription": "Soluções completas de EPC solar, do projeto ao comissionamento"
     }
   },
   "clients": {
@@ -636,7 +646,8 @@
     "title": "Ações rápidas",
     "subtitle": "Confira as ações rápidas para obter suas necessidades",
     "contactUs": "Contate-nos",
-    "requestQuote": "Solicitar orçamento"
+    "requestQuote": "Solicitar orçamento",
+    "productCategories": "Categorias de produtos"
   },
   "tags": {
     "award": "Prêmio",
@@ -648,6 +659,7 @@
     "renewableEnergy": "Energia Renovável",
     "expansion": "Expansão",
     "solar": "Solar",
+    "rd": "Pesquisa e Desenvolvimento",
     "infrastructure": "Infraestrutura",
     "innovation": "Inovação",
     "partnership": "Parceria",
@@ -707,7 +719,7 @@
   "common": {
     "keyFeatures": "Principais Características"
   },
-  "services":{
+  "services": {
     "needAssistance": "Precisa de ajuda?"
   },
   "ui": {

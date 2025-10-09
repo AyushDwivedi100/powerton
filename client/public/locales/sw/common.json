@@ -110,7 +110,7 @@
     "complete": "Kamilisha",
     "view": "Angalia",
     "viewAllServices": "Angalia Huduma Zote",
-    "contactExperts" : "Wasiliana na Wataalamu"
+    "contactExperts": "Wasiliana na Wataalamu"
   },
   "errors": {
     "productNotFound": "Bidhaa Haikupatikana",
@@ -224,7 +224,7 @@
     "fastDelivery": "Uwasilishaji wa haraka"
   },
   "headings": {
-    "phoneNumbers" : "Nambari ya Simu",
+    "phoneNumbers": "Nambari ya Simu",
     "bldcCeilingFanModels": "Aina za Feni za Dari za BLDC",
     "ourProducts": "Bidhaa Zetu",
     "specifications": "Maelezo",
@@ -485,9 +485,15 @@
       "automationControlSystems": "Mifumo ya Udhibiti wa Kiotomatiki",
       "safetyProtectiveDevices": "Vifaa vya Usalama na Ulinzi",
       "mechanicalPumpsSpares": "Pampu za Mitambo na Vipuri",
-      "industrialToolsTackles": "Zana za Viwandani"
+      "industrialToolsTackles": "Zana za Viwandani",
+      "instrumentationAccessories": "Vifaa vya Uendeshaji",
+      "industrialMeasuringTools": "Zana za Kupimia za Viwandani"
     },
     "pages": {
+      "customSolutions": "Suluhisho za Kibinafsi",
+      "consultationTraining": "Ushauri na Mafunzo",
+      "supplyChainManagement": "Usimamizi wa Ugavi",
+      "solarEPC": "Suluhisho za Solar EPC",
       "home": "Nyumbani",
       "aboutUs": "Kuhusu Sisi",
       "contact": "Wasiliana",
@@ -608,7 +614,11 @@
       "bldcTableFanWallFanMotorDescription": "Injini za BLDC za feni za meza na ukuta",
       "requestQuoteDescription": "Pata nukuu kamili ya mradi wako wa uhandisi",
       "downloadPortfolioDescription": "Pakua hati zetu kamili za mradi",
-      "newsUpdatesDescription": "Habari na sasisho za hivi karibuni za kampuni"
+      "newsUpdatesDescription": "Habari na sasisho za hivi karibuni za kampuni",
+      "customSolutionsDescription": "Suluhisho za uhandisi zilizobinafsishwa kwa mahitaji ya kipekee ya viwanda",
+      "consultationTrainingDescription": "Ushauri wa kitaalamu na huduma za mafunzo kwa uendeshaji wa viwanda",
+      "supplyChainManagementDescription": "Huduma za kina za usimamizi wa ugavi na vifaa",
+      "solarEPCDescription": "Suluhisho kamili za solar EPC kutoka kwa muundo hadi kuagiza"
     }
   },
   "clients": {
@@ -636,7 +646,8 @@
     "title": "Hatua za Haraka",
     "subtitle": "Angalia hatua za haraka ili kupata mahitaji yako",
     "contactUs": "Wasiliana Nasi",
-    "requestQuote": "Omba Bei"
+    "requestQuote": "Omba Bei",
+    "productCategories": "Kategoria za Bidhaa"
   },
   "tags": {
     "award": "Tuzo",
@@ -648,6 +659,7 @@
     "renewableEnergy": "Nishati Mbadala",
     "expansion": "Upanuzi",
     "solar": "Sola",
+    "rd": "Utafiti na Ubunifu",
     "infrastructure": "Miundombinu",
     "innovation": "Ubunifu",
     "partnership": "Ushirikiano",
@@ -707,7 +719,7 @@
   "common": {
     "keyFeatures": "Sifa Muhimu"
   },
-  "services":{
+  "services": {
     "needAssistance": "Je, Unahitaji Msaada?"
   },
   "ui": {
