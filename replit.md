@@ -1,18 +1,22 @@
 # Powerton Engineering Website
 
 ## Overview
+
 This project is a React-based business website for Powerton Engineering Pvt. Ltd., an industrial automation, electrical components, instrumentation, and engineering services company. The website aims to showcase the company's products, services, and projects through a responsive, multi-language interface. It features a professional industrial design, optimized for SEO and fast loading times, to cater to a global clientele and enhance market presence.
 
 ## User Preferences
+
 - Clean, professional design appropriate for industrial/engineering business
 - Multi-language support for international clients
 - Mobile-responsive design for accessibility
 - Fast loading times with optimized assets
 
 ## System Architecture
+
 The frontend is built with React 18, TypeScript, and Vite, utilizing Tailwind CSS with shadcn/ui for styling and Radix UI components for enhanced UI. Client-side routing is managed by Wouter, and internationalization is handled by i18next, supporting over 10 languages. Animations are implemented using Framer Motion. The project incorporates comprehensive SEO enhancements following Google's 2025 guidelines, including detailed Schema.org structured data (Product, BreadcrumbList, Service, Organization) and robust technical SEO practices. The build system uses Vite, and a custom Node.js launcher starts the Vite development server.
 
 **Key Features:**
+
 - Multi-language support (10+ languages)
 - Responsive design for all devices
 - Product catalog with 520 products across multiple categories
@@ -37,6 +41,7 @@ The frontend is built with React 18, TypeScript, and Vite, utilizing Tailwind CS
 - Corrected URL slugs and navigation links across product categories for seamless browsing
 
 ## External Dependencies
+
 - **i18next**: For multi-language support.
 - **Framer Motion**: For animations and transitions.
 - **Lucide React**: For icons.
@@ -44,6 +49,7 @@ The frontend is built with React 18, TypeScript, and Vite, utilizing Tailwind CS
 - **Google Search Engine**: SEO optimizations are tailored for Google's guidelines and rich snippets.
 
 ## Replit Environment Setup
+
 - **Development Server**: Runs via `npm run dev` which starts Vite dev server on port 5000
 - **Production Build**: `npm run build` builds the client and bundles the server launcher
 - **Production Server**: `npm start` runs Vite preview server on port 5000
@@ -54,8 +60,9 @@ The frontend is built with React 18, TypeScript, and Vite, utilizing Tailwind CS
 ## Recent Changes
 
 ### October 7, 2025 - Completed SEO and Accessibility i18n Migration
+
 - **Replaced all remaining hardcoded English text with translation keys:**
-  - Hero section: Fixed 4 aria-label attributes for accessibility statistics (aria.stats.*)
+  - Hero section: Fixed 4 aria-label attributes for accessibility statistics (aria.stats.\*)
   - Service category page: Fixed SEO title/description/keywords with parameterized translation keys
   - Multiple pages: Fixed SEO metadata (news, quote, gallery, projects)
 - **Updated English locale files:**
@@ -73,6 +80,7 @@ The frontend is built with React 18, TypeScript, and Vite, utilizing Tailwind CS
   - Structured data (Schema.org) kept in English for optimal search engine indexing
 
 ### October 4, 2025 - Fresh GitHub Import & Replit Setup
+
 - **Successfully imported project from GitHub and configured for Replit environment**
 - **Installation:**
   - Installed client dependencies: 298 packages
@@ -101,6 +109,7 @@ The frontend is built with React 18, TypeScript, and Vite, utilizing Tailwind CS
 - **Project Status**: Import completed successfully, application fully operational and ready for deployment
 
 ### October 4, 2025 - Completed Additional Internationalization (i18n) Implementation
+
 - **Fixed breadcrumb navigation across 4 files:**
   - Updated about.tsx, contact.tsx, product-detail-dynamic.tsx, service-category-dynamic.tsx
   - Reused existing sitemap.pages translation keys (DRY principle)
@@ -126,6 +135,7 @@ The frontend is built with React 18, TypeScript, and Vite, utilizing Tailwind CS
   - Documented exceptions (SEO metadata) with clear reasoning
 
 ### October 4, 2025 - Previous i18n Work Completed
+
 - **Systematically replaced ALL hardcoded English strings with translation keys:**
   - Chatbot component (2383 lines): Replaced 100+ hardcoded strings with translation keys
   - Footer component: Replaced all hardcoded aria-labels (7 instances)
@@ -140,6 +150,7 @@ The frontend is built with React 18, TypeScript, and Vite, utilizing Tailwind CS
   - Implementation ready for additional language locales (10+ languages supported)
 
 ### October 3, 2025 - Added PD Flow Meter Product Group
+
 - Created new "PD Flow Meters" (Positive Displacement) product group with i18n support
 - Added 5 real PD flow meter products from top manufacturers:
   - OVAL FLOWPET LSF41 (oval gear, Japanese manufacturer)
@@ -153,6 +164,7 @@ The frontend is built with React 18, TypeScript, and Vite, utilizing Tailwind CS
 - All products configured with proper typeKey, specs, and translation support
 
 ### September 30, 2025
+
 - Installed all client dependencies successfully
 - Added Replit runtime error modal plugin to vite.config.ts for improved development experience
 - Configured workflow "Start application" on port 5000 with webview output

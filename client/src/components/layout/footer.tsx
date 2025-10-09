@@ -181,7 +181,7 @@ export default function Footer() {
                       aria-hidden="true"
                     />
                     <span className=" font-medium text-wrap-safe responsive-text">
-                      {t("common:navigation.phoneNumbers")}
+                      {t("common:headings.phoneNumbers")}
                     </span>
                   </div>
                   <div className="space-y-1 ms-8">

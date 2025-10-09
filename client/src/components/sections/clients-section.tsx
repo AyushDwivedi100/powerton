@@ -19,7 +19,7 @@ export default function ClientsSection() {
   const [logoCurrentIndex, setLogoCurrentIndex] = useState(0);
   const [triggerAnimation, setTriggerAnimation] = useState(0);
   const [entryDirection, setEntryDirection] = useState<"left" | "right">(
-    "right",
+    "right"
   );
   const [exitDirection, setExitDirection] = useState<"left" | "right">("right");
 
@@ -36,7 +36,7 @@ export default function ClientsSection() {
         setTimeout(() => {
           setEntryDirection("right");
           setCurrentIndex((prevIndex) =>
-            prevIndex === testimonials.length - 1 ? 0 : prevIndex + 1,
+            prevIndex === testimonials.length - 1 ? 0 : prevIndex + 1
           );
           setTriggerAnimation((prev) => prev + 1);
         }, 10);
@@ -75,7 +75,7 @@ export default function ClientsSection() {
       } catch (error) {
         console.log(
           "Previous button auto-play resume handled gracefully:",
-          error,
+          error
         );
       }
     }, 8000);
@@ -124,7 +124,11 @@ export default function ClientsSection() {
             onMouseLeave={() => setIsHovered(false)}
           >
             <div
-              className={`flex ${isRTL ? "animate-infinite-scroll-rtl" : "animate-infinite-scroll"} ${isHovered ? "paused" : ""}`}
+              className={`flex ${
+                isRTL
+                  ? "animate-infinite-scroll-rtl"
+                  : "animate-infinite-scroll"
+              } ${isHovered ? "paused" : ""}`}
               style={{
                 width: `${CLIENT_LOGOS.length * 2 * 162}px`, // Double width for seamless loop (162px per card)
               }}
@@ -132,7 +136,9 @@ export default function ClientsSection() {
               {/* Render clients twice for seamless infinite loop */}
               {[...CLIENT_LOGOS, ...CLIENT_LOGOS].map((client, index) => (
                 <div
-                  key={`${client.id}-${Math.floor(index / CLIENT_LOGOS.length)}`}
+                  key={`${client.id}-${Math.floor(
+                    index / CLIENT_LOGOS.length
+                  )}`}
                   className="flex-shrink-0 bg-card rounded-lg border border-border p-2 md:p-3 lg:p-4 flex items-center justify-center hover:shadow-lg transition-all duration-300 mx-2 md:mx-3 lg:mx-4"
                   style={{
                     width: "130px",
@@ -142,7 +148,10 @@ export default function ClientsSection() {
                   <div className="text-center w-full">
                     <img
                       src={client.logo}
-                      alt={`ID-820-${index}: ${t(`common:clients.${client.id}`, client.name)} company logo`}
+                      alt={`ID-820-${index}: ${t(
+                        `common:clients.${client.id}`,
+                        client.name
+                      )} company logo`}
                       className="w-full h-8 md:h-10 lg:h-12 object-contain mb-1"
                       onError={(e) => {
                         const target = e.target as HTMLImageElement;
@@ -225,7 +234,7 @@ export default function ClientsSection() {
                                   className="w-5 h-5 fill-current"
                                   aria-hidden="true"
                                 />
-                              ),
+                              )
                             )}
                           </div>
                         </div>
@@ -273,7 +282,7 @@ export default function ClientsSection() {
                     } catch (error) {
                       console.log(
                         "Pagination dot auto-play resume handled gracefully:",
-                        error,
+                        error
                       );
                     }
                   }, 8000);

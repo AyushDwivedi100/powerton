@@ -131,7 +131,7 @@ export default function FrontendQuoteForm() {
       formData.append("specifications", data.specifications);
       formData.append(
         "additionalRequirements",
-        data.additionalRequirements || "",
+        data.additionalRequirements || ""
       );
       formData.append("preferredBrands", data.preferredBrands || "");
 
@@ -322,7 +322,7 @@ export default function FrontendQuoteForm() {
                           <SelectTrigger>
                             <SelectValue
                               placeholder={t(
-                                "common:placeholders.selectProjectType",
+                                "common:placeholders.selectProjectType"
                               )}
                             />
                           </SelectTrigger>
@@ -369,7 +369,7 @@ export default function FrontendQuoteForm() {
                           <SelectTrigger>
                             <SelectValue
                               placeholder={t(
-                                "common:placeholders.projectTimeline",
+                                "common:placeholders.projectTimeline"
                               )}
                             />
                           </SelectTrigger>
@@ -415,7 +415,7 @@ export default function FrontendQuoteForm() {
                           <SelectTrigger>
                             <SelectValue
                               placeholder={t(
-                                "forms:quote.placeholders.selectBudget",
+                                "forms:quote.placeholders.selectBudget"
                               )}
                             />
                           </SelectTrigger>
@@ -465,7 +465,7 @@ export default function FrontendQuoteForm() {
                           <SelectTrigger>
                             <SelectValue
                               placeholder={t(
-                                "forms:quote.placeholders.selectIndustry",
+                                "forms:quote.placeholders.selectIndustry"
                               )}
                             />
                           </SelectTrigger>
@@ -543,8 +543,8 @@ export default function FrontendQuoteForm() {
                                         ])
                                       : field.onChange(
                                           field.value?.filter(
-                                            (value) => value !== service.id,
-                                          ),
+                                            (value) => value !== service.id
+                                          )
                                         );
                                   }}
                                 />
@@ -580,7 +580,7 @@ export default function FrontendQuoteForm() {
                     <FormControl>
                       <Textarea
                         placeholder={t(
-                          "forms:quote.placeholders.detailedRequirements",
+                          "forms:quote.placeholders.detailedRequirements"
                         )}
                         className="min-h-[120px] resize-none"
                         {...field}
@@ -608,7 +608,7 @@ export default function FrontendQuoteForm() {
                           <SelectTrigger>
                             <SelectValue
                               placeholder={t(
-                                "forms:quote.placeholders.selectProjectScale",
+                                "forms:quote.placeholders.selectProjectScale"
                               )}
                             />
                           </SelectTrigger>
@@ -644,7 +644,7 @@ export default function FrontendQuoteForm() {
                       <FormControl>
                         <Input
                           placeholder={t(
-                            "forms:quote.placeholders.preferredBrands",
+                            "forms:quote.placeholders.preferredBrands"
                           )}
                           {...field}
                         />
@@ -666,7 +666,7 @@ export default function FrontendQuoteForm() {
                     <FormControl>
                       <Textarea
                         placeholder={t(
-                          "forms:quote.placeholders.additionalRequirements",
+                          "forms:quote.placeholders.additionalRequirements"
                         )}
                         className="min-h-[80px] resize-none"
                         {...field}

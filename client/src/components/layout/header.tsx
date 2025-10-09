@@ -63,16 +63,16 @@ export default function Header() {
 
   // Product Groups Popup State
   const [hoveredSubcategory, setHoveredSubcategory] = useState<string | null>(
-    null,
+    null
   );
   const [popupPosition, setPopupPosition] = useState({ x: 0, y: 0 });
   // Use refs instead of state for timers to prevent re-renders and race conditions
   const popupTimerRef = useRef<number | null>(null);
   const productsTimerRef = useRef<number | null>(null);
-  
+
   // Navigation lock to prevent menu reopening after navigation (persistent ref)
   const navigationLockRef = useRef(false);
-  
+
   // Hover state tracking for reliable popup management
   const isSubcategoryHoveredRef = useRef(false);
   const isPopupHoveredRef = useRef(false);
@@ -107,12 +107,20 @@ export default function Header() {
     }
   };
 
-  const openWithDelay = (timerRef: React.MutableRefObject<number | null>, ms: number, fn: () => void) => {
+  const openWithDelay = (
+    timerRef: React.MutableRefObject<number | null>,
+    ms: number,
+    fn: () => void
+  ) => {
     clearTimer(timerRef);
     timerRef.current = window.setTimeout(fn, ms);
   };
 
-  const closeWithDelay = (timerRef: React.MutableRefObject<number | null>, ms: number, fn: () => void) => {
+  const closeWithDelay = (
+    timerRef: React.MutableRefObject<number | null>,
+    ms: number,
+    fn: () => void
+  ) => {
     clearTimer(timerRef);
     timerRef.current = window.setTimeout(fn, ms);
   };
@@ -130,20 +138,20 @@ export default function Header() {
     // Clear all timers and close menus immediately
     clearTimer(popupTimerRef);
     clearTimer(productsTimerRef);
-    
+
     setIsServicesDropdownOpen(false);
     setIsProductsDropdownOpen(false);
     setHoveredSubcategory(null);
     setIsOpen(false);
     setIsMobileServicesOpen(false);
     setIsMobileProductsOpen(false);
-    
+
     // Extended navigation lock (300ms) to prevent reopening after navigation
     navigationLockRef.current = true;
     const releaseLock = setTimeout(() => {
       navigationLockRef.current = false;
     }, 300);
-    
+
     return () => {
       clearTimeout(releaseLock);
     };
@@ -223,19 +231,20 @@ export default function Header() {
   // Hover and focus handlers for product groups popup
   const handleSubcategoryHover = (
     subcategoryId: string,
-    event: React.MouseEvent | React.FocusEvent,
+    event: React.MouseEvent | React.FocusEvent
   ) => {
     // Don't show popup if navigation is locked
     if (navigationLockRef.current) return;
-    
+
     // Mark subcategory as hovered and clear any existing popup timer
     isSubcategoryHoveredRef.current = true;
     clearTimer(popupTimerRef);
 
     // Convert subcategory ID to key for product group lookup
-    const subcategorySlug = getSubcategorySlugById(subcategoryId) || subcategoryId;
+    const subcategorySlug =
+      getSubcategorySlugById(subcategoryId) || subcategoryId;
     const subcategoryKey = getSubcategoryKeyBySlug(subcategorySlug);
-    
+
     if (!hasProductGroups(subcategoryKey)) {
       // If no product groups, hide popup immediately
       setHoveredSubcategory(null);
@@ -247,19 +256,19 @@ export default function Header() {
     const viewportHeight = window.innerHeight;
     const popupWidth = 350; // Popup width
     const popupHeight = 400; // Estimated popup height
-    
+
     // Get mouse position if it's a mouse event
     let mouseX = 0;
     let mouseY = 0;
-    if ('clientX' in event) {
+    if ("clientX" in event) {
       mouseX = event.clientX;
       mouseY = event.clientY;
     }
-    
+
     // Position popup right beside the hovered subcategory item with minimal gap
     let xPosition = rect.right + 1; // Almost touching the subcategory item
     let yPosition = rect.top - 10; // Position slightly above to center with subcategory text
-    
+
     // Adjust position to keep popup within viewport
     if (xPosition + popupWidth > viewportWidth) {
       xPosition = rect.left - popupWidth - 1; // Position to the left with minimal gap
@@ -283,7 +292,7 @@ export default function Header() {
   const handleSubcategoryLeave = (event?: React.MouseEvent) => {
     // Mark subcategory as no longer hovered
     isSubcategoryHoveredRef.current = false;
-    
+
     // Start timer to close popup, will be cancelled if mouse enters popup
     closeWithDelay(popupTimerRef, 200, () => {
       // Only close if neither subcategory nor popup is hovered
@@ -320,7 +329,7 @@ export default function Header() {
   const handlePopupLeave = (event?: React.MouseEvent) => {
     // Mark popup as no longer hovered
     isPopupHoveredRef.current = false;
-    
+
     // Start timer to close popup, will be cancelled if mouse enters subcategory
     closeWithDelay(popupTimerRef, 200, () => {
       // Only close if neither popup nor subcategory is hovered
@@ -339,15 +348,17 @@ export default function Header() {
     // Check if mouse is moving to safe areas
     if (event && event.relatedTarget) {
       const relatedTarget = event.relatedTarget as Element;
-      if (relatedTarget && typeof relatedTarget.closest === 'function' && (
-        relatedTarget.closest('[data-popup-area="true"]') ||
-        relatedTarget.closest('[data-testid^="subcategory-"]') ||
-        relatedTarget.closest('[data-dropdown-area="products"]')
-      )) {
+      if (
+        relatedTarget &&
+        typeof relatedTarget.closest === "function" &&
+        (relatedTarget.closest('[data-popup-area="true"]') ||
+          relatedTarget.closest('[data-testid^="subcategory-"]') ||
+          relatedTarget.closest('[data-dropdown-area="products"]'))
+      ) {
         return;
       }
     }
-    
+
     closeProductsDropdown();
   };
 
@@ -422,7 +433,7 @@ export default function Header() {
           <motion.div
             className={cn(
               "flex items-center gap-4 sm:gap-6 md:gap-8 flex-wrap flex-safe",
-              rtl.justifyStart,
+              rtl.justifyStart
             )}
             initial="hidden"
             animate="visible"
@@ -724,15 +735,16 @@ export default function Header() {
                         onPointerLeave={handleProductsDropdownLeave}
                         data-dropdown-area="products"
                       >
-                        <div 
+                        <div
                           className="w-max max-w-[95vw] max-h-[70vh] bg-popover border-2 border-slate-300 dark:border-slate-600 rounded-md shadow-lg overflow-y-auto"
                           onClick={(e) => {
                             // Close only popup when clicking on empty space (not on menu items or the dropdown itself)
                             const target = e.target as Element;
-                            const clickedOnMenuItem = target.closest('a') || 
-                                                    target.closest('[data-testid^="subcategory-"]') || 
-                                                    target.closest('[role="button"]') ||
-                                                    target.tagName.toLowerCase() === 'button';
+                            const clickedOnMenuItem =
+                              target.closest("a") ||
+                              target.closest('[data-testid^="subcategory-"]') ||
+                              target.closest('[role="button"]') ||
+                              target.tagName.toLowerCase() === "button";
                             if (!clickedOnMenuItem) {
                               e.stopPropagation();
                               // Only close the popup, not the entire dropdown
@@ -755,8 +767,8 @@ export default function Header() {
                                       {String(
                                         t(
                                           `products:items.${product.id}`,
-                                          product.title,
-                                        ),
+                                          product.title
+                                        )
                                       )}
                                     </div>
                                   </Link>
@@ -772,7 +784,7 @@ export default function Header() {
                                             onPointerEnter={(e) =>
                                               handleSubcategoryHover(
                                                 subcategory.id,
-                                                e,
+                                                e
                                               )
                                             }
                                             onPointerLeave={(e) =>
@@ -792,7 +804,7 @@ export default function Header() {
                                               onFocus={(e) =>
                                                 handleSubcategoryHover(
                                                   subcategory.id,
-                                                  e,
+                                                  e
                                                 )
                                               }
                                               onBlur={handleSubcategoryBlur}
@@ -803,13 +815,13 @@ export default function Header() {
                                                 {String(
                                                   t(
                                                     `products:subcategories.${subcategory.id}.title`,
-                                                    subcategory.title,
-                                                  ),
+                                                    subcategory.title
+                                                  )
                                                 )}
                                               </div>
                                             </Link>
                                           </div>
-                                        ),
+                                        )
                                       )}
                                     </div>
                                   )}
@@ -824,12 +836,22 @@ export default function Header() {
                       <AnimatePresence>
                         {hoveredSubcategory && (
                           <motion.div
-                            initial={{ opacity: 0, scaleX: 0.3, scaleY: 0.8, x: -20 }}
+                            initial={{
+                              opacity: 0,
+                              scaleX: 0.3,
+                              scaleY: 0.8,
+                              x: -20,
+                            }}
                             animate={{ opacity: 1, scaleX: 1, scaleY: 1, x: 0 }}
                             onPointerEnter={handlePopupHover}
                             onPointerLeave={handlePopupLeave}
                             data-popup-area="true"
-                            exit={{ opacity: 0, scaleX: 0.3, scaleY: 0.8, x: -20 }}
+                            exit={{
+                              opacity: 0,
+                              scaleX: 0.3,
+                              scaleY: 0.8,
+                              x: -20,
+                            }}
                             transition={{ duration: 0.25, ease: "easeOut" }}
                             className="fixed z-[100] bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-700 rounded-lg shadow-xl pointer-events-auto"
                             style={{
@@ -844,11 +866,13 @@ export default function Header() {
                             <div className="p-4 max-h-[500px] overflow-y-auto">
                               <div className="space-y-2 ">
                                 {getProductGroupsBySubcategory(
-                                  hoveredSubcategory,
+                                  hoveredSubcategory
                                 ).map((group) => (
                                   <Link
                                     key={group.key}
-                                    href={`/products/${getParentCategoryBySubcategoryKey(group.subcategoryKey)}/${group.subcategoryKey}/${group.slug}`}
+                                    href={`/products/${getParentCategoryBySubcategoryKey(
+                                      group.subcategoryKey
+                                    )}/${group.subcategoryKey}/${group.slug}`}
                                     className="flex items-center gap-3 p-3 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors group border-rounded border-transparent hover:border-gray-200 dark:hover:border-gray-700 bg-blue-500/10 dark:bg-blue-900/20"
                                     onClick={() => {
                                       setIsProductsDropdownOpen(false);
@@ -1040,7 +1064,7 @@ export default function Header() {
                                 onClick={(e) => {
                                   e.stopPropagation();
                                   setIsMobileServicesOpen(
-                                    !isMobileServicesOpen,
+                                    !isMobileServicesOpen
                                   );
                                 }}
                               >
@@ -1106,7 +1130,7 @@ export default function Header() {
                                 onClick={(e) => {
                                   e.stopPropagation();
                                   setIsMobileProductsOpen(
-                                    !isMobileProductsOpen,
+                                    !isMobileProductsOpen
                                   );
                                 }}
                               >
@@ -1148,8 +1172,8 @@ export default function Header() {
                                           {String(
                                             t(
                                               `products:items.${product.id}`,
-                                              product.title,
-                                            ),
+                                              product.title
+                                            )
                                           )}
                                         </Link>
 
@@ -1165,18 +1189,18 @@ export default function Header() {
                                                   onClick={() => {
                                                     setIsOpen(false);
                                                     setIsMobileProductsOpen(
-                                                      false,
+                                                      false
                                                     );
                                                   }}
                                                 >
                                                   {String(
                                                     t(
                                                       `products:subcategories.${subcategory.id}.title`,
-                                                      subcategory.title,
-                                                    ),
+                                                      subcategory.title
+                                                    )
                                                   )}
                                                 </Link>
-                                              ),
+                                              )
                                             )}
                                           </div>
                                         )}

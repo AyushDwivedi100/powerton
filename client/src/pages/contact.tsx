@@ -134,7 +134,7 @@ export default function Contact() {
   // Generate breadcrumb schema
   const breadcrumbItems = [
     { name: t("common:sitemap.pages.home"), url: "/" },
-    { name: t("common:sitemap.pages.contact"), url: "/contact" }
+    { name: t("common:sitemap.pages.contact"), url: "/contact" },
   ];
   const breadcrumbSchema = generateBreadcrumbData(breadcrumbItems);
 

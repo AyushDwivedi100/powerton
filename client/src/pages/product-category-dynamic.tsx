@@ -274,15 +274,19 @@ const ProductCategoryDynamic: React.FC = () => {
             // Get parent category slug from subcategory data
             const subcategorySlug =
               getSubcategorySlugById(subcategory.id) || subcategory.id;
-            const subcategoryData =
-              getProductSubCategoryBySlug(subcategorySlug, t);
+            const subcategoryData = getProductSubCategoryBySlug(
+              subcategorySlug,
+              t
+            );
             const parentCategorySlug =
               subcategoryData?.parentCategory.split("/").pop() ||
               categoryData.slug;
             return (
               <Link
                 key={subcategory.id}
-                href={`/products/${parentCategorySlug}/${getSubcategorySlugById(subcategory.id) || subcategory.id}`}
+                href={`/products/${parentCategorySlug}/${
+                  getSubcategorySlugById(subcategory.id) || subcategory.id
+                }`}
               >
                 <motion.div
                   variants={cardVariants}

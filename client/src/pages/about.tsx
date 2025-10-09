@@ -71,7 +71,7 @@ export default function About() {
     {
       goal: t("pages:about.futureGoals.technologyInnovation.goal"),
       description: t(
-        "pages:about.futureGoals.technologyInnovation.description",
+        "pages:about.futureGoals.technologyInnovation.description"
       ),
       icon: Rocket,
     },
@@ -236,7 +236,7 @@ export default function About() {
                   src={industryFacilityImage}
                   alt={t(
                     "common:altTexts.aboutBackground",
-                    "ID-004: Powerton Engineering industrial automation facility with modern control systems",
+                    "ID-004: Powerton Engineering industrial automation facility with modern control systems"
                   )}
                   className="rounded-xl shadow-2xl w-full"
                 />

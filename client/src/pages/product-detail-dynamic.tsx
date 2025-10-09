@@ -82,8 +82,7 @@ const ProductDetailDynamic: React.FC = () => {
     );
   });
 
-  const manufacturer =
-    manufacturerSpec?.value || t("common:company.name");
+  const manufacturer = manufacturerSpec?.value || t("common:company.name");
   const brand = manufacturerSpec?.value || t("common:seo.siteName");
 
   // Convert product image to absolute URL for structured data
@@ -353,7 +352,7 @@ const ProductDetailDynamic: React.FC = () => {
                                   </span>
                                 </div>
                               </motion.div>
-                            ),
+                            )
                           )}
                         </div>
                       </div>

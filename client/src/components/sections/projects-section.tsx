@@ -16,7 +16,7 @@ export default function ProjectsSection() {
     "power-distribution-demo",
   ];
   const projects = PROJECTS.filter((project) =>
-    featuredProjectIds.includes(project.id),
+    featuredProjectIds.includes(project.id)
   );
   const categoryColors = {
     "Power Systems": "bg-secondary/10 text-secondary",
@@ -136,7 +136,7 @@ export default function ProjectsSection() {
                         <span className="font-medium">
                           {t(
                             `common:projects.${project.id}.location`,
-                            project.location,
+                            project.location
                           )}
                         </span>
                       </span>
@@ -148,7 +148,7 @@ export default function ProjectsSection() {
                         <span className="font-medium">
                           {t(
                             `common:projects.${project.id}.duration`,
-                            project.duration,
+                            project.duration
                           )}
                         </span>
                       </span>

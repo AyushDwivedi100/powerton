@@ -57,10 +57,18 @@ const getUpcomingProjects = (t: any) => [
     description: t("pages:news.upcomingProjects.pharmaceutical.description"),
     status: t("pages:news.projectStatuses.contractSigned"),
     technologies: [
-      t("pages:news.upcomingProjects.pharmaceutical.technologies.gmpCompliance"),
-      t("pages:news.upcomingProjects.pharmaceutical.technologies.batchProcessing"),
-      t("pages:news.upcomingProjects.pharmaceutical.technologies.qualityControl"),
-      t("pages:news.upcomingProjects.pharmaceutical.technologies.traceabilitySystems"),
+      t(
+        "pages:news.upcomingProjects.pharmaceutical.technologies.gmpCompliance"
+      ),
+      t(
+        "pages:news.upcomingProjects.pharmaceutical.technologies.batchProcessing"
+      ),
+      t(
+        "pages:news.upcomingProjects.pharmaceutical.technologies.qualityControl"
+      ),
+      t(
+        "pages:news.upcomingProjects.pharmaceutical.technologies.traceabilitySystems"
+      ),
     ],
   },
   {

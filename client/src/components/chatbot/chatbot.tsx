@@ -73,7 +73,7 @@ export default function Chatbot() {
       const savedMessages = localStorage.getItem("powerton-chatbot-messages");
       const savedOptions = localStorage.getItem("powerton-chatbot-options");
       const savedMessageId = localStorage.getItem(
-        "powerton-chatbot-last-message-id",
+        "powerton-chatbot-last-message-id"
       );
 
       if (savedMessages) {
@@ -104,7 +104,7 @@ export default function Chatbot() {
     try {
       localStorage.setItem(
         "powerton-chatbot-messages",
-        JSON.stringify(messages),
+        JSON.stringify(messages)
       );
     } catch (error) {
       console.warn("Failed to save chatbot messages:", error);
@@ -117,7 +117,7 @@ export default function Chatbot() {
     try {
       localStorage.setItem(
         "powerton-chatbot-options",
-        JSON.stringify(lastBotOptions),
+        JSON.stringify(lastBotOptions)
       );
     } catch (error) {
       console.warn("Failed to save chatbot options:", error);
@@ -131,7 +131,7 @@ export default function Chatbot() {
       if (lastBotMessageId) {
         localStorage.setItem(
           "powerton-chatbot-last-message-id",
-          lastBotMessageId,
+          lastBotMessageId
         );
       } else {
         localStorage.removeItem("powerton-chatbot-last-message-id");
@@ -248,7 +248,7 @@ export default function Chatbot() {
       }
 
       const toggleButton = document.querySelector(
-        '[data-chatbot-toggle="true"]',
+        '[data-chatbot-toggle="true"]'
       ) as Element | null;
       if (
         toggleButton &&
@@ -1450,8 +1450,16 @@ export default function Chatbot() {
             action: "external",
             url: "https://maps.app.goo.gl/jiap3sBYbM3r8Pn68",
           },
-          { label: t("chatbot.options.contactForm"), action: "page", page: "contact" },
-          { label: t("chatbot.options.requestQuote"), action: "page", page: "quote" },
+          {
+            label: t("chatbot.options.contactForm"),
+            action: "page",
+            page: "contact",
+          },
+          {
+            label: t("chatbot.options.requestQuote"),
+            action: "page",
+            page: "quote",
+          },
           {
             label: t("chatbot.options.businessHours"),
             action: "chat",
@@ -1471,7 +1479,11 @@ export default function Chatbot() {
       return {
         message: t("chatbotMessages.quoteHelp"),
         options: [
-          { label: t("chatbot.options.requestDetailedQuote"), action: "page", page: "quote" },
+          {
+            label: t("chatbot.options.requestDetailedQuote"),
+            action: "page",
+            page: "quote",
+          },
           {
             label: t("chatbot.options.quickPhoneQuote"),
             action: "external",
@@ -1531,7 +1543,11 @@ export default function Chatbot() {
             action: "chat",
             response: "company-info",
           },
-          { label: t("chatbot.options.getStarted"), action: "page", page: "contact" },
+          {
+            label: t("chatbot.options.getStarted"),
+            action: "page",
+            page: "contact",
+          },
         ],
       };
     }
@@ -1574,7 +1590,11 @@ export default function Chatbot() {
       return {
         message: t("chatbotMessages.pricingInfo"),
         options: [
-          { label: t("chatbot.options.getDetailedQuote"), action: "page", page: "quote" },
+          {
+            label: t("chatbot.options.getDetailedQuote"),
+            action: "page",
+            page: "quote",
+          },
           {
             label: t("chatbot.options.discussPricing"),
             action: "external",
@@ -1603,13 +1623,21 @@ export default function Chatbot() {
       return {
         message: t("chatbotMessages.achievements"),
         options: [
-          { label: t("chatbot.options.majorProjects"), action: "page", page: "projects" },
+          {
+            label: t("chatbot.options.majorProjects"),
+            action: "page",
+            page: "projects",
+          },
           {
             label: t("chatbot.options.ourClients"),
             action: "chat",
             response: "major-clients",
           },
-          { label: t("chatbot.options.successStories"), action: "page", page: "projects" },
+          {
+            label: t("chatbot.options.successStories"),
+            action: "page",
+            page: "projects",
+          },
           {
             label: t("chatbot.options.whyChooseUs"),
             action: "chat",
@@ -1672,7 +1700,11 @@ export default function Chatbot() {
       return {
         message: t("chatbotMessages.quoteTips"),
         options: [
-          { label: t("chatbot.options.requestDetailedQuote"), action: "page", page: "quote" },
+          {
+            label: t("chatbot.options.requestDetailedQuote"),
+            action: "page",
+            page: "quote",
+          },
           {
             label: t("chatbot.options.discussRequirements"),
             action: "external",
@@ -1817,7 +1849,7 @@ export default function Chatbot() {
 
   // Generate contextual response based on navigation action
   const generateNavigationResponse = (
-    option: NavigationOption,
+    option: NavigationOption
   ): ChatbotResponse => {
     if (option.action === "page") {
       const pageResponses: { [key: string]: ChatbotResponse } = {
@@ -2007,7 +2039,11 @@ export default function Chatbot() {
         pageResponses[option.page || ""] || {
           message: t("chatbotMessages.genericPageResponse"),
           options: [
-            { label: t("chatbot.options.haveQuestions"), action: "chat", response: "help" },
+            {
+              label: t("chatbot.options.haveQuestions"),
+              action: "chat",
+              response: "help",
+            },
             {
               label: t("chatbot.options.talkToExpert"),
               action: "external",
@@ -2129,8 +2165,16 @@ export default function Chatbot() {
           action: "chat",
           response: "service-selection",
         },
-        { label: t("chatbot.options.haveQuestions"), action: "chat", response: "help" },
-        { label: t("chatbot.options.backToMainMenu"), action: "chat", response: "main-menu" },
+        {
+          label: t("chatbot.options.haveQuestions"),
+          action: "chat",
+          response: "help",
+        },
+        {
+          label: t("chatbot.options.backToMainMenu"),
+          action: "chat",
+          response: "main-menu",
+        },
       ],
     };
   };
@@ -2160,7 +2204,7 @@ export default function Chatbot() {
           option.url,
           option.url.startsWith("tel:") || option.url.startsWith("mailto:")
             ? "_self"
-            : "_blank",
+            : "_blank"
         );
         setIsOpen(false);
       } else if (option.action === "chat" && option.response) {

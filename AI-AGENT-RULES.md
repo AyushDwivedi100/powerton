@@ -2,19 +2,21 @@
 
 **⚠️ CRITICAL WARNING - ABSOLUTE PROHIBITION**
 
-The following files are **PERFECT AND FINALIZED** and must **NEVER** be modified by any AI agent under **ANY CIRCUMSTANCES**. These files have been thoroughly tested, optimized, and approved. 
+The following files are **PERFECT AND FINALIZED** and must **NEVER** be modified by any AI agent under **ANY CIRCUMSTANCES**. These files have been thoroughly tested, optimized, and approved.
 
 ### **LOCKED FILES LIST** (Locked on August 25, 2025):
 
 1. **Header Component**: `client/src/components/layout/header.tsx`
+
    - **Status**: Perfect and finalized
    - **Reason**: Complete mobile navigation, responsive design, theme integration
 
-2. **Footer Component**: `client/src/components/layout/footer.tsx`  
+2. **Footer Component**: `client/src/components/layout/footer.tsx`
    - **Status**: Perfect and finalized
    - **Reason**: Optimal layout, links, contact information, and styling
 
 ### **ENFORCEMENT RULES**:
+
 - **ABSOLUTE**: NEVER modify these files under ANY circumstances
 - **NO EXCEPTIONS**: Even for "minor improvements" or bug fixes
 - **NO OVERRIDES**: No emergency clauses, no special situations
@@ -22,6 +24,7 @@ The following files are **PERFECT AND FINALIZED** and must **NEVER** be modified
 - **MANAGEMENT**: Only the project owner can add/remove files from this list
 
 ### **IF THESE FILES NEED CHANGES**:
+
 1. **STOP IMMEDIATELY** - Do not proceed
 2. **ASK USER PERMISSION** - Explain what needs to be changed and why
 3. **AWAIT EXPLICIT APPROVAL** - Only proceed with written user consent
@@ -38,8 +41,9 @@ The following files are **PERFECT AND FINALIZED** and must **NEVER** be modified
 **⚠️ This file contains the complete standardization rules for the Powerton Engineering website. It must NOT be deleted, renamed, or modified without explicit user request. Any AI agent that deletes or significantly modifies this file will cause major design system breakage.**
 
 **This file serves as the single source of truth for:**
+
 - Design system standards
-- UI component patterns  
+- UI component patterns
 - Code consistency rules
 - Image management system
 - Color scheme enforcement
@@ -73,7 +77,9 @@ The following files are **PERFECT AND FINALIZED** and must **NEVER** be modified
 **FORMAT**: `alt="ID-[unique-id]: [descriptive text]"`
 
 ### **PURPOSE & OBJECTIVE OF THE ID SYSTEM**:
+
 🎯 **PRIMARY PURPOSE**: When images fail to load or are not visible, the alt text with the unique ID becomes visible to the user. This allows the user to:
+
 - **Identify specific problematic images** by their unique ID number
 - **Communicate with AI agents** by referencing the exact ID: "Please replace image ID-G045 with a different industrial automation image"
 - **Track and manage images systematically** across the entire website
@@ -82,23 +88,28 @@ The following files are **PERFECT AND FINALIZED** and must **NEVER** be modified
 **MODERNIZED ID SYSTEM** (Updated January 2025):
 
 **Generated Images (attached_assets/generated_images/)**:
+
 - ID-G001-G099: Generated product showcase images ✓ ASSIGNED (80+ images)
 - ID-G100-G199: Generated background and hero images ✓ ASSIGNED
 - **NEXT AVAILABLE**: ID-G200+
 
 **Logo and Branding**:
-- ID-L001: Main Powerton logo (mainlogopowerton (1)_1755674514195.png) ✓ ASSIGNED
+
+- ID-L001: Main Powerton logo (mainlogopowerton (1)\_1755674514195.png) ✓ ASSIGNED
 - ID-L002-L010: Future logo variants (reserved)
 
 **User Uploaded Assets**:
+
 - ID-U001-U050: User uploaded images (available)
 - ID-U051-U100: Screenshots and captures (available)
 
 **External Assets**:
+
 - ID-E001-E050: Client logos from external sources ✓ ASSIGNED
 - ID-E051-E100: Stock images from external sources (available)
 
 **PROCESS**:
+
 1. Choose appropriate category (G=Generated, L=Logo, U=User, E=External)
 2. Find next available ID in that category
 3. Assign unique ID: `alt="ID-G045: Industrial automation control panel"`
@@ -110,10 +121,12 @@ The following files are **PERFECT AND FINALIZED** and must **NEVER** be modified
 ## 🎨 RULE #2: COLOR SCHEME ENFORCEMENT
 
 ### **BRAND COLORS** (NEVER change these):
+
 - **Primary**: `hsl(215, 89%, 33%)` - Blue for headers, buttons, brand
 - **Secondary**: `hsl(20, 91%, 48%)` - Orange for accents, CTAs
 
 ### **REQUIRED CSS CLASSES** (NEVER use hardcoded colors):
+
 ```css
 /* Use THESE classes only */
 bg-primary, text-primary, border-primary
@@ -123,6 +136,7 @@ text-foreground, text-muted-foreground
 ```
 
 ### **FORBIDDEN** (Will break design):
+
 ```css
 /* NEVER use these */
 bg-blue-500, text-gray-600, bg-red-400
@@ -135,11 +149,12 @@ Any hardcoded color values
 ## 🎭 RULE #3: UI CONSISTENCY STANDARDS
 
 ### **Typography System**:
+
 ```css
 /* Page Titles */
 text-4xl md:text-5xl lg:text-6xl font-bold text-foreground
 
-/* Section Titles */  
+/* Section Titles */
 text-3xl md:text-4xl font-bold text-foreground
 
 /* Subsection Titles */
@@ -153,6 +168,7 @@ text-sm text-muted-foreground
 ```
 
 ### **Spacing System**:
+
 ```css
 /* Section Padding */
 py-12 md:py-16 lg:py-20
@@ -168,6 +184,7 @@ gap-4 md:gap-6 lg:gap-8
 ```
 
 ### **Grid Layouts**:
+
 ```css
 /* Card Grid */
 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6
@@ -180,11 +197,12 @@ grid grid-cols-1 lg:grid-cols-2 gap-12
 ```
 
 ### **Button System**:
+
 ```css
 /* Primary Button */
 bg-primary hover:bg-primary/90 text-primary-foreground px-6 py-3 rounded-lg font-semibold transition-colors
 
-/* Secondary Button */  
+/* Secondary Button */
 bg-secondary hover:bg-secondary/90 text-secondary-foreground px-6 py-3 rounded-lg font-semibold transition-colors
 
 /* Outline Button */
@@ -192,6 +210,7 @@ border-2 border-primary text-primary hover:bg-primary hover:text-primary-foregro
 ```
 
 ### **Card Components**:
+
 ```css
 /* Base Card */
 bg-card border border-border rounded-lg p-6 shadow-sm
@@ -210,39 +229,47 @@ bg-card border border-border rounded-lg p-6 shadow-sm hover:border-primary/50 tr
 **⚠️ MANDATORY FOR ALL AI AGENTS - NO EXCEPTIONS**
 
 ### **SPACING SYSTEM ENFORCEMENT**
+
 **FORBIDDEN**: Custom classes like `section-padding`, `container-padding`
 **REQUIRED**: Standard Tailwind utilities only
+
 - **Section Padding**: `py-12 md:py-16 lg:py-20` (NEVER use custom classes)
 - **Container Padding**: `px-4 md:px-6 lg:px-8` (NEVER use custom classes)
 - **Container Max Width**: `max-w-7xl mx-auto` (consistent across all sections)
 
 ### **GRID LAYOUT STANDARDIZATION**
+
 **FORBIDDEN**: Custom grid classes like `grid-responsive-*`, `flex-responsive`
 **REQUIRED**: Standard Tailwind grid utilities
+
 - **Two Column Layout**: `grid grid-cols-1 lg:grid-cols-2 gap-8`
 - **Three Column Layout**: `grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6`
 - **Four Column Layout**: `grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6`
 - **Feature Grids**: `grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6`
 
 ### **ANIMATION SYSTEM STANDARDIZATION**
+
 **FORBIDDEN**: Custom animation classes like `hover-lift`, `will-animate`, `card-hover`
 **REQUIRED**: Standard Tailwind utilities
+
 - **Hover Effects**: `hover:shadow-xl hover:scale-[1.02] transition-all duration-300`
 - **Card Hover**: `hover:shadow-2xl hover:-translate-y-1 transition-all duration-300`
 - **Button Hover**: `hover:opacity-90 hover:shadow-md transition-all duration-200`
 
 ### **CONTAINER STRUCTURE ENFORCEMENT**
+
 Every section MUST follow this exact pattern:
+
 ```jsx
 <section className="py-12 md:py-16 lg:py-20">
-  <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8">
-    {/* Content */}
-  </div>
+  <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8">{/* Content */}</div>
 </section>
 ```
 
 ### **CARD COMPONENT STANDARDIZATION**
+
 **STANDARD CARD PATTERN** (use everywhere):
+
 ```jsx
 <Card className="bg-card border border-border rounded-lg p-6 shadow-sm hover:shadow-xl hover:scale-[1.02] transition-all duration-300">
   {/* Card content */}
@@ -250,12 +277,15 @@ Every section MUST follow this exact pattern:
 ```
 
 ### **BUTTON STANDARDIZATION**
+
 Use ONLY these three button patterns:
+
 - **Primary**: `bg-primary hover:bg-primary/90 text-primary-foreground`
 - **Secondary**: `bg-secondary hover:bg-secondary/90 text-secondary-foreground`
 - **Outline**: `border-2 border-primary text-primary hover:bg-primary hover:text-primary-foreground`
 
 ### **COMPLETE STANDARDIZATION STATUS (August 20, 2025)**
+
 ✅ **COMPLETED**: Spacing system standardization across all sections
 ✅ **COMPLETED**: Grid layout standardization (removed all custom grid classes)
 ✅ **COMPLETED**: Animation system unification
@@ -268,21 +298,29 @@ Use ONLY these three button patterns:
 **🎯 Overall Website Consistency: 100% (Perfect)**
 
 ### **HERO SECTION STANDARDIZATION (August 20, 2025)**
+
 **MANDATORY FOR ALL PAGES EXCEPT HOME**
 
 **STANDARD HERO PATTERN** (use for all pages except home.tsx):
+
 ```jsx
-{/* Hero Section */}
+{
+  /* Hero Section */
+}
 <section className="relative py-12 md:py-16 lg:py-20 overflow-hidden">
-  <div className="absolute inset-0 bg-cover bg-center" style={{backgroundImage: "url('[PAGE-SPECIFIC-BACKGROUND-IMAGE]')"}}></div>
+  <div
+    className="absolute inset-0 bg-cover bg-center"
+    style={{ backgroundImage: "url('[PAGE-SPECIFIC-BACKGROUND-IMAGE]')" }}
+  ></div>
   <div className="absolute inset-0 bg-primary/20"></div>
   <div className="relative max-w-7xl mx-auto px-4 md:px-6 lg:px-8 text-white">
     {/* Hero content */}
   </div>
-</section>
+</section>;
 ```
 
 **REQUIREMENTS**:
+
 - **Background Image**: Each page must have a relevant background image
 - **Blue Tint**: Consistent `bg-primary/20` overlay (20% opacity)
 - **No Gradients**: Remove all gradient backgrounds (`bg-gradient-to-br`)
@@ -291,6 +329,7 @@ Use ONLY these three button patterns:
 - **Home Page Exception**: DO NOT modify home page hero - it's perfect as-is
 
 **PAGE-SPECIFIC BACKGROUND IMAGES**:
+
 - About: Industrial facility/engineering team
 - Services: Process automation/control systems
 - Products: Product showcase/technical equipment
@@ -332,6 +371,7 @@ Use ONLY these three button patterns:
 ## 📝 WHEN TO UPDATE THESE RULES
 
 **Update this file when**:
+
 - Adding new UI component patterns
 - Establishing new design systems
 - Creating new image ID ranges
@@ -339,6 +379,7 @@ Use ONLY these three button patterns:
 - User requests new consistency rules
 
 **Always update**:
+
 - Image ID ranges when used
 - `replit.md` for architectural changes
 - User preferences when expressed
@@ -350,41 +391,51 @@ Use ONLY these three button patterns:
 ### **9 MAIN PRODUCT CATEGORIES** (Must be maintained):
 
 1. **Instrumentation Components** (7 subcategories)
+
    - Sensors, Transmitters, Controllers, Switches, Valves, Analyzers, Signal Conditioners
    - Detailed data in: `client/src/data/instrumentation-products.ts`
    - Technical specifications, applications, certifications included
 
 2. **Electrical Components** (6 subcategories)
+
    - Cables/Wires, Connectors, Circuit Breakers, Power Supplies, Enclosures, Heating Elements
 
 3. **Measurement Instruments** (5 subcategories)
+
    - Multimeters, Oscilloscopes, Spectrum Analyzers, Power Quality Analyzers, Calibration Equipment
 
 4. **Solar Products** (5 subcategories)
+
    - Solar Panels, Inverters, Mounting Structures, Charge Controllers, Batteries/Storage
 
 5. **Automation & Control Systems** (4 subcategories)
+
    - PLCs, SCADA, DCS, HMI
 
 6. **Safety & Protective Devices** (4 subcategories)
+
    - Surge Protectors, Grounding Systems, Safety Relays, Intrinsically Safe Equipment
 
 7. **Mechanical Pumps & Spares** (4 subcategories)
+
    - Centrifugal Pumps, Diaphragm Pumps, Gear Pumps, Pump Parts/Spares
 
 8. **Industrial Tools & Tackles** (5 subcategories)
+
    - Hand Tools, Power Tools, Cutting Tools, Lifting Equipment, Safety Equipment
 
 9. **BLDC** (4 subcategories)
    - Cooler/Exhaust Motors, Ceiling Fans, Submersible Pumps, Table/Wall Fan Motors
 
 ### **PRODUCT ROUTING SYSTEM** (40+ Individual Pages):
+
 - Each subcategory has its own dedicated page with detailed content
 - Lazy-loaded components for performance optimization
 - Consistent page structure with specifications, applications, features
 - Industry-specific content for oil & gas, chemical, power generation, etc.
 
 ### **CRITICAL PRODUCT RULES**:
+
 - NEVER modify the main product categories without user approval
 - Each product page must maintain technical accuracy
 - All product images must follow the ID system (ID-G001+)
@@ -395,6 +446,7 @@ Use ONLY these three button patterns:
 ## 📋 MISSING PAGES & FEATURES DOCUMENTATION
 
 ### **Current Complete Page Structure**:
+
 - **Gallery Page**: Professional showcase with image optimization
 - **News System**: Article pages with slug-based routing (/news/:slug)
 - **Portfolio Download**: Business portfolio access page
@@ -403,11 +455,13 @@ Use ONLY these three button patterns:
 - **Sitemap**: SEO-optimized site structure page
 
 ### **Form Systems**:
+
 - **Contact Form**: Formspree integration (frontend-contact-form.tsx)
 - **Quote Form**: Service-specific requests (frontend-quote-form.tsx)
 - **Static Responses**: No backend required, external service handling
 
 ### **External Integrations**:
+
 - **Formspree**: Form submissions (info.powerton@gmail.com)
 - **Google Maps**: Consistent redirect URL (https://maps.app.goo.gl/jiap3sBYbM3r8Pn68)
 - **Generated Images**: 80+ professional industrial images
@@ -420,6 +474,7 @@ Use ONLY these three button patterns:
 This is the **Powerton Engineering** industrial automation website. It's a comprehensive business platform showcasing engineering services, products, and expertise with 180+ routes and extensive technical content.
 
 **Key Features**:
+
 - 8 detailed engineering services with individual pages
 - 9 main product categories with 40+ subcategory pages
 - Comprehensive project portfolio and case studies
@@ -429,6 +484,7 @@ This is the **Powerton Engineering** industrial automation website. It's a compr
 - Professional technical specifications and certifications
 
 **Technology Stack**:
+
 - React 18 + TypeScript (Frontend-only architecture)
 - Tailwind CSS + shadcn/ui components
 - Wouter routing (180+ routes)
@@ -440,8 +496,8 @@ This is the **Powerton Engineering** industrial automation website. It's a compr
 
 ---
 
-*Last Updated: January 2025*
-*Next Agent: Follow these rules strictly for consistent, professional B2B industrial website results*
+_Last Updated: January 2025_
+_Next Agent: Follow these rules strictly for consistent, professional B2B industrial website results_
 
 ---
 
@@ -450,6 +506,7 @@ This is the **Powerton Engineering** industrial automation website. It's a compr
 **CRITICAL: Powerton Engineering Website - Frontend-Only Application**
 
 ### **Current Architecture (Production Ready)**:
+
 - **Primary**: React 18 frontend application with TypeScript
 - **Server Wrapper**: Minimal Node.js server that launches Vite dev server (development only)
 - **Port Configuration**: Frontend serves on port 5000 (Replit requirement)
@@ -459,6 +516,7 @@ This is the **Powerton Engineering** industrial automation website. It's a compr
 - **Deployment**: Pure frontend application with external service integrations
 
 ### **COMPLETE PAGE ARCHITECTURE** (180+ Routes):
+
 - **Core Pages**: Home, About, Services, Products, Projects, Contact, Gallery, News
 - **Service Pages**: 8 detailed service pages with individual routes
 - **Product Categories**: 9 main categories (Instrumentation, Electrical, Solar, BLDC, etc.)
@@ -467,6 +525,7 @@ This is the **Powerton Engineering** industrial automation website. It's a compr
 - **News System**: Dynamic news articles with slug-based routing
 
 ### **ADVANCED PRODUCT SYSTEM**:
+
 - **Main Categories**: 9 comprehensive product categories
 - **Detailed Data**: instrumentation-products.ts with technical specifications
 - **Subcategory Pages**: Individual pages for sensors, transmitters, controllers, etc.
@@ -474,6 +533,7 @@ This is the **Powerton Engineering** industrial automation website. It's a compr
 - **Technical Content**: Specifications, applications, certifications, technical data
 
 ### **FRONTEND-ONLY ARCHITECTURE BENEFITS**:
+
 - **Security**: No backend attack surface, client-server separation
 - **Performance**: Static file serving, CDN-optimized delivery
 - **Scalability**: Infinite horizontal scaling capability
@@ -481,6 +541,7 @@ This is the **Powerton Engineering** industrial automation website. It's a compr
 - **Deployment**: Simple static hosting (Hostinger, Netlify, Vercel compatible)
 
 ### **Package Dependencies Status**:
+
 - **Active Frontend**: React, Vite, Tailwind CSS, shadcn/ui, Wouter routing
 - **Development Only**: Express (minimal server wrapper), tsx, TypeScript
 - **External Integrations**: Formspree (forms), Google Maps (location)
@@ -488,6 +549,7 @@ This is the **Powerton Engineering** industrial automation website. It's a compr
 - **Unused Legacy**: Drizzle ORM, Passport, Sessions (present but inactive)
 
 ### **CURRENT FEATURE STATUS (January 2025)**:
+
 ✅ **Frontend Migration**: Successfully migrated to pure frontend architecture
 ✅ **Replit Compatibility**: Fixed tsx dependencies, port configuration (5000)
 ✅ **Mobile Optimization**: Resolved sidebar scrolling, accessibility improvements
@@ -498,6 +560,7 @@ This is the **Powerton Engineering** industrial automation website. It's a compr
 ✅ **Performance**: Optimized animations, lazy loading, responsive design
 
 ### **DEPLOYMENT & HOSTING STRATEGY**:
+
 - **Development**: Minimal server wrapper + Vite dev server (Replit)
 - **Production Target**: Hostinger Premium hosting (user preference)
 - **Architecture**: Pure static files (HTML, CSS, JS) - no backend required

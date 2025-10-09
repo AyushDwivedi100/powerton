@@ -337,7 +337,7 @@ export default function CareerApplicationForm() {
                           <SelectTrigger>
                             <SelectValue
                               placeholder={t(
-                                "forms:career.placeholders.selectSpecialization",
+                                "forms:career.placeholders.selectSpecialization"
                               )}
                             />
                           </SelectTrigger>
@@ -371,7 +371,7 @@ export default function CareerApplicationForm() {
                           <SelectTrigger>
                             <SelectValue
                               placeholder={t(
-                                "forms:career.placeholders.selectExperience",
+                                "forms:career.placeholders.selectExperience"
                               )}
                             />
                           </SelectTrigger>
@@ -402,7 +402,7 @@ export default function CareerApplicationForm() {
                       <FormControl>
                         <Input
                           placeholder={t(
-                            "forms:career.placeholders.currentCompany",
+                            "forms:career.placeholders.currentCompany"
                           )}
                           {...field}
                         />
@@ -428,7 +428,7 @@ export default function CareerApplicationForm() {
                           <SelectTrigger>
                             <SelectValue
                               placeholder={t(
-                                "forms:career.placeholders.selectAvailability",
+                                "forms:career.placeholders.selectAvailability"
                               )}
                             />
                           </SelectTrigger>
@@ -478,7 +478,7 @@ export default function CareerApplicationForm() {
                       <FormControl>
                         <Input
                           placeholder={t(
-                            "forms:career.placeholders.expectedSalary",
+                            "forms:career.placeholders.expectedSalary"
                           )}
                           {...field}
                         />

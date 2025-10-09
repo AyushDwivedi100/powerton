@@ -4,13 +4,13 @@
 export function loadCriticalResources() {
   // Preload critical fonts
   const criticalFonts = [
-    'https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap'
+    "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap",
   ];
 
-  criticalFonts.forEach(font => {
-    const link = document.createElement('link');
-    link.rel = 'preload';
-    link.as = 'style';
+  criticalFonts.forEach((font) => {
+    const link = document.createElement("link");
+    link.rel = "preload";
+    link.as = "style";
     link.href = font;
     document.head.appendChild(link);
   });
@@ -18,11 +18,11 @@ export function loadCriticalResources() {
 
 // Resource prefetching for better navigation
 export function prefetchRoutes(routes: string[]) {
-  if ('requestIdleCallback' in window) {
+  if ("requestIdleCallback" in window) {
     requestIdleCallback(() => {
-      routes.forEach(route => {
-        const link = document.createElement('link');
-        link.rel = 'prefetch';
+      routes.forEach((route) => {
+        const link = document.createElement("link");
+        link.rel = "prefetch";
         link.href = route;
         document.head.appendChild(link);
       });
@@ -32,15 +32,20 @@ export function prefetchRoutes(routes: string[]) {
 
 // Performance metrics collection
 export function collectPerformanceMetrics() {
-  if ('performance' in window && 'getEntriesByType' in performance) {
-    const navigation = performance.getEntriesByType('navigation')[0] as PerformanceNavigationTiming;
-    const paint = performance.getEntriesByType('paint');
+  if ("performance" in window && "getEntriesByType" in performance) {
+    const navigation = performance.getEntriesByType(
+      "navigation"
+    )[0] as PerformanceNavigationTiming;
+    const paint = performance.getEntriesByType("paint");
 
     const metrics = {
       // Core Web Vitals approximation
-      domContentLoaded: navigation.domContentLoadedEventEnd - navigation.domContentLoadedEventStart,
+      domContentLoaded:
+        navigation.domContentLoadedEventEnd -
+        navigation.domContentLoadedEventStart,
       loadComplete: navigation.loadEventEnd - navigation.loadEventStart,
-      firstContentfulPaint: paint.find(p => p.name === 'first-contentful-paint')?.startTime || 0,
+      firstContentfulPaint:
+        paint.find((p) => p.name === "first-contentful-paint")?.startTime || 0,
       // Network timing
       dns: navigation.domainLookupEnd - navigation.domainLookupStart,
       connect: navigation.connectEnd - navigation.connectStart,
@@ -56,7 +61,7 @@ export function collectPerformanceMetrics() {
 // Optimize font loading
 export function optimizeFontLoading() {
   // Add font-display: swap to improve loading performance
-  const style = document.createElement('style');
+  const style = document.createElement("style");
   style.textContent = `
     @font-face {
       font-family: 'Inter';
@@ -68,11 +73,11 @@ export function optimizeFontLoading() {
 
 // Service Worker registration for caching
 export function registerServiceWorker() {
-  if ('serviceWorker' in navigator) {
-    window.addEventListener('load', () => {
+  if ("serviceWorker" in navigator) {
+    window.addEventListener("load", () => {
       // Note: Service worker would need to be implemented separately
       // This is a placeholder for future implementation
-      console.log('Service Worker support detected');
+      console.log("Service Worker support detected");
     });
   }
 }
@@ -87,15 +92,17 @@ export function optimizeMemoryUsage() {
   const handleResize = () => {
     clearTimeout(resizeTimeout);
     resizeTimeout = setTimeout(() => {
-      window.dispatchEvent(new Event('optimizedResize'));
+      window.dispatchEvent(new Event("optimizedResize"));
     }, 250);
   };
 
-  window.addEventListener('resize', handleResize, { passive: true });
-  cleanupFunctions.push(() => window.removeEventListener('resize', handleResize));
+  window.addEventListener("resize", handleResize, { passive: true });
+  cleanupFunctions.push(() =>
+    window.removeEventListener("resize", handleResize)
+  );
 
   return () => {
-    cleanupFunctions.forEach(cleanup => cleanup());
+    cleanupFunctions.forEach((cleanup) => cleanup());
   };
 }
 
@@ -103,16 +110,16 @@ export function optimizeMemoryUsage() {
 export function initializePerformanceOptimizations() {
   // Load critical resources
   loadCriticalResources();
-  
+
   // Optimize font loading
   optimizeFontLoading();
-  
+
   // Setup memory optimization
   const cleanupMemory = optimizeMemoryUsage();
-  
+
   // Prefetch important routes
-  prefetchRoutes(['/services', '/products', '/contact']);
-  
+  prefetchRoutes(["/services", "/products", "/contact"]);
+
   // Return cleanup function
   return cleanupMemory;
 }

@@ -110,7 +110,7 @@
     "complete": "完成",
     "view": "查看",
     "viewAllServices": "查看所有服务",
-    "contactExperts" : "联系专家"
+    "contactExperts": "联系专家"
   },
   "errors": {
     "productNotFound": "找不到产品",
@@ -224,6 +224,7 @@
     "fastDelivery": "快速交付"
   },
   "headings": {
+    "phoneNumbers": "电话号码",
     "bldcCeilingFanModels": "BLDC吊扇型号",
     "ourProducts": "我们的产品",
     "specifications": "规格",
@@ -706,7 +707,7 @@
   "common": {
     "keyFeatures": "主要特点"
   },
-  "services":{
+  "services": {
     "needAssistance": "需要帮助吗？"
   },
   "ui": {

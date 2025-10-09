@@ -33,11 +33,13 @@ const JustDialLogo = () => (
 
 export default function FloatingContactBadges() {
   const { t } = useTranslation("common");
-  
+
   const handleWhatsAppClick = () => {
     const phoneNumber = "919462771662";
     const message = t("ui.messages.whatsappGreeting");
-    const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+    const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(
+      message
+    )}`;
     window.open(whatsappUrl, "_blank");
   };
 

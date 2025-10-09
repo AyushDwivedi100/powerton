@@ -615,7 +615,8 @@ export default function Sitemap() {
         </h4>
         <div className="flex-1 border-b border-border/30"></div>
         <span className="text-xs bg-primary/10 text-primary px-2 py-1 rounded-full">
-          {category.products.length} {t("common:nav.products", { ns: "common" }).toLowerCase()}
+          {category.products.length}{" "}
+          {t("common:nav.products", { ns: "common" }).toLowerCase()}
         </span>
       </div>
 

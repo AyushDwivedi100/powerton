@@ -172,7 +172,7 @@ export default function Services() {
                                         {feature}
                                       </span>
                                     </li>
-                                  ),
+                                  )
                                 )}
                               </ul>
                             </div>

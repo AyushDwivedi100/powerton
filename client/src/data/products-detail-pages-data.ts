@@ -17653,14 +17653,14 @@ export const getProductsByCategory = (categoryKey: string): Product[] => {
 
 export const getProductsBySubcategory = (subcategoryKey: string): Product[] => {
   return products.filter(
-    (product) => product.subcategoryKey === subcategoryKey,
+    (product) => product.subcategoryKey === subcategoryKey
   );
 };
 
 // Function to get products for subcategory with minimum count guarantee
 export const getProductsForSubcategoryPage = (
   subcategoryKey: string,
-  minCount: number = 6,
+  minCount: number = 6
 ): Product[] => {
   let subcategoryProducts = getProductsBySubcategory(subcategoryKey);
 
@@ -17735,7 +17735,7 @@ export const getProductsForSubcategoryPage = (
 };
 
 export const getProductsForSubcategory = (
-  subcategoryKey: string,
+  subcategoryKey: string
 ): Product[] => {
   const subcategory = categories
     .flatMap((cat) => cat.subcategories)
@@ -17760,7 +17760,7 @@ export const getProductImageKey = (product: Product): string => {
 export const getProductDetailBySlug = (
   slug: string,
   t: any,
-  groupSlug?: string,
+  groupSlug?: string
 ) => {
   const product = products.find((p) => p.slug === slug);
 
@@ -17770,7 +17770,7 @@ export const getProductDetailBySlug = (
 
   const category = categories.find((cat) => cat.key === product.categoryKey);
   const subcategory = category?.subcategories.find(
-    (sub) => sub.key === product.subcategoryKey,
+    (sub) => sub.key === product.subcategoryKey
   );
 
   if (!category || !subcategory) {
@@ -17782,7 +17782,7 @@ export const getProductDetailBySlug = (
     ? productGroups.find(
         (group) =>
           group.slug === groupSlug &&
-          group.subcategoryKey === product.subcategoryKey,
+          group.subcategoryKey === product.subcategoryKey
       )
     : null;
 
@@ -17815,7 +17815,7 @@ export const getProductDetailBySlug = (
       defaultValue: subcategory.key
         .replace(/-/g, " ")
         .replace(/\b\w/g, (l) => l.toUpperCase()),
-    },
+    }
   );
   let backLabel =
     subcategoryTranslation?.trim() ||
@@ -17852,7 +17852,7 @@ export const getProductDetailBySlug = (
   });
   const subcategoryName = t(
     `products:categories.${category.key}.subcategories.${subcategory.key}.name`,
-    { defaultValue: subcategory.key },
+    { defaultValue: subcategory.key }
   );
 
   // Collect all keywords and deduplicate case-insensitively
@@ -17876,8 +17876,8 @@ export const getProductDetailBySlug = (
       keywordArray.map((k) => [
         String(k).toLowerCase().trim(),
         String(k).trim(),
-      ]),
-    ).values(),
+      ])
+    ).values()
   );
 
   const seoKeywords = uniqueKeywords.join(", ");
@@ -17911,7 +17911,7 @@ export const getProductDetailBySlug = (
     fullDescription: description,
     categoryName: t(`products:categories.${category.key}.name`),
     subcategoryName: t(
-      `products:categories.${category.key}.subcategories.${subcategory.key}.name`,
+      `products:categories.${category.key}.subcategories.${subcategory.key}.name`
     ),
     categoryPath: backPath,
     backLabel,
@@ -17942,21 +17942,21 @@ export const getProductDetailBySlug = (
 
 // Get all product groups for a subcategory
 export const getGroupsForSubcategory = (
-  subcategoryKey: string,
+  subcategoryKey: string
 ): ProductGroup[] => {
   return productGroups.filter(
-    (group) => group.subcategoryKey === subcategoryKey,
+    (group) => group.subcategoryKey === subcategoryKey
   );
 };
 
 // Get product group by slug and subcategory
 export const getProductGroupBySlug = (
   subcategoryKey: string,
-  groupSlug: string,
+  groupSlug: string
 ): ProductGroup | undefined => {
   return productGroups.find(
     (group) =>
-      group.subcategoryKey === subcategoryKey && group.slug === groupSlug,
+      group.subcategoryKey === subcategoryKey && group.slug === groupSlug
   );
 };
 

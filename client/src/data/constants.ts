@@ -78,20 +78,20 @@ export const getProducts = (t: any) => [
     id: "instrumentation-accessories",
     title: t("products:categories.instrumentation-accessories.title"),
     description: t(
-      "products:categories.instrumentation-accessories.description",
+      "products:categories.instrumentation-accessories.description"
     ),
     icon: "Gauge",
     image: getProductImage("instrumentation-accessories")?.src || "",
     features: [
       t(
-        "products:categories.instrumentation-accessories.features.pressure-transmitters",
+        "products:categories.instrumentation-accessories.features.pressure-transmitters"
       ),
       t(
-        "products:categories.instrumentation-accessories.features.temperature-sensors",
+        "products:categories.instrumentation-accessories.features.temperature-sensors"
       ),
       t("products:categories.instrumentation-accessories.features.flow-meters"),
       t(
-        "products:categories.instrumentation-accessories.features.level-indicators",
+        "products:categories.instrumentation-accessories.features.level-indicators"
       ),
       t("products:categories.instrumentation-accessories.features.analyzers"),
     ],
@@ -147,14 +147,14 @@ export const getProducts = (t: any) => [
         id: "connectors-terminals",
         title: t("products:subcategories.connectors-terminals.title"),
         description: t(
-          "products:subcategories.connectors-terminals.description",
+          "products:subcategories.connectors-terminals.description"
         ),
       },
       {
         id: "circuit-breakers-fuses",
         title: t("products:subcategories.circuit-breakers-fuses.title"),
         description: t(
-          "products:subcategories.circuit-breakers-fuses.description",
+          "products:subcategories.circuit-breakers-fuses.description"
         ),
       },
       {
@@ -166,14 +166,14 @@ export const getProducts = (t: any) => [
         id: "enclosures-cabinets",
         title: t("products:subcategories.enclosures-cabinets.title"),
         description: t(
-          "products:subcategories.enclosures-cabinets.description",
+          "products:subcategories.enclosures-cabinets.description"
         ),
       },
       {
         id: "heating-elements-appliances",
         title: t("products:subcategories.heating-elements-appliances.title"),
         description: t(
-          "products:subcategories.heating-elements-appliances.description",
+          "products:subcategories.heating-elements-appliances.description"
         ),
       },
     ],
@@ -207,7 +207,7 @@ export const getProducts = (t: any) => [
     id: "automation-control-systems",
     title: t("products:categories.automation-control-systems.title"),
     description: t(
-      "products:categories.automation-control-systems.description",
+      "products:categories.automation-control-systems.description"
     ),
     icon: "Settings",
     image: getProductImage("automation-control-systems")?.src || "",
@@ -215,10 +215,10 @@ export const getProducts = (t: any) => [
       t("acronyms:plc"),
       t("products:categories.automation-control-systems.features.hmi-systems"),
       t(
-        "products:categories.automation-control-systems.features.scada-software",
+        "products:categories.automation-control-systems.features.scada-software"
       ),
       t(
-        "products:categories.automation-control-systems.features.industrial-networks",
+        "products:categories.automation-control-systems.features.industrial-networks"
       ),
     ],
     subcategories: [
@@ -252,16 +252,16 @@ export const getProducts = (t: any) => [
     image: getProductImage("safety-protective-devices")?.src || "",
     features: [
       t(
-        "products:categories.safety-protective-devices.features.safety-switches",
+        "products:categories.safety-protective-devices.features.safety-switches"
       ),
       t(
-        "products:categories.safety-protective-devices.features.emergency-stops",
+        "products:categories.safety-protective-devices.features.emergency-stops"
       ),
       t(
-        "products:categories.safety-protective-devices.features.light-curtains",
+        "products:categories.safety-protective-devices.features.light-curtains"
       ),
       t(
-        "products:categories.safety-protective-devices.features.protective-barriers",
+        "products:categories.safety-protective-devices.features.protective-barriers"
       ),
     ],
     subcategories: [
@@ -279,14 +279,14 @@ export const getProducts = (t: any) => [
         id: "safety-relays-switches",
         title: t("products:subcategories.safety-relays-switches.title"),
         description: t(
-          "products:subcategories.safety-relays-switches.description",
+          "products:subcategories.safety-relays-switches.description"
         ),
       },
       {
         id: "intrinsically-safe-equipment",
         title: t("products:subcategories.intrinsically-safe-equipment.title"),
         description: t(
-          "products:subcategories.intrinsically-safe-equipment.description",
+          "products:subcategories.intrinsically-safe-equipment.description"
         ),
       },
       {
@@ -304,14 +304,14 @@ export const getProducts = (t: any) => [
     image: getProductImage("mechanical-pumps-spares")?.src || "",
     features: [
       t(
-        "products:categories.mechanical-pumps-spares.features.centrifugal-pumps",
+        "products:categories.mechanical-pumps-spares.features.centrifugal-pumps"
       ),
       t(
-        "products:categories.mechanical-pumps-spares.features.positive-displacement-pumps",
+        "products:categories.mechanical-pumps-spares.features.positive-displacement-pumps"
       ),
       t("products:categories.mechanical-pumps-spares.features.pump-components"),
       t(
-        "products:categories.mechanical-pumps-spares.features.maintenance-kits",
+        "products:categories.mechanical-pumps-spares.features.maintenance-kits"
       ),
     ],
     subcategories: [
@@ -341,7 +341,7 @@ export const getProducts = (t: any) => [
     id: "industrial-measuring-tools",
     title: t("products:categories.industrial-measuring-tools.title"),
     description: t(
-      "products:categories.industrial-measuring-tools.description",
+      "products:categories.industrial-measuring-tools.description"
     ),
     icon: "Wrench",
     image: getProductImage("measurement-instruments")?.src || "",
@@ -349,13 +349,13 @@ export const getProducts = (t: any) => [
       t("products:categories.industrial-measuring-tools.features.hand-tools"),
       t("products:categories.industrial-measuring-tools.features.power-tools"),
       t(
-        "products:categories.industrial-measuring-tools.features.digital-multimeters",
+        "products:categories.industrial-measuring-tools.features.digital-multimeters"
       ),
       t(
-        "products:categories.industrial-measuring-tools.features.spectrum-analyzers",
+        "products:categories.industrial-measuring-tools.features.spectrum-analyzers"
       ),
       t(
-        "products:categories.industrial-measuring-tools.features.power-quality-analyzers",
+        "products:categories.industrial-measuring-tools.features.power-quality-analyzers"
       ),
       t("products:categories.industrial-measuring-tools.features.calibrators"),
     ],
@@ -389,14 +389,14 @@ export const getProducts = (t: any) => [
         id: "power-quality-analyzers",
         title: t("products:subcategories.power-quality-analyzers.title"),
         description: t(
-          "products:subcategories.power-quality-analyzers.description",
+          "products:subcategories.power-quality-analyzers.description"
         ),
       },
       {
         id: "calibration-equipment",
         title: t("products:subcategories.calibration-equipment.title"),
         description: t(
-          "products:subcategories.calibration-equipment.description",
+          "products:subcategories.calibration-equipment.description"
         ),
       },
     ],
@@ -418,7 +418,7 @@ export const getProducts = (t: any) => [
         id: "bldc-cooler-exhaust-motor",
         title: t("products:subcategories.bldc-cooler-exhaust-motor.title"),
         description: t(
-          "products:subcategories.bldc-cooler-exhaust-motor.description",
+          "products:subcategories.bldc-cooler-exhaust-motor.description"
         ),
       },
       {
@@ -430,14 +430,14 @@ export const getProducts = (t: any) => [
         id: "bldc-submersible-surface-pump",
         title: t("products:subcategories.bldc-submersible-surface-pump.title"),
         description: t(
-          "products:subcategories.bldc-submersible-surface-pump.description",
+          "products:subcategories.bldc-submersible-surface-pump.description"
         ),
       },
       {
         id: "bldc-table-fan-wall-fan-motor",
         title: t("products:subcategories.bldc-table-fan-wall-fan-motor.title"),
         description: t(
-          "products:subcategories.bldc-table-fan-wall-fan-motor.description",
+          "products:subcategories.bldc-table-fan-wall-fan-motor.description"
         ),
       },
     ],
@@ -534,7 +534,7 @@ export const getServices = (t: any) => [
       t("services:features.installation-commissioning.system-integration"),
       t("services:features.installation-commissioning.performance-testing"),
       t(
-        "services:features.installation-commissioning.compliance-certification",
+        "services:features.installation-commissioning.compliance-certification"
       ),
     ],
   },
@@ -1412,10 +1412,10 @@ export const SERVICE_OPTIONS = [
 
 // Product Groups Helper Functions for Navigation Popup Menu
 export const getProductGroupsBySubcategory = (
-  subcategoryKey: string,
+  subcategoryKey: string
 ): ProductGroup[] => {
   return productGroups.filter(
-    (group) => group.subcategoryKey === subcategoryKey,
+    (group) => group.subcategoryKey === subcategoryKey
   );
 };
 

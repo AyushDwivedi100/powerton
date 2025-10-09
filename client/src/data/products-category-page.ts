@@ -695,7 +695,7 @@ export const productCategoriesData: ProductCategoryData[] = [
 
 // Helper function to get category by slug
 export const getCategoryBySlug = (
-  slug: string,
+  slug: string
 ): ProductCategoryData | undefined => {
   return productCategoriesData.find((category) => category.slug === slug);
 };

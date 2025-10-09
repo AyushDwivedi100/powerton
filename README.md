@@ -5,40 +5,44 @@ A comprehensive business website for Powerton Engineering Pvt. Ltd., specializin
 ## Local Development Setup
 
 ### Prerequisites
+
 - Node.js (v18 or higher)
 - npm or yarn package manager
 
 ### Installation
 
 1. **Clone or download the project**
+
    ```bash
    # If using git
    git clone <your-repository-url>
    cd powerton-engineering
-   
+
    # Or extract the downloaded files and navigate to the directory
    ```
 
 2. **Install dependencies (Local Development)**
+
    ```bash
    # Option 1: Install without Replit-specific packages
    npm install --omit=optional
-   
+
    # Option 2: Or use the local package.json
    cp package.local.json package.json
    npm install
    ```
 
 3. **Start the development server**
+
    ```bash
    # For local development (recommended)
    npm run dev
-   
+
    # If you encounter issues with Replit plugins, try:
    NODE_ENV=development npx tsx server/index.ts
    ```
 
-5. **Access the application**
+4. **Access the application**
    Open your browser and go to: `http://localhost:5000`
 
 ### Troubleshooting Local Development
@@ -46,16 +50,19 @@ A comprehensive business website for Powerton Engineering Pvt. Ltd., specializin
 If you encounter issues when running locally:
 
 1. **Replit Plugin Errors**:
+
    - Copy `package.local.json` to `package.json`
    - Run `npm install` again
    - This removes Replit-specific dependencies that may cause issues locally
 
 2. **Vite Configuration Issues**:
+
    - The app is configured for Replit by default
    - Use the provided `vite.config.local.ts` if needed
    - Run: `npx vite --config vite.config.local.ts`
 
 3. **Module Import Errors**:
+
    - Ensure you have Node.js v18+ installed
    - Clear node_modules and reinstall: `rm -rf node_modules && npm install`
 

@@ -1,12 +1,12 @@
 import { useState, useEffect, useRef } from "react";
 
 // Reusable AnimatedCounter Component for animated counting with intersection observer
-export function AnimatedCounter({ 
-  target, 
-  suffix = ""
-}: { 
-  target: number; 
-  suffix?: string; 
+export function AnimatedCounter({
+  target,
+  suffix = "",
+}: {
+  target: number;
+  suffix?: string;
 }) {
   const [count, setCount] = useState(1);
   const [hasAnimated, setHasAnimated] = useState(false);
@@ -41,18 +41,18 @@ export function AnimatedCounter({
     const startTime = Date.now();
     const duration = 2000; // Always 2 seconds
     const startValue = 1;
-    
+
     const animate = () => {
       const elapsed = Date.now() - startTime;
       const progress = Math.min(elapsed / duration, 1);
-      
+
       // Use a linear easing for more predictable and synchronized counting
       const easeOutCubic = 1 - Math.pow(1 - progress, 2.5);
-      
+
       // Calculate current count with better distribution across the timeline
       const range = target - startValue;
-      const fractionalCount = startValue + (range * easeOutCubic);
-      
+      const fractionalCount = startValue + range * easeOutCubic;
+
       // For all numbers, ensure smooth counting without early completion
       let currentCount;
       if (target < 50) {
@@ -65,16 +65,16 @@ export function AnimatedCounter({
       } else {
         currentCount = Math.floor(fractionalCount);
       }
-      
+
       setCount(Math.max(1, currentCount)); // Ensure minimum value is 1
-      
+
       if (progress < 1) {
         requestAnimationFrame(animate);
       } else {
         setCount(target); // Ensure we end at exactly the target
       }
     };
-    
+
     requestAnimationFrame(animate);
   }, [isVisible, target, hasAnimated]);
 

@@ -73,23 +73,62 @@ const FILTER_IDS = {
 // Move filter arrays inside component to access t function
 const getFilterOptions = (t: any) => ({
   industries: [
-    { id: FILTER_IDS.industries.all, label: t("pages:projects.filters.industries.all") },
-    { id: FILTER_IDS.industries.manufacturing, label: t("pages:projects.filters.industries.manufacturing") },
-    { id: FILTER_IDS.industries.powerGeneration, label: t("pages:projects.filters.industries.powerGeneration") },
-    { id: FILTER_IDS.industries.renewableEnergy, label: t("pages:projects.filters.industries.renewableEnergy") },
-    { id: FILTER_IDS.industries.processIndustries, label: t("pages:projects.filters.industries.processIndustries") },
+    {
+      id: FILTER_IDS.industries.all,
+      label: t("pages:projects.filters.industries.all"),
+    },
+    {
+      id: FILTER_IDS.industries.manufacturing,
+      label: t("pages:projects.filters.industries.manufacturing"),
+    },
+    {
+      id: FILTER_IDS.industries.powerGeneration,
+      label: t("pages:projects.filters.industries.powerGeneration"),
+    },
+    {
+      id: FILTER_IDS.industries.renewableEnergy,
+      label: t("pages:projects.filters.industries.renewableEnergy"),
+    },
+    {
+      id: FILTER_IDS.industries.processIndustries,
+      label: t("pages:projects.filters.industries.processIndustries"),
+    },
   ],
   categories: [
-    { id: FILTER_IDS.categories.all, label: t("pages:projects.filters.categories.all") },
-    { id: FILTER_IDS.categories.processAutomation, label: t("pages:projects.filters.categories.processAutomation") },
-    { id: FILTER_IDS.categories.powerSystems, label: t("pages:projects.filters.categories.powerSystems") },
-    { id: FILTER_IDS.categories.solarSolutions, label: t("pages:projects.filters.categories.solarSolutions") },
+    {
+      id: FILTER_IDS.categories.all,
+      label: t("pages:projects.filters.categories.all"),
+    },
+    {
+      id: FILTER_IDS.categories.processAutomation,
+      label: t("pages:projects.filters.categories.processAutomation"),
+    },
+    {
+      id: FILTER_IDS.categories.powerSystems,
+      label: t("pages:projects.filters.categories.powerSystems"),
+    },
+    {
+      id: FILTER_IDS.categories.solarSolutions,
+      label: t("pages:projects.filters.categories.solarSolutions"),
+    },
   ],
   statuses: [
-    { id: FILTER_IDS.statuses.all, label: t("pages:projects.filters.statuses.all") },
-    { id: FILTER_IDS.statuses.capabilityDemo, label: t("pages:projects.filters.statuses.capabilityDemo") },
-    { id: FILTER_IDS.statuses.inProgress, label: t("pages:projects.filters.statuses.inProgress") },
-    { id: FILTER_IDS.statuses.completed, label: t("pages:projects.filters.statuses.completed") },
+    {
+      id: FILTER_IDS.statuses.all,
+      label: t("pages:projects.filters.statuses.all"),
+    },
+    {
+      id: FILTER_IDS.statuses.capabilityDemo,
+      label: t("pages:projects.filters.statuses.capabilityDemo"),
+    },
+    {
+      id: FILTER_IDS.statuses.inProgress,
+      label: t("pages:projects.filters.statuses.inProgress"),
+    },
+    {
+      id: FILTER_IDS.statuses.completed,
+      label: t("pages:projects.filters.statuses.completed"),
+    },
   ],
 });
 
@@ -97,9 +136,15 @@ export default function Projects() {
   const { t, i18n, ready } = useTranslation(["pages", "common"]);
   const filterOptions = getFilterOptions(t);
   const [searchTerm, setSearchTerm] = useState("");
-  const [selectedIndustry, setSelectedIndustry] = useState(filterOptions.industries[0].id);
-  const [selectedCategory, setSelectedCategory] = useState(filterOptions.categories[0].id);
-  const [selectedStatus, setSelectedStatus] = useState(filterOptions.statuses[0].id);
+  const [selectedIndustry, setSelectedIndustry] = useState(
+    filterOptions.industries[0].id
+  );
+  const [selectedCategory, setSelectedCategory] = useState(
+    filterOptions.categories[0].id
+  );
+  const [selectedStatus, setSelectedStatus] = useState(
+    filterOptions.statuses[0].id
+  );
   const [showFilters, setShowFilters] = useState(false);
   const [selectedTab, setSelectedTab] = useState("showcase");
 
@@ -109,11 +154,14 @@ export default function Projects() {
       project.client.toLowerCase().includes(searchTerm.toLowerCase()) ||
       project.description.toLowerCase().includes(searchTerm.toLowerCase());
     const matchesIndustry =
-      selectedIndustry === FILTER_IDS.industries.all || project.industry === selectedIndustry;
+      selectedIndustry === FILTER_IDS.industries.all ||
+      project.industry === selectedIndustry;
     const matchesCategory =
-      selectedCategory === FILTER_IDS.categories.all || project.category === selectedCategory;
+      selectedCategory === FILTER_IDS.categories.all ||
+      project.category === selectedCategory;
     const matchesStatus =
-      selectedStatus === FILTER_IDS.statuses.all || project.status === selectedStatus;
+      selectedStatus === FILTER_IDS.statuses.all ||
+      project.status === selectedStatus;
 
     return matchesSearch && matchesIndustry && matchesCategory && matchesStatus;
   });

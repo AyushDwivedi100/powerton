@@ -13,40 +13,42 @@ import { cn } from "@/lib/utils";
 import { useRTLClasses } from "@/hooks/use-rtl";
 
 export function LanguageSwitcher() {
-  const { i18n, t } = useTranslation('navigation');
+  const { i18n, t } = useTranslation("navigation");
   const rtl = useRTLClasses();
   const [isOpen, setIsOpen] = useState(false);
 
   const handleLanguageChange = (languageCode: string) => {
     // Store manually selected language with higher priority
-    localStorage.setItem('i18nextLng', languageCode);
+    localStorage.setItem("i18nextLng", languageCode);
     i18n.changeLanguage(languageCode);
     setIsOpen(false);
   };
 
-  const currentLanguage = languages.find(lang => lang.code === i18n.language) || languages[0];
+  const currentLanguage =
+    languages.find((lang) => lang.code === i18n.language) || languages[0];
 
   return (
     <DropdownMenu open={isOpen} onOpenChange={setIsOpen}>
       <DropdownMenuTrigger asChild>
-        <Button
-          variant="ghost"
-          size="sm"
-          className="h-9 w-auto px-3 min-w-0"
-        >
+        <Button variant="ghost" size="sm" className="h-9 w-auto px-3 min-w-0">
           <Globe className={cn("h-4 w-4", rtl.me("2"))} />
           <span className="text-sm font-medium truncate max-w-24">
             {currentLanguage.nativeName}
           </span>
         </Button>
       </DropdownMenuTrigger>
-      <DropdownMenuContent 
-        align={rtl.isRtl ? "start" : "end"} 
+      <DropdownMenuContent
+        align={rtl.isRtl ? "start" : "end"}
         className="w-64 max-h-80 overflow-y-auto"
       >
         <div className="p-2">
-          <p className={cn("text-sm font-medium text-foreground mb-2", rtl.textStart)}>
-            {t('footer.selectLanguage', 'Select Language')}
+          <p
+            className={cn(
+              "text-sm font-medium text-foreground mb-2",
+              rtl.textStart
+            )}
+          >
+            {t("footer.selectLanguage", "Select Language")}
           </p>
           {languages.map((language) => (
             <DropdownMenuItem
@@ -54,8 +56,8 @@ export function LanguageSwitcher() {
               onClick={() => handleLanguageChange(language.code)}
               className={cn(
                 "flex items-center justify-between p-2 cursor-pointer rounded-md transition-colors",
-                i18n.language === language.code 
-                  ? "bg-primary/10 text-primary" 
+                i18n.language === language.code
+                  ? "bg-primary/10 text-primary"
                   : "hover:bg-muted"
               )}
             >

@@ -66,17 +66,17 @@ export default function Products() {
 
       // Electrical Components features
       "circuit-breakers": "/products/circuit-breakers-fuses",
-      "contactors": "/products/electrical-components",
-      "relays": "/products/electrical-components",
+      contactors: "/products/electrical-components",
+      relays: "/products/electrical-components",
       "power-supplies": "/products/power-supplies",
 
       // Measurement Instruments features
       "digital-multimeters": "/products/multimeters",
-      "calibrators": "/products/calibration-equipment",
+      calibrators: "/products/calibration-equipment",
 
       // Solar Products features
       "solar-panels": "/products/solar-panels",
-      "inverters": "/products/solar-inverters",
+      inverters: "/products/solar-inverters",
 
       // Automation Control Systems features
       "hmi-systems": "/products/hmi",
