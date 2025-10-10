@@ -5917,6 +5917,556 @@
       "Heavy-duty industrial"
     ]
   },
+  "rittalVx25Enclosure": {
+    "title": "Rittal VX25 Industrial Enclosure",
+    "description": "IP66-rated carbon steel floor-standing enclosure with modular design for industrial electrical installations",
+    "features": [
+      "IP66 protection rating",
+      "Carbon steel construction",
+      "Floor-standing design",
+      "Modular system",
+      "Cable management"
+    ]
+  },
+  "rittalTs8Enclosure": {
+    "title": "Rittal TS 8 Modular Enclosure",
+    "description": "IP66 stainless steel modular enclosure system for harsh industrial environments",
+    "features": [
+      "IP66 protection",
+      "Stainless steel",
+      "Modular configuration",
+      "Corrosion resistant",
+      "Versatile mounting"
+    ]
+  },
+  "schneiderPanelsetsfEnclosure": {
+    "title": "Schneider Electric PanelSeT SFN Enclosure",
+    "description": "IP66 floor-standing steel enclosure for power distribution and control panels",
+    "features": [
+      "IP66 rated",
+      "Steel construction",
+      "Floor-standing",
+      "Power distribution ready",
+      "Standard sizes"
+    ]
+  },
+  "rittalSeEnclosure": {
+    "title": "Rittal SE System Compact Enclosure",
+    "description": "Compact IP66 steel enclosure for space-constrained industrial applications",
+    "features": [
+      "IP66 protection",
+      "Compact design",
+      "Steel construction",
+      "Space-efficient",
+      "Quick assembly"
+    ]
+  },
+  "schneiderSpacialEnclosure": {
+    "title": "Schneider Electric Spacial SM Enclosure",
+    "description": "IP66 compact steel enclosure for industrial control and distribution",
+    "features": [
+      "IP66 rating",
+      "Compact footprint",
+      "Steel housing",
+      "Easy installation",
+      "Versatile use"
+    ]
+  },
+  "phoenixPsrminiRelay": {
+    "title": "Phoenix Contact PSRmini Safety Relay",
+    "description": "Ultra-compact 6mm SIL 3 safety relay with 24VDC operation",
+    "features": [
+      "SIL 3 rated",
+      "6mm width",
+      "24VDC operation",
+      "Space-saving",
+      "Quick connection"
+    ]
+  },
+  "phoenixPsrclassicRelay": {
+    "title": "Phoenix Contact PSR-SCP Safety Relay",
+    "description": "Classic 22.5mm SIL 3 safety relay for emergency stop and safety door monitoring",
+    "features": [
+      "SIL 3 certified",
+      "22.5mm width",
+      "24VDC rated",
+      "Emergency stop capable",
+      "Safety door monitoring"
+    ]
+  },
+  "pilzPnozx3Relay": {
+    "title": "Pilz PNOZ X3 Safety Relay",
+    "description": "Compact SIL 3 safety relay with 2 safety contacts for emergency stop circuits",
+    "features": [
+      "SIL 3 rating",
+      "2 safety contacts",
+      "24VDC operation",
+      "Emergency stop",
+      "Proven technology"
+    ]
+  },
+  "pilzPnozsigmaRelay": {
+    "title": "Pilz PNOZsigma Safety Relay",
+    "description": "Configurable SIL 3 safety relay with 3-9 safety contacts for complex applications",
+    "features": [
+      "SIL 3 certified",
+      "3-9 safety contacts",
+      "24VDC",
+      "Configurable",
+      "Multiple functions"
+    ]
+  },
+  "phoenixPsrmodularRelay": {
+    "title": "Phoenix Contact PSRmodular Safety Relay",
+    "description": "Modular SIL 3 safety relay with 8-16 inputs for scalable safety systems",
+    "features": [
+      "SIL 3 rated",
+      "8-16 inputs",
+      "24VDC",
+      "Modular design",
+      "Scalable"
+    ]
+  },
+  "dehnDehnguardSpd": {
+    "title": "DEHN DEHNguard M TT Type 2 SPD",
+    "description": "Type 2 surge protective device with 40kA discharge capacity for 1000VAC systems",
+    "features": [
+      "Type 2 SPD",
+      "40kA Imax",
+      "1000VAC rated",
+      "Visual status",
+      "DIN rail mount"
+    ]
+  },
+  "phoenixValsecSpd": {
+    "title": "Phoenix Contact VAL-SEC-T2 SPD",
+    "description": "Compact 12mm Type 2 surge arrester with 40kA discharge current",
+    "features": [
+      "Type 2 protection",
+      "40kA Imax",
+      "12mm width",
+      "Quick connection",
+      "Status indicator"
+    ]
+  },
+  "dehnDehnventilSpd": {
+    "title": "DEHN DEHNventil M2 Combined SPD",
+    "description": "Type 1+2+3 combined surge arrester for comprehensive AC protection up to 400VAC",
+    "features": [
+      "Type 1+2+3",
+      "400VAC system",
+      "4-module width",
+      "Complete protection",
+      "High reliability"
+    ]
+  },
+  "phoenixFltsecSpd": {
+    "title": "Phoenix Contact FLT-SEC-T1+T2 SPD",
+    "description": "Combined Type 1+2 surge protection with 350/100 rating",
+    "features": [
+      "Type 1+2 combined",
+      "350/100 rating",
+      "Dual protection",
+      "Status display",
+      "Robust design"
+    ]
+  },
+  "phoenixPlugtrabSpd": {
+    "title": "Phoenix Contact PLT-SEC-T3 SPD",
+    "description": "Type 3 fine protection surge arrester for 120VAC final distribution",
+    "features": [
+      "Type 3 protection",
+      "120VAC rated",
+      "10kA Imax",
+      "Final protection",
+      "Plug connection"
+    ]
+  },
+  "schneiderXb4bs8442Estop": {
+    "title": "Schneider Electric XB4BS8442 E-Stop",
+    "description": "IP66 rated 22mm emergency stop with 40mm red mushroom head and twist release",
+    "features": [
+      "IP66 protection",
+      "22mm mounting",
+      "40mm mushroom",
+      "Twist release",
+      "Metal construction"
+    ]
+  },
+  "schneiderXb7nt844Estop": {
+    "title": "Schneider Electric XB7NT844 E-Stop",
+    "description": "22mm emergency stop button with 40mm mushroom head and pull-to-release mechanism",
+    "features": [
+      "22mm size",
+      "40mm head",
+      "Pull release",
+      "2NC contacts",
+      "High visibility"
+    ]
+  },
+  "eatonM22pvtEstop": {
+    "title": "Eaton M22-PVT Emergency Stop",
+    "description": "IP67 rated M22 series e-stop with 38-45mm mushroom and twist-to-release",
+    "features": [
+      "IP67 rated",
+      "22mm mount",
+      "38-45mm mushroom",
+      "Twist release",
+      "Heavy-duty"
+    ]
+  },
+  "schneider9001skrEstop": {
+    "title": "Schneider Electric 9001SKR E-Stop",
+    "description": "IP66 30mm emergency stop with 1NC+1NO contacts and UL 508 certification",
+    "features": [
+      "IP66 rating",
+      "30mm size",
+      "1NC+1NO contacts",
+      "UL 508 certified",
+      "Screw terminals"
+    ]
+  },
+  "eaton10250tEstop": {
+    "title": "Eaton 10250T NEMA E-Stop",
+    "description": "IP65 NEMA rated emergency stop with 40-65mm jumbo mushroom head",
+    "features": [
+      "IP65 protection",
+      "30.5mm mount",
+      "40-65mm mushroom",
+      "NEMA rated",
+      "Heavy-duty"
+    ]
+  },
+  "grundfosHsPump": {
+    "title": "Grundfos HS Series Split Case Pump",
+    "description": "High-capacity split case pump for irrigation with flow rates from 44-11900 GPM",
+    "features": [
+      "44-11900 GPM flow",
+      "Split case design",
+      "Irrigation ready",
+      "Heavy-duty",
+      "Energy efficient"
+    ]
+  },
+  "grundfosSpPump": {
+    "title": "Grundfos SP Series Submersible Pump",
+    "description": "230V submersible pump with 79 GPM flow and 1017 ft head capacity",
+    "features": [
+      "79 GPM flow",
+      "1017 ft head",
+      "230V operation",
+      "Submersible",
+      "Stainless steel"
+    ]
+  },
+  "ebaraHydrostationPump": {
+    "title": "Ebara Hydrostation 1HP Pump",
+    "description": "1HP surface pump with 25 GPM flow and 197 ft lift for residential/light commercial",
+    "features": [
+      "1HP power",
+      "25 GPM flow",
+      "197 ft lift",
+      "Compact design",
+      "Easy installation"
+    ]
+  },
+  "ebaraDwoPump": {
+    "title": "Ebara DWO Series Industrial Pump",
+    "description": "SS304 industrial pump handling 19mm solids for wastewater and process applications",
+    "features": [
+      "SS304 construction",
+      "19mm solids",
+      "Industrial duty",
+      "Corrosion resistant",
+      "Reliable"
+    ]
+  },
+  "ebaraPraPump": {
+    "title": "Ebara PRA Series Clean Water Pump",
+    "description": "0.5-2HP clean water pump for residential and light commercial at 50Hz",
+    "features": [
+      "0.5-2HP range",
+      "50Hz frequency",
+      "Clean water",
+      "Compact",
+      "Cost-effective"
+    ]
+  },
+  "flowserveMark3Pump": {
+    "title": "Flowserve Mark 3 Process Pump",
+    "description": "ANSI B73.1 single-stage pump with 220 GPM flow, 985 ft head, and 450 psi rating",
+    "features": [
+      "220 GPM max",
+      "985 ft head",
+      "450 psi rated",
+      "ANSI B73.1",
+      "Chemical duty"
+    ]
+  },
+  "flowserveHpxPump": {
+    "title": "Flowserve HPX API 610 Pump",
+    "description": "API 610 overhung process pump with 2175 psi discharge capability",
+    "features": [
+      "API 610 standard",
+      "2175 psi discharge",
+      "Overhung design",
+      "Oil & gas",
+      "High pressure"
+    ]
+  },
+  "ksbEtanormPump": {
+    "title": "KSB Etanorm Centrifugal Pump",
+    "description": "EN 733 pump with 340 L/s flow, 140m head, and IE4/IE5 efficiency motors",
+    "features": [
+      "340 L/s flow",
+      "140m head",
+      "IE4/IE5 efficiency",
+      "EN 733",
+      "Back pull-out"
+    ]
+  },
+  "ksbMegacpkPump": {
+    "title": "KSB MegaCPK Process Pump",
+    "description": "Stainless steel process pump for aggressive chemicals with low NPSH",
+    "features": [
+      "Stainless steel",
+      "Chemical resistant",
+      "Low NPSH",
+      "Process duty",
+      "Reliable"
+    ]
+  },
+  "ksbEtablocPump": {
+    "title": "KSB Etabloc Close-Coupled Pump",
+    "description": "EN 733 close-coupled pump with IE4/IE5 motor efficiency",
+    "features": [
+      "EN 733 standard",
+      "Close-coupled",
+      "IE4/IE5 motor",
+      "Compact",
+      "Energy efficient"
+    ]
+  },
+  "siemensKtp400Hmi": {
+    "title": "Siemens KTP400 Basic HMI Panel",
+    "description": "4.3 inch widescreen touchscreen HMI with 480x272 resolution and Ethernet/USB",
+    "features": [
+      "4.3 inch screen",
+      "480x272 pixels",
+      "Ethernet/USB",
+      "64K colors",
+      "TIA Portal"
+    ]
+  },
+  "siemensKtp700Hmi": {
+    "title": "Siemens KTP700 Basic HMI Panel",
+    "description": "7 inch touchscreen HMI with 8 function keys and 64K color display",
+    "features": [
+      "7 inch display",
+      "8 function keys",
+      "64K colors",
+      "Ethernet",
+      "Compact"
+    ]
+  },
+  "schneiderHmisto715Hmi": {
+    "title": "Schneider Electric HMISTO715 HMI",
+    "description": "4.3 inch 480x272 touchscreen HMI for 24VDC operation",
+    "features": [
+      "4.3 inch screen",
+      "480x272 resolution",
+      "24VDC power",
+      "Full color",
+      "Panel mount"
+    ]
+  },
+  "siemensTp700Hmi": {
+    "title": "Siemens TP700 Comfort HMI",
+    "description": "7 inch comfort panel with 16M colors and 12MB memory for advanced applications",
+    "features": [
+      "7 inch widescreen",
+      "16M colors",
+      "12MB memory",
+      "PROFINET/MPI",
+      "Advanced HMI"
+    ]
+  },
+  "schneiderHmistu855Hmi": {
+    "title": "Schneider Electric HMISTU855 HMI",
+    "description": "5.7 inch 320x240 touchscreen with 24VDC power for compact installations",
+    "features": [
+      "5.7 inch screen",
+      "320x240 pixels",
+      "24VDC",
+      "22mm mount",
+      "Compact"
+    ]
+  },
+  "fluke87vMultimeter": {
+    "title": "Fluke 87V Industrial Multimeter",
+    "description": "1000V industrial multimeter with 10A current, VFD measurement, and CAT IV 600V rating",
+    "features": [
+      "1000V DC/AC",
+      "10A current",
+      "CAT IV 600V",
+      "VFD capable",
+      "Industrial grade"
+    ]
+  },
+  "fluke179Multimeter": {
+    "title": "Fluke 179 True-RMS Multimeter",
+    "description": "True-RMS multimeter with 1000V range, 50MΩ resistance, and temperature measurement",
+    "features": [
+      "1000V AC/DC",
+      "50MΩ resistance",
+      "Temperature",
+      "Capacitance",
+      "CAT III 1000V"
+    ]
+  },
+  "beamexMc6Calibrator": {
+    "title": "Beamex MC6 Field Calibrator",
+    "description": "Advanced field calibrator with 1000 bar pressure, HART/FF communication, and 4 modules",
+    "features": [
+      "1000 bar pressure",
+      "HART/FF capable",
+      "4 modules",
+      "Documenting",
+      "Multi-function"
+    ]
+  },
+  "fluke115Multimeter": {
+    "title": "Fluke 115 Compact Multimeter",
+    "description": "Compact 600V multimeter with 10A current and 6000-count resolution",
+    "features": [
+      "600V AC/DC",
+      "10A current",
+      "6000-count",
+      "True-RMS",
+      "Field service"
+    ]
+  },
+  "beamexMc2Calibrator": {
+    "title": "Beamex MC2 Process Calibrator",
+    "description": "Compact handheld process calibrator with graphical display and documenting capability",
+    "features": [
+      "Process calibrator",
+      "Graphical display",
+      "Documenting",
+      "Portable",
+      "Traceable"
+    ]
+  },
+  "3mX5000HelmetType1": {
+    "title": "3M SecureFit X5000 Type I Safety Helmet",
+    "description": "ANSI Z89.1 Type I Class G safety helmet with pressure diffusion technology",
+    "features": [
+      "Type I ANSI Z89.1",
+      "Class G 2200V",
+      "Pressure diffusion",
+      "UV indicator",
+      "4-point strap"
+    ]
+  },
+  "3mX5000HelmetType2": {
+    "title": "3M SecureFit X5000 Type II Safety Helmet",
+    "description": "ANSI Z89.1 Type II Class E safety helmet for multi-directional impact protection",
+    "features": [
+      "Type II ANSI Z89.1",
+      "Class E 20000V",
+      "Multi-directional",
+      "Climbing style",
+      "UV sensor"
+    ]
+  },
+  "3mH700HelmetCap": {
+    "title": "3M H-700 Cap Style Hard Hat",
+    "description": "Type I hard hat with ratchet suspension and UV indicator for industrial use",
+    "features": [
+      "Type I protection",
+      "Ratchet suspension",
+      "UV indicator",
+      "Cap style",
+      "Comfortable"
+    ]
+  },
+  "3mH700HelmetBrim": {
+    "title": "3M H-700 Full Brim Hard Hat",
+    "description": "Type I full brim hard hat with ratchet suspension and UV protection indicator",
+    "features": [
+      "Type I protection",
+      "Full brim",
+      "Ratchet system",
+      "UV indicator",
+      "All-weather"
+    ]
+  },
+  "3mX5014Helmet": {
+    "title": "3M X5014-ANSI High-Vis Safety Helmet",
+    "description": "Type I high-visibility green safety helmet rated for 2200V electrical protection",
+    "features": [
+      "Type I ANSI",
+      "High-vis green",
+      "2200V rated",
+      "Pressure diffusion",
+      "Reflective"
+    ]
+  },
+  "enphaseIq860Inverter": {
+    "title": "Enphase IQ8-60 Microinverter",
+    "description": "245VA microinverter for 235-350W panels with 25-year warranty and microgrid capability",
+    "features": [
+      "245VA output",
+      "235-350W modules",
+      "25-year warranty",
+      "Microgrid capable",
+      "IP67 rated"
+    ]
+  },
+  "enphaseIq8plusInverter": {
+    "title": "Enphase IQ8PLUS-72 Microinverter",
+    "description": "300VA microinverter for 235-440W panels with grid-forming technology",
+    "features": [
+      "300VA output",
+      "235-440W modules",
+      "25-year warranty",
+      "Grid-forming",
+      "Split-phase"
+    ]
+  },
+  "apsystemsDs3sInverter": {
+    "title": "APsystems DS3-S Dual Microinverter",
+    "description": "640VA dual-module microinverter with 97% efficiency for up to 400W panels",
+    "features": [
+      "640VA output",
+      "400W modules",
+      "97% efficiency",
+      "Dual MPPT",
+      "ZigBee wireless"
+    ]
+  },
+  "apsystemsDs3lInverter": {
+    "title": "APsystems DS3-L Dual Microinverter",
+    "description": "748VA dual-module microinverter with 97% efficiency for up to 480W panels",
+    "features": [
+      "748VA output",
+      "480W modules",
+      "97% efficiency",
+      "2 channels",
+      "IP67 rated"
+    ]
+  },
+  "enphaseIq8acInverter": {
+    "title": "Enphase IQ8AC Residential Microinverter",
+    "description": "366VA residential microinverter with IP67 rating and Sunlight Backup capability",
+    "features": [
+      "366VA output",
+      "Residential use",
+      "IP67 protection",
+      "Sunlight Backup",
+      "High efficiency"
+    ]
+  },
   "utilities": {
     "variant": {
       "titleSuffix": " - Variant {{number}}",
