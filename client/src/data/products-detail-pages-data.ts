@@ -20250,46 +20250,6 @@ export const products: Product[] = [
 
   // CALIBRATION INSTRUMENTS - Real Manufacturer Products
   {
-    id: "fluke-87v-multimeter",
-    slug: "fluke-87v-industrial-multimeter",
-    categoryKey: "industrial-measuring-tools",
-    subcategoryKey: "calibration-equipment",
-    typeKey: "calibration-instruments",
-    image: "multimeter",
-    translationKeys: {
-      title: "products-data:fluke87vMultimeter.title",
-      description: "products-data:fluke87vMultimeter.description",
-      featuresKey: "products-data:fluke87vMultimeter.features",
-    },
-    specs: {
-      manufacturer: "Fluke",
-      model: "87V",
-      voltage: "1000V",
-      current: "10A",
-      rating: "CAT IV 600V",
-    },
-  },
-  {
-    id: "fluke-179-multimeter",
-    slug: "fluke-179-true-rms-multimeter",
-    categoryKey: "industrial-measuring-tools",
-    subcategoryKey: "calibration-equipment",
-    typeKey: "calibration-instruments",
-    image: "multimeter",
-    translationKeys: {
-      title: "products-data:fluke179Multimeter.title",
-      description: "products-data:fluke179Multimeter.description",
-      featuresKey: "products-data:fluke179Multimeter.features",
-    },
-    specs: {
-      manufacturer: "Fluke",
-      model: "179",
-      voltage: "1000V",
-      resistance: "50MΩ",
-      temperature: "400C",
-    },
-  },
-  {
     id: "beamex-mc6-calibrator",
     slug: "beamex-mc6-field-calibrator",
     categoryKey: "industrial-measuring-tools",
@@ -21214,8 +21174,6 @@ export const categories: Category[] = [
           "calibrator-temperature-precision-reference",
           "calibrator-process-multifunction",
           // Calibration Instruments - Real Products
-          "fluke-87v-multimeter",
-          "fluke-179-multimeter",
           "beamex-mc6-calibrator",
           "fluke-115-multimeter",
           "beamex-mc2-calibrator",
