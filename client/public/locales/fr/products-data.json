@@ -2784,24 +2784,11 @@
         "Alimentation et boissons",
         "Fabrication automobile"
       ],
-      "certifications": [
-        "CE",
-        "UL",
-        "CSA",
-        "ATEX",
-        "IECEx",
-        "SIL 2/3"
-      ],
+      "certifications": ["CE", "UL", "CSA", "ATEX", "IECEx", "SIL 2/3"],
       "technicalData": {
         "operatingTemp": "-40°C à +125°C",
         "protection": "IP65/IP67/IP69K",
-        "communication": [
-          "4-20mA",
-          "HART",
-          "Modbus",
-          "Ethernet",
-          "Wireless"
-        ],
+        "communication": ["4-20mA", "HART", "Modbus", "Ethernet", "Wireless"],
         "accuracy": "±0,1 % à ±0,5 % de la portée",
         "power": "24 V CC, 115/230 V CA, alimentation en boucle"
       }
@@ -2850,14 +2837,7 @@
         "Pâtes et papiers",
         "Mines et métaux"
       ],
-      "certifications": [
-        "SIL 2/3",
-        "ATEX",
-        "IECEx",
-        "FM",
-        "CSA",
-        "NEPSI"
-      ],
+      "certifications": ["SIL 2/3", "ATEX", "IECEx", "FM", "CSA", "NEPSI"],
       "technicalData": {
         "operatingTemp": "-40 °C à +85 °C",
         "protection": "IP66/IP67",
@@ -4045,6 +4025,1386 @@
       "Certifié ATEX, IECEx, CE"
     ]
   },
+  "belden8205": {
+    "title": "Câble d'instrumentation Belden 8205",
+    "description": "Câble d'instrumentation à paire torsadée Belden 8205 avec conducteurs en cuivre étamé toronnés de 20 AWG. Isolation et gaine en PVC pour une transmission fiable du signal dans les applications de contrôle industriel.",
+    "features": [
+      "Conducteurs en cuivre étamé toronnés de 20 AWG",
+      "Configuration à 1 paire torsadée",
+      "Isolation et gaine en PVC",
+      "Construction non blindée",
+      "Tension nominale de 300 V",
+      "Plage de température : -20 °C à +80 °C",
+      "Excellente intégrité du signal",
+      "Installation et terminaison faciles"
+    ]
+  },
+  "belden8442": {
+    "title": "Câble d'instrumentation blindé Belden 8442",
+    "description": "Câble à paire torsadée blindée haute conductivité Belden 8442 avec conducteurs de 22 AWG. Comprend un blindage en feuille et en tresse (couverture de 90 %) pour une protection supérieure contre les interférences électromagnétiques dans l'instrumentation industrielle.",
+    "features": [
+      "Cuivre haute conductivité de 22 AWG",
+      "1 paire torsadée avec blindage",
+      "Blindage en feuille + tresse (couverture de 90 %)",
+      "Isolation et gaine en PVC",
+      "Tension nominale de 300 V",
+      "Plage de température : -20 °C à +80 °C",
+      "Protection supérieure contre les interférences électromagnétiques/radioélectriques",
+      "Idéal pour les environnements bruyants"
+    ]
+  },
+  "belden8725": {
+    "title": "Câble d'instrumentation multipaire Belden 8725",
+    "description": "Câble d'instrumentation multipaire Belden 8725 avec 4 paires de conducteurs de 20 AWG. Homologué CM avec blindage général en feuille pour une transmission fiable du signal dans les installations commerciales.",
+    "features": [
+      "Cuivre étamé toronné de 20 AWG",
+      "Configuration à 4 paires torsadées",
+      "Protection générale par blindage en feuille",
+      "Isolation et gaine en PVC",
+      "Tension nominale de 300 V",
+      "Température étendue : -20 °C à +105 °C",
+      "Homologué CM pour une utilisation commerciale",
+      "Polyvalence multiconducteur"
+    ]
+  },
+  "alphaWire9174": {
+    "title": "Câble d'instrumentation Alpha Wire 9174",
+    "description": "Câble à paire torsadée Alpha Wire 9174 avec conducteurs en cuivre étamé de 20 AWG. Comprend une isolation en polyéthylène, un blindage en feuille d'aluminium-mylar et une tension nominale de 1100 V pour les applications exigeantes.",
+    "features": [
+      "Conducteurs en cuivre étamé de 20 AWG",
+      "1 paire torsadée avec fil de drain",
+      "Isolation en polyéthylène (PE)",
+      "Feuille d'aluminium-Mylar + blindage de fil de drain",
+      "Tension nominale élevée de 1100 V",
+      "Large température : -40 °C à +80 °C",
+      "Gaine extérieure en PVC",
+      "Excellentes propriétés électriques"
+    ]
+  },
+  "alphaWireXtraGuard4": {
+    "title": "Câble industriel Alpha Wire Xtra-Guard 4",
+    "description": "Câble industriel extra durable Alpha Wire Xtra-Guard 4 avec isolation en polyéthylène réticulé. Homologué UL VW-1 et CSA FT-1 pour les environnements industriels exigeants.",
+    "features": [
+      "Cuivre étamé toronné de 18 à 12 AWG",
+      "Construction extra durable",
+      "Isolation en polyéthylène réticulé",
+      "Gaine en élastomère thermoplastique",
+      "Tension nominale de 600 V",
+      "Plage de température : -40 °C à +105 °C",
+      "Homologué UL VW-1, CSA FT-1",
+      "Résistance chimique supérieure"
+    ]
+  },
+  "phoenixContactM12Oneclick": {
+    "title": "Connecteur ONECLICK M12 Phoenix Contact",
+    "description": "Connecteur circulaire push-pull ONECLICK M12 Phoenix Contact avec protection IP67. Comprend des configurations à 4 à 8 pôles et plusieurs options de codage pour les connexions industrielles de capteurs et d'actionneurs.",
+    "features": [
+      "Mécanisme ONECLICK push-pull",
+      "Configurations à 4 à 8 pôles",
+      "Intensité nominale de 4 A par contact",
+      "Tension de 250 V CA/CC",
+      "Indice de protection IP67",
+      "Options de codage A, B, D, X",
+      "Montage sur panneau et sur câble",
+      "Température : -40 °C à +85 °C"
+    ]
+  },
+  "phoenixContactM23": {
+    "title": "Connecteur hybride M23 Phoenix Contact",
+    "description": "Connecteur circulaire hybride M23 Phoenix Contact pour la transmission de signaux, de données et d'énergie. Comprend jusqu'à 17 pôles, une compatibilité avec le soudage à la vague et une protection IP67 une fois accouplé.",
+    "features": [
+      "Connecteur hybride signal/données/alimentation",
+      "Jusqu'à 17 configurations de pôles",
+      "Capacité de courant jusqu'à 16 A",
+      "Tension nominale de 630 V CA/CC",
+      "Protection IP67 une fois accouplé",
+      "Compatible avec le soudage à la vague",
+      "Polyvalence multi-applications",
+      "Température : -40 °C à +100 °C"
+    ]
+  },
+  "weidmullerRockstarModuplug": {
+    "title": "Connecteur robuste modulaire Weidmüller RockStar ModuPlug",
+    "description": "Connecteur industriel robuste modulaire Weidmüller RockStar ModuPlug. Comprend un système d'insertion modulaire, une capacité allant jusqu'à 35 A/830 V et une protection IP65/IP66/IP67 pour les machines industrielles.",
+    "features": [
+      "Conception robuste modulaire",
+      "Capacité de courant jusqu'à 35 A",
+      "Tension nominale jusqu'à 830 V",
+      "Protection IP65/IP66/IP67",
+      "Système d'insertion modulaire",
+      "Contacts à sertir et à vis",
+      "Homologué pour les machines industrielles",
+      "Température : -40 °C à +100 °C"
+    ]
+  },
+  "amphenolM12Industrial": {
+    "title": "Connecteur circulaire industriel Amphenol M12",
+    "description": "Connecteur circulaire industriel Amphenol M12 pour les applications de capteurs et d'actionneurs. Comprend des options de 3 à 12 pôles, une protection IP67/IP68 et plusieurs variantes de codage pour l'automatisation industrielle.",
+    "features": [
+      "Conception M12 industrielle circulaire",
+      "Options à 3, 4, 5, 8, 12 pôles",
+      "Intensité nominale de 4 A par contact",
+      "Tension de 250 V CA/CC",
+      "Protection IP67/IP68",
+      "Variantes de codage A, B, D, X",
+      "Applications de capteurs/actionneurs",
+      "Température : -40 °C à +85 °C"
+    ]
+  },
+  "amphenolMilDtl5015": {
+    "title": "Connecteur militaire Amphenol MIL-DTL-5015",
+    "description": "Connecteur circulaire de spécification militaire Amphenol MIL-DTL-5015 avec construction renforcée. Comprend 2 à 128 positions, une coque en alliage d'aluminium et une plage de températures extrêmes pour les environnements difficiles.",
+    "features": [
+      "Spécification militaire MIL-DTL-5015",
+      "Construction renforcée",
+      "2 à 128 positions de contact",
+      "Capacité de courant jusqu'à 65 A",
+      "Tension nominale jusqu'à 1000 V",
+      "Coque en alliage d'aluminium",
+      "Finition olive terne/noire",
+      "Température extrême : -65 °C à +200 °C"
+    ]
+  },
+  "mennekesPowertopXtra16a": {
+    "title": "Fiche industrielle Mennekes PowerTOP Xtra 16A",
+    "description": "Fiche industrielle Mennekes PowerTOP Xtra 16A avec configuration 3P+N+PE. Conforme à la norme CEI 60309 avec protection IP54/IP67 pour des connexions d'alimentation fiables dans les environnements industriels.",
+    "features": [
+      "Intensité nominale de 16 A",
+      "Tension de 400 V",
+      "Configuration 3P+N+PE (5 pôles)",
+      "Indice de protection IP54/IP67",
+      "Conforme à la norme CEI 60309",
+      "Matériau plastique de haute qualité",
+      "Norme de codage 6h",
+      "Température : -25 °C à +40 °C"
+    ]
+  },
+  "mennekesPowertopXtra32a": {
+    "title": "Fiche industrielle Mennekes PowerTOP Xtra 32A",
+    "description": "Fiche industrielle Mennekes PowerTOP Xtra 32A avec la technologie X-CONTACT. Comprend une capacité de 32 A, une protection IP67 et une construction résistante aux chocs pour les applications industrielles exigeantes.",
+    "features": [
+      "Intensité nominale élevée de 32 A",
+      "Tension de 400 V",
+      "Configuration 3P+N+PE (5 pôles)",
+      "Protection étanche IP67",
+      "Technologie X-CONTACT",
+      "Norme CEI 60309",
+      "Plastique résistant aux chocs",
+      "Température : -25 °C à +40 °C"
+    ]
+  },
+  "mennekes552": {
+    "title": "Fiche industrielle étanche Mennekes 552",
+    "description": "Fiche industrielle étanche Mennekes 552 conçue pour les applications extérieures. Comprend une capacité de 16 A, une protection IP67 et une construction thermoplastique pour des connexions d'alimentation extérieures fiables.",
+    "features": [
+      "Étanchéité IP67",
+      "Capacité de 16 A",
+      "Tension nominale de 230 V",
+      "Configuration 2P+PE (3 pôles)",
+      "Conception homologuée pour l'extérieur",
+      "Matériau thermoplastique",
+      "Résistant à la corrosion",
+      "Température : -25 °C à +40 °C"
+    ]
+  },
+  "hubbellHbl2621": {
+    "title": "Fiche à verrouillage par rotation Hubbell Hubbellock HBL2621",
+    "description": "Fiche à verrouillage par rotation Hubbell Hubbellock HBL2621 avec une capacité de 30 A. Comprend une configuration L15-30P, une construction en nylon et une conception à verrouillage par rotation sécurisée pour des connexions d'alimentation industrielles fiables.",
+    "features": [
+      "Conception à verrouillage par rotation de 30 A",
+      "Tension nominale de 250 V",
+      "Configuration à 3 pôles et 4 fils",
+      "Configuration NEMA L15-30P",
+      "Matériau du boîtier en nylon",
+      "Capacité de fil de 8 à 10 AWG",
+      "Mécanisme de verrouillage sécurisé",
+      "Température : -40 °C à +75 °C"
+    ]
+  },
+  "legrandCee16a": {
+    "title": "Fiche industrielle Legrand CEE 16A",
+    "description": "Fiche industrielle Legrand CEE 16A conforme à la norme CEI 60309. Comprend une configuration 3P+N+PE, une protection IP44 et une construction en polyamide pour une distribution d'alimentation industrielle fiable.",
+    "features": [
+      "Conforme à la norme CEI 60309",
+      "Intensité nominale de 16 A",
+      "Tension de 400 V",
+      "Configuration 3P+N+PE",
+      "Indice de protection IP44",
+      "Matériau polyamide",
+      "Norme de codage 6h",
+      "Température : -25 °C à +40 °C"
+    ]
+  },
+  "bussmannLpCc30": {
+    "title": "Fusible à retardement de classe CC Bussmann LP-CC-30",
+    "description": "Fusible à retardement de classe CC Bussmann (Eaton) LP-CC-30 avec une capacité de 30 A. Comprend un pouvoir de coupure de 200 kA, conforme à la norme UL 248-4, idéal pour la protection des circuits de moteur.",
+    "features": [
+      "Fusible à retardement de classe CC",
+      "Intensité nominale de 30 A",
+      "Tension de 600 V CA",
+      "Pouvoir de coupure de 200 kA",
+      "Taille de 13/32 x 1-1/2 pouce",
+      "Conforme à la norme UL 248-4",
+      "Protection des circuits de moteur",
+      "Conception de type à rejet"
+    ]
+  },
+  "bussmannFnqR60": {
+    "title": "Fusible de rejet de classe CC Bussmann FNQ-R-60",
+    "description": "Fusible de rejet à retardement de classe CC Bussmann FNQ-R-60 avec une capacité de 60 A. Comprend un pouvoir de coupure de 200 kA et une conception de rejet pour les applications de contrôle industriel.",
+    "features": [
+      "Fusible de rejet de classe CC",
+      "Intensité nominale de 60 A",
+      "Tension de 600 V CA",
+      "Pouvoir de coupure de 200 kA",
+      "Caractéristique de temporisation",
+      "Taille de 13/32 x 1-1/2 pouce",
+      "Norme UL 248-4",
+      "Homologué pour le contrôle industriel"
+    ]
+  },
+  "littelfuseL60030c": {
+    "title": "Bloc de fusibles de classe CC Littelfuse L60030C",
+    "description": "Bloc de fusibles de classe CC Littelfuse L60030C avec un calibre de 30 A. Comprend un montage sur rail DIN à 3 pôles, une construction modulaire et une capacité de 600 V pour les applications de panneau industriel.",
+    "features": [
+      "Bloc de fusibles de classe CC",
+      "Calibre de 30 A",
+      "Capacité de tension de 600 V",
+      "Configuration à 3 pôles",
+      "Montage sur rail DIN",
+      "Construction modulaire",
+      "Matériau thermoplastique",
+      "Conforme à la norme UL 248-4"
+    ]
+  },
+  "littelfuseAto30": {
+    "title": "Fusible à lame automobile Littelfuse ATO-30",
+    "description": "Fusible à lame automobile/industriel Littelfuse ATO-30 avec un calibre de 30 A. Conception de lame ATO/ATC standard pour les applications automobiles et industrielles basse tension.",
+    "features": [
+      "Fusible à lame automobile",
+      "Calibre de 30 A",
+      "Tension de 32 V CC",
+      "Taille ATO/ATC standard",
+      "Code couleur vert",
+      "Bornes à lame en zinc",
+      "Utilisation automobile/basse tension",
+      "Remplacement facile"
+    ]
+  },
+  "mersenA70p1004": {
+    "title": "Fusible à action rapide de classe J Mersen A70P100-4",
+    "description": "Fusible à action rapide de classe J Mersen A70P100-4 avec un calibre de 100 A. Comprend un pouvoir de coupure de 200 kA, une énergie traversante de crête de 40 kA à 600 V et une conformité à la norme UL 248-8.",
+    "features": [
+      "Fusible à action rapide de classe J",
+      "Calibre de 100 A",
+      "Tension de 600 V CA",
+      "Pouvoir de coupure de 200 kA",
+      "Énergie traversante de crête de 40 000 A",
+      "Taille de 1 5/8 x 4 pouces",
+      "Conforme à la norme UL 248-8",
+      "Conception à limitation de courant"
+    ]
+  },
+  "tdkLambdaI1c120w": {
+    "title": "Convertisseur CC-CC non isolé TDK-Lambda i1C-120W",
+    "description": "Convertisseur CC-CC non isolé TDK-Lambda i1C-120W avec un rendement de 98 %. Comprend une plage d'entrée de 9 à 36 V, une puissance de sortie de 120 W et une protection complète pour les applications industrielles.",
+    "features": [
+      "Convertisseur CC-CC non isolé",
+      "Plage d'entrée de 9 à 36 V CC",
+      "Puissance de sortie de 120 W",
+      "Rendement jusqu'à 98 %",
+      "Options de sortie simple/double",
+      "Régulation de la sortie de ±1 %",
+      "Protection contre les surtensions, les surintensités et la surchauffe",
+      "Température : -40 °C à +85 °C"
+    ]
+  },
+  "tdkLambdaCnB110": {
+    "title": "Convertisseur isolé quart de brique CN-B110 TDK-Lambda",
+    "description": "Convertisseur CC-CC isolé quart de brique TDK-Lambda CN-B110. Comprend une entrée de 43 à 160 V, une sortie de 50 à 300 W, une isolation de 1 500 V et un rendement jusqu'à 92 %.",
+    "features": [
+      "Boîtier isolé quart de brique",
+      "Plage d'entrée de 43 à 160 V CC",
+      "Puissance de sortie de 50 à 300 W",
+      "Rendement jusqu'à 92 %",
+      "Isolation de 1 500 V CC",
+      "Régulation de la sortie de ±0,5 %",
+      "Encombrement standard de l'industrie",
+      "Température : -40 °C à +100 °C"
+    ]
+  },
+  "vicorDcm2322": {
+    "title": "Convertisseur abaisseur-élévateur ZVS isolé Vicor DCM 2322",
+    "description": "Convertisseur abaisseur-élévateur à commutation à tension nulle (ZVS) isolé Vicor DCM 2322. Comprend une entrée de 9 à 50 V, une sortie de 9 à 420 V, une puissance de 120 W et un rendement de 96 % avec une isolation de 2 250 V.",
+    "features": [
+      "Topologie abaisseur-élévateur ZVS isolée",
+      "Plage d'entrée de 9 à 50 V CC",
+      "Plage de sortie de 9 à 420 V CC",
+      "Puissance de sortie de 120 W",
+      "Rendement jusqu'à 96 %",
+      "Isolation de 2 250 V CC",
+      "Commutation à tension nulle",
+      "Température : -40 °C à +125 °C"
+    ]
+  },
+  "vicorDcm3623": {
+    "title": "Convertisseur VIA isolé Vicor DCM 3623",
+    "description": "Convertisseur VIA (Vicor Integrated Adapter) isolé Vicor DCM 3623 avec une sortie de 320 W. Comprend une entrée de 200 à 425 V, un rendement de 96 % et une isolation de 2 250 V dans un boîtier DCM ChiP.",
+    "features": [
+      "Technologie VIA isolée",
+      "Plage d'entrée de 200 à 425 V CC",
+      "Puissance de sortie de 320 W",
+      "Rendement jusqu'à 96 %",
+      "Isolation de 2 250 V CC",
+      "Régulation de la sortie de ±1 %",
+      "Boîtier DCM ChiP compact",
+      "Température : -40 °C à +125 °C"
+    ]
+  },
+  "murataDcs612": {
+    "title": "Convertisseur CC-CC isolé Murata DCS6-12",
+    "description": "Convertisseur CC-CC isolé Murata DCS6-12 avec une sortie de 6 W. Comprend une entrée de 9 à 18 V, une sortie de 12 V, une isolation de 1 500 V et un boîtier SIP pour les applications où l'espace est limité.",
+    "features": [
+      "Convertisseur CC-CC isolé",
+      "Plage d'entrée de 9 à 18 V CC",
+      "Tension de sortie de 12 V CC",
+      "Puissance de sortie de 6 W",
+      "Rendement jusqu'à 84 %",
+      "Isolation de 1 500 V CC",
+      "Régulation de la sortie de ±1 %",
+      "Boîtier SIP compact"
+    ]
+  },
+  "eaton9px1500rt": {
+    "title": "Système ASI Eaton 9PX1500RT",
+    "description": "ASI en ligne à double conversion Eaton 9PX1500RT avec une capacité de 1 500 VA/1 350 W. Comprend une conception convertible en bâti/tour, une option de batterie au lithium-ion et une carte réseau prête pour la protection de l'alimentation critique.",
+    "features": [
+      "Capacité de 1 500 VA/1 350 W",
+      "Topologie en ligne à double conversion",
+      "Tension d'entrée/sortie de 120/220/230/240 V",
+      "Convertible en bâti/tour",
+      "Autonomie de 3 à 11 minutes à pleine charge",
+      "Option de batterie au lithium-ion",
+      "Carte réseau prête",
+      "Écran LCD avec état"
+    ]
+  },
+  "eaton9px3000rt": {
+    "title": "Système ASI en ligne Eaton 9PX3000RT",
+    "description": "ASI en ligne à double conversion Eaton 9PX3000RT avec une capacité de 3 000 VA/3 000 W. Comprend la technologie ABM, la certification Energy Star avec un rendement jusqu'à 93 % et une conception en bâti/tour de 2U.",
+    "features": [
+      "Capacité de 3 000 VA/3 000 W",
+      "En ligne à double conversion",
+      "Entrée/sortie de 200 à 240 V",
+      "Gestion de la batterie ABM",
+      "Rendement Energy Star jusqu'à 93 %",
+      "Montage en bâti/tour de 2U",
+      "USB, série, fente pour carte réseau",
+      "Batteries remplaçables à chaud"
+    ]
+  },
+  "apcSmt1500rm2u": {
+    "title": "ASI Smart-UPS SMT1500RM2U d'APC pour montage en bâti",
+    "description": "ASI à ligne interactive Smart-UPS SMT1500RM2U d'APC avec une capacité de 1 500 VA/1 000 W. Comprend une conception de montage en bâti de 2U, un écran LCD et une fente SmartSlot pour la carte de gestion réseau.",
+    "features": [
+      "Capacité de 1 500 VA/1 000 W",
+      "Topologie à ligne interactive",
+      "Tension d'entrée/sortie de 120 V",
+      "Conception de montage en bâti de 2U",
+      "Autonomie de 4,3 minutes à pleine charge",
+      "Carte réseau SmartSlot prête",
+      "Écran d'état LCD",
+      "Régulation automatique de la tension"
+    ]
+  },
+  "apcSrt8kxlt": {
+    "title": "ASI en ligne APC Smart-UPS SRT8KXLT",
+    "description": "ASI en ligne à double conversion APC Smart-UPS SRT8KXLT avec une capacité de 8 000 VA/8 000 W. Comprend une borne d'arrêt d'urgence, une gestion de réseau, une conception en bâti/tour et un rendement jusqu'à 95 %.",
+    "features": [
+      "Capacité de 8 000 VA/8 000 W",
+      "En ligne à double conversion",
+      "Tension d'entrée/sortie de 208 V",
+      "Montage en bâti/tour",
+      "Autonomie de 5,5 minutes à pleine charge",
+      "Arrêt d'urgence EPO",
+      "Gestion de réseau incluse",
+      "Rendement jusqu'à 95 %"
+    ]
+  },
+  "schneiderGalaxyVs": {
+    "title": "ASI modulaire Schneider Electric Galaxy VS",
+    "description": "ASI en ligne triphasée modulaire Schneider Electric Galaxy VS avec une capacité de 10 à 100 kVA. Comprend un rendement en mode ECO de 99 %, une redondance N+1, une interface IHM à écran tactile et des modules d'alimentation évolutifs.",
+    "features": [
+      "Capacité évolutive de 10 à 100 kVA",
+      "Triphasée en ligne modulaire",
+      "Entrée/sortie triphasée de 380/400/415 V",
+      "Rendement en mode ECO jusqu'à 99 %",
+      "Modules d'alimentation modulaires",
+      "Redondance configurable N+1",
+      "Écran IHM tactile",
+      "Modules remplaçables à chaud"
+    ]
+  },
+  "rittalJb121406": {
+    "title": "Boîtier de dérivation en acier Rittal JB121406",
+    "description": "Rittal JB121406 est un boîtier de dérivation en acier robuste avec une protection IP66, doté d'une porte à charnière pour un accès facile. Dimensions de 12 × 14 × 6 pouces avec une classification NEMA 4 pour les environnements industriels.",
+    "features": [
+      "Construction en acier pour plus de durabilité",
+      "Indice de protection IP66",
+      "Porte à charnière pour un accès facile",
+      "Homologué NEMA 4",
+      "Dimensions de 12 × 14 × 6 pouces",
+      "Qualité industrielle"
+    ]
+  },
+  "hoffmanA6044ch": {
+    "title": "Boîtier de dérivation en acier Hoffman A6044CH",
+    "description": "Hoffman A6044CH est un boîtier de dérivation en acier compact avec une conception à charnière continue. Comprend les protections NEMA 12 et IP65, idéal pour les applications industrielles intérieures.",
+    "features": [
+      "Taille compacte de 6 × 4 × 4 pouces",
+      "Construction en acier",
+      "Conception à charnière continue",
+      "Homologué NEMA 12",
+      "Protection IP65",
+      "Applications industrielles"
+    ]
+  },
+  "hoffmanA1086chscfg": {
+    "title": "Boîtier de dérivation en fibre de verre Hoffman A1086CHSCFG",
+    "description": "Boîtier de dérivation en fibre de verre Hoffman A1086CHSCFG avec loquets à quart de tour. Comprend les protections NEMA 13 et IP66 pour les environnements difficiles.",
+    "features": [
+      "Construction en fibre de verre",
+      "Dimensions de 10 × 8 × 6 pouces",
+      "Loquets à quart de tour",
+      "Homologué NEMA 13",
+      "Protection IP66",
+      "Résistant à la corrosion"
+    ]
+  },
+  "fiboxArca806030": {
+    "title": "Boîtier de dérivation en polycarbonate Fibox ARCA 806030",
+    "description": "Boîtier de dérivation en polycarbonate Fibox ARCA 806030 avec résistance aux UV. Offre une double protection IP66/IP67 pour les environnements extérieurs et difficiles.",
+    "features": [
+      "Matériau en polycarbonate",
+      "Taille de 8 × 6 × 3 pouces",
+      "Résistant aux UV",
+      "Double homologation IP66/IP67",
+      "Convient pour l'extérieur",
+      "Option de couvercle transparent"
+    ]
+  },
+  "fiboxTempoTam302515": {
+    "title": "Boîtier de dérivation en ABS Fibox TEMPO TAM302515",
+    "description": "Boîtier de dérivation en ABS Fibox TEMPO TAM302515 avec couvercle transparent pour l'inspection visuelle. Comprend une protection IP65 et des dimensions métriques.",
+    "features": [
+      "Construction en ABS",
+      "Dimensions de 300 × 250 × 150 mm",
+      "Couvercle transparent",
+      "Protection IP65",
+      "Inspection visuelle",
+      "Conception légère"
+    ]
+  },
+  "phoenixBc356": {
+    "title": "Boîtier modulaire sur rail DIN Phoenix Contact BC 35.6",
+    "description": "Phoenix Contact BC 35.6 est un boîtier modulaire sur rail DIN d'une largeur de 35,6 mm. Fabriqué en polyamide avec une protection IP20 pour les applications industrielles standard.",
+    "features": [
+      "Largeur de 35,6 mm",
+      "Conception modulaire",
+      "Matériau en polyamide",
+      "Protection IP20",
+      "Montage sur rail DIN",
+      "Installation facile"
+    ]
+  },
+  "phoenixMcsIp67": {
+    "title": "Boîtier sur rail DIN Phoenix Contact MCS-IP67",
+    "description": "Boîtier sur rail DIN Phoenix Contact MCS-IP67 avec une protection améliorée. Comprend une largeur de 53,6 mm, une homologation IP67 avec joint d'étanchéité et des bornes enfichables.",
+    "features": [
+      "Largeur de 53,6 mm",
+      "Homologué IP67 avec joint d'étanchéité",
+      "Bornes enfichables",
+      "Protection améliorée",
+      "Montage sur rail DIN",
+      "Applications industrielles"
+    ]
+  },
+  "abbMistral36": {
+    "title": "Boîtier sur rail DIN ABB Mistral36",
+    "description": "ABB Mistral36 est un boîtier sur rail DIN à 36 modules avec porte transparente. Conception à montage mural pour une installation et un accès faciles.",
+    "features": [
+      "Capacité de 36 modules",
+      "Porte transparente",
+      "Conception à montage mural",
+      "Compatible avec le rail DIN",
+      "Accès facile",
+      "Configuration modulaire"
+    ]
+  },
+  "abbMistral54": {
+    "title": "Boîtier de compteur ABB Mistral54",
+    "description": "ABB Mistral54 est un boîtier de compteur à 54 modules avec porte réversible et mécanisme de fermeture à enclenchement. Conçu pour les applications de comptage.",
+    "features": [
+      "Capacité de 54 modules",
+      "Porte réversible",
+      "Fermeture à enclenchement",
+      "Boîtier de compteur",
+      "Montage sur rail DIN",
+      "Configuration flexible"
+    ]
+  },
+  "phoenixIcs77": {
+    "title": "Boîtier de connectivité modulaire Phoenix Contact ICS-77",
+    "description": "Boîtier sur rail DIN compact Phoenix Contact ICS-77 avec options de connectivité modulaire. Prend en charge les connexions RJ45/USB dans des dimensions de 77 × 25 × 12 mm.",
+    "features": [
+      "Taille compacte de 77 × 25 × 12 mm",
+      "Connectivité modulaire",
+      "Prise en charge RJ45/USB",
+      "Protection IP20",
+      "Montage sur rail DIN",
+      "Applications de communication"
+    ]
+  },
+  "watlowFirerod14500": {
+    "title": "Thermoplongeur à cartouche Watlow FIREROD-1/4-500",
+    "description": "Watlow FIREROD-1/4-500 est un thermoplongeur à cartouche de 1/4 pouce de diamètre d'une puissance de 500 W, 240 V. Construction matricée pour un transfert de chaleur maximal.",
+    "features": [
+      "Diamètre de 1/4 pouce",
+      "Puissance de 500 W",
+      "Fonctionnement de 240 V",
+      "Construction matricée",
+      "Transfert de chaleur élevé",
+      "Applications industrielles"
+    ]
+  },
+  "chromaloxTlo20": {
+    "title": "Thermoplongeur tubulaire Chromalox TLO-20",
+    "description": "Chromalox TLO-20 est un thermoplongeur tubulaire de 20 kW avec une construction en acier au carbone. Conçu pour les applications de chauffage industriel de 480 V.",
+    "features": [
+      "Puissance de 20 kW",
+      "Conception à immersion tubulaire",
+      "Fonctionnement de 480 V",
+      "Construction en acier au carbone",
+      "Chauffage industriel",
+      "Capacité à haute température"
+    ]
+  },
+  "watlowWatrod43010": {
+    "title": "Radiateur tubulaire Watlow WATROD-430-10",
+    "description": "Radiateur tubulaire Watlow WATROD-430-10 d'un diamètre de 0,430 pouce pour le chauffage de conduits. Puissance de 10 kW pour le chauffage industriel de l'air.",
+    "features": [
+      "Diamètre de 0,430 pouce",
+      "Puissance de 10 kW",
+      "Application de chauffage de conduits",
+      "Construction tubulaire",
+      "Haute efficacité",
+      "Qualité industrielle"
+    ]
+  },
+  "chromaloxSre10": {
+    "title": "Bobine de chauffage électrique Chromalox SRE-10",
+    "description": "Bobine de chauffage électrique Chromalox SRE-10 d'une puissance de 10 kW à 240 V. Construction à fil résistif pour un chauffage fiable.",
+    "features": [
+      "Puissance de 10 kW",
+      "Fonctionnement de 240 V",
+      "Construction à fil résistif",
+      "Bobine de chauffage électrique",
+      "Performance fiable",
+      "Applications industrielles"
+    ]
+  },
+  "omegaCsh102": {
+    "title": "Radiateur à bobine à ressort Omega CSH-102",
+    "description": "Omega CSH-102 est un radiateur à bobine de 1 000 W avec une construction de type à ressort. Fonctionnement de 120 V pour des applications de chauffage polyvalentes.",
+    "features": [
+      "Puissance de 1 000 W",
+      "Fonctionnement de 120 V",
+      "Construction de type à ressort",
+      "Conception de radiateur à bobine",
+      "Installation flexible",
+      "Applications polyvalentes"
+    ]
+  },
+  "watlowFirebarFb15": {
+    "title": "Radiateur tubulaire à extrémité unique Watlow FIREBAR-FB15",
+    "description": "Élément chauffant tubulaire à extrémité unique Watlow FIREBAR-FB15 d'une puissance nominale de 1 500 W, 240 V. Montage à bride pour une installation sécurisée.",
+    "features": [
+      "Conception tubulaire à extrémité unique",
+      "Puissance de 1 500 W",
+      "Fonctionnement de 240 V",
+      "Montage à bride",
+      "Installation sécurisée",
+      "Chauffage industriel"
+    ]
+  },
+  "chromaloxCes028": {
+    "title": "Élément de cartouche Chromalox CES-028",
+    "description": "Élément de cartouche Chromalox CES-028 d'une puissance de 2 800 W. Construction en acier inoxydable pour les applications de 480 V.",
+    "features": [
+      "Puissance de 2 800 W",
+      "Fonctionnement de 480 V",
+      "Construction en acier inoxydable",
+      "Conception d'élément de cartouche",
+      "Résistant à la corrosion",
+      "Haute température"
+    ]
+  },
+  "watlowUltramicAln250": {
+    "title": "Radiateur en céramique Watlow ULTRAMIC-AlN-250",
+    "description": "Radiateur en céramique Watlow ULTRAMIC-AlN-250 avec substrat en nitrure d'aluminium. Génération de chaleur propre de 250 W pour les applications de précision.",
+    "features": [
+      "Céramique de nitrure d'aluminium",
+      "Puissance de 250 W",
+      "Génération de chaleur propre",
+      "Chauffage de précision",
+      "Conductivité thermique élevée",
+      "Applications de semi-conducteurs"
+    ]
+  },
+  "omegaCss01250": {
+    "title": "Radiateur à bande de mica Omega CSS-01250",
+    "description": "Radiateur à bande Omega CSS-01250 avec isolation en mica. Puissance de 1 250 W à 240 V pour les applications de chauffage de surface.",
+    "features": [
+      "Puissance de 1 250 W",
+      "Fonctionnement de 240 V",
+      "Isolation en mica",
+      "Conception de radiateur à bande",
+      "Chauffage de surface",
+      "Distribution uniforme de la chaleur"
+    ]
+  },
+  "chromaloxTmo10": {
+    "title": "Radiateur tubulaire à enveloppe métallique Chromalox TMO-10",
+    "description": "Radiateur tubulaire à enveloppe métallique Chromalox TMO-10 avec gaine INCOLOY. Puissance de 10 kW à 600 V pour les applications à haute température.",
+    "features": [
+      "Puissance de 10 kW",
+      "Fonctionnement de 600 V",
+      "Gaine INCOLOY",
+      "Conception tubulaire à enveloppe métallique",
+      "Capacité à haute température",
+      "Résistant à la corrosion"
+    ]
+  },
+  "watlowCirculationCh50": {
+    "title": "Radiateur à circulation Watlow CH-50",
+    "description": "Radiateur à circulation Watlow CH-50 d'une puissance de 50 kW pour le chauffage de processus. Conception à bride pour les applications industrielles de 480 V.",
+    "features": [
+      "Puissance de 50 kW",
+      "Montage à bride",
+      "Fonctionnement de 480 V",
+      "Chauffage de processus",
+      "Conception à circulation",
+      "Applications industrielles"
+    ]
+  },
+  "chromaloxCvep15": {
+    "title": "Radiateur pour emplacement dangereux Chromalox CVEP-15",
+    "description": "Radiateur antidéflagrant Chromalox CVEP-15 d'une puissance nominale de 15 kW. Homologué Classe I Division 1 pour les emplacements dangereux.",
+    "features": [
+      "Puissance de 15 kW",
+      "Conception antidéflagrante",
+      "Homologation Classe I Div 1",
+      "Certifié pour les emplacements dangereux",
+      "Sécurité industrielle",
+      "Conforme à la norme ATEX"
+    ]
+  },
+  "watlowDuctDh30": {
+    "title": "Radiateur de gaine Watlow DH-30",
+    "description": "Radiateur de gaine Watlow DH-30 d'une puissance de 30 kW pour le chauffage de l'air. Construction modulaire triphasée de 480 V pour les applications CVC.",
+    "features": [
+      "Puissance de 30 kW",
+      "Application de chauffage de l'air",
+      "Triphasé de 480 V",
+      "Construction modulaire",
+      "Montage de gaine",
+      "Systèmes CVC"
+    ]
+  },
+  "chromaloxImmersionPmh25": {
+    "title": "Thermoplongeur Chromalox PMH-25",
+    "description": "Thermoplongeur Chromalox PMH-25 d'une puissance de 25 kW. Montage à bride ANSI avec construction en acier inoxydable pour les applications de 600 V.",
+    "features": [
+      "Puissance de 25 kW",
+      "Montage à bride ANSI",
+      "Fonctionnement de 600 V",
+      "Construction en acier inoxydable",
+      "Chauffage par immersion",
+      "Processus industriel"
+    ]
+  },
+  "omegaFma1020": {
+    "title": "Radiateur à ailettes Omega FMA-1020",
+    "description": "Radiateur à ailettes Omega FMA-1020 d'une puissance de 10 kW. Fonctionnement de 240 V avec circulation d'air forcée pour un chauffage efficace.",
+    "features": [
+      "Puissance de 10 kW",
+      "Fonctionnement de 240 V",
+      "Conception à ailettes",
+      "Circulation d'air forcée",
+      "Transfert de chaleur efficace",
+      "Applications de chauffage de l'air"
+    ]
+  },
+  "orientalMd6p38": {
+    "title": "Moteur d'échappement BLDC Oriental Motor MD-6P38",
+    "description": "Moteur de ventilateur axial DC Oriental Motor MD-6P38 d'une puissance de 38 W, 24 V CC. Conception BLDC à 6 pôles avec protection IP55 pour les applications d'échappement industrielles.",
+    "features": [
+      "Puissance de 38 W",
+      "Fonctionnement de 24 V CC",
+      "Conception BLDC à 6 pôles",
+      "Protection IP55",
+      "Ventilateur axial DC",
+      "Échappement industriel"
+    ]
+  },
+  "nidecD12e24ts3": {
+    "title": "Moteur BLDC Nidec D12E-24TS3",
+    "description": "Moteur BLDC Nidec D12E-24TS3 de 12 cm fournissant un débit d'air de 83 CFM. Fonctionnement silencieux à 24 V CC pour les applications de refroidissement.",
+    "features": [
+      "Fonctionnement de 24 V CC",
+      "Taille de 12 cm",
+      "Débit d'air de 83 CFM",
+      "Conception silencieuse",
+      "Technologie BLDC",
+      "Applications de refroidissement"
+    ]
+  },
+  "deltaBfb1224h": {
+    "title": "Moteur d'échappement BLDC Delta Electronics BFB1224H",
+    "description": "Moteur d'échappement BLDC Delta Electronics BFB1224H de 120 mm. Fonctionnement de 24 V CC avec une durée de vie de 70 000 heures pour une fiabilité à long terme.",
+    "features": [
+      "Taille de 120 mm",
+      "Fonctionnement de 24 V CC",
+      "Durée de vie de 70 000 heures",
+      "Technologie BLDC",
+      "Moteur d'échappement",
+      "Longue durée de vie"
+    ]
+  },
+  "orientalMa2308p": {
+    "title": "Moteur axial AC Oriental Motor MA-230-8P",
+    "description": "Moteur axial AC Oriental Motor MA-230-8P de 80 mm. Fonctionnement de 230 V AC fournissant un débit d'air élevé pour la ventilation industrielle.",
+    "features": [
+      "Fonctionnement de 230 V CA",
+      "Taille de 80 mm",
+      "Débit d'air élevé",
+      "Conception axiale AC",
+      "Ventilation industrielle",
+      "Performance fiable"
+    ]
+  },
+  "nidecG1238b": {
+    "title": "Moteur BLDC industriel Nidec G1238B",
+    "description": "Moteur axial BLDC DC Nidec G1238B d'une puissance de 38 W. Taille de 12 cm avec contrôle de la vitesse variable pour les applications de qualité industrielle.",
+    "features": [
+      "Puissance de 38 W",
+      "Taille de 12 cm",
+      "Contrôle de la vitesse variable",
+      "BLDC axial DC",
+      "Qualité industrielle",
+      "Fonctionnement flexible"
+    ]
+  },
+  "nidecGentletyphoonD1225c12": {
+    "title": "Moteur de refroidissement ultra-silencieux Nidec GentleTyphoon D1225C12",
+    "description": "Moteur de refroidissement BLDC Nidec GentleTyphoon D1225C12 fonctionnant à 1 850 tr/min avec 12 V CC. Fonctionnement ultra-silencieux pour un refroidissement de précision.",
+    "features": [
+      "Fonctionnement de 12 V CC",
+      "Vitesse de 1 850 tr/min",
+      "Fonctionnement ultra-silencieux",
+      "Moteur de refroidissement BLDC",
+      "Refroidissement de précision",
+      "Faible vibration"
+    ]
+  },
+  "orientalBle2m25s5": {
+    "title": "Moteur de refroidissement BLDC Oriental Motor BLE2M25S-5",
+    "description": "Moteur BLDC Oriental Motor BLE2M25S-5 d'une puissance de 25 W avec contrôle de la vitesse. Fonctionnement de 24 V CC pour les applications de refroidissement.",
+    "features": [
+      "Puissance de 25 W",
+      "Fonctionnement de 24 V CC",
+      "Contrôle de la vitesse",
+      "Moteur BLDC",
+      "Application de refroidissement",
+      "Vitesse variable"
+    ]
+  },
+  "deltaAfb1212she": {
+    "title": "Moteur BLDC haute pression Delta Electronics AFB1212SHE",
+    "description": "Moteur BLDC Delta Electronics AFB1212SHE de 120 mm. Fonctionnement de 12 V CC avec une pression statique élevée pour un refroidissement exigeant.",
+    "features": [
+      "Taille de 120 mm",
+      "Fonctionnement de 12 V CC",
+      "Pression statique élevée",
+      "Technologie BLDC",
+      "Applications exigeantes",
+      "Refroidissement fiable"
+    ]
+  },
+  "nidecBetaVTa450dc": {
+    "title": "Moteur de refroidissement PWM Nidec Beta V TA450DC",
+    "description": "Moteur de refroidissement BLDC Nidec Beta V TA450DC avec contrôle PWM. Fonctionnement de 12 V CC à 4 500 tr/min pour un refroidissement haute performance.",
+    "features": [
+      "Fonctionnement de 12 V CC",
+      "Contrôle PWM",
+      "Vitesse de 4 500 tr/min",
+      "Moteur de refroidissement BLDC",
+      "Haute performance",
+      "Vitesse variable"
+    ]
+  },
+  "orientalMf60Ac": {
+    "title": "Moteur à flux transversal Oriental Motor MF-60-AC",
+    "description": "Moteur à flux transversal Oriental Motor MF-60-AC de 60 mm. Fonctionnement de 230 V CA offrant une distribution uniforme du flux d'air.",
+    "features": [
+      "Fonctionnement de 230 V CA",
+      "Taille de 60 mm",
+      "Conception à flux transversal",
+      "Flux d'air uniforme",
+      "Fonctionnement silencieux",
+      "Applications de CVC"
+    ]
+  },
+  "orientalMd8p48": {
+    "title": "Moteur de ventilation BLDC Oriental Motor MD-8P48",
+    "description": "Moteur de ventilation BLDC Oriental Motor MD-8P48 d'une puissance nominale de 48 W avec un fonctionnement de 24 V CC. Protection IP55 offrant jusqu'à 883 CFM.",
+    "features": [
+      "Puissance nominale de 48 W",
+      "Fonctionnement de 24 V CC",
+      "Protection IP55",
+      "Débit d'air maximal de 883 CFM",
+      "Ventilation BLDC",
+      "Haute capacité"
+    ]
+  },
+  "nidecG1751m": {
+    "title": "Moteur de ventilation BLDC haute capacité Nidec G1751M",
+    "description": "Moteur BLDC Nidec G1751M de 17 cm avec une puissance de 51 W. Fonctionnement de 24 V CC avec une capacité élevée et de faibles vibrations.",
+    "features": [
+      "Taille de 17 cm",
+      "Puissance nominale de 51 W",
+      "Fonctionnement de 24 V CC",
+      "Haute capacité",
+      "Faibles vibrations",
+      "Technologie BLDC"
+    ]
+  },
+  "deltaBfb1512vh": {
+    "title": "Moteur de ventilation BLDC Delta Electronics BFB1512VH",
+    "description": "Moteur de ventilation BLDC Delta Electronics BFB1512VH de 150 mm. Fonctionnement de 12 V CC offrant un débit d'air de 260 CFM.",
+    "features": [
+      "Taille de 150 mm",
+      "Fonctionnement de 12 V CC",
+      "Débit d'air de 260 CFM",
+      "Ventilation BLDC",
+      "Haute performance",
+      "Fonctionnement efficace"
+    ]
+  },
+  "orientalBmu23005": {
+    "title": "Groupe de ventilation BLDC Oriental Motor BMU230-05",
+    "description": "Groupe de moteur BLDC Oriental Motor BMU230-05 avec contrôle de la vitesse. Fonctionnement de 230 V CA pour les applications de ventilation.",
+    "features": [
+      "Fonctionnement de 230 V CA",
+      "Contrôle de la vitesse",
+      "Groupe de moteur BLDC",
+      "Application de ventilation",
+      "Vitesse variable",
+      "Qualité industrielle"
+    ]
+  },
+  "nidecD08a12ts1": {
+    "title": "Moteur BLDC Nidec D08A-12TS1 à détection de vitesse",
+    "description": "Moteur BLDC Nidec D08A-12TS1 de 80 mm avec sortie d'impulsions. Fonctionnement de 12 V CC avec capacité de détection de vitesse.",
+    "features": [
+      "Taille de 80 mm",
+      "Fonctionnement de 12 V CC",
+      "Sortie d'impulsions",
+      "Détection de vitesse",
+      "Moteur BLDC",
+      "Contrôle par rétroaction"
+    ]
+  },
+  "grundfos10sq07200": {
+    "title": "Pompe de puits submersible Grundfos 10SQ07-200",
+    "description": "Pompe de puits submersible Grundfos 10SQ07-200 offrant 10 GPM avec un moteur de 0,75 HP. Capacité de hauteur de 200 pi à 230 V pour les applications résidentielles et commerciales légères.",
+    "features": [
+      "Débit de 10 GPM",
+      "Moteur de 0,75 HP",
+      "Hauteur de 200 pi",
+      "Fonctionnement de 230 V",
+      "Pompe de puits submersible",
+      "Performance fiable"
+    ]
+  },
+  "franklin20fv1s4": {
+    "title": "Pompe submersible Series V Franklin 20FV1S4",
+    "description": "Pompe submersible Series V Franklin 20FV1S4 avec une capacité de 20 GPM. Construction en acier inoxydable de 1 HP pour les applications de 230 V.",
+    "features": [
+      "Débit de 20 GPM",
+      "Moteur de 1 HP",
+      "Fonctionnement de 230 V",
+      "Construction en acier inoxydable",
+      "Conception Series V",
+      "Résistant à la corrosion"
+    ]
+  },
+  "grundfosSp307": {
+    "title": "Pompe submersible industrielle Grundfos SP30-7",
+    "description": "Pompe submersible industrielle Grundfos SP30-7 d'un diamètre de 4 pouces. Débit de 30 GPM avec un moteur de 7 HP pour les applications triphasées de 460 V.",
+    "features": [
+      "Débit de 30 GPM",
+      "Moteur de 7 HP",
+      "Diamètre de 4 pouces",
+      "Triphasé de 460 V",
+      "Submersible industrielle",
+      "Haute performance"
+    ]
+  },
+  "franklin500sts50d6": {
+    "title": "Pompe à turbine STS Franklin 500STS50D6",
+    "description": "Pompe à turbine STS Franklin 500STS50D6 d'un diamètre de 6 pouces. Haute capacité de 500 GPM avec un moteur de 50 HP pour les applications industrielles de 460 V.",
+    "features": [
+      "Débit de 500 GPM",
+      "Moteur de 50 HP",
+      "Diamètre de 6 pouces",
+      "Fonctionnement de 460 V",
+      "Conception de turbine STS",
+      "Industrielle robuste"
+    ]
+  },
+  "grundfosSqe15290": {
+    "title": "Pompe submersible intelligente Grundfos SQE15-290",
+    "description": "Pompe submersible intelligente Grundfos SQE15-290 avec VFD intégrée. Capacité de 15 GPM avec un moteur de 1,5 HP et une hauteur de 290 pi.",
+    "features": [
+      "Débit de 15 GPM",
+      "Moteur de 1,5 HP",
+      "Hauteur de 290 pi",
+      "VFD intégrée",
+      "Submersible intelligente",
+      "Économe en énergie"
+    ]
+  },
+  "fluke325": {
+    "title": "Pince multimètre à valeur efficace vraie Fluke 325",
+    "description": "Pince multimètre à valeur efficace vraie Fluke 325 mesurant jusqu'à 400 A CA et 600 V CA/CC. Catégorie de sécurité CAT IV 300 V pour le dépannage électrique.",
+    "features": [
+      "Mesure de 400 A CA",
+      "600 V CA/CC",
+      "Valeur efficace vraie",
+      "Sécurité CAT IV 300 V",
+      "Conception de pince multimètre",
+      "Dépannage électrique"
+    ]
+  },
+  "kyoritsu2046r": {
+    "title": "Pince multimètre à valeur efficace vraie Kyoritsu 2046R",
+    "description": "Pince multimètre à valeur efficace vraie Kyoritsu 2046R d'une capacité de 600 A CA/CC. Ouverture de mâchoire de 33 mm avec une catégorie CAT IV pour une utilisation industrielle.",
+    "features": [
+      "Mesure de 600 A CA/CC",
+      "Plage de 600 V",
+      "Ouverture de mâchoire de 33 mm",
+      "Valeur efficace vraie",
+      "Sécurité CAT IV",
+      "Applications industrielles"
+    ]
+  },
+  "fluke376fc": {
+    "title": "Pince multimètre sans fil Fluke 376 FC avec iFlex",
+    "description": "Pince multimètre sans fil Fluke 376 FC avec sonde iFlex. Mesure de 1 000 A CA/CC jusqu'à 1 000 V avec connectivité Bluetooth.",
+    "features": [
+      "1 000 A CA/CC avec iFlex",
+      "Mesure de 1 000 V",
+      "Technologie sans fil Bluetooth",
+      "Valeur efficace vraie",
+      "Sonde iFlex incluse",
+      "Surveillance à distance"
+    ]
+  },
+  "hiokiCm4373": {
+    "title": "Pince multimètre de puissance CA/CC Hioki CM4373",
+    "description": "Pince multimètre CA/CC Hioki CM4373 d'une capacité de 2 000 A. Connectivité Bluetooth avec des capacités de mesure de puissance et de valeur efficace vraie.",
+    "features": [
+      "Mesure de 2 000 A",
+      "Connectivité Bluetooth",
+      "Valeur efficace vraie",
+      "Mesure de puissance",
+      "Pince CA/CC",
+      "Enregistrement des données"
+    ]
+  },
+  "kyoritsu2056r": {
+    "title": "Pince multimètre à plage automatique Kyoritsu 2056R",
+    "description": "Pince multimètre à valeur efficace vraie Kyoritsu 2056R d'une capacité de 1 000 A CA/CC. Ouverture de mâchoire de 40 mm avec plage automatique pour une mesure facile.",
+    "features": [
+      "Mesure de 1 000 A CA/CC",
+      "Plage de 600 V",
+      "Ouverture de mâchoire de 40 mm",
+      "Plage automatique",
+      "Valeur efficace vraie",
+      "Grand écran"
+    ]
+  },
+  "keysight34461a": {
+    "title": "Multimètre numérique Keysight 34461A Truevolt 6,5 digits",
+    "description": "Le Keysight 34461A est un multimètre numérique Truevolt 6,5 digits avec une précision DCV de 30 ppm, une connectivité USB/LAN et un écran graphique pour les mesures de banc de précision.",
+    "features": [
+      "Résolution de 6,5 digits",
+      "Précision DCV de 30 ppm",
+      "Connectivité USB et LAN",
+      "Écran graphique",
+      "Technologie Truevolt",
+      "Mesures à faible bruit"
+    ]
+  },
+  "keysight34465a": {
+    "title": "Multimètre numérique Keysight 34465A Truevolt 6,5 digits",
+    "description": "Multimètre numérique Truevolt Keysight 34465A avec une résolution de 6,5 digits, une vitesse de 110 lectures/s, une mémoire d'enregistrement de données de 5 K et un écran couleur de 4,3 pouces pour des tests de banc avancés.",
+    "features": [
+      "Résolution de 6,5 digits",
+      "110 lectures par seconde",
+      "Enregistrement de données de 5 K points",
+      "Écran couleur de 4,3 pouces",
+      "Mesures à haute vitesse",
+      "Connectivité avancée"
+    ]
+  },
+  "keithleyDmm7510": {
+    "title": "Multimètre numérique de numérisation Keithley DMM7510 7,5 digits",
+    "description": "Le Keithley DMM7510 est un multimètre numérique de numérisation de précision de 7,5 digits avec une fréquence d'échantillonnage de 1 Méchantillon/s, une interface à écran tactile et une sensibilité de 1 pA/1 μΩ pour les applications de recherche.",
+    "features": [
+      "Précision de 7,5 digits",
+      "Numérisation de 1 Méchantillon/s",
+      "Écran tactile",
+      "Sensibilité de 1 pA/1 μΩ",
+      "Échantillonnage à haute vitesse",
+      "Fonctions de mesure avancées"
+    ]
+  },
+  "keithleyDmm6500": {
+    "title": "Multimètre graphique Keithley DMM6500 6,5 digits",
+    "description": "Le Keithley DMM6500 offre une résolution de 6,5 digits, un écran tactile graphique, la prise en charge de la programmation Python/TSP et 15 fonctions de mesure pour des tests polyvalents.",
+    "features": [
+      "Résolution de 6,5 digits",
+      "Écran tactile graphique",
+      "Programmation Python/TSP",
+      "15 fonctions de mesure",
+      "Automatisation avancée",
+      "Connectivité flexible"
+    ]
+  },
+  "keysight34450a": {
+    "title": "Multimètre numérique à double affichage Keysight 34450A 5,5 digits",
+    "description": "Le Keysight 34450A offre une résolution de 5,5 digits avec une précision DCV de 0,015 %, 190 lectures/s, un écran OLED et une mémoire de 50 K pour des mesures de banc efficaces.",
+    "features": [
+      "Résolution de 5,5 digits",
+      "Précision DCV de 0,015 %",
+      "190 lectures par seconde",
+      "Écran OLED",
+      "50 K points de mémoire",
+      "Vitesse de mesure rapide"
+    ]
+  },
+  "schneiderIon9000": {
+    "title": "Analyseur de qualité de l'alimentation haut de gamme Schneider ION9000",
+    "description": "Le Schneider ION9000 est un analyseur de qualité de l'alimentation haut de gamme avec une classe de précision de 0,05 %, une mesure de précision double et un suivi avancé des perturbations pour une surveillance critique.",
+    "features": [
+      "Classe de précision de 0,05 %",
+      "Mesure de précision double",
+      "Suivi des perturbations",
+      "Surveillance de la qualité de l'alimentation haut de gamme",
+      "Analyses avancées",
+      "Mesure de haute précision"
+    ]
+  },
+  "schneiderPm8000": {
+    "title": "Analyseur de qualité de l'alimentation Schneider PM8000",
+    "description": "Analyseur de qualité de l'alimentation Schneider PM8000 conçu pour les applications commerciales et industrielles avec des capacités de surveillance avancées et une analyse complète de l'alimentation.",
+    "features": [
+      "Qualité commerciale/industrielle",
+      "Surveillance de l'alimentation avancée",
+      "Analyse complète",
+      "Gestion de l'énergie",
+      "Assurance qualité",
+      "Fonctionnement fiable"
+    ]
+  },
+  "siemensSentron7kt": {
+    "title": "Analyseur de qualité de l'alimentation sur rail DIN Siemens SENTRON 7KT PAC",
+    "description": "Le Siemens SENTRON 7KT PAC est un analyseur de qualité de l'alimentation monté sur rail DIN avec communication PROFINET et Modbus, certification MID pour une surveillance précise de l'énergie.",
+    "features": [
+      "Montage sur rail DIN",
+      "Communication PROFINET",
+      "Prise en charge de Modbus",
+      "Certifié MID",
+      "Conception compacte",
+      "Réseautage industriel"
+    ]
+  },
+  "siemensSicamP850": {
+    "title": "Analyseur de puissance multifonctionnel Siemens SICAM P850",
+    "description": "Analyseur de puissance multifonctionnel Siemens SICAM P850 avec capacités d'analyse des harmoniques et intégration SCADA pour une surveillance complète du système d'alimentation.",
+    "features": [
+      "Mesure multifonctionnelle",
+      "Analyse des harmoniques",
+      "Intégration SCADA",
+      "Surveillance de la qualité de l'alimentation",
+      "Diagnostics avancés",
+      "Intégration du système"
+    ]
+  },
+  "schneiderMetsepm8240": {
+    "title": "Compteur d'énergie Schneider METSEPM8240",
+    "description": "Compteur d'énergie Schneider METSEPM8240 avec classe de précision 0.2S, connectivité Ethernet pour la surveillance et la gestion de l'énergie des bâtiments commerciaux.",
+    "features": [
+      "Classe de précision 0.2S",
+      "Connectivité Ethernet",
+      "Surveillance des bâtiments commerciaux",
+      "Gestion de l'énergie",
+      "Mesure avancée",
+      "Intégration réseau"
+    ]
+  },
+  "fluke1775": {
+    "title": "Analyseur de qualité de l'alimentation triphasé Fluke 1775",
+    "description": "Le Fluke 1775 est un analyseur de qualité de l'alimentation triphasé avec un échantillonnage de 1 MHz, une détection des 50 harmoniques jusqu'à 30 kHz, une connectivité WiFi/BLE et une interface à écran tactile.",
+    "features": [
+      "Analyse triphasée",
+      "Taux d'échantillonnage de 1 MHz",
+      "50 harmoniques jusqu'à 30 kHz",
+      "Connectivité WiFi et BLE",
+      "Interface à écran tactile",
+      "Analyse avancée de la qualité de l'alimentation"
+    ]
+  },
+  "fluke438ii": {
+    "title": "Analyseur de qualité de l'alimentation et de moteur Fluke 438-II",
+    "description": "Le Fluke 438-II combine l'analyse de la qualité de l'alimentation avec les diagnostics du moteur, avec des harmoniques jusqu'au 50e ordre, la capture PowerWave et un taux d'échantillonnage de 200 kS/s.",
+    "features": [
+      "Qualité de l'alimentation + analyse du moteur",
+      "Harmoniques jusqu'au 50e ordre",
+      "Technologie de capture PowerWave",
+      "Taux d'échantillonnage de 200 kS/s",
+      "Diagnostics du moteur",
+      "Tests complets"
+    ]
+  },
+  "dranetzHdpqVisaPlus": {
+    "title": "Analyseur de qualité de l'alimentation Dranetz HDPQ Visa Plus",
+    "description": "Le Dranetz HDPQ Visa Plus est conforme aux normes IEC 61000-4-30 de classe A avec une surveillance à 8 canaux, une valeur nominale RMS de 1 000 V, 512 échantillons/cycle et un écran tactile.",
+    "features": [
+      "CEI 61000-4-30 Classe A",
+      "Surveillance à 8 canaux",
+      "Valeur nominale RMS de 1 000 V",
+      "512 échantillons par cycle",
+      "Écran tactile",
+      "Analyse de qualité professionnelle"
+    ]
+  },
+  "dranetzHdpqXplorer": {
+    "title": "Analyseur d'alimentation portatif Dranetz HDPQ Xplorer",
+    "description": "Le Dranetz HDPQ Xplorer est un analyseur d'alimentation portatif avec écran tactile de 7 pouces, conçu pour le dépannage sur le terrain avec l'intégration du logiciel Dran-View 7.",
+    "features": [
+      "Écran tactile de 7 pouces",
+      "Conception portative",
+      "Dépannage sur le terrain",
+      "Logiciel Dran-View 7",
+      "Facile à utiliser",
+      "Analyse professionnelle"
+    ]
+  },
+  "fluke1777": {
+    "title": "Analyseur de puissance triphasé Fluke 1777",
+    "description": "Analyseur de puissance triphasé Fluke 1777 avec capture transitoire de 20 MHz, capacité de tension jusqu'à 8 kV, indice de sécurité CAT IV 600 V et calculateur de perte d'énergie.",
+    "features": [
+      "Analyse triphasée",
+      "Capture transitoire de 20 MHz",
+      "Capacité jusqu'à 8 kV",
+      "Sécurité CAT IV 600 V",
+      "Calculateur de perte d'énergie",
+      "Diagnostics avancés"
+    ]
+  },
+  "boschGsb18v1330cb": {
+    "title": "Perceuse à percussion PROFACTOR Bosch GSB18V-1330CB",
+    "description": "La Bosch GSB18V-1330CB est une perceuse à percussion PROFACTOR de 18 V avec la technologie de batterie CORE18V, un moteur sans balais et des fonctions compatibles avec la connexion pour les applications professionnelles.",
+    "features": [
+      "Système PROFACTOR de 18 V",
+      "Batterie CORE18V",
+      "Moteur sans balais",
+      "Compatible avec la connexion",
+      "Qualité professionnelle",
+      "Haute performance"
+    ]
+  },
+  "milwaukeeM18Fuel2904": {
+    "title": "Perceuse à percussion Milwaukee M18 FUEL 2904",
+    "description": "La Milwaukee M18 FUEL 2904 offre un couple de 1 200 po-lb avec une puissance de 18 V, la technologie de batterie REDLITHIUM et un mandrin de 1/2 pouce pour les applications de perçage intensives.",
+    "features": [
+      "Système M18 de 18 V",
+      "Couple de 1 200 po-lb",
+      "Batterie REDLITHIUM",
+      "Mandrin de 1/2 pouce",
+      "Technologie FUEL",
+      "Performance pour service intensif"
+    ]
+  },
+  "makitaXph14z": {
+    "title": "Perceuse à percussion sans balais Makita XPH14Z 18V LXT",
+    "description": "La Makita XPH14Z est dotée de la plateforme LXT de 18 V, d'un moteur sans balais offrant un couple de 1 250 po-lb, d'une conception compacte avec un éclairage DEL double pour un travail de précision.",
+    "features": [
+      "Plateforme LXT de 18 V",
+      "Moteur sans balais",
+      "Couple de 1 250 po-lb",
+      "Conception compacte",
+      "Lampes DEL doubles",
+      "Perçage de précision"
+    ]
+  },
+  "dewaltDcd800b": {
+    "title": "Perceuse compacte DeWalt DCD800B 20V MAX",
+    "description": "La DeWalt DCD800B est une perceuse compacte MAX de 20 V avec un moteur sans balais, une puissance de 340 UWO, un éclairage DEL à 3 modes et un mandrin de 1/2 pouce pour des applications polyvalentes.",
+    "features": [
+      "Système MAX de 20 V",
+      "Moteur sans balais",
+      "Puissance de 340 UWO",
+      "DEL à 3 modes",
+      "Mandrin de 1/2 pouce",
+      "Conception compacte"
+    ]
+  },
+  "milwaukeeM12Fuel3404": {
+    "title": "Perceuse à percussion ultracompacte Milwaukee M12 FUEL 3404",
+    "description": "La perceuse à percussion de 3e génération Milwaukee M12 FUEL 3404 offre un couple de 400 po-lb dans une conception ultracompacte de 12 V avec un mandrin de 1/2 pouce pour les espaces restreints.",
+    "features": [
+      "Système M12 de 12 V",
+      "3e génération",
+      "Couple de 400 po-lb",
+      "Ultracompacte",
+      "Mandrin de 1/2 pouce",
+      "Accès aux espaces restreints"
+    ]
+  },
+  "boschGws1350vs": {
+    "title": "Meuleuse angulaire à vitesse variable de 5 po Bosch GWS13-50VS",
+    "description": "La Bosch GWS13-50VS est dotée d'un moteur de 13 A avec une vitesse variable de 2 800 à 11 500 tr/min, une commande des vibrations, un système de balais Service Minder pour le meulage de disques de 5 pouces.",
+    "features": [
+      "Taille de disque de 5 pouces",
+      "Puissance avec fil de 13 A",
+      "2 800 à 11 500 tr/min variable",
+      "Commande des vibrations",
+      "Service Minder",
+      "Qualité professionnelle"
+    ]
+  },
+  "makita9564cv": {
+    "title": "Meuleuse angulaire à vitesse variable Makita 9564CV de 4,5 po",
+    "description": "La Makita 9564CV offre une puissance de 13 A avec une vitesse variable de 2 800 à 10 500 tr/min, une protection d'embrayage mécanique SJS et une commande de vitesse à 5 étapes pour les applications de 4,5 pouces.",
+    "features": [
+      "Taille de disque de 4,5 pouces",
+      "Puissance avec fil de 13 A",
+      "2 800 à 10 500 tr/min",
+      "Embrayage mécanique SJS",
+      "Vitesse variable à 5 étapes",
+      "Fonctions de sécurité"
+    ]
+  },
+  "milwaukee278020": {
+    "title": "Meuleuse angulaire Milwaukee 2780-20 M18 FUEL de 4,5 po",
+    "description": "Meuleuse angulaire Milwaukee 2780-20 M18 FUEL avec moteur sans balais, vitesse de 8 500 tr/min, frein RAPIDSTOP et interrupteur à palette pour le meulage sans fil de 4,5 pouces.",
+    "features": [
+      "Sans fil M18 FUEL",
+      "Taille de disque de 4,5 pouces",
+      "Moteur sans balais",
+      "8 500 tr/min",
+      "Frein RAPIDSTOP",
+      "Sécurité de l'interrupteur à palette"
+    ]
+  },
+  "boschGwx1450pbd": {
+    "title": "Meuleuse angulaire X-LOCK de 5 po Bosch GWX14-50PBD",
+    "description": "La Bosch GWX14-50PBD est dotée d'un moteur de 13 A avec 11 500 tr/min, un système de changement de meule X-LOCK 5 fois plus rapide que les changements conventionnels, un meulage de 5 pouces à haute performance.",
+    "features": [
+      "Taille de disque de 5 pouces",
+      "Puissance avec fil de 13 A",
+      "11 500 tr/min",
+      "Changements X-LOCK 5 fois plus rapides",
+      "Haute performance",
+      "Changement rapide de la meule"
+    ]
+  },
+  "makitaGa7021": {
+    "title": "Meuleuse angulaire robuste Makita GA7021 de 7 po",
+    "description": "Meuleuse angulaire robuste Makita GA7021 de 7 po avec moteur de 15 A, 8 500 tr/min, engrenages coniques usinés pour une durée de vie deux fois plus longue dans les applications exigeantes.",
+    "features": [
+      "Taille de disque de 7 pouces",
+      "Puissance avec fil de 15 A",
+      "8 500 tr/min",
+      "Construction robuste",
+      "Engrenages coniques usinés",
+      "Durée de vie 2 fois plus longue"
+    ]
+  },
+  "cmCyclone4628": {
+    "title": "Palan à chaîne manuel CM Cyclone 4628 de 4 tonnes",
+    "description": "Le CM Cyclone 4628 est un palan à chaîne manuel d'une capacité de 4 tonnes avec une construction en alliage d'aluminium, un système de frein Weston et un limiteur de charge intégré pour la sécurité.",
+    "features": [
+      "Capacité de 4 tonnes",
+      "Fonctionnement manuel",
+      "Alliage d'aluminium",
+      "Frein Weston",
+      "Limiteur de charge",
+      "Certifié sécuritaire"
+    ]
+  },
+  "harringtonCb050": {
+    "title": "Palan à chaîne manuel Harrington CB050 de 5 tonnes",
+    "description": "Palan à chaîne manuel Harrington CB050 robuste de 5 tonnes avec protection contre les surcharges à embrayage à friction et construction en acier durable pour le levage industriel.",
+    "features": [
+      "Capacité de 5 tonnes",
+      "Fonctionnement manuel",
+      "Conception robuste",
+      "Protection d'embrayage à friction",
+      "Construction en acier",
+      "Qualité industrielle"
+    ]
+  },
+  "cmLodestarL1": {
+    "title": "Palan à chaîne électrique CM Lodestar L1 de 1 tonne",
+    "description": "Le CM Lodestar L1 est un palan à chaîne électrique de 1 tonne avec un fonctionnement à une seule vitesse et une conception à montage sur crochet pour les applications de levage industrielles à usage général.",
+    "features": [
+      "Capacité de 1 tonne",
+      "Fonctionnement électrique",
+      "Une seule vitesse",
+      "Montage sur crochet",
+      "Usage général",
+      "Performance fiable"
+    ]
+  },
+  "harringtonNer020ld": {
+    "title": "Palan à chaîne électrique Harrington NER020LD de 2 tonnes",
+    "description": "Palan à chaîne électrique Harrington NER020LD de 2 tonnes avec des options à une seule ou deux vitesses et des commandes VFD pour une manutention précise des charges dans les environnements industriels.",
+    "features": [
+      "Capacité de 2 tonnes",
+      "Fonctionnement électrique",
+      "Une seule ou deux vitesses",
+      "Commandes VFD",
+      "Manutention précise",
+      "Applications industrielles"
+    ]
+  },
+  "cmSeries62210t": {
+    "title": "Palan à chaîne manuel série 622 CM de 10 tonnes",
+    "description": "Le palan CM série 622-10T est un palan à chaîne manuel entièrement en acier de 10 tonnes avec une conception à hauteur perdue ultrabasse et une garantie à vie pour le levage industriel intensif.",
+    "features": [
+      "Capacité de 10 tonnes",
+      "Fonctionnement manuel",
+      "Construction entièrement en acier",
+      "Hauteur perdue ultrabasse",
+      "Garantie à vie",
+      "Industriel intensif"
+    ]
+  },
   "utilities": {
     "variant": {
       "titleSuffix": " - Variante {{number}}",
@@ -4082,10 +5442,7 @@
         "Pharmaceutique",
         "Alimentation et boissons"
       ],
-      "certifications": [
-        "ISO 9001",
-        "Marquage CE"
-      ],
+      "certifications": ["ISO 9001", "Marquage CE"],
       "keywords": {
         "industrialAutomation": "automatisation industrielle",
         "processControl": "contrôle de processus",

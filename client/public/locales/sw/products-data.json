@@ -4023,6 +4023,1386 @@
       "Imethibitishwa na ATEX, IECEx, CE"
     ]
   },
+  "belden8205": {
+    "title": "Kebo ya Ala ya Belden 8205",
+    "description": "Kebo ya ala ya Belden 8205 iliyosokotwa na kondakta za waya za shaba 20 za AWG. Insulation ya PVC na jaketi kwa usambazaji wa ishara ya kuaminika katika matumizi ya udhibiti wa viwandani.",
+    "features": [
+      "Kondakta za waya za shaba 20 za AWG",
+      "Usanidi 1 wa jozi iliyosokotwa",
+      "Insulation na jaketi ya PVC",
+      "Ujenzi usiolindwa",
+      "Ukadiriaji wa voltage ya 300V",
+      "Kiwango cha halijoto: -20°C hadi +80°C",
+      "Uadilifu bora wa ishara",
+      "Ufungaji na usitishaji rahisi"
+    ]
+  },
+  "belden8442": {
+    "title": "Kebo ya Ala ya Belden 8442 Iliyolindwa",
+    "description": "Kebo ya Belden 8442 iliyolindwa yenye uendeshaji wa hali ya juu na waya za shaba 22 za AWG. Ina ngao ya foil na braid (90% coverage) kwa ulinzi bora wa EMI katika ala za viwandani.",
+    "features": [
+      "Shaba ya uendeshaji wa hali ya juu 22 AWG",
+      "Jozi 1 iliyosokotwa na ngao",
+      "Ngao ya Foil + Braid (90% coverage)",
+      "Insulation na jaketi ya PVC",
+      "Ukadiriaji wa voltage ya 300V",
+      "Kiwango cha halijoto: -20°C hadi +80°C",
+      "Ulinzi bora wa EMI/RFI",
+      "Inafaa kwa mazingira yenye kelele"
+    ]
+  },
+  "belden8725": {
+    "title": "Kebo ya Ala ya Belden 8725 yenye Jozi Nyingi",
+    "description": "Kebo ya ala ya Belden 8725 yenye jozi nyingi na jozi 4 za kondakta za #20 AWG. Imekadiriwa CM na ngao ya foil ya jumla kwa usambazaji wa ishara ya kuaminika katika mitambo ya kibiashara.",
+    "features": [
+      "#20 AWG iliyokwama na shaba",
+      "Usanidi wa jozi 4 iliyosokotwa",
+      "Ulinzi wa jumla wa ngao ya foil",
+      "Insulation na jaketi ya PVC",
+      "Ukadiriaji wa voltage ya 300V",
+      "Halijoto iliyopanuliwa: -20°C hadi +105°C",
+      "Imekadiriwa CM kwa matumizi ya kibiashara",
+      "Uwezo mwingi wa kondakta nyingi"
+    ]
+  },
+  "alphaWire9174": {
+    "title": "Kebo ya Ala ya Alpha Wire 9174",
+    "description": "Kebo ya Alpha Wire 9174 iliyosokotwa na kondakta za shaba 20 za AWG. Ina insulation ya polyethilini, ngao ya alumini-mylar, na ukadiriaji wa 1100V kwa matumizi yanayohitaji.",
+    "features": [
+      "Kondakta za shaba 20 za AWG",
+      "Jozi 1 iliyosokotwa na waya ya mifereji ya maji",
+      "Insulation ya Polyethilini (PE)",
+      "Alumini-Mylar foil + ngao ya waya ya mifereji ya maji",
+      "Ukadiriaji wa voltage ya juu ya 1100V",
+      "Kiwango cha halijoto pana: -40°C hadi +80°C",
+      "Jaketi ya nje ya PVC",
+      "Sifa bora za umeme"
+    ]
+  },
+  "alphaWireXtraGuard4": {
+    "title": "Kebo ya Viwandani ya Alpha Wire Xtra-Guard 4",
+    "description": "Kebo ya viwandani ya Alpha Wire Xtra-Guard 4 ya kudumu zaidi na insulation ya polyethilini iliyounganishwa. UL VW-1 na CSA FT-1 zimekadiriwa kwa mazingira magumu ya viwandani.",
+    "features": [
+      "Shaba iliyokwama ya 18-12 AWG",
+      "Ujenzi wa kudumu zaidi",
+      "Insulation ya polyethilini iliyounganishwa",
+      "Jaketi ya elastomer ya thermoplastic",
+      "Ukadiriaji wa voltage ya 600V",
+      "Kiwango cha halijoto: -40°C hadi +105°C",
+      "UL VW-1, CSA FT-1 imekadiriwa",
+      "Upinzani bora wa kemikali"
+    ]
+  },
+  "phoenixContactM12Oneclick": {
+    "title": "Kiunganishi cha Phoenix Contact M12 ONECLICK",
+    "description": "Kiunganishi cha mviringo cha Phoenix Contact M12 ONECLICK cha kusukuma-kuvuta na ulinzi wa IP67. Ina usanidi wa nguzo 4-8 na chaguzi nyingi za kuweka alama kwa miunganisho ya sensorer na actuator za viwandani.",
+    "features": [
+      "Utaratibu wa kusukuma-kuvuta wa ONECLICK",
+      "Usanidi wa nguzo 4-8",
+      "Ukadiriaji wa sasa wa 4A kwa kila mguso",
+      "Voltage ya 250V AC/DC",
+      "Ukadiriaji wa ulinzi wa IP67",
+      "Chaguzi za A, B, D, X-coded",
+      "Upachikaji wa paneli na kebo",
+      "Halijoto: -40°C hadi +85°C"
+    ]
+  },
+  "phoenixContactM23": {
+    "title": "Kiunganishi Mseto cha Phoenix Contact M23",
+    "description": "Kiunganishi cha mviringo cha Phoenix Contact M23 cha usambazaji wa mawimbi, data na nguvu. Ina hadi nguzo 17, utangamano wa kuuzia wimbi, na ulinzi wa IP67 inapounganishwa.",
+    "features": [
+      "Kiunganishi mseto cha mawimbi/data/nguvu",
+      "Hadi usanidi 17 wa nguzo",
+      "Uwezo wa sasa wa hadi 16A",
+      "Ukadiriaji wa voltage ya 630V AC/DC",
+      "Ulinzi wa IP67 inapounganishwa",
+      "Inaendana na kuuzia wimbi",
+      "Uwezo mwingi wa matumizi mengi",
+      "Halijoto: -40°C hadi +100°C"
+    ]
+  },
+  "weidmullerRockstarModuplug": {
+    "title": "Kiunganishi cha Weidmüller RockStar ModuPlug cha Kazi Nzito",
+    "description": "Kiunganishi cha viwandani cha Weidmüller RockStar ModuPlug cha kazi nzito. Ina mfumo wa kuingiza msimu, uwezo wa hadi 35A/830V, na ulinzi wa IP65/IP66/IP67 kwa mashine za viwandani.",
+    "features": [
+      "Ubunifu wa msimu wa kazi nzito",
+      "Uwezo wa sasa wa hadi 35A",
+      "Ukadiriaji wa voltage ya hadi 830V",
+      "Ulinzi wa IP65/IP66/IP67",
+      "Mfumo wa kuingiza msimu",
+      "Mawasiliano ya Crimp na screw",
+      "Imekadiriwa kwa mashine za viwandani",
+      "Halijoto: -40°C hadi +100°C"
+    ]
+  },
+  "amphenolM12Industrial": {
+    "title": "Kiunganishi cha Mviringo cha Viwandani cha Amphenol M12",
+    "description": "Kiunganishi cha mviringo cha viwandani cha Amphenol M12 kwa matumizi ya sensorer na actuator. Ina chaguzi za nguzo 3-12, ulinzi wa IP67/IP68, na lahaja nyingi za kuweka alama kwa otomatiki ya viwandani.",
+    "features": [
+      "Ubunifu wa mviringo wa viwandani wa M12",
+      "Chaguzi za nguzo 3, 4, 5, 8, 12",
+      "Ukadiriaji wa sasa wa 4A kwa kila mguso",
+      "Voltage ya 250V AC/DC",
+      "Ulinzi wa IP67/IP68",
+      "Lahaja za A, B, D, X-coded",
+      "Matumizi ya sensorer/actuator",
+      "Halijoto: -40°C hadi +85°C"
+    ]
+  },
+  "amphenolMilDtl5015": {
+    "title": "Kiunganishi cha Kijeshi cha Amphenol MIL-DTL-5015",
+    "description": "Kiunganishi cha mviringo cha Amphenol MIL-DTL-5015 cha vipimo vya kijeshi na ujenzi ulioimarishwa. Ina nafasi 2-128, shell ya aloi ya alumini, na ukadiriaji wa halijoto kali kwa mazingira magumu.",
+    "features": [
+      "Vipimo vya kijeshi vya MIL-DTL-5015",
+      "Ujenzi ulioimarishwa",
+      "Nafasi 2-128 za mguso",
+      "Uwezo wa sasa wa hadi 65A",
+      "Ukadiriaji wa voltage ya hadi 1000V",
+      "Shell ya aloi ya alumini",
+      "Umemaliza na rangi ya mzeituni/nyeusi",
+      "Halijoto kali: -65°C hadi +200°C"
+    ]
+  },
+  "mennekesPowertopXtra16a": {
+    "title": "Plagi ya Viwandani ya Mennekes PowerTOP Xtra 16A",
+    "description": "Plagi ya viwandani ya Mennekes PowerTOP Xtra 16A na usanidi wa 3P+N+PE. Inatii IEC 60309 na ulinzi wa IP54/IP67 kwa miunganisho ya nguvu ya kuaminika katika mazingira ya viwandani.",
+    "features": [
+      "Ukadiriaji wa sasa wa 16A",
+      "Uwezo wa voltage ya 400V",
+      "Usanidi wa 3P+N+PE (nguzo 5)",
+      "Ukadiriaji wa ulinzi wa IP54/IP67",
+      "Inatii IEC 60309",
+      "Nyenzo ya plastiki ya kiwango cha juu",
+      "Kiwango cha kuweka alama cha 6h",
+      "Halijoto: -25°C hadi +40°C"
+    ]
+  },
+  "mennekesPowertopXtra32a": {
+    "title": "Plagi ya Viwandani ya Mennekes PowerTOP Xtra 32A",
+    "description": "Plagi ya viwandani ya Mennekes PowerTOP Xtra 32A yenye teknolojia ya X-CONTACT. Ina uwezo wa 32A, ulinzi wa IP67, na ujenzi unaostahimili athari kwa matumizi magumu ya viwandani.",
+    "features": [
+      "Ukadiriaji wa sasa wa juu wa 32A",
+      "Uwezo wa voltage ya 400V",
+      "Usanidi wa 3P+N+PE (nguzo 5)",
+      "Ulinzi wa kuzuia maji ya IP67",
+      "Teknolojia ya X-CONTACT",
+      "Kiwango cha IEC 60309",
+      "Plastiki inayostahimili athari",
+      "Halijoto: -25°C hadi +40°C"
+    ]
+  },
+  "mennekes552": {
+    "title": "Plagi ya Viwandani Isiyoingia Maji ya Mennekes 552",
+    "description": "Plagi ya viwandani isiyoingia maji ya Mennekes 552 imekadiriwa kwa matumizi ya nje. Ina uwezo wa 16A, ulinzi wa IP67, na ujenzi wa thermoplastic kwa miunganisho ya nguvu ya nje ya kuaminika.",
+    "features": [
+      "Haiingii maji imekadiriwa IP67",
+      "Uwezo wa sasa wa 16A",
+      "Ukadiriaji wa voltage ya 230V",
+      "Usanidi wa 2P+PE (nguzo 3)",
+      "Ubunifu uliokadiriwa kwa nje",
+      "Nyenzo ya thermoplastic",
+      "Inayostahimili kutu",
+      "Halijoto: -25°C hadi +40°C"
+    ]
+  },
+  "hubbellHbl2621": {
+    "title": "Plagi ya Kuzungusha-Funga ya Hubbell Hubbellock HBL2621",
+    "description": "Plagi ya kuzungusha-funga ya Hubbell Hubbellock HBL2621 yenye uwezo wa 30A. Ina usanidi wa L15-30P, ujenzi wa nailoni, na muundo salama wa kuzungusha-funga kwa miunganisho ya nguvu ya viwandani ya kuaminika.",
+    "features": [
+      "Ubunifu wa kuzungusha-funga 30A",
+      "Ukadiriaji wa voltage ya 250V",
+      "Usanidi wa nguzo 3 waya 4",
+      "Usanidi wa NEMA L15-30P",
+      "Nyenzo ya makazi ya nailoni",
+      "Uwezo wa waya 8-10 AWG",
+      "Utaratibu salama wa kufunga",
+      "Halijoto: -40°C hadi +75°C"
+    ]
+  },
+  "legrandCee16a": {
+    "title": "Plagi ya Viwandani ya Legrand CEE 16A",
+    "description": "Plagi ya viwandani ya Legrand CEE 16A inatii IEC 60309. Ina usanidi wa 3P+N+PE, ulinzi wa IP44, na ujenzi wa polyamide kwa usambazaji wa nguvu ya viwandani ya kuaminika.",
+    "features": [
+      "Inatii IEC 60309",
+      "Ukadiriaji wa sasa wa 16A",
+      "Uwezo wa voltage ya 400V",
+      "Usanidi wa 3P+N+PE",
+      "Ukadiriaji wa ulinzi wa IP44",
+      "Nyenzo ya Polyamide",
+      "Kiwango cha kuweka alama cha 6h",
+      "Halijoto: -25°C hadi +40°C"
+    ]
+  },
+  "bussmannLpCc30": {
+    "title": "Fyuzi ya Muda ya Bussmann LP-CC-30 Class CC",
+    "description": "Fyuzi ya muda ya Bussmann (Eaton) LP-CC-30 Class CC yenye ukadiriaji wa 30A. Ina ukadiriaji wa kukatiza 200kA, inatii UL 248-4, inafaa kwa ulinzi wa saketi ya injini.",
+    "features": [
+      "Fyuzi ya muda ya Class CC",
+      "Ukadiriaji wa sasa wa 30A",
+      "Voltage ya 600V AC",
+      "Ukadiriaji wa kukatiza 200kA",
+      "Ukubwa wa inchi 13/32 x 1-1/2",
+      "Inatii UL 248-4",
+      "Ulinzi wa saketi ya injini",
+      "Ubunifu wa aina ya kukataa"
+    ]
+  },
+  "bussmannFnqR60": {
+    "title": "Fyuzi ya Kukataa ya Bussmann FNQ-R-60 Class CC",
+    "description": "Fyuzi ya kukataa ya muda ya Bussmann FNQ-R-60 Class CC yenye ukadiriaji wa 60A. Ina uwezo wa kukatiza 200kA na muundo wa kukataa kwa matumizi ya udhibiti wa viwandani.",
+    "features": [
+      "Fyuzi ya kukataa ya Class CC",
+      "Ukadiriaji wa sasa wa 60A",
+      "Voltage ya 600V AC",
+      "Ukadiriaji wa kukatiza 200kA",
+      "Tabia ya kucheleweshwa kwa muda",
+      "Ukubwa wa inchi 13/32 x 1-1/2",
+      "Kiwango cha UL 248-4",
+      "Imekadiriwa kwa udhibiti wa viwandani"
+    ]
+  },
+  "littelfuseL60030c": {
+    "title": "Littelfuse L60030C Kizuizi cha Fuse cha Class CC",
+    "description": "Littelfuse L60030C Kizuizi cha fuse cha Class CC chenye ukadiriaji wa 30A. Inaangazia upachikaji wa reli ya DIN ya nguzo 3, muundo wa msimu, na uwezo wa 600V kwa matumizi ya paneli za viwandani.",
+    "features": [
+      "Kizuizi cha fuse cha Class CC",
+      "Ukadiriaji wa sasa wa 30A",
+      "Uwezo wa voltage ya 600V",
+      "Usanidi wa nguzo 3",
+      "Upachikaji wa reli ya DIN",
+      "Muundo wa msimu",
+      "Nyenzo ya thermoplastic",
+      "Inatii UL 248-4"
+    ]
+  },
+  "littelfuseAto30": {
+    "title": "Littelfuse ATO-30 Fuse ya Blade ya Magari",
+    "description": "Littelfuse ATO-30 fuse ya blade ya magari/viwandani yenye ukadiriaji wa 30A. Muundo wa kawaida wa blade ya ATO/ATC kwa matumizi ya voltage ya chini ya magari na viwandani.",
+    "features": [
+      "Fuse ya blade ya magari",
+      "Ukadiriaji wa sasa wa 30A",
+      "Voltage ya 32V DC",
+      "Ukubwa wa kawaida wa ATO/ATC",
+      "Usimbaji wa rangi ya kijani",
+      "Vituo vya blade ya zinki",
+      "Matumizi ya magari/voltage ya chini",
+      "Ubadilishaji rahisi"
+    ]
+  },
+  "mersenA70p1004": {
+    "title": "Mersen A70P100-4 Class J Fuse ya Kufanya Kazi Haraka",
+    "description": "Mersen A70P100-4 Class J fuse ya kufanya kazi haraka yenye ukadiriaji wa 100A. Inaangazia uwezo wa kukatiza 200kA, 40kA kilele cha kupitisha kwa 600V, na utiifu wa UL 248-8.",
+    "features": [
+      "Class J fuse ya kufanya kazi haraka",
+      "Ukadiriaji wa sasa wa 100A",
+      "Voltage ya 600V AC",
+      "Ukadiriaji wa kukatiza 200kA",
+      "40,000A kilele cha kupitisha",
+      "Ukubwa wa inchi 1-5/8 x 4",
+      "Inatii UL 248-8",
+      "Muundo wa kupunguza sasa"
+    ]
+  },
+  "tdkLambdaI1c120w": {
+    "title": "Kigeuzi cha TDK-Lambda i1C-120W DC-DC kisicho na Insulation",
+    "description": "TDK-Lambda i1C-120W kigeuzi cha DC-DC kisicho na insulation chenye ufanisi wa 98%. Inaangazia masafa ya ingizo ya 9-36V, nguvu ya kutoa 120W, na ulinzi wa kina kwa matumizi ya viwandani.",
+    "features": [
+      "Kigeuzi cha DC-DC kisicho na insulation",
+      "Masafa ya ingizo ya 9-36V DC",
+      "Nguvu ya kutoa 120W",
+      "Ufanisi hadi 98%",
+      "Chaguo za kutoa moja/mbili",
+      "Udhibiti wa kutoa wa ±1%",
+      "Ulinzi wa OVP, OCP, OTP",
+      "Halijoto: -40°C hadi +85°C"
+    ]
+  },
+  "tdkLambdaCnB110": {
+    "title": "Kigeuzi cha TDK-Lambda CN-B110 Kilichotengwa cha Robo-Brika",
+    "description": "TDK-Lambda CN-B110 kigeuzi cha DC-DC kilichotengwa cha robo-brika. Inaangazia ingizo ya 43-160V, pato la 50-300W, insulation ya 1500V, na ufanisi hadi 92%.",
+    "features": [
+      "Kifurushi cha robo-brika kilichotengwa",
+      "Masafa ya ingizo ya 43-160V DC",
+      "Nguvu ya kutoa 50-300W",
+      "Ufanisi hadi 92%",
+      "Insulation ya 1500V DC",
+      "Udhibiti wa kutoa wa ±0.5%",
+      "Alama ya mguu ya kiwango cha tasnia",
+      "Halijoto: -40°C hadi +100°C"
+    ]
+  },
+  "vicorDcm2322": {
+    "title": "Kigeuzi cha Vicor DCM 2322 Kilichotengwa cha ZVS cha Buck-Boost",
+    "description": "Kigeuzi cha Vicor DCM 2322 kilichotengwa cha kubadilisha sifuri cha voltage cha buck-boost. Inaangazia ingizo ya 9-50V, pato la 9-420V, nguvu ya 120W, na ufanisi wa 96% na insulation ya 2250V.",
+    "features": [
+      "Topolojia ya ZVS buck-boost iliyoyengwa",
+      "Masafa ya ingizo ya 9-50V DC",
+      "Masafa ya pato ya 9-420V DC",
+      "Nguvu ya kutoa 120W",
+      "Ufanisi hadi 96%",
+      "Insulation ya 2250V DC",
+      "Kubadilisha sifuri cha voltage",
+      "Halijoto: -40°C hadi +125°C"
+    ]
+  },
+  "vicorDcm3623": {
+    "title": "Kigeuzi cha Vicor DCM 3623 Kilichotengwa cha VIA",
+    "description": "Kigeuzi cha Vicor DCM 3623 kilichotengwa cha VIA (Vicor Integrated Adapter) chenye pato la 320W. Inaangazia ingizo ya 200-425V, ufanisi wa 96%, na insulation ya 2250V katika kifurushi cha DCM ChiP.",
+    "features": [
+      "Teknolojia ya VIA iliyoyengwa",
+      "Masafa ya ingizo ya 200-425V DC",
+      "Nguvu ya kutoa 320W",
+      "Ufanisi hadi 96%",
+      "Insulation ya 2250V DC",
+      "Udhibiti wa kutoa wa ±1%",
+      "Kifurushi cha kompakt cha DCM ChiP",
+      "Halijoto: -40°C hadi +125°C"
+    ]
+  },
+  "murataDcs612": {
+    "title": "Kigeuzi cha Murata DCS6-12 Kilichotengwa cha DC-DC",
+    "description": "Kigeuzi cha Murata DCS6-12 kilichotengwa cha DC-DC chenye pato la 6W. Inaangazia ingizo ya 9-18V, pato la 12V, insulation ya 1500V, na kifurushi cha SIP kwa matumizi yenye nafasi ndogo.",
+    "features": [
+      "Kigeuzi cha DC-DC kilichoyengwa",
+      "Masafa ya ingizo ya 9-18V DC",
+      "Voltage ya pato ya 12V DC",
+      "Nguvu ya kutoa 6W",
+      "Ufanisi hadi 84%",
+      "Insulation ya 1500V DC",
+      "Udhibiti wa kutoa wa ±1%",
+      "Kifurushi cha kompakt cha SIP"
+    ]
+  },
+  "eaton9px1500rt": {
+    "title": "Mfumo wa UPS wa Eaton 9PX1500RT",
+    "description": "Eaton 9PX1500RT kibadilisha umeme cha mtandaoni cha double-conversion chenye uwezo wa 1500VA/1350W. Inaangazia muundo wa kubadilisha rafu/mnara, chaguo la betri ya lithiamu-ioni, na kadi ya mtandao tayari kwa ulinzi muhimu wa nguvu.",
+    "features": [
+      "Uwezo wa 1500VA / 1350W",
+      "Topolojia ya double-conversion mtandaoni",
+      "Voltage ya I/O ya 120/220/230/240V",
+      "Inabadilishwa rafu/mnara",
+      "Muda wa kufanya kazi wa 3-11 kwa mzigo kamili",
+      "Chaguo la betri ya lithiamu-ioni",
+      "Kadi ya mtandao tayari",
+      "Onyesho la LCD na hali"
+    ]
+  },
+  "eaton9px3000rt": {
+    "title": "Mfumo wa UPS wa Mtandaoni wa Eaton 9PX3000RT",
+    "description": "Eaton 9PX3000RT UPS ya double-conversion ya mtandaoni yenye uwezo wa 3000VA/3000W. Inaangazia teknolojia ya ABM, imethibitishwa na Energy Star hadi ufanisi wa 93%, na muundo wa rafu/mnara wa 2U.",
+    "features": [
+      "Uwezo wa 3000VA / 3000W",
+      "Double-conversion mtandaoni",
+      "Ingizo/pato la 200-240V",
+      "Usimamizi wa betri wa ABM",
+      "Ufanisi wa Hadi 93% wa Energy Star",
+      "Upachikaji wa rafu/mnara wa 2U",
+      "USB, serial, slot ya kadi ya mtandao",
+      "Betri zinazoweza kubadilishwa moto"
+    ]
+  },
+  "apcSmt1500rm2u": {
+    "title": "APC Smart-UPS SMT1500RM2U UPS ya Kupachika Rafu",
+    "description": "APC Smart-UPS SMT1500RM2U line-interactive UPS yenye uwezo wa 1500VA/1000W. Inaangazia muundo wa kupachika rafu wa 2U, onyesho la LCD, na SmartSlot ya kadi ya usimamizi wa mtandao.",
+    "features": [
+      "Uwezo wa 1500VA / 1000W",
+      "Topolojia ya line-interactive",
+      "Voltage ya ingizo/pato ya 120V",
+      "Muundo wa kupachika rafu wa 2U",
+      "Muda wa kufanya kazi wa dakika 4.3 kwa mzigo kamili",
+      "Kadi ya mtandao ya SmartSlot tayari",
+      "Onyesho la hali ya LCD",
+      "Udhibiti wa voltage otomatiki"
+    ]
+  },
+  "apcSrt8kxlt": {
+    "title": "APC Smart-UPS SRT8KXLT Online UPS",
+    "description": "APC Smart-UPS SRT8KXLT kibadilisha umeme cha double-conversion mtandaoni chenye uwezo wa 8000VA/8000W. Inaangazia terminal ya EPO, usimamizi wa mtandao, muundo wa rafu/mnara, na ufanisi hadi 95%.",
+    "features": [
+      "Uwezo wa 8000VA / 8000W",
+      "Double-conversion mtandaoni",
+      "Voltage ya ingizo/pato ya 208V",
+      "Upachikaji wa rafu/mnara",
+      "Muda wa kufanya kazi wa dakika 5.5 kwa mzigo kamili",
+      "Zima umeme la dharura la EPO",
+      "Usimamizi wa mtandao umejumuishwa",
+      "Ufanisi hadi 95%"
+    ]
+  },
+  "schneiderGalaxyVs": {
+    "title": "Schneider Electric Galaxy VS UPS ya Msimu",
+    "description": "Schneider Electric Galaxy VS 3-phase mtandaoni UPS ya msimu yenye uwezo wa 10-100kVA. Inaangazia ufanisi wa 99% wa ECO mode, redundancy ya N+1, HMI ya skrini ya kugusa, na modules za nguvu zinazoweza kupanuliwa.",
+    "features": [
+      "Uwezo unaoweza kupanuliwa wa 10-100kVA",
+      "3-phase mtandaoni ya msimu",
+      "Ingizo/pato la awamu 3 la 380/400/415V",
+      "Ufanisi hadi 99% wa ECO mode",
+      "Modules za nguvu za msimu",
+      "Utoaji wa N+1 configurable",
+      "Onyesho la HMI la skrini ya kugusa",
+      "Modules zinazoweza kubadilishwa moto"
+    ]
+  },
+  "rittalJb121406": {
+    "title": "Sanduku la Makutano la Chuma la Rittal JB121406",
+    "description": "Rittal JB121406 ni sanduku la makutano la chuma lenye ulinzi wa IP66, linaloangazia mlango uliofungwa kwa bawaba kwa ufikiaji rahisi. Vipimo 12×14×6 inchi na ukadiriaji wa NEMA 4 kwa mazingira ya viwandani.",
+    "features": [
+      "Ujenzi wa chuma kwa uimara",
+      "Ukadiriaji wa ulinzi wa IP66",
+      "Mlango uliofungwa kwa bawaba kwa ufikiaji rahisi",
+      "Imekadiriwa NEMA 4",
+      "Vipimo vya inchi 12×14×6",
+      "Ubora wa kiwango cha viwandani"
+    ]
+  },
+  "hoffmanA6044ch": {
+    "title": "Sanduku la Makutano la Chuma la Hoffman A6044CH",
+    "description": "Hoffman A6044CH ni sanduku la makutano la chuma lenye muundo endelevu wa bawaba. Inaangazia ulinzi wa NEMA 12 na IP65, bora kwa matumizi ya ndani ya viwandani.",
+    "features": [
+      "Ukubwa mdogo wa inchi 6×4×4",
+      "Ujenzi wa chuma",
+      "Muundo endelevu wa bawaba",
+      "Ukadiriaji wa NEMA 12",
+      "Ulinzi wa IP65",
+      "Matumizi ya viwandani"
+    ]
+  },
+  "hoffmanA1086chscfg": {
+    "title": "Sanduku la Makutano la Fiberglass la Hoffman A1086CHSCFG",
+    "description": "Sanduku la makutano la fiberglass la Hoffman A1086CHSCFG lenye latches za robo-geu. Inaangazia ulinzi wa NEMA 13 na IP66 kwa mazingira magumu.",
+    "features": [
+      "Ujenzi wa fiberglass",
+      "Vipimo vya inchi 10×8×6",
+      "Latches za robo-geu",
+      "Ukadiriaji wa NEMA 13",
+      "Ulinzi wa IP66",
+      "Inayostahimili kutu"
+    ]
+  },
+  "fiboxArca806030": {
+    "title": "Sanduku la Makutano la Polycarbonate la Fibox ARCA 806030",
+    "description": "Sanduku la makutano la polycarbonate la Fibox ARCA 806030 lenye ukinzani wa UV. Hutoa ulinzi pacha wa IP66/IP67 kwa mazingira ya nje na magumu.",
+    "features": [
+      "Nyenzo ya polycarbonate",
+      "Ukubwa wa inchi 8×6×3",
+      "Inayostahimili UV",
+      "Ukadiriaji pacha wa IP66/IP67",
+      "Inafaa kwa nje",
+      "Chaguo la kifuniko cha uwazi"
+    ]
+  },
+  "fiboxTempoTam302515": {
+    "title": "Sanduku la Makutano la ABS la Fibox TEMPO TAM302515",
+    "description": "Sanduku la makutano la ABS la Fibox TEMPO TAM302515 lenye kifuniko cha uwazi kwa ukaguzi wa kuona. Inaangazia ulinzi wa IP65 na vipimo vya metric.",
+    "features": [
+      "Ujenzi wa ABS",
+      "Vipimo vya 300×250×150mm",
+      "Kifuniko cha uwazi",
+      "Ulinzi wa IP65",
+      "Ukaguzi wa kuona",
+      "Muundo mwepesi"
+    ]
+  },
+  "phoenixBc356": {
+    "title": "Nyumba ya Reli ya DIN ya Msimu ya Phoenix Contact BC 35.6",
+    "description": "Phoenix Contact BC 35.6 ni nyumba ya reli ya DIN ya msimu yenye upana wa 35.6mm. Imetengenezwa kutoka polyamide na ulinzi wa IP20 kwa matumizi ya kawaida ya viwandani.",
+    "features": [
+      "Upana wa 35.6mm",
+      "Muundo wa msimu",
+      "Nyenzo ya polyamide",
+      "Ulinzi wa IP20",
+      "Upachikaji wa reli ya DIN",
+      "Ufungaji rahisi"
+    ]
+  },
+  "phoenixMcsIp67": {
+    "title": "Phoenix Contact MCS-IP67 Nyumba ya Reli ya DIN",
+    "description": "Phoenix Contact MCS-IP67 nyumba ya reli ya DIN yenye ulinzi ulioimarishwa. Inaangazia upana wa 53.6mm, ukadiriaji wa IP67 na muhuri, na vituo vya kusukuma.",
+    "features": [
+      "Upana wa 53.6mm",
+      "Imekadiriwa IP67 na muhuri",
+      "Vituo vya kusukuma",
+      "Ulinzi ulioimarishwa",
+      "Upachikaji wa reli ya DIN",
+      "Matumizi ya viwandani"
+    ]
+  },
+  "abbMistral36": {
+    "title": "Sanduku la ABB Mistral36 la Reli ya DIN",
+    "description": "ABB Mistral36 ni sanduku la moduli 36 la reli ya DIN na mlango wa uwazi. Muundo wa kupachika ukutani kwa usakinishaji na ufikiaji rahisi.",
+    "features": [
+      "Uwezo wa moduli 36",
+      "Mlango wa uwazi",
+      "Muundo wa kupachika ukutani",
+      "Inaoana na reli ya DIN",
+      "Ufikiaji rahisi",
+      "Usanidi wa msimu"
+    ]
+  },
+  "abbMistral54": {
+    "title": "Sanduku la Mita la ABB Mistral54",
+    "description": "ABB Mistral54 ni sanduku la mita la moduli 54 na mlango unaoweza kugeuzwa na utaratibu wa kufunga wa kubonyeza. Iliyoundwa kwa matumizi ya kupimia.",
+    "features": [
+      "Uwezo wa moduli 54",
+      "Mlango unaoweza kugeuzwa",
+      "Kufunga kwa kubonyeza",
+      "Sanduku la mita",
+      "Upachikaji wa reli ya DIN",
+      "Usanidi rahisi"
+    ]
+  },
+  "phoenixIcs77": {
+    "title": "Nyumba ya Muunganisho ya Msimu ya Phoenix Contact ICS-77",
+    "description": "Phoenix Contact ICS-77 nyumba ndogo ya reli ya DIN yenye chaguzi za muunganisho wa msimu. Inaauni miunganisho ya RJ45/USB katika vipimo vya 77×25×12mm.",
+    "features": [
+      "Ukubwa mdogo wa 77×25×12mm",
+      "Muunganisho wa msimu",
+      "Usaidizi wa RJ45/USB",
+      "Ulinzi wa IP20",
+      "Upachikaji wa reli ya DIN",
+      "Matumizi ya mawasiliano"
+    ]
+  },
+  "watlowFirerod14500": {
+    "title": "Hita ya Katriji ya Watlow FIREROD-1/4-500",
+    "description": "Watlow FIREROD-1/4-500 ni hita ya katriji ya kipenyo cha 1/4 inch iliyokadiriwa kuwa 500W, 240V. Ujenzi uliounganishwa kwa uhamishaji wa kiwango cha juu cha joto.",
+    "features": [
+      "Kipenyo cha 1/4 inch",
+      "Ukadiriaji wa nguvu wa 500W",
+      "Uendeshaji wa 240V",
+      "Ujenzi uliounganishwa",
+      "Uhamishaji wa joto wa juu",
+      "Matumizi ya viwandani"
+    ]
+  },
+  "chromaloxTlo20": {
+    "title": "Hita ya Kuzamisha ya Tubular ya Chromalox TLO-20",
+    "description": "Chromalox TLO-20 ni hita ya kuzamisha ya tubular ya 20kW yenye ujenzi wa chuma cha kaboni. Iliyoundwa kwa matumizi ya kupokanzwa viwandani ya 480V.",
+    "features": [
+      "Pato la nguvu la 20kW",
+      "Muundo wa kuzamisha wa tubular",
+      "Uendeshaji wa 480V",
+      "Ujenzi wa chuma cha kaboni",
+      "Kupokanzwa viwandani",
+      "Uwezo wa joto la juu"
+    ]
+  },
+  "watlowWatrod43010": {
+    "title": "Hita ya Tubular ya Watlow WATROD-430-10",
+    "description": "Hita ya tubular ya Watlow WATROD-430-10 yenye kipenyo cha inchi 0.430 kwa kupokanzwa duct. Pato la nguvu la 10kW kwa kupokanzwa hewa ya viwandani.",
+    "features": [
+      "Kipenyo cha inchi 0.430",
+      "Ukadiriaji wa nguvu wa 10kW",
+      "Matumizi ya kupokanzwa duct",
+      "Ujenzi wa tubular",
+      "Ufanisi wa juu",
+      "Daraja la viwandani"
+    ]
+  },
+  "chromaloxSre10": {
+    "title": "Coil ya Kupokanzwa Umeme ya Chromalox SRE-10",
+    "description": "Coil ya kupokanzwa umeme ya Chromalox SRE-10 yenye uwezo wa 10kW kwa 240V. Ujenzi wa waya wa upinzani kwa kupokanzwa kwa kuaminika.",
+    "features": [
+      "Pato la nguvu la 10kW",
+      "Uendeshaji wa 240V",
+      "Ujenzi wa waya wa upinzani",
+      "Coil ya kupokanzwa umeme",
+      "Utendaji wa kuaminika",
+      "Matumizi ya viwandani"
+    ]
+  },
+  "omegaCsh102": {
+    "title": "Hita ya Coil ya Spring ya Omega CSH-102",
+    "description": "Omega CSH-102 ni hita ya coil ya 1000W yenye muundo wa aina ya spring. Uendeshaji wa 120V kwa matumizi mengi ya kupokanzwa.",
+    "features": [
+      "Ukadiriaji wa nguvu wa 1000W",
+      "Uendeshaji wa 120V",
+      "Muundo wa aina ya spring",
+      "Muundo wa hita ya coil",
+      "Ufungaji rahisi",
+      "Matumizi mengi"
+    ]
+  },
+  "watlowFirebarFb15": {
+    "title": "Hita ya Tubular ya Ncha Moja ya Watlow FIREBAR-FB15",
+    "description": "Kipengele cha kupokanzwa tubular cha ncha moja cha Watlow FIREBAR-FB15 kilichokadiriwa kuwa 1500W, 240V. Kupachika kwa flange kwa usakinishaji salama.",
+    "features": [
+      "Muundo wa tubular wa ncha moja",
+      "Pato la nguvu la 1500W",
+      "Uendeshaji wa 240V",
+      "Kupachika kwa flange",
+      "Ufungaji salama",
+      "Kupokanzwa viwandani"
+    ]
+  },
+  "chromaloxCes028": {
+    "title": "Kipengele cha Katriji ya Chromalox CES-028",
+    "description": "Kipengele cha kupokanzwa cha katriji ya Chromalox CES-028 yenye uwezo wa 2800W. Ujenzi wa chuma cha pua kwa matumizi ya 480V.",
+    "features": [
+      "Ukadiriaji wa nguvu wa 2800W",
+      "Uendeshaji wa 480V",
+      "Ujenzi wa chuma cha pua",
+      "Muundo wa kipengele cha katriji",
+      "Inastahimili kutu",
+      "Joto la juu"
+    ]
+  },
+  "watlowUltramicAln250": {
+    "title": "Hita ya Kauri ya Watlow ULTRAMIC-AlN-250",
+    "description": "Hita ya kauri ya Watlow ULTRAMIC-AlN-250 yenye substrate ya nitridi ya alumini. Uzalishaji wa joto safi wa 250W kwa matumizi ya usahihi.",
+    "features": [
+      "Kauri ya nitridi ya alumini",
+      "Pato la nguvu la 250W",
+      "Uzalishaji wa joto safi",
+      "Kupokanzwa kwa usahihi",
+      "Uendeshaji wa juu wa joto",
+      "Matumizi ya semiconductor"
+    ]
+  },
+  "omegaCss01250": {
+    "title": "Hita ya Ukanda wa Mika ya Omega CSS-01250",
+    "description": "Hita ya ukanda wa Omega CSS-01250 yenye insulation ya mika. Uwezo wa 1250W kwa 240V kwa matumizi ya kupokanzwa uso.",
+    "features": [
+      "Ukadiriaji wa nguvu wa 1250W",
+      "Uendeshaji wa 240V",
+      "Insulation ya mika",
+      "Muundo wa hita ya ukanda",
+      "Kupokanzwa uso",
+      "Usambazaji wa joto sare"
+    ]
+  },
+  "chromaloxTmo10": {
+    "title": "Hita ya Tubular Metal-Over ya Chromalox TMO-10",
+    "description": "Hita ya tubular metal-over ya Chromalox TMO-10 yenye shehena ya INCOLOY. Uwezo wa 10kW kwa 600V kwa matumizi ya joto la juu.",
+    "features": [
+      "Pato la nguvu la 10kW",
+      "Uendeshaji wa 600V",
+      "Shehena ya INCOLOY",
+      "Muundo wa tubular metal-over",
+      "Uwezo wa joto la juu",
+      "Inastahimili kutu"
+    ]
+  },
+  "watlowCirculationCh50": {
+    "title": "Hita ya Mzunguko ya Watlow CH-50",
+    "description": "Hita ya Mzunguko ya Watlow CH-50 yenye uwezo wa 50kW kwa kupokanzwa mchakato. Muundo wa flanged kwa matumizi ya viwandani ya 480V.",
+    "features": [
+      "Pato la nguvu la 50kW",
+      "Kupachika kwa flange",
+      "Uendeshaji wa 480V",
+      "Kupokanzwa mchakato",
+      "Muundo wa mzunguko",
+      "Matumizi ya viwandani"
+    ]
+  },
+  "chromaloxCvep15": {
+    "title": "Hita ya Mahali pa Hatari ya Chromalox CVEP-15",
+    "description": "Hita ya Chromalox CVEP-15 isiyoweza kulipuka iliyokadiriwa kuwa 15kW. Imethibitishwa kwa Darasa la I Division 1 kwa maeneo hatarishi.",
+    "features": [
+      "Pato la nguvu la 15kW",
+      "Muundo usiolipuka",
+      "Ukadiriaji wa Darasa la I Div 1",
+      "Imethibitishwa kwa eneo hatarishi",
+      "Usalama wa viwandani",
+      "Inakubaliana na ATEX"
+    ]
+  },
+  "watlowDuctDh30": {
+    "title": "Hita ya Duct ya Watlow DH-30",
+    "description": "Hita ya Duct ya Watlow DH-30 yenye uwezo wa 30kW kwa kupokanzwa hewa. Ujenzi wa msimu wa awamu 3 wa 480V kwa matumizi ya HVAC.",
+    "features": [
+      "Pato la nguvu la 30kW",
+      "Matumizi ya kupokanzwa hewa",
+      "Awamu 3 za 480V",
+      "Ujenzi wa msimu",
+      "Kupachika duct",
+      "Mifumo ya HVAC"
+    ]
+  },
+  "chromaloxImmersionPmh25": {
+    "title": "Kizami cha Chromalox PMH-25",
+    "description": "Hita ya Chromalox Immersion PMH-25 yenye uwezo wa 25kW. Kupachika kwa flange ya ANSI na ujenzi wa chuma cha pua kwa matumizi ya 600V.",
+    "features": [
+      "Pato la nguvu la 25kW",
+      "Kupachika kwa flange ya ANSI",
+      "Uendeshaji wa 600V",
+      "Ujenzi wa chuma cha pua",
+      "Kupokanzwa kwa kuzamisha",
+      "Mchakato wa viwandani"
+    ]
+  },
+  "omegaFma1020": {
+    "title": "Hita ya Hewa yenye Fini ya Omega FMA-1020",
+    "description": "Hita ya hewa yenye finned ya Omega FMA-1020 yenye uwezo wa 10kW. Uendeshaji wa 240V na mzunguko wa hewa wa kulazimishwa kwa kupokanzwa kwa ufanisi.",
+    "features": [
+      "Ukadiriaji wa nguvu wa 10kW",
+      "Uendeshaji wa 240V",
+      "Muundo wenye finned",
+      "Mzunguko wa hewa wa kulazimishwa",
+      "Uhamishaji wa joto kwa ufanisi",
+      "Matumizi ya kupokanzwa hewa"
+    ]
+  },
+  "orientalMd6p38": {
+    "title": "Motor ya Kutolea Nje ya BLDC ya Oriental Motor MD-6P38",
+    "description": "Oriental Motor MD-6P38 motor ya feni ya axial ya DC iliyokadiriwa kuwa 38W, 24VDC. Muundo wa BLDC wa nguzo 6 na ulinzi wa IP55 kwa matumizi ya kutolea nje ya viwandani.",
+    "features": [
+      "Ukadiriaji wa nguvu wa 38W",
+      "Uendeshaji wa 24VDC",
+      "Muundo wa BLDC wa nguzo 6",
+      "Ulinzi wa IP55",
+      "Feni ya axial ya DC",
+      "Kutolea nje kwa viwandani"
+    ]
+  },
+  "nidecD12e24ts3": {
+    "title": "Motor ya Nidec D12E-24TS3 BLDC",
+    "description": "Motor ya Nidec D12E-24TS3 BLDC yenye ukubwa wa 12cm inayotoa mtiririko wa hewa wa 83 CFM. Uendeshaji wa kelele ya chini kwa 24VDC kwa matumizi ya kupoeza.",
+    "features": [
+      "Uendeshaji wa 24VDC",
+      "Ukubwa wa 12cm",
+      "Mtiririko wa hewa wa 83 CFM",
+      "Muundo wa kelele ya chini",
+      "Teknolojia ya BLDC",
+      "Matumizi ya kupoeza"
+    ]
+  },
+  "deltaBfb1224h": {
+    "title": "Motor ya Kutolea Nje ya Delta Electronics BFB1224H BLDC",
+    "description": "Motor ya kutolea nje ya Delta Electronics BFB1224H BLDC yenye ukubwa wa 120mm. Uendeshaji wa 24VDC na muda wa maisha wa saa 70,000 kwa uaminifu wa muda mrefu.",
+    "features": [
+      "Ukubwa wa 120mm",
+      "Uendeshaji wa 24VDC",
+      "Maisha ya saa 70,000",
+      "Teknolojia ya BLDC",
+      "Motor ya kutolea nje",
+      "Muda mrefu wa maisha"
+    ]
+  },
+  "orientalMa2308p": {
+    "title": "Motor ya Axial ya AC ya Oriental Motor MA-230-8P",
+    "description": "Motor ya axial ya AC ya Oriental Motor MA-230-8P yenye ukubwa wa 80mm. Uendeshaji wa 230VAC hutoa mtiririko wa hewa wa juu kwa uingizaji hewa wa viwandani.",
+    "features": [
+      "Uendeshaji wa 230VAC",
+      "Ukubwa wa 80mm",
+      "Mtiririko wa hewa wa juu",
+      "Muundo wa axial ya AC",
+      "Uingizaji hewa wa viwandani",
+      "Utendaji wa kuaminika"
+    ]
+  },
+  "nidecG1238b": {
+    "title": "Motor ya Viwandani ya Nidec G1238B BLDC",
+    "description": "Motor ya axial ya DC ya Nidec G1238B iliyokadiriwa kuwa 38W. Ukubwa wa 12cm na udhibiti wa kasi inayobadilika kwa matumizi ya daraja la viwandani.",
+    "features": [
+      "Ukadiriaji wa nguvu wa 38W",
+      "Ukubwa wa 12cm",
+      "Udhibiti wa kasi inayobadilika",
+      "Axial DC BLDC",
+      "Daraja la viwandani",
+      "Uendeshaji rahisi"
+    ]
+  },
+  "nidecGentletyphoonD1225c12": {
+    "title": "Motor ya Kipoezi ya Utulivu ya Nidec GentleTyphoon D1225C12",
+    "description": "Motor ya kipoezi ya Nidec GentleTyphoon D1225C12 BLDC inafanya kazi kwa 1850 RPM na 12VDC. Uendeshaji wa utulivu kwa kupoeza kwa usahihi.",
+    "features": [
+      "Uendeshaji wa 12VDC",
+      "Kasi ya 1850 RPM",
+      "Uendeshaji wa utulivu",
+      "Motor ya kipoezi ya BLDC",
+      "Kupoeza kwa usahihi",
+      "Mtetemo wa chini"
+    ]
+  },
+  "orientalBle2m25s5": {
+    "title": "Motor ya Kupoeza ya BLDC ya Oriental Motor BLE2M25S-5",
+    "description": "Motor ya BLDC ya Oriental Motor BLE2M25S-5 yenye uwezo wa 25W na udhibiti wa kasi. Uendeshaji wa 24VDC kwa matumizi ya kupoeza.",
+    "features": [
+      "Ukadiriaji wa nguvu wa 25W",
+      "Uendeshaji wa 24VDC",
+      "Udhibiti wa kasi",
+      "Motor ya BLDC",
+      "Matumizi ya kupoeza",
+      "Kasi inayobadilika"
+    ]
+  },
+  "deltaAfb1212she": {
+    "title": "Motor ya Delta Electronics AFB1212SHE ya Shinikizo la Juu ya BLDC",
+    "description": "Motor ya Delta Electronics AFB1212SHE BLDC yenye ukubwa wa 120mm. Uendeshaji wa 12VDC na shinikizo la juu tuli kwa kupoeza kunakohitajika.",
+    "features": [
+      "Ukubwa wa 120mm",
+      "Uendeshaji wa 12VDC",
+      "Shinikizo la juu tuli",
+      "Teknolojia ya BLDC",
+      "Matumizi yanayohitajika",
+      "Kupoeza kwa uhakika"
+    ]
+  },
+  "nidecBetaVTa450dc": {
+    "title": "Motor ya Kupoeza ya Nidec Beta V TA450DC PWM",
+    "description": "Motor ya kupoeza ya Nidec Beta V TA450DC BLDC yenye udhibiti wa PWM. Uendeshaji wa 12VDC kwa 4500 RPM kwa kupoeza kwa utendaji wa juu.",
+    "features": [
+      "Uendeshaji wa 12VDC",
+      "Udhibiti wa PWM",
+      "Kasi ya 4500 RPM",
+      "Motor ya kupoeza ya BLDC",
+      "Utendaji wa juu",
+      "Kasi inayobadilika"
+    ]
+  },
+  "orientalMf60Ac": {
+    "title": "Motor ya Mtiririko Msalaba ya Oriental Motor MF-60-AC",
+    "description": "Motor ya mtiririko msalaba ya Oriental Motor MF-60-AC yenye ukubwa wa 60mm. Uendeshaji wa 230VAC hutoa usambazaji sawa wa mtiririko wa hewa.",
+    "features": [
+      "Uendeshaji wa 230VAC",
+      "Ukubwa wa 60mm",
+      "Muundo wa mtiririko msalaba",
+      "Mtiririko wa hewa sawa",
+      "Uendeshaji wa utulivu",
+      "Matumizi ya HVAC"
+    ]
+  },
+  "orientalMd8p48": {
+    "title": "Motor ya Uingizaji Hewa ya Oriental Motor MD-8P48 BLDC",
+    "description": "Motor ya uingizaji hewa ya Oriental Motor MD-8P48 BLDC iliyokadiriwa kuwa 48W na uendeshaji wa 24VDC. Ulinzi wa IP55 hutoa hadi 883 CFM.",
+    "features": [
+      "Ukadiriaji wa nguvu wa 48W",
+      "Uendeshaji wa 24VDC",
+      "Ulinzi wa IP55",
+      "883 CFM mtiririko wa hewa wa juu",
+      "Uingizaji hewa wa BLDC",
+      "Uwezo wa juu"
+    ]
+  },
+  "nidecG1751m": {
+    "title": "Motor ya Uingizaji Hewa ya Nidec G1751M ya Uwezo wa Juu ya BLDC",
+    "description": "Motor ya Nidec G1751M BLDC yenye ukubwa wa 17cm na nguvu ya 51W. Uendeshaji wa 24VDC na uwezo wa juu na mtetemo mdogo.",
+    "features": [
+      "Ukubwa wa 17cm",
+      "Ukadiriaji wa nguvu wa 51W",
+      "Uendeshaji wa 24VDC",
+      "Uwezo wa juu",
+      "Mtetemo mdogo",
+      "Teknolojia ya BLDC"
+    ]
+  },
+  "deltaBfb1512vh": {
+    "title": "Motor ya Uingizaji Hewa ya Delta Electronics BFB1512VH BLDC",
+    "description": "Motor ya uingizaji hewa ya Delta Electronics BFB1512VH BLDC yenye ukubwa wa 150mm. Uendeshaji wa 12VDC hutoa mtiririko wa hewa wa 260 CFM.",
+    "features": [
+      "Ukubwa wa 150mm",
+      "Uendeshaji wa 12VDC",
+      "260 CFM mtiririko wa hewa",
+      "Uingizaji hewa wa BLDC",
+      "Utendaji wa juu",
+      "Uendeshaji bora"
+    ]
+  },
+  "orientalBmu23005": {
+    "title": "Kitengo cha Uingizaji Hewa cha Oriental Motor BMU230-05 BLDC",
+    "description": "Kitengo cha motor ya Oriental Motor BMU230-05 BLDC na udhibiti wa kasi. Uendeshaji wa 230VAC kwa matumizi ya uingizaji hewa.",
+    "features": [
+      "Uendeshaji wa 230VAC",
+      "Udhibiti wa kasi",
+      "Kitengo cha motor ya BLDC",
+      "Matumizi ya uingizaji hewa",
+      "Kasi inayobadilika",
+      "Daraja la viwandani"
+    ]
+  },
+  "nidecD08a12ts1": {
+    "title": "Motor ya Nidec D08A-12TS1 BLDC ya Kugundua Kasi",
+    "description": "Motor ya Nidec D08A-12TS1 BLDC yenye ukubwa wa 80mm na pato la mapigo. Uendeshaji wa 12VDC na uwezo wa kugundua kasi.",
+    "features": [
+      "Ukubwa wa 80mm",
+      "Uendeshaji wa 12VDC",
+      "Pato la mapigo",
+      "Kugundua kasi",
+      "Motor ya BLDC",
+      "Udhibiti wa maoni"
+    ]
+  },
+  "grundfos10sq07200": {
+    "title": "Pampu ya Kisima ya Grundfos 10SQ07-200 Inayozama",
+    "description": "Pampu ya kisima ya Grundfos 10SQ07-200 inayozama inayotoa 10 GPM na motor ya 0.75 HP. Uwezo wa futi 200 kwa 230V kwa makazi na biashara ndogo.",
+    "features": [
+      "Kiwango cha mtiririko wa 10 GPM",
+      "Motor ya 0.75 HP",
+      "Urefu wa futi 200",
+      "Uendeshaji wa 230V",
+      "Pampu ya kisima inayozama",
+      "Utendaji wa kuaminika"
+    ]
+  },
+  "franklin20fv1s4": {
+    "title": "Pampu ya Franklin 20FV1S4 Series V Inayozama",
+    "description": "Pampu ya Franklin 20FV1S4 Series V inayozama yenye uwezo wa 20 GPM. Ujenzi wa chuma cha pua wa 1 HP kwa matumizi ya 230V.",
+    "features": [
+      "Kiwango cha mtiririko wa 20 GPM",
+      "Motor ya 1 HP",
+      "Uendeshaji wa 230V",
+      "Ujenzi wa chuma cha pua",
+      "Muundo wa Series V",
+      "Inayostahimili kutu"
+    ]
+  },
+  "grundfosSp307": {
+    "title": "Pampu ya Viwanda ya Grundfos SP30-7 Inayozama",
+    "description": "Pampu ya viwanda ya Grundfos SP30-7 inayozama yenye kipenyo cha inchi 4. Mtiririko wa 30 GPM na motor ya 7 HP kwa matumizi ya awamu 3 ya 460V.",
+    "features": [
+      "Kiwango cha mtiririko wa 30 GPM",
+      "Motor ya 7 HP",
+      "Kipenyo cha inchi 4",
+      "Awamu 3 za 460V",
+      "Inayozama ya viwanda",
+      "Utendaji wa juu"
+    ]
+  },
+  "franklin500sts50d6": {
+    "title": "Pampu ya Turbine ya Franklin 500STS50D6 STS",
+    "description": "Pampu ya turbine ya Franklin 500STS50D6 STS yenye kipenyo cha inchi 6. Uwezo wa juu wa 500 GPM na motor ya 50 HP kwa matumizi ya viwanda ya 460V.",
+    "features": [
+      "Kiwango cha mtiririko wa 500 GPM",
+      "Motor ya 50 HP",
+      "Kipenyo cha inchi 6",
+      "Uendeshaji wa 460V",
+      "Muundo wa turbine ya STS",
+      "Viwanda nzito"
+    ]
+  },
+  "grundfosSqe15290": {
+    "title": "Pampu ya Grundfos SQE15-290 Smart Inayozama",
+    "description": "Pampu ya Grundfos SQE15-290 smart inayozama yenye VFD iliyojengwa ndani. Uwezo wa 15 GPM na motor ya 1.5 HP na urefu wa futi 290.",
+    "features": [
+      "Kiwango cha mtiririko wa 15 GPM",
+      "Motor ya 1.5 HP",
+      "Urefu wa futi 290",
+      "VFD iliyojengwa ndani",
+      "Smart inayozama",
+      "Inatumia nishati vizuri"
+    ]
+  },
+  "fluke325": {
+    "title": "Mita ya Clamp ya Fluke 325 True-RMS",
+    "description": "Mita ya clamp ya Fluke 325 true-RMS inapima hadi 400A AC na 600V AC/DC. Ukadiriaji wa usalama wa CAT IV 300V kwa utatuzi wa matatizo ya umeme.",
+    "features": [
+      "Upimaji wa 400A AC",
+      "600V AC/DC",
+      "True-RMS",
+      "Usalama wa CAT IV 300V",
+      "Muundo wa mita ya clamp",
+      "Utatuzi wa matatizo ya umeme"
+    ]
+  },
+  "kyoritsu2046r": {
+    "title": "Mita ya Clamp ya Kyoritsu 2046R True-RMS",
+    "description": "Mita ya clamp ya Kyoritsu 2046R true-RMS yenye uwezo wa 600A AC/DC. Ufunguzi wa taya wa 33mm na ukadiriaji wa CAT IV kwa matumizi ya viwandani.",
+    "features": [
+      "Upimaji wa 600A AC/DC",
+      "Kiwango cha 600V",
+      "Ufunguzi wa taya wa 33mm",
+      "True-RMS",
+      "Usalama wa CAT IV",
+      "Matumizi ya viwandani"
+    ]
+  },
+  "fluke376fc": {
+    "title": "Mita ya Clamp ya Wireless ya Fluke 376 FC yenye iFlex",
+    "description": "Mita ya clamp ya wireless ya Fluke 376 FC yenye uchunguzi wa iFlex. Upimaji wa 1000A AC/DC hadi 1000V na muunganisho wa Bluetooth.",
+    "features": [
+      "1000A AC/DC yenye iFlex",
+      "Upimaji wa 1000V",
+      "Bluetooth wireless",
+      "True-RMS",
+      "Uchunguzi wa iFlex umejumuishwa",
+      "Ufuatiliaji wa mbali"
+    ]
+  },
+  "hiokiCm4373": {
+    "title": "Mita ya Clamp ya Nguvu ya AC/DC ya Hioki CM4373",
+    "description": "Mita ya clamp ya Hioki CM4373 AC/DC yenye uwezo wa 2000A. Muunganisho wa Bluetooth na uwezo wa kupima nguvu ya true-RMS.",
+    "features": [
+      "Upimaji wa 2000A",
+      "Muunganisho wa Bluetooth",
+      "True-RMS",
+      "Upimaji wa nguvu",
+      "Clamp ya AC/DC",
+      "Uingizaji data"
+    ]
+  },
+  "kyoritsu2056r": {
+    "title": "Mita ya Clamp ya Kyoritsu 2056R Inayobadilika Kiotomatiki",
+    "description": "Mita ya clamp ya Kyoritsu 2056R true-RMS yenye uwezo wa 1000A AC/DC. Ufunguzi wa taya wa 40mm na inayobadilika kiotomatiki kwa upimaji rahisi.",
+    "features": [
+      "Upimaji wa 1000A AC/DC",
+      "Kiwango cha 600V",
+      "Ufunguzi wa taya wa 40mm",
+      "Inayobadilika kiotomatiki",
+      "True-RMS",
+      "Onyesho kubwa"
+    ]
+  },
+  "keysight34461a": {
+    "title": "DMM ya Keysight 34461A Truevolt 6.5-Digit",
+    "description": "Keysight 34461A ni multimeter ya dijiti ya Truevolt ya 6.5-digit yenye usahihi wa 30 ppm DCV, muunganisho wa USB/LAN, na onyesho la picha kwa vipimo sahihi vya benchi.",
+    "features": [
+      "Ubora wa 6.5-digit",
+      "Usahihi wa 30 ppm DCV",
+      "Muunganisho wa USB na LAN",
+      "Onyesho la picha",
+      "Teknolojia ya Truevolt",
+      "Vipimo vya kelele ndogo"
+    ]
+  },
+  "keysight34465a": {
+    "title": "DMM ya Keysight 34465A Truevolt 6.5-Digit",
+    "description": "Keysight 34465A Truevolt DMM yenye ubora wa 6.5-digit, kasi ya usomaji 110/s, kumbukumbu ya uingizaji data ya 5K, na onyesho la rangi la inchi 4.3 kwa majaribio ya juu ya benchi.",
+    "features": [
+      "Ubora wa 6.5-digit",
+      "Usomaji 110 kwa sekunde",
+      "Pointi za kumbukumbu ya 5K",
+      "Onyesho la rangi la inchi 4.3",
+      "Vipimo vya kasi ya juu",
+      "Muunganisho wa hali ya juu"
+    ]
+  },
+  "keithleyDmm7510": {
+    "title": "Multimeter ya Keithley DMM7510 7.5-Digit ya Kuweka Nambari",
+    "description": "Keithley DMM7510 ni multimeter ya kuweka nambari ya usahihi ya 7.5-digit yenye kiwango cha sampuli cha 1 Msample/s, kiolesura cha skrini ya kugusa, na unyeti wa 1pA/1μΩ kwa matumizi ya utafiti.",
+    "features": [
+      "Usahihi wa 7.5-digit",
+      "Uwekaji nambari wa 1 Msample/s",
+      "Onyesho la skrini ya kugusa",
+      "Unyeti wa 1pA/1μΩ",
+      "Sampuli ya kasi ya juu",
+      "Kazi za upimaji wa hali ya juu"
+    ]
+  },
+  "keithleyDmm6500": {
+    "title": "Multimeter ya Picha ya Keithley DMM6500 6.5-Digit",
+    "description": "Keithley DMM6500 ina ubora wa 6.5-digit, onyesho la picha la skrini ya kugusa, usaidizi wa programu wa Python/TSP, na kazi 15 za upimaji kwa majaribio mengi.",
+    "features": [
+      "Ubora wa 6.5-digit",
+      "Skrini ya kugusa ya picha",
+      "Programu ya Python/TSP",
+      "Kazi 15 za upimaji",
+      "Automation ya hali ya juu",
+      "Muunganisho rahisi"
+    ]
+  },
+  "keysight34450a": {
+    "title": "DMM ya Keysight 34450A 5.5-Digit yenye Onyesho Maradufu",
+    "description": "Keysight 34450A inatoa ubora wa 5.5-digit yenye usahihi wa 0.015% DCV, usomaji 190/s, onyesho la OLED, na kumbukumbu ya 50K kwa vipimo bora vya benchi.",
+    "features": [
+      "Ubora wa 5.5-digit",
+      "Usahihi wa 0.015% DCV",
+      "Usomaji 190 kwa sekunde",
+      "Onyesho la OLED",
+      "Pointi za kumbukumbu za 50K",
+      "Kasi ya upimaji wa haraka"
+    ]
+  },
+  "schneiderIon9000": {
+    "title": "Mita ya Ubora wa Nishati ya Premium ya Schneider ION9000",
+    "description": "Schneider ION9000 ni mita ya ubora wa nishati ya premium yenye darasa la usahihi la 0.05%, kipimo cha usahihi wa pande mbili, na ufuatiliaji wa hali ya juu wa usumbufu kwa ufuatiliaji muhimu.",
+    "features": [
+      "Darasa la usahihi la 0.05%",
+      "Kipimo cha usahihi wa pande mbili",
+      "Ufuatiliaji wa usumbufu",
+      "Ufuatiliaji wa ubora wa nishati ya premium",
+      "Uchanganuzi wa hali ya juu",
+      "Upimaji wa usahihi wa hali ya juu"
+    ]
+  },
+  "schneiderPm8000": {
+    "title": "Mita ya Ubora wa Nishati ya Schneider PM8000",
+    "description": "Mita ya ubora wa nishati ya Schneider PM8000 iliyoundwa kwa matumizi ya kibiashara na viwandani yenye uwezo wa hali ya juu wa ufuatiliaji na uchanganuzi kamili wa nishati.",
+    "features": [
+      "Daraja la kibiashara/viwandani",
+      "Ufuatiliaji wa nishati wa hali ya juu",
+      "Uchanganuzi kamili",
+      "Usimamizi wa nishati",
+      "Uhakikisho wa ubora",
+      "Uendeshaji wa kuaminika"
+    ]
+  },
+  "siemensSentron7kt": {
+    "title": "Mita ya Nishati ya Reli ya DIN ya Siemens SENTRON 7KT PAC",
+    "description": "Siemens SENTRON 7KT PAC ni mita ya nishati iliyowekwa kwenye reli ya DIN yenye mawasiliano ya PROFINET na Modbus, uidhinishaji wa MID kwa ufuatiliaji sahihi wa nishati.",
+    "features": [
+      "Upachikaji wa reli ya DIN",
+      "Mawasiliano ya PROFINET",
+      "Usaidizi wa Modbus",
+      "Imeidhinishwa na MID",
+      "Ubunifu thabiti",
+      "Mitandao ya viwandani"
+    ]
+  },
+  "siemensSicamP850": {
+    "title": "Mita ya Nishati ya Multifunctional ya Siemens SICAM P850",
+    "description": "Mita ya nishati ya multifunctional ya Siemens SICAM P850 yenye uwezo wa uchanganuzi wa harmonics na ujumuishaji wa SCADA kwa ufuatiliaji kamili wa mfumo wa nishati.",
+    "features": [
+      "Upimaji wa multifunctional",
+      "Uchanganuzi wa harmonics",
+      "Ujumuishaji wa SCADA",
+      "Ufuatiliaji wa ubora wa nishati",
+      "Uchunguzi wa hali ya juu",
+      "Ujumuishaji wa mfumo"
+    ]
+  },
+  "schneiderMetsepm8240": {
+    "title": "Mita ya Nishati ya Schneider METSEPM8240",
+    "description": "Mita ya nishati ya Schneider METSEPM8240 yenye darasa la usahihi la 0.2S, muunganisho wa Ethernet kwa ufuatiliaji na usimamizi wa nishati ya jengo la kibiashara.",
+    "features": [
+      "Darasa la usahihi la 0.2S",
+      "Muunganisho wa Ethernet",
+      "Ufuatiliaji wa jengo la kibiashara",
+      "Usimamizi wa nishati",
+      "Upimaji wa hali ya juu",
+      "Ujumuishaji wa mtandao"
+    ]
+  },
+  "fluke1775": {
+    "title": "Kichanganuzi cha Ubora wa Nishati cha Awamu Tatu cha Fluke 1775",
+    "description": "Fluke 1775 ni kichanganuzi cha ubora wa nishati cha awamu tatu chenye sampuli ya 1 MHz, utambuzi wa harmonics 50 hadi 30 kHz, muunganisho wa WiFi/BLE, na kiolesura cha skrini ya kugusa.",
+    "features": [
+      "Uchanganuzi wa awamu tatu",
+      "Kiwango cha sampuli cha 1 MHz",
+      "Harmonics 50 hadi 30 kHz",
+      "Muunganisho wa WiFi na BLE",
+      "Kiolesura cha skrini ya kugusa",
+      "Uchanganuzi wa ubora wa nishati wa hali ya juu"
+    ]
+  },
+  "fluke438ii": {
+    "title": "Fluke 438-II Kichanganuzi cha Ubora wa Nishati na Injini",
+    "description": "Fluke 438-II inachanganya uchanganuzi wa ubora wa nishati na uchunguzi wa injini, ikiwa na harmonics hadi agizo la 50, ukamataji wa PowerWave, na kiwango cha sampuli cha 200 kS/s.",
+    "features": [
+      "Ubora wa nishati + uchanganuzi wa injini",
+      "Harmonics hadi agizo la 50",
+      "Teknolojia ya ukamataji wa PowerWave",
+      "Kiwango cha sampuli cha 200 kS/s",
+      "Uchunguzi wa injini",
+      "Upimaji kamili"
+    ]
+  },
+  "dranetzHdpqVisaPlus": {
+    "title": "Kichanganuzi cha Ubora wa Nishati cha Dranetz HDPQ Visa Plus",
+    "description": "Dranetz HDPQ Visa Plus inakidhi viwango vya IEC 61000-4-30 Darasa A na ufuatiliaji wa chaneli 8, ukadiriaji wa 1000V RMS, sampuli 512/mzunguko, na onyesho la skrini ya kugusa.",
+    "features": [
+      "IEC 61000-4-30 Darasa A",
+      "Ufuatiliaji wa chaneli 8",
+      "Ukadiriaji wa 1000V RMS",
+      "Sampuli 512 kwa kila mzunguko",
+      "Onyesho la skrini ya kugusa",
+      "Uchanganuzi wa kiwango cha kitaalamu"
+    ]
+  },
+  "dranetzHdpqXplorer": {
+    "title": "Kichanganuzi cha Nishati Kinachobebeka cha Dranetz HDPQ Xplorer",
+    "description": "Dranetz HDPQ Xplorer ni kichanganuzi cha nishati kinachobebeka chenye skrini ya kugusa ya inchi 7, iliyoundwa kwa ajili ya utatuzi wa matatizo shambani na ujumuishaji wa programu ya Dran-View 7.",
+    "features": [
+      "Skrini ya kugusa ya inchi 7",
+      "Ubunifu unaobebeka",
+      "Utatuzi wa matatizo shambani",
+      "Programu ya Dran-View 7",
+      "Rahisi kutumia",
+      "Uchanganuzi wa kitaalamu"
+    ]
+  },
+  "fluke1777": {
+    "title": "Kichanganuzi cha Nishati cha Awamu Tatu cha Fluke 1777",
+    "description": "Fluke 1777 kichanganuzi cha nishati cha awamu tatu chenye ukamataji wa muda mfupi wa 20 MHz, uwezo wa hadi 8 kV, ukadiriaji wa usalama wa CAT IV 600V, na kikokotoo cha upotevu wa nishati.",
+    "features": [
+      "Uchanganuzi wa awamu tatu",
+      "Ukamataji wa muda mfupi wa 20 MHz",
+      "Uwezo wa hadi 8 kV",
+      "Usalama wa CAT IV 600V",
+      "Kikokotoo cha upotevu wa nishati",
+      "Uchunguzi wa hali ya juu"
+    ]
+  },
+  "boschGsb18v1330cb": {
+    "title": "Bisibisi ya Nyundo ya Bosch GSB18V-1330CB PROFACTOR",
+    "description": "Bosch GSB18V-1330CB ni bisibisi ya nyundo ya 18V PROFACTOR yenye teknolojia ya betri ya CORE18V, motor isiyo na brashi, na vipengele vilivyo tayari kuunganishwa kwa matumizi ya kitaalamu.",
+    "features": [
+      "Mfumo wa 18V PROFACTOR",
+      "Betri ya CORE18V",
+      "Motor isiyo na brashi",
+      "Iliyooanishwa-tayari",
+      "Daraja la kitaalamu",
+      "Utendaji wa juu"
+    ]
+  },
+  "milwaukeeM18Fuel2904": {
+    "title": "Bisibisi ya Nyundo ya Milwaukee M18 FUEL 2904",
+    "description": "Milwaukee M18 FUEL 2904 inatoa torque ya 1200 in-lbs na nguvu ya 18V, teknolojia ya betri ya REDLITHIUM, na chuck ya 1/2-inchi kwa matumizi mazito ya uchimbaji.",
+    "features": [
+      "Mfumo wa 18V M18",
+      "Torque ya 1200 in-lbs",
+      "Betri ya REDLITHIUM",
+      "Chuck ya 1/2-inchi",
+      "Teknolojia ya FUEL",
+      "Utendaji mzito"
+    ]
+  },
+  "makitaXph14z": {
+    "title": "Bisibisi ya Nyundo Isiyo na Brashi ya Makita XPH14Z 18V LXT",
+    "description": "Makita XPH14Z inaangazia jukwaa la 18V LXT, motor isiyo na brashi inayotoa torque ya 1,250 in-lbs, muundo thabiti wenye taa mbili za LED kwa kazi ya usahihi.",
+    "features": [
+      "Jukwaa la 18V LXT",
+      "Motor isiyo na brashi",
+      "Torque ya 1,250 in-lbs",
+      "Ubunifu thabiti",
+      "Taa mbili za LED",
+      "Uchimbaji wa usahihi"
+    ]
+  },
+  "dewaltDcd800b": {
+    "title": "Bisibisi Thabiti ya DeWalt DCD800B 20V MAX",
+    "description": "DeWalt DCD800B ni bisibisi thabiti ya 20V MAX yenye motor isiyo na brashi, nguvu ya 340 UWO, taa ya LED ya modi 3, na chuck ya 1/2-inchi kwa matumizi mengi.",
+    "features": [
+      "Mfumo wa 20V MAX",
+      "Motor isiyo na brashi",
+      "Nguvu ya 340 UWO",
+      "LED ya modi 3",
+      "Chuck ya 1/2-inchi",
+      "Ubunifu thabiti"
+    ]
+  },
+  "milwaukeeM12Fuel3404": {
+    "title": "Bisibisi ya Nyundo Ndogo Kabisa ya Milwaukee M12 FUEL 3404",
+    "description": "Bisibisi ya nyundo ya kizazi cha 3 ya Milwaukee M12 FUEL 3404 inatoa torque ya 400 in-lbs katika muundo mdogo kabisa wa 12V na chuck ya 1/2-inchi kwa nafasi finyu.",
+    "features": [
+      "Mfumo wa 12V M12",
+      "Kizazi cha 3",
+      "Torque ya 400 in-lbs",
+      "Nafasi ndogo kabisa",
+      "Chuck ya 1/2-inchi",
+      "Ufikiaji wa nafasi finyu"
+    ]
+  },
+  "boschGws1350vs": {
+    "title": "Kisaga cha Pembeni cha Bosch GWS13-50VS Inchi 5 chenye Kasi Inayobadilika",
+    "description": "Bosch GWS13-50VS inaangazia motor ya 13A yenye kasi inayobadilika ya 2,800-11,500 RPM, udhibiti wa mtetemo, mfumo wa brashi wa Service Minder kwa usagaji wa diski ya inchi 5.",
+    "features": [
+      "Ukubwa wa diski ya inchi 5",
+      "Nguvu ya waya ya 13A",
+      "RPM inayobadilika ya 2,800-11,500",
+      "Udhibiti wa mtetemo",
+      "Service Minder",
+      "Daraja la kitaalamu"
+    ]
+  },
+  "makita9564cv": {
+    "title": "Kisaga cha Pembeni cha Makita 9564CV Inchi 4.5 chenye Kasi Inayobadilika",
+    "description": "Makita 9564CV inatoa nguvu ya 13A yenye kasi inayobadilika ya 2,800-10,500 RPM, ulinzi wa clutch ya mitambo ya SJS, na udhibiti wa kasi ya hatua 5 kwa matumizi ya inchi 4.5.",
+    "features": [
+      "Ukubwa wa diski ya inchi 4.5",
+      "Nguvu ya waya ya 13A",
+      "2,800-10,500 RPM",
+      "Clutch ya mitambo ya SJS",
+      "Kasi inayobadilika ya hatua 5",
+      "Vipengele vya usalama"
+    ]
+  },
+  "milwaukee278020": {
+    "title": "Kisaga cha Pembeni cha Milwaukee 2780-20 M18 FUEL Inchi 4.5",
+    "description": "Kisaga cha pembeni cha Milwaukee 2780-20 M18 FUEL chenye motor isiyo na brashi, kasi ya 8,500 RPM, breki ya RAPIDSTOP, na swichi ya paddle kwa usagaji wa inchi 4.5 bila waya.",
+    "features": [
+      "M18 FUEL isiyo na waya",
+      "Ukubwa wa diski ya inchi 4.5",
+      "Motor isiyo na brashi",
+      "8,500 RPM",
+      "Breki ya RAPIDSTOP",
+      "Usalama wa swichi ya paddle"
+    ]
+  },
+  "boschGwx1450pbd": {
+    "title": "Kisaga cha Pembeni cha Bosch GWX14-50PBD X-LOCK Inchi 5",
+    "description": "Bosch GWX14-50PBD inaangazia motor ya 13A yenye 11,500 RPM, mfumo wa kubadilisha gurudumu wa X-LOCK mara 5 haraka kuliko kawaida, usagaji wa inchi 5 wa utendaji wa juu.",
+    "features": [
+      "Ukubwa wa diski ya inchi 5",
+      "Nguvu ya waya ya 13A",
+      "11,500 RPM",
+      "Mabadiliko ya X-LOCK mara 5 haraka",
+      "Utendaji wa juu",
+      "Mabadiliko ya haraka ya gurudumu"
+    ]
+  },
+  "makitaGa7021": {
+    "title": "Kisaga cha Pembeni cha Makita GA7021 cha Kazi Nzito Inchi 7",
+    "description": "Kisaga cha pembeni cha Makita GA7021 cha kazi nzito inchi 7 chenye motor ya 15A, 8,500 RPM, gia za beveli zilizochongwa kwa maisha marefu mara 2 katika matumizi yanayohitaji.",
+    "features": [
+      "Ukubwa wa diski ya inchi 7",
+      "Nguvu ya waya ya 15A",
+      "8,500 RPM",
+      "Ujenzi wa kazi nzito",
+      "Gia za beveli zilizochongwa",
+      "Maisha marefu mara 2"
+    ]
+  },
+  "cmCyclone4628": {
+    "title": "Hoisti ya Mnyororo ya Mwongozo ya CM Cyclone 4628 Tani 4",
+    "description": "CM Cyclone 4628 ni hoisti ya mnyororo ya mwongozo yenye uwezo wa tani 4 yenye ujenzi wa aloi ya alumini, mfumo wa breki wa Weston, na kikomo cha mzigo kilichounganishwa kwa usalama.",
+    "features": [
+      "Uwezo wa tani 4",
+      "Uendeshaji wa mwongozo",
+      "Aloi ya alumini",
+      "Breki ya Weston",
+      "Kikomo cha mzigo",
+      "Imeidhinishwa kwa usalama"
+    ]
+  },
+  "harringtonCb050": {
+    "title": "Hoisti ya Mnyororo ya Mwongozo ya Harrington CB050 Tani 5",
+    "description": "Harrington CB050 hoisti ya mnyororo ya mwongozo ya tani 5 ya kazi nzito yenye ulinzi wa kupakia kupita kiasi wa clutch na ujenzi wa chuma wa kudumu kwa kuinua viwandani.",
+    "features": [
+      "Uwezo wa tani 5",
+      "Uendeshaji wa mwongozo",
+      "Ubunifu wa kazi nzito",
+      "Ulinzi wa clutch",
+      "Ujenzi wa chuma",
+      "Daraja la viwandani"
+    ]
+  },
+  "cmLodestarL1": {
+    "title": "Hoisti ya Mnyororo ya Umeme ya CM Lodestar L1 Tani 1",
+    "description": "CM Lodestar L1 ni hoisti ya mnyororo ya umeme ya tani 1 yenye uendeshaji wa kasi moja, muundo wa kupachika ndoano kwa matumizi ya kuinua ya viwandani ya madhumuni ya jumla.",
+    "features": [
+      "Uwezo wa tani 1",
+      "Uendeshaji wa umeme",
+      "Kasi moja",
+      "Upachikaji wa ndoano",
+      "Madhumuni ya jumla",
+      "Utendaji wa kuaminika"
+    ]
+  },
+  "harringtonNer020ld": {
+    "title": "Hoisti ya Mnyororo ya Umeme ya Harrington NER020LD Tani 2",
+    "description": "Harrington NER020LD hoisti ya mnyororo ya umeme ya tani 2 yenye chaguzi za kasi moja/mbili na udhibiti wa VFD kwa ushughulikiaji sahihi wa mzigo katika mazingira ya viwandani.",
+    "features": [
+      "Uwezo wa tani 2",
+      "Uendeshaji wa umeme",
+      "Kasi moja/mbili",
+      "Udhibiti wa VFD",
+      "Ushughulikiaji wa usahihi",
+      "Mazingira ya viwandani"
+    ]
+  },
+  "cmSeries62210t": {
+    "title": "Hoisti ya Mnyororo ya Mwongozo ya CM Series 622 10 Ton",
+    "description": "CM Series 622-10T ni hoisti ya mnyororo ya mwongozo ya chuma yote ya tani 10 yenye muundo wa chini sana wa nafasi ya kichwa na dhamana ya maisha kwa kuinua viwandani kwa kazi nzito.",
+    "features": [
+      "Uwezo wa tani 10",
+      "Uendeshaji wa mwongozo",
+      "Ujenzi wa chuma yote",
+      "Nafasi ya chini sana ya kichwa",
+      "Dhamana ya maisha",
+      "Viwanda nzito"
+    ]
+  },
   "utilities": {
     "variant": {
       "titleSuffix": " - Toleo la {{number}}",

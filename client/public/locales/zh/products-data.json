@@ -961,7 +961,7 @@
       ],
       "industries": [
         "配电",
-        "太阳能",
+        ""��阳能",
         "电信",
         "工业制造",
         "数据中心",
@@ -3580,6 +3580,1386 @@
       "IP68 防护，适用于恶劣环境",
       "2m 电缆连接",
       "通过 ATEX、IECEx、CE 认证"
+    ]
+  },
+  "belden8205": {
+    "title": "百通 8205 仪器仪表电缆",
+    "description": "百通 8205 仪器仪表双绞线电缆，具有 20 AWG 多股镀锡铜导体。PVC 绝缘和护套，可在工业控制应用中实现可靠的信号传输。",
+    "features": [
+      "20 AWG 多股镀锡铜导体",
+      "1 根双绞线配置",
+      "PVC 绝缘和护套",
+      "非屏蔽结构",
+      "300V 电压等级",
+      "温度范围：-20°C 至 +80°C",
+      "出色的信号完整性",
+      "易于安装和端接"
+    ]
+  },
+  "belden8442": {
+    "title": "百通 8442 屏蔽仪器仪表电缆",
+    "description": "百通 8442 高导电性屏蔽双绞线电缆，具有 22 AWG 导体。具有箔和编织屏蔽（90% 覆盖率），可在工业仪器仪表中提供卓越的 EMI 保护。",
+    "features": [
+      "22 AWG 高导电性铜",
+      "1 根带屏蔽的双绞线",
+      "箔 + 编织屏蔽（90% 覆盖率）",
+      "PVC 绝缘和护套",
+      "300V 电压等级",
+      "温度范围：-20°C 至 +80°C",
+      "卓越的 EMI/RFI 保护",
+      "非常适合嘈杂的环境"
+    ]
+  },
+  "belden8725": {
+    "title": "百通 8725 多芯仪器仪表电缆",
+    "description": "百通 8725 多芯仪器仪表电缆，具有 4 对 #20 AWG 导体。CM 级，具有整体箔屏蔽，可在商业装置中实现可靠的信号传输。",
+    "features": [
+      "#20 AWG 多股镀锡铜",
+      "4 根双绞线配置",
+      "整体箔屏蔽保护",
+      "PVC 绝缘和护套",
+      "300V 电压等级",
+      "扩展温度：-20°C 至 +105°C",
+      "CM 级，适用于商业用途",
+      "多导体多功能性"
+    ]
+  },
+  "alphaWire9174": {
+    "title": "Alpha Wire 9174 仪器仪表电缆",
+    "description": "Alpha Wire 9174 双绞线电缆，具有 20 AWG 镀锡铜导体。具有聚乙烯绝缘、铝箔-聚酯薄膜屏蔽和 1100V 等级，适用于要求苛刻的应用。",
+    "features": [
+      "20 AWG 镀锡铜导体",
+      "1 根带排扰线的双绞线",
+      "聚乙烯 (PE) 绝缘",
+      "铝箔-聚酯薄膜 + 排扰线屏蔽",
+      "1100V 高电压等级",
+      "宽温度范围：-40°C 至 +80°C",
+      "PVC 外护套",
+      "出色的电气性能"
+    ]
+  },
+  "alphaWireXtraGuard4": {
+    "title": "Alpha Wire Xtra-Guard 4 工业电缆",
+    "description": "Alpha Wire Xtra-Guard 4 超耐用工业电缆，具有交联聚乙烯绝缘。UL VW-1 和 CSA FT-1 级，适用于要求苛刻的工业环境。",
+    "features": [
+      "18-12 AWG 多股镀锡铜",
+      "超耐用结构",
+      "交联聚乙烯绝缘",
+      "热塑性弹性体护套",
+      "600V 电压等级",
+      "温度范围：-40°C 至 +105°C",
+      "UL VW-1、CSA FT-1 级",
+      "卓越的耐化学性"
+    ]
+  },
+  "phoenixContactM12Oneclick": {
+    "title": "菲尼克斯电气 M12 ONECLICK 连接器",
+    "description": "菲尼克斯电气 M12 ONECLICK 推拉式圆形连接器，具有 IP67 保护。具��� 4-8 极配置和多种编码选项，适用于工业传感器和执行器连接。",
+    "features": [
+      "推拉式 ONECLICK 机制",
+      "4-8 极配置",
+      "每个触点 4A 电流额定值",
+      "250V 交流/直流电压",
+      "IP67 保护等级",
+      "A、B、D、X 编码选项",
+      "面板和电缆安装",
+      "温度：-40°C 至 +85°C"
+    ]
+  },
+  "phoenixContactM23": {
+    "title": "菲尼克斯电气 M23 混合连接器",
+    "description": "菲尼克斯电气 M23 混合圆形连接器，用于信号、数据和电源传输。具有最多 17 极、波峰焊接兼容性以及配合时 IP67 保护。",
+    "features": [
+      "混合信号/数据/电源连接器",
+      "最多 17 极配置",
+      "高达 16A 电流容量",
+      "630V 交流/直流电压等级",
+      "配合时 IP67 保护",
+      "波峰焊接兼容",
+      "多应用多功能性",
+      "温度：-40°C 至 +100°C"
+    ]
+  },
+  "weidmullerRockstarModuplug": {
+    "title": "魏德米勒 RockStar ModuPlug 重载连接器",
+    "description": "魏德米勒 RockStar ModuPlug 模块化重载工业连接器。具有模块化插入系统、高达 35A/830V 容量以及 IP65/IP66/IP67 保护，适用于工业机械。",
+    "features": [
+      "模块化重载设计",
+      "高达 35A 电流容量",
+      "高达 830V 电压等级",
+      "IP65/IP66/IP67 保护",
+      "模块化插入系统",
+      "压接和螺钉触点",
+      "工业机械等级",
+      "温度：-40°C 至 +100°C"
+    ]
+  },
+  "amphenolM12Industrial": {
+    "title": "安费诺 M12 工业圆形连接器",
+    "description": "安费诺 M12 工业圆形连接器，用于传感器和执行器应用。具有 3-12 极选项、IP67/IP68 保护以及多个编码变体，适用于工业自动化。",
+    "features": [
+      "工业圆形 M12 设计",
+      "3、4、5、8、12 极选项",
+      "每个触点 4A 额定值",
+      "250V 交流/直流电压",
+      "IP67/IP68 保护",
+      "A、B、D、X 编码变体",
+      "传感器/执行器应用",
+      "温度：-40°C 至 +85°C"
+    ]
+  },
+  "amphenolMilDtl5015": {
+    "title": "安费诺 MIL-DTL-5015 军用连接器",
+    "description": "安费诺 MIL-DTL-5015 军用规格圆形连接器，具有加固结构。具有 2-128 个位置、铝合金外壳和极端温度等级，适用于恶劣环境。",
+    "features": [
+      "军用规格 MIL-DTL-5015",
+      "加固结构",
+      "2-128 个触点位置",
+      "高达 65A 电流容量",
+      "高达 1000V 电压等级",
+      "铝合金外壳",
+      "橄榄绿/黑色饰面",
+      "极端温度：-65°C 至 +200°C"
+    ]
+  },
+  "mennekesPowertopXtra16a": {
+    "title": "Mennekes PowerTOP Xtra 16A 工业插头",
+    "description": "Mennekes PowerTOP Xtra 16A 工业插头，具有 3P+N+PE 配置。符合 IEC 60309 标准，具有 IP54/IP67 保护，可在工业环境中实现可靠的电源连接。",
+    "features": [
+      "16A 电流额定值",
+      "400V 电压容量",
+      "3P+N+PE（5 极）配置",
+      "IP54/IP67 保护等级",
+      "符合 IEC 60309 标准",
+      "高级塑料材料",
+      "6h 编码标准",
+      "温度：-25°C 至 +40°C"
+    ]
+  },
+  "mennekesPowertopXtra32a": {
+    "title": "Mennekes PowerTOP Xtra 32A 工业插头",
+    "description": "Mennekes PowerTOP Xtra 32A 工业插头，具有 X-CONTACT 技术。具有 32A 容量、IP67 保护和抗冲击结构，适用于要求苛刻的工业应用。",
+    "features": [
+      "32A 高电流额定值",
+      "400V 电压容量",
+      "3P+N+PE（5 极）配置",
+      "IP67 防水保护",
+      "X-CONTACT 技术",
+      "IEC 60309 标准",
+      "抗冲击塑料",
+      "温度：-25°C 至 +40°C"
+    ]
+  },
+  "mennekes552": {
+    "title": "Mennekes 552 防水工业插头",
+    "description": "Mennekes 552 防水工业插头，额定用于户外应用。具有 16A 容量、IP67 保护和热塑性结构，可实现可靠的户外电源连接。",
+    "features": [
+      "防水 IP67 级",
+      "16A 电流容量",
+      "230V 电压等级",
+      "2P+PE（3 极）配置",
+      "户外等级设计",
+      "热塑性材料",
+      "耐腐蚀",
+      "温度：-25°C 至 +40°C"
+    ]
+  },
+  "hubbellHbl2621": {
+    "title": "哈勃 Hubbellock HBL2621 旋锁插头",
+    "description": "哈勃 Hubbellock HBL2621 旋锁插头，具有 30A 容量。具有 L15-30P 配置、尼龙结构和安全的旋锁设计，可实现可靠的工业电源连接。",
+    "features": [
+      "30A 旋锁设计",
+      "250V 电压等级",
+      "3 极 4 线配置",
+      "L15-30P NEMA 配置",
+      "尼龙外壳材料",
+      "8-10 AWG 电线容量",
+      "安全锁定机制",
+      "温度：-40°C 至 +75°C"
+    ]
+  },
+  "legrandCee16a": {
+    "title": "罗格朗 CEE 16A 工业插头",
+    "description": "罗格朗 CEE 16A 工业插头，符合 IEC 60309 标准。具有 3P+N+PE 配置、IP44 保护和聚酰胺结构，可实现可靠的工业配电。",
+    "features": [
+      "符合 IEC 60309 标准",
+      "16A 电流额定值",
+      "400V 电压容量",
+      "3P+N+PE 配置",
+      "IP44 保护等级",
+      "聚酰胺材料",
+      "6h 编码标准",
+      "温度：-25°C 至 +40°C"
+    ]
+  },
+  "bussmannLpCc30": {
+    "title": "Bussmann LP-CC-30 Class CC 延时保险丝",
+    "description": "Bussmann (Eaton) LP-CC-30 Class CC 延时保险丝，具有 30A 额定值。具有 200kA 中断额定值，符合 UL 248-4 标准，非常适合电机电路保护。",
+    "features": [
+      "Class CC 延时保险丝",
+      "30A 电流额定值",
+      "600V 交流电压",
+      "200kA 中断额定值",
+      "13/32 x 1-1/2 英寸尺寸",
+      "符合 UL 248-4 标准",
+      "电机电路保护",
+      "抑制型设计"
+    ]
+  },
+  "bussmannFnqR60": {
+    "title": "Bussmann FNQ-R-60 Class CC 抑制型保险丝",
+    "description": "Bussmann FNQ-R-60 Class CC 延时抑制型保险丝，具有 60A 额定值。具有 200kA 中断容量和抑制型设计，适用于工业控制应用。",
+    "features": [
+      "Class CC 抑制型保险丝",
+      "60A 电流额定值",
+      "600V 交流电压",
+      "200kA 中断额定值",
+      "延时特性",
+      "13/32 x 1-1/2 英寸尺寸",
+      "符合 UL 248-4 标准",
+      "工业控制等级"
+    ]
+  },
+  "littelfuseL60030c": {
+    "title": "Littelfuse L60030C CC级熔断器座",
+    "description": "Littelfuse L60030C CC级熔断器座，额定电流为30A。具有3极DIN导轨安装、模块化结构和600V容量，适用于工业面板应用。",
+    "features": [
+      "CC级熔断器座",
+      "30A额定电流",
+      "600V电压容量",
+      "3极配置",
+      "DIN导轨安装",
+      "模块化结构",
+      "热塑性材料",
+      "符合UL 248-4标准"
+    ]
+  },
+  "littelfuseAto30": {
+    "title": "Littelfuse ATO-30汽车刀片式熔断器",
+    "description": "Littelfuse ATO-30汽车/工业刀片式熔断器，额定电流为30A。标准ATO/ATC刀片设计，适用于低压汽车和工业应用。",
+    "features": [
+      "汽车刀片式熔断器",
+      "30A额定电流",
+      "32V DC电压",
+      "标准ATO/ATC尺寸",
+      "绿色颜色编码",
+      "锌刀片端子",
+      "汽车/低压使用",
+      "易于更换"
+    ]
+  },
+  "mersenA70p1004": {
+    "title": "Mersen A70P100-4 J级快速熔断器",
+    "description": "Mersen A70P100-4 J级快速熔断器，额定电流为100A。具有200kA分断能力、600V时40kA峰值通流以及符合UL 248-8标准。",
+    "features": [
+      "J级快速熔断器",
+      "100A额定电流",
+      "600V AC电压",
+      "200kA分断额定值",
+      "40,000A峰值通流",
+      "1-5/8 x 4英寸尺寸",
+      "符合UL 248-8标准",
+      "限流设计"
+    ]
+  },
+  "tdkLambdaI1c120w": {
+    "title": "TDK-Lambda i1C-120W非隔离DC-DC转换器",
+    "description": "TDK-Lambda i1C-120W非隔离DC-DC转换器，效率为98%。具有9-36V输入范围、120W输出功率以及全面的工业应用保护。",
+    "features": [
+      "非隔离DC-DC转换器",
+      "9-36V DC输入范围",
+      "120W输出功率",
+      "高达98%的效率",
+      "单/双输出选项",
+      "±1%输出调节",
+      "OVP、OCP、OTP保护",
+      "温度：-40°C至+85°C"
+    ]
+  },
+  "tdkLambdaCnB110": {
+    "title": "TDK-Lambda CN-B110隔离四分之一砖式转换器",
+    "description": "TDK-Lambda CN-B110隔离四分之一砖式DC-DC转换器。具有43-160V输入、50-300W输出、1500V隔离以及高达92%的效率。",
+    "features": [
+      "隔离四分之一砖式封装",
+      "43-160V DC输入范围",
+      "50-300W输出功率",
+      "高达92%的效率",
+      "1500V DC隔离",
+      "±0.5%输出调节",
+      "工业标准占位面积",
+      "温度：-40°C至+100°C"
+    ]
+  },
+  "vicorDcm2322": {
+    "title": "Vicor DCM 2322隔离式ZVS升降压转换器",
+    "description": "Vicor DCM 2322隔离式零电压开关升降压转换器。具有9-50V输入、9-420V输出、120W功率和96%效率，具有2250V隔离。",
+    "features": [
+      "隔离式ZVS升降压拓扑",
+      "9-50V DC输入范围",
+      "9-420V DC输出范围",
+      "120W输出功率",
+      "高达96%的效率",
+      "2250V DC隔离",
+      "零电压开关",
+      "温度：-40°C至+125°C"
+    ]
+  },
+  "vicorDcm3623": {
+    "title": "Vicor DCM 3623隔离式VIA转换器",
+    "description": "Vicor DCM 3623隔离式VIA（Vicor集成适配器）转换器，输出功率为320W。具有200-425V输入、96%效率和DCM ChiP封装中的2250V隔离。",
+    "features": [
+      "隔离式VIA技术",
+      "200-425V DC输入范围",
+      "320W输出功率",
+      "高达96%的效率",
+      "2250V DC隔离",
+      "±1%输出调节",
+      "紧凑型DCM ChiP封装",
+      "温度：-40°C至+125°C"
+    ]
+  },
+  "murataDcs612": {
+    "title": "Murata DCS6-12隔离式DC-DC转换器",
+    "description": "Murata DCS6-12隔离式DC-DC转换器，输出功率为6W。具有9-18V输入、12V输出、1500V隔离和SIP封装，适用于空间受限的应用。",
+    "features": [
+      "隔离式DC-DC转换器",
+      "9-18V DC输入范围",
+      "12V DC输出电压",
+      "6W输出功率",
+      "高达84%的效率",
+      "1500V DC隔离",
+      "±1%输出调节",
+      "紧凑型SIP封装"
+    ]
+  },
+  "eaton9px1500rt": {
+    "title": "Eaton 9PX1500RT UPS系统",
+    "description": "Eaton 9PX1500RT双转换在线UPS，具有1500VA/1350W容量。具有机架/塔式可转换设计、锂离子电池选项以及网络卡就绪，可实现关键电源保护。",
+    "features": [
+      "1500VA / 1350W容量",
+      "双转换在线拓扑",
+      "120/220/230/240V I/O电压",
+      "机架/塔式可转换",
+      "满载时3-11分钟运行时间",
+      "锂离子电池选项",
+      "网络卡就绪",
+      "具有状态的LCD显示屏"
+    ]
+  },
+  "eaton9px3000rt": {
+    "title": "Eaton 9PX3000RT在线UPS系统",
+    "description": "Eaton 9PX3000RT在线双转换UPS，具有3000VA/3000W容量。具有ABM技术、高达93%的能源之星认证效率和2U机架/塔式设计。",
+    "features": [
+      "3000VA / 3000W容量",
+      "在线双转换",
+      "200-240V输入/输出",
+      "ABM电池管理",
+      "高达93%的能源之星效率",
+      "2U机架/塔式安装",
+      "USB、串行、网络卡插槽",
+      "热插拔电池"
+    ]
+  },
+  "apcSmt1500rm2u": {
+    "title": "APC Smart-UPS SMT1500RM2U机架式UPS",
+    "description": "APC Smart-UPS SMT1500RM2U线路交互式UPS，具有1500VA/1000W容量。具有2U机架安装设计、LCD显示屏和用于网络管理卡的SmartSlot。",
+    "features": [
+      "1500VA / 1000W容量",
+      "线路交互式拓扑",
+      "120V输入/输出电压",
+      "2U机架安装设计",
+      "满载时4.3分钟运行时间",
+      "SmartSlot网络卡就绪",
+      "LCD状态显示",
+      "自动电压调节"
+    ]
+  },
+  "apcSrt8kxlt": {
+    "title": "APC Smart-UPS SRT8KXLT在线UPS",
+    "description": "APC Smart-UPS SRT8KXLT在线双转换UPS，具有8000VA/8000W容量。具有EPO端子、网络管理、机架/塔式设计以及高达95%的效率。",
+    "features": [
+      "8000VA / 8000W容量",
+      "在线双转换",
+      "208V输入/输出电压",
+      "机架/塔式安装",
+      "满载时5.5分钟运行时间",
+      "EPO紧急电源关闭",
+      "包含网络管理",
+      "高达95%的效率"
+    ]
+  },
+  "schneiderGalaxyVs": {
+    "title": "施耐德电气Galaxy VS模块化UPS",
+    "description": "施耐德电气Galaxy VS模块化三相在线UPS，具有10-100kVA容量。具有99% ECO模式效率、N+1冗余、触摸屏HMI和可扩展电源模块。",
+    "features": [
+      "10-100kVA可扩展容量",
+      "模块化三相在线",
+      "380/400/415V三相I/O",
+      "高达99%的ECO模式效率",
+      "模块化电源模块",
+      "N+1可配置冗余",
+      "触摸屏HMI显示",
+      "热插拔模块"
+    ]
+  },
+  "rittalJb121406": {
+    "title": "Rittal JB121406钢制接线盒",
+    "description": "Rittal JB121406是一款坚固的钢制接线盒，具有IP66防护等级，并具有铰链门，便于检修。尺寸为12×14×6英寸，具有NEMA 4等级，适用于工业环境。",
+    "features": [
+      "钢结构，经久耐用",
+      "IP66防护等级",
+      "铰链门，便于检修",
+      "NEMA 4等级",
+      "12×14×6英寸尺寸",
+      "工业级质量"
+    ]
+  },
+  "hoffmanA6044ch": {
+    "title": "Hoffman A6044CH钢制接线盒",
+    "description": "Hoffman A6044CH是一款紧凑型钢制接线盒，具有连续铰链设计。具有NEMA 12和IP65防护等级，非常适合室内工业应用。",
+    "features": [
+      "6×4×4英寸紧凑尺寸",
+      "钢结构",
+      "连续铰链设计",
+      "NEMA 12等级",
+      "IP65防护等级",
+      "工业应用"
+    ]
+  },
+  "hoffmanA1086chscfg": {
+    "title": "Hoffman A1086CHSCFG玻璃纤维接线盒",
+    "description": "Hoffman A1086CHSCFG玻璃纤维接线盒，带有四分之一圈锁扣。具有NEMA 13和IP66防护等级，适用于恶劣环境。",
+    "features": [
+      "玻璃纤维结构",
+      "10×8×6英寸尺寸",
+      "四分之一圈锁扣",
+      "NEMA 13等级",
+      "IP66防护等级",
+      "耐腐蚀"
+    ]
+  },
+  "fiboxArca806030": {
+    "title": "Fibox ARCA 806030聚碳酸酯接线盒",
+    "description": "Fibox ARCA 806030聚碳酸酯接线盒，具有抗紫外线能力。提供IP66/IP67双重防护，适用于室外和恶劣环境。",
+    "features": [
+      "聚碳酸酯材料",
+      "8×6×3英寸尺寸",
+      "抗紫外线",
+      "IP66/IP67双重等级",
+      "适合户外",
+      "透明盖选项"
+    ]
+  },
+  "fiboxTempoTam302515": {
+    "title": "Fibox TEMPO TAM302515 ABS接线盒",
+    "description": "Fibox TEMPO TAM302515 ABS接线盒，带有透明盖，便于目视检查。具有IP65防护等级和公制尺寸。",
+    "features": [
+      "ABS结构",
+      "300×250×150mm尺寸",
+      "透明盖",
+      "IP65防护等级",
+      "目视检查",
+      "轻量化设计"
+    ]
+  },
+  "phoenixBc356": {
+    "title": "Phoenix Contact BC 35.6模块化DIN导轨外壳",
+    "description": "Phoenix Contact BC 35.6是一款模块化DIN导轨外壳，宽度为35.6mm。由聚酰胺制成，具有IP20防护等级，适用于标准工业应用。",
+    "features": [
+      "35.6mm宽度",
+      "模块化设计",
+      "聚酰胺材料",
+      "IP20防护等级",
+      "DIN导轨安装",
+      "易于安装"
+    ]
+  },
+  "phoenixMcsIp67": {
+    "title": "Phoenix Contact MCS-IP67 DIN导轨外壳",
+    "description": "Phoenix Contact MCS-IP67 DIN导轨外壳，具有增强的保护功能。具有53.6mm宽度、带有密封件的IP67等级和推入式端子。",
+    "features": [
+      "53.6mm宽度",
+      "带有密封件的IP67等级",
+      "推入式端子",
+      "增强的保护",
+      "DIN导轨安装",
+      "工业应用"
+    ]
+  },
+  "abbMistral36": {
+    "title": "ABB Mistral36 DIN 导轨外壳",
+    "description": "ABB Mistral36 是一款 36 模块 DIN 导轨外壳，带有透明门。 墙壁安装设计，便于安装和访问。",
+    "features": [
+      "36 模块容量",
+      "透明门",
+      "墙壁安装设计",
+      "DIN 导轨兼容",
+      "易于访问",
+      "模块化配置"
+    ]
+  },
+  "abbMistral54": {
+    "title": "ABB Mistral54 电表外壳",
+    "description": "ABB Mistral54 是一款 54 模块电表外壳，带有可翻转门和卡扣式关闭机构。 专为计量应用而设计。",
+    "features": [
+      "54 模块容量",
+      "可翻转门",
+      "卡扣式关闭",
+      "电表外壳",
+      "DIN 导轨安装",
+      "灵活的配置"
+    ]
+  },
+  "phoenixIcs77": {
+    "title": "Phoenix Contact ICS-77 模块化连接外壳",
+    "description": "Phoenix Contact ICS-77 紧凑型 DIN 导轨外壳，具有模块化连接选项。 在 77×25×12mm 尺寸中支持 RJ45/USB 连接。",
+    "features": [
+      "77×25×12mm 紧凑尺寸",
+      "模块化连接",
+      "RJ45/USB 支持",
+      "IP20 防护等级",
+      "DIN 导轨安装",
+      "通信应用"
+    ]
+  },
+  "watlowFirerod14500": {
+    "title": "Watlow FIREROD-1/4-500 筒式加热器",
+    "description": "Watlow FIREROD-1/4-500 是一款 1/4 英寸直径筒式加热器，额定功率为 500W，240V。 卷曲结构，实现最大的热传递。",
+    "features": [
+      "1/4 英寸直径",
+      "500W 功率额定值",
+      "240V 操作",
+      "卷曲结构",
+      "高热传递",
+      "工业应用"
+    ]
+  },
+  "chromaloxTlo20": {
+    "title": "Chromalox TLO-20 管状浸入式加热器",
+    "description": "Chromalox TLO-20 是一款 20kW 管状浸入式加热器，采用碳钢结构。 专为 480V 工业加热应用而设计。",
+    "features": [
+      "20kW 功率输出",
+      "管状浸入式设计",
+      "480V 操作",
+      "碳钢结构",
+      "工业加热",
+      "高温能力"
+    ]
+  },
+  "watlowWatrod43010": {
+    "title": "Watlow WATROD-430-10 管状加热器",
+    "description": "Watlow WATROD-430-10 管状加热器，直径为 0.430 英寸，用于管道加热。 10kW 功率输出，适用于工业空气加热。",
+    "features": [
+      "0.430 英寸直径",
+      "10kW 功率额定值",
+      "管道加热应用",
+      "管状结构",
+      "高效率",
+      "工业等级"
+    ]
+  },
+  "chromaloxSre10": {
+    "title": "Chromalox SRE-10 电加热盘管",
+    "description": "Chromalox SRE-10 电加热盘管，在 240V 下具有 10kW 的容量。 电阻丝结构，实现可靠的加热。",
+    "features": [
+      "10kW 功率输出",
+      "240V 操作",
+      "电阻丝结构",
+      "电加热盘管",
+      "可靠的性能",
+      "工业应用"
+    ]
+  },
+  "omegaCsh102": {
+    "title": "Omega CSH-102 弹簧盘管加热器",
+    "description": "Omega CSH-102 是一款 1000W 盘管加热器，采用弹簧式结构。 120V 操作，适用于各种加热应用。",
+    "features": [
+      "1000W 功率额定值",
+      "120V 操作",
+      "弹簧式结构",
+      "盘管加热器设计",
+      "灵活的安装",
+      "多功能应用"
+    ]
+  },
+  "watlowFirebarFb15": {
+    "title": "Watlow FIREBAR-FB15 单端管状加热器",
+    "description": "Watlow FIREBAR-FB15 单端管状加热元件，额定功率为 1500W，240V。 法兰安装，确保安装牢固。",
+    "features": [
+      "单端管状设计",
+      "1500W 功率输出",
+      "240V 操作",
+      "法兰安装",
+      "牢固的安装",
+      "工业加热"
+    ]
+  },
+  "chromaloxCes028": {
+    "title": "Chromalox CES-028 筒式元件",
+    "description": "Chromalox CES-028 筒式加热元件，容量为 2800W。 不锈钢结构，适用于 480V 应用。",
+    "features": [
+      "2800W 功率额定值",
+      "480V 操作",
+      "不锈钢结构",
+      "筒式元件设计",
+      "耐腐蚀",
+      "高温"
+    ]
+  },
+  "watlowUltramicAln250": {
+    "title": "Watlow ULTRAMIC-AlN-250 陶瓷加热器",
+    "description": "Watlow ULTRAMIC-AlN-250 陶瓷加热器，采用氮化铝基板。 250W 清洁热量产生，适用于精密应用。",
+    "features": [
+      "氮化铝陶瓷",
+      "250W 功率输出",
+      "清洁热量产生",
+      "精确加热",
+      "高导热性",
+      "半导体应用"
+    ]
+  },
+  "omegaCss01250": {
+    "title": "Omega CSS-01250  Mica 履带式加热器",
+    "description": "Omega CSS-01250 履带式加热器，采用云母绝缘。 在 240V 下具有 1250W 容量，适用于表面加热应用。",
+    "features": [
+      "1250W 功率额定值",
+      "240V 操作",
+      "云母绝缘",
+      "履带式加热器设计",
+      "表面加热",
+      "均匀的热量分布"
+    ]
+  },
+  "chromaloxTmo10": {
+    "title": "Chromalox TMO-10 管状金属过热器",
+    "description": "Chromalox TMO-10 管状金属过热器，带有 INCOLOY 护套。 在 600V 下具有 10kW 容量，适用于高温应用。",
+    "features": [
+      "10kW 功率输出",
+      "600V 操作",
+      "INCOLOY 护套",
+      "管状金属过热设计",
+      "高温能力",
+      "耐腐蚀"
+    ]
+  },
+  "watlowCirculationCh50": {
+    "title": "Watlow 循环加热器 CH-50",
+    "description": "Watlow 循环加热器 CH-50，具有 50kW 容量，用于过程加热。 法兰设计，适用于 480V 工业应用。",
+    "features": [
+      "50kW 功率输出",
+      "法兰安装",
+      "480V 操作",
+      "过程加热",
+      "循环设计",
+      "工业应用"
+    ]
+  },
+  "chromaloxCvep15": {
+    "title": "Chromalox CVEP-15 危险场所加热器",
+    "description": "Chromalox CVEP-15 防爆加热器，额定功率为 15kW。 经过 Class I Division 1 认证，适用于危险场所。",
+    "features": [
+      "15kW 功率输出",
+      "防爆设计",
+      "Class I Div 1 等级",
+      "危险场所认证",
+      "工业安全",
+      "符合 ATEX 标准"
+    ]
+  },
+  "watlowDuctDh30": {
+    "title": "Watlow 管道加热器 DH-30",
+    "description": "Watlow 管道加热器 DH-30，具有 30kW 容量，用于空气加热。 480V 3 相模块化结构，适用于 HVAC 应用。",
+    "features": [
+      "30kW 功率输出",
+      "空气加热应用",
+      "480V 3 相",
+      "模块化结构",
+      "管道安装",
+      "HVAC 系统"
+    ]
+  },
+  "chromaloxImmersionPmh25": {
+    "title": "Chromalox 浸入式加热器 PMH-25",
+    "description": "Chromalox 浸入式加热器 PMH-25，具有 25kW 容量。 ANSI 法兰安装，采用不锈钢结构，适用于 600V 应用。",
+    "features": [
+      "25kW 功率输出",
+      "ANSI 法兰安装",
+      "600V 操作",
+      "不锈钢结构",
+      "浸入式加热",
+      "工业过程"
+    ]
+  },
+  "omegaFma1020": {
+    "title": "Omega FMA-1020 翅片式空气加热器",
+    "description": "Omega FMA-1020 翅片式空气加热器，具有 10kW 容量。 240V 操作，采用强制空气循环，实现高效加热。",
+    "features": [
+      "10kW 功率额定值",
+      "240V 操作",
+      "翅片式设计",
+      "强制空气循环",
+      "高效热传递",
+      "空气加热应用"
+    ]
+  },
+  "orientalMd6p38": {
+    "title": "Oriental Motor MD-6P38 BLDC 排气电机",
+    "description": "Oriental Motor MD-6P38 DC 轴流风扇电机，额定功率为 38W，24VDC。 6 极 BLDC 设计，具有 IP55 防护等级，适用于工业排气应用。",
+    "features": [
+      "38W 功率额定值",
+      "24VDC 操作",
+      "6 极 BLDC 设计",
+      "IP55 防护等级",
+      "DC 轴流风扇",
+      "工业排气"
+    ]
+  },
+  "nidecD12e24ts3": {
+    "title": "Nidec D12E-24TS3 BLDC 电机",
+    "description": "Nidec D12E-24TS3 BLDC 电机，尺寸为 12cm，可提供 83 CFM 的气流。 低噪音运行，在 24VDC 下运行，适用于冷却应用。",
+    "features": [
+      "24VDC 操作",
+      "12cm 尺寸",
+      "83 CFM 气流",
+      "低噪音设计",
+      "BLDC 技术",
+      "冷却应用"
+    ]
+  },
+  "deltaBfb1224h": {
+    "title": "Delta Electronics BFB1224H BLDC 排气电机",
+    "description": "Delta Electronics BFB1224H BLDC 排气电机，尺寸为 120mm。 24VDC 操作，具有 70,000 小时的使用寿命，可实现长期可靠性。",
+    "features": [
+      "120mm 尺寸",
+      "24VDC 操作",
+      "70,000 小时寿命",
+      "BLDC 技术",
+      "排气电机",
+      "长寿命"
+    ]
+  },
+  "orientalMa2308p": {
+    "title": "Oriental Motor MA-230-8P AC 轴流电机",
+    "description": "Oriental Motor MA-230-8P AC 轴流电机，尺寸为 80mm。 230VAC 操作，可为工业通风提供高气流。",
+    "features": [
+      "230VAC 操作",
+      "80mm 尺寸",
+      "高气流",
+      "AC 轴流设计",
+      "工业通风",
+      "可靠的性能"
+    ]
+  },
+  "nidecG1238b": {
+    "title": "Nidec G1238B 工业 BLDC 电机",
+    "description": "Nidec G1238B DC 轴流 BLDC 电机，额定功率为 38W。 12cm 尺寸，具有可变速度控制，适用于工业级应用。",
+    "features": [
+      "38W 功率额定值",
+      "12cm 尺寸",
+      "可变速度控制",
+      "DC 轴流 BLDC",
+      "工业等级",
+      "灵活的操作"
+    ]
+  },
+  "nidecGentletyphoonD1225c12": {
+    "title": "Nidec GentleTyphoon D1225C12 超静音散热器电机",
+    "description": "Nidec GentleTyphoon D1225C12 BLDC 散热器电机，在 12VDC 下以 1850 RPM 的速度运行。 超静音操作，实现精确冷却。",
+    "features": [
+      "12VDC 操作",
+      "1850 RPM 速度",
+      "超静音操作",
+      "BLDC 散热器电机",
+      "精确冷却",
+      "低振动"
+    ]
+  },
+  "orientalBle2m25s5": {
+    "title": "东方电机 BLE2M25S-5 BLDC 冷却电机",
+    "description": "东方电机 BLE2M25S-5 BLDC 电机，具有 25W 容量和速度控制。 24VDC 电压，适用于冷却应用。",
+    "features": [
+      "25W 功率额定值",
+      "24VDC 电压",
+      "速度控制",
+      "BLDC 电机",
+      "冷却应用",
+      "变速"
+    ]
+  },
+  "deltaAfb1212she": {
+    "title": "台达电子 AFB1212SHE 高压 BLDC 电机",
+    "description": "台达电子 AFB1212SHE BLDC 电机，尺寸为 120mm。 12VDC 电压，具有高静压，适用于高要求的冷却。",
+    "features": [
+      "120mm 尺寸",
+      "12VDC 电压",
+      "高静压",
+      "BLDC 技术",
+      "高要求的应用",
+      "可靠的冷却"
+    ]
+  },
+  "nidecBetaVTa450dc": {
+    "title": "Nidec Beta V TA450DC PWM 冷却电机",
+    "description": "Nidec Beta V TA450DC BLDC 冷却电机，具有 PWM 控制。 12VDC 电压，4500 RPM 转速，适用于高性能冷却。",
+    "features": [
+      "12VDC 电压",
+      "PWM 控制",
+      "4500 RPM 转速",
+      "BLDC 冷却电机",
+      "高性能",
+      "变速"
+    ]
+  },
+  "orientalMf60Ac": {
+    "title": "东方电机 MF-60-AC 横流电机",
+    "description": "东方电机 MF-60-AC 横流电机，尺寸为 60mm。 230VAC 电压，提供均匀的气流分布。",
+    "features": [
+      "230VAC 电压",
+      "60mm 尺寸",
+      "横流设计",
+      "均匀的气流",
+      "安静运行",
+      "HVAC 应用"
+    ]
+  },
+  "orientalMd8p48": {
+    "title": "东方电机 MD-8P48 BLDC 通风电机",
+    "description": "东方电机 MD-8P48 BLDC 通风电机，额定功率为 48W，24VDC 电压。 IP55 防护等级，可提供高达 883 CFM 的气流。",
+    "features": [
+      "48W 功率额定值",
+      "24VDC 电压",
+      "IP55 防护等级",
+      "883 CFM 最大气流",
+      "BLDC 通风",
+      "高容量"
+    ]
+  },
+  "nidecG1751m": {
+    "title": "Nidec G1751M 高容量 BLDC 通风电机",
+    "description": "Nidec G1751M BLDC 电机，尺寸为 17cm，功率为 51W。 24VDC 电压，具有高容量和低振动。",
+    "features": [
+      "17cm 尺寸",
+      "51W 功率额定值",
+      "24VDC 电压",
+      "高容量",
+      "低振动",
+      "BLDC 技术"
+    ]
+  },
+  "deltaBfb1512vh": {
+    "title": "台达电子 BFB1512VH BLDC 通风电机",
+    "description": "台达电子 BFB1512VH BLDC 通风电机，尺寸为 150mm。 12VDC 电压，可提供 260 CFM 的气流。",
+    "features": [
+      "150mm 尺寸",
+      "12VDC 电压",
+      "260 CFM 气流",
+      "BLDC 通风",
+      "高性能",
+      "高效运行"
+    ]
+  },
+  "orientalBmu23005": {
+    "title": "东方电机 BMU230-05 BLDC 通风装置",
+    "description": "东方电机 BMU230-05 BLDC 电机装置，具有速度控制。 230VAC 电压，适用于通风应用。",
+    "features": [
+      "230VAC 电压",
+      "速度控制",
+      "BLDC 电机装置",
+      "通风应用",
+      "变速",
+      "工业级"
+    ]
+  },
+  "nidecD08a12ts1": {
+    "title": "Nidec D08A-12TS1 速度检测 BLDC 电机",
+    "description": "Nidec D08A-12TS1 BLDC 电机，尺寸为 80mm，具有脉冲输出。 12VDC 电压，具有速度检测功能。",
+    "features": [
+      "80mm 尺寸",
+      "12VDC 电压",
+      "脉冲输出",
+      "速度检测",
+      "BLDC 电机",
+      "反馈控制"
+    ]
+  },
+  "grundfos10sq07200": {
+    "title": "格兰富 10SQ07-200 潜水深井泵",
+    "description": "格兰富 10SQ07-200 潜水深井泵，提供 10 GPM 的流量，电机功率为 0.75 HP。 在 230V 电压下，扬程能力为 200 英尺，适用于住宅和轻型商业应用。",
+    "features": [
+      "10 GPM 流量",
+      "0.75 HP 电机",
+      "200 英尺扬程",
+      "230V 电压",
+      "潜水深井泵",
+      "可靠的性能"
+    ]
+  },
+  "franklin20fv1s4": {
+    "title": "富兰克林 20FV1S4 V 系列潜水泵",
+    "description": "富兰克林 20FV1S4 V 系列潜水泵，流量为 20 GPM。 1 HP 不锈钢结构，适用于 230V 应用。",
+    "features": [
+      "20 GPM 流量",
+      "1 HP 电机",
+      "230V 电压",
+      "不锈钢结构",
+      "V 系列设计",
+      "耐腐蚀"
+    ]
+  },
+  "grundfosSp307": {
+    "title": "格兰富 SP30-7 工业潜水泵",
+    "description": "格兰富 SP30-7 工业潜水泵，直径为 4 英寸。 30 GPM 流量，电机功率为 7 HP，适用于 460V 三相应用。",
+    "features": [
+      "30 GPM 流量",
+      "7 HP 电机",
+      "4 英寸直径",
+      "460V 三相",
+      "工业潜水",
+      "高性能"
+    ]
+  },
+  "franklin500sts50d6": {
+    "title": "富兰克林 500STS50D6 STS 涡轮泵",
+    "description": "富兰克林 500STS50D6 STS 涡轮泵，直径为 6 英寸。 500 GPM 大容量，电机功率为 50 HP，适用于 460V 工业应用。",
+    "features": [
+      "500 GPM 流量",
+      "50 HP 电机",
+      "6 英寸直径",
+      "460V 电压",
+      "STS 涡轮设计",
+      "重型工业"
+    ]
+  },
+  "grundfosSqe15290": {
+    "title": "格兰富 SQE15-290 智能潜水泵",
+    "description": "格兰富 SQE15-290 智能潜水泵，带有内置 VFD。 15 GPM 容量，电机功率为 1.5 HP，扬程为 290 英尺。",
+    "features": [
+      "15 GPM 流量",
+      "1.5 HP 电机",
+      "290 英尺扬程",
+      "内置 VFD",
+      "智能潜水泵",
+      "节能"
+    ]
+  },
+  "fluke325": {
+    "title": "福禄克 325 真有效值钳形表",
+    "description": "福禄克 325 真有效值钳形表，可测量高达 400A AC 和 600V AC/DC 的电流和电压。 CAT IV 300V 安全等级，适用于电气故障排除。",
+    "features": [
+      "400A AC 电流测量",
+      "600V AC/DC 电压测量",
+      "真有效值",
+      "CAT IV 300V 安全等级",
+      "钳形表设计",
+      "电气故障排除"
+    ]
+  },
+  "kyoritsu2046r": {
+    "title": "共立 2046R 真有效值钳形表",
+    "description": "共立 2046R 真有效值钳形表，具有 600A AC/DC 容量。 33mm 钳口开度，CAT IV 等级，适用于工业用途。",
+    "features": [
+      "600A AC/DC 电流测量",
+      "600V 量程",
+      "33mm 钳口开度",
+      "真有效值",
+      "CAT IV 安全等级",
+      "工业应用"
+    ]
+  },
+  "fluke376fc": {
+    "title": "福禄克 376 FC 无线钳形表（带 iFlex）",
+    "description": "福禄克 376 FC 无线钳形表，带 iFlex 探头。 1000A AC/DC 电流测量，高达 1000V 电压测量，具有蓝牙连接功能。",
+    "features": [
+      "1000A AC/DC 电流测量（带 iFlex）",
+      "1000V 电压测量",
+      "蓝牙无线",
+      "真有效值",
+      "包含 iFlex 探头",
+      "远程监控"
+    ]
+  },
+  "hiokiCm4373": {
+    "title": "日置 CM4373 AC/DC 功率钳形表",
+    "description": "日置 CM4373 AC/DC 钳形表，具有 2000A 容量。 具有蓝牙连接、真有效值和功率测量功能。",
+    "features": [
+      "2000A 电流测量",
+      "蓝牙连接",
+      "真有效值",
+      "功率测量",
+      "AC/DC 钳形表",
+      "数据记录"
+    ]
+  },
+  "kyoritsu2056r": {
+    "title": "共立 2056R 自动量程钳形表",
+    "description": "共立 2056R 真有效值钳形表，具有 1000A AC/DC 容量。 40mm 钳口开度，具有自动量程功能，便于测量。",
+    "features": [
+      "1000A AC/DC 电流测量",
+      "600V 量程",
+      "40mm 钳口开度",
+      "自动量程",
+      "真有效值",
+      "大显示屏"
+    ]
+  },
+  "keysight34461a": {
+    "title": "是德科技 34461A Truevolt 6.5 位数字万用表",
+    "description": "是德科技 34461A 是一款 6.5 位 Truevolt 数字万用表，具有 30 ppm DCV 精度、USB/LAN 连接和图形显示，适用于精密台式测量。",
+    "features": [
+      "6.5 位分辨率",
+      "30 ppm DCV 精度",
+      "USB 和 LAN 连接",
+      "图形显示",
+      "Truevolt 技术",
+      "低噪声测量"
+    ]
+  },
+  "keysight34465a": {
+    "title": "是德科技 34465A Truevolt 6.5 位数字万用表",
+    "description": "是德科技 34465A Truevolt 数字万用表，具有 6.5 位分辨率、110 读数/秒的速度、5K 数据记录内存和 4.3 英寸彩色显示屏，适用于高级台式测试。",
+    "features": [
+      "6.5 位分辨率",
+      "110 读数每秒",
+      "5K 点数据记录",
+      "4.3 英寸彩色显示屏",
+      "高速测量",
+      "高级连接"
+    ]
+  },
+  "keithleyDmm7510": {
+    "title": "吉时利 DMM7510 7.5 位数字化万用表",
+    "description": "吉时利 DMM7510 是一款 7.5 位精密数字化万用表，具有 1 Msample/s 采样率、触摸屏界面和 1pA/1μΩ 灵敏度，适用于研究应用。",
+    "features": [
+      "7.5 位精度",
+      "1 Msample/s 数字化",
+      "触摸屏显示",
+      "1pA/1μΩ 灵敏度",
+      "高速采样",
+      "高级测量功能"
+    ]
+  },
+  "keithleyDmm6500": {
+    "title": "吉时利 DMM6500 6.5 位图形万用表",
+    "description": "吉时利 DMM6500 具有 6.5 位分辨率、图形触摸屏显示、Python/TSP 编程支持和 15 个测量功能，适用于通用测试。",
+    "features": [
+      "6.5 位分辨率",
+      "图形触摸屏",
+      "Python/TSP 编程",
+      "15 个测量功能",
+      "高级自动化",
+      "灵活的连接"
+    ]
+  },
+  "keysight34450a": {
+    "title": "是德科技 34450A 5.5 位双显示数字万用表",
+    "description": "是德科技 34450A 提供 5.5 位分辨率，具有 0.015% DCV 精度、190 读数/秒的速度、OLED 显示屏和 50K 内存，适用于高效的台式测量。",
+    "features": [
+      "5.5 位分辨率",
+      "0.015% DCV 精度",
+      "190 读数每秒",
+      "OLED 显示屏",
+      "50K 内存点",
+      "快速测量速度"
+    ]
+  },
+  "schneiderIon9000": {
+    "title": "施耐德 ION9000 高级电能质量表",
+    "description": "施耐德 ION9000 是一款高级电能质量表，具有 0.05% 的精度等级、双精度测量和高级干扰跟踪功能，适用于关键监控。",
+    "features": [
+      "0.05% 精度等级",
+      "双精度测量",
+      "干扰跟踪",
+      "高级电能质量监控",
+      "高级分析",
+      "高精度计量"
+    ]
+  },
+  "schneiderPm8000": {
+    "title": "施耐德 PM8000 电能质量表",
+    "description": "施耐德 PM8000 电能质量表专为商业和工业应用而设计，具有高级监控功能和全面的电力分析。",
+    "features": [
+      "商业/工业级",
+      "高级电力监控",
+      "全面分析",
+      "能源管理",
+      "质量保证",
+      "可靠运行"
+    ]
+  },
+  "siemensSentron7kt": {
+    "title": "西门子 SENTRON 7KT PAC DIN 导轨电能表",
+    "description": "西门子 SENTRON 7KT PAC 是一款 DIN 导轨安装式电能表，具有 PROFINET 和 Modbus 通信功能，并通过 MID 认证，可实现精确的能源监控。",
+    "features": [
+      "DIN 导轨安装",
+      "PROFINET 通信",
+      "Modbus 支持",
+      "MID 认证",
+      "紧凑设计",
+      "工业网络"
+    ]
+  },
+  "siemensSicamP850": {
+    "title": "西门子 SICAM P850 多功能电能表",
+    "description": "西门子 SICAM P850 多功能电能表具有谐波分析功能和 SCADA 集成功能，可实现全面的电力系统监控。",
+    "features": [
+      "多功能计量",
+      "谐波分析",
+      "SCADA 集成",
+      "电能质量监控",
+      "高级诊断",
+      "系统集成"
+    ]
+  },
+  "schneiderMetsepm8240": {
+    "title": "施耐德 METSEPM8240 能源表",
+    "description": "施耐德 METSEPM8240 能源表具有 0.2S 精度等级、以太网连接，适用于商业建筑能源监控和管理。",
+    "features": [
+      "0.2S 精度等级",
+      "以太网连接",
+      "商业建筑监控",
+      "能源管理",
+      "高级计量",
+      "网络集成"
+    ]
+  },
+  "fluke1775": {
+    "title": "福禄克 1775 三相电能质量分析仪",
+    "description": "福禄克 1775 是一款三相电能质量分析仪，具有 1 MHz 采样、50 次谐波检测至 30 kHz、WiFi/BLE 连接和触摸屏界面。",
+    "features": [
+      "三相分析",
+      "1 MHz 采样率",
+      "50 次谐波至 30 kHz",
+      "WiFi 和 BLE 连接",
+      "触摸屏界面",
+      "高级电能质量分析"
+    ]
+  },
+  "fluke438ii": {
+    "title": "福禄克 438-II 电能质量和电机分析仪",
+    "description": "福禄克 438-II 将电能质量分析与电机诊断相结合，具有高达 50 次谐波、PowerWave 捕获和 200 kS/s 采样率。",
+    "features": [
+      "电能质量 + 电机分析",
+      "高达 50 次谐波",
+      "PowerWave 捕获技术",
+      "200 kS/s 采样率",
+      "电机诊断",
+      "全面测试"
+    ]
+  },
+  "dranetzHdpqVisaPlus": {
+    "title": "Dranetz HDPQ Visa Plus 电能质量分析仪",
+    "description": "Dranetz HDPQ Visa Plus 符合 IEC 61000-4-30 A 级标准，具有 8 通道监控、1000V RMS 额定值、512 个样本/周期和触摸屏显示。",
+    "features": [
+      "IEC 61000-4-30 A 级",
+      "8 通道监控",
+      "1000V RMS 额定值",
+      "每个周期 512 个样本",
+      "触摸屏显示",
+      "专业级分析"
+    ]
+  },
+  "dranetzHdpqXplorer": {
+    "title": "Dranetz HDPQ Xplorer 便携式电力分析仪",
+    "description": "Dranetz HDPQ Xplorer 是一款便携式电力分析仪，具有 7 英寸触摸屏，专为现场故障排除而设计，具有 Dran-View 7 软件集成。",
+    "features": [
+      "7 英寸触摸屏",
+      "便携式设计",
+      "现场故障排除",
+      "Dran-View 7 软件",
+      "易于使用",
+      "专业分析"
+    ]
+  },
+  "fluke1777": {
+    "title": "福禄克 1777 三相电源分析仪",
+    "description": "福禄克 1777 三相电源分析仪，具有 20 MHz 瞬态捕获、高达 8 kV 电压能力、CAT IV 600V 安全等级和能量损失计算器。",
+    "features": [
+      "三相分析",
+      "20 MHz 瞬态捕获",
+      "高达 8 kV 能力",
+      "CAT IV 600V 安全",
+      "能量损失计算器",
+      "高级诊断"
+    ]
+  },
+  "boschGsb18v1330cb": {
+    "title": "博世 GSB18V-1330CB PROFACTOR 冲击钻",
+    "description": "博世 GSB18V-1330CB 是一款 18V PROFACTOR 冲击钻，具有 CORE18V 电池技术、无刷电机和连接就绪功能，适用于专业应用。",
+    "features": [
+      "18V PROFACTOR 系统",
+      "CORE18V 电池",
+      "无刷电机",
+      "连接就绪",
+      "专业级",
+      "高性能"
+    ]
+  },
+  "milwaukeeM18Fuel2904": {
+    "title": "米沃奇 M18 FUEL 2904 冲击钻",
+    "description": "米沃奇 M18 FUEL 2904 提供 1200 英寸磅的扭矩，具有 18V 功率、REDLITHIUM 电池技术和 1/2 英寸卡盘，适用于重型钻孔应用。",
+    "features": [
+      "18V M18 系统",
+      "1200 英寸磅扭矩",
+      "REDLITHIUM 电池",
+      "1/2 英寸卡盘",
+      "FUEL 技术",
+      "重型性能"
+    ]
+  },
+  "makitaXph14z": {
+    "title": "牧田 XPH14Z 18V LXT 无刷冲击钻",
+    "description": "牧田 XPH14Z 具有 18V LXT 平台、无刷电机，可提供 1,250 英寸磅的扭矩、紧凑型设计和双 LED 照明，可实现精确工作。",
+    "features": [
+      "18V LXT 平台",
+      "无刷电机",
+      "1,250 英寸磅扭矩",
+      "紧凑设计",
+      "双 LED 灯",
+      "精确钻孔"
+    ]
+  },
+  "dewaltDcd800b": {
+    "title": "得伟 DCD800B 20V MAX 紧凑型电钻",
+    "description": "得伟 DCD800B 是一款 20V MAX 紧凑型电钻，具有无刷电机、340 UWO 功率、3 模式 LED 照明和 1/2 英寸卡盘，适用于各种应用。",
+    "features": [
+      "20V MAX 系统",
+      "无刷电机",
+      "340 UWO 功率",
+      "3 模式 LED",
+      "1/2 英寸卡盘",
+      "紧凑设计"
+    ]
+  },
+  "milwaukeeM12Fuel3404": {
+    "title": "米沃奇 M12 FUEL 3404 超紧凑型冲击钻",
+    "description": "米沃奇 M12 FUEL 3404 第三代冲击钻在超紧凑型 12V 设计中提供 400 英寸磅的扭矩，并具有 1/2 英寸卡盘，适用于狭窄空间。",
+    "features": [
+      "12V M12 系统",
+      "第三代",
+      "400 英寸磅扭矩",
+      "超紧凑",
+      "1/2 英寸卡盘",
+      "狭窄空间访问"
+    ]
+  },
+  "boschGws1350vs": {
+    "title": "博世 GWS13-50VS 5 英寸变速角磨机",
+    "description": "博世 GWS13-50VS 具有 13A 电机，具有 2,800-11,500 RPM 变速、减振控制、Service Minder 电刷系统，适用于 5 英寸圆盘研磨。",
+    "features": [
+      "5 英寸圆盘尺寸",
+      "13A 有绳电源",
+      "2,800-11,500 RPM 变速",
+      "减振控制",
+      "Service Minder",
+      "专业级"
+    ]
+  },
+  "makita9564cv": {
+    "title": "牧田 9564CV 4.5 英寸变速角磨机",
+    "description": "牧田 9564CV 提供 13A 功率，具有 2,800-10,500 RPM 变速、SJS 机械离合器保护和 5 级速度控制，适用于 4.5 英寸应用。",
+    "features": [
+      "4.5 英寸圆盘尺寸",
+      "13A 有绳电源",
+      "2,800-10,500 RPM",
+      "SJS 机械离合器",
+      "5 级变速",
+      "安全功能"
+    ]
+  },
+  "milwaukee278020": {
+    "title": "米沃奇 2780-20 M18 FUEL 4.5 英寸角磨机",
+    "description": "米沃奇 2780-20 M18 FUEL 角磨机具有无刷电机、8,500 RPM 速度、RAPIDSTOP 制动器和拨片开关，适用于无线 4.5 英寸研磨。",
+    "features": [
+      "M18 FUEL 无绳",
+      "4.5 英寸圆盘尺寸",
+      "无刷电机",
+      "8,500 RPM",
+      "RAPIDSTOP 制动器",
+      "拨片开关安全"
+    ]
+  },
+  "boschGwx1450pbd": {
+    "title": "博世 GWX14-50PBD 5 英寸 X-LOCK 角磨机",
+    "description": "博世 GWX14-50PBD 具有 13A 电机，具有 11,500 RPM、X-LOCK 车轮更换系统，比传统系统快 5 倍，高性能 5 英寸研磨。",
+    "features": [
+      "5 英寸圆盘尺寸",
+      "13A 有绳电源",
+      "11,500 RPM",
+      "X-LOCK 快 5 倍的更换",
+      "高性能",
+      "快速车轮更换"
+    ]
+  },
+  "makitaGa7021": {
+    "title": "牧田 GA7021 7 英寸重型角磨机",
+    "description": "牧田 GA7021 重型 7 英寸角磨机具有 15A 电机、8,500 RPM、机加工锥齿轮，在苛刻的应用中可延长 2 倍的使用寿命。",
+    "features": [
+      "7 英寸圆盘尺寸",
+      "15A 有绳电源",
+      "8,500 RPM",
+      "重型结构",
+      "机加工锥齿轮",
+      "2 倍更长的使用寿命"
+    ]
+  },
+  "cmCyclone4628": {
+    "title": "CM Cyclone 4628 手动链条葫芦 4 吨",
+    "description": "CM Cyclone 4628 是一款 4 吨容量的手动链条葫芦，采用铝合金结构、Weston 制动系统和集成负载限制器，以确保安全。",
+    "features": [
+      "4 吨容量",
+      "手动操作",
+      "铝合金",
+      "Weston 制动器",
+      "负载限制器",
+      "安全认证"
+    ]
+  },
+  "harringtonCb050": {
+    "title": "Harrington CB050 手动链条葫芦 5 吨",
+    "description": "Harrington CB050 重型 5 吨手动链条葫芦，具有防滑离合器过载保护和耐用的钢结构，适用于工业起重。",
+    "features": [
+      "5 吨容量",
+      "手动操作",
+      "重型设计",
+      "防滑离合器保护",
+      "钢结构",
+      "工业级"
+    ]
+  },
+  "cmLodestarL1": {
+    "title": "CM Lodestar L1 电动链条葫芦 1 吨",
+    "description": "CM Lodestar L1 是一款 1 吨电动链条葫芦，具有单速操作、挂钩安装设计，适用于通用工业起重应用。",
+    "features": [
+      "1 吨容量",
+      "电动操作",
+      "单速",
+      "挂钩安装",
+      "通用",
+      "可靠的性能"
+    ]
+  },
+  "harringtonNer020ld": {
+    "title": "Harrington NER020LD 电动链条葫芦 2 吨",
+    "description": "Harrington NER020LD 2 吨电动链条葫芦，具有单速/双速选项和 VFD 控制，可在工业环境中实现精确的负载处理。",
+    "features": [
+      "2 吨容量",
+      "电动操作",
+      "单速/双速",
+      "VFD 控制",
+      "精确处理",
+      "工业应用"
+    ]
+  },
+  "cmSeries62210t": {
+    "title": "CM Series 622 手动链条葫芦 10 吨",
+    "description": "CM Series 622-10T 是一款 10 吨全钢手动链条葫芦，具有超低净空设计和终身保修，适用于重型工业起重。",
+    "features": [
+      "10 吨容量",
+      "手动操作",
+      "全钢结构",
+      "超低净空",
+      "终身保修",
+      "重型工业"
     ]
   },
   "utilities": {
