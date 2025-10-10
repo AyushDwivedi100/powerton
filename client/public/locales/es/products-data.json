@@ -4282,48 +4282,6 @@
     "description": "Fusible de cuchilla automotriz/industrial Littelfuse ATO-30 con clasificación de 30 A. Diseño de cuchilla ATO/ATC estándar para aplicaciones automotrices e industriales de baja tensión.",
     "features": [
       "Fusible de cuchilla automotriz",
-      "Intensidad nominal de 30 A",
-      "Tensión de 32 V CC",
-      "Tamaño ATO/ATC estándar",
-      "Codificación de color verde",
-      "Terminales de cuchilla de zinc",
-      "Uso automotriz/de baja tensión",
-      "Fácil sustitución"
-    ]
-  },
-  "mersenA70p1004": {
-    "title": "Fusible de acción rápida clase J Mersen A70P100-4",
-    "description": "Fusible de acción rápida clase J Mersen A70P100-4 con clasificación de 100 A. Cuenta con una capacidad de interrupción de 200 kA, un paso de conexión máximo de 40 kA a 600 V y cumple con UL 248-8.",
-    "features": [
-      "Fusible de acción rápida clase J",
-      "Intensidad nominal de 100 A",
-      "Tensión de 600 V CA",
-      "Capacidad de interrupción de 200 kA",
-      "Paso de conexión máximo de 40.000 A",
-      "Tamaño de 1-5/8 x 4 pulgadas",
-      "Cumple con UL 248-8",
-      "Diseño de limitación de corriente"
-    ]
-  },
-  "littelfuseL60030c": {
-    "title": "Bloque de fusibles clase CC Littelfuse L60030C",
-    "description": "Bloque de fusibles clase CC Littelfuse L60030C con clasificación de 30 A. Cuenta con montaje en carril DIN de 3 polos, construcción modular y capacidad de 600 V para aplicaciones de paneles industriales.",
-    "features": [
-      "Bloque de fusibles clase CC",
-      "Clasificación de corriente de 30A",
-      "Capacidad de voltaje de 600 V",
-      "Configuración de 3 polos",
-      "Montaje en carril DIN",
-      "Construcción modular",
-      "Material termoplástico",
-      "Cumple con UL 248-4"
-    ]
-  },
-  "littelfuseAto30": {
-    "title": "Fusible de cuchilla automotriz Littelfuse ATO-30",
-    "description": "Fusible de cuchilla automotriz/industrial Littelfuse ATO-30 con clasificación de 30 A. Diseño de cuchilla ATO/ATC estándar para aplicaciones automotrices e industriales de baja tensión.",
-    "features": [
-      "Fusible de cuchilla automotriz",
       "Clasificación de corriente de 30 A",
       "Tensión de 32 V CC",
       "Tamaño ATO/ATC estándar",
@@ -5434,65 +5392,6 @@
       "Manejo de precisión",
       "Aplicaciones industriales"
     ]
-  },
-  "cmSeries62210t": {
-    "title": "Polipasto de cadena manual CM Serie 622 10 Toneladas",
-    "description": "CM Serie 622-10T es un polipasto de cadena manual totalmente de acero de 10 toneladas con diseño de espacio libre ultrabajo y garantía de por vida para elevación industrial de alta resistencia.",
-    "features": [
-      "Capacidad de 10 toneladas",
-      "Operación manual",
-      "Construcción totalmente de acero",
-      "Espacio libre ultrabajo",
-      "Garantía de por vida",
-      "Industrial de servicio pesado"
-    ]
-  },
-  "utilities": {
-    "variant": {
-      "titleSuffix": " - Variante {{number}}",
-      "titleDefault": "Variante del producto {{number}}",
-      "descriptionDefault": "Variante del producto industrial {{number}} con especificaciones mejoradas",
-      "featureSuffix": "Especificaciones de la variante {{number}}"
-    },
-    "defaultProduct": {
-      "titleTemplate": "{{subcategory}} Producto {{number}}",
-      "descriptionTemplate": "Producto industrial {{subcategory}} diseñado para un rendimiento confiable en aplicaciones exigentes. Cuenta con una construcción de alta calidad y tecnología probada.",
-      "features": [
-        "Construcción industrial de alta calidad",
-        "Rendimiento confiable en condiciones exigentes",
-        "Certificado para aplicaciones industriales",
-        "Bajos requisitos de mantenimiento",
-        "Excelente relación calidad-precio"
-      ],
-      "variantFeatures": [
-        "Características de rendimiento mejoradas",
-        "Construcción de grado industrial",
-        "Operación confiable",
-        "Certificado para uso industrial"
-      ]
-    },
-    "commonData": {
-      "applications": [
-        "Automatización industrial",
-        "Fabricación",
-        "Control de procesos",
-        "Garantía de calidad"
-      ],
-      "industries": [
-        "Fabricación",
-        "Automotriz",
-        "Farmacéutica",
-        "Alimentos y bebidas"
-      ],
-      "certifications": ["ISO 9001", "Marcado CE"],
-      "keywords": {
-        "industrialAutomation": "automatización industrial",
-        "processControl": "control de procesos",
-        "instrumentation": "instrumentación",
-        "india": "India",
-        "powertonEngineering": "Powerton Engineering"
-      }
-    }
   },
   "cmSeries62210t": {
     "title": "Polipasto de cadena manual CM Serie 622 10 Toneladas",
