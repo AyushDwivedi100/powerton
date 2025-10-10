@@ -86,3 +86,30 @@
 [x] 35. Restarted workflow and verified application running successfully on port 5000
 [x] 36. Final screenshot verification - Homepage loads perfectly with all features working
 [x] 37. Migration import COMPLETED - All tasks marked complete, project fully operational and ready for development
+[x] 38. COMPREHENSIVE TRANSLATION MIGRATION - Phase 1 & 2 COMPLETED (October 10, 2025)
+  - [x] Phase 1: Added all missing translation keys to en/*.json and ru/*.json locale files
+    - [x] Added UI component keys (skipToMainContent, selectLanguage, close, dismiss, toast)
+    - [x] Added client names translation keys for 15 clients
+    - [x] Added alt text keys (powerton-logo)
+    - [x] Fixed missing subcategory translation keys
+    - [x] Fixed JSON syntax error in ru/products-data.json
+  - [x] Phase 2: Created translation-driven helper functions
+    - [x] Created getClientLogos(t) helper function in constants.ts
+    - [x] Created getClients(t) helper function in constants.ts
+  - [x] Phase 2: Migrated components to use translation helpers
+    - [x] Migrated clients-section.tsx to use getClientLogos(t) and getTestimonials(t)
+    - [x] Migrated service-category-dynamic.tsx to use getServices(t)
+    - [x] Fixed header.tsx to use getServices(t) instead of SERVICES
+    - [x] Fixed footer.tsx to use getServices(t) instead of SERVICES
+  - [x] Phase 2: Removed unused duplicate constants
+    - [x] Verified SERVICES, PRODUCTS, TESTIMONIALS, CLIENT_LOGOS, CLIENTS were already removed
+    - [x] Kept COMPANY_INFO and PROJECTS (still actively used)
+  - [x] Phase 2: Fixed critical issues
+    - [x] Fixed hardcoded subcategories in getProducts() - replaced with translation keys
+    - [x] Architect approved all Phase 1-2 changes with PASS status
+  - [ ] Phase 3: Remaining hardcoded text to migrate (IN PROGRESS)
+    - [ ] UI components: toaster.tsx, chatbot.tsx
+    - [ ] Footer: Few remaining hardcoded strings
+    - [ ] Pages: about.tsx, news-article.tsx, portfolio-download.tsx, not-found.tsx, projects.tsx, quote.tsx, home.tsx
+    - [ ] Forms: contact-form.tsx, quote-form.tsx, career-form.tsx
+    - [ ] Sections: about-section.tsx, contact-section.tsx, gallery-section.tsx

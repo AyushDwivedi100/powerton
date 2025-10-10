@@ -32,10 +32,10 @@ import {
 } from "lucide-react";
 import {
   COMPANY_INFO,
-  SERVICES,
   getProducts,
   getProductGroupsBySubcategory,
   hasProductGroups,
+  getServices,
 } from "@/data/constants";
 import {
   getSubcategorySlugById,
@@ -665,7 +665,7 @@ export default function Header() {
                         <div className="w-max max-w-[95vw] max-h-[90vh] bg-popover border-2 border-slate-300 dark:border-slate-600 rounded-md shadow-lg overflow-y-auto">
                           <div className="p-6 lg:p-8">
                             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 lg:gap-6 items-stretch">
-                              {SERVICES.map((service) => (
+                              {getServices(t).map((service) => (
                                 <Link
                                   key={service.id}
                                   href={`/services-category/${service.id}`}
@@ -1093,7 +1093,7 @@ export default function Header() {
                                     transition={{ duration: 0.3 }}
                                     className="ms-4 space-y-2 overflow-hidden container-safe"
                                   >
-                                    {SERVICES.map((service) => (
+                                    {getServices(t).map((service) => (
                                       <Link
                                         key={service.id}
                                         href={`/services-category/${service.id}`}

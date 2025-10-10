@@ -6,9 +6,9 @@ import { LanguageSwitcher } from "@/components/ui/language-switcher";
 import { Button } from "@/components/ui/button";
 import {
   COMPANY_INFO,
-  SERVICES,
   getProducts,
   getCompanyInfo,
+  getServices,
 } from "@/data/constants";
 import { cn } from "@/lib/utils";
 import mainLogoPowerton from "@assets/downloaded_images/main-logo-powerton.png";
@@ -123,7 +123,7 @@ export default function Footer() {
                 </h4>
               </Link>
               <ul className="space-y-3 text-slate-300 dark:text-slate-400">
-                {SERVICES.map((service) => (
+                {getServices(t).map((service) => (
                   <li key={service.id}>
                     <Link
                       href={`/services-category/${service.id}`}
