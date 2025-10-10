@@ -177,7 +177,8 @@
         "title": "工业开关和指示器 - 控制面板组件 | Powerton 工程",
         "description": "工业级开关、按钮、指示器和控制面板组件。 用于自动化和控制系统的紧急停止、指示灯、选择开关。",
         "keywords": "工业开关、按钮开关、控制面板组件、紧急停止、指示灯、指示器、选择开关"
-      }
+      },
+      "parentCategoryTitle": "仪器仪表配件"
     },
     "valves-actuators": {
       "title": "阀门和执行器",
@@ -235,7 +236,8 @@
         "title": "工业阀门和执行器 - 控制阀、安全阀 | Powerton 工程",
         "description": "用于过程控制的工业控制阀和执行器。 用于石油、天然气和化学应用的气动和电动执行器的球阀、闸阀、止回阀。",
         "keywords": "工业阀门、控制阀、阀门执行器、球阀、闸阀、安全阀、过程阀门"
-      }
+      },
+      "parentCategoryTitle": "仪器仪表配件"
     },
     "analyzers": {
       "title": "分析仪",
@@ -293,7 +295,8 @@
         "title": "过程分析仪 - 气体和液体分析仪器 | Powerton 工程",
         "description": "用于气相色谱、液体分析和O2/CO2监测的先进过程分析仪。 用于过程控制和质量保证的精密仪器。",
         "keywords": "过程分析仪、气体分析仪、液体分析仪、色谱分析、O2分析仪、CO2分析仪、过程监控"
-      }
+      },
+      "parentCategoryTitle": "仪器仪表配件"
     },
     "cables-wires": {
       "title": "电缆和电线",
@@ -351,7 +354,8 @@
         "title": "工业电缆和电线 - 电力、控制、仪器仪表电缆 | Powerton 工程",
         "description": "用于电力传输、控制电路和仪器仪表的工业电力电缆和电线。 高压电力电缆、控制电缆和通信电缆。",
         "keywords": "工业电缆、电力电缆、控制电缆、仪器仪表电缆、电线、通信电缆、铠装电缆"
-      }
+      },
+      "parentCategoryTitle": "电气配件"
     },
     "connectors-terminals": {
       "title": "连接器和端子",
@@ -409,7 +413,8 @@
         "title": "电气连接器和端子 - 端子块和电线连接器 | Powerton 工程",
         "description": "用于工业应用的电气连接器和端子块。 用于安全电气连接的DIN导轨端子、电线连接器、接线盒。",
         "keywords": "电气连接器、端子块、电线连接器、DIN导轨端子、接线盒、电气端子"
-      }
+      },
+      "parentCategoryTitle": "电气配件"
     },
     "circuit-breakers-fuses": {
       "title": "断路器和熔断器",
@@ -467,7 +472,8 @@
         "title": "断路器和熔断器 - MCB、MCCB、工业熔断器 | Powerton 工程",
         "description": "用于电气保护的工业断路器和熔断器。 用于配电系统的高分断能力MCB、MCCB、ACB断路器。",
         "keywords": "断路器、MCB、MCCB、ACB、工业熔断器、电气保护、过电流保护、电力分配"
-      }
+      },
+      "parentCategoryTitle": "电气配件"
     },
     "power-supplies": {
       "title": "电源",
@@ -525,7 +531,8 @@
         "title": "工业电源 - AC-DC转换器和DC-DC转换器 | Powerton 工程",
         "description": "用于自动化和控制系统的工业电源。 DIN导轨电源、AC-DC转换器和高效率DC-DC转换器。",
         "keywords": "工业电源、AC-DC转换器、DC-DC转换器、DIN导轨电源、工业PSU、自动化电源"
-      }
+      },
+      "parentCategoryTitle": "电气配件"
     },
     "enclosures-cabinets": {
       "title": "外壳和机柜",
@@ -583,7 +590,8 @@
         "title": "工业外壳和机柜 - 控制面板外壳 | Powerton 工程",
         "description": "具有各种IP等级的工业电气外壳和控制柜。 用于恶劣环境和危险区域的NEMA等级外壳。",
         "keywords": "工业外壳、电气柜、控制面板外壳、NEMA外壳、IP等级外壳、接线盒"
-      }
+      },
+      "parentCategoryTitle": "电气配件"
     },
     "heating-elements-appliances": {
       "title": "加热元件和设备",
@@ -641,7 +649,8 @@
         "title": "工业加热元件 - 浸入式加热器和过程加热 | Powerton 工程",
         "description": "工业加热元件和热控制设备。 用于过程加热应用的浸入式加热器、带式加热器、筒式加热器。",
         "keywords": "工业加热器、加热元件、浸入式加热器、过程加热、热控制、工业加热设备"
-      }
+      },
+      "parentCategoryTitle": "电气配件"
     },
     "solar-panels": {
       "title": "太阳能板和组件",
