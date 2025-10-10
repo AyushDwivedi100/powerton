@@ -459,7 +459,8 @@
   "altTexts": {
     "contactBackground": "ID-834: Network and customer support center for the engineering company",
     "aboutBackground": "ID-004: Powerton Engineering's industrial control building with advanced control systems",
-    "companyLogo": "Powerton Engineering Pvt. Ltd. - Industrial Automation & Electrical Engineering Company Logo"
+    "companyLogo": "Powerton Engineering Pvt. Ltd. - Industrial Automation & Electrical Engineering Company Logo",
+    "powerton-logo": "Powerton Engineering Pvt. Ltd. Logo"
   },
   "sitemap": {
     "title": "Sitemap",
@@ -632,7 +633,7 @@
     "dls": "DLS India",
     "boudh": "Boudh Distillery",
     "lokmangal": "Lokmangal Group",
-    "marcuras": "Marcuras Water Solutions",
+    "marcuras": "Marcuras Water Treatment",
     "nv-group": "NV Group",
     "anand-nv": "Anand NV",
     "dhanuka": "Dhanuka Agritech",
@@ -724,6 +725,11 @@
     "needAssistance": "Need Technical Assistance?"
   },
   "ui": {
+    "skipToMainContent": "Skip to main content",
+    "selectLanguage": "Select Language",
+    "close": "Close",
+    "dismiss": "Dismiss",
+    "toast": "Toast",
     "ariaLabels": {
       "callUs": "Call us at {{phone}}",
       "goToHomepage": "Go to Powerton Engineering homepage",
