@@ -619,6 +619,117 @@ export const getServices = (t: any) => [
   },
 ];
 
+export const getClientLogos = (t: any) => [
+  {
+    id: "sci-group",
+    name: t("common:clients.sci-group"),
+    logo: "https://logo.clearbit.com/shipindia.com",
+    fallback: corporateClientImage,
+  },
+  {
+    id: "agribio",
+    name: t("common:clients.agribio"),
+    logo: "https://logo.clearbit.com/agribiogermany.com",
+    fallback: corporateClientImage,
+  },
+  {
+    id: "motherson",
+    name: t("common:clients.motherson"),
+    logo: "https://logo.clearbit.com/motherson.com",
+    fallback: corporateClientImage,
+  },
+  {
+    id: "praj",
+    name: t("common:clients.praj"),
+    logo: "https://logo.clearbit.com/praj.net",
+    fallback: corporateClientImage,
+  },
+  {
+    id: "thermax",
+    name: t("common:clients.thermax"),
+    logo: "https://logo.clearbit.com/thermaxglobal.com",
+    fallback: corporateClientImage,
+  },
+  {
+    id: "ankur",
+    name: t("common:clients.ankur"),
+    logo: "https://logo.clearbit.com/ankurscientific.com",
+    fallback: corporateClientImage,
+  },
+  {
+    id: "dls",
+    name: t("common:clients.dls"),
+    logo: "https://dlsenvirotech.com/assets/img/logo.png",
+    fallback: corporateClientImage,
+  },
+  {
+    id: "boudh",
+    name: t("common:clients.boudh"),
+    logo: "https://logo.clearbit.com/boudhdistillery.com",
+    fallback: corporateClientImage,
+  },
+  {
+    id: "lokmangal",
+    name: t("common:clients.lokmangal"),
+    logo: "https://logo.clearbit.com/lokmangal.com",
+    fallback: corporateClientImage,
+  },
+  {
+    id: "marcuras",
+    name: t("common:clients.marcuras"),
+    logo: "https://logo.clearbit.com/marcuras.com",
+    fallback: corporateClientImage,
+  },
+  {
+    id: "nv-group",
+    name: t("common:clients.nv-group"),
+    logo: "https://www.nvgroup.co.in/cdn/shop/files/nv-logo-new.png",
+    fallback: corporateClientImage,
+  },
+  {
+    id: "anand-nv",
+    name: t("common:clients.anand-nv"),
+    logo: "https://www.anandnvh.com/images/logo.png",
+    fallback: corporateClientImage,
+  },
+  {
+    id: "dhanuka",
+    name: t("common:clients.dhanuka"),
+    logo: "https://logo.clearbit.com/dhanuka.com",
+    fallback: corporateClientImage,
+  },
+  {
+    id: "mjson",
+    name: t("common:clients.mjson"),
+    logo: "https://www.thecompanycheck.com/Images/default-com-logo.webp",
+    fallback: corporateClientImage,
+  },
+  {
+    id: "procient",
+    name: t("common:clients.procient"),
+    logo: "https://lh3.googleusercontent.com/p/AF1QipMdv-ooQHBKA6uJlgi4FbBJjERkT8iamCpM3Fih=s1360-w1360-h1020-rw",
+    fallback: corporateClientImage,
+  },
+];
+
+export const getClients = (t: any) => [
+  t("common:clients.sci-group"),
+  t("common:clients.agribio"),
+  t("common:clients.motherson"),
+  t("common:clients.praj"),
+  t("common:clients.thermax"),
+  t("common:clients.ankur"),
+  t("common:clients.dls"),
+  t("common:clients.boudh"),
+  t("common:clients.lokmangal"),
+  t("common:clients.marcuras"),
+  t("common:clients.nv-group"),
+  t("common:clients.anand-nv"),
+  t("common:clients.dhanuka"),
+  t("common:clients.mjson"),
+  t("common:clients.procient"),
+];
+
 // Keep original SERVICES constant for backward compatibility - these should use getServices(t) function for translations
 export const SERVICES = [
   {
