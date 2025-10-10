@@ -1,10 +1,8 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import {
-  TESTIMONIALS,
-  CLIENTS,
-  CLIENT_LOGOS,
   getTestimonials,
+  getClientLogos,
 } from "@/data/constants";
 import { Star, ChevronLeft, ChevronRight } from "lucide-react";
 import { useState, useEffect, useCallback } from "react";
@@ -14,6 +12,7 @@ import { useTranslation } from "react-i18next";
 export default function ClientsSection() {
   const { t, i18n } = useTranslation(["pages", "common"]);
   const testimonials = getTestimonials(t);
+  const clientLogos = getClientLogos(t);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isAutoPlaying, setIsAutoPlaying] = useState(true);
   const [logoCurrentIndex, setLogoCurrentIndex] = useState(0);
@@ -130,14 +129,14 @@ export default function ClientsSection() {
                   : "animate-infinite-scroll"
               } ${isHovered ? "paused" : ""}`}
               style={{
-                width: `${CLIENT_LOGOS.length * 2 * 162}px`, // Double width for seamless loop (162px per card)
+                width: `${clientLogos.length * 2 * 162}px`, // Double width for seamless loop (162px per card)
               }}
             >
               {/* Render clients twice for seamless infinite loop */}
-              {[...CLIENT_LOGOS, ...CLIENT_LOGOS].map((client, index) => (
+              {[...clientLogos, ...clientLogos].map((client, index) => (
                 <div
                   key={`${client.id}-${Math.floor(
-                    index / CLIENT_LOGOS.length
+                    index / clientLogos.length
                   )}`}
                   className="flex-shrink-0 bg-card rounded-lg border border-border p-2 md:p-3 lg:p-4 flex items-center justify-center hover:shadow-lg transition-all duration-300 mx-2 md:mx-3 lg:mx-4"
                   style={{

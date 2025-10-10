@@ -3,7 +3,7 @@ import { SEO } from "@/lib/seo";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { SERVICES } from "@/data/constants";
+import { getServices } from "@/data/constants";
 import {
   getServiceBySlug,
   SERVICES_CATEGORY_PAGES,
@@ -53,7 +53,8 @@ export default function ServiceCategoryPage() {
   const serviceData = getServiceBySlug(slug);
 
   // Also get the basic service info from constants for backward compatibility
-  const service = SERVICES.find((s) => s.id === slug);
+  const services = getServices(t);
+  const service = services.find((s) => s.id === slug);
 
   // Handle 404 case
   if (!serviceData || !service) {
