@@ -4020,6 +4020,1386 @@
       "ATEX, IECEx, CE certified"
     ]
   },
+  "belden8205": {
+    "title": "Belden 8205 Instrumentation Cable",
+    "description": "Belden 8205 twisted pair instrumentation cable with 20 AWG stranded tinned copper conductors. PVC insulation and jacket for reliable signal transmission in industrial control applications.",
+    "features": [
+      "20 AWG stranded tinned copper conductors",
+      "1 twisted pair configuration",
+      "PVC insulation and jacket",
+      "Unshielded construction",
+      "300V voltage rating",
+      "Temperature range: -20°C to +80°C",
+      "Excellent signal integrity",
+      "Easy installation and termination"
+    ]
+  },
+  "belden8442": {
+    "title": "Belden 8442 Shielded Instrumentation Cable",
+    "description": "Belden 8442 high-conductivity shielded twisted pair cable with 22 AWG conductors. Features foil and braid shielding (90% coverage) for superior EMI protection in industrial instrumentation.",
+    "features": [
+      "22 AWG high-conductivity copper",
+      "1 twisted pair with shielding",
+      "Foil + Braid shield (90% coverage)",
+      "PVC insulation and jacket",
+      "300V voltage rating",
+      "Temperature range: -20°C to +80°C",
+      "Superior EMI/RFI protection",
+      "Ideal for noisy environments"
+    ]
+  },
+  "belden8725": {
+    "title": "Belden 8725 Multi-Pair Instrumentation Cable",
+    "description": "Belden 8725 multi-pair instrumentation cable with 4 pairs of #20 AWG conductors. CM rated with overall foil shield for reliable signal transmission in commercial installations.",
+    "features": [
+      "#20 AWG stranded tinned copper",
+      "4 twisted pair configuration",
+      "Overall foil shield protection",
+      "PVC insulation and jacket",
+      "300V voltage rating",
+      "Extended temperature: -20°C to +105°C",
+      "CM rated for commercial use",
+      "Multi-conductor versatility"
+    ]
+  },
+  "alphaWire9174": {
+    "title": "Alpha Wire 9174 Instrumentation Cable",
+    "description": "Alpha Wire 9174 twisted pair cable with 20 AWG tinned copper conductors. Features polyethylene insulation, aluminum-mylar foil shielding, and 1100V rating for demanding applications.",
+    "features": [
+      "20 AWG tinned copper conductors",
+      "1 twisted pair with drain wire",
+      "Polyethylene (PE) insulation",
+      "Aluminum-Mylar foil + drain wire shield",
+      "1100V high voltage rating",
+      "Wide temperature: -40°C to +80°C",
+      "PVC outer jacket",
+      "Excellent electrical properties"
+    ]
+  },
+  "alphaWireXtraGuard4": {
+    "title": "Alpha Wire Xtra-Guard 4 Industrial Cable",
+    "description": "Alpha Wire Xtra-Guard 4 extra durable industrial cable with cross-linked polyethylene insulation. UL VW-1 and CSA FT-1 rated for demanding industrial environments.",
+    "features": [
+      "18-12 AWG stranded tinned copper",
+      "Extra durable construction",
+      "Cross-linked polyethylene insulation",
+      "Thermoplastic elastomer jacket",
+      "600V voltage rating",
+      "Temperature range: -40°C to +105°C",
+      "UL VW-1, CSA FT-1 rated",
+      "Superior chemical resistance"
+    ]
+  },
+  "phoenixContactM12Oneclick": {
+    "title": "Phoenix Contact M12 ONECLICK Connector",
+    "description": "Phoenix Contact M12 ONECLICK push-pull circular connector with IP67 protection. Features 4-8 pole configurations and multiple coding options for industrial sensor and actuator connections.",
+    "features": [
+      "Push-pull ONECLICK mechanism",
+      "4-8 pole configurations",
+      "4A per contact current rating",
+      "250V AC/DC voltage",
+      "IP67 protection rating",
+      "A, B, D, X-coded options",
+      "Panel and cable mounting",
+      "Temperature: -40°C to +85°C"
+    ]
+  },
+  "phoenixContactM23": {
+    "title": "Phoenix Contact M23 Hybrid Connector",
+    "description": "Phoenix Contact M23 hybrid circular connector for signals, data, and power transmission. Features up to 17 poles, wave soldering compatibility, and IP67 protection when mated.",
+    "features": [
+      "Hybrid signal/data/power connector",
+      "Up to 17 pole configurations",
+      "Up to 16A current capacity",
+      "630V AC/DC voltage rating",
+      "IP67 protection when mated",
+      "Wave soldering compatible",
+      "Multi-application versatility",
+      "Temperature: -40°C to +100°C"
+    ]
+  },
+  "weidmullerRockstarModuplug": {
+    "title": "Weidmüller RockStar ModuPlug Heavy-Duty Connector",
+    "description": "Weidmüller RockStar ModuPlug modular heavy-duty industrial connector. Features modular insert system, up to 35A/830V capacity, and IP65/IP66/IP67 protection for industrial machinery.",
+    "features": [
+      "Modular heavy-duty design",
+      "Up to 35A current capacity",
+      "Up to 830V voltage rating",
+      "IP65/IP66/IP67 protection",
+      "Modular insert system",
+      "Crimp and screw contacts",
+      "Industrial machinery rated",
+      "Temperature: -40°C to +100°C"
+    ]
+  },
+  "amphenolM12Industrial": {
+    "title": "Amphenol M12 Industrial Circular Connector",
+    "description": "Amphenol M12 industrial circular connector for sensor and actuator applications. Features 3-12 pole options, IP67/IP68 protection, and multiple coding variants for industrial automation.",
+    "features": [
+      "Industrial circular M12 design",
+      "3, 4, 5, 8, 12 pole options",
+      "4A per contact rating",
+      "250V AC/DC voltage",
+      "IP67/IP68 protection",
+      "A, B, D, X-coded variants",
+      "Sensor/actuator applications",
+      "Temperature: -40°C to +85°C"
+    ]
+  },
+  "amphenolMilDtl5015": {
+    "title": "Amphenol MIL-DTL-5015 Military Connector",
+    "description": "Amphenol MIL-DTL-5015 military-specification circular connector with ruggedized construction. Features 2-128 positions, aluminum alloy shell, and extreme temperature rating for harsh environments.",
+    "features": [
+      "Military-spec MIL-DTL-5015",
+      "Ruggedized construction",
+      "2-128 contact positions",
+      "Up to 65A current capacity",
+      "Up to 1000V voltage rating",
+      "Aluminum alloy shell",
+      "Olive drab/black finish",
+      "Extreme temp: -65°C to +200°C"
+    ]
+  },
+  "mennekesPowertopXtra16a": {
+    "title": "Mennekes PowerTOP Xtra 16A Industrial Plug",
+    "description": "Mennekes PowerTOP Xtra 16A industrial plug with 3P+N+PE configuration. IEC 60309 compliant with IP54/IP67 protection for reliable power connections in industrial environments.",
+    "features": [
+      "16A current rating",
+      "400V voltage capacity",
+      "3P+N+PE (5 pole) configuration",
+      "IP54/IP67 protection rating",
+      "IEC 60309 compliant",
+      "High-grade plastic material",
+      "6h coding standard",
+      "Temperature: -25°C to +40°C"
+    ]
+  },
+  "mennekesPowertopXtra32a": {
+    "title": "Mennekes PowerTOP Xtra 32A Industrial Plug",
+    "description": "Mennekes PowerTOP Xtra 32A industrial plug with X-CONTACT technology. Features 32A capacity, IP67 protection, and impact-resistant construction for demanding industrial applications.",
+    "features": [
+      "32A high current rating",
+      "400V voltage capacity",
+      "3P+N+PE (5 pole) configuration",
+      "IP67 waterproof protection",
+      "X-CONTACT technology",
+      "IEC 60309 standard",
+      "Impact-resistant plastic",
+      "Temperature: -25°C to +40°C"
+    ]
+  },
+  "mennekes552": {
+    "title": "Mennekes 552 Waterproof Industrial Plug",
+    "description": "Mennekes 552 waterproof industrial plug rated for outdoor applications. Features 16A capacity, IP67 protection, and thermoplastic construction for reliable outdoor power connections.",
+    "features": [
+      "Waterproof IP67 rated",
+      "16A current capacity",
+      "230V voltage rating",
+      "2P+PE (3 pole) configuration",
+      "Outdoor rated design",
+      "Thermoplastic material",
+      "Corrosion resistant",
+      "Temperature: -25°C to +40°C"
+    ]
+  },
+  "hubbellHbl2621": {
+    "title": "Hubbell Hubbellock HBL2621 Twist-Lock Plug",
+    "description": "Hubbell Hubbellock HBL2621 twist-lock plug with 30A capacity. Features L15-30P configuration, nylon construction, and secure twist-lock design for reliable industrial power connections.",
+    "features": [
+      "30A twist-lock design",
+      "250V voltage rating",
+      "3-pole 4-wire configuration",
+      "L15-30P NEMA configuration",
+      "Nylon housing material",
+      "8-10 AWG wire capacity",
+      "Secure locking mechanism",
+      "Temperature: -40°C to +75°C"
+    ]
+  },
+  "legrandCee16a": {
+    "title": "Legrand CEE 16A Industrial Plug",
+    "description": "Legrand CEE 16A industrial plug compliant with IEC 60309. Features 3P+N+PE configuration, IP44 protection, and polyamide construction for reliable industrial power distribution.",
+    "features": [
+      "IEC 60309 compliant",
+      "16A current rating",
+      "400V voltage capacity",
+      "3P+N+PE configuration",
+      "IP44 protection rating",
+      "Polyamide material",
+      "6h coding standard",
+      "Temperature: -25°C to +40°C"
+    ]
+  },
+  "bussmannLpCc30": {
+    "title": "Bussmann LP-CC-30 Class CC Time-Delay Fuse",
+    "description": "Bussmann (Eaton) LP-CC-30 Class CC time-delay fuse with 30A rating. Features 200kA interrupting rating, UL 248-4 compliant, ideal for motor circuit protection.",
+    "features": [
+      "Class CC time-delay fuse",
+      "30A current rating",
+      "600V AC voltage",
+      "200kA interrupting rating",
+      "13/32 x 1-1/2 inch size",
+      "UL 248-4 compliant",
+      "Motor circuit protection",
+      "Rejection-type design"
+    ]
+  },
+  "bussmannFnqR60": {
+    "title": "Bussmann FNQ-R-60 Class CC Rejection Fuse",
+    "description": "Bussmann FNQ-R-60 Class CC time-delay rejection fuse with 60A rating. Features 200kA interrupting capacity and rejection design for industrial control applications.",
+    "features": [
+      "Class CC rejection fuse",
+      "60A current rating",
+      "600V AC voltage",
+      "200kA interrupting rating",
+      "Time-delay characteristic",
+      "13/32 x 1-1/2 inch size",
+      "UL 248-4 standard",
+      "Industrial control rated"
+    ]
+  },
+  "littelfuseL60030c": {
+    "title": "Littelfuse L60030C Class CC Fuse Block",
+    "description": "Littelfuse L60030C Class CC fuse block with 30A rating. Features 3-pole DIN-rail mounting, modular construction, and 600V capacity for industrial panel applications.",
+    "features": [
+      "Class CC fuse block",
+      "30A current rating",
+      "600V voltage capacity",
+      "3-pole configuration",
+      "DIN-rail mounting",
+      "Modular construction",
+      "Thermoplastic material",
+      "UL 248-4 compliant"
+    ]
+  },
+  "littelfuseAto30": {
+    "title": "Littelfuse ATO-30 Automotive Blade Fuse",
+    "description": "Littelfuse ATO-30 automotive/industrial blade fuse with 30A rating. Standard ATO/ATC blade design for low-voltage automotive and industrial applications.",
+    "features": [
+      "Automotive blade fuse",
+      "30A current rating",
+      "32V DC voltage",
+      "Standard ATO/ATC size",
+      "Green color coding",
+      "Zinc blade terminals",
+      "Automotive/low voltage use",
+      "Easy replacement"
+    ]
+  },
+  "mersenA70p1004": {
+    "title": "Mersen A70P100-4 Class J Fast-Acting Fuse",
+    "description": "Mersen A70P100-4 Class J fast-acting fuse with 100A rating. Features 200kA interrupting capacity, 40kA peak let-through at 600V, and UL 248-8 compliance.",
+    "features": [
+      "Class J fast-acting fuse",
+      "100A current rating",
+      "600V AC voltage",
+      "200kA interrupting rating",
+      "40,000A peak let-through",
+      "1-5/8 x 4 inch size",
+      "UL 248-8 compliant",
+      "Current-limiting design"
+    ]
+  },
+  "tdkLambdaI1c120w": {
+    "title": "TDK-Lambda i1C-120W Non-Isolated DC-DC Converter",
+    "description": "TDK-Lambda i1C-120W non-isolated DC-DC converter with 98% efficiency. Features 9-36V input range, 120W output power, and comprehensive protection for industrial applications.",
+    "features": [
+      "Non-isolated DC-DC converter",
+      "9-36V DC input range",
+      "120W output power",
+      "Up to 98% efficiency",
+      "Single/dual output options",
+      "±1% output regulation",
+      "OVP, OCP, OTP protection",
+      "Temperature: -40°C to +85°C"
+    ]
+  },
+  "tdkLambdaCnB110": {
+    "title": "TDK-Lambda CN-B110 Isolated Quarter-Brick Converter",
+    "description": "TDK-Lambda CN-B110 isolated quarter-brick DC-DC converter. Features 43-160V input, 50-300W output, 1500V isolation, and up to 92% efficiency.",
+    "features": [
+      "Isolated quarter-brick package",
+      "43-160V DC input range",
+      "50-300W output power",
+      "Up to 92% efficiency",
+      "1500V DC isolation",
+      "±0.5% output regulation",
+      "Industry-standard footprint",
+      "Temperature: -40°C to +100°C"
+    ]
+  },
+  "vicorDcm2322": {
+    "title": "Vicor DCM 2322 Isolated ZVS Buck-Boost Converter",
+    "description": "Vicor DCM 2322 isolated zero-voltage switching buck-boost converter. Features 9-50V input, 9-420V output, 120W power, and 96% efficiency with 2250V isolation.",
+    "features": [
+      "Isolated ZVS buck-boost topology",
+      "9-50V DC input range",
+      "9-420V DC output range",
+      "120W output power",
+      "Up to 96% efficiency",
+      "2250V DC isolation",
+      "Zero voltage switching",
+      "Temperature: -40°C to +125°C"
+    ]
+  },
+  "vicorDcm3623": {
+    "title": "Vicor DCM 3623 Isolated VIA Converter",
+    "description": "Vicor DCM 3623 isolated VIA (Vicor Integrated Adapter) converter with 320W output. Features 200-425V input, 96% efficiency, and 2250V isolation in DCM ChiP package.",
+    "features": [
+      "Isolated VIA technology",
+      "200-425V DC input range",
+      "320W output power",
+      "Up to 96% efficiency",
+      "2250V DC isolation",
+      "±1% output regulation",
+      "Compact DCM ChiP package",
+      "Temperature: -40°C to +125°C"
+    ]
+  },
+  "murataDcs612": {
+    "title": "Murata DCS6-12 Isolated DC-DC Converter",
+    "description": "Murata DCS6-12 isolated DC-DC converter with 6W output. Features 9-18V input, 12V output, 1500V isolation, and SIP package for space-constrained applications.",
+    "features": [
+      "Isolated DC-DC converter",
+      "9-18V DC input range",
+      "12V DC output voltage",
+      "6W output power",
+      "Up to 84% efficiency",
+      "1500V DC isolation",
+      "±1% output regulation",
+      "Compact SIP package"
+    ]
+  },
+  "eaton9px1500rt": {
+    "title": "Eaton 9PX1500RT UPS System",
+    "description": "Eaton 9PX1500RT double-conversion online UPS with 1500VA/1350W capacity. Features rack/tower convertible design, lithium-ion battery option, and network card ready for critical power protection.",
+    "features": [
+      "1500VA / 1350W capacity",
+      "Double-conversion online topology",
+      "120/220/230/240V I/O voltage",
+      "Rack/tower convertible",
+      "3-11 min runtime at full load",
+      "Lithium-ion battery option",
+      "Network card ready",
+      "LCD display with status"
+    ]
+  },
+  "eaton9px3000rt": {
+    "title": "Eaton 9PX3000RT Online UPS System",
+    "description": "Eaton 9PX3000RT online double-conversion UPS with 3000VA/3000W capacity. Features ABM technology, Energy Star certified up to 93% efficiency, and 2U rack/tower design.",
+    "features": [
+      "3000VA / 3000W capacity",
+      "Online double-conversion",
+      "200-240V input/output",
+      "ABM battery management",
+      "Up to 93% Energy Star efficiency",
+      "2U rack/tower mounting",
+      "USB, serial, network card slot",
+      "Hot-swappable batteries"
+    ]
+  },
+  "apcSmt1500rm2u": {
+    "title": "APC Smart-UPS SMT1500RM2U Rack-Mount UPS",
+    "description": "APC Smart-UPS SMT1500RM2U line-interactive UPS with 1500VA/1000W capacity. Features 2U rack-mount design, LCD display, and SmartSlot for network management card.",
+    "features": [
+      "1500VA / 1000W capacity",
+      "Line-interactive topology",
+      "120V input/output voltage",
+      "2U rack-mount design",
+      "4.3 min runtime at full load",
+      "SmartSlot network card ready",
+      "LCD status display",
+      "Automatic voltage regulation"
+    ]
+  },
+  "apcSrt8kxlt": {
+    "title": "APC Smart-UPS SRT8KXLT Online UPS",
+    "description": "APC Smart-UPS SRT8KXLT online double-conversion UPS with 8000VA/8000W capacity. Features EPO terminal, network management, rack/tower design, and up to 95% efficiency.",
+    "features": [
+      "8000VA / 8000W capacity",
+      "Online double-conversion",
+      "208V input/output voltage",
+      "Rack/tower mounting",
+      "5.5 min runtime at full load",
+      "EPO emergency power off",
+      "Network management included",
+      "Up to 95% efficiency"
+    ]
+  },
+  "schneiderGalaxyVs": {
+    "title": "Schneider Electric Galaxy VS Modular UPS",
+    "description": "Schneider Electric Galaxy VS modular 3-phase online UPS with 10-100kVA capacity. Features 99% ECO mode efficiency, N+1 redundancy, touch screen HMI, and scalable power modules.",
+    "features": [
+      "10-100kVA scalable capacity",
+      "Modular 3-phase online",
+      "380/400/415V 3-phase I/O",
+      "Up to 99% ECO mode efficiency",
+      "Modular power modules",
+      "N+1 configurable redundancy",
+      "Touch screen HMI display",
+      "Hot-swappable modules"
+    ]
+  },
+  "rittalJb121406": {
+    "title": "Rittal JB121406 Steel Junction Box",
+    "description": "Rittal JB121406 is a robust steel junction box with IP66 protection, featuring a hinged door for easy access. Dimensions 12×14×6 inches with NEMA 4 rating for industrial environments.",
+    "features": [
+      "Steel construction for durability",
+      "IP66 protection rating",
+      "Hinged door for easy access",
+      "NEMA 4 rated",
+      "12×14×6 inch dimensions",
+      "Industrial grade quality"
+    ]
+  },
+  "hoffmanA6044ch": {
+    "title": "Hoffman A6044CH Steel Junction Box",
+    "description": "Hoffman A6044CH is a compact steel junction box with continuous hinge design. Features NEMA 12 and IP65 protection, ideal for indoor industrial applications.",
+    "features": [
+      "6×4×4 inch compact size",
+      "Steel construction",
+      "Continuous hinge design",
+      "NEMA 12 rating",
+      "IP65 protection",
+      "Industrial applications"
+    ]
+  },
+  "hoffmanA1086chscfg": {
+    "title": "Hoffman A1086CHSCFG Fiberglass Junction Box",
+    "description": "Hoffman A1086CHSCFG fiberglass junction box with quarter-turn latches. Features NEMA 13 and IP66 protection for harsh environments.",
+    "features": [
+      "Fiberglass construction",
+      "10×8×6 inch dimensions",
+      "Quarter-turn latches",
+      "NEMA 13 rating",
+      "IP66 protection",
+      "Corrosion resistant"
+    ]
+  },
+  "fiboxArca806030": {
+    "title": "Fibox ARCA 806030 Polycarbonate Junction Box",
+    "description": "Fibox ARCA 806030 polycarbonate junction box with UV resistance. Provides IP66/IP67 dual protection for outdoor and harsh environments.",
+    "features": [
+      "Polycarbonate material",
+      "8×6×3 inch size",
+      "UV resistant",
+      "IP66/IP67 dual rating",
+      "Outdoor suitable",
+      "Transparent cover option"
+    ]
+  },
+  "fiboxTempoTam302515": {
+    "title": "Fibox TEMPO TAM302515 ABS Junction Box",
+    "description": "Fibox TEMPO TAM302515 ABS junction box with transparent cover for visual inspection. Features IP65 protection and metric dimensions.",
+    "features": [
+      "ABS construction",
+      "300×250×150mm dimensions",
+      "Transparent cover",
+      "IP65 protection",
+      "Visual inspection",
+      "Lightweight design"
+    ]
+  },
+  "phoenixBc356": {
+    "title": "Phoenix Contact BC 35.6 Modular DIN Rail Housing",
+    "description": "Phoenix Contact BC 35.6 is a modular DIN rail housing with 35.6mm width. Made from polyamide with IP20 protection for standard industrial applications.",
+    "features": [
+      "35.6mm width",
+      "Modular design",
+      "Polyamide material",
+      "IP20 protection",
+      "DIN rail mounting",
+      "Easy installation"
+    ]
+  },
+  "phoenixMcsIp67": {
+    "title": "Phoenix Contact MCS-IP67 DIN Rail Enclosure",
+    "description": "Phoenix Contact MCS-IP67 DIN rail enclosure with enhanced protection. Features 53.6mm width, IP67 rating with seal, and push-in terminals.",
+    "features": [
+      "53.6mm width",
+      "IP67 rated with seal",
+      "Push-in terminals",
+      "Enhanced protection",
+      "DIN rail mounting",
+      "Industrial applications"
+    ]
+  },
+  "abbMistral36": {
+    "title": "ABB Mistral36 DIN Rail Enclosure",
+    "description": "ABB Mistral36 is a 36 module DIN rail enclosure with transparent door. Wall mount design for easy installation and access.",
+    "features": [
+      "36 module capacity",
+      "Transparent door",
+      "Wall mount design",
+      "DIN rail compatible",
+      "Easy access",
+      "Modular configuration"
+    ]
+  },
+  "abbMistral54": {
+    "title": "ABB Mistral54 Meter Enclosure",
+    "description": "ABB Mistral54 is a 54 module meter enclosure with reversible door and snap-on closing mechanism. Designed for metering applications.",
+    "features": [
+      "54 module capacity",
+      "Reversible door",
+      "Snap-on closing",
+      "Meter enclosure",
+      "DIN rail mounting",
+      "Flexible configuration"
+    ]
+  },
+  "phoenixIcs77": {
+    "title": "Phoenix Contact ICS-77 Modular Connectivity Housing",
+    "description": "Phoenix Contact ICS-77 compact DIN rail housing with modular connectivity options. Supports RJ45/USB connections in 77×25×12mm dimensions.",
+    "features": [
+      "77×25×12mm compact size",
+      "Modular connectivity",
+      "RJ45/USB support",
+      "IP20 protection",
+      "DIN rail mounting",
+      "Communication applications"
+    ]
+  },
+  "watlowFirerod14500": {
+    "title": "Watlow FIREROD-1/4-500 Cartridge Heater",
+    "description": "Watlow FIREROD-1/4-500 is a 1/4 inch diameter cartridge heater rated at 500W, 240V. Swaged construction for maximum heat transfer.",
+    "features": [
+      "1/4 inch diameter",
+      "500W power rating",
+      "240V operation",
+      "Swaged construction",
+      "High heat transfer",
+      "Industrial applications"
+    ]
+  },
+  "chromaloxTlo20": {
+    "title": "Chromalox TLO-20 Tubular Immersion Heater",
+    "description": "Chromalox TLO-20 is a 20kW tubular immersion heater with carbon steel construction. Designed for 480V industrial heating applications.",
+    "features": [
+      "20kW power output",
+      "Tubular immersion design",
+      "480V operation",
+      "Carbon steel construction",
+      "Industrial heating",
+      "High temperature capability"
+    ]
+  },
+  "watlowWatrod43010": {
+    "title": "Watlow WATROD-430-10 Tubular Heater",
+    "description": "Watlow WATROD-430-10 tubular heater with 0.430 inch diameter for duct heating. 10kW power output for industrial air heating.",
+    "features": [
+      "0.430 inch diameter",
+      "10kW power rating",
+      "Duct heating application",
+      "Tubular construction",
+      "High efficiency",
+      "Industrial grade"
+    ]
+  },
+  "chromaloxSre10": {
+    "title": "Chromalox SRE-10 Electric Heating Coil",
+    "description": "Chromalox SRE-10 electric heating coil with 10kW capacity at 240V. Resistance wire construction for reliable heating.",
+    "features": [
+      "10kW power output",
+      "240V operation",
+      "Resistance wire construction",
+      "Electric heating coil",
+      "Reliable performance",
+      "Industrial applications"
+    ]
+  },
+  "omegaCsh102": {
+    "title": "Omega CSH-102 Spring Coil Heater",
+    "description": "Omega CSH-102 is a 1000W coil heater with spring-type construction. 120V operation for versatile heating applications.",
+    "features": [
+      "1000W power rating",
+      "120V operation",
+      "Spring-type construction",
+      "Coil heater design",
+      "Flexible installation",
+      "Versatile applications"
+    ]
+  },
+  "watlowFirebarFb15": {
+    "title": "Watlow FIREBAR-FB15 Single-Ended Tubular Heater",
+    "description": "Watlow FIREBAR-FB15 single-ended tubular heating element rated at 1500W, 240V. Flanged mounting for secure installation.",
+    "features": [
+      "Single-ended tubular design",
+      "1500W power output",
+      "240V operation",
+      "Flanged mounting",
+      "Secure installation",
+      "Industrial heating"
+    ]
+  },
+  "chromaloxCes028": {
+    "title": "Chromalox CES-028 Cartridge Element",
+    "description": "Chromalox CES-028 cartridge heating element with 2800W capacity. Stainless steel construction for 480V applications.",
+    "features": [
+      "2800W power rating",
+      "480V operation",
+      "Stainless steel construction",
+      "Cartridge element design",
+      "Corrosion resistant",
+      "High temperature"
+    ]
+  },
+  "watlowUltramicAln250": {
+    "title": "Watlow ULTRAMIC-AlN-250 Ceramic Heater",
+    "description": "Watlow ULTRAMIC-AlN-250 ceramic heater with aluminum nitride substrate. 250W clean heat generation for precision applications.",
+    "features": [
+      "Aluminum nitride ceramic",
+      "250W power output",
+      "Clean heat generation",
+      "Precision heating",
+      "High thermal conductivity",
+      "Semiconductor applications"
+    ]
+  },
+  "omegaCss01250": {
+    "title": "Omega CSS-01250 Mica Strip Heater",
+    "description": "Omega CSS-01250 strip heater with mica insulation. 1250W capacity at 240V for surface heating applications.",
+    "features": [
+      "1250W power rating",
+      "240V operation",
+      "Mica insulation",
+      "Strip heater design",
+      "Surface heating",
+      "Uniform heat distribution"
+    ]
+  },
+  "chromaloxTmo10": {
+    "title": "Chromalox TMO-10 Tubular Metal-Over Heater",
+    "description": "Chromalox TMO-10 tubular metal-over heater with INCOLOY sheath. 10kW capacity at 600V for high temperature applications.",
+    "features": [
+      "10kW power output",
+      "600V operation",
+      "INCOLOY sheath",
+      "Tubular metal-over design",
+      "High temperature capability",
+      "Corrosion resistant"
+    ]
+  },
+  "watlowCirculationCh50": {
+    "title": "Watlow Circulation Heater CH-50",
+    "description": "Watlow Circulation Heater CH-50 with 50kW capacity for process heating. Flanged design for 480V industrial applications.",
+    "features": [
+      "50kW power output",
+      "Flanged mounting",
+      "480V operation",
+      "Process heating",
+      "Circulation design",
+      "Industrial applications"
+    ]
+  },
+  "chromaloxCvep15": {
+    "title": "Chromalox CVEP-15 Hazardous Location Heater",
+    "description": "Chromalox CVEP-15 explosion-proof heater rated at 15kW. Class I Division 1 certified for hazardous locations.",
+    "features": [
+      "15kW power output",
+      "Explosion-proof design",
+      "Class I Div 1 rating",
+      "Hazardous location certified",
+      "Industrial safety",
+      "ATEX compliant"
+    ]
+  },
+  "watlowDuctDh30": {
+    "title": "Watlow Duct Heater DH-30",
+    "description": "Watlow Duct Heater DH-30 with 30kW capacity for air heating. 480V 3-phase modular construction for HVAC applications.",
+    "features": [
+      "30kW power output",
+      "Air heating application",
+      "480V 3-phase",
+      "Modular construction",
+      "Duct mounting",
+      "HVAC systems"
+    ]
+  },
+  "chromaloxImmersionPmh25": {
+    "title": "Chromalox Immersion PMH-25",
+    "description": "Chromalox Immersion PMH-25 heater with 25kW capacity. ANSI flange mounting with stainless steel construction for 600V applications.",
+    "features": [
+      "25kW power output",
+      "ANSI flange mounting",
+      "600V operation",
+      "Stainless steel construction",
+      "Immersion heating",
+      "Industrial process"
+    ]
+  },
+  "omegaFma1020": {
+    "title": "Omega FMA-1020 Finned Air Heater",
+    "description": "Omega FMA-1020 finned air heater with 10kW capacity. 240V operation with forced air circulation for efficient heating.",
+    "features": [
+      "10kW power rating",
+      "240V operation",
+      "Finned design",
+      "Forced air circulation",
+      "Efficient heat transfer",
+      "Air heating applications"
+    ]
+  },
+  "orientalMd6p38": {
+    "title": "Oriental Motor MD-6P38 BLDC Exhaust Motor",
+    "description": "Oriental Motor MD-6P38 DC axial fan motor rated at 38W, 24VDC. 6-pole BLDC design with IP55 protection for industrial exhaust applications.",
+    "features": [
+      "38W power rating",
+      "24VDC operation",
+      "6-pole BLDC design",
+      "IP55 protection",
+      "DC axial fan",
+      "Industrial exhaust"
+    ]
+  },
+  "nidecD12e24ts3": {
+    "title": "Nidec D12E-24TS3 BLDC Motor",
+    "description": "Nidec D12E-24TS3 BLDC motor with 12cm size delivering 83 CFM airflow. Low noise operation at 24VDC for cooling applications.",
+    "features": [
+      "24VDC operation",
+      "12cm size",
+      "83 CFM airflow",
+      "Low noise design",
+      "BLDC technology",
+      "Cooling applications"
+    ]
+  },
+  "deltaBfb1224h": {
+    "title": "Delta Electronics BFB1224H BLDC Exhaust Motor",
+    "description": "Delta Electronics BFB1224H BLDC exhaust motor with 120mm size. 24VDC operation with 70,000 hour lifespan for long-term reliability.",
+    "features": [
+      "120mm size",
+      "24VDC operation",
+      "70,000 hour life",
+      "BLDC technology",
+      "Exhaust motor",
+      "Long lifespan"
+    ]
+  },
+  "orientalMa2308p": {
+    "title": "Oriental Motor MA-230-8P AC Axial Motor",
+    "description": "Oriental Motor MA-230-8P AC axial motor with 80mm size. 230VAC operation providing high airflow for industrial ventilation.",
+    "features": [
+      "230VAC operation",
+      "80mm size",
+      "High airflow",
+      "AC axial design",
+      "Industrial ventilation",
+      "Reliable performance"
+    ]
+  },
+  "nidecG1238b": {
+    "title": "Nidec G1238B Industrial BLDC Motor",
+    "description": "Nidec G1238B DC axial BLDC motor rated at 38W. 12cm size with variable speed control for industrial grade applications.",
+    "features": [
+      "38W power rating",
+      "12cm size",
+      "Variable speed control",
+      "DC axial BLDC",
+      "Industrial grade",
+      "Flexible operation"
+    ]
+  },
+  "nidecGentletyphoonD1225c12": {
+    "title": "Nidec GentleTyphoon D1225C12 Ultra-Quiet Cooler Motor",
+    "description": "Nidec GentleTyphoon D1225C12 BLDC cooler motor operating at 1850 RPM with 12VDC. Ultra-quiet operation for precision cooling.",
+    "features": [
+      "12VDC operation",
+      "1850 RPM speed",
+      "Ultra-quiet operation",
+      "BLDC cooler motor",
+      "Precision cooling",
+      "Low vibration"
+    ]
+  },
+  "orientalBle2m25s5": {
+    "title": "Oriental Motor BLE2M25S-5 BLDC Cooling Motor",
+    "description": "Oriental Motor BLE2M25S-5 BLDC motor with 25W capacity and speed control. 24VDC operation for cooling applications.",
+    "features": [
+      "25W power rating",
+      "24VDC operation",
+      "Speed control",
+      "BLDC motor",
+      "Cooling application",
+      "Variable speed"
+    ]
+  },
+  "deltaAfb1212she": {
+    "title": "Delta Electronics AFB1212SHE High Pressure BLDC Motor",
+    "description": "Delta Electronics AFB1212SHE BLDC motor with 120mm size. 12VDC operation with high static pressure for demanding cooling.",
+    "features": [
+      "120mm size",
+      "12VDC operation",
+      "High static pressure",
+      "BLDC technology",
+      "Demanding applications",
+      "Reliable cooling"
+    ]
+  },
+  "nidecBetaVTa450dc": {
+    "title": "Nidec Beta V TA450DC PWM Cooling Motor",
+    "description": "Nidec Beta V TA450DC BLDC cooling motor with PWM control. 12VDC operation at 4500 RPM for high performance cooling.",
+    "features": [
+      "12VDC operation",
+      "PWM control",
+      "4500 RPM speed",
+      "BLDC cooling motor",
+      "High performance",
+      "Variable speed"
+    ]
+  },
+  "orientalMf60Ac": {
+    "title": "Oriental Motor MF-60-AC Cross-Flow Motor",
+    "description": "Oriental Motor MF-60-AC cross-flow motor with 60mm size. 230VAC operation providing even airflow distribution.",
+    "features": [
+      "230VAC operation",
+      "60mm size",
+      "Cross-flow design",
+      "Even airflow",
+      "Quiet operation",
+      "HVAC applications"
+    ]
+  },
+  "orientalMd8p48": {
+    "title": "Oriental Motor MD-8P48 BLDC Ventilation Motor",
+    "description": "Oriental Motor MD-8P48 BLDC ventilation motor rated at 48W with 24VDC operation. IP55 protection delivering up to 883 CFM.",
+    "features": [
+      "48W power rating",
+      "24VDC operation",
+      "IP55 protection",
+      "883 CFM max airflow",
+      "BLDC ventilation",
+      "High capacity"
+    ]
+  },
+  "nidecG1751m": {
+    "title": "Nidec G1751M High Capacity BLDC Ventilation Motor",
+    "description": "Nidec G1751M BLDC motor with 17cm size and 51W power. 24VDC operation with high capacity and low vibration.",
+    "features": [
+      "17cm size",
+      "51W power rating",
+      "24VDC operation",
+      "High capacity",
+      "Low vibration",
+      "BLDC technology"
+    ]
+  },
+  "deltaBfb1512vh": {
+    "title": "Delta Electronics BFB1512VH BLDC Ventilation Motor",
+    "description": "Delta Electronics BFB1512VH BLDC ventilation motor with 150mm size. 12VDC operation delivering 260 CFM airflow.",
+    "features": [
+      "150mm size",
+      "12VDC operation",
+      "260 CFM airflow",
+      "BLDC ventilation",
+      "High performance",
+      "Efficient operation"
+    ]
+  },
+  "orientalBmu23005": {
+    "title": "Oriental Motor BMU230-05 BLDC Ventilation Unit",
+    "description": "Oriental Motor BMU230-05 BLDC motor unit with speed control. 230VAC operation for ventilation applications.",
+    "features": [
+      "230VAC operation",
+      "Speed control",
+      "BLDC motor unit",
+      "Ventilation application",
+      "Variable speed",
+      "Industrial grade"
+    ]
+  },
+  "nidecD08a12ts1": {
+    "title": "Nidec D08A-12TS1 Speed Detection BLDC Motor",
+    "description": "Nidec D08A-12TS1 BLDC motor with 80mm size and pulse output. 12VDC operation with speed detection capability.",
+    "features": [
+      "80mm size",
+      "12VDC operation",
+      "Pulse output",
+      "Speed detection",
+      "BLDC motor",
+      "Feedback control"
+    ]
+  },
+  "grundfos10sq07200": {
+    "title": "Grundfos 10SQ07-200 Submersible Well Pump",
+    "description": "Grundfos 10SQ07-200 submersible well pump delivering 10 GPM with 0.75 HP motor. 200 ft head capacity at 230V for residential and light commercial.",
+    "features": [
+      "10 GPM flow rate",
+      "0.75 HP motor",
+      "200 ft head",
+      "230V operation",
+      "Submersible well pump",
+      "Reliable performance"
+    ]
+  },
+  "franklin20fv1s4": {
+    "title": "Franklin 20FV1S4 Series V Submersible Pump",
+    "description": "Franklin 20FV1S4 Series V submersible pump with 20 GPM capacity. 1 HP stainless steel construction for 230V applications.",
+    "features": [
+      "20 GPM flow rate",
+      "1 HP motor",
+      "230V operation",
+      "Stainless steel construction",
+      "Series V design",
+      "Corrosion resistant"
+    ]
+  },
+  "grundfosSp307": {
+    "title": "Grundfos SP30-7 Industrial Submersible Pump",
+    "description": "Grundfos SP30-7 industrial submersible pump with 4 inch diameter. 30 GPM flow with 7 HP motor for 460V 3-phase applications.",
+    "features": [
+      "30 GPM flow rate",
+      "7 HP motor",
+      "4 inch diameter",
+      "460V 3-phase",
+      "Industrial submersible",
+      "High performance"
+    ]
+  },
+  "franklin500sts50d6": {
+    "title": "Franklin 500STS50D6 STS Turbine Pump",
+    "description": "Franklin 500STS50D6 STS turbine pump with 6 inch diameter. 500 GPM high capacity with 50 HP motor for 460V industrial applications.",
+    "features": [
+      "500 GPM flow rate",
+      "50 HP motor",
+      "6 inch diameter",
+      "460V operation",
+      "STS turbine design",
+      "Heavy duty industrial"
+    ]
+  },
+  "grundfosSqe15290": {
+    "title": "Grundfos SQE15-290 Smart Submersible Pump",
+    "description": "Grundfos SQE15-290 smart submersible pump with built-in VFD. 15 GPM capacity with 1.5 HP motor and 290 ft head.",
+    "features": [
+      "15 GPM flow rate",
+      "1.5 HP motor",
+      "290 ft head",
+      "Built-in VFD",
+      "Smart submersible",
+      "Energy efficient"
+    ]
+  },
+  "fluke325": {
+    "title": "Fluke 325 True-RMS Clamp Meter",
+    "description": "Fluke 325 true-RMS clamp meter measuring up to 400A AC and 600V AC/DC. CAT IV 300V safety rating for electrical troubleshooting.",
+    "features": [
+      "400A AC measurement",
+      "600V AC/DC",
+      "True-RMS",
+      "CAT IV 300V safety",
+      "Clamp meter design",
+      "Electrical troubleshooting"
+    ]
+  },
+  "kyoritsu2046r": {
+    "title": "Kyoritsu 2046R True-RMS Clamp Meter",
+    "description": "Kyoritsu 2046R true-RMS clamp meter with 600A AC/DC capacity. 33mm jaw opening with CAT IV rating for industrial use.",
+    "features": [
+      "600A AC/DC measurement",
+      "600V range",
+      "33mm jaw opening",
+      "True-RMS",
+      "CAT IV safety",
+      "Industrial applications"
+    ]
+  },
+  "fluke376fc": {
+    "title": "Fluke 376 FC Wireless Clamp Meter with iFlex",
+    "description": "Fluke 376 FC wireless clamp meter with iFlex probe. 1000A AC/DC measurement up to 1000V with Bluetooth connectivity.",
+    "features": [
+      "1000A AC/DC with iFlex",
+      "1000V measurement",
+      "Bluetooth wireless",
+      "True-RMS",
+      "iFlex probe included",
+      "Remote monitoring"
+    ]
+  },
+  "hiokiCm4373": {
+    "title": "Hioki CM4373 AC/DC Power Clamp Meter",
+    "description": "Hioki CM4373 AC/DC clamp meter with 2000A capacity. Bluetooth connectivity with true-RMS and power measurement capabilities.",
+    "features": [
+      "2000A measurement",
+      "Bluetooth connectivity",
+      "True-RMS",
+      "Power measurement",
+      "AC/DC clamp",
+      "Data logging"
+    ]
+  },
+  "kyoritsu2056r": {
+    "title": "Kyoritsu 2056R Auto-Ranging Clamp Meter",
+    "description": "Kyoritsu 2056R true-RMS clamp meter with 1000A AC/DC capacity. 40mm jaw opening with auto-ranging for easy measurement.",
+    "features": [
+      "1000A AC/DC measurement",
+      "600V range",
+      "40mm jaw opening",
+      "Auto-ranging",
+      "True-RMS",
+      "Large display"
+    ]
+  },
+  "keysight34461a": {
+    "title": "Keysight 34461A Truevolt 6.5-Digit DMM",
+    "description": "Keysight 34461A is a 6.5-digit Truevolt digital multimeter with 30 ppm DCV accuracy, USB/LAN connectivity, and graphical display for precision bench measurements.",
+    "features": [
+      "6.5-digit resolution",
+      "30 ppm DCV accuracy",
+      "USB and LAN connectivity",
+      "Graphical display",
+      "Truevolt technology",
+      "Low noise measurements"
+    ]
+  },
+  "keysight34465a": {
+    "title": "Keysight 34465A Truevolt 6.5-Digit DMM",
+    "description": "Keysight 34465A Truevolt DMM with 6.5-digit resolution, 110 readings/s speed, 5K data logging memory, and 4.3-inch color display for advanced bench testing.",
+    "features": [
+      "6.5-digit resolution",
+      "110 readings per second",
+      "5K points data logging",
+      "4.3-inch color display",
+      "High-speed measurements",
+      "Advanced connectivity"
+    ]
+  },
+  "keithleyDmm7510": {
+    "title": "Keithley DMM7510 7.5-Digit Digitizing Multimeter",
+    "description": "Keithley DMM7510 is a 7.5-digit precision digitizing multimeter with 1 Msample/s sampling rate, touchscreen interface, and 1pA/1μΩ sensitivity for research applications.",
+    "features": [
+      "7.5-digit precision",
+      "1 Msample/s digitizing",
+      "Touchscreen display",
+      "1pA/1μΩ sensitivity",
+      "High-speed sampling",
+      "Advanced measurement functions"
+    ]
+  },
+  "keithleyDmm6500": {
+    "title": "Keithley DMM6500 6.5-Digit Graphical Multimeter",
+    "description": "Keithley DMM6500 features 6.5-digit resolution, graphical touchscreen display, Python/TSP programming support, and 15 measurement functions for versatile testing.",
+    "features": [
+      "6.5-digit resolution",
+      "Graphical touchscreen",
+      "Python/TSP programming",
+      "15 measurement functions",
+      "Advanced automation",
+      "Flexible connectivity"
+    ]
+  },
+  "keysight34450a": {
+    "title": "Keysight 34450A 5.5-Digit Dual Display DMM",
+    "description": "Keysight 34450A offers 5.5-digit resolution with 0.015% DCV accuracy, 190 readings/s, OLED display, and 50K memory for efficient bench measurements.",
+    "features": [
+      "5.5-digit resolution",
+      "0.015% DCV accuracy",
+      "190 readings per second",
+      "OLED display",
+      "50K memory points",
+      "Fast measurement speed"
+    ]
+  },
+  "schneiderIon9000": {
+    "title": "Schneider ION9000 Premium Power Quality Meter",
+    "description": "Schneider ION9000 is a premium power quality meter with 0.05% accuracy class, dual precision measurement, and advanced disturbance tracking for critical monitoring.",
+    "features": [
+      "0.05% accuracy class",
+      "Dual precision measurement",
+      "Disturbance tracking",
+      "Premium power quality monitoring",
+      "Advanced analytics",
+      "High-precision metering"
+    ]
+  },
+  "schneiderPm8000": {
+    "title": "Schneider PM8000 Power Quality Meter",
+    "description": "Schneider PM8000 power quality meter designed for commercial and industrial applications with advanced monitoring capabilities and comprehensive power analysis.",
+    "features": [
+      "Commercial/Industrial grade",
+      "Advanced power monitoring",
+      "Comprehensive analysis",
+      "Energy management",
+      "Quality assurance",
+      "Reliable operation"
+    ]
+  },
+  "siemensSentron7kt": {
+    "title": "Siemens SENTRON 7KT PAC DIN Rail Power Meter",
+    "description": "Siemens SENTRON 7KT PAC is a DIN rail mounted power meter with PROFINET and Modbus communication, MID certification for accurate energy monitoring.",
+    "features": [
+      "DIN rail mounting",
+      "PROFINET communication",
+      "Modbus support",
+      "MID-certified",
+      "Compact design",
+      "Industrial networking"
+    ]
+  },
+  "siemensSicamP850": {
+    "title": "Siemens SICAM P850 Multifunctional Power Meter",
+    "description": "Siemens SICAM P850 multifunctional power meter with harmonics analysis capabilities and SCADA integration for comprehensive power system monitoring.",
+    "features": [
+      "Multifunctional metering",
+      "Harmonics analysis",
+      "SCADA integration",
+      "Power quality monitoring",
+      "Advanced diagnostics",
+      "System integration"
+    ]
+  },
+  "schneiderMetsepm8240": {
+    "title": "Schneider METSEPM8240 Energy Meter",
+    "description": "Schneider METSEPM8240 energy meter with 0.2S accuracy class, Ethernet connectivity for commercial building energy monitoring and management.",
+    "features": [
+      "0.2S accuracy class",
+      "Ethernet connectivity",
+      "Commercial building monitoring",
+      "Energy management",
+      "Advanced metering",
+      "Network integration"
+    ]
+  },
+  "fluke1775": {
+    "title": "Fluke 1775 Three-Phase Power Quality Analyzer",
+    "description": "Fluke 1775 is a 3-phase power quality analyzer with 1 MHz sampling, 50 harmonics detection to 30 kHz, WiFi/BLE connectivity, and touchscreen interface.",
+    "features": [
+      "3-phase analysis",
+      "1 MHz sampling rate",
+      "50 harmonics to 30 kHz",
+      "WiFi and BLE connectivity",
+      "Touchscreen interface",
+      "Advanced power quality analysis"
+    ]
+  },
+  "fluke438ii": {
+    "title": "Fluke 438-II Power Quality and Motor Analyzer",
+    "description": "Fluke 438-II combines power quality analysis with motor diagnostics, featuring harmonics to 50th order, PowerWave capture, and 200 kS/s sampling rate.",
+    "features": [
+      "Power quality + motor analysis",
+      "Harmonics to 50th order",
+      "PowerWave capture technology",
+      "200 kS/s sampling rate",
+      "Motor diagnostics",
+      "Comprehensive testing"
+    ]
+  },
+  "dranetzHdpqVisaPlus": {
+    "title": "Dranetz HDPQ Visa Plus Power Quality Analyzer",
+    "description": "Dranetz HDPQ Visa Plus meets IEC 61000-4-30 Class A standards with 8-channel monitoring, 1000V RMS rating, 512 samples/cycle, and touchscreen display.",
+    "features": [
+      "IEC 61000-4-30 Class A",
+      "8-channel monitoring",
+      "1000V RMS rating",
+      "512 samples per cycle",
+      "Touchscreen display",
+      "Professional-grade analysis"
+    ]
+  },
+  "dranetzHdpqXplorer": {
+    "title": "Dranetz HDPQ Xplorer Portable Power Analyzer",
+    "description": "Dranetz HDPQ Xplorer is a portable power analyzer with 7-inch touchscreen, designed for field troubleshooting with Dran-View 7 software integration.",
+    "features": [
+      "7-inch touchscreen",
+      "Portable design",
+      "Field troubleshooting",
+      "Dran-View 7 software",
+      "Easy to use",
+      "Professional analysis"
+    ]
+  },
+  "fluke1777": {
+    "title": "Fluke 1777 Three-Phase Power Analyzer",
+    "description": "Fluke 1777 three-phase power analyzer with 20 MHz transient capture, up to 8 kV voltage capability, CAT IV 600V safety rating, and energy loss calculator.",
+    "features": [
+      "3-phase analysis",
+      "20 MHz transient capture",
+      "Up to 8 kV capability",
+      "CAT IV 600V safety",
+      "Energy loss calculator",
+      "Advanced diagnostics"
+    ]
+  },
+  "boschGsb18v1330cb": {
+    "title": "Bosch GSB18V-1330CB PROFACTOR Hammer Drill",
+    "description": "Bosch GSB18V-1330CB is an 18V PROFACTOR hammer drill with CORE18V battery technology, brushless motor, and connected-ready features for professional applications.",
+    "features": [
+      "18V PROFACTOR system",
+      "CORE18V battery",
+      "Brushless motor",
+      "Connected-ready",
+      "Professional-grade",
+      "High performance"
+    ]
+  },
+  "milwaukeeM18Fuel2904": {
+    "title": "Milwaukee M18 FUEL 2904 Hammer Drill",
+    "description": "Milwaukee M18 FUEL 2904 delivers 1200 in-lbs torque with 18V power, REDLITHIUM battery technology, and 1/2-inch chuck for heavy-duty drilling applications.",
+    "features": [
+      "18V M18 system",
+      "1200 in-lbs torque",
+      "REDLITHIUM battery",
+      "1/2-inch chuck",
+      "FUEL technology",
+      "Heavy-duty performance"
+    ]
+  },
+  "makitaXph14z": {
+    "title": "Makita XPH14Z 18V LXT Brushless Hammer Drill",
+    "description": "Makita XPH14Z features 18V LXT platform, brushless motor delivering 1,250 in-lbs torque, compact design with dual LED lighting for precision work.",
+    "features": [
+      "18V LXT platform",
+      "Brushless motor",
+      "1,250 in-lbs torque",
+      "Compact design",
+      "Dual LED lights",
+      "Precision drilling"
+    ]
+  },
+  "dewaltDcd800b": {
+    "title": "DeWalt DCD800B 20V MAX Compact Drill",
+    "description": "DeWalt DCD800B is a 20V MAX compact drill with brushless motor, 340 UWO power, 3-mode LED lighting, and 1/2-inch chuck for versatile applications.",
+    "features": [
+      "20V MAX system",
+      "Brushless motor",
+      "340 UWO power",
+      "3-mode LED",
+      "1/2-inch chuck",
+      "Compact design"
+    ]
+  },
+  "milwaukeeM12Fuel3404": {
+    "title": "Milwaukee M12 FUEL 3404 Ultra-Compact Hammer Drill",
+    "description": "Milwaukee M12 FUEL 3404 3rd generation hammer drill delivers 400 in-lbs torque in ultra-compact 12V design with 1/2-inch chuck for tight spaces.",
+    "features": [
+      "12V M12 system",
+      "3rd generation",
+      "400 in-lbs torque",
+      "Ultra-compact",
+      "1/2-inch chuck",
+      "Tight space access"
+    ]
+  },
+  "boschGws1350vs": {
+    "title": "Bosch GWS13-50VS 5-Inch Variable Speed Angle Grinder",
+    "description": "Bosch GWS13-50VS features 13A motor with 2,800-11,500 RPM variable speed, vibration control, Service Minder brush system for 5-inch disc grinding.",
+    "features": [
+      "5-inch disc size",
+      "13A corded power",
+      "2,800-11,500 RPM variable",
+      "Vibration control",
+      "Service Minder",
+      "Professional-grade"
+    ]
+  },
+  "makita9564cv": {
+    "title": "Makita 9564CV 4.5-Inch Variable Speed Angle Grinder",
+    "description": "Makita 9564CV offers 13A power with 2,800-10,500 RPM variable speed, SJS mechanical clutch protection, and 5-stage speed control for 4.5-inch applications.",
+    "features": [
+      "4.5-inch disc size",
+      "13A corded power",
+      "2,800-10,500 RPM",
+      "SJS mechanical clutch",
+      "5-stage variable speed",
+      "Safety features"
+    ]
+  },
+  "milwaukee278020": {
+    "title": "Milwaukee 2780-20 M18 FUEL 4.5-Inch Angle Grinder",
+    "description": "Milwaukee 2780-20 M18 FUEL angle grinder with brushless motor, 8,500 RPM speed, RAPIDSTOP brake, and paddle switch for cordless 4.5-inch grinding.",
+    "features": [
+      "M18 FUEL cordless",
+      "4.5-inch disc size",
+      "Brushless motor",
+      "8,500 RPM",
+      "RAPIDSTOP brake",
+      "Paddle switch safety"
+    ]
+  },
+  "boschGwx1450pbd": {
+    "title": "Bosch GWX14-50PBD 5-Inch X-LOCK Angle Grinder",
+    "description": "Bosch GWX14-50PBD features 13A motor with 11,500 RPM, X-LOCK wheel change system 5x faster than conventional, high-performance 5-inch grinding.",
+    "features": [
+      "5-inch disc size",
+      "13A corded power",
+      "11,500 RPM",
+      "X-LOCK 5x faster changes",
+      "High-performance",
+      "Quick wheel change"
+    ]
+  },
+  "makitaGa7021": {
+    "title": "Makita GA7021 7-Inch Heavy-Duty Angle Grinder",
+    "description": "Makita GA7021 heavy-duty 7-inch angle grinder with 15A motor, 8,500 RPM, machined bevel gears for 2x longer life in demanding applications.",
+    "features": [
+      "7-inch disc size",
+      "15A corded power",
+      "8,500 RPM",
+      "Heavy-duty construction",
+      "Machined bevel gears",
+      "2x longer life"
+    ]
+  },
+  "cmCyclone4628": {
+    "title": "CM Cyclone 4628 Manual Chain Hoist 4 Ton",
+    "description": "CM Cyclone 4628 is a 4 ton capacity manual chain hoist with aluminum alloy construction, Weston brake system, and integrated load limiter for safety.",
+    "features": [
+      "4 ton capacity",
+      "Manual operation",
+      "Aluminum alloy",
+      "Weston brake",
+      "Load limiter",
+      "Safety certified"
+    ]
+  },
+  "harringtonCb050": {
+    "title": "Harrington CB050 Manual Chain Hoist 5 Ton",
+    "description": "Harrington CB050 heavy-duty 5 ton manual chain hoist with slip clutch overload protection and durable steel construction for industrial lifting.",
+    "features": [
+      "5 ton capacity",
+      "Manual operation",
+      "Heavy-duty design",
+      "Slip clutch protection",
+      "Steel construction",
+      "Industrial-grade"
+    ]
+  },
+  "cmLodestarL1": {
+    "title": "CM Lodestar L1 Electric Chain Hoist 1 Ton",
+    "description": "CM Lodestar L1 is a 1 ton electric chain hoist with single-speed operation, hook mount design for general purpose industrial lifting applications.",
+    "features": [
+      "1 ton capacity",
+      "Electric operation",
+      "Single-speed",
+      "Hook mount",
+      "General purpose",
+      "Reliable performance"
+    ]
+  },
+  "harringtonNer020ld": {
+    "title": "Harrington NER020LD Electric Chain Hoist 2 Ton",
+    "description": "Harrington NER020LD 2 ton electric chain hoist with single/dual speed options and VFD controls for precise load handling in industrial environments.",
+    "features": [
+      "2 ton capacity",
+      "Electric operation",
+      "Single/Dual speed",
+      "VFD controls",
+      "Precision handling",
+      "Industrial applications"
+    ]
+  },
+  "cmSeries62210t": {
+    "title": "CM Series 622 Manual Chain Hoist 10 Ton",
+    "description": "CM Series 622-10T is a 10 ton all-steel manual chain hoist with ultra-low headroom design and lifetime warranty for heavy-duty industrial lifting.",
+    "features": [
+      "10 ton capacity",
+      "Manual operation",
+      "All-steel construction",
+      "Ultra-low headroom",
+      "Lifetime warranty",
+      "Heavy-duty industrial"
+    ]
+  },
   "utilities": {
     "variant": {
       "titleSuffix": " - Variant {{number}}",
