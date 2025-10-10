@@ -48,7 +48,7 @@ import { ThemeToggle } from "@/components/ui/theme-toggle";
 import { LanguageSwitcher } from "@/components/ui/language-switcher";
 import { useRTLClasses } from "@/hooks/use-rtl";
 import { cn } from "@/lib/utils";
-import mainLogoPowerton from "@assets/downloaded_images/main-logo-powerton.png";
+import mainLogoPowerton from "@assets/logos/main-logo-powerton.png";
 
 export default function Header() {
   const { t } = useTranslation(["navigation", "common"]);

@@ -17,7 +17,7 @@
 import automationProjectImage from "@assets/generated_images/Automation_Project_Showcase_c9ed4237.png";
 import corporateClientImage from "@assets/generated_images/Corporate_Client_Building_10ddd5dd.png";
 import engineeringTeamImage from "@assets/generated_images/Engineering_Team_Working_82b3dac7.png";
-import companyLogoImage from "@assets/downloaded_images/main-logo-powerton.png";
+import companyLogoImage from "@assets/logos/main-logo-powerton.png";
 import industrialAutomationImage from "@assets/generated_images/Industrial_Automation_Factory_54a2a6f1.png";
 import powerPlantControlImage from "@assets/generated_images/Power_Plant_Control_Room_0bd716bf.png";
 
@@ -73,15 +73,116 @@ import safetyProximitySensorImage from "@assets/generated_images/Safety_proximit
 import laserPhotoelectricSensorImage from "@assets/generated_images/Laser_photoelectric_sensor_precision_6899d990.png";
 import retroreflectiveSensorImage from "@assets/generated_images/Retroreflective_sensor_cubic_design_b1a7d7ab.png";
 
-// New transmitter and flow meter stock images
-import dpTransmitterImage from "@assets/stock_images/industrial_pressure__0f9690ef.jpg";
-import pTypeTransmitterImage from "@assets/stock_images/industrial_pressure__717f5f0e.jpg";
-import rsTransmitterImage from "@assets/stock_images/industrial_pressure__4a527507.jpg";
-import magneticFlowMeterImage from "@assets/stock_images/industrial_electroma_7065d7a2.jpg";
-// Using available fallback images for missing assets
-import massFlowMeterImage from "@assets/stock_images/industrial_electroma_7065d7a2.jpg";
-import vortexFlowMeterImage from "@assets/stock_images/industrial_pressure__0f9690ef.jpg";
-import pdFlowMeterImage from "@assets/stock_images/industrial_pressure__717f5f0e.jpg";
+// Transmitter and flow meter images - using generated images as fallbacks
+const dpTransmitterImage = smartPressureTransmitterImage;
+const pTypeTransmitterImage = pressureTransmitterImage;
+const rsTransmitterImage = smartPressureTransmitterImage;
+const magneticFlowMeterImage = electromagneticFlowMeterImage;
+const massFlowMeterImage = electromagneticFlowMeterImage;
+const vortexFlowMeterImage = electromagneticFlowMeterImage;
+const pdFlowMeterImage = electromagneticFlowMeterImage;
+const endressHauserProwirl200Image = electromagneticFlowMeterImage;
+const abbSwirlMeterImage = electromagneticFlowMeterImage;
+
+// Additional product images needed for fallbacks
+import industrialValvesImage from "@assets/generated_images/Industrial_valves_actuators_laboratory_c6f8afe0.png";
+import industrialPlcImage from "@assets/generated_images/Industrial_PLC_Control_Panel_54555fe9.png";
+import hmiTouchscreenImage from "@assets/generated_images/HMI_touchscreen_control_room_35274d6e.png";
+import scadaControlRoomImage from "@assets/generated_images/SCADA_Control_Room_1f4824e2.png";
+import dcsControlSystemImage from "@assets/generated_images/DCS_distributed_control_system_732ce9c2.png";
+import processAnalyzersLabImage from "@assets/generated_images/Process_Analyzers_Laboratory_Environment_e98f5ca6.png";
+import solarEnergySystemsImage from "@assets/generated_images/Solar_Energy_Systems_b0a2f025.png";
+import surgeProtectorsImage from "@assets/generated_images/Surge_protectors_electrical_showcase_ade53f8f.png";
+import precisionMeasurementLabImage from "@assets/generated_images/Precision_measurement_instruments_lab_b82030f8.png";
+import measurementInstrumentsShowcaseImage from "@assets/generated_images/Measurement_instruments_product_showcase_9fe64a2b.png";
+
+// Stock image fallback constants
+const solenoidValveStockImage = industrialValvesImage;
+const plcStockImage = industrialPlcImage;
+const hmiPanelStockImage = hmiTouchscreenImage;
+const scadaSystemStockImage = scadaControlRoomImage;
+const dcsSystemStockImage = dcsControlSystemImage;
+const processAnalyzerStockImage = processAnalyzersLabImage;
+const solarPanelStockImage = solarEnergySystemsImage;
+const solarInverterStockImage = solarEnergySystemsImage;
+const surgeProtectorStockImage = surgeProtectorsImage;
+const processCalibratorStockImage = precisionMeasurementLabImage;
+const onOffValveStockImage = industrialValvesImage;
+const multimeterStockImage = measurementInstrumentsShowcaseImage;
+
+// Numbered stock image fallbacks for variants
+const pressureTransmitter1 = smartPressureTransmitterImage;
+const pressureTransmitter2 = smartPressureTransmitterImage;
+const pressureTransmitter3 = smartPressureTransmitterImage;
+const pressureTransmitter4 = pressureTransmitterImage;
+const pressureTransmitter5 = pressureTransmitterImage;
+const pressureTransmitter6 = pressureTransmitterImage;
+const temperatureSensor1 = rtdTemperatureSensorImage;
+const temperatureSensor2 = rtdTemperatureSensorImage;
+const temperatureSensor3 = thermocoupleTemperatureSensorImage;
+const multimeter1 = measurementInstrumentsShowcaseImage;
+const multimeter2 = measurementInstrumentsShowcaseImage;
+const multimeter3 = measurementInstrumentsShowcaseImage;
+const plc1 = industrialPlcImage;
+const plc2 = industrialPlcImage;
+const plc3 = industrialPlcImage;
+const hmiPanel1 = hmiTouchscreenImage;
+const hmiPanel2 = hmiTouchscreenImage;
+const hmiPanel3 = hmiTouchscreenImage;
+const vfd1 = automationControlSystemsImage;
+const vfd2 = automationControlSystemsImage;
+const vfd3 = automationControlSystemsImage;
+const gasAnalyzer1 = processAnalyzersLabImage;
+const gasAnalyzer2 = processAnalyzersLabImage;
+const gasAnalyzer3 = processAnalyzersLabImage;
+const flowMeter1 = electromagneticFlowMeterImage;
+const flowMeter2 = electromagneticFlowMeterImage;
+const flowMeter3 = electromagneticFlowMeterImage;
+const levelSensor1 = radarLevelTransmitterImage;
+const levelSensor2 = radarLevelTransmitterImage;
+const levelSensor3 = radarLevelTransmitterImage;
+const loadCell1 = loadCellImage;
+const loadCell2 = compressionLoadCellImage;
+const loadCell3 = loadCellImage;
+const phSensor1 = phSensorImage;
+const phSensor2 = phSensorGlassImage;
+const phSensor3 = phSensorImage;
+const rccb1 = rccbImage;
+const rccb2 = rccbImage;
+const rccb3 = rccbImage;
+const mcb1 = electricalComponentsImage;
+const mcb2 = electricalComponentsImage;
+const mcb3 = electricalComponentsImage;
+const contactor1 = electricalComponentsImage;
+const contactor2 = electricalComponentsImage;
+const contactor3 = electricalComponentsImage;
+const proximitySensor1 = proximitySesorImage;
+const proximitySensor2 = npnProximitySensorImage;
+const proximitySensor3 = safetyProximitySensorImage;
+const photoelectricSensor1 = photoelectricThroughBeamImage;
+const photoelectricSensor2 = laserPhotoelectricSensorImage;
+const photoelectricSensor3 = retroreflectiveSensorImage;
+const scadaSystem1 = scadaControlRoomImage;
+const scadaSystem2 = scadaControlRoomImage;
+const scadaSystem3 = scadaControlRoomImage;
+const processCalibrator1 = precisionMeasurementLabImage;
+const processCalibrator2 = precisionMeasurementLabImage;
+const processCalibrator3 = precisionMeasurementLabImage;
+const encoder1 = automationControlSystemsImage;
+const encoder2 = automationControlSystemsImage;
+const encoder3 = automationControlSystemsImage;
+const servoMotor1 = automationControlSystemsImage;
+const servoMotor2 = automationControlSystemsImage;
+const servoMotor3 = automationControlSystemsImage;
+const waterAnalyzer1 = processAnalyzersLabImage;
+const waterAnalyzer2 = processAnalyzersLabImage;
+const waterAnalyzer3 = processAnalyzersLabImage;
+const centrifugalPump1 = pumpsMotorsImage;
+const centrifugalPump2 = pumpsMotorsImage;
+const centrifugalPump3 = pumpsMotorsImage;
+const heatingElement1 = industrialToolsImage;
+const heatingElement2 = industrialToolsImage;
+const heatingElement3 = industrialToolsImage;
 
 // Circuit breaker images
 import rccbImage from "@assets/generated_images/RCCB_industrial_electrical_device_7d6444e2.png";

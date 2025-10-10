@@ -11,7 +11,7 @@ import {
   getServices,
 } from "@/data/constants";
 import { cn } from "@/lib/utils";
-import mainLogoPowerton from "@assets/downloaded_images/main-logo-powerton.png";
+import mainLogoPowerton from "@assets/logos/main-logo-powerton.png";
 
 export default function Footer() {
   const { t } = useTranslation(["navigation", "common"]);

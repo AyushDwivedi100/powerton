@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
-import justDialQRImage from "@assets/downloaded_images/justdial-qr-logo.png";
+import justDialQRImage from "@assets/logos/justdial-qr-logo.png";
 
 // WhatsApp Logo SVG Component
 const WhatsAppLogo = () => (
