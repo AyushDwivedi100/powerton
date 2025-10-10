@@ -459,7 +459,8 @@
   "altTexts": {
     "contactBackground": "ID-834: Kituo cha mtandao na usaidizi kwa wateja kwa kampuni ya uhandisi",
     "aboutBackground": "ID-004: Jengo la udhibiti wa viwanda la Powerton Engineering na mifumo ya kisasa ya udhibiti",
-    "companyLogo": "Powerton Engineering Pvt. Ltd. - Nembo ya Kampuni ya Uendeshaji wa Viwanda na Uhandisi wa Umeme"
+    "companyLogo": "Powerton Engineering Pvt. Ltd. - Nembo ya Kampuni ya Uendeshaji wa Viwanda na Uhandisi wa Umeme",
+    "powerton-logo": "Nembo ya Powerton Engineering Pvt. Ltd."
   },
   "sitemap": {
     "title": "Ramani ya Tovuti",
@@ -723,6 +724,11 @@
     "needAssistance": "Je, Unahitaji Msaada?"
   },
   "ui": {
+    "skipToMainContent": "Ruka hadi kwenye maudhui makuu",
+    "selectLanguage": "Chagua Lugha",
+    "close": "Funga",
+    "dismiss": "Ondoa",
+    "toast": "Toast",
     "ariaLabels": {
       "callUs": "Tupigie simu kwa {{phone}}",
       "goToHomepage": "Nenda kwenye ukurasa wa nyumbani wa Powerton Engineering",

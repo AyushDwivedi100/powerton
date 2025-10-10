@@ -110,7 +110,7 @@
     "complete": "أكمل",
     "view": "عرض",
     "viewAllServices": "عرض جميع الخدمات",
-    "contactExperts" : "اتصل بالخبراء"
+    "contactExperts": "اتصل بالخبراء"
   },
   "errors": {
     "productNotFound": "المنتج غير موجود",
@@ -224,7 +224,7 @@
     "fastDelivery": "توصيل سريع"
   },
   "headings": {
-    "phoneNumbers" : "أرقام الهاتف",
+    "phoneNumbers": "أرقام الهاتف",
     "bldcCeilingFanModels": "موديلات مراوح السقف BLDC",
     "ourProducts": "منتجاتنا",
     "specifications": "المواصفات",
@@ -459,7 +459,8 @@
   "altTexts": {
     "contactBackground": "معرف-834: شبكة دعم العملاء والمكتب لشركة هندسية",
     "aboutBackground": "معرف-004: مبنى التحكم الصناعي لشركة Powerton Engineering مع أنظمة تحكم حديثة",
-    "companyLogo": "Powerton Engineering Pvt. Ltd. - شعار شركة التحكم الصناعي والهندسة الكهربائية"
+    "companyLogo": "Powerton Engineering Pvt. Ltd. - شعار شركة التحكم الصناعي والهندسة الكهربائية",
+    "powerton-logo": "شعار Powerton Engineering Pvt. Ltd."
   },
   "sitemap": {
     "title": "خريطة الموقع",
@@ -648,7 +649,7 @@
     "subtitle": "تحقق من الإجراءات السريعة للحصول على متطلباتك",
     "contactUs": "اتصل بنا",
     "requestQuote": "طلب عرض أسعار",
-    "productCategories" : "فئات المنتجات"
+    "productCategories": "فئات المنتجات"
   },
   "tags": {
     "award": "جائزة",
@@ -720,10 +721,14 @@
   "common": {
     "keyFeatures": "الميزات الرئيسية"
   },
-  "services":{
+  "services": {
     "needAssistance": "هل تحتاج إلى مساعدة؟"
   },
   "ui": {
+    "skipToMainContent": "تخط إلى المحتوى الرئيسي",
+    "selectLanguage": "اختر اللغة",
+    "close": "إغلاق",
+    "dismiss": "رفض",
     "ariaLabels": {
       "callUs": "اتصل بنا على {{phone}}",
       "goToHomepage": "اذهب إلى الصفحة الرئيسية لـ Powerton Engineering",

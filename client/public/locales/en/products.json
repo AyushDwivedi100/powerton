@@ -777,9 +777,6 @@
   "defaults": {
     "groupDescription": "High-quality products for industrial automation applications."
   },
-  "labels": {
-    "productsCount": "{{count}} Products"
-  },
   "filters": {
     "all": "All",
     "category": "Category",
@@ -1498,6 +1495,7 @@
     "actualImages": "Actual images to be uploaded"
   },
   "labels": {
+    "productsCount": "{{count}} Products",
     "industrialProduct": "Industrial Product",
     "products": "Products",
     "specifications": "Specifications",

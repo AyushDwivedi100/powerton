@@ -459,7 +459,8 @@
   "altTexts": {
     "contactBackground": "ID-834：工程公司的网络和客户支持办公室中心",
     "aboutBackground": "ID-004：Powerton Engineering 的工业控制建筑，配备现代控制系统",
-    "companyLogo": "Powerton Engineering Pvt. Ltd. - 工业自动化和电气工程公司标志"
+    "companyLogo": "Powerton Engineering Pvt. Ltd. - 工业自动化和电气工程公司标志",
+    "powerton-logo": "Powerton Engineering Pvt. Ltd. 标志"
   },
   "sitemap": {
     "title": "站点地图",
@@ -724,6 +725,11 @@
     "needAssistance": "需要帮助吗？"
   },
   "ui": {
+    "skipToMainContent": "跳转到主要内容",
+    "selectLanguage": "选择语言",
+    "close": "关闭",
+    "dismiss": "解雇",
+    "toast": "提示",
     "ariaLabels": {
       "callUs": "致电我们：{{phone}}",
       "goToHomepage": "转到 Powerton Engineering 主页",

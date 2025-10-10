@@ -459,7 +459,8 @@
   "altTexts": {
     "contactBackground": "ID-834 : Réseau de centres de contact et de support client pour une société d'ingénierie",
     "aboutBackground": "ID-004 : Bâtiment d'automatisation industrielle de Powerton Engineering avec des systèmes de contrôle modernes",
-    "companyLogo": "Powerton Engineering Pvt. Ltd. - Automatisation industrielle et logo de la société d'ingénierie électrique"
+    "companyLogo": "Powerton Engineering Pvt. Ltd. - Automatisation industrielle et logo de la société d'ingénierie électrique",
+    "powerton-logo": "Logo de Powerton Engineering Pvt. Ltd."
   },
   "sitemap": {
     "title": "Plan du site",
@@ -722,6 +723,11 @@
     "needAssistance": "Besoin d'aide ?"
   },
   "ui": {
+    "skipToMainContent": "Aller au contenu principal",
+    "selectLanguage": "Choisir la langue",
+    "close": "Fermer",
+    "dismiss": "Fermer",
+    "toast": "Toast",
     "ariaLabels": {
       "callUs": "Appelez-nous au {{phone}}",
       "goToHomepage": "Aller à la page d'accueil de Powerton Engineering",

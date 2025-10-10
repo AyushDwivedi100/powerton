@@ -110,7 +110,7 @@
     "complete": "Completar",
     "view": "Ver",
     "viewAllServices": "Ver todos los servicios",
-    "contactExperts" : "Contactar a los expertos"
+    "contactExperts": "Contactar a los expertos"
   },
   "errors": {
     "productNotFound": "Producto no encontrado",
@@ -224,7 +224,7 @@
     "fastDelivery": "Entrega Rápida"
   },
   "headings": {
-    "phoneNumbers" : "Números de Teléfono",
+    "phoneNumbers": "Números de Teléfono",
     "bldcCeilingFanModels": "Modelos de Ventiladores de Techo BLDC",
     "ourProducts": "Nuestros Productos",
     "specifications": "Especificaciones",
@@ -459,7 +459,8 @@
   "altTexts": {
     "contactBackground": "ID-834: Red y oficina de soporte al cliente para empresa de ingeniería",
     "aboutBackground": "ID-004: Edificio de automatización industrial de Powerton Engineering con sistemas de control modernos",
-    "companyLogo": "Powerton Engineering Pvt. Ltd. - Logotipo de la empresa de automatización industrial e ingeniería eléctrica"
+    "companyLogo": "Powerton Engineering Pvt. Ltd. - Logotipo de la empresa de automatización industrial e ingeniería eléctrica",
+    "powerton-logo": "Logotipo de Powerton Engineering Pvt. Ltd."
   },
   "sitemap": {
     "title": "Mapa del sitio",
@@ -647,7 +648,7 @@
     "subtitle": "Consulte los pasos rápidos para obtener sus requisitos",
     "contactUs": "Contáctenos",
     "requestQuote": "Solicitar Presupuesto",
-    "productCategories" : "Categorías de Productos"
+    "productCategories": "Categorías de Productos"
   },
   "tags": {
     "award": "Premio",
@@ -719,10 +720,14 @@
   "common": {
     "keyFeatures": "Características Clave"
   },
-  "services":{
+  "services": {
     "needAssistance": "¿Necesita ayuda?"
   },
   "ui": {
+    "skipToMainContent": "Ir al contenido principal",
+    "selectLanguage": "Seleccionar idioma",
+    "close": "Cerrar",
+    "dismiss": "Descartar",
     "ariaLabels": {
       "callUs": "Llámenos al {{phone}}",
       "goToHomepage": "Ir a la página de inicio de Powerton Engineering",

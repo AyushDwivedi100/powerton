@@ -459,7 +459,8 @@
   "altTexts": {
     "contactBackground": "ID-834: Rede e escritório de suporte ao cliente para empresa de engenharia",
     "aboutBackground": "ID-004: Prédio de automação industrial da Powerton Engineering com sistemas de controle modernos",
-    "companyLogo": "Powerton Engineering Pvt. Ltd. - Logotipo da Empresa de Automação Industrial e Engenharia Elétrica"
+    "companyLogo": "Powerton Engineering Pvt. Ltd. - Logotipo da Empresa de Automação Industrial e Engenharia Elétrica",
+    "powerton-logo": "Logotipo da Powerton Engineering Pvt. Ltd."
   },
   "sitemap": {
     "title": "Mapa do site",
@@ -723,6 +724,10 @@
     "needAssistance": "Precisa de ajuda?"
   },
   "ui": {
+    "skipToMainContent": "Ir para o conteúdo principal",
+    "selectLanguage": "Selecione o idioma",
+    "close": "Fechar",
+    "dismiss": "Ignorar",
     "ariaLabels": {
       "callUs": "Ligue para nós em {{phone}}",
       "goToHomepage": "Ir para a página inicial da Powerton Engineering",

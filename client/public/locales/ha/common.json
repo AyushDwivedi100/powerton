@@ -459,7 +459,8 @@
   "altTexts": {
     "contactBackground": "ID-834: Cibiyar sadarwa da ofishin tallafin abokin ciniki don kamfanin injiniya",
     "aboutBackground": "ID-004: Ginin sarrafa masana'antu na Powerton Engineering tare da tsarin sarrafawa na zamani",
-    "companyLogo": "Powerton Engineering Pvt. Ltd. - Alamar Kamfanin Sarrafa Masana'antu & Injiniyan Lantarki"
+    "companyLogo": "Powerton Engineering Pvt. Ltd. - Alamar Kamfanin Sarrafa Masana'antu & Injiniyan Lantarki",
+    "powerton-logo": "Alamar Kamfanin Powerton Engineering Pvt. Ltd."
   },
   "sitemap": {
     "title": "Taswira Shafin",
@@ -725,6 +726,11 @@
     "needAssistance": "Kuna buƙatar Tallafin?"
   },
   "ui": {
+    "skipToMainContent": "Tsallake zuwa babban abun ciki",
+    "selectLanguage": "Zaɓi Harshe",
+    "close": "Rufe",
+    "dismiss": "Watsi",
+    "toast": "Toast",
     "ariaLabels": {
       "callUs": "Kira mu a {{phone}}",
       "goToHomepage": "Tafi zuwa shafin gida na Powerton Engineering",
