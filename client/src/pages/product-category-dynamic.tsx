@@ -132,7 +132,7 @@ const ScrollAnimatedSection: React.FC<{
 const ProductCategoryDynamic: React.FC = () => {
   const { slug } = useParams<{ slug: string }>();
   const { t } = useTranslation(["common", "products-data"]);
-  const categoryData = getCategoryBySlug(slug!);
+  const categoryData = getCategoryBySlug(slug!, t);
 
   // Create refs for scroll animations
   const heroRef = useRef(null);

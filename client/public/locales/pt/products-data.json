@@ -2784,11 +2784,24 @@
         "Alimentos e Bebidas",
         "Fabricação Automotiva"
       ],
-      "certifications": ["CE", "UL", "CSA", "ATEX", "IECEx", "SIL 2/3"],
+      "certifications": [
+        "CE",
+        "UL",
+        "CSA",
+        "ATEX",
+        "IECEx",
+        "SIL 2/3"
+      ],
       "technicalData": {
         "operatingTemp": "-40°C a +125°C",
         "protection": "IP65/IP67/IP69K",
-        "communication": ["4-20mA", "HART", "Modbus", "Ethernet", "Wireless"],
+        "communication": [
+          "4-20mA",
+          "HART",
+          "Modbus",
+          "Ethernet",
+          "Wireless"
+        ],
         "accuracy": "±0.1% a ±0.5% do intervalo",
         "power": "24V DC, 115/230V AC, Alimentado por Loop"
       }
@@ -2837,7 +2850,14 @@
         "Papel e Celulose",
         "Mineração e Metais"
       ],
-      "certifications": ["SIL 2/3", "ATEX", "IECEx", "FM", "CSA", "NEPSI"],
+      "certifications": [
+        "SIL 2/3",
+        "ATEX",
+        "IECEx",
+        "FM",
+        "CSA",
+        "NEPSI"
+      ],
       "technicalData": {
         "operatingTemp": "-40°C a +85°C",
         "protection": "IP66/IP67",
@@ -5442,13 +5462,533 @@
         "Farmacêutica",
         "Alimentos e Bebidas"
       ],
-      "certifications": ["ISO 9001", "Marcação CE"],
+      "certifications": [
+        "ISO 9001",
+        "Marcação CE"
+      ],
       "keywords": {
         "industrialAutomation": "automação industrial",
         "processControl": "controle de processo",
         "instrumentation": "instrumentação",
         "india": "Índia",
         "powertonEngineering": "Powerton Engineering"
+      }
+    }
+  },
+  "categories": {
+    "instrumentation-accessories": {
+      "title": "Instrumentation Accessories",
+      "description": "High-precision instrumentation accessories for accurate measurement and control in industrial processes",
+      "badges": [
+        "Pressure Transmitters",
+        "Temperature Sensors",
+        "Flow Meters",
+        "Level Indicators"
+      ],
+      "sectionTitle": "Product Categories",
+      "subcategories": {
+        "sensors-transducers": {
+          "title": "Sensors & Transducers",
+          "description": "Industrial sensors and transducers for temperature, pressure, and flow measurement",
+          "features": [
+            "Temperature Sensors",
+            "Pressure Sensors",
+            "Flow Sensors",
+            "Level Sensors"
+          ]
+        },
+        "transmitters-flow-meters": {
+          "title": "Transmitters & Flow Meters",
+          "description": "Signal transmitters and flow meters for industrial process measurement",
+          "features": [
+            "Pressure Transmitters",
+            "Temperature Transmitters",
+            "Flow Transmitters",
+            "Level Transmitters"
+          ]
+        },
+        "switches-indicators": {
+          "title": "Switches & Indicators",
+          "description": "Industrial switches, indicators, and signaling devices",
+          "features": [
+            "Pushbutton Switches",
+            "Selector Switches",
+            "Indicator Lights",
+            "Emergency Stops"
+          ]
+        },
+        "valves-actuators": {
+          "title": "Valves & Actuators",
+          "description": "Control valves and actuators for process control systems",
+          "features": [
+            "Control Valves",
+            "Pneumatic Actuators",
+            "Electric Actuators",
+            "Valve Positioners"
+          ]
+        },
+        "analyzers": {
+          "title": "Analyzers",
+          "description": "Gas, liquid, and process analyzers for quality control",
+          "features": [
+            "Gas Analyzers",
+            "Liquid Analyzers",
+            "Process Analyzers",
+            "Multi-parameter Systems"
+          ]
+        }
+      },
+      "cta": {
+        "title": "Need Instrumentation Solutions?",
+        "description": "Our technical experts can help you select the right instrumentation components for your industrial applications.",
+        "contactButtonText": "Contact Us"
+      }
+    },
+    "electrical-accessories": {
+      "title": "Electrical Accessories",
+      "description": "Comprehensive range of electrical components for power distribution and control systems",
+      "badges": [
+        "Power Distribution",
+        "Control Systems",
+        "Safety Components",
+        "Industrial Grade"
+      ],
+      "sectionTitle": "Electrical accessories Solutions",
+      "subcategories": {
+        "cables-wires": {
+          "title": "Cables & Wires",
+          "description": "Industrial cables and wires for power transmission and control applications",
+          "features": [
+            "Power Cables",
+            "Control Cables",
+            "Instrumentation Cables",
+            "Communication Cables"
+          ]
+        },
+        "connectors-terminals": {
+          "title": "Connectors & Terminals",
+          "description": "Electrical connectors and terminal blocks for secure connections",
+          "features": [
+            "Terminal Blocks",
+            "Wire Connectors",
+            "DIN Rail Terminals",
+            "Junction Boxes"
+          ]
+        },
+        "circuit-breakers-fuses": {
+          "title": "Circuit Breakers & Fuses",
+          "description": "Protection devices for electrical circuits and equipment safety",
+          "features": [
+            "MCBs",
+            "MCCBs",
+            "RCCBs",
+            "Industrial Fuses"
+          ]
+        },
+        "power-supplies": {
+          "title": "Power Supplies",
+          "description": "AC/DC power supplies and converters for industrial applications",
+          "features": [
+            "SMPS",
+            "DIN Rail Power Supplies",
+            "DC-DC Converters",
+            "UPS Systems"
+          ]
+        },
+        "enclosures-cabinets": {
+          "title": "Enclosures & Cabinets",
+          "description": "Electrical enclosures and control cabinets for equipment protection",
+          "features": [
+            "Control Panels",
+            "Distribution Boards",
+            "Junction Boxes",
+            "Weatherproof Enclosures"
+          ]
+        },
+        "heating-elements-appliances": {
+          "title": "Heating Elements & Appliances",
+          "description": "Industrial heating elements and electrical appliances",
+          "features": [
+            "Heating Elements",
+            "Industrial Heaters",
+            "Temperature Controllers",
+            "Thermal Protection"
+          ]
+        }
+      },
+      "cta": {
+        "title": "Need Electrical Components?",
+        "description": "Our electrical engineers can help you select the right components for your power distribution and control systems.",
+        "contactButtonText": "Contact Our Experts"
+      }
+    },
+    "solar-products": {
+      "title": "Solar Products",
+      "description": "Complete solar energy solutions including panels, inverters, and energy storage systems",
+      "badges": [
+        "Solar Panels",
+        "Inverters",
+        "Mounting Systems",
+        "Energy Storage"
+      ],
+      "sectionTitle": "Solar Solutions",
+      "subcategories": {
+        "solar-panels": {
+          "title": "Solar Panels",
+          "description": "Photovoltaic panels for solar energy generation",
+          "features": [
+            "Monocrystalline",
+            "Polycrystalline",
+            "High Efficiency",
+            "Weather Resistant"
+          ]
+        },
+        "solar-inverters": {
+          "title": "Solar Inverters",
+          "description": "DC to AC power conversion for solar systems",
+          "features": [
+            "Grid-Tie",
+            "Off-Grid",
+            "Hybrid Systems",
+            "MPPT Technology"
+          ]
+        }
+      },
+      "cta": {
+        "title": "Ready to Go Solar?",
+        "description": "Our solar experts can design a complete solar energy system tailored to your needs.",
+        "contactButtonText": "Contact Solar Experts"
+      }
+    },
+    "automation-control-systems": {
+      "title": "Automation & Control Systems",
+      "description": "Advanced automation and control solutions for industrial process management and optimization",
+      "badges": [
+        "PLCs",
+        "SCADA",
+        "DCS",
+        "HMI"
+      ],
+      "sectionTitle": "Control System Solutions",
+      "subcategories": {
+        "plcs": {
+          "title": "PLCs (Programmable Logic Controllers)",
+          "description": "Industrial automation controllers for process control",
+          "features": [
+            "Digital I/O",
+            "Analog Processing",
+            "Communication Modules",
+            "Programming Software"
+          ]
+        },
+        "scada": {
+          "title": "SCADA Systems",
+          "description": "Supervisory control and data acquisition systems",
+          "features": [
+            "Real-time Monitoring",
+            "Data Logging",
+            "Alarm Management",
+            "Remote Access"
+          ]
+        },
+        "dcs": {
+          "title": "DCS (Distributed Control Systems)",
+          "description": "Distributed control systems for large-scale processes",
+          "features": [
+            "Process Control",
+            "Distributed Architecture",
+            "Redundancy",
+            "Advanced Control"
+          ]
+        },
+        "hmi": {
+          "title": "HMI (Human Machine Interface)",
+          "description": "User interfaces for industrial control systems",
+          "features": [
+            "Touchscreen Displays",
+            "Graphic Interface",
+            "Data Visualization",
+            "Operator Control"
+          ]
+        }
+      },
+      "cta": {
+        "title": "Need Automation Solutions?",
+        "description": "Our automation engineers can design and implement comprehensive control systems for your facility.",
+        "contactButtonText": "Contact Automation Experts"
+      }
+    },
+    "safety-protective-devices": {
+      "title": "Safety & Protective Devices",
+      "description": "Comprehensive safety and protective equipment to ensure personnel and equipment safety in industrial environments",
+      "badges": [
+        "Surge Protection",
+        "Grounding Systems",
+        "Safety Relays",
+        "Intrinsic Safety"
+      ],
+      "sectionTitle": "Safety Solutions",
+      "subcategories": {
+        "surge-protectors": {
+          "title": "Surge Protectors",
+          "description": "Electrical surge protection devices for equipment safety",
+          "features": [
+            "Lightning Protection",
+            "Voltage Surge Protection",
+            "Equipment Safety",
+            "Power Quality"
+          ]
+        },
+        "grounding-systems": {
+          "title": "Grounding Systems",
+          "description": "Electrical grounding and earthing systems for safety",
+          "features": [
+            "Earth Electrodes",
+            "Ground Rods",
+            "Bonding Conductors",
+            "Lightning Rods"
+          ]
+        },
+        "safety-relays-switches": {
+          "title": "Safety Relays & Switches",
+          "description": "Safety control devices for emergency shutdown systems",
+          "features": [
+            "Emergency Stop",
+            "Safety Monitoring",
+            "Fail-Safe Design",
+            "Certified Safety"
+          ]
+        },
+        "intrinsically-safe-equipment": {
+          "title": "Intrinsically Safe Equipment",
+          "description": "Explosion-proof equipment for hazardous environments",
+          "features": [
+            "ATEX Certified",
+            "Explosion Proof",
+            "Hazardous Area",
+            "Intrinsic Safety"
+          ]
+        },
+        "safety-equipment": {
+          "title": "Safety Equipment",
+          "description": "Personal protective equipment and safety gear",
+          "features": [
+            "PPE Compliant",
+            "Safety Standards",
+            "Comfort Design",
+            "Durability"
+          ]
+        }
+      },
+      "cta": {
+        "title": "Prioritizing Safety in Your Operations?",
+        "description": "Our safety engineers can assess your facility and recommend comprehensive protective solutions.",
+        "contactButtonText": "Contact Safety Experts"
+      }
+    },
+    "mechanical-pumps-spares": {
+      "title": "Mechanical Pumps & Spares",
+      "description": "Industrial pumping solutions and replacement parts for fluid handling applications",
+      "badges": [
+        "Centrifugal Pumps",
+        "Diaphragm Pumps",
+        "Gear Pumps",
+        "Spare Parts"
+      ],
+      "sectionTitle": "Pump Solutions",
+      "subcategories": {
+        "centrifugal-pumps": {
+          "title": "Centrifugal Pumps",
+          "description": "High-efficiency centrifugal pumps for fluid handling",
+          "features": [
+            "High Flow Rates",
+            "Self-Priming",
+            "Corrosion Resistant",
+            "Energy Efficient"
+          ]
+        },
+        "diaphragm-pumps": {
+          "title": "Diaphragm Pumps",
+          "description": "Positive displacement diaphragm pumps for precise flow control",
+          "features": [
+            "Positive Displacement",
+            "Chemical Compatibility",
+            "Dry Running",
+            "Pulsation Dampening"
+          ]
+        },
+        "gear-pumps": {
+          "title": "Gear Pumps",
+          "description": "Precision gear pumps for viscous fluid applications",
+          "features": [
+            "High Pressure",
+            "Viscous Fluids",
+            "Precise Metering",
+            "Compact Design"
+          ]
+        },
+        "pump-parts-spares": {
+          "title": "Pump Parts & Spares",
+          "description": "Replacement parts and spare components for all pump types",
+          "features": [
+            "OEM Parts",
+            "Seals & Gaskets",
+            "Impellers",
+            "Maintenance Kits"
+          ]
+        }
+      },
+      "cta": {
+        "title": "Need Pump Solutions?",
+        "description": "Our pump specialists can help you select the right pumping solution for your application.",
+        "contactButtonText": "Contact Pump Experts"
+      }
+    },
+    "industrial-measuring-tools": {
+      "title": "Industrial & Measuring Tools",
+      "description": "Professional tools, equipment, and advanced measurement instruments for industrial maintenance, construction, manufacturing operations, and precise monitoring applications",
+      "badges": [
+        "Hand Tools",
+        "Power Tools",
+        "Digital Multimeters",
+        "Calibrators",
+        "Safety Gear"
+      ],
+      "sectionTitle": "Tool & Instrument Categories",
+      "subcategories": {
+        "hand-tools": {
+          "title": "Hand Tools",
+          "description": "Professional hand tools for industrial maintenance",
+          "features": [
+            "Precision Tools",
+            "Durable Construction",
+            "Ergonomic Design",
+            "Professional Grade"
+          ]
+        },
+        "power-tools": {
+          "title": "Power Tools",
+          "description": "Electric and pneumatic power tools for heavy-duty applications",
+          "features": [
+            "High Performance",
+            "Variable Speed",
+            "Cordless Options",
+            "Industrial Duty"
+          ]
+        },
+        "cutting-tools": {
+          "title": "Cutting Tools",
+          "description": "Precision cutting tools and accessories",
+          "features": [
+            "Sharp Edges",
+            "Durable Materials",
+            "Precision Cutting",
+            "Long Lasting"
+          ]
+        },
+        "lifting-equipment": {
+          "title": "Lifting Equipment",
+          "description": "Hoists, cranes, and lifting accessories for material handling",
+          "features": [
+            "Heavy Duty",
+            "Safety Certified",
+            "Load Testing",
+            "Various Capacities"
+          ]
+        },
+        "multimeters": {
+          "title": "Multimeters",
+          "description": "Digital and analog multimeters for electrical measurements",
+          "features": [
+            "AC/DC Voltage",
+            "Current Measurement",
+            "Resistance Testing",
+            "Continuity Check"
+          ]
+        },
+        "power-quality-analyzers": {
+          "title": "Power Quality Analyzers",
+          "description": "Instruments for power quality monitoring and analysis",
+          "features": [
+            "Power Analysis",
+            "Harmonic Detection",
+            "Voltage Monitoring",
+            "Energy Measurement"
+          ]
+        },
+        "calibration-equipment": {
+          "title": "Calibration Equipment",
+          "description": "Precision calibration tools and reference standards",
+          "features": [
+            "Reference Standards",
+            "Precision Calibration",
+            "Traceability",
+            "Accuracy Verification"
+          ]
+        }
+      },
+      "cta": {
+        "title": "Need Tools & Measurement Solutions?",
+        "description": "Our specialists can help you select the right tools and measurement instruments for your industrial applications.",
+        "contactButtonText": "Contact Our Experts"
+      }
+    },
+    "bldc": {
+      "title": "BLDC Motor Systems",
+      "description": "Energy-efficient brushless DC motor solutions for industrial and commercial applications",
+      "badges": [
+        "BLDC Motors",
+        "Energy Efficient",
+        "Low Maintenance",
+        "Smart Control"
+      ],
+      "sectionTitle": "BLDC Solutions",
+      "subcategories": {
+        "bldc-cooler-exhaust-motor": {
+          "title": "BLDC Cooler & Exhaust Motors",
+          "description": "High-efficiency motors for cooling and ventilation applications",
+          "features": [
+            "Energy Efficient",
+            "Low Noise",
+            "Long Life",
+            "Variable Speed"
+          ]
+        },
+        "bldc-ceiling-fan": {
+          "title": "BLDC Ceiling Fans",
+          "description": "Smart ceiling fans with advanced energy-saving technology",
+          "features": [
+            "Remote Control",
+            "Energy Saving",
+            "Quiet Operation",
+            "Smart Features"
+          ]
+        },
+        "bldc-submersible-surface-pump": {
+          "title": "BLDC Submersible & Surface Pumps",
+          "description": "Water pumping solutions with BLDC motor technology",
+          "features": [
+            "Submersible Design",
+            "High Efficiency",
+            "Corrosion Resistant",
+            "Solar Compatible"
+          ]
+        },
+        "bldc-table-fan-wall-fan-motor": {
+          "title": "BLDC Table & Wall Fan Motors",
+          "description": "Compact BLDC motors for portable and wall-mounted fans",
+          "features": [
+            "Compact Size",
+            "Energy Efficient",
+            "Quiet Operation",
+            "Speed Control"
+          ]
+        }
+      },
+      "cta": {
+        "title": "Upgrade to BLDC Technology?",
+        "description": "Our BLDC specialists can help you transition to energy-efficient brushless DC motor solutions.",
+        "contactButtonText": "Contact BLDC Experts"
       }
     }
   }
