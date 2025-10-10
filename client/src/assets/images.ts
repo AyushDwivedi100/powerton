@@ -124,6 +124,124 @@ import solarInverterStockImage from "@assets/stock_images/solar_inverter_photo_c
 import abbSwirlMeterImage from "@assets/downloaded_images/abb_swirl_meter_fsv450.jpg";
 import endressHauserProwirl200Image from "@assets/downloaded_images/endress_hauser_prowirl_f200.jpg";
 
+// New stock product images - Pressure Transmitters (6 new)
+import pressureTransmitter1 from "@assets/stock_images/industrial_pressure__d67739d4.jpg";
+import pressureTransmitter2 from "@assets/stock_images/industrial_pressure__eb9cb3f0.jpg";
+import pressureTransmitter3 from "@assets/stock_images/industrial_pressure__0a04b38a.jpg";
+import pressureTransmitter4 from "@assets/stock_images/industrial_pressure__9c144ee3.jpg";
+import pressureTransmitter5 from "@assets/stock_images/industrial_pressure__56e0ab8a.jpg";
+import pressureTransmitter6 from "@assets/stock_images/industrial_pressure__512a6382.jpg";
+
+// Temperature Sensors (3 new)
+import temperatureSensor1 from "@assets/stock_images/industrial_temperatu_d9f22fed.jpg";
+import temperatureSensor2 from "@assets/stock_images/industrial_temperatu_9074b038.jpg";
+import temperatureSensor3 from "@assets/stock_images/industrial_temperatu_523d251f.jpg";
+
+// Multimeters (3 new)
+import multimeter1 from "@assets/stock_images/digital_multimeter_t_d6d816d8.jpg";
+import multimeter2 from "@assets/stock_images/digital_multimeter_t_0e5e4e55.jpg";
+import multimeter3 from "@assets/stock_images/digital_multimeter_t_b0011ae7.jpg";
+
+// PLCs (3 new)
+import plc1 from "@assets/stock_images/plc_programmable_log_a8f4d3e2.jpg";
+import plc2 from "@assets/stock_images/plc_programmable_log_5dfe165e.jpg";
+import plc3 from "@assets/stock_images/plc_programmable_log_9046857f.jpg";
+
+// HMI Panels (3 new)
+import hmiPanel1 from "@assets/stock_images/hmi_human_machine_in_6e559441.jpg";
+import hmiPanel2 from "@assets/stock_images/hmi_human_machine_in_94ef2399.jpg";
+import hmiPanel3 from "@assets/stock_images/hmi_human_machine_in_f893c12c.jpg";
+
+// VFDs (3 new)
+import vfd1 from "@assets/stock_images/vfd_variable_frequen_04fb6cbc.jpg";
+import vfd2 from "@assets/stock_images/vfd_variable_frequen_5db94aeb.jpg";
+import vfd3 from "@assets/stock_images/vfd_variable_frequen_e5d8ee99.jpg";
+
+// Gas Analyzers (3 new)
+import gasAnalyzer1 from "@assets/stock_images/industrial_gas_analy_fe419c12.jpg";
+import gasAnalyzer2 from "@assets/stock_images/industrial_gas_analy_db81b0be.jpg";
+import gasAnalyzer3 from "@assets/stock_images/industrial_gas_analy_62f0eae9.jpg";
+
+// Flow Meters (3 new)
+import flowMeter1 from "@assets/stock_images/industrial_flow_mete_0875a56f.jpg";
+import flowMeter2 from "@assets/stock_images/industrial_flow_mete_2ce2037e.jpg";
+import flowMeter3 from "@assets/stock_images/industrial_flow_mete_97313f22.jpg";
+
+// Level Sensors (3 new)
+import levelSensor1 from "@assets/stock_images/industrial_level_sen_e4b9eabb.jpg";
+import levelSensor2 from "@assets/stock_images/industrial_level_sen_619eb4fb.jpg";
+import levelSensor3 from "@assets/stock_images/industrial_level_sen_679ebc96.jpg";
+
+// Load Cells (3 new)
+import loadCell1 from "@assets/stock_images/industrial_load_cell_347d9acc.jpg";
+import loadCell2 from "@assets/stock_images/industrial_load_cell_71bb992b.jpg";
+import loadCell3 from "@assets/stock_images/industrial_load_cell_c5ca630f.jpg";
+
+// pH Sensors (3 new)
+import phSensor1 from "@assets/stock_images/industrial_ph_sensor_95b6ba78.jpg";
+import phSensor2 from "@assets/stock_images/industrial_ph_sensor_bc89376b.jpg";
+import phSensor3 from "@assets/stock_images/industrial_ph_sensor_4da85076.jpg";
+
+// RCCBs (3 new)
+import rccb1 from "@assets/stock_images/rccb_residual_curren_26374775.jpg";
+import rccb2 from "@assets/stock_images/rccb_residual_curren_c913b7be.jpg";
+import rccb3 from "@assets/stock_images/rccb_residual_curren_5c07a626.jpg";
+
+// MCBs (3 new)
+import mcb1 from "@assets/stock_images/mcb_miniature_circui_4f24291a.jpg";
+import mcb2 from "@assets/stock_images/mcb_miniature_circui_7dd89e1e.jpg";
+import mcb3 from "@assets/stock_images/mcb_miniature_circui_d05de276.jpg";
+
+// Contactors (3 new)
+import contactor1 from "@assets/stock_images/industrial_contactor_fd7d0304.jpg";
+import contactor2 from "@assets/stock_images/industrial_contactor_45c91270.jpg";
+import contactor3 from "@assets/stock_images/industrial_contactor_f414ed0b.jpg";
+
+// Proximity Sensors (3 new)
+import proximitySensor1 from "@assets/stock_images/industrial_proximity_b1283750.jpg";
+import proximitySensor2 from "@assets/stock_images/industrial_proximity_24ad88d6.jpg";
+import proximitySensor3 from "@assets/stock_images/industrial_proximity_ef0d8af7.jpg";
+
+// Photoelectric Sensors (3 new)
+import photoelectricSensor1 from "@assets/stock_images/industrial_photoelec_aaeaf058.jpg";
+import photoelectricSensor2 from "@assets/stock_images/industrial_photoelec_a78cbeac.jpg";
+import photoelectricSensor3 from "@assets/stock_images/industrial_photoelec_d6d902d3.jpg";
+
+// SCADA Systems (3 new)
+import scadaSystem1 from "@assets/stock_images/scada_system_control_3cc0ac6d.jpg";
+import scadaSystem2 from "@assets/stock_images/scada_system_control_3120f7fd.jpg";
+import scadaSystem3 from "@assets/stock_images/scada_system_control_966abc35.jpg";
+
+// Process Calibrators (3 new)
+import processCalibrator1 from "@assets/stock_images/industrial_process_c_7f78e795.jpg";
+import processCalibrator2 from "@assets/stock_images/industrial_process_c_24468b6c.jpg";
+import processCalibrator3 from "@assets/stock_images/industrial_process_c_577779a3.jpg";
+
+// Encoders (3 new)
+import encoder1 from "@assets/stock_images/industrial_encoder_s_e125973e.jpg";
+import encoder2 from "@assets/stock_images/industrial_encoder_s_1248c570.jpg";
+import encoder3 from "@assets/stock_images/industrial_encoder_s_8bfe5492.jpg";
+
+// Servo Motors (3 new)
+import servoMotor1 from "@assets/stock_images/industrial_servo_mot_a6225f3d.jpg";
+import servoMotor2 from "@assets/stock_images/industrial_servo_mot_8e1327de.jpg";
+import servoMotor3 from "@assets/stock_images/industrial_servo_mot_ed5e1429.jpg";
+
+// Water Analyzers (3 new)
+import waterAnalyzer1 from "@assets/stock_images/industrial_water_qua_be731f04.jpg";
+import waterAnalyzer2 from "@assets/stock_images/industrial_water_qua_c1a86a40.jpg";
+import waterAnalyzer3 from "@assets/stock_images/industrial_water_qua_e38cd126.jpg";
+
+// Centrifugal Pumps (3 new)
+import centrifugalPump1 from "@assets/stock_images/industrial_centrifug_c32685d5.jpg";
+import centrifugalPump2 from "@assets/stock_images/industrial_centrifug_007a0f50.jpg";
+import centrifugalPump3 from "@assets/stock_images/industrial_centrifug_84487efb.jpg";
+
+// Heating Elements (3 new)
+import heatingElement1 from "@assets/stock_images/industrial_heating_e_57b847cb.jpg";
+import heatingElement2 from "@assets/stock_images/industrial_heating_e_4bfa142c.jpg";
+import heatingElement3 from "@assets/stock_images/industrial_heating_e_98de9dd2.jpg";
+
 // Image category types for better organization
 export type ImageCategory =
   | "logo"
@@ -274,6 +392,124 @@ export const IMAGE_IDS = {
   // Specific manufacturer product images (ID-945+)
   ABB_SWIRL_METER_FSV450: "ID-945",
   ENDRESS_HAUSER_PROWIRL_F200: "ID-946",
+
+  // New stock images - Pressure Transmitters (ID-947 to ID-952)
+  PRESSURE_TRANSMITTER_1: "ID-947",
+  PRESSURE_TRANSMITTER_2: "ID-948",
+  PRESSURE_TRANSMITTER_3: "ID-949",
+  PRESSURE_TRANSMITTER_4: "ID-950",
+  PRESSURE_TRANSMITTER_5: "ID-951",
+  PRESSURE_TRANSMITTER_6: "ID-952",
+
+  // Temperature Sensors (ID-953 to ID-955)
+  TEMPERATURE_SENSOR_1: "ID-953",
+  TEMPERATURE_SENSOR_2: "ID-954",
+  TEMPERATURE_SENSOR_3: "ID-955",
+
+  // Multimeters (ID-956 to ID-958)
+  MULTIMETER_1: "ID-956",
+  MULTIMETER_2: "ID-957",
+  MULTIMETER_3: "ID-958",
+
+  // PLCs (ID-959 to ID-961)
+  PLC_1: "ID-959",
+  PLC_2: "ID-960",
+  PLC_3: "ID-961",
+
+  // HMI Panels (ID-962 to ID-964)
+  HMI_PANEL_1: "ID-962",
+  HMI_PANEL_2: "ID-963",
+  HMI_PANEL_3: "ID-964",
+
+  // VFDs (ID-965 to ID-967)
+  VFD_1: "ID-965",
+  VFD_2: "ID-966",
+  VFD_3: "ID-967",
+
+  // Gas Analyzers (ID-968 to ID-970)
+  GAS_ANALYZER_1: "ID-968",
+  GAS_ANALYZER_2: "ID-969",
+  GAS_ANALYZER_3: "ID-970",
+
+  // Flow Meters (ID-971 to ID-973)
+  FLOW_METER_1: "ID-971",
+  FLOW_METER_2: "ID-972",
+  FLOW_METER_3: "ID-973",
+
+  // Level Sensors (ID-974 to ID-976)
+  LEVEL_SENSOR_1: "ID-974",
+  LEVEL_SENSOR_2: "ID-975",
+  LEVEL_SENSOR_3: "ID-976",
+
+  // Load Cells (ID-977 to ID-979)
+  LOAD_CELL_1: "ID-977",
+  LOAD_CELL_2: "ID-978",
+  LOAD_CELL_3: "ID-979",
+
+  // pH Sensors (ID-980 to ID-982)
+  PH_SENSOR_1: "ID-980",
+  PH_SENSOR_2: "ID-981",
+  PH_SENSOR_3: "ID-982",
+
+  // RCCBs (ID-983 to ID-985)
+  RCCB_1: "ID-983",
+  RCCB_2: "ID-984",
+  RCCB_3: "ID-985",
+
+  // MCBs (ID-986 to ID-988)
+  MCB_1: "ID-986",
+  MCB_2: "ID-987",
+  MCB_3: "ID-988",
+
+  // Contactors (ID-989 to ID-991)
+  CONTACTOR_1: "ID-989",
+  CONTACTOR_2: "ID-990",
+  CONTACTOR_3: "ID-991",
+
+  // Proximity Sensors (ID-992 to ID-994)
+  PROXIMITY_SENSOR_1: "ID-992",
+  PROXIMITY_SENSOR_2: "ID-993",
+  PROXIMITY_SENSOR_3: "ID-994",
+
+  // Photoelectric Sensors (ID-995 to ID-997)
+  PHOTOELECTRIC_SENSOR_1: "ID-995",
+  PHOTOELECTRIC_SENSOR_2: "ID-996",
+  PHOTOELECTRIC_SENSOR_3: "ID-997",
+
+  // SCADA Systems (ID-998 to ID-1000)
+  SCADA_SYSTEM_1: "ID-998",
+  SCADA_SYSTEM_2: "ID-999",
+  SCADA_SYSTEM_3: "ID-1000",
+
+  // Process Calibrators (ID-1001 to ID-1003)
+  PROCESS_CALIBRATOR_1: "ID-1001",
+  PROCESS_CALIBRATOR_2: "ID-1002",
+  PROCESS_CALIBRATOR_3: "ID-1003",
+
+  // Encoders (ID-1004 to ID-1006)
+  ENCODER_1: "ID-1004",
+  ENCODER_2: "ID-1005",
+  ENCODER_3: "ID-1006",
+
+  // Servo Motors (ID-1007 to ID-1009)
+  SERVO_MOTOR_1: "ID-1007",
+  SERVO_MOTOR_2: "ID-1008",
+  SERVO_MOTOR_3: "ID-1009",
+
+  // Water Analyzers (ID-1010 to ID-1012)
+  WATER_ANALYZER_1: "ID-1010",
+  WATER_ANALYZER_2: "ID-1011",
+  WATER_ANALYZER_3: "ID-1012",
+
+  // Centrifugal Pumps (ID-1013 to ID-1015)
+  CENTRIFUGAL_PUMP_1: "ID-1013",
+  CENTRIFUGAL_PUMP_2: "ID-1014",
+  CENTRIFUGAL_PUMP_3: "ID-1015",
+
+  // Heating Elements (ID-1016 to ID-1018)
+  HEATING_ELEMENT_1: "ID-1016",
+  HEATING_ELEMENT_2: "ID-1017",
+  HEATING_ELEMENT_3: "ID-1018",
 } as const;
 
 // Next available ID tracker
@@ -284,7 +520,7 @@ export const NEXT_AVAILABLE_IDS = {
   PRODUCTS: 50,
   PROJECTS: 101,
   HERO: 864,
-  GENERATED: 901,
+  GENERATED: 1019,
 } as const;
 
 // Product images mapping
@@ -1610,6 +1846,412 @@ export const PRODUCT_IMAGES = {
     src: electricalComponentsImage,
     alt: `${IMAGE_IDS.ELECTRICAL_COMPONENTS}: Heating elements - Industrial heating components`,
     id: IMAGE_IDS.ELECTRICAL_COMPONENTS,
+  },
+
+  // New stock image mappings - Pressure Transmitters
+  "pressure-transmitter-1": {
+    src: pressureTransmitter1,
+    alt: `${IMAGE_IDS.PRESSURE_TRANSMITTER_1}: Pressure transmitter - Industrial pressure measurement device`,
+    id: IMAGE_IDS.PRESSURE_TRANSMITTER_1,
+  },
+  "pressure-transmitter-2": {
+    src: pressureTransmitter2,
+    alt: `${IMAGE_IDS.PRESSURE_TRANSMITTER_2}: Pressure transmitter - High accuracy pressure sensor`,
+    id: IMAGE_IDS.PRESSURE_TRANSMITTER_2,
+  },
+  "pressure-transmitter-3": {
+    src: pressureTransmitter3,
+    alt: `${IMAGE_IDS.PRESSURE_TRANSMITTER_3}: Pressure transmitter - Process pressure measurement`,
+    id: IMAGE_IDS.PRESSURE_TRANSMITTER_3,
+  },
+  "pressure-transmitter-4": {
+    src: pressureTransmitter4,
+    alt: `${IMAGE_IDS.PRESSURE_TRANSMITTER_4}: Pressure transmitter - Smart pressure device`,
+    id: IMAGE_IDS.PRESSURE_TRANSMITTER_4,
+  },
+  "pressure-transmitter-5": {
+    src: pressureTransmitter5,
+    alt: `${IMAGE_IDS.PRESSURE_TRANSMITTER_5}: Pressure transmitter - Digital pressure sensor`,
+    id: IMAGE_IDS.PRESSURE_TRANSMITTER_5,
+  },
+  "pressure-transmitter-6": {
+    src: pressureTransmitter6,
+    alt: `${IMAGE_IDS.PRESSURE_TRANSMITTER_6}: Pressure transmitter - Compact pressure measurement`,
+    id: IMAGE_IDS.PRESSURE_TRANSMITTER_6,
+  },
+
+  // Temperature Sensors
+  "temperature-sensor-1": {
+    src: temperatureSensor1,
+    alt: `${IMAGE_IDS.TEMPERATURE_SENSOR_1}: Temperature sensor - Industrial temperature measurement`,
+    id: IMAGE_IDS.TEMPERATURE_SENSOR_1,
+  },
+  "temperature-sensor-2": {
+    src: temperatureSensor2,
+    alt: `${IMAGE_IDS.TEMPERATURE_SENSOR_2}: Temperature sensor - Process temperature monitoring`,
+    id: IMAGE_IDS.TEMPERATURE_SENSOR_2,
+  },
+  "temperature-sensor-3": {
+    src: temperatureSensor3,
+    alt: `${IMAGE_IDS.TEMPERATURE_SENSOR_3}: Temperature sensor - High precision temperature probe`,
+    id: IMAGE_IDS.TEMPERATURE_SENSOR_3,
+  },
+
+  // Multimeters
+  "multimeter-1": {
+    src: multimeter1,
+    alt: `${IMAGE_IDS.MULTIMETER_1}: Digital multimeter - Professional electrical measurement`,
+    id: IMAGE_IDS.MULTIMETER_1,
+  },
+  "multimeter-2": {
+    src: multimeter2,
+    alt: `${IMAGE_IDS.MULTIMETER_2}: Digital multimeter - Precision testing instrument`,
+    id: IMAGE_IDS.MULTIMETER_2,
+  },
+  "multimeter-3": {
+    src: multimeter3,
+    alt: `${IMAGE_IDS.MULTIMETER_3}: Digital multimeter - Industrial grade meter`,
+    id: IMAGE_IDS.MULTIMETER_3,
+  },
+
+  // PLCs
+  "plc-1": {
+    src: plc1,
+    alt: `${IMAGE_IDS.PLC_1}: PLC - Programmable logic controller for automation`,
+    id: IMAGE_IDS.PLC_1,
+  },
+  "plc-2": {
+    src: plc2,
+    alt: `${IMAGE_IDS.PLC_2}: PLC - Industrial automation controller`,
+    id: IMAGE_IDS.PLC_2,
+  },
+  "plc-3": {
+    src: plc3,
+    alt: `${IMAGE_IDS.PLC_3}: PLC - Process control logic controller`,
+    id: IMAGE_IDS.PLC_3,
+  },
+
+  // HMI Panels
+  "hmi-panel-1": {
+    src: hmiPanel1,
+    alt: `${IMAGE_IDS.HMI_PANEL_1}: HMI panel - Human machine interface touchscreen`,
+    id: IMAGE_IDS.HMI_PANEL_1,
+  },
+  "hmi-panel-2": {
+    src: hmiPanel2,
+    alt: `${IMAGE_IDS.HMI_PANEL_2}: HMI panel - Industrial touchscreen display`,
+    id: IMAGE_IDS.HMI_PANEL_2,
+  },
+  "hmi-panel-3": {
+    src: hmiPanel3,
+    alt: `${IMAGE_IDS.HMI_PANEL_3}: HMI panel - Operator interface terminal`,
+    id: IMAGE_IDS.HMI_PANEL_3,
+  },
+
+  // VFDs
+  "vfd-1": {
+    src: vfd1,
+    alt: `${IMAGE_IDS.VFD_1}: VFD - Variable frequency drive for motor control`,
+    id: IMAGE_IDS.VFD_1,
+  },
+  "vfd-2": {
+    src: vfd2,
+    alt: `${IMAGE_IDS.VFD_2}: VFD - AC drive for speed control`,
+    id: IMAGE_IDS.VFD_2,
+  },
+  "vfd-3": {
+    src: vfd3,
+    alt: `${IMAGE_IDS.VFD_3}: VFD - Industrial motor drive system`,
+    id: IMAGE_IDS.VFD_3,
+  },
+
+  // Gas Analyzers
+  "gas-analyzer-1": {
+    src: gasAnalyzer1,
+    alt: `${IMAGE_IDS.GAS_ANALYZER_1}: Gas analyzer - Industrial gas analysis instrument`,
+    id: IMAGE_IDS.GAS_ANALYZER_1,
+  },
+  "gas-analyzer-2": {
+    src: gasAnalyzer2,
+    alt: `${IMAGE_IDS.GAS_ANALYZER_2}: Gas analyzer - Process gas monitoring`,
+    id: IMAGE_IDS.GAS_ANALYZER_2,
+  },
+  "gas-analyzer-3": {
+    src: gasAnalyzer3,
+    alt: `${IMAGE_IDS.GAS_ANALYZER_3}: Gas analyzer - Emission monitoring system`,
+    id: IMAGE_IDS.GAS_ANALYZER_3,
+  },
+
+  // Flow Meters
+  "flow-meter-1": {
+    src: flowMeter1,
+    alt: `${IMAGE_IDS.FLOW_METER_1}: Flow meter - Industrial flow measurement device`,
+    id: IMAGE_IDS.FLOW_METER_1,
+  },
+  "flow-meter-2": {
+    src: flowMeter2,
+    alt: `${IMAGE_IDS.FLOW_METER_2}: Flow meter - Process flow monitoring`,
+    id: IMAGE_IDS.FLOW_METER_2,
+  },
+  "flow-meter-3": {
+    src: flowMeter3,
+    alt: `${IMAGE_IDS.FLOW_METER_3}: Flow meter - Precision flow sensor`,
+    id: IMAGE_IDS.FLOW_METER_3,
+  },
+
+  // Level Sensors
+  "level-sensor-1": {
+    src: levelSensor1,
+    alt: `${IMAGE_IDS.LEVEL_SENSOR_1}: Level sensor - Industrial level measurement`,
+    id: IMAGE_IDS.LEVEL_SENSOR_1,
+  },
+  "level-sensor-2": {
+    src: levelSensor2,
+    alt: `${IMAGE_IDS.LEVEL_SENSOR_2}: Level sensor - Tank level monitoring`,
+    id: IMAGE_IDS.LEVEL_SENSOR_2,
+  },
+  "level-sensor-3": {
+    src: levelSensor3,
+    alt: `${IMAGE_IDS.LEVEL_SENSOR_3}: Level sensor - Liquid level detection`,
+    id: IMAGE_IDS.LEVEL_SENSOR_3,
+  },
+
+  // Load Cells
+  "load-cell-1": {
+    src: loadCell1,
+    alt: `${IMAGE_IDS.LOAD_CELL_1}: Load cell - Industrial weighing sensor`,
+    id: IMAGE_IDS.LOAD_CELL_1,
+  },
+  "load-cell-2": {
+    src: loadCell2,
+    alt: `${IMAGE_IDS.LOAD_CELL_2}: Load cell - Force measurement transducer`,
+    id: IMAGE_IDS.LOAD_CELL_2,
+  },
+  "load-cell-3": {
+    src: loadCell3,
+    alt: `${IMAGE_IDS.LOAD_CELL_3}: Load cell - Precision load measurement`,
+    id: IMAGE_IDS.LOAD_CELL_3,
+  },
+
+  // pH Sensors
+  "ph-sensor-1": {
+    src: phSensor1,
+    alt: `${IMAGE_IDS.PH_SENSOR_1}: pH sensor - Industrial pH measurement probe`,
+    id: IMAGE_IDS.PH_SENSOR_1,
+  },
+  "ph-sensor-2": {
+    src: phSensor2,
+    alt: `${IMAGE_IDS.PH_SENSOR_2}: pH sensor - Water quality pH electrode`,
+    id: IMAGE_IDS.PH_SENSOR_2,
+  },
+  "ph-sensor-3": {
+    src: phSensor3,
+    alt: `${IMAGE_IDS.PH_SENSOR_3}: pH sensor - Process pH monitoring`,
+    id: IMAGE_IDS.PH_SENSOR_3,
+  },
+
+  // RCCBs
+  "rccb-1": {
+    src: rccb1,
+    alt: `${IMAGE_IDS.RCCB_1}: RCCB - Residual current circuit breaker`,
+    id: IMAGE_IDS.RCCB_1,
+  },
+  "rccb-2": {
+    src: rccb2,
+    alt: `${IMAGE_IDS.RCCB_2}: RCCB - Earth leakage protection device`,
+    id: IMAGE_IDS.RCCB_2,
+  },
+  "rccb-3": {
+    src: rccb3,
+    alt: `${IMAGE_IDS.RCCB_3}: RCCB - Safety circuit breaker`,
+    id: IMAGE_IDS.RCCB_3,
+  },
+
+  // MCBs
+  "mcb-1": {
+    src: mcb1,
+    alt: `${IMAGE_IDS.MCB_1}: MCB - Miniature circuit breaker`,
+    id: IMAGE_IDS.MCB_1,
+  },
+  "mcb-2": {
+    src: mcb2,
+    alt: `${IMAGE_IDS.MCB_2}: MCB - Compact circuit protection`,
+    id: IMAGE_IDS.MCB_2,
+  },
+  "mcb-3": {
+    src: mcb3,
+    alt: `${IMAGE_IDS.MCB_3}: MCB - Electrical safety breaker`,
+    id: IMAGE_IDS.MCB_3,
+  },
+
+  // Contactors
+  "contactor-1": {
+    src: contactor1,
+    alt: `${IMAGE_IDS.CONTACTOR_1}: Contactor - Industrial electrical contactor`,
+    id: IMAGE_IDS.CONTACTOR_1,
+  },
+  "contactor-2": {
+    src: contactor2,
+    alt: `${IMAGE_IDS.CONTACTOR_2}: Contactor - Motor control contactor`,
+    id: IMAGE_IDS.CONTACTOR_2,
+  },
+  "contactor-3": {
+    src: contactor3,
+    alt: `${IMAGE_IDS.CONTACTOR_3}: Contactor - Power switching device`,
+    id: IMAGE_IDS.CONTACTOR_3,
+  },
+
+  // Proximity Sensors
+  "proximity-sensor-1": {
+    src: proximitySensor1,
+    alt: `${IMAGE_IDS.PROXIMITY_SENSOR_1}: Proximity sensor - Inductive proximity switch`,
+    id: IMAGE_IDS.PROXIMITY_SENSOR_1,
+  },
+  "proximity-sensor-2": {
+    src: proximitySensor2,
+    alt: `${IMAGE_IDS.PROXIMITY_SENSOR_2}: Proximity sensor - Position detection sensor`,
+    id: IMAGE_IDS.PROXIMITY_SENSOR_2,
+  },
+  "proximity-sensor-3": {
+    src: proximitySensor3,
+    alt: `${IMAGE_IDS.PROXIMITY_SENSOR_3}: Proximity sensor - Non-contact switch`,
+    id: IMAGE_IDS.PROXIMITY_SENSOR_3,
+  },
+
+  // Photoelectric Sensors
+  "photoelectric-sensor-1": {
+    src: photoelectricSensor1,
+    alt: `${IMAGE_IDS.PHOTOELECTRIC_SENSOR_1}: Photoelectric sensor - Optical detection sensor`,
+    id: IMAGE_IDS.PHOTOELECTRIC_SENSOR_1,
+  },
+  "photoelectric-sensor-2": {
+    src: photoelectricSensor2,
+    alt: `${IMAGE_IDS.PHOTOELECTRIC_SENSOR_2}: Photoelectric sensor - Light beam sensor`,
+    id: IMAGE_IDS.PHOTOELECTRIC_SENSOR_2,
+  },
+  "photoelectric-sensor-3": {
+    src: photoelectricSensor3,
+    alt: `${IMAGE_IDS.PHOTOELECTRIC_SENSOR_3}: Photoelectric sensor - Through-beam detector`,
+    id: IMAGE_IDS.PHOTOELECTRIC_SENSOR_3,
+  },
+
+  // SCADA Systems
+  "scada-system-1": {
+    src: scadaSystem1,
+    alt: `${IMAGE_IDS.SCADA_SYSTEM_1}: SCADA system - Supervisory control and data acquisition`,
+    id: IMAGE_IDS.SCADA_SYSTEM_1,
+  },
+  "scada-system-2": {
+    src: scadaSystem2,
+    alt: `${IMAGE_IDS.SCADA_SYSTEM_2}: SCADA system - Industrial monitoring system`,
+    id: IMAGE_IDS.SCADA_SYSTEM_2,
+  },
+  "scada-system-3": {
+    src: scadaSystem3,
+    alt: `${IMAGE_IDS.SCADA_SYSTEM_3}: SCADA system - Process control platform`,
+    id: IMAGE_IDS.SCADA_SYSTEM_3,
+  },
+
+  // Process Calibrators
+  "process-calibrator-1": {
+    src: processCalibrator1,
+    alt: `${IMAGE_IDS.PROCESS_CALIBRATOR_1}: Process calibrator - Multi-function calibration tool`,
+    id: IMAGE_IDS.PROCESS_CALIBRATOR_1,
+  },
+  "process-calibrator-2": {
+    src: processCalibrator2,
+    alt: `${IMAGE_IDS.PROCESS_CALIBRATOR_2}: Process calibrator - Precision calibration device`,
+    id: IMAGE_IDS.PROCESS_CALIBRATOR_2,
+  },
+  "process-calibrator-3": {
+    src: processCalibrator3,
+    alt: `${IMAGE_IDS.PROCESS_CALIBRATOR_3}: Process calibrator - Field calibration instrument`,
+    id: IMAGE_IDS.PROCESS_CALIBRATOR_3,
+  },
+
+  // Encoders
+  "encoder-1": {
+    src: encoder1,
+    alt: `${IMAGE_IDS.ENCODER_1}: Encoder - Rotary position encoder`,
+    id: IMAGE_IDS.ENCODER_1,
+  },
+  "encoder-2": {
+    src: encoder2,
+    alt: `${IMAGE_IDS.ENCODER_2}: Encoder - Incremental encoder sensor`,
+    id: IMAGE_IDS.ENCODER_2,
+  },
+  "encoder-3": {
+    src: encoder3,
+    alt: `${IMAGE_IDS.ENCODER_3}: Encoder - Absolute position encoder`,
+    id: IMAGE_IDS.ENCODER_3,
+  },
+
+  // Servo Motors
+  "servo-motor-1": {
+    src: servoMotor1,
+    alt: `${IMAGE_IDS.SERVO_MOTOR_1}: Servo motor - Precision motion control motor`,
+    id: IMAGE_IDS.SERVO_MOTOR_1,
+  },
+  "servo-motor-2": {
+    src: servoMotor2,
+    alt: `${IMAGE_IDS.SERVO_MOTOR_2}: Servo motor - Industrial servo system`,
+    id: IMAGE_IDS.SERVO_MOTOR_2,
+  },
+  "servo-motor-3": {
+    src: servoMotor3,
+    alt: `${IMAGE_IDS.SERVO_MOTOR_3}: Servo motor - High performance servo`,
+    id: IMAGE_IDS.SERVO_MOTOR_3,
+  },
+
+  // Water Analyzers
+  "water-analyzer-1": {
+    src: waterAnalyzer1,
+    alt: `${IMAGE_IDS.WATER_ANALYZER_1}: Water analyzer - Water quality monitoring system`,
+    id: IMAGE_IDS.WATER_ANALYZER_1,
+  },
+  "water-analyzer-2": {
+    src: waterAnalyzer2,
+    alt: `${IMAGE_IDS.WATER_ANALYZER_2}: Water analyzer - Industrial water analysis`,
+    id: IMAGE_IDS.WATER_ANALYZER_2,
+  },
+  "water-analyzer-3": {
+    src: waterAnalyzer3,
+    alt: `${IMAGE_IDS.WATER_ANALYZER_3}: Water analyzer - Process water monitoring`,
+    id: IMAGE_IDS.WATER_ANALYZER_3,
+  },
+
+  // Centrifugal Pumps
+  "centrifugal-pump-1": {
+    src: centrifugalPump1,
+    alt: `${IMAGE_IDS.CENTRIFUGAL_PUMP_1}: Centrifugal pump - Industrial fluid pump`,
+    id: IMAGE_IDS.CENTRIFUGAL_PUMP_1,
+  },
+  "centrifugal-pump-2": {
+    src: centrifugalPump2,
+    alt: `${IMAGE_IDS.CENTRIFUGAL_PUMP_2}: Centrifugal pump - High flow pump system`,
+    id: IMAGE_IDS.CENTRIFUGAL_PUMP_2,
+  },
+  "centrifugal-pump-3": {
+    src: centrifugalPump3,
+    alt: `${IMAGE_IDS.CENTRIFUGAL_PUMP_3}: Centrifugal pump - Process pump equipment`,
+    id: IMAGE_IDS.CENTRIFUGAL_PUMP_3,
+  },
+
+  // Heating Elements
+  "heating-element-1": {
+    src: heatingElement1,
+    alt: `${IMAGE_IDS.HEATING_ELEMENT_1}: Heating element - Industrial heating component`,
+    id: IMAGE_IDS.HEATING_ELEMENT_1,
+  },
+  "heating-element-2": {
+    src: heatingElement2,
+    alt: `${IMAGE_IDS.HEATING_ELEMENT_2}: Heating element - Electric heater element`,
+    id: IMAGE_IDS.HEATING_ELEMENT_2,
+  },
+  "heating-element-3": {
+    src: heatingElement3,
+    alt: `${IMAGE_IDS.HEATING_ELEMENT_3}: Heating element - Process heating system`,
+    id: IMAGE_IDS.HEATING_ELEMENT_3,
   },
 
   // Generic fallback

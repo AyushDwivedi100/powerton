@@ -644,7 +644,7 @@ export const productGroups: ProductGroup[] = [
     titleKey: "products:productGroups.earthResistanceTesters.title",
     descriptionKey: "products:productGroups.earthResistanceTesters.description",
     subcategoryKey: "multimeters",
-    image: "multimeters",
+    image: "multimeter-1",
     featuredSpecs: ["manufacturer", "model", "testMethod"],
   },
   {
@@ -653,7 +653,7 @@ export const productGroups: ProductGroup[] = [
     titleKey: "products:productGroups.phaseSequenceCheckers.title",
     descriptionKey: "products:productGroups.phaseSequenceCheckers.description",
     subcategoryKey: "multimeters",
-    image: "multimeters",
+    image: "multimeter-2",
     featuredSpecs: ["manufacturer", "model", "contactType"],
   },
   {
@@ -662,7 +662,7 @@ export const productGroups: ProductGroup[] = [
     titleKey: "products:productGroups.digitalMegohmmeters.title",
     descriptionKey: "products:productGroups.digitalMegohmmeters.description",
     subcategoryKey: "multimeters",
-    image: "multimeters",
+    image: "multimeter-3",
     featuredSpecs: ["manufacturer", "model", "testVoltage"],
   },
   {
@@ -672,7 +672,7 @@ export const productGroups: ProductGroup[] = [
     descriptionKey:
       "products:productGroups.milliampereSourceMeters.description",
     subcategoryKey: "multimeters",
-    image: "multimeters",
+    image: "multimeter-1",
     featuredSpecs: ["manufacturer", "model", "accuracy"],
   },
   // Power Quality Analyzers subcategory groups
@@ -3237,7 +3237,7 @@ export const products: Product[] = [
     categoryKey: "instrumentation-accessories",
     subcategoryKey: "sensors-transducers",
     typeKey: "pnp-npn-sensors",
-    image: "sensors",
+    image: "proximity-sensor-1",
     translationKeys: {
       title: "products-data:omron-e2e-x5me1-pnp-proximity.title",
       description: "products-data:omron-e2e-x5me1-pnp-proximity.description",
@@ -3263,7 +3263,7 @@ export const products: Product[] = [
     slug: "pepperl-fuchs-nbb5-18gm60-e2-pnp-sensor",
     categoryKey: "instrumentation-accessories",
     subcategoryKey: "sensors-transducers",
-    image: "sensors",
+    image: "proximity-sensor-2",
     translationKeys: {
       title: "products-data:pepperl-fuchs-nbb5-18gm60-e2-pnp.title",
       description: "products-data:pepperl-fuchs-nbb5-18gm60-e2-pnp.description",
@@ -3403,7 +3403,7 @@ export const products: Product[] = [
     slug: "turck-bi5-g18-an6x-npn-sensor",
     categoryKey: "instrumentation-accessories",
     subcategoryKey: "sensors-transducers",
-    image: "sensors",
+    image: "proximity-sensor-3",
     specs: {
       type: "NPN Inductive Proximity Sensor",
       manufacturer: "Turck",
@@ -3579,7 +3579,7 @@ export const products: Product[] = [
     slug: "rosemount-78s-pt500-rtd-sensor",
     categoryKey: "instrumentation-accessories",
     subcategoryKey: "sensors-transducers",
-    image: "sensors",
+    image: "temperature-sensor-2",
     specs: {
       type: "PT500 RTD Temperature Sensor",
       manufacturer: "Rosemount (Emerson)",
@@ -3649,7 +3649,7 @@ export const products: Product[] = [
     slug: "tc-ltd-type-k-thermocouple-sensor",
     categoryKey: "instrumentation-accessories",
     subcategoryKey: "sensors-transducers",
-    image: "sensors",
+    image: "temperature-sensor-3",
     specs: {
       type: "Type K Thermocouple",
       manufacturer: "TC Ltd",
@@ -3686,7 +3686,7 @@ export const products: Product[] = [
     slug: "omega-type-j-thermocouple-sensor",
     categoryKey: "instrumentation-accessories",
     subcategoryKey: "sensors-transducers",
-    image: "sensors",
+    image: "temperature-sensor-1",
     specs: {
       type: "Type J Thermocouple",
       manufacturer: "Omega Engineering",
@@ -3723,7 +3723,7 @@ export const products: Product[] = [
     slug: "wika-type-t-thermocouple-sensor",
     categoryKey: "instrumentation-accessories",
     subcategoryKey: "sensors-transducers",
-    image: "sensors",
+    image: "temperature-sensor-2",
     specs: {
       type: "Type T Thermocouple",
       manufacturer: "Wika",
@@ -3760,7 +3760,7 @@ export const products: Product[] = [
     slug: "omega-stc-type-s-thermocouple-sensor",
     categoryKey: "instrumentation-accessories",
     subcategoryKey: "sensors-transducers",
-    image: "sensors",
+    image: "temperature-sensor-3",
     specs: {
       type: "Type S Thermocouple",
       manufacturer: "Omega Engineering",
@@ -3953,7 +3953,7 @@ export const products: Product[] = [
     slug: "endress-hauser-cps11d-ph-sensor",
     categoryKey: "instrumentation-accessories",
     subcategoryKey: "sensors-transducers",
-    image: "sensors",
+    image: "ph-sensor-2",
     specs: {
       type: "Digital pH Sensor",
       manufacturer: "Endress+Hauser",
@@ -3990,7 +3990,7 @@ export const products: Product[] = [
     slug: "hach-phd-sc-ph-sensor",
     categoryKey: "instrumentation-accessories",
     subcategoryKey: "sensors-transducers",
-    image: "sensors",
+    image: "ph-sensor-3",
     specs: {
       type: "Differential pH Sensor",
       manufacturer: "Hach",
@@ -5192,7 +5192,7 @@ export const products: Product[] = [
     slug: "rosemount-5408-level-transmitter",
     categoryKey: "instrumentation-accessories",
     subcategoryKey: "transmitters-flow-meters",
-    image: "transmitters",
+    image: "level-sensor-1",
     specs: {
       type: "Non-Contact Radar Level Transmitter",
       manufacturer: "Rosemount (Emerson)",
@@ -5228,7 +5228,7 @@ export const products: Product[] = [
     slug: "endress-hauser-fmr20-radar-level",
     categoryKey: "instrumentation-accessories",
     subcategoryKey: "transmitters-flow-meters",
-    image: "transmitters",
+    image: "level-sensor-2",
     specs: {
       type: "Radar Level Transmitter",
       manufacturer: "Endress+Hauser",
@@ -5266,7 +5266,7 @@ export const products: Product[] = [
     slug: "endress-hauser-liquiline-m-cm42",
     categoryKey: "instrumentation-accessories",
     subcategoryKey: "transmitters-flow-meters",
-    image: "transmitters",
+    image: "ph-sensor-1",
     specs: {
       type: "Universal Analytical Transmitter",
       manufacturer: "Endress+Hauser",
@@ -5304,7 +5304,7 @@ export const products: Product[] = [
     slug: "rosemount-wireless-1420-gateway",
     categoryKey: "instrumentation-accessories",
     subcategoryKey: "transmitters-flow-meters",
-    image: "transmitters",
+    image: "temperature-sensor-1",
     specs: {
       type: "Wireless Gateway",
       manufacturer: "Rosemount (Emerson)",
@@ -5341,7 +5341,7 @@ export const products: Product[] = [
     slug: "balluff-bes-516-370-e4-c-pu-03-pnp",
     categoryKey: "instrumentation-accessories",
     subcategoryKey: "sensors-transducers",
-    image: "sensors",
+    image: "proximity-sensor-1",
     specs: {
       type: "PNP Inductive Proximity Sensor",
       manufacturer: "Balluff",
@@ -5376,7 +5376,7 @@ export const products: Product[] = [
     slug: "ifm-ig5854-igkfpkg-npn",
     categoryKey: "instrumentation-accessories",
     subcategoryKey: "sensors-transducers",
-    image: "sensors",
+    image: "proximity-sensor-2",
     specs: {
       type: "NPN Inductive Proximity Sensor",
       manufacturer: "IFM",
@@ -5411,7 +5411,7 @@ export const products: Product[] = [
     slug: "telemecanique-xs618b1pam12-pnp",
     categoryKey: "instrumentation-accessories",
     subcategoryKey: "sensors-transducers",
-    image: "sensors",
+    image: "proximity-sensor-3",
     specs: {
       type: "PNP Inductive Proximity Sensor",
       manufacturer: "Telemecanique (Schneider)",
@@ -5446,7 +5446,7 @@ export const products: Product[] = [
     slug: "jumo-902820-pt100-rtd",
     categoryKey: "instrumentation-accessories",
     subcategoryKey: "sensors-transducers",
-    image: "sensors",
+    image: "temperature-sensor-1",
     specs: {
       type: "PT100 RTD Temperature Sensor",
       manufacturer: "JUMO",
@@ -5481,7 +5481,7 @@ export const products: Product[] = [
     slug: "heraeus-m222-pt1000-rtd",
     categoryKey: "instrumentation-accessories",
     subcategoryKey: "sensors-transducers",
-    image: "sensors",
+    image: "temperature-sensor-2",
     specs: {
       type: "PT1000 RTD Temperature Sensor",
       manufacturer: "Heraeus",
@@ -5516,7 +5516,7 @@ export const products: Product[] = [
     slug: "watlow-type-k-thermocouple",
     categoryKey: "instrumentation-accessories",
     subcategoryKey: "sensors-transducers",
-    image: "sensors",
+    image: "temperature-sensor-3",
     specs: {
       type: "Type K Thermocouple",
       manufacturer: "Watlow",
@@ -5549,7 +5549,7 @@ export const products: Product[] = [
     slug: "yokogawa-ph450g-ph-sensor",
     categoryKey: "instrumentation-accessories",
     subcategoryKey: "sensors-transducers",
-    image: "sensors",
+    image: "ph-sensor-1",
     specs: {
       type: "pH Sensor",
       manufacturer: "Yokogawa",
@@ -5820,7 +5820,7 @@ export const products: Product[] = [
     slug: "eurotherm-t2750-type-n-thermocouple",
     categoryKey: "instrumentation-accessories",
     subcategoryKey: "sensors-transducers",
-    image: "sensors",
+    image: "temperature-sensor-1",
     specs: {
       type: "Type N Thermocouple",
       manufacturer: "Eurotherm",
@@ -5853,7 +5853,7 @@ export const products: Product[] = [
     slug: "pyromation-r2ma-type-r-thermocouple",
     categoryKey: "instrumentation-accessories",
     subcategoryKey: "sensors-transducers",
-    image: "sensors",
+    image: "temperature-sensor-2",
     specs: {
       type: "Type R Thermocouple",
       manufacturer: "Pyromation",
@@ -5886,7 +5886,7 @@ export const products: Product[] = [
     slug: "hamilton-polilyte-plus-ph-sensor",
     categoryKey: "instrumentation-accessories",
     subcategoryKey: "sensors-transducers",
-    image: "sensors",
+    image: "ph-sensor-2",
     specs: {
       type: "pH Sensor",
       manufacturer: "Hamilton",
@@ -5919,7 +5919,7 @@ export const products: Product[] = [
     slug: "sensorex-s272cd-ph-sensor",
     categoryKey: "instrumentation-accessories",
     subcategoryKey: "sensors-transducers",
-    image: "sensors",
+    image: "ph-sensor-3",
     specs: {
       type: "pH/ORP Combination Sensor",
       manufacturer: "Sensorex",
@@ -5952,7 +5952,7 @@ export const products: Product[] = [
     slug: "banner-qs18vn6d-photoelectric",
     categoryKey: "instrumentation-accessories",
     subcategoryKey: "sensors-transducers",
-    image: "sensors",
+    image: "photoelectric-sensor-1",
     specs: {
       type: "Photoelectric Sensor",
       manufacturer: "Banner Engineering",
@@ -5986,7 +5986,7 @@ export const products: Product[] = [
     slug: "keyence-pz-g41cn-photoelectric",
     categoryKey: "instrumentation-accessories",
     subcategoryKey: "sensors-transducers",
-    image: "sensors",
+    image: "photoelectric-sensor-2",
     specs: {
       type: "Laser Photoelectric Sensor",
       manufacturer: "Keyence",
@@ -6020,7 +6020,7 @@ export const products: Product[] = [
     slug: "wenglor-og2a103-photoelectric",
     categoryKey: "instrumentation-accessories",
     subcategoryKey: "sensors-transducers",
-    image: "sensors",
+    image: "photoelectric-sensor-3",
     specs: {
       type: "Retroreflective Photoelectric Sensor",
       manufacturer: "Wenglor",
@@ -6056,7 +6056,7 @@ export const products: Product[] = [
     slug: "flintec-pc2-load-cell",
     categoryKey: "instrumentation-accessories",
     subcategoryKey: "transmitters-flow-meters",
-    image: "transmitters",
+    image: "load-cell-1",
     specs: {
       type: "Compression Load Cell",
       manufacturer: "Flintec",
@@ -6089,7 +6089,7 @@ export const products: Product[] = [
     slug: "honeywell-st3000-pressure-transmitter",
     categoryKey: "instrumentation-accessories",
     subcategoryKey: "transmitters-flow-meters",
-    image: "transmitters",
+    image: "pressure-transmitter-1",
     specs: {
       type: "Smart Pressure Transmitter",
       manufacturer: "Honeywell",
@@ -6122,7 +6122,7 @@ export const products: Product[] = [
     slug: "abb-266-pressure-transmitter",
     categoryKey: "instrumentation-accessories",
     subcategoryKey: "transmitters-flow-meters",
-    image: "transmitters",
+    image: "pressure-transmitter-2",
     specs: {
       type: "Absolute/Gauge Pressure Transmitter",
       manufacturer: "ABB",
@@ -6155,7 +6155,7 @@ export const products: Product[] = [
     slug: "siemens-sitrans-p-pressure-transmitter",
     categoryKey: "instrumentation-accessories",
     subcategoryKey: "transmitters-flow-meters",
-    image: "transmitters",
+    image: "pressure-transmitter-3",
     specs: {
       type: "Smart Pressure Transmitter",
       manufacturer: "Siemens",
@@ -6188,7 +6188,7 @@ export const products: Product[] = [
     slug: "yokogawa-eja-pressure-transmitter",
     categoryKey: "instrumentation-accessories",
     subcategoryKey: "transmitters-flow-meters",
-    image: "transmitters",
+    image: "pressure-transmitter-4",
     specs: {
       type: "DPharp Pressure Transmitter",
       manufacturer: "Yokogawa",
@@ -6221,7 +6221,7 @@ export const products: Product[] = [
     slug: "krohne-optiflux-flow-meter",
     categoryKey: "instrumentation-accessories",
     subcategoryKey: "transmitters-flow-meters",
-    image: "transmitters",
+    image: "flow-meter-1",
     specs: {
       type: "Electromagnetic Flow Meter",
       manufacturer: "KROHNE",
@@ -6254,7 +6254,7 @@ export const products: Product[] = [
     slug: "vega-vegapuls-radar-level",
     categoryKey: "instrumentation-accessories",
     subcategoryKey: "transmitters-flow-meters",
-    image: "transmitters",
+    image: "level-sensor-3",
     specs: {
       type: "Radar Level Transmitter",
       manufacturer: "VEGA",
