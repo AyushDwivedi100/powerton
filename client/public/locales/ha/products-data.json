@@ -2,6 +2,513 @@
   "defaults": {
     "groupDescription": "Kayayyakin masana'antu masu inganci waɗanda aka ƙera don aminci da aiki"
   },
+  "categories": {
+    "instrumentation-accessories": {
+      "title": "Kayan Aikin Na'urorin Auna Kayan Aiki",
+      "description": "Kayan aikin na'urorin auna kayan aiki masu inganci don daidaitaccen aunawa da sarrafawa a cikin matakai na masana'antu",
+      "badges": [
+        "Masu Watsa Matsa lamba",
+        "Na'urorin Auna Zafin Jiki",
+        "Mitan Gudun Ruwa",
+        "Manuniyar Matakin"
+      ],
+      "sectionTitle": "Rukunonin Samfura",
+      "subcategories": {
+        "sensors-transducers": {
+          "title": "Na'urori Masu Auna Matsa lamba & Masu Canzawa",
+          "description": "Na'urori masu auna ma'aunin masana'antu da masu canzawa don zafin jiki, matsa lamba, da ma'aunin kwarara",
+          "features": [
+            "Na'urorin Auna Zafin Jiki",
+            "Na'urorin Auna Matsa lamba",
+            "Na'urorin Auna Gudun Ruwa",
+            "Na'urorin Auna Matakin"
+          ]
+        },
+        "transmitters-flow-meters": {
+          "title": "Masu Watsawa & Mita Gudun Ruwa",
+          "description": "Masu watsa sigina da mita gudun ruwa don auna tsarin masana'antu",
+          "features": [
+            "Masu Watsa Matsa lamba",
+            "Masu Watsa Zafin Jiki",
+            "Masu Watsa Gudun Ruwa",
+            "Masu Watsa Matakin"
+          ]
+        },
+        "switches-indicators": {
+          "title": "Sauyawa & Manunawa",
+          "description": "Sauyawa na masana'antu, manunawa, da na'urorin sigina",
+          "features": [
+            "Sauyawa Maballin Turawa",
+            "Sauyawa Zaɓi",
+            "Fitillun Manunawa",
+            "Tsayawa na Gaggawa"
+          ]
+        },
+        "valves-actuators": {
+          "title": "Bawuloli & Masu Aiki",
+          "description": "Bawulolin sarrafawa da masu aiki don tsarin sarrafa tsari",
+          "features": [
+            "Bawulolin Sarrafawa",
+            "Masu Aiki na Pneumatic",
+            "Masu Aiki na Lantarki",
+            "Masu Sanya Bawuloli"
+          ]
+        },
+        "analyzers": {
+          "title": "Masu Nazari",
+          "description": "Gas, ruwa, da masu nazarin tsari don kula da inganci",
+          "features": [
+            "Masu Nazarin Gas",
+            "Masu Nazarin Ruwa",
+            "Masu Nazarin Tsari",
+            "Tsarin Ƙididdiga Da yawa"
+          ]
+        }
+      },
+      "cta": {
+        "title": "Kuna Bukatar Maganin Na'urorin Auna Kayan Aiki?",
+        "description": "Kwararrunmu na fasaha za su iya taimaka muku zaɓi abubuwan da suka dace na na'urorin auna kayan aiki don aikace-aikacen masana'antu.",
+        "contactButtonText": "Tuntube Mu"
+      }
+    },
+    "electrical-accessories": {
+      "title": "Kayan Aikin Lantarki",
+      "description": "Cikakken kewayon kayan aikin lantarki don rarraba wutar lantarki da tsarin sarrafawa",
+      "badges": [
+        "Rarraba Wutar Lantarki",
+        "Tsarin Sarrafawa",
+        "Kayan Tsaro",
+        "Darajar Masana'antu"
+      ],
+      "sectionTitle": "Maganin Kayan Aikin Lantarki",
+      "subcategories": {
+        "cables-wires": {
+          "title": "Kebuloli & Wayoyi",
+          "description": "Kebuloli na masana'antu da wayoyi don watsa wutar lantarki da aikace-aikacen sarrafawa",
+          "features": [
+            "Kebulolin Wuta",
+            "Kebulolin Sarrafawa",
+            "Kebulolin Kayan Aiki",
+            "Kebulolin Sadarwa"
+          ]
+        },
+        "connectors-terminals": {
+          "title": "Masu Haɗawa & Ƙarshen Waya",
+          "description": "Masu haɗin lantarki da toshewar tasha don amintattun hanyoyin haɗi",
+          "features": [
+            "Toshewar Tasha",
+            "Masu Haɗin Waya",
+            "Tashoshin DIN Rail",
+            "Akwatunan Mahaɗa"
+          ]
+        },
+        "circuit-breakers-fuses": {
+          "title": "Masu Kariya ta Zagaye & Fuses",
+          "description": "Na'urorin kariya don kewayoyin lantarki da amincin kayan aiki",
+          "features": ["MCBs", "MCCBs", "RCCBs", "Fuses na Masana'antu"]
+        },
+        "power-supplies": {
+          "title": "Samar da Wutar Lantarki",
+          "description": "Samar da wutar lantarki ta AC/DC da masu canzawa don aikace-aikacen masana'antu",
+          "features": [
+            "SMPS",
+            "Samar da Wutar Lantarki na DIN Rail",
+            "Masu Canza DC-DC",
+            "Tsarin UPS"
+          ]
+        },
+        "enclosures-cabinets": {
+          "title": "Rufewa & Kabad",
+          "description": "Rufewa na lantarki da kabad ɗin sarrafawa don kare kayan aiki",
+          "features": [
+            "Panel ɗin Sarrafawa",
+            "Allunan Rarraba",
+            "Akwatunan Mahaɗa",
+            "Rufewar da ke Jure Yanayi"
+          ]
+        },
+        "heating-elements-appliances": {
+          "title": "Abubuwan Dumama & Kayan Aiki",
+          "description": "Abubuwan dumama na masana'antu da kayan aikin lantarki",
+          "features": [
+            "Abubuwan Dumama",
+            "Hita na Masana'antu",
+            "Masu Kula da Zafin Jiki",
+            "Kariyar Zafi"
+          ]
+        }
+      },
+      "cta": {
+        "title": "Kuna Bukatar Kayan Lantarki?",
+        "description": "Injiniyoyinmu na lantarki za su iya taimaka muku zaɓi abubuwan da suka dace don rarraba wutar lantarki da tsarin sarrafawa.",
+        "contactButtonText": "Tuntube Kwararrunmu"
+      }
+    },
+    "solar-products": {
+      "title": "Kayayyakin Hasken Rana",
+      "description": "Cikakkun hanyoyin magance makamashin hasken rana ciki har da bangarori, inverters, da tsarin ajiyar makamashi",
+      "badges": [
+        "Fannonin Hasken Rana",
+        "Inverters",
+        "Tsarin Hawa",
+        "Ajiyar Makamashi"
+      ],
+      "sectionTitle": "Maganin Hasken Rana",
+      "subcategories": {
+        "solar-panels": {
+          "title": "Fannonin Hasken Rana",
+          "description": "Fannonin photovoltaic don samar da makamashin hasken rana",
+          "features": [
+            "Monocrystalline",
+            "Polycrystalline",
+            "Babban Inganci",
+            "Mai Jure Yanayi"
+          ]
+        },
+        "solar-inverters": {
+          "title": "Inverters na Hasken Rana",
+          "description": "Canza wutar lantarki ta DC zuwa AC don tsarin hasken rana",
+          "features": [
+            "Grid-Tie",
+            "Off-Grid",
+            "Tsarin Hybrid",
+            "Fasahar MPPT"
+          ]
+        }
+      },
+      "cta": {
+        "title": "A shirye kuke Ku Tafi Hasken Rana?",
+        "description": "Kwararrunmu na hasken rana za su iya ƙirar cikakken tsarin makamashin hasken rana wanda aka keɓance don bukatunku.",
+        "contactButtonText": "Tuntube Kwararrun Hasken Rana"
+      }
+    },
+    "automation-control-systems": {
+      "title": "Tsarin Aiki da Kai & Sarrafawa",
+      "description": "Ci-gaban aiki da kai da hanyoyin sarrafawa don sarrafa tsarin masana'antu da haɓakawa",
+      "badges": ["PLCs", "SCADA", "DCS", "HMI"],
+      "sectionTitle": "Maganin Tsarin Sarrafawa",
+      "subcategories": {
+        "plcs": {
+          "title": "PLCs (Masu Kula da Ma'ana Mai Shiryawa)",
+          "description": "Masu kula da aiki da kai na masana'antu don sarrafa tsari",
+          "features": [
+            "Shigarwa/Fitarwa na Dijital",
+            "Sarrafa Analog",
+            "Rukunonin Sadarwa",
+            "Software na Shirye-shirye"
+          ]
+        },
+        "scada": {
+          "title": "Tsarin SCADA",
+          "description": "Kula da kulawa da tsarin samun bayanai",
+          "features": [
+            "Kulawa na Ainihi",
+            "Rikodin Bayanai",
+            "Gudanar da Ƙararrawa",
+            "Samun Nesa"
+          ]
+        },
+        "dcs": {
+          "title": "DCS (Tsarin Sarrafa Rarraba)",
+          "description": "Tsarin sarrafa rarraba don manyan matakai",
+          "features": [
+            "Sarrafa Tsari",
+            "Ginin da Aka Rarraba",
+            "Yawaita",
+            "Ci-gaban Sarrafawa"
+          ]
+        },
+        "hmi": {
+          "title": "HMI (Hulɗar Mutum da Inji)",
+          "description": "Hulɗar mai amfani don tsarin sarrafa masana'antu",
+          "features": [
+            "Nunin Fuskar Taɓawa",
+            "Hulɗar Hoto",
+            "Hotuna Bayanai",
+            "Sarrafa Mai Aiki"
+          ]
+        }
+      },
+      "cta": {
+        "title": "Kuna Bukatar Maganin Aiki da Kai?",
+        "description": "Injiniyoyinmu na aiki da kai za su iya ƙirarwa da aiwatar da cikakkun tsarin sarrafawa don wurin ku.",
+        "contactButtonText": "Tuntube Kwararrun Aiki da Kai"
+      }
+    },
+    "safety-protective-devices": {
+      "title": "Kayan Tsaro & Kariyar",
+      "description": "Cikakken kayan tsaro da kariya don tabbatar da amincin ma'aikata da kayan aiki a cikin mahalli na masana'antu",
+      "badges": [
+        "Kariyar Wutar Lantarki",
+        "Tsarin Ƙasa",
+        "Relay na Tsaro",
+        "Tsaro na Asali"
+      ],
+      "sectionTitle": "Maganin Tsaro",
+      "subcategories": {
+        "surge-protectors": {
+          "title": "Masu Kariyar Wutar Lantarki",
+          "description": "Na'urorin kariya na wutar lantarki don amincin kayan aiki",
+          "features": [
+            "Kariyar Walƙiya",
+            "Kariyar Wutar Lantarki",
+            "Kariyar Kayan Aiki",
+            "Ingancin Wutar Lantarki"
+          ]
+        },
+        "grounding-systems": {
+          "title": "Tsarin Ƙasa",
+          "description": "Tsarin ƙasa na lantarki da earthing don aminci",
+          "features": [
+            "Earth Electrodes",
+            "Sandunan Ƙasa",
+            "Masu Haɗawa",
+            "Sandunan Walƙiya"
+          ]
+        },
+        "safety-relays-switches": {
+          "title": "Relay & Sauyawa na Tsaro",
+          "description": "Na'urorin kula da aminci don tsarin rufewa na gaggawa",
+          "features": [
+            "Tsayawa na Gaggawa",
+            "Saka idanu kan Tsaro",
+            "Ƙirar Rashin Nasara",
+            "Tabbataccen Tsaro"
+          ]
+        },
+        "intrinsically-safe-equipment": {
+          "title": "Kayan Aiki Mai Tsaro na Asali",
+          "description": "Kayan aiki mai hana fashewa don mahalli masu haɗari",
+          "features": [
+            "ATEX Mai Takarda",
+            "Mai Hana Fashewa",
+            "Wurin Hadari",
+            "Tsaro na Asali"
+          ]
+        },
+        "safety-equipment": {
+          "title": "Kayan Aiki na Tsaro",
+          "description": "Kayan aikin kariya na sirri da kayan aikin tsaro",
+          "features": [
+            "PPE Mai Yardarwa",
+            "Ka'idojin Tsaro",
+            "Ƙirar Ta'aziyya",
+            "Dorewa"
+          ]
+        }
+      },
+      "cta": {
+        "title": "Fifita Tsaro a cikin Ayyukanku?",
+        "description": "Injiniyoyinmu na tsaro za su iya kimanta wurin ku kuma su ba da shawarar cikakkun hanyoyin kariya.",
+        "contactButtonText": "Tuntube Kwararrun Tsaro"
+      }
+    },
+    "mechanical-pumps-spares": {
+      "title": "Famfunan Inji & Kayayyakin Gyara",
+      "description": "Maganin famfo na masana'antu da sassan maye gurbin don aikace-aikacen sarrafa ruwa",
+      "badges": [
+        "Famfunan Centrifugal",
+        "Famfunan Diaphragm",
+        "Famfunan Gear",
+        "Kayayyakin Gyara"
+      ],
+      "sectionTitle": "Maganin Famfo",
+      "subcategories": {
+        "centrifugal-pumps": {
+          "title": "Famfunan Centrifugal",
+          "description": "Babban famfunan centrifugal masu inganci don sarrafa ruwa",
+          "features": [
+            "Babban Ƙimar Kwarara",
+            "Fara Aiki da Kai",
+            "Mai Jure Lalata",
+            "Mai Amfani da Makamashi"
+          ]
+        },
+        "diaphragm-pumps": {
+          "title": "Famfunan Diaphragm",
+          "description": "Tabbatattun famfunan diaphragm masu sauyawa don daidaitaccen sarrafa kwarara",
+          "features": [
+            "Matsugunin Sauyawa",
+            "Jituwa ta Sinadarai",
+            "Gudu Mai Bushewa",
+            "Ragewar Buguwa"
+          ]
+        },
+        "gear-pumps": {
+          "title": "Famfunan Gear",
+          "description": "Famfunan gear masu daidaito don aikace-aikacen ruwa mai kauri",
+          "features": [
+            "Babban Matsa lamba",
+            "Ruwa Mai Kauri",
+            "Auna Madaidaici",
+            "Ƙirar Ƙarami"
+          ]
+        },
+        "pump-parts-spares": {
+          "title": "Sassan Famfo & Kayayyakin Gyara",
+          "description": "Sassan maye gurbin da kayayyakin gyara don duk nau'ikan famfo",
+          "features": [
+            "Sassan OEM",
+            "Hatimi & Gaskets",
+            "Impellers",
+            "Kits ɗin Kulawa"
+          ]
+        }
+      },
+      "cta": {
+        "title": "Kuna Bukatar Maganin Famfo?",
+        "description": "Kwararrunmu na famfo za su iya taimaka muku zaɓi madaidaicin maganin famfo don aikace-aikacen ku.",
+        "contactButtonText": "Tuntube Kwararrun Famfo"
+      }
+    },
+    "industrial-measuring-tools": {
+      "title": "Kayan Aikin Masana'antu & Aunawa",
+      "description": "Kayan aiki na ƙwararru, kayan aiki, da ci-gaban kayan auna don kula da masana'antu, gini, ayyukan masana'antu, da daidaitattun aikace-aikacen saka idanu",
+      "badges": [
+        "Kayan Aikin Hannu",
+        "Kayan Aikin Wuta",
+        "Multimeters na Dijital",
+        "Masu Gyarawa",
+        "Kayan Tsaro"
+      ],
+      "sectionTitle": "Rukunonin Kayan Aiki & Kayan Aiki",
+      "subcategories": {
+        "hand-tools": {
+          "title": "Kayan Aikin Hannu",
+          "description": "Kayan aikin hannu na ƙwararru don kula da masana'antu",
+          "features": [
+            "Kayan Aiki Mai Kyau",
+            "Gina Mai Dorewa",
+            "Ƙirar Ergonomic",
+            "Darajar Ƙwararru"
+          ]
+        },
+        "power-tools": {
+          "title": "Kayan Aikin Wuta",
+          "description": "Kayan aikin wutar lantarki da pneumatic don aikace-aikace masu nauyi",
+          "features": [
+            "Babban Ayyuka",
+            "Gudun Bambancin",
+            "Zaɓuɓɓukan Mara waya",
+            "Aikin Masana'antu"
+          ]
+        },
+        "cutting-tools": {
+          "title": "Kayan Aikin Yankan",
+          "description": "Kayan aikin yankan daidai da kayan aiki",
+          "features": [
+            "Kaifi Mai Kaifi",
+            "Kayan Dorewa",
+            "Yankan Madaidaici",
+            "Dogon Tsawon Lokaci"
+          ]
+        },
+        "lifting-equipment": {
+          "title": "Kayan Aikin ɗagawa",
+          "description": "Hoists, cranes, da kayan haɗi na ɗagawa don sarrafa kayan aiki",
+          "features": [
+            "Nauyi Mai Nauyi",
+            "Tabbataccen Tsaro",
+            "Gwajin Kaya",
+            "Ƙarfin Ƙarfi Da yawa"
+          ]
+        },
+        "multimeters": {
+          "title": "Multimeters",
+          "description": "Multimeters na dijital da analog don auna lantarki",
+          "features": [
+            "Wutar Lantarki AC/DC",
+            "Auna Yanzu",
+            "Gwajin Juriya",
+            "Duba Ci gaba"
+          ]
+        },
+        "power-quality-analyzers": {
+          "title": "Masu Nazarin Ingancin Wuta",
+          "description": "Kayan aiki don sa ido kan ingancin wutar lantarki da nazari",
+          "features": [
+            "Nazarin Wuta",
+            "Gano Harmonics",
+            "Kulawa da Wutar Lantarki",
+            "Auna Makamashi"
+          ]
+        },
+        "calibration-equipment": {
+          "title": "Kayan Aikin Daidaitawa",
+          "description": "Kayan aikin daidaitawa daidai da matsayin tunani",
+          "features": [
+            "Matakan Tunani",
+            "Daidaitaccen Daidaitawa",
+            "Gano Tushe",
+            "Tabbatar da Da'a"
+          ]
+        }
+      },
+      "cta": {
+        "title": "Kuna Bukatar Kayan Aiki & Maganin Aunawa?",
+        "description": "Kwararrunmu za su iya taimaka muku zaɓi kayan aiki da kayan auna kayan aiki masu dacewa don aikace-aikacen masana'antu.",
+        "contactButtonText": "Tuntube Kwararrunmu"
+      }
+    },
+    "bldc": {
+      "title": "Tsarin Mota na BLDC",
+      "description": "Ingantattun hanyoyin magance motar DC marasa goge don aikace-aikacen masana'antu da kasuwanci",
+      "badges": [
+        "Motocin BLDC",
+        "Mai Amfani da Makamashi",
+        "Ƙananan Kulawa",
+        "Sarrafa Mai Wayo"
+      ],
+      "sectionTitle": "Maganin BLDC",
+      "subcategories": {
+        "bldc-cooler-exhaust-motor": {
+          "title": "BLDC Motocin Sanyaya & Shayarwa",
+          "description": "Manyan motoci masu inganci don aikace-aikacen sanyaya da samun iska",
+          "features": [
+            "Mai Amfani da Makamashi",
+            "Ƙananan Amooti",
+            "Dogon Rai",
+            "Gudun Bambancin"
+          ]
+        },
+        "bldc-ceiling-fan": {
+          "title": "Fanka Rufi na BLDC",
+          "description": "Fanka rufi masu wayo tare da ci-gaban fasahar ceton makamashi",
+          "features": [
+            "Ramut",
+            "Ajiye Makamashi",
+            "Aiki Mai Shiru",
+            "Fasalolin Wayo"
+          ]
+        },
+        "bldc-submersible-surface-pump": {
+          "title": "BLDC Famfunan Ruwa & na Sama",
+          "description": "Maganin famfon ruwa tare da fasahar motar BLDC",
+          "features": [
+            "Ƙirar Ruwa",
+            "Babban Inganci",
+            "Mai Jure Lalata",
+            "Mai Jituwa da Hasken Rana"
+          ]
+        },
+        "bldc-table-fan-wall-fan-motor": {
+          "title": "BLDC Motocin Fanka na Tebur & Bango",
+          "description": "Ƙananan motocin BLDC don fanka mai ɗaukuwa da na bango",
+          "features": [
+            "Ƙaramin Girma",
+            "Mai Amfani da Makamashi",
+            "Aiki Mai Shiru",
+            "Sarrafa Gudu"
+          ]
+        }
+      },
+      "cta": {
+        "title": "Haɓaka zuwa Fasahar BLDC?",
+        "description": "Kwararrunmu na BLDC za su iya taimaka muku canzawa zuwa ingantattun hanyoyin magance motar DC marasa goge.",
+        "contactButtonText": "Tuntube Kwararrun BLDC"
+      }
+    }
+  },
   "subcategories": {
     "sensors-transducers": {
       "title": "Na'urori Masu Auna Matsa lamba",
@@ -2784,24 +3291,11 @@
         "Food & Beverage",
         "Automotive Manufacturing"
       ],
-      "certifications": [
-        "CE",
-        "UL",
-        "CSA",
-        "ATEX",
-        "IECEx",
-        "SIL 2/3"
-      ],
+      "certifications": ["CE", "UL", "CSA", "ATEX", "IECEx", "SIL 2/3"],
       "technicalData": {
         "operatingTemp": "-40°C to +125°C",
         "protection": "IP65/IP67/IP69K",
-        "communication": [
-          "4-20mA",
-          "HART",
-          "Modbus",
-          "Ethernet",
-          "Wireless"
-        ],
+        "communication": ["4-20mA", "HART", "Modbus", "Ethernet", "Wireless"],
         "accuracy": "±0.1% to ±0.5% of span",
         "power": "24V DC, 115/230V AC, Loop-powered"
       }
@@ -2850,14 +3344,7 @@
         "Pulp & Paper",
         "Mining & Metals"
       ],
-      "certifications": [
-        "SIL 2/3",
-        "ATEX",
-        "IECEx",
-        "FM",
-        "CSA",
-        "NEPSI"
-      ],
+      "certifications": ["SIL 2/3", "ATEX", "IECEx", "FM", "CSA", "NEPSI"],
       "technicalData": {
         "operatingTemp": "-40°C to +85°C",
         "protection": "IP66/IP67",
@@ -3014,12 +3501,7 @@
     "industrialConnectors": {
       "name": "Masu Haɗin Masana'antu",
       "description": "Masu haɗin nauyi don aikace-aikacen masana'antu",
-      "features": [
-        "Ƙimar IP67",
-        "Hanyar Kullewa",
-        "Multi-Pin",
-        "Glands na USB"
-      ]
+      "features": ["Ƙimar IP67", "Hanyar Kullewa", "Multi-Pin", "Glands na USB"]
     },
     "signalConnectors": {
       "name": "Masu Haɗin Sigina",
@@ -5425,6 +5907,556 @@
       "Masana'antu masu nauyi"
     ]
   },
+  "rittalVx25Enclosure": {
+    "title": "Rittal VX25 Rufin Masana'antu",
+    "description": "Rufin ƙarfe na carbon wanda aka ƙima IP66 tare da ƙirar zamani don shigarwar lantarki na masana'antu",
+    "features": [
+      "Ƙimar kariya ta IP66",
+      "Ginin ƙarfe carbon",
+      "Tsarin tsayuwa a ƙasa",
+      "Tsarin zamani",
+      "Gudanar da kebul"
+    ]
+  },
+  "rittalTs8Enclosure": {
+    "title": "Rittal TS 8 Rufin Zamani",
+    "description": "Tsarin rufin bakin karfe na IP66 don mawuyacin yanayin masana'antu",
+    "features": [
+      "Kariyar IP66",
+      "Bakin karfe",
+      "Kanfigareshan na zamani",
+      "Mai jure lalata",
+      "Hawa mai yawa"
+    ]
+  },
+  "schneiderPanelsetsfEnclosure": {
+    "title": "Schneider Electric PanelSeT SFN Rufi",
+    "description": "Rufin ƙarfe mai tsayuwa a ƙasa na IP66 don rarraba wutar lantarki da bangarori masu sarrafawa",
+    "features": [
+      "IP66 mai ƙima",
+      "Ginin karfe",
+      "Tsayuwa a ƙasa",
+      "Shirye don rarraba wutar lantarki",
+      "Girman daidaitattu"
+    ]
+  },
+  "rittalSeEnclosure": {
+    "title": "Rittal SE Tsarin Ƙaramin Rufi",
+    "description": "Ƙaramin rufin ƙarfe na IP66 don aikace-aikacen masana'antu masu iyakacin sarari",
+    "features": [
+      "Kariyar IP66",
+      "Ƙirar ƙarami",
+      "Ginin karfe",
+      "Mai ingancin sarari",
+      "Hadin gaggawa"
+    ]
+  },
+  "schneiderSpacialEnclosure": {
+    "title": "Schneider Electric Spacial SM Rufi",
+    "description": "Ƙaramin rufin ƙarfe na IP66 don sarrafawa da rarraba masana'antu",
+    "features": [
+      "Ƙimar IP66",
+      "Ƙaramin sawun ƙafa",
+      "Gidan karfe",
+      "Shigarwa mai sauƙi",
+      "Amfani mai yawa"
+    ]
+  },
+  "phoenixPsrminiRelay": {
+    "title": "Phoenix Contact PSRmini Relay na Tsaro",
+    "description": "6mm SIL 3 relay na tsaro mai ƙarami tare da aikin 24VDC",
+    "features": [
+      "SIL 3 mai ƙima",
+      "Faɗin 6mm",
+      "Aikin 24VDC",
+      "Adana sarari",
+      "Haɗi mai sauri"
+    ]
+  },
+  "phoenixPsrclassicRelay": {
+    "title": "Phoenix Contact PSR-SCP Relay na Tsaro",
+    "description": "22.5mm SIL 3 relay na tsaro don tsayawa ta gaggawa da kuma saka idanu kan ƙofar tsaro",
+    "features": [
+      "SIL 3 mai tabbatarwa",
+      "Faɗin 22.5mm",
+      "24VDC mai ƙima",
+      "Mai iya tsayawa ta gaggawa",
+      "Saka idanu kan ƙofar tsaro"
+    ]
+  },
+  "pilzPnozx3Relay": {
+    "title": "Pilz PNOZ X3 Relay na Tsaro",
+    "description": "Ƙaramin SIL 3 relay na tsaro tare da lambobin tsaro 2 don kewayen tsayawa ta gaggawa",
+    "features": [
+      "Ƙimar SIL 3",
+      "Lambobin tsaro 2",
+      "Aikin 24VDC",
+      "Tsayawa ta gaggawa",
+      "Tabbatacciyar fasaha"
+    ]
+  },
+  "pilzPnozsigmaRelay": {
+    "title": "Pilz PNOZsigma Relay na Tsaro",
+    "description": "Mai iya daidaitawa SIL 3 relay na tsaro tare da lambobin tsaro 3-9 don aikace-aikace masu rikitarwa",
+    "features": [
+      "SIL 3 mai tabbatarwa",
+      "Lambobin tsaro 3-9",
+      "24VDC",
+      "Mai iya daidaitawa",
+      "Ayyuka masu yawa"
+    ]
+  },
+  "phoenixPsrmodularRelay": {
+    "title": "Phoenix Contact PSRmodular Relay na Tsaro",
+    "description": "Relay na tsaro mai zaman kansa na SIL 3 tare da shigarwar 8-16 don tsarin tsaro mai girma",
+    "features": [
+      "SIL 3 mai ƙima",
+      "Shigarwar 8-16",
+      "24VDC",
+      "Ƙirar zamani",
+      "Mai girma"
+    ]
+  },
+  "dehnDehnguardSpd": {
+    "title": "DEHN DEHNguard M TT Nau'in 2 SPD",
+    "description": "Na'urar kariya ta hauhawar ƙarfin lantarki Nau'in 2 tare da ƙarfin fitarwa 40kA don tsarin 1000VAC",
+    "features": [
+      "Nau'in 2 SPD",
+      "40kA Imax",
+      "1000VAC mai ƙima",
+      "Matsayin gani",
+      "Hawa DIN rail"
+    ]
+  },
+  "phoenixValsecSpd": {
+    "title": "Phoenix Contact VAL-SEC-T2 SPD",
+    "description": "Ƙaramin 12mm Nau'in 2 mai kama hauhawar ƙarfin lantarki tare da ƙarfin fitarwa 40kA",
+    "features": [
+      "Kariyar Nau'in 2",
+      "40kA Imax",
+      "Faɗin 12mm",
+      "Haɗi mai sauri",
+      "Mai nuna matsayi"
+    ]
+  },
+  "dehnDehnventilSpd": {
+    "title": "DEHN DEHNventil M2 Haɗaɗɗen SPD",
+    "description": "Nau'in 1+2+3 haɗaɗɗen mai kama hauhawar ƙarfin lantarki don cikakkiyar kariya ta AC har zuwa 400VAC",
+    "features": [
+      "Nau'in 1+2+3",
+      "Tsarin 400VAC",
+      "Faɗin nau'i 4",
+      "Cikakkiyar kariya",
+      "Babban aminci"
+    ]
+  },
+  "phoenixFltsecSpd": {
+    "title": "Phoenix Contact FLT-SEC-T1+T2 SPD",
+    "description": "Haɗaɗɗiyar kariya ta Nau'in 1+2 tare da ƙimar 350/100",
+    "features": [
+      "Nau'in 1+2 mai haɗawa",
+      "Ƙimar 350/100",
+      "Kariya biyu",
+      "Nuna matsayi",
+      "Ƙirar mai ƙarfi"
+    ]
+  },
+  "phoenixPlugtrabSpd": {
+    "title": "Phoenix Contact PLT-SEC-T3 SPD",
+    "description": "Nau'in 3 mai kama hauhawar ƙarfin lantarki mai kyau don rarraba ta ƙarshe ta 120VAC",
+    "features": [
+      "Kariyar Nau'in 3",
+      "120VAC mai ƙima",
+      "10kA Imax",
+      "Kariya ta ƙarshe",
+      "Haɗin toshe"
+    ]
+  },
+  "schneiderXb4bs8442Estop": {
+    "title": "Schneider Electric XB4BS8442 E-Tsayawa",
+    "description": "IP66 mai ƙima 22mm tsayawa ta gaggawa tare da jan kan naman kaza 40mm da sakin murɗawa",
+    "features": [
+      "Kariyar IP66",
+      "Hawa 22mm",
+      "Naman kaza 40mm",
+      "Sakin murɗawa",
+      "Ginin ƙarfe"
+    ]
+  },
+  "schneiderXb7nt844Estop": {
+    "title": "Schneider Electric XB7NT844 E-Tsayawa",
+    "description": "Maɓallin tsayawa ta gaggawa 22mm tare da kan naman kaza 40mm da tsarin ja-don-saki",
+    "features": [
+      "Girman 22mm",
+      "Kan 40mm",
+      "Sakin ja",
+      "Lambobin 2NC",
+      "Babban gani"
+    ]
+  },
+  "eatonM22pvtEstop": {
+    "title": "Eaton M22-PVT Tsayawa ta Gaggawa",
+    "description": "IP67 mai ƙima M22 jerin E-tsayawa tare da naman kaza 38-45mm da murɗawa-zuwa-saki",
+    "features": [
+      "IP67 mai ƙima",
+      "Hawa 22mm",
+      "Naman kaza 38-45mm",
+      "Sakin murɗawa",
+      "Mai nauyi"
+    ]
+  },
+  "schneider9001skrEstop": {
+    "title": "Schneider Electric 9001SKR E-Tsayawa",
+    "description": "IP66 30mm tsayawa ta gaggawa tare da lambobin sadarwa 1NC+1NO da takardar shaidar UL 508",
+    "features": [
+      "Ƙimar IP66",
+      "Girman 30mm",
+      "Lambobin sadarwa 1NC+1NO",
+      "UL 508 mai tabbatarwa",
+      "Tashoshin dunƙule"
+    ]
+  },
+  "eaton10250tEstop": {
+    "title": "Eaton 10250T NEMA E-Tsayawa",
+    "description": "IP65 NEMA mai ƙima tsayawa ta gaggawa tare da kan naman kaza jumbo 40-65mm",
+    "features": [
+      "Kariyar IP65",
+      "Hawa 30.5mm",
+      "Naman kaza 40-65mm",
+      "NEMA mai ƙima",
+      "Mai nauyi"
+    ]
+  },
+  "grundfosHsPump": {
+    "title": "Grundfos HS Series Famfon Rarraba",
+    "description": "Babban famfon rarraba mai iya aiki don ban ruwa tare da ƙimar kwarara daga 44-11900 GPM",
+    "features": [
+      "Kwarara 44-11900 GPM",
+      "Ƙirar rarraba",
+      "Shirye don ban ruwa",
+      "Mai nauyi",
+      "Mai ingancin makamashi"
+    ]
+  },
+  "grundfosSpPump": {
+    "title": "Grundfos SP Series Famfon Ruwa",
+    "description": "Famfon ruwa na 230V tare da kwarara 79 GPM da ƙarfin kai 1017 ft",
+    "features": [
+      "Kwarara 79 GPM",
+      "Kai 1017 ft",
+      "Ayyukan 230V",
+      "Mai nutsewa",
+      "Bakin karfe"
+    ]
+  },
+  "ebaraHydrostationPump": {
+    "title": "Ebara Hydrostation 1HP Famfo",
+    "description": "Famfon sama na 1HP tare da kwarara 25 GPM da ɗaga 197 ft don zama/kasuwanci mai sauƙi",
+    "features": [
+      "Ƙarfin 1HP",
+      "Kwarara 25 GPM",
+      "Ɗaga 197 ft",
+      "Ƙirar ƙarami",
+      "Shigarwa mai sauƙi"
+    ]
+  },
+  "ebaraDwoPump": {
+    "title": "Ebara DWO Series Famfon Masana'antu",
+    "description": "SS304 famfon masana'antu yana sarrafa ƙarfi 19mm don ruwan sharar gida da aikace-aikacen tsari",
+    "features": [
+      "Ginin SS304",
+      "Ƙarfi 19mm",
+      "Aikin masana'antu",
+      "Mai jure lalata",
+      "Abin dogaro"
+    ]
+  },
+  "ebaraPraPump": {
+    "title": "Ebara PRA Series Famfon Ruwa Mai Tsabta",
+    "description": "Famfon ruwa mai tsabta 0.5-2HP don zama da kasuwanci mai sauƙi a 50Hz",
+    "features": [
+      "Kewayon 0.5-2HP",
+      "Mitar 50Hz",
+      "Ruwa mai tsabta",
+      "Ƙarami",
+      "Mai tsada"
+    ]
+  },
+  "flowserveMark3Pump": {
+    "title": "Flowserve Mark 3 Famfon Tsari",
+    "description": "ANSI B73.1 famfo mai mataki guda tare da kwarara 220 GPM, kai 985 ft, da ƙimar 450 psi",
+    "features": [
+      "220 GPM max",
+      "Kai 985 ft",
+      "450 psi mai ƙima",
+      "ANSI B73.1",
+      "Aikin sinadarai"
+    ]
+  },
+  "flowserveHpxPump": {
+    "title": "Flowserve HPX API 610 Famfo",
+    "description": "API 610 famfo mai aiki da tsari tare da ikon fitarwa 2175 psi",
+    "features": [
+      "API 610 misali",
+      "2175 psi fitarwa",
+      "Tsarin da aka rataye",
+      "Mai & gas",
+      "Babban matsa lamba"
+    ]
+  },
+  "ksbEtanormPump": {
+    "title": "KSB Etanorm Famfon Centrifugal",
+    "description": "EN 733 famfo tare da kwarara 340 L/s, kai 140m, da injinan IE4/IE5 masu inganci",
+    "features": [
+      "Kwarara 340 L/s",
+      "Kai 140m",
+      "Ingancin IE4/IE5",
+      "EN 733",
+      "Ja da baya"
+    ]
+  },
+  "ksbMegacpkPump": {
+    "title": "KSB MegaCPK Famfon Tsari",
+    "description": "Bakaken famfo mai tsari don sinadarai masu tsauri tare da ƙananan NPSH",
+    "features": [
+      "Bakaken karfe",
+      "Mai jure sinadarai",
+      "Ƙananan NPSH",
+      "Aikin tsari",
+      "Abin dogaro"
+    ]
+  },
+  "ksbEtablocPump": {
+    "title": "KSB Etabloc Famfon Haɗin Gwiwa",
+    "description": "EN 733 famfo mai haɗin gwiwa tare da ingancin motar IE4/IE5",
+    "features": [
+      "EN 733 misali",
+      "Haɗin gwiwa",
+      "Motar IE4/IE5",
+      "Ƙarami",
+      "Mai amfani da makamashi"
+    ]
+  },
+  "siemensKtp400Hmi": {
+    "title": "Siemens KTP400 Basic HMI Panel",
+    "description": "4.3 inch mai faɗin allo taɓawa HMI tare da ƙuduri 480x272 da Ethernet/USB",
+    "features": [
+      "Allon 4.3 inch",
+      "480x272 pixels",
+      "Ethernet/USB",
+      "Launuka 64K",
+      "TIA Portal"
+    ]
+  },
+  "siemensKtp700Hmi": {
+    "title": "Siemens KTP700 Basic HMI Panel",
+    "description": "7 inch taɓawa HMI tare da maɓallan aiki 8 da nunin launi 64K",
+    "features": [
+      "Nunin 7 inch",
+      "Maɓallan aiki 8",
+      "Launuka 64K",
+      "Ethernet",
+      "Ƙarami"
+    ]
+  },
+  "schneiderHmisto715Hmi": {
+    "title": "Schneider Electric HMISTO715 HMI",
+    "description": "4.3 inch 480x272 taɓawa HMI don aikin 24VDC",
+    "features": [
+      "Allon 4.3 inch",
+      "Ƙuduri 480x272",
+      "Ƙarfin 24VDC",
+      "Cikakken launi",
+      "Hawa panel"
+    ]
+  },
+  "siemensTp700Hmi": {
+    "title": "Siemens TP700 Comfort HMI",
+    "description": "7 inch comfort panel tare da launuka 16M da ƙwaƙwalwar 12MB don aikace-aikace masu ci gaba",
+    "features": [
+      "Allon faɗin 7 inch",
+      "Launuka 16M",
+      "Ƙwaƙwalwar 12MB",
+      "PROFINET/MPI",
+      "HMI mai ci gaba"
+    ]
+  },
+  "schneiderHmistu855Hmi": {
+    "title": "Schneider Electric HMISTU855 HMI",
+    "description": "5.7 inch 320x240 taɓawa tare da ƙarfin 24VDC don shigarwa mai ƙarami",
+    "features": [
+      "Allon 5.7 inch",
+      "320x240 pixels",
+      "24VDC",
+      "Hawa 22mm",
+      "Ƙarami"
+    ]
+  },
+  "fluke87vMultimeter": {
+    "title": "Fluke 87V Multimeter na Masana'antu",
+    "description": "1000V multimeter na masana'antu tare da 10A yanzu, auna VFD, da ƙimar CAT IV 600V",
+    "features": [
+      "1000V DC/AC",
+      "10A yanzu",
+      "CAT IV 600V",
+      "VFD mai iya aiki",
+      "Darajar masana'antu"
+    ]
+  },
+  "fluke179Multimeter": {
+    "title": "Fluke 179 True-RMS Multimeter",
+    "description": "True-RMS multimeter tare da kewayon 1000V, juriya 50MΩ, da auna zafin jiki",
+    "features": [
+      "1000V AC/DC",
+      "Juriya 50MΩ",
+      "Zafin jiki",
+      "Ƙarfin lantarki",
+      "CAT III 1000V"
+    ]
+  },
+  "beamexMc6Calibrator": {
+    "title": "Beamex MC6 Mai Gyara Filin",
+    "description": "Babban mai gyara filin tare da matsa lamba 1000 bar, sadarwa ta HART/FF, da modules 4",
+    "features": [
+      "Matsa lamba 1000 bar",
+      "HART/FF mai iya aiki",
+      "Modules 4",
+      "Rubuce-rubuce",
+      "Aiki da yawa"
+    ]
+  },
+  "fluke115Multimeter": {
+    "title": "Fluke 115 Ƙaramin Multimeter",
+    "description": "Ƙaramin multimeter 600V tare da 10A yanzu da ƙuduri 6000-ƙidaya",
+    "features": [
+      "600V AC/DC",
+      "10A yanzu",
+      "6000-ƙidaya",
+      "True-RMS",
+      "Sabis na filin"
+    ]
+  },
+  "beamexMc2Calibrator": {
+    "title": "Beamex MC2 Mai Gyara Tsari",
+    "description": "Ƙaramin mai gyara tsari mai ɗaukar nauyi tare da nunin hoto da ikon rubucewa",
+    "features": [
+      "Mai gyara tsari",
+      "Nunin hoto",
+      "Rubuce-rubuce",
+      "Mai ɗaukar nauyi",
+      "Mai gano asali"
+    ]
+  },
+  "3mX5000HelmetType1": {
+    "title": "3M SecureFit X5000 Hular Tsaro Nau'in I",
+    "description": "ANSI Z89.1 Nau'in I Class G hular tsaro tare da fasahar yaɗa matsa lamba",
+    "features": [
+      "Nau'in I ANSI Z89.1",
+      "Class G 2200V",
+      "Yaɗa matsa lamba",
+      "Alamar UV",
+      "Madauri mai maki 4"
+    ]
+  },
+  "3mX5000HelmetType2": {
+    "title": "3M SecureFit X5000 Hular Tsaro Nau'in II",
+    "description": "ANSI Z89.1 Nau'in II Class E hular tsaro don kariya daga tasiri mai yawa",
+    "features": [
+      "Nau'in II ANSI Z89.1",
+      "Class E 20000V",
+      "Multi-directional",
+      "Salon hawan dutse",
+      "Na'urar UV"
+    ]
+  },
+  "3mH700HelmetCap": {
+    "title": "3M H-700 Hular Hula Mai Wuya",
+    "description": "Hula mai wuya Nau'in I tare da dakatarwar ratchet da alamar UV don amfanin masana'antu",
+    "features": [
+      "Kariyar Nau'in I",
+      "Dakatarwar Ratchet",
+      "Alamar UV",
+      "Salon hula",
+      "Mai daɗi"
+    ]
+  },
+  "3mH700HelmetBrim": {
+    "title": "3M H-700 Cikakken Hular Mai Wuya",
+    "description": "Hula mai wuya Nau'in I tare da dakatarwar ratchet da alamar kariyar UV",
+    "features": [
+      "Kariyar Nau'in I",
+      "Cikakken gefe",
+      "Tsarin Ratchet",
+      "Alamar UV",
+      "Duk yanayi"
+    ]
+  },
+  "3mX5014Helmet": {
+    "title": "3M X5014-ANSI Hular Tsaro Mai Girma",
+    "description": "Nau'in I high-visibility kore hular tsaro wacce aka ƙima don kariyar lantarki 2200V",
+    "features": [
+      "Nau'in I ANSI",
+      "Kore mai girma",
+      "2200V mai ƙima",
+      "Yaɗa matsa lamba",
+      "Mai nuna haske"
+    ]
+  },
+  "enphaseIq860Inverter": {
+    "title": "Enphase IQ8-60 Microinverter",
+    "description": "245VA microinverter don bangarori 235-350W tare da garanti na shekaru 25 da ikon microgrid",
+    "features": [
+      "245VA fitarwa",
+      "Modules 235-350W",
+      "Garanti na shekaru 25",
+      "Microgrid mai iya aiki",
+      "IP67 mai ƙima"
+    ]
+  },
+  "enphaseIq8plusInverter": {
+    "title": "Enphase IQ8PLUS-72 Microinverter",
+    "description": "300VA microinverter don bangarori 235-440W tare da fasahar samar da grid",
+    "features": [
+      "300VA fitarwa",
+      "Modules 235-440W",
+      "Garanti na shekaru 25",
+      "Samar da grid",
+      "Rarraba-lokaci"
+    ]
+  },
+  "apsystemsDs3sInverter": {
+    "title": "APsystems DS3-S Dual Microinverter",
+    "description": "640VA dual-module microinverter tare da inganci 97% don bangarori har zuwa 400W",
+    "features": [
+      "640VA fitarwa",
+      "Modules 400W",
+      "Inganci 97%",
+      "Dual MPPT",
+      "ZigBee mara waya"
+    ]
+  },
+  "apsystemsDs3lInverter": {
+    "title": "APsystems DS3-L Dual Microinverter",
+    "description": "748VA dual-module microinverter tare da inganci 97% don bangarori har zuwa 480W",
+    "features": [
+      "748VA fitarwa",
+      "Modules 480W",
+      "Inganci 97%",
+      "Tashoshi 2",
+      "IP67 mai ƙima"
+    ]
+  },
+  "enphaseIq8acInverter": {
+    "title": "Enphase IQ8AC Microinverter na Gida",
+    "description": "366VA microinverter na gida tare da ƙimar IP67 da ikon Taimako na Hasken Rana",
+    "features": [
+      "366VA fitarwa",
+      "Amfanin gida",
+      "Kariyar IP67",
+      "Taimako na Hasken Rana",
+      "Babban inganci"
+    ]
+  },
   "utilities": {
     "variant": {
       "titleSuffix": " - Variant {{number}}",
@@ -5462,533 +6494,13 @@
         "Pharmaceutical",
         "Food & Beverage"
       ],
-      "certifications": [
-        "ISO 9001",
-        "CE Marking"
-      ],
+      "certifications": ["ISO 9001", "CE Marking"],
       "keywords": {
         "industrialAutomation": "industrial automation",
         "processControl": "process control",
         "instrumentation": "instrumentation",
         "india": "India",
         "powertonEngineering": "Powerton Engineering"
-      }
-    }
-  },
-  "categories": {
-    "instrumentation-accessories": {
-      "title": "Instrumentation Accessories",
-      "description": "High-precision instrumentation accessories for accurate measurement and control in industrial processes",
-      "badges": [
-        "Pressure Transmitters",
-        "Temperature Sensors",
-        "Flow Meters",
-        "Level Indicators"
-      ],
-      "sectionTitle": "Product Categories",
-      "subcategories": {
-        "sensors-transducers": {
-          "title": "Sensors & Transducers",
-          "description": "Industrial sensors and transducers for temperature, pressure, and flow measurement",
-          "features": [
-            "Temperature Sensors",
-            "Pressure Sensors",
-            "Flow Sensors",
-            "Level Sensors"
-          ]
-        },
-        "transmitters-flow-meters": {
-          "title": "Transmitters & Flow Meters",
-          "description": "Signal transmitters and flow meters for industrial process measurement",
-          "features": [
-            "Pressure Transmitters",
-            "Temperature Transmitters",
-            "Flow Transmitters",
-            "Level Transmitters"
-          ]
-        },
-        "switches-indicators": {
-          "title": "Switches & Indicators",
-          "description": "Industrial switches, indicators, and signaling devices",
-          "features": [
-            "Pushbutton Switches",
-            "Selector Switches",
-            "Indicator Lights",
-            "Emergency Stops"
-          ]
-        },
-        "valves-actuators": {
-          "title": "Valves & Actuators",
-          "description": "Control valves and actuators for process control systems",
-          "features": [
-            "Control Valves",
-            "Pneumatic Actuators",
-            "Electric Actuators",
-            "Valve Positioners"
-          ]
-        },
-        "analyzers": {
-          "title": "Analyzers",
-          "description": "Gas, liquid, and process analyzers for quality control",
-          "features": [
-            "Gas Analyzers",
-            "Liquid Analyzers",
-            "Process Analyzers",
-            "Multi-parameter Systems"
-          ]
-        }
-      },
-      "cta": {
-        "title": "Need Instrumentation Solutions?",
-        "description": "Our technical experts can help you select the right instrumentation components for your industrial applications.",
-        "contactButtonText": "Contact Us"
-      }
-    },
-    "electrical-accessories": {
-      "title": "Electrical Accessories",
-      "description": "Comprehensive range of electrical components for power distribution and control systems",
-      "badges": [
-        "Power Distribution",
-        "Control Systems",
-        "Safety Components",
-        "Industrial Grade"
-      ],
-      "sectionTitle": "Electrical accessories Solutions",
-      "subcategories": {
-        "cables-wires": {
-          "title": "Cables & Wires",
-          "description": "Industrial cables and wires for power transmission and control applications",
-          "features": [
-            "Power Cables",
-            "Control Cables",
-            "Instrumentation Cables",
-            "Communication Cables"
-          ]
-        },
-        "connectors-terminals": {
-          "title": "Connectors & Terminals",
-          "description": "Electrical connectors and terminal blocks for secure connections",
-          "features": [
-            "Terminal Blocks",
-            "Wire Connectors",
-            "DIN Rail Terminals",
-            "Junction Boxes"
-          ]
-        },
-        "circuit-breakers-fuses": {
-          "title": "Circuit Breakers & Fuses",
-          "description": "Protection devices for electrical circuits and equipment safety",
-          "features": [
-            "MCBs",
-            "MCCBs",
-            "RCCBs",
-            "Industrial Fuses"
-          ]
-        },
-        "power-supplies": {
-          "title": "Power Supplies",
-          "description": "AC/DC power supplies and converters for industrial applications",
-          "features": [
-            "SMPS",
-            "DIN Rail Power Supplies",
-            "DC-DC Converters",
-            "UPS Systems"
-          ]
-        },
-        "enclosures-cabinets": {
-          "title": "Enclosures & Cabinets",
-          "description": "Electrical enclosures and control cabinets for equipment protection",
-          "features": [
-            "Control Panels",
-            "Distribution Boards",
-            "Junction Boxes",
-            "Weatherproof Enclosures"
-          ]
-        },
-        "heating-elements-appliances": {
-          "title": "Heating Elements & Appliances",
-          "description": "Industrial heating elements and electrical appliances",
-          "features": [
-            "Heating Elements",
-            "Industrial Heaters",
-            "Temperature Controllers",
-            "Thermal Protection"
-          ]
-        }
-      },
-      "cta": {
-        "title": "Need Electrical Components?",
-        "description": "Our electrical engineers can help you select the right components for your power distribution and control systems.",
-        "contactButtonText": "Contact Our Experts"
-      }
-    },
-    "solar-products": {
-      "title": "Solar Products",
-      "description": "Complete solar energy solutions including panels, inverters, and energy storage systems",
-      "badges": [
-        "Solar Panels",
-        "Inverters",
-        "Mounting Systems",
-        "Energy Storage"
-      ],
-      "sectionTitle": "Solar Solutions",
-      "subcategories": {
-        "solar-panels": {
-          "title": "Solar Panels",
-          "description": "Photovoltaic panels for solar energy generation",
-          "features": [
-            "Monocrystalline",
-            "Polycrystalline",
-            "High Efficiency",
-            "Weather Resistant"
-          ]
-        },
-        "solar-inverters": {
-          "title": "Solar Inverters",
-          "description": "DC to AC power conversion for solar systems",
-          "features": [
-            "Grid-Tie",
-            "Off-Grid",
-            "Hybrid Systems",
-            "MPPT Technology"
-          ]
-        }
-      },
-      "cta": {
-        "title": "Ready to Go Solar?",
-        "description": "Our solar experts can design a complete solar energy system tailored to your needs.",
-        "contactButtonText": "Contact Solar Experts"
-      }
-    },
-    "automation-control-systems": {
-      "title": "Automation & Control Systems",
-      "description": "Advanced automation and control solutions for industrial process management and optimization",
-      "badges": [
-        "PLCs",
-        "SCADA",
-        "DCS",
-        "HMI"
-      ],
-      "sectionTitle": "Control System Solutions",
-      "subcategories": {
-        "plcs": {
-          "title": "PLCs (Programmable Logic Controllers)",
-          "description": "Industrial automation controllers for process control",
-          "features": [
-            "Digital I/O",
-            "Analog Processing",
-            "Communication Modules",
-            "Programming Software"
-          ]
-        },
-        "scada": {
-          "title": "SCADA Systems",
-          "description": "Supervisory control and data acquisition systems",
-          "features": [
-            "Real-time Monitoring",
-            "Data Logging",
-            "Alarm Management",
-            "Remote Access"
-          ]
-        },
-        "dcs": {
-          "title": "DCS (Distributed Control Systems)",
-          "description": "Distributed control systems for large-scale processes",
-          "features": [
-            "Process Control",
-            "Distributed Architecture",
-            "Redundancy",
-            "Advanced Control"
-          ]
-        },
-        "hmi": {
-          "title": "HMI (Human Machine Interface)",
-          "description": "User interfaces for industrial control systems",
-          "features": [
-            "Touchscreen Displays",
-            "Graphic Interface",
-            "Data Visualization",
-            "Operator Control"
-          ]
-        }
-      },
-      "cta": {
-        "title": "Need Automation Solutions?",
-        "description": "Our automation engineers can design and implement comprehensive control systems for your facility.",
-        "contactButtonText": "Contact Automation Experts"
-      }
-    },
-    "safety-protective-devices": {
-      "title": "Safety & Protective Devices",
-      "description": "Comprehensive safety and protective equipment to ensure personnel and equipment safety in industrial environments",
-      "badges": [
-        "Surge Protection",
-        "Grounding Systems",
-        "Safety Relays",
-        "Intrinsic Safety"
-      ],
-      "sectionTitle": "Safety Solutions",
-      "subcategories": {
-        "surge-protectors": {
-          "title": "Surge Protectors",
-          "description": "Electrical surge protection devices for equipment safety",
-          "features": [
-            "Lightning Protection",
-            "Voltage Surge Protection",
-            "Equipment Safety",
-            "Power Quality"
-          ]
-        },
-        "grounding-systems": {
-          "title": "Grounding Systems",
-          "description": "Electrical grounding and earthing systems for safety",
-          "features": [
-            "Earth Electrodes",
-            "Ground Rods",
-            "Bonding Conductors",
-            "Lightning Rods"
-          ]
-        },
-        "safety-relays-switches": {
-          "title": "Safety Relays & Switches",
-          "description": "Safety control devices for emergency shutdown systems",
-          "features": [
-            "Emergency Stop",
-            "Safety Monitoring",
-            "Fail-Safe Design",
-            "Certified Safety"
-          ]
-        },
-        "intrinsically-safe-equipment": {
-          "title": "Intrinsically Safe Equipment",
-          "description": "Explosion-proof equipment for hazardous environments",
-          "features": [
-            "ATEX Certified",
-            "Explosion Proof",
-            "Hazardous Area",
-            "Intrinsic Safety"
-          ]
-        },
-        "safety-equipment": {
-          "title": "Safety Equipment",
-          "description": "Personal protective equipment and safety gear",
-          "features": [
-            "PPE Compliant",
-            "Safety Standards",
-            "Comfort Design",
-            "Durability"
-          ]
-        }
-      },
-      "cta": {
-        "title": "Prioritizing Safety in Your Operations?",
-        "description": "Our safety engineers can assess your facility and recommend comprehensive protective solutions.",
-        "contactButtonText": "Contact Safety Experts"
-      }
-    },
-    "mechanical-pumps-spares": {
-      "title": "Mechanical Pumps & Spares",
-      "description": "Industrial pumping solutions and replacement parts for fluid handling applications",
-      "badges": [
-        "Centrifugal Pumps",
-        "Diaphragm Pumps",
-        "Gear Pumps",
-        "Spare Parts"
-      ],
-      "sectionTitle": "Pump Solutions",
-      "subcategories": {
-        "centrifugal-pumps": {
-          "title": "Centrifugal Pumps",
-          "description": "High-efficiency centrifugal pumps for fluid handling",
-          "features": [
-            "High Flow Rates",
-            "Self-Priming",
-            "Corrosion Resistant",
-            "Energy Efficient"
-          ]
-        },
-        "diaphragm-pumps": {
-          "title": "Diaphragm Pumps",
-          "description": "Positive displacement diaphragm pumps for precise flow control",
-          "features": [
-            "Positive Displacement",
-            "Chemical Compatibility",
-            "Dry Running",
-            "Pulsation Dampening"
-          ]
-        },
-        "gear-pumps": {
-          "title": "Gear Pumps",
-          "description": "Precision gear pumps for viscous fluid applications",
-          "features": [
-            "High Pressure",
-            "Viscous Fluids",
-            "Precise Metering",
-            "Compact Design"
-          ]
-        },
-        "pump-parts-spares": {
-          "title": "Pump Parts & Spares",
-          "description": "Replacement parts and spare components for all pump types",
-          "features": [
-            "OEM Parts",
-            "Seals & Gaskets",
-            "Impellers",
-            "Maintenance Kits"
-          ]
-        }
-      },
-      "cta": {
-        "title": "Need Pump Solutions?",
-        "description": "Our pump specialists can help you select the right pumping solution for your application.",
-        "contactButtonText": "Contact Pump Experts"
-      }
-    },
-    "industrial-measuring-tools": {
-      "title": "Industrial & Measuring Tools",
-      "description": "Professional tools, equipment, and advanced measurement instruments for industrial maintenance, construction, manufacturing operations, and precise monitoring applications",
-      "badges": [
-        "Hand Tools",
-        "Power Tools",
-        "Digital Multimeters",
-        "Calibrators",
-        "Safety Gear"
-      ],
-      "sectionTitle": "Tool & Instrument Categories",
-      "subcategories": {
-        "hand-tools": {
-          "title": "Hand Tools",
-          "description": "Professional hand tools for industrial maintenance",
-          "features": [
-            "Precision Tools",
-            "Durable Construction",
-            "Ergonomic Design",
-            "Professional Grade"
-          ]
-        },
-        "power-tools": {
-          "title": "Power Tools",
-          "description": "Electric and pneumatic power tools for heavy-duty applications",
-          "features": [
-            "High Performance",
-            "Variable Speed",
-            "Cordless Options",
-            "Industrial Duty"
-          ]
-        },
-        "cutting-tools": {
-          "title": "Cutting Tools",
-          "description": "Precision cutting tools and accessories",
-          "features": [
-            "Sharp Edges",
-            "Durable Materials",
-            "Precision Cutting",
-            "Long Lasting"
-          ]
-        },
-        "lifting-equipment": {
-          "title": "Lifting Equipment",
-          "description": "Hoists, cranes, and lifting accessories for material handling",
-          "features": [
-            "Heavy Duty",
-            "Safety Certified",
-            "Load Testing",
-            "Various Capacities"
-          ]
-        },
-        "multimeters": {
-          "title": "Multimeters",
-          "description": "Digital and analog multimeters for electrical measurements",
-          "features": [
-            "AC/DC Voltage",
-            "Current Measurement",
-            "Resistance Testing",
-            "Continuity Check"
-          ]
-        },
-        "power-quality-analyzers": {
-          "title": "Power Quality Analyzers",
-          "description": "Instruments for power quality monitoring and analysis",
-          "features": [
-            "Power Analysis",
-            "Harmonic Detection",
-            "Voltage Monitoring",
-            "Energy Measurement"
-          ]
-        },
-        "calibration-equipment": {
-          "title": "Calibration Equipment",
-          "description": "Precision calibration tools and reference standards",
-          "features": [
-            "Reference Standards",
-            "Precision Calibration",
-            "Traceability",
-            "Accuracy Verification"
-          ]
-        }
-      },
-      "cta": {
-        "title": "Need Tools & Measurement Solutions?",
-        "description": "Our specialists can help you select the right tools and measurement instruments for your industrial applications.",
-        "contactButtonText": "Contact Our Experts"
-      }
-    },
-    "bldc": {
-      "title": "BLDC Motor Systems",
-      "description": "Energy-efficient brushless DC motor solutions for industrial and commercial applications",
-      "badges": [
-        "BLDC Motors",
-        "Energy Efficient",
-        "Low Maintenance",
-        "Smart Control"
-      ],
-      "sectionTitle": "BLDC Solutions",
-      "subcategories": {
-        "bldc-cooler-exhaust-motor": {
-          "title": "BLDC Cooler & Exhaust Motors",
-          "description": "High-efficiency motors for cooling and ventilation applications",
-          "features": [
-            "Energy Efficient",
-            "Low Noise",
-            "Long Life",
-            "Variable Speed"
-          ]
-        },
-        "bldc-ceiling-fan": {
-          "title": "BLDC Ceiling Fans",
-          "description": "Smart ceiling fans with advanced energy-saving technology",
-          "features": [
-            "Remote Control",
-            "Energy Saving",
-            "Quiet Operation",
-            "Smart Features"
-          ]
-        },
-        "bldc-submersible-surface-pump": {
-          "title": "BLDC Submersible & Surface Pumps",
-          "description": "Water pumping solutions with BLDC motor technology",
-          "features": [
-            "Submersible Design",
-            "High Efficiency",
-            "Corrosion Resistant",
-            "Solar Compatible"
-          ]
-        },
-        "bldc-table-fan-wall-fan-motor": {
-          "title": "BLDC Table & Wall Fan Motors",
-          "description": "Compact BLDC motors for portable and wall-mounted fans",
-          "features": [
-            "Compact Size",
-            "Energy Efficient",
-            "Quiet Operation",
-            "Speed Control"
-          ]
-        }
-      },
-      "cta": {
-        "title": "Upgrade to BLDC Technology?",
-        "description": "Our BLDC specialists can help you transition to energy-efficient brushless DC motor solutions.",
-        "contactButtonText": "Contact BLDC Experts"
       }
     }
   }
