@@ -59,6 +59,32 @@ The frontend is built with React 18, TypeScript, and Vite, utilizing Tailwind CS
 
 ## Recent Changes
 
+### October 13, 2025 - Product Category Cleanup and Optimization
+
+- **Completely removed Oscilloscope product category:**
+  - Removed all oscilloscope references from TypeScript files (routing, images, constants)
+  - Removed oscilloscope translation keys from all 10 language locale files (en, hi, ar, es, fr, zh, pt, ru, sw, ha)
+  - Removed oscilloscope product entries (digitalOscilloscopes, mixedSignalOscilloscopes, portableOscilloscopes)
+  - Cleaned TypeScript build cache for fresh compilation
+  - Final verification: 0 oscilloscope references remaining in codebase
+
+- **Completely removed Spectrum Analyzer product category while preserving other analyzers:**
+  - Removed spectrum-analyzers from routing and navigation systems
+  - Removed spectrum analyzer feature keys from industrial-measuring-tools category
+  - Removed spectrum analyzer image mappings (rf-spectrum-analyzer, audio-spectrum-analyzer)
+  - Removed spectrum analyzer translation keys from all 10 language locale files
+  - Removed product entries: spectrum-analyzers subcategory, spectrumAnalyzers page, rfSpectrumAnalyzers, audioSpectrumAnalyzers
+  - Preserved all other analyzer types: power quality analyzers, harmonic analyzers, real-time signal analyzers
+  - Updated real-time analyzers description to avoid confusion (changed "spectrum analyzers" to "signal analyzers")
+  - Final verification: 0 spectrum analyzer references remaining in codebase
+
+- **SEO and Website Integrity:**
+  - Verified sitemap.xml has no references to removed categories
+  - Verified robots.txt requires no updates
+  - All LSP diagnostics clean with no TypeScript errors
+  - Application running successfully with all translations loading correctly
+  - Browser console clean with no missing translation keys or runtime errors
+
 ### October 10, 2025 - Product Image Enhancement and Optimization
 
 - **Cleaned up unused images from the project:**
