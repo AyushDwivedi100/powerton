@@ -532,12 +532,12 @@ export const PRODUCT_IMAGES = {
   },
   "industrial-measuring-tools": {
     src: measurementInstrumentsImage,
-    alt: `${IMAGE_IDS.MEASUREMENT_INSTRUMENTS}: Measurement instruments - Digital multimeters, oscilloscopes and analyzers`,
+    alt: `${IMAGE_IDS.MEASUREMENT_INSTRUMENTS}: Measurement instruments - Digital multimeters and analyzers`,
     id: IMAGE_IDS.MEASUREMENT_INSTRUMENTS,
   },
   "measurement-instruments": {
     src: measurementInstrumentsImage,
-    alt: `${IMAGE_IDS.MEASUREMENT_INSTRUMENTS}: Measurement instruments - Digital multimeters, oscilloscopes and analyzers`,
+    alt: `${IMAGE_IDS.MEASUREMENT_INSTRUMENTS}: Measurement instruments - Digital multimeters and analyzers`,
     id: IMAGE_IDS.MEASUREMENT_INSTRUMENTS,
   },
   "solar-products": {
