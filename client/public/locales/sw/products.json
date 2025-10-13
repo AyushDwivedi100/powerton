@@ -2487,18 +2487,6 @@
       "title": "Mita za Chanzo cha Milliampere",
       "description": "Vipima sahihi vya calibrator ya kitanzi cha milliampere na chanzo cha mkondo kwa ajili ya majaribio ya kitanzi cha udhibiti wa mchakato wa 4-20mA na calibration. Vyombo vya kitaalamu vinavyotoa chanzo sahihi cha mA na upimaji na usambazaji wa nguvu wa kitanzi wa 24V uliojengwa ndani kwa ajili ya uigaji wa transmita ya waya 2. Vipengele ni pamoja na uwezo wa chanzo na kupima wakati huo huo, kazi za hatua za kiotomatiki kwa ajili ya upimaji wa mstari, utangamano wa mawasiliano wa HART, kazi za ramp kwa ajili ya upimaji wa valve, na miundo ya clamp-on ambayo huondoa kuvunjika kwa kitanzi. Muhimu kwa ajili ya utatuzi wa matatizo na calibrating ala za mchakato katika mifumo ya otomatiki ya viwandani."
     },
-    "digitalOscilloscopes": {
-      "title": "Oscilloscopes za Dijitali",
-      "description": "Oscilloscopes za kuhifadhi dijitali za hali ya juu kwa uchambuzi wa waveform na kipimo cha ishara. Bandwidth ya juu, viwango vya sampuli vya haraka, na kazi za kina za kupima na interfaces za skrini ya kugusa na uwezo wa uchambuzi wa data."
-    },
-    "mixedSignalOscilloscopes": {
-      "title": "Oscilloscopes za Ishara Mchanganyiko",
-      "description": "Oscilloscopes za ishara mchanganyiko za hali ya juu zinazochanganya chaneli za analogi na dijitali kwa uchambuzi wa kina wa ishara. Utekaji wa wakati huo huo wa waveform ya analogi na hali ya mantiki ya dijitali na itifaki ya kufuta na uwezo wa juu wa kuchochea."
-    },
-    "portableOscilloscopes": {
-      "title": "Oscilloscopes zinazobebeka",
-      "description": "Oscilloscopes za handheld za kompakt kwa vipimo vya shamba na matumizi ya simu. Uendeshaji unaoendeshwa na betri na ujenzi thabiti, vipimo vya magari, na uwezo wa ufuatiliaji wa mbali."
-    },
     "rfSpectrumAnalyzers": {
       "title": "Vichanganuzi vya Spectrum vya RF",
       "description": "Vichanganuzi vya spectrum vya RF na microwave vya utendaji wa juu kwa ajili ya upimaji wa mawasiliano ya wireless, kufuata EMC, na uchambuzi wa ishara. Ufunikaji mpana wa frequency na safu bora ya nguvu na kasi ya kupima."

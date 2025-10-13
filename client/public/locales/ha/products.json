@@ -2487,18 +2487,6 @@
       "title": "Miliampere Mita tushen",
       "description": "Madaidaicin masu daidaita madauki na milliampere da mitoci na tushen yanzu don gwajin madauki na sarrafa tsari na 4-20mA da daidaitawa. Kayan aikin ƙwararru suna ba da daidaitaccen tushen mA da aunawa tare da ginanniyar samar da wutar lantarki ta madauki 24V don kwaikwayo mai watsawa mai waya 2. Siffofin sun haɗa da ikon tushe da aunawa lokaci guda, ayyukan mataki na atomatik don gwajin linearity, jituwa na sadarwa ta HART, ayyukan gangara don gwajin bawul, da ƙirar clamp-on waɗanda ke kawar da karyewar madauki. Mahimmanci don gyara matsala da daidaita kayan aikin tsari a cikin tsarin sarrafa kansa na masana'antu."
     },
-    "digitalOscilloscopes": {
-      "title": "Oscilloscopes na Dijital",
-      "description": "Oscilloscopes na ajiya na dijital mai ci gaba don nazarin waveform da auna sigina. Babban bandwidth, saurin samfurin sauri, da ayyukan aunawa masu yawa tare da hanyoyin sadarwa na touchscreen da iyawar nazarin data."
-    },
-    "mixedSignalOscilloscopes": {
-      "title": "Oscilloscopes na Gudanar da Gudanarwa",
-      "description": "Oscilloscopes na gauraye mai ci gaba suna haɗa tashoshin analog da dijital don cikakken nazarin sigina. Kamawa lokaci guda na waveform na analog da yanayin dabaru na dijital tare da ɓatar da ka'ida da iyawar jawo mai ci gaba."
-    },
-    "portableOscilloscopes": {
-      "title": "Oscilloscopes masu ɗaukar nauyi",
-      "description": "Ƙananan oscilloscopes na hannu don ma'aunin filin da aikace-aikacen wayar hannu. Aikin da ake amfani da baturi tare da ginin ƙarfi, ma'aunin mota, da iyawar sa ido mai nisa."
-    },
     "rfSpectrumAnalyzers": {
       "title": "RF Spectrum Analyzers",
       "description": "Babban aikin RF da microwave spectrum analyzers don gwajin sadarwa mara waya, bin EMC, da nazarin sigina. Faɗin mitar ɗaukar hoto tare da kyakkyawan kewayon ƙarfi da saurin aunawa."
