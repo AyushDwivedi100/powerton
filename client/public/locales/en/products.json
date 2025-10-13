@@ -521,10 +521,6 @@
       "title": "Multimeters",
       "description": "Digital and analog multimeters for electrical testing"
     },
-    "oscilloscopes": {
-      "title": "Oscilloscopes",
-      "description": "Digital oscilloscopes for signal analysis and testing"
-    },
     "spectrum-analyzers": {
       "title": "Spectrum Analyzers",
       "description": "RF and microwave spectrum analysis equipment"
@@ -1089,10 +1085,6 @@
     "multimeters": {
       "title": "Multimeters",
       "subtitle": "Digital and analog multimeters for electrical testing"
-    },
-    "oscilloscopes": {
-      "title": "Oscilloscopes",
-      "subtitle": "Digital oscilloscopes for signal analysis and testing"
     },
     "plcs": {
       "title": "PLCs (Programmable Logic Controllers)",
@@ -2494,18 +2486,6 @@
     "milliampereSourceMeters": {
       "title": "Milliampere Source Meters",
       "description": "Precision milliampere loop calibrators and current source meters for 4-20mA process control loop testing and calibration. Professional instruments providing accurate mA sourcing and measurement with built-in 24V loop power supply for 2-wire transmitter simulation. Features include simultaneous source and measure capability, auto-stepping functions for linearity testing, HART communication compatibility, ramp functions for valve testing, and clamp-on designs that eliminate loop breaking. Essential for troubleshooting and calibrating process instrumentation in industrial automation systems."
-    },
-    "digitalOscilloscopes": {
-      "title": "Digital Oscilloscopes",
-      "description": "Advanced digital storage oscilloscopes for waveform analysis and signal measurement. High bandwidth, fast sampling rates, and comprehensive measurement functions with touchscreen interfaces and data analysis capabilities."
-    },
-    "mixedSignalOscilloscopes": {
-      "title": "Mixed Signal Oscilloscopes",
-      "description": "Advanced mixed signal oscilloscopes combining analog and digital channels for comprehensive signal analysis. Simultaneous analog waveform and digital logic state capture with protocol decoding and advanced triggering capabilities."
-    },
-    "portableOscilloscopes": {
-      "title": "Portable Oscilloscopes",
-      "description": "Compact handheld oscilloscopes for field measurements and mobile applications. Battery-powered operation with rugged construction, automotive measurements, and remote monitoring capabilities."
     },
     "rfSpectrumAnalyzers": {
       "title": "RF Spectrum Analyzers",

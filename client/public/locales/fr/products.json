@@ -521,10 +521,6 @@
       "title": "Multimètres",
       "description": "Multimètres numériques et analogiques pour les tests électriques"
     },
-    "oscilloscopes": {
-      "title": "Oscilloscopes",
-      "description": "Oscilloscopes numériques pour l'analyse et les tests de signaux"
-    },
     "spectrum-analyzers": {
       "title": "Analyseurs de spectre",
       "description": "Équipement d'analyse du spectre RF et micro-ondes"
@@ -1089,10 +1085,6 @@
     "multimeters": {
       "title": "Multimètres",
       "subtitle": "Multimètres numériques et analogiques pour les tests électriques"
-    },
-    "oscilloscopes": {
-      "title": "Oscilloscopes",
-      "subtitle": "Oscilloscopes numériques pour l'analyse et les tests de signaux"
     },
     "plcs": {
       "title": "PLC (Automates Programmables Industriels)",

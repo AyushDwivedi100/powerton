@@ -426,10 +426,6 @@
       "title": "万用表",
       "description": "用于电气测试的数字和模拟万用表"
     },
-    "oscilloscopes": {
-      "title": "示波器",
-      "description": "用于信号分析和测试的数字示波器"
-    },
     "spectrum-analyzers": {
       "title": "频谱分析仪",
       "description": "射频和微波频谱分析设备"
@@ -993,10 +989,6 @@
       "multimeters": {
         "title": "万用表",
         "subtitle": "用于电气测试的数字和模拟万用表"
-      },
-      "oscilloscopes": {
-        "title": "示波器",
-        "subtitle": "用于信号分析和测试的数字示波器"
       },
       "plcs": {
         "title": "PLC（可编程逻辑控制器）",
