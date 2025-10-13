@@ -33,13 +33,13 @@ export interface ProductGroup {
   subcategoryKey: string;
   image: string;
   icon?: string;
-  featuredSpecs?: string[]; // Key specs to show in table columns
+  featuredSpecs?: string[];
 }
 
 export interface SubCategory {
   key: string;
   translationKey: string;
-  products: string[]; // Array of product IDs
+  products: string[];
 }
 
 export interface Category {
@@ -20704,11 +20704,9 @@ export const categories: Category[] = [
         key: "sensors-transducers",
         translationKey: "products:subcategories.sensors",
         products: [
-          // proximity sensors
           "sick-im12-04bps-zw1",
           "omron-e2e-x5me1-m1",
           "balluff-bes-m18mi-psc50b",
-          // photoelectric sensors
           "sick-w10-2-retro",
           "omron-e3z-t61-photoelectric",
           "balluff-bos-r254k-diffuse",
@@ -20718,41 +20716,33 @@ export const categories: Category[] = [
         key: "transmitters-flow-meters",
         translationKey: "products:subcategories.transmitters",
         products: [
-          // DP Type Transmitters
           "rosemount-3051cd-dp-transmitter",
           "endress-hauser-deltabar-pmd75-dp",
           "yokogawa-eja110e-dp-transmitter",
           "honeywell-stt950-dp-transmitter",
-          // P Type Transmitters
           "siemens-sitrans-p320-pressure",
           "abb-2600t-series-pressure",
           "wika-a10-pressure-transmitter",
           "fuji-fcx-aii-pressure",
-          // RS Type Transmitters
           "rosemount-3051s-remote-seal",
           "endress-hauser-cerabar-s-remote",
           "yokogawa-eja430e-remote-seal",
           "honeywell-stt850-remote-seal",
-          // Magnetic Flow Meters
           "endress-hauser-promag-w400",
           "rosemount-8750w-magnetic-flowmeter",
           "abb-procesmaster-fem300",
           "yokogawa-admag-axf-magnetic",
-          // Mass Flow Meters
           "emerson-micro-motion-cmf300",
           "endress-hauser-promass-83f",
           "abb-sensyflow-cmf300",
           "yokogawa-rotamass-rccs33",
-          // Vortex Flow Meters
           "endress-hauser-prowirl-f200",
           "rosemount-8800d-vortex",
           "yokogawa-digitalyewflo-avf",
           "abb-swirl-meter-fsv450",
-          // Volumetric Flow Meters
           "endress-hauser-proline-t-mass-83a",
           "sierra-instruments-640s-mass",
           "bronkhorst-in-flow-f230",
-          // PD Flow Meters
           "oval-flowpet-lsf41",
           "badger-meter-m1000",
           "krohne-bm100-pd-meter",
@@ -20763,16 +20753,12 @@ export const categories: Category[] = [
         key: "switches-indicators",
         translationKey: "products:subcategories.switches",
         products: [
-          // Pressure Switches
           "danfoss-kp36",
           "schneider-9013fsg2j24m4",
-          // Level Switches
           "endress-ftl31",
           "abb-ls-series",
-          // Limit Switches
           "omron-wlca12-y",
           "schneider-xcmd21f0l1",
-          // Push Buttons
           "schneider-xb4ba21",
           "eaton-m22-dr-r",
         ],
@@ -20781,13 +20767,10 @@ export const categories: Category[] = [
         key: "valves-actuators",
         translationKey: "products:subcategories.valves",
         products: [
-          // Control Valves
           "fisher-ed-control-valve",
           "samson-3241-globe-valve",
-          // Solenoid Valves
           "asco-8262h112dc24",
           "parker-s4a-solenoid-valve",
-          // On/Off Valves
           "fisher-v150-vee-ball-valve",
           "fisher-v280-ball-valve",
           "flowserve-worcester-f519-ball-valve",
@@ -20803,33 +20786,25 @@ export const categories: Category[] = [
           "analyzer-gas-chromatography-spectrometry",
           "analyzer-liquid-ph-conductivity",
           "analyzer-oxygen-carbon-dioxide",
-          // Oxygen Gas Analyzers
           "systech-ec900-oxygen-analyzer",
           "panametrics-xmo2pro-oxygen-analyzer",
           "endress-hauser-oxy5500-analyzer",
-          // Nitrogen Gas Analyzers
           "leco-onh836-nitrogen-analyzer",
           "horiba-emga-nitrogen-analyzer",
-          // Hydrogen Gas Analyzers
           "nova-h2-thermal-conductivity-analyzer",
           "endress-hauser-ss2100-hydrogen-analyzer",
-          // Carbon Dioxide Gas Analyzers
           "endress-hauser-ss2100-co2-analyzer",
           "nova-multi-gas-co2-analyzer",
-          // COD Analyzers
           "hach-ez-series-cod-analyzer",
           "mantech-pecod-l50-analyzer",
           "lar-quickcodlab-analyzer",
-          // BOD Analyzers
           "mantech-am400-bod-analyzer",
           "hach-bodtrak-ii-analyzer",
           "ysi-2900-bod-analyzer",
-          // Process Analyzers - Real Products
           "siemens-siprocess-ga700",
           "siemens-ultramat-23",
           "abb-ao2020-laser-analyzer",
           "yokogawa-gc8000-gas-chromatograph",
-          // Gas Analyzers - Real Products
           "emerson-ct5800-gas-analyzer",
           "emerson-ct4400-nox-analyzer",
           "thermofisher-43iq-so2-analyzer",
@@ -20838,7 +20813,6 @@ export const categories: Category[] = [
           "siemens-oxymat-6-oxygen-analyzer",
           "abb-easyline-clo2-analyzer",
           "yokogawa-zr402g-oxygen-analyzer",
-          // Liquid Analyzers - Real Products
           "hach-nh6000sc-ammonia-analyzer",
           "hach-phosphax-sc-analyzer",
           "hach-cl17sc-chlorine-analyzer",

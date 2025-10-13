@@ -16,7 +16,7 @@ export default function ProjectsSection() {
     "power-distribution-demo",
   ];
   const projects = PROJECTS.filter((project) =>
-    featuredProjectIds.includes(project.id)
+    featuredProjectIds.includes(project.id),
   );
   const categoryColors = {
     "Power Systems": "bg-secondary/10 text-secondary",
@@ -118,7 +118,7 @@ export default function ProjectsSection() {
                             className="text-xs bg-primary/10 text-primary px-2 py-1 rounded group-hover:text-foreground transition-colors"
                           >
                             {t(
-                              `common:projects.${project.id}.highlights.${translationKey}`
+                              `common:projects.${project.id}.highlights.${translationKey}`,
                             )}
                           </span>
                         );
@@ -136,7 +136,7 @@ export default function ProjectsSection() {
                         <span className="font-medium">
                           {t(
                             `common:projects.${project.id}.location`,
-                            project.location
+                            project.location,
                           )}
                         </span>
                       </span>
@@ -148,22 +148,11 @@ export default function ProjectsSection() {
                         <span className="font-medium">
                           {t(
                             `common:projects.${project.id}.duration`,
-                            project.duration
+                            project.duration,
                           )}
                         </span>
                       </span>
                     </div>
-                    <Link href="/projects" className="group/button">
-                      <Button
-                        variant="ghost"
-                        className="text-secondary hover:text-secondary hover:bg-transparent font-semibold transition-all duration-300"
-                      >
-                        {t("pages:home.projects.viewDetails")}
-                        <span className="ml-2 transform group-hover:translate-x-2 transition-transform duration-300">
-                          →
-                        </span>{" "}
-                      </Button>
-                    </Link>
                   </div>
                 </CardContent>
               </Card>

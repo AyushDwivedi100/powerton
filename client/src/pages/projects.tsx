@@ -137,13 +137,13 @@ export default function Projects() {
   const filterOptions = getFilterOptions(t);
   const [searchTerm, setSearchTerm] = useState("");
   const [selectedIndustry, setSelectedIndustry] = useState(
-    filterOptions.industries[0].id
+    filterOptions.industries[0].id,
   );
   const [selectedCategory, setSelectedCategory] = useState(
-    filterOptions.categories[0].id
+    filterOptions.categories[0].id,
   );
   const [selectedStatus, setSelectedStatus] = useState(
-    filterOptions.statuses[0].id
+    filterOptions.statuses[0].id,
   );
   const [showFilters, setShowFilters] = useState(false);
   const [selectedTab, setSelectedTab] = useState("showcase");
@@ -225,7 +225,7 @@ export default function Projects() {
         icon: Target,
       },
     ],
-    [i18n.resolvedLanguage, ready]
+    [i18n.resolvedLanguage, ready],
   );
 
   return (
@@ -248,7 +248,7 @@ export default function Projects() {
       <section
         className={`relative hero-fullscreen overflow-hidden ${getAnimationClass(
           "fade-in-up",
-          true
+          true,
         )}`}
       >
         <div
@@ -268,7 +268,7 @@ export default function Projects() {
             <p className="text-lg md:text-xl lg:text-2xl mb-6 sm:mb-8 opacity-90 max-w-3xl mx-auto text-wrap-safe">
               {t(
                 "pages:projects.hero.subtitle",
-                "Discover our engineering excellence through 1200+ successful projects across diverse industries, showcasing innovation, quality, and reliability."
+                "Discover our engineering excellence through 1200+ successful projects across diverse industries, showcasing innovation, quality, and reliability.",
               )}
             </p>
             <div className="flex flex-col sm:flex-row justify-center gap-3 sm:gap-4">
@@ -293,7 +293,7 @@ export default function Projects() {
       <section
         className={`py-12 md:py-16 lg:py-20 bg-muted/30 ${getAnimationClass(
           "fade-in-up",
-          true
+          true,
         )}`}
       >
         <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8">
@@ -329,7 +329,7 @@ export default function Projects() {
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
               {t(
                 "pages:projects.portfolioDescription",
-                "Explore our engineering capabilities through demonstration projects showcasing innovative solutions across various industries. Real project portfolio coming soon."
+                "Explore our engineering capabilities through demonstration projects showcasing innovative solutions across various industries. Real project portfolio coming soon.",
               )}
             </p>
           </div>
@@ -408,7 +408,7 @@ export default function Projects() {
                           <SelectTrigger className="w-full">
                             <SelectValue
                               placeholder={t(
-                                "common:placeholders.selectIndustryFilter"
+                                "common:placeholders.selectIndustryFilter",
                               )}
                             />
                           </SelectTrigger>
@@ -432,7 +432,7 @@ export default function Projects() {
                           <SelectTrigger className="w-full">
                             <SelectValue
                               placeholder={t(
-                                "common:placeholders.selectCategory"
+                                "common:placeholders.selectCategory",
                               )}
                             />
                           </SelectTrigger>
@@ -456,7 +456,7 @@ export default function Projects() {
                           <SelectTrigger className="w-full">
                             <SelectValue
                               placeholder={t(
-                                "common:placeholders.selectStatus"
+                                "common:placeholders.selectStatus",
                               )}
                             />
                           </SelectTrigger>
@@ -529,7 +529,7 @@ export default function Projects() {
                         <CardContent className="p-0 space-y-5">
                           <p className="text-base text-muted-foreground line-clamp-3 leading-relaxed">
                             {t(
-                              `pages:projects.items.${project.id}.description`
+                              `pages:projects.items.${project.id}.description`,
                             )}
                           </p>
 
@@ -539,7 +539,7 @@ export default function Projects() {
                                 <MapPin className="w-4 h-4" />
                                 <span>
                                   {t(
-                                    `pages:projects.items.${project.id}.location`
+                                    `pages:projects.items.${project.id}.location`,
                                   )}
                                 </span>
                               </div>
@@ -555,7 +555,7 @@ export default function Projects() {
                                   {t(
                                     `pages:projects.statuses.${project.status
                                       .toLowerCase()
-                                      .replace(/\s+/g, "")}`
+                                      .replace(/\s+/g, "")}`,
                                   )}
                                 </span>
                               </div>
@@ -566,7 +566,7 @@ export default function Projects() {
                                 <Calendar className="w-4 h-4" />
                                 <span>
                                   {t(
-                                    `pages:projects.items.${project.id}.duration`
+                                    `pages:projects.items.${project.id}.duration`,
                                   )}
                                 </span>
                               </div>
@@ -583,7 +583,7 @@ export default function Projects() {
                                 {t(
                                   `pages:projects.categories.${project.category
                                     .toLowerCase()
-                                    .replace(/\s+/g, "")}`
+                                    .replace(/\s+/g, "")}`,
                                 )}
                               </Badge>
                               <Badge
@@ -604,7 +604,7 @@ export default function Projects() {
                                   {t(
                                     `pages:projects.technologies.${tech
                                       .toLowerCase()
-                                      .replace(/\s+/g, "")}`
+                                      .replace(/\s+/g, "")}`,
                                   )}
                                 </Badge>
                               ))}
@@ -616,7 +616,7 @@ export default function Projects() {
                                   {t(
                                     "pages:projects.moreItems",
                                     "+{{count}} more",
-                                    { count: project.technologies.length - 3 }
+                                    { count: project.technologies.length - 3 },
                                   )}
                                 </Badge>
                               )}
@@ -680,7 +680,7 @@ export default function Projects() {
                           </div>
                           <p className="text-base text-muted-foreground mb-6 leading-relaxed">
                             {t(
-                              `pages:projects.items.${project.id}.description`
+                              `pages:projects.items.${project.id}.description`,
                             )}
                           </p>
 
@@ -699,10 +699,10 @@ export default function Projects() {
                                     {t(
                                       `pages:projects.highlights.${highlight
                                         .toLowerCase()
-                                        .replace(/\s+/g, "")}`
+                                        .replace(/\s+/g, "")}`,
                                     )}
                                   </Badge>
-                                )
+                                ),
                               )}
                             </div>
                           </div>
@@ -712,7 +712,7 @@ export default function Projects() {
                               <MapPin className="w-5 h-5 flex-shrink-0 mt-0.5" />
                               <span className="leading-relaxed text-base">
                                 {t(
-                                  `pages:projects.items.${project.id}.location`
+                                  `pages:projects.items.${project.id}.location`,
                                 )}
                               </span>
                             </div>
@@ -720,25 +720,15 @@ export default function Projects() {
                               <TrendingUp className="w-5 h-5 flex-shrink-0 mt-0.5" />
                               <span className="leading-relaxed text-base">
                                 {t(
-                                  `pages:projects.items.${project.id}.duration`
+                                  `pages:projects.items.${project.id}.duration`,
                                 )}
                               </span>
                             </div>
                           </div>
-                          <Button
-                            variant="ghost"
-                            className="text-secondary hover:bg-transparent hover:text-secondary p-0 font-semibold transition-all duration-300 w-full justify-center"
-                          >
-                            {t("common:buttons.learnMore")}
-                            <span className="ms-2 inline-block transition-transform duration-300 group-hover:translate-x-2 rtl:group-hover:-translate-x-2">
-                              <span className="ltr:inline rtl:hidden">→</span>
-                              <span className="ltr:hidden rtl:inline">←</span>
-                            </span>
-                          </Button>
                         </CardContent>
                       </Card>
                     </motion.div>
-                  )
+                  ),
                 )}
               </div>
             </TabsContent>
