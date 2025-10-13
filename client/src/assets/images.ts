@@ -1569,21 +1569,6 @@ export const PRODUCT_IMAGES = {
     alt: `${IMAGE_IDS.MEASUREMENT_INSTRUMENTS}: Bench multimeter - Laboratory grade measurement`,
     id: IMAGE_IDS.MEASUREMENT_INSTRUMENTS,
   },
-  "digital-oscilloscope": {
-    src: measurementInstrumentsImage,
-    alt: `${IMAGE_IDS.MEASUREMENT_INSTRUMENTS}: Digital oscilloscope - Signal analysis instrument`,
-    id: IMAGE_IDS.MEASUREMENT_INSTRUMENTS,
-  },
-  "mixed-signal-oscilloscope": {
-    src: measurementInstrumentsImage,
-    alt: `${IMAGE_IDS.MEASUREMENT_INSTRUMENTS}: Mixed signal oscilloscope - Analog and digital analysis`,
-    id: IMAGE_IDS.MEASUREMENT_INSTRUMENTS,
-  },
-  "portable-oscilloscope": {
-    src: measurementInstrumentsImage,
-    alt: `${IMAGE_IDS.MEASUREMENT_INSTRUMENTS}: Portable oscilloscope - Field measurement scope`,
-    id: IMAGE_IDS.MEASUREMENT_INSTRUMENTS,
-  },
   "rf-spectrum-analyzer": {
     src: measurementInstrumentsImage,
     alt: `${IMAGE_IDS.MEASUREMENT_INSTRUMENTS}: RF spectrum analyzer - Radio frequency analysis`,
