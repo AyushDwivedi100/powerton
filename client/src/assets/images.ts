@@ -76,10 +76,16 @@ import retroreflectiveSensorImage from "@assets/generated_images/Retroreflective
 // VFD product images
 import abbAcs355Image from "@assets/generated_images/ABB_ACS355_VFD_product_fa9d5e0b.png";
 import siemensG120cImage from "@assets/generated_images/Siemens_G120C_VFD_product_ee5db277.png";
+import danfossVltImage from "@assets/generated_images/Danfoss_VLT_VFD_product_00a61361.png";
+import allenBradleyPowerFlexImage from "@assets/generated_images/Allen-Bradley_PowerFlex_VFD_product_9f1515af.png";
+import schneiderAltivarImage from "@assets/generated_images/Schneider_Altivar_VFD_product_f7861776.png";
 
 // Centrifugal pump product images
 import grundfosCrPumpImage from "@assets/generated_images/Grundfos_CR_centrifugal_pump_bea3dfe1.png";
 import ksbEtanormPumpImage from "@assets/generated_images/KSB_Etanorm_centrifugal_pump_d5694450.png";
+import flowserveDurcoPumpImage from "@assets/generated_images/Flowserve_Durco_chemical_pump_5d0bbc90.png";
+import sulzerCptPumpImage from "@assets/generated_images/Sulzer_CPT_process_pump_ab4228ad.png";
+import xylemGouldsPumpImage from "@assets/generated_images/Xylem_Goulds_industrial_pump_6220826e.png";
 
 // Transmitter and flow meter images - using generated images as fallbacks
 const dpTransmitterImage = smartPressureTransmitterImage;
@@ -360,6 +366,20 @@ export const IMAGE_IDS = {
   // Specific manufacturer product images (ID-945+)
   ABB_SWIRL_METER_FSV450: "ID-945",
   ENDRESS_HAUSER_PROWIRL_F200: "ID-946",
+
+  // VFD/Drive manufacturer specific images (ID-1021 to ID-1025)
+  ABB_ACS355_VFD: "ID-1021",
+  SIEMENS_G120C_VFD: "ID-1022",
+  DANFOSS_VLT_VFD: "ID-1023",
+  ALLEN_BRADLEY_POWERFLEX_VFD: "ID-1024",
+  SCHNEIDER_ALTIVAR_VFD: "ID-1025",
+
+  // Centrifugal Pump manufacturer specific images (ID-1026 to ID-1030)
+  GRUNDFOS_CR_PUMP: "ID-1026",
+  KSB_ETANORM_PUMP: "ID-1027",
+  FLOWSERVE_DURCO_PUMP: "ID-1028",
+  SULZER_CPT_PUMP: "ID-1029",
+  XYLEM_GOULDS_PUMP: "ID-1030",
 
   // New stock images - Pressure Transmitters (ID-947 to ID-952)
   PRESSURE_TRANSMITTER_1: "ID-947",
@@ -1941,13 +1961,28 @@ export const PRODUCT_IMAGES = {
   },
   "abb-acs355-drive": {
     src: abbAcs355Image,
-    alt: "ABB ACS355 - Compact general purpose AC drive",
-    id: IMAGE_IDS.GENERATED + 1,
+    alt: `${IMAGE_IDS.ABB_ACS355_VFD}: ABB ACS355 - Compact general purpose AC drive`,
+    id: IMAGE_IDS.ABB_ACS355_VFD,
   },
   "siemens-g120c-drive": {
     src: siemensG120cImage,
-    alt: "Siemens G120C - Variable frequency drive",
-    id: IMAGE_IDS.GENERATED + 2,
+    alt: `${IMAGE_IDS.SIEMENS_G120C_VFD}: Siemens G120C - Variable frequency drive`,
+    id: IMAGE_IDS.SIEMENS_G120C_VFD,
+  },
+  "danfoss-vlt-drive": {
+    src: danfossVltImage,
+    alt: `${IMAGE_IDS.DANFOSS_VLT_VFD}: Danfoss VLT AutomationDrive - Industrial AC drive`,
+    id: IMAGE_IDS.DANFOSS_VLT_VFD,
+  },
+  "allen-bradley-powerflex-drive": {
+    src: allenBradleyPowerFlexImage,
+    alt: `${IMAGE_IDS.ALLEN_BRADLEY_POWERFLEX_VFD}: Allen-Bradley PowerFlex 525 - Variable frequency drive`,
+    id: IMAGE_IDS.ALLEN_BRADLEY_POWERFLEX_VFD,
+  },
+  "schneider-altivar-drive": {
+    src: schneiderAltivarImage,
+    alt: `${IMAGE_IDS.SCHNEIDER_ALTIVAR_VFD}: Schneider Altivar ATV320 - Compact AC drive`,
+    id: IMAGE_IDS.SCHNEIDER_ALTIVAR_VFD,
   },
 
   // Gas Analyzers
@@ -2230,6 +2265,21 @@ export const PRODUCT_IMAGES = {
     src: ksbEtanormPumpImage,
     alt: `${IMAGE_IDS.KSB_ETANORM_PUMP}: KSB Etanorm pump - Horizontal centrifugal pump`,
     id: IMAGE_IDS.KSB_ETANORM_PUMP,
+  },
+  "flowserve-durco-pump": {
+    src: flowserveDurcoPumpImage,
+    alt: `${IMAGE_IDS.FLOWSERVE_DURCO_PUMP}: Flowserve Durco Mark 3 - Chemical process centrifugal pump`,
+    id: IMAGE_IDS.FLOWSERVE_DURCO_PUMP,
+  },
+  "sulzer-cpt-pump": {
+    src: sulzerCptPumpImage,
+    alt: `${IMAGE_IDS.SULZER_CPT_PUMP}: Sulzer CPT pump - Process centrifugal pump`,
+    id: IMAGE_IDS.SULZER_CPT_PUMP,
+  },
+  "xylem-goulds-pump": {
+    src: xylemGouldsPumpImage,
+    alt: `${IMAGE_IDS.XYLEM_GOULDS_PUMP}: Xylem Goulds 3196 - Heavy duty industrial centrifugal pump`,
+    id: IMAGE_IDS.XYLEM_GOULDS_PUMP,
   },
 
   // Heating Elements

@@ -9499,7 +9499,7 @@ export const products: Product[] = [
     slug: "flowserve-durco-mark3-chemical-pump",
     categoryKey: "mechanical-pumps-spares",
     subcategoryKey: "centrifugal-pumps",
-    image: "centrifugal-pumps",
+    image: "flowserve-durco-pump",
     specs: {
       manufacturer: "Flowserve",
       model: "Durco Mark 3",
@@ -9620,7 +9620,7 @@ export const products: Product[] = [
     categoryKey: "mechanical-pumps-spares",
     subcategoryKey: "centrifugal-pumps",
     typeKey: "centrifugal-pumps",
-    image: "centrifugal-pump-2",
+    image: "sulzer-cpt-pump",
     specs: {
       manufacturer: "Sulzer",
       model: "CPT 100-250",
@@ -9648,7 +9648,7 @@ export const products: Product[] = [
     categoryKey: "mechanical-pumps-spares",
     subcategoryKey: "centrifugal-pumps",
     typeKey: "centrifugal-pumps",
-    image: "centrifugal-pump-3",
+    image: "xylem-goulds-pump",
     specs: {
       manufacturer: "Xylem",
       model: "Goulds 3196",
@@ -16604,7 +16604,7 @@ export const products: Product[] = [
     categoryKey: "automation-control-systems",
     subcategoryKey: "drives",
     typeKey: "vfds",
-    image: "vfd-1",
+    image: "danfoss-vlt-drive",
     title: "Danfoss VLT AutomationDrive FC 302 2.2kW",
     description:
       "Danfoss VLT AutomationDrive FC 302 with 2.2 kW power rating. Advanced motor control with built-in PLC functionality, multiple communication protocols, and energy optimization features for HVAC and industrial applications.",
@@ -16633,7 +16633,7 @@ export const products: Product[] = [
     categoryKey: "automation-control-systems",
     subcategoryKey: "drives",
     typeKey: "vfds",
-    image: "vfd-2",
+    image: "allen-bradley-powerflex-drive",
     title: "Allen-Bradley PowerFlex 525 3HP VFD",
     description:
       "Allen-Bradley PowerFlex 525 AC drive with 3 HP (2.2 kW) rating. Compact design with embedded EtherNet/IP, USB programming, and enhanced motor control. Ideal for OEM machines and basic industrial applications.",
@@ -16662,7 +16662,7 @@ export const products: Product[] = [
     categoryKey: "electrical-components",
     subcategoryKey: "ac-drives",
     typeKey: "ac-drives-general-purpose",
-    image: "vfd-3",
+    image: "schneider-altivar-drive",
     title: "Schneider Electric Altivar ATV320 2.2kW",
     description:
       "Schneider Electric Altivar ATV320 variable speed drive with 2.2 kW power rating. Compact book-style design with embedded functions for pumps and fans, Modbus and CANopen communication, and IP20/IP21 protection.",
