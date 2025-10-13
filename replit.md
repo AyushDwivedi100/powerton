@@ -6,15 +6,18 @@ This project is a React-based business website for Powerton Engineering Pvt. Ltd
 ## User Preferences
 - Clean, professional design appropriate for industrial/engineering business
 - Multi-language support for international clients
-- Mobile-responsive design for accessibility
+- Mobile-responsive design for accessibility (WCAG 2.1 Level AA compliant)
 - Fast loading times with optimized assets
+- Bulletproof responsiveness at every corner across all devices
+- Comprehensive ARIA labels for excellent screen reader support
 
 ## System Architecture
 The website's frontend is developed using React 18, TypeScript, and Vite. Styling is managed with Tailwind CSS and shadcn/ui, leveraging Radix UI components. Client-side routing is handled by Wouter, and i18next provides internationalization support for over 10 languages. Framer Motion is used for animations.
 
 **Key Features:**
 - **Multi-language Support:** Over 10 languages are supported through i18next.
-- **Responsive Design:** Optimized for all devices.
+- **Responsive Design:** Bulletproof responsiveness optimized for all devices (320px-4K screens) using Tailwind's responsive utilities with supplementary CSS classes for edge cases.
+- **Accessibility (WCAG 2.1 AA):** Comprehensive ARIA labels, skip-to-main-content link, enhanced focus indicators, semantic HTML5 landmarks, and keyboard navigation support.
 - **Product Catalog:** Features 520 products across various categories with detailed product pages, including modern glassmorphism design, scroll animations, AI-generated/stock images, and a three-column layout for specifications, applications, and industries.
 - **Services & Projects Showcase:** Dedicated sections for company services and past projects.
 - **Contact & Quote Forms:** Functionality for inquiries and quote requests.
