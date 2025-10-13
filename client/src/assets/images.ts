@@ -73,6 +73,14 @@ import safetyProximitySensorImage from "@assets/generated_images/Safety_proximit
 import laserPhotoelectricSensorImage from "@assets/generated_images/Laser_photoelectric_sensor_precision_6899d990.png";
 import retroreflectiveSensorImage from "@assets/generated_images/Retroreflective_sensor_cubic_design_b1a7d7ab.png";
 
+// VFD product images
+import abbAcs355Image from "@assets/generated_images/ABB_ACS355_VFD_product_fa9d5e0b.png";
+import siemensG120cImage from "@assets/generated_images/Siemens_G120C_VFD_product_ee5db277.png";
+
+// Centrifugal pump product images
+import grundfosCrPumpImage from "@assets/generated_images/Grundfos_CR_centrifugal_pump_bea3dfe1.png";
+import ksbEtanormPumpImage from "@assets/generated_images/KSB_Etanorm_centrifugal_pump_d5694450.png";
+
 // Transmitter and flow meter images - using generated images as fallbacks
 const dpTransmitterImage = smartPressureTransmitterImage;
 const pTypeTransmitterImage = pressureTransmitterImage;
@@ -184,31 +192,7 @@ const heatingElement1 = industrialToolsImage;
 const heatingElement2 = industrialToolsImage;
 const heatingElement3 = industrialToolsImage;
 
-// Real product stock images from manufacturers
-import abbAcs355DriveImage1 from "@assets/stock_images/abb_acs355_variable__23aa1c2f.jpg";
-import abbAcs355DriveImage2 from "@assets/stock_images/abb_acs355_variable__139049de.jpg";
-import siemensG120cDriveImage1 from "@assets/stock_images/siemens_g120c_variab_424f1163.jpg";
-import siemensG120cDriveImage2 from "@assets/stock_images/siemens_g120c_variab_9e82745a.jpg";
-import grundfosCrPumpImage1 from "@assets/stock_images/grundfos_cr_centrifu_76316702.jpg";
-import grundfosCrPumpImage2 from "@assets/stock_images/grundfos_cr_centrifu_4fd820ec.jpg";
-import ksbEtanormPumpImage1 from "@assets/stock_images/ksb_etanorm_centrifu_c069fa17.jpg";
-import ksbEtanormPumpImage2 from "@assets/stock_images/ksb_etanorm_centrifu_969fb3c5.jpg";
-import beldenCableImage1 from "@assets/stock_images/belden_industrial_co_4463b087.jpg";
-import beldenCableImage2 from "@assets/stock_images/belden_industrial_co_3fbc918d.jpg";
-import lappKabelImage1 from "@assets/stock_images/lapp_kabel_ölflex_co_2a664bfc.jpg";
-import lappKabelImage2 from "@assets/stock_images/lapp_kabel_ölflex_co_9f0fc56d.jpg";
-import tektronixOscilloscopeImage1 from "@assets/stock_images/tektronix_tbs2000_di_ecc0d0f8.jpg";
-import tektronixOscilloscopeImage2 from "@assets/stock_images/tektronix_tbs2000_di_68d2c63b.jpg";
-import keysightOscilloscopeImage1 from "@assets/stock_images/keysight_infiniivisi_03d1892b.jpg";
-import keysightOscilloscopeImage2 from "@assets/stock_images/keysight_infiniivisi_7a64532b.jpg";
-import hachBodAnalyzerImage1 from "@assets/stock_images/hach_bod_analyzer_wa_a66659d9.jpg";
-import hachBodAnalyzerImage2 from "@assets/stock_images/hach_bod_analyzer_wa_50808747.jpg";
-import codAnalyzerImage1 from "@assets/stock_images/cod_analyzer_water_q_3ac177ed.jpg";
-import codAnalyzerImage2 from "@assets/stock_images/cod_analyzer_water_q_4907eac4.jpg";
-import schneiderContactorImage1 from "@assets/stock_images/schneider_electric_l_e69ff4d4.jpg";
-import schneiderContactorImage2 from "@assets/stock_images/schneider_electric_l_5a396862.jpg";
-import abbAfContactorImage1 from "@assets/stock_images/abb_af_contactor_ele_03b100be.jpg";
-import abbAfContactorImage2 from "@assets/stock_images/abb_af_contactor_ele_098d7269.jpg";
+// Real product images will be generated based on manufacturer specifications
 
 // Circuit breaker images
 import rccbImage from "@assets/generated_images/RCCB_industrial_electrical_device_7d6444e2.png";
@@ -494,6 +478,13 @@ export const IMAGE_IDS = {
   HEATING_ELEMENT_1: "ID-1016",
   HEATING_ELEMENT_2: "ID-1017",
   HEATING_ELEMENT_3: "ID-1018",
+
+  // Centrifugal Pump Products (ID-1019 to ID-1020)
+  GRUNDFOS_CR_PUMP: "ID-1019",
+  KSB_ETANORM_PUMP: "ID-1020",
+
+  // Generated Images (ID-1021+)
+  GENERATED: "ID-GENERATED",
 } as const;
 
 // Next available ID tracker
@@ -504,7 +495,7 @@ export const NEXT_AVAILABLE_IDS = {
   PRODUCTS: 50,
   PROJECTS: 101,
   HERO: 864,
-  GENERATED: 1019,
+  GENERATED: 1021,
 } as const;
 
 // Product images mapping
@@ -1948,6 +1939,16 @@ export const PRODUCT_IMAGES = {
     alt: `${IMAGE_IDS.VFD_3}: VFD - Industrial motor drive system`,
     id: IMAGE_IDS.VFD_3,
   },
+  "abb-acs355-drive": {
+    src: abbAcs355Image,
+    alt: "ABB ACS355 - Compact general purpose AC drive",
+    id: IMAGE_IDS.GENERATED + 1,
+  },
+  "siemens-g120c-drive": {
+    src: siemensG120cImage,
+    alt: "Siemens G120C - Variable frequency drive",
+    id: IMAGE_IDS.GENERATED + 2,
+  },
 
   // Gas Analyzers
   "gas-analyzer-1": {
@@ -2220,6 +2221,16 @@ export const PRODUCT_IMAGES = {
     alt: `${IMAGE_IDS.CENTRIFUGAL_PUMP_3}: Centrifugal pump - Process pump equipment`,
     id: IMAGE_IDS.CENTRIFUGAL_PUMP_3,
   },
+  "grundfos-cr-pump": {
+    src: grundfosCrPumpImage,
+    alt: `${IMAGE_IDS.GRUNDFOS_CR_PUMP}: Grundfos CR pump - Vertical multistage centrifugal pump`,
+    id: IMAGE_IDS.GRUNDFOS_CR_PUMP,
+  },
+  "ksb-etanorm-pump": {
+    src: ksbEtanormPumpImage,
+    alt: `${IMAGE_IDS.KSB_ETANORM_PUMP}: KSB Etanorm pump - Horizontal centrifugal pump`,
+    id: IMAGE_IDS.KSB_ETANORM_PUMP,
+  },
 
   // Heating Elements
   "heating-element-1": {
@@ -2238,77 +2249,6 @@ export const PRODUCT_IMAGES = {
     id: IMAGE_IDS.HEATING_ELEMENT_3,
   },
 
-  // Real manufacturer product images - AC Drives & VFDs
-  "abb-acs355-drive": {
-    src: abbAcs355DriveImage1,
-    alt: "ABB ACS355 Variable Frequency Drive - Compact general purpose AC drive 0.37-22kW",
-    id: "ID-REAL-001",
-  },
-  "siemens-g120c-drive": {
-    src: siemensG120cDriveImage1,
-    alt: "Siemens G120C Variable Frequency Drive - Compact vector drive 0.55-132kW",
-    id: "ID-REAL-002",
-  },
-
-  // Real manufacturer product images - Centrifugal Pumps
-  "grundfos-cr-pump": {
-    src: grundfosCrPumpImage1,
-    alt: "Grundfos CR Centrifugal Pump - Vertical multistage pump up to 640m³/h",
-    id: "ID-REAL-003",
-  },
-  "ksb-etanorm-pump": {
-    src: ksbEtanormPumpImage1,
-    alt: "KSB Etanorm Centrifugal Pump - Horizontal single-stage pump up to 640m³/h",
-    id: "ID-REAL-004",
-  },
-
-  // Real manufacturer product images - Control Cables
-  "belden-control-cable": {
-    src: beldenCableImage1,
-    alt: "Belden Industrial Control Cable - Shielded multi-conductor cable for automation",
-    id: "ID-REAL-005",
-  },
-  "lapp-olflex-cable": {
-    src: lappKabelImage1,
-    alt: "Lapp Ölflex Control Cable - Oil-resistant PVC control cable VDE registered",
-    id: "ID-REAL-006",
-  },
-
-  // Real manufacturer product images - Oscilloscopes
-  "tektronix-tbs2000-oscilloscope": {
-    src: tektronixOscilloscopeImage1,
-    alt: "Tektronix TBS2000 Digital Oscilloscope - 70-100MHz bandwidth with 9-inch display",
-    id: "ID-REAL-007",
-  },
-  "keysight-infiniivision-oscilloscope": {
-    src: keysightOscilloscopeImage1,
-    alt: "Keysight InfiniiVision Oscilloscope - 70-200MHz touchscreen oscilloscope",
-    id: "ID-REAL-008",
-  },
-
-  // Real manufacturer product images - Analyzers
-  "hach-bod-analyzer": {
-    src: hachBodAnalyzerImage1,
-    alt: "Hach BOD Analyzer - Respirometric BOD testing apparatus for wastewater",
-    id: "ID-REAL-009",
-  },
-  "endress-hauser-cod-analyzer": {
-    src: codAnalyzerImage1,
-    alt: "Endress+Hauser COD Analyzer - Online colorimetric COD monitoring system",
-    id: "ID-REAL-010",
-  },
-
-  // Real manufacturer product images - Contactors
-  "schneider-lc1d-contactor": {
-    src: schneiderContactorImage1,
-    alt: "Schneider Electric LC1D Contactor - 3-pole contactor 9-150A for motor control",
-    id: "ID-REAL-011",
-  },
-  "abb-af-contactor": {
-    src: abbAfContactorImage1,
-    alt: "ABB AF Contactor - 3-pole contactor with electronic coil 9-370A",
-    id: "ID-REAL-012",
-  },
 
   // Generic fallback
   "default-product": {
