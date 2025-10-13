@@ -741,6 +741,34 @@
     "solar-charge-controllers": {
       "title": "Solar Charge Controllers",
       "description": "Solar charge controllers and power management"
+    },
+    "instrument-transformers": {
+      "title": "Instrument Transformers",
+      "description": "Current and potential transformers for measurement and protection"
+    },
+    "contactors-relays": {
+      "title": "Contactors & Relays",
+      "description": "Power contactors and electromagnetic relays for motor control"
+    },
+    "transformers-power-devices": {
+      "title": "Transformers & Power Devices",
+      "description": "Control transformers and power conversion equipment"
+    },
+    "led-lighting": {
+      "title": "LED Lighting",
+      "description": "Industrial LED lighting solutions for hazardous and general areas"
+    },
+    "motor-controllers-drives": {
+      "title": "Motor Controllers & Drives",
+      "description": "Variable frequency drives and motor control solutions"
+    },
+    "protection-relays": {
+      "title": "Protection Relays",
+      "description": "Motor protection and voltage monitoring relays"
+    },
+    "panel-meters-indicators": {
+      "title": "Panel Meters & Indicators",
+      "description": "Analog and digital panel meters for voltage, current, and power measurement"
     }
   },
   "sections": {
@@ -2356,6 +2384,94 @@
     "pedestalFanMotors": {
       "title": "BLDC Pedestal Fan Motors",
       "description": "Powerful brushless DC motors for pedestal fan applications with adjustable height and oscillation features. Delivering superior airflow with energy-efficient operation and silent performance."
+    },
+    "vfd": {
+      "title": "Variable Frequency Drives (VFD)",
+      "description": "Advanced VFDs for precise motor speed control and energy savings. Features include built-in protection, multiple control modes, and communication interfaces for integration with automation systems."
+    },
+    "softStarter": {
+      "title": "Soft Starters",
+      "description": "Motor soft starters for smooth acceleration and deceleration, reducing mechanical stress and electrical surges. Ideal for pumps, fans, conveyors, and compressor applications requiring controlled starting."
+    },
+    "dolStarter": {
+      "title": "DOL Starters (Direct On Line)",
+      "description": "Robust direct-on-line motor starters for simple and reliable motor control. Includes contactors, overload relays, and control circuits for full voltage starting of AC motors."
+    },
+    "powerContactors": {
+      "title": "Power Contactors",
+      "description": "Heavy-duty electromagnetic contactors for switching motors and resistive loads. Available in various current ratings with auxiliary contacts and mechanical interlocking options for safe operation."
+    },
+    "timerRelays": {
+      "title": "Timer Relays",
+      "description": "Programmable timer relays for time-delay control applications. Multiple timing functions including on-delay, off-delay, interval, and pulse timing with digital or analog adjustment."
+    },
+    "controlTransformers": {
+      "title": "Control Transformers",
+      "description": "Step-down control transformers for panel and machine control circuits. Available in 1kVA, 3kVA, and 5kVA ratings with primary and secondary fuse protection for reliable power conversion."
+    },
+    "ledLightsFlp": {
+      "title": "Flameproof LED Lights (FLP)",
+      "description": "ATEX/IECEx certified flameproof LED lighting for hazardous areas. Explosion-proof construction with high luminous efficiency and long operational life for Zone 1 and Zone 2 applications."
+    },
+    "ledLightsWp": {
+      "title": "Weatherproof LED Lights (WP)",
+      "description": "IP65/IP66 rated weatherproof LED lighting for outdoor and wet area applications. Corrosion-resistant housing with superior ingress protection for harsh environmental conditions."
+    },
+    "digitalMotorProtectionRelay": {
+      "title": "Digital Motor Protection Relay (C&S)",
+      "description": "Microprocessor-based motor protection relays with comprehensive protection functions. Monitors current, voltage, temperature, and power parameters with programmable settings and communication capabilities."
+    },
+    "voltageMonitoringRelay": {
+      "title": "Voltage Monitoring Relay",
+      "description": "Three-phase voltage monitoring relays for protection against over/under voltage, phase failure, and phase sequence faults. Adjustable trip levels with time delay settings for sensitive equipment protection."
+    },
+    "currentTransformers": {
+      "title": "Current Transformers (CT)",
+      "description": "Precision current transformers for metering and protection applications. Available in various ratios with class 0.5 and 1.0 accuracy for measurement, and 5P/10P class for protection circuits."
+    },
+    "potentialTransformers": {
+      "title": "Potential Transformers (PT)",
+      "description": "High-accuracy potential transformers for voltage measurement and protection. Suitable for metering, relaying, and instrumentation with excellent linearity and low phase displacement."
+    },
+    "analogAmmeters": {
+      "title": "Analog Ammeters",
+      "description": "Moving coil/iron analog panel meters for current measurement. Available in various ranges with clear graduated scales for direct or CT-based current measurement in control panels."
+    },
+    "analogVoltmeters": {
+      "title": "Analog Voltmeters",
+      "description": "Precision analog panel voltmeters for AC/DC voltage measurement. Ruggedized construction with anti-parallax mirrors and multiple voltage ranges for accurate visual monitoring."
+    },
+    "digitalAmmeters": {
+      "title": "Digital Ammeters",
+      "description": "LED/LCD digital panel ammeters with high accuracy and resolution. Features include auto-ranging, peak hold, and optional communication interfaces for modern control systems."
+    },
+    "digitalVoltmeters": {
+      "title": "Digital Voltmeters",
+      "description": "Digital panel voltmeters for precise AC/DC voltage measurement. Large LED/LCD displays with programmable alarms and data logging capabilities for process monitoring."
+    },
+    "powerFactorMeters": {
+      "title": "Power Factor Meters",
+      "description": "Analog and digital power factor meters for monitoring reactive power. Essential for power quality management with visual indication of leading, lagging, and unity power factor."
+    },
+    "hrcFuses": {
+      "title": "HRC Fuses (High Rupturing Capacity)",
+      "description": "High breaking capacity fuses for short circuit protection in power distribution systems. Available in various current ratings with ceramic body construction and silver plated contacts."
+    },
+    "motorTerminalBlocks": {
+      "title": "Motor Terminal Blocks",
+      "description": "Heavy-duty terminal blocks designed for motor connections in control panels. High current capacity with robust construction for secure three-phase motor wiring."
+    },
+    "earthingStrips": {
+      "title": "Earthing Strips (Copper/Aluminum)",
+      "description": "Copper and aluminum earthing strips for electrical grounding systems. Available in 25x3mm, 25x6mm, 50x6mm, and 75x10mm sizes for low-resistance earth connections."
+    },
+    "lightningArrestors": {
+      "title": "Lightning Arrestors",
+      "description": "Surge protection devices for lightning and switching surge protection. Various types including distribution class, station class, and polymer housed arrestors for comprehensive overvoltage protection."
+    },
+    "multiFunctionMeters": {
+      "title": "Multi-Function Meters",
+      "description": "Advanced multi-parameter meters measuring voltage, current, power, energy, power factor, and harmonics. Featuring data logging, alarm outputs, and Modbus communication for comprehensive power monitoring."
     },
     "powerCables": {
       "title": "Power Cables",

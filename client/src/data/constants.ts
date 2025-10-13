@@ -121,6 +121,11 @@ export const getProducts = (t: any) => [
         title: t("products:subcategories.analyzers.title"),
         description: t("products:subcategories.analyzers.description"),
       },
+      {
+        id: "instrument-transformers",
+        title: t("products:subcategories.instrument-transformers.title"),
+        description: t("products:subcategories.instrument-transformers.description"),
+      },
     ],
   },
   {
@@ -173,6 +178,21 @@ export const getProducts = (t: any) => [
         description: t(
           "products:subcategories.heating-elements-appliances.description"
         ),
+      },
+      {
+        id: "contactors-relays",
+        title: t("products:subcategories.contactors-relays.title"),
+        description: t("products:subcategories.contactors-relays.description"),
+      },
+      {
+        id: "transformers-power-devices",
+        title: t("products:subcategories.transformers-power-devices.title"),
+        description: t("products:subcategories.transformers-power-devices.description"),
+      },
+      {
+        id: "led-lighting",
+        title: t("products:subcategories.led-lighting.title"),
+        description: t("products:subcategories.led-lighting.description"),
       },
     ],
   },
@@ -240,6 +260,11 @@ export const getProducts = (t: any) => [
         title: t("products:subcategories.hmi.title"),
         description: t("products:subcategories.hmi.description"),
       },
+      {
+        id: "motor-controllers-drives",
+        title: t("products:subcategories.motor-controllers-drives.title"),
+        description: t("products:subcategories.motor-controllers-drives.description"),
+      },
     ],
   },
   {
@@ -291,6 +316,11 @@ export const getProducts = (t: any) => [
         id: "safety-equipment",
         title: t("products:subcategories.safety-equipment.title"),
         description: t("products:subcategories.safety-equipment.description"),
+      },
+      {
+        id: "protection-relays",
+        title: t("products:subcategories.protection-relays.title"),
+        description: t("products:subcategories.protection-relays.description"),
       },
     ],
   },
@@ -393,6 +423,11 @@ export const getProducts = (t: any) => [
         description: t(
           "products:subcategories.calibration-equipment.description"
         ),
+      },
+      {
+        id: "panel-meters-indicators",
+        title: t("products:subcategories.panel-meters-indicators.title"),
+        description: t("products:subcategories.panel-meters-indicators.description"),
       },
     ],
   },

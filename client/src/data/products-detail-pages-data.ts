@@ -1315,6 +1315,229 @@ export const productGroups: ProductGroup[] = [
     image: "bldc-pedestal-fan-motor",
     featuredSpecs: ["power", "speed", "voltage"],
   },
+
+  // Motor Controllers & Drives subcategory groups
+  {
+    key: "vfd",
+    slug: "variable-frequency-drives",
+    titleKey: "products:productGroups.vfd.title",
+    descriptionKey: "products:productGroups.vfd.description",
+    subcategoryKey: "motor-controllers-drives",
+    image: "vfd-drive",
+    featuredSpecs: ["manufacturer", "power", "voltage"],
+  },
+  {
+    key: "soft-starter",
+    slug: "soft-starters",
+    titleKey: "products:productGroups.softStarter.title",
+    descriptionKey: "products:productGroups.softStarter.description",
+    subcategoryKey: "motor-controllers-drives",
+    image: "soft-starter",
+    featuredSpecs: ["manufacturer", "power", "voltage"],
+  },
+  {
+    key: "dol-starter",
+    slug: "direct-on-line-starters",
+    titleKey: "products:productGroups.dolStarter.title",
+    descriptionKey: "products:productGroups.dolStarter.description",
+    subcategoryKey: "motor-controllers-drives",
+    image: "dol-starter",
+    featuredSpecs: ["manufacturer", "power", "coilVoltage"],
+  },
+
+  // Contactors & Relays subcategory groups
+  {
+    key: "power-contactors",
+    slug: "power-contactors",
+    titleKey: "products:productGroups.powerContactors.title",
+    descriptionKey: "products:productGroups.powerContactors.description",
+    subcategoryKey: "contactors-relays",
+    image: "power-contactor",
+    featuredSpecs: ["manufacturer", "current", "coilVoltage"],
+  },
+  {
+    key: "timer-relays",
+    slug: "timer-relays",
+    titleKey: "products:productGroups.timerRelays.title",
+    descriptionKey: "products:productGroups.timerRelays.description",
+    subcategoryKey: "contactors-relays",
+    image: "timer-relay",
+    featuredSpecs: ["manufacturer", "timeRange", "voltage"],
+  },
+
+  // Transformers & Power Devices subcategory groups
+  {
+    key: "control-transformers",
+    slug: "control-transformers",
+    titleKey: "products:productGroups.controlTransformers.title",
+    descriptionKey: "products:productGroups.controlTransformers.description",
+    subcategoryKey: "transformers-power-devices",
+    image: "control-transformer",
+    featuredSpecs: ["manufacturer", "powerRating", "primaryVoltage", "secondaryVoltage"],
+  },
+
+  // LED Lighting subcategory groups
+  {
+    key: "led-lights-flp",
+    slug: "flameproof-led-lights",
+    titleKey: "products:productGroups.ledLightsFlp.title",
+    descriptionKey: "products:productGroups.ledLightsFlp.description",
+    subcategoryKey: "led-lighting",
+    image: "led-flameproof",
+    featuredSpecs: ["manufacturer", "wattage", "certification"],
+  },
+  {
+    key: "led-lights-wp",
+    slug: "weatherproof-led-lights",
+    titleKey: "products:productGroups.ledLightsWp.title",
+    descriptionKey: "products:productGroups.ledLightsWp.description",
+    subcategoryKey: "led-lighting",
+    image: "led-weatherproof",
+    featuredSpecs: ["manufacturer", "wattage", "ipRating"],
+  },
+
+  // Protection Relays subcategory groups
+  {
+    key: "digital-motor-protection-relay",
+    slug: "digital-motor-protection-relays",
+    titleKey: "products:productGroups.digitalMotorProtectionRelay.title",
+    descriptionKey: "products:productGroups.digitalMotorProtectionRelay.description",
+    subcategoryKey: "protection-relays",
+    image: "motor-protection-relay",
+    featuredSpecs: ["manufacturer", "model", "currentRange", "features"],
+  },
+  {
+    key: "voltage-monitoring-relay",
+    slug: "voltage-monitoring-relays",
+    titleKey: "products:productGroups.voltageMonitoringRelay.title",
+    descriptionKey: "products:productGroups.voltageMonitoringRelay.description",
+    subcategoryKey: "protection-relays",
+    image: "voltage-monitoring-relay",
+    featuredSpecs: ["manufacturer", "voltageRange", "phases"],
+  },
+
+  // Instrument Transformers subcategory groups
+  {
+    key: "current-transformers",
+    slug: "current-transformers",
+    titleKey: "products:productGroups.currentTransformers.title",
+    descriptionKey: "products:productGroups.currentTransformers.description",
+    subcategoryKey: "instrument-transformers",
+    image: "current-transformer",
+    featuredSpecs: ["manufacturer", "ratio", "accuracy", "burden"],
+  },
+  {
+    key: "potential-transformers",
+    slug: "potential-transformers",
+    titleKey: "products:productGroups.potentialTransformers.title",
+    descriptionKey: "products:productGroups.potentialTransformers.description",
+    subcategoryKey: "instrument-transformers",
+    image: "potential-transformer",
+    featuredSpecs: ["manufacturer", "ratio", "accuracy", "burden"],
+  },
+
+  // Panel Meters & Indicators subcategory groups
+  {
+    key: "analog-ammeters",
+    slug: "analog-ammeters",
+    titleKey: "products:productGroups.analogAmmeters.title",
+    descriptionKey: "products:productGroups.analogAmmeters.description",
+    subcategoryKey: "panel-meters-indicators",
+    image: "analog-ammeter",
+    featuredSpecs: ["manufacturer", "range", "accuracy"],
+  },
+  {
+    key: "analog-voltmeters",
+    slug: "analog-voltmeters",
+    titleKey: "products:productGroups.analogVoltmeters.title",
+    descriptionKey: "products:productGroups.analogVoltmeters.description",
+    subcategoryKey: "panel-meters-indicators",
+    image: "analog-voltmeter",
+    featuredSpecs: ["manufacturer", "range", "accuracy"],
+  },
+  {
+    key: "digital-ammeters",
+    slug: "digital-ammeters",
+    titleKey: "products:productGroups.digitalAmmeters.title",
+    descriptionKey: "products:productGroups.digitalAmmeters.description",
+    subcategoryKey: "panel-meters-indicators",
+    image: "digital-ammeter",
+    featuredSpecs: ["manufacturer", "range", "display"],
+  },
+  {
+    key: "digital-voltmeters",
+    slug: "digital-voltmeters",
+    titleKey: "products:productGroups.digitalVoltmeters.title",
+    descriptionKey: "products:productGroups.digitalVoltmeters.description",
+    subcategoryKey: "panel-meters-indicators",
+    image: "digital-voltmeter",
+    featuredSpecs: ["manufacturer", "range", "display"],
+  },
+  {
+    key: "power-factor-meters",
+    slug: "power-factor-meters",
+    titleKey: "products:productGroups.powerFactorMeters.title",
+    descriptionKey: "products:productGroups.powerFactorMeters.description",
+    subcategoryKey: "panel-meters-indicators",
+    image: "power-factor-meter",
+    featuredSpecs: ["manufacturer", "type", "accuracy"],
+  },
+
+  // Additional product groups for existing subcategories
+  // Circuit Breakers & Fuses
+  {
+    key: "hrc-fuses",
+    slug: "hrc-fuses",
+    titleKey: "products:productGroups.hrcFuses.title",
+    descriptionKey: "products:productGroups.hrcFuses.description",
+    subcategoryKey: "circuit-breakers-fuses",
+    image: "hrc-fuse",
+    featuredSpecs: ["manufacturer", "current", "voltage", "breakingCapacity"],
+  },
+
+  // Connectors & Terminals
+  {
+    key: "motor-terminal-blocks",
+    slug: "motor-terminal-blocks",
+    titleKey: "products:productGroups.motorTerminalBlocks.title",
+    descriptionKey: "products:productGroups.motorTerminalBlocks.description",
+    subcategoryKey: "connectors-terminals",
+    image: "terminal-block",
+    featuredSpecs: ["manufacturer", "currentRating", "poles"],
+  },
+
+  // Grounding Systems
+  {
+    key: "earthing-strips",
+    slug: "earthing-strips",
+    titleKey: "products:productGroups.earthingStrips.title",
+    descriptionKey: "products:productGroups.earthingStrips.description",
+    subcategoryKey: "grounding-systems",
+    image: "earthing-strip",
+    featuredSpecs: ["manufacturer", "size", "material"],
+  },
+
+  // Surge Protectors
+  {
+    key: "lightning-arrestors",
+    slug: "lightning-arrestors",
+    titleKey: "products:productGroups.lightningArrestors.title",
+    descriptionKey: "products:productGroups.lightningArrestors.description",
+    subcategoryKey: "surge-protectors",
+    image: "lightning-arrestor",
+    featuredSpecs: ["manufacturer", "type", "voltage", "dischargeCapacity"],
+  },
+
+  // Multimeters
+  {
+    key: "multi-function-meters",
+    slug: "multi-function-meters",
+    titleKey: "products:productGroups.multiFunctionMeters.title",
+    descriptionKey: "products:productGroups.multiFunctionMeters.description",
+    subcategoryKey: "multimeters",
+    image: "multi-function-meter",
+    featuredSpecs: ["manufacturer", "parameters", "communication"],
+  },
 ];
 
 // Product definitions

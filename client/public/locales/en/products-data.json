@@ -63,6 +63,16 @@
             "Process Analyzers",
             "Multi-parameter Systems"
           ]
+        },
+        "instrument-transformers": {
+          "title": "Instrument Transformers",
+          "description": "Current and potential transformers for measurement and protection",
+          "features": [
+            "Current Transformers",
+            "Potential Transformers",
+            "Metering Accuracy",
+            "Protection Class"
+          ]
         }
       },
       "cta": {
@@ -140,6 +150,36 @@
             "Industrial Heaters",
             "Temperature Controllers",
             "Thermal Protection"
+          ]
+        },
+        "contactors-relays": {
+          "title": "Contactors & Relays",
+          "description": "Power contactors, timers, and electromagnetic relays for motor and load control",
+          "features": [
+            "Power Contactors",
+            "Auxiliary Contactors",
+            "Timer Relays",
+            "Control Relays"
+          ]
+        },
+        "transformers-power-devices": {
+          "title": "Transformers & Power Devices",
+          "description": "Control transformers and power conversion equipment",
+          "features": [
+            "Control Transformers",
+            "Isolation Transformers",
+            "1kVA - 5kVA Range",
+            "Industrial Grade"
+          ]
+        },
+        "led-lighting": {
+          "title": "LED Lighting",
+          "description": "Industrial LED lighting solutions for hazardous and general areas",
+          "features": [
+            "Flameproof LED",
+            "Weatherproof LED",
+            "Energy Efficient",
+            "Long Life"
           ]
         }
       },
@@ -237,6 +277,16 @@
             "Data Visualization",
             "Operator Control"
           ]
+        },
+        "motor-controllers-drives": {
+          "title": "Motor Controllers & Drives",
+          "description": "Variable frequency drives and motor control solutions for efficient motor operation",
+          "features": [
+            "VFD",
+            "Soft Starters",
+            "DOL Starters",
+            "Speed Control"
+          ]
         }
       },
       "cta": {
@@ -304,6 +354,16 @@
             "Safety Standards",
             "Comfort Design",
             "Durability"
+          ]
+        },
+        "protection-relays": {
+          "title": "Protection Relays",
+          "description": "Motor protection and voltage monitoring relays for equipment safety",
+          "features": [
+            "Motor Protection",
+            "Voltage Monitoring",
+            "Overload Detection",
+            "Phase Failure Protection"
           ]
         }
       },
@@ -451,6 +511,16 @@
             "Precision Calibration",
             "Traceability",
             "Accuracy Verification"
+          ]
+        },
+        "panel-meters-indicators": {
+          "title": "Panel Meters & Indicators",
+          "description": "Analog and digital panel meters for voltage, current, and power factor measurement",
+          "features": [
+            "Analog/Digital Meters",
+            "Voltage Meters",
+            "Current Meters",
+            "Power Factor Meters"
           ]
         }
       },
