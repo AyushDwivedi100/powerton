@@ -124,7 +124,6 @@ export default function ProductGroupDynamic() {
     "connectors-terminals": "connectors-terminals",
     "circuit-breakers-fuses": "circuit-breakers-fuses",
     multimeters: "multimeters",
-    "spectrum-analyzers": "spectrum-analyzers",
     "solar-panels": "solar-panels",
     "solar-inverters": "solar-inverters",
     plcs: "plcs",

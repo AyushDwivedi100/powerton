@@ -350,9 +350,6 @@ export const getProducts = (t: any) => [
         "products:categories.industrial-measuring-tools.features.digital-multimeters"
       ),
       t(
-        "products:categories.industrial-measuring-tools.features.spectrum-analyzers"
-      ),
-      t(
         "products:categories.industrial-measuring-tools.features.power-quality-analyzers"
       ),
       t("products:categories.industrial-measuring-tools.features.calibrators"),

@@ -1569,16 +1569,6 @@ export const PRODUCT_IMAGES = {
     alt: `${IMAGE_IDS.MEASUREMENT_INSTRUMENTS}: Bench multimeter - Laboratory grade measurement`,
     id: IMAGE_IDS.MEASUREMENT_INSTRUMENTS,
   },
-  "rf-spectrum-analyzer": {
-    src: measurementInstrumentsImage,
-    alt: `${IMAGE_IDS.MEASUREMENT_INSTRUMENTS}: RF spectrum analyzer - Radio frequency analysis`,
-    id: IMAGE_IDS.MEASUREMENT_INSTRUMENTS,
-  },
-  "audio-spectrum-analyzer": {
-    src: measurementInstrumentsImage,
-    alt: `${IMAGE_IDS.MEASUREMENT_INSTRUMENTS}: Audio spectrum analyzer - Audio signal analysis`,
-    id: IMAGE_IDS.MEASUREMENT_INSTRUMENTS,
-  },
   "real-time-analyzer": {
     src: measurementInstrumentsImage,
     alt: `${IMAGE_IDS.MEASUREMENT_INSTRUMENTS}: Real-time analyzer - Live signal processing`,
