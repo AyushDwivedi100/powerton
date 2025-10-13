@@ -77,7 +77,6 @@
         "hand-tools": "Hand Tools",
         "power-tools": "Power Tools",
         "digital-multimeters": "Digital Multimeters",
-        "spectrum-analyzers": "Spectrum Analyzers",
         "power-quality-analyzers": "Power Quality Analyzers",
         "calibrators": "Calibrators"
       }
@@ -521,10 +520,6 @@
       "title": "Multimeters",
       "description": "Digital and analog multimeters for electrical testing"
     },
-    "spectrum-analyzers": {
-      "title": "Spectrum Analyzers",
-      "description": "RF and microwave spectrum analysis equipment"
-    },
     "power-quality-analyzers": {
       "title": "Power Quality Analyzers",
       "description": "Power quality measurement and analysis instruments"
@@ -788,19 +783,6 @@
     "transmitters": {
       "title": "Transmitters",
       "transducers": "Transducers"
-    },
-    "spectrumAnalyzers": {
-      "title": "Spectrum Analyzers",
-      "sections": {
-        "featured": {
-          "title": "Featured Spectrum Analyzers"
-        }
-      },
-      "cta": {
-        "title": "Need RF Signal Analysis?",
-        "description": "Our RF specialists can help you select the right spectrum analyzer for your measurement needs.",
-        "button": "Contact RF Experts"
-      }
     },
     "bldcSubmersibleSurfacePump": {
       "title": "BLDC Submersible & Surface Pumps",
@@ -2486,14 +2468,6 @@
     "milliampereSourceMeters": {
       "title": "Milliampere Source Meters",
       "description": "Precision milliampere loop calibrators and current source meters for 4-20mA process control loop testing and calibration. Professional instruments providing accurate mA sourcing and measurement with built-in 24V loop power supply for 2-wire transmitter simulation. Features include simultaneous source and measure capability, auto-stepping functions for linearity testing, HART communication compatibility, ramp functions for valve testing, and clamp-on designs that eliminate loop breaking. Essential for troubleshooting and calibrating process instrumentation in industrial automation systems."
-    },
-    "rfSpectrumAnalyzers": {
-      "title": "RF Spectrum Analyzers",
-      "description": "High-performance RF and microwave spectrum analyzers for wireless communication testing, EMC compliance, and signal analysis. Wide frequency coverage with excellent dynamic range and measurement speed."
-    },
-    "audioSpectrumAnalyzers": {
-      "title": "Audio Spectrum Analyzers",
-      "description": "Precision audio analyzers for acoustic measurements, sound quality testing, and audio system optimization. Real-time FFT analysis with THD, noise, and distortion measurement capabilities."
     },
     "realTimeAnalyzers": {
       "title": "Real-Time Analyzers",

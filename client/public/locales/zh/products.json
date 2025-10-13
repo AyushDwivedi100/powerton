@@ -77,7 +77,6 @@
         "hand-tools": "手动工具",
         "power-tools": "电动工具",
         "digital-multimeters": "数字万用表",
-        "spectrum-analyzers": "频谱分析仪",
         "power-quality-analyzers": "电能质量分析仪",
         "calibrators": "校准器"
       }
@@ -426,7 +425,6 @@
       "title": "万用表",
       "description": "用于电气测试的数字和模拟万用表"
     },
-    "spectrum-analyzers": {
       "title": "频谱分析仪",
       "description": "射频和微波频谱分析设备"
     },
@@ -694,12 +692,6 @@
       "title": "变送器",
       "transducers": "传感器"
     },
-    "spectrumAnalyzers": {
-      "title": "频谱分析仪",
-      "sections": {
-        "featured": {
-          "title": "特色频谱分析仪"
-        }
       },
       "cta": {
         "title": "需要射频信号分析吗？",
@@ -2398,18 +2390,6 @@
       "description": "用于4-20mA过程控制回路测试和校准的精密毫安回路校准器和电流源表。专业仪器提供精确的mA源和测量，内置24V回路电源，用于2线变送器仿真。功能包括同步源和测量功能、用于线性度测试的自动步进功能、HART通信兼容性、用于阀门测试的斜坡函数以及消除回路断开的夹式设计。对于在工业自动化系统中排除故障和校准过程仪表至关重要。",
       "zh_title": "毫安源表",
       "zh_description": "用于4-20mA过程控制回路测试和校准的精密毫安回路校准器和电流源表。专业仪器提供精确的mA源和测量，内置24V回路电源，用于2线变送器仿真。功能包括同步源和测量功能、用于线性度测试的自动步进功能、HART通信兼容性、用于阀门测试的斜坡函数以及消除回路断开的夹式设计。对于在工业自动化系统中排除故障和校准过程仪表至关重要。"
-    },
-    "rfSpectrumAnalyzers": {
-      "title": "射频频谱分析仪",
-      "description": "用于无线通信测试、EMC合规性和信号分析的高性能RF和微波频谱分析仪。宽频率覆盖范围，具有出色的动态范围和测量速度。",
-      "zh_title": "射频频谱分析仪",
-      "zh_description": "用于无线通信测试、EMC合规性和信号分析的高性能RF和微波频谱分析仪。宽频率覆盖范围，具有出色的动态范围和测量速度。"
-    },
-    "audioSpectrumAnalyzers": {
-      "title": "音频频谱分析仪",
-      "description": "用于声学测量、声音质量测试和音频系统优化的精密音频分析仪。具有THD，噪声和失真测量功能的实时FFT分析。",
-      "zh_title": "音频频谱分析仪",
-      "zh_description": "用于声学测量、声音质量测试和音频系统优化的精密音频分析仪。具有THD，噪声和失真测量功能的实时FFT分析。"
     },
     "realTimeAnalyzers": {
       "title": "实时分析仪",

@@ -77,7 +77,6 @@
         "hand-tools": "Ferramentas Manuais",
         "power-tools": "Ferramentas Elétricas",
         "digital-multimeters": "Multímetros Digitais",
-        "spectrum-analyzers": "Analisadores de Espectro",
         "power-quality-analyzers": "Analisadores de Qualidade de Energia",
         "calibrators": "Calibradores"
       }
@@ -521,7 +520,6 @@
       "title": "Multímetros",
       "description": "Multímetros digitais e analógicos para testes elétricos"
     },
-    "spectrum-analyzers": {
       "title": "Analisadores de Espectro",
       "description": "Equipamento de análise de espectro de RF e micro-ondas"
     },
@@ -789,12 +787,6 @@
       "title": "Transmissores",
       "transducers": "Transdutores"
     },
-    "spectrumAnalyzers": {
-      "title": "Analisadores de Espectro",
-      "sections": {
-        "featured": {
-          "title": "Analisadores de Espectro em Destaque"
-        }
       },
       "cta": {
         "title": "Precisa de Análise de Sinal de RF?",
@@ -2486,14 +2478,6 @@
     "milliampereSourceMeters": {
       "title": "Medidores de Fonte de Miliamperes",
       "description": "Calibradores de loop de miliamperes de precisão e medidores de fonte de corrente para teste e calibração de loop de controlo de processo de 4-20mA. Instrumentos profissionais que fornecem fornecimento e medição de mA precisos com fonte de alimentação de loop de 24V integrada para simulação de transmissor de 2 fios. Os recursos incluem capacidade de fonte e medição simultâneas, funções de auto-stepping para teste de linearidade, compatibilidade de comunicação HART, funções de rampa para teste de válvulas e designs de fixação que eliminam a quebra de loop. Essencial para solucionar problemas e calibrar instrumentação de processo em sistemas de automação industrial."
-    },
-    "rfSpectrumAnalyzers": {
-      "title": "Analisadores de Espectro de RF",
-      "description": "Analisadores de espectro de RF e micro-ondas de alto desempenho para testes de comunicação sem fio, conformidade com EMC e análise de sinal. Ampla cobertura de frequência com excelente faixa dinâmica e velocidade de medição."
-    },
-    "audioSpectrumAnalyzers": {
-      "title": "Analisadores de Espectro de Áudio",
-      "description": "Analisadores de áudio de precisão para medições acústicas, testes de qualidade de som e otimização de sistema de áudio. Análise FFT em tempo real com recursos de medição de THD, ruído e distorção."
     },
     "realTimeAnalyzers": {
       "title": "Analisadores em Tempo Real",

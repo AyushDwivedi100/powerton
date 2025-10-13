@@ -77,7 +77,6 @@
         "hand-tools": "Outils manuels",
         "power-tools": "Outils électriques",
         "digital-multimeters": "Multimètres numériques",
-        "spectrum-analyzers": "Analyseurs de spectre",
         "power-quality-analyzers": "Analyseurs de qualité de l'énergie",
         "calibrators": "Calibrateurs"
       }
@@ -521,7 +520,6 @@
       "title": "Multimètres",
       "description": "Multimètres numériques et analogiques pour les tests électriques"
     },
-    "spectrum-analyzers": {
       "title": "Analyseurs de spectre",
       "description": "Équipement d'analyse du spectre RF et micro-ondes"
     },
@@ -789,12 +787,6 @@
       "title": "Transmetteurs",
       "transducers": "Transducteurs"
     },
-    "spectrumAnalyzers": {
-      "title": "Analyseurs de spectre",
-      "sections": {
-        "featured": {
-          "title": "Analyseurs de spectre en vedette"
-        }
       },
       "cta": {
         "title": "Besoin d'une analyse de signal RF?",
@@ -2486,14 +2478,6 @@
     "milliampereSourceMeters": {
       "title": "Mètres de source de milliampères",
       "description": "Calibrateurs de boucle de milliampères de précision et compteurs de source de courant pour les tests et l'étalonnage de boucle de contrôle de processus 4-20 mA. Instruments professionnels fournissant une source et une mesure de mA précises avec une alimentation de boucle 24 V intégrée pour la simulation d'émetteur à 2 fils. Les caractéristiques comprennent la capacité de source et de mesure simultanées, les fonctions de pas automatique pour les tests de linéarité, la compatibilité de communication HART, les fonctions de rampe pour les tests de vannes et les conceptions de pince qui éliminent la rupture de boucle. Essentiel pour le dépannage et l'étalonnage de l'instrumentation de processus dans les systèmes d'automatisation industrielle."
-    },
-    "rfSpectrumAnalyzers": {
-      "title": "Analyseurs de spectre RF",
-      "description": "Analyseurs de spectre RF et micro-ondes haute performance pour les tests de communication sans fil, la conformité CEM et l'analyse de signaux. Large couverture de fréquence avec une excellente plage dynamique et une vitesse de mesure élevée."
-    },
-    "audioSpectrumAnalyzers": {
-      "title": "Analyseurs de spectre audio",
-      "description": "Analyseurs audio de précision pour les mesures acoustiques, les tests de qualité sonore et l'optimisation du système audio. Analyse FFT en temps réel avec des capacités de mesure de THD, de bruit et de distorsion."
     },
     "realTimeAnalyzers": {
       "title": "Analyseurs en temps réel",

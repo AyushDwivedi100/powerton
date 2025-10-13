@@ -77,7 +77,6 @@
         "hand-tools": "Kayan Aikin Hannu",
         "power-tools": "Kayan Aikin Wuta",
         "digital-multimeters": "Multimita na Dijital",
-        "spectrum-analyzers": "Masu Nazarin Bakan",
         "power-quality-analyzers": "Masu Nazarin Ingancin Wuta",
         "calibrators": "Masu Daidaitawa"
       }
@@ -521,7 +520,6 @@
       "title": "Multimita",
       "description": "Multimita na dijital da analog don gwajin lantarki"
     },
-    "spectrum-analyzers": {
       "title": "Masu Nazarin Spectrum",
       "description": "Kayan aikin nazarin bakan RF da microwave"
     },
@@ -789,12 +787,6 @@
       "title": "Masu Watsawa",
       "transducers": "Masu Canzawa"
     },
-    "spectrumAnalyzers": {
-      "title": "Masu Nazarin Bakan",
-      "sections": {
-        "featured": {
-          "title": "Masu Nazarin Bakan da Aka Fitar"
-        }
       },
       "cta": {
         "title": "Kuna Bukatar Nazarin Siginar RF?",
@@ -2486,14 +2478,6 @@
     "milliampereSourceMeters": {
       "title": "Miliampere Mita tushen",
       "description": "Madaidaicin masu daidaita madauki na milliampere da mitoci na tushen yanzu don gwajin madauki na sarrafa tsari na 4-20mA da daidaitawa. Kayan aikin ƙwararru suna ba da daidaitaccen tushen mA da aunawa tare da ginanniyar samar da wutar lantarki ta madauki 24V don kwaikwayo mai watsawa mai waya 2. Siffofin sun haɗa da ikon tushe da aunawa lokaci guda, ayyukan mataki na atomatik don gwajin linearity, jituwa na sadarwa ta HART, ayyukan gangara don gwajin bawul, da ƙirar clamp-on waɗanda ke kawar da karyewar madauki. Mahimmanci don gyara matsala da daidaita kayan aikin tsari a cikin tsarin sarrafa kansa na masana'antu."
-    },
-    "rfSpectrumAnalyzers": {
-      "title": "RF Spectrum Analyzers",
-      "description": "Babban aikin RF da microwave spectrum analyzers don gwajin sadarwa mara waya, bin EMC, da nazarin sigina. Faɗin mitar ɗaukar hoto tare da kyakkyawan kewayon ƙarfi da saurin aunawa."
-    },
-    "audioSpectrumAnalyzers": {
-      "title": "Masu Nazarin Audio Spectrum",
-      "description": "Madaidaicin masu nazarin sauti don ma'aunin acoustic, gwajin ingancin sauti, da inganta tsarin sauti. Nazarin FFT na ainihi tare da THD, amo, da iyawar aunawa na murdiya."
     },
     "realTimeAnalyzers": {
       "title": "Masu Nazarin Lokaci na Ainihi",

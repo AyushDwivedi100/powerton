@@ -77,7 +77,6 @@
         "hand-tools": "Zana za Mkono",
         "power-tools": "Zana za Nguvu",
         "digital-multimeters": "Multimita za Dijitali",
-        "spectrum-analyzers": "Vichambuzi vya Spectrum",
         "power-quality-analyzers": "Vichambuzi vya Ubora wa Nguvu",
         "calibrators": "Vikalibrati"
       }
@@ -521,7 +520,6 @@
       "title": "Multimeters",
       "description": "Multimeters za dijiti na analogi kwa upimaji wa umeme"
     },
-    "spectrum-analyzers": {
       "title": "Vichambuzi vya Spectrum",
       "description": "Vifaa vya uchambuzi wa wigo wa RF na microwave"
     },
@@ -789,12 +787,6 @@
       "title": "Transmita",
       "transducers": "Vigeuzi"
     },
-    "spectrumAnalyzers": {
-      "title": "Vichambuzi wa Spectrum",
-      "sections": {
-        "featured": {
-          "title": "Vichambuzi wa Spectrum Walioangaziwa"
-        }
       },
       "cta": {
         "title": "Unahitaji Uchambuzi wa Mawimbi ya RF?",
@@ -2486,14 +2478,6 @@
     "milliampereSourceMeters": {
       "title": "Mita za Chanzo cha Milliampere",
       "description": "Vipima sahihi vya calibrator ya kitanzi cha milliampere na chanzo cha mkondo kwa ajili ya majaribio ya kitanzi cha udhibiti wa mchakato wa 4-20mA na calibration. Vyombo vya kitaalamu vinavyotoa chanzo sahihi cha mA na upimaji na usambazaji wa nguvu wa kitanzi wa 24V uliojengwa ndani kwa ajili ya uigaji wa transmita ya waya 2. Vipengele ni pamoja na uwezo wa chanzo na kupima wakati huo huo, kazi za hatua za kiotomatiki kwa ajili ya upimaji wa mstari, utangamano wa mawasiliano wa HART, kazi za ramp kwa ajili ya upimaji wa valve, na miundo ya clamp-on ambayo huondoa kuvunjika kwa kitanzi. Muhimu kwa ajili ya utatuzi wa matatizo na calibrating ala za mchakato katika mifumo ya otomatiki ya viwandani."
-    },
-    "rfSpectrumAnalyzers": {
-      "title": "Vichanganuzi vya Spectrum vya RF",
-      "description": "Vichanganuzi vya spectrum vya RF na microwave vya utendaji wa juu kwa ajili ya upimaji wa mawasiliano ya wireless, kufuata EMC, na uchambuzi wa ishara. Ufunikaji mpana wa frequency na safu bora ya nguvu na kasi ya kupima."
-    },
-    "audioSpectrumAnalyzers": {
-      "title": "Vichanganuzi vya Spectrum vya Sauti",
-      "description": "Vichanganuzi sahihi vya sauti kwa vipimo vya acoustic, upimaji wa ubora wa sauti, na uboreshaji wa mfumo wa sauti. Uchambuzi wa FFT wa wakati halisi na THD, kelele, na uwezo wa kupima upotoshaji."
     },
     "realTimeAnalyzers": {
       "title": "Vichanganuzi vya Wakati Halisi",

@@ -77,7 +77,6 @@
         "hand-tools": "Herramientas Manuales",
         "power-tools": "Herramientas Eléctricas",
         "digital-multimeters": "Multímetros Digitales",
-        "spectrum-analyzers": "Analizadores de Espectro",
         "power-quality-analyzers": "Analizadores de Calidad de Energía",
         "calibrators": "Calibradores"
       }
@@ -521,7 +520,6 @@
       "title": "Multímetros",
       "description": "Multímetros digitales y analógicos para pruebas eléctricas"
     },
-    "spectrum-analyzers": {
       "title": "Analizadores de Espectro",
       "description": "Equipos de análisis de espectro de RF y microondas"
     },
@@ -789,12 +787,6 @@
       "title": "Transmisores",
       "transducers": "Transductores"
     },
-    "spectrumAnalyzers": {
-      "title": "Analizadores de Espectro",
-      "sections": {
-        "featured": {
-          "title": "Analizadores de Espectro Destacados"
-        }
       },
       "cta": {
         "title": "¿Necesita Análisis de Señales de RF?",
@@ -2486,14 +2478,6 @@
     "milliampereSourceMeters": {
       "title": "Medidores de Fuente de Miliamperios",
       "description": "Calibradores de bucle de miliamperios de precisión y medidores de fuente de corriente para pruebas y calibración de bucle de control de procesos de 4-20 mA. Instrumentos profesionales que proporcionan una fuente y medición de mA precisas con una fuente de alimentación de bucle de 24 V incorporada para la simulación de transmisores de 2 hilos. Las características incluyen la capacidad de fuente y medición simultáneas, funciones de auto-escalonamiento para pruebas de linealidad, compatibilidad con la comunicación HART, funciones de rampa para pruebas de válvulas y diseños de pinza que eliminan la rotura del bucle. Esencial para la resolución de problemas y la calibración de la instrumentación de procesos en los sistemas de automatización industrial."
-    },
-    "rfSpectrumAnalyzers": {
-      "title": "Analizadores de Espectro de RF",
-      "description": "Analizadores de espectro de RF y microondas de alto rendimiento para pruebas de comunicación inalámbrica, cumplimiento de CEM y análisis de señales. Amplia cobertura de frecuencia con excelente rango dinámico y velocidad de medición."
-    },
-    "audioSpectrumAnalyzers": {
-      "title": "Analizadores de Espectro de Audio",
-      "description": "Analizadores de audio de precisión para mediciones acústicas, pruebas de calidad de sonido y optimización de sistemas de audio. Análisis FFT en tiempo real con capacidades de medición de THD, ruido y distorsión."
     },
     "realTimeAnalyzers": {
       "title": "Analizadores en Tiempo Real",
