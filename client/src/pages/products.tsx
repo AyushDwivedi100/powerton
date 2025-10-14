@@ -114,39 +114,39 @@ export default function Products() {
   const productDetails = {
     instrumentation: {
       fullDescription: t(
-        "products:productDetails.instrumentation.fullDescription"
+        "products:productDetails.instrumentation.fullDescription",
       ),
       specifications: [
         t(
-          "products:productDetails.instrumentation.specifications.highAccuracy"
+          "products:productDetails.instrumentation.specifications.highAccuracy",
         ),
         t(
-          "products:productDetails.instrumentation.specifications.operatingTemperature"
+          "products:productDetails.instrumentation.specifications.operatingTemperature",
         ),
         t(
-          "products:productDetails.instrumentation.specifications.protectionRating"
+          "products:productDetails.instrumentation.specifications.protectionRating",
         ),
         t("products:productDetails.instrumentation.specifications.outputTypes"),
         t(
-          "products:productDetails.instrumentation.specifications.explosionProof"
+          "products:productDetails.instrumentation.specifications.explosionProof",
         ),
       ],
       applications: [
         t(
-          "products:productDetails.instrumentation.applications.processControl"
+          "products:productDetails.instrumentation.applications.processControl",
         ),
         t(
-          "products:productDetails.instrumentation.applications.qualityMonitoring"
+          "products:productDetails.instrumentation.applications.qualityMonitoring",
         ),
         t("products:productDetails.instrumentation.applications.safetySystems"),
         t(
-          "products:productDetails.instrumentation.applications.environmentalMonitoring"
+          "products:productDetails.instrumentation.applications.environmentalMonitoring",
         ),
       ],
       features: [
         t("products:productDetails.instrumentation.features.smartDiagnostics"),
         t(
-          "products:productDetails.instrumentation.features.digitalCommunication"
+          "products:productDetails.instrumentation.features.digitalCommunication",
         ),
         t("products:productDetails.instrumentation.features.easyCalibration"),
         t("products:productDetails.instrumentation.features.longTermStability"),
@@ -159,7 +159,7 @@ export default function Products() {
         t("products:productDetails.electrical.specifications.currentRatings"),
         t("products:productDetails.electrical.specifications.protectionLevel"),
         t(
-          "products:productDetails.electrical.specifications.standardsCompliant"
+          "products:productDetails.electrical.specifications.standardsCompliant",
         ),
         t("products:productDetails.electrical.specifications.temperatureRated"),
       ],
@@ -167,7 +167,7 @@ export default function Products() {
         t("products:productDetails.electrical.applications.motorControl"),
         t("products:productDetails.electrical.applications.powerDistribution"),
         t(
-          "products:productDetails.electrical.applications.switchingApplications"
+          "products:productDetails.electrical.applications.switchingApplications",
         ),
         t("products:productDetails.electrical.applications.protectionSystems"),
       ],
@@ -184,21 +184,21 @@ export default function Products() {
         t("products:productDetails.measurement.specifications.accuracyClass"),
         t("products:productDetails.measurement.specifications.displayType"),
         t(
-          "products:productDetails.measurement.specifications.communicationOptions"
+          "products:productDetails.measurement.specifications.communicationOptions",
         ),
         t("products:productDetails.measurement.specifications.dataLogging"),
         t(
-          "products:productDetails.measurement.specifications.multipleParameter"
+          "products:productDetails.measurement.specifications.multipleParameter",
         ),
       ],
       applications: [
         t(
-          "products:productDetails.measurement.applications.powerQualityAnalysis"
+          "products:productDetails.measurement.applications.powerQualityAnalysis",
         ),
         t("products:productDetails.measurement.applications.energyManagement"),
         t("products:productDetails.measurement.applications.processMonitoring"),
         t(
-          "products:productDetails.measurement.applications.complianceMeasurement"
+          "products:productDetails.measurement.applications.complianceMeasurement",
         ),
       ],
       features: [
@@ -235,21 +235,21 @@ export default function Products() {
       specifications: [
         t("products:productDetails.automation.specifications.ioCapacity"),
         t(
-          "products:productDetails.automation.specifications.communicationProtocols"
+          "products:productDetails.automation.specifications.communicationProtocols",
         ),
         t(
-          "products:productDetails.automation.specifications.programmingStandards"
+          "products:productDetails.automation.specifications.programmingStandards",
         ),
         t(
-          "products:productDetails.automation.specifications.operatingTemperature"
+          "products:productDetails.automation.specifications.operatingTemperature",
         ),
         t(
-          "products:productDetails.automation.specifications.redundancyOptions"
+          "products:productDetails.automation.specifications.redundancyOptions",
         ),
       ],
       applications: [
         t(
-          "products:productDetails.automation.applications.manufacturingAutomation"
+          "products:productDetails.automation.applications.manufacturingAutomation",
         ),
         t("products:productDetails.automation.applications.processControl"),
         t("products:productDetails.automation.applications.buildingManagement"),
@@ -269,7 +269,7 @@ export default function Products() {
         t("products:productDetails.safety.specifications.safetyIntegrityLevel"),
         t("products:productDetails.safety.specifications.responseTime"),
         t(
-          "products:productDetails.safety.specifications.multipleProtectionFunctions"
+          "products:productDetails.safety.specifications.multipleProtectionFunctions",
         ),
         t("products:productDetails.safety.specifications.arcFaultProtection"),
       ],
@@ -428,7 +428,7 @@ export default function Products() {
                                   <Badge
                                     key={`${product.id}-feature-${idx}`}
                                     variant="secondary"
-                                    className="bg-secondary/10 text-secondary border border-secondary/20  group-hover:text-secondary-foreground transition-all duration-200 cursor-pointer text-sm px-3 py-1 shadow-md hover:shadow-lg"
+                                    className="bg-secondary/10 text-secondary border border-secondary/20  group-hover:text-foreground transition-all duration-200 cursor-pointer text-sm px-3 py-1 shadow-md hover:shadow-lg"
                                     data-testid={`badge-${feature
                                       .toLowerCase()
                                       .replace(/\s+/g, "-")}`}

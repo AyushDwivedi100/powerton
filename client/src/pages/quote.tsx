@@ -198,7 +198,7 @@ export default function Quote() {
       title: t("pages:quote.benefits.assessment.title", "Detailed Assessment"),
       description: t(
         "pages:quote.benefits.assessment.description",
-        "Comprehensive project evaluation and technical specifications"
+        "Comprehensive project evaluation and technical specifications",
       ),
     },
     {
@@ -206,18 +206,18 @@ export default function Quote() {
       title: t("pages:quote.benefits.response.title", "Quick Response"),
       description: t(
         "pages:quote.benefits.response.description",
-        "Receive your detailed quote within 24-48 hours"
+        "Receive your detailed quote within 24-48 hours",
       ),
     },
     {
       icon: Users,
       title: t(
         "pages:quote.benefits.consultation.title",
-        "Expert Consultation"
+        "Expert Consultation",
       ),
       description: t(
         "pages:quote.benefits.consultation.description",
-        "Free technical consultation with our engineering team"
+        "Free technical consultation with our engineering team",
       ),
     },
     {
@@ -225,7 +225,7 @@ export default function Quote() {
       title: t("pages:quote.benefits.solutions.title", "Customized Solutions"),
       description: t(
         "pages:quote.benefits.solutions.description",
-        "Tailored engineering solutions for your specific requirements"
+        "Tailored engineering solutions for your specific requirements",
       ),
     },
   ];
@@ -236,7 +236,7 @@ export default function Quote() {
       title: t("pages:quote.process.submit.title", "Submit Request"),
       description: t(
         "pages:quote.process.submit.description",
-        "Fill out our comprehensive quote form or use our cost calculator"
+        "Fill out our comprehensive quote form or use our cost calculator",
       ),
     },
     {
@@ -244,7 +244,7 @@ export default function Quote() {
       title: t("pages:quote.process.review.title", "Technical Review"),
       description: t(
         "pages:quote.process.review.description",
-        "Our engineering team analyzes your requirements and specifications"
+        "Our engineering team analyzes your requirements and specifications",
       ),
     },
     {
@@ -252,7 +252,7 @@ export default function Quote() {
       title: t("pages:quote.process.assessment.title", "Site Assessment"),
       description: t(
         "pages:quote.process.assessment.description",
-        "Optional on-site visit for complex projects (if required)"
+        "Optional on-site visit for complex projects (if required)",
       ),
     },
     {
@@ -260,7 +260,7 @@ export default function Quote() {
       title: t("pages:quote.process.quote.title", "Detailed Quote"),
       description: t(
         "pages:quote.process.quote.description",
-        "Receive comprehensive pricing with timeline and deliverables"
+        "Receive comprehensive pricing with timeline and deliverables",
       ),
     },
   ];
@@ -271,7 +271,7 @@ export default function Quote() {
 
     // Base price from project type
     const projectType = PROJECT_TYPES.find(
-      (pt) => pt.value === config.projectType
+      (pt) => pt.value === config.projectType,
     );
     if (projectType) {
       basePrice = projectType.basePrice;
@@ -286,7 +286,7 @@ export default function Quote() {
 
     // Project size multiplier
     const projectSize = PROJECT_SIZES.find(
-      (ps) => ps.value === config.projectSize
+      (ps) => ps.value === config.projectSize,
     );
     if (projectSize) {
       totalMultiplier *= projectSize.multiplier;
@@ -364,7 +364,7 @@ export default function Quote() {
       setConfig((prev) => ({
         ...prev,
         additionalFeatures: prev.additionalFeatures.filter(
-          (id) => id !== featureId
+          (id) => id !== featureId,
         ),
       }));
     }
@@ -536,13 +536,13 @@ export default function Quote() {
                     <h3 className="text-2xl font-bold text-foreground mb-4">
                       {t(
                         "pages:quote.calculator.title",
-                        "Advanced Cost Calculator"
+                        "Advanced Cost Calculator",
                       )}
                     </h3>
                     <p className="text-lg text-muted-foreground mb-6">
                       {t(
                         "pages:quote.calculator.description",
-                        "We're putting the finishing touches on our intelligent cost estimation tool. This feature will provide instant, accurate pricing for your automation projects."
+                        "We're putting the finishing touches on our intelligent cost estimation tool. This feature will provide instant, accurate pricing for your automation projects.",
                       )}
                     </p>
                     <div className="space-y-4">
@@ -551,14 +551,14 @@ export default function Quote() {
                         <span>
                           {t(
                             "pages:quote.calculator.launchingSoon",
-                            "Launching Soon"
+                            "Launching Soon",
                           )}
                         </span>
                       </div>
                       <div className="text-sm text-muted-foreground">
                         {t(
                           "pages:quote.calculator.useQuoteForm",
-                          "For immediate quotes, please use our detailed quote form"
+                          "For immediate quotes, please use our detailed quote form",
                         )}
                       </div>
                       <Button
@@ -568,7 +568,7 @@ export default function Quote() {
                         <span className="text-wrap-safe">
                           {t(
                             "pages:quote.calculator.getQuoteNow",
-                            "Get Quote Now"
+                            "Get Quote Now",
                           )}
                         </span>
                         <ArrowRight className="w-4 h-4 me-2 rtl-flip" />
@@ -584,14 +584,14 @@ export default function Quote() {
                       <h3 className="text-2xl font-bold text-foreground">
                         {t(
                           "pages:quote.calculator.projectTitle",
-                          "Project Cost Calculator"
+                          "Project Cost Calculator",
                         )}
                       </h3>
                       <Badge variant="secondary" className="px-3 py-1">
                         {t(
                           "pages:quote.calculator.stepOf",
                           "Step {{current}} of {{total}}",
-                          { current: currentStep, total: 4 }
+                          { current: currentStep, total: 4 },
                         )}
                       </Badge>
                     </div>
@@ -641,7 +641,7 @@ export default function Quote() {
                                     <SelectTrigger>
                                       <SelectValue
                                         placeholder={t(
-                                          "common:placeholders.selectProjectType"
+                                          "common:placeholders.selectProjectType",
                                         )}
                                       />
                                     </SelectTrigger>
@@ -652,7 +652,7 @@ export default function Quote() {
                                           value={type.value}
                                         >
                                           {t(
-                                            `pages:quote.projectTypes.${type.label}`
+                                            `pages:quote.projectTypes.${type.label}`,
                                           )}
                                         </SelectItem>
                                       ))}
@@ -679,7 +679,7 @@ export default function Quote() {
                                     <SelectTrigger>
                                       <SelectValue
                                         placeholder={t(
-                                          "common:placeholders.selectIndustry"
+                                          "common:placeholders.selectIndustry",
                                         )}
                                       />
                                     </SelectTrigger>
@@ -690,7 +690,7 @@ export default function Quote() {
                                           value={industry.value}
                                         >
                                           {t(
-                                            `pages:quote.industries.${industry.label}`
+                                            `pages:quote.industries.${industry.label}`,
                                           )}
                                         </SelectItem>
                                       ))}
@@ -722,7 +722,7 @@ export default function Quote() {
                                     <SelectTrigger>
                                       <SelectValue
                                         placeholder={t(
-                                          "common:placeholders.selectProjectSize"
+                                          "common:placeholders.selectProjectSize",
                                         )}
                                       />
                                     </SelectTrigger>
@@ -733,7 +733,7 @@ export default function Quote() {
                                           value={size.value}
                                         >
                                           {t(
-                                            `pages:quote.projectSizes.${size.label}`
+                                            `pages:quote.projectSizes.${size.label}`,
                                           )}
                                         </SelectItem>
                                       ))}
@@ -760,7 +760,7 @@ export default function Quote() {
                                     <SelectTrigger>
                                       <SelectValue
                                         placeholder={t(
-                                          "common:placeholders.selectTimeline"
+                                          "common:placeholders.selectTimeline",
                                         )}
                                       />
                                     </SelectTrigger>
@@ -771,7 +771,7 @@ export default function Quote() {
                                           value={timeline.value}
                                         >
                                           {t(
-                                            `pages:quote.timelines.${timeline.label}`
+                                            `pages:quote.timelines.${timeline.label}`,
                                           )}
                                         </SelectItem>
                                       ))}
@@ -797,12 +797,12 @@ export default function Quote() {
                                         <Checkbox
                                           id={requirement.id}
                                           checked={config.requirements.includes(
-                                            requirement.id
+                                            requirement.id,
                                           )}
                                           onCheckedChange={(checked) =>
                                             handleRequirementChange(
                                               requirement.id,
-                                              checked as boolean
+                                              checked as boolean,
                                             )
                                           }
                                         />
@@ -812,7 +812,7 @@ export default function Quote() {
                                             className="text-sm font-medium cursor-pointer"
                                           >
                                             {t(
-                                              `pages:quote.requirements.${requirement.label}`
+                                              `pages:quote.requirements.${requirement.label}`,
                                             )}
                                           </Label>
                                           <div className="text-xs text-muted-foreground">
@@ -837,12 +837,12 @@ export default function Quote() {
                                         <Checkbox
                                           id={feature.id}
                                           checked={config.additionalFeatures.includes(
-                                            feature.id
+                                            feature.id,
                                           )}
                                           onCheckedChange={(checked) =>
                                             handleFeatureChange(
                                               feature.id,
-                                              checked as boolean
+                                              checked as boolean,
                                             )
                                           }
                                         />
@@ -852,7 +852,7 @@ export default function Quote() {
                                             className="text-sm font-medium cursor-pointer"
                                           >
                                             {t(
-                                              `pages:quote.additionalFeatures.${feature.label}`
+                                              `pages:quote.additionalFeatures.${feature.label}`,
                                             )}
                                           </Label>
                                           <div className="text-xs text-muted-foreground">
@@ -879,7 +879,7 @@ export default function Quote() {
                                   <Input
                                     id="location"
                                     placeholder={t(
-                                      "common:placeholders.cityState"
+                                      "common:placeholders.cityState",
                                     )}
                                     value={config.location}
                                     onChange={(e) =>
@@ -901,7 +901,7 @@ export default function Quote() {
                                   <Textarea
                                     id="existingInfrastructure"
                                     placeholder={t(
-                                      "common:placeholders.describeExisting"
+                                      "common:placeholders.describeExisting",
                                     )}
                                     value={config.existingInfrastructure}
                                     onChange={(e) =>
@@ -977,7 +977,7 @@ export default function Quote() {
                                     </span>
                                     <span className="font-medium">
                                       {formatCurrency(
-                                        estimate.requirementsCost
+                                        estimate.requirementsCost,
                                       )}
                                     </span>
                                   </div>
@@ -1120,7 +1120,7 @@ export default function Quote() {
               <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
                 {t(
                   "pages:quote.process.description",
-                  "From initial request to detailed proposal, we ensure a smooth and transparent process."
+                  "From initial request to detailed proposal, we ensure a smooth and transparent process.",
                 )}
               </p>
             </div>
@@ -1153,13 +1153,13 @@ export default function Quote() {
       <AnimatedSection animation="fadeInUp" delay={0.5}>
         <section className="py-12 md:py-16 lg:py-20 bg-primary text-white">
           <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8 text-center">
-            <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
+            <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
               {t("pages:quote.cta.title", "Ready to Get Started?")}
             </h2>
             <p className="text-base md:text-lg text-primary-foreground mb-8 max-w-2xl mx-auto opacity-90">
               {t(
                 "pages:quote.cta.description",
-                "Contact us today for your custom engineering solution. Our team is ready to help bring your project to life."
+                "Contact us today for your custom engineering solution. Our team is ready to help bring your project to life.",
               )}
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">

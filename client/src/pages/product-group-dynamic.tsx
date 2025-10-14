@@ -2,12 +2,12 @@ import { useParams } from "wouter";
 import { SEO } from "@/lib/seo";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
-import { motion, useInView, useAnimation } from "framer-motion";
+import { motion } from "framer-motion";
 import {
   AnimatedSection,
   useScrollAnimations,
 } from "@/hooks/use-scroll-animation";
-import { ArrowLeft, Phone, Mail, ExternalLink, FileText } from "lucide-react";
+import { ArrowLeft, Phone, Mail, ExternalLink } from "lucide-react";
 import { Link } from "wouter";
 import { useTranslation } from "react-i18next";
 import {
@@ -16,7 +16,6 @@ import {
 } from "@/data/products-detail-pages-data";
 import { getProductSubCategoryBySlug } from "@/data/products-sub-category-pages-data";
 import { getProductImageSrc } from "@/assets/images";
-import NotFound from "@/pages/not-found";
 
 export default function ProductGroupDynamic() {
   const { parentSlug, subcategorySlug, groupSlug } = useParams<{
