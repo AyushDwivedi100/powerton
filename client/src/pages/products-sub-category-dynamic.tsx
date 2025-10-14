@@ -44,7 +44,6 @@ export default function ProductSubCategoryDynamic() {
   const { t } = useTranslation(["products", "common", "products-data"]);
   useScrollAnimation();
 
-  // Early return if params are missing - no product data needed
   if (!slug || !parentSlug) {
     return (
       <div className="min-h-screen bg-background flex items-center justify-center">
@@ -66,11 +65,11 @@ export default function ProductSubCategoryDynamic() {
             asChild
           >
             <Link
-              href="/products"
+              href={product.parentCategory}
               data-testid="link-back-to-category"
             >
               <ArrowLeft className="mr-2 h-4 w-4 group-hover:-translate-x-2 transition-transform duration-200" />
-              {t("common:buttons.backToProducts")}
+              {t("common:buttons.backTo")} {product.parentCategoryTitle}
             </Link>
           </Button>
         </motion.div>
@@ -78,7 +77,6 @@ export default function ProductSubCategoryDynamic() {
     );
   }
 
-  // Get product data - slug is guaranteed to exist here
   const product = getProductSubCategoryBySlug(slug, t);
 
   if (!product) {
@@ -102,11 +100,11 @@ export default function ProductSubCategoryDynamic() {
             asChild
           >
             <Link
-              href={`/products/${parentSlug}`}
+              href={product.parentCategory}
               data-testid="link-back-to-category"
             >
               <ArrowLeft className="mr-2 h-4 w-4 group-hover:-translate-x-2 transition-transform duration-200" />
-              {t("common:buttons.backToProducts")}
+              {t("common:buttons.backTo")} {product.parentCategoryTitle}
             </Link>
           </Button>
         </motion.div>
@@ -114,7 +112,6 @@ export default function ProductSubCategoryDynamic() {
     );
   }
 
-  // Validate that the parentSlug matches the expected parent category for this subcategory
   const expectedParentSlug = product.parentCategory.split("/").pop();
   if (parentSlug !== expectedParentSlug) {
     return (
