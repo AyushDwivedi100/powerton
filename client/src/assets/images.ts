@@ -499,10 +499,6 @@ export const IMAGE_IDS = {
   HEATING_ELEMENT_2: "ID-1017",
   HEATING_ELEMENT_3: "ID-1018",
 
-  // Centrifugal Pump Products (ID-1019 to ID-1020)
-  GRUNDFOS_CR_PUMP: "ID-1019",
-  KSB_ETANORM_PUMP: "ID-1020",
-
   // Generated Images (ID-1021+)
   GENERATED: "ID-GENERATED",
 } as const;
