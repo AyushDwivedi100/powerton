@@ -454,6 +454,11 @@ export default function Chatbot() {
             page: "products/mechanical-pumps-spares",
           },
           {
+            label: t("chatbot.options.industrialToolsCategory"),
+            action: "page",
+            page: "products/industrial-tools-tackles",
+          },
+          {
             label: t("chatbot.options.bldcCategory"),
             action: "page",
             page: "products/bldc",
