@@ -139,7 +139,7 @@ export default function ProductSubCategoryDynamic() {
               data-testid="link-back-to-category"
             >
               <ArrowLeft className="mr-2 h-4 w-4 group-hover:-translate-x-2 transition-transform duration-200" />
-              {t("common:buttons.backToProducts")}
+              {t("common:buttons.backTo")} {product.parentCategoryTitle}
             </Link>
           </Button>
         </motion.div>
