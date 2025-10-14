@@ -1,8 +1,8 @@
-import industrialAutomationImage from "@assets/generated_images/Industrial_automation_system_implementation_9dd77426.png";
-import powerPlantControlImage from "@assets/generated_images/Power_plant_control_room_with_automation_systems_0cfd42b0.png";
-import engineeringTeamImage from "@assets/generated_images/Engineering_team_working_on_industrial_project_f7b49ea9.png";
+import industrialAutomationImage from "@assets/generated_images/Industrial_Automation_Factory_54a2a6f1.png";
+import powerPlantControlImage from "@assets/generated_images/Power_Plant_Control_Room_0bd716bf.png";
+import engineeringTeamImage from "@assets/generated_images/Engineering_Team_Working_82b3dac7.png";
 import automationProjectImage from "@assets/generated_images/Automation_Project_Showcase_c9ed4237.png";
-import corporateClientImage from "@assets/generated_images/Corporate_client_manufacturing_facility_ec8a3fc6.png";
+import corporateClientImage from "@assets/generated_images/Corporate_Client_Building_10ddd5dd.png";
 
 export interface Project {
   id: string;
