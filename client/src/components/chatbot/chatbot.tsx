@@ -635,49 +635,6 @@ export default function Chatbot() {
     }
 
     // Product Category Responses
-    if (input === "sensors-category") {
-      return {
-        message: t("chatbot.responses.sensorsCategory"),
-        options: [
-          {
-            label: t("chatbot.options.temperatureSensors"),
-            action: "page",
-            page: "product-sensors",
-          },
-          {
-            label: t("chatbot.options.pressureTransmitters"),
-            action: "page",
-            page: "product-transmitters",
-          },
-          {
-            label: t("chatbot.options.flowMeters"),
-            action: "page",
-            page: "product-sensors",
-          },
-          {
-            label: t("chatbot.options.levelIndicators"),
-            action: "page",
-            page: "product-sensors",
-          },
-          {
-            label: t("chatbot.options.processAnalyzers"),
-            action: "page",
-            page: "product-analyzers",
-          },
-          {
-            label: t("chatbot.options.getTechnicalSpecs"),
-            action: "external",
-            url: "mailto:info@powertonengineering.com?subject=Sensor Technical Specifications",
-          },
-          {
-            label: t("chatbot.options.backToProductsMenu"),
-            action: "chat",
-            response: "product-selection",
-          },
-        ],
-      };
-    }
-
     if (input === "electrical-category") {
       return {
         message: t("chatbot.responses.electricalCategory"),
@@ -1833,11 +1790,6 @@ export default function Chatbot() {
       return {
         message: t("chatbotMessages.productComparison"),
         options: [
-          {
-            label: t("chatbot.options.compareSensors"),
-            action: "chat",
-            response: "sensors-category",
-          },
           {
             label: t("chatbot.options.compareAutomationSystems"),
             action: "chat",
