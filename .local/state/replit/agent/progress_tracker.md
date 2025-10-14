@@ -1,3 +1,22 @@
+[x] 87. Enhanced featured project cards with client name and smaller badges (October 14, 2025)
+  - [x] Added client name display below project title with primary color styling
+  - [x] Reduced key feature badge size from text-sm px-4 py-2 to text-xs px-3 py-1.5
+  - [x] Reduced gap between badges from gap-3 to gap-2 for tighter layout
+  - [x] Client name styled as text-sm font-medium for professional appearance
+[x] 86. Added missing project highlight translation keys (October 14, 2025)
+  - [x] Added 7 additional highlight translations: advancedscadaimplementation, real-timeprocessmonitoring, automatedqualitycontrol, remotesystemmanagement, fullfacilitycommissioning, integratedcontrolsystems, safetysystemintegration
+  - [x] Total of 15 highlight translation keys now available
+  - [x] All featured project key features now display properly translated text
+[x] 85. Replaced duration with completed date on featured project cards (October 14, 2025)
+  - [x] Removed duration display from featured cards showcase
+  - [x] Added completed date showing month and year (e.g., "Completed: April 2024")
+  - [x] Changed icon from TrendingUp to Calendar for better visual clarity
+  - [x] Added "completedDate" translation key: "Completed"
+[x] 84. Added remaining missing technology and category translation keys (October 14, 2025)
+  - [x] Added 6 additional technology translations: scadasystems, processinstrumentation, controlsystems, distributionsystems, monitoringequipment, plcsystems, waterqualitymonitoring
+  - [x] Added "watersystems" category translation: "Water Systems"
+  - [x] Total of 38 technology translation keys now available
+  - [x] All project cards now display fully translated technology names
 [x] 83. Removed technology limitation and "+X More" badge from project cards (October 14, 2025)
   - [x] Removed .slice(0, 3) limitation on technologies
   - [x] Removed conditional rendering of "+X More" badge

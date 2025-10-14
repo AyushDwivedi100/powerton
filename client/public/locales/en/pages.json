@@ -455,7 +455,8 @@
       "processcontrol": "Process Control",
       "safetysystems": "Safety Systems",
       "plcprogramming": "PLC Programming",
-      "scada": "SCADA Systems",
+      "scadasystems": "SCADA Systems",
+      "scada": "SCADA",
       "hmi": "HMI",
       "hmiinterface": "HMI Interface",
       "industrialiot": "Industrial IoT",
@@ -481,9 +482,16 @@
       "civilinfrastructure": "Civil Infrastructure",
       "evchargingsystems": "EV Charging Systems",
       "electricalpanels": "Electrical Panels",
-      "smartmetering": "Smart Metering"
+      "smartmetering": "Smart Metering",
+      "processinstrumentation": "Process Instrumentation",
+      "controlsystems": "Control Systems",
+      "distributionsystems": "Distribution Systems",
+      "monitoringequipment": "Monitoring Equipment",
+      "plcsystems": "PLC Systems",
+      "waterqualitymonitoring": "Water Quality Monitoring"
     },
     "technologiesUsed": "Technologies Used",
+    "completedDate": "Completed",
     "tabs": {
       "portfolio": "Project Portfolio",
       "showcase": "Featured Projects"
@@ -506,6 +514,7 @@
       "solarsolutions": "Solar Solutions",
       "manufacturing": "Manufacturing",
       "watertreatment": "Water Treatment",
+      "watersystems": "Water Systems",
       "powerplant": "Power Plant"
     },
     "highlights": {
@@ -516,7 +525,14 @@
       "loadbalancing": "Load Balancing",
       "protectionsystems": "Protection Systems",
       "energymanagement": "Energy Management",
-      "remotecontrol": "Remote Control"
+      "remotecontrol": "Remote Control",
+      "advancedscadaimplementation": "Advanced SCADA Implementation",
+      "real-timeprocessmonitoring": "Real-Time Process Monitoring",
+      "automatedqualitycontrol": "Automated Quality Control",
+      "remotesystemmanagement": "Remote System Management",
+      "fullfacilitycommissioning": "Full Facility Commissioning",
+      "integratedcontrolsystems": "Integrated Control Systems",
+      "safetysystemintegration": "Safety System Integration"
     }
   },
   "products": {

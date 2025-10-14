@@ -672,6 +672,11 @@ export default function Projects() {
                               {t("pages:projects.featured")}
                             </Badge>
                           </div>
+                          <div className="mb-3">
+                            <p className="text-sm font-medium text-primary">
+                              {t(`pages:projects.items.${project.id}.client`)}
+                            </p>
+                          </div>
                           <p className="text-base text-muted-foreground mb-6 leading-relaxed">
                             {t(
                               `pages:projects.items.${project.id}.description`,
@@ -682,13 +687,13 @@ export default function Projects() {
                             <h4 className="font-semibold text-foreground text-base">
                               {t("pages:projects.keyFeatures")}
                             </h4>
-                            <div className="flex flex-wrap gap-3">
+                            <div className="flex flex-wrap gap-2">
                               {project.highlights.map(
                                 (highlight: string, index: number) => (
                                   <Badge
                                     key={index}
                                     variant="outline"
-                                    className="text-sm px-4 py-2 bg-gray-100 text-gray-800 hover:bg-gray-200 cursor-pointer transition-colors border-gray-300"
+                                    className="text-xs px-3 py-1.5 bg-gray-100 text-gray-800 hover:bg-gray-200 cursor-pointer transition-colors border-gray-300"
                                   >
                                     {t(
                                       `pages:projects.highlights.${highlight
@@ -711,11 +716,9 @@ export default function Projects() {
                               </span>
                             </div>
                             <div className="flex items-start gap-4">
-                              <TrendingUp className="w-5 h-5 flex-shrink-0 mt-0.5" />
+                              <Calendar className="w-5 h-5 flex-shrink-0 mt-0.5" />
                               <span className="leading-relaxed text-base">
-                                {t(
-                                  `pages:projects.items.${project.id}.duration`,
-                                )}
+                                {t("pages:projects.completedDate")}: {project.month} {project.year}
                               </span>
                             </div>
                           </div>
