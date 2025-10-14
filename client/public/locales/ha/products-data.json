@@ -63,6 +63,16 @@
             "Masu Nazarin Tsari",
             "Tsarin Ƙididdiga Da yawa"
           ]
+        },
+        "instrument-transformers": {
+          "title": "Transfoma na Kayan Aiki",
+          "description": "Transfoma na yanzu da na iya aiki don aunawa da kariya",
+          "features": [
+            "Transfoma na Yanzu",
+            "Transfoma Mai Yiwuwa",
+            "Daidaiton Aunawa",
+            "Rukunin Kariya"
+          ]
         }
       },
       "cta": {
@@ -136,6 +146,36 @@
             "Masu Kula da Zafin Jiki",
             "Kariyar Zafi"
           ]
+        },
+        "contactors-relays": {
+          "title": "Masu Haɗawa & Relays",
+          "description": "Masu haɗin wutar lantarki, masu ƙidayar lokaci, da relays na electromagnetic don sarrafa mota da kaya",
+          "features": [
+            "Masu Haɗin Wutar Lantarki",
+            "Masu Haɗin Taimako",
+            "Relays Masu Ƙidayar Lokaci",
+            "Relays Masu Sarrafawa"
+          ]
+        },
+        "transformers-power-devices": {
+          "title": "Transfoma & Na'urorin Wutar Lantarki",
+          "description": "Transfoma masu sarrafawa da kayan aikin sauya wutar lantarki",
+          "features": [
+            "Transfoma Masu Sarrafawa",
+            "Transfoma Keɓewa",
+            "Kewayon 1kVA - 5kVA",
+            "Darajar Masana'antu"
+          ]
+        },
+        "led-lighting": {
+          "title": "Hasken LED",
+          "description": "Hanyoyin hasken LED na masana'antu don wurare masu haɗari da na gabaɗaya",
+          "features": [
+            "LED Mai Hana Wuta",
+            "LED Mai Jure Yanayi",
+            "Mai Amfani da Makamashi",
+            "Tsawon Rai"
+          ]
         }
       },
       "cta": {
@@ -168,12 +208,7 @@
         "solar-inverters": {
           "title": "Inverters na Hasken Rana",
           "description": "Canza wutar lantarki ta DC zuwa AC don tsarin hasken rana",
-          "features": [
-            "Grid-Tie",
-            "Off-Grid",
-            "Tsarin Hybrid",
-            "Fasahar MPPT"
-          ]
+          "features": ["Grid-Tie", "Off-Grid", "Tsarin Hybrid", "Fasahar MPPT"]
         }
       },
       "cta": {
@@ -226,6 +261,16 @@
             "Hulɗar Hoto",
             "Hotuna Bayanai",
             "Sarrafa Mai Aiki"
+          ]
+        },
+        "motor-controllers-drives": {
+          "title": "Masu Kula da Mota & Direbobi",
+          "description": "Mota masu canza mitar akai-akai da hanyoyin sarrafa mota don ingantaccen aikin mota",
+          "features": [
+            "VFD",
+            "Masu Farawa Masu Taushi",
+            "Masu Farawa na DOL",
+            "Sarrafa Gudu"
           ]
         }
       },
@@ -294,6 +339,16 @@
             "Ka'idojin Tsaro",
             "Ƙirar Ta'aziyya",
             "Dorewa"
+          ]
+        },
+        "protection-relays": {
+          "title": "Relay na Kariya",
+          "description": "Kariyar mota da relay na saka idanu kan wutar lantarki don amincin kayan aiki",
+          "features": [
+            "Kariyar Mota",
+            "Saka idanu kan Wutar Lantarki",
+            "Gano ɗaukar Nauyi",
+            "Kariyar Gazawar Lokaci"
           ]
         }
       },
@@ -441,6 +496,16 @@
             "Daidaitaccen Daidaitawa",
             "Gano Tushe",
             "Tabbatar da Da'a"
+          ]
+        },
+        "panel-meters-indicators": {
+          "title": "Mita Panel & Manunawa",
+          "description": "Mita panel na analog da dijital don aunawa na wutar lantarki, yanzu, da ƙarfin wuta",
+          "features": [
+            "Mita Analog/Dijital",
+            "Mita Wutar Lantarki",
+            "Mita Yanzu",
+            "Mita Ƙarfin Wuta"
           ]
         }
       },

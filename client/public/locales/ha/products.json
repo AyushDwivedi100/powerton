@@ -744,6 +744,34 @@
     "solar-charge-controllers": {
       "title": "Masu Kula da Cajin Rana",
       "description": "Masu kula da cajin hasken rana da sarrafa wuta"
+    },
+    "instrument-transformers": {
+      "title": "Canji-canjin Kayan Aiki",
+      "description": "Canji-canjin wutar lantarki da mai yuwuwa don aunawa da kariya"
+    },
+    "contactors-relays": {
+      "title": "Masu Tuntuɓar Juna & Relay",
+      "description": "Masu tuntuɓar wuta da relay na electromagnetic don sarrafa mota"
+    },
+    "transformers-power-devices": {
+      "title": "Canji & Na'urorin Wuta",
+      "description": "Sarrafa canji da kayan aikin canza wuta"
+    },
+    "led-lighting": {
+      "title": "Hasken LED",
+      "description": "Hanyoyin hasken wutar lantarki na masana'antu don wurare masu haɗari da na gaba ɗaya"
+    },
+    "motor-controllers-drives": {
+      "title": "Masu Kula da Mota & Tuƙi",
+      "description": "Canji mai mitar canji da hanyoyin sarrafa mota"
+    },
+    "protection-relays": {
+      "title": "Kariyar Relay",
+      "description": "Kariyar mota da relay na sa ido kan wutar lantarki"
+    },
+    "panel-meters-indicators": {
+      "title": "Mita na Panel & Alamomi",
+      "description": "Analog da mita na panel na dijital don ƙarfin lantarki, halin yanzu, da auna wuta"
     }
   },
   "sections": {
@@ -2367,6 +2395,94 @@
       "title": "BLDC Injinan Fanka na Tsayuwa",
       "description": "Injinan DC mara goge masu ƙarfi don aikace-aikacen fanka na tsayuwa tare da daidaitacce tsayi da fasalolin oscillation. Isar da iska mai girma tare da aikin amfani da wutar lantarki da aikin shiru."
     },
+    "vfd": {
+      "title": "Variable Frequency Drives (VFD)",
+      "description": "VFD masu ci gaba don daidaitaccen sarrafa gudun mota da tanadin makamashi. Siffofin sun haɗa da kariya da aka gina a ciki, hanyoyin sarrafawa da yawa, da hanyoyin sadarwa don haɗawa tare da tsarin sarrafa kansa."
+    },
+    "softStarter": {
+      "title": "Masu Farawa Mai Taushi",
+      "description": "Masu farawa mai laushi na mota don hanzarta santsi da raguwa, rage damuwa ta injiniya da hauhawar lantarki. Manhaja don famfo, fanka, conveyors, da aikace-aikacen compressor da ke buƙatar farawa mai sarrafawa."
+    },
+    "dolStarter": {
+      "title": "DOL Starters (Kai tsaye A Layi)",
+      "description": "Masu farawa mota kai tsaye akan layi don sarrafa mota mai sauƙi da abin dogaro. Ya haɗa da contactors, relays masu yawa, da da'irori masu sarrafawa don cikakken ƙarfin lantarki na fara injinan AC."
+    },
+    "powerContactors": {
+      "title": "Masu Tuntuɓar Wuta",
+      "description": "Masu tuntuɓar electromagnetic masu nauyi don sauya injinan da nauyin resistive. Akwai su a cikin ƙimar halin yanzu daban-daban tare da lambobin taimako da zaɓuɓɓukan kulle injiniya don aiki mai aminci."
+    },
+    "timerRelays": {
+      "title": "Relay na Mai Ƙidayar Lokaci",
+      "description": "Relay na mai ƙidayar lokaci mai shirye-shirye don aikace-aikacen sarrafa jinkirin lokaci. Ayyukan lokaci da yawa ciki har da jinkirin kunnawa, jinkirin kashewa, tazara, da lokacin bugun jini tare da daidaita dijital ko analog."
+    },
+    "controlTransformers": {
+      "title": "Canji Mai Sarrafawa",
+      "description": "Matakan saukar da canji mai sarrafawa don panel da da'irori masu sarrafa inji. Akwai a cikin ƙimar 1kVA, 3kVA, da 5kVA tare da kariyar fuse na farko da na biyu don amintaccen juyawa wutar lantarki."
+    },
+    "ledLightsFlp": {
+      "title": "Fitilun LED masu hana harshen wuta (FLP)",
+      "description": "ATEX/IECEx ta tabbatar da hasken LED mai hana harshen wuta don wurare masu haɗari. Gina mai hana fashewa tare da ingantaccen haske mai girma da tsawon rayuwar aiki don aikace-aikacen Zone 1 da Zone 2."
+    },
+    "ledLightsWp": {
+      "title": "Fitilun LED masu hana yanayi (WP)",
+      "description": "IP65/IP66 ta ƙididdige hasken LED mai hana yanayi don aikace-aikacen waje da wuraren jika. Gidaje masu jure lalata tare da ingantacciyar kariyar shigarwa don yanayi mai tsauri."
+    },
+    "digitalMotorProtectionRelay": {
+      "title": "Relay na Kariyar Mota na Dijital (C&S)",
+      "description": "Relay na kariyar mota na tushen microprocessor tare da cikakkun ayyukan kariya. Yana sa ido kan halin yanzu, ƙarfin lantarki, zafin jiki, da sigogin wuta tare da saitunan shirye-shirye da iyawar sadarwa."
+    },
+    "voltageMonitoringRelay": {
+      "title": "Relay na Kula da Ƙarfin Lantarki",
+      "description": "Relay na kula da ƙarfin lantarki mai matakai uku don kariya daga sama/ƙarƙashin ƙarfin lantarki, gazawar mataki, da kurakuran jerin matakai. Matakan tafiya masu daidaitawa tare da saitunan jinkirin lokaci don kariya ga kayan aiki masu mahimmanci."
+    },
+    "currentTransformers": {
+      "title": "Canji na Yanzu (CT)",
+      "description": "Canji na yanzu mai daidaito don aikace-aikacen mita da kariya. Akwai a cikin nau'ikan rabo daban-daban tare da aji 0.5 da 1.0 daidaito don aunawa, da ajin 5P/10P don da'irori na kariya."
+    },
+    "potentialTransformers": {
+      "title": "Canji Mai Yiwuwa (PT)",
+      "description": "Canji mai yiwuwa mai girma don auna ƙarfin lantarki da kariya. Ya dace da mita, relaying, da kayan aiki tare da kyakkyawan linearity da ƙarancin ƙaura mataki."
+    },
+    "analogAmmeters": {
+      "title": "Ammeters na Analog",
+      "description": "Mita na panel na analog mai motsi coil/baƙin ƙarfe don auna halin yanzu. Akwai a cikin nau'ikan kewayo daban-daban tare da sikelin da aka kammala karatu don aunawa kai tsaye ko na yanzu na CT a cikin bangarori masu sarrafawa."
+    },
+    "analogVoltmeters": {
+      "title": "Voltmeters na Analog",
+      "description": "Madaidaicin mita na panel na analog don auna ƙarfin lantarki na AC/DC. Gina mai ƙarfi tare da madubin anti-parallax da nau'ikan ƙarfin lantarki da yawa don daidaitaccen kulawa na gani."
+    },
+    "digitalAmmeters": {
+      "title": "Ammeters na Dijital",
+      "description": "LED/LCD ammeters na panel na dijital tare da babban daidaito da ƙuduri. Siffofin sun haɗa da kewayo ta atomatik, riƙon kololuwa, da hanyoyin sadarwa na zaɓi don tsarin sarrafawa na zamani."
+    },
+    "digitalVoltmeters": {
+      "title": "Voltmeters na Dijital",
+      "description": "Mita na panel na dijital don daidaitaccen auna ƙarfin lantarki na AC/DC. Manyan nunin LED/LCD tare da ƙararrawa mai shirye-shirye da iyawar shigar data don sa ido kan tsari."
+    },
+    "powerFactorMeters": {
+      "title": "Mita Mai Ƙarfin Wuta",
+      "description": "Mita mai ƙarfin wuta na analog da dijital don sa ido kan wutar lantarki mai amsawa. Muhimmi don gudanar da ingancin wutar lantarki tare da alamar gani na jagora, raguwa, da haɗin kan ƙarfin wuta."
+    },
+    "hrcFuses": {
+      "title": "Fiyusen HRC (Babban Ƙarfin Ƙarfi)",
+      "description": "Babban fiyusen ƙarfin karya don kariyar gajerun hanyoyi a cikin tsarin rarraba wutar lantarki. Akwai a cikin ƙimar halin yanzu daban-daban tare da ginin jiki na yumbu da lambobin sadarwa na azurfa."
+    },
+    "motorTerminalBlocks": {
+      "title": "Rukunin Terminal na Mota",
+      "description": "Rukunin tashoshi masu nauyi waɗanda aka ƙera don haɗin mota a cikin bangarori masu sarrafawa. Babban ƙarfin halin yanzu tare da ƙaƙƙarfan gini don amintaccen wayoyi na matakai uku."
+    },
+    "earthingStrips": {
+      "title": "Rarraba Ƙasa (Tagulla/Aluminum)",
+      "description": "Tagulla da aluminum rarraba ƙasa don tsarin ƙasa na lantarki. Akwai a cikin girman 25x3mm, 25x6mm, 50x6mm, da 75x10mm don ƙarancin juriya na haɗin ƙasa."
+    },
+    "lightningArrestors": {
+      "title": "Masu Kama Walƙiya",
+      "description": "Na'urorin kariya ta guguwa don walƙiya da kariyar guguwa. Nau'o'i daban-daban ciki har da ajin rarrabawa, ajin tashoshi, da masu kama da polymer don cikakkiyar kariyar wuce gona da iri."
+    },
+    "multiFunctionMeters": {
+      "title": "Mita Mai Aiki Da yawa",
+      "description": "Mita mai sigogi da yawa mai ci gaba da auna ƙarfin lantarki, halin yanzu, wuta, makamashi, ƙarfin wuta, da harmonics. Yana fasalta shigar data, fitarwa ƙararrawa, da sadarwar Modbus don cikakken sa ido kan wuta."
+    }
     "powerCables": {
       "title": "Kebul ɗin Wuta",
       "description": "Kebul ɗin wuta mai inganci don tsarin rarraba wutar lantarki. Akwai a cikin girman jagora daban-daban da nau'ikan rufewa don ƙananan, matsakaici, da manyan aikace-aikacen ƙarfin lantarki tare da ingantattun kaddarorin lantarki da injiniya."

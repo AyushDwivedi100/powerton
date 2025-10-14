@@ -33,6 +33,16 @@
           "title": "分析仪",
           "description": "用于质量控制的气体、液体和过程分析仪",
           "features": ["气体分析仪", "液体分析仪", "过程分析仪", "多参数系统"]
+        },
+        "instrument-transformers": {
+          "title": "仪器用变压器",
+          "description": "用于测量和保护的电流和电压互感器",
+          "features": [
+            "电流互感器",
+            "电压互感器",
+            "计量精度",
+            "保护等级"
+          ]
         }
       },
       "cta": {
@@ -76,6 +86,36 @@
           "title": "加热元件和设备",
           "description": "工业加热元件和电器",
           "features": ["加热元件", "工业加热器", "温度控制器", "热保护"]
+        },
+        "contactors-relays": {
+          "title": "接触器和继电器",
+          "description": "用于电机和负载控制的电力接触器、计时器和电磁继电器",
+          "features": [
+            "电力接触器",
+            "辅助接触器",
+            "时间继电器",
+            "控制继电器"
+          ]
+        },
+        "transformers-power-devices": {
+          "title": "变压器和电源设备",
+          "description": "控制变压器和电源转换设备",
+          "features": [
+            "控制变压器",
+            "隔离变压器",
+            "1kVA - 5kVA 范围",
+            "工业级"
+          ]
+        },
+        "led-lighting": {
+          "title": "LED 照明",
+          "description": "用于危险区域和普通区域的工业 LED 照明解决方案",
+          "features": [
+            "防爆 LED",
+            "防风雨 LED",
+            "节能",
+            "长寿命"
+          ]
         }
       },
       "cta": {
@@ -132,7 +172,16 @@
           "title": "HMI（人机界面）",
           "description": "用于工业控制系统的用户界面",
           "features": ["触摸屏显示器", "图形界面", "数据可视化", "操作员控制"]
-        }
+        },
+        "motor-controllers-drives": {
+          "title": "电机控制器和驱动器",
+          "description": "用于高效电机运行的变频驱动器和电机控制解决方案",
+          "features": [
+            "变频驱动器",
+            "软启动器",
+            "直接启动器",
+            "速度控制"
+          ]
       },
       "cta": {
         "title": "需要自动化解决方案？",
@@ -170,6 +219,16 @@
           "title": "安全设备",
           "description": "个人防护装备和安全装备",
           "features": ["符合PPE标准", "安全标准", "舒适设计", "耐用性"]
+        },
+        "protection-relays": {
+          "title": "保护继电器",
+          "description": "用于设备安全的电机保护和电压监测继电器",
+          "features": [
+            "电机保护",
+            "电压监测",
+            "过载检测",
+            "缺相保护"
+          ]
         }
       },
       "cta": {
@@ -251,6 +310,16 @@
           "title": "校准设备",
           "description": "精密校准工具和参考标准",
           "features": ["参考标准", "精密校准", "可追溯性", "精度验证"]
+        },
+        "panel-meters-indicators": {
+          "title": "面板仪表和指示器",
+          "description": "用于电压、电流和功率因数测量的模拟和数字面板仪表",
+          "features": [
+            "模拟/数字仪表",
+            "电压表",
+            "电流表",
+            "功率因数表"
+          ]
         }
       },
       "cta": {

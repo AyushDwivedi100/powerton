@@ -744,7 +744,35 @@
     "solar-charge-controllers": {
       "title": "Controladores de Carga Solar",
       "description": "Controladores de carga solar e gerenciamento de energia"
-    }
+    },
+  "instrument-transformers": {
+    "title": "Transformadores de Instrumento",
+    "description": "Transformadores de corrente e potencial para medição e proteção"
+  },
+  "contactors-relays": {
+    "title": "Contatores e Relés",
+    "description": "Contatores de potência e relés eletromagnéticos para controle de motor"
+  },
+  "transformers-power-devices": {
+    "title": "Transformadores e Dispositivos de Potência",
+    "description": "Transformadores de controle e equipamentos de conversão de energia"
+  },
+  "led-lighting": {
+    "title": "Iluminação LED",
+    "description": "Soluções de iluminação LED industrial para áreas perigosas e gerais"
+  },
+  "motor-controllers-drives": {
+    "title": "Controladores e Acionamentos de Motor",
+    "description": "Acionamentos de frequência variável e soluções de controle de motor"
+  },
+  "protection-relays": {
+    "title": "Relés de Proteção",
+    "description": "Relés de proteção de motor e monitoramento de tensão"
+  },
+  "panel-meters-indicators": {
+    "title": "Medidores e Indicadores de Painel",
+    "description": "Medidores de painel analógicos e digitais para medição de tensão, corrente e potência"
+  }
   },
   "sections": {
     "overview": "Visão Geral",
@@ -2366,6 +2394,94 @@
     "pedestalFanMotors": {
       "title": "Motores de Ventilador de Pedestal BLDC",
       "description": "Motores CC sem escovas potentes para aplicações de ventiladores de pedestal com recursos de altura ajustável e oscilação. Oferecendo fluxo de ar superior com operação energeticamente eficiente e desempenho silencioso."
+    },
+    "vfd": {
+      "title": "Acionamentos de Frequência Variável (VFD)",
+      "description": "VFDs avançados para controlo preciso da velocidade do motor e economia de energia. Os recursos incluem proteção integrada, vários modos de controlo e interfaces de comunicação para integração com sistemas de automação."
+    },
+    "softStarter": {
+      "title": "Soft Starters",
+      "description": "Soft starters de motor para aceleração e desaceleração suaves, reduzindo o estresse mecânico e as sobretensões elétricas. Ideal para bombas, ventiladores, transportadores e aplicações de compressores que exigem partida controlada."
+    },
+    "dolStarter": {
+      "title": "DOL Starters (Partida Direta)",
+      "description": "Partidas robustas de motor direto on-line para controlo de motor simples e confiável. Inclui contatores, relés de sobrecarga e circuitos de controlo para partida de tensão total de motores CA."
+    },
+    "powerContactors": {
+      "title": "Contatores de Potência",
+      "description": "Contatores eletromagnéticos para serviço pesado para comutação de motores e cargas resistivas. Disponível em várias classificações de corrente com contatos auxiliares e opções de intertravamento mecânico para operação segura."
+    },
+    "timerRelays": {
+      "title": "Relés Temporizadores",
+      "description": "Relés temporizadores programáveis para aplicações de controlo de retardo de tempo. Múltiplas funções de temporização, incluindo atraso na ativação, atraso na desativação, intervalo e temporização de pulso com ajuste digital ou analógico."
+    },
+    "controlTransformers": {
+      "title": "Transformadores de Controlo",
+      "description": "Transformadores de controlo abaixadores para circuitos de painel e controlo de máquina. Disponível em classificações de 1kVA, 3kVA e 5kVA com proteção primária e secundária por fusível para conversão de energia confiável."
+    },
+    "ledLightsFlp": {
+      "title": "Luzes LED à Prova de Chamas (FLP)",
+      "description": "Iluminação LED à prova de chamas com certificação ATEX/IECEx para áreas perigosas. Construção à prova de explosão com alta eficiência luminosa e longa vida operacional para aplicações de Zona 1 e Zona 2."
+    },
+    "ledLightsWp": {
+      "title": "Luzes LED à Prova de Intempéries (WP)",
+      "description": "Iluminação LED à prova de intempéries com classificação IP65/IP66 para aplicações externas e em áreas húmidas. Caixa resistente à corrosão com proteção superior contra entrada para condições ambientais adversas."
+    },
+    "digitalMotorProtectionRelay": {
+      "title": "Relé Digital de Proteção do Motor (C&S)",
+      "description": "Relés de proteção do motor baseados em microprocessador com funções de proteção abrangentes. Monitoriza corrente, tensão, temperatura e parâmetros de potência com configurações programáveis e capacidades de comunicação."
+    },
+    "voltageMonitoringRelay": {
+      "title": "Relé de Monitoramento de Tensão",
+      "description": "Relés de monitoramento de tensão trifásicos para proteção contra sobre/subtensão, falha de fase e falhas de sequência de fase. Níveis de disparo ajustáveis com configurações de atraso de tempo para proteção de equipamentos sensíveis."
+    },
+    "currentTransformers": {
+      "title": "Transformadores de Corrente (TC)",
+      "description": "Transformadores de corrente de precisão para aplicações de medição e proteção. Disponível em várias relações com precisão de classe 0,5 e 1,0 para medição e classe 5P/10P para circuitos de proteção."
+    },
+    "potentialTransformers": {
+      "title": "Transformadores de Potencial (TP)",
+      "description": "Transformadores de potencial de alta precisão para medição e proteção de tensão. Adequado para medição, relés e instrumentação com excelente linearidade e baixo deslocamento de fase."
+    },
+    "analogAmmeters": {
+      "title": "Amperímetros Analógicos",
+      "description": "Medidores de painel analógicos de bobina móvel/ferro para medição de corrente. Disponível em várias faixas com escalas graduadas claras para medição de corrente direta ou baseada em TC em painéis de controlo."
+    },
+    "analogVoltmeters": {
+      "title": "Voltímetros Analógicos",
+      "description": "Voltímetros de painel analógicos de precisão para medição de tensão CA/CC. Construção robusta com espelhos anti-paralaxe e várias faixas de tensão para monitoramento visual preciso."
+    },
+    "digitalAmmeters": {
+      "title": "Amperímetros Digitais",
+      "description": "Amperímetros de painel digital LED/LCD com alta precisão e resolução. Os recursos incluem auto-ranging, retenção de pico e interfaces de comunicação opcionais para sistemas de controlo modernos."
+    },
+    "digitalVoltmeters": {
+      "title": "Voltímetros Digitais",
+      "description": "Voltímetros de painel digital para medição precisa de tensão CA/CC. Grandes displays LED/LCD com alarmes programáveis e capacidades de registo de dados para monitoramento de processo."
+    },
+    "powerFactorMeters": {
+      "title": "Medidores de Fator de Potência",
+      "description": "Medidores de fator de potência analógicos e digitais para monitoramento de potência reativa. Essencial para gerenciamento da qualidade de energia com indicação visual do fator de potência líder, atrasado e unitário."
+    },
+    "hrcFuses": {
+      "title": "Fusíveis HRC (Alta Capacidade de Ruptura)",
+      "description": "Fusíveis de alta capacidade de interrupção para proteção contra curto-circuito em sistemas de distribuição de energia. Disponível em várias classificações de corrente com construção de corpo cerâmico e contatos banhados a prata."
+    },
+    "motorTerminalBlocks": {
+      "title": "Blocos de Terminais do Motor",
+      "description": "Blocos de terminais para serviço pesado projetados para conexões de motor em painéis de controlo. Alta capacidade de corrente com construção robusta para fiação segura do motor trifásico."
+    },
+    "earthingStrips": {
+      "title": "Barras de Aterramento (Cobre/Alumínio)",
+      "description": "Barras de aterramento de cobre e alumínio para sistemas de aterramento elétrico. Disponível nos tamanhos 25x3mm, 25x6mm, 50x6mm e 75x10mm para conexões de terra de baixa resistência."
+    },
+    "lightningArrestors": {
+      "title": "Para-raios",
+      "description": "Dispositivos de proteção contra surtos para proteção contra raios e surtos de comutação. Vários tipos, incluindo classe de distribuição, classe de estação e para-raios com revestimento de polímero para proteção abrangente contra sobretensão."
+    },
+    "multiFunctionMeters": {
+      "title": "Medidores Multifuncionais",
+      "description": "Medidores multifuncionais avançados que medem tensão, corrente, potência, energia, fator de potência e harmónicos. Apresentando registo de dados, saídas de alarme e comunicação Modbus para monitoramento abrangente de energia."
     },
     "powerCables": {
       "title": "Cabos de Alimentação",

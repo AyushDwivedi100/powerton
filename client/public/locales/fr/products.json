@@ -744,7 +744,35 @@
     "solar-charge-controllers": {
       "title": "Contrôleurs de charge solaire",
       "description": "Contrôleurs de charge solaire et gestion de l'alimentation"
-    }
+    },
+  "instrument-transformers": {
+    "title": "Transformateurs d'instrument",
+    "description": "Transformateurs de courant et de potentiel pour la mesure et la protection"
+  },
+  "contactors-relays": {
+    "title": "Contacteurs et relais",
+    "description": "Contacteurs de puissance et relais électromagnétiques pour le contrôle des moteurs"
+  },
+  "transformers-power-devices": {
+    "title": "Transformateurs et dispositifs d'alimentation",
+    "description": "Transformateurs de commande et équipement de conversion de puissance"
+  },
+  "led-lighting": {
+    "title": "Éclairage LED",
+    "description": "Solutions d'éclairage LED industrielles pour les zones dangereuses et générales"
+  },
+  "motor-controllers-drives": {
+    "title": "Contrôleurs de moteur et variateurs",
+    "description": "Variateurs de fréquence et solutions de contrôle de moteur"
+  },
+  "protection-relays": {
+    "title": "Relais de protection",
+    "description": "Relais de protection de moteur et de surveillance de tension"
+  },
+  "panel-meters-indicators": {
+    "title": "Mètres et indicateurs de panneau",
+    "description": "Mètres de panneau analogiques et numériques pour la mesure de la tension, du courant et de la puissance"
+  },
   },
   "sections": {
     "overview": "Aperçu",
@@ -2366,6 +2394,94 @@
     "pedestalFanMotors": {
       "title": "Moteurs de ventilateur sur pied BLDC",
       "description": "Moteurs CC sans balais puissants pour les applications de ventilateur sur pied avec des fonctions de hauteur réglable et d'oscillation. Offrant un débit d'air supérieur avec un fonctionnement éconénergétique et une performance silencieuse."
+    },
+    "vfd": {
+      "title": "Entraînements à fréquence variable (VFD)",
+      "description": "VFD avancés pour un contrôle précis de la vitesse du moteur et des économies d'énergie. Les caractéristiques comprennent une protection intégrée, de multiples modes de contrôle et des interfaces de communication pour l'intégration avec les systèmes d'automatisation."
+    },
+    "softStarter": {
+      "title": "Démarreurs progressifs",
+      "description": "Démarreurs progressifs de moteur pour une accélération et une décélération en douceur, réduisant les contraintes mécaniques et les surtensions électriques. Idéal pour les applications de pompes, de ventilateurs, de convoyeurs et de compresseurs nécessitant un démarrage contrôlé."
+    },
+    "dolStarter": {
+      "title": "Démarreurs DOL (Direct On Line)",
+      "description": "Démarreurs de moteur directs en ligne robustes pour un contrôle simple et fiable du moteur. Comprend des contacteurs, des relais de surcharge et des circuits de commande pour le démarrage en pleine tension des moteurs à courant alternatif."
+    },
+    "powerContactors": {
+      "title": "Contacteurs de puissance",
+      "description": "Contacteurs électromagnétiques robustes pour la commutation des moteurs et des charges résistives. Disponibles en différentes intensités avec des contacts auxiliaires et des options de verrouillage mécanique pour un fonctionnement sûr."
+    },
+    "timerRelays": {
+      "title": "Relais temporisés",
+      "description": "Relais temporisés programmables pour les applications de contrôle de temporisation. Fonctions de temporisation multiples, y compris la temporisation à l'enclenchement, la temporisation au déclenchement, l'intervalle et la temporisation d'impulsion avec réglage numérique ou analogique."
+    },
+    "controlTransformers": {
+      "title": "Transformateurs de commande",
+      "description": "Transformateurs de commande abaisseurs pour les circuits de commande de panneau et de machine. Disponibles en puissances de 1kVA, 3kVA et 5kVA avec protection par fusible primaire et secondaire pour une conversion de puissance fiable."
+    },
+    "ledLightsFlp": {
+      "title": "Luminaires LED antidéflagrants (FLP)",
+      "description": "Éclairage LED antidéflagrant certifié ATEX/IECEx pour les zones dangereuses. Construction antidéflagrante avec une efficacité lumineuse élevée et une longue durée de vie opérationnelle pour les applications de Zone 1 et Zone 2."
+    },
+    "ledLightsWp": {
+      "title": "Luminaires LED résistants aux intempéries (WP)",
+      "description": "Éclairage LED résistant aux intempéries IP65/IP66 pour les applications extérieures et les zones humides. Boîtier résistant à la corrosion avec une protection supérieure contre la pénétration pour les conditions environnementales difficiles."
+    },
+    "digitalMotorProtectionRelay": {
+      "title": "Relais numérique de protection du moteur (C&S)",
+      "description": "Relais de protection du moteur à microprocesseur avec des fonctions de protection complètes. Surveille les paramètres de courant, de tension, de température et de puissance avec des réglages programmables et des capacités de communication."
+    },
+    "voltageMonitoringRelay": {
+      "title": "Relais de surveillance de tension",
+      "description": "Relais de surveillance de tension triphasée pour la protection contre les surtensions/sous-tensions, les défauts de perte de phase et de séquence de phases. Niveaux de déclenchement réglables avec des réglages de temporisation pour la protection des équipements sensibles."
+    },
+    "currentTransformers": {
+      "title": "Transformateurs de courant (TC)",
+      "description": "Transformateurs de courant de précision pour les applications de comptage et de protection. Disponibles en différents rapports avec une précision de classe 0,5 et 1,0 pour la mesure, et de classe 5P/10P pour les circuits de protection."
+    },
+    "potentialTransformers": {
+      "title": "Transformateurs de potentiel (TP)",
+      "description": "Transformateurs de potentiel de haute précision pour la mesure et la protection de la tension. Convient pour le comptage, le relais et l'instrumentation avec une excellente linéarité et un faible déplacement de phase."
+    },
+    "analogAmmeters": {
+      "title": "Ampèremètres analogiques",
+      "description": "Appareils de mesure analogiques à bobine mobile/fer mobile pour la mesure du courant. Disponibles en différentes gammes avec des échelles graduées claires pour la mesure directe du courant ou basée sur TC dans les panneaux de commande."
+    },
+    "analogVoltmeters": {
+      "title": "Voltmètres analogiques",
+      "description": "Voltmètres analogiques de précision pour la mesure de la tension CA/CC. Construction renforcée avec des miroirs anti-parallaxe et de multiples gammes de tension pour une surveillance visuelle précise."
+    },
+    "digitalAmmeters": {
+      "title": "Ampèremètres numériques",
+      "description": "Ampèremètres numériques à LED/LCD avec une haute précision et résolution. Les caractéristiques comprennent la sélection automatique de la gamme, le maintien de la valeur de crête et des interfaces de communication optionnelles pour les systèmes de commande modernes."
+    },
+    "digitalVoltmeters": {
+      "title": "Voltmètres numériques",
+      "description": "Voltmètres numériques pour la mesure précise de la tension CA/CC. Grands écrans LED/LCD avec des alarmes programmables et des capacités d'enregistrement des données pour la surveillance des processus."
+    },
+    "powerFactorMeters": {
+      "title": "Wattmètres",
+      "description": "Wattmètres analogiques et numériques pour la surveillance de la puissance réactive. Essentiel pour la gestion de la qualité de l'énergie avec une indication visuelle du facteur de puissance en avance, en retard et unitaire."
+    },
+    "hrcFuses": {
+      "title": "Fusibles HRC (High Rupturing Capacity)",
+      "description": "Fusibles à capacité de coupure élevée pour la protection contre les courts-circuits dans les systèmes de distribution électrique. Disponibles en différentes intensités avec une construction de corps en céramique et des contacts plaqués argent."
+    },
+    "motorTerminalBlocks": {
+      "title": "Borniers de moteur",
+      "description": "Borniers robustes conçus pour les connexions de moteur dans les panneaux de commande. Capacité de courant élevée avec une construction robuste pour un câblage de moteur triphasé sécurisé."
+    },
+    "earthingStrips": {
+      "title": "Barres de terre (Cuivre/Aluminium)",
+      "description": "Barres de terre en cuivre et en aluminium pour les systèmes de mise à la terre électrique. Disponibles en tailles de 25x3mm, 25x6mm, 50x6mm et 75x10mm pour les connexions de terre à faible résistance."
+    },
+    "lightningArrestors": {
+      "title": "Parafoudres",
+      "description": "Dispositifs de protection contre les surtensions pour la protection contre la foudre et les surtensions de commutation. Différents types, y compris les parafoudres de classe de distribution, de classe de station et à boîtier polymère pour une protection complète contre les surtensions."
+    },
+    "multiFunctionMeters": {
+      "title": "Multimètres multifonctions",
+      "description": "Multimètres avancés à paramètres multiples mesurant la tension, le courant, la puissance, l'énergie, le facteur de puissance et les harmoniques. Dotés de l'enregistrement des données, de sorties d'alarme et de la communication Modbus pour une surveillance complète de l'alimentation."
     },
     "powerCables": {
       "title": "Câbles d'alimentation",

@@ -63,6 +63,16 @@
             "Vichambuzi vya Mchakato",
             "Mifumo ya Vigezo Nyingi"
           ]
+        },
+        "instrument-transformers": {
+          "title": "Transfoma za Ala",
+          "description": "Transfoma za sasa na za uwezo kwa ajili ya kupima na ulinzi",
+          "features": [
+            "Transfoma za Sasa",
+            "Transfoma za Uwezo",
+            "Usahihi wa Upimaji",
+            "Darasa la Ulinzi"
+          ]
         }
       },
       "cta": {
@@ -135,6 +145,36 @@
             "Hita za Viwandani",
             "Vidhibiti vya Halijoto",
             "Ulinzi wa Joto"
+          ]
+        },
+        "contactors-relays": {
+          "title": "Viwasilishi na Relays",
+          "description": "Viwasilishi vya nguvu, vipima muda, na relays za sumaku kwa udhibiti wa motor na mzigo",
+          "features": [
+            "Viwasilishi vya Nguvu",
+            "Viwasilishi Saidizi",
+            "Relays za Vipima Muda",
+            "Relays za Udhibiti"
+          ]
+        },
+        "transformers-power-devices": {
+          "title": "Transfoma na Vifaa vya Nguvu",
+          "description": "Transfoma za udhibiti na vifaa vya ubadilishaji wa nguvu",
+          "features": [
+            "Transfoma za Udhibiti",
+            "Transfoma za Kutenga",
+            "Kiwango cha 1kVA - 5kVA",
+            "Daraja la Viwandani"
+          ]
+        },
+        "led-lighting": {
+          "title": "Taa za LED",
+          "description": "Suluhisho za taa za LED za viwandani kwa maeneo hatarishi na ya jumla",
+          "features": [
+            "LED Isiyoshika Moto",
+            "LED Isiyopitisha Hali ya Hewa",
+            "Inatumia Nishati Vizuri",
+            "Maisha Marefu"
           ]
         }
       },
@@ -227,6 +267,16 @@
             "Taswira ya Data",
             "Udhibiti wa Opereta"
           ]
+        },
+        "motor-controllers-drives": {
+          "title": "Vidhibiti na Viendeshi vya Motor",
+          "description": "Viendeshi vya masafa tofauti na suluhisho za udhibiti wa motor kwa uendeshaji bora wa motor",
+          "features": [
+            "VFD",
+            "Viashiria Laini",
+            "Viashiria vya DOL",
+            "Udhibiti wa Kasi"
+          ]
         }
       },
       "cta": {
@@ -294,6 +344,16 @@
             "Viwango vya Usalama",
             "Ubunifu wa Faraja",
             "Uimara"
+          ]
+        },
+        "protection-relays": {
+          "title": "Relays za Ulinzi",
+          "description": "Relays za ulinzi wa motor na ufuatiliaji wa voltage kwa usalama wa vifaa",
+          "features": [
+            "Ulinzi wa Motor",
+            "Ufuatiliaji wa Voltage",
+            "Ugunduzi wa Kupakia Zaidi",
+            "Ulinzi wa Kushindwa kwa Awamu"
           ]
         }
       },
@@ -441,6 +501,16 @@
             "Urekebishaji wa Usahihi",
             "Ufuatiliaji",
             "Uthibitishaji wa Usahihi"
+          ]
+        },
+        "panel-meters-indicators": {
+          "title": "Mita za Paneli na Viashiria",
+          "description": "Mita za paneli za analogi na dijitali kwa kupima volti, mkondo, na sababu ya nguvu",
+          "features": [
+            "Mita za Analogi/Dijitali",
+            "Mita za Volti",
+            "Mita za Mkondo",
+            "Mita za Sababu ya Nguvu"
           ]
         }
       },

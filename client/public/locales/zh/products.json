@@ -649,6 +649,34 @@
     "solar-charge-controllers": {
       "title": "太阳能充电控制器",
       "description": "太阳能充电控制器和电源管理"
+    },
+    "instrument-transformers": {
+      "title": "仪用互感器",
+      "description": "用于测量和保护的电流互感器和电压互感器"
+    },
+    "contactors-relays": {
+      "title": "接触器和继电器",
+      "description": "用于电机控制的电力接触器和电磁继电器"
+    },
+    "transformers-power-devices": {
+      "title": "变压器和电源设备",
+      "description": "控制变压器和电源转换设备"
+    },
+    "led-lighting": {
+      "title": "LED照明",
+      "description": "用于危险区域和通用区域的工业LED照明解决方案"
+    },
+    "motor-controllers-drives": {
+      "title": "电机控制器和驱动器",
+      "description": "变频驱动器和电机控制解决方案"
+    },
+    "protection-relays": {
+      "title": "保护继电器",
+      "description": "电机保护和电压监控继电器"
+    },
+    "panel-meters-indicators": {
+      "title": "面板仪表和指示器",
+      "description": "用于电压、电流和功率测量的模拟和数字面板仪表"
     }
   },
   "sections": {
@@ -2250,6 +2278,94 @@
     "pedestalFanMotors": {
       "title": "BLDC 落地扇电机",
       "description": "功能强大的无刷直流电机，适用于具有高度可调和摆动功能的落地扇应用。以节能运行和静音性能提供卓越的气流。"
+    },
+    "vfd": {
+      "title": "变频驱动器 (VFD)",
+      "description": "用于精确电机速度控制和节能的先进 VFD。功能包括内置保护、多种控制模式以及用于与自动化系统集成的通信接口。"
+    },
+    "softStarter": {
+      "title": "软启动器",
+      "description": "用于平稳加速和减速的电机软启动器，可减少机械应力和电涌。适用于需要受控启动的泵、风扇、传送带和压缩机应用。"
+    },
+    "dolStarter": {
+      "title": "DOL 启动器（直接启动）",
+      "description": "坚固的直接启动电机启动器，用于简单可靠的电机控制。包括接触器、过载继电器和控制电路，用于交流电机的全压启动。"
+    },
+    "powerContactors": {
+      "title": "电源接触器",
+      "description": "用于切换电机和电阻负载的重型电磁接触器。提供各种电流额定值，带有辅助触点和机械互锁选项，以实现安全运行。"
+    },
+    "timerRelays": {
+      "title": "时间继电器",
+      "description": "用于延时控制应用的可编程时间继电器。多种定时功能，包括延时启动、延时断开、间隔和脉冲定时，带有数字或模拟调节。"
+    },
+    "controlTransformers": {
+      "title": "控制变压器",
+      "description": "用于面板和机器控制电路的降压控制变压器。提供 1kVA、3kVA 和 5kVA 额定值，带有初级和次级熔断器保护，以实现可靠的电源转换。"
+    },
+    "ledLightsFlp": {
+      "title": "防爆 LED 灯 (FLP)",
+      "description": "经过 ATEX/IECEx 认证的防爆 LED 照明，适用于危险区域。防爆结构，具有高发光效率和长工作寿命，适用于 1 区和 2 区应用。"
+    },
+    "ledLightsWp": {
+      "title": "防风雨 LED 灯 (WP)",
+      "description": "IP65/IP66 级防风雨 LED 照明，适用于室外和潮湿区域应用。耐腐蚀外壳，具有出色的防 ingress 保护，适用于恶劣环境条件。"
+    },
+    "digitalMotorProtectionRelay": {
+      "title": "数字电机保护继电器 (C&S)",
+      "description": "基于微处理器的电机保护继电器，具有全面的保护功能。监控电流、电压、温度和功率参数，具有可编程设置和通信功能。"
+    },
+    "voltageMonitoringRelay": {
+      "title": "电压监控继电器",
+      "description": "三相电压监控继电器，用于防止过/欠电压、缺相和相序故障。可调节跳闸电平，带有时间延迟设置，用于敏感设备保护。"
+    },
+    "currentTransformers": {
+      "title": "电流互感器 (CT)",
+      "description": "用于计量和保护应用的精密电流互感器。提供各种比率，具有 0.5 和 1.0 级精度，用于测量，以及 5P/10P 级用于保护电路。"
+    },
+    "potentialTransformers": {
+      "title": "电压互感器 (PT)",
+      "description": "用于电压测量和保护的高精度电压互感器。适用于计量、继电保护和仪器仪表，具有出色的线性度和低相位移。"
+    },
+    "analogAmmeters": {
+      "title": "模拟电流表",
+      "description": "用于电流测量的动圈/铁芯模拟面板仪表。提供各种量程，带有清晰的刻度，用于控制面板中基于直接或 CT 的电流测量。"
+    },
+    "analogVoltmeters": {
+      "title": "模拟电压表",
+      "description": "用于交流/直流电压测量的精密模拟面板电压表。坚固的结构，带有防视差镜和多个电压量程，可实现精确的可视监控。"
+    },
+    "digitalAmmeters": {
+      "title": "数字电流表",
+      "description": "具有高精度和分辨率的 LED/LCD 数字面板电流表。功能包括自动量程、峰值保持和可选的通信接口，适用于现代控制系统。"
+    },
+    "digitalVoltmeters": {
+      "title": "数字电压表",
+      "description": "用于精确交流/直流电压测量的数字面板电压表。大型 LED/LCD 显示屏，带有可编程警报和数据记录功能，用于过程监控。"
+    },
+    "powerFactorMeters": {
+      "title": "功率因数表",
+      "description": "用于监控无功功率的模拟和数字功率因数表。对于电力质量管理至关重要，具有超前、滞后和单位功率因数的可视指示。"
+    },
+    "hrcFuses": {
+      "title": "HRC 熔断器（高分断能力）",
+      "description": "用于配电系统中短路保护的高分断能力熔断器。提供各种电流额定值，采用陶瓷主体结构和镀银触点。"
+    },
+    "motorTerminalBlocks": {
+      "title": "电机接线端子",
+      "description": "专为控制面板中的电机连接而设计的重型接线端子。高电流容量，结构坚固，可实现安全的三相电机接线。"
+    },
+    "earthingStrips": {
+      "title": "接地带（铜/铝）",
+      "description": "用于电气接地系统的铜和铝接地带。提供 25x3mm、25x6mm、50x6mm 和 75x10mm 尺寸，用于低电阻接地连接。"
+    },
+    "lightningArrestors": {
+      "title": "避雷器",
+      "description": "用于雷电和开关浪涌保护的浪涌保护设备。各种类型，包括配电级、站级和聚合物外壳避雷器，用于全面的过电压保护。"
+    },
+    "multiFunctionMeters": {
+      "title": "多功能仪表",
+      "description": "测量电压、电流、功率、能量、功率因数和谐波的先进多参数仪表。具有数据记录、警报输出和 Modbus 通信功能，可实现全面的电源监控。"
     },
     "powerCables": {
       "title": "电力电缆",

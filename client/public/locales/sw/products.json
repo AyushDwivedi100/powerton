@@ -744,7 +744,35 @@
     "solar-charge-controllers": {
       "title": "Vidhibiti vya Kuchaji Sola",
       "description": "Vidhibiti vya kuchaji sola na usimamizi wa nguvu"
-    }
+    },
+  "instrument-transformers": {
+    "title": "Transfoma za Ala",
+    "description": "Transfoma za sasa na za uwezo kwa kipimo na ulinzi"
+  },
+  "contactors-relays": {
+    "title": "Viwasilishaji na Relays",
+    "description": "Viwasilishaji vya nguvu na relays za sumakuumeme kwa udhibiti wa motor"
+  },
+  "transformers-power-devices": {
+    "title": "Transfoma na Vifaa vya Nguvu",
+    "description": "Transfoma za udhibiti na vifaa vya ubadilishaji wa nguvu"
+  },
+  "led-lighting": {
+    "title": "Taa za LED",
+    "description": "Suluhisho za taa za LED za viwandani kwa maeneo hatarishi na ya jumla"
+  },
+  "motor-controllers-drives": {
+    "title": "Vidhibiti vya Motor na Viendeshi",
+    "description": "Viendeshi vya masafa vinavyobadilika na suluhisho za udhibiti wa motor"
+  },
+  "protection-relays": {
+    "title": "Relays za Ulinzi",
+    "description": "Ulinzi wa motor na relays za ufuatiliaji wa voltage"
+  },
+  "panel-meters-indicators": {
+    "title": "Mita za Paneli na Viashiria",
+    "description": "Mita za paneli za analogi na dijitali kwa voltage, mkondo, na kipimo cha nguvu"
+  }
   },
   "sections": {
     "overview": "Muhtasari",
@@ -2366,6 +2394,94 @@
     "pedestalFanMotors": {
       "title": "Motors za Feni ya Msingi za BLDC",
       "description": "Motors za DC zisizo na brashi zenye nguvu kwa matumizi ya feni ya msingi yenye urefu unaoweza kubadilishwa na vipengele vya oscillation. Hutoa mtiririko bora wa hewa na uendeshaji unaotumia nishati vizuri na utendaji kimya."
+    },
+    "vfd": {
+      "title": "Viendeshi vya Masafa Vinavyobadilika (VFD)",
+      "description": "VFD za hali ya juu kwa udhibiti sahihi wa kasi ya motor na uokoaji wa nishati. Vipengele ni pamoja na ulinzi uliojengwa ndani, njia nyingi za udhibiti, na violesura vya mawasiliano kwa muunganisho na mifumo ya otomatiki."
+    },
+    "softStarter": {
+      "title": "Vianzishi Laini",
+      "description": "Vianzishi laini vya motor kwa kuongeza kasi na kupunguza kasi vizuri, kupunguza msongo wa mitambo na mawimbi ya umeme. Inafaa kwa pampu, feni, conveyors, na matumizi ya compressor yanayohitaji uanzishaji uliodhibitiwa."
+    },
+    "dolStarter": {
+      "title": "Vianzishi vya DOL (Moja kwa Moja Kwenye Mstari)",
+      "description": "Vianzishi thabiti vya moja kwa moja kwenye mstari kwa udhibiti rahisi na wa kuaminika wa motor. Inajumuisha kontaktori, relay za upakiaji, na mizunguko ya udhibiti kwa uanzishaji wa voltage kamili wa motors za AC."
+    },
+    "powerContactors": {
+      "title": "Kontaktori za Nguvu",
+      "description": "Kontaktori za sumakuumeme za kazi nzito kwa kubadili motors na mizigo ya resistive. Inapatikana katika ukadiriaji mbalimbali wa sasa na mawasiliano saidizi na chaguzi za kuunganisha mitambo kwa uendeshaji salama."
+    },
+    "timerRelays": {
+      "title": "Relay za Muda",
+      "description": "Relay za muda zinazoweza kupangwa kwa matumizi ya udhibiti wa kucheleweshwa kwa muda. Kazi nyingi za muda ikiwa ni pamoja na kuchelewesha, kuzima, muda wa interval, na muda wa mapigo na marekebisho ya dijitali au analogi."
+    },
+    "controlTransformers": {
+      "title": "Transfoma za Udhibiti",
+      "description": "Transfoma za udhibiti wa hatua kwa hatua kwa mizunguko ya udhibiti wa paneli na mashine. Inapatikana katika ukadiriaji wa 1kVA, 3kVA, na 5kVA na ulinzi wa fuse ya msingi na sekondari kwa ubadilishaji wa nguvu wa kuaminika."
+    },
+    "ledLightsFlp": {
+      "title": "Taa za LED zisizoshika moto (FLP)",
+      "description": "Taa za LED zisizoshika moto zilizoidhinishwa na ATEX/IECEx kwa maeneo hatarishi. Ujenzi usio na mlipuko na ufanisi wa juu wa luminous na maisha marefu ya uendeshaji kwa matumizi ya Zone 1 na Zone 2."
+    },
+    "ledLightsWp": {
+      "title": "Taa za LED zisizopitisha hali ya hewa (WP)",
+      "description": "Taa za LED zisizopitisha hali ya hewa zilizokadiriwa na IP65/IP66 kwa matumizi ya nje na eneo lenye unyevu. Nyumba inayostahimili kutu na ulinzi bora wa ingress kwa hali mbaya ya mazingira."
+    },
+    "digitalMotorProtectionRelay": {
+      "title": "Relay ya Ulinzi wa Motor ya Dijitali (C&S)",
+      "description": "Relay za ulinzi wa motor za msingi wa microprocessor zilizo na kazi za ulinzi za kina. Hufuatilia vigezo vya sasa, voltage, joto, na nguvu na mipangilio inayoweza kupangwa na uwezo wa mawasiliano."
+    },
+    "voltageMonitoringRelay": {
+      "title": "Relay ya Ufuatiliaji wa Voltage",
+      "description": "Relay za ufuatiliaji wa voltage ya awamu tatu kwa ulinzi dhidi ya voltage ya juu/chini, kushindwa kwa awamu, na makosa ya mfuatano wa awamu. Viwango vya safari vinavyoweza kurekebishwa na mipangilio ya kuchelewesha kwa muda kwa ulinzi wa vifaa nyeti."
+    },
+    "currentTransformers": {
+      "title": "Transfoma za Sasa (CT)",
+      "description": "Transfoma za sasa za usahihi kwa matumizi ya metering na ulinzi. Inapatikana katika uwiano mbalimbali na usahihi wa darasa la 0.5 na 1.0 kwa kipimo, na darasa la 5P/10P kwa mizunguko ya ulinzi."
+    },
+    "potentialTransformers": {
+      "title": "Transfoma za Uwezo (PT)",
+      "description": "Transfoma za uwezo wa usahihi wa hali ya juu kwa kipimo cha voltage na ulinzi. Inafaa kwa metering, relaying, na ala na linearity bora na uhamishaji wa awamu ya chini."
+    },
+    "analogAmmeters": {
+      "title": "Ammeters za Analogi",
+      "description": "Mita za paneli za analogi za kusonga coil/chuma kwa kipimo cha sasa. Inapatikana katika safu mbalimbali na mizani iliyohitimu wazi kwa kipimo cha sasa cha moja kwa moja au cha CT katika paneli za udhibiti."
+    },
+    "analogVoltmeters": {
+      "title": "Voltmeters za Analogi",
+      "description": "Voltmeters za paneli za analogi za usahihi kwa kipimo cha voltage ya AC/DC. Ujenzi ulioimarishwa na vioo vya kupambana na parallax na safu nyingi za voltage kwa ufuatiliaji sahihi wa kuona."
+    },
+    "digitalAmmeters": {
+      "title": "Ammeters za Dijitali",
+      "description": "Ammeters za paneli za dijitali za LED/LCD zilizo na usahihi wa hali ya juu na azimio. Vipengele ni pamoja na upangaji otomatiki, kushikilia kilele, na violesura vya mawasiliano vya hiari kwa mifumo ya kisasa ya udhibiti."
+    },
+    "digitalVoltmeters": {
+      "title": "Voltmeters za Dijitali",
+      "description": "Voltmeters za paneli za dijitali kwa kipimo sahihi cha voltage ya AC/DC. Maonyesho makubwa ya LED/LCD yenye kengele zinazoweza kupangwa na uwezo wa kuingia data kwa ufuatiliaji wa mchakato."
+    },
+    "powerFactorMeters": {
+      "title": "Mita za Sababu ya Nguvu",
+      "description": "Mita za sababu ya nguvu za analogi na dijitali kwa ufuatiliaji wa nguvu tendaji. Muhimu kwa usimamizi wa ubora wa nguvu na dalili ya kuona ya sababu ya nguvu inayoongoza, iliyoachwa, na umoja."
+    },
+    "hrcFuses": {
+      "title": "Fuses za HRC (Uwezo wa Juu wa Kupasuka)",
+      "description": "Fuses za uwezo wa juu wa kuvunja kwa ulinzi wa mzunguko mfupi katika mifumo ya usambazaji wa nguvu. Inapatikana katika ukadiriaji mbalimbali wa sasa na ujenzi wa mwili wa kauri na mawasiliano ya fedha."
+    },
+    "motorTerminalBlocks": {
+      "title": "Vitalu vya Kituo cha Motor",
+      "description": "Vitalu vya kituo cha kazi nzito vilivyoundwa kwa miunganisho ya motor katika paneli za udhibiti. Uwezo wa juu wa sasa na ujenzi thabiti kwa wiring salama ya motor ya awamu tatu."
+    },
+    "earthingStrips": {
+      "title": "Strepi za Kutuliza (Shaba/Aluminium)",
+      "description": "Strepi za kutuliza shaba na aluminium kwa mifumo ya kutuliza umeme. Inapatikana katika ukubwa wa 25x3mm, 25x6mm, 50x6mm, na 75x10mm kwa miunganisho ya ardhi ya upinzani mdogo."
+    },
+    "lightningArrestors": {
+      "title": "Vizuizi vya Umeme",
+      "description": "Vifaa vya ulinzi wa mawimbi kwa umeme na ulinzi wa mawimbi ya kubadili. Aina mbalimbali ikiwa ni pamoja na darasa la usambazaji, darasa la kituo, na vizuizi vilivyowekwa polima kwa ulinzi kamili wa overvoltage."
+    },
+    "multiFunctionMeters": {
+      "title": "Mita za Kazi Nyingi",
+      "description": "Mita za vigezo vingi za hali ya juu zinazopima voltage, sasa, nguvu, nishati, sababu ya nguvu, na harmonics. Zikiwa na uwezo wa kuingia data, matokeo ya kengele, na mawasiliano ya Modbus kwa ufuatiliaji wa nguvu wa kina."
     },
     "powerCables": {
       "title": "Kebo za Nguvu",

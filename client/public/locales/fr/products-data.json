@@ -63,6 +63,16 @@
             "Analyseurs de processus",
             "Systèmes multiparamètres"
           ]
+        },
+        "instrument-transformers": {
+          "title": "Transformateurs d'instrument",
+          "description": "Transformateurs de courant et de potentiel pour la mesure et la protection",
+          "features": [
+            "Transformateurs de courant",
+            "Transformateurs de potentiel",
+            "Précision de la mesure",
+            "Classe de protection"
+          ]
         }
       },
       "cta": {
@@ -136,7 +146,36 @@
             "Contrôleurs de température",
             "Protection thermique"
           ]
-        }
+        },
+        "contactors-relays": {
+          "title": "Contacteurs et relais",
+          "description": "Contacteurs de puissance, temporisateurs et relais électromagnétiques pour le contrôle des moteurs et des charges",
+          "features": [
+            "Contacteurs de puissance",
+            "Contacteurs auxiliaires",
+            "Relais temporisés",
+            "Relais de contrôle"
+          ]
+        },
+        "transformers-power-devices": {
+          "title": "Transformateurs et dispositifs d'alimentation",
+          "description": "Transformateurs de commande et équipements de conversion de puissance",
+          "features": [
+            "Transformateurs de commande",
+            "Transformateurs d'isolement",
+            "Gamme de 1kVA à 5kVA",
+            "Qualité industrielle"
+          ]
+        },
+        "led-lighting": {
+          "title": "Éclairage LED",
+          "description": "Solutions d'éclairage LED industrielles pour les zones dangereuses et générales",
+          "features": [
+            "LED antidéflagrante",
+            "LED résistante aux intempéries",
+            "Économe en énergie",
+            "Longue durée de vie"
+          ]
       },
       "cta": {
         "title": "Besoin de composants électriques?",
@@ -227,6 +266,16 @@
             "Visualisation des données",
             "Contrôle opérateur"
           ]
+        },
+        "motor-controllers-drives": {
+          "title": "Contrôleurs et entraînements de moteur",
+          "description": "Entraînements à fréquence variable et solutions de contrôle de moteur pour un fonctionnement efficace du moteur",
+          "features": [
+            "VFD",
+            "Démarreurs progressifs",
+            "Démarreurs directs",
+            "Contrôle de la vitesse"
+          ]
         }
       },
       "cta": {
@@ -294,6 +343,16 @@
             "Normes de sécurité",
             "Conception confortable",
             "Durabilité"
+          ]
+        },
+        "protection-relays": {
+          "title": "Relais de protection",
+          "description": "Relais de protection du moteur et de surveillance de la tension pour la sécurité des équipements",
+          "features": [
+            "Protection du moteur",
+            "Surveillance de la tension",
+            "Détection de surcharge",
+            "Protection contre les défauts de phase"
           ]
         }
       },
@@ -441,6 +500,16 @@
             "Étalonnage de précision",
             "Traçabilité",
             "Vérification de la précision"
+          ]
+        },
+        "panel-meters-indicators": {
+          "title": "Mètres et indicateurs de panneau",
+          "description": "Mètres de panneau analogiques et numériques pour la mesure de la tension, du courant et du facteur de puissance",
+          "features": [
+            "Mètres analogiques/numériques",
+            "Voltmètres",
+            "Ampèremètres",
+            "Mètres de facteur de puissance"
           ]
         }
       },
@@ -1564,7 +1633,7 @@
         "IEEE C62.41",
         "Marquage CE",
         "Conforme à la norme RoHS",
-        "Homologué UL"
+        "Homologué �UL"
       ],
       "seo": {
         "title": "Parafoudres - Dispositifs industriels de protection électrique | Powerton Engineering",
@@ -4555,7 +4624,7 @@
       "Blindage en feuille + tresse (couverture de 90 %)",
       "Isolation et gaine en PVC",
       "Tension nominale de 300 V",
-      "Plage de température : -20 °C à +80 °C",
+      "Plage de température : -20 s�C à +80 °C",
       "Protection supérieure contre les interférences électromagnétiques/radioélectriques",
       "Idéal pour les environnements bruyants"
     ]

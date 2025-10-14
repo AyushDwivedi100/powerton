@@ -63,6 +63,16 @@
             "Analizadores de Proceso",
             "Sistemas Multiparámetro"
           ]
+        },
+        "instrument-transformers": {
+          "title": "Transformadores de Instrumentos",
+          "description": "Transformadores de corriente y potencial para medición y protección",
+          "features": [
+            "Transformadores de Corriente",
+            "Transformadores de Potencial",
+            "Precisión de Medición",
+            "Clase de Protección"
+          ]
         }
       },
       "cta": {
@@ -135,6 +145,36 @@
             "Calentadores Industriales",
             "Controladores de Temperatura",
             "Protección Térmica"
+          ]
+        },
+        "contactors-relays": {
+          "title": "Contactores y Relés",
+          "description": "Contactores de potencia, temporizadores y relés electromagnéticos para el control de motores y cargas",
+          "features": [
+            "Contactores de Potencia",
+            "Contactores Auxiliares",
+            "Relés Temporizadores",
+            "Relés de Control"
+          ]
+        },
+        "transformers-power-devices": {
+          "title": "Transformadores y Dispositivos de Potencia",
+          "description": "Transformadores de control y equipos de conversión de energía",
+          "features": [
+            "Transformadores de Control",
+            "Transformadores de Aislamiento",
+            "Rango de 1kVA - 5kVA",
+            "Grado Industrial"
+          ]
+        },
+        "led-lighting": {
+          "title": "Iluminación LED",
+          "description": "Soluciones de iluminación LED industrial para áreas peligrosas y generales",
+          "features": [
+            "LED a Prueba de Explosiones",
+            "LED Resistente a la Intemperie",
+            "Eficiencia Energética",
+            "Larga Vida Útil"
           ]
         }
       },
@@ -227,6 +267,16 @@
             "Visualización de Datos",
             "Control del Operador"
           ]
+        },
+        "motor-controllers-drives": {
+          "title": "Controladores y Variadores de Motor",
+          "description": "Variadores de frecuencia y soluciones de control de motor para un funcionamiento eficiente del motor",
+          "features": [
+            "VFD",
+            "Arrancadores Suaves",
+            "Arrancadores DOL",
+            "Control de Velocidad"
+          ]
         }
       },
       "cta": {
@@ -294,6 +344,16 @@
             "Normas de Seguridad",
             "Diseño Cómodo",
             "Durabilidad"
+          ]
+        },
+        "protection-relays": {
+          "title": "Relés de Protección",
+          "description": "Relés de protección de motor y monitoreo de voltaje para la seguridad del equipo",
+          "features": [
+            "Protección del Motor",
+            "Monitoreo de Voltaje",
+            "Detección de Sobrecarga",
+            "Protección contra Fallas de Fase"
           ]
         }
       },
@@ -441,6 +501,16 @@
             "Calibración de Precisión",
             "Trazabilidad",
             "Verificación de Precisión"
+          ]
+        },
+        "panel-meters-indicators": {
+          "title": "Medidores e Indicadores de Panel",
+          "description": "Medidores de panel analógicos y digitales para la medición de voltaje, corriente y factor de potencia",
+          "features": [
+            "Medidores Analógicos/Digitales",
+            "Medidores de Voltaje",
+            "Medidores de Corriente",
+            "Medidores de Factor de Potencia"
           ]
         }
       },

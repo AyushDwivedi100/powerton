@@ -14,7 +14,7 @@
       ],
       "sectionTitle": "Categorias de Produtos",
       "subcategories": {
-        "sensores-transdutores": {
+        "sensors-transducers": {
           "title": "Sensores e Transdutores",
           "description": "Sensores e transdutores industriais para medição de temperatura, pressão e vazão",
           "features": [
@@ -24,7 +24,7 @@
             "Sensores de Nível"
           ]
         },
-        "transmissores-medidores-vazao": {
+        "transmitters-flow-meters": {
           "title": "Transmissores e Medidores de Vazão",
           "description": "Transmissores de sinal e medidores de vazão para medição de processo industrial",
           "features": [
@@ -34,17 +34,17 @@
             "Transmissores de Nível"
           ]
         },
-        "interruptores-indicadores": {
+        "switches-indicators": {
           "title": "Interruptores e Indicadores",
-          "description": "Interruptores, indicadores e dispositivos de sinalização industriais",
+          "description": "Interruptores industriais, indicadores e dispositivos de sinalização",
           "features": [
-            "Interruptores de Botão de Pressão",
+            "Interruptores de Botão",
             "Chaves Seletoras",
             "Luzes Indicadoras",
             "Paradas de Emergência"
           ]
         },
-        "valvulas-atuadores": {
+        "valves-actuators": {
           "title": "Válvulas e Atuadores",
           "description": "Válvulas de controle e atuadores para sistemas de controle de processo",
           "features": [
@@ -54,14 +54,24 @@
             "Posicionadores de Válvula"
           ]
         },
-        "analisadores": {
+        "analyzers": {
           "title": "Analisadores",
           "description": "Analisadores de gás, líquido e processo para controle de qualidade",
           "features": [
             "Analisadores de Gás",
             "Analisadores de Líquido",
             "Analisadores de Processo",
-            "Sistemas Multi-parâmetros"
+            "Sistemas Multi-parâmetro"
+          ]
+        },
+        "instrument-transformers": {
+          "title": "Transformadores de Instrumento",
+          "description": "Transformadores de corrente e potencial para medição e proteção",
+          "features": [
+            "Transformadores de Corrente",
+            "Transformadores de Potencial",
+            "Precisão de Medição",
+            "Classe de Proteção"
           ]
         }
       },
@@ -73,7 +83,7 @@
     },
     "electrical-accessories": {
       "title": "Acessórios Elétricos",
-      "description": "Gama abrangente de componentes elétricos para sistemas de distribuição e controle de energia",
+      "description": "Gama abrangente de componentes elétricos para sistemas de distribuição de energia e controle",
       "badges": [
         "Distribuição de Energia",
         "Sistemas de Controle",
@@ -94,7 +104,7 @@
         },
         "conectores-terminais": {
           "title": "Conectores e Terminais",
-          "description": "Conectores elétricos e blocos de terminais para conexões seguras",
+          "description": "Conectores elétricos e bornes para conexões seguras",
           "features": [
             "Blocos de Terminais",
             "Conectores de Fio",
@@ -119,7 +129,7 @@
         },
         "gabinetes-invólucros": {
           "title": "Gabinetes e Invólucros",
-          "description": "Gabinetes elétricos e gabinetes de controle para proteção de equipamentos",
+          "description": "Invólucros elétricos e gabinetes de controle para proteção de equipamentos",
           "features": [
             "Painéis de Controle",
             "Quadros de Distribuição",
@@ -127,7 +137,7 @@
             "Invólucros à Prova de Intempéries"
           ]
         },
-        "elementos-aquecimento-aparelhos": {
+        "heating-elements-appliances": {
           "title": "Elementos de Aquecimento e Aparelhos",
           "description": "Elementos de aquecimento industrial e aparelhos elétricos",
           "features": [
@@ -135,6 +145,36 @@
             "Aquecedores Industriais",
             "Controladores de Temperatura",
             "Proteção Térmica"
+          ]
+        },
+        "contactors-relays": {
+          "title": "Contatores e Relés",
+          "description": "Contatores de potência, timers e relés eletromagnéticos para controle de motor e carga",
+          "features": [
+            "Contatores de Potência",
+            "Contatores Auxiliares",
+            "Relés Temporizadores",
+            "Relés de Controle"
+          ]
+        },
+        "transformers-power-devices": {
+          "title": "Transformadores e Dispositivos de Potência",
+          "description": "Transformadores de controle e equipamentos de conversão de energia",
+          "features": [
+            "Transformadores de Controle",
+            "Transformadores de Isolamento",
+            "Faixa de 1kVA - 5kVA",
+            "Grau Industrial"
+          ]
+        },
+        "led-lighting": {
+          "title": "Iluminação LED",
+          "description": "Soluções de iluminação LED industrial para áreas perigosas e gerais",
+          "features": [
+            "LED à Prova de Chamas",
+            "LED à Prova de Intempéries",
+            "Eficiência Energética",
+            "Longa Vida Útil"
           ]
         }
       },
@@ -167,7 +207,7 @@
         },
         "solar-inverters": {
           "title": "Inversores Solares",
-          "description": "Conversão de energia DC para AC para sistemas solares",
+          "description": "Conversão de energia CC para CA para sistemas solares",
           "features": [
             "Conexão à Rede",
             "Fora da Rede",
@@ -178,7 +218,7 @@
       },
       "cta": {
         "title": "Pronto para Energia Solar?",
-        "description": "Nossos especialistas em energia solar podem projetar um sistema completo de energia solar adaptado às suas necessidades.",
+        "description": "Nossos especialistas em energia solar podem projetar um sistema de energia solar completo adaptado às suas necessidades.",
         "contactButtonText": "Contate Especialistas em Energia Solar"
       }
     },
@@ -186,11 +226,11 @@
       "title": "Sistemas de Automação e Controle",
       "description": "Soluções avançadas de automação e controle para gerenciamento e otimização de processos industriais",
       "badges": ["CLPs", "SCADA", "DCS", "IHM"],
-      "sectionTitle": "Soluções de Sistemas de Controle",
+      "sectionTitle": "Soluções de Sistema de Controle",
       "subcategories": {
         "plcs": {
           "title": "CLPs (Controladores Lógicos Programáveis)",
-          "description": "Controladores de automação industrial para controle de processos",
+          "description": "Controladores de automação industrial para controle de processo",
           "features": [
             "E/S Digital",
             "Processamento Analógico",
@@ -227,6 +267,16 @@
             "Visualização de Dados",
             "Controle do Operador"
           ]
+        },
+        "motor-controllers-drives": {
+          "title": "Controladores e Acionamentos de Motor",
+          "description": "Acionamentos de frequência variável e soluções de controle de motor para operação eficiente do motor",
+          "features": [
+            "VFD",
+            "Soft Starters",
+            "DOL Starters",
+            "Controle de Velocidade"
+          ]
         }
       },
       "cta": {
@@ -237,9 +287,9 @@
     },
     "safety-protective-devices": {
       "title": "Dispositivos de Segurança e Proteção",
-      "description": "Equipamentos abrangentes de segurança e proteção para garantir a segurança do pessoal e do equipamento em ambientes industriais",
+      "description": "Equipamentos de segurança e proteção abrangentes para garantir a segurança de pessoal e equipamentos em ambientes industriais",
       "badges": [
-        "Proteção Contra Surto",
+        "Proteção contra Surto",
         "Sistemas de Aterramento",
         "Relés de Segurança",
         "Segurança Intrínseca"
@@ -247,12 +297,12 @@
       "sectionTitle": "Soluções de Segurança",
       "subcategories": {
         "surge-protectors": {
-          "title": "Protetores Contra Surto",
+          "title": "Protetores de Surto",
           "description": "Dispositivos de proteção contra surtos elétricos para segurança de equipamentos",
           "features": [
-            "Proteção Contra Raios",
-            "Proteção Contra Surto de Tensão",
-            "Segurança do Equipamento",
+            "Proteção contra Raios",
+            "Proteção contra Surto de Tensão",
+            "Segurança de Equipamentos",
             "Qualidade de Energia"
           ]
         },
@@ -295,6 +345,16 @@
             "Design Confortável",
             "Durabilidade"
           ]
+        },
+        "protection-relays": {
+          "title": "Relés de Proteção",
+          "description": "Relés de proteção de motor e monitoramento de tensão para segurança de equipamentos",
+          "features": [
+            "Proteção do Motor",
+            "Monitoramento de Tensão",
+            "Detecção de Sobrecarga",
+            "Proteção contra Falha de Fase"
+          ]
         }
       },
       "cta": {
@@ -312,21 +372,21 @@
         "Bombas de Engrenagem",
         "Peças de Reposição"
       ],
-      "sectionTitle": "Soluções de Bombeamento",
+      "sectionTitle": "Soluções de Bomba",
       "subcategories": {
         "centrifugal-pumps": {
           "title": "Bombas Centrífugas",
           "description": "Bombas centrífugas de alta eficiência para manuseio de fluidos",
           "features": [
             "Altas Taxas de Vazão",
-            "Autoescorvante",
+            "Autoescorvamento",
             "Resistente à Corrosão",
             "Eficiência Energética"
           ]
         },
         "diaphragm-pumps": {
           "title": "Bombas de Diafragma",
-          "description": "Bombas de diafragma de deslocamento positivo para controle de fluxo preciso",
+          "description": "Bombas de diafragma de deslocamento positivo para controle de vazão preciso",
           "features": [
             "Deslocamento Positivo",
             "Compatibilidade Química",
@@ -340,7 +400,7 @@
           "features": [
             "Alta Pressão",
             "Fluidos Viscosos",
-            "Dosagem Precisa",
+            "Medição Precisa",
             "Design Compacto"
           ]
         },
@@ -349,14 +409,14 @@
           "description": "Peças de reposição e componentes sobressalentes para todos os tipos de bombas",
           "features": [
             "Peças OEM",
-            "Vedações e Juntas",
+            "Vedantes e Juntas",
             "Impulsores",
             "Kits de Manutenção"
           ]
         }
       },
       "cta": {
-        "title": "Precisa de Soluções de Bombeamento?",
+        "title": "Precisa de Soluções de Bomba?",
         "description": "Nossos especialistas em bombas podem ajudá-lo a selecionar a solução de bombeamento certa para sua aplicação.",
         "contactButtonText": "Contate Especialistas em Bombas"
       }
@@ -390,7 +450,7 @@
             "Alto Desempenho",
             "Velocidade Variável",
             "Opções Sem Fio",
-            "Serviço Pesado Industrial"
+            "Serviço Industrial"
           ]
         },
         "cutting-tools": {
@@ -404,7 +464,7 @@
           ]
         },
         "lifting-equipment": {
-          "title": "Equipamentos de Elevação",
+          "title": "Equipamento de Elevação",
           "description": "Guinchos, guindastes e acessórios de elevação para manuseio de materiais",
           "features": [
             "Serviço Pesado",
@@ -442,6 +502,16 @@
             "Rastreabilidade",
             "Verificação de Precisão"
           ]
+        },
+        "panel-meters-indicators": {
+          "title": "Medidores e Indicadores de Painel",
+          "description": "Medidores de painel analógicos e digitais para medição de tensão, corrente e fator de potência",
+          "features": [
+            "Medidores Analógicos/Digitais",
+            "Medidores de Tensão",
+            "Medidores de Corrente",
+            "Medidores de Fator de Potência"
+          ]
         }
       },
       "cta": {
@@ -452,7 +522,7 @@
     },
     "bldc": {
       "title": "Sistemas de Motor BLDC",
-      "description": "Soluções de motor DC sem escovas com eficiência energética para aplicações industriais e comerciais",
+      "description": "Soluções de motor CC sem escovas com eficiência energética para aplicações industriais e comerciais",
       "badges": [
         "Motores BLDC",
         "Eficiência Energética",
@@ -463,7 +533,7 @@
       "subcategories": {
         "bldc-cooler-exhaust-motor": {
           "title": "Motores BLDC para Resfriadores e Exaustores",
-          "description": "Motores de alta eficiência para aplicações de resfriamento e ventilação",
+          "description": "Motores de alta eficiência para aplicações de refrigeração e ventilação",
           "features": [
             "Eficiência Energética",
             "Baixo Ruído",
@@ -503,14 +573,14 @@
         }
       },
       "cta": {
-        "title": "Atualizar para Tecnologia BLDC?",
-        "description": "Nossos especialistas em BLDC podem ajudá-lo a fazer a transição para soluções de motor DC sem escovas com eficiência energética.",
+        "title": "Atualizar para a Tecnologia BLDC?",
+        "description": "Nossos especialistas em BLDC podem ajudá-lo a fazer a transição para soluções de motor CC sem escovas com eficiência energética.",
         "contactButtonText": "Contate Especialistas em BLDC"
       }
     }
   },
   "subcategories": {
-    "sensores-transdutores": {
+    "sensors-transducers": {
       "title": "Sensores e Transdutores",
       "shortDescription": "Gama abrangente de sensores de nível industrial para automação e controle de processos",
       "fullDescription": "Soluções avançadas de sensores, incluindo sensores de proximidade, sensores de temperatura RTD, termopares e sensores de pH para automação industrial e controle de processos.",
@@ -532,8 +602,8 @@
       "applications": [
         "Controle e Monitoramento de Processo",
         "Monitoramento Ambiental",
-        "Monitoramento de Condição de Máquina",
-        "Integração de Sistemas de Segurança",
+        "Monitoramento de Condição da Máquina",
+        "Integração do Sistema de Segurança",
         "Sistemas de Controle de Qualidade",
         "Gestão de Energia"
       ],
@@ -569,10 +639,10 @@
         "keywords": "sensores industriais, sensores de proximidade, sensores PNP, sensores NPN, sensores RTD, PT100, PT500, PT1000, termopares, sensores de pH, sensores de temperatura, sensores de automação"
       }
     },
-    "transmissores-medidores-vazao": {
+    "transmitters-flow-meters": {
       "title": "Transmissores e Medidores de Vazão",
       "shortDescription": "Transmissores de precisão para medição de pressão, temperatura, vazão e nível",
-      "fullDescription": "Gama abrangente de transmissores industriais com tecnologias avançadas, incluindo strain gauge, capacitivo e detecção piezoresistiva com comunicação digital HART.",
+      "fullDescription": "Gama abrangente de transmissores industriais com tecnologias avançadas, incluindo detecção de strain gauge, capacitiva e piezoresistiva com comunicação digital HART.",
       "parentCategoryTitle": "Acessórios de Instrumentação",
       "keyBenefits": [
         "Precisão Líder do Setor",
@@ -591,7 +661,7 @@
       "applications": [
         "Medição de Pressão",
         "Monitoramento de Temperatura",
-        "Controle de Taxa de Vazão",
+        "Controle de Vazão",
         "Detecção de Nível",
         "Pressão Diferencial",
         "Integração de Controle de Processo"
@@ -601,7 +671,7 @@
         "Processamento Químico",
         "Geração de Energia",
         "Água e Esgoto",
-        "Celulose e Papel",
+        "Papel e Celulose",
         "Mineração e Metais"
       ],
       "features": [
@@ -610,7 +680,7 @@
         "Configuração Remota",
         "Autodiagnóstico",
         "Opções Multivariáveis",
-        "Capacidades Sem Fio",
+        "Recursos Sem Fio",
         "Design à Prova de Explosão",
         "Estabilidade de Longo Prazo"
       ],
@@ -619,19 +689,19 @@
         "Aprovado pela IECEx",
         "Capacidade SIL 2/3",
         "Aprovado pela FM",
-        "Certificado CSA",
-        "Marcação CE"
+        "Certificado pela CSA",
+        "Marca CE"
       ],
       "seo": {
-        "title": "Transmissores Industriais e Medidores de Vazão - Pressão, Temperatura, Nível | Powerton Engineering",
-        "description": "Transmissores industriais de precisão e medidores de vazão para medição de pressão, temperatura, vazão e nível. Soluções HART, Foundation Fieldbus e sem fio para controle de processos.",
+        "title": "Transmissores e Medidores de Vazão Industriais - Pressão, Temperatura, Nível | Powerton Engineering",
+        "description": "Transmissores e medidores de vazão industriais de precisão para medição de pressão, temperatura, vazão e nível. Soluções HART, Foundation Fieldbus e sem fio para controle de processo.",
         "keywords": "transmissores industriais, medidores de vazão, transmissores de pressão, transmissores de temperatura, transmissores de nível, transmissores HART, instrumentação de processo"
       }
     },
-    "interruptores-indicadores": {
+    "switches-indicators": {
       "title": "Interruptores e Indicadores",
-      "shortDescription": "Interruptores industriais essenciais para automação e controle: pressostatos, chaves de nível, chaves fim de curso e botões de pressão",
-      "fullDescription": "Gama abrangente de interruptores industriais, incluindo pressostatos da Danfoss e Schneider Electric, chaves de nível da Endress+Hauser e ABB, chaves fim de curso da Omron e Schneider Electric e botões de pressão de fabricantes líderes para controle de automação confiável.",
+      "shortDescription": "Interruptores industriais essenciais para automação e controle: pressostatos, chaves de nível, chaves limitadoras e botões de pressão",
+      "fullDescription": "Gama abrangente de interruptores industriais, incluindo pressostatos da Danfoss e Schneider Electric, chaves de nível da Endress+Hauser e ABB, chaves limitadoras da Omron e Schneider Electric e botões de pressão de fabricantes líderes para controle de automação confiável.",
       "parentCategoryTitle": "Acessórios de Instrumentação",
       "keyBenefits": [
         "Alta Confiabilidade e Durabilidade",
@@ -648,9 +718,9 @@
         "Configuração de Contato: NO/NC/DPDT"
       ],
       "applications": [
-        "Integração de Painel de Controle",
+        "Integração do Painel de Controle",
         "Sistemas de Parada de Emergência",
-        "Controle de Máquina",
+        "Controle da Máquina",
         "Indicação de Processo",
         "Intertravamentos de Segurança",
         "Monitoramento de Status"
@@ -675,22 +745,22 @@
       ],
       "certifications": [
         "Listado pela UL",
-        "Marcação CE",
-        "Certificado CSA",
+        "Marca CE",
+        "Certificado pela CSA",
         "IEC 60947-5-1",
         "Compatível com RoHS",
         "ISO 13850"
       ],
       "seo": {
         "title": "Interruptores e Indicadores Industriais - Componentes do Painel de Controle | Powerton Engineering",
-        "description": "Interruptores, botões de pressão, indicadores e componentes do painel de controle de nível industrial. Paradas de emergência, luzes piloto, chaves seletoras para sistemas de automação e controle.",
-        "keywords": "interruptores industriais, interruptores de botão de pressão, componentes do painel de controle, paradas de emergência, luzes piloto, indicadores, chaves seletoras"
+        "description": "Interruptores, botões de pressão, indicadores e componentes do painel de controle de nível industrial. Paradas de emergência, luzes piloto, interruptores seletore para sistemas de automação e controle.",
+        "keywords": "interruptores industriais, botões de pressão, componentes do painel de controle, paradas de emergência, luzes piloto, indicadores, interruptores seletores"
       }
     },
-    "valvulas-atuadores": {
+    "valves-actuators": {
       "title": "Válvulas e Atuadores",
       "shortDescription": "Soluções de válvulas essenciais para automação industrial: válvulas de controle e válvulas solenoides",
-      "fullDescription": "Soluções de válvulas profissionais com válvulas de controle da Fisher (Emerson) e SAMSON para controle de processo preciso e válvulas solenoides da ASCO e Parker Hannifin para controle automatizado de fluidos em aplicações industriais.",
+      "fullDescription": "Soluções de válvulas profissionais com válvulas de controle da Fisher (Emerson) e SAMSON para controle de processo preciso e válvulas solenoides da ASCO e Parker Hannifin para controle de fluido automatizado em aplicações industriais.",
       "parentCategoryTitle": "Acessórios de Instrumentação",
       "keyBenefits": [
         "Controle de Fluxo Preciso",
@@ -708,7 +778,7 @@
       ],
       "applications": [
         "Controle de Fluxo",
-        "Regulação de Pressão",
+        "Regulagem de Pressão",
         "Controle de Temperatura",
         "Desligamento de Segurança",
         "Isolamento de Processo",
@@ -720,7 +790,7 @@
         "Geração de Energia",
         "Tratamento de Água",
         "Farmacêutica",
-        "Celulose e Papel"
+        "Papel e Celulose"
       ],
       "features": [
         "Capacidade de Alta Pressão",
@@ -742,18 +812,18 @@
       ],
       "seo": {
         "title": "Válvulas e Atuadores Industriais - Válvulas de Controle, Válvulas de Segurança | Powerton Engineering",
-        "description": "Válvulas de controle industriais e atuadores para controle de processos. Válvulas de esfera, válvulas de gaveta, válvulas de retenção com atuadores pneumáticos e elétricos para aplicações de petróleo, gás e produtos químicos.",
-        "keywords": "válvulas industriais, válvulas de controle, atuadores de válvulas, válvulas de esfera, válvulas de gaveta, válvulas de segurança, válvulas de processo"
+        "description": "Válvulas de controle e atuadores industriais para controle de processo. Válvulas de esfera, válvulas de gaveta, válvulas de retenção com atuadores pneumáticos e elétricos para aplicações de petróleo, gás e produtos químicos.",
+        "keywords": "válvulas industriais, válvulas de controle, atuadores de válvula, válvulas de esfera, válvulas de gaveta, válvulas de segurança, válvulas de processo"
       }
     },
-    "analisadores": {
+    "analyzers": {
       "title": "Analisadores",
-      "shortDescription": "Analisadores avançados de gás, líquido e processo para controle de qualidade e monitoramento",
-      "fullDescription": "Gama abrangente de analisadores de processo, incluindo cromatografia gasosa, analisadores de líquidos, analisadores de O2/CO2 e instrumentos de medição especializados para aplicações de monitoramento de processo e controle de qualidade.",
+      "shortDescription": "Analisadores avançados de gás, líquido e processo para controle e monitoramento de qualidade",
+      "fullDescription": "Gama abrangente de analisadores de processo, incluindo cromatografia gasosa, analisadores de líquidos, analisadores de O2/CO2 e instrumentos de medição especializados para monitoramento de processo e aplicações de controle de qualidade.",
       "parentCategoryTitle": "Acessórios de Instrumentação",
       "keyBenefits": [
         "Otimização do Controle de Processo",
-        "Garantia de Qualidade do Produto",
+        "Garantia da Qualidade do Produto",
         "Conformidade Regulatória",
         "Monitoramento de Segurança Aprimorado"
       ],
@@ -770,14 +840,14 @@
         "Monitoramento da Qualidade do Líquido",
         "Monitoramento Ambiental",
         "Otimização de Processo",
-        "Garantia de Qualidade",
+        "Garantia da Qualidade",
         "Monitoramento de Segurança"
       ],
       "industries": [
         "Processamento Químico",
         "Refino de Petróleo e Gás",
         "Geração de Energia",
-        "Produtos Farmacêuticos",
+        "Farmacêutica",
         "Tratamento de Água",
         "Alimentos e Bebidas"
       ],
@@ -796,7 +866,7 @@
         "Aprovação IECEx",
         "Classificação SIL 2",
         "FDA 21 CFR Parte 11",
-        "Marcação CE",
+        "Marca CE",
         "ISO 9001"
       ],
       "seo": {
@@ -805,7 +875,7 @@
         "keywords": "analisadores de processo, analisadores de gás, analisadores de líquido, cromatografia, analisadores de O2, analisadores de CO2, monitoramento de processo"
       }
     },
-    "cabos-fios": {
+    "cables-wires": {
       "title": "Cabos e Fios",
       "shortDescription": "Cabos e fios industriais para transmissão de energia e aplicações de controle",
       "fullDescription": "Gama abrangente de cabos elétricos, incluindo cabos de alimentação, cabos de controle, cabos de instrumentação e cabos de comunicação para instalações industriais.",
@@ -813,7 +883,7 @@
       "keyBenefits": [
         "Alta Capacidade de Condução de Corrente",
         "Excelentes Propriedades de Isolamento",
-        "Materiais Retardantes de Chama",
+        "Materiais Retardantes de Chamas",
         "Longa Vida Útil"
       ],
       "specifications": [
@@ -842,20 +912,20 @@
       ],
       "features": [
         "Resistente ao Fogo",
-        "Resistente ao Óleo",
-        "Resistente aos Raios UV",
+        "Resistente a Óleo",
+        "Resistente a UV",
         "Resistente à Umidade",
         "Design Flexível",
         "Fácil Instalação",
         "Baixa Emissão de Fumaça",
-        "Opções Livres de Halogênio"
+        "Opções Sem Halogênio"
       ],
       "certifications": [
         "Certificado IEC 60502",
-        "Testado pela IEEE 1202",
+        "Testado IEEE 1202",
         "Listado pela UL",
         "Aprovado pela CSA",
-        "Marcação CE",
+        "Marca CE",
         "Compatível com RoHS"
       ],
       "seo": {
@@ -864,10 +934,10 @@
         "keywords": "cabos industriais, cabos de alimentação, cabos de controle, cabos de instrumentação, fios elétricos, cabos de comunicação, cabos blindados"
       }
     },
-    "conectores-terminais": {
+    "connectors-terminals": {
       "title": "Conectores e Terminais",
-      "shortDescription": "Conectores elétricos e bornes para conexões seguras",
-      "fullDescription": "Gama completa de soluções de conexão elétrica, incluindo bornes, conectores de fio, caixas de junção e conectores industriais para conexões elétricas confiáveis.",
+      "shortDescription": "Conectores elétricos e blocos de terminais para conexões seguras",
+      "fullDescription": "Gama completa de soluções de conexão elétrica, incluindo blocos de terminais, conectores de fio, caixas de junção e conectores industriais para conexões elétricas confiáveis.",
       "parentCategoryTitle": "Acessórios Elétricos",
       "keyBenefits": [
         "Conexões Seguras",
@@ -912,18 +982,18 @@
       "certifications": [
         "IEC 60947-7-1",
         "Listado pela UL",
-        "Certificado CSA",
+        "Certificado pela CSA",
         "Aprovado pela VDE",
-        "Marcação CE",
+        "Marca CE",
         "Compatível com RoHS"
       ],
       "seo": {
-        "title": "Conectores e Terminais Elétricos - Bornes e Conectores de Fio | Powerton Engineering",
-        "description": "Conectores elétricos e bornes para aplicações industriais. Terminais de trilho DIN, conectores de fio, caixas de junção para conexões elétricas seguras.",
-        "keywords": "conectores elétricos, bornes, conectores de fio, terminais de trilho DIN, caixas de junção, terminais elétricos"
+        "title": "Conectores e Terminais Elétricos - Blocos de Terminais e Conectores de Fio | Powerton Engineering",
+        "description": "Conectores elétricos e blocos de terminais para aplicações industriais. Terminais de trilho DIN, conectores de fio, caixas de junção para conexões elétricas seguras.",
+        "keywords": "conectores elétricos, blocos de terminais, conectores de fio, terminais de trilho DIN, caixas de junção, terminais elétricos"
       }
     },
-    "disjuntores-fusíveis": {
+    "circuit-breakers-fuses": {
       "title": "Disjuntores e Fusíveis",
       "shortDescription": "Dispositivos de proteção elétrica para distribuição de energia industrial",
       "fullDescription": "Gama completa de dispositivos de proteção de circuito, incluindo MCBs, MCCBs, ACBs e fusíveis industriais para proteção abrangente do sistema elétrico.",
@@ -947,7 +1017,7 @@
         "Proteção de Motor",
         "Proteção de Transformador",
         "Proteção de Gerador",
-        "Equipamento Industrial",
+        "Equipamentos Industriais",
         "Serviços de Construção"
       ],
       "industries": [
@@ -972,7 +1042,7 @@
         "Certificado IEC 60947",
         "Listado pela UL 489",
         "Aprovado pela CSA",
-        "Marcação CE",
+        "Marca CE",
         "Compatível com RoHS",
         "ISO 9001"
       ],
@@ -982,7 +1052,7 @@
         "keywords": "disjuntores, MCB, MCCB, ACB, fusíveis industriais, proteção elétrica, proteção contra sobrecorrente, distribuição de energia"
       }
     },
-    "fontes-alimentacao": {
+    "power-supplies": {
       "title": "Fontes de Alimentação",
       "shortDescription": "Fontes de alimentação industriais e conversores DC-DC",
       "fullDescription": "Fontes de alimentação industriais confiáveis, incluindo conversores AC-DC, conversores DC-DC e sistemas UPS para aplicações industriais críticas.",
@@ -1025,13 +1095,13 @@
         "Indicadores de Status LED",
         "Ampla Faixa de Temperatura",
         "Alta Confiabilidade",
-        "Compatível com EMI/EMC"
+        "Conformidade com EMI/EMC"
       ],
       "certifications": [
         "Listado pela UL",
-        "Marcação CE",
-        "Certificado TUV",
-        "Certificado CB",
+        "Marca CE",
+        "Certificado pela TUV",
+        "Certificado pela CB",
         "Compatível com RoHS",
         "Energy Star"
       ],
@@ -1041,8 +1111,8 @@
         "keywords": "fontes de alimentação industriais, conversores AC-DC, conversores DC-DC, fontes de alimentação de trilho DIN, PSU industrial, fontes de alimentação de automação"
       }
     },
-    "gabinetes-invólucros": {
-      "title": "Gabinetes e Invólucros",
+    "enclosures-cabinets": {
+      "title": "Invólucros e Gabinetes",
       "shortDescription": "Invólucros elétricos industriais e gabinetes de controle",
       "fullDescription": "Invólucros elétricos robustos e gabinetes de controle projetados para ambientes industriais agressivos com várias classificações de proteção e opções de montagem.",
       "parentCategoryTitle": "Acessórios Elétricos",
@@ -1065,7 +1135,7 @@
         "Quadros de Distribuição",
         "Alojamento de Instrumentos",
         "Caixas de Junção",
-        "Equipamento Externo",
+        "Equipamentos Externos",
         "Áreas Perigosas"
       ],
       "industries": [
@@ -1077,7 +1147,7 @@
         "Transporte"
       ],
       "features": [
-        "Design à Prova de Intempéries",
+        "Design Resistente às Intempéries",
         "Resistente à Corrosão",
         "Portas Trancáveis",
         "Opções de Entrada de Cabos",
@@ -1091,16 +1161,16 @@
         "IEC 60529",
         "Listado pela UL",
         "Aprovado pela CSA",
-        "Marcação CE",
+        "Marca CE",
         "Aprovado pela ATEX"
       ],
       "seo": {
-        "title": "Gabinetes e Invólucros Industriais - Invólucros de Painel de Controle | Powerton Engineering",
+        "title": "Invólucros e Gabinetes Industriais - Invólucros de Painel de Controle | Powerton Engineering",
         "description": "Invólucros elétricos industriais e gabinetes de controle com várias classificações IP. Invólucros com classificação NEMA para ambientes agressivos e áreas perigosas.",
-        "keywords": "invólucros industriais, gabinetes elétricos, invólucros de painel de controle, invólucros com classificação NEMA, invólucros com classificação IP, caixas de junção"
+        "keywords": "invólucros industriais, gabinetes elétricos, invólucros de painel de controle, invólucros NEMA, invólucros com classificação IP, caixas de junção"
       }
     },
-    "elementos-aquecimento-aparelhos": {
+    "heating-elements-appliances": {
       "title": "Elementos de Aquecimento e Aparelhos",
       "shortDescription": "Elementos de aquecimento industrial e equipamentos de controle térmico",
       "fullDescription": "Gama abrangente de soluções de aquecimento industrial, incluindo aquecedores de imersão, aquecedores de banda, aquecedores de cartucho e sistemas de controle térmico.",
@@ -1114,9 +1184,9 @@
       "specifications": [
         "Classificação de Potência: 100W a 100kW",
         "Faixa de Temperatura: até 800°C",
-        "Tensão: 120V a 480V",
+        "Voltagem: 120V a 480V",
         "Material: Aço Inoxidável, Incoloy",
-        "Densidade de Potência: 5-50 W/in²",
+        "Densidade de Watts: 5-50 W/in²",
         "Controle: Ligado-Desligado, PID, SCR"
       ],
       "applications": [
@@ -1136,7 +1206,7 @@
         "Manufatura"
       ],
       "features": [
-        "Vários Tipos de Aquecimento",
+        "Múltiplos Tipos de Aquecimento",
         "Sensores de Temperatura",
         "Opções à Prova de Explosão",
         "Resistente à Corrosão",
@@ -1148,7 +1218,7 @@
       "certifications": [
         "Listado pela UL",
         "Aprovado pela CSA",
-        "Marcação CE",
+        "Marca CE",
         "Certificado ATEX",
         "Compatível com RoHS",
         "ISO 9001"
@@ -1171,9 +1241,9 @@
         "Baixa Degradação"
       ],
       "specifications": [
-        "Saída de Potência: 100W a 600W",
+        "Potência de Saída: 100W a 600W",
         "Eficiência: 18% a 22%",
-        "Tipo de Célula: Cristalino Mono/Poli",
+        "Tipo de Célula: Monocristalino/Policristalino",
         "Voltagem: 12V a 48V DC",
         "Temperatura de Operação: -40°C a +85°C",
         "Garantia: 25 anos de desempenho"
@@ -1181,7 +1251,7 @@
       "applications": [
         "Sistemas Solares Residenciais",
         "Instalações Comerciais",
-        "Projetos de Escala de Serviços Públicos",
+        "Projetos de Escala de Utilidade",
         "Sistemas Fora da Rede",
         "Sistemas Híbridos",
         "Fazendas Solares"
@@ -1208,7 +1278,7 @@
         "IEC 61215",
         "IEC 61730",
         "UL 1703",
-        "Marcação CE",
+        "Marca CE",
         "Certificado TUV",
         "Aprovado pela BIS"
       ],
@@ -1220,8 +1290,8 @@
     },
     "solar-inverters": {
       "title": "Inversores Solares",
-      "shortDescription": "Inversores solares grid-tie e híbridos para sistemas fotovoltaicos",
-      "fullDescription": "Inversores solares de alta eficiência para aplicações grid-tie e híbridas com tecnologia MPPT avançada e integração de bateria.",
+      "shortDescription": "Inversores solares conectados à rede e híbridos para sistemas fotovoltaicos",
+      "fullDescription": "Inversores solares de alta eficiência para aplicações conectadas à rede e híbridas com tecnologia MPPT avançada e integração de bateria.",
       "parentCategoryTitle": "Produtos Solares",
       "keyBenefits": [
         "Rastreamento de Ponto de Potência Máxima",
@@ -1238,9 +1308,9 @@
         "Comunicação: Ethernet, WiFi, RS485"
       ],
       "applications": [
-        "Sistemas Solares Grid-Tie",
+        "Sistemas Solares Conectados à Rede",
         "Sistemas Solares Híbridos",
-        "Instalações de Escala de Serviços Públicos",
+        "Instalações de Escala de Utilidade",
         "Solar Comercial",
         "Solar Residencial",
         "Integração de Armazenamento de Energia"
@@ -1260,26 +1330,26 @@
         "Monitoramento Remoto",
         "Integração de Bateria",
         "Energia de Backup",
-        "Gestão de Energia",
+        "Gerenciamento de Energia",
         "Pronto para Rede Inteligente"
       ],
       "certifications": [
         "IEC 62109",
         "UL 1741",
         "IEEE 1547",
-        "Marcação CE",
-        "Conformidade com o Código de Rede",
+        "Marca CE",
+        "Compatível com Código de Rede",
         "Certificado BIS"
       ],
       "seo": {
-        "title": "Inversores Solares - Inversores Solares Grid-Tie e Híbridos | Powerton Engineering",
-        "description": "Inversores solares de alta eficiência para aplicações grid-tie e híbridas. Inversores string, inversores centrais com tecnologia MPPT e integração de bateria.",
-        "keywords": "inversores solares, inversores grid tie, inversores híbridos, inversores string, inversores centrais, inversores de energia solar"
+        "title": "Inversores Solares - Inversores Solares Conectados à Rede e Híbridos | Powerton Engineering",
+        "description": "Inversores solares de alta eficiência para aplicações conectadas à rede e híbridas. Inversores de string, inversores centrais com tecnologia MPPT e integração de bateria.",
+        "keywords": "inversores solares, inversores conectados à rede, inversores híbridos, inversores de string, inversores centrais, inversores de energia solar"
       }
     },
     "plcs": {
       "title": "CLPs (Controladores Lógicos Programáveis)",
-      "shortDescription": "Controladores de automação industrial para controle de processos e fabricação",
+      "shortDescription": "Controladores de automação industrial para controle de processo e manufatura",
       "fullDescription": "Sistemas CLP avançados com design modular, múltiplos protocolos de comunicação e funções de segurança integradas para soluções abrangentes de automação industrial.",
       "parentCategoryTitle": "Sistemas de Automação e Controle",
       "keyBenefits": [
@@ -1323,23 +1393,23 @@
         "Registro de Dados"
       ],
       "certifications": [
-        "Marcação CE",
+        "Marca CE",
         "Listado pela UL",
-        "Certificado CSA",
+        "Certificado pela CSA",
         "IEC 61131",
         "Aprovado pela ATEX",
         "Classificação SIL"
       ],
       "seo": {
         "title": "CLPs - Controladores Lógicos Programáveis para Automação Industrial | Powerton Engineering",
-        "description": "CLPs industriais e controladores lógicos programáveis para automação e controle de processos. Sistemas CLP Siemens, Allen-Bradley e Schneider Electric.",
+        "description": "CLPs industriais e controladores lógicos programáveis para automação e controle de processo. Sistemas CLP Siemens, Allen-Bradley e Schneider Electric.",
         "keywords": "CLPs, controladores lógicos programáveis, automação industrial, controle de processo, automação de fábrica, programação CLP"
       }
     },
     "scada": {
       "title": "Sistemas SCADA",
       "shortDescription": "Sistemas de Supervisão, Controle e Aquisição de Dados para automação industrial",
-      "fullDescription": "Soluções SCADA abrangentes para monitoramento, controle e aquisição de dados em tempo real em processos industriais com recursos avançados de visualização e geração de relatórios.",
+      "fullDescription": "Soluções SCADA abrangentes para monitoramento, controle e aquisição de dados em tempo real em processos industriais com recursos avançados de visualização e relatórios.",
       "parentCategoryTitle": "Sistemas de Automação e Controle",
       "keyBenefits": [
         "Monitoramento em Tempo Real",
@@ -1349,17 +1419,17 @@
       ],
       "specifications": [
         "Usuários Concorrentes: até 100",
-        "Pontos de E/S: ilimitados",
-        "Comunicação: Suporte multi-protocolo",
+        "Pontos de E/S: ilimitado",
+        "Comunicação: Suporte a múltiplos protocolos",
         "Banco de Dados: SQL Server, Oracle",
         "Sistema Operacional: Windows Server",
-        "Redundância: Suporte hot standby"
+        "Redundância: Suporte a hot standby"
       ],
       "applications": [
         "Monitoramento de Processo",
         "Controle Remoto",
         "Registro de Dados",
-        "Gestão de Alarmes",
+        "Gerenciamento de Alarmes",
         "Geração de Relatórios",
         "Controle de Lotes"
       ],
@@ -1375,8 +1445,8 @@
         "Interface Gráfica",
         "Displays em Tempo Real",
         "Análise de Tendências",
-        "Gestão de Alarmes",
-        "Gestão de Receitas",
+        "Gerenciamento de Alarmes",
+        "Gerenciamento de Receitas",
         "Recursos de Segurança",
         "Cliente Baseado na Web",
         "Acesso Móvel"
@@ -1391,7 +1461,7 @@
       ],
       "seo": {
         "title": "Sistemas SCADA - Monitoramento e Controle Industrial | Powerton Engineering",
-        "description": "Sistemas SCADA para automação industrial com monitoramento em tempo real, controle centralizado e aquisição de dados. Suporte de comunicação multi-protocolo.",
+        "description": "Sistemas SCADA para automação industrial com monitoramento em tempo real, controle centralizado e aquisição de dados. Suporte a comunicação multi-protocolo.",
         "keywords": "sistemas SCADA, controle supervisório, aquisição de dados, monitoramento industrial, controle de processo, sistemas de automação"
       }
     },
@@ -1416,17 +1486,17 @@
       ],
       "applications": [
         "Controle de Processo",
-        "Fabricação Contínua",
+        "Manufatura Contínua",
         "Processamento em Lotes",
         "Sistemas de Segurança",
-        "Gestão de Ativos",
+        "Gerenciamento de Ativos",
         "Otimização de Desempenho"
       ],
       "industries": [
         "Petróleo e Gás",
         "Processamento Químico",
         "Geração de Energia",
-        "Papel e Celulose",
+        "Celulose e Papel",
         "Farmacêutica",
         "Petroquímica"
       ],
@@ -1435,7 +1505,7 @@
         "Sistemas Redundantes",
         "Controle Avançado",
         "Segurança Integrada",
-        "Gestão de Ativos",
+        "Gerenciamento de Ativos",
         "Manutenção Preditiva",
         "Dados Históricos",
         "Ferramentas de Engenharia"
@@ -1457,12 +1527,12 @@
     "hmi": {
       "title": "Interface Homem-Máquina (IHM)",
       "shortDescription": "Painéis IHM industriais e interfaces de operador para controle de processo",
-      "fullDescription": "Soluções IHM avançadas, incluindo painéis touchscreen, interfaces de operador e sistemas IHM móveis para automação industrial e aplicações de controle de processo.",
+      "fullDescription": "Soluções IHM avançadas, incluindo painéis touchscreen, interfaces de operador e sistemas IHM móveis para aplicações de automação industrial e controle de processo.",
       "parentCategoryTitle": "Sistemas de Automação e Controle",
       "keyBenefits": [
         "Operação Touchscreen",
         "Design de Grau Industrial",
-        "Display em Tempo Real",
+        "Exibição em Tempo Real",
         "Suporte Multi-Protocolo"
       ],
       "specifications": [
@@ -1477,9 +1547,9 @@
         "Monitoramento de Processo",
         "Controle de Máquina",
         "Visualização de Dados",
-        "Gestão de Alarmes",
-        "Gestão de Receitas",
-        "Interface de Operador"
+        "Gerenciamento de Alarmes",
+        "Gerenciamento de Receitas",
+        "Interface do Operador"
       ],
       "industries": [
         "Manufatura",
@@ -1492,15 +1562,15 @@
       "features": [
         "Interface Touchscreen",
         "Grau Industrial",
-        "Display em Tempo Real",
+        "Exibição em Tempo Real",
         "Multi-Protocolo",
         "Acesso Baseado na Web",
-        "Gestão de Alarmes",
+        "Gerenciamento de Alarmes",
         "Registro de Dados",
-        "Gestão de Receitas"
+        "Gerenciamento de Receitas"
       ],
       "certifications": [
-        "Marcação CE",
+        "Marca CE",
         "Listado pela UL",
         "FCC Classe A",
         "IEC 61131",
@@ -1509,7 +1579,7 @@
       ],
       "seo": {
         "title": "Interface Homem-Máquina (IHM) - Painéis Touchscreen Industriais | Powerton Engineering",
-        "description": "Painéis IHM industriais e interfaces touchscreen para controle de processo e automação. Suporte multi-protocolo com monitoramento e controle em tempo real.",
+        "description": "Painéis IHM industriais e interfaces touchscreen para controle e automação de processos. Suporte multi-protocolo com monitoramento e controle em tempo real.",
         "keywords": "painéis IHM, interface homem-máquina, painéis touchscreen, interface de operador, displays industriais, IHM de controle de processo"
       }
     },
@@ -1534,7 +1604,7 @@
       ],
       "applications": [
         "Distribuição de Energia",
-        "Centros de Controle de Motor",
+        "Centros de Controle de Motores",
         "Sistemas de Energia Solar",
         "Comunicação de Dados",
         "Painéis de Controle",
@@ -1562,26 +1632,26 @@
         "UL 1449",
         "IEC 61643",
         "IEEE C62.41",
-        "Marcação CE",
+        "Marca CE",
         "Compatível com RoHS",
         "Listado pela UL"
       ],
       "seo": {
-        "title": "Protetores de Surto - Dispositivos de Proteção Elétrica Industrial | Powerton Engineering",
+        "title": "Protetores de Surto - Dispositivos Industriais de Proteção Elétrica | Powerton Engineering",
         "description": "Dispositivos de proteção contra surtos industriais para energia CA, solar CC e proteção de linha de sinal. Protetores de surto listados pela UL 1449 com tempo de resposta rápido.",
         "keywords": "protetores de surto, dispositivos de proteção contra surtos, proteção elétrica, proteção contra raios, proteção contra surtos de energia, SPD industrial"
       }
     },
     "grounding-systems": {
       "title": "Sistemas de Aterramento",
-      "shortDescription": "Sistemas de aterramento industrial para segurança elétrica",
+      "shortDescription": "Sistemas industriais de aterramento para segurança elétrica",
       "fullDescription": "Soluções completas de aterramento, incluindo hastes de aterramento, condutores e sistemas de monitoramento de aterramento para segurança elétrica e proteção do sistema.",
       "parentCategoryTitle": "Dispositivos de Segurança e Proteção",
       "keyBenefits": [
         "Segurança Elétrica",
         "Proteção do Sistema",
         "Caminho de Corrente de Falha",
-        "Proteção de Equipamentos"
+        "Proteção do Equipamento"
       ],
       "specifications": [
         "Material da Haste de Aterramento: Aço revestido de cobre",
@@ -1610,12 +1680,12 @@
       "features": [
         "Hastes de Aterramento de Cobre",
         "Condutores de Aterramento",
-        "Grampos e Conectores",
+        "Braçadeiras e Conectores",
         "Monitoramento de Aterramento",
         "Proteção contra Corrosão",
         "Baixa Resistência",
         "Tratamento Químico",
-        "Equipamento de Teste"
+        "Equipamentos de Teste"
       ],
       "certifications": [
         "IEEE 80",
@@ -1626,26 +1696,26 @@
         "NFPA 780"
       ],
       "seo": {
-        "title": "Sistemas de Aterramento - Soluções de Aterramento Elétrico Industrial | Powerton Engineering",
-        "description": "Sistemas de aterramento industrial para segurança elétrica. Hastes de aterramento, condutores e sistemas de monitoramento em conformidade com as normas IEEE 80.",
-        "keywords": "sistemas de aterramento, aterramento elétrico, hastes de aterramento, condutores de aterramento, aterramento elétrico de segurança"
+        "title": "Sistemas de Aterramento - Soluções Industriais de Aterramento Elétrico | Powerton Engineering",
+        "description": "Sistemas industriais de aterramento para segurança elétrica. Hastes de aterramento, condutores e sistemas de monitoramento em conformidade com as normas IEEE 80.",
+        "keywords": "sistemas de aterramento, aterramento elétrico, hastes de aterramento, condutores de aterramento, segurança elétrica aterramento"
       }
     },
     "safety-relays-switches": {
       "title": "Relés e Chaves de Segurança",
       "shortDescription": "Relés de segurança industriais e chaves de parada de emergência para segurança de máquinas",
-      "fullDescription": "Dispositivos de controle de segurança abrangentes, incluindo relés de segurança, chaves de parada de emergência e controladores de segurança para segurança de máquinas e proteção de pessoal.",
+      "fullDescription": "Dispositivos abrangentes de controle de segurança, incluindo relés de segurança, chaves de parada de emergência e controladores de segurança para segurança de máquinas e proteção de pessoal.",
       "parentCategoryTitle": "Dispositivos de Segurança e Proteção",
       "keyBenefits": [
         "Segurança da Máquina",
-        "Proteção do Pessoal",
+        "Proteção de Pessoal",
         "Desligamento de Emergência",
         "Conformidade de Segurança"
       ],
       "specifications": [
         "Categoria de Segurança: Cat 3/4 conforme ISO 13849",
         "Classificação de Contato: 6A a 16A",
-        "Voltagem de Operação: 24V DC a 230V AC",
+        "Tensão de Operação: 24V DC a 230V AC",
         "Tempo de Resposta: <10ms",
         "Integridade de Segurança: SIL 3/PLe",
         "Ambiental: IP65/IP67"
@@ -1671,7 +1741,7 @@
         "Parada de Emergência",
         "Monitoramento de Segurança",
         "Funções de Diagnóstico",
-        "Reinicialização Manual",
+        "Reset Manual",
         "Display de Status LED",
         "Módulos Expansíveis",
         "Interface de Barramento de Segurança"
@@ -1680,7 +1750,7 @@
         "ISO 13849 PLe",
         "IEC 61508 SIL 3",
         "Certificado TÜV",
-        "Marcação CE",
+        "Marca CE",
         "UL 508",
         "Aprovado pela CSA"
       ],
@@ -1723,7 +1793,7 @@
         "Processamento Químico",
         "Farmacêutica",
         "Mineração",
-        "Tintas e Revestimentos"
+        "Tinta e Revestimentos"
       ],
       "features": [
         "Certificado ATEX/IECEx",
@@ -1744,9 +1814,9 @@
         "Certificado TIIS"
       ],
       "seo": {
-        "title": "Equipamento Intrínsecamente Seguro - Equipamento para Área Perigosa Certificado ATEX | Powerton Engineering",
-        "description": "Equipamento certificado ATEX intrínsecamente seguro para áreas perigosas. Barreiras, isoladores e invólucros à prova de explosão para aplicações de Zona 0/1/2.",
-        "keywords": "equipamento intrínsecamente seguro, certificado ATEX, à prova de explosão, equipamento para área perigosa, barreiras de segurança, invólucros Ex d"
+        "title": "Equipamento Intrínsecamente Seguro - Equipamento de Área Perigosa Certificado ATEX | Powerton Engineering",
+        "description": "Equipamento intrínsecamente seguro certificado ATEX para áreas perigosas. Barreiras, isoladores e invólucros à prova de explosão para aplicações de Zona 0/1/2.",
+        "keywords": "equipamento intrínsecamente seguro, certificado ATEX, à prova de explosão, equipamento de área perigosa, barreiras de segurança, invólucros Ex d"
       }
     },
     "safety-equipment": {
@@ -1757,7 +1827,7 @@
       "keyBenefits": [
         "Segurança do Pessoal",
         "Conformidade com a OSHA",
-        "Proteção contra Quedas",
+        "Proteção Contra Quedas",
         "Detecção de Gás"
       ],
       "specifications": [
@@ -1765,12 +1835,12 @@
         "Materiais: Resistente a alto impacto",
         "Temperatura de Operação: -30°C a +60°C",
         "Faixa de Detecção: 0-100% LEL",
-        "Vida Útil da Bateria: 12+ horas",
+        "Vida Útil da Bateria: mais de 12 horas",
         "Certificação: ATEX, UL, CSA"
       ],
       "applications": [
         "Proteção Pessoal",
-        "Proteção contra Quedas",
+        "Proteção Contra Quedas",
         "Detecção de Gás",
         "Resposta a Emergências",
         "Entrada em Espaços Confinados",
@@ -1785,11 +1855,11 @@
         "Serviços Públicos"
       ],
       "features": [
-        "Capacetes e Capacetes de Segurança",
+        "Capacetes e Elmos",
         "Óculos de Segurança",
         "Proteção Auditiva",
         "Luvas de Trabalho",
-        "Proteção contra Quedas",
+        "Proteção Contra Quedas",
         "Detecção de Gás",
         "Equipamento de Emergência",
         "Treinamento de Segurança"
@@ -1803,21 +1873,21 @@
         "Listado pela UL"
       ],
       "seo": {
-        "title": "Equipamento de Segurança Industrial - EPI e Proteção contra Quedas | Powerton Engineering",
-        "description": "Equipamento de segurança industrial, incluindo EPI, sistemas de proteção contra quedas e equipamento de detecção de gás. Soluções de segurança compatíveis com OSHA para proteção no local de trabalho.",
-        "keywords": "equipamento de segurança, EPI, equipamento de proteção pessoal, proteção contra quedas, detecção de gás, segurança industrial, segurança no trabalho"
+        "title": "Equipamento de Segurança Industrial - EPI e Proteção Contra Quedas | Powerton Engineering",
+        "description": "Equipamento de segurança industrial, incluindo EPI, sistemas de proteção contra quedas e equipamento de detecção de gás. Soluções de segurança em conformidade com a OSHA para proteção no local de trabalho.",
+        "keywords": "equipamento de segurança, EPI, equipamento de proteção pessoal, proteção contra quedas, detecção de gás, segurança industrial, segurança no local de trabalho"
       }
     },
     "centrifugal-pumps": {
       "title": "Bombas Centrífugas",
       "shortDescription": "Bombas centrífugas de alta eficiência para manuseio de fluidos industriais",
-      "fullDescription": "Bombas centrífugas robustas projetadas para operação contínua com altas taxas de fluxo, resistência à corrosão e desempenho energeticamente eficiente para diversas aplicações industriais.",
+      "fullDescription": "Bombas centrífugas robustas projetadas para operação contínua com altas taxas de fluxo, resistência à corrosão e desempenho energeticamente eficiente para várias aplicações industriais.",
       "parentCategoryTitle": "Bombas Mecânicas e Peças de Reposição",
       "keyBenefits": [
         "Alta Capacidade de Fluxo",
         "Eficiência Energética",
         "Baixa Manutenção",
-        "Resistência à Corrosão"
+        "Resistente à Corrosão"
       ],
       "specifications": [
         "Taxa de Fluxo: 10 a 10.000 GPM",
@@ -1825,7 +1895,7 @@
         "Potência: 1HP a 500HP",
         "Temperatura: -20°C a +200°C",
         "Materiais: Ferro Fundido, Aço Inoxidável, Bronze",
-        "Vedantes: Mecânico, gaxeta"
+        "Vedações: Mecânica, gaxeta"
       ],
       "applications": [
         "Abastecimento de Água",
@@ -1846,9 +1916,9 @@
       "features": [
         "Impulsores de Alta Eficiência",
         "Rotor Balanceado",
-        "Vedantes Mecânicos",
+        "Vedações Mecânicas",
         "Resistente à Corrosão",
-        "Baixo NPSH",
+        "NPSH Baixo",
         "Fácil Manutenção",
         "Múltiplos Materiais",
         "Montagem Versátil"
@@ -1863,14 +1933,14 @@
       ],
       "seo": {
         "title": "Bombas Centrífugas - Bombas Industriais de Água e Produtos Químicos | Powerton Engineering",
-        "description": "Bombas centrífugas de alta eficiência para aplicações industriais. Bombas de sucção final e de caixa bipartida horizontal para tratamento de água e processamento químico.",
-        "keywords": "bombas centrífugas, bombas industriais, bombas de água, bombas químicas, bombas de processo, bombas de sucção final"
+        "description": "Bombas centrífugas de alta eficiência para aplicações industriais. Bombas de sucção final, de caixa bipartida horizontal para tratamento de água e processamento químico.",
+        "keywords": "bombas centrífugas, bombas industriais, bombas de água, bombas de produtos químicos, bombas de processo, bombas de sucção final"
       }
     },
     "diaphragm-pumps": {
       "title": "Bombas de Diafragma",
-      "shortDescription": "Bombas de diafragma operadas por ar e elétricas para transferência de produtos químicos",
-      "fullDescription": "Bombas de diafragma versáteis para manusear fluidos abrasivos, viscosos e corrosivos com capacidade de autoescorvamento e proteção contra funcionamento a seco.",
+      "shortDescription": "Bombas de diafragma operadas a ar e elétricas para transferência de produtos químicos",
+      "fullDescription": "Bombas de diafragma versáteis para manuseio de fluidos abrasivos, viscosos e corrosivos com capacidade de autoescorvamento e proteção contra funcionamento a seco.",
       "parentCategoryTitle": "Bombas Mecânicas e Peças de Reposição",
       "keyBenefits": [
         "Autoescorvamento",
@@ -1889,25 +1959,25 @@
       "applications": [
         "Transferência de Produtos Químicos",
         "Manuseio de Águas Residuais",
-        "Tintas e Revestimentos",
-        "Transferência de Polpas",
+        "Tinta e Revestimentos",
+        "Transferência de Polpa",
         "Drenagem",
-        "Aplicações de Dosagem"
+        "Aplicações de Medição"
       ],
       "industries": [
         "Processamento Químico",
         "Mineração",
-        "Tintas e Revestimentos",
+        "Tinta e Revestimentos",
         "Alimentos e Bebidas",
         "Cerâmica",
         "Águas Residuais"
       ],
       "features": [
         "Autoescorvamento",
-        "Seguro para Funcionamento a Seco",
+        "Seguro Para Funcionamento a Seco",
         "Manuseio de Sólidos",
         "Resistente a Produtos Químicos",
-        "Operado por Ar",
+        "Operado a Ar",
         "Operação Sem Vazamentos",
         "Fácil Manutenção",
         "Opções à Prova de Explosão"
@@ -1921,21 +1991,21 @@
         "Sanitário 3A"
       ],
       "seo": {
-        "title": "Bombas de Diafragma - Bombas de Diafragma Operadas por Ar e Elétricas | Powerton Engineering",
+        "title": "Bombas de Diafragma - Bombas de Diafragma Operadas a Ar e Elétricas | Powerton Engineering",
         "description": "Bombas de diafragma industriais para transferência de produtos químicos e manuseio de águas residuais. Bombas AODD e bombas de diafragma elétricas com capacidade de autoescorvamento.",
-        "keywords": "bombas de diafragma, bombas AODD, bombas de diafragma operadas por ar, bombas de transferência de produtos químicos, bombas de polpa"
+        "keywords": "bombas de diafragma, bombas AODD, bombas de diafragma operadas a ar, bombas de transferência de produtos químicos, bombas de polpa"
       }
     },
     "gear-pumps": {
       "title": "Bombas de Engrenagem",
       "shortDescription": "Bombas de engrenagem de precisão para transferência de fluidos viscosos",
-      "fullDescription": "Bombas de engrenagem de alta precisão projetadas para manusear líquidos viscosos com dosagem precisa e fluxo consistente em aplicações industriais.",
+      "fullDescription": "Bombas de engrenagem de alta precisão projetadas para manusear líquidos viscosos com medição precisa e fluxo consistente em aplicações industriais.",
       "parentCategoryTitle": "Bombas Mecânicas e Peças de Reposição",
       "keyBenefits": [
         "Fluxo Consistente",
         "Alta Pressão",
         "Manuseio de Fluidos Viscosos",
-        "Dosagem Precisa"
+        "Medição Precisa"
       ],
       "specifications": [
         "Taxa de Fluxo: 0,1 a 500 GPM",
@@ -1943,7 +2013,7 @@
         "Viscosidade: até 1.000.000 SSU",
         "Temperatura: -40°C a +400°C",
         "Materiais: Ferro Fundido, Aço Inoxidável",
-        "Tipos de Vedação: Gaxeta, Mecânico"
+        "Tipos de Vedação: Gaxeta, Mecânica"
       ],
       "applications": [
         "Óleo Lubrificante",
@@ -1981,14 +2051,14 @@
       ],
       "seo": {
         "title": "Bombas de Engrenagem - Bombas Industriais de Deslocamento Positivo | Powerton Engineering",
-        "description": "Bombas de engrenagem de precisão para transferência de fluidos viscosos e aplicações de dosagem. Bombas de engrenagem externas e internas para uso industrial de alta pressão.",
-        "keywords": "bombas de engrenagem, bombas de deslocamento positivo, bombas de fluidos viscosos, bombas hidráulicas, bombas de lubrificação, bombas de dosagem"
+        "description": "Bombas de engrenagem de precisão para transferência de fluidos viscosos e aplicações de medição. Bombas de engrenagem externas e internas para uso industrial de alta pressão.",
+        "keywords": "bombas de engrenagem, bombas de deslocamento positivo, bombas de fluidos viscosos, bombas hidráulicas, bombas de lubrificação, bombas de medição"
       }
     },
     "pump-parts-spares": {
       "title": "Peças e Reposições para Bombas",
-      "shortDescription": "Peças de reposição genuínas e suprimentos de manutenção para bombas",
-      "fullDescription": "Inventário abrangente de peças de reposição para bombas, incluindo impulsores, vedantes, rolamentos e juntas para todos os principais fabricantes de bombas.",
+      "shortDescription": "Peças de reposição e suprimentos de manutenção genuínos para bombas",
+      "fullDescription": "Inventário abrangente de peças de reposição para bombas, incluindo rotores, selos, rolamentos e juntas para todos os principais fabricantes de bombas.",
       "parentCategoryTitle": "Bombas Mecânicas e Peças de Reposição",
       "keyBenefits": [
         "Peças Genuínas",
@@ -1998,19 +2068,19 @@
       ],
       "specifications": [
         "Materiais: Vários, conforme as especificações do OEM",
-        "Compatibilidade: Suporte multimarca",
+        "Compatibilidade: Suporte a várias marcas",
         "Qualidade: OEM e pós-venda",
         "Entrega: Envio rápido",
         "Garantia: Com o apoio do fabricante",
         "Estoque: Amplo inventário"
       ],
       "applications": [
-        "Manutenção de Bombas",
+        "Manutenção da Bomba",
         "Reparos de Emergência",
         "Revisões Programadas",
-        "Melhorias de Desempenho",
+        "Atualizações de Desempenho",
         "Manutenção Preventiva",
-        "Estoque de Reposição"
+        "Inventário de Peças de Reposição"
       ],
       "industries": [
         "Manufatura",
@@ -2021,18 +2091,18 @@
         "Mineração"
       ],
       "features": [
-        "Impulsores",
-        "Vedantes Mecânicos",
+        "Rotores",
+        "Selos Mecânicos",
         "Rolamentos",
         "Eixos",
         "Anéis de Desgaste",
-        "Juntas e Anéis O",
+        "Vedações e Anéis O",
         "Acoplamentos",
         "Peças do Motor"
       ],
       "certifications": [
         "ISO 9001",
-        "Aprovado pelo OEM",
+        "Aprovado pela OEM",
         "Qualidade Certificada",
         "Material Certificado",
         "Dimensões Verificadas",
@@ -2040,15 +2110,15 @@
       ],
       "seo": {
         "title": "Peças e Reposições para Bombas - Peças de Reposição Genuínas | Powerton Engineering",
-        "description": "Peças de reposição genuínas e peças de reposição para bombas para todas as principais marcas. Impulsores, vedantes mecânicos, rolamentos e juntas com entrega rápida.",
-        "keywords": "peças de bombas, peças de reposição para bombas, vedantes de bombas, impulsores, rolamentos de bombas, manutenção de bombas, peças de reposição"
+        "description": "Peças de reposição genuínas para bombas e peças sobressalentes para todas as principais marcas. Rotores, selos mecânicos, rolamentos e juntas com entrega rápida.",
+        "keywords": "peças de bomba, peças de reposição para bombas, selos de bomba, rotores, rolamentos de bomba, manutenção de bomba, peças de reposição"
       }
     },
     "hand-tools": {
       "title": "Ferramentas Manuais",
       "shortDescription": "Ferramentas manuais profissionais para manutenção e reparo industrial",
       "fullDescription": "Gama abrangente de ferramentas manuais de nível profissional, incluindo chaves de boca, chaves de fenda, alicates e ferramentas especiais para aplicações industriais.",
-      "parentCategoryTitle": "Ferramentas de Medição Industrial",
+      "parentCategoryTitle": "Ferramentas Industriais e de Medição",
       "keyBenefits": [
         "Qualidade Profissional",
         "Construção Durável",
@@ -2057,7 +2127,7 @@
       ],
       "specifications": [
         "Material: Aço Cromo Vanádio",
-        "Acabamento: Cromado, Revestimento em Pó",
+        "Acabamento: Cromado, Revestido a Pó",
         "Normas: ANSI, DIN, ISO",
         "Dureza: HRC 40-50",
         "Resistência à Corrosão: Alta",
@@ -2068,7 +2138,7 @@
         "Trabalho de Montagem",
         "Instalação",
         "Trabalho Mecânico",
-        "Encanamento",
+        "Canalização",
         "Trabalho Elétrico"
       ],
       "industries": [
@@ -2077,7 +2147,7 @@
         "Construção",
         "Manutenção",
         "HVAC",
-        "Encanamento"
+        "Canalização"
       ],
       "features": [
         "Chaves de Boca e Soquetes",
@@ -2107,7 +2177,7 @@
       "title": "Ferramentas Elétricas",
       "shortDescription": "Ferramentas elétricas industriais para corte, perfuração e esmerilhamento",
       "fullDescription": "Ferramentas elétricas de nível profissional, incluindo furadeiras, esmerilhadeiras e serras projetadas para aplicações industriais pesadas.",
-      "parentCategoryTitle": "Ferramentas de Medição Industrial",
+      "parentCategoryTitle": "Ferramentas Industriais e de Medição",
       "keyBenefits": [
         "Desempenho de Alta Potência",
         "Construção para Serviço Pesado",
@@ -2119,11 +2189,11 @@
         "Voltagem: 110V/220V",
         "Velocidade: Variável",
         "Tamanho do Mandril: Vários",
-        "Segurança: Múltiplos recursos",
+        "Segurança: Vários recursos",
         "Ciclo de Trabalho: Contínuo"
       ],
       "applications": [
-        "Fabricação de Metais",
+        "Fabricação de Metal",
         "Trabalho em Madeira",
         "Construção",
         "Manutenção",
@@ -2133,19 +2203,19 @@
       "industries": [
         "Manufatura",
         "Construção",
-        "Fabricação de Metais",
+        "Fabricação de Metal",
         "Automotiva",
         "Trabalho em Madeira",
         "Manutenção"
       ],
       "features": [
         "Esmerilhadeiras Angulares",
-        "Furadeiras e Parafusadeiras",
+        "Furadeiras e Chaves de Parafuso",
         "Chaves de Impacto",
         "Serras Circulares",
-        "Serras Tico-Tico",
+        "Serras Sabre",
         "Lixadeiras e Politrizes",
-        "Sopradores Térmicos",
+        "Soprador Térmico",
         "Ferramentas Rotativas"
       ],
       "certifications": [
@@ -2153,8 +2223,8 @@
         "Marcação CE",
         "ISO 9001",
         "Segurança Certificada",
-        "Compatível com EMC",
-        "Compatível com RoHS"
+        "Conformidade com EMC",
+        "Conformidade com RoHS"
       ],
       "seo": {
         "title": "Ferramentas Elétricas Industriais - Furadeiras, Esmerilhadeiras e Serras Profissionais | Powerton Engineering",
@@ -2164,13 +2234,13 @@
     },
     "cutting-tools": {
       "title": "Ferramentas de Corte",
-      "shortDescription": "Ferramentas de corte de precisão para processamento de metais e materiais",
-      "fullDescription": "Ferramentas de corte de alta precisão, incluindo fresas de topo, brocas, machos e matrizes para aplicações de usinagem e manufatura.",
-      "parentCategoryTitle": "Ferramentas de Medição Industrial",
+      "shortDescription": "Ferramentas de corte de precisão para processamento de metal e materiais",
+      "fullDescription": "Ferramentas de corte de alta precisão, incluindo fresas de topo, brocas, machos e cossinetes para aplicações de usinagem e manufatura.",
+      "parentCategoryTitle": "Ferramentas Industriais e de Medição",
       "keyBenefits": [
         "Corte de Precisão",
         "Longa Vida Útil da Ferramenta",
-        "Desempenho de Alta Velocidade",
+        "Desempenho em Alta Velocidade",
         "Acabamento de Qualidade"
       ],
       "specifications": [
@@ -2187,23 +2257,23 @@
         "Operações de Perfuração",
         "Operações de Fresagem",
         "Rosqueamento",
-        "Escareamento"
+        "Alargamento"
       ],
       "industries": [
         "Manufatura",
         "Automotiva",
         "Aeroespacial",
-        "Ferramentas e Matrizes",
-        "Fabricação de Metais",
+        "Ferramentaria",
+        "Fabricação de Metal",
         "Oficinas Mecânicas"
       ],
       "features": [
         "Fresas de Topo",
         "Brocas",
-        "Machos e Matrizes",
-        "Escareadores",
+        "Machos e Cossinetes",
+        "Alargadores",
         "Ferramentas de Mandrilar",
-        "Escareadores Cônicos",
+        "Escareadores",
         "Ferramentas de Rosqueamento",
         "Ferramentas Especiais"
       ],
@@ -2217,15 +2287,15 @@
       ],
       "seo": {
         "title": "Ferramentas de Corte de Precisão - Fresas de Topo, Brocas e Machos | Powerton Engineering",
-        "description": "Ferramentas de corte de precisão para usinagem e manufatura. Fresas de topo, brocas, machos e matrizes de HSS e metal duro para aplicações industriais.",
-        "keywords": "ferramentas de corte, fresas de topo, brocas, machos e matrizes, ferramentas de usinagem, ferramentas de metal duro, ferramentas de precisão"
+        "description": "Ferramentas de corte de precisão para usinagem e manufatura. Fresas de topo, brocas, machos e cossinetes de HSS e metal duro para aplicações industriais.",
+        "keywords": "ferramentas de corte, fresas de topo, brocas, machos e cossinetes, ferramentas de usinagem, ferramentas de metal duro, ferramentas de precisão"
       }
     },
     "lifting-equipment": {
-      "title": "Equipamentos de Elevação",
-      "shortDescription": "Equipamentos industriais de elevação e manuseio de materiais",
-      "fullDescription": "Equipamentos de elevação para serviço pesado, incluindo talhas, guindastes, lingas e acessórios de fixação para manuseio seguro de materiais em ambientes industriais.",
-      "parentCategoryTitle": "Ferramentas de Medição Industrial",
+      "title": "Equipamento de Elevação",
+      "shortDescription": "Equipamento industrial de elevação e manuseio de materiais",
+      "fullDescription": "Equipamento de elevação para serviço pesado, incluindo guindastes, guinchos, lingas e acessórios de rigging para manuseio seguro de materiais em ambientes industriais.",
+      "parentCategoryTitle": "Ferramentas Industriais e de Medição",
       "keyBenefits": [
         "Manuseio Seguro de Carga",
         "Construção para Serviço Pesado",
@@ -2257,14 +2327,14 @@
         "Geração de Energia"
       ],
       "features": [
-        "Talhas de Corrente",
-        "Talhas de Cabo de Aço",
-        "Lingas e Acessórios de Fixação",
+        "Guinchos de Corrente",
+        "Guinchos de Cabo de Aço",
+        "Lingas e Rigging",
         "Correntes de Elevação",
         "Manilhas",
         "Ganchos e Polias",
-        "Talhas de Alavanca",
-        "Giratórios de Lança"
+        "Guinchos de Alavanca",
+        "Guindastes Giratórios"
       ],
       "certifications": [
         "Conformidade com OSHA",
@@ -2275,16 +2345,16 @@
         "Segurança Certificada"
       ],
       "seo": {
-        "title": "Equipamentos Industriais de Elevação - Talhas, Guindastes e Acessórios de Fixação | Powerton Engineering",
-        "description": "Equipamentos de elevação para serviço pesado para manuseio de materiais industriais. Talhas de corrente, talhas de cabo de aço, lingas e acessórios de fixação com certificação de segurança.",
-        "keywords": "equipamentos de elevação, talhas, guindastes, equipamentos de fixação, manuseio de materiais, talhas de corrente, elevação industrial"
+        "title": "Equipamento de Elevação Industrial - Guinchos, Guindastes e Rigging | Powerton Engineering",
+        "description": "Equipamento de elevação para serviço pesado para manuseio de materiais industriais. Guinchos de corrente, guinchos de cabo de aço, lingas e acessórios de rigging com certificação de segurança.",
+        "keywords": "equipamento de elevação, guinchos, guindastes, equipamento de rigging, manuseio de materiais, guinchos de corrente, elevação industrial"
       }
     },
     "multimeters": {
-      "title": "Multímetros e Amperímetros de Pinça",
-      "shortDescription": "Multímetros digitais e amperímetros de pinça para medições elétricas",
-      "fullDescription": "Multímetros digitais e amperímetros de pinça profissionais com recursos avançados para medições elétricas precisas em ambientes industriais.",
-      "parentCategoryTitle": "Ferramentas de Medição Industrial",
+      "title": "Multímetros e Amperímetros Alicate",
+      "shortDescription": "Multímetros digitais e amperímetros alicate para medições elétricas",
+      "fullDescription": "Multímetros digitais profissionais e amperímetros alicate com recursos avançados para medições elétricas precisas em ambientes industriais.",
+      "parentCategoryTitle": "Ferramentas Industriais e de Medição",
       "keyBenefits": [
         "Alta Precisão",
         "Múltiplas Funções de Medição",
@@ -2292,7 +2362,7 @@
         "Fácil de Usar"
       ],
       "specifications": [
-        "Faixa de Voltagem: 0,1mV a 1000V",
+        "Faixa de Tensão: 0,1mV a 1000V",
         "Faixa de Corrente: 0,01mA a 1000A",
         "Resistência: 0,1Ω a 50MΩ",
         "Precisão: ±0,5% a ±2%",
@@ -2312,18 +2382,18 @@
         "Manufatura",
         "Gerenciamento de Instalações",
         "HVAC",
-        "Automotiva",
-        "Eletrônica"
+        "Automotivo",
+        "Eletrônicos"
       ],
       "features": [
         "Seleção Automática de Faixa",
         "True RMS",
         "Retenção de Dados",
-        "Gravação Mín/Máx",
+        "Registro de Mínimo/Máximo",
         "Display Retroiluminado",
         "Indicador de Bateria Fraca",
-        "Proteção Contra Sobrecarga",
-        "Bip de Continuidade"
+        "Proteção contra Sobrecarga",
+        "Buzzer de Continuidade"
       ],
       "certifications": [
         "Classificação CAT III/IV",
@@ -2334,16 +2404,16 @@
         "ISO 9001"
       ],
       "seo": {
-        "title": "Multímetros Digitais e Amperímetros de Pinça - Testes Elétricos Profissionais | Powerton Engineering",
-        "description": "Multímetros digitais e amperímetros de pinça profissionais para testes e medições elétricas. Medidores True RMS com classificações de segurança CAT III/IV.",
-        "keywords": "multímetros digitais, amperímetros de pinça, testes elétricos, medidores de voltagem, medidores de corrente, medidores de resistência, medições elétricas"
+        "title": "Multímetros Digitais e Amperímetros Alicate - Testes Elétricos Profissionais | Powerton Engineering",
+        "description": "Multímetros digitais profissionais e amperímetros alicate para testes e medições elétricas. Medidores True RMS com classificações de segurança CAT III/IV.",
+        "keywords": "multímetros digitais, amperímetros alicate, testes elétricos, medidores de tensão, medidores de corrente, medidores de resistência, medições elétricas"
       }
     },
     "power-quality-analyzers": {
       "title": "Analisadores de Qualidade de Energia",
       "shortDescription": "Instrumentos avançados de monitoramento e análise da qualidade de energia",
       "fullDescription": "Analisadores de qualidade de energia profissionais para monitoramento abrangente de sistemas elétricos, análise de harmônicos e gerenciamento de energia.",
-      "parentCategoryTitle": "Ferramentas de Medição Industrial",
+      "parentCategoryTitle": "Ferramentas Industriais e de Medição",
       "keyBenefits": [
         "Análise Completa de Energia",
         "Detecção de Harmônicos",
@@ -2351,7 +2421,7 @@
         "Registro de Dados"
       ],
       "specifications": [
-        "Faixa de Voltagem: 1V a 1000V",
+        "Faixa de Tensão: 1V a 1000V",
         "Faixa de Corrente: 1mA a 6000A",
         "Frequência: 40-70 Hz",
         "Harmônicos: até a 50ª ordem",
@@ -2371,7 +2441,7 @@
         "Manufatura",
         "Data Centers",
         "Edifícios Comerciais",
-        "Assistência Médica",
+        "Saúde",
         "Educação"
       ],
       "features": [
@@ -2394,15 +2464,15 @@
       ],
       "seo": {
         "title": "Analisadores de Qualidade de Energia - Instrumentos de Monitoramento de Energia Elétrica | Powerton Engineering",
-        "description": "Analisadores de qualidade de energia avançados para monitoramento e análise abrangentes de sistemas elétricos. Detecção de harmônicos, gerenciamento de energia e registro de dados.",
+        "description": "Analisadores de qualidade de energia avançados para monitoramento e análise abrangente de sistemas elétricos. Detecção de harmônicos, gerenciamento de energia e registro de dados.",
         "keywords": "analisadores de qualidade de energia, monitores de energia, analisadores de harmônicos, analisadores de energia, equipamentos de teste elétrico, instrumentos de qualidade de energia"
       }
     },
     "calibration-equipment": {
       "title": "Equipamentos de Calibração e Teste",
-      "shortDescription": "Equipamentos profissionais de calibração e teste para aplicações industriais",
-      "fullDescription": "Gama completa de equipamentos de calibração e instrumentos de teste para manter a precisão e a conformidade em sistemas de medição industrial.",
-      "parentCategoryTitle": "Ferramentas de Medição Industrial",
+      "shortDescription": "Instrumentos profissionais de calibração e teste para aplicações industriais",
+      "fullDescription": "Gama completa de equipamentos de calibração e instrumentos de teste para manter a precisão e conformidade em sistemas de medição industrial.",
+      "parentCategoryTitle": "Ferramentas Industriais e de Medição",
       "keyBenefits": [
         "Calibração de Precisão",
         "Rastreabilidade",
@@ -2411,7 +2481,7 @@
       ],
       "specifications": [
         "Precisão: ±0,01% a ±0,1%",
-        "Faixa de Calibração: Vária",
+        "Faixa de Calibração: Variada",
         "Temperatura: -25°C a +70°C",
         "Saída: 4-20mA, 0-10V, mV, RTD, TC",
         "Display: Digital de alta resolução",
@@ -2420,7 +2490,7 @@
       "applications": [
         "Calibração de Instrumentos",
         "Validação de Processo",
-        "Garantia de Qualidade",
+        "Garantia da Qualidade",
         "Programas de Manutenção",
         "Testes de Conformidade",
         "Calibração em Campo"
@@ -2439,13 +2509,13 @@
         "Comunicação HART",
         "Testes Automatizados",
         "Registro de Dados",
-        "Alimentado por Bateria",
+        "Operado por Bateria",
         "Design Robusto",
         "Certificados de Calibração"
       ],
       "certifications": [
         "Acreditado pela ISO 17025",
-        "Rastreável pelo NIST",
+        "Rastreável ao NIST",
         "Marcação CE",
         "Listado pela UL",
         "Compatível com RoHS",
@@ -2453,8 +2523,8 @@
       ],
       "seo": {
         "title": "Equipamentos de Calibração - Instrumentos Industriais de Teste e Calibração | Powerton Engineering",
-        "description": "Equipamentos profissionais de calibração e teste para aplicações industriais. Calibradores rastreáveis pelo NIST para instrumentos de pressão, temperatura e elétricos.",
-        "keywords": "equipamentos de calibração, instrumentos de teste, calibradores, calibração de instrumentos, rastreável pelo NIST, calibração de processo, calibração em campo"
+        "description": "Equipamentos profissionais de calibração e teste para aplicações industriais. Calibradores rastreáveis ao NIST para instrumentos de pressão, temperatura e elétricos.",
+        "keywords": "equipamentos de calibração, instrumentos de teste, calibradores, calibração de instrumentos, rastreável ao NIST, calibração de processo, calibração em campo"
       }
     },
     "bldc-cooler-exhaust-motor": {
@@ -2489,7 +2559,7 @@
         "Residencial",
         "Edifícios Comerciais",
         "Ventilação Industrial",
-        "Serviços de Alimentação",
+        "Serviço de Alimentação",
         "Manufatura"
       ],
       "features": [
@@ -2512,13 +2582,13 @@
       ],
       "seo": {
         "title": "Motores BLDC para Resfriadores e Exaustores - Motores BLDC de Alta Eficiência | Powerton Engineering",
-        "description": "Motores BLDC de alta eficiência para resfriadores de deserto e ventiladores de exaustão. Motores DC sem escovas com economia de energia e longa vida útil.",
+        "description": "Motores BLDC de alta eficiência para resfriadores de deserto e ventiladores de exaustão. Motores DC sem escovas economizadores de energia com longa vida útil.",
         "keywords": "motores BLDC para resfriadores, motores BLDC para exaustores, motores DC sem escovas, motores com eficiência energética, motores para resfriadores, motores para ventiladores de exaustão"
       }
     },
     "bldc-ceiling-fan": {
       "title": "Ventiladores de Teto BLDC",
-      "shortDescription": "Ventiladores de teto DC sem escovas com baixo consumo de energia",
+      "shortDescription": "Ventiladores de teto DC sem escovas com eficiência energética",
       "fullDescription": "Ventiladores de teto BLDC de alta eficiência com tecnologia de economia de energia, controles inteligentes e desempenho superior para aplicações residenciais e comerciais.",
       "parentCategoryTitle": "Produtos BLDC",
       "keyBenefits": [
@@ -2532,22 +2602,22 @@
         "Velocidade: 1200-1600 RPM",
         "Fluxo de Ar: 200-280 CMM",
         "Voltagem: 220V AC",
-        "Diâmetro: 1200mm a 1600mm",
+        "Varredura: 1200mm a 1600mm",
         "Classificação de Energia: 5 Estrelas BEE"
       ],
       "applications": [
         "Quartos Residenciais",
         "Espaços de Escritório",
         "Edifícios Comerciais",
-        "Hospitalidade",
-        "Instituições Educacionais",
+        "Hotelaria",
+        "Instituições de Ensino",
         "Instalações de Saúde"
       ],
       "industries": [
         "Construção Residencial",
-        "Imóveis Comerciais",
-        "Hospitalidade",
-        "Assistência Médica",
+        "Imobiliário Comercial",
+        "Hotelaria",
+        "Saúde",
         "Educação",
         "Varejo"
       ],
@@ -2608,14 +2678,14 @@
         "Residencial",
         "Desenvolvimento Rural",
         "Irrigação",
-        "Gestão de Água"
+        "Gerenciamento de Água"
       ],
       "features": [
         "Motor BLDC",
         "Compatível com Energia Solar",
         "Tecnologia MPPT",
         "Corpo em Aço Inoxidável",
-        "Proteção contra Funcionamento a Seco",
+        "Proteção Contra Funcionamento a Seco",
         "Proteção Térmica",
         "Alta Eficiência",
         "Baixa Manutenção"
@@ -2629,7 +2699,7 @@
         "ISO 9001"
       ],
       "seo": {
-        "title": "Bombas de Água BLDC - Bombas Solares Submersíveis e de Superfície | Powerton Engineering",
+        "title": "Bombas de Água BLDC - Bombas Submersíveis e de Superfície Solares | Powerton Engineering",
         "description": "Bombas de água BLDC compatíveis com energia solar para irrigação e uso doméstico. Bombas submersíveis e de superfície com eficiência energética com tecnologia MPPT.",
         "keywords": "bombas de água BLDC, bombas de água solares, bombas submersíveis BLDC, bombas solares, bombas DC sem escovas, bombas de irrigação"
       }
@@ -2689,7 +2759,7 @@
       ],
       "seo": {
         "title": "Motores BLDC para Ventiladores de Mesa e Parede - Motores de Ventilador com Eficiência Energética | Powerton Engineering",
-        "description": "Motores BLDC compactos para ventiladores de mesa e parede. Motores DC sem escovas com eficiência energética, operação silenciosa e longa vida útil.",
+        "description": "Motores BLDC compactos para ventiladores de mesa e parede. Motores DC sem escovas com eficiência energética com operação silenciosa e longa vida útil.",
         "keywords": "motores de ventilador BLDC, motores de ventilador de mesa, motores de ventilador de parede, motores com eficiência energética, motores DC sem escovas, motores de ventilador"
       }
     }
@@ -3250,7 +3320,7 @@
     "sensors": {
       "title": "Sensores Industriais",
       "shortDescription": "Gama abrangente de sensores de nível industrial para automação e controle de processos",
-      "fullDescription": "Soluções avançadas de sensores, incluindo temperatura, pressão, posição, movimento, fluxo, nível, proximidade e sensores especializados. Nosso portfólio de sensores apresenta sensores de temperatura digitais com CIs baseados em silício, sensores de pressão para conservação de água e aplicações industriais, sensores de posição com tecnologia MEMS e sensores de visão com sistemas de processamento de imagem para controle de qualidade.",
+      "fullDescription": "Soluções avançadas de sensores, incluindo temperatura, pressão, posição, movimento, fluxo, nível, proximidade e sensores especializados. Nosso portfólio de sensores apresenta sensores de temperatura digitais com CIs baseados em silício, sensores de pressão para conservas�ão de água e aplicações industriais, sensores de posição com tecnologia MEMS e sensores de visão com sistemas de processamento de imagem para controle de qualidade.",
       "specifications": [
         "Faixa de Temperatura: -40°C a +125°C",
         "Faixa de Pressão: Vácuo a 7500 PSI",
