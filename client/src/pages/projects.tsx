@@ -659,9 +659,10 @@ export default function Projects() {
                     whileHover={{ y: -10, scale: 1.03 }}
                     transition={{ duration: 0.3, ease: "easeOut" }}
                     key={project.id}
+                    className="h-full"
                   >
-                    <Card className="bg-card border border-border rounded-lg shadow-sm overflow-hidden hover:shadow-xl cursor-pointer group">
-                      <div className="aspect-video">
+                    <Card className="bg-card border border-border rounded-lg shadow-sm overflow-hidden hover:shadow-xl cursor-pointer group h-full flex flex-col">
+                      <div className="aspect-video flex-shrink-0">
                         <img
                           src={project.image}
                           alt={`ID-${250 + project.id}: ${
@@ -670,12 +671,12 @@ export default function Projects() {
                           className="w-full h-full object-cover"
                         />
                       </div>
-                      <CardContent className="p-8">
+                      <CardContent className="p-8 flex-1 flex flex-col">
                         <div className="flex items-start justify-between mb-2">
                           <h3 className="text-xl md:text-2xl font-semibold text-foreground">
                             {t(`pages:projects.items.${project.id}.title`)}
                           </h3>
-                          <Badge className="bg-gradient-to-r from-yellow-400 to-orange-500 text-white text-xs px-2 py-1 ml-2">
+                          <Badge className="bg-gradient-to-r from-yellow-400 to-orange-500 text-white text-xs px-2 py-1 ml-2 flex-shrink-0">
                             {t("pages:projects.featured")}
                           </Badge>
                         </div>
@@ -688,7 +689,7 @@ export default function Projects() {
                           {t(`pages:projects.items.${project.id}.description`)}
                         </p>
 
-                        <div className="space-y-4 mb-6">
+                        <div className="space-y-4 mb-6 flex-1">
                           <h4 className="font-semibold text-foreground text-base">
                             {t("pages:projects.keyFeatures")}
                           </h4>
@@ -711,7 +712,7 @@ export default function Projects() {
                           </div>
                         </div>
 
-                        <div className="space-y-5 text-base text-muted-foreground">
+                        <div className="space-y-5 text-base text-muted-foreground mt-auto">
                           <div className="flex items-start gap-4">
                             <MapPin className="w-5 h-5 flex-shrink-0 mt-0.5" />
                             <span className="leading-relaxed text-base">
