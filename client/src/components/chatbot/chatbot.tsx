@@ -314,6 +314,11 @@ export default function Chatbot() {
               action: "chat",
               response: "company-info",
             },
+            {
+              label: t("chatbot.options.careerOpportunities"),
+              action: "chat",
+              response: "career-options",
+            },
           ],
         });
       }, 500);
@@ -414,29 +419,44 @@ export default function Chatbot() {
         message: t("chatbot.responses.productSelection"),
         options: [
           {
-            label: t("chatbot.options.sensorsCategory"),
-            action: "chat",
-            response: "sensors-category",
+            label: t("chatbot.options.instrumentationCategory"),
+            action: "page",
+            page: "products/instrumentation-accessories",
           },
           {
             label: t("chatbot.options.electricalCategory"),
-            action: "chat",
-            response: "electrical-category",
+            action: "page",
+            page: "products/electrical-accessories",
           },
           {
-            label: t("chatbot.options.automationCategory"),
-            action: "chat",
-            response: "automation-category",
+            label: t("chatbot.options.measuringToolsCategory"),
+            action: "page",
+            page: "products/industrial-measuring-tools",
           },
           {
             label: t("chatbot.options.solarCategory"),
-            action: "chat",
-            response: "solar-category",
+            action: "page",
+            page: "products/solar-products",
+          },
+          {
+            label: t("chatbot.options.automationCategory"),
+            action: "page",
+            page: "products/automation-control-systems",
           },
           {
             label: t("chatbot.options.safetyCategory"),
-            action: "chat",
-            response: "safety-category",
+            action: "page",
+            page: "products/safety-protective-devices",
+          },
+          {
+            label: t("chatbot.options.pumpsCategory"),
+            action: "page",
+            page: "products/mechanical-pumps-spares",
+          },
+          {
+            label: t("chatbot.options.bldcCategory"),
+            action: "page",
+            page: "products/bldc",
           },
           {
             label: t("chatbot.options.browseAllProducts"),
@@ -452,29 +472,39 @@ export default function Chatbot() {
         message: t("chatbot.responses.serviceSelection"),
         options: [
           {
-            label: t("chatbot.options.installationService"),
-            action: "chat",
-            response: "installation-service",
+            label: t("chatbot.options.installationCommissioningService"),
+            action: "page",
+            page: "services/installation-commissioning",
           },
           {
-            label: t("chatbot.options.maintenanceService"),
-            action: "chat",
-            response: "maintenance-service",
+            label: t("chatbot.options.calibrationTestingService"),
+            action: "page",
+            page: "services/calibration-testing",
           },
           {
-            label: t("chatbot.options.calibrationService"),
-            action: "chat",
-            response: "calibration-service",
+            label: t("chatbot.options.technicalSupportService"),
+            action: "page",
+            page: "services/technical-support",
           },
           {
-            label: t("chatbot.options.trainingService"),
-            action: "chat",
-            response: "training-service",
+            label: t("chatbot.options.customSolutionsService"),
+            action: "page",
+            page: "services/custom-solutions",
           },
           {
-            label: t("chatbot.options.solarService"),
-            action: "chat",
-            response: "solar-service",
+            label: t("chatbot.options.consultationTrainingService"),
+            action: "page",
+            page: "services/consultation-training",
+          },
+          {
+            label: t("chatbot.options.supplyChainService"),
+            action: "page",
+            page: "services/supply-chain-management",
+          },
+          {
+            label: t("chatbot.options.solarEpcService"),
+            action: "page",
+            page: "services/solar-epc",
           },
           {
             label: t("chatbot.options.viewAllServices"),
@@ -561,6 +591,39 @@ export default function Chatbot() {
             label: t("chatbot.options.contactUs"),
             action: "external",
             url: "tel:+91-94627-71662",
+          },
+          {
+            label: t("chatbot.options.backToMainMenu"),
+            action: "chat",
+            response: "main-menu",
+          },
+        ],
+      };
+    }
+
+    if (input === "career-options") {
+      return {
+        message: t("chatbot.responses.careerOptions"),
+        options: [
+          {
+            label: t("chatbot.options.viewJobOpenings"),
+            action: "page",
+            page: "career",
+          },
+          {
+            label: t("chatbot.options.applyForPosition"),
+            action: "page",
+            page: "career",
+          },
+          {
+            label: t("chatbot.options.companyCulture"),
+            action: "page",
+            page: "about",
+          },
+          {
+            label: t("chatbot.options.sendYourResume"),
+            action: "external",
+            url: "mailto:careers@powertonengineering.com?subject=Job Application",
           },
           {
             label: t("chatbot.options.backToMainMenu"),
@@ -663,28 +726,32 @@ export default function Chatbot() {
         message: t("chatbot.responses.automationCategory"),
         options: [
           {
-            label: "🖥️ PLCs (Programmable Logic Controllers)",
+            label: t("chatbot.options.plcControllers"),
             action: "page",
-            page: "products/plcs",
+            page: "products/automation-control-systems/plcs",
           },
-          { label: "📊 SCADA Systems", action: "page", page: "product-scada" },
           {
-            label: "🌐 DCS (Distributed Control Systems)",
+            label: t("chatbot.options.scadaSystems"),
             action: "page",
-            page: "products/dcs",
+            page: "products/automation-control-systems/scada",
           },
           {
-            label: "👥 HMI (Human Machine Interface)",
+            label: t("chatbot.options.dcsDistributedControl"),
             action: "page",
-            page: "products/hmi",
+            page: "products/automation-control-systems/dcs",
           },
           {
-            label: "⚙️ Custom Control Panels",
-            action: "chat",
-            response: "custom-panels",
+            label: t("chatbot.options.hmiHumanMachineInterface"),
+            action: "page",
+            page: "products/automation-control-systems/hmi",
           },
           {
-            label: "🎯 Let's Discuss Your Project",
+            label: t("chatbot.options.customControlPanels"),
+            action: "external",
+            url: "mailto:info@powertonengineering.com?subject=Custom Control Panel Request",
+          },
+          {
+            label: t("chatbot.options.discussAutomationProject"),
             action: "external",
             url: "mailto:info@powertonengineering.com?subject=Automation Project Discussion",
           },
@@ -702,27 +769,27 @@ export default function Chatbot() {
         message: t("chatbot.responses.solarCategory"),
         options: [
           {
-            label: "☀️ Solar Panels",
+            label: t("chatbot.options.solarPanels"),
             action: "page",
-            page: "product-solar-panels",
+            page: "products/solar-products/solar-panels",
           },
           {
-            label: "🔄 Solar Inverters",
+            label: t("chatbot.options.solarInverters"),
             action: "page",
-            page: "product-solar-inverters",
+            page: "products/solar-products/solar-inverters",
           },
           {
-            label: "🔧 Solar Installation & EPC",
+            label: t("chatbot.options.solarInstallationEpc"),
             action: "page",
-            page: "services",
+            page: "services/solar-epc",
           },
           {
-            label: "📋 Get Custom Solar Quote",
+            label: t("chatbot.options.getCustomSolarQuote"),
             action: "external",
             url: "mailto:info@powertonengineering.com?subject=Solar Project Quote Request",
           },
           {
-            label: "📞 Solar Consultation",
+            label: t("chatbot.options.solarConsultation"),
             action: "external",
             url: "tel:+91-94627-71662",
           },
@@ -1373,7 +1440,7 @@ export default function Chatbot() {
             url: "mailto:info@powertonengineering.com?subject=Motor Pump Equipment Quote",
           },
           {
-            label: "📞 Technical Consultation",
+            label: t("chatbot.options.technicalConsultation"),
             action: "external",
             url: "tel:+91-94627-71662",
           },
