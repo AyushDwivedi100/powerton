@@ -66,21 +66,19 @@ export default function ProductSubCategoryDynamic() {
           <p className="text-muted-foreground mb-8">
             {t("common:errors.subCategoryNotFoundMessage")}
           </p>
-          <Link href="/products">
-            <Button
-              variant="ghost"
-              className="mb-6 hover:bg-white/10 text-white group"
-              asChild
+          <Button
+            variant="ghost"
+            className="mb-6 hover:bg-white/10 text-white group"
+            asChild
+          >
+            <Link
+              href={`/products/${parentSlug}`}
+              data-testid="link-back-to-category"
             >
-              <Link
-                href={product.parentCategory}
-                data-testid="link-back-to-category"
-              >
-                <ArrowLeft className="mr-2 h-4 w-4 group-hover:-translate-x-2 transition-transform duration-200" />
-                {t("common:buttons.backTo")} {product.parentCategoryTitle}
-              </Link>
-            </Button>
-          </Link>
+              <ArrowLeft className="mr-2 h-4 w-4 group-hover:-translate-x-2 transition-transform duration-200" />
+              {t("common:buttons.backToProducts")}
+            </Link>
+          </Button>
         </motion.div>
       </div>
     );
