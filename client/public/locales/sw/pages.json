@@ -436,20 +436,50 @@
       "processcontrol": "Udhibiti wa Mchakato",
       "safetysystems": "Mifumo ya Usalama",
       "plcprogramming": "Programu ya PLC",
-      "scada": "Mifumo ya SCADA",
+      "scadasystems": "Mifumo ya SCADA",
+      "scada": "SCADA",
       "hmi": "HMI",
+      "hmiinterface": "Kiolesura cha HMI",
       "industrialiot": "IoT ya Viwandani",
       "environmentalmonitoring": "Ufuatiliaji wa Mazingira",
       "predictiveanalytics": "Uchambuzi wa Utabiri",
-      "edgecomputing": "Kompyuta ya Edge"
+      "edgecomputing": "Kompyuta ya Ukingoni",
+      "instrumentation": "Ala",
+      "installation&commissioning": "Ufungaji na Uanzishaji",
+      "electricalsystems": "Mifumo ya Umeme",
+      "controlpanels": "Paneli za Udhibiti",
+      "automationnetworks": "Mitandao ya Uendeshaji",
+      "solarpanelsystems": "Mifumo ya Paneli za Jua",
+      "earthing&protection": "Kutuliza na Ulinzi",
+      "gridsynchronization": "Usawazishaji wa Gridi",
+      "electricalinfrastructure": "Miundombinu ya Umeme",
+      "monitoringsystems": "Mifumo ya Ufuatiliaji",
+      "processautomation": "Uendeshaji wa Mchakato",
+      "controllogic": "Mantiki ya Udhibiti",
+      "powerdistribution": "Usambazaji wa Nguvu",
+      "turbinecontrolsystems": "Mifumo ya Udhibiti wa Turbine",
+      "vibrationmonitoring": "Ufuatiliaji wa Mtetemo",
+      "powermanagement": "Usimamizi wa Nguvu",
+      "civilinfrastructure": "Miundombinu ya Kiraia",
+      "evchargingsystems": "Mifumo ya Kuchaji EV",
+      "electricalpanels": "Paneli za Umeme",
+      "smartmetering": "Upimaji Mahiri",
+      "processinstrumentation": "Ala ya Mchakato",
+      "controlsystems": "Mifumo ya Udhibiti",
+      "distributionsystems": "Mifumo ya Usambazaji",
+      "monitoringequipment": "Vifaa vya Ufuatiliaji",
+      "plcsystems": "Mifumo ya PLC",
+      "waterqualitymonitoring": "Ufuatiliaji wa Ubora wa Maji"
     },
+    "technologiesUsed": "Teknolojia Zinazotumika",
+    "completedDate": "Imekamilika",
     "tabs": {
       "portfolio": "Kwingineko ya Mradi",
       "showcase": "Miradi Iliyoangaziwa"
     },
     "hero": {
       "title": "Miradi Yetu",
-      "subtitle": "Gundua ubora wetu wa uhandisi kupitia miradi 1200+ iliyofaulu katika tasnia mbalimbali, inayoonyesha uvumbuzi, ubora, na kuegemea."
+      "subtitle": "Gundua ubora wetu wa uhandisi kupitia miradi 1200+ iliyofanikiwa katika tasnia mbalimbali, inayoonyesha uvumbuzi, ubora na uaminifu."
     },
     "statuses": {
       "capabilitydemo": "Onyesho la Uwezo",
@@ -465,6 +495,7 @@
       "solarsolutions": "Suluhisho za Jua",
       "manufacturing": "Utengenezaji",
       "watertreatment": "Usafishaji wa Maji",
+      "watersystems": "Mifumo ya Maji",
       "powerplant": "Mtambo wa Umeme"
     },
     "highlights": {
@@ -475,7 +506,14 @@
       "loadbalancing": "Usawazishaji wa Mzigo",
       "protectionsystems": "Mifumo ya Ulinzi",
       "energymanagement": "Usimamizi wa Nishati",
-      "remotecontrol": "Udhibiti wa Mbali"
+      "remotecontrol": "Udhibiti wa Mbali",
+      "advancedscadaimplementation": "Utekelezaji wa Juu wa SCADA",
+      "real-timeprocessmonitoring": "Ufuatiliaji wa Mchakato wa Wakati Halisi",
+      "automatedqualitycontrol": "Udhibiti wa Ubora Kiotomatiki",
+      "remotesystemmanagement": "Usimamizi wa Mfumo wa Mbali",
+      "fullfacilitycommissioning": "Uanzishaji Kamili wa Kituo",
+      "integratedcontrolsystems": "Mifumo Jumuishi ya Udhibiti",
+      "safetysystemintegration": "Ujumuishaji wa Mfumo wa Usalama"
     }
   },
   "products": {
@@ -674,7 +712,7 @@
     "hero": {
       "title": "Pata Nukuu ya Uhandisi ya Kitaalamu",
       "subtitle": "Wasiliana na timu yetu ya wataalamu kwa suluhisho maalum za automatisheni na ala kwa mahitaji yako ya viwandani.",
-      "estimates" : "Kadirio la Gharama",
+      "estimates": "Kadirio la Gharama",
       "benefits": {
         "consultation": "Ushauri wa Kiufundi Bure",
         "response": "Muda wa Kujibu wa Saa 24-48",

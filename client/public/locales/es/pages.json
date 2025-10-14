@@ -427,32 +427,62 @@
     "technologies": {
       "mccpanels": "Paneles MCC",
       "protectionsystems": "Sistemas de Protección",
-      "energymanagement": "Gestión de la Energía",
+      "energymanagement": "Gestión de Energía",
       "remotemonitoring": "Monitoreo Remoto",
       "solarinverters": "Inversores Solares",
-      "gridsync": "Sincronización de la Red",
+      "gridsync": "Sincronización de Red",
       "weathermonitoring": "Monitoreo del Clima",
       "dataanalytics": "Análisis de Datos",
       "processcontrol": "Control de Procesos",
       "safetysystems": "Sistemas de Seguridad",
       "plcprogramming": "Programación PLC",
-      "scada": "Sistemas SCADA",
+      "scadasystems": "Sistemas SCADA",
+      "scada": "SCADA",
       "hmi": "HMI",
+      "hmiinterface": "Interfaz HMI",
       "industrialiot": "IoT Industrial",
       "environmentalmonitoring": "Monitoreo Ambiental",
-      "predictiveanalytics": "Análisis Predictivo",
-      "edgecomputing": "Computación en el Borde"
+      "predictiveanalytics": "Analítica Predictiva",
+      "edgecomputing": "Computación en el Borde",
+      "instrumentation": "Instrumentación",
+      "installation&commissioning": "Instalación y Puesta en Marcha",
+      "electricalsystems": "Sistemas Eléctricos",
+      "controlpanels": "Paneles de Control",
+      "automationnetworks": "Redes de Automatización",
+      "solarpanelsystems": "Sistemas de Paneles Solares",
+      "earthing&protection": "Puesta a Tierra y Protección",
+      "gridsynchronization": "Sincronización de la Red",
+      "electricalinfrastructure": "Infraestructura Eléctrica",
+      "monitoringsystems": "Sistemas de Monitoreo",
+      "processautomation": "Automatización de Procesos",
+      "controllogic": "Lógica de Control",
+      "powerdistribution": "Distribución de Energía",
+      "turbinecontrolsystems": "Sistemas de Control de Turbinas",
+      "vibrationmonitoring": "Monitoreo de Vibración",
+      "powermanagement": "Gestión de Energía",
+      "civilinfrastructure": "Infraestructura Civil",
+      "evchargingsystems": "Sistemas de Carga de Vehículos Eléctricos",
+      "electricalpanels": "Paneles Eléctricos",
+      "smartmetering": "Medición Inteligente",
+      "processinstrumentation": "Instrumentación de Procesos",
+      "controlsystems": "Sistemas de Control",
+      "distributionsystems": "Sistemas de Distribución",
+      "monitoringequipment": "Equipo de Monitoreo",
+      "plcsystems": "Sistemas PLC",
+      "waterqualitymonitoring": "Monitoreo de la Calidad del Agua"
     },
+    "technologiesUsed": "Tecnologías Utilizadas",
+    "completedDate": "Completado",
     "tabs": {
       "portfolio": "Portafolio de Proyectos",
       "showcase": "Proyectos Destacados"
     },
     "hero": {
       "title": "Nuestros Proyectos",
-      "subtitle": "Explore nuestra excelencia en ingeniería a través de más de 1200 proyectos exitosos en diversas industrias, mostrando innovación, calidad y confiabilidad."
+      "subtitle": "Explore nuestra excelencia en ingeniería a través de más de 1200 proyectos exitosos en varias industrias, mostrando innovación, calidad y confiabilidad."
     },
     "statuses": {
-      "capabilitydemo": "Demostración de Capacidades",
+      "capabilitydemo": "Demostración de Capacidad",
       "inprogress": "En Progreso",
       "completed": "Completado",
       "planning": "Fase de Planificación",
@@ -465,6 +495,7 @@
       "solarsolutions": "Soluciones Solares",
       "manufacturing": "Fabricación",
       "watertreatment": "Tratamiento de Agua",
+      "watersystems": "Sistemas de Agua",
       "powerplant": "Planta de Energía"
     },
     "highlights": {
@@ -474,8 +505,15 @@
       "processoptimization": "Optimización de Procesos",
       "loadbalancing": "Equilibrio de Carga",
       "protectionsystems": "Sistemas de Protección",
-      "energymanagement": "Gestión de la Energía",
-      "remotecontrol": "Control Remoto"
+      "energymanagement": "Gestión de Energía",
+      "remotecontrol": "Control Remoto",
+      "advancedscadaimplementation": "Implementación Avanzada de SCADA",
+      "real-timeprocessmonitoring": "Monitoreo de Procesos en Tiempo Real",
+      "automatedqualitycontrol": "Control de Calidad Automatizado",
+      "remotesystemmanagement": "Gestión Remota de Sistemas",
+      "fullfacilitycommissioning": "Puesta en Marcha Completa de la Instalación",
+      "integratedcontrolsystems": "Sistemas de Control Integrados",
+      "safetysystemintegration": "Integración del Sistema de Seguridad"
     }
   },
   "products": {
@@ -674,7 +712,7 @@
     "hero": {
       "title": "Obtenga una Cotización de Ingeniería Profesional",
       "subtitle": "Póngase en contacto con nuestro equipo de expertos para obtener soluciones de automatización e instrumentación adaptadas a sus necesidades industriales.",
-      "estimates" : "Estimaciones de Costos",
+      "estimates": "Estimaciones de Costos",
       "benefits": {
         "consultation": "Consulta Técnica Gratuita",
         "response": "Tiempo de Respuesta de 24-48 Horas",

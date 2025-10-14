@@ -415,7 +415,7 @@
       "bokaro-spirit-jharkhand": {
         "title": "Электрооборудование и контрольно-измерительные приборы для дистиллерии",
         "client": "Bokaro Spirit",
-        "description": "Полный комплекс электрооборудования и контрольно-измерительных приборов для объекта дистиллерии, включая системы распределения электроэнергии и управления",
+        "description": "Полный комплекс электрооборудования и контрольно-ип��мерительных приборов для объекта дистиллерии, включая системы распределения электроэнергии и управления",
         "location": "Jharkhand"
       },
       "vanya-steel-turbine": {
@@ -449,26 +449,56 @@
       "energymanagement": "Управление энергопотреблением",
       "remotemonitoring": "Удаленный мониторинг",
       "solarinverters": "Солнечные инверторы",
-      "gridsync": "Синхронизация сети",
+      "gridsync": "Синхронизация с сетью",
       "weathermonitoring": "Мониторинг погоды",
       "dataanalytics": "Анализ данных",
       "processcontrol": "Управление процессами",
       "safetysystems": "Системы безопасности",
       "plcprogramming": "Программирование ПЛК",
-      "scada": "Системы SCADA",
+      "scadasystems": "Системы SCADA",
+      "scada": "SCADA",
       "hmi": "HMI",
+      "hmiinterface": "Интерфейс HMI",
       "industrialiot": "Промышленный IoT",
       "environmentalmonitoring": "Экологический мониторинг",
       "predictiveanalytics": "Прогнозная аналитика",
-      "edgecomputing": "Периферийные вычисления"
+      "edgecomputing": "Периферийные вычисления",
+      "instrumentation": "Контрольно-измерительное оборудование",
+      "installation&commissioning": "Установка и ввод в эксплуатацию",
+      "electricalsystems": "Электрические системы",
+      "controlpanels": "Панели управления",
+      "automationnetworks": "Сети автоматизации",
+      "solarpanelsystems": "Системы солнечных панелей",
+      "earthing&protection": "Заземление и защита",
+      "gridsynchronization": "Синхронизация с сетью",
+      "electricalinfrastructure": "Электрическая инфраструктура",
+      "monitoringsystems": "Системы мониторинга",
+      "processautomation": "Автоматизация процессов",
+      "controllogic": "Логика управления",
+      "powerdistribution": "Распределение электроэнергии",
+      "turbinecontrolsystems": "Системы управления турбинами",
+      "vibrationmonitoring": "Мониторинг вибрации",
+      "powermanagement": "Управление питанием",
+      "civilinfrastructure": "Гражданская инфраструктура",
+      "evchargingsystems": "Системы зарядки электромобилей",
+      "electricalpanels": "Электрические панели",
+      "smartmetering": "Интеллектуальный учет",
+      "processinstrumentation": "Контрольно-измерительное оборудование",
+      "controlsystems": "Системы управления",
+      "distributionsystems": "Системы распределения",
+      "monitoringequipment": "Оборудование для мониторинга",
+      "plcsystems": "Системы ПЛК",
+      "waterqualitymonitoring": "Мониторинг качества воды"
     },
+    "technologiesUsed": "Используемые технологии",
+    "completedDate": "Завершено",
     "tabs": {
-      "portfolio": "Портфель проектов",
+      "portfolio": "Портфолио проектов",
       "showcase": "Рекомендуемые проекты"
     },
     "hero": {
       "title": "Наши проекты",
-      "subtitle": "Ознакомьтесь с нашим инженерным опытом, реализованным в более чем 1200 успешных проектах в различных отраслях, демонстрирующих инновации, качество и надежность."
+      "subtitle": "Ознакомьтесь с нашими инженерными достижениями, реализованными в более чем 1200 успешных проектах в различных отраслях, демонстрирующих инновации, качество и надежность."
     },
     "statuses": {
       "capabilitydemo": "Демонстрация возможностей",
@@ -484,17 +514,25 @@
       "solarsolutions": "Солнечные решения",
       "manufacturing": "Производство",
       "watertreatment": "Очистка воды",
+      "watersystems": "Водные системы",
       "powerplant": "Электростанция"
     },
     "highlights": {
       "plcintegration": "Интеграция ПЛК",
       "scadasystems": "Системы SCADA",
       "realtimemonitoring": "Мониторинг в реальном времени",
-      "processoptimization": "Оптимизация процесса",
+      "processoptimization": "Оптимизация процессов",
       "loadbalancing": "Балансировка нагрузки",
       "protectionsystems": "Системы защиты",
-      "energymanagement": "Управление энергией",
-      "remotecontrol": "Удаленное управление"
+      "energymanagement": "Управление энергопотреблением",
+      "remotecontrol": "Удаленное управление",
+      "advancedscadaimplementation": "Расширенное внедрение SCADA",
+      "real-timeprocessmonitoring": "Мониторинг технологического процесса в реальном времени",
+      "automatedqualitycontrol": "Автоматизированный контроль качества",
+      "remotesystemmanagement": "Удаленное управление системой",
+      "fullfacilitycommissioning": "Ввод в эксплуатацию всего объекта",
+      "integratedcontrolsystems": "Интегрированные системы управления",
+      "safetysystemintegration": "Интеграция системы безопасности"
     }
   },
   "products": {
@@ -693,7 +731,7 @@
     "hero": {
       "title": "Получите профессиональное инженерное предложение",
       "subtitle": "Свяжитесь с нашей командой экспертов для получения индивидуальных решений по автоматизации и контрольно-измерительным приборам для ваших промышленных нужд.",
-      "estimates" : "Оценка стоимости",
+      "estimates": "Оценка стоимости",
       "benefits": {
         "consultation": "Бесплатная техническая консультация",
         "response": "Время ответа 24-48 часов",

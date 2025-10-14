@@ -436,23 +436,53 @@
       "processcontrol": "التحكم في العمليات",
       "safetysystems": "أنظمة السلامة",
       "plcprogramming": "برمجة PLC",
-      "scada": "أنظمة SCADA",
+      "scadasystems": "أنظمة SCADA",
+      "scada": "SCADA",
       "hmi": "HMI",
+      "hmiinterface": "واجهة HMI",
       "industrialiot": "إنترنت الأشياء الصناعي",
       "environmentalmonitoring": "المراقبة البيئية",
       "predictiveanalytics": "التحليلات التنبؤية",
-      "edgecomputing": "الحوسبة المتطورة"
+      "edgecomputing": "الحوسبة المتطورة",
+      "instrumentation": "الأجهزة",
+      "installation&commissioning": "التركيب والتشغيل",
+      "electricalsystems": "الأنظمة الكهربائية",
+      "controlpanels": "لوحات التحكم",
+      "automationnetworks": "شبكات الأتمتة",
+      "solarpanelsystems": "أنظمة الألواح الشمسية",
+      "earthing&protection": "التأريض والحماية",
+      "gridsynchronization": "مزامنة الشبكة",
+      "electricalinfrastructure": "البنية التحتية الكهربائية",
+      "monitoringsystems": "أنظمة المراقبة",
+      "processautomation": "أتمتة العمليات",
+      "controllogic": "منطق التحكم",
+      "powerdistribution": "توزيع الطاقة",
+      "turbinecontrolsystems": "أنظمة التحكم في التوربينات",
+      "vibrationmonitoring": "مراقبة الاهتزاز",
+      "powermanagement": "إدارة الطاقة",
+      "civilinfrastructure": "البنية التحتية المدنية",
+      "evchargingsystems": "أنظمة شحن المركبات الكهربائية",
+      "electricalpanels": "اللوحات الكهربائية",
+      "smartmetering": "العدادات الذكية",
+      "processinstrumentation": "أجهزة العمليات",
+      "controlsystems": "أنظمة التحكم",
+      "distributionsystems": "أنظمة التوزيع",
+      "monitoringequipment": "معدات المراقبة",
+      "plcsystems": "أنظمة PLC",
+      "waterqualitymonitoring": "مراقبة جودة المياه"
     },
+    "technologiesUsed": "التقنيات المستخدمة",
+    "completedDate": "أكتمل",
     "tabs": {
-      "portfolio": "مجموعة المشاريع",
+      "portfolio": "ملف المشاريع",
       "showcase": "المشاريع المميزة"
     },
     "hero": {
       "title": "مشاريعنا",
-      "subtitle": "استكشف تميزنا الهندسي من خلال أكثر من 1200 مشروع ناجح عبر مختلف الصناعات، والتي تعرض الابتكار والجودة والموثوقية."
+      "subtitle": "استكشف تميزنا الهندسي من خلال أكثر من 1200 مشروع ناجح عبر مختلف الصناعات، يعرض الابتكار والجودة والموثوقية."
     },
     "statuses": {
-      "capabilitydemo": "عرض توضيحي للقدرات",
+      "capabilitydemo": "عرض القدرات",
       "inprogress": "في التقدم",
       "completed": "مكتمل",
       "planning": "مرحلة التخطيط",
@@ -465,6 +495,7 @@
       "solarsolutions": "حلول الطاقة الشمسية",
       "manufacturing": "تصنيع",
       "watertreatment": "معالجة المياه",
+      "watersystems": "أنظمة المياه",
       "powerplant": "محطة توليد الكهرباء"
     },
     "highlights": {
@@ -472,10 +503,17 @@
       "scadasystems": "أنظمة SCADA",
       "realtimemonitoring": "المراقبة في الوقت الفعلي",
       "processoptimization": "تحسين العمليات",
-      "loadbalancing": "موازنة التحميل",
+      "loadbalancing": "موازنة الحمل",
       "protectionsystems": "أنظمة الحماية",
       "energymanagement": "إدارة الطاقة",
-      "remotecontrol": "التحكم عن بعد"
+      "remotecontrol": "التحكم عن بعد",
+      "advancedscadaimplementation": "تنفيذ SCADA المتقدم",
+      "real-timeprocessmonitoring": "مراقبة العمليات في الوقت الفعلي",
+      "automatedqualitycontrol": "مراقبة الجودة الآلية",
+      "remotesystemmanagement": "إدارة النظام عن بعد",
+      "fullfacilitycommissioning": "تشغيل المنشأة بالكامل",
+      "integratedcontrolsystems": "أنظمة التحكم المتكاملة",
+      "safetysystemintegration": "تكامل نظام السلامة"
     }
   },
   "products": {
@@ -674,7 +712,7 @@
     "hero": {
       "title": "احصل على عرض أسعار هندسي احترافي",
       "subtitle": "اتصل بفريق الخبراء لدينا للحصول على حلول أتمتة وأجهزة مخصصة لتلبية احتياجاتك الصناعية.",
-      "estimates" : "تقدير التكلفة",
+      "estimates": "تقدير التكلفة",
       "benefits": {
         "consultation": "استشارة فنية مجانية",
         "response": "وقت الاستجابة من 24 إلى 48 ساعة",

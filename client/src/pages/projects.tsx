@@ -42,7 +42,11 @@ import {
   getAnimationClass,
 } from "@/hooks/use-scroll-animation";
 import { getHeroImage } from "@/assets/images";
-import { getAllProjects, getFeaturedProjects, Project } from "@/data/projects-data";
+import {
+  getAllProjects,
+  getFeaturedProjects,
+  Project,
+} from "@/data/projects-data";
 
 // Use centralized project data from projects-data.ts
 const PORTFOLIO_PROJECTS = getAllProjects();
@@ -524,12 +528,10 @@ export default function Projects() {
                               <CardTitle className="text-2xl font-bold text-foreground leading-tight flex-1">
                                 {t(`pages:projects.items.${project.id}.title`)}
                               </CardTitle>
-                              <div className="flex-shrink-0">
-                                {Icon}
-                              </div>
+                              <div className="flex-shrink-0">{Icon}</div>
                             </div>
-                            
-                            <div className="flex items-center gap-2 text-muted-foreground">
+
+                            <div className="flex items-center gap-2 text-secondary">
                               <Building className="w-4 h-4 flex-shrink-0" />
                               <span className="text-sm font-medium">
                                 {t(`pages:projects.items.${project.id}.client`)}
@@ -555,7 +557,9 @@ export default function Projects() {
                                   )}
                                 </span>
                               </div>
-                              <span className="text-muted-foreground/40">•</span>
+                              <span className="text-muted-foreground/40">
+                                •
+                              </span>
                               <div className="flex items-center gap-2">
                                 {getStatusIcon(project.status)}
                                 <span className="text-green-600 font-medium">
@@ -570,7 +574,10 @@ export default function Projects() {
 
                             <div className="flex items-center gap-2 text-sm text-muted-foreground">
                               <Calendar className="w-4 h-4 flex-shrink-0" />
-                              <span>{project.month} {project.year}</span>
+                              <span>
+                                {t("pages:projects.completedDate")}:{" "}
+                                {project.month} {project.year}
+                              </span>
                             </div>
                           </div>
 
@@ -598,7 +605,9 @@ export default function Projects() {
                           <div className="space-y-3">
                             <div className="flex items-center gap-2 text-sm font-semibold text-foreground">
                               <TrendingUp className="w-4 h-4 text-primary" />
-                              <span>{t("pages:projects.technologiesUsed")}</span>
+                              <span>
+                                {t("pages:projects.technologiesUsed")}
+                              </span>
                             </div>
                             <div className="flex flex-wrap gap-2.5">
                               {project.technologies.map((tech) => (
@@ -615,7 +624,6 @@ export default function Projects() {
                               ))}
                             </div>
                           </div>
-
                         </div>
                       </Card>
                     </motion.div>
@@ -646,87 +654,82 @@ export default function Projects() {
             <TabsContent value="showcase" className="space-y-8">
               {/* Featured Projects Showcase */}
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
-                {getFeaturedProjects().map(
-                  (project: Project) => (
-                    <motion.div
-                      whileHover={{ y: -10, scale: 1.03 }}
-                      transition={{ duration: 0.3, ease: "easeOut" }}
-                      key={project.id}
-                    >
-                      <Card className="bg-card border border-border rounded-lg shadow-sm overflow-hidden hover:shadow-xl cursor-pointer group">
-                        <div className="aspect-video">
-                          <img
-                            src={project.image}
-                            alt={`ID-${250 + project.id}: ${
-                              project.title
-                            } featured project`}
-                            className="w-full h-full object-cover"
-                          />
+                {getFeaturedProjects().map((project: Project) => (
+                  <motion.div
+                    whileHover={{ y: -10, scale: 1.03 }}
+                    transition={{ duration: 0.3, ease: "easeOut" }}
+                    key={project.id}
+                  >
+                    <Card className="bg-card border border-border rounded-lg shadow-sm overflow-hidden hover:shadow-xl cursor-pointer group">
+                      <div className="aspect-video">
+                        <img
+                          src={project.image}
+                          alt={`ID-${250 + project.id}: ${
+                            project.title
+                          } featured project`}
+                          className="w-full h-full object-cover"
+                        />
+                      </div>
+                      <CardContent className="p-8">
+                        <div className="flex items-start justify-between mb-2">
+                          <h3 className="text-xl md:text-2xl font-semibold text-foreground">
+                            {t(`pages:projects.items.${project.id}.title`)}
+                          </h3>
+                          <Badge className="bg-gradient-to-r from-yellow-400 to-orange-500 text-white text-xs px-2 py-1 ml-2">
+                            {t("pages:projects.featured")}
+                          </Badge>
                         </div>
-                        <CardContent className="p-8">
-                          <div className="flex items-start justify-between mb-2">
-                            <h3 className="text-xl md:text-2xl font-semibold text-foreground">
-                              {t(`pages:projects.items.${project.id}.title`)}
-                            </h3>
-                            <Badge className="bg-gradient-to-r from-yellow-400 to-orange-500 text-white text-xs px-2 py-1 ml-2">
-                              {t("pages:projects.featured")}
-                            </Badge>
-                          </div>
-                          <div className="mb-3">
-                            <p className="text-sm font-medium text-primary">
-                              {t(`pages:projects.items.${project.id}.client`)}
-                            </p>
-                          </div>
-                          <p className="text-base text-muted-foreground mb-6 leading-relaxed">
-                            {t(
-                              `pages:projects.items.${project.id}.description`,
-                            )}
+                        <div className="mb-3">
+                          <p className="text-sm font-medium text-secondary">
+                            {t(`pages:projects.items.${project.id}.client`)}
                           </p>
+                        </div>
+                        <p className="text-base text-muted-foreground mb-6 leading-relaxed">
+                          {t(`pages:projects.items.${project.id}.description`)}
+                        </p>
 
-                          <div className="space-y-4 mb-6">
-                            <h4 className="font-semibold text-foreground text-base">
-                              {t("pages:projects.keyFeatures")}
-                            </h4>
-                            <div className="flex flex-wrap gap-2">
-                              {project.highlights.map(
-                                (highlight: string, index: number) => (
-                                  <Badge
-                                    key={index}
-                                    variant="outline"
-                                    className="text-xs px-3 py-1.5 bg-gray-100 text-gray-800 hover:bg-gray-200 cursor-pointer transition-colors border-gray-300"
-                                  >
-                                    {t(
-                                      `pages:projects.highlights.${highlight
-                                        .toLowerCase()
-                                        .replace(/\s+/g, "")}`,
-                                    )}
-                                  </Badge>
-                                ),
-                              )}
-                            </div>
+                        <div className="space-y-4 mb-6">
+                          <h4 className="font-semibold text-foreground text-base">
+                            {t("pages:projects.keyFeatures")}
+                          </h4>
+                          <div className="flex flex-wrap gap-2">
+                            {project.highlights.map(
+                              (highlight: string, index: number) => (
+                                <Badge
+                                  key={index}
+                                  variant="outline"
+                                  className="text-xs px-3 py-1.5 bg-gray-100 text-gray-800 hover:bg-gray-200 cursor-pointer transition-colors border-gray-300"
+                                >
+                                  {t(
+                                    `pages:projects.highlights.${highlight
+                                      .toLowerCase()
+                                      .replace(/\s+/g, "")}`,
+                                  )}
+                                </Badge>
+                              ),
+                            )}
                           </div>
+                        </div>
 
-                          <div className="space-y-5 text-base text-muted-foreground">
-                            <div className="flex items-start gap-4">
-                              <MapPin className="w-5 h-5 flex-shrink-0 mt-0.5" />
-                              <span className="leading-relaxed text-base">
-                                {t(
-                                  `pages:projects.items.${project.id}.location`,
-                                )}
-                              </span>
-                            </div>
-                            <div className="flex items-start gap-4">
-                              <Calendar className="w-5 h-5 flex-shrink-0 mt-0.5" />
-                              <span className="leading-relaxed text-base">
-                                {t("pages:projects.completedDate")}: {project.month} {project.year}
-                              </span>
-                            </div>
+                        <div className="space-y-5 text-base text-muted-foreground">
+                          <div className="flex items-start gap-4">
+                            <MapPin className="w-5 h-5 flex-shrink-0 mt-0.5" />
+                            <span className="leading-relaxed text-base">
+                              {t(`pages:projects.items.${project.id}.location`)}
+                            </span>
                           </div>
-                        </CardContent>
-                      </Card>
-                    </motion.div>
-                  ),
-                )}
+                          <div className="flex items-start gap-4">
+                            <Calendar className="w-5 h-5 flex-shrink-0 mt-0.5" />
+                            <span className="leading-relaxed text-base">
+                              {t("pages:projects.completedDate")}:{" "}
+                              {project.month} {project.year}
+                            </span>
+                          </div>
+                        </div>
+                      </CardContent>
+                    </Card>
+                  </motion.div>
+                ))}
               </div>
             </TabsContent>
           </Tabs>

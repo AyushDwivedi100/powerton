@@ -433,26 +433,56 @@
       "gridsync": "Synchronisation du réseau",
       "weathermonitoring": "Surveillance météorologique",
       "dataanalytics": "Analyse des données",
-      "processcontrol": "Contrôle des processus",
+      "processcontrol": "Contrôle de processus",
       "safetysystems": "Systèmes de sécurité",
       "plcprogramming": "Programmation PLC",
-      "scada": "Systèmes SCADA",
+      "scadasystems": "Systèmes SCADA",
+      "scada": "SCADA",
       "hmi": "IHM",
+      "hmiinterface": "Interface IHM",
       "industrialiot": "IoT industriel",
       "environmentalmonitoring": "Surveillance environnementale",
       "predictiveanalytics": "Analyse prédictive",
-      "edgecomputing": "Informatique de pointe"
+      "edgecomputing": "Informatique de pointe",
+      "instrumentation": "Instrumentation",
+      "installation&commissioning": "Installation et mise en service",
+      "electricalsystems": "Systèmes électriques",
+      "controlpanels": "Panneaux de contrôle",
+      "automationnetworks": "Réseaux d'automatisation",
+      "solarpanelsystems": "Systèmes de panneaux solaires",
+      "earthing&protection": "Mise à la terre et protection",
+      "gridsynchronization": "Synchronisation du réseau",
+      "electricalinfrastructure": "Infrastructure électrique",
+      "monitoringsystems": "Systèmes de surveillance",
+      "processautomation": "Automatisation des processus",
+      "controllogic": "Logique de contrôle",
+      "powerdistribution": "Distribution d'énergie",
+      "turbinecontrolsystems": "Systèmes de contrôle de turbine",
+      "vibrationmonitoring": "Surveillance des vibrations",
+      "powermanagement": "Gestion de l'énergie",
+      "civilinfrastructure": "Infrastructure civile",
+      "evchargingsystems": "Systèmes de recharge pour véhicules électriques",
+      "electricalpanels": "Panneaux électriques",
+      "smartmetering": "Comptage intelligent",
+      "processinstrumentation": "Instrumentation de processus",
+      "controlsystems": "Systèmes de contrôle",
+      "distributionsystems": "Systèmes de distribution",
+      "monitoringequipment": "Équipement de surveillance",
+      "plcsystems": "Systèmes PLC",
+      "waterqualitymonitoring": "Surveillance de la qualité de l'eau"
     },
+    "technologiesUsed": "Technologies utilisées",
+    "completedDate": "Terminé",
     "tabs": {
       "portfolio": "Portefeuille de projets",
       "showcase": "Projets en vedette"
     },
     "hero": {
       "title": "Nos projets",
-      "subtitle": "Explorez notre excellence en ingénierie à travers plus de 1 200 projets réussis dans divers secteurs, mettant en valeur l'innovation, la qualité et la fiabilité."
+      "subtitle": "Explorez notre excellence en ingénierie à travers plus de 1200 projets réussis dans divers secteurs, mettant en valeur l'innovation, la qualité et la fiabilité."
     },
     "statuses": {
-      "capabilitydemo": "Démonstration des capacités",
+      "capabilitydemo": "Démonstration de capacité",
       "inprogress": "En cours",
       "completed": "Terminé",
       "planning": "Phase de planification",
@@ -465,6 +495,7 @@
       "solarsolutions": "Solutions solaires",
       "manufacturing": "Fabrication",
       "watertreatment": "Traitement de l'eau",
+      "watersystems": "Systèmes d'eau",
       "powerplant": "Centrale électrique"
     },
     "highlights": {
@@ -475,7 +506,14 @@
       "loadbalancing": "Équilibrage de charge",
       "protectionsystems": "Systèmes de protection",
       "energymanagement": "Gestion de l'énergie",
-      "remotecontrol": "Télécommande"
+      "remotecontrol": "Télécommande",
+      "advancedscadaimplementation": "Implémentation SCADA avancée",
+      "real-timeprocessmonitoring": "Surveillance des processus en temps réel",
+      "automatedqualitycontrol": "Contrôle qualité automatisé",
+      "remotesystemmanagement": "Gestion de système à distance",
+      "fullfacilitycommissioning": "Mise en service complète de l'installation",
+      "integratedcontrolsystems": "Systèmes de contrôle intégrés",
+      "safetysystemintegration": "Intégration du système de sécurité"
     }
   },
   "products": {
