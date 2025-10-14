@@ -367,10 +367,13 @@
     "filters": {
       "industries": {
         "all": "All",
-        "manufacturing": "Manufacturing",
-        "powerGeneration": "Power Generation",
+        "beverageManufacturing": "Beverage Manufacturing",
+        "beverageDistillery": "Beverage/Distillery",
+        "sugarDistillery": "Sugar & Distillery",
         "renewableEnergy": "Renewable Energy",
-        "processIndustries": "Process Industries"
+        "evInfrastructure": "EV Infrastructure",
+        "steelManufacturing": "Steel Manufacturing",
+        "waterTreatment": "Water Treatment"
       },
       "categories": {
         "all": "All",
@@ -381,46 +384,63 @@
       },
       "statuses": {
         "all": "All",
-        "capabilityDemo": "Capability Demo",
-        "inProgress": "In Progress",
         "completed": "Completed"
       }
     },
     "items": {
-      "industrial-automation-demo": {
-        "title": "Demo: Industrial Automation Systems",
-        "client": "Future Manufacturing Client",
-        "description": "Demonstrates complete manufacturing automation capabilities, including PLC integration, SCADA systems, and real-time monitoring solutions.",
-        "location": "Project Site TBD",
-        "duration": "12-18 Months"
+      "sikkim-spirit-bottling": {
+        "title": "Bottling Plant Automation & Control System",
+        "client": "Sikkim Spirit Pvt. Ltd.",
+        "description": "Complete instrumentation installation with advanced HMI, PLC, and SCADA systems for automated bottling operations",
+        "location": "Sikkim"
       },
-      "power-distribution-demo": {
-        "title": "Example: Power Distribution Control",
-        "client": "Future Power Partner",
-        "description": "Example power distribution system showcasing automated load balancing and remote monitoring capabilities for power production facilities.",
-        "location": "Multiple Locations",
-        "duration": "10-15 Months"
+      "hindustan-cocacola-odisha": {
+        "title": "Beverage Plant Installation & Commissioning",
+        "client": "Hindustan Coca-Cola Beverage Pvt. Ltd.",
+        "description": "Comprehensive installation and commissioning of electrical and instrumentation systems for large-scale beverage manufacturing facility",
+        "location": "Odisha"
       },
-      "solar-plant-demo": {
-        "title": "Example: Solar Power Plant Control System",
-        "client": "Future Renewable Energy Client",
-        "description": "Demonstrates weather monitoring and grid synchronization capabilities of a solar tracking automation system suitable for renewable energy projects.",
-        "location": "Multiple Sites",
-        "duration": "6-10 Months"
+      "iocl-solar-jasidih": {
+        "title": "Solar Power Plant Electrical & Instrumentation",
+        "client": "Indian Oil Corporation Limited (IOCL)",
+        "description": "Complete electrical and instrumentation setup for solar power generation facility including solar panel installation and earthing systems",
+        "location": "Jasidih, Jharkhand"
       },
-      "process-control-demo": {
-        "title": "Demo: Process Control Solutions",
-        "client": "Future Industrial Partner",
-        "description": "Demonstrates complete process automation capabilities, including safety systems, environmental monitoring, and batch control for industrial applications.",
-        "location": "Project Site TBD",
-        "duration": "Eight to Twelve Months"
+      "dalmia-sugar-distillery": {
+        "title": "Distillery Plant Automation & Programming",
+        "client": "Dalmia Sugar & Distillery",
+        "description": "Advanced PLC programming and complete electrical & instrumentation solution for distillery operations",
+        "location": "Hardoi, Uttar Pradesh"
       },
-      "smart-factory-progress": {
-        "title": "Demo: Smart Factory Integration",
-        "client": "Current Development Client",
-        "description": "Ongoing smart factory integration demonstration showcasing IoT connectivity, predictive maintenance, and Industry 4.0 capabilities.",
-        "location": "Development Site",
-        "duration": "Fourteen Months"
+      "bokaro-spirit-jharkhand": {
+        "title": "Distillery Electrical & Instrumentation",
+        "client": "Bokaro Spirit",
+        "description": "Complete electrical and instrumentation package for distillery facility including power distribution and control systems",
+        "location": "Jharkhand"
+      },
+      "vanya-steel-turbine": {
+        "title": "Turbine Electrical & Instrumentation Systems",
+        "client": "Vanya Steel Pvt. Ltd.",
+        "description": "Specialized electrical and instrumentation systems for industrial turbine operations in steel manufacturing",
+        "location": "Koppal, Karnataka"
+      },
+      "reliance-ev-charging-meerut": {
+        "title": "EV Charging Station Infrastructure",
+        "client": "Reliance Industries Limited",
+        "description": "End-to-end EV charging station setup including civil structure, electrical panel installation, and EV charging equipment integration",
+        "location": "Meerut, Uttar Pradesh"
+      },
+      "bk-builder-distillery-bihar": {
+        "title": "Distillery Plant Electrical & Instrumentation",
+        "client": "B.K. Builder",
+        "description": "Comprehensive electrical and instrumentation solution for distillery plant operations",
+        "location": "Mokama, Patna, Bihar"
+      },
+      "iit-bhubaneswar-stp": {
+        "title": "Sewage Treatment Plant Automation",
+        "client": "IIT Bhubaneswar",
+        "description": "Advanced PLC-based automation system for sewage treatment plant with complete electrical and instrumentation setup",
+        "location": "Bhubaneswar, Odisha"
       }
     },
     "technologies": {

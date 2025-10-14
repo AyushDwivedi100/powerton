@@ -367,10 +367,13 @@
     "filters": {
       "industries": {
         "all": "全部",
-        "manufacturing": "制造业",
-        "powerGeneration": "发电",
+        "beverageManufacturing": "饮料制造",
+        "beverageDistillery": "饮料/酿酒",
+        "sugarDistillery": "糖和酿酒",
         "renewableEnergy": "可再生能源",
-        "processIndustries": "过程工业"
+        "evInfrastructure": "电动汽车基础设施",
+        "steelManufacturing": "钢铁制造",
+        "waterTreatment": "水处理"
       },
       "categories": {
         "all": "全部",
@@ -381,46 +384,63 @@
       },
       "statuses": {
         "all": "全部",
-        "capabilityDemo": "能力演示",
-        "inProgress": "进行中",
         "completed": "已完成"
       }
     },
     "items": {
-      "industrial-automation-demo": {
-        "title": "演示：工业自动化系统",
-        "client": "未来制造客户",
-        "description": "演示完整的制造自动化功能，包括 PLC 集成、SCADA 系统和实时监控解决方案。",
-        "location": "项目现场待定",
-        "duration": "12-18 个月"
+      "sikkim-spirit-bottling": {
+        "title": "装瓶厂自动化和控制系统",
+        "client": "Sikkim Spirit Pvt. Ltd.",
+        "description": "完整的仪表安装，配备先进的HMI、PLC和SCADA系统，用于自动化装瓶操作",
+        "location": "Sikkim"
       },
-      "power-distribution-demo": {
-        "title": "示例：配电控制",
-        "client": "未来电力合作伙伴",
-        "description": "示例配电系统，展示用于发电设施的自动负载平衡和远程监控功能。",
-        "location": "多个地点",
-        "duration": "10-15 个月"
+      "hindustan-cocacola-odisha": {
+        "title": "饮料工厂安装和调试",
+        "client": "Hindustan Coca-Cola Beverage Pvt. Ltd.",
+        "description": "大型饮料生产设施的电气和仪表系统的全面安装和调试",
+        "location": "Odisha"
       },
-      "solar-plant-demo": {
-        "title": "示例：太阳能发电厂控制系统",
-        "client": "未来可再生能源客户",
-        "description": "演示太阳能跟踪自动化系统的天气监控和并网同步功能，适用于可再生能源项目。",
-        "location": "多个站点",
-        "duration": "6-10 个月"
+      "iocl-solar-jasidih": {
+        "title": "太阳能发电厂电气和仪表",
+        "client": "Indian Oil Corporation Limited (IOCL)",
+        "description": "太阳能发电设施的完整电气和仪表设置，包括太阳能电池板安装和接地系统",
+        "location": "Jasidih, Jharkhand"
       },
-      "process-control-demo": {
-        "title": "演示：过程控制解决方案",
-        "client": "未来工业合作伙伴",
-        "description": "演示完整的过程自动化功能，包括安全系统、环境监控和用于工业应用的批量控制。",
-        "location": "项目现场待定",
-        "duration": "八到十二个月"
+      "dalmia-sugar-distillery": {
+        "title": "酿酒厂自动化和编程",
+        "client": "Dalmia Sugar & Distillery",
+        "description": "用于酿酒厂操作的先进PLC编程和完整的电气和仪表解决方案",
+        "location": "Hardoi, Uttar Pradesh"
       },
-      "smart-factory-progress": {
-        "title": "演示：智能工厂集成",
-        "client": "当前开发客户",
-        "description": "正在进行的智能工厂集成演示，展示物联网连接、预测性维护和工业 4.0 功能。",
-        "location": "开发站点",
-        "duration": "十四个月"
+      "bokaro-spirit-jharkhand": {
+        "title": "酿酒厂电气和仪表",
+        "client": "Bokaro Spirit",
+        "description": "酿酒厂设施的完整电气和仪表包，包括配电和控制系统",
+        "location": "Jharkhand"
+      },
+      "vanya-steel-turbine": {
+        "title": "涡轮机电气和仪表系统",
+        "client": "Vanya Steel Pvt. Ltd.",
+        "description": "钢铁制造中工业涡轮机操作的专业电气和仪表系统",
+        "location": "Koppal, Karnataka"
+      },
+      "reliance-ev-charging-meerut": {
+        "title": "电动汽车充电站基础设施",
+        "client": "Reliance Industries Limited",
+        "description": "端到端电动汽车充电站设置，包括土建结构、电气面板安装和电动汽车充电设备集成",
+        "location": "Meerut, Uttar Pradesh"
+      },
+      "bk-builder-distillery-bihar": {
+        "title": "酿酒厂电气和仪表",
+        "client": "B.K. Builder",
+        "description": "酿酒厂操作的全面电气和仪表解决方案",
+        "location": "Mokama, Patna, Bihar"
+      },
+      "iit-bhubaneswar-stp": {
+        "title": "污水处理厂自动化",
+        "client": "IIT Bhubaneswar",
+        "description": "基于PLC的先进污水处理厂自动化系统，配备完整的电气和仪表设置",
+        "location": "Bhubaneswar, Odisha"
       }
     },
     "technologies": {

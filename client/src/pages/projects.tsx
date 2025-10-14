@@ -42,30 +42,32 @@ import {
   getAnimationClass,
 } from "@/hooks/use-scroll-animation";
 import { getHeroImage } from "@/assets/images";
-import { PROJECTS, getAllProjects } from "@/data/constants";
+import { getAllProjects, getFeaturedProjects, Project } from "@/data/projects-data";
 
-// Use centralized project data from constants.ts
+// Use centralized project data from projects-data.ts
 const PORTFOLIO_PROJECTS = getAllProjects();
 
 // Stable identifiers for filtering (must match project data)
 const FILTER_IDS = {
   industries: {
     all: "All",
-    manufacturing: "Manufacturing",
-    powerGeneration: "Power Generation",
+    beverageManufacturing: "Beverage Manufacturing",
+    beverageDistillery: "Beverage/Distillery",
+    sugarDistillery: "Sugar & Distillery",
     renewableEnergy: "Renewable Energy",
-    processIndustries: "Process Industries",
+    evInfrastructure: "EV Infrastructure",
+    steelManufacturing: "Steel Manufacturing",
+    waterTreatment: "Water Treatment",
   },
   categories: {
     all: "All",
     processAutomation: "Process Automation",
     powerSystems: "Power Systems",
     solarSolutions: "Solar Solutions",
+    waterSystems: "Water Systems",
   },
   statuses: {
     all: "All",
-    capabilityDemo: "Capability Demo",
-    inProgress: "In Progress",
     completed: "Completed",
   },
 };
@@ -78,20 +80,32 @@ const getFilterOptions = (t: any) => ({
       label: t("pages:projects.filters.industries.all"),
     },
     {
-      id: FILTER_IDS.industries.manufacturing,
-      label: t("pages:projects.filters.industries.manufacturing"),
+      id: FILTER_IDS.industries.beverageManufacturing,
+      label: t("pages:projects.filters.industries.beverageManufacturing"),
     },
     {
-      id: FILTER_IDS.industries.powerGeneration,
-      label: t("pages:projects.filters.industries.powerGeneration"),
+      id: FILTER_IDS.industries.beverageDistillery,
+      label: t("pages:projects.filters.industries.beverageDistillery"),
+    },
+    {
+      id: FILTER_IDS.industries.sugarDistillery,
+      label: t("pages:projects.filters.industries.sugarDistillery"),
     },
     {
       id: FILTER_IDS.industries.renewableEnergy,
       label: t("pages:projects.filters.industries.renewableEnergy"),
     },
     {
-      id: FILTER_IDS.industries.processIndustries,
-      label: t("pages:projects.filters.industries.processIndustries"),
+      id: FILTER_IDS.industries.evInfrastructure,
+      label: t("pages:projects.filters.industries.evInfrastructure"),
+    },
+    {
+      id: FILTER_IDS.industries.steelManufacturing,
+      label: t("pages:projects.filters.industries.steelManufacturing"),
+    },
+    {
+      id: FILTER_IDS.industries.waterTreatment,
+      label: t("pages:projects.filters.industries.waterTreatment"),
     },
   ],
   categories: [
@@ -111,19 +125,15 @@ const getFilterOptions = (t: any) => ({
       id: FILTER_IDS.categories.solarSolutions,
       label: t("pages:projects.filters.categories.solarSolutions"),
     },
+    {
+      id: FILTER_IDS.categories.waterSystems,
+      label: t("pages:projects.filters.categories.waterSystems"),
+    },
   ],
   statuses: [
     {
       id: FILTER_IDS.statuses.all,
       label: t("pages:projects.filters.statuses.all"),
-    },
-    {
-      id: FILTER_IDS.statuses.capabilityDemo,
-      label: t("pages:projects.filters.statuses.capabilityDemo"),
-    },
-    {
-      id: FILTER_IDS.statuses.inProgress,
-      label: t("pages:projects.filters.statuses.inProgress"),
     },
     {
       id: FILTER_IDS.statuses.completed,
@@ -174,12 +184,8 @@ export default function Projects() {
     switch (status) {
       case "Completed":
         return <CheckCircle className="w-4 h-4 text-green-600" />;
-      case "In Progress":
-        return <Clock className="w-4 h-4 text-orange-500" />;
-      case "Capability Demo":
-        return <Target className="w-4 h-4 text-blue-600" />;
       default:
-        return null;
+        return <CheckCircle className="w-4 h-4 text-green-600" />;
     }
   };
 
@@ -564,14 +570,7 @@ export default function Projects() {
                             <div className="flex items-center justify-between text-sm">
                               <div className="flex items-center gap-1 text-muted-foreground">
                                 <Calendar className="w-4 h-4" />
-                                <span>
-                                  {t(
-                                    `pages:projects.items.${project.id}.duration`,
-                                  )}
-                                </span>
-                              </div>
-                              <div className="flex items-center gap-1 text-muted-foreground">
-                                <span>{project.year}</span>
+                                <span>{project.month} {project.year}</span>
                               </div>
                             </div>
 
@@ -652,8 +651,8 @@ export default function Projects() {
             <TabsContent value="showcase" className="space-y-8">
               {/* Featured Projects Showcase */}
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
-                {PROJECTS.filter((project) => project.featured).map(
-                  (project: any) => (
+                {getFeaturedProjects().map(
+                  (project: Project) => (
                     <motion.div
                       whileHover={{ y: -10, scale: 1.03 }}
                       transition={{ duration: 0.3, ease: "easeOut" }}

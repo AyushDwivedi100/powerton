@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { PROJECTS } from "@/data/constants";
+import { getFeaturedProjects } from "@/data/projects-data";
 import { MapPin, Calendar, ArrowRight } from "lucide-react";
 import { Link } from "wouter";
 import { useTranslation } from "react-i18next";
@@ -10,14 +10,8 @@ import { useTranslation } from "react-i18next";
 export default function ProjectsSection() {
   const { t } = useTranslation();
 
-  // Get featured projects but use translation keys for the content
-  const featuredProjectIds = [
-    "industrial-automation-demo",
-    "power-distribution-demo",
-  ];
-  const projects = PROJECTS.filter((project) =>
-    featuredProjectIds.includes(project.id),
-  );
+  // Get featured projects from the new data structure
+  const projects = getFeaturedProjects();
   const categoryColors = {
     "Power Systems": "bg-secondary/10 text-secondary",
     Manufacturing: "bg-primary/10 text-primary",
@@ -70,23 +64,23 @@ export default function ProjectsSection() {
                         ] || "bg-muted text-foreground"
                       }`}
                     >
-                      {t(`common:projectCategories.${project.category}`)}
+                      {project.category}
                     </Badge>
                     <span className="text-muted-foreground text-sm">
-                      {t("pages:home.projects.completed")} {project.year}
+                      {t("pages:home.projects.completed")} {project.month} {project.year}
                     </span>
                   </div>
 
                   <div className="flex items-start justify-between mb-4">
                     <h3 className="text-xl font-bold text-foreground">
-                      {t(`common:projects.${project.id}.title`)}
+                      {t(`pages:projects.items.${project.id}.title`)}
                     </h3>
                     <Badge className="bg-gradient-to-r from-yellow-400 to-orange-500 text-white text-xs px-2 py-1 ml-2 flex-shrink-0">
                       {t("pages:home.projects.featured")}
                     </Badge>
                   </div>
                   <p className="text-muted-foreground mb-6">
-                    {t(`common:projects.${project.id}.description`)}
+                    {t(`pages:projects.items.${project.id}.description`)}
                   </p>
 
                   {/* Project Highlights */}
@@ -95,34 +89,14 @@ export default function ProjectsSection() {
                       {t("pages:home.projects.keyFeatures")}
                     </h4>
                     <div className="flex flex-wrap gap-2">
-                      {project.highlights.map((highlight, index) => {
-                        // Map highlight text to translation keys
-                        const highlightMapping: { [key: string]: string } = {
-                          "PLC Integration": "plcIntegration",
-                          "SCADA Systems": "scadaSystems",
-                          "Real-time Monitoring": "realtimeMonitoring",
-                          "Process Optimization": "processOptimization",
-                          "Load Balancing": "loadBalancing",
-                          "Protection Systems": "protectionSystems",
-                          "Energy Management": "energyManagement",
-                          "Remote Control": "remoteControl",
-                        };
-
-                        const translationKey =
-                          highlightMapping[highlight] ||
-                          highlight.toLowerCase().replace(/\s+/g, "");
-
-                        return (
-                          <span
-                            key={highlight}
-                            className="text-xs bg-primary/10 text-primary px-2 py-1 rounded group-hover:text-foreground transition-colors"
-                          >
-                            {t(
-                              `common:projects.${project.id}.highlights.${translationKey}`,
-                            )}
-                          </span>
-                        );
-                      })}
+                      {project.highlights.slice(0, 3).map((highlight, index) => (
+                        <span
+                          key={index}
+                          className="text-xs bg-primary/10 text-primary px-2 py-1 rounded group-hover:text-foreground transition-colors"
+                        >
+                          {highlight}
+                        </span>
+                      ))}
                     </div>
                   </div>
 
@@ -134,10 +108,7 @@ export default function ProjectsSection() {
                           aria-hidden="true"
                         />
                         <span className="font-medium">
-                          {t(
-                            `common:projects.${project.id}.location`,
-                            project.location,
-                          )}
+                          {project.location}
                         </span>
                       </span>
                       <span className="flex items-center">
@@ -146,10 +117,7 @@ export default function ProjectsSection() {
                           aria-hidden="true"
                         />
                         <span className="font-medium">
-                          {t(
-                            `common:projects.${project.id}.duration`,
-                            project.duration,
-                          )}
+                          {project.client}
                         </span>
                       </span>
                     </div>

@@ -367,11 +367,13 @@
     "filters": {
       "industries": {
         "all": "الكل",
-        "manufacturing": "تصنيع",
-        "powerGeneration": "توليد الطاقة",
+        "beverageManufacturing": "تصنيع المشروبات",
+        "beverageDistillery": "المشروبات/المقطرة",
+        "sugarDistillery": "السكر والمقطرة",
         "renewableEnergy": "الطاقة المتجددة",
-        "processIndustries": "الصناعات التحويلية",
-        "waterSystems": "أنظمة المياه"
+        "evInfrastructure": "البنية التحتية للمركبات الكهربائية",
+        "steelManufacturing": "تصنيع الصلب",
+        "waterTreatment": "معالجة المياه"
       },
       "categories": {
         "all": "الكل",
@@ -382,8 +384,6 @@
       },
       "statuses": {
         "all": "الكل",
-        "capabilityDemo": "عرض القدرات",
-        "inProgress": "قيد التقدم",
         "completed": "مكتمل"
       }
     },
