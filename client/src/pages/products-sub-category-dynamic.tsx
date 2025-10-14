@@ -44,6 +44,7 @@ export default function ProductSubCategoryDynamic() {
   const { t } = useTranslation(["products", "common", "products-data"]);
   useScrollAnimation();
 
+  // Early return if params are missing - no product data needed
   if (!slug || !parentSlug) {
     return (
       <div className="min-h-screen bg-background flex items-center justify-center">
@@ -77,6 +78,7 @@ export default function ProductSubCategoryDynamic() {
     );
   }
 
+  // Get product data - slug is guaranteed to exist here
   const product = getProductSubCategoryBySlug(slug, t);
 
   if (!product) {
