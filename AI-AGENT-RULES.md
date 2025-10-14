@@ -400,13 +400,13 @@ Use ONLY these three button patterns:
 
    - Cables/Wires, Connectors, Circuit Breakers, Power Supplies, Enclosures, Heating Elements
 
-3. **Measurement Instruments** (5 subcategories)
+3. **Measurement Instruments** (3 subcategories)
 
-   - Multimeters, Oscilloscopes, Spectrum Analyzers, Power Quality Analyzers, Calibration Equipment
+   - Multimeters, Power Quality Analyzers, Calibration Equipment
 
-4. **Solar Products** (5 subcategories)
+4. **Solar Products** (3 subcategories)
 
-   - Solar Panels, Inverters, Mounting Structures, Charge Controllers, Batteries/Storage
+   - Solar Panels, Inverters, Batteries/Storage
 
 5. **Automation & Control Systems** (4 subcategories)
 

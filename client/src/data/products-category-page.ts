@@ -41,7 +41,7 @@ import instrumentationLabImage from "@assets/generated_images/Instrumentation_co
 import measurementLabImage from "@assets/generated_images/Precision_measurement_instruments_lab_b82030f8.png";
 import pumpSparesImage from "@assets/generated_images/Industrial_pump_spare_parts_8de15f4f.png";
 import safetyEquipmentImage from "@assets/generated_images/Industrial_safety_equipment_showcase_ef36d76c.png";
-import solarMountingImage from "@assets/generated_images/Solar_mounting_systems_facility_9a3dc9bd.png";
+import solarProductsImage from "@assets/generated_images/Solar_products_technology_showcase_82907203.png";
 
 export interface ProductSubcategory {
   id: string;
@@ -129,7 +129,7 @@ const categoryConfig: Record<
     gridCols: "grid-cols-1 md:grid-cols-2 lg:grid-cols-3",
   },
   "solar-products": {
-    backgroundImage: solarMountingImage,
+    backgroundImage: solarProductsImage,
     gridCols: "grid-cols-1 md:grid-cols-2 lg:grid-cols-3",
   },
   "automation-control-systems": {

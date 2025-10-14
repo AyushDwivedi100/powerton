@@ -149,9 +149,42 @@ export default function Career() {
 
       {/* Application Form */}
       <AnimatedSection animation="fadeInUp" delay={0.2} duration={0.8}>
-        <section className="py-12 md:py-16 lg:py-20 bg-muted">
+        <section id="application" className="py-12 md:py-16 lg:py-20 bg-muted">
           <div className="max-w-4xl mx-auto px-4 md:px-6 lg:px-8">
             <CareerApplicationForm />
+          </div>
+        </section>
+      </AnimatedSection>
+
+      {/* Call to Action */}
+      <AnimatedSection animation="slideInUp" delay={0.2} duration={0.9}>
+        <section className="py-12 md:py-16 lg:py-20 bg-primary text-white">
+          <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8 text-center">
+            <h2 className="text-3xl lg:text-4xl font-bold mb-6">
+              {t("pages:career.cta.title")}
+            </h2>
+            <p className="text-xl mb-8 opacity-90 max-w-3xl mx-auto">
+              {t("pages:career.cta.description")}
+            </p>
+            <div className="flex flex-col sm:flex-row justify-center space-y-4 gap-4 sm:space-y-0 sm:space-x-4">
+              <a href="#application">
+                <Button
+                  data-testid="button-apply-now"
+                  className="bg-secondary hover:bg-secondary/90 text-secondary-foreground text-lg px-8 py-4"
+                >
+                  {t("pages:career.cta.applyNow")}
+                </Button>
+              </a>
+              <Link href="/contact">
+                <Button
+                  data-testid="link-view-openings"
+                  variant="outline"
+                  className="border-2 border-white text-white hover:bg-white hover:text-primary text-lg px-8 py-4"
+                >
+                  {t("pages:career.cta.viewOpenings")}
+                </Button>
+              </Link>
+            </div>
           </div>
         </section>
       </AnimatedSection>

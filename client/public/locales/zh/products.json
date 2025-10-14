@@ -642,14 +642,6 @@
       "title": "太阳能板",
       "description": "高效太阳能电池板和光伏系统"
     },
-    "mounting-structures-racking": {
-      "title": "安装结构和货架系统",
-      "description": "用于太阳能装置的结构安装解决方案"
-    },
-    "solar-charge-controllers": {
-      "title": "太阳能充电控制器",
-      "description": "太阳能充电控制器和电源管理"
-    },
     "instrument-transformers": {
       "title": "仪用互感器",
       "description": "用于测量和保护的电流互感器和电压互感器"
@@ -1060,10 +1052,6 @@
       "solarBatteries": {
         "title": "太阳能电池和储能",
         "subtitle": "太阳能系统的储能解决方案"
-      },
-      "solarChargeControllers": {
-        "title": "太阳能充电控制器",
-        "subtitle": "太阳能充电控制器和电源管理"
       },
       "solarInverters": {
         "title": "太阳能逆  �器",

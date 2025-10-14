@@ -737,14 +737,6 @@
       "title": "Paneli za jua",
       "description": "Paneli za jua zenye ufanisi wa hali ya juu na mifumo ya photovoltaic"
     },
-    "mounting-structures-racking": {
-      "title": "Miundo ya Kupachika & Mifumo ya Rack",
-      "description": "Suluhisho za kupachika miundo kwa mitambo ya jua"
-    },
-    "solar-charge-controllers": {
-      "title": "Vidhibiti vya Kuchaji Sola",
-      "description": "Vidhibiti vya kuchaji sola na usimamizi wa nguvu"
-    },
   "instrument-transformers": {
     "title": "Transfoma za Ala",
     "description": "Transfoma za sasa na za uwezo kwa kipimo na ulinzi"
@@ -1155,10 +1147,6 @@
       "solarBatteries": {
         "title": "Betri za Sola na Hifadhi ya Nishati",
         "subtitle": "Suluhu za kuhifadhi nishati kwa mifumo ya nguvu ya jua"
-      },
-      "solarChargeControllers": {
-        "title": "Vidhibiti vya Kuchaji Sola",
-        "subtitle": "Vidhibiti vya kuchaji sola na usimamizi wa nguvu"
       },
       "solarInverters": {
         "title": "Vigeuzi vya Sola",

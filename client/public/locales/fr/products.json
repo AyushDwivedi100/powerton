@@ -737,14 +737,6 @@
       "title": "Panneaux solaires",
       "description": "Panneaux solaires et systèmes photovoltaïques à haut rendement"
     },
-    "mounting-structures-racking": {
-      "title": "Structures de montage et systèmes de rayonnage",
-      "description": "Solutions de montage structurel pour les installations solaires"
-    },
-    "solar-charge-controllers": {
-      "title": "Contrôleurs de charge solaire",
-      "description": "Contrôleurs de charge solaire et gestion de l'alimentation"
-    },
   "instrument-transformers": {
     "title": "Transformateurs d'instrument",
     "description": "Transformateurs de courant et de potentiel pour la mesure et la protection"
@@ -1156,10 +1148,6 @@
     "solarBatteries": {
       "title": "Batteries solaires et stockage d'énergie",
       "subtitle": "Solutions de stockage d'énergie pour les systèmes d'énergie solaire"
-    },
-    "solarChargeControllers": {
-      "title": "Contrôleurs de charge solaire",
-      "subtitle": "Contrôleurs de charge solaire et gestion de l'alimentation"
     },
     "solarInverters": {
       "title": "Onduleurs solaires",
