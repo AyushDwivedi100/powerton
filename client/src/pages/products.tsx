@@ -406,21 +406,22 @@ export default function Products() {
                   <motion.div
                     whileHover={{ y: -10, scale: 1.03 }}
                     transition={{ duration: 0.3, ease: "easeOut" }}
+                    className="h-full"
                   >
                     <Link href={`/products/${product.id}`}>
-                      <Card className="h-full group cursor-pointer">
-                        <CardContent className="p-4 sm:p-6 md:p-8 h-full flex flex-col items-center">
-                          <div className="w-16 h-16 bg-gradient-to-br from-primary to-secondary rounded-xl flex items-center justify-center mb-4 group-hover:scale-110 group-hover:rotate-3 transition-all duration-300">
+                      <Card className="h-full group cursor-pointer flex flex-col">
+                        <CardContent className="p-4 sm:p-6 md:p-8 flex-1 flex flex-col items-center">
+                          <div className="w-16 h-16 bg-gradient-to-br from-primary to-secondary rounded-xl flex items-center justify-center mb-4 group-hover:scale-110 group-hover:rotate-3 transition-all duration-300 flex-shrink-0">
                             <IconComponent className="w-8 h-8 text-white" />
                           </div>
                           <h3 className="text-xl font-bold text-foreground mb-3 text-center group-hover:text-secondary transition-colors cursor-pointer">
                             {product.title}
                           </h3>
-                          <p className="text-muted-foreground text-center mb-6 flex-grow">
+                          <p className="text-muted-foreground text-center mb-6 flex-1">
                             {product.description}
                           </p>
 
-                          <div className="space-y-4 mt-auto">
+                          <div className="space-y-4 mt-auto w-full">
                             <div className="flex flex-wrap gap-2 justify-center min-h-[80px] items-center">
                               {product.features
                                 .slice(0, 4)

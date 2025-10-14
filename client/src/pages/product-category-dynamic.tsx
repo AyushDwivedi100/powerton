@@ -296,8 +296,8 @@ const ProductCategoryDynamic: React.FC = () => {
                   transition={{ delay: index * 0.1 }}
                   className="h-full"
                 >
-                  <Card className="group cursor-pointer border border-border/50 hover:border-primary/50 transition-all duration-300 hover:shadow-xl h-full">
-                    <CardHeader className="pb-4">
+                  <Card className="group cursor-pointer border border-border/50 hover:border-primary/50 transition-all duration-300 hover:shadow-xl h-full flex flex-col">
+                    <CardHeader className="pb-4 flex-shrink-0">
                       <motion.div
                         className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:bg-primary/20 transition-colors duration-300"
                         whileHover={{ scale: 1.1, rotate: 5 }}
@@ -312,8 +312,8 @@ const ProductCategoryDynamic: React.FC = () => {
                         {subcategory.description}
                       </CardDescription>
                     </CardHeader>
-                    <CardContent>
-                      <div className="space-y-2">
+                    <CardContent className="flex-1 flex flex-col">
+                      <div className="space-y-2 flex-1">
                         <h4 className="font-medium text-sm text-foreground mb-3 group-hover:text-secondary">
                           {t("common:common.keyFeatures")}:
                         </h4>
