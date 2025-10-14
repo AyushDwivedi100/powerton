@@ -1673,6 +1673,21 @@ export default function Chatbot() {
             url: "tel:+91-94627-71662",
           },
           {
+            label: t("chatbot.options.careerOpportunities"),
+            action: "page",
+            page: "career",
+          },
+          {
+            label: t("chatbot.options.newsAndUpdates"),
+            action: "page",
+            page: "news",
+          },
+          {
+            label: t("chatbot.options.projectGallery"),
+            action: "page",
+            page: "gallery",
+          },
+          {
             label: t("chatbot.options.backToCompanyMenu"),
             action: "chat",
             response: "company-info",
@@ -1705,6 +1720,21 @@ export default function Chatbot() {
             label: t("chatbot.options.aboutPowertonEngineering"),
             action: "chat",
             response: "company-info",
+          },
+          {
+            label: t("chatbot.options.careerOpportunities"),
+            action: "page",
+            page: "career",
+          },
+          {
+            label: t("chatbot.options.newsAndUpdates"),
+            action: "page",
+            page: "news",
+          },
+          {
+            label: t("chatbot.options.projectGallery"),
+            action: "page",
+            page: "gallery",
           },
           {
             label: t("chatbot.options.speakWithExpert"),
