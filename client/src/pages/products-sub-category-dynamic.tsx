@@ -65,11 +65,11 @@ export default function ProductSubCategoryDynamic() {
             asChild
           >
             <Link
-              href={product.parentCategory}
+              href="/products"
               data-testid="link-back-to-category"
             >
               <ArrowLeft className="mr-2 h-4 w-4 group-hover:-translate-x-2 transition-transform duration-200" />
-              {t("common:buttons.backTo")} {product.parentCategoryTitle}
+              {t("common:buttons.backToCategory")}
             </Link>
           </Button>
         </motion.div>
@@ -100,11 +100,11 @@ export default function ProductSubCategoryDynamic() {
             asChild
           >
             <Link
-              href={product.parentCategory}
+              href={`/products/${parentSlug}`}
               data-testid="link-back-to-category"
             >
               <ArrowLeft className="mr-2 h-4 w-4 group-hover:-translate-x-2 transition-transform duration-200" />
-              {t("common:buttons.backTo")} {product.parentCategoryTitle}
+              {t("common:buttons.backToCategory")}
             </Link>
           </Button>
         </motion.div>
