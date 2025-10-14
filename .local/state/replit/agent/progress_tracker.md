@@ -299,3 +299,16 @@
   - [x] Changed button text from dynamic product title to translation key `common:buttons.backToProducts`
   - [x] Removed nested Link component to fix structure
   - [x] All TypeScript LSP errors resolved - Application compiling successfully
+[x] 76. Fixed additional TypeScript errors in products-sub-category-dynamic.tsx - ALL 3 ERROR BLOCKS RESOLVED (October 14, 2025)
+  - [x] Error 1 (Line 72): "Block-scoped variable 'product' used before its declaration"
+    - Issue: First error block tried to use `product.parentCategoryTitle` before product was declared (line 83)
+    - Fix: Changed href from `/products/${parentSlug}` to `/products` and text to translation key
+  - [x] Error 2 (Line 107): "'product' is possibly 'undefined'"
+    - Issue: Second error block (when product is null) tried to access product.parentCategoryTitle
+    - Fix: Changed text to translation key `common:buttons.backToProducts`
+  - [x] Error 3 (Line 142): "'product' is possibly 'undefined'"
+    - Issue: Third error block tried to access product.parentCategoryTitle
+    - Fix: Used `product.parentCategory` for href (safe here) and translation key for text
+  - [x] All three error blocks now properly handle undefined product state
+  - [x] LSP diagnostics: 0 errors - All TypeScript errors resolved
+  - [x] Application compiling successfully with no warnings or errors

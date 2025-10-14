@@ -27,7 +27,6 @@ import {
   getGroupsForSubcategory,
 } from "@/data/products-detail-pages-data";
 import { getProductImageSrc } from "@/assets/images";
-import NotFound from "@/pages/not-found";
 import { useScrollAnimation } from "@/hooks/use-scroll-animation";
 
 // Utility function to truncate text by word count
@@ -46,7 +45,36 @@ export default function ProductSubCategoryDynamic() {
   useScrollAnimation();
 
   if (!slug || !parentSlug) {
-    return <NotFound />;
+    return (
+      <div className="min-h-screen bg-background flex items-center justify-center">
+        <motion.div
+          initial={{ opacity: 0, scale: 0.9 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 0.5 }}
+          className="text-center"
+        >
+          <h1 className="text-4xl font-bold text-foreground mb-4">
+            {t("common:errors.subCategoryNotFound")}
+          </h1>
+          <p className="text-muted-foreground mb-8">
+            {t("common:errors.subCategoryNotFoundMessage")}
+          </p>
+          <Button
+            variant="ghost"
+            className="mb-6 hover:bg-white/10 text-white group"
+            asChild
+          >
+            <Link
+              href="/products"
+              data-testid="link-back-to-category"
+            >
+              <ArrowLeft className="mr-2 h-4 w-4 group-hover:-translate-x-2 transition-transform duration-200" />
+              {t("common:buttons.backToProducts")}
+            </Link>
+          </Button>
+        </motion.div>
+      </div>
+    );
   }
 
   const product = getProductSubCategoryBySlug(slug, t);
@@ -87,7 +115,36 @@ export default function ProductSubCategoryDynamic() {
   // Validate that the parentSlug matches the expected parent category for this subcategory
   const expectedParentSlug = product.parentCategory.split("/").pop();
   if (parentSlug !== expectedParentSlug) {
-    return <NotFound />;
+    return (
+      <div className="min-h-screen bg-background flex items-center justify-center">
+        <motion.div
+          initial={{ opacity: 0, scale: 0.9 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 0.5 }}
+          className="text-center"
+        >
+          <h1 className="text-4xl font-bold text-foreground mb-4">
+            {t("common:errors.subCategoryNotFound")}
+          </h1>
+          <p className="text-muted-foreground mb-8">
+            {t("common:errors.subCategoryNotFoundMessage")}
+          </p>
+          <Button
+            variant="ghost"
+            className="mb-6 hover:bg-white/10 text-white group"
+            asChild
+          >
+            <Link
+              href={product.parentCategory}
+              data-testid="link-back-to-category"
+            >
+              <ArrowLeft className="mr-2 h-4 w-4 group-hover:-translate-x-2 transition-transform duration-200" />
+              {t("common:buttons.backToProducts")}
+            </Link>
+          </Button>
+        </motion.div>
+      </div>
+    );
   }
 
   const IconComponent = product.icon;
