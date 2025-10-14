@@ -489,18 +489,19 @@ export default function Projects() {
               </div>
 
               {/* Project Grid */}
-              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+              <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-10">
                 {filteredProjects.map((project, index) => {
                   const Icon = getCategoryIcon(project.category);
                   return (
                     <motion.div
-                      whileHover={{ y: -10, scale: 1.03 }}
+                      whileHover={{ y: -8, scale: 1.02 }}
                       transition={{ duration: 0.3, ease: "easeOut" }}
                       key={project.id}
                       className={getAnimationClass("fade-in-up", true)}
                     >
-                      <Card className="bg-card border border-border rounded-lg p-8 shadow-sm hover:shadow-xl cursor-pointer">
-                        <div className="aspect-video rounded-lg overflow-hidden mb-4">
+                      <Card className="bg-card border border-border rounded-xl shadow-sm hover:shadow-2xl cursor-pointer overflow-hidden h-full flex flex-col transition-all duration-300">
+                        {/* Project Image */}
+                        <div className="relative aspect-video overflow-hidden">
                           <img
                             src={project.image}
                             alt={`ID-${200 + project.id}: ${
@@ -508,56 +509,56 @@ export default function Projects() {
                             } project showcase`}
                             className="w-full h-full object-cover"
                           />
+                          {project.featured && (
+                            <Badge className="absolute top-4 right-4 bg-gradient-to-r from-yellow-400 to-orange-500 text-white px-3 py-1.5 shadow-lg">
+                              {t("pages:projects.featured")}
+                            </Badge>
+                          )}
                         </div>
 
-                        <CardHeader className="p-0 mb-4">
-                          <div className="flex items-start justify-between mb-2">
-                            <CardTitle className="text-xl md:text-2xl font-semibold text-foreground line-clamp-2">
-                              {t(`pages:projects.items.${project.id}.title`)}
-                            </CardTitle>
-                            <div className="flex items-center gap-2 ml-2">
-                              {project.featured && (
-                                <Badge className="bg-gradient-to-r from-yellow-400 to-orange-500 text-white text-xs px-2 py-1">
-                                  {t("pages:projects.featured")}
-                                </Badge>
-                              )}
-                              {Icon}
+                        {/* Project Content */}
+                        <div className="p-8 flex-1 flex flex-col space-y-6">
+                          {/* Header Section */}
+                          <div className="space-y-4">
+                            <div className="flex items-start justify-between gap-4">
+                              <CardTitle className="text-2xl font-bold text-foreground leading-tight flex-1">
+                                {t(`pages:projects.items.${project.id}.title`)}
+                              </CardTitle>
+                              <div className="flex-shrink-0">
+                                {Icon}
+                              </div>
+                            </div>
+                            
+                            <div className="flex items-center gap-2 text-muted-foreground">
+                              <Building className="w-4 h-4 flex-shrink-0" />
+                              <span className="text-sm font-medium">
+                                {t(`pages:projects.items.${project.id}.client`)}
+                              </span>
                             </div>
                           </div>
-                          <div className="flex items-center gap-2 text-sm text-muted-foreground">
-                            <Building className="w-4 h-4" />
-                            <span>
-                              {t(`pages:projects.items.${project.id}.client`)}
-                            </span>
-                          </div>
-                        </CardHeader>
 
-                        <CardContent className="p-0 space-y-5">
-                          <p className="text-base text-muted-foreground line-clamp-3 leading-relaxed">
+                          {/* Description */}
+                          <p className="text-base text-muted-foreground leading-relaxed">
                             {t(
                               `pages:projects.items.${project.id}.description`,
                             )}
                           </p>
 
-                          <div className="space-y-4">
-                            <div className="flex items-center justify-between text-sm">
-                              <div className="flex items-center gap-1 text-muted-foreground">
-                                <MapPin className="w-4 h-4" />
+                          {/* Meta Information */}
+                          <div className="space-y-3">
+                            <div className="flex items-center gap-3 text-sm flex-wrap">
+                              <div className="flex items-center gap-2 text-muted-foreground">
+                                <MapPin className="w-4 h-4 flex-shrink-0" />
                                 <span>
                                   {t(
                                     `pages:projects.items.${project.id}.location`,
                                   )}
                                 </span>
                               </div>
-                              <div className="flex items-center gap-1">
+                              <span className="text-muted-foreground/40">•</span>
+                              <div className="flex items-center gap-2">
                                 {getStatusIcon(project.status)}
-                                <span
-                                  className={`text-sm ${
-                                    project.status === "Completed"
-                                      ? "text-green-600"
-                                      : "text-primary"
-                                  }`}
-                                >
+                                <span className="text-green-600 font-medium">
                                   {t(
                                     `pages:projects.statuses.${project.status
                                       .toLowerCase()
@@ -567,61 +568,64 @@ export default function Projects() {
                               </div>
                             </div>
 
-                            <div className="flex items-center justify-between text-sm">
-                              <div className="flex items-center gap-1 text-muted-foreground">
-                                <Calendar className="w-4 h-4" />
-                                <span>{project.month} {project.year}</span>
-                              </div>
+                            <div className="flex items-center gap-2 text-sm text-muted-foreground">
+                              <Calendar className="w-4 h-4 flex-shrink-0" />
+                              <span>{project.month} {project.year}</span>
                             </div>
+                          </div>
 
-                            <div className="flex flex-wrap gap-3">
-                              <Badge
-                                variant="outline"
-                                className="text-xs bg-primary/10 text-primary px-2 py-1 rounded group-hover:text-foreground transition-colors"
-                              >
-                                {t(
-                                  `pages:projects.categories.${project.category
-                                    .toLowerCase()
-                                    .replace(/\s+/g, "")}`,
-                                )}
-                              </Badge>
-                              <Badge
-                                variant="outline"
-                                className="text-xs bg-primary/10 text-primary px-2 py-1 rounded group-hover:text-foreground transition-colors"
-                              >
-                                {project.year}
-                              </Badge>
+                          {/* Categories */}
+                          <div className="flex flex-wrap gap-3">
+                            <Badge
+                              variant="outline"
+                              className="bg-primary/10 text-primary border-primary/20 px-3 py-1.5"
+                            >
+                              {t(
+                                `pages:projects.categories.${project.category
+                                  .toLowerCase()
+                                  .replace(/\s+/g, "")}`,
+                              )}
+                            </Badge>
+                            <Badge
+                              variant="outline"
+                              className="bg-secondary/10 text-secondary border-secondary/20 px-3 py-1.5"
+                            >
+                              {project.industry}
+                            </Badge>
+                          </div>
+
+                          {/* Technologies - Simplified */}
+                          <div className="space-y-3">
+                            <div className="flex items-center gap-2 text-sm font-semibold text-foreground">
+                              <TrendingUp className="w-4 h-4 text-primary" />
+                              <span>{t("pages:projects.technologiesUsed")}</span>
                             </div>
-
-                            <div className="flex flex-wrap gap-2">
+                            <div className="flex flex-wrap gap-2.5">
                               {project.technologies.slice(0, 3).map((tech) => (
-                                <Badge
+                                <span
                                   key={tech}
-                                  variant="outline"
-                                  className="text-xs bg-primary/10 text-primary px-2 py-1 rounded group-hover:text-foreground transition-colors"
+                                  className="text-xs bg-muted px-3 py-1.5 rounded-md text-muted-foreground font-medium"
                                 >
                                   {t(
                                     `pages:projects.technologies.${tech
                                       .toLowerCase()
                                       .replace(/\s+/g, "")}`,
                                   )}
-                                </Badge>
+                                </span>
                               ))}
                               {project.technologies.length > 3 && (
-                                <Badge
-                                  variant="outline"
-                                  className="text-sm px-3 py-1 bg-muted/50"
-                                >
+                                <span className="text-xs bg-muted px-3 py-1.5 rounded-md text-muted-foreground font-medium">
                                   {t(
                                     "pages:projects.moreItems",
                                     "+{{count}} more",
                                     { count: project.technologies.length - 3 },
                                   )}
-                                </Badge>
+                                </span>
                               )}
                             </div>
                           </div>
-                        </CardContent>
+
+                        </div>
                       </Card>
                     </motion.div>
                   );

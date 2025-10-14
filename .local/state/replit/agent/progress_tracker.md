@@ -1,3 +1,17 @@
+[x] 79. Fixed missing image imports in projects-data.ts - Updated to use correct generated image filenames (October 14, 2025)
+[x] 80. Redesigned project cards to reduce congestion - Changed from 3-column to 2-column grid layout (October 14, 2025)
+  - [x] Changed grid from grid-cols-3 to grid-cols-2 (lg:grid-cols-2)
+  - [x] Increased gap spacing from gap-6 to gap-8 lg:gap-10
+  - [x] Simplified card content - removed excessive sections
+  - [x] Improved padding and spacing throughout cards (p-8, space-y-6)
+  - [x] Better typography hierarchy with larger titles (text-2xl)
+  - [x] Cleaner meta information layout with better spacing
+[x] 81. Removed "View Details" button from project cards per user request (October 14, 2025)
+[x] 82. Added missing translation keys for project technologies in English locale (October 14, 2025)
+  - [x] Added 24 new technology translation keys to client/public/locales/en/pages.json
+  - [x] Technologies added: instrumentation, installation&commissioning, electricalsystems, controlpanels, automationnetworks, solarpanelsystems, earthing&protection, gridsynchronization, electricalinfrastructure, monitoringsystems, processautomation, controllogic, powerdistribution, turbinecontrolsystems, vibrationmonitoring, powermanagement, civilinfrastructure, evchargingsystems, electricalpanels, smartmetering, hmiinterface
+  - [x] Added "technologiesUsed" translation key
+  - [x] All project technology names now properly translated instead of showing translation keys
 [x] 1. Install the required packages
 [x] 2. Restart the workflow to see if the project is working  
 [x] 3. Fix services category pages accessibility issue (translation key mismatches)
