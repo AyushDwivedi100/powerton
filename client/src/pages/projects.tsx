@@ -594,14 +594,14 @@ export default function Projects() {
                             </Badge>
                           </div>
 
-                          {/* Technologies - Simplified */}
+                          {/* Technologies - Show All */}
                           <div className="space-y-3">
                             <div className="flex items-center gap-2 text-sm font-semibold text-foreground">
                               <TrendingUp className="w-4 h-4 text-primary" />
                               <span>{t("pages:projects.technologiesUsed")}</span>
                             </div>
                             <div className="flex flex-wrap gap-2.5">
-                              {project.technologies.slice(0, 3).map((tech) => (
+                              {project.technologies.map((tech) => (
                                 <span
                                   key={tech}
                                   className="text-xs bg-muted px-3 py-1.5 rounded-md text-muted-foreground font-medium"
@@ -613,15 +613,6 @@ export default function Projects() {
                                   )}
                                 </span>
                               ))}
-                              {project.technologies.length > 3 && (
-                                <span className="text-xs bg-muted px-3 py-1.5 rounded-md text-muted-foreground font-medium">
-                                  {t(
-                                    "pages:projects.moreItems",
-                                    "+{{count}} more",
-                                    { count: project.technologies.length - 3 },
-                                  )}
-                                </span>
-                              )}
                             </div>
                           </div>
 

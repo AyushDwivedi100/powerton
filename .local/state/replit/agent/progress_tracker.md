@@ -1,3 +1,7 @@
+[x] 83. Removed technology limitation and "+X More" badge from project cards (October 14, 2025)
+  - [x] Removed .slice(0, 3) limitation on technologies
+  - [x] Removed conditional rendering of "+X More" badge
+  - [x] All technologies now displayed in full on project cards
 [x] 79. Fixed missing image imports in projects-data.ts - Updated to use correct generated image filenames (October 14, 2025)
 [x] 80. Redesigned project cards to reduce congestion - Changed from 3-column to 2-column grid layout (October 14, 2025)
   - [x] Changed grid from grid-cols-3 to grid-cols-2 (lg:grid-cols-2)
