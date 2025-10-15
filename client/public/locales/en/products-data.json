@@ -3008,6 +3008,124 @@
         "description": "Compact BLDC motors for table and wall fans. Energy-efficient brushless DC motors with silent operation and long service life.",
         "keywords": "BLDC fan motors, table fan motors, wall fan motors, energy efficient motors, brushless DC motors, fan motors"
       }
+    },
+    "led-lighting": {
+      "title": "LED Lighting",
+      "shortDescription": "Industrial LED lighting solutions for hazardous and general areas",
+      "fullDescription": "Flameproof and weatherproof LED lighting systems designed for safe operation in hazardous industrial environments including Zone 1, Zone 2, and general industrial areas with superior energy efficiency and extended service life.",
+      "parentCategoryTitle": "Electrical Accessories",
+      "keyBenefits": [
+        "Energy Efficient Operation",
+        "Extended Lifespan (50,000+ hours)",
+        "Minimal Maintenance Requirements",
+        "Safe for Hazardous Environments"
+      ],
+      "specifications": [
+        "Power Rating: 20W to 150W",
+        "Voltage: 100-277VAC / 12-48VDC",
+        "Luminous Efficacy: 100-140 lm/W",
+        "Color Temperature: 3000K-6500K",
+        "Protection: IP65/IP66/IP67",
+        "Ambient Temperature: -40°C to +60°C"
+      ],
+      "applications": [
+        "Oil & Gas Facilities",
+        "Chemical Plants",
+        "Mining Operations",
+        "Explosive Atmospheres",
+        "Offshore Platforms",
+        "Refineries"
+      ],
+      "industries": [
+        "Petrochemical",
+        "Mining",
+        "Pharmaceutical",
+        "Food Processing",
+        "Paint & Coating",
+        "Explosive Storage"
+      ],
+      "features": [
+        "Flameproof Construction",
+        "Weatherproof Design",
+        "High Luminous Output",
+        "Low Power Consumption",
+        "Instant Start",
+        "No UV Emission",
+        "Vibration Resistant",
+        "Emergency Backup Option"
+      ],
+      "certifications": [
+        "ATEX Certified",
+        "IECEx Approved",
+        "UL Listed",
+        "CE Marked",
+        "Zone 1 & 2 Rated",
+        "Class I Div 1 & 2"
+      ],
+      "seo": {
+        "title": "Industrial LED Lighting - Flameproof & Weatherproof Hazardous Area LED | Powerton Engineering",
+        "description": "ATEX & IECEx certified flameproof and weatherproof LED lighting for hazardous industrial areas. Energy-efficient explosion-proof LED lights for oil & gas, mining, and chemical plants.",
+        "keywords": "flameproof LED lighting, explosion proof LED, hazardous area lighting, ATEX LED lights, IECEx LED, weatherproof industrial LED, zone 1 LED, zone 2 LED"
+      }
+    },
+    "instrument-transformers": {
+      "title": "Instrument Transformers",
+      "shortDescription": "Precision current and potential transformers for measurement and protection",
+      "fullDescription": "High-accuracy current transformers (CT) and potential transformers (PT) for precise measurement, metering, and protective relaying in industrial power systems with compliance to international standards.",
+      "parentCategoryTitle": "Instrumentation Accessories",
+      "keyBenefits": [
+        "Accurate Measurement & Metering",
+        "Electrical Isolation & Safety",
+        "Overload & Fault Protection",
+        "Industry Standard Ratios"
+      ],
+      "specifications": [
+        "CT Primary Current: 5A to 6000A",
+        "CT Secondary: 1A or 5A",
+        "PT Primary Voltage: 110V to 33kV",
+        "PT Secondary: 110V or 63.5V",
+        "Accuracy Class: 0.2, 0.5, 1.0, 3.0, 5P, 10P",
+        "Frequency: 50/60 Hz"
+      ],
+      "applications": [
+        "Power Distribution Systems",
+        "Energy Metering & Billing",
+        "Protective Relaying",
+        "Energy Management Systems",
+        "Load Monitoring",
+        "Power Quality Analysis"
+      ],
+      "industries": [
+        "Power Generation",
+        "Utilities & Substations",
+        "Industrial Plants",
+        "Commercial Buildings",
+        "Renewable Energy",
+        "Distribution Networks"
+      ],
+      "features": [
+        "High Accuracy",
+        "Wide Range of Ratios",
+        "Compact Design",
+        "Epoxy Resin Insulation",
+        "Terminal Block Connection",
+        "Burden Indication",
+        "Short-Time Rating",
+        "Temperature Stable"
+      ],
+      "certifications": [
+        "IEC 61869 Compliant",
+        "IEEE C57.13",
+        "IS 2705",
+        "CE Certified",
+        "Type Tested",
+        "KEMA Approved"
+      ],
+      "seo": {
+        "title": "Instrument Transformers - CT & PT Current Potential Transformers | Powerton Engineering",
+        "description": "Precision instrument transformers including current transformers (CT) and potential transformers (PT) for accurate measurement, metering, and protection in power distribution systems.",
+        "keywords": "current transformer, CT, potential transformer, PT, instrument transformer, metering CT, protection CT, voltage transformer, measurement transformer"
+      }
     }
   },
   "surgeProtectors": {
