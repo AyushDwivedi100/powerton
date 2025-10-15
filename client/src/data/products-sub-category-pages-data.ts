@@ -2255,6 +2255,7 @@ export const getParentCategoryBySubcategoryKey = (
     "switches-indicators": "instrumentation-accessories",
     "valves-actuators": "instrumentation-accessories",
     analyzers: "instrumentation-accessories",
+    "instrument-transformers": "instrumentation-accessories",
 
     // Electrical Components
     "cables-wires": "electrical-accessories",
@@ -2263,6 +2264,9 @@ export const getParentCategoryBySubcategoryKey = (
     "power-supplies": "electrical-accessories",
     "enclosures-cabinets": "electrical-accessories",
     "heating-elements-appliances": "electrical-accessories",
+    "contactors-relays": "electrical-accessories",
+    "transformers-power-devices": "electrical-accessories",
+    "led-lighting": "electrical-accessories",    
 
     // Solar Products
     "solar-panels": "solar-products",
@@ -2273,6 +2277,7 @@ export const getParentCategoryBySubcategoryKey = (
     scada: "automation-control-systems",
     dcs: "automation-control-systems",
     hmi: "automation-control-systems",
+    "motor-controllers-drives": "automation-control-systems",
 
     // Safety Protective Devices
     "surge-protectors": "electrical-accessories",
@@ -2280,6 +2285,7 @@ export const getParentCategoryBySubcategoryKey = (
     "safety-relays-switches": "safety-protective-devices",
     "intrinsically-safe-equipment": "safety-protective-devices",
     "safety-equipment": "safety-protective-devices",
+    "protection-relays": "safety-protective-devices",
 
     // Mechanical Pumps & Spares
     "centrifugal-pumps": "mechanical-pumps-spares",
@@ -2295,6 +2301,7 @@ export const getParentCategoryBySubcategoryKey = (
     multimeters: "industrial-measuring-tools",
     "power-quality-analyzers": "industrial-measuring-tools",
     "calibration-equipment": "industrial-measuring-tools",
+    "panel-meters-indicators": "industrial-measuring-tools",
 
     // BLDC Motors
     "bldc-cooler-exhaust-motor": "bldc",
@@ -2314,12 +2321,16 @@ export const getSubcategoryKeyBySlug = (subcategorySlug: string): string => {
     "switches-indicators": "switches-indicators",
     "valves-actuators": "valves-actuators",
     analyzers: "analyzers",
+    "instrument-transformers": "instrument-transformers",
     "cables-wires": "cables-wires",
     "connectors-terminals": "connectors-terminals",
     "circuit-breakers-fuses": "circuit-breakers-fuses",
     "power-supplies": "power-supplies",
     "enclosures-cabinets": "enclosures-cabinets",
     "heating-elements-appliances": "heating-elements-appliances",
+    "contactors-relays": "contactors-relays",
+    "transformers-power-devices": "transformers-power-devices",
+    "led-lighting": "led-lighting",
     "solar-panels": "solar-panels",
     "solar-inverters": "solar-inverters",
     plcs: "plcs",
@@ -2331,6 +2342,7 @@ export const getSubcategoryKeyBySlug = (subcategorySlug: string): string => {
     "safety-relays-switches": "safety-relays-switches",
     "intrinsically-safe-equipment": "intrinsically-safe-equipment",
     "safety-equipment": "safety-equipment",
+    "protection-relays": "protection-relays",
     "centrifugal-pumps": "centrifugal-pumps",
     "diaphragm-pumps": "diaphragm-pumps",
     "gear-pumps": "gear-pumps",
@@ -2342,6 +2354,7 @@ export const getSubcategoryKeyBySlug = (subcategorySlug: string): string => {
     multimeters: "multimeters",
     "power-quality-analyzers": "power-quality-analyzers",
     "calibration-equipment": "calibration-equipment",
+    "panel-meters-indicators": "panel-meters-indicators",
     "bldc-cooler-exhaust-motor": "bldc-cooler-exhaust-motor",
     "bldc-ceiling-fan": "bldc-ceiling-fan",
     "bldc-submersible-surface-pump": "bldc-submersible-surface-pump",

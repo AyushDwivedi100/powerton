@@ -875,6 +875,65 @@
         "keywords": "analizadores de procesos, analizadores de gases, analizadores de líquidos, cromatografía, analizadores de O2, analizadores de CO2, monitoreo de procesos"
       }
     },
+    "instrument-transformers": {
+      "title": "Transformadores de Instrumentos",
+      "shortDescription": "Transformadores de corriente y potencial de precisión para medición y protección",
+      "fullDescription": "Transformadores de corriente (TC) y transformadores de potencial (TP) de alta precisión para medición precisa, medición y relevo de protección en sistemas de energía industrial con cumplimiento de normas internacionales.",
+      "parentCategoryTitle": "Accesorios de Instrumentación",
+      "keyBenefits": [
+        "Medición y Medición Precisas",
+        "Aislamiento y Seguridad Eléctricos",
+        "Protección contra Sobrecarga y Fallas",
+        "Relaciones Estándar de la Industria"
+      ],
+      "specifications": [
+        "Corriente Primaria CT: 5A a 6000A",
+        "Secundario CT: 1A o 5A",
+        "Voltaje Primario PT: 110V a 33kV",
+        "Secundario PT: 110V o 63.5V",
+        "Clase de Precisión: 0.2, 0.5, 1.0, 3.0, 5P, 10P",
+        "Frecuencia: 50/60 Hz"
+      ],
+      "applications": [
+        "Sistemas de Distribución de Energía",
+        "Medición y Facturación de Energía",
+        "Relevo de Protección",
+        "Sistemas de Gestión de Energía",
+        "Monitoreo de Carga",
+        "Análisis de Calidad de Energía"
+      ],
+      "industries": [
+        "Generación de Energía",
+        "Servicios Públicos y Subestaciones",
+        "Plantas Industriales",
+        "Edificios Comerciales",
+        "Energía Renovable",
+        "Redes de Distribución"
+      ],
+      "features": [
+        "Alta Precisión",
+        "Amplia Gama de Relaciones",
+        "Diseño Compacto",
+        "Aislamiento de Resina Epoxi",
+        "Conexión de Bloque de Terminales",
+        "Indicación de Carga",
+        "Clasificación de Corto Tiempo",
+        "Temperatura Estable"
+      ],
+      "certifications": [
+        "Cumple con IEC 61869",
+        "IEEE C57.13",
+        "IS 2705",
+        "Certificación CE",
+        "Probado por Tipo",
+        "Aprobado por KEMA"
+      ],
+      "seo": {
+        "title": "Transformadores de Instrumentos - Transformadores de Potencial de Corriente CT y PT | Powerton Engineering",
+        "description": "Transformadores de instrumentos de precisión que incluyen transformadores de corriente (TC) y transformadores de potencial (TP) para medición precisa, medición y protección en sistemas de distribución de energía.",
+        "keywords": "transformador de corriente, TC, transformador de potencial, TP, transformador de instrumento, TC de medición, TC de protección, transformador de voltaje, transformador de medición"
+      }
+    },
     "cables-wires": {
       "title": "Cables y Alambres",
       "shortDescription": "Cables y alambres industriales para transmisión de energía y aplicaciones de control",
@@ -1227,6 +1286,183 @@
         "title": "Elementos Calefactores Industriales - Calentadores de Inmersión y Calefacción de Procesos | Powerton Engineering",
         "description": "Elementos calefactores industriales y equipos de control térmico. Calentadores de inmersión, calentadores de banda, calentadores de cartucho para aplicaciones de calefacción de procesos.",
         "keywords": "calentadores industriales, elementos calefactores, calentadores de inmersión, calefacción de procesos, control térmico, equipos de calefacción industrial"
+      }
+    },
+    "contactors-relays": {
+      "title": "Contactores y Relés",
+      "shortDescription": "Contactores de potencia, relés de temporizador, relés de monitoreo de voltaje y relés de protección de motor para control industrial",
+      "fullDescription": "Gama completa de contactores electromagnéticos, relés de temporización, relés de supervisión de voltaje y dispositivos digitales de protección de motor para conmutación y protección confiables en aplicaciones industriales",
+      "parentCategoryTitle": "Accesorios Eléctricos",
+      "keyBenefits": [
+        "Operación de Conmutación Confiable",
+        "Vida Útil Extendida del Contacto",
+        "Características de Protección Integrales",
+        "Fácil Instalación y Mantenimiento"
+      ],
+      "specifications": [
+        "Clasificación de Contacto: 9A a 400A",
+        "Voltaje de Bobina: 24V a 690V AC/DC",
+        "Frecuencia de Conmutación: Hasta 1200 ciclos/hora",
+        "Vida Mecánica: 10-30 millones de operaciones",
+        "Protección: IP20/IP40/IP54",
+        "Estándares: IEC 60947-4-1, UL 60947"
+      ],
+      "applications": [
+        "Circuitos de Control de Motor",
+        "Conmutación de Carga",
+        "Distribución de Energía",
+        "Control de Calefacción",
+        "Sistemas de Iluminación",
+        "Enclavamientos de Seguridad"
+      ],
+      "industries": [
+        "Fabricación",
+        "Servicios de Construcción",
+        "Industrias de Proceso",
+        "Infraestructura",
+        "Marina y Costa Afuera",
+        "Transporte"
+      ],
+      "features": [
+        "Opciones de Bobina AC/DC",
+        "Contactos Auxiliares",
+        "Sobrecarga Electrónica",
+        "Monitoreo de Fase",
+        "Protección contra Sub/Sobre Voltaje",
+        "Diseño Modular",
+        "Montaje en Carril DIN",
+        "Indicación de Estado LED"
+      ],
+      "certifications": [
+        "Marcado CE",
+        "Aprobado por UL",
+        "Certificado IEC",
+        "ATEX Disponible",
+        "Aprobado para Marina",
+        "Certificado para Ferrocarriles"
+      ],
+      "seo": {
+        "title": "Contactores y Relés Industriales - Contactores de Potencia, Temporizador, Protección de Voltaje | Powerton Engineering",
+        "description": "Contactores de potencia, relés de temporizador, relés de monitoreo de voltaje y relés digitales de protección de motor para control industrial. Dispositivos confiables de conmutación y protección electromagnética.",
+        "keywords": "contactores de potencia, relés de temporizador, relé de monitoreo de voltaje, relé de protección de motor, contactores electromagnéticos, relés de control, relés industriales"
+      }
+    },
+    "transformers-power-devices": {
+      "title": "Transformadores y Dispositivos de Potencia",
+      "shortDescription": "Transformadores de control, transformadores de corriente (TC) y transformadores de potencial (TP) para distribución y medición de energía",
+      "fullDescription": "Transformadores de precisión que incluyen transformadores de control (1kVA-5kVA), transformadores de corriente para medición y protección, y transformadores de potencial para monitoreo de voltaje en sistemas de energía industrial",
+      "parentCategoryTitle": "Accesorios Eléctricos",
+      "keyBenefits": [
+        "Aislamiento y Conversión de Voltaje",
+        "Medición Precisa",
+        "Protección de Equipos",
+        "Diseño Compacto"
+      ],
+      "specifications": [
+        "Transformadores de Control: 1kVA a 5kVA",
+        "Relación CT: 5A a 3000A/5A",
+        "Relación PT: 110V a 33kV",
+        "Clase de Precisión: 0.5, 1.0, 5P, 10P",
+        "Frecuencia: 50/60 Hz",
+        "Aislamiento: Clase B/F/H"
+      ],
+      "applications": [
+        "Circuitos de Control",
+        "Medición y Protección",
+        "Monitoreo de la Calidad de la Energía",
+        "Operación de Relés",
+        "Instrumentación",
+        "Gestión de Carga"
+      ],
+      "industries": [
+        "Distribución de Energía",
+        "Fabricación",
+        "Edificios Comerciales",
+        "Centros de Datos",
+        "Energía Renovable",
+        "Subestaciones"
+      ],
+      "features": [
+        "Medición de Precisión",
+        "Bajas Pérdidas en el Núcleo",
+        "Protección Térmica",
+        "Bloques de Terminales Incluidos",
+        "Soportes de Montaje",
+        "Encapsulación Epoxi",
+        "Capacidad de Carga",
+        "Resistencia a Cortocircuitos"
+      ],
+      "certifications": [
+        "IEC 61869",
+        "IS 2705",
+        "Certificado CE",
+        "Listado UL",
+        "Bureau Veritas",
+        "Probado por Tipo"
+      ],
+      "seo": {
+        "title": "Transformadores de Control, TC, TP - Transformadores de Corriente y Potencial | Powerton Engineering",
+        "description": "Transformadores de control (1-5kVA), transformadores de corriente (TC) y transformadores de potencial (TP) para distribución, medición y protección de energía industrial.",
+        "keywords": "transformador de control, transformador de corriente, TC, transformador de potencial, TP, transformador de medición, transformador de instrumentos, transformador de 1kVA, transformador de 3kVA, transformador de 5kVA"
+      }
+    },
+    "led-lighting": {
+      "title": "Iluminación LED",
+      "shortDescription": "Soluciones de iluminación LED industrial para áreas peligrosas y generales",
+      "fullDescription": "Sistemas de iluminación LED a prueba de explosiones y resistentes a la intemperie diseñados para una operación segura en entornos industriales peligrosos, incluidas las áreas Zona 1, Zona 2 y las áreas industriales generales, con una eficiencia energética superior y una vida útil prolongada.",
+      "parentCategoryTitle": "Accesorios Eléctricos",
+      "keyBenefits": [
+        "Operación de Eficiencia Energética",
+        "Vida Útil Extendida (más de 50,000 horas)",
+        "Requisitos Mínimos de Mantenimiento",
+        "Seguro para Entornos Peligrosos"
+      ],
+      "specifications": [
+        "Potencia Nominal: 20W a 150W",
+        "Voltaje: 100-277VAC / 12-48VDC",
+        "Eficacia Luminosa: 100-140 lm/W",
+        "Temperatura de Color: 3000K-6500K",
+        "Protección: IP65/IP66/IP67",
+        "Temperatura Ambiente: -40°C a +60°C"
+      ],
+      "applications": [
+        "Instalaciones de Petróleo y Gas",
+        "Plantas Químicas",
+        "Operaciones Mineras",
+        "Atmósferas Explosivas",
+        "Plataformas Marinas",
+        "Refinerías"
+      ],
+      "industries": [
+        "Petroquímica",
+        "Minería",
+        "Farmacéutica",
+        "Procesamiento de Alimentos",
+        "Pintura y Recubrimientos",
+        "Almacenamiento de Explosivos"
+      ],
+      "features": [
+        "Construcción a Prueba de Explosiones",
+        "Diseño Resistente a la Intemperie",
+        "Alta Salida Luminosa",
+        "Bajo Consumo de Energía",
+        "Arranque Instantáneo",
+        "Sin Emisión de UV",
+        "Resistente a la Vibración",
+        "Opción de Respaldo de Emergencia"
+      ],
+      "certifications": [
+        "Certificado ATEX",
+        "Aprobado por IECEx",
+        "Listado UL",
+        "Marcado CE",
+        "Clasificación de Zona 1 y 2",
+        "Clase I Div 1 y 2"
+      ],
+      "seo": {
+        "title": "Iluminación LED Industrial - LED a Prueba de Explosiones y Resistente a la Intemperie para Áreas Peligrosas | Powerton Engineering",
+        "description": "Iluminación LED a prueba de explosiones y resistente a la intemperie con certificación ATEX e IECEx para áreas industriales peligrosas. Luces LED a prueba de explosiones de bajo consumo para petróleo y gas, minería y plantas químicas.",
+        "keywords": "iluminación LED a prueba de explosiones, LED a prueba de explosiones, iluminación para áreas peligrosas, luces LED ATEX, LED IECEx, LED industrial resistente a la intemperie, LED zona 1, LED zona 2"
       }
     },
     "solar-panels": {
@@ -1583,6 +1819,65 @@
         "keywords": "paneles HMI, interfaz humano-máquina, paneles de pantalla táctil, interfaz de operador, pantallas industriales, HMI de control de procesos"
       }
     },
+    "motor-controllers-drives": {
+      "title": "Controladores y Variadores de Motor",
+      "shortDescription": "Variadores de frecuencia, arrancadores suaves y arrancadores DOL para un control y protección eficientes del motor",
+      "fullDescription": "Amplia gama de soluciones de control de motor que incluyen VFD para un control preciso de la velocidad, arrancadores suaves para reducir el estrés mecánico y arrancadores DOL para un funcionamiento simple y confiable",
+      "parentCategoryTitle": "Sistemas de Automatización y Control",
+      "keyBenefits": [
+        "Ahorro de Energía y Eficiencia",
+        "Vida Útil Extendida del Equipo",
+        "Control Preciso de la Velocidad",
+        "Reducción del Estrés Mecánico"
+      ],
+      "specifications": [
+        "Rango de Potencia: 0.37kW a 400kW",
+        "Voltaje: 230V a 690V trifásico",
+        "Control: V/F, Vector, DTC",
+        "Comunicación: Modbus, Profibus, Ethernet",
+        "Protección: IP20/IP54/IP65",
+        "Eficiencia: Motores IE3/IE4"
+      ],
+      "applications": [
+        "Bombas y Ventiladores",
+        "Transportadores y Manejo de Materiales",
+        "Compresores",
+        "Sistemas HVAC",
+        "Grúas y Polipastos",
+        "Control de Procesos"
+      ],
+      "industries": [
+        "Fabricación",
+        "Tratamiento de Aguas",
+        "Minería",
+        "Petróleo y Gas",
+        "Procesamiento de Alimentos",
+        "Automatización de Edificios"
+      ],
+      "features": [
+        "Protección Incorporada",
+        "Monitoreo de Energía",
+        "Múltiples Modos de Control",
+        "Operación Remota",
+        "Lógica Programable",
+        "Diagnóstico de Fallas",
+        "Opciones de Bypass",
+        "Filtrado de Armónicos"
+      ],
+      "certifications": [
+        "Certificación CE",
+        "Listado UL",
+        "IEC 61800",
+        "Cumplimiento RoHS",
+        "ISO 9001",
+        "Clasificación NEMA"
+      ],
+      "seo": {
+        "title": "VFD, Arrancadores Suaves, Arrancadores DOL - Soluciones de Control de Motor | Powerton Engineering",
+        "description": "Variadores de frecuencia (VFD), arrancadores suaves y arrancadores directos en línea (DOL) para el control de motores industriales. Soluciones de eficiencia energética para bombas, ventiladores, transportadores y automatización de procesos.",
+        "keywords": "VFD, variador de frecuencia, arrancador suave, arrancador DOL, controlador de motor, control de velocidad, ahorro de energía, protección del motor"
+      }
+    },
     "surge-protectors": {
       "title": "Protectores contra Sobretensiones",
       "shortDescription": "Dispositivos industriales de protección contra sobretensiones para la protección de sistemas eléctricos",
@@ -1876,6 +2171,66 @@
         "title": "Equipo de Seguridad Industrial - EPP y Protección contra Caídas | Powerton Engineering",
         "description": "Equipo de seguridad industrial que incluye EPP, sistemas de protección contra caídas y equipo de detección de gases. Soluciones de seguridad que cumplen con OSHA para la protección en el lugar de trabajo.",
         "keywords": "equipo de seguridad, EPP, equipo de protección personal, protección contra caídas, detección de gases, seguridad industrial, seguridad en el trabajo"
+      }
+    },
+    "protection-relays": {
+      "title": "Relés de Protección",
+      "shortDescription": "Relés de protección avanzados para la seguridad de equipos eléctricos y la detección de fallas",
+      "fullDescription": "Amplia gama de relés de protección, incluyendo relés de sobrecorriente, falla a tierra, protección de motor y protección diferencial para la seguridad eléctrica. Relés avanzados basados en microprocesador con ajustes configurables y capacidades de monitoreo remoto para una protección confiable de los equipos.",
+      "parentCategoryTitle": "Dispositivos de Seguridad y Protección",
+      "keyBenefits": [
+        "Protección de Equipos",
+        "Detección y Aislamiento de Fallas",
+        "Función de Disparo Automático",
+        "Ajustes Configurables",
+        "Capacidad de Monitoreo Remoto"
+      ],
+      "specifications": [
+        "Voltaje de Operación: 110V a 440V AC/DC",
+        "Rango de Corriente: 0.1A a 6300A",
+        "Tiempo de Disparo: <50ms a 10s",
+        "Funciones de Protección: IDMT, Tiempo Definido, Instantáneo",
+        "Comunicación: Modbus RTU, DNP3, IEC 61850",
+        "Pantalla: LCD con Registro de Eventos"
+      ],
+      "applications": [
+        "Protección de Motor",
+        "Protección de Transformador",
+        "Protección de Generador",
+        "Protección de Alimentador",
+        "Protección de Barra Colectora",
+        "Protección Diferencial"
+      ],
+      "industries": [
+        "Distribución de Energía",
+        "Plantas de Fabricación",
+        "Servicios Públicos",
+        "Petróleo y Gas",
+        "Centros de Datos",
+        "Industrias de Procesos"
+      ],
+      "features": [
+        "Tecnología Basada en Microprocesador",
+        "Protección contra Sobrecorriente",
+        "Protección contra Fallas a Tierra",
+        "Protección contra Sub/Sobre Voltaje",
+        "Detección de Desequilibrio de Fase",
+        "Monitoreo de Armónicos",
+        "Registro de Eventos y Fallas",
+        "Comunicación Digital"
+      ],
+      "certifications": [
+        "IEC 61850",
+        "IEEE C37.90",
+        "UL 508",
+        "Marcado CE",
+        "Certificación IECEx",
+        "Normas ANSI"
+      ],
+      "seo": {
+        "title": "Relés de Protección - Protección de Motor, Transformador y Diferencial | Powerton Engineering",
+        "description": "Relés de protección avanzados para la seguridad eléctrica. Relés de sobrecorriente, falla a tierra, protección de motor y protección diferencial con comunicación IEC 61850 para distribución de energía y aplicaciones industriales.",
+        "keywords": "relés de protección, relé de protección de motor, relé de sobrecorriente, relé de falla a tierra, protección diferencial, protección de transformador, IEC 61850, dispositivos de protección eléctrica"
       }
     },
     "centrifugal-pumps": {
@@ -2525,6 +2880,65 @@
         "title": "Equipo de Calibración - Instrumentos Industriales de Prueba y Calibración | Powerton Engineering",
         "description": "Equipo profesional de calibración y prueba para aplicaciones industriales. Calibradores trazables a NIST para instrumentos de presión, temperatura y eléctricos.",
         "keywords": "equipo de calibración, instrumentos de prueba, calibradores, calibración de instrumentos, trazable a NIST, calibración de procesos, calibración en campo"
+      }
+    },
+    "panel-meters-indicators": {
+      "title": "Medidores e Indicadores de Panel",
+      "shortDescription": "Medidores de panel analógicos y digitales para la medición de voltaje, corriente, factor de potencia y medición multiparamétrica",
+      "fullDescription": "Amplia gama de medidores de montaje en panel que incluyen amperímetros y voltímetros analógicos, medidores digitales, medidores de factor de potencia y medidores multifunción avanzados para una supervisión integral de la energía",
+      "parentCategoryTitle": "Herramientas de Medición Industrial",
+      "keyBenefits": [
+        "Monitoreo en Tiempo Real",
+        "Pantalla de Alta Precisión",
+        "Fácil Instalación",
+        "Medición Rentable"
+      ],
+      "specifications": [
+        "Pantalla: Analógica/Digital LED/LCD",
+        "Precisión: ±0.5% a ±2% FS",
+        "Entrada: 0-600V CA/CC, 0-999A",
+        "Montaje: 48x48mm a 96x96mm",
+        "Fuente de Alimentación: 90-270V CA, 20-270V CC",
+        "Comunicación: Modbus RTU/TCP, RS485"
+      ],
+      "applications": [
+        "Monitoreo de Tableros de Distribución",
+        "Grupos Electrógenos",
+        "Sistemas UPS",
+        "Paneles de Control de Motor",
+        "Tableros de Distribución",
+        "Gestión de la Energía"
+      ],
+      "industries": [
+        "Generación de Energía",
+        "Fabricación",
+        "Edificios Comerciales",
+        "Infraestructura",
+        "Energía Renovable",
+        "Aplicaciones Marinas"
+      ],
+      "features": [
+        "Pantalla Visual Clara",
+        "Registro de Pico/Mín/Máx",
+        "Salidas de Alarma",
+        "Registro de Datos",
+        "Análisis de Armónicos",
+        "Medición de THD",
+        "Medición de Energía",
+        "Protocolos de Comunicación"
+      ],
+      "certifications": [
+        "Marcado CE",
+        "IEC 61010",
+        "Listado UL",
+        "IS 13703",
+        "Cumplimiento RoHS",
+        "Aprobación MID"
+      ],
+      "seo": {
+        "title": "Medidores de Panel - Analógicos, Digitales, Medidores de Potencia Multifunción | Powerton Engineering",
+        "description": "Medidores de panel que incluyen amperímetros/voltímetros analógicos, medidores digitales, medidores de factor de potencia y medidores multifunción para la supervisión y medición de energía industrial.",
+        "keywords": "medidores de panel, amperímetro analógico, voltímetro analógico, medidores digitales, medidor de factor de potencia, medidor multifunción, medidor de energía, medidor de montaje en panel"
       }
     },
     "bldc-cooler-exhaust-motor": {

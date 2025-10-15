@@ -870,6 +870,65 @@
         "keywords": "masu nazarin tsari, masu nazarin gas, masu nazarin ruwa, chromatography, masu nazarin O2, masu nazarin CO2, kula da tsari"
       }
     },
+    "instrument-transformers": {
+      "title": "Transfoma na Kayan Aiki",
+      "shortDescription": "Transfoma na yanzu da na iya aiki don aunawa da kariya",
+      "fullDescription": "Transfoma na yanzu (CT) da transfoma mai yuwuwa (PT) masu daidaito don daidaitaccen aunawa, aunawa, da kuma karewa a cikin tsarin wutar lantarki na masana'antu tare da bin ƙa'idodin duniya.",
+      "parentCategoryTitle": "Kayan Aikin Na'urorin Auna Kayan Aiki",
+      "keyBenefits": [
+        "Daidaitaccen Aunawa & Aunawa",
+        "Keɓewar Lantarki & Tsaro",
+        "Kariyar ɗaukar Nauyi & Kuskure",
+        "Ratios ɗin Ma'auni na Masana'antu"
+      ],
+      "specifications": [
+        "CT Babban Yanzu: 5A zuwa 6000A",
+        "CT Sakandare: 1A ko 5A",
+        "PT Babban Ƙarfin Lantarki: 110V zuwa 33kV",
+        "PT Sakandare: 110V ko 63.5V",
+        "Ajin Daidaito: 0.2, 0.5, 1.0, 3.0, 5P, 10P",
+        "Mitar: 50/60 Hz"
+      ],
+      "applications": [
+        "Tsarin Rarraba Wutar Lantarki",
+        "Aunawa Makamashi & Lissafi",
+        "Kariyar Relay",
+        "Tsarin Gudanar da Makamashi",
+        "Kulawa da Kaya",
+        "Binciken Ingancin Wutar Lantarki"
+      ],
+      "industries": [
+        "Samar da Wuta",
+        "Amfani & Tashoshin Sauyawa",
+        "Masana'antu",
+        "Gine-ginen Kasuwanci",
+        "Makamashi Mai Sabuntawa",
+        "Hanyoyin Sadarwa"
+      ],
+      "features": [
+        "Babban Daidaito",
+        "Faɗin Kewayon Ratios",
+        "Ƙirar Ƙarami",
+        "Rufin Epoxy Resin",
+        "Haɗin Toshewar Tashoshi",
+        "Nuna ɗaukar Nauyi",
+        "Ƙimar Gajeren Lokaci",
+        "Zafin Jiki Mai Ƙarfi"
+      ],
+      "certifications": [
+        "IEC 61869 Mai Yardarwa",
+        "IEEE C57.13",
+        "IS 2705",
+        "CE Mai Takarda",
+        "An Gwada Nau'in",
+        "KEMA An Amince da shi"
+      ],
+      "seo": {
+        "title": "Transfoma na Kayan Aiki - CT & PT Transfoma Mai Yiwuwa na Yanzu | Injiniyan Powerton",
+        "description": "Transfoma na kayan aiki masu daidaito gami da transfoma na yanzu (CT) da transfoma mai yuwuwa (PT) don daidaitaccen aunawa, aunawa, da kariya a cikin tsarin rarraba wutar lantarki.",
+        "keywords": "transfoma na yanzu, CT, transfoma mai yuwuwa, PT, transfoma na kayan aiki, CT na aunawa, CT na kariya, transfoma na wutar lantarki, transfoma na aunawa"
+      }
+    },
     "cables-wires": {
       "title": "Kebuloli & Wayoyi",
       "shortDescription": "Kebuloli na masana'antu da wayoyi don watsawa wutar lantarki da aikace-aikacen sarrafawa",
@@ -1222,6 +1281,183 @@
         "title": "Abubuwan Dumama na Masana'antu - Hita Mai Nutsawa & Dumama Tsari | Injiniyan Powerton",
         "description": "Abubuwan dumama na masana'antu da kayan aikin kula da zafi. Hita mai nutsawa, hita mai ɗamara, hita mai harsashi don aikace-aikacen dumama tsari.",
         "keywords": "hita na masana'antu, abubuwan dumama, hita mai nutsawa, dumama tsari, kula da zafi, kayan aikin dumama na masana'antu"
+      }
+    },
+    "contactors-relays": {
+      "title": "Masu Haɗawa & Relays",
+      "shortDescription": "Masu haɗin wutar lantarki, relays masu ƙidayar lokaci, relays masu saka idanu kan ƙarfin wuta, da relays na kariya na mota don sarrafa masana'antu",
+      "fullDescription": "Cikakken kewayon masu haɗin electromagnetic, relays na lokaci, relays na kulawa da ƙarfin lantarki, da na'urorin kariya na mota na dijital don amintaccen sauyawa da kariya a cikin aikace-aikacen masana'antu",
+      "parentCategoryTitle": "Kayan Aikin Lantarki",
+      "keyBenefits": [
+        "Ayyukan Sauyawa Abin Dogaro",
+        "Tsawaita Rayuwar Lambar Sadarwa",
+        "Fasalolin Kariya Masu Cikakkun Bayanai",
+        "Shigarwa & Kulawa Mai Sauƙi"
+      ],
+      "specifications": [
+        "Ƙimar Lambar Sadarwa: 9A zuwa 400A",
+        "Ƙarfin Wutar Lantarki: 24V zuwa 690V AC/DC",
+        "Yawan Sauyawa: Har zuwa zagaye 1200/awa",
+        "Rayuwar Inji: Ayyuka miliyan 10-30",
+        "Kariya: IP20/IP40/IP54",
+        "Ka'idoji: IEC 60947-4-1, UL 60947"
+      ],
+      "applications": [
+        "Kewayen Sarrafa Mota",
+        "Sauya Kaya",
+        "Rarraba Wutar Lantarki",
+        "Sarrafa Dumama",
+        "Tsarin Haske",
+        "Kulullan Tsaro"
+      ],
+      "industries": [
+        "Masana'antu",
+        "Sabis na Ginin Gida",
+        "Masana'antu Masu Tsari",
+        "Ababen More Rayuwa",
+        "Ruwa & Teku",
+        "Sufuri"
+      ],
+      "features": [
+        "Zaɓuɓɓukan Coil na AC/DC",
+        "Lambobin Taimako",
+        "Ƙarfin Wuce Gona da Iri na Lantarki",
+        "Saka idanu kan Lokaci",
+        "Kariyar Ƙarƙashin/Sama da Ƙarfin Wuta",
+        "Ƙirar Ƙira",
+        "Hawa DIN Rail",
+        "Alamar Matsayi ta LED"
+      ],
+      "certifications": [
+        "CE Mai Alama",
+        "UL An Amince da shi",
+        "IEC An Tabbatar da shi",
+        "ATEX Akwai",
+        "Ruwa An Amince da shi",
+        "Layinar Railway An Tabbatar da shi"
+      ],
+      "seo": {
+        "title": "Masu Haɗawa & Relays na Masana'antu - Masu Haɗin Wutar Lantarki, Lokaci, Kariyar Ƙarfin Wuta | Injiniyan Powerton",
+        "description": "Masu haɗin wutar lantarki, relays masu ƙidayar lokaci, relays masu saka idanu kan ƙarfin wuta, da relays na kariya na mota na dijital don sarrafa masana'antu. Amintaccen sauyawa na electromagnetic da na'urorin kariya.",
+        "keywords": "masu haɗin wutar lantarki, relays masu ƙidayar lokaci, relay mai saka idanu kan ƙarfin wuta, relay na kariya na mota, masu haɗin electromagnetic, relays masu sarrafawa, relays na masana'antu"
+      }
+    },
+    "transformers-power-devices": {
+      "title": "Transfoma & Na'urorin Wutar Lantarki",
+      "shortDescription": "Transfoma masu sarrafawa, transfoma na yanzu (CT), da transfoma mai yuwuwa (PT) don rarraba wutar lantarki da aunawa",
+      "fullDescription": "Transfoma masu daidaito ciki har da transfoma masu sarrafawa (1kVA-5kVA), transfoma na yanzu don aunawa da kariya, da transfoma mai yuwuwa don saka idanu kan ƙarfin wuta a cikin tsarin wutar lantarki na masana'antu",
+      "parentCategoryTitle": "Kayan Aikin Lantarki",
+      "keyBenefits": [
+        "Keɓewar Ƙarfin Wuta & Canji",
+        "Madaidaicin Aunawa",
+        "Kariyar Kayan Aiki",
+        "Ƙirar Ƙira"
+      ],
+      "specifications": [
+        "Transfoma Masu Sarrafawa: 1kVA zuwa 5kVA",
+        "CT Ratio: 5A zuwa 3000A/5A",
+        "PT Ratio: 110V zuwa 33kV",
+        "Ajin Daidaito: 0.5, 1.0, 5P, 10P",
+        "Mitar: 50/60 Hz",
+        "Rufi: Class B/F/H"
+      ],
+      "applications": [
+        "Kewayen Sarrafawa",
+        "Aunawa & Kariya",
+        "Saka idanu kan Ingancin Wutar Lantarki",
+        "Ayyukan Relay",
+        "Kayan Aiki",
+        "Gudanar da Kaya"
+      ],
+      "industries": [
+        "Rarraba Wutar Lantarki",
+        "Masana'antu",
+        "Gine-ginen Kasuwanci",
+        "Cibiyoyin Bayanai",
+        "Makamashi Mai Sabuntawa",
+        "Tashoshin Sauyawa"
+      ],
+      "features": [
+        "Madaidaicin Aunawa",
+        "Ƙananan Asarar Core",
+        "Kariyar Zafi",
+        "An Haɗa Toshewar Tasha",
+        "Madafun Hawa",
+        "Rufin Epoxy",
+        "Ƙarfin Kaya",
+        "Jurewar Gajeren Zagaye"
+      ],
+      "certifications": [
+        "IEC 61869",
+        "IS 2705",
+        "CE An Tabbatar da shi",
+        "UL An Lissafa",
+        "Bureau Veritas",
+        "An Gwada Nau'in"
+      ],
+      "seo": {
+        "title": "Transfoma Masu Sarrafawa, CT, PT - Transfoma na Yanzu & Mai Yuwuwa | Injiniyan Powerton",
+        "description": "Transfoma masu sarrafawa (1-5kVA), transfoma na yanzu (CT), da transfoma mai yuwuwa (PT) don rarraba wutar lantarki na masana'antu, aunawa, da aikace-aikacen kariya.",
+        "keywords": "transfoma mai sarrafawa, transfoma na yanzu, CT, transfoma mai yuwuwa, PT, transfoma mai aunawa, transfoma kayan aiki, transfoma 1kVA, transfoma 3kVA, transfoma 5kVA"
+      }
+    },
+    "led-lighting": {
+      "title": "Hasken LED",
+      "shortDescription": "Hanyoyin hasken LED na masana'antu don wurare masu haɗari da na gabaɗaya",
+      "fullDescription": "Tsarin hasken LED mai hana harshen wuta da mai jure yanayi da aka ƙera don aiki mai aminci a cikin mahalli masu haɗari na masana'antu ciki har da Zone 1, Zone 2, da wurare na masana'antu na gabaɗaya tare da ingantaccen amfani da makamashi da tsawaita rayuwar sabis.",
+      "parentCategoryTitle": "Kayan Aikin Lantarki",
+      "keyBenefits": [
+        "Aikin Amfani da Makamashi",
+        "Tsawaita Tsawon Rai (awa 50,000+)",
+        "Ƙananan Bukatun Kulawa",
+        "Amintacce ga Muhalli Masu Haɗari"
+      ],
+      "specifications": [
+        "Ƙimar Wuta: 20W zuwa 150W",
+        "Ƙarfin Wuta: 100-277VAC / 12-48VDC",
+        "Tasirin Haske: 100-140 lm/W",
+        "Zafin Launi: 3000K-6500K",
+        "Kariya: IP65/IP66/IP67",
+        "Zafin Yanayi: -40°C zuwa +60°C"
+      ],
+      "applications": [
+        "Wuraren Mai & Gas",
+        "Masana'antar Kemikal",
+        "Ayyukan Hakar Ma'adinai",
+        "Yanayi Masu Fashewa",
+        "Filayen Teku",
+        "Matatun Mai"
+      ],
+      "industries": [
+        "Petrochemical",
+        "Hakar Ma'adinai",
+        "Magunguna",
+        "Sarrafa Abinci",
+        "Fenti & Rufi",
+        "Ma'ajiyar Abubuwa Masu Fashewa"
+      ],
+      "features": [
+        "Ginin Hana Harshen Wuta",
+        "Ƙirar Jure Yanayi",
+        "Babban Fitar Haske",
+        "Ƙarancin Amfani da Wuta",
+        "Fara Nan take",
+        "Babu Fitowar UV",
+        "Mai Jure Girgiza",
+        "Zaɓin Ajiyar Gaggawa"
+      ],
+      "certifications": [
+        "ATEX An Tabbatar da shi",
+        "IECEx An Amince da shi",
+        "UL An Lissafa",
+        "CE Mai Alama",
+        "Zone 1 & 2 An Ƙima",
+        "Class I Div 1 & 2"
+      ],
+      "seo": {
+        "title": "Hasken LED na Masana'antu - LED Mai Hana Harshen Wuta & Mai Jure Yanayi Mai Haɗari | Injiniyan Powerton",
+        "description": "ATEX & IECEx sun tabbatar da hasken LED mai hana harshen wuta da mai jure yanayi don wurare masu haɗari na masana'antu. Hasken LED mai jure fashewa mai amfani da makamashi don mai & gas, hakar ma'adinai, da masana'antar kemikal.",
+        "keywords": "hasken LED mai hana harshen wuta, hasken LED mai jure fashewa, hasken wurare masu haɗari, fitilun ATEX LED, IECEx LED, hasken LED na masana'antu mai jure yanayi, zone 1 LED, zone 2 LED"
       }
     },
     "solar-panels": {
@@ -1578,6 +1814,65 @@
         "keywords": "HMI panels, human machine interface, touchscreen panels, operator interface, industrial displays, process control HMI"
       }
     },
+    "motor-controllers-drives": {
+      "title": "Masu Kula da Mota & Direbobi",
+      "shortDescription": "Mota masu canza mitar akai-akai, masu farawa masu taushi, da masu farawa na DOL don ingantaccen sarrafa mota da kariya",
+      "fullDescription": "Cikakken kewayon hanyoyin sarrafa mota ciki har da VFDs don daidaitaccen sarrafa gudu, masu farawa masu taushi don rage damuwa ta inji, da masu farawa na DOL don aiki mai sauƙi mai aminci",
+      "parentCategoryTitle": "Tsarin Aiki da Kai & Sarrafawa",
+      "keyBenefits": [
+        "Tanadin Makamashi & Inganci",
+        "Tsawaita Rayuwar Kayan Aiki",
+        "Daidaitaccen Sarrafa Gudu",
+        "Ragewar Damuwa ta Inji"
+      ],
+      "specifications": [
+        "Kewayon Ƙarfi: 0.37kW zuwa 400kW",
+        "Wutar Lantarki: 230V zuwa 690V mai matakai 3",
+        "Sarrafa: V/F, Vector, DTC",
+        "Sadarwa: Modbus, Profibus, Ethernet",
+        "Kariya: IP20/IP54/IP65",
+        "Inganci: IE3/IE4 Motoci"
+      ],
+      "applications": [
+        "Famfo & Fanka",
+        "Masu ɗaukar kaya & Sarrafa Kayan Aiki",
+        "Masu matsa lamba",
+        "Tsarin HVAC",
+        "Cranes & Hoists",
+        "Sarrafa Tsari"
+      ],
+      "industries": [
+        "Masana'antu",
+        "Jiyya na Ruwa",
+        "Hakar Ma'adinai",
+        "Mai & Gas",
+        "Sarrafa Abinci",
+        "Ginin Aiki da Kai"
+      ],
+      "features": [
+        "Kariyar Gina-in",
+        "Saka idanu kan Makamashi",
+        "Yanayin Sarrafawa Da yawa",
+        "Aikin Nesa",
+        "Ma'ana Mai Shiryawa",
+        "Binciken Kuskure",
+        "Zaɓuɓɓukan Wucewa",
+        "Tace Harmonic"
+      ],
+      "certifications": [
+        "CE Mai Takarda",
+        "UL Lissafa",
+        "IEC 61800",
+        "RoHS Mai Yardarwa",
+        "ISO 9001",
+        "NEMA Mai Ƙima"
+      ],
+      "seo": {
+        "title": "VFD, Masu Farawa Masu Taushi, Masu Farawa na DOL - Maganin Sarrafa Mota | Injiniyan Powerton",
+        "description": "Mota masu canza mitar akai-akai (VFD), masu farawa masu taushi, da masu farawa kai tsaye (DOL) don sarrafa motar masana'antu. Hanyoyin ceton makamashi masu inganci don famfo, fanka, masu ɗaukar kaya, da aiki da kai.",
+        "keywords": "VFD, variable frequency drive, soft starter, DOL starter, motor controller, speed control, energy savings, motor protection"
+      }
+    },
     "surge-protectors": {
       "title": "Masu Kariyar Wutar Lantarki",
       "shortDescription": "Na'urorin kariyar wutar lantarki na masana'antu don kariyar tsarin lantarki",
@@ -1871,6 +2166,66 @@
         "title": "Kayan Aiki na Tsaro na Masana'antu - PPE & Kariyar Faɗuwa | Injiniyan Powerton",
         "description": "Kayan aiki na tsaro na masana'antu gami da PPE, tsarin kariya na faɗuwa, da kayan aikin gano gas. Hanyoyin magance tsaro masu bin OSHA don kariyar wurin aiki.",
         "keywords": "kayan aiki na tsaro, PPE, kayan aikin kariya na sirri, kariyar faɗuwa, gano gas, tsaron masana'antu, tsaron wurin aiki"
+      }
+    },
+    "protection-relays": {
+      "title": "Relay na Kariya",
+      "shortDescription": "Relay na kariya mai ci gaba don amincin kayan aikin lantarki da gano matsala",
+      "fullDescription": "Cikakken kewayon relay na kariya gami da wuce gona da iri, matsalar ƙasa, kariyar mota, da relay na bambance-bambancen kariya don amincin lantarki. Relay masu ci gaba masu tushen microprocessor tare da saitunan da za a iya daidaitawa da ikon saka idanu mai nisa don amintaccen kariyar kayan aiki.",
+      "parentCategoryTitle": "Na'urorin Tsaro & Kariyar",
+      "keyBenefits": [
+        "Kariyar Kayan Aiki",
+        "Gano Matsala & Keɓewa",
+        "Aikin Tafiya ta atomatik",
+        "Saitunan da za a iya daidaitawa",
+        "Ikon Saka idanu mai Nisa"
+      ],
+      "specifications": [
+        "Ƙarfin Aiki: 110V zuwa 440V AC/DC",
+        "Yawan Yanzu: 0.1A zuwa 6300A",
+        "Lokacin Tafiya: <50ms zuwa 10s",
+        "Ayyukan Kariya: IDMT, Tabbataccen Lokaci, Nan take",
+        "Sadarwa: Modbus RTU, DNP3, IEC 61850",
+        "Nuni: LCD tare da Rikodin Abubuwan da suka faru"
+      ],
+      "applications": [
+        "Kariyar Mota",
+        "Kariyar Transformer",
+        "Kariyar Janareta",
+        "Kariyar Feeder",
+        "Kariyar Busbar",
+        "Kariyar Bambanci"
+      ],
+      "industries": [
+        "Rarraba Wutar Lantarki",
+        "Masana'antun Masana'antu",
+        "Kayayyakin Aiki",
+        "Mai & Gas",
+        "Cibiyoyin Bayanai",
+        "Masana'antu Tsari"
+      ],
+      "features": [
+        "Fasahar Tushen Microprocessor",
+        "Kariyar Wuce Gona da Iri",
+        "Kariyar Matsalar Ƙasa",
+        "Kariyar Ƙarƙashin/Sama da Ƙarfin Lantarki",
+        "Gano Rashin Daidaituwa na Lokaci",
+        "Saka idanu kan Harmonic",
+        "Rikodin Abubuwan da suka faru & Matsala",
+        "Sadarwa ta Dijital"
+      ],
+      "certifications": [
+        "IEC 61850",
+        "IEEE C37.90",
+        "UL 508",
+        "Alamar CE",
+        "IECEx Certified",
+        "Ka'idojin ANSI"
+      ],
+      "seo": {
+        "title": "Relay na Kariya - Kariyar Mota, Transformer & Bambanci | Injiniyan Powerton",
+        "description": "Relay na kariya mai ci gaba don amincin lantarki. Wuce gona da iri, matsalar ƙasa, kariyar mota, da relay na bambance-bambancen kariya tare da sadarwa ta IEC 61850 don rarraba wutar lantarki da aikace-aikacen masana'antu.",
+        "keywords": "relay na kariya, relay na kariyar mota, relay na wuce gona da iri, relay na matsalar ƙasa, kariyar bambanci, kariyar transformer, IEC 61850, na'urorin kariya na lantarki"
       }
     },
     "centrifugal-pumps": {
@@ -2520,6 +2875,65 @@
         "title": "Kayan Aikin Daidaitawa - Gwajin Masana'antu & Kayan Aikin Daidaitawa | Injiniyan Powerton",
         "description": "Kwararrun kayan aikin daidaitawa da gwaji don aikace-aikacen masana'antu. NIST calibrators traceable don matsa lamba, zafin jiki, da kayan aikin lantarki.",
         "keywords": "kayan aikin daidaitawa, kayan aikin gwaji, calibrators, daidaita kayan aiki, NIST traceable, daidaita tsari, daidaitawa a filin"
+      }
+    },
+    "panel-meters-indicators": {
+      "title": "Mitan Panel & Manunawa",
+      "shortDescription": "Mitan panel na analog da dijital don aunawa na wutar lantarki, yanzu, ƙarfin wuta, da aunawa da yawa",
+      "fullDescription": "Cikakken kewayon mitoci da aka ɗora akan panel gami da ammeters na analog da voltmeters, mitoci na dijital, mitoci na ƙarfin wuta, da mitoci masu aiki da yawa don cikakken kula da wuta",
+      "parentCategoryTitle": "Kayan Aikin Masana'antu & Aunawa",
+      "keyBenefits": [
+        "Kulawa na Ainihi",
+        "Babban Nunin Daidaito",
+        "Shigarwa Mai Sauƙi",
+        "Aunawa Mai Tsada"
+      ],
+      "specifications": [
+        "Nuni: Analog/Dijital LED/LCD",
+        "Daidaito: ±0.5% zuwa ±2% FS",
+        "Shigarwa: 0-600V AC/DC, 0-999A",
+        "Hawa: 48x48mm zuwa 96x96mm",
+        "Samar da Wuta: 90-270V AC, 20-270V DC",
+        "Sadarwa: Modbus RTU/TCP, RS485"
+      ],
+      "applications": [
+        "Kulawa da Sauyawa",
+        "Saitunan Janareta",
+        "Tsarin UPS",
+        "Bangaren Kula da Mota",
+        "Allunan Rarraba",
+        "Gudanar da Makamashi"
+      ],
+      "industries": [
+        "Samar da Wuta",
+        "Masana'antu",
+        "Gine-ginen Kasuwanci",
+        "Ababen More Rayuwa",
+        "Makamashi Mai Sabuntawa",
+        "Aikace-aikacen Ruwa"
+      ],
+      "features": [
+        "Bayyanannen Nunin Gani",
+        "Rikodin Ƙoli/Min/Max",
+        "Fitowar Ƙararrawa",
+        "Rikodin Bayanai",
+        "Nazarin Harmonic",
+        "Ma'aunin THD",
+        "Auna Makamashi",
+        "Ka'idojin Sadarwa"
+      ],
+      "certifications": [
+        "CE Mai Alama",
+        "IEC 61010",
+        "UL Lissafa",
+        "IS 13703",
+        "RoHS Mai Yardarwa",
+        "MID An Amince da shi"
+      ],
+      "seo": {
+        "title": "Mita Panel - Analog, Dijital, Mita Wutar Lantarki Mai Aiki Da yawa | Injiniyan Powerton",
+        "description": "Mitan panel gami da ammeters/voltmeters na analog, mitoci na dijital, mitoci na ƙarfin wuta, da mitoci masu aiki da yawa don kula da aunawa wutar lantarki ta masana'antu.",
+        "keywords": "mitan panel, ammeter analog, voltmeter analog, mitoci na dijital, mita ƙarfin wuta, mita mai aiki da yawa, mitar makamashi, mitar hawa panel"
       }
     },
     "bldc-cooler-exhaust-motor": {

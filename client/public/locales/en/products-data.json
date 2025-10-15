@@ -115,12 +115,7 @@
         "circuit-breakers-fuses": {
           "title": "Circuit Breakers & Fuses",
           "description": "Protection devices for electrical circuits and equipment safety",
-          "features": [
-            "MCBs",
-            "MCCBs",
-            "RCCBs",
-            "Industrial Fuses"
-          ]
+          "features": ["MCBs", "MCCBs", "RCCBs", "Industrial Fuses"]
         },
         "power-supplies": {
           "title": "Power Supplies",
@@ -230,12 +225,7 @@
     "automation-control-systems": {
       "title": "Automation & Control Systems",
       "description": "Advanced automation and control solutions for industrial process management and optimization",
-      "badges": [
-        "PLCs",
-        "SCADA",
-        "DCS",
-        "HMI"
-      ],
+      "badges": ["PLCs", "SCADA", "DCS", "HMI"],
       "sectionTitle": "Control System Solutions",
       "subcategories": {
         "plcs": {
@@ -281,12 +271,7 @@
         "motor-controllers-drives": {
           "title": "Motor Controllers & Drives",
           "description": "Variable frequency drives and motor control solutions for efficient motor operation",
-          "features": [
-            "VFD",
-            "Soft Starters",
-            "DOL Starters",
-            "Speed Control"
-          ]
+          "features": ["VFD", "Soft Starters", "DOL Starters", "Speed Control"]
         }
       },
       "cta": {
@@ -767,65 +752,6 @@
         "keywords": "industrial switches, pushbutton switches, control panel components, emergency stops, pilot lights, indicators, selector switches"
       }
     },
-    "transformers-power-devices": {
-      "title": "Transformers & Power Devices",
-      "shortDescription": "Control transformers, current transformers (CT), and potential transformers (PT) for power distribution and metering",
-      "fullDescription": "Precision transformers including control transformers (1kVA-5kVA), current transformers for measurement and protection, and potential transformers for voltage monitoring in industrial power systems",
-      "parentCategoryTitle": "Electrical Accessories",
-      "keyBenefits": [
-        "Voltage Isolation & Conversion",
-        "Accurate Measurement",
-        "Equipment Protection",
-        "Compact Design"
-      ],
-      "specifications": [
-        "Control Transformers: 1kVA to 5kVA",
-        "CT Ratio: 5A to 3000A/5A",
-        "PT Ratio: 110V to 33kV",
-        "Accuracy Class: 0.5, 1.0, 5P, 10P",
-        "Frequency: 50/60 Hz",
-        "Insulation: Class B/F/H"
-      ],
-      "applications": [
-        "Control Circuits",
-        "Metering & Protection",
-        "Power Quality Monitoring",
-        "Relay Operation",
-        "Instrumentation",
-        "Load Management"
-      ],
-      "industries": [
-        "Power Distribution",
-        "Manufacturing",
-        "Commercial Buildings",
-        "Data Centers",
-        "Renewable Energy",
-        "Substations"
-      ],
-      "features": [
-        "Precision Measurement",
-        "Low Core Losses",
-        "Thermal Protection",
-        "Terminal Blocks Included",
-        "Mounting Brackets",
-        "Epoxy Encapsulation",
-        "Burden Capacity",
-        "Short Circuit Withstand"
-      ],
-      "certifications": [
-        "IEC 61869",
-        "IS 2705",
-        "CE Certified",
-        "UL Listed",
-        "Bureau Veritas",
-        "Type Tested"
-      ],
-      "seo": {
-        "title": "Control Transformers, CT, PT - Current & Potential Transformers | Powerton Engineering",
-        "description": "Control transformers (1-5kVA), current transformers (CT), and potential transformers (PT) for industrial power distribution, metering, and protection applications.",
-        "keywords": "control transformer, current transformer, CT, potential transformer, PT, metering transformer, instrument transformer, 1kVA transformer, 3kVA transformer, 5kVA transformer"
-      }
-    },
     "valves-actuators": {
       "title": "Valves & Actuators",
       "shortDescription": "Essential valve solutions for industrial automation: control valves and solenoid valves",
@@ -944,6 +870,65 @@
         "keywords": "process analyzers, gas analyzers, liquid analyzers, chromatography, O2 analyzers, CO2 analyzers, process monitoring"
       }
     },
+    "instrument-transformers": {
+      "title": "Instrument Transformers",
+      "shortDescription": "Precision current and potential transformers for measurement and protection",
+      "fullDescription": "High-accuracy current transformers (CT) and potential transformers (PT) for precise measurement, metering, and protective relaying in industrial power systems with compliance to international standards.",
+      "parentCategoryTitle": "Instrumentation Accessories",
+      "keyBenefits": [
+        "Accurate Measurement & Metering",
+        "Electrical Isolation & Safety",
+        "Overload & Fault Protection",
+        "Industry Standard Ratios"
+      ],
+      "specifications": [
+        "CT Primary Current: 5A to 6000A",
+        "CT Secondary: 1A or 5A",
+        "PT Primary Voltage: 110V to 33kV",
+        "PT Secondary: 110V or 63.5V",
+        "Accuracy Class: 0.2, 0.5, 1.0, 3.0, 5P, 10P",
+        "Frequency: 50/60 Hz"
+      ],
+      "applications": [
+        "Power Distribution Systems",
+        "Energy Metering & Billing",
+        "Protective Relaying",
+        "Energy Management Systems",
+        "Load Monitoring",
+        "Power Quality Analysis"
+      ],
+      "industries": [
+        "Power Generation",
+        "Utilities & Substations",
+        "Industrial Plants",
+        "Commercial Buildings",
+        "Renewable Energy",
+        "Distribution Networks"
+      ],
+      "features": [
+        "High Accuracy",
+        "Wide Range of Ratios",
+        "Compact Design",
+        "Epoxy Resin Insulation",
+        "Terminal Block Connection",
+        "Burden Indication",
+        "Short-Time Rating",
+        "Temperature Stable"
+      ],
+      "certifications": [
+        "IEC 61869 Compliant",
+        "IEEE C57.13",
+        "IS 2705",
+        "CE Certified",
+        "Type Tested",
+        "KEMA Approved"
+      ],
+      "seo": {
+        "title": "Instrument Transformers - CT & PT Current Potential Transformers | Powerton Engineering",
+        "description": "Precision instrument transformers including current transformers (CT) and potential transformers (PT) for accurate measurement, metering, and protection in power distribution systems.",
+        "keywords": "current transformer, CT, potential transformer, PT, instrument transformer, metering CT, protection CT, voltage transformer, measurement transformer"
+      }
+    },
     "cables-wires": {
       "title": "Cables & Wires",
       "shortDescription": "Industrial cables and wires for power transmission and control applications",
@@ -1060,65 +1045,6 @@
         "title": "Electrical Connectors & Terminals - Terminal Blocks & Wire Connectors | Powerton Engineering",
         "description": "Electrical connectors and terminal blocks for industrial applications. DIN rail terminals, wire connectors, junction boxes for secure electrical connections.",
         "keywords": "electrical connectors, terminal blocks, wire connectors, DIN rail terminals, junction boxes, electrical terminals"
-      }
-    },
-    "contactors-relays": {
-      "title": "Contactors & Relays",
-      "shortDescription": "Power contactors, timer relays, voltage monitoring relays, and motor protection relays for industrial control",
-      "fullDescription": "Complete range of electromagnetic contactors, timing relays, voltage supervision relays, and digital motor protection devices for reliable switching and protection in industrial applications",
-      "parentCategoryTitle": "Electrical Accessories",
-      "keyBenefits": [
-        "Reliable Switching Operation",
-        "Extended Contact Life",
-        "Comprehensive Protection Features",
-        "Easy Installation & Maintenance"
-      ],
-      "specifications": [
-        "Contact Rating: 9A to 400A",
-        "Coil Voltage: 24V to 690V AC/DC",
-        "Switching Frequency: Up to 1200 cycles/hour",
-        "Mechanical Life: 10-30 million operations",
-        "Protection: IP20/IP40/IP54",
-        "Standards: IEC 60947-4-1, UL 60947"
-      ],
-      "applications": [
-        "Motor Control Circuits",
-        "Load Switching",
-        "Power Distribution",
-        "Heating Control",
-        "Lighting Systems",
-        "Safety Interlocks"
-      ],
-      "industries": [
-        "Manufacturing",
-        "Building Services",
-        "Process Industries",
-        "Infrastructure",
-        "Marine & Offshore",
-        "Transportation"
-      ],
-      "features": [
-        "AC/DC Coil Options",
-        "Auxiliary Contacts",
-        "Electronic Overload",
-        "Phase Monitoring",
-        "Under/Over Voltage Protection",
-        "Modular Design",
-        "DIN Rail Mounting",
-        "LED Status Indication"
-      ],
-      "certifications": [
-        "CE Marked",
-        "UL Approved",
-        "IEC Certified",
-        "ATEX Available",
-        "Marine Approved",
-        "Railway Certified"
-      ],
-      "seo": {
-        "title": "Industrial Contactors & Relays - Power Contactors, Timer, Voltage Protection | Powerton Engineering",
-        "description": "Power contactors, timer relays, voltage monitoring relays, and digital motor protection relays for industrial control. Reliable electromagnetic switching and protection devices.",
-        "keywords": "power contactors, timer relays, voltage monitoring relay, motor protection relay, electromagnetic contactors, control relays, industrial relays"
       }
     },
     "circuit-breakers-fuses": {
@@ -1355,6 +1281,183 @@
         "title": "Industrial Heating Elements - Immersion Heaters & Process Heating | Powerton Engineering",
         "description": "Industrial heating elements and thermal control equipment. Immersion heaters, band heaters, cartridge heaters for process heating applications.",
         "keywords": "industrial heaters, heating elements, immersion heaters, process heating, thermal control, industrial heating equipment"
+      }
+    },
+    "contactors-relays": {
+      "title": "Contactors & Relays",
+      "shortDescription": "Power contactors, timer relays, voltage monitoring relays, and motor protection relays for industrial control",
+      "fullDescription": "Complete range of electromagnetic contactors, timing relays, voltage supervision relays, and digital motor protection devices for reliable switching and protection in industrial applications",
+      "parentCategoryTitle": "Electrical Accessories",
+      "keyBenefits": [
+        "Reliable Switching Operation",
+        "Extended Contact Life",
+        "Comprehensive Protection Features",
+        "Easy Installation & Maintenance"
+      ],
+      "specifications": [
+        "Contact Rating: 9A to 400A",
+        "Coil Voltage: 24V to 690V AC/DC",
+        "Switching Frequency: Up to 1200 cycles/hour",
+        "Mechanical Life: 10-30 million operations",
+        "Protection: IP20/IP40/IP54",
+        "Standards: IEC 60947-4-1, UL 60947"
+      ],
+      "applications": [
+        "Motor Control Circuits",
+        "Load Switching",
+        "Power Distribution",
+        "Heating Control",
+        "Lighting Systems",
+        "Safety Interlocks"
+      ],
+      "industries": [
+        "Manufacturing",
+        "Building Services",
+        "Process Industries",
+        "Infrastructure",
+        "Marine & Offshore",
+        "Transportation"
+      ],
+      "features": [
+        "AC/DC Coil Options",
+        "Auxiliary Contacts",
+        "Electronic Overload",
+        "Phase Monitoring",
+        "Under/Over Voltage Protection",
+        "Modular Design",
+        "DIN Rail Mounting",
+        "LED Status Indication"
+      ],
+      "certifications": [
+        "CE Marked",
+        "UL Approved",
+        "IEC Certified",
+        "ATEX Available",
+        "Marine Approved",
+        "Railway Certified"
+      ],
+      "seo": {
+        "title": "Industrial Contactors & Relays - Power Contactors, Timer, Voltage Protection | Powerton Engineering",
+        "description": "Power contactors, timer relays, voltage monitoring relays, and digital motor protection relays for industrial control. Reliable electromagnetic switching and protection devices.",
+        "keywords": "power contactors, timer relays, voltage monitoring relay, motor protection relay, electromagnetic contactors, control relays, industrial relays"
+      }
+    },
+    "transformers-power-devices": {
+      "title": "Transformers & Power Devices",
+      "shortDescription": "Control transformers, current transformers (CT), and potential transformers (PT) for power distribution and metering",
+      "fullDescription": "Precision transformers including control transformers (1kVA-5kVA), current transformers for measurement and protection, and potential transformers for voltage monitoring in industrial power systems",
+      "parentCategoryTitle": "Electrical Accessories",
+      "keyBenefits": [
+        "Voltage Isolation & Conversion",
+        "Accurate Measurement",
+        "Equipment Protection",
+        "Compact Design"
+      ],
+      "specifications": [
+        "Control Transformers: 1kVA to 5kVA",
+        "CT Ratio: 5A to 3000A/5A",
+        "PT Ratio: 110V to 33kV",
+        "Accuracy Class: 0.5, 1.0, 5P, 10P",
+        "Frequency: 50/60 Hz",
+        "Insulation: Class B/F/H"
+      ],
+      "applications": [
+        "Control Circuits",
+        "Metering & Protection",
+        "Power Quality Monitoring",
+        "Relay Operation",
+        "Instrumentation",
+        "Load Management"
+      ],
+      "industries": [
+        "Power Distribution",
+        "Manufacturing",
+        "Commercial Buildings",
+        "Data Centers",
+        "Renewable Energy",
+        "Substations"
+      ],
+      "features": [
+        "Precision Measurement",
+        "Low Core Losses",
+        "Thermal Protection",
+        "Terminal Blocks Included",
+        "Mounting Brackets",
+        "Epoxy Encapsulation",
+        "Burden Capacity",
+        "Short Circuit Withstand"
+      ],
+      "certifications": [
+        "IEC 61869",
+        "IS 2705",
+        "CE Certified",
+        "UL Listed",
+        "Bureau Veritas",
+        "Type Tested"
+      ],
+      "seo": {
+        "title": "Control Transformers, CT, PT - Current & Potential Transformers | Powerton Engineering",
+        "description": "Control transformers (1-5kVA), current transformers (CT), and potential transformers (PT) for industrial power distribution, metering, and protection applications.",
+        "keywords": "control transformer, current transformer, CT, potential transformer, PT, metering transformer, instrument transformer, 1kVA transformer, 3kVA transformer, 5kVA transformer"
+      }
+    },
+    "led-lighting": {
+      "title": "LED Lighting",
+      "shortDescription": "Industrial LED lighting solutions for hazardous and general areas",
+      "fullDescription": "Flameproof and weatherproof LED lighting systems designed for safe operation in hazardous industrial environments including Zone 1, Zone 2, and general industrial areas with superior energy efficiency and extended service life.",
+      "parentCategoryTitle": "Electrical Accessories",
+      "keyBenefits": [
+        "Energy Efficient Operation",
+        "Extended Lifespan (50,000+ hours)",
+        "Minimal Maintenance Requirements",
+        "Safe for Hazardous Environments"
+      ],
+      "specifications": [
+        "Power Rating: 20W to 150W",
+        "Voltage: 100-277VAC / 12-48VDC",
+        "Luminous Efficacy: 100-140 lm/W",
+        "Color Temperature: 3000K-6500K",
+        "Protection: IP65/IP66/IP67",
+        "Ambient Temperature: -40°C to +60°C"
+      ],
+      "applications": [
+        "Oil & Gas Facilities",
+        "Chemical Plants",
+        "Mining Operations",
+        "Explosive Atmospheres",
+        "Offshore Platforms",
+        "Refineries"
+      ],
+      "industries": [
+        "Petrochemical",
+        "Mining",
+        "Pharmaceutical",
+        "Food Processing",
+        "Paint & Coating",
+        "Explosive Storage"
+      ],
+      "features": [
+        "Flameproof Construction",
+        "Weatherproof Design",
+        "High Luminous Output",
+        "Low Power Consumption",
+        "Instant Start",
+        "No UV Emission",
+        "Vibration Resistant",
+        "Emergency Backup Option"
+      ],
+      "certifications": [
+        "ATEX Certified",
+        "IECEx Approved",
+        "UL Listed",
+        "CE Marked",
+        "Zone 1 & 2 Rated",
+        "Class I Div 1 & 2"
+      ],
+      "seo": {
+        "title": "Industrial LED Lighting - Flameproof & Weatherproof Hazardous Area LED | Powerton Engineering",
+        "description": "ATEX & IECEx certified flameproof and weatherproof LED lighting for hazardous industrial areas. Energy-efficient explosion-proof LED lights for oil & gas, mining, and chemical plants.",
+        "keywords": "flameproof LED lighting, explosion proof LED, hazardous area lighting, ATEX LED lights, IECEx LED, weatherproof industrial LED, zone 1 LED, zone 2 LED"
       }
     },
     "solar-panels": {
@@ -1709,6 +1812,65 @@
         "title": "Human Machine Interface (HMI) - Industrial Touchscreen Panels | Powerton Engineering",
         "description": "Industrial HMI panels and touchscreen interfaces for process control and automation. Multi-protocol support with real-time monitoring and control.",
         "keywords": "HMI panels, human machine interface, touchscreen panels, operator interface, industrial displays, process control HMI"
+      }
+    },
+    "motor-controllers-drives": {
+      "title": "Motor Controllers & Drives",
+      "shortDescription": "Variable frequency drives, soft starters, and DOL starters for efficient motor control and protection",
+      "fullDescription": "Comprehensive range of motor control solutions including VFDs for precise speed control, soft starters for reduced mechanical stress, and DOL starters for simple reliable operation",
+      "parentCategoryTitle": "Automation & Control Systems",
+      "keyBenefits": [
+        "Energy Savings & Efficiency",
+        "Extended Equipment Life",
+        "Precise Speed Control",
+        "Reduced Mechanical Stress"
+      ],
+      "specifications": [
+        "Power Range: 0.37kW to 400kW",
+        "Voltage: 230V to 690V 3-phase",
+        "Control: V/F, Vector, DTC",
+        "Communication: Modbus, Profibus, Ethernet",
+        "Protection: IP20/IP54/IP65",
+        "Efficiency: IE3/IE4 Motors"
+      ],
+      "applications": [
+        "Pumps & Fans",
+        "Conveyors & Material Handling",
+        "Compressors",
+        "HVAC Systems",
+        "Cranes & Hoists",
+        "Process Control"
+      ],
+      "industries": [
+        "Manufacturing",
+        "Water Treatment",
+        "Mining",
+        "Oil & Gas",
+        "Food Processing",
+        "Building Automation"
+      ],
+      "features": [
+        "Built-in Protection",
+        "Energy Monitoring",
+        "Multiple Control Modes",
+        "Remote Operation",
+        "Programmable Logic",
+        "Fault Diagnostics",
+        "Bypass Options",
+        "Harmonic Filtering"
+      ],
+      "certifications": [
+        "CE Certified",
+        "UL Listed",
+        "IEC 61800",
+        "RoHS Compliant",
+        "ISO 9001",
+        "NEMA Rated"
+      ],
+      "seo": {
+        "title": "VFD, Soft Starters, DOL Starters - Motor Control Solutions | Powerton Engineering",
+        "description": "Variable frequency drives (VFD), soft starters, and direct-on-line (DOL) starters for industrial motor control. Energy-efficient solutions for pumps, fans, conveyors, and process automation.",
+        "keywords": "VFD, variable frequency drive, soft starter, DOL starter, motor controller, speed control, energy savings, motor protection"
       }
     },
     "surge-protectors": {
@@ -2538,65 +2700,6 @@
         "keywords": "lifting equipment, hoists, cranes, rigging equipment, material handling, chain hoists, industrial lifting"
       }
     },
-    "motor-controllers-drives": {
-      "title": "Motor Controllers & Drives",
-      "shortDescription": "Variable frequency drives, soft starters, and DOL starters for efficient motor control and protection",
-      "fullDescription": "Comprehensive range of motor control solutions including VFDs for precise speed control, soft starters for reduced mechanical stress, and DOL starters for simple reliable operation",
-      "parentCategoryTitle": "Automation & Control Systems",
-      "keyBenefits": [
-        "Energy Savings & Efficiency",
-        "Extended Equipment Life",
-        "Precise Speed Control",
-        "Reduced Mechanical Stress"
-      ],
-      "specifications": [
-        "Power Range: 0.37kW to 400kW",
-        "Voltage: 230V to 690V 3-phase",
-        "Control: V/F, Vector, DTC",
-        "Communication: Modbus, Profibus, Ethernet",
-        "Protection: IP20/IP54/IP65",
-        "Efficiency: IE3/IE4 Motors"
-      ],
-      "applications": [
-        "Pumps & Fans",
-        "Conveyors & Material Handling",
-        "Compressors",
-        "HVAC Systems",
-        "Cranes & Hoists",
-        "Process Control"
-      ],
-      "industries": [
-        "Manufacturing",
-        "Water Treatment",
-        "Mining",
-        "Oil & Gas",
-        "Food Processing",
-        "Building Automation"
-      ],
-      "features": [
-        "Built-in Protection",
-        "Energy Monitoring",
-        "Multiple Control Modes",
-        "Remote Operation",
-        "Programmable Logic",
-        "Fault Diagnostics",
-        "Bypass Options",
-        "Harmonic Filtering"
-      ],
-      "certifications": [
-        "CE Certified",
-        "UL Listed",
-        "IEC 61800",
-        "RoHS Compliant",
-        "ISO 9001",
-        "NEMA Rated"
-      ],
-      "seo": {
-        "title": "VFD, Soft Starters, DOL Starters - Motor Control Solutions | Powerton Engineering",
-        "description": "Variable frequency drives (VFD), soft starters, and direct-on-line (DOL) starters for industrial motor control. Energy-efficient solutions for pumps, fans, conveyors, and process automation.",
-        "keywords": "VFD, variable frequency drive, soft starter, DOL starter, motor controller, speed control, energy savings, motor protection"
-      }
-    },
     "multimeters": {
       "title": "Multimeters & Clamp Meters",
       "shortDescription": "Digital multimeters and clamp meters for electrical measurements",
@@ -2654,65 +2757,6 @@
         "title": "Digital Multimeters & Clamp Meters - Professional Electrical Testing | Powerton Engineering",
         "description": "Professional digital multimeters and clamp meters for electrical testing and measurements. True RMS meters with CAT III/IV safety ratings.",
         "keywords": "digital multimeters, clamp meters, electrical testing, voltage meters, current meters, resistance meters, electrical measurements"
-      }
-    },
-    "panel-meters-indicators": {
-      "title": "Panel Meters & Indicators",
-      "shortDescription": "Analog and digital panel meters for voltage, current, power factor, and multi-parameter measurement",
-      "fullDescription": "Comprehensive range of panel-mounted meters including analog ammeters and voltmeters, digital meters, power factor meters, and advanced multi-function meters for comprehensive power monitoring",
-      "parentCategoryTitle": "Industrial & Measuring Tools",
-      "keyBenefits": [
-        "Real-Time Monitoring",
-        "High Accuracy Display",
-        "Easy Installation",
-        "Cost-Effective Measurement"
-      ],
-      "specifications": [
-        "Display: Analog/Digital LED/LCD",
-        "Accuracy: ±0.5% to ±2% FS",
-        "Input: 0-600V AC/DC, 0-999A",
-        "Mounting: 48x48mm to 96x96mm",
-        "Power Supply: 90-270V AC, 20-270V DC",
-        "Communication: Modbus RTU/TCP, RS485"
-      ],
-      "applications": [
-        "Switchboard Monitoring",
-        "Generator Sets",
-        "UPS Systems",
-        "Motor Control Panels",
-        "Distribution Boards",
-        "Energy Management"
-      ],
-      "industries": [
-        "Power Generation",
-        "Manufacturing",
-        "Commercial Buildings",
-        "Infrastructure",
-        "Renewable Energy",
-        "Marine Applications"
-      ],
-      "features": [
-        "Clear Visual Display",
-        "Peak/Min/Max Recording",
-        "Alarm Outputs",
-        "Data Logging",
-        "Harmonic Analysis",
-        "THD Measurement",
-        "Energy Metering",
-        "Communication Protocols"
-      ],
-      "certifications": [
-        "CE Marked",
-        "IEC 61010",
-        "UL Listed",
-        "IS 13703",
-        "RoHS Compliant",
-        "MID Approved"
-      ],
-      "seo": {
-        "title": "Panel Meters - Analog, Digital, Multifunction Power Meters | Powerton Engineering",
-        "description": "Panel meters including analog ammeters/voltmeters, digital meters, power factor meters, and multifunction meters for industrial power monitoring and measurement.",
-        "keywords": "panel meters, analog ammeter, analog voltmeter, digital meters, power factor meter, multifunction meter, energy meter, panel mount meter"
       }
     },
     "power-quality-analyzers": {
@@ -2831,6 +2875,65 @@
         "title": "Calibration Equipment - Industrial Testing & Calibration Instruments | Powerton Engineering",
         "description": "Professional calibration and testing equipment for industrial applications. NIST traceable calibrators for pressure, temperature, and electrical instruments.",
         "keywords": "calibration equipment, testing instruments, calibrators, instrument calibration, NIST traceable, process calibration, field calibration"
+      }
+    },
+    "panel-meters-indicators": {
+      "title": "Panel Meters & Indicators",
+      "shortDescription": "Analog and digital panel meters for voltage, current, power factor, and multi-parameter measurement",
+      "fullDescription": "Comprehensive range of panel-mounted meters including analog ammeters and voltmeters, digital meters, power factor meters, and advanced multi-function meters for comprehensive power monitoring",
+      "parentCategoryTitle": "Industrial & Measuring Tools",
+      "keyBenefits": [
+        "Real-Time Monitoring",
+        "High Accuracy Display",
+        "Easy Installation",
+        "Cost-Effective Measurement"
+      ],
+      "specifications": [
+        "Display: Analog/Digital LED/LCD",
+        "Accuracy: ±0.5% to ±2% FS",
+        "Input: 0-600V AC/DC, 0-999A",
+        "Mounting: 48x48mm to 96x96mm",
+        "Power Supply: 90-270V AC, 20-270V DC",
+        "Communication: Modbus RTU/TCP, RS485"
+      ],
+      "applications": [
+        "Switchboard Monitoring",
+        "Generator Sets",
+        "UPS Systems",
+        "Motor Control Panels",
+        "Distribution Boards",
+        "Energy Management"
+      ],
+      "industries": [
+        "Power Generation",
+        "Manufacturing",
+        "Commercial Buildings",
+        "Infrastructure",
+        "Renewable Energy",
+        "Marine Applications"
+      ],
+      "features": [
+        "Clear Visual Display",
+        "Peak/Min/Max Recording",
+        "Alarm Outputs",
+        "Data Logging",
+        "Harmonic Analysis",
+        "THD Measurement",
+        "Energy Metering",
+        "Communication Protocols"
+      ],
+      "certifications": [
+        "CE Marked",
+        "IEC 61010",
+        "UL Listed",
+        "IS 13703",
+        "RoHS Compliant",
+        "MID Approved"
+      ],
+      "seo": {
+        "title": "Panel Meters - Analog, Digital, Multifunction Power Meters | Powerton Engineering",
+        "description": "Panel meters including analog ammeters/voltmeters, digital meters, power factor meters, and multifunction meters for industrial power monitoring and measurement.",
+        "keywords": "panel meters, analog ammeter, analog voltmeter, digital meters, power factor meter, multifunction meter, energy meter, panel mount meter"
       }
     },
     "bldc-cooler-exhaust-motor": {
@@ -3067,124 +3170,6 @@
         "title": "BLDC Table & Wall Fan Motors - Energy Efficient Fan Motors | Powerton Engineering",
         "description": "Compact BLDC motors for table and wall fans. Energy-efficient brushless DC motors with silent operation and long service life.",
         "keywords": "BLDC fan motors, table fan motors, wall fan motors, energy efficient motors, brushless DC motors, fan motors"
-      }
-    },
-    "led-lighting": {
-      "title": "LED Lighting",
-      "shortDescription": "Industrial LED lighting solutions for hazardous and general areas",
-      "fullDescription": "Flameproof and weatherproof LED lighting systems designed for safe operation in hazardous industrial environments including Zone 1, Zone 2, and general industrial areas with superior energy efficiency and extended service life.",
-      "parentCategoryTitle": "Electrical Accessories",
-      "keyBenefits": [
-        "Energy Efficient Operation",
-        "Extended Lifespan (50,000+ hours)",
-        "Minimal Maintenance Requirements",
-        "Safe for Hazardous Environments"
-      ],
-      "specifications": [
-        "Power Rating: 20W to 150W",
-        "Voltage: 100-277VAC / 12-48VDC",
-        "Luminous Efficacy: 100-140 lm/W",
-        "Color Temperature: 3000K-6500K",
-        "Protection: IP65/IP66/IP67",
-        "Ambient Temperature: -40°C to +60°C"
-      ],
-      "applications": [
-        "Oil & Gas Facilities",
-        "Chemical Plants",
-        "Mining Operations",
-        "Explosive Atmospheres",
-        "Offshore Platforms",
-        "Refineries"
-      ],
-      "industries": [
-        "Petrochemical",
-        "Mining",
-        "Pharmaceutical",
-        "Food Processing",
-        "Paint & Coating",
-        "Explosive Storage"
-      ],
-      "features": [
-        "Flameproof Construction",
-        "Weatherproof Design",
-        "High Luminous Output",
-        "Low Power Consumption",
-        "Instant Start",
-        "No UV Emission",
-        "Vibration Resistant",
-        "Emergency Backup Option"
-      ],
-      "certifications": [
-        "ATEX Certified",
-        "IECEx Approved",
-        "UL Listed",
-        "CE Marked",
-        "Zone 1 & 2 Rated",
-        "Class I Div 1 & 2"
-      ],
-      "seo": {
-        "title": "Industrial LED Lighting - Flameproof & Weatherproof Hazardous Area LED | Powerton Engineering",
-        "description": "ATEX & IECEx certified flameproof and weatherproof LED lighting for hazardous industrial areas. Energy-efficient explosion-proof LED lights for oil & gas, mining, and chemical plants.",
-        "keywords": "flameproof LED lighting, explosion proof LED, hazardous area lighting, ATEX LED lights, IECEx LED, weatherproof industrial LED, zone 1 LED, zone 2 LED"
-      }
-    },
-    "instrument-transformers": {
-      "title": "Instrument Transformers",
-      "shortDescription": "Precision current and potential transformers for measurement and protection",
-      "fullDescription": "High-accuracy current transformers (CT) and potential transformers (PT) for precise measurement, metering, and protective relaying in industrial power systems with compliance to international standards.",
-      "parentCategoryTitle": "Instrumentation Accessories",
-      "keyBenefits": [
-        "Accurate Measurement & Metering",
-        "Electrical Isolation & Safety",
-        "Overload & Fault Protection",
-        "Industry Standard Ratios"
-      ],
-      "specifications": [
-        "CT Primary Current: 5A to 6000A",
-        "CT Secondary: 1A or 5A",
-        "PT Primary Voltage: 110V to 33kV",
-        "PT Secondary: 110V or 63.5V",
-        "Accuracy Class: 0.2, 0.5, 1.0, 3.0, 5P, 10P",
-        "Frequency: 50/60 Hz"
-      ],
-      "applications": [
-        "Power Distribution Systems",
-        "Energy Metering & Billing",
-        "Protective Relaying",
-        "Energy Management Systems",
-        "Load Monitoring",
-        "Power Quality Analysis"
-      ],
-      "industries": [
-        "Power Generation",
-        "Utilities & Substations",
-        "Industrial Plants",
-        "Commercial Buildings",
-        "Renewable Energy",
-        "Distribution Networks"
-      ],
-      "features": [
-        "High Accuracy",
-        "Wide Range of Ratios",
-        "Compact Design",
-        "Epoxy Resin Insulation",
-        "Terminal Block Connection",
-        "Burden Indication",
-        "Short-Time Rating",
-        "Temperature Stable"
-      ],
-      "certifications": [
-        "IEC 61869 Compliant",
-        "IEEE C57.13",
-        "IS 2705",
-        "CE Certified",
-        "Type Tested",
-        "KEMA Approved"
-      ],
-      "seo": {
-        "title": "Instrument Transformers - CT & PT Current Potential Transformers | Powerton Engineering",
-        "description": "Precision instrument transformers including current transformers (CT) and potential transformers (PT) for accurate measurement, metering, and protection in power distribution systems.",
-        "keywords": "current transformer, CT, potential transformer, PT, instrument transformer, metering CT, protection CT, voltage transformer, measurement transformer"
       }
     }
   },

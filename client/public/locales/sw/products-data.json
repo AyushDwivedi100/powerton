@@ -875,6 +875,65 @@
         "keywords": "vichambuzi vya mchakato, vichambuzi vya gesi, vichambuzi vya vimiminika, kromatografia, vichambuzi vya O2, vichambuzi vya CO2, ufuatiliaji wa mchakato"
       }
     },
+    "instrument-transformers": {
+      "title": "Transfoma za Ala",
+      "shortDescription": "Transfoma za sasa na za uwezo kwa ajili ya kupima na ulinzi",
+      "fullDescription": "Transfoma za sasa (CT) na za uwezo (PT) za usahihi wa hali ya juu kwa kipimo sahihi, upimaji, na upelekaji wa ulinzi katika mifumo ya nguvu ya viwandani kwa kufuata viwango vya kimataifa.",
+      "parentCategoryTitle": "Vifaa vya Ala",
+      "keyBenefits": [
+        "Upimaji na Upimaji Sahihi",
+        "Kutengwa kwa Umeme na Usalama",
+        "Upakiaji Mwingi na Ulinzi wa Hitilafu",
+        "Viwango vya Sekta Sanifu"
+      ],
+      "specifications": [
+        "Mkondo wa Msingi wa CT: 5A hadi 6000A",
+        "Sekondari ya CT: 1A au 5A",
+        "Volteji ya Msingi ya PT: 110V hadi 33kV",
+        "Sekondari ya PT: 110V au 63.5V",
+        "Darasa la Usahihi: 0.2, 0.5, 1.0, 3.0, 5P, 10P",
+        "Marudio: 50/60 Hz"
+      ],
+      "applications": [
+        "Mifumo ya Usambazaji Nguvu",
+        "Upimaji wa Nishati na Utumaji Ankara",
+        "Upelekaji wa Ulinzi",
+        "Mifumo ya Usimamizi wa Nishati",
+        "Ufuatiliaji wa Mzigo",
+        "Uchambuzi wa Ubora wa Nguvu"
+      ],
+      "industries": [
+        "Uzaji wa Nguvu",
+        "Huduma na Vituo Vidogo vya Umeme",
+        "Viwanda vya Viwandani",
+        "Majengo ya Biashara",
+        "Nishati Mbadala",
+        "Mitandao ya Usambazaji"
+      ],
+      "features": [
+        "Usahihi wa Juu",
+        "Kiwango Kikubwa cha Uwiano",
+        "Ubunifu Kompakt",
+        "Insulation ya Resin ya Epoksi",
+        "Muunganisho wa Kizuizi cha Terminal",
+        "Dalili ya Mzigo",
+        "Ukadiriaji wa Muda Mfupi",
+        "Imara kwa Halijoto"
+      ],
+      "certifications": [
+        "Inatii IEC 61869",
+        "IEEE C57.13",
+        "IS 2705",
+        "Imethibitishwa na CE",
+        "Imejaribiwa Aina",
+        "Imeidhinishwa na KEMA"
+      ],
+      "seo": {
+        "title": "Transfoma za Ala - CT & PT Transfoma za Uwezo wa Sasa | Powerton Engineering",
+        "description": "Transfoma za ala za usahihi ikiwa ni pamoja na transfoma za sasa (CT) na transfoma za uwezo (PT) kwa kipimo sahihi, upimaji, na ulinzi katika mifumo ya usambazaji nguvu.",
+        "keywords": "transfoma ya sasa, CT, transfoma ya uwezo, PT, transfoma ya ala, CT ya upimaji, CT ya ulinzi, transfoma ya volteji, transfoma ya kipimo"
+      }
+    },
     "cables-wires": {
       "title": "Kebo na Waya",
       "shortDescription": "Kebo na waya za viwandani kwa usafirishaji wa nguvu na matumizi ya udhibiti",
@@ -1227,6 +1286,183 @@
         "title": "Vipengele vya Kupokanzwa vya Viwandani - Hita za Kuzamisha na Kupokanzwa Mchakato | Powerton Engineering",
         "description": "Vipengele vya kupokanzwa vya viwandani na vifaa vya kudhibiti joto. Hita za kuzamisha, hita za bendi, hita za cartridge kwa matumizi ya kupokanzwa mchakato.",
         "keywords": "hita za viwandani, vipengele vya kupokanzwa, hita za kuzamisha, kupokanzwa mchakato, udhibiti wa joto, vifaa vya kupokanzwa vya viwandani"
+      }
+    },
+    "contactors-relays": {
+      "title": "Viwasilishi na Relays",
+      "shortDescription": "Viwasilishi vya nguvu, relays za vipima muda, relays za ufuatiliaji wa voltage, na relays za ulinzi wa motor kwa udhibiti wa viwandani",
+      "fullDescription": "Aina kamili za viwasilishi vya sumaku-umeme, relays za muda, relays za usimamizi wa voltage, na vifaa vya ulinzi wa motor dijitali kwa ubadilishaji na ulinzi wa kuaminika katika matumizi ya viwandani",
+      "parentCategoryTitle": "Vifaa vya Umeme",
+      "keyBenefits": [
+        "Uendeshaji wa Kubadilisha wa Kuaminika",
+        "Muda wa Maisha wa Mawasiliano Uliorefushwa",
+        "Vipengele Kamili vya Ulinzi",
+        "Ufungaji na Matengenezo Rahisi"
+      ],
+      "specifications": [
+        "Ukadiriaji wa Mawasiliano: 9A hadi 400A",
+        "Voltage ya Koili: 24V hadi 690V AC/DC",
+        "Mzunguko wa Kubadilisha: Hadi mizunguko 1200/saa",
+        "Maisha ya Mitambo: Uendeshaji milioni 10-30",
+        "Ulinzi: IP20/IP40/IP54",
+        "Viwango: IEC 60947-4-1, UL 60947"
+      ],
+      "applications": [
+        "Saketi za Udhibiti wa Motor",
+        "Kubadilisha Mzigo",
+        "Usambazaji wa Nguvu",
+        "Udhibiti wa Kupokanzwa",
+        "Mifumo ya Taa",
+        "Vizuizi vya Usalama"
+      ],
+      "industries": [
+        "Utengenezaji",
+        "Huduma za Ujenzi",
+        "Viwanda vya Mchakato",
+        "Miundombinu",
+        "Bahari na Pwani",
+        "Usafirishaji"
+      ],
+      "features": [
+        "Chaguzi za Koili za AC/DC",
+        "Mawasiliano Saidizi",
+        "Upakiaji wa Kielektroniki",
+        "Ufuatiliaji wa Awamu",
+        "Ulinzi wa Voltage ya Chini/Juu",
+        "Muundo wa Msimu",
+        "Upachikaji wa Reli ya DIN",
+        "Dalili ya Hali ya LED"
+      ],
+      "certifications": [
+        "Imeandikwa CE",
+        "Imeidhinishwa na UL",
+        "Imethibitishwa na IEC",
+        "ATEX Inapatikana",
+        "Imeidhinishwa na Marine",
+        "Imethibitishwa na Reli"
+      ],
+      "seo": {
+        "title": "Viwasilishi na Relays za Viwandani - Viwasilishi vya Nguvu, Kipima Muda, Ulinzi wa Voltage | Powerton Engineering",
+        "description": "Viwasilishi vya nguvu, relays za vipima muda, relays za ufuatiliaji wa voltage, na relays za ulinzi wa motor dijitali kwa udhibiti wa viwandani. Vifaa vya kubadilisha na ulinzi vya sumaku-umeme vya kuaminika.",
+        "keywords": "viwasilishi vya nguvu, relays za vipima muda, relay ya ufuatiliaji wa voltage, relay ya ulinzi wa motor, viwasilishi vya sumaku-umeme, relays za udhibiti, relays za viwandani"
+      }
+    },
+    "transformers-power-devices": {
+      "title": "Transfoma na Vifaa vya Nguvu",
+      "shortDescription": "Transfoma za udhibiti, transfoma za sasa (CT), na transfoma za uwezo (PT) kwa usambazaji wa nguvu na upimaji",
+      "fullDescription": "Transfoma za usahihi ikiwa ni pamoja na transfoma za udhibiti (1kVA-5kVA), transfoma za sasa kwa ajili ya kupima na ulinzi, na transfoma za uwezo kwa ajili ya ufuatiliaji wa voltage katika mifumo ya nguvu ya viwandani",
+      "parentCategoryTitle": "Vifaa vya Umeme",
+      "keyBenefits": [
+        "Kutengwa na Ubadilishaji wa Voltage",
+        "Upimaji Sahihi",
+        "Ulinzi wa Vifaa",
+        "Ubunifu thabiti"
+      ],
+      "specifications": [
+        "Transfoma za Udhibiti: 1kVA hadi 5kVA",
+        "Uwiano wa CT: 5A hadi 3000A/5A",
+        "Uwiano wa PT: 110V hadi 33kV",
+        "Darasa la Usahihi: 0.5, 1.0, 5P, 10P",
+        "Marudio: 50/60 Hz",
+        "Insulation: Darasa B/F/H"
+      ],
+      "applications": [
+        "Saketi za Udhibiti",
+        "Upimaji na Ulinzi",
+        "Ufuatiliaji wa Ubora wa Nguvu",
+        "Uendeshaji wa Relay",
+        "Vifaa vya Ala",
+        "Usimamizi wa Mzigo"
+      ],
+      "industries": [
+        "Usambazaji wa Nguvu",
+        "Utengenezaji",
+        "Majengo ya Biashara",
+        "Vituo vya Data",
+        "Nishati Mbadala",
+        "Vituo Vidogo vya Umeme"
+      ],
+      "features": [
+        "Upimaji wa Usahihi",
+        "Hasara Ndogo za Msingi",
+        "Ulinzi wa Joto",
+        "Vitalu vya Terminal Vimejumuishwa",
+        "Mabano ya Kupachika",
+        "Utiwaji wa Epoksi",
+        "Uwezo wa Mzigo",
+        "Kuhimili Mzunguko Mfupi"
+      ],
+      "certifications": [
+        "IEC 61869",
+        "IS 2705",
+        "Imethibitishwa na CE",
+        "Imeorodheshwa na UL",
+        "Ofisi ya Veritas",
+        "Aina Iliyojaribiwa"
+      ],
+      "seo": {
+        "title": "Transfoma za Udhibiti, CT, PT - Transfoma za Sasa na Uwezo | Powerton Engineering",
+        "description": "Transfoma za udhibiti (1-5kVA), transfoma za sasa (CT), na transfoma za uwezo (PT) kwa usambazaji wa nguvu za viwandani, upimaji, na matumizi ya ulinzi.",
+        "keywords": "transfoma ya udhibiti, transfoma ya sasa, CT, transfoma ya uwezo, PT, transfoma ya upimaji, transfoma ya ala, transfoma ya 1kVA, transfoma ya 3kVA, transfoma ya 5kVA"
+      }
+    },
+    "led-lighting": {
+      "title": "Taa za LED",
+      "shortDescription": "Suluhisho za taa za LED za viwandani kwa maeneo hatarishi na ya jumla",
+      "fullDescription": "Mifumo ya taa ya LED isiyoshika moto na isiyopitisha hali ya hewa iliyoundwa kwa ajili ya uendeshaji salama katika mazingira hatarishi ya viwandani ikiwa ni pamoja na Eneo la 1, Eneo la 2, na maeneo ya jumla ya viwandani yenye ufanisi bora wa nishati na muda mrefu wa huduma.",
+      "parentCategoryTitle": "Vifaa vya Umeme",
+      "keyBenefits": [
+        "Uendeshaji Unaotumia Nishati",
+        "Muda wa Maisha Uliorefushwa (saa 50,000+)",
+        "Mahitaji Madogo ya Matengenezo",
+        "Salama kwa Mazingira Hatarishi"
+      ],
+      "specifications": [
+        "Ukadiriaji wa Nguvu: 20W hadi 150W",
+        "Voltage: 100-277VAC / 12-48VDC",
+        "Ufanisi wa Mwanga: 100-140 lm/W",
+        "Halijoto ya Rangi: 3000K-6500K",
+        "Ulinzi: IP65/IP66/IP67",
+        "Halijoto ya Mazingira: -40°C hadi +60°C"
+      ],
+      "applications": [
+        "Vituo vya Mafuta na Gesi",
+        "Mitambo ya Kemikali",
+        "Shughuli za Uchimbaji Madini",
+        "Mazingira ya Mlipuko",
+        "Majukwaa ya Pwani",
+        "Usafishaji"
+      ],
+      "industries": [
+        "Petrochemical",
+        "Uchimbaji Madini",
+        "Dawa",
+        "Usindikaji wa Chakula",
+        "Rangi na Upakaji",
+        "Uhifadhi wa Mlipuko"
+      ],
+      "features": [
+        "Ujenzi Usioshika Moto",
+        "Muundo Usiopitisha Hali ya Hewa",
+        "Pato la Juu la Mwanga",
+        "Matumizi Madogo ya Nguvu",
+        "Anzisha Mara Moja",
+        "Hakuna Utoaji wa UV",
+        "Inastahimili Mitetemo",
+        "Chaguo la Hifadhi Nakala ya Dharura"
+      ],
+      "certifications": [
+        "Imethibitishwa na ATEX",
+        "Imeidhinishwa na IECEx",
+        "Imeorodheshwa na UL",
+        "Imeandikwa CE",
+        "Iliyokadiriwa Eneo la 1 & 2",
+        "Darasa la I Div 1 & 2"
+      ],
+      "seo": {
+        "title": "Taa za LED za Viwandani - LED za Eneo Hatarishi Isiyoshika Moto na Isiyopitisha Hali ya Hewa | Powerton Engineering",
+        "description": "Taa za LED zilizothibitishwa na ATEX & IECEx zisizoshika moto na zisizopitisha hali ya hewa kwa maeneo hatarishi ya viwandani. Taa za LED zinazotumia nishati na zisizo na mlipuko kwa ajili ya mafuta na gesi, uchimbaji madini, na mitambo ya kemikali.",
+        "keywords": "taa za LED zisizoshika moto, LED isiyothibitisha mlipuko, taa za eneo hatarishi, taa za LED za ATEX, LED za IECEx, LED za viwandani zisizopitisha hali ya hewa, LED ya eneo la 1, LED ya eneo la 2"
       }
     },
     "solar-panels": {
@@ -1583,6 +1819,65 @@
         "keywords": "paneli za HMI, kiolesura cha mashine ya binadamu, paneli za skrini ya kugusa, kiolesura cha opereta, maonyesho ya viwandani, HMI ya udhibiti wa mchakato"
       }
     },
+    "motor-controllers-drives": {
+      "title": "Vidhibiti na Viendeshi vya Motor",
+      "shortDescription": "Viendeshi vya masafa tofauti, viashiria laini, na viashiria vya DOL kwa udhibiti na ulinzi bora wa motor",
+      "fullDescription": "Suluhisho kamili za udhibiti wa motor ikiwa ni pamoja na VFDs kwa udhibiti sahihi wa kasi, viashiria laini kwa kupunguza msongo wa mitambo, na viashiria vya DOL kwa uendeshaji rahisi wa kuaminika",
+      "parentCategoryTitle": "Mifumo ya Kiotomatiki na Udhibiti",
+      "keyBenefits": [
+        "Akiba ya Nishati na Ufanisi",
+        "Maisha Marefu ya Vifaa",
+        "Udhibiti Sahihi wa Kasi",
+        "Kupunguza Msongo wa Mitambo"
+      ],
+      "specifications": [
+        "Kiwango cha Nguvu: 0.37kW hadi 400kW",
+        "Voltage: 230V hadi 690V awamu 3",
+        "Udhibiti: V/F, Vector, DTC",
+        "Mawasiliano: Modbus, Profibus, Ethernet",
+        "Ulinzi: IP20/IP54/IP65",
+        "Ufanisi: Motors za IE3/IE4"
+      ],
+      "applications": [
+        "Pampu na Feni",
+        "Vibeba na Ushughulikiaji wa Nyenzo",
+        "Vipresi",
+        "Mifumo ya HVAC",
+        "Kreni na Hoisti",
+        "Udhibiti wa Mchakato"
+      ],
+      "industries": [
+        "Utengenezaji",
+        "Usindikaji wa Maji",
+        "Uchimbaji Madini",
+        "Mafuta na Gesi",
+        "Usindikaji wa Chakula",
+        "Uotomatiki wa Jengo"
+      ],
+      "features": [
+        "Ulinzi Uliojengwa Ndani",
+        "Ufuatiliaji wa Nishati",
+        "Njia Nyingi za Udhibiti",
+        "Uendeshaji wa Mbali",
+        "Mantiki Inayoweza Kupangwa",
+        "Utambuzi wa Hitilafu",
+        "Chaguzi za Bypass",
+        "Uchujaji wa Harmoniki"
+      ],
+      "certifications": [
+        "Imethibitishwa na CE",
+        "Imeorodheshwa na UL",
+        "IEC 61800",
+        "Inatii RoHS",
+        "ISO 9001",
+        "Imekadiriwa NEMA"
+      ],
+      "seo": {
+        "title": "VFD, Viashiria Laini, Viashiria vya DOL - Suluhisho za Udhibiti wa Motor | Powerton Engineering",
+        "description": "Viendeshi vya masafa tofauti (VFD), viashiria laini, na viashiria vya moja kwa moja (DOL) kwa udhibiti wa motor wa viwandani. Suluhisho bora za nishati kwa pampu, feni, vibeba, na uotomatiki wa mchakato.",
+        "keywords": "VFD, kiendeshi cha masafa tofauti, kiashiria laini, kiashiria cha DOL, kidhibiti cha motor, udhibiti wa kasi, akiba ya nishati, ulinzi wa motor"
+      }
+    },
     "surge-protectors": {
       "title": "Vilinda Mawimbi",
       "shortDescription": "Vifaa vya kulinda mawimbi ya viwandani kwa ulinzi wa mfumo wa umeme",
@@ -1876,6 +2171,66 @@
         "title": "Vifaa vya Usalama vya Viwandani - PPE & Ulinzi wa Kuanguka | Powerton Engineering",
         "description": "Vifaa vya usalama vya viwandani ikiwa ni pamoja na PPE, mifumo ya ulinzi wa kuanguka, na vifaa vya kugundua gesi. Suluhisho za usalama zinazokubaliana na OSHA kwa ulinzi wa mahali pa kazi.",
         "keywords": "vifaa vya usalama, PPE, vifaa vya ulinzi binafsi, ulinzi wa kuanguka, ugunduzi wa gesi, usalama wa viwandani, usalama wa mahali pa kazi"
+      }
+    },
+    "protection-relays": {
+      "title": "Relays za Ulinzi",
+      "shortDescription": "Relays za hali ya juu za ulinzi kwa usalama wa vifaa vya umeme na ugunduzi wa hitilafu",
+      "fullDescription": "Aina kamili za relays za ulinzi ikiwa ni pamoja na overcurrent, hitilafu ya ardhi, ulinzi wa motor, na relays za ulinzi tofauti kwa usalama wa umeme. Relays za hali ya juu zenye msingi wa microprocessor na mipangilio inayoweza kusanidiwa na uwezo wa ufuatiliaji wa mbali kwa ulinzi wa vifaa vya kuaminika.",
+      "parentCategoryTitle": "Vifaa vya Usalama na Kinga",
+      "keyBenefits": [
+        "Ulinzi wa Vifaa",
+        "Ugunduzi na Kutengwa kwa Hitilafu",
+        "Kazi ya Safari Kiotomatiki",
+        "Mipangilio Inayoweza Kusanidiwa",
+        "Uwezo wa Ufuatiliaji wa Mbali"
+      ],
+      "specifications": [
+        "Voltage ya Uendeshaji: 110V hadi 440V AC/DC",
+        "Kiwango cha Sasa: 0.1A hadi 6300A",
+        "Muda wa Safari: <50ms hadi 10s",
+        "Kazi za Ulinzi: IDMT, Muda Maalum, Papo hapo",
+        "Mawasiliano: Modbus RTU, DNP3, IEC 61850",
+        "Onyesho: LCD yenye Rekodi ya Tukio"
+      ],
+      "applications": [
+        "Ulinzi wa Motor",
+        "Ulinzi wa Transfoma",
+        "Ulinzi wa Jenereta",
+        "Ulinzi wa Feeder",
+        "Ulinzi wa Busbar",
+        "Ulinzi Tofauti"
+      ],
+      "industries": [
+        "Usambazaji wa Nguvu",
+        "Mitambo ya Utengenezaji",
+        "Huduma",
+        "Mafuta na Gesi",
+        "Vituo vya Data",
+        "Viwanda vya Mchakato"
+      ],
+      "features": [
+        "Teknolojia Inayotegemea Microprocessor",
+        "Ulinzi wa Overcurrent",
+        "Ulinzi wa Hitilafu ya Ardhi",
+        "Ulinzi wa Voltage ya Chini/Juu",
+        "Ugunduzi wa Ukosefu wa Usawa wa Awamu",
+        "Ufuatiliaji wa Harmonic",
+        "Rekodi ya Tukio na Hitilafu",
+        "Mawasiliano ya Dijitali"
+      ],
+      "certifications": [
+        "IEC 61850",
+        "IEEE C37.90",
+        "UL 508",
+        "Alama ya CE",
+        "Imethibitishwa na IECEx",
+        "Viwango vya ANSI"
+      ],
+      "seo": {
+        "title": "Relays za Ulinzi - Motor, Transfoma & Ulinzi Tofauti | Powerton Engineering",
+        "description": "Relays za hali ya juu za ulinzi kwa usalama wa umeme. Overcurrent, hitilafu ya ardhi, ulinzi wa motor, na relays za ulinzi tofauti na mawasiliano ya IEC 61850 kwa usambazaji wa nguvu na matumizi ya viwandani.",
+        "keywords": "relays za ulinzi, relay ya ulinzi wa motor, relay ya overcurrent, relay ya hitilafu ya ardhi, ulinzi tofauti, ulinzi wa transfoma, IEC 61850, vifaa vya ulinzi wa umeme"
       }
     },
     "centrifugal-pumps": {
@@ -2526,6 +2881,65 @@
         "keywords": "vifaa vya urekebishaji, vyombo vya upimaji, virekebishaji, urekebishaji wa chombo, inafuatiliwa na NIST, urekebishaji wa mchakato, urekebishaji wa uwanjani"
       },
       "parentCategoryTitle": "Zana za Kupimia za Viwandani"
+    },
+    "panel-meters-indicators": {
+      "title": "Mita za Paneli na Viashiria",
+      "shortDescription": "Mita za paneli za analogi na dijitali kwa kupima volti, mkondo, sababu ya nguvu, na vipimo vingi vya vigezo",
+      "fullDescription": "Aina mbalimbali za mita zilizowekwa paneli ikiwa ni pamoja na mita za analogi za ampea na volti, mita za dijitali, mita za sababu ya nguvu, na mita za kazi nyingi za hali ya juu kwa ufuatiliaji kamili wa nguvu",
+      "parentCategoryTitle": "Zana za Viwandani na Kupimia",
+      "keyBenefits": [
+        "Ufuatiliaji wa Wakati Halisi",
+        "Onyesho la Usahihi wa Juu",
+        "Ufungaji Rahisi",
+        "Upimaji wa Gharama nafuu"
+      ],
+      "specifications": [
+        "Onyesho: Analogi/Dijitali LED/LCD",
+        "Usahihi: ±0.5% hadi ±2% FS",
+        "Ingizo: 0-600V AC/DC, 0-999A",
+        "Upachikaji: 48x48mm hadi 96x96mm",
+        "Ugavi wa Nguvu: 90-270V AC, 20-270V DC",
+        "Mawasiliano: Modbus RTU/TCP, RS485"
+      ],
+      "applications": [
+        "Ufuatiliaji wa Ubao wa Kubadilishia",
+        "Seti za Jenereta",
+        "Mifumo ya UPS",
+        "Paneli za Udhibiti wa Motor",
+        "Bodi za Usambazaji",
+        "Usimamizi wa Nishati"
+      ],
+      "industries": [
+        "Uzaji wa Nguvu",
+        "Utengenezaji",
+        "Majengo ya Biashara",
+        "Miundombinu",
+        "Nishati Mbadala",
+        "Matumizi ya Baharini"
+      ],
+      "features": [
+        "Onyesho Wazi la Kuonekana",
+        "Rekodi ya Kilele/Kiwango cha Chini/Kiwango cha Juu",
+        "Matokeo ya Kengele",
+        "Uwekaji Kumbukumbu wa Data",
+        "Uchanganuzi wa Harmonic",
+        "Upimaji wa THD",
+        "Upimaji wa Nishati",
+        "Itifaki za Mawasiliano"
+      ],
+      "certifications": [
+        "Imeandikwa CE",
+        "IEC 61010",
+        "Imeorodheshwa UL",
+        "IS 13703",
+        "Inatii RoHS",
+        "Imeidhinishwa na MID"
+      ],
+      "seo": {
+        "title": "Mita za Paneli - Analogi, Dijitali, Mita za Nguvu za Kazi Nyingi | Uhandisi wa Powerton",
+        "description": "Mita za paneli ikiwa ni pamoja na ampea/volti za analogi, mita za dijitali, mita za sababu ya nguvu, na mita za kazi nyingi kwa ufuatiliaji na upimaji wa nguvu za viwandani.",
+        "keywords": "mita za paneli, ampea ya analogi, volti ya analogi, mita za dijitali, mita ya sababu ya nguvu, mita ya kazi nyingi, mita ya nishati, mita ya kupachika paneli"
+      }
     },
     "bldc-cooler-exhaust-motor": {
       "title": "Motors za BLDC za Kipoozi na Kutolea Nje",

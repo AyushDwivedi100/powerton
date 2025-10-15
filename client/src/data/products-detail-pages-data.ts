@@ -359,6 +359,15 @@ export const productGroups: ProductGroup[] = [
     image: "industrial-plug",
     featuredSpecs: ["current", "voltage", "protection"],
   },
+  {
+    key: "motor-terminal-blocks",
+    slug: "motor-terminal-blocks",
+    titleKey: "products:productGroups.motorTerminalBlocks.title",
+    descriptionKey: "products:productGroups.motorTerminalBlocks.description",
+    subcategoryKey: "connectors-terminals",
+    image: "terminal-block",
+    featuredSpecs: ["manufacturer", "currentRating", "poles"],
+  },
   // Circuit Breakers & Fuses subcategory groups
   {
     key: "miniature-circuit-breakers",
@@ -414,6 +423,15 @@ export const productGroups: ProductGroup[] = [
     subcategoryKey: "circuit-breakers-fuses",
     image: "vcb",
     featuredSpecs: ["current", "voltage", "operations"],
+  },
+  {
+    key: "hrc-fuses",
+    slug: "hrc-fuses",
+    titleKey: "products:productGroups.hrcFuses.title",
+    descriptionKey: "products:productGroups.hrcFuses.description",
+    subcategoryKey: "circuit-breakers-fuses",
+    image: "hrc-fuse",
+    featuredSpecs: ["manufacturer", "current", "voltage", "breakingCapacity"],
   },
   // Power Supplies subcategory groups
   {
@@ -498,6 +516,96 @@ export const productGroups: ProductGroup[] = [
     subcategoryKey: "heating-elements-appliances",
     image: "industrial-heater",
     featuredSpecs: ["power", "voltage", "application"],
+  },
+  // Contactors & Relays subcategory groups
+  {
+    key: "power-contactors",
+    slug: "power-contactors",
+    titleKey: "products:productGroups.powerContactors.title",
+    descriptionKey: "products:productGroups.powerContactors.description",
+    subcategoryKey: "contactors-relays",
+    image: "power-contactor",
+    featuredSpecs: ["manufacturer", "current", "coilVoltage"],
+  },
+  {
+    key: "timer-relays",
+    slug: "timer-relays",
+    titleKey: "products:productGroups.timerRelays.title",
+    descriptionKey: "products:productGroups.timerRelays.description",
+    subcategoryKey: "contactors-relays",
+    image: "timer-relay",
+    featuredSpecs: ["manufacturer", "timeRange", "voltage"],
+  },
+  {
+    key: "voltage-monitoring-relay",
+    slug: "voltage-monitoring-relays",
+    titleKey: "products:productGroups.voltageMonitoringRelay.title",
+    descriptionKey: "products:productGroups.voltageMonitoringRelay.description",
+    subcategoryKey: "contactors-relays",
+    image: "voltage-monitoring-relay",
+    featuredSpecs: ["manufacturer", "voltageRange", "phases"],
+  },
+  {
+    key: "digital-motor-protection-relay",
+    slug: "digital-motor-protection-relays",
+    titleKey: "products:productGroups.digitalMotorProtectionRelay.title",
+    descriptionKey:
+      "products:productGroups.digitalMotorProtectionRelay.description",
+    subcategoryKey: "contactors-relays",
+    image: "motor-protection-relay",
+    featuredSpecs: ["manufacturer", "currentRange", "features"],
+  },
+  // Transformers & Power Devices subcategory groups
+  {
+    key: "control-transformers",
+    slug: "control-transformers",
+    titleKey: "products:productGroups.controlTransformers.title",
+    descriptionKey: "products:productGroups.controlTransformers.description",
+    subcategoryKey: "transformers-power-devices",
+    image: "control-transformer",
+    featuredSpecs: [
+      "manufacturer",
+      "powerRating",
+      "primaryVoltage",
+      "secondaryVoltage",
+    ],
+  },
+  {
+    key: "current-transformers",
+    slug: "current-transformers",
+    titleKey: "products:productGroups.currentTransformers.title",
+    descriptionKey: "products:productGroups.currentTransformers.description",
+    subcategoryKey: "transformers-power-devices",
+    image: "current-transformer",
+    featuredSpecs: ["manufacturer", "ratio", "accuracy", "burden"],
+  },
+  {
+    key: "potential-transformers",
+    slug: "potential-transformers",
+    titleKey: "products:productGroups.potentialTransformers.title",
+    descriptionKey: "products:productGroups.potentialTransformers.description",
+    subcategoryKey: "transformers-power-devices",
+    image: "potential-transformer",
+    featuredSpecs: ["manufacturer", "ratio", "accuracy", "burden"],
+  },
+  // LED Lighting subcategory groups
+  {
+    key: "led-lights-flp",
+    slug: "flameproof-led-lights",
+    titleKey: "products:productGroups.ledLightsFlp.title",
+    descriptionKey: "products:productGroups.ledLightsFlp.description",
+    subcategoryKey: "led-lighting",
+    image: "led-flameproof",
+    featuredSpecs: ["manufacturer", "wattage", "certification"],
+  },
+  {
+    key: "led-lights-wp",
+    slug: "weatherproof-led-lights",
+    titleKey: "products:productGroups.ledLightsWp.title",
+    descriptionKey: "products:productGroups.ledLightsWp.description",
+    subcategoryKey: "led-lighting",
+    image: "led-weatherproof",
+    featuredSpecs: ["manufacturer", "wattage", "ipRating"],
   },
 
   // Solar Products category groups
@@ -671,6 +779,34 @@ export const productGroups: ProductGroup[] = [
     image: "mobile-hmi",
     featuredSpecs: ["size", "battery", "connectivity"],
   },
+  // Motor Controllers & Drives subcategory groups
+  {
+    key: "vfd",
+    slug: "variable-frequency-drives",
+    titleKey: "products:productGroups.vfd.title",
+    descriptionKey: "products:productGroups.vfd.description",
+    subcategoryKey: "motor-controllers-drives",
+    image: "vfd-drive",
+    featuredSpecs: ["manufacturer", "power", "voltage"],
+  },
+  {
+    key: "soft-starter",
+    slug: "soft-starters",
+    titleKey: "products:productGroups.softStarter.title",
+    descriptionKey: "products:productGroups.softStarter.description",
+    subcategoryKey: "motor-controllers-drives",
+    image: "soft-starter",
+    featuredSpecs: ["manufacturer", "power", "voltage"],
+  },
+  {
+    key: "dol-starter",
+    slug: "direct-on-line-starters",
+    titleKey: "products:productGroups.dolStarter.title",
+    descriptionKey: "products:productGroups.dolStarter.description",
+    subcategoryKey: "motor-controllers-drives",
+    image: "dol-starter",
+    featuredSpecs: ["manufacturer", "power", "coilVoltage"],
+  },
 
   // Safety & Protective Devices category groups
   // Surge Protectors subcategory groups
@@ -701,6 +837,15 @@ export const productGroups: ProductGroup[] = [
     image: "signal-surge-protector",
     featuredSpecs: ["signal", "protection", "frequency"],
   },
+  {
+    key: "lightning-arrestors",
+    slug: "lightning-arrestors",
+    titleKey: "products:productGroups.lightningArrestors.title",
+    descriptionKey: "products:productGroups.lightningArrestors.description",
+    subcategoryKey: "surge-protectors",
+    image: "lightning-arrestor",
+    featuredSpecs: ["manufacturer", "type", "voltage", "dischargeCapacity"],
+  },
   // Grounding Systems subcategory groups
   {
     key: "equipment-grounding",
@@ -728,6 +873,15 @@ export const productGroups: ProductGroup[] = [
     subcategoryKey: "grounding-systems",
     image: "lightning-protection",
     featuredSpecs: ["current", "material", "height"],
+  },
+  {
+    key: "earthing-strips",
+    slug: "earthing-strips",
+    titleKey: "products:productGroups.earthingStrips.title",
+    descriptionKey: "products:productGroups.earthingStrips.description",
+    subcategoryKey: "grounding-systems",
+    image: "earthing-strip",
+    featuredSpecs: ["manufacturer", "size", "material"],
   },
   // Safety Relays & Switches subcategory groups
   {
@@ -1127,6 +1281,15 @@ export const productGroups: ProductGroup[] = [
     image: "multimeter-1",
     featuredSpecs: ["manufacturer", "model", "accuracy"],
   },
+  {
+    key: "multi-function-meters",
+    slug: "multi-function-meters",
+    titleKey: "products:productGroups.multiFunctionMeters.title",
+    descriptionKey: "products:productGroups.multiFunctionMeters.description",
+    subcategoryKey: "multimeters",
+    image: "multi-function-meter",
+    featuredSpecs: ["manufacturer", "parameters", "communication"],
+  },
   // Power Quality Analyzers subcategory groups
   {
     key: "power-meters",
@@ -1200,6 +1363,61 @@ export const productGroups: ProductGroup[] = [
     subcategoryKey: "calibration-equipment",
     image: "process-calibrator",
     featuredSpecs: ["manufacturer", "model", "hartVersion"],
+  },
+  // Panel Meters & Indicators subcategory groups
+  {
+    key: "analog-ammeters",
+    slug: "analog-ammeters",
+    titleKey: "products:productGroups.analogAmmeters.title",
+    descriptionKey: "products:productGroups.analogAmmeters.description",
+    subcategoryKey: "panel-meters-indicators",
+    image: "analog-ammeter",
+    featuredSpecs: ["manufacturer", "range", "accuracy"],
+  },
+  {
+    key: "analog-voltmeters",
+    slug: "analog-voltmeters",
+    titleKey: "products:productGroups.analogVoltmeters.title",
+    descriptionKey: "products:productGroups.analogVoltmeters.description",
+    subcategoryKey: "panel-meters-indicators",
+    image: "analog-voltmeter",
+    featuredSpecs: ["manufacturer", "range", "accuracy"],
+  },
+  {
+    key: "digital-ammeters",
+    slug: "digital-ammeters",
+    titleKey: "products:productGroups.digitalAmmeters.title",
+    descriptionKey: "products:productGroups.digitalAmmeters.description",
+    subcategoryKey: "panel-meters-indicators",
+    image: "digital-ammeter",
+    featuredSpecs: ["manufacturer", "range", "display"],
+  },
+  {
+    key: "digital-voltmeters",
+    slug: "digital-voltmeters",
+    titleKey: "products:productGroups.digitalVoltmeters.title",
+    descriptionKey: "products:productGroups.digitalVoltmeters.description",
+    subcategoryKey: "panel-meters-indicators",
+    image: "digital-voltmeter",
+    featuredSpecs: ["manufacturer", "range", "display"],
+  },
+  {
+    key: "power-factor-meters",
+    slug: "power-factor-meters",
+    titleKey: "products:productGroups.powerFactorMeters.title",
+    descriptionKey: "products:productGroups.powerFactorMeters.description",
+    subcategoryKey: "panel-meters-indicators",
+    image: "power-factor-meter",
+    featuredSpecs: ["manufacturer", "type", "accuracy"],
+  },
+  {
+    key: "multi-function-meters",
+    slug: "multi-function-meters",
+    titleKey: "products:productGroups.multiFunctionMeters.title",
+    descriptionKey: "products:productGroups.multiFunctionMeters.description",
+    subcategoryKey: "panel-meters-indicators",
+    image: "multi-function-meter",
+    featuredSpecs: ["manufacturer", "parameters", "communication"],
   },
 
   // BLDC Products category groups
@@ -1314,238 +1532,6 @@ export const productGroups: ProductGroup[] = [
     subcategoryKey: "bldc-table-fan-wall-fan-motor",
     image: "bldc-pedestal-fan-motor",
     featuredSpecs: ["power", "speed", "voltage"],
-  },
-
-  // Motor Controllers & Drives subcategory groups
-  {
-    key: "vfd",
-    slug: "variable-frequency-drives",
-    titleKey: "products:productGroups.vfd.title",
-    descriptionKey: "products:productGroups.vfd.description",
-    subcategoryKey: "motor-controllers-drives",
-    image: "vfd-drive",
-    featuredSpecs: ["manufacturer", "power", "voltage"],
-  },
-  {
-    key: "soft-starter",
-    slug: "soft-starters",
-    titleKey: "products:productGroups.softStarter.title",
-    descriptionKey: "products:productGroups.softStarter.description",
-    subcategoryKey: "motor-controllers-drives",
-    image: "soft-starter",
-    featuredSpecs: ["manufacturer", "power", "voltage"],
-  },
-  {
-    key: "dol-starter",
-    slug: "direct-on-line-starters",
-    titleKey: "products:productGroups.dolStarter.title",
-    descriptionKey: "products:productGroups.dolStarter.description",
-    subcategoryKey: "motor-controllers-drives",
-    image: "dol-starter",
-    featuredSpecs: ["manufacturer", "power", "coilVoltage"],
-  },
-
-  // Contactors & Relays subcategory groups
-  {
-    key: "power-contactors",
-    slug: "power-contactors",
-    titleKey: "products:productGroups.powerContactors.title",
-    descriptionKey: "products:productGroups.powerContactors.description",
-    subcategoryKey: "contactors-relays",
-    image: "power-contactor",
-    featuredSpecs: ["manufacturer", "current", "coilVoltage"],
-  },
-  {
-    key: "timer-relays",
-    slug: "timer-relays",
-    titleKey: "products:productGroups.timerRelays.title",
-    descriptionKey: "products:productGroups.timerRelays.description",
-    subcategoryKey: "contactors-relays",
-    image: "timer-relay",
-    featuredSpecs: ["manufacturer", "timeRange", "voltage"],
-  },
-  {
-    key: "voltage-monitoring-relay",
-    slug: "voltage-monitoring-relays",
-    titleKey: "products:productGroups.voltageMonitoringRelay.title",
-    descriptionKey: "products:productGroups.voltageMonitoringRelay.description",
-    subcategoryKey: "contactors-relays",
-    image: "voltage-monitoring-relay",
-    featuredSpecs: ["manufacturer", "voltageRange", "phases"],
-  },
-  {
-    key: "digital-motor-protection-relay",
-    slug: "digital-motor-protection-relays",
-    titleKey: "products:productGroups.digitalMotorProtectionRelay.title",
-    descriptionKey: "products:productGroups.digitalMotorProtectionRelay.description",
-    subcategoryKey: "contactors-relays",
-    image: "motor-protection-relay",
-    featuredSpecs: ["manufacturer", "currentRange", "features"],
-  },
-
-  // Transformers & Power Devices subcategory groups
-  {
-    key: "control-transformers",
-    slug: "control-transformers",
-    titleKey: "products:productGroups.controlTransformers.title",
-    descriptionKey: "products:productGroups.controlTransformers.description",
-    subcategoryKey: "transformers-power-devices",
-    image: "control-transformer",
-    featuredSpecs: ["manufacturer", "powerRating", "primaryVoltage", "secondaryVoltage"],
-  },
-  {
-    key: "current-transformers",
-    slug: "current-transformers",
-    titleKey: "products:productGroups.currentTransformers.title",
-    descriptionKey: "products:productGroups.currentTransformers.description",
-    subcategoryKey: "transformers-power-devices",
-    image: "current-transformer",
-    featuredSpecs: ["manufacturer", "ratio", "accuracy", "burden"],
-  },
-  {
-    key: "potential-transformers",
-    slug: "potential-transformers",
-    titleKey: "products:productGroups.potentialTransformers.title",
-    descriptionKey: "products:productGroups.potentialTransformers.description",
-    subcategoryKey: "transformers-power-devices",
-    image: "potential-transformer",
-    featuredSpecs: ["manufacturer", "ratio", "accuracy", "burden"],
-  },
-
-  // LED Lighting subcategory groups
-  {
-    key: "led-lights-flp",
-    slug: "flameproof-led-lights",
-    titleKey: "products:productGroups.ledLightsFlp.title",
-    descriptionKey: "products:productGroups.ledLightsFlp.description",
-    subcategoryKey: "led-lighting",
-    image: "led-flameproof",
-    featuredSpecs: ["manufacturer", "wattage", "certification"],
-  },
-  {
-    key: "led-lights-wp",
-    slug: "weatherproof-led-lights",
-    titleKey: "products:productGroups.ledLightsWp.title",
-    descriptionKey: "products:productGroups.ledLightsWp.description",
-    subcategoryKey: "led-lighting",
-    image: "led-weatherproof",
-    featuredSpecs: ["manufacturer", "wattage", "ipRating"],
-  },
-
-  // Protection Relays subcategory groups - moved to contactors-relays per user requirements
-
-  // Instrument Transformers subcategory groups - moved to transformers-power-devices per user requirements
-
-  // Panel Meters & Indicators subcategory groups
-  {
-    key: "analog-ammeters",
-    slug: "analog-ammeters",
-    titleKey: "products:productGroups.analogAmmeters.title",
-    descriptionKey: "products:productGroups.analogAmmeters.description",
-    subcategoryKey: "panel-meters-indicators",
-    image: "analog-ammeter",
-    featuredSpecs: ["manufacturer", "range", "accuracy"],
-  },
-  {
-    key: "analog-voltmeters",
-    slug: "analog-voltmeters",
-    titleKey: "products:productGroups.analogVoltmeters.title",
-    descriptionKey: "products:productGroups.analogVoltmeters.description",
-    subcategoryKey: "panel-meters-indicators",
-    image: "analog-voltmeter",
-    featuredSpecs: ["manufacturer", "range", "accuracy"],
-  },
-  {
-    key: "digital-ammeters",
-    slug: "digital-ammeters",
-    titleKey: "products:productGroups.digitalAmmeters.title",
-    descriptionKey: "products:productGroups.digitalAmmeters.description",
-    subcategoryKey: "panel-meters-indicators",
-    image: "digital-ammeter",
-    featuredSpecs: ["manufacturer", "range", "display"],
-  },
-  {
-    key: "digital-voltmeters",
-    slug: "digital-voltmeters",
-    titleKey: "products:productGroups.digitalVoltmeters.title",
-    descriptionKey: "products:productGroups.digitalVoltmeters.description",
-    subcategoryKey: "panel-meters-indicators",
-    image: "digital-voltmeter",
-    featuredSpecs: ["manufacturer", "range", "display"],
-  },
-  {
-    key: "power-factor-meters",
-    slug: "power-factor-meters",
-    titleKey: "products:productGroups.powerFactorMeters.title",
-    descriptionKey: "products:productGroups.powerFactorMeters.description",
-    subcategoryKey: "panel-meters-indicators",
-    image: "power-factor-meter",
-    featuredSpecs: ["manufacturer", "type", "accuracy"],
-  },
-  {
-    key: "multi-function-meters",
-    slug: "multi-function-meters",
-    titleKey: "products:productGroups.multiFunctionMeters.title",
-    descriptionKey: "products:productGroups.multiFunctionMeters.description",
-    subcategoryKey: "panel-meters-indicators",
-    image: "multi-function-meter",
-    featuredSpecs: ["manufacturer", "parameters", "communication"],
-  },
-
-  // Additional product groups for existing subcategories
-  // Circuit Breakers & Fuses
-  {
-    key: "hrc-fuses",
-    slug: "hrc-fuses",
-    titleKey: "products:productGroups.hrcFuses.title",
-    descriptionKey: "products:productGroups.hrcFuses.description",
-    subcategoryKey: "circuit-breakers-fuses",
-    image: "hrc-fuse",
-    featuredSpecs: ["manufacturer", "current", "voltage", "breakingCapacity"],
-  },
-
-  // Connectors & Terminals
-  {
-    key: "motor-terminal-blocks",
-    slug: "motor-terminal-blocks",
-    titleKey: "products:productGroups.motorTerminalBlocks.title",
-    descriptionKey: "products:productGroups.motorTerminalBlocks.description",
-    subcategoryKey: "connectors-terminals",
-    image: "terminal-block",
-    featuredSpecs: ["manufacturer", "currentRating", "poles"],
-  },
-
-  // Grounding Systems
-  {
-    key: "earthing-strips",
-    slug: "earthing-strips",
-    titleKey: "products:productGroups.earthingStrips.title",
-    descriptionKey: "products:productGroups.earthingStrips.description",
-    subcategoryKey: "grounding-systems",
-    image: "earthing-strip",
-    featuredSpecs: ["manufacturer", "size", "material"],
-  },
-
-  // Surge Protectors
-  {
-    key: "lightning-arrestors",
-    slug: "lightning-arrestors",
-    titleKey: "products:productGroups.lightningArrestors.title",
-    descriptionKey: "products:productGroups.lightningArrestors.description",
-    subcategoryKey: "surge-protectors",
-    image: "lightning-arrestor",
-    featuredSpecs: ["manufacturer", "type", "voltage", "dischargeCapacity"],
-  },
-
-  // Multimeters
-  {
-    key: "multi-function-meters",
-    slug: "multi-function-meters",
-    titleKey: "products:productGroups.multiFunctionMeters.title",
-    descriptionKey: "products:productGroups.multiFunctionMeters.description",
-    subcategoryKey: "multimeters",
-    image: "multi-function-meter",
-    featuredSpecs: ["manufacturer", "parameters", "communication"],
   },
 ];
 
@@ -16770,7 +16756,7 @@ export const products: Product[] = [
   },
 
   // ============= VFDs/MOTOR DRIVES - Real Manufacturer Products =============
-  
+
   // New General Purpose AC Drives / VFDs
   {
     id: "abb-acs355-0.75kw",
@@ -21055,6 +21041,11 @@ export const categories: Category[] = [
           "yokogawa-sc450g-ph-analyzer",
         ],
       },
+      {
+        key: "instrument-transformer",
+        translationKey: "products:subcategories.instrumentTransformer",
+        products: [],
+      },
     ],
   },
   {
@@ -21169,6 +21160,21 @@ export const categories: Category[] = [
           "heating-coil-heater-air-duct",
         ],
       },
+      {
+        key: "contactors-relays",
+        translationKey: "products:subcategories.contactorsRelays",
+        products: [],
+      },
+      {
+        key: "transformers-power-devices",
+        translationKey: "products:subcategories.transformersPowerDevices",
+        products: [],
+      },
+      {
+        key: "led-lighting",
+        translationKey: "products:subcategories.ledLighting",
+        products: [],
+      },
     ],
   },
   {
@@ -21274,6 +21280,11 @@ export const categories: Category[] = [
           "schneider-hmistu855-hmi",
         ],
       },
+      {
+        key: "motor-controllers-drives",
+        translationKey: "products:subcategories.motorControllersDrives",
+        products: [],
+      },
     ],
   },
   {
@@ -21359,6 +21370,11 @@ export const categories: Category[] = [
           "3m-h700-helmet-brim",
           "3m-x5014-helmet",
         ],
+      },
+      {
+        key: "protection-relays",
+        translationKey: "products:subcategories.protectionRelays",
+        products: [],
       },
     ],
   },
@@ -21526,6 +21542,11 @@ export const categories: Category[] = [
           "beamex-mc2-calibrator",
         ],
       },
+      {
+        key: "panel-meters-indicators",
+        translationKey: "products:subcategories.panelMetersIndicators",
+        products: [],
+      },
     ],
   },
   {
@@ -21621,14 +21642,14 @@ export const getProductsByCategory = (categoryKey: string): Product[] => {
 
 export const getProductsBySubcategory = (subcategoryKey: string): Product[] => {
   return products.filter(
-    (product) => product.subcategoryKey === subcategoryKey
+    (product) => product.subcategoryKey === subcategoryKey,
   );
 };
 
 // Function to get products for subcategory with minimum count guarantee
 export const getProductsForSubcategoryPage = (
   subcategoryKey: string,
-  minCount: number = 6
+  minCount: number = 6,
 ): Product[] => {
   let subcategoryProducts = getProductsBySubcategory(subcategoryKey);
 
@@ -21703,7 +21724,7 @@ export const getProductsForSubcategoryPage = (
 };
 
 export const getProductsForSubcategory = (
-  subcategoryKey: string
+  subcategoryKey: string,
 ): Product[] => {
   const subcategory = categories
     .flatMap((cat) => cat.subcategories)
@@ -21728,7 +21749,7 @@ export const getProductImageKey = (product: Product): string => {
 export const getProductDetailBySlug = (
   slug: string,
   t: any,
-  groupSlug?: string
+  groupSlug?: string,
 ) => {
   const product = products.find((p) => p.slug === slug);
 
@@ -21738,7 +21759,7 @@ export const getProductDetailBySlug = (
 
   const category = categories.find((cat) => cat.key === product.categoryKey);
   const subcategory = category?.subcategories.find(
-    (sub) => sub.key === product.subcategoryKey
+    (sub) => sub.key === product.subcategoryKey,
   );
 
   if (!category || !subcategory) {
@@ -21750,7 +21771,7 @@ export const getProductDetailBySlug = (
     ? productGroups.find(
         (group) =>
           group.slug === groupSlug &&
-          group.subcategoryKey === product.subcategoryKey
+          group.subcategoryKey === product.subcategoryKey,
       )
     : null;
 
@@ -21783,7 +21804,7 @@ export const getProductDetailBySlug = (
       defaultValue: subcategory.key
         .replace(/-/g, " ")
         .replace(/\b\w/g, (l) => l.toUpperCase()),
-    }
+    },
   );
   let backLabel =
     subcategoryTranslation?.trim() ||
@@ -21820,7 +21841,7 @@ export const getProductDetailBySlug = (
   });
   const subcategoryName = t(
     `products:categories.${category.key}.subcategories.${subcategory.key}.name`,
-    { defaultValue: subcategory.key }
+    { defaultValue: subcategory.key },
   );
 
   // Collect all keywords and deduplicate case-insensitively
@@ -21844,8 +21865,8 @@ export const getProductDetailBySlug = (
       keywordArray.map((k) => [
         String(k).toLowerCase().trim(),
         String(k).trim(),
-      ])
-    ).values()
+      ]),
+    ).values(),
   );
 
   const seoKeywords = uniqueKeywords.join(", ");
@@ -21879,7 +21900,7 @@ export const getProductDetailBySlug = (
     fullDescription: description,
     categoryName: t(`products:categories.${category.key}.name`),
     subcategoryName: t(
-      `products:categories.${category.key}.subcategories.${subcategory.key}.name`
+      `products:categories.${category.key}.subcategories.${subcategory.key}.name`,
     ),
     categoryPath: backPath,
     backLabel,
@@ -21910,21 +21931,21 @@ export const getProductDetailBySlug = (
 
 // Get all product groups for a subcategory
 export const getGroupsForSubcategory = (
-  subcategoryKey: string
+  subcategoryKey: string,
 ): ProductGroup[] => {
   return productGroups.filter(
-    (group) => group.subcategoryKey === subcategoryKey
+    (group) => group.subcategoryKey === subcategoryKey,
   );
 };
 
 // Get product group by slug and subcategory
 export const getProductGroupBySlug = (
   subcategoryKey: string,
-  groupSlug: string
+  groupSlug: string,
 ): ProductGroup | undefined => {
   return productGroups.find(
     (group) =>
-      group.subcategoryKey === subcategoryKey && group.slug === groupSlug
+      group.subcategoryKey === subcategoryKey && group.slug === groupSlug,
   );
 };
 

@@ -176,7 +176,8 @@
             "Économe en énergie",
             "Longue durée de vie"
           ]
-        },
+        }
+      },
         "cta": {
           "title": "Besoin de composants électriques?",
           "description": "Nos ingénieurs électriciens peuvent vous aider à sélectionner les bons composants pour vos systèmes de distribution d'énergie et de contrôle.",
@@ -874,6 +875,65 @@
           "keywords": "analyseurs de processus, analyseurs de gaz, analyseurs de liquides, chromatographie, analyseurs d'O2, analyseurs de CO2, surveillance des processus"
         }
       },
+      "instrument-transformers": {
+        "title": "Transformateurs d'instrument",
+        "shortDescription": "Transformateurs de courant et de potentiel de précision pour la mesure et la protection",
+        "fullDescription": "Transformateurs de courant (TC) et de potentiel (TP) de haute précision pour la mesure précise, le comptage et le relais de protection dans les systèmes électriques industriels, conformément aux normes internationales.",
+        "parentCategoryTitle": "Accessoires d'instrumentation",
+        "keyBenefits": [
+          "Mesure et comptage précis",
+          "Isolation et sécurité électriques",
+          "Protection contre les surcharges et les défauts",
+          "Rapports standard de l'industrie"
+        ],
+        "specifications": [
+          "Courant primaire TC : 5 A à 6 000 A",
+          "Secondaire TC : 1 A ou 5 A",
+          "Tension primaire TP : 110 V à 33 kV",
+          "Secondaire TP : 110 V ou 63,5 V",
+          "Classe de précision : 0.2, 0.5, 1.0, 3.0, 5P, 10P",
+          "Fréquence : 50/60 Hz"
+        ],
+        "applications": [
+          "Systèmes de distribution d'énergie",
+          "Comptage et facturation de l'énergie",
+          "Relais de protection",
+          "Systèmes de gestion de l'énergie",
+          "Surveillance de la charge",
+          "Analyse de la qualité de l'alimentation"
+        ],
+        "industries": [
+          "Production d'énergie",
+          "Services publics et sous-stations",
+          "Usines industrielles",
+          "Bâtiments commerciaux",
+          "Énergie renouvelable",
+          "Réseaux de distribution"
+        ],
+        "features": [
+          "Haute précision",
+          "Large gamme de rapports",
+          "Conception compacte",
+          "Isolation en résine époxy",
+          "Connexion du bornier",
+          "Indication de charge",
+          "Valeur nominale de courte durée",
+          "Température stable"
+        ],
+        "certifications": [
+          "Conforme à la norme CEI 61869",
+          "IEEE C57.13",
+          "IS 2705",
+          "Certifié CE",
+          "Testé de type",
+          "Approuvé KEMA"
+        ],
+        "seo": {
+          "title": "Transformateurs d'instrument - Transformateurs de potentiel de courant TC et TP | Powerton Engineering",
+          "description": "Transformateurs d'instrument de précision, y compris les transformateurs de courant (TC) et les transformateurs de potentiel (TP) pour la mesure, le comptage et la protection précis dans les systèmes de distribution d'énergie.",
+          "keywords": "transformateur de courant, TC, transformateur de potentiel, TP, transformateur d'instrument, TC de comptage, TC de protection, transformateur de tension, transformateur de mesure"
+        }
+      },
       "cables-wires": {
         "title": "Câbles et fils",
         "shortDescription": "Câbles et fils industriels pour la transmission de puissance et les applications de contrôle",
@@ -1226,6 +1286,183 @@
           "title": "Éléments chauffants industriels - Thermoplongeurs et chauffage de processus | Powerton Engineering",
           "description": "Éléments chauffants industriels et équipement de contrôle thermique. Thermoplongeurs, colliers chauffants, cartouches chauffantes pour les applications de chauffage de processus.",
           "keywords": "radiateurs industriels, éléments chauffants, thermoplongeurs, chauffage de processus, contrôle thermique, équipement de chauffage industriel"
+        }
+      },
+      "contactors-relays": {
+        "title": "Contacteurs et relais",
+        "shortDescription": "Contacteurs de puissance, relais temporisés, relais de surveillance de tension et relais de protection de moteur pour le contrôle industriel",
+        "fullDescription": "Gamme complète de contacteurs électromagnétiques, de relais temporisés, de relais de supervision de tension et de dispositifs numériques de protection de moteur pour une commutation et une protection fiables dans les applications industrielles",
+        "parentCategoryTitle": "Accessoires électriques",
+        "keyBenefits": [
+          "Opération de commutation fiable",
+          "Durée de vie prolongée des contacts",
+          "Fonctions de protection complètes",
+          "Installation et maintenance faciles"
+        ],
+        "specifications": [
+          "Intensité nominale des contacts : 9 A à 400 A",
+          "Tension de bobine : 24 V à 690 V CA/CC",
+          "Fréquence de commutation : Jusqu'à 1 200 cycles/heure",
+          "Durée de vie mécanique : 10 à 30 millions d'opérations",
+          "Protection : IP20/IP40/IP54",
+          "Normes : CEI 60947-4-1, UL 60947"
+        ],
+        "applications": [
+          "Circuits de commande de moteur",
+          "Commutation de charge",
+          "Distribution d'énergie",
+          "Contrôle du chauffage",
+          "Systèmes d'éclairage",
+          "Verrouillages de sécurité"
+        ],
+        "industries": [
+          "Fabrication",
+          "Services de bâtiment",
+          "Industries de transformation",
+          "Infrastructure",
+          "Marine et offshore",
+          "Transport"
+        ],
+        "features": [
+          "Options de bobine CA/CC",
+          "Contacts auxiliaires",
+          "Surcharge électronique",
+          "Surveillance de phase",
+          "Protection contre les sous-tensions/surtensions",
+          "Conception modulaire",
+          "Montage sur rail DIN",
+          "Indication d'état à DEL"
+        ],
+        "certifications": [
+          "Marquage CE",
+          "Homologué UL",
+          "Certifié CEI",
+          "Homologué ATEX",
+          "Approuvé pour la marine",
+          "Certifié pour le transport ferroviaire"
+        ],
+        "seo": {
+          "title": "Contacteurs et relais industriels - Contacteurs de puissance, temporisateurs, protection de tension | Powerton Engineering",
+          "description": "Contacteurs de puissance, relais temporisés, relais de surveillance de tension et relais numériques de protection de moteur pour le contrôle industriel. Dispositifs de commutation et de protection électromagnétiques fiables.",
+          "keywords": "contacteurs de puissance, relais temporisés, relais de surveillance de tension, relais de protection de moteur, contacteurs électromagnétiques, relais de commande, relais industriels"
+        }
+      },
+      "transformers-power-devices": {
+        "title": "Transformateurs et dispositifs d'alimentation",
+        "shortDescription": "Transformateurs de commande, transformateurs de courant (TC) et transformateurs de potentiel (TP) pour la distribution d'énergie et le comptage",
+        "fullDescription": "Transformateurs de précision, y compris les transformateurs de commande (de 1 kVA à 5 kVA), les transformateurs de courant pour la mesure et la protection, et les transformateurs de potentiel pour la surveillance de la tension dans les systèmes d'alimentation industriels",
+        "parentCategoryTitle": "Accessoires électriques",
+        "keyBenefits": [
+          "Isolation et conversion de tension",
+          "Mesure précise",
+          "Protection de l'équipement",
+          "Conception compacte"
+        ],
+        "specifications": [
+          "Transformateurs de commande : 1 kVA à 5 kVA",
+          "Rapport TC : 5 A à 3 000 A/5 A",
+          "Rapport TP : 110 V à 33 kV",
+          "Classe de précision : 0.5, 1.0, 5P, 10P",
+          "Fréquence : 50/60 Hz",
+          "Isolation : Classe B/F/H"
+        ],
+        "applications": [
+          "Circuits de commande",
+          "Comptage et protection",
+          "Surveillance de la qualité de l'énergie",
+          "Fonctionnement des relais",
+          "Instrumentation",
+          "Gestion de la charge"
+        ],
+        "industries": [
+          "Distribution d'énergie",
+          "Fabrication",
+          "Bâtiments commerciaux",
+          "Centres de données",
+          "Énergie renouvelable",
+          "Postes électriques"
+        ],
+        "features": [
+          "Mesure de précision",
+          "Faibles pertes dans le noyau",
+          "Protection thermique",
+          "Borniers inclus",
+          "Supports de montage",
+          "Encapsulation en époxy",
+          "Capacité de charge",
+          "Résistance aux courts-circuits"
+        ],
+        "certifications": [
+          "CEI 61869",
+          "IS 2705",
+          "Certifié CE",
+          "Homologué UL",
+          "Bureau Veritas",
+          "Testé par type"
+        ],
+        "seo": {
+          "title": "Transformateurs de commande, TC, TP - Transformateurs de courant et de potentiel | Powerton Engineering",
+          "description": "Transformateurs de commande (de 1 à 5 kVA), transformateurs de courant (TC) et transformateurs de potentiel (TP) pour les applications de distribution d'énergie, de comptage et de protection industrielles.",
+          "keywords": "transformateur de commande, transformateur de courant, TC, transformateur de potentiel, TP, transformateur de comptage, transformateur d'instrument, transformateur de 1 kVA, transformateur de 3 kVA, transformateur de 5 kVA"
+        }
+      },
+      "led-lighting": {
+        "title": "Éclairage DEL",
+        "shortDescription": "Solutions d'éclairage DEL industrielles pour les zones dangereuses et générales",
+        "fullDescription": "Systèmes d'éclairage DEL antidéflagrants et résistants aux intempéries, conçus pour un fonctionnement sûr dans les environnements industriels dangereux, y compris les zones 1 et 2, et les zones industrielles générales, avec une efficacité énergétique supérieure et une durée de vie prolongée.",
+        "parentCategoryTitle": "Accessoires électriques",
+        "keyBenefits": [
+          "Fonctionnement économe en énergie",
+          "Durée de vie prolongée (plus de 50 000 heures)",
+          "Besoins de maintenance minimes",
+          "Sécurité pour les environnements dangereux"
+        ],
+        "specifications": [
+          "Puissance nominale : 20 W à 150 W",
+          "Tension : 100 à 277 V CA / 12 à 48 V CC",
+          "Efficacité lumineuse : 100 à 140 lm/W",
+          "Température de couleur : 3 000 K à 6 500 K",
+          "Protection : IP65/IP66/IP67",
+          "Température ambiante : -40 °C à +60 °C"
+        ],
+        "applications": [
+          "Installations pétrolières et gazières",
+          "Usines chimiques",
+          "Opérations minières",
+          "Atmosphères explosives",
+          "Plateformes en mer",
+          "Raffineries"
+        ],
+        "industries": [
+          "Pétrochimie",
+          "Exploitation minière",
+          "Pharmaceutique",
+          "Transformation des aliments",
+          "Peinture et revêtement",
+          "Stockage d'explosifs"
+        ],
+        "features": [
+          "Construction antidéflagrante",
+          "Conception résistante aux intempéries",
+          "Flux lumineux élevé",
+          "Faible consommation d'énergie",
+          "Démarrage instantané",
+          "Aucune émission d'UV",
+          "Résistant aux vibrations",
+          "Option de secours d'urgence"
+        ],
+        "certifications": [
+          "Certifié ATEX",
+          "Approuvé IECEx",
+          "Homologué UL",
+          "Marquage CE",
+          "Homologué pour les zones 1 et 2",
+          "Classe I Div 1 et 2"
+        ],
+        "seo": {
+          "title": "Éclairage DEL industriel - DEL antidéflagrantes et résistantes aux intempéries pour les zones dangereuses | Powerton Engineering",
+          "description": "Éclairage DEL antidéflagrant et résistant aux intempéries certifié ATEX et IECEx pour les zones industrielles dangereuses. Lampes DEL antidéflagrantes éconergétiques pour les installations pétrolières et gazières, les mines et les usines chimiques.",
+          "keywords": "éclairage DEL antidéflagrant, DEL antidéflagrantes, éclairage de zone dangereuse, lampes DEL ATEX, DEL IECEx, DEL industrielles résistantes aux intempéries, DEL de zone 1, DEL de zone 2"
         }
       },
       "solar-panels": {
@@ -1582,6 +1819,65 @@
           "keywords": "panneaux IHM, interface homme-machine, panneaux à écran tactile, interface opérateur, écrans industriels, IHM de contrôle des processus"
         }
       },
+      "motor-controllers-drives": {
+        "title": "Contrôleurs et entraînements de moteur",
+        "shortDescription": "Entraînements à fréquence variable, démarreurs progressifs et démarreurs directs pour un contrôle et une protection efficaces du moteur",
+        "fullDescription": "Gamme complète de solutions de contrôle de moteur, y compris les VFD pour un contrôle précis de la vitesse, les démarreurs progressifs pour une contrainte mécanique réduite et les démarreurs directs pour un fonctionnement simple et fiable",
+        "parentCategoryTitle": "Systèmes d'automatisation et de contrôle",
+        "keyBenefits": [
+          "Économies d'énergie et efficacité",
+          "Durée de vie prolongée de l'équipement",
+          "Contrôle précis de la vitesse",
+          "Contrainte mécanique réduite"
+        ],
+        "specifications": [
+          "Plage de puissance : 0,37 kW à 400 kW",
+          "Tension : 230 V à 690 V triphasé",
+          "Contrôle : V/F, vectoriel, DTC",
+          "Communication : Modbus, Profibus, Ethernet",
+          "Protection : IP20/IP54/IP65",
+          "Efficacité : Moteurs IE3/IE4"
+        ],
+        "applications": [
+          "Pompes et ventilateurs",
+          "Convoyeurs et manutention",
+          "Compresseurs",
+          "Systèmes CVC",
+          "Grues et palans",
+          "Contrôle des processus"
+        ],
+        "industries": [
+          "Fabrication",
+          "Traitement de l'eau",
+          "Exploitation minière",
+          "Pétrole et gaz",
+          "Transformation des aliments",
+          "Automatisation des bâtiments"
+        ],
+        "features": [
+          "Protection intégrée",
+          "Surveillance de l'énergie",
+          "Plusieurs modes de contrôle",
+          "Fonctionnement à distance",
+          "Logique programmable",
+          "Diagnostic des défauts",
+          "Options de dérivation",
+          "Filtrage harmonique"
+        ],
+        "certifications": [
+          "Certifié CE",
+          "Homologué UL",
+          "CEI 61800",
+          "Conforme à la norme RoHS",
+          "ISO 9001",
+          "Homologué NEMA"
+        ],
+        "seo": {
+          "title": "VFD, Démarreurs progressifs, Démarreurs directs - Solutions de contrôle de moteur | Powerton Engineering",
+          "description": "Entraînements à fréquence variable (VFD), démarreurs progressifs et démarreurs directs (DOL) pour le contrôle des moteurs industriels. Solutions éconergétiques pour les pompes, les ventilateurs, les convoyeurs et l'automatisation des processus.",
+          "keywords": "VFD, entraînement à fréquence variable, démarreur progressif, démarreur DOL, contrôleur de moteur, contrôle de la vitesse, économies d'énergie, protection du moteur"
+        }
+      },
       "surge-protectors": {
         "title": "Parafoudres",
         "shortDescription": "Dispositifs industriels de protection contre les surtensions pour la protection des systèmes électriques",
@@ -1875,6 +2171,66 @@
           "title": "Équipement de sécurité industrielle - EPI et protection contre les chutes | Powerton Engineering",
           "description": "Équipement de sécurité industrielle, y compris les EPI, les systèmes de protection contre les chutes et l'équipement de détection de gaz. Solutions de sécurité conformes aux normes OSHA pour la protection sur le lieu de travail.",
           "keywords": "équipement de sécurité, EPI, équipement de protection individuelle, protection contre les chutes, détection de gaz, sécurité industrielle, sécurité sur le lieu de travail"
+        }
+      },
+      "protection-relays": {
+        "title": "Relais de protection",
+        "shortDescription": "Relais de protection avancés pour la sécurité des équipements électriques et la détection des défauts",
+        "fullDescription": "Gamme complète de relais de protection comprenant des relais de surcharge, de défaut à la terre, de protection de moteur et de protection différentielle pour la sécurité électrique. Relais avancés à microprocesseur avec paramètres configurables et capacités de surveillance à distance pour une protection fiable des équipements.",
+        "parentCategoryTitle": "Dispositifs de sécurité et de protection",
+        "keyBenefits": [
+          "Protection de l'équipement",
+          "Détection et isolation des défauts",
+          "Fonction de déclenchement automatique",
+          "Paramètres configurables",
+          "Capacité de surveillance à distance"
+        ],
+        "specifications": [
+          "Tension de fonctionnement : 110 V à 440 V CA/CC",
+          "Plage de courant : 0,1 A à 6 300 A",
+          "Temps de déclenchement : < 50 ms à 10 s",
+          "Fonctions de protection : IDMT, Temps défini, Instantané",
+          "Communication : Modbus RTU, DNP3, CEI 61850",
+          "Affichage : Écran LCD avec enregistrement des événements"
+        ],
+        "applications": [
+          "Protection du moteur",
+          "Protection du transformateur",
+          "Protection du générateur",
+          "Protection de l'alimentation",
+          "Protection des barres omnibus",
+          "Protection différentielle"
+        ],
+        "industries": [
+          "Distribution d'énergie",
+          "Usines de fabrication",
+          "Services publics",
+          "Pétrole et gaz",
+          "Centres de données",
+          "Industries de transformation"
+        ],
+        "features": [
+          "Technologie à microprocesseur",
+          "Protection contre les surintensités",
+          "Protection contre les défauts à la terre",
+          "Protection contre les sous-tensions/surtensions",
+          "Détection du déséquilibre de phase",
+          "Surveillance des harmoniques",
+          "Enregistrement des événements et des défauts",
+          "Communication numérique"
+        ],
+        "certifications": [
+          "CEI 61850",
+          "IEEE C37.90",
+          "UL 508",
+          "Marquage CE",
+          "Certifié CEIEx",
+          "Normes ANSI"
+        ],
+        "seo": {
+          "title": "Relais de protection - Protection du moteur, du transformateur et protection différentielle | Powerton Engineering",
+          "description": "Relais de protection avancés pour la sécurité électrique. Relais de surcharge, de défaut à la terre, de protection de moteur et de protection différentielle avec communication CEI 61850 pour la distribution d'énergie et les applications industrielles.",
+          "keywords": "relais de protection, relais de protection du moteur, relais de surcharge, relais de défaut à la terre, protection différentielle, protection du transformateur, CEI 61850, dispositifs de protection électrique"
         }
       },
       "centrifugal-pumps": {
@@ -2524,6 +2880,65 @@
           "title": "Équipement d'étalonnage - Instruments de test et d'étalonnage industriels | Powerton Engineering",
           "description": "Équipement professionnel d'étalonnage et de test pour les applications industrielles. Calibreurs traçables NIST pour les instruments de pression, de température et électriques.",
           "keywords": "équipement d'étalonnage, instruments de test, calibreurs, étalonnage d'instruments, traçable NIST, étalonnage des processus, étalonnage sur le terrain"
+        }
+      },
+      "panel-meters-indicators": {
+        "title": "Mètres et indicateurs de panneau",
+        "shortDescription": "Mètres de panneau analogiques et numériques pour la tension, le courant, le facteur de puissance et la mesure multiparamètre",
+        "fullDescription": "Gamme complète de mètres montés sur panneau, y compris les ampèremètres et voltmètres analogiques, les mètres numériques, les mètres de facteur de puissance et les mètres multifonctions avancés pour une surveillance complète de l'alimentation",
+        "parentCategoryTitle": "Outils industriels et de mesure",
+        "keyBenefits": [
+          "Surveillance en temps réel",
+          "Affichage de haute précision",
+          "Installation facile",
+          "Mesure rentable"
+        ],
+        "specifications": [
+          "Affichage : LED/LCD analogique/numérique",
+          "Précision : ±0,5 % à ±2 % FE",
+          "Entrée : 0-600 V CA/CC, 0-999 A",
+          "Montage : 48x48mm à 96x96mm",
+          "Alimentation : 90-270 V CA, 20-270 V CC",
+          "Communication : Modbus RTU/TCP, RS485"
+        ],
+        "applications": [
+          "Surveillance des tableaux de distribution",
+          "Groupes électrogènes",
+          "Systèmes ASI",
+          "Panneaux de commande de moteur",
+          "Tableaux de distribution",
+          "Gestion de l'énergie"
+        ],
+        "industries": [
+          "Production d'énergie",
+          "Fabrication",
+          "Bâtiments commerciaux",
+          "Infrastructure",
+          "Énergie renouvelable",
+          "Applications marines"
+        ],
+        "features": [
+          "Affichage visuel clair",
+          "Enregistrement des crêtes/min/max",
+          "Sorties d'alarme",
+          "Enregistrement des données",
+          "Analyse harmonique",
+          "Mesure du DHT",
+          "Comptage d'énergie",
+          "Protocoles de communication"
+        ],
+        "certifications": [
+          "Marquage CE",
+          "CEI 61010",
+          "Homologué UL",
+          "IS 13703",
+          "Conforme à la norme RoHS",
+          "Approuvé MID"
+        ],
+        "seo": {
+          "title": "Mètres de panneau - Mètres d'alimentation analogiques, numériques et multifonctions | Powerton Engineering",
+          "description": "Mètres de panneau, y compris les ampèremètres/voltmètres analogiques, les mètres numériques, les mètres de facteur de puissance et les mètres multifonctions pour la surveillance et la mesure de l'alimentation industrielle.",
+          "keywords": "mètres de panneau, ampèremètre analogique, voltmètre analogique, mètres numériques, mètre de facteur de puissance, mètre multifonction, compteur d'énergie, mètre de montage sur panneau"
         }
       },
       "bldc-cooler-exhaust-motor": {

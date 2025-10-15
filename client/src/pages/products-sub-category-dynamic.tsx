@@ -64,10 +64,7 @@ export default function ProductSubCategoryDynamic() {
             className="mb-6 hover:bg-white/10 text-white group"
             asChild
           >
-            <Link
-              href="/products"
-              data-testid="link-back-to-category"
-            >
+            <Link href="/products" data-testid="link-back-to-category">
               <ArrowLeft className="mr-2 h-4 w-4 group-hover:-translate-x-2 transition-transform duration-200" />
               {t("common:buttons.backToCategory")}
             </Link>
@@ -113,10 +110,10 @@ export default function ProductSubCategoryDynamic() {
   }
 
   const expectedParentSlug = product.parentCategory.split("/").pop();
-  
+
   // Use expectedParentSlug instead of parentSlug from URL params to avoid empty/incorrect slugs
   const correctParentSlug = expectedParentSlug || parentSlug;
-  
+
   if (parentSlug !== expectedParentSlug) {
     return (
       <div className="min-h-screen bg-background flex items-center justify-center">
@@ -209,7 +206,7 @@ export default function ProductSubCategoryDynamic() {
               <Link href="/contact">
                 <Button
                   variant="outline"
-                  className="border-2 border-border text-foreground hover:bg-background hover:text-primary px-8 py-3 text-lg font-semibold w-full sm:w-auto"
+                  className="border-2 border-border text-foreground hover:bg-foreground hover:text-background px-8 py-3 text-lg font-semibold w-full sm:w-auto"
                 >
                   {t("common:buttons.contactUs")}{" "}
                   <Phone className="ml-2 w-5 h-5" />
