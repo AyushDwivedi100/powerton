@@ -242,10 +242,10 @@ export default function ProductSubCategoryDynamic() {
 
                   return (
                     <Link
+                      key={group.key}
                       href={`/products/${parentSlug}/${slug}/${group.slug}`}
                     >
                       <Card
-                        key={group.key}
                         className="group hover:shadow-lg transition-all duration-300"
                         data-testid={`card-group-${group.key}`}
                       >
