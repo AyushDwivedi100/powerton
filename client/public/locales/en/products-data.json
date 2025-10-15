@@ -767,6 +767,65 @@
         "keywords": "industrial switches, pushbutton switches, control panel components, emergency stops, pilot lights, indicators, selector switches"
       }
     },
+    "transformers-power-devices": {
+      "title": "Transformers & Power Devices",
+      "shortDescription": "Control transformers, current transformers (CT), and potential transformers (PT) for power distribution and metering",
+      "fullDescription": "Precision transformers including control transformers (1kVA-5kVA), current transformers for measurement and protection, and potential transformers for voltage monitoring in industrial power systems",
+      "parentCategoryTitle": "Electrical Accessories",
+      "keyBenefits": [
+        "Voltage Isolation & Conversion",
+        "Accurate Measurement",
+        "Equipment Protection",
+        "Compact Design"
+      ],
+      "specifications": [
+        "Control Transformers: 1kVA to 5kVA",
+        "CT Ratio: 5A to 3000A/5A",
+        "PT Ratio: 110V to 33kV",
+        "Accuracy Class: 0.5, 1.0, 5P, 10P",
+        "Frequency: 50/60 Hz",
+        "Insulation: Class B/F/H"
+      ],
+      "applications": [
+        "Control Circuits",
+        "Metering & Protection",
+        "Power Quality Monitoring",
+        "Relay Operation",
+        "Instrumentation",
+        "Load Management"
+      ],
+      "industries": [
+        "Power Distribution",
+        "Manufacturing",
+        "Commercial Buildings",
+        "Data Centers",
+        "Renewable Energy",
+        "Substations"
+      ],
+      "features": [
+        "Precision Measurement",
+        "Low Core Losses",
+        "Thermal Protection",
+        "Terminal Blocks Included",
+        "Mounting Brackets",
+        "Epoxy Encapsulation",
+        "Burden Capacity",
+        "Short Circuit Withstand"
+      ],
+      "certifications": [
+        "IEC 61869",
+        "IS 2705",
+        "CE Certified",
+        "UL Listed",
+        "Bureau Veritas",
+        "Type Tested"
+      ],
+      "seo": {
+        "title": "Control Transformers, CT, PT - Current & Potential Transformers | Powerton Engineering",
+        "description": "Control transformers (1-5kVA), current transformers (CT), and potential transformers (PT) for industrial power distribution, metering, and protection applications.",
+        "keywords": "control transformer, current transformer, CT, potential transformer, PT, metering transformer, instrument transformer, 1kVA transformer, 3kVA transformer, 5kVA transformer"
+      }
+    },
     "valves-actuators": {
       "title": "Valves & Actuators",
       "shortDescription": "Essential valve solutions for industrial automation: control valves and solenoid valves",
@@ -1001,6 +1060,65 @@
         "title": "Electrical Connectors & Terminals - Terminal Blocks & Wire Connectors | Powerton Engineering",
         "description": "Electrical connectors and terminal blocks for industrial applications. DIN rail terminals, wire connectors, junction boxes for secure electrical connections.",
         "keywords": "electrical connectors, terminal blocks, wire connectors, DIN rail terminals, junction boxes, electrical terminals"
+      }
+    },
+    "contactors-relays": {
+      "title": "Contactors & Relays",
+      "shortDescription": "Power contactors, timer relays, voltage monitoring relays, and motor protection relays for industrial control",
+      "fullDescription": "Complete range of electromagnetic contactors, timing relays, voltage supervision relays, and digital motor protection devices for reliable switching and protection in industrial applications",
+      "parentCategoryTitle": "Electrical Accessories",
+      "keyBenefits": [
+        "Reliable Switching Operation",
+        "Extended Contact Life",
+        "Comprehensive Protection Features",
+        "Easy Installation & Maintenance"
+      ],
+      "specifications": [
+        "Contact Rating: 9A to 400A",
+        "Coil Voltage: 24V to 690V AC/DC",
+        "Switching Frequency: Up to 1200 cycles/hour",
+        "Mechanical Life: 10-30 million operations",
+        "Protection: IP20/IP40/IP54",
+        "Standards: IEC 60947-4-1, UL 60947"
+      ],
+      "applications": [
+        "Motor Control Circuits",
+        "Load Switching",
+        "Power Distribution",
+        "Heating Control",
+        "Lighting Systems",
+        "Safety Interlocks"
+      ],
+      "industries": [
+        "Manufacturing",
+        "Building Services",
+        "Process Industries",
+        "Infrastructure",
+        "Marine & Offshore",
+        "Transportation"
+      ],
+      "features": [
+        "AC/DC Coil Options",
+        "Auxiliary Contacts",
+        "Electronic Overload",
+        "Phase Monitoring",
+        "Under/Over Voltage Protection",
+        "Modular Design",
+        "DIN Rail Mounting",
+        "LED Status Indication"
+      ],
+      "certifications": [
+        "CE Marked",
+        "UL Approved",
+        "IEC Certified",
+        "ATEX Available",
+        "Marine Approved",
+        "Railway Certified"
+      ],
+      "seo": {
+        "title": "Industrial Contactors & Relays - Power Contactors, Timer, Voltage Protection | Powerton Engineering",
+        "description": "Power contactors, timer relays, voltage monitoring relays, and digital motor protection relays for industrial control. Reliable electromagnetic switching and protection devices.",
+        "keywords": "power contactors, timer relays, voltage monitoring relay, motor protection relay, electromagnetic contactors, control relays, industrial relays"
       }
     },
     "circuit-breakers-fuses": {
@@ -2360,6 +2478,65 @@
         "keywords": "lifting equipment, hoists, cranes, rigging equipment, material handling, chain hoists, industrial lifting"
       }
     },
+    "motor-controllers-drives": {
+      "title": "Motor Controllers & Drives",
+      "shortDescription": "Variable frequency drives, soft starters, and DOL starters for efficient motor control and protection",
+      "fullDescription": "Comprehensive range of motor control solutions including VFDs for precise speed control, soft starters for reduced mechanical stress, and DOL starters for simple reliable operation",
+      "parentCategoryTitle": "Automation & Control Systems",
+      "keyBenefits": [
+        "Energy Savings & Efficiency",
+        "Extended Equipment Life",
+        "Precise Speed Control",
+        "Reduced Mechanical Stress"
+      ],
+      "specifications": [
+        "Power Range: 0.37kW to 400kW",
+        "Voltage: 230V to 690V 3-phase",
+        "Control: V/F, Vector, DTC",
+        "Communication: Modbus, Profibus, Ethernet",
+        "Protection: IP20/IP54/IP65",
+        "Efficiency: IE3/IE4 Motors"
+      ],
+      "applications": [
+        "Pumps & Fans",
+        "Conveyors & Material Handling",
+        "Compressors",
+        "HVAC Systems",
+        "Cranes & Hoists",
+        "Process Control"
+      ],
+      "industries": [
+        "Manufacturing",
+        "Water Treatment",
+        "Mining",
+        "Oil & Gas",
+        "Food Processing",
+        "Building Automation"
+      ],
+      "features": [
+        "Built-in Protection",
+        "Energy Monitoring",
+        "Multiple Control Modes",
+        "Remote Operation",
+        "Programmable Logic",
+        "Fault Diagnostics",
+        "Bypass Options",
+        "Harmonic Filtering"
+      ],
+      "certifications": [
+        "CE Certified",
+        "UL Listed",
+        "IEC 61800",
+        "RoHS Compliant",
+        "ISO 9001",
+        "NEMA Rated"
+      ],
+      "seo": {
+        "title": "VFD, Soft Starters, DOL Starters - Motor Control Solutions | Powerton Engineering",
+        "description": "Variable frequency drives (VFD), soft starters, and direct-on-line (DOL) starters for industrial motor control. Energy-efficient solutions for pumps, fans, conveyors, and process automation.",
+        "keywords": "VFD, variable frequency drive, soft starter, DOL starter, motor controller, speed control, energy savings, motor protection"
+      }
+    },
     "multimeters": {
       "title": "Multimeters & Clamp Meters",
       "shortDescription": "Digital multimeters and clamp meters for electrical measurements",
@@ -2417,6 +2594,65 @@
         "title": "Digital Multimeters & Clamp Meters - Professional Electrical Testing | Powerton Engineering",
         "description": "Professional digital multimeters and clamp meters for electrical testing and measurements. True RMS meters with CAT III/IV safety ratings.",
         "keywords": "digital multimeters, clamp meters, electrical testing, voltage meters, current meters, resistance meters, electrical measurements"
+      }
+    },
+    "panel-meters-indicators": {
+      "title": "Panel Meters & Indicators",
+      "shortDescription": "Analog and digital panel meters for voltage, current, power factor, and multi-parameter measurement",
+      "fullDescription": "Comprehensive range of panel-mounted meters including analog ammeters and voltmeters, digital meters, power factor meters, and advanced multi-function meters for comprehensive power monitoring",
+      "parentCategoryTitle": "Industrial & Measuring Tools",
+      "keyBenefits": [
+        "Real-Time Monitoring",
+        "High Accuracy Display",
+        "Easy Installation",
+        "Cost-Effective Measurement"
+      ],
+      "specifications": [
+        "Display: Analog/Digital LED/LCD",
+        "Accuracy: ±0.5% to ±2% FS",
+        "Input: 0-600V AC/DC, 0-999A",
+        "Mounting: 48x48mm to 96x96mm",
+        "Power Supply: 90-270V AC, 20-270V DC",
+        "Communication: Modbus RTU/TCP, RS485"
+      ],
+      "applications": [
+        "Switchboard Monitoring",
+        "Generator Sets",
+        "UPS Systems",
+        "Motor Control Panels",
+        "Distribution Boards",
+        "Energy Management"
+      ],
+      "industries": [
+        "Power Generation",
+        "Manufacturing",
+        "Commercial Buildings",
+        "Infrastructure",
+        "Renewable Energy",
+        "Marine Applications"
+      ],
+      "features": [
+        "Clear Visual Display",
+        "Peak/Min/Max Recording",
+        "Alarm Outputs",
+        "Data Logging",
+        "Harmonic Analysis",
+        "THD Measurement",
+        "Energy Metering",
+        "Communication Protocols"
+      ],
+      "certifications": [
+        "CE Marked",
+        "IEC 61010",
+        "UL Listed",
+        "IS 13703",
+        "RoHS Compliant",
+        "MID Approved"
+      ],
+      "seo": {
+        "title": "Panel Meters - Analog, Digital, Multifunction Power Meters | Powerton Engineering",
+        "description": "Panel meters including analog ammeters/voltmeters, digital meters, power factor meters, and multifunction meters for industrial power monitoring and measurement.",
+        "keywords": "panel meters, analog ammeter, analog voltmeter, digital meters, power factor meter, multifunction meter, energy meter, panel mount meter"
       }
     },
     "power-quality-analyzers": {
