@@ -217,7 +217,7 @@ export default function Projects() {
         icon: Award,
       },
       {
-        number: 25,
+        number: 45,
         suffix: "+",
         label: t("common:company.stats.clientsServed"),
         icon: Users,
