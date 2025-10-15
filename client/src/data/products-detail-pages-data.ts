@@ -1364,6 +1364,24 @@ export const productGroups: ProductGroup[] = [
     image: "timer-relay",
     featuredSpecs: ["manufacturer", "timeRange", "voltage"],
   },
+  {
+    key: "voltage-monitoring-relay",
+    slug: "voltage-monitoring-relays",
+    titleKey: "products:productGroups.voltageMonitoringRelay.title",
+    descriptionKey: "products:productGroups.voltageMonitoringRelay.description",
+    subcategoryKey: "contactors-relays",
+    image: "voltage-monitoring-relay",
+    featuredSpecs: ["manufacturer", "voltageRange", "phases"],
+  },
+  {
+    key: "digital-motor-protection-relay",
+    slug: "digital-motor-protection-relays",
+    titleKey: "products:productGroups.digitalMotorProtectionRelay.title",
+    descriptionKey: "products:productGroups.digitalMotorProtectionRelay.description",
+    subcategoryKey: "contactors-relays",
+    image: "motor-protection-relay",
+    featuredSpecs: ["manufacturer", "currentRange", "features"],
+  },
 
   // Transformers & Power Devices subcategory groups
   {
@@ -1374,6 +1392,24 @@ export const productGroups: ProductGroup[] = [
     subcategoryKey: "transformers-power-devices",
     image: "control-transformer",
     featuredSpecs: ["manufacturer", "powerRating", "primaryVoltage", "secondaryVoltage"],
+  },
+  {
+    key: "current-transformers",
+    slug: "current-transformers",
+    titleKey: "products:productGroups.currentTransformers.title",
+    descriptionKey: "products:productGroups.currentTransformers.description",
+    subcategoryKey: "transformers-power-devices",
+    image: "current-transformer",
+    featuredSpecs: ["manufacturer", "ratio", "accuracy", "burden"],
+  },
+  {
+    key: "potential-transformers",
+    slug: "potential-transformers",
+    titleKey: "products:productGroups.potentialTransformers.title",
+    descriptionKey: "products:productGroups.potentialTransformers.description",
+    subcategoryKey: "transformers-power-devices",
+    image: "potential-transformer",
+    featuredSpecs: ["manufacturer", "ratio", "accuracy", "burden"],
   },
 
   // LED Lighting subcategory groups
@@ -1396,45 +1432,9 @@ export const productGroups: ProductGroup[] = [
     featuredSpecs: ["manufacturer", "wattage", "ipRating"],
   },
 
-  // Protection Relays subcategory groups
-  {
-    key: "digital-motor-protection-relay",
-    slug: "digital-motor-protection-relays",
-    titleKey: "products:productGroups.digitalMotorProtectionRelay.title",
-    descriptionKey: "products:productGroups.digitalMotorProtectionRelay.description",
-    subcategoryKey: "protection-relays",
-    image: "motor-protection-relay",
-    featuredSpecs: ["manufacturer", "model", "currentRange", "features"],
-  },
-  {
-    key: "voltage-monitoring-relay",
-    slug: "voltage-monitoring-relays",
-    titleKey: "products:productGroups.voltageMonitoringRelay.title",
-    descriptionKey: "products:productGroups.voltageMonitoringRelay.description",
-    subcategoryKey: "protection-relays",
-    image: "voltage-monitoring-relay",
-    featuredSpecs: ["manufacturer", "voltageRange", "phases"],
-  },
+  // Protection Relays subcategory groups - moved to contactors-relays per user requirements
 
-  // Instrument Transformers subcategory groups
-  {
-    key: "current-transformers",
-    slug: "current-transformers",
-    titleKey: "products:productGroups.currentTransformers.title",
-    descriptionKey: "products:productGroups.currentTransformers.description",
-    subcategoryKey: "instrument-transformers",
-    image: "current-transformer",
-    featuredSpecs: ["manufacturer", "ratio", "accuracy", "burden"],
-  },
-  {
-    key: "potential-transformers",
-    slug: "potential-transformers",
-    titleKey: "products:productGroups.potentialTransformers.title",
-    descriptionKey: "products:productGroups.potentialTransformers.description",
-    subcategoryKey: "instrument-transformers",
-    image: "potential-transformer",
-    featuredSpecs: ["manufacturer", "ratio", "accuracy", "burden"],
-  },
+  // Instrument Transformers subcategory groups - moved to transformers-power-devices per user requirements
 
   // Panel Meters & Indicators subcategory groups
   {
@@ -1481,6 +1481,15 @@ export const productGroups: ProductGroup[] = [
     subcategoryKey: "panel-meters-indicators",
     image: "power-factor-meter",
     featuredSpecs: ["manufacturer", "type", "accuracy"],
+  },
+  {
+    key: "multi-function-meters",
+    slug: "multi-function-meters",
+    titleKey: "products:productGroups.multiFunctionMeters.title",
+    descriptionKey: "products:productGroups.multiFunctionMeters.description",
+    subcategoryKey: "panel-meters-indicators",
+    image: "multi-function-meter",
+    featuredSpecs: ["manufacturer", "parameters", "communication"],
   },
 
   // Additional product groups for existing subcategories
