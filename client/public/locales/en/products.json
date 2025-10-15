@@ -220,17 +220,7 @@
       ]
     }
   },
-  "cablesWires": {
-    "instrumentation": {
-      "title": "Instrumentation Cables",
-      "description": "Low voltage shielded cables for instrumentation and control applications",
-      "features": [
-        "Shielded Construction",
-        "Moisture Resistant",
-        "Temperature Rated",
-        "Multiple Pair Configuration"
-      ]
-    },
+  "electricalCables": {
     "powerDistribution": {
       "title": "Power Distribution Cables",
       "description": "High voltage cables for power transmission and distribution systems",
@@ -249,6 +239,38 @@
         "Fiber Optic Options",
         "Industrial Grade",
         "EMI Shielding"
+      ]
+    }
+  },
+  "instrumentationCables": {
+    "shieldedPair": {
+      "title": "Shielded Pair Cables",
+      "description": "Low voltage shielded cables for instrumentation and control applications",
+      "features": [
+        "Shielded Construction",
+        "Moisture Resistant",
+        "Temperature Rated",
+        "Multiple Pair Configuration"
+      ]
+    },
+    "thermocouple": {
+      "title": "Thermocouple Extension Cables",
+      "description": "Specialized cables for temperature measurement with thermocouples",
+      "features": [
+        "Compensated Construction",
+        "High Temperature Rating",
+        "Color Coded Insulation",
+        "Low Thermal EMF"
+      ]
+    },
+    "rtd": {
+      "title": "RTD Sensor Cables",
+      "description": "Precision cables for RTD temperature sensors and transmitters",
+      "features": [
+        "Low Resistance",
+        "Twisted Pair Design",
+        "Excellent Noise Immunity",
+        "Flexible Installation"
       ]
     }
   },
@@ -488,9 +510,13 @@
       "title": "Signal Conditioners",
       "description": "Signal processing and conditioning equipment"
     },
-    "cables-wires": {
-      "title": "Cables & Wires",
-      "description": "Industrial cables and wiring solutions"
+    "electrical-cables": {
+      "title": "Electrical Cables",
+      "description": "Industrial power and control cables for electrical systems"
+    },
+    "instrumentation-cables": {
+      "title": "Instrumentation Cables",
+      "description": "Precision cables for process control and measurement systems"
     },
     "connectors-terminals": {
       "title": "Connectors & Terminals",

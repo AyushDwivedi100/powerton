@@ -1224,10 +1224,15 @@ export const PRODUCT_IMAGES = {
   },
 
   // Cables and connectors
-  "cables-wires": {
+  "electrical-cables": {
     src: electricalComponentsImage,
-    alt: `${IMAGE_IDS.ELECTRICAL_COMPONENTS}: Cables and wires - Industrial electrical cables`,
+    alt: `${IMAGE_IDS.ELECTRICAL_COMPONENTS}: Electrical cables - Industrial electrical cables`,
     id: IMAGE_IDS.ELECTRICAL_COMPONENTS,
+  },
+  "instrumentation-cables": {
+    src: instrumentationComponentsImage,
+    alt: `${IMAGE_IDS.INSTRUMENTATION_COMPONENTS}: Instrumentation cables - Precision cables for instrumentation`,
+    id: IMAGE_IDS.INSTRUMENTATION_COMPONENTS,
   },
   "connectors-terminals": {
     src: electricalComponentsImage,
@@ -2302,7 +2307,7 @@ export const SUBCATEGORY_IMAGE_MAPPING = {
   "solar-inverters": "solar-products",
 
   // Electrical components
-  "cables-wires": "electrical-components",
+  "electrical-cables": "electrical-components",
   "connectors-terminals": "electrical-components",
   "circuit-breakers-fuses": "electrical-components",
   "power-supplies": "electrical-components",
@@ -2341,6 +2346,9 @@ export const SUBCATEGORY_IMAGE_MAPPING = {
   // Sensors and transmitters
   sensors: "sensors",
   transmitters: "transmitters",
+  
+  // Instrumentation
+  "instrumentation-cables": "instrumentation-accessories",
 } as const;
 
 // Modern helper functions with enhanced features

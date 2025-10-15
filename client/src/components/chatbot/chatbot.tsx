@@ -652,7 +652,7 @@ export default function Chatbot() {
           {
             label: t("chatbot.options.cablesConnectors"),
             action: "page",
-            page: "product-cables-wires",
+            page: "product-electrical-cables",
           },
           {
             label: t("chatbot.options.enclosuresCabinets"),

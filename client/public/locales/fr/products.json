@@ -220,17 +220,7 @@
       ]
     }
   },
-  "cablesWires": {
-    "instrumentation": {
-      "title": "Câbles d'instrumentation",
-      "description": "Câbles blindés basse tension pour les applications d'instrumentation et de contrôle",
-      "features": [
-        "Construction blindée",
-        "Résistant à l'humidité",
-        "Température nominale",
-        "Configuration à paires multiples"
-      ]
-    },
+  "electricalCables": {
     "powerDistribution": {
       "title": "Câbles de distribution d'énergie",
       "description": "Câbles haute tension pour les systèmes de transmission et de distribution d'énergie",
@@ -249,6 +239,38 @@
         "Options de fibre optique",
         "Qualité industrielle",
         "Blindage EMI"
+      ]
+    }
+  },
+  "instrumentationCables": {
+    "shieldedPair": {
+      "title": "Câbles à paires blindées",
+      "description": "Câbles blindés basse tension pour les applications d'instrumentation et de contrôle",
+      "features": [
+        "Construction blindée",
+        "Résistant à l'humidité",
+        "Température nominale",
+        "Configuration à paires multiples"
+      ]
+    },
+    "thermocouple": {
+      "title": "Câbles d'extension pour thermocouples",
+      "description": "Câbles spécialisés pour la mesure de température avec thermocouples",
+      "features": [
+        "Construction compensée",
+        "Haute température nominale",
+        "Isolation codée par couleur",
+        "Faible FEM thermique"
+      ]
+    },
+    "rtd": {
+      "title": "Câbles de capteurs RTD",
+      "description": "Câbles de précision pour capteurs et transmetteurs de température RTD",
+      "features": [
+        "Faible résistance",
+        "Conception à paire torsadée",
+        "Excellente immunité au bruit",
+        "Installation flexible"
       ]
     }
   },
@@ -488,9 +510,13 @@
       "title": "Conditionneurs de signaux",
       "description": "Équipement de traitement et de conditionnement du signal"
     },
-    "cables-wires": {
-      "title": "Câbles et fils",
-      "description": "Solutions de câbles et de câblage industriels"
+    "electrical-cables": {
+      "title": "Câbles électriques",
+      "description": "Câbles d'alimentation et de contrôle industriels pour systèmes électriques"
+    },
+    "instrumentation-cables": {
+      "title": "Câbles d'instrumentation",
+      "description": "Câbles de précision pour les systèmes de contrôle de processus et de mesure"
     },
     "connectors-terminals": {
       "title": "Connecteurs et bornes",

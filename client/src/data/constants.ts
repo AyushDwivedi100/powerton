@@ -126,6 +126,11 @@ export const getProducts = (t: any) => [
         title: t("products:subcategories.instrument-transformers.title"),
         description: t("products:subcategories.instrument-transformers.description"),
       },
+      {
+        id: "instrumentation-cables",
+        title: t("products:subcategories.instrumentation-cables.title"),
+        description: t("products:subcategories.instrumentation-cables.description"),
+      },
     ],
   },
   {
@@ -142,9 +147,9 @@ export const getProducts = (t: any) => [
     ],
     subcategories: [
       {
-        id: "cables-wires",
-        title: t("products:subcategories.cables-wires.title"),
-        description: t("products:subcategories.cables-wires.description"),
+        id: "electrical-cables",
+        title: t("products:subcategories.electrical-cables.title"),
+        description: t("products:subcategories.electrical-cables.description"),
       },
       {
         id: "connectors-terminals",

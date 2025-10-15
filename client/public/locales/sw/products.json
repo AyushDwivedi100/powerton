@@ -220,17 +220,7 @@
       ]
     }
   },
-  "cablesWires": {
-    "instrumentation": {
-      "title": "Kebo za Ala",
-      "description": "Kebo zilizolindwa za voltage ya chini kwa ajili ya ala na matumizi ya udhibiti",
-      "features": [
-        "Ujenzi Uliolindwa",
-        "Inayostahimili Unyevu",
-        "Imekadiriwa Joto",
-        "Usanidi wa Jozi Nyingi"
-      ]
-    },
+  "electricalCables": {
     "powerDistribution": {
       "title": "Kebo za Usambazaji Nguvu",
       "description": "Kebo za voltage ya juu kwa mifumo ya usambazaji na usambazaji wa nguvu",
@@ -249,6 +239,38 @@
         "Chaguzi za Fiber Optic",
         "Kiwango cha Viwanda",
         "Ukingaji wa EMI"
+      ]
+    }
+  },
+  "instrumentationCables": {
+    "shieldedPair": {
+      "title": "Kebo za Jozi Zilizolindwa",
+      "description": "Kebo zilizolindwa za voltage ya chini kwa ajili ya ala na matumizi ya udhibiti",
+      "features": [
+        "Ujenzi Uliolindwa",
+        "Inayostahimili Unyevu",
+        "Imekadiriwa Joto",
+        "Usanidi wa Jozi Nyingi"
+      ]
+    },
+    "thermocouple": {
+      "title": "Kebo za Upanuzi wa Thermocouple",
+      "description": "Kebo maalum kwa kupima joto na thermocouples",
+      "features": [
+        "Ujenzi Uliokompensatiwa",
+        "Kadiri ya Joto la Juu",
+        "Insulation yenye Rangi",
+        "EMF ya Joto la Chini"
+      ]
+    },
+    "rtd": {
+      "title": "Kebo za Sensor RTD",
+      "description": "Kebo sahihi kwa sensors za joto la RTD na watumaji",
+      "features": [
+        "Upinzani wa Chini",
+        "Muundo wa Jozi Iliyokazwa",
+        "Kinga Bora ya Kelele",
+        "Ufungaji Unaonyumbulika"
       ]
     }
   },
@@ -488,9 +510,13 @@
       "title": "Viyoyozi vya Mawimbi",
       "description": "Vifaa vya kuchakata na kurekebisha mawimbi"
     },
-    "cables-wires": {
-      "title": "Kebo na Waya",
-      "description": "Kebo za viwandani na suluhisho za wiringi"
+    "electrical-cables": {
+      "title": "Kebo za Umeme",
+      "description": "Kebo za nguvu na udhibiti za viwanda kwa mifumo ya umeme"
+    },
+    "instrumentation-cables": {
+      "title": "Kebo za Ala",
+      "description": "Kebo sahihi kwa mifumo ya udhibiti wa mchakato na kupima"
     },
     "connectors-terminals": {
       "title": "Viunganishi na Vituo",

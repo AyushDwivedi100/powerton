@@ -207,9 +207,9 @@ const PRODUCT_CATEGORIES: ProductCategory[] = [
     icon: "Zap",
     products: [
       {
-        path: "/products/electrical-components/cables-wires",
-        title: "cablesWires",
-        description: "cablesWiresDescription",
+        path: "/products/electrical-components/electrical-cables",
+        title: "electricalCables",
+        description: "electricalCablesDescription",
         icon: "Cable",
       },
       {

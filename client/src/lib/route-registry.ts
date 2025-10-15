@@ -278,6 +278,14 @@ export function initializeRoutes(): void {
       icon: "FlaskConical",
       parentRoute: "/products/instrumentation-accessories",
     },
+    {
+      path: "/products/instrumentation-accessories/instrumentation-cables",
+      title: "instrumentationCables",
+      description: "instrumentationCablesDescription",
+      category: "product-subcategories",
+      icon: "Cable",
+      parentRoute: "/products/instrumentation-accessories",
+    },
 
     // Measurement Instruments Subcategories
     {
@@ -307,9 +315,9 @@ export function initializeRoutes(): void {
 
     // Electrical Components Subcategories
     {
-      path: "/products/electrical-components/cables-wires",
-      title: "cablesWires",
-      description: "cablesWiresDescription",
+      path: "/products/electrical-components/electrical-cables",
+      title: "electricalCables",
+      description: "electricalCablesDescription",
       category: "product-subcategories",
       icon: "Cable",
       parentRoute: "/products/electrical-components",

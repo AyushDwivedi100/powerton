@@ -92,9 +92,9 @@
       ],
       "sectionTitle": "Suluhisho za Vifaa vya Umeme",
       "subcategories": {
-        "cables-wires": {
-          "title": "Kebo na Waya",
-          "description": "Kebo na waya za viwandani kwa usafirishaji wa nguvu na matumizi ya udhibiti",
+        "electrical-cables": {
+          "title": "Kebo za Umeme",
+          "description": "Kebo za umeme za viwandani kwa usafirishaji wa nguvu na mifumo ya usambazaji",
           "features": [
             "Kebo za Nguvu",
             "Kebo za Udhibiti",
@@ -934,10 +934,10 @@
         "keywords": "transfoma ya sasa, CT, transfoma ya uwezo, PT, transfoma ya ala, CT ya upimaji, CT ya ulinzi, transfoma ya volteji, transfoma ya kipimo"
       }
     },
-    "cables-wires": {
-      "title": "Kebo na Waya",
-      "shortDescription": "Kebo na waya za viwandani kwa usafirishaji wa nguvu na matumizi ya udhibiti",
-      "fullDescription": "Aina kamili za nyaya za umeme ikiwa ni pamoja na nyaya za nguvu, nyaya za udhibiti, nyaya za ala, na nyaya za mawasiliano kwa mitambo ya viwandani.",
+    "electrical-cables": {
+      "title": "Kebo za Umeme",
+      "shortDescription": "Kebo za umeme za viwandani kwa usafirishaji wa nguvu na mifumo ya usambazaji",
+      "fullDescription": "Aina kamili za kebo za umeme ikiwa ni pamoja na kebo za nguvu, kebo za udhibiti, kebo za ulinzi, na kebo za mawasiliano kwa usambazaji wa umeme wa viwandani na miundombinu ya umeme.",
       "parentCategoryTitle": "Vifaa vya Umeme",
       "keyBenefits": [
         "Uwezo Mkubwa wa Kubeba Sasa",
@@ -988,9 +988,9 @@
         "Inatii RoHS"
       ],
       "seo": {
-        "title": "Kebo na Waya za Viwandani - Nguvu, Udhibiti, Kebo za Ala | Powerton Engineering",
-        "description": "Kebo na waya za umeme za viwandani kwa usafirishaji wa nguvu, mizunguko ya udhibiti, na ala. Kebo za nguvu za volti ya juu, nyaya za udhibiti, na nyaya za mawasiliano.",
-        "keywords": "nyaya za viwandani, nyaya za nguvu, nyaya za udhibiti, nyaya za ala, waya za umeme, nyaya za mawasiliano, nyaya zenye silaha"
+        "title": "Kebo za Umeme - Nguvu, Udhibiti, Kebo za Ulinzi | Powerton Engineering",
+        "description": "Kebo za umeme za viwandani kwa usafirishaji wa nguvu, usambazaji na mizunguko ya udhibiti. Kebo za nguvu za volti ya juu, kebo za udhibiti, na kebo za ulinzi za mawasiliano.",
+        "keywords": "kebo za umeme, kebo za nguvu, kebo za udhibiti, kebo za ulinzi, waya za umeme, kebo za mawasiliano, kebo za viwandani"
       }
     },
     "connectors-terminals": {
@@ -3451,18 +3451,10 @@
     ]
   },
   "instrumentation-cables": {
-    "seo": {
-      "title": "Kebo za Ala - Usambazaji Sahihi wa Ishara | Powerton Engineering",
-      "description": "Kebo za ala za ubora wa juu na muundo uliolindwa kwa usambazaji sahihi wa ishara ya kipimo na udhibiti.",
-      "keywords": "kebo za ala, jozi iliyosokotwa iliyolindwa, kebo za ishara, kebo za kipimo, kebo za udhibiti, kebo za viwanda"
-    },
-    "hero": {
-      "title": "Kebo za Ala",
-      "subtitle": "Usambazaji Sahihi wa Ishara"
-    },
-    "overview": {
-      "fullDescription": "Kebo za ala za kitaalamu zilizoundwa kwa usambazaji sahihi wa ishara katika matumizi ya kipimo na udhibiti wa viwanda. Inaangazia muundo wa jozi iliyosokotwa iliyolindwa, kukataliwa bora kwa kelele, na uadilifu bora wa ishara kwa mifumo muhimu ya ala."
-    },
+    "title": "Kebo za Ala",
+    "shortDescription": "Kebo za ala za usahihi kwa usambazaji wa ishara ya kipimo na udhibiti sahihi",
+    "fullDescription": "Kebo za ala za kitaalamu zilizoundwa kwa usambazaji sahihi wa ishara katika matumizi ya kipimo na udhibiti wa viwanda. Inaangazia muundo wa jozi iliyosokotwa iliyolindwa, kukataliwa bora kwa kelele, na uadilifu bora wa ishara kwa mifumo muhimu ya ala.",
+    "parentCategoryTitle": "Vifaa vya Ala",
     "keyBenefits": [
       "Uadilifu Bora wa Ishara",
       "Kinga Bora ya Kelele",
@@ -3471,15 +3463,13 @@
       "Ufungaji Rahisi",
       "Maisha Marefu ya Huduma"
     ],
-    "features": [
-      "Muundo wa Jozi Iliyosokotwa Iliyolindwa",
-      "Muundo wa Uwezo Mdogo",
-      "Usanidi wa Waya ya Mfereji",
-      "Utambulisho wa Msimbo wa Rangi",
-      "Jacket ya Kuzuia Moto",
-      "Inayostahimili Mafuta na Kemikali",
-      "Uzi Unaobadilika",
-      "Chaguzi Nyingi za Jozi"
+    "specifications": [
+      "Ukadiriaji wa Voltage: 300V hadi 600V",
+      "Ukadiriaji wa Joto: -40°C hadi +105°C",
+      "Conductor: Shaba iliyotiwa Tini",
+      "Insulation: PVC, PE, XLPE",
+      "Shielding: Foil ya Aluminium, Braided",
+      "Viwango: IEC 60502, NFPA 70"
     ],
     "applications": [
       "Mifumo ya Udhibiti wa Mchakato",
@@ -3497,6 +3487,16 @@
       "Utengenezaji",
       "Dawa"
     ],
+    "features": [
+      "Muundo wa Jozi Iliyosokotwa Iliyolindwa",
+      "Muundo wa Uwezo Mdogo",
+      "Usanidi wa Waya ya Mfereji",
+      "Utambulisho wa Msimbo wa Rangi",
+      "Jacket ya Kuzuia Moto",
+      "Inayostahimili Mafuta na Kemikali",
+      "Uzi Unaobadilika",
+      "Chaguzi Nyingi za Jozi"
+    ],
     "certifications": [
       "Imeorodheshwa na UL",
       "Imethibitishwa na CSA",
@@ -3504,7 +3504,12 @@
       "IEC 60502",
       "NFPA 70",
       "Inatii RoHS"
-    ]
+    ],
+    "seo": {
+      "title": "Kebo za Ala - Usambazaji Sahihi wa Ishara | Powerton Engineering",
+      "description": "Kebo za ala za ubora wa juu na muundo uliolindwa kwa usambazaji sahihi wa ishara ya kipimo na udhibiti.",
+      "keywords": "kebo za ala, jozi iliyosokotwa iliyolindwa, kebo za ishara, kebo za kipimo, kebo za udhibiti, kebo za viwanda"
+    }
   },
   "bldcCeilingFan": {
     "smart1200": {

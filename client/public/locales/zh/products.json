@@ -220,17 +220,7 @@
       ]
     }
   },
-  "cablesWires": {
-    "instrumentation": {
-      "title": "仪器仪表电缆",
-      "description": "用于仪器仪表和控制应用的低压屏蔽电缆",
-      "features": [
-        "屏蔽结构",
-        "防潮",
-        "温度等级",
-        "多对配置"
-      ]
-    },
+  "electricalCables": {
     "powerDistribution": {
       "title": "配电电缆",
       "description": "用于电力传输和分配系统的高压电缆",
@@ -249,6 +239,38 @@
         "光纤选项",
         "工业级",
         "电磁干扰屏蔽"
+      ]
+    }
+  },
+  "instrumentationCables": {
+    "shieldedPair": {
+      "title": "屏蔽对线电缆",
+      "description": "用于仪器仪表和控制应用的低压屏蔽电缆",
+      "features": [
+        "屏蔽结构",
+        "防潮",
+        "温度等级",
+        "多对配置"
+      ]
+    },
+    "thermocouple": {
+      "title": "热电偶延伸电缆",
+      "description": "用于热电偶温度测量的专用电缆",
+      "features": [
+        "补偿结构",
+        "高温等级",
+        "彩色编码绝缘",
+        "低热电动势"
+      ]
+    },
+    "rtd": {
+      "title": "RTD传感器电缆",
+      "description": "用于RTD温度传感器和变送器的精密电缆",
+      "features": [
+        "低电阻",
+        "双绞线设计",
+        "优异的抗噪性",
+        "灵活安装"
       ]
     }
   },
@@ -488,9 +510,13 @@
       "title": "信号调理器",
       "description": "信号处理和调理设备"
     },
-    "cables-wires": {
-      "title": "电缆与电线",
-      "description": "工业电缆和布线解决方案"
+    "electrical-cables": {
+      "title": "电气电缆",
+      "description": "用于电气系统的工业电力和控制电缆"
+    },
+    "instrumentation-cables": {
+      "title": "仪器仪表电缆",
+      "description": "用于过程控制和测量系统的精密电缆"
     },
     "connectors-terminals": {
       "title": "连接器与端子",
@@ -808,9 +834,13 @@
       "title": "BLDC 潜水泵与地面泵",
       "subtitle": "用于供水、灌溉和太阳能应用的高能效 BLDC 泵"
     },
-    "cablesWires": {
-      "title": "电缆与电线",
-      "subtitle": "用于电力传输、仪器仪表和数据通信的工业电缆和电线"
+    "electricalCables": {
+      "title": "电气电缆",
+      "subtitle": "用于电力传输和通信系统的工业电缆"
+    },
+    "instrumentationCables": {
+      "title": "仪器仪表电缆",
+      "subtitle": "用于过程控制和测量系统的精密电缆"
     },
     "handTools": {
       "title": "手动工具",

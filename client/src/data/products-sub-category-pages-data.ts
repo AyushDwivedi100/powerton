@@ -393,50 +393,95 @@ export const getProductsSubCategoryData = (
     },
   },
 
-  // Electrical Accessories
+  // Electrical Components
   {
-    slug: "cables-wires",
-    title: t("products-data:subcategories.cables-wires.title"),
+    slug: "electrical-cables",
+    title: t("products-data:subcategories.electrical-cables.title"),
     shortDescription: t(
-      "products-data:subcategories.cables-wires.shortDescription"
+      "products-data:subcategories.electrical-cables.shortDescription"
     ),
     fullDescription: t(
-      "products-data:subcategories.cables-wires.fullDescription"
+      "products-data:subcategories.electrical-cables.fullDescription"
     ),
     image: cablesWiresImage,
-    parentCategory: "/products/electrical-accessories",
+    parentCategory: "/products/electrical-components",
     parentCategoryTitle: t(
-      "products-data:subcategories.cables-wires.parentCategoryTitle"
+      "products-data:subcategories.electrical-cables.parentCategoryTitle"
     ),
     icon: Cable,
-    keyBenefits: t("products-data:subcategories.cables-wires.keyBenefits", {
+    keyBenefits: t("products-data:subcategories.electrical-cables.keyBenefits", {
       returnObjects: true,
     }),
     specifications: t(
-      "products-data:subcategories.cables-wires.specifications",
+      "products-data:subcategories.electrical-cables.specifications",
       { returnObjects: true }
     ),
-    applications: t("products-data:subcategories.cables-wires.applications", {
+    applications: t("products-data:subcategories.electrical-cables.applications", {
       returnObjects: true,
     }),
-    industries: t("products-data:subcategories.cables-wires.industries", {
+    industries: t("products-data:subcategories.electrical-cables.industries", {
       returnObjects: true,
     }),
-    features: t("products-data:subcategories.cables-wires.features", {
+    features: t("products-data:subcategories.electrical-cables.features", {
       returnObjects: true,
     }),
     certifications: t(
-      "products-data:subcategories.cables-wires.certifications",
+      "products-data:subcategories.electrical-cables.certifications",
       { returnObjects: true }
     ),
     seo: {
-      title: t("products-data:subcategories.cables-wires.seo.title"),
+      title: t("products-data:subcategories.electrical-cables.seo.title"),
       description: t(
-        "products-data:subcategories.cables-wires.seo.description"
+        "products-data:subcategories.electrical-cables.seo.description"
       ),
-      keywords: t("products-data:subcategories.cables-wires.seo.keywords"),
+      keywords: t("products-data:subcategories.electrical-cables.seo.keywords"),
       canonicalUrl:
-        "https://powertonengineering.in/products/electrical-components/cables-wires",
+        "https://powertonengineering.in/products/electrical-components/electrical-cables",
+    },
+  },
+  {
+    slug: "instrumentation-cables",
+    title: t("products-data:subcategories.instrumentation-cables.title"),
+    shortDescription: t(
+      "products-data:subcategories.instrumentation-cables.shortDescription"
+    ),
+    fullDescription: t(
+      "products-data:subcategories.instrumentation-cables.fullDescription"
+    ),
+    image: sensorsBgImage,
+    parentCategory: "/products/instrumentation-accessories",
+    parentCategoryTitle: t(
+      "products-data:subcategories.instrumentation-cables.parentCategoryTitle"
+    ),
+    icon: Cable,
+    keyBenefits: t("products-data:subcategories.instrumentation-cables.keyBenefits", {
+      returnObjects: true,
+    }),
+    specifications: t(
+      "products-data:subcategories.instrumentation-cables.specifications",
+      { returnObjects: true }
+    ),
+    applications: t("products-data:subcategories.instrumentation-cables.applications", {
+      returnObjects: true,
+    }),
+    industries: t("products-data:subcategories.instrumentation-cables.industries", {
+      returnObjects: true,
+    }),
+    features: t("products-data:subcategories.instrumentation-cables.features", {
+      returnObjects: true,
+    }),
+    certifications: t(
+      "products-data:subcategories.instrumentation-cables.certifications",
+      { returnObjects: true }
+    ),
+    seo: {
+      title: t("products-data:subcategories.instrumentation-cables.seo.title"),
+      description: t(
+        "products-data:subcategories.instrumentation-cables.seo.description"
+      ),
+      keywords: t("products-data:subcategories.instrumentation-cables.seo.keywords"),
+      canonicalUrl:
+        "https://powertonengineering.in/products/instrumentation-accessories/instrumentation-cables",
     },
   },
   {
@@ -2191,7 +2236,7 @@ export const getSubcategorySlugById = (
     switches: "switches-indicators",
     valves: "valves-actuators",
     analyzers: "analyzers",
-    "cables-wires": "cables-wires",
+    "electrical-cables": "electrical-cables",
     "connectors-terminals": "connectors-terminals",
     "circuit-breakers-fuses": "circuit-breakers-fuses",
     "power-supplies": "power-supplies",
@@ -2258,7 +2303,8 @@ export const getParentCategoryBySubcategoryKey = (
     "instrument-transformers": "instrumentation-accessories",
 
     // Electrical Components
-    "cables-wires": "electrical-accessories",
+    "electrical-cables": "electrical-components",
+    "instrumentation-cables": "instrumentation-accessories",
     "connectors-terminals": "electrical-accessories",
     "circuit-breakers-fuses": "electrical-accessories",
     "power-supplies": "electrical-accessories",
@@ -2322,7 +2368,8 @@ export const getSubcategoryKeyBySlug = (subcategorySlug: string): string => {
     "valves-actuators": "valves-actuators",
     analyzers: "analyzers",
     "instrument-transformers": "instrument-transformers",
-    "cables-wires": "cables-wires",
+    "electrical-cables": "electrical-cables",
+    "instrumentation-cables": "instrumentation-cables",
     "connectors-terminals": "connectors-terminals",
     "circuit-breakers-fuses": "circuit-breakers-fuses",
     "power-supplies": "power-supplies",

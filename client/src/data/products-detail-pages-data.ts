@@ -302,14 +302,14 @@ export const productGroups: ProductGroup[] = [
     featuredSpecs: ["manufacturer", "model", "bottles", "analysis"],
   },
 
-  // Electrical Accessories category groups
-  // Cables & Wires subcategory groups
+  // Electrical Components category groups
+  // Electrical Cables subcategory groups
   {
     key: "power-cables",
     slug: "power-cables",
     titleKey: "products:productGroups.powerCables.title",
     descriptionKey: "products:productGroups.powerCables.description",
-    subcategoryKey: "cables-wires",
+    subcategoryKey: "electrical-cables",
     image: "power-cable",
     featuredSpecs: ["conductor", "voltage", "insulation"],
   },
@@ -318,7 +318,7 @@ export const productGroups: ProductGroup[] = [
     slug: "control-cables",
     titleKey: "products:productGroups.controlCables.title",
     descriptionKey: "products:productGroups.controlCables.description",
-    subcategoryKey: "cables-wires",
+    subcategoryKey: "electrical-cables",
     image: "control-cable",
     featuredSpecs: ["conductor", "voltage", "shielding"],
   },
@@ -327,7 +327,7 @@ export const productGroups: ProductGroup[] = [
     slug: "instrumentation-cables",
     titleKey: "products:productGroups.instrumentationCables.title",
     descriptionKey: "products:productGroups.instrumentationCables.description",
-    subcategoryKey: "cables-wires",
+    subcategoryKey: "instrumentation-cables",
     image: "instrumentation-cable",
     featuredSpecs: ["conductor", "voltage", "shielding"],
   },
@@ -3283,8 +3283,8 @@ export const products: Product[] = [
     id: "instrumentation-cables",
     slug: "instrumentation-cables",
     categoryKey: "electrical-components",
-    subcategoryKey: "cables-wires",
-    image: "cables-wires",
+    subcategoryKey: "electrical-cables",
+    image: "electrical-cables",
     translationKeys: {
       title: "products-data:instrumentation-cables.title",
       description: "products-data:instrumentation-cables.description",
@@ -3302,8 +3302,8 @@ export const products: Product[] = [
     id: "power-distribution-cables",
     slug: "power-distribution-cables",
     categoryKey: "electrical-components",
-    subcategoryKey: "cables-wires",
-    image: "cables-wires",
+    subcategoryKey: "electrical-cables",
+    image: "electrical-cables",
     translationKeys: {
       title: "products-data:power-distribution-cables.title",
       description: "products-data:power-distribution-cables.description",
@@ -3321,8 +3321,8 @@ export const products: Product[] = [
     id: "communication-cables",
     slug: "communication-cables",
     categoryKey: "electrical-components",
-    subcategoryKey: "cables-wires",
-    image: "cables-wires",
+    subcategoryKey: "electrical-cables",
+    image: "electrical-cables",
     translationKeys: {
       title: "products-data:communication-cables.title",
       description: "products-data:communication-cables.description",
@@ -7402,7 +7402,7 @@ export const products: Product[] = [
     id: "belden-8205",
     slug: "belden-8205-instrumentation-cable",
     categoryKey: "electrical-components",
-    subcategoryKey: "cables-wires",
+    subcategoryKey: "electrical-cables",
     typeKey: "instrumentation-cables",
     image: "instrumentation-cable",
     translationKeys: {
@@ -7428,7 +7428,7 @@ export const products: Product[] = [
     id: "belden-8442",
     slug: "belden-8442-instrumentation-cable",
     categoryKey: "electrical-components",
-    subcategoryKey: "cables-wires",
+    subcategoryKey: "electrical-cables",
     typeKey: "instrumentation-cables",
     image: "instrumentation-cable",
     translationKeys: {
@@ -7454,7 +7454,7 @@ export const products: Product[] = [
     id: "belden-8725",
     slug: "belden-8725-instrumentation-cable",
     categoryKey: "electrical-components",
-    subcategoryKey: "cables-wires",
+    subcategoryKey: "electrical-cables",
     typeKey: "instrumentation-cables",
     image: "instrumentation-cable",
     translationKeys: {
@@ -7481,7 +7481,7 @@ export const products: Product[] = [
     id: "alpha-wire-9174",
     slug: "alpha-wire-9174-instrumentation-cable",
     categoryKey: "electrical-components",
-    subcategoryKey: "cables-wires",
+    subcategoryKey: "electrical-cables",
     typeKey: "instrumentation-cables",
     image: "instrumentation-cable",
     translationKeys: {
@@ -7507,7 +7507,7 @@ export const products: Product[] = [
     id: "alpha-wire-xtra-guard-4",
     slug: "alpha-wire-xtra-guard-4-cable",
     categoryKey: "electrical-components",
-    subcategoryKey: "cables-wires",
+    subcategoryKey: "electrical-cables",
     typeKey: "instrumentation-cables",
     image: "instrumentation-cable",
     translationKeys: {
@@ -8170,8 +8170,8 @@ export const products: Product[] = [
     id: "cable-instrumentation-shielded",
     slug: "cable-instrumentation-shielded",
     categoryKey: "electrical-components",
-    subcategoryKey: "cables-wires",
-    image: "cables-wires",
+    subcategoryKey: "electrical-cables",
+    image: "electrical-cables",
     specs: {
       type: "Instrumentation Cable",
       pairs: "1-24 Pairs",
@@ -8198,8 +8198,8 @@ export const products: Product[] = [
     id: "cable-power-distribution-medium-voltage",
     slug: "cable-power-distribution-medium-voltage",
     categoryKey: "electrical-components",
-    subcategoryKey: "cables-wires",
-    image: "cables-wires",
+    subcategoryKey: "electrical-cables",
+    image: "electrical-cables",
     specs: {
       type: "MV Power Cable",
       voltage: "11kV - 33kV",
@@ -8226,8 +8226,8 @@ export const products: Product[] = [
     id: "cable-communication-fieldbus-ethernet",
     slug: "cable-communication-fieldbus-ethernet",
     categoryKey: "electrical-components",
-    subcategoryKey: "cables-wires",
-    image: "cables-wires",
+    subcategoryKey: "electrical-cables",
+    image: "electrical-cables",
     specs: {
       type: "Fieldbus/Ethernet",
       protocol: "Profibus, DeviceNet, Ethernet/IP",
@@ -15618,7 +15618,7 @@ export const products: Product[] = [
     id: "polycab-fr-lsh-cable-1-1kv",
     slug: "polycab-fr-lsh-1-1kv-cable",
     categoryKey: "electrical-components",
-    subcategoryKey: "cables-wires",
+    subcategoryKey: "electrical-cables",
     typeKey: "power-cables",
     image: "power-cable",
     title: "Polycab FR-LSH 1.1kV Power Cable",
@@ -15647,7 +15647,7 @@ export const products: Product[] = [
     id: "havells-xlpe-3-core-cable",
     slug: "havells-xlpe-3-core-lt-cable",
     categoryKey: "electrical-components",
-    subcategoryKey: "cables-wires",
+    subcategoryKey: "electrical-cables",
     typeKey: "power-cables",
     image: "power-cable",
     title: "Havells XLPE 3-Core LT Power Cable",
@@ -15678,7 +15678,7 @@ export const products: Product[] = [
     id: "polycab-control-cable-multicore",
     slug: "polycab-multicore-control-cable",
     categoryKey: "electrical-components",
-    subcategoryKey: "cables-wires",
+    subcategoryKey: "electrical-cables",
     typeKey: "control-cables",
     image: "control-cable",
     title: "Polycab Multi-Core Control Cable",
@@ -15706,7 +15706,7 @@ export const products: Product[] = [
     id: "havells-xlpe-control-cable",
     slug: "havells-xlpe-control-cable",
     categoryKey: "electrical-components",
-    subcategoryKey: "cables-wires",
+    subcategoryKey: "electrical-cables",
     typeKey: "control-cables",
     image: "control-cable",
     title: "Havells XLPE Control Cable",
@@ -21053,8 +21053,8 @@ export const categories: Category[] = [
     translationKey: "products:categories.electricalComponents",
     subcategories: [
       {
-        key: "cables-wires",
-        translationKey: "products:subcategories.cablesWires",
+        key: "electrical-cables",
+        translationKey: "products:subcategories.electricalCables",
         products: [
           "instrumentation-cables",
           "power-distribution-cables",

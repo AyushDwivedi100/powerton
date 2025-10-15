@@ -92,13 +92,13 @@
       ],
       "sectionTitle": "Electrical accessories Solutions",
       "subcategories": {
-        "cables-wires": {
-          "title": "Cables & Wires",
-          "description": "Industrial cables and wires for power transmission and control applications",
+        "electrical-cables": {
+          "title": "Electrical Cables",
+          "description": "Industrial electrical cables for power transmission and distribution systems",
           "features": [
             "Power Cables",
             "Control Cables",
-            "Instrumentation Cables",
+            "Armored Cables",
             "Communication Cables"
           ]
         },
@@ -927,65 +927,6 @@
         "title": "Instrument Transformers - CT & PT Current Potential Transformers | Powerton Engineering",
         "description": "Precision instrument transformers including current transformers (CT) and potential transformers (PT) for accurate measurement, metering, and protection in power distribution systems.",
         "keywords": "current transformer, CT, potential transformer, PT, instrument transformer, metering CT, protection CT, voltage transformer, measurement transformer"
-      }
-    },
-    "cables-wires": {
-      "title": "Cables & Wires",
-      "shortDescription": "Industrial cables and wires for power transmission and control applications",
-      "fullDescription": "Comprehensive range of electrical cables including power cables, control cables, instrumentation cables, and communication cables for industrial installations.",
-      "parentCategoryTitle": "Electrical Accessories",
-      "keyBenefits": [
-        "High Current Carrying Capacity",
-        "Excellent Insulation Properties",
-        "Flame Retardant Materials",
-        "Long Service Life"
-      ],
-      "specifications": [
-        "Voltage Rating: 300V to 33kV",
-        "Temperature Rating: -40°C to +90°C",
-        "Conductor: Copper/Aluminum",
-        "Insulation: PVC, XLPE, EPR",
-        "Shielding: Braid, Foil, Combination",
-        "Standards: IEC, IEEE, ASTM"
-      ],
-      "applications": [
-        "Power Distribution",
-        "Motor Connections",
-        "Control Circuits",
-        "Instrumentation",
-        "Communication Networks",
-        "Grounding Systems"
-      ],
-      "industries": [
-        "Power Generation",
-        "Manufacturing",
-        "Infrastructure",
-        "Marine & Offshore",
-        "Mining",
-        "Transportation"
-      ],
-      "features": [
-        "Fire Resistant",
-        "Oil Resistant",
-        "UV Resistant",
-        "Moisture Resistant",
-        "Flexible Design",
-        "Easy Installation",
-        "Low Smoke Emission",
-        "Halogen Free Options"
-      ],
-      "certifications": [
-        "IEC 60502 Certified",
-        "IEEE 1202 Tested",
-        "UL Listed",
-        "CSA Approved",
-        "CE Marked",
-        "RoHS Compliant"
-      ],
-      "seo": {
-        "title": "Industrial Cables & Wires - Power, Control, Instrumentation Cables | Powerton Engineering",
-        "description": "Industrial electrical cables and wires for power transmission, control circuits, and instrumentation. High voltage power cables, control cables, and communication cables.",
-        "keywords": "industrial cables, power cables, control cables, instrumentation cables, electrical wires, communication cables, armored cables"
       }
     },
     "connectors-terminals": {
@@ -3171,6 +3112,126 @@
         "description": "Compact BLDC motors for table and wall fans. Energy-efficient brushless DC motors with silent operation and long service life.",
         "keywords": "BLDC fan motors, table fan motors, wall fan motors, energy efficient motors, brushless DC motors, fan motors"
       }
+    },
+    "electrical-cables": {
+      "title": "Electrical Cables",
+      "shortDescription": "Industrial electrical cables for power transmission and distribution systems",
+      "fullDescription": "Comprehensive range of electrical cables including power cables, control cables, armored cables, and communication cables for industrial power distribution and electrical installations.",
+      "parentCategoryTitle": "Electrical Accessories",
+      "keyBenefits": [
+        "High Current Carrying Capacity",
+        "Excellent Insulation Properties",
+        "Flame Retardant Materials",
+        "Long Service Life"
+      ],
+      "specifications": [
+        "Voltage Rating: 300V to 33kV",
+        "Temperature Rating: -40°C to +90°C",
+        "Conductor: Copper/Aluminum",
+        "Insulation: PVC, XLPE, EPR",
+        "Shielding: Braid, Foil, Combination",
+        "Standards: IEC, IEEE, ASTM"
+      ],
+      "applications": [
+        "Power Distribution",
+        "Motor Connections",
+        "Control Circuits",
+        "Instrumentation",
+        "Communication Networks",
+        "Grounding Systems"
+      ],
+      "industries": [
+        "Power Generation",
+        "Manufacturing",
+        "Infrastructure",
+        "Marine & Offshore",
+        "Mining",
+        "Transportation"
+      ],
+      "features": [
+        "Fire Resistant",
+        "Oil Resistant",
+        "UV Resistant",
+        "Moisture Resistant",
+        "Flexible Design",
+        "Easy Installation",
+        "Low Smoke Emission",
+        "Halogen Free Options"
+      ],
+      "certifications": [
+        "IEC 60502 Certified",
+        "IEEE 1202 Tested",
+        "UL Listed",
+        "CSA Approved",
+        "CE Marked",
+        "RoHS Compliant"
+      ],
+      "seo": {
+        "title": "Electrical Cables - Power, Control, Armored Cables | Powerton Engineering",
+        "description": "Industrial electrical cables for power transmission, distribution, and control circuits. High voltage power cables, control cables, and armored communication cables.",
+        "keywords": "electrical cables, power cables, control cables, armored cables, electrical wires, communication cables, industrial cables"
+      }
+    },
+    "instrumentation-cables": {
+      "title": "Instrumentation Cables",
+      "shortDescription": "Precision instrumentation cables for accurate measurement and control signal transmission",
+      "fullDescription": "Professional instrumentation cables designed for precise signal transmission in industrial measurement and control applications. Features shielded twisted pair construction, excellent noise rejection, and superior signal integrity for critical instrumentation systems.",
+      "parentCategoryTitle": "Instrumentation Accessories",
+      "keyBenefits": [
+        "Superior Signal Integrity",
+        "Excellent Noise Immunity",
+        "Wide Temperature Range",
+        "Chemical Resistant",
+        "Flexible Installation",
+        "Long Service Life"
+      ],
+      "specifications": [
+        "Voltage Rating: 300V to 600V",
+        "Temperature Rating: -40°C to +105°C",
+        "Conductor: Tinned Copper",
+        "Insulation: PVC, PE, XLPE",
+        "Shielding: Aluminum Foil, Braid",
+        "Standards: IEC 60502, NFPA 70"
+      ],
+      "applications": [
+        "Process Control Systems",
+        "Instrumentation Loops",
+        "Sensor Connections",
+        "Transmitter Wiring",
+        "Analyzer Connections",
+        "Control Room Wiring"
+      ],
+      "industries": [
+        "Oil & Gas",
+        "Chemical Processing",
+        "Power Generation",
+        "Water Treatment",
+        "Manufacturing",
+        "Pharmaceutical"
+      ],
+      "features": [
+        "Shielded Twisted Pair Design",
+        "Low Capacitance Construction",
+        "Drain Wire Configuration",
+        "Color-Coded Identification",
+        "Flame Retardant Jacket",
+        "Oil & Chemical Resistant",
+        "Flexible Stranding",
+        "Multiple Pair Options"
+      ],
+      "certifications": [
+        "UL Listed",
+        "CSA Certified",
+        "CE Marked",
+        "IEC 60502",
+        "NFPA 70",
+        "RoHS Compliant"
+      ],
+      "seo": {
+        "title": "Instrumentation Cables - Precision Signal Transmission | Powerton Engineering",
+        "description": "High-quality instrumentation cables with shielded construction for accurate measurement and control signal transmission.",
+        "keywords": "instrumentation cables, shielded twisted pair, signal cables, measurement cables, control cables, industrial cables"
+      }
     }
   },
   "surgeProtectors": {
@@ -3446,18 +3507,10 @@
     ]
   },
   "instrumentation-cables": {
-    "seo": {
-      "title": "Instrumentation Cables - Precision Signal Transmission | Powerton Engineering",
-      "description": "High-quality instrumentation cables with shielded construction for accurate measurement and control signal transmission.",
-      "keywords": "instrumentation cables, shielded twisted pair, signal cables, measurement cables, control cables, industrial cables"
-    },
-    "hero": {
-      "title": "Instrumentation Cables",
-      "subtitle": "Precision Signal Transmission"
-    },
-    "overview": {
-      "fullDescription": "Professional instrumentation cables designed for precise signal transmission in industrial measurement and control applications. Features shielded twisted pair construction, excellent noise rejection, and superior signal integrity for critical instrumentation systems."
-    },
+    "title": "Instrumentation Cables",
+    "shortDescription": "Precision instrumentation cables for accurate measurement and control signal transmission",
+    "fullDescription": "Professional instrumentation cables designed for precise signal transmission in industrial measurement and control applications. Features shielded twisted pair construction, excellent noise rejection, and superior signal integrity for critical instrumentation systems.",
+    "parentCategoryTitle": "Instrumentation Accessories",
     "keyBenefits": [
       "Superior Signal Integrity",
       "Excellent Noise Immunity",
@@ -3466,15 +3519,13 @@
       "Flexible Installation",
       "Long Service Life"
     ],
-    "features": [
-      "Shielded Twisted Pair Design",
-      "Low Capacitance Construction",
-      "Drain Wire Configuration",
-      "Color-Coded Identification",
-      "Flame Retardant Jacket",
-      "Oil & Chemical Resistant",
-      "Flexible Stranding",
-      "Multiple Pair Options"
+    "specifications": [
+      "Voltage Rating: 300V to 600V",
+      "Temperature Rating: -40°C to +105°C",
+      "Conductor: Tinned Copper",
+      "Insulation: PVC, PE, XLPE",
+      "Shielding: Aluminum Foil, Braid",
+      "Standards: IEC 60502, NFPA 70"
     ],
     "applications": [
       "Process Control Systems",
@@ -3492,6 +3543,16 @@
       "Manufacturing",
       "Pharmaceutical"
     ],
+    "features": [
+      "Shielded Twisted Pair Design",
+      "Low Capacitance Construction",
+      "Drain Wire Configuration",
+      "Color-Coded Identification",
+      "Flame Retardant Jacket",
+      "Oil & Chemical Resistant",
+      "Flexible Stranding",
+      "Multiple Pair Options"
+    ],
     "certifications": [
       "UL Listed",
       "CSA Certified",
@@ -3499,7 +3560,12 @@
       "IEC 60502",
       "NFPA 70",
       "RoHS Compliant"
-    ]
+    ],
+    "seo": {
+      "title": "Instrumentation Cables - Precision Signal Transmission | Powerton Engineering",
+      "description": "High-quality instrumentation cables with shielded construction for accurate measurement and control signal transmission.",
+      "keywords": "instrumentation cables, shielded twisted pair, signal cables, measurement cables, control cables, industrial cables"
+    }
   },
   "bldcCeilingFan": {
     "smart1200": {

@@ -92,9 +92,9 @@
       ],
       "sectionTitle": "Maganin Kayan Aikin Lantarki",
       "subcategories": {
-        "cables-wires": {
-          "title": "Kebuloli & Wayoyi",
-          "description": "Kebuloli na masana'antu da wayoyi don watsa wutar lantarki da aikace-aikacen sarrafawa",
+        "electrical-cables": {
+          "title": "Kebuloli Na Lantarki",
+          "description": "Kebuloli na lantarki na masana'antu don watsa wutar lantarki da tsarin rarraba",
           "features": [
             "Kebulolin Wuta",
             "Kebulolin Sarrafawa",
@@ -929,10 +929,10 @@
         "keywords": "transfoma na yanzu, CT, transfoma mai yuwuwa, PT, transfoma na kayan aiki, CT na aunawa, CT na kariya, transfoma na wutar lantarki, transfoma na aunawa"
       }
     },
-    "cables-wires": {
-      "title": "Kebuloli & Wayoyi",
-      "shortDescription": "Kebuloli na masana'antu da wayoyi don watsawa wutar lantarki da aikace-aikacen sarrafawa",
-      "fullDescription": "Kewayon kebuloli na lantarki gami da kebuloli na wuta, kebuloli na sarrafawa, kebuloli na kayan aiki, da kebuloli na sadarwa don shigarwar masana'antu.",
+    "electrical-cables": {
+      "title": "Kebuloli Na Lantarki",
+      "shortDescription": "Kebuloli na lantarki na masana'antu don watsa wutar lantarki da tsarin rarraba",
+      "fullDescription": "Kewayon kebuloli na lantarki gami da kebuloli na wuta, kebuloli na sarrafawa, kebuloli masu kariya, da kebuloli na sadarwa don rarraba wutar lantarki na masana'antu da kayan aikin lantarki.",
       "parentCategoryTitle": "Kayan Aikin Lantarki",
       "keyBenefits": [
         "Babban Ƙarfin ɗaukar Halin Yanzu",
@@ -983,9 +983,9 @@
         "RoHS Mai Yardarwa"
       ],
       "seo": {
-        "title": "Kebuloli & Wayoyi na Masana'antu - Wuta, Sarrafawa, Kebuloli na Kayan Aiki | Injiniyan Powerton",
-        "description": "Kebuloli na lantarki na masana'antu da wayoyi don watsawa wuta, kewayen sarrafawa, da kayan aiki. Kebuloli na wutar lantarki mai ƙarfi, kebuloli na sarrafawa, da kebuloli na sadarwa.",
-        "keywords": "kebuloli na masana'antu, kebuloli na wuta, kebuloli na sarrafawa, kebuloli na kayan aiki, wayoyi na lantarki, kebuloli na sadarwa, kebuloli masu sulke"
+        "title": "Kebuloli Na Lantarki - Wuta, Sarrafawa, Kebuloli Masu Kariya | Injiniyan Powerton",
+        "description": "Kebuloli na lantarki na masana'antu don watsawa wuta, rarraba da kewayen sarrafawa. Kebuloli na wutar lantarki mai ƙarfi, kebuloli na sarrafawa, da kebuloli masu kariya na sadarwa.",
+        "keywords": "kebuloli na lantarki, kebuloli na wuta, kebuloli na sarrafawa, kebuloli masu kariya, wayoyi na lantarki, kebuloli na sadarwa, kebuloli na masana'antu"
       }
     },
     "connectors-terminals": {
@@ -3446,18 +3446,10 @@
     ]
   },
   "instrumentation-cables": {
-    "seo": {
-      "title": "Kebul na Kayan Aiki - Daidaitaccen Watsawa Sigina | Injiniyan Powerton",
-      "description": "Kebul na kayan aiki masu inganci tare da garkuwar gini don daidaitaccen aunawa da watsawa siginar sarrafawa.",
-      "keywords": "kebul na kayan aiki, garkuwar murɗa biyu, kebul na sigina, kebul na aunawa, kebul na sarrafawa, kebul na masana'antu"
-    },
-    "hero": {
-      "title": "Kebul na Kayan Aiki",
-      "subtitle": "Daidaitaccen Watsawa Sigina"
-    },
-    "overview": {
-      "fullDescription": "Kebul na kayan aiki na ƙwararru wanda aka ƙera don daidaitaccen watsawa sigina a cikin aunawa masana'antu da aikace-aikacen sarrafawa. Yana fasalta garkuwar murɗa biyu, ƙin amo mai kyau, da ingantaccen amincin sigina don mahimman tsarin kayan aiki."
-    },
+    "title": "Kebul na Kayan Aiki",
+    "shortDescription": "Kebulolin kayan aiki masu daidaito don daidaitaccen aunawa da watsawa siginar sarrafawa",
+    "fullDescription": "Kebul na kayan aiki na ƙwararru wanda aka ƙera don daidaitaccen watsawa sigina a cikin aunawa masana'antu da aikace-aikacen sarrafawa. Yana fasalta garkuwar murɗa biyu, ƙin amo mai kyau, da ingantaccen amincin sigina don mahimman tsarin kayan aiki.",
+    "parentCategoryTitle": "Kayan Aikin Na'urorin Auna Kayan Aiki",
     "keyBenefits": [
       "Babban Amincin Sigina",
       "Kyakkyawan Rigakafin Amo",
@@ -3466,15 +3458,13 @@
       "Shigarwa Mai Sauƙi",
       "Tsawon Rayuwa"
     ],
-    "features": [
-      "Ƙirar Murɗa Biyu Mai Kariya",
-      "Gina Ƙarfin Ƙarfi",
-      "Saitin Wayar Magudanar Ruwa",
-      "Gano Launi",
-      "Jaket Mai Hana Wuta",
-      "Mai Jure Mai & Kemikal",
-      "Ƙarfafa Mai Sauƙi",
-      "Zaɓuɓɓukan Ma'aurata Da yawa"
+    "specifications": [
+      "Ƙimar Wutar Lantarki: 300V zuwa 600V",
+      "Ƙimar Zafin Jiki: -40°C zuwa +105°C",
+      "Conductor: Tinned Copper",
+      "Rufewa: PVC, PE, XLPE",
+      "Kariya: Aluminum Foil, Braided",
+      "Ma'auni: IEC 60502, NFPA 70"
     ],
     "applications": [
       "Tsarin Kula da Tsari",
@@ -3492,6 +3482,16 @@
       "Masana'antu",
       "Magunguna"
     ],
+    "features": [
+      "Ƙirar Murɗa Biyu Mai Kariya",
+      "Gina Ƙarfin Ƙarfi",
+      "Saitin Wayar Magudanar Ruwa",
+      "Gano Launi",
+      "Jaket Mai Hana Wuta",
+      "Mai Jure Mai & Kemikal",
+      "Ƙarfafa Mai Sauƙi",
+      "Zaɓuɓɓukan Ma'aurata Da yawa"
+    ],
     "certifications": [
       "UL Lissafa",
       "CSA Mai Takarda",
@@ -3499,7 +3499,12 @@
       "IEC 60502",
       "NFPA 70",
       "RoHS Mai Yardarwa"
-    ]
+    ],
+    "seo": {
+      "title": "Kebul na Kayan Aiki - Daidaitaccen Watsawa Sigina | Injiniyan Powerton",
+      "description": "Kebul na kayan aiki masu inganci tare da garkuwar gini don daidaitaccen aunawa da watsawa siginar sarrafawa.",
+      "keywords": "kebul na kayan aiki, garkuwar murɗa biyu, kebul na sigina, kebul na aunawa, kebul na sarrafawa, kebul na masana'antu"
+    }
   },
   "bldcCeilingFan": {
     "smart1200": {

@@ -220,17 +220,7 @@
       ]
     }
   },
-  "cablesWires": {
-    "instrumentation": {
-      "title": "Cables na Kayan Aiki",
-      "description": "Ƙananan igiyoyi masu kariya don kayan aiki da aikace-aikacen sarrafawa",
-      "features": [
-        "Gina Mai Kariya",
-        "Mai Jure Danshi",
-        "Ƙimar Zazzabi",
-        "Saitin Nau'i-nau'i Da yawa"
-      ]
-    },
+  "electricalCables": {
     "powerDistribution": {
       "title": "Cables na Rarraba Wuta",
       "description": "Babban igiyoyi masu ƙarfi don tsarin watsa wutar lantarki da rarrabawa",
@@ -249,6 +239,38 @@
         "Zaɓuɓɓukan Fiber Optic",
         "Matsayin Masana'antu",
         "Kariyar EMI"
+      ]
+    }
+  },
+  "instrumentationCables": {
+    "shieldedPair": {
+      "title": "Cables Masu Kariya",
+      "description": "Ƙananan igiyoyi masu kariya don kayan aiki da aikace-aikacen sarrafawa",
+      "features": [
+        "Gina Mai Kariya",
+        "Mai Jure Danshi",
+        "Ƙimar Zazzabi",
+        "Saitin Nau'i-nau'i Da yawa"
+      ]
+    },
+    "thermocouple": {
+      "title": "Cables Tsawaita Thermocouple",
+      "description": "Cables na musamman don aunawa zafi tare da thermocouples",
+      "features": [
+        "Gina da aka Daidaita",
+        "Babban Ƙimar Zazzabi",
+        "Rufi Mai Launi",
+        "Ƙananan Thermal EMF"
+      ]
+    },
+    "rtd": {
+      "title": "Cables Masu Auna RTD",
+      "description": "Cables masu daidaito don masu auna zafi RTD da masu watsawa",
+      "features": [
+        "Ƙananan Juriya",
+        "Zane Mai Murɗa Biyu",
+        "Kyakkyawan Kariya daga Hayaniya",
+        "Sauƙin Shigarwa"
       ]
     }
   },
@@ -488,9 +510,13 @@
       "title": "Masu Gyara Sigina",
       "description": "Kayan aiki na sarrafa sigina da daidaitawa"
     },
-    "cables-wires": {
-      "title": "Cables & Wayoyi",
-      "description": "Cables masana'antu da hanyoyin wayoyi"
+    "electrical-cables": {
+      "title": "Cables na Lantarki",
+      "description": "Cables wuta da sarrafa masana'antu don tsarin lantarki"
+    },
+    "instrumentation-cables": {
+      "title": "Cables na Kayan Aiki",
+      "description": "Cables masu daidaito don sarrafa tsari da tsarin aunawa"
     },
     "connectors-terminals": {
       "title": "Masu haɗawa & Tashoshi",

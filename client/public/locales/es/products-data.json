@@ -92,9 +92,9 @@
       ],
       "sectionTitle": "Soluciones de Accesorios Eléctricos",
       "subcategories": {
-        "cables-wires": {
-          "title": "Cables y Alambres",
-          "description": "Cables y alambres industriales para transmisión de energía y aplicaciones de control",
+        "electrical-cables": {
+          "title": "Cables Eléctricos",
+          "description": "Cables eléctricos industriales para transmisión de energía y sistemas de distribución",
           "features": [
             "Cables de Alimentación",
             "Cables de Control",
@@ -934,10 +934,10 @@
         "keywords": "transformador de corriente, TC, transformador de potencial, TP, transformador de instrumento, TC de medición, TC de protección, transformador de voltaje, transformador de medición"
       }
     },
-    "cables-wires": {
-      "title": "Cables y Alambres",
-      "shortDescription": "Cables y alambres industriales para transmisión de energía y aplicaciones de control",
-      "fullDescription": "Amplia gama de cables eléctricos que incluyen cables de alimentación, cables de control, cables de instrumentación y cables de comunicación para instalaciones industriales.",
+    "electrical-cables": {
+      "title": "Cables Eléctricos",
+      "shortDescription": "Cables eléctricos industriales para transmisión de energía y sistemas de distribución",
+      "fullDescription": "Amplia gama de cables eléctricos que incluyen cables de alimentación, cables de control, cables blindados y cables de comunicación para distribución eléctrica industrial e infraestructura eléctrica.",
       "parentCategoryTitle": "Accesorios Eléctricos",
       "keyBenefits": [
         "Alta Capacidad de Conducción de Corriente",
@@ -988,9 +988,9 @@
         "Cumplimiento RoHS"
       ],
       "seo": {
-        "title": "Cables y Alambres Industriales - Cables de Alimentación, Control, Instrumentación | Powerton Engineering",
-        "description": "Cables y alambres eléctricos industriales para transmisión de energía, circuitos de control e instrumentación. Cables de alimentación de alto voltaje, cables de control y cables de comunicación.",
-        "keywords": "cables industriales, cables de alimentación, cables de control, cables de instrumentación, alambres eléctricos, cables de comunicación, cables blindados"
+        "title": "Cables Eléctricos - Cables de Alimentación, Control, Blindados | Powerton Engineering",
+        "description": "Cables eléctricos industriales para transmisión de energía, distribución y circuitos de control. Cables de alimentación de alto voltaje, cables de control y cables blindados de comunicación.",
+        "keywords": "cables eléctricos, cables de alimentación, cables de control, cables blindados, alambres eléctricos, cables de comunicación, cables industriales"
       }
     },
     "connectors-terminals": {
@@ -3451,18 +3451,10 @@
     ]
   },
   "instrumentation-cables": {
-    "seo": {
-      "title": "Cables de instrumentación - Transmisión de señal de precisión | Powerton Engineering",
-      "description": "Cables de instrumentación de alta calidad con construcción blindada para una transmisión precisa de señales de medición y control.",
-      "keywords": "cables de instrumentación, par trenzado blindado, cables de señal, cables de medición, cables de control, cables industriales"
-    },
-    "hero": {
-      "title": "Cables de instrumentación",
-      "subtitle": "Transmisión de señal de precisión"
-    },
-    "overview": {
-      "fullDescription": "Cables de instrumentación profesionales diseñados para una transmisión de señal precisa en aplicaciones de medición y control industrial. Cuenta con una construcción de par trenzado blindado, un excelente rechazo de ruido y una integridad de señal superior para sistemas de instrumentación críticos."
-    },
+    "title": "Cables de instrumentación",
+    "shortDescription": "Cables de instrumentación de precisión para transmisión precisa de señales de medición y control",
+    "fullDescription": "Cables de instrumentación profesionales diseñados para una transmisión de señal precisa en aplicaciones de medición y control industrial. Cuenta con una construcción de par trenzado blindado, un excelente rechazo de ruido y una integridad de señal superior para sistemas de instrumentación críticos.",
+    "parentCategoryTitle": "Accesorios de Instrumentación",
     "keyBenefits": [
       "Integridad de señal superior",
       "Excelente inmunidad al ruido",
@@ -3471,15 +3463,13 @@
       "Instalación flexible",
       "Larga vida útil"
     ],
-    "features": [
-      "Diseño de par trenzado blindado",
-      "Construcción de baja capacitancia",
-      "Configuración de cable de drenaje",
-      "Identificación con código de colores",
-      "Chaqueta ignífuga",
-      "Resistente al aceite y a los productos químicos",
-      "Trenzado flexible",
-      "Múltiples opciones de par"
+    "specifications": [
+      "Clasificación de voltaje: 300V a 600V",
+      "Clasificación de temperatura: -40°C a +105°C",
+      "Conductor: Cobre estañado",
+      "Aislamiento: PVC, PE, XLPE",
+      "Blindaje: Lámina de aluminio, Trenzado",
+      "Estándares: IEC 60502, NFPA 70"
     ],
     "applications": [
       "Sistemas de control de procesos",
@@ -3497,6 +3487,16 @@
       "Fabricación",
       "Farmacéutico"
     ],
+    "features": [
+      "Diseño de par trenzado blindado",
+      "Construcción de baja capacitancia",
+      "Configuración de cable de drenaje",
+      "Identificación con código de colores",
+      "Chaqueta ignífuga",
+      "Resistente al aceite y a los productos químicos",
+      "Trenzado flexible",
+      "Múltiples opciones de par"
+    ],
     "certifications": [
       "Listado UL",
       "Certificado CSA",
@@ -3504,7 +3504,12 @@
       "IEC 60502",
       "NFPA 70",
       "Cumple con RoHS"
-    ]
+    ],
+    "seo": {
+      "title": "Cables de instrumentación - Transmisión de señal de precisión | Powerton Engineering",
+      "description": "Cables de instrumentación de alta calidad con construcción blindada para una transmisión precisa de señales de medición y control.",
+      "keywords": "cables de instrumentación, par trenzado blindado, cables de señal, cables de medición, cables de control, cables industriales"
+    }
   },
   "bldcCeilingFan": {
     "smart1200": {

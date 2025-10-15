@@ -92,13 +92,13 @@
       ],
       "sectionTitle": "Soluções de acessórios elétricos",
       "subcategories": {
-        "cabos-fios": {
-          "title": "Cabos e Fios",
-          "description": "Cabos e fios industriais para transmissão de energia e aplicações de controle",
+        "electrical-cables": {
+          "title": "Cabos Elétricos",
+          "description": "Cabos elétricos industriais para transmissão de energia e sistemas de distribuição",
           "features": [
             "Cabos de Alimentação",
             "Cabos de Controle",
-            "Cabos de Instrumentação",
+            "Cabos Blindados",
             "Cabos de Comunicação"
           ]
         },
@@ -934,10 +934,10 @@
         "keywords": "transformador de corrente, TC, transformador de potencial, TP, transformador de instrumento, TC de medição, TC de proteção, transformador de tensão, transformador de medição"
       }
     },
-    "cables-wires": {
-      "title": "Cabos e Fios",
-      "shortDescription": "Cabos e fios industriais para transmissão de energia e aplicações de controle",
-      "fullDescription": "Gama abrangente de cabos elétricos, incluindo cabos de alimentação, cabos de controle, cabos de instrumentação e cabos de comunicação para instalações industriais.",
+    "electrical-cables": {
+      "title": "Cabos Elétricos",
+      "shortDescription": "Cabos elétricos industriais para transmissão de energia e sistemas de distribuição",
+      "fullDescription": "Gama abrangente de cabos elétricos, incluindo cabos de alimentação, cabos de controle, cabos blindados e cabos de comunicação para distribuição elétrica industrial e infraestrutura elétrica.",
       "parentCategoryTitle": "Acessórios Elétricos",
       "keyBenefits": [
         "Alta Capacidade de Condução de Corrente",
@@ -988,9 +988,9 @@
         "Compatível com RoHS"
       ],
       "seo": {
-        "title": "Cabos e Fios Industriais - Cabos de Alimentação, Controle, Instrumentação | Powerton Engineering",
-        "description": "Cabos e fios elétricos industriais para transmissão de energia, circuitos de controle e instrumentação. Cabos de alimentação de alta tensão, cabos de controle e cabos de comunicação.",
-        "keywords": "cabos industriais, cabos de alimentação, cabos de controle, cabos de instrumentação, fios elétricos, cabos de comunicação, cabos blindados"
+        "title": "Cabos Elétricos - Cabos de Alimentação, Controle, Blindados | Powerton Engineering",
+        "description": "Cabos elétricos industriais para transmissão de energia, distribuição e circuitos de controle. Cabos de alimentação de alta tensão, cabos de controle e cabos blindados de comunicação.",
+        "keywords": "cabos elétricos, cabos de alimentação, cabos de controle, cabos blindados, fios elétricos, cabos de comunicação, cabos industriais"
       }
     },
     "connectors-terminals": {
@@ -3451,18 +3451,10 @@
     ]
   },
   "instrumentation-cables": {
-    "seo": {
-      "title": "Cabos de Instrumentação - Transmissão de Sinal de Precisão | Powerton Engineering",
-      "description": "Cabos de instrumentação de alta qualidade com construção blindada para medição precisa e transmissão de sinal de controle.",
-      "keywords": "cabos de instrumentação, par trançado blindado, cabos de sinal, cabos de medição, cabos de controle, cabos industriais"
-    },
-    "hero": {
-      "title": "Cabos de Instrumentação",
-      "subtitle": "Transmissão de Sinal de Precisão"
-    },
-    "overview": {
-      "fullDescription": "Cabos de instrumentação profissionais projetados para transmissão de sinal precisa em aplicações industriais de medição e controle. Possui construção de par trançado blindado, excelente rejeição de ruído e integridade de sinal superior para sistemas de instrumentação críticos."
-    },
+    "title": "Cabos de Instrumentação",
+    "shortDescription": "Cabos de instrumentação de precisão para transmissão de sinal de medição e controle precisa",
+    "fullDescription": "Cabos de instrumentação profissionais projetados para transmissão de sinal precisa em aplicações industriais de medição e controle. Possui construção de par trançado blindado, excelente rejeição de ruído e integridade de sinal superior para sistemas de instrumentação críticos.",
+    "parentCategoryTitle": "Acessórios de Instrumentação",
     "keyBenefits": [
       "Integridade de Sinal Superior",
       "Excelente Imunidade a Ruídos",
@@ -3471,15 +3463,13 @@
       "Instalação Flexível",
       "Longa Vida Útil"
     ],
-    "features": [
-      "Design de Par Trançado Blindado",
-      "Construção de Baixa Capacitância",
-      "Configuração de Fio de Dreno",
-      "Identificação com Código de Cores",
-      "Revestimento Retardante de Chama",
-      "Resistente a Óleo e Produtos Químicos",
-      "Encalhamento Flexível",
-      "Múltiplas Opções de Par"
+    "specifications": [
+      "Classificação de tensão: 300V a 600V",
+      "Classificação de temperatura: -40°C a +105°C",
+      "Condutor: Cobre estanhado",
+      "Isolamento: PVC, PE, XLPE",
+      "Blindagem: Folha de alumínio, Trançado",
+      "Padrões: IEC 60502, NFPA 70"
     ],
     "applications": [
       "Sistemas de Controle de Processo",
@@ -3497,6 +3487,16 @@
       "Manufatura",
       "Farmacêutico"
     ],
+    "features": [
+      "Design de Par Trançado Blindado",
+      "Construção de Baixa Capacitância",
+      "Configuração de Fio de Dreno",
+      "Identificação com Código de Cores",
+      "Revestimento Retardante de Chama",
+      "Resistente a Óleo e Produtos Químicos",
+      "Encalhamento Flexível",
+      "Múltiplas Opções de Par"
+    ],
     "certifications": [
       "Listado pela UL",
       "Certificado pela CSA",
@@ -3504,7 +3504,12 @@
       "IEC 60502",
       "NFPA 70",
       "Compatível com RoHS"
-    ]
+    ],
+    "seo": {
+      "title": "Cabos de Instrumentação - Transmissão de Sinal de Precisão | Powerton Engineering",
+      "description": "Cabos de instrumentação de alta qualidade com construção blindada para medição precisa e transmissão de sinal de controle.",
+      "keywords": "cabos de instrumentação, par trançado blindado, cabos de sinal, cabos de medição, cabos de controle, cabos industriais"
+    }
   },
   "bldcCeilingFan": {
     "smart1200": {

@@ -220,17 +220,7 @@
       ]
     }
   },
-  "cablesWires": {
-    "instrumentation": {
-      "title": "Cables de Instrumentación",
-      "description": "Cables blindados de bajo voltaje para aplicaciones de instrumentación y control",
-      "features": [
-        "Construcción Blindada",
-        "Resistente a la Humedad",
-        "Temperatura Nominal",
-        "Configuración de Múltiples Pares"
-      ]
-    },
+  "electricalCables": {
     "powerDistribution": {
       "title": "Cables de Distribución de Energía",
       "description": "Cables de alto voltaje para sistemas de transmisión y distribución de energía",
@@ -249,6 +239,38 @@
         "Opciones de Fibra Óptica",
         "Grado Industrial",
         "Blindaje EMI"
+      ]
+    }
+  },
+  "instrumentationCables": {
+    "shieldedPair": {
+      "title": "Cables de Par Blindado",
+      "description": "Cables blindados de bajo voltaje para aplicaciones de instrumentación y control",
+      "features": [
+        "Construcción Blindada",
+        "Resistente a la Humedad",
+        "Temperatura Nominal",
+        "Configuración de Múltiples Pares"
+      ]
+    },
+    "thermocouple": {
+      "title": "Cables de Extensión para Termopares",
+      "description": "Cables especializados para medición de temperatura con termopares",
+      "features": [
+        "Construcción Compensada",
+        "Alta Temperatura Nominal",
+        "Aislamiento Codificado por Color",
+        "Baja FEM Térmica"
+      ]
+    },
+    "rtd": {
+      "title": "Cables para Sensores RTD",
+      "description": "Cables de precisión para sensores y transmisores de temperatura RTD",
+      "features": [
+        "Baja Resistencia",
+        "Diseño de Par Trenzado",
+        "Excelente Inmunidad al Ruido",
+        "Instalación Flexible"
       ]
     }
   },
@@ -488,9 +510,13 @@
       "title": "Acondicionadores de Señal",
       "description": "Equipos de procesamiento y acondicionamiento de señal"
     },
-    "cables-wires": {
-      "title": "Cables y Alambres",
-      "description": "Soluciones de cables y cableado industrial"
+    "electrical-cables": {
+      "title": "Cables Eléctricos",
+      "description": "Cables de energía y control industrial para sistemas eléctricos"
+    },
+    "instrumentation-cables": {
+      "title": "Cables de Instrumentación",
+      "description": "Cables de precisión para sistemas de control de procesos y medición"
     },
     "connectors-terminals": {
       "title": "Conectores y Terminales",

@@ -92,9 +92,9 @@
       ],
       "sectionTitle": "Solutions d'accessoires électriques",
       "subcategories": {
-        "cables-wires": {
-          "title": "Câbles et fils",
-          "description": "Câbles et fils industriels pour les applications de transmission d'énergie et de contrôle",
+        "electrical-cables": {
+          "title": "Câbles électriques",
+          "description": "Câbles électriques industriels pour la transmission d'énergie et les systèmes de distribution",
           "features": [
             "Câbles d'alimentation",
             "Câbles de contrôle",
@@ -934,10 +934,10 @@
           "keywords": "transformateur de courant, TC, transformateur de potentiel, TP, transformateur d'instrument, TC de comptage, TC de protection, transformateur de tension, transformateur de mesure"
         }
       },
-      "cables-wires": {
-        "title": "Câbles et fils",
-        "shortDescription": "Câbles et fils industriels pour la transmission de puissance et les applications de contrôle",
-        "fullDescription": "Gamme complète de câbles électriques, y compris les câbles d'alimentation, les câbles de commande, les câbles d'instrumentation et les câbles de communication pour les installations industrielles.",
+      "electrical-cables": {
+        "title": "Câbles électriques",
+        "shortDescription": "Câbles électriques industriels pour la transmission d'énergie et les systèmes de distribution",
+        "fullDescription": "Gamme complète de câbles électriques, y compris les câbles d'alimentation, les câbles de commande, les câbles blindés et les câbles de communication pour la distribution électrique industrielle et les infrastructures électriques.",
         "parentCategoryTitle": "Accessoires électriques",
         "keyBenefits": [
           "Capacité de transport de courant élevée",
@@ -988,9 +988,9 @@
           "Conforme à la norme RoHS"
         ],
         "seo": {
-          "title": "Câbles et fils industriels - Câbles d'alimentation, de commande et d'instrumentation | Powerton Engineering",
-          "description": "Câbles et fils électriques industriels pour la transmission de puissance, les circuits de commande et l'instrumentation. Câbles d'alimentation haute tension, câbles de commande et câbles de communication.",
-          "keywords": "câbles industriels, câbles d'alimentation, câbles de commande, câbles d'instrumentation, fils électriques, câbles de communication, câbles armés"
+          "title": "Câbles électriques - Câbles d'alimentation, de commande, blindés | Powerton Engineering",
+          "description": "Câbles électriques industriels pour la transmission de puissance, la distribution et les circuits de commande. Câbles d'alimentation haute tension, câbles de commande et câbles blindés de communication.",
+          "keywords": "câbles électriques, câbles d'alimentation, câbles de commande, câbles blindés, fils électriques, câbles de communication, câbles industriels"
         }
       },
       "connectors-terminals": {
@@ -3451,18 +3451,10 @@
       ]
     },
     "instrumentation-cables": {
-      "seo": {
-        "title": "Câbles d'instrumentation - Transmission de signal de précision | Powerton Engineering",
-        "description": "Câbles d'instrumentation de haute qualité avec construction blindée pour une transmission précise des signaux de mesure et de contrôle.",
-        "keywords": "Câbles d'instrumentation, paire torsadée blindée, câbles de signal, câbles de mesure, câbles de commande, câbles industriels"
-      },
-      "hero": {
-        "title": "Câbles d'instrumentation",
-        "subtitle": "Transmission de signal de précision"
-      },
-      "overview": {
-        "fullDescription": "Câbles d'instrumentation professionnels conçus pour une transmission précise des signaux dans les applications de mesure et de contrôle industrielles. Dotés d'une construction à paire torsadée blindée, d'un excellent rejet du bruit et d'une intégrité du signal supérieure pour les systèmes d'instrumentation critiques."
-      },
+      "title": "Câbles d'instrumentation",
+      "shortDescription": "Câbles d'instrumentation de précision pour une transmission précise des signaux de mesure et de contrôle",
+      "fullDescription": "Câbles d'instrumentation professionnels conçus pour une transmission précise des signaux dans les applications de mesure et de contrôle industrielles. Dotés d'une construction à paire torsadée blindée, d'un excellent rejet du bruit et d'une intégrité du signal supérieure pour les systèmes d'instrumentation critiques.",
+      "parentCategoryTitle": "Accessoires d'instrumentation",
       "keyBenefits": [
         "Intégrité du signal supérieure",
         "Excellente immunité au bruit",
@@ -3471,15 +3463,13 @@
         "Installation flexible",
         "Longue durée de vie"
       ],
-      "features": [
-        "Conception à paire torsadée blindée",
-        "Construction à faible capacité",
-        "Configuration du fil de drain",
-        "Identification à code couleur",
-        "Gaine ignifuge",
-        "Résistant à l'huile et aux produits chimiques",
-        "Toronnage flexible",
-        "Options de paires multiples"
+      "specifications": [
+        "Tension nominale: 300V à 600V",
+        "Température nominale: -40°C à +105°C",
+        "Conducteur: Cuivre étamé",
+        "Isolation: PVC, PE, XLPE",
+        "Blindage: Feuille d'aluminium, Tressé",
+        "Normes: CEI 60502, NFPA 70"
       ],
       "applications": [
         "Systèmes de contrôle de processus",
@@ -3497,6 +3487,16 @@
         "Fabrication",
         "Pharmaceutique"
       ],
+      "features": [
+        "Conception à paire torsadée blindée",
+        "Construction à faible capacité",
+        "Configuration du fil de drain",
+        "Identification à code couleur",
+        "Gaine ignifuge",
+        "Résistant à l'huile et aux produits chimiques",
+        "Toronnage flexible",
+        "Options de paires multiples"
+      ],
       "certifications": [
         "Homologué UL",
         "Certifié CSA",
@@ -3504,7 +3504,12 @@
         "CEI 60502",
         "NFPA 70",
         "Conforme à la norme RoHS"
-      ]
+      ],
+      "seo": {
+        "title": "Câbles d'instrumentation - Transmission de signal de précision | Powerton Engineering",
+        "description": "Câbles d'instrumentation de haute qualité avec construction blindée pour une transmission précise des signaux de mesure et de contrôle.",
+        "keywords": "Câbles d'instrumentation, paire torsadée blindée, câbles de signal, câbles de mesure, câbles de commande, câbles industriels"
+      }
     },
     "bldcCeilingFan": {
       "smart1200": {
