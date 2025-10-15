@@ -229,7 +229,7 @@ export default function Projects() {
         icon: Calendar,
       },
       {
-        number: 98,
+        number: 99,
         suffix: "%",
         label: t("common:company.stats.successRate"),
         icon: Target,
