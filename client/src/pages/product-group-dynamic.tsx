@@ -82,6 +82,10 @@ export default function ProductGroupDynamic() {
 
   // Validate that the parentSlug matches the expected parent category for this subcategory
   const expectedParentSlug = subcategory.parentCategory.split("/").pop();
+  
+  // Use expectedParentSlug instead of parentSlug from URL params to avoid empty/incorrect slugs
+  const correctParentSlug = expectedParentSlug || parentSlug;
+  
   if (parentSlug !== expectedParentSlug) {
     return (
       <div className="min-h-screen bg-background flex items-center justify-center">
@@ -97,7 +101,7 @@ export default function ProductGroupDynamic() {
           <p className="text-muted-foreground mb-8">
             {t("common:errors.productsNotFoundMessage")}
           </p>
-          <Link href={`/products/${parentSlug}/${subcategorySlug}`}>
+          <Link href={`/products/${correctParentSlug}/${subcategorySlug}`}>
             <Button className="bg-primary hover:bg-primary/90 text-primary-foreground">
               <ArrowLeft className="mr-2 h-4 w-4" />
               {t("common:buttons.backTo", { category: subcategory.title })}
@@ -165,7 +169,7 @@ export default function ProductGroupDynamic() {
           <p className="text-muted-foreground mb-8">
             {t("common:errors.productsNotFoundMessage")}
           </p>
-          <Link href={`/products/${parentSlug}/${subcategorySlug}`}>
+          <Link href={`/products/${correctParentSlug}/${subcategorySlug}`}>
             <Button className="bg-primary hover:bg-primary/90 text-primary-foreground">
               <ArrowLeft className="mr-2 h-4 w-4" />
               {t("common:buttons.backTo", { category: subcategory.title })}
@@ -222,7 +226,7 @@ export default function ProductGroupDynamic() {
               asChild
             >
               <Link
-                href={`/products/${parentSlug}/${subcategorySlug}`}
+                href={`/products/${correctParentSlug}/${subcategorySlug}`}
                 data-testid="link-back-to-subcategory"
               >
                 <ArrowLeft className="mr-2 h-4 w-4 group-hover:-translate-x-2 transition-transform duration-200" />
@@ -324,7 +328,7 @@ export default function ProductGroupDynamic() {
                           <td className="px-6 py-4 text-sm">
                             <div className="flex gap-2">
                               <Link
-                                href={`/products/${parentSlug}/${subcategorySlug}/${groupSlug}/${product.slug}`}
+                                href={`/products/${correctParentSlug}/${subcategorySlug}/${groupSlug}/${product.slug}`}
                               >
                                 <Button
                                   size="sm"
@@ -348,7 +352,7 @@ export default function ProductGroupDynamic() {
                 <p className="text-muted-foreground text-lg">
                   {t("products:messages.noProductsInGroup")}
                 </p>
-                <Link href={`/products/${parentSlug}/${subcategorySlug}`}>
+                <Link href={`/products/${correctParentSlug}/${subcategorySlug}`}>
                   <Button className="mt-4">
                     <ArrowLeft className="mr-2 h-4 w-4" />
                     {t("common:buttons.backTo", {
