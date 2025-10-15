@@ -1354,6 +1354,51 @@ export const getProductsSubCategoryData = (
         "https://powertonengineering.in/products/safety-protective-devices/safety-equipment",
     },
   },
+  {
+    slug: "protection-relays",
+    title: t("products-data:subcategories.protection-relays.title"),
+    shortDescription: t(
+      "products-data:subcategories.protection-relays.shortDescription"
+    ),
+    fullDescription: t(
+      "products-data:subcategories.protection-relays.fullDescription"
+    ),
+    image: circuitBreakersImage,
+    parentCategory: "/products/safety-protective-devices",
+    parentCategoryTitle: t(
+      "products-data:subcategories.protection-relays.parentCategoryTitle"
+    ),
+    icon: ShieldCheck,
+    keyBenefits: t("products-data:subcategories.protection-relays.keyBenefits", {
+      returnObjects: true,
+    }),
+    specifications: t(
+      "products-data:subcategories.protection-relays.specifications",
+      { returnObjects: true }
+    ),
+    applications: t("products-data:subcategories.protection-relays.applications", {
+      returnObjects: true,
+    }),
+    industries: t("products-data:subcategories.protection-relays.industries", {
+      returnObjects: true,
+    }),
+    features: t("products-data:subcategories.protection-relays.features", {
+      returnObjects: true,
+    }),
+    certifications: t(
+      "products-data:subcategories.protection-relays.certifications",
+      { returnObjects: true }
+    ),
+    seo: {
+      title: t("products-data:subcategories.protection-relays.seo.title"),
+      description: t(
+        "products-data:subcategories.protection-relays.seo.description"
+      ),
+      keywords: t("products-data:subcategories.protection-relays.seo.keywords"),
+      canonicalUrl:
+        "https://powertonengineering.in/products/safety-protective-devices/protection-relays",
+    },
+  },
 
   // Mechanical Pumps & Spares
   {

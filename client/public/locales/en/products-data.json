@@ -2006,6 +2006,66 @@
         "keywords": "safety equipment, PPE, personal protective equipment, fall protection, gas detection, industrial safety, workplace safety"
       }
     },
+    "protection-relays": {
+      "title": "Protection Relays",
+      "shortDescription": "Advanced protection relays for electrical equipment safety and fault detection",
+      "fullDescription": "Comprehensive range of protection relays including overcurrent, earth fault, motor protection, and differential protection relays for electrical safety. Advanced microprocessor-based relays with configurable settings and remote monitoring capabilities for reliable equipment protection.",
+      "parentCategoryTitle": "Safety & Protective Devices",
+      "keyBenefits": [
+        "Equipment Protection",
+        "Fault Detection & Isolation",
+        "Automatic Trip Function",
+        "Configurable Settings",
+        "Remote Monitoring Capability"
+      ],
+      "specifications": [
+        "Operating Voltage: 110V to 440V AC/DC",
+        "Current Range: 0.1A to 6300A",
+        "Trip Time: <50ms to 10s",
+        "Protection Functions: IDMT, Definite Time, Instantaneous",
+        "Communication: Modbus RTU, DNP3, IEC 61850",
+        "Display: LCD with Event Recording"
+      ],
+      "applications": [
+        "Motor Protection",
+        "Transformer Protection",
+        "Generator Protection",
+        "Feeder Protection",
+        "Busbar Protection",
+        "Differential Protection"
+      ],
+      "industries": [
+        "Power Distribution",
+        "Manufacturing Plants",
+        "Utilities",
+        "Oil & Gas",
+        "Data Centers",
+        "Process Industries"
+      ],
+      "features": [
+        "Microprocessor-Based Technology",
+        "Overcurrent Protection",
+        "Earth Fault Protection",
+        "Under/Over Voltage Protection",
+        "Phase Imbalance Detection",
+        "Harmonic Monitoring",
+        "Event & Fault Recording",
+        "Digital Communication"
+      ],
+      "certifications": [
+        "IEC 61850",
+        "IEEE C37.90",
+        "UL 508",
+        "CE Marked",
+        "IECEx Certified",
+        "ANSI Standards"
+      ],
+      "seo": {
+        "title": "Protection Relays - Motor, Transformer & Differential Protection | Powerton Engineering",
+        "description": "Advanced protection relays for electrical safety. Overcurrent, earth fault, motor protection, and differential protection relays with IEC 61850 communication for power distribution and industrial applications.",
+        "keywords": "protection relays, motor protection relay, overcurrent relay, earth fault relay, differential protection, transformer protection, IEC 61850, electrical protection devices"
+      }
+    },
     "centrifugal-pumps": {
       "title": "Centrifugal Pumps",
       "shortDescription": "High-efficiency centrifugal pumps for industrial fluid handling",

@@ -128,6 +128,7 @@ export default function ProductGroupDynamic() {
     "circuit-breakers-fuses": "circuit-breakers-fuses",
     "motor-controllers-drives": "motor-controllers-drives",
     "panel-meters-indicators": "panel-meters-indicators",
+    "protection-relays": "protection-relays",
     multimeters: "multimeters",
     "solar-panels": "solar-panels",
     "solar-inverters": "solar-inverters",

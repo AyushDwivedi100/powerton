@@ -113,6 +113,10 @@ export default function ProductSubCategoryDynamic() {
   }
 
   const expectedParentSlug = product.parentCategory.split("/").pop();
+  
+  // Use expectedParentSlug instead of parentSlug from URL params to avoid empty/incorrect slugs
+  const correctParentSlug = expectedParentSlug || parentSlug;
+  
   if (parentSlug !== expectedParentSlug) {
     return (
       <div className="min-h-screen bg-background flex items-center justify-center">
@@ -243,7 +247,7 @@ export default function ProductSubCategoryDynamic() {
                   return (
                     <Link
                       key={group.key}
-                      href={`/products/${parentSlug}/${slug}/${group.slug}`}
+                      href={`/products/${correctParentSlug}/${slug}/${group.slug}`}
                     >
                       <Card
                         className="group hover:shadow-lg transition-all duration-300"
