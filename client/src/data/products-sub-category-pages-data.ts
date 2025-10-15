@@ -347,6 +347,51 @@ export const getProductsSubCategoryData = (
         "https://powertonengineering.in/products/instrumentation-accessories/analyzers",
     },
   },
+  {
+    slug: "instrument-transformers",
+    title: t("products-data:subcategories.instrument-transformers.title"),
+    shortDescription: t(
+      "products-data:subcategories.instrument-transformers.shortDescription"
+    ),
+    fullDescription: t(
+      "products-data:subcategories.instrument-transformers.fullDescription"
+    ),
+    image: powerQualityAnalyzersImage,
+    parentCategory: "/products/instrumentation-accessories",
+    parentCategoryTitle: t(
+      "products-data:subcategories.instrument-transformers.parentCategoryTitle"
+    ),
+    icon: Zap,
+    keyBenefits: t("products-data:subcategories.instrument-transformers.keyBenefits", {
+      returnObjects: true,
+    }),
+    specifications: t(
+      "products-data:subcategories.instrument-transformers.specifications",
+      { returnObjects: true }
+    ),
+    applications: t("products-data:subcategories.instrument-transformers.applications", {
+      returnObjects: true,
+    }),
+    industries: t("products-data:subcategories.instrument-transformers.industries", {
+      returnObjects: true,
+    }),
+    features: t("products-data:subcategories.instrument-transformers.features", {
+      returnObjects: true,
+    }),
+    certifications: t(
+      "products-data:subcategories.instrument-transformers.certifications",
+      { returnObjects: true }
+    ),
+    seo: {
+      title: t("products-data:subcategories.instrument-transformers.seo.title"),
+      description: t(
+        "products-data:subcategories.instrument-transformers.seo.description"
+      ),
+      keywords: t("products-data:subcategories.instrument-transformers.seo.keywords"),
+      canonicalUrl:
+        "https://powertonengineering.in/products/instrumentation-accessories/instrument-transformers",
+    },
+  },
 
   // Electrical Accessories
   {
@@ -482,6 +527,51 @@ export const getProductsSubCategoryData = (
       keywords: t("products-data:subcategories.transformers-power-devices.seo.keywords"),
       canonicalUrl:
         "https://powertonengineering.in/products/electrical-accessories/transformers-power-devices",
+    },
+  },
+  {
+    slug: "led-lighting",
+    title: t("products-data:subcategories.led-lighting.title"),
+    shortDescription: t(
+      "products-data:subcategories.led-lighting.shortDescription"
+    ),
+    fullDescription: t(
+      "products-data:subcategories.led-lighting.fullDescription"
+    ),
+    image: cablesWiresImage,
+    parentCategory: "/products/electrical-accessories",
+    parentCategoryTitle: t(
+      "products-data:subcategories.led-lighting.parentCategoryTitle"
+    ),
+    icon: Sun,
+    keyBenefits: t("products-data:subcategories.led-lighting.keyBenefits", {
+      returnObjects: true,
+    }),
+    specifications: t(
+      "products-data:subcategories.led-lighting.specifications",
+      { returnObjects: true }
+    ),
+    applications: t("products-data:subcategories.led-lighting.applications", {
+      returnObjects: true,
+    }),
+    industries: t("products-data:subcategories.led-lighting.industries", {
+      returnObjects: true,
+    }),
+    features: t("products-data:subcategories.led-lighting.features", {
+      returnObjects: true,
+    }),
+    certifications: t(
+      "products-data:subcategories.led-lighting.certifications",
+      { returnObjects: true }
+    ),
+    seo: {
+      title: t("products-data:subcategories.led-lighting.seo.title"),
+      description: t(
+        "products-data:subcategories.led-lighting.seo.description"
+      ),
+      keywords: t("products-data:subcategories.led-lighting.seo.keywords"),
+      canonicalUrl:
+        "https://powertonengineering.in/products/electrical-accessories/led-lighting",
     },
   },
   {
