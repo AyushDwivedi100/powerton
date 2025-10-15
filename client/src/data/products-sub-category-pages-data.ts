@@ -395,6 +395,96 @@ export const getProductsSubCategoryData = (
     },
   },
   {
+    slug: "contactors-relays",
+    title: t("products-data:subcategories.contactors-relays.title"),
+    shortDescription: t(
+      "products-data:subcategories.contactors-relays.shortDescription"
+    ),
+    fullDescription: t(
+      "products-data:subcategories.contactors-relays.fullDescription"
+    ),
+    image: circuitBreakersImage,
+    parentCategory: "/products/electrical-accessories",
+    parentCategoryTitle: t(
+      "products-data:subcategories.contactors-relays.parentCategoryTitle"
+    ),
+    icon: Zap,
+    keyBenefits: t("products-data:subcategories.contactors-relays.keyBenefits", {
+      returnObjects: true,
+    }),
+    specifications: t(
+      "products-data:subcategories.contactors-relays.specifications",
+      { returnObjects: true }
+    ),
+    applications: t("products-data:subcategories.contactors-relays.applications", {
+      returnObjects: true,
+    }),
+    industries: t("products-data:subcategories.contactors-relays.industries", {
+      returnObjects: true,
+    }),
+    features: t("products-data:subcategories.contactors-relays.features", {
+      returnObjects: true,
+    }),
+    certifications: t(
+      "products-data:subcategories.contactors-relays.certifications",
+      { returnObjects: true }
+    ),
+    seo: {
+      title: t("products-data:subcategories.contactors-relays.seo.title"),
+      description: t(
+        "products-data:subcategories.contactors-relays.seo.description"
+      ),
+      keywords: t("products-data:subcategories.contactors-relays.seo.keywords"),
+      canonicalUrl:
+        "https://powertonengineering.in/products/electrical-accessories/contactors-relays",
+    },
+  },
+  {
+    slug: "transformers-power-devices",
+    title: t("products-data:subcategories.transformers-power-devices.title"),
+    shortDescription: t(
+      "products-data:subcategories.transformers-power-devices.shortDescription"
+    ),
+    fullDescription: t(
+      "products-data:subcategories.transformers-power-devices.fullDescription"
+    ),
+    image: powerSuppliesImage,
+    parentCategory: "/products/electrical-accessories",
+    parentCategoryTitle: t(
+      "products-data:subcategories.transformers-power-devices.parentCategoryTitle"
+    ),
+    icon: Power,
+    keyBenefits: t("products-data:subcategories.transformers-power-devices.keyBenefits", {
+      returnObjects: true,
+    }),
+    specifications: t(
+      "products-data:subcategories.transformers-power-devices.specifications",
+      { returnObjects: true }
+    ),
+    applications: t("products-data:subcategories.transformers-power-devices.applications", {
+      returnObjects: true,
+    }),
+    industries: t("products-data:subcategories.transformers-power-devices.industries", {
+      returnObjects: true,
+    }),
+    features: t("products-data:subcategories.transformers-power-devices.features", {
+      returnObjects: true,
+    }),
+    certifications: t(
+      "products-data:subcategories.transformers-power-devices.certifications",
+      { returnObjects: true }
+    ),
+    seo: {
+      title: t("products-data:subcategories.transformers-power-devices.seo.title"),
+      description: t(
+        "products-data:subcategories.transformers-power-devices.seo.description"
+      ),
+      keywords: t("products-data:subcategories.transformers-power-devices.seo.keywords"),
+      canonicalUrl:
+        "https://powertonengineering.in/products/electrical-accessories/transformers-power-devices",
+    },
+  },
+  {
     slug: "connectors-terminals",
     title: t("products-data:subcategories.connectors-terminals.title"),
     shortDescription: t(
@@ -809,6 +899,51 @@ export const getProductsSubCategoryData = (
       keywords: t("products-data:subcategories.scada.seo.keywords"),
       canonicalUrl:
         "https://powertonengineering.in/products/automation-control-systems/scada",
+    },
+  },
+  {
+    slug: "motor-controllers-drives",
+    title: t("products-data:subcategories.motor-controllers-drives.title"),
+    shortDescription: t(
+      "products-data:subcategories.motor-controllers-drives.shortDescription"
+    ),
+    fullDescription: t(
+      "products-data:subcategories.motor-controllers-drives.fullDescription"
+    ),
+    image: powerSuppliesImage,
+    parentCategory: "/products/automation-control-systems",
+    parentCategoryTitle: t(
+      "products-data:subcategories.motor-controllers-drives.parentCategoryTitle"
+    ),
+    icon: Activity,
+    keyBenefits: t("products-data:subcategories.motor-controllers-drives.keyBenefits", {
+      returnObjects: true,
+    }),
+    specifications: t(
+      "products-data:subcategories.motor-controllers-drives.specifications",
+      { returnObjects: true }
+    ),
+    applications: t("products-data:subcategories.motor-controllers-drives.applications", {
+      returnObjects: true,
+    }),
+    industries: t("products-data:subcategories.motor-controllers-drives.industries", {
+      returnObjects: true,
+    }),
+    features: t("products-data:subcategories.motor-controllers-drives.features", {
+      returnObjects: true,
+    }),
+    certifications: t(
+      "products-data:subcategories.motor-controllers-drives.certifications",
+      { returnObjects: true }
+    ),
+    seo: {
+      title: t("products-data:subcategories.motor-controllers-drives.seo.title"),
+      description: t(
+        "products-data:subcategories.motor-controllers-drives.seo.description"
+      ),
+      keywords: t("products-data:subcategories.motor-controllers-drives.seo.keywords"),
+      canonicalUrl:
+        "https://powertonengineering.in/products/automation-control-systems/motor-controllers-drives",
     },
   },
   {
@@ -1632,6 +1767,51 @@ export const getProductsSubCategoryData = (
       ),
       canonicalUrl:
         "https://powertonengineering.in/products/industrial-measuring-tools/calibration-equipment",
+    },
+  },
+  {
+    slug: "panel-meters-indicators",
+    title: t("products-data:subcategories.panel-meters-indicators.title"),
+    shortDescription: t(
+      "products-data:subcategories.panel-meters-indicators.shortDescription"
+    ),
+    fullDescription: t(
+      "products-data:subcategories.panel-meters-indicators.fullDescription"
+    ),
+    image: multimetersImage,
+    parentCategory: "/products/industrial-measuring-tools",
+    parentCategoryTitle: t(
+      "products-data:subcategories.panel-meters-indicators.parentCategoryTitle"
+    ),
+    icon: BarChart3,
+    keyBenefits: t("products-data:subcategories.panel-meters-indicators.keyBenefits", {
+      returnObjects: true,
+    }),
+    specifications: t(
+      "products-data:subcategories.panel-meters-indicators.specifications",
+      { returnObjects: true }
+    ),
+    applications: t("products-data:subcategories.panel-meters-indicators.applications", {
+      returnObjects: true,
+    }),
+    industries: t("products-data:subcategories.panel-meters-indicators.industries", {
+      returnObjects: true,
+    }),
+    features: t("products-data:subcategories.panel-meters-indicators.features", {
+      returnObjects: true,
+    }),
+    certifications: t(
+      "products-data:subcategories.panel-meters-indicators.certifications",
+      { returnObjects: true }
+    ),
+    seo: {
+      title: t("products-data:subcategories.panel-meters-indicators.seo.title"),
+      description: t(
+        "products-data:subcategories.panel-meters-indicators.seo.description"
+      ),
+      keywords: t("products-data:subcategories.panel-meters-indicators.seo.keywords"),
+      canonicalUrl:
+        "https://powertonengineering.in/products/industrial-measuring-tools/panel-meters-indicators",
     },
   },
 
