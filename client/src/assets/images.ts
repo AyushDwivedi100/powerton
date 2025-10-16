@@ -39,7 +39,6 @@ import bldcMotorSystemsHero from "@assets/generated_images/BLDC_Motor_Systems_Sh
 import industrialProjectHero from "@assets/generated_images/Industrial_Project_Construction_Site_1ae76aba.png";
 import corporateOfficeHero from "@assets/generated_images/Corporate_Office_Meeting_Environment_5f01f890.png";
 import technicalNewsHero from "@assets/generated_images/Technical_News_Communication_Center_d783a467.png";
-import processAnalyzersHero from "@assets/generated_images/Process_Analyzers_Laboratory_Environment_e98f5ca6.png";
 import industrialFacilityHero from "@assets/generated_images/Industrial_facility_hero_background_e1a1fcd5.png";
 import darkIndustrialFacilityHero from "@assets/generated_images/Dark_industrial_facility_hero_c9350380.png";
 import productsShowcaseHero from "@assets/generated_images/Products_showcase_hero_background_5d7918eb.png";
@@ -104,7 +103,6 @@ import industrialPlcImage from "@assets/generated_images/Industrial_PLC_Control_
 import hmiTouchscreenImage from "@assets/generated_images/HMI_touchscreen_control_room_35274d6e.png";
 import scadaControlRoomImage from "@assets/generated_images/SCADA_Control_Room_1f4824e2.png";
 import dcsControlSystemImage from "@assets/generated_images/DCS_distributed_control_system_732ce9c2.png";
-import processAnalyzersLabImage from "@assets/generated_images/Process_Analyzers_Laboratory_Environment_e98f5ca6.png";
 import solarEnergySystemsImage from "@assets/generated_images/Solar_Energy_Systems_b0a2f025.png";
 import surgeProtectorsImage from "@assets/generated_images/Surge_protectors_electrical_showcase_ade53f8f.png";
 import precisionMeasurementLabImage from "@assets/generated_images/Precision_measurement_instruments_lab_b82030f8.png";
@@ -116,7 +114,6 @@ const plcStockImage = industrialPlcImage;
 const hmiPanelStockImage = hmiTouchscreenImage;
 const scadaSystemStockImage = scadaControlRoomImage;
 const dcsSystemStockImage = dcsControlSystemImage;
-const processAnalyzerStockImage = processAnalyzersLabImage;
 const solarPanelStockImage = solarEnergySystemsImage;
 const solarInverterStockImage = solarEnergySystemsImage;
 const surgeProtectorStockImage = surgeProtectorsImage;
@@ -146,9 +143,6 @@ const hmiPanel3 = hmiTouchscreenImage;
 const vfd1 = automationControlSystemsImage;
 const vfd2 = automationControlSystemsImage;
 const vfd3 = automationControlSystemsImage;
-const gasAnalyzer1 = processAnalyzersLabImage;
-const gasAnalyzer2 = processAnalyzersLabImage;
-const gasAnalyzer3 = processAnalyzersLabImage;
 const flowMeter1 = electromagneticFlowMeterImage;
 const flowMeter2 = electromagneticFlowMeterImage;
 const flowMeter3 = electromagneticFlowMeterImage;
@@ -188,9 +182,9 @@ const encoder3 = automationControlSystemsImage;
 const servoMotor1 = automationControlSystemsImage;
 const servoMotor2 = automationControlSystemsImage;
 const servoMotor3 = automationControlSystemsImage;
-const waterAnalyzer1 = processAnalyzersLabImage;
-const waterAnalyzer2 = processAnalyzersLabImage;
-const waterAnalyzer3 = processAnalyzersLabImage;
+const waterAnalyzer1 = precisionMeasurementLabImage;
+const waterAnalyzer2 = precisionMeasurementLabImage;
+const waterAnalyzer3 = precisionMeasurementLabImage;
 const centrifugalPump1 = pumpsMotorsImage;
 const centrifugalPump2 = pumpsMotorsImage;
 const centrifugalPump3 = pumpsMotorsImage;
@@ -923,19 +917,9 @@ export const PRODUCT_IMAGES = {
     alt: `${IMAGE_IDS.VCB_CIRCUIT_BREAKER}: VCB vacuum circuit breaker - Medium voltage electrical equipment with superior arc quenching`,
     id: IMAGE_IDS.VCB_CIRCUIT_BREAKER,
   },
-  "gas-analyzer": {
-    src: processAnalyzersHero,
-    alt: `${IMAGE_IDS.HERO_ANALYZERS}: Gas analyzer - Industrial gas analysis equipment`,
-    id: IMAGE_IDS.HERO_ANALYZERS,
-  },
   "liquid-analyzer": {
-    src: processAnalyzersHero,
+    src: precisionMeasurementLabImage,
     alt: `${IMAGE_IDS.HERO_ANALYZERS}: Liquid analyzer - Industrial liquid analysis equipment`,
-    id: IMAGE_IDS.HERO_ANALYZERS,
-  },
-  "process-analyzer": {
-    src: processAnalyzersHero,
-    alt: `${IMAGE_IDS.HERO_ANALYZERS}: Process analyzer - Industrial process analysis equipment`,
     id: IMAGE_IDS.HERO_ANALYZERS,
   },
 
@@ -1118,13 +1102,6 @@ export const PRODUCT_IMAGES = {
     src: dcsSystemStockImage,
     alt: `${IMAGE_IDS.DCS_SYSTEM_STOCK}: DCS - Distributed control systems for process automation`,
     id: IMAGE_IDS.DCS_SYSTEM_STOCK,
-  },
-
-  // Analyzers
-  analyzers: {
-    src: processAnalyzerStockImage,
-    alt: `${IMAGE_IDS.PROCESS_ANALYZER_STOCK}: Analyzers - Industrial process analyzers`,
-    id: IMAGE_IDS.PROCESS_ANALYZER_STOCK,
   },
 
   // Solar products
@@ -1961,23 +1938,6 @@ export const PRODUCT_IMAGES = {
     id: IMAGE_IDS.SCHNEIDER_ALTIVAR_VFD,
   },
 
-  // Gas Analyzers
-  "gas-analyzer-1": {
-    src: gasAnalyzer1,
-    alt: `${IMAGE_IDS.GAS_ANALYZER_1}: Gas analyzer - Industrial gas analysis instrument`,
-    id: IMAGE_IDS.GAS_ANALYZER_1,
-  },
-  "gas-analyzer-2": {
-    src: gasAnalyzer2,
-    alt: `${IMAGE_IDS.GAS_ANALYZER_2}: Gas analyzer - Process gas monitoring`,
-    id: IMAGE_IDS.GAS_ANALYZER_2,
-  },
-  "gas-analyzer-3": {
-    src: gasAnalyzer3,
-    alt: `${IMAGE_IDS.GAS_ANALYZER_3}: Gas analyzer - Emission monitoring system`,
-    id: IMAGE_IDS.GAS_ANALYZER_3,
-  },
-
   // Flow Meters
   "flow-meter-1": {
     src: flowMeter1,
@@ -2500,11 +2460,6 @@ export const HERO_IMAGES = {
     alt: `${IMAGE_IDS.HERO_NEWS}: News & Updates - Corporate news and information center`,
     id: IMAGE_IDS.HERO_NEWS,
   },
-  analyzers: {
-    src: processAnalyzersHero,
-    alt: `${IMAGE_IDS.HERO_ANALYZERS}: Process Analyzers - Laboratory measurement environment`,
-    id: IMAGE_IDS.HERO_ANALYZERS,
-  },
   quote: {
     src: quotePageHero,
     alt: `${IMAGE_IDS.HERO_QUOTE}: Get Quote - Professional industrial engineering office workspace with technical documents`,
@@ -2741,7 +2696,6 @@ export const IMAGE_REGISTRY = {
     corporate: corporateOfficeHero,
     newsCenter: newsCenterHero,
     technicalNews: technicalNewsHero,
-    analyzers: processAnalyzersHero,
   },
 
   // Service-specific hero images
@@ -2836,7 +2790,6 @@ export {
   corporateOfficeHero,
   newsCenterHero,
   technicalNewsHero,
-  processAnalyzersHero,
 
   // Service-specific hero images
   installationCommissioningHero,

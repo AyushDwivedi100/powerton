@@ -2315,14 +2315,6 @@
       "title": "Vali za Washa/Zima",
       "description": "Vali za mpira na lango za washa/zima za viwandani kwa huduma ya kuaminika ya kuzima. Inaangazia uendeshaji wa robo-geuza, uendeshaji wa mwongozo au nyumatiki, ujenzi wa chuma cha pua, na kufuata viwango vya API, ANSI, na ISO. Inapatikana kutoka kwa watengenezaji wanaoongoza ikiwa ni pamoja na Emerson Fisher, Flowserve Worcester, Swagelok, na Burkert kwa kutengwa kwa mchakato, kuzima dharura, na matumizi ya udhibiti wa mtiririko."
     },
-    "processAnalyzers": {
-      "title": "Vichanganuzi vya Mchakato",
-      "description": "Vichanganuzi vya mchakato wa hali ya juu kwa ufuatiliaji wa wakati halisi wa muundo wa kemikali na vigezo vya mchakato. Uchambuzi wa vipengele vingi na usahihi wa juu na nyakati za majibu ya haraka kwa matumizi muhimu ya udhibiti wa mchakato."
-    },
-    "gasAnalyzers": {
-      "title": "Vichanganuzi vya Gesi",
-      "description": "Vichanganuzi vya gesi vya usahihi kwa ufuatiliaji wa uzalishaji, uboreshaji wa mchakato, na matumizi ya usalama. Inapatikana katika usanidi wa kubebeka na fasta na teknolojia za juu za sensor kwa mahitaji mbalimbali ya kugundua gesi."
-    },
     "liquidAnalyzers": {
       "title": "Vichanganuzi vya Maji",
       "description": "Vichanganuzi kamili vya maji kwa ufuatiliaji wa ubora wa maji, udhibiti wa mchakato wa kemikali, na kufuata mazingira. Uchambuzi wa vigezo vingi na urekebishaji otomatiki na uwezo wa kumbukumbu ya data."
