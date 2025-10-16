@@ -373,7 +373,7 @@ export const productGroups: ProductGroup[] = [
     titleKey: "products:productGroups.ethernetCables.title",
     descriptionKey: "products:productGroups.ethernetCables.description",
     subcategoryKey: "instrumentation-cables",
-    image: "instrumentation-cable",
+    image: "ethernet-cable",
     featuredSpecs: ["category", "shielding", "length"],
   },
   {
@@ -382,7 +382,7 @@ export const productGroups: ProductGroup[] = [
     titleKey: "products:productGroups.profibusCables.title",
     descriptionKey: "products:productGroups.profibusCables.description",
     subcategoryKey: "instrumentation-cables",
-    image: "instrumentation-cable",
+    image: "profibus-cable",
     featuredSpecs: ["type", "shielding", "conductor"],
   },
   {
@@ -391,7 +391,7 @@ export const productGroups: ProductGroup[] = [
     titleKey: "products:productGroups.profinetCables.title",
     descriptionKey: "products:productGroups.profinetCables.description",
     subcategoryKey: "instrumentation-cables",
-    image: "instrumentation-cable",
+    image: "profinet-cable",
     featuredSpecs: ["category", "shielding", "conductor"],
   },
   {
@@ -400,7 +400,7 @@ export const productGroups: ProductGroup[] = [
     titleKey: "products:productGroups.shieldedPairCables1P.title",
     descriptionKey: "products:productGroups.shieldedPairCables1P.description",
     subcategoryKey: "instrumentation-cables",
-    image: "instrumentation-cable",
+    image: "shielded-pair-1p-cable",
     featuredSpecs: ["pairs", "shielding", "conductor"],
   },
   {
@@ -409,7 +409,7 @@ export const productGroups: ProductGroup[] = [
     titleKey: "products:productGroups.shieldedPairCables2P.title",
     descriptionKey: "products:productGroups.shieldedPairCables2P.description",
     subcategoryKey: "instrumentation-cables",
-    image: "instrumentation-cable",
+    image: "shielded-pair-2p-cable",
     featuredSpecs: ["pairs", "shielding", "conductor"],
   },
   {
@@ -418,7 +418,7 @@ export const productGroups: ProductGroup[] = [
     titleKey: "products:productGroups.shieldedPairCables8P.title",
     descriptionKey: "products:productGroups.shieldedPairCables8P.description",
     subcategoryKey: "instrumentation-cables",
-    image: "instrumentation-cable",
+    image: "shielded-pair-8p-cable",
     featuredSpecs: ["pairs", "shielding", "conductor"],
   },
   {
@@ -427,7 +427,7 @@ export const productGroups: ProductGroup[] = [
     titleKey: "products:productGroups.multicoreCablesInstrumentation.title",
     descriptionKey: "products:productGroups.multicoreCablesInstrumentation.description",
     subcategoryKey: "instrumentation-cables",
-    image: "instrumentation-cable",
+    image: "multicore-cable-instrumentation",
     featuredSpecs: ["cores", "shielding", "conductor"],
   },
   // Connectors & Terminals subcategory groups
