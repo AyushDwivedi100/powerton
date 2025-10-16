@@ -136,13 +136,18 @@ function searchProductGroups(query: string, t: TFunction, categoryFilter?: strin
         sub => sub.slug === group.subcategoryKey
       );
       
+      const categorySlug = subcategoryData?.parentCategory.split('/').pop() || '';
+      
+      // Apply category filter
+      if (categoryFilter && categorySlug !== categoryFilter) return;
+      
       results.push({
         id: group.key,
         type: 'productGroup',
         title,
         description: description.slice(0, 150) + (description.length > 150 ? '...' : ''),
         image: group.image,
-        url: `/products/${subcategoryData?.parentCategory.split('/').pop()}/${group.subcategoryKey}#${group.slug}`,
+        url: `/products/${categorySlug}/${group.subcategoryKey}#${group.slug}`,
         subcategory: group.subcategoryKey,
         relevanceScore
       });
@@ -222,19 +227,19 @@ export function searchAll(options: SearchOptions, t: TFunction): SearchResult[] 
 }
 
 /**
- * Get popular search suggestions
+ * Get popular search suggestions (localized)
  */
 export function getSearchSuggestions(t: TFunction): string[] {
   return [
-    'Pressure Transmitters',
-    'Temperature Sensors',
-    'Flow Meters',
-    'PLC Systems',
-    'SCADA',
-    'Circuit Breakers',
-    'Solar Panels',
-    'BLDC Motors',
-    'Pumps',
-    'Multimeters'
+    t('products:categories.instrumentation-accessories.features.pressure-transmitters', 'Pressure Transmitters'),
+    t('products:categories.instrumentation-accessories.features.temperature-sensors', 'Temperature Sensors'),
+    t('products:categories.instrumentation-accessories.features.flow-meters', 'Flow Meters'),
+    t('products:categories.automation-control-systems.features.plc-systems', 'PLC Systems'),
+    t('products:categories.automation-control-systems.features.scada-software', 'SCADA'),
+    t('products:categories.electrical-accessories.features.circuit-breakers', 'Circuit Breakers'),
+    t('products:categories.solar-products.features.solar-panels', 'Solar Panels'),
+    t('products:categories.bldc.features.energy-efficient', 'BLDC Motors'),
+    t('products:categories.mechanical-pumps-spares.features.centrifugal-pumps', 'Pumps'),
+    t('products:categories.industrial-measuring-tools.features.digital-multimeters', 'Multimeters')
   ];
 }
