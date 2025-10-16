@@ -328,7 +328,7 @@ export const productGroups: ProductGroup[] = [
     titleKey: "products:productGroups.armouredCables.title",
     descriptionKey: "products:productGroups.armouredCables.description",
     subcategoryKey: "electrical-cables",
-    image: "power-cable",
+    image: "armoured-cable",
     featuredSpecs: ["conductor", "voltage", "armourType"],
   },
   {
@@ -337,7 +337,7 @@ export const productGroups: ProductGroup[] = [
     titleKey: "products:productGroups.flexibleCables.title",
     descriptionKey: "products:productGroups.flexibleCables.description",
     subcategoryKey: "electrical-cables",
-    image: "control-cable",
+    image: "flexible-cable",
     featuredSpecs: ["conductor", "voltage", "flexibility"],
   },
   {
@@ -346,7 +346,7 @@ export const productGroups: ProductGroup[] = [
     titleKey: "products:productGroups.homeApplianceCables.title",
     descriptionKey: "products:productGroups.homeApplianceCables.description",
     subcategoryKey: "electrical-cables",
-    image: "power-cable",
+    image: "home-appliance-cable",
     featuredSpecs: ["conductor", "voltage", "insulation"],
   },
   {
@@ -355,7 +355,7 @@ export const productGroups: ProductGroup[] = [
     titleKey: "products:productGroups.multicoreCablesElectrical.title",
     descriptionKey: "products:productGroups.multicoreCablesElectrical.description",
     subcategoryKey: "electrical-cables",
-    image: "control-cable",
+    image: "multicore-cable-electrical",
     featuredSpecs: ["cores", "voltage", "conductor"],
   },
   {
@@ -364,7 +364,7 @@ export const productGroups: ProductGroup[] = [
     titleKey: "products:productGroups.earthingCables.title",
     descriptionKey: "products:productGroups.earthingCables.description",
     subcategoryKey: "electrical-cables",
-    image: "power-cable",
+    image: "earthing-cable",
     featuredSpecs: ["conductor", "size", "material"],
   },
   {
