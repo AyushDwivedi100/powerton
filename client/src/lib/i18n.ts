@@ -5,6 +5,7 @@ import Backend from "i18next-http-backend";
 
 const languages = [
   { code: "en", name: "English", nativeName: "English" },
+  { code: "ja", name: "Japanese", nativeName: "日本語" },
   { code: "zh", name: "Chinese (Mandarin)", nativeName: "中文" },
   { code: "hi", name: "Hindi", nativeName: "हिन्दी" },
   { code: "es", name: "Spanish", nativeName: "Español" },
@@ -60,7 +61,7 @@ const initConfig = {
   debug: import.meta.env.DEV, // Console logging only in development
 
   // Supported languages - all available languages
-  supportedLngs: ["en", "hi", "zh", "es", "ar", "fr", "pt", "ru", "sw", "ha"],
+  supportedLngs: ["en", "hi", "zh", "es", "ar", "fr", "pt", "ru", "sw", "ha", "ja"],
 
   // Language detection options - prioritize browser language detection
   detection: {
