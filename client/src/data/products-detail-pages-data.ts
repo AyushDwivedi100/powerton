@@ -694,7 +694,7 @@ export const productGroups: ProductGroup[] = [
     titleKey: "products:productGroups.streetLights.title",
     descriptionKey: "products:productGroups.streetLights.description",
     subcategoryKey: "industrial-lighting",
-    image: "led-flameproof",
+    image: "street-light",
     featuredSpecs: ["wattage", "ipRating", "manufacturer"],
   },
   {
@@ -703,7 +703,7 @@ export const productGroups: ProductGroup[] = [
     titleKey: "products:productGroups.streetLightsFlameproof.title",
     descriptionKey: "products:productGroups.streetLightsFlameproof.description",
     subcategoryKey: "industrial-lighting",
-    image: "led-flameproof",
+    image: "street-light-flameproof",
     featuredSpecs: ["wattage", "certification", "manufacturer"],
   },
   {
@@ -712,7 +712,7 @@ export const productGroups: ProductGroup[] = [
     titleKey: "products:productGroups.streetLightsWeatherproof.title",
     descriptionKey: "products:productGroups.streetLightsWeatherproof.description",
     subcategoryKey: "industrial-lighting",
-    image: "led-weatherproof",
+    image: "street-light-weatherproof",
     featuredSpecs: ["wattage", "ipRating", "manufacturer"],
   },
   {
@@ -721,7 +721,7 @@ export const productGroups: ProductGroup[] = [
     titleKey: "products:productGroups.highBayLights.title",
     descriptionKey: "products:productGroups.highBayLights.description",
     subcategoryKey: "industrial-lighting",
-    image: "led-flameproof",
+    image: "high-bay-light",
     featuredSpecs: ["wattage", "lumens", "manufacturer"],
   },
   {
@@ -730,7 +730,7 @@ export const productGroups: ProductGroup[] = [
     titleKey: "products:productGroups.highBayLightsFlameproof.title",
     descriptionKey: "products:productGroups.highBayLightsFlameproof.description",
     subcategoryKey: "industrial-lighting",
-    image: "led-flameproof",
+    image: "high-bay-light-flameproof",
     featuredSpecs: ["wattage", "certification", "manufacturer"],
   },
   {
@@ -739,7 +739,7 @@ export const productGroups: ProductGroup[] = [
     titleKey: "products:productGroups.highBayLightsWeatherproof.title",
     descriptionKey: "products:productGroups.highBayLightsWeatherproof.description",
     subcategoryKey: "industrial-lighting",
-    image: "led-weatherproof",
+    image: "high-bay-light-weatherproof",
     featuredSpecs: ["wattage", "ipRating", "manufacturer"],
   },
   {
