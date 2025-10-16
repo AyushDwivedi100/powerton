@@ -1,3 +1,35 @@
+[x] 92. MAJOR PRODUCT CATALOG UPDATE - Added comprehensive cable types and industrial lighting products (October 16, 2025)
+  - [x] Electrical Cables Subcategory - Added 5 new product groups:
+    - Armoured Cables (with steel wire/tape armouring for mechanical protection)
+    - Flexible Cables (for continuous movement and robotics applications)
+    - Home Appliance Cables (heat-resistant for household appliances)
+    - Multicore Cables - Electrical (2-4+ cores for power and control)
+    - Earthing Cables (copper grounding cables in various sizes)
+  - [x] Instrumentation Cables Subcategory - Added 7 new product groups:
+    - Ethernet Cables (Cat5e, Cat6, Cat6a for automation networks)
+    - Profibus Cables (Profibus-DP and PA for industrial automation)
+    - Profinet Cables (real-time Ethernet for Industry 4.0)
+    - Shielded Pair Cables 1P (single-pair for analog signals)
+    - Shielded Pair Cables 2P (two-pair for multiple signals)
+    - Shielded Pair Cables 8P (eight-pair for multi-channel applications)
+    - Multicore Cables - Instrumentation (4-24 pair configurations)
+  - [x] Removed redundant "instrumentation-cables" product group from instrumentation-cables subcategory
+  - [x] Renamed "LED Lighting" to "Industrial Lighting" across all files
+  - [x] Industrial Lighting Subcategory - Added 15 comprehensive product groups:
+    - Street Lights (standard, flameproof, weatherproof versions)
+    - High Bay Lights (standard, flameproof, weatherproof versions)
+    - Vessel Lights (standard, flameproof, weatherproof versions)
+    - Flood Lights (standard, flameproof, weatherproof versions)
+    - Well Glass Lights (standard, flameproof, weatherproof versions)
+  - [x] Updated all translation keys in English locale (client/public/locales/en/products.json)
+  - [x] Updated data files:
+    - client/src/data/constants.ts (subcategory ID renamed to industrial-lighting)
+    - client/src/pages/product-group-dynamic.tsx (subcategoryKeyMap updated)
+    - client/src/data/products-detail-pages-data.ts (all product groups added/updated)
+  - [x] Application restarted successfully with all translations loading correctly
+  - [x] Homepage verified - All i18next namespaces loading without errors
+[x] 93. Final verification - Application running successfully on port 5000 (October 16, 2025)
+
 [x] 88. Fixed recurring tsx package missing error - Reinstalled node_modules successfully (October 15, 2025)
 [x] 89. Restarted workflow - Application now running successfully on port 5000 (October 15, 2025)
 [x] 90. Final verification screenshot - Homepage loads perfectly with all features working (October 15, 2025):
