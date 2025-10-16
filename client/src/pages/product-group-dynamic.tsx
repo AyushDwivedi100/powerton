@@ -128,7 +128,7 @@ export default function ProductGroupDynamic() {
     "instrumentation-cables": "instrumentation-cables",
     "contactors-relays": "contactors-relays",
     "transformers-power-devices": "transformers-power-devices",
-    "led-lighting": "led-lighting",
+    "industrial-lighting": "industrial-lighting",
     "connectors-terminals": "connectors-terminals",
     "circuit-breakers-fuses": "circuit-breakers-fuses",
     "motor-controllers-drives": "motor-controllers-drives",

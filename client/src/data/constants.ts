@@ -195,9 +195,9 @@ export const getProducts = (t: any) => [
         description: t("products:subcategories.transformers-power-devices.description"),
       },
       {
-        id: "led-lighting",
-        title: t("products:subcategories.led-lighting.title"),
-        description: t("products:subcategories.led-lighting.description"),
+        id: "industrial-lighting",
+        title: t("products:subcategories.industrial-lighting.title"),
+        description: t("products:subcategories.industrial-lighting.description"),
       },
     ],
   },
