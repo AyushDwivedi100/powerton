@@ -114,6 +114,8 @@ const iconMapping: Record<string, LucideIcon> = {
   "bldc-ceiling-fan": Fan,
   "bldc-submersible-surface-pump": Droplet,
   "bldc-table-fan-wall-fan-motor": Zap,
+  "io-modules": Cpu,
+  "insulators-insulation-materials": Shield,
 };
 
 // Category configuration with background images and grid layouts

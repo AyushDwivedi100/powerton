@@ -35,3 +35,6 @@ The website's frontend is developed using React 18, TypeScript, and Vite. Stylin
 - **Lucide React**: For icon sets.
 - **PHPMailer**: (Located in `public/PHPMailer/`) Potentially for server-side email handling.
 - **Google Search Engine**: SEO optimizations are specifically tailored for Google's indexing and rich snippets features.
+
+## Recent Changes
+- **Image Uniqueness Achievement (October 16, 2025)**: Successfully eliminated all duplicate subcategory images across the entire website. Generated 9 new unique custom images to replace duplicates in: Instrumentation Cables, Instrument Transformers, Industrial Lighting, Contactors & Relays, Transformers & Power Devices, Motor Controllers & Drives, Protection Relays, and Panel Meters & Indicators. All 47 subcategories now feature completely unique, accurate, and professionally generated imagery that accurately represents each product category.

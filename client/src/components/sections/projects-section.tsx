@@ -46,15 +46,6 @@ export default function ProjectsSection() {
               key={project.id}
             >
               <Card className="overflow-hidden group bg-card border border-border rounded-lg p-6 shadow-sm cursor-pointer h-full flex flex-col">
-                <div className="relative overflow-hidden">
-                  <img
-                    src={project.image}
-                    alt={`ID-050: ${project.title} - ${project.description}`}
-                    className="w-full h-64 object-cover group-hover:scale-[1.02] transition-transform duration-300"
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-                </div>
-
                 <CardContent className="p-4 sm:p-6 md:p-8 flex-1 flex flex-col">
                   <div className="flex items-center mb-4">
                     <Badge

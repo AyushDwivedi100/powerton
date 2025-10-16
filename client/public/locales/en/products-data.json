@@ -176,6 +176,16 @@
             "Energy Efficient",
             "Long Life"
           ]
+        },
+        "insulators-insulation-materials": {
+          "title": "Insulators & Insulation Materials",
+          "description": "Electrical insulators and insulation materials for power systems",
+          "features": [
+            "Ceramic Insulators",
+            "Polymer Insulators",
+            "Post Insulators",
+            "Pin Insulators"
+          ]
         }
       },
       "cta": {
@@ -272,6 +282,16 @@
           "title": "Motor Controllers & Drives",
           "description": "Variable frequency drives and motor control solutions for efficient motor operation",
           "features": ["VFD", "Soft Starters", "DOL Starters", "Speed Control"]
+        },
+        "io-modules": {
+          "title": "I/O Modules",
+          "description": "Input/Output expansion modules for PLC and automation systems",
+          "features": [
+            "Digital I/O Cards",
+            "Analog I/O Cards",
+            "High-Speed I/O",
+            "Communication Modules"
+          ]
         }
       },
       "cta": {
@@ -1932,6 +1952,124 @@
         "title": "VFD, Soft Starters, DOL Starters - Motor Control Solutions | Powerton Engineering",
         "description": "Variable frequency drives (VFD), soft starters, and direct-on-line (DOL) starters for industrial motor control. Energy-efficient solutions for pumps, fans, conveyors, and process automation.",
         "keywords": "VFD, variable frequency drive, soft starter, DOL starter, motor controller, speed control, energy savings, motor protection"
+      }
+    },
+    "io-modules": {
+      "title": "I/O Modules",
+      "shortDescription": "Input/Output expansion modules and cards for PLC systems and automation controllers",
+      "fullDescription": "Comprehensive range of I/O expansion modules including digital and analog I/O cards with various channel configurations for system scalability and flexibility in automation applications",
+      "parentCategoryTitle": "Automation & Control Systems",
+      "keyBenefits": [
+        "System Scalability",
+        "Flexible Configuration",
+        "High-Speed Response",
+        "Protocol Compatibility"
+      ],
+      "specifications": [
+        "Digital I/O: 8 to 64 channels",
+        "Analog I/O: 4 to 16 channels",
+        "Input Voltage: 24V DC / 110-240V AC",
+        "Response Time: <10ms",
+        "Communication: Modbus, Profibus, EtherNet/IP",
+        "Protection: IP20"
+      ],
+      "applications": [
+        "PLC System Expansion",
+        "Process Automation",
+        "Machine Control",
+        "Building Management",
+        "Data Acquisition",
+        "Remote Monitoring"
+      ],
+      "industries": [
+        "Manufacturing",
+        "Process Industries",
+        "Building Automation",
+        "Water Treatment",
+        "Energy Management",
+        "Packaging"
+      ],
+      "features": [
+        "Hot-Swappable Modules",
+        "LED Status Indicators",
+        "Isolation Protection",
+        "DIN Rail Mounting",
+        "Diagnostic Capabilities",
+        "Redundancy Support",
+        "Multiple Protocols",
+        "Easy Configuration"
+      ],
+      "certifications": [
+        "CE Marked",
+        "UL Listed",
+        "IEC 61131",
+        "RoHS Compliant",
+        "ATEX Approved",
+        "IP20 Rated"
+      ],
+      "seo": {
+        "title": "I/O Modules & Expansion Cards - PLC System Components | Powerton Engineering",
+        "description": "Digital and analog I/O modules and expansion cards for PLC systems. High-speed response with flexible communication protocols for automation and control applications.",
+        "keywords": "I/O modules, I/O cards, PLC expansion, digital I/O, analog I/O, automation modules, input output cards"
+      }
+    },
+    "insulators-insulation-materials": {
+      "title": "Insulators & Insulation Materials",
+      "shortDescription": "Electrical insulators and insulation materials for power systems and switchgear applications",
+      "fullDescription": "High-quality ceramic, polymer, and porcelain insulators in post, pin, and suspension types providing voltage isolation and mechanical support for transmission and distribution networks",
+      "parentCategoryTitle": "Electrical Accessories",
+      "keyBenefits": [
+        "Voltage Isolation",
+        "Mechanical Support",
+        "Weather Resistance",
+        "Long Service Life"
+      ],
+      "specifications": [
+        "Voltage Rating: 11kV to 765kV",
+        "Material: Ceramic, Porcelain, Polymer",
+        "Type: Post, Pin, Suspension, Strain",
+        "Leakage Distance: 16mm to 50mm/kV",
+        "Operating Temperature: -40°C to +100°C",
+        "Protection: IP65"
+      ],
+      "applications": [
+        "Transmission Lines",
+        "Distribution Systems",
+        "Substations",
+        "Switchgear",
+        "Bus Bar Support",
+        "Transformer Isolation"
+      ],
+      "industries": [
+        "Power Transmission",
+        "Power Distribution",
+        "Utilities",
+        "Railways",
+        "Industrial Plants",
+        "Renewable Energy"
+      ],
+      "features": [
+        "High Dielectric Strength",
+        "Pollution Resistance",
+        "UV Resistant",
+        "Impact Resistant",
+        "Low Water Absorption",
+        "Thermal Stability",
+        "Corrosion Resistant",
+        "Easy Installation"
+      ],
+      "certifications": [
+        "IEC 60168",
+        "IEC 61109",
+        "ANSI C29",
+        "ISO 9001",
+        "BIS Certified",
+        "Type Tested"
+      ],
+      "seo": {
+        "title": "Electrical Insulators - Ceramic, Polymer & Porcelain Types | Powerton Engineering",
+        "description": "High-quality electrical insulators for power systems. Ceramic, polymer, and porcelain insulators in post, pin, and suspension types for transmission and distribution applications.",
+        "keywords": "electrical insulators, ceramic insulators, polymer insulators, porcelain insulators, post insulators, pin insulators, suspension insulators"
       }
     },
     "surge-protectors": {

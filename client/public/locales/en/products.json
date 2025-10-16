@@ -776,9 +776,17 @@
       "title": "Industrial Lighting",
       "description": "Comprehensive industrial lighting solutions including street lights, high bay lights, vessel lights, flood lights, and well glass lights in standard, flameproof, and weatherproof configurations"
     },
+    "insulators-insulation-materials": {
+      "title": "Insulators & Insulation Materials",
+      "description": "High-quality electrical insulators and insulation materials for power systems and electrical equipment"
+    },
     "motor-controllers-drives": {
       "title": "Motor Controllers & Drives",
       "description": "Variable frequency drives and motor control solutions"
+    },
+    "io-modules": {
+      "title": "I/O Modules",
+      "description": "Input/Output modules for PLC systems and industrial automation"
     },
     "protection-relays": {
       "title": "Protection Relays",
@@ -2303,6 +2311,10 @@
       "title": "Push Buttons",
       "description": "Industrial push button switches for control panels and machinery. Available in 22mm and 30mm sizes from Schneider Electric, Eaton, ABB, and Siemens with various contact configurations and illumination options."
     },
+    "hooterBuzzer": {
+      "title": "Hooter / Buzzer",
+      "description": "Industrial audible signaling devices for alarm systems and process notifications. Available in various voltage ratings and sound output levels for effective warning signals in noisy industrial environments."
+    },
     "controlValves": {
       "title": "Control Valves",
       "description": "Precision control valves for process automation from Fisher (Emerson), SAMSON, and ABB. Globe, ball, and rotary designs with digital positioners and HART communication capabilities."
@@ -2403,6 +2415,10 @@
       "title": "DOL Starters (Direct On Line)",
       "description": "Robust direct-on-line motor starters for simple and reliable motor control. Includes contactors, overload relays, and control circuits for full voltage starting of AC motors."
     },
+    "ioCards": {
+      "title": "I/O Cards",
+      "description": "Input/Output expansion cards for PLC systems and automation controllers. Digital and analog I/O modules with various channel configurations, high-speed response, and flexible communication protocols for system scalability."
+    },
     "powerContactors": {
       "title": "Power Contactors",
       "description": "Heavy-duty electromagnetic contactors for switching motors and resistive loads. Available in various current ratings with auxiliary contacts and mechanical interlocking options for safe operation."
@@ -2479,6 +2495,10 @@
       "title": "Digital Motor Protection Relay (C&S)",
       "description": "Microprocessor-based motor protection relays with comprehensive protection functions. Monitors current, voltage, temperature, and power parameters with programmable settings and communication capabilities."
     },
+    "relayBoards": {
+      "title": "Relay Boards",
+      "description": "Multi-channel relay boards for automation and control applications. PCB-mounted or DIN rail mounted configurations with LED indicators, optocoupler isolation, and support for Arduino, Raspberry Pi, and PLC control."
+    },
     "voltageMonitoringRelay": {
       "title": "Voltage Monitoring Relay",
       "description": "Three-phase voltage monitoring relays for protection against over/under voltage, phase failure, and phase sequence faults. Adjustable trip levels with time delay settings for sensitive equipment protection."
@@ -2490,6 +2510,10 @@
     "potentialTransformers": {
       "title": "Potential Transformers (PT)",
       "description": "High-accuracy potential transformers for voltage measurement and protection. Suitable for metering, relaying, and instrumentation with excellent linearity and low phase displacement."
+    },
+    "insulators": {
+      "title": "Electrical Insulators",
+      "description": "High-quality electrical insulators for power systems and switchgear applications. Ceramic, polymer, and porcelain insulators in post, pin, and suspension types for voltage isolation and mechanical support in transmission and distribution networks."
     },
     "analogAmmeters": {
       "title": "Analog Ammeters",
@@ -2515,9 +2539,21 @@
       "title": "HRC Fuses (High Rupturing Capacity)",
       "description": "High breaking capacity fuses for short circuit protection in power distribution systems. Available in various current ratings with ceramic body construction and silver plated contacts."
     },
+    "glassFuses": {
+      "title": "Glass Fuses",
+      "description": "Standard glass cartridge fuses for low voltage circuit protection. Quick-blow and slow-blow types available in various current ratings for protecting sensitive electronic equipment and control circuits."
+    },
     "motorTerminalBlocks": {
       "title": "Motor Terminal Blocks",
       "description": "Heavy-duty terminal blocks designed for motor connections in control panels. High current capacity with robust construction for secure three-phase motor wiring."
+    },
+    "fuseTerminalBlockIsolators": {
+      "title": "Fuse Terminal Block Isolators",
+      "description": "Terminal block isolators with integrated fuse protection for circuit isolation and overcurrent protection. Combines disconnection and fusing functions in a single compact DIN rail mounted device."
+    },
+    "nonFuseTerminalBlockIsolators": {
+      "title": "Non-Fuse Terminal Block Isolators",
+      "description": "Terminal block isolators for safe circuit disconnection without fuse protection. Provides manual isolation for maintenance and testing with clear on/off indication for enhanced safety."
     },
     "earthingStrips": {
       "title": "Earthing Strips (Copper/Aluminum)",
@@ -2635,6 +2671,14 @@
       "title": "UPS Systems",
       "description": "Uninterruptible Power Supply systems for critical equipment protection. Online, line-interactive, and standby topologies with battery backup, power conditioning, and network management capabilities for business continuity."
     },
+    "smps": {
+      "title": "SMPS (Switched Mode Power Supplies)",
+      "description": "Compact switched-mode power supplies for industrial automation and control systems. High efficiency design with wide input voltage range, overload protection, and low electromagnetic interference for reliable 24V DC output."
+    },
+    "diodeUnits": {
+      "title": "Diode Units",
+      "description": "Industrial diode modules and rectifier units for AC to DC conversion. Single-phase and three-phase configurations with thermal management for power supply and motor drive applications."
+    },
     "electricalCabinets": {
       "title": "Electrical Cabinets",
       "description": "Robust electrical cabinets and enclosures for housing control equipment and electrical components. Available in various materials and IP ratings with modular designs for easy installation and maintenance."
@@ -2646,6 +2690,10 @@
     "dinRailEnclosures": {
       "title": "DIN Rail Enclosures",
       "description": "Modular DIN rail enclosures for housing automation components and control devices. Plastic and metal construction with snap-on design for easy assembly and professional panel integration."
+    },
+    "pvcDuct": {
+      "title": "PVC Duct",
+      "description": "PVC cable management ducts for organized wire routing in electrical panels and installations. Available in various sizes with slotted design for easy cable insertion and professional appearance."
     },
     "heatingCoils": {
       "title": "Heating Coils",

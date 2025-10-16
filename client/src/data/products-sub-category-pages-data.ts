@@ -81,6 +81,17 @@ import cuttingToolsDisplayImage from "@assets/generated_images/Cutting_tools_dis
 import liftingEquipmentWarehouseImage from "@assets/generated_images/Lifting_equipment_warehouse_facility_337cd4dc.png";
 import solarPanelsImage from "@assets/generated_images/Solar_products_technology_showcase_82907203.png";
 import solarInvertersImage from "@assets/generated_images/Solar_Energy_Systems_b0a2f025.png";
+import ioModulesImage from "@assets/generated_images/Input_Output_Modules_Display_5b91a43f.png";
+import insulatorsImage from "@assets/generated_images/Electrical_Insulators_Product_Display_139f1d29.png";
+import instrumentationCablesImage from "@assets/generated_images/Industrial_Instrumentation_Cables_Display_aa3222a3.png";
+import instrumentTransformersImage from "@assets/generated_images/Instrument_Transformers_Professional_Display_eb6a965a.png";
+import enclosuresCabinetsImage from "@assets/generated_images/Electrical_Enclosures_and_Cabinets_Display_da0e8bec.png";
+import contactorsRelaysImage from "@assets/generated_images/Contactors_and_Relays_Product_Display_7f276525.png";
+import protectionRelaysImage from "@assets/generated_images/Protection_Relays_Equipment_Display_df4987f5.png";
+import transformersPowerDevicesImage from "@assets/generated_images/Transformers_and_Power_Devices_Display_6258bb6d.png";
+import motorControllersDrivesImage from "@assets/generated_images/Motor_Controllers_and_Drives_Display_39531b9e.png";
+import panelMetersIndicatorsImage from "@assets/generated_images/Panel_Meters_and_Indicators_Display_c3320940.png";
+import industrialLightingImage from "@assets/generated_images/Industrial_LED_Lighting_Display_d9444854.png";
 
 export interface ProductSubCategoryData {
   slug: string;
@@ -356,7 +367,7 @@ export const getProductsSubCategoryData = (
     fullDescription: t(
       "products-data:subcategories.instrument-transformers.fullDescription"
     ),
-    image: powerQualityAnalyzersImage,
+    image: instrumentTransformersImage,
     parentCategory: "/products/instrumentation-accessories",
     parentCategoryTitle: t(
       "products-data:subcategories.instrument-transformers.parentCategoryTitle"
@@ -448,7 +459,7 @@ export const getProductsSubCategoryData = (
     fullDescription: t(
       "products-data:subcategories.instrumentation-cables.fullDescription"
     ),
-    image: sensorsBgImage,
+    image: instrumentationCablesImage,
     parentCategory: "/products/instrumentation-accessories",
     parentCategoryTitle: t(
       "products-data:subcategories.instrumentation-cables.parentCategoryTitle"
@@ -493,7 +504,7 @@ export const getProductsSubCategoryData = (
     fullDescription: t(
       "products-data:subcategories.contactors-relays.fullDescription"
     ),
-    image: circuitBreakersImage,
+    image: contactorsRelaysImage,
     parentCategory: "/products/electrical-accessories",
     parentCategoryTitle: t(
       "products-data:subcategories.contactors-relays.parentCategoryTitle"
@@ -538,7 +549,7 @@ export const getProductsSubCategoryData = (
     fullDescription: t(
       "products-data:subcategories.transformers-power-devices.fullDescription"
     ),
-    image: powerSuppliesImage,
+    image: transformersPowerDevicesImage,
     parentCategory: "/products/electrical-accessories",
     parentCategoryTitle: t(
       "products-data:subcategories.transformers-power-devices.parentCategoryTitle"
@@ -583,7 +594,7 @@ export const getProductsSubCategoryData = (
     fullDescription: t(
       "products-data:subcategories.industrial-lighting.fullDescription"
     ),
-    image: cablesWiresImage,
+    image: industrialLightingImage,
     parentCategory: "/products/electrical-accessories",
     parentCategoryTitle: t(
       "products-data:subcategories.industrial-lighting.parentCategoryTitle"
@@ -1045,7 +1056,7 @@ export const getProductsSubCategoryData = (
     fullDescription: t(
       "products-data:subcategories.motor-controllers-drives.fullDescription"
     ),
-    image: powerSuppliesImage,
+    image: motorControllersDrivesImage,
     parentCategory: "/products/automation-control-systems",
     parentCategoryTitle: t(
       "products-data:subcategories.motor-controllers-drives.parentCategoryTitle"
@@ -1408,7 +1419,7 @@ export const getProductsSubCategoryData = (
     fullDescription: t(
       "products-data:subcategories.protection-relays.fullDescription"
     ),
-    image: circuitBreakersImage,
+    image: protectionRelaysImage,
     parentCategory: "/products/safety-protective-devices",
     parentCategoryTitle: t(
       "products-data:subcategories.protection-relays.parentCategoryTitle"
@@ -1958,7 +1969,7 @@ export const getProductsSubCategoryData = (
     fullDescription: t(
       "products-data:subcategories.panel-meters-indicators.fullDescription"
     ),
-    image: multimetersImage,
+    image: panelMetersIndicatorsImage,
     parentCategory: "/products/industrial-measuring-tools",
     parentCategoryTitle: t(
       "products-data:subcategories.panel-meters-indicators.parentCategoryTitle"
@@ -2201,6 +2212,92 @@ export const getProductsSubCategoryData = (
         "https://powertonengineering.in/products/bldc/bldc-table-fan-wall-fan-motor",
     },
   },
+  // I/O Modules (Automation & Control Systems)
+  {
+    slug: "io-modules",
+    title: t("products-data:subcategories.io-modules.title"),
+    shortDescription: t("products-data:subcategories.io-modules.shortDescription"),
+    fullDescription: t("products-data:subcategories.io-modules.fullDescription"),
+    image: ioModulesImage,
+    parentCategory: "/products/automation-control-systems",
+    parentCategoryTitle: t("products-data:subcategories.io-modules.parentCategoryTitle"),
+    icon: Cpu,
+    keyBenefits: t("products-data:subcategories.io-modules.keyBenefits", {
+      returnObjects: true,
+    }),
+    specifications: t("products-data:subcategories.io-modules.specifications", {
+      returnObjects: true,
+    }),
+    applications: t("products-data:subcategories.io-modules.applications", {
+      returnObjects: true,
+    }),
+    industries: t("products-data:subcategories.io-modules.industries", {
+      returnObjects: true,
+    }),
+    features: t("products-data:subcategories.io-modules.features", {
+      returnObjects: true,
+    }),
+    certifications: t("products-data:subcategories.io-modules.certifications", {
+      returnObjects: true,
+    }),
+    seo: {
+      title: t("products-data:subcategories.io-modules.seo.title"),
+      description: t("products-data:subcategories.io-modules.seo.description"),
+      keywords: t("products-data:subcategories.io-modules.seo.keywords"),
+      canonicalUrl:
+        "https://powertonengineering.in/products/automation-control-systems/io-modules",
+    },
+  },
+  // Insulators & Insulation Materials (Electrical Accessories)
+  {
+    slug: "insulators-insulation-materials",
+    title: t("products-data:subcategories.insulators-insulation-materials.title"),
+    shortDescription: t(
+      "products-data:subcategories.insulators-insulation-materials.shortDescription"
+    ),
+    fullDescription: t(
+      "products-data:subcategories.insulators-insulation-materials.fullDescription"
+    ),
+    image: insulatorsImage,
+    parentCategory: "/products/electrical-accessories",
+    parentCategoryTitle: t(
+      "products-data:subcategories.insulators-insulation-materials.parentCategoryTitle"
+    ),
+    icon: Shield,
+    keyBenefits: t("products-data:subcategories.insulators-insulation-materials.keyBenefits", {
+      returnObjects: true,
+    }),
+    specifications: t(
+      "products-data:subcategories.insulators-insulation-materials.specifications",
+      {
+        returnObjects: true,
+      }
+    ),
+    applications: t("products-data:subcategories.insulators-insulation-materials.applications", {
+      returnObjects: true,
+    }),
+    industries: t("products-data:subcategories.insulators-insulation-materials.industries", {
+      returnObjects: true,
+    }),
+    features: t("products-data:subcategories.insulators-insulation-materials.features", {
+      returnObjects: true,
+    }),
+    certifications: t(
+      "products-data:subcategories.insulators-insulation-materials.certifications",
+      {
+        returnObjects: true,
+      }
+    ),
+    seo: {
+      title: t("products-data:subcategories.insulators-insulation-materials.seo.title"),
+      description: t(
+        "products-data:subcategories.insulators-insulation-materials.seo.description"
+      ),
+      keywords: t("products-data:subcategories.insulators-insulation-materials.seo.keywords"),
+      canonicalUrl:
+        "https://powertonengineering.in/products/electrical-accessories/insulators-insulation-materials",
+    },
+  },
 ];
 
 // Helper function to get product by slug
@@ -2268,6 +2365,8 @@ export const getSubcategorySlugById = (
     "bldc-ceiling-fan": "bldc-ceiling-fan",
     "bldc-submersible-surface-pump": "bldc-submersible-surface-pump",
     "bldc-table-fan-wall-fan-motor": "bldc-table-fan-wall-fan-motor",
+    "io-modules": "io-modules",
+    "insulators-insulation-materials": "insulators-insulation-materials",
   };
 
   return subcategoryMapping[subcategoryId] || null;
@@ -2324,6 +2423,10 @@ export const getParentCategoryBySubcategoryKey = (
     dcs: "automation-control-systems",
     hmi: "automation-control-systems",
     "motor-controllers-drives": "automation-control-systems",
+    "io-modules": "automation-control-systems",
+
+    // Electrical Accessories (continued)
+    "insulators-insulation-materials": "electrical-accessories",
 
     // Safety Protective Devices
     "surge-protectors": "electrical-accessories",
@@ -2406,6 +2509,8 @@ export const getSubcategoryKeyBySlug = (subcategorySlug: string): string => {
     "bldc-ceiling-fan": "bldc-ceiling-fan",
     "bldc-submersible-surface-pump": "bldc-submersible-surface-pump",
     "bldc-table-fan-wall-fan-motor": "bldc-table-fan-wall-fan-motor",
+    "io-modules": "io-modules",
+    "insulators-insulation-materials": "insulators-insulation-materials",
   };
 
   return subcategorySlugToKeyMapping[subcategorySlug] || subcategorySlug;

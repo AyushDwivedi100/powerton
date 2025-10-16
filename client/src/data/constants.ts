@@ -199,6 +199,11 @@ export const getProducts = (t: any) => [
         title: t("products:subcategories.industrial-lighting.title"),
         description: t("products:subcategories.industrial-lighting.description"),
       },
+      {
+        id: "insulators-insulation-materials",
+        title: t("products:subcategories.insulators-insulation-materials.title"),
+        description: t("products:subcategories.insulators-insulation-materials.description"),
+      },
     ],
   },
   {
@@ -269,6 +274,11 @@ export const getProducts = (t: any) => [
         id: "motor-controllers-drives",
         title: t("products:subcategories.motor-controllers-drives.title"),
         description: t("products:subcategories.motor-controllers-drives.description"),
+      },
+      {
+        id: "io-modules",
+        title: t("products:subcategories.io-modules.title"),
+        description: t("products:subcategories.io-modules.description"),
       },
     ],
   },

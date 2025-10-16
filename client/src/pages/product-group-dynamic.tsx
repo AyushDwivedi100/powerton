@@ -149,6 +149,8 @@ export default function ProductGroupDynamic() {
     "power-tools": "power-tools",
     "cutting-tools": "cutting-tools",
     "lifting-equipment": "lifting-equipment",
+    "io-modules": "io-modules",
+    "insulators-insulation-materials": "insulators-insulation-materials",
   };
 
   const subcategoryKey = subcategoryKeyMap[subcategorySlug] || subcategorySlug;

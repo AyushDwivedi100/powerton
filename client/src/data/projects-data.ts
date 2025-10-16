@@ -114,7 +114,7 @@ export const PROJECTS: Project[] = [
   },
   {
     id: "dalmia-sugar-distillery",
-    title: "Distillery Plant Automation & Programming",
+    title: "Distillery Plant Electrical & Programming",
     client: "Dalmia Sugar & Distillery",
     category: "Process Automation",
     industry: "Sugar & Distillery",

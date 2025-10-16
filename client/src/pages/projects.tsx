@@ -166,7 +166,10 @@ export default function Projects() {
     const matchesSearch =
       project.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
       project.client.toLowerCase().includes(searchTerm.toLowerCase()) ||
-      project.description.toLowerCase().includes(searchTerm.toLowerCase());
+      project.description.toLowerCase().includes(searchTerm.toLowerCase()) ||
+      project.location.toLowerCase().includes(searchTerm.toLowerCase()) ||
+      project.month.toLowerCase().includes(searchTerm.toLowerCase()) ||
+      project.year.toString().includes(searchTerm);
     const matchesIndustry =
       selectedIndustry === FILTER_IDS.industries.all ||
       project.industry === selectedIndustry;
@@ -474,7 +477,7 @@ export default function Projects() {
           </div>
 
           {/* Project Grid */}
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-10">
+          <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-4 sm:gap-6 lg:gap-6 xl:gap-6">
             {filteredProjects.map((project, index) => {
               const Icon = getCategoryIcon(project.category);
               return (
@@ -485,31 +488,22 @@ export default function Projects() {
                   className={getAnimationClass("fade-in-up", true)}
                 >
                   <Card className="bg-card border border-border rounded-xl shadow-sm hover:shadow-2xl cursor-pointer overflow-hidden h-full flex flex-col transition-all duration-300">
-                    {/* Project Image */}
-                    <div className="relative aspect-video overflow-hidden">
-                      <img
-                        src={project.image}
-                        alt={`ID-${200 + project.id}: ${
-                          project.title
-                        } project showcase`}
-                        className="w-full h-full object-cover"
-                      />
-                      {project.featured && (
-                        <Badge className="absolute top-4 right-4 bg-gradient-to-r from-yellow-400 to-orange-500 text-white px-3 py-1.5 shadow-lg">
-                          {t("pages:projects.featured")}
-                        </Badge>
-                      )}
-                    </div>
-
                     {/* Project Content */}
-                    <div className="p-8 flex-1 flex flex-col space-y-6">
+                    <div className="p-4 sm:p-6 lg:p-8 flex-1 flex flex-col space-y-4 sm:space-y-6">
                       {/* Header Section */}
-                      <div className="space-y-4">
-                        <div className="flex items-start justify-between gap-4">
-                          <CardTitle className="text-2xl font-bold text-foreground leading-tight flex-1">
+                      <div className="space-y-3 sm:space-y-4">
+                        <div className="flex items-start justify-between gap-3 sm:gap-4">
+                          <CardTitle className="text-lg sm:text-xl lg:text-2xl font-bold text-foreground leading-tight flex-1">
                             {t(`pages:projects.items.${project.id}.title`)}
                           </CardTitle>
-                          <div className="flex-shrink-0">{Icon}</div>
+                          <div className="flex flex-col sm:flex-row items-end sm:items-center gap-2 flex-shrink-0">
+                            {project.featured && (
+                              <Badge className="bg-gradient-to-r from-yellow-400 to-orange-500 text-white px-2 sm:px-3 py-1 sm:py-1.5 shadow-lg text-xs sm:text-sm">
+                                {t("pages:projects.featured")}
+                              </Badge>
+                            )}
+                            <div className="hidden sm:block">{Icon}</div>
+                          </div>
                         </div>
 
                         <div className="flex items-center gap-2 text-secondary">
@@ -521,7 +515,7 @@ export default function Projects() {
                       </div>
 
                       {/* Description */}
-                      <p className="text-base text-muted-foreground leading-relaxed">
+                      <p className="text-sm sm:text-base text-muted-foreground leading-relaxed">
                         {t(`pages:projects.items.${project.id}.description`)}
                       </p>
 

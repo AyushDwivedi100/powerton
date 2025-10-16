@@ -190,6 +190,15 @@ export const productGroups: ProductGroup[] = [
     image: "push-button",
     featuredSpecs: ["manufacturer", "model", "size", "contactType"],
   },
+  {
+    key: "hooter-buzzer",
+    slug: "hooter-buzzer",
+    titleKey: "products:productGroups.hooterBuzzer.title",
+    descriptionKey: "products:productGroups.hooterBuzzer.description",
+    subcategoryKey: "switches-indicators",
+    image: "push-button",
+    featuredSpecs: ["voltage", "sound", "type"],
+  },
   // Valves & Actuators subcategory groups
   {
     key: "control-valves",
@@ -449,6 +458,24 @@ export const productGroups: ProductGroup[] = [
     image: "terminal-block",
     featuredSpecs: ["manufacturer", "currentRating", "poles"],
   },
+  {
+    key: "fuse-terminal-block-isolators",
+    slug: "fuse-terminal-block-isolators",
+    titleKey: "products:productGroups.fuseTerminalBlockIsolators.title",
+    descriptionKey: "products:productGroups.fuseTerminalBlockIsolators.description",
+    subcategoryKey: "connectors-terminals",
+    image: "terminal-block",
+    featuredSpecs: ["current", "voltage", "fuseType"],
+  },
+  {
+    key: "non-fuse-terminal-block-isolators",
+    slug: "non-fuse-terminal-block-isolators",
+    titleKey: "products:productGroups.nonFuseTerminalBlockIsolators.title",
+    descriptionKey: "products:productGroups.nonFuseTerminalBlockIsolators.description",
+    subcategoryKey: "connectors-terminals",
+    image: "terminal-block",
+    featuredSpecs: ["current", "voltage", "poles"],
+  },
   // Circuit Breakers & Fuses subcategory groups
   {
     key: "miniature-circuit-breakers",
@@ -514,6 +541,15 @@ export const productGroups: ProductGroup[] = [
     image: "hrc-fuse",
     featuredSpecs: ["manufacturer", "current", "voltage", "breakingCapacity"],
   },
+  {
+    key: "glass-fuses",
+    slug: "glass-fuses",
+    titleKey: "products:productGroups.glassFuses.title",
+    descriptionKey: "products:productGroups.glassFuses.description",
+    subcategoryKey: "circuit-breakers-fuses",
+    image: "fuse",
+    featuredSpecs: ["current", "voltage", "size"],
+  },
   // Power Supplies subcategory groups
   {
     key: "ac-dc-converters",
@@ -542,6 +578,24 @@ export const productGroups: ProductGroup[] = [
     image: "ups",
     featuredSpecs: ["power", "backup", "efficiency"],
   },
+  {
+    key: "smps",
+    slug: "smps-power-supplies",
+    titleKey: "products:productGroups.smps.title",
+    descriptionKey: "products:productGroups.smps.description",
+    subcategoryKey: "power-supplies",
+    image: "ac-dc-converter",
+    featuredSpecs: ["output", "input", "efficiency"],
+  },
+  {
+    key: "diode-units",
+    slug: "diode-units",
+    titleKey: "products:productGroups.diodeUnits.title",
+    descriptionKey: "products:productGroups.diodeUnits.description",
+    subcategoryKey: "power-supplies",
+    image: "dc-dc-converter",
+    featuredSpecs: ["current", "voltage", "type"],
+  },
   // Enclosures & Cabinets subcategory groups
   {
     key: "electrical-cabinets",
@@ -569,6 +623,15 @@ export const productGroups: ProductGroup[] = [
     subcategoryKey: "enclosures-cabinets",
     image: "din-rail-enclosure",
     featuredSpecs: ["modules", "dimensions", "material"],
+  },
+  {
+    key: "pvc-duct",
+    slug: "pvc-duct",
+    titleKey: "products:productGroups.pvcDuct.title",
+    descriptionKey: "products:productGroups.pvcDuct.description",
+    subcategoryKey: "enclosures-cabinets",
+    image: "junction-box",
+    featuredSpecs: ["size", "length", "material"],
   },
   // Heating Elements & Appliances subcategory groups
   {
@@ -636,6 +699,15 @@ export const productGroups: ProductGroup[] = [
     image: "motor-protection-relay",
     featuredSpecs: ["manufacturer", "currentRange", "features"],
   },
+  {
+    key: "relay-boards",
+    slug: "relay-boards",
+    titleKey: "products:productGroups.relayBoards.title",
+    descriptionKey: "products:productGroups.relayBoards.description",
+    subcategoryKey: "contactors-relays",
+    image: "timer-relay",
+    featuredSpecs: ["channels", "voltage", "control"],
+  },
   // Transformers & Power Devices subcategory groups
   {
     key: "control-transformers",
@@ -668,6 +740,16 @@ export const productGroups: ProductGroup[] = [
     subcategoryKey: "transformers-power-devices",
     image: "potential-transformer",
     featuredSpecs: ["manufacturer", "ratio", "accuracy", "burden"],
+  },
+  // Insulators & Insulation Materials subcategory groups
+  {
+    key: "insulators",
+    slug: "insulators",
+    titleKey: "products:productGroups.insulators.title",
+    descriptionKey: "products:productGroups.insulators.description",
+    subcategoryKey: "insulators-insulation-materials",
+    image: "control-transformer",
+    featuredSpecs: ["type", "voltage", "material"],
   },
   // Industrial Lighting subcategory groups
   {
@@ -1004,6 +1086,16 @@ export const productGroups: ProductGroup[] = [
     subcategoryKey: "motor-controllers-drives",
     image: "dol-starter",
     featuredSpecs: ["manufacturer", "power", "coilVoltage"],
+  },
+  // I/O Modules subcategory groups
+  {
+    key: "io-cards",
+    slug: "io-cards",
+    titleKey: "products:productGroups.ioCards.title",
+    descriptionKey: "products:productGroups.ioCards.description",
+    subcategoryKey: "io-modules",
+    image: "compact-plc",
+    featuredSpecs: ["inputs", "outputs", "type"],
   },
 
   // Safety & Protective Devices category groups
