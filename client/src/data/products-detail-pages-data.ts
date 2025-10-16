@@ -687,7 +687,7 @@ export const productGroups: ProductGroup[] = [
     image: "potential-transformer",
     featuredSpecs: ["manufacturer", "ratio", "accuracy", "burden"],
   },
-  // LED Lighting subcategory groups
+  // Industrial Lighting subcategory groups
   {
     key: "street-lights",
     slug: "street-lights",
@@ -21387,8 +21387,8 @@ export const categories: Category[] = [
         products: [],
       },
       {
-        key: "led-lighting",
-        translationKey: "products:subcategories.ledLighting",
+        key: "industrial-lighting",
+        translationKey: "products:subcategories.industrialLighting",
         products: [],
       },
     ],
