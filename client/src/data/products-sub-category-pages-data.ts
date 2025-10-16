@@ -575,48 +575,48 @@ export const getProductsSubCategoryData = (
     },
   },
   {
-    slug: "led-lighting",
-    title: t("products-data:subcategories.led-lighting.title"),
+    slug: "industrial-lighting",
+    title: t("products-data:subcategories.industrial-lighting.title"),
     shortDescription: t(
-      "products-data:subcategories.led-lighting.shortDescription"
+      "products-data:subcategories.industrial-lighting.shortDescription"
     ),
     fullDescription: t(
-      "products-data:subcategories.led-lighting.fullDescription"
+      "products-data:subcategories.industrial-lighting.fullDescription"
     ),
     image: cablesWiresImage,
     parentCategory: "/products/electrical-accessories",
     parentCategoryTitle: t(
-      "products-data:subcategories.led-lighting.parentCategoryTitle"
+      "products-data:subcategories.industrial-lighting.parentCategoryTitle"
     ),
     icon: Sun,
-    keyBenefits: t("products-data:subcategories.led-lighting.keyBenefits", {
+    keyBenefits: t("products-data:subcategories.industrial-lighting.keyBenefits", {
       returnObjects: true,
     }),
     specifications: t(
-      "products-data:subcategories.led-lighting.specifications",
+      "products-data:subcategories.industrial-lighting.specifications",
       { returnObjects: true }
     ),
-    applications: t("products-data:subcategories.led-lighting.applications", {
+    applications: t("products-data:subcategories.industrial-lighting.applications", {
       returnObjects: true,
     }),
-    industries: t("products-data:subcategories.led-lighting.industries", {
+    industries: t("products-data:subcategories.industrial-lighting.industries", {
       returnObjects: true,
     }),
-    features: t("products-data:subcategories.led-lighting.features", {
+    features: t("products-data:subcategories.industrial-lighting.features", {
       returnObjects: true,
     }),
     certifications: t(
-      "products-data:subcategories.led-lighting.certifications",
+      "products-data:subcategories.industrial-lighting.certifications",
       { returnObjects: true }
     ),
     seo: {
-      title: t("products-data:subcategories.led-lighting.seo.title"),
+      title: t("products-data:subcategories.industrial-lighting.seo.title"),
       description: t(
-        "products-data:subcategories.led-lighting.seo.description"
+        "products-data:subcategories.industrial-lighting.seo.description"
       ),
-      keywords: t("products-data:subcategories.led-lighting.seo.keywords"),
+      keywords: t("products-data:subcategories.industrial-lighting.seo.keywords"),
       canonicalUrl:
-        "https://powertonengineering.in/products/electrical-accessories/led-lighting",
+        "https://powertonengineering.in/products/electrical-accessories/industrial-lighting",
     },
   },
   {
