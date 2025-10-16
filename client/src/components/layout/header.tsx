@@ -29,6 +29,7 @@ import {
   Droplets,
   Hammer,
   Truck,
+  Search,
 } from "lucide-react";
 import {
   COMPANY_INFO,
@@ -46,6 +47,7 @@ import {
 import { motion, AnimatePresence } from "framer-motion";
 import { ThemeToggle } from "@/components/ui/theme-toggle";
 import { LanguageSwitcher } from "@/components/ui/language-switcher";
+import { SearchDialog } from "@/components/search-dialog";
 import { useRTLClasses } from "@/hooks/use-rtl";
 import { cn } from "@/lib/utils";
 import mainLogoPowerton from "@assets/logos/main-logo-powerton.png";
@@ -60,6 +62,7 @@ export default function Header() {
   const [isServicesDropdownOpen, setIsServicesDropdownOpen] = useState(false);
   const [isProductsDropdownOpen, setIsProductsDropdownOpen] = useState(false);
   const [headerHeight, setHeaderHeight] = useState(100);
+  const [isSearchOpen, setIsSearchOpen] = useState(false);
 
   // Product Groups Popup State
   const [hoveredSubcategory, setHoveredSubcategory] = useState<string | null>(
@@ -520,6 +523,14 @@ export default function Header() {
               transition={{ duration: 0.4, delay: 0.35 }}
               className="flex items-center gap-2"
             >
+              <button
+                data-testid="button-open-search"
+                onClick={() => setIsSearchOpen(true)}
+                className="p-1 rounded-md bg-accent/10 hover:bg-accent/20 transition-colors text-foreground hover:text-secondary"
+                aria-label={t("common:buttons.search")}
+              >
+                <Search className="h-5 w-5" />
+              </button>
               <div className="p-1 rounded-md bg-accent/10 hover:bg-accent/20 transition-colors">
                 <LanguageSwitcher />
               </div>
@@ -1322,6 +1333,9 @@ export default function Header() {
           </Sheet>
         </div>
       </nav>
+
+      {/* Search Dialog */}
+      <SearchDialog open={isSearchOpen} onOpenChange={setIsSearchOpen} />
     </header>
   );
 }
