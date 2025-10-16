@@ -142,13 +142,6 @@ export default function Services() {
                             <CardTitle className="text-xl font-bold text-foreground group-hover:text-primary dark:group-hover:text-secondary transition-colors mb-2 text-wrap-safe responsive-text line-clamp-safe">
                               {service.title}
                             </CardTitle>
-                            {service.duration && (
-                              <div className="flex items-center text-sm text-muted-foreground text-wrap-safe">
-                                <Timer className="w-4 h-4 me-2 rtl-flip" />
-                                {t("common:labels.duration")}:{" "}
-                                {service.duration}
-                              </div>
-                            )}
                           </CardHeader>
 
                           <CardContent className="flex-1 flex flex-col">
@@ -172,7 +165,7 @@ export default function Services() {
                                         {feature}
                                       </span>
                                     </li>
-                                  )
+                                  ),
                                 )}
                               </ul>
                             </div>

@@ -2427,13 +2427,65 @@
       "title": "Управляющие трансформаторы",
       "description": "Понижающие управляющие трансформаторы для панелей и цепей управления оборудованием. Доступны номиналы 1 кВА, 3 кВА и 5 кВА с первичной и вторичной защитой предохранителями для надежного преобразования мощности."
     },
-    "ledLightsFlp": {
-      "title": "Взрывозащищенные светодиодные фонари (FLP)",
-      "description": "Взрывозащищенное светодиодное освещение, сертифицированное ATEX/IECEx, для опасных зон. Взрывозащищенная конструкция с высокой светоотдачей и длительным сроком службы для применений в зонах 1 и 2."
+    "streetLights": {
+      "title": "Уличные фонари",
+      "description": "Светодиодные уличные фонари промышленного класса для дорог, парковок и открытых площадок. Энергоэффективный дизайн с высокой светоотдачей, длительным сроком службы и отличной цветопередачей для повышения видимости и безопасности."
     },
-    "ledLightsWp": {
-      "title": "Всепогодные светодиодные фонари (WP)",
-      "description": "Всепогодное светодиодное освещение со степенью защиты IP65/IP66 для наружных и влажных помещений. Коррозионностойкий корпус с превосходной защитой от проникновения для суровых условий окружающей среды."
+    "streetLightsFlameproof": {
+      "title": "Уличные фонари (взрывозащищенные)",
+      "description": "Взрывозащищенные светодиодные уличные фонари с сертификатами ATEX/IECEx для опасных наружных зон. Взрывозащищенная конструкция, соответствующая требованиям зон 1 и 2, с прочным корпусом для безопасной работы в потенциально взрывоопасных средах."
+    },
+    "streetLightsWeatherproof": {
+      "title": "Уличные фонари (всепогодные)",
+      "description": "Всепогодные светодиодные уличные фонари со степенью защиты IP65/IP66 для суровых наружных условий. Коррозионностойкая конструкция с превосходной защитой от влаги и пыли для надежной работы в любых погодных условиях."
+    },
+    "highBayLights": {
+      "title": "Высотные светильники",
+      "description": "Светодиодные высотные светильники высокой мощности для складов, заводов и промышленных объектов. Обеспечивает мощное освещение с высоты 6-15 метров с отличной эффективностью и минимальным блеском для оптимальных условий работы."
+    },
+    "highBayLightsFlameproof": {
+      "title": "Высотные светильники (взрывозащищенные)",
+      "description": "Взрывозащищенные светодиодные высотные светильники для опасных промышленных зон. Сертификация ATEX/IECEx для зон 1 и 2 с взрывозащищенным корпусом, обеспечивающим безопасную работу во взрывоопасных газовых средах."
+    },
+    "highBayLightsWeatherproof": {
+      "title": "Высотные светильники (всепогодные)",
+      "description": "Всепогодные светодиодные высотные светильники со степенью защиты IP65/IP66 для влажных и пыльных промышленных сред. Герметичная конструкция предотвращает попадание влаги и частиц, обеспечивая надежную работу в суровых условиях."
+    },
+    "vesselLights": {
+      "title": "Судовые светильники",
+      "description": "Специализированные светодиодные судовые светильники для морских и промышленных резервуаров. Компактная конструкция с высокоэффективной оптикой и прочной конструкцией для освещения резервуаров, сосудов и замкнутых пространств."
+    },
+    "vesselLightsFlameproof": {
+      "title": "Судовые светильники (взрывозащищенные)",
+      "description": "Взрывозащищенные светодиодные судовые светильники для опасных резервуаров и сосудов. Сертифицировано для взрывоопасных сред зон 1/2 с взрывозащищенным корпусом, обеспечивающим безопасную работу вблизи легковоспламеняющихся жидкостей и газов."
+    },
+    "vesselLightsWeatherproof": {
+      "title": "Судовые светильники (всепогодные)",
+      "description": "Всепогодные светодиодные судовые светильники со степенью защиты IP66/IP67 для наружного освещения и освещения влажных зон. Герметичная конструкция с коррозионностойкими материалами для морских и химических сред."
+    },
+    "floodLights": {
+      "title": "Прожекторы",
+      "description": "Мощные светодиодные прожекторы для освещения территорий и охранных целей. Широкий угол луча с регулируемыми монтажными кронштейнами, обеспечивающими равномерное освещение спортивных площадок, фасадов зданий и больших открытых площадок."
+    },
+    "floodLightsFlameproof": {
+      "title": "Прожекторы (взрывозащищенные)",
+      "description": "Взрывозащищенные светодиодные прожекторы для освещения опасных зон. Сертификация ATEX/IECEx с взрывозащищенной конструкцией для безопасной работы в зонах 1 и 2 с потенциально взрывоопасными средами."
+    },
+    "floodLightsWeatherproof": {
+      "title": "Прожекторы (всепогодные)",
+      "description": "Всепогодные светодиодные прожекторы со степенью защиты IP65/IP66 для наружной охраны и освещения территорий. Прочный алюминиевый корпус с закаленным стеклом и превосходной герметизацией для надежной работы в экстремальных погодных условиях."
+    },
+    "wellGlassLights": {
+      "title": "Светильники Well Glass",
+      "description": "Промышленные светодиодные светильники Well Glass для утопленного монтажа на потолке и стенах. Прочная стеклянная крышка с термостойкой конструкцией, обеспечивающая эффективное общее освещение коридоров, складов и промышленных помещений."
+    },
+    "wellGlassLightsFlameproof": {
+      "title": "Светильники Well Glass (взрывозащищенные)",
+      "description": "Взрывозащищенные светодиодные светильники Well Glass для опасных внутренних зон. Взрывозащищенная конструкция, сертифицированная ATEX/IECEx, с усиленной стеклянной крышкой для безопасной работы в зонах 1 и 2."
+    },
+    "wellGlassLightsWeatherproof": {
+      "title": "Светильники Well Glass (всепогодные)",
+      "description": "Всепогодные светодиодные светильники Well Glass со степенью защиты IP65/IP66 для наружного применения и влажных зон. Герметичная конструкция с ударопрочным стеклом и герметичным уплотнением для надежной работы в сложных условиях."
     },
     "digitalMotorProtectionRelay": {
       "title": "Цифровое реле защиты двигателя (C&S)",
@@ -2444,7 +2496,7 @@
       "description": "Трехфазные реле контроля напряжения для защиты от перенапряжения/понижения напряжения, обрыва фазы и неисправностей последовательности фаз. Регулируемые уровни отключения с настройками задержки по времени для защиты чувствительного оборудования."
     },
     "currentTransformers": {
-      "title": "Трансформаторы тока (CT)",
+      "title": "Транс��орматоры тока (CT)",
       "description": "Прецизионные трансформаторы тока для измерений и защиты. Доступны различные коэффициенты с классом точности 0,5 и 1,0 для измерений и классом 5P/10P для цепей защиты."
     },
     "potentialTransformers": {
@@ -2499,9 +2551,53 @@
       "title": "Кабели управления",
       "description": "Многожильные кабели управления для автоматизации и контрольно-измерительной аппаратуры. Отличаются превосходными электрическими свойствами, экранированием от электромагнитных помех и гибкой конструкцией для проводки панелей и систем управления."
     },
-    "instrumentationCables": {
-      "title": "Кабели контрольно-измерительной аппаратуры",
-      "description": "Прецизионные кабели контрольно-измерительной аппаратуры для передачи сигналов в системах управления технологическими процессами. Низкая емкость с превосходной помехоустойчивостью и индивидуальным экранированием для ответственных измерительных цепей."
+    "armouredCables": {
+      "title": "Armoured Cables",
+      "description": "Heavy-duty armoured cables with steel wire or tape armouring for mechanical protection. Ideal for underground installations, industrial environments, and areas requiring protection from physical damage and rodents."
+    },
+    "flexibleCables": {
+      "title": "Flexible Cables",
+      "description": "High-flexibility cables designed for continuous movement applications. Suitable for cable chains, robotics, and mobile equipment with excellent bend radius and fatigue resistance."
+    },
+    "homeApplianceCables": {
+      "title": "Home Appliance Cables",
+      "description": "Specialized cables for household and commercial appliances. Heat-resistant and flame-retardant construction meeting safety standards for refrigerators, washing machines, ovens, and other electrical appliances."
+    },
+    "multicoreCablesElectrical": {
+      "title": "Multicore Cables (Electrical)",
+      "description": "Multi-core electrical cables for power and control applications. Available in 2, 3, 4, and more cores with PVC or XLPE insulation for efficient wiring in industrial and commercial installations."
+    },
+    "earthingCables": {
+      "title": "Earthing Cables",
+      "description": "Copper earthing cables for grounding and bonding applications. Available in various sizes (6mm², 10mm², 16mm², 25mm², 35mm², 50mm²) for electrical safety and lightning protection systems."
+    },
+    "ethernetCables": {
+      "title": "Ethernet Cables",
+      "description": "Industrial Ethernet cables for automation networks. Cat5e, Cat6, and Cat6a specifications with enhanced shielding for harsh industrial environments and reliable high-speed data transmission."
+    },
+    "profibusCables": {
+      "title": "Profibus Cables",
+      "description": "Profibus-DP and Profibus-PA fieldbus cables for industrial automation. Shielded twisted pair construction with characteristic impedance matching for reliable communication in process control networks."
+    },
+    "profinetCables": {
+      "title": "Profinet Cables",
+      "description": "Industrial Profinet Ethernet cables for real-time automation. Cat5e and Cat6 specifications with enhanced EMC protection, flexible design, and halogen-free construction for Industry 4.0 applications."
+    },
+    "shieldedPairCables1P": {
+      "title": "Shielded Pair Cables (1P)",
+      "description": "Single-pair shielded instrumentation cables for analog signals. Individual foil or braided shielding providing excellent noise immunity for 4-20mA and low-voltage sensor applications."
+    },
+    "shieldedPairCables2P": {
+      "title": "Shielded Pair Cables (2P)",
+      "description": "Two-pair shielded instrumentation cables for multiple signal transmission. Each pair individually shielded with overall screen for maximum noise protection in process control systems."
+    },
+    "shieldedPairCables8P": {
+      "title": "Shielded Pair Cables (8P)",
+      "description": "Eight-pair shielded instrumentation cables for multi-channel applications. Individually shielded pairs with color-coded identification for complex control and monitoring systems."
+    },
+    "multicoreCablesInstrumentation": {
+      "title": "Multicore Cables (Instrumentation)",
+      "description": "Multi-core instrumentation cables with multiple shielded pairs. Available in 4, 8, 12, 16, and 24-pair configurations for distributed control systems and multi-point measurements."
     },
     "terminalBlocks": {
       "title": "Клеммные колодки",

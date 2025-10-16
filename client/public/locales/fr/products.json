@@ -2387,13 +2387,65 @@
       "title": "Transformateurs de commande",
       "description": "Transformateurs de commande abaisseurs pour les circuits de commande de panneaux et de machines. Disponibles en intensités nominales de 1 kVA, 3 kVA et 5 kVA avec une protection de fusible primaire et secondaire pour une conversion de puissance fiable."
     },
-    "ledLightsFlp": {
-      "title": "Lumières DEL antidéflagrantes (FLP)",
-      "description": "Éclairage DEL antidéflagrant certifié ATEX/IECEx pour les zones dangereuses. Construction antidéflagrante avec un rendement lumineux élevé et une longue durée de vie opérationnelle pour les applications de Zone 1 et Zone 2."
+    "streetLights": {
+      "title": "Lampadaires",
+      "description": "Lampadaires LED de qualité industrielle pour les routes, les parkings et les zones extérieures. Conception économe en énergie avec un rendement lumineux élevé, une longue durée de vie et un excellent rendu des couleurs pour une visibilité et une sécurité accrues."
     },
-    "ledLightsWp": {
-      "title": "Lumières DEL résistantes aux intempéries (WP)",
-      "description": "Éclairage DEL résistant aux intempéries avec indice de protection IP65/IP66 pour les applications extérieures et dans les zones humides. Boîtier résistant à la corrosion avec une protection d'entrée supérieure pour les conditions environnementales difficiles."
+    "streetLightsFlameproof": {
+      "title": "Lampadaires (antidéflagrants)",
+      "description": "Lampadaires LED antidéflagrants certifiés ATEX/IECEx pour les zones extérieures dangereuses. Construction antidéflagrante répondant aux exigences des zones 1 et 2 avec un boîtier robuste pour un fonctionnement sûr dans des atmosphères potentiellement explosives."
+    },
+    "streetLightsWeatherproof": {
+      "title": "Lampadaires (résistants aux intempéries)",
+      "description": "Lampadaires LED résistants aux intempéries avec indice de protection IP65/IP66 pour les environnements extérieurs difficiles. Construction résistante à la corrosion avec une protection supérieure contre l'humidité et la poussière pour un fonctionnement fiable dans toutes les conditions météorologiques."
+    },
+    "highBayLights": {
+      "title": "Luminaires industriels à grande hauteur",
+      "description": "Luminaires industriels à grande hauteur à LED à haut rendement pour les entrepôts, les usines et les installations industrielles. Fournit un éclairage puissant à partir de hauteurs de 6 à 15 mètres avec une excellente efficacité et un éblouissement minimal pour des conditions de travail optimales."
+    },
+    "highBayLightsFlameproof": {
+      "title": "Luminaires industriels à grande hauteur (antidéflagrants)",
+      "description": "Luminaires industriels à grande hauteur à LED antidéflagrants pour les zones industrielles dangereuses. Certifiés ATEX/IECEx pour les applications de zone 1 et 2 avec un boîtier antidéflagrant assurant un fonctionnement sûr dans les atmosphères de gaz explosifs."
+    },
+    "highBayLightsWeatherproof": {
+      "title": "Luminaires industriels à grande hauteur (résistants aux intempéries)",
+      "description": "Luminaires industriels à grande hauteur à LED résistants aux intempéries avec indice de protection IP65/IP66 pour les environnements industriels humides et poussiéreux. La construction étanche empêche la pénétration d'humidité et de particules pour des performances fiables dans des conditions difficiles."
+    },
+    "vesselLights": {
+      "title": "Luminaires pour cuves",
+      "description": "Luminaires pour cuves à LED spécialisés pour les applications marines et les réservoirs industriels. Conception compacte avec une optique à haut rendement et une construction robuste pour l'éclairage des réservoirs, des cuves et des espaces confinés."
+    },
+    "vesselLightsFlameproof": {
+      "title": "Luminaires pour cuves (antidéflagrants)",
+      "description": "Luminaires pour cuves à LED antidéflagrants pour les applications de réservoirs et de cuves dangereuses. Certifiés pour les atmosphères explosives de zone 1/2 avec un boîtier antidéflagrant assurant un fonctionnement sûr autour des liquides et des gaz inflammables."
+    },
+    "vesselLightsWeatherproof": {
+      "title": "Luminaires pour cuves (résistants aux intempéries)",
+      "description": "Luminaires pour cuves à LED résistants aux intempéries avec indice de protection IP66/IP67 pour l'éclairage extérieur et des zones humides des réservoirs. Construction étanche avec des matériaux résistants à la corrosion pour les environnements marins et de traitement chimique."
+    },
+    "floodLights": {
+      "title": "Projecteurs",
+      "description": "Projecteurs à LED à haute puissance pour l'éclairage de zone et les applications de sécurité. Grand angle de faisceau avec des supports de montage réglables offrant un éclairage uniforme pour les terrains de sport, les façades de bâtiments et les grandes zones extérieures."
+    },
+    "floodLightsFlameproof": {
+      "title": "Projecteurs (antidéflagrants)",
+      "description": "Projecteurs à LED antidéflagrants pour l'éclairage des zones dangereuses. Certifiés ATEX/IECEx avec une construction antidéflagrante pour un fonctionnement sûr dans les atmosphères potentiellement explosives de zone 1 et 2."
+    },
+    "floodLightsWeatherproof": {
+      "title": "Projecteurs (résistants aux intempéries)",
+      "description": "Projecteurs à LED résistants aux intempéries avec indice de protection IP65/IP66 pour la sécurité extérieure et l'éclairage de zone. Boîtier en aluminium robuste avec verre trempé et étanchéité supérieure pour un fonctionnement fiable dans des conditions météorologiques extrêmes."
+    },
+    "wellGlassLights": {
+      "title": "Luminaires Well Glass",
+      "description": "Luminaires industriels Well Glass à LED pour un montage encastré au plafond et au mur. Couvercle en verre durable avec une construction résistante à la chaleur offrant un éclairage général efficace pour les couloirs, les entrepôts et les espaces industriels."
+    },
+    "wellGlassLightsFlameproof": {
+      "title": "Luminaires Well Glass (antidéflagrants)",
+      "description": "Luminaires Well Glass à LED antidéflagrants pour les zones intérieures dangereuses. Construction antidéflagrante certifiée ATEX/IECEx avec un couvercle en verre Well renforcé pour un fonctionnement sûr dans les emplacements classifiés de zone 1 et 2."
+    },
+    "wellGlassLightsWeatherproof": {
+      "title": "Luminaires Well Glass (résistants aux intempéries)",
+      "description": "Luminaires Well Glass à LED résistants aux intempéries avec indice de protection IP65/IP66 pour les applications extérieures et les zones humides. Construction étanche avec verre résistant aux chocs et étanchéité des joints pour des performances fiables dans des environnements difficiles."
     },
     "digitalMotorProtectionRelay": {
       "title": "Relais numérique de protection de moteur (C&S)",
@@ -2459,9 +2511,53 @@
       "title": "Câbles de commande",
       "description": "Câbles de commande multiconducteurs pour les applications d'automatisation et d'instrumentation. Dotés d'excellentes propriétés électriques, d'un blindage contre les interférences électromagnétiques et d'une construction flexible pour le câblage de panneaux et les systèmes de commande."
     },
-    "instrumentationCables": {
-      "title": "Câbles d'instrumentation",
-      "description": "Câbles d'instrumentation de précision pour la transmission de signaux dans les applications de contrôle de processus. Conception à faible capacitance avec une excellente immunité au bruit et blindage individuel des paires pour les circuits de mesure critiques."
+    "armouredCables": {
+      "title": "Câbles armés",
+      "description": "Câbles armés robustes avec fil d'acier ou blindage à bande pour la protection mécanique. Idéal pour les installations souterraines, les environnements industriels et les zones nécessitant une protection contre les dommages physiques et les rongeurs."
+    },
+    "flexibleCables": {
+      "title": "Câbles flexibles",
+      "description": "Câbles à haute flexibilité conçus pour les applications de mouvement continu. Convient aux chaînes porte-câbles, à la robotique et aux équipements mobiles avec un excellent rayon de courbure et une résistance à la fatigue."
+    },
+    "homeApplianceCables": {
+      "title": "Câbles d'appareils ménagers",
+      "description": "Câbles spécialisés pour les appareils ménagers et commerciaux. Construction résistante à la chaleur et ignifuge répondant aux normes de sécurité pour les réfrigérateurs, les machines à laver, les fours et autres appareils électriques."
+    },
+    "multicoreCablesElectrical": {
+      "title": "Câbles multiconducteurs (électriques)",
+      "description": "Câbles électriques multiconducteurs pour les applications d'alimentation et de commande. Disponibles en 2, 3, 4 conducteurs et plus avec isolation en PVC ou XLPE pour un câblage efficace dans les installations industrielles et commerciales."
+    },
+    "earthingCables": {
+      "title": "Câbles de mise à la terre",
+      "description": "Câbles de mise à la terre en cuivre pour les applications de mise à la terre et de liaison. Disponibles en différentes tailles (6 mm², 10 mm², 16 mm², 25 mm², 35 mm², 50 mm²) pour la sécurité électrique et les systèmes de protection contre la foudre."
+    },
+    "ethernetCables": {
+      "title": "Câbles Ethernet",
+      "description": "Câbles Ethernet industriels pour les réseaux d'automatisation. Spécifications Cat5e, Cat6 et Cat6a avec blindage amélioré pour les environnements industriels difficiles et une transmission de données haute vitesse fiable."
+    },
+    "profibusCables": {
+      "title": "Câbles Profibus",
+      "description": "Câbles de bus de terrain Profibus-DP et Profibus-PA pour l'automatisation industrielle. Construction à paire torsadée blindée avec adaptation d'impédance caractéristique pour une communication fiable dans les réseaux de contrôle de processus."
+    },
+    "profinetCables": {
+      "title": "Câbles Profinet",
+      "description": "Câbles Ethernet Profinet industriels pour l'automatisation en temps réel. Spécifications Cat5e et Cat6 avec protection CEM améliorée, conception flexible et construction sans halogène pour les applications Industrie 4.0."
+    },
+    "shieldedPairCables1P": {
+      "title": "Câbles à paire blindée (1P)",
+      "description": "Câbles d'instrumentation blindés à une paire pour les signaux analogiques. Blindage individuel en feuille ou tressé offrant une excellente immunité au bruit pour les applications de capteur 4-20 mA et basse tension."
+    },
+    "shieldedPairCables2P": {
+      "title": "Câbles à paire blindée (2P)",
+      "description": "Câbles d'instrumentation blindés à deux paires pour la transmission de signaux multiples. Chaque paire est blindée individuellement avec un écran global pour une protection maximale contre le bruit dans les systèmes de contrôle de processus."
+    },
+    "shieldedPairCables8P": {
+      "title": "Câbles à paire blindée (8P)",
+      "description": "Câbles d'instrumentation blindés à huit paires pour les applications multicanaux. Paires blindées individuellement avec identification par code couleur pour les systèmes de contrôle et de surveillance complexes."
+    },
+    "multicoreCablesInstrumentation": {
+      "title": "Câbles multiconducteurs (instrumentation)",
+      "description": "Câbles d'instrumentation multiconducteurs avec plusieurs paires blindées. Disponibles en configurations de 4, 8, 12, 16 et 24 paires pour les systèmes de contrôle distribués et les mesures multipoints."
     },
     "terminalBlocks": {
       "title": "Borniers",

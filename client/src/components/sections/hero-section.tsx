@@ -217,7 +217,7 @@ export default function HeroSection() {
                 className="text-3xl lg:text-4xl font-bold text-secondary mb-2"
                 aria-label={t("common:aria.stats.projectsCompleted")}
               >
-                <AnimatedCounter target={1200} suffix="+" />
+                <AnimatedCounter target={500} suffix="+" />
               </div>
               <div className="text-sm lg:text-base text-white/90">
                 {t("common:company.stats.projectsCompleted")}

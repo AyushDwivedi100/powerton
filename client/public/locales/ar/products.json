@@ -2423,13 +2423,65 @@
       "title": "محولات التحكم",
       "description": "محولات تحكم تنحي لدوائر التحكم في اللوحة والآلة. متوفرة في تصنيفات 1kVA و 3kVA و 5kVA مع حماية أولية وثانوية بالصمامات لتحويل طاقة موثوق به."
     },
-    "ledLightsFlp": {
-      "title": "مصابيح LED مقاومة للهب (FLP)",
-      "description": "إضاءة LED مقاومة للهب معتمدة من ATEX / IECEx للمناطق الخطرة. هيكل مقاوم للانفجار مع كفاءة إضاءة عالية وعمر تشغيلي طويل لتطبيقات المنطقة 1 والمنطقة 2."
+    "streetLights": {
+      "title": "أضواء الشوارع",
+      "description": "أضواء شوارع LED من الدرجة الصناعية للطرق ومواقف السيارات والمناطق الخارجية. تصميم موفر للطاقة مع خرج إضاءة عالي وعمر افتراضي طويل وتقديم ألوان ممتاز لتحسين الرؤية والسلامة."
     },
-    "ledLightsWp": {
-      "title": "مصابيح LED مقاومة للعوامل الجوية (WP)",
-      "description": "إضاءة LED مقاومة للعوامل الجوية بتصنيف IP65 / IP66 لتطبيقات المناطق الخارجية والرطبة. غطاء مقاوم للتآكل مع حماية فائقة من دخول الماء لظروف بيئية قاسية."
+    "streetLightsFlameproof": {
+      "title": "أضواء الشوارع (مقاومة للاشتعال)",
+      "description": "أضواء شوارع LED مقاومة للاشتعال معتمدة من ATEX / IECEx للمناطق الخارجية الخطرة. بناء مقاوم للانفجار يلبي متطلبات المنطقة 1 والمنطقة 2 مع غلاف قوي للتشغيل الآمن في الأجواء التي يحتمل أن تكون قابلة للانفجار."
+    },
+    "streetLightsWeatherproof": {
+      "title": "أضواء الشوارع (مانعة لتسرب الماء)",
+      "description": "أضواء شوارع LED مانعة لتسرب الماء بتصنيف IP65 / IP66 للبيئات الخارجية القاسية. بناء مقاوم للتآكل مع رطوبة فائقة وحماية من الغبار لتشغيل موثوق في جميع الظروف الجوية."
+    },
+    "highBayLights": {
+      "title": "أضواء High Bay",
+      "description": "أضواء LED عالية الإخراج للمستودعات والمصانع والمرافق الصناعية. توفر إضاءة قوية من ارتفاعات 6-15 مترًا بكفاءة ممتازة وتقليل الوهج للحصول على ظروف عمل مثالية."
+    },
+    "highBayLightsFlameproof": {
+      "title": "أضواء High Bay (مقاومة للاشتعال)",
+      "description": "أضواء LED عالية الارتفاع مقاومة للانفجار للمناطق الصناعية الخطرة. معتمدة من ATEX / IECEx لتطبيقات المنطقة 1 والمنطقة 2 مع غلاف مقاوم للاشتعال يضمن التشغيل الآمن في الأجواء الغازية المتفجرة."
+    },
+    "highBayLightsWeatherproof": {
+      "title": "أضواء High Bay (مانعة لتسرب الماء)",
+      "description": "أضواء LED عالية الارتفاع مانعة لتسرب الماء بتصنيف IP65 / IP66 للبيئات الصناعية الرطبة والمتربة. يمنع البناء محكم الغلق دخول الرطوبة والجسيمات لتوفير أداء موثوق في الظروف القاسية."
+    },
+    "vesselLights": {
+      "title": "أضواء السفن",
+      "description": "أضواء سفن LED متخصصة للتطبيقات البحرية والخزانات الصناعية. تصميم مضغوط مع بصريات عالية الكفاءة وبناء قوي لإضاءة الخزانات والسفن والأماكن المحصورة."
+    },
+    "vesselLightsFlameproof": {
+      "title": "أضواء السفن (مقاومة للاشتعال)",
+      "description": "أضواء سفن LED مقاومة للانفجار لتطبيقات الخزانات والسفن الخطرة. معتمدة للأجواء المتفجرة من المنطقة 1/2 مع غلاف مقاوم للاشتعال يضمن التشغيل الآمن حول السوائل والغازات القابلة للاشتعال."
+    },
+    "vesselLightsWeatherproof": {
+      "title": "أضواء السفن (مانعة لتسرب الماء)",
+      "description": "أضواء سفن LED مانعة لتسرب الماء بتصنيف IP66 / IP67 لإضاءة الخزانات الخارجية والمناطق الرطبة. بناء محكم الغلق بمواد مقاومة للتآكل للبيئات البحرية والمعالجة الكيميائية."
+    },
+    "floodLights": {
+      "title": "الأضواء الكاشفة",
+      "description": "أضواء LED كاشفة عالية الطاقة لإضاءة المناطق وتطبيقات الأمن. زاوية شعاع واسعة مع أقواس تثبيت قابلة للتعديل توفر إضاءة موحدة للملاعب الرياضية وواجهات المباني والمناطق الخارجية الكبيرة."
+    },
+    "floodLightsFlameproof": {
+      "title": "الأضواء الكاشفة (مقاومة للاشتعال)",
+      "description": "أضواء LED كاشفة مقاومة للانفجار لإضاءة المناطق الخطرة. معتمدة من ATEX / IECEx مع بناء مقاوم للاشتعال للتشغيل الآمن في الأجواء التي يحتمل أن تكون قابلة للانفجار في المنطقة 1 والمنطقة 2."
+    },
+    "floodLightsWeatherproof": {
+      "title": "الأضواء الكاشفة (مانعة لتسرب الماء)",
+      "description": "أضواء LED كاشفة مانعة لتسرب الماء بتصنيف IP65 / IP66 للأمن الخارجي وإضاءة المناطق. غلاف ألومنيوم قوي مع زجاج مقسّى وختم فائق لتشغيل موثوق في الظروف الجوية القاسية."
+    },
+    "wellGlassLights": {
+      "title": "أضواء Well Glass",
+      "description": "أضواء LED صناعية من نوع well glass للتركيبات السقفية والجدارية الغائرة. غطاء زجاجي متين مع بناء مقاوم للحرارة يوفر إضاءة عامة فعالة للممرات والمستودعات والمساحات الصناعية."
+    },
+    "wellGlassLightsFlameproof": {
+      "title": "أضواء Well Glass (مقاومة للاشتعال)",
+      "description": "أضواء LED مقاومة للانفجار من نوع well glass للمناطق الداخلية الخطرة. بناء مقاوم للاشتعال معتمد من ATEX / IECEx مع غطاء زجاجي مقوى للتشغيل الآمن في المواقع المصنفة من المنطقة 1 والمنطقة 2."
+    },
+    "wellGlassLightsWeatherproof": {
+      "title": "أضواء Well Glass (مانعة لتسرب الماء)",
+      "description": "أضواء LED مانعة لتسرب الماء بتصنيف IP65 / IP66 من نوع well glass للتطبيقات الخارجية والمناطق الرطبة. بناء محكم الغلق مع زجاج مقاوم للصدمات وختم الحشية لتوفير أداء موثوق في البيئات الصعبة."
     },
     "digitalMotorProtectionRelay": {
       "title": "مرحل حماية المحرك الرقمي (C&S)",
@@ -2495,9 +2547,53 @@
       "title": "كابلات التحكم",
       "description": "كابلات تحكم متعددة النواة لتطبيقات التشغيل الآلي والأجهزة. تتميز بخصائص كهربائية ممتازة وحماية من التداخل الكهرومغناطيسي وهيكل مرن لأسلاك اللوحة وأنظمة التحكم."
     },
-    "instrumentationCables": {
-      "title": "كابلات الأجهزة",
-      "description": "كابلات أجهزة دقيقة لنقل الإشارات في تطبيقات التحكم في العمليات. تصميم منخفض السعة مع مناعة ممتازة للضوضاء وحماية الزوج الفردي لدوائر القياس الحرجة."
+    "armouredCables": {
+      "title": "Armoured Cables",
+      "description": "Heavy-duty armoured cables with steel wire or tape armouring for mechanical protection. Ideal for underground installations, industrial environments, and areas requiring protection from physical damage and rodents."
+    },
+    "flexibleCables": {
+      "title": "Flexible Cables",
+      "description": "High-flexibility cables designed for continuous movement applications. Suitable for cable chains, robotics, and mobile equipment with excellent bend radius and fatigue resistance."
+    },
+    "homeApplianceCables": {
+      "title": "Home Appliance Cables",
+      "description": "Specialized cables for household and commercial appliances. Heat-resistant and flame-retardant construction meeting safety standards for refrigerators, washing machines, ovens, and other electrical appliances."
+    },
+    "multicoreCablesElectrical": {
+      "title": "Multicore Cables (Electrical)",
+      "description": "Multi-core electrical cables for power and control applications. Available in 2, 3, 4, and more cores with PVC or XLPE insulation for efficient wiring in industrial and commercial installations."
+    },
+    "earthingCables": {
+      "title": "Earthing Cables",
+      "description": "Copper earthing cables for grounding and bonding applications. Available in various sizes (6mm², 10mm², 16mm², 25mm², 35mm², 50mm²) for electrical safety and lightning protection systems."
+    },
+    "ethernetCables": {
+      "title": "Ethernet Cables",
+      "description": "Industrial Ethernet cables for automation networks. Cat5e, Cat6, and Cat6a specifications with enhanced shielding for harsh industrial environments and reliable high-speed data transmission."
+    },
+    "profibusCables": {
+      "title": "Profibus Cables",
+      "description": "Profibus-DP and Profibus-PA fieldbus cables for industrial automation. Shielded twisted pair construction with characteristic impedance matching for reliable communication in process control networks."
+    },
+    "profinetCables": {
+      "title": "Profinet Cables",
+      "description": "Industrial Profinet Ethernet cables for real-time automation. Cat5e and Cat6 specifications with enhanced EMC protection, flexible design, and halogen-free construction for Industry 4.0 applications."
+    },
+    "shieldedPairCables1P": {
+      "title": "Shielded Pair Cables (1P)",
+      "description": "Single-pair shielded instrumentation cables for analog signals. Individual foil or braided shielding providing excellent noise immunity for 4-20mA and low-voltage sensor applications."
+    },
+    "shieldedPairCables2P": {
+      "title": "Shielded Pair Cables (2P)",
+      "description": "Two-pair shielded instrumentation cables for multiple signal transmission. Each pair individually shielded with overall screen for maximum noise protection in process control systems."
+    },
+    "shieldedPairCables8P": {
+      "title": "Shielded Pair Cables (8P)",
+      "description": "Eight-pair shielded instrumentation cables for multi-channel applications. Individually shielded pairs with color-coded identification for complex control and monitoring systems."
+    },
+    "multicoreCablesInstrumentation": {
+      "title": "Multicore Cables (Instrumentation)",
+      "description": "Multi-core instrumentation cables with multiple shielded pairs. Available in 4, 8, 12, 16, and 24-pair configurations for distributed control systems and multi-point measurements."
     },
     "terminalBlocks": {
       "title": "كتل طرفية",

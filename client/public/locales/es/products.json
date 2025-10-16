@@ -2423,13 +2423,65 @@
       "title": "Transformadores de Control",
       "description": "Transformadores de control reductor para circuitos de control de panel y máquina. Disponible en clasificaciones de 1kVA, 3kVA y 5kVA con protección de fusible primario y secundario para una conversión de energía confiable."
     },
-    "ledLightsFlp": {
-      "title": "Luces LED a Prueba de Explosiones (FLP)",
-      "description": "Iluminación LED a prueba de explosiones con certificación ATEX/IECEx para áreas peligrosas. Construcción a prueba de explosiones con alta eficiencia luminosa y larga vida útil operativa para aplicaciones de Zona 1 y Zona 2."
+    "streetLights": {
+      "title": "Luces de Calle",
+      "description": "Farolas LED de grado industrial para carreteras, estacionamientos y áreas al aire libre. Diseño de bajo consumo con alta salida luminosa, larga vida útil y excelente reproducción del color para mejorar la visibilidad y la seguridad."
     },
-    "ledLightsWp": {
-      "title": "Luces LED Resistentes a la Intemperie (WP)",
-      "description": "Iluminación LED resistente a la intemperie con clasificación IP65/IP66 para aplicaciones exteriores y en áreas húmedas. Carcasa resistente a la corrosión con protección de entrada superior para condiciones ambientales adversas."
+    "streetLightsFlameproof": {
+      "title": "Farolas (Antideflagrantes)",
+      "description": "Farolas LED antideflagrantes con certificación ATEX/IECEx para áreas exteriores peligrosas. Construcción a prueba de explosiones que cumple con los requisitos de Zona 1 y Zona 2 con una carcasa robusta para un funcionamiento seguro en atmósferas potencialmente explosivas."
+    },
+    "streetLightsWeatherproof": {
+      "title": "Farolas (Resistentes a la Intemperie)",
+      "description": "Farolas LED resistentes a la intemperie con clasificación IP65/IP66 para entornos exteriores hostiles. Construcción resistente a la corrosión con protección superior contra la humedad y el polvo para un funcionamiento confiable en todas las condiciones climáticas."
+    },
+    "highBayLights": {
+      "title": "Luces de Bahía Alta",
+      "description": "Luces LED de bahía alta de alto rendimiento para almacenes, fábricas e instalaciones industriales. Ofrece una iluminación potente desde alturas de 6 a 15 metros con una eficiencia excelente y un mínimo deslumbramiento para unas condiciones de trabajo óptimas."
+    },
+    "highBayLightsFlameproof": {
+      "title": "Luces de Bahía Alta (Antideflagrantes)",
+      "description": "Luces LED de bahía alta a prueba de explosiones para áreas industriales peligrosas. Con certificación ATEX/IECEx para aplicaciones de Zona 1 y Zona 2 con un recinto antideflagrante que garantiza un funcionamiento seguro en atmósferas de gas explosivas."
+    },
+    "highBayLightsWeatherproof": {
+      "title": "Luces de Bahía Alta (Resistentes a la Intemperie)",
+      "description": "Luces LED de bahía alta resistentes a la intemperie con clasificación IP65/IP66 para entornos industriales húmedos y polvorientos. La construcción sellada evita la entrada de humedad y partículas para un rendimiento confiable en condiciones adversas."
+    },
+    "vesselLights": {
+      "title": "Luces para Buques",
+      "description": "Luces LED especializadas para buques para aplicaciones marinas y de tanques industriales. Diseño compacto con óptica de alta eficiencia y construcción robusta para la iluminación de tanques, buques y espacios confinados."
+    },
+    "vesselLightsFlameproof": {
+      "title": "Luces para Buques (Antideflagrantes)",
+      "description": "Luces LED para buques a prueba de explosiones para aplicaciones de tanques y buques peligrosos. Certificado para atmósferas explosivas de Zona 1/2 con una carcasa antideflagrante que garantiza un funcionamiento seguro alrededor de líquidos y gases inflamables."
+    },
+    "vesselLightsWeatherproof": {
+      "title": "Luces para Buques (Resistentes a la Intemperie)",
+      "description": "Luces LED para buques resistentes a la intemperie con clasificación IP66/IP67 para la iluminación de tanques en áreas exteriores y húmedas. Construcción sellada con materiales resistentes a la corrosión para entornos marinos y de procesamiento químico."
+    },
+    "floodLights": {
+      "title": "Proyectores",
+      "description": "Proyectores LED de alta potencia para iluminación de áreas y aplicaciones de seguridad. Ángulo de haz amplio con soportes de montaje ajustables que proporcionan una iluminación uniforme para campos deportivos, fachadas de edificios y grandes áreas al aire libre."
+    },
+    "floodLightsFlameproof": {
+      "title": "Proyectores (Antideflagrantes)",
+      "description": "Proyectores LED a prueba de explosiones para iluminación de áreas peligrosas. Con certificación ATEX/IECEx con construcción antideflagrante para un funcionamiento seguro en atmósferas potencialmente explosivas de Zona 1 y Zona 2."
+    },
+    "floodLightsWeatherproof": {
+      "title": "Proyectores (Resistentes a la Intemperie)",
+      "description": "Proyectores LED resistentes a la intemperie con clasificación IP65/IP66 para seguridad exterior e iluminación de áreas. Carcasa de aluminio robusta con vidrio templado y sellado superior para un funcionamiento confiable en condiciones climáticas extremas."
+    },
+    "wellGlassLights": {
+      "title": "Luces de Pozo de Vidrio",
+      "description": "Luces LED industriales de pozo de vidrio para montaje empotrado en techo y pared. Cubierta de vidrio duradera con construcción resistente al calor que proporciona una iluminación general eficiente para pasillos, almacenes y espacios industriales."
+    },
+    "wellGlassLightsFlameproof": {
+      "title": "Luces de Pozo de Vidrio (Antideflagrantes)",
+      "description": "Luces LED de pozo de vidrio a prueba de explosiones para áreas interiores peligrosas. Construcción antideflagrante con certificación ATEX/IECEx con cubierta de vidrio de pozo reforzada para un funcionamiento seguro en ubicaciones clasificadas de Zona 1 y Zona 2."
+    },
+    "wellGlassLightsWeatherproof": {
+      "title": "Luces de Pozo de Vidrio (Resistentes a la Intemperie)",
+      "description": "Luces LED de pozo de vidrio resistentes a la intemperie con clasificación IP65/IP66 para aplicaciones en áreas exteriores y húmedas. Construcción sellada con vidrio resistente a los impactos y sellado de juntas para un rendimiento confiable en entornos desafiantes."
     },
     "digitalMotorProtectionRelay": {
       "title": "Relé de Protección de Motor Digital (C&S)",
@@ -2495,9 +2547,53 @@
       "title": "Cables de Control",
       "description": "Cables de control de múltiples núcleos para aplicaciones de automatización e instrumentación. Con excelentes propiedades eléctricas, blindaje de interferencia electromagnética y construcción flexible para cableado de paneles y sistemas de control."
     },
-    "instrumentationCables": {
-      "title": "Cables de Instrumentación",
-      "description": "Cables de instrumentación de precisión para la transmisión de señales en aplicaciones de control de procesos. Diseño de baja capacitancia con excelente inmunidad al ruido y blindaje de pares individuales para circuitos de medición críticos."
+    "armouredCables": {
+      "title": "Cables Blindados",
+      "description": "Cables blindados de alta resistencia con alambre de acero o blindaje de cinta para protección mecánica. Ideal para instalaciones subterráneas, entornos industriales y áreas que requieren protección contra daños físicos y roedores."
+    },
+    "flexibleCables": {
+      "title": "Cables Flexibles",
+      "description": "Cables de alta flexibilidad diseñados para aplicaciones de movimiento continuo. Adecuado para cadenas de cables, robótica y equipos móviles con excelente radio de curvatura y resistencia a la fatiga."
+    },
+    "homeApplianceCables": {
+      "title": "Cables para Electrodomésticos",
+      "description": "Cables especializados para electrodomésticos domésticos y comerciales. Construcción resistente al calor e ignífuga que cumple con las normas de seguridad para refrigeradores, lavadoras, hornos y otros aparatos eléctricos."
+    },
+    "multicoreCablesElectrical": {
+      "title": "Cables Multiconductor (Eléctricos)",
+      "description": "Cables eléctricos multiconductor para aplicaciones de energía y control. Disponible en 2, 3, 4 y más conductores con aislamiento de PVC o XLPE para un cableado eficiente en instalaciones industriales y comerciales."
+    },
+    "earthingCables": {
+      "title": "Cables de Puesta a Tierra",
+      "description": "Cables de puesta a tierra de cobre para aplicaciones de conexión a tierra y enlace. Disponible en varios tamaños (6 mm², 10 mm², 16 mm², 25 mm², 35 mm², 50 mm²) para seguridad eléctrica y sistemas de protección contra rayos."
+    },
+    "ethernetCables": {
+      "title": "Cables Ethernet",
+      "description": "Cables Ethernet industriales para redes de automatización. Especificaciones Cat5e, Cat6 y Cat6a con blindaje mejorado para entornos industriales hostiles y transmisión de datos confiable de alta velocidad."
+    },
+    "profibusCables": {
+      "title": "Cables Profibus",
+      "description": "Cables de bus de campo Profibus-DP y Profibus-PA para automatización industrial. Construcción de par trenzado blindado con coincidencia de impedancia característica para una comunicación confiable en redes de control de procesos."
+    },
+    "profinetCables": {
+      "title": "Cables Profinet",
+      "description": "Cables Ethernet Profinet industriales para automatización en tiempo real. Especificaciones Cat5e y Cat6 con protección EMC mejorada, diseño flexible y construcción libre de halógenos para aplicaciones de la Industria 4.0."
+    },
+    "shieldedPairCables1P": {
+      "title": "Cables de Par Trenzado Blindado (1P)",
+      "description": "Cables de instrumentación blindados de un solo par para señales analógicas. Blindaje individual de lámina o trenzado que proporciona una excelente inmunidad al ruido para aplicaciones de sensores de 4-20 mA y bajo voltaje."
+    },
+    "shieldedPairCables2P": {
+      "title": "Cables de Par Trenzado Blindado (2P)",
+      "description": "Cables de instrumentación blindados de dos pares para transmisión de señales múltiples. Cada par blindado individualmente con pantalla general para máxima protección contra el ruido en sistemas de control de procesos."
+    },
+    "shieldedPairCables8P": {
+      "title": "Cables de Par Trenzado Blindado (8P)",
+      "description": "Cables de instrumentación blindados de ocho pares para aplicaciones multicanal. Pares blindados individualmente con identificación codificada por colores para sistemas complejos de control y monitoreo."
+    },
+    "multicoreCablesInstrumentation": {
+      "title": "Cables Multiconductor (Instrumentación)",
+      "description": "Cables de instrumentación multiconductor con múltiples pares blindados. Disponible en configuraciones de 4, 8, 12, 16 y 24 pares para sistemas de control distribuido y mediciones multipunto."
     },
     "terminalBlocks": {
       "title": "Bloques de Terminales",

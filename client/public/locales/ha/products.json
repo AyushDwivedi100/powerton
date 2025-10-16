@@ -2387,13 +2387,65 @@
       "title": "Sarrafa Masu Sauyawa",
       "description": "Saukar da masu sauyawa masu sarrafawa don panel da da'irori masu sarrafa inji. Akwai su a cikin ƙimar 1kVA, 3kVA, da 5kVA tare da kariyar fis ta farko da ta biyu don amintaccen sauya wuta."
     },
-    "ledLightsFlp": {
-      "title": "Fitilun LED masu hana harshen wuta (FLP)",
-      "description": "ATEX/IECEx ta tabbatar da hasken LED mai hana harshen wuta don wurare masu haɗari. Ginin hana fashewa tare da babban ingancin haske da tsawaita rayuwar aiki don Zone 1 da Zone 2 aikace-aikace."
+    "streetLights": {
+      "title": "Fitilun Titi",
+      "description": "Fitilun titi na LED masu ƙima na masana'antu don hanyoyi, filayen ajiye motoci, da wuraren waje. Zane mai amfani da makamashi tare da fitarwa mai haske mai girma, tsawon rai, da kyakkyawan fassarar launi don haɓaka ganuwa da aminci."
     },
-    "ledLightsWp": {
-      "title": "Fitilun LED masu hana yanayi (WP)",
-      "description": "IP65/IP66 ta kimanta fitilun LED masu hana yanayi don aikace-aikacen waje da wuraren jika. Gidaje masu jure lalata tare da fifikon kariyar shigar ciki don yanayin muhalli mai tsauri."
+    "streetLightsFlameproof": {
+      "title": "Fitilun Titi (Ba sa ɗaukar wuta)",
+      "description": "ATEX/IECEx ta tabbatar da fitilun titi na LED masu hana wuta don wurare masu haɗari na waje. Gina mai hana fashewa wanda ya cika buƙatun Zone 1 da Zone 2 tare da ƙaƙƙarfan gidaje don aiki mai aminci a cikin yanayi mai yuwuwar fashewa."
+    },
+    "streetLightsWeatherproof": {
+      "title": "Fitilun Titi (Masu jure yanayi)",
+      "description": "IP65/IP66 mai ƙima na fitilun titi na LED masu jure yanayi don mawuyacin yanayi na waje. Gine-gine masu jure lalata tare da babban danshi da kariyar ƙura don aiki mai aminci a cikin dukkan yanayin yanayi."
+    },
+    "highBayLights": {
+      "title": "Fitilun Babban Bay",
+      "description": "Fitilun LED masu fitarwa mai girma don manyan ɗakunan ajiya, masana'antu, da wuraren masana'antu. Yana ba da haske mai ƙarfi daga tsayin mita 6-15 tare da inganci mai kyau da ƙarancin haske don ingantattun yanayin aiki."
+    },
+    "highBayLightsFlameproof": {
+      "title": "Fitilun Babban Bay (Ba sa ɗaukar wuta)",
+      "description": "Fitilun LED masu hana fashewa don wurare masu haɗari na masana'antu. ATEX/IECEx ta tabbatar da aikace-aikacen Zone 1 da Zone 2 tare da rufin da ba ya ɗaukar wuta yana tabbatar da aiki mai aminci a cikin yanayin gas mai fashewa."
+    },
+    "highBayLightsWeatherproof": {
+      "title": "Fitilun Babban Bay (Masu jure yanayi)",
+      "description": "IP65/IP66 mai ƙima na fitilun LED masu jure yanayi don wuraren masana'antu masu jika da ƙura. Gine-gine da aka rufe yana hana danshi da shigar ƙwayoyin cuta don amintaccen aiki a cikin mawuyacin yanayi."
+    },
+    "vesselLights": {
+      "title": "Fitilun Jirgin Ruwa",
+      "description": "Fitilun jirgin ruwa na LED na musamman don aikace-aikacen tanki na ruwa da na masana'antu. Ƙirar ɗa'a tare da ingantattun optics da ƙaƙƙarfan gini don haskaka tankuna, jiragen ruwa, da wurare masu iyakacin sarari."
+    },
+    "vesselLightsFlameproof": {
+      "title": "Fitilun Jirgin Ruwa (Ba sa ɗaukar wuta)",
+      "description": "Fitilun jirgin ruwa na LED masu hana fashewa don aikace-aikacen tanki da jirgin ruwa masu haɗari. An tabbatar da shi don yanayin Zone 1/2 mai fashewa tare da gidaje masu hana wuta suna tabbatar da aiki mai aminci a kusa da ruwa da gas mai ƙonewa."
+    },
+    "vesselLightsWeatherproof": {
+      "title": "Fitilun Jirgin Ruwa (Masu jure yanayi)",
+      "description": "IP66/IP67 mai ƙima na fitilun jirgin ruwa na LED masu jure yanayi don hasken tanki na waje da wuraren jika. Gina da aka rufe tare da kayan aiki masu jure lalata don yanayin sarrafa ruwa da sinadarai."
+    },
+    "floodLights": {
+      "title": "Fitilun Ambaliya",
+      "description": "Fitilun ambaliya na LED masu ƙarfi don hasken wuri da aikace-aikacen tsaro. Faɗin kusurwar katako tare da daidaitattun braket ɗin hawa yana ba da haske mai kama da juna don filayen wasanni, facades na gini, da manyan wuraren waje."
+    },
+    "floodLightsFlameproof": {
+      "title": "Fitilun Ambaliya (Ba sa ɗaukar wuta)",
+      "description": "Fitilun ambaliya na LED masu hana fashewa don hasken wuri mai haɗari. ATEX/IECEx ta tabbatar da ginin da ba ya ɗaukar wuta don aiki mai aminci a cikin Zone 1 da Zone 2 mai yuwuwar yanayi mai fashewa."
+    },
+    "floodLightsWeatherproof": {
+      "title": "Fitilun Ambaliya (Masu jure yanayi)",
+      "description": "IP65/IP66 mai ƙima na fitilun ambaliya na LED masu jure yanayi don tsaro na waje da hasken wuri. Ƙaƙƙarfan gidaje na aluminum tare da gilashin zafin jiki da babban rufewa don aiki mai aminci a cikin matsanancin yanayin yanayi."
+    },
+    "wellGlassLights": {
+      "title": "Fitilun Gilashin Rijiya",
+      "description": "Fitilun LED na gilashin masana'antu don rufin da aka sake ginawa da hawa bango. Ƙaƙƙarfan murfin gilashi tare da ginin da ke jure zafi yana ba da haske mai inganci na gaba ɗaya don hanyoyin shiga, manyan ɗakunan ajiya, da wuraren masana'antu."
+    },
+    "wellGlassLightsFlameproof": {
+      "title": "Fitilun Gilashin Rijiya (Ba sa ɗaukar wuta)",
+      "description": "Fitilun LED na gilashin rijiya masu hana fashewa don wurare masu haɗari na cikin gida. ATEX/IECEx ta tabbatar da ginin da ba ya ɗaukar wuta tare da ƙarfafa murfin gilashin rijiya don aiki mai aminci a cikin wuraren da aka rarraba Zone 1 da Zone 2."
+    },
+    "wellGlassLightsWeatherproof": {
+      "title": "Fitilun Gilashin Rijiya (Masu jure yanayi)",
+      "description": "IP65/IP66 mai ƙima na fitilun LED na gilashin rijiya masu jure yanayi don aikace-aikacen waje da wuraren jika. Gina da aka rufe tare da gilashin da ke jure tasiri da rufewar gasket don amintaccen aiki a cikin yanayi masu wahala."
     },
     "digitalMotorProtectionRelay": {
       "title": "Digital Motor Protection Relay (C&S)",
@@ -2459,9 +2511,53 @@
       "title": "Cables na Sarrafawa",
       "description": "Cables masu sarrafawa masu yawa don sarrafa kansa da aikace-aikacen kayan aiki. Suna fasalta kyakkyawan kaddarorin lantarki, kariyar tsangwama ta lantarki, da ingantaccen gini don wayoyi da tsarin sarrafawa."
     },
-    "instrumentationCables": {
-      "title": "Cables na Kayan Aiki",
-      "description": "Madaidaicin igiyoyi na kayan aiki don watsa sigina a cikin aikace-aikacen sarrafa tsari. Ƙananan ƙirar capacitance tare da kyakkyawan rigakafin amo da garkuwar kowane nau'i-nau'i don mahimman da'irori na aunawa."
+    "armouredCables": {
+      "title": "Cables masu sulke",
+      "description": "Cables masu sulke masu nauyi tare da waya ta ƙarfe ko sulke don kariya ta inji. Manhaja don shigarwar ƙarƙashin ƙasa, mahalli na masana'antu, da wuraren da ke buƙatar kariya daga lalacewa ta zahiri da beraye."
+    },
+    "flexibleCables": {
+      "title": "Cables masu sassauƙa",
+      "description": "Cables masu sassauƙa da aka ƙera don ci gaba da aikace-aikacen motsi. Ya dace da sarƙoƙin kebul, robotics, da kayan aikin hannu tare da kyakkyawan radius na lanƙwasa da juriya na gajiya."
+    },
+    "homeApplianceCables": {
+      "title": "Cables na Kayan Aikin Gida",
+      "description": "Cables na musamman don kayan aikin gida da na kasuwanci. Gina mai jure zafi da kuma hana wuta wanda ya cika ƙa'idodin aminci don firiji, injin wanki, murhu, da sauran kayan aikin lantarki."
+    },
+    "multicoreCablesElectrical": {
+      "title": "Cables masu yawa (Lantarki)",
+      "description": "Cables na lantarki masu yawa don aikace-aikacen wuta da sarrafawa. Akwai a cikin 2, 3, 4, da ƙarin cores tare da PVC ko XLPE rufi don ingantaccen wayoyi a cikin shigarwar masana'antu da na kasuwanci."
+    },
+    "earthingCables": {
+      "title": "Cables na Ƙasa",
+      "description": "Cables na ƙasa na jan ƙarfe don aikace-aikacen ƙasa da haɗin gwiwa. Akwai a cikin girma dabam dabam (6mm², 10mm², 16mm², 25mm², 35mm², 50mm²) don amincin lantarki da tsarin kariyar walƙiya."
+    },
+    "ethernetCables": {
+      "title": "Cables na Ethernet",
+      "description": "Cables na Ethernet na masana'antu don cibiyoyin sadarwa na sarrafa kansa. Cat5e, Cat6, da Cat6a ƙayyadaddun bayanai tare da haɓaka kariya don mawuyacin yanayi na masana'antu da amintaccen watsawar bayanai mai sauri."
+    },
+    "profibusCables": {
+      "title": "Cables na Profibus",
+      "description": "Profibus-DP da Profibus-PA fieldbus cables don sarrafa kansa na masana'antu. Gina ma'aurata mai kariya mai kariya tare da daidaitawar impedance na halayya don amintaccen sadarwa a cikin cibiyoyin sadarwa na sarrafa tsari."
+    },
+    "profinetCables": {
+      "title": "Cables na Profinet",
+      "description": "Cables na Profinet Ethernet na masana'antu don sarrafa kansa na ainihi. Cat5e da Cat6 ƙayyadaddun bayanai tare da haɓaka kariyar EMC, ƙirar sassauƙa, da ginin da ba shi da halogen don aikace-aikacen Masana'antu 4.0."
+    },
+    "shieldedPairCables1P": {
+      "title": "Cables masu kariya (1P)",
+      "description": "Cables masu kariya guda ɗaya don siginonin analog. Foil ɗin mutum ɗaya ko kariya mai kariya wanda ke ba da kyakkyawan rigakafin amo don 4-20mA da aikace-aikacen firikwensin ƙarancin ƙarfi."
+    },
+    "shieldedPairCables2P": {
+      "title": "Cables masu kariya (2P)",
+      "description": "Cables masu kariya biyu don watsa sigina da yawa. Kowace ma'aurata tana da kariya daban-daban tare da allon gabaɗaya don iyakar kariya ta amo a cikin tsarin sarrafa tsari."
+    },
+    "shieldedPairCables8P": {
+      "title": "Cables masu kariya (8P)",
+      "description": "Cables masu kariya takwas don aikace-aikace masu tashoshi da yawa. Ma'aurata masu kariya daban-daban tare da tantance launi don hadaddun tsarin sarrafawa da sa ido."
+    },
+    "multicoreCablesInstrumentation": {
+      "title": "Cables masu yawa (Kayan aiki)",
+      "description": "Cables na kayan aiki masu yawa tare da ma'aurata masu kariya da yawa. Akwai a cikin 4, 8, 12, 16, da 24-biyu configurations don rarraba tsarin sarrafawa da ma'auni masu yawa."
     },
     "terminalBlocks": {
       "title": "Toshewar Tashoshi",

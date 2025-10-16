@@ -2423,13 +2423,65 @@
       "title": "Transfoma za Udhibiti",
       "description": "Transfoma za udhibiti wa hatua ya chini kwa paneli na mizunguko ya udhibiti wa mashine. Inapatikana katika ukadiriaji wa 1kVA, 3kVA, na 5kVA na ulinzi wa fuse ya msingi na ya sekondari kwa ubadilishaji wa nguvu wa kuaminika."
     },
-    "ledLightsFlp": {
-      "title": "Taa za LED zisizoshika Moto (FLP)",
-      "description": "Taa za LED zisizoshika moto zilizoidhinishwa na ATEX/IECEx kwa maeneo hatarishi. Ujenzi usio na mlipuko na ufanisi wa juu wa luminous na maisha marefu ya uendeshaji kwa matumizi ya Eneo la 1 na Eneo la 2."
+    "streetLights": {
+      "title": "Taa za Mitaani",
+      "description": "Taa za mitaani za LED za kiwango cha viwandani kwa barabara, maegesho na maeneo ya nje. Muundo unaotumia nishati kidogo na pato la juu la luminous, maisha marefu, na utoaji bora wa rangi kwa mwonekano na usalama ulioimarishwa."
     },
-    "ledLightsWp": {
-      "title": "Taa za LED zisizo na Hali ya Hewa (WP)",
-      "description": "Taa za LED zisizo na hali ya hewa zilizokadiriwa IP65/IP66 kwa matumizi ya nje na maeneo ya mvua. Nyumba inayostahimili kutu yenye ulinzi bora wa ingress kwa hali ngumu za mazingira."
+    "streetLightsFlameproof": {
+      "title": "Taa za Mitaani (Zisizoshika Moto)",
+      "description": "Taa za mitaani za LED zilizoidhinishwa na ATEX/IECEx kwa maeneo hatarishi ya nje. Ujenzi usio na mlipuko unaokidhi mahitaji ya Eneo la 1 na Eneo la 2 na nyumba thabiti kwa uendeshaji salama katika angahewa zinazoweza kulipuka."
+    },
+    "streetLightsWeatherproof": {
+      "title": "Taa za Mitaani (Zinazostahimili Hali ya Hewa)",
+      "description": "Taa za mitaani za LED zilizokadiriwa IP65/IP66 kwa mazingira magumu ya nje. Ujenzi unaostahimili kutu na unyevu bora na ulinzi wa vumbi kwa uendeshaji wa kuaminika katika hali zote za hewa."
+    },
+    "highBayLights": {
+      "title": "Taa za High Bay",
+      "description": "Taa za high bay za LED za pato la juu kwa maghala, viwanda na vifaa vya viwandani. Hutoa mwangaza wenye nguvu kutoka urefu wa mita 6-15 na ufanisi bora na mwangaza mdogo kwa hali bora za kufanya kazi."
+    },
+    "highBayLightsFlameproof": {
+      "title": "Taa za High Bay (Zisizoshika Moto)",
+      "description": "Taa za high bay za LED zisizoshika moto kwa maeneo hatarishi ya viwandani. Zilizoidhinishwa na ATEX/IECEx kwa matumizi ya Eneo la 1 na Eneo la 2 na eneo lisiloshika moto linalohakikisha uendeshaji salama katika angahewa za gesi zinazoweza kulipuka."
+    },
+    "highBayLightsWeatherproof": {
+      "title": "Taa za High Bay (Zinazostahimili Hali ya Hewa)",
+      "description": "Taa za high bay za LED zilizokadiriwa IP65/IP66 kwa mazingira ya viwandani yenye unyevu na vumbi. Ujenzi uliofungwa huzuia unyevu na chembe kuingia kwa utendaji wa kuaminika katika hali ngumu."
+    },
+    "vesselLights": {
+      "title": "Taa za Chombo",
+      "description": "Taa maalum za chombo za LED kwa matumizi ya baharini na tanki za viwandani. Muundo thabiti na optics ya ufanisi wa juu na ujenzi thabiti kwa mwangaza wa matanki, vyombo na nafasi zilizofungwa."
+    },
+    "vesselLightsFlameproof": {
+      "title": "Taa za Chombo (Zisizoshika Moto)",
+      "description": "Taa za chombo za LED zisizoshika moto kwa matumizi hatarishi ya tanki na chombo. Zilizoidhinishwa kwa angahewa za mlipuko za Eneo la 1/2 na nyumba isiyoshika moto inayohakikisha uendeshaji salama karibu na vimiminika na gesi zinazowaka."
+    },
+    "vesselLightsWeatherproof": {
+      "title": "Taa za Chombo (Zinazostahimili Hali ya Hewa)",
+      "description": "Taa za chombo za LED zilizokadiriwa IP66/IP67 kwa mwangaza wa tanki za nje na maeneo yenye unyevu. Ujenzi uliofungwa na vifaa vinavyostahimili kutu kwa mazingira ya baharini na usindikaji wa kemikali."
+    },
+    "floodLights": {
+      "title": "Taa za Mafuriko",
+      "description": "Taa za mafuriko za LED za nguvu ya juu kwa mwangaza wa eneo na matumizi ya usalama. Pembe pana ya boriti na mabano ya kupachika yanayoweza kubadilishwa kutoa mwangaza sare kwa viwanja vya michezo, facades za majengo na maeneo makubwa ya nje."
+    },
+    "floodLightsFlameproof": {
+      "title": "Taa za Mafuriko (Zisizoshika Moto)",
+      "description": "Taa za mafuriko za LED zisizoshika moto kwa mwangaza wa eneo hatarishi. Zilizoidhinishwa na ATEX/IECEx na ujenzi usioshika moto kwa uendeshaji salama katika Eneo la 1 na Eneo la 2 angahewa zinazoweza kulipuka."
+    },
+    "floodLightsWeatherproof": {
+      "title": "Taa za Mafuriko (Zinazostahimili Hali ya Hewa)",
+      "description": "Taa za mafuriko za LED zilizokadiriwa IP65/IP66 kwa usalama wa nje na mwangaza wa eneo. Nyumba thabiti ya alumini na glasi iliyokasirika na kuziba bora kwa uendeshaji wa kuaminika katika hali mbaya ya hewa."
+    },
+    "wellGlassLights": {
+      "title": "Taa za Glasi ya Kisima",
+      "description": "Taa za LED za glasi ya kisima za viwandani kwa dari iliyowekwa tena na ukuta. Jalada la glasi la kudumu na ujenzi unaostahimili joto hutoa mwangaza mkuu wa jumla kwa korido, maghala na nafasi za viwandani."
+    },
+    "wellGlassLightsFlameproof": {
+      "title": "Taa za Glasi ya Kisima (Zisizoshika Moto)",
+      "description": "Taa za LED za glasi ya kisima zisizoshika moto kwa maeneo hatarishi ya ndani. Ujenzi usioshika moto uliothibitishwa na ATEX/IECEx na jalada la glasi ya kisima lililoimarishwa kwa uendeshaji salama katika maeneo yaliyowekwa kama Eneo la 1 na Eneo la 2."
+    },
+    "wellGlassLightsWeatherproof": {
+      "title": "Taa za Glasi ya Kisima (Zinazostahimili Hali ya Hewa)",
+      "description": "Taa za LED za glasi ya kisima zilizokadiriwa IP65/IP66 kwa matumizi ya nje na maeneo yenye unyevu. Ujenzi uliofungwa na glasi inayostahimili athari na kuziba kwa gasket kwa utendaji wa kuaminika katika mazingira magumu."
     },
     "digitalMotorProtectionRelay": {
       "title": "Relay ya Ulinzi wa Motor ya Dijitali (C&S)",
@@ -2495,9 +2547,53 @@
       "title": "Kebo za Udhibiti",
       "description": "Kebo za udhibiti za msingi nyingi kwa matumizi ya otomatiki na ala. Zikiwa na sifa bora za umeme, ulinzi wa kuingiliwa kwa sumakuumeme, na ujenzi rahisi kwa wiring ya paneli na mifumo ya udhibiti."
     },
-    "instrumentationCables": {
-      "title": "Kebo za Ala",
-      "description": "Kebo za ala za usahihi kwa usambazaji wa mawimbi katika matumizi ya udhibiti wa mchakato. Muundo wa capacitance ya chini na kinga bora ya kelele na ulinzi wa jozi ya mtu binafsi kwa mizunguko muhimu ya kipimo."
+    "armouredCables": {
+      "title": "Kebo za Kivita",
+      "description": "Kebo za kivita za kazi nzito zilizo na waya wa chuma au ukanda wa chuma kwa ulinzi wa kimakanika. Bora kwa mitambo ya chini ya ardhi, mazingira ya viwandani, na maeneo yanayohitaji ulinzi dhidi ya uharibifu wa kimwili na panya."
+    },
+    "flexibleCables": {
+      "title": "Kebo Zinazonyumbulika",
+      "description": "Kebo za kunyumbulika sana zilizoundwa kwa matumizi ya harakati endelevu. Zinafaa kwa minyororo ya kebo, roboti, na vifaa vya mkononi vilivyo na radius bora ya kuinama na upinzani wa uchovu."
+    },
+    "homeApplianceCables": {
+      "title": "Kebo za Vifaa vya Nyumbani",
+      "description": "Kebo maalum kwa vifaa vya nyumbani na biashara. Ujenzi unaostahimili joto na usio na moto unaokidhi viwango vya usalama kwa friji, mashine za kuosha, oveni, na vifaa vingine vya umeme."
+    },
+    "multicoreCablesElectrical": {
+      "title": "Kebo za Msingi Nyingi (Umeme)",
+      "description": "Kebo za umeme za msingi nyingi kwa matumizi ya nguvu na udhibiti. Inapatikana katika cores 2, 3, 4, na zaidi na insulation ya PVC au XLPE kwa wiring yenye ufanisi katika mitambo ya viwandani na biashara."
+    },
+    "earthingCables": {
+      "title": "Kebo za Kutuliza",
+      "description": "Kebo za shaba za kutuliza kwa matumizi ya kutuliza na kuunganisha. Inapatikana katika ukubwa mbalimbali (6mm², 10mm², 16mm², 25mm², 35mm², 50mm²) kwa usalama wa umeme na mifumo ya ulinzi wa umeme."
+    },
+    "ethernetCables": {
+      "title": "Kebo za Ethaneti",
+      "description": "Kebo za Ethaneti za viwandani kwa mitandao ya otomatiki. Vipimo vya Cat5e, Cat6, na Cat6a vilivyo na ulinzi ulioimarishwa kwa mazingira magumu ya viwandani na usambazaji wa data wa kasi ya juu unaotegemewa."
+    },
+    "profibusCables": {
+      "title": "Kebo za Profibus",
+      "description": "Kebo za uwanja za Profibus-DP na Profibus-PA kwa otomatiki ya viwandani. Ujenzi wa jozi iliyosokotwa iliyolindwa na ulinganifu wa impedance ya tabia kwa mawasiliano ya kuaminika katika mitandao ya udhibiti wa mchakato."
+    },
+    "profinetCables": {
+      "title": "Kebo za Profineti",
+      "description": "Kebo za Ethaneti za Profineti za viwandani kwa otomatiki ya wakati halisi. Vipimo vya Cat5e na Cat6 vilivyo na ulinzi ulioimarishwa wa EMC, muundo rahisi, na ujenzi usio na halojeni kwa matumizi ya Sekta ya 4.0."
+    },
+    "shieldedPairCables1P": {
+      "title": "Kebo za Jozi Zilizolindwa (1P)",
+      "description": "Kebo za ala za jozi moja zilizolindwa kwa mawimbi ya analogi. Foil ya mtu binafsi au ulinzi uliounganishwa hutoa kinga bora ya kelele kwa 4-20mA na matumizi ya sensor ya voltage ya chini."
+    },
+    "shieldedPairCables2P": {
+      "title": "Kebo za Jozi Zilizolindwa (2P)",
+      "description": "Kebo za ala za jozi mbili zilizolindwa kwa usambazaji wa mawimbi mengi. Kila jozi hulindwa kibinafsi na skrini ya jumla kwa ulinzi wa juu wa kelele katika mifumo ya udhibiti wa mchakato."
+    },
+    "shieldedPairCables8P": {
+      "title": "Kebo za Jozi Zilizolindwa (8P)",
+      "description": "Kebo za ala za jozi nane zilizolindwa kwa matumizi ya vituo vingi. Jozi zilizolindwa kibinafsi na kitambulisho cha rangi kwa mifumo changamano ya udhibiti na ufuatiliaji."
+    },
+    "multicoreCablesInstrumentation": {
+      "title": "Kebo za Msingi Nyingi (Ala)",
+      "description": "Kebo za ala za msingi nyingi zilizo na jozi nyingi zilizolindwa. Inapatikana katika usanidi wa jozi 4, 8, 12, 16, na 24 kwa mifumo ya udhibiti iliyosambazwa na vipimo vya pointi nyingi."
     },
     "terminalBlocks": {
       "title": "Vitalu vya Terminal",

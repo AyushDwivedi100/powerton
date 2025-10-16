@@ -96,182 +96,97 @@
     "smart1200": {
       "title": "智能BLDC吊扇1200mm",
       "description": "具有遥控和定时功能的节能智能吊扇",
-      "features": [
-        "28W功耗",
-        "遥控",
-        "5档速度设置",
-        "定时功能"
-      ]
+      "features": ["28W功耗", "遥控", "5档速度设置", "定时功能"]
     },
     "premium1400": {
       "title": "高级BLDC吊扇1400mm",
       "description": "具有LED照明和可逆电机的高性能吊扇",
-      "features": [
-        "35W功耗",
-        "集成LED灯",
-        "可逆电机",
-        "静音运行"
-      ]
+      "features": ["35W功耗", "集成LED灯", "可逆电机", "静音运行"]
     },
     "commercial1500": {
       "title": "商用BLDC吊扇1500mm",
       "description": "用于商业和工业应用的重型吊扇",
-      "features": [
-        "45W功耗",
-        "重型电机",
-        "高风量",
-        "耐用结构"
-      ]
+      "features": ["45W功耗", "重型电机", "高风量", "耐用结构"]
     }
   },
   "bldcCoolerExhaust": {
     "exhaustFan": {
       "title": "BLDC排气扇电机",
       "description": "用于排气扇应用的高效无刷直流电机",
-      "features": [
-        "变速控制",
-        "低噪音运行",
-        "节能设计",
-        "延长寿命"
-      ]
+      "features": ["变速控制", "低噪音运行", "节能设计", "延长寿命"]
     },
     "coolerMotors": {
       "title": "BLDC冷风机电机",
       "description": "专为冷风机应用设计的节能电机",
-      "features": [
-        "高扭矩输出",
-        "耐候性",
-        "速度控制",
-        "免维护操作"
-      ]
+      "features": ["高扭矩输出", "耐候性", "速度控制", "免维护操作"]
     },
     "ventilation": {
       "title": "BLDC通风系统电机",
       "description": "用于工业通风和空气处理系统的专用电机",
-      "features": [
-        "高CFM等级",
-        "温度等级",
-        "抗振动",
-        "智能控制兼容"
-      ]
+      "features": ["高CFM等级", "温度等级", "抗振动", "智能控制兼容"]
     }
   },
   "bldcPumps": {
     "solarSubmersible1hp": {
       "title": "太阳能BLDC潜水泵1HP",
       "description": "用于水井和钻孔应用的太阳能潜水泵",
-      "features": [
-        "太阳能兼容运行",
-        "1HP电机功率",
-        "高效设计",
-        "水冷结构"
-      ]
+      "features": ["太阳能兼容运行", "1HP电机功率", "高效设计", "水冷结构"]
     },
     "dcSurface2hp": {
       "title": "直流地面泵2HP",
       "description": "用于灌溉和输水的高效地面泵",
-      "features": [
-        "2HP功率等级",
-        "自吸式设计",
-        "干运转保护",
-        "变速控制"
-      ]
+      "features": ["2HP功率等级", "自吸式设计", "干运转保护", "变速控制"]
     },
     "hybridSystem": {
       "title": "混合动力BLDC泵系统",
       "description": "具有太阳能和电网备用功能的智能泵系统",
-      "features": [
-        "混合运行模式",
-        "智能控制器",
-        "远程监控",
-        "能源优化"
-      ]
+      "features": ["混合运行模式", "智能控制器", "远程监控", "能源优化"]
     }
   },
   "bldcFans": {
     "tableFan": {
       "title": "BLDC台扇电机",
       "description": "用于台扇和书桌风扇应用的紧凑型无刷直流电机",
-      "features": [
-        "紧凑设计",
-        "静音运行",
-        "遥控",
-        "定时功能"
-      ]
+      "features": ["紧凑设计", "静音运行", "遥控", "定时功能"]
     },
     "wallFan": {
       "title": "BLDC壁扇电机",
       "description": "用于住宅用途的壁挂式风扇电机，采用BLDC技术",
-      "features": [
-        "壁挂式设计",
-        "摆动功能",
-        "速度控制",
-        "节能运行"
-      ]
+      "features": ["壁挂式设计", "摆动功能", "速度控制", "节能运行"]
     },
     "pedestalFan": {
       "title": "BLDC落地扇电机",
       "description": "具有LED显示屏的高度可调落地扇电机",
-      "features": [
-        "高度调整",
-        "倾斜功能",
-        "LED显示屏",
-        "睡眠模式定时器"
-      ]
+      "features": ["高度调整", "倾斜功能", "LED显示屏", "睡眠模式定时器"]
     }
   },
   "electricalCables": {
     "powerDistribution": {
       "title": "配电电缆",
       "description": "用于电力传输和分配系统的高压电缆",
-      "features": [
-        "XLPE绝缘",
-        "铠装结构",
-        "防火",
-        "高额定电流"
-      ]
+      "features": ["XLPE绝缘", "铠装结构", "防火", "高额定电流"]
     },
     "communication": {
       "title": "通信电缆",
       "description": "用于工业通信网络的数据传输电缆",
-      "features": [
-        "Cat5e/Cat6标准",
-        "光纤选项",
-        "工业级",
-        "电磁干扰屏蔽"
-      ]
+      "features": ["Cat5e/Cat6标准", "光纤选项", "工业级", "电磁干扰屏蔽"]
     }
   },
   "instrumentationCables": {
     "shieldedPair": {
       "title": "屏蔽对线电缆",
       "description": "用于仪器仪表和控制应用的低压屏蔽电缆",
-      "features": [
-        "屏蔽结构",
-        "防潮",
-        "温度等级",
-        "多对配置"
-      ]
+      "features": ["屏蔽结构", "防潮", "温度等级", "多对配置"]
     },
     "thermocouple": {
       "title": "热电偶延伸电缆",
       "description": "用于热电偶温度测量的专用电缆",
-      "features": [
-        "补偿结构",
-        "高温等级",
-        "彩色编码绝缘",
-        "低热电动势"
-      ]
+      "features": ["补偿结构", "高温等级", "彩色编码绝缘", "低热电动势"]
     },
     "rtd": {
       "title": "RTD传感器电缆",
       "description": "用于RTD温度传感器和变送器的精密电缆",
-      "features": [
-        "低电阻",
-        "双绞线设计",
-        "优异的抗噪性",
-        "灵活安装"
-      ]
+      "features": ["低电阻", "双绞线设计", "优异的抗噪性", "灵活安装"]
     }
   },
   "circuitBreakers": {
@@ -441,44 +356,24 @@
     "industrialFuses": {
       "title": "工业保险丝",
       "description": "用于电气设备保护的高速保险丝",
-      "features": [
-        "快速响应",
-        "延时选项",
-        "高额定电压",
-        "陶瓷体结构"
-      ]
+      "features": ["快速响应", "延时选项", "高额定电压", "陶瓷体结构"]
     }
   },
   "connectorsTerminals": {
     "terminalBlocks": {
       "title": "工业接线端子",
       "description": "用于工业线路连接的安全接线端子",
-      "features": [
-        "弹簧夹紧技术",
-        "螺钉式连接",
-        "DIN导轨安装",
-        "多种尺寸选择"
-      ]
+      "features": ["弹簧夹紧技术", "螺钉式连接", "DIN导轨安装", "多种尺寸选择"]
     },
     "industrialConnectors": {
       "title": "工业连接器",
       "description": "适用于苛刻工业应用的重型连接器",
-      "features": [
-        "IP67防护等级",
-        "锁定机制",
-        "多针配置",
-        "电缆密封套集成"
-      ]
+      "features": ["IP67防护等级", "锁定机制", "多针配置", "电缆密封套集成"]
     },
     "signalConnectors": {
       "title": "信号连接器",
       "description": "用于仪器仪表和信号传输的精密连接器",
-      "features": [
-        "低噪声设计",
-        "屏蔽结构",
-        "微型尺寸",
-        "高可靠性性能"
-      ]
+      "features": ["低噪声设计", "屏蔽结构", "微型尺寸", "高可靠性性能"]
     }
   },
   "subcategories": {
@@ -1216,32 +1111,17 @@
       "panelMount": {
         "name": "面板安装 HMI 显示器",
         "description": "用于机器界面的工业触摸屏显示器",
-        "features": [
-          "触摸界面",
-          "工业等级",
-          "多种尺寸",
-          "通信协议"
-        ]
+        "features": ["触摸界面", "工业等级", "多种尺寸", "通信协议"]
       },
       "operatorInterface": {
         "name": "操作员界面终端",
         "description": "适用于恶劣环境的坚固型操作员终端",
-        "features": [
-          "IP65/IP67 等级",
-          "不锈钢",
-          "薄膜键盘",
-          "背光显示"
-        ]
+        "features": ["IP65/IP67 等级", "不锈钢", "薄膜键盘", "背光显示"]
       },
       "mobile": {
         "name": "移动 HMI 解决方案",
         "description": "无线和移动人机界面",
-        "features": [
-          "无线连接",
-          "移动应用",
-          "远程访问",
-          "实时数据"
-        ]
+        "features": ["无线连接", "移动应用", "远程访问", "实时数据"]
       }
     },
     "cta": {
@@ -1969,13 +1849,7 @@
     "yokogawaPh": {
       "title": "横河 PH450G pH 传感器",
       "description": "带玻璃电极技术的工业 pH 传感器",
-      "features": [
-        "玻璃电极",
-        "双液接界",
-        "宽 pH 范围",
-        "高精度",
-        "耐压"
-      ]
+      "features": ["玻璃电极", "双液接界", "宽 pH 范围", "高精度", "耐压"]
     }
   },
   "transmitters": {
@@ -2427,13 +2301,65 @@
       "title": "控制变压器",
       "description": "用于面板和机器控制电路的降压控制变压器。提供 1kVA、3kVA 和 5kVA 额定值，具有一次和二次熔断器保护，可实现可靠的电源转换。"
     },
-    "ledLightsFlp": {
-      "title": "防爆 LED 灯 (FLP)",
-      "description": "用于危险区域的 ATEX/IECEx 认证防爆 LED 照明。防爆结构，具有高发光效率和长运行寿命，适用于 1 区和 2 区应用。"
+    "streetLights": {
+      "title": "路灯",
+      "description": "适用于道路、停车场和户外区域的工业级LED路灯。节能设计，具有高光输出、长寿命和出色的色彩渲染，可增强可见度和安全性。"
     },
-    "ledLightsWp": {
-      "title": "防风雨 LED 灯 (WP)",
-      "description": "用于室外和潮湿区域应用的 IP65/IP66 额定防风雨 LED 照明。耐腐蚀外壳，具有卓越的入口保护，适用于恶劣的环境条件。"
+    "streetLightsFlameproof": {
+      "title": "路灯（防爆）",
+      "description": "经过ATEX/IECEx认证的防爆LED路灯，适用于危险的户外区域。防爆结构符合1区和2区要求，外壳坚固，可在潜在爆炸性环境中安全运行。"
+    },
+    "streetLightsWeatherproof": {
+      "title": "路灯（防风雨）",
+      "description": "IP65/IP66等级的防风雨LED路灯，适用于恶劣的户外环境。耐腐蚀结构，具有卓越的防潮和防尘性能，可在各种天气条件下可靠运行。"
+    },
+    "highBayLights": {
+      "title": "高棚灯",
+      "description": "适用于仓库、工厂和工业设施的高输出LED高棚灯。在6-15米的高度提供强大的照明，具有出色的效率和最小的眩光，可实现最佳的工作条件。"
+    },
+    "highBayLightsFlameproof": {
+      "title": "高棚灯（防爆）",
+      "description": "用于危险工业区域的防爆LED高棚灯。经过ATEX/IECEx认证，适用于1区和2区应用，防爆外壳确保在爆炸性气体环境中安全运行。"
+    },
+    "highBayLightsWeatherproof": {
+      "title": "高棚灯（防风雨）",
+      "description": "IP65/IP66防风雨LED高棚灯，适用于潮湿和多尘的工业环境。密封结构可防止潮湿和颗粒进入，从而在恶劣条件下实现可靠的性能。"
+    },
+    "vesselLights": {
+      "title": "船用灯",
+      "description": "用于船舶和工业罐应用的专用LED船用灯。结构紧凑，具有高效光学器件和坚固的结构，可照亮储罐、容器和密闭空间。"
+    },
+    "vesselLightsFlameproof": {
+      "title": "船用灯（防爆）",
+      "description": "用于危险储罐和容器应用的防爆LED船用灯。经认证，适用于1/2区爆炸性环境，具有防爆外壳，可确保在易燃液体和气体周围安全运行。"
+    },
+    "vesselLightsWeatherproof": {
+      "title": "船用灯（防风雨）",
+      "description": "IP66/IP67防风雨LED船用灯，用于户外和潮湿区域储罐照明。密封结构，采用耐腐蚀材料，适用于海洋和化学处理环境。"
+    },
+    "floodLights": {
+      "title": "泛光灯",
+      "description": "用于区域照明和安全应用的高功率LED泛光灯。具有宽光束角和可调节安装支架，可为运动场、建筑物立面和大型户外区域提供均匀照明。"
+    },
+    "floodLightsFlameproof": {
+      "title": "泛光灯（防爆）",
+      "description": "用于危险区域照明的防爆LED泛光灯。经过ATEX/IECEx认证，具有防爆结构，可在1区和2区潜在爆炸性环境中安全运行。"
+    },
+    "floodLightsWeatherproof": {
+      "title": "泛光灯（防风雨）",
+      "description": "IP65/IP66防风雨LED泛光灯，用于户外安全和区域照明。坚固的铝制外壳，带有钢化玻璃和卓越的密封性，可在极端天气条件下可靠运行。"
+    },
+    "wellGlassLights": {
+      "title": "工矿灯",
+      "description": "用于嵌入式天花板和墙壁安装的工业工矿LED灯。耐用的玻璃罩具有耐热结构，可为走廊、仓库和工业空间提供高效的通用照明。"
+    },
+    "wellGlassLightsFlameproof": {
+      "title": "工矿灯（防爆）",
+      "description": "用于危险室内区域的防爆工矿LED灯。经过ATEX/IECEx认证的防爆结构，带有加固的工矿玻璃罩，可在1区和2区分类位置安全运行。"
+    },
+    "wellGlassLightsWeatherproof": {
+      "title": "工矿灯（防风雨）",
+      "description": "IP65/IP66防风雨工矿LED灯，用于户外和潮湿区域应用。密封结构，具有抗冲击玻璃和垫圈密封，可在具有挑战性的环境中实现可靠的性能。"
     },
     "digitalMotorProtectionRelay": {
       "title": "数字电机保护继电器 (C&S)",
@@ -2499,9 +2425,53 @@
       "title": "控制电缆",
       "description": "用于自动化和仪器仪表应用的多芯控制电缆。具有出色的电气性能、电磁干扰屏蔽和灵活的结构，适用于面板接线和控制系统。"
     },
-    "instrumentationCables": {
-      "title": "仪器仪表电缆",
-      "description": "用于过程控制应用中信号传输的精密仪器仪表电缆。低电容设计，具有出色的抗噪性和单独的对屏蔽，适用于关键测量电路。"
+    "armouredCables": {
+      "title": "铠装电缆",
+      "description": "具有钢丝或钢带铠装的重型铠装电缆，用于机械保护。适用于地下设施、工业环境以及需要防止物理损坏和啮齿动物的区域。"
+    },
+    "flexibleCables": {
+      "title": "柔性电缆",
+      "description": "专为连续运动应用设计的高柔性电缆。适用于电缆链、机器人和移动设备，具有出色的弯曲半径和抗疲劳性。"
+    },
+    "homeApplianceCables": {
+      "title": "家用电器电缆",
+      "description": "用于家庭和商用电器的专用电缆。耐热和阻燃结构，符合冰箱、洗衣机、烤箱和其他电器产品的安全标准。"
+    },
+    "multicoreCablesElectrical": {
+      "title": "多芯电缆（电气）",
+      "description": "用于电力和控制应用的多芯电力电缆。提供 2、3、4 芯及以上规格，采用 PVC 或 XLPE 绝缘，适用于工业和商业设施中的高效布线。"
+    },
+    "earthingCables": {
+      "title": "接地电缆",
+      "description": "用于接地和连接应用的铜接地电缆。提供各种尺寸（6mm²、10mm²、16mm²、25mm²、35mm²、50mm²），用于电气安全和防雷系统。"
+    },
+    "ethernetCables": {
+      "title": "以太网电缆",
+      "description": "用于自动化网络的工业以太网电缆。Cat5e、Cat6 和 Cat6a 规格，具有增强的屏蔽，适用于恶劣的工业环境和可靠的高速数据传输。"
+    },
+    "profibusCables": {
+      "title": "Profibus 电缆",
+      "description": "用于工业自动化的 Profibus-DP 和 Profibus-PA 现场总线电缆。屏蔽双绞线结构，具有特征阻抗匹配，可在过程控制网络中实现可靠的通信。"
+    },
+    "profinetCables": {
+      "title": "Profinet 电缆",
+      "description": "用于实时自动化的工业 Profinet 以太网电缆。Cat5e 和 Cat6 规格，具有增强的 EMC 保护、灵活的设计以及适用于工业 4.0 应用的无卤结构。"
+    },
+    "shieldedPairCables1P": {
+      "title": "屏蔽双绞线电缆 (1P)",
+      "description": "用于模拟信号的单对屏蔽仪器仪表电缆。单独的铝箔或编织屏蔽提供出色的抗噪性，适用于 4-20mA 和低压传感器应用。"
+    },
+    "shieldedPairCables2P": {
+      "title": "屏蔽双绞线电缆 (2P)",
+      "description": "用于多信号传输的两对屏蔽仪器仪表电缆。每对单独屏蔽，并带有整体屏蔽，可在过程控制系统中实现最大的噪声防护。"
+    },
+    "shieldedPairCables8P": {
+      "title": "屏蔽双绞线电缆 (8P)",
+      "description": "用于多通道应用的八对屏蔽仪器仪表电缆。单独屏蔽的线对，带有颜色编码，适用于复杂的控制和监控系统。"
+    },
+    "multicoreCablesInstrumentation": {
+      "title": "多芯电缆（仪器仪表）",
+      "description": "具有多个屏蔽对的多芯仪器仪表电缆。提供 4、8、12、16 和 24 对配置，适用于分布式控制系统和多点测量。"
     },
     "terminalBlocks": {
       "title": "接线端子",

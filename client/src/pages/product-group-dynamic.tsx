@@ -82,10 +82,10 @@ export default function ProductGroupDynamic() {
 
   // Validate that the parentSlug matches the expected parent category for this subcategory
   const expectedParentSlug = subcategory.parentCategory.split("/").pop();
-  
+
   // Use expectedParentSlug instead of parentSlug from URL params to avoid empty/incorrect slugs
   const correctParentSlug = expectedParentSlug || parentSlug;
-  
+
   if (parentSlug !== expectedParentSlug) {
     return (
       <div className="min-h-screen bg-background flex items-center justify-center">
@@ -241,23 +241,6 @@ export default function ProductGroupDynamic() {
             <p className="text-lg md:text-xl lg:text-2xl mb-6 sm:mb-8 opacity-90 max-w-3xl mx-auto text-wrap-safe">
               {groupDescription}
             </p>
-
-            <div className="flex flex-wrap justify-center gap-4">
-              <Badge
-                variant="secondary"
-                className="bg-white/20 text-white border-white/20 px-4 py-2 text-lg"
-              >
-                {t("products:labels.productsCount", {
-                  count: groupProducts.length,
-                })}
-              </Badge>
-              <Badge
-                variant="secondary"
-                className="bg-white/20 text-white border-white/20 px-4 py-2 text-lg"
-              >
-                {subcategory.title}
-              </Badge>
-            </div>
           </div>
         </div>
       </section>
@@ -353,7 +336,9 @@ export default function ProductGroupDynamic() {
                 <p className="text-muted-foreground text-lg">
                   {t("products:messages.noProductsInGroup")}
                 </p>
-                <Link href={`/products/${correctParentSlug}/${subcategorySlug}`}>
+                <Link
+                  href={`/products/${correctParentSlug}/${subcategorySlug}`}
+                >
                   <Button className="mt-4">
                     <ArrowLeft className="mr-2 h-4 w-4" />
                     {t("common:buttons.backTo", {
