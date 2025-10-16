@@ -84,7 +84,7 @@ const iconMapping: Record<string, LucideIcon> = {
   "heating-elements-appliances": Zap,
   "contactors-relays": Zap,
   "transformers-power-devices": Power,
-  "led-lighting": Sun,
+  "industrial-lighting": Sun,
   "solar-panels": Sun,
   "solar-inverters": Zap,
   plcs: Cpu,
