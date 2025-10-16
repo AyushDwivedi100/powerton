@@ -55,53 +55,30 @@ export default function FloatingContactBadges() {
         className="w-14 h-14 bg-green-500 hover:bg-green-600 rounded-full flex items-center justify-center text-white transition-colors relative"
         data-testid="button-whatsapp-contact"
         whileHover={{
-          scale: 1.4,
-          rotate: 0,
-          y: 0,
-          boxShadow:
-            "0 25px 60px rgba(34, 197, 94, 0.8), 0 0 0 2px rgba(34, 197, 94, 0.4), 0 0 50px rgba(34, 197, 94, 0.7), inset 0 2px 0 rgba(255, 255, 255, 0.4)",
-          transition: { duration: 0.3, ease: "easeOut" },
+          scale: 1.15,
+          boxShadow: "0 12px 40px rgba(34, 197, 94, 0.45), 0 0 0 1px rgba(34, 197, 94, 0.3)",
+          transition: { duration: 0.4, ease: [0.4, 0.0, 0.2, 1] },
         }}
         animate={{
-          scale: [1, 1.08, 1.02, 1.08, 1],
-          y: [0, -3, 0, -2, 0],
+          scale: [1, 1.02, 1],
           boxShadow: [
-            "0 8px 25px rgba(34, 197, 94, 0.4), 0 0 0 1px rgba(34, 197, 94, 0.1), 0 0 20px rgba(34, 197, 94, 0.3), inset 0 1px 0 rgba(255, 255, 255, 0.2)",
-            "0 15px 40px rgba(34, 197, 94, 0.6), 0 0 0 1px rgba(34, 197, 94, 0.2), 0 0 35px rgba(34, 197, 94, 0.5), inset 0 1px 0 rgba(255, 255, 255, 0.3)",
-            "0 12px 35px rgba(34, 197, 94, 0.5), 0 0 0 1px rgba(34, 197, 94, 0.15), 0 0 28px rgba(34, 197, 94, 0.4), inset 0 1px 0 rgba(255, 255, 255, 0.25)",
-            "0 18px 45px rgba(34, 197, 94, 0.7), 0 0 0 1px rgba(34, 197, 94, 0.25), 0 0 40px rgba(34, 197, 94, 0.6), inset 0 1px 0 rgba(255, 255, 255, 0.35)",
-            "0 8px 25px rgba(34, 197, 94, 0.4), 0 0 0 1px rgba(34, 197, 94, 0.1), 0 0 20px rgba(34, 197, 94, 0.3), inset 0 1px 0 rgba(255, 255, 255, 0.2)",
+            "0 4px 14px rgba(34, 197, 94, 0.25)",
+            "0 6px 20px rgba(34, 197, 94, 0.35)",
+            "0 4px 14px rgba(34, 197, 94, 0.25)",
           ],
         }}
-        whileTap={{ scale: 0.95 }}
+        whileTap={{ scale: 0.96 }}
         transition={{
-          duration: 3.5,
+          duration: 4,
           repeat: Infinity,
-          ease: [0.4, 0.0, 0.2, 1],
-          times: [0, 0.2, 0.5, 0.8, 1],
+          ease: "easeInOut",
         }}
         aria-label={t("ui.ariaLabels.contactWhatsApp")}
         style={{
-          filter: "drop-shadow(0 0 8px rgba(34, 197, 94, 0.4))",
+          filter: "drop-shadow(0 2px 8px rgba(34, 197, 94, 0.2))",
         }}
       >
-        <motion.div
-          whileHover={{
-            scale: 1.1,
-            transition: { duration: 0.3 },
-          }}
-          animate={{
-            scale: [1, 1.1, 1],
-          }}
-          transition={{
-            duration: 2,
-            repeat: Infinity,
-            ease: "easeInOut",
-            delay: 0.5,
-          }}
-        >
-          <WhatsAppLogo />
-        </motion.div>
+        <WhatsAppLogo />
       </motion.button>
 
       {/* Just Dial Badge */}
@@ -110,53 +87,30 @@ export default function FloatingContactBadges() {
         className="w-14 h-14 bg-green-500 hover:bg-green-600 rounded-full flex items-center justify-center text-white transition-colors relative"
         data-testid="button-justdial-contact"
         whileHover={{
-          scale: 1.4,
-          rotate: 0,
-          y: 0,
-          boxShadow:
-            "0 25px 60px rgba(255, 255, 255, 0.9), 0 0 0 2px rgba(200, 200, 200, 0.4), 0 0 50px rgba(240, 240, 240, 0.9), inset 0 2px 0 rgba(255, 255, 255, 1)",
-          transition: { duration: 0.3, ease: "easeOut" },
+          scale: 1.15,
+          boxShadow: "0 12px 40px rgba(255, 255, 255, 0.5), 0 0 0 1px rgba(200, 200, 200, 0.35)",
+          transition: { duration: 0.4, ease: [0.4, 0.0, 0.2, 1] },
         }}
         animate={{
-          scale: [1, 1.08, 1.02, 1.08, 1],
-          y: [0, -3, 0, -2, 0],
+          scale: [1, 1.02, 1],
           boxShadow: [
-            "0 8px 25px rgba(255, 255, 255, 0.5), 0 0 0 1px rgba(200, 200, 200, 0.2), 0 0 20px rgba(240, 240, 240, 0.6), inset 0 1px 0 rgba(255, 255, 255, 0.9)",
-            "0 15px 40px rgba(255, 255, 255, 0.7), 0 0 0 1px rgba(200, 200, 200, 0.3), 0 0 35px rgba(240, 240, 240, 0.8), inset 0 1px 0 rgba(255, 255, 255, 1)",
-            "0 12px 35px rgba(255, 255, 255, 0.6), 0 0 0 1px rgba(200, 200, 200, 0.25), 0 0 28px rgba(240, 240, 240, 0.7), inset 0 1px 0 rgba(255, 255, 255, 0.95)",
-            "0 18px 45px rgba(255, 255, 255, 0.8), 0 0 0 1px rgba(200, 200, 200, 0.35), 0 0 40px rgba(240, 240, 240, 0.9), inset 0 1px 0 rgba(255, 255, 255, 1)",
-            "0 8px 25px rgba(255, 255, 255, 0.5), 0 0 0 1px rgba(200, 200, 200, 0.2), 0 0 20px rgba(240, 240, 240, 0.6), inset 0 1px 0 rgba(255, 255, 255, 0.9)",
+            "0 4px 14px rgba(255, 255, 255, 0.3)",
+            "0 6px 20px rgba(255, 255, 255, 0.4)",
+            "0 4px 14px rgba(255, 255, 255, 0.3)",
           ],
         }}
-        whileTap={{ scale: 0.95 }}
+        whileTap={{ scale: 0.96 }}
         transition={{
-          duration: 3.5,
+          duration: 4,
           repeat: Infinity,
-          ease: [0.4, 0.0, 0.2, 1],
-          times: [0, 0.2, 0.5, 0.8, 1],
+          ease: "easeInOut",
         }}
         aria-label={t("ui.ariaLabels.contactJustDial")}
         style={{
-          filter: "drop-shadow(0 0 8px rgba(255, 255, 255, 0.6))",
+          filter: "drop-shadow(0 2px 8px rgba(255, 255, 255, 0.25))",
         }}
       >
-        <motion.div
-          whileHover={{
-            scale: 1.1,
-            transition: { duration: 0.3 },
-          }}
-          animate={{
-            scale: [1, 1.1, 1],
-          }}
-          transition={{
-            duration: 2,
-            repeat: Infinity,
-            ease: "easeInOut",
-            delay: 0.5,
-          }}
-        >
-          <JustDialLogo />
-        </motion.div>
+        <JustDialLogo />
       </motion.button>
     </div>
   );
