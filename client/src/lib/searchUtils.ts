@@ -191,7 +191,31 @@ function searchSubcategories(query: string, t: TFunction, categoryFilter?: strin
 }
 
 /**
- * Main search function
+ * Search result cache for performance optimization
+ * Stores recent search results to avoid re-computation
+ */
+const searchCache = new Map<string, { results: SearchResult[], timestamp: number }>();
+const CACHE_MAX_SIZE = 100; // Maximum number of cached searches
+const CACHE_TTL = 5 * 60 * 1000; // 5 minutes cache lifetime
+
+/**
+ * Clear expired cache entries
+ */
+function clearExpiredCache() {
+  const now = Date.now();
+  const keysToDelete: string[] = [];
+  
+  searchCache.forEach((value, key) => {
+    if (now - value.timestamp > CACHE_TTL) {
+      keysToDelete.push(key);
+    }
+  });
+  
+  keysToDelete.forEach(key => searchCache.delete(key));
+}
+
+/**
+ * Main search function with caching
  */
 export function searchAll(options: SearchOptions, t: TFunction): SearchResult[] {
   const { query, category, subcategory, sortBy = 'relevance', limit } = options;
@@ -201,7 +225,22 @@ export function searchAll(options: SearchOptions, t: TFunction): SearchResult[] 
     return [];
   }
   
-  // Search all data sources
+  // Create cache key from search options
+  const cacheKey = JSON.stringify({ 
+    query: query.toLowerCase().trim(), 
+    category, 
+    subcategory, 
+    sortBy, 
+    limit 
+  });
+  
+  // Check cache first
+  const cached = searchCache.get(cacheKey);
+  if (cached && (Date.now() - cached.timestamp) < CACHE_TTL) {
+    return cached.results;
+  }
+  
+  // Perform search
   const productResults = searchProducts(query, t, category, subcategory);
   const groupResults = searchProductGroups(query, t, category, subcategory);
   const subcategoryResults = searchSubcategories(query, t, category);
@@ -223,7 +262,28 @@ export function searchAll(options: SearchOptions, t: TFunction): SearchResult[] 
     allResults = allResults.slice(0, limit);
   }
   
+  // Store in cache
+  searchCache.set(cacheKey, { results: allResults, timestamp: Date.now() });
+  
+  // Manage cache size - remove oldest entry if cache is too large
+  if (searchCache.size > CACHE_MAX_SIZE) {
+    const firstKey = searchCache.keys().next().value;
+    searchCache.delete(firstKey);
+  }
+  
+  // Periodically clear expired entries
+  if (Math.random() < 0.1) { // 10% chance on each search
+    clearExpiredCache();
+  }
+  
   return allResults;
+}
+
+/**
+ * Clear the search cache (useful when product data changes)
+ */
+export function clearSearchCache() {
+  searchCache.clear();
 }
 
 /**

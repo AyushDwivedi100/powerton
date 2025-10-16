@@ -47,7 +47,7 @@ import {
 import { motion, AnimatePresence } from "framer-motion";
 import { ThemeToggle } from "@/components/ui/theme-toggle";
 import { LanguageSwitcher } from "@/components/ui/language-switcher";
-import { SearchDialog } from "@/components/search-dialog";
+import { SearchDialog } from "@/components/ui/search-dialog";
 import { useRTLClasses } from "@/hooks/use-rtl";
 import { cn } from "@/lib/utils";
 import mainLogoPowerton from "@assets/logos/main-logo-powerton.png";
