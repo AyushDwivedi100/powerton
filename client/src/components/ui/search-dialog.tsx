@@ -5,16 +5,42 @@ import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
-import { Search, X, Package, Layers, FolderOpen } from "lucide-react";
-import { searchAll, SearchResult, getSearchSuggestions } from "@/lib/searchUtils";
+import { Search, X, Package, Layers, FolderOpen, Clock } from "lucide-react";
+import { searchAll, SearchResult } from "@/lib/searchUtils";
 import { Link } from "wouter";
 import { getProductImageSrc } from "@/assets/images";
 import { getProducts } from "@/data/constants";
+
+const RECENT_SEARCHES_KEY = "recent_searches";
+const MAX_RECENT_SEARCHES = 8;
 
 interface SearchDialogProps {
   open: boolean;
   onOpenChange: (open: boolean) => void;
 }
+
+// Helper functions for recent searches
+const getRecentSearches = (): string[] => {
+  try {
+    const stored = localStorage.getItem(RECENT_SEARCHES_KEY);
+    return stored ? JSON.parse(stored) : [];
+  } catch {
+    return [];
+  }
+};
+
+const saveRecentSearch = (searchTerm: string) => {
+  if (!searchTerm.trim() || searchTerm.trim().length < 2) return;
+  
+  try {
+    const recent = getRecentSearches();
+    const filtered = recent.filter(term => term.toLowerCase() !== searchTerm.toLowerCase());
+    const updated = [searchTerm, ...filtered].slice(0, MAX_RECENT_SEARCHES);
+    localStorage.setItem(RECENT_SEARCHES_KEY, JSON.stringify(updated));
+  } catch {
+    // Silently fail if localStorage is not available
+  }
+};
 
 export function SearchDialog({ open, onOpenChange }: SearchDialogProps) {
   const { t } = useTranslation(["common", "products"]);
@@ -22,6 +48,14 @@ export function SearchDialog({ open, onOpenChange }: SearchDialogProps) {
   const [category, setCategory] = useState<string>("all");
   const [sortBy, setSortBy] = useState<"relevance" | "name-az" | "name-za">("relevance");
   const [debouncedQuery, setDebouncedQuery] = useState("");
+  const [recentSearches, setRecentSearches] = useState<string[]>([]);
+
+  // Load recent searches on mount and when dialog opens
+  useEffect(() => {
+    if (open) {
+      setRecentSearches(getRecentSearches());
+    }
+  }, [open]);
 
   // Debounce search query
   useEffect(() => {
@@ -31,6 +65,14 @@ export function SearchDialog({ open, onOpenChange }: SearchDialogProps) {
 
     return () => clearTimeout(timer);
   }, [query]);
+
+  // Save search to recent when user performs a search
+  useEffect(() => {
+    if (debouncedQuery.trim().length >= 2) {
+      saveRecentSearch(debouncedQuery.trim());
+      setRecentSearches(getRecentSearches());
+    }
+  }, [debouncedQuery]);
 
   // Get search results
   const searchResults = useMemo(() => {
@@ -48,7 +90,6 @@ export function SearchDialog({ open, onOpenChange }: SearchDialogProps) {
 
   // Get categories for filter
   const categories = getProducts(t);
-  const suggestions = getSearchSuggestions(t);
 
   // Reset on close
   useEffect(() => {
@@ -61,6 +102,10 @@ export function SearchDialog({ open, onOpenChange }: SearchDialogProps) {
 
   const handleResultClick = () => {
     onOpenChange(false);
+  };
+
+  const handleRecentSearchClick = (searchTerm: string) => {
+    setQuery(searchTerm);
   };
 
   const getResultIcon = (type: SearchResult['type']) => {
@@ -144,21 +189,31 @@ export function SearchDialog({ open, onOpenChange }: SearchDialogProps) {
             </Select>
           </div>
 
-          {/* Suggestions (shown when no query) */}
-          {query.trim().length < 2 && (
+          {/* Recent Searches (shown when no query and there are recent searches) */}
+          {query.trim().length < 2 && recentSearches.length > 0 && (
             <div className="space-y-3">
-              <p className="text-sm text-muted-foreground">{t("common:search.suggestions")}:</p>
+              <div className="flex items-center gap-2">
+                <Clock className="h-4 w-4 text-muted-foreground" />
+                <p className="text-sm font-medium text-muted-foreground">{t("common:search.recentSearches")}:</p>
+              </div>
               <div className="flex flex-wrap gap-2">
-                {suggestions.map((suggestion) => (
-                  <Badge
-                    key={suggestion}
-                    variant="secondary"
-                    className="cursor-pointer hover:bg-primary hover:text-primary-foreground transition-colors"
-                    onClick={() => setQuery(suggestion)}
-                    data-testid={`suggestion-${suggestion.toLowerCase().replace(/\s+/g, '-')}`}
+                {recentSearches.map((recentSearch, index) => (
+                  <button
+                    key={`${recentSearch}-${index}`}
+                    onClick={() => handleRecentSearchClick(recentSearch)}
+                    data-testid={`recent-search-${recentSearch.toLowerCase().replace(/\s+/g, '-')}`}
+                    className="group relative px-4 py-2 rounded-full text-sm font-medium transition-all duration-300 
+                      bg-gradient-to-r from-muted/50 to-muted/30 
+                      hover:from-primary/10 hover:to-primary/5 
+                      border border-border/50 hover:border-primary/30
+                      text-foreground/80 hover:text-primary
+                      hover:shadow-md hover:shadow-primary/10
+                      hover:scale-105 active:scale-95"
                   >
-                    {suggestion}
-                  </Badge>
+                    <span className="relative z-10">{recentSearch}</span>
+                    <div className="absolute inset-0 rounded-full bg-gradient-to-r from-primary/0 to-primary/0 
+                      group-hover:from-primary/5 group-hover:to-transparent transition-all duration-300" />
+                  </button>
                 ))}
               </div>
             </div>
