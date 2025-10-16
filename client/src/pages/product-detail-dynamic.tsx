@@ -134,7 +134,7 @@ const ProductDetailDynamic: React.FC = () => {
           >
             <Button
               variant="ghost"
-              className="mb-6 hover:bg-white/10 text-white group"
+              className="mb-6 hover:bg-black/10 dark:hover:bg-white/10 text-foreground hover:text-foreground group"
               asChild
               data-testid="link-back-to-parent"
             >
@@ -352,7 +352,7 @@ const ProductDetailDynamic: React.FC = () => {
                                   </span>
                                 </div>
                               </motion.div>
-                            )
+                            ),
                           )}
                         </div>
                       </div>

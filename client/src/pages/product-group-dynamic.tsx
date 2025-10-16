@@ -42,8 +42,8 @@ export default function ProductGroupDynamic() {
             {t("common:errors.productsNotFoundMessage")}
           </p>
           <Link href="/products">
-            <Button className="bg-primary hover:bg-primary/90 text-primary-foreground">
-              <ArrowLeft className="mr-2 h-4 w-4" />
+            <Button className="bg-primary hover:bg-primary/90 text-primary-foreground group">
+              <ArrowLeft className="mr-2 h-4 w-4 group-hover:-translate-x-2 transition-transform duration-300" />
               {t("common:buttons.backToProducts")}
             </Button>
           </Link>
@@ -70,8 +70,8 @@ export default function ProductGroupDynamic() {
             {t("common:errors.productsNotFoundMessage")}
           </p>
           <Link href="/products">
-            <Button className="bg-primary hover:bg-primary/90 text-primary-foreground">
-              <ArrowLeft className="mr-2 h-4 w-4" />
+            <Button className="bg-primary hover:bg-primary/90 text-primary-foreground group">
+              <ArrowLeft className="mr-2 h-4 w-4 group-hover:-translate-x-2 transition-transform duration-300" />
               {t("common:buttons.backToProducts")}
             </Button>
           </Link>
@@ -102,9 +102,9 @@ export default function ProductGroupDynamic() {
             {t("common:errors.productsNotFoundMessage")}
           </p>
           <Link href={`/products/${correctParentSlug}/${subcategorySlug}`}>
-            <Button className="bg-primary hover:bg-primary/90 text-primary-foreground">
-              <ArrowLeft className="mr-2 h-4 w-4" />
-              {t("common:buttons.backTo", { category: subcategory.title })}
+            <Button className="bg-primary hover:bg-primary/90 text-primary-foreground group">
+              <ArrowLeft className="mr-2 h-4 w-4 group-hover:-translate-x-2 transition-transform duration-300" />
+              {t("common:buttons.backToProducts")}
             </Button>
           </Link>
         </motion.div>

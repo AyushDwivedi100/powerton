@@ -61,12 +61,15 @@ export default function ProductSubCategoryDynamic() {
           </p>
           <Button
             variant="ghost"
-            className="mb-6 hover:bg-white/10 text-white group"
+            className="bg-primary hover:bg-primary/90 text-primary-foreground group"
             asChild
           >
-            <Link href="/products" data-testid="link-back-to-category">
-              <ArrowLeft className="mr-2 h-4 w-4 group-hover:-translate-x-2 transition-transform duration-200" />
-              {t("common:buttons.backToCategory")}
+            <Link
+              href={product.parentCategory}
+              data-testid="link-back-to-category"
+            >
+              <ArrowLeft className="mr-2 h-4 w-4 group-hover:-translate-x-2 transition-transform duration-300" />
+              {t("common:buttons.backToProducts")}
             </Link>
           </Button>
         </motion.div>
@@ -93,15 +96,15 @@ export default function ProductSubCategoryDynamic() {
           </p>
           <Button
             variant="ghost"
-            className="mb-6 hover:bg-white/10 text-white group"
+            className="bg-primary hover:bg-primary/90 text-primary-foreground group"
             asChild
           >
             <Link
-              href={`/products/${parentSlug}`}
+              href={product.parentCategory}
               data-testid="link-back-to-category"
             >
-              <ArrowLeft className="mr-2 h-4 w-4 group-hover:-translate-x-2 transition-transform duration-200" />
-              {t("common:buttons.backToCategory")}
+              <ArrowLeft className="mr-2 h-4 w-4 group-hover:-translate-x-2 transition-transform duration-300" />
+              {t("common:buttons.backToProducts")}
             </Link>
           </Button>
         </motion.div>
@@ -131,14 +134,14 @@ export default function ProductSubCategoryDynamic() {
           </p>
           <Button
             variant="ghost"
-            className="mb-6 hover:bg-white/10 text-white group"
+            className="bg-primary hover:bg-primary/90 text-primary-foreground group"
             asChild
           >
             <Link
               href={product.parentCategory}
               data-testid="link-back-to-category"
             >
-              <ArrowLeft className="mr-2 h-4 w-4 group-hover:-translate-x-2 transition-transform duration-200" />
+              <ArrowLeft className="mr-2 h-4 w-4 group-hover:-translate-x-2 transition-transform duration-300" />
               {t("common:buttons.backTo")} {product.parentCategoryTitle}
             </Link>
           </Button>
