@@ -772,9 +772,9 @@
       "title": "Transformers & Power Devices",
       "description": "Control transformers and power conversion equipment"
     },
-    "led-lighting": {
-      "title": "LED Lighting",
-      "description": "Industrial LED lighting solutions for hazardous and general areas"
+    "industrial-lighting": {
+      "title": "Industrial Lighting",
+      "description": "Comprehensive industrial lighting solutions including street lights, high bay lights, vessel lights, flood lights, and well glass lights in standard, flameproof, and weatherproof configurations"
     },
     "motor-controllers-drives": {
       "title": "Motor Controllers & Drives",
@@ -2423,13 +2423,65 @@
       "title": "Control Transformers",
       "description": "Step-down control transformers for panel and machine control circuits. Available in 1kVA, 3kVA, and 5kVA ratings with primary and secondary fuse protection for reliable power conversion."
     },
-    "ledLightsFlp": {
-      "title": "Flameproof LED Lights (FLP)",
-      "description": "ATEX/IECEx certified flameproof LED lighting for hazardous areas. Explosion-proof construction with high luminous efficiency and long operational life for Zone 1 and Zone 2 applications."
+    "streetLights": {
+      "title": "Street Lights",
+      "description": "Industrial-grade LED street lights for roadways, parking lots, and outdoor areas. Energy-efficient design with high luminous output, long lifespan, and excellent color rendering for enhanced visibility and safety."
     },
-    "ledLightsWp": {
-      "title": "Weatherproof LED Lights (WP)",
-      "description": "IP65/IP66 rated weatherproof LED lighting for outdoor and wet area applications. Corrosion-resistant housing with superior ingress protection for harsh environmental conditions."
+    "streetLightsFlameproof": {
+      "title": "Street Lights (Flameproof)",
+      "description": "ATEX/IECEx certified flameproof LED street lights for hazardous outdoor areas. Explosion-proof construction meeting Zone 1 and Zone 2 requirements with robust housing for safe operation in potentially explosive atmospheres."
+    },
+    "streetLightsWeatherproof": {
+      "title": "Street Lights (Weatherproof)",
+      "description": "IP65/IP66 rated weatherproof LED street lights for harsh outdoor environments. Corrosion-resistant construction with superior moisture and dust protection for reliable operation in all weather conditions."
+    },
+    "highBayLights": {
+      "title": "High Bay Lights",
+      "description": "High-output LED high bay lights for warehouses, factories, and industrial facilities. Delivers powerful illumination from heights of 6-15 meters with excellent efficiency and minimal glare for optimal working conditions."
+    },
+    "highBayLightsFlameproof": {
+      "title": "High Bay Lights (Flameproof)",
+      "description": "Explosion-proof LED high bay lights for hazardous industrial areas. ATEX/IECEx certified for Zone 1 and Zone 2 applications with flameproof enclosure ensuring safe operation in explosive gas atmospheres."
+    },
+    "highBayLightsWeatherproof": {
+      "title": "High Bay Lights (Weatherproof)",
+      "description": "IP65/IP66 weatherproof LED high bay lights for wet and dusty industrial environments. Sealed construction prevents moisture and particle ingress for reliable performance in harsh conditions."
+    },
+    "vesselLights": {
+      "title": "Vessel Lights",
+      "description": "Specialized LED vessel lights for marine and industrial tank applications. Compact design with high-efficiency optics and robust construction for illumination of tanks, vessels, and confined spaces."
+    },
+    "vesselLightsFlameproof": {
+      "title": "Vessel Lights (Flameproof)",
+      "description": "Explosion-proof LED vessel lights for hazardous tank and vessel applications. Certified for Zone 1/2 explosive atmospheres with flameproof housing ensuring safe operation around flammable liquids and gases."
+    },
+    "vesselLightsWeatherproof": {
+      "title": "Vessel Lights (Weatherproof)",
+      "description": "IP66/IP67 weatherproof LED vessel lights for outdoor and wet area tank illumination. Sealed construction with corrosion-resistant materials for marine and chemical processing environments."
+    },
+    "floodLights": {
+      "title": "Flood Lights",
+      "description": "High-power LED flood lights for area lighting and security applications. Wide beam angle with adjustable mounting brackets providing uniform illumination for sports fields, building facades, and large outdoor areas."
+    },
+    "floodLightsFlameproof": {
+      "title": "Flood Lights (Flameproof)",
+      "description": "Explosion-proof LED flood lights for hazardous area illumination. ATEX/IECEx certified with flameproof construction for safe operation in Zone 1 and Zone 2 potentially explosive atmospheres."
+    },
+    "floodLightsWeatherproof": {
+      "title": "Flood Lights (Weatherproof)",
+      "description": "IP65/IP66 weatherproof LED flood lights for outdoor security and area lighting. Robust aluminum housing with tempered glass and superior sealing for reliable operation in extreme weather conditions."
+    },
+    "wellGlassLights": {
+      "title": "Well Glass Lights",
+      "description": "Industrial well glass LED lights for recessed ceiling and wall mounting. Durable glass cover with heat-resistant construction providing efficient general lighting for corridors, warehouses, and industrial spaces."
+    },
+    "wellGlassLightsFlameproof": {
+      "title": "Well Glass Lights (Flameproof)",
+      "description": "Explosion-proof well glass LED lights for hazardous indoor areas. ATEX/IECEx certified flameproof construction with reinforced well glass cover for safe operation in Zone 1 and Zone 2 classified locations."
+    },
+    "wellGlassLightsWeatherproof": {
+      "title": "Well Glass Lights (Weatherproof)",
+      "description": "IP65/IP66 weatherproof well glass LED lights for outdoor and wet area applications. Sealed construction with impact-resistant glass and gasket sealing for reliable performance in challenging environments."
     },
     "digitalMotorProtectionRelay": {
       "title": "Digital Motor Protection Relay (C&S)",
@@ -2495,9 +2547,57 @@
       "title": "Control Cables",
       "description": "Multi-core control cables for automation and instrumentation applications. Featuring excellent electrical properties, electromagnetic interference shielding, and flexible construction for panel wiring and control systems."
     },
+    "armouredCables": {
+      "title": "Armoured Cables",
+      "description": "Heavy-duty armoured cables with steel wire or tape armouring for mechanical protection. Ideal for underground installations, industrial environments, and areas requiring protection from physical damage and rodents."
+    },
+    "flexibleCables": {
+      "title": "Flexible Cables",
+      "description": "High-flexibility cables designed for continuous movement applications. Suitable for cable chains, robotics, and mobile equipment with excellent bend radius and fatigue resistance."
+    },
+    "homeApplianceCables": {
+      "title": "Home Appliance Cables",
+      "description": "Specialized cables for household and commercial appliances. Heat-resistant and flame-retardant construction meeting safety standards for refrigerators, washing machines, ovens, and other electrical appliances."
+    },
+    "multicoreCablesElectrical": {
+      "title": "Multicore Cables (Electrical)",
+      "description": "Multi-core electrical cables for power and control applications. Available in 2, 3, 4, and more cores with PVC or XLPE insulation for efficient wiring in industrial and commercial installations."
+    },
+    "earthingCables": {
+      "title": "Earthing Cables",
+      "description": "Copper earthing cables for grounding and bonding applications. Available in various sizes (6mm², 10mm², 16mm², 25mm², 35mm², 50mm²) for electrical safety and lightning protection systems."
+    },
     "instrumentationCables": {
       "title": "Instrumentation Cables",
       "description": "Precision instrumentation cables for signal transmission in process control applications. Low capacitance design with excellent noise immunity and individual pair shielding for critical measurement circuits."
+    },
+    "ethernetCables": {
+      "title": "Ethernet Cables",
+      "description": "Industrial Ethernet cables for automation networks. Cat5e, Cat6, and Cat6a specifications with enhanced shielding for harsh industrial environments and reliable high-speed data transmission."
+    },
+    "profibusCables": {
+      "title": "Profibus Cables",
+      "description": "Profibus-DP and Profibus-PA fieldbus cables for industrial automation. Shielded twisted pair construction with characteristic impedance matching for reliable communication in process control networks."
+    },
+    "profinetCables": {
+      "title": "Profinet Cables",
+      "description": "Industrial Profinet Ethernet cables for real-time automation. Cat5e and Cat6 specifications with enhanced EMC protection, flexible design, and halogen-free construction for Industry 4.0 applications."
+    },
+    "shieldedPairCables1P": {
+      "title": "Shielded Pair Cables (1P)",
+      "description": "Single-pair shielded instrumentation cables for analog signals. Individual foil or braided shielding providing excellent noise immunity for 4-20mA and low-voltage sensor applications."
+    },
+    "shieldedPairCables2P": {
+      "title": "Shielded Pair Cables (2P)",
+      "description": "Two-pair shielded instrumentation cables for multiple signal transmission. Each pair individually shielded with overall screen for maximum noise protection in process control systems."
+    },
+    "shieldedPairCables8P": {
+      "title": "Shielded Pair Cables (8P)",
+      "description": "Eight-pair shielded instrumentation cables for multi-channel applications. Individually shielded pairs with color-coded identification for complex control and monitoring systems."
+    },
+    "multicoreCablesInstrumentation": {
+      "title": "Multicore Cables (Instrumentation)",
+      "description": "Multi-core instrumentation cables with multiple shielded pairs. Available in 4, 8, 12, 16, and 24-pair configurations for distributed control systems and multi-point measurements."
     },
     "terminalBlocks": {
       "title": "Terminal Blocks",
