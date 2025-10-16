@@ -934,63 +934,124 @@
         "keywords": "трансформатор тока, TT, трансформатор напряжения, TH, измерительный трансформатор, измерительный TT, защитный TT, трансформатор напряжения, измерительный трансформатор"
       }
     },
-    "electrical-cables": {
-      "title": "Электрические кабели",
-      "shortDescription": "Промышленные электрические кабели для передачи и распределения энергии",
-      "fullDescription": "Комплексный ассортимент электрических кабелей, включая силовые кабели, кабели управления, бронированные кабели и кабели связи для промышленного распределения энергии и электрических установок.",
-      "parentCategoryTitle": "Электрические аксессуары",
+    "instrumentation-cables": {
+      "title": "Instrumentation Cables",
+      "shortDescription": "Precision instrumentation cables for accurate measurement and control signal transmission",
+      "fullDescription": "Professional instrumentation cables designed for precise signal transmission in industrial measurement and control applications. Features shielded twisted pair construction, excellent noise rejection, and superior signal integrity for critical instrumentation systems.",
+      "parentCategoryTitle": "Instrumentation Accessories",
       "keyBenefits": [
-        "Высокая пропускная способность по току",
-        "Отличные изоляционные свойства",
-        "Материалы, не поддерживающие горение",
-        "Длительный срок службы"
+        "Superior Signal Integrity",
+        "Excellent Noise Immunity",
+        "Wide Temperature Range",
+        "Chemical Resistant",
+        "Flexible Installation",
+        "Long Service Life"
       ],
       "specifications": [
-        "Номинальное напряжение: от 300 В до 33 кВ",
-        "Температурный режим: от -40°C до +90°C",
-        "Проводник: медь/алюминий",
-        "Изоляция: ПВХ, сшитый полиэтилен, этиленпропиленовый каучук",
-        "Экранирование: оплетка, фольга, комбинация",
-        "Стандарты: IEC, IEEE, ASTM"
+        "Voltage Rating: 300V to 600V",
+        "Temperature Rating: -40°C to +105°C",
+        "Conductor: Tinned Copper",
+        "Insulation: PVC, PE, XLPE",
+        "Shielding: Aluminum Foil, Braid",
+        "Standards: IEC 60502, NFPA 70"
       ],
       "applications": [
-        "Распределение энергии",
-        "Подключения двигателей",
-        "Цепи управления",
-        "КИПиА",
-        "Сети связи",
-        "Системы заземления"
+        "Process Control Systems",
+        "Instrumentation Loops",
+        "Sensor Connections",
+        "Transmitter Wiring",
+        "Analyzer Connections",
+        "Control Room Wiring"
       ],
       "industries": [
-        "Производство электроэнергии",
-        "Производство",
-        "Инфраструктура",
-        "Морская и шельфовая промышленность",
-        "Горнодобывающая промышленность",
-        "Транспорт"
+        "Oil & Gas",
+        "Chemical Processing",
+        "Power Generation",
+        "Water Treatment",
+        "Manufacturing",
+        "Pharmaceutical"
       ],
       "features": [
-        "Огнестойкий",
-        "Маслостойкий",
-        "Устойчив к ультрафиолетовому излучению",
-        "Влагостойкий",
-        "Гибкая конструкция",
-        "Простая установка",
-        "Низкий уровень дыма",
-        "Варианты без галогенов"
+        "Shielded Twisted Pair Design",
+        "Low Capacitance Construction",
+        "Drain Wire Configuration",
+        "Color-Coded Identification",
+        "Flame Retardant Jacket",
+        "Oil & Chemical Resistant",
+        "Flexible Stranding",
+        "Multiple Pair Options"
       ],
       "certifications": [
-        "Сертификация IEC 60502",
-        "Испытания по стандарту IEEE 1202",
-        "В списке UL",
-        "Одобрено CSA",
-        "Маркировка CE",
-        "Соответствует RoHS"
+        "UL Listed",
+        "CSA Certified",
+        "CE Marked",
+        "IEC 60502",
+        "NFPA 70",
+        "RoHS Compliant"
       ],
       "seo": {
-        "title": "Электрические кабели - силовые, контрольные, бронированные кабели | Powerton Engineering",
-        "description": "Промышленные электрические кабели для передачи энергии, распределения и цепей управления. Силовые кабели высокого напряжения, кабели управления и бронированные кабели связи.",
-        "keywords": "электрические кабели, силовые кабели, кабели управления, бронированные кабели, электрические провода, кабели связи, промышленные кабели"
+        "title": "Instrumentation Cables - Precision Signal Transmission | Powerton Engineering",
+        "description": "High-quality instrumentation cables with shielded construction for accurate measurement and control signal transmission.",
+        "keywords": "instrumentation cables, shielded twisted pair, signal cables, measurement cables, control cables, industrial cables"
+      }
+    },
+    "electrical-cables": {
+      "title": "Electrical Cables",
+      "shortDescription": "Industrial electrical cables for power transmission and distribution systems",
+      "fullDescription": "Comprehensive range of electrical cables including power cables, control cables, armored cables, and communication cables for industrial power distribution and electrical installations.",
+      "parentCategoryTitle": "Electrical Accessories",
+      "keyBenefits": [
+        "High Current Carrying Capacity",
+        "Excellent Insulation Properties",
+        "Flame Retardant Materials",
+        "Long Service Life"
+      ],
+      "specifications": [
+        "Voltage Rating: 300V to 33kV",
+        "Temperature Rating: -40°C to +90°C",
+        "Conductor: Copper/Aluminum",
+        "Insulation: PVC, XLPE, EPR",
+        "Shielding: Braid, Foil, Combination",
+        "Standards: IEC, IEEE, ASTM"
+      ],
+      "applications": [
+        "Power Distribution",
+        "Motor Connections",
+        "Control Circuits",
+        "Instrumentation",
+        "Communication Networks",
+        "Grounding Systems"
+      ],
+      "industries": [
+        "Power Generation",
+        "Manufacturing",
+        "Infrastructure",
+        "Marine & Offshore",
+        "Mining",
+        "Transportation"
+      ],
+      "features": [
+        "Fire Resistant",
+        "Oil Resistant",
+        "UV Resistant",
+        "Moisture Resistant",
+        "Flexible Design",
+        "Easy Installation",
+        "Low Smoke Emission",
+        "Halogen Free Options"
+      ],
+      "certifications": [
+        "IEC 60502 Certified",
+        "IEEE 1202 Tested",
+        "UL Listed",
+        "CSA Approved",
+        "CE Marked",
+        "RoHS Compliant"
+      ],
+      "seo": {
+        "title": "Electrical Cables - Power, Control, Armored Cables | Powerton Engineering",
+        "description": "Industrial electrical cables for power transmission, distribution, and control circuits. High voltage power cables, control cables, and armored communication cables.",
+        "keywords": "electrical cables, power cables, control cables, armored cables, electrical wires, communication cables, industrial cables"
       }
     },
     "connectors-terminals": {
@@ -2648,7 +2709,7 @@
     },
     "lifting-equipment": {
       "title": "Подъемное оборудование",
-      "shortDescription": "Промышленное подъемное оборудование и оборудование для обработки материалов",
+      "shortDescription": "Промышленное подъемное оборудование и оборудование Ѵля обработки материалов",
       "fullDescription": "Сверхмощное подъемное оборудование, включая подъемники, краны, стропы и такелажное оборудование для безопасной обработки материалов в промышленных условиях.",
       "parentCategoryTitle": "Промышленные измерительные инструменты",
       "keyBenefits": [
@@ -3174,7 +3235,7 @@
       "seo": {
         "title": "BLDC двигатели для настольных и настенных вентиля��оров - Энергоэффективные двигатели для вентиляторов | Powerton Engineering",
         "description": "Компактные BLDC двигатели для настольных и настенных вентиляторов. Энергоэффективные бесщеточные двигатели постоянного тока с бесшумной работой и длительным сроком службы.",
-        "keywords": "BLDC двигатели для вентиляторов, двигатели для настольных вентиляторов, двигатели для настенных вентиляторов, энергоэффективные двигатели, бесщеточные двигатели постоянного тока, двигатели для вентиляторов"
+        "keywords": "BLDC двигатели для вентиляторов, двигатели для настольных венe�иляторов, двигатели для настенных вентиляторов, энергоэффективные двигатели, бесщеточные двигатели постоянного тока, двигатели для вентиляторов"
       }
     }
   },
@@ -5247,7 +5308,7 @@
   },
   "bussmannFnqR60": {
     "title": "Предохранитель Bussmann FNQ-R-60 Class CC Rejection",
-    "description": "Предохранитель Bussmann FNQ-R-60 Class CC с выдержкой времени и защитой от неправильной установки, ток 60 А. Ток отключения 200 кА и конструкция с защитой от неправильной установки для промышленного управления.",
+    "description": "Предохранитель Bussmann FNQ-R-60 Class CC с выдержкой времени и защитой от неправильной установки, ток 60 А. Ток отключения 200 кА и констрЃкция с защитой от неправильной установки для промышленного управления.",
     "features": [
       "Предохранитель Class CC с защитой от неправильной установки",
       "Ток 60 А",
@@ -5746,7 +5807,7 @@
     "description": "Осевой двигатель вентилятора Oriental Motor MD-6P38 DC мощностью 38 Вт, 24 В пост. тока. 6-полюсная конструкция BLDC со степенью защиты IP55 для промышленных вытяжных систем.",
     "features": [
       "Мощность 38 Вт",
-      "Напряжение 24 В пост. тока",
+      "Напряжени�� 24 В пост. тока",
       "6-полюсная конструкция BLDC",
       "Защита IP55",
       "Осевой вентилятор DC",

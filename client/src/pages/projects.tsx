@@ -344,396 +344,284 @@ export default function Projects() {
             </p>
           </div>
 
-          <Tabs
-            value={selectedTab}
-            onValueChange={setSelectedTab}
-            className="w-full"
-          >
-            <TabsList className="grid w-full grid-cols-2 max-w-md mx-auto mb-8">
-              <TabsTrigger value="portfolio">
-                {t("ui.projectPortfolio")}
-              </TabsTrigger>
-              <TabsTrigger value="showcase">
-                {t("ui.featuredProjects")}
-              </TabsTrigger>
-            </TabsList>
-
-            <TabsContent value="portfolio" className="space-y-8">
-              {/* Search and Filters */}
-              <div className="space-y-6 filters-section">
-                {/* Search Bar */}
-                <div className="max-w-md mx-auto">
-                  <div className="relative">
-                    <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 text-muted-foreground w-5 h-5" />
-                    <Input
-                      placeholder={t("common:placeholders.searchProjects")}
-                      value={searchTerm}
-                      onChange={(e) => setSearchTerm(e.target.value)}
-                      className="pl-10"
-                    />
-                  </div>
-                </div>
-
-                {/* Filter Toggle */}
-                <div className="text-center">
-                  <Button
-                    variant="outline"
-                    onClick={() => setShowFilters(!showFilters)}
-                    className={`border-2 border-primary text-primary hover:bg-primary hover:text-primary-foreground transition-all duration-300 ${
-                      showFilters ? "bg-primary/10" : ""
-                    }`}
-                  >
-                    <Filter
-                      className={`mr-2 w-4 h-4 transition-transform duration-300 ${
-                        showFilters ? "rotate-180" : ""
-                      }`}
-                    />
-                    {showFilters
-                      ? t("common:buttons.hideFilters")
-                      : t("common:buttons.showFilters")}
-                  </Button>
-                </div>
-
-                {/* Filters */}
-                <div className="overflow-hidden">
-                  <div
-                    className={`transition-all duration-300 ease-in-out ${
-                      showFilters
-                        ? "max-h-96 opacity-100 translate-y-0"
-                        : "max-h-0 opacity-0 -translate-y-4"
-                    }`}
-                  >
-                    <div
-                      className="grid grid-cols-1 md:grid-cols-3 gap-4 p-6 bg-muted/50 backdrop-blur-sm rounded-lg border border-border/20 mt-4"
-                      style={{ contain: "layout style" }}
-                    >
-                      <div className="min-w-0">
-                        <label className="text-sm font-medium mb-2 block">
-                          {t("common:labels.industry")}
-                        </label>
-                        <Select
-                          value={selectedIndustry}
-                          onValueChange={setSelectedIndustry}
-                        >
-                          <SelectTrigger className="w-full">
-                            <SelectValue
-                              placeholder={t(
-                                "common:placeholders.selectIndustryFilter",
-                              )}
-                            />
-                          </SelectTrigger>
-                          <SelectContent>
-                            {filterOptions.industries.map((industry) => (
-                              <SelectItem key={industry.id} value={industry.id}>
-                                {industry.label}
-                              </SelectItem>
-                            ))}
-                          </SelectContent>
-                        </Select>
-                      </div>
-                      <div className="min-w-0">
-                        <label className="text-sm font-medium mb-2 block">
-                          {t("common:labels.category")}
-                        </label>
-                        <Select
-                          value={selectedCategory}
-                          onValueChange={setSelectedCategory}
-                        >
-                          <SelectTrigger className="w-full">
-                            <SelectValue
-                              placeholder={t(
-                                "common:placeholders.selectCategory",
-                              )}
-                            />
-                          </SelectTrigger>
-                          <SelectContent>
-                            {filterOptions.categories.map((category) => (
-                              <SelectItem key={category.id} value={category.id}>
-                                {category.label}
-                              </SelectItem>
-                            ))}
-                          </SelectContent>
-                        </Select>
-                      </div>
-                      <div className="min-w-0">
-                        <label className="text-sm font-medium mb-2 block">
-                          {t("common:labels.status")}
-                        </label>
-                        <Select
-                          value={selectedStatus}
-                          onValueChange={setSelectedStatus}
-                        >
-                          <SelectTrigger className="w-full">
-                            <SelectValue
-                              placeholder={t(
-                                "common:placeholders.selectStatus",
-                              )}
-                            />
-                          </SelectTrigger>
-                          <SelectContent>
-                            {filterOptions.statuses.map((status) => (
-                              <SelectItem key={status.id} value={status.id}>
-                                {status.label}
-                              </SelectItem>
-                            ))}
-                          </SelectContent>
-                        </Select>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+          {/* Search and Filters */}
+          <div className="space-y-6 filters-section">
+            {/* Search Bar */}
+            <div className="max-w-md mx-auto">
+              <div className="relative">
+                <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 text-muted-foreground w-5 h-5" />
+                <Input
+                  placeholder={t("common:placeholders.searchProjects")}
+                  value={searchTerm}
+                  onChange={(e) => setSearchTerm(e.target.value)}
+                  className="pl-10"
+                />
               </div>
+            </div>
 
-              {/* Results Summary */}
-              <div className="text-center text-muted-foreground">
-                {t("pages:projects.showing", {
-                  count: filteredProjects.length,
-                  total: PORTFOLIO_PROJECTS.length,
-                })}
-              </div>
+            {/* Filter Toggle */}
+            <div className="text-center">
+              <Button
+                variant="outline"
+                onClick={() => setShowFilters(!showFilters)}
+                className={`border-2 border-primary text-primary hover:bg-primary hover:text-primary-foreground transition-all duration-300 ${
+                  showFilters ? "bg-primary/10" : ""
+                }`}
+              >
+                <Filter
+                  className={`mr-2 w-4 h-4 transition-transform duration-300 ${
+                    showFilters ? "rotate-180" : ""
+                  }`}
+                />
+                {showFilters
+                  ? t("common:buttons.hideFilters")
+                  : t("common:buttons.showFilters")}
+              </Button>
+            </div>
 
-              {/* Project Grid */}
-              <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-10">
-                {filteredProjects.map((project, index) => {
-                  const Icon = getCategoryIcon(project.category);
-                  return (
-                    <motion.div
-                      whileHover={{ y: -8, scale: 1.02 }}
-                      transition={{ duration: 0.3, ease: "easeOut" }}
-                      key={project.id}
-                      className={getAnimationClass("fade-in-up", true)}
+            {/* Filters */}
+            <div className="overflow-hidden">
+              <div
+                className={`transition-all duration-300 ease-in-out ${
+                  showFilters
+                    ? "max-h-96 opacity-100 translate-y-0"
+                    : "max-h-0 opacity-0 -translate-y-4"
+                }`}
+              >
+                <div
+                  className="grid grid-cols-1 md:grid-cols-3 gap-4 p-6 bg-muted/50 backdrop-blur-sm rounded-lg border border-border/20 mt-4"
+                  style={{ contain: "layout style" }}
+                >
+                  <div className="min-w-0">
+                    <label className="text-sm font-medium mb-2 block">
+                      {t("common:labels.industry")}
+                    </label>
+                    <Select
+                      value={selectedIndustry}
+                      onValueChange={setSelectedIndustry}
                     >
-                      <Card className="bg-card border border-border rounded-xl shadow-sm hover:shadow-2xl cursor-pointer overflow-hidden h-full flex flex-col transition-all duration-300">
-                        {/* Project Image */}
-                        <div className="relative aspect-video overflow-hidden">
-                          <img
-                            src={project.image}
-                            alt={`ID-${200 + project.id}: ${
-                              project.title
-                            } project showcase`}
-                            className="w-full h-full object-cover"
-                          />
-                          {project.featured && (
-                            <Badge className="absolute top-4 right-4 bg-gradient-to-r from-yellow-400 to-orange-500 text-white px-3 py-1.5 shadow-lg">
-                              {t("pages:projects.featured")}
-                            </Badge>
+                      <SelectTrigger className="w-full">
+                        <SelectValue
+                          placeholder={t(
+                            "common:placeholders.selectIndustryFilter",
                           )}
-                        </div>
-
-                        {/* Project Content */}
-                        <div className="p-8 flex-1 flex flex-col space-y-6">
-                          {/* Header Section */}
-                          <div className="space-y-4">
-                            <div className="flex items-start justify-between gap-4">
-                              <CardTitle className="text-2xl font-bold text-foreground leading-tight flex-1">
-                                {t(`pages:projects.items.${project.id}.title`)}
-                              </CardTitle>
-                              <div className="flex-shrink-0">{Icon}</div>
-                            </div>
-
-                            <div className="flex items-center gap-2 text-secondary">
-                              <Building className="w-4 h-4 flex-shrink-0" />
-                              <span className="text-sm font-medium">
-                                {t(`pages:projects.items.${project.id}.client`)}
-                              </span>
-                            </div>
-                          </div>
-
-                          {/* Description */}
-                          <p className="text-base text-muted-foreground leading-relaxed">
-                            {t(
-                              `pages:projects.items.${project.id}.description`,
-                            )}
-                          </p>
-
-                          {/* Meta Information */}
-                          <div className="space-y-3">
-                            <div className="flex items-center gap-3 text-sm flex-wrap">
-                              <div className="flex items-center gap-2 text-muted-foreground">
-                                <MapPin className="w-4 h-4 flex-shrink-0" />
-                                <span>
-                                  {t(
-                                    `pages:projects.items.${project.id}.location`,
-                                  )}
-                                </span>
-                              </div>
-                              <span className="text-muted-foreground/40">
-                                •
-                              </span>
-                              <div className="flex items-center gap-2">
-                                {getStatusIcon(project.status)}
-                                <span className="text-green-600 font-medium">
-                                  {t(
-                                    `pages:projects.statuses.${project.status
-                                      .toLowerCase()
-                                      .replace(/\s+/g, "")}`,
-                                  )}
-                                </span>
-                              </div>
-                            </div>
-
-                            <div className="flex items-center gap-2 text-sm text-muted-foreground">
-                              <Calendar className="w-4 h-4 flex-shrink-0" />
-                              <span>
-                                {t("pages:projects.completedDate")}:{" "}
-                                {project.month} {project.year}
-                              </span>
-                            </div>
-                          </div>
-
-                          {/* Categories */}
-                          <div className="flex flex-wrap gap-3">
-                            <Badge
-                              variant="outline"
-                              className="bg-primary/10 text-primary border-primary/20 px-3 py-1.5"
-                            >
-                              {t(
-                                `pages:projects.categories.${project.category
-                                  .toLowerCase()
-                                  .replace(/\s+/g, "")}`,
-                              )}
-                            </Badge>
-                            <Badge
-                              variant="outline"
-                              className="bg-secondary/10 text-secondary border-secondary/20 px-3 py-1.5"
-                            >
-                              {project.industry}
-                            </Badge>
-                          </div>
-
-                          {/* Technologies - Show All */}
-                          <div className="space-y-3">
-                            <div className="flex items-center gap-2 text-sm font-semibold text-foreground">
-                              <TrendingUp className="w-4 h-4 text-primary" />
-                              <span>
-                                {t("pages:projects.technologiesUsed")}
-                              </span>
-                            </div>
-                            <div className="flex flex-wrap gap-2.5">
-                              {project.technologies.map((tech) => (
-                                <span
-                                  key={tech}
-                                  className="text-xs bg-muted px-3 py-1.5 rounded-md text-muted-foreground font-medium"
-                                >
-                                  {t(
-                                    `pages:projects.technologies.${tech
-                                      .toLowerCase()
-                                      .replace(/\s+/g, "")}`,
-                                  )}
-                                </span>
-                              ))}
-                            </div>
-                          </div>
-                        </div>
-                      </Card>
-                    </motion.div>
-                  );
-                })}
-              </div>
-
-              {filteredProjects.length === 0 && (
-                <div className="text-center py-12">
-                  <div className="text-muted-foreground mb-4">
-                    {t("pages:projects.noProjectsFound")}
-                  </div>
-                  <Button
-                    onClick={() => {
-                      setSearchTerm("");
-                      setSelectedIndustry("All");
-                      setSelectedCategory("All");
-                      setSelectedStatus("All");
-                    }}
-                    variant="outline"
-                  >
-                    {t("pages:projects.clearFilters")}
-                  </Button>
-                </div>
-              )}
-            </TabsContent>
-
-            <TabsContent value="showcase" className="space-y-8">
-              {/* Featured Projects Showcase */}
-              <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
-                {getFeaturedProjects().map((project: Project) => (
-                  <motion.div
-                    whileHover={{ y: -10, scale: 1.03 }}
-                    transition={{ duration: 0.3, ease: "easeOut" }}
-                    key={project.id}
-                    className="h-full"
-                  >
-                    <Card className="bg-card border border-border rounded-lg shadow-sm overflow-hidden hover:shadow-xl cursor-pointer group h-full flex flex-col">
-                      <div className="aspect-video flex-shrink-0">
-                        <img
-                          src={project.image}
-                          alt={`ID-${250 + project.id}: ${
-                            project.title
-                          } featured project`}
-                          className="w-full h-full object-cover"
                         />
-                      </div>
-                      <CardContent className="p-8 flex-1 flex flex-col">
-                        <div className="flex items-start justify-between mb-2">
-                          <h3 className="text-xl md:text-2xl font-semibold text-foreground">
+                      </SelectTrigger>
+                      <SelectContent>
+                        {filterOptions.industries.map((industry) => (
+                          <SelectItem key={industry.id} value={industry.id}>
+                            {industry.label}
+                          </SelectItem>
+                        ))}
+                      </SelectContent>
+                    </Select>
+                  </div>
+                  <div className="min-w-0">
+                    <label className="text-sm font-medium mb-2 block">
+                      {t("common:labels.category")}
+                    </label>
+                    <Select
+                      value={selectedCategory}
+                      onValueChange={setSelectedCategory}
+                    >
+                      <SelectTrigger className="w-full">
+                        <SelectValue
+                          placeholder={t("common:placeholders.selectCategory")}
+                        />
+                      </SelectTrigger>
+                      <SelectContent>
+                        {filterOptions.categories.map((category) => (
+                          <SelectItem key={category.id} value={category.id}>
+                            {category.label}
+                          </SelectItem>
+                        ))}
+                      </SelectContent>
+                    </Select>
+                  </div>
+                  <div className="min-w-0">
+                    <label className="text-sm font-medium mb-2 block">
+                      {t("common:labels.status")}
+                    </label>
+                    <Select
+                      value={selectedStatus}
+                      onValueChange={setSelectedStatus}
+                    >
+                      <SelectTrigger className="w-full">
+                        <SelectValue
+                          placeholder={t("common:placeholders.selectStatus")}
+                        />
+                      </SelectTrigger>
+                      <SelectContent>
+                        {filterOptions.statuses.map((status) => (
+                          <SelectItem key={status.id} value={status.id}>
+                            {status.label}
+                          </SelectItem>
+                        ))}
+                      </SelectContent>
+                    </Select>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* Results Summary */}
+          <div className="text-center text-muted-foreground">
+            {t("pages:projects.showing", {
+              count: filteredProjects.length,
+              total: PORTFOLIO_PROJECTS.length,
+            })}
+          </div>
+
+          {/* Project Grid */}
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-10">
+            {filteredProjects.map((project, index) => {
+              const Icon = getCategoryIcon(project.category);
+              return (
+                <motion.div
+                  whileHover={{ y: -8, scale: 1.02 }}
+                  transition={{ duration: 0.3, ease: "easeOut" }}
+                  key={project.id}
+                  className={getAnimationClass("fade-in-up", true)}
+                >
+                  <Card className="bg-card border border-border rounded-xl shadow-sm hover:shadow-2xl cursor-pointer overflow-hidden h-full flex flex-col transition-all duration-300">
+                    {/* Project Image */}
+                    <div className="relative aspect-video overflow-hidden">
+                      <img
+                        src={project.image}
+                        alt={`ID-${200 + project.id}: ${
+                          project.title
+                        } project showcase`}
+                        className="w-full h-full object-cover"
+                      />
+                      {project.featured && (
+                        <Badge className="absolute top-4 right-4 bg-gradient-to-r from-yellow-400 to-orange-500 text-white px-3 py-1.5 shadow-lg">
+                          {t("pages:projects.featured")}
+                        </Badge>
+                      )}
+                    </div>
+
+                    {/* Project Content */}
+                    <div className="p-8 flex-1 flex flex-col space-y-6">
+                      {/* Header Section */}
+                      <div className="space-y-4">
+                        <div className="flex items-start justify-between gap-4">
+                          <CardTitle className="text-2xl font-bold text-foreground leading-tight flex-1">
                             {t(`pages:projects.items.${project.id}.title`)}
-                          </h3>
-                          <Badge className="bg-gradient-to-r from-yellow-400 to-orange-500 text-white text-xs px-2 py-1 ml-2 flex-shrink-0">
-                            {t("pages:projects.featured")}
-                          </Badge>
+                          </CardTitle>
+                          <div className="flex-shrink-0">{Icon}</div>
                         </div>
-                        <div className="mb-3">
-                          <p className="text-sm font-medium text-secondary">
+
+                        <div className="flex items-center gap-2 text-secondary">
+                          <Building className="w-4 h-4 flex-shrink-0" />
+                          <span className="text-sm font-medium">
                             {t(`pages:projects.items.${project.id}.client`)}
-                          </p>
+                          </span>
                         </div>
-                        <p className="text-base text-muted-foreground mb-6 leading-relaxed">
-                          {t(`pages:projects.items.${project.id}.description`)}
-                        </p>
+                      </div>
 
-                        <div className="space-y-4 mb-6 flex-1">
-                          <h4 className="font-semibold text-foreground text-base">
-                            {t("pages:projects.keyFeatures")}
-                          </h4>
-                          <div className="flex flex-wrap gap-2">
-                            {project.highlights.map(
-                              (highlight: string, index: number) => (
-                                <Badge
-                                  key={index}
-                                  variant="outline"
-                                  className="text-xs px-3 py-1.5 bg-gray-100 text-gray-800 hover:bg-gray-200 cursor-pointer transition-colors border-gray-300"
-                                >
-                                  {t(
-                                    `pages:projects.highlights.${highlight
-                                      .toLowerCase()
-                                      .replace(/\s+/g, "")}`,
-                                  )}
-                                </Badge>
-                              ),
-                            )}
-                          </div>
-                        </div>
+                      {/* Description */}
+                      <p className="text-base text-muted-foreground leading-relaxed">
+                        {t(`pages:projects.items.${project.id}.description`)}
+                      </p>
 
-                        <div className="space-y-5 text-base text-muted-foreground mt-auto">
-                          <div className="flex items-start gap-4">
-                            <MapPin className="w-5 h-5 flex-shrink-0 mt-0.5" />
-                            <span className="leading-relaxed text-base">
+                      {/* Meta Information */}
+                      <div className="space-y-3">
+                        <div className="flex items-center gap-3 text-sm flex-wrap">
+                          <div className="flex items-center gap-2 text-muted-foreground">
+                            <MapPin className="w-4 h-4 flex-shrink-0" />
+                            <span>
                               {t(`pages:projects.items.${project.id}.location`)}
                             </span>
                           </div>
-                          <div className="flex items-start gap-4">
-                            <Calendar className="w-5 h-5 flex-shrink-0 mt-0.5" />
-                            <span className="leading-relaxed text-base">
-                              {t("pages:projects.completedDate")}:{" "}
-                              {project.month} {project.year}
+                          <span className="text-muted-foreground/40">•</span>
+                          <div className="flex items-center gap-2">
+                            {getStatusIcon(project.status)}
+                            <span className="text-green-600 font-medium">
+                              {t(
+                                `pages:projects.statuses.${project.status
+                                  .toLowerCase()
+                                  .replace(/\s+/g, "")}`,
+                              )}
                             </span>
                           </div>
                         </div>
-                      </CardContent>
-                    </Card>
-                  </motion.div>
-                ))}
+
+                        <div className="flex items-center gap-2 text-sm text-muted-foreground">
+                          <Calendar className="w-4 h-4 flex-shrink-0" />
+                          <span>
+                            {t("pages:projects.completedDate")}: {project.month}{" "}
+                            {project.year}
+                          </span>
+                        </div>
+                      </div>
+
+                      {/* Categories */}
+                      <div className="flex flex-wrap gap-3">
+                        <Badge
+                          variant="outline"
+                          className="bg-primary/10 text-primary border-primary/20 px-3 py-1.5"
+                        >
+                          {t(
+                            `pages:projects.categories.${project.category
+                              .toLowerCase()
+                              .replace(/\s+/g, "")}`,
+                          )}
+                        </Badge>
+                        <Badge
+                          variant="outline"
+                          className="bg-secondary/10 text-secondary border-secondary/20 px-3 py-1.5"
+                        >
+                          {project.industry}
+                        </Badge>
+                      </div>
+
+                      {/* Technologies - Show All */}
+                      <div className="space-y-3">
+                        <div className="flex items-center gap-2 text-sm font-semibold text-foreground">
+                          <TrendingUp className="w-4 h-4 text-primary" />
+                          <span>{t("pages:projects.technologiesUsed")}</span>
+                        </div>
+                        <div className="flex flex-wrap gap-2.5">
+                          {project.technologies.map((tech) => (
+                            <span
+                              key={tech}
+                              className="text-xs bg-muted px-3 py-1.5 rounded-md text-muted-foreground font-medium"
+                            >
+                              {t(
+                                `pages:projects.technologies.${tech
+                                  .toLowerCase()
+                                  .replace(/\s+/g, "")}`,
+                              )}
+                            </span>
+                          ))}
+                        </div>
+                      </div>
+                    </div>
+                  </Card>
+                </motion.div>
+              );
+            })}
+          </div>
+
+          {filteredProjects.length === 0 && (
+            <div className="text-center py-12">
+              <div className="text-muted-foreground mb-4">
+                {t("pages:projects.noProjectsFound")}
               </div>
-            </TabsContent>
-          </Tabs>
+              <Button
+                onClick={() => {
+                  setSearchTerm("");
+                  setSelectedIndustry("All");
+                  setSelectedCategory("All");
+                  setSelectedStatus("All");
+                }}
+                variant="outline"
+              >
+                {t("pages:projects.clearFilters")}
+              </Button>
+            </div>
+          )}
         </div>
       </section>
 

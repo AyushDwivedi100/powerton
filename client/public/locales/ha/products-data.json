@@ -929,38 +929,99 @@
         "keywords": "transfoma na yanzu, CT, transfoma mai yuwuwa, PT, transfoma na kayan aiki, CT na aunawa, CT na kariya, transfoma na wutar lantarki, transfoma na aunawa"
       }
     },
+    "instrumentation-cables": {
+      "title": "Kebul na Kayan Aiki",
+      "shortDescription": "Kebulolin kayan aiki masu daidaito don daidaitaccen aunawa da watsawa siginar sarrafawa",
+      "fullDescription": "Kebul na kayan aiki na ƙwararru wanda aka ƙera don daidaitaccen watsawa sigina a cikin aunawa masana'antu da aikace-aikacen sarrafawa. Yana fasalta garkuwar murɗa biyu, ƙin amo mai kyau, da ingantaccen amincin sigina don mahimman tsarin kayan aiki.",
+      "parentCategoryTitle": "Kayan Aikin Na'urorin Auna Kayan Aiki",
+      "keyBenefits": [
+        "Babban Amincin Sigina",
+        "Kyakkyawan Rigakafin Amo",
+        "Faɗin Matsayin Zafin Jiki",
+        "Mai Jure Kemikal",
+        "Shigarwa Mai Sauƙi",
+        "Tsawon Rayuwa"
+      ],
+      "specifications": [
+        "Ƙimar Wutar Lantarki: 300V zuwa 600V",
+        "Ƙimar Zafin Jiki: -40°C zuwa +105°C",
+        "Conductor: Tinned Copper",
+        "Rufewa: PVC, PE, XLPE",
+        "Kariya: Aluminum Foil, Braid",
+        "Ka'idoji: IEC 60502, NFPA 70"
+      ],
+      "applications": [
+        "Tsarin Kula da Tsari",
+        "Madaukai na Kayan Aiki",
+        "Haɗin Sensor",
+        "Wayar Mai watsawa",
+        "Haɗin Analyzer",
+        "Wayar ɗakin Sarrafawa"
+      ],
+      "industries": [
+        "Mai & Gas",
+        "Sarrafa Kemikal",
+        "Samar da Wutar Lantarki",
+        "Jiyya na Ruwa",
+        "Masana'antu",
+        "Magunguna"
+      ],
+      "features": [
+        "Ƙirar Murɗa Biyu Mai Kariya",
+        "Gina Ƙarfin Ƙarfi",
+        "Saitin Wayar Magudanar Ruwa",
+        "Gano Launi",
+        "Jaket Mai Hana Wuta",
+        "Mai Jure Mai & Kemikal",
+        "Ƙarfafa Mai Sauƙi",
+        "Zaɓuɓɓukan Ma'aurata Da yawa"
+      ],
+      "certifications": [
+        "UL Lissafa",
+        "CSA Mai Takarda",
+        "CE Mai Alama",
+        "IEC 60502",
+        "NFPA 70",
+        "RoHS Mai Yardarwa"
+      ],
+      "seo": {
+        "title": "Kebul na Kayan Aiki - Daidaitaccen Watsawa Sigina | Injiniyan Powerton",
+        "description": "Kebul na kayan aiki masu inganci tare da garkuwar gini don daidaitaccen aunawa da watsawa siginar sarrafawa.",
+        "keywords": "kebul na kayan aiki, garkuwar murɗa biyu, kebul na sigina, kebul na aunawa, kebul na sarrafawa, kebul na masana'antu"
+      }
+    },
     "electrical-cables": {
-      "title": "Kebuloli Na Lantarki",
-      "shortDescription": "Kebuloli na lantarki na masana'antu don watsa wutar lantarki da tsarin rarraba",
-      "fullDescription": "Kewayon kebuloli na lantarki gami da kebuloli na wuta, kebuloli na sarrafawa, kebuloli masu kariya, da kebuloli na sadarwa don rarraba wutar lantarki na masana'antu da kayan aikin lantarki.",
+      "title": "Kebul Na Lantarki",
+      "shortDescription": "Kebulolin lantarki na masana'antu don rarraba wutar lantarki da tsarin rarraba",
+      "fullDescription": "Cikakken kewayon kebulolin lantarki ciki har da kebulolin wuta, kebulolin sarrafawa, kebulolin sulke, da kebulolin sadarwa don rarraba wutar lantarki na masana'antu da shigarwar lantarki.",
       "parentCategoryTitle": "Kayan Aikin Lantarki",
       "keyBenefits": [
-        "Babban Ƙarfin ɗaukar Halin Yanzu",
+        "Babban Ƙarfin Wutar Lantarki",
         "Kyakkyawan Kaddarorin Rufewa",
-        "Kayan da ke hana wuta",
+        "Kayan da ke Hana Wuta",
         "Tsawon Rayuwar Sabis"
       ],
       "specifications": [
         "Ƙimar Wutar Lantarki: 300V zuwa 33kV",
-        "Zafin Aiki: -40°C zuwa +90°C",
-        "Mai Gudanarwa: Jan Karfe/Aluminum",
+        "Ƙimar Zafin Jiki: -40°C zuwa +90°C",
+        "Conductor: Copper/Aluminum",
         "Rufewa: PVC, XLPE, EPR",
-        "Kariya: Braid, Foil, Haɗuwa",
+        "Kariya: Braid, Foil, Combination",
         "Ka'idoji: IEC, IEEE, ASTM"
       ],
       "applications": [
-        "Rarraba Wuta",
+        "Rarraba Wutar Lantarki",
         "Haɗin Mota",
         "Kewayen Sarrafawa",
         "Kayan Aiki",
         "Hanyoyin Sadarwa",
-        "Tsarin Tushe"
+        "Tsarin Ƙasa"
       ],
       "industries": [
-        "Samar da Wuta",
+        "Samar da Wutar Lantarki",
         "Masana'antu",
-        "Ababen more rayuwa",
-        "Ruwa & Offshore",
+        "Ababen More Rayuwa",
+        "Marine & Offshore",
         "Hakar Ma'adinai",
         "Sufuri"
       ],
@@ -969,23 +1030,23 @@
         "Mai Jure Mai",
         "Mai Jure UV",
         "Mai Jure Danshi",
-        "Ƙirar Mai Sauƙi",
+        "Zane Mai Sauƙi",
         "Shigarwa Mai Sauƙi",
-        "Ƙananan Hayaki",
-        "Zaɓuɓɓukan Kyauta na Halogen"
+        "Ƙananan Fitowa Hayaki",
+        "Zaɓuɓɓukan da Babu Halogen"
       ],
       "certifications": [
-        "IEC 60502 Mai Takarda",
+        "IEC 60502 Certified",
         "IEEE 1202 An Gwada",
         "UL Lissafa",
-        "CSA Mai Amincewa",
+        "CSA An Amince da shi",
         "CE Mai Alama",
         "RoHS Mai Yardarwa"
       ],
       "seo": {
-        "title": "Kebuloli Na Lantarki - Wuta, Sarrafawa, Kebuloli Masu Kariya | Injiniyan Powerton",
-        "description": "Kebuloli na lantarki na masana'antu don watsawa wuta, rarraba da kewayen sarrafawa. Kebuloli na wutar lantarki mai ƙarfi, kebuloli na sarrafawa, da kebuloli masu kariya na sadarwa.",
-        "keywords": "kebuloli na lantarki, kebuloli na wuta, kebuloli na sarrafawa, kebuloli masu kariya, wayoyi na lantarki, kebuloli na sadarwa, kebuloli na masana'antu"
+        "title": "Kebul Na Lantarki - Wuta, Sarrafawa, Kebulolin Sulke | Injiniyan Powerton",
+        "description": "Kebulolin lantarki na masana'antu don watsa wutar lantarki, rarrabawa, da kewayen sarrafawa. Kebulolin wutar lantarki masu girma, kebulolin sarrafawa, da kebulolin sadarwa masu sulke.",
+        "keywords": "kebulolin lantarki, kebulolin wuta, kebulolin sarrafawa, kebulolin sulke, wayoyin lantarki, kebulolin sadarwa, kebulolin masana'antu"
       }
     },
     "connectors-terminals": {

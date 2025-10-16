@@ -934,15 +934,76 @@
         "keywords": "transformador de corriente, TC, transformador de potencial, TP, transformador de instrumento, TC de medición, TC de protección, transformador de voltaje, transformador de medición"
       }
     },
+    "instrumentation-cables": {
+      "title": "Cables de Instrumentación",
+      "shortDescription": "Cables de instrumentación de precisión para la transmisión de señales de medición y control precisas",
+      "fullDescription": "Cables de instrumentación profesionales diseñados para la transmisión de señales precisas en aplicaciones de medición y control industrial. Cuentan con una construcción de par trenzado blindado, un excelente rechazo al ruido y una integridad de señal superior para sistemas de instrumentación críticos.",
+      "parentCategoryTitle": "Accesorios de Instrumentación",
+      "keyBenefits": [
+        "Integridad de Señal Superior",
+        "Excelente Inmunidad al Ruido",
+        "Amplio Rango de Temperatura",
+        "Resistente a Químicos",
+        "Instalación Flexible",
+        "Larga Vida Útil"
+      ],
+      "specifications": [
+        "Clasificación de Voltaje: 300V a 600V",
+        "Clasificación de Temperatura: -40°C a +105°C",
+        "Conductor: Cobre Estañado",
+        "Aislamiento: PVC, PE, XLPE",
+        "Blindaje: Lámina de Aluminio, Trenza",
+        "Standards: IEC 60502, NFPA 70"
+      ],
+      "applications": [
+        "Sistemas de Control de Procesos",
+        "Bucles de Instrumentación",
+        "Conexiones de Sensores",
+        "Cableado del Transmisor",
+        "Conexiones del Analizador",
+        "Cableado de la Sala de Control"
+      ],
+      "industries": [
+        "Petróleo y Gas",
+        "Procesamiento Químico",
+        "Generación de Energía",
+        "Tratamiento de Aguas",
+        "Fabricación",
+        "Farmacéutica"
+      ],
+      "features": [
+        "Diseño de Par Trenzado Blindado",
+        "Construcción de Baja Capacitancia",
+        "Configuración de Cable de Drenaje",
+        "Identificación con Código de Colores",
+        "Chaqueta Ignífuga",
+        "Resistente al Aceite y a los Químicos",
+        "Trenzado Flexible",
+        "Múltiples Opciones de Par"
+      ],
+      "certifications": [
+        "Listado UL",
+        "Certificación CSA",
+        "Marcado CE",
+        "IEC 60502",
+        "NFPA 70",
+        "Cumple con RoHS"
+      ],
+      "seo": {
+        "title": "Cables de Instrumentación - Transmisión de Señal de Precisión | Powerton Engineering",
+        "description": "Cables de instrumentación de alta calidad con construcción blindada para una transmisión de señales de medición y control precisas.",
+        "keywords": "cables de instrumentación, par trenzado blindado, cables de señal, cables de medición, cables de control, cables industriales"
+      }
+    },
     "electrical-cables": {
       "title": "Cables Eléctricos",
-      "shortDescription": "Cables eléctricos industriales para transmisión de energía y sistemas de distribución",
-      "fullDescription": "Amplia gama de cables eléctricos que incluyen cables de alimentación, cables de control, cables blindados y cables de comunicación para distribución eléctrica industrial e infraestructura eléctrica.",
+      "shortDescription": "Cables eléctricos industriales para sistemas de transmisión y distribución de energía",
+      "fullDescription": "Amplia gama de cables eléctricos que incluyen cables de alimentación, cables de control, cables armados y cables de comunicación para la distribución de energía industrial e instalaciones eléctricas.",
       "parentCategoryTitle": "Accesorios Eléctricos",
       "keyBenefits": [
         "Alta Capacidad de Conducción de Corriente",
         "Excelentes Propiedades de Aislamiento",
-        "Materiales Retardantes de Llama",
+        "Materiales Ignífugos",
         "Larga Vida Útil"
       ],
       "specifications": [
@@ -951,7 +1012,7 @@
         "Conductor: Cobre/Aluminio",
         "Aislamiento: PVC, XLPE, EPR",
         "Blindaje: Trenza, Lámina, Combinación",
-        "Normas: IEC, IEEE, ASTM"
+        "Standards: IEC, IEEE, ASTM"
       ],
       "applications": [
         "Distribución de Energía",
@@ -985,12 +1046,12 @@
         "Listado UL",
         "Aprobación CSA",
         "Marcado CE",
-        "Cumplimiento RoHS"
+        "Cumple con RoHS"
       ],
       "seo": {
-        "title": "Cables Eléctricos - Cables de Alimentación, Control, Blindados | Powerton Engineering",
-        "description": "Cables eléctricos industriales para transmisión de energía, distribución y circuitos de control. Cables de alimentación de alto voltaje, cables de control y cables blindados de comunicación.",
-        "keywords": "cables eléctricos, cables de alimentación, cables de control, cables blindados, alambres eléctricos, cables de comunicación, cables industriales"
+        "title": "Cables Eléctricos - Cables de Alimentación, Control, Armados | Powerton Engineering",
+        "description": "Cables eléctricos industriales para transmisión de energía, distribución y circuitos de control. Cables de alimentación de alto voltaje, cables de control y cables de comunicación armados.",
+        "keywords": "cables eléctricos, cables de alimentación, cables de control, cables armados, alambres eléctricos, cables de comunicación, cables industriales"
       }
     },
     "connectors-terminals": {

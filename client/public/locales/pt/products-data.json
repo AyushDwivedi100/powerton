@@ -934,19 +934,80 @@
         "keywords": "transformador de corrente, TC, transformador de potencial, TP, transformador de instrumento, TC de medição, TC de proteção, transformador de tensão, transformador de medição"
       }
     },
+    "instrumentation-cables": {
+      "title": "Cabos de Instrumentação",
+      "shortDescription": "Cabos de instrumentação de precisão para transmissão de sinal de medição e controle precisa",
+      "fullDescription": "Cabos de instrumentação profissionais projetados para transmissão de sinal precisa em aplicações industriais de medição e controle. Possui construção de par trançado blindado, excelente rejeição de ruído e integridade de sinal superior para sistemas de instrumentação críticos.",
+      "parentCategoryTitle": "Acessórios de Instrumentação",
+      "keyBenefits": [
+        "Integridade de Sinal Superior",
+        "Excelente Imunidade a Ruídos",
+        "Ampla Faixa de Temperatura",
+        "Resistente a Produtos Químicos",
+        "Instalação Flexível",
+        "Longa Vida Útil"
+      ],
+      "specifications": [
+        "Classificação de Voltagem: 300V a 600V",
+        "Classificação de Temperatura: -40°C a +105°C",
+        "Condutor: Cobre Estanhado",
+        "Isolamento: PVC, PE, XLPE",
+        "Blindagem: Folha de Alumínio, Trança",
+        "Normas: IEC 60502, NFPA 70"
+      ],
+      "applications": [
+        "Sistemas de Controle de Processo",
+        "Laços de Instrumentação",
+        "Conexões de Sensor",
+        "Fiação do Transmissor",
+        "Conexões do Analisador",
+        "Fiação da Sala de Controle"
+      ],
+      "industries": [
+        "Petróleo e Gás",
+        "Processamento Químico",
+        "Geração de Energia",
+        "Tratamento de Água",
+        "Manufatura",
+        "Farmacêutica"
+      ],
+      "features": [
+        "Design de Par Trançado Blindado",
+        "Construção de Baixa Capacitância",
+        "Configuração de Fio de Dreno",
+        "Identificação com Código de Cores",
+        "Revestimento Retardante de Chama",
+        "Resistente a Óleo e Produtos Químicos",
+        "Encalhamento Flexível",
+        "Múltiplas Opções de Par"
+      ],
+      "certifications": [
+        "Listado pela UL",
+        "Certificado pela CSA",
+        "Marcação CE",
+        "IEC 60502",
+        "NFPA 70",
+        "Compatível com RoHS"
+      ],
+      "seo": {
+        "title": "Cabos de Instrumentação - Transmissão de Sinal de Precisão | Powerton Engineering",
+        "description": "Cabos de instrumentação de alta qualidade com construção blindada para medição precisa e transmissão de sinal de controle.",
+        "keywords": "cabos de instrumentação, par trançado blindado, cabos de sinal, cabos de medição, cabos de controle, cabos industriais"
+      }
+    },
     "electrical-cables": {
       "title": "Cabos Elétricos",
-      "shortDescription": "Cabos elétricos industriais para transmissão de energia e sistemas de distribuição",
-      "fullDescription": "Gama abrangente de cabos elétricos, incluindo cabos de alimentação, cabos de controle, cabos blindados e cabos de comunicação para distribuição elétrica industrial e infraestrutura elétrica.",
+      "shortDescription": "Cabos elétricos industriais para sistemas de transmissão e distribuição de energia",
+      "fullDescription": "Gama abrangente de cabos elétricos, incluindo cabos de alimentação, cabos de controle, cabos blindados e cabos de comunicação para distribuição de energia industrial e instalações elétricas.",
       "parentCategoryTitle": "Acessórios Elétricos",
       "keyBenefits": [
         "Alta Capacidade de Condução de Corrente",
         "Excelentes Propriedades de Isolamento",
-        "Materiais Retardantes de Chamas",
+        "Materiais Retardantes de Chama",
         "Longa Vida Útil"
       ],
       "specifications": [
-        "Classificação de Tensão: 300V a 33kV",
+        "Classificação de Voltagem: 300V a 33kV",
         "Classificação de Temperatura: -40°C a +90°C",
         "Condutor: Cobre/Alumínio",
         "Isolamento: PVC, XLPE, EPR",
@@ -977,11 +1038,11 @@
         "Design Flexível",
         "Fácil Instalação",
         "Baixa Emissão de Fumaça",
-        "Opções Sem Halogênio"
+        "Opções Livres de Halogênio"
       ],
       "certifications": [
         "Certificado IEC 60502",
-        "Testado IEEE 1202",
+        "Testado pela IEEE 1202",
         "Listado pela UL",
         "Aprovado pela CSA",
         "Marca CE",
@@ -989,7 +1050,7 @@
       ],
       "seo": {
         "title": "Cabos Elétricos - Cabos de Alimentação, Controle, Blindados | Powerton Engineering",
-        "description": "Cabos elétricos industriais para transmissão de energia, distribuição e circuitos de controle. Cabos de alimentação de alta tensão, cabos de controle e cabos blindados de comunicação.",
+        "description": "Cabos elétricos industriais para transmissão de energia, distribuição e circuitos de controle. Cabos de alimentação de alta voltagem, cabos de controle e cabos de comunicação blindados.",
         "keywords": "cabos elétricos, cabos de alimentação, cabos de controle, cabos blindados, fios elétricos, cabos de comunicação, cabos industriais"
       }
     },
