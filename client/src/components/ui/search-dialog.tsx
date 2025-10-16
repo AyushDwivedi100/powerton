@@ -202,17 +202,13 @@ export function SearchDialog({ open, onOpenChange }: SearchDialogProps) {
                     key={`${recentSearch}-${index}`}
                     onClick={() => handleRecentSearchClick(recentSearch)}
                     data-testid={`recent-search-${recentSearch.toLowerCase().replace(/\s+/g, '-')}`}
-                    className="group relative px-4 py-2 rounded-full text-sm font-medium transition-all duration-300 
-                      bg-gradient-to-r from-muted/50 to-muted/30 
-                      hover:from-primary/10 hover:to-primary/5 
-                      border border-border/50 hover:border-primary/30
-                      text-foreground/80 hover:text-primary
-                      hover:shadow-md hover:shadow-primary/10
-                      hover:scale-105 active:scale-95"
+                    className="group relative px-3 py-1.5 rounded-full text-xs font-medium transition-all duration-200 
+                      bg-muted/60 hover:bg-primary/10 
+                      border border-border/50 hover:border-primary/40
+                      text-foreground/70 hover:text-primary
+                      hover:shadow-sm hover:scale-[1.02] active:scale-95"
                   >
                     <span className="relative z-10">{recentSearch}</span>
-                    <div className="absolute inset-0 rounded-full bg-gradient-to-r from-primary/0 to-primary/0 
-                      group-hover:from-primary/5 group-hover:to-transparent transition-all duration-300" />
                   </button>
                 ))}
               </div>
