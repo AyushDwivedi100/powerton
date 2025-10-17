@@ -12,6 +12,8 @@ import ClientsSection from "@/components/sections/clients-section";
 import ProjectsSection from "@/components/sections/projects-section";
 import ContactSection from "@/components/sections/contact-section";
 import { useTranslation } from "react-i18next";
+// TEMPORARY: Diwali celebration - Remove after Diwali season
+import DiwaliCelebration from "@/components/DiwaliCelebration";
 
 export default function Home() {
   // Re-enabled optimized scroll animations
@@ -74,6 +76,9 @@ export default function Home() {
         keywords={t("pages:home.seo.keywords")}
         structuredData={structuredData}
       />
+
+      {/* TEMPORARY: Diwali celebration animation - Remove after Diwali season */}
+      <DiwaliCelebration />
 
       <HeroSection />
       <AnimatedSection animation="fadeInUp" delay={0.1} duration={0.8}>
