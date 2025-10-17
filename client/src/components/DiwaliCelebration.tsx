@@ -22,11 +22,19 @@ export default function DiwaliCelebration() {
     };
   }, []);
 
-  // Generate firecracker particles
-  const firecrackers = Array.from({ length: 20 }, (_, i) => ({
+  // Generate firecracker particles - responsive based on screen
+  const getFirecrackerCount = () => {
+    if (typeof window === 'undefined') return 15;
+    const width = window.innerWidth;
+    if (width < 640) return 12; // Mobile
+    if (width < 1024) return 15; // Tablet
+    return 20; // Desktop
+  };
+
+  const firecrackers = Array.from({ length: getFirecrackerCount() }, (_, i) => ({
     id: i,
     delay: Math.random() * 0.5,
-    x: Math.random() * 100,
+    x: 10 + Math.random() * 80, // Keep within 10-90% to avoid edges
     color: [
       "#FFD700", // Gold
       "#FF6B35", // Orange-Red
@@ -41,7 +49,7 @@ export default function DiwaliCelebration() {
   if (!show) return null;
 
   return (
-    <div className="fixed inset-0 z-[9999] pointer-events-none">
+    <div className="fixed inset-0 z-[9999] pointer-events-none overflow-hidden">
       {/* Firecrackers Animation */}
       <AnimatePresence>
         {firecrackers.map((cracker) => (
@@ -54,7 +62,7 @@ export default function DiwaliCelebration() {
             }}
             initial={{ y: 0, opacity: 0, scale: 0 }}
             animate={{
-              y: [-100, -400, -500],
+              y: [-50, -250, -350], // Reduced for mobile screens
               opacity: [0, 1, 0],
               scale: [0, 1.5, 0],
             }}
@@ -64,21 +72,21 @@ export default function DiwaliCelebration() {
               ease: "easeOut",
             }}
           >
-            {/* Firecracker burst effect */}
+            {/* Firecracker burst effect - responsive size */}
             <div
-              className="w-3 h-3 rounded-full blur-sm"
+              className="w-2 h-2 sm:w-3 sm:h-3 rounded-full blur-sm"
               style={{
                 backgroundColor: cracker.color,
-                boxShadow: `0 0 20px ${cracker.color}, 0 0 40px ${cracker.color}`,
+                boxShadow: `0 0 15px ${cracker.color}, 0 0 30px ${cracker.color}`,
               }}
             />
             
             {/* Trail effect */}
             <motion.div
-              className="absolute top-0 left-1/2 -translate-x-1/2 w-1 h-20"
+              className="absolute top-0 left-1/2 -translate-x-1/2 w-1 h-12 sm:h-20"
               style={{
                 background: `linear-gradient(to bottom, ${cracker.color}, transparent)`,
-                filter: "blur(2px)",
+                filter: "blur(1px)",
               }}
               initial={{ scaleY: 0, opacity: 0 }}
               animate={{ scaleY: 1, opacity: [0, 1, 0] }}
@@ -88,78 +96,80 @@ export default function DiwaliCelebration() {
         ))}
       </AnimatePresence>
 
-      {/* Happy Diwali Message */}
+      {/* Happy Diwali Message - Perfectly Centered */}
       <AnimatePresence>
         {showMessage && (
-          <motion.div
-            className="fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-center w-full px-4"
-            initial={{ scale: 0, opacity: 0, rotate: -180 }}
-            animate={{ scale: 1, opacity: 1, rotate: 0 }}
-            exit={{ scale: 0, opacity: 0, rotate: 180 }}
-            transition={{ duration: 0.8, type: "spring", bounce: 0.4 }}
-          >
-            <div className="relative inline-block">
-              {/* Glow effect behind text */}
-              <div className="absolute inset-0 blur-3xl bg-gradient-to-r from-orange-500 via-yellow-500 to-red-500 opacity-50 animate-pulse" />
-              
-              {/* Main text */}
-              <h1
-                className="relative text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold bg-gradient-to-r from-orange-400 via-yellow-300 to-red-400 bg-clip-text text-transparent whitespace-nowrap"
-                style={{
-                  textShadow: "0 0 30px rgba(255, 165, 0, 0.8), 0 0 60px rgba(255, 215, 0, 0.6)",
-                  fontFamily: "'Playfair Display', serif",
-                }}
-              >
-                Happy Diwali
-              </h1>
-              
-              {/* Decorative diya icons */}
-              <div className="flex justify-center gap-8 mt-4">
-                <motion.div
-                  animate={{ rotate: [0, 10, -10, 0] }}
-                  transition={{ duration: 2, repeat: Infinity }}
-                  className="text-4xl"
-                >
-                  🪔
-                </motion.div>
-                <motion.div
-                  animate={{ scale: [1, 1.2, 1] }}
-                  transition={{ duration: 1.5, repeat: Infinity }}
-                  className="text-4xl"
-                >
-                  ✨
-                </motion.div>
-                <motion.div
-                  animate={{ rotate: [0, -10, 10, 0] }}
-                  transition={{ duration: 2, repeat: Infinity }}
-                  className="text-4xl"
-                >
-                  🪔
-                </motion.div>
-              </div>
-
-              {/* Sparkle effects */}
-              {[...Array(8)].map((_, i) => (
-                <motion.div
-                  key={i}
-                  className="absolute w-2 h-2 bg-yellow-300 rounded-full"
+          <div className="fixed inset-0 flex items-center justify-center z-50 pointer-events-none px-4">
+            <motion.div
+              className="text-center max-w-full"
+              initial={{ scale: 0, opacity: 0, rotate: -180 }}
+              animate={{ scale: 1, opacity: 1, rotate: 0 }}
+              exit={{ scale: 0, opacity: 0, rotate: 180 }}
+              transition={{ duration: 0.8, type: "spring", bounce: 0.4 }}
+            >
+              <div className="relative">
+                {/* Glow effect behind text */}
+                <div className="absolute inset-0 blur-3xl bg-gradient-to-r from-orange-500 via-yellow-500 to-red-500 opacity-50 animate-pulse" />
+                
+                {/* Main text - Responsive sizing */}
+                <h1
+                  className="relative text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-bold bg-gradient-to-r from-orange-400 via-yellow-300 to-red-400 bg-clip-text text-transparent px-4"
                   style={{
-                    top: `${Math.random() * 100}%`,
-                    left: `${Math.random() * 100}%`,
+                    textShadow: "0 0 30px rgba(255, 165, 0, 0.8), 0 0 60px rgba(255, 215, 0, 0.6)",
+                    fontFamily: "'Playfair Display', serif",
                   }}
-                  animate={{
-                    scale: [0, 1, 0],
-                    opacity: [0, 1, 0],
-                  }}
-                  transition={{
-                    duration: 1.5,
-                    repeat: Infinity,
-                    delay: i * 0.2,
-                  }}
-                />
-              ))}
-            </div>
-          </motion.div>
+                >
+                  Happy Diwali
+                </h1>
+                
+                {/* Decorative diya icons */}
+                <div className="flex justify-center gap-4 sm:gap-6 md:gap-8 mt-4">
+                  <motion.div
+                    animate={{ rotate: [0, 10, -10, 0] }}
+                    transition={{ duration: 2, repeat: Infinity }}
+                    className="text-2xl sm:text-3xl md:text-4xl"
+                  >
+                    🪔
+                  </motion.div>
+                  <motion.div
+                    animate={{ scale: [1, 1.2, 1] }}
+                    transition={{ duration: 1.5, repeat: Infinity }}
+                    className="text-2xl sm:text-3xl md:text-4xl"
+                  >
+                    ✨
+                  </motion.div>
+                  <motion.div
+                    animate={{ rotate: [0, -10, 10, 0] }}
+                    transition={{ duration: 2, repeat: Infinity }}
+                    className="text-2xl sm:text-3xl md:text-4xl"
+                  >
+                    🪔
+                  </motion.div>
+                </div>
+
+                {/* Sparkle effects */}
+                {[...Array(8)].map((_, i) => (
+                  <motion.div
+                    key={i}
+                    className="absolute w-2 h-2 bg-yellow-300 rounded-full"
+                    style={{
+                      top: `${Math.random() * 100}%`,
+                      left: `${Math.random() * 100}%`,
+                    }}
+                    animate={{
+                      scale: [0, 1, 0],
+                      opacity: [0, 1, 0],
+                    }}
+                    transition={{
+                      duration: 1.5,
+                      repeat: Infinity,
+                      delay: i * 0.2,
+                    }}
+                  />
+                ))}
+              </div>
+            </motion.div>
+          </div>
         )}
       </AnimatePresence>
 
