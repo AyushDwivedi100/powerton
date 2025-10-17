@@ -60,16 +60,18 @@ export default function FloatingContactBadges() {
           transition: { duration: 0.4, ease: [0.4, 0.0, 0.2, 1] },
         }}
         animate={{
-          scale: [1, 1.02, 1],
+          scale: [1, 1.1, 1.05, 1.1, 1],
           boxShadow: [
-            "0 4px 14px rgba(34, 197, 94, 0.25)",
-            "0 6px 20px rgba(34, 197, 94, 0.35)",
-            "0 4px 14px rgba(34, 197, 94, 0.25)",
+            "0 4px 14px rgba(34, 197, 94, 0.3)",
+            "0 8px 28px rgba(34, 197, 94, 0.5)",
+            "0 6px 20px rgba(34, 197, 94, 0.4)",
+            "0 8px 28px rgba(34, 197, 94, 0.5)",
+            "0 4px 14px rgba(34, 197, 94, 0.3)",
           ],
         }}
         whileTap={{ scale: 0.96 }}
         transition={{
-          duration: 4,
+          duration: 2.5,
           repeat: Infinity,
           ease: "easeInOut",
         }}
@@ -92,16 +94,18 @@ export default function FloatingContactBadges() {
           transition: { duration: 0.4, ease: [0.4, 0.0, 0.2, 1] },
         }}
         animate={{
-          scale: [1, 1.02, 1],
+          scale: [1, 1.1, 1.05, 1.1, 1],
           boxShadow: [
-            "0 4px 14px rgba(255, 255, 255, 0.3)",
-            "0 6px 20px rgba(255, 255, 255, 0.4)",
-            "0 4px 14px rgba(255, 255, 255, 0.3)",
+            "0 4px 14px rgba(255, 255, 255, 0.35)",
+            "0 8px 28px rgba(255, 255, 255, 0.55)",
+            "0 6px 20px rgba(255, 255, 255, 0.45)",
+            "0 8px 28px rgba(255, 255, 255, 0.55)",
+            "0 4px 14px rgba(255, 255, 255, 0.35)",
           ],
         }}
         whileTap={{ scale: 0.96 }}
         transition={{
-          duration: 4,
+          duration: 2.5,
           repeat: Infinity,
           ease: "easeInOut",
         }}

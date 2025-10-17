@@ -1,3 +1,11 @@
+[x] 108. ENHANCED FLOATING CONTACT BADGES ANIMATION - Made WhatsApp and JustDial badges more eye-catching (October 17, 2025)
+  - [x] Enhanced scale animation: grows to 1.1x (10% larger) instead of 1.02x
+  - [x] Added rhythmic pulsing pattern: [1, 1.1, 1.05, 1.1, 1] for heartbeat effect
+  - [x] Increased shadow intensity: more prominent glow effects
+  - [x] Faster animation: 2.5 seconds instead of 4 seconds for better visibility
+  - [x] Removed mistaken animation from search badges (kept them static)
+  - [x] Contact badges now effectively catch users' attention
+
 [x] 107. REPLACED POPULAR SEARCHES WITH RECENT SEARCHES - Implemented smart search history feature (October 16, 2025)
   - [x] Removed popular/suggestions search feature
   - [x] Implemented recent searches functionality using localStorage
