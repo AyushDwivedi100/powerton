@@ -66,7 +66,7 @@ export default function Header() {
 
   // Product Groups Popup State
   const [hoveredSubcategory, setHoveredSubcategory] = useState<string | null>(
-    null
+    null,
   );
   const [popupPosition, setPopupPosition] = useState({ x: 0, y: 0 });
   // Use refs instead of state for timers to prevent re-renders and race conditions
@@ -113,7 +113,7 @@ export default function Header() {
   const openWithDelay = (
     timerRef: React.MutableRefObject<number | null>,
     ms: number,
-    fn: () => void
+    fn: () => void,
   ) => {
     clearTimer(timerRef);
     timerRef.current = window.setTimeout(fn, ms);
@@ -122,7 +122,7 @@ export default function Header() {
   const closeWithDelay = (
     timerRef: React.MutableRefObject<number | null>,
     ms: number,
-    fn: () => void
+    fn: () => void,
   ) => {
     clearTimer(timerRef);
     timerRef.current = window.setTimeout(fn, ms);
@@ -234,7 +234,7 @@ export default function Header() {
   // Hover and focus handlers for product groups popup
   const handleSubcategoryHover = (
     subcategoryId: string,
-    event: React.MouseEvent | React.FocusEvent
+    event: React.MouseEvent | React.FocusEvent,
   ) => {
     // Don't show popup if navigation is locked
     if (navigationLockRef.current) return;
@@ -436,7 +436,7 @@ export default function Header() {
           <motion.div
             className={cn(
               "flex items-center gap-4 sm:gap-6 md:gap-8 flex-wrap flex-safe",
-              rtl.justifyStart
+              rtl.justifyStart,
             )}
             initial="hidden"
             animate="visible"
@@ -526,7 +526,7 @@ export default function Header() {
               <button
                 data-testid="button-open-search"
                 onClick={() => setIsSearchOpen(true)}
-                className="p-1 rounded-md bg-accent/10 hover:bg-accent/20 transition-colors text-foreground hover:text-secondary"
+                className="p-1 rounded-md bg-accent/10 hover:bg-accent/20 transition-colors text-white hover:text-secondary"
                 aria-label={t("common:buttons.search")}
               >
                 <Search className="h-5 w-5" />
@@ -778,8 +778,8 @@ export default function Header() {
                                       {String(
                                         t(
                                           `products:items.${product.id}`,
-                                          product.title
-                                        )
+                                          product.title,
+                                        ),
                                       )}
                                     </div>
                                   </Link>
@@ -795,7 +795,7 @@ export default function Header() {
                                             onPointerEnter={(e) =>
                                               handleSubcategoryHover(
                                                 subcategory.id,
-                                                e
+                                                e,
                                               )
                                             }
                                             onPointerLeave={(e) =>
@@ -815,7 +815,7 @@ export default function Header() {
                                               onFocus={(e) =>
                                                 handleSubcategoryHover(
                                                   subcategory.id,
-                                                  e
+                                                  e,
                                                 )
                                               }
                                               onBlur={handleSubcategoryBlur}
@@ -826,13 +826,13 @@ export default function Header() {
                                                 {String(
                                                   t(
                                                     `products:subcategories.${subcategory.id}.title`,
-                                                    subcategory.title
-                                                  )
+                                                    subcategory.title,
+                                                  ),
                                                 )}
                                               </div>
                                             </Link>
                                           </div>
-                                        )
+                                        ),
                                       )}
                                     </div>
                                   )}
@@ -877,12 +877,12 @@ export default function Header() {
                             <div className="p-4 max-h-[500px] overflow-y-auto">
                               <div className="space-y-2 ">
                                 {getProductGroupsBySubcategory(
-                                  hoveredSubcategory
+                                  hoveredSubcategory,
                                 ).map((group) => (
                                   <Link
                                     key={group.key}
                                     href={`/products/${getParentCategoryBySubcategoryKey(
-                                      group.subcategoryKey
+                                      group.subcategoryKey,
                                     )}/${group.subcategoryKey}/${group.slug}`}
                                     className="flex items-center gap-3 p-3 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors group border-rounded border-transparent hover:border-gray-200 dark:hover:border-gray-700 bg-blue-500/10 dark:bg-blue-900/20"
                                     onClick={() => {
@@ -1075,7 +1075,7 @@ export default function Header() {
                                 onClick={(e) => {
                                   e.stopPropagation();
                                   setIsMobileServicesOpen(
-                                    !isMobileServicesOpen
+                                    !isMobileServicesOpen,
                                   );
                                 }}
                               >
@@ -1141,7 +1141,7 @@ export default function Header() {
                                 onClick={(e) => {
                                   e.stopPropagation();
                                   setIsMobileProductsOpen(
-                                    !isMobileProductsOpen
+                                    !isMobileProductsOpen,
                                   );
                                 }}
                               >
@@ -1183,8 +1183,8 @@ export default function Header() {
                                           {String(
                                             t(
                                               `products:items.${product.id}`,
-                                              product.title
-                                            )
+                                              product.title,
+                                            ),
                                           )}
                                         </Link>
 
@@ -1200,18 +1200,18 @@ export default function Header() {
                                                   onClick={() => {
                                                     setIsOpen(false);
                                                     setIsMobileProductsOpen(
-                                                      false
+                                                      false,
                                                     );
                                                   }}
                                                 >
                                                   {String(
                                                     t(
                                                       `products:subcategories.${subcategory.id}.title`,
-                                                      subcategory.title
-                                                    )
+                                                      subcategory.title,
+                                                    ),
                                                   )}
                                                 </Link>
-                                              )
+                                              ),
                                             )}
                                           </div>
                                         )}

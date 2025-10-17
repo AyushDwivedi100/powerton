@@ -1,10 +1,21 @@
 import { useState, useEffect, useMemo } from "react";
 import { useTranslation } from "react-i18next";
-import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/components/ui/dialog";
+import {
+  Dialog,
+  DialogContent,
+  DialogHeader,
+  DialogTitle,
+} from "@/components/ui/dialog";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from "@/components/ui/select";
 import { Search, X, Package, Layers, FolderOpen, Clock } from "lucide-react";
 import { searchAll, SearchResult } from "@/lib/searchUtils";
 import { Link } from "wouter";
@@ -31,10 +42,12 @@ const getRecentSearches = (): string[] => {
 
 const saveRecentSearch = (searchTerm: string) => {
   if (!searchTerm.trim() || searchTerm.trim().length < 2) return;
-  
+
   try {
     const recent = getRecentSearches();
-    const filtered = recent.filter(term => term.toLowerCase() !== searchTerm.toLowerCase());
+    const filtered = recent.filter(
+      (term) => term.toLowerCase() !== searchTerm.toLowerCase(),
+    );
     const updated = [searchTerm, ...filtered].slice(0, MAX_RECENT_SEARCHES);
     localStorage.setItem(RECENT_SEARCHES_KEY, JSON.stringify(updated));
   } catch {
@@ -46,7 +59,9 @@ export function SearchDialog({ open, onOpenChange }: SearchDialogProps) {
   const { t } = useTranslation(["common", "products"]);
   const [query, setQuery] = useState("");
   const [category, setCategory] = useState<string>("all");
-  const [sortBy, setSortBy] = useState<"relevance" | "name-az" | "name-za">("relevance");
+  const [sortBy, setSortBy] = useState<"relevance" | "name-az" | "name-za">(
+    "relevance",
+  );
   const [debouncedQuery, setDebouncedQuery] = useState("");
   const [recentSearches, setRecentSearches] = useState<string[]>([]);
 
@@ -80,12 +95,15 @@ export function SearchDialog({ open, onOpenChange }: SearchDialogProps) {
       return [];
     }
 
-    return searchAll({
-      query: debouncedQuery,
-      category: category === "all" ? undefined : category,
-      sortBy,
-      limit: 50
-    }, t);
+    return searchAll(
+      {
+        query: debouncedQuery,
+        category: category === "all" ? undefined : category,
+        sortBy,
+        limit: 50,
+      },
+      t,
+    );
   }, [debouncedQuery, category, sortBy, t]);
 
   // Get categories for filter
@@ -108,24 +126,24 @@ export function SearchDialog({ open, onOpenChange }: SearchDialogProps) {
     setQuery(searchTerm);
   };
 
-  const getResultIcon = (type: SearchResult['type']) => {
+  const getResultIcon = (type: SearchResult["type"]) => {
     switch (type) {
-      case 'product':
+      case "product":
         return <Package className="h-4 w-4" />;
-      case 'productGroup':
+      case "productGroup":
         return <Layers className="h-4 w-4" />;
-      case 'subcategory':
+      case "subcategory":
         return <FolderOpen className="h-4 w-4" />;
     }
   };
 
-  const getResultTypeLabel = (type: SearchResult['type']) => {
+  const getResultTypeLabel = (type: SearchResult["type"]) => {
     switch (type) {
-      case 'product':
+      case "product":
         return t("common:search.products");
-      case 'productGroup':
+      case "productGroup":
         return t("common:search.productGroups");
-      case 'subcategory':
+      case "subcategory":
         return t("common:search.subcategories");
     }
   };
@@ -134,7 +152,9 @@ export function SearchDialog({ open, onOpenChange }: SearchDialogProps) {
     <Dialog open={open} onOpenChange={onOpenChange}>
       <DialogContent className="max-w-3xl max-h-[85vh] p-0">
         <DialogHeader className="px-6 pt-6 pb-4 border-b">
-          <DialogTitle className="text-2xl">{t("common:search.searchProducts")}</DialogTitle>
+          <DialogTitle className="text-2xl">
+            {t("common:search.searchProducts")}
+          </DialogTitle>
         </DialogHeader>
 
         <div className="px-6 py-4 space-y-4">
@@ -164,11 +184,18 @@ export function SearchDialog({ open, onOpenChange }: SearchDialogProps) {
           {/* Filters */}
           <div className="flex gap-3 flex-wrap">
             <Select value={category} onValueChange={setCategory}>
-              <SelectTrigger data-testid="select-category-filter" className="w-[200px]">
-                <SelectValue placeholder={t("common:search.filterByCategory")} />
+              <SelectTrigger
+                data-testid="select-category-filter"
+                className="w-[200px]"
+              >
+                <SelectValue
+                  placeholder={t("common:search.filterByCategory")}
+                />
               </SelectTrigger>
               <SelectContent>
-                <SelectItem value="all">{t("common:search.allCategories")}</SelectItem>
+                <SelectItem value="all">
+                  {t("common:search.allCategories")}
+                </SelectItem>
                 {categories.map((cat) => (
                   <SelectItem key={cat.id} value={cat.id}>
                     {cat.title}
@@ -177,14 +204,23 @@ export function SearchDialog({ open, onOpenChange }: SearchDialogProps) {
               </SelectContent>
             </Select>
 
-            <Select value={sortBy} onValueChange={(val) => setSortBy(val as any)}>
+            <Select
+              value={sortBy}
+              onValueChange={(val) => setSortBy(val as any)}
+            >
               <SelectTrigger data-testid="select-sort-by" className="w-[180px]">
                 <SelectValue placeholder={t("common:search.sortBy")} />
               </SelectTrigger>
               <SelectContent>
-                <SelectItem value="relevance">{t("common:search.relevance")}</SelectItem>
-                <SelectItem value="name-az">{t("common:search.nameAZ")}</SelectItem>
-                <SelectItem value="name-za">{t("common:search.nameZA")}</SelectItem>
+                <SelectItem value="relevance">
+                  {t("common:search.relevance")}
+                </SelectItem>
+                <SelectItem value="name-az">
+                  {t("common:search.nameAZ")}
+                </SelectItem>
+                <SelectItem value="name-za">
+                  {t("common:search.nameZA")}
+                </SelectItem>
               </SelectContent>
             </Select>
           </div>
@@ -194,18 +230,20 @@ export function SearchDialog({ open, onOpenChange }: SearchDialogProps) {
             <div className="space-y-3">
               <div className="flex items-center gap-2">
                 <Clock className="h-4 w-4 text-muted-foreground" />
-                <p className="text-sm font-medium text-muted-foreground">{t("common:search.recentSearches")}:</p>
+                <p className="text-sm font-medium text-muted-foreground">
+                  {t("common:search.recentSearches")}:
+                </p>
               </div>
               <div className="flex flex-wrap gap-2">
                 {recentSearches.map((recentSearch, index) => (
                   <button
                     key={`${recentSearch}-${index}`}
                     onClick={() => handleRecentSearchClick(recentSearch)}
-                    data-testid={`recent-search-${recentSearch.toLowerCase().replace(/\s+/g, '-')}`}
+                    data-testid={`recent-search-${recentSearch.toLowerCase().replace(/\s+/g, "-")}`}
                     className="group relative px-3 py-1.5 rounded-full text-xs font-medium transition-all duration-200 
                       bg-muted/60 hover:bg-primary/10 
                       border border-border/50 hover:border-primary/40
-                      text-foreground/70 hover:text-primary
+                      text-foreground/70 hover:text-secondary
                       hover:shadow-sm hover:scale-[1.02] active:scale-95"
                   >
                     <span className="relative z-10">{recentSearch}</span>
@@ -220,9 +258,14 @@ export function SearchDialog({ open, onOpenChange }: SearchDialogProps) {
         {debouncedQuery.trim().length >= 2 && (
           <div className="px-6 pb-6">
             <div className="mb-3">
-              <p className="text-sm text-muted-foreground" data-testid="text-results-count">
+              <p
+                className="text-sm text-muted-foreground"
+                data-testid="text-results-count"
+              >
                 {searchResults.length > 0
-                  ? t("common:search.showingResults", { count: searchResults.length })
+                  ? t("common:search.showingResults", {
+                      count: searchResults.length,
+                    })
                   : t("common:search.noResultsFound")}
               </p>
             </div>
@@ -230,7 +273,9 @@ export function SearchDialog({ open, onOpenChange }: SearchDialogProps) {
             <div className="h-[400px] pr-4 overflow-y-auto">
               {searchResults.length === 0 ? (
                 <div className="text-center py-12">
-                  <p className="text-muted-foreground">{t("common:search.noResultsMessage")}</p>
+                  <p className="text-muted-foreground">
+                    {t("common:search.noResultsMessage")}
+                  </p>
                 </div>
               ) : (
                 <div className="space-y-3">
@@ -248,7 +293,7 @@ export function SearchDialog({ open, onOpenChange }: SearchDialogProps) {
                         {result.image && (
                           <div className="flex-shrink-0 w-20 h-20 rounded-md overflow-hidden bg-muted">
                             <img
-                              src={getProductImageSrc(result.image) || ''}
+                              src={getProductImageSrc(result.image) || ""}
                               alt={result.title}
                               className="w-full h-full object-cover group-hover:scale-105 transition-transform"
                             />
@@ -258,7 +303,10 @@ export function SearchDialog({ open, onOpenChange }: SearchDialogProps) {
                         {/* Content */}
                         <div className="flex-1 min-w-0">
                           <div className="flex items-start gap-2 mb-1">
-                            <Badge variant="outline" className="flex items-center gap-1 text-xs">
+                            <Badge
+                              variant="outline"
+                              className="flex items-center gap-1 text-xs"
+                            >
                               {getResultIcon(result.type)}
                               {getResultTypeLabel(result.type)}
                             </Badge>
