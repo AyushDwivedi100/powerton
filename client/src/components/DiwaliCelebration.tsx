@@ -6,12 +6,12 @@ export default function DiwaliCelebration() {
   const [showMessage, setShowMessage] = useState(false);
 
   useEffect(() => {
-    // Show the message after firecrackers animation starts
+    // Show the message when firecrackers burst (at their peak)
     const messageTimer = setTimeout(() => {
       setShowMessage(true);
-    }, 1000);
+    }, 2000); // Timed to match when firecrackers reach peak and burst
 
-    // Hide everything after 5 seconds
+    // Hide everything after 5 seconds (shorter duration)
     const hideTimer = setTimeout(() => {
       setShow(false);
     }, 5000);
@@ -33,7 +33,7 @@ export default function DiwaliCelebration() {
 
   const firecrackers = Array.from({ length: getFirecrackerCount() }, (_, i) => ({
     id: i,
-    delay: Math.random() * 0.5,
+    delay: Math.random() * 1.5, // Increased delay spread for more staggered effect
     x: 10 + Math.random() * 80, // Keep within 10-90% to avoid edges
     color: [
       "#FFD700", // Gold
@@ -62,12 +62,12 @@ export default function DiwaliCelebration() {
             }}
             initial={{ y: 0, opacity: 0, scale: 0 }}
             animate={{
-              y: [-50, -250, -350], // Reduced for mobile screens
+              y: [-100, -400, -600], // Increased to reach middle/upper screen
               opacity: [0, 1, 0],
               scale: [0, 1.5, 0],
             }}
             transition={{
-              duration: 2,
+              duration: 3.5, // Slowed down from 2 to 3.5 seconds
               delay: cracker.delay,
               ease: "easeOut",
             }}
@@ -83,14 +83,14 @@ export default function DiwaliCelebration() {
             
             {/* Trail effect */}
             <motion.div
-              className="absolute top-0 left-1/2 -translate-x-1/2 w-1 h-12 sm:h-20"
+              className="absolute top-0 left-1/2 -translate-x-1/2 w-1 h-16 sm:h-24 md:h-32"
               style={{
                 background: `linear-gradient(to bottom, ${cracker.color}, transparent)`,
                 filter: "blur(1px)",
               }}
               initial={{ scaleY: 0, opacity: 0 }}
               animate={{ scaleY: 1, opacity: [0, 1, 0] }}
-              transition={{ duration: 1.5, delay: cracker.delay }}
+              transition={{ duration: 2.5, delay: cracker.delay }} // Slowed down trail
             />
           </motion.div>
         ))}
