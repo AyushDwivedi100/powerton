@@ -150,14 +150,14 @@ export function SearchDialog({ open, onOpenChange }: SearchDialogProps) {
 
   return (
     <Dialog open={open} onOpenChange={onOpenChange}>
-      <DialogContent className="max-w-3xl max-h-[85vh] p-0">
-        <DialogHeader className="px-6 pt-6 pb-4 border-b">
+      <DialogContent className="max-w-3xl max-h-[90vh] p-0 flex flex-col">
+        <DialogHeader className="px-6 pt-6 pb-4 border-b flex-shrink-0">
           <DialogTitle className="text-2xl">
             {t("common:search.searchProducts")}
           </DialogTitle>
         </DialogHeader>
 
-        <div className="px-6 py-4 space-y-4">
+        <div className="px-6 py-4 space-y-4 flex-shrink-0">
           {/* Search Input */}
           <div className="relative">
             <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 h-5 w-5 text-muted-foreground" />
@@ -256,8 +256,8 @@ export function SearchDialog({ open, onOpenChange }: SearchDialogProps) {
 
         {/* Results */}
         {debouncedQuery.trim().length >= 2 && (
-          <div className="px-6 pb-6">
-            <div className="mb-3">
+          <div className="px-6 pb-6 flex-1 flex flex-col min-h-0">
+            <div className="mb-3 flex-shrink-0">
               <p
                 className="text-sm text-muted-foreground"
                 data-testid="text-results-count"
@@ -270,7 +270,7 @@ export function SearchDialog({ open, onOpenChange }: SearchDialogProps) {
               </p>
             </div>
 
-            <div className="h-[400px] pr-4 overflow-y-auto">
+            <div className="flex-1 pr-4 overflow-y-auto min-h-0">
               {searchResults.length === 0 ? (
                 <div className="text-center py-12">
                   <p className="text-muted-foreground">
