@@ -25,12 +25,49 @@ interface SearchOptions {
 }
 
 /**
- * Calculate relevance score based on query match
+ * Calculate string similarity using Levenshtein distance (fuzzy matching)
+ */
+function calculateSimilarity(str1: string, str2: string): number {
+  const len1 = str1.length;
+  const len2 = str2.length;
+  
+  if (len1 === 0) return len2;
+  if (len2 === 0) return len1;
+  
+  const matrix: number[][] = [];
+  
+  for (let i = 0; i <= len1; i++) {
+    matrix[i] = [i];
+  }
+  
+  for (let j = 0; j <= len2; j++) {
+    matrix[0][j] = j;
+  }
+  
+  for (let i = 1; i <= len1; i++) {
+    for (let j = 1; j <= len2; j++) {
+      const cost = str1[i - 1] === str2[j - 1] ? 0 : 1;
+      matrix[i][j] = Math.min(
+        matrix[i - 1][j] + 1,
+        matrix[i][j - 1] + 1,
+        matrix[i - 1][j - 1] + cost
+      );
+    }
+  }
+  
+  const distance = matrix[len1][len2];
+  const maxLen = Math.max(len1, len2);
+  return ((maxLen - distance) / maxLen) * 100;
+}
+
+/**
+ * Calculate relevance score based on query match with fuzzy matching
  */
 function calculateRelevance(searchText: string, query: string): number {
   const lowerSearchText = searchText.toLowerCase();
   const lowerQuery = query.toLowerCase();
-  const queryWords = lowerQuery.split(' ').filter(w => w.length > 0);
+  const queryWords = lowerQuery.split(/\s+/).filter(w => w.length > 0);
+  const searchWords = lowerSearchText.split(/\s+/).filter(w => w.length > 0);
   
   let score = 0;
   
@@ -49,14 +86,60 @@ function calculateRelevance(searchText: string, query: string): number {
     score += 30;
   }
   
-  // Word matches
-  queryWords.forEach(word => {
-    if (lowerSearchText.includes(word)) {
-      score += 10;
+  // Word-by-word matching with fuzzy search
+  queryWords.forEach(queryWord => {
+    let bestMatch = 0;
+    
+    // Exact word match
+    if (lowerSearchText.includes(queryWord)) {
+      score += 15;
     }
-    if (lowerSearchText.split(' ').includes(word)) {
-      score += 5;
-    }
+    
+    // Check if query word is part of any search word
+    searchWords.forEach(searchWord => {
+      // Exact word match
+      if (searchWord === queryWord) {
+        score += 10;
+      }
+      // Starts with query word
+      else if (searchWord.startsWith(queryWord)) {
+        score += 8;
+      }
+      // Contains query word
+      else if (searchWord.includes(queryWord)) {
+        score += 6;
+      }
+      // Fuzzy match for typos (only for words 4+ characters)
+      else if (queryWord.length >= 4) {
+        const similarity = calculateSimilarity(searchWord, queryWord);
+        
+        // High similarity (80%+) - likely a typo
+        if (similarity >= 80) {
+          bestMatch = Math.max(bestMatch, 7);
+        }
+        // Medium similarity (70-80%) - possible match
+        else if (similarity >= 70) {
+          bestMatch = Math.max(bestMatch, 5);
+        }
+        // Low similarity (60-70%) - weak match
+        else if (similarity >= 60) {
+          bestMatch = Math.max(bestMatch, 3);
+        }
+      }
+      
+      // Partial word matching (for compound words)
+      if (queryWord.length >= 3) {
+        for (let i = 0; i <= searchWord.length - queryWord.length; i++) {
+          const substring = searchWord.substring(i, i + queryWord.length);
+          if (substring === queryWord) {
+            score += 4;
+            break;
+          }
+        }
+      }
+    });
+    
+    score += bestMatch;
   });
   
   return score;
