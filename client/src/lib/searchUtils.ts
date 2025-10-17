@@ -81,17 +81,38 @@ function searchProducts(query: string, t: TFunction, categoryFilter?: string, su
       ? t(product.translationKeys.description)
       : product.description || '';
     
-    // Search in title, description, and specs
-    let searchableText = `${title} ${description}`;
+    // Get manufacturer for enhanced search
+    const manufacturer = product.specs?.manufacturer as string || '';
+    const model = product.specs?.model as string || '';
     
-    // Add specs to searchable text
+    // Search in title, description, manufacturer, model, and specs
+    let searchableText = `${title} ${description} ${manufacturer} ${model}`;
+    
+    // Add all specs to searchable text
     if (product.specs) {
       Object.entries(product.specs).forEach(([key, value]) => {
         searchableText += ` ${key} ${value}`;
       });
     }
     
-    const relevanceScore = calculateRelevance(searchableText, query);
+    // Calculate base relevance score
+    let relevanceScore = calculateRelevance(searchableText, query);
+    
+    // Boost score if manufacturer matches (manufacturers are important search criteria)
+    if (manufacturer) {
+      const manufacturerScore = calculateRelevance(manufacturer, query);
+      if (manufacturerScore > 0) {
+        relevanceScore += manufacturerScore * 1.5; // 1.5x boost for manufacturer matches
+      }
+    }
+    
+    // Boost score if model matches
+    if (model) {
+      const modelScore = calculateRelevance(model, query);
+      if (modelScore > 0) {
+        relevanceScore += modelScore * 1.3; // 1.3x boost for model matches
+      }
+    }
     
     if (relevanceScore > 0) {
       results.push({
@@ -103,8 +124,8 @@ function searchProducts(query: string, t: TFunction, categoryFilter?: string, su
         url: `/products/${product.categoryKey}/${product.subcategoryKey}/${product.typeKey}/${product.slug}`,
         category: product.categoryKey,
         subcategory: product.subcategoryKey,
-        manufacturer: product.specs?.manufacturer as string,
-        model: product.specs?.model as string,
+        manufacturer: manufacturer,
+        model: model,
         relevanceScore
       });
     }
