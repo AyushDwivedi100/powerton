@@ -55,12 +55,28 @@ html {
   }
 }
 
+/* Subtle pulse animation for search badges */
+@keyframes pulse-subtle {
+  0%, 100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.85;
+    transform: scale(1.03);
+  }
+}
+
 .animate-infinite-scroll {
   animation: infinite-scroll 40s linear infinite;
 }
 
 .animate-infinite-scroll-rtl {
   animation: infinite-scroll-rtl 40s linear infinite;
+}
+
+.animate-pulse-subtle {
+  animation: pulse-subtle 2s ease-in-out infinite;
 }
 
 .animate-infinite-scroll.paused,

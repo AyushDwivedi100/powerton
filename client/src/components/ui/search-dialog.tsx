@@ -206,7 +206,9 @@ export function SearchDialog({ open, onOpenChange }: SearchDialogProps) {
                       bg-muted/60 hover:bg-primary/10 
                       border border-border/50 hover:border-primary/40
                       text-foreground/70 hover:text-primary
-                      hover:shadow-sm hover:scale-[1.02] active:scale-95"
+                      hover:shadow-sm hover:scale-[1.02] active:scale-95
+                      animate-pulse-subtle"
+                    style={{ animationDelay: `${index * 100}ms` }}
                   >
                     <span className="relative z-10">{recentSearch}</span>
                   </button>
