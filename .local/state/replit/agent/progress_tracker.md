@@ -3,8 +3,13 @@
   - [x] Added rhythmic pulsing pattern: [1, 1.1, 1.05, 1.1, 1] for heartbeat effect
   - [x] Increased shadow intensity: more prominent glow effects
   - [x] Faster animation: 2.5 seconds instead of 4 seconds for better visibility
+  - [x] Added ripple effect: expanding circles radiating outward from badges
+  - [x] Two ripple waves per badge with staggered timing (0.7s delay)
+  - [x] Ripples scale to 2.5x size and fade out smoothly (1.4s duration)
+  - [x] WhatsApp badge: green ripples (rgba green-500/30)
+  - [x] JustDial badge: white ripples (rgba white/40)
   - [x] Removed mistaken animation from search badges (kept them static)
-  - [x] Contact badges now effectively catch users' attention
+  - [x] Contact badges now effectively catch users' attention with pulsing and ripples
 
 [x] 107. REPLACED POPULAR SEARCHES WITH RECENT SEARCHES - Implemented smart search history feature (October 16, 2025)
   - [x] Removed popular/suggestions search feature
