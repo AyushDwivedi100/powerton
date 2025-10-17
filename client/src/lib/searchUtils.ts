@@ -147,7 +147,7 @@ function searchProductGroups(query: string, t: TFunction, categoryFilter?: strin
         title,
         description: description.slice(0, 150) + (description.length > 150 ? '...' : ''),
         image: group.image,
-        url: `/products/${categorySlug}/${group.subcategoryKey}#${group.slug}`,
+        url: `/products/${categorySlug}/${group.subcategoryKey}/${group.slug}`,
         subcategory: group.subcategoryKey,
         relevanceScore
       });
@@ -268,7 +268,9 @@ export function searchAll(options: SearchOptions, t: TFunction): SearchResult[] 
   // Manage cache size - remove oldest entry if cache is too large
   if (searchCache.size > CACHE_MAX_SIZE) {
     const firstKey = searchCache.keys().next().value;
-    searchCache.delete(firstKey);
+    if (firstKey) {
+      searchCache.delete(firstKey);
+    }
   }
   
   // Periodically clear expired entries

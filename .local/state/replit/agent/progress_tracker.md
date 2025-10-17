@@ -1,3 +1,9 @@
+[x] 109. FIXED SEARCH TO INCLUDE PRODUCT GROUP PAGES - Enhanced search navigation (October 17, 2025)
+  - [x] Fixed product group search results to link to dedicated product group pages
+  - [x] Changed URL format from `/products/{category}/{subcategory}#{group}` to `/products/{category}/{subcategory}/{group}`
+  - [x] Search now properly navigates to: category pages, subcategory pages, product group pages, and individual products
+  - [x] Fixed TypeScript error in search cache management (added null check for firstKey)
+
 [x] 108. ENHANCED FLOATING CONTACT BADGES ANIMATION - Made WhatsApp and JustDial badges more eye-catching (October 17, 2025)
   - [x] Enhanced scale animation: grows to 1.1x (10% larger) instead of 1.02x
   - [x] Added rhythmic pulsing pattern: [1, 1.1, 1.05, 1.1, 1] for heartbeat effect
