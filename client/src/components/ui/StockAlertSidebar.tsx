@@ -108,7 +108,7 @@ export function StockAlertSidebar({ isOpen, onToggle, headerHeight = 0 }: StockA
             animate={{ x: 0 }}
             exit={{ x: "-100%" }}
             transition={{ type: "spring", damping: 25, stiffness: 200 }}
-            className="w-80 lg:w-96 bg-background border-r-4 border-primary shadow-xl sticky self-start overflow-y-auto"
+            className="fixed left-0 w-80 lg:w-96 bg-background border-r-4 border-primary shadow-xl overflow-y-auto z-40"
             style={{
               top: `${headerHeight}px`,
               maxHeight: `calc(100vh - ${headerHeight}px)`
@@ -231,7 +231,7 @@ export function StockAlertSidebar({ isOpen, onToggle, headerHeight = 0 }: StockA
       {/* Toggle Button - Moves with drawer */}
       <motion.button
         onClick={onToggle}
-        className="fixed top-1/2 -translate-y-1/2 z-50 bg-primary text-primary-foreground p-3 shadow-lg hover:bg-primary/90 transition-colors rounded-r-lg"
+        className="fixed top-1/2 -translate-y-1/2 z-[100] bg-primary text-primary-foreground p-3 shadow-lg hover:bg-primary/90 transition-colors rounded-r-lg"
         style={{ top: `calc(50% + ${headerHeight}px / 2)` }}
         animate={{ 
           left: isOpen ? 'var(--drawer-width)' : '0px',
@@ -240,6 +240,7 @@ export function StockAlertSidebar({ isOpen, onToggle, headerHeight = 0 }: StockA
         whileHover={{ scale: 1.05 }}
         whileTap={{ scale: 0.95 }}
         data-testid="button-toggle-drawer"
+        aria-label={isOpen ? "Close stock alert sidebar" : "Open stock alert sidebar"}
       >
         {isOpen ? <ChevronLeft className="h-5 w-5" /> : <ChevronRight className="h-5 w-5" />}
         <style>{`
