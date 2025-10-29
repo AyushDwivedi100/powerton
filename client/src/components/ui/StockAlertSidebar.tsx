@@ -102,21 +102,22 @@ export function StockAlertSidebar({ isOpen, onToggle, headerHeight = 0 }: StockA
       {/* Drawer */}
       <AnimatePresence>
         {isOpen && (
-          <motion.aside
-            ref={sidebarRef}
+          <motion.div
             initial={{ x: "-100%" }}
             animate={{ x: 0 }}
             exit={{ x: "-100%" }}
             transition={{ type: "spring", damping: 25, stiffness: 200 }}
-            className="fixed left-0 w-80 lg:w-96 bg-background border-r-4 border-primary shadow-xl z-50 overflow-y-auto transition-all duration-300"
+            className="fixed left-0 w-80 lg:w-96 z-50"
             style={{
               top: `${headerHeight}px`,
-              bottom: `${footerOffset}px`,
-              height: 'auto',
-              maxHeight: `calc(100vh - ${headerHeight}px - ${footerOffset}px)`
+              height: `calc(100vh - ${headerHeight}px)`
             }}
-            data-testid="aside-stock-alert"
           >
+            <aside
+              ref={sidebarRef}
+              className="h-full bg-background border-r-4 border-primary shadow-xl overflow-y-auto"
+              data-testid="aside-stock-alert"
+            >
 
             <div className="p-4 space-y-4">
               <div className="text-center">
@@ -226,7 +227,8 @@ export function StockAlertSidebar({ isOpen, onToggle, headerHeight = 0 }: StockA
                 </p>
               </div>
             </div>
-          </motion.aside>
+            </aside>
+          </motion.div>
         )}
       </AnimatePresence>
 
