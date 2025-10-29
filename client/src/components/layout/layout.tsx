@@ -56,11 +56,12 @@ export default function Layout({ children }: LayoutProps) {
           isOpen={isSidebarOpen} 
           onToggle={toggleSidebar}
           headerHeight={headerHeight}
+          position="top"
         />
 
         <main
           id="main-content"
-          className="flex-1 transition-all duration-300 ease-in-out"
+          className="flex-1 transition-all duration-300 ease-in-out relative"
           style={{
             marginLeft: isSidebarOpen ? 'var(--drawer-width, 320px)' : '0px'
           }}
@@ -68,6 +69,14 @@ export default function Layout({ children }: LayoutProps) {
           aria-label="Main content area"
         >
           {children}
+          
+          {/* Bottom Sidebar - Creates illusion of upward movement */}
+          <StockAlertSidebar 
+            isOpen={isSidebarOpen} 
+            onToggle={toggleSidebar}
+            headerHeight={headerHeight}
+            position="bottom"
+          />
         </main>
       </div>
       <style>{`

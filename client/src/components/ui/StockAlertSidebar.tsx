@@ -9,32 +9,35 @@ interface StockAlertSidebarProps {
   isOpen: boolean;
   onToggle: () => void;
   headerHeight?: number;
+  position?: 'top' | 'bottom';
 }
 
-export function StockAlertSidebar({ isOpen, onToggle, headerHeight = 0 }: StockAlertSidebarProps) {
+export function StockAlertSidebar({ isOpen, onToggle, headerHeight = 0, position = 'top' }: StockAlertSidebarProps) {
   const [currentIndex, setCurrentIndex] = useState(0);
-  const [footerOffset, setFooterOffset] = useState(0);
+  const [footerVisible, setFooterVisible] = useState(0); // 0 to 1, representing footer visibility
   const sidebarRef = useRef<HTMLElement>(null);
 
   const stockProducts = getNewestProducts(6);
   const showSidebar = shouldShowPopup();
 
-  // Detect footer visibility and adjust sidebar position
+  // Detect footer visibility for smooth transition
   useEffect(() => {
     const handleScroll = () => {
       const footer = document.querySelector('footer');
-      if (!footer || !sidebarRef.current) return;
+      if (!footer) return;
 
       const footerRect = footer.getBoundingClientRect();
       const viewportHeight = window.innerHeight;
+      const triggerPoint = viewportHeight * 0.8; // Start transition when footer is 80% into view
 
-      // If footer is visible in viewport
-      if (footerRect.top < viewportHeight) {
-        // Calculate how much the footer is overlapping with where the sidebar should be
-        const overlap = viewportHeight - footerRect.top;
-        setFooterOffset(overlap);
+      if (footerRect.top < viewportHeight && footerRect.top > 0) {
+        // Footer is entering viewport
+        const visibility = Math.max(0, Math.min(1, (viewportHeight - footerRect.top) / (viewportHeight - triggerPoint)));
+        setFooterVisible(visibility);
+      } else if (footerRect.top <= 0) {
+        setFooterVisible(1);
       } else {
-        setFooterOffset(0);
+        setFooterVisible(0);
       }
     };
 
@@ -83,38 +86,68 @@ export function StockAlertSidebar({ isOpen, onToggle, headerHeight = 0 }: StockA
 
   if (!showSidebar || stockProducts.length === 0) return null;
 
+  // Calculate opacity and visibility based on position and footer visibility
+  const topOpacity = position === 'top' ? (1 - footerVisible) : 0;
+  const bottomOpacity = position === 'bottom' ? footerVisible : 0;
+  const shouldRender = position === 'top' ? topOpacity > 0.01 : bottomOpacity > 0.01;
+
+  // Only render backdrop for top sidebar
+  const showBackdrop = position === 'top';
+  
+  // Only render toggle button for top sidebar
+  const showToggleButton = position === 'top';
+
   return (
     <>
-      {/* Backdrop */}
-      <AnimatePresence>
-        {isOpen && (
-          <motion.div
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            exit={{ opacity: 0 }}
-            onClick={onToggle}
-            className="fixed inset-0 bg-black/20 z-40 lg:hidden"
-            data-testid="backdrop-drawer"
-          />
-        )}
-      </AnimatePresence>
+      {/* Backdrop - Only for top sidebar */}
+      {showBackdrop && (
+        <AnimatePresence>
+          {isOpen && (
+            <motion.div
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              exit={{ opacity: 0 }}
+              onClick={onToggle}
+              className="absolute inset-0 bg-black/20 z-30 lg:hidden"
+              data-testid="backdrop-drawer"
+            />
+          )}
+        </AnimatePresence>
+      )}
 
       {/* Drawer */}
       <AnimatePresence>
-        {isOpen && (
+        {isOpen && shouldRender && (
           <motion.aside
             ref={sidebarRef}
             initial={{ x: "-100%" }}
             animate={{ x: 0 }}
             exit={{ x: "-100%" }}
             transition={{ type: "spring", damping: 25, stiffness: 200 }}
-            className="fixed left-0 w-80 lg:w-96 bg-background border-r-4 border-primary shadow-xl overflow-hidden z-40 flex flex-col"
+            className={`absolute left-0 w-80 lg:w-96 bg-background border-r-4 border-primary shadow-xl overflow-hidden z-40 flex flex-col transition-all duration-300 ${
+              position === 'bottom' ? 'bottom-0' : 'top-0'
+            }`}
             style={{
-              top: `${headerHeight}px`,
-              height: `calc(100vh - ${headerHeight}px)`
+              opacity: position === 'top' ? topOpacity : bottomOpacity,
+              height: 'auto',
+              minHeight: position === 'top' ? '600px' : `${footerVisible * 600}px`,
+              maxHeight: position === 'top' 
+                ? `calc(100vh - ${footerVisible * 30}vh)` 
+                : `${footerVisible * 100}vh`
             }}
-            data-testid="aside-stock-alert"
+            data-testid={`aside-stock-alert-${position}`}
           >
+            {/* Close Button - Inside Drawer */}
+            <Button
+              onClick={onToggle}
+              variant="ghost"
+              size="icon"
+              className="absolute top-2 right-2 z-50 h-8 w-8 rounded-full bg-primary/10 hover:bg-primary/20 text-foreground"
+              data-testid="button-close-drawer"
+              aria-label="Close stock alert sidebar"
+            >
+              <ChevronLeft className="h-5 w-5" />
+            </Button>
 
             <div className="p-3 space-y-2.5 flex-1 flex flex-col justify-center">
               <div className="text-center">
@@ -228,32 +261,19 @@ export function StockAlertSidebar({ isOpen, onToggle, headerHeight = 0 }: StockA
         )}
       </AnimatePresence>
 
-      {/* Toggle Button - Moves with drawer */}
-      <motion.button
-        onClick={onToggle}
-        className="fixed top-1/2 -translate-y-1/2 z-[100] bg-primary text-primary-foreground p-3 shadow-lg hover:bg-primary/90 transition-colors rounded-r-lg"
-        style={{ top: `calc(50% + ${headerHeight}px / 2)` }}
-        animate={{ 
-          left: isOpen ? 'var(--drawer-width)' : '0px',
-        }}
-        transition={{ type: "spring", damping: 25, stiffness: 200 }}
-        whileHover={{ scale: 1.05 }}
-        whileTap={{ scale: 0.95 }}
-        data-testid="button-toggle-drawer"
-        aria-label={isOpen ? "Close stock alert sidebar" : "Open stock alert sidebar"}
-      >
-        {isOpen ? <ChevronLeft className="h-5 w-5" /> : <ChevronRight className="h-5 w-5" />}
-        <style>{`
-          :root {
-            --drawer-width: 320px;
-          }
-          @media (min-width: 1024px) {
-            :root {
-              --drawer-width: 384px;
-            }
-          }
-        `}</style>
-      </motion.button>
+      {/* Open Button - Shows when drawer is closed - Only for top sidebar */}
+      {showToggleButton && !isOpen && (
+        <motion.button
+          onClick={onToggle}
+          className="sticky left-0 top-1/2 -translate-y-1/2 z-[100] bg-primary text-primary-foreground px-1.5 py-2 shadow-lg hover:bg-primary/90 transition-all duration-300 rounded-r-md"
+          whileHover={{ scale: 1.05 }}
+          whileTap={{ scale: 0.95 }}
+          data-testid="button-open-drawer"
+          aria-label="Open stock alert sidebar"
+        >
+          <ChevronRight className="h-4 w-4" />
+        </motion.button>
+      )}
     </>
   );
 }
