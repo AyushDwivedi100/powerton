@@ -108,11 +108,11 @@ export function StockAlertSidebar({ isOpen, onToggle, headerHeight = 0 }: StockA
             animate={{ x: 0 }}
             exit={{ x: "-100%" }}
             transition={{ type: "spring", damping: 25, stiffness: 200 }}
-            className="fixed left-0 w-80 lg:w-96 bg-background border-r-4 border-primary shadow-xl z-50 overflow-y-auto"
+            className="fixed left-0 w-80 lg:w-96 bg-background border-r-4 border-primary shadow-xl z-50 overflow-y-auto transition-transform duration-300"
             style={{
               top: `${headerHeight}px`,
-              bottom: `${footerOffset}px`,
-              height: 'auto'
+              height: `calc(100vh - ${headerHeight}px)`,
+              transform: `translateY(-${footerOffset}px)`
             }}
             data-testid="aside-stock-alert"
           >
