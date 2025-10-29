@@ -51,7 +51,7 @@ export default function Layout({ children }: LayoutProps) {
 
       <Header />
 
-      <div className="flex flex-1">
+      <div className="flex flex-1 relative">
         <StockAlertSidebar 
           isOpen={isSidebarOpen} 
           onToggle={toggleSidebar}
@@ -60,13 +60,26 @@ export default function Layout({ children }: LayoutProps) {
 
         <main
           id="main-content"
-          className="flex-1"
+          className="flex-1 transition-all duration-300 ease-in-out"
+          style={{
+            marginLeft: isSidebarOpen ? 'var(--drawer-width, 320px)' : '0px'
+          }}
           role="main"
           aria-label="Main content area"
         >
           {children}
         </main>
       </div>
+      <style>{`
+        :root {
+          --drawer-width: 320px;
+        }
+        @media (min-width: 1024px) {
+          :root {
+            --drawer-width: 384px;
+          }
+        }
+      `}</style>
 
       <Footer />
 
