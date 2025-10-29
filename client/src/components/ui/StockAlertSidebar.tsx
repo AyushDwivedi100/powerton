@@ -85,20 +85,6 @@ export function StockAlertSidebar({ isOpen, onToggle, headerHeight = 0 }: StockA
 
   return (
     <>
-      {/* Toggle Button - Always visible */}
-      <motion.button
-        onClick={onToggle}
-        className={`fixed left-0 top-1/2 -translate-y-1/2 z-40 bg-primary text-primary-foreground p-3 rounded-r-lg shadow-lg hover:bg-primary/90 transition-colors ${
-          isOpen ? 'hidden' : 'block'
-        }`}
-        style={{ top: `calc(50% + ${headerHeight}px / 2)` }}
-        whileHover={{ scale: 1.05 }}
-        whileTap={{ scale: 0.95 }}
-        data-testid="button-toggle-drawer"
-      >
-        <ChevronRight className="h-5 w-5" />
-      </motion.button>
-
       {/* Backdrop */}
       <AnimatePresence>
         {isOpen && (
@@ -130,18 +116,6 @@ export function StockAlertSidebar({ isOpen, onToggle, headerHeight = 0 }: StockA
             }}
             data-testid="aside-stock-alert"
           >
-            {/* Close button inside drawer */}
-            <div className="sticky top-0 z-10 bg-background/95 backdrop-blur-sm border-b border-border p-2">
-              <Button
-                onClick={onToggle}
-                variant="ghost"
-                size="icon"
-                className="ml-auto block"
-                data-testid="button-close-drawer"
-              >
-                <ChevronLeft className="h-5 w-5" />
-              </Button>
-            </div>
 
             <div className="p-4 space-y-4">
               <div className="text-center">
@@ -254,6 +228,32 @@ export function StockAlertSidebar({ isOpen, onToggle, headerHeight = 0 }: StockA
           </motion.aside>
         )}
       </AnimatePresence>
+
+      {/* Toggle Button - Moves with drawer */}
+      <motion.button
+        onClick={onToggle}
+        className="fixed top-1/2 -translate-y-1/2 z-50 bg-primary text-primary-foreground p-3 shadow-lg hover:bg-primary/90 transition-colors rounded-r-lg"
+        style={{ top: `calc(50% + ${headerHeight}px / 2)` }}
+        animate={{ 
+          left: isOpen ? 'var(--drawer-width)' : '0px',
+        }}
+        transition={{ type: "spring", damping: 25, stiffness: 200 }}
+        whileHover={{ scale: 1.05 }}
+        whileTap={{ scale: 0.95 }}
+        data-testid="button-toggle-drawer"
+      >
+        {isOpen ? <ChevronLeft className="h-5 w-5" /> : <ChevronRight className="h-5 w-5" />}
+        <style>{`
+          :root {
+            --drawer-width: 320px;
+          }
+          @media (min-width: 1024px) {
+            :root {
+              --drawer-width: 384px;
+            }
+          }
+        `}</style>
+      </motion.button>
     </>
   );
 }
