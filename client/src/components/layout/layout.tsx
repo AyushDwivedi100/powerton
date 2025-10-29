@@ -60,23 +60,10 @@ export default function Layout({ children }: LayoutProps) {
 
         <main
           id="main-content"
-          className="flex-1 max-h-screen overflow-y-auto sticky top-0 transition-all duration-300"
-          style={{
-            marginLeft: isSidebarOpen ? 'var(--drawer-width, 320px)' : '0px',
-          }}
+          className="flex-1"
           role="main"
           aria-label="Main content area"
         >
-          <style>{`
-            :root {
-              --drawer-width: 320px;
-            }
-            @media (min-width: 1024px) {
-              :root {
-                --drawer-width: 384px;
-              }
-            }
-          `}</style>
           {children}
         </main>
       </div>
