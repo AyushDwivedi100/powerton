@@ -1,0 +1,326 @@
+{
+  "contact": {
+    "fields": {
+      "name": {
+        "label": "Cikakken Suna",
+        "placeholder": "Shigar da cikakken sunanka",
+        "error": "Suna ya zama dole"
+      },
+      "email": {
+        "label": "Adireshin Imel",
+        "placeholder": "Shigar da adireshin imel ɗinka",
+        "error": "Da fatan za a shigar da ingantaccen adireshin imel"
+      },
+      "phone": {
+        "label": "Lamban Waya",
+        "placeholder": "Shigar da lambar wayarka",
+        "error": "Lambar waya ta zama dole"
+      },
+      "company": {
+        "label": "Sunan Kamfani",
+        "placeholder": "Shigar da sunan kamfaninka"
+      },
+      "serviceType": {
+        "label": "Nau'in Sabis",
+        "placeholder": "Zaɓi nau'in sabis"
+      },
+      "subject": {
+        "label": "Jigo",
+        "placeholder": "Shigar da jigo",
+        "error": "Jigo ya zama dole"
+      },
+      "message": {
+        "label": "Saƙo",
+        "placeholder": "Shigar da saƙonka",
+        "error": "Saƙo ya zama dole"
+      }
+    },
+    "buttons": {
+      "submit": "Aika Saƙo",
+      "sending": "Ana Aikawa...",
+      "callNow": "Kira Yanzu",
+      "emailUs": "Aika Mana Imel"
+    },
+    "messages": {
+      "success": "Na gode! An aika saƙonka cikin nasara.",
+      "successDesc": "Za mu dawo gare ku cikin awanni 24.",
+      "error": "An kasa aika saƙo",
+      "errorDesc": "Da fatan za a sake gwadawa ko tuntuɓe mu kai tsaye a {{phone}} ko {{email}}"
+    }
+  },
+  "quote": {
+    "fields": {
+      "name": {
+        "label": "Cikakken Suna",
+        "placeholder": "Shigar da cikakken sunanka"
+      },
+      "email": {
+        "label": "Adireshin Imel",
+        "placeholder": "Shigar da adireshin imel ɗinka"
+      },
+      "phone": {
+        "label": "Lamban Waya",
+        "placeholder": "Shigar da lambar wayarka"
+      },
+      "company": {
+        "label": "Sunan Kamfani",
+        "placeholder": "Shigar da sunan kamfaninka"
+      },
+      "designation": {
+        "label": "Matsayi",
+        "placeholder": "Shigar da matsayinka"
+      },
+      "projectTitle": {
+        "label": "Taken Aikin",
+        "placeholder": "Shigar da taken aikin"
+      },
+      "projectType": {
+        "label": "Nau'in Aikin",
+        "placeholder": "Zaɓi nau'in aikin"
+      },
+      "budget": {
+        "label": "Matsayin Kasafin Kuɗi",
+        "placeholder": "Zaɓi matsayin kasafin kuɗi"
+      },
+      "timeline": {
+        "label": "Jadawalin Lokaci",
+        "placeholder": "Zaɓi jadawalin aikin"
+      },
+      "services": {
+        "label": "Sabis ɗin da ake Bukata",
+        "placeholder": "Zaɓi sabis ɗin da ake bukata"
+      },
+      "specifications": {
+        "label": "Ƙayyadaddun Ƙayyadaddun Fasaha",
+        "placeholder": "Bayyana buƙatun fasaha naka"
+      },
+      "additionalRequirements": {
+        "label": "Ƙarin Bukatu",
+        "placeholder": "Duk wani ƙarin buƙatu"
+      },
+      "industryType": {
+        "label": "Nau'in Masana'antu",
+        "placeholder": "Zaɓi masana'antarka"
+      },
+      "projectScale": {
+        "label": "Sikelin Aikin",
+        "placeholder": "Zaɓi sikelin aikin"
+      },
+      "preferredBrands": {
+        "label": "Zaɓaɓɓun Brands",
+        "placeholder": "Duk wani zaɓaɓɓun brands ko masana'antu"
+      }
+    },
+    "projectTypes": {
+      "newInstallation": "Sabuwar Shigarwa",
+      "systemUpgrade": "Haɓaka Tsarin",
+      "retrofit": "Gyara",
+      "maintenance": "Yarjejeniyar Kulawa",
+      "consultation": "Tuntuɓar Fasaha",
+      "design": "Zane & Injiniyanci"
+    },
+    "timelines": {
+      "immediate": "Nan da nan (< wata 1)",
+      "1-3-months": "Watanni 1-3",
+      "3-6-months": "Watanni 3-6",
+      "6-12-months": "Watanni 6-12",
+      "1-year-plus": "Fiye da shekara 1"
+    },
+    "budgetRanges": {
+      "under-1-lakh": "Ƙasa da ₹1 Lakh",
+      "1-5-lakh": "₹1-5 Lakhs",
+      "5-10-lakh": "₹5-10 Lakhs",
+      "10-25-lakh": "₹10-25 Lakhs",
+      "25-50-lakh": "₹25-50 Lakhs",
+      "50-lakh-plus": "₹50 Lakhs+",
+      "discuss": "Na gwammace in tattauna"
+    },
+    "validation": {
+      "nameMin": "Suna dole ne ya kasance aƙalla haruffa 2",
+      "emailInvalid": "Da fatan za a shigar da ingantaccen adireshin imel",
+      "phoneMin": "Da fatan za a shigar da ingantacciyar lambar waya",
+      "companyRequired": "Sunan kamfani ya zama dole",
+      "projectTitleRequired": "Taken aikin ya zama dole",
+      "projectTypeRequired": "Da fatan za a zaɓi nau'in aikin",
+      "timelineRequired": "Da fatan za a zaɓi jadawalin da ake tsammani",
+      "servicesRequired": "Da fatan za a zaɓi aƙalla sabis ɗaya",
+      "specificationsMin": "Da fatan za a ba da cikakkun bayanai (ƙaramar haruffa 20)",
+      "nameRequired": "Suna ya zama dole",
+      "phoneRequired": "Lambar waya ta zama dole",
+      "subjectRequired": "Jigo ya zama dole",
+      "messageRequired": "Saƙo ya zama dole",
+      "firstNameRequired": "Sunan farko ya zama dole",
+      "lastNameRequired": "Sunan ƙarshe ya zama dole",
+      "invalidEmail": "Adireshin imel ba daidai ba",
+      "selectService": "Da fatan za a zaɓi sabis",
+      "projectDetailsRequired": "Cikakkun bayanan aikin sun zama dole"
+    },
+    "success": {
+      "title": "An ƙaddamar da buƙatar ƙididdiga cikin nasara!",
+      "description": "Ƙungiyarmu ta injiniyanci za ta duba buƙatunku kuma ta amsa cikin awanni 24-48."
+    },
+    "placeholders": {
+      "selectIndustry": "Zaɓi masana'antu",
+      "selectProjectScale": "Zaɓi sikelin aikin",
+      "selectBudget": "Zaɓi matsayin kasafin kuɗi (na zaɓi)",
+      "detailedRequirements": "Da fatan za a ba da cikakkun bayanai ciki har da:\n- Bukatun fasaha da ƙa'idodi\n- Ƙayyadaddun kayan aiki da yawa\n- Bukatun aiki\n- Yanayin muhalli\n- Bukatun yarda\n- Duk wani la'akari na musamman...",
+      "additionalRequirements": "Duk wani ƙarin buƙatu, yanayi na musamman, ko tambayoyi...",
+      "preferredBrands": "misali, Siemens, Allen-Bradley, Schneider..."
+    },
+    "labels": {
+      "industryType": "Nau'in Masana'antu",
+      "projectScale": "Sikelin Aikin",
+      "approximateBudget": "Kimanin Kasafin Kuɗi",
+      "detailedRequirements": "Cikakkun Bukatu *",
+      "preferredBrands": "Zaɓaɓɓun Brands/Standards",
+      "additionalRequirements": "Ƙarin Bukatu",
+      "projectTitle": "Taken Aikin *",
+      "projectType": "Nau'in Aikin *",
+      "expectedTimeline": "Jadawalin da ake Tsammani *",
+      "phoneNumber": "Lambar Waya *",
+      "companyName": "Sunan Kamfani *",
+      "projectInformation": "Bayanin Aikin",
+      "budgetRange": "Matsayin Kasafin Kuɗi"
+    },
+    "sections": {
+      "requiredServices": "Sabis ɗin da ake Bukata *",
+      "contactInfo": "Bayanin Tuntuɓa",
+      "technicalSpecifications": "Ƙayyadaddun Ƙayyadaddun Fasaha"
+    },
+    "error": {
+      "title": "An kasa ƙaddamar da ƙididdiga",
+      "description": "Don taimako nan da nan: {{phone}} ko imel: {{email}}"
+    },
+    "submitting": "Ana Ƙaddamar da Buƙatar Ƙididdiga...",
+    "industries": {
+      "manufacturing": "Masana'antu",
+      "powerGeneration": "Samar da Wutar Lantarki",
+      "waterTreatment": "Jiyya na Ruwa",
+      "foodProcessing": "Sarrafa Abinci",
+      "pharmaceutical": "Magunguna",
+      "chemical": "Sinadarai",
+      "oilGas": "Mai & Gas",
+      "renewableEnergy": "MakAmashi Mai Sabuntawa",
+      "infrastructure": "Abubuwan More rayuwa",
+      "other": "Sauran"
+    },
+    "projectScale": {
+      "small": "Ƙananan Sikelin (< 10 I/O points)",
+      "medium": "Matsakaicin Sikelin (10-100 I/O points)",
+      "large": "Babban Sikelin (100-500 I/O points)",
+      "enterprise": "Kamfanin (500+ I/O points)"
+    },
+    "buttons": {
+      "getProfessionalQuote": "Samu Ƙididdiga ta Ƙwararru",
+      "submitRequest": "Ƙaddamar da Buƙata",
+      "callUrgent": "Kira don Bukatun Gaggawa",
+      "emailRequirements": "Bukatun Imel"
+    },
+    "process": {
+      "heading": "Menene zai faru na gaba?",
+      "steps": {
+        "technicalReview": "Bita na fasaha cikin awanni 24",
+        "detailedProposal": "Cikakken shawara tare da ƙayyadaddun bayanai",
+        "costBreakdown": "Rarraba farashi da jadawalin lokaci",
+        "followUpCall": "Kiran tuntuɓar bibiya"
+      }
+    },
+    "assistance": {
+      "heading": "Kuna buƙatar taimako nan da nan?",
+      "technicalTeam": "+91-94627-71662 (Ƙungiyar Fasaha)",
+      "email": "info@powertonengineering.com"
+    }
+  },
+  "career": {
+    "placeholders": {
+      "fullName": "Shigar da cikakken sunanka",
+      "email": "your.email@example.com",
+      "phone": "+91 9876543210",
+      "address": "Shigar da cikakken adireshinka (Gida/Lamba mai lamba, Titi, Gari, Jiha, PIN)",
+      "currentCompany": "Kamfanin ku na yanzu (na zaɓi)",
+      "education": "misali, B.Tech Injiniyan Lantarki",
+      "expectedSalary": "misali, 5-8 LPA ko Mai shiri",
+      "skills": "Jera ƙwarewar fasaha naka, ilimin software, harsunan shirye-shirye, takaddun shaida, da sauransu.",
+      "coverLetter": "Faɗa mana game da dalilinka, burin aikinka, da yadda za ka iya ba da gudummawa ga ƙungiyarmu...",
+      "selectSpecialization": "Zaɓi yankinka na ƙwarewa",
+      "selectExperience": "Zaɓi matakin gwaninta",
+      "selectAvailability": "Zaɓi kasancewarka"
+    },
+    "labels": {
+      "title": "Shiga Ƙungiyarmu ta Injiniyanci",
+      "subtitle": "Ƙaddamar da aikace-aikacenka kuma ka zama wani ɓangare na ƙungiyar mu ta sabbin hanyoyin injiniyanci",
+      "personalInfo": "Bayanin Keɓaɓɓu",
+      "professionalInfo": "Bayanin Ƙwararru",
+      "fullName": "Cikakken Suna",
+      "emailAddress": "Adireshin Imel",
+      "phoneNumber": "Lambar Waya",
+      "residingAddress": "Adireshin Zama na Yanzu",
+      "specialization": "Ƙwarewar Injiniya",
+      "experience": "Matakin Gwaninta",
+      "currentCompany": "Kamfanin Yanzu",
+      "availability": "Kasancewa/Lokacin Sanarwa",
+      "education": "Ilimi/ cancanta",
+      "expectedSalary": "Albashi da ake Tsammani",
+      "technicalSkills": "Ƙwarewar Fasaha & Ƙwarewa",
+      "coverLetter": "Harafin Rufewa & Ƙarfafawa",
+      "resume": "CV/Ci gaba"
+    },
+    "buttons": {
+      "submit": "Ƙaddamar da Aikace-Aikace",
+      "submitting": "Ana Ƙaddamar da Aikace-Aikace...",
+      "uploadResume": "Loda Ci gaba"
+    },
+    "validation": {
+      "nameMin": "Suna dole ne ya kasance aƙalla haruffa 2",
+      "emailInvalid": "Da fatan za a shigar da ingantaccen adireshin imel",
+      "phoneMin": "Lambar waya dole ne ta kasance aƙalla lambobi 10",
+      "specializationRequired": "Da fatan za a zaɓi ƙwarewar injiniyan ku",
+      "experienceRequired": "Da fatan za a zaɓi matakin gwaninta",
+      "educationRequired": "Da fatan za a ba da cikakkun bayanan ilimin ku",
+      "joiningTimeRequired": "Da fatan za a ƙayyade yadda za ku iya shiga nan ba da jimawa ba",
+      "skillsMin": "Da fatan za a ba da cikakkun bayanai game da ƙwarewarku",
+      "coverLetterMin": "Da fatan za a rubuta ɗan gajeren wasiƙar murfin (ƙaramar haruffa 20)",
+      "addressMin": "Da fatan za a ba da cikakken adireshin zama naka"
+    },
+    "specializations": {
+      "electricalEngineering": "Injiniyan Lantarki",
+      "automationControl": "Automation & Control Systems",
+      "instrumentation": "Injiniyan Kayan aiki",
+      "projectManagement": "Gudanar da Aikin",
+      "technicalSales": "Tallace-tallace na Fasaha",
+      "fieldService": "Sabis na Filin & Ƙaddamarwa",
+      "designEngineering": "Zane & Ci gaba",
+      "solarRenewable": "MakAmashi Mai Sabunta Rana",
+      "other": "Sauran Ƙwarewa"
+    },
+    "experience": {
+      "fresher": "Sabbin (shekaru 0-1)",
+      "oneToThree": "Shekaru 1-3",
+      "threeToFive": "Shekaru 3-5",
+      "fiveToEight": "Shekaru 5-8",
+      "eightToTwelve": "Shekaru 8-12",
+      "twelvePlus": "Shekaru 12+"
+    },
+    "joiningTime": {
+      "immediate": "Zan iya shiga nan da nan",
+      "fifteenDays": "Lokacin sanarwa na kwanaki 15",
+      "oneMonth": "Lokacin sanarwa na wata 1",
+      "twoMonths": "Lokacin sanarwa na watanni 2",
+      "threeMonths": "Lokacin sanarwa na watanni 3",
+      "moreThanThree": "Fiye da watanni 3 sanarwa"
+    },
+    "helpers": {
+      "resumeFormat": "Tsarin da aka karɓa: PDF, DOC, DOCX (Matsakaicin girman: 5MB)",
+      "changeResume": "Canza Ci gaba",
+      "uploadResume": "Loda Ci gaba"
+    },
+    "success": {
+      "title": "An Ƙaddamar da Aikace-Aikace cikin Nasara!",
+      "description": "Na gode da neman aiki! Za mu duba aikace-aikacenka kuma mu tuntuɓe ka cikin kwanaki 2-3 na kasuwanci."
+    },
+    "error": {
+      "title": "An kasa Ƙaddamar da Aikace-Aikace",
+      "description": "Da fatan za a zaɓi fayil na girman da 5MB."
+    }
+  }
+}

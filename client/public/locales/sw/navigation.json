@@ -1,0 +1,31 @@
+{
+  "menu": {
+    "about": "Kuhusu",
+    "projects": "Miradi",
+    "gallery": "Nyumba ya picha",
+    "career": "Kazi",
+    "contact": "Wasiliana"
+  },
+  "services": "Huduma",
+  "dropdowns": {
+    "services": "Huduma",
+    "products": "Bidhaa"
+  },
+  "header": {
+    "servingWorldwide": "Kuhudumia Ulimwenguni"
+  },
+  "footer": {
+    "backToProducts": "Rudi kwa Bidhaa",
+    "services": "Huduma",
+    "products": "Bidhaa",
+    "copyright": "© {{year}} Powerton Engineering Pvt. Ltd. Haki zote zimehifadhiwa.",
+    "selectLanguage": "Chagua lugha",
+    "companyDescription": "Mshirika wako wa kuaminika katika kutoa suluhisho na huduma za kihandisi za ubora wa juu kwa mifumo ya otomatiki ya viwanda na mifumo ya umeme.",
+    "sitemap": "Ramani ya tovuti"
+  },
+  "mobile": {
+    "navigationMenu": "Menyu ya uongozaji",
+    "openMobileMenu": "Fungua menyu ya rununu",
+    "menuDescription": "Menyu kuu ya uongozaji kwa tovuti ya Powerton Engineering"
+  }
+}

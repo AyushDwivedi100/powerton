@@ -1,0 +1,326 @@
+{
+  "contact": {
+    "fields": {
+      "name": {
+        "label": "氏名",
+        "placeholder": "フルネームを入力してください",
+        "error": "名前は必須です"
+      },
+      "email": {
+        "label": "メールアドレス",
+        "placeholder": "メールアドレスを入力してください",
+        "error": "有効なメールアドレスを入力してください"
+      },
+      "phone": {
+        "label": "電話番号",
+        "placeholder": "電話番号を入力してください",
+        "error": "電話番号は必須です"
+      },
+      "company": {
+        "label": "会社名",
+        "placeholder": "会社名を入力してください"
+      },
+      "serviceType": {
+        "label": "サービスの種類",
+        "placeholder": "サービスの種類を選択してください"
+      },
+      "subject": {
+        "label": "件名",
+        "placeholder": "件名を入力してください",
+        "error": "件名は必須です"
+      },
+      "message": {
+        "label": "メッセージ",
+        "placeholder": "メッセージを入力してください",
+        "error": "メッセージは必須です"
+      }
+    },
+    "buttons": {
+      "submit": "メッセージを送信",
+      "sending": "送信中...",
+      "callNow": "電話をかける",
+      "emailUs": "メールで問い合わせる"
+    },
+    "messages": {
+      "success": "ありがとうございました！メッセージは正常に送信されました。",
+      "successDesc": "24時間以内にご連絡いたします。",
+      "error": "メッセージの送信に失敗しました",
+      "errorDesc": "{{phone}}または{{email}}まで直接お問い合わせください"
+    }
+  },
+  "quote": {
+    "fields": {
+      "name": {
+        "label": "氏名",
+        "placeholder": "フルネームを入力してください"
+      },
+      "email": {
+        "label": "メールアドレス",
+        "placeholder": "メールアドレスを入力してください"
+      },
+      "phone": {
+        "label": "電話番号",
+        "placeholder": "電話番号を入力してください"
+      },
+      "company": {
+        "label": "会社名",
+        "placeholder": "会社名を入力してください"
+      },
+      "designation": {
+        "label": "役職",
+        "placeholder": "役職を入力してください"
+      },
+      "projectTitle": {
+        "label": "プロジェクト名",
+        "placeholder": "プロジェクト名を入力してください"
+      },
+      "projectType": {
+        "label": "プロジェクトの種類",
+        "placeholder": "プロジェクトの種類を選択してください"
+      },
+      "budget": {
+        "label": "予算範囲",
+        "placeholder": "予算範囲を選択してください"
+      },
+      "timeline": {
+        "label": "タイムライン",
+        "placeholder": "プロジェクトのタイムラインを選択してください"
+      },
+      "services": {
+        "label": "必要なサービス",
+        "placeholder": "必要なサービスを選択してください"
+      },
+      "specifications": {
+        "label": "技術仕様",
+        "placeholder": "技術要件を記述してください"
+      },
+      "additionalRequirements": {
+        "label": "追加要件",
+        "placeholder": "追加の要件"
+      },
+      "industryType": {
+        "label": "業種",
+        "placeholder": "業種を選択してください"
+      },
+      "projectScale": {
+        "label": "プロジェクト規模",
+        "placeholder": "プロジェクト規模を選択してください"
+      },
+      "preferredBrands": {
+        "label": "推奨ブランド",
+        "placeholder": "推奨ブランドまたはメーカー"
+      }
+    },
+    "projectTypes": {
+      "newInstallation": "新規設置",
+      "systemUpgrade": "システムアップグレード",
+      "retrofit": "レトロフィット",
+      "maintenance": "メンテナンス契約",
+      "consultation": "技術コンサルティング",
+      "design": "設計とエンジニアリング"
+    },
+    "timelines": {
+      "immediate": "今すぐ（1ヶ月以内）",
+      "1-3-months": "1〜3ヶ月",
+      "3-6-months": "3〜6ヶ月",
+      "6-12-months": "6〜12ヶ月",
+      "1-year-plus": "1年以上"
+    },
+    "budgetRanges": {
+      "under-1-lakh": "₹10万未満",
+      "1-5-lakh": "₹10万〜50万",
+      "5-10-lakh": "₹50万〜100万",
+      "10-25-lakh": "₹100万〜250万",
+      "25-50-lakh": "₹250万〜500万",
+      "50-lakh-plus": "₹500万以上",
+      "discuss": "相談したい"
+    },
+    "validation": {
+      "nameMin": "名前は2文字以上で入力してください",
+      "emailInvalid": "有効なメールアドレスを入力してください",
+      "phoneMin": "有効な電話番号を入力してください",
+      "companyRequired": "会社名は必須です",
+      "projectTitleRequired": "プロジェクト名は必須です",
+      "projectTypeRequired": "プロジェクトの種類を選択してください",
+      "timelineRequired": "希望するタイムラインを選択してください",
+      "servicesRequired": "少なくとも1つのサービスを選択してください",
+      "specificationsMin": "詳細な仕様を入力してください（20文字以上）",
+      "nameRequired": "名前は必須です",
+      "phoneRequired": "電話番号は必須です",
+      "subjectRequired": "件名は必須です",
+      "messageRequired": "メッセージは必須です",
+      "firstNameRequired": "名前は必須です",
+      "lastNameRequired": "苗字は必須です",
+      "invalidEmail": "無効なメールアドレス",
+      "selectService": "サービスを選択してください",
+      "projectDetailsRequired": "プロジェクトの詳細は必須です"
+    },
+    "success": {
+      "title": "見積もり依頼が正常に送信されました！",
+      "description": "当社のエンジニアリングチームがお客様の要件を確認し、24〜48時間以内に回答いたします。"
+    },
+    "placeholders": {
+      "selectIndustry": "業種を選択してください",
+      "selectProjectScale": "プロジェクト規模を選択してください",
+      "selectBudget": "予算範囲を選択してください（オプション）",
+      "detailedRequirements": "以下の詳細な仕様を入力してください：\n- 技術要件と規格\n- 機器の仕様と数量\n- 性能要件\n- 環境条件\n- コンプライアンス要件\n- 特記事項...",
+      "additionalRequirements": "追加の要件、特別な条件、または質問...",
+      "preferredBrands": "例：Siemens、Allen-Bradley、Schneider..."
+    },
+    "labels": {
+      "industryType": "業種",
+      "projectScale": "プロジェクト規模",
+      "approximateBudget": "概算予算",
+      "detailedRequirements": "詳細な要件 *",
+      "preferredBrands": "推奨ブランド/規格",
+      "additionalRequirements": "追加要件",
+      "projectTitle": "プロジェクト名 *",
+      "projectType": "プロジェクトの種類 *",
+      "expectedTimeline": "希望するタイムライン *",
+      "phoneNumber": "電話番号 *",
+      "companyName": "会社名 *",
+      "projectInformation": "プロジェクト情報",
+      "budgetRange": "予算範囲"
+    },
+    "sections": {
+      "requiredServices": "必要なサービス *",
+      "contactInfo": "連絡先",
+      "technicalSpecifications": "技術仕様"
+    },
+    "error": {
+      "title": "見積もり依頼の送信に失敗しました",
+      "description": "緊急の場合は：{{phone}}またはメール：{{email}}"
+    },
+    "submitting": "見積もり依頼を送信中...",
+    "industries": {
+      "manufacturing": "製造",
+      "powerGeneration": "発電",
+      "waterTreatment": "水処理",
+      "foodProcessing": "食品加工",
+      "pharmaceutical": "製薬",
+      "chemical": "化学",
+      "oilGas": "石油・ガス",
+      "renewableEnergy": "再生可能エネルギー",
+      "infrastructure": "インフラ",
+      "other": "その他"
+    },
+    "projectScale": {
+      "small": "小規模（10 I/Oポイント未満）",
+      "medium": "中規模（10〜100 I/Oポイント）",
+      "large": "大規模（100〜500 I/Oポイント）",
+      "enterprise": "エンタープライズ（500+ I/Oポイント）"
+    },
+    "buttons": {
+      "getProfessionalQuote": "プロの見積もりを入手",
+      "submitRequest": "見積もり依頼を送信",
+      "callUrgent": "緊急の要件について電話する",
+      "emailRequirements": "要件をメールで送信"
+    },
+    "process": {
+      "heading": "次のステップ",
+      "steps": {
+        "technicalReview": "24時間以内の技術レビュー",
+        "detailedProposal": "仕様の詳細な提案",
+        "costBreakdown": "費用の内訳とタイムライン",
+        "followUpCall": "フォローアップコンサルテーションコール"
+      }
+    },
+    "assistance": {
+      "heading": "今すぐサポートが必要ですか？",
+      "technicalTeam": "+91-94627-71662（テクニカルチーム）",
+      "email": "info@powertonengineering.com"
+    }
+  },
+  "career": {
+    "placeholders": {
+      "fullName": "フルネームを入力してください",
+      "email": "your.email@example.com",
+      "phone": "+91 9876543210",
+      "address": "完全な住所を入力してください（番地/部屋番号、通り、市区町村、都道府県、郵便番号）",
+      "currentCompany": "現在の会社（オプション）",
+      "education": "例：B.Tech 電気工学",
+      "expectedSalary": "例：50万〜80万ルピーまたは交渉可能",
+      "skills": "技術スキル、ソフトウェア知識、プログラミング言語、資格などをリストしてください",
+      "coverLetter": "あなたのモチベーション、キャリア目標、そしてあなたがどのように私たちのチームに貢献できるかについて教えてください...",
+      "selectSpecialization": "専門分野を選択してください",
+      "selectExperience": "経験レベルを選択してください",
+      "selectAvailability": "可用性を選択してください"
+    },
+    "labels": {
+      "title": "当社のエンジニアリングチームに参加してください",
+      "subtitle": "応募を送信して、革新的なエンジニアリングソリューションチームの一員になりましょう",
+      "personalInfo": "個人情報",
+      "professionalInfo": "専門情報",
+      "fullName": "フルネーム",
+      "emailAddress": "メールアドレス",
+      "phoneNumber": "電話番号",
+      "residingAddress": "現在の居住地住所",
+      "specialization": "エンジニアリングの専門分野",
+      "experience": "経験レベル",
+      "currentCompany": "現在の会社",
+      "availability": "可用性/通知期間",
+      "education": "学歴/資格",
+      "expectedSalary": "希望給与",
+      "technicalSkills": "技術スキルと専門知識",
+      "coverLetter": "カバーレターとモチベーション",
+      "resume": "履歴書/職務経歴書"
+    },
+    "buttons": {
+      "submit": "応募を送信",
+      "submitting": "応募を送信中...",
+      "uploadResume": "履歴書をアップロード"
+    },
+    "validation": {
+      "nameMin": "名前は2文字以上で入力してください",
+      "emailInvalid": "有効なメールアドレスを入力してください",
+      "phoneMin": "電話番号は10桁以上で入力してください",
+      "specializationRequired": "エンジニアリングの専門分野を選択してください",
+      "experienceRequired": "経験レベルを選択してください",
+      "educationRequired": "学歴の詳細を入力してください",
+      "joiningTimeRequired": "いつ入社できるかを指定してください",
+      "skillsMin": "スキルについて詳しく教えてください",
+      "coverLetterMin": "簡単なカバーレターを書いてください（20文字以上）",
+      "addressMin": "完全な居住地住所を入力してください"
+    },
+    "specializations": {
+      "electricalEngineering": "電気工学",
+      "automationControl": "自動化および制御システム",
+      "instrumentation": "計装工学",
+      "projectManagement": "プロジェクト管理",
+      "technicalSales": "技術営業",
+      "fieldService": "フィールドサービスと試運転",
+      "designEngineering": "設計と開発",
+      "solarRenewable": "太陽光および再生可能エネルギー",
+      "other": "その他の専門分野"
+    },
+    "experience": {
+      "fresher": "新卒（0〜1年）",
+      "oneToThree": "1〜3年",
+      "threeToFive": "3〜5年",
+      "fiveToEight": "5〜8年",
+      "eightToTwelve": "8〜12年",
+      "twelvePlus": "12年以上"
+    },
+    "joiningTime": {
+      "immediate": "すぐに入社できます",
+      "fifteenDays": "15日間の通知期間",
+      "oneMonth": "1ヶ月の通知期間",
+      "twoMonths": "2ヶ月の通知期間",
+      "threeMonths": "3ヶ月の通知期間",
+      "moreThanThree": "3ヶ月以上の通知期間"
+    },
+    "helpers": {
+      "resumeFormat": "利用可能な形式：PDF、DOC、DOCX（最大サイズ：5MB）",
+      "changeResume": "履歴書を変更",
+      "uploadResume": "履歴書をアップロード"
+    },
+    "success": {
+      "title": "応募が正常に送信されました！",
+      "description": "ご応募ありがとうございます！応募内容を確認し、2〜3営業日以内にご連絡いたします。"
+    },
+    "error": {
+      "title": "応募の送信に失敗しました",
+      "description": "5MBより小さいファイルを選択してください。"
+    }
+  }
+}

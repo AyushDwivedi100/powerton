@@ -1,0 +1,31 @@
+{
+  "menu": {
+    "about": "حولنا",
+    "projects": "المشاريع",
+    "gallery": "المعرض",
+    "career": "الوظائف",
+    "contact": "اتصل بنا"
+  },
+  "services": "الخدمات",
+  "dropdowns": {
+    "services": "الخدمات",
+    "products": "المنتجات"
+  },
+  "header": {
+    "servingWorldwide": "خدمة عالمية"
+  },
+  "footer": {
+    "backToProducts": "العودة إلى المنتجات",
+    "services": "الخدمات",
+    "products": "المنتجات",
+    "copyright": "© {{year}} باورتون للهندسة الخاصة المحدودة. جميع الحقوق محفوظة.",
+    "selectLanguage": "اختر اللغة",
+    "companyDescription": "شريكك الموثوق في تقديم حلول وخدمات هندسية عالية الجودة للأتمتة الصناعية والأنظمة الكهربائية.",
+    "sitemap": "خريطة الموقع"
+  },
+  "mobile": {
+    "navigationMenu": "قائمة التنقل",
+    "openMobileMenu": "افتح قائمة الجوال",
+    "menuDescription": "قائمة التنقل الرئيسية لموقع باورتون للهندسة"
+  }
+}

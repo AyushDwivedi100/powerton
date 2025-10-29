@@ -1,0 +1,31 @@
+{
+  "menu": {
+    "about": "हमारे बारे में",
+    "projects": "परियोजनाएं",
+    "gallery": "गैलरी",
+    "career": "कैरियर",
+    "contact": "संपर्क"
+  },
+  "services": "सेवाएं",
+  "dropdowns": {
+    "services": "सेवाएं",
+    "products": "उत्पाद"
+  },
+  "header": {
+    "servingWorldwide": "विश्वभर में सेवा"
+  },
+  "footer": {
+    "backToProducts": "उत्पादों पर वापस जाएं",
+    "services": "सेवाएं",
+    "products": "उत्पाद",
+    "copyright": "© {{year}} Powerton Engineering Pvt. Ltd. सभी अधिकार सुरक्षित।",
+    "selectLanguage": "भाषा चुनें",
+    "companyDescription": "औद्योगिक स्वचालन और विद्युत प्रणालियों के लिए उच्च गुणवत्ता वाले इंजीनियरिंग समाधान और सेवाएं प्रदान करने में आपका विश्वसनीय भागीदार।",
+    "sitemap": "साइटमैप"
+  },
+  "mobile": {
+    "navigationMenu": "नेविगेशन मेनू",
+    "openMobileMenu": "मोबाइल मेनू खोलें",
+    "menuDescription": "पावरटन इंजीनियरिंग वेबसाइट के लिए मुख्य मेनू"
+  }
+}

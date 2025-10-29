@@ -1,0 +1,1034 @@
+{
+  "home": {
+    "seo": {
+      "title": "Mtengenezaji wa Otomatiki ya Viwandani na Paneli za Udhibiti | Mifumo ya PLC SCADA DCS | Uhandisi wa Powerton India",
+      "description": "Kampuni inayoongoza ya otomatiki ya viwandani nchini India iliyo utaalam katika utengenezaji wa paneli za udhibiti wa umeme, programu ya PLC, ujumuishaji wa mfumo wa SCADA, uhandisi wa DCS, na suluhisho za otomatiki ya mchakato. Tunahudumia tasnia za dawa, mitambo ya umeme, mafuta na gesi, utengenezaji, na kemikali. Imethibitishwa na ISO na utaalam wa zaidi ya miaka 15. Mtaalam katika otomatiki ya Siemens, Allen Bradley, Schneider, ABB. Usaidizi wa 24/7 | Ushauri wa bure | Noida, India",
+      "keywords": "makampuni ya otomatiki ya viwandani nchini India, mtengenezaji wa paneli za udhibiti wa umeme, wajenzi wa paneli za udhibiti India, huduma za programu ya PLC, ujumuishaji wa mfumo wa SCADA, huduma za uhandisi za DCS, otomatiki ya mchakato India, mifumo ya udhibiti wa viwandani, huduma za uhandisi wa otomatiki, mafunzo ya PLC SCADA, uendelezaji wa HMI, muundo wa paneli za udhibiti, suluhisho za otomatiki ya kiwanda, otomatiki ya mmea, IoT ya viwandani India, suluhisho za Viwanda 4.0, utengenezaji mahiri India, programu ya Siemens PLC, otomatiki ya Allen Bradley, huduma za Schneider PLC, suluhisho za otomatiki za ABB, otomatiki ya dawa India, otomatiki ya mitambo ya umeme, otomatiki ya mafuta na gesi, otomatiki ya mitambo ya kemikali, otomatiki ya usindikaji wa chakula, SCADA ya usindikaji wa maji, otomatiki ya mitambo ya saruji, otomatiki ya utengenezaji India, kituo cha udhibiti wa motor MCC, kituo cha udhibiti wa nguvu PCC, paneli ya VFD, watengenezaji wa paneli za umeme Noida, makampuni ya otomatiki Noida, muunganishaji wa mfumo wa udhibiti, huduma za ala, transmita za shinikizo, sensorer za joto, mita za mtiririko, sensorer za kiwango, suluhisho za umeme za viwandani, suluhisho za solar EPC India, otomatiki ya nishati mbadala, mifumo ya usimamizi wa nishati, otomatiki ya jengo, otomatiki ya HVAC, suluhisho za matengenezo ya utabiri, mifumo ya ufuatiliaji wa mbali, huduma za urekebishaji wa PLC, uhamiaji wa SCADA, ushauri wa otomatiki India, utengenezaji wa paneli za udhibiti, paneli za udhibiti zilizoorodheshwa na UL, paneli zilizokadiriwa na NEMA, paneli zinazotii IEC, otomatiki ya viwandani Noida, huduma za otomatiki Delhi NCR, paneli za udhibiti Uttar Pradesh, kampuni ya uhandisi wa umeme India, mifumo ya udhibiti wa mchakato, mifumo ya udhibiti iliyosambazwa, usimamizi, mifumo ya upataji data, vipengele vya paneli za udhibiti wa viwandani, taasisi ya mafunzo ya otomatiki, udhibitisho wa PLC SCADA DCS, mafunzo ya otomatiki ya viwandani, mafunzo ya mifumo ya udhibiti wa umeme"
+    },
+    "hero": {
+      "title": {
+        "main": "Suluhisho Kamili kwa",
+        "highlight": "Mafanikio ya Viwanda"
+      },
+      "subtitle": "Kwingineko yetu pana ya bidhaa na huduma hutoa wigo kamili wa suluhisho, kuendesha mafanikio ya viwandani na kuhakikisha kila kipengele cha mahitaji yako ya uhandisi kinashughulikiwa.",
+      "buttons": {
+        "exploreServices": "Gundua Huduma Zetu",
+        "requestConsultation": "Omba Ushauri"
+      },
+      "features": {
+        "experience": "Uzoefu wa Miaka 15+",
+        "support": "Msaada wa Kiufundi wa 24/7",
+        "service": "Ufikiaji wa Huduma ya Kimataifa"
+      },
+      "stats": {
+        "yearsExperience": "Uzoefu wa Miaka",
+        "projectsCompleted": "Miradi Imekamilika",
+        "happyClients": "Wateja Wenye Furaha",
+        "supportAvailable": "Msaada Unapatikana",
+        "heading": "Takwimu na Mafanikio ya Kampuni"
+      }
+    },
+    "about": {
+      "label": "Kuhusu Sisi",
+      "title": "Karibu Powerton Engineering Pvt. Ltd.",
+      "description": "Mshirika wako unayemwamini katika kutoa suluhisho na huduma za uhandisi za hali ya juu. Tulianzishwa na maono ya kuwezesha viwanda kupitia uvumbuzi na ubora, tuna utaalam katika kutoa anuwai kamili ya bidhaa za umeme na ala.",
+      "visualHeading": "Uhandisi wa Kitaalamu",
+      "visualDescription": "Wahandisi wa kitaalamu wa Kichina wanafanya kazi kwenye automatisheni ya viwandani na mifumo ya udhibiti",
+      "features": {
+        "electrical": {
+          "title": "Umeme na Ala",
+          "description": "Aina kamili ya mifumo ya udhibiti"
+        },
+        "mechanical": {
+          "title": "Pampu za Mitambo",
+          "description": "Suluhisho za pampu za kudumu na vipuri"
+        },
+        "solar": {
+          "title": "Suluhisho za Jua",
+          "description": "Mitambo endelevu ya nishati"
+        },
+        "tools": {
+          "title": "Zana za Viwandani",
+          "description": "Vifaa vya kiwango cha kitaalamu"
+        }
+      },
+      "button": "Jifunze Zaidi Kuhusu Sisi"
+    },
+    "services": {
+      "label": "Huduma Zetu",
+      "title": "Suluhisho za Kitaalamu kwa Mahitaji Yote, Zinazotolewa kwa Uangalifu wa Kipecial",
+      "description": "Kuanzia automatisheni ya mchakato hadi mikataba ya matengenezo, tunatoa suluhisho kamili za uhandisi zilizoundwa kwa mahitaji yako ya viwandani."
+    },
+    "products": {
+      "label": "Bidhaa Zetu",
+      "title": "Suluhisho za Vifaa vya Uendeshaji wa Viwandani",
+      "description": "Aina kamili ya bidhaa za umeme na automatisheni zilizoundwa kwa kuegemea, ufanisi, na utendaji bora katika mazingira ya viwandani.",
+      "viewProducts": "Angalia Bidhaa",
+      "viewCatalog": "Angalia Katalogi Kamili ya Bidhaa"
+    },
+    "contact": {
+      "label": "Wasiliana Nasi",
+      "title": "Tujadili Mahitaji Yako ya Uhandisi",
+      "description": "Uko tayari kuanza mradi wako unaofuata? Wasiliana na timu yetu ya wataalamu kwa suluhisho maalum na ushauri wa kitaalamu.",
+      "hero": {
+        "title": "Wasiliana na Wataalamu Wetu wa Uhandisi",
+        "subtitle": "Pata usaidizi wa kitaalamu kwa miradi yako ya automatisheni ya viwandani na uhandisi wa umeme. Timu yetu yenye uzoefu iko tayari kukusaidia kufanikiwa.",
+        "benefits": {
+          "consultation": "Ushauri wa Kitaalamu Bure",
+          "support": "Msaada wa Kiufundi wa 24/7",
+          "experience": "Uzoefu wa Miaka 15+"
+        }
+      },
+      "getInTouch": "Wasiliana",
+      "methods": {
+        "phone": {
+          "title": "Simu",
+          "description": "Msaada wa Dharura wa 24/7"
+        },
+        "email": {
+          "title": "Barua Pepe",
+          "description": "Tutajibu ndani ya masaa 24"
+        },
+        "address": {
+          "title": "Anwani",
+          "metro": "Kituo cha Metro Kilicho Karibu Zaidi"
+        }
+      }
+    },
+    "clients": {
+      "label": "Wateja Wetu",
+      "title": "Inaaminika na Brands na Mashirika Yanayoongoza",
+      "description": "Tunashirikiana na viongozi wa tasnia katika sekta mbalimbali, tukitoa suluhisho bora za uhandisi.",
+      "testimonialsTitle": "Wateja Wetu Wanasema Nini"
+    },
+    "projects": {
+      "label": "Miradi Yetu",
+      "title": "Suluhisho za Uhandisi Zilizofaulu",
+      "featured": "Imeangaziwa",
+      "description": "Gundua kwingineko yetu ya miradi iliyokamilishwa, inayoonyesha utaalam wetu katika automatisheni ya viwandani na uhandisi wa umeme.",
+      "keyFeatures": "Vipengele Muhimu:",
+      "completed": "Imekamilika",
+      "viewDetails": "Angalia Maelezo",
+      "viewAllProjects": "Angalia Miradi Yote",
+      "downloadPortfolio": "Pakua Kwingineko"
+    }
+  },
+  "backToProducts": "Rudi kwa Bidhaa",
+  "about": {
+    "seo": {
+      "title": "Kuhusu Powerton Engineering | ISO Imethibitishwa Mtengenezaji wa Otomatiki ya Viwandani na Paneli za Udhibiti Tangu 2008",
+      "description": "Powerton Engineering Pvt. Ltd. - Kampuni ya otomatiki ya viwandani iliyothibitishwa na ISO 9001:2015 na uzoefu wa zaidi ya miaka 15 katika utengenezaji wa paneli za udhibiti wa umeme, mifumo ya PLC SCADA DCS, ala, na otomatiki ya mchakato. Muunganishaji mkuu wa mifumo ya otomatiki anayehudumia tasnia za dawa, mitambo ya umeme, mafuta na gesi, kemikali, utengenezaji, na usafishaji wa maji kote India. Mtoa huduma wa suluhisho za uhandisi aliyeshinda tuzo na miradi 1200+ iliyofanikiwa. Timu ya wataalamu katika teknolojia za otomatiki za Siemens, Allen Bradley, Schneider, Honeywell, ABB. Makao makuu yake yako Noida na huduma inashughulikia India nzima.",
+      "keywords": "kuhusu powerton engineering, kampuni ya otomatiki iliyothibitishwa na ISO, mtengenezaji wa paneli za udhibiti wa umeme India, kampuni ya otomatiki ya viwandani Noida, wajenzi wa paneli za udhibiti tangu 2008, mtoa huduma wa suluhisho za otomatiki India, kampuni ya uhandisi wa umeme Delhi NCR, kampuni ya ala India, wataalamu wa otomatiki ya mchakato, muunganishaji wa mifumo ya otomatiki, wataalamu wa PLC SCADA DCS, kampuni ya ujumuishaji wa mifumo ya udhibiti, kampuni ya otomatiki iliyoshinda tuzo, otomatiki ya utengenezaji India, mtoa huduma wa otomatiki ya kiwanda, kampuni ya otomatiki ya dawa, wataalamu wa otomatiki ya mitambo ya umeme, wataalamu wa otomatiki ya mafuta na gesi, otomatiki ya mitambo ya kemikali, otomatiki ya usafishaji wa maji, utengenezaji wa paneli za udhibiti India, mtengenezaji wa paneli zilizoorodheshwa na UL, paneli za udhibiti zilizokadiriwa na NEMA, mifumo ya otomatiki inayotii IEC, duka la paneli za udhibiti lililothibitishwa, mkandarasi wa umeme wa viwandani India, huduma za uhandisi wa otomatiki, mtoa huduma wa suluhisho za IoT za viwandani, utekelezaji wa Viwanda 4.0, suluhisho za utengenezaji mahiri, huduma za matengenezo ya utabiri, waunganishaji wa mifumo ya SCADA, kampuni ya uhandisi ya DCS, huduma za uendelezaji wa HMI, watengenezaji wa paneli za VFD, wasambazaji wa kituo cha udhibiti wa motor MCC, kampuni ya ushauri wa otomatiki, huduma za muundo wa umeme, miradi ya otomatiki ya turnkey, taasisi ya mafunzo ya otomatiki, wahandisi wa otomatiki wenye uzoefu, utaalamu wa otomatiki ya viwandani India, muundo wa paneli za udhibiti, usimamizi wa mradi wa otomatiki, kampuni ya huduma za uhandisi India"
+    },
+    "hero": {
+      "title": "Ubora wa Uhandisi Tangu 2008",
+      "subtitle": "Mshirika Wako Unayemwamini katika Suluhisho za Automatisheni ya Viwandani na Uhandisi wa Umeme"
+    },
+    "story": {
+      "title": "Safari na Dira Yetu",
+      "description1": "Ilianzishwa mwaka wa 2008 kwa dira ya kuwezesha viwanda kupitia uvumbuzi na ubora, Powerton Engineering imekuwa mstari wa mbele katika automatisheni ya viwandani na suluhisho za uhandisi wa umeme. Safari yetu ilianza na dhamira rahisi lakini yenye nguvu: kutoa suluhisho za uhandisi za kisasa zinazoendesha ukuaji wa viwanda na ufanisi wa uendeshaji.",
+      "description2": "Kwa miaka mingi, tumekua kutoka kampuni ndogo ya uhandisi hadi mshirika anayeaminika kwa viwanda kote China na ulimwenguni. Timu yetu ya wahandisi wenye uzoefu na wataalamu wa kiufundi hufanya kazi bila kuchoka kutoa suluhisho ambazo hazifikii tu bali zinazidi matarajio ya wateja wetu."
+    },
+    "mission": {
+      "title": "Dhamira Yetu",
+      "description": "Kutoa suluhisho za uhandisi za kibunifu, za kuaminika, na endelevu zinazowawezesha wateja wetu kufikia ubora wa uendeshaji na kuendesha ukuaji wa viwanda."
+    },
+    "vision": {
+      "title": "Dira Yetu",
+      "description": "Kuwa mtoa huduma mkuu wa automatisheni ya viwandani na suluhisho za uhandisi wa umeme, inayotambulika kwa utaalamu wetu wa kiufundi, ubora, na kujitolea kwa mafanikio ya mteja."
+    },
+    "coreValues": {
+      "title": "Thamani Zetu za Msingi",
+      "subtitle": "Kanuni zinazoongoza kila kitu tunachofanya"
+    },
+    "values": {
+      "quality": {
+        "title": "Ubora Bora",
+        "description": "Tunashikilia viwango vya juu zaidi katika kila mradi tunaotoa"
+      },
+      "customer": {
+        "title": "Uzingatiaji wa Mteja",
+        "description": "Mafanikio yako ndiyo kipaumbele chetu - tunajenga ushirikiano wa kudumu"
+      },
+      "innovation": {
+        "title": "Uvumbuzi na Ubora",
+        "description": "Suluhisho za kisasa kwa kutumia teknolojia za hivi karibuni za tasnia"
+      },
+      "reliability": {
+        "title": "Kutegemeka na Uaminifu",
+        "description": "Suluhisho za kuaminika unazoweza kuzitegemea kwa shughuli muhimu"
+      }
+    },
+    "stats": {
+      "engineers": "Wahandisi",
+      "staff": "Wafanyakazi wa Usaidizi",
+      "experience": "Uzoefu wa Miaka",
+      "support": "Msaada"
+    },
+    "certifications": {
+      "title": "Vyeti na Viwango",
+      "subtitle": "Kujitolea kwetu kwa ubora kunathibitishwa kupitia vyeti vinavyotambulika na viwango vya kufuata tasnia.",
+      "iso9001": "ISO 9001",
+      "iso14001": "ISO 14001",
+      "ohsas18001": "ISO 45001",
+      "ceMarking": "Alama ya CE",
+      "ulListed": "Imeorodheshwa na UL",
+      "cpriApproved": "Imeidhinishwa na CPRI"
+    },
+    "achievements": {
+      "2022": {
+        "year": "2022",
+        "awards": {
+          "0": "Tuzo la Ubora wa Uhandisi - Shirikisho la Vyumba vya India",
+          "1": "Tuzo la Teknolojia Endelevu - Baraza la Biashara la Kijani",
+          "2": "Utambuzi wa Ubora Bora - Ofisi ya Viwango vya India"
+        }
+      },
+      "2023": {
+        "year": "2023",
+        "awards": {
+          "0": "Suluhisho Bora la Uhandisi - Ubora wa Utengenezaji wa CII",
+          "1": "Tuzo la Ubora wa Usalama - Baraza la Usalama la Kitaifa",
+          "2": "Tuzo la Ubunifu wa Teknolojia - Baraza la Kukuza Uuzaji wa Uhandisi",
+          "3": "SME Bora katika Sekta ya Automatisheni - Wizara ya MSME"
+        }
+      },
+      "2024": {
+        "year": "2024",
+        "awards": {
+          "0": "Tuzo la Ubora katika Automatisheni ya Viwandani - Jumuiya ya Uhandisi ya India",
+          "1": "Uvumbuzi Bora katika Udhibiti wa Mchakato - Tuzo za Automatisheni India",
+          "2": "Udhibitisho wa Usimamizi wa Ubora wa ISO 9001:2015",
+          "3": "Kampuni 100 Bora za Uhandisi - India Leo"
+        }
+      },
+      "title": "Tuzo na Mafanikio",
+      "subtitle": "Kutambuliwa kwa kujitolea kwetu kwa ubora, uvumbuzi, na ubora katika automatisheni ya viwandani."
+    },
+    "futureGoals": {
+      "title": "Malengo na Dira ya Baadaye",
+      "subtitle": "Ramani yetu ya kimkakati kuelekea kuwa mtoa huduma mkuu wa suluhisho za automatisheni ya viwandani nchini India.",
+      "marketLeadership": {
+        "goal": "Uongozi wa Soko",
+        "description": "Kuwa mtoa huduma mkuu wa suluhisho za automatisheni Kaskazini mwa India ifikapo 2026"
+      },
+      "technologyInnovation": {
+        "goal": "Ubunifu wa Teknolojia",
+        "description": "Zindua suluhisho 5 mpya za automatisheni zinazoendeshwa na AI kwa Sekta ya 4.0"
+      },
+      "geographicExpansion": {
+        "goal": "Upanuzi wa Kijiografia",
+        "description": "Anzisha shughuli katika majimbo 3 mapya kote India"
+      },
+      "teamGrowth": {
+        "goal": "Ukuaji wa Timu",
+        "description": "Panua timu yetu ya uhandisi hadi wataalamu 200+"
+      },
+      "revenueMilestone": {
+        "goal": "Hatua Muhimu ya Mapato",
+        "description": "Fikia hatua muhimu ya mapato ya kila mwaka ya ₹100 Crores"
+      },
+      "sustainabilityFocus": {
+        "goal": "Mtazamo wa Uendelevu",
+        "description": "Tekeleza shughuli zisizo na kaboni na suluhisho za teknolojia ya kijani"
+      }
+    },
+    "cta": {
+      "title": "Uko Tayari Kuanza Mradi Wako?",
+      "description": "Timu yetu ya wataalamu iko tayari kukusaidia kuleta uhai miradi yako ya automatisheni ya viwandani na uhandisi wa umeme.",
+      "startProject": "Anza Mradi Wako Leo",
+      "exploreServices": "Gundua Huduma Zetu"
+    }
+  },
+  "projects": {
+    "seo": {
+      "title": "Kwingineko ya Miradi ya Otomatiki ya Viwandani | Uchunguzi wa Paneli za Udhibiti | Utekelezaji wa PLC SCADA | Uhandisi wa Powerton",
+      "description": "Gundua miradi 1200+ iliyofanikiwa ya otomatiki ya viwandani kote India - otomatiki ya mitambo ya dawa, mifumo ya udhibiti wa mitambo ya umeme, otomatiki ya kampuni ya kunywa pombe, miradi ya solar EPC, SCADA ya usafishaji wa maji, otomatiki ya utengenezaji wa vinywaji, na miundombinu ya kuchaji magari ya umeme. Uchunguzi halisi unaoangazia programu ya PLC, ujumuishaji wa mfumo wa SCADA, utekelezaji wa DCS, na usakinishaji wa paneli za udhibiti wa umeme kwa kampuni zinazoongoza kama IOCL, Dalmia, Coca-Cola, Reliance, IIT Bhubaneswar. Utaalamu uliothibitishwa katika otomatiki ya mchakato, ala, na miradi ya turnkey ya viwandani.",
+      "keywords": "miradi ya otomatiki ya viwandani India, miradi ya usakinishaji wa paneli za udhibiti, uchunguzi wa miradi ya PLC SCADA, miradi ya otomatiki ya dawa, uchunguzi wa otomatiki ya mitambo ya umeme, miradi ya otomatiki ya kampuni ya kunywa pombe, miradi ya solar EPC India, miradi ya SCADA ya usafishaji wa maji, otomatiki ya mitambo ya vinywaji, miradi ya otomatiki ya utengenezaji, uchunguzi wa otomatiki ya mchakato, miradi ya paneli za udhibiti wa umeme, miradi ya ala India, kwingineko ya mradi wa otomatiki, utekelezaji wa industrial IoT, miradi ya otomatiki ya kiwanda, miradi ya ujumuishaji wa mfumo wa otomatiki, uboreshaji wa mfumo wa udhibiti, uchunguzi wa otomatiki ya mitambo, miradi ya uhamiaji ya SCADA, miradi ya utekelezaji wa DCS, miradi ya uendelezaji wa HMI, usakinishaji wa paneli za VFD, miradi ya kituo cha udhibiti wa motor, miradi ya otomatiki ya turnkey, miradi ya uhandisi wa umeme India, miradi ya udhibiti wa mchakato, miradi ya umeme ya viwandani, miradi ya urekebishaji wa otomatiki, miradi ya utengenezaji wa paneli za udhibiti, usimamizi wa mradi wa uhandisi, miradi ya ushauri wa otomatiki, utekelezaji wa mradi wa viwandani, miradi ya uanzishaji wa otomatiki, maboresho ya mfumo wa udhibiti, miradi ya uboreshaji wa mitambo, miradi ya mafunzo ya otomatiki, utekelezaji uliofanikiwa wa otomatiki, marejeleo ya otomatiki ya viwandani, kwingineko ya mtengenezaji wa paneli za udhibiti, uchunguzi wa kampuni ya otomatiki, miradi ya suluhisho za uhandisi"
+    },
+    "portfolioDescription": "Gundua uwezo wetu wa uhandisi kupitia miradi ya maonyesho inayoonyesha suluhisho za ubunifu katika tasnia. Kwingineko ya mradi wa kweli inakuja hivi karibuni.",
+    "featured": "Imeangaziwa",
+    "keyFeatures": "Vipengele Muhimu:",
+    "moreItems": "+{{count}} Zaidi",
+    "cta": {
+      "title": "Uko Tayari Kuanza Mradi Wako Unaofuata?",
+      "description": "Wahandisi wetu wenye uzoefu wanaweza kubuni suluhisho maalum kwa mahitaji yako ya automatisheni ya viwandani na uhandisi wa umeme.",
+      "getProjectQuote": "Pata Nukuu ya Mradi",
+      "contactTeam": "Wasiliana na Timu"
+    },
+    "showing": "Inaonyesha miradi {{count}} kati ya {{total}}",
+    "filters": {
+      "industries": {
+        "all": "Zote",
+        "beverageManufacturing": "Utengenezaji wa Vinywaji",
+        "beverageDistillery": "Vinywaji/Kambi ya Kunywea",
+        "sugarDistillery": "Sukari na Kambi ya Kunywea",
+        "renewableEnergy": "Nishati Mbadala",
+        "evInfrastructure": "Miundombinu ya Magari ya Umeme",
+        "steelManufacturing": "Utengenezaji wa Chuma",
+        "waterTreatment": "Usafishaji wa Maji"
+      },
+      "categories": {
+        "all": "Zote",
+        "processAutomation": "Uendeshaji wa Mchakato",
+        "powerSystems": "Mifumo ya Nguvu",
+        "solarSolutions": "Suluhisho za Jua",
+        "waterSystems": "Mifumo ya Maji"
+      },
+      "statuses": {
+        "all": "Zote",
+        "completed": "Imekamilika"
+      }
+    },
+    "items": {
+      "sikkim-spirit-bottling": {
+        "title": "Mfumo wa Uendeshaji na Udhibiti wa Kiwanda cha Kupakia Chupa",
+        "client": "Sikkim Spirit Pvt. Ltd.",
+        "description": "Ufungaji kamili wa ala na mifumo ya hali ya juu ya HMI, PLC, na SCADA kwa shughuli za upakiaji chupa otomatiki",
+        "location": "Sikkim"
+      },
+      "hindustan-cocacola-odisha": {
+        "title": "Ufungaji na Uanzishaji wa Kiwanda cha Vinywaji",
+        "client": "Hindustan Coca-Cola Beverage Pvt. Ltd.",
+        "description": "Ufungaji na uanzishaji kamili wa mifumo ya umeme na ala kwa kituo kikubwa cha utengenezaji wa vinywaji",
+        "location": "Odisha"
+      },
+      "iocl-solar-jasidih": {
+        "title": "Umeme na Ala ya Mtambo wa Umeme wa Jua",
+        "client": "Shirika la Mafuta la India Limited (IOCL)",
+        "description": "Usanidi kamili wa umeme na ala kwa kituo cha kuzalisha umeme wa jua ikijumuisha ufungaji wa paneli za jua na mifumo ya kutuliza",
+        "location": "Jasidih, Jharkhand"
+      },
+      "dalmia-sugar-distillery": {
+        "title": "Umeme na Programu ya Kiwanda cha Pombe",
+        "client": "Dalmia Sugar & Distillery",
+        "description": "Programu ya hali ya juu ya PLC na suluhisho kamili la umeme na ala kwa shughuli za kiwanda cha pombe",
+        "location": "Hardoi, Uttar Pradesh"
+      },
+      "bokaro-spirit-jharkhand": {
+        "title": "Umeme na Ala ya Kiwanda cha Pombe",
+        "client": "Bokaro Spirit",
+        "description": "Kifurushi kamili cha umeme na ala kwa kituo cha kiwanda cha pombe ikijumuisha usambazaji wa umeme na mifumo ya udhibiti",
+        "location": "Jharkhand"
+      },
+      "vanya-steel-turbine": {
+        "title": "Mifumo ya Umeme na Ala ya Turbine",
+        "client": "Vanya Steel Pvt. Ltd.",
+        "description": "Mifumo maalum ya umeme na ala kwa shughuli za turbine za viwandani katika utengenezaji wa chuma",
+        "location": "Koppal, Karnataka"
+      },
+      "reliance-ev-charging-meerut": {
+        "title": "Miundombinu ya Kituo cha Kuchaji EV",
+        "client": "Reliance Industries Limited",
+        "description": "Usanidi wa kituo cha kuchaji EV cha mwisho hadi mwisho ikijumuisha muundo wa kiraia, ufungaji wa paneli za umeme, na ujumuishaji wa vifaa vya kuchaji EV",
+        "location": "Meerut, Uttar Pradesh"
+      },
+      "bk-builder-distillery-bihar": {
+        "title": "Umeme na Ala ya Kiwanda cha Pombe",
+        "client": "B.K. Builder",
+        "description": "Suluhisho kamili la umeme na ala kwa shughuli za kiwanda cha pombe",
+        "location": "Mokama, Patna, Bihar"
+      },
+      "iit-bhubaneswar-stp": {
+        "title": "Uendeshaji wa Kiwanda cha Kutibu Maji Taka",
+        "client": "IIT Bhubaneswar",
+        "description": "Mfumo wa hali ya juu wa uendeshaji unaotegemea PLC kwa kiwanda cha kutibu maji taka na usanidi kamili wa umeme na ala",
+        "location": "Bhubaneswar, Odisha"
+      }
+    },
+    "technologies": {
+      "mccpanels": "Paneli za MCC",
+      "protectionsystems": "Mifumo ya Ulinzi",
+      "energymanagement": "Usimamizi wa Nishati",
+      "remotemonitoring": "Ufuatiliaji wa Mbali",
+      "solarinverters": "Vigeuzi vya Jua",
+      "gridsync": "Usawazishaji wa Gridi",
+      "weathermonitoring": "Ufuatiliaji wa Hali ya Hewa",
+      "dataanalytics": "Uchambuzi wa Data",
+      "processcontrol": "Udhibiti wa Mchakato",
+      "safetysystems": "Mifumo ya Usalama",
+      "plcprogramming": "Programu ya PLC",
+      "scadasystems": "Mifumo ya SCADA",
+      "scada": "SCADA",
+      "hmi": "HMI",
+      "hmiinterface": "Kiolesura cha HMI",
+      "industrialiot": "IoT ya Viwandani",
+      "environmentalmonitoring": "Ufuatiliaji wa Mazingira",
+      "predictiveanalytics": "Uchambuzi wa Utabiri",
+      "edgecomputing": "Kompyuta ya Ukingoni",
+      "instrumentation": "Ala",
+      "installation&commissioning": "Ufungaji na Uanzishaji",
+      "electricalsystems": "Mifumo ya Umeme",
+      "controlpanels": "Paneli za Udhibiti",
+      "automationnetworks": "Mitandao ya Uendeshaji",
+      "solarpanelsystems": "Mifumo ya Paneli za Jua",
+      "earthing&protection": "Kutuliza na Ulinzi",
+      "gridsynchronization": "Usawazishaji wa Gridi",
+      "electricalinfrastructure": "Miundombinu ya Umeme",
+      "monitoringsystems": "Mifumo ya Ufuatiliaji",
+      "processautomation": "Uendeshaji wa Mchakato",
+      "controllogic": "Mantiki ya Udhibiti",
+      "powerdistribution": "Usambazaji wa Nguvu",
+      "turbinecontrolsystems": "Mifumo ya Udhibiti wa Turbine",
+      "vibrationmonitoring": "Ufuatiliaji wa Mtetemo",
+      "powermanagement": "Usimamizi wa Nguvu",
+      "civilinfrastructure": "Miundombinu ya Kiraia",
+      "evchargingsystems": "Mifumo ya Kuchaji EV",
+      "electricalpanels": "Paneli za Umeme",
+      "smartmetering": "Upimaji Mahiri",
+      "processinstrumentation": "Ala ya Mchakato",
+      "controlsystems": "Mifumo ya Udhibiti",
+      "distributionsystems": "Mifumo ya Usambazaji",
+      "monitoringequipment": "Vifaa vya Ufuatiliaji",
+      "plcsystems": "Mifumo ya PLC",
+      "waterqualitymonitoring": "Ufuatiliaji wa Ubora wa Maji"
+    },
+    "technologiesUsed": "Teknolojia Zinazotumika",
+    "completedDate": "Imekamilika",
+    "tabs": {
+      "portfolio": "Kwingineko ya Mradi",
+      "showcase": "Miradi Iliyoangaziwa"
+    },
+    "hero": {
+      "title": "Miradi Yetu",
+      "subtitle": "Gundua ubora wetu wa uhandisi kupitia miradi 1200+ iliyofanikiwa katika tasnia mbalimbali, inayoonyesha uvumbuzi, ubora na uaminifu."
+    },
+    "statuses": {
+      "capabilitydemo": "Onyesho la Uwezo",
+      "inprogress": "Inaendelea",
+      "completed": "Imekamilika",
+      "planning": "Awamu ya Mipango",
+      "contractsigned": "Mkataba Umesainiwa",
+      "engineeringphase": "Awamu ya Uhandisi"
+    },
+    "categories": {
+      "processautomation": "Uendeshaji wa Mchakato",
+      "powersystems": "Mifumo ya Nguvu",
+      "solarsolutions": "Suluhisho za Jua",
+      "manufacturing": "Utengenezaji",
+      "watertreatment": "Usafishaji wa Maji",
+      "watersystems": "Mifumo ya Maji",
+      "powerplant": "Mtambo wa Umeme"
+    },
+    "highlights": {
+      "plcintegration": "Ujumuishaji wa PLC",
+      "scadasystems": "Mifumo ya SCADA",
+      "realtimemonitoring": "Ufuatiliaji wa Wakati Halisi",
+      "processoptimization": "Uboreshaji wa Mchakato",
+      "loadbalancing": "Usawazishaji wa Mzigo",
+      "protectionsystems": "Mifumo ya Ulinzi",
+      "energymanagement": "Usimamizi wa Nishati",
+      "remotecontrol": "Udhibiti wa Mbali",
+      "advancedscadaimplementation": "Utekelezaji wa Juu wa SCADA",
+      "real-timeprocessmonitoring": "Ufuatiliaji wa Mchakato wa Wakati Halisi",
+      "automatedqualitycontrol": "Udhibiti wa Ubora Kiotomatiki",
+      "remotesystemmanagement": "Usimamizi wa Mfumo wa Mbali",
+      "fullfacilitycommissioning": "Uanzishaji Kamili wa Kituo",
+      "integratedcontrolsystems": "Mifumo Jumuishi ya Udhibiti",
+      "safetysystemintegration": "Ujumuishaji wa Mfumo wa Usalama"
+    }
+  },
+  "products": {
+    "seo": {
+      "title": "Bidhaa za Viwandani na Vifaa vya Uendeshaji - Powerton Engineering",
+      "description": "Aina kamili ya bidhaa za automatisheni ya viwandani, vipengele vya umeme, ala, mifumo ya jua, pampu na zana. Vifaa bora kwa matumizi ya viwandani.",
+      "keywords": "bidhaa za viwandani, vifaa vya automatisheni, vifaa vya umeme, bidhaa za ala, paneli za jua, pampu za viwandani, vyombo vya kupimia, vifaa vya usalama"
+    },
+    "sections": {
+      "industrialProducts": "Aina za Bidhaa za Viwandani",
+      "hmiSolutions": "Suluhisho za HMI",
+      "heatingSolutions": "Suluhisho za Kupasha joto",
+      "handToolCategories": "Aina za Zana za Mkono",
+      "diaphragmPumpTypes": "Aina za Pampu za Diaphragm",
+      "calibrationSolutions": "Suluhisho za Upimaji"
+    },
+    "cta": {
+      "needExpertSolutions": "Unahitaji Suluhisho Bora za Viwandani?",
+      "expertDescription": "Wataalamu wetu wa kiufundi wako tayari kukusaidia katika kuchagua bidhaa bora za viwandani na suluhisho za uhandisi kwa mahitaji yako ya automatisheni na umeme.",
+      "needHmiSolutions": "Unahitaji Suluhisho za HMI?",
+      "hmiDescription": "Wataalamu wetu wa HMI wanaweza kuunda miingiliano ya opereta angavu kwa mifumo yako ya automatisheni.",
+      "contactHmiExperts": "Wasiliana na Wataalamu wa HMI",
+      "requestQuote": "Omba Nukuu",
+      "needHeatingolutions": "Unahitaji Suluhisho za Kupasha joto za Viwandani?",
+      "heatingDescription": "Wataalamu wetu wa kupasha joto wanaweza kubuni mifumo maalum ya kupasha joto kwa michakato yako ya viwandani.",
+      "contactHeatingExperts": "Wasiliana na Wataalamu wa Kupasha joto",
+      "needDiaphragmPumps": "Unahitaji Suluhisho za Pampu za Diaphragm?",
+      "diaphragmDescription": "Wahandisi wetu wa pampu wanaweza kukusaidia kuchagua pampu sahihi ya diaphragm kwa mahitaji yako ya kushughulikia kemikali.",
+      "contactPumpExperts": "Wasiliana na Wataalamu wa Pampu",
+      "needCalibration": "Unahitaji Huduma za Upimaji?",
+      "calibrationDescription": "Wataalamu wetu wa upimaji huhakikisha vyombo vyako vinakidhi viwango vya juu zaidi vya usahihi.",
+      "contactCalibrationExperts": "Wasiliana na Wataalamu wa Upimaji"
+    },
+    "badges": {
+      "handTools": "Zana za Mkono",
+      "powerTools": "Zana za Nguvu",
+      "liftingEquipment": "Vifaa vya Kuinua",
+      "safetyGear": "Vifaa vya Usalama",
+      "touchscreen": "Skrini ya Kugusa",
+      "industrialGrade": "Kiwango cha Viwandani",
+      "realTimeDisplay": "Onyesho la Wakati Halisi",
+      "multiProtocol": "Itifaki Nyingi",
+      "heatingElements": "Vipengele vya Kupasha joto",
+      "industrialOvens": "Tanuri za Viwandani",
+      "heatTracing": "Ufuatiliaji wa Joto",
+      "temperatureControl": "Udhibiti wa Joto",
+      "precisionTools": "Zana za Usahihi",
+      "durableConstruction": "Ujenzi Imara",
+      "ergonomicDesign": "Muundo wa Ergonomic",
+      "professionalGrade": "Kiwango cha Kitaalamu"
+    }
+  },
+  "services": {
+    "relatedServices": {
+      "description": "Gundua huduma zetu zingine za kitaalamu ambazo zinaongezea"
+    },
+    "seo": {
+      "title": "Huduma za Uhandisi za Kitaalamu - Ufungaji, Matengenezo na Uendeshaji | Powerton Engineering",
+      "description": "Huduma za uhandisi za kitaalamu: Programu ya PLC, mifumo ya SCADA, automatisheni ya viwandani, ufungaji wa paneli za umeme, matengenezo, upimaji, suluhisho maalum, na huduma za EPC za jua kote China.",
+      "keywords": "huduma za uhandisi, huduma za automatisheni ya viwandani, programu ya PLC, utekelezaji wa SCADA, usakinishaji wa paneli za umeme, huduma za matengenezo, huduma za upimaji, suluhisho za automatisheni maalum, mkandarasi wa solar EPC, msaada wa kiufundi India"
+    },
+    "hero": {
+      "title": "Huduma za Uhandisi za Kitaalamu",
+      "subtitle": "Suluhisho kamili za automatisheni ya viwandani, uhandisi wa umeme, na ala iliyoundwa ili kuboresha shughuli zako na kuendesha mafanikio ya biashara."
+    },
+    "whyChoose": {
+      "title": "Kwa Nini Uchague Powerton Engineering?",
+      "description": "Tukiwa na timu yetu ya wataalamu na vifaa vya hali ya juu, tunakupa mshirika anayetegemewa kwa suluhisho za uhandisi za ubora wa juu."
+    },
+    "benefits": {
+      "expertTeam": {
+        "title": "Timu ya Wataalamu",
+        "description": "Wataalamu walioidhinishwa na uzoefu mkubwa wa tasnia"
+      },
+      "rapidResponse": {
+        "title": "Majibu ya Haraka",
+        "description": "Wastani wa muda wa kujibu wa saa 2 kwa maombi yote ya usaidizi"
+      },
+      "qualityAssured": {
+        "title": "Ubora Umehakikishwa",
+        "description": "Michakato iliyoidhinishwa na ISO na viwango vya ubora vilivyohakikishwa"
+      },
+      "clientFocused": {
+        "title": "Imelenga Mteja",
+        "description": "Suluhisho zilizoundwa kulingana na mahitaji yako maalum"
+      }
+    },
+    "cta": {
+      "title": "Uko Tayari Kuanza?",
+      "description": "Wasiliana nasi leo ili kujadili mahitaji yako ya mradi na upokee suluhisho maalum."
+    }
+  },
+  "notFound": {
+    "seo": {
+      "title": "Ukurasa Haupatikani (404) - Powerton Engineering",
+      "description": "Ukurasa unaotafuta haupo. Rudi kwenye ukurasa wa nyumbani wa Powerton Engineering au chunguza huduma na bidhaa zetu za automatisheni ya viwandani."
+    },
+    "title": "404",
+    "heading": "Ukurasa Haupatikani",
+    "message": "Samahani, ukurasa unaotafuta haupo. Huenda umehamishwa, kufutwa, au URL isiyo sahihi iliingizwa.",
+    "buttons": {
+      "homepage": "Rudi kwenye Ukurasa wa Nyumbani",
+      "support": "Wasiliana na Usaidizi"
+    },
+    "quickLinks": "Viungo vya Haraka",
+    "links": {
+      "products": "Bidhaa",
+      "services": "Huduma",
+      "projects": "Miradi",
+      "about": "Kuhusu Sisi"
+    }
+  },
+  "quote": {
+    "seo": {
+      "title": "Pata Nukuu na Kikokotozi cha Gharama - Suluhisho za Automatisheni ya Viwandani | Powerton Engineering",
+      "description": "Omba nukuu ya kina kwa automatisheni ya mchakato, paneli za udhibiti wa umeme, ala, mifumo ya SCADA, programu ya PLC, na suluhisho maalum za uhandisi. Tumia kikokotozi chetu cha gharama shirikishi kwa makadirio ya papo hapo na bei maalum za tasnia. Ushauri wa bure unapatikana. Tunahudumia India yote kwa bei za ushindani na muda wa kujibu wa saa 24-48.",
+      "keywords": "nukuu ya automatisheni ya viwandani, bei ya paneli ya udhibiti wa umeme, gharama ya automatisheni ya mchakato, nukuu ya programu ya PLC, bei ya mfumo wa SCADA, nukuu ya ala, kikokotozi cha gharama ya suluhisho za uhandisi, nukuu ya mifumo ya udhibiti wa viwandani, kikadiriaji cha gharama ya mradi wa automatisheni, nukuu ya mtengenezaji wa paneli za umeme, bei ya automatisheni ya viwandani India, kikokotozi cha gharama ya paneli ya udhibiti, nukuu ya ushauri wa uhandisi, bei ya automatisheni ya utengenezaji"
+    },
+    "form": {
+      "title": "Omba Nukuu Maalum",
+      "description": "Pata nukuu ya kina iliyoundwa kulingana na mahitaji yako maalum ya mradi kutoka kwa wataalamu wetu wa uhandisi."
+    },
+    "hero": {
+      "title": "Pata Nukuu ya Uhandisi ya Kitaalamu",
+      "subtitle": "Wasiliana na timu yetu ya wataalamu kwa suluhisho maalum za automatisheni na ala kwa mahitaji yako ya viwandani.",
+      "estimates": "Kadirio la Gharama",
+      "benefits": {
+        "consultation": "Ushauri wa Kiufundi Bure",
+        "response": "Muda wa Kujibu wa Saa 24-48",
+        "estimates": "Makadirio ya Gharama ya Kina",
+        "noCosts": "Hakuna Gharama Zilizofichwa"
+      }
+    },
+    "benefits": {
+      "title": "Kwa nini uchague huduma yetu ya nukuu?",
+      "description": "Pata bei sahihi na ushauri wa kitaalamu kwa miradi yako ya uhandisi na huduma yetu pana ya nukuu.",
+      "assessment": {
+        "title": "Tathmini ya Kina",
+        "description": "Tathmini kamili ya mradi na vipimo vya kiufundi"
+      },
+      "response": {
+        "title": "Majibu ya Haraka",
+        "description": "Pokea nukuu yako ya kina ndani ya masaa 24-48"
+      },
+      "consultation": {
+        "title": "Ushauri wa Kitaalamu",
+        "description": "Ushauri wa kiufundi bure na timu yetu ya uhandisi"
+      },
+      "solutions": {
+        "title": "Suluhisho Maalum",
+        "description": "Suluhisho za uhandisi zilizoundwa kwa mahitaji yako maalum"
+      }
+    },
+    "method": {
+      "title": "Chagua Njia Yako ya Nukuu",
+      "description": "Chagua njia rahisi zaidi ya kupata nukuu ya mradi. Chaguzi zote mbili hutoa bei kamili na vipimo vya kiufundi.",
+      "calculator": "Kikokotozi Mahiri",
+      "request": "Ombi la Nukuu"
+    },
+    "calculator": {
+      "title": "Kikokotozi cha Gharama cha Juu",
+      "description": "Tunaboresha zana yetu mahiri ya kukadiria gharama. Kipengele hiki kitatoa bei ya papo hapo na sahihi kwa miradi yako ya automatisheni.",
+      "launchingSoon": "Inazinduliwa Hivi Karibuni",
+      "useQuoteForm": "Kwa nukuu ya haraka, tafadhali tumia fomu yetu ya nukuu ya kina",
+      "getQuoteNow": "Pata Nukuu Sasa",
+      "projectTitle": "Kikokotozi cha Gharama ya Mradi",
+      "stepOf": "Hatua ya {{current}} kati ya {{total}}"
+    },
+    "process": {
+      "title": "Mchakato Wetu wa Nukuu",
+      "description": "Kuanzia ombi la awali hadi pendekezo la kina, tunahakikisha mchakato laini na wa uwazi.",
+      "submit": {
+        "title": "Wasilisha Ombi",
+        "description": "Jaza fomu yetu kamili ya nukuu au tumia kikokotozi chetu cha gharama"
+      },
+      "review": {
+        "title": "Ukaguzi wa Kiufundi",
+        "description": "Timu yetu ya uhandisi inachambua mahitaji na vipimo vyako"
+      },
+      "assessment": {
+        "title": "Tathmini ya Eneo",
+        "description": "Ziara ya hiari ya eneo kwa miradi ngumu, ikiwa inahitajika"
+      },
+      "quote": {
+        "title": "Nukuu ya Kina",
+        "description": "Pokea bei kamili na ratiba na matokeo"
+      }
+    },
+    "cta": {
+      "tryCalculator": "Jaribu Kikokotozi cha Gharama",
+      "requestQuote": "Omba Nukuu Maalum",
+      "title": "Uko Tayari Kuanza?",
+      "description": "Wasiliana nasi leo ili kupata suluhisho zako za uhandisi maalum. Timu yetu iko tayari kukusaidia kuleta mradi wako hai."
+    },
+    "projectTypes": {
+      "processAutomation": "Uendeshaji wa Mchakato",
+      "powerControlSystems": "Mifumo ya Udhibiti wa Nguvu",
+      "instrumentationControl": "Ala na Udhibiti",
+      "solarAutomation": "Uendeshaji wa Jua",
+      "buildingAutomation": "Uendeshaji wa Jengo",
+      "manufacturingAutomation": "Uendeshaji wa Utengenezaji"
+    },
+    "industries": {
+      "manufacturing": "Utengenezaji",
+      "powerGeneration": "Uzalishaji wa Nguvu",
+      "oilGas": "Mafuta na Gesi",
+      "chemicalProcessing": "Usindikaji wa Kemikali",
+      "waterTreatment": "Usafishaji wa Maji",
+      "foodBeverage": "Chakula na Vinywaji",
+      "pharmaceutical": "Dawa",
+      "renewableEnergy": "Nishati Mbadala"
+    },
+    "projectSizes": {
+      "small": "Ndogo (Pointi 1-10 za I/O)",
+      "medium": "Kati (Pointi 11-100 za I/O)",
+      "large": "Kubwa (Pointi 101-500 za I/O)",
+      "enterprise": "Biashara (Pointi 500+ za I/O)"
+    },
+    "timelines": {
+      "urgent": "Haraka (< Miezi 3)",
+      "standard": "Kawaida (Miezi 3-6)",
+      "extended": "Iliyoongezwa (Miezi 6-12)",
+      "longTerm": "Muda Mrefu (Miezi 12+)"
+    },
+    "requirements": {
+      "plcProgramming": "Programu ya PLC",
+      "scadaDevelopment": "Uendelezaji wa SCADA",
+      "hmiDesign": "Muundo wa HMI",
+      "networkIntegration": "Ujumuishaji wa Mtandao",
+      "safetySystems": "Mifumo ya Usalama",
+      "remoteMonitoring": "Ufuatiliaji wa Mbali",
+      "dataAnalytics": "Uchambuzi wa Data",
+      "mobileApp": "Kiolesura cha Programu ya Simu"
+    },
+    "additionalFeatures": {
+      "redundancy": "Utoaji wa Mfumo",
+      "cybersecurity": "Usalama wa Mtandao wa Juu",
+      "iotIntegration": "Ujumuishaji wa IoT",
+      "aiMl": "Uchambuzi wa AI/ML",
+      "predictiveMaintenance": "Matengenezo ya Utabiri",
+      "energyManagement": "Usimamizi wa Nishati",
+      "cloudIntegration": "Ujumuishaji wa Wingu",
+      "trainingSupport": "Mafunzo na Msaada Uliopanuliwa"
+    }
+  },
+  "gallery": {
+    "seo": {
+      "title": "Ghala - Miradi, Bidhaa na Timu ya Powerton Engineering",
+      "description": "Gundua ghala la Powerton Engineering linaloonyesha timu yetu, miradi ya automatisheni ya viwandani iliyokamilika, na anuwai kamili ya bidhaa. Kujenga uaminifu kupitia uwazi.",
+      "keywords": "ghala la powerton engineering, ghala la miradi ya viwandani, miradi ya automatisheni, timu ya uhandisi wa umeme, maonyesho ya bidhaa, vifaa vya kampuni"
+    },
+    "hero": {
+      "title": "Picha Zetu",
+      "subtitle": "Gundua safari yetu kupitia picha - kutoka kwa timu yetu iliyojitolea na vifaa vya kisasa hadi miradi iliyofanikiwa na anuwai kamili ya bidhaa."
+    },
+    "tabs": {
+      "company": "Timu ya Kampuni",
+      "projects": "Miradi",
+      "products": "Bidhaa"
+    },
+    "company": {
+      "images": {
+        "modernFacility": {
+          "title": "Kitengo cha Kisasa cha Uhandisi",
+          "description": "Kitengo chetu cha kisasa huko Noida, kilicho na vifaa vya hivi karibuni vya upimaji"
+        },
+        "expertTeam": {
+          "title": "Timu ya Wataalam wa Uhandisi",
+          "description": "Wahandisi wetu wenye ujuzi wa hali ya juu wamejitolea kwa suluhisho za automatisheni ya viwandani"
+        },
+        "qualityLab": {
+          "title": "Maabara ya Udhibiti wa Ubora",
+          "description": "Maabara ya hali ya juu ya upimaji kuhakikisha ubora na uaminifu wa bidhaa"
+        },
+        "trainingCenter": {
+          "title": "Kituo cha Mafunzo na Maendeleo",
+          "description": "Uendelezaji wa ujuzi unaoendelea kwa timu yetu ya ufundi"
+        },
+        "supportCenter": {
+          "title": "Kituo cha Usaidizi kwa Wateja",
+          "description": "Msaada wa kitaalamu wa wateja wa 24/7 na usaidizi wa kiufundi"
+        },
+        "rdWing": {
+          "title": "Idara ya Utafiti na Maendeleo",
+          "description": "Kitovu cha uvumbuzi kinachoendeleza suluhisho za kisasa za automatisheni"
+        }
+      },
+      "categories": {
+        "facility": "Kitengo",
+        "team": "Timu",
+        "training": "Mafunzo",
+        "support": "Usaidizi",
+        "rd": "Utafiti na Maendeleo"
+      }
+    },
+    "sections": {
+      "company": {
+        "title": "Kampuni na Timu Yetu",
+        "description": "Kutana na timu yetu iliyojitolea na uchunguze vituo vyetu vya hali ya juu ambavyo vinatuwezesha kutoa ubora katika kila mradi."
+      },
+      "projects": {
+        "title": "Miradi Yetu Iliyokamilika",
+        "description": "Gundua utekelezaji wetu wa miradi iliyofanikiwa katika tasnia anuwai, inayoonyesha utaalam wetu na kujitolea kwa ubora."
+      },
+      "products": {
+        "title": "Bidhaa na Suluhisho Zetu",
+        "description": "Gundua anuwai yetu kamili ya bidhaa na suluhisho za viwandani kutoka kwa wazalishaji wakuu wa ulimwengu."
+      }
+    },
+    "projects": {
+      "images": {
+        "controlPanel": {
+          "title": "Usakinishaji wa Paneli ya Udhibiti wa Viwandani",
+          "description": "Utekelezaji kamili wa mfumo wa automatisheni kwa mmea wa utengenezaji",
+          "client": "Sekta ya Utengenezaji"
+        },
+        "solarPlant": {
+          "title": "Mtambo wa Umeme wa Jua - 1MW",
+          "description": "Ufungaji wa jua uliounganishwa na gridi ya taifa na mifumo ya ufuatiliaji",
+          "client": "Jengo la Viwandani"
+        },
+        "scadaSystem": {
+          "title": "Utekelezaji wa Mfumo wa SCADA",
+          "description": "Mfumo mkuu wa ufuatiliaji na udhibiti kwa mmea wa kusafisha maji",
+          "client": "Mamlaka ya Maji"
+        },
+        "instrumentation": {
+          "title": "Uboreshaji wa Ala ya Mchakato",
+          "description": "Ukarabati kamili wa ala kwa kitengo cha usindikaji wa kemikali",
+          "client": "Sekta ya Kemikali"
+        },
+        "plcProgramming": {
+          "title": "Programu na Ujumuishaji wa PLC",
+          "description": "Mifumo ya hali ya juu ya PLC kwa automatisheni ya mstari wa uzalishaji",
+          "client": "Sekta ya Magari"
+        },
+        "electricalPanel": {
+          "title": "Usasaishaji wa Paneli ya Umeme",
+          "description": "Mradi wa utiifu wa usalama na uboreshaji wa ufanisi",
+          "client": "Kitengo cha Utengenezaji"
+        }
+      },
+      "categories": {
+        "automation": "Automatisheni",
+        "solarEpc": "Solar EPC",
+        "scada": "SCADA",
+        "instrumentation": "Ala",
+        "plcProgramming": "Programu ya PLC",
+        "electrical": "Umeme"
+      }
+    },
+    "products": {
+      "images": {
+        "controlSystems": {
+          "title": "Mifumo ya Udhibiti wa Hali ya Juu",
+          "description": "Suluhisho za kisasa za automatisheni na udhibiti"
+        },
+        "electricalPanels": {
+          "title": "Paneli za Udhibiti wa Umeme",
+          "description": "Paneli zilizobuniwa kwa matumizi ya viwandani"
+        },
+        "instrumentation": {
+          "title": "Ala Sahihi",
+          "description": "Vyombo vya hali ya juu vya kupima na kudhibiti"
+        },
+        "pumps": {
+          "title": "Pampu na Motors za Viwandani",
+          "description": "Suluhisho za pampu za kuaminika kwa matumizi anuwai"
+        },
+        "solarProducts": {
+          "title": "Suluhisho za Nishati ya Jua",
+          "description": "Mifumo kamili ya nishati ya jua na vipengele"
+        },
+        "safetyEquipment": {
+          "title": "Usalama na Ulinzi",
+          "description": "Vifaa vya usalama vya viwandani na vifaa vya kinga"
+        }
+      },
+      "categories": {
+        "controlSystems": "Mifumo ya Udhibiti",
+        "electricalPanels": "Paneli za Umeme",
+        "instrumentation": "Ala",
+        "pumps": "Pampu na Motors",
+        "solar": "Bidhaa za Jua",
+        "safety": "Vifaa vya Usalama"
+      }
+    },
+    "ui": {
+      "viewLarger": "Angalia Kubwa Zaidi",
+      "downloadImage": "Pakua Picha",
+      "requestDownload": "Omba Kupakua",
+      "needCustomPortfolio": "Unahitaji Portfolio Maalum?",
+      "contactUs": "Wasiliana nasi kwa portfolio ya mradi iliyobinafsishwa inayoonyesha kazi yetu inayohusiana na tasnia yako.",
+      "imageNotFound": "Picha haipatikani",
+      "noImagesFound": "Hakuna picha zilizopatikana kwa kitengo hiki",
+      "allCategories": "Kategoria Zote",
+      "year": "Mwaka",
+      "location": "Mahali",
+      "client": "Mteja",
+      "category": "Kategoria"
+    }
+  },
+  "contact": {
+    "whatsapp": {
+      "defaultMessage": "Habari! Ninavutiwa na suluhisho zako za uhandisi na automatisheni ya viwandani. Ningependa kujadili mahitaji ya mradi wangu."
+    },
+    "hero": {
+      "title": "Wasiliana na Wataalamu Wetu wa Uhandisi",
+      "subtitle": "Pata usaidizi wa kitaalamu kwa miradi yako ya automatisheni ya viwandani na uhandisi wa umeme. Timu yetu yenye uzoefu iko tayari kukusaidia kufanikiwa.",
+      "benefits": {
+        "consultation": "Ushauri wa Bure wa Kitaalamu",
+        "support": "Msaada wa Ufundi wa 24/7",
+        "experience": "Uzoefu wa Zaidi ya Miaka 15"
+      }
+    },
+    "methods": {
+      "title": "Njia Nyingi za Kuwasiliana Nasi",
+      "subtitle": "Chagua njia ya mawasiliano inayokufaa zaidi. Tunapatikana 24/7 kwa msaada wa dharura."
+    },
+    "form": {
+      "title": "Tutumie Ujumbe",
+      "subtitle": "Wasiliana nasi kwa maswali ya jumla, maelezo ya huduma, au maswali ya kiufundi."
+    },
+    "contactMethods": {
+      "phone": {
+        "title": "Tupigie Simu Moja kwa Moja",
+        "subtitle": "Inapatikana 24/7 kwa msaada",
+        "description": "Ongea moja kwa moja na timu yetu ya ufundi"
+      },
+      "email": {
+        "title": "Msaada wa Barua Pepe",
+        "subtitle": "Majibu ndani ya masaa 24",
+        "description": "Tutumie mahitaji ya kina ya mradi"
+      },
+      "whatsapp": {
+        "title": "Msaada wa WhatsApp",
+        "subtitle": "Gumzo la majibu ya haraka",
+        "description": "Pata majibu ya papo hapo kwa maswali yako"
+      },
+      "visit": {
+        "title": "Tembelea Ofisi Yetu",
+        "subtitle": "Kwa miadi tu",
+        "description": "Panga ziara ya makao makuu yetu huko Noida"
+      }
+    },
+    "map": {
+      "title": "Mahali pa Ofisi ya Powerton Engineering"
+    },
+    "office": {
+      "name": "Makao Makuu ya Shirika",
+      "hours": "Jumatatu-Jumamosi: 9:00 AM - 6:00 PM"
+    },
+    "services": {
+      "technical": {
+        "title": "Msaada wa Ufundi",
+        "description": "Msaada wa kitaalamu kwa bidhaa na huduma zetu zote"
+      },
+      "customer": {
+        "title": "Mafanikio ya Wateja",
+        "description": "Msaada uliojitolea kuhakikisha mafanikio ya mradi wako"
+      },
+      "onsite": {
+        "title": "Msaada wa Eneo la Tukio",
+        "description": "Msaada wa uhandisi wa shambani katika eneo lako"
+      },
+      "remote": {
+        "title": "Msaada wa Mbali",
+        "description": "Usaidizi pepe na uchunguzi wa mfumo wa mbali"
+      }
+    },
+    "sections": {
+      "visitOffice": "Tembelea Ofisi Yetu",
+      "officeLocation": "Mahali pa Ofisi",
+      "supportServices": "Huduma za Msaada",
+      "businessHours": "Saa za Kazi na Upatikanaji",
+      "getDirections": "Pata Maelekezo"
+    },
+    "formSection": {
+      "title": "Fomu ya Mawasiliano ya Jumla",
+      "description": "Kwa maswali ya jumla, maelezo ya huduma, au maswali ya kiufundi"
+    },
+    "businessHours": {
+      "regular": {
+        "title": "Saa za Kawaida",
+        "days": "Jumatatu - Jumamosi",
+        "time": "9:00 AM - 6:00 PM"
+      },
+      "emergency": {
+        "title": "Msaada wa Dharura",
+        "availability": "Upatikanaji wa 24/7",
+        "days": "Siku Zote"
+      },
+      "email": {
+        "title": "Majibu ya Barua Pepe",
+        "time": "Ndani ya Masaa 24",
+        "guarantee": "Imehakikishwa"
+      }
+    },
+    "emergency": {
+      "title": "Msaada wa Dharura",
+      "description": "Kushindwa kwa mfumo muhimu? Timu yetu ya kukabiliana na dharura inapatikana 24/7 kusaidia kupunguza muda wa kusubiri.",
+      "hotline": "Nambari ya Simu ya Dharura"
+    },
+    "seo": {
+      "title": "Wasiliana na Powerton Engineering - Pata Msaada wa Kitaalamu wa Uhandisi",
+      "description": "Wasiliana na wataalamu wetu wa uhandisi kwa automatisheni ya viwandani, mifumo ya umeme, na msaada wa kiufundi. Piga simu +91-94627-71662 au tuma barua pepe kwa info@powertonengineering.com",
+      "keywords": "wasiliana na powerton engineering, msaada wa uhandisi, mawasiliano ya automatisheni ya viwandani, msaada wa uhandisi wa umeme, mawasiliano ya kampuni ya uhandisi ya noida"
+    }
+  },
+  "ui": {
+    "projectPortfolio": "Kwingineko ya Mradi",
+    "featuredProjects": "Miradi Iliyoangaziwa"
+  },
+  "sitemap": {
+    "seo": {
+      "keywords": "ramani ya tovuti, urambazaji wa tovuti, powerton engineering, automatisheni ya viwandani, uhandisi wa umeme, bidhaa, huduma, miradi, muundo wa tovuti"
+    },
+    "quickActions": {
+      "title": "Unahitaji Msaada Kupata Kitu?",
+      "description": "Hupati unachotafuta? Wasiliana nasi moja kwa moja au tumia chatbot yetu yenye akili inayopatikana kwenye kila ukurasa.",
+      "contactUs": "Wasiliana Nasi",
+      "requestQuote": "Omba Nukuu"
+    }
+  },
+  "portfolio": {
+    "features": {
+      "completedProjects": "Miradi iliyokamilishwa kwa mafanikio katika tasnia mbalimbali",
+      "highQuality": "Nyaraka za Ubora wa Juu",
+      "highQualityDesc": "Kwingineko ya kitaalamu na picha za kina za mradi",
+      "verifiedResults": "Matokeo Yaliyothibitishwa",
+      "verifiedResultsDesc": "Miradi halisi na matokeo yanayopimika na ushuhuda wa wateja"
+    }
+  },
+  "career": {
+    "seo": {
+      "title": "Kazi katika Powerton Engineering - Jiunge na Timu Yetu ya Uhandisi",
+      "description": "Gundua fursa za kazi katika Powerton Engineering. Jiunge na timu yetu ya wahandisi wenye ujuzi na uchangie katika miradi ya ubunifu ya automatisheni ya viwandani na uhandisi wa umeme.",
+      "keywords": "kazi za powerton engineering, kazi za uhandisi, kazi za mhandisi wa umeme, kazi za mhandisi wa automatisheni, kazi za uhandisi wa viwandani, kazi za uhandisi noida"
+    },
+    "hero": {
+      "title": "Jenga Kazi Yako ya Uhandisi Nasi",
+      "subtitle": "Jiunge na timu yetu yenye shauku ya wahandisi na uchangie katika suluhisho za ubunifu za automatisheni ya viwandani",
+      "benefits": {
+        "growth": "Fursa za Ukuaji",
+        "innovation": "Miradi ya Kibunifu",
+        "culture": "Utamaduni wa Ushirikiano"
+      },
+      "imageAlt": "Nafasi ya kazi ya uhandisi ya kitaalamu na vifaa vya kisasa vya kituo cha viwandani"
+    },
+    "benefits": {
+      "careerGrowth": {
+        "title": "Ukuaji wa Kazi",
+        "description": "Maendeleo ya kazi yaliyopangwa na ukaguzi wa mara kwa mara wa utendaji na fursa za kupandishwa cheo."
+      },
+      "learningDevelopment": {
+        "title": "Kujifunza na Maendeleo",
+        "description": "Programu endelevu za mafunzo, vyeti, na fursa za kuboresha ujuzi."
+      },
+      "workLifeBalance": {
+        "title": "Usawa wa Maisha ya Kazi",
+        "description": "Saa za kazi zinazobadilika na faida za afya za kina kwa wafanyakazi na familia."
+      },
+      "teamCulture": {
+        "title": "Utamaduni wa Timu",
+        "description": "Mazingira ya kazi ya ushirikiano na wajumbe wa timu wanaosaidia na mawasiliano ya wazi."
+      },
+      "recognitionRewards": {
+        "title": "Utambuzi na Tuzo",
+        "description": "Motisha zinazotegemea utendaji, bonasi, na programu za utambuzi kwa kazi bora."
+      },
+      "innovationFocus": {
+        "title": "Mtazamo wa Ubunifu",
+        "description": "Fanya kazi kwenye teknolojia za kisasa na suluhisho za ubunifu katika automatisheni ya viwandani."
+      }
+    },
+    "whyJoinUs": {
+      "title": "Kwa Nini Uchague Powerton Engineering?",
+      "description": "Kuwa sehemu ya timu yenye nguvu ambayo inaunda mustakabali wa automatisheni ya viwandani na uhandisi wa umeme"
+    },
+    "cta": {
+      "title": "Uko Tayari Kuanza Safari Yako ya Uhandisi?",
+      "description": "Jiunge na timu yetu ya wahandisi wa ubunifu na uwe sehemu ya miradi ya kuvutia ya automatisheni ya viwandani. Chukua hatua ijayo katika kazi yako na Powerton Engineering.",
+      "applyNow": "Omba Sasa",
+      "viewOpenings": "Angalia Nafasi Zilizopo"
+    }
+  },
+  "seo": {
+    "productPages": {
+      "plcs": {
+        "title": "PLCs (Vidhibiti Mantiki Vinavyoweza Kupangwa) - Automatisheni ya Viwandani | Powerton Engineering",
+        "description": "PLCs za ubora wa juu kutoka kwa wazalishaji wakuu: Siemens SIMATIC, Allen-Bradley CompactLogix, Schneider Modicon. Uprogramu, usakinishaji na usaidizi wa PLC na wataalamu kote India.",
+        "keywords": "PLCs, vidhibiti mantiki vinavyoweza kupangwa, Siemens SIMATIC, Allen-Bradley CompactLogix, Schneider Modicon, vidhibiti vya automatisheni ya viwandani, programu ya PLC, automatisheni ya kiwanda"
+      },
+      "solarPanels": {
+        "title": "Paneli za Jua - Monokristalini & Polikristalini | Powerton Engineering",
+        "description": "Paneli za jua zenye ufanisi wa hali ya juu: Monokristalini (400W), Polikristalini (320W), na Bifacial (450W). Suluhisho kamili za nishati ya jua na usaidizi wa usakinishaji kote India.",
+        "keywords": "paneli za jua, paneli za jua za monokristalini, paneli za jua za polikristalini, paneli za jua za bifacial, mifumo ya nishati ya jua, nishati mbadala, usakinishaji wa jua India"
+      },
+      "scada": {
+        "title": "Mifumo ya SCADA - Ufuatiliaji na Udhibiti wa Viwandani | Powerton Engineering",
+        "description": "Mifumo ya SCADA ya hali ya juu kwa ufuatiliaji wa wakati halisi, upataji wa data, na udhibiti wa mchakato. Suluhisho kamili za SCADA na ujumuishaji wa HMI na uwezo wa ufikiaji wa mbali.",
+        "keywords": "mifumo ya SCADA, udhibiti wa usimamizi, upataji wa data, ufuatiliaji wa viwandani, udhibiti wa mchakato, ujumuishaji wa HMI, ufuatiliaji wa mbali, programu ya SCADA"
+      }
+    }
+  }
+}

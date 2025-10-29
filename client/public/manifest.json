@@ -1,0 +1,91 @@
+{
+  "name": "Powerton Engineering - Industrial Automation & Engineering Solutions",
+  "short_name": "Powerton Engineering",
+  "description": "Leading industrial automation company providing electrical control panels, process automation, instrumentation, BLDC motor systems, and comprehensive engineering solutions across India and globally.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#1e3a8a",
+  "theme_color": "#1e3a8a",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "lang": "en-IN",
+  "dir": "ltr",
+  "prefer_related_applications": false,
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "type": "image/x-icon",
+      "sizes": "16x16 32x32 48x48",
+      "purpose": "any"
+    }
+  ],
+  "categories": ["business", "productivity", "utilities", "industrial"],
+  "keywords": [
+    "industrial automation",
+    "electrical components",
+    "BLDC motors",
+    "process control",
+    "instrumentation",
+    "solar solutions",
+    "engineering services",
+    "PLCs",
+    "SCADA systems",
+    "control panels"
+  ],
+  "shortcuts": [
+    {
+      "name": "Products",
+      "short_name": "Products",
+      "description": "Browse our industrial products",
+      "url": "/products",
+      "icons": [
+        {
+          "src": "/favicon.ico",
+          "sizes": "48x48"
+        }
+      ]
+    },
+    {
+      "name": "Services",
+      "short_name": "Services",
+      "description": "View our engineering services",
+      "url": "/services",
+      "icons": [
+        {
+          "src": "/favicon.ico",
+          "sizes": "48x48"
+        }
+      ]
+    },
+    {
+      "name": "Contact",
+      "short_name": "Contact",
+      "description": "Get in touch with us",
+      "url": "/contact",
+      "icons": [
+        {
+          "src": "/favicon.ico",
+          "sizes": "48x48"
+        }
+      ]
+    },
+    {
+      "name": "Quote",
+      "short_name": "Quote",
+      "description": "Request a project quote",
+      "url": "/quote",
+      "icons": [
+        {
+          "src": "/favicon.ico",
+          "sizes": "48x48"
+        }
+      ]
+    }
+  ],
+  "screenshots": [],
+  "related_applications": [],
+  "protocol_handlers": [],
+  "edge_side_panel": {
+    "preferred_width": 400
+  }
+}

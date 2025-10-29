@@ -1,0 +1,3030 @@
+{
+  "seo": {
+    "title": "Industrial Automation Products & Electrical Components | PLC SCADA Systems, Sensors, Transmitters | Powerton Engineering",
+    "description": "Comprehensive catalog of industrial automation products, electrical control panel components, instrumentation accessories, PLC SCADA DCS systems, pressure transmitters, temperature sensors, flow meters, level sensors, circuit breakers, contactors, relays, VFD drives, motor control centers, solar products, BLDC motors, centrifugal pumps, measuring instruments, safety devices, and industrial tools. Authorized distributor of Siemens, Allen Bradley, Schneider, ABB, Honeywell, Yokogawa, Endress+Hauser, Rosemount. ISO certified supplier serving pharmaceutical, power plant, oil & gas, manufacturing industries across India.",
+    "keywords": "industrial automation products India, electrical control panel components, PLC systems, SCADA systems, DCS systems, HMI panels, pressure transmitters, temperature sensors, flow meters, level sensors, level transmitters, analytical instruments, process instrumentation, control valves, actuators, positioners, circuit breakers, contactors, relays, MCB, MCCB, ACB, VCB, motor starters, overload relays, VFD drives, soft starters, motor control center MCC, power control center PCC, distribution panels, switch disconnectors, industrial automation components, process control instruments, measuring instruments, field instruments, control room instruments, instrumentation accessories, signal conditioners, isolators, barriers, power supplies, solar panels, solar inverters, solar batteries, solar charge controllers, MPPT controllers, grid tie inverters, off grid inverters, hybrid inverters, BLDC ceiling fans, BLDC exhaust fans, BLDC motors, centrifugal pumps, monoblock pumps, submersible pumps, industrial pumps, pump spare parts, safety switches, emergency stop buttons, light curtains, safety relays, industrial tools, hand tools, power tools, measuring tools, multimeters, clamp meters, insulation testers, earth testers, power quality analyzers, calibrators, Siemens products India, Allen Bradley products, Schneider Electric products, ABB automation products, Honeywell instrumentation, Yokogawa transmitters, Endress Hauser sensors, Rosemount transmitters, Emerson products, Rockwell automation, Danfoss VFD, Delta VFD, control panel accessories, panel board components, electrical accessories, automation spare parts, instrumentation spare parts, industrial electrical products, factory automation products, process automation products, pharmaceutical automation products, power plant instrumentation, oil gas instrumentation, chemical plant instruments, water treatment instruments, food processing instrumentation, cement plant automation products, manufacturing automation products"
+  },
+  "title": "Our Products",
+  "subtitle": "Comprehensive range of industrial automation products, electrical components, instrumentation, solar systems, pumps, and tools. Quality equipment for industrial applications.",
+  "categories": {
+    "automation": "Automation & Control",
+    "electrical": "Electrical Components",
+    "instrumentation": "Instrumentation",
+    "solar": "Solar Products",
+    "motors": "BLDC Motor Systems",
+    "pumps": "Pumps & Motors",
+    "safety": "Safety Equipment",
+    "tools": "Industrial Tools",
+    "instrumentation-accessories": {
+      "title": "Instrumentation Accessories",
+      "description": "Precision instrumentation accessories for measurement and control",
+      "features": {
+        "pressure-transmitters": "Pressure Transmitters",
+        "temperature-sensors": "Temperature Sensors",
+        "flow-meters": "Flow Meters",
+        "level-indicators": "Level Indicators",
+        "analyzers": "Analyzers"
+      }
+    },
+    "electrical-accessories": {
+      "title": "Electrical Accessories",
+      "description": "Comprehensive electrical accessories solutions for industrial applications",
+      "features": {
+        "circuit-breakers": "Circuit Breakers",
+        "contactors": "Contactors",
+        "relays": "Relays",
+        "power-supplies": "Power Supplies"
+      }
+    },
+    "solar-products": {
+      "title": "Solar Products",
+      "description": "Complete solar energy solutions and components",
+      "features": {
+        "solar-panels": "Solar Panels",
+        "inverters": "Inverters",
+        "battery-storage": "Battery Storage",
+        "monitoring-systems": "Monitoring Systems"
+      }
+    },
+    "automation-control-systems": {
+      "title": "Automation & Control Systems",
+      "description": "Advanced automation and control systems for industrial operations",
+      "features": {
+        "hmi-systems": "HMI Systems",
+        "scada-software": "SCADA Software",
+        "industrial-networks": "Industrial Networks"
+      }
+    },
+    "safety-protective-devices": {
+      "title": "Safety & Protective Devices",
+      "description": "Industrial safety systems and protective equipment",
+      "features": {
+        "safety-switches": "Safety Switches",
+        "emergency-stops": "Emergency Stops",
+        "light-curtains": "Light Curtains",
+        "protective-barriers": "Protective Barriers"
+      }
+    },
+    "mechanical-pumps-spares": {
+      "title": "Mechanical Pumps & Spares",
+      "description": "Mechanical pumps and spare parts for industrial applications",
+      "features": {
+        "centrifugal-pumps": "Centrifugal Pumps",
+        "positive-displacement-pumps": "Positive Displacement Pumps",
+        "pump-components": "Pump Components",
+        "maintenance-kits": "Maintenance Kits"
+      }
+    },
+    "industrial-measuring-tools": {
+      "title": "Industrial & Measuring Tools",
+      "description": "Professional tools, equipment, and advanced measurement instruments for industrial maintenance, construction, manufacturing operations, and precise monitoring applications",
+      "features": {
+        "hand-tools": "Hand Tools",
+        "power-tools": "Power Tools",
+        "digital-multimeters": "Digital Multimeters",
+        "power-quality-analyzers": "Power Quality Analyzers",
+        "calibrators": "Calibrators"
+      }
+    },
+    "bldc": {
+      "title": "BLDC Products",
+      "description": "Brushless DC motor products for energy-efficient applications",
+      "features": {
+        "energy-efficient": "Energy Efficient",
+        "long-lifespan": "Long Lifespan",
+        "low-maintenance": "Low Maintenance",
+        "variable-speed-control": "Variable Speed Control"
+      }
+    }
+  },
+  "bldcCeilingFan": {
+    "smart1200": {
+      "title": "Smart BLDC Ceiling Fan 1200mm",
+      "description": "Energy-efficient smart ceiling fan with remote control and timer function",
+      "features": [
+        "28W Power Consumption",
+        "Remote Control",
+        "5 Speed Settings",
+        "Timer Function"
+      ]
+    },
+    "premium1400": {
+      "title": "Premium BLDC Ceiling Fan 1400mm",
+      "description": "High-performance ceiling fan with LED lighting and reversible motor",
+      "features": [
+        "35W Power Consumption",
+        "LED Light Integrated",
+        "Reversible Motor",
+        "Silent Operation"
+      ]
+    },
+    "commercial1500": {
+      "title": "Commercial BLDC Ceiling Fan 1500mm",
+      "description": "Heavy-duty ceiling fan for commercial and industrial applications",
+      "features": [
+        "45W Power Consumption",
+        "Heavy-Duty Motor",
+        "High Air Flow",
+        "Durable Construction"
+      ]
+    }
+  },
+  "bldcCoolerExhaust": {
+    "exhaustFan": {
+      "title": "BLDC Exhaust Fan Motor",
+      "description": "High-efficiency brushless DC motor for exhaust fan applications",
+      "features": [
+        "Variable Speed Control",
+        "Low Noise Operation",
+        "Energy Efficient Design",
+        "Extended Life Span"
+      ]
+    },
+    "coolerMotors": {
+      "title": "BLDC Cooler Motor",
+      "description": "Energy-efficient motor designed for air cooler applications",
+      "features": [
+        "High Torque Output",
+        "Weather Resistant",
+        "Speed Control",
+        "Maintenance Free Operation"
+      ]
+    },
+    "ventilation": {
+      "title": "BLDC Ventilation System Motor",
+      "description": "Specialized motor for industrial ventilation and air handling systems",
+      "features": [
+        "High CFM Rating",
+        "Temperature Rated",
+        "Vibration Resistant",
+        "Smart Control Compatible"
+      ]
+    }
+  },
+  "bldcPumps": {
+    "solarSubmersible1hp": {
+      "title": "Solar BLDC Submersible Pump 1HP",
+      "description": "Solar-powered submersible pump for water wells and borehole applications",
+      "features": [
+        "Solar Compatible Operation",
+        "1HP Motor Power",
+        "High Efficiency Design",
+        "Water-Cooled Construction"
+      ]
+    },
+    "dcSurface2hp": {
+      "title": "DC Surface Pump 2HP",
+      "description": "High-efficiency surface pump for irrigation and water transfer",
+      "features": [
+        "2HP Power Rating",
+        "Self-Priming Design",
+        "Dry Run Protection",
+        "Variable Speed Control"
+      ]
+    },
+    "hybridSystem": {
+      "title": "Hybrid BLDC Pump System",
+      "description": "Intelligent pump system with solar and grid backup capability",
+      "features": [
+        "Hybrid Operation Mode",
+        "Smart Controller",
+        "Remote Monitoring",
+        "Energy Optimization"
+      ]
+    }
+  },
+  "bldcFans": {
+    "tableFan": {
+      "title": "BLDC Table Fan Motor",
+      "description": "Compact brushless DC motor for table and desk fan applications",
+      "features": [
+        "Compact Design",
+        "Silent Operation",
+        "Remote Control",
+        "Timer Function"
+      ]
+    },
+    "wallFan": {
+      "title": "BLDC Wall Fan Motor",
+      "description": "Wall-mounted fan motor with BLDC technology for residential use",
+      "features": [
+        "Wall Mount Design",
+        "Oscillating Function",
+        "Speed Control",
+        "Energy Saving Operation"
+      ]
+    },
+    "pedestalFan": {
+      "title": "BLDC Pedestal Fan Motor",
+      "description": "Height-adjustable pedestal fan motor with LED display",
+      "features": [
+        "Height Adjustment",
+        "Tilt Function",
+        "LED Display",
+        "Sleep Mode Timer"
+      ]
+    }
+  },
+  "electricalCables": {
+    "powerDistribution": {
+      "title": "Power Distribution Cables",
+      "description": "High voltage cables for power transmission and distribution systems",
+      "features": [
+        "XLPE Insulation",
+        "Armored Construction",
+        "Fire Resistant",
+        "High Current Rating"
+      ]
+    },
+    "communication": {
+      "title": "Communication Cables",
+      "description": "Data transmission cables for industrial communication networks",
+      "features": [
+        "Cat5e/Cat6 Standards",
+        "Fiber Optic Options",
+        "Industrial Grade",
+        "EMI Shielding"
+      ]
+    }
+  },
+  "instrumentationCables": {
+    "shieldedPair": {
+      "title": "Shielded Pair Cables",
+      "description": "Low voltage shielded cables for instrumentation and control applications",
+      "features": [
+        "Shielded Construction",
+        "Moisture Resistant",
+        "Temperature Rated",
+        "Multiple Pair Configuration"
+      ]
+    },
+    "thermocouple": {
+      "title": "Thermocouple Extension Cables",
+      "description": "Specialized cables for temperature measurement with thermocouples",
+      "features": [
+        "Compensated Construction",
+        "High Temperature Rating",
+        "Color Coded Insulation",
+        "Low Thermal EMF"
+      ]
+    },
+    "rtd": {
+      "title": "RTD Sensor Cables",
+      "description": "Precision cables for RTD temperature sensors and transmitters",
+      "features": [
+        "Low Resistance",
+        "Twisted Pair Design",
+        "Excellent Noise Immunity",
+        "Flexible Installation"
+      ]
+    }
+  },
+  "circuitBreakers": {
+    "schneiderM9r31240": {
+      "title": "Schneider Electric M9R31240 RCCB",
+      "description": "4-pole residual current circuit breaker for electrical safety protection",
+      "features": [
+        "4-pole configuration",
+        "240V AC rated voltage",
+        "30mA residual current",
+        "63A rated current",
+        "Type A residual current detection"
+      ]
+    },
+    "schneiderM9r14463": {
+      "title": "Schneider Electric M9R14463 RCCB",
+      "description": "2-pole residual current circuit breaker for domestic applications",
+      "features": [
+        "2-pole configuration",
+        "240V AC rated voltage",
+        "10mA high sensitivity",
+        "40A rated current",
+        "Type AC residual current detection"
+      ]
+    },
+    "abbF204a63": {
+      "title": "ABB F204 A-63/0.03 RCCB",
+      "description": "Type A residual current circuit breaker with enhanced protection",
+      "features": [
+        "4-pole Type A configuration",
+        "415V AC rated voltage",
+        "30mA residual current",
+        "63A rated current",
+        "Enhanced safety features"
+      ]
+    },
+    "abbF204ac25": {
+      "title": "ABB F204 AC-25/0.03 RCCB",
+      "description": "Compact residual current circuit breaker for residential use",
+      "features": [
+        "2-pole AC type configuration",
+        "240V AC rated voltage",
+        "30mA residual current",
+        "25A rated current",
+        "Compact DIN rail mounting"
+      ]
+    },
+    "abbSaceEmaxE12": {
+      "title": "ABB SACE Emax E1.2 ACB",
+      "description": "Air circuit breaker for low voltage power distribution",
+      "features": [
+        "1250A breaking capacity",
+        "690V AC rated voltage",
+        "Electronic trip unit",
+        "Withdrawable design",
+        "Advanced protection functions"
+      ]
+    },
+    "abbSaceEmaxE22": {
+      "title": "ABB SACE Emax E2.2 ACB",
+      "description": "High-performance air circuit breaker for industrial applications",
+      "features": [
+        "2000A breaking capacity",
+        "690V AC rated voltage",
+        "Microprocessor-based protection",
+        "Remote operation capability",
+        "Energy metering functions"
+      ]
+    },
+    "schneiderMasterpactNw": {
+      "title": "Schneider Electric MasterPact NW ACB",
+      "description": "Advanced air circuit breaker with intelligent protection",
+      "features": [
+        "6300A breaking capacity",
+        "690V AC rated voltage",
+        "Micrologic trip unit",
+        "Communication capabilities",
+        "Zone selectivity"
+      ]
+    },
+    "schneiderMasterpactMtz": {
+      "title": "Schneider Electric MasterPact MTZ ACB",
+      "description": "Compact air circuit breaker for space-constrained applications",
+      "features": [
+        "2500A breaking capacity",
+        "690V AC rated voltage",
+        "Digital trip unit",
+        "Compact footprint",
+        "Easy maintenance"
+      ]
+    },
+    "abbVd412kv": {
+      "title": "ABB VD4 12kV VCB",
+      "description": "12kV vacuum circuit breaker for medium voltage applications",
+      "features": [
+        "12kV rated voltage",
+        "31.5kA breaking capacity",
+        "Vacuum interruption technology",
+        "Long electrical life",
+        "Maintenance-free operation"
+      ]
+    },
+    "abbVd424kv": {
+      "title": "ABB VD4 24kV VCB",
+      "description": "24kV vacuum circuit breaker for high-performance switching",
+      "features": [
+        "24kV rated voltage",
+        "25kA breaking capacity",
+        "SF6-free technology",
+        "Compact design",
+        "Environmental friendly"
+      ]
+    },
+    "schneiderEvopact15kv": {
+      "title": "Schneider Electric EvoPacT 15kV VCB",
+      "description": "15kV vacuum circuit breaker with advanced control systems",
+      "features": [
+        "15kV rated voltage",
+        "40kA breaking capacity",
+        "Integrated control unit",
+        "Arc monitoring system",
+        "Digital communication"
+      ]
+    },
+    "schneiderHvx33kv": {
+      "title": "Schneider Electric HVX-O 33kV VCB",
+      "description": "33kV outdoor vacuum circuit breaker for substations",
+      "features": [
+        "33kV rated voltage",
+        "25kA breaking capacity",
+        "Outdoor installation",
+        "Weather resistant housing",
+        "Remote monitoring capability"
+      ]
+    },
+    "siemens3ah4": {
+      "title": "Siemens 3AH4 VCB",
+      "description": "Medium voltage vacuum circuit breaker with proven reliability",
+      "features": [
+        "17.5kV rated voltage",
+        "31.5kA breaking capacity",
+        "Proven vacuum technology",
+        "Low maintenance requirements",
+        "High operational safety"
+      ]
+    },
+    "mcb": {
+      "title": "Miniature Circuit Breakers (MCB)",
+      "description": "Low voltage circuit breakers for residential and commercial protection",
+      "features": [
+        "B/C/D Trip Curves",
+        "6-63A Rating",
+        "10kA Breaking Capacity",
+        "DIN Rail Mounting"
+      ]
+    },
+    "mccb": {
+      "title": "Molded Case Circuit Breakers (MCCB)",
+      "description": "Industrial circuit breakers for motor and power equipment protection",
+      "features": [
+        "Adjustable Trip Settings",
+        "High Breaking Capacity",
+        "Electronic Trip Units",
+        "Up to 1600A Rating"
+      ]
+    },
+    "industrialFuses": {
+      "title": "Industrial Fuses",
+      "description": "High-speed fuses for electrical equipment protection",
+      "features": [
+        "Fast Acting Response",
+        "Time Delay Options",
+        "High Voltage Rating",
+        "Ceramic Body Construction"
+      ]
+    }
+  },
+  "connectorsTerminals": {
+    "terminalBlocks": {
+      "title": "Industrial Terminal Blocks",
+      "description": "Secure terminal blocks for industrial wire connections",
+      "features": [
+        "Spring Clamp Technology",
+        "Screw Type Connections",
+        "DIN Rail Mounting",
+        "Multiple Size Options"
+      ]
+    },
+    "industrialConnectors": {
+      "title": "Industrial Connectors",
+      "description": "Heavy-duty connectors for demanding industrial applications",
+      "features": [
+        "IP67 Protection Rating",
+        "Locking Mechanism",
+        "Multi-Pin Configuration",
+        "Cable Gland Integration"
+      ]
+    },
+    "signalConnectors": {
+      "title": "Signal Connectors",
+      "description": "Precision connectors for instrumentation and signal transmission",
+      "features": [
+        "Low Noise Design",
+        "Shielded Construction",
+        "Miniature Size",
+        "High Reliability Performance"
+      ]
+    }
+  },
+  "subcategories": {
+    "sensors": {
+      "title": "Sensors & Transducers",
+      "description": "Industrial sensors for measurement and control"
+    },
+    "transmitters": {
+      "title": "Transmitters & Flow Meters",
+      "description": "Process transmitters and signal conversion equipment"
+    },
+    "controllers": {
+      "title": "Controllers & Recorders",
+      "description": "Industrial control systems and automation controllers"
+    },
+    "switches": {
+      "title": "Switches & Indicators",
+      "description": "Industrial switches and control equipment"
+    },
+    "valves": {
+      "title": "Valves & Actuators",
+      "description": "Industrial valves and flow control systems"
+    },
+    "analyzers": {
+      "title": "Analyzers",
+      "description": "Process analyzers for quality control"
+    },
+    "signal-conditioners": {
+      "title": "Signal Conditioners",
+      "description": "Signal processing and conditioning equipment"
+    },
+    "electrical-cables": {
+      "title": "Electrical Cables",
+      "description": "Industrial power and control cables for electrical systems"
+    },
+    "instrumentation-cables": {
+      "title": "Instrumentation Cables",
+      "description": "Precision cables for process control and measurement systems"
+    },
+    "connectors-terminals": {
+      "title": "Connectors & Terminals",
+      "description": "Electrical connectors and terminal solutions"
+    },
+    "circuit-breakers-fuses": {
+      "title": "Circuit Breakers & Fuses",
+      "description": "Electrical protection devices for circuit safety"
+    },
+    "contactorsRelays": {
+      "title": "Contactors & Relays",
+      "description": "Industrial contactors and control relays for motor control"
+    },
+    "power-supplies": {
+      "title": "Power Supplies",
+      "description": "Industrial power supply units and converters"
+    },
+    "enclosures-cabinets": {
+      "title": "Enclosures & Cabinets",
+      "description": "Electrical enclosures and control cabinet solutions"
+    },
+    "heating-elements-appliances": {
+      "title": "Heating Elements & Appliances",
+      "description": "Industrial heating solutions and thermal equipment"
+    },
+    "multimeters": {
+      "title": "Multimeters",
+      "description": "Digital and analog multimeters for electrical testing"
+    },
+    "power-quality-analyzers": {
+      "title": "Power Quality Analyzers",
+      "description": "Power quality measurement and analysis instruments"
+    },
+    "solar-batteries-energy-storage": {
+      "title": "Solar Batteries & Energy Storage",
+      "description": "Battery storage systems for solar energy applications"
+    },
+    "surge-protectors": {
+      "title": "Surge Protectors",
+      "description": "Electrical surge protection devices for equipment safety"
+    },
+    "safety-relays-switches": {
+      "title": "Safety Relays & Switches",
+      "description": "Safety relays and emergency stop switches for industrial safety"
+    },
+    "intrinsically-safe-equipment": {
+      "title": "Intrinsically Safe Equipment",
+      "description": "Explosion-proof and intrinsically safe equipment for hazardous areas"
+    },
+    "centrifugal-pumps": {
+      "title": "Centrifugal Pumps",
+      "description": "High-efficiency centrifugal pumps for fluid transfer"
+    },
+    "diaphragm-pumps": {
+      "title": "Diaphragm Pumps",
+      "description": "Positive displacement diaphragm pumps for chemical applications"
+    },
+    "gear-pumps": {
+      "title": "Gear Pumps",
+      "description": "Precision gear pumps for viscous fluids"
+    },
+    "pump-parts-spares": {
+      "title": "Pump Parts & Spares",
+      "description": "Replacement parts and spare components for industrial pumps"
+    },
+    "hand-tools": {
+      "title": "Hand Tools",
+      "description": "Professional hand tools for industrial maintenance and assembly"
+    },
+    "power-tools": {
+      "title": "Power Tools",
+      "description": "Industrial power tools for heavy-duty applications"
+    },
+    "cutting-tools": {
+      "title": "Cutting Tools",
+      "description": "Precision cutting tools and equipment for metalworking"
+    },
+    "lifting-equipment": {
+      "title": "Lifting Equipment",
+      "description": "Hoists, cranes, and lifting equipment for material handling"
+    },
+    "sensors-transducers": {
+      "title": "Sensors & Transducers",
+      "description": "Industrial sensors and transducers for measurement and control"
+    },
+    "transmitters-flow-meters": {
+      "title": "Transmitters & Flow Meters",
+      "description": "Industrial transmitters and flow meters for process monitoring"
+    },
+    "switches-indicators": {
+      "title": "Switches & Indicators",
+      "description": "Industrial switches and control equipment"
+    },
+    "valves-actuators": {
+      "title": "Valves & Actuators",
+      "description": "Industrial valves and flow control systems"
+    },
+    "safety-equipment": {
+      "title": "Safety Equipment",
+      "description": "Comprehensive safety equipment and personal protective equipment for industrial applications",
+      "sectionsTitle": "Safety Solutions",
+      "products": {
+        "ppe": {
+          "name": "Personal Protective Equipment (PPE)",
+          "description": "Safety equipment for worker protection",
+          "features": {
+            "hardHats": "Hard Hats",
+            "safetyGlasses": "Safety Glasses",
+            "hearingProtection": "Hearing Protection",
+            "workGloves": "Work Gloves"
+          }
+        },
+        "fallProtection": {
+          "name": "Fall Protection Systems",
+          "description": "Harnesses and fall arrest equipment",
+          "features": {
+            "fullBodyHarness": "Full Body Harness",
+            "lanyards": "Lanyards",
+            "anchorPoints": "Anchor Points",
+            "selfRetracting": "Self-Retracting"
+          }
+        },
+        "gasDetection": {
+          "name": "Gas Detection Equipment",
+          "description": "Portable and fixed gas monitoring systems",
+          "features": {
+            "multiGasDetectors": "Multi-Gas Detectors",
+            "singleGas": "Single Gas",
+            "wirelessMonitoring": "Wireless Monitoring",
+            "dataLogging": "Data Logging"
+          }
+        }
+      },
+      "cta": {
+        "title": "Need Safety Equipment?",
+        "description": "Our safety specialists can provide comprehensive safety solutions to protect your workforce.",
+        "contactExpertsCta": "Contact Safety Experts",
+        "requestQuoteCta": "Request Quote"
+      }
+    },
+    "bldc-cooler-exhaust-motor": {
+      "title": "BLDC Cooler & Exhaust Motors",
+      "description": "Energy-efficient BLDC motors for coolers and exhaust fans"
+    },
+    "bldc-ceiling-fan": {
+      "title": "BLDC Ceiling Fans",
+      "description": "Ultra-efficient BLDC ceiling fans with remote control"
+    },
+    "bldc-submersible-surface-pump": {
+      "title": "BLDC Submersible & Surface Pumps",
+      "description": "High-efficiency BLDC pumps for water applications"
+    },
+    "bldc-table-fan-wall-fan-motor": {
+      "title": "BLDC Table & Wall Fan Motors",
+      "description": "Compact BLDC motors for table and wall fans"
+    },
+    "solar-inverters": {
+      "title": "Solar Inverters",
+      "description": "High-efficiency solar inverters for residential and commercial applications"
+    },
+    "plcs": {
+      "title": "PLCs (Programmable Logic Controllers)",
+      "description": "Programmable Logic Controllers for industrial automation"
+    },
+    "scada": {
+      "title": "SCADA Systems",
+      "description": "Supervisory Control And Data Acquisition systems"
+    },
+    "dcs": {
+      "title": "DCS (Distributed Control Systems)",
+      "description": "Distributed control systems for process automation"
+    },
+    "hmi": {
+      "title": "HMI (Human Machine Interface)",
+      "description": "Human machine interface systems for industrial control"
+    },
+    "grounding-systems": {
+      "title": "Grounding Systems",
+      "description": "Electrical grounding and earthing systems",
+      "subtitle": "Electrical grounding and earthing systems for safety and equipment protection",
+      "backButton": "Back to Safety & Protective Devices",
+      "badges": {
+        "groundRods": "Ground Rods",
+        "conductors": "Conductors",
+        "clampsLugs": "Clamps & Lugs",
+        "safetyGrounding": "Safety Grounding"
+      },
+      "componentsSection": {
+        "title": "Grounding Components"
+      },
+      "products": {
+        "electrodes": {
+          "name": "Grounding Electrodes",
+          "description": "Copper and steel grounding rods for electrical safety",
+          "features": {
+            "copperBonded": "Copper Bonded",
+            "steelCore": "Steel Core",
+            "multipleLengths": "Multiple Lengths",
+            "ulListed": "UL Listed"
+          }
+        },
+        "conductors": {
+          "name": "Grounding Conductors",
+          "description": "Bare copper conductors for grounding systems",
+          "features": {
+            "solidStranded": "Solid/Stranded",
+            "highConductivity": "High Conductivity",
+            "corrosionResistant": "Corrosion Resistant",
+            "multipleSizes": "Multiple Sizes"
+          }
+        },
+        "accessories": {
+          "name": "Grounding Accessories",
+          "description": "Clamps, lugs, and fittings for grounding installations",
+          "features": {
+            "groundClamps": "Ground Clamps",
+            "compressionLugs": "Compression Lugs",
+            "testWells": "Test Wells",
+            "bondsJumpers": "Bonds & Jumpers"
+          }
+        }
+      },
+      "cta": {
+        "title": "Need Grounding Solutions?",
+        "description": "Our grounding specialists can design safe and code-compliant grounding systems for your facility.",
+        "contactButton": "Contact Grounding Experts",
+        "quoteButton": "Request Quote"
+      },
+      "keyFeatures": "Key Features:",
+      "seo": {
+        "title": "Grounding Systems - Electrical Safety Equipment | Powerton Engineering",
+        "description": "Professional grounding and earthing systems for electrical safety. Copper grounding rods, conductors, clamps & accessories from leading manufacturers.",
+        "keywords": "grounding systems, electrical grounding, earthing systems, ground rods, grounding conductors, electrical safety equipment, copper grounding rods, grounding accessories, industrial grounding"
+      }
+    },
+    "calibration-equipment": {
+      "title": "Calibration Equipment",
+      "description": "Precision calibration instruments and testing equipment"
+    },
+    "solar-panels": {
+      "title": "Solar Panels",
+      "description": "High-efficiency solar panels and photovoltaic systems"
+    },
+    "instrument-transformers": {
+      "title": "Instrument Transformers",
+      "description": "Current and potential transformers for measurement and protection"
+    },
+    "contactors-relays": {
+      "title": "Contactors & Relays",
+      "description": "Power contactors and electromagnetic relays for motor control"
+    },
+    "transformers-power-devices": {
+      "title": "Transformers & Power Devices",
+      "description": "Control transformers and power conversion equipment"
+    },
+    "industrial-lighting": {
+      "title": "Industrial Lighting",
+      "description": "Comprehensive industrial lighting solutions including street lights, high bay lights, vessel lights, flood lights, and well glass lights in standard, flameproof, and weatherproof configurations"
+    },
+    "insulators-insulation-materials": {
+      "title": "Insulators & Insulation Materials",
+      "description": "High-quality electrical insulators and insulation materials for power systems and electrical equipment"
+    },
+    "motor-controllers-drives": {
+      "title": "Motor Controllers & Drives",
+      "description": "Variable frequency drives and motor control solutions"
+    },
+    "io-modules": {
+      "title": "I/O Modules",
+      "description": "Input/Output modules for PLC systems and industrial automation"
+    },
+    "protection-relays": {
+      "title": "Protection Relays",
+      "description": "Motor protection and voltage monitoring relays"
+    },
+    "panel-meters-indicators": {
+      "title": "Panel Meters & Indicators",
+      "description": "Analog and digital panel meters for voltage, current, and power measurement"
+    }
+  },
+  "sections": {
+    "overview": "Overview",
+    "technicalSpecifications": "Technical Specifications",
+    "keyFeatures": "Key Features",
+    "applications": "Applications",
+    "industriesServed": "Industries Served",
+    "certificationsCompliance": "Certifications & Compliance",
+    "certifications": "Certifications",
+    "qualityAssurance": "Quality Assurance",
+    "qualityAssuranceDescription": "Products meet international standards and safety regulations.",
+    "completeListDescription": "Complete list of {{groupTitle}} products with specifications",
+    "expertsHelpDescription": "Our experts are here to help you select the right {{groupTitle}} for your application.",
+    "products": "Our Products",
+    "productsDescription": "Explore our comprehensive range of high-quality industrial solutions",
+    "allProducts": "All Products",
+    "needMoreOptions": "Need More Options?",
+    "customSolutions": "We offer custom solutions and can source additional products to meet your specific requirements.",
+    "professionalGrade": "Professional Grade Solutions",
+    "keyBenefits": "Key Benefits:",
+    "professionalConsultation": "Get Professional Consultation",
+    "technicalConsultation": "Technical Consultation"
+  },
+  "defaults": {
+    "groupDescription": "High-quality products for industrial automation applications."
+  },
+  "filters": {
+    "all": "All",
+    "category": "Category",
+    "industry": "Industry",
+    "status": "Status"
+  },
+  "status": {
+    "available": "Available",
+    "outOfStock": "Out of Stock",
+    "discontinued": "Discontinued"
+  },
+  "productPages": {
+    "transmitters": {
+      "title": "Transmitters",
+      "transducers": "Transducers"
+    },
+    "bldcSubmersibleSurfacePump": {
+      "title": "BLDC Submersible & Surface Pumps",
+      "subtitle": "Energy-efficient BLDC pumps for water supply, irrigation, and solar applications"
+    },
+    "cablesWires": {
+      "title": "Cables & Wires",
+      "subtitle": "Industrial cables and wires for power transmission, instrumentation, and data communication"
+    },
+    "handTools": {
+      "title": "Hand Tools",
+      "subtitle": "Professional-grade hand tools for industrial maintenance and manufacturing applications"
+    },
+    "powerTools": {
+      "title": "Power Tools",
+      "subtitle": "Industrial-grade power tools for heavy-duty manufacturing and maintenance operations"
+    },
+    "cuttingTools": {
+      "title": "Cutting Tools",
+      "subtitle": "Professional cutting tools for machining, drilling, and material processing applications"
+    },
+    "liftingEquipment": {
+      "title": "Lifting Equipment",
+      "subtitle": "Industrial lifting and rigging equipment for safe material handling operations"
+    },
+    "valves": {
+      "title": "Valves & Actuators",
+      "subtitle": "Industrial valve automation solutions with pneumatic, electric, and hydraulic actuators",
+      "shortDescription": "Industrial valve automation solutions with pneumatic, electric, and hydraulic actuators",
+      "fullDescription": "Comprehensive valve automation portfolio including quarter-turn and linear valves with smart technologies, IoT connectivity, and condition monitoring.",
+      "seo": {
+        "title": "Industrial Valves & Actuators - Automated Control Solutions | Powerton Engineering",
+        "description": "Industrial valve automation with pneumatic, electric, and hydraulic actuators. Ball valves, butterfly valves, control valves with smart positioners and fail-safe operation.",
+        "keywords": "industrial valves, valve actuators, pneumatic actuators, electric actuators, control valves, automated valves, smart positioners"
+      },
+      "keyBenefits": {
+        "preciseFlowControl": "Precise Flow Control",
+        "enhancedSafety": "Enhanced Safety & Reliability",
+        "reducedEnergyConsumption": "Reduced Energy Consumption",
+        "predictiveMaintenance": "Predictive Maintenance Capability"
+      },
+      "specifications": {
+        "actuatorTypes": {
+          "label": "Actuator Types",
+          "value": "Pneumatic, Electric, Hydraulic"
+        },
+        "valveSizes": {
+          "label": "Valve Sizes",
+          "value": "1/4\" to 48\" (DN8 to DN1200)"
+        },
+        "pressureRating": {
+          "label": "Pressure Rating",
+          "value": "Up to 6000 PSI (414 bar)"
+        },
+        "temperatureRange": {
+          "label": "Temperature Range",
+          "value": "-40°F to 1000°F (-40°C to 538°C)"
+        }
+      },
+      "applications": {
+        "processControl": "Process Control",
+        "oilGas": "Oil & Gas",
+        "chemicalProcessing": "Chemical Processing",
+        "waterTreatment": "Water Treatment",
+        "powerGeneration": "Power Generation",
+        "hvacSystems": "HVAC Systems"
+      },
+      "industries": {
+        "oilGas": "Oil & Gas",
+        "chemicalPetrochemical": "Chemical & Petrochemical",
+        "powerGeneration": "Power Generation",
+        "waterWastewater": "Water & Wastewater",
+        "foodBeverage": "Food & Beverage",
+        "pharmaceutical": "Pharmaceutical"
+      }
+    },
+    "analyzers": {
+      "title": "Process Analyzers",
+      "subtitle": "Advanced analytical instruments for process monitoring",
+      "product": {
+        "title": "Process Analyzers",
+        "shortDescription": "Advanced gas and liquid analyzers for industrial process measurement and monitoring",
+        "fullDescription": "Comprehensive process analyzer solutions including gas analyzers, liquid analyzers, and multi-parameter measurement systems with Tunable Diode Laser technology.",
+        "keyBenefits": {
+          "processControl": "Improved Process Control",
+          "productQuality": "Enhanced Product Quality",
+          "compliance": "Regulatory Compliance",
+          "safety": "Enhanced Safety"
+        },
+        "altText": "ID-842: Process Analyzers - Industrial gas and liquid process analyzers"
+      },
+      "seo": {
+        "keywords": "process analyzers, gas analyzers, liquid analyzers, pH analyzers, conductivity meters, gas chromatography, process monitoring"
+      },
+      "sections": {
+        "overview": {
+          "title": "Advanced Process Analysis"
+        },
+        "technologies": {
+          "title": "Analysis Technologies",
+          "description": "Advanced measurement technologies for precise process analysis"
+        },
+        "specifications": {
+          "title": "Technical Specifications",
+          "description": "Precision specifications for reliable process monitoring"
+        }
+      },
+      "buttons": {
+        "consultation": "Analysis Consultation"
+      },
+      "labels": {
+        "technologies": "Technologies:",
+        "parameters": "Parameters:",
+        "specifications": "Specifications",
+        "applications": "Applications",
+        "industries": "Industries"
+      },
+      "cta": {
+        "title": "Need Process Analysis Solutions?",
+        "description": "Our process analysis experts can help you select the right analyzers for your monitoring and compliance requirements.",
+        "button": "Analysis Expert"
+      }
+    },
+    "automationControl": {
+      "title": "Automation & Control Systems",
+      "subtitle": "Advanced automation and control solutions for industrial process management and optimization",
+      "description": "Industrial automation controllers for process control",
+      "features": {
+        "digitalIO": "Digital I/O",
+        "analogProcessing": "Analog Processing",
+        "communicationModules": "Communication Modules",
+        "programmingSoftware": "Programming Software",
+        "realtimeMonitoring": "Real-time Monitoring",
+        "dataLogging": "Data Logging",
+        "alarmManagement": "Alarm Management",
+        "remoteAccess": "Remote Access",
+        "processControl": "Process Control",
+        "distributedArchitecture": "Distributed Architecture",
+        "redundancy": "Redundancy",
+        "advancedControl": "Advanced Control",
+        "touchscreenDisplays": "Touchscreen Displays",
+        "graphicInterface": "Graphic Interface",
+        "dataVisualization": "Data Visualization",
+        "operatorControl": "Operator Control"
+      },
+      "subcategories": {
+        "plcs": {
+          "title": "PLCs (Programmable Logic Controllers)",
+          "description": "Industrial automation controllers for process control"
+        },
+        "scada": {
+          "title": "SCADA Systems",
+          "description": "Supervisory control and data acquisition systems"
+        },
+        "dcs": {
+          "title": "DCS (Distributed Control Systems)",
+          "description": "Distributed control systems for large-scale processes"
+        },
+        "hmi": {
+          "title": "HMI (Human Machine Interface)",
+          "description": "User interfaces for industrial control systems"
+        },
+        "motorDrivesVfds": {
+          "title": "Motor Drives & VFDs",
+          "description": "Variable frequency drives and motor control systems"
+        }
+      },
+      "sections": {
+        "controlSystemSolutions": "Control System Solutions",
+        "keyFeatures": "Key Features:"
+      },
+      "cta": {
+        "needAutomationSolutions": "Need Automation Solutions?",
+        "engineersDescription": "Our automation engineers can design and implement comprehensive control systems for your facility.",
+        "contactAutomationExperts": "Contact Automation Experts",
+        "requestQuote": "Request Quote"
+      }
+    },
+    "bldcCeilingFan": {
+      "title": "BLDC Ceiling Fans",
+      "subtitle": "Energy-efficient brushless DC ceiling fans with smart features and superior performance",
+      "upgradeTitle": "Upgrade to BLDC Ceiling Fans?",
+      "upgradeDescription": "Our BLDC specialists can help you choose energy-efficient ceiling fan solutions for your space.",
+      "contactExperts": "Contact BLDC Experts"
+    },
+    "bldcCoolerExhaust": {
+      "title": "BLDC Cooler & Exhaust Motors",
+      "subtitle": "Energy-efficient BLDC motors for cooling, ventilation, and exhaust applications"
+    },
+    "bldcSubmersible": {
+      "title": "BLDC Submersible & Surface Pumps",
+      "subtitle": "Energy-efficient BLDC pumps for water supply, irrigation, and solar applications"
+    },
+    "bldcTableWall": {
+      "title": "BLDC Table & Wall Fan Motors",
+      "subtitle": "Energy-efficient BLDC motors for table fans, wall fans, and pedestal fans"
+    },
+    "bldc": {
+      "title": "BLDC Products",
+      "subtitle": "Brushless DC motor products for energy-efficient cooling, ventilation, and pumping applications"
+    },
+    "cables": {
+      "title": "Cables & Wires",
+      "subtitle": "Industrial cables and wiring solutions for power and control applications"
+    },
+    "calibration": {
+      "title": "Calibration Equipment",
+      "subtitle": "Precision calibration instruments and testing equipment"
+    },
+    "centrifugalPumps": {
+      "title": "Centrifugal Pumps",
+      "subtitle": "High-efficiency centrifugal pumps for industrial applications"
+    },
+    "circuitBreakers": {
+      "title": "Circuit Breakers & Fuses",
+      "subtitle": "Electrical protection devices for circuit safety"
+    },
+    "connectors": {
+      "title": "Connectors & Terminals",
+      "subtitle": "Electrical connectors and terminal solutions"
+    },
+    "controllers": {
+      "title": "Controllers",
+      "subtitle": "Industrial control systems and automation controllers"
+    },
+    "dcs": {
+      "title": "DCS (Distributed Control Systems)",
+      "subtitle": "Advanced distributed control systems for process industries"
+    },
+    "diaphragmPumps": {
+      "title": "Diaphragm Pumps",
+      "subtitle": "Precision dosing and chemical handling pumps"
+    },
+    "electricalComponents": {
+      "title": "Electrical Components",
+      "subtitle": "Complete electrical component solutions for industrial applications"
+    },
+    "enclosures": {
+      "title": "Enclosures & Cabinets",
+      "subtitle": "Electrical enclosures and control cabinet solutions"
+    },
+    "gearPumps": {
+      "title": "Gear Pumps",
+      "subtitle": "Precision gear pumps for hydraulic and industrial applications"
+    },
+    "grounding": {
+      "title": "Grounding Systems",
+      "subtitle": "Electrical grounding and earthing solutions for safety"
+    },
+    "heating": {
+      "title": "Heating Elements & Appliances",
+      "subtitle": "Industrial heating solutions and thermal equipment"
+    },
+    "hmi": {
+      "title": "HMI (Human Machine Interface)",
+      "subtitle": "Interactive operator interfaces for industrial automation"
+    },
+    "industrialTools": {
+      "title": "Industrial Tools & Tackles",
+      "subtitle": "Heavy-duty industrial tools and lifting equipment"
+    },
+    "instrumentation": {
+      "title": "Instrumentation Components",
+      "subtitle": "Precision instrumentation and measurement components"
+    },
+    "intrinsicallySafe": {
+      "title": "Intrinsically Safe Equipment",
+      "subtitle": "Certified equipment for hazardous area applications"
+    },
+    "lifting": {
+      "title": "Lifting Equipment",
+      "subtitle": "Industrial lifting and material handling solutions"
+    },
+    "measurement": {
+      "title": "Measurement Instruments",
+      "subtitle": "Precision measurement and testing instruments"
+    },
+    "mechanical": {
+      "title": "Mechanical Pumps & Spares",
+      "subtitle": "Mechanical pumps and spare parts for industrial applications"
+    },
+    "multimeters": {
+      "title": "Multimeters",
+      "subtitle": "Digital and analog multimeters for electrical testing"
+    },
+    "plcs": {
+      "title": "PLCs (Programmable Logic Controllers)",
+      "subtitle": "Industrial programmable logic controllers for automation"
+    },
+    "powerQuality": {
+      "title": "Power Quality Analyzers",
+      "subtitle": "Power quality measurement and analysis instruments"
+    },
+    "powerSupplies": {
+      "title": "Power Supplies",
+      "subtitle": "Industrial power supply units and converters"
+    },
+    "pumpParts": {
+      "title": "Pump Parts & Spares",
+      "subtitle": "Replacement parts and components for pump systems"
+    },
+    "safetyEquipment": {
+      "title": "Safety Equipment",
+      "subtitle": "Personal protective equipment and safety devices"
+    },
+    "safetyProtective": {
+      "title": "Safety & Protective Devices",
+      "subtitle": "Industrial safety systems and protective equipment",
+      "description": "Comprehensive safety and protective equipment to ensure personnel and equipment safety in industrial environments",
+      "sectionsTitle": "Safety Solutions",
+      "cta": {
+        "title": "Prioritizing Safety in Your Operations?",
+        "description": "Our safety engineers can assess your facility and recommend comprehensive protective solutions.",
+        "contactButton": "Contact Safety Experts"
+      }
+    },
+    "safetyRelays": {
+      "title": "Safety Relays & Switches",
+      "subtitle": "Safety control relays and emergency stop systems"
+    },
+    "scada": {
+      "title": "SCADA Systems",
+      "subtitle": "Supervisory control and data acquisition systems"
+    },
+    "sensors": {
+      "title": "Sensors",
+      "subtitle": "Industrial sensors for measurement and control"
+    },
+    "signalConditioners": {
+      "title": "Signal Conditioners",
+      "subtitle": "Signal processing and conditioning equipment"
+    },
+    "solarBatteries": {
+      "title": "Solar Batteries & Energy Storage",
+      "subtitle": "Energy storage solutions for solar power systems"
+    },
+    "solarInverters": {
+      "title": "Solar Inverters",
+      "subtitle": "Solar power inverters and grid-tie systems"
+    },
+    "solarPanels": {
+      "title": "Solar Panels",
+      "subtitle": "High-efficiency solar panels and photovoltaic systems"
+    },
+    "solarProducts": {
+      "title": "Solar Products",
+      "subtitle": "Complete solar energy solutions and components"
+    },
+    "surgeProtectors": {
+      "title": "Surge Protectors",
+      "subtitle": "Electrical surge protection devices and systems"
+    },
+    "switches": {
+      "title": "Switches",
+      "subtitle": "Industrial switches and control devices"
+    }
+  },
+  "common": {
+    "keyFeatures": "Key Features:",
+    "needHelp": "Need Help?",
+    "contactExperts": "Contact Experts",
+    "requestQuote": "Request Quote",
+    "hazardousAreaSolutions": "Hazardous Area Solutions",
+    "needEquipment": "Need Equipment?",
+    "specialists": "specialists"
+  },
+  "hmi": {
+    "title": "HMI (Human Machine Interface)",
+    "subtitle": "Industrial human machine interfaces for operator control and system visualization",
+    "navigation": {
+      "backToAutomation": "Back to Automation & Control Systems"
+    },
+    "badges": {
+      "touchscreen": "Touchscreen",
+      "industrialGrade": "Industrial Grade",
+      "realTimeDisplay": "Real-time Display",
+      "multiProtocol": "Multi-Protocol"
+    },
+    "solutionsTitle": "HMI Solutions",
+    "products": {
+      "panelMount": {
+        "name": "Panel Mount HMI Displays",
+        "description": "Industrial touchscreen displays for machine interface",
+        "features": [
+          "Touch Interface",
+          "Industrial Rating",
+          "Multiple Sizes",
+          "Communication Protocols"
+        ]
+      },
+      "operatorInterface": {
+        "name": "Operator Interface Terminals",
+        "description": "Rugged operator terminals for harsh environments",
+        "features": [
+          "IP65/IP67 Rating",
+          "Stainless Steel",
+          "Membrane Keypad",
+          "Backlit Display"
+        ]
+      },
+      "mobile": {
+        "name": "Mobile HMI Solutions",
+        "description": "Wireless and mobile human machine interfaces",
+        "features": [
+          "Wireless Connectivity",
+          "Mobile Apps",
+          "Remote Access",
+          "Real-time Data"
+        ]
+      }
+    },
+    "cta": {
+      "title": "Need HMI Solutions?",
+      "description": "Our HMI specialists can design intuitive operator interfaces for your automation systems.",
+      "contactExperts": "Contact HMI Experts"
+    }
+  },
+  "solarPanels": {
+    "monocrystalline": {
+      "description": "High-efficiency monocrystalline silicon solar panels",
+      "features": {
+        "efficiency": "21.5% Efficiency",
+        "warranty": "25 Year Warranty",
+        "weatherResistant": "Weather Resistant",
+        "antiReflective": "Anti-Reflective Coating"
+      }
+    },
+    "polycrystalline": {
+      "description": "Cost-effective polycrystalline solar panel solution",
+      "features": {
+        "efficiency": "19.2% Efficiency",
+        "warranty": "20 Year Warranty",
+        "durable": "Durable Construction",
+        "installation": "Easy Installation"
+      }
+    },
+    "bifacial": {
+      "description": "Advanced bifacial technology for maximum energy harvest",
+      "features": {
+        "frontBack": "Front + Back Generation",
+        "moreEnergy": "25% More Energy",
+        "glassDesign": "Glass-Glass Design",
+        "longLifespan": "Long Lifespan"
+      }
+    }
+  },
+  "plcProducts": {
+    "siemens": {
+      "description": "Compact PLC for small to medium automation applications",
+      "features": {
+        "integratedIO": "Integrated I/O",
+        "ethernet": "Ethernet Communication",
+        "programming": "TIA Portal Programming",
+        "failSafe": "Fail-Safe Options"
+      }
+    },
+    "allenBradley": {
+      "description": "High-performance PLC with integrated safety",
+      "features": {
+        "safety": "GuardLogix Safety",
+        "ethernet": "Dual Ethernet Ports",
+        "software": "Studio 5000 Software",
+        "motion": "Motion Control"
+      }
+    },
+    "schneider": {
+      "description": "High-end PLC for complex industrial processes",
+      "features": {
+        "hotStandby": "Hot Standby CPU",
+        "ethernet": "Ethernet Ring Topology",
+        "software": "Unity Pro Software",
+        "security": "Cyber Security"
+      }
+    }
+  },
+  "features": {
+    "safetyDevices": {
+      "surgeProtectors": {
+        "title": "Surge Protectors",
+        "description": "Electrical surge protection devices for equipment safety",
+        "features": {
+          "lightning": "Lightning Protection",
+          "voltage": "Voltage Surge Protection",
+          "equipment": "Equipment Safety",
+          "power": "Power Quality"
+        }
+      },
+      "groundingSystems": {
+        "title": "Grounding Systems",
+        "description": "Electrical grounding and earthing systems for safety",
+        "features": {
+          "electrodes": "Earth Electrodes",
+          "rods": "Ground Rods",
+          "conductors": "Bonding Conductors",
+          "lightning": "Lightning Rods"
+        }
+      },
+      "safetyRelays": {
+        "title": "Safety Relays & Switches",
+        "description": "Safety control devices for emergency shutdown systems",
+        "features": {
+          "emergency": "Emergency Stop",
+          "monitoring": "Safety Monitoring",
+          "failSafe": "Fail-Safe Design",
+          "certified": "Certified Safety"
+        }
+      },
+      "intrinsicallySafe": {
+        "title": "Intrinsically Safe Equipment",
+        "description": "Explosion-proof equipment for hazardous environments",
+        "features": {
+          "atex": "ATEX Certified",
+          "explosion": "Explosion Proof",
+          "hazardous": "Hazardous Area",
+          "intrinsic": "Intrinsic Safety"
+        }
+      },
+      "badges": {
+        "surgeProtection": "Surge Protection",
+        "groundingSystems": "Grounding Systems",
+        "safetyRelays": "Safety Relays",
+        "intrinsicSafety": "Intrinsic Safety"
+      }
+    },
+    "common": {
+      "highTorque": "High Torque",
+      "variableSpeed": "Variable Speed",
+      "cordlessOptions": "Cordless Options",
+      "chuckCapacity": "Chuck Capacity: 13mm",
+      "multipleSizes": "Multiple Sizes",
+      "safetyGuards": "Safety Guards",
+      "antiVibration": "Anti-Vibration",
+      "powerfulMotors": "Powerful Motors",
+      "highImpactForce": "High Impact Force",
+      "socketCompatibility": "Socket Compatibility",
+      "forwardReverse": "Forward/Reverse",
+      "batteryPowered": "Battery Powered",
+      "efficientSwitching": "85-265V AC Input",
+      "dcOutput": "12V/24V DC Output",
+      "highEfficiency": "High Efficiency",
+      "compactDesign": "Compact Design",
+      "dinRailMount": "DIN Rail Mount",
+      "wideInputRange": "Wide Input Range",
+      "shortCircuitProtection": "Short Circuit Protection",
+      "ledStatus": "LED Status",
+      "batteryBackup": "Battery Backup",
+      "surgeProtection": "Surge Protection",
+      "autoTransfer": "Auto Transfer",
+      "lcdDisplay": "LCD Display",
+      "castIronBronze": "Cast Iron/Bronze",
+      "stainlessSteelSizes": "Stainless Steel",
+      "balancedDesign": "Balanced Design",
+      "singleDoubleSeals": "Single/Double Seals",
+      "cartridgeType": "Cartridge Type",
+      "highTemperature": "High Temperature",
+      "chemicalResistant": "Chemical Resistant",
+      "rollingElement": "Rolling Element",
+      "sleeveBearings": "Sleeve Bearings",
+      "flexibleCouplings": "Flexible Couplings",
+      "alignmentTools": "Alignment Tools",
+      "threePhase": "Three-Phase Measurement",
+      "harmonicsAnalysis": "Harmonics Analysis",
+      "transientCapture": "Transient Capture",
+      "powerLogging": "Power Logging",
+      "voltageDip": "Voltage Dip Detection",
+      "flickerMeasurement": "Flicker Measurement",
+      "energyAssessment": "Energy Assessment",
+      "realTimeAnalysis": "Real-time Analysis",
+      "continuousMonitoring": "Continuous Monitoring",
+      "eventRecording": "Event Recording",
+      "complianceTesting": "Compliance Testing",
+      "remoteAccess": "Remote Access",
+      "selfPriming": "Self-Priming",
+      "dryRunSafe": "Dry Run Safe",
+      "variableFlow": "Variable Flow",
+      "preciseMeteringLow": "Precise Metering",
+      "lowPulsation": "Low Pulsation",
+      "digitalControl": "Digital Control",
+      "easyMaintenance": "Easy Maintenance",
+      "highPressure": "High Pressure",
+      "lowFlowRates": "Low Flow Rates",
+      "accurateDosing": "Accurate Dosing",
+      "leakFreeOperation": "Leak-Free Operation"
+    },
+    "product": {
+      "safetyEquipment": {
+        "fullBodyHarness": "Full Body Harness",
+        "lanyards": "Lanyards",
+        "anchorPoints": "Anchor Points",
+        "selfRetracting": "Self-Retracting",
+        "multiGasDetectors": "Multi-Gas Detectors",
+        "singleGas": "Single Gas",
+        "wirelessMonitoring": "Wireless Monitoring",
+        "dataLogging": "Data Logging"
+      },
+      "electrical": {
+        "powerCables": "Power Cables",
+        "controlCables": "Control Cables",
+        "instrumentationCables": "Instrumentation Cables",
+        "communicationCables": "Communication Cables",
+        "terminalBlocks": "Terminal Blocks",
+        "wireConnectors": "Wire Connectors",
+        "dinRailTerminals": "DIN Rail Terminals",
+        "junctionBoxes": "Junction Boxes",
+        "mcbs": "MCBs",
+        "mccbs": "MCCBs",
+        "rccbs": "RCCBs",
+        "industrialFuses": "Industrial Fuses",
+        "smps": "SMPS",
+        "dcDcConverters": "DC-DC Converters",
+        "upsSystems": "UPS Systems",
+        "controlPanels": "Control Panels",
+        "distributionBoards": "Distribution Boards",
+        "weatherproofEnclosures": "Weatherproof Enclosures",
+        "heatingElements": "Heating Elements",
+        "industrialHeaters": "Industrial Heaters",
+        "temperatureControllers": "Temperature Controllers",
+        "thermalProtection": "Thermal Protection"
+      },
+      "pumps": {
+        "viscousFluids": "Viscous Fluids",
+        "preciseFlow": "Precise Flow",
+        "castIronSteel": "Cast Iron/Steel",
+        "gentleHandling": "Gentle Handling",
+        "noMechanicalSeal": "No Mechanical Seal",
+        "leakFree": "Leak-Free"
+      },
+      "enclosures": {
+        "nema4xRating": "NEMA 4X Rating",
+        "gasketSealed": "Gasket Sealed",
+        "floorStanding": "Floor Standing",
+        "wallMount": "Wall Mount",
+        "cableManagement": "Cable Management",
+        "coolingOptions": "Cooling Options",
+        "ip65Ip67Rating": "IP65/IP67 Rating",
+        "explosionProof": "Explosion Proof",
+        "cableGlands": "Cable Glands",
+        "corrosionResistant": "Corrosion Resistant"
+      }
+    }
+  },
+  "locations": {
+    "delhiNcr": "Delhi NCR",
+    "rajasthan": "Rajasthan",
+    "uttarPradesh": "Uttar Pradesh",
+    "gujarat": "Gujarat",
+    "maharashtra": "Maharashtra",
+    "haryana": "Haryana",
+    "westBengal": "West Bengal"
+  },
+  "brands": {
+    "customBuilt": "Custom Built",
+    "fluke": "Fluke, Keysight",
+    "siemens": "Siemens, Allen Bradley",
+    "abb": "ABB, Schneider",
+    "honeywell": "Honeywell, Yokogawa",
+    "wonderware": "Wonderware, iFIX",
+    "grundfos": "Grundfos, KSB",
+    "3m": "3M, MSA"
+  },
+  "items": {
+    "instrumentation-accessories": "Instrumentation Accessories",
+    "electrical-accessories": "Electrical Accessories",
+    "solar-products": "Solar Products",
+    "automation-control-systems": "Automation & Control Systems",
+    "safety-protective-devices": "Safety & Protective Devices",
+    "mechanical-pumps-spares": "Mechanical Pumps & Spares",
+    "industrial-measuring-tools": "Industrial & Measuring Tools",
+    "bldc": "BLDC Products"
+  },
+  "tags": {
+    "industrialAutomation": "Industrial Automation",
+    "plcSystems": "PLC Systems",
+    "scada": "SCADA",
+    "manufacturing": "Manufacturing",
+    "processOptimization": "Process Optimization"
+  },
+  "gallery": {
+    "imagePlaceholder": "Image placeholder",
+    "actualImages": "Actual images to be uploaded"
+  },
+  "labels": {
+    "productsCount": "{{count}} Products",
+    "industrialProduct": "Industrial Product",
+    "products": "Products",
+    "specifications": "Specifications",
+    "applications": "Applications",
+    "industries": "Industries",
+    "keyFeatures": "Key Features",
+    "technologies": "Technologies:",
+    "parameters": "Parameters:"
+  },
+  "badges": {
+    "ppe": "PPE",
+    "fallProtection": "Fall Protection",
+    "gasDetection": "Gas Detection",
+    "oshaCompliant": "OSHA Compliant",
+    "signalIntelligence": "Signal Intelligence",
+    "vectorAnalysis": "Vector Analysis",
+    "rfAnalysis": "RF Analysis",
+    "emiTesting": "EMI Testing",
+    "monocrystalline": "Monocrystalline",
+    "polycrystalline": "Polycrystalline",
+    "bifacial": "Bifacial",
+    "highEfficiency": "High Efficiency",
+    "stringInverters": "String Inverters",
+    "centralInverters": "Central Inverters",
+    "hybridSystems": "Hybrid Systems",
+    "gridTie": "Grid-Tie",
+    "highPressure": "High Pressure",
+    "viscousFluids": "Viscous Fluids",
+    "preciseFlow": "Precise Flow",
+    "selfPriming": "Self-Priming",
+    "smartMonitoring": "Smart Monitoring",
+    "batteryProtection": "Battery Protection",
+    "weatherproof": "Weatherproof",
+    "modularDesign": "Modular Design",
+    "solarCompatible": "Solar Compatible",
+    "corrosionResistant": "Corrosion Resistant",
+    "smartControl": "Smart Control",
+    "lithiumIon": "Lithium-Ion",
+    "leadAcid": "Lead-Acid",
+    "energyStorageSystems": "Energy Storage Systems",
+    "gridBackup": "Grid Backup",
+    "chemicalResistant": "Chemical Resistant",
+    "preciseMetering": "Precise Metering",
+    "dryRunSafe": "Dry Run Safe",
+    "processControl": "Process Control",
+    "safetySystems": "Safety Systems",
+    "assetManagement": "Asset Management",
+    "advancedAnalytics": "Advanced Analytics",
+    "energyEfficient": "Energy Efficient",
+    "silentOperation": "Silent Operation",
+    "longLife": "Long Life",
+    "realtimeMonitoring": "Real-time Monitoring",
+    "dataLogging": "Data Logging",
+    "alarmManagement": "Alarm Management",
+    "remoteAccess": "Remote Access",
+    "durableConstruction": "Durable Construction",
+    "ergonomicDesign": "Ergonomic Design",
+    "professionalGrade": "Professional Grade",
+    "groundRods": "Ground Rods",
+    "conductors": "Conductors",
+    "safetyGrounding": "Safety Grounding"
+  },
+  "productDetails": {
+    "instrumentation": {
+      "fullDescription": "Comprehensive range of precision instrumentation components for industrial monitoring and control applications.",
+      "specifications": {
+        "highAccuracy": "High accuracy: ±0.1% to ±0.5%",
+        "operatingTemperature": "Operating temperature: -40°C to +85°C",
+        "protectionRating": "IP65/IP67 protection rating",
+        "outputTypes": "4-20mA, 0-10V, HART, Profibus outputs",
+        "explosionProof": "Explosion-proof variants available"
+      },
+      "applications": {
+        "processControl": "Process Control",
+        "qualityMonitoring": "Quality Monitoring",
+        "safetySystems": "Safety Systems",
+        "environmentalMonitoring": "Environmental Monitoring"
+      },
+      "features": {
+        "smartDiagnostics": "Smart Diagnostics",
+        "digitalCommunication": "Digital Communication",
+        "easyCalibration": "Easy Calibration",
+        "longTermStability": "Long-term Stability"
+      }
+    },
+    "electrical": {
+      "fullDescription": "Complete range of electrical components including switches, relays, contactors, and power distribution equipment for industrial applications.",
+      "specifications": {
+        "voltageRange": "Voltage range: 24V DC to 690V AC",
+        "currentRatings": "Current ratings: 1A to 1000A",
+        "protectionLevel": "IP54 to IP67 protection",
+        "standardsCompliant": "IEC/IS standards compliant",
+        "temperatureRated": "Temperature rated: -25°C to +70°C"
+      },
+      "applications": {
+        "motorControl": "Motor Control",
+        "powerDistribution": "Power Distribution",
+        "switchingApplications": "Switching Applications",
+        "protectionSystems": "Protection Systems"
+      },
+      "features": {
+        "highReliability": "High Reliability",
+        "modularDesign": "Modular Design",
+        "easyInstallation": "Easy Installation",
+        "maintenanceFree": "Maintenance-Free"
+      }
+    },
+    "measurement": {
+      "fullDescription": "Advanced digital meters, analyzers, and calibration equipment for precise measurement and monitoring of electrical and process parameters.",
+      "specifications": {
+        "accuracyClass": "Accuracy class: 0.1 to 1.0",
+        "displayType": "Display: Digital LCD/LED",
+        "communicationOptions": "Communication: RS485, Ethernet, Wireless",
+        "dataLogging": "Data logging capability",
+        "multipleParameter": "Multiple parameter measurement"
+      },
+      "applications": {
+        "powerQualityAnalysis": "Power Quality Analysis",
+        "energyManagement": "Energy Management",
+        "processMonitoring": "Process Monitoring",
+        "complianceMeasurement": "Compliance Measurement"
+      },
+      "features": {
+        "realTimeMonitoring": "Real-time Monitoring",
+        "dataAnalytics": "Data Analytics",
+        "alarmManagement": "Alarm Management",
+        "remoteAccess": "Remote Access"
+      }
+    },
+    "solar": {
+      "fullDescription": "Complete solar energy solutions including panels, inverters, monitoring systems, and grid-tie equipment for sustainable energy generation.",
+      "specifications": {
+        "panelEfficiency": "Panel efficiency: 19-22%",
+        "powerRange": "Power range: 300W to 500W per panel",
+        "inverterEfficiency": "Inverter efficiency: >98%",
+        "warranty": "25-year warranty on panels",
+        "gridOptions": "Grid-tie and off-grid solutions"
+      },
+      "applications": {
+        "rooftopSolar": "Rooftop Solar",
+        "groundMountSystems": "Ground Mount Systems",
+        "solarFarms": "Solar Farms",
+        "hybridSystems": "Hybrid Systems"
+      },
+      "features": {
+        "highEfficiency": "High Efficiency",
+        "weatherResistant": "Weather Resistant",
+        "smartMonitoring": "Smart Monitoring",
+        "gridSynchronization": "Grid Synchronization"
+      }
+    },
+    "automation": {
+      "fullDescription": "Advanced automation and control systems including PLCs, HMIs, SCADA solutions, and industrial communication devices.",
+      "specifications": {
+        "ioCapacity": "I/O capacity: 16 to 2048 points",
+        "communicationProtocols": "Communication: Ethernet, Profibus, Modbus",
+        "programmingStandards": "Programming: IEC 61131-3 compliant",
+        "operatingTemperature": "Operating temperature: 0°C to +60°C",
+        "redundancyOptions": "Redundancy options available"
+      },
+      "applications": {
+        "manufacturingAutomation": "Manufacturing Automation",
+        "processControl": "Process Control",
+        "buildingManagement": "Building Management",
+        "machineControl": "Machine Control"
+      },
+      "features": {
+        "flexibleProgramming": "Flexible Programming",
+        "scalableArchitecture": "Scalable Architecture",
+        "diagnosticTools": "Diagnostic Tools",
+        "remoteMonitoring": "Remote Monitoring"
+      }
+    },
+    "safety": {
+      "fullDescription": "Comprehensive safety and protection equipment including circuit breakers, safety relays, emergency stop systems, and protective devices.",
+      "specifications": {
+        "breakingCapacity": "Breaking capacity: 6kA to 100kA",
+        "safetyIntegrityLevel": "Safety integrity level: SIL 2/3",
+        "responseTime": "Response time: <10ms",
+        "multipleProtectionFunctions": "Multiple protection functions",
+        "arcFaultProtection": "Arc fault protection available"
+      },
+      "applications": {
+        "personnelSafety": "Personnel Safety",
+        "equipmentProtection": "Equipment Protection",
+        "fireSafety": "Fire Safety",
+        "emergencySystems": "Emergency Systems"
+      },
+      "features": {
+        "failSafeOperation": "Fail-Safe Operation",
+        "selfMonitoring": "Self-Monitoring",
+        "quickResponse": "Quick Response",
+        "easyTesting": "Easy Testing"
+      }
+    },
+    "pumps": {
+      "fullDescription": "High-quality mechanical pumps, spare parts, and maintenance kits for various industrial and commercial applications.",
+      "specifications": {
+        "flowRate": "Flow rate: 10 LPM to 5000 LPM",
+        "head": "Head: 10m to 500m",
+        "materials": "Material: Cast iron, SS316, Bronze",
+        "temperatureRange": "Temperature: -20°C to +180°C",
+        "efficiency": "Efficiency: up to 85%"
+      },
+      "applications": {
+        "waterSupply": "Water Supply",
+        "chemicalProcessing": "Chemical Processing",
+        "hvacSystems": "HVAC Systems",
+        "industrialProcesses": "Industrial Processes"
+      },
+      "features": {
+        "energyEfficient": "Energy Efficient",
+        "corrosionResistant": "Corrosion Resistant",
+        "lowMaintenance": "Low Maintenance",
+        "reliableOperation": "Reliable Operation"
+      }
+    },
+    "tools": {
+      "fullDescription": "Professional grade industrial tools, tackles, and maintenance equipment for various engineering and maintenance applications.",
+      "specifications": {
+        "material": "Material: High-grade steel/alloy",
+        "precision": "Precision: ±0.1mm accuracy",
+        "operatingRange": "Operating range: Various sizes",
+        "ergonomicDesign": "Ergonomic design",
+        "certifiedStandards": "Certified to international standards"
+      },
+      "applications": {
+        "maintenanceWork": "Maintenance Work",
+        "installation": "Installation",
+        "calibration": "Calibration",
+        "testingCommissioning": "Testing & Commissioning"
+      },
+      "features": {
+        "durableConstruction": "Durable Construction",
+        "ergonomicDesign": "Ergonomic Design",
+        "precisionEngineering": "Precision Engineering",
+        "multiPurposeUse": "Multi-Purpose Use"
+      }
+    }
+  },
+  "sensors": {
+    "omronPnpProximity": {
+      "title": "OMRON E2E-X5ME1 PNP Proximity Sensor",
+      "description": "High-performance PNP inductive proximity sensor with M18 housing and extended sensing range",
+      "features": [
+        "PNP Output (NO)",
+        "M18 x 1 Threading",
+        "5mm Sensing Distance",
+        "IP67 Protection",
+        "LED Operation Indicator"
+      ]
+    },
+    "pepperlFuchsPnp": {
+      "title": "Pepperl+Fuchs NBB5-18GM60-E2 PNP Sensor",
+      "description": "Robust inductive proximity sensor with enhanced electromagnetic compatibility",
+      "features": [
+        "PNP Output (NO)",
+        "M18 Housing",
+        "5mm Sensing Distance",
+        "Enhanced EMC",
+        "PTFE Cable"
+      ]
+    },
+    "sickNpnProximity": {
+      "title": "SICK IM12-04BNS-ZW1 NPN Proximity Sensor",
+      "description": "Compact M12 inductive proximity sensor with NPN output and high switching frequency",
+      "features": [
+        "NPN Output (NO)",
+        "M12 x 1 Threading",
+        "4mm Sensing Distance",
+        "High Switching Frequency",
+        "Flush Mounting"
+      ]
+    },
+    "turckNpnProximity": {
+      "title": "Turck BI5-G18-AN6X NPN Proximity Sensor",
+      "description": "Reliable inductive proximity sensor with excellent temperature stability",
+      "features": [
+        "NPN Output (NO)",
+        "M18 Housing",
+        "5mm Sensing Distance",
+        "Temperature Stable",
+        "Short Circuit Protection"
+      ]
+    },
+    "wikaPt100Rtd": {
+      "title": "WIKA TR10 PT100 RTD Temperature Sensor",
+      "description": "Precision resistance temperature detector with PT100 element for accurate temperature measurement",
+      "features": [
+        "PT100 Element",
+        "Class A Accuracy",
+        "3-Wire Configuration",
+        "Stainless Steel Probe",
+        "Temperature Range: -200°C to +600°C"
+      ]
+    },
+    "rosemountPt500Rtd": {
+      "title": "Rosemount 78S PT500 RTD Temperature Sensor",
+      "description": "High-accuracy PT500 RTD sensor for critical temperature monitoring applications",
+      "features": [
+        "PT500 Element",
+        "High Accuracy",
+        "4-Wire Configuration",
+        "Duplex Wire",
+        "Temperature Range: -200°C to +850°C"
+      ]
+    },
+    "omegaPt1000Rtd": {
+      "title": "OMEGA PT1000 RTD Temperature Sensor",
+      "description": "Precision PT1000 resistance temperature detector for industrial applications",
+      "features": [
+        "PT1000 Element",
+        "High Resolution",
+        "3-Wire Configuration",
+        "316SS Construction",
+        "Temperature Range: -200°C to +600°C"
+      ]
+    },
+    "tcLtdTypeK": {
+      "title": "TC Ltd Type K Thermocouple",
+      "description": "General-purpose Type K thermocouple for wide temperature range applications",
+      "features": [
+        "Type K (Chromel-Alumel)",
+        "Wide Temperature Range",
+        "Fast Response",
+        "Mineral Insulated",
+        "Temperature Range: -270°C to +1260°C"
+      ]
+    },
+    "omegaTypeJ": {
+      "title": "OMEGA Type J Thermocouple",
+      "description": "Iron-Constantan thermocouple ideal for inert and reducing atmospheres",
+      "features": [
+        "Type J (Iron-Constantan)",
+        "Good Linearity",
+        "Magnetic Properties",
+        "Cost Effective",
+        "Temperature Range: -210°C to +760°C"
+      ]
+    },
+    "wikaTypeT": {
+      "title": "WIKA Type T Thermocouple",
+      "description": "Copper-Constantan thermocouple for precise low temperature measurements",
+      "features": [
+        "Type T (Copper-Constantan)",
+        "High Accuracy",
+        "Stable at Low Temperatures",
+        "Good Repeatability",
+        "Temperature Range: -270°C to +400°C"
+      ]
+    },
+    "omegaTypeS": {
+      "title": "OMEGA Type S Thermocouple",
+      "description": "Platinum-Rhodium thermocouple for high temperature and oxidizing environments",
+      "features": [
+        "Type S (Pt-10%Rh)",
+        "High Temperature Capability",
+        "Oxidation Resistant",
+        "High Accuracy",
+        "Temperature Range: -50°C to +1768°C"
+      ]
+    },
+    "endressHauserPh": {
+      "title": "Endress+Hauser Orbisint CPS11D pH Sensor",
+      "description": "Digital pH sensor with advanced diagnostics for process applications",
+      "features": [
+        "Digital ISFET Technology",
+        "Self-Diagnostic Capability",
+        "Long-Term Stability",
+        "Sterilizable Design",
+        "pH Range: 0-14"
+      ]
+    },
+    "hachPhdSc": {
+      "title": "Hach PHD sc Digital pH Sensor",
+      "description": "Intelligent digital pH sensor with predictive diagnostics",
+      "features": [
+        "Digital sc Technology",
+        "Predictive Diagnostics",
+        "Auto-Calibration",
+        "Process Connector",
+        "pH Range: 0-14"
+      ]
+    },
+    "balluffPnpProximity": {
+      "title": "Balluff BES 516-370-E4-C-PU-03 PNP Sensor",
+      "description": "High-performance PNP inductive proximity sensor with enhanced switching capabilities",
+      "features": [
+        "PNP Output (NO/NC)",
+        "M18 x 1 Threading",
+        "4mm Sensing Distance",
+        "IP67 Protection",
+        "Temperature Stable"
+      ]
+    },
+    "ifmNpnProximity": {
+      "title": "IFM IG5854 NPN Inductive Proximity Sensor",
+      "description": "Robust NPN proximity sensor with superior environmental protection",
+      "features": [
+        "NPN Output (NO)",
+        "M18 Housing",
+        "8mm Sensing Distance",
+        "IP68/IP69K Protection",
+        "High Output Current"
+      ]
+    },
+    "telemechaniquePnpProximity": {
+      "title": "Telemecanique XS618B1PAM12 PNP Sensor",
+      "description": "Reliable Schneider Electric proximity sensor for industrial automation",
+      "features": [
+        "PNP Output (NO)",
+        "M18 x 1 Threading",
+        "8mm Sensing Distance",
+        "IP67 Protection",
+        "Multiple Certifications"
+      ]
+    },
+    "jumoPt100Rtd": {
+      "title": "JUMO 902820/10 PT100 RTD Sensor",
+      "description": "Precision PT100 RTD temperature sensor for industrial applications",
+      "features": [
+        "PT100 Element",
+        "Class A Accuracy",
+        "3-Wire Configuration",
+        "316L Stainless Steel",
+        "Fast Response Time"
+      ]
+    },
+    "herausPt1000Rtd": {
+      "title": "Heraeus M222 PT1000 RTD Sensor",
+      "description": "High-precision PT1000 resistance temperature detector",
+      "features": [
+        "PT1000 Element",
+        "Class A Accuracy",
+        "2-Wire Configuration",
+        "316SS Probe",
+        "IP68 Protection"
+      ]
+    },
+    "watlowTypeK": {
+      "title": "Watlow 630A Type K Thermocouple",
+      "description": "General-purpose Type K thermocouple for industrial temperature measurement",
+      "features": [
+        "Type K (Chromel-Alumel)",
+        "Fast Response",
+        "Multiple Protection Types",
+        "316SS Sheath",
+        "Wide Temperature Range"
+      ]
+    },
+    "yokogawaPh": {
+      "title": "Yokogawa PH450G pH Sensor",
+      "description": "Industrial pH sensor with glass electrode technology",
+      "features": [
+        "Glass Electrode",
+        "Double Junction",
+        "Wide pH Range",
+        "High Accuracy",
+        "Pressure Resistant"
+      ]
+    }
+  },
+  "transmitters": {
+    "hbmPw15aLoadCell": {
+      "title": "HBM PW15A Load Cell",
+      "description": "Precision load cell for force and weight measurement applications",
+      "features": [
+        "Alloy Steel Construction",
+        "High Accuracy",
+        "IP67 Protection",
+        "Fatigue Resistant",
+        "Capacity: 0.5-200 kN"
+      ]
+    },
+    "mettlerToledoSlb215": {
+      "title": "Mettler Toledo SLB215 Load Cell",
+      "description": "Stainless steel load cell for harsh industrial environments",
+      "features": [
+        "Stainless Steel Construction",
+        "Hermetically Sealed",
+        "OIML R60 Approved",
+        "High Durability",
+        "Capacity: 7.5-600 kg"
+      ]
+    },
+    "rosemount3051s": {
+      "title": "Rosemount 3051S Pressure Transmitter",
+      "description": "Advanced pressure transmitter with proven sensor technology",
+      "features": [
+        "Coplanar Technology",
+        "HART Protocol",
+        "Rangeability 400:1",
+        "5-Year Stability",
+        "Pressure Range: 0-15,000 psi"
+      ]
+    },
+    "endressHauserCerabar": {
+      "title": "Endress+Hauser Cerabar PMC21 Pressure Transmitter",
+      "description": "Ceramic pressure transmitter for harsh process conditions",
+      "features": [
+        "Ceramic Sensor",
+        "HART Communication",
+        "Overpressure Protection",
+        "High Accuracy",
+        "Pressure Range: 0-400 bar"
+      ]
+    },
+    "rosemount248": {
+      "title": "Rosemount 248 Temperature Transmitter",
+      "description": "Universal temperature transmitter for RTD and thermocouple inputs",
+      "features": [
+        "Universal Input",
+        "HART Protocol",
+        "Sensor Backup",
+        "Advanced Diagnostics",
+        "Temperature Range: -200°C to +1820°C"
+      ]
+    },
+    "wikaT32": {
+      "title": "WIKA T-32 Temperature Transmitter",
+      "description": "Programmable temperature transmitter with universal input",
+      "features": [
+        "Universal Input",
+        "4-20mA Output",
+        "Easy Configuration",
+        "Galvanic Isolation",
+        "Temperature Range: -200°C to +1600°C"
+      ]
+    },
+    "endressHauserPromag": {
+      "title": "Endress+Hauser Promag 50W Flow Meter",
+      "description": "Electromagnetic flow meter for conductive liquids",
+      "features": [
+        "Electromagnetic Technology",
+        "No Moving Parts",
+        "Bi-directional Measurement",
+        "Wide Conductivity Range",
+        "Flow Range: 0.01-15 m/s"
+      ]
+    },
+    "rosemount8732e": {
+      "title": "Rosemount 8732E Magnetic Flow Meter",
+      "description": "High-performance magnetic flow meter with advanced diagnostics",
+      "features": [
+        "Magnetic Flow Technology",
+        "Smart Meter Verification",
+        "HART Communication",
+        "Dual Compartment Housing",
+        "Flow Range: 0.03-15 m/s"
+      ]
+    },
+    "rosemount5408": {
+      "title": "Rosemount 5408 Level Transmitter",
+      "description": "Non-contacting radar level transmitter for challenging applications",
+      "features": [
+        "FMCW Radar Technology",
+        "80 GHz Frequency",
+        "Advanced Signal Processing",
+        "HART Communication",
+        "Range: 30m (100 ft)"
+      ]
+    },
+    "endressHauserFmr20": {
+      "title": "Endress+Hauser FMR20 Radar Level Transmitter",
+      "description": "Compact radar level transmitter for basic level measurement",
+      "features": [
+        "26 GHz Radar",
+        "Compact Design",
+        "Easy Configuration",
+        "HART Protocol",
+        "Range: 5m (16 ft)"
+      ]
+    },
+    "endressHauserCm42": {
+      "title": "Endress+Hauser CM42 Conductivity Transmitter",
+      "description": "Modular transmitter for conductivity and concentration measurement",
+      "features": [
+        "Modular Design",
+        "Multi-Parameter",
+        "Advanced Diagnostics",
+        "HART Communication",
+        "Conductivity Range: 0.05 µS/cm to 2 S/cm"
+      ]
+    },
+    "rosemountWireless1420": {
+      "title": "Rosemount Wireless 1420 Gateway",
+      "description": "Wireless gateway for industrial wireless networks",
+      "features": [
+        "Wireless HART Technology",
+        "Self-Organizing Network",
+        "Extended Range",
+        "Security Encryption",
+        "Up to 100 Field Devices"
+      ]
+    },
+    "flintecPc2LoadCell": {
+      "title": "Flintec PC2 Compression Load Cell",
+      "description": "High-precision compression load cell for heavy-duty weighing applications",
+      "features": [
+        "Tool Steel Construction",
+        "C3 Accuracy Class",
+        "IP67 Protection",
+        "Wide Capacity Range",
+        "OIML R60 Approved"
+      ]
+    },
+    "honeywellSt3000": {
+      "title": "Honeywell ST3000 Smart Pressure Transmitter",
+      "description": "Advanced smart pressure transmitter with superior stability and accuracy",
+      "features": [
+        "High Accuracy ±0.075%",
+        "5-Year Stability",
+        "HART Communication",
+        "SIL2 Certified",
+        "Wide Pressure Range"
+      ]
+    },
+    "abb266Pressure": {
+      "title": "ABB 266 Pressure Transmitter",
+      "description": "High-performance absolute and gauge pressure transmitter",
+      "features": [
+        "±0.055% Accuracy",
+        "10-Year Stability",
+        "Multiple Protocols",
+        "SIL2/3 Certified",
+        "Robust Design"
+      ]
+    },
+    "siemensSitrans": {
+      "title": "Siemens SITRANS P320/420 Pressure Transmitter",
+      "description": "Smart pressure transmitter with advanced digital communication",
+      "features": [
+        "±0.075% Accuracy",
+        "HART & PROFIBUS PA",
+        "SIL2 Certified",
+        "Wide Operating Range",
+        "Easy Configuration"
+      ]
+    },
+    "yokogawaEja": {
+      "title": "Yokogawa EJA110A DPharp Pressure Transmitter",
+      "description": "High-accuracy pressure transmitter with DPharp sensor technology",
+      "features": [
+        "DPharp Technology",
+        "±0.055% Accuracy",
+        "10-Year Stability",
+        "Multiple Protocols",
+        "SIL2/3 Certified"
+      ]
+    },
+    "krohneOptiflux": {
+      "title": "KROHNE OPTIFLUX 4300 Electromagnetic Flow Meter",
+      "description": "High-performance electromagnetic flow meter for conductive liquids",
+      "features": [
+        "Electromagnetic Technology",
+        "±0.5% Accuracy",
+        "Multiple Protocols",
+        "SIL2 Certified",
+        "Wide Flow Range"
+      ]
+    },
+    "vegaVegapuls": {
+      "title": "VEGA VEGAPULS 64 Radar Level Transmitter",
+      "description": "Advanced 80 GHz radar level transmitter for precise level measurement",
+      "features": [
+        "80 GHz Technology",
+        "±2 mm Accuracy",
+        "30m Range",
+        "3° Beam Angle",
+        "SIL2 Certified"
+      ]
+    }
+  },
+  "groups": {
+    "rccb-circuit-breakers": {
+      "title": "RCCB Circuit Breakers",
+      "description": "Residual Current Circuit Breakers (RCCB) for earth leakage protection. Essential safety devices that protect against electrical shock and fire hazards by detecting current imbalances."
+    },
+    "acb-circuit-breakers": {
+      "title": "ACB Circuit Breakers",
+      "description": "Air Circuit Breakers (ACB) for low voltage power distribution. High-capacity circuit breakers with advanced protection features for industrial and commercial electrical systems."
+    },
+    "vcb-circuit-breakers": {
+      "title": "VCB Circuit Breakers",
+      "description": "Vacuum Circuit Breakers (VCB) for medium voltage applications. Superior arc quenching technology providing reliable switching and protection in electrical substations."
+    }
+  },
+  "specs": {
+    "voltage": "Voltage",
+    "current": "Current",
+    "manufacturer": "Manufacturer",
+    "model": "Model",
+    "type": "Type",
+    "sensingDistance": "Sensing Distance",
+    "outputType": "Output Type",
+    "housing": "Housing",
+    "protection": "Protection Rating",
+    "operatingVoltage": "Operating Voltage",
+    "outputCurrent": "Output Current",
+    "operatingTemperature": "Operating Temperature",
+    "accuracy": "Accuracy",
+    "element": "Element",
+    "configuration": "Configuration",
+    "temperatureRange": "Temperature Range",
+    "thermocoupleType": "Thermocouple Type",
+    "phRange": "pH Range",
+    "capacity": "Capacity",
+    "material": "Material",
+    "pressureRange": "Pressure Range",
+    "communication": "Communication",
+    "flowRange": "Flow Range",
+    "technology": "Technology",
+    "range": "Range",
+    "frequency": "Frequency",
+    "conductivityRange": "Conductivity Range",
+    "poles": "Poles",
+    "ratedVoltage": "Rated Voltage",
+    "ratedCurrent": "Rated Current",
+    "residualCurrent": "Residual Current",
+    "rcType": "RC Type",
+    "breakingCapacity": "Breaking Capacity",
+    "tripUnit": "Trip Unit",
+    "operatingMechanism": "Operating Mechanism",
+    "standard": "Standard",
+    "mountingType": "Mounting Type",
+    "interruptionTechnology": "Interruption Technology",
+    "electricalLife": "Electrical Life",
+    "mechanicalLife": "Mechanical Life",
+    "installation": "Installation"
+  },
+  "productGroups": {
+    "pnpNpnSensors": {
+      "title": "PNP/NPN Sensors",
+      "description": "Industrial proximity sensors including both PNP and NPN types for automation applications. These sensors provide reliable detection of metallic objects without physical contact, featuring robust construction, high switching frequencies, excellent repeatability, and resistance to electromagnetic interference for demanding industrial environments."
+    },
+    "rtdThermocouplesSensors": {
+      "title": "RTD/Thermocouples Sensors",
+      "description": "Temperature sensors including Resistance Temperature Detector (RTD) sensors and industrial thermocouples for precise temperature measurement in industrial processes. RTD sensors available in PT100, PT500, and PT1000 configurations, and thermocouples in J, K, T, E, R, S, and N types. Designed for both precision measurement and high-temperature applications with excellent accuracy, stability, and durability in extreme industrial environments."
+    },
+    "loadCell": {
+      "title": "Load Cell Sensors",
+      "description": "Precision load cell sensors for force and weight measurement applications. Available in compression, tension, and universal configurations with high accuracy and excellent long-term stability for industrial weighing systems."
+    },
+    "phSensors": {
+      "title": "pH Sensors",
+      "description": "Industrial pH sensors for water quality monitoring and process control applications. Glass electrode and ISFET technology options with automatic temperature compensation and digital HART communication capabilities."
+    },
+    "dpTypeTransmitter": {
+      "title": "Differential Pressure Transmitters",
+      "description": "High-precision differential pressure transmitters for flow, level, and pressure measurement applications. Features HART communication, digital compensation, and robust construction for demanding industrial environments."
+    },
+    "pTypeTransmitter": {
+      "title": "Pressure Transmitters",
+      "description": "Industrial pressure transmitters for absolute and gauge pressure measurement. Featuring advanced sensor technology, excellent stability, and comprehensive diagnostic capabilities for process automation applications."
+    },
+    "rsTypeTransmitter": {
+      "title": "Remote Seal Transmitters",
+      "description": "Remote seal pressure transmitters for high-temperature, corrosive, or viscous media applications. Capillary-filled systems provide safe and accurate pressure measurement in challenging process conditions."
+    },
+    "massFlowMeter": {
+      "title": "Mass Flow Meters",
+      "description": "Coriolis mass flow meters for direct mass flow and density measurement of liquids and gases. Highly accurate measurement independent of fluid properties, temperature, and pressure variations."
+    },
+    "vortexFlowMeter": {
+      "title": "Vortex Flow Meters",
+      "description": "Vortex shedding flow meters for steam, gas, and liquid measurement applications. No moving parts design ensures reliability with built-in temperature compensation and multivariable measurement capabilities."
+    },
+    "volumetricFlowMeter": {
+      "title": "Volumetric Flow Meters",
+      "description": "Electromagnetic, ultrasonic, and positive displacement volumetric flow meters for precise liquid and gas flow measurement. Features include no moving parts (electromagnetic), high accuracy, minimal pressure drop, and excellent long-term stability. Ideal for water, wastewater, chemical applications, custody transfer, and batch operations requiring reliable volumetric measurement."
+    },
+    "pdFlowMeter": {
+      "title": "PD Flow Meters",
+      "description": "Positive displacement flow meters using oval gear, helical gear, nutating disc, and screw measurement principles for precise liquid flow measurement. Features exceptional accuracy, superior repeatability, and wide viscosity range. Ideal for custody transfer, batching, fuel metering, chemical dosing, and high-viscosity applications requiring reliable volumetric measurement."
+    },
+    "pressureSwitches": {
+      "title": "Pressure Switches",
+      "description": "Industrial pressure switches for accurate pressure monitoring and control in automation systems. Available from leading manufacturers like Danfoss, Schneider Electric, WIKA, and ABB."
+    },
+    "levelSwitches": {
+      "title": "Level Switches",
+      "description": "Point-level detection switches using tuning fork, float, and capacitive technologies. From trusted brands like Endress+Hauser, ABB, and VEGA for reliable liquid and bulk solid level monitoring."
+    },
+    "limitSwitches": {
+      "title": "Limit Switches",
+      "description": "Heavy-duty position sensing switches for industrial automation. From Omron, Schneider Electric, and Siemens with IP67 protection and robust metal construction for reliable operation."
+    },
+    "pushButtons": {
+      "title": "Push Buttons",
+      "description": "Industrial push button switches for control panels and machinery. Available in 22mm and 30mm sizes from Schneider Electric, Eaton, ABB, and Siemens with various contact configurations and illumination options."
+    },
+    "hooterBuzzer": {
+      "title": "Hooter / Buzzer",
+      "description": "Industrial audible signaling devices for alarm systems and process notifications. Available in various voltage ratings and sound output levels for effective warning signals in noisy industrial environments."
+    },
+    "controlValves": {
+      "title": "Control Valves",
+      "description": "Precision control valves for process automation from Fisher (Emerson), SAMSON, and ABB. Globe, ball, and rotary designs with digital positioners and HART communication capabilities."
+    },
+    "solenoidValves": {
+      "title": "Solenoid Valves",
+      "description": "Electrically operated valves for fluid control automation. ASCO (Emerson) and Parker Hannifin models for air, water, steam, and various industrial fluids with direct acting and pilot operated designs."
+    },
+    "onOffValves": {
+      "title": "On/Off Valves",
+      "description": "Industrial on-off ball and gate valves for reliable shut-off service. Features quarter-turn actuation, manual or pneumatic operation, stainless steel construction, and compliance with API, ANSI, and ISO standards. Available from leading manufacturers including Emerson Fisher, Flowserve Worcester, Swagelok, and Burkert for process isolation, emergency shut-down, and flow control applications."
+    },
+    "liquidAnalyzers": {
+      "title": "Liquid Analyzers",
+      "description": "Comprehensive liquid analyzers for water quality monitoring, chemical process control, and environmental compliance. Multi-parameter analysis with automatic calibration and data logging capabilities."
+    },
+    "oxygenGasAnalyzers": {
+      "title": "Oxygen (O2) Gas Analyzers",
+      "description": "Precision oxygen analyzers for industrial process monitoring and safety applications. Electrochemical, paramagnetic, and optical technologies from leading manufacturers like Systech, Panametrics, and Endress+Hauser."
+    },
+    "nitrogenGasAnalyzers": {
+      "title": "Nitrogen (N2) Gas Analyzers",
+      "description": "Nitrogen gas analyzers using thermal conductivity and inert gas fusion technologies. LECO and HORIBA instruments for elemental analysis in metals and alloys with high precision measurement."
+    },
+    "hydrogenGasAnalyzers": {
+      "title": "Hydrogen (H2) Gas Analyzers",
+      "description": "Hydrogen analyzers with thermal conductivity detection for binary mixture analysis and process monitoring. Nova Analytical and Endress+Hauser systems for safety and quality control applications."
+    },
+    "carbonDioxideGasAnalyzers": {
+      "title": "Carbon Dioxide (CO2) Gas Analyzers",
+      "description": "CO2 analyzers using NDIR and TDLAS technologies for combustion control, food processing, and environmental monitoring. Range from ppm to percentage levels with high accuracy measurement."
+    },
+    "codAnalyzers": {
+      "title": "COD Analyzers",
+      "description": "Chemical Oxygen Demand analyzers for water quality testing and wastewater treatment monitoring. Hach, MANTECH, and LAR systems with automated analysis and regulatory compliance capabilities."
+    },
+    "bodAnalyzers": {
+      "title": "BOD Analyzers",
+      "description": "Biochemical Oxygen Demand analyzers for organic pollution measurement in water samples. MANTECH, Hach, and YSI automated systems with optical DO sensors and temperature control."
+    },
+    "standardCeilingFans": {
+      "title": "Standard BLDC Ceiling Fans",
+      "description": "Energy-efficient brushless DC ceiling fans with variable speed control and silent operation. Featuring modern designs, remote control operation, and exceptional energy savings compared to traditional AC motors."
+    },
+    "premiumCeilingFans": {
+      "title": "Premium BLDC Ceiling Fans",
+      "description": "High-performance brushless DC ceiling fans with advanced features including smart controls, LED lighting, and superior aerodynamic design. Premium models offer enhanced durability and whisper-quiet operation."
+    },
+    "commercialCeilingFans": {
+      "title": "Commercial BLDC Ceiling Fans",
+      "description": "Heavy-duty brushless DC ceiling fans designed for commercial and industrial applications. Robust construction with high airflow capacity, extended operating life, and reduced maintenance requirements."
+    },
+    "exhaustFanMotors": {
+      "title": "BLDC Exhaust Fan Motors",
+      "description": "High-efficiency brushless DC motors for exhaust fan applications. Designed for continuous operation with excellent speed control, low noise levels, and superior energy efficiency for ventilation systems."
+    },
+    "coolerMotors": {
+      "title": "BLDC Cooler Motors",
+      "description": "Energy-efficient brushless DC motors for air cooler applications. Featuring variable speed control, silent operation, and exceptional reliability for both domestic and commercial cooling systems."
+    },
+    "ventilationMotors": {
+      "title": "BLDC Ventilation Motors",
+      "description": "Advanced brushless DC motors for ventilation systems with precise speed control and low power consumption. Ideal for HVAC applications requiring quiet operation and energy efficiency."
+    },
+    "submersiblePumps": {
+      "title": "BLDC Submersible Pumps",
+      "description": "Energy-efficient brushless DC submersible pumps for water supply applications. Featuring corrosion-resistant construction, variable speed operation, and exceptional efficiency for borewell and deep water pumping."
+    },
+    "surfacePumps": {
+      "title": "BLDC Surface Pumps",
+      "description": "High-efficiency brushless DC surface pumps for water transfer and pressure boosting applications. Compact design with intelligent control features and superior energy savings compared to conventional pumps."
+    },
+    "hybridPumps": {
+      "title": "BLDC Hybrid Pumps",
+      "description": "Versatile brushless DC hybrid pumps suitable for both submersible and surface applications. Advanced motor technology with adaptive control systems for optimal performance across various operating conditions."
+    },
+    "tableFanMotors": {
+      "title": "BLDC Table Fan Motors",
+      "description": "Compact brushless DC motors for table fan applications with excellent speed control and whisper-quiet operation. Energy-efficient design with extended operational life and minimal maintenance requirements."
+    },
+    "wallFanMotors": {
+      "title": "BLDC Wall Fan Motors",
+      "description": "Space-saving brushless DC motors for wall-mounted fan applications. Featuring remote control compatibility, multiple speed settings, and energy-efficient operation for residential and commercial use."
+    },
+    "pedestalFanMotors": {
+      "title": "BLDC Pedestal Fan Motors",
+      "description": "Powerful brushless DC motors for pedestal fan applications with adjustable height and oscillation features. Delivering superior airflow with energy-efficient operation and silent performance."
+    },
+    "vfd": {
+      "title": "Variable Frequency Drives (VFD)",
+      "description": "Advanced VFDs for precise motor speed control and energy savings. Features include built-in protection, multiple control modes, and communication interfaces for integration with automation systems."
+    },
+    "softStarter": {
+      "title": "Soft Starters",
+      "description": "Motor soft starters for smooth acceleration and deceleration, reducing mechanical stress and electrical surges. Ideal for pumps, fans, conveyors, and compressor applications requiring controlled starting."
+    },
+    "dolStarter": {
+      "title": "DOL Starters (Direct On Line)",
+      "description": "Robust direct-on-line motor starters for simple and reliable motor control. Includes contactors, overload relays, and control circuits for full voltage starting of AC motors."
+    },
+    "ioCards": {
+      "title": "I/O Cards",
+      "description": "Input/Output expansion cards for PLC systems and automation controllers. Digital and analog I/O modules with various channel configurations, high-speed response, and flexible communication protocols for system scalability."
+    },
+    "powerContactors": {
+      "title": "Power Contactors",
+      "description": "Heavy-duty electromagnetic contactors for switching motors and resistive loads. Available in various current ratings with auxiliary contacts and mechanical interlocking options for safe operation."
+    },
+    "timerRelays": {
+      "title": "Timer Relays",
+      "description": "Programmable timer relays for time-delay control applications. Multiple timing functions including on-delay, off-delay, interval, and pulse timing with digital or analog adjustment."
+    },
+    "controlTransformers": {
+      "title": "Control Transformers",
+      "description": "Step-down control transformers for panel and machine control circuits. Available in 1kVA, 3kVA, and 5kVA ratings with primary and secondary fuse protection for reliable power conversion."
+    },
+    "streetLights": {
+      "title": "Street Lights",
+      "description": "Industrial-grade LED street lights for roadways, parking lots, and outdoor areas. Energy-efficient design with high luminous output, long lifespan, and excellent color rendering for enhanced visibility and safety."
+    },
+    "streetLightsFlameproof": {
+      "title": "Street Lights (Flameproof)",
+      "description": "ATEX/IECEx certified flameproof LED street lights for hazardous outdoor areas. Explosion-proof construction meeting Zone 1 and Zone 2 requirements with robust housing for safe operation in potentially explosive atmospheres."
+    },
+    "streetLightsWeatherproof": {
+      "title": "Street Lights (Weatherproof)",
+      "description": "IP65/IP66 rated weatherproof LED street lights for harsh outdoor environments. Corrosion-resistant construction with superior moisture and dust protection for reliable operation in all weather conditions."
+    },
+    "highBayLights": {
+      "title": "High Bay Lights",
+      "description": "High-output LED high bay lights for warehouses, factories, and industrial facilities. Delivers powerful illumination from heights of 6-15 meters with excellent efficiency and minimal glare for optimal working conditions."
+    },
+    "highBayLightsFlameproof": {
+      "title": "High Bay Lights (Flameproof)",
+      "description": "Explosion-proof LED high bay lights for hazardous industrial areas. ATEX/IECEx certified for Zone 1 and Zone 2 applications with flameproof enclosure ensuring safe operation in explosive gas atmospheres."
+    },
+    "highBayLightsWeatherproof": {
+      "title": "High Bay Lights (Weatherproof)",
+      "description": "IP65/IP66 weatherproof LED high bay lights for wet and dusty industrial environments. Sealed construction prevents moisture and particle ingress for reliable performance in harsh conditions."
+    },
+    "vesselLights": {
+      "title": "Vessel Lights",
+      "description": "Specialized LED vessel lights for marine and industrial tank applications. Compact design with high-efficiency optics and robust construction for illumination of tanks, vessels, and confined spaces."
+    },
+    "vesselLightsFlameproof": {
+      "title": "Vessel Lights (Flameproof)",
+      "description": "Explosion-proof LED vessel lights for hazardous tank and vessel applications. Certified for Zone 1/2 explosive atmospheres with flameproof housing ensuring safe operation around flammable liquids and gases."
+    },
+    "vesselLightsWeatherproof": {
+      "title": "Vessel Lights (Weatherproof)",
+      "description": "IP66/IP67 weatherproof LED vessel lights for outdoor and wet area tank illumination. Sealed construction with corrosion-resistant materials for marine and chemical processing environments."
+    },
+    "floodLights": {
+      "title": "Flood Lights",
+      "description": "High-power LED flood lights for area lighting and security applications. Wide beam angle with adjustable mounting brackets providing uniform illumination for sports fields, building facades, and large outdoor areas."
+    },
+    "floodLightsFlameproof": {
+      "title": "Flood Lights (Flameproof)",
+      "description": "Explosion-proof LED flood lights for hazardous area illumination. ATEX/IECEx certified with flameproof construction for safe operation in Zone 1 and Zone 2 potentially explosive atmospheres."
+    },
+    "floodLightsWeatherproof": {
+      "title": "Flood Lights (Weatherproof)",
+      "description": "IP65/IP66 weatherproof LED flood lights for outdoor security and area lighting. Robust aluminum housing with tempered glass and superior sealing for reliable operation in extreme weather conditions."
+    },
+    "wellGlassLights": {
+      "title": "Well Glass Lights",
+      "description": "Industrial well glass LED lights for recessed ceiling and wall mounting. Durable glass cover with heat-resistant construction providing efficient general lighting for corridors, warehouses, and industrial spaces."
+    },
+    "wellGlassLightsFlameproof": {
+      "title": "Well Glass Lights (Flameproof)",
+      "description": "Explosion-proof well glass LED lights for hazardous indoor areas. ATEX/IECEx certified flameproof construction with reinforced well glass cover for safe operation in Zone 1 and Zone 2 classified locations."
+    },
+    "wellGlassLightsWeatherproof": {
+      "title": "Well Glass Lights (Weatherproof)",
+      "description": "IP65/IP66 weatherproof well glass LED lights for outdoor and wet area applications. Sealed construction with impact-resistant glass and gasket sealing for reliable performance in challenging environments."
+    },
+    "digitalMotorProtectionRelay": {
+      "title": "Digital Motor Protection Relay (C&S)",
+      "description": "Microprocessor-based motor protection relays with comprehensive protection functions. Monitors current, voltage, temperature, and power parameters with programmable settings and communication capabilities."
+    },
+    "relayBoards": {
+      "title": "Relay Boards",
+      "description": "Multi-channel relay boards for automation and control applications. PCB-mounted or DIN rail mounted configurations with LED indicators, optocoupler isolation, and support for Arduino, Raspberry Pi, and PLC control."
+    },
+    "voltageMonitoringRelay": {
+      "title": "Voltage Monitoring Relay",
+      "description": "Three-phase voltage monitoring relays for protection against over/under voltage, phase failure, and phase sequence faults. Adjustable trip levels with time delay settings for sensitive equipment protection."
+    },
+    "currentTransformers": {
+      "title": "Current Transformers (CT)",
+      "description": "Precision current transformers for metering and protection applications. Available in various ratios with class 0.5 and 1.0 accuracy for measurement, and 5P/10P class for protection circuits."
+    },
+    "potentialTransformers": {
+      "title": "Potential Transformers (PT)",
+      "description": "High-accuracy potential transformers for voltage measurement and protection. Suitable for metering, relaying, and instrumentation with excellent linearity and low phase displacement."
+    },
+    "insulators": {
+      "title": "Electrical Insulators",
+      "description": "High-quality electrical insulators for power systems and switchgear applications. Ceramic, polymer, and porcelain insulators in post, pin, and suspension types for voltage isolation and mechanical support in transmission and distribution networks."
+    },
+    "analogAmmeters": {
+      "title": "Analog Ammeters",
+      "description": "Moving coil/iron analog panel meters for current measurement. Available in various ranges with clear graduated scales for direct or CT-based current measurement in control panels."
+    },
+    "analogVoltmeters": {
+      "title": "Analog Voltmeters",
+      "description": "Precision analog panel voltmeters for AC/DC voltage measurement. Ruggedized construction with anti-parallax mirrors and multiple voltage ranges for accurate visual monitoring."
+    },
+    "digitalAmmeters": {
+      "title": "Digital Ammeters",
+      "description": "LED/LCD digital panel ammeters with high accuracy and resolution. Features include auto-ranging, peak hold, and optional communication interfaces for modern control systems."
+    },
+    "digitalVoltmeters": {
+      "title": "Digital Voltmeters",
+      "description": "Digital panel voltmeters for precise AC/DC voltage measurement. Large LED/LCD displays with programmable alarms and data logging capabilities for process monitoring."
+    },
+    "powerFactorMeters": {
+      "title": "Power Factor Meters",
+      "description": "Analog and digital power factor meters for monitoring reactive power. Essential for power quality management with visual indication of leading, lagging, and unity power factor."
+    },
+    "hrcFuses": {
+      "title": "HRC Fuses (High Rupturing Capacity)",
+      "description": "High breaking capacity fuses for short circuit protection in power distribution systems. Available in various current ratings with ceramic body construction and silver plated contacts."
+    },
+    "glassFuses": {
+      "title": "Glass Fuses",
+      "description": "Standard glass cartridge fuses for low voltage circuit protection. Quick-blow and slow-blow types available in various current ratings for protecting sensitive electronic equipment and control circuits."
+    },
+    "motorTerminalBlocks": {
+      "title": "Motor Terminal Blocks",
+      "description": "Heavy-duty terminal blocks designed for motor connections in control panels. High current capacity with robust construction for secure three-phase motor wiring."
+    },
+    "fuseTerminalBlockIsolators": {
+      "title": "Fuse Terminal Block Isolators",
+      "description": "Terminal block isolators with integrated fuse protection for circuit isolation and overcurrent protection. Combines disconnection and fusing functions in a single compact DIN rail mounted device."
+    },
+    "nonFuseTerminalBlockIsolators": {
+      "title": "Non-Fuse Terminal Block Isolators",
+      "description": "Terminal block isolators for safe circuit disconnection without fuse protection. Provides manual isolation for maintenance and testing with clear on/off indication for enhanced safety."
+    },
+    "earthingStrips": {
+      "title": "Earthing Strips (Copper/Aluminum)",
+      "description": "Copper and aluminum earthing strips for electrical grounding systems. Available in 25x3mm, 25x6mm, 50x6mm, and 75x10mm sizes for low-resistance earth connections."
+    },
+    "lightningArrestors": {
+      "title": "Lightning Arrestors",
+      "description": "Surge protection devices for lightning and switching surge protection. Various types including distribution class, station class, and polymer housed arrestors for comprehensive overvoltage protection."
+    },
+    "multiFunctionMeters": {
+      "title": "Multi-Function Meters",
+      "description": "Advanced multi-parameter meters measuring voltage, current, power, energy, power factor, and harmonics. Featuring data logging, alarm outputs, and Modbus communication for comprehensive power monitoring."
+    },
+    "powerCables": {
+      "title": "Power Cables",
+      "description": "High-quality power cables for electrical distribution systems. Available in various conductor sizes and insulation types for low, medium, and high voltage applications with superior electrical and mechanical properties."
+    },
+    "controlCables": {
+      "title": "Control Cables",
+      "description": "Multi-core control cables for automation and instrumentation applications. Featuring excellent electrical properties, electromagnetic interference shielding, and flexible construction for panel wiring and control systems."
+    },
+    "armouredCables": {
+      "title": "Armoured Cables",
+      "description": "Heavy-duty armoured cables with steel wire or tape armouring for mechanical protection. Ideal for underground installations, industrial environments, and areas requiring protection from physical damage and rodents."
+    },
+    "flexibleCables": {
+      "title": "Flexible Cables",
+      "description": "High-flexibility cables designed for continuous movement applications. Suitable for cable chains, robotics, and mobile equipment with excellent bend radius and fatigue resistance."
+    },
+    "homeApplianceCables": {
+      "title": "Home Appliance Cables",
+      "description": "Specialized cables for household and commercial appliances. Heat-resistant and flame-retardant construction meeting safety standards for refrigerators, washing machines, ovens, and other electrical appliances."
+    },
+    "multicoreCablesElectrical": {
+      "title": "Multicore Cables (Electrical)",
+      "description": "Multi-core electrical cables for power and control applications. Available in 2, 3, 4, and more cores with PVC or XLPE insulation for efficient wiring in industrial and commercial installations."
+    },
+    "earthingCables": {
+      "title": "Earthing Cables",
+      "description": "Copper earthing cables for grounding and bonding applications. Available in various sizes (6mm², 10mm², 16mm², 25mm², 35mm², 50mm²) for electrical safety and lightning protection systems."
+    },
+    "ethernetCables": {
+      "title": "Ethernet Cables",
+      "description": "Industrial Ethernet cables for automation networks. Cat5e, Cat6, and Cat6a specifications with enhanced shielding for harsh industrial environments and reliable high-speed data transmission."
+    },
+    "profibusCables": {
+      "title": "Profibus Cables",
+      "description": "Profibus-DP and Profibus-PA fieldbus cables for industrial automation. Shielded twisted pair construction with characteristic impedance matching for reliable communication in process control networks."
+    },
+    "profinetCables": {
+      "title": "Profinet Cables",
+      "description": "Industrial Profinet Ethernet cables for real-time automation. Cat5e and Cat6 specifications with enhanced EMC protection, flexible design, and halogen-free construction for Industry 4.0 applications."
+    },
+    "shieldedPairCables1P": {
+      "title": "Shielded Pair Cables (1P)",
+      "description": "Single-pair shielded instrumentation cables for analog signals. Individual foil or braided shielding providing excellent noise immunity for 4-20mA and low-voltage sensor applications."
+    },
+    "shieldedPairCables2P": {
+      "title": "Shielded Pair Cables (2P)",
+      "description": "Two-pair shielded instrumentation cables for multiple signal transmission. Each pair individually shielded with overall screen for maximum noise protection in process control systems."
+    },
+    "shieldedPairCables8P": {
+      "title": "Shielded Pair Cables (8P)",
+      "description": "Eight-pair shielded instrumentation cables for multi-channel applications. Individually shielded pairs with color-coded identification for complex control and monitoring systems."
+    },
+    "multicoreCablesInstrumentation": {
+      "title": "Multicore Cables (Instrumentation)",
+      "description": "Multi-core instrumentation cables with multiple shielded pairs. Available in 4, 8, 12, 16, and 24-pair configurations for distributed control systems and multi-point measurements."
+    },
+    "terminalBlocks": {
+      "title": "Terminal Blocks",
+      "description": "Reliable terminal blocks for electrical connections in control panels and junction boxes. DIN rail mounting with screw, spring, and push-in connection technologies for secure and maintenance-free wiring."
+    },
+    "electricalConnectors": {
+      "title": "Electrical Connectors",
+      "description": "Industrial electrical connectors for power and signal applications. Robust construction with IP-rated protection, multiple contact configurations, and reliable performance in harsh environmental conditions."
+    },
+    "industrialPlugs": {
+      "title": "Industrial Plugs",
+      "description": "Heavy-duty industrial plugs and sockets for mobile and stationary electrical equipment. Weatherproof design with mechanical coding, safety interlocks, and high current carrying capacity for industrial applications."
+    },
+    "miniatureCircuitBreakers": {
+      "title": "Miniature Circuit Breakers (MCBs)",
+      "description": "Compact circuit breakers for overload and short circuit protection in residential and light commercial applications. Available in various current ratings and tripping characteristics with reliable thermal-magnetic operation."
+    },
+    "moldedCaseBreakers": {
+      "title": "Molded Case Circuit Breakers (MCCBs)",
+      "description": "Heavy-duty molded case circuit breakers for industrial and commercial electrical distribution. High breaking capacity with adjustable protection settings and optional electronic trip units for enhanced protection."
+    },
+    "fusesFusesHolders": {
+      "title": "Fuses and Fuse Holders",
+      "description": "Electrical fuses and fuse holders for overcurrent protection in various applications. Available in cartridge, blade, and specialty types with different time-current characteristics and breaking capacities."
+    },
+    "rccbCircuitBreakers": {
+      "title": "Residual Current Circuit Breakers (RCCBs)",
+      "description": "Earth leakage circuit breakers providing protection against electrical shock and fire hazards caused by earth faults. Available in 2-pole and 4-pole configurations with various sensitivity ratings for enhanced electrical safety."
+    },
+    "acbCircuitBreakers": {
+      "title": "Air Circuit Breakers (ACBs)",
+      "description": "High-capacity air circuit breakers for medium and high voltage electrical distribution systems. Features advanced protection functions, remote operation capabilities, and excellent breaking capacity for industrial and utility applications."
+    },
+    "vcbCircuitBreakers": {
+      "title": "Vacuum Circuit Breakers (VCBs)",
+      "description": "Advanced vacuum circuit breakers for medium voltage applications with superior arc quenching technology. Maintenance-free operation with excellent electrical endurance and reliability for power distribution networks."
+    },
+    "acDcConverters": {
+      "title": "AC-DC Converters",
+      "description": "Switching power supplies for converting AC mains voltage to regulated DC output. High efficiency designs with multiple output options, overvoltage protection, and wide input voltage ranges for industrial applications."
+    },
+    "dcDcConverters": {
+      "title": "DC-DC Converters",
+      "description": "Isolated and non-isolated DC-DC converters for voltage conversion in electronic systems. Compact designs with high efficiency, low ripple, and various input/output voltage combinations for demanding applications."
+    },
+    "upsSystems": {
+      "title": "UPS Systems",
+      "description": "Uninterruptible Power Supply systems for critical equipment protection. Online, line-interactive, and standby topologies with battery backup, power conditioning, and network management capabilities for business continuity."
+    },
+    "smps": {
+      "title": "SMPS (Switched Mode Power Supplies)",
+      "description": "Compact switched-mode power supplies for industrial automation and control systems. High efficiency design with wide input voltage range, overload protection, and low electromagnetic interference for reliable 24V DC output."
+    },
+    "diodeUnits": {
+      "title": "Diode Units",
+      "description": "Industrial diode modules and rectifier units for AC to DC conversion. Single-phase and three-phase configurations with thermal management for power supply and motor drive applications."
+    },
+    "electricalCabinets": {
+      "title": "Electrical Cabinets",
+      "description": "Robust electrical cabinets and enclosures for housing control equipment and electrical components. Available in various materials and IP ratings with modular designs for easy installation and maintenance."
+    },
+    "junctionBoxes": {
+      "title": "Junction Boxes",
+      "description": "Weatherproof junction boxes for electrical connections and cable terminations. Multiple entry options with various materials and environmental protection ratings for indoor and outdoor installations."
+    },
+    "dinRailEnclosures": {
+      "title": "DIN Rail Enclosures",
+      "description": "Modular DIN rail enclosures for housing automation components and control devices. Plastic and metal construction with snap-on design for easy assembly and professional panel integration."
+    },
+    "pvcDuct": {
+      "title": "PVC Duct",
+      "description": "PVC cable management ducts for organized wire routing in electrical panels and installations. Available in various sizes with slotted design for easy cable insertion and professional appearance."
+    },
+    "heatingCoils": {
+      "title": "Heating Coils",
+      "description": "Industrial heating coils for process heating applications. Available in various configurations including finned, cartridge, and band heaters with precise temperature control and high thermal efficiency."
+    },
+    "heatingElements": {
+      "title": "Heating Elements",
+      "description": "Electric heating elements for industrial and commercial applications. Tubular, ceramic, and flexible designs with various watt densities and sheath materials for optimal heat transfer and durability."
+    },
+    "industrialHeaters": {
+      "title": "Industrial Heaters",
+      "description": "Heavy-duty industrial heaters for process applications including immersion, circulation, and radiant heaters. Designed for harsh environments with explosion-proof options and advanced temperature control."
+    },
+    "digitalMultimeters": {
+      "title": "Digital Multimeters",
+      "description": "Precision digital multimeters for electrical measurements including voltage, current, resistance, and frequency. True RMS capability with data logging, computer connectivity, and advanced measurement functions."
+    },
+    "clampMeters": {
+      "title": "Clamp Meters",
+      "description": "Non-contact current measurement clamp meters for electrical troubleshooting and maintenance. AC/DC current measurement with voltage, resistance, and power measurement capabilities in portable handheld designs."
+    },
+    "benchMultimeters": {
+      "title": "Bench Multimeters",
+      "description": "High-precision bench multimeters for laboratory and calibration applications. Superior accuracy and resolution with computer interfaces, statistical functions, and automated measurement capabilities."
+    },
+    "earthResistanceTesters": {
+      "title": "Earth Resistance Testers",
+      "description": "Professional earth ground resistance testers for electrical safety verification and grounding system testing. Advanced models featuring stakeless testing, 3-point and 4-point fall-of-potential methods, soil resistivity measurement, and automatic frequency control to minimize interference. Essential for verifying electrical grounding integrity, lightning protection systems, and ensuring compliance with safety standards in industrial, commercial, and utility installations."
+    },
+    "phaseSequenceCheckers": {
+      "title": "Phase Sequence Checkers",
+      "description": "Phase rotation indicators and phase sequence testers for three-phase electrical system verification. Essential tools for confirming correct phase rotation before motor startup, preventing equipment damage from reverse rotation. Available in contact and non-contact designs with LED indicators, voltage measurement capabilities, and safety-rated construction. Features include visual phase sequence indication, motor rotation verification, frequency measurement, and smartphone connectivity for documentation and reporting."
+    },
+    "digitalMegohmmeters": {
+      "title": "Digital Megohmmeters",
+      "description": "High-voltage insulation resistance testers (megohmmeters) for comprehensive electrical insulation testing and preventive maintenance. Professional instruments offering test voltages from 50V to 15kV for cables, motors, transformers, and switchgear testing. Features include Polarization Index (PI) and Dielectric Absorption Ratio (DAR) testing, live circuit detection, step voltage testing, remote operation, data logging with time/date stamping, and PC connectivity. Essential for IEEE 43-2000 compliant motor testing and electrical safety verification."
+    },
+    "milliampereSourceMeters": {
+      "title": "Milliampere Source Meters",
+      "description": "Precision milliampere loop calibrators and current source meters for 4-20mA process control loop testing and calibration. Professional instruments providing accurate mA sourcing and measurement with built-in 24V loop power supply for 2-wire transmitter simulation. Features include simultaneous source and measure capability, auto-stepping functions for linearity testing, HART communication compatibility, ramp functions for valve testing, and clamp-on designs that eliminate loop breaking. Essential for troubleshooting and calibrating process instrumentation in industrial automation systems."
+    },
+    "realTimeAnalyzers": {
+      "title": "Real-Time Analyzers",
+      "description": "Real-time signal analyzers for continuous monitoring and transient event capture. 100% probability of intercept with advanced triggering and signal intelligence capabilities."
+    },
+    "powerMeters": {
+      "title": "Power Meters",
+      "description": "High-precision power meters for electrical power measurement and analysis. Multi-phase capability with comprehensive power parameters including active, reactive, and apparent power measurements."
+    },
+    "harmonicAnalyzers": {
+      "title": "Harmonic Analyzers",
+      "description": "Advanced harmonic analyzers for power quality assessment and IEEE 519 compliance testing. Real-time harmonic analysis up to the 50th order with comprehensive reporting capabilities."
+    },
+    "energyLoggers": {
+      "title": "Energy Loggers",
+      "description": "Multi-channel energy data loggers for long-term power consumption monitoring and energy management. Wireless communication with cloud connectivity and automated reporting features."
+    },
+    "calibrationInstruments": {
+      "title": "Calibration Instruments",
+      "description": "Precision calibration instruments for electrical, temperature, pressure, and process parameter calibration. NIST-traceable accuracy with automated calibration procedures and documentation."
+    },
+    "testEquipment": {
+      "title": "Test Equipment",
+      "description": "General purpose test and measurement equipment for laboratory and field applications. Versatile instruments for electrical, electronic, and mechanical testing with portable and benchtop configurations."
+    },
+    "processCalibrators": {
+      "title": "Process Calibrators",
+      "description": "Multifunction process calibrators for comprehensive field and laboratory calibration of process instrumentation. Features pressure, temperature, and electrical signal calibration with HART communication, data logging, and automated procedures for enhanced calibration efficiency."
+    },
+    "loopCalibrators": {
+      "title": "Loop Calibrators",
+      "description": "Precision mA loop calibrators for testing and troubleshooting 4-20mA current loops and process control systems. Handheld instruments providing loop power, current measurement, and signal simulation for comprehensive loop diagnostics in field and workshop environments."
+    },
+    "hartCalibrators": {
+      "title": "HART Calibrators",
+      "description": "Advanced HART field calibrators and communicators for comprehensive process instrumentation calibration and configuration. Featuring built-in HART communication protocol support, these multifunction devices combine pressure, temperature, and electrical signal calibration with HART digital communication capabilities. Support for HART versions 5-7, universal and device-specific commands, automated documentation, and seamless integration with smart field devices for efficient field calibration and device management."
+    },
+    "mechanicalTools": {
+      "title": "Mechanical Tools",
+      "description": "Professional mechanical hand tools for assembly, maintenance, and repair operations. High-quality steel construction with ergonomic designs for industrial and automotive applications."
+    },
+    "electricalTools": {
+      "title": "Electrical Tools",
+      "description": "Insulated electrical tools for safe work on live circuits and electrical installations. VDE certified with high voltage protection ratings and ergonomic grips for electrician safety."
+    },
+    "precisionTools": {
+      "title": "Precision Tools",
+      "description": "High-precision measurement and machining tools for accuracy-critical applications. Calibrated instruments with tight tolerances for quality control and precision manufacturing."
+    },
+    "electricDrills": {
+      "title": "Electric Drills",
+      "description": "Heavy-duty electric drills for drilling, driving, and fastening applications. Variable speed control with keyless chucks and high-torque motors for professional construction and industrial use."
+    },
+    "angleGrinders": {
+      "title": "Angle Grinders",
+      "description": "Heavy-duty angle grinders for cutting, grinding, and polishing applications. High-power motors with safety guards and anti-vibration systems for extended operation in industrial environments."
+    },
+    "impactDrivers": {
+      "title": "Impact Drivers",
+      "description": "High-torque impact drivers for heavy-duty fastening applications. Brushless motors with variable speed control and LED lighting for precise driving in construction and assembly work."
+    },
+    "weldingMachines": {
+      "title": "Welding Machines",
+      "description": "Professional-grade welding machines for MIG, TIG, Stick, and multi-process welding applications. Advanced technology with precise arc control, dual voltage capability, and robust construction for industrial fabrication, maintenance, and repair work. Features include digital displays, pulse capabilities, and automated setup for optimal weld quality."
+    },
+    "cuttingBlades": {
+      "title": "Cutting Blades",
+      "description": "Premium cutting blades for metal, wood, and masonry applications. Carbide-tipped and diamond-coated options with optimized tooth geometry for clean cuts and extended blade life."
+    },
+    "drillBits": {
+      "title": "Drill Bits",
+      "description": "High-performance drill bits for steel, stainless steel, and hard materials. Cobalt and carbide construction with specialized coatings for superior drilling performance and extended tool life."
+    },
+    "millingCutters": {
+      "title": "Milling Cutters",
+      "description": "Precision milling cutters for CNC and manual machining operations. Solid carbide and HSS construction with various flute configurations for optimal material removal and surface finish."
+    },
+    "chopSaws": {
+      "title": "Chop Saws (Cut-Off Saws)",
+      "description": "Professional-grade metal cutting chop saws for industrial fabrication and metalworking. Features TCT (Tungsten Carbide Tipped) cold-cut technology for clean, burr-free cuts with minimal heat and sparks. Available in 14\" and 15\" models with high-torque motors, quick-release vises, and miter capability for angled cuts. Cuts steel, stainless steel, aluminum, and other metals faster than bandsaws with ready-to-weld finish."
+    },
+    "chainHoists": {
+      "title": "Chain Hoists",
+      "description": "Heavy-duty chain hoists for vertical lifting applications in industrial and construction environments. Manual and electric models with overload protection and precise load positioning capabilities."
+    },
+    "wireRopeHoists": {
+      "title": "Wire Rope Hoists",
+      "description": "High-capacity wire rope hoists for heavy lifting operations and material handling systems. Electric operation with variable speed control and advanced safety features for demanding applications."
+    },
+    "safetyHarnesses": {
+      "title": "Safety Harnesses",
+      "description": "Full-body safety harnesses for fall protection in elevated work environments. Comfortable padding with multiple attachment points and quick-connect buckles for worker safety."
+    },
+    "safetyBarriers": {
+      "title": "Safety Barriers",
+      "description": "Industrial safety barriers and guardrails for workplace hazard protection and perimeter control. Modular design with high-visibility colors and impact-resistant construction for pedestrian and equipment safety."
+    },
+    "emergencyEquipment": {
+      "title": "Emergency Equipment",
+      "description": "Essential emergency response equipment including eyewash stations, safety showers, first aid supplies, and emergency communication systems. ANSI Z358.1 compliant with self-contained and plumbed options."
+    },
+    "monocrystallinePanels": {
+      "title": "Monocrystalline Solar Panels",
+      "description": "High-efficiency monocrystalline solar panels with superior power output and space utilization. Premium silicon cells with anti-reflective coating and robust aluminum frames for residential and commercial installations."
+    },
+    "polycrystallinePanels": {
+      "title": "Polycrystalline Solar Panels",
+      "description": "Cost-effective polycrystalline solar panels offering reliable performance and good value for large-scale installations. Durable construction with excellent temperature coefficient and proven long-term reliability."
+    },
+    "thinFilmPanels": {
+      "title": "Thin Film Solar Panels",
+      "description": "Flexible thin-film solar panels with amorphous silicon and CIGS technology for unique applications. Lightweight design with superior low-light performance and aesthetic integration options."
+    },
+    "stringInverters": {
+      "title": "String Inverters",
+      "description": "High-efficiency string inverters for solar PV systems with maximum power point tracking and comprehensive monitoring capabilities. Robust design with wide input voltage range and grid-tie functionality."
+    },
+    "microInverters": {
+      "title": "Micro Inverters",
+      "description": "Module-level micro inverters for maximum energy harvest and individual panel monitoring. Rapid shutdown compliance with enhanced safety features and simplified installation procedures."
+    },
+    "powerOptimizers": {
+      "title": "Power Optimizers",
+      "description": "DC power optimizers for enhanced solar system performance with module-level MPPT and monitoring. Mitigates shading and mismatch losses while maintaining string inverter economics."
+    },
+    "modularPlcs": {
+      "title": "Modular PLCs",
+      "description": "Scalable modular programmable logic controllers for complex automation systems. Expandable I/O configurations with advanced communication capabilities and high-speed processing for industrial control applications."
+    },
+    "compactPlcs": {
+      "title": "Compact PLCs",
+      "description": "Space-saving compact programmable logic controllers for small to medium automation applications. Integrated I/O with built-in communication interfaces and user-friendly programming software."
+    },
+    "microPlcs": {
+      "title": "Micro PLCs",
+      "description": "Ultra-compact micro programmable logic controllers for simple automation tasks. Cost-effective solution with essential I/O capabilities and basic communication functions for small machine control."
+    },
+    "scadaSoftware": {
+      "title": "SCADA Software",
+      "description": "Comprehensive supervisory control and data acquisition software for industrial process monitoring and control. Real-time data visualization with alarm management and historical trending capabilities."
+    },
+    "scadaHardware": {
+      "title": "SCADA Hardware",
+      "description": "Industrial-grade SCADA hardware platforms for reliable data acquisition and control operations. Rugged construction with redundant communication paths and hot-swappable components for maximum uptime."
+    },
+    "scadaGateways": {
+      "title": "SCADA Gateways",
+      "description": "Protocol conversion gateways for SCADA system integration and multi-vendor compatibility. Supports multiple industrial communication protocols with secure data transmission and real-time performance."
+    },
+    "dcsControllers": {
+      "title": "DCS Controllers",
+      "description": "Distributed control system controllers for large-scale process automation and safety systems. Redundant architecture with high-availability design and advanced process control algorithms."
+    },
+    "dcsOperatorStations": {
+      "title": "DCS Operator Stations",
+      "description": "Advanced operator workstations for distributed control system monitoring and operation. Multi-display capabilities with intuitive graphics and comprehensive alarm management."
+    },
+    "dcsEngineeringStations": {
+      "title": "DCS Engineering Stations",
+      "description": "Engineering workstations for DCS configuration, programming, and maintenance. Comprehensive development environment with simulation capabilities and version control."
+    },
+    "touchscreenHmis": {
+      "title": "Touchscreen HMIs",
+      "description": "Industrial touchscreen human-machine interfaces for operator control and monitoring. Multi-touch displays with robust construction for harsh environments."
+    },
+    "panelMountHmis": {
+      "title": "Panel Mount HMIs",
+      "description": "Panel-mounted human-machine interfaces for integration into control cabinets and operator panels. Compact design with industrial-grade durability."
+    },
+    "mobileHmis": {
+      "title": "Mobile HMIs",
+      "description": "Portable human-machine interfaces for mobile operator control and field monitoring. Rugged design with wireless connectivity and long battery life."
+    },
+    "safetyRelays": {
+      "title": "Safety Relays",
+      "description": "Safety relays for machine and personnel protection systems. Certified for safety applications with fail-safe operation and diagnostic capabilities."
+    },
+    "emergencyStops": {
+      "title": "Emergency Stops",
+      "description": "Emergency stop devices for immediate machinery shutdown. Robust construction with positive opening contacts and clear visual indication."
+    },
+    "safetySwitches": {
+      "title": "Safety Switches",
+      "description": "Position monitoring safety switches for guard doors and access panels. Tamper-proof design with coded actuators for maximum security."
+    },
+    "explosionProofEquipment": {
+      "title": "Explosion Proof Equipment",
+      "description": "Certified explosion-proof electrical equipment for hazardous area installations. Designed to prevent ignition of flammable gases and vapors with robust enclosures meeting international safety standards."
+    },
+    "intrinsicallySafeBarriers": {
+      "title": "Intrinsically Safe Barriers",
+      "description": "Safety barriers for intrinsically safe circuits in hazardous areas. Provides energy limitation and galvanic isolation to prevent ignition sources in explosive atmospheres."
+    },
+    "isFieldDevices": {
+      "title": "Intrinsically Safe Field Devices",
+      "description": "Field devices certified for intrinsically safe operation in explosive atmospheres. Includes sensors, transmitters, and actuators designed for Zone 0/1 hazardous area applications."
+    },
+    "acSurgeProtectors": {
+      "title": "AC Surge Protectors",
+      "description": "AC power line surge protection devices for electrical equipment protection. Multi-stage protection against lightning, switching surges, and power line disturbances in industrial installations."
+    },
+    "dcSurgeProtectors": {
+      "title": "DC Surge Protectors",
+      "description": "DC circuit surge protection devices for sensitive electronic equipment. Specialized protection for DC power systems, solar installations, and battery-powered applications."
+    },
+    "signalSurgeProtectors": {
+      "title": "Signal Surge Protectors",
+      "description": "Signal line surge protection for data and communication circuits. Protects analog and digital signals, field bus networks, and instrumentation circuits from electromagnetic interference."
+    },
+    "equipmentGrounding": {
+      "title": "Equipment Grounding Systems",
+      "description": "Grounding components for electrical equipment safety and protection. Copper and steel grounding rods, conductors, and accessories for proper electrical system grounding."
+    },
+    "systemGrounding": {
+      "title": "System Grounding Solutions",
+      "description": "Complete grounding system solutions for industrial facilities. Grounding grids, electrodes, and monitoring systems for power system safety and electromagnetic compatibility."
+    },
+    "lightningProtection": {
+      "title": "Lightning Protection Systems",
+      "description": "Lightning protection systems for buildings and industrial structures. Air terminals, down conductors, and surge arresters designed to IEC 62305 standards for comprehensive lightning protection."
+    },
+    "singleStageCentrifugal": {
+      "title": "Single Stage Centrifugal Pumps",
+      "description": "Horizontal and vertical single stage centrifugal pumps for water supply and industrial applications. Efficient operation with low maintenance requirements for various flow and head conditions."
+    },
+    "multiStageCentrifugal": {
+      "title": "Multi Stage Centrifugal Pumps",
+      "description": "High pressure multi-stage centrifugal pumps for demanding applications. Multiple impellers provide high head capabilities for pressure boosting, reverse osmosis, and industrial process applications."
+    },
+    "verticalCentrifugal": {
+      "title": "Vertical Centrifugal Pumps",
+      "description": "Space-saving vertical centrifugal pumps for confined installations. Suitable for sumps, tanks, and applications where horizontal space is limited while maintaining high efficiency performance."
+    },
+    "airOperatedDiaphragm": {
+      "title": "Air Operated Diaphragm Pumps",
+      "description": "Pneumatic diaphragm pumps for handling aggressive and viscous fluids. Self-priming operation with excellent suction capabilities for chemical processing and waste water applications."
+    },
+    "electricDiaphragm": {
+      "title": "Electric Diaphragm Pumps",
+      "description": "Electric-driven diaphragm pumps for precise dosing and metering applications. Variable flow control with excellent chemical compatibility for water treatment and chemical injection systems."
+    },
+    "hydraulicDiaphragm": {
+      "title": "Hydraulic Diaphragm Pumps",
+      "description": "Hydraulically actuated diaphragm pumps for high-pressure applications. Precise flow control and excellent repeatability for chemical dosing and high-pressure cleaning systems."
+    },
+    "externalGearPumps": {
+      "title": "External Gear Pumps",
+      "description": "Positive displacement external gear pumps for viscous liquid transfer. Consistent flow delivery independent of pressure variations, ideal for lubricating oils and hydraulic fluids."
+    },
+    "internalGearPumps": {
+      "title": "Internal Gear Pumps",
+      "description": "Internal gear pumps with smooth flow characteristics for sensitive fluids. Low pulsation design suitable for food processing, pharmaceutical, and chemical applications requiring gentle handling."
+    },
+    "magneticGearPumps": {
+      "title": "Magnetic Drive Gear Pumps",
+      "description": "Magnetically coupled gear pumps for leak-free operation. Hermetically sealed design eliminates shaft seals, perfect for hazardous chemicals and high-purity applications."
+    },
+    "impellersCasings": {
+      "title": "Impellers and Casings",
+      "description": "Replacement impellers and pump casings for centrifugal pumps. Available in various materials including cast iron, stainless steel, and specialty alloys for different applications and media."
+    },
+    "sealsGaskets": {
+      "title": "Seals and Gaskets",
+      "description": "Pump seals and gaskets for reliable leak prevention. Mechanical seals, O-rings, and gasket sets in various materials to suit different temperatures, pressures, and chemical compatibility requirements."
+    },
+    "bearingsCouplings": {
+      "title": "Bearings and Couplings",
+      "description": "Pump bearings and flexible couplings for mechanical drive systems. High-quality components for extended service life, reduced vibration, and reliable power transmission in pumping applications."
+    },
+    "jibCranes": {
+      "title": "Jib Cranes",
+      "description": "Industrial jib cranes for material handling and lifting applications. Featuring robust construction, smooth rotation, and flexible mounting options for workshops and production facilities."
+    },
+    "personalProtectiveEquipment": {
+      "title": "Personal Protective Equipment",
+      "description": "Industrial safety equipment including helmets, gloves, safety glasses, and protective clothing. Certified equipment meeting international safety standards for worker protection in industrial environments."
+    }
+  },
+  "table": {
+    "manufacturer": "Manufacturer",
+    "model": "Model",
+    "type": "Type",
+    "actions": "Actions"
+  },
+  "messages": {
+    "noProductsInGroup": "No products found in this group.",
+    "noProductGroups": "No product groups available in this category."
+  }
+}

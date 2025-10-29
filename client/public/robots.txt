@@ -1,0 +1,73 @@
+# Powerton Engineering - Robots.txt
+# Updated: October 27, 2025
+# Enhanced for better search engine crawling and indexing
+
+User-agent: *
+Allow: /
+
+# Specific instructions for major search engines
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Slurp
+Allow: /
+Crawl-delay: 2
+
+User-agent: DuckDuckBot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Baiduspider
+Allow: /
+Crawl-delay: 2
+
+# Block access to admin areas and private files
+Disallow: /admin/
+Disallow: /private/
+Disallow: /temp/
+Disallow: /api/
+Disallow: /*.json$
+Disallow: /*?*utm_*
+Disallow: /*?*ref=*
+Disallow: /*?*fbclid=*
+Disallow: /*?*gclid=*
+Disallow: /*?*source=*
+Disallow: /*?*campaign=*
+
+# Block development and testing paths
+Disallow: /test/
+Disallow: /dev/
+Disallow: /_next/
+Disallow: /node_modules/
+
+# Allow important files and assets
+Allow: /sitemap.xml
+Allow: /sitemap.txt
+Allow: /manifest.json
+Allow: /favicon.ico
+Allow: /*.css
+Allow: /*.js
+Allow: /*.png
+Allow: /*.jpg
+Allow: /*.jpeg
+Allow: /*.gif
+Allow: /*.webp
+Allow: /*.svg
+Allow: /*.woff
+Allow: /*.woff2
+
+# Sitemap locations
+Sitemap: https://powertonengineering.in/sitemap.xml
+
+# Preferred domain
+Host: powertonengineering.in
+
+# Crawl budget optimization
+User-agent: *
+Request-rate: 1/10s
+Visit-time: 0600-2300

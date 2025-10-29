@@ -1,0 +1,31 @@
+{
+  "menu": {
+    "about": "会社概要",
+    "projects": "プロジェクト",
+    "gallery": "ギャラリー",
+    "career": "採用情報",
+    "contact": "お問い合わせ"
+  },
+  "services": "サービス",
+  "dropdowns": {
+    "services": "サービス",
+    "products": "製品"
+  },
+  "header": {
+    "servingWorldwide": "世界中でサービスを提供"
+  },
+  "footer": {
+    "backToProducts": "製品に戻る",
+    "services": "サービス",
+    "products": "製品",
+    "copyright": "© {{year}} Powerton Engineering Pvt. Ltd. 無断複写・転載を禁じます。",
+    "selectLanguage": "言語を選択",
+    "companyDescription": "産業オートメーションおよび電気システム向けに、高品質のエンジニアリングソリューションとサービスを提供する信頼できるパートナー。",
+    "sitemap": "サイトマップ"
+  },
+  "mobile": {
+    "navigationMenu": "ナビゲーションメニュー",
+    "openMobileMenu": "モバイルメニューを開く",
+    "menuDescription": "Powerton Engineeringウェブサイトのメインナビゲーションメニュー"
+  }
+}

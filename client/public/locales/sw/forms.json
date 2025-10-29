@@ -1,0 +1,326 @@
+{
+  "contact": {
+    "fields": {
+      "name": {
+        "label": "Jina Kamili",
+        "placeholder": "Ingiza jina lako kamili",
+        "error": "Jina linahitajika"
+      },
+      "email": {
+        "label": "Barua Pepe",
+        "placeholder": "Ingiza anwani yako ya barua pepe",
+        "error": "Tafadhali ingiza anwani halali ya barua pepe"
+      },
+      "phone": {
+        "label": "Nambari ya Simu",
+        "placeholder": "Ingiza nambari yako ya simu",
+        "error": "Nambari ya simu inahitajika"
+      },
+      "company": {
+        "label": "Jina la Kampuni",
+        "placeholder": "Ingiza jina la kampuni yako"
+      },
+      "serviceType": {
+        "label": "Aina ya Huduma",
+        "placeholder": "Chagua aina ya huduma"
+      },
+      "subject": {
+        "label": "Mada",
+        "placeholder": "Ingiza mada",
+        "error": "Mada inahitajika"
+      },
+      "message": {
+        "label": "Ujumbe",
+        "placeholder": "Ingiza ujumbe wako",
+        "error": "Ujumbe unahitajika"
+      }
+    },
+    "buttons": {
+      "submit": "Tuma Ujumbe",
+      "sending": "Inatuma...",
+      "callNow": "Piga Simu Sasa",
+      "emailUs": "Tutumie Barua Pepe"
+    },
+    "messages": {
+      "success": "Asante! Ujumbe wako umetuma kwa mafanikio.",
+      "successDesc": "Tutakujibu ndani ya masaa 24.",
+      "error": "Imeshindwa kutuma ujumbe",
+      "errorDesc": "Tafadhali jaribu tena au wasiliana nasi moja kwa moja kwa {{phone}} au {{email}}"
+    }
+  },
+  "quote": {
+    "fields": {
+      "name": {
+        "label": "Jina Kamili",
+        "placeholder": "Ingiza jina lako kamili"
+      },
+      "email": {
+        "label": "Barua Pepe",
+        "placeholder": "Ingiza anwani yako ya barua pepe"
+      },
+      "phone": {
+        "label": "Nambari ya Simu",
+        "placeholder": "Ingiza nambari yako ya simu"
+      },
+      "company": {
+        "label": "Jina la Kampuni",
+        "placeholder": "Ingiza jina la kampuni yako"
+      },
+      "designation": {
+        "label": "Wadhifa",
+        "placeholder": "Ingiza wadhifa wako"
+      },
+      "projectTitle": {
+        "label": "Jina la Mradi",
+        "placeholder": "Ingiza jina la mradi"
+      },
+      "projectType": {
+        "label": "Aina ya Mradi",
+        "placeholder": "Chagua aina ya mradi"
+      },
+      "budget": {
+        "label": "Kiwango cha Bajeti",
+        "placeholder": "Chagua kiwango cha bajeti"
+      },
+      "timeline": {
+        "label": "Muda",
+        "placeholder": "Chagua muda wa mradi"
+      },
+      "services": {
+        "label": "Huduma Zinazohitajika",
+        "placeholder": "Chagua huduma zinazohitajika"
+      },
+      "specifications": {
+        "label": "Maelezo ya Ufundi",
+        "placeholder": "Eleza mahitaji yako ya kiufundi"
+      },
+      "additionalRequirements": {
+        "label": "Mahitaji ya Ziada",
+        "placeholder": "Mahitaji yoyote ya ziada"
+      },
+      "industryType": {
+        "label": "Aina ya Sekta",
+        "placeholder": "Chagua sekta yako"
+      },
+      "projectScale": {
+        "label": "Kiwango cha Mradi",
+        "placeholder": "Chagua kiwango cha mradi"
+      },
+      "preferredBrands": {
+        "label": "Bidhaa Unazopendelea",
+        "placeholder": "Bidhaa au watengenezaji wowote unaopendelea"
+      }
+    },
+    "projectTypes": {
+      "newInstallation": "Usakinishaji Mpya",
+      "systemUpgrade": "Uboreshaji wa Mfumo",
+      "retrofit": "Ukarabati",
+      "maintenance": "Mkataba wa Matengenezo",
+      "consultation": "Ushauri wa Kiufundi",
+      "design": "Ubunifu na Uhandisi"
+    },
+    "timelines": {
+      "immediate": "Mara Moja (< Mwezi 1)",
+      "1-3-months": "Miezi 1-3",
+      "3-6-months": "Miezi 3-6",
+      "6-12-months": "Miezi 6-12",
+      "1-year-plus": "Zaidi ya mwaka 1"
+    },
+    "budgetRanges": {
+      "under-1-lakh": "Chini ya ₹1 Lakh",
+      "1-5-lakh": "₹1-5 Lakhs",
+      "5-10-lakh": "₹5-10 Lakhs",
+      "10-25-lakh": "₹10-25 Lakhs",
+      "25-50-lakh": "₹25-50 Lakhs",
+      "50-lakh-plus": "₹50 Lakhs+",
+      "discuss": "Pendelea kujadili"
+    },
+    "validation": {
+      "nameMin": "Jina lazima liwe na angalau herufi 2",
+      "emailInvalid": "Tafadhali ingiza anwani halali ya barua pepe",
+      "phoneMin": "Tafadhali ingiza nambari halali ya simu",
+      "companyRequired": "Jina la kampuni linahitajika",
+      "projectTitleRequired": "Jina la mradi linahitajika",
+      "projectTypeRequired": "Tafadhali chagua aina ya mradi",
+      "timelineRequired": "Tafadhali chagua muda unaotarajiwa",
+      "servicesRequired": "Tafadhali chagua angalau huduma moja",
+      "specificationsMin": "Tafadhali toa maelezo ya kina (angalau herufi 20)",
+      "nameRequired": "Jina linahitajika",
+      "phoneRequired": "Nambari ya simu inahitajika",
+      "subjectRequired": "Mada inahitajika",
+      "messageRequired": "Ujumbe unahitajika",
+      "firstNameRequired": "Jina la kwanza linahitajika",
+      "lastNameRequired": "Jina la mwisho linahitajika",
+      "invalidEmail": "Anwani batili ya barua pepe",
+      "selectService": "Tafadhali chagua huduma",
+      "projectDetailsRequired": "Maelezo ya mradi yanahitajika"
+    },
+    "success": {
+      "title": "Ombi la nukuu limewasilishwa kwa mafanikio!",
+      "description": "Timu yetu ya uhandisi itakagua mahitaji yako na kujibu ndani ya masaa 24-48."
+    },
+    "placeholders": {
+      "selectIndustry": "Chagua sekta",
+      "selectProjectScale": "Chagua kiwango cha mradi",
+      "selectBudget": "Chagua kiwango cha bajeti (si lazima)",
+      "detailedRequirements": "Tafadhali toa maelezo ya kina pamoja na:\n- Mahitaji na viwango vya kiufundi\n- Vifaa maalum na idadi\n- Mahitaji ya utendaji\n- Hali ya mazingira\n- Mahitaji ya kufuata\n- Masuala yoyote maalum...",
+      "additionalRequirements": "Mahitaji yoyote ya ziada, hali maalum, au maswali...",
+      "preferredBrands": "mfano, Siemens, Allen-Bradley, Schneider..."
+    },
+    "labels": {
+      "industryType": "Aina ya Sekta",
+      "projectScale": "Kiwango cha Mradi",
+      "approximateBudget": "Bajeti Inayokadiriwa",
+      "detailedRequirements": "Mahitaji ya Kina *",
+      "preferredBrands": "Bidhaa/Viwango Vinavyopendelewa",
+      "additionalRequirements": "Mahitaji ya Ziada",
+      "projectTitle": "Jina la Mradi *",
+      "projectType": "Aina ya Mradi *",
+      "expectedTimeline": "Muda Unaotarajiwa *",
+      "phoneNumber": "Nambari ya Simu *",
+      "companyName": "Jina la Kampuni *",
+      "projectInformation": "Habari ya Mradi",
+      "budgetRange": "Kiwango cha Bajeti"
+    },
+    "sections": {
+      "requiredServices": "Huduma Zinazohitajika *",
+      "contactInfo": "Maelezo ya Mawasiliano",
+      "technicalSpecifications": "Maelezo ya Ufundi"
+    },
+    "error": {
+      "title": "Uwasilishaji wa nukuu umeshindwa",
+      "description": "Kwa usaidizi wa haraka: {{phone}} au barua pepe: {{email}}"
+    },
+    "submitting": "Inawasilisha Ombi la Nukuu...",
+    "industries": {
+      "manufacturing": "Utengenezaji",
+      "powerGeneration": "Uz Electricity wa Nguvu",
+      "waterTreatment": "Usafishaji wa Maji",
+      "foodProcessing": "Usindikaji wa Chakula",
+      "pharmaceutical": "Dawa",
+      "chemical": "Kemikali",
+      "oilGas": "Mafuta na Gesi",
+      "renewableEnergy": "Nishati Mbadala",
+      "infrastructure": "Miundombinu",
+      "other": "Nyinginezo"
+    },
+    "projectScale": {
+      "small": "Kiwango Kidogo (< Pointi 10 za I/O)",
+      "medium": "Kiwango cha Kati (Pointi 10-100 za I/O)",
+      "large": "Kiwango Kikubwa (Pointi 100-500 za I/O)",
+      "enterprise": "Biashara (Pointi 500+ za I/O)"
+    },
+    "buttons": {
+      "getProfessionalQuote": "Pata Nukuu ya Kitaalamu",
+      "submitRequest": "Wasilisha Ombi la Nukuu",
+      "callUrgent": "Piga Simu kwa Mahitaji ya Dharura",
+      "emailRequirements": "Tuma Mahitaji kwa Barua Pepe"
+    },
+    "process": {
+      "heading": "Nini kinafuata?",
+      "steps": {
+        "technicalReview": "Ukaguzi wa kiufundi ndani ya masaa 24",
+        "detailedProposal": "Pendekezo la kina na maelezo",
+        "costBreakdown": "Uchambuzi wa gharama na muda",
+        "followUpCall": "Simu ya ushauri ya kufuatilia"
+      }
+    },
+    "assistance": {
+      "heading": "Unahitaji usaidizi wa haraka?",
+      "technicalTeam": "+91-94627-71662 (Timu ya Ufundi)",
+      "email": "info@powertonengineering.com"
+    }
+  },
+  "career": {
+    "placeholders": {
+      "fullName": "Ingiza jina lako kamili",
+      "email": "your.email@example.com",
+      "phone": "+91 9876543210",
+      "address": "Ingiza anwani yako kamili (Nyumba/Ghorofa Na., Mtaa, Jiji, Jimbo, PIN)",
+      "currentCompany": "Kampuni yako ya sasa (si lazima)",
+      "education": "mfano, B.Tech Uhandisi wa Umeme",
+      "expectedSalary": "mfano, 5-8 LPA au Inayojadiliwa",
+      "skills": "Orodhesha ujuzi wako wa kiufundi, ujuzi wa programu, lugha za programu, vyeti, n.k.",
+      "coverLetter": "Tuambie kuhusu motisha yako, malengo ya kazi, na jinsi unavyoweza kuchangia timu yetu...",
+      "selectSpecialization": "Chagua eneo lako la utaalamu",
+      "selectExperience": "Chagua kiwango cha uzoefu",
+      "selectAvailability": "Chagua upatikanaji wako"
+    },
+    "labels": {
+      "title": "Jiunge na Timu Yetu ya Uhandisi",
+      "subtitle": "Wasilisha maombi yako na uwe sehemu ya timu yetu ya suluhisho za uhandisi za ubunifu",
+      "personalInfo": "Taarifa za Kibinafsi",
+      "professionalInfo": "Taarifa za Kitaalamu",
+      "fullName": "Jina Kamili",
+      "emailAddress": "Anwani ya Barua Pepe",
+      "phoneNumber": "Nambari ya Simu",
+      "residingAddress": "Anwani ya Sasa ya Makazi",
+      "specialization": "Utaalamu wa Uhandisi",
+      "experience": "Kiwango cha Uzoefu",
+      "currentCompany": "Kampuni ya Sasa",
+      "availability": "Upatikanaji/Muda wa Taarifa",
+      "education": "Elimu/Sifa",
+      "expectedSalary": "Mshahara Unaotarajiwa",
+      "technicalSkills": "Ujuzi na Utaalamu wa Kiufundi",
+      "coverLetter": "Barua ya Utangulizi na Motisha",
+      "resume": "CV/Resume"
+    },
+    "buttons": {
+      "submit": "Wasilisha Maombi",
+      "submitting": "Inawasilisha Maombi...",
+      "uploadResume": "Pakia Resume"
+    },
+    "validation": {
+      "nameMin": "Jina lazima liwe na angalau herufi 2",
+      "emailInvalid": "Tafadhali ingiza anwani halali ya barua pepe",
+      "phoneMin": "Nambari ya simu lazima iwe na angalau tarakimu 10",
+      "specializationRequired": "Tafadhali chagua utaalamu wako wa uhandisi",
+      "experienceRequired": "Tafadhali chagua kiwango chako cha uzoefu",
+      "educationRequired": "Tafadhali toa maelezo yako ya elimu",
+      "joiningTimeRequired": "Tafadhali bainisha ni lini unaweza kujiunga",
+      "skillsMin": "Tafadhali toa maelezo kuhusu ujuzi wako",
+      "coverLetterMin": "Tafadhali andika barua fupi ya utangulizi (angalau herufi 20)",
+      "addressMin": "Tafadhali toa anwani yako kamili ya makazi"
+    },
+    "specializations": {
+      "electricalEngineering": "Uhandisi wa Umeme",
+      "automationControl": "Automation na Mifumo ya Udhibiti",
+      "instrumentation": "Uhandisi wa Vyombo",
+      "projectManagement": "Usimamizi wa Mradi",
+      "technicalSales": "Mauzo ya Kiufundi",
+      "fieldService": "Huduma ya Shambani na Uagizaji",
+      "designEngineering": "Ubunifu na Maendeleo",
+      "solarRenewable": "Nishati ya Jua na Inayoweza Kurejeshwa",
+      "other": "Utaalamu Mwingine"
+    },
+    "experience": {
+      "fresher": "Mhitimu (Miaka 0-1)",
+      "oneToThree": "Miaka 1-3",
+      "threeToFive": "Miaka 3-5",
+      "fiveToEight": "Miaka 5-8",
+      "eightToTwelve": "Miaka 8-12",
+      "twelvePlus": "Miaka 12+"
+    },
+    "joiningTime": {
+      "immediate": "Naweza kujiunga mara moja",
+      "fifteenDays": "Muda wa taarifa wa siku 15",
+      "oneMonth": "Muda wa taarifa wa mwezi 1",
+      "twoMonths": "Muda wa taarifa wa miezi 2",
+      "threeMonths": "Muda wa taarifa wa miezi 3",
+      "moreThanThree": "Muda wa taarifa wa zaidi ya miezi 3"
+    },
+    "helpers": {
+      "resumeFormat": "Miundo inayokubalika: PDF, DOC, DOCX (Ukubwa wa juu: 5MB)",
+      "changeResume": "Badilisha Resume",
+      "uploadResume": "Pakia Resume"
+    },
+    "success": {
+      "title": "Maombi Yamewasilishwa Kwa Mafanikio!",
+      "description": "Asante kwa kuomba! Tutakagua maombi yako na kuwasiliana nawe ndani ya siku 2-3 za kazi."
+    },
+    "error": {
+      "title": "Uwasilishaji wa Maombi Umeshindwa",
+      "description": "Tafadhali chagua faili ndogo kuliko 5MB."
+    }
+  }
+}

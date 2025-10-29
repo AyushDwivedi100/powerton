@@ -1,0 +1,31 @@
+{
+  "menu": {
+    "about": "Acerca de",
+    "projects": "Projetos",
+    "gallery": "Galeria",
+    "career": "Carreira",
+    "contact": "Contato"
+  },
+  "services": "Serviços",
+  "dropdowns": {
+    "services": "Serviços",
+    "products": "Produtos"
+  },
+  "header": {
+    "servingWorldwide": "Servindo Mundialmente"
+  },
+  "footer": {
+    "backToProducts": "Voltar aos Produtos",
+    "services": "Serviços",
+    "products": "Produtos",
+    "copyright": "© {{year}} Powerton Engineering Pvt. Ltd. Todos os direitos reservados.",
+    "selectLanguage": "Selecionar idioma",
+    "companyDescription": "O seu parceiro de confiança no fornecimento de soluções e serviços de engenharia de alta qualidade para automação industrial e sistemas elétricos.",
+    "sitemap": "Mapa do Site"
+  },
+  "mobile": {
+    "navigationMenu": "Menu de navegação",
+    "openMobileMenu": "Abrir menu móvel",
+    "menuDescription": "Menu de navegação principal do site da Powerton Engineering"
+  }
+}

@@ -1,0 +1,2982 @@
+{
+  "seo": {
+    "title": "Bidhaa za Uendeshaji Kiotomatiki wa Viwandani na Vipengele vya Umeme | Mifumo ya PLC SCADA, Sensorer, Visambazaji | Powerton Engineering",
+    "description": "Katalogi kamili ya bidhaa za otomatiki za viwandani, vipengele vya paneli dhibiti za umeme, vifaa vya ala, mifumo ya PLC SCADA DCS, visambazaji shinikizo, sensorer joto, mita za mtiririko, sensorer kiwango, vivunja saketi, viunganishi, relay, viendeshi VFD, vituo vya kudhibiti injini, bidhaa za sola, motors za BLDC, pampu za centrifugal, zana za kupimia, vifaa vya usalama, na zana za viwandani. Msambazaji aliyeidhinishwa wa Siemens, Allen Bradley, Schneider, ABB, Honeywell, Yokogawa, na Endress+Hauser, Rosemount. Mtoa huduma aliyeidhinishwa na ISO anayehudumia tasnia ya dawa, mitambo ya nguvu, mafuta na gesi, na tasnia ya utengenezaji kote India.",
+    "keywords": "Bidhaa za otomatiki za viwandani India, vipengele vya paneli dhibiti za umeme, mifumo ya PLC, mifumo ya SCADA, mifumo ya DCS, paneli za HMI, visambazaji shinikizo, sensorer joto, mita za mtiririko, sensorer kiwango, visambazaji kiwango, ala za uchanganuzi, ala za kupimia mchakato, vali dhibiti, viendeshaji, viweka nafasi, vivunja saketi, viunganishi, relay, MCB, MCCB, ACB, VCB, vianzishi injini, relay za kupakia kupita kiasi, viendeshi VFD, vianzishi laini, kituo cha kudhibiti injini MCC, kituo cha kudhibiti nguvu PCC, paneli za usambazaji, swichi za kutenganisha, vipengele vya otomatiki za viwandani, vidhibiti mchakato, ala za kupimia, ala za shambani, ala za chumba cha kudhibiti, vifaa vya ala, viyoyozi mawimbi, vitenga, vizuizi, vyanzo vya nguvu, paneli za sola, vibadilishaji nguvu za sola, betri za sola, vidhibiti chaji za sola, vidhibiti MPPT, vibadilishaji unganishi wa gridi, vibadilishaji nje ya gridi, vibadilishaji mseto, feni za dari za BLDC, feni za kutolea nje za BLDC, motors za BLDC, pampu za centrifugal, pampu za kuzuia moja, pampu zinazoweza kuzama, pampu za viwandani, vipuri vya pampu, swichi za usalama, vitufe vya kusitisha dharura, mapazia ya mwanga, relay za usalama, zana za viwandani, zana za mkono, zana za umeme, zana za kupimia, multimeter, koleo za sasa, vitester vya insulation, vitester vya kutuliza, vichanganuzi ubora wa nguvu, calibrator, bidhaa za Siemens India, bidhaa za Allen Bradley, bidhaa za Schneider Electric, bidhaa za otomatiki za ABB, ala za Honeywell, visambazaji Yokogawa, sensorer Endress Hauser, visambazaji Rosemount, bidhaa za Emerson, otomatiki za Rockwell, Danfoss VFD, Delta VFD, vifaa vya paneli dhibiti, vipengele vya paneli usambazaji, vifaa vya umeme, vipuri vya otomatiki, vipuri vya ala, bidhaa za umeme za viwandani, bidhaa za otomatiki za kiwanda, bidhaa za otomatiki za mchakato, bidhaa za otomatiki za dawa, ala za kupimia kituo cha nguvu, ala za kupimia mafuta na gesi, vyombo vya kiwanda cha kemikali, ala za usindikaji maji, ala za usindikaji chakula, bidhaa za otomatiki za kiwanda cha saruji, bidhaa za otomatiki za utengenezaji"
+  },
+  "title": "Bidhaa Zetu",
+  "subtitle": "Aina mbalimbali za bidhaa za otomatiki za viwandani, vipengele vya umeme, ala, mifumo ya sola, pampu na zana. Vifaa bora kwa matumizi ya viwandani.",
+  "categories": {
+    "automation": "Uendeshaji na Udhibiti",
+    "electrical": "Vipengele vya Umeme",
+    "instrumentation": "Ala",
+    "solar": "Bidhaa za Sola",
+    "motors": "Mifumo ya Motor ya BLDC",
+    "pumps": "Pampu na Motors",
+    "safety": "Vifaa vya Usalama",
+    "tools": "Zana za Viwandani",
+    "instrumentation-accessories": {
+      "title": "Vifaa vya Ala",
+      "description": "Vifaa vya ala za usahihi kwa ajili ya kupima na kudhibiti",
+      "features": {
+        "pressure-transmitters": "Visambazaji vya Shinikizo",
+        "temperature-sensors": "Sensorer za Joto",
+        "flow-meters": "Mita za Mtiririko",
+        "level-indicators": "Viashiria vya Kiwango",
+        "analyzers": "Vichambuzi"
+      }
+    },
+    "electrical-accessories": {
+      "title": "Vifaa vya Umeme",
+      "description": "Suluhisho kamili za vifaa vya umeme kwa matumizi ya viwandani",
+      "features": {
+        "circuit-breakers": "Vivunja Mzunguko",
+        "contactors": "Viwasilishi",
+        "relays": "Relays",
+        "power-supplies": "Vifaa vya Nguvu"
+      }
+    },
+    "solar-products": {
+      "title": "Bidhaa za Sola",
+      "description": "Suluhisho kamili za nishati ya jua na vipengele",
+      "features": {
+        "solar-panels": "Paneli za Sola",
+        "inverters": "Vigeuzi",
+        "battery-storage": "Hifadhi ya Betri",
+        "monitoring-systems": "Mifumo ya Ufuatiliaji"
+      }
+    },
+    "automation-control-systems": {
+      "title": "Mifumo ya Uendeshaji na Udhibiti",
+      "description": "Mifumo ya hali ya juu ya uendeshaji na udhibiti kwa shughuli za viwandani",
+      "features": {
+        "hmi-systems": "Mifumo ya HMI",
+        "scada-software": "Programu ya SCADA",
+        "industrial-networks": "Mitandao ya Viwandani"
+      }
+    },
+    "safety-protective-devices": {
+      "title": "Vifaa vya Usalama na Ulinzi",
+      "description": "Mifumo ya usalama wa viwandani na vifaa vya kinga",
+      "features": {
+        "safety-switches": "Swichi za Usalama",
+        "emergency-stops": "Vituo vya Dharura",
+        "light-curtains": "Mapazia ya Mwanga",
+        "protective-barriers": "Vizuizi vya Kinga"
+      }
+    },
+    "mechanical-pumps-spares": {
+      "title": "Pampu za Mitambo na Vipuri",
+      "description": "Pampu za mitambo na vipuri kwa matumizi ya viwandani",
+      "features": {
+        "centrifugal-pumps": "Pampu za Katijaja",
+        "positive-displacement-pumps": "Pampu za Uhamishaji Chanya",
+        "pump-components": "Vipengele vya Pampu",
+        "maintenance-kits": "Vifaa vya Matengenezo"
+      }
+    },
+    "industrial-measuring-tools": {
+      "title": "Zana za Viwandani na Kupimia",
+      "description": "Zana za kitaalamu, vifaa, na ala za hali ya juu za kupimia kwa ajili ya matengenezo ya viwandani, ujenzi, shughuli za utengenezaji, na matumizi sahihi ya ufuatiliaji",
+      "features": {
+        "hand-tools": "Zana za Mkono",
+        "power-tools": "Zana za Nguvu",
+        "digital-multimeters": "Multimita za Dijitali",
+        "power-quality-analyzers": "Vichanganuzi vya Ubora wa Nguvu",
+        "calibrators": "Vipima"
+      }
+    },
+    "bldc": {
+      "title": "Bidhaa za BLDC",
+      "description": "Bidhaa za motor za DC zisizo na brashi kwa matumizi ya ufanisi wa nishati",
+      "features": {
+        "energy-efficient": "Ufanisi wa Nishati",
+        "long-lifespan": "Muda Mrefu wa Kuishi",
+        "low-maintenance": "Matengenezo Dogo",
+        "variable-speed-control": "Udhibiti wa Kasi Tofauti"
+      }
+    }
+  },
+  "bldcCeilingFan": {
+    "smart1200": {
+      "title": "Feni ya Dari ya Smart BLDC 1200mm",
+      "description": "Feni ya dari yenye akili inayotumia nishati kidogo yenye kidhibiti cha mbali na kipengele cha kuweka muda",
+      "features": [
+        "Matumizi ya Nguvu ya 28W",
+        "Kidhibiti cha Mbali",
+        "Mipangilio 5 ya Kasi",
+        "Kipengele cha Kuweka Muda"
+      ]
+    },
+    "premium1400": {
+      "title": "Feni ya Dari ya Premium BLDC 1400mm",
+      "description": "Feni ya dari ya utendaji wa juu yenye taa ya LED na motor inayoweza kubadilishwa",
+      "features": [
+        "Matumizi ya Nguvu ya 35W",
+        "Taa ya LED Imeunganishwa",
+        "Motor Inayoweza Kubadilishwa",
+        "Uendeshaji Kimya"
+      ]
+    },
+    "commercial1500": {
+      "title": "Feni ya Dari ya Kibiashara BLDC 1500mm",
+      "description": "Feni ya dari ya kazi nzito kwa matumizi ya kibiashara na viwandani",
+      "features": [
+        "Matumizi ya Nguvu ya 45W",
+        "Motor ya Kazi Nzito",
+        "Mtiririko wa Juu wa Hewa",
+        "Ujenzi Imara"
+      ]
+    }
+  },
+  "bldcCoolerExhaust": {
+    "exhaustFan": {
+      "title": "Motor ya Feni ya Kutolea Nje ya BLDC",
+      "description": "Motor ya DC isiyo na brashi yenye ufanisi wa juu kwa matumizi ya feni ya kutolea nje",
+      "features": [
+        "Udhibiti wa Kasi Tofauti",
+        "Uendeshaji wa Kelele Chini",
+        "Muundo Bora wa Nishati",
+        "Muda Mrefu wa Maisha"
+      ]
+    },
+    "coolerMotors": {
+      "title": "Motor ya Kipoezi ya BLDC",
+      "description": "Motor yenye ufanisi wa nishati iliyoundwa kwa matumizi ya kipoezi cha hewa",
+      "features": [
+        "Pato la Torque ya Juu",
+        "Inayostahimili Hali ya Hewa",
+        "Udhibiti wa Kasi",
+        "Uendeshaji Usio na Matengenezo"
+      ]
+    },
+    "ventilation": {
+      "title": "Motor ya Mfumo wa Uingizaji Hewa ya BLDC",
+      "description": "Motor maalum kwa mifumo ya uingizaji hewa ya viwandani na ushughulikiaji wa hewa",
+      "features": [
+        "Kiwango cha Juu cha CFM",
+        "Imekadiriwa Joto",
+        "Inayostahimili Mtetemo",
+        "Inaoana na Udhibiti Mahiri"
+      ]
+    }
+  },
+  "bldcPumps": {
+    "solarSubmersible1hp": {
+      "title": "Pampu ya Submersible ya Sola ya BLDC 1HP",
+      "description": "Pampu ya submersible inayoendeshwa na nishati ya jua kwa visima vya maji na matumizi ya mashimo",
+      "features": [
+        "Uendeshaji Sambamba na Sola",
+        "Nguvu ya Motor ya 1HP",
+        "Muundo Bora wa Ufanisi",
+        "Ujenzi Uliopozwa na Maji"
+      ]
+    },
+    "dcSurface2hp": {
+      "title": "Pampu ya Uso ya DC 2HP",
+      "description": "Pampu ya uso yenye ufanisi wa juu kwa umwagiliaji na uhamishaji wa maji",
+      "features": [
+        "Ukadiriaji wa Nguvu ya 2HP",
+        "Muundo wa Kujichuja",
+        "Ulinzi wa Kukauka",
+        "Udhibiti wa Kasi Tofauti"
+      ]
+    },
+    "hybridSystem": {
+      "title": "Mfumo wa Pampu ya Hybrid BLDC",
+      "description": "Mfumo wa pampu wenye akili na uwezo wa kuhifadhi nakala ya jua na gridi ya taifa",
+      "features": [
+        "Hali ya Uendeshaji wa Hybrid",
+        "Kidhibiti Mahiri",
+        "Ufuatiliaji wa Mbali",
+        "Uboreshaji wa Nishati"
+      ]
+    }
+  },
+  "bldcFans": {
+    "tableFan": {
+      "title": "Motor ya Feni ya Meza ya BLDC",
+      "description": "Motor ndogo ya DC isiyo na brashi kwa matumizi ya feni ya meza na dawati",
+      "features": [
+        "Muundo Mdogo",
+        "Uendeshaji Kimya",
+        "Kidhibiti cha Mbali",
+        "Kipengele cha Kuweka Muda"
+      ]
+    },
+    "wallFan": {
+      "title": "Motor ya Feni ya Ukutani ya BLDC",
+      "description": "Motor ya feni iliyowekwa ukutani na teknolojia ya BLDC kwa matumizi ya makazi",
+      "features": [
+        "Muundo wa Kuweka Ukutani",
+        "Kipengele cha Oscillation",
+        "Udhibiti wa Kasi",
+        "Uendeshaji wa Kuokoa Nishati"
+      ]
+    },
+    "pedestalFan": {
+      "title": "Motor ya Feni ya Pedestal ya BLDC",
+      "description": "Motor ya feni ya pedestal inayoweza kurekebishwa urefu na onyesho la LED",
+      "features": [
+        "Marekebisho ya Urefu",
+        "Kipengele cha Kuinamisha",
+        "Onyesho la LED",
+        "Kipima Muda cha Hali ya Kulala"
+      ]
+    }
+  },
+  "electricalCables": {
+    "powerDistribution": {
+      "title": "Kebo za Usambazaji Nguvu",
+      "description": "Kebo za voltage ya juu kwa mifumo ya usambazaji na usambazaji wa nguvu",
+      "features": [
+        "Insulation ya XLPE",
+        "Ujenzi wa Silaha",
+        "Inayostahimili Moto",
+        "Ukadiriaji wa Juu wa Sasa"
+      ]
+    },
+    "communication": {
+      "title": "Kebo za Mawasiliano",
+      "description": "Kebo za usambazaji data kwa mitandao ya mawasiliano ya viwandani",
+      "features": [
+        "Viwango vya Cat5e/Cat6",
+        "Chaguzi za Fiber Optic",
+        "Kiwango cha Viwanda",
+        "Ukingaji wa EMI"
+      ]
+    }
+  },
+  "instrumentationCables": {
+    "shieldedPair": {
+      "title": "Kebo za Jozi Zilizolindwa",
+      "description": "Kebo zilizolindwa za voltage ya chini kwa ajili ya ala na matumizi ya udhibiti",
+      "features": [
+        "Ujenzi Uliolindwa",
+        "Inayostahimili Unyevu",
+        "Imekadiriwa Joto",
+        "Usanidi wa Jozi Nyingi"
+      ]
+    },
+    "thermocouple": {
+      "title": "Kebo za Upanuzi wa Thermocouple",
+      "description": "Kebo maalum kwa kupima joto na thermocouples",
+      "features": [
+        "Ujenzi Uliokompensatiwa",
+        "Kadiri ya Joto la Juu",
+        "Insulation yenye Rangi",
+        "EMF ya Joto la Chini"
+      ]
+    },
+    "rtd": {
+      "title": "Kebo za Sensor RTD",
+      "description": "Kebo sahihi kwa sensors za joto la RTD na watumaji",
+      "features": [
+        "Upinzani wa Chini",
+        "Muundo wa Jozi Iliyokazwa",
+        "Kinga Bora ya Kelele",
+        "Ufungaji Unaonyumbulika"
+      ]
+    }
+  },
+  "circuitBreakers": {
+    "schneiderM9r31240": {
+      "title": "Schneider Electric M9R31240 RCCB",
+      "description": "Kivunja mzunguko wa sasa kilichobaki cha nguzo 4 kwa ulinzi wa usalama wa umeme",
+      "features": [
+        "Usanidi wa nguzo 4",
+        "Voltage iliyokadiriwa ya 240V AC",
+        "30mA iliyobaki ya sasa",
+        "63A iliyokadiriwa ya sasa",
+        "Aina A ya ugunduzi wa sasa uliobaki"
+      ]
+    },
+    "schneiderM9r14463": {
+      "title": "Schneider Electric M9R14463 RCCB",
+      "description": "Kivunja mzunguko wa sasa kilichobaki cha nguzo 2 kwa matumizi ya nyumbani",
+      "features": [
+        "Usanidi wa nguzo 2",
+        "Voltage iliyokadiriwa ya 240V AC",
+        "10mA usikivu wa juu",
+        "40A iliyokadiriwa ya sasa",
+        "Aina AC ya ugunduzi wa sasa uliobaki"
+      ]
+    },
+    "abbF204a63": {
+      "title": "ABB F204 A-63/0.03 RCCB",
+      "description": "Aina A ya kivunja mzunguko wa sasa kilichobaki na ulinzi ulioimarishwa",
+      "features": [
+        "Aina A ya usanidi wa nguzo 4",
+        "Voltage iliyokadiriwa ya 415V AC",
+        "30mA iliyobaki ya sasa",
+        "63A iliyokadiriwa ya sasa",
+        "Vipengele vya usalama vilivyoimarishwa"
+      ]
+    },
+    "abbF204ac25": {
+      "title": "ABB F204 AC-25/0.03 RCCB",
+      "description": "Kivunja mzunguko kilichobaki cha kompakt kwa matumizi ya makazi",
+      "features": [
+        "Aina AC ya usanidi wa nguzo 2",
+        "Voltage iliyokadiriwa ya 240V AC",
+        "30mA iliyobaki ya sasa",
+        "25A iliyokadiriwa ya sasa",
+        "Uwekaji wa reli ya DIN wa kompakt"
+      ]
+    },
+    "abbSaceEmaxE12": {
+      "title": "ABB SACE Emax E1.2 ACB",
+      "description": "Kivunja mzunguko wa hewa kwa usambazaji wa nguvu ya voltage ya chini",
+      "features": [
+        "Uwezo wa kuvunja wa 1250A",
+        "Voltage iliyokadiriwa ya 690V AC",
+        "Kitengo cha safari ya elektroniki",
+        "Muundo unaoweza kutolewa",
+        "Kazi za ulinzi za hali ya juu"
+      ]
+    },
+    "abbSaceEmaxE22": {
+      "title": "ABB SACE Emax E2.2 ACB",
+      "description": "Kivunja mzunguko wa hewa ya utendaji wa juu kwa matumizi ya viwandani",
+      "features": [
+        "Uwezo wa kuvunja wa 2000A",
+        "Voltage iliyokadiriwa ya 690V AC",
+        "Ulinzi wa msingi wa microprocessor",
+        "Uwezo wa uendeshaji wa mbali",
+        "Kazi za upimaji wa nishati"
+      ]
+    },
+    "schneiderMasterpactNw": {
+      "title": "Schneider Electric MasterPact NW ACB",
+      "description": "Kivunja mzunguko wa hewa ya hali ya juu na ulinzi wa akili",
+      "features": [
+        "Uwezo wa kuvunja wa 6300A",
+        "Voltage iliyokadiriwa ya 690V AC",
+        "Kitengo cha safari ya Micrologic",
+        "Uwezo wa mawasiliano",
+        "Uchaguzi wa eneo"
+      ]
+    },
+    "schneiderMasterpactMtz": {
+      "title": "Schneider Electric MasterPact MTZ ACB",
+      "description": "Kivunja mzunguko wa hewa ya kompakt kwa matumizi yaliyozuiliwa na nafasi",
+      "features": [
+        "Uwezo wa kuvunja wa 2500A",
+        "Voltage iliyokadiriwa ya 690V AC",
+        "Kitengo cha safari ya dijitali",
+        "Alama ya mguu ya kompakt",
+        "Matengenezo rahisi"
+      ]
+    },
+    "abbVd412kv": {
+      "title": "ABB VD4 12kV VCB",
+      "description": "Kivunja mzunguko wa utupu cha 12kV kwa matumizi ya voltage ya kati",
+      "features": [
+        "Voltage iliyokadiriwa ya 12kV",
+        "Uwezo wa kuvunja wa 31.5kA",
+        "Teknolojia ya kukatiza utupu",
+        "Maisha marefu ya umeme",
+        "Uendeshaji usio na matengenezo"
+      ]
+    },
+    "abbVd424kv": {
+      "title": "ABB VD4 24kV VCB",
+      "description": "Kivunja mzunguko wa utupu cha 24kV kwa ubadilishaji wa utendaji wa juu",
+      "features": [
+        "Voltage iliyokadiriwa ya 24kV",
+        "Uwezo wa kuvunja wa 25kA",
+        "Teknolojia isiyo na SF6",
+        "Muundo wa kompakt",
+        "Rafiki wa mazingira"
+      ]
+    },
+    "schneiderEvopact15kv": {
+      "title": "Schneider Electric EvoPacT 15kV VCB",
+      "description": "Kivunja mzunguko wa utupu cha 15kV na mifumo ya udhibiti wa hali ya juu",
+      "features": [
+        "Voltage iliyokadiriwa ya 15kV",
+        "Uwezo wa kuvunja wa 40kA",
+        "Kitengo cha udhibiti kilichounganishwa",
+        "Mfumo wa ufuatiliaji wa arc",
+        "Mawasiliano ya dijitali"
+      ]
+    },
+    "schneiderHvx33kv": {
+      "title": "Schneider Electric HVX-O 33kV VCB",
+      "description": "Kivunja mzunguko wa utupu wa nje wa 33kV kwa vituo vidogo",
+      "features": [
+        "Voltage iliyokadiriwa ya 33kV",
+        "Uwezo wa kuvunja wa 25kA",
+        "Uwekaji wa nje",
+        "Nyumba inayostahimili hali ya hewa",
+        "Uwezo wa ufuatiliaji wa mbali"
+      ]
+    },
+    "siemens3ah4": {
+      "title": "Siemens 3AH4 VCB",
+      "description": "Kivunja mzunguko wa utupu wa voltage ya kati na uaminifu uliothibitishwa",
+      "features": [
+        "Voltage iliyokadiriwa ya 17.5kV",
+        "Uwezo wa kuvunja wa 31.5kA",
+        "Teknolojia ya utupu iliyothibitishwa",
+        "Mahitaji ya matengenezo ya chini",
+        "Usalama wa juu wa uendeshaji"
+      ]
+    },
+    "mcb": {
+      "title": "Vivunja Mzunguko Vidogo (MCB)",
+      "description": "Vivunja mzunguko wa voltage ya chini kwa ulinzi wa makazi na kibiashara",
+      "features": [
+        "Curve za Safari za B/C/D",
+        "Ukadiriaji wa 6-63A",
+        "Uwezo wa Kuvunja wa 10kA",
+        "Uwekaji wa Reli ya DIN"
+      ]
+    },
+    "mccb": {
+      "title": "Vivunja Mzunguko Vilivyoundwa (MCCB)",
+      "description": "Vivunja mzunguko wa viwandani kwa ulinzi wa motor na vifaa vya nguvu",
+      "features": [
+        "Mipangilio ya Safari Inayoweza Kurekebishwa",
+        "Uwezo wa Juu wa Kuvunja",
+        "Vitengo vya Safari ya Kielektroniki",
+        "Ukadiriaji hadi 1600A"
+      ]
+    },
+    "industrialFuses": {
+      "title": "Fuses za Viwandani",
+      "description": "Fuses za kasi ya juu kwa ulinzi wa vifaa vya umeme",
+      "features": [
+        "Majibu ya Haraka ya Kaimu",
+        "Chaguzi za Kuchelewesha Muda",
+        "Ukadiriaji wa Voltage ya Juu",
+        "Ujenzi wa Mwili wa Kauri"
+      ]
+    }
+  },
+  "connectorsTerminals": {
+    "terminalBlocks": {
+      "title": "Vitalu vya Terminal vya Viwandani",
+      "description": "Vitalu vya terminal salama kwa unganisho la waya za viwandani",
+      "features": [
+        "Teknolojia ya Clamp ya Spring",
+        "Aina za Muunganisho wa Screw",
+        "Uwekaji wa Reli ya DIN",
+        "Chaguzi Nyingi za Ukubwa"
+      ]
+    },
+    "industrialConnectors": {
+      "title": "Viunganishi vya Viwandani",
+      "description": "Viunganishi vya kazi nzito kwa matumizi ya viwandani yenye mahitaji",
+      "features": [
+        "Ukadiriaji wa Ulinzi wa IP67",
+        "Utaratibu wa Kufunga",
+        "Usanidi wa Pini Nyingi",
+        "Ujumuishaji wa Gland ya Cable"
+      ]
+    },
+    "signalConnectors": {
+      "title": "Viunganishi vya Ishara",
+      "description": "Viunganishi vya usahihi kwa maambukizi ya ala na ishara",
+      "features": [
+        "Muundo wa Kelele Chini",
+        "Ujenzi Uliolindwa",
+        "Ukubwa Mdogo",
+        "Utendaji wa Uaminifu wa Juu"
+      ]
+    }
+  },
+  "subcategories": {
+    "sensors": {
+      "title": "Sensorer na Transducer",
+      "description": "Sensorer za viwandani kwa ajili ya kupima na kudhibiti"
+    },
+    "transmitters": {
+      "title": "Transmita na Mita za Mtiririko",
+      "description": "Transmita za mchakato na vifaa vya kubadilisha mawimbi"
+    },
+    "controllers": {
+      "title": "Vidhibiti na Virekodi",
+      "description": "Mifumo ya udhibiti wa viwandani na vidhibiti vya otomatiki"
+    },
+    "switches": {
+      "title": "Swichi na Viashiria",
+      "description": "Swichi za viwandani na vifaa vya kudhibiti"
+    },
+    "valves": {
+      "title": "Vali na Viendeshaji",
+      "description": "Vali za viwandani na mifumo ya kudhibiti mtiririko"
+    },
+    "analyzers": {
+      "title": "Vichanganuzi",
+      "description": "Vichanganuzi vya mchakato kwa udhibiti wa ubora"
+    },
+    "signal-conditioners": {
+      "title": "Viyoyozi vya Mawimbi",
+      "description": "Vifaa vya kuchakata na kurekebisha mawimbi"
+    },
+    "electrical-cables": {
+      "title": "Kebo za Umeme",
+      "description": "Kebo za nguvu na udhibiti za viwanda kwa mifumo ya umeme"
+    },
+    "instrumentation-cables": {
+      "title": "Kebo za Ala",
+      "description": "Kebo sahihi kwa mifumo ya udhibiti wa mchakato na kupima"
+    },
+    "connectors-terminals": {
+      "title": "Viunganishi na Vituo",
+      "description": "Viunganishi vya umeme na suluhisho za vituo"
+    },
+    "circuit-breakers-fuses": {
+      "title": "Vivunja Mzunguko na Fuses",
+      "description": "Vifaa vya ulinzi wa umeme kwa usalama wa mzunguko"
+    },
+    "contactorsRelays": {
+      "title": "Viwasilishi na Relays",
+      "description": "Viwasilishi vya viwandani na relays za kudhibiti kwa udhibiti wa motor"
+    },
+    "power-supplies": {
+      "title": "Vifaa vya Nguvu",
+      "description": "Vitengo vya usambazaji wa umeme vya viwandani na vibadilishaji"
+    },
+    "enclosures-cabinets": {
+      "title": "Vizuizi na Kabati",
+      "description": "Vizuizi vya umeme na suluhisho za kabati za kudhibiti"
+    },
+    "heating-elements-appliances": {
+      "title": "Vipengele vya Kupokanzwa na Vifaa",
+      "description": "Suluhisho za kupokanzwa za viwandani na vifaa vya joto"
+    },
+    "multimeters": {
+      "title": "Multimita",
+      "description": "Multimita za dijitali na analogi kwa majaribio ya umeme"
+    },
+    "power-quality-analyzers": {
+      "title": "Vichanganuzi vya Ubora wa Nguvu",
+      "description": "Vyombo vya kupima na kuchambua ubora wa nguvu"
+    },
+    "solar-batteries-energy-storage": {
+      "title": "Betri za Sola na Hifadhi ya Nishati",
+      "description": "Mifumo ya kuhifadhi betri kwa matumizi ya nishati ya jua"
+    },
+    "surge-protectors": {
+      "title": "Vilinda Mawimbi",
+      "description": "Vifaa vya ulinzi wa mawimbi ya umeme kwa usalama wa vifaa"
+    },
+    "safety-relays-switches": {
+      "title": "Relays za Usalama na Swichi",
+      "description": "Relays za usalama na swichi za dharura kwa usalama wa viwandani"
+    },
+    "intrinsically-safe-equipment": {
+      "title": "Vifaa Salama Kiasili",
+      "description": "Vifaa visivyolipuka na salama kiasili kwa maeneo hatarishi"
+    },
+    "centrifugal-pumps": {
+      "title": "Pampu za Katijaja",
+      "description": "Pampu za katijaja za ufanisi wa hali ya juu kwa uhamishaji wa maji"
+    },
+    "diaphragm-pumps": {
+      "title": "Pampu za Diaphragm",
+      "description": "Pampu za diaphragm za uhamishaji chanya kwa matumizi ya kemikali"
+    },
+    "gear-pumps": {
+      "title": "Pampu za Gia",
+      "description": "Pampu za gia za usahihi kwa maji maji yenye mnato"
+    },
+    "pump-parts-spares": {
+      "title": "Sehemu za Pampu na Vipuri",
+      "description": "Sehemu za uingizwaji na vipengele vya vipuri kwa pampu za viwandani"
+    },
+    "hand-tools": {
+      "title": "Zana za Mkono",
+      "description": "Zana za mkono za kitaalamu kwa matengenezo na kusanyiko la viwandani"
+    },
+    "power-tools": {
+      "title": "Zana za Nguvu",
+      "description": "Zana za nguvu za viwandani kwa matumizi mazito"
+    },
+    "cutting-tools": {
+      "title": "Zana za Kukata",
+      "description": "Zana na vifaa vya kukata usahihi kwa ajili ya usindikaji wa chuma"
+    },
+    "lifting-equipment": {
+      "title": "Vifaa vya Kuinua",
+      "description": "Hoists, cranes, na vifaa vya kuinua kwa utunzaji wa nyenzo"
+    },
+    "sensors-transducers": {
+      "title": "Sensorer na Transducer",
+      "description": "Sensorer za viwandani na transducer kwa ajili ya kupima na kudhibiti"
+    },
+    "transmitters-flow-meters": {
+      "title": "Transmita na Mita za Mtiririko",
+      "description": "Transmita za viwandani na mita za mtiririko kwa ajili ya ufuatiliaji wa mchakato"
+    },
+    "switches-indicators": {
+      "title": "Swichi na Viashiria",
+      "description": "Swichi za viwandani na vifaa vya kudhibiti"
+    },
+    "valves-actuators": {
+      "title": "Vali na Viendeshaji",
+      "description": "Vali za viwandani na mifumo ya kudhibiti mtiririko"
+    },
+    "safety-equipment": {
+      "title": "Vifaa vya Usalama",
+      "description": "Vifaa kamili vya usalama na vifaa vya kujikinga binafsi kwa matumizi ya viwandani",
+      "sectionsTitle": "Suluhisho za Usalama",
+      "products": {
+        "ppe": {
+          "name": "Vifaa vya Kujikinga Binafsi (PPE)",
+          "description": "Vifaa vya usalama kwa ulinzi wa mfanyakazi",
+          "features": {
+            "hardHats": "Kofia Ngumu",
+            "safetyGlasses": "Miwan ya Usalama",
+            "hearingProtection": "Ulinzi wa Kusikia",
+            "workGloves": "Gloves za Kazi"
+          }
+        },
+        "fallProtection": {
+          "name": "Mifumo ya Ulinzi Dhidi ya Kuanguka",
+          "description": "Harnesses na vifaa vya kukamata kuanguka",
+          "features": {
+            "fullBodyHarness": "Harness ya Mwili Kamili",
+            "lanyards": "Lanyards",
+            "anchorPoints": "Nanga",
+            "selfRetracting": "Kujiondoa"
+          }
+        },
+        "gasDetection": {
+          "name": "Vifaa vya Kugundua Gesi",
+          "description": "Mifumo ya ufuatiliaji wa gesi inayobebeka na iliyowekwa",
+          "features": {
+            "multiGasDetectors": "Vigunduzi vya Gesi Nyingi",
+            "singleGas": "Gesi Moja",
+            "wirelessMonitoring": "Ufuatiliaji wa Wireless",
+            "dataLogging": "Uwekaji Kumbukumbu wa Data"
+          }
+        }
+      },
+      "cta": {
+        "title": "Unahitaji Vifaa vya Usalama?",
+        "description": "Wataalamu wetu wa usalama wanaweza kutoa suluhisho kamili za usalama ili kulinda wafanyikazi wako.",
+        "contactExpertsCta": "Wasiliana na Wataalamu wa Usalama",
+        "requestQuoteCta": "Omba Nukuu"
+      }
+    },
+    "bldc-cooler-exhaust-motor": {
+      "title": "BLDC Motors za Kipoezi na Kutolea Nje",
+      "description": "Motors za BLDC zinazotumia nishati kwa ajili ya vipoezi na feni za kutolea nje"
+    },
+    "bldc-ceiling-fan": {
+      "title": "Feni za Dari za BLDC",
+      "description": "Feni za dari za BLDC zenye ufanisi wa hali ya juu na udhibiti wa mbali"
+    },
+    "bldc-submersible-surface-pump": {
+      "title": "Pampu za BLDC za Submersible na Surface",
+      "description": "Pampu za BLDC za ufanisi wa hali ya juu kwa matumizi ya maji"
+    },
+    "bldc-table-fan-wall-fan-motor": {
+      "title": "Motors za BLDC za Feni ya Meza na Feni ya Ukutani",
+      "description": "Motors za BLDC za kompakt kwa feni za meza na ukuta"
+    },
+    "solar-inverters": {
+      "title": "Vigeuzi vya Sola",
+      "description": "Vigeuzi vya sola vya ufanisi wa hali ya juu kwa matumizi ya makazi na biashara"
+    },
+    "plcs": {
+      "title": "PLCs (Vidhibiti vya Mantiki Vinavyoweza Kupangwa)",
+      "description": "Vidhibiti vya Mantiki Vinavyoweza Kupangwa kwa otomatiki ya viwandani"
+    },
+    "scada": {
+      "title": "Mifumo ya SCADA",
+      "description": "Mifumo ya Udhibiti wa Usimamizi na Upataji Data"
+    },
+    "dcs": {
+      "title": "DCS (Mifumo ya Udhibiti Iliyosambazwa)",
+      "description": "Mifumo ya udhibiti iliyosambazwa kwa otomatiki ya mchakato"
+    },
+    "hmi": {
+      "title": "HMI (Kiolesura cha Mashine ya Binadamu)",
+      "description": "Mifumo ya kiolesura cha mashine ya binadamu kwa udhibiti wa viwandani"
+    },
+    "grounding-systems": {
+      "title": "Mifumo ya Kutuliza",
+      "description": "Mifumo ya kutuliza umeme na kuweka udongo",
+      "subtitle": "Mifumo ya kutuliza umeme na kuweka udongo kwa usalama na ulinzi wa vifaa",
+      "backButton": "Rudi kwa Vifaa vya Usalama na Kinga",
+      "badges": {
+        "groundRods": "Vifaa vya Kutuliza",
+        "conductors": "Viongozi",
+        "clampsLugs": "Clamps & Lugs",
+        "safetyGrounding": "Kutuliza Usalama"
+      },
+      "componentsSection": {
+        "title": "Vipengele vya Kutuliza"
+      },
+      "products": {
+        "electrodes": {
+          "name": "Vifaa vya Kutuliza",
+          "description": "Vifaa vya kutuliza vya shaba na chuma kwa usalama wa umeme",
+          "features": {
+            "copperBonded": "Shaba Iliyounganishwa",
+            "steelCore": "Msingi wa Chuma",
+            "multipleLengths": "Urefu Nyingi",
+            "ulListed": "Imeorodheshwa na UL"
+          }
+        },
+        "conductors": {
+          "name": "Viongozi wa Kutuliza",
+          "description": "Viongozi wa shaba tupu kwa mifumo ya kutuliza",
+          "features": {
+            "solidStranded": "Imara/Iliyokwama",
+            "highConductivity": "Uendeshaji wa Juu",
+            "corrosionResistant": "Inayostahimili Kutu",
+            "multipleSizes": "Ukubwa Nyingi"
+          }
+        },
+        "accessories": {
+          "name": "Vifaa vya Kutuliza",
+          "description": "Clamps, lugs, na fittings kwa ajili ya mitambo ya kutuliza",
+          "features": {
+            "groundClamps": "Clamps za Kutuliza",
+            "compressionLugs": "Lugs za Kubana",
+            "testWells": "Visima vya Majaribio",
+            "bondsJumpers": "Bonds & Jumpers"
+          }
+        }
+      },
+      "cta": {
+        "title": "Unahitaji Suluhisho za Kutuliza?",
+        "description": "Wataalamu wetu wa kutuliza wanaweza kubuni mifumo salama na inayofuata kanuni za kutuliza kwa kituo chako.",
+        "contactButton": "Wasiliana na Wataalamu wa Kutuliza",
+        "quoteButton": "Omba Nukuu"
+      },
+      "keyFeatures": "Sifa Muhimu:",
+      "seo": {
+        "title": "Mifumo ya Kutuliza - Vifaa vya Usalama vya Umeme | Powerton Engineering",
+        "description": "Mifumo ya kitaalamu ya kutuliza na kuweka udongo kwa usalama wa umeme. Vifaa vya kutuliza vya shaba, viongozi, clamps & vifaa kutoka kwa wazalishaji wakuu.",
+        "keywords": "mifumo ya kutuliza, kutuliza umeme, mifumo ya kuweka udongo, fimbo za kutuliza, viongozi wa kutuliza, vifaa vya usalama vya umeme, fimbo za kutuliza za shaba, vifaa vya kutuliza, kutuliza viwandani"
+      }
+    },
+    "calibration-equipment": {
+      "title": "Vifaa vya Upimaji",
+      "description": "Vyombo vya upimaji wa usahihi na vifaa vya kupima"
+    },
+    "solar-panels": {
+      "title": "Paneli za Sola",
+      "description": "Paneli za sola za ufanisi wa hali ya juu na mifumo ya photovoltaic"
+    },
+    "instrument-transformers": {
+      "title": "Vigeuzi vya Vyombo",
+      "description": "Vigeuzi vya sasa na uwezo kwa ajili ya kupima na ulinzi"
+    },
+    "contactors-relays": {
+      "title": "Viwasilishi na Relays",
+      "description": "Viwasilishi vya nguvu na relays za umeme kwa ajili ya udhibiti wa motor"
+    },
+    "transformers-power-devices": {
+      "title": "Vigeuzi na Vifaa vya Nguvu",
+      "description": "Vigeuzi vya kudhibiti na vifaa vya ubadilishaji wa nguvu"
+    },
+    "led-lighting": {
+      "title": "Taa za LED",
+      "description": "Suluhisho za taa za LED za viwandani kwa maeneo hatarishi na ya jumla"
+    },
+    "motor-controllers-drives": {
+      "title": "Vidhibiti vya Motor na Drives",
+      "description": "Drives za mzunguko tofauti na suluhisho za udhibiti wa motor"
+    },
+    "protection-relays": {
+      "title": "Relays za Ulinzi",
+      "description": "Ulinzi wa motor na relays za ufuatiliaji wa voltage"
+    },
+    "panel-meters-indicators": {
+      "title": "Mita za Paneli na Viashiria",
+      "description": "Mita za paneli za analogi na dijitali kwa voltage, sasa, na upimaji wa nguvu"
+    }
+  },
+  "sections": {
+    "overview": "Muhtasari",
+    "technicalSpecifications": "Ufafanuzi wa Kiufundi",
+    "keyFeatures": "Sifa Muhimu",
+    "applications": "Maombi",
+    "industriesServed": "Viwanda Vinavyohudumiwa",
+    "certificationsCompliance": "Vyeti na Uzingatiaji",
+    "certifications": "Vyeti",
+    "qualityAssurance": "Uhakikisho wa Ubora",
+    "qualityAssuranceDescription": "Bidhaa hukutana na viwango vya kimataifa na kanuni za usalama.",
+    "completeListDescription": "Orodha kamili ya bidhaa za {{groupTitle}} na vipimo",
+    "expertsHelpDescription": "Wataalamu wetu wako hapa kukusaidia kuchagua {{groupTitle}} inayofaa kwa programu yako.",
+    "products": "Bidhaa Zetu",
+    "productsDescription": "Gundua anuwai yetu kamili ya suluhisho za viwandani zenye ubora wa hali ya juu",
+    "allProducts": "Bidhaa Zote",
+    "needMoreOptions": "Unahitaji Chaguo Zaidi?",
+    "customSolutions": "Tunatoa suluhisho maalum na tunaweza kupata bidhaa za ziada ili kukidhi mahitaji yako maalum.",
+    "professionalGrade": "Suluhisho la Daraja la Kitaalam",
+    "keyBenefits": "Faida Muhimu:",
+    "professionalConsultation": "Pata Ushauri wa Kitaalam",
+    "technicalConsultation": "Ushauri wa Kiufundi"
+  },
+  "defaults": {
+    "groupDescription": "Bidhaa za ubora wa juu kwa matumizi ya otomatiki ya viwandani."
+  },
+  "filters": {
+    "all": "Zote",
+    "category": "Kategoria",
+    "industry": "Sekta",
+    "status": "Hali"
+  },
+  "status": {
+    "available": "Inapatikana",
+    "outOfStock": "Imeisha",
+    "discontinued": "Imeondolewa"
+  },
+  "productPages": {
+    "transmitters": {
+      "title": "Vipeleka",
+      "transducers": "Vigeuzi"
+    },
+    "bldcSubmersibleSurfacePump": {
+      "title": "Pampu za BLDC za Submersible & Surface",
+      "subtitle": "Pampu za BLDC zinazotumia nishati kwa ajili ya usambazaji wa maji, umwagiliaji, na matumizi ya sola"
+    },
+    "cablesWires": {
+      "title": "Kebo na Waya",
+      "subtitle": "Kebo na waya za viwandani kwa ajili ya usambazaji wa umeme, ala, na mawasiliano ya data"
+    },
+    "handTools": {
+      "title": "Zana za Mkono",
+      "subtitle": "Zana za mkono za kitaalamu kwa ajili ya matengenezo ya viwandani na matumizi ya utengenezaji"
+    },
+    "powerTools": {
+      "title": "Zana za Nguvu",
+      "subtitle": "Zana za nguvu za viwandani kwa ajili ya shughuli nzito za utengenezaji na matengenezo"
+    },
+    "cuttingTools": {
+      "title": "Zana za Kukata",
+      "subtitle": "Zana za kukata za kitaalamu kwa ajili ya uchimbaji, uchimbaji, na matumizi ya usindikaji wa nyenzo"
+    },
+    "liftingEquipment": {
+      "title": "Vifaa vya Kuinua",
+      "subtitle": "Vifaa vya kuinua na kupiga risasi vya viwandani kwa ajili ya shughuli salama za kushughulikia nyenzo"
+    },
+    "valves": {
+      "title": "Vali na Viendeshaji",
+      "subtitle": "Suluhisho za otomatiki za vali za viwandani na viendeshaji vya nyumatiki, umeme na hidroli",
+      "shortDescription": "Suluhisho za otomatiki za vali za viwandani na viendeshaji vya nyumatiki, umeme na hidroli",
+      "fullDescription": "Kwingineko kamili ya otomatiki ya vali ikiwa ni pamoja na robo-turn na linear valves na teknolojia smart, muunganisho wa IoT, na ufuatiliaji wa hali.",
+      "seo": {
+        "title": "Vali na Viendeshaji vya Viwandani - Suluhisho za Udhibiti Otomatiki | Powerton Engineering",
+        "description": "Otomatiki ya vali za viwandani na viendeshaji vya nyumatiki, umeme na hidroli. Vali za mpira, vali za kipepeo, vali za kudhibiti na viweka nafasi smart na uendeshaji salama.",
+        "keywords": "vali za viwandani, viendeshaji vya vali, viendeshaji vya nyumatiki, viendeshaji vya umeme, vali za kudhibiti, vali za otomatiki, viweka nafasi smart"
+      },
+      "keyBenefits": {
+        "preciseFlowControl": "Udhibiti Sahihi wa Mtiririko",
+        "enhancedSafety": "Usalama na Uaminifu Ulioimarishwa",
+        "reducedEnergyConsumption": "Kupunguza Matumizi ya Nishati",
+        "predictiveMaintenance": "Uwezo wa Matengenezo ya Utabiri"
+      },
+      "specifications": {
+        "actuatorTypes": {
+          "label": "Aina za Viendeshaji",
+          "value": "Nyamatiki, Umeme, Hidroli"
+        },
+        "valveSizes": {
+          "label": "Ukubwa wa Vali",
+          "value": "1/4\" hadi 48\" (DN8 hadi DN1200)"
+        },
+        "pressureRating": {
+          "label": "Kiwango cha Shinikizo",
+          "value": "Hadi 6000 PSI (414 bar)"
+        },
+        "temperatureRange": {
+          "label": "Kiwango cha Halijoto",
+          "value": "-40°F hadi 1000°F (-40°C hadi 538°C)"
+        }
+      },
+      "applications": {
+        "processControl": "Udhibiti wa Mchakato",
+        "oilGas": "Mafuta na Gesi",
+        "chemicalProcessing": "Usindikaji wa Kemikali",
+        "waterTreatment": "Matibabu ya Maji",
+        "powerGeneration": "Uzalishaji wa Nguvu",
+        "hvacSystems": "Mifumo ya HVAC"
+      },
+      "industries": {
+        "oilGas": "Mafuta na Gesi",
+        "chemicalPetrochemical": "Kemikali na Petrokemikali",
+        "powerGeneration": "Uzalishaji wa Nguvu",
+        "waterWastewater": "Maji na Maji Taka",
+        "foodBeverage": "Chakula na Vinywaji",
+        "pharmaceutical": "Dawa"
+      }
+    },
+    "analyzers": {
+      "title": "Vichanganuzi vya Mchakato",
+      "subtitle": "Vyombo vya uchambuzi wa hali ya juu kwa ufuatiliaji wa mchakato",
+      "product": {
+        "title": "Vichanganuzi vya Mchakato",
+        "shortDescription": "Vichanganuzi vya gesi na kioevu vya hali ya juu kwa kipimo na ufuatiliaji wa mchakato wa viwandani",
+        "fullDescription": "Suluhisho kamili za vichanganuzi vya mchakato ikiwa ni pamoja na vichanganuzi vya gesi, vichanganuzi vya kioevu, na mifumo ya kipimo cha vigezo vingi na teknolojia ya Diode Laser inayoweza Kurekebishwa.",
+        "keyBenefits": {
+          "processControl": "Udhibiti Bora wa Mchakato",
+          "productQuality": "Ubora wa Bidhaa Ulioimarishwa",
+          "compliance": "Uzingatiaji wa Udhibiti",
+          "safety": "Usalama Ulioimarishwa"
+        },
+        "altText": "ID-842: Vichanganuzi vya Mchakato - Vichanganuzi vya mchakato wa gesi na kioevu vya viwandani"
+      },
+      "seo": {
+        "keywords": "vichanganuzi vya mchakato, vichanganuzi vya gesi, vichanganuzi vya kioevu, vichanganuzi vya pH, mita za conductivity, chromatography ya gesi, ufuatiliaji wa mchakato"
+      },
+      "sections": {
+        "overview": {
+          "title": "Uchambuzi wa Mchakato wa Hali ya Juu"
+        },
+        "technologies": {
+          "title": "Teknolojia za Uchambuzi",
+          "description": "Teknolojia za hali ya juu za kipimo kwa uchambuzi sahihi wa mchakato"
+        },
+        "specifications": {
+          "title": "Ufafanuzi wa Kiufundi",
+          "description": "Ufafanuzi wa usahihi kwa ufuatiliaji wa mchakato wa kuaminika"
+        }
+      },
+      "buttons": {
+        "consultation": "Ushauri wa Uchambuzi"
+      },
+      "labels": {
+        "technologies": "Teknolojia:",
+        "parameters": "Vigezo:",
+        "specifications": "Ufafanuzi",
+        "applications": "Maombi",
+        "industries": "Viwanda"
+      },
+      "cta": {
+        "title": "Unahitaji Suluhisho za Uchambuzi wa Mchakato?",
+        "description": "Wataalamu wetu wa uchambuzi wa mchakato wanaweza kukusaidia kuchagua vichanganuzi sahihi kwa mahitaji yako ya ufuatiliaji na utiifu.",
+        "button": "Mtaalam wa Uchambuzi"
+      }
+    },
+    "automationControl": {
+      "title": "Mifumo ya Uendeshaji na Udhibiti",
+      "subtitle": "Suluhisho za hali ya juu za uendeshaji na udhibiti kwa usimamizi na uboreshaji wa mchakato wa viwandani",
+      "description": "Vidhibiti vya uendeshaji wa viwandani kwa udhibiti wa mchakato",
+      "features": {
+        "digitalIO": "I/O ya Dijitali",
+        "analogProcessing": "Usindikaji wa Analogi",
+        "communicationModules": "Moduli za Mawasiliano",
+        "programmingSoftware": "Programu ya Kupanga",
+        "realtimeMonitoring": "Ufuatiliaji wa Wakati Halisi",
+        "dataLogging": "Uwekaji Kumbukumbu wa Data",
+        "alarmManagement": "Usimamizi wa Kengele",
+        "remoteAccess": "Ufikiaji wa Mbali",
+        "processControl": "Udhibiti wa Mchakato",
+        "distributedArchitecture": "Usanifu Uliosambazwa",
+        "redundancy": "Utoaji",
+        "advancedControl": "Udhibiti wa Hali ya Juu",
+        "touchscreenDisplays": "Maonyesho ya Skrini ya Kugusa",
+        "graphicInterface": "Kiolesura cha Picha",
+        "dataVisualization": "Taswira ya Data",
+        "operatorControl": "Udhibiti wa Opereta"
+      },
+      "subcategories": {
+        "plcs": {
+          "title": "PLCs (Vidhibiti vya Mantiki Vinavyoweza Kupangwa)",
+          "description": "Vidhibiti vya uendeshaji wa viwandani kwa udhibiti wa mchakato"
+        },
+        "scada": {
+          "title": "Mifumo ya SCADA",
+          "description": "Usimamizi wa usimamizi na mifumo ya upataji data"
+        },
+        "dcs": {
+          "title": "DCS (Mifumo ya Udhibiti Iliyosambazwa)",
+          "description": "Mifumo ya udhibiti iliyosambazwa kwa michakato mikubwa"
+        },
+        "hmi": {
+          "title": "HMI (Kiolesura cha Mashine ya Binadamu)",
+          "description": "Viwanda vya mtumiaji kwa mifumo ya udhibiti wa viwandani"
+        },
+        "motorDrivesVfds": {
+          "title": "Hifadhi za Motor & VFDs",
+          "description": "Hifadhi za mzunguko tofauti na mifumo ya udhibiti wa motor"
+        }
+      },
+      "sections": {
+        "controlSystemSolutions": "Suluhisho za Mfumo wa Udhibiti",
+        "keyFeatures": "Sifa Muhimu:"
+      },
+      "cta": {
+        "needAutomationSolutions": "Unahitaji Suluhisho za Uendeshaji?",
+        "engineersDescription": "Wahandisi wetu wa uendeshaji wanaweza kubuni na kutekeleza mifumo kamili ya udhibiti kwa kituo chako.",
+        "contactAutomationExperts": "Wasiliana na Wataalam wa Uendeshaji",
+        "requestQuote": "Omba Nukuu"
+      }
+    },
+    "bldcCeilingFan": {
+      "title": "Feni za Dari za BLDC",
+      "subtitle": "Feni za dari za DC zisizo na brashi zenye ufanisi wa nishati na vipengele mahiri na utendaji bora",
+      "upgradeTitle": "Boresha hadi Feni za Dari za BLDC?",
+      "upgradeDescription": "Wataalamu wetu wa BLDC wanaweza kukusaidia kuchagua suluhisho za feni za dari zenye ufanisi wa nishati kwa nafasi yako.",
+      "contactExperts": "Wasiliana na Wataalam wa BLDC"
+    },
+    "bldcCoolerExhaust": {
+      "title": "Motors za Kipoezi na Kutolea Nje za BLDC",
+      "subtitle": "Motors za BLDC zinazotumia nishati kwa ajili ya kupoeza, uingizaji hewa, na matumizi ya kutolea nje"
+    },
+    "bldcSubmersible": {
+      "title": "Pampu za Submersible & Surface za BLDC",
+      "subtitle": "Pampu za BLDC zinazotumia nishati kwa ajili ya usambazaji wa maji, umwagiliaji, na matumizi ya sola"
+    },
+    "bldcTableWall": {
+      "title": "Motors za Feni ya Meza na Ukuta za BLDC",
+      "subtitle": "Motors za BLDC zinazotumia nishati kwa ajili ya feni za meza, feni za ukuta, na feni za pedestal"
+    },
+    "bldc": {
+      "title": "Bidhaa za BLDC",
+      "subtitle": "Bidhaa za motor za DC zisizo na brashi kwa ajili ya kupoeza, uingizaji hewa, na matumizi ya kusukuma maji"
+    },
+    "cables": {
+      "title": "Kebo na Waya",
+      "subtitle": "Kebo za viwandani na suluhisho za wiringi kwa ajili ya matumizi ya nguvu na udhibiti"
+    },
+    "calibration": {
+      "title": "Vifaa vya Upimaji",
+      "subtitle": "Vyombo vya upimaji sahihi na vifaa vya kupima"
+    },
+    "centrifugalPumps": {
+      "title": "Pampu za Katijaja",
+      "subtitle": "Pampu za katijaja zenye ufanisi wa hali ya juu kwa matumizi ya viwandani"
+    },
+    "circuitBreakers": {
+      "title": "Vivunja Mzunguko na Fuses",
+      "subtitle": "Vifaa vya ulinzi wa umeme kwa usalama wa mzunguko"
+    },
+    "connectors": {
+      "title": "Viunganishi na Vituo",
+      "subtitle": "Viunganishi vya umeme na suluhisho za vituo"
+    },
+    "controllers": {
+      "title": "Vidhibiti",
+      "subtitle": "Mifumo ya udhibiti wa viwandani na vidhibiti vya otomatiki"
+    },
+    "dcs": {
+      "title": "DCS (Mifumo ya Udhibiti Iliyosambazwa)",
+      "subtitle": "Mifumo ya udhibiti iliyosambazwa ya hali ya juu kwa tasnia za mchakato"
+    },
+    "diaphragmPumps": {
+      "title": "Pampu za Diaphragm",
+      "subtitle": "Pampu za usahihi za dosing na kushughulikia kemikali"
+    },
+    "electricalComponents": {
+      "title": "Vipengele vya Umeme",
+      "subtitle": "Suluhisho kamili za vipengele vya umeme kwa matumizi ya viwandani"
+    },
+    "enclosures": {
+      "title": "Vizuizi na Kabati",
+      "subtitle": "Vizuizi vya umeme na suluhisho za kabati za kudhibiti"
+    },
+    "gearPumps": {
+      "title": "Pampu za Gia",
+      "subtitle": "Pampu za gia za usahihi kwa matumizi ya majimaji na viwandani"
+    },
+    "grounding": {
+      "title": "Mifumo ya Kutuliza",
+      "subtitle": "Suluhisho za kutuliza umeme na kuweka udongo kwa usalama"
+    },
+    "heating": {
+      "title": "Vipengele vya Kupokanzwa na Vifaa",
+      "subtitle": "Suluhisho za kupokanzwa za viwandani na vifaa vya joto"
+    },
+    "hmi": {
+      "title": "HMI (Kiolesura cha Mashine ya Binadamu)",
+      "subtitle": "Viwanda vya mashine ya binadamu kwa otomatiki ya viwandani"
+    },
+    "industrialTools": {
+      "title": "Zana za Viwandani na Tackles",
+      "subtitle": "Zana nzito za viwandani na vifaa vya kuinua"
+    },
+    "instrumentation": {
+      "title": "Vipengele vya Ala",
+      "subtitle": "Usahihi wa ala na vipengele vya kupima"
+    },
+    "intrinsicallySafe": {
+      "title": "Vifaa Salama Kiasili",
+      "subtitle": "Vifaa vilivyothibitishwa kwa matumizi ya eneo hatarishi"
+    },
+    "lifting": {
+      "title": "Vifaa vya Kuinua",
+      "subtitle": "Suluhisho za kuinua viwandani na kushughulikia nyenzo"
+    },
+    "measurement": {
+      "title": "Vyombo vya Kupima",
+      "subtitle": "Vyombo vya kupimia sahihi na kupima"
+    },
+    "mechanical": {
+      "title": "Pampu za Mitambo na Vipuri",
+      "subtitle": "Pampu za mitambo na vipuri kwa matumizi ya viwandani"
+    },
+    "multimeters": {
+      "title": "Multimita",
+      "subtitle": "Multimita za dijitali na analogi kwa upimaji wa umeme"
+    },
+    "plcs": {
+      "title": "PLCs (Vidhibiti vya Mantiki Vinavyoweza Kupangwa)",
+      "subtitle": "Vidhibiti vya mantiki vinavyoweza kupangwa kwa otomatiki"
+    },
+    "powerQuality": {
+      "title": "Vichanganuzi vya Ubora wa Nguvu",
+      "subtitle": "Vyombo vya kupima na kuchambua ubora wa nguvu"
+    },
+    "powerSupplies": {
+      "title": "Vifaa vya Nguvu",
+      "subtitle": "Vitengo vya usambazaji wa umeme vya viwandani na vibadilishaji"
+    },
+    "pumpParts": {
+      "title": "Sehemu za Pampu na Vipuri",
+      "subtitle": "Sehemu za uingizwaji na vipengele vya vipuri kwa mifumo ya pampu"
+    },
+    "safetyEquipment": {
+      "title": "Vifaa vya Usalama",
+      "subtitle": "Vifaa vya kujikinga binafsi na vifaa vya usalama"
+    },
+    "safetyProtective": {
+      "title": "Vifaa vya Usalama na Kinga",
+      "subtitle": "Mifumo ya usalama wa viwandani na vifaa vya kinga",
+      "description": "Vifaa kamili vya usalama na kinga ili kuhakikisha usalama wa wafanyikazi na vifaa katika mazingira ya viwandani",
+      "sectionsTitle": "Suluhisho za Usalama",
+      "cta": {
+        "title": "Unaweka Kipaumbele Usalama katika Shughuli Zako?",
+        "description": "Wahandisi wetu wa usalama wanaweza kukagua kituo chako na kupendekeza suluhisho kamili za kinga.",
+        "contactButton": "Wasiliana na Wataalamu wa Usalama"
+      }
+    },
+    "safetyRelays": {
+      "title": "Relays za Usalama na Swichi",
+      "subtitle": "Relays za udhibiti wa usalama na mifumo ya kusimamisha dharura"
+    },
+    "scada": {
+      "title": "Mifumo ya SCADA",
+      "subtitle": "Usimamizi wa usimamizi na mifumo ya upataji data"
+    },
+    "sensors": {
+      "title": "Sensorer",
+      "subtitle": "Sensorer za viwandani kwa kipimo na udhibiti"
+    },
+    "signalConditioners": {
+      "title": "Viyoyozi vya Mawimbi",
+      "subtitle": "Vifaa vya kuchakata na kurekebisha mawimbi"
+    },
+    "solarBatteries": {
+      "title": "Betri za Sola na Hifadhi ya Nishati",
+      "subtitle": "Suluhisho za kuhifadhi nishati kwa mifumo ya nishati ya jua"
+    },
+    "solarInverters": {
+      "title": "Vigeuzi vya Sola",
+      "subtitle": "Vigeuzi vya nguvu za jua na mifumo ya gridi ya taifa"
+    },
+    "solarPanels": {
+      "title": "Paneli za Sola",
+      "subtitle": "Paneli za sola zenye ufanisi wa hali ya juu na mifumo ya photovoltaic"
+    },
+    "solarProducts": {
+      "title": "Bidhaa za Sola",
+      "subtitle": "Suluhisho kamili za nishati ya jua na vipengele"
+    },
+    "surgeProtectors": {
+      "title": "Vilinda Mawimbi",
+      "subtitle": "Vifaa na mifumo ya ulinzi wa mawimbi ya umeme"
+    },
+    "switches": {
+      "title": "Swichi",
+      "subtitle": "Swichi za viwandani na vifaa vya kudhibiti"
+    }
+  },
+  "common": {
+    "keyFeatures": "Sifa Muhimu:",
+    "needHelp": "Unahitaji Msaada?",
+    "contactExperts": "Wasiliana na Wataalam",
+    "requestQuote": "Omba Nukuu",
+    "hazardousAreaSolutions": "Suluhisho za Eneo Hatari",
+    "needEquipment": "Unahitaji Vifaa?",
+    "specialists": "wataalamu"
+  },
+  "hmi": {
+    "title": "HMI (Kiolesura cha Mashine ya Binadamu)",
+    "subtitle": "Viwanda vya mashine ya binadamu kwa udhibiti wa opereta na taswira ya mfumo",
+    "navigation": {
+      "backToAutomation": "Rudi kwa Mifumo ya Uendeshaji na Udhibiti"
+    },
+    "badges": {
+      "touchscreen": "Skrini ya Kugusa",
+      "industrialGrade": "Kiwango cha Viwanda",
+      "realTimeDisplay": "Onyesho la Wakati Halisi",
+      "multiProtocol": "Itifaki Nyingi"
+    },
+    "solutionsTitle": "Suluhisho za HMI",
+    "products": {
+      "panelMount": {
+        "name": "Maonyesho ya HMI ya Kupachika Paneli",
+        "description": "Maonyesho ya skrini ya kugusa ya viwandani kwa kiolesura cha mashine",
+        "features": [
+          "Kiolesura cha Kugusa",
+          "Kiwango cha Viwanda",
+          "Ukubwa Nyingi",
+          "Itifaki za Mawasiliano"
+        ]
+      },
+      "operatorInterface": {
+        "name": "Vituo vya Kiolesura cha Opereta",
+        "description": "Vituo vya opereta ngumu kwa mazingira magumu",
+        "features": [
+          "Kiwango cha IP65/IP67",
+          "Chuma cha pua",
+          "Kibodi ya Membrane",
+          "Onyesho Lenye Mwanga wa Nyuma"
+        ]
+      },
+      "mobile": {
+        "name": "Suluhisho za HMI za Simu",
+        "description": "Viwanda vya mashine ya binadamu visivyo na waya na vya simu",
+        "features": [
+          "Muunganisho Usio na Waya",
+          "Programu za Simu",
+          "Ufikiaji wa Mbali",
+          "Data ya Wakati Halisi"
+        ]
+      }
+    },
+    "cta": {
+      "title": "Unahitaji Suluhisho za HMI?",
+      "description": "Wataalamu wetu wa HMI wanaweza kubuni violesura vya opereta angavu kwa mifumo yako ya uendeshaji.",
+      "contactExperts": "Wasiliana na Wataalamu wa HMI"
+    }
+  },
+  "solarPanels": {
+    "monocrystalline": {
+      "description": "Paneli za sola za silikoni za monocrystalline zenye ufanisi wa hali ya juu",
+      "features": {
+        "efficiency": "Ufanisi wa 21.5%",
+        "warranty": "Udhamini wa Miaka 25",
+        "weatherResistant": "Inayostahimili Hali ya Hewa",
+        "antiReflective": "Mipako ya Kuzuia Mwangaza"
+      }
+    },
+    "polycrystalline": {
+      "description": "Suluhisho la paneli ya sola ya polycrystalline yenye gharama nafuu",
+      "features": {
+        "efficiency": "Ufanisi wa 19.2%",
+        "warranty": "Udhamini wa Miaka 20",
+        "durable": "Ujenzi Imara",
+        "installation": "Usakinishaji Rahisi"
+      }
+    },
+    "bifacial": {
+      "description": "Teknolojia ya hali ya juu ya bifacial kwa uvunaji wa nishati ya juu",
+      "features": {
+        "frontBack": "Uzalishaji wa Mbele + Nyuma",
+        "moreEnergy": "Nishati Zaidi ya 25%",
+        "glassDesign": "Muundo wa Kioo-Kioo",
+        "longLifespan": "Muda Mrefu wa Kuishi"
+      }
+    }
+  },
+  "plcProducts": {
+    "siemens": {
+      "description": "PLC iliyoshikana kwa ajili ya programu ndogo hadi za kati za otomatiki",
+      "features": {
+        "integratedIO": "I/O Iliyounganishwa",
+        "ethernet": "Mawasiliano ya Ethernet",
+        "programming": "Programu ya TIA Portal",
+        "failSafe": "Chaguo za Kuzuia Hitilafu"
+      }
+    },
+    "allenBradley": {
+      "description": "PLC ya utendaji wa juu na usalama uliojumuishwa",
+      "features": {
+        "safety": "Usalama wa GuardLogix",
+        "ethernet": "Bandari Mbili za Ethernet",
+        "software": "Programu ya Studio 5000",
+        "motion": "Udhibiti wa Mwendo"
+      }
+    },
+    "schneider": {
+      "description": "PLC ya hali ya juu kwa ajili ya michakato tata ya viwandani",
+      "features": {
+        "hotStandby": "CPU ya Hot Standby",
+        "ethernet": "Topolojia ya Pete ya Ethernet",
+        "software": "Programu ya Unity Pro",
+        "security": "Usalama wa Mtandao"
+      }
+    }
+  },
+  "features": {
+    "safetyDevices": {
+      "surgeProtectors": {
+        "title": "Vilinda Mawimbi",
+        "description": "Vifaa vya kulinda mawimbi ya umeme kwa usalama wa vifaa",
+        "features": {
+          "lightning": "Ulinzi dhidi ya Umeme",
+          "voltage": "Ulinzi dhidi ya Mawimbi ya Volteji",
+          "equipment": "Usalama wa Vifaa",
+          "power": "Ubora wa Nguvu"
+        }
+      },
+      "groundingSystems": {
+        "title": "Mifumo ya Kutuliza",
+        "description": "Mifumo ya kutuliza umeme kwa usalama",
+        "features": {
+          "electrodes": "Electrodes za Ardhi",
+          "rods": "Fimbo za Kutuliza",
+          "conductors": "Viongozi wa Kuunganisha",
+          "lightning": "Fimbo za Umeme"
+        }
+      },
+      "safetyRelays": {
+        "title": "Relays za Usalama na Swichi",
+        "description": "Vifaa vya kudhibiti usalama kwa mifumo ya kuzima dharura",
+        "features": {
+          "emergency": "Acha ya Dharura",
+          "monitoring": "Ufuatiliaji wa Usalama",
+          "failSafe": "Muundo Salama",
+          "certified": "Usalama Uliothibitishwa"
+        }
+      },
+      "intrinsicallySafe": {
+        "title": "Vifaa Salama Kiasili",
+        "description": "Vifaa visivyolipuka kwa mazingira hatarishi",
+        "features": {
+          "atex": "Imethibitishwa na ATEX",
+          "explosion": "Uthibitisho wa Mlipuko",
+          "hazardous": "Eneo Hatari",
+          "intrinsic": "Usalama wa Kiasili"
+        }
+      },
+      "badges": {
+        "surgeProtection": "Ulinzi wa Mawimbi",
+        "groundingSystems": "Mifumo ya Kutuliza",
+        "safetyRelays": "Relays za Usalama",
+        "intrinsicSafety": "Usalama wa Kiasili"
+      }
+    },
+    "common": {
+      "highTorque": "Torque ya Juu",
+      "variableSpeed": "Kasi Inayobadilika",
+      "cordlessOptions": "Chaguo Zisizo na Waya",
+      "chuckCapacity": "Uwezo wa Chuck: 13mm",
+      "multipleSizes": "Ukubwa Nyingi",
+      "safetyGuards": "Walinzi wa Usalama",
+      "antiVibration": "Kuzuia Mtetemo",
+      "powerfulMotors": "Motors Zenye Nguvu",
+      "highImpactForce": "Nguvu ya Juu ya Athari",
+      "socketCompatibility": "Upatanifu wa Soketi",
+      "forwardReverse": "Mbele/Nyuma",
+      "batteryPowered": "Inaendeshwa na Betri",
+      "efficientSwitching": "Ingizo la 85-265V AC",
+      "dcOutput": "Pato la 12V/24V DC",
+      "highEfficiency": "Ufanisi wa Juu",
+      "compactDesign": "Muundo Mdogo",
+      "dinRailMount": "Mlima wa Reli ya DIN",
+      "wideInputRange": "Kiwango Kikubwa cha Ingizo",
+      "shortCircuitProtection": "Ulinzi wa Mzunguko Mfupi",
+      "ledStatus": "Hali ya LED",
+      "batteryBackup": "Hifadhi Nakala ya Betri",
+      "surgeProtection": "Ulinzi wa Mawimbi",
+      "autoTransfer": "Uhamisho wa Kiotomatiki",
+      "lcdDisplay": "Onyesho la LCD",
+      "castIronBronze": "Chuma cha Kutupwa/Shaba",
+      "stainlessSteelSizes": "Chuma cha pua",
+      "balancedDesign": "Muundo Uliosawazishwa",
+      "singleDoubleSeals": "Muhuri Moja/Mbili",
+      "cartridgeType": "Aina ya Cartridge",
+      "highTemperature": "Halijoto ya Juu",
+      "chemicalResistant": "Inayostahimili Kemikali",
+      "rollingElement": "Kipengele cha Rolling",
+      "sleeveBearings": "Fani za Sleeve",
+      "flexibleCouplings": "Viunganishi Vinavyonyumbulika",
+      "alignmentTools": "Zana za Mpangilio",
+      "threePhase": "Vipimo vya Awamu Tatu",
+      "harmonicsAnalysis": "Uchambuzi wa Harmonics",
+      "transientCapture": "Kunasa Muda mfupi",
+      "powerLogging": "Uwekaji Kumbukumbu wa Nguvu",
+      "voltageDip": "Ugunduzi wa Kushuka kwa Volteji",
+      "flickerMeasurement": "Kipimo cha Flicker",
+      "energyAssessment": "Tathmini ya Nishati",
+      "realTimeAnalysis": "Uchambuzi wa Wakati Halisi",
+      "continuousMonitoring": "Ufuatiliaji Endelevu",
+      "eventRecording": "Kurekodi Tukio",
+      "complianceTesting": "Upimaji wa Uzingatiaji",
+      "remoteAccess": "Ufikiaji wa Mbali",
+      "selfPriming": "Kujaza Kiotomatiki",
+      "dryRunSafe": "Salama ya Kukimbia Kavu",
+      "variableFlow": "Mtiririko Unao badilika",
+      "preciseMeteringLow": "Upimaji Sahihi",
+      "lowPulsation": "Pulsation ya Chini",
+      "digitalControl": "Udhibiti wa Dijitali",
+      "easyMaintenance": "Matengenezo Rahisi",
+      "highPressure": "Shinikizo la Juu",
+      "lowFlowRates": "Viwango vya Chini vya Mtiririko",
+      "accurateDosing": "Uwekaji Sahihi",
+      "leakFreeOperation": "Uendeshaji Usio na Uvujaji"
+    },
+    "product": {
+      "safetyEquipment": {
+        "fullBodyHarness": "Harness ya Mwili Kamili",
+        "lanyards": "Lanyards",
+        "anchorPoints": "Nanga",
+        "selfRetracting": "Kujiondoa",
+        "multiGasDetectors": "Vigunduzi vya Gesi Nyingi",
+        "singleGas": "Gesi Moja",
+        "wirelessMonitoring": "Ufuatiliaji wa Wireless",
+        "dataLogging": "Uwekaji Kumbukumbu wa Data"
+      },
+      "electrical": {
+        "powerCables": "Kebo za Nguvu",
+        "controlCables": "Kebo za Udhibiti",
+        "instrumentationCables": "Kebo za Ala",
+        "communicationCables": "Kebo za Mawasiliano",
+        "terminalBlocks": "Vitalu vya Terminal",
+        "wireConnectors": "Viunganishi vya Waya",
+        "dinRailTerminals": "Terminals za Reli ya DIN",
+        "junctionBoxes": "Sanduku za Makutano",
+        "mcbs": "MCBs",
+        "mccbs": "MCCBs",
+        "rccbs": "RCCBs",
+        "industrialFuses": "Fuses za Viwandani",
+        "smps": "SMPS",
+        "dcDcConverters": "Vigeuzi vya DC-DC",
+        "upsSystems": "Mifumo ya UPS",
+        "controlPanels": "Paneli za Udhibiti",
+        "distributionBoards": "Mbao za Usambazaji",
+        "weatherproofEnclosures": "Vifungo Visivyopitisha Hali ya Hewa",
+        "heatingElements": "Vipengele vya Kupokanzwa",
+        "industrialHeaters": "Hita za Viwandani",
+        "temperatureControllers": "Vidhibiti Joto",
+        "thermalProtection": "Ulinzi wa Joto"
+      },
+      "pumps": {
+        "viscousFluids": "Maji yenye Mnato",
+        "preciseFlow": "Mtiririko Sahihi",
+        "castIronSteel": "Chuma cha Kutupwa/Chuma",
+        "gentleHandling": "Ushughulikiaji Laini",
+        "noMechanicalSeal": "Hakuna Muhuri wa Mitambo",
+        "leakFree": "Isiyo na Uvujaji"
+      },
+      "enclosures": {
+        "nema4xRating": "Ukadiriaji wa NEMA 4X",
+        "gasketSealed": "Imefungwa na Gasket",
+        "floorStanding": "Imesimama Sakafuni",
+        "wallMount": "Mlima wa Ukuta",
+        "cableManagement": "Usimamizi wa Cable",
+        "coolingOptions": "Chaguo za Kupoeza",
+        "ip65Ip67Rating": "Ukadiriaji wa IP65/IP67",
+        "explosionProof": "Uthibitisho wa Mlipuko",
+        "cableGlands": "Tezi za Cable",
+        "corrosionResistant": "Inayostahimili Kutu"
+      }
+    }
+  },
+  "locations": {
+    "delhiNcr": "Delhi NCR",
+    "rajasthan": "Rajasthan",
+    "uttarPradesh": "Uttar Pradesh",
+    "gujarat": "Gujarat",
+    "maharashtra": "Maharashtra",
+    "haryana": "Haryana",
+    "westBengal": "Bengal Magharibi"
+  },
+  "brands": {
+    "customBuilt": "Imejengwa Maalum",
+    "fluke": "Fluke, Keysight",
+    "siemens": "Siemens, Allen Bradley",
+    "abb": "ABB, Schneider",
+    "honeywell": "Honeywell, Yokogawa",
+    "wonderware": "Wonderware, iFIX",
+    "grundfos": "Grundfos, KSB",
+    "3m": "3M, MSA"
+  },
+  "items": {
+    "instrumentation-accessories": "Vifaa vya Ala",
+    "electrical-accessories": "Vifaa vya Umeme",
+    "solar-products": "Bidhaa za Sola",
+    "automation-control-systems": "Mifumo ya Uendeshaji na Udhibiti",
+    "safety-protective-devices": "Vifaa vya Usalama na Kinga",
+    "mechanical-pumps-spares": "Pampu za Mitambo na Vipuri",
+    "industrial-measuring-tools": "Zana za Viwandani na Kupimia",
+    "bldc": "Bidhaa za BLDC"
+  },
+  "tags": {
+    "industrialAutomation": "Uendeshaji wa Viwandani",
+    "plcSystems": "Mifumo ya PLC",
+    "scada": "SCADA",
+    "manufacturing": "Utengenezaji",
+    "processOptimization": "Uboreshaji wa Mchakato"
+  },
+  "gallery": {
+    "imagePlaceholder": "Mahali pa picha",
+    "actualImages": "Picha halisi za kupakiwa"
+  },
+  "labels": {
+    "productsCount": "{{count}} Bidhaa",
+    "industrialProduct": "Bidhaa ya Viwandani",
+    "products": "Bidhaa",
+    "specifications": "Ufafanuzi",
+    "applications": "Maombi",
+    "industries": "Viwanda",
+    "keyFeatures": "Sifa Muhimu",
+    "technologies": "Teknolojia:",
+    "parameters": "Vigezo:"
+  },
+  "badges": {
+    "ppe": "PPE",
+    "fallProtection": "Ulinzi wa Kuanguka",
+    "gasDetection": "Ugunduzi wa Gesi",
+    "oshaCompliant": "Inatii OSHA",
+    "signalIntelligence": "Akili ya Mawimbi",
+    "vectorAnalysis": "Uchambuzi wa Vector",
+    "rfAnalysis": "Uchambuzi wa RF",
+    "emiTesting": "Upimaji wa EMI",
+    "monocrystalline": "Monocrystalline",
+    "polycrystalline": "Polycrystalline",
+    "bifacial": "Bifacial",
+    "highEfficiency": "Ufanisi wa Juu",
+    "stringInverters": "Vigeuzi vya Mfuatano",
+    "centralInverters": "Vigeuzi vya Kati",
+    "hybridSystems": "Mifumo Mseto",
+    "gridTie": "Ufungamanishi wa Gridi",
+    "highPressure": "Shinikizo la Juu",
+    "viscousFluids": "Maji yenye Mnato",
+    "preciseFlow": "Mtiririko Sahihi",
+    "selfPriming": "Kujaza Kiotomatiki",
+    "smartMonitoring": "Ufuatiliaji Mahiri",
+    "batteryProtection": "Ulinzi wa Betri",
+    "weatherproof": "Haiathiriwi na Hali ya Hewa",
+    "modularDesign": "Muundo wa Msimu",
+    "solarCompatible": "Inaoana na Sola",
+    "corrosionResistant": "Inayostahimili Kutu",
+    "smartControl": "Udhibiti Mahiri",
+    "lithiumIon": "Lithium-Ion",
+    "leadAcid": "Lead-Acid",
+    "energyStorageSystems": "Mifumo ya Uhifadhi wa Nishati",
+    "gridBackup": "Hifadhi Nakala ya Gridi",
+    "chemicalResistant": "Inayostahimili Kemikali",
+    "preciseMetering": "Upimaji Sahihi",
+    "dryRunSafe": "Salama ya Kukimbia Kavu",
+    "processControl": "Udhibiti wa Mchakato",
+    "safetySystems": "Mifumo ya Usalama",
+    "assetManagement": "Usimamizi wa Mali",
+    "advancedAnalytics": "Uchanganuzi wa Juu",
+    "energyEfficient": "Ufanisi wa Nishati",
+    "silentOperation": "Uendeshaji Kimya",
+    "longLife": "Maisha Marefu",
+    "realtimeMonitoring": "Ufuatiliaji wa Wakati Halisi",
+    "dataLogging": "Uwekaji Kumbukumbu wa Data",
+    "alarmManagement": "Usimamizi wa Kengele",
+    "remoteAccess": "Ufikiaji wa Mbali",
+    "durableConstruction": "Ujenzi Imara",
+    "ergonomicDesign": "Muundo wa Ergonomic",
+    "professionalGrade": "Daraja la Kitaalamu",
+    "groundRods": "Fimbo za Ardhi",
+    "conductors": "Viongozi",
+    "safetyGrounding": "Kutuliza Usalama"
+  },
+  "productDetails": {
+    "instrumentation": {
+      "fullDescription": "Aina kamili ya vipengele vya ala za usahihi kwa ajili ya ufuatiliaji wa viwandani na matumizi ya udhibiti.",
+      "specifications": {
+        "highAccuracy": "Usahihi wa juu: ±0.1% hadi ±0.5%",
+        "operatingTemperature": "Halijoto ya uendeshaji: -40°C hadi +85°C",
+        "protectionRating": "Ukadiriaji wa ulinzi wa IP65/IP67",
+        "outputTypes": "Matokeo ya 4-20mA, 0-10V, HART, Profibus",
+        "explosionProof": "Toleo zisizo na mlipuko zinapatikana"
+      },
+      "applications": {
+        "processControl": "Udhibiti wa Mchakato",
+        "qualityMonitoring": "Ufuatiliaji wa Ubora",
+        "safetySystems": "Mifumo ya Usalama",
+        "environmentalMonitoring": "Ufuatiliaji wa Mazingira"
+      },
+      "features": {
+        "smartDiagnostics": "Utambuzi Mahiri",
+        "digitalCommunication": "Mawasiliano ya Dijitali",
+        "easyCalibration": "Usawazishaji Rahisi",
+        "longTermStability": "Utulivu wa Muda Mrefu"
+      }
+    },
+    "electrical": {
+      "fullDescription": "Aina kamili ya vipengele vya umeme ikiwa ni pamoja na swichi, relays, contactors, na vifaa vya usambazaji wa umeme kwa ajili ya matumizi ya viwandani.",
+      "specifications": {
+        "voltageRange": "Kiwango cha volteji: 24V DC hadi 690V AC",
+        "currentRatings": "Ukadiriaji wa sasa: 1A hadi 1000A",
+        "protectionLevel": "Ulinzi wa IP54 hadi IP67",
+        "standardsCompliant": "Inatii viwango vya IEC/IS",
+        "temperatureRated": "Imekadiriwa halijoto: -25°C hadi +70°C"
+      },
+      "applications": {
+        "motorControl": "Udhibiti wa Motor",
+        "powerDistribution": "Usambazaji wa Nguvu",
+        "switchingApplications": "Matumizi ya Kubadilisha",
+        "protectionSystems": "Mifumo ya Ulinzi"
+      },
+      "features": {
+        "highReliability": "Uaminifu wa Juu",
+        "modularDesign": "Muundo wa Msimu",
+        "easyInstallation": "Usakinishaji Rahisi",
+        "maintenanceFree": "Bila Matengenezo"
+      }
+    },
+    "measurement": {
+      "fullDescription": "Mita za dijitali za hali ya juu, vichanganuzi, na vifaa vya usawazishaji kwa ajili ya kipimo sahihi na ufuatiliaji wa vigezo vya umeme na mchakato.",
+      "specifications": {
+        "accuracyClass": "Daraja la usahihi: 0.1 hadi 1.0",
+        "displayType": "Onyesho: LCD/LED ya Dijitali",
+        "communicationOptions": "Mawasiliano: RS485, Ethernet, Wireless",
+        "dataLogging": "Uwezo wa uwekaji kumbukumbu wa data",
+        "multipleParameter": "Kipimo cha vigezo vingi"
+      },
+      "applications": {
+        "powerQualityAnalysis": "Uchambuzi wa Ubora wa Nguvu",
+        "energyManagement": "Usimamizi wa Nishati",
+        "processMonitoring": "Ufuatiliaji wa Mchakato",
+        "complianceMeasurement": "Kipimo cha Uzingatiaji"
+      },
+      "features": {
+        "realTimeMonitoring": "Ufuatiliaji wa Wakati Halisi",
+        "dataAnalytics": "Uchanganuzi wa Data",
+        "alarmManagement": "Usimamizi wa Kengele",
+        "remoteAccess": "Ufikiaji wa Mbali"
+      }
+    },
+    "solar": {
+      "fullDescription": "Suluhisho kamili za nishati ya jua ikiwa ni pamoja na paneli, vigeuzi, mifumo ya ufuatiliaji, na vifaa vya ufungamanishi wa gridi kwa ajili ya uzalishaji endelevu wa nishati.",
+      "specifications": {
+        "panelEfficiency": "Ufanisi wa paneli: 19-22%",
+        "powerRange": "Kiwango cha nguvu: 300W hadi 500W kwa kila paneli",
+        "inverterEfficiency": "Ufanisi wa kigeuzi: >98%",
+        "warranty": "Udhamini wa miaka 25 kwenye paneli",
+        "gridOptions": "Suluhisho za ufungamanishi wa gridi na zisizo za gridi"
+      },
+      "applications": {
+        "rooftopSolar": "Sola ya Juu ya Paa",
+        "groundMountSystems": "Mifumo ya Mlima wa Ardhi",
+        "solarFarms": "Mashamba ya Sola",
+        "hybridSystems": "Mifumo Mseto"
+      },
+      "features": {
+        "highEfficiency": "Ufanisi wa Juu",
+        "weatherResistant": "Inayostahimili Hali ya Hewa",
+        "smartMonitoring": "Ufuatiliaji Mahiri",
+        "gridSynchronization": "Usawazishaji wa Gridi"
+      }
+    },
+    "automation": {
+      "fullDescription": "Mifumo ya hali ya juu ya uendeshaji na udhibiti ikiwa ni pamoja na PLCs, HMIs, suluhisho za SCADA, na vifaa vya mawasiliano ya viwandani.",
+      "specifications": {
+        "ioCapacity": "Uwezo wa I/O: pointi 16 hadi 2048",
+        "communicationProtocols": "Mawasiliano: Ethernet, Profibus, Modbus",
+        "programmingStandards": "Programu: Inatii IEC 61131-3",
+        "operatingTemperature": "Halijoto ya uendeshaji: 0°C hadi +60°C",
+        "redundancyOptions": "Chaguo za utoaji zinapatikana"
+      },
+      "applications": {
+        "manufacturingAutomation": "Uendeshaji wa Utengenezaji",
+        "processControl": "Udhibiti wa Mchakato",
+        "buildingManagement": "Usimamizi wa Jengo",
+        "machineControl": "Udhibiti wa Mashine"
+      },
+      "features": {
+        "flexibleProgramming": "Programu Inayobadilika",
+        "scalableArchitecture": "Usanifu Unaoweza Kuongezeka",
+        "diagnosticTools": "Zana za Utambuzi",
+        "remoteMonitoring": "Ufuatiliaji wa Mbali"
+      }
+    },
+    "safety": {
+      "fullDescription": "Vifaa kamili vya usalama na ulinzi ikiwa ni pamoja na vivunja mzunguko, relays za usalama, mifumo ya kusimamisha dharura, na vifaa vya kinga.",
+      "specifications": {
+        "breakingCapacity": "Uwezo wa kuvunja: 6kA hadi 100kA",
+        "safetyIntegrityLevel": "Kiwango cha uadilifu wa usalama: SIL 2/3",
+        "responseTime": "Muda wa majibu: <10ms",
+        "multipleProtectionFunctions": "Kazi nyingi za ulinzi",
+        "arcFaultProtection": "Ulinzi wa hitilafu ya arc unapatikana"
+      },
+      "applications": {
+        "personnelSafety": "Usalama wa Wafanyakazi",
+        "equipmentProtection": "Ulinzi wa Vifaa",
+        "fireSafety": "Usalama wa Moto",
+        "emergencySystems": "Mifumo ya Dharura"
+      },
+      "features": {
+        "failSafeOperation": "Uendeshaji Salama",
+        "selfMonitoring": "Kujifuatilia",
+        "quickResponse": "Majibu ya Haraka",
+        "easyTesting": "Upimaji Rahisi"
+      }
+    },
+    "pumps": {
+      "fullDescription": "Pampu za mitambo za ubora wa juu, vipuri, na vifaa vya matengenezo kwa ajili ya matumizi mbalimbali ya viwandani na kibiashara.",
+      "specifications": {
+        "flowRate": "Kiwango cha mtiririko: 10 LPM hadi 5000 LPM",
+        "head": "Kichwa: 10m hadi 500m",
+        "materials": "Nyenzo: Chuma cha kutupwa, SS316, Shaba",
+        "temperatureRange": "Halijoto: -20°C hadi +180°C",
+        "efficiency": "Ufanisi: hadi 85%"
+      },
+      "applications": {
+        "waterSupply": "Usambazaji wa Maji",
+        "chemicalProcessing": "Usindikaji wa Kemikali",
+        "hvacSystems": "Mifumo ya HVAC",
+        "industrialProcesses": "Michakato ya Viwandani"
+      },
+      "features": {
+        "energyEfficient": "Ufanisi wa Nishati",
+        "corrosionResistant": "Inayostahimili Kutu",
+        "lowMaintenance": "Matengenezo ya Chini",
+        "reliableOperation": "Uendeshaji wa Kuaminika"
+      }
+    },
+    "tools": {
+      "fullDescription": "Zana za viwandani za daraja la kitaalamu, vifaa, na vifaa vya matengenezo kwa ajili ya matumizi mbalimbali ya uhandisi na matengenezo.",
+      "specifications": {
+        "material": "Nyenzo: Chuma/aloi ya kiwango cha juu",
+        "precision": "Usahihi: usahihi wa ±0.1mm",
+        "operatingRange": "Kiwango cha uendeshaji: Ukubwa mbalimbali",
+        "ergonomicDesign": "Muundo wa ergonomic",
+        "certifiedStandards": "Imethibitishwa kwa viwango vya kimataifa"
+      },
+      "applications": {
+        "maintenanceWork": "Kazi ya Matengenezo",
+        "installation": "Usakinishaji",
+        "calibration": "Usawazishaji",
+        "testingCommissioning": "Upimaji na Uagizaji"
+      },
+      "features": {
+        "durableConstruction": "Ujenzi Imara",
+        "ergonomicDesign": "Muundo wa Ergonomic",
+        "precisionEngineering": "Uhandisi Sahihi",
+        "multiPurposeUse": "Matumizi Mengi"
+      }
+    }
+  },
+  "sensors": {
+    "omronPnpProximity": {
+      "title": "OMRON E2E-X5ME1 Kitambuzi cha Ukaribu cha PNP",
+      "description": "Kitambuzi cha ukaribu cha inductive cha PNP chenye utendaji wa juu na nyumba ya M18 na masafa marefu ya kuhisi",
+      "features": [
+        "Pato la PNP (NO)",
+        "Uzi wa M18 x 1",
+        "Umbali wa Kuhisi wa 5mm",
+        "Ulinzi wa IP67",
+        "Kiashiria cha Uendeshaji cha LED"
+      ]
+    },
+    "pepperlFuchsPnp": {
+      "title": "Pepperl+Fuchs NBB5-18GM60-E2 Kitambuzi cha PNP",
+      "description": "Kitambuzi cha ukaribu cha inductive imara chenye uoanifu ulioimarishwa wa sumakuumeme",
+      "features": [
+        "Pato la PNP (NO)",
+        "Nyumba ya M18",
+        "Umbali wa Kuhisi wa 5mm",
+        "EMC Iliyoimarishwa",
+        "Kebo ya PTFE"
+      ]
+    },
+    "sickNpnProximity": {
+      "title": "SICK IM12-04BNS-ZW1 Kitambuzi cha Ukaribu cha NPN",
+      "description": "Kitambuzi cha ukaribu cha inductive cha M12 kilicho kompakt na pato la NPN na masafa ya juu ya ubadilishaji",
+      "features": [
+        "Pato la NPN (NO)",
+        "Uzi wa M12 x 1",
+        "Umbali wa Kuhisi wa 4mm",
+        "Masafa ya Juu ya Ubadilishaji",
+        "Uwekaji Bapa"
+      ]
+    },
+    "turckNpnProximity": {
+      "title": "Turck BI5-G18-AN6X Kitambuzi cha Ukaribu cha NPN",
+      "description": "Kitambuzi cha ukaribu cha inductive cha kuaminika chenye uthabiti bora wa halijoto",
+      "features": [
+        "Pato la NPN (NO)",
+        "Nyumba ya M18",
+        "Umbali wa Kuhisi wa 5mm",
+        "Halijoto Imara",
+        "Ulinzi wa Mzunguko Mfupi"
+      ]
+    },
+    "wikaPt100Rtd": {
+      "title": "WIKA TR10 PT100 Kitambuzi cha Halijoto cha RTD",
+      "description": "Kitambua halijoto cha upinzani sahihi chenye elementi ya PT100 kwa kipimo sahihi cha halijoto",
+      "features": [
+        "Elementi ya PT100",
+        "Usahihi wa Daraja A",
+        "Usanidi wa Waya 3",
+        "Kichunguzi cha Chuma cha Pua",
+        "Kiwango cha Halijoto: -200°C hadi +600°C"
+      ]
+    },
+    "rosemountPt500Rtd": {
+      "title": "Rosemount 78S PT500 Kitambuzi cha Halijoto cha RTD",
+      "description": "Kitambuzi cha RTD cha PT500 cha usahihi wa juu kwa matumizi muhimu ya ufuatiliaji wa halijoto",
+      "features": [
+        "Elementi ya PT500",
+        "Usahihi wa Juu",
+        "Usanidi wa Waya 4",
+        "Waya Duplex",
+        "Kiwango cha Halijoto: -200°C hadi +850°C"
+      ]
+    },
+    "omegaPt1000Rtd": {
+      "title": "OMEGA PT1000 Kitambuzi cha Halijoto cha RTD",
+      "description": "Kitambua halijoto cha upinzani cha PT1000 kwa matumizi ya viwandani",
+      "features": [
+        "Elementi ya PT1000",
+        "Azimio la Juu",
+        "Usanidi wa Waya 3",
+        "Ujenzi wa 316SS",
+        "Kiwango cha Halijoto: -200°C hadi +600°C"
+      ]
+    },
+    "tcLtdTypeK": {
+      "title": "TC Ltd Thermocouple ya Aina ya K",
+      "description": "Thermocouple ya Aina ya K ya matumizi ya jumla kwa matumizi mbalimbali ya halijoto",
+      "features": [
+        "Aina ya K (Chromel-Alumel)",
+        "Kiwango Kipana cha Halijoto",
+        "Majibu ya Haraka",
+        "Imewekwa Madini",
+        "Kiwango cha Halijoto: -270°C hadi +1260°C"
+      ]
+    },
+    "omegaTypeJ": {
+      "title": "OMEGA Thermocouple ya Aina ya J",
+      "description": "Thermocouple ya Iron-Constantan inafaa kwa angahewa tulivu na inayopunguza",
+      "features": [
+        "Aina ya J (Iron-Constantan)",
+        "Usawa Mzuri",
+        "Sifa za Sumaku",
+        "Gharama Nafuu",
+        "Kiwango cha Halijoto: -210°C hadi +760°C"
+      ]
+    },
+    "wikaTypeT": {
+      "title": "WIKA Thermocouple ya Aina ya T",
+      "description": "Thermocouple ya Copper-Constantan kwa vipimo sahihi vya halijoto ya chini",
+      "features": [
+        "Aina ya T (Copper-Constantan)",
+        "Usahihi wa Juu",
+        "Imara katika Halijoto za Chini",
+        "Uwezo Mzuri wa Kurudia",
+        "Kiwango cha Halijoto: -270°C hadi +400°C"
+      ]
+    },
+    "omegaTypeS": {
+      "title": "OMEGA Thermocouple ya Aina ya S",
+      "description": "Thermocouple ya Platinum-Rhodium kwa halijoto ya juu na mazingira ya oxidizing",
+      "features": [
+        "Aina ya S (Pt-10%Rh)",
+        "Uwezo wa Halijoto ya Juu",
+        "Inayostahimili Oxidation",
+        "Usahihi wa Juu",
+        "Kiwango cha Halijoto: -50°C hadi +1768°C"
+      ]
+    },
+    "endressHauserPh": {
+      "title": "Endress+Hauser Orbisint CPS11D Kitambuzi cha pH",
+      "description": "Kitambuzi cha pH cha dijitali chenye uchunguzi wa hali ya juu kwa matumizi ya mchakato",
+      "features": [
+        "Teknolojia ya Dijitali ya ISFET",
+        "Uwezo wa Kujichunguza",
+        "Uthabiti wa Muda Mrefu",
+        "Muundo Unaoweza Kuteketezwa",
+        "Kiwango cha pH: 0-14"
+      ]
+    },
+    "hachPhdSc": {
+      "title": "Hach PHD sc Kitambuzi cha pH cha Dijitali",
+      "description": "Kitambuzi cha pH cha dijitali chenye akili chenye uchunguzi wa utabiri",
+      "features": [
+        "Teknolojia ya Dijitali ya sc",
+        "Uchunguzi wa Utabiri",
+        "Urekebishaji Kiotomatiki",
+        "Kiunganishi cha Mchakato",
+        "Kiwango cha pH: 0-14"
+      ]
+    },
+    "balluffPnpProximity": {
+      "title": "Balluff BES 516-370-E4-C-PU-03 Kitambuzi cha PNP",
+      "description": "Kitambuzi cha ukaribu cha inductive cha PNP chenye utendaji wa juu chenye uwezo ulioimarishwa wa ubadilishaji",
+      "features": [
+        "Pato la PNP (NO/NC)",
+        "Uzi wa M18 x 1",
+        "Umbali wa Kuhisi wa 4mm",
+        "Ulinzi wa IP67",
+        "Halijoto Imara"
+      ]
+    },
+    "ifmNpnProximity": {
+      "title": "IFM IG5854 Kitambuzi cha Ukaribu cha Inductive cha NPN",
+      "description": "Kitambuzi cha ukaribu cha NPN imara chenye ulinzi bora wa mazingira",
+      "features": [
+        "Pato la NPN (NO)",
+        "Nyumba ya M18",
+        "Umbali wa Kuhisi wa 8mm",
+        "Ulinzi wa IP68/IP69K",
+        "Pato la Sasa la Juu"
+      ]
+    },
+    "telemechaniquePnpProximity": {
+      "title": "Telemecanique XS618B1PAM12 Kitambuzi cha PNP",
+      "description": "Kitambuzi cha ukaribu cha Schneider Electric cha kuaminika kwa uendeshaji wa viwandani",
+      "features": [
+        "Pato la PNP (NO)",
+        "Uzi wa M18 x 1",
+        "Umbali wa Kuhisi wa 8mm",
+        "Ulinzi wa IP67",
+        "Udhibitisho Nyingi"
+      ]
+    },
+    "jumoPt100Rtd": {
+      "title": "JUMO 902820/10 Kitambuzi cha RTD cha PT100",
+      "description": "Kitambuzi sahihi cha halijoto cha RTD cha PT100 kwa matumizi ya viwandani",
+      "features": [
+        "Elementi ya PT100",
+        "Usahihi wa Daraja A",
+        "Usanidi wa Waya 3",
+        "Chuma cha Pua cha 316L",
+        "Muda wa Majibu ya Haraka"
+      ]
+    },
+    "herausPt1000Rtd": {
+      "title": "Heraeus M222 Kitambuzi cha RTD cha PT1000",
+      "description": "Kitambua halijoto cha upinzani cha PT1000 cha usahihi wa juu",
+      "features": [
+        "Elementi ya PT1000",
+        "Usahihi wa Daraja A",
+        "Usanidi wa Waya 2",
+        "Kichunguzi cha 316SS",
+        "Ulinzi wa IP68"
+      ]
+    },
+    "watlowTypeK": {
+      "title": "Watlow 630A Thermocouple ya Aina ya K",
+      "description": "Thermocouple ya Aina ya K ya matumizi ya jumla kwa kipimo cha halijoto ya viwandani",
+      "features": [
+        "Aina ya K (Chromel-Alumel)",
+        "Majibu ya Haraka",
+        "Aina Nyingi za Ulinzi",
+        "Mfuniko wa 316SS",
+        "Kiwango Kipana cha Halijoto"
+      ]
+    },
+    "yokogawaPh": {
+      "title": "Yokogawa PH450G Kitambuzi cha pH",
+      "description": "Kitambuzi cha pH cha viwandani chenye teknolojia ya elektroni ya kioo",
+      "features": [
+        "Elektroni ya Kioo",
+        "Makutano Maradufu",
+        "Kiwango Kipana cha pH",
+        "Usahihi wa Juu",
+        "Inayostahimili Shinikizo"
+      ]
+    }
+  },
+  "transmitters": {
+    "hbmPw15aLoadCell": {
+      "title": "HBM PW15A Seli ya Kupima Uzito",
+      "description": "Seli ya kupima uzito kwa nguvu na matumizi ya kupima uzito",
+      "features": [
+        "Ujenzi wa Aloi ya Chuma",
+        "Usahihi wa Juu",
+        "Ulinzi wa IP67",
+        "Inayostahimili Uchovu",
+        "Uwezo: 0.5-200 kN"
+      ]
+    },
+    "mettlerToledoSlb215": {
+      "title": "Mettler Toledo SLB215 Seli ya Kupima Uzito",
+      "description": "Seli ya kupima uzito ya chuma cha pua kwa mazingira magumu ya viwandani",
+      "features": [
+        "Ujenzi wa Chuma cha Pua",
+        "Iliyofungwa Hermetically",
+        "Imeidhinishwa na OIML R60",
+        "Uimara wa Juu",
+        "Uwezo: 7.5-600 kg"
+      ]
+    },
+    "rosemount3051s": {
+      "title": "Rosemount 3051S Kisambazaji Shinikizo",
+      "description": "Kisambazaji shinikizo cha hali ya juu chenye teknolojia iliyothibitishwa ya kitambuzi",
+      "features": [
+        "Teknolojia ya Coplanar",
+        "Itifaki ya HART",
+        "Uwezo wa Masafa 400:1",
+        "Uthabiti wa Miaka 5",
+        "Kiwango cha Shinikizo: 0-15,000 psi"
+      ]
+    },
+    "endressHauserCerabar": {
+      "title": "Endress+Hauser Cerabar PMC21 Kisambazaji Shinikizo",
+      "description": "Kisambazaji shinikizo cha kauri kwa hali ngumu za mchakato",
+      "features": [
+        "Kitambuzi cha Kauri",
+        "Mawasiliano ya HART",
+        "Ulinzi wa Shinikizo Kupita Kiasi",
+        "Usahihi wa Juu",
+        "Kiwango cha Shinikizo: 0-400 bar"
+      ]
+    },
+    "rosemount248": {
+      "title": "Rosemount 248 Kisambazaji Halijoto",
+      "description": "Kisambazaji halijoto cha ulimwengu kwa ingizo za RTD na thermocouple",
+      "features": [
+        "Ingizo la Ulimwengu",
+        "Itifaki ya HART",
+        "Hifadhi Nakala ya Kitambuzi",
+        "Uchunguzi wa Hali ya Juu",
+        "Kiwango cha Halijoto: -200°C hadi +1820°C"
+      ]
+    },
+    "wikaT32": {
+      "title": "WIKA T-32 Kisambazaji Halijoto",
+      "description": "Kisambazaji halijoto kinachoweza kupangwa chenye ingizo la ulimwengu",
+      "features": [
+        "Ingizo la Ulimwengu",
+        "Pato la 4-20mA",
+        "Usanidi Rahisi",
+        "Kutengwa kwa Galvanic",
+        "Kiwango cha Halijoto: -200°C hadi +1600°C"
+      ]
+    },
+    "endressHauserPromag": {
+      "title": "Endress+Hauser Promag 50W Mita ya Mtiririko",
+      "description": "Mita ya mtiririko ya sumakuumeme kwa vimiminika vinavyopitisha umeme",
+      "features": [
+        "Teknolojia ya Sumakuumeme",
+        "Hakuna Sehemu Zinazohamishika",
+        "Kipimo cha Pande Mbili",
+        "Kiwango Kipana cha Upitishaji Umeme",
+        "Kiwango cha Mtiririko: 0.01-15 m/s"
+      ]
+    },
+    "rosemount8732e": {
+      "title": "Rosemount 8732E Mita ya Mtiririko ya Sumaku",
+      "description": "Mita ya mtiririko ya sumaku yenye utendaji wa juu yenye uchunguzi wa hali ya juu",
+      "features": [
+        "Teknolojia ya Mtiririko wa Sumaku",
+        "Uthibitishaji wa Mita Mahiri",
+        "Mawasiliano ya HART",
+        "Nyumba ya Vyumba Viwili",
+        "Kiwango cha Mtiririko: 0.03-15 m/s"
+      ]
+    },
+    "rosemount5408": {
+      "title": "Rosemount 5408 Kisambazaji Kiwango",
+      "description": "Kisambazaji kiwango cha rada kisichogusa kwa matumizi magumu",
+      "features": [
+        "Teknolojia ya Rada ya FMCW",
+        "Masafa ya 80 GHz",
+        "Usindikaji wa Ishara wa Hali ya Juu",
+        "Mawasiliano ya HART",
+        "Masafa: 30m (100 ft)"
+      ]
+    },
+    "endressHauserFmr20": {
+      "title": "Endress+Hauser FMR20 Kisambazaji Kiwango cha Rada",
+      "description": "Kisambazaji kiwango cha rada kilicho kompakt kwa kipimo cha msingi cha kiwango",
+      "features": [
+        "Rada ya 26 GHz",
+        "Muundo Kompakt",
+        "Usanidi Rahisi",
+        "Itifaki ya HART",
+        "Masafa: 5m (16 ft)"
+      ]
+    },
+    "endressHauserCm42": {
+      "title": "Endress+Hauser CM42 Kisambazaji Upitishaji Umeme",
+      "description": "Kisambazaji cha msimu kwa kipimo cha upitishaji umeme na mkusanyiko",
+      "features": [
+        "Muundo wa Msimu",
+        "Vigezo Vingi",
+        "Uchunguzi wa Hali ya Juu",
+        "Mawasiliano ya HART",
+        "Kiwango cha Upitishaji Umeme: 0.05 µS/cm hadi 2 S/cm"
+      ]
+    },
+    "rosemountWireless1420": {
+      "title": "Lango la Rosemount Wireless 1420",
+      "description": "Lango lisilo na waya kwa mitandao ya viwandani isiyo na waya",
+      "features": [
+        "Teknolojia ya Wireless HART",
+        "Mtandao Unaojipanga Wenyewe",
+        "Masafa Yaliyopanuliwa",
+        "Usimbaji Fiche wa Usalama",
+        "Hadi Vifaa 100 vya Eneo"
+      ]
+    },
+    "flintecPc2LoadCell": {
+      "title": "Flintec PC2 Seli ya Kupima Uzito ya Kubana",
+      "description": "Seli ya kupima uzito ya kubana ya usahihi wa juu kwa matumizi ya kupima uzito mzito",
+      "features": [
+        "Ujenzi wa Chuma cha Zana",
+        "Daraja la Usahihi la C3",
+        "Ulinzi wa IP67",
+        "Kiwango Kipana cha Uwezo",
+        "Imeidhinishwa na OIML R60"
+      ]
+    },
+    "honeywellSt3000": {
+      "title": "Honeywell ST3000 Kisambazaji Shinikizo Mahiri",
+      "description": "Kisambazaji shinikizo mahiri cha hali ya juu chenye uthabiti na usahihi bora",
+      "features": [
+        "Usahihi wa Juu ±0.075%",
+        "Uthabiti wa Miaka 5",
+        "Mawasiliano ya HART",
+        "Imethibitishwa na SIL2",
+        "Kiwango Kipana cha Shinikizo"
+      ]
+    },
+    "abb266Pressure": {
+      "title": "ABB 266 Kisambazaji Shinikizo",
+      "description": "Kisambazaji shinikizo cha utendaji wa juu cha shinikizo kabisa na kupima",
+      "features": [
+        "Usahihi wa ±0.055%",
+        "Uthabiti wa Miaka 10",
+        "Itifaki Nyingi",
+        "Imethibitishwa na SIL2/3",
+        "Muundo Imara"
+      ]
+    },
+    "siemensSitrans": {
+      "title": "Siemens SITRANS P320/420 Kisambazaji Shinikizo",
+      "description": "Kisambazaji shinikizo mahiri chenye mawasiliano ya dijitali ya hali ya juu",
+      "features": [
+        "Usahihi wa ±0.075%",
+        "HART & PROFIBUS PA",
+        "Imethibitishwa na SIL2",
+        "Kiwango Kipana cha Uendeshaji",
+        "Usanidi Rahisi"
+      ]
+    },
+    "yokogawaEja": {
+      "title": "Yokogawa EJA110A Kisambazaji Shinikizo cha DPharp",
+      "description": "Kisambazaji shinikizo cha usahihi wa juu chenye teknolojia ya kitambuzi cha DPharp",
+      "features": [
+        "Teknolojia ya DPharp",
+        "Usahihi wa ±0.055%",
+        "Uthabiti wa Miaka 10",
+        "Itifaki Nyingi",
+        "Imethibitishwa na SIL2/3"
+      ]
+    },
+    "krohneOptiflux": {
+      "title": "KROHNE OPTIFLUX 4300 Mita ya Mtiririko ya Sumakuumeme",
+      "description": "Mita ya mtiririko ya sumakuumeme yenye utendaji wa juu kwa vimiminika vinavyopitisha umeme",
+      "features": [
+        "Teknolojia ya Sumakuumeme",
+        "Usahihi wa ±0.5%",
+        "Itifaki Nyingi",
+        "Imethibitishwa na SIL2",
+        "Kiwango Kipana cha Mtiririko"
+      ]
+    },
+    "vegaVegapuls": {
+      "title": "VEGA VEGAPULS 64 Kisambazaji Kiwango cha Rada",
+      "description": "Kisambazaji kiwango cha rada cha 80 GHz cha hali ya juu kwa kipimo sahihi cha kiwango",
+      "features": [
+        "Teknolojia ya 80 GHz",
+        "Usahihi wa ±2 mm",
+        "Masafa ya 30m",
+        "Pembe ya Miale ya 3°",
+        "Imethibitishwa na SIL2"
+      ]
+    }
+  },
+  "groups": {
+    "rccb-circuit-breakers": {
+      "title": "Vivunja Mzunguko vya RCCB",
+      "description": "Vivunja Mzunguko vya Sasa Vilivyosalia (RCCB) kwa ulinzi wa uvujaji wa dunia. Vifaa muhimu vya usalama vinavyolinda dhidi ya mshtuko wa umeme na hatari za moto kwa kugundua usawa wa sasa."
+    },
+    "acb-circuit-breakers": {
+      "title": "Vivunja Mzunguko vya ACB",
+      "description": "Vivunja Mzunguko vya Hewa (ACB) kwa usambazaji wa nguvu za volti ya chini. Vivunja mzunguko vya uwezo wa juu na vipengele vya ulinzi vya hali ya juu kwa mifumo ya umeme ya viwandani na biashara."
+    },
+    "vcb-circuit-breakers": {
+      "title": "Vivunja Mzunguko vya VCB",
+      "description": "Vivunja Mzunguko vya Utupu (VCB) kwa matumizi ya volti ya kati. Teknolojia bora ya kuzima arc inayotoa ubadilishaji na ulinzi wa kuaminika katika vituo vidogo vya umeme."
+    }
+  },
+  "specs": {
+    "voltage": "Volti",
+    "current": "Sasa",
+    "manufacturer": "Mtengenezaji",
+    "model": "Mfano",
+    "type": "Aina",
+    "sensingDistance": "Umbali wa Kuhisi",
+    "outputType": "Aina ya Pato",
+    "housing": "Nyumba",
+    "protection": "Ukadiriaji wa Ulinzi",
+    "operatingVoltage": "Volti ya Uendeshaji",
+    "outputCurrent": "Sasa ya Pato",
+    "operatingTemperature": "Halijoto ya Uendeshaji",
+    "accuracy": "Usahihi",
+    "element": "Elementi",
+    "configuration": "Usanidi",
+    "temperatureRange": "Kiwango cha Halijoto",
+    "thermocoupleType": "Aina ya Thermocouple",
+    "phRange": "Kiwango cha pH",
+    "capacity": "Uwezo",
+    "material": "Nyenzo",
+    "pressureRange": "Kiwango cha Shinikizo",
+    "communication": "Mawasiliano",
+    "flowRange": "Kiwango cha Mtiririko",
+    "technology": "Teknolojia",
+    "range": "Masafa",
+    "frequency": "Masafa",
+    "conductivityRange": "Kiwango cha Upitishaji Umeme",
+    "poles": "Nguzo",
+    "ratedVoltage": "Volti Iliyokadiriwa",
+    "ratedCurrent": "Sasa Iliyokadiriwa",
+    "residualCurrent": "Sasa Iliyosalia",
+    "rcType": "Aina ya RC",
+    "breakingCapacity": "Uwezo wa Kuvunja",
+    "tripUnit": "Kitengo cha Safari",
+    "operatingMechanism": "Utaratibu wa Uendeshaji",
+    "standard": "Kiwango",
+    "mountingType": "Aina ya Kupachika",
+    "interruptionTechnology": "Teknolojia ya Kukatiza",
+    "electricalLife": "Maisha ya Umeme",
+    "mechanicalLife": "Maisha ya Mitambo",
+    "installation": "Usakinishaji"
+  },
+  "productGroups": {
+    "pnpNpnSensors": {
+      "title": "Sensorer za PNP/NPN",
+      "description": "Sensorer za ukaribu za viwandani ikiwa ni pamoja na aina za PNP na NPN kwa matumizi ya otomatiki. Sensorer hizi hutoa utambuzi wa kuaminika wa vitu vya metali bila kugusa kimwili, zikiwa na ujenzi thabiti, masafa ya juu ya ubadilishaji, uwezo bora wa kurudia, na upinzani dhidi ya kuingiliwa kwa sumakuumeme kwa mazingira magumu ya viwandani."
+    },
+    "rtdThermocouplesSensors": {
+      "title": "Sensorer za RTD/Thermocouples",
+      "description": "Sensorer za halijoto ikiwa ni pamoja na sensorer za Kitambua Halijoto cha Upinzani (RTD) na thermocouples za viwandani kwa kipimo sahihi cha halijoto katika michakato ya viwandani. Sensorer za RTD zinapatikana katika usanidi wa PT100, PT500, na PT1000, na thermocouples katika aina za J, K, T, E, R, S, na N. Zimeundwa kwa ajili ya kipimo cha usahihi na matumizi ya halijoto ya juu yenye usahihi bora, uthabiti, na uimara katika mazingira magumu ya viwandani."
+    },
+    "loadCell": {
+      "title": "Sensorer za Seli ya Kupima Uzito",
+      "description": "Sensorer za seli ya kupima uzito kwa nguvu na matumizi ya kupima uzito. Inapatikana katika usanidi wa kubana, mvutano, na ulimwengu wote na usahihi wa juu na uthabiti bora wa muda mrefu kwa mifumo ya kupima uzito ya viwandani."
+    },
+    "phSensors": {
+      "title": "Sensorer za pH",
+      "description": "Sensorer za pH za viwandani kwa ufuatiliaji wa ubora wa maji na matumizi ya udhibiti wa mchakato. Chaguzi za teknolojia ya elektrodi ya kioo na ISFET yenye fidia ya halijoto otomatiki na uwezo wa mawasiliano ya dijitali ya HART."
+    },
+    "dpTypeTransmitter": {
+      "title": "Visambazaji vya Shinikizo Tofauti",
+      "description": "Visambazaji vya shinikizo tofauti vya usahihi wa juu kwa mtiririko, kiwango, na matumizi ya kupima shinikizo. Ina mawasiliano ya HART, fidia ya dijitali, na ujenzi thabiti kwa mazingira magumu ya viwandani."
+    },
+    "pTypeTransmitter": {
+      "title": "Visambazaji vya Shinikizo",
+      "description": "Visambazaji vya shinikizo vya viwandani kwa kipimo kamili na cha shinikizo la kupima. Vikiwa na teknolojia ya juu ya sensor, uthabiti bora, na uwezo kamili wa uchunguzi kwa matumizi ya otomatiki ya mchakato."
+    },
+    "rsTypeTransmitter": {
+      "title": "Visambazaji vya Muhuri wa Mbali",
+      "description": "Visambazaji vya shinikizo vya muhuri wa mbali kwa matumizi ya vyombo vya habari vya halijoto ya juu, babuzi, au viscous. Mifumo iliyojaa kapilari hutoa kipimo salama na sahihi cha shinikizo katika hali ngumu za mchakato."
+    },
+    "massFlowMeter": {
+      "title": "Mita za Mtiririko wa Misa",
+      "description": "Mita za mtiririko wa misa ya Coriolis kwa mtiririko wa moja kwa moja wa misa na kipimo cha msongamano wa vimiminika na gesi. Kipimo sahihi sana bila kujali mali ya maji, halijoto, na tofauti za shinikizo."
+    },
+    "vortexFlowMeter": {
+      "title": "Mita za Mtiririko wa Vortex",
+      "description": "Mita za mtiririko wa vortex kwa mvuke, gesi, na matumizi ya kupima maji. Hakuna muundo wa sehemu zinazohamia huhakikisha kuaminika na fidia ya halijoto iliyojengwa na uwezo wa kipimo cha vigezo vingi."
+    },
+    "volumetricFlowMeter": {
+      "title": "Mita za Mtiririko wa Volumetric",
+      "description": "Mita za mtiririko wa volumetric za sumakuumeme, ultrasonic, na uhamishaji chanya kwa kipimo sahihi cha mtiririko wa maji na gesi. Vipengele ni pamoja na hakuna sehemu zinazohamia (sumakuumeme), usahihi wa hali ya juu, kushuka kwa shinikizo kidogo, na uthabiti bora wa muda mrefu. Ni bora kwa maji, maji taka, matumizi ya kemikali, uhamishaji wa ulinzi, na shughuli za bechi zinazohitaji kipimo cha kuaminika cha volumetric."
+    },
+    "pdFlowMeter": {
+      "title": "Mita za Mtiririko wa PD",
+      "description": "Mita za mtiririko wa uhamishaji chanya kwa kutumia gia ya mviringo, gia ya helical, diski ya nutating, na kanuni za kupima screw kwa kipimo sahihi cha mtiririko wa maji. Vipengele ni pamoja na usahihi wa kipekee, uwezo bora wa kurudia, na anuwai ya mnato mpana. Ni bora kwa uhamishaji wa ulinzi, bechi, upimaji wa mafuta, utoaji wa kemikali, na matumizi ya mnato wa juu ambayo yanahitaji kipimo cha kuaminika cha volumetric."
+    },
+    "pressureSwitches": {
+      "title": "Swichi za Shinikizo",
+      "description": "Swichi za shinikizo za viwandani kwa ufuatiliaji sahihi wa shinikizo na udhibiti katika mifumo ya otomatiki. Inapatikana kutoka kwa watengenezaji wanaoongoza kama Danfoss, Schneider Electric, WIKA, na ABB."
+    },
+    "levelSwitches": {
+      "title": "Swichi za Kiwango",
+      "description": "Swichi za kugundua kiwango cha uhakika kwa kutumia uma wa tuning, kuelea, na teknolojia za capacitive. Kutoka kwa bidhaa zinazoaminika kama Endress+Hauser, ABB, na VEGA kwa ufuatiliaji wa kuaminika wa kiwango cha kioevu na wingi."
+    },
+    "limitSwitches": {
+      "title": "Swichi za Kikomo",
+      "description": "Swichi za kuhisi msimamo mzito kwa otomatiki ya viwandani. Kutoka Omron, Schneider Electric, na Siemens yenye ulinzi wa IP67 na ujenzi thabiti wa chuma kwa uendeshaji wa kuaminika."
+    },
+    "pushButtons": {
+      "title": "Vifungo vya Kusukuma",
+      "description": "Swichi za vifungo vya kusukuma za viwandani kwa paneli za udhibiti na mashine. Inapatikana katika ukubwa wa 22mm na 30mm kutoka Schneider Electric, Eaton, ABB, na Siemens na usanidi mbalimbali wa mawasiliano na chaguzi za kuangaza."
+    },
+    "controlValves": {
+      "title": "Vali za Udhibiti",
+      "description": "Vali za udhibiti wa usahihi kwa otomatiki ya mchakato kutoka Fisher (Emerson), SAMSON, na ABB. Miundo ya globe, mpira, na rotary yenye nafasi za dijitali na uwezo wa mawasiliano ya HART."
+    },
+    "solenoidValves": {
+      "title": "Vali za Solenoid",
+      "description": "Vali zinazoendeshwa kwa umeme kwa otomatiki ya udhibiti wa maji. Mifumo ya ASCO (Emerson) na Parker Hannifin kwa hewa, maji, mvuke, na maji mbalimbali ya viwandani yenye miundo ya moja kwa moja na inayoendeshwa na rubani."
+    },
+    "onOffValves": {
+      "title": "Vali za Washa/Zima",
+      "description": "Vali za mpira na lango za washa/zima za viwandani kwa huduma ya kuaminika ya kuzima. Inaangazia uendeshaji wa robo-geuza, uendeshaji wa mwongozo au nyumatiki, ujenzi wa chuma cha pua, na kufuata viwango vya API, ANSI, na ISO. Inapatikana kutoka kwa watengenezaji wanaoongoza ikiwa ni pamoja na Emerson Fisher, Flowserve Worcester, Swagelok, na Burkert kwa kutengwa kwa mchakato, kuzima dharura, na matumizi ya udhibiti wa mtiririko."
+    },
+    "liquidAnalyzers": {
+      "title": "Vichanganuzi vya Maji",
+      "description": "Vichanganuzi kamili vya maji kwa ufuatiliaji wa ubora wa maji, udhibiti wa mchakato wa kemikali, na kufuata mazingira. Uchambuzi wa vigezo vingi na urekebishaji otomatiki na uwezo wa kumbukumbu ya data."
+    },
+    "oxygenGasAnalyzers": {
+      "title": "Vichanganuzi vya Gesi ya Oksijeni (O2)",
+      "description": "Vichanganuzi vya oksijeni vya usahihi kwa ufuatiliaji wa mchakato wa viwandani na matumizi ya usalama. Teknolojia za electrochemical, paramagnetic, na optical kutoka kwa watengenezaji wanaoongoza kama Systech, Panametrics, na Endress+Hauser."
+    },
+    "nitrogenGasAnalyzers": {
+      "title": "Vichanganuzi vya Gesi ya Nitrojeni (N2)",
+      "description": "Vichanganuzi vya gesi ya nitrojeni kwa kutumia conductivity ya joto na teknolojia za fusion ya gesi inert. Vyombo vya LECO na HORIBA kwa uchambuzi wa msingi katika metali na aloi yenye kipimo cha usahihi wa juu."
+    },
+    "hydrogenGasAnalyzers": {
+      "title": "Vichanganuzi vya Gesi ya Hidrojeni (H2)",
+      "description": "Vichanganuzi vya hidrojeni na ugunduzi wa conductivity ya joto kwa uchambuzi wa mchanganyiko wa binary na ufuatiliaji wa mchakato. Mifumo ya Nova Analytical na Endress+Hauser kwa usalama na matumizi ya udhibiti wa ubora."
+    },
+    "carbonDioxideGasAnalyzers": {
+      "title": "Vichanganuzi vya Gesi ya Kaboni Dioksidi (CO2)",
+      "description": "Vichanganuzi vya CO2 kwa kutumia teknolojia za NDIR na TDLAS kwa udhibiti wa mwako, usindikaji wa chakula, na ufuatiliaji wa mazingira. Aina kutoka ppm hadi viwango vya asilimia na kipimo cha usahihi wa juu."
+    },
+    "codAnalyzers": {
+      "title": "Vichanganuzi vya COD",
+      "description": "Vichanganuzi vya Mahitaji ya Oksijeni ya Kemikali kwa upimaji wa ubora wa maji na ufuatiliaji wa matibabu ya maji taka. Mifumo ya Hach, MANTECH, na LAR yenye uchambuzi otomatiki na uwezo wa kufuata kanuni."
+    },
+    "bodAnalyzers": {
+      "title": "Vichanganuzi vya BOD",
+      "description": "Vichanganuzi vya Mahitaji ya Oksijeni ya Biochemical kwa kipimo cha uchafuzi wa kikaboni katika sampuli za maji. Mifumo otomatiki ya MANTECH, Hach, na YSI yenye sensorer za macho za DO na udhibiti wa halijoto."
+    },
+    "standardCeilingFans": {
+      "title": "Feni za Dari za Kawaida za BLDC",
+      "description": "Feni za dari za DC zisizo na brashi zenye ufanisi wa nishati na udhibiti wa kasi tofauti na uendeshaji kimya. Zikiwa na miundo ya kisasa, uendeshaji wa udhibiti wa mbali, na akiba ya kipekee ya nishati ikilinganishwa na motors za jadi za AC."
+    },
+    "premiumCeilingFans": {
+      "title": "Feni za Dari za Premium za BLDC",
+      "description": "Feni za dari za DC zisizo na brashi za utendaji wa juu na vipengele vya juu ikiwa ni pamoja na udhibiti mahiri, taa za LED, na muundo bora wa aerodynamic. Mifumo ya Premium hutoa uimara ulioimarishwa na uendeshaji wa kimya kimya."
+    },
+    "commercialCeilingFans": {
+      "title": "Feni za Dari za Biashara za BLDC",
+      "description": "Feni za dari za DC zisizo na brashi za kazi nzito zilizoundwa kwa matumizi ya kibiashara na viwandani. Ujenzi thabiti wenye uwezo wa juu wa mtiririko wa hewa, maisha marefu ya uendeshaji, na mahitaji yaliyopunguzwa ya matengenezo."
+    },
+    "exhaustFanMotors": {
+      "title": "Motors za Feni ya Kutolea Nje za BLDC",
+      "description": "Motors za DC zisizo na brashi zenye ufanisi wa juu kwa matumizi ya feni ya kutolea nje. Iliyoundwa kwa uendeshaji unaoendelea na udhibiti bora wa kasi, viwango vya chini vya kelele, na ufanisi bora wa nishati kwa mifumo ya uingizaji hewa."
+    },
+    "coolerMotors": {
+      "title": "Motors za Kipoezi za BLDC",
+      "description": "Motors za DC zisizo na brashi zinazotumia nishati kwa matumizi ya kipoezi cha hewa. Zikiwa na udhibiti wa kasi tofauti, uendeshaji kimya, na uaminika wa kipekee kwa mifumo ya kupoeza ya ndani na kibiashara."
+    },
+    "ventilationMotors": {
+      "title": "Motors za Uingizaji Hewa za BLDC",
+      "description": "Motors za juu za DC zisizo na brashi kwa mifumo ya uingizaji hewa yenye udhibiti sahihi wa kasi na matumizi ya chini ya nguvu. Ni bora kwa matumizi ya HVAC ambayo yanahitaji uendeshaji tulivu na ufanisi wa nishati."
+    },
+    "submersiblePumps": {
+      "title": "Pampu za Submersible za BLDC",
+      "description": "Pampu za DC zisizo na brashi zinazotumia nishati kwa matumizi ya usambazaji wa maji. Zikiwa na ujenzi unaostahimili kutu, uendeshaji wa kasi tofauti, na ufanisi wa kipekee kwa uchimbaji wa maji ya kisima kirefu."
+    },
+    "surfacePumps": {
+      "title": "Pampu za Uso za BLDC",
+      "description": "Pampu za DC zisizo na brashi zenye ufanisi wa juu kwa uhamishaji wa maji na matumizi ya kuongeza shinikizo. Muundo thabiti na vipengele vya udhibiti mahiri na akiba bora ya nishati ikilinganishwa na pampu za kawaida."
+    },
+    "hybridPumps": {
+      "title": "Pampu za Mseto za BLDC",
+      "description": "Pampu za mseto za DC zisizo na brashi zinazofaa kwa matumizi ya submersible na uso. Teknolojia ya juu ya motor yenye mifumo ya udhibiti adaptive kwa utendaji bora katika hali mbalimbali za uendeshaji."
+    },
+    "tableFanMotors": {
+      "title": "Motors za Feni ya Meza za BLDC",
+      "description": "Motors thabiti za DC zisizo na brashi kwa matumizi ya feni ya meza yenye udhibiti bora wa kasi na uendeshaji wa kimya kimya. Muundo unaotumia nishati na maisha marefu ya uendeshaji na mahitaji madogo ya matengenezo."
+    },
+    "wallFanMotors": {
+      "title": "Motors za Feni ya Ukutani za BLDC",
+      "description": "Motors za DC zisizo na brashi zinazookoa nafasi kwa matumizi ya feni iliyowekwa ukutani. Zikiwa na utangamano wa udhibiti wa mbali, mipangilio mingi ya kasi, na uendeshaji unaotumia nishati kwa matumizi ya makazi na biashara."
+    },
+    "pedestalFanMotors": {
+      "title": "Motors za Feni ya Pedestal za BLDC",
+      "description": "Motors zenye nguvu za DC zisizo na brashi kwa matumizi ya feni ya pedestal yenye urefu unaoweza kubadilishwa na vipengele vya oscillation. Kutoa mtiririko bora wa hewa na uendeshaji unaotumia nishati na utendaji kimya."
+    },
+    "vfd": {
+      "title": "Hifadhi za Mzunguko Tofauti (VFD)",
+      "description": "VFD za juu kwa udhibiti sahihi wa kasi ya motor na akiba ya nishati. Vipengele ni pamoja na ulinzi uliojengwa, njia nyingi za udhibiti, na violesura vya mawasiliano kwa ushirikiano na mifumo ya otomatiki."
+    },
+    "softStarter": {
+      "title": "Vianzishi Laini",
+      "description": "Vianzishi laini vya motor kwa kuongeza kasi laini na kupunguza kasi, kupunguza msongo wa mitambo na mawimbi ya umeme. Ni bora kwa pampu, feni, conveyors, na matumizi ya compressor ambayo yanahitaji kuanza kudhibitiwa."
+    },
+    "dolStarter": {
+      "title": "Vianzishi vya DOL (Moja kwa Moja Kwenye Mstari)",
+      "description": "Vianzishi thabiti vya moja kwa moja kwenye mstari kwa udhibiti rahisi na wa kuaminika wa motor. Inajumuisha contactors, relays za kupakia kupita kiasi, na mizunguko ya udhibiti kwa kuanza kwa voltage kamili ya motors za AC."
+    },
+    "powerContactors": {
+      "title": "Contactors za Nguvu",
+      "description": "Contactors za sumakuumeme za kazi nzito kwa kubadili motors na mizigo ya upinzani. Inapatikana katika ukadiriaji mbalimbali wa sasa na mawasiliano ya usaidizi na chaguzi za kuunganisha mitambo kwa uendeshaji salama."
+    },
+    "timerRelays": {
+      "title": "Relays za Timer",
+      "description": "Relays za timer zinazoweza kupangwa kwa matumizi ya udhibiti wa kuchelewesha muda. Kazi nyingi za muda ikiwa ni pamoja na kuchelewesha, kuchelewesha, muda, na muda wa mapigo na marekebisho ya digital au analog."
+    },
+    "controlTransformers": {
+      "title": "Transfoma za Udhibiti",
+      "description": "Transfoma za udhibiti wa hatua ya chini kwa paneli na mizunguko ya udhibiti wa mashine. Inapatikana katika ukadiriaji wa 1kVA, 3kVA, na 5kVA na ulinzi wa fuse ya msingi na ya sekondari kwa ubadilishaji wa nguvu wa kuaminika."
+    },
+    "streetLights": {
+      "title": "Taa za Mitaani",
+      "description": "Taa za mitaani za LED za kiwango cha viwandani kwa barabara, maegesho na maeneo ya nje. Muundo unaotumia nishati kidogo na pato la juu la luminous, maisha marefu, na utoaji bora wa rangi kwa mwonekano na usalama ulioimarishwa."
+    },
+    "streetLightsFlameproof": {
+      "title": "Taa za Mitaani (Zisizoshika Moto)",
+      "description": "Taa za mitaani za LED zilizoidhinishwa na ATEX/IECEx kwa maeneo hatarishi ya nje. Ujenzi usio na mlipuko unaokidhi mahitaji ya Eneo la 1 na Eneo la 2 na nyumba thabiti kwa uendeshaji salama katika angahewa zinazoweza kulipuka."
+    },
+    "streetLightsWeatherproof": {
+      "title": "Taa za Mitaani (Zinazostahimili Hali ya Hewa)",
+      "description": "Taa za mitaani za LED zilizokadiriwa IP65/IP66 kwa mazingira magumu ya nje. Ujenzi unaostahimili kutu na unyevu bora na ulinzi wa vumbi kwa uendeshaji wa kuaminika katika hali zote za hewa."
+    },
+    "highBayLights": {
+      "title": "Taa za High Bay",
+      "description": "Taa za high bay za LED za pato la juu kwa maghala, viwanda na vifaa vya viwandani. Hutoa mwangaza wenye nguvu kutoka urefu wa mita 6-15 na ufanisi bora na mwangaza mdogo kwa hali bora za kufanya kazi."
+    },
+    "highBayLightsFlameproof": {
+      "title": "Taa za High Bay (Zisizoshika Moto)",
+      "description": "Taa za high bay za LED zisizoshika moto kwa maeneo hatarishi ya viwandani. Zilizoidhinishwa na ATEX/IECEx kwa matumizi ya Eneo la 1 na Eneo la 2 na eneo lisiloshika moto linalohakikisha uendeshaji salama katika angahewa za gesi zinazoweza kulipuka."
+    },
+    "highBayLightsWeatherproof": {
+      "title": "Taa za High Bay (Zinazostahimili Hali ya Hewa)",
+      "description": "Taa za high bay za LED zilizokadiriwa IP65/IP66 kwa mazingira ya viwandani yenye unyevu na vumbi. Ujenzi uliofungwa huzuia unyevu na chembe kuingia kwa utendaji wa kuaminika katika hali ngumu."
+    },
+    "vesselLights": {
+      "title": "Taa za Chombo",
+      "description": "Taa maalum za chombo za LED kwa matumizi ya baharini na tanki za viwandani. Muundo thabiti na optics ya ufanisi wa juu na ujenzi thabiti kwa mwangaza wa matanki, vyombo na nafasi zilizofungwa."
+    },
+    "vesselLightsFlameproof": {
+      "title": "Taa za Chombo (Zisizoshika Moto)",
+      "description": "Taa za chombo za LED zisizoshika moto kwa matumizi hatarishi ya tanki na chombo. Zilizoidhinishwa kwa angahewa za mlipuko za Eneo la 1/2 na nyumba isiyoshika moto inayohakikisha uendeshaji salama karibu na vimiminika na gesi zinazowaka."
+    },
+    "vesselLightsWeatherproof": {
+      "title": "Taa za Chombo (Zinazostahimili Hali ya Hewa)",
+      "description": "Taa za chombo za LED zilizokadiriwa IP66/IP67 kwa mwangaza wa tanki za nje na maeneo yenye unyevu. Ujenzi uliofungwa na vifaa vinavyostahimili kutu kwa mazingira ya baharini na usindikaji wa kemikali."
+    },
+    "floodLights": {
+      "title": "Taa za Mafuriko",
+      "description": "Taa za mafuriko za LED za nguvu ya juu kwa mwangaza wa eneo na matumizi ya usalama. Pembe pana ya boriti na mabano ya kupachika yanayoweza kubadilishwa kutoa mwangaza sare kwa viwanja vya michezo, facades za majengo na maeneo makubwa ya nje."
+    },
+    "floodLightsFlameproof": {
+      "title": "Taa za Mafuriko (Zisizoshika Moto)",
+      "description": "Taa za mafuriko za LED zisizoshika moto kwa mwangaza wa eneo hatarishi. Zilizoidhinishwa na ATEX/IECEx na ujenzi usioshika moto kwa uendeshaji salama katika Eneo la 1 na Eneo la 2 angahewa zinazoweza kulipuka."
+    },
+    "floodLightsWeatherproof": {
+      "title": "Taa za Mafuriko (Zinazostahimili Hali ya Hewa)",
+      "description": "Taa za mafuriko za LED zilizokadiriwa IP65/IP66 kwa usalama wa nje na mwangaza wa eneo. Nyumba thabiti ya alumini na glasi iliyokasirika na kuziba bora kwa uendeshaji wa kuaminika katika hali mbaya ya hewa."
+    },
+    "wellGlassLights": {
+      "title": "Taa za Glasi ya Kisima",
+      "description": "Taa za LED za glasi ya kisima za viwandani kwa dari iliyowekwa tena na ukuta. Jalada la glasi la kudumu na ujenzi unaostahimili joto hutoa mwangaza mkuu wa jumla kwa korido, maghala na nafasi za viwandani."
+    },
+    "wellGlassLightsFlameproof": {
+      "title": "Taa za Glasi ya Kisima (Zisizoshika Moto)",
+      "description": "Taa za LED za glasi ya kisima zisizoshika moto kwa maeneo hatarishi ya ndani. Ujenzi usioshika moto uliothibitishwa na ATEX/IECEx na jalada la glasi ya kisima lililoimarishwa kwa uendeshaji salama katika maeneo yaliyowekwa kama Eneo la 1 na Eneo la 2."
+    },
+    "wellGlassLightsWeatherproof": {
+      "title": "Taa za Glasi ya Kisima (Zinazostahimili Hali ya Hewa)",
+      "description": "Taa za LED za glasi ya kisima zilizokadiriwa IP65/IP66 kwa matumizi ya nje na maeneo yenye unyevu. Ujenzi uliofungwa na glasi inayostahimili athari na kuziba kwa gasket kwa utendaji wa kuaminika katika mazingira magumu."
+    },
+    "digitalMotorProtectionRelay": {
+      "title": "Relay ya Ulinzi wa Motor ya Dijitali (C&S)",
+      "description": "Relays za ulinzi wa motor zinazotokana na microprocessor na kazi kamili za ulinzi. Hufuatilia sasa, voltage, halijoto, na vigezo vya nguvu na mipangilio inayoweza kupangwa na uwezo wa mawasiliano."
+    },
+    "voltageMonitoringRelay": {
+      "title": "Relay ya Ufuatiliaji wa Voltage",
+      "description": "Relays za ufuatiliaji wa voltage ya awamu tatu kwa ulinzi dhidi ya voltage ya juu/chini, kushindwa kwa awamu, na makosa ya mlolongo wa awamu. Viwango vinavyoweza kubadilishwa na mipangilio ya kuchelewesha muda kwa ulinzi wa vifaa nyeti."
+    },
+    "currentTransformers": {
+      "title": "Transfoma za Sasa (CT)",
+      "description": "Transfoma za sasa za usahihi kwa matumizi ya kupima na ulinzi. Inapatikana katika uwiano mbalimbali na usahihi wa darasa la 0.5 na 1.0 kwa kipimo, na darasa la 5P/10P kwa mizunguko ya ulinzi."
+    },
+    "potentialTransformers": {
+      "title": "Transfoma za Uwezo (PT)",
+      "description": "Transfoma za uwezo wa usahihi wa juu kwa kipimo cha voltage na ulinzi. Inafaa kwa kupima, relaying, na instrumentation yenye linearity bora na uhamisho mdogo wa awamu."
+    },
+    "analogAmmeters": {
+      "title": "Ammeters za Analog",
+      "description": "Mita za paneli za analogi zinazohamisha coil/chuma kwa kipimo cha sasa. Inapatikana katika anuwai mbalimbali na mizani iliyohitimu wazi kwa kipimo cha sasa cha moja kwa moja au cha CT katika paneli za udhibiti."
+    },
+    "analogVoltmeters": {
+      "title": "Voltmeters za Analog",
+      "description": "Mita za paneli za volt za analogi za usahihi kwa kipimo cha voltage ya AC/DC. Ujenzi thabiti na vioo vya kupambana na parallax na anuwai nyingi za voltage kwa ufuatiliaji sahihi wa kuona."
+    },
+    "digitalAmmeters": {
+      "title": "Ammeters za Dijitali",
+      "description": "Ammeters za paneli za dijitali za LED/LCD zenye usahihi wa juu na azimio. Vipengele ni pamoja na upeo wa kiotomatiki, kushikilia kilele, na violesura vya mawasiliano vya hiari kwa mifumo ya kisasa ya udhibiti."
+    },
+    "digitalVoltmeters": {
+      "title": "Voltmeters za Dijitali",
+      "description": "Voltmeters za paneli za dijitali kwa kipimo sahihi cha voltage ya AC/DC. Maonyesho makubwa ya LED/LCD yenye kengele zinazoweza kupangwa na uwezo wa kumbukumbu ya data kwa ufuatiliaji wa mchakato."
+    },
+    "powerFactorMeters": {
+      "title": "Mita za Sababu ya Nguvu",
+      "description": "Mita za sababu ya nguvu za analogi na dijitali kwa ufuatiliaji wa nguvu tendaji. Ni muhimu kwa usimamizi wa ubora wa nguvu na dalili ya kuona ya sababu ya nguvu inayoongoza, iliyochelewa, na umoja."
+    },
+    "hrcFuses": {
+      "title": "Fuses za HRC (Uwezo wa Juu wa Kuvunja)",
+      "description": "Fuses za uwezo wa juu wa kuvunja kwa ulinzi wa mzunguko mfupi katika mifumo ya usambazaji wa nguvu. Inapatikana katika ukadiriaji mbalimbali wa sasa na ujenzi wa mwili wa kauri na mawasiliano ya fedha iliyopangwa."
+    },
+    "motorTerminalBlocks": {
+      "title": "Vitalu vya Terminal vya Motor",
+      "description": "Vitalu vya terminal vya kazi nzito vilivyoundwa kwa ajili ya miunganisho ya motor katika paneli za udhibiti. Uwezo wa juu wa sasa wenye ujenzi thabiti kwa wiring salama ya motor ya awamu tatu."
+    },
+    "earthingStrips": {
+      "title": "Vipande vya Kutuliza (Shaba/Alumini)",
+      "description": "Vipande vya kutuliza vya shaba na alumini kwa mifumo ya kutuliza umeme. Inapatikana katika ukubwa wa 25x3mm, 25x6mm, 50x6mm, na 75x10mm kwa miunganisho ya dunia ya upinzani mdogo."
+    },
+    "lightningArrestors": {
+      "title": "Vizuizi vya Umeme",
+      "description": "Vifaa vya ulinzi wa mawimbi kwa umeme na ulinzi wa mawimbi ya kubadili. Aina mbalimbali ikiwa ni pamoja na darasa la usambazaji, darasa la kituo, na vizuizi vilivyowekwa polima kwa ulinzi kamili wa overvoltage."
+    },
+    "multiFunctionMeters": {
+      "title": "Mita za Kazi Nyingi",
+      "description": "Mita za juu za vigezo vingi kupima voltage, sasa, nguvu, nishati, sababu ya nguvu, na harmonics. Zikiwa na kumbukumbu ya data, matokeo ya kengele, na mawasiliano ya Modbus kwa ufuatiliaji kamili wa nguvu."
+    },
+    "powerCables": {
+      "title": "Kebo za Nguvu",
+      "description": "Kebo za nguvu za ubora wa juu kwa mifumo ya usambazaji wa umeme. Inapatikana katika ukubwa mbalimbali wa kondakta na aina za insulation kwa matumizi ya voltage ya chini, ya kati na ya juu na mali bora ya umeme na mitambo."
+    },
+    "controlCables": {
+      "title": "Kebo za Udhibiti",
+      "description": "Kebo za udhibiti za msingi nyingi kwa matumizi ya otomatiki na ala. Zikiwa na sifa bora za umeme, ulinzi wa kuingiliwa kwa sumakuumeme, na ujenzi rahisi kwa wiring ya paneli na mifumo ya udhibiti."
+    },
+    "armouredCables": {
+      "title": "Kebo za Kivita",
+      "description": "Kebo za kivita za kazi nzito zilizo na waya wa chuma au ukanda wa chuma kwa ulinzi wa kimakanika. Bora kwa mitambo ya chini ya ardhi, mazingira ya viwandani, na maeneo yanayohitaji ulinzi dhidi ya uharibifu wa kimwili na panya."
+    },
+    "flexibleCables": {
+      "title": "Kebo Zinazonyumbulika",
+      "description": "Kebo za kunyumbulika sana zilizoundwa kwa matumizi ya harakati endelevu. Zinafaa kwa minyororo ya kebo, roboti, na vifaa vya mkononi vilivyo na radius bora ya kuinama na upinzani wa uchovu."
+    },
+    "homeApplianceCables": {
+      "title": "Kebo za Vifaa vya Nyumbani",
+      "description": "Kebo maalum kwa vifaa vya nyumbani na biashara. Ujenzi unaostahimili joto na usio na moto unaokidhi viwango vya usalama kwa friji, mashine za kuosha, oveni, na vifaa vingine vya umeme."
+    },
+    "multicoreCablesElectrical": {
+      "title": "Kebo za Msingi Nyingi (Umeme)",
+      "description": "Kebo za umeme za msingi nyingi kwa matumizi ya nguvu na udhibiti. Inapatikana katika cores 2, 3, 4, na zaidi na insulation ya PVC au XLPE kwa wiring yenye ufanisi katika mitambo ya viwandani na biashara."
+    },
+    "earthingCables": {
+      "title": "Kebo za Kutuliza",
+      "description": "Kebo za shaba za kutuliza kwa matumizi ya kutuliza na kuunganisha. Inapatikana katika ukubwa mbalimbali (6mm², 10mm², 16mm², 25mm², 35mm², 50mm²) kwa usalama wa umeme na mifumo ya ulinzi wa umeme."
+    },
+    "ethernetCables": {
+      "title": "Kebo za Ethaneti",
+      "description": "Kebo za Ethaneti za viwandani kwa mitandao ya otomatiki. Vipimo vya Cat5e, Cat6, na Cat6a vilivyo na ulinzi ulioimarishwa kwa mazingira magumu ya viwandani na usambazaji wa data wa kasi ya juu unaotegemewa."
+    },
+    "profibusCables": {
+      "title": "Kebo za Profibus",
+      "description": "Kebo za uwanja za Profibus-DP na Profibus-PA kwa otomatiki ya viwandani. Ujenzi wa jozi iliyosokotwa iliyolindwa na ulinganifu wa impedance ya tabia kwa mawasiliano ya kuaminika katika mitandao ya udhibiti wa mchakato."
+    },
+    "profinetCables": {
+      "title": "Kebo za Profineti",
+      "description": "Kebo za Ethaneti za Profineti za viwandani kwa otomatiki ya wakati halisi. Vipimo vya Cat5e na Cat6 vilivyo na ulinzi ulioimarishwa wa EMC, muundo rahisi, na ujenzi usio na halojeni kwa matumizi ya Sekta ya 4.0."
+    },
+    "shieldedPairCables1P": {
+      "title": "Kebo za Jozi Zilizolindwa (1P)",
+      "description": "Kebo za ala za jozi moja zilizolindwa kwa mawimbi ya analogi. Foil ya mtu binafsi au ulinzi uliounganishwa hutoa kinga bora ya kelele kwa 4-20mA na matumizi ya sensor ya voltage ya chini."
+    },
+    "shieldedPairCables2P": {
+      "title": "Kebo za Jozi Zilizolindwa (2P)",
+      "description": "Kebo za ala za jozi mbili zilizolindwa kwa usambazaji wa mawimbi mengi. Kila jozi hulindwa kibinafsi na skrini ya jumla kwa ulinzi wa juu wa kelele katika mifumo ya udhibiti wa mchakato."
+    },
+    "shieldedPairCables8P": {
+      "title": "Kebo za Jozi Zilizolindwa (8P)",
+      "description": "Kebo za ala za jozi nane zilizolindwa kwa matumizi ya vituo vingi. Jozi zilizolindwa kibinafsi na kitambulisho cha rangi kwa mifumo changamano ya udhibiti na ufuatiliaji."
+    },
+    "multicoreCablesInstrumentation": {
+      "title": "Kebo za Msingi Nyingi (Ala)",
+      "description": "Kebo za ala za msingi nyingi zilizo na jozi nyingi zilizolindwa. Inapatikana katika usanidi wa jozi 4, 8, 12, 16, na 24 kwa mifumo ya udhibiti iliyosambazwa na vipimo vya pointi nyingi."
+    },
+    "terminalBlocks": {
+      "title": "Vitalu vya Terminal",
+      "description": "Vitalu vya terminal vya kuaminika kwa miunganisho ya umeme katika paneli za udhibiti na masanduku ya makutano. Upachikaji wa reli ya DIN na teknolojia za unganisho la screw, spring, na push-in kwa wiring salama na isiyo na matengenezo."
+    },
+    "electricalConnectors": {
+      "title": "Viunganishi vya Umeme",
+      "description": "Viunganishi vya umeme vya viwandani kwa matumizi ya nguvu na mawimbi. Ujenzi thabiti na ulinzi uliokadiriwa na IP, usanidi mingi ya mawasiliano, na utendaji wa kuaminika katika hali ngumu za mazingira."
+    },
+    "industrialPlugs": {
+      "title": "Plagi za Viwandani",
+      "description": "Plagi na soketi za viwandani za kazi nzito kwa vifaa vya umeme vya simu na vya kudumu. Muundo usio na hali ya hewa na uandishi wa mitambo, kuingiliana kwa usalama, na uwezo wa juu wa kubeba sasa kwa matumizi ya viwandani."
+    },
+    "miniatureCircuitBreakers": {
+      "title": "Vivunja Mzunguko Vidogo (MCBs)",
+      "description": "Vivunja mzunguko vilivyo kompakt kwa ulinzi wa upakiaji na mzunguko mfupi katika matumizi ya makazi na biashara nyepesi. Inapatikana katika ukadiriaji mbalimbali wa sasa na sifa za safari na uendeshaji wa kuaminika wa mafuta-sumaku."
+    },
+    "moldedCaseBreakers": {
+      "title": "Vivunja Mzunguko Vilivyoundwa (MCCBs)",
+      "description": "Vivunja mzunguko vilivyoundwa kwa kazi nzito kwa usambazaji wa umeme wa viwandani na kibiashara. Uwezo wa juu wa kuvunja na mipangilio ya ulinzi inayoweza kubadilishwa na vitengo vya safari vya elektroniki vya hiari kwa ulinzi ulioimarishwa."
+    },
+    "fusesFusesHolders": {
+      "title": "Fuses na Vishikilia Fuse",
+      "description": "Fuses za umeme na vishikilia fuse kwa ulinzi wa overcurrent katika matumizi mbalimbali. Inapatikana katika cartridge, blade, na aina maalum na sifa tofauti za wakati wa sasa na uwezo wa kuvunja."
+    },
+    "rccbCircuitBreakers": {
+      "title": "Vivunja Mzunguko vya Sasa Vilivyosalia (RCCBs)",
+      "description": "Vivunja mzunguko wa kuvuja kwa ardhi vinavyotoa ulinzi dhidi ya mshtuko wa umeme na hatari za moto zinazosababishwa na hitilafu za ardhi. Inapatikana katika usanidi wa nguzo 2 na nguzo 4 na ukadiriaji mbalimbali wa unyeti kwa usalama ulioimarishwa wa umeme."
+    },
+    "acbCircuitBreakers": {
+      "title": "Vivunja Mzunguko vya Hewa (ACBs)",
+      "description": "Vivunja mzunguko wa hewa wa uwezo wa juu kwa mifumo ya usambazaji wa umeme ya voltage ya kati na ya juu. Inaangazia kazi za ulinzi za hali ya juu, uwezo wa uendeshaji wa mbali, na uwezo bora wa kuvunja kwa matumizi ya viwandani na ya matumizi."
+    },
+    "vcbCircuitBreakers": {
+      "title": "Vivunja Mzunguko vya Utupu (VCBs)",
+      "description": "Vivunja mzunguko vya utupu vya hali ya juu kwa matumizi ya voltage ya kati na teknolojia bora ya kuzima arc. Uendeshaji usio na matengenezo na uvumilivu bora wa umeme na uaminifu kwa mitandao ya usambazaji wa nguvu."
+    },
+    "acDcConverters": {
+      "title": "Vigeuzi vya AC-DC",
+      "description": "Vifaa vya kubadilisha nguvu kwa kubadilisha voltage ya mains ya AC hadi pato la DC linalodhibitiwa. Miundo ya ufanisi wa juu na chaguzi nyingi za pato, ulinzi wa overvoltage, na safu pana za voltage ya ingizo kwa matumizi ya viwandani."
+    },
+    "dcDcConverters": {
+      "title": "Vigeuzi vya DC-DC",
+      "description": "Vigeuzi vya DC-DC vilivyotengwa na visivyotengwa kwa ubadilishaji wa voltage katika mifumo ya elektroniki. Miundo iliyo kompakt na ufanisi wa juu, ripple ya chini, na michanganyiko mbalimbali ya voltage ya ingizo/pato kwa matumizi yanayohitaji."
+    },
+    "upsSystems": {
+      "title": "Mifumo ya UPS",
+      "description": "Mifumo ya Ugavi wa Nguvu Usiokatizwa kwa ulinzi muhimu wa vifaa. Topolojia za mtandaoni, zinazoingiliana na mstari, na za kusubiri na hifadhi ya betri, hali ya nguvu, na uwezo wa usimamizi wa mtandao kwa mwendelezo wa biashara."
+    },
+    "electricalCabinets": {
+      "title": "Makabati ya Umeme",
+      "description": "Makabati na vifungo thabiti vya umeme kwa vifaa vya udhibiti wa nyumba na vipengele vya umeme. Inapatikana katika vifaa mbalimbali na ukadiriaji wa IP na miundo ya msimu kwa usakinishaji rahisi na matengenezo."
+    },
+    "junctionBoxes": {
+      "title": "Masanduku ya Makutano",
+      "description": "Masanduku ya makutano yasiyo na hali ya hewa kwa miunganisho ya umeme na kusitishwa kwa cable. Chaguzi nyingi za kuingia na vifaa mbalimbali na ukadiriaji wa ulinzi wa mazingira kwa mitambo ya ndani na nje."
+    },
+    "dinRailEnclosures": {
+      "title": "Vifungo vya Reli ya DIN",
+      "description": "Vifungo vya reli ya DIN vya msimu kwa vifaa vya nyumba vya otomatiki na vifaa vya udhibiti. Ujenzi wa plastiki na chuma na muundo wa snap-on kwa mkusanyiko rahisi na ushirikiano wa paneli za kitaalamu."
+    },
+    "heatingCoils": {
+      "title": "Coils za Kupokanzwa",
+      "description": "Coils za kupokanzwa za viwandani kwa matumizi ya kupokanzwa mchakato. Inapatikana katika usanidi mbalimbali ikiwa ni pamoja na finned, cartridge, na hita za bendi na udhibiti sahihi wa joto na ufanisi wa juu wa mafuta."
+    },
+    "heatingElements": {
+      "title": "Vipengele vya Kupokanzwa",
+      "description": "Vipengele vya kupokanzwa umeme kwa matumizi ya viwandani na biashara. Tubular, kauri, na miundo rahisi na wiani mbalimbali wa watt na vifaa vya sheath kwa uhamisho bora wa joto na uimara."
+    },
+    "industrialHeaters": {
+      "title": "Hita za Viwandani",
+      "description": "Hita za viwandani za kazi nzito kwa matumizi ya mchakato ikiwa ni pamoja na kuzamisha, mzunguko, na hita za radiant. Iliyoundwa kwa mazingira magumu na chaguzi zisizo na mlipuko na udhibiti wa joto wa hali ya juu."
+    },
+    "digitalMultimeters": {
+      "title": "Multimita za Dijitali",
+      "description": "Multimita za dijitali za usahihi kwa vipimo vya umeme ikiwa ni pamoja na voltage, sasa, upinzani, na frequency. Uwezo wa RMS wa kweli na kumbukumbu ya data, uunganisho wa kompyuta, na kazi za juu za kupima."
+    },
+    "clampMeters": {
+      "title": "Mita za Clamp",
+      "description": "Mita za clamp za kupima sasa zisizo za mawasiliano kwa utatuzi wa umeme na matengenezo. Kipimo cha sasa cha AC/DC na voltage, upinzani, na uwezo wa kupima nguvu katika miundo ya handheld inayobebeka."
+    },
+    "benchMultimeters": {
+      "title": "Multimita za Benchi",
+      "description": "Multimita za benchi za usahihi wa juu kwa maabara na matumizi ya calibration. Usahihi bora na azimio na violesura vya kompyuta, kazi za takwimu, na uwezo wa kupima otomatiki."
+    },
+    "earthResistanceTesters": {
+      "title": "Vipima Upinzani wa Ardhi",
+      "description": "Vipima upinzani wa ardhi vya kitaalamu kwa uhakiki wa usalama wa umeme na upimaji wa mfumo wa kutuliza. Miundo ya hali ya juu inayoangazia upimaji usio na hisa, njia za kuanguka kwa uwezo wa pointi 3 na 4, kipimo cha upinzani wa udongo, na udhibiti wa frequency otomatiki ili kupunguza kuingiliwa. Muhimu kwa kuthibitisha uadilifu wa kutuliza umeme, mifumo ya ulinzi wa umeme, na kuhakikisha kufuata viwango vya usalama katika mitambo ya viwandani, biashara, na matumizi."
+    },
+    "phaseSequenceCheckers": {
+      "title": "Vihakiki Mfuatano wa Awamu",
+      "description": "Viashiria vya mzunguko wa awamu na vipima mfuatano wa awamu kwa uhakiki wa mfumo wa umeme wa awamu tatu. Zana muhimu kwa kuthibitisha mzunguko sahihi wa awamu kabla ya kuanza kwa motor, kuzuia uharibifu wa vifaa kutoka kwa mzunguko wa reverse. Inapatikana katika miundo ya mawasiliano na isiyo ya mawasiliano yenye viashiria vya LED, uwezo wa kupima voltage, na ujenzi uliokadiriwa usalama. Vipengele ni pamoja na dalili ya kuona ya mfuatano wa awamu, uhakiki wa mzunguko wa motor, kipimo cha frequency, na uunganisho wa smartphone kwa nyaraka na taarifa."
+    },
+    "digitalMegohmmeters": {
+      "title": "Megohmmeters za Dijitali",
+      "description": "Vipima upinzani vya insulation vya voltage ya juu (megohmmeters) kwa upimaji kamili wa insulation ya umeme na matengenezo ya kuzuia. Vyombo vya kitaalamu vinavyotoa voltages za majaribio kutoka 50V hadi 15kV kwa nyaya, motors, transfoma, na upimaji wa switchgear. Vipengele ni pamoja na Jaribio la Index ya Polarization (PI) na Uwiano wa Ufyonzwaji wa Dielectric (DAR), ugunduzi wa mzunguko wa moja kwa moja, upimaji wa voltage ya hatua, uendeshaji wa mbali, kumbukumbu ya data na muhuri wa muda/tarehe, na uunganisho wa PC. Muhimu kwa upimaji wa motor unaoendana na IEEE 43-2000 na uhakiki wa usalama wa umeme."
+    },
+    "milliampereSourceMeters": {
+      "title": "Mita za Chanzo cha Milliampere",
+      "description": "Vipima sahihi vya calibrator ya kitanzi cha milliampere na chanzo cha sasa kwa upimaji na calibration wa kitanzi cha udhibiti wa mchakato wa 4-20mA. Vyombo vya kitaalamu vinavyotoa chanzo sahihi cha mA na kipimo na usambazaji wa nguvu wa kitanzi cha 24V uliojengwa kwa uigaji wa transmita ya waya 2. Vipengele ni pamoja na uwezo wa chanzo na kipimo sawia, kazi za hatua za kiotomatiki kwa upimaji wa linearity, utangamano wa mawasiliano wa HART, kazi za ramp kwa upimaji wa valve, na miundo ya clamp-on ambayo huondoa kuvunjika kwa kitanzi. Muhimu kwa utatuzi na calibration ala ya mchakato katika mifumo ya otomatiki ya viwandani."
+    },
+    "realTimeAnalyzers": {
+      "title": "Vichanganuzi vya Wakati Halisi",
+      "description": "Vichanganuzi vya mawimbi vya wakati halisi kwa ufuatiliaji endelevu na kunasa matukio ya muda mfupi. 100% uwezekano wa kukatiza na uanzishaji wa hali ya juu na uwezo wa akili wa mawimbi."
+    },
+    "powerMeters": {
+      "title": "Mita za Nguvu",
+      "description": "Mita za nguvu za usahihi wa juu kwa kipimo cha nguvu za umeme na uchambuzi. Uwezo wa awamu nyingi na vigezo kamili vya nguvu ikiwa ni pamoja na vipimo vya nguvu tendaji, tendaji na dhahiri."
+    },
+    "harmonicAnalyzers": {
+      "title": "Vichanganuzi vya Harmonic",
+      "description": "Vichanganuzi vya harmonic vya hali ya juu kwa tathmini ya ubora wa nguvu na upimaji wa kufuata IEEE 519. Uchambuzi wa harmonic wa wakati halisi hadi agizo la 50 na uwezo kamili wa kuripoti."
+    },
+    "energyLoggers": {
+      "title": "Virekodi Nishati",
+      "description": "Virekodi data vya nishati vya njia nyingi kwa ufuatiliaji wa matumizi ya nguvu ya muda mrefu na usimamizi wa nishati. Mawasiliano ya wireless na muunganisho wa wingu na vipengele vya taarifa za otomatiki."
+    },
+    "calibrationInstruments": {
+      "title": "Vyombo vya Calibration",
+      "description": "Vyombo vya calibration vya usahihi kwa calibration ya umeme, joto, shinikizo, na parameter ya mchakato. Usahihi unaofuatiliwa na NIST na taratibu za calibration za otomatiki na nyaraka."
+    },
+    "testEquipment": {
+      "title": "Vifaa vya Majaribio",
+      "description": "Vifaa vya majaribio na kipimo vya kusudi la jumla kwa maabara na matumizi ya shamba. Vyombo vingi vya matumizi kwa upimaji wa umeme, elektroniki, na mitambo na usanidi unaobebeka na wa benchi."
+    },
+    "processCalibrators": {
+      "title": "Calibrators za Mchakato",
+      "description": "Calibrators za mchakato za kazi nyingi kwa calibration kamili ya shamba na maabara ya ala ya mchakato. Inaangazia shinikizo, joto, na calibration ya ishara ya umeme na mawasiliano ya HART, kumbukumbu ya data, na taratibu za otomatiki kwa ufanisi ulioimarishwa wa calibration."
+    },
+    "loopCalibrators": {
+      "title": "Calibrators za Kitanzi",
+      "description": "Calibrators sahihi za kitanzi cha mA kwa kupima na kutatua matatizo ya vitanzi vya sasa vya 4-20mA na mifumo ya udhibiti wa mchakato. Vyombo vya handheld vinavyotoa nguvu ya kitanzi, kipimo cha sasa, na uigaji wa ishara kwa uchunguzi kamili wa kitanzi katika mazingira ya shamba na warsha."
+    },
+    "hartCalibrators": {
+      "title": "Calibrators za HART",
+      "description": "Calibrators za juu za uwanja wa HART na mawasiliano kwa calibration kamili ya ala ya mchakato na usanidi. Zikiwa na usaidizi wa itifaki ya mawasiliano ya HART iliyojengwa, vifaa hivi vya kazi nyingi huunganisha shinikizo, joto, na calibration ya ishara ya umeme na uwezo wa mawasiliano ya digital wa HART. Usaidizi kwa matoleo ya HART 5-7, amri za ulimwengu wote na mahususi kwa kifaa, nyaraka za otomatiki, na ushirikiano usio na mshono na vifaa mahiri vya shambani kwa calibration bora ya shambani na usimamizi wa kifaa."
+    },
+    "mechanicalTools": {
+      "title": "Zana za Mitambo",
+      "description": "Zana za mkono za mitambo za kitaalamu kwa ajili ya mkusanyiko, matengenezo, na ukarabati. Ujenzi wa chuma wa ubora wa juu na miundo ya ergonomic kwa matumizi ya viwandani na magari."
+    },
+    "electricalTools": {
+      "title": "Zana za Umeme",
+      "description": "Zana za umeme zilizowekwa maboksi kwa kazi salama kwenye nyaya za moja kwa moja na mitambo ya umeme. Imethibitishwa na VDE na ukadiriaji wa juu wa ulinzi wa voltage na grips za ergonomic kwa usalama wa fundi umeme."
+    },
+    "precisionTools": {
+      "title": "Zana za Usahihi",
+      "description": "Vyombo vya kupima na machining vya usahihi wa juu kwa matumizi muhimu ya usahihi. Vyombo vilivyosawazishwa na uvumilivu mkali kwa udhibiti wa ubora na utengenezaji wa usahihi."
+    },
+    "electricDrills": {
+      "title": "Drills za Umeme",
+      "description": "Drills za umeme za kazi nzito kwa ajili ya kuchimba visima, kuendesha gari, na kufunga. Udhibiti wa kasi tofauti na chucks zisizo na ufunguo na motors za high-torque kwa ujenzi wa kitaalamu na matumizi ya viwandani."
+    },
+    "angleGrinders": {
+      "title": "Grinders za Angle",
+      "description": "Grinders za angle za kazi nzito kwa ajili ya kukata, kusaga, na polishing. Motors za nguvu za juu na walinzi wa usalama na mifumo ya kupambana na vibration kwa operesheni iliyopanuliwa katika mazingira ya viwandani."
+    },
+    "impactDrivers": {
+      "title": "Madereva ya Athari",
+      "description": "Madereva ya athari ya high-torque kwa ajili ya kufunga kazi nzito. Motors zisizo na brashi na udhibiti wa kasi tofauti na taa za LED kwa kuendesha gari sahihi katika ujenzi na kazi ya mkusanyiko."
+    },
+    "weldingMachines": {
+      "title": "Mashine za Kulehemu",
+      "description": "Mashine za kulehemu za kiwango cha kitaalamu kwa matumizi ya kulehemu ya MIG, TIG, Stick, na aina nyingi. Teknolojia ya juu na udhibiti sahihi wa arc, uwezo wa voltage mbili, na ujenzi thabiti kwa utengenezaji wa viwandani, matengenezo, na kazi ya ukarabati. Vipengele ni pamoja na maonyesho ya dijitali, uwezo wa mapigo, na usanidi wa otomatiki kwa ubora bora wa weld."
+    },
+    "cuttingBlades": {
+      "title": "Vipande vya Kukata",
+      "description": "Vipande vya kukata vya premium kwa chuma, mbao, na matumizi ya uashi. Chaguzi za ncha za kaboni na zilizofunikwa na almasi na jiometri iliyoimarishwa ya jino kwa kupunguzwa safi na maisha ya blade yaliyoenea."
+    },
+    "drillBits": {
+      "title": "Bits za Kuchimba",
+      "description": "Bits za kuchimba visima za utendaji wa juu kwa chuma, chuma cha pua, na vifaa ngumu. Ujenzi wa cobalt na kaboni na mipako maalum kwa utendaji bora wa kuchimba visima na maisha ya chombo kilichoenea."
+    },
+    "millingCutters": {
+      "title": "Vipandikizi vya Kusaga",
+      "description": "Vipandikizi vya kusaga vya usahihi kwa shughuli za CNC na machining za mwongozo. Ujenzi wa kaboni imara na HSS na usanidi mbalimbali wa flute kwa uondoaji bora wa nyenzo na kumaliza uso."
+    },
+    "chopSaws": {
+      "title": "Saws za Chop (Saws za Kukata)",
+      "description": "Saws za kukata chuma za kiwango cha kitaalamu kwa utengenezaji wa viwandani na usindikaji wa chuma. Inaangazia teknolojia ya TCT (Tungsten Carbide Tipped) ya kukata baridi kwa kupunguzwa safi, bila burr na joto na cheche ndogo. Inapatikana katika mifano ya 14\" na 15\" yenye motors za high-torque, quick-release vises, na uwezo wa miter kwa kupunguzwa kwa angled. Hukata chuma, chuma cha pua, alumini, na metali zingine haraka kuliko bandsaws na kumaliza tayari kwa weld."
+    },
+    "chainHoists": {
+      "title": "Hoists za Mnyororo",
+      "description": "Hoists za mnyororo za kazi nzito kwa matumizi ya wima ya kuinua katika mazingira ya viwandani na ujenzi. Mifano ya mwongozo na umeme na ulinzi wa kupakia na uwezo sahihi wa kuweka mzigo."
+    },
+    "wireRopeHoists": {
+      "title": "Hoists za Kamba za Waya",
+      "description": "Hoists za kamba za waya za uwezo wa juu kwa shughuli nzito za kuinua na mifumo ya kushughulikia nyenzo. Uendeshaji wa umeme na udhibiti wa kasi tofauti na vipengele vya juu vya usalama kwa matumizi yanayohitaji."
+    },
+    "safetyHarnesses": {
+      "title": "Harnesses za Usalama",
+      "description": "Harnesses za usalama za mwili mzima kwa ulinzi wa kuanguka katika mazingira ya kazi yaliyoinuliwa. Padding ya starehe na pointi nyingi za kushikamana na buckles za kuunganisha haraka kwa usalama wa mfanyakazi."
+    },
+    "safetyBarriers": {
+      "title": "Vizuizi vya Usalama",
+      "description": "Vizuizi vya usalama vya viwandani na guardrails kwa ulinzi wa hatari mahali pa kazi na udhibiti wa mzunguko. Muundo wa msimu na rangi za mwonekano wa juu na ujenzi unaostahimili athari kwa usalama wa watembea kwa miguu na vifaa."
+    },
+    "emergencyEquipment": {
+      "title": "Vifaa vya Dharura",
+      "description": "Vifaa muhimu vya kukabiliana na dharura ikiwa ni pamoja na vituo vya kunawa macho, bafu za usalama, vifaa vya huduma ya kwanza, na mifumo ya mawasiliano ya dharura. ANSI Z358.1 inatii na chaguzi za kujitegemea na za mabomba."
+    },
+    "monocrystallinePanels": {
+      "title": "Paneli za Sola za Monocrystalline",
+      "description": "Paneli za sola za monocrystalline za ufanisi wa juu na pato bora la nguvu na matumizi ya nafasi. Seli za silicon za premium na mipako ya kupambana na kutafakari na fremu thabiti za alumini kwa mitambo ya makazi na biashara."
+    },
+    "polycrystallinePanels": {
+      "title": "Paneli za Sola za Polycrystalline",
+      "description": "Paneli za sola za polycrystalline za gharama nafuu zinazotoa utendaji wa kuaminika na thamani nzuri kwa mitambo mikubwa. Ujenzi thabiti na mgawo bora wa joto na uaminifu wa muda mrefu uliothibitishwa."
+    },
+    "thinFilmPanels": {
+      "title": "Paneli za Sola za Filamu Nyembamba",
+      "description": "Paneli za sola za filamu nyembamba zinazonyumbulika na silicon ya amorphous na teknolojia ya CIGS kwa matumizi ya kipekee. Muundo mwepesi na utendaji bora wa mwanga mdogo na chaguzi za ushirikiano wa aesthetic."
+    },
+    "stringInverters": {
+      "title": "Inverters za String",
+      "description": "Inverters za string za ufanisi wa juu kwa mifumo ya sola ya PV na ufuatiliaji wa kiwango cha juu cha nguvu na uwezo kamili wa ufuatiliaji. Muundo thabiti na safu pana ya voltage ya ingizo na utendaji wa gridi ya taifa."
+    },
+    "microInverters": {
+      "title": "Inverters Ndogo",
+      "description": "Inverters ndogo za kiwango cha moduli kwa mavuno ya juu ya nishati na ufuatiliaji wa paneli ya mtu binafsi. Utii wa kuzima haraka na vipengele vya usalama vilivyoimarishwa na taratibu za ufungaji zilizorahisishwa."
+    },
+    "powerOptimizers": {
+      "title": "Viongeza Nguvu",
+      "description": "Viongeza nguvu vya DC kwa utendaji ulioimarishwa wa mfumo wa sola na MPPT ya kiwango cha moduli na ufuatiliaji. Hupunguza upotezaji wa kivuli na kutolingana huku ikidumisha uchumi wa kibadilishaji cha mfuatano."
+    },
+    "modularPlcs": {
+      "title": "PLCs za Msimu",
+      "description": "Vidhibiti mantiki vinavyoweza kupangwa vya msimu vinavyoweza kupanuka kwa mifumo changamano ya otomatiki. Usanidi wa I/O unaoweza kupanuliwa na uwezo wa mawasiliano wa hali ya juu na uchakataji wa kasi ya juu kwa matumizi ya udhibiti wa viwandani."
+    },
+    "compactPlcs": {
+      "title": "PLCs za Kompakt",
+      "description": "Vidhibiti mantiki vinavyoweza kupangwa vya kompakt vinavyookoa nafasi kwa matumizi madogo hadi ya kati ya otomatiki. I/O iliyounganishwa na violesura vya mawasiliano vilivyojengwa na programu rahisi kutumia."
+    },
+    "microPlcs": {
+      "title": "PLCs Ndogo",
+      "description": "Vidhibiti mantiki vinavyoweza kupangwa vidogo sana kwa kazi rahisi za otomatiki. Suluhisho la gharama nafuu na uwezo muhimu wa I/O na kazi za msingi za mawasiliano kwa udhibiti mdogo wa mashine."
+    },
+    "scadaSoftware": {
+      "title": "Programu ya SCADA",
+      "description": "Programu kamili ya usimamizi na upataji data kwa ufuatiliaji na udhibiti wa mchakato wa viwandani. Taswira ya data ya wakati halisi na usimamizi wa kengele na uwezo wa mwenendo wa kihistoria."
+    },
+    "scadaHardware": {
+      "title": "Vifaa vya SCADA",
+      "description": "Majukwaa ya vifaa vya SCADA vya kiwango cha viwandani kwa upataji data wa kuaminika na shughuli za udhibiti. Ujenzi thabiti na njia za mawasiliano zilizo na nakala na vipengele vinavyoweza kubadilishwa moto kwa muda wa juu zaidi."
+    },
+    "scadaGateways": {
+      "title": "Lango za SCADA",
+      "description": "Lango za ubadilishaji itifaki kwa ujumuishaji wa mfumo wa SCADA na uoanifu wa wauzaji wengi. Inasaidia itifaki nyingi za mawasiliano ya viwandani na usambazaji salama wa data na utendaji wa wakati halisi."
+    },
+    "dcsControllers": {
+      "title": "Vidhibiti vya DCS",
+      "description": "Vidhibiti vya mfumo wa udhibiti uliosambazwa kwa otomatiki ya mchakato mkuu na mifumo ya usalama. Usanifu ulio na nakala na muundo wa upatikanaji wa hali ya juu na algoriti za udhibiti wa mchakato wa hali ya juu."
+    },
+    "dcsOperatorStations": {
+      "title": "Vituo vya Opereta vya DCS",
+      "description": "Vituo vya kazi vya opereta vya hali ya juu kwa ufuatiliaji na uendeshaji wa mfumo wa udhibiti uliosambazwa. Uwezo wa maonyesho mengi na michoro angavu na usimamizi kamili wa kengele."
+    },
+    "dcsEngineeringStations": {
+      "title": "Vituo vya Uhandisi vya DCS",
+      "description": "Vituo vya kazi vya uhandisi kwa usanidi wa DCS, programu, na matengenezo. Mazingira kamili ya ukuzaji na uwezo wa uigaji na udhibiti wa toleo."
+    },
+    "touchscreenHmis": {
+      "title": "HMIs za Skrini ya Kugusa",
+      "description": "Violasisi vya mashine ya binadamu vya skrini ya kugusa ya viwandani kwa udhibiti na ufuatiliaji wa opereta. Maonyesho ya kugusa nyingi na ujenzi thabiti kwa mazingira magumu."
+    },
+    "panelMountHmis": {
+      "title": "HMIs za Kupachika Paneli",
+      "description": "Violasisi vya mashine ya binadamu vilivyopachikwa paneli kwa ujumuishaji katika makabati ya udhibiti na paneli za opereta. Muundo wa kompakt na uimara wa kiwango cha viwandani."
+    },
+    "mobileHmis": {
+      "title": "HMIs za Simu",
+      "description": "Violasisi vya mashine ya binadamu vinavyobebeka kwa udhibiti wa opereta wa simu na ufuatiliaji wa shambani. Muundo thabiti na muunganisho wa wireless na maisha marefu ya betri."
+    },
+    "safetyRelays": {
+      "title": "Relays za Usalama",
+      "description": "Relays za usalama kwa mifumo ya ulinzi wa mashine na wafanyakazi. Imethibitishwa kwa matumizi ya usalama na uendeshaji salama na uwezo wa uchunguzi."
+    },
+    "emergencyStops": {
+      "title": "Vituo vya Dharura",
+      "description": "Vifaa vya kusimamisha dharura kwa kuzima mashine mara moja. Ujenzi thabiti na anwani za ufunguzi chanya na dalili wazi ya kuona."
+    },
+    "safetySwitches": {
+      "title": "Swichi za Usalama",
+      "description": "Swichi za usalama za ufuatiliaji wa nafasi kwa milango ya walinzi na paneli za ufikiaji. Muundo usio na ushahidi wa kuingiliwa na viamilishi vilivyosimbwa kwa usalama wa hali ya juu."
+    },
+    "explosionProofEquipment": {
+      "title": "Vifaa Visivyolipuka",
+      "description": "Vifaa vya umeme vilivyothibitishwa visivyolipuka kwa mitambo ya eneo hatarishi. Iliyoundwa kuzuia kuwashwa kwa gesi na mvuke zinazowaka na vifungo thabiti vinavyokidhi viwango vya usalama vya kimataifa."
+    },
+    "intrinsicallySafeBarriers": {
+      "title": "Vizuizi Salama Kiasili",
+      "description": "Vizuizi vya usalama kwa mizunguko salama kiasili katika maeneo hatarishi. Hutoa ukomo wa nishati na kutengwa kwa galvanic ili kuzuia vyanzo vya kuwasha katika angahewa za kulipuka."
+    },
+    "isFieldDevices": {
+      "title": "Vifaa vya Shambani Salama Kiasili",
+      "description": "Vifaa vya shambani vilivyothibitishwa kwa uendeshaji salama kiasili katika angahewa za kulipuka. Inajumuisha sensorer, transmita, na viamilishi vilivyoundwa kwa matumizi ya eneo hatarishi la Zone 0/1."
+    },
+    "acSurgeProtectors": {
+      "title": "Vilinda Mawimbi vya AC",
+      "description": "Vifaa vya ulinzi wa mawimbi ya njia ya umeme ya AC kwa ulinzi wa vifaa vya umeme. Ulinzi wa hatua nyingi dhidi ya umeme, mawimbi ya ubadilishaji, na usumbufu wa njia ya umeme katika mitambo ya viwandani."
+    },
+    "dcSurgeProtectors": {
+      "title": "Vilinda Mawimbi vya DC",
+      "description": "Vifaa vya ulinzi wa mawimbi ya mzunguko wa DC kwa vifaa nyeti vya elektroniki. Ulinzi maalum kwa mifumo ya nguvu ya DC, mitambo ya sola, na matumizi yanayoendeshwa na betri."
+    },
+    "signalSurgeProtectors": {
+      "title": "Vilinda Mawimbi vya Ishara",
+      "description": "Ulinzi wa mawimbi ya mstari wa ishara kwa mizunguko ya data na mawasiliano. Hulinda ishara za analogi na dijitali, mitandao ya basi ya shambani, na mizunguko ya ala dhidi ya kuingiliwa kwa sumakuumeme."
+    },
+    "equipmentGrounding": {
+      "title": "Mifumo ya Kutuliza Vifaa",
+      "description": "Vipengele vya kutuliza kwa usalama na ulinzi wa vifaa vya umeme. Fimbo za kutuliza za shaba na chuma, kondakta, na vifaa kwa utulizaji sahihi wa mfumo wa umeme."
+    },
+    "systemGrounding": {
+      "title": "Suluhisho za Kutuliza Mfumo",
+      "description": "Suluhisho kamili za mfumo wa kutuliza kwa vifaa vya viwandani. Gridi za kutuliza, elektrodi, na mifumo ya ufuatiliaji kwa usalama wa mfumo wa nguvu na utangamano wa sumakuumeme."
+    },
+    "lightningProtection": {
+      "title": "Mifumo ya Ulinzi wa Umeme",
+      "description": "Mifumo ya ulinzi wa umeme kwa majengo na miundo ya viwandani. Vituo vya hewa, kondakta za chini, na vizuizi vya mawimbi vilivyoundwa kwa viwango vya IEC 62305 kwa ulinzi kamili wa umeme."
+    },
+    "singleStageCentrifugal": {
+      "title": "Pampu za Katijaja za Hatua Moja",
+      "description": "Pampu za katijaja za hatua moja za mlalo na wima kwa usambazaji wa maji na matumizi ya viwandani. Uendeshaji mzuri na mahitaji ya chini ya matengenezo kwa hali mbalimbali za mtiririko na kichwa."
+    },
+    "multiStageCentrifugal": {
+      "title": "Pampu za Katijaja za Hatua Nyingi",
+      "description": "Pampu za katijaja za hatua nyingi za shinikizo la juu kwa matumizi yanayohitaji. Vipulizia vingi hutoa uwezo wa kichwa cha juu kwa kuongeza shinikizo, reverse osmosis, na matumizi ya mchakato wa viwandani."
+    },
+    "verticalCentrifugal": {
+      "title": "Pampu za Katijaja Wima",
+      "description": "Pampu za katijaja wima zinazookoa nafasi kwa mitambo iliyofungwa. Inafaa kwa mashimo, matangi, na matumizi ambapo nafasi ya mlalo ni mdogo huku ikidumisha utendaji wa ufanisi wa juu."
+    },
+    "airOperatedDiaphragm": {
+      "title": "Pampu za Diaphragm Zinazoendeshwa na Hewa",
+      "description": "Pampu za diaphragm za nyumatiki kwa kushughulikia maji fujo na yenye viscous. Uendeshaji wa kujijaza na uwezo bora wa kunyonya kwa usindikaji wa kemikali na matumizi ya maji taka."
+    },
+    "electricDiaphragm": {
+      "title": "Pampu za Diaphragm za Umeme",
+      "description": "Pampu za diaphragm zinazoendeshwa na umeme kwa upimaji sahihi na matumizi ya metering. Udhibiti wa mtiririko unaobadilika na uoanifu bora wa kemikali kwa matibabu ya maji na mifumo ya sindano ya kemikali."
+    },
+    "hydraulicDiaphragm": {
+      "title": "Pampu za Diaphragm za Hydraulic",
+      "description": "Pampu za diaphragm zinazoendeshwa na hydraulic kwa matumizi ya shinikizo la juu. Udhibiti sahihi wa mtiririko na uwezo bora wa kurudia kwa upimaji wa kemikali na mifumo ya kusafisha ya shinikizo la juu."
+    },
+    "externalGearPumps": {
+      "title": "Pampu za Gia za Nje",
+      "description": "Pampu za gia za nje za uhamishaji chanya kwa uhamishaji wa maji yenye viscous. Uwasilishaji thabiti wa mtiririko bila kujali tofauti za shinikizo, bora kwa mafuta ya kulainisha na maji ya hydraulic."
+    },
+    "internalGearPumps": {
+      "title": "Pampu za Gia za Ndani",
+      "description": "Pampu za gia za ndani na sifa laini za mtiririko kwa maji nyeti. Muundo wa mapigo ya chini unafaa kwa usindikaji wa chakula, dawa, na matumizi ya kemikali ambayo yanahitaji utunzaji laini."
+    },
+    "magneticGearPumps": {
+      "title": "Pampu za Gia za Hifadhi ya Sumaku",
+      "description": "Pampu za gia zilizounganishwa kwa sumaku kwa uendeshaji usio na uvujaji. Muundo uliofungwa hermetically huondoa mihuri ya shimoni, kamili kwa kemikali hatarishi na matumizi ya usafi wa hali ya juu."
+    },
+    "impellersCasings": {
+      "title": "Vipulizia na Makazi",
+      "description": "Vipulizia vya uingizwaji na makazi ya pampu kwa pampu za katijaja. Inapatikana katika vifaa mbalimbali ikiwa ni pamoja na chuma cha kutupwa, chuma cha pua, na aloi maalum kwa matumizi na vyombo vya habari tofauti."
+    },
+    "sealsGaskets": {
+      "title": "Mihuri na Gaskets",
+      "description": "Mihuri ya pampu na gaskets kwa uzuiaji wa uvujaji wa kuaminika. Mihuri ya mitambo, O-rings, na seti za gasket katika vifaa mbalimbali ili kukidhi mahitaji tofauti ya halijoto, shinikizo, na uoanifu wa kemikali."
+    },
+    "bearingsCouplings": {
+      "title": "Fani na Viunganishi",
+      "description": "Fani za pampu na viunganishi vinavyonyumbulika kwa mifumo ya kuendesha mitambo. Vipengele vya ubora wa juu kwa maisha ya huduma yaliyoenea, mtetemo uliopunguzwa, na usambazaji wa nguvu wa kuaminika katika matumizi ya kusukuma."
+    },
+    "jibCranes": {
+      "title": "Korongo za Jib",
+      "description": "Korongo za jib za viwandani kwa kushughulikia nyenzo na matumizi ya kuinua. Zikiwa na ujenzi thabiti, mzunguko laini, na chaguzi rahisi za kupachika kwa warsha na vifaa vya uzalishaji."
+    },
+    "personalProtectiveEquipment": {
+      "title": "Vifaa vya Kujikinga Binafsi",
+      "description": "Vifaa vya usalama vya viwandani ikiwa ni pamoja na kofia, glavu, miwani ya usalama, na mavazi ya kinga. Vifaa vilivyothibitishwa vinavyokidhi viwango vya usalama vya kimataifa kwa ulinzi wa wafanyikazi katika mazingira ya viwandani."
+    }
+  },
+  "table": {
+    "manufacturer": "Mtengenezaji",
+    "model": "Mfano",
+    "type": "Aina",
+    "actions": "Hatua"
+  },
+  "messages": {
+    "noProductsInGroup": "Hakuna bidhaa zilizopatikana katika kundi hili.",
+    "noProductGroups": "Hakuna makundi ya bidhaa yanayopatikana katika jamii hii."
+  }
+}

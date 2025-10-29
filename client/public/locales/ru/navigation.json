@@ -1,0 +1,31 @@
+{
+  "menu": {
+    "about": "О нас",
+    "projects": "Проекты",
+    "gallery": "Галерея",
+    "career": "Карьера",
+    "contact": "Контакты"
+  },
+  "services": "Услуги",
+  "dropdowns": {
+    "services": "Услуги",
+    "products": "Продукты"
+  },
+  "header": {
+    "servingWorldwide": "Глобальное обслуживание"
+  },
+  "footer": {
+    "backToProducts": "Назад к продуктам",
+    "services": "Услуги",
+    "products": "Продукты",
+    "copyright": "© {{year}} Powerton Engineering Pvt. Ltd. Все права защищены.",
+    "selectLanguage": "Выбрать язык",
+    "companyDescription": "Ваш надежный партнер в предоставлении высококачественных инженерных решений и услуг для промышленной автоматизации и электрических систем.",
+    "sitemap": "Карта сайта"
+  },
+  "mobile": {
+    "navigationMenu": "Меню навигации",
+    "openMobileMenu": "Открыть мобильное меню",
+    "menuDescription": "Основное меню навигации сайта Powerton Engineering"
+  }
+}

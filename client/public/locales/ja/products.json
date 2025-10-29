@@ -1,0 +1,2942 @@
+{
+  "seo": {
+    "title": "産業オートメーション製品と電気部品 | PLC SCADAシステム、センサー、トランスミッター | Powerton Engineering",
+    "description": "包括的な産業オートメーション製品、電気制御盤コンポーネント、計装アクセサリ、PLC SCADA DCSシステム、圧力トランスミッター、温度センサー、流量計、レベルセンサー、回路ブレーカー、コネクター、リレー、VFDドライブ、モーター制御センター、ソーラー製品、BLDCモーター、遠心ポンプ、測定ツール、安全デバイス、産業用ツール。シーメンス、アレンブラッドリー、シュナイダー、ABB、ハネウェル、横河、エンドレス+ハウザー、ローズマウントの認定ディストリビューター。インド全土の製薬、発電所、石油・ガス、製造業にサービスを提供するISO認定サプライヤー。",
+    "keywords": "インドの産業オートメーション製品、電気制御盤コンポーネント、PLCシステム、SCADAシステム、DCSシステム、HMIパネル、圧力トランスミッター、温度センサー、流量計、レベルセンサー、レベルトランスミッター、分析機器、プロセスメーター、コントロールバルブ、アクチュエーター、ポジショナー、回路ブレーカー、コネクター、リレー、MCB、MCCB、ACB、VCB、モータードライブ、過負荷リレー、VFDドライブ、ソフトスターター、モーターコントロールセンターMCC、電力制御センターPCC、配電盤、アイソレーター、産業オートメーションコンポーネント、プロセス制御機器、測定機器、フィールド機器、制御室機器、計装アクセサリ、信号コンディショナー、アイソレーター、バリア、電源、ソーラーパネル、ソーラーインバーター、ソーラーバッテリー、ソーラー充電コントローラー、MPPTコントローラー、系統連系インバーター、オフグリッドインバーター、ハイブリッドインバーター、BLDCシーリングファン、BLDC排気ファン、BLDCモーター、遠心ポンプ、単段ポンプ、水中ポンプ、産業用ポンプ、ポンプスペア、安全スイッチ、緊急停止ボタン、ライトカーテン、安全リレー、産業用ツール、ハンドツール、電動工具、測定ツール、マルチメーター、クランプメーター、絶縁テスター、接地テスター、電力品質アナライザー、キャリブレーター、シーメンス製品インド、アレンブラッドリー製品、シュナイダーエレクトリック製品、ABBオートメーション製品、ハネウェル機器、横河トランスミッター、エンドレスハウザーセンサー、ローズマウントトランスミッター、エマソン製品、ロックウェルオートメーション、ダンフォスVFD、デルタVFD、制御盤アクセサリ、配電盤コンポーネント、電気アクセサリ、オートメーションスペア、計装スペア、産業用電気製品、工場オートメーション製品、プロセスオートメーション製品、製薬オートメーション製品、発電所測定機器、石油・ガス測定機器、化学プラント機器、水処理機器、食品加工機器、セメントプラントオートメーション製品、製造オートメーション製品"
+  },
+  "title": "当社の製品",
+  "subtitle": "包括的な産業オートメーション製品、電気部品、計装、ソーラーシステム、ポンプ、ツール。産業用途向けの高品質な機器。",
+  "categories": {
+    "automation": "オートメーションと制御",
+    "electrical": "電気部品",
+    "instrumentation": "計装",
+    "solar": "ソーラー製品",
+    "motors": "BLDCモーターシステム",
+    "pumps": "ポンプとモーター",
+    "safety": "安全装備",
+    "tools": "産業用ツール",
+    "instrumentation-accessories": {
+      "title": "計装アクセサリ",
+      "description": "測定と制御のための精密計装アクセサリ",
+      "features": {
+        "pressure-transmitters": "圧力トランスミッター",
+        "temperature-sensors": "温度センサー",
+        "flow-meters": "流量計",
+        "level-indicators": "レベルインジケーター",
+        "analyzers": "アナライザー"
+      }
+    },
+    "electrical-accessories": {
+      "title": "電気アクセサリ",
+      "description": "産業用途向けの包括的な電気アクセサリソリューション",
+      "features": {
+        "circuit-breakers": "回路ブレーカー",
+        "contactors": "接触器",
+        "relays": "リレー",
+        "power-supplies": "電源"
+      }
+    },
+    "solar-products": {
+      "title": "ソーラー製品",
+      "description": "完全な太陽エネルギーソリューションとコンポーネント",
+      "features": {
+        "solar-panels": "ソーラーパネル",
+        "inverters": "インバーター",
+        "battery-storage": "バッテリーストレージ",
+        "monitoring-systems": "監視システム"
+      }
+    },
+    "automation-control-systems": {
+      "title": "オートメーションおよび制御システム",
+      "description": "産業運用向けの高度なオートメーションおよび制御システム",
+      "features": {
+        "hmi-systems": "HMIシステム",
+        "scada-software": "SCADAソフトウェア",
+        "industrial-networks": "産業用ネットワーク"
+      }
+    },
+    "safety-protective-devices": {
+      "title": "安全および保護デバイス",
+      "description": "産業用安全システムと保護具",
+      "features": {
+        "safety-switches": "安全スイッチ",
+        "emergency-stops": "非常停止",
+        "light-curtains": "ライトカーテン",
+        "protective-barriers": "保護バリア"
+      }
+    },
+    "mechanical-pumps-spares": {
+      "title": "機械式ポンプとスペア",
+      "description": "産業用途向けの機械式ポンプとスペアパーツ",
+      "features": {
+        "centrifugal-pumps": "遠心ポンプ",
+        "positive-displacement-pumps": "容積式ポンプ",
+        "pump-components": "ポンプコンポーネント",
+        "maintenance-kits": "メンテナンスキット"
+      }
+    },
+    "industrial-measuring-tools": {
+      "title": "産業用および測定ツール",
+      "description": "産業メンテナンス、建設、製造オペレーション、および精密モニタリングアプリケーション向けの専門ツール、機器、および高度な測定機器",
+      "features": {
+        "hand-tools": "ハンドツール",
+        "power-tools": "電動工具",
+        "digital-multimeters": "デジタルマルチメーター",
+        "power-quality-analyzers": "電力品質アナライザー",
+        "calibrators": "キャリブレーター"
+      }
+    },
+    "bldc": {
+      "title": "BLDC製品",
+      "description": "エネルギー効率の高いアプリケーション向けのブラシレスDCモーター製品",
+      "features": {
+        "energy-efficient": "エネルギー効率",
+        "long-lifespan": "長寿命",
+        "low-maintenance": "低メンテナンス",
+        "variable-speed-control": "可変速度制御"
+      }
+    }
+  },
+  "bldcCeilingFan": {
+    "smart1200": {
+      "title": "スマートBLDCシーリングファン1200mm",
+      "description": "リモコンとタイマー機能付きのエネルギー効率の高いスマートシーリングファン",
+      "features": ["28W消費電力", "リモコン", "5つの速度設定", "タイマー機能"]
+    },
+    "premium1400": {
+      "title": "プレミアムBLDCシーリングファン1400mm",
+      "description": "LED照明とリバーシブルモーターを備えた高性能シーリングファン",
+      "features": [
+        "35W消費電力",
+        "LEDライト内蔵",
+        "リバーシブルモーター",
+        "静音運転"
+      ]
+    },
+    "commercial1500": {
+      "title": "業務用BLDCシーリングファン1500mm",
+      "description": "商業および産業用途向けの頑丈なシーリングファン",
+      "features": [
+        "45W消費電力",
+        "ヘビーデューティーモーター",
+        "高風量",
+        "耐久性のある構造"
+      ]
+    }
+  },
+  "bldcCoolerExhaust": {
+    "exhaustFan": {
+      "title": "BLDC排気ファンモーター",
+      "description": "排気ファンアプリケーション向けの高効率ブラシレスDCモーター",
+      "features": [
+        "可変速度制御",
+        "低騒音運転",
+        "エネルギー効率の高い設計",
+        "長寿命"
+      ]
+    },
+    "coolerMotors": {
+      "title": "BLDCクーラーモーター",
+      "description": "空気冷却器アプリケーション向けに設計されたエネルギー効率の高いモーター",
+      "features": [
+        "高トルク出力",
+        "耐候性",
+        "速度制御",
+        "メンテナンスフリー運転"
+      ]
+    },
+    "ventilation": {
+      "title": "BLDC換気システムモーター",
+      "description": "産業用換気および空気処理システム向けの特殊モーター",
+      "features": ["高CFM定格", "温度定格", "耐振動性", "スマート制御対応"]
+    }
+  },
+  "bldcPumps": {
+    "solarSubmersible1hp": {
+      "title": "ソーラーBLDC水中ポンプ1HP",
+      "description": "井戸およびボーリング孔アプリケーション向けの太陽光発電水中ポンプ",
+      "features": [
+        "太陽光発電対応運転",
+        "1HPモーター出力",
+        "高効率設計",
+        "水冷構造"
+      ]
+    },
+    "dcSurface2hp": {
+      "title": "DC表面ポンプ2HP",
+      "description": "灌漑および水移送用の高効率表面ポンプ",
+      "features": ["2HP電力定格", "自吸式設計", "空運転保護", "可変速度制御"]
+    },
+    "hybridSystem": {
+      "title": "ハイブリッドBLDCポンプシステム",
+      "description": "太陽光およびグリッドバックアップ機能を備えたインテリジェントポンプシステム",
+      "features": [
+        "ハイブリッド運転モード",
+        "スマートコントローラー",
+        "リモート監視",
+        "エネルギー最適化"
+      ]
+    }
+  },
+  "bldcFans": {
+    "tableFan": {
+      "title": "BLDCテーブルファンモーター",
+      "description": "テーブルおよびデスクファンアプリケーション向けのコンパクトなブラシレスDCモーター",
+      "features": ["コンパクト設計", "静音運転", "リモコン", "タイマー機能"]
+    },
+    "wallFan": {
+      "title": "BLDCウォールファンモーター",
+      "description": "住宅用BLDC技術を備えた壁掛けファンモーター",
+      "features": ["壁掛け設計", "振動機能", "速度制御", "省エネ運転"]
+    },
+    "pedestalFan": {
+      "title": "BLDC台座ファンモーター",
+      "description": "LEDディスプレイ付きの高さ調整可能な台座ファンモーター",
+      "features": [
+        "高さ調整",
+        "チルト機能",
+        "LEDディスプレイ",
+        "スリープモードタイマー"
+      ]
+    }
+  },
+  "electricalCables": {
+    "powerDistribution": {
+      "title": "配電ケーブル",
+      "description": "電力伝送および配電システム用の高電圧ケーブル",
+      "features": ["XLPE絶縁", "装甲構造", "耐火性", "高電流定格"]
+    },
+    "communication": {
+      "title": "通信ケーブル",
+      "description": "産業用通信ネットワーク用のデータ伝送ケーブル",
+      "features": [
+        "Cat5e/Cat6規格",
+        "光ファイバーオプション",
+        "工業用グレード",
+        "EMIシールド"
+      ]
+    }
+  },
+  "instrumentationCables": {
+    "shieldedPair": {
+      "title": "シールドペアケーブル",
+      "description": "計装および制御アプリケーション用の低電圧シールドケーブル",
+      "features": ["シールド構造", "耐湿性", "温度定格", "複数ペア構成"]
+    },
+    "thermocouple": {
+      "title": "熱電対延長ケーブル",
+      "description": "熱電対による温度測定用の特殊ケーブル",
+      "features": ["補償構造", "高温定格", "色分けされた絶縁", "低い熱起電力"]
+    },
+    "rtd": {
+      "title": "RTDセンサーケーブル",
+      "description": "RTD温度センサーおよびトランスミッター用の精密ケーブル",
+      "features": [
+        "低抵抗",
+        "ツイストペア設計",
+        "優れたノイズ耐性",
+        "柔軟な設置"
+      ]
+    }
+  },
+  "circuitBreakers": {
+    "schneiderM9r31240": {
+      "title": "シュナイダーエレクトリックM9R31240 RCCB",
+      "description": "電気安全保護用の4極残留電流回路ブレーカー",
+      "features": [
+        "4極構成",
+        "240V AC定格電圧",
+        "30mA残留電流",
+        "63A定格電流",
+        "Aタイプ残留電流検出"
+      ]
+    },
+    "schneiderM9r14463": {
+      "title": "シュナイダーエレクトリックM9R14463 RCCB",
+      "description": "家庭用アプリケーション向けの2極残留電流回路ブレーカー",
+      "features": [
+        "2極構成",
+        "240V AC定格電圧",
+        "10mA高感度",
+        "40A定格電流",
+        "ACタイプ残留電流検出"
+      ]
+    },
+    "abbF204a63": {
+      "title": "ABB F204 A-63/0.03 RCCB",
+      "description": "強化された保護を備えたAタイプ残留電流回路ブレーカー",
+      "features": [
+        "4極Aタイプ構成",
+        "415V AC定格電圧",
+        "30mA残留電流",
+        "63A定格電流",
+        "強化された安全機能"
+      ]
+    },
+    "abbF204ac25": {
+      "title": "ABB F204 AC-25/0.03 RCCB",
+      "description": "住宅用コンパクト残留電流回路ブレーカー",
+      "features": [
+        "2極ACタイプ構成",
+        "240V AC定格電圧",
+        "30mA残留電流",
+        "25A定格電流",
+        "コンパクトなDINレールマウント"
+      ]
+    },
+    "abbSaceEmaxE12": {
+      "title": "ABB SACE Emax E1.2 ACB",
+      "description": "低電圧配電用エアサーキットブレーカー",
+      "features": [
+        "1250A遮断容量",
+        "690V AC定格電圧",
+        "電子トリップユニット",
+        "引出し式設計",
+        "高度な保護機能"
+      ]
+    },
+    "abbSaceEmaxE22": {
+      "title": "ABB SACE Emax E2.2 ACB",
+      "description": "産業用アプリケーション向けの高性能エアサーキットブレーカー",
+      "features": [
+        "2000A遮断容量",
+        "690V AC定格電圧",
+        "マイクロプロセッサベースの保護",
+        "リモート操作機能",
+        "エネルギー計測機能"
+      ]
+    },
+    "schneiderMasterpactNw": {
+      "title": "シュナイダーエレクトリックMasterPact NW ACB",
+      "description": "インテリジェントな保護を備えた高度なエアサーキットブレーカー",
+      "features": [
+        "6300A遮断容量",
+        "690V AC定格電圧",
+        "Micrologicトリップユニット",
+        "通信機能",
+        "ゾーン選択性"
+      ]
+    },
+    "schneiderMasterpactMtz": {
+      "title": "シュナイダーエレクトリックMasterPact MTZ ACB",
+      "description": "スペース制約のあるアプリケーション向けのコンパクトなエアサーキットブレーカー",
+      "features": [
+        "2500A遮断容量",
+        "690V AC定格電圧",
+        "デジタルトリップユニット",
+        "コンパクトなフットプリント",
+        "簡単なメンテナンス"
+      ]
+    },
+    "abbVd412kv": {
+      "title": "ABB VD4 12kV VCB",
+      "description": "中電圧アプリケーション向けの12kV真空回路ブレーカー",
+      "features": [
+        "12kV定格電圧",
+        "31.5kA遮断容量",
+        "真空遮断技術",
+        "長い電気的寿命",
+        "メンテナンスフリー運転"
+      ]
+    },
+    "abbVd424kv": {
+      "title": "ABB VD4 24kV VCB",
+      "description": "高性能スイッチング用の24kV真空回路ブレーカー",
+      "features": [
+        "24kV定格電圧",
+        "25kA遮断容量",
+        "SF6フリー技術",
+        "コンパクト設計",
+        "環境にやさしい"
+      ]
+    },
+    "schneiderEvopact15kv": {
+      "title": "シュナイダーエレクトリックEvoPacT 15kV VCB",
+      "description": "高度な制御システムを備えた15kV真空回路ブレーカー",
+      "features": [
+        "15kV定格電圧",
+        "40kA遮断容量",
+        "統合制御ユニット",
+        "アーク監視システム",
+        "デジタル通信"
+      ]
+    },
+    "schneiderHvx33kv": {
+      "title": "シュナイダーエレクトリックHVX-O 33kV VCB",
+      "description": "変電所用の33kV屋外真空回路ブレーカー",
+      "features": [
+        "33kV定格電圧",
+        "25kA遮断容量",
+        "屋外設置",
+        "耐候性ハウジング",
+        "リモート監視機能"
+      ]
+    },
+    "siemens3ah4": {
+      "title": "シーメンス3AH4 VCB",
+      "description": "実績のある信頼性を備えた中電圧真空回路ブレーカー",
+      "features": [
+        "17.5kV定格電圧",
+        "31.5kA遮断容量",
+        "実績のある真空技術",
+        "低いメンテナンス要件",
+        "高い運転安全性"
+      ]
+    },
+    "mcb": {
+      "title": "小型回路ブレーカー（MCB）",
+      "description": "住宅および商業保護用の低電圧回路ブレーカー",
+      "features": [
+        "B/C/Dトリップカーブ",
+        "6-63A定格",
+        "10kA遮断容量",
+        "DINレールマウント"
+      ]
+    },
+    "mccb": {
+      "title": "モールドケース回路ブレーカー（MCCB）",
+      "description": "モーターおよび電力機器保護用の産業用回路ブレーカー",
+      "features": [
+        "調整可能なトリップ設定",
+        "高遮断容量",
+        "電子トリップユニット",
+        "最大1600A定格"
+      ]
+    },
+    "industrialFuses": {
+      "title": "産業用ヒューズ",
+      "description": "電気機器保護用の高速ヒューズ",
+      "features": [
+        "高速応答",
+        "時間遅延オプション",
+        "高電圧定格",
+        "セラミックボディ構造"
+      ]
+    }
+  },
+  "connectorsTerminals": {
+    "terminalBlocks": {
+      "title": "産業用端子台",
+      "description": "産業用ワイヤ接続用の安全な端子台",
+      "features": [
+        "スプリングクランプ技術",
+        "ネジ式接続",
+        "DINレールマウント",
+        "複数のサイズオプション"
+      ]
+    },
+    "industrialConnectors": {
+      "title": "産業用コネクタ",
+      "description": "要求の厳しい産業用アプリケーション向けの頑丈なコネクタ",
+      "features": [
+        "IP67保護等級",
+        "ロック機構",
+        "マルチピン構成",
+        "ケーブルグランド統合"
+      ]
+    },
+    "signalConnectors": {
+      "title": "信号コネクタ",
+      "description": "計装および信号伝送用の精密コネクタ",
+      "features": [
+        "低ノイズ設計",
+        "シールド構造",
+        "小型サイズ",
+        "高い信頼性性能"
+      ]
+    }
+  },
+  "subcategories": {
+    "sensors": {
+      "title": "センサーとトランスデューサー",
+      "description": "測定と制御のための産業用センサー"
+    },
+    "transmitters": {
+      "title": "トランスミッターと流量計",
+      "description": "プロセストランスミッターと信号変換装置"
+    },
+    "controllers": {
+      "title": "コントローラーとレコーダー",
+      "description": "産業用制御システムとオートメーションコントローラー"
+    },
+    "switches": {
+      "title": "スイッチとインジケーター",
+      "description": "産業用スイッチと制御機器"
+    },
+    "valves": {
+      "title": "バルブとアクチュエーター",
+      "description": "産業用バルブと流量制御システム"
+    },
+    "analyzers": {
+      "title": "アナライザー",
+      "description": "品質管理のためのプロセスアナライザー"
+    },
+    "signal-conditioners": {
+      "title": "シグナルコンディショナー",
+      "description": "信号処理およびコンディショニング装置"
+    },
+    "electrical-cables": {
+      "title": "電気ケーブル",
+      "description": "電気システム用の産業用電源ケーブルと制御ケーブル"
+    },
+    "instrumentation-cables": {
+      "title": "計装ケーブル",
+      "description": "プロセス制御および測定システム用の精密ケーブル"
+    },
+    "connectors-terminals": {
+      "title": "コネクターと端子",
+      "description": "電気コネクターと端子ソリューション"
+    },
+    "circuit-breakers-fuses": {
+      "title": "回路ブレーカーとヒューズ",
+      "description": "回路安全のための電気保護デバイス"
+    },
+    "contactorsRelays": {
+      "title": "接触器とリレー",
+      "description": "モーター制御用の産業用接触器と制御リレー"
+    },
+    "power-supplies": {
+      "title": "電源",
+      "description": "産業用電源ユニットとコンバーター"
+    },
+    "enclosures-cabinets": {
+      "title": "エンクロージャーとキャビネット",
+      "description": "電気エンクロージャーと制御キャビネットソリューション"
+    },
+    "heating-elements-appliances": {
+      "title": "発熱体と器具",
+      "description": "産業用加熱ソリューションと熱機器"
+    },
+    "multimeters": {
+      "title": "マルチメーター",
+      "description": "電気テスト用のデジタルおよびアナログマルチメーター"
+    },
+    "power-quality-analyzers": {
+      "title": "電力品質アナライザー",
+      "description": "電力品質測定および分析機器"
+    },
+    "solar-batteries-energy-storage": {
+      "title": "ソーラーバッテリーとエネルギー貯蔵",
+      "description": "太陽エネルギーアプリケーション向けのバッテリー貯蔵システム"
+    },
+    "surge-protectors": {
+      "title": "サージプロテクター",
+      "description": "機器安全のための電気サージ保護デバイス"
+    },
+    "safety-relays-switches": {
+      "title": "安全リレーとスイッチ",
+      "description": "産業安全のための安全リレーと非常停止スイッチ"
+    },
+    "intrinsically-safe-equipment": {
+      "title": "本質安全防爆機器",
+      "description": "危険場所用の防爆および本質安全防爆機器"
+    },
+    "centrifugal-pumps": {
+      "title": "遠心ポンプ",
+      "description": "流体移送用の高効率遠心ポンプ"
+    },
+    "diaphragm-pumps": {
+      "title": "ダイヤフラムポンプ",
+      "description": "化学アプリケーション用の容積式ダイヤフラムポンプ"
+    },
+    "gear-pumps": {
+      "title": "ギアポンプ",
+      "description": "粘性流体用の精密ギアポンプ"
+    },
+    "pump-parts-spares": {
+      "title": "ポンプ部品とスペア",
+      "description": "産業用ポンプの交換部品とスペアコンポーネント"
+    },
+    "hand-tools": {
+      "title": "ハンドツール",
+      "description": "産業保守および組立用のプロフェッショナルハンドツール"
+    },
+    "power-tools": {
+      "title": "電動工具",
+      "description": "ヘビーデューティーアプリケーション用の産業用電動工具"
+    },
+    "cutting-tools": {
+      "title": "切削工具",
+      "description": "金属加工用の精密切削工具および機器"
+    },
+    "lifting-equipment": {
+      "title": "吊り上げ装置",
+      "description": "マテリアルハンドリング用のホイスト、クレーン、および吊り上げ装置"
+    },
+    "sensors-transducers": {
+      "title": "センサーとトランスデューサー",
+      "description": "測定と制御のための産業用センサーとトランスデューサー"
+    },
+    "transmitters-flow-meters": {
+      "title": "トランスミッターと流量計",
+      "description": "プロセス監視用の産業用トランスミッターと流量計"
+    },
+    "switches-indicators": {
+      "title": "スイッチとインジケーター",
+      "description": "産業用スイッチと制御機器"
+    },
+    "valves-actuators": {
+      "title": "バルブとアクチュエーター",
+      "description": "産業用バルブと流量制御システム"
+    },
+    "safety-equipment": {
+      "title": "安全装備",
+      "description": "産業用途向けの包括的な安全装備および個人用保護具",
+      "sectionsTitle": "安全ソリューション",
+      "products": {
+        "ppe": {
+          "name": "個人用保護具（PPE）",
+          "description": "作業者保護のための安全装備",
+          "features": {
+            "hardHats": "ヘルメット",
+            "safetyGlasses": "安全メガネ",
+            "hearingProtection": "聴覚保護",
+            "workGloves": "作業手袋"
+          }
+        },
+        "fallProtection": {
+          "name": "転倒防止システム",
+          "description": "ハーネスと墜落制止装置",
+          "features": {
+            "fullBodyHarness": "全身ハーネス",
+            "lanyards": "ランヤード",
+            "anchorPoints": "アンカーポイント",
+            "selfRetracting": "自己収縮式"
+          }
+        },
+        "gasDetection": {
+          "name": "ガス検知装置",
+          "description": "ポータブルおよび固定ガス監視システム",
+          "features": {
+            "multiGasDetectors": "複合ガス検知器",
+            "singleGas": "単一ガス",
+            "wirelessMonitoring": "ワイヤレス監視",
+            "dataLogging": "データロギング"
+          }
+        }
+      },
+      "cta": {
+        "title": "安全装備が必要ですか？",
+        "description": "当社の安全スペシャリストが、お客様の従業員を保護するための包括的な安全ソリューションを提供します。",
+        "contactExpertsCta": "安全のエキスパートに連絡する",
+        "requestQuoteCta": "見積もりをリクエストする"
+      }
+    },
+    "bldc-cooler-exhaust-motor": {
+      "title": "BLDCクーラーおよび排気モーター",
+      "description": "クーラーおよび排気ファン用のエネルギー効率の高いBLDCモーター"
+    },
+    "bldc-ceiling-fan": {
+      "title": "BLDCシーリングファン",
+      "description": "リモコン付きの超効率的なBLDCシーリングファン"
+    },
+    "bldc-submersible-surface-pump": {
+      "title": "BLDC水中ポンプと地上ポンプ",
+      "description": "水アプリケーション用の高効率BLDCポンプ"
+    },
+    "bldc-table-fan-wall-fan-motor": {
+      "title": "BLDCテーブルファンとウォールファンモーター",
+      "description": "テーブルファンとウォールファン用のコンパクトBLDCモーター"
+    },
+    "solar-inverters": {
+      "title": "ソーラーインバーター",
+      "description": "住宅および商業アプリケーション向けの高効率ソーラーインバーター"
+    },
+    "plcs": {
+      "title": "PLC（プログラマブルロジックコントローラー）",
+      "description": "産業オートメーション用のプログラマブルロジックコントローラー"
+    },
+    "scada": {
+      "title": "SCADAシステム",
+      "description": "監視制御およびデータ収集システム"
+    },
+    "dcs": {
+      "title": "DCS（分散制御システム）",
+      "description": "プロセスオートメーション用の分散制御システム"
+    },
+    "hmi": {
+      "title": "HMI（ヒューマンマシンインターフェース）",
+      "description": "産業制御用のヒューマンマシンインターフェースシステム"
+    },
+    "grounding-systems": {
+      "title": "接地システム",
+      "description": "安全と機器保護のための電気接地およびアースシステム",
+      "subtitle": "安全と機器保護のための電気接地およびアースシステム",
+      "backButton": "安全および保護デバイスに戻る",
+      "badges": {
+        "groundRods": "接地棒",
+        "conductors": "導体",
+        "clampsLugs": "クランプとラグ",
+        "safetyGrounding": "安全接地"
+      },
+      "componentsSection": {
+        "title": "接地コンポーネント"
+      },
+      "products": {
+        "electrodes": {
+          "name": "接地電極",
+          "description": "電気安全のための銅および鋼の接地棒",
+          "features": {
+            "copperBonded": "銅結合",
+            "steelCore": "スチールコア",
+            "multipleLengths": "複数の長さ",
+            "ulListed": "ULリスト"
+          }
+        },
+        "conductors": {
+          "name": "接地導体",
+          "description": "接地システム用の裸銅導体",
+          "features": {
+            "solidStranded": "ソリッド/ストランド",
+            "highConductivity": "高導電性",
+            "corrosionResistant": "耐腐食性",
+            "multipleSizes": "複数のサイズ"
+          }
+        },
+        "accessories": {
+          "name": "接地アクセサリ",
+          "description": "接地設置用のクランプ、ラグ、およびフィッティング",
+          "features": {
+            "groundClamps": "接地クランプ",
+            "compressionLugs": "圧縮ラグ",
+            "testWells": "テストウェル",
+            "bondsJumpers": "ボンドとジャンパー"
+          }
+        }
+      },
+      "cta": {
+        "title": "接地ソリューションが必要ですか？",
+        "description": "当社の接地スペシャリストが、お客様の施設向けに安全で法令に準拠した接地システムを設計します。",
+        "contactButton": "接地のエキスパートに連絡する",
+        "quoteButton": "見積もりをリクエストする"
+      },
+      "keyFeatures": "主な機能：",
+      "seo": {
+        "title": "接地システム - 電気安全機器 | Powerton Engineering",
+        "description": "電気安全のためのプロフェッショナルな接地およびアースシステム。主要メーカーの銅接地棒、導体、クランプ、およびアクセサリ。",
+        "keywords": "接地システム、電気接地、アースシステム、接地棒、接地導体、電気安全機器、銅接地棒、接地アクセサリ、産業用接地"
+      }
+    },
+    "calibration-equipment": {
+      "title": "校正装置",
+      "description": "精密校正機器および試験装置"
+    },
+    "solar-panels": {
+      "title": "ソーラーパネル",
+      "description": "高効率ソーラーパネルおよび太陽光発電システム"
+    },
+    "instrument-transformers": {
+      "title": "計器用変成器",
+      "description": "測定および保護用の変流器および計器用変圧器"
+    },
+    "contactors-relays": {
+      "title": "接触器とリレー",
+      "description": "モーター制御用の電力接触器および電磁リレー"
+    },
+    "transformers-power-devices": {
+      "title": "変圧器と電力機器",
+      "description": "制御変圧器および電力変換機器"
+    },
+    "industrial-lighting": {
+      "title": "産業用照明",
+      "description": "標準、耐火性、耐候性を備えた街路灯、ハイベイライト、船舶灯、投光器、および井戸型ガラス灯を含む、包括的な産業用照明ソリューション"
+    },
+    "motor-controllers-drives": {
+      "title": "モーターコントローラーとドライブ",
+      "description": "可変周波数ド���イブおよびモーター制御ソリューション"
+    },
+    "protection-relays": {
+      "title": "保護リレー",
+      "description": "モーター保護および電圧監視リレー"
+    },
+    "panel-meters-indicators": {
+      "title": "パネルメーターとインジケーター",
+      "description": "電圧、電流、および電力測定用のアナログおよびデジタルパネルメーター"
+    }
+  },
+  "sections": {
+    "overview": "概要",
+    "technicalSpecifications": "技術仕様",
+    "keyFeatures": "主な機能",
+    "applications": "アプリケーション",
+    "industriesServed": "サービス対象産業",
+    "certificationsCompliance": "認証とコンプライアンス",
+    "certifications": "認証",
+    "qualityAssurance": "品質保証",
+    "qualityAssuranceDescription": "製品は国際規格および安全規制に適合しています。",
+    "completeListDescription": "{{groupTitle}}製品の仕様を含む完全なリスト",
+    "expertsHelpDescription": "当社の専門家が、お客様のアプリケーションに適した{{groupTitle}}を選択するお手伝いをします。",
+    "products": "当社の製品",
+    "productsDescription": "高品質の産業用ソリューションの包括的な範囲をご覧ください",
+    "allProducts": "すべての製品",
+    "needMoreOptions": "さらにオプションが必要ですか？",
+    "customSolutions": "お客様の特定の要件を満たすために、カスタムソリューションを提供し、追加の製品を調達できます。",
+    "professionalGrade": "プロフェッショナルグレードのソリューション",
+    "keyBenefits": "主な利点：",
+    "professionalConsultation": "専門家による相談を受ける",
+    "technicalConsultation": "技術相談"
+  },
+  "defaults": {
+    "groupDescription": "産業オートメーションアプリケーション向けの高品質製品。"
+  },
+  "filters": {
+    "all": "すべて",
+    "category": "カテゴリー",
+    "industry": "業界",
+    "status": "状態"
+  },
+  "status": {
+    "available": "利用可能",
+    "outOfStock": "在庫切れ",
+    "discontinued": "廃止"
+  },
+  "productPages": {
+    "transmitters": {
+      "title": "トランスミッター",
+      "transducers": "トランスデューサー"
+    },
+    "bldcSubmersibleSurfacePump": {
+      "title": "BLDC水中ポンプと地上ポンプ",
+      "subtitle": "給水、灌漑、太陽光発電アプリケーション向けのエネルギー効率の高いBLDCポンプ"
+    },
+    "cablesWires": {
+      "title": "ケーブルとワイヤー",
+      "subtitle": "電力伝送、計装、データ通信用の産業用ケーブルとワイヤー"
+    },
+    "handTools": {
+      "title": "ハンドツール",
+      "subtitle": "産業保守および製造アプリケーション向けのプログレードのハンドツール"
+    },
+    "powerTools": {
+      "title": "電動工具",
+      "subtitle": "ヘビーデューティーな製造およびメンテナンス作業用の産業用グレードの電動工具"
+    },
+    "cuttingTools": {
+      "title": "切削工具",
+      "subtitle": "機械加工、穴あけ、および材料加工アプリケーション向けのプロフェッショナルな切削工具"
+    },
+    "liftingEquipment": {
+      "title": "吊り上げ装置",
+      "subtitle": "安全な材料取り扱い作業のための産業用吊り上げおよび索具装置"
+    },
+    "valves": {
+      "title": "バルブとアクチュエーター",
+      "subtitle": "空気圧、電気、および油圧アクチュエーターを備えた産業用バルブ自動化ソリューション",
+      "shortDescription": "空気圧、電気、および油圧アクチュエーターを備えた産業用バルブ自動化ソリューション",
+      "fullDescription": "スマートテクノロジー、IoT接続、および状態監視を備えた四半回転およびリニアバルブを含む包括的なバルブ自動化ポートフォリオ。",
+      "seo": {
+        "title": "産業用バルブとアクチュエーター - 自動制御ソリューション | Powerton Engineering",
+        "description": "空気圧、電気、および油圧アクチュエーターによる産業用バルブ自動化。スマートポジショナーとフェールセーフ操作を備えたボールバルブ、バタフライバルブ、制御バルブ。",
+        "keywords": "産業用バルブ、バルブアクチュエーター、空気圧アクチュエーター、電気アクチュエーター、制御バルブ、自動バルブ、スマートポジショナー"
+      },
+      "keyBenefits": {
+        "preciseFlowControl": "正確な流量制御",
+        "enhancedSafety": "強化された安全性と信頼性",
+        "reducedEnergyConsumption": "エネルギー消費量の削減",
+        "predictiveMaintenance": "予測メンテナンス機能"
+      },
+      "specifications": {
+        "actuatorTypes": {
+          "label": "アクチュエーターの種類",
+          "value": "空気圧、電気、油圧"
+        },
+        "valveSizes": {
+          "label": "バルブサイズ",
+          "value": "1/4 \"〜48 \"（DN8〜DN1200）"
+        },
+        "pressureRating": {
+          "label": "圧力定格",
+          "value": "最大6000 PSI（414 bar）"
+        },
+        "temperatureRange": {
+          "label": "温度範囲",
+          "value": "-40°F〜1000°F（-40°C〜538°C）"
+        }
+      },
+      "applications": {
+        "processControl": "プロセス制御",
+        "oilGas": "石油ガス",
+        "chemicalProcessing": "化学処理",
+        "waterTreatment": "水処理",
+        "powerGeneration": "発電",
+        "hvacSystems": "HVACシステム"
+      },
+      "industries": {
+        "oilGas": "石油ガス",
+        "chemicalPetrochemical": "化学および石油化学",
+        "powerGeneration": "発電",
+        "waterWastewater": "水と廃水",
+        "foodBeverage": "食品と飲料",
+        "pharmaceutical": "医薬品"
+      }
+    },
+    "analyzers": {
+      "title": "プロセスアナライザー",
+      "subtitle": "プロセス監視用の高度な分析機器",
+      "product": {
+        "title": "プロセスアナライザー",
+        "shortDescription": "産業プロセス測定および監視用の高度なガスおよび液体アナライザー",
+        "fullDescription": "ガスアナライザー、液体アナライザー、およびチューナブルダイオードレーザー技術を備えたマルチパラメーター測定システムを含む包括的なプロセスアナライザーソリューション。",
+        "keyBenefits": {
+          "processControl": "改善されたプロセス制御",
+          "productQuality": "強化された製品品質",
+          "compliance": "規制順守",
+          "safety": "強化された安全性"
+        },
+        "altText": "ID-842：プロセスアナライザー-産業用ガスおよび液体プロセスアナライザー"
+      },
+      "seo": {
+        "keywords": "プロセスアナライザー、ガスアナライザー、液体アナライザー、pHアナライザー、導電率メーター、ガスクロマトグラフィー、プロセス監視"
+      },
+      "sections": {
+        "overview": {
+          "title": "高度なプロセス分析"
+        },
+        "technologies": {
+          "title": "分析技術",
+          "description": "正確なプロセス分析のための高度な測定技術"
+        },
+        "specifications": {
+          "title": "技術仕様",
+          "description": "信頼性の高いプロセス監視のための精密仕様"
+        }
+      },
+      "buttons": {
+        "consultation": "分析相談"
+      },
+      "labels": {
+        "technologies": "テクノロジー：",
+        "parameters": "パラメーター：",
+        "specifications": "仕様",
+        "applications": "アプリケーション",
+        "industries": "産業"
+      },
+      "cta": {
+        "title": "プロセス分析ソリューションが必要ow�すか？",
+        "description": "当社のプロセス分析の専門家が、お客様の監視およびコンプライアンス要件に適したアナライザーの選択をお手伝いします。",
+        "button": "分析エキスパート"
+      }
+    },
+    "automationControl": {
+      "title": "自動化および制御システム",
+      "subtitle": "産業プロセスの管理と最適化のための高度な自動化および制御ソリューション",
+      "description": "プロセス制御用の産業用自動化コントローラー",
+      "features": {
+        "digitalIO": "デジタルI / O",
+        "analogProcessing": "アナログ処理",
+        "communicationModules": "通信モジュール",
+        "programmingSoftware": "プログラミングソフトウェア",
+        "realtimeMonitoring": "リアルタイム監視",
+        "dataLogging": "データロギング",
+        "alarmManagement": "アラーム管理",
+        "remoteAccess": "リモートアクセス",
+        "processControl": "プロセス制御",
+        "distributedArchitecture": "分散アーキテクチャ",
+        "redundancy": "冗長性",
+        "advancedControl": "高度な制御",
+        "touchscreenDisplays": "タッチスクリーンディスプレイ",
+        "graphicInterface": "グラフィックインターフェース",
+        "dataVisualization": "データ視覚化",
+        "operatorControl": "オペレーター制御"
+      },
+      "subcategories": {
+        "plcs": {
+          "title": "PLC（プログラマブルロジックコントローラー）",
+          "description": "プロセス制御用の産業用自動化コントローラー"
+        },
+        "scada": {
+          "title": "SCADAシステム",
+          "description": "監視制御およびデータ収集システム"
+        },
+        "dcs": {
+          "title": "DCS（分散制御システム）",
+          "description": "大規模プロセス向けの分散制御システム"
+        },
+        "hmi": {
+          "title": "HMI（ヒューマンマシンインターフェース）",
+          "description": "産業用制御システムのユーザーインターフェース"
+        },
+        "motorDrivesVfds": {
+          "title": "モータードライブとVFD",
+          "description": "可変周波数ドライブとモーター制御システム"
+        }
+      },
+      "sections": {
+        "controlSystemSolutions": "制御システムソリューション",
+        "keyFeatures": "主な機能："
+      },
+      "cta": {
+        "needAutomationSolutions": "自動化ソリューションが必要ですか？",
+        "engineersDescription": "当社の自動化エンジニアが、お客様の施設向けの包括的な制御システムを設計および実装できます。",
+        "contactAutomationExperts": "自動化の専門家にお問い合わせください",
+        "requestQuote": "見積もりをリクエスト"
+      }
+    },
+    "bldcCeilingFan": {
+      "title": "BLDCシーリングファン",
+      "subtitle": "スマート機能と優れた性能を備えたエネルギー効率の高いブラシレスDCシーリングファン",
+      "upgradeTitle": "BLDCシーリングファンにアップグレードしますか？",
+      "upgradeDescription": "当社のBLDCスペシャリストが、お客様のスペースに最適なエネルギー効率の高いシーリングファンソリューションを選択するお手伝いをします。",
+      "contactExperts": "BLDCエキスパートにお問い合わせください"
+    },
+    "bldcCoolerExhaust": {
+      "title": "BLDCクーラーおよび排気モーター",
+      "subtitle": "冷却、換気、および排気アプリケーション向けのエネルギー効率の高いBLDCモーター"
+    },
+    "bldcSubmersible": {
+      "title": "BLDC水中ポンプと地上ポンプ",
+      "subtitle": "給水、灌漑、太陽光発電アプリケーション向けのエネルギー効率の高いBLDCポンプ"
+    },
+    "bldcTableWall": {
+      "title": "BLDCテーブルおよびウォールファンモーター",
+      "subtitle": "テーブルファン、ウォールファン、および台座ファン用のエネルギー効率の高いBLDCモーター"
+    },
+    "bldc": {
+      "title": "BLDC製品",
+      "subtitle": "エネルギー効率の高い冷却、換気、およびポンプアプリケーション向けのブラシレスDCモーター製品"
+    },
+    "cables": {
+      "title": "ケーブルとワイヤー",
+      "subtitle": "電力および制御アプリケーション向けの産業用ケーブルおよび配線ソリューション"
+    },
+    "calibration": {
+      "title": "校正装置",
+      "subtitle": "精密校正機器および試験装置"
+    },
+    "centrifugalPumps": {
+      "title": "遠心ポンプ",
+      "subtitle": "産業用アプリケーション向けの高効率遠心ポンプ"
+    },
+    "circuitBreakers": {
+      "title": "回路ブレーカーとヒューズ",
+      "subtitle": "回路の安全のための電気保護デバイス"
+    },
+    "connectors": {
+      "title": "コネクタと端子",
+      "subtitle": "電気コネクタと端子ソリューション"
+    },
+    "controllers": {
+      "title": "コントローラー",
+      "subtitle": "産業用制御システムと自動化コントローラー"
+    },
+    "dcs": {
+      "title": "DCS（分散制御システム）",
+      "subtitle": "プロセス産業向けの高度な分散制御システム"
+    },
+    "diaphragmPumps": {
+      "title": "ダイヤフラムポンプ",
+      "subtitle": "精密投与および化学処理ポンプ"
+    },
+    "electricalComponents": {
+      "title": "電気部品",
+      "subtitle": "産業用アプリケーション向けの完全な電気部品ソリューション"
+    },
+    "enclosures": {
+      "title": "エンクロージャーとキャビネット",
+      "subtitle": "電気エンクロージャーと制御キャビネットソリューション"
+    },
+    "gearPumps": {
+      "title": "ギアポンプ",
+      "subtitle": "油圧および産業用アプリケーション向けの精密ギアポンプ"
+    },
+    "grounding": {
+      "title": "接地システム",
+      "subtitle": "安全のための電気接地およびアースソリューション"
+    },
+    "heating": {
+      "title": "発熱体と器具",
+      "subtitle": "産業用加熱ソリューションと熱機器"
+    },
+    "hmi": {
+      "title": "HMI（ヒューマンマシンインターフェース）",
+      "subtitle": "産業オートメーション用のインタラクティブなオペレーターインターフェース"
+    },
+    "industrialTools": {
+      "title": "産業用ツールとタックル",
+      "subtitle": "ヘビーデューティーな産業用ツールと吊り上げ装置"
+    },
+    "instrumentation": {
+      "title": "計装コンポーネント",
+      "subtitle": "精密計装および測定コンポーネント"
+    },
+    "intrinsicallySafe": {
+      "title": "本質安全防爆機器",
+      "subtitle": "危険場所アプリケーション向けの認定機器"
+    },
+    "lifting": {
+      "title": "吊り上げ装置",
+      "subtitle": "産業用吊り上げおよび材料取り扱いソリューション"
+    },
+    "measurement": {
+      "title": "測定器",
+      "subtitle": "精密測定および試験機器"
+    },
+    "mechanical": {
+      "title": "機械式ポンプとスペア",
+      "subtitle": "産業用アプリケーション向けの機械式ポンプとスペアパーツ"
+    },
+    "multimeters": {
+      "title": "マルチメーター",
+      "subtitle": "電気テスト用のデジタルおよびアナログマルチメーター"
+    },
+    "plcs": {
+      "title": "PLC（プログラマブルロジックコントローラー）",
+      "subtitle": "自動化のための産業用プログラマブルロジックコントローラー"
+    },
+    "powerQuality": {
+      "title": "電力品質アナライザー",
+      "subtitle": "電力品質測定および分析機器"
+    },
+    "powerSupplies": {
+      "title": "電源",
+      "subtitle": "産業用電源ユニットとコンバーター"
+    },
+    "pumpParts": {
+      "title": "ポンプ部品とスペア",
+      "subtitle": "ポンプシステムの交換部品とコンポーネント"
+    },
+    "safetyEquipment": {
+      "title": "安全装備",
+      "subtitle": "個人用保護具および安全装置"
+    },
+    "safetyProtective": {
+      "title": "安全および保護デバイス",
+      "subtitle": "産業用安全システムと保護具",
+      "description": "産業環境における人員と設備の安全を確保するための包括的な安全および保護具",
+      "sectionsTitle": "安全ソリューション",
+      "cta": {
+        "title": "業務における安全の優先順位付け？",
+        "description": "当社の安全エンジニアがお客様の施設を評価し、包括的な保護ソリューションを推奨できます。",
+        "contactButton": "安全のエキスパートにお問い合わせください"
+      }
+    },
+    "safetyRelays": {
+      "title": "安全リレーとスイッチ",
+      "subtitle": "安全制御リレーと非常停止システム"
+    },
+    "scada": {
+      "title": "SCADAシステム",
+      "subtitle": "監視制御およびデータ収集システム"
+    },
+    "sensors": {
+      "title": "センサー",
+      "subtitle": "測定および制御用の産業用センサー"
+    },
+    "signalConditioners": {
+      "title": "シグナルコンディショナー",
+      "subtitle": "信号処理およびコンディショニング装置"
+    },
+    "solarBatteries": {
+      "title": "ソーラーバッテリーとエネルギー貯蔵",
+      "subtitle": "太陽光発電システムのエネルギー貯蔵ソリューション"
+    },
+    "solarInverters": {
+      "title": "ソーラーインバーター",
+      "subtitle": "太陽光発電インバーターおよび系統連系システム"
+    },
+    "solarPanels": {
+      "title": "ソーラーパネル",
+      "subtitle": "高効率ソーラーパネルと太陽光発電システム"
+    },
+    "solarProducts": {
+      "title": "ソーラー製品",
+      "subtitle": "完全な太陽エネルギーソリューションとコンポーネント"
+    },
+    "surgeProtectors": {
+      "title": "サージプロテクター",
+      "subtitle": "電気サージ保護デバイスとシステム"
+    },
+    "switches": {
+      "title": "スイッチ",
+      "subtitle": "産業用スイッチおよび制御デバイス"
+    }
+  },
+  "common": {
+    "keyFeatures": "主な機能：",
+    "needHelp": "助けが必要？",
+    "contactExperts": "専門家にお問い合わせください",
+    "requestQuote": "見積もりをリクエスト",
+    "hazardousAreaSolutions": "危険場所ソリューション",
+    "needEquipment": "機器が必要ですか？",
+    "specialists": "スペシャリスト"
+  },
+  "hmi": {
+    "title": "HMI（ヒューマンマシンインターフェース）",
+    "subtitle": "オペレーター制御およびシステム視覚化のための産業用ヒューマンマシンインターフェース",
+    "navigation": {
+      "backToAutomation": "自動化および制御システムに戻る"
+    },
+    "badges": {
+      "touchscreen": "タッチスクリーン",
+      "industrialGrade": "工業用グレード",
+      "realTimeDisplay": "リアルタイム表示",
+      "multiProtocol": "マルチプロトコル"
+    },
+    "solutionsTitle": "HMIソリューション",
+    "products": {
+      "panelMount": {
+        "name": "パネルマウントHMIディスプレイ",
+        "description": "マシンインターフェース用の産業用タッチスクリーンディスプレイ",
+        "features": [
+          "タッチインターフェース",
+          "産業用評価",
+          "複数のサイズ",
+          "通信プロトコル"
+        ]
+      },
+      "operatorInterface": {
+        "name": "オペレーターインターフェイスタ端末",
+        "description": "過酷な環境向けの堅牢なオペレーター端末",
+        "features": [
+          "IP65 / IP67定格",
+          "ステンレス鋼",
+          "メンブレンキーパッド",
+          "バックライト付きディスプレイ"
+        ]
+      },
+      "mobile": {
+        "name": "モバイルHMIソリューション",
+        "description": "ワイヤレスおよびモバイルヒューマンマシンインターフェース",
+        "features": [
+          "ワイヤレス接続",
+          "モバイルアプリ",
+          "リモートアクセス",
+          "リアルタイムデータ"
+        ]
+      }
+    },
+    "cta": {
+      "title": "HMIソリューションが必要ですか？",
+      "description": "当社のHMIスペシャリストが、お客様の自動化システム向けの直感的なオペレーターインターフェースを設計できます。",
+      "contactExperts": "HMIエキスパートにお問い合わせください"
+    }
+  },
+  "solarPanels": {
+    "monocrystalline": {
+      "description": "高効率単結晶シリコンソーラーパネル",
+      "features": {
+        "efficiency": "21.5％効率",
+        "warranty": "25年保証",
+        "weatherResistant": "耐候性",
+        "antiReflective": "反射防止コーティング"
+      }
+    },
+    "polycrystalline": {
+      "description": "費用対効果の高い多結晶ソーラーパネルソリューション",
+      "features": {
+        "efficiency": "19.2％効率",
+        "warranty": "20年保証",
+        "durable": "耐久性のある構造",
+        "installation": "簡単なインストール"
+      }
+    },
+    "bifacial": {
+      "description": "最大のエネルギーハーベストのための高度な両面技術",
+      "features": {
+        "frontBack": "フロント+バック生成",
+        "moreEnergy": "25％多いエネルギー",
+        "glassDesign": "ガラス-ガラス設計",
+        "longLifespan": "長寿命"
+      }
+    }
+  },
+  "plcProducts": {
+    "siemens": {
+      "description": "中小規模の自動化アプリケーション向けのコンパクトPLC",
+      "features": {
+        "integratedIO": "統合I/O",
+        "ethernet": "イーサネット通信",
+        "programming": "TIAポータルプログラミング",
+        "failSafe": "フェイルセーフオプション"
+      }
+    },
+    "allenBradley": {
+      "description": "統合された安全機能を備えた高性能PLC",
+      "features": {
+        "safety": "GuardLogixセーフティ",
+        "ethernet": "デュアルイーサネットポート",
+        "software": "Studio 5000ソフトウェア",
+        "motion": "モーションコントロール"
+      }
+    },
+    "schneider": {
+      "description": "複雑な産業プロセス向けのハイエンドPLC",
+      "features": {
+        "hotStandby": "ホットスタンバイCPU",
+        "ethernet": "イーサネットリングトポロジー",
+        "software": "Unity Proソフトウェア",
+        "security": "サイバーセキュリティ"
+      }
+    }
+  },
+  "features": {
+    "safetyDevices": {
+      "surgeProtectors": {
+        "title": "サージプロテクター",
+        "description": "機器の安全のための電気サージ保護デバイス",
+        "features": {
+          "lightning": "雷保護",
+          "voltage": "電圧サージ保護",
+          "equipment": "機器の安全",
+          "power": "電力品質"
+        }
+      },
+      "groundingSystems": {
+        "title": "接地システム",
+        "description": "安全のための電気接地およびアースシステム",
+        "features": {
+          "electrodes": "接地電極",
+          "rods": "接地棒",
+          "conductors": "ボンディング導体",
+          "lightning": "避雷針"
+        }
+      },
+      "safetyRelays": {
+        "title": "安全リレーとスイッチ",
+        "description": "緊急シャットダウンシステム用の安全制御デバイス",
+        "features": {
+          "emergency": "非常停止",
+          "monitoring": "安  �監視",
+          "failSafe": "フェイルセーフ設計",
+          "certified": "認定安全"
+        }
+      },
+      "intrinsicallySafe": {
+        "title": "本質安全防爆機器",
+        "description": "危険な環境向けの防爆機器",
+        "features": {
+          "atex": "ATEX認証済み",
+          "explosion": "防爆",
+          "hazardous": "危険区域",
+          "intrinsic": "本質安全"
+        }
+      },
+      "badges": {
+        "surgeProtection": "サージ保護",
+        "groundingSystems": "接地システム",
+        "safetyRelays": "安全リレー",
+        "intrinsicSafety": "本質安全"
+      }
+    },
+    "common": {
+      "highTorque": "高トルク",
+      "variableSpeed": "可変速度",
+      "cordlessOptions": "コードレスオプション",
+      "chuckCapacity": "チャック容量：13mm",
+      "multipleSizes": "複数のサイズ",
+      "safetyGuards": "安全ガード",
+      "antiVibration": "防振",
+      "powerfulMotors": "強力なモーター",
+      "highImpactForce": "高い衝撃力",
+      "socketCompatibility": "ソケットの互換性",
+      "forwardReverse": "正転/逆転",
+      "batteryPowered": "バッテリー駆動",
+      "efficientSwitching": "85-265V AC入力",
+      "dcOutput": "12V/24V DC出力",
+      "highEfficiency": "高効率",
+      "compactDesign": "コンパクト設計",
+      "dinRailMount": "DINレールマウント",
+      "wideInputRange": "広い入力範囲",
+      "shortCircuitProtection": "短絡保護",
+      "ledStatus": "LEDステータス",
+      "batteryBackup": "バッテリーバックアップ",
+      "surgeProtection": "サージ保護",
+      "autoTransfer": "自動転送",
+      "lcdDisplay": "LCDディスプレイ",
+      "castIronBronze": "鋳鉄/ブロンズ",
+      "stainlessSteelSizes": "ステンレス鋼",
+      "balancedDesign": "バランス設計",
+      "singleDoubleSeals": "シングル/ダブルシール",
+      "cartridgeType": "カートリッジタイプ",
+      "highTemperature": "高温",
+      "chemicalResistant": "耐薬品性",
+      "rollingElement": "転がり軸受",
+      "sleeveBearings": "滑り軸受",
+      "flexibleCouplings": "フレキシブルカップリング",
+      "alignmentTools": "アライメントツール",
+      "threePhase": "三相測定",
+      "harmonicsAnalysis": "高調波解析",
+      "transientCapture": "トランジェントキャプチャ",
+      "powerLogging": "電力ロギング",
+      "voltageDip": "電圧ディップ検出",
+      "flickerMeasurement": "フリッカー測定",
+      "energyAssessment": "エネルギー評価",
+      "realTimeAnalysis": "リアルタイム分析",
+      "continuousMonitoring": "連続監視",
+      "eventRecording": "イベント記録",
+      "complianceTesting": "コンプライアンステスト",
+      "remoteAccess": "リモートアクセス",
+      "selfPriming": "自吸式",
+      "dryRunSafe": "空運転セーフ",
+      "variableFlow": "可変流量",
+      "preciseMeteringLow": "精密なメータリング",
+      "lowPulsation": "低脈動",
+      "digitalControl": "デジタル制御",
+      "easyMaintenance": "簡単なメンテナンス",
+      "highPressure": "高圧",
+      "lowFlowRates": "低流量",
+      "accurateDosing": "正確な投薬",
+      "leakFreeOperation": "リークフリー運転"
+    },
+    "product": {
+      "safetyEquipment": {
+        "fullBodyHarness": "全身ハーネス",
+        "lanyards": "ランヤード",
+        "anchorPoints": "アンカーポイント",
+        "selfRetracting": "自己収縮式",
+        "multiGasDetectors": "複合ガス検知器",
+        "singleGas": "単一ガス",
+        "wirelessMonitoring": "ワイヤレス監視",
+        "dataLogging": "データロギング"
+      },
+      "electrical": {
+        "powerCables": "電源ケーブル",
+        "controlCables": "制御ケーブル",
+        "instrumentationCables": "計装ケーブル",
+        "communicationCables": "通信ケーブル",
+        "terminalBlocks": "端子台",
+        "wireConnectors": "ワイヤーコネクター",
+        "dinRailTerminals": "DINレール端子",
+        "junctionBoxes": "ジャンクションボックス",
+        "mcbs": "MCB",
+        "mccbs": "MCCB",
+        "rccbs": "RCCB",
+        "industrialFuses": "産業用ヒューズ",
+        "smps": "SMPS",
+        "dcDcConverters": "DC-DCコンバーター",
+        "upsSystems": "UPSシステム",
+        "controlPanels": "制御盤",
+        "distributionBoards": "配電盤",
+        "weatherproofEnclosures": "耐候性エンクロージャー",
+        "heatingElements": "発熱体",
+        "industrialHeaters": "工業用ヒーター",
+        "temperatureControllers": "温度コントローラー",
+        "thermalProtection": "熱保護"
+      },
+      "pumps": {
+        "viscousFluids": "粘性流体",
+        "preciseFlow": "精密な流れ",
+        "castIronSteel": "鋳鉄/鋼",
+        "gentleHandling": "穏やかな取り扱い",
+        "noMechanicalSeal": "メカニカルシールなし",
+        "leakFree": "リークフリー"
+      },
+      "enclosures": {
+        "nema4xRating": "NEMA 4X定格",
+        "gasketSealed": "ガスケット密閉",
+        "floorStanding": "床置き",
+        "wallMount": "壁掛け",
+        "cableManagement": "ケーブル管理",
+        "coolingOptions": "冷却オプション",
+        "ip65Ip67Rating": "IP65/IP67定格",
+        "explosionProof": "防爆",
+        "cableGlands": "ケーブルグランド",
+        "corrosionResistant": "耐腐食性"
+      }
+    }
+  },
+  "locations": {
+    "delhiNcr": "デリーNCR",
+    "rajasthan": "ラジャスタン",
+    "uttarPradesh": "ウッタルプラデーシュ",
+    "gujarat": "グジャラート",
+    "maharashtra": "マハラシュトラ",
+    "haryana": "ハリヤナ",
+    "westBengal": "西ベンガル"
+  },
+  "brands": {
+    "customBuilt": "カスタムビルド",
+    "fluke": "フルーク、キーサイト",
+    "siemens": "シーメンス、アレンブラッドリー",
+    "abb": "ABB、シュナイダー",
+    "honeywell": "ハネウェル、横河",
+    "wonderware": "Wonderware、iFIX",
+    "grundfos": "グルンドフォス、KSB",
+    "3m": "3M、MSA"
+  },
+  "items": {
+    "instrumentation-accessories": "計装アクセサリ",
+    "electrical-accessories": "電気アクセサリ",
+    "solar-products": "ソーラー製品",
+    "automation-control-systems": "自動化および制御システム",
+    "safety-protective-devices": "安全および保護デバイス",
+    "mechanical-pumps-spares": "機械式ポンプとスペア",
+    "industrial-measuring-tools": "産業用および測定ツール",
+    "bldc": "BLDC製品"
+  },
+  "tags": {
+    "industrialAutomation": "産業オートメーション",
+    "plcSystems": "PLCシステム",
+    "scada": "SCADA",
+    "manufacturing": "製造",
+    "processOptimization": "プロセス最適化"
+  },
+  "gallery": {
+    "imagePlaceholder": "画像のプレースホルダー",
+    "actualImages": "アップロードされる実際の画像"
+  },
+  "labels": {
+    "productsCount": "{{count}} 製品",
+    "industrialProduct": "工業製品",
+    "products": "製品",
+    "specifications": "仕様",
+    "applications": "アプリケーション",
+    "industries": "業界",
+    "keyFeatures": "主な機能",
+    "technologies": "テクノロジー:",
+    "parameters": "パラメーター:"
+  },
+  "badges": {
+    "ppe": "PPE",
+    "fallProtection": "転倒防止",
+    "gasDetection": "ガス検知",
+    "oshaCompliant": "OSHA準拠",
+    "signalIntelligence": "シグナルインテリジェンス",
+    "vectorAnalysis": "ベクトル解析",
+    "rfAnalysis": "RF解析",
+    "emiTesting": "EMIテスト",
+    "monocrystalline": "単結晶",
+    "polycrystalline": "多結晶",
+    "bifacial": "両面",
+    "highEfficiency": "高効率",
+    "stringInverters": "ストリングインバーター",
+    "centralInverters": "セントラルインバーター",
+    "hybridSystems": "ハイブリッドシステム",
+    "gridTie": "系統連系",
+    "highPressure": "高圧",
+    "viscousFluids": "粘性流体",
+    "preciseFlow": "精密な流れ",
+    "selfPriming": "自吸式",
+    "smartMonitoring": "スマートモニタリング",
+    "batteryProtection": "バッテリー保護",
+    "weatherproof": "耐候性",
+    "modularDesign": "モジュラー設計",
+    "solarCompatible": "太陽光発電対応",
+    "corrosionResistant": "耐腐食性",
+    "smartControl": "スマート制御",
+    "lithiumIon": "リチウムイオン",
+    "leadAcid": "鉛酸",
+    "energyStorageSystems": "エネルギー貯蔵システム",
+    "gridBackup": "グリッドバックアップ",
+    "chemicalResistant": "耐薬品性",
+    "preciseMetering": "精密なメータリング",
+    "dryRunSafe": "空運転セーフ",
+    "processControl": "プロセス制御",
+    "safetySystems": "安全システム",
+    "assetManagement": "資産管理",
+    "advancedAnalytics": "高度な分析",
+    "energyEfficient": "エネルギー効率",
+    "silentOperation": "静音運転",
+    "longLife": "長寿命",
+    "realtimeMonitoring": "リアルタイムモニタリング",
+    "dataLogging": "データロギング",
+    "alarmManagement": "アラーム管理",
+    "remoteAccess": "リモートアクセス",
+    "durableConstruction": "耐久性のある構造",
+    "ergonomicDesign": "人間工学に基づいた設計",
+    "professionalGrade": "プロフェッショナルグレード",
+    "groundRods": "接地棒",
+    "conductors": "導体",
+    "safetyGrounding": "安全接地"
+  },
+  "productDetails": {
+    "instrumentation": {
+      "fullDescription": "産業用監視および制御アプリケーション向けの精密計装コンポーネントの包括的な範囲。",
+      "specifications": {
+        "highAccuracy": "高精度：±0.1％〜±0.5％",
+        "operatingTemperature": "動作温度：-40°C〜+ 85°C",
+        "protectionRating": "IP65/IP67保護等級",
+        "outputTypes": "4-20mA、0-10V、HART、Profibus出力",
+        "explosionProof": "防爆バリアントが利用可能"
+      },
+      "applications": {
+        "processControl": "プロセス制御",
+        "qualityMonitoring": "品質監視",
+        "safetySystems": "安全システム",
+        "environmentalMonitoring": "環境モニタリング"
+      },
+      "features": {
+        "smartDiagnostics": "スマート診断",
+        "digitalCommunication": "デジタル通信",
+        "easyCalibration": "簡単なキャリブレーション",
+        "longTermStability": "長期安定性"
+      }
+    },
+    "electrical": {
+      "fullDescription": "産業用アプリケーション向けのスイッチ、リレー、コンタクタ、配電機器を含む電気部品の完全な範囲。",
+      "specifications": {
+        "voltageRange": "電圧範囲：24V DC〜690V AC",
+        "currentRatings": "電流定格：1A〜1000A",
+        "protectionLevel": "IP54〜IP67保護",
+        "standardsCompliant": "IEC/IS規格に準拠",
+        "temperatureRated": "温度定格：-25°C〜+ 70°C"
+      },
+      "applications": {
+        "motorControl": "モーター制御",
+        "powerDistribution": "配電",
+        "switchingApplications": "スイッチングアプリケーション",
+        "protectionSystems": "保護システム"
+      },
+      "features": {
+        "highReliability": "高信頼性",
+        "modularDesign": "モジュラー設計",
+        "easyInstallation": "簡単なインストール",
+        "maintenanceFree": "メンテナンスフリー"
+      }
+    },
+    "measurement": {
+      "fullDescription": "電気およびプロセスパラメーターの正確な測定および監視のための高度なデジタルメーター、アナライザー、およびキャリブレーション機器。",
+      "specifications": {
+        "accuracyClass": "精度クラス：0.1〜1.0",
+        "displayType": "ディスプレイ：デジタルLCD/LED",
+        "communicationOptions": "通信：RS485、イーサネット、ワイヤレス",
+        "dataLogging": "データロギング機能",
+        "multipleParameter": "複数のパラメーター測定"
+      },
+      "applications": {
+        "powerQualityAnalysis": "電力品質分析",
+        "energyManagement": "エネルギー管理",
+        "processMonitoring": "プロセス監視",
+        "complianceMeasurement": "コンプライアンス測定"
+      },
+      "features": {
+        "realTimeMonitoring": "リアルタイムモニタリング",
+        "dataAnalytics": "データ分析",
+        "alarmManagement": "アラーム管理",
+        "remoteAccess": "リモートアクセス"
+      }
+    },
+    "solar": {
+      "fullDescription": "持続可能なエネルギー生成のためのパネル、インバーター、監視システム、および系統連系機器を含む完全な太陽エネルギーソリューション。",
+      "specifications": {
+        "panelEfficiency": "パネル効率：19〜22％",
+        "powerRange": "電力範囲：パネルあたり300W〜500W",
+        "inverterEfficiency": "インバーター効率：> 98％",
+        "warranty": "パネルの25年間の保証",
+        "gridOptions": "系統連系およびオフグリッドソリューション"
+      },
+      "applications": {
+        "rooftopSolar": "屋上ソーラー",
+        "groundMountSystems": "地上設置システム",
+        "solarFarms": "ソーラーファーム",
+        "hybridSystems": "ハイブリッドシステム"
+      },
+      "features": {
+        "highEfficiency": "高効率",
+        "weatherResistant": "耐候性",
+        "smartMonitoring": "スマートモニタリング",
+        "gridSynchronization": "グリッド同期"
+      }
+    },
+    "automation": {
+      "fullDescription": "PLC、HMI、SCADAソリューション、および産業用通信デバイスを含む高度な自動化および制御システム。",
+      "specifications": {
+        "ioCapacity": "I/O容量：16〜2048ポイント",
+        "communicationProtocols": "通信：イーサネット、Profibus、Modbus",
+        "programmingStandards": "プログラミング：IEC 61131-3準拠",
+        "operatingTemperature": "動作温度：0°C〜+ 60°C",
+        "redundancyOptions": "冗長オプションが利用可能"
+      },
+      "applications": {
+        "manufacturingAutomation": "製造オートメーション",
+        "processControl": "プロセス制御",
+        "buildingManagement": "ビル管理",
+        "machineControl": "マシン制御"
+      },
+      "features": {
+        "flexibleProgramming": "柔軟なプログラミング",
+        "scalableArchitecture": "スケーラブルなアーキテクチャ",
+        "diagnosticTools": "診断ツール",
+        "remoteMonitoring": "リモートモニタリング"
+      }
+    },
+    "safety": {
+      "fullDescription": "回路ブレーカー、安全リレー、非常停止システム、および保護デバイスを含む包括的な安全および保護機器。",
+      "specifications": {
+        "breakingCapacity": "遮断容量：6kA〜100kA",
+        "safetyIntegrityLevel": "安全インテグリティレベル：SIL 2/3",
+        "responseTime": "応答時間：<10ms",
+        "multipleProtectionFunctions": "複数の保護機能",
+        "arcFaultProtection": "アーク故障保護が利用可能"
+      },
+      "applications": {
+        "personnelSafety": "人員の安全",
+        "equipmentProtection": "機器の保護",
+        "fireSafety": "火災安全",
+        "emergencySystems": "緊急システム"
+      },
+      "features": {
+        "failSafeOperation": "フェイルセーフ動作",
+        "selfMonitoring": "自己監視",
+        "quickResponse": "迅速な対応",
+        "easyTesting": "簡単なテスト"
+      }
+    },
+    "pumps": {
+      "fullDescription": "さまざまな産業用および商業用アプリケーション向けの高品質の機械式ポンプ、スペアパーツ、およびメンテナンスキット。",
+      "specifications": {
+        "flowRate": "流量：10 LPM〜5000 LPM",
+        "head": "ヘッド：10m〜500m",
+        "materials": "材料：鋳鉄、SS316、ブロンズ",
+        "temperatureRange": "温度：-20°C〜+ 180°C",
+        "efficiency": "効率：最大85％"
+      },
+      "applications": {
+        "waterSupply": "給水",
+        "chemicalProcessing": "化学処理",
+        "hvacSystems": "HVACシステム",
+        "industrialProcesses": "産業プロセス"
+      },
+      "features": {
+        "energyEfficient": "エネルギー効率",
+        "corrosionResistant": "耐腐食性",
+        "lowMaintenance": "低メンテナンス",
+        "reliableOperation": "信頼性の高い操作"
+      }
+    },
+    "tools": {
+      "fullDescription": "さまざまなエンジニアリングおよびメンテナンスアプリケーション向けのプログレードの産業用ツール、タックル、およびメンテナンス機器。",
+      "specifications": {
+        "material": "材料：高級鋼/合金",
+        "precision": "精度：±0.1mm精度",
+        "operatingRange": "動作範囲：さまざまなサイズ",
+        "ergonomicDesign": "人間工学に基づいた設計",
+        "certifiedStandards": "国際規格に認定"
+      },
+      "applications": {
+        "maintenanceWork": "メンテナンス作業",
+        "installation": "インストール",
+        "calibration": "校正",
+        "testingCommissioning": "テストと試運転"
+      },
+      "features": {
+        "durableConstruction": "耐久性のある構造",
+        "ergonomicDesign": "人間工学に基づいた設計",
+        "precisionEngineering": "精密エンジニアリング",
+        "multiPurposeUse": "多目的使用"
+      }
+    }
+  },
+  "sensors": {
+    "omronPnpProximity": {
+      "title": "OMRON E2E-X5ME1 PNP近接センサー",
+      "description": "M18ハウジングと拡張された検出範囲を備えた高性能PNP誘導近接センサー",
+      "features": [
+        "PNP出力（NO）",
+        "M18 x 1スレッド",
+        "5mm検出距離",
+        "IP67保護",
+        "LED動作インジケーター"
+      ]
+    },
+    "pepperlFuchsPnp": {
+      "title": "Pepperl+Fuchs NBB5-18GM60-E2 PNPセンサー",
+      "description": "強化された電磁適合性を備えた堅牢な誘導近接センサー",
+      "features": [
+        "PNP出力（NO）",
+        "M18ハウジング",
+        "5mm検出距離",
+        "強化されたEMC",
+        "PTFEケーブル"
+      ]
+    },
+    "sickNpnProximity": {
+      "title": "SICK IM12-04BNS-ZW1 NPN近接センサー",
+      "description": "NPN出力と高いスイッチング周波数を持つコンパクトなM12誘導近接センサー",
+      "features": [
+        "NPN出力（NO）",
+        "M12 x 1スレッド",
+        "4mm検出距離",
+        "高いスイッチング周波数",
+        "フラッシュマウント"
+      ]
+    },
+    "turckNpnProximity": {
+      "title": "Turck BI5-G18-AN6X NPN近接センサー",
+      "description": "優れた温度安定性を備えた信頼性の高い誘導近接センサー",
+      "features": [
+        "NPN出力（NO）",
+        "M18ハウジング",
+        "5mm検出距離",
+        "温度安定",
+        "短絡保護"
+      ]
+    },
+    "wikaPt100Rtd": {
+      "title": "WIKA TR10 PT100 RTD温度センサー",
+      "description": "正確な温度測定のためのPT100エレメントを備えた精密抵抗温度検出器",
+      "features": [
+        "PT100エレメント",
+        "クラスA精度",
+        "3線式構成",
+        "ステンレス鋼プローブ",
+        "温度範囲：-200°C〜+ 600°C"
+      ]
+    },
+    "rosemountPt500Rtd": {
+      "title": "Rosemount 78S PT500 RTD温度センサー",
+      "description": "重要な温度監視アプリケーション向けの高精度PT500 RTDセンサー",
+      "features": [
+        "PT500エレメント",
+        "高精度",
+        "4線式構成",
+        "二重線",
+        "温度範囲：-200°C〜+ 850°C"
+      ]
+    },
+    "omegaPt1000Rtd": {
+      "title": "OMEGA PT1000 RTD温度センサー",
+      "description": "産業用アプリケーション向けの精密PT1000抵抗温度検出器",
+      "features": [
+        "PT1000エレメント",
+        "高解像度",
+        "3線式構成",
+        "316SS構造",
+        "温度範囲：-200°C〜+ 600°C"
+      ]
+    },
+    "tcLtdTypeK": {
+      "title": "TC LtdタイプK熱電対",
+      "description": "広範囲の温度範囲のアプリケーション向けの汎用タイプK熱電対",
+      "features": [
+        "タイプK（クロメル-アルメル）",
+        "広い温度範囲",
+        "高速応答",
+        "ミネラル絶縁",
+        "温度範囲：-270°C〜+ 1260°C"
+      ]
+    },
+    "omegaTypeJ": {
+      "title": "OMEGAタイプJ熱電対",
+      "description": "不活性および還元雰囲気のために理想的な鉄-コンスタンタン熱電対",
+      "features": [
+        "タイプJ（鉄-コンスタンタン）",
+        "良好な直線性",
+        "磁気特性",
+        "費用対効果",
+        "温度範囲：-210°C〜+ 760°C"
+      ]
+    },
+    "wikaTypeT": {
+      "title": "WIKAタイプT熱電対",
+      "description": "正確な低温測定のための銅-コンスタンタン熱電対",
+      "features": [
+        "タイプT（銅-コンスタンタン）",
+        "高精度",
+        "低温で安定",
+        "良好な再現性",
+        "温度範囲：-270°C〜+ 400°C"
+      ]
+    },
+    "omegaTypeS": {
+      "title": "OMEGAタイプS熱電対",
+      "description": "高温および酸化環境用のプラチナ-ロジウム熱電対",
+      "features": [
+        "タイプS（Pt-10％Rh）",
+        "高温機能",
+        "耐酸化性",
+        "高精度",
+        "温度範囲：-50°C〜+ 1768°C"
+      ]
+    },
+    "endressHauserPh": {
+      "title": "Endress+Hauser Orbisint CPS11D pHセンサー",
+      "description": "プロセスアプリケーション向けの高度な診断機能を備えたデジタルpHセンサー",
+      "features": [
+        "デジタルISFETテクノロジー",
+        "自己診断機能",
+        "長期安定性",
+        "滅菌可能なデザイン",
+        "pH範囲：0〜14"
+      ]
+    },
+    "hachPhdSc": {
+      "title": "Hach PHD scデジタルpHセンサー",
+      "description": "予測診断を備えたインテリジェントなデジタルpHセンサー",
+      "features": [
+        "デジタルscテクノロジー",
+        "予測診断",
+        "自動キャリブレーション",
+        "プロセスコネクタ",
+        "pH範囲：0〜14"
+      ]
+    },
+    "balluffPnpProximity": {
+      "title": "Balluff BES 516-370-E4-C-PU-03 PNPセンサー",
+      "description": "強化されたスイッチング機能を備えた高性能PNP誘導近接センサー",
+      "features": [
+        "PNP出力（NO / NC）",
+        "M18 x 1スレッド",
+        "4mm検出距離",
+        "IP67保護",
+        "温度安定"
+      ]
+    },
+    "ifmNpnProximity": {
+      "title": "IFM IG5854 NPN誘導近接センサー",
+      "description": "優れた環境保護を備えた堅牢なNPN近接センサー",
+      "features": [
+        "NPN出力（NO）",
+        "M18ハウジング",
+        "8mm検出距離",
+        "IP68 / IP69K保護",
+        "高出力電流"
+      ]
+    },
+    "telemechaniquePnpProximity": {
+      "title": "Telemecanique XS618B1PAM12 PNPセンサー",
+      "description": "産業オートメーション用の信頼性の高いシュナイダーエレクトリック近接センサー",
+      "features": [
+        "PNP出力（NO）",
+        "M18 x 1スレッド",
+        "8mm検出距離",
+        "IP67保護",
+        "複数の認証"
+      ]
+    },
+    "jumoPt100Rtd": {
+      "title": "JUMO 902820/10 PT100 RTDセンサー",
+      "description": "産業用アプリケーション向けの精密PT100 RTD温度センサー",
+      "features": [
+        "PT100エレメント",
+        "クラスA精度",
+        "3線式構成",
+        "316Lステンレス鋼",
+        "高速応答時間"
+      ]
+    },
+    "herausPt1000Rtd": {
+      "title": "Heraeus M222 PT1000 RTDセンサー",
+      "description": "高精度PT1000抵抗温度検出器",
+      "features": [
+        "PT1000エレメント",
+        "クラスA精度",
+        "2線式構成",
+        "316SSプローブ",
+        "IP68保護"
+      ]
+    },
+    "watlowTypeK": {
+      "title": "Watlow 630AタイプK熱電対",
+      "description": "産業用温度測定用の汎用タイプK熱電対",
+      "features": [
+        "タイプK（クロメル-アルメル）",
+        "高速応答",
+        "複数の保護タイプ",
+        "316SSシース",
+        "広い温度範囲"
+      ]
+    },
+    "yokogawaPh": {
+      "title": "横河PH450G pHセンサー",
+      "description": "ガラス電極技術を備えた産業用pHセンサー",
+      "features": [
+        "ガラス電極",
+        "ダブルジャンクション",
+        "広いpH範囲",
+        "高精度",
+        "耐圧性"
+      ]
+    }
+  },
+  "transmitters": {
+    "hbmPw15aLoadCell": {
+      "title": "HBM PW15Aロードセル",
+      "description": "力と重量の測定アプリケーションのための精密ロードセル",
+      "features": [
+        "合金鋼構造",
+        "高精度",
+        "IP67保護",
+        "耐疲労性",
+        "容量：0.5〜200 kN"
+      ]
+    },
+    "mettlerToledoSlb215": {
+      "title": "メトラー・トレドSLB215ロードセル",
+      "description": "過酷な産業環境向けのステンレス鋼ロードセル",
+      "features": [
+        "ステンレス鋼構造",
+        "密閉型",
+        "OIML R60承認済み",
+        "高い耐久性",
+        "容量：7.5〜600 kg"
+      ]
+    },
+    "rosemount3051s": {
+      "title": "Rosemount 3051S圧力トランスミッター",
+      "description": "実績のあるセンサー技術を備えた高度な圧力トランスミッター",
+      "features": [
+        "コプラナー技術",
+        "HARTプロトコル",
+        "レンジアビリティ400：1",
+        "5年間の安定性",
+        "圧力範囲：0〜15,000 psi"
+      ]
+    },
+    "endressHauserCerabar": {
+      "title": "Endress+Hauser Cerabar PMC21圧力トランスミッター",
+      "description": "過酷なプロセス条件のためのセラミック圧力トランスミッター",
+      "features": [
+        "セラミックセンサー",
+        "HART通信",
+        "過圧保護",
+        "高精度",
+        "圧力範囲：0〜400 bar"
+      ]
+    },
+    "rosemount248": {
+      "title": "Rosemount 248温度トランスミッター",
+      "description": "RTDおよび熱電対入力用のユニバーサル温度トランスミッター",
+      "features": [
+        "ユニバーサル入力",
+        "HARTプロトコル",
+        "センサーバックアップ",
+        "高度な診断",
+        "温度範囲：-200°C〜+ 1820°C"
+      ]
+    },
+    "wikaT32": {
+      "title": "WIKA T-32温度トランスミッター",
+      "description": "ユニバーサル入力を備えたプログラム可能な温度トランスミッター",
+      "features": [
+        "ユニバーサル入力",
+        "4-20mA出力",
+        "簡単な構成",
+        "ガルバニック絶縁",
+        "温度範囲：-200°C〜+ 1600°C"
+      ]
+    },
+    "endressHauserPromag": {
+      "title": "Endress+Hauser Promag 50W流量計",
+      "description": "導電性液体のための電磁流量計",
+      "features": [
+        "電磁技術",
+        "可動部品なし",
+        "双方向測定",
+        "広い導電率範囲",
+        "流量範囲：0.01〜15 m / s"
+      ]
+    },
+    "rosemount8732e": {
+      "title": "Rosemount 8732E磁気流量計",
+      "description": "高度な診断を備えた高性能磁気流量計",
+      "features": [
+        "磁気流量技術",
+        "スマートメーター検証",
+        "HART通信",
+        "デュアルコンパートメントハウジング",
+        "流量範囲：0.03〜15 m / s"
+      ]
+    },
+    "rosemount5408": {
+      "title": "Rosemount 5408レベルトランスミッター",
+      "description": "挑戦的なアプリケーションのための非接触レーダーレベルトランスミッター",
+      "features": [
+        "FMCWレーダー技術",
+        "80 GHz周波数",
+        "高度な信号処理",
+        "HART通信",
+        "範囲：30m（100フィート）"
+      ]
+    },
+    "endressHauserFmr20": {
+      "title": "Endress+Hauser FMR20レーダーレベルトランスミッター",
+      "description": "基本的なレベル測定のためのコンパクトなレーダーレベルトランスミッター",
+      "features": [
+        "26 GHzレーダー",
+        "コンパクト設計",
+        "簡単な構成",
+        "HARTプロトコル",
+        "範囲：5m（16フィート）"
+      ]
+    },
+    "endressHauserCm42": {
+      "title": "Endress+Hauser CM42導電率トランスミッター",
+      "description": "導電率と濃度測定のためのモジュラートランスミッター",
+      "features": [
+        "モジュラー設計",
+        "マルチパラメーター",
+        "高度な診断",
+        "HART通信",
+        "導電率範囲：0.05 µS / cm〜2 S / cm"
+      ]
+    },
+    "rosemountWireless1420": {
+      "title": "Rosemount Wireless 1420ゲートウェイ",
+      "description": "産業用無線ネットワーク用の無線ゲートウェイ",
+      "features": [
+        "ワイヤレスHARTテクノロジー",
+        "自己組織化ネットワーク",
+        "拡張範囲",
+        "セキュリティ暗号化",
+        "最大100のフィールドデバイス"
+      ]
+    },
+    "flintecPc2LoadCell": {
+      "title": "Flintec PC2圧縮ロードセル",
+      "description": "ヘビーデューティー計量アプリケーション用の高精度圧縮ロードセル",
+      "features": [
+        "工具鋼構造",
+        "C3精度クラス",
+        "IP67保護",
+        "広い容量範囲",
+        "OIML R60承認済み"
+      ]
+    },
+    "honeywellSt3000": {
+      "title": "Honeywell ST3000スマート圧力トランスミッター",
+      "description": "優れた安定性と精度を備えた高度なスマート圧力トランスミッター",
+      "features": [
+        "高精度±0.075％",
+        "5年間の安定性",
+        "HART通信",
+        "SIL2認定",
+        "広い圧力範囲"
+      ]
+    },
+    "abb266Pressure": {
+      "title": "ABB 266圧力トランスミッター",
+      "description": "高性能絶対圧力およびゲージ圧トランスミッター",
+      "features": [
+        "±0.055％の精度",
+        "10年間の安定性",
+        "複数のプロトコル",
+        "SIL2 / 3認定",
+        "堅牢な設計"
+      ]
+    },
+    "siemensSitrans": {
+      "title": "Siemens SITRANS P320 / 420圧力トランスミッター",
+      "description": "高度なデジタル通信を備えたスマート圧力トランスミッター",
+      "features": [
+        "±0.075％の精度",
+        "HART＆PROFIBUS PA",
+        "SIL2認定",
+        "広い動作範囲",
+        "簡単な構成"
+      ]
+    },
+    "yokogawaEja": {
+      "title": "横河EJA110A DPharp圧力トランスミッター",
+      "description": "DPharpセンサー技術を備えた高精度圧力トランスミッター",
+      "features": [
+        "DPharpテクノロジー",
+        "±0.055％の精度",
+        "10年間の安定性",
+        "複数のプロトコル",
+        "SIL2 / 3認定"
+      ]
+    },
+    "krohneOptiflux": {
+      "title": "KROHNE OPTIFLUX 4300電磁流量計",
+      "description": "導電性液体用の高性能電磁流量計",
+      "features": [
+        "電磁技術",
+        "±0.5％の精度",
+        "複数のプロトコル",
+        "SIL2認定",
+        "広い流量範囲"
+      ]
+    },
+    "vegaVegapuls": {
+      "title": "VEGA VEGAPULS 64レーダーレベルトランスミッター",
+      "description": "正確なレベル測定のための高度な80 GHzレーダーレベルトランスミッター",
+      "features": [
+        "80 GHzテクノロジー",
+        "±2 mmの精度",
+        "30mの範囲",
+        "3°ビーム角",
+        "SIL2認定"
+      ]
+    }
+  },
+  "groups": {
+    "rccb-circuit-breakers": {
+      "title": "RCCB回路ブレーカー",
+      "description": "漏電保護用の残留電流回路ブレーカー（RCCB）。電流の不均衡を検出することにより、感電や火災の危険から保護する不可欠な安全装置。"
+    },
+    "acb-circuit-breakers": {
+      "title": "ACB回路ブレーカー",
+      "description": "低電圧配電用のエア回路ブレーカー（ACB）。産業用および商業用電気システム向けの高度な保護機能を備えた大容量回路ブレーカー。"
+    },
+    "vcb-circuit-breakers": {
+      "title": "VCB回路ブレーカー",
+      "description": "中電圧アプリケーション用の真空回路ブレーカー（VCB）。電気変電所で信頼性の高いスイッチングと保護を提供する優れたアーク消弧技術。"
+    }
+  },
+  "specs": {
+    "voltage": "電圧",
+    "current": "電流",
+    "manufacturer": "メーカー",
+    "model": "モデル",
+    "type": "タイプ",
+    "sensingDistance": "検出距離",
+    "outputType": "出力タイプ",
+    "housing": "ハウジング",
+    "protection": "保護等級",
+    "operatingVoltage": "動作電圧",
+    "outputCurrent": "出力電流",
+    "operatingTemperature": "動作温度",
+    "accuracy": "精度",
+    "element": "エレメント",
+    "configuration": "構成",
+    "temperatureRange": "温度範囲",
+    "thermocoupleType": "熱電対タイプ",
+    "phRange": "pH範囲",
+    "capacity": "容量",
+    "material": "材料",
+    "pressureRange": "圧力範囲",
+    "communication": "通信",
+    "flowRange": "流量範囲",
+    "technology": "テクノロジー",
+    "range": "範囲",
+    "frequency": "周波数",
+    "conductivityRange": "導電率範囲",
+    "poles": "極数",
+    "ratedVoltage": "定格電圧",
+    "ratedCurrent": "定格電流",
+    "residualCurrent": "残留電流",
+    "rcType": "RCタイプ",
+    "breakingCapacity": "遮断容量",
+    "tripUnit": "トリップユニット",
+    "operatingMechanism": "動作機構",
+    "standard": "規格",
+    "mountingType": "取り付けタイプ",
+    "interruptionTechnology": "遮断技術",
+    "electricalLife": "電気的寿命",
+    "mechanicalLife": "機械的寿命",
+    "installation": "インストール"
+  },
+  "productGroups": {
+    "pnpNpnSensors": {
+      "title": "PNP/NPNセンサー",
+      "description": "自動化アプリケーション向けのPNPとNPNの両方のタイプを含む産業用近接センサー。これらのセンサーは、物理的な接触なしに金属物体の信頼性の高い検出を提供し、堅牢な構造、高いスイッチング周波数、優れた再現性、および要求の厳しい産業環境に対する電磁干渉に対する耐性を備えています。"
+    },
+    "rtdThermocouplesSensors": {
+      "title": "RTD/熱電対センサー",
+      "description": "産業プロセスにおける正確な温度測定のための抵抗温度検出器（RTD）センサーと産業用熱電対を含む温度センサー。PT100、PT500、およびPT1000構成で利用可能なRTDセンサー、およびJ、K、T、E、R、S、およびNタイプの熱電対。極端な産業環境で優れた精度、安定性、耐久性を備えた精密測定と高温アプリケーションの両方のために設計されています。"
+    },
+    "loadCell": {
+      "title": "ロードセルセンサー",
+      "description": "力と重量の測定アプリケーション向けの精密ロードセルセンサー。圧縮、引張、およびユニバーサル構成で利用可能で、高精度で産業用計量システムの優れた長期安定性を備えています。"
+    },
+    "phSensors": {
+      "title": "pHセンサー",
+      "description": "水質監視およびプロセス制御アプリケーション向けの産業用pHセンサー。自動温度補償およびデジタルHART通信機能を備えたガラス電極およびISFETテクノロジーオプション。"
+    },
+    "dpTypeTransmitter": {
+      "title": "差圧トランスミッター",
+      "description": "フロー、レベル、および圧力測定アプリケーション向けの高精度差圧トランスミッター。要求の厳しい産業環境向けのHART通信、デジタル補償、および堅牢な構造を備えています。"
+    },
+    "pTypeTransmitter": {
+      "title": "圧力トランスミッター",
+      "description": "絶対圧およびゲージ圧測定用の産業用圧力トランスミッター。プロセスオートメーションアプリケーション向けの高度なセンサー技術、優れた安定性、および包括的な診断機能を備えています。"
+    },
+    "rsTypeTransmitter": {
+      "title": "リモートシールトランスミッター",
+      "description": "高温、腐食性、または粘性媒体アプリケーション用のリモートシール圧力トランスミッター。キャピラリー充填システムは、困難なプロセス条件下で安全で正確な圧力測定を提供します。"
+    },
+    "massFlowMeter": {
+      "title": "質量流量計",
+      "description": "液体および気体の直接質量流量および密度測定用のコリオリ質量流量計。流体特性、温度、および圧力変動とは無関係に、高精度測定。"
+    },
+    "vortexFlowMeter": {
+      "title": "渦流量計",
+      "description": "蒸気、ガス、および液体測定アプリケーション用の渦放出流量計。可動部品のない設計により、信頼性が確保され、内蔵の温度補償と多変数測定機能が備わっています。"
+    },
+    "volumetricFlowMeter": {
+      "title": "体積流量計",
+      "description": "正確な液体およびガス流量測定用の電磁、超音波、および容積式容積流量計。可動部品なし（電磁）、高精度、最小圧力降下、および優れた長期安定性などの機能を備えています。信頼性の高い体積測定を必要とする水、廃水、化学アプリケーション、カストディトランスファー、およびバッチ操作に最適です。"
+    },
+    "pdFlowMeter": {
+      "title": "PD流量計",
+      "description": "楕円ギア、ヘリカルギア、ニュートニングディスク、およびスクリュー測定原理を使用した、正確な液体流量測定用の容積式流量計。卓越した精度、優れた再現性、および広い粘度範囲を備えています。カストディトランスファー、バッチ処理、燃料計量、化学物質投与、および信頼性の高い体積測定を必要とする高粘度アプリケーションに最適です。"
+    },
+    "pressureSwitches": {
+      "title": "圧力スイッチ",
+      "description": "オートメーションシステムの正確な圧力監視と制御のための産業用圧力スイッチ。ダンフォス、シュナイダーエレクトリック、WIKA、ABBなどの主要メーカーから入手できます。"
+    },
+    "levelSwitches": {
+      "title": "レベルスイッチ",
+      "description": "音叉、フロート、および容量性技術を使用したポイントレベル検出スイッチ。エンドレス+ハウザー、ABB、VEGAなどの信頼できるブランドから、信頼性の高い液体およびバルク固体レベル監視用。"
+    },
+    "limitSwitches": {
+      "title": "リミットスイッチ",
+      "description": "産業オートメーション用のヘビーデューティポジションセンシングスイッチ。オムロン、シュナイダーエレクトリック、シーメンスから、IP67保護と堅牢な金属構造を備え、信頼性の高い動作を実現します。"
+    },
+    "pushButtons": {
+      "title": "押しボタン",
+      "description": "制御盤および機械用の産業用押しボタンスイッチ。シュナイダーエレクトリック、イートン、ABB、シーメンスから22mmおよび30mmのサイズで利用可能で、さまざまな接点構㈐と照明オプションがあります。"
+    },
+    "controlValves": {
+      "title": "コントロールバルブ",
+      "description": "プロセスオートメーション用の精密コントロールバルブ（Fisher（Emerson）、SAMSON、ABB）。グローブ、ボール、およびロータリー設計は、デジタルポジショナーとHART通信機能を備えています。"
+    },
+    "solenoidValves": {
+      "title": "ソレノイドバルブ",
+      "description": "流体制御オートメーション用の電気的に作動するバルブ。空気、水、蒸気、およびさまざまな産業用流体用のASCO（Emerson）およびParker Hannifinモデルは、直接作動およびパイロット作動設計を備えています。"
+    },
+    "onOffValves": {
+      "title": "オン/オフバルブ",
+      "description": "信頼性の高い遮断サービスのための産業用オン/オフボールバルブおよびゲートバルブ。四半回転作動、手動または空気圧操作、ステンレス鋼構造、およびAPI、ANSI、ISO規格への準拠を備えています。エマソンフィッシャー、Flowserveウスター、Swagelok、およびBurkertなどの主要メーカーから入手可能で、プロセス分離、緊急シャットダウン、および流量制御アプリケーションに使用できます。"
+    },
+    "liquidAnalyzers": {
+      "title": "液体分析装置",
+      "description": "水質監視、化学プロセス制御、および環境コンプライアンスのための包括的な液体分析装置。自動キャリブレーションおよびデータロギング機能を備えた多パラメーター分析。"
+    },
+    "oxygenGasAnalyzers": {
+      "title": "酸素（O2）ガス分析装置",
+      "description": "産業プロセス監視および安全アプリケーション向けの精密酸素分析装置。Systech、Panametrics、Endress + Hauserなどの主要メーカーからの電気化学、常磁性、および光学技術。"
+    },
+    "nitrogenGasAnalyzers": {
+      "title": "窒素（N2）ガス分析装置",
+      "description": "熱伝導率および不活性ガス融合技術を使用した窒素ガス分析装置。金属および合金中の元素分析用のLECOおよびHORIBA機器は、高精度測定を備えています。"
+    },
+    "hydrogenGasAnalyzers": {
+      "title": "水素（H2）ガス分析装置",
+      "description": "二成分混合物分析およびプロセス監視用の熱伝導率検出を備えた水素分析装置。安全および品質管理アプリケーション向けのNova AnalyticalおよびEndress + Hauserシステム。"
+    },
+    "carbonDioxideGasAnalyzers": {
+      "title": "二酸化炭素（CO2）ガス分析装置",
+      "description": "燃焼制御、食品加工、および環境モニタリング用のNDIRおよびTDLAS技術を使用したCO2分析装置。ppmからパーセントレベルの範囲で、高精度測定。"
+    },
+    "codAnalyzers": {
+      "title": "COD分析装置",
+      "description": "水質試験および廃水処理モニタリング用の化学的酸素要求量分析装置。Hach、MANTECH、およびLARシステムは、自動分析および規制コンプライアンス機能を備えています。"
+    },
+    "bodAnalyzers": {
+      "title": "BOD分析装置",
+      "description": "水サンプル中の有機汚染物質の測定のための生化学的酸素要求量分析装置。MANTECH、Hach、およびYSI自動システムは、光学式DOセンサーと温度制御を備えています。"
+    },
+    "standardCeilingFans": {
+      "title": "標準BLDCシーリングファン",
+      "description": "可変速度制御と静音動作を備えたエネルギー効率の高いブラシレスDCシーリングファン。最新のデザイン、リモートコントロール操作、および従来のACモーターと比較して優れた省エネを実現します。"
+    },
+    "premiumCeilingFans": {
+      "title": "プレミアムBLDCシーリングファン",
+      "description": "スマートコントロール、LED照明、および優れた空力設計などの高度な機能を備えた高性能ブラシレスDCシーリングファン。プレミアムモデルは、耐久性と静音動作が向上しています。"
+    },
+    "commercialCeilingFans": {
+      "title": "業務用BLDCシーリングファン",
+      "description": "商業および産業用途向けに設計されたヘビーデューティブラシレスDCシーリングファン。堅牢な構造で、高いエアフロー容量、拡張された動作寿命、および削減されたメンテナンス要件を備えています。"
+    },
+    "exhaustFanMotors": {
+      "title": "BLDC排気ファンモーター",
+      "description": "排気ファンアプリケーション向けの高効率ブラシレスDCモーター。継続的な動作のために設計されており、優れた速度制御、低騒音レベル、および換気システムの優れたエネルギー効率を備えています。"
+    },
+    "coolerMotors": {
+      "title": "BLDCクーラーモーター",
+      "description": "空冷アプリケーション向けのエネルギー効率の高いブラシレスDCモーター。可変速度制御、静音動作、および家庭用と商業用の両方の冷却システムの卓越した信頼性を備えています。"
+    },
+    "ventilationMotors": {
+      "title": "BLDC換気モーター",
+      "description": "正確な速度制御と低消費電力を備えた換気システム用の高度なブラシレスDCモーター。静音動作とエネルギー効率を必要とするHVACアプリケーションに最適です。"
+    },
+    "submersiblePumps": {
+      "title": "BLDC水中ポンプ",
+      "description": "給水アプリケーション向けのエネルギー効率の高いブラシレスDC水中ポンプ。耐腐食性構造、可変速度動作、およびボアウェルと深層水ポンプの卓越した効率を備えています。"
+    },
+    "surfacePumps": {
+      "title": "BLDC表面ポンプ",
+      "description": "水移動および昇圧アプリケーション向けの高効率ブラシレスDC表面ポンプ。コンパクトな設計で、インテリジェントな制御機能と従来のポンプと比較して優れた省エネを実現します。"
+    },
+    "hybridPumps": {
+      "title": "BLDCハイブリッドポンプ",
+      "description": "水中および表面アプリケーションの両方に適した汎用性のあるブラシレスDCハイブリッドポンプ。さまざまな動作条件で最適なパフォーマンスを実現するアダプティブ制御システムを備えた高度なモーター技術。"
+    },
+    "tableFanMotors": {
+      "title": "BLDCテーブルファンモーター",
+      "description": "優れた速度制御と静音動作を備えたテーブルファンアプリケーション用のコンパクトなブラシレスDCモーター。エネルギー効率の高い設計で、拡張された動作寿命と最小限のメンテナンス要件を備えています。"
+    },
+    "wallFanMotors": {
+      "title": "BLDC壁掛けファンモーター",
+      "description": "壁掛けファンアプリケーション用の省スペースブラシレスDCモーター。リモートコントロールの互換性、複数の速度設定、および住宅用および商業用のエネルギー効率の高い動作を備えています。"
+    },
+    "pedestalFanMotors": {
+      "title": "BLDC台座ファンモーター",
+      "description": "調整可能な高さと振動機能を備えた台座ファンアプリケーション用の強力なブラシレスDCモーター。エネルギー効率の高い動作と静音性能で優れたエアフローを提供します。"
+    },
+    "vfd": {
+      "title": "可変周波数ドライブ（VFD）",
+      "description": "正確なモーター速度制御と省エネのための高度なVFD。組み込みの保護、複数の制御モード、 ��よびオートメーションシステムとの統合のための通信インターフェイスを備えています。"
+    },
+    "softStarter": {
+      "title": "ソフトスターター",
+      "description": "スムーズな加速と減速のためのモータソフトスターターは、機械的ストレスと電気的サージを軽減します。制御された始動を必要とするポンプ、ファン、コンベヤー、およびコンプレッサーのアプリケーションに最適です。"
+    },
+    "dolStarter": {
+      "title": "DOLスターター（ダイレクトオンライン）",
+      "description": "シンプルで信頼性の高いモーター制御のための堅牢なダイレクトオンラインモータースターター。ACモーターの全電圧始動のためのコンタクタ、過負荷リレー、および制御回路が含まれています。"
+    },
+    "powerContactors": {
+      "title": "パワーコンタクタ",
+      "description": "モーターと抵抗負荷の切り替えのためのヘビーデューティ電磁コンタクタ。安全な操作のための補助接点と機械的インターロックオプションを備えたさまざまな電流定格で利用できます。"
+    },
+    "timerRelays": {
+      "title": "タイマーリレー",
+      "description": "時間遅延制御アプリケーション用のプログラム可能なタイマーリレー。オン遅延、オフ遅延、間隔、パルスタイミングなど、デジタルまたはアナログ調整による複数のタイミング機能。"
+    },
+    "controlTransformers": {
+      "title": "制御トランス",
+      "description": "パネルおよびマシン制御回路用のステップダウン制御トランス。信頼性の高い電力変換のための一次および二次ヒューズ保護を備えた1kVA、3kVA、および5kVAの定格で利用できます。"
+    },
+    "streetLights": {
+      "title": "街路灯",
+      "description": "道路、駐車場、および屋外エリア向けの産業グレードLED街路灯。高輝度出力、長寿命、および視認性と安全性を高めるための優れた演色評価を備えたエネルギー効率の高い設計。"
+    },
+    "streetLightsFlameproof": {
+      "title": "街路灯（防炎）",
+      "description": "危険な屋外エリア向けのATEX / IECEx認定の防炎LED街路灯。爆発の可能性のある雰囲気での安全な操作のために、ゾーン1およびゾーン2の要件を満たす防爆構造の堅牢なハウジング。"
+    },
+    "streetLightsWeatherproof": {
+      "title": "街路灯（耐候性）",
+      "description": "過酷な屋外環境向けのIP65 / IP66定格の耐候性LED街路灯。優れた耐湿性と耐塵性を備えた耐腐食性構造により、あらゆる気象条件で信頼性の高い動作を実現します。"
+    },
+    "highBayLights": {
+      "title": "ハイベイライト",
+      "description": "倉庫、工場、および産業施設用の高出力LEDハイベイライト。最適な作業条件のために、優れた効率と最小限のまぶしさで高さ6〜15メートルから強力な照明を提供します。"
+    },
+    "highBayLightsFlameproof": {
+      "title": "ハイベイライト（防炎）",
+      "description": "危険な産業エリア向けの防爆LEDハイベイライト。ゾーン1およびゾーン2アプリケーション用にATEX / IECEx認定されており、爆発性のガス雰囲気での安全な操作を保証する防炎エンクロージャーを備えています。"
+    },
+    "highBayLightsWeatherproof": {
+      "title": "ハイベイライト（耐候性）",
+      "description": "湿ったほこりっぽい産業環境向けのIP65 / IP66耐候性LEDハイベイライト。密閉構造により、過酷な条件下での信頼性の高いパフォーマンスを実現するために、水分と粒子の侵入を防ぎます。"
+    },
+    "vesselLights": {
+      "title": "船舶灯",
+      "description": "海洋および産業用タンクアプリケーション用の特殊なLED船舶灯。タンク、容器、および限られたスペースの照明用の高効率光学系と堅牢な構造を備えたコンパクトな設計。"
+    },
+    "vesselLightsFlameproof": {
+      "title": "船舶灯（防炎）",
+      "description": "危険なタンクおよび船舶アプリケーション用の防爆LED船舶灯。ゾーン1/2の爆発性雰囲気用に認定されており、可燃性の液体およびガスの周囲での安全な操作を保証する防炎ハウジングを備えています。"
+    },
+    "vesselLightsWeatherproof": {
+      "title": "船舶灯（耐候性）",
+      "description": "屋外および湿ったエリアのタンク照明用のIP66 / IP67耐候性LED船舶灯。海洋および化学処理環境向けの耐腐食性材料を使用した密閉構造。"
+    },
+    "floodLights": {
+      "title": "投光器",
+      "description": "エリア照明およびセキュリティアプリケーション用の高出力LED投光器。スポーツフィールド、建物のファサード、および広い屋外エリアに均一な照明を提供する調整可能な取り付けブラケットを備えた広いビーム角。"
+    },
+    "floodLightsFlameproof": {
+      "title": "投光器（防炎）",
+      "description": "危険エリア照明用の防爆LED投光器。ATEX / IECExは、ゾーン1およびゾーン2の爆発性の可能性のある雰囲気での安全な操作のために、防炎構造で認定されています。"
+    },
+    "floodLightsWeatherproof": {
+      "title": "投光器（耐候性）",
+      "description": "屋外セキュリティおよびエリア照明用のIP65 / IP66耐候性LED投光器。極端な気象条件下での信頼性の高い動作のために、強化ガラスと優れたシーリングを備えた堅牢なアルミニウムハウジング。"
+    },
+    "wellGlassLights": {
+      "title": "井戸ガラスライト",
+      "description": "凹型天井および壁取り付け用の産業用井戸ガラスLEDライト。廊下、倉庫、および産業スペースに効率的な一般的な照明を提供する耐熱構造の耐久性のあるガラスカバー。"
+    },
+    "wellGlassLightsFlameproof": {
+      "title": "井戸ガラスライト（防炎）",
+      "description": "危険な屋内エリア用の防爆井戸ガラスLEDライト。ゾーン1およびゾーン2に分類された場所での安全な操作のために、強化された井戸ガラスカバーを備えたATEX / IECEx認定の防炎構造。"
+    },
+    "wellGlassLightsWeatherproof": {
+      "title": "井戸ガラスライト（耐候性）",
+      "description": "屋外および湿った場所でのアプリケーション向けのIP65 / IP66耐候性井戸ガラスLEDライト。過酷な環境での信頼性の高いパフォーマンスのための耐衝撃性ガラスとガスケットシーリングを備えた密閉構造。"
+    },
+    "digitalMotorProtectionRelay": {
+      "title": "デジタルモーター保護リレー（C＆S）",
+      "description": "包括的な保護機能を備えたマイクロプロセッサーベースのモーター保護リレー。プログラマブル設定と通信機能を備えた電流、電圧、温度、および電力パラメーターを監視します。"
+    },
+    "voltageMonitoringRelay": {
+      "title": "電圧監視リレー",
+      "description": "過電圧/不足電圧、位相故障、および位相シーケンス障害に対する保護のための三相電圧監視リレー。敏感な機器の保護のための時間遅延設定を備えた調整可能なトリップレベル。"
+    },
+    "currentTransformers": {
+      "title": "変流器（CT）",
+      "description": "計量および保護アプリケーション用の精密変流器。測定にはクラス0.5および1.0の精度、および保護回路には5P / 10Pクラスのさまざまな比率で利用できます。"
+    },
+    "potentialTransformers": {
+      "title": "計器用変圧器（PT）",
+      "description": "電圧測定および保護用の高精度計器用変圧器。計量、リレー、および優れた直線性および低位相変位を備えた計装に適しています。"
+    },
+    "analogAmmeters": {
+      "title": "アナログ電流計",
+      "description": "電流測定用の可動コイル/鉄アナログパネルメーター。制御盤での直接またはCTベースの電流測定のための明確な目盛り付きスケールを備えたさまざまな範囲で利用できます。"
+    },
+    "analogVoltmeters": {
+      "title": "アナログ電圧計",
+      "description": "AC / DC電圧測定用の精密アナログパネル電圧計。正確な視覚的監視のための耐視差ミラーと複数の電圧範囲を備えた堅牢な構造。"
+    },
+    "digitalAmmeters": {
+      "title": "デジタル電流計",
+      "description": "高精度および解像度を備えたLED / LCDデジタルパネル電流計。最新の制御システム向けの自動レンジング、ピークホールド、およびオプションの通信インターフェースが含まれています。"
+    },
+    "digitalVoltmeters": {
+      "title": "デジタル電圧計",
+      "description": "正確なAC / DC電圧測定用のデジタルパネル電圧計。プロセス監視のためのプログラマブルアラームとデータロギング機能を備えた大型LED / LCDディスプレイ。"
+    },
+    "powerFactorMeters": {
+      "title": "力率計",
+      "description": "無効電力を監視するためのアナログおよびデジタル力率計。進相、遅相、およびユニティ力率の視覚的表示による電力品質管理に不可欠です。"
+    },
+    "hrcFuses": {
+      "title": "HRCヒューズ（高遮断容量）",
+      "description": "配電システムの短絡保護用の高遮断容量ヒューズ。セラミックボディ構造と銀メッキ接点を備えたさまざまな電流定格で利用できます。"
+    },
+    "motorTerminalBlocks": {
+      "title": "モーター端子台",
+      "description": "制御盤のモーター接続用に設計されたヘビーデューティー端子台。安全な三相モーター配線のための堅牢な構造を備えた高電流容量。"
+    },
+    "earthingStrips": {
+      "title": "アースストリップ（銅/アルミニウム）",
+      "description": "電気接地システム用の銅およびアルミニウム製アースストリップ。低抵抗のアース接続用の25x3mm、25x6mm、50x6mm、および75x10mmのサイズで利用できます。"
+    },
+    "lightningArrestors": {
+      "title": "避雷器",
+      "description": "雷およびスイッチングサージ保護用のサージ保護デバイス。包括的な過電圧保護のための配電クラス、ステーションクラス、およびポリマーハウジングアレスタを含むさまざまなタイプ。"
+    },
+    "multiFunctionMeters": {
+      "title": "多機能メーター",
+      "description": "電圧、電流、電力、エネルギー、力率、および高調波を測定する高度な多パラメーターメーター。包括的な電力監視のためのデータロギング、アラーム出力、およびModbus通信を備えています。"
+    },
+    "powerCables": {
+      "title": "電源ケーブル",
+      "description": "電気配電システム用の高品質電源ケーブル。優れた電気的および機械的特性を備えた低、中、および高電圧アプリケーション用のさまざまな導体サイズおよび絶縁タイプで利用できます。"
+    },
+    "controlCables": {
+      "title": "制御ケーブル",
+      "description": "オートメーションおよび計装アプリケーション用のマルチコア制御ケーブル。優れた電気的特性、電磁干渉シールド、およびパネル配線および制御システム用の柔軟な構造を備えています。"
+    },
+    "armouredCables": {
+      "title": "装甲ケーブル",
+      "description": "機械的保護のための鋼線またはテープ装甲を備えたヘビーデューティー装甲ケーブル。地下設置、産業環境、および物理的損傷やげっ歯動物からの保護が必要なエリアに最適です。"
+    },
+    "flexibleCables": {
+      "title": "可とうケーブル",
+      "description": "連続的な移動アプリケーション用に設計された高可とう性ケーブル。ケーブルチェーン、ロボット工学、およびモバイル機器に適しており、優れた曲げ半径と耐疲労性を備えています。"
+    },
+    "homeApplianceCables": {
+      "title": "家電ケーブル",
+      "description": "家庭用および商業用電化製品向けの特殊ケーブル。冷蔵庫、洗濯機、オーブン、およびその他の電化製品の安全基準を満たす耐熱および難燃性構造。"
+    },
+    "multicoreCablesElectrical": {
+      "title": "マルチコアケーブル（電気）",
+      "description": "電力および制御アプリケーション用のマルチコア電気ケーブル。産業用および商業用設備での効率的な配線のためのPVCまたはXLPE絶縁を備えた2、3、4、およびそれ以上のコアで利用できます。"
+    },
+    "earthingCables": {
+      "title": "アースケーブル",
+      "description": "接地およびボンディングアプリケーション用の銅製アースケーブル。電気安全および雷保護システム用のさまざまなサイズ（6mm²、10mm²、16mm²、25mm²、35mm²、50mm²）で利用できます。"
+    },
+    "ethernetCables": {
+      "title": "イーサネットケーブル",
+      "description": "オートメーションネットワーク用の産業用イーサネットケーブル。過酷な産業環境向けの拡張シールドを備えたCat5e、Cat6、およびCat6a仕様と、信頼性の高い高速データ伝送。"
+    },
+    "profibusCables": {
+      "title": "Profibusケーブル",
+      "description": "産業オートメーション用のProfibus-DPおよびProfibus-PAフィールドバスケーブル。プロセス制御ネットワークでの信頼性の高い通信のための特性インピーダンスマッチングを備えたシールド付きツイストペア構造。"
+    },
+    "profinetCables": {
+      "title": "Profinetケーブル",
+      "description": "リアルタイムオートメーション用の産業用Profinetイーサネットケーブル。Industry 4.0アプリケーション向けの強化されたEMC保護、柔軟な設計、およびハロゲンフリー構造を備えたCat5eおよびCat6仕様。"
+    },
+    "shieldedPairCables1P": {
+      "title": "シールド付きペアケーブル（1P）",
+      "description": "アナログ信号用のシングルペアシールド付き計装ケーブル。4〜20mAおよび低電圧センサーアプリケーションに優れたノイズ耐性を提供する個別のフォイルまたは編組シールド。"
+    },
+    "shieldedPairCables2P": {
+      "title": "シールド付きペアケーブル（2P）",
+      "description": "複数の信号伝送用の2ペアシールド付き計装ケーブル。プロセス制御システムで最大のノイズ保護を実現するために、各ペアが個別にシールドされ、全体的なスクリーンを備えています。"
+    },
+    "shieldedPairCables8P": {
+      "title": "シールド付きペアケーブル（8P）",
+      "description": "マルチチャネルアプリケーション用の8ペアシールド付き計装ケーブル。複雑な制御および監視システム用に、色分けされた識別を備えた個別にシールドされたペア。"
+    },
+    "multicoreCablesInstrumentation": {
+      "title": "マルチコアケーブル（計装）",
+      "description": "複数のシールド付きペアを備えたマルチコア計装ケーブル。分散制御システムおよびマルチポイント測定用の4、8、12、16、および24ペア構成で利用できます。"
+    },
+    "terminalBlocks": {
+      "title": "端子台",
+      "description": "制御盤およびジャンクションボックスの電気接続用の信頼性の高い端子台。安全でメンテナンスフリーの配線のためのネジ、スプリング、およびプッシュイン接続技術を備えたDINレール取り付け。"
+    },
+    "electricalConnectors": {
+      "title": "電気コネクタ",
+      "description": "電力および信号アプリケーション用の産業用電気コネクタ。過酷な環境条件下での堅牢な構造、IP定格保護、複数の接点構成、および信頼性の高いパフォーマンス。"
+    },
+    "industrialPlugs": {
+      "title": "産業用プラグ",
+      "description": "モバイルおよび固定電気機器用のヘビーデューティー産業用プラグおよびソケット。産業用アプリケーション向けの機械的コーディング、安全インターロック、および高電流容量を備えた耐候性設計。"
+    },
+    "miniatureCircuitBreakers": {
+      "title": "小型回路ブレーカー（MCB）",
+      "description": "住宅および軽商業アプリケーションの過負荷および短絡保護用のコンパクトな回路ブレーカー。信頼性の高い熱磁気動作を備えたさまざまな電流定格およびトリップ特性で利用できます。"
+    },
+    "moldedCaseBreakers": {
+      "title": "モールドケース回路ブレーカー（MCCB）",
+      "description": "産業用および商業用電気配電用のヘビーデューティーモールドケース回路ブレーカー。調整可能な保護設定と、強化された保護のためのオプションの電子トリップユニットを備えた高い遮断容量。"
+    },
+    "fusesFusesHolders": {
+      "title": "ヒューズとヒューズホルダー",
+      "description": "さまざまなアプリケーションの過電流保護用の電気ヒューズとヒューズホルダー。カートリッジ、ブレード、および特殊タイプで、異なる時間-電流特性と遮断容量で利用できます。"
+    },
+    "rccbCircuitBreakers": {
+      "title": "漏電遮断器（RCCB）",
+      "description": "地絡による感電や火災の危険から保護する地絡保護回路遮断器。強化された電気安全のためのさまざまな感度定格を備えた2極および4極構成で利用できます。"
+    },
+    "acbCircuitBreakers": {
+      "title": "エアサーキットブレーカー（ACB）",
+      "description": "中電圧および高電圧電気配電システム用の高容量エアサーキットブレーカー。産業用およびユーティリティアプリケーション向けの高度な保護機能、リモート操作機能、および優れた遮断容量を備えています。"
+    },
+    "vcbCircuitBreakers": {
+      "title": "真空遮断器（VCB）",
+      "description": "優れたアーク消弧技術を備えた中電圧アプリケーション向けの高度な真空遮断器。電力配電ネットワークでのメンテナンスフリーの動作と優れた電気的耐久性および信頼性。"
+    },
+    "acDcConverters": {
+      "title": "AC-DCコンバーター",
+      "description": "AC主電圧を安定化されたDC出力に変換するためのスイッチング電源。産業用アプリケーション向けの複数の出力オプション、過電圧保護、および広い入力電圧範囲を備えた高効率設計。"
+    },
+    "dcDcConverters": {
+      "title": "DC-DCコンバーター",
+      "description": "電子システムでの電圧変換用の絶縁型および非絶縁型DC-DCコンバーター。要求の厳しいアプリケーション向けの高効率、低リップル、およびさまざまな入出力電圧の組み合わせを備えたコンパクトな設計。"
+    },
+    "upsSystems": {
+      "title": "UPSシステム",
+      "description": "重要な機器保護用の無停電電源装置システム。オンライン、ラインインタラクティブ、およびスタンバイトポロジーを備え、バッテリーバックアップ、電力調整、および事業継続のためのネットワーク管理機能を備えています。"
+    },
+    "electricalCabinets": {
+      "title": "電気キャビネット",
+      "description": "制御機器および電気部品を収納するための堅牢な電気キャビネットおよびエンクロージャー。簡単な設置とメンテナンスのためのモジュラー設計を備えたさまざまな材料とIP定格で利用できます。"
+    },
+    "junctionBoxes": {
+      "title": "ジャンクションボックス",
+      "description": "電気接続およびケーブル終端用の耐候性ジャンクションボックス。屋内および屋外設置用の複数のエントリーオプションを備えたさまざまな材料および環境保護定格。"
+    },
+    "dinRailEnclosures": {
+      "title": "DINレールエンクロージャー",
+      "description": "オートメーションコンポーネントおよび制御デバイスを収納するためのモジュラーDINレールエンクロージャー。簡単な組み立てとプロフェッショナルなパネル統合のためのスナップオン設計を備えたプラスチックおよび金属構造。"
+    },
+    "heatingCoils": {
+      "title": "加熱コイル",
+      "description": "プロセス加熱アプリケーション用の産業用加熱コイル。精密な温度制御と高い熱効率を備えたフィン付き、カートリッジ、およびバンドヒーターを含むさまざまな構成で利用できます。"
+    },
+    "heatingElements": {
+      "title": "発熱体",
+      "description": "産業用および商業用アプリケーション向けの電気発熱体。最適な熱伝達と耐久性のために、さまざまなワット密度とシース材料を備えた管状、セラミック、およびフレキシブル設計。"
+    },
+    "industrialHeaters": {
+      "title": "工業用ヒーター",
+      "description": "浸漬、循環、および放射ヒーターを含むプロセスアプリケーション用のヘビーデューティー工業用ヒーター。過酷な環境向けに設計されており、防爆オプションと高度な温度制御を備えています。"
+    },
+    "digitalMultimeters": {
+      "title": "デジタルマルチメーター",
+      "description": "電圧、電流、抵抗、および周波数を含む電気測定用の精密デジタルマルチメーター。データロギング、コンピューター接続、および高度な測定機能を備えた真のRMS機能。"
+    },
+    "clampMeters": {
+      "title": "クランプメーター",
+      "description": "電気的トラブルシューティングおよびメンテナンス用の非接触電流測定クランプメーター。ポータブルハンドヘルド設計での電圧、抵抗、および電力測定機能を備えたAC / DC電流測定。"
+    },
+    "benchMultimeters": {
+      "title": "ベンチマルチメーター",
+      "description": "実験室およびキャリブレーションアプリケーション用の高精度ベンチマルチメーター。優れた精度と解像度を備え、コンピューターインターフェース、統計関数、および自動測定機能を備えています。"
+    },
+    "earthResistanceTesters": {
+      "title": "接地抵抗テスター",
+      "description": "電気安全検証および接地システムテスト用のプロフェッショナルな接地抵抗テスター。ステークレス・テスト、3点式および4点式の電位降下法、土壌抵抗率測定、および干渉を最小限に抑えるための自動周波数制御を備えた高度なモデル。電気接地の完全性、避雷システムを検証し、産業、商業、およびユーティリティ設備における安全基準への準拠を確保するために不可欠です。"
+    },
+    "phaseSequenceCheckers": {
+      "title": "相順チェッカー",
+      "description": "三相電気システムの検証用の相回転インジケーターおよび相順テスター。モーターの起動前に正しい相回転を確認し、逆回転による機器の損傷を防ぐための必須ツール。接触式および非接触式の設計があり、LEDインジケーター、電圧測定機能、および安全定格構造を備えています。視覚的な相順表示、モーター回転検証、周波数測定、およびドキュメント作成とレポート作成のためのスマートフォン接続が含まれます。"
+    },
+    "digitalMegohmmeters": {
+      "title": "デジタルメガー",
+      "description": "包括的な電気絶縁テストおよび予防メンテナンス用の高電圧絶縁抵抗テスター（メガー）。ケーブル、モーター、変圧器、およびスイッチギアのテストに50V〜15kVのテスト電圧を提供するプロフェッショナルな機器。分極指数（PI）および誘電吸収率（DAR）テスト、活線検出、ステップ電圧テスト、リモート操作、時間/日付のスタンプ付きデータロギング、およびPC接続が含まれます。IEEE 43-2000に準拠したモーターテストおよび電気安全検証に不可欠です。"
+    },
+    "milliampereSourceMeters": {
+      "title": "ミリアンペアソースメーター",
+      "description": "4〜20mAプロセス制御ループのテストおよびキャリブレーション用の精密ミリアンペアループキャリブレーターおよび電流ソースメーター。2線式トランスミッターシミュレーション用の内蔵24Vループ電源を備えた正確なmAソーシングおよび測定を提供するプロフェッショナルな機器。同時ソースおよび測定機能、直線性テスト用の自動ステッピング機能、HART通信互換性、バルブテスト用のランプ機能、およびループ破壊を排除するクランプオン設計が含まれます。産業オートメーションシステムのプロセス計装のトラブルシューティングおよびキャリブレーションに不可欠です。"
+    },
+    "realTimeAnalyzers": {
+      "title": "リアルタイムアナライザー",
+      "description": "継続的な監視および過渡イベントキャプチャ用のリアルタイム信号アナライザー。高度なトリガーおよび信号インテリジェンス機能を備えた100％傍受確率。"
+    },
+    "powerMeters": {
+      "title": "電力計",
+      "description": "電気電力測定および分析用の高精度電力計。有効電力、無効電力、および皮相電力測定を含む包括的な電力パラメーターを備えた多相機能。"
+    },
+    "harmonicAnalyzers": {
+      "title": "高調波アナライザー",
+      "description": "電力品質評価およびIEEE 519準拠テスト用の高度な高調波アナライザー。包括的なレポート機能による最大50次までのリアルタイム高調波分析。"
+    },
+    "energyLoggers": {
+      "title": "エネルギーロガー",
+      "description": "長期的な電力消費監視およびエネルギー管理用のマルチチャネルエネルギーデータロガー。クラウド接続と自動レポート機能によるワイヤレス通信。"
+    },
+    "calibrationInstruments": {
+      "title": "校正機器",
+      "description": "電気、温度、圧力、およびプロセスパラメーターの校正用の精密校正機器。自動校正手順とドキュメントを備えたNISTトレーサブル精度。"
+    },
+    "testEquipment": {
+      "title": "試験装置",
+      "description": "実験室およびフィールドアプリケーション向けの汎用試験および測定装置。ポータブルおよびベンチトップ構成による電気、電子、および機械試験用の汎用性の高い機器。"
+    },
+    "processCalibrators": {
+      "title": "プロセス校正器",
+      "description": "プロセス計装の包括的なフィールドおよびラボ校正用の多機能プロセス校正器。圧力、温度、および電気信号の校正、HART通信、データロギング、および校正効率を向上させる自動化された手順を備えています。"
+    },
+    "loopCalibrators": {
+      "title": "ループ校正器",
+      "description": "4〜20mAの電流ループとプロセス制御システムのテストとトラブルシューティングを行うための精密mAループ校正器。フィールドおよびワークショップ環境での包括的なループ診断のためのループ電源、電流測定、および信号シミュレーションを提供するハンドヘルド機器。"
+    },
+    "hartCalibrators": {
+      "title": "HART校正器",
+      "description": "包括的なプロセス計装の校正および構成のための高度なHARTフィールド校正器およびコミュニケーター。内蔵のHART通信プロトコルサポートを特徴とするこれらの多機能デバイスは、圧力、温度、および電気信号の校正とHARTデジタル通信機能を組み合わせています。HARTバージョン5〜7、ユニバーサルおよびデバイス固有のコマンド、自動ドキュメント化のサポート、および効率的なフィールド校正とデバイス管理のためのスマートフィールドデバイスとのシームレスな統合。"
+    },
+    "mechanicalTools": {
+      "title": "機械工具",
+      "description": "組み立て、メンテナンス、および修理作業用のプロフェッショナルな機械式ハンドツール。産業および自動車アプリケーション向けの人間工学に基づいた設計の高品質鋼構造。"
+    },
+    "electricalTools": {
+      "title": "電気工具",
+      "description": "活線回路および電気設備での安全な作業のための絶縁電気工具。電気技師の安全のための高電圧保護定格と人間工学に基づいたグリップを備えたVDE認定。"
+    },
+    "precisionTools": {
+      "title": "精密工具",
+      "description": "精度が重要なアプリケーション向けの高精度測定および機械加工ツール。品質管理および精密製造のための厳しい公差を備えた校正済みの機器。"
+    },
+    "electricDrills": {
+      "title": "電気ドリル",
+      "description": "穴あけ、駆動、および固定アプリケーション用のヘビーデューティー電気ドリル。プロの建設および産業用に使用するためのキーレスチャックと高トルクモーターを備えた可変速度制御。"
+    },
+    "angleGrinders": {
+      "title": "アングルグラインダー",
+      "description": "切断、研磨、および研磨アプリケーション用のヘビーデューティーアングルグラインダー。産業環境での長時間の運転のための安全ガードと防振システムを備えた高出力モーター。"
+    },
+    "impactDrivers": {
+      "title": "インパクトドライバー",
+      "description": "ヘビーデューティー固定アプリケーション用の高トルクインパクトドライバー。建設および組み立て作業での正確な駆動のための可変速度制御とLED照明を備えたブラシレスモーター。"
+    },
+    "weldingMachines": {
+      "title": "溶接機",
+      "description": "MIG、TIG、スティック、およびマルチプロセス溶接アプリケーション向けのプロフェッショナルグレードの溶接機。正確なアーク制御、デュアル電圧機能、および産業用製造、メンテナンス、および修理作業用の堅牢な構造を備えた高度なテクノロジー。最適な溶接品質のためのデジタルディスプレイ、パルス機能、および自動セットアップが含まれています。"
+    },
+    "cuttingBlades": {
+      "title": "カッティングブレーgi�",
+      "description": "金属、木材、および石材アプリケーション向けのプレミアムカッティングブレード。クリーンカットとブレード寿命を延ばすための最適化された歯の形状を備えた超硬チップとダイヤモンドコーティングのオプション。"
+    },
+    "drillBits": {
+      "title": "ドリルビット",
+      "description": "鋼、ステンレス鋼、および硬質材料用の高性能ドリルビット。優れた穴あけ性能とツールの寿命を延ばすための特殊コーティングを施したコバルトと超硬構造。"
+    },
+    "millingCutters": {
+      "title": "フライス",
+      "description": "CNCおよび手動機械加工操作用の精密フライス。最適な材料除去と表面仕上げのためのさまざまな溝構成を備えた固体超硬およびHSS構造。"
+    },
+    "chopSaws": {
+      "title": "チョップソー（カットオフソー）",
+      "description": "産業用製造および金属加工用のプロフェッショナルグレードの金属切断チョップソー。最小限の熱と火花でクリーンでバリのない切断を行うためのTCT（タングステンカーバイドチップ）コールドカットテクノロジーを備えています。高トルクモーター、クイックリリースクランプ、および角度カット用のマイター機能付きの14 \"および15\"モデルで利用できます。バンドソーよりも速く、溶接準備ができた仕上げで、鋼、ステンレス鋼、アルミニウム、およびその他の金属を切断します。"
+    },
+    "chainHoists": {
+      "title": "チェーンホイスト",
+      "description": "産業および建設環境での垂直持ち上げアプリケーション用のヘビーデューティーチェーンホイスト。過負荷保護と正確な荷重位置決め機能を備えた手動および電気モデル。"
+    },
+    "wireRopeHoists": {
+      "title": "ワイヤーロープホイスト",
+      "description": "重い持ち上げ作業およびマテリアルハンドリングシステム用の高容量ワイヤーロープホイスト。要求の厳しいアプリケーションのための可変速度制御と高度な安全機能を備えた電気操作。"
+    },
+    "safetyHarnesses": {
+      "title": "安全ハーネス",
+      "description": "高所作業環境での転倒防止用の全身安全ハーネス。作業者の安全のための複数のアタッチメントポイントとクイックコネクトバックルを備えた快適なパッド。"
+    },
+    "safetyBarriers": {
+      "title": "安全バリア",
+      "description": "職場のハザード保護および境界制御用の産業用安全バリアおよびガードレール。歩行者および機器の安全のための高視認性カラーと耐衝撃性構造を備えたモジュラー設計。"
+    },
+    "emergencyEquipment": {
+      "title": "緊急設備",
+      "description": "洗眼ステーション、安全シャワー、応急処置用品、および緊急通信システムを含む不可欠な緊急対応設備。自己完結型および配管オプションを備えたANSI Z358.1準拠。"
+    },
+    "monocrystallinePanels": {
+      "title": "単結晶ソーラーパネル",
+      "description": "優れた電力出力とスペース利用率を備えた高効率単結晶ソーラーパネル。住宅および商業設備向けの反射防止コーティングと堅牢なアルミニウムフレームを備えたプレミアムシリコンセル。"
+    },
+    "polycrystallinePanels": {
+      "title": "多結晶ソーラーパネル",
+      "description": "信頼性の高いパフォーマンスと大規模設備に適した優れた価値を提供する費用対効果の高い多結晶ソーラーパネル。優れた温度係数と実績のある長期信頼性を備えた耐久性のある構造。"
+    },
+    "thinFilmPanels": {
+      "title": "薄膜ソーラーパネル",
+      "description": "独自用途向けの非晶質シリコンおよびCIGS技術を備えた柔軟な薄膜ソーラーパネル。優れた低照度性能と美的統合オプションを備えた軽量設計。"
+    },
+    "stringInverters": {
+      "title": "ストリングインバーター",
+      "description": "最大電力点追従と包括的な監視機能を備えたソーラーPVシステム用の高効率ストリングインバーター。広い入力電圧範囲とグリッドタイ機能による堅牢な設計。"
+    },
+    "microInverters": {
+      "title": "マイクロインバーター",
+      "description": "エネルギー収穫を最大化し、個々のパネルを監視するためのモジュールレベルのマイクロインバーター。安全機能を強化し、設置手順を簡素化したラピッドシャットダウンコンプライアンス。"
+    },
+    "powerOptimizers": {
+      "title": "パワーオプティマイザー",
+      "description": "モジュールレベルのMPPTおよび監視によりソーラーシステムのパフォーマンスを向上させるDCパワーオプティマイザー。ストリングインバーターの経済性を維持しながら、シェーディングとミスマッチの損失を軽減します。"
+    },
+    "modularPlcs": {
+      "title": "モジュラーPLC",
+      "description": "複雑な自動化システム用のスケーラブルなモジュラープログラマブルロジックコントローラー。産業用制御アプリケーション向けの高度な通信機能と高速処理を備えた拡張可能なI / O構成。"
+    },
+    "compactPlcs": {
+      "title": "コンパクトPLC",
+      "description": "中小規模の自動化アプリケーション向けの省スペースコンパクトプログラマブルロジックコントローラー。組み込みの通信インターフェースとユーザーフレンドリーなプログラミングソフトウェアを備えた統合I / O。"
+    },
+    "microPlcs": {
+      "title": "マイクロPLC",
+      "description": "単純な自動化タスク用の超コンパクトマイクロプログラマブルロジックコントローラー。小規模なマシン制御のための不可欠なI / O機能と基本的な通信機能を備えた費用対効果の高いソリューション。"
+    },
+    "scadaSoftware": {
+      "title": "SCADAソフトウェア",
+      "description": "産業プロセスの監視と制御のための包括的な監視制御およびデータ収集ソフトウェア。アラーム管理および履歴トレンド機能によるリアルタイムデータ視覚化。"
+    },
+    "scadaHardware": {
+      "title": "SCADAハードウェア",
+      "description": "信頼性の高いデータ収集および制御操作のための産業用グレードのSCADAハードウェアプラットフォーム。最大の稼働時間を実現するための冗長通信パスとホットスワップ可能なコンポーネントを備えた堅牢な構造。"
+    },
+    "scadaGateways": {
+      "title": "SCADAゲートウェイ",
+      "description": "SCADAシステムの統合とマルチベンダーの互換性のためのプロトコル変換ゲートウェイ。安全なデータ伝送とリアルタイムパフォーマンスを備えた複数の産業用通信プロトコルをサポート。"
+    },
+    "dcsControllers": {
+      "title": "DCSコントローラー",
+      "description": "大規模なプロセス自動化および安全システム用の分散制御システムコントローラー。高可用性設計と高度なプロセス制御アルゴリズムを備えた冗長アーキテクチャ。"
+    },
+    "dcsOperatorStations": {
+      "title": "DCSオペレーターステーション",
+      "description": "分散制御システムの監視および操作用の高度なオペレーターワークステーション。直感的なグラフィックスと包括的なアラーム管理を備えたマルチディスプレイ機能。"
+    },
+    "dcsEngineeringStations": {
+      "title": "DCSエンジニアリングステーション",
+      "description": "DCSの構成、プログラミング、およびメンテナンス用のエンジニアリングワークステーション。シミュレーション機能とバージョン管理を備えた包括的な開発環境。"
+    },
+    "touchscreenHmis": {
+      "title": "タッチスクリーンHMI",
+      "description": "オペレーターの制御と監視のための産業用タッチスクリーンヒューマンマシンインターフェース。過酷な環境に対応する堅牢な構造のマルチタッチディスプレイ。"
+    },
+    "panelMountHmis": {
+      "title": "パネルマウントHMI",
+      "description": "制御キャビネットおよびオペレーターパネルへの統合のためのパネルマウントヒューマンマシンインターフェース。産業用グレードの耐久性を備えたコンパクトな設計。"
+    },
+    "mobileHmis": {
+      "title": "モバイルHMI",
+      "description": "モバイルオペレーター制御およびフィールド監視用のポータブルヒューマンマシンインターフェース。ワイヤレス接続と長いバッテリー寿命を備えた堅牢な設計。"
+    },
+    "safetyRelays": {
+      "title": "安全リレー",
+      "description": "機械および人員保護システム用の安全リレー。フェイルセーフ操作と診断機能を備えた安全アプリケーション向けに認定。"
+    },
+    "emergencyStops": {
+      "title": "非常停止",
+      "description": "機械を直ちに停止させるための非常停止装置。ポジティブオープニングコンタクトと明確な視覚的表示を備えた堅牢な構造。"
+    },
+    "safetySwitches": {
+      "title": "安全スイッチ",
+      "description": "ガードドアおよびアクセスパネル用の位置監視安全スイッチ。最大限のセキュリティを実現するコード化されたアクチュエーターを備えた不正開封防止設計。"
+    },
+    "explosionProofEquipment": {
+      "title": "防爆機器",
+      "description": "危険場所の設置用の認定防爆電気機器。国際安全基準を満たす堅牢なエンクロージャーを備え、可燃性ガスおよび蒸気の着火を防止するように設計されています。"
+    },
+    "intrinsicallySafeBarriers": {
+      "title": "本質安全防爆バリア",
+      "description": "危険場所の本質安全防爆回路用の安全バリア。爆発性雰囲気での点火源を防ぐためのエネルギー制限とガルバニック絶縁を提供します。"
+    },
+    "isFieldDevices": {
+      "title": "本質安全防爆フィールドデバイス",
+      "description": "爆発性雰囲気での本質安全防爆操作用に認定されたフィールドデバイス。ゾーン0/1の危険場所アプリケーション向けに設計されたセンサー、トランスミッター、およびアクチュエーターが含まれています。"
+    },
+    "acSurgeProtectors": {
+      "title": "ACサージプロテクター",
+      "description": "電気機器の保護のためのAC電源ラインサージ保護装置。産業用設備における雷、スイッチングサージ、および電力線障害に対する多段階保護。"
+    },
+    "dcSurgeProtectors": {
+      "title": "DCサージプロテクター",
+      "description": "敏感な電子機器用のDC回路サージ保護装置。DC電源システム、ソーラー設備、およびバッテリー駆動アプリケーション用の特殊な保護。"
+    },
+    "signalSurgeProtectors": {
+      "title": "信号サージプロテクター",
+      "description": "データおよび通信回路用の信号ラインサージ保護。アナログおよびデジタル信号、フィールドバスネットワーク、および計装回路を電磁干渉から保護します。"
+    },
+    "equipmentGrounding": {
+      "title": "機器接地システム",
+      "description": "電気機器の安全と保護のための接地コンポーネント。適切な電気システム接地のための銅および鋼の接地棒、導体、および付属品。"
+    },
+    "systemGrounding": {
+      "title": "システム接地ソリューション",
+      "description": "産業施設向けの完全な接地システムソリューション。電力システムの安全と電磁適合性のための接地グリッド、電極、および監視システム。"
+    },
+    "lightningProtection": {
+      "title": "避雷システム",
+      "description": "建物および産業構造物用の避雷システム。包括的な雷保護のためにIEC 62305規格に準拠して設計されたエアターミナル、ダウンコンダクター、およびサージアレスタ。"
+    },
+    "singleStageCentrifugal": {
+      "title": "単段遠心ポンプ",
+      "description": "給水および産業用アプリケーション用の水平および垂直の単段遠心ポンプ。さまざまな流量およびヘッド条件に対応する低メンテナンス要件による効率的な運転。"
+    },
+    "multiStageCentrifugal": {
+      "title": "多段遠心ポンプ",
+      "description": "要求の厳しいアプリケーション向けの高圧多段遠心ポンプ。複数のインペラーは、昇圧、逆浸透、および産業プロセスアプリケーション向けの高いヘッド機能を提供します。"
+    },
+    "verticalCentrifugal": {
+      "title": "垂直遠心ポンプ",
+      "description": "限られた設置スペースに対応する省スペースの垂直遠心ポンプ。高い効率性能を維持しながら、サンプ、タンク、および水平スペースが限られているアプリケーションに適しています。"
+    },
+    "airOperatedDiaphragm": {
+      "title": "空気圧ダイヤフラムポンプ",
+      "description": "攻撃的および粘性流体を処理するための空気圧ダイヤフラムポンプ。化学処理および廃水アプリケーション向けの優れた吸引能力を備えた自吸式運転。"
+    },
+    "electricDiaphragm": {
+      "title": "電気ダイヤフラムポンプ",
+      "description": "正確な投与および計量アプリケーション用の電気駆動ダイヤフラムポンプ。水処理および化学注入システム向けの優れた耐薬品性を備えた可変流量制御。"
+    },
+    "hydraulicDiaphragm": {
+      "title": "油圧ダイヤフラムポンプ",
+      "description": "高圧アプリケーション用の油圧作動ダイヤフラムポンプ。化学薬品の投与および高圧洗浄システム向けに、正確な流量制御と優れた再現性。"
+    },
+    "externalGearPumps": {
+      "title": "外歯車ポンプ",
+      "description": "粘性液体の移送用の容積式外歯車ポンプ。潤滑油および作動油に最適な、圧力変動とは無関係の一貫した流量供給。"
+    },
+    "internalGearPumps": {
+      "title": "内歯車ポンプ",
+      "description": "敏感な流体のためのスムーズな流れ特性を備えた内歯車ポンプ。穏やかな取り扱いが必要な食品加工、製薬、および化学アプリケーションに適した低脈動設計。"
+    },
+    "magneticGearPumps": {
+      "title": "磁気駆動歯車ポンプ",
+      "description": "漏れのない操作のための磁気結合歯車ポンプ。危険な化学薬品および高純度アプリケーションに最適な、密閉設計によりシャフトシールを排除。"
+    },
+    "impellersCasings": {
+      "title": "インペラーおよびケーシング",
+      "description": "遠心ポンプ用の交換用インペラーおよびポンプケーシング。さまざまなアプリケーションおよび媒体に対応するために、鋳鉄、ステンレス鋼、および特殊合金を含むさまざまな材料で利用可能。"
+    },
+    "sealsGaskets": {
+      "title": "シールおよびガスケット",
+      "description": "信頼性の高い漏れ防止のためのポンプシールおよびガスケット。さまざまな温度、圧力、および耐薬品性の要件に合わせて、さまざまな材料のメカニカルシール、Oリング、およびガスケットセット。"
+    },
+    "bearingsCouplings": {
+      "title": "ベアリングおよびカップリング",
+      "description": "機械駆動システム用のポンプベアリングおよびフレキシブルカップリング。ポンプアプリケーションにおける耐用年数の延長、振動の低減、および信頼性の高い動力伝達のための高品質コンポーネント。"
+    },
+    "jibCranes": {
+      "title": "ジブクレーン",
+      "description": "材料の取り扱いおよび持ち上げアプリケーション用の産業用ジブクレーン。ワークショップおよび製造施設向けの堅牢な構造、スムーズな回転、および柔軟な取り付けオプションを特徴としています。"
+    },
+    "personalProtectiveEquipment": {
+      "title": "個人用保護具",
+      "description": "ヘルメット、手袋、安全メガネ、および保護服を含む産業用安全装置。産業環境での作業者の保護のための国際安全基準を満たす認定機器。"
+    }
+  },
+  "table": {
+    "manufacturer": "メーカー",
+    "model": "モデル",
+    "type": "タイプ",
+    "actions": "アクション"
+  },
+  "messages": {
+    "noProductsInGroup": "このグループに製品は見つかりませんでした。",
+    "noProductGroups": "このカテゴリーには利用可能な製品グループはありません。"
+  }
+}
