@@ -111,8 +111,8 @@ export function StockAlertSidebar({ isOpen, onToggle, headerHeight = 0 }: StockA
             className="fixed left-0 w-80 lg:w-96 bg-background border-r-4 border-primary shadow-xl z-50 overflow-y-auto"
             style={{
               top: `${headerHeight}px`,
-              height: `calc(100vh - ${headerHeight}px - ${footerOffset}px)`,
-              maxHeight: `calc(100vh - ${headerHeight}px - ${footerOffset}px)`
+              bottom: `${footerOffset}px`,
+              height: 'auto'
             }}
             data-testid="aside-stock-alert"
           >
