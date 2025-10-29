@@ -108,15 +108,15 @@ export function StockAlertSidebar({ isOpen, onToggle, headerHeight = 0 }: StockA
             animate={{ x: 0 }}
             exit={{ x: "-100%" }}
             transition={{ type: "spring", damping: 25, stiffness: 200 }}
-            className="fixed left-0 w-80 lg:w-96 bg-background border-r-4 border-primary shadow-xl overflow-y-auto z-40"
+            className="fixed left-0 w-80 lg:w-96 bg-background border-r-4 border-primary shadow-xl overflow-hidden z-40 flex flex-col"
             style={{
               top: `${headerHeight}px`,
-              maxHeight: `calc(100vh - ${headerHeight}px)`
+              height: `calc(100vh - ${headerHeight}px)`
             }}
             data-testid="aside-stock-alert"
           >
 
-            <div className="p-4 space-y-4">
+            <div className="p-3 space-y-2.5 flex-1 flex flex-col justify-center">
               <div className="text-center">
                 <motion.div
                   animate={{ scale: [1, 1.05, 1] }}
@@ -128,13 +128,13 @@ export function StockAlertSidebar({ isOpen, onToggle, headerHeight = 0 }: StockA
                   </Badge>
                 </motion.div>
 
-                <h3 className="text-xl font-bold text-foreground mb-1">
+                <h3 className="text-lg font-bold text-foreground mb-0.5">
                   Premium Products
                 </h3>
-                <p className="text-sm text-muted-foreground mb-1">
+                <p className="text-xs text-muted-foreground mb-0.5">
                   High-quality instrumentation
                 </p>
-                <p className="text-sm font-semibold text-destructive">
+                <p className="text-xs font-semibold text-destructive">
                   🔥 Order now!
                 </p>
               </div>
@@ -188,17 +188,17 @@ export function StockAlertSidebar({ isOpen, onToggle, headerHeight = 0 }: StockA
                 </div>
               </div>
 
-              <div className="bg-gradient-to-r from-primary/10 to-secondary/10 rounded-lg p-3 space-y-2">
+              <div className="bg-gradient-to-r from-primary/10 to-secondary/10 rounded-lg p-2 space-y-1.5">
                 <motion.div whileHover={{ scale: 1.02 }} whileTap={{ scale: 0.98 }}>
                   <Button
                     onClick={handleCall}
-                    className="w-full bg-blue-600 hover:bg-blue-700 text-white py-6 shadow-md"
+                    className="w-full bg-blue-600 hover:bg-blue-700 text-white py-4 shadow-md"
                     data-testid="button-call-now"
                   >
                     <Phone className="mr-2 h-4 w-4" />
                     <div className="flex flex-col items-start">
                       <span className="text-xs font-normal">Call Now</span>
-                      <span className="text-base font-bold">+91-94627-71662</span>
+                      <span className="text-sm font-bold">+91-94627-71662</span>
                     </div>
                   </Button>
                 </motion.div>
@@ -206,13 +206,13 @@ export function StockAlertSidebar({ isOpen, onToggle, headerHeight = 0 }: StockA
                 <motion.div whileHover={{ scale: 1.02 }} whileTap={{ scale: 0.98 }}>
                   <Button
                     onClick={handleWhatsApp}
-                    className="w-full bg-green-600 hover:bg-green-700 text-white py-6 shadow-md"
+                    className="w-full bg-green-600 hover:bg-green-700 text-white py-4 shadow-md"
                     data-testid="button-whatsapp-now"
                   >
                     <MessageCircle className="mr-2 h-4 w-4" />
                     <div className="flex flex-col items-start">
                       <span className="text-xs font-normal">WhatsApp Now</span>
-                      <span className="text-base font-bold">+91-94627-71662</span>
+                      <span className="text-sm font-bold">+91-94627-71662</span>
                     </div>
                   </Button>
                 </motion.div>
