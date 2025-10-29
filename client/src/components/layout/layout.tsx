@@ -10,8 +10,12 @@ interface LayoutProps {
 }
 
 export default function Layout({ children }: LayoutProps) {
-  const [isSidebarOpen, setIsSidebarOpen] = useState(true);
+  const [isSidebarOpen, setIsSidebarOpen] = useState(false);
   const [headerHeight, setHeaderHeight] = useState(0);
+
+  const toggleSidebar = () => {
+    setIsSidebarOpen(prev => !prev);
+  };
 
   // Measure header height
   useEffect(() => {
@@ -48,9 +52,11 @@ export default function Layout({ children }: LayoutProps) {
       <Header />
 
       <div className="flex flex-1">
-        <div className="sticky top-4 self-start">
-          <StockAlertSidebar />
-        </div>
+        <StockAlertSidebar 
+          isOpen={isSidebarOpen} 
+          onToggle={toggleSidebar}
+          headerHeight={headerHeight}
+        />
 
         <main
           id="main-content"

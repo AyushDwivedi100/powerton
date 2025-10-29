@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef } from "react";
-import { motion } from "framer-motion";
+import { motion, AnimatePresence } from "framer-motion";
 import { Phone, MessageCircle, ArrowRight, ArrowLeft, ChevronRight, ChevronLeft } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
@@ -84,118 +84,176 @@ export function StockAlertSidebar({ isOpen, onToggle, headerHeight = 0 }: StockA
   if (!showSidebar || stockProducts.length === 0) return null;
 
   return (
-    <aside
-      className="w-80 lg:w-96 bg-background border-r-4 border-primary shadow-xl flex-shrink-0 max-h-screen overflow-y-auto"
-      data-testid="aside-stock-alert"
-    >
-      <div className="p-4 space-y-4">
-        <div className="text-center">
+    <>
+      {/* Toggle Button - Always visible */}
+      <motion.button
+        onClick={onToggle}
+        className={`fixed left-0 top-1/2 -translate-y-1/2 z-40 bg-primary text-primary-foreground p-3 rounded-r-lg shadow-lg hover:bg-primary/90 transition-colors ${
+          isOpen ? 'hidden' : 'block'
+        }`}
+        style={{ top: `calc(50% + ${headerHeight}px / 2)` }}
+        whileHover={{ scale: 1.05 }}
+        whileTap={{ scale: 0.95 }}
+        data-testid="button-toggle-drawer"
+      >
+        <ChevronRight className="h-5 w-5" />
+      </motion.button>
+
+      {/* Backdrop */}
+      <AnimatePresence>
+        {isOpen && (
           <motion.div
-            animate={{ scale: [1, 1.05, 1] }}
-            transition={{ duration: 2, repeat: Infinity }}
-            className="inline-block"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            onClick={onToggle}
+            className="fixed inset-0 bg-black/20 z-40 lg:hidden"
+            data-testid="backdrop-drawer"
+          />
+        )}
+      </AnimatePresence>
+
+      {/* Drawer */}
+      <AnimatePresence>
+        {isOpen && (
+          <motion.aside
+            ref={sidebarRef}
+            initial={{ x: "-100%" }}
+            animate={{ x: 0 }}
+            exit={{ x: "-100%" }}
+            transition={{ type: "spring", damping: 25, stiffness: 200 }}
+            className="fixed left-0 w-80 lg:w-96 bg-background border-r-4 border-primary shadow-xl z-50 overflow-y-auto"
+            style={{
+              top: `${headerHeight}px`,
+              height: `calc(100vh - ${headerHeight}px - ${footerOffset}px)`,
+              maxHeight: `calc(100vh - ${headerHeight}px - ${footerOffset}px)`
+            }}
+            data-testid="aside-stock-alert"
           >
-            <Badge className="bg-red-600 text-white text-sm px-3 py-1.5 mb-2">
-              ⚡ READY STOCK
-            </Badge>
-          </motion.div>
-
-          <h3 className="text-xl font-bold text-foreground mb-1">
-            Premium Products
-          </h3>
-          <p className="text-sm text-muted-foreground mb-1">
-            High-quality instrumentation
-          </p>
-          <p className="text-sm font-semibold text-destructive">
-            🔥 Order now!
-          </p>
-        </div>
-
-        <div className="relative">
-          <div className="flex items-center justify-between gap-2 mb-2">
-            <Button
-              variant="outline"
-              size="icon"
-              onClick={prevProduct}
-              className="h-8 w-8 shrink-0"
-              data-testid="button-prev-product"
-            >
-              <ArrowLeft className="h-3 w-3" />
-            </Button>
-
-            <div className="flex-1">
-              <motion.div
-                key={currentIndex}
-                initial={{ opacity: 0, x: 20 }}
-                animate={{ opacity: 1, x: 0 }}
-                exit={{ opacity: 0, x: -20 }}
-                transition={{ duration: 0.3 }}
-                className="relative group"
+            {/* Close button inside drawer */}
+            <div className="sticky top-0 z-10 bg-background/95 backdrop-blur-sm border-b border-border p-2">
+              <Button
+                onClick={onToggle}
+                variant="ghost"
+                size="icon"
+                className="ml-auto block"
+                data-testid="button-close-drawer"
               >
-                <div className="bg-white dark:bg-gray-900 rounded-lg p-2 border-2 border-border hover:border-primary transition-colors">
-                  <div className="aspect-square overflow-hidden rounded-md mb-2">
-                    <img
-                      src={stockProducts[currentIndex].image}
-                      alt={stockProducts[currentIndex].title}
-                      className="w-full h-full object-contain group-hover:scale-110 transition-transform duration-300"
-                      data-testid={`img-stock-product-${stockProducts[currentIndex].id}`}
-                    />
-                  </div>
-                  <h4 className="text-sm font-semibold text-foreground text-center line-clamp-2">
-                    {stockProducts[currentIndex].title}
-                  </h4>
-                </div>
-              </motion.div>
+                <ChevronLeft className="h-5 w-5" />
+              </Button>
             </div>
 
-            <Button
-              variant="outline"
-              size="icon"
-              onClick={nextProduct}
-              className="h-8 w-8 shrink-0"
-              data-testid="button-next-product"
-            >
-              <ArrowRight className="h-3 w-3" />
-            </Button>
-          </div>
-        </div>
+            <div className="p-4 space-y-4">
+              <div className="text-center">
+                <motion.div
+                  animate={{ scale: [1, 1.05, 1] }}
+                  transition={{ duration: 2, repeat: Infinity }}
+                  className="inline-block"
+                >
+                  <Badge className="bg-red-600 text-white text-sm px-3 py-1.5 mb-2">
+                    ⚡ READY STOCK
+                  </Badge>
+                </motion.div>
 
-        <div className="bg-gradient-to-r from-primary/10 to-secondary/10 rounded-lg p-3 space-y-2">
-          <motion.div whileHover={{ scale: 1.02 }} whileTap={{ scale: 0.98 }}>
-            <Button
-              onClick={handleCall}
-              className="w-full bg-blue-600 hover:bg-blue-700 text-white py-6 shadow-md"
-              data-testid="button-call-now"
-            >
-              <Phone className="mr-2 h-4 w-4" />
-              <div className="flex flex-col items-start">
-                <span className="text-xs font-normal">Call Now</span>
-                <span className="text-base font-bold">+91-94627-71662</span>
+                <h3 className="text-xl font-bold text-foreground mb-1">
+                  Premium Products
+                </h3>
+                <p className="text-sm text-muted-foreground mb-1">
+                  High-quality instrumentation
+                </p>
+                <p className="text-sm font-semibold text-destructive">
+                  🔥 Order now!
+                </p>
               </div>
-            </Button>
-          </motion.div>
 
-          <motion.div whileHover={{ scale: 1.02 }} whileTap={{ scale: 0.98 }}>
-            <Button
-              onClick={handleWhatsApp}
-              className="w-full bg-green-600 hover:bg-green-700 text-white py-6 shadow-md"
-              data-testid="button-whatsapp-now"
-            >
-              <MessageCircle className="mr-2 h-4 w-4" />
-              <div className="flex flex-col items-start">
-                <span className="text-xs font-normal">WhatsApp Now</span>
-                <span className="text-base font-bold">+91-94627-71662</span>
+              <div className="relative">
+                <div className="flex items-center justify-between gap-2 mb-2">
+                  <Button
+                    variant="outline"
+                    size="icon"
+                    onClick={prevProduct}
+                    className="h-8 w-8 shrink-0"
+                    data-testid="button-prev-product"
+                  >
+                    <ArrowLeft className="h-3 w-3" />
+                  </Button>
+
+                  <div className="flex-1">
+                    <motion.div
+                      key={currentIndex}
+                      initial={{ opacity: 0, x: 20 }}
+                      animate={{ opacity: 1, x: 0 }}
+                      exit={{ opacity: 0, x: -20 }}
+                      transition={{ duration: 0.3 }}
+                      className="relative group"
+                    >
+                      <div className="bg-white dark:bg-gray-900 rounded-lg p-2 border-2 border-border hover:border-primary transition-colors">
+                        <div className="aspect-square overflow-hidden rounded-md mb-2">
+                          <img
+                            src={stockProducts[currentIndex].image}
+                            alt={stockProducts[currentIndex].title}
+                            className="w-full h-full object-contain group-hover:scale-110 transition-transform duration-300"
+                            data-testid={`img-stock-product-${stockProducts[currentIndex].id}`}
+                          />
+                        </div>
+                        <h4 className="text-sm font-semibold text-foreground text-center line-clamp-2">
+                          {stockProducts[currentIndex].title}
+                        </h4>
+                      </div>
+                    </motion.div>
+                  </div>
+
+                  <Button
+                    variant="outline"
+                    size="icon"
+                    onClick={nextProduct}
+                    className="h-8 w-8 shrink-0"
+                    data-testid="button-next-product"
+                  >
+                    <ArrowRight className="h-3 w-3" />
+                  </Button>
+                </div>
               </div>
-            </Button>
-          </motion.div>
-        </div>
 
-        <div className="text-center">
-          <p className="text-xs text-muted-foreground leading-tight">
-            🚚 Same-day dispatch | ✅ ISO certified | 💯 Genuine quality
-          </p>
-        </div>
-      </div>
-    </aside>
+              <div className="bg-gradient-to-r from-primary/10 to-secondary/10 rounded-lg p-3 space-y-2">
+                <motion.div whileHover={{ scale: 1.02 }} whileTap={{ scale: 0.98 }}>
+                  <Button
+                    onClick={handleCall}
+                    className="w-full bg-blue-600 hover:bg-blue-700 text-white py-6 shadow-md"
+                    data-testid="button-call-now"
+                  >
+                    <Phone className="mr-2 h-4 w-4" />
+                    <div className="flex flex-col items-start">
+                      <span className="text-xs font-normal">Call Now</span>
+                      <span className="text-base font-bold">+91-94627-71662</span>
+                    </div>
+                  </Button>
+                </motion.div>
+
+                <motion.div whileHover={{ scale: 1.02 }} whileTap={{ scale: 0.98 }}>
+                  <Button
+                    onClick={handleWhatsApp}
+                    className="w-full bg-green-600 hover:bg-green-700 text-white py-6 shadow-md"
+                    data-testid="button-whatsapp-now"
+                  >
+                    <MessageCircle className="mr-2 h-4 w-4" />
+                    <div className="flex flex-col items-start">
+                      <span className="text-xs font-normal">WhatsApp Now</span>
+                      <span className="text-base font-bold">+91-94627-71662</span>
+                    </div>
+                  </Button>
+                </motion.div>
+              </div>
+
+              <div className="text-center">
+                <p className="text-xs text-muted-foreground leading-tight">
+                  🚚 Same-day dispatch | ✅ ISO certified | 💯 Genuine quality
+                </p>
+              </div>
+            </div>
+          </motion.aside>
+        )}
+      </AnimatePresence>
+    </>
   );
 }
