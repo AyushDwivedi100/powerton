@@ -9,8 +9,8 @@
 [x] 9. Fixed sidebar pushing content off-screen issue - changed to fixed overlay approach
 [x] 10. Fixed toggle button hover shift issue - removed whileHover transform that caused movement
 [x] 11. Fixed z-index layering - sidebar now appears above header and all floating elements (z-[70])
-[x] 12. Added blur effect to rest of website when sidebar is open:
-      - Backdrop now visible on all screen sizes (removed lg:hidden)
-      - Increased backdrop opacity to bg-black/20
-      - Enhanced blur effect to backdrop-blur-sm
-      - Creates professional focus effect when sidebar is active
+[x] 12. Added blur effect to rest of website when sidebar is open
+[x] 13. Fixed toggle button click movement - removed whileTap animation, changed to regular button
+[x] 14. Improved toggle button position - using top-[45%] for better, more stable positioning
+[x] 15. Made sidebar wider - now 45% of screen width with min-width 380px and max-width 600px
+[x] 16. Changed to solid background - removed blur effects, using bg-card for clean professional look

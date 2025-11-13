@@ -69,11 +69,11 @@ export function StockAlertSidebar({ isOpen, onToggle, position = 'top' }: StockA
               stiffness: 200,
               opacity: { duration: 0.2 }
             }}
-            className="fixed left-0 top-0 h-screen w-[340px] bg-background/95 backdrop-blur-md border-r z-[70] flex flex-col"
+            className="fixed left-0 top-0 h-screen w-[45%] min-w-[380px] max-w-[600px] bg-card border-r shadow-2xl z-[70] flex flex-col"
             data-testid="aside-stock-alert-top"
           >
             <div className="flex-1 overflow-y-auto">
-              <div className="sticky top-0 bg-background/95 backdrop-blur-md z-10 px-6 py-5 border-b flex items-center justify-between">
+              <div className="sticky top-0 bg-card z-10 px-6 py-5 border-b flex items-center justify-between">
                 <div>
                   <h2 className="text-base font-semibold text-foreground">Available Stock</h2>
                   <p className="text-xs text-muted-foreground mt-0.5">Ready for immediate delivery</p>
@@ -203,15 +203,14 @@ export function StockAlertSidebar({ isOpen, onToggle, position = 'top' }: StockA
       </AnimatePresence>
 
       {!isOpen && (
-        <motion.button
+        <button
           onClick={onToggle}
-          className="fixed left-0 top-1/2 -translate-y-1/2 z-50 bg-primary text-primary-foreground px-1.5 py-6 rounded-r-lg shadow-lg group"
-          whileTap={{ scale: 0.95 }}
+          className="fixed left-0 top-[45%] z-50 bg-primary text-primary-foreground px-2 py-8 rounded-r-lg shadow-xl group transition-colors hover:bg-primary/90"
           data-testid="button-open-drawer"
           aria-label="Open stock sidebar"
         >
-          <ChevronRight className="h-4 w-4 transition-transform group-hover:translate-x-0.5" />
-        </motion.button>
+          <ChevronRight className="h-5 w-5 transition-transform group-hover:translate-x-0.5" />
+        </button>
       )}
     </>
   );
