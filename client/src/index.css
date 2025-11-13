@@ -12,12 +12,14 @@
 
 /* Allow normal page scrolling */
 html {
-  overflow-y: scroll;
+  overflow-y: auto;
+  overflow-x: hidden;
   scrollbar-gutter: stable;
 }
 
 body {
-  overflow-x: hidden;
+  overflow: hidden;
+  height: 100%;
 }
 
 /* Custom scrollbar styling */

@@ -41,7 +41,7 @@ export default function Layout({ children }: LayoutProps) {
   }, []);
 
   return (
-    <div className="flex flex-col min-h-screen">
+    <div className="flex flex-col min-h-screen w-full">
       <a
         href="#main-content"
         className="sr-only focus:not-sr-only focus:absolute focus:top-0 focus:left-0 focus:z-50 focus:p-4 focus:bg-primary focus:text-primary-foreground"
@@ -52,7 +52,7 @@ export default function Layout({ children }: LayoutProps) {
 
       <Header />
 
-      <div className="flex flex-1 relative overflow-x-hidden">
+      <div className="flex flex-1 relative w-full overflow-x-hidden">
         <StockAlertSidebar 
           isOpen={isSidebarOpen} 
           onToggle={toggleSidebar}
@@ -62,7 +62,7 @@ export default function Layout({ children }: LayoutProps) {
 
         <main
           id="main-content"
-          className="flex-1 relative overflow-x-hidden"
+          className="flex-1 w-full overflow-x-hidden"
           role="main"
           aria-label="Main content area"
         >
