@@ -3,8 +3,7 @@ import Header from "@/components/layout/header";
 import Footer from "@/components/layout/footer";
 import { StockAlertSidebar } from "@/components/ui/StockAlertSidebar";
 
-// Lazy load heavy components that aren't immediately visible
-const Chatbot = lazy(() => import("@/components/chatbot/chatbot"));
+// Lazy load floating contact badges for better initial load performance
 const FloatingContactBadges = lazy(() => import("@/components/ui/floating-contact-badges"));
 
 interface LayoutProps {
@@ -73,9 +72,8 @@ export default function Layout({ children }: LayoutProps) {
 
       <Footer />
 
-      {/* Lazy load chatbot and contact badges for better initial load performance */}
+      {/* Lazy load contact badges for better initial load performance */}
       <Suspense fallback={null}>
-        <Chatbot />
         <FloatingContactBadges />
       </Suspense>
     </div>

@@ -11,7 +11,6 @@ interface DeploymentConfig {
   mode: DeploymentMode;
   apiEndpoint: string;
   formHandler: "backend" | "emailjs" | "netlify" | "mailto";
-  chatbotMode: "backend" | "static" | "ai";
   storageType: "memory" | "database" | "local";
 }
 
@@ -31,28 +30,24 @@ export const getDeploymentConfig = (): DeploymentConfig => {
       mode: "development",
       apiEndpoint: "http://localhost:5000/api",
       formHandler: "backend",
-      chatbotMode: "backend",
       storageType: "memory",
     },
     fullstack: {
       mode: "fullstack",
       apiEndpoint: "/api",
       formHandler: "backend",
-      chatbotMode: "backend",
       storageType: "database",
     },
     serverless: {
       mode: "serverless",
       apiEndpoint: "/api",
       formHandler: "backend",
-      chatbotMode: "static",
       storageType: "database",
     },
     static: {
       mode: "static",
       apiEndpoint: "",
       formHandler: "emailjs",
-      chatbotMode: "static",
       storageType: "local",
     },
   };
@@ -77,18 +72,6 @@ export const getFormConfig = () => {
 
     method: "POST",
     headers: { "Content-Type": "application/json" },
-  };
-};
-
-// Chatbot configuration
-export const getChatbotConfig = () => {
-  const config = getDeploymentConfig();
-
-  return {
-    mode: config.chatbotMode,
-    endpoint:
-      config.chatbotMode === "backend" ? `${config.apiEndpoint}/chatbot` : null,
-    staticResponses: config.chatbotMode === "static",
   };
 };
 

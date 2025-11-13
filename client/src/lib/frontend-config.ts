@@ -22,15 +22,6 @@ export const FRONTEND_CONFIG = {
     fallbackPhoneSecondary: "+91-82997-27291",
   },
 
-  // Chatbot configuration
-  chatbot: {
-    // Use static keyword-based responses
-    mode: "static" as const,
-    // Messages will be handled by translation keys in components
-    welcomeMessageKey: "common:chatbot.welcome",
-    fallbackMessageKey: "common:chatbot.fallback",
-  },
-
   // Company information (static data - actual values come from translations)
   company: {
     name: "Powerton Engineering Pvt. Ltd.",
