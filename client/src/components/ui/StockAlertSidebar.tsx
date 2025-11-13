@@ -20,13 +20,13 @@ export function StockAlertSidebar({ isOpen, onToggle, position = 'top' }: StockA
 
   useEffect(() => {
     if (isOpen) {
-      document.documentElement.style.overflow = 'hidden';
+      document.documentElement.classList.add('scroll-locked');
     } else {
-      document.documentElement.style.overflow = '';
+      document.documentElement.classList.remove('scroll-locked');
     }
 
     return () => {
-      document.documentElement.style.overflow = '';
+      document.documentElement.classList.remove('scroll-locked');
     };
   }, [isOpen]);
 

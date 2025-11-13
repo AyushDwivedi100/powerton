@@ -22,6 +22,14 @@ body {
   height: 100%;
 }
 
+/* Lock scroll while keeping scrollbar visible */
+html.scroll-locked {
+  overflow-y: scroll;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+}
+
 /* Custom scrollbar styling */
 ::-webkit-scrollbar {
   width: 12px;
