@@ -5,6 +5,7 @@ import { Toaster } from "@/components/ui/toaster";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { HelmetProvider } from "react-helmet-async";
 import { ThemeProvider } from "@/hooks/use-theme";
+import { usePreventScrollLock } from "@/hooks/use-prevent-scroll-lock";
 
 // Layout
 import Layout from "@/components/layout/layout";
@@ -116,6 +117,9 @@ function Router() {
 
 function App() {
   const { ready } = useTranslation();
+  
+  // Prevent layout shift when modals/dialogs open
+  usePreventScrollLock();
 
   // Wait for core namespaces to load before rendering
   if (!ready) {

@@ -12,9 +12,11 @@
 
 ### Recent Bug Fixes
 - **Fixed:** Layout shift and black strip appearing when opening language selector or search box
-  - **Issue:** Radix UI was removing scrollbar causing content to shift by ~15-17px
-  - **Solution:** Added `scrollbar-gutter: stable` and prevented Radix from adding padding to body
-  - **Result:** No layout shift when modals/dropdowns open
+  - **Issue:** Radix UI was manipulating body styles (overflow, padding-right) which removed scrollbar causing content to shift by ~15-17px
+  - **Solution:** Implemented dual-layer fix:
+    1. CSS: Force `overflow-y: scroll !important` on html and prevent padding-right on body
+    2. JavaScript: Created `usePreventScrollLock` hook with MutationObserver that actively blocks body style manipulation
+  - **Result:** Scrollbar always visible, no layout shift when modals/dropdowns open
 
 ### Final Verification (November 13, 2025)
 [x] Dependencies installed (npm install completed successfully)

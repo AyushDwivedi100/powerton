@@ -10,26 +10,43 @@
   }
 }
 
-/* Allow normal page scrolling with stable scrollbar gutter */
+/* Prevent layout shift when modals/dropdowns open - Force scrollbar to always be visible */
 html {
-  overflow-y: scroll;
+  overflow-y: scroll !important;
   overflow-x: hidden;
-  scrollbar-gutter: stable;
-  width: 100%;
+  width: 100vw;
 }
 
 body {
   margin: 0;
+  padding: 0 !important;
   min-height: 100vh;
+  overflow-x: hidden;
+  width: 100%;
+  position: relative;
+}
+
+/* Prevent Radix UI from adding padding or changing overflow */
+body[data-scroll-locked],
+body[style*="overflow"],
+body[style*="padding-right"] {
+  padding-right: 0 !important;
+  margin-right: 0 !important;
+  overflow-y: scroll !important;
+  overflow-x: hidden !important;
+}
+
+/* Ensure main app container doesn't shift */
+#root,
+[data-reactroot] {
+  width: 100%;
+  max-width: 100%;
   overflow-x: hidden;
 }
 
-/* When Radix UI locks scroll, prevent layout shift */
-body[data-scroll-locked],
-body[style*="overflow: hidden"],
-body[style*="overflow:hidden"] {
-  padding-right: 0 !important;
-  overflow: hidden !important;
+/* Override any inline styles that Radix might add */
+body > * {
+  max-width: 100vw;
 }
 
 /* Custom scrollbar styling */
