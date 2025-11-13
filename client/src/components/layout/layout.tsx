@@ -1,9 +1,11 @@
-import { ReactNode, useState, useEffect } from "react";
+import { ReactNode, useState, useEffect, lazy, Suspense } from "react";
 import Header from "@/components/layout/header";
 import Footer from "@/components/layout/footer";
-import Chatbot from "@/components/chatbot/chatbot";
-import FloatingContactBadges from "@/components/ui/floating-contact-badges";
 import { StockAlertSidebar } from "@/components/ui/StockAlertSidebar";
+
+// Lazy load heavy components that aren't immediately visible
+const Chatbot = lazy(() => import("@/components/chatbot/chatbot"));
+const FloatingContactBadges = lazy(() => import("@/components/ui/floating-contact-badges"));
 
 interface LayoutProps {
   children: ReactNode;
@@ -71,9 +73,11 @@ export default function Layout({ children }: LayoutProps) {
 
       <Footer />
 
-
-      <Chatbot />
-      <FloatingContactBadges />
+      {/* Lazy load chatbot and contact badges for better initial load performance */}
+      <Suspense fallback={null}>
+        <Chatbot />
+        <FloatingContactBadges />
+      </Suspense>
     </div>
   );
 }

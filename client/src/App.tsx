@@ -9,18 +9,18 @@ import { ThemeProvider } from "@/hooks/use-theme";
 // Layout
 import Layout from "@/components/layout/layout";
 
-// Pages
-import Home from "@/pages/home";
-import About from "@/pages/about";
-import Services from "@/pages/services";
-import Products from "@/pages/products";
-import Projects from "@/pages/projects";
-import Gallery from "@/pages/gallery";
-import Career from "@/pages/career";
-import Contact from "@/pages/contact";
-import Quote from "@/pages/quote";
-import Sitemap from "@/pages/sitemap";
-import NotFound from "@/pages/not-found";
+// Lazy load ALL pages for better code splitting and faster initial load
+const Home = lazy(() => import("@/pages/home"));
+const About = lazy(() => import("@/pages/about"));
+const Services = lazy(() => import("@/pages/services"));
+const Products = lazy(() => import("@/pages/products"));
+const Projects = lazy(() => import("@/pages/projects"));
+const Gallery = lazy(() => import("@/pages/gallery"));
+const Career = lazy(() => import("@/pages/career"));
+const Contact = lazy(() => import("@/pages/contact"));
+const Quote = lazy(() => import("@/pages/quote"));
+const Sitemap = lazy(() => import("@/pages/sitemap"));
+const NotFound = lazy(() => import("@/pages/not-found"));
 
 // Lazy load dynamic service category page
 const ServiceCategoryPage = lazy(
@@ -115,9 +115,10 @@ function Router() {
 }
 
 function App() {
-  const { ready } = useTranslation();
+  const { i18n } = useTranslation();
 
-  if (!ready) {
+  // Wait for i18n to initialize before rendering
+  if (!i18n.isInitialized) {
     return <LoadingSpinner />;
   }
 

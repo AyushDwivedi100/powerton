@@ -20,14 +20,8 @@ window.addEventListener("unhandledrejection", (event) => {
 // Initialize performance optimizations early
 const cleanup = initializePerformanceOptimizations();
 
-// Preload critical images immediately (above-the-fold content)
-const criticalImages = [
-  HERO_IMAGES.home.src,
-  HERO_IMAGES.about.src,
-  HERO_IMAGES.services.src,
-  HERO_IMAGES.products.src,
-];
-preloadCriticalImages(criticalImages);
+// Preload only home page hero image for better LCP (Largest Contentful Paint)
+preloadCriticalImages([HERO_IMAGES.home.src]);
 
 // Setup optimizations after DOM is ready
 document.addEventListener("DOMContentLoaded", () => {

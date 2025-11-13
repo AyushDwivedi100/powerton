@@ -77,7 +77,7 @@ const initConfig = {
     loadPath: `/locales/{{lng}}/{{ns}}.json`,
     addPath: "/locales/add/{{lng}}/{{ns}}",
     cache: true, // Enable caching for better performance
-    allowMultiLoading: true, // Allow loading multiple namespaces at once
+    allowMultiLoading: true, // Allow loading multiple namespaces for better UX
     reloadInterval: false,
   },
 
@@ -87,7 +87,7 @@ const initConfig = {
     formatSeparator: ",",
   },
 
-  // Namespace configuration
+  // Namespace configuration - load core namespaces upfront for home page
   ns: [
     "common",
     "navigation",
@@ -95,10 +95,6 @@ const initConfig = {
     "services",
     "products",
     "forms",
-    "data",
-    "products-data",
-    "chatbot",
-    "acronyms",
   ],
   defaultNS: "common",
 
