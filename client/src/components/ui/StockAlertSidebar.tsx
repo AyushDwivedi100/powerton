@@ -19,6 +19,18 @@ export function StockAlertSidebar({ isOpen, onToggle, position = 'top' }: StockA
   const showSidebar = shouldShowPopup();
 
   useEffect(() => {
+    if (isOpen) {
+      document.body.style.overflow = 'hidden';
+    } else {
+      document.body.style.overflow = '';
+    }
+
+    return () => {
+      document.body.style.overflow = '';
+    };
+  }, [isOpen]);
+
+  useEffect(() => {
     if (!showSidebar || stockProducts.length === 0 || !isOpen) return;
 
     const autoSlideInterval = setInterval(() => {
