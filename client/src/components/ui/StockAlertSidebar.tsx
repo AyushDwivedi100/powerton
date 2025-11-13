@@ -99,7 +99,6 @@ export const StockAlertSidebar = memo(function StockAlertSidebar({
             }}
             className="fixed left-0 top-0 h-screen w-[45%] min-w-[380px] max-w-[600px] bg-background border-r border-border shadow-2xl z-[70] flex flex-col"
             style={{ 
-              transform: 'translate3d(0, 0, 0)',
               willChange: 'transform'
             }}
             data-testid="aside-stock-alert-top"
@@ -107,10 +106,11 @@ export const StockAlertSidebar = memo(function StockAlertSidebar({
             aria-label="Available stock products sidebar"
           >
             <div 
-              className="flex-1 overflow-y-auto"
+              className="flex-1 overflow-y-auto overscroll-contain"
               style={{
-                contain: 'layout style paint',
+                contain: 'paint',
                 willChange: 'scroll-position',
+                transform: 'translate3d(0, 0, 0)',
               }}
             >
               <div className="sticky top-0 bg-background z-10 px-4 sm:px-6 py-4 sm:py-5 border-b border-border">
