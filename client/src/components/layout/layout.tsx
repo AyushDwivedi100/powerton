@@ -69,14 +69,6 @@ export default function Layout({ children }: LayoutProps) {
           aria-label="Main content area"
         >
           {children}
-          
-          {/* Bottom Sidebar - Creates illusion of upward movement */}
-          <StockAlertSidebar 
-            isOpen={isSidebarOpen} 
-            onToggle={toggleSidebar}
-            headerHeight={headerHeight}
-            position="bottom"
-          />
         </main>
       </div>
       <style>{`
