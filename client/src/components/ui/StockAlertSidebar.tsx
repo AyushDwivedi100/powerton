@@ -205,11 +205,23 @@ export function StockAlertSidebar({ isOpen, onToggle, position = 'top' }: StockA
       {!isOpen && (
         <button
           onClick={onToggle}
-          className="fixed left-0 top-[45%] z-50 bg-primary text-primary-foreground px-2 py-8 rounded-r-lg shadow-xl group transition-colors hover:bg-primary/90"
+          className="fixed left-0 top-[40%] z-50 bg-primary text-primary-foreground px-1.5 py-6 rounded-r-lg shadow-xl group transition-all hover:bg-primary/90 hover:px-2 flex flex-col items-center gap-2"
           data-testid="button-open-drawer"
           aria-label="Open stock sidebar"
         >
-          <ChevronRight className="h-5 w-5 transition-transform group-hover:translate-x-0.5" />
+          <div className="relative">
+            <div className="absolute -top-1 -right-1 h-2 w-2 bg-green-400 rounded-full animate-pulse"></div>
+            <ChevronRight className="h-4 w-4 transition-transform group-hover:translate-x-0.5" />
+          </div>
+          <div className="flex flex-col items-center gap-1 writing-mode-vertical">
+            <span className="text-[10px] font-bold uppercase tracking-wider whitespace-nowrap" style={{ writingMode: 'vertical-rl', textOrientation: 'mixed' }}>
+              New Stock
+            </span>
+            <div className="w-px h-3 bg-primary-foreground/30"></div>
+            <span className="text-[9px] font-medium opacity-90 whitespace-nowrap" style={{ writingMode: 'vertical-rl', textOrientation: 'mixed' }}>
+              Available Now
+            </span>
+          </div>
         </button>
       )}
     </>
