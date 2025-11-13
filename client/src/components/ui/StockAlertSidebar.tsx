@@ -197,7 +197,7 @@ export const StockAlertSidebar = memo(function StockAlertSidebar({
                         className={`h-1.5 rounded-full transition-all duration-200 flex-shrink-0 ${
                           idx === currentIndex
                             ? "w-8 bg-primary"
-                            : "w-1.5 bg-muted-foreground/30"
+                            : "w-1.5 bg-muted-foreground"
                         }`}
                         aria-label={`View product ${idx + 1} of ${stockProducts.length}`}
                         aria-current={idx === currentIndex ? "true" : "false"}
