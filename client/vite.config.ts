@@ -4,7 +4,6 @@ import path from "path";
 import { fileURLToPath } from "url";
 import runtimeErrorModal from "@replit/vite-plugin-runtime-error-modal";
 import viteCompression from "vite-plugin-compression";
-import { visualizer } from "rollup-plugin-visualizer";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -13,13 +12,6 @@ export default defineConfig({
   plugins: [
     react(),
     runtimeErrorModal(),
-    // Bundle visualizer for analyzing bundle size (only in build mode)
-    visualizer({
-      filename: "./dist/stats.html",
-      open: false,
-      gzipSize: true,
-      brotliSize: true,
-    }),
   ],
   resolve: {
     alias: {
@@ -45,29 +37,12 @@ export default defineConfig({
     outDir: "dist",
     emptyOutDir: true,
     sourcemap: false,
-    minify: "terser",
+    minify: "esbuild",
     cssMinify: true,
     cssCodeSplit: true,
     modulePreload: {
       polyfill: false,
     },
-    terserOptions: {
-      compress: {
-        drop_console: true,
-        drop_debugger: true,
-        pure_funcs: ['console.log', 'console.info', 'console.debug'],
-        passes: 2,
-        ecma: 2020,
-      },
-      mangle: {
-        toplevel: true,
-        safari10: true,
-      },
-      format: {
-        comments: false,
-        ecma: 2020,
-      },
-    } as any,
     rollupOptions: {
       output: {
         manualChunks(id) {
