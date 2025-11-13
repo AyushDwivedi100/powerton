@@ -43,8 +43,8 @@ export default function Layout({ children }: LayoutProps) {
   }, []);
 
   return (
-    <div className="flex flex-col min-h-screen w-full">
-      <Header />
+    <>
+      <Header/>
       <StockAlertSidebar
         isOpen={isSidebarOpen}
         onToggle={toggleSidebar}
@@ -59,12 +59,12 @@ export default function Layout({ children }: LayoutProps) {
       >
         {children}
       </main>
-      <Footer />
+      <Footer/>
 
       {/* Lazy load contact badges for better initial load performance */}
       <Suspense fallback={null}>
         <FloatingContactBadges />
       </Suspense>
-    </div>
+    </>
   );
 }

@@ -421,7 +421,7 @@ export default function Header() {
 
   return (
     <header
-      className="bg-background border-b border-border shadow-sm sticky top-0 z-50"
+      className="bg-background border-b border-border shadow-sm"
       role="banner"
     >
       {/* Top bar */}
