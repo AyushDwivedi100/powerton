@@ -1,8 +1,9 @@
 import { useState, useEffect, useRef } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { Phone, MessageCircle, ArrowRight, ArrowLeft, ChevronRight, ChevronLeft } from "lucide-react";
+import { Phone, MessageCircle, ChevronRight, ChevronLeft, X, Package, Truck, Award, CheckCircle2 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
+import { Separator } from "@/components/ui/separator";
 import { getNewestProducts, shouldShowPopup } from "@/data/productImages";
 
 interface StockAlertSidebarProps {
@@ -14,13 +15,12 @@ interface StockAlertSidebarProps {
 
 export function StockAlertSidebar({ isOpen, onToggle, headerHeight = 0, position = 'top' }: StockAlertSidebarProps) {
   const [currentIndex, setCurrentIndex] = useState(0);
-  const [footerVisible, setFooterVisible] = useState(0); // 0 to 1, representing footer visibility
+  const [footerVisible, setFooterVisible] = useState(0);
   const sidebarRef = useRef<HTMLElement>(null);
 
   const stockProducts = getNewestProducts(6);
   const showSidebar = shouldShowPopup();
 
-  // Detect footer visibility for smooth transition
   useEffect(() => {
     const handleScroll = () => {
       const footer = document.querySelector('footer');
@@ -28,10 +28,9 @@ export function StockAlertSidebar({ isOpen, onToggle, headerHeight = 0, position
 
       const footerRect = footer.getBoundingClientRect();
       const viewportHeight = window.innerHeight;
-      const triggerPoint = viewportHeight * 0.8; // Start transition when footer is 80% into view
+      const triggerPoint = viewportHeight * 0.8;
 
       if (footerRect.top < viewportHeight && footerRect.top > 0) {
-        // Footer is entering viewport
         const visibility = Math.max(0, Math.min(1, (viewportHeight - footerRect.top) / (viewportHeight - triggerPoint)));
         setFooterVisible(visibility);
       } else if (footerRect.top <= 0) {
@@ -44,7 +43,6 @@ export function StockAlertSidebar({ isOpen, onToggle, headerHeight = 0, position
     window.addEventListener('scroll', handleScroll);
     window.addEventListener('resize', handleScroll);
     
-    // Initial check
     handleScroll();
 
     return () => {
@@ -58,7 +56,7 @@ export function StockAlertSidebar({ isOpen, onToggle, headerHeight = 0, position
 
     const autoSlideInterval = setInterval(() => {
       setCurrentIndex((prev) => (prev + 1) % stockProducts.length);
-    }, 3000);
+    }, 4000);
 
     return () => clearInterval(autoSlideInterval);
   }, [showSidebar, stockProducts.length, isOpen]);
@@ -86,20 +84,15 @@ export function StockAlertSidebar({ isOpen, onToggle, headerHeight = 0, position
 
   if (!showSidebar || stockProducts.length === 0) return null;
 
-  // Calculate opacity and visibility based on position and footer visibility
   const topOpacity = position === 'top' ? (1 - footerVisible) : 0;
   const bottomOpacity = position === 'bottom' ? footerVisible : 0;
   const shouldRender = position === 'top' ? topOpacity > 0.01 : bottomOpacity > 0.01;
 
-  // Only render backdrop for top sidebar
   const showBackdrop = position === 'top';
-  
-  // Only render toggle button for top sidebar
   const showToggleButton = position === 'top';
 
   return (
     <>
-      {/* Backdrop - Only for top sidebar */}
       {showBackdrop && (
         <AnimatePresence>
           {isOpen && (
@@ -108,14 +101,13 @@ export function StockAlertSidebar({ isOpen, onToggle, headerHeight = 0, position
               animate={{ opacity: 1 }}
               exit={{ opacity: 0 }}
               onClick={onToggle}
-              className="absolute inset-0 bg-black/20 z-30 lg:hidden"
+              className="absolute inset-0 bg-black/20 backdrop-blur-sm z-30 lg:hidden"
               data-testid="backdrop-drawer"
             />
           )}
         </AnimatePresence>
       )}
 
-      {/* Drawer */}
       <AnimatePresence>
         {isOpen && shouldRender && (
           <motion.aside
@@ -123,8 +115,8 @@ export function StockAlertSidebar({ isOpen, onToggle, headerHeight = 0, position
             initial={{ x: "-100%" }}
             animate={{ x: 0 }}
             exit={{ x: "-100%" }}
-            transition={{ type: "spring", damping: 25, stiffness: 200 }}
-            className={`absolute left-0 w-80 lg:w-96 bg-background border-r-4 border-primary shadow-xl overflow-hidden z-40 flex flex-col transition-all duration-300 ${
+            transition={{ type: "spring", damping: 30, stiffness: 300 }}
+            className={`absolute left-0 w-80 lg:w-[22rem] bg-card shadow-2xl overflow-hidden z-40 flex flex-col transition-all duration-300 ${
               position === 'bottom' ? 'bottom-0' : 'top-0'
             }`}
             style={{
@@ -133,145 +125,185 @@ export function StockAlertSidebar({ isOpen, onToggle, headerHeight = 0, position
               minHeight: position === 'top' ? '600px' : `${footerVisible * 600}px`,
               maxHeight: position === 'top' 
                 ? `calc(100vh - ${footerVisible * 30}vh)` 
-                : `${footerVisible * 100}vh`
+                : `${footerVisible * 100}vh`,
+              borderRight: '1px solid hsl(var(--border))'
             }}
             data-testid={`aside-stock-alert-${position}`}
           >
-            {/* Close Button - Inside Drawer */}
             <Button
               onClick={onToggle}
               variant="ghost"
               size="icon"
-              className="absolute top-2 right-2 z-50 h-8 w-8 rounded-full bg-primary/10 hover:bg-primary/20 text-foreground"
+              className="absolute top-4 right-4 z-50 rounded-md"
               data-testid="button-close-drawer"
               aria-label="Close stock alert sidebar"
             >
-              <ChevronLeft className="h-5 w-5" />
+              <X className="h-4 w-4" />
             </Button>
 
-            <div className="p-3 space-y-2.5 flex-1 flex flex-col justify-center">
-              <div className="text-center">
-                <motion.div
-                  animate={{ scale: [1, 1.05, 1] }}
-                  transition={{ duration: 2, repeat: Infinity }}
-                  className="inline-block"
-                >
-                  <Badge className="bg-red-600 text-white text-sm px-3 py-1.5 mb-2">
-                    ⚡ READY STOCK
-                  </Badge>
-                </motion.div>
-
-                <h3 className="text-lg font-bold text-foreground mb-0.5">
-                  Premium Products
-                </h3>
-                <p className="text-xs text-muted-foreground mb-0.5">
-                  High-quality instrumentation
-                </p>
-                <p className="text-xs font-semibold text-destructive">
-                  🔥 Order now!
-                </p>
-              </div>
-
-              <div className="relative">
-                <div className="flex items-center justify-between gap-2 mb-2">
-                  <Button
-                    variant="outline"
-                    size="icon"
-                    onClick={prevProduct}
-                    className="h-8 w-8 shrink-0"
-                    data-testid="button-prev-product"
-                  >
-                    <ArrowLeft className="h-3 w-3" />
-                  </Button>
-
-                  <div className="flex-1">
-                    <motion.div
-                      key={currentIndex}
-                      initial={{ opacity: 0, x: 20 }}
-                      animate={{ opacity: 1, x: 0 }}
-                      exit={{ opacity: 0, x: -20 }}
-                      transition={{ duration: 0.3 }}
-                      className="relative group"
-                    >
-                      <div className="bg-white dark:bg-gray-900 rounded-lg p-2 border-2 border-border hover:border-primary transition-colors">
-                        <div className="aspect-square overflow-hidden rounded-md mb-2">
-                          <img
-                            src={stockProducts[currentIndex].image}
-                            alt={stockProducts[currentIndex].title}
-                            className="w-full h-full object-contain group-hover:scale-110 transition-transform duration-300"
-                            data-testid={`img-stock-product-${stockProducts[currentIndex].id}`}
-                          />
-                        </div>
-                        <h4 className="text-sm font-semibold text-foreground text-center line-clamp-2">
-                          {stockProducts[currentIndex].title}
-                        </h4>
-                      </div>
-                    </motion.div>
+            <div className="p-6 space-y-6 flex-1 flex flex-col">
+              <div className="space-y-3">
+                <div className="flex items-center gap-2">
+                  <div className="p-2 bg-primary/10 rounded-md">
+                    <Package className="h-5 w-5 text-primary" />
                   </div>
+                  <div className="flex-1">
+                    <Badge variant="secondary" className="text-xs font-medium">
+                      IN STOCK NOW
+                    </Badge>
+                  </div>
+                </div>
 
-                  <Button
-                    variant="outline"
-                    size="icon"
-                    onClick={nextProduct}
-                    className="h-8 w-8 shrink-0"
-                    data-testid="button-next-product"
-                  >
-                    <ArrowRight className="h-3 w-3" />
-                  </Button>
+                <div>
+                  <h3 className="text-xl font-semibold text-foreground mb-1">
+                    Premium Products
+                  </h3>
+                  <p className="text-sm text-muted-foreground">
+                    High-quality industrial instrumentation available for immediate delivery
+                  </p>
                 </div>
               </div>
 
-              <div className="bg-gradient-to-r from-primary/10 to-secondary/10 rounded-lg p-2 space-y-1.5">
-                <motion.div whileHover={{ scale: 1.02 }} whileTap={{ scale: 0.98 }}>
-                  <Button
-                    onClick={handleCall}
-                    className="w-full bg-blue-600 hover:bg-blue-700 text-white py-4 shadow-md"
-                    data-testid="button-call-now"
-                  >
-                    <Phone className="mr-2 h-4 w-4" />
-                    <div className="flex flex-col items-start">
-                      <span className="text-xs font-normal">Call Now</span>
-                      <span className="text-sm font-bold">+91-94627-71662</span>
-                    </div>
-                  </Button>
-                </motion.div>
+              <Separator />
 
-                <motion.div whileHover={{ scale: 1.02 }} whileTap={{ scale: 0.98 }}>
-                  <Button
-                    onClick={handleWhatsApp}
-                    className="w-full bg-green-600 hover:bg-green-700 text-white py-4 shadow-md"
-                    data-testid="button-whatsapp-now"
-                  >
-                    <MessageCircle className="mr-2 h-4 w-4" />
-                    <div className="flex flex-col items-start">
-                      <span className="text-xs font-normal">WhatsApp Now</span>
-                      <span className="text-sm font-bold">+91-94627-71662</span>
+              <div className="flex-1 space-y-4">
+                <div className="relative">
+                  <AnimatePresence mode="wait">
+                    <motion.div
+                      key={currentIndex}
+                      initial={{ opacity: 0, y: 10 }}
+                      animate={{ opacity: 1, y: 0 }}
+                      exit={{ opacity: 0, y: -10 }}
+                      transition={{ duration: 0.3 }}
+                    >
+                      <div className="bg-background rounded-md border overflow-hidden hover-elevate">
+                        <div className="aspect-square overflow-hidden bg-muted/50">
+                          <img
+                            src={stockProducts[currentIndex].image}
+                            alt={stockProducts[currentIndex].title}
+                            className="w-full h-full object-contain p-4"
+                            data-testid={`img-stock-product-${stockProducts[currentIndex].id}`}
+                          />
+                        </div>
+                        <div className="p-4">
+                          <h4 className="text-sm font-medium text-foreground line-clamp-2 min-h-[2.5rem]">
+                            {stockProducts[currentIndex].title}
+                          </h4>
+                        </div>
+                      </div>
+                    </motion.div>
+                  </AnimatePresence>
+
+                  <div className="flex items-center justify-between gap-2 mt-4">
+                    <Button
+                      variant="outline"
+                      size="icon"
+                      onClick={prevProduct}
+                      className="h-9 w-9"
+                      data-testid="button-prev-product"
+                      aria-label="Previous product"
+                    >
+                      <ChevronLeft className="h-4 w-4" />
+                    </Button>
+
+                    <div className="flex gap-1.5">
+                      {stockProducts.map((_, idx) => (
+                        <button
+                          key={idx}
+                          onClick={() => setCurrentIndex(idx)}
+                          className={`h-1.5 rounded-full transition-all ${
+                            idx === currentIndex 
+                              ? 'w-6 bg-primary' 
+                              : 'w-1.5 bg-muted-foreground/30'
+                          }`}
+                          aria-label={`Go to product ${idx + 1}`}
+                        />
+                      ))}
                     </div>
-                  </Button>
-                </motion.div>
+
+                    <Button
+                      variant="outline"
+                      size="icon"
+                      onClick={nextProduct}
+                      className="h-9 w-9"
+                      data-testid="button-next-product"
+                      aria-label="Next product"
+                    >
+                      <ChevronRight className="h-4 w-4" />
+                    </Button>
+                  </div>
+                </div>
+
+                <div className="space-y-2">
+                  <div className="flex items-center gap-2 text-sm text-muted-foreground">
+                    <Truck className="h-4 w-4" />
+                    <span>Same-day dispatch</span>
+                  </div>
+                  <div className="flex items-center gap-2 text-sm text-muted-foreground">
+                    <Award className="h-4 w-4" />
+                    <span>ISO certified quality</span>
+                  </div>
+                  <div className="flex items-center gap-2 text-sm text-muted-foreground">
+                    <CheckCircle2 className="h-4 w-4" />
+                    <span>100% genuine products</span>
+                  </div>
+                </div>
               </div>
 
-              <div className="text-center">
-                <p className="text-xs text-muted-foreground leading-tight">
-                  🚚 Same-day dispatch | ✅ ISO certified | 💯 Genuine quality
+              <Separator />
+
+              <div className="space-y-3">
+                <p className="text-xs font-medium text-muted-foreground uppercase tracking-wide">
+                  Contact us for immediate assistance
                 </p>
+                
+                <div className="space-y-2">
+                  <Button
+                    onClick={handleCall}
+                    variant="default"
+                    className="w-full justify-start gap-3 h-auto py-3"
+                    data-testid="button-call-now"
+                  >
+                    <div className="p-1.5 bg-background/20 rounded-md">
+                      <Phone className="h-4 w-4" />
+                    </div>
+                    <div className="flex flex-col items-start text-left">
+                      <span className="text-xs font-normal opacity-90">Call Now</span>
+                      <span className="text-sm font-semibold">+91-94627-71662</span>
+                    </div>
+                  </Button>
+
+                  <Button
+                    onClick={handleWhatsApp}
+                    variant="outline"
+                    className="w-full justify-start gap-3 h-auto py-3 bg-green-600/10 border-green-600/20 hover:bg-green-600/20 text-foreground"
+                    data-testid="button-whatsapp-now"
+                  >
+                    <div className="p-1.5 bg-green-600/20 rounded-md">
+                      <MessageCircle className="h-4 w-4 text-green-600" />
+                    </div>
+                    <div className="flex flex-col items-start text-left">
+                      <span className="text-xs font-normal text-muted-foreground">WhatsApp</span>
+                      <span className="text-sm font-semibold">+91-94627-71662</span>
+                    </div>
+                  </Button>
+                </div>
               </div>
             </div>
           </motion.aside>
         )}
       </AnimatePresence>
 
-      {/* Open Button - Shows when drawer is closed - Only for top sidebar */}
       {showToggleButton && !isOpen && (
         <motion.button
           onClick={onToggle}
-          className="sticky left-0 top-1/2 -translate-y-1/2 z-[100] bg-primary text-primary-foreground px-1.5 py-2 shadow-lg hover:bg-primary/90 transition-all duration-300 rounded-r-md"
-          whileHover={{ scale: 1.05 }}
+          className="fixed left-0 top-1/2 -translate-y-1/2 z-[100] bg-primary text-primary-foreground px-2 py-4 shadow-lg rounded-r-md"
+          whileHover={{ x: 2 }}
           whileTap={{ scale: 0.95 }}
           data-testid="button-open-drawer"
           aria-label="Open stock alert sidebar"
         >
-          <ChevronRight className="h-4 w-4" />
+          <ChevronRight className="h-5 w-5" />
         </motion.button>
       )}
     </>
