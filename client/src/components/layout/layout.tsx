@@ -52,7 +52,7 @@ export default function Layout({ children }: LayoutProps) {
 
       <Header />
 
-      <div className="flex flex-1 relative">
+      <div className="flex flex-1 relative overflow-x-hidden">
         <StockAlertSidebar 
           isOpen={isSidebarOpen} 
           onToggle={toggleSidebar}
@@ -62,7 +62,7 @@ export default function Layout({ children }: LayoutProps) {
 
         <main
           id="main-content"
-          className="flex-1 relative"
+          className="flex-1 relative overflow-x-hidden"
           role="main"
           aria-label="Main content area"
         >
