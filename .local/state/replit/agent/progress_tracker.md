@@ -26,6 +26,16 @@
 
 ### Recent Bug Fixes (November 13, 2025)
 
+- **Fixed:** Dropdown menus (Services & Products) clipping behind main content
+  - **Issue:** Services and Products dropdown menus in the header were appearing behind main page content
+  - **Root Cause:** Z-index values too low - Services dropdown had `z-50` and Products dropdown had `z-[60]`
+  - **Solution:** Increased z-index values to ensure dropdowns always appear on top:
+    - Services dropdown: `z-50` → `z-[9999]`
+    - Products dropdown: `z-[60]` → `z-[9999]`
+    - Product Groups popup: `z-[100]` → `z-[10000]`
+  - **Result:** ✅ All dropdown menus now properly display in front of page content
+  - **File Changed:** `client/src/components/layout/header.tsx`
+
 - **Fixed:** Preview mode showing blank white screen (CRITICAL BUG - TWO ISSUES)
   - **Issue 1:** Running `npm run preview` in VS Code showed blank white screen with no errors in console
     - **Root Cause:** Global error handler in `client/src/main.tsx` (lines 14-18) was calling `event.preventDefault()` on all unhandled promise rejections, completely suppressing errors

@@ -663,7 +663,7 @@ export default function Header() {
 
                       {/* Dropdown Content */}
                       <div
-                        className={`transition-all duration-200 fixed left-1/2 -translate-x-1/2 z-50 ${
+                        className={`transition-all duration-200 fixed left-1/2 -translate-x-1/2 z-[9999] ${
                           isServicesDropdownOpen
                             ? "opacity-100 visible"
                             : "opacity-0 invisible"
@@ -735,7 +735,7 @@ export default function Header() {
 
                       {/* Products Dropdown Content */}
                       <div
-                        className={`transition-all duration-200 fixed left-1/2 -translate-x-1/2 z-[60] ${
+                        className={`transition-all duration-200 fixed left-1/2 -translate-x-1/2 z-[9999] ${
                           isProductsDropdownOpen
                             ? "opacity-100 visible"
                             : "opacity-0 invisible"
@@ -863,7 +863,7 @@ export default function Header() {
                               x: -20,
                             }}
                             transition={{ duration: 0.25, ease: "easeOut" }}
-                            className="fixed z-[100] bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-700 rounded-lg shadow-xl pointer-events-auto"
+                            className="fixed z-[10000] bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-700 rounded-lg shadow-xl pointer-events-auto"
                             style={{
                               left: popupPosition.x,
                               top: popupPosition.y,
