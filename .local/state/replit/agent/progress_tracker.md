@@ -110,6 +110,18 @@
 [x] All optimizations from previous sessions preserved
 [x] Import marked as complete
 
+### Stock Alert Sidebar Performance Fix (November 13, 2025)
+[x] Identified performance bottlenecks in StockAlertSidebar component
+[x] Added getAllProductsForStockAlert() function to show all 16 products
+[x] Wrapped component in React.memo() for render optimization
+[x] Used useMemo() to cache products list calculation
+[x] Simplified animations from spring to tween (faster, less CPU)
+[x] Reduced animation durations (0.3s → 0.25s, 0.2s → 0.15s)
+[x] Removed AnimatePresence mode="wait" causing lag
+[x] Changed to CSS transitions for image swaps
+[x] Architect review: PASSED - Performance gains confirmed
+[x] All 16 products now visible in sidebar (previously only 6)
+
 ---
 
 ## Project Goal

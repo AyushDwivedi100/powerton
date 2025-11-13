@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef } from "react";
+import { useState, useEffect, useRef, useMemo, memo } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import {
   Phone,
@@ -10,7 +10,7 @@ import {
   Shield,
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import { getNewestProducts, shouldShowPopup } from "@/data/productImages";
+import { getAllProductsForStockAlert, shouldShowPopup } from "@/data/productImages";
 
 interface StockAlertSidebarProps {
   isOpen: boolean;
@@ -19,7 +19,7 @@ interface StockAlertSidebarProps {
   position?: "top" | "bottom";
 }
 
-export function StockAlertSidebar({
+export const StockAlertSidebar = memo(function StockAlertSidebar({
   isOpen,
   onToggle,
   position = "top",
@@ -27,8 +27,8 @@ export function StockAlertSidebar({
   const [currentIndex, setCurrentIndex] = useState(0);
   const sidebarRef = useRef<HTMLElement>(null);
 
-  const stockProducts = getNewestProducts(6);
-  const showSidebar = shouldShowPopup();
+  const stockProducts = useMemo(() => getAllProductsForStockAlert(), []);
+  const showSidebar = useMemo(() => shouldShowPopup(), []);
 
   useEffect(() => {
     if (isOpen) {
@@ -66,6 +66,8 @@ export function StockAlertSidebar({
   if (!showSidebar || stockProducts.length === 0 || position !== "top")
     return null;
 
+  const currentProduct = stockProducts[currentIndex];
+
   return (
     <>
       <AnimatePresence>
@@ -74,6 +76,7 @@ export function StockAlertSidebar({
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
+            transition={{ duration: 0.15 }}
             onClick={onToggle}
             className="fixed inset-0 bg-black/30 backdrop-blur-sm z-[60]"
             data-testid="backdrop-drawer"
@@ -86,14 +89,13 @@ export function StockAlertSidebar({
         {isOpen && (
           <motion.aside
             ref={sidebarRef}
-            initial={{ x: "-100%", opacity: 0 }}
-            animate={{ x: 0, opacity: 1 }}
-            exit={{ x: "-100%", opacity: 0 }}
+            initial={{ x: "-100%" }}
+            animate={{ x: 0 }}
+            exit={{ x: "-100%" }}
             transition={{
-              type: "spring",
-              damping: 25,
-              stiffness: 200,
-              opacity: { duration: 0.2 },
+              type: "tween",
+              duration: 0.25,
+              ease: "easeOut",
             }}
             className="fixed left-0 top-0 h-screen w-[45%] min-w-[380px] max-w-[600px] bg-background border-r border-border/50 shadow-2xl z-[70] flex flex-col"
             data-testid="aside-stock-alert-top"
@@ -114,7 +116,7 @@ export function StockAlertSidebar({
                       </h2>
                     </div>
                     <p className="text-xs text-muted-foreground">
-                      Premium products ready for dispatch
+                      {stockProducts.length} premium products ready for dispatch
                     </p>
                   </div>
                   <Button
@@ -133,48 +135,40 @@ export function StockAlertSidebar({
 
               <div className="p-4 sm:p-6 space-y-6 sm:space-y-8">
                 <div className="space-y-4">
-                  <AnimatePresence mode="wait">
-                    <motion.div
-                      key={currentIndex}
-                      initial={{ opacity: 0, y: 10 }}
-                      animate={{ opacity: 1, y: 0 }}
-                      exit={{ opacity: 0, y: -10 }}
-                      transition={{ duration: 0.3, ease: "easeOut" }}
-                      className="group"
-                    >
-                      <div className="relative overflow-hidden rounded-xl bg-gradient-to-br from-muted/30 via-background to-muted/20 border border-border/50 shadow-sm">
-                        <div className="aspect-square p-6 sm:p-8">
-                          <img
-                            src={stockProducts[currentIndex].image}
-                            alt={`${stockProducts[currentIndex].title} - Available in stock`}
-                            className="w-full h-full object-contain transition-transform duration-500 group-hover:scale-105"
-                            data-testid={`img-stock-product-${stockProducts[currentIndex].id}`}
-                            loading="lazy"
-                          />
-                        </div>
-                        <div className="absolute top-3 right-3">
-                          <div className="flex items-center gap-1.5 px-3 py-1.5 bg-green-500/10 backdrop-blur-sm rounded-lg border border-green-500/20">
-                            <div
-                              className="h-1.5 w-1.5 rounded-full bg-green-500 animate-pulse"
-                              aria-hidden="true"
-                            ></div>
-                            <span className="text-xs font-semibold text-green-700 dark:text-green-400">
-                              In Stock
-                            </span>
-                          </div>
+                  <div className="group">
+                    <div className="relative overflow-hidden rounded-xl bg-gradient-to-br from-muted/30 via-background to-muted/20 border border-border/50 shadow-sm">
+                      <div className="aspect-square p-6 sm:p-8">
+                        <img
+                          key={currentProduct.id}
+                          src={currentProduct.image}
+                          alt={`${currentProduct.title} - Available in stock`}
+                          className="w-full h-full object-contain transition-opacity duration-300"
+                          data-testid={`img-stock-product-${currentProduct.id}`}
+                          loading="lazy"
+                        />
+                      </div>
+                      <div className="absolute top-3 right-3">
+                        <div className="flex items-center gap-1.5 px-3 py-1.5 bg-green-500/10 backdrop-blur-sm rounded-lg border border-green-500/20">
+                          <div
+                            className="h-1.5 w-1.5 rounded-full bg-green-500 animate-pulse"
+                            aria-hidden="true"
+                          ></div>
+                          <span className="text-xs font-semibold text-green-700 dark:text-green-400">
+                            In Stock
+                          </span>
                         </div>
                       </div>
+                    </div>
 
-                      <div className="mt-4 px-1">
-                        <h3 className="text-sm sm:text-base font-semibold text-foreground leading-snug line-clamp-2 min-h-[2.5rem]">
-                          {stockProducts[currentIndex].title}
-                        </h3>
-                        <p className="text-xs text-muted-foreground mt-1">
-                          Product {currentIndex + 1} of {stockProducts.length}
-                        </p>
-                      </div>
-                    </motion.div>
-                  </AnimatePresence>
+                    <div className="mt-4 px-1">
+                      <h3 className="text-sm sm:text-base font-semibold text-foreground leading-snug line-clamp-2 min-h-[2.5rem]">
+                        {currentProduct.title}
+                      </h3>
+                      <p className="text-xs text-muted-foreground mt-1">
+                        Product {currentIndex + 1} of {stockProducts.length}
+                      </p>
+                    </div>
+                  </div>
 
                   <div
                     className="flex items-center justify-center gap-2 pt-2"
@@ -185,7 +179,7 @@ export function StockAlertSidebar({
                       <button
                         key={idx}
                         onClick={() => setCurrentIndex(idx)}
-                        className={`h-1.5 rounded-full transition-all duration-300 hover-elevate ${
+                        className={`h-1.5 rounded-full transition-all duration-200 hover-elevate ${
                           idx === currentIndex
                             ? "w-8 bg-primary"
                             : "w-1.5 bg-muted-foreground/30"
@@ -328,4 +322,4 @@ export function StockAlertSidebar({
       )}
     </>
   );
-}
+});

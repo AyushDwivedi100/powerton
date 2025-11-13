@@ -170,10 +170,18 @@ export function getNewestProducts(maxCount: number = 6): ProductImage[] {
     return productDate >= thirtyDaysAgo;
   });
   
-  // Sort by date (newest first) and return top N
-  return recentProducts
-    .sort((a, b) => new Date(b.dateAdded).getTime() - new Date(a.dateAdded).getTime())
-    .slice(0, maxCount);
+  // Sort by date (newest first) and return top N (or all if maxCount is Infinity)
+  const sorted = recentProducts
+    .sort((a, b) => new Date(b.dateAdded).getTime() - new Date(a.dateAdded).getTime());
+  
+  return maxCount === Infinity ? sorted : sorted.slice(0, maxCount);
+}
+
+// Helper function to get all products for stock alert (sorted by newest first)
+export function getAllProductsForStockAlert(): ProductImage[] {
+  return [...productImages].sort((a, b) => 
+    new Date(b.dateAdded).getTime() - new Date(a.dateAdded).getTime()
+  );
 }
 
 // Helper function to check if popup should be shown
