@@ -50,7 +50,7 @@ export function StockAlertSidebar({ isOpen, onToggle, position = 'top' }: StockA
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
             onClick={onToggle}
-            className="fixed inset-0 bg-black/10 backdrop-blur-[2px] z-30 lg:hidden"
+            className="fixed inset-0 bg-black/20 backdrop-blur-sm z-[60]"
             data-testid="backdrop-drawer"
           />
         )}
@@ -69,7 +69,7 @@ export function StockAlertSidebar({ isOpen, onToggle, position = 'top' }: StockA
               stiffness: 200,
               opacity: { duration: 0.2 }
             }}
-            className="fixed left-0 top-0 h-screen w-[340px] bg-background/95 backdrop-blur-md border-r z-40 flex flex-col"
+            className="fixed left-0 top-0 h-screen w-[340px] bg-background/95 backdrop-blur-md border-r z-[70] flex flex-col"
             data-testid="aside-stock-alert-top"
           >
             <div className="flex-1 overflow-y-auto">
@@ -205,8 +205,7 @@ export function StockAlertSidebar({ isOpen, onToggle, position = 'top' }: StockA
       {!isOpen && (
         <motion.button
           onClick={onToggle}
-          className="fixed left-0 top-1/2 -translate-y-1/2 z-[100] bg-primary text-primary-foreground px-1.5 py-6 rounded-r-lg shadow-lg group"
-          whileHover={{ x: 3 }}
+          className="fixed left-0 top-1/2 -translate-y-1/2 z-50 bg-primary text-primary-foreground px-1.5 py-6 rounded-r-lg shadow-lg group"
           whileTap={{ scale: 0.95 }}
           data-testid="button-open-drawer"
           aria-label="Open stock sidebar"
