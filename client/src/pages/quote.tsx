@@ -45,6 +45,7 @@ import {
   getAnimationClass,
 } from "@/hooks/use-scroll-animation";
 import { getHeroImage } from "@/assets/images";
+import { useLazyNamespace } from "@/lib/lazy-i18n";
 
 interface ProjectConfig {
   projectType: string;
@@ -158,6 +159,7 @@ const ADDITIONAL_FEATURES = [
 ];
 
 export default function Quote() {
+  useLazyNamespace(["pages", "forms"]);
   const { t } = useTranslation(["pages", "common"]);
   const [currentStep, setCurrentStep] = useState(1);
   const [selectedTab, setSelectedTab] = useState("quote");

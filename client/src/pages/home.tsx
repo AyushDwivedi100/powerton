@@ -12,10 +12,13 @@ import ClientsSection from "@/components/sections/clients-section";
 import ProjectsSection from "@/components/sections/projects-section";
 import ContactSection from "@/components/sections/contact-section";
 import { useTranslation } from "react-i18next";
+import { useLazyNamespace } from "@/lib/lazy-i18n";
 
 export default function Home() {
   // Re-enabled optimized scroll animations
   useScrollAnimations();
+  // Lazy load only the namespaces needed for this page
+  useLazyNamespace(["pages", "services", "products"]);
   const { t } = useTranslation(["pages"]);
 
   // NOTE: Structured data is intentionally kept in English (not translated)

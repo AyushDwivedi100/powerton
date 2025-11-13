@@ -3,12 +3,24 @@ import react from "@vitejs/plugin-react";
 import path from "path";
 import { fileURLToPath } from "url";
 import runtimeErrorModal from "@replit/vite-plugin-runtime-error-modal";
+import viteCompression from "vite-plugin-compression";
+import { visualizer } from "rollup-plugin-visualizer";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 export default defineConfig({
-  plugins: [react(), runtimeErrorModal()],
+  plugins: [
+    react(),
+    runtimeErrorModal(),
+    // Bundle visualizer for analyzing bundle size (only in build mode)
+    visualizer({
+      filename: "./dist/stats.html",
+      open: false,
+      gzipSize: true,
+      brotliSize: true,
+    }),
+  ],
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "src"),
@@ -33,20 +45,117 @@ export default defineConfig({
     outDir: "dist",
     emptyOutDir: true,
     sourcemap: false,
-    minify: "esbuild",
+    minify: "terser",
     cssMinify: true,
+    cssCodeSplit: true,
+    modulePreload: {
+      polyfill: false,
+    },
+    terserOptions: {
+      compress: {
+        drop_console: true,
+        drop_debugger: true,
+        pure_funcs: ['console.log', 'console.info', 'console.debug'],
+        passes: 2,
+        ecma: 2020,
+      },
+      mangle: {
+        toplevel: true,
+        safari10: true,
+      },
+      format: {
+        comments: false,
+        ecma: 2020,
+      },
+    } as any,
     rollupOptions: {
       output: {
-        manualChunks: {
-          'vendor': ['react', 'react-dom', 'wouter', '@tanstack/react-query'],
-          'i18n': ['i18next', 'react-i18next', 'i18next-browser-languagedetector', 'i18next-http-backend'],
-          'ui': ['framer-motion'],
+        manualChunks(id) {
+          // Vendor chunks - split by library for better caching
+          if (id.includes("node_modules")) {
+            // React core
+            if (id.includes("react") || id.includes("react-dom")) {
+              return "vendor-react";
+            }
+            // Routing
+            if (id.includes("wouter")) {
+              return "vendor-router";
+            }
+            // State management
+            if (id.includes("@tanstack/react-query")) {
+              return "vendor-query";
+            }
+            // i18n libraries
+            if (id.includes("i18next") || id.includes("react-i18next")) {
+              return "vendor-i18n";
+            }
+            // UI libraries
+            if (id.includes("framer-motion")) {
+              return "vendor-animation";
+            }
+            if (id.includes("@radix-ui")) {
+              return "vendor-ui";
+            }
+            if (id.includes("lucide-react")) {
+              return "vendor-icons";
+            }
+            // Form libraries
+            if (id.includes("react-hook-form") || id.includes("@hookform") || id.includes("zod")) {
+              return "vendor-forms";
+            }
+            // Other dependencies
+            return "vendor-misc";
+          }
+          
+          // Route-based code splitting for pages
+          if (id.includes("/pages/home")) {
+            return "page-home";
+          }
+          if (id.includes("/pages/about")) {
+            return "page-about";
+          }
+          if (id.includes("/pages/services") || id.includes("/pages/service-category")) {
+            return "page-services";
+          }
+          if (id.includes("/pages/products") || id.includes("/pages/product-")) {
+            return "page-products";
+          }
+          if (id.includes("/pages/projects")) {
+            return "page-projects";
+          }
+          if (id.includes("/pages/gallery")) {
+            return "page-gallery";
+          }
+          if (id.includes("/pages/career")) {
+            return "page-career";
+          }
+          if (id.includes("/pages/contact")) {
+            return "page-contact";
+          }
+          if (id.includes("/pages/quote")) {
+            return "page-quote";
+          }
+          
+          // Split large data files
+          if (id.includes("/data/products-") || id.includes("/data/productImages")) {
+            return "data-products";
+          }
+          if (id.includes("/data/services-")) {
+            return "data-services";
+          }
+          if (id.includes("/data/projects-")) {
+            return "data-projects";
+          }
         },
-        chunkFileNames: 'assets/[name]-[hash].js',
-        entryFileNames: 'assets/[name]-[hash].js',
-        assetFileNames: 'assets/[name]-[hash][extname]',
+        chunkFileNames: "assets/[name]-[hash].js",
+        entryFileNames: "assets/[name]-[hash].js",
+        assetFileNames: "assets/[name]-[hash][extname]",
       },
     },
-    chunkSizeWarningLimit: 1000,
+    chunkSizeWarningLimit: 500,
+  },
+  optimizeDeps: {
+    include: ["react", "react-dom", "wouter"],
+    exclude: ["@replit/vite-plugin-runtime-error-modal"],
   },
 });

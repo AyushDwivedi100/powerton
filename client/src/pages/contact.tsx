@@ -28,10 +28,12 @@ import {
 import { COMPANY_INFO } from "@/data/constants";
 import { Helmet } from "react-helmet-async";
 import { generateBreadcrumbData } from "@/utils/seo-enhancements";
+import { useLazyNamespace } from "@/lib/lazy-i18n";
 
 export default function Contact() {
   useScrollAnimations();
   const { theme } = useTheme();
+  useLazyNamespace(["pages", "forms"]);
   const { t } = useTranslation(["pages", "common"]);
   const [mapKey, setMapKey] = useState(0);
 

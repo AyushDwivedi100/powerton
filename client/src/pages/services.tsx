@@ -29,6 +29,7 @@ import {
 import { Link } from "wouter";
 import { getHeroImage } from "@/assets/images";
 import { useTranslation } from "react-i18next";
+import { useLazyNamespace } from "@/lib/lazy-i18n";
 
 const iconMap = {
   tools: Hammer,
@@ -43,6 +44,7 @@ const iconMap = {
 
 export default function Services() {
   useScrollAnimations();
+  useLazyNamespace(["pages", "services"]);
   const { t } = useTranslation(["pages", "services", "common"]);
   const services = getServices(t);
   const companyInfo = getCompanyInfo(t);

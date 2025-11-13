@@ -88,14 +88,8 @@ const initConfig = {
   },
 
   // Namespace configuration - load core namespaces upfront for home page
-  ns: [
-    "common",
-    "navigation",
-    "pages",
-    "services",
-    "products",
-    "forms",
-  ],
+  // Heavy namespaces (products-data, acronyms, chatbot) will be lazy-loaded per route
+  ns: ["common", "navigation", "pages", "services", "products", "forms"],
   defaultNS: "common",
 
   // React i18next options

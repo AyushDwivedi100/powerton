@@ -27,9 +27,11 @@ import { Link } from "wouter";
 import { getHeroImage } from "@/assets/images";
 import { useTranslation } from "react-i18next";
 import { useToast } from "@/hooks/use-toast";
+import { useLazyNamespace } from "@/lib/lazy-i18n";
 
 export default function Products() {
   useScrollAnimations();
+  useLazyNamespace(["products", "pages"]);
   const { t } = useTranslation(["common", "products", "pages"]);
   const { toast } = useToast();
   const PRODUCTS = getProducts(t);
