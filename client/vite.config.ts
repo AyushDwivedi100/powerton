@@ -49,8 +49,8 @@ export default defineConfig({
         manualChunks(id) {
           // Vendor chunks - split by library for better caching
           if (id.includes("node_modules")) {
-            // React core
-            if (id.includes("react") || id.includes("react-dom")) {
+            // React core - MUST be precise to avoid catching react-hook-form, react-i18next, etc.
+            if (id.includes("node_modules/react/") || id.includes("node_modules/react-dom/")) {
               return "vendor-react";
             }
             // Routing

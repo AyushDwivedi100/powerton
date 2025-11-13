@@ -16,13 +16,20 @@
 
 ### Recent Bug Fixes (November 13, 2025)
 
-- **Fixed:** Preview mode showing blank white screen (CRITICAL BUG)
-  - **Issue:** Running `npm run preview` in VS Code showed blank white screen with no errors in console
-  - **Root Cause:** Global error handler in `client/src/main.tsx` (lines 14-18) was calling `event.preventDefault()` on all unhandled promise rejections, completely suppressing errors
-  - **Impact:** This prevented users from seeing actual build/chunk loading errors, making debugging impossible
-  - **Solution:** Removed the global `unhandledrejection` event handler that was silencing errors
-  - **Result:** ✅ Errors now visible in console, allowing proper debugging of any chunk loading or build issues
-  - **Files Changed:** `client/src/main.tsx`, `client/vite.config.ts` (added `base: "/"`), `client/index.html` (commented out CSP)
+- **Fixed:** Preview mode showing blank white screen (CRITICAL BUG - TWO ISSUES)
+  - **Issue 1:** Running `npm run preview` in VS Code showed blank white screen with no errors in console
+    - **Root Cause:** Global error handler in `client/src/main.tsx` (lines 14-18) was calling `event.preventDefault()` on all unhandled promise rejections, completely suppressing errors
+    - **Impact:** This prevented users from seeing actual build/chunk loading errors, making debugging impossible
+    - **Solution:** Removed the global `unhandledrejection` event handler that was silencing errors
+    - **Result:** ✅ Errors now visible in console → revealed the second issue below
+  
+  - **Issue 2:** `Uncaught TypeError: Cannot set properties of undefined (setting 'Children')` in vendor-react bundle
+    - **Root Cause:** Vite's `manualChunks` function in `vite.config.ts` used overly broad check: `id.includes("react")` 
+    - **Impact:** This caught ALL packages with "react" in their name (react-hook-form, react-i18next, @radix-ui/react-*, etc.) and bundled them with React core, causing React internals to be mixed with other libraries → broke React
+    - **Solution:** Changed to precise check: `id.includes("node_modules/react/")` and `id.includes("node_modules/react-dom/")` to ONLY catch actual React packages
+    - **Result:** ✅ React and React-DOM now bundle correctly in isolation, other react-* libraries go to their designated chunks
+  
+  - **Files Changed:** `client/src/main.tsx` (removed error suppressor), `client/vite.config.ts` (fixed React bundling + added `base: "/"`), `client/index.html` (commented out CSP)
 
 - **Fixed:** Layout shift and black strip appearing when opening language selector or search box
   - **Issue:** When modals/dialogs opened, scrollbar disappeared causing content to shift by ~15-17px and black strip to appear
