@@ -28,7 +28,7 @@ export function LanguageSwitcher() {
     languages.find((lang) => lang.code === i18n.language) || languages[0];
 
   return (
-    <DropdownMenu open={isOpen} onOpenChange={setIsOpen}>
+    <DropdownMenu open={isOpen} onOpenChange={setIsOpen} modal={false}>
       <DropdownMenuTrigger asChild>
         <Button variant="ghost" size="sm" className="h-9 w-auto px-3 min-w-0">
           <Globe className={cn("h-4 w-4", rtl.me("2"))} />
