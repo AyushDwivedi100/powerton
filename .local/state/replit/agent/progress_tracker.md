@@ -13,17 +13,20 @@
 ### Recent Bug Fixes (November 13, 2025)
 - **Fixed:** Layout shift and black strip appearing when opening language selector or search box
   - **Issue:** When modals/dialogs opened, scrollbar disappeared causing content to shift by ~15-17px and black strip to appear
-  - **Root Cause:** Radix UI removes scrollbar and adds `padding-right` to compensate, creating visible black gap
-  - **FINAL SOLUTION (Working):** 
-    1. Keep scrollbar ALWAYS visible: `html { overflow-y: scroll; }`
-    2. Block Radix padding: `body[style*="padding-right"] { padding-right: 0px !important; }`
-    3. Allow Radix to disable scrolling: Radix sets `overflow: hidden` on body
+  - **Root Cause:** Radix UI manipulates body element - adds padding-right and sets overflow:hidden
+  - **KEY INSIGHT:** Scrollbar must be on BODY (where Radix manipulates), not HTML
+  - **FINAL WORKING SOLUTION:** 
+    1. `html { overflow: hidden }` - Prevents double scrollbars
+    2. `body { overflow-y: scroll; scrollbar-gutter: stable }` - Scrollbar on body with reserved space
+    3. `body[style*="padding-right"] { padding-right: 0px !important }` - Blocks black strip
   - **Behavior:** 
-    ✅ Scrollbar ALWAYS visible (prevents any width change)
-    ✅ Background scrolling is DISABLED when modal opens (overflow: hidden works)
+    ✅ Scrollbar space is RESERVED (scrollbar-gutter: stable prevents width change)
+    ✅ Background scrolling is DISABLED when modal opens (Radix sets overflow:hidden on body)
     ✅ NO black strip appears (padding-right is blocked)
     ✅ Content stays perfectly stable (no layout shift)
-  - **Result:** ✅ BOTH PROBLEMS FIXED - Perfect professional behavior
+  - **Result:** ✅ BOTH PROBLEMS COMPLETELY FIXED - Professional polished behavior
+  - **Total Attempts:** 5 iterations to find working solution
+  - **See:** `.local/state/replit/agent/ALL_FILE_CHANGES_COMPLETE.md` for complete history
 
 ### Final Verification (November 13, 2025)
 [x] Dependencies installed (npm install completed successfully)
