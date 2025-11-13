@@ -61,26 +61,13 @@ export default function Layout({ children }: LayoutProps) {
 
         <main
           id="main-content"
-          className="flex-1 transition-all duration-300 ease-in-out relative"
-          style={{
-            marginLeft: isSidebarOpen ? 'var(--drawer-width, 320px)' : '0px'
-          }}
+          className="flex-1 relative"
           role="main"
           aria-label="Main content area"
         >
           {children}
         </main>
       </div>
-      <style>{`
-        :root {
-          --drawer-width: 320px;
-        }
-        @media (min-width: 1024px) {
-          :root {
-            --drawer-width: 384px;
-          }
-        }
-      `}</style>
 
       <Footer />
 
