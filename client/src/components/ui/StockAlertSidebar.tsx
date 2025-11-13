@@ -78,7 +78,7 @@ export const StockAlertSidebar = memo(function StockAlertSidebar({
             exit={{ opacity: 0 }}
             transition={{ duration: 0.15 }}
             onClick={onToggle}
-            className="fixed inset-0 bg-black/30 backdrop-blur-sm z-[60]"
+            className="fixed inset-0 bg-black/40 z-[60]"
             data-testid="backdrop-drawer"
             aria-hidden="true"
           />
@@ -94,16 +94,26 @@ export const StockAlertSidebar = memo(function StockAlertSidebar({
             exit={{ x: "-100%" }}
             transition={{
               type: "tween",
-              duration: 0.25,
-              ease: "easeOut",
+              duration: 0.2,
+              ease: [0.4, 0, 0.2, 1],
             }}
-            className="fixed left-0 top-0 h-screen w-[45%] min-w-[380px] max-w-[600px] bg-background border-r border-border/50 shadow-2xl z-[70] flex flex-col"
+            className="fixed left-0 top-0 h-screen w-[45%] min-w-[380px] max-w-[600px] bg-background border-r border-border shadow-2xl z-[70] flex flex-col"
+            style={{ 
+              transform: 'translate3d(0, 0, 0)',
+              willChange: 'transform'
+            }}
             data-testid="aside-stock-alert-top"
             role="complementary"
             aria-label="Available stock products sidebar"
           >
-            <div className="flex-1 overflow-y-auto">
-              <div className="sticky top-0 bg-gradient-to-b from-background to-background/95 backdrop-blur-sm z-10 px-4 sm:px-6 py-4 sm:py-5 border-b border-border/50">
+            <div 
+              className="flex-1 overflow-y-auto"
+              style={{
+                contain: 'layout style paint',
+                willChange: 'scroll-position',
+              }}
+            >
+              <div className="sticky top-0 bg-background z-10 px-4 sm:px-6 py-4 sm:py-5 border-b border-border">
                 <div className="flex items-start justify-between gap-3">
                   <div className="flex-1 min-w-0">
                     <div className="flex items-center gap-2 mb-1">
@@ -123,7 +133,7 @@ export const StockAlertSidebar = memo(function StockAlertSidebar({
                     onClick={onToggle}
                     variant="ghost"
                     size="icon"
-                    className="h-8 w-8 flex-shrink-0 hover-elevate"
+                    className="h-8 w-8 flex-shrink-0"
                     data-testid="button-close-drawer"
                     aria-label="Close available stock sidebar"
                   >
@@ -136,19 +146,23 @@ export const StockAlertSidebar = memo(function StockAlertSidebar({
               <div className="p-4 sm:p-6 space-y-6 sm:space-y-8">
                 <div className="space-y-4">
                   <div className="group">
-                    <div className="relative overflow-hidden rounded-xl bg-gradient-to-br from-muted/30 via-background to-muted/20 border border-border/50 shadow-sm">
+                    <div className="relative overflow-hidden rounded-lg bg-muted/20 border border-border">
                       <div className="aspect-square p-6 sm:p-8">
                         <img
                           key={currentProduct.id}
                           src={currentProduct.image}
                           alt={`${currentProduct.title} - Available in stock`}
-                          className="w-full h-full object-contain transition-opacity duration-300"
+                          className="w-full h-full object-contain"
+                          style={{ 
+                            transform: 'translate3d(0, 0, 0)',
+                            transition: 'opacity 0.2s ease-out'
+                          }}
                           data-testid={`img-stock-product-${currentProduct.id}`}
-                          loading="lazy"
+                          loading="eager"
                         />
                       </div>
                       <div className="absolute top-3 right-3">
-                        <div className="flex items-center gap-1.5 px-3 py-1.5 bg-green-500/10 backdrop-blur-sm rounded-lg border border-green-500/20">
+                        <div className="flex items-center gap-1.5 px-3 py-1.5 bg-green-500/10 rounded-lg border border-green-500/20">
                           <div
                             className="h-1.5 w-1.5 rounded-full bg-green-500 animate-pulse"
                             aria-hidden="true"
@@ -171,15 +185,16 @@ export const StockAlertSidebar = memo(function StockAlertSidebar({
                   </div>
 
                   <div
-                    className="flex items-center justify-center gap-2 pt-2"
+                    className="flex items-center justify-center gap-2 pt-2 overflow-x-auto pb-2"
                     role="group"
                     aria-label="Product navigation"
+                    style={{ scrollbarWidth: 'none', msOverflowStyle: 'none' }}
                   >
                     {stockProducts.map((_, idx) => (
                       <button
                         key={idx}
                         onClick={() => setCurrentIndex(idx)}
-                        className={`h-1.5 rounded-full transition-all duration-200 hover-elevate ${
+                        className={`h-1.5 rounded-full transition-all duration-200 flex-shrink-0 ${
                           idx === currentIndex
                             ? "w-8 bg-primary"
                             : "w-1.5 bg-muted-foreground/30"
@@ -194,17 +209,11 @@ export const StockAlertSidebar = memo(function StockAlertSidebar({
 
                 <div className="space-y-3 pt-2">
                   <div className="flex items-center gap-2 mb-3">
-                    <div
-                      className="h-px flex-1 bg-gradient-to-r from-transparent via-border to-transparent"
-                      aria-hidden="true"
-                    ></div>
+                    <div className="h-px flex-1 bg-border" aria-hidden="true"></div>
                     <span className="text-xs font-semibold text-muted-foreground uppercase tracking-wider">
                       Contact Us
                     </span>
-                    <div
-                      className="h-px flex-1 bg-gradient-to-r from-transparent via-border to-transparent"
-                      aria-hidden="true"
-                    ></div>
+                    <div className="h-px flex-1 bg-border" aria-hidden="true"></div>
                   </div>
 
                   <Button
@@ -253,7 +262,7 @@ export const StockAlertSidebar = memo(function StockAlertSidebar({
               </div>
             </div>
 
-            <div className="border-t border-border/50 bg-gradient-to-b from-muted/20 to-muted/40 px-4 sm:px-6 py-3 sm:py-4">
+            <div className="border-t border-border bg-muted/30 px-4 sm:px-6 py-3 sm:py-4">
               <div className="flex flex-wrap items-center gap-x-3 gap-y-2 text-[10px] sm:text-xs text-muted-foreground">
                 <div className="flex items-center gap-1.5 sm:gap-2">
                   <Clock
@@ -282,9 +291,10 @@ export const StockAlertSidebar = memo(function StockAlertSidebar({
       {!isOpen && (
         <button
           onClick={onToggle}
-          className="fixed left-0 top-[30%] z-50 bg-primary text-primary-foreground px-1 py-7 rounded-r-xl shadow-2xl group transition-all hover:bg-primary/90 hover:px-2.5 hover:shadow-3xl flex flex-col items-center gap-2 border-r border-t border-b border-primary-foreground/20"
+          className="fixed left-0 top-[30%] z-50 bg-primary text-primary-foreground px-1 py-7 rounded-r-xl shadow-lg group transition-all hover:bg-primary/90 hover:px-2.5 flex flex-col items-center gap-2 border-r border-t border-b border-primary-foreground/20"
           data-testid="button-open-drawer"
           aria-label="Open available stock sidebar to view products"
+          style={{ transform: 'translate3d(0, 0, 0)' }}
         >
           <div className="relative">
             <div
