@@ -141,6 +141,127 @@ html {
   animation-play-state: paused;
 }
 
+/* ============================================
+   LIGHTWEIGHT CSS ANIMATIONS - Framer Motion Replacement
+   Saves ~100KB+ bundle size
+   ============================================ */
+
+/* Fade In Animations */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 40px, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translate3d(0, -40px, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    transform: translate3d(-40px, 0, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes fadeInRight {
+  from {
+    opacity: 0;
+    transform: translate3d(40px, 0, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+/* Scale Animations */
+@keyframes scaleIn {
+  from {
+    opacity: 0;
+    transform: scale3d(0.95, 0.95, 0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+@keyframes slideInUp {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 60px, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+/* Utility Classes - GPU Accelerated */
+.animate-fadeInUp {
+  animation: fadeInUp 0.6s cubic-bezier(0.21, 1.11, 0.81, 0.99) both;
+  will-change: transform, opacity;
+}
+
+.animate-fadeInDown {
+  animation: fadeInDown 0.6s cubic-bezier(0.21, 1.11, 0.81, 0.99) both;
+  will-change: transform, opacity;
+}
+
+.animate-fadeInLeft {
+  animation: fadeInLeft 0.6s cubic-bezier(0.21, 1.11, 0.81, 0.99) both;
+  will-change: transform, opacity;
+}
+
+.animate-fadeInRight {
+  animation: fadeInRight 0.6s cubic-bezier(0.21, 1.11, 0.81, 0.99) both;
+  will-change: transform, opacity;
+}
+
+.animate-scaleIn {
+  animation: scaleIn 0.6s cubic-bezier(0.21, 1.11, 0.81, 0.99) both;
+  will-change: transform, opacity;
+}
+
+.animate-slideInUp {
+  animation: slideInUp 0.6s cubic-bezier(0.21, 1.11, 0.81, 0.99) both;
+  will-change: transform, opacity;
+}
+
+/* Initial state for scroll animations */
+.scroll-animate {
+  opacity: 0;
+}
+
+.scroll-animate.is-visible {
+  opacity: 1;
+}
+
+/* Staggered animation delays */
+.stagger-1 { animation-delay: 0.1s; }
+.stagger-2 { animation-delay: 0.2s; }
+.stagger-3 { animation-delay: 0.3s; }
+.stagger-4 { animation-delay: 0.4s; }
+.stagger-5 { animation-delay: 0.5s; }
+.stagger-6 { animation-delay: 0.6s; }
+
 /* Reduce motion for users who prefer it */
 @media (prefers-reduced-motion: reduce) {
   * {
@@ -150,8 +271,16 @@ html {
   }
 
   .animate-infinite-scroll,
-  .animate-infinite-scroll-rtl {
+  .animate-infinite-scroll-rtl,
+  .animate-fadeInUp,
+  .animate-fadeInDown,
+  .animate-fadeInLeft,
+  .animate-fadeInRight,
+  .animate-scaleIn,
+  .animate-slideInUp {
     animation: none;
+    opacity: 1 !important;
+    transform: none !important;
   }
 }
 
