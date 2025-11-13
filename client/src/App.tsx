@@ -115,10 +115,10 @@ function Router() {
 }
 
 function App() {
-  const { i18n } = useTranslation();
+  const { ready } = useTranslation();
 
-  // Wait for i18n to initialize before rendering
-  if (!i18n.isInitialized) {
+  // Wait for core namespaces to load before rendering
+  if (!ready) {
     return <LoadingSpinner />;
   }
 
