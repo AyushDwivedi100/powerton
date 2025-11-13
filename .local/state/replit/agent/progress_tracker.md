@@ -6,8 +6,15 @@
 [x] 3. Restart the workflow and verify the project is working
 [x] 4. Verify the application is running successfully
 [x] 5. Mark the import as completed
+[x] 6. Fixed layout shift issue with language selector and search box
 
 ✅ **Import Complete** - Application successfully migrated to Replit environment and running at http://localhost:5000/
+
+### Recent Bug Fixes
+- **Fixed:** Layout shift and black strip appearing when opening language selector or search box
+  - **Issue:** Radix UI was removing scrollbar causing content to shift by ~15-17px
+  - **Solution:** Added `scrollbar-gutter: stable` and prevented Radix from adding padding to body
+  - **Result:** No layout shift when modals/dropdowns open
 
 ### Final Verification (November 13, 2025)
 [x] Dependencies installed (npm install completed successfully)

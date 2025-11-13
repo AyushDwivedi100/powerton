@@ -10,27 +10,26 @@
   }
 }
 
-/* Allow normal page scrolling */
+/* Allow normal page scrolling with stable scrollbar gutter */
 html {
-  overflow-y: auto;
+  overflow-y: scroll;
   overflow-x: hidden;
   scrollbar-gutter: stable;
+  width: 100%;
 }
 
 body {
-  overflow: hidden;
-  height: 100%;
+  margin: 0;
+  min-height: 100vh;
+  overflow-x: hidden;
 }
 
-/* Disable scrolling while preserving scrollbar space */
-html.scroll-locked {
-  overflow-y: scroll;
-}
-
-html.scroll-locked body {
-  overflow: hidden;
-  position: fixed;
-  width: 100%;
+/* When Radix UI locks scroll, prevent layout shift */
+body[data-scroll-locked],
+body[style*="overflow: hidden"],
+body[style*="overflow:hidden"] {
+  padding-right: 0 !important;
+  overflow: hidden !important;
 }
 
 /* Custom scrollbar styling */
