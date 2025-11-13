@@ -29,6 +29,12 @@ body[style*="padding-right"] {
   padding-right: 0px !important;
 }
 
+/* Prevent Radix from hiding the scrollbar when dropdown/dialog opens */
+body[style*="overflow"] {
+  overflow-y: scroll !important;
+  overflow-x: hidden !important;
+}
+
 /* Keep width stable */
 #root {
   min-height: 100vh;
