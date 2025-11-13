@@ -15,6 +15,15 @@
 ✅ **Import Complete** - Application successfully migrated to Replit environment and running at http://localhost:5000/
 
 ### Recent Bug Fixes (November 13, 2025)
+
+- **Fixed:** Preview mode showing blank white screen (CRITICAL BUG)
+  - **Issue:** Running `npm run preview` in VS Code showed blank white screen with no errors in console
+  - **Root Cause:** Global error handler in `client/src/main.tsx` (lines 14-18) was calling `event.preventDefault()` on all unhandled promise rejections, completely suppressing errors
+  - **Impact:** This prevented users from seeing actual build/chunk loading errors, making debugging impossible
+  - **Solution:** Removed the global `unhandledrejection` event handler that was silencing errors
+  - **Result:** ✅ Errors now visible in console, allowing proper debugging of any chunk loading or build issues
+  - **Files Changed:** `client/src/main.tsx`, `client/vite.config.ts` (added `base: "/"`), `client/index.html` (commented out CSP)
+
 - **Fixed:** Layout shift and black strip appearing when opening language selector or search box
   - **Issue:** When modals/dialogs opened, scrollbar disappeared causing content to shift by ~15-17px and black strip to appear
   - **Root Cause:** Radix UI manipulates body element - adds padding-right and sets overflow:hidden
