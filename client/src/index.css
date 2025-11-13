@@ -22,9 +22,15 @@ body {
   height: 100%;
 }
 
-/* Disable scrolling without changing layout */
+/* Disable scrolling while preserving scrollbar space */
 html.scroll-locked {
+  overflow-y: scroll;
+}
+
+html.scroll-locked body {
   overflow: hidden;
+  position: fixed;
+  width: 100%;
 }
 
 /* Custom scrollbar styling */
