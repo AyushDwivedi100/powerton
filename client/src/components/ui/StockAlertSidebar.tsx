@@ -231,7 +231,7 @@ export function StockAlertSidebar({ isOpen, onToggle, position = 'top' }: StockA
       {!isOpen && (
         <button
           onClick={onToggle}
-          className="fixed left-0 top-[40%] z-50 bg-primary text-primary-foreground px-2 py-7 rounded-r-xl shadow-2xl group transition-all hover:bg-primary/90 hover:px-2.5 hover:shadow-3xl flex flex-col items-center gap-2 border-r border-t border-b border-primary-foreground/20"
+          className="fixed left-0 top-[30%] z-50 bg-primary text-primary-foreground px-2 py-7 rounded-r-xl shadow-2xl group transition-all hover:bg-primary/90 hover:px-2.5 hover:shadow-3xl flex flex-col items-center gap-2 border-r border-t border-b border-primary-foreground/20"
           data-testid="button-open-drawer"
           aria-label="Open available stock sidebar to view products"
         >
