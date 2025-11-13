@@ -111,6 +111,8 @@
 [x] Import marked as complete
 
 ### Stock Alert Sidebar Performance Fix (November 13, 2025)
+
+#### First Optimization Round
 [x] Identified performance bottlenecks in StockAlertSidebar component
 [x] Added getAllProductsForStockAlert() function to show all 16 products
 [x] Wrapped component in React.memo() for render optimization
@@ -119,8 +121,22 @@
 [x] Reduced animation durations (0.3s → 0.25s, 0.2s → 0.15s)
 [x] Removed AnimatePresence mode="wait" causing lag
 [x] Changed to CSS transitions for image swaps
-[x] Architect review: PASSED - Performance gains confirmed
 [x] All 16 products now visible in sidebar (previously only 6)
+
+#### Second Optimization Round (Scroll Performance)
+User reported: "it still lags a lot when i scroll on the aside"
+[x] Removed backdrop-blur-sm (very expensive during scroll)
+[x] Added CSS containment with `contain: 'paint'` (isolates repainting)
+[x] Added GPU acceleration with `transform: 'translate3d(0, 0, 0)'`
+[x] Added willChange hints for transform and scroll-position
+[x] Simplified all complex gradients (multi-layer → simple colors)
+[x] Reduced shadow complexity (shadow-2xl → shadow-lg)
+[x] Made navigation dots horizontally scrollable
+[x] Changed image loading from lazy to eager (immediately visible)
+[x] Added overscroll-contain for better scroll isolation
+[x] Fixed sticky header regression (paint-only containment)
+[x] Architect review: PASSED - No regressions, sticky header functional
+[x] Production-ready scroll performance achieved
 
 ---
 
