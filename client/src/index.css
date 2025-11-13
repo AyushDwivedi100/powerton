@@ -572,6 +572,13 @@ html {
   overflow: hidden;
 }
 
+/* Header container variant - no overflow hidden to allow dropdowns */
+.container-safe-no-overflow {
+  min-width: 0;
+  width: 100%;
+  max-width: 100%;
+}
+
 .flex-safe {
   min-width: 0;
   flex-shrink: 1;

@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
+import { createPortal } from "react-dom";
 import { Link, useLocation } from "wouter";
 import { useTranslation } from "react-i18next";
 import { Button } from "@/components/ui/button";
@@ -431,7 +432,7 @@ export default function Header() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5, ease: [0.25, 0.46, 0.45, 0.94] }}
       >
-        <div className="max-w-7xl mx-auto px-2 sm:px-4 md:px-6 lg:px-8 flex flex-row justify-center sm:justify-between items-center gap-4 sm:gap-0 text-base md:text-sm container-safe">
+        <div className="max-w-7xl mx-auto px-2 sm:px-4 md:px-6 lg:px-8 flex flex-row justify-center sm:justify-between items-center gap-4 sm:gap-0 text-base md:text-sm container-safe-no-overflow">
           <motion.div
             className={cn(
               "flex items-center gap-4 sm:gap-6 md:gap-8 flex-wrap flex-safe",
@@ -660,45 +661,48 @@ export default function Header() {
                           />
                         )}
                       </div>
+                    </motion.div>
 
-                      {/* Dropdown Content */}
-                      <div
-                        className={`transition-all duration-200 fixed left-1/2 -translate-x-1/2 z-[9999] ${
-                          isServicesDropdownOpen
-                            ? "opacity-100 visible"
-                            : "opacity-0 invisible"
-                        }`}
-                        style={{ top: `calc(${headerHeight}px - 1rem)` }}
-                        onMouseEnter={() => setIsServicesDropdownOpen(true)}
-                        onMouseLeave={() => setIsServicesDropdownOpen(false)}
-                      >
-                        <div className="w-max max-w-[95vw] max-h-[90vh] bg-popover border-2 border-slate-300 dark:border-slate-600 rounded-md shadow-lg overflow-y-auto">
-                          <div className="p-6 lg:p-8">
-                            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 lg:gap-6 items-stretch">
-                              {getServices(t).map((service) => (
-                                <Link
-                                  key={service.id}
-                                  href={`/services-category/${service.id}`}
-                                  className="block px-4 py-4 lg:py-6 rounded-sm hover:bg-slate-100 dark:hover:bg-slate-800 hover:text-foreground cursor-pointer transition-colors border border-slate-200 dark:border-slate-700 hover:border-slate-400 dark:hover:border-slate-500 flex-safe min-h-[120px] lg:min-h-[140px]"
-                                  onClick={() =>
-                                    setIsServicesDropdownOpen(false)
-                                  }
-                                >
-                                  <div className="flex flex-col h-full justify-between">
-                                    <div className="font-semibold text-foreground text-sm lg:text-base line-clamp-safe mb-2 responsive-text">
-                                      {t(`services:items.${service.id}`)}
+                    {/* Services Dropdown Content - Rendered via Portal */}
+                    {createPortal(
+                        <div
+                          className={`transition-all duration-200 fixed left-1/2 -translate-x-1/2 z-[9999] ${
+                            isServicesDropdownOpen
+                              ? "opacity-100 visible"
+                              : "opacity-0 invisible"
+                          }`}
+                          style={{ top: `calc(${headerHeight}px - 1rem)` }}
+                          onMouseEnter={() => setIsServicesDropdownOpen(true)}
+                          onMouseLeave={() => setIsServicesDropdownOpen(false)}
+                        >
+                          <div className="w-max max-w-[95vw] max-h-[90vh] bg-popover border-2 border-slate-300 dark:border-slate-600 rounded-md shadow-lg overflow-y-auto">
+                            <div className="p-6 lg:p-8">
+                              <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 lg:gap-6 items-stretch">
+                                {getServices(t).map((service) => (
+                                  <Link
+                                    key={service.id}
+                                    href={`/services-category/${service.id}`}
+                                    className="block px-4 py-4 lg:py-6 rounded-sm hover:bg-slate-100 dark:hover:bg-slate-800 hover:text-foreground cursor-pointer transition-colors border border-slate-200 dark:border-slate-700 hover:border-slate-400 dark:hover:border-slate-500 flex-safe min-h-[120px] lg:min-h-[140px]"
+                                    onClick={() =>
+                                      setIsServicesDropdownOpen(false)
+                                    }
+                                  >
+                                    <div className="flex flex-col h-full justify-between">
+                                      <div className="font-semibold text-foreground text-sm lg:text-base line-clamp-safe mb-2 responsive-text">
+                                        {t(`services:items.${service.id}`)}
+                                      </div>
+                                      <div className="text-xs lg:text-sm text-muted-foreground line-clamp-safe mt-auto responsive-text">
+                                        {t(`services:descriptions.${service.id}`)}
+                                      </div>
                                     </div>
-                                    <div className="text-xs lg:text-sm text-muted-foreground line-clamp-safe mt-auto responsive-text">
-                                      {t(`services:descriptions.${service.id}`)}
-                                    </div>
-                                  </div>
-                                </Link>
-                              ))}
+                                  </Link>
+                                ))}
+                              </div>
                             </div>
                           </div>
-                        </div>
-                      </div>
-                    </motion.div>
+                        </div>,
+                        document.body
+                      )}
 
                     {/* Products Dropdown */}
                     <motion.div
@@ -732,8 +736,10 @@ export default function Header() {
                           />
                         )}
                       </div>
+                    </motion.div>
 
-                      {/* Products Dropdown Content */}
+                    {/* Products Dropdown Content - Rendered via Portal */}
+                    {createPortal(
                       <div
                         className={`transition-all duration-200 fixed left-1/2 -translate-x-1/2 z-[9999] ${
                           isProductsDropdownOpen
@@ -840,9 +846,12 @@ export default function Header() {
                             </div>
                           </div>
                         </div>
-                      </div>
+                      </div>,
+                      document.body
+                    )}
 
-                      {/* Product Groups Popup */}
+                    {/* Product Groups Popup - Rendered via Portal */}
+                    {createPortal(
                       <AnimatePresence>
                         {hoveredSubcategory && (
                           <motion.div
@@ -918,8 +927,9 @@ export default function Header() {
                             </div>
                           </motion.div>
                         )}
-                      </AnimatePresence>
-                    </motion.div>
+                      </AnimatePresence>,
+                      document.body
+                    )}
                   </React.Fragment>
                 );
               }
