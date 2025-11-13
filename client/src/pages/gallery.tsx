@@ -205,7 +205,7 @@ export default function Gallery() {
           <div className="absolute top-3 right-3">
             <Badge
               variant="secondary"
-              className="bg-background/90 text-foreground"
+              className="bg-background/90 text-secondary"
             >
               {type === "company" && image.category}
               {type === "projects" && image.category}
@@ -215,7 +215,7 @@ export default function Gallery() {
         </div>
 
         <CardContent className="p-4">
-          <h3 className="font-semibold text-lg text-foreground mb-2 group-hover:text-primary transition-colors">
+          <h3 className="font-semibold text-lg text-foreground mb-2 group-hover:text-secondary transition-colors">
             {image.title}
           </h3>
           <p className="text-sm text-muted-foreground mb-3">
