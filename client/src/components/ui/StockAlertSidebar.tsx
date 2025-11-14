@@ -4,6 +4,7 @@ import {
   Phone,
   MessageSquare,
   ChevronRight,
+  ChevronLeft,
   X,
   Package,
   Clock,
@@ -25,6 +26,7 @@ export const StockAlertSidebar = memo(function StockAlertSidebar({
   position = "top",
 }: StockAlertSidebarProps) {
   const [currentIndex, setCurrentIndex] = useState(0);
+  const [isAutoCycling, setIsAutoCycling] = useState(true);
   const sidebarRef = useRef<HTMLElement>(null);
 
   const stockProducts = useMemo(() => getAllProductsForStockAlert(), []);
@@ -43,14 +45,29 @@ export const StockAlertSidebar = memo(function StockAlertSidebar({
   }, [isOpen]);
 
   useEffect(() => {
-    if (!showSidebar || stockProducts.length === 0 || !isOpen) return;
+    if (!showSidebar || stockProducts.length === 0 || !isOpen || !isAutoCycling) return;
 
     const autoSlideInterval = setInterval(() => {
       setCurrentIndex((prev) => (prev + 1) % stockProducts.length);
     }, 5000);
 
     return () => clearInterval(autoSlideInterval);
-  }, [showSidebar, stockProducts.length, isOpen]);
+  }, [showSidebar, stockProducts.length, isOpen, isAutoCycling]);
+
+  const handlePrevious = () => {
+    setIsAutoCycling(false);
+    setCurrentIndex((prev) => (prev - 1 + stockProducts.length) % stockProducts.length);
+  };
+
+  const handleNext = () => {
+    setIsAutoCycling(false);
+    setCurrentIndex((prev) => (prev + 1) % stockProducts.length);
+  };
+
+  const handleDotClick = (idx: number) => {
+    setIsAutoCycling(false);
+    setCurrentIndex(idx);
+  };
 
   const handleCall = () => {
     window.location.href = "tel:+919462771662";
@@ -172,6 +189,28 @@ export const StockAlertSidebar = memo(function StockAlertSidebar({
                           </span>
                         </div>
                       </div>
+                      
+                      <Button
+                        onClick={handlePrevious}
+                        variant="ghost"
+                        size="icon"
+                        className="absolute left-2 top-1/2 -translate-y-1/2 h-9 w-9 bg-background/80 backdrop-blur-sm border border-border shadow-lg"
+                        data-testid="button-previous-product"
+                        aria-label="View previous product"
+                      >
+                        <ChevronLeft className="h-5 w-5" />
+                      </Button>
+                      
+                      <Button
+                        onClick={handleNext}
+                        variant="ghost"
+                        size="icon"
+                        className="absolute right-2 top-1/2 -translate-y-1/2 h-9 w-9 bg-background/80 backdrop-blur-sm border border-border shadow-lg"
+                        data-testid="button-next-product"
+                        aria-label="View next product"
+                      >
+                        <ChevronRight className="h-5 w-5" />
+                      </Button>
                     </div>
 
                     <div className="mt-4 px-1">
@@ -193,7 +232,7 @@ export const StockAlertSidebar = memo(function StockAlertSidebar({
                     {stockProducts.map((_, idx) => (
                       <button
                         key={idx}
-                        onClick={() => setCurrentIndex(idx)}
+                        onClick={() => handleDotClick(idx)}
                         className={`h-1.5 rounded-full transition-all duration-200 flex-shrink-0 ${
                           idx === currentIndex
                             ? "w-8 bg-primary"
