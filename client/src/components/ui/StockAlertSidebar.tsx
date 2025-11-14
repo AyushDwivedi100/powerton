@@ -9,8 +9,6 @@ import {
   Package,
   Clock,
   Shield,
-  Sparkles,
-  Zap,
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { getAllProductsForStockAlert, shouldShowPopup } from "@/data/productImages";
@@ -330,131 +328,46 @@ export const StockAlertSidebar = memo(function StockAlertSidebar({
       </AnimatePresence>
 
       {!isOpen && (
-        <motion.button
+        <button
           onClick={onToggle}
-          className="fixed left-0 top-[30%] z-50 px-2 py-8 rounded-r-2xl shadow-2xl group flex flex-col items-center gap-3 overflow-hidden"
+          className="fixed left-0 top-[30%] z-50 bg-primary text-primary-foreground px-1 py-7 rounded-r-xl shadow-lg group transition-all hover:bg-primary/90 hover:px-2.5 flex flex-col items-center gap-2 border-r border-t border-b border-primary-foreground/20"
           data-testid="button-open-drawer"
           aria-label="Open available stock sidebar to view products"
-          style={{ 
-            transform: 'translate3d(0, 0, 0)',
-            background: 'linear-gradient(135deg, #f97316 0%, #ea580c 50%, #dc2626 100%)',
-          }}
-          animate={{
-            boxShadow: [
-              "0 0 20px rgba(249, 115, 22, 0.6), 0 0 40px rgba(249, 115, 22, 0.4)",
-              "0 0 30px rgba(249, 115, 22, 0.8), 0 0 60px rgba(249, 115, 22, 0.6)",
-              "0 0 20px rgba(249, 115, 22, 0.6), 0 0 40px rgba(249, 115, 22, 0.4)",
-            ],
-          }}
-          transition={{
-            duration: 2,
-            repeat: Infinity,
-            ease: "easeInOut",
-          }}
-          whileHover={{
-            scale: 1.05,
-            x: 5,
-            transition: { duration: 0.3 },
-          }}
+          style={{ transform: 'translate3d(0, 0, 0)' }}
         >
-          {/* Animated gradient overlay */}
-          <motion.div
-            className="absolute inset-0 opacity-30"
-            style={{
-              background: 'linear-gradient(180deg, transparent 0%, rgba(255,255,255,0.2) 50%, transparent 100%)',
-            }}
-            animate={{
-              y: ['-100%', '100%'],
-            }}
-            transition={{
-              duration: 2,
-              repeat: Infinity,
-              ease: "linear",
-            }}
-          />
-          
-          {/* Pulsing rings */}
-          <span className="absolute inset-0 rounded-r-2xl bg-orange-400/30 animate-ping" />
-          <span className="absolute inset-0 rounded-r-2xl border-2 border-yellow-300/50 animate-pulse" />
-          
-          {/* HOT badge */}
-          <div className="relative z-10 bg-yellow-400 text-red-600 px-2 py-0.5 rounded-full text-[9px] font-black uppercase tracking-wide shadow-lg flex items-center gap-1">
-            <Zap className="h-2.5 w-2.5 fill-current" aria-hidden="true" />
-            <span>Hot</span>
-          </div>
-          
-          {/* Arrow and sparkle */}
-          <div className="relative z-10">
-            <motion.div
-              animate={{
-                x: [0, 3, 0],
-              }}
-              transition={{
-                duration: 1,
-                repeat: Infinity,
-                ease: "easeInOut",
-              }}
-            >
-              <ChevronRight
-                className="h-5 w-5 text-white drop-shadow-lg"
-                aria-hidden="true"
-              />
-            </motion.div>
-            <Sparkles
-              className="absolute -top-1 -right-1 h-3 w-3 text-yellow-300 animate-pulse"
+          <div className="relative">
+            <div
+              className="absolute -top-1 -right-1 h-2 w-2 bg-green-400 rounded-full animate-pulse"
+              aria-hidden="true"
+            ></div>
+            <ChevronRight
+              className="h-4 w-4 transition-transform group-hover:translate-x-1"
               aria-hidden="true"
             />
           </div>
-          
-          {/* Product count badge */}
-          <div className="relative z-10 bg-white text-orange-600 rounded-full w-10 h-10 flex items-center justify-center shadow-lg">
-            <div className="text-center">
-              <div className="text-lg font-black leading-none">{stockProducts.length}</div>
-              <div className="text-[7px] font-bold leading-none">ITEMS</div>
-            </div>
-          </div>
-          
-          {/* Main text */}
-          <div className="relative z-10 flex flex-col items-center gap-2">
-            <Package className="h-5 w-5 text-white drop-shadow-lg" aria-hidden="true" />
+          <div className="flex flex-col items-center gap-1.5 writing-mode-vertical">
+            <Package className="h-3.5 w-3.5 mb-1" aria-hidden="true" />
             <span
-              className="text-[11px] font-black uppercase tracking-wider whitespace-nowrap text-white drop-shadow-lg"
+              className="text-[10px] font-bold uppercase tracking-wider whitespace-nowrap"
               style={{ writingMode: "vertical-rl", textOrientation: "mixed" }}
             >
-              Ready Stock
+              New Stock
             </span>
             <div
-              className="w-0.5 h-3 bg-white/50 my-0.5 rounded-full"
+              className="w-px h-4 bg-primary-foreground/30 my-1"
               aria-hidden="true"
             ></div>
             <span
-              className="text-[10px] font-bold whitespace-nowrap text-yellow-200 drop-shadow-lg"
+              className="text-[9px] font-semibold opacity-95 whitespace-nowrap"
               style={{ writingMode: "vertical-rl", textOrientation: "mixed" }}
             >
-              Buy Now!
+              View Products
             </span>
           </div>
-          
-          {/* Animated shine effect */}
-          <motion.div
-            className="absolute inset-0 opacity-0 group-hover:opacity-100"
-            style={{
-              background: 'linear-gradient(90deg, transparent 0%, rgba(255,255,255,0.3) 50%, transparent 100%)',
-            }}
-            animate={{
-              x: ['-100%', '100%'],
-            }}
-            transition={{
-              duration: 1.5,
-              repeat: Infinity,
-              ease: "easeInOut",
-            }}
-          />
-          
           <span className="sr-only">
-            Click to view {stockProducts.length} available stock products - Hot deals available!
+            Click to view available stock products
           </span>
-        </motion.button>
+        </button>
       )}
     </>
   );
