@@ -38,18 +38,27 @@ export default defineConfig({
     outDir: "dist",
     emptyOutDir: true,
     sourcemap: false,
-    minify: "esbuild",
+    minify: "terser", // Changed to terser for better minification
     cssMinify: true,
     cssCodeSplit: true,
     modulePreload: {
       polyfill: false,
     },
+    terserOptions: {
+      compress: {
+        drop_console: true, // Remove console.log in production
+        drop_debugger: true,
+        passes: 2,
+      },
+      mangle: true,
+      format: {
+        comments: false,
+      },
+    },
     rollupOptions: {
       output: {
-        manualChunks: {
-          // Keep React as a single, separate chunk to prevent duplication
-          'vendor-react': ['react', 'react-dom', 'react/jsx-runtime'],
-        },
+        // Let Rollup handle chunking automatically for better tree-shaking
+        manualChunks: undefined,
         chunkFileNames: "assets/[name]-[hash].js",
         entryFileNames: "assets/[name]-[hash].js",
         assetFileNames: "assets/[name]-[hash][extname]",

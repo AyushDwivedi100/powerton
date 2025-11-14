@@ -6,55 +6,52 @@ import { StaggeredList } from "@/hooks/use-scroll-animation";
 import { getHeroImage } from "@/assets/images";
 import { useTranslation } from "react-i18next";
 import { AnimatedCounter } from "@/components/ui/animated-counter";
+import { memo } from "react";
 
-export default function HeroSection() {
+const HeroSection = memo(function HeroSection() {
   const { t } = useTranslation(["common", "pages"]);
 
+  // Simplified animation variants - reduced duration and complexity
   const containerVariants = {
     hidden: {},
     visible: {
       transition: {
-        staggerChildren: 0.2,
-        delayChildren: 0.1,
+        staggerChildren: 0.15,
+        delayChildren: 0,
       },
     },
   };
 
   const itemVariants = {
-    hidden: { opacity: 0, y: 30, scale: 0.95 },
+    hidden: { opacity: 0, y: 20 },
     visible: {
       opacity: 1,
       y: 0,
-      scale: 1,
       transition: {
-        duration: 0.8,
-        ease: [0.25, 0.46, 0.45, 0.94],
+        duration: 0.4,
       },
     },
   };
 
   const buttonVariants = {
-    hidden: { opacity: 0, y: 20, scale: 0.9 },
+    hidden: { opacity: 0, y: 15 },
     visible: {
       opacity: 1,
       y: 0,
-      scale: 1,
       transition: {
-        duration: 0.6,
-        ease: [0.25, 0.46, 0.45, 0.94],
+        duration: 0.3,
       },
     },
   };
 
   const statsVariants = {
-    hidden: { opacity: 0, y: 50 },
+    hidden: { opacity: 0, y: 30 },
     visible: {
       opacity: 1,
       y: 0,
       transition: {
-        duration: 0.8,
-        delay: 0.6,
-        ease: [0.25, 0.46, 0.45, 0.94],
+        duration: 0.4,
+        delay: 0.3,
       },
     },
   };
@@ -250,4 +247,6 @@ export default function HeroSection() {
       </motion.div>
     </section>
   );
-}
+});
+
+export default HeroSection;

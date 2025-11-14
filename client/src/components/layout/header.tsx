@@ -554,41 +554,21 @@ export default function Header() {
               if (item.href === "/about") {
                 return (
                   <React.Fragment key={item.name}>
-                    <motion.div
-                      initial={{ opacity: 0, y: -20 }}
-                      animate={{ opacity: 1, y: 0 }}
-                      transition={{ duration: 0.4, delay: 0.4 + index * 0.1 }}
+                    <Link
+                      href={item.href}
+                      className={`text-foreground font-medium relative whitespace-nowrap group hover:text-secondary transition-colors duration-200 ${
+                        isActive(item.href) ? "text-secondary" : ""
+                      }`}
                     >
-                      <Link
-                        href={item.href}
-                        className={`text-foreground font-medium relative whitespace-nowrap group hover:text-secondary transition-colors duration-200 ${
-                          isActive(item.href) ? "text-secondary" : ""
-                        }`}
-                      >
-                        <span>{item.name}</span>
-                        {/* Active page indicator */}
-                        {isActive(item.href) && (
-                          <motion.div
-                            className="absolute -bottom-1 left-0 right-0 h-0.5 bg-secondary"
-                            layoutId="activeNav"
-                            initial={{ opacity: 0, scaleX: 0 }}
-                            animate={{ opacity: 1, scaleX: 1 }}
-                            transition={{ duration: 0.3 }}
-                          />
-                        )}
-                      </Link>
-                    </motion.div>
+                      <span>{item.name}</span>
+                      {/* Active page indicator - CSS only */}
+                      {isActive(item.href) && (
+                        <div className="absolute -bottom-1 left-0 right-0 h-0.5 bg-secondary" />
+                      )}
+                    </Link>
 
                     {/* Services Dropdown */}
-                    <motion.div
-                      initial={{ opacity: 0, y: -20 }}
-                      animate={{ opacity: 1, y: 0 }}
-                      transition={{
-                        duration: 0.4,
-                        delay: 0.4 + (index + 1) * 0.1,
-                      }}
-                      className="relative services-dropdown-container"
-                    >
+                    <div className="relative services-dropdown-container">
                       <div
                         className={`text-foreground font-medium relative flex items-center gap-1 cursor-pointer group hover:text-secondary transition-colors duration-200 ${
                           isActive("/services") ? "text-secondary" : ""
@@ -603,18 +583,12 @@ export default function Header() {
                           {t("navigation:dropdowns.services")}
                         </Link>
                         <ChevronDown className="h-4 w-4 rtl-flip" />
-                        {/* Active page indicator */}
+                        {/* Active page indicator - CSS only */}
                         {isActive("/services") && (
-                          <motion.div
-                            className="absolute -bottom-1 left-0 right-0 h-0.5 bg-secondary"
-                            layoutId="activeNav"
-                            initial={{ opacity: 0, scaleX: 0 }}
-                            animate={{ opacity: 1, scaleX: 1 }}
-                            transition={{ duration: 0.3 }}
-                          />
+                          <div className="absolute -bottom-1 left-0 right-0 h-0.5 bg-secondary" />
                         )}
                       </div>
-                    </motion.div>
+                    </div>
 
                     {/* Services Dropdown Content - Rendered via Portal */}
                     {createPortal(
@@ -658,15 +632,7 @@ export default function Header() {
                       )}
 
                     {/* Products Dropdown */}
-                    <motion.div
-                      initial={{ opacity: 0, y: -20 }}
-                      animate={{ opacity: 1, y: 0 }}
-                      transition={{
-                        duration: 0.4,
-                        delay: 0.5 + (index + 1) * 0.1,
-                      }}
-                      className="relative products-dropdown-container"
-                    >
+                    <div className="relative products-dropdown-container">
                       <div
                         className={`text-foreground font-medium relative flex items-center gap-1 cursor-pointer group hover:text-secondary transition-colors duration-200 ${
                           isActive("/products") ? "text-secondary" : ""
@@ -678,18 +644,12 @@ export default function Header() {
                           {t("navigation:dropdowns.products", "Products")}
                         </Link>
                         <ChevronDown className="h-4 w-4 rtl-flip" />
-                        {/* Active page indicator */}
+                        {/* Active page indicator - CSS only */}
                         {isActive("/products") && (
-                          <motion.div
-                            className="absolute -bottom-1 left-0 right-0 h-0.5 bg-secondary"
-                            layoutId="activeNav"
-                            initial={{ opacity: 0, scaleX: 0 }}
-                            animate={{ opacity: 1, scaleX: 1 }}
-                            transition={{ duration: 0.3 }}
-                          />
+                          <div className="absolute -bottom-1 left-0 right-0 h-0.5 bg-secondary" />
                         )}
                       </div>
-                    </motion.div>
+                    </div>
 
                     {/* Products Dropdown Content - Rendered via Portal */}
                     {createPortal(
@@ -888,33 +848,19 @@ export default function Header() {
               }
 
               return (
-                <motion.div
+                <Link
                   key={item.name}
-                  initial={{ opacity: 0, y: -20 }}
-                  animate={{ opacity: 1, y: 0 }}
-                  transition={{ duration: 0.4, delay: 0.4 + (index + 1) * 0.1 }}
+                  href={item.href}
+                  className={`text-foreground font-medium relative whitespace-nowrap group hover:text-secondary transition-colors duration-200 ${
+                    isActive(item.href) ? "text-secondary" : ""
+                  }`}
                 >
-                  <Link
-                    href={item.href}
-                    className={`text-foreground font-medium relative whitespace-nowrap group hover:text-secondary transition-colors duration-200 ${
-                      isActive(item.href) ? "text-secondary" : ""
-                    }`}
-                  >
-                    <span>
-                      {item.name}
-                    </span>
-                    {/* Active page indicator */}
-                    {isActive(item.href) && (
-                      <motion.div
-                        className="absolute -bottom-1 left-0 right-0 h-0.5 bg-secondary"
-                        layoutId="activeNav"
-                        initial={{ opacity: 0, scaleX: 0 }}
-                        animate={{ opacity: 1, scaleX: 1 }}
-                        transition={{ duration: 0.3 }}
-                      />
-                    )}
-                  </Link>
-                </motion.div>
+                  <span>{item.name}</span>
+                  {/* Active page indicator - CSS only */}
+                  {isActive(item.href) && (
+                    <div className="absolute -bottom-1 left-0 right-0 h-0.5 bg-secondary" />
+                  )}
+                </Link>
               );
             })}
             <div className="ml-2">
@@ -929,28 +875,18 @@ export default function Header() {
           {/* Mobile navigation */}
           <Sheet open={isOpen} onOpenChange={setIsOpen}>
             <SheetTrigger asChild>
-              <motion.div
-                initial={{ opacity: 0, x: 20 }}
-                animate={{ opacity: 1, x: 0 }}
-                transition={{ duration: 0.4, delay: 0.5 }}
-                className="mr-4"
-              >
+              <div className="mr-4">
                 <Button
                   variant="ghost"
                   size="icon"
-                  className="lg:hidden hover-scale"
+                  className="lg:hidden"
                 >
-                  <motion.div
-                    animate={{ rotate: isOpen ? 90 : 0 }}
-                    transition={{ duration: 0.3 }}
-                  >
-                    <Menu className="w-7 h-7" />
-                  </motion.div>
+                  <Menu className="w-7 h-7" />
                   <span className="sr-only">
                     {t("navigation:mobile.openMobileMenu")}
                   </span>
                 </Button>
-              </motion.div>
+              </div>
             </SheetTrigger>
             <SheetContent
               side="right"
