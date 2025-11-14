@@ -20,6 +20,22 @@ export default function Layout({ children }: LayoutProps) {
     setIsSidebarOpen((prev) => !prev);
   };
 
+  // Auto-open sidebar on first visit
+  useEffect(() => {
+    const STORAGE_KEY = 'stock-sidebar-visited';
+    const hasVisitedBefore = localStorage.getItem(STORAGE_KEY);
+    
+    if (!hasVisitedBefore) {
+      // Auto-open on first visit after a short delay for better UX
+      const timer = setTimeout(() => {
+        setIsSidebarOpen(true);
+        localStorage.setItem(STORAGE_KEY, 'true');
+      }, 800);
+      
+      return () => clearTimeout(timer);
+    }
+  }, []);
+
   // Measure header height
   useEffect(() => {
     const measureHeader = () => {
