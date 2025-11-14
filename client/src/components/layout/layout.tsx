@@ -20,20 +20,14 @@ export default function Layout({ children }: LayoutProps) {
     setIsSidebarOpen((prev) => !prev);
   };
 
-  // Auto-open sidebar on first visit
+  // Auto-open sidebar on every visit
   useEffect(() => {
-    const STORAGE_KEY = 'stock-sidebar-visited';
-    const hasVisitedBefore = localStorage.getItem(STORAGE_KEY);
+    // Auto-open sidebar after a short delay for better UX
+    const timer = setTimeout(() => {
+      setIsSidebarOpen(true);
+    }, 800);
     
-    if (!hasVisitedBefore) {
-      // Auto-open on first visit after a short delay for better UX
-      const timer = setTimeout(() => {
-        setIsSidebarOpen(true);
-        localStorage.setItem(STORAGE_KEY, 'true');
-      }, 800);
-      
-      return () => clearTimeout(timer);
-    }
+    return () => clearTimeout(timer);
   }, []);
 
   // Measure header height
