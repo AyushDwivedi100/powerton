@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from "react";
+import React, { useState, useEffect, useRef, useMemo, useCallback } from "react";
 import { createPortal } from "react-dom";
 import { Link, useLocation } from "wouter";
 import { useTranslation } from "react-i18next";
@@ -199,19 +199,24 @@ export default function Header() {
     };
   }, []);
 
-  const navigation = [
+  // Memoize navigation data to prevent recreation on every render
+  const navigation = useMemo(() => [
     { name: t("navigation:menu.about"), href: "/about" },
     { name: t("navigation:menu.projects"), href: "/projects" },
     { name: t("navigation:menu.gallery"), href: "/gallery" },
     { name: t("navigation:menu.career"), href: "/career" },
     { name: t("navigation:menu.contact"), href: "/contact" },
-  ];
+  ], [t]);
 
-  const isActive = (href: string) => {
+  // Memoize services and products data
+  const servicesData = useMemo(() => getServices(t), [t]);
+  const productsData = useMemo(() => getProducts(t), [t]);
+
+  const isActive = useCallback((href: string) => {
     if (href === "/" && location === "/") return true;
     if (href !== "/" && href !== "#" && location.startsWith(href)) return true;
     return false;
-  };
+  }, [location]);
 
   // Unified dropdown controller functions
   const openProductsDropdown = () => {
@@ -425,46 +430,20 @@ export default function Header() {
       className="bg-background border-b border-border shadow-sm"
       role="banner"
     >
-      {/* Top bar */}
-      <motion.div
-        className="bg-primary text-white header-top-bar py-2"
-        initial={{ opacity: 0, y: -20 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.5, ease: [0.25, 0.46, 0.45, 0.94] }}
-      >
+      {/* Top bar - Optimized with CSS animations instead of Framer Motion */}
+      <div className="bg-primary text-white header-top-bar py-2 animate-in fade-in slide-in-from-top-2 duration-300">
         <div className="max-w-7xl mx-auto px-2 sm:px-4 md:px-6 lg:px-8 flex flex-row justify-center sm:justify-between items-center gap-4 sm:gap-0 text-base md:text-sm container-safe-no-overflow">
-          <motion.div
-            className={cn(
+          <div className={cn(
               "flex items-center gap-4 sm:gap-6 md:gap-8 flex-wrap flex-safe",
               rtl.justifyStart,
-            )}
-            initial="hidden"
-            animate="visible"
-            variants={{
-              hidden: {},
-              visible: {
-                transition: {
-                  staggerChildren: 0.1,
-                  delayChildren: 0.2,
-                },
-              },
-            }}
-          >
-            <motion.div
-              className="flex items-center gap-2 md:gap-3"
-              variants={{
-                hidden: { opacity: 0, x: -20 },
-                visible: { opacity: 1, x: 0 },
-              }}
-            >
-              <motion.a
+            )}>
+            <div className="flex items-center gap-2 md:gap-3">
+              <a
                 href={`tel:${COMPANY_INFO.phoneNumbers.primary}`}
-                className="flex items-center hover:text-secondary transition-colors hover-scale shrink-0"
+                className="flex items-center hover:text-secondary transition-colors shrink-0"
                 aria-label={t("common:ui.ariaLabels.callUs", {
                   phone: COMPANY_INFO.phoneNumbers.primary,
                 })}
-                whileHover={{ scale: 1.05 }}
-                transition={{ duration: 0.2 }}
               >
                 <Phone
                   className="w-4 h-4 sm:w-5 sm:h-5 text-secondary shrink-0 rtl-flip me-1"
@@ -473,16 +452,14 @@ export default function Header() {
                 <span className="text-wrap-safe text-sm md:text-base">
                   {COMPANY_INFO.phoneNumbers.primary}
                 </span>
-              </motion.a>
+              </a>
 
-              <motion.a
+              <a
                 href={`tel:${COMPANY_INFO.phoneNumbers.secondary}`}
-                className="flex items-center hover:text-secondary transition-colors hover-scale shrink-0"
+                className="flex items-center hover:text-secondary transition-colors shrink-0"
                 aria-label={t("common:ui.ariaLabels.callUs", {
                   phone: COMPANY_INFO.phoneNumbers.secondary,
                 })}
-                whileHover={{ scale: 1.05 }}
-                transition={{ duration: 0.2 }}
               >
                 <Phone
                   className="w-4 h-4 sm:w-5 sm:h-5 text-secondary shrink-0 rtl-flip me-1"
@@ -491,20 +468,14 @@ export default function Header() {
                 <span className="text-wrap-safe text-sm md:text-base">
                   {COMPANY_INFO.phoneNumbers.secondary}
                 </span>
-              </motion.a>
-            </motion.div>
-            <motion.a
+              </a>
+            </div>
+            <a
               href={`mailto:${COMPANY_INFO.email}`}
-              className="flex items-center hover:text-secondary transition-colors hover-scale shrink-0"
+              className="flex items-center hover:text-secondary transition-colors shrink-0"
               aria-label={t("common:ui.ariaLabels.emailUs", {
                 email: COMPANY_INFO.email,
               })}
-              variants={{
-                hidden: { opacity: 0, x: -20 },
-                visible: { opacity: 1, x: 0 },
-              }}
-              whileHover={{ scale: 1.05 }}
-              transition={{ duration: 0.2 }}
             >
               <Mail
                 className="w-4 h-4 sm:w-5 sm:h-5 text-secondary shrink-0 rtl-flip me-1"
@@ -513,16 +484,11 @@ export default function Header() {
               <span className="text-wrap-safe text-base md:text-sm">
                 {COMPANY_INFO.email}
               </span>
-            </motion.a>
-          </motion.div>
+            </a>
+          </div>
           <div className="flex items-center gap-3 lg:gap-4">
             {/* Language Switcher and Theme Toggle in Top Bar */}
-            <motion.div
-              initial={{ opacity: 0, scale: 0.8 }}
-              animate={{ opacity: 1, scale: 1 }}
-              transition={{ duration: 0.4, delay: 0.35 }}
-              className="flex items-center gap-2"
-            >
+            <div className="flex items-center gap-2">
               <button
                 data-testid="button-open-search"
                 onClick={() => setIsSearchOpen(true)}
@@ -537,18 +503,14 @@ export default function Header() {
               <div className="p-1 rounded-md bg-accent/10 hover:bg-accent/20 transition-colors">
                 <ThemeToggle />
               </div>
-            </motion.div>
+            </div>
 
-            <motion.a
+            <a
               href="https://maps.app.goo.gl/jiap3sBYbM3r8Pn68"
               target="_blank"
               rel="noopener noreferrer"
-              className="hidden md:flex items-center hover:text-secondary transition-colors cursor-pointer hover-scale"
+              className="hidden md:flex items-center hover:text-secondary transition-colors cursor-pointer"
               aria-label={t("common:ui.ariaLabels.openLocation")}
-              initial={{ opacity: 0, x: 20 }}
-              animate={{ opacity: 1, x: 0 }}
-              transition={{ duration: 0.2 }}
-              whileHover={{ scale: 1.05 }}
             >
               <span className="flex items-center">
                 <MapPin
@@ -561,10 +523,10 @@ export default function Header() {
                   {t("navigation:header.servingWorldwide")}
                 </span>
               </span>
-            </motion.a>
+            </a>
           </div>
         </div>
-      </motion.div>
+      </div>
 
       {/* Main navigation */}
       <nav
@@ -573,11 +535,7 @@ export default function Header() {
         aria-label={t("common:ui.ariaLabels.mainNavigation")}
       >
         <div className="flex justify-between items-center py-3 sm:py-4">
-          <motion.div
-            initial={{ opacity: 0, x: -30 }}
-            animate={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.6, delay: 0.2 }}
-          >
+          <div className="animate-in fade-in slide-in-from-left-2 duration-500">
             <Link href="/" className="flex items-center ms-2 lg:ms-4">
               <div className="relative w-[190px] sm:w-[200px] md:w-[190px] lg:w-[200px] xl:w-[220px] h-12 sm:h-13 md:h-12 lg:h-13 xl:h-14 overflow-hidden me-4 lg:me-6 xl:me-8">
                 <img
@@ -588,15 +546,10 @@ export default function Header() {
                 />
               </div>
             </Link>
-          </motion.div>
+          </div>
 
-          {/* Desktop navigation */}
-          <motion.div
-            className="hidden lg:flex items-center gap-4 xl:gap-6 2xl:gap-8 flex-safe"
-            initial={{ opacity: 0, y: -20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6, delay: 0.3 }}
-          >
+          {/* Desktop navigation - Optimized with CSS animations */}
+          <div className="hidden lg:flex items-center gap-4 xl:gap-6 2xl:gap-8 flex-safe animate-in fade-in slide-in-from-top-1 duration-500">
             {navigation.map((item, index) => {
               if (item.href === "/about") {
                 return (
@@ -678,7 +631,7 @@ export default function Header() {
                           <div className="w-max max-w-[95vw] max-h-[90vh] bg-popover border-2 border-slate-300 dark:border-slate-600 rounded-md shadow-lg overflow-y-auto">
                             <div className="p-6 lg:p-8">
                               <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 lg:gap-6 items-stretch">
-                                {getServices(t).map((service) => (
+                                {servicesData.map((service) => (
                                   <Link
                                     key={service.id}
                                     href={`/services-category/${service.id}`}
@@ -770,7 +723,7 @@ export default function Header() {
                         >
                           <div className="p-4 lg:p-6">
                             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-3 lg:gap-4">
-                              {getProducts(t).map((product) => (
+                              {productsData.map((product) => (
                                 <div key={product.id} className="flex-safe">
                                   <Link
                                     href={`/products/${product.id}`}
@@ -964,19 +917,14 @@ export default function Header() {
                 </motion.div>
               );
             })}
-            <motion.div
-              initial={{ opacity: 0, scale: 0.8 }}
-              animate={{ opacity: 1, scale: 1 }}
-              transition={{ duration: 0.4, delay: 0.8 }}
-              className="ml-2"
-            >
+            <div className="ml-2">
               <Link href="/quote">
                 <Button className="bg-secondary hover:bg-secondary/90 text-secondary-foreground px-4 lg:px-6 hover:shadow-xl hover:scale-[1.02] transition-all duration-300">
                   {t("common:buttons.getQuote")}
                 </Button>
               </Link>
-            </motion.div>
-          </motion.div>
+            </div>
+          </div>
 
           {/* Mobile navigation */}
           <Sheet open={isOpen} onOpenChange={setIsOpen}>
