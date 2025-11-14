@@ -66,7 +66,7 @@ export default function FloatingContactBadges() {
             className="w-14 h-14 bg-green-500 hover:bg-green-600 rounded-full flex items-center justify-center text-white transition-colors relative z-10"
             data-testid="button-whatsapp-contact"
             whileHover={{
-              scale: 1.15,
+              scale: 1.3,
               boxShadow: "0 12px 40px rgba(34, 197, 94, 0.45), 0 0 0 1px rgba(34, 197, 94, 0.3)",
               transition: { duration: 0.4, ease: [0.4, 0.0, 0.2, 1] },
             }}
@@ -125,7 +125,7 @@ export default function FloatingContactBadges() {
             className="w-14 h-14 bg-green-500 hover:bg-green-600 rounded-full flex items-center justify-center text-white transition-colors relative z-10"
             data-testid="button-justdial-contact"
             whileHover={{
-              scale: 1.15,
+              scale: 1.3,
               boxShadow: "0 12px 40px rgba(255, 255, 255, 0.5), 0 0 0 1px rgba(200, 200, 200, 0.35)",
               transition: { duration: 0.4, ease: [0.4, 0.0, 0.2, 1] },
             }}
