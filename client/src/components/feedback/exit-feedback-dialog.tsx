@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { z } from "zod";
-import { Star, X } from "lucide-react";
+import { Star } from "lucide-react";
 import {
   Dialog,
   DialogContent,
@@ -72,7 +72,7 @@ export default function ExitFeedbackDialog() {
 
     timeoutId = setTimeout(() => {
       showFeedbackDialog();
-    }, 30000);
+    }, 120000);
 
     exitIntentListener = (e: MouseEvent) => {
       if (e.clientY <= 0) {
@@ -140,24 +140,12 @@ export default function ExitFeedbackDialog() {
     <Dialog open={isOpen} onOpenChange={setIsOpen}>
       <DialogContent className="max-w-2xl max-h-[90vh] overflow-y-auto" data-testid="dialog-exit-feedback">
         <DialogHeader>
-          <div className="flex items-center justify-between">
-            <div>
-              <DialogTitle className="text-2xl" data-testid="text-feedback-title">
-                We'd Love Your Feedback!
-              </DialogTitle>
-              <DialogDescription data-testid="text-feedback-description">
-                Help us improve your experience. Your feedback is valuable to us.
-              </DialogDescription>
-            </div>
-            <Button
-              variant="ghost"
-              size="icon"
-              onClick={handleClose}
-              data-testid="button-close-feedback"
-            >
-              <X className="h-4 w-4" />
-            </Button>
-          </div>
+          <DialogTitle className="text-2xl" data-testid="text-feedback-title">
+            We'd Love Your Feedback!
+          </DialogTitle>
+          <DialogDescription data-testid="text-feedback-description">
+            Help us improve your experience. Your feedback is valuable to us.
+          </DialogDescription>
         </DialogHeader>
 
         <Form {...form}>

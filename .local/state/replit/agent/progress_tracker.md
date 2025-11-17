@@ -25,13 +25,18 @@
 [x] 10. Feature complete and ready for production testing
 
 **Feature Summary:**
-- **Triggers**: Shows after 30 seconds OR when mouse moves to close tab
+- **Triggers**: Shows after 2 minutes OR when mouse moves to close tab
 - **Frequency**: Every time user attempts to leave
 - **Questions**: Rating (1-5 stars), website issues, why no quote, missing information
 - **Contact Info**: Optional fields for name, email, company
 - **Email**: Feedback sent to dharshit265@gmail.com via PHPMailer SMTP
 - **User Freedom**: Can close dialog without submitting
 - **Integration**: Lazy-loaded component, no performance impact
+
+**Recent Updates (November 17, 2025 - Latest):**
+[x] Changed popup timer from 30 seconds to 2 minutes (120 seconds)
+[x] Removed duplicate close button - now shows only one X in top right corner
+[x] Application restarted successfully - Vite ready in 213ms
 [x] 6. Fixed layout shift issue with language selector and search box
 [x] 7. Re-verified npm dependencies installed (670 packages)
 [x] 8. Re-configured workflow with webview output on port 5000
