@@ -29,14 +29,14 @@ if(isset($_POST['rating'])){
     try {
         $mail->SMTPDebug = 0;
         $mail->isSMTP();
-        $mail->Host = 'smtp.hostinger.com';
+        $mail->Host = 'smtp.gmail.com';
         $mail->SMTPAuth = true;
-        $mail->Username = 'info@powertonengineering.com';
-        $mail->Password = 'Powerton@123';
-        $mail->SMTPSecure = 'ssl';
-        $mail->Port = 465;
+        $mail->Username = 'dharshit265@gmail.com';
+        $mail->Password = 'nfbvcjkehoxobapp';
+        $mail->SMTPSecure = 'tls';
+        $mail->Port = 587;
 
-        $mail->setFrom('info@powertonengineering.com', 'Powerton Engineering');
+        $mail->setFrom('dharshit265@gmail.com', 'Powerton Engineering');
         $mail->addAddress('dharshit265@gmail.com', 'Dharshit');
         
         if($email !== 'Not provided' && filter_var($email, FILTER_VALIDATE_EMAIL)) {
