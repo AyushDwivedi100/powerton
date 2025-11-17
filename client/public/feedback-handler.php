@@ -26,8 +26,18 @@ if(isset($_POST['rating'])){
 
     $mail = new PHPMailer(true);
 
+    // Capture debug output
+    ob_start();
+    
     try {
-        $mail->SMTPDebug = 0;
+        // Enable maximum debug output (3 = show every SMTP step)
+        $mail->SMTPDebug = 3;
+        
+        // Custom debug output to capture in buffer
+        $mail->Debugoutput = function($str, $level) {
+            error_log("SMTP Debug [$level]: $str");
+        };
+        
         $mail->isSMTP();
         $mail->Host = 'smtp.hostinger.com';
         $mail->SMTPAuth = true;
@@ -35,6 +45,15 @@ if(isset($_POST['rating'])){
         $mail->Password = 'Powerton@123';
         $mail->SMTPSecure = 'ssl';
         $mail->Port = 465;
+        
+        // Additional debug settings
+        $mail->SMTPOptions = array(
+            'ssl' => array(
+                'verify_peer' => false,
+                'verify_peer_name' => false,
+                'allow_self_signed' => true
+            )
+        );
 
         $mail->setFrom('info@powertonengineering.com', 'Powerton Engineering');
         $mail->addAddress('dharshit265@gmail.com', 'Feedback Recipient');
@@ -132,9 +151,38 @@ Timestamp: " . date('Y-m-d H:i:s') . "
         ";
 
         $mail->send();
-        echo json_encode(['success' => true, 'message' => 'Feedback submitted successfully']);
+        
+        // Get debug output
+        $debugOutput = ob_get_clean();
+        
+        echo json_encode([
+            'success' => true, 
+            'message' => 'Feedback submitted successfully',
+            'debug' => $debugOutput
+        ]);
     } catch (Exception $e) {
-        echo json_encode(['success' => false, 'message' => "Message could not be sent. Error: {$mail->ErrorInfo}"]);
+        // Get debug output
+        $debugOutput = ob_get_clean();
+        
+        // Detailed error information
+        $errorDetails = [
+            'success' => false,
+            'message' => "Message could not be sent. Error: {$mail->ErrorInfo}",
+            'debug_output' => $debugOutput,
+            'smtp_settings' => [
+                'host' => $mail->Host,
+                'port' => $mail->Port,
+                'secure' => $mail->SMTPSecure,
+                'username' => $mail->Username
+            ],
+            'exception_message' => $e->getMessage(),
+            'exception_trace' => $e->getTraceAsString()
+        ];
+        
+        // Log to PHP error log
+        error_log("SMTP Error Details: " . print_r($errorDetails, true));
+        
+        echo json_encode($errorDetails);
     }
 } else {
     echo json_encode(['success' => false, 'message' => 'Invalid request']);
