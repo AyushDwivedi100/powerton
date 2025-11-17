@@ -45,6 +45,11 @@ const ProductDetailDynamic = lazy(
   () => import("@/pages/product-detail-dynamic")
 );
 
+// Lazy load exit feedback dialog
+const ExitFeedbackDialog = lazy(
+  () => import("@/components/feedback/exit-feedback-dialog")
+);
+
 // Loading component for Suspense fallback
 const LoadingSpinner = () => {
   return (
@@ -128,6 +133,9 @@ function App() {
         <TooltipProvider>
           <Toaster />
           <Router />
+          <Suspense fallback={null}>
+            <ExitFeedbackDialog />
+          </Suspense>
         </TooltipProvider>
       </ThemeProvider>
     </HelmetProvider>
