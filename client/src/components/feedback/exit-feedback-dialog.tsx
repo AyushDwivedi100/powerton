@@ -110,6 +110,30 @@ export default function ExitFeedbackDialog() {
 
       const result = await response.json();
 
+      // Log the full response for debugging
+      console.log("=== FEEDBACK SUBMISSION RESPONSE ===");
+      console.log("Full response:", result);
+      
+      if (result.debug_output) {
+        console.log("=== SMTP DEBUG OUTPUT ===");
+        console.log(result.debug_output);
+      }
+      
+      if (result.smtp_settings) {
+        console.log("=== SMTP SETTINGS ===");
+        console.log(result.smtp_settings);
+      }
+      
+      if (result.exception_message) {
+        console.log("=== EXCEPTION MESSAGE ===");
+        console.log(result.exception_message);
+      }
+      
+      if (result.exception_trace) {
+        console.log("=== EXCEPTION TRACE ===");
+        console.log(result.exception_trace);
+      }
+
       if (result.success) {
         toast({
           title: "Thank you for your feedback!",
@@ -118,10 +142,13 @@ export default function ExitFeedbackDialog() {
         setIsOpen(false);
         form.reset();
       } else {
+        console.error("=== SUBMISSION FAILED ===");
+        console.error("Error message:", result.message);
         throw new Error(result.message || "Failed to submit feedback");
       }
     } catch (error) {
-      console.error("Feedback submission error:", error);
+      console.error("=== FEEDBACK SUBMISSION ERROR ===");
+      console.error("Error object:", error);
       toast({
         title: "Submission Failed",
         description: "There was an error submitting your feedback. Please try again.",
