@@ -265,7 +265,9 @@ export default function Footer() {
               </p>
               <div className="flex items-center gap-4 text-sm text-slate-400 flex-safe">
                 <LanguageSwitcher />
-                <ThemeToggle />
+                <div className="text-slate-100">
+                  <ThemeToggle />
+                </div>
                 <Link href="/sitemap" data-testid="link-sitemap">
                   <Button
                     variant="ghost"
