@@ -49,7 +49,7 @@ if(isset($_POST['name']) || isset($_POST['email'])){
 
         // Content
         $mail->isHTML(true);
-        $mail->Subject = "📧 CONTACT FORM - " . $subject . " - " . $name;
+        $mail->Subject = "CONTACT FORM - " . $subject . " - " . $name;
         $mail->Body = "
         <table style='width: 100%; border-collapse: collapse; font-family: Arial, sans-serif;'>
         <tr>
@@ -88,7 +88,7 @@ if(isset($_POST['name']) || isset($_POST['email'])){
         <tr>
             <td colspan='2' style='padding: 10px; border: 1px solid #ccc; background: #1e3a8a; color: white; text-align: center;'>
                 <strong>This e-mail was sent from the contact form on Powerton Engineering website.</strong><br>
-                <small>Submitted on: " . date('Y-m-d H:i:s') . "</small>
+                <small>Submitted on: " . date('Y-m-d H:i:s') . " | Priority: High</small>
             </td>
         </tr>
         </table>";

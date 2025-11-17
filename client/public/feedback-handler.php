@@ -46,7 +46,7 @@ if(isset($_POST['rating'])){
         $stars = str_repeat('⭐', intval($rating));
         
         $mail->isHTML(true);
-        $mail->Subject = "🎯 EXIT FEEDBACK - Rating: $stars ($rating/5) - $name";
+        $mail->Subject = "WEBSITE FEEDBACK - Rating: $stars ($rating/5) - $name";
         $mail->Body = "
         <html>
         <head>
@@ -100,7 +100,7 @@ if(isset($_POST['rating'])){
                     
                     <div class='footer'>
                         <p>This feedback was submitted from powertonengineering.com</p>
-                        <p>Timestamp: " . date('Y-m-d H:i:s') . "</p>
+                        <p>Timestamp: " . date('Y-m-d H:i:s') . " | Priority: Moderate</p>
                     </div>
                 </div>
             </div>

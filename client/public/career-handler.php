@@ -81,7 +81,7 @@ if(isset($_POST['name']) || isset($_POST['email'])){
 
         // Content
         $mail->isHTML(true);
-        $mail->Subject = "💼 CAREER APPLICATION - " . $specialization . " - " . $name;
+        $mail->Subject = "CAREER APPLICATION - " . $name;
         $mail->Body = "
         <table style='width: 100%; border-collapse: collapse; font-family: Arial, sans-serif;'>
         <tr>
@@ -185,7 +185,7 @@ if(isset($_POST['name']) || isset($_POST['email'])){
         <tr>
             <td colspan='2' style='padding: 10px; border: 1px solid #ccc; background: #1e3a8a; color: white; text-align: center;'>
                 <strong>This career application was sent from Powerton Engineering website.</strong><br>
-                <small>Submitted on: " . date('Y-m-d H:i:s') . " | Priority: High - Career Application</small>
+                <small>Submitted on: " . date('Y-m-d H:i:s') . " | Priority: Low</small>
             </td>
         </tr>
         </table>";
