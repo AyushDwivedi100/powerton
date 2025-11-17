@@ -55,9 +55,9 @@ if(isset($_POST['rating'])){
         $mail->Username = 'dharshit265@gmail.com';
         $debugMessages[] = "  - Username: dharshit265@gmail.com";
         
-        $mail->Password = 'Ayush@2003';
-        $debugMessages[] = "  - Password: " . str_repeat('*', strlen('Ayush@2003')) . " (length: " . strlen('Ayush@2003') . " chars)";
-        $debugMessages[] = "  - ⚠️  WARNING: Using Gmail requires App Password or 'Less secure app access'";
+        $mail->Password = 'nfbvcjkehoxobapp';
+        $debugMessages[] = "  - Password: " . str_repeat('*', strlen('nfbvcjkehoxobapp')) . " (length: " . strlen('nfbvcjkehoxobapp') . " chars)";
+        $debugMessages[] = "  - ✅ Using Gmail App Password (recommended)";
         
         $mail->SMTPSecure = 'tls';
         $debugMessages[] = "  - Encryption: TLS (recommended for Gmail)";
