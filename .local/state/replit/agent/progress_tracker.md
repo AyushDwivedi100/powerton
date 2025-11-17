@@ -199,6 +199,23 @@
 [x] 14. Workflow restarted successfully - Vite ready in 468ms
 [x] 15. Application verified working with all changes ✅
 
+### Feedback Form & Sidebar Conflict Fix (November 17, 2025 - 09:01 UTC)
+**Issue**: When feedback form popup appears while stock alert sidebar is open, both modals get stuck and can't be closed.
+
+**Solution**: Implemented automatic sidebar closure when feedback form opens.
+
+[x] 1. Added custom event dispatch in feedback-form.tsx when dialog opens
+[x] 2. Added event listener in layout.tsx to close sidebar on "closeSidebar" event
+[x] 3. Verified no LSP errors
+[x] 4. Workflow restarted successfully - Vite ready in 371ms
+[x] 5. Hot module replacement working correctly for both files
+[x] 6. Application running successfully ✅
+
+**Technical Implementation**:
+- When feedback form opens, it dispatches `window.dispatchEvent(new CustomEvent("closeSidebar"))`
+- Layout component listens for this event and closes the sidebar automatically
+- This prevents modal conflicts and ensures smooth UX
+
 ### Stock Alert Sidebar Performance Fix (November 13, 2025)
 
 #### First Optimization Round

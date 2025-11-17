@@ -65,6 +65,8 @@ export default function FeedbackForm() {
 
     const showFeedbackDialog = () => {
       if (!hasShownOnce) {
+        // Dispatch custom event to close the stock alert sidebar
+        window.dispatchEvent(new CustomEvent("closeSidebar"));
         setIsOpen(true);
         setHasShownOnce(true);
       }

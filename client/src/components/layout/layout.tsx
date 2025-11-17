@@ -30,6 +30,19 @@ export default function Layout({ children }: LayoutProps) {
     return () => clearTimeout(timer);
   }, []);
 
+  // Listen for feedback form opening and close sidebar
+  useEffect(() => {
+    const handleCloseSidebar = () => {
+      setIsSidebarOpen(false);
+    };
+
+    window.addEventListener("closeSidebar", handleCloseSidebar);
+    
+    return () => {
+      window.removeEventListener("closeSidebar", handleCloseSidebar);
+    };
+  }, []);
+
   // Measure header height
   useEffect(() => {
     const measureHeader = () => {
