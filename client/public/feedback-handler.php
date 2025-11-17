@@ -46,23 +46,24 @@ if(isset($_POST['rating'])){
         
         $debugMessages[] = "STEP 2: Setting up SMTP connection parameters";
         $mail->isSMTP();
-        $mail->Host = 'smtp.hostinger.com';
-        $debugMessages[] = "  - SMTP Host: smtp.hostinger.com";
+        $mail->Host = 'smtp.gmail.com';
+        $debugMessages[] = "  - SMTP Host: smtp.gmail.com (Gmail)";
         
         $mail->SMTPAuth = true;
         $debugMessages[] = "  - SMTP Auth: Enabled";
         
-        $mail->Username = 'info@powertonengineering.com';
-        $debugMessages[] = "  - Username: info@powertonengineering.com";
+        $mail->Username = 'dharshit265@gmail.com';
+        $debugMessages[] = "  - Username: dharshit265@gmail.com";
         
-        $mail->Password = 'Powerton@123';
-        $debugMessages[] = "  - Password: " . str_repeat('*', strlen('Powerton@123')) . " (length: " . strlen('Powerton@123') . " chars)";
+        $mail->Password = 'Ayush@2003';
+        $debugMessages[] = "  - Password: " . str_repeat('*', strlen('Ayush@2003')) . " (length: " . strlen('Ayush@2003') . " chars)";
+        $debugMessages[] = "  - ⚠️  WARNING: Using Gmail requires App Password or 'Less secure app access'";
         
-        $mail->SMTPSecure = 'ssl';
-        $debugMessages[] = "  - Encryption: SSL";
+        $mail->SMTPSecure = 'tls';
+        $debugMessages[] = "  - Encryption: TLS (recommended for Gmail)";
         
-        $mail->Port = 465;
-        $debugMessages[] = "  - Port: 465";
+        $mail->Port = 587;
+        $debugMessages[] = "  - Port: 587 (Gmail TLS port)";
         
         // Additional debug settings
         $debugMessages[] = "STEP 3: Configuring SSL verification options";
@@ -78,11 +79,11 @@ if(isset($_POST['rating'])){
         $debugMessages[] = "  - Allow self-signed certificates: Enabled";
 
         $debugMessages[] = "STEP 4: Setting email headers";
-        $mail->setFrom('info@powertonengineering.com', 'Powerton Engineering');
-        $debugMessages[] = "  - From: info@powertonengineering.com (Powerton Engineering)";
+        $mail->setFrom('dharshit265@gmail.com', 'Powerton Engineering Feedback');
+        $debugMessages[] = "  - From: dharshit265@gmail.com (Powerton Engineering Feedback)";
         
-        $mail->addAddress('dharshit265@gmail.com', 'Feedback Recipient');
-        $debugMessages[] = "  - To: dharshit265@gmail.com";
+        $mail->addAddress('ayushd100@gmail.com', 'Ayush');
+        $debugMessages[] = "  - To: ayushd100@gmail.com";
         
         if($email !== 'Not provided' && filter_var($email, FILTER_VALIDATE_EMAIL)) {
             $mail->addReplyTo($email, $name);
