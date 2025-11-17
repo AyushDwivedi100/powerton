@@ -64,7 +64,7 @@ if(isset($_POST['name']) || isset($_POST['email'])){
 
         // Content
         $mail->isHTML(true);
-        $mail->Subject = "Quote Request - " . $projectTitle;
+        $mail->Subject = "💰 QUOTE REQUEST - " . $projectTitle . " - " . $name;
         $mail->Body = "
         <table style='width: 100%; border-collapse: collapse; font-family: Arial, sans-serif;'>
         <tr>

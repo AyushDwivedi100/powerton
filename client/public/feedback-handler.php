@@ -29,22 +29,14 @@ if(isset($_POST['rating'])){
     try {
         $mail->SMTPDebug = 0;
         $mail->isSMTP();
-        $mail->Host = 'smtp.gmail.com';
+        $mail->Host = 'smtp.hostinger.com';
         $mail->SMTPAuth = true;
-        $mail->Username = 'dharshit265@gmail.com';
-        $mail->Password = 'nfbvcjkehoxobapp';
-        $mail->SMTPSecure = 'tls';
-        $mail->Port = 587;
-        
-        $mail->SMTPOptions = array(
-            'ssl' => array(
-                'verify_peer' => false,
-                'verify_peer_name' => false,
-                'allow_self_signed' => true
-            )
-        );
+        $mail->Username = 'info@powertonengineering.com';
+        $mail->Password = 'Powerton@123';
+        $mail->SMTPSecure = 'ssl';
+        $mail->Port = 465;
 
-        $mail->setFrom('dharshit265@gmail.com', 'Powerton Engineering Feedback');
+        $mail->setFrom('info@powertonengineering.com', 'Powerton Engineering');
         $mail->addAddress('dharshit265@gmail.com', 'Dharshit');
         
         if($email !== 'Not provided' && filter_var($email, FILTER_VALIDATE_EMAIL)) {
@@ -54,7 +46,7 @@ if(isset($_POST['rating'])){
         $stars = str_repeat('⭐', intval($rating));
         
         $mail->isHTML(true);
-        $mail->Subject = "Website Feedback - Rating: $stars ($rating/5)";
+        $mail->Subject = "🎯 EXIT FEEDBACK - Rating: $stars ($rating/5) - $name";
         $mail->Body = "
         <html>
         <head>

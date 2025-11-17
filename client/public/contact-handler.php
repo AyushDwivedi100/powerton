@@ -49,7 +49,7 @@ if(isset($_POST['name']) || isset($_POST['email'])){
 
         // Content
         $mail->isHTML(true);
-        $mail->Subject = "Contact Form Inquiry - " . $subject;
+        $mail->Subject = "📧 CONTACT FORM - " . $subject . " - " . $name;
         $mail->Body = "
         <table style='width: 100%; border-collapse: collapse; font-family: Arial, sans-serif;'>
         <tr>
