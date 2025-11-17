@@ -26,9 +26,9 @@ import { useTranslation } from "react-i18next";
 
 const feedbackSchema = z.object({
   rating: z.number().min(1, "Please provide a rating").max(5),
-  didNotLike: z.string().optional(),
-  whyNoQuote: z.string().optional(),
-  missingInfo: z.string().optional(),
+  didNotLike: z.string().min(1, "This field is required"),
+  whyNoQuote: z.string().min(1, "This field is required"),
+  missingInfo: z.string().min(1, "This field is required"),
   name: z.string().optional(),
   email: z.string().email("Invalid email").optional().or(z.literal("")),
   company: z.string().optional(),
@@ -192,7 +192,7 @@ export default function ExitFeedbackDialog() {
               render={({ field }) => (
                 <FormItem>
                   <FormLabel data-testid="label-did-not-like">
-                    What didn't you like about our website?
+                    What didn't you like about our website? *
                   </FormLabel>
                   <FormControl>
                     <Textarea
@@ -214,7 +214,7 @@ export default function ExitFeedbackDialog() {
               render={({ field }) => (
                 <FormItem>
                   <FormLabel data-testid="label-why-no-quote">
-                    Why didn't you request a quote?
+                    Why didn't you request a quote? *
                   </FormLabel>
                   <FormControl>
                     <Textarea
@@ -236,7 +236,7 @@ export default function ExitFeedbackDialog() {
               render={({ field }) => (
                 <FormItem>
                   <FormLabel data-testid="label-missing-info">
-                    What information were you looking for?
+                    What information were you looking for? *
                   </FormLabel>
                   <FormControl>
                     <Textarea

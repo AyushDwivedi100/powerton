@@ -36,7 +36,10 @@
 **Recent Updates (November 17, 2025 - Latest):**
 [x] Changed popup timer from 30 seconds to 2 minutes (120 seconds)
 [x] Removed duplicate close button - now shows only one X in top right corner
-[x] Application restarted successfully - Vite ready in 213ms
+[x] Made all feedback questions required except contact info
+[x] Added asterisks (*) to all required fields
+[x] Updated validation: didNotLike, whyNoQuote, missingInfo now mandatory
+[x] Application restarted successfully - form validation active
 [x] 6. Fixed layout shift issue with language selector and search box
 [x] 7. Re-verified npm dependencies installed (670 packages)
 [x] 8. Re-configured workflow with webview output on port 5000
