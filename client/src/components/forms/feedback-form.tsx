@@ -36,7 +36,7 @@ const feedbackSchema = z.object({
 
 type FeedbackFormData = z.infer<typeof feedbackSchema>;
 
-export default function ExitFeedbackDialog() {
+export default function FeedbackForm() {
   const [isOpen, setIsOpen] = useState(false);
   const [hasShownOnce, setHasShownOnce] = useState(false);
   const [isSubmitting, setIsSubmitting] = useState(false);

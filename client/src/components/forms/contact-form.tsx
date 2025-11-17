@@ -49,7 +49,7 @@ type ContactFormData = {
   serviceType?: string;
 };
 
-export default function FrontendContactForm() {
+export default function ContactForm() {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const { toast } = useToast();
   const { t } = useTranslation("forms");

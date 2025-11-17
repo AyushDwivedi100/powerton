@@ -18,7 +18,7 @@ import { Checkbox } from "@/components/ui/checkbox";
 import { Progress } from "@/components/ui/progress";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { useTranslation } from "react-i18next";
-import FrontendQuoteForm from "@/components/forms/frontend-quote-form";
+import QuotationForm from "@/components/forms/quotation-form";
 import {
   Calculator,
   CheckCircle,
@@ -1063,7 +1063,7 @@ export default function Quote() {
                       </p>
                     </CardHeader>
                     <CardContent className="p-6">
-                      <FrontendQuoteForm />
+                      <QuotationForm />
                     </CardContent>
                   </Card>
                 </div>

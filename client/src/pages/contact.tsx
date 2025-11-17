@@ -2,8 +2,8 @@ import { motion } from "framer-motion";
 import { SEO } from "@/lib/seo";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import FrontendContactForm from "@/components/forms/frontend-contact-form";
-import FrontendQuoteForm from "@/components/forms/frontend-quote-form";
+import ContactForm from "@/components/forms/contact-form";
+import QuotationForm from "@/components/forms/quotation-form";
 import {
   AnimatedSection,
   useScrollAnimations,
@@ -333,7 +333,7 @@ export default function Contact() {
                 </p>
               </CardHeader>
               <CardContent>
-                <FrontendContactForm />
+                <ContactForm />
               </CardContent>
             </Card>
           </div>

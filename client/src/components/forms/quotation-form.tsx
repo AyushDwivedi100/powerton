@@ -68,7 +68,7 @@ type QuoteFormData = z.infer<ReturnType<typeof createQuoteFormSchema>>;
 
 // Service options will be populated inside the component where t is available
 
-export default function FrontendQuoteForm() {
+export default function QuotationForm() {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const { toast } = useToast();
   const { t } = useTranslation("forms");

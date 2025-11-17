@@ -1,4 +1,4 @@
-import FrontendContactForm from "@/components/forms/frontend-contact-form";
+import ContactForm from "@/components/forms/contact-form";
 import { Phone, Mail, MapPin, Clock } from "lucide-react";
 import { COMPANY_INFO } from "@/data/constants";
 import { motion } from "framer-motion";
@@ -209,7 +209,7 @@ export default function ContactSection() {
             </div>
 
             <div>
-              <FrontendContactForm />
+              <ContactForm />
             </div>
           </div>
         </div>
