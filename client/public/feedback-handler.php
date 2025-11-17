@@ -25,48 +25,17 @@ if(isset($_POST['rating'])){
     require 'PHPMailer/SMTP.php';
 
     $mail = new PHPMailer(true);
-
-    // Array to capture all debug messages
-    $debugMessages = [];
-    $stepCounter = 0;
     
     try {
-        // STEP 1: Initialize PHPMailer settings
-        $debugMessages[] = "STEP 1: Initializing PHPMailer with SMTP configuration";
-        
-        // Enable MAXIMUM debug output (SMTP::DEBUG_SERVER = 4 shows everything including low-level)
-        $mail->SMTPDebug = SMTP::DEBUG_SERVER;
-        
-        // Capture ALL debug output in our array
-        $mail->Debugoutput = function($str, $level) use (&$debugMessages) {
-            $levelNames = ['', 'ERROR', 'CLIENT', 'SERVER', 'CONNECTION'];
-            $levelName = $levelNames[$level] ?? 'UNKNOWN';
-            $debugMessages[] = "[$levelName] $str";
-        };
-        
-        $debugMessages[] = "STEP 2: Setting up SMTP connection parameters";
+        $mail->SMTPDebug = 0;
         $mail->isSMTP();
         $mail->Host = 'smtp.gmail.com';
-        $debugMessages[] = "  - SMTP Host: smtp.gmail.com (Gmail)";
-        
         $mail->SMTPAuth = true;
-        $debugMessages[] = "  - SMTP Auth: Enabled";
-        
         $mail->Username = 'dharshit265@gmail.com';
-        $debugMessages[] = "  - Username: dharshit265@gmail.com";
-        
         $mail->Password = 'nfbvcjkehoxobapp';
-        $debugMessages[] = "  - Password: " . str_repeat('*', strlen('nfbvcjkehoxobapp')) . " (length: " . strlen('nfbvcjkehoxobapp') . " chars)";
-        $debugMessages[] = "  - ✅ Using Gmail App Password (recommended)";
-        
         $mail->SMTPSecure = 'tls';
-        $debugMessages[] = "  - Encryption: TLS (recommended for Gmail)";
-        
         $mail->Port = 587;
-        $debugMessages[] = "  - Port: 587 (Gmail TLS port)";
         
-        // Additional debug settings
-        $debugMessages[] = "STEP 3: Configuring SSL verification options";
         $mail->SMTPOptions = array(
             'ssl' => array(
                 'verify_peer' => false,
@@ -74,28 +43,18 @@ if(isset($_POST['rating'])){
                 'allow_self_signed' => true
             )
         );
-        $debugMessages[] = "  - SSL peer verification: Disabled (for debugging)";
-        $debugMessages[] = "  - SSL peer name verification: Disabled (for debugging)";
-        $debugMessages[] = "  - Allow self-signed certificates: Enabled";
 
-        $debugMessages[] = "STEP 4: Setting email headers";
         $mail->setFrom('dharshit265@gmail.com', 'Powerton Engineering Feedback');
-        $debugMessages[] = "  - From: dharshit265@gmail.com (Powerton Engineering Feedback)";
-        
-        $mail->addAddress('ayushd100@gmail.com', 'Ayush');
-        $debugMessages[] = "  - To: ayushd100@gmail.com";
+        $mail->addAddress('dharshit265@gmail.com', 'Dharshit');
         
         if($email !== 'Not provided' && filter_var($email, FILTER_VALIDATE_EMAIL)) {
             $mail->addReplyTo($email, $name);
-            $debugMessages[] = "  - Reply-To: $email ($name)";
         }
 
-        $debugMessages[] = "STEP 5: Preparing email content";
         $stars = str_repeat('⭐', intval($rating));
         
         $mail->isHTML(true);
         $mail->Subject = "Website Feedback - Rating: $stars ($rating/5)";
-        $debugMessages[] = "  - Subject set: Website Feedback - Rating: $rating/5";
         $mail->Body = "
         <html>
         <head>
@@ -180,87 +139,20 @@ Contact Information:
 Timestamp: " . date('Y-m-d H:i:s') . "
         ";
 
-        $debugMessages[] = "STEP 6: Attempting to send email via SMTP...";
-        $debugMessages[] = "========================================";
-        $debugMessages[] = "STARTING SMTP CONNECTION AND AUTHENTICATION";
-        $debugMessages[] = "========================================";
-        
         $mail->send();
-        
-        $debugMessages[] = "========================================";
-        $debugMessages[] = "✅ EMAIL SENT SUCCESSFULLY!";
-        $debugMessages[] = "========================================";
         
         echo json_encode([
             'success' => true, 
-            'message' => 'Feedback submitted successfully',
-            'debug_messages' => $debugMessages,
-            'total_steps' => count($debugMessages)
+            'message' => 'Feedback submitted successfully'
         ]);
     } catch (Exception $e) {
-        $debugMessages[] = "========================================";
-        $debugMessages[] = "❌ SMTP ERROR OCCURRED!";
-        $debugMessages[] = "========================================";
-        $debugMessages[] = "Error Type: " . get_class($e);
-        $debugMessages[] = "Error Message: " . $e->getMessage();
-        $debugMessages[] = "PHPMailer ErrorInfo: " . $mail->ErrorInfo;
-        $debugMessages[] = "========================================";
-        
-        // Analyze the error to provide helpful suggestions
-        $suggestions = [];
-        $errorMsg = strtolower($e->getMessage() . ' ' . $mail->ErrorInfo);
-        
-        if (strpos($errorMsg, 'could not authenticate') !== false) {
-            $suggestions[] = "Authentication failed. Possible causes:";
-            $suggestions[] = "  1. Incorrect password for info@powertonengineering.com";
-            $suggestions[] = "  2. Email account doesn't exist in Hostinger";
-            $suggestions[] = "  3. Two-factor authentication is enabled (need app password)";
-            $suggestions[] = "  4. Account is locked or suspended";
-        }
-        
-        if (strpos($errorMsg, 'could not connect') !== false) {
-            $suggestions[] = "Connection failed. Possible causes:";
-            $suggestions[] = "  1. Port 465 is blocked by server firewall";
-            $suggestions[] = "  2. SMTP host 'smtp.hostinger.com' is incorrect";
-            $suggestions[] = "  3. Try port 587 with TLS instead of SSL";
-        }
-        
-        if (strpos($errorMsg, 'tls') !== false || strpos($errorMsg, 'ssl') !== false) {
-            $suggestions[] = "SSL/TLS issue. Try these alternatives:";
-            $suggestions[] = "  1. Change to TLS on port 587 instead of SSL on 465";
-            $suggestions[] = "  2. Check if server supports SSL/TLS connections";
-        }
-        
-        // Detailed error information
-        $errorDetails = [
+        http_response_code(500);
+        echo json_encode([
             'success' => false,
-            'error_summary' => "SMTP Authentication Failed",
-            'message' => "Message could not be sent. Error: {$mail->ErrorInfo}",
-            'debug_messages' => $debugMessages,
-            'smtp_configuration' => [
-                'host' => $mail->Host,
-                'port' => $mail->Port,
-                'encryption' => $mail->SMTPSecure,
-                'username' => $mail->Username,
-                'smtp_auth_enabled' => $mail->SMTPAuth ? 'Yes' : 'No'
-            ],
-            'error_details' => [
-                'exception_class' => get_class($e),
-                'exception_message' => $e->getMessage(),
-                'phpmailer_error' => $mail->ErrorInfo,
-                'error_file' => $e->getFile(),
-                'error_line' => $e->getLine()
-            ],
-            'suggestions' => $suggestions,
-            'total_debug_lines' => count($debugMessages)
-        ];
-        
-        // Log to PHP error log
-        error_log("=== SMTP ERROR DETAILS ===");
-        error_log(print_r($errorDetails, true));
-        
-        echo json_encode($errorDetails, JSON_PRETTY_PRINT);
+            'message' => 'Message could not be sent. Error: ' . $mail->ErrorInfo
+        ]);
     }
 } else {
+    http_response_code(400);
     echo json_encode(['success' => false, 'message' => 'Invalid request']);
 }

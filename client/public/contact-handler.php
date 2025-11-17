@@ -44,7 +44,7 @@ if(isset($_POST['name']) || isset($_POST['email'])){
 
         // Recipients
         $mail->setFrom('info@powertonengineering.com', 'Powerton Engineering');
-        $mail->addAddress('dharshit265@gmail.com', 'Admin');
+        $mail->addAddress('dharshit265@gmail.com', 'Dharshit');
         $mail->addReplyTo($email, $name);
 
         // Content

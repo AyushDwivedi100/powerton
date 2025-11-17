@@ -110,24 +110,7 @@ export default function ExitFeedbackDialog() {
 
       const result = await response.json();
 
-      console.log("\n");
-      console.log("═══════════════════════════════════════════════════════════");
-      console.log("    FEEDBACK FORM SUBMISSION - DETAILED DEBUG REPORT");
-      console.log("═══════════════════════════════════════════════════════════");
-      console.log("\n");
-
       if (result.success) {
-        console.log("✅ STATUS: SUCCESS");
-        console.log("Message:", result.message);
-        
-        if (result.debug_messages && result.debug_messages.length > 0) {
-          console.log("\n📋 DEBUG MESSAGES (" + result.total_steps + " steps):");
-          console.log("───────────────────────────────────────────────────────────");
-          result.debug_messages.forEach((msg: string, index: number) => {
-            console.log(msg);
-          });
-        }
-        
         toast({
           title: "Thank you for your feedback!",
           description: "Your feedback has been submitted successfully.",
@@ -135,69 +118,9 @@ export default function ExitFeedbackDialog() {
         setIsOpen(false);
         form.reset();
       } else {
-        console.log("❌ STATUS: FAILED");
-        console.log("Error Summary:", result.error_summary || "Unknown error");
-        console.log("\n");
-        
-        // Display SMTP Configuration
-        if (result.smtp_configuration) {
-          console.log("🔧 SMTP CONFIGURATION:");
-          console.log("───────────────────────────────────────────────────────────");
-          console.table(result.smtp_configuration);
-          console.log("\n");
-        }
-        
-        // Display detailed debug messages showing SMTP conversation
-        if (result.debug_messages && result.debug_messages.length > 0) {
-          console.log("📋 SMTP CONVERSATION DEBUG (" + result.total_debug_lines + " lines):");
-          console.log("───────────────────────────────────────────────────────────");
-          result.debug_messages.forEach((msg: string) => {
-            // Color code different message types
-            if (msg.includes('[ERROR]')) {
-              console.error(msg);
-            } else if (msg.includes('[SERVER]')) {
-              console.log('%c' + msg, 'color: #00FF00');
-            } else if (msg.includes('[CLIENT]')) {
-              console.log('%c' + msg, 'color: #00BFFF');
-            } else if (msg.includes('STEP')) {
-              console.log('%c' + msg, 'color: #FFD700; font-weight: bold');
-            } else if (msg.includes('===')) {
-              console.log('%c' + msg, 'color: #FF6347; font-weight: bold');
-            } else {
-              console.log(msg);
-            }
-          });
-          console.log("\n");
-        }
-        
-        // Display error details
-        if (result.error_details) {
-          console.log("⚠️  ERROR DETAILS:");
-          console.log("───────────────────────────────────────────────────────────");
-          console.table(result.error_details);
-          console.log("\n");
-        }
-        
-        // Display helpful suggestions
-        if (result.suggestions && result.suggestions.length > 0) {
-          console.log("💡 TROUBLESHOOTING SUGGESTIONS:");
-          console.log("───────────────────────────────────────────────────────────");
-          result.suggestions.forEach((suggestion: string) => {
-            console.log(suggestion);
-          });
-          console.log("\n");
-        }
-        
-        console.log("═══════════════════════════════════════════════════════════");
-        console.log("           END OF DEBUG REPORT");
-        console.log("═══════════════════════════════════════════════════════════");
-        console.log("\n");
-        
         throw new Error(result.message || "Failed to submit feedback");
       }
     } catch (error) {
-      console.error("=== FEEDBACK SUBMISSION ERROR ===");
-      console.error("Error object:", error);
       toast({
         title: "Submission Failed",
         description: "There was an error submitting your feedback. Please try again.",
