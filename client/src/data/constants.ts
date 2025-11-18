@@ -31,7 +31,8 @@ export const COMPANY_INFO = {
   socialMedia: {
     linkedin: "#",
     twitter: "#",
-    facebook: "#",
+    facebook: "https://www.facebook.com/PowertonEngineering/",
+    youtube: "https://youtube.com/@powertonengineering7485?si=SpJesD7qxsYVGEiH",
   },
   stats: {
     projectsCompleted: "500+",
@@ -62,7 +63,8 @@ export const getCompanyInfo = (t: any) => ({
   socialMedia: {
     linkedin: "#",
     twitter: "#",
-    facebook: "#",
+    facebook: "https://www.facebook.com/PowertonEngineering/",
+    youtube: "https://youtube.com/@powertonengineering7485?si=SpJesD7qxsYVGEiH",
   },
   stats: {
     projectsCompleted: t("common:company.stats.projectsCompleted"),
