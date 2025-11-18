@@ -754,6 +754,7 @@
       "followLinkedIn": "在 LinkedIn 上关注 Powerton Engineering",
       "followTwitter": "在 X（以前称为 Twitter）上关注 Powerton Engineering",
       "followFacebook": "在 Facebook 上关注 Powerton Engineering",
+      "followYouTube": "在 YouTube 上关注 Powerton Engineering",
       "toggleMobileMenu": "切换移动菜单",
       "closeMobileMenu": "关闭移动菜单",
       "openMobileMenu": "打开移动菜单",
@@ -768,7 +769,18 @@
       "callPrimary": "致电 Powerton Engineering - 主要",
       "callSecondary": "致电 Powerton Engineering - 辅助",
       "emailPowerton": "发送电子邮件至 Powerton Engineering",
-      "viewOfficeLocation": "在 Google 地图上查看 Powerton Engineering 办公室位置"
+      "viewOfficeLocation": "在 Google 地图上查看 Powerton Engineering 办公室位置",
+      "skipToMain": "跳转到主要内容",
+      "mainContent": "主要内容区域",
+      "availableStockSidebar": "可用库存产品侧边栏",
+      "closeStockSidebar": "关闭可用库存侧边栏",
+      "previousProduct": "查看上一个产品",
+      "nextProduct": "查看下一个产品",
+      "productNavigation": "产品导航",
+      "viewProductOf": "查看产品 {{current}} / {{total}}",
+      "whatsappUs": "在 WhatsApp 上给我们留言，电话号码：{{phone}}",
+      "openStockSidebar": "打开可用库存侧边栏以查看产品",
+      "clickViewStock": "点击查看可用库存产品"
     },
     "messages": {
       "whatsappGreeting": "你好！我对贵公司的产品和服务感兴趣。"
@@ -778,6 +790,18 @@
       "heroImage": "工业自动化和电气工程解决方案",
       "heroBackground": "展示 Powerton Engineering 专长的工业自动化设施背景",
       "productImage": "{{productName}} 产品图片"
+    },
+    "stockAlert": {
+      "availableStock": "有现货",
+      "inStock": "有库存",
+      "productsReady": "{{count}} 高级产品准备发货",
+      "contactUs": "联系我们",
+      "directCall": "直接呼叫",
+      "whatsapp": "WhatsApp",
+      "sameDayDispatch": "当天发货",
+      "isoCertified": "ISO 认证",
+      "newStock": "新库存",
+      "viewProducts": "查看产品"
     }
   }
 }

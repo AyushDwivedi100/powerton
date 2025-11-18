@@ -753,6 +753,7 @@
       "followLinkedIn": "Fuata Powerton Engineering kwenye LinkedIn",
       "followTwitter": "Fuata Powerton Engineering kwenye X (zamani Twitter)",
       "followFacebook": "Fuata Powerton Engineering kwenye Facebook",
+      "followYouTube": "Fuata Powerton Engineering kwenye YouTube",
       "toggleMobileMenu": "Badili menyu ya simu",
       "closeMobileMenu": "Funga menyu ya simu",
       "openMobileMenu": "Fungua menyu ya simu",
@@ -767,7 +768,18 @@
       "callPrimary": "Piga simu Powerton Engineering - Msingi",
       "callSecondary": "Piga simu Powerton Engineering - Sekondari",
       "emailPowerton": "Tuma barua pepe kwa Powerton Engineering",
-      "viewOfficeLocation": "Angalia eneo la ofisi ya Powerton Engineering kwenye Google Maps"
+      "viewOfficeLocation": "Angalia eneo la ofisi ya Powerton Engineering kwenye Google Maps",
+      "skipToMain": "Ruka hadi kwenye maudhui makuu",
+      "mainContent": "Sehemu kuu ya maudhui",
+      "availableStockSidebar": "Bidhaa za hisa zinazopatikana",
+      "closeStockSidebar": "Funga bidhaa za hisa zinazopatikana",
+      "previousProduct": "Angalia bidhaa iliyopita",
+      "nextProduct": "Angalia bidhaa inayofuata",
+      "productNavigation": "Urambazaji wa bidhaa",
+      "viewProductOf": "Angalia bidhaa {{current}} kati ya {{total}}",
+      "whatsappUs": "Tutume ujumbe kwenye WhatsApp kwa {{phone}}",
+      "openStockSidebar": "Fungua bidhaa za hisa zinazopatikana ili kuona bidhaa",
+      "clickViewStock": "Bofya ili kuona bidhaa za hisa zinazopatikana"
     },
     "messages": {
       "whatsappGreeting": "Halo! Ninavutiwa na bidhaa na huduma zako."
@@ -777,6 +789,18 @@
       "heroImage": "Uendeshaji wa viwanda otomatiki na suluhisho za uhandisi wa umeme",
       "heroBackground": "Mandharinyuma ya kituo cha kiotomatiki cha viwandani inayoonyesha utaalam wa Powerton Engineering",
       "productImage": "Picha ya bidhaa {{productName}}"
+    },
+    "stockAlert": {
+      "availableStock": "Hisa Inayopatikana",
+      "inStock": "Inapatikana",
+      "productsReady": "{{count}} bidhaa bora tayari kwa usafirishaji",
+      "contactUs": "Wasiliana Nasi",
+      "directCall": "Piga Simu Moja kwa Moja",
+      "whatsapp": "WhatsApp",
+      "sameDayDispatch": "Usafirishaji wa siku moja",
+      "isoCertified": "Imethibitishwa na ISO",
+      "newStock": "Hisa Mpya",
+      "viewProducts": "Angalia Bidhaa"
     }
   }
 }

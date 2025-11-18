@@ -755,6 +755,7 @@
       "followLinkedIn": "Bi Powerton Engineering a LinkedIn",
       "followTwitter": "Bi Powerton Engineering a X (wanda da ake kira Twitter)",
       "followFacebook": "Bi Powerton Engineering a Facebook",
+      "followYouTube": "Bi Powerton Engineering a YouTube",
       "toggleMobileMenu": "Canja menu na wayar hannu",
       "closeMobileMenu": "Rufe menu na wayar hannu",
       "openMobileMenu": "Buɗe menu na wayar hannu",
@@ -769,7 +770,18 @@
       "callPrimary": "Kira Powerton Engineering - Na farko",
       "callSecondary": "Kira Powerton Engineering - Na biyu",
       "emailPowerton": "Aika Powerton Engineering imel",
-      "viewOfficeLocation": "Duba wurin ofishin Powerton Engineering akan Google Maps"
+      "viewOfficeLocation": "Duba wurin ofishin Powerton Engineering akan Google Maps",
+      "skipToMain": "Tsallake zuwa babban abun ciki",
+      "mainContent": "Babban yankin abun ciki",
+      "availableStockSidebar": "Bangaren samfuran da ake da su",
+      "closeStockSidebar": "Rufe bangaren samfuran da ake da su",
+      "previousProduct": "Duba samfurin da ya gabata",
+      "nextProduct": "Duba samfurin na gaba",
+      "productNavigation": "Kewayawa ta samfur",
+      "viewProductOf": "Duba samfurin {{current}} na {{total}}",
+      "whatsappUs": "Aiko mana da sako a WhatsApp a {{phone}}",
+      "openStockSidebar": "Buɗe gefen samfurori da ake dasu don duba kayayyakin",
+      "clickViewStock": "Danna don duba samfuran hannun jari da ake dasu"
     },
     "messages": {
       "whatsappGreeting": "Sannu! Ina sha'awar samfuran ku da ayyukan ku."
@@ -779,6 +791,18 @@
       "heroImage": "Sarrafa masana'antu ta atomatik da mafita na injiniyan lantarki",
       "heroBackground": "Fage na wurin sarrafa masana'antu ta atomatik wanda ke nuna ƙwarewar Powerton Engineering",
       "productImage": "Hoton samfurin {{productName}}"
+    },
+    "stockAlert": {
+      "availableStock": "Akwai Kaya",
+      "inStock": "Akwai a Kaya",
+      "productsReady": "{{count}} kayayyaki masu inganci a shirye don aikawa",
+      "contactUs": "Tuntube Mu",
+      "directCall": "Kira Kai Tsaye",
+      "whatsapp": "WhatsApp",
+      "sameDayDispatch": "Aikawa a rana guda",
+      "isoCertified": "ISO ta tabbatar",
+      "newStock": "Sabuwar Kaya",
+      "viewProducts": "Duba Kayayyaki"
     }
   }
 }

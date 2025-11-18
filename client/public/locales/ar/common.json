@@ -753,6 +753,7 @@
       "followLinkedIn": "تابع Powerton Engineering على LinkedIn",
       "followTwitter": "تابع Powerton Engineering على X (المعروفة سابقًا باسم Twitter)",
       "followFacebook": "تابع Powerton Engineering على Facebook",
+      "followYouTube": "تابع Powerton Engineering على YouTube",
       "toggleMobileMenu": "تبديل قائمة الجوال",
       "closeMobileMenu": "إغلاق قائمة الجوال",
       "openMobileMenu": "فتح قائمة الجوال",
@@ -767,7 +768,18 @@
       "callPrimary": "اتصل بـ Powerton Engineering - الرقم الأساسي",
       "callSecondary": "اتصل بـ Powerton Engineering - الرقم الثانوي",
       "emailPowerton": "أرسل بريدًا إلكترونيًا إلى Powerton Engineering",
-      "viewOfficeLocation": "عرض موقع مكتب Powerton Engineering على خرائط جوجل"
+      "viewOfficeLocation": "عرض موقع مكتب Powerton Engineering على خرائط جوجل",
+      "skipToMain": "تخط إلى المحتوى الرئيسي",
+      "mainContent": "منطقة المحتوى الرئيسية",
+      "availableStockSidebar": "الشريط الجانبي لمنتجات المخزون المتاحة",
+      "closeStockSidebar": "إغلاق الشريط الجانبي للمخزون المتاح",
+      "previousProduct": "عرض المنتج السابق",
+      "nextProduct": "عرض المنتج التالي",
+      "productNavigation": "التنقل في المنتج",
+      "viewProductOf": "عرض المنتج {{current}} من {{total}}",
+      "whatsappUs": "راسلنا على واتساب على {{phone}}",
+      "openStockSidebar": "افتح الشريط الجانبي للمخزون المتاح لعرض المنتجات",
+      "clickViewStock": "انقر لعرض منتجات المخزون المتاحة"
     },
     "messages": {
       "whatsappGreeting": "مرحباً! أنا مهتم بمنتجاتكم وخدماتكم."
@@ -777,6 +789,18 @@
       "heroImage": "حلول أتمتة العمليات الصناعية والهندسة الكهربائية",
       "heroBackground": "خلفية مرفق الأتمتة الصناعية تعرض خبرة Powerton Engineering",
       "productImage": "صورة المنتج {{productName}}"
+    },
+    "stockAlert": {
+      "availableStock": "المخزون المتاح",
+      "inStock": "في المخزن",
+      "productsReady": "{{count}} منتجات متميزة جاهزة للإرسال",
+      "contactUs": "اتصل بنا",
+      "directCall": "مكالمة مباشرة",
+      "whatsapp": "واتساب",
+      "sameDayDispatch": "إرسال في نفس اليوم",
+      "isoCertified": "حاصلة على شهادة ISO",
+      "newStock": "مخزون جديد",
+      "viewProducts": "عرض المنتجات"
     }
   }
 }

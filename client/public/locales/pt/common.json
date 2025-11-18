@@ -752,6 +752,7 @@
       "followLinkedIn": "Siga a Powerton Engineering no LinkedIn",
       "followTwitter": "Siga a Powerton Engineering no X (anteriormente conhecido como Twitter)",
       "followFacebook": "Siga a Powerton Engineering no Facebook",
+      "followYouTube": "Siga a Powerton Engineering no YouTube",
       "toggleMobileMenu": "Alternar menu móvel",
       "closeMobileMenu": "Fechar menu móvel",
       "openMobileMenu": "Abrir menu móvel",
@@ -766,7 +767,18 @@
       "callPrimary": "Ligue para Powerton Engineering - Principal",
       "callSecondary": "Ligue para Powerton Engineering - Secundário",
       "emailPowerton": "Envie um e-mail para Powerton Engineering",
-      "viewOfficeLocation": "Ver localização do escritório da Powerton Engineering no Google Maps"
+      "viewOfficeLocation": "Ver localização do escritório da Powerton Engineering no Google Maps",
+      "skipToMain": "Ir para o conteúdo principal",
+      "mainContent": "Área de conteúdo principal",
+      "availableStockSidebar": "Barra lateral de produtos em estoque disponíveis",
+      "closeStockSidebar": "Fechar barra lateral de estoque disponível",
+      "previousProduct": "Ver produto anterior",
+      "nextProduct": "Ver próximo produto",
+      "productNavigation": "Navegação de produtos",
+      "viewProductOf": "Ver produto {{current}} de {{total}}",
+      "whatsappUs": "Envie-nos uma mensagem no WhatsApp para {{phone}}",
+      "openStockSidebar": "Abrir barra lateral de estoque disponível para ver produtos",
+      "clickViewStock": "Clique para ver os produtos em estoque disponíveis"
     },
     "messages": {
       "whatsappGreeting": "Olá! Estou interessado em seus produtos e serviços."
@@ -776,6 +788,18 @@
       "heroImage": "Automação industrial e soluções de engenharia elétrica",
       "heroBackground": "Fundo de instalação de automação industrial mostrando a experiência da Powerton Engineering",
       "productImage": "Imagem do produto {{productName}}"
+    },
+    "stockAlert": {
+      "availableStock": "Estoque disponível",
+      "inStock": "Em estoque",
+      "productsReady": "{{count}} produtos premium prontos para despacho",
+      "contactUs": "Contate-nos",
+      "directCall": "Chamada direta",
+      "whatsapp": "WhatsApp",
+      "sameDayDispatch": "Despacho no mesmo dia",
+      "isoCertified": "Certificado ISO",
+      "newStock": "Novo estoque",
+      "viewProducts": "Ver produtos"
     }
   }
 }

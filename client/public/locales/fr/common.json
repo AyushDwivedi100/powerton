@@ -752,6 +752,7 @@
       "followLinkedIn": "Suivre Powerton Engineering sur LinkedIn",
       "followTwitter": "Suivre Powerton Engineering sur X (anciennement Twitter)",
       "followFacebook": "Suivre Powerton Engineering sur Facebook",
+      "followYouTube": "Suivre Powerton Engineering sur YouTube",
       "toggleMobileMenu": "Activer/désactiver le menu mobile",
       "closeMobileMenu": "Fermer le menu mobile",
       "openMobileMenu": "Ouvrir le menu mobile",
@@ -766,7 +767,18 @@
       "callPrimary": "Appeler Powerton Engineering - Principal",
       "callSecondary": "Appeler Powerton Engineering - Secondaire",
       "emailPowerton": "Envoyer un e-mail à Powerton Engineering",
-      "viewOfficeLocation": "Afficher l'emplacement du bureau de Powerton Engineering sur Google Maps"
+      "viewOfficeLocation": "Afficher l'emplacement du bureau de Powerton Engineering sur Google Maps",
+      "skipToMain": "Aller au contenu principal",
+      "mainContent": "Zone de contenu principal",
+      "availableStockSidebar": "Barre latérale des produits en stock disponibles",
+      "closeStockSidebar": "Fermer la barre latérale des produits en stock disponibles",
+      "previousProduct": "Voir le produit précédent",
+      "nextProduct": "Voir le produit suivant",
+      "productNavigation": "Navigation des produits",
+      "viewProductOf": "Voir le produit {{current}} sur {{total}}",
+      "whatsappUs": "Envoyez-nous un message sur WhatsApp au {{phone}}",
+      "openStockSidebar": "Ouvrez la barre latérale des stocks disponibles pour voir les produits",
+      "clickViewStock": "Cliquez pour voir les produits en stock disponibles"
     },
     "messages": {
       "whatsappGreeting": "Bonjour ! Je suis intéressé par vos produits et services."
@@ -776,6 +788,18 @@
       "heroImage": "Solutions d'automatisation industrielle et d'ingénierie électrique",
       "heroBackground": "Arrière-plan d'une installation d'automatisation industrielle mettant en valeur l'expertise de Powerton Engineering",
       "productImage": "Image du produit {{productName}}"
+    },
+    "stockAlert": {
+      "availableStock": "Stock disponible",
+      "inStock": "En stock",
+      "productsReady": "{{count}} produits premium prêts à être expédiés",
+      "contactUs": "Contactez-nous",
+      "directCall": "Appel direct",
+      "whatsapp": "WhatsApp",
+      "sameDayDispatch": "Expédition le jour même",
+      "isoCertified": "Certifié ISO",
+      "newStock": "Nouveau stock",
+      "viewProducts": "Voir les produits"
     }
   }
 }

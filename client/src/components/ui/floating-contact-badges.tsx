@@ -161,10 +161,10 @@ export default function FloatingContactBadges() {
               animate={{ opacity: 1, x: 0 }}
               exit={{ opacity: 0, x: -10 }}
               transition={{ duration: 0.2 }}
-              className="absolute left-[70px] bg-green-600 text-white px-3 py-1.5 rounded-md text-sm font-medium shadow-lg whitespace-nowrap"
+              className="absolute left-[70px] bg-white text-black px-3 py-1.5 rounded-md text-sm font-medium shadow-lg whitespace-nowrap"
             >
               JustDial
-              <div className="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-1 w-2 h-2 bg-green-600 rotate-45"></div>
+              <div className="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-1 w-2 h-2 bg-white rotate-45"></div>
             </motion.div>
           )}
         </AnimatePresence>

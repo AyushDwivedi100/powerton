@@ -753,6 +753,7 @@
       "followLinkedIn": "Подписаться на Powerton Engineering в LinkedIn",
       "followTwitter": "Подписаться на Powerton Engineering в X (ранее Twitter)",
       "followFacebook": "Подписаться на Powerton Engineering в Facebook",
+      "followYouTube": "Подписаться на Powerton Engineering в YouTube",
       "toggleMobileMenu": "Переключить мобильное меню",
       "closeMobileMenu": "Закрыть мобильное меню",
       "openMobileMenu": "Открыть мобильное меню",
@@ -767,7 +768,17 @@
       "callPrimary": "Позвонить в Powerton Engineering - Основной номер",
       "callSecondary": "Позвонить в Powerton Engineering - Дополнительный номер",
       "emailPowerton": "Написать в Powerton Engineering",
-      "viewOfficeLocation": "Посмотреть местоположение офиса Powerton Engineering на Google Maps"
+      "viewOfficeLocation": "Посмотреть местоположение офиса Powerton Engineering на Google Maps",
+      "skipToMain": "Перейти к основному содержанию",
+      "mainContent": "Основная область содержания",
+      "availableStockSidebar": "Боковая панель доступных товаров на складе",
+      "closeStockSidebar": "Закрыть боковую панель доступных товаров на складе",
+      "previousProduct": "Посмотреть предыдущий продукт",
+      "nextProduct": "Посмотреть следующий продукт",
+      "productNavigation": "Навигация по продуктам",
+      "viewProductOf": "Посмотреть продукт {{current}} из {{total}}",
+      "whatsappUs": "Напишите нам в WhatsApp по номеру {{phone}}",
+      "openStockSidebar": "Открыть боковую панель доступных товаров на складе для просмотра продуктов"
     },
     "messages": {
       "whatsappGreeting": "Здравствуйте! Я заинтересован в ваших продуктах и услугах."
@@ -777,6 +788,18 @@
       "heroImage": "Решения для автоматизации промышленности и электротехники",
       "heroBackground": "Фон предприятия промышленной автоматизации, демонстрирующий опыт Powerton Engineering",
       "productImage": "Изображение продукта {{productName}}"
+    },
+    "stockAlert": {
+      "availableStock": "Доступный товар",
+      "inStock": "В наличии",
+      "productsReady": "{{count}} премиум-товаров готовы к отправке",
+      "contactUs": "Связаться с нами",
+      "directCall": "Прямой звонок",
+      "whatsapp": "WhatsApp",
+      "sameDayDispatch": "Отправка в тот же день",
+      "isoCertified": "Сертификация ISO",
+      "newStock": "Новый товар",
+      "viewProducts": "Посмотреть товары"
     }
   }
 }
