@@ -13,6 +13,7 @@ import {
 import { useTranslation } from "react-i18next";
 import { Button } from "@/components/ui/button";
 import { getAllProductsForStockAlert, shouldShowPopup } from "@/data/productImages";
+import { useRTL } from "@/hooks/use-rtl";
 
 interface StockAlertSidebarProps {
   isOpen: boolean;
@@ -27,6 +28,7 @@ export const StockAlertSidebar = memo(function StockAlertSidebar({
   position = "top",
 }: StockAlertSidebarProps) {
   const { t } = useTranslation();
+  const isRtl = useRTL();
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isAutoCycling, setIsAutoCycling] = useState(true);
   const sidebarRef = useRef<HTMLElement>(null);
@@ -108,15 +110,17 @@ export const StockAlertSidebar = memo(function StockAlertSidebar({
         {isOpen && (
           <motion.aside
             ref={sidebarRef}
-            initial={{ x: "-100%" }}
+            initial={{ x: isRtl ? "100%" : "-100%" }}
             animate={{ x: 0 }}
-            exit={{ x: "-100%" }}
+            exit={{ x: isRtl ? "100%" : "-100%" }}
             transition={{
               type: "tween",
               duration: 0.2,
               ease: [0.4, 0, 0.2, 1],
             }}
-            className="fixed left-0 top-0 h-screen w-[45%] min-w-[380px] max-w-[600px] bg-background border-r border-border shadow-2xl z-[70] flex flex-col"
+            className={`fixed top-0 h-screen w-[45%] min-w-[380px] max-w-[600px] bg-background shadow-2xl z-[70] flex flex-col ${
+              isRtl ? "right-0 border-l" : "left-0 border-r"
+            } border-border`}
             style={{ 
               willChange: 'transform'
             }}
@@ -332,20 +336,33 @@ export const StockAlertSidebar = memo(function StockAlertSidebar({
       {!isOpen && (
         <button
           onClick={onToggle}
-          className="fixed left-0 top-[30%] z-50 bg-primary text-primary-foreground px-1 py-7 rounded-r-xl shadow-lg group transition-all hover:bg-primary/90 hover:px-2.5 flex flex-col items-center gap-2 border-r border-t border-b border-primary-foreground/20"
+          className={`fixed top-[30%] z-50 bg-primary text-primary-foreground px-1 py-7 shadow-lg group transition-all hover:bg-primary/90 hover:px-2.5 flex flex-col items-center gap-2 border-t border-b border-primary-foreground/20 ${
+            isRtl 
+              ? "right-0 rounded-l-xl border-l" 
+              : "left-0 rounded-r-xl border-r"
+          }`}
           data-testid="button-open-drawer"
           aria-label={t("common:ui.ariaLabels.openStockSidebar")}
           style={{ transform: 'translate3d(0, 0, 0)' }}
         >
           <div className="relative">
             <div
-              className="absolute -top-1 -right-1 h-2 w-2 bg-green-400 rounded-full animate-pulse"
+              className={`absolute -top-1 h-2 w-2 bg-green-400 rounded-full animate-pulse ${
+                isRtl ? "-left-1" : "-right-1"
+              }`}
               aria-hidden="true"
             ></div>
-            <ChevronRight
-              className="h-4 w-4 transition-transform group-hover:translate-x-1"
-              aria-hidden="true"
-            />
+            {isRtl ? (
+              <ChevronLeft
+                className="h-4 w-4 transition-transform group-hover:-translate-x-1"
+                aria-hidden="true"
+              />
+            ) : (
+              <ChevronRight
+                className="h-4 w-4 transition-transform group-hover:translate-x-1"
+                aria-hidden="true"
+              />
+            )}
           </div>
           <div className="flex flex-col items-center gap-1.5 writing-mode-vertical">
             <Package className="h-3.5 w-3.5 mb-1" aria-hidden="true" />
