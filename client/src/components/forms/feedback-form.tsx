@@ -24,26 +24,17 @@ import { Textarea } from "@/components/ui/textarea";
 import { useToast } from "@/hooks/use-toast";
 import { useTranslation } from "react-i18next";
 
-const createFeedbackSchema = (t: any) =>
-  z.object({
-    rating: z.number().min(1, t("forms:feedback.fields.rating.validation.required")).max(5),
-    didNotLike: z.string().min(1, t("forms:feedback.fields.didNotLike.validation.required")),
-    whyNoQuote: z.string().min(1, t("forms:feedback.fields.whyNoQuote.validation.required")),
-    missingInfo: z.string().min(1, t("forms:feedback.fields.missingInfo.validation.required")),
-    name: z.string().optional(),
-    email: z.string().email(t("forms:feedback.fields.email.validation.invalid")).optional().or(z.literal("")),
-    company: z.string().optional(),
-  });
+const feedbackSchema = z.object({
+  rating: z.number().min(1, "Please provide a rating").max(5),
+  didNotLike: z.string().min(1, "This field is required"),
+  whyNoQuote: z.string().min(1, "This field is required"),
+  missingInfo: z.string().min(1, "This field is required"),
+  name: z.string().optional(),
+  email: z.string().email("Invalid email").optional().or(z.literal("")),
+  company: z.string().optional(),
+});
 
-type FeedbackFormData = {
-  rating: number;
-  didNotLike: string;
-  whyNoQuote: string;
-  missingInfo: string;
-  name?: string;
-  email?: string;
-  company?: string;
-};
+type FeedbackFormData = z.infer<typeof feedbackSchema>;
 
 export default function FeedbackForm() {
   const [isOpen, setIsOpen] = useState(false);
@@ -52,8 +43,6 @@ export default function FeedbackForm() {
   const [hoveredStar, setHoveredStar] = useState(0);
   const { toast } = useToast();
   const { t } = useTranslation("forms");
-
-  const feedbackSchema = createFeedbackSchema(t);
 
   const form = useForm<FeedbackFormData>({
     resolver: zodResolver(feedbackSchema),
