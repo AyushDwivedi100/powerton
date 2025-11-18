@@ -771,7 +771,16 @@
       "emailPowerton": "Email Powerton Engineering",
       "viewOfficeLocation": "View Powerton Engineering office location on Google Maps",
       "skipToMain": "Skip to main content",
-      "mainContent": "Main content area"
+      "mainContent": "Main content area",
+      "availableStockSidebar": "Available stock products sidebar",
+      "closeStockSidebar": "Close available stock sidebar",
+      "previousProduct": "View previous product",
+      "nextProduct": "View next product",
+      "productNavigation": "Product navigation",
+      "viewProductOf": "View product {{current}} of {{total}}",
+      "whatsappUs": "Message us on WhatsApp at {{phone}}",
+      "openStockSidebar": "Open available stock sidebar to view products",
+      "clickViewStock": "Click to view available stock products"
     },
     "messages": {
       "whatsappGreeting": "Hello! I'm interested in your products and services."
@@ -781,6 +790,18 @@
       "heroImage": "Industrial automation and electrical engineering solutions",
       "heroBackground": "Industrial automation facility background showcasing Powerton Engineering's expertise",
       "productImage": "{{productName}} product image"
+    },
+    "stockAlert": {
+      "availableStock": "Available Stock",
+      "inStock": "In Stock",
+      "productsReady": "{{count}} premium products ready for dispatch",
+      "contactUs": "Contact Us",
+      "directCall": "Direct Call",
+      "whatsapp": "WhatsApp",
+      "sameDayDispatch": "Same-day dispatch",
+      "isoCertified": "ISO certified",
+      "newStock": "New Stock",
+      "viewProducts": "View Products"
     }
   }
 }
