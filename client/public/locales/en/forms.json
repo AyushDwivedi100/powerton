@@ -322,5 +322,74 @@
       "title": "Application Submission Failed",
       "description": "Please select a file smaller than 5MB."
     }
+  },
+  "feedback": {
+    "title": "We'd Love Your Feedback!",
+    "description": "Help us improve your experience. Your feedback is valuable to us.",
+    "fields": {
+      "rating": {
+        "label": "How would you rate your experience? *",
+        "validation": {
+          "required": "Please provide a rating"
+        }
+      },
+      "didNotLike": {
+        "label": "What didn't you like about our website? *",
+        "placeholder": "Tell us what could be improved...",
+        "validation": {
+          "required": "This field is required"
+        }
+      },
+      "whyNoQuote": {
+        "label": "Why didn't you request a quote? *",
+        "placeholder": "Let us know what held you back...",
+        "validation": {
+          "required": "This field is required"
+        }
+      },
+      "missingInfo": {
+        "label": "What information were you looking for? *",
+        "placeholder": "Help us understand what you needed...",
+        "validation": {
+          "required": "This field is required"
+        }
+      },
+      "name": {
+        "label": "Name",
+        "placeholder": "Your name"
+      },
+      "email": {
+        "label": "Email",
+        "placeholder": "your@email.com",
+        "validation": {
+          "invalid": "Invalid email"
+        }
+      },
+      "company": {
+        "label": "Company",
+        "placeholder": "Your company name"
+      }
+    },
+    "sections": {
+      "contactInfo": "Contact Information (Optional)"
+    },
+    "buttons": {
+      "submit": "Submit Feedback",
+      "submitting": "Submitting...",
+      "skip": "Skip"
+    },
+    "messages": {
+      "notProvided": "Not provided",
+      "anonymous": "Anonymous",
+      "success": {
+        "title": "Thank you for your feedback!",
+        "description": "Your feedback has been submitted successfully."
+      },
+      "error": {
+        "title": "Submission Failed",
+        "description": "There was an error submitting your feedback. Please try again.",
+        "failedToSubmit": "Failed to submit feedback"
+      }
+    }
   }
 }

@@ -24,17 +24,26 @@ import { Textarea } from "@/components/ui/textarea";
 import { useToast } from "@/hooks/use-toast";
 import { useTranslation } from "react-i18next";
 
-const feedbackSchema = z.object({
-  rating: z.number().min(1, "Please provide a rating").max(5),
-  didNotLike: z.string().min(1, "This field is required"),
-  whyNoQuote: z.string().min(1, "This field is required"),
-  missingInfo: z.string().min(1, "This field is required"),
-  name: z.string().optional(),
-  email: z.string().email("Invalid email").optional().or(z.literal("")),
-  company: z.string().optional(),
-});
+const createFeedbackSchema = (t: any) =>
+  z.object({
+    rating: z.number().min(1, t("forms:feedback.fields.rating.validation.required")).max(5),
+    didNotLike: z.string().min(1, t("forms:feedback.fields.didNotLike.validation.required")),
+    whyNoQuote: z.string().min(1, t("forms:feedback.fields.whyNoQuote.validation.required")),
+    missingInfo: z.string().min(1, t("forms:feedback.fields.missingInfo.validation.required")),
+    name: z.string().optional(),
+    email: z.string().email(t("forms:feedback.fields.email.validation.invalid")).optional().or(z.literal("")),
+    company: z.string().optional(),
+  });
 
-type FeedbackFormData = z.infer<typeof feedbackSchema>;
+type FeedbackFormData = {
+  rating: number;
+  didNotLike: string;
+  whyNoQuote: string;
+  missingInfo: string;
+  name?: string;
+  email?: string;
+  company?: string;
+};
 
 export default function FeedbackForm() {
   const [isOpen, setIsOpen] = useState(false);
@@ -42,7 +51,9 @@ export default function FeedbackForm() {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [hoveredStar, setHoveredStar] = useState(0);
   const { toast } = useToast();
-  const { t } = useTranslation();
+  const { t } = useTranslation("forms");
+
+  const feedbackSchema = createFeedbackSchema(t);
 
   const form = useForm<FeedbackFormData>({
     resolver: zodResolver(feedbackSchema),
@@ -98,12 +109,12 @@ export default function FeedbackForm() {
     try {
       const formData = new FormData();
       formData.append("rating", data.rating.toString());
-      formData.append("didNotLike", data.didNotLike || "Not provided");
-      formData.append("whyNoQuote", data.whyNoQuote || "Not provided");
-      formData.append("missingInfo", data.missingInfo || "Not provided");
-      formData.append("name", data.name || "Anonymous");
-      formData.append("email", data.email || "Not provided");
-      formData.append("company", data.company || "Not provided");
+      formData.append("didNotLike", data.didNotLike || t("feedback.messages.notProvided"));
+      formData.append("whyNoQuote", data.whyNoQuote || t("feedback.messages.notProvided"));
+      formData.append("missingInfo", data.missingInfo || t("feedback.messages.notProvided"));
+      formData.append("name", data.name || t("feedback.messages.anonymous"));
+      formData.append("email", data.email || t("feedback.messages.notProvided"));
+      formData.append("company", data.company || t("feedback.messages.notProvided"));
 
       const response = await fetch("/feedback-handler.php", {
         method: "POST",
@@ -114,18 +125,18 @@ export default function FeedbackForm() {
 
       if (result.success) {
         toast({
-          title: "Thank you for your feedback!",
-          description: "Your feedback has been submitted successfully.",
+          title: t("feedback.messages.success.title"),
+          description: t("feedback.messages.success.description"),
         });
         setIsOpen(false);
         form.reset();
       } else {
-        throw new Error(result.message || "Failed to submit feedback");
+        throw new Error(result.message || t("feedback.messages.error.failedToSubmit"));
       }
     } catch (error) {
       toast({
-        title: "Submission Failed",
-        description: "There was an error submitting your feedback. Please try again.",
+        title: t("feedback.messages.error.title"),
+        description: t("feedback.messages.error.description"),
         variant: "destructive",
       });
     } finally {
@@ -142,10 +153,10 @@ export default function FeedbackForm() {
       <DialogContent className="max-w-2xl max-h-[90vh] overflow-y-auto" data-testid="dialog-exit-feedback">
         <DialogHeader>
           <DialogTitle className="text-2xl" data-testid="text-feedback-title">
-            We'd Love Your Feedback!
+            {t("feedback.title")}
           </DialogTitle>
           <DialogDescription data-testid="text-feedback-description">
-            Help us improve your experience. Your feedback is valuable to us.
+            {t("feedback.description")}
           </DialogDescription>
         </DialogHeader>
 
@@ -157,7 +168,7 @@ export default function FeedbackForm() {
               render={({ field }) => (
                 <FormItem>
                   <FormLabel className="text-base font-semibold" data-testid="label-rating">
-                    How would you rate your experience? *
+                    {t("feedback.fields.rating.label")}
                   </FormLabel>
                   <FormControl>
                     <div className="flex gap-2" data-testid="rating-stars">
@@ -193,11 +204,11 @@ export default function FeedbackForm() {
               render={({ field }) => (
                 <FormItem>
                   <FormLabel data-testid="label-did-not-like">
-                    What didn't you like about our website? *
+                    {t("feedback.fields.didNotLike.label")}
                   </FormLabel>
                   <FormControl>
                     <Textarea
-                      placeholder="Tell us what could be improved..."
+                      placeholder={t("feedback.fields.didNotLike.placeholder")}
                       className="resize-none"
                       rows={3}
                       {...field}
@@ -215,11 +226,11 @@ export default function FeedbackForm() {
               render={({ field }) => (
                 <FormItem>
                   <FormLabel data-testid="label-why-no-quote">
-                    Why didn't you request a quote? *
+                    {t("feedback.fields.whyNoQuote.label")}
                   </FormLabel>
                   <FormControl>
                     <Textarea
-                      placeholder="Let us know what held you back..."
+                      placeholder={t("feedback.fields.whyNoQuote.placeholder")}
                       className="resize-none"
                       rows={3}
                       {...field}
@@ -237,11 +248,11 @@ export default function FeedbackForm() {
               render={({ field }) => (
                 <FormItem>
                   <FormLabel data-testid="label-missing-info">
-                    What information were you looking for? *
+                    {t("feedback.fields.missingInfo.label")}
                   </FormLabel>
                   <FormControl>
                     <Textarea
-                      placeholder="Help us understand what you needed..."
+                      placeholder={t("feedback.fields.missingInfo.placeholder")}
                       className="resize-none"
                       rows={3}
                       {...field}
@@ -255,7 +266,7 @@ export default function FeedbackForm() {
 
             <div className="space-y-4 pt-4 border-t">
               <p className="text-sm text-muted-foreground">
-                Contact Information (Optional)
+                {t("feedback.sections.contactInfo")}
               </p>
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -264,10 +275,10 @@ export default function FeedbackForm() {
                   name="name"
                   render={({ field }) => (
                     <FormItem>
-                      <FormLabel data-testid="label-name">Name</FormLabel>
+                      <FormLabel data-testid="label-name">{t("feedback.fields.name.label")}</FormLabel>
                       <FormControl>
                         <Input
-                          placeholder="Your name"
+                          placeholder={t("feedback.fields.name.placeholder")}
                           {...field}
                           data-testid="input-name"
                         />
@@ -282,11 +293,11 @@ export default function FeedbackForm() {
                   name="email"
                   render={({ field }) => (
                     <FormItem>
-                      <FormLabel data-testid="label-email">Email</FormLabel>
+                      <FormLabel data-testid="label-email">{t("feedback.fields.email.label")}</FormLabel>
                       <FormControl>
                         <Input
                           type="email"
-                          placeholder="your@email.com"
+                          placeholder={t("feedback.fields.email.placeholder")}
                           {...field}
                           data-testid="input-email"
                         />
@@ -302,10 +313,10 @@ export default function FeedbackForm() {
                 name="company"
                 render={({ field }) => (
                   <FormItem>
-                    <FormLabel data-testid="label-company">Company</FormLabel>
+                    <FormLabel data-testid="label-company">{t("feedback.fields.company.label")}</FormLabel>
                     <FormControl>
                       <Input
-                        placeholder="Your company name"
+                        placeholder={t("feedback.fields.company.placeholder")}
                         {...field}
                         data-testid="input-company"
                       />
@@ -323,7 +334,7 @@ export default function FeedbackForm() {
                 className="flex-1"
                 data-testid="button-submit-feedback"
               >
-                {isSubmitting ? "Submitting..." : "Submit Feedback"}
+                {isSubmitting ? t("feedback.buttons.submitting") : t("feedback.buttons.submit")}
               </Button>
               <Button
                 type="button"
@@ -331,7 +342,7 @@ export default function FeedbackForm() {
                 onClick={handleClose}
                 data-testid="button-skip-feedback"
               >
-                Skip
+                {t("feedback.buttons.skip")}
               </Button>
             </div>
           </form>
