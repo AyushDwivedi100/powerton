@@ -151,7 +151,10 @@ export default function Footer() {
                       className="hover:text-orange-400 transition-colors text-wrap-safe"
                     >
                       {String(
-                        t(`products:categories.${product.id}.title`, product.title),
+                        t(
+                          `products:categories.${product.id}.title`,
+                          product.title,
+                        ),
                       )}
                     </Link>
                   </li>
