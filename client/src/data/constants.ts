@@ -29,7 +29,7 @@ export const COMPANY_INFO = {
     sunday: "Sunday: Emergency Support Only",
   },
   socialMedia: {
-    linkedin: "#",
+    linkedin: "https://www.linkedin.com/company/powerton-engineering/",
     twitter: "#",
     facebook: "https://www.facebook.com/PowertonEngineering/",
     youtube: "https://youtube.com/@powertonengineering7485?si=SpJesD7qxsYVGEiH",
@@ -61,7 +61,7 @@ export const getCompanyInfo = (t: any) => ({
     sunday: t("common:company.businessHours.sunday"),
   },
   socialMedia: {
-    linkedin: "#",
+    linkedin: "https://www.linkedin.com/company/powerton-engineering/",
     twitter: "#",
     facebook: "https://www.facebook.com/PowertonEngineering/",
     youtube: "https://youtube.com/@powertonengineering7485?si=SpJesD7qxsYVGEiH",

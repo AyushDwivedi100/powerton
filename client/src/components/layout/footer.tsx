@@ -146,7 +146,7 @@ export default function Footer() {
                       href={`/services-category/${service.id}`}
                       className="hover:text-orange-400 transition-colors text-wrap-safe"
                     >
-                      {t(`services:items.${service.id}`, service.title)}
+                      {String(t(`services:items.${service.id}`, service.title))}
                     </Link>
                   </li>
                 ))}
