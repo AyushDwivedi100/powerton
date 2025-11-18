@@ -322,5 +322,74 @@
       "title": "فشل إرسال الطلب",
       "description": "الرجاء تحديد ملف أصغر من 5 ميجابايت."
     }
+  },
+  "feedback": {
+    "title": "نحن نحب ملاحظاتك!",
+    "description": "ساعدنا في تحسين تجربتك. ملاحظاتك قيمة بالنسبة لنا.",
+    "fields": {
+      "rating": {
+        "label": "كيف تقيم تجربتك؟ *",
+        "validation": {
+          "required": "الرجاء تقديم تقييم"
+        }
+      },
+      "didNotLike": {
+        "label": "ما الذي لم يعجبك في موقعنا؟ *",
+        "placeholder": "أخبرنا ما الذي يمكن تحسينه...",
+        "validation": {
+          "required": "هذا الحقل مطلوب"
+        }
+      },
+      "whyNoQuote": {
+        "label": "لماذا لم تطلب عرض أسعار؟ *",
+        "placeholder": "أخبرنا ما الذي منعك...",
+        "validation": {
+          "required": "هذا الحقل مطلوب"
+        }
+      },
+      "missingInfo": {
+        "label": "ما هي المعلومات التي كنت تبحث عنها؟ *",
+        "placeholder": "ساعدنا في فهم ما كنت تحتاجه...",
+        "validation": {
+          "required": "هذا الحقل مطلوب"
+        }
+      },
+      "name": {
+        "label": "الاسم",
+        "placeholder": "اسمك"
+      },
+      "email": {
+        "label": "البريد الإلكتروني",
+        "placeholder": "your@email.com",
+        "validation": {
+          "invalid": "بريد إلكتروني خاطئ"
+        }
+      },
+      "company": {
+        "label": "الشركة",
+        "placeholder": "اسم شركتك"
+      }
+    },
+    "sections": {
+      "contactInfo": "معلومات الاتصال (اختياري)"
+    },
+    "buttons": {
+      "submit": "إرسال ملاحظات",
+      "submitting": "إرسال...",
+      "skip": "تخطي"
+    },
+    "messages": {
+      "notProvided": "غير مقدم",
+      "anonymous": "مجهول",
+      "success": {
+        "title": "شكرا لك على ملاحظاتك!",
+        "description": "تم إرسال ملاحظاتك بنجاح."
+      },
+      "error": {
+        "title": "فشل الإرسال",
+        "description": "حدث خطأ أثناء إرسال ملاحظاتك. يرجى المحاولة مرة أخرى.",
+        "failedToSubmit": "فشل إرسال الملاحظات"
+      }
+    }
   }
 }

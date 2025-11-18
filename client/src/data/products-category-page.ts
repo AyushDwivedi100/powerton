@@ -131,10 +131,6 @@ const categoryConfig: Record<
     backgroundImage: electricalBgImage,
     gridCols: "grid-cols-1 md:grid-cols-2 lg:grid-cols-3",
   },
-  "electrical-components": {
-    backgroundImage: electricalBgImage,
-    gridCols: "grid-cols-1 md:grid-cols-2 lg:grid-cols-3",
-  },
   "solar-products": {
     backgroundImage: solarProductsImage,
     gridCols: "grid-cols-1 md:grid-cols-2 lg:grid-cols-3",

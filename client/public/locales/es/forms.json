@@ -322,5 +322,74 @@
       "title": "Error al enviar la solicitud",
       "description": "Por favor, seleccione un archivo más pequeño de 5MB."
     }
+  },
+  "feedback": {
+    "title": "¡Nos encantaría recibir sus comentarios!",
+    "description": "Ayúdenos a mejorar su experiencia. Sus comentarios son valiosos para nosotros.",
+    "fields": {
+      "rating": {
+        "label": "¿Cómo calificaría su experiencia? *",
+        "validation": {
+          "required": "Por favor, proporcione una calificación"
+        }
+      },
+      "didNotLike": {
+        "label": "¿Qué no le gustó de nuestro sitio web? *",
+        "placeholder": "Díganos qué se podría mejorar...",
+        "validation": {
+          "required": "Este campo es obligatorio"
+        }
+      },
+      "whyNoQuote": {
+        "label": "¿Por qué no solicitó una cotización? *",
+        "placeholder": "Háganos saber qué lo detuvo...",
+        "validation": {
+          "required": "Este campo es obligatorio"
+        }
+      },
+      "missingInfo": {
+        "label": "¿Qué información estaba buscando? *",
+        "placeholder": "Ayúdenos a comprender lo que necesitaba...",
+        "validation": {
+          "required": "Este campo es obligatorio"
+        }
+      },
+      "name": {
+        "label": "Nombre",
+        "placeholder": "Su nombre"
+      },
+      "email": {
+        "label": "Correo electrónico",
+        "placeholder": "su.correo@ejemplo.com",
+        "validation": {
+          "invalid": "Correo electrónico inválido"
+        }
+      },
+      "company": {
+        "label": "Empresa",
+        "placeholder": "Nombre de su empresa"
+      }
+    },
+    "sections": {
+      "contactInfo": "Información de contacto (opcional)"
+    },
+    "buttons": {
+      "submit": "Enviar comentarios",
+      "submitting": "Enviando...",
+      "skip": "Omitir"
+    },
+    "messages": {
+      "notProvided": "No proporcionado",
+      "anonymous": "Anónimo",
+      "success": {
+        "title": "¡Gracias por sus comentarios!",
+        "description": "Sus comentarios han sido enviados con éxito."
+      },
+      "error": {
+        "title": "Error al enviar",
+        "description": "Hubo un error al enviar sus comentarios. Por favor, inténtelo de nuevo.",
+        "failedToSubmit": "No se pudieron enviar los comentarios"
+      }
+    }
   }
 }

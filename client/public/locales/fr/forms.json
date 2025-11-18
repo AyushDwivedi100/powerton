@@ -322,5 +322,74 @@
       "title": "Échec de la soumission de la candidature",
       "description": "Veuillez sélectionner un fichier de moins de 5 Mo."
     }
+  },
+  "feedback": {
+    "title": "Nous aimerions avoir votre avis !",
+    "description": "Aidez-nous à améliorer votre expérience. Vos commentaires sont précieux pour nous.",
+    "fields": {
+      "rating": {
+        "label": "Comment évalueriez-vous votre expérience ? *",
+        "validation": {
+          "required": "Veuillez fournir une évaluation"
+        }
+      },
+      "didNotLike": {
+        "label": "Qu'est-ce que vous n'avez pas aimé sur notre site web ? *",
+        "placeholder": "Dites-nous ce qui pourrait être amélioré...",
+        "validation": {
+          "required": "Ce champ est obligatoire"
+        }
+      },
+      "whyNoQuote": {
+        "label": "Pourquoi n'avez-vous pas demandé de devis ? *",
+        "placeholder": "Faites-nous savoir ce qui vous a retenu...",
+        "validation": {
+          "required": "Ce champ est obligatoire"
+        }
+      },
+      "missingInfo": {
+        "label": "Quelles informations recherchiez-vous ? *",
+        "placeholder": "Aidez-nous à comprendre ce dont vous aviez besoin...",
+        "validation": {
+          "required": "Ce champ est obligatoire"
+        }
+      },
+      "name": {
+        "label": "Nom",
+        "placeholder": "Votre nom"
+      },
+      "email": {
+        "label": "E-mail",
+        "placeholder": "votre@email.com",
+        "validation": {
+          "invalid": "Adresse e-mail invalide"
+        }
+      },
+      "company": {
+        "label": "Entreprise",
+        "placeholder": "Nom de votre entreprise"
+      }
+    },
+    "sections": {
+      "contactInfo": "Informations de contact (facultatif)"
+    },
+    "buttons": {
+      "submit": "Envoyer un commentaire",
+      "submitting": "Envoi en cours...",
+      "skip": "Passer"
+    },
+    "messages": {
+      "notProvided": "Non fourni",
+      "anonymous": "Anonyme",
+      "success": {
+        "title": "Merci pour votre avis !",
+        "description": "Votre avis a été soumis avec succès."
+      },
+      "error": {
+        "title": "Échec de la soumission",
+        "description": "Une erreur s'est produite lors de la soumission de votre avis. Veuillez réessayer.",
+        "failedToSubmit": "Échec de la soumission de l'avis"
+      }
+    }
   }
 }

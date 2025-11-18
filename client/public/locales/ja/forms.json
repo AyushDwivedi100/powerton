@@ -322,5 +322,74 @@
       "title": "応募の送信に失敗しました",
       "description": "5MBより小さいファイルを選択してください。"
     }
+  },
+  "feedback": {
+    "title": "フィードバックをお寄せください！",
+    "description": "お客様のエクスペリエンスを向上させるためにご協力ください。お客様のフィードバックは私たちにとって貴重です。",
+    "fields": {
+      "rating": {
+        "label": "あなたの経験をどのように評価しますか？ *",
+        "validation": {
+          "required": "評価を入力してください"
+        }
+      },
+      "didNotLike": {
+        "label": "当社のウェブサイトのどこが気に入らなかったですか？ *",
+        "placeholder": "改善できる点をお知らせください...",
+        "validation": {
+          "required": "このフィールドは必須です"
+        }
+      },
+      "whyNoQuote": {
+        "label": "なぜ見積もりを依頼しなかったのですか？ *",
+        "placeholder": "何があなたをためらわせたか教えてください...",
+        "validation": {
+          "required": "このフィールドは必須です"
+        }
+      },
+      "missingInfo": {
+        "label": "どのような情報をお探しでしたか？ *",
+        "placeholder": "あなたが必要としていたものを理解させてください...",
+        "validation": {
+          "required": "このフィールドは必須です"
+        }
+      },
+      "name": {
+        "label": "名前",
+        "placeholder": "あなたの名前"
+      },
+      "email": {
+        "label": "メールアドレス",
+        "placeholder": "your@email.com",
+        "validation": {
+          "invalid": "無効なメールアドレス"
+        }
+      },
+      "company": {
+        "label": "会社",
+        "placeholder": "あなたの会社名"
+      }
+    },
+    "sections": {
+      "contactInfo": "連絡先情報（オプション）"
+    },
+    "buttons": {
+      "submit": "フィードバックを送信",
+      "submitting": "送信中...",
+      "skip": "スキップ"
+    },
+    "messages": {
+      "notProvided": "提供されていません",
+      "anonymous": "匿名",
+      "success": {
+        "title": "フィードバックありがとうございます！",
+        "description": "フィードバックは正常に送信されました。"
+      },
+      "error": {
+        "title": "送信に失敗しました",
+        "description": "フィードバックの送信中にエラーが発生しました。もう一度お試しください。",
+        "failedToSubmit": "フィードバックの送信に失敗しました"
+      }
+    }
   }
 }

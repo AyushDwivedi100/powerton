@@ -322,5 +322,74 @@
       "title": "An kasa Ƙaddamar da Aikace-Aikace",
       "description": "Da fatan za a zaɓi fayil na girman da 5MB."
     }
+  },
+  "feedback": {
+    "title": "Muna Son Ra'ayinku!",
+    "description": "Taimaka mana inganta ƙwarewarku. Ra'ayinku yana da mahimmanci a gare mu.",
+    "fields": {
+      "rating": {
+        "label": "Yaya za ku kimanta ƙwarewarku? *",
+        "validation": {
+          "required": "Da fatan za a ba da ƙima"
+        }
+      },
+      "didNotLike": {
+        "label": "Menene ba ku so game da gidan yanar gizon mu? *",
+        "placeholder": "Faɗa mana abin da za a iya ingantawa...",
+        "validation": {
+          "required": "Wannan filin ya zama dole"
+        }
+      },
+      "whyNoQuote": {
+        "label": "Me ya sa ba ku nemi ƙididdiga ba? *",
+        "placeholder": "Bari mu san abin da ya hana ku...",
+        "validation": {
+          "required": "Wannan filin ya zama dole"
+        }
+      },
+      "missingInfo": {
+        "label": "Wane bayani kuke nema? *",
+        "placeholder": "Taimaka mana mu fahimci abin da kuke buƙata...",
+        "validation": {
+          "required": "Wannan filin ya zama dole"
+        }
+      },
+      "name": {
+        "label": "Suna",
+        "placeholder": "Sunanka"
+      },
+      "email": {
+        "label": "Imel",
+        "placeholder": "your@email.com",
+        "validation": {
+          "invalid": "Imel ba daidai ba"
+        }
+      },
+      "company": {
+        "label": "Kamfani",
+        "placeholder": "Sunan kamfaninku"
+      }
+    },
+    "sections": {
+      "contactInfo": "Bayanin Tuntuɓa (Na Zaɓi)"
+    },
+    "buttons": {
+      "submit": "Aika Ra'ayi",
+      "submitting": "Ana Aikawa...",
+      "skip": "Tsallake"
+    },
+    "messages": {
+      "notProvided": "Ba a bayar ba",
+      "anonymous": "Ba a sani ba",
+      "success": {
+        "title": "Na gode da ra'ayinku!",
+        "description": "An ƙaddamar da ra'ayinku cikin nasara."
+      },
+      "error": {
+        "title": "Ƙaddamarwa ta Gagara",
+        "description": "An sami kuskure wajen ƙaddamar da ra'ayinku. Da fatan za a sake gwadawa.",
+        "failedToSubmit": "An kasa ƙaddamar da ra'ayi"
+      }
+    }
   }
 }

@@ -322,5 +322,74 @@
       "title": "申请提交失败",
       "description": "请选择小于 5MB 的文件。"
     }
+  },
+  "feedback": {
+    "title": "我们很乐意听取您的反馈！",
+    "description": "帮助我们改善您的体验。您的反馈对我们很有价值。",
+    "fields": {
+      "rating": {
+        "label": "您如何评价您的体验？ *",
+        "validation": {
+          "required": "请提供评分"
+        }
+      },
+      "didNotLike": {
+        "label": "您不喜欢我们网站的什么？ *",
+        "placeholder": "告诉我们有哪些可以改进的地方...",
+        "validation": {
+          "required": "此字段是必需的"
+        }
+      },
+      "whyNoQuote": {
+        "label": "您为什么没有要求报价？ *",
+        "placeholder": "告诉我们是什么阻止了您...",
+        "validation": {
+          "required": "此字段是必需的"
+        }
+      },
+      "missingInfo": {
+        "label": "您在寻找什么信息？ *",
+        "placeholder": "帮助我们了解您需要什么...",
+        "validation": {
+          "required": "此字段是必需的"
+        }
+      },
+      "name": {
+        "label": "姓名",
+        "placeholder": "您的姓名"
+      },
+      "email": {
+        "label": "电子邮件",
+        "placeholder": "your@email.com",
+        "validation": {
+          "invalid": "无效的电子邮件"
+        }
+      },
+      "company": {
+        "label": "公司",
+        "placeholder": "您的公司名称"
+      }
+    },
+    "sections": {
+      "contactInfo": "联系信息（可选）"
+    },
+    "buttons": {
+      "submit": "提交反馈",
+      "submitting": "提交中...",
+      "skip": "跳过"
+    },
+    "messages": {
+      "notProvided": "未提供",
+      "anonymous": "匿名",
+      "success": {
+        "title": "感谢您的反馈！",
+        "description": "您的反馈已成功提交。"
+      },
+      "error": {
+        "title": "提交失败",
+        "description": "提交您的反馈时出现错误。请重试。",
+        "failedToSubmit": "无法提交反馈"
+      }
+    }
   }
 }

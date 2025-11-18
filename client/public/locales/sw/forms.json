@@ -322,5 +322,74 @@
       "title": "Uwasilishaji wa Maombi Umeshindwa",
       "description": "Tafadhali chagua faili ndogo kuliko 5MB."
     }
+  },
+  "feedback": {
+    "title": "Tunapenda Maoni Yako!",
+    "description": "Tusaidie kuboresha uzoefu wako. Maoni yako ni muhimu kwetu.",
+    "fields": {
+      "rating": {
+        "label": "Unawezaje kukadiria uzoefu wako? *",
+        "validation": {
+          "required": "Tafadhali toa ukadiriaji"
+        }
+      },
+      "didNotLike": {
+        "label": "Hukupenda nini kuhusu tovuti yetu? *",
+        "placeholder": "Tuambie nini kinaweza kuboreshwa...",
+        "validation": {
+          "required": "Sehemu hii inahitajika"
+        }
+      },
+      "whyNoQuote": {
+        "label": "Kwa nini hukuomba nukuu? *",
+        "placeholder": "Tujulishe nini kilikuzuia...",
+        "validation": {
+          "required": "Sehemu hii inahitajika"
+        }
+      },
+      "missingInfo": {
+        "label": "Ulikuwa unatafuta habari gani? *",
+        "placeholder": "Tusaidie kuelewa kile ulichohitaji...",
+        "validation": {
+          "required": "Sehemu hii inahitajika"
+        }
+      },
+      "name": {
+        "label": "Jina",
+        "placeholder": "Jina lako"
+      },
+      "email": {
+        "label": "Barua Pepe",
+        "placeholder": "your@email.com",
+        "validation": {
+          "invalid": "Barua pepe batili"
+        }
+      },
+      "company": {
+        "label": "Kampuni",
+        "placeholder": "Jina la kampuni yako"
+      }
+    },
+    "sections": {
+      "contactInfo": "Maelezo ya Mawasiliano (Si Lazima)"
+    },
+    "buttons": {
+      "submit": "Wasilisha Maoni",
+      "submitting": "Inawasilisha...",
+      "skip": "Ruka"
+    },
+    "messages": {
+      "notProvided": "Haijatolewa",
+      "anonymous": "Haijulikani",
+      "success": {
+        "title": "Asante kwa maoni yako!",
+        "description": "Maoni yako yamewasilishwa kwa mafanikio."
+      },
+      "error": {
+        "title": "Uwasilishaji Umeshindwa",
+        "description": "Kulikuwa na hitilafu ya kuwasilisha maoni yako. Tafadhali jaribu tena.",
+        "failedToSubmit": "Imeshindwa kuwasilisha maoni"
+      }
+    }
   }
 }

@@ -322,5 +322,74 @@
       "title": "Falha ao enviar a inscrição",
       "description": "Por favor, selecione um arquivo menor que 5MB."
     }
+  },
+  "feedback": {
+    "title": "Adoraríamos receber seu feedback!",
+    "description": "Ajude-nos a melhorar sua experiência. Seu feedback é valioso para nós.",
+    "fields": {
+      "rating": {
+        "label": "Como você avalia sua experiência? *",
+        "validation": {
+          "required": "Por favor, forneça uma classificação"
+        }
+      },
+      "didNotLike": {
+        "label": "O que você não gostou em nosso site? *",
+        "placeholder": "Diga-nos o que poderia ser melhorado...",
+        "validation": {
+          "required": "Este campo é obrigatório"
+        }
+      },
+      "whyNoQuote": {
+        "label": "Por que você não solicitou um orçamento? *",
+        "placeholder": "Deixe-nos saber o que o impediu...",
+        "validation": {
+          "required": "Este campo é obrigatório"
+        }
+      },
+      "missingInfo": {
+        "label": "Que informação você estava procurando? *",
+        "placeholder": "Ajude-nos a entender o que você precisava...",
+        "validation": {
+          "required": "Este campo é obrigatório"
+        }
+      },
+      "name": {
+        "label": "Nome",
+        "placeholder": "Seu nome"
+      },
+      "email": {
+        "label": "Email",
+        "placeholder": "seu@email.com",
+        "validation": {
+          "invalid": "Email inválido"
+        }
+      },
+      "company": {
+        "label": "Empresa",
+        "placeholder": "Nome da sua empresa"
+      }
+    },
+    "sections": {
+      "contactInfo": "Informações de contato (opcional)"
+    },
+    "buttons": {
+      "submit": "Enviar feedback",
+      "submitting": "Enviando...",
+      "skip": "Pular"
+    },
+    "messages": {
+      "notProvided": "Não fornecido",
+      "anonymous": "Anônimo",
+      "success": {
+        "title": "Obrigado pelo seu feedback!",
+        "description": "Seu feedback foi enviado com sucesso."
+      },
+      "error": {
+        "title": "Falha no envio",
+        "description": "Ocorreu um erro ao enviar seu feedback. Por favor, tente novamente.",
+        "failedToSubmit": "Falha ao enviar feedback"
+      }
+    }
   }
 }
